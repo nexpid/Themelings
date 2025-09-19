@@ -117,7 +117,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var1)(var5);
     var5 = var5.AnalyticEvents;
     var _closure1_slot8 = var5;
-    var5 = 9;
+    var5 = 10;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -278,17 +278,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var3['updateGameActivityHangStatus'] = var5;
     var3['clearHangStatus'] = var4;
-    var2 = function deleteInvalidHangStatuses() {
+    var4 = function deleteInvalidHangStatuses() {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-            var3 = _closure1_slot7;
-            var2 = var3.getCustomHangStatus;
-            var2 = var2.bind(var3)();
+            var5 = _closure1_slot7;
+            var2 = var5.getCustomHangStatus;
+            var2 = var2.bind(var5)();
             var4 = new Array(1);
             var4[0] = var2;
-            var2 = var3.getRecentStatuses;
-            var7 = var2.bind(var3)();
+            var2 = var5.getRecentStatuses;
+            var7 = var2.bind(var5)();
             var6 = 1;
+            var8 = var4;
+            var6 = arraySpread(var8, var7, var6);
+            var2 = var5.getFavoritedStatuses;
+            var7 = var2.bind(var5)();
             var8 = var4;
             var2 = arraySpread(var8, var7, var6);
             var3 = var4.filter;
@@ -298,46 +302,51 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = arg1;
                     var4 = null;
                     var1 = var4 != var3;
-                    if(!var1) { _fun0006_ip = 23; continue _fun0006 }
+                    if(!var1) { _fun0006_ip = 45; continue _fun0006 }
  12:
-                    var5 = 'string';
-                    var2 = typeof var3;
-                    var1 = var5 !== var2;
- 23:
-                    if(!var1) { _fun0006_ip = 35; continue _fun0006 }
- 26:
+                    var6 = _closure1_slot0;
+                    var5 = _closure1_slot1;
+                    var2 = 9;
+                    var2 = var5[var2];
+                    var5 = undefined;
+                    var2 = var6.bind(var5)(var2);
+                    var2 = var2.bind(var5)(var3);
+                    var1 = !var2;
+ 45:
+                    if(!var1) { _fun0006_ip = 57; continue _fun0006 }
+ 48:
                     var2 = var3.emoji;
                     var1 = var4 != var2;
- 35:
-                    if(!var1) { _fun0006_ip = 99; continue _fun0006 }
- 38:
+ 57:
+                    if(!var1) { _fun0006_ip = 121; continue _fun0006 }
+ 60:
                     var5 = var3.emoji;
                     var6 = var4 == var5;
                     var2 = undefined;
-                    if(var6) { _fun0006_ip = 57; continue _fun0006 }
- 52:
+                    if(var6) { _fun0006_ip = 79; continue _fun0006 }
+ 74:
                     var2 = var5.id;
- 57:
+ 79:
                     var2 = var4 != var2;
-                    if(!var2) { _fun0006_ip = 96; continue _fun0006 }
- 64:
+                    if(!var2) { _fun0006_ip = 118; continue _fun0006 }
+ 86:
                     var6 = _closure1_slot2;
                     var5 = var6.getCustomEmojiById;
                     var3 = var3.emoji;
                     var3 = var3.id;
                     var3 = var5.bind(var6)(var3);
                     var2 = var4 == var3;
- 96:
+ 118:
                     var1 = var2;
- 99:
+ 121:
                     return var1;
                 }
             };
             var4 = var3.bind(var4)(var2);
             var3 = var4.length;
             var2 = 0;
-            if(!(var3 > var2)) { _fun0005_ip = 124; continue _fun0005 }
- 75:
+            if(!(var3 > var2)) { _fun0005_ip = 143; continue _fun0005 }
+ 94:
             var3 = _closure1_slot0;
             var2 = _closure1_slot1;
             var1 = 7;
@@ -350,11 +359,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['type'] = var5;
             var1['statuses'] = var4;
             var1 = var2.bind(var3)(var1);
- 124:
+ 143:
             var1 = undefined;
             return var1;
         }
     };
-    var3['deleteInvalidHangStatuses'] = var2;
+    var3['deleteInvalidHangStatuses'] = var4;
+    var2 = function updateFavoriteHangStatus(arg1, arg2) {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 7;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'UPDATE_FAVORITE_HANG_STATUS';
+        var2['type'] = var5;
+        var5 = arg1;
+        var2['status'] = var5;
+        var5 = arg2;
+        var2['emoji'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var3['updateFavoriteHangStatus'] = var2;
     return var1;
 })();

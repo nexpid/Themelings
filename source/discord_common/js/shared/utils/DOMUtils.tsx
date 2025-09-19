@@ -203,7 +203,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         }
     };
     var3['eventOwnerDocument'] = var4;
-    var2 = function clickedOnVisibleImage(arg1, arg2, arg3, arg4) {
+    var4 = function clickedOnVisibleImage(arg1, arg2, arg3, arg4) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
             var3 = arg1;
@@ -250,6 +250,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var3['clickedOnVisibleImage'] = var2;
+    var3['clickedOnVisibleImage'] = var4;
+    var2 = function getParentElementByClassName(arg1, arg2) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+ 0:
+            var4 = arg2;
+            var1 = arg1;
+            var3 = var1.parentElement;
+            var2 = null;
+            if(!(var2 != var3)) { _fun0007_ip = 51; continue _fun0007 }
+ 18:
+            var5 = var3.classList;
+            var1 = var5.contains;
+            var5 = var1.bind(var5)(var4);
+            var1 = var3;
+            if(var5) { _fun0007_ip = 53; continue _fun0007 }
+ 41:
+            var3 = var1.parentElement;
+            if(var2 != var3) { _fun0007_ip = 18; continue _fun0007 }
+ 51:
+            return var2;
+ 53:
+            return var1;
+        }
+    };
+    var3['getParentElementByClassName'] = var2;
     return var1;
 })();

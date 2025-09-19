@@ -321,8 +321,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17 = var18.bind(var19)(var17);
             var10['title'] = var17;
             var16 = var16 != var15;
-            if(!var16) { _fun0001_ip = 840; continue _fun0001 }
- 803:
+            if(!var16) { _fun0001_ip = 844; continue _fun0001 }
+ 807:
             var19 = _closure1_slot8;
             var18 = _closure1_slot1;
             var20 = _closure1_slot2;
@@ -332,7 +332,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17 = {};
             var17['chunks'] = var15;
             var16 = var19.bind(var4)(var18, var17);
- 840:
+ 844:
             var10['trailing'] = var16;
             var10['chunks'] = var15;
             var15 = _closure1_slot6;

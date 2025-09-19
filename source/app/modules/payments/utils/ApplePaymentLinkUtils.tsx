@@ -4,7 +4,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3 = exports;
     var10 = dependencyMap;
     var _closure1_slot0 = var9;
-    var _closure1_slot1 = var10;
+    var1 = metroImportDefault;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var10;
     var1 = global;
     var6 = var1.Object;
     var5 = var6.defineProperty;
@@ -18,20 +20,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var4 = var9.bind(var1)(var4);
     var5 = var4.Routes;
-    var _closure1_slot2 = var5;
+    var _closure1_slot3 = var5;
     var4 = var4.LinkingTypes;
-    var _closure1_slot3 = var4;
+    var _closure1_slot4 = var4;
     var4 = 1;
     var4 = var10[var4];
     var4 = var9.bind(var1)(var4);
     var4 = var4.PREMIUM_TIER_2_PLANS;
-    var _closure1_slot4 = var4;
+    var _closure1_slot5 = var4;
     var4 = function isInIOSMobileWeb() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
             var3 = _closure1_slot0;
-            var1 = _closure1_slot1;
-            var5 = 2;
+            var1 = _closure1_slot2;
+            var5 = 3;
             var1 = var1[var5];
             var4 = undefined;
             var1 = var3.bind(var4)(var1);
@@ -39,7 +41,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             if(!var1) { _fun0001_ip = 57; continue _fun0001 }
  34:
             var3 = _closure1_slot0;
-            var2 = _closure1_slot1;
+            var2 = _closure1_slot2;
             var2 = var2[var5];
             var2 = var3.bind(var4)(var2);
             var1 = var2.isIOSWeb;
@@ -47,13 +49,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot5 = var4;
+    var _closure1_slot6 = var4;
     var7 = function isMobileApplePaymentLinksEnabled(arg1) {
         var1 = arg1;
         var4 = var1.location;
         var3 = _closure1_slot0;
-        var2 = _closure1_slot1;
-        var1 = 3;
+        var2 = _closure1_slot2;
+        var1 = 4;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -65,18 +67,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.enabled;
         return var1;
     };
-    var _closure1_slot6 = var7;
+    var _closure1_slot7 = var7;
     var6 = function useIsInMobileWebApplePaymentLinkFlow(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
             var1 = arg1;
             var3 = var1.location;
-            var4 = _closure1_slot8;
+            var4 = _closure1_slot9;
             var2 = {};
             var2['location'] = var3;
             var3 = undefined;
             var2 = var4.bind(var3)(var2);
-            var1 = _closure1_slot5;
+            var1 = _closure1_slot6;
             var1 = var1.bind(var3)();
             if(!var1) { _fun0002_ip = 42; continue _fun0002 }
  39:
@@ -85,13 +87,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot7 = var6;
+    var _closure1_slot8 = var6;
     var5 = function useIsMobileApplePaymentLinksEnabled(arg1) {
         var1 = arg1;
         var4 = var1.location;
         var3 = _closure1_slot0;
-        var2 = _closure1_slot1;
-        var1 = 3;
+        var2 = _closure1_slot2;
+        var1 = 4;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -103,20 +105,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.enabled;
         return var1;
     };
-    var _closure1_slot8 = var5;
+    var _closure1_slot9 = var5;
     var4 = function checkForAPLCustomCheckoutFlow(arg1, arg2, arg3) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
             var3 = arg1;
             var5 = arg2;
             var4 = var5.startsWith;
-            var1 = _closure1_slot2;
+            var1 = _closure1_slot3;
             var1 = var1.BILLING_MANAGE_SUBSCRIPTION;
             var1 = var4.bind(var5)(var1);
             var1 = !var1;
             if(!var1) { _fun0003_ip = 62; continue _fun0003 }
  36:
-            var2 = _closure1_slot3;
+            var2 = _closure1_slot4;
             var4 = var2.APPLE_PAYMENT_LINK;
             var2 = arg3;
             var2 = var2 === var4;
@@ -129,7 +131,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot9 = var4;
+    var _closure1_slot10 = var4;
     var4 = function getIsInApplePaymentLinkCustomCheckoutFlow(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
@@ -146,8 +148,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.location;
             var4 = var1.pathname;
             var7 = _closure1_slot0;
-            var8 = _closure1_slot1;
-            var3 = 5;
+            var8 = _closure1_slot2;
+            var3 = 6;
             var3 = var8[var3];
             var7 = var7.bind(var5)(var3);
             var3 = var7.parse;
@@ -157,25 +159,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var7)(var2);
             var3 = var2.deep_link_type;
             var7 = var4.startsWith;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var2 = var2.BILLING_MANAGE_SUBSCRIPTION;
             var2 = var7.bind(var4)(var2);
             if(var2) { _fun0004_ip = 164; continue _fun0004 }
  119:
-            var2 = _closure1_slot5;
+            var2 = _closure1_slot6;
             var2 = var2.bind(var5)();
             if(!var2) { _fun0004_ip = 151; continue _fun0004 }
  130:
             if(var6) { _fun0004_ip = 148; continue _fun0004 }
  133:
-            var8 = _closure1_slot6;
+            var8 = _closure1_slot7;
             var7 = {};
             var7['location'] = var9;
             var6 = var8.bind(var5)(var7);
  148:
             var2 = var6;
  151:
-            var1 = _closure1_slot9;
+            var1 = _closure1_slot10;
             var1 = var1.bind(var5)(var2, var4, var3);
             return var1;
  164:
@@ -183,13 +185,41 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot10 = var4;
-    var8 = 6;
+    var _closure1_slot11 = var4;
+    var8 = 7;
     var8 = var10[var8];
     var10 = var9.bind(var1)(var8);
     var9 = var10.fileFinishedImporting;
     var8 = 'modules/payments/utils/ApplePaymentLinkUtils.tsx';
     var8 = var9.bind(var10)(var8);
+    var8 = 'apple_payment_links';
+    var3['APPLE_PAYMENT_LINK_ERROR_TAG'] = var8;
+    var8 = function(arg1, arg2, arg3) {
+        var2 = arg3;
+        var4 = _closure1_slot1;
+        var3 = _closure1_slot2;
+        var1 = 2;
+        var3 = var3[var1];
+        var1 = undefined;
+        var5 = var4.bind(var1)(var3);
+        var4 = var5.captureException;
+        var3 = {};
+        var6 = {};
+        var7 = 'apple_payment_links';
+        var6['app_context'] = var7;
+        var7 = arg2;
+        var6['source'] = var7;
+        var8 = var2.tags;
+        var9 = var6;
+        var7 = copyDataProperties(var9, var8);
+        var3['tags'] = var6;
+        var2 = var2.extra;
+        var3['extra'] = var2;
+        var2 = arg1;
+        var2 = var4.bind(var5)(var2, var3);
+        return var1;
+    };
+    var3['captureApplePaymentLinkSentryError'] = var8;
     var3['isMobileApplePaymentLinksEnabled'] = var7;
     var3['useIsInMobileWebApplePaymentLinkFlow'] = var6;
     var6 = function(arg1) {
@@ -197,12 +227,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
             var1 = arg1;
             var5 = var1.location;
-            var1 = _closure1_slot5;
+            var1 = _closure1_slot6;
             var4 = undefined;
             var1 = var1.bind(var4)();
             if(!var1) { _fun0005_ip = 39; continue _fun0005 }
  24:
-            var3 = _closure1_slot6;
+            var3 = _closure1_slot7;
             var2 = {};
             var2['location'] = var5;
             var1 = var3.bind(var4)(var2);
@@ -215,8 +245,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = arg1;
         var4 = var1.location;
         var3 = _closure1_slot0;
-        var2 = _closure1_slot1;
-        var1 = 3;
+        var2 = _closure1_slot2;
+        var1 = 4;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -228,13 +258,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['useMobileApplePaymentLinksExperimentConfig'] = var6;
+    var6 = function(arg1) {
+        var1 = arg1;
+        var4 = var1.location;
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot2;
+        var1 = 4;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        var3 = var1.MobileApplePaymentLinkExperiment;
+        var2 = var3.getConfig;
+        var1 = {};
+        var1['location'] = var4;
+        var1 = var2.bind(var3)(var1);
+        var1 = var1.enabled;
+        return var1;
+    };
+    var3['getIsMobileApplePaymentLinksEnabled'] = var6;
     var3['useIsMobileApplePaymentLinksEnabled'] = var5;
     var5 = function(arg1) {
         var1 = arg1;
         var4 = var1.location;
         var3 = _closure1_slot0;
-        var2 = _closure1_slot1;
-        var1 = 3;
+        var2 = _closure1_slot2;
+        var1 = 4;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -251,8 +299,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = arg1;
         var9 = var1.location;
         var6 = _closure1_slot0;
-        var8 = _closure1_slot1;
-        var2 = 4;
+        var8 = _closure1_slot2;
+        var2 = 5;
         var2 = var8[var2];
         var5 = undefined;
         var3 = var6.bind(var5)(var2);
@@ -260,17 +308,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var2.bind(var3)();
         var7 = var2.search;
         var4 = var2.pathname;
-        var3 = _closure1_slot7;
+        var3 = _closure1_slot8;
         var2 = {};
         var2['location'] = var9;
         var3 = var3.bind(var5)(var2);
-        var2 = 5;
+        var2 = 6;
         var2 = var8[var2];
         var6 = var6.bind(var5)(var2);
         var2 = var6.parse;
         var2 = var2.bind(var6)(var7);
         var2 = var2.deep_link_type;
-        var1 = _closure1_slot9;
+        var1 = _closure1_slot10;
         var1 = var1.bind(var5)(var3, var4, var2);
         return var1;
     };
@@ -279,44 +327,60 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function(arg1, arg2) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-            var6 = arg2;
+            var7 = arg2;
             var1 = arg1;
             var1 = var1.location;
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 6;
+            var2 = var4[var2];
+            var8 = undefined;
+            var6 = var3.bind(var8)(var2);
+            var4 = var6.parse;
             var2 = global;
+            var3 = var2.window;
+            var3 = var3.location;
+            var3 = var3.search;
+            var3 = var4.bind(var6)(var3);
+            var4 = var3.use_preset_offer;
             var2 = var2.window;
             var2 = var2.location;
-            var5 = var2.pathname;
-            var7 = _closure1_slot10;
-            var3 = {};
-            var3['location'] = var1;
-            var2 = undefined;
+            var6 = var2.pathname;
+            var3 = _closure1_slot11;
+            var2 = {};
+            var2['location'] = var1;
             var1 = true;
-            var3 = var7.bind(var2)(var3, var1);
-            var2 = var5.startsWith;
-            var1 = _closure1_slot2;
+            var3 = var3.bind(var8)(var2, var1);
+            var2 = var6.startsWith;
+            var1 = _closure1_slot3;
             var1 = var1.BILLING_PREMIUM_SUBSCRIBE;
-            var1 = var2.bind(var5)(var1);
+            var1 = var2.bind(var6)(var1);
             var2 = !var1;
             var1 = !var2;
-            if(var2) { _fun0006_ip = 115; continue _fun0006 }
- 83:
+            if(var2) { _fun0006_ip = 182; continue _fun0006 }
+ 139:
             var2 = null;
-            var2 = var2 != var6;
-            if(!var2) { _fun0006_ip = 106; continue _fun0006 }
- 92:
-            var5 = _closure1_slot4;
-            var4 = var5.has;
-            var2 = var4.bind(var5)(var6);
- 106:
-            if(!var2) { _fun0006_ip = 112; continue _fun0006 }
- 109:
+            var2 = var2 != var7;
+            if(!var2) { _fun0006_ip = 162; continue _fun0006 }
+ 148:
+            var6 = _closure1_slot5;
+            var5 = var6.has;
+            var2 = var5.bind(var6)(var7);
+ 162:
+            if(!var2) { _fun0006_ip = 168; continue _fun0006 }
+ 165:
             var2 = var3;
- 112:
+ 168:
+            if(!var2) { _fun0006_ip = 179; continue _fun0006 }
+ 171:
+            var3 = 'true';
+            var2 = var3 === var4;
+ 179:
             var1 = var2;
- 115:
+ 182:
             return var1;
         }
     };
-    var3['getShouldFetchApplePaymentLinkOfferInMobileWeb'] = var2;
+    var3['getShouldUseApplePaymentLinkOfferInMobileWeb'] = var2;
     return var1;
 })();

@@ -55,6 +55,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['toggleDisplayDevTools'] = var4;
+    var4 = function openDevTools(arg1) {
+        var3 = _closure1_slot3;
+        var2 = {};
+        var1 = true;
+        var2['displayTools'] = var1;
+        var1 = arg1;
+        var2['lastOpenTabId'] = var1;
+        var1 = undefined;
+        var2 = var3.bind(var1)(var2);
+        return var1;
+    };
+    var3['openDevTools'] = var4;
     var2 = function clearAnalyticsLog() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;

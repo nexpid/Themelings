@@ -37,5 +37,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['CONVERSATION_VALID_EMBED_TYPES'] = var2;
     var2 = ['image/', 'video/'];
     var3['CONVERSATION_VALID_MEDIA_PREFIXES'] = var2;
+    var2 = 10;
+    var3['FETCH_MESSAGE_BEFORE_LIMIT'] = var2;
+    var2 = 20;
+    var3['FETCH_MESSAGE_AFTER_LIMIT'] = var2;
+    var2 = 25;
+    var3['FETCH_THREAD_MESSAGE_LIMIT'] = var2;
     return var1;
 })();

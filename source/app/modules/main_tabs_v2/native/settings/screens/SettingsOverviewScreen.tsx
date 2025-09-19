@@ -239,7 +239,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2['label'] = var5;
                 var5 = _closure1_slot3;
                 var6 = var5.APP_VERSION;
-                var5 = new Array(6);
+                var5 = new Array(7);
                 var5[0] = var6;
                 var6 = _closure1_slot3;
                 var6 = var6.DEVICE_INFO;
@@ -256,6 +256,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = _closure1_slot3;
                 var6 = var6.REACT_COMPILER;
                 var5[5] = var6;
+                var6 = _closure1_slot3;
+                var6 = var6.UPLOAD_INTL_DATA;
+                var5[6] = var6;
                 var2['settings'] = var5;
                 var1[6] = var2;
                 var2 = {};

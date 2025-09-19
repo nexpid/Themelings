@@ -145,8 +145,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var8.isValidElement;
             var6 = var6.bind(var8)(var11);
             var8 = var11;
-            if(!var6) { _fun0001_ip = 266; continue _fun0001 }
- 213:
+            if(!var6) { _fun0001_ip = 270; continue _fun0001 }
+ 217:
             var10 = _closure1_slot3;
             var9 = var10.cloneElement;
             var6 = {};
@@ -159,7 +159,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var12.WHITE;
             var6['color'] = var12;
             var8 = var9.bind(var10)(var11, var6);
- 266:
+ 270:
             var6 = 'icon';
             var1[var6] = var8;
             var6 = 'style';

@@ -1,4 +1,4 @@
-// app/modules/system_dm/SystemDMSafetyOnboardingExperiment.tsx
+// app/modules/urgent_system_dm/SystemDMSafetyOnboardingExperiment.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var6 = require;
     var3 = exports;
@@ -39,7 +39,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
-    var5 = 'modules/system_dm/SystemDMSafetyOnboardingExperiment.tsx';
+    var5 = 'modules/urgent_system_dm/SystemDMSafetyOnboardingExperiment.tsx';
     var5 = var6.bind(var7)(var5);
     var3['default'] = var4;
     var2 = function systemDMRedesignEnabled() {

@@ -103,6 +103,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = 4;
                 var5 = var7[var5];
                 var5 = var6.bind(var3)(var5);
+                var5 = var5.default;
                 var1['source'] = var5;
                 var5 = 'contain';
                 var1['resizeMode'] = var5;

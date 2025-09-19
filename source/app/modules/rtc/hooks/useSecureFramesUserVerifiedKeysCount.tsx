@@ -93,7 +93,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = null;
                 var2 = var1 == var4;
                 var1 = 0;
-                if(var2) { _fun0002_ip = 76; continue _fun0002 }
+                if(var2) { _fun0002_ip = 78; continue _fun0002 }
  36:
                 var2 = global;
                 var3 = var2.Object;
@@ -108,7 +108,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 };
                 var2 = var3.bind(var4)(var2);
                 var1 = var2.length;
- 76:
+ 78:
                 return var1;
             }
         };

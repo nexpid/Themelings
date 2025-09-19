@@ -34,7 +34,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var6.bind(var1)(var5);
     var8 = var9.createStyles;
     var5 = {};
-    var12 = {'borderRadius': null, 'paddingHorizontal': 4, 'paddingTop': 2};
+    var12 = {'borderRadius': null, 'paddingHorizontal': 4, 'paddingVertical': 2};
     var10 = 4;
     var13 = var7[var10];
     var13 = var11.bind(var1)(var13);

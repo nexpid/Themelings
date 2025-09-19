@@ -309,12 +309,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = arg1;
                 var3 = _closure1_slot10;
                 var3 = var2 in var3;
-                if(var3) { _fun0007_ip = 39; continue _fun0007 }
+                if(var3) { _fun0007_ip = 35; continue _fun0007 }
  17:
                 var4 = _closure1_slot10;
                 var3 = {'loaded': false, 'message': null};
                 var4[var2] = var3;
- 39:
+ 35:
                 var1 = _closure1_slot10;
                 var1 = var1[var2];
                 return var1;

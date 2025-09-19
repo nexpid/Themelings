@@ -1819,7 +1819,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var24 = var1[var5];
             var5 = var6 == var19;
             var1 = null;
-            if(var5) { _fun0017_ip = 1338; continue _fun0017 }
+            if(var5) { _fun0017_ip = 1353; continue _fun0017 }
  656:
             if(!var4) { _fun0017_ip = 662; continue _fun0017 }
  659:
@@ -1836,11 +1836,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var13.bind(var7)(var12, var11);
             var2['children'] = var11;
             var2 = var5.bind(var7)(var4, var2);
-            _fun0017_ip = 1335; continue _fun0017;
+            _fun0017_ip = 1350; continue _fun0017;
  725:
-            if(var3) { _fun0017_ip = 1265; continue _fun0017 }
+            if(var3) { _fun0017_ip = 1280; continue _fun0017 }
  731:
-            if(!(var6 != var17)) { _fun0017_ip = 1132; continue _fun0017 }
+            if(!(var6 != var17)) { _fun0017_ip = 1147; continue _fun0017 }
  738:
             var3 = var17.isOnPlatformMatchingExternalPaymentGateway;
             if(!var3) { _fun0017_ip = 819; continue _fun0017 }
@@ -1862,7 +1862,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  803:
             var3 = var11.bind(var12)(var3);
             var3 = var4.bind(var5)(var3);
-            if(var3) { _fun0017_ip = 1132; continue _fun0017 }
+            if(var3) { _fun0017_ip = 1147; continue _fun0017 }
  819:
             var5 = _closure1_slot25;
             var4 = _closure1_slot9;
@@ -1926,16 +1926,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11['variant'] = var18;
             var18 = 49;
             var18 = var21[var18];
-            var20 = var20.bind(var7)(var18);
-            var18 = var20.getExternalManagementMessage;
-            var18 = var18.bind(var20)(var17);
+            var21 = var20.bind(var7)(var18);
+            var20 = var21.getExternalManagementMessage;
+            var18 = {'location': 'premium_plan_select', 'shouldAllowIfApplePaymentLinksEnabled': true};
+            var18 = var20.bind(var21)(var17, var18);
             var11['children'] = var18;
             var11 = var13.bind(var7)(var12, var11);
             var6[1] = var11;
             var3['children'] = var6;
             var3 = var5.bind(var7)(var4, var3);
-            _fun0017_ip = 1263; continue _fun0017;
- 1132:
+            _fun0017_ip = 1278; continue _fun0017;
+ 1147:
             var6 = _closure1_slot24;
             var5 = _closure1_slot9;
             var4 = {};
@@ -2127,9 +2128,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var13.bind(var7)(var12, var11);
             var4['children'] = var11;
             var3 = var6.bind(var7)(var5, var4);
- 1263:
-            _fun0017_ip = 1332; continue _fun0017;
- 1265:
+ 1278:
+            _fun0017_ip = 1347; continue _fun0017;
+ 1280:
             var6 = _closure1_slot24;
             var5 = _closure1_slot9;
             var4 = {};
@@ -2147,11 +2148,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var10.bind(var7)(var9, var8);
             var4['children'] = var8;
             var3 = var6.bind(var7)(var5, var4);
- 1332:
+ 1347:
             var2 = var3;
- 1335:
+ 1350:
             var1 = var2;
- 1338:
+ 1353:
             return var1;
         }
     };

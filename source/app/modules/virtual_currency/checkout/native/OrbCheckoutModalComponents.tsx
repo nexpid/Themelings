@@ -257,7 +257,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = var12[var13];
         var9 = var16.bind(var4)(var9);
         var9 = var9.t;
-        var9 = var9.dsmHMz;
+        var9 = var9.zLch/f;
         var9 = var15.bind(var17)(var9);
         var5['children'] = var9;
         var6 = var10.bind(var4)(var6, var5);
@@ -425,28 +425,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var14.isThemeDark;
             var14 = var13.bind(var14)(var15);
             var13 = 'redesign-button-primary-text';
-            if(!var14) { _fun0002_ip = 322; continue _fun0002 }
- 316:
+            if(!var14) { _fun0002_ip = 320; continue _fun0002 }
+ 314:
             var13 = 'redesign-button-primary-overlay-text';
- 322:
+ 320:
             var10['color'] = var13;
             var10 = var12.bind(var4)(var11, var10);
             var1['icon'] = var10;
             var10 = 'start';
             var1['iconPosition'] = var10;
             var1['onPress'] = var9;
-            if(var5) { _fun0002_ip = 356; continue _fun0002 }
- 352:
+            if(var5) { _fun0002_ip = 354; continue _fun0002 }
+ 350:
             var5 = var8 == var6;
- 356:
-            if(var5) { _fun0002_ip = 363; continue _fun0002 }
- 359:
+ 354:
+            if(var5) { _fun0002_ip = 361; continue _fun0002 }
+ 357:
             var5 = var8 == var7;
- 363:
-            if(var5) { _fun0002_ip = 370; continue _fun0002 }
- 366:
+ 361:
+            if(var5) { _fun0002_ip = 368; continue _fun0002 }
+ 364:
             var5 = var7 < var6;
- 370:
+ 368:
             var1['disabled'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

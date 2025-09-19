@@ -216,16 +216,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = null;
             var13 = var7 == var10;
             var11 = undefined;
-            if(var13) { _fun0001_ip = 538; continue _fun0001 }
- 527:
+            if(var13) { _fun0001_ip = 534; continue _fun0001 }
+ 523:
             var10 = var10.topic;
             var11 = var10.length;
- 538:
+ 534:
             var10 = 0;
             var10 = var11 > var10;
             var7 = null;
-            if(!var10) { _fun0001_ip = 683; continue _fun0001 }
- 552:
+            if(!var10) { _fun0001_ip = 679; continue _fun0001 }
+ 548:
             var11 = _closure1_slot5;
             var13 = _closure1_slot0;
             var14 = _closure1_slot2;
@@ -255,7 +255,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var11.bind(var4)(var13, var12);
             var8['children'] = var12;
             var7 = var11.bind(var4)(var10, var8);
- 683:
+ 679:
             var5[2] = var7;
             var8 = _closure1_slot5;
             var7 = _closure1_slot4;

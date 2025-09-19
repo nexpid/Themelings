@@ -185,15 +185,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var4.bind(var5)(var1, var3);
             var20 = var1[var2];
             var1 = null;
-            if(!(var1 != var21)) { _fun0002_ip = 686; continue _fun0002 }
+            if(!(var1 != var21)) { _fun0002_ip = 701; continue _fun0002 }
  225:
             var19 = _closure1_slot0;
             var22 = _closure1_slot2;
             var2 = 14;
             var2 = var22[var2];
-            var3 = var19.bind(var5)(var2);
-            var2 = var3.getExternalManagementMessage;
-            var11 = var2.bind(var3)(var17);
+            var4 = var19.bind(var5)(var2);
+            var3 = var4.getExternalManagementMessage;
+            var2 = {'location': 'premium_billing_info', 'shouldAllowIfApplePaymentLinksEnabled': true};
+            var11 = var3.bind(var4)(var17, var2);
             var4 = _closure1_slot7;
             var3 = _closure1_slot4;
             var2 = {};
@@ -273,8 +274,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[1] = var7;
             var9 = var1 != var11;
             var7 = null;
-            if(!var9) { _fun0002_ip = 670; continue _fun0002 }
- 618:
+            if(!var9) { _fun0002_ip = 685; continue _fun0002 }
+ 633:
             var10 = _closure1_slot6;
             var9 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -287,12 +288,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8['variant'] = var12;
             var8['children'] = var11;
             var7 = var10.bind(var5)(var9, var8);
- 670:
+ 685:
             var6[2] = var7;
             var2['children'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
- 686:
+ 701:
             return var1;
         }
     };

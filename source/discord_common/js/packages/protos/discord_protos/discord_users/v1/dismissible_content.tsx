@@ -1746,6 +1746,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['WISHLIST_NUX_TOOLTIP_AND_MODAL'] = var2;
     var1 = 'WISHLIST_NUX_TOOLTIP_AND_MODAL';
     var4[var2] = var1;
+    var2 = 612;
+    var4['USER_SETTINGS_REDESIGN_EDUCATION_POPOVER'] = var2;
+    var1 = 'USER_SETTINGS_REDESIGN_EDUCATION_POPOVER';
+    var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;
     var1 = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

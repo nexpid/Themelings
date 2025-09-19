@@ -42,26 +42,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
             var2 = arg1;
             var14 = var2.style;
-            var15 = var2.nestedInLaunchPad;
+            var18 = var2.nestedInLaunchPad;
             var4 = undefined;
-            if(!(var15 === var4)) { _fun0002_ip = 24; continue _fun0002 }
+            if(!(var18 === var4)) { _fun0002_ip = 24; continue _fun0002 }
  22:
-            var15 = false;
- 24:
-            var18 = var2.inNestedNavigator;
-            if(!(var18 === var4)) { _fun0002_ip = 36; continue _fun0002 }
- 34:
             var18 = false;
+ 24:
+            var17 = var2.inNestedNavigator;
+            if(!(var17 === var4)) { _fun0002_ip = 36; continue _fun0002 }
+ 34:
+            var17 = false;
  36:
             var2 = _closure1_slot9;
             var11 = var2.bind(var4)();
             var6 = _closure1_slot1;
-            var16 = _closure1_slot2;
+            var15 = _closure1_slot2;
             var5 = 21;
-            var2 = var16[var5];
+            var2 = var15[var5];
             var3 = var6.bind(var4)(var2);
             var2 = 22;
-            var2 = var16[var2];
+            var2 = var15[var2];
             var2 = var6.bind(var4)(var2);
             var2 = var2.NOTIFICATIONS;
             var2 = var3.bind(var4)(var2);
@@ -94,20 +94,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var6)(var2, var1);
             var13 = _closure1_slot0;
             var1 = 24;
-            var1 = var16[var1];
+            var1 = var15[var1];
             var2 = var13.bind(var4)(var1);
             var1 = var2.useNavigatorBackPressHandler;
             var1 = var1.bind(var2)(var3);
             var3 = _closure1_slot7;
             var1 = 25;
-            var1 = var16[var1];
+            var1 = var15[var1];
             var1 = var13.bind(var4)(var1);
             var2 = var1.LayerScope;
             var1 = {};
             var6 = 1;
             var1['zIndex'] = var6;
             var7 = _closure1_slot7;
-            var5 = var16[var5];
+            var5 = var15[var5];
             var5 = var13.bind(var4)(var5);
             var6 = var5.AnalyticsLocationProvider;
             var5 = {};
@@ -115,28 +115,36 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = _closure1_slot8;
             var9 = _closure1_slot4;
             var8 = {};
-            var17 = var11.container;
+            var16 = var11.container;
             var11 = new Array(2);
-            var11[0] = var17;
+            var11[0] = var16;
             var11[1] = var14;
             var8['style'] = var11;
-            var17 = _closure1_slot7;
+            var16 = _closure1_slot7;
             var14 = _closure1_slot10;
             var11 = {};
-            var11['nestedInLaunchPad'] = var15;
-            var11['inNestedNavigator'] = var18;
-            var14 = var17.bind(var4)(var14, var11);
-            var11 = new Array(2);
+            var11['nestedInLaunchPad'] = var18;
+            var11['inNestedNavigator'] = var17;
+            var14 = var16.bind(var4)(var14, var11);
+            var11 = new Array(3);
             var11[0] = var14;
+            var17 = _closure1_slot7;
+            var14 = 26;
+            var14 = var15[var14];
+            var14 = var13.bind(var4)(var14);
+            var16 = var14.NotificationCenterForYou;
+            var14 = {};
+            var14['nestedInLaunchPad'] = var18;
+            var14 = var17.bind(var4)(var16, var14);
+            var11[1] = var14;
             var14 = _closure1_slot7;
-            var12 = 26;
-            var12 = var16[var12];
+            var12 = 27;
+            var12 = var15[var12];
             var12 = var13.bind(var4)(var12);
-            var13 = var12.NotificationCenterForYou;
+            var13 = var12.TTIFirstContentfulPaint;
             var12 = {};
-            var12['nestedInLaunchPad'] = var15;
             var12 = var14.bind(var4)(var13, var12);
-            var11[1] = var12;
+            var11[2] = var12;
             var8['children'] = var11;
             var8 = var10.bind(var4)(var9, var8);
             var5['children'] = var8;
@@ -153,12 +161,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = arg1;
             var6 = _closure1_slot1;
             var11 = _closure1_slot2;
-            var2 = 27;
+            var2 = 28;
             var2 = var11[var2];
             var4 = undefined;
             var2 = var6.bind(var4)(var2);
             var10 = var2.bind(var4)();
-            var2 = 28;
+            var2 = 29;
             var2 = var11[var2];
             var2 = var6.bind(var4)(var2);
             var2 = var2.bind(var4)();
@@ -202,7 +210,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var5 = var3.bind(var5)(var1, var2);
             var7 = _closure1_slot0;
-            var1 = 29;
+            var1 = 30;
             var1 = var11[var1];
             var3 = var7.bind(var4)(var1);
             var2 = var3.useTrackTabPerformance;
@@ -214,7 +222,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = {};
             var1['style'] = var5;
             var8 = _closure1_slot7;
-            var5 = 30;
+            var5 = 31;
             var5 = var11[var5];
             var6 = var6.bind(var4)(var5);
             var5 = {};
@@ -224,7 +232,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = new Array(2);
             var5[0] = var6;
             var8 = _closure1_slot7;
-            var6 = 31;
+            var6 = 32;
             var6 = var11[var6];
             var6 = var7.bind(var4)(var6);
             var7 = var6.ThemeContextProvider;
@@ -607,7 +615,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var7 = var10.bind(var11)(var7);
     var _closure1_slot10 = var7;
-    var7 = 32;
+    var7 = 33;
     var7 = var9[var7];
     var9 = var8.bind(var1)(var7);
     var8 = var9.fileFinishedImporting;

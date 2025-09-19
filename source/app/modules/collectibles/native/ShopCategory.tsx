@@ -218,16 +218,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  295:
             var3 = var2;
  298:
-            if(!(var8 == var3)) { _fun0001_ip = 320; continue _fun0001 }
- 302:
-            var11 = var8 == var9;
-            var2 = undefined;
-            if(var11) { _fun0001_ip = 317; continue _fun0001 }
- 311:
-            var2 = var9.banner;
- 317:
-            var3 = var2;
- 320:
             var2 = {};
             var2['size'] = var10;
             var10 = 'webp';
@@ -254,11 +244,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var5.useScrollToInitialIndexOnce;
             var2 = {};
             var11 = var8 != var13;
-            if(!var11) { _fun0001_ip = 443; continue _fun0001 }
- 437:
+            if(!var11) { _fun0001_ip = 421; continue _fun0001 }
+ 415:
             var12 = 0;
             var11 = var13 > var12;
- 443:
+ 421:
             var2['shouldScroll'] = var11;
             var2['initialScrollIndex'] = var13;
             var2['flashListRef'] = var22;
@@ -348,13 +338,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var21 = var18.categoryHeader;
             var12 = new Array(2);
             var12[0] = var21;
-            if(var19) { _fun0001_ip = 665; continue _fun0001 }
- 657:
+            if(var19) { _fun0001_ip = 643; continue _fun0001 }
+ 635:
             var19 = var18.categoryHeaderBorderLight;
-            _fun0001_ip = 671; continue _fun0001;
- 665:
+            _fun0001_ip = 649; continue _fun0001;
+ 643:
             var19 = var18.categoryHeaderBorderDark;
- 671:
+ 649:
             var12[1] = var19;
             var10['style'] = var12;
             var19 = _closure1_slot0;
@@ -437,8 +427,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var10['onPress'] = var12;
             var12 = var8 != var25;
-            if(!var12) { _fun0001_ip = 849; continue _fun0001 }
- 813:
+            if(!var12) { _fun0001_ip = 827; continue _fun0001 }
+ 791:
             var23 = _closure1_slot8;
             var19 = _closure1_slot4;
             var8 = {};
@@ -448,7 +438,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var24 = var18.imageBackground;
             var8['style'] = var24;
             var12 = var23.bind(var4)(var19, var8);
- 849:
+ 827:
             var8 = new Array(2);
             var8[0] = var12;
             var12 = _closure1_slot8;

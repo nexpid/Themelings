@@ -396,6 +396,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var11.colors;
     var11 = var11.REDESIGN_BUTTON_TERTIARY_TEXT;
     var10['color'] = var11;
+    var11 = 'right';
+    var10['textAlign'] = var11;
     var4['balanceText'] = var10;
     var4 = var8.bind(var9)(var4);
     var _closure1_slot13 = var4;

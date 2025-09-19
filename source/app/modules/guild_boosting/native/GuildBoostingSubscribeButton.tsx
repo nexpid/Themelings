@@ -84,13 +84,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                     StartGenerator();
+                    var10 = arg2;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(var3) { _fun0001_ip = 153; continue _fun0001 }
- 12:
+                    if(var3) { _fun0001_ip = 166; continue _fun0001 }
+ 15:
                     var3 = arg1;
                     var _closure4_slot0 = var3;
+                    var _closure4_slot1 = var10;
                     var3 = undefined;
-                    var _closure4_slot1 = var3;
+                    var _closure4_slot2 = var3;
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot2;
                     var5 = 10;
@@ -98,13 +100,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = var6.bind(var3)(var5);
                     var5 = var8.getNewAnalyticsLoadId;
                     var9 = var5.bind(var8)();
-                    _closure4_slot1 = var9;
+                    _closure4_slot2 = var9;
                     var5 = 11;
                     var5 = var7[var5];
                     var8 = var6.bind(var3)(var5);
                     var7 = var8.goToStandaloneGuildBoostCheckoutFromMobileApp;
-                    var13 = arg2;
-                    var11 = function() {
+                    var15 = 'guild_boosting_subscribe_button';
+                    var12 = function() {
                         var4 = _closure1_slot1;
                         var3 = _closure1_slot2;
                         var1 = 12;
@@ -116,6 +118,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var4 = var3.MOBILE_OPEN_STANDALONE_GUILD_BOOST_CHECKOUT_PAGE;
                         var3 = {};
                         var8 = _closure4_slot1;
+                        var3['guild_id'] = var8;
+                        var8 = _closure4_slot2;
                         var3['load_id'] = var8;
                         var11 = _closure4_slot0;
                         var7 = new Array(0);
@@ -133,7 +137,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = var3.bind(var4)(var2);
                         return var1;
                     };
-                    var10 = function(arg1) {
+                    var11 = function(arg1) {
                         var4 = _closure1_slot16;
                         var3 = var4.error;
                         var2 = 'Failed to open mobile web Guild Boost Management page, error response: ';
@@ -174,16 +178,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = var3.bind(var4)(var2);
                         return var1;
                     };
-                    var14 = var8;
-                    var12 = var9;
-                    var2 = var14[var7](var13, var12, var11, var10, var9);
-                    SaveGenerator(address=111);
- 109:
+                    var16 = var8;
+                    var14 = var10;
+                    var13 = var9;
+                    var2 = var16[var7](var15, var14, var13, var12, var11, var10);
+                    SaveGenerator(address=124);
+ 122:
                     return var2;
- 111:
+ 124:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0001_ip = 150; continue _fun0001 }
- 117:
+                    if(var5) { _fun0001_ip = 163; continue _fun0001 }
+ 130:
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot2;
                     var4 = 15;
@@ -192,9 +197,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var5.closeApplyBoostModal;
                     var4 = var4.bind(var5)();
                     return var3;
- 150:
+ 163:
                     return var2;
- 153:
+ 166:
                     return var1;
                 }
             };

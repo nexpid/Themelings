@@ -692,7 +692,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = 0;
                         var2 = var6[var2];
                         var2['nativeLogs'] = var5;
-                        var2 = 25;
+                        var2 = 24;
                         var2 = var4[var2];
                         var4 = var3.bind(var1)(var2);
                         var3 = var4.processNativeLogs;
@@ -756,7 +756,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = copyDataProperties(var16, var15);
                     var8 = _closure1_slot1;
                     var9 = _closure1_slot2;
-                    var7 = 25;
+                    var7 = 24;
                     var7 = var9[var7];
                     var12 = var8.bind(var3)(var7);
                     var7 = var12.serializeTTITracker;
@@ -1227,20 +1227,36 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var4 = function scheduleTrackAppUiViewed2() {
                             var1 = global;
                             var7 = var1.setTimeout;
-                            var6 = _closure1_slot27;
                             var4 = _closure1_slot1;
                             var5 = _closure1_slot2;
-                            var1 = 24;
+                            var1 = 25;
                             var3 = var5[var1];
                             var1 = undefined;
                             var3 = var4.bind(var1)(var3);
                             var3 = var3.Millis;
-                            var8 = var3.SECOND;
+                            var6 = var3.SECOND;
                             var3 = 15;
-                            var3 = var3 * var8;
-                            var3 = var7.bind(var1)(var6, var3);
+                            var6 = var3 * var6;
+                            var3 = function() {
+                                var4 = _closure1_slot1;
+                                var3 = _closure1_slot2;
+                                var1 = 24;
+                                var3 = var3[var1];
+                                var1 = undefined;
+                                var5 = var4.bind(var1)(var3);
+                                var4 = var5.setTTICallback;
+                                var3 = function() {
+                                    var1 = true;
+                                    return var1;
+                                };
+                                var3 = var4.bind(var5)(var3);
+                                var2 = _closure1_slot27;
+                                var2 = var2.bind(var1)();
+                                return var1;
+                            };
+                            var3 = var7.bind(var1)(var3, var6);
                             var _closure5_slot0 = var3;
-                            var3 = 25;
+                            var3 = 24;
                             var3 = var5[var3];
                             var4 = var4.bind(var1)(var3);
                             var3 = var4.setTTICallback;
@@ -1262,7 +1278,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  44:
                                     var8 = _closure1_slot1;
                                     var9 = _closure1_slot2;
-                                    var1 = 25;
+                                    var1 = 24;
                                     var1 = var9[var1];
                                     var1 = var8.bind(var5)(var1);
                                     var8 = var1.readySupplemental;
@@ -1279,7 +1295,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  107:
                                     var4 = _closure1_slot1;
                                     var1 = _closure1_slot2;
-                                    var9 = 25;
+                                    var9 = 24;
                                     var1 = var1[var9];
                                     var1 = var4.bind(var5)(var1);
                                     var4 = var1.readySupplemental;

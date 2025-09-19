@@ -248,7 +248,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var9[var18];
             var9 = var11.bind(var5)(var9);
             var11 = var9.Text;
-            var9 = {'variant': 'text-md/semibold', 'color': 'header-primary', 'ellipsizeMode': 'tail', 'lineClamp': 1};
+            var9 = {'variant': 'redesign/heading-18/bold', 'color': 'header-primary', 'ellipsizeMode': 'tail', 'lineClamp': 1};
             var22 = var10.channelName;
             var9['style'] = var22;
             if(!(var16 == var17)) { _fun0001_ip = 401; continue _fun0001 }
@@ -291,7 +291,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17 = var12[var18];
             var17 = var11.bind(var5)(var17);
             var19 = var17.Text;
-            var17 = {'variant': 'text-md/semibold', 'color': 'text-secondary'};
+            var17 = {'variant': 'text-sm/medium', 'color': 'text-muted'};
             var20 = var20.guild;
             var20 = var20.name;
             var17['children'] = var20;
@@ -306,7 +306,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var18 = var12[var18];
             var18 = var11.bind(var5)(var18);
             var19 = var18.Text;
-            var18 = {'variant': 'heading-sm/medium', 'color': 'text-muted'};
+            var18 = {'variant': 'text-sm/medium', 'color': 'text-muted'};
             var20 = 13;
             var21 = var12[var20];
             var21 = var11.bind(var5)(var21);

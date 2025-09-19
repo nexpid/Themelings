@@ -484,52 +484,63 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(var2) { _fun0005_ip = 159; continue _fun0005 }
+                            if(var2) { _fun0005_ip = 191; continue _fun0005 }
  10:
-                            var5 = _closure1_slot1;
-                            var6 = _closure1_slot2;
-                            var2 = 20;
-                            var4 = var6[var2];
                             var2 = undefined;
-                            var8 = var5.bind(var2)(var4);
-                            var7 = var8.subscribe;
-                            var5 = 'GIFT_CODE_CREATE';
-                            var4 = arg1;
-                            var4 = var7.bind(var8)(var5, var4);
-                            var5 = _closure1_slot0;
-                            var4 = 21;
-                            var4 = var6[var4];
-                            var5 = var5.bind(var2)(var4);
-                            var4 = var5.isAndroid;
-                            var4 = var4.bind(var5)();
-                            if(var4) { _fun0005_ip = 156; continue _fun0005 }
- 84:
-                            var4 = _closure2_slot16;
-                            if(!var4) { _fun0005_ip = 156; continue _fun0005 }
- 94:
-                            var4 = _closure1_slot6;
-                            var5 = var4.currentOrderId;
-                            var4 = null;
-                            if(!(var4 != var5)) { _fun0005_ip = 156; continue _fun0005 }
- 112:
-                            var4 = _closure1_slot0;
-                            var6 = _closure1_slot2;
-                            var3 = 22;
-                            var3 = var6[var3];
-                            var4 = var4.bind(var2)(var3);
-                            var3 = var4.markOrderAsSigningInProgress;
-                            var3 = var3.bind(var4)(var5);
-                            SaveGenerator(address=147);
- 145:
-                            return var3;
- 147:
-                            ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                            if(!var4) { _fun0005_ip = 156; continue _fun0005 }
- 153:
-                            return var3;
- 156:
+                            var3 = undefined;
+                            var6 = _closure1_slot1;
+                            var7 = _closure1_slot2;
+                            var5 = 20;
+                            var5 = var7[var5];
+                            var9 = var6.bind(var2)(var5);
+                            var8 = var9.subscribe;
+                            var6 = 'GIFT_CODE_CREATE';
+                            var5 = arg1;
+                            var5 = var8.bind(var9)(var6, var5);
+                            var6 = _closure1_slot0;
+                            var5 = 21;
+                            var5 = var7[var5];
+                            var6 = var6.bind(var2)(var5);
+                            var5 = var6.isAndroid;
+                            var5 = var5.bind(var6)();
+                            if(var5) { _fun0005_ip = 188; continue _fun0005 }
+ 86:
+                            var5 = _closure2_slot16;
+                            if(!var5) { _fun0005_ip = 188; continue _fun0005 }
+ 96:
+                            var6 = _closure1_slot6;
+                            var5 = var6.shouldSignOrder;
+                            var6 = var5.bind(var6)();
+                            var3 = var6;
+                            var5 = null;
+                            if(!(var5 != var6)) { _fun0005_ip = 188; continue _fun0005 }
+ 119: // try_start_0
+                            var7 = _closure1_slot6;
+                            var6 = var7.startOrderSigningSafely;
+                            var5 = var3;
+                            var5 = var6.bind(var7)(var5);
+                            SaveGenerator(address=141);
+ 139:
+                            return var5;
+ 141:
+                            ResumeGenerator(result_out_reg=4, return_bool_out_reg=5);
+                            if(var6) { _fun0005_ip = 149; continue _fun0005 }
+ 147: // try_end0
+                            _fun0005_ip = 188; continue _fun0005;
+ 149:
+                            return var5;
+ 152: // catch_target0
+                            CatchBlockStart(arg_register=6);
+                            var6 = _closure1_slot15;
+                            var5 = var6.error;
+                            var4 = {};
+                            var4['error'] = var7;
+                            var4['currentOrderId'] = var3;
+                            var3 = 'Failed to start order signing in purchase completion';
+                            var3 = var5.bind(var6)(var3, var4);
+ 188:
                             return var2;
- 159:
+ 191:
                             return var1;
                         }
                     };
@@ -570,7 +581,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var5.bind(var7)(var4, var2);
                 var4 = _closure2_slot3;
                 var5 = _closure1_slot0;
-                var3 = 23;
+                var3 = 22;
                 var3 = var6[var3];
                 var3 = var5.bind(var1)(var3);
                 var3 = var3.PaymentFlowStep;
@@ -611,7 +622,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  66: // try_start_0
                             var12 = _closure1_slot0;
                             var13 = _closure1_slot2;
-                            var11 = 22;
+                            var11 = 23;
                             var3 = var13[var11];
                             var6 = var12.bind(var2)(var3);
                             var4 = var6.createOrder;
@@ -747,7 +758,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var4 = _closure2_slot3;
                             var9 = _closure1_slot0;
                             var10 = _closure1_slot2;
-                            var3 = 23;
+                            var3 = 22;
                             var3 = var10[var3];
                             var3 = var9.bind(var2)(var3);
                             var3 = var3.PaymentFlowStep;

@@ -18,10 +18,10 @@ module.exports = (function(global, require, metroImportDefault, metroImportAll, 
     var4 = var5.fileFinishedImporting;
     var2 = '../discord_assets/assets/premium/gifting/nitroween-billing-settings-static.png.js';
     var2 = var4.bind(var5)(var2);
-    var2 = 'https://cdn.discordapp.com/assets/content/1024ca0857c301d6fe390e260e951e035a996503b062bfd055bf90b1056b83ee.png';
+    var2 = 'https://cdn.discordapp.com/assets/content/d5f9bd5ecd757cb5d6440819f55135555451e55bbba660288431f1dc5fca7b3e.png';
     var3['default'] = var2;
     var2 = {};
-    var4 = 137203;
+    var4 = 146593;
     var2['fileBytes'] = var4;
     var3['metadata'] = var2;
     return var1;

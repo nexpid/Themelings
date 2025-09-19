@@ -278,6 +278,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['SUPPORT'] = var1;
     var1 = 'UPLOAD_DEBUG_LOGS';
     var2['UPLOAD_DEBUG_LOGS'] = var1;
+    var1 = 'UPLOAD_INTL_DATA';
+    var2['UPLOAD_INTL_DATA'] = var1;
     var1 = 'ACKNOWLEDGEMENTS';
     var2['ACKNOWLEDGEMENTS'] = var1;
     var1 = 'CHANGE_LOG';

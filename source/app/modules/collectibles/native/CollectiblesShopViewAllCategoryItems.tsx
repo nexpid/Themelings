@@ -99,7 +99,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = _closure1_slot3;
             var5 = var6.useMemo;
             var7 = var17.mobileBg;
-            var3 = new Array(4);
+            var3 = new Array(3);
             var3[0] = var7;
             var3[1] = var1;
             var7 = var17.catalogBannerAsset;
@@ -111,38 +111,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var7.static;
  134:
             var3[2] = var1;
-            var1 = var17.banner;
-            var3[3] = var1;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    var2 = _closure1_slot0;
-                    var3 = _closure1_slot2;
+                    var3 = _closure1_slot0;
+                    var2 = _closure1_slot2;
                     var1 = 8;
-                    var1 = var3[var1];
-                    var6 = undefined;
-                    var4 = var2.bind(var6)(var1);
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var4 = var3.bind(var1)(var2);
                     var3 = var4.getCollectiblesAssetURL;
-                    var1 = _closure2_slot0;
-                    var2 = var1.mobileBg;
-                    var1 = null;
-                    if(!(var1 == var2)) { _fun0002_ip = 78; continue _fun0002 }
+                    var2 = _closure2_slot0;
+                    var2 = var2.mobileBg;
+                    var7 = null;
+                    if(!(var7 == var2)) { _fun0002_ip = 78; continue _fun0002 }
  50:
-                    var7 = _closure2_slot0;
-                    var7 = var7.catalogBannerAsset;
-                    var8 = var1 == var7;
-                    var6 = undefined;
-                    if(var8) { _fun0002_ip = 75; continue _fun0002 }
+                    var6 = _closure2_slot0;
+                    var6 = var6.catalogBannerAsset;
+                    var7 = var7 == var6;
+                    var1 = undefined;
+                    if(var7) { _fun0002_ip = 75; continue _fun0002 }
  69:
-                    var6 = var7.static;
+                    var1 = var6.static;
  75:
-                    var2 = var6;
+                    var2 = var1;
  78:
-                    if(!(var1 == var2)) { _fun0002_ip = 92; continue _fun0002 }
- 82:
-                    var1 = _closure2_slot0;
-                    var2 = var1.banner;
- 92:
                     var1 = {};
                     var5 = _closure2_slot2;
                     var1['size'] = var5;
@@ -259,10 +252,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var7.useEffect;
             var3 = var20 == var8;
             var9 = undefined;
-            if(var3) { _fun0001_ip = 504; continue _fun0001 }
- 498:
+            if(var3) { _fun0001_ip = 494; continue _fun0001 }
+ 488:
             var9 = var8.sessionId;
- 504:
+ 494:
             var3 = new Array(3);
             var3[0] = var9;
             var3[1] = var5;
@@ -385,12 +378,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12['logo'] = var24;
             var24 = var20 == var23;
             var20 = undefined;
-            if(var24) { _fun0001_ip = 753; continue _fun0001 }
- 738:
+            if(var24) { _fun0001_ip = 743; continue _fun0001 }
+ 728:
             var24 = var23.label;
             var23 = var24.toHexString;
             var20 = var23.bind(var24)();
- 753:
+ 743:
             var12['buttonColor'] = var20;
             var12 = var3.bind(var4)(var13, var12);
             var10[1] = var12;

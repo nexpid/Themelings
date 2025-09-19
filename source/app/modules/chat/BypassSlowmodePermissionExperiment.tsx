@@ -1,4 +1,4 @@
-// app/modules/channel_prompts/GamingStatsSetupExperiment.tsx
+// app/modules/chat/BypassSlowmodePermissionExperiment.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var3 = exports;
@@ -16,15 +16,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var8 = var5.bind(var1)(var2);
     var7 = var8.createExperiment;
-    var2 = {'kind': 'guild', 'id': '2023-09_gaming_stats_setup', 'label': 'Gaming stats exposure setup'};
+    var2 = {'kind': 'guild', 'id': '2025-09_project_turbo', 'label': 'Project Turbo'};
     var4 = {};
     var9 = false;
-    var4['trackGamingStats'] = var9;
+    var4['enabled'] = var9;
     var2['defaultConfig'] = var4;
-    var10 = {'id': 1, 'label': 'trigger gaming stats data'};
+    var10 = {'id': 1, 'label': 'Turbo enabled'};
     var4 = 1;
     var9 = {};
-    var9['trackGamingStats'] = var11;
+    var9['enabled'] = var11;
     var10['config'] = var9;
     var9 = new Array(1);
     var9[0] = var10;
@@ -33,8 +33,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/channel_prompts/GamingStatsSetupExperiment.tsx';
+    var4 = 'modules/chat/BypassSlowmodePermissionExperiment.tsx';
     var4 = var5.bind(var6)(var4);
-    var3['GamingStatsSetupExperiment'] = var2;
+    var3['default'] = var2;
     return var1;
 })();

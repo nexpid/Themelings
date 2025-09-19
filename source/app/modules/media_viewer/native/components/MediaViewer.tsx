@@ -1415,7 +1415,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var4.bind(var5)(var3, var1);
             var1 = _closure1_slot12;
             var4 = _closure1_slot10;
-            if(var1) { _fun0004_ip = 1309; continue _fun0004 }
+            if(var1) { _fun0004_ip = 1305; continue _fun0004 }
  1230:
             var3 = _closure1_slot7;
             var1 = {'ref': null, 'style': null, 'automaticallyAdjustContentInsets': false, 'showsHorizontalScrollIndicator': false, 'showsVerticalScrollIndicator': false, 'minimumZoomScale': 1, 'maximumZoomScale': null, 'centerContent': true, 'scrollEventThrottle': 16};
@@ -1427,15 +1427,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['maximumZoomScale'] = var8;
             var1['onScroll'] = var7;
             var13 = 'auto';
-            if(!var14) { _fun0004_ip = 1292; continue _fun0004 }
- 1288:
+            if(!var14) { _fun0004_ip = 1288; continue _fun0004 }
+ 1284:
             var13 = 'none';
- 1292:
+ 1288:
             var1['pointerEvents'] = var13;
             var1['children'] = var6;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0004_ip = 1374; continue _fun0004;
- 1309:
+            _fun0004_ip = 1370; continue _fun0004;
+ 1305:
             var3 = _closure1_slot1;
             var13 = _closure1_slot2;
             var2 = 16;
@@ -1452,7 +1452,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['onZoomChanged'] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 1374:
+ 1370:
             return var1;
         }
     };

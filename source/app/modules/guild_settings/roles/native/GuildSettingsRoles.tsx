@@ -474,7 +474,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot20 = var7;
     var7 = var4.GuildFeatures;
     var _closure1_slot21 = var7;
-    var4 = var4.PIN_PERMISSION_MIGRATION_BREAKING_CHANGE_TIMESTAMP;
+    var4 = var4.PIN_AND_BYPASS_SLOWMODE_PERMISSION_MIGRATION_BREAKING_CHANGE_TIMESTAMP;
     var _closure1_slot22 = var4;
     var4 = 14;
     var4 = var6[var4];

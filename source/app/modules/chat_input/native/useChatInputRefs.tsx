@@ -1288,101 +1288,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var3['isFocused'] = var1;
             var1 = function openCustomKeyboard(arg1) {
-                _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
- 0:
-                    var8 = arg1;
-                    var _closure4_slot0 = var8;
-                    var5 = _closure1_slot0;
-                    var6 = _closure1_slot2;
-                    var1 = 20;
-                    var4 = var6[var1];
-                    var1 = undefined;
-                    var7 = var5.bind(var1)(var4);
-                    var4 = var7.setKeyboardType;
-                    var4 = var4.bind(var7)(var8);
-                    var4 = function closeSystemKeyboard() {
-                        _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
- 0:
-                            var1 = _closure2_slot15;
-                            var3 = var1.current;
-                            var1 = var3.blur;
-                            var1 = var1.bind(var3)();
-                            var1 = _closure2_slot12;
-                            var1 = var1.current;
-                            var4 = var1.secondaryTextFieldRef;
-                            var5 = null;
-                            var1 = var5 == var4;
-                            var3 = var4;
-                            if(var1) { _fun0018_ip = 61; continue _fun0018 }
- 49:
-                            var4 = var4.current;
-                            var1 = var5 == var4;
-                            var3 = var4;
- 61:
-                            if(var1) { _fun0018_ip = 74; continue _fun0018 }
- 64:
-                            var1 = var3.blur;
-                            var1 = var1.bind(var3)();
- 74:
-                            var5 = _closure1_slot0;
-                            var6 = _closure1_slot2;
-                            var1 = 22;
-                            var4 = var6[var1];
-                            var1 = undefined;
-                            var10 = var5.bind(var1)(var4);
-                            var9 = var10.openPortalKeyboard;
-                            var4 = _closure4_slot0;
-                            var8 = var4.type;
-                            var4 = _closure2_slot12;
-                            var4 = var4.current;
-                            var4 = var4.channel;
-                            var7 = var4.id;
-                            var4 = _closure2_slot15;
-                            var4 = var9.bind(var10)(var8, var7, var4);
-                            var4 = 21;
-                            var4 = var6[var4];
-                            var5 = var5.bind(var1)(var4);
-                            var4 = var5.isAndroid;
-                            var4 = var4.bind(var5)();
-                            if(!var4) { _fun0018_ip = 211; continue _fun0018 }
- 171:
-                            var4 = _closure1_slot1;
-                            var5 = _closure1_slot2;
-                            var3 = 13;
-                            var3 = var5[var3];
-                            var4 = var4.bind(var1)(var3);
-                            var3 = var4.openCustomKeyboard;
-                            var2 = _closure2_slot7;
-                            var2 = var2.current;
-                            var2 = var3.bind(var4)(var2);
- 211:
-                            return var1;
-                        }
-                    };
-                    var3 = 21;
-                    var3 = var6[var3];
-                    var5 = var5.bind(var1)(var3);
-                    var3 = var5.isAndroid;
-                    var3 = var3.bind(var5)();
-                    if(var3) { _fun0017_ip = 82; continue _fun0017 }
- 76:
-                    var3 = var4.bind(var1)();
-                    _fun0017_ip = 113; continue _fun0017;
- 82:
-                    var3 = _closure1_slot0;
-                    var5 = _closure1_slot2;
-                    var2 = 32;
-                    var2 = var5[var2];
-                    var3 = var3.bind(var1)(var2);
-                    var2 = var3.runAfterInteractions;
-                    var2 = var2.bind(var3)(var4);
- 113:
-                    return var1;
-                }
+                var1 = _closure2_slot12;
+                var1 = var1.current;
+                var6 = var1.channel;
+                var4 = var1.secondaryTextFieldRef;
+                var3 = _closure1_slot1;
+                var2 = _closure1_slot2;
+                var1 = 32;
+                var2 = var2[var1];
+                var1 = undefined;
+                var3 = var3.bind(var1)(var2);
+                var2 = {};
+                var6 = var6.id;
+                var2['channelId'] = var6;
+                var6 = _closure2_slot15;
+                var2['chatInputRef'] = var6;
+                var5 = _closure2_slot7;
+                var2['chatInputNativeRef'] = var5;
+                var5 = arg1;
+                var2['keyboardParams'] = var5;
+                var2['secondaryTextFieldRef'] = var4;
+                var2 = var3.bind(var1)(var2);
+                return var1;
             };
             var3['openCustomKeyboard'] = var1;
             var1 = function openSystemKeyboard() {
-                _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
+                _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
  0:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
@@ -1395,7 +1326,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = false;
                     var3['includeCustomKeyboard'] = var6;
                     var3 = var4.bind(var5)(var3);
-                    if(var3) { _fun0019_ip = 161; continue _fun0019 }
+                    if(var3) { _fun0017_ip = 161; continue _fun0017 }
  48:
                     var8 = _closure1_slot0;
                     var4 = _closure1_slot2;
@@ -1475,12 +1406,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var3['setText'] = var1;
             var1 = function showSideActions() {
-                _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
+                _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
  0:
                     var2 = _closure2_slot2;
                     var3 = var2.current;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0020_ip = 44; continue _fun0020 }
+                    if(!(var2 != var3)) { _fun0018_ip = 44; continue _fun0018 }
  18:
                     var2 = var3.onShowActions;
                     var1 = _closure2_slot13;

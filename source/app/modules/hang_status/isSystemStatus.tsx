@@ -1,4 +1,4 @@
-// app/modules/system_dm/Constants.tsx
+// app/modules/hang_status/isSystemStatus.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var3 = exports;
     var1 = global;
@@ -16,11 +16,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var5 = var2.bind(var1)(var4);
     var4 = var5.fileFinishedImporting;
-    var2 = 'modules/system_dm/Constants.tsx';
+    var2 = 'modules/hang_status/isSystemStatus.tsx';
     var2 = var4.bind(var5)(var2);
-    var2 = '643945264868098049';
-    var3['SYSTEM_USER'] = var2;
-    var2 = 'URGENT_MESSAGE_MODAL';
-    var3['URGENT_MODAL_KEY'] = var2;
+    var2 = function isSystemStatus(arg1) {
+        var2 = 'string';
+        var1 = arg1;
+        var1 = typeof var1;
+        var1 = var2 === var1;
+        return var1;
+    };
+    var3['default'] = var2;
     return var1;
 })();

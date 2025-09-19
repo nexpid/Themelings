@@ -119,7 +119,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var6.bind(var3)(var5);
                 var3 = null;
                 var4['current'] = var3;
-                _fun0001_ip = 98; continue _fun0001;
+                _fun0001_ip = 100; continue _fun0001;
  61:
                 var4 = _closure2_slot5;
                 var3 = global;
@@ -148,7 +148,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = 1000;
                 var3 = var7.bind(var6)(var5, var3);
                 var4['current'] = var3;
- 98:
+ 100:
                 var2 = _closure2_slot5;
                 var2 = var2.current;
                 var _closure3_slot0 = var2;

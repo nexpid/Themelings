@@ -1,32 +1,32 @@
 // app/modules/main_tabs_v2/native/settings/definitions/DoubleTapEmojiSetting.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var8 = metroImportDefault;
+    var13 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var8;
+    var _closure1_slot1 = var13;
     var _closure1_slot2 = var6;
     var1 = global;
-    var10 = var1.Object;
-    var9 = var10.defineProperty;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
     var2 = {};
     var7 = true;
     var2['value'] = var7;
     var1 = '__esModule';
-    var1 = var9.bind(var10)(var3, var1, var2);
+    var1 = var8.bind(var9)(var3, var1, var2);
     var1 = 0;
     var2 = var6[var1];
     var1 = undefined;
-    var2 = var8.bind(var1)(var2);
+    var2 = var13.bind(var1)(var2);
     var _closure1_slot3 = var2;
     var2 = 1;
-    var9 = var6[var2];
+    var8 = var6[var2];
     var2 = metroImportAll;
-    var2 = var2.bind(var1)(var9);
+    var2 = var2.bind(var1)(var8);
     var2 = 2;
     var2 = var6[var2];
-    var2 = var8.bind(var1)(var2);
+    var2 = var13.bind(var1)(var2);
     var _closure1_slot4 = var2;
     var2 = 3;
     var2 = var6[var2];
@@ -47,13 +47,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var5.bind(var1)(var2);
     var2 = var2.jsx;
     var _closure1_slot7 = var2;
+    var2 = 7;
+    var2 = var6[var2];
+    var10 = var5.bind(var1)(var2);
+    var9 = var10.createStyles;
+    var2 = {};
+    var11 = {};
+    var12 = 8;
+    var12 = var6[var12];
+    var12 = var13.bind(var1)(var12);
+    var12 = var12.colors;
+    var12 = var12.INTERACTIVE_NORMAL;
+    var11['color'] = var12;
+    var2['textEmoji'] = var11;
+    var2 = var9.bind(var10)(var2);
+    var _closure1_slot8 = var2;
     var2 = {};
     var8 = var8.PRESSABLE;
     var2['type'] = var8;
     var8 = function title() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
-        var1 = 16;
+        var1 = 18;
         var2 = var6[var1];
         var4 = undefined;
         var2 = var5.bind(var4)(var2);
@@ -72,13 +87,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function useDoubleTapEmojiSettingTrailing() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            var3 = _closure1_slot0;
-            var6 = _closure1_slot2;
-            var1 = 7;
-            var1 = var6[var1];
+            var1 = _closure1_slot8;
             var5 = undefined;
-            var8 = var3.bind(var5)(var1);
-            var7 = var8.useStateFromStoresObject;
+            var6 = var1.bind(var5)();
+            var3 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var1 = 9;
+            var1 = var7[var1];
+            var9 = var3.bind(var5)(var1);
+            var8 = var9.useStateFromStoresObject;
             var1 = _closure1_slot4;
             var4 = new Array(1);
             var4[0] = var1;
@@ -102,55 +119,57 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 }
             };
-            var4 = var7.bind(var8)(var4, var1);
-            var1 = 8;
-            var1 = var6[var1];
+            var4 = var8.bind(var9)(var4, var1);
+            var1 = 10;
+            var1 = var7[var1];
             var3 = var3.bind(var5)(var1);
             var1 = var3.disambiguatedEmojiFromProtoValue;
-            var7 = var1.bind(var3)(var4);
+            var8 = var1.bind(var3)(var4);
             var1 = null;
-            if(!(var1 != var7)) { _fun0001_ip = 252; continue _fun0001 }
- 90:
-            var3 = var7.id;
-            if(!(var1 == var3)) { _fun0001_ip = 106; continue _fun0001 }
- 99:
-            var6 = var7.url;
-            _fun0001_ip = 162; continue _fun0001;
- 106:
+            if(!(var1 != var8)) { _fun0001_ip = 271; continue _fun0001 }
+ 98:
+            var3 = var8.id;
+            if(!(var1 == var3)) { _fun0001_ip = 114; continue _fun0001 }
+ 107:
+            var7 = var8.url;
+            _fun0001_ip = 170; continue _fun0001;
+ 114:
             var4 = _closure1_slot1;
-            var8 = _closure1_slot2;
-            var3 = 9;
-            var3 = var8[var3];
-            var8 = var4.bind(var5)(var3);
-            var4 = var8.getEmojiURL;
+            var9 = _closure1_slot2;
+            var3 = 11;
+            var3 = var9[var3];
+            var9 = var4.bind(var5)(var3);
+            var4 = var9.getEmojiURL;
             var3 = {'id': null, 'size': 24, 'animated': false};
-            var9 = var7.id;
-            var3['id'] = var9;
-            var6 = var4.bind(var8)(var3);
- 162:
+            var10 = var8.id;
+            var3['id'] = var10;
+            var7 = var4.bind(var9)(var3);
+ 170:
             var4 = _closure1_slot7;
             var3 = _closure1_slot1;
-            var8 = _closure1_slot2;
-            var2 = 10;
-            var2 = var8[var2];
+            var9 = _closure1_slot2;
+            var2 = 12;
+            var2 = var9[var2];
             var3 = var3.bind(var5)(var2);
             var2 = {};
-            var8 = {'height': 24, 'width': 24};
-            var2['fastImageStyle'] = var8;
-            var2['src'] = var6;
-            var6 = var7.id;
-            var8 = var1 == var6;
-            var6 = '';
-            if(!var8) { _fun0001_ip = 233; continue _fun0001 }
- 228:
-            var6 = var7.surrogates;
- 233:
-            var2['name'] = var6;
-            var6 = true;
-            var2['adjustsFontSizeToFit'] = var6;
+            var9 = {'height': 24, 'width': 24};
+            var2['fastImageStyle'] = var9;
+            var2['src'] = var7;
+            var7 = var8.id;
+            var9 = var1 == var7;
+            var7 = '';
+            if(!var9) { _fun0001_ip = 241; continue _fun0001 }
+ 236:
+            var7 = var8.surrogates;
+ 241:
+            var2['name'] = var7;
+            var7 = true;
+            var2['adjustsFontSizeToFit'] = var7;
+            var6 = var6.textEmoji;
+            var2['textEmojiStyle'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
- 252:
+ 271:
             return var1;
         }
     };
@@ -158,7 +177,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function onPressSetting() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
-        var1 = 11;
+        var1 = 13;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -179,7 +198,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  13:
                     var11 = _closure1_slot1;
                     var6 = _closure1_slot2;
-                    var2 = 12;
+                    var2 = 14;
                     var2 = var6[var2];
                     var3 = undefined;
                     var9 = var11.bind(var3)(var2);
@@ -195,14 +214,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2['emoji_animated'] = var10;
                     var10 = false;
                     var2['recommended'] = var10;
-                    var10 = 13;
+                    var10 = 15;
                     var10 = var6[var10];
                     var10 = var11.bind(var3)(var10);
                     var10 = var10.USER_SETTINGS;
                     var2['location'] = var10;
                     var2 = var8.bind(var9)(var5, var2);
                     var5 = _closure1_slot0;
-                    var2 = 14;
+                    var2 = 16;
                     var2 = var6[var2];
                     var2 = var5.bind(var3)(var2);
                     var6 = var2.DoubleTapReactionEmoji;
@@ -224,7 +243,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  197:
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var4 = 15;
+                    var4 = 17;
                     var4 = var6[var4];
                     var6 = var5.bind(var3)(var4);
                     var5 = var6.showDoubleTapEmojiUpdatedToast;
@@ -265,7 +284,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
             var4 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var2 = 7;
+            var2 = 9;
             var3 = var5[var2];
             var2 = undefined;
             var7 = var4.bind(var2)(var3);
@@ -294,7 +313,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 }
             };
             var3 = var6.bind(var7)(var3, var1);
-            var1 = 8;
+            var1 = 10;
             var1 = var5[var1];
             var2 = var4.bind(var2)(var1);
             var1 = var2.disambiguatedEmojiFromProtoValue;
@@ -314,7 +333,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         }
     };
     var2['useDescription'] = var4;
-    var4 = 17;
+    var4 = 19;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

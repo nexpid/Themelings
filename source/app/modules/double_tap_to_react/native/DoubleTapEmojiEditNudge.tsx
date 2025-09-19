@@ -85,6 +85,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = 12;
         var7 = var7 * var8;
         var2['fontSize'] = var7;
+        var7 = var6[var3];
+        var7 = var5.bind(var4)(var7);
+        var7 = var7.colors;
+        var7 = var7.INTERACTIVE_NORMAL;
+        var2['color'] = var7;
         var1['doubleTapTextEmoji'] = var2;
         var2 = {};
         var7 = 16;

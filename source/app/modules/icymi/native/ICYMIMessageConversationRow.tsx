@@ -132,7 +132,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var4 = var7.bind(var8)(var4);
     var _closure1_slot5 = var4;
-    var4 = 10;
+    var4 = 11;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -147,22 +147,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var2.channel;
             var7 = var2.guild;
             var _closure2_slot1 = var7;
-            var10 = _closure1_slot3;
-            var6 = var10.useEffect;
+            var6 = _closure1_slot3;
+            var3 = var6.useEffect;
             var2 = null;
-            var3 = var2 == var7;
+            var2 = var2 == var7;
             var4 = undefined;
-            var2 = undefined;
-            if(var3) { _fun0002_ip = 58; continue _fun0002 }
+            var10 = undefined;
+            if(var2) { _fun0002_ip = 58; continue _fun0002 }
  53:
-            var2 = var7.id;
+            var10 = var7.id;
  58:
-            var3 = new Array(2);
-            var3[0] = var2;
-            var2 = var9.author;
-            var2 = var2.id;
-            var3[1] = var2;
-            var2 = function() {
+            var2 = new Array(2);
+            var2[0] = var10;
+            var10 = var9.author;
+            var10 = var10.id;
+            var2[1] = var10;
+            var1 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
                     var1 = _closure2_slot1;
@@ -199,30 +199,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 }
             };
-            var2 = var6.bind(var10)(var2, var3);
-            var6 = _closure1_slot3;
-            var3 = var6.useMemo;
-            var2 = new Array(1);
-            var2[0] = var9;
-            var1 = function() {
-                var1 = {};
-                var3 = _closure2_slot0;
-                var2 = var3.id;
-                var1['id'] = var2;
-                var2 = 'message';
-                var1['type'] = var2;
-                var2 = new Array(1);
-                var2[0] = var3;
-                var1['messages'] = var2;
-                var2 = 'icymi-card';
-                var1['renderLocation'] = var2;
-                return var1;
-            };
-            var6 = var3.bind(var6)(var1, var2);
-            var3 = _closure1_slot4;
+            var1 = var3.bind(var6)(var1, var2);
             var2 = _closure1_slot0;
             var10 = _closure1_slot2;
             var1 = 9;
+            var1 = var10[var1];
+            var3 = var2.bind(var4)(var1);
+            var1 = var3.useMessageConversationProps;
+            var6 = var1.bind(var3)(var9);
+            var3 = _closure1_slot4;
+            var1 = 10;
             var1 = var10[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.ConversationProvider;

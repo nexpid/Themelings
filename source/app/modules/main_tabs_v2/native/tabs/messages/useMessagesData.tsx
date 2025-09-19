@@ -416,20 +416,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  188:
                     var1 = var7.bind(var2)(var1);
                     var7 = var2.push;
+                    var8 = _closure2_slot9;
+                    var1 = 0;
+                    if(var8) { _fun0003_ip = 219; continue _fun0003 }
+ 207:
                     var8 = _closure2_slot10;
                     var1 = 0;
-                    if(!var8) { _fun0003_ip = 210; continue _fun0003 }
- 207:
+                    if(!var8) { _fun0003_ip = 219; continue _fun0003 }
+ 216:
                     var1 = 1;
- 210:
+ 219:
                     var1 = var7.bind(var2)(var1);
                     var7 = var2.push;
                     var8 = _closure2_slot9;
                     var1 = 0;
-                    if(!var8) { _fun0003_ip = 232; continue _fun0003 }
- 229:
+                    if(!var8) { _fun0003_ip = 241; continue _fun0003 }
+ 238:
                     var1 = 1;
- 232:
+ 241:
                     var1 = var7.bind(var2)(var1);
                     var7 = var2.push;
                     var1 = _closure2_slot2;
@@ -441,48 +445,48 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var7.bind(var2)(var1);
                     var7 = var2.push;
                     var1 = 0;
-                    if(!var4) { _fun0003_ip = 288; continue _fun0003 }
- 285:
+                    if(!var4) { _fun0003_ip = 297; continue _fun0003 }
+ 294:
                     var1 = 1;
- 288:
+ 297:
                     var1 = var7.bind(var2)(var1);
                     var7 = var2.push;
                     var1 = 0;
-                    if(!var4) { _fun0003_ip = 330; continue _fun0003 }
- 303:
+                    if(!var4) { _fun0003_ip = 339; continue _fun0003 }
+ 312:
                     var8 = _closure2_slot0;
                     var1 = 0;
-                    if(!var8) { _fun0003_ip = 330; continue _fun0003 }
- 312:
+                    if(!var8) { _fun0003_ip = 339; continue _fun0003 }
+ 321:
                     var8 = _closure2_slot1;
                     var1 = 0;
-                    if(!var8) { _fun0003_ip = 330; continue _fun0003 }
- 321:
+                    if(!var8) { _fun0003_ip = 339; continue _fun0003 }
+ 330:
                     var8 = _closure2_slot5;
                     var1 = var8.length;
- 330:
+ 339:
                     var1 = var7.bind(var2)(var1);
                     var1 = var2.push;
                     var1 = var1.bind(var2)(var3);
-                    if(var5) { _fun0003_ip = 368; continue _fun0003 }
- 348:
+                    if(var5) { _fun0003_ip = 377; continue _fun0003 }
+ 357:
                     var3 = null;
-                    if(!var4) { _fun0003_ip = 366; continue _fun0003 }
- 353:
+                    if(!var4) { _fun0003_ip = 375; continue _fun0003 }
+ 362:
                     var1 = _closure1_slot11;
                     var3 = var1.EmptyState;
- 366:
-                    _fun0003_ip = 393; continue _fun0003;
- 368:
+ 375:
+                    _fun0003_ip = 402; continue _fun0003;
+ 377:
                     var8 = _closure2_slot7;
                     var1 = null;
-                    if(var8) { _fun0003_ip = 390; continue _fun0003 }
- 377:
+                    if(var8) { _fun0003_ip = 399; continue _fun0003 }
+ 386:
                     var8 = _closure1_slot11;
                     var1 = var8.HappeningNow;
- 390:
+ 399:
                     var3 = var1;
- 393:
+ 402:
                     var1 = {};
                     var8 = _closure2_slot3;
                     var1['channels'] = var8;
@@ -492,8 +496,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = var8.current;
                     var8 = var8 > var9;
                     var7 = null;
-                    if(!var8) { _fun0003_ip = 462; continue _fun0003 }
- 431:
+                    if(!var8) { _fun0003_ip = 471; continue _fun0003 }
+ 440:
                     var8 = _closure2_slot11;
                     var10 = var8.current;
                     var8 = global;
@@ -501,22 +505,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var9 = var8.concat;
                     var8 = '';
                     var7 = var9.bind(var8)(var10);
- 462:
+ 471:
                     var1['dataKey'] = var7;
                     var7 = !var5;
-                    if(var5) { _fun0003_ip = 477; continue _fun0003 }
- 473:
+                    if(var5) { _fun0003_ip = 486; continue _fun0003 }
+ 482:
                     var7 = _closure2_slot0;
- 477:
-                    if(!var7) { _fun0003_ip = 483; continue _fun0003 }
- 480:
-                    var7 = !var4;
- 483:
-                    if(!var7) { _fun0003_ip = 493; continue _fun0003 }
  486:
+                    if(!var7) { _fun0003_ip = 492; continue _fun0003 }
+ 489:
+                    var7 = !var4;
+ 492:
+                    if(!var7) { _fun0003_ip = 502; continue _fun0003 }
+ 495:
                     var8 = _closure2_slot9;
                     var7 = !var8;
- 493:
+ 502:
                     var1['showFullscreenEmptyState'] = var7;
                     var7 = _closure2_slot4;
                     var1['setAddedFriendSuggestions'] = var7;
@@ -524,20 +528,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1['friendSuggestions'] = var7;
                     var1['renderHeader'] = var3;
                     var3 = _closure2_slot0;
-                    if(!var3) { _fun0003_ip = 539; continue _fun0003 }
- 528:
+                    if(!var3) { _fun0003_ip = 548; continue _fun0003 }
+ 537:
                     var7 = _closure2_slot8;
                     var6 = 4;
                     var3 = var7 < var6;
- 539:
-                    if(!var3) { _fun0003_ip = 545; continue _fun0003 }
- 542:
-                    var3 = var5;
- 545:
-                    if(var3) { _fun0003_ip = 551; continue _fun0003 }
  548:
-                    var3 = var4;
+                    if(!var3) { _fun0003_ip = 554; continue _fun0003 }
  551:
+                    var3 = var5;
+ 554:
+                    if(var3) { _fun0003_ip = 560; continue _fun0003 }
+ 557:
+                    var3 = var4;
+ 560:
                     var1['renderFooter'] = var3;
                     var1['sections'] = var2;
                     return var1;

@@ -38,13 +38,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot35 = var2;
+            _closure1_slot36 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot35 = var1;
+    var _closure1_slot36 = var1;
     var1 = function _createForOfIteratorHelperLoose(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
@@ -116,7 +116,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = undefined;
             if(!var9) { _fun0002_ip = 247; continue _fun0002 }
  234:
-            var9 = _closure1_slot37;
+            var9 = _closure1_slot38;
             var7 = var9.bind(var8)(var3, var8);
  247:
             _fun0002_ip = 265; continue _fun0002;
@@ -128,7 +128,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var7;
             _fun0002_ip = 283; continue _fun0002;
  270:
-            var7 = _closure1_slot37;
+            var7 = _closure1_slot38;
             var6 = var7.bind(var8)(var3, var8);
  283:
             var4 = var6;
@@ -187,7 +187,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot36 = var1;
+    var _closure1_slot37 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
@@ -220,7 +220,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot37 = var1;
+    var _closure1_slot38 = var1;
     var2 = function initializeState() {
         var1 = false;
         var _closure1_slot2 = var1;
@@ -344,20 +344,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = new var6[var1](var5);
         var1 = var1 instanceof Object ? var1 : var5;
         var _closure1_slot29 = var1;
-        var5 = _closure1_slot46;
+        var5 = _closure1_slot47;
         var1 = undefined;
         var5 = var5.bind(var1)();
         var _closure1_slot30 = var4;
+        var4 = var2.Map;
+        var5 = var4.prototype;
+        var5 = Object.create(var5, {constructor: {value: var4}});
+        var6 = var5;
+        var4 = new var6[var4](var5);
+        var4 = var4 instanceof Object ? var4 : var5;
+        var _closure1_slot31 = var4;
         var2 = var2.Map;
         var4 = var2.prototype;
         var4 = Object.create(var4, {constructor: {value: var2}});
         var6 = var4;
         var2 = new var6[var2](var5);
         var2 = var2 instanceof Object ? var2 : var4;
-        var _closure1_slot31 = var2;
+        _closure1_slot34 = var2;
         return var1;
     };
-    var _closure1_slot38 = var2;
+    var _closure1_slot39 = var2;
     var1 = function updateQuestData(arg1, arg2) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
@@ -511,7 +518,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot39 = var1;
+    var _closure1_slot40 = var1;
     var1 = function _addRewardCode(arg1, arg2) {
         var1 = global;
         var4 = var1.Map;
@@ -529,7 +536,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = undefined;
         return var1;
     };
-    var _closure1_slot40 = var1;
+    var _closure1_slot41 = var1;
     var1 = function updateQuestRewardData(arg1, arg2) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
@@ -597,10 +604,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  225:
             if(!(var7 != var8)) { _fun0006_ip = 239; continue _fun0006 }
  229:
-            var3 = _closure1_slot40;
+            var3 = _closure1_slot41;
             var3 = var3.bind(var1)(var4, var8);
  239:
-            var3 = _closure1_slot39;
+            var3 = _closure1_slot40;
             var2 = {};
             var5 = {};
             var13 = var5;
@@ -629,7 +636,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot41 = var1;
+    var _closure1_slot42 = var1;
     var1 = function maybeDeleteQuestHeartbeatFailure(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
@@ -656,7 +663,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot42 = var1;
+    var _closure1_slot43 = var1;
     var1 = function removeQuestIdFromIsEnrolling(arg1) {
         var1 = global;
         var4 = var1.Set;
@@ -673,7 +680,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = undefined;
         return var1;
     };
-    var _closure1_slot43 = var1;
+    var _closure1_slot44 = var1;
     var1 = function removeQuestIdFromIsDismissing(arg1) {
         var1 = global;
         var4 = var1.Set;
@@ -690,7 +697,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = undefined;
         return var1;
     };
-    var _closure1_slot44 = var1;
+    var _closure1_slot45 = var1;
     var1 = function checkAllQuestsExpiration() {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
@@ -752,7 +759,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             if(!var3) { _fun0008_ip = 91; continue _fun0008 }
  73:
             _closure1_slot29 = var2;
-            var2 = _closure1_slot34;
+            var2 = _closure1_slot35;
             var1 = var2.emitChange;
             var1 = var1.bind(var2)();
  91:
@@ -760,7 +767,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot45 = var1;
+    var _closure1_slot46 = var1;
     var1 = function _stopExpirationCheckInterval() {
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
  0:
@@ -779,7 +786,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot46 = var1;
+    var _closure1_slot47 = var1;
     var8 = global;
     var11 = var8.Object;
     var10 = var11.defineProperty;
@@ -818,15 +825,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var5.bind(var1)(var9);
     var9 = var9.QuestsExperimentLocations;
     var _closure1_slot28 = var9;
+    var9 = var8.Map;
+    var10 = var9.prototype;
+    var10 = Object.create(var10, {constructor: {value: var9}});
+    var15 = var10;
+    var9 = new var15[var9](var14);
+    var9 = var9 instanceof Object ? var9 : var10;
+    var _closure1_slot32 = var9;
+    var9 = null;
+    var _closure1_slot33 = var9;
     var8 = var8.Map;
     var9 = var8.prototype;
     var9 = Object.create(var9, {constructor: {value: var8}});
     var15 = var9;
     var8 = new var15[var8](var14);
     var8 = var8 instanceof Object ? var8 : var9;
-    var _closure1_slot32 = var8;
-    var8 = null;
-    var _closure1_slot33 = var8;
+    var _closure1_slot34 = var8;
     var2 = var2.bind(var1)();
     var2 = 13;
     var2 = var6[var2];
@@ -845,7 +859,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = _closure1_slot25;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot24;
-                var1 = _closure1_slot35;
+                var1 = _closure1_slot36;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0011_ip = 69; continue _fun0011 }
  51:
@@ -882,7 +896,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var5['get'] = var1;
-        var1 = new Array(25);
+        var1 = new Array(26);
         var1[0] = var5;
         var5 = {};
         var7 = 'excludedQuests';
@@ -1000,6 +1014,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5['get'] = var7;
         var1[11] = var5;
         var5 = {};
+        var7 = 'getFetchQuestPreviewError';
+        var5['key'] = var7;
+        var7 = function value(arg1) {
+            var3 = _closure1_slot34;
+            var2 = var3.get;
+            var1 = arg1;
+            var1 = var2.bind(var3)(var1);
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[12] = var5;
+        var5 = {};
         var7 = 'isEnrolling';
         var5['key'] = var7;
         var7 = function value(arg1) {
@@ -1010,7 +1036,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var5['value'] = var7;
-        var1[12] = var5;
+        var1[13] = var5;
         var5 = {};
         var7 = 'isClaimingReward';
         var5['key'] = var7;
@@ -1022,7 +1048,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var5['value'] = var7;
-        var1[13] = var5;
+        var1[14] = var5;
         var5 = {};
         var7 = 'isFetchingRewardCode';
         var5['key'] = var7;
@@ -1034,7 +1060,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var5['value'] = var7;
-        var1[14] = var5;
+        var1[15] = var5;
         var5 = {};
         var7 = 'isDismissingContent';
         var5['key'] = var7;
@@ -1046,7 +1072,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var5['value'] = var7;
-        var1[15] = var5;
+        var1[16] = var5;
         var5 = {};
         var7 = 'getRewardCode';
         var5['key'] = var7;
@@ -1058,7 +1084,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var5['value'] = var7;
-        var1[16] = var5;
+        var1[17] = var5;
         var5 = {};
         var7 = 'getRewards';
         var5['key'] = var7;
@@ -1070,7 +1096,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var5['value'] = var7;
-        var1[17] = var5;
+        var1[18] = var5;
         var5 = {};
         var7 = 'getStreamHeartbeatFailure';
         var5['key'] = var7;
@@ -1082,7 +1108,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var5['value'] = var7;
-        var1[18] = var5;
+        var1[19] = var5;
         var5 = {};
         var7 = 'getQuest';
         var5['key'] = var7;
@@ -1094,7 +1120,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var5['value'] = var7;
-        var1[19] = var5;
+        var1[20] = var5;
         var5 = {};
         var7 = 'isProgressingOnDesktop';
         var5['key'] = var7;
@@ -1106,7 +1132,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var5['value'] = var7;
-        var1[20] = var5;
+        var1[21] = var5;
         var5 = {};
         var7 = 'selectedTaskPlatform';
         var5['key'] = var7;
@@ -1127,7 +1153,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var5['value'] = var7;
-        var1[21] = var5;
+        var1[22] = var5;
         var5 = {};
         var7 = 'getOptimisticProgress';
         var5['key'] = var7;
@@ -1151,7 +1177,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var5['value'] = var7;
-        var1[22] = var5;
+        var1[23] = var5;
         var5 = {};
         var7 = 'getExpiredQuestsMap';
         var5['key'] = var7;
@@ -1160,7 +1186,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var5['value'] = var7;
-        var1[23] = var5;
+        var1[24] = var5;
         var5 = {};
         var7 = 'isQuestExpired';
         var5['key'] = var7;
@@ -1181,7 +1207,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var5['value'] = var6;
-        var1[24] = var5;
+        var1[25] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -1193,10 +1219,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var7.bind(var1)(var2);
     var2 = {};
     var7 = function handleLogout() {
-        var3 = _closure1_slot46;
+        var3 = _closure1_slot47;
         var1 = undefined;
         var3 = var3.bind(var1)();
-        var2 = _closure1_slot38;
+        var2 = _closure1_slot39;
         var2 = var2.bind(var1)();
         return var1;
     };
@@ -1235,7 +1261,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var26 = var2;
             var1 = new var26[var1](var25);
             var5 = var1 instanceof Object ? var1 : var2;
-            var2 = _closure1_slot36;
+            var2 = _closure1_slot37;
             var1 = undefined;
             var15 = var2.bind(var1)(var8);
             var8 = var15.bind(var1)();
@@ -1306,7 +1332,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = new var26[var2](var25);
             var2 = var2 instanceof Object ? var2 : var8;
             _closure1_slot6 = var2;
-            var2 = _closure1_slot36;
+            var2 = _closure1_slot37;
             var8 = var2.bind(var1)(var7);
             var7 = var8.bind(var1)();
             var2 = var7.done;
@@ -1322,7 +1348,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var9;
             if(!var2) { _fun0016_ip = 437; continue _fun0016 }
  477:
-            var8 = _closure1_slot36;
+            var8 = _closure1_slot37;
             var11 = _closure1_slot31;
             var2 = null;
             var9 = var2 == var11;
@@ -1371,13 +1397,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = null;
                     if(!(var1 === var2)) { _fun0017_ip = 56; continue _fun0017 }
  13:
-                    var2 = _closure1_slot45;
+                    var2 = _closure1_slot46;
                     var1 = undefined;
                     var2 = var2.bind(var1)();
                     var2 = global;
                     var5 = var2.setInterval;
                     var4 = function() {
-                        var2 = _closure1_slot45;
+                        var2 = _closure1_slot46;
                         var1 = undefined;
                         var2 = var2.bind(var1)();
                         return var1;
@@ -1440,7 +1466,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = new var11[var1](var10);
             var1 = var1 instanceof Object ? var1 : var2;
             _closure1_slot7 = var1;
-            var2 = _closure1_slot36;
+            var2 = _closure1_slot37;
             var1 = undefined;
             var4 = var2.bind(var1)(var3);
             var3 = var4.bind(var1)();
@@ -1533,16 +1559,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = function handleFetchQuestPreviewBegin(arg1) {
         var1 = arg1;
         var3 = var1.questId;
-        var1 = global;
-        var5 = var1.Set;
-        var6 = _closure1_slot14;
+        var2 = global;
+        var6 = var2.Set;
+        var7 = _closure1_slot14;
+        var5 = var6.prototype;
+        var5 = Object.create(var5, {constructor: {value: var6}});
+        var8 = var5;
+        var4 = new var8[var6](var7, var6);
+        var5 = var4 instanceof Object ? var4 : var5;
+        _closure1_slot14 = var5;
+        var4 = var5.add;
+        var4 = var4.bind(var5)(var3);
+        var5 = var2.Map;
+        var7 = _closure1_slot34;
         var4 = var5.prototype;
         var4 = Object.create(var4, {constructor: {value: var5}});
-        var7 = var4;
-        var2 = new var7[var5](var6, var5);
+        var8 = var4;
+        var2 = new var8[var5](var7, var6);
         var2 = var2 instanceof Object ? var2 : var4;
-        _closure1_slot14 = var2;
-        var1 = var2.add;
+        _closure1_slot34 = var2;
+        var1 = var2.delete;
         var1 = var1.bind(var2)(var3);
         var1 = undefined;
         return var1;
@@ -1550,8 +1586,57 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['QUESTS_FETCH_PREVIEW_BEGIN'] = var7;
     var7 = function handleFetchQuestPreviewSuccess(arg1) {
         var1 = arg1;
+        var3 = var1.questId;
+        var6 = var1.quest;
+        var2 = global;
+        var7 = var2.Set;
+        var9 = _closure1_slot14;
+        var5 = var7.prototype;
+        var5 = Object.create(var5, {constructor: {value: var7}});
+        var10 = var5;
+        var4 = new var10[var7](var9, var8);
+        var5 = var4 instanceof Object ? var4 : var5;
+        _closure1_slot14 = var5;
+        var4 = var5.delete;
+        var4 = var4.bind(var5)(var3);
+        var7 = var2.Map;
+        var9 = _closure1_slot31;
+        var5 = var7.prototype;
+        var5 = Object.create(var5, {constructor: {value: var7}});
+        var10 = var5;
+        var4 = new var10[var7](var9, var8);
+        var5 = var4 instanceof Object ? var4 : var5;
+        _closure1_slot31 = var5;
+        var4 = var5.set;
+        var4 = var4.bind(var5)(var3, var6);
+        var7 = var2.Map;
+        var9 = _closure1_slot5;
+        var5 = var7.prototype;
+        var5 = Object.create(var5, {constructor: {value: var7}});
+        var10 = var5;
+        var4 = new var10[var7](var9, var8);
+        var5 = var4 instanceof Object ? var4 : var5;
+        _closure1_slot5 = var5;
+        var4 = var5.set;
+        var4 = var4.bind(var5)(var3, var6);
+        var5 = var2.Map;
+        var9 = _closure1_slot34;
+        var4 = var5.prototype;
+        var4 = Object.create(var4, {constructor: {value: var5}});
+        var10 = var4;
+        var2 = new var10[var5](var9, var8);
+        var2 = var2 instanceof Object ? var2 : var4;
+        _closure1_slot34 = var2;
+        var1 = var2.delete;
+        var1 = var1.bind(var2)(var3);
+        var1 = undefined;
+        return var1;
+    };
+    var2['QUESTS_FETCH_PREVIEW_SUCCESS'] = var7;
+    var7 = function handleFetchQuestPreviewFailure(arg1) {
+        var1 = arg1;
         var4 = var1.questId;
-        var3 = var1.quest;
+        var3 = var1.error;
         var2 = global;
         var7 = var2.Set;
         var9 = _closure1_slot14;
@@ -1563,44 +1648,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _closure1_slot14 = var6;
         var5 = var6.delete;
         var5 = var5.bind(var6)(var4);
-        var7 = var2.Map;
-        var9 = _closure1_slot31;
-        var6 = var7.prototype;
-        var6 = Object.create(var6, {constructor: {value: var7}});
-        var10 = var6;
-        var5 = new var10[var7](var9, var8);
-        var6 = var5 instanceof Object ? var5 : var6;
-        _closure1_slot31 = var6;
-        var5 = var6.set;
-        var5 = var5.bind(var6)(var4, var3);
         var6 = var2.Map;
-        var9 = _closure1_slot5;
+        var9 = _closure1_slot34;
         var5 = var6.prototype;
         var5 = Object.create(var5, {constructor: {value: var6}});
         var10 = var5;
         var2 = new var10[var6](var9, var8);
         var2 = var2 instanceof Object ? var2 : var5;
-        _closure1_slot5 = var2;
+        _closure1_slot34 = var2;
         var1 = var2.set;
         var1 = var1.bind(var2)(var4, var3);
-        var1 = undefined;
-        return var1;
-    };
-    var2['QUESTS_FETCH_PREVIEW_SUCCESS'] = var7;
-    var7 = function handleFetchQuestPreviewFailure(arg1) {
-        var1 = arg1;
-        var3 = var1.questId;
-        var1 = global;
-        var5 = var1.Set;
-        var6 = _closure1_slot14;
-        var4 = var5.prototype;
-        var4 = Object.create(var4, {constructor: {value: var5}});
-        var7 = var4;
-        var2 = new var7[var5](var6, var5);
-        var2 = var2 instanceof Object ? var2 : var4;
-        _closure1_slot14 = var2;
-        var1 = var2.delete;
-        var1 = var1.bind(var2)(var3);
         var1 = undefined;
         return var1;
     };
@@ -1615,7 +1672,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = _closure1_slot15;
             var4 = var5.add;
             var4 = var4.bind(var5)(var6);
-            var5 = _closure1_slot39;
+            var5 = _closure1_slot40;
             var4 = {};
             var4['userStatus'] = var1;
             var1 = undefined;
@@ -1623,7 +1680,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = null;
             if(!(var4 != var3)) { _fun0020_ip = 72; continue _fun0020 }
  63:
-            var2 = _closure1_slot42;
+            var2 = _closure1_slot43;
             var2 = var2.bind(var1)(var3);
  72:
             return var1;
@@ -1692,13 +1749,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = function handleEnrollSuccess(arg1) {
         var1 = arg1;
         var2 = var1.enrolledQuestUserStatus;
-        var6 = _closure1_slot39;
+        var6 = _closure1_slot40;
         var5 = var2.questId;
         var4 = {};
         var4['userStatus'] = var2;
         var1 = undefined;
         var4 = var6.bind(var1)(var5, var4);
-        var3 = _closure1_slot43;
+        var3 = _closure1_slot44;
         var2 = var2.questId;
         var2 = var3.bind(var1)(var2);
         return var1;
@@ -1707,7 +1764,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = function handleEnrollFailure(arg1) {
         var1 = arg1;
         var3 = var1.questId;
-        var2 = _closure1_slot43;
+        var2 = _closure1_slot44;
         var1 = undefined;
         var2 = var2.bind(var1)(var3);
         return var1;
@@ -1748,7 +1805,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var1.delete;
             var3 = var3.bind(var1)(var4);
             _closure1_slot12 = var1;
-            var3 = _closure1_slot40;
+            var3 = _closure1_slot41;
             var1 = undefined;
             var3 = var3.bind(var1)(var4, var6);
             var5 = _closure1_slot5;
@@ -1769,7 +1826,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  124:
             if(!var3) { _fun0022_ip = 171; continue _fun0022 }
  127:
-            var3 = _closure1_slot39;
+            var3 = _closure1_slot40;
             var2 = {};
             var5 = {};
             var10 = var5;
@@ -1836,7 +1893,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var2.delete;
         var5 = var5.bind(var2)(var4);
         _closure1_slot11 = var2;
-        var2 = _closure1_slot41;
+        var2 = _closure1_slot42;
         var1 = undefined;
         var2 = var2.bind(var1)(var4, var3);
         return var1;
@@ -1881,13 +1938,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = function handleDismissContentSuccess(arg1) {
         var1 = arg1;
         var2 = var1.dismissedQuestUserStatus;
-        var6 = _closure1_slot39;
+        var6 = _closure1_slot40;
         var5 = var2.questId;
         var4 = {};
         var4['userStatus'] = var2;
         var1 = undefined;
         var4 = var6.bind(var1)(var5, var4);
-        var3 = _closure1_slot44;
+        var3 = _closure1_slot45;
         var2 = var2.questId;
         var2 = var3.bind(var1)(var2);
         return var1;
@@ -1896,7 +1953,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = function handleDismissContentFailure(arg1) {
         var1 = arg1;
         var3 = var1.questId;
-        var2 = _closure1_slot44;
+        var2 = _closure1_slot45;
         var1 = undefined;
         var2 = var2.bind(var1)(var3);
         return var1;
@@ -1932,7 +1989,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7.bind(var1)(var2);
             var2 = var7.questUserStatusFromServer;
             var2 = var2.bind(var7)(var5);
-            var9 = _closure1_slot39;
+            var9 = _closure1_slot40;
             var8 = var5.quest_id;
             var7 = {};
             var7['userStatus'] = var2;
@@ -2003,7 +2060,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = function handleStreamClose(arg1) {
         var1 = arg1;
         var3 = var1.streamKey;
-        var2 = _closure1_slot42;
+        var2 = _closure1_slot43;
         var1 = undefined;
         var2 = var2.bind(var1)(var3);
         return var1;
@@ -2012,7 +2069,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = function handleDismissProgressTrackingFailureNotice(arg1) {
         var1 = arg1;
         var3 = var1.streamKey;
-        var2 = _closure1_slot42;
+        var2 = _closure1_slot43;
         var1 = undefined;
         var2 = var2.bind(var1)(var3);
         return var1;
@@ -2023,7 +2080,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
             var1 = arg1;
             var2 = var1.previewQuestUserStatus;
-            var6 = _closure1_slot39;
+            var6 = _closure1_slot40;
             var5 = var2.questId;
             var4 = {};
             var4['userStatus'] = var2;
@@ -2238,7 +2295,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var2;
     var2 = new var15[var9](var14, var13, var12);
     var2 = var2 instanceof Object ? var2 : var7;
-    var _closure1_slot34 = var2;
+    var _closure1_slot35 = var2;
     var4 = 15;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

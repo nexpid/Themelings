@@ -366,6 +366,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var12 = 32;
  605:
         var9['lineHeight'] = var12;
+        var12 = var6[var10];
+        var12 = var11.bind(var1)(var12);
+        var12 = var12.colors;
+        var12 = var12.INTERACTIVE_NORMAL;
+        var9['color'] = var12;
         var4['textEmoji'] = var9;
         var9 = {};
         var10 = var6[var10];

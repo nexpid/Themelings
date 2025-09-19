@@ -118,8 +118,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = 1;
                 var6 = var10 - var6;
                 var6 = var9 < var6;
-                if(!var6) { _fun0002_ip = 132; continue _fun0002 }
- 102:
+                if(!var6) { _fun0002_ip = 134; continue _fun0002 }
+ 104:
                 var11 = _closure1_slot5;
                 var10 = _closure1_slot4;
                 var8 = {};
@@ -127,7 +127,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var12 = var12.divider;
                 var8['style'] = var12;
                 var6 = var11.bind(var2)(var10, var8);
- 132:
+ 134:
                 var1[1] = var6;
                 var3['children'] = var1;
                 var6 = var7.join;

@@ -50,6 +50,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = {};
         var2 = _closure1_slot10;
         var1['recentStatuses'] = var2;
+        var2 = new Array(0);
+        var1['favoritedStatuses'] = var2;
         var2 = null;
         var1['currentDefaultStatus'] = var2;
         return var1;
@@ -143,7 +145,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot11 = var8;
     var2 = var2.bind(var1)();
     var _closure1_slot16 = var2;
-    var2 = 11;
+    var2 = 12;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
     var8 = var2.PersistedStore;
@@ -225,7 +227,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var5['value'] = var1;
-        var1 = new Array(8);
+        var1 = new Array(9);
         var1[0] = var5;
         var5 = {};
         var7 = 'getState';
@@ -274,6 +276,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5['value'] = var7;
         var1[5] = var5;
         var5 = {};
+        var7 = 'getFavoritedStatuses';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = _closure1_slot16;
+            var1 = var1.favoritedStatuses;
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[6] = var5;
+        var5 = {};
         var7 = 'getCurrentDefaultStatus';
         var5['key'] = var7;
         var7 = function value() {
@@ -282,7 +294,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var5['value'] = var7;
-        var1[6] = var5;
+        var1[7] = var5;
         var5 = {};
         var7 = 'getHangStatusActivity';
         var5['key'] = var7;
@@ -300,7 +312,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var5['value'] = var6;
-        var1[7] = var5;
+        var1[8] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -354,7 +366,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var2[1] = var9;
     var8['migrations'] = var2;
-    var2 = 12;
+    var2 = 13;
     var2 = var6[var2];
     var13 = var7.bind(var1)(var2);
     var2 = {};
@@ -403,14 +415,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
                     var3 = arg1;
-                    var2 = 'string';
-                    var1 = typeof var3;
-                    var1 = var2 === var1;
-                    if(!var1) { _fun0009_ip = 28; continue _fun0009 }
- 17:
+                    var4 = _closure1_slot1;
+                    var2 = _closure1_slot2;
+                    var1 = 9;
+                    var1 = var2[var1];
+                    var2 = undefined;
+                    var1 = var4.bind(var2)(var1);
+                    var1 = var1.bind(var2)(var3);
+                    if(!var1) { _fun0009_ip = 47; continue _fun0009 }
+ 36:
                     var2 = _closure2_slot0;
                     var1 = var3 === var2;
- 28:
+ 47:
                     return var1;
                 }
             };
@@ -460,7 +476,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  289:
             var4 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var2 = 9;
+            var2 = 10;
             var2 = var5[var2];
             var2 = var4.bind(var1)(var2);
             var5 = var2.HangStatusExperiment;
@@ -520,28 +536,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
  0:
                     var2 = arg1;
-                    var3 = 'string';
-                    var1 = typeof var2;
-                    var1 = var3 !== var1;
-                    if(!var1) { _fun0011_ip = 33; continue _fun0011 }
- 17:
-                    var4 = var2.status;
-                    var3 = _closure2_slot0;
-                    var1 = var4 === var3;
- 33:
-                    if(!var1) { _fun0011_ip = 85; continue _fun0011 }
- 36:
-                    var5 = _closure1_slot1;
-                    var4 = _closure1_slot2;
-                    var3 = 10;
-                    var4 = var4[var3];
-                    var3 = undefined;
-                    var5 = var5.bind(var3)(var4);
+                    var4 = _closure1_slot1;
+                    var5 = _closure1_slot2;
+                    var1 = 9;
+                    var1 = var5[var1];
+                    var5 = undefined;
+                    var1 = var4.bind(var5)(var1);
+                    var1 = var1.bind(var5)(var2);
+                    var1 = !var1;
+                    if(!var1) { _fun0011_ip = 55; continue _fun0011 }
+ 39:
+                    var6 = var2.status;
+                    var4 = _closure2_slot0;
+                    var1 = var6 === var4;
+ 55:
+                    if(!var1) { _fun0011_ip = 102; continue _fun0011 }
+ 58:
+                    var4 = _closure1_slot1;
+                    var6 = _closure1_slot2;
+                    var3 = 11;
+                    var3 = var6[var3];
+                    var5 = var4.bind(var5)(var3);
                     var4 = var5.isEqual;
                     var3 = var2.emoji;
                     var2 = _closure2_slot1;
                     var1 = var4.bind(var5)(var3, var2);
- 85:
+ 102:
                     return var1;
                 }
             };
@@ -643,15 +663,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['UPDATE_HANG_STATUS_GAME_ACTIVITY'] = var9;
     var9 = function handleDeleteInvalidHangStatus(arg1) {
         var1 = arg1;
-        var5 = var1.statuses;
+        var6 = var1.statuses;
         var2 = _closure1_slot16;
-        var8 = var2.recentStatuses;
+        var9 = var2.recentStatuses;
+        var4 = new Array(0);
+        var10 = var4;
+        var8 = 0;
+        var2 = arraySpread(var10, var9, var8);
+        var _closure2_slot0 = var4;
+        var2 = _closure1_slot16;
+        var9 = var2.favoritedStatuses;
         var2 = new Array(0);
-        var7 = 0;
-        var9 = var2;
-        var4 = arraySpread(var9, var8, var7);
-        var _closure2_slot0 = var2;
-        var4 = var5.forEach;
+        var10 = var2;
+        var5 = arraySpread(var10, var9, var8);
+        var _closure2_slot1 = var2;
+        var5 = var6.forEach;
         var3 = function(arg1) {
             _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
  0:
@@ -660,94 +686,149 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var _closure3_slot0 = var5;
                 var8 = var1.emoji;
                 var _closure3_slot1 = var8;
-                var4 = _closure2_slot0;
-                var3 = var4.findIndex;
-                var2 = function(arg1) {
+                var6 = _closure2_slot0;
+                var4 = var6.findIndex;
+                var3 = function(arg1) {
                     _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
  0:
-                        var2 = arg1;
-                        var3 = 'string';
-                        var1 = typeof var2;
-                        var1 = var3 !== var1;
-                        if(!var1) { _fun0014_ip = 33; continue _fun0014 }
- 17:
-                        var4 = var2.status;
-                        var3 = _closure3_slot0;
-                        var1 = var4 === var3;
- 33:
-                        if(!var1) { _fun0014_ip = 85; continue _fun0014 }
- 36:
+                        var3 = arg1;
+                        var2 = _closure1_slot1;
+                        var5 = _closure1_slot2;
+                        var1 = 9;
+                        var1 = var5[var1];
+                        var6 = undefined;
+                        var1 = var2.bind(var6)(var1);
+                        var1 = var1.bind(var6)(var3);
+                        if(var1) { _fun0014_ip = 98; continue _fun0014 }
+ 39:
+                        var5 = var3.status;
+                        var1 = _closure3_slot0;
+                        var1 = var5 === var1;
+                        if(!var1) { _fun0014_ip = 96; continue _fun0014 }
+ 55:
                         var5 = _closure1_slot1;
-                        var4 = _closure1_slot2;
-                        var3 = 10;
-                        var4 = var4[var3];
-                        var3 = undefined;
-                        var5 = var5.bind(var3)(var4);
-                        var4 = var5.isEqual;
-                        var3 = var2.emoji;
-                        var2 = _closure3_slot1;
-                        var1 = var4.bind(var5)(var3, var2);
- 85:
+                        var7 = _closure1_slot2;
+                        var4 = 11;
+                        var4 = var7[var4];
+                        var7 = var5.bind(var6)(var4);
+                        var6 = var7.isEqual;
+                        var5 = var3.emoji;
+                        var4 = _closure3_slot1;
+                        var1 = var6.bind(var7)(var5, var4);
+ 96:
+                        _fun0014_ip = 106; continue _fun0014;
+ 98:
+                        var2 = _closure3_slot0;
+                        var1 = var3 === var2;
+ 106:
+                        return var1;
+                    }
+                };
+                var9 = var4.bind(var6)(var3);
+                var4 = _closure2_slot1;
+                var3 = var4.findIndex;
+                var2 = function(arg1) {
+                    _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
+ 0:
+                        var3 = arg1;
+                        var2 = _closure1_slot1;
+                        var5 = _closure1_slot2;
+                        var1 = 9;
+                        var1 = var5[var1];
+                        var6 = undefined;
+                        var1 = var2.bind(var6)(var1);
+                        var1 = var1.bind(var6)(var3);
+                        if(var1) { _fun0015_ip = 98; continue _fun0015 }
+ 39:
+                        var5 = var3.status;
+                        var1 = _closure3_slot0;
+                        var1 = var5 === var1;
+                        if(!var1) { _fun0015_ip = 96; continue _fun0015 }
+ 55:
+                        var5 = _closure1_slot1;
+                        var7 = _closure1_slot2;
+                        var4 = 11;
+                        var4 = var7[var4];
+                        var7 = var5.bind(var6)(var4);
+                        var6 = var7.isEqual;
+                        var5 = var3.emoji;
+                        var4 = _closure3_slot1;
+                        var1 = var6.bind(var7)(var5, var4);
+ 96:
+                        _fun0015_ip = 106; continue _fun0015;
+ 98:
+                        var2 = _closure3_slot0;
+                        var1 = var3 === var2;
+ 106:
                         return var1;
                     }
                 };
                 var4 = var3.bind(var4)(var2);
                 var2 = 0;
-                if(!(var4 >= var2)) { _fun0013_ip = 71; continue _fun0013 }
- 52:
-                var3 = _closure2_slot0;
+                if(!(var9 >= var2)) { _fun0013_ip = 91; continue _fun0013 }
+ 72:
+                var7 = _closure2_slot0;
+                var6 = var7.splice;
+                var3 = 1;
+                var3 = var6.bind(var7)(var9, var3);
+ 91:
+                if(!(var4 >= var2)) { _fun0013_ip = 114; continue _fun0013 }
+ 95:
+                var3 = _closure2_slot1;
                 var2 = var3.splice;
                 var1 = 1;
                 var1 = var2.bind(var3)(var4, var1);
- 71:
+ 114:
                 var6 = _closure1_slot13;
                 var2 = null;
                 var7 = var2 == var6;
                 var1 = undefined;
                 var4 = undefined;
-                if(var7) { _fun0013_ip = 96; continue _fun0013 }
- 91:
+                if(var7) { _fun0013_ip = 139; continue _fun0013 }
+ 134:
                 var4 = var6.status;
- 96:
+ 139:
                 var4 = var5 === var4;
-                if(!var4) { _fun0013_ip = 153; continue _fun0013 }
- 103:
+                if(!var4) { _fun0013_ip = 196; continue _fun0013 }
+ 146:
                 var6 = _closure1_slot1;
                 var7 = _closure1_slot2;
-                var5 = 10;
+                var5 = 11;
                 var5 = var7[var5];
                 var7 = var6.bind(var1)(var5);
                 var6 = var7.isEqual;
                 var9 = _closure1_slot13;
                 var10 = var2 == var9;
                 var5 = undefined;
-                if(var10) { _fun0013_ip = 147; continue _fun0013 }
- 142:
+                if(var10) { _fun0013_ip = 190; continue _fun0013 }
+ 185:
                 var5 = var9.emoji;
- 147:
+ 190:
                 var4 = var6.bind(var7)(var8, var5);
- 153:
-                if(!var4) { _fun0013_ip = 182; continue _fun0013 }
- 156:
+ 196:
+                if(!var4) { _fun0013_ip = 225; continue _fun0013 }
+ 199:
                 _closure1_slot12 = var2;
                 _closure1_slot13 = var2;
                 _closure1_slot15 = var2;
                 var4 = _closure1_slot16;
                 var4['currentDefaultStatus'] = var2;
                 _closure1_slot14 = var2;
- 182:
+ 225:
                 return var1;
             }
         };
-        var3 = var4.bind(var5)(var3);
+        var3 = var5.bind(var6)(var3);
+        var3 = _closure1_slot16;
+        var3['recentStatuses'] = var4;
         var1 = _closure1_slot16;
-        var1['recentStatuses'] = var2;
+        var1['favoritedStatuses'] = var2;
         var1 = undefined;
         return var1;
     };
     var2['DELETE_INVALID_HANG_STATUSES'] = var9;
-    var4 = function handleClearHangStatus(arg1) {
-        _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
+    var9 = function handleClearHangStatus(arg1) {
+        _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
  0:
             var1 = arg1;
             var3 = var1.saveAsDefault;
@@ -755,7 +836,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             _closure1_slot12 = var1;
             _closure1_slot13 = var1;
             _closure1_slot15 = var1;
-            if(!var3) { _fun0015_ip = 85; continue _fun0015 }
+            if(!var3) { _fun0016_ip = 85; continue _fun0016 }
  29:
             var4 = _closure1_slot16;
             var3 = {'status': null, 'customHangStatus': null, 'gameActivityHangStatus': null};
@@ -773,14 +854,93 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var2['CLEAR_HANG_STATUS'] = var4;
+    var2['CLEAR_HANG_STATUS'] = var9;
+    var4 = function handleFavoriteHangStatus(arg1) {
+        _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
+ 0:
+            var1 = arg1;
+            var7 = var1.status;
+            var _closure2_slot0 = var7;
+            var5 = var1.emoji;
+            var _closure2_slot1 = var5;
+            var2 = _closure1_slot16;
+            var9 = var2.favoritedStatuses;
+            var2 = new Array(0);
+            var8 = 0;
+            var10 = var2;
+            var4 = arraySpread(var10, var9, var8);
+            var4 = var2.findIndex;
+            var3 = function(arg1) {
+                _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
+ 0:
+                    var3 = arg1;
+                    var2 = _closure1_slot1;
+                    var5 = _closure1_slot2;
+                    var1 = 9;
+                    var1 = var5[var1];
+                    var6 = undefined;
+                    var1 = var2.bind(var6)(var1);
+                    var1 = var1.bind(var6)(var3);
+                    if(var1) { _fun0018_ip = 98; continue _fun0018 }
+ 39:
+                    var5 = var3.status;
+                    var1 = _closure2_slot0;
+                    var1 = var5 === var1;
+                    if(!var1) { _fun0018_ip = 96; continue _fun0018 }
+ 55:
+                    var5 = _closure1_slot1;
+                    var7 = _closure1_slot2;
+                    var4 = 11;
+                    var4 = var7[var4];
+                    var7 = var5.bind(var6)(var4);
+                    var6 = var7.isEqual;
+                    var5 = var3.emoji;
+                    var4 = _closure2_slot1;
+                    var1 = var6.bind(var7)(var5, var4);
+ 96:
+                    _fun0018_ip = 106; continue _fun0018;
+ 98:
+                    var2 = _closure2_slot0;
+                    var1 = var3 === var2;
+ 106:
+                    return var1;
+                }
+            };
+            var6 = var4.bind(var2)(var3);
+            var3 = null;
+            var4 = var7;
+            if(!(var3 != var5)) { _fun0017_ip = 87; continue _fun0017 }
+ 74:
+            var3 = {};
+            var3['status'] = var7;
+            var3['emoji'] = var5;
+            var4 = var3;
+ 87:
+            var3 = -1;
+            if(!(var3 !== var6)) { _fun0017_ip = 114; continue _fun0017 }
+ 97:
+            var5 = var2.splice;
+            var3 = 1;
+            var3 = var5.bind(var2)(var6, var3);
+            _fun0017_ip = 124; continue _fun0017;
+ 114:
+            var3 = var2.push;
+            var3 = var3.bind(var2)(var4);
+ 124:
+            var1 = _closure1_slot16;
+            var1['favoritedStatuses'] = var2;
+            var1 = true;
+            return var1;
+        }
+    };
+    var2['UPDATE_FAVORITE_HANG_STATUS'] = var4;
     var4 = var8.prototype;
     var4 = Object.create(var4, {constructor: {value: var8}});
     var14 = var4;
     var12 = var2;
     var2 = new var14[var8](var13, var12, var11);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 13;
+    var4 = 14;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

@@ -20,8 +20,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['name'] = var3;
             var3 = var2.logotype;
             var1['logotype'] = var3;
-            var2 = var2.redemption_instructions;
-            var1['redemptionInstructions'] = var2;
+            var3 = var2.redemption_instructions;
+            var1['redemptionInstructions'] = var3;
+            var3 = var2.logotype_light;
+            var1['logotypeLight'] = var3;
+            var2 = var2.logotype_dark;
+            var1['logotypeDark'] = var2;
             return var1;
         }
     };
@@ -84,6 +88,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var2.assets;
         var4 = var4.logotype;
         var3['logotype'] = var4;
+        var4 = var2.assets;
+        var4 = var4.game_tile_light;
+        var3['gameTileLight'] = var4;
+        var4 = var2.assets;
+        var4 = var4.game_tile_dark;
+        var3['gameTileDark'] = var4;
+        var4 = var2.assets;
+        var4 = var4.logotype_light;
+        var3['logotypeLight'] = var4;
+        var4 = var2.assets;
+        var4 = var4.logotype_dark;
+        var3['logotypeDark'] = var4;
         var1['assets'] = var3;
         var3 = {};
         var4 = var2.colors;
