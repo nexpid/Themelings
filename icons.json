@@ -1337,7 +1337,7 @@
         "height": 96
     },
     "chat-bubble-tail": {
-        "file": "modules/system_dm/native/images/chat-bubble-tail.png",
+        "file": "modules/urgent_system_dm/native/images/chat-bubble-tail.png",
         "hash": "f56d39bd65ee5f398ad027099e2abd77",
         "scales": [
             2,
@@ -1347,7 +1347,7 @@
         "height": 33.5
     },
     "chat-bubble-tail-light": {
-        "file": "modules/system_dm/native/images/chat-bubble-tail-light.png",
+        "file": "modules/urgent_system_dm/native/images/chat-bubble-tail-light.png",
         "hash": "8b78257b85497ff53d9eefbe818c21fd",
         "scales": [
             2,
@@ -1974,15 +1974,6 @@
         ],
         "width": 24,
         "height": 24
-    },
-    "coachmark-orb": {
-        "file": "modules/virtual_currency/images/native/coachmark-orb.png",
-        "hash": "df65dc4f479191a907918a0ac00aeb02",
-        "scales": [
-            1
-        ],
-        "width": 86,
-        "height": 86
     },
     "code-illustration-dark": {
         "file": "modules/build_overrides/native/images/code-illustration-dark.png",
@@ -12555,8 +12546,8 @@
         "height": 47
     },
     "system-dm-wumpus": {
-        "file": "modules/system_dm/native/images/system-dm-wumpus.png",
-        "hash": "2d197f6def5db71602d9cd8f4607facd",
+        "file": "modules/urgent_system_dm/native/images/system-dm-wumpus.png",
+        "hash": "a303042d1162fe6a1636c67ec701de9c",
         "scales": [
             2,
             3
