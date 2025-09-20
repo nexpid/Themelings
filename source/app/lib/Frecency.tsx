@@ -168,12 +168,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = function(arg1) {
                     var1 = arg1;
                     var4 = var1.key;
-                    var5 = var1.timestamp;
-                    var3 = _closure3_slot0;
-                    var2 = var3.track;
-                    var1 = {};
-                    var1['timestamp'] = var5;
-                    var1 = var2.bind(var3)(var4, var1);
+                    var3 = var1.timestamp;
+                    var2 = _closure3_slot0;
+                    var1 = var2.track;
+                    var1 = var1.bind(var2)(var4, var3);
                     return var1;
                 };
                 var2 = var4.bind(var5)(var2);
@@ -211,108 +209,86 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = {};
         var6 = 'track';
         var1['key'] = var6;
-        var6 = function value(arg1) {
+        var6 = function value(arg1, arg2) {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                var5 = arg1;
-                var2 = arguments[1];
-                var3 = this;
+                var4 = arg1;
+                var6 = arg2;
+                var2 = this;
+                var7 = null;
+                if(!(var7 != var4)) { _fun0004_ip = 302; continue _fun0004 }
+ 18:
+                var5 = global;
+                var8 = var5.Object;
+                var3 = var8.hasOwn;
+                var1 = var2.usageHistory;
+                var1 = var3.bind(var8)(var1, var4);
+                var9 = undefined;
+                if(!var1) { _fun0004_ip = 59; continue _fun0004 }
+ 49:
+                var1 = var2.usageHistory;
+                var9 = var1[var4];
+ 59:
+                if(!(var7 != var9)) { _fun0004_ip = 232; continue _fun0004 }
+ 66:
+                var1 = -1;
+                var9['frecency'] = var1;
+                var3 = var9.totalUses;
+                var1 = 1;
+                var1 = var3 + var1;
+                var9['totalUses'] = var1;
+                if(!(var7 != var6)) { _fun0004_ip = 135; continue _fun0004 }
+ 101:
+                var3 = var9.recentUses;
+                var1 = var3.push;
+                var1 = var1.bind(var3)(var6);
+                var3 = var9.recentUses;
+                var1 = var3.sort;
+                var1 = var1.bind(var3)();
+                _fun0004_ip = 166; continue _fun0004;
+ 135:
+                var8 = var9.recentUses;
+                var3 = var8.push;
+                var10 = var5.Date;
+                var1 = var10.now;
+                var1 = var1.bind(var10)();
+                var1 = var3.bind(var8)(var1);
+ 166:
+                var1 = var9.recentUses;
+                var8 = var1.length;
+                var1 = var2.maxSamples;
+                var3 = var9;
+                if(!(var8 > var1)) { _fun0004_ip = 282; continue _fun0004 }
+ 190:
+                var8 = var9.recentUses;
+                var1 = var8.shift;
+                var1 = var1.bind(var8)();
+                var1 = var9.recentUses;
+                var8 = var1.length;
+                var1 = var2.maxSamples;
+                var3 = var9;
+                if(var8 > var1) { _fun0004_ip = 190; continue _fun0004 }
+ 230:
+                _fun0004_ip = 282; continue _fun0004;
+ 232:
+                var1 = {'totalUses': 1, 'recentUses': null, 'frecency': 4294967295, 'score': 0};
+                if(!(var7 == var6)) { _fun0004_ip = 265; continue _fun0004 }
+ 250:
+                var7 = var5.Date;
+                var5 = var7.now;
+                var6 = var5.bind(var7)();
+ 265:
+                var5 = new Array(1);
+                var5[0] = var6;
+                var1['recentUses'] = var5;
+                var3 = var1;
+ 282:
+                var1 = var2.usageHistory;
+                var1[var4] = var3;
+                var1 = var2.markDirty;
+                var1 = var1.bind(var2)();
+ 302:
                 var1 = undefined;
-                if(!(var2 === var1)) { _fun0004_ip = 17; continue _fun0004 }
- 15:
-                var2 = {};
- 17:
-                var7 = var2.timestamp;
-                var10 = var2.usesSinceLastTrack;
-                var8 = null;
-                if(!(var8 != var5)) { _fun0004_ip = 355; continue _fun0004 }
- 38:
-                var6 = global;
-                var9 = var6.Object;
-                var4 = var9.hasOwn;
-                var2 = var3.usageHistory;
-                var2 = var4.bind(var9)(var2, var5);
-                var11 = undefined;
-                if(!var2) { _fun0004_ip = 79; continue _fun0004 }
- 69:
-                var2 = var3.usageHistory;
-                var11 = var2[var5];
- 79:
-                if(!(var8 != var11)) { _fun0004_ip = 262; continue _fun0004 }
- 86:
-                var2 = -1;
-                var11['frecency'] = var2;
-                var4 = var11.totalUses;
-                var9 = var8 != var10;
-                var2 = 1;
-                if(!var9) { _fun0004_ip = 117; continue _fun0004 }
- 114:
-                var2 = var10;
- 117:
-                var2 = var4 + var2;
-                var11['totalUses'] = var2;
-                if(!(var8 != var7)) { _fun0004_ip = 165; continue _fun0004 }
- 131:
-                var4 = var11.recentUses;
-                var2 = var4.push;
-                var2 = var2.bind(var4)(var7);
-                var4 = var11.recentUses;
-                var2 = var4.sort;
-                var2 = var2.bind(var4)();
-                _fun0004_ip = 196; continue _fun0004;
- 165:
-                var9 = var11.recentUses;
-                var4 = var9.push;
-                var12 = var6.Date;
-                var2 = var12.now;
-                var2 = var2.bind(var12)();
-                var2 = var4.bind(var9)(var2);
- 196:
-                var2 = var11.recentUses;
-                var9 = var2.length;
-                var2 = var3.maxSamples;
-                var4 = var11;
-                if(!(var9 > var2)) { _fun0004_ip = 335; continue _fun0004 }
- 220:
-                var9 = var11.recentUses;
-                var2 = var9.shift;
-                var2 = var2.bind(var9)();
-                var2 = var11.recentUses;
-                var9 = var2.length;
-                var2 = var3.maxSamples;
-                var4 = var11;
-                if(var9 > var2) { _fun0004_ip = 220; continue _fun0004 }
- 260:
-                _fun0004_ip = 335; continue _fun0004;
- 262:
-                var2 = {};
-                var11 = var8 != var10;
-                var9 = 1;
-                if(!var11) { _fun0004_ip = 277; continue _fun0004 }
- 274:
-                var9 = var10;
- 277:
-                var2['totalUses'] = var9;
-                if(!(var8 == var7)) { _fun0004_ip = 301; continue _fun0004 }
- 286:
-                var8 = var6.Date;
-                var6 = var8.now;
-                var7 = var6.bind(var8)();
- 301:
-                var6 = new Array(1);
-                var6[0] = var7;
-                var2['recentUses'] = var6;
-                var6 = -1;
-                var2['frecency'] = var6;
-                var6 = 0;
-                var2['score'] = var6;
-                var4 = var2;
- 335:
-                var2 = var3.usageHistory;
-                var2[var5] = var4;
-                var2 = var3.markDirty;
-                var2 = var2.bind(var3)();
- 355:
                 return var1;
             }
         };

@@ -1754,6 +1754,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['WIDGETS_USER_PROFILE_ACCOUNT_POPOUT_NEW_BADGE'] = var2;
     var1 = 'WIDGETS_USER_PROFILE_ACCOUNT_POPOUT_NEW_BADGE';
     var4[var2] = var1;
+    var2 = 614;
+    var4['GAME_SERVER_HOSTING_PORTKEY_TOS'] = var2;
+    var1 = 'GAME_SERVER_HOSTING_PORTKEY_TOS';
+    var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;
     var1 = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

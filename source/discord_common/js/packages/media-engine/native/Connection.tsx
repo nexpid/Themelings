@@ -4245,28 +4245,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = var5.setDesktopEncodingOptions;
                 var8 = var8.bind(var5)(var2, var4, var3);
                 var8 = var1.desktopDescription;
-                if(!(var6 != var8)) { _fun0052_ip = 810; continue _fun0052 }
+                if(!(var6 != var8)) { _fun0052_ip = 812; continue _fun0052 }
  192:
                 var8 = var1.desktopDescription;
                 var10 = var8.soundshareId;
                 var9 = var8.useLoopback;
                 var8 = var5.soundshareId;
-                if(!(var8 !== var10)) { _fun0052_ip = 810; continue _fun0052 }
+                if(!(var8 !== var10)) { _fun0052_ip = 812; continue _fun0052 }
  223:
                 var8 = var5.setSoundshareSource;
                 var8 = var8.bind(var5)(var10, var9);
-                _fun0052_ip = 810; continue _fun0052;
+                _fun0052_ip = 812; continue _fun0052;
  240:
                 var5['goLiveSourceIdentifier'] = var7;
                 var7 = var5.conn;
                 var7 = var7.setDesktopSource;
-                if(!(var6 != var7)) { _fun0052_ip = 810; continue _fun0052 }
+                if(!(var6 != var7)) { _fun0052_ip = 812; continue _fun0052 }
  265:
                 var7 = var1.desktopDescription;
-                if(!(var6 == var7)) { _fun0052_ip = 342; continue _fun0052 }
+                if(!(var6 == var7)) { _fun0052_ip = 344; continue _fun0052 }
  275:
                 var7 = var1.cameraDescription;
-                if(!(var6 != var7)) { _fun0052_ip = 797; continue _fun0052 }
+                if(!(var6 != var7)) { _fun0052_ip = 799; continue _fun0052 }
  288:
                 var7 = var1.cameraDescription;
                 var11 = var7.videoDeviceGuid;
@@ -4277,8 +4277,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7['videoInputDeviceId'] = var11;
                 var7['audioInputDeviceId'] = var10;
                 var7 = var8.bind(var9)(var7);
-                _fun0052_ip = 797; continue _fun0052;
- 342:
+                _fun0052_ip = 799; continue _fun0052;
+ 344:
                 var7 = var1.desktopDescription;
                 var1 = var7.id;
                 var17 = var7.soundshareId;
@@ -4293,15 +4293,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = var7.hdrCaptureMode;
                 var7 = var5.setSoundshareSource;
                 var7 = var7.bind(var5)(var17, var16);
-                if(!(var6 == var1)) { _fun0052_ip = 441; continue _fun0052 }
- 429:
+                if(!(var6 == var1)) { _fun0052_ip = 443; continue _fun0052 }
+ 431:
                 var17 = ['', ''];
-                _fun0052_ip = 455; continue _fun0052;
- 441:
+                _fun0052_ip = 457; continue _fun0052;
+ 443:
                 var16 = var1.split;
                 var7 = ':';
                 var17 = var16.bind(var1)(var7);
- 455:
+ 457:
                 var16 = _closure1_slot3;
                 var20 = undefined;
                 var7 = 2;
@@ -4310,32 +4310,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var17 = var16[var7];
                 var7 = 1;
                 var16 = var16[var7];
-                if(!(var6 == var1)) { _fun0052_ip = 517; continue _fun0052 }
- 490:
+                if(!(var6 == var1)) { _fun0052_ip = 519; continue _fun0052 }
+ 492:
                 var19 = var5.logger;
                 var18 = var19.info;
                 var7 = 'capturing desktop (type: <stop>).';
                 var7 = var18.bind(var19)(var7);
-                _fun0052_ip = 646; continue _fun0052;
- 517:
+                _fun0052_ip = 648; continue _fun0052;
+ 519:
                 var19 = var5.logger;
                 var18 = var19.info;
                 var7 = var15.toString;
                 var28 = var7.bind(var15)();
                 var7 = var6 == var14;
                 var27 = undefined;
-                if(var7) { _fun0052_ip = 555; continue _fun0052 }
- 546:
+                if(var7) { _fun0052_ip = 557; continue _fun0052 }
+ 548:
                 var7 = var14.toString;
                 var27 = var7.bind(var14)();
- 555:
+ 557:
                 var7 = var6 == var13;
                 var26 = undefined;
-                if(var7) { _fun0052_ip = 573; continue _fun0052 }
- 564:
+                if(var7) { _fun0052_ip = 575; continue _fun0052 }
+ 566:
                 var7 = var13.toString;
                 var26 = var7.bind(var13)();
- 573:
+ 575:
                 var7 = global;
                 var7 = var7.HermesInternal;
                 var25 = var7.concat;
@@ -4352,11 +4352,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var30 = var26;
                 var7 = var39[var25](var38, var37, var36, var35, var34, var33, var32, var31, var30, var29, var28);
                 var7 = var18.bind(var19)(var7);
- 646:
+ 648:
                 var7 = var5.conn;
                 var7 = var7.setDesktopSourceWithOptions;
-                if(!(var6 == var7)) { _fun0052_ip = 707; continue _fun0052 }
- 662:
+                if(!(var6 == var7)) { _fun0052_ip = 709; continue _fun0052 }
+ 664:
                 var19 = var5.conn;
                 var18 = var19.setDesktopSource;
                 var7 = global;
@@ -4365,15 +4365,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = 'wumpus-';
                 var7 = var20.bind(var7)(var16);
                 var7 = var18.bind(var19)(var7, var15, var17);
-                _fun0052_ip = 797; continue _fun0052;
- 707:
-                if(!(var6 == var1)) { _fun0052_ip = 729; continue _fun0052 }
- 711:
+                _fun0052_ip = 799; continue _fun0052;
+ 709:
+                if(!(var6 == var1)) { _fun0052_ip = 731; continue _fun0052 }
+ 713:
                 var6 = var5.conn;
                 var1 = var6.clearDesktopSource;
                 var1 = var1.bind(var6)();
-                _fun0052_ip = 797; continue _fun0052;
- 729:
+                _fun0052_ip = 799; continue _fun0052;
+ 731:
                 var7 = var5.conn;
                 var6 = var7.setDesktopSourceWithOptions;
                 var1 = {};
@@ -4388,10 +4388,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1['graphicsCaptureStaleFrameTimeoutMs'] = var9;
                 var1['hdrCaptureMode'] = var8;
                 var1 = var6.bind(var7)(var1);
- 797:
+ 799:
                 var1 = var5.setDesktopEncodingOptions;
                 var1 = var1.bind(var5)(var2, var4, var3);
- 810:
+ 812:
                 var1 = undefined;
                 return var1;
             }

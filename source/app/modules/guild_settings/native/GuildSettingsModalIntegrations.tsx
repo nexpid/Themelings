@@ -120,10 +120,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var3.getGuildPermissionProps;
                     var1 = _closure2_slot2;
                     var1 = var2.bind(var3)(var1);
-                    _fun0002_ip = 51; continue _fun0002;
+                    _fun0002_ip = 47; continue _fun0002;
  37:
                     var1 = {'canManageWebhooks': false, 'canManageGuild': false};
- 51:
+ 47:
                     return var1;
                 }
             };

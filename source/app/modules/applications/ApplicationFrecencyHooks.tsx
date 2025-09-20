@@ -209,23 +209,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var5 = var4.bind(var1)(var3);
                         var4 = var5.extractTimestamp;
                         var3 = var2.id;
-                        var6 = var4.bind(var5)(var3);
+                        var5 = var4.bind(var5)(var3);
                         var7 = _closure2_slot2;
-                        var5 = var7.getEntry;
+                        var6 = var7.getEntry;
                         var4 = var2.application;
                         var4 = var4.id;
-                        var5 = var5.bind(var7)(var4);
+                        var6 = var6.bind(var7)(var4);
                         var4 = null;
-                        if(!(var4 == var5)) { _fun0005_ip = 110; continue _fun0005 }
+                        if(!(var4 == var6)) { _fun0005_ip = 103; continue _fun0005 }
  78:
-                        var5 = _closure2_slot2;
-                        var4 = var5.track;
+                        var4 = _closure2_slot2;
+                        var3 = var4.track;
                         var2 = var2.application;
-                        var3 = var2.id;
-                        var2 = {};
-                        var2['timestamp'] = var6;
-                        var2 = var4.bind(var5)(var3, var2);
- 110:
+                        var2 = var2.id;
+                        var2 = var3.bind(var4)(var2, var5);
+ 103:
                         return var1;
                     }
                 };

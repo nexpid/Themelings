@@ -18,7 +18,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var5.bind(var1)(var2);
     var2 = var2.DismissibleContent;
     var8 = var2.APPLICATION_COMMAND_TOOLTIP;
-    var2 = new Array(123);
+    var2 = new Array(124);
     var2[0] = var8;
     var8 = var6[var4];
     var8 = var5.bind(var1)(var8);
@@ -625,11 +625,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var8.DismissibleContent;
     var8 = var8.HALLOWEEN_APP_ICONS_APPEARANCE_SETTINGS_WEB_BADGE;
     var2[121] = var8;
+    var8 = var6[var4];
+    var8 = var5.bind(var1)(var8);
+    var8 = var8.DismissibleContent;
+    var8 = var8.WIDGETS_USER_PROFILE_ACCOUNT_POPOUT_NEW_BADGE;
+    var2[122] = var8;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.DismissibleContent;
-    var4 = var4.WIDGETS_USER_PROFILE_ACCOUNT_POPOUT_NEW_BADGE;
-    var2[122] = var4;
+    var4 = var4.GAME_SERVER_HOSTING_PORTKEY_TOS;
+    var2[123] = var4;
     var4 = var7.prototype;
     var4 = Object.create(var4, {constructor: {value: var7}});
     var12 = var4;
