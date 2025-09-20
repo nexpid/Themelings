@@ -118,7 +118,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2['url'] = var6;
                         var7 = _closure2_slot3;
                         var6 = undefined;
-                        if(var7) { _fun0002_ip = 239; continue _fun0002 }
+                        if(!var7) { _fun0002_ip = 239; continue _fun0002 }
  95:
                         var8 = _closure1_slot0;
                         var11 = _closure1_slot2;

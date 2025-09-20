@@ -318,52 +318,45 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = function() {
         var1 = {};
         var2 = {'display': 'flex', 'flexDirection': 'row', 'padding': null, 'backgroundColor': null, 'alignItems': 'center'};
-        var5 = _closure1_slot1;
-        var6 = _closure1_slot2;
-        var3 = 11;
-        var7 = var6[var3];
-        var4 = undefined;
-        var7 = var5.bind(var4)(var7);
-        var7 = var7.spacing;
-        var7 = var7.PX_12;
-        var2['padding'] = var7;
-        var7 = var6[var3];
-        var7 = var5.bind(var4)(var7);
-        var7 = var7.colors;
-        var7 = var7.BACKGROUND_SECONDARY;
-        var2['backgroundColor'] = var7;
+        var6 = _closure1_slot1;
+        var7 = _closure1_slot2;
+        var4 = 11;
+        var3 = var7[var4];
+        var5 = undefined;
+        var3 = var6.bind(var5)(var3);
+        var3 = var3.spacing;
+        var3 = var3.PX_12;
+        var2['padding'] = var3;
+        var3 = var7[var4];
+        var3 = var6.bind(var5)(var3);
+        var3 = var3.colors;
+        var3 = var3.BACKGROUND_SECONDARY;
+        var2['backgroundColor'] = var3;
         var1['container'] = var2;
         var2 = {};
-        var7 = var6[var3];
-        var7 = var5.bind(var4)(var7);
-        var7 = var7.spacing;
-        var7 = var7.PX_12;
-        var2['padding'] = var7;
-        var7 = var6[var3];
-        var7 = var5.bind(var4)(var7);
-        var7 = var7.colors;
-        var7 = var7.BG_MOD_STRONG;
-        var2['backgroundColor'] = var7;
-        var7 = var6[var3];
-        var7 = var5.bind(var4)(var7);
-        var7 = var7.radii;
-        var7 = var7.xxl;
-        var2['borderRadius'] = var7;
+        var3 = 10;
+        var2['padding'] = var3;
+        var8 = var7[var4];
+        var8 = var6.bind(var5)(var8);
+        var8 = var8.colors;
+        var8 = var8.BG_MOD_STRONG;
+        var2['backgroundColor'] = var8;
+        var8 = var7[var4];
+        var8 = var6.bind(var5)(var8);
+        var8 = var8.radii;
+        var8 = var8.round;
+        var2['borderRadius'] = var8;
         var1['iconContainer'] = var2;
         var2 = {};
-        var7 = 1;
-        var2['flex'] = var7;
-        var7 = var6[var3];
-        var7 = var5.bind(var4)(var7);
-        var7 = var7.spacing;
-        var7 = var7.PX_12;
-        var2['marginLeft'] = var7;
+        var8 = 1;
+        var2['flex'] = var8;
+        var4 = var7[var4];
+        var4 = var6.bind(var5)(var4);
+        var4 = var4.spacing;
+        var4 = var4.PX_12;
+        var2['marginLeft'] = var4;
         var1['contentContainer'] = var2;
         var2 = {};
-        var3 = var6[var3];
-        var3 = var5.bind(var4)(var3);
-        var3 = var3.spacing;
-        var3 = var3.PX_8;
         var2['padding'] = var3;
         var1['xContainer'] = var2;
         var2 = {};
@@ -374,7 +367,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var4 = var7.bind(var8)(var4);
     var _closure1_slot15 = var4;
-    var4 = 24;
+    var4 = 25;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -384,29 +377,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
             var1 = arg1;
-            var1 = var1.channel;
-            var _closure2_slot0 = var1;
+            var4 = var1.channel;
+            var _closure2_slot0 = var4;
             var5 = undefined;
             var _closure2_slot1 = var5;
-            var7 = _closure1_slot0;
+            var3 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var1 = 12;
-            var3 = var8[var1];
-            var9 = var7.bind(var5)(var3);
-            var4 = var9.useShouldSeePushNotificationNudge;
-            var3 = _closure1_slot8;
-            var3 = var3.CHANNEL_BANNER;
-            var4 = var4.bind(var9)(var3);
-            var1 = var8[var1];
-            var9 = var7.bind(var5)(var1);
-            var3 = var9.useNudgeExperimentConfigWithoutExposure;
-            var1 = _closure1_slot8;
-            var1 = var1.CHANNEL_BANNER;
-            var12 = var3.bind(var9)(var1);
             var1 = 21;
             var1 = var8[var1];
-            var10 = var7.bind(var5)(var1);
-            var9 = var10.useStateFromStores;
+            var9 = var3.bind(var5)(var1);
+            var7 = var9.useStateFromStores;
             var1 = _closure1_slot6;
             var3 = new Array(2);
             var3[0] = var1;
@@ -438,26 +418,51 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 }
             };
-            var3 = var9.bind(var10)(var3, var1);
+            var3 = var7.bind(var9)(var3, var1);
+            var7 = _closure1_slot1;
             var1 = 22;
+            var1 = var8[var1];
+            var1 = var7.bind(var5)(var1);
+            var1 = var1.bind(var5)(var4);
+            var3 = !var3;
+            if(!var3) { _fun0002_ip = 111; continue _fun0002 }
+ 108:
+            var3 = !var1;
+ 111:
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var1 = 12;
+            var4 = var8[var1];
+            var10 = var7.bind(var5)(var4);
+            var9 = var10.useShouldSeePushNotificationNudge;
+            var4 = _closure1_slot8;
+            var4 = var4.CHANNEL_BANNER;
+            var4 = var9.bind(var10)(var4, var3);
+            var1 = var8[var1];
+            var10 = var7.bind(var5)(var1);
+            var9 = var10.useNudgeExperimentConfigWithoutExposure;
+            var1 = _closure1_slot8;
+            var1 = var1.CHANNEL_BANNER;
+            var12 = var9.bind(var10)(var1);
+            var1 = 23;
             var1 = var8[var1];
             var9 = var7.bind(var5)(var1);
             var8 = var9.useSelectedTimeRecurringDismissibleContent;
             var1 = null;
             var7 = null;
-            if(!var4) { _fun0002_ip = 206; continue _fun0002 }
- 169:
+            if(!var4) { _fun0002_ip = 245; continue _fun0002 }
+ 208:
             var7 = null;
-            if(var3) { _fun0002_ip = 206; continue _fun0002 }
- 174:
+            if(!var3) { _fun0002_ip = 245; continue _fun0002 }
+ 213:
             var4 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var3 = 23;
+            var3 = 24;
             var3 = var10[var3];
             var3 = var4.bind(var5)(var3);
             var3 = var3.DismissibleContent;
             var7 = var3.NOTIFICATION_NUDGE_CHAT_BOTTOM_BANNER;
- 206:
+ 245:
             var4 = {};
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
@@ -467,10 +472,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var11.getNotificationNudgeCooldownMs;
             var13 = var1 == var12;
             var3 = undefined;
-            if(var13) { _fun0002_ip = 249; continue _fun0002 }
- 243:
+            if(var13) { _fun0002_ip = 288; continue _fun0002 }
+ 282:
             var3 = var12.timing;
- 249:
+ 288:
             var3 = var10.bind(var11)(var3);
             var4['cooldownDurationMs'] = var3;
             var14 = true;
@@ -489,14 +494,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             _closure2_slot1 = var3;
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var3 = 23;
+            var3 = 24;
             var3 = var8[var3];
             var3 = var7.bind(var5)(var3);
             var3 = var3.DismissibleContent;
             var3 = var3.NOTIFICATION_NUDGE_CHAT_BOTTOM_BANNER;
             var1 = null;
-            if(!(var4 === var3)) { _fun0002_ip = 372; continue _fun0002 }
- 344:
+            if(!(var4 === var3)) { _fun0002_ip = 411; continue _fun0002 }
+ 383:
             var4 = _closure1_slot13;
             var3 = _closure1_slot16;
             var2 = {};
@@ -510,7 +515,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var2['onDismiss'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 372:
+ 411:
             return var1;
         }
     };

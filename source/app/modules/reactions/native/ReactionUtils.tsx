@@ -334,53 +334,53 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = _closure1_slot3;
             var5 = var6.getChannel;
             var6 = var5.bind(var6)(var8);
-            if(!(var3 != var6)) { _fun0004_ip = 108; continue _fun0004 }
- 95:
+            if(!(var3 != var6)) { _fun0004_ip = 104; continue _fun0004 }
+ 91:
             var5 = var6.isPrivate;
             var5 = var5.bind(var6)();
-            if(var5) { _fun0004_ip = 120; continue _fun0004 }
- 108:
+            if(var5) { _fun0004_ip = 116; continue _fun0004 }
+ 104:
             var5 = _closure1_slot8;
             var16 = var5.GUILD_CHANNEL;
-            _fun0004_ip = 130; continue _fun0004;
- 120:
+            _fun0004_ip = 126; continue _fun0004;
+ 116:
             var5 = _closure1_slot8;
             var16 = var5.DM_CHANNEL;
+ 126:
+            if(!(var3 != var6)) { _fun0004_ip = 143; continue _fun0004 }
  130:
-            if(!(var3 != var6)) { _fun0004_ip = 147; continue _fun0004 }
- 134:
             var5 = var6.isForumLikeChannel;
             var5 = var5.bind(var6)();
-            if(var5) { _fun0004_ip = 176; continue _fun0004 }
+            if(var5) { _fun0004_ip = 172; continue _fun0004 }
+ 143:
+            if(!(var3 != var6)) { _fun0004_ip = 160; continue _fun0004 }
  147:
-            if(!(var3 != var6)) { _fun0004_ip = 164; continue _fun0004 }
- 151:
             var5 = var6.isForumPost;
             var5 = var5.bind(var6)();
-            if(var5) { _fun0004_ip = 176; continue _fun0004 }
- 164:
+            if(var5) { _fun0004_ip = 172; continue _fun0004 }
+ 160:
             var5 = _closure1_slot9;
             var15 = var5.CHANNEL;
-            _fun0004_ip = 186; continue _fun0004;
- 176:
+            _fun0004_ip = 182; continue _fun0004;
+ 172:
             var5 = _closure1_slot9;
             var15 = var5.FORUM_CHANNEL_POST;
+ 182:
+            if(!(var3 == var13)) { _fun0004_ip = 227; continue _fun0004 }
  186:
-            if(!(var3 == var13)) { _fun0004_ip = 231; continue _fun0004 }
- 190:
             var6 = _closure1_slot4;
             var5 = var6.getMessage;
             var6 = var5.bind(var6)(var8, var9);
             var3 = var3 == var6;
             var5 = undefined;
-            if(var3) { _fun0004_ip = 225; continue _fun0004 }
- 215:
+            if(var3) { _fun0004_ip = 221; continue _fun0004 }
+ 211:
             var3 = var6.isPoll;
             var5 = var3.bind(var6)();
- 225:
+ 221:
             var3 = true;
             var13 = var3 === var5;
- 231:
+ 227:
             var6 = _closure1_slot1;
             var3 = _closure1_slot2;
             var5 = 18;

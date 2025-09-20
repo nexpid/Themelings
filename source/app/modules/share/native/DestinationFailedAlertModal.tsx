@@ -110,7 +110,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = null;
             var2 = var12 != var13;
             var1 = null;
-            if(!var2) { _fun0001_ip = 394; continue _fun0001 }
+            if(!var2) { _fun0001_ip = 390; continue _fun0001 }
  142:
             var4 = _closure1_slot11;
             var3 = _closure1_slot3;
@@ -157,8 +157,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = {'style': null, 'variant': 'text-md/medium', 'lineClamp': 1, 'ellipsizeMode': 'tail'};
             var14 = var14.label;
             var7['style'] = var14;
-            if(!(var12 == var10)) { _fun0001_ip = 370; continue _fun0001 }
- 339:
+            if(!(var12 == var10)) { _fun0001_ip = 366; continue _fun0001 }
+ 335:
             var12 = _closure1_slot1;
             var14 = _closure1_slot2;
             var11 = 16;
@@ -166,13 +166,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var12.bind(var5)(var11);
             var11 = var12.getName;
             var10 = var11.bind(var12)(var13);
- 370:
+ 366:
             var7['children'] = var10;
             var7 = var9.bind(var5)(var8, var7);
             var6[1] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 394:
+ 390:
             return var1;
         }
     };

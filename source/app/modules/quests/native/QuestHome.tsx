@@ -572,7 +572,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = undefined;
                     if(var5) { _fun0008_ip = 70; continue _fun0008 }
  64:
-                    var2 = var4.completedAt;
+                    var2 = var4.claimedAt;
  70:
                     var1 = var3 == var2;
  74:

@@ -477,8 +477,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
                 var1 = arg1;
-                var3 = var1.channel;
-                var _closure2_slot0 = var3;
+                var6 = var1.channel;
+                var _closure2_slot0 = var6;
                 var30 = _closure1_slot1;
                 var21 = _closure1_slot2;
                 var1 = 19;
@@ -487,17 +487,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var30.bind(var4)(var1);
                 var1 = {};
                 var31 = _closure1_slot0;
-                var5 = 20;
-                var6 = var21[var5];
-                var6 = var31.bind(var4)(var6);
-                var6 = var6.ImpressionTypes;
-                var6 = var6.VIEW;
-                var1['type'] = var6;
-                var5 = var21[var5];
+                var3 = 20;
+                var5 = var21[var3];
                 var5 = var31.bind(var4)(var5);
-                var5 = var5.ImpressionNames;
-                var5 = var5.POLL_EDITOR_VIEWED;
-                var1['name'] = var5;
+                var5 = var5.ImpressionTypes;
+                var5 = var5.VIEW;
+                var1['type'] = var5;
+                var3 = var21[var3];
+                var3 = var31.bind(var4)(var3);
+                var3 = var3.ImpressionNames;
+                var3 = var3.POLL_EDITOR_VIEWED;
+                var1['name'] = var3;
                 var1 = var2.bind(var4)(var1);
                 var1 = _closure1_slot12;
                 var12 = var1.bind(var4)();
@@ -505,18 +505,50 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var21[var1];
                 var2 = var30.bind(var4)(var1);
                 var1 = {};
-                var5 = true;
-                var1['includeKeyboardHeight'] = var5;
+                var3 = true;
+                var1['includeKeyboardHeight'] = var3;
                 var1 = var2.bind(var4)(var1);
                 var7 = var1.insets;
-                var1 = 22;
+                var5 = _closure1_slot3;
+                var3 = var5.useCallback;
+                var2 = function(arg1) {
+                    var1 = arg1;
+                    var9 = var1.indexToRemove;
+                    var5 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var1 = 22;
+                    var2 = var8[var1];
+                    var1 = undefined;
+                    var2 = var5.bind(var1)(var2);
+                    var4 = var2.AccessibilityAnnouncer;
+                    var3 = var4.announce;
+                    var2 = 8;
+                    var6 = var8[var2];
+                    var6 = var5.bind(var1)(var6);
+                    var7 = var6.intl;
+                    var6 = var7.formatToPlainString;
+                    var2 = var8[var2];
+                    var2 = var5.bind(var1)(var2);
+                    var2 = var2.t;
+                    var5 = var2.BByGU1;
+                    var2 = {};
+                    var8 = 1;
+                    var8 = var9 + var8;
+                    var2['number'] = var8;
+                    var2 = var6.bind(var7)(var5, var2);
+                    var2 = var3.bind(var4)(var2);
+                    return var1;
+                };
+                var1 = new Array(0);
+                var3 = var3.bind(var5)(var2, var1);
+                var1 = 23;
                 var1 = var21[var1];
                 var2 = var30.bind(var4)(var1);
-                var1 = 23;
+                var1 = 24;
                 var1 = var21[var1];
                 var1 = var31.bind(var4)(var1);
                 var1 = var1.closeCreatePollModal;
-                var2 = var2.bind(var4)(var3, var1);
+                var2 = var2.bind(var4)(var6, var1, var3);
                 var27 = var2.answers;
                 var _closure2_slot1 = var27;
                 var1 = var2.question;
@@ -550,7 +582,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var _closure2_slot12 = var1;
                 var6 = var2.setShouldFocusOnInvalidField;
                 var _closure2_slot13 = var6;
-                var2 = 24;
+                var2 = 25;
                 var2 = var21[var2];
                 var3 = var31.bind(var4)(var2);
                 var2 = var3.useTrackPollCreationEvents;
@@ -563,7 +595,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var2.bind(var1)();
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
-                    var2 = 23;
+                    var2 = 24;
                     var2 = var4[var2];
                     var3 = var3.bind(var1)(var2);
                     var2 = var3.closeCreatePollModal;
@@ -571,16 +603,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var _closure2_slot15 = var2;
-                var2 = 25;
+                var2 = 26;
                 var2 = var21[var2];
-                var5 = var31.bind(var4)(var2);
-                var3 = var5.useNavigatorBackPressHandler;
+                var8 = var31.bind(var4)(var2);
+                var3 = var8.useNavigatorBackPressHandler;
                 var2 = function() {
                     _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
                         var4 = _closure1_slot0;
                         var3 = _closure1_slot2;
-                        var2 = 26;
+                        var2 = 27;
                         var2 = var3[var2];
                         var3 = undefined;
                         var7 = var4.bind(var3)(var2);
@@ -592,7 +624,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  51:
                         var5 = _closure1_slot0;
                         var6 = _closure1_slot2;
-                        var4 = 27;
+                        var4 = 28;
                         var4 = var6[var4];
                         var6 = var5.bind(var3)(var4);
                         var5 = var6.openAlert;
@@ -614,21 +646,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     }
                 };
-                var2 = var3.bind(var5)(var2);
-                var2 = 28;
+                var2 = var3.bind(var8)(var2);
+                var2 = 29;
                 var2 = var21[var2];
                 var3 = var30.bind(var4)(var2);
                 var2 = {};
-                var5 = function onAddAnswer() {
+                var8 = function onAddAnswer() {
                     var2 = _closure2_slot8;
                     var1 = undefined;
                     var2 = var2.bind(var1)();
                     return var1;
                 };
-                var2['onAddAnswer'] = var5;
+                var2['onAddAnswer'] = var8;
                 var26 = var3.bind(var4)(var2);
                 var _closure2_slot16 = var26;
-                var5 = _closure1_slot3;
                 var3 = var5.useEffect;
                 var2 = new Array(4);
                 var2[0] = var25;
@@ -663,7 +694,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var11 = var4.length;
                         var5['numOfErrors'] = var11;
                         var7 = var9.bind(var10)(var7, var5);
-                        var5 = 29;
+                        var5 = 22;
                         var5 = var8[var5];
                         var5 = var6.bind(var3)(var5);
                         var6 = var5.AccessibilityAnnouncer;
@@ -726,7 +757,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                         var4 = _closure1_slot0;
                         var2 = _closure1_slot2;
-                        var1 = 26;
+                        var1 = 27;
                         var2 = var2[var1];
                         var1 = undefined;
                         var7 = var4.bind(var1)(var2);
@@ -738,7 +769,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  51:
                         var5 = _closure1_slot0;
                         var6 = _closure1_slot2;
-                        var4 = 27;
+                        var4 = 28;
                         var4 = var6[var4];
                         var6 = var5.bind(var1)(var4);
                         var5 = var6.openAlert;
@@ -826,8 +857,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var9['contentContainerStyle'] = var14;
                 var23 = null;
                 var15 = var23 != var32;
-                if(!var15) { _fun0003_ip = 1037; continue _fun0003 }
- 982:
+                if(!var15) { _fun0003_ip = 1060; continue _fun0003 }
+ 1005:
                 var21 = _closure1_slot9;
                 var20 = _closure1_slot1;
                 var30 = _closure1_slot2;
@@ -837,14 +868,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var14 = {};
                 var31 = var23 == var32;
                 var30 = undefined;
-                if(var31) { _fun0003_ip = 1027; continue _fun0003 }
- 1017:
+                if(var31) { _fun0003_ip = 1050; continue _fun0003 }
+ 1040:
                 var31 = var32.getAnyErrorMessage;
                 var30 = var31.bind(var32)();
- 1027:
+ 1050:
                 var14['children'] = var30;
                 var15 = var21.bind(var4)(var20, var14);
- 1037:
+ 1060:
                 var14 = new Array(3);
                 var14[0] = var15;
                 var21 = _closure1_slot9;
@@ -859,10 +890,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var15['onSubmitEditing'] = var26;
                 var26 = var23 == var25;
                 var23 = undefined;
-                if(var26) { _fun0003_ip = 1105; continue _fun0003 }
- 1099:
+                if(var26) { _fun0003_ip = 1128; continue _fun0003 }
+ 1122:
                 var23 = var25.question;
- 1105:
+ 1128:
                 var15['error'] = var23;
                 var15 = var21.bind(var4)(var20, var15);
                 var14[1] = var15;
@@ -958,14 +989,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 };
                 var25 = var26.bind(var27)(var25);
                 var23[1] = var25;
-                if(!var24) { _fun0003_ip = 1298; continue _fun0003 }
- 1278:
+                if(!var24) { _fun0003_ip = 1321; continue _fun0003 }
+ 1301:
                 var27 = _closure1_slot9;
                 var26 = _closure1_slot15;
                 var25 = {};
                 var25['onPress'] = var28;
                 var24 = var27.bind(var4)(var26, var25);
- 1298:
+ 1321:
                 var23[2] = var24;
                 var15['children'] = var23;
                 var15 = var21.bind(var4)(var20, var15);

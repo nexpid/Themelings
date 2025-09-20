@@ -599,6 +599,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var2['onPress'] = var7;
+    var7 = 16;
+    var7 = var6[var7];
+    var7 = var5.bind(var1)(var7);
+    var7 = var7.useStaffOrDevEnvSettingPredicate;
+    var2['usePredicate'] = var7;
     var7 = function useUploadIntlDataTrailing() {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
@@ -626,7 +631,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var2['useIsDisabled'] = var4;
-    var4 = 16;
+    var4 = 17;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

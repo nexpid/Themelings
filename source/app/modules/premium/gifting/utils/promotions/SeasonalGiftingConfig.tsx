@@ -31,7 +31,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var4.GiftingPromotionRewardSKUIds;
     var4 = var4.HALLOWEEN_GIFTING_2025_PUMPKIN_TRICK_SKU_ID;
     var22['skuId'] = var4;
-    var4 = 'a_fe4a5080455bc20030589d3b930ebe7b';
+    var4 = 'a_dec0db5e1395a9d7df152d6981443cd8';
     var22['assetId'] = var4;
     var4 = function a11yLabel() {
         var9 = _closure1_slot0;
@@ -77,7 +77,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var4.GiftingPromotionRewardSKUIds;
     var4 = var4.HALLOWEEN_GIFTING_2025_PUMPKIN_TREAT_SKU_ID;
     var21['skuId'] = var4;
-    var4 = 'a_ade36581b93e50a565541e1964d7eb6a';
+    var4 = 'a_8636994a8d0b1c5c8353ebce125c2cef';
     var21['assetId'] = var4;
     var4 = function a11yLabel() {
         var9 = _closure1_slot0;
@@ -123,7 +123,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var4.GiftingPromotionRewardSKUIds;
     var4 = var4.HALLOWEEN_GIFTING_2025_GHOST_TRICK_SKU_ID;
     var20['skuId'] = var4;
-    var4 = 'a_9fb28bf1ed0bed681898f57df3acec5b';
+    var4 = 'a_843b6925894c8fa530432ad197eb8dcd';
     var20['assetId'] = var4;
     var4 = function a11yLabel() {
         var9 = _closure1_slot0;
@@ -169,7 +169,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var4.GiftingPromotionRewardSKUIds;
     var4 = var4.HALLOWEEN_GIFTING_2025_GHOST_TREAT_SKU_ID;
     var19['skuId'] = var4;
-    var4 = 'a_f43fa3efdeda7f7d50fed5f3e5c5cef5';
+    var4 = 'a_3835acaf56f5b8cdfb7be072580e618d';
     var19['assetId'] = var4;
     var4 = function a11yLabel() {
         var9 = _closure1_slot0;
@@ -215,7 +215,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var4.GiftingPromotionRewardSKUIds;
     var4 = var4.HALLOWEEN_GIFTING_2025_SKULL_TRICK_SKU_ID;
     var18['skuId'] = var4;
-    var4 = 'a_0103146312bbffdb9a58ce4da3d901d1';
+    var4 = 'a_6f0c33fb534c1a0a21c606b50683e9a9';
     var18['assetId'] = var4;
     var4 = function a11yLabel() {
         var9 = _closure1_slot0;
@@ -261,7 +261,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var4.GiftingPromotionRewardSKUIds;
     var4 = var4.HALLOWEEN_GIFTING_2025_SKULL_TREAT_SKU_ID;
     var17['skuId'] = var4;
-    var4 = 'a_652117a3882f5ae4cc30e56d7ac013a7';
+    var4 = 'a_46d01a1f046e4f58894f5b5361ab2e61';
     var17['assetId'] = var4;
     var4 = function a11yLabel() {
         var9 = _closure1_slot0;
@@ -307,7 +307,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var4.GiftingPromotionRewardSKUIds;
     var4 = var4.HALLOWEEN_GIFTING_2025_SPIDER_TRICK_SKU_ID;
     var16['skuId'] = var4;
-    var4 = 'a_8655de5a2c086276231144432fefb8f0';
+    var4 = 'a_f6fbc6e9dedd53a1b70e5573499ddd11';
     var16['assetId'] = var4;
     var4 = function a11yLabel() {
         var9 = _closure1_slot0;
@@ -353,7 +353,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var2.GiftingPromotionRewardSKUIds;
     var2 = var2.HALLOWEEN_GIFTING_2025_SPIDER_TREAT_SKU_ID;
     var15['skuId'] = var2;
-    var2 = 'a_91bdfba540bf5f305f906e6588704ac6';
+    var2 = 'a_f8fdf29cd07f09487165818605cab1dd';
     var15['assetId'] = var2;
     var2 = function a11yLabel() {
         var9 = _closure1_slot0;

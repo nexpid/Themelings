@@ -282,7 +282,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  32:
             var5 = var4.length;
             var4 = 1;
-            var2 = var5 > var4;
+            var2 = var5 >= var4;
  44:
             if(!var1) { _fun0006_ip = 50; continue _fun0006 }
  47:

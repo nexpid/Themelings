@@ -668,7 +668,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = arg1;
                     var _closure3_slot0 = var5;
                     var3 = _closure2_slot17;
-                    if(!var3) { _fun0006_ip = 95; continue _fun0006 }
+                    if(!var3) { _fun0006_ip = 93; continue _fun0006 }
  19:
                     var3 = _closure2_slot5;
                     var4 = var3.length;
@@ -692,14 +692,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var6.bind(var3)(var2);
                     var6 = _closure2_slot2;
                     var2 = null;
-                    if(!(var2 != var6)) { _fun0006_ip = 95; continue _fun0006 }
+                    if(!(var2 != var6)) { _fun0006_ip = 93; continue _fun0006 }
  70:
                     var2 = _closure2_slot2;
                     var1 = {};
                     var1['indexToRemove'] = var5;
                     var1['numberOfAnswers'] = var4;
                     var1 = var2.bind(var3)(var1);
- 95:
+ 93:
                     var1 = undefined;
                     return var1;
                 }

@@ -256,42 +256,43 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = arg1;
             var _closure2_slot0 = var1;
             var4 = _closure1_slot15;
-            var1 = _closure1_slot11;
-            var7 = var4[var1];
-            var1 = null;
-            if(!(var1 == var7)) { _fun0006_ip = 32; continue _fun0006 }
+            var3 = _closure1_slot11;
+            var5 = var4[var3];
+            var3 = null;
+            if(!(var3 == var5)) { _fun0006_ip = 32; continue _fun0006 }
  30:
-            var7 = {};
+            var5 = {};
  32:
-            var4 = {};
-            var _closure2_slot1 = var4;
-            var6 = _closure1_slot0;
-            var5 = _closure1_slot1;
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
             var1 = 9;
-            var5 = var5[var1];
+            var3 = var3[var1];
             var1 = undefined;
-            var6 = var6.bind(var1)(var5);
-            var5 = var6.each;
-            var3 = function(arg1, arg2) {
+            var4 = var4.bind(var1)(var3);
+            var3 = var4.each;
+            var2 = function(arg1, arg2) {
                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
-                    var3 = arg1;
-                    var4 = var3.channelId;
-                    var2 = _closure2_slot0;
-                    if(!(var4 !== var2)) { _fun0007_ip = 30; continue _fun0007 }
+                    var1 = arg1;
+                    var2 = var1.channelId;
+                    var1 = _closure2_slot0;
+                    if(!(var2 === var1)) { _fun0007_ip = 49; continue _fun0007 }
  19:
-                    var2 = _closure2_slot1;
-                    var1 = arg2;
-                    var2[var1] = var3;
- 30:
+                    var5 = _closure1_slot29;
+                    var4 = _closure1_slot11;
+                    var3 = undefined;
+                    var2 = arg2;
+                    var1 = function() {
+                        var1 = null;
+                        return var1;
+                    };
+                    var1 = var5.bind(var3)(var4, var2, var1);
+ 49:
                     var1 = undefined;
                     return var1;
                 }
             };
-            var3 = var5.bind(var6)(var7, var3);
-            var3 = _closure1_slot15;
-            var2 = _closure1_slot11;
-            var3[var2] = var4;
+            var2 = var3.bind(var4)(var5, var2);
             return var1;
         }
     };

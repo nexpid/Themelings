@@ -37,15 +37,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot10 = var2;
+            _closure1_slot11 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot10 = var1;
-    var9 = global;
-    var5 = var9.Object;
+    var _closure1_slot11 = var1;
+    var10 = global;
+    var5 = var10.Object;
     var4 = var5.defineProperty;
     var2 = {};
     var1 = true;
@@ -69,8 +69,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var7[var11];
     var2 = var8.bind(var1)(var2);
     var _closure1_slot5 = var2;
-    var10 = 4;
-    var2 = var7[var10];
+    var9 = 4;
+    var2 = var7[var9];
     var2 = var8.bind(var1)(var2);
     var _closure1_slot6 = var2;
     var4 = {};
@@ -100,41 +100,42 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['DM_SPACE'] = var11;
     var5 = 'DM_SPACE';
     var2[var11] = var5;
-    var2['APP_LOAD_PROMPT'] = var10;
+    var2['APP_LOAD_PROMPT'] = var9;
     var5 = 'APP_LOAD_PROMPT';
-    var2[var10] = var5;
-    var10 = 5;
-    var2['CHANNEL_BANNER'] = var10;
+    var2[var9] = var5;
+    var9 = 5;
+    var2['CHANNEL_BANNER'] = var9;
     var5 = 'CHANNEL_BANNER';
-    var2[var10] = var5;
-    var5 = {};
-    var10 = var4.INIT;
-    var5['permissionState'] = var10;
-    var10 = {};
-    var11 = var2.MESSAGE_SENT;
-    var12 = null;
-    var10[var11] = var12;
-    var11 = var2.INVITE_ACCEPTED;
-    var10[var11] = var12;
-    var11 = var2.FRIEND_REQUEST_SENT;
-    var10[var11] = var12;
-    var11 = var2.DM_SPACE;
-    var10[var11] = var12;
-    var11 = var2.APP_LOAD_PROMPT;
-    var10[var11] = var12;
-    var11 = var2.CHANNEL_BANNER;
-    var10[var11] = var12;
-    var5['promptLastSeen'] = var10;
-    var11 = var9.Set;
-    var9 = var11.prototype;
-    var10 = Object.create(var9, {constructor: {value: var11}});
+    var2[var9] = var5;
+    var9 = {};
+    var5 = var4.INIT;
+    var9['permissionState'] = var5;
+    var11 = {};
+    var12 = var2.MESSAGE_SENT;
+    var5 = null;
+    var11[var12] = var5;
+    var12 = var2.INVITE_ACCEPTED;
+    var11[var12] = var5;
+    var12 = var2.FRIEND_REQUEST_SENT;
+    var11[var12] = var5;
+    var12 = var2.DM_SPACE;
+    var11[var12] = var5;
+    var12 = var2.APP_LOAD_PROMPT;
+    var11[var12] = var5;
+    var12 = var2.CHANNEL_BANNER;
+    var11[var12] = var5;
+    var9['promptLastSeen'] = var11;
+    var12 = var10.Set;
+    var10 = var12.prototype;
+    var11 = Object.create(var10, {constructor: {value: var12}});
     var17 = new Array(0);
-    var18 = var10;
-    var9 = new var18[var11](var17, var16);
-    var9 = var9 instanceof Object ? var9 : var10;
-    var5['eligiblePromptTypes'] = var9;
-    var _closure1_slot8 = var5;
-    var _closure1_slot9 = var5;
+    var18 = var11;
+    var10 = new var18[var12](var17, var16);
+    var10 = var10 instanceof Object ? var10 : var11;
+    var9['eligiblePromptTypes'] = var10;
+    var _closure1_slot8 = var9;
+    var _closure1_slot9 = var9;
+    var _closure1_slot10 = var5;
     var5 = 6;
     var5 = var7[var5];
     var5 = var8.bind(var1)(var5);
@@ -152,7 +153,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = _closure1_slot5;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot4;
-                var1 = _closure1_slot10;
+                var1 = _closure1_slot11;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0002_ip = 69; continue _fun0002 }
  51:
@@ -287,7 +288,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var5['value'] = var1;
-        var1 = new Array(4);
+        var1 = new Array(5);
         var1[0] = var5;
         var5 = {};
         var7 = 'getUserAgnosticState';
@@ -311,7 +312,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = {};
         var7 = 'promptSeen';
         var5['key'] = var7;
-        var6 = function get() {
+        var7 = function get() {
             var2 = _closure1_slot7;
             var4 = var2.PROMPT_SEEN;
             var3 = new Array(2);
@@ -324,8 +325,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2.bind(var3)(var1);
             return var1;
         };
-        var5['get'] = var6;
+        var5['get'] = var7;
         var1[3] = var5;
+        var5 = {};
+        var7 = 'authorizationStatus';
+        var5['key'] = var7;
+        var6 = function get() {
+            var1 = _closure1_slot10;
+            return var1;
+        };
+        var5['get'] = var6;
+        var1[4] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -441,7 +451,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var5['PUSH_NOTIFICATION_PERMISSION_REACTIVATION_SEEN'] = var10;
-    var6 = function setPromptTypeAsEligible(arg1) {
+    var10 = function setPromptTypeAsEligible(arg1) {
         var1 = arg1;
         var4 = var1.promptType;
         var2 = _closure1_slot9;
@@ -460,7 +470,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = true;
         return var1;
     };
-    var5['PUSH_NOTIFICATION_PERMISSION_SET_ELIGIBLE'] = var6;
+    var5['PUSH_NOTIFICATION_PERMISSION_SET_ELIGIBLE'] = var10;
+    var6 = function setNotificationAuthorizationStatus(arg1) {
+        var1 = arg1;
+        var2 = var1.authorizationStatus;
+        _closure1_slot10 = var2;
+        var1 = undefined;
+        return var1;
+    };
+    var5['PUSH_NOTIFICATION_AUTHORIZATION_STATUS_UPDATE'] = var6;
     var6 = var9.prototype;
     var6 = Object.create(var6, {constructor: {value: var9}});
     var18 = var6;
