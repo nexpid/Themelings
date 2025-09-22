@@ -89,8 +89,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['accessibilityLabel'] = var11;
             var10 = var10.doubleTapBehavior;
             var11 = null;
-            if(!(var11 == var10)) { _fun0001_ip = 265; continue _fun0001 }
- 233:
+            if(!(var11 == var10)) { _fun0001_ip = 261; continue _fun0001 }
+ 229:
             var12 = _closure1_slot0;
             var13 = _closure1_slot2;
             var11 = 6;
@@ -98,7 +98,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var12.bind(var4)(var11);
             var11 = var11.GravityICYMIDoubleTapBehavior;
             var10 = var11.DEFAULT;
- 265:
+ 261:
             var5['defaultValue'] = var10;
             var9 = function onChange(arg1) {
                 var3 = _closure1_slot1;

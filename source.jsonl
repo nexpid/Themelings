@@ -93,7 +93,7 @@
 { "file": "discord_common/js/packages/tokens/shims.native.tsx", "size": 2337 }
 { "file": "app/modules/sentry/addSentryBreadcrumb.native.tsx", "size": 1452 }
 { "file": "app/utils/SentryUtils.native.tsx", "size": 15197 }
-{ "file": "app/modules/errors/native/SentryInitUtils.tsx", "size": 23027 }
+{ "file": "app/modules/errors/native/SentryInitUtils.tsx", "size": 23026 }
 { "file": "app/modules/routing/router_utils.tsx", "size": 17968 }
 { "file": "app/utils/ComponentDispatchUtils.tsx", "size": 14399 }
 { "file": "app/modules/routing/RoutingSources.tsx", "size": 1224 }
@@ -3240,7 +3240,7 @@
 { "file": "app/modules/in_app_notifications/native/MessageNotification.tsx", "size": 8689 }
 { "file": "app/modules/in_app_notifications/native/InAppNotificationConstants.tsx", "size": 703 }
 { "file": "app/modules/in_app_notifications/native/Notification.tsx", "size": 14336 }
-{ "file": "app/modules/main_tabs_v2/native/shared_components/ChannelRowPreview.tsx", "size": 65042 }
+{ "file": "app/modules/main_tabs_v2/native/shared_components/ChannelRowPreview.tsx", "size": 65043 }
 { "file": "app/modules/main_tabs_v2/native/shared_components/guild_channels/layouts/ChannelListLayout.tsx", "size": 9646 }
 { "file": "app/modules/main_tabs_v2/native/shared_components/guild_channels/layouts/layout/CozyDrawer.tsx", "size": 5677 }
 { "file": "app/modules/main_tabs_v2/native/shared_components/guild_channels/layouts/utils/deepmerge.tsx", "size": 7890 }
@@ -6054,7 +6054,7 @@
 { "file": "app/lib/Histogram.tsx", "size": 12154 }
 { "file": "app/lib/SystemResponsiveness.tsx", "size": 12543 }
 { "file": "app/lib/VoiceDuration.tsx", "size": 29297 }
-{ "file": "app/lib/VideoQuality.tsx", "size": 145140 }
+{ "file": "app/lib/VideoQuality.tsx", "size": 145566 }
 { "file": "app/lib/VideoHealthManager.tsx", "size": 25039 }
 { "file": "app/modules/media_engine/dispatchAutoDisableVideo.tsx", "size": 2080 }
 { "file": "app/modules/media_engine/BandwidthEstimationExperiment.tsx", "size": 11825 }

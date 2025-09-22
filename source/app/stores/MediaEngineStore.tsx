@@ -3817,7 +3817,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = arg1;
             var3 = _closure1_slot64;
             var2 = null;
-            if(!(var2 == var3)) { _fun0042_ip = 49; continue _fun0042 }
+            if(!(var2 == var3)) { _fun0042_ip = 53; continue _fun0042 }
  16:
             var5 = _closure1_slot58;
             var4 = var5.info;
@@ -3825,13 +3825,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.bind(var5)(var3);
             var3 = {'soundshareId': null, 'soundshareSession': ''};
             return var3;
- 49:
+ 53:
             var4 = _closure1_slot64;
             var3 = var4.getExperimentalSoundshare;
             var4 = var3.bind(var4)();
             var3 = var6;
-            if(var4) { _fun0042_ip = 102; continue _fun0042 }
- 69:
+            if(var4) { _fun0042_ip = 106; continue _fun0042 }
+ 73:
             var7 = _closure1_slot1;
             var5 = _closure1_slot3;
             var4 = 55;
@@ -3840,11 +3840,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var7.bind(var4)(var5);
             var4 = var5.getAudioPid;
             var3 = var4.bind(var5)(var6);
- 102:
+ 106:
             var4 = var2 != var3;
             var2 = '';
-            if(!var4) { _fun0042_ip = 146; continue _fun0042 }
- 113:
+            if(!var4) { _fun0042_ip = 150; continue _fun0042 }
+ 117:
             var5 = _closure1_slot1;
             var4 = _closure1_slot3;
             var1 = 55;
@@ -3853,7 +3853,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var5.bind(var1)(var4);
             var1 = var4.generateSessionFromPid;
             var2 = var1.bind(var4)(var3);
- 146:
+ 150:
             var1 = {};
             var1['soundshareId'] = var3;
             var1['soundshareSession'] = var2;

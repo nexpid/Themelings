@@ -214,7 +214,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             if(!(var6 != var1)) { _fun0003_ip = 89; continue _fun0003 }
  76:
             var2 = var1.isInlineReplyPreview;
-            if(!(var2 !== var12)) { _fun0003_ip = 463; continue _fun0003 }
+            if(!(var2 !== var12)) { _fun0003_ip = 467; continue _fun0003 }
  89:
             var7 = var5.type;
             var2 = _closure1_slot3;
@@ -293,15 +293,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6['hideSimpleEmbedContent'] = var13;
             var6['formatInline'] = var12;
             var12 = var10;
-            if(var10) { _fun0003_ip = 405; continue _fun0003 }
- 402:
+            if(var10) { _fun0003_ip = 409; continue _fun0003 }
+ 406:
             var12 = var11;
- 405:
+ 409:
             var6['allowHeading'] = var12;
-            if(var10) { _fun0003_ip = 416; continue _fun0003 }
- 413:
+            if(var10) { _fun0003_ip = 420; continue _fun0003 }
+ 417:
             var10 = var11;
- 416:
+ 420:
             var6['allowList'] = var10;
             var6['allowLinks'] = var4;
             var6['previewLinkTarget'] = var4;
@@ -312,7 +312,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.set;
             var3 = var3.bind(var4)(var5, var2);
             return var2;
- 463:
+ 467:
             return var1;
         }
     };
