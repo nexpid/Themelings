@@ -1,17 +1,17 @@
 // app/design/components/Navigator/native/NavigatorHeader.native.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var7 = require;
-    var6 = metroImportDefault;
+    var12 = metroImportDefault;
     var3 = exports;
     var8 = dependencyMap;
     var _closure1_slot0 = var7;
-    var _closure1_slot1 = var6;
+    var _closure1_slot1 = var12;
     var _closure1_slot2 = var8;
     var4 = function HeaderBackImage() {
-        var2 = _closure1_slot9;
+        var2 = _closure1_slot8;
         var4 = undefined;
         var5 = var2.bind(var4)();
-        var3 = _closure1_slot7;
+        var3 = _closure1_slot6;
         var2 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 8;
@@ -26,7 +26,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot10 = var4;
+    var _closure1_slot9 = var4;
     var1 = function CloseButton(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
@@ -42,7 +42,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = copyDataProperties(var13, var12, var11);
             var4 = undefined;
             var _closure2_slot2 = var4;
-            var3 = _closure1_slot9;
+            var3 = _closure1_slot8;
             var3 = var3.bind(var4)();
             var _closure2_slot0 = var3;
             var6 = _closure1_slot0;
@@ -88,7 +88,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.t;
             var3 = var3.cpT0Cg;
             var6 = var6.bind(var10)(var3);
-            var3 = _closure1_slot7;
+            var3 = _closure1_slot6;
             var1 = 12;
             var1 = var9[var1];
             var1 = var2.bind(var4)(var1);
@@ -107,7 +107,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = function backImage(arg1) {
                 var1 = arg1;
                 var7 = var1.tintColor;
-                var4 = _closure1_slot7;
+                var4 = _closure1_slot6;
                 var2 = _closure1_slot0;
                 var3 = _closure1_slot2;
                 var1 = 13;
@@ -137,7 +137,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot11 = var1;
+    var _closure1_slot10 = var1;
     var1 = function CustomHeaderBackButton(arg1) {
         var3 = arg1;
         var7 = var3.onPress;
@@ -173,7 +173,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var3 = var9.bind(var10)(var3);
-        var3 = _closure1_slot7;
+        var3 = _closure1_slot6;
         var1 = 12;
         var1 = var8[var1];
         var1 = var2.bind(var4)(var1);
@@ -187,8 +187,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = 'labelVisible';
         var1[var6] = var7;
         var6 = function backImage() {
-            var4 = _closure1_slot7;
-            var3 = _closure1_slot10;
+            var4 = _closure1_slot6;
+            var3 = _closure1_slot9;
             var2 = undefined;
             var1 = {};
             var1 = var4.bind(var2)(var3, var1);
@@ -199,7 +199,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot12 = var1;
+    var _closure1_slot11 = var1;
     var1 = function HeaderTextButton(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
@@ -216,7 +216,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var3;
             var6 = copyDataProperties(var13, var12, var11);
             var3 = {};
-            var7 = _closure1_slot9;
+            var7 = _closure1_slot8;
             var4 = undefined;
             var7 = var7.bind(var4)();
             var12 = var7.headerBackTitleStyle;
@@ -228,7 +228,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = new Array(2);
             var9[0] = var3;
             var9[1] = var2;
-            var3 = _closure1_slot7;
+            var3 = _closure1_slot6;
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var1 = 12;
@@ -268,19 +268,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot13 = var1;
+    var _closure1_slot12 = var1;
     var1 = global;
-    var10 = var1.Object;
-    var9 = var10.defineProperty;
+    var9 = var1.Object;
+    var6 = var9.defineProperty;
     var5 = {};
     var1 = true;
     var5['value'] = var1;
     var1 = '__esModule';
-    var1 = var9.bind(var10)(var3, var1, var5);
+    var1 = var6.bind(var9)(var3, var1, var5);
     var1 = 0;
     var5 = var8[var1];
     var1 = undefined;
-    var5 = var6.bind(var1)(var5);
+    var5 = var12.bind(var1)(var5);
     var _closure1_slot3 = var5;
     var5 = 1;
     var6 = var8[var5];
@@ -296,103 +296,77 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = 3;
     var5 = var8[var5];
     var5 = var7.bind(var1)(var5);
-    var5 = var5.Fonts;
-    var _closure1_slot6 = var5;
+    var13 = var5.Fonts;
     var5 = 4;
     var5 = var8[var5];
     var5 = var7.bind(var1)(var5);
     var6 = var5.jsx;
-    var _closure1_slot7 = var6;
+    var _closure1_slot6 = var6;
     var5 = var5.jsxs;
-    var _closure1_slot8 = var5;
+    var _closure1_slot7 = var5;
     var5 = 5;
     var5 = var8[var5];
     var9 = var7.bind(var1)(var5);
     var6 = var9.createStyles;
-    var5 = function() {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
-            var8 = arguments[0];
-            var5 = undefined;
-            if(!(var8 === var5)) { _fun0004_ip = 13; continue _fun0004 }
- 9:
-            var8 = 'center';
- 13:
-            var1 = {};
-            var2 = {};
-            var7 = _closure1_slot1;
-            var4 = _closure1_slot2;
-            var6 = 6;
-            var9 = var4[var6];
-            var9 = var7.bind(var5)(var9);
-            var9 = var9.colors;
-            var9 = var9.BACKGROUND_MOBILE_SECONDARY;
-            var2['backgroundColor'] = var9;
-            var9 = 'hidden';
-            var2['overflow'] = var9;
-            var1['fauxHeaderWrapper'] = var2;
-            var2 = {};
-            var10 = _closure1_slot0;
-            var9 = 7;
-            var9 = var4[var9];
-            var9 = var10.bind(var5)(var9);
-            var9 = var9.TextStyleSheet;
-            var11 = var9.redesign/heading-18/bold;
-            var12 = var2;
-            var9 = copyDataProperties(var12, var11);
-            var9 = var4[var6];
-            var9 = var7.bind(var5)(var9);
-            var9 = var9.colors;
-            var10 = var9.HEADER_PRIMARY;
-            var9 = 'color';
-            var2[var9] = var10;
-            var1['headerTitle'] = var2;
-            var2 = {'fontFamily': null, 'fontSize': 16, 'letterSpacing': 0, 'lineHeight': 20};
-            var9 = _closure1_slot6;
-            var9 = var9.PRIMARY_MEDIUM;
-            var2['fontFamily'] = var9;
-            var4 = var4[var6];
-            var4 = var7.bind(var5)(var4);
-            var4 = var4.colors;
-            var4 = var4.HEADER_PRIMARY;
-            var2['color'] = var4;
-            var1['headerBackTitleStyle'] = var2;
-            var4 = 'center';
-            var2 = {'flexDirection': 'row', 'justifyContent': 'center', 'alignItems': 'center'};
-            var1['navigatorHeaderTitleContainer'] = var2;
-            var2 = {'alignItems': null, 'flex': 1, 'flexDirection': 'column', 'justifyContent': 'center'};
-            var7 = 'left';
-            if(!(var7 === var8)) { _fun0004_ip = 250; continue _fun0004 }
- 244:
-            var4 = 'flex-start';
- 250:
-            var2['alignItems'] = var4;
-            var1['navigatorHeaderContainer'] = var2;
-            var2 = {};
-            var4 = -2;
-            var2['marginTop'] = var4;
-            var1['navigatorHeaderSubtitle'] = var2;
-            var2 = {'width': 24, 'height': 24};
-            var4 = _closure1_slot1;
-            var3 = _closure1_slot2;
-            var7 = var3[var6];
-            var7 = var4.bind(var5)(var7);
-            var7 = var7.colors;
-            var7 = var7.HEADER_PRIMARY;
-            var2['tintColor'] = var7;
-            var1['headerButtonIcon'] = var2;
-            var2 = {'width': 22, 'height': 22};
-            var3 = var3[var6];
-            var3 = var4.bind(var5)(var3);
-            var3 = var3.colors;
-            var3 = var3.INTERACTIVE_NORMAL;
-            var2['color'] = var3;
-            var1['submittingIndicator'] = var2;
-            return var1;
-        }
-    };
+    var5 = {};
+    var10 = {};
+    var11 = 6;
+    var14 = var8[var11];
+    var14 = var12.bind(var1)(var14);
+    var14 = var14.colors;
+    var14 = var14.BACKGROUND_MOBILE_SECONDARY;
+    var10['backgroundColor'] = var14;
+    var14 = 'hidden';
+    var10['overflow'] = var14;
+    var5['fauxHeaderWrapper'] = var10;
+    var10 = {};
+    var14 = 7;
+    var14 = var8[var14];
+    var14 = var7.bind(var1)(var14);
+    var14 = var14.TextStyleSheet;
+    var17 = var14.redesign/heading-18/bold;
+    var18 = var10;
+    var14 = copyDataProperties(var18, var17);
+    var14 = var8[var11];
+    var14 = var12.bind(var1)(var14);
+    var14 = var14.colors;
+    var15 = var14.HEADER_PRIMARY;
+    var14 = 'color';
+    var10[var14] = var15;
+    var5['headerTitle'] = var10;
+    var10 = {'fontFamily': null, 'fontSize': 16, 'letterSpacing': 0, 'lineHeight': 20};
+    var13 = var13.PRIMARY_MEDIUM;
+    var10['fontFamily'] = var13;
+    var13 = var8[var11];
+    var13 = var12.bind(var1)(var13);
+    var13 = var13.colors;
+    var13 = var13.HEADER_PRIMARY;
+    var10['color'] = var13;
+    var5['headerBackTitleStyle'] = var10;
+    var10 = {'flexDirection': 'row', 'justifyContent': 'center', 'alignItems': 'center'};
+    var5['navigatorHeaderTitleContainer'] = var10;
+    var10 = {'flexDirection': 'column', 'justifyContent': 'center', 'alignItems': 'center'};
+    var5['navigatorHeaderContainer'] = var10;
+    var10 = {};
+    var13 = -2;
+    var10['marginTop'] = var13;
+    var5['navigatorHeaderSubtitle'] = var10;
+    var10 = {'width': 24, 'height': 24};
+    var13 = var8[var11];
+    var13 = var12.bind(var1)(var13);
+    var13 = var13.colors;
+    var13 = var13.HEADER_PRIMARY;
+    var10['tintColor'] = var13;
+    var5['headerButtonIcon'] = var10;
+    var10 = {'width': 22, 'height': 22};
+    var11 = var8[var11];
+    var11 = var12.bind(var1)(var11);
+    var11 = var11.colors;
+    var11 = var11.INTERACTIVE_NORMAL;
+    var10['color'] = var11;
+    var5['submittingIndicator'] = var10;
     var5 = var6.bind(var9)(var5);
-    var _closure1_slot9 = var5;
+    var _closure1_slot8 = var5;
     var6 = 17;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
@@ -401,17 +375,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = var7.bind(var8)(var6);
     var3['useStyles'] = var5;
     var5 = function NavigatorHeader(arg1) {
-        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
             var1 = arg1;
-            var2 = var1.align;
             var14 = var1.title;
             var10 = var1.subtitle;
             var8 = var1.icon;
-            var1 = _closure1_slot9;
+            var1 = _closure1_slot8;
             var4 = undefined;
-            var11 = var1.bind(var4)(var2);
-            var3 = _closure1_slot8;
+            var11 = var1.bind(var4)();
+            var3 = _closure1_slot7;
             var2 = _closure1_slot4;
             var1 = {};
             var5 = var11.navigatorHeaderContainer;
@@ -421,7 +394,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['style'] = var6;
             var6 = new Array(2);
             var6[0] = var8;
-            var13 = _closure1_slot7;
+            var13 = _closure1_slot6;
             var9 = _closure1_slot0;
             var8 = _closure1_slot2;
             var12 = 7;
@@ -438,14 +411,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5[0] = var6;
             var6 = null;
             var6 = var6 != var10;
-            if(!var6) { _fun0005_ip = 171; continue _fun0005 }
- 163:
+            if(!var6) { _fun0004_ip = 164; continue _fun0004 }
+ 156:
             var8 = '';
             var6 = var8 !== var10;
- 171:
-            if(!var6) { _fun0005_ip = 236; continue _fun0005 }
- 174:
-            var9 = _closure1_slot7;
+ 164:
+            if(!var6) { _fun0004_ip = 229; continue _fun0004 }
+ 167:
+            var9 = _closure1_slot6;
             var8 = _closure1_slot0;
             var7 = _closure1_slot2;
             var7 = var7[var12];
@@ -456,7 +429,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7['style'] = var11;
             var7['children'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 236:
+ 229:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
@@ -466,8 +439,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['NavigatorHeader'] = var5;
     var3['HeaderBackImage'] = var4;
     var4 = function renderBackImage() {
-        var4 = _closure1_slot7;
-        var3 = _closure1_slot10;
+        var4 = _closure1_slot6;
+        var3 = _closure1_slot9;
         var2 = undefined;
         var1 = {};
         var1 = var4.bind(var2)(var3, var1);
@@ -478,8 +451,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = arg1;
         var _closure2_slot0 = var2;
         var1 = function(arg1) {
-            var4 = _closure1_slot7;
-            var3 = _closure1_slot11;
+            var4 = _closure1_slot6;
+            var3 = _closure1_slot10;
             var2 = {};
             var6 = arg1;
             var7 = var2;
@@ -514,11 +487,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = undefined;
                 var2 = function* () {
                     var1 = function* anon_0_() {
-                        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+                        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(var2) { _fun0006_ip = 60; continue _fun0006 }
+                            if(var2) { _fun0005_ip = 60; continue _fun0005 }
  7:
                             var2 = _closure2_slot0;
                             var3 = undefined;
@@ -528,13 +501,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             return var2;
  24:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                            if(var4) { _fun0006_ip = 57; continue _fun0006 }
+                            if(var4) { _fun0005_ip = 57; continue _fun0005 }
  30:
-                            if(!var2) { _fun0006_ip = 54; continue _fun0006 }
+                            if(!var2) { _fun0005_ip = 54; continue _fun0005 }
  33:
                             var6 = _closure3_slot0;
                             var5 = null;
-                            if(!(var5 != var6)) { _fun0006_ip = 54; continue _fun0006 }
+                            if(!(var5 != var6)) { _fun0005_ip = 54; continue _fun0005 }
  46:
                             var4 = _closure3_slot0;
                             var4 = var4.bind(var3)();
@@ -564,8 +537,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var4 = undefined;
             var6 = var1.bind(var4)();
-            var3 = _closure1_slot7;
-            var2 = _closure1_slot12;
+            var3 = _closure1_slot6;
+            var2 = _closure1_slot11;
             var1 = {};
             var9 = var1;
             var5 = copyDataProperties(var9, var8);
@@ -578,13 +551,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var3['getHeaderConditionalBackButton'] = var4;
     var4 = function getHeaderBackButton(arg1) {
-        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
             var2 = arguments[1];
             var3 = arg1;
             var _closure2_slot0 = var3;
             var3 = undefined;
-            if(!(var2 === var3)) { _fun0007_ip = 20; continue _fun0007 }
+            if(!(var2 === var3)) { _fun0006_ip = 20; continue _fun0006 }
  18:
             var2 = false;
  20:
@@ -601,17 +574,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = var4;
                 var6 = var3;
                 var7 = copyDataProperties(var8, var7, var6);
-                var4 = _closure1_slot7;
-                var3 = _closure1_slot12;
+                var4 = _closure1_slot6;
+                var3 = _closure1_slot11;
                 var2 = {};
                 var8 = var2;
                 var5 = copyDataProperties(var8, var7);
                 var5 = function onPress() {
-                    _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+                    _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
                         var2 = _closure2_slot0;
                         var3 = null;
-                        if(!(var3 != var2)) { _fun0008_ip = 23; continue _fun0008 }
+                        if(!(var3 != var2)) { _fun0007_ip = 23; continue _fun0007 }
  13:
                         var4 = _closure2_slot0;
                         var2 = undefined;
@@ -619,10 +592,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  23:
                         var1 = _closure2_slot1;
                         var1 = !var1;
-                        if(!var1) { _fun0008_ip = 54; continue _fun0008 }
+                        if(!var1) { _fun0007_ip = 54; continue _fun0007 }
  33:
                         var2 = _closure3_slot0;
-                        if(!(var3 != var2)) { _fun0008_ip = 54; continue _fun0008 }
+                        if(!(var3 != var2)) { _fun0007_ip = 54; continue _fun0007 }
  44:
                         var2 = _closure3_slot0;
                         var1 = undefined;
@@ -648,8 +621,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = arg2;
         var _closure2_slot1 = var2;
         var1 = function(arg1) {
-            var4 = _closure1_slot7;
-            var3 = _closure1_slot13;
+            var4 = _closure1_slot6;
+            var3 = _closure1_slot12;
             var2 = {};
             var7 = arg1;
             var8 = var2;
@@ -679,7 +652,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = arg1;
         var5 = var1.children;
         var7 = var1.style;
-        var1 = _closure1_slot9;
+        var1 = _closure1_slot8;
         var4 = undefined;
         var6 = var1.bind(var4)();
         var2 = _closure1_slot1;
@@ -689,7 +662,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var4)(var1);
         var1 = var1.bind(var4)();
         var10 = var1.top;
-        var3 = _closure1_slot7;
+        var3 = _closure1_slot6;
         var2 = _closure1_slot4;
         var1 = {};
         var8 = var6.fauxHeaderWrapper;
@@ -713,10 +686,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var3['FauxHeader'] = var4;
     var2 = function HeaderSubmittingIndicator() {
-        var2 = _closure1_slot9;
+        var2 = _closure1_slot8;
         var4 = undefined;
         var5 = var2.bind(var4)();
-        var3 = _closure1_slot7;
+        var3 = _closure1_slot6;
         var2 = _closure1_slot5;
         var1 = {};
         var6 = true;

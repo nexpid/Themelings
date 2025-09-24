@@ -57,7 +57,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  156:
         var4 = var5.bridgeJSIFunctions;
         var4 = var4.bind(var5)();
-        var4 = global;
+        var4 = 3;
+        var4 = var8[var4];
+        var4 = var7.bind(var1)(var4);
+        var4 = var4.typedGlobal;
         var4 = var4.LIBDISCORE_JSI;
         var _closure1_slot2 = var4;
         var5 = var4.ExperimentCacher;
@@ -104,7 +107,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var4 = var4.bind(var1)();
-        var6 = 3;
+        var6 = 4;
         var6 = var8[var6];
         var8 = var7.bind(var1)(var6);
         var7 = var8.fileFinishedImporting;

@@ -27,15 +27,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.QuestsExperimentLocations;
-    var _closure1_slot4 = var4;
+    var7 = var4.QuestsExperimentLocations;
+    var _closure1_slot4 = var7;
+    var4 = var4.QuestVariants;
+    var _closure1_slot5 = var4;
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var7 = var4.jsx;
-    var _closure1_slot5 = var7;
+    var _closure1_slot6 = var7;
     var4 = var4.jsxs;
-    var _closure1_slot6 = var4;
+    var _closure1_slot7 = var4;
     var4 = 22;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -67,7 +69,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.isShareableQuest;
             var1 = var18.config;
             var8 = var2.bind(var3)(var1);
-            var3 = _closure1_slot6;
+            var3 = _closure1_slot7;
             var1 = 6;
             var1 = var11[var1];
             var1 = var12.bind(var4)(var1);
@@ -79,7 +81,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.ActionSheetRow;
             var6 = var5.Group;
             var5 = {};
-            var10 = _closure1_slot5;
+            var10 = _closure1_slot6;
             var7 = var11[var17];
             var7 = var12.bind(var4)(var7);
             var9 = var7.ActionSheetRow;
@@ -101,28 +103,43 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var12.bind(var4)(var11);
             var12 = var11.FormLabel;
             var11 = {};
+            if(var15) { _fun0001_ip = 354; continue _fun0001 }
+ 250:
+            var15 = var18.config;
+            var20 = var15.features;
+            var19 = var20.includes;
+            var15 = _closure1_slot5;
+            var15 = var15.NON_GAMING_PLAY_QUEST;
+            var15 = var19.bind(var20)(var15);
+            var23 = _closure1_slot0;
+            var24 = _closure1_slot2;
+            var19 = 10;
+            var20 = var24[var19];
+            var20 = var23.bind(var4)(var20);
+            var22 = var20.intl;
+            var20 = var22.string;
+            var19 = var24[var19];
+            var19 = var23.bind(var4)(var19);
+            var19 = var19.t;
+            if(var15) { _fun0001_ip = 341; continue _fun0001 }
+ 328:
+            var15 = var19.lwQdjI;
+            var15 = var20.bind(var22)(var15);
+            _fun0001_ip = 352; continue _fun0001;
+ 341:
+            var19 = var19.LLLLPD;
+            var15 = var20.bind(var22)(var19);
+ 352:
+            _fun0001_ip = 387; continue _fun0001;
+ 354:
             var20 = _closure1_slot0;
             var19 = _closure1_slot2;
-            if(var15) { _fun0001_ip = 307; continue _fun0001 }
- 258:
-            var15 = 10;
-            var22 = var19[var15];
-            var22 = var20.bind(var4)(var22);
-            var23 = var22.intl;
-            var22 = var23.string;
-            var15 = var19[var15];
-            var15 = var20.bind(var4)(var15);
-            var15 = var15.t;
-            var15 = var15.lwQdjI;
-            var15 = var22.bind(var23)(var15);
-            _fun0001_ip = 332; continue _fun0001;
- 307:
             var19 = var19[var21];
             var20 = var20.bind(var4)(var19);
             var19 = var20.getVideoQuestEndCardCtaText;
             var18 = var18.config;
             var15 = var19.bind(var20)(var18);
- 332:
+ 387:
             var11['text'] = var15;
             var11 = var10.bind(var4)(var12, var11);
             var7['label'] = var11;
@@ -166,9 +183,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var10.bind(var4)(var9, var7);
             var7 = new Array(2);
             var7[0] = var9;
-            if(!var8) { _fun0001_ip = 556; continue _fun0001 }
- 377:
-            var11 = _closure1_slot5;
+            if(!var8) { _fun0001_ip = 611; continue _fun0001 }
+ 432:
+            var11 = _closure1_slot6;
             var21 = _closure1_slot0;
             var22 = _closure1_slot2;
             var9 = var22[var17];
@@ -243,13 +260,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var9['onPress'] = var12;
             var8 = var11.bind(var4)(var10, var9);
- 556:
+ 611:
             var7[1] = var8;
             var5['children'] = var7;
             var6 = var3.bind(var4)(var6, var5);
             var5 = new Array(2);
             var5[0] = var6;
-            var8 = _closure1_slot6;
+            var8 = _closure1_slot7;
             var18 = _closure1_slot0;
             var19 = _closure1_slot2;
             var6 = var19[var17];
@@ -257,7 +274,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.ActionSheetRow;
             var7 = var6.Group;
             var6 = {};
-            var12 = _closure1_slot5;
+            var12 = _closure1_slot6;
             var9 = var19[var17];
             var9 = var18.bind(var4)(var9);
             var10 = var9.ActionSheetRow;

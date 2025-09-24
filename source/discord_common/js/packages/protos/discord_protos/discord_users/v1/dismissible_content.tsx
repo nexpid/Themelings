@@ -74,10 +74,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['NAGBAR_NOTICE_CONNECT_PLAYSTATION'] = var2;
     var1 = 'NAGBAR_NOTICE_CONNECT_PLAYSTATION';
     var4[var2] = var1;
-    var2 = 19;
-    var4['NAGBAR_NOTICE_MFA_SMS_BACKUP'] = var2;
-    var1 = 'NAGBAR_NOTICE_MFA_SMS_BACKUP';
-    var4[var2] = var1;
     var2 = 20;
     var4['ACTIVITIES_SUNSET_COACH_MARK'] = var2;
     var1 = 'ACTIVITIES_SUNSET_COACH_MARK';
@@ -1117,10 +1113,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = 423;
     var4['CASH_APP_PAY_AWARENESS_NAGBAR'] = var2;
     var1 = 'CASH_APP_PAY_AWARENESS_NAGBAR';
-    var4[var2] = var1;
-    var2 = 424;
-    var4['DESKTOP_APP_LAUNCHER_ONBOARDING'] = var2;
-    var1 = 'DESKTOP_APP_LAUNCHER_ONBOARDING';
     var4[var2] = var1;
     var2 = 425;
     var4['ICYMI_ALPHA_UPSELL'] = var2;

@@ -2429,7 +2429,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0013_ip = 108; continue _fun0013 }
+                    if(var2) { _fun0013_ip = 112; continue _fun0013 }
  7:
                     var5 = undefined;
                     var3 = undefined;
@@ -2449,21 +2449,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2['url'] = var3;
                     var3 = true;
                     var2 = var4.bind(var5)(var2);
-                    SaveGenerator(address=89);
- 87:
+                    SaveGenerator(address=93);
+ 91:
                     return var2;
- 89:
+ 93:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0013_ip = 98; continue _fun0013 }
- 95: // try_end0
+                    if(var4) { _fun0013_ip = 102; continue _fun0013 }
+ 99: // try_end0
                     return var3;
- 98:
+ 102:
                     return var2;
- 101: // catch_target0
+ 105: // catch_target0
                     CatchBlockStart(arg_register=1);
                     var2 = false;
                     return var2;
- 108:
+ 112:
                     return var1;
                 }
             };

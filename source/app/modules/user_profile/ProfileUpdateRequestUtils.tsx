@@ -195,9 +195,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var2.pendingNameplate;
             if(!(var4 !== var3)) { _fun0003_ip = 205; continue _fun0003 }
  193:
-            var2 = var2.pendingNameplate;
-            var1['nameplate'] = var2;
+            var3 = var2.pendingNameplate;
+            var1['nameplate'] = var3;
  205:
+            var3 = var2.pendingDisplayNameStyles;
+            if(!(var4 !== var3)) { _fun0003_ip = 227; continue _fun0003 }
+ 215:
+            var2 = var2.pendingDisplayNameStyles;
+            var1['displayNameStyles'] = var2;
+ 227:
             return var1;
         }
     };

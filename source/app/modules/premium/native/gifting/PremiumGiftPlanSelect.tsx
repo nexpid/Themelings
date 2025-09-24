@@ -424,8 +424,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         }
                     };
                     var5['onLayout'] = var9;
-                    var8 = _closure2_slot3;
-                    var5['claimableRewards'] = var8;
+                    var9 = _closure2_slot3;
+                    var5['claimableRewards'] = var9;
+                    var8 = _closure2_slot5;
+                    var8 = var8 === var7;
+                    var5['isVisible'] = var8;
                     var5 = var4.bind(var1)(var6, var5, var7);
                     var2['children'] = var5;
                     var1 = var4.bind(var1)(var3, var2);

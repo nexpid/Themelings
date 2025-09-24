@@ -1,40 +1,44 @@
 // app/modules/parent_tools/FamilyCenterUtils.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var6 = require;
+    var5 = metroImportDefault;
     var3 = exports;
     var7 = dependencyMap;
     var _closure1_slot0 = var6;
-    var1 = metroImportDefault;
-    var _closure1_slot1 = var1;
+    var _closure1_slot1 = var5;
     var _closure1_slot2 = var7;
     var1 = global;
-    var8 = var1.Object;
-    var5 = var8.defineProperty;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
     var4 = {};
     var1 = true;
     var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var5.bind(var8)(var3, var1, var4);
+    var1 = var8.bind(var9)(var3, var1, var4);
     var1 = 0;
     var4 = var7[var1];
     var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var7[var4];
     var4 = var6.bind(var1)(var4);
     var5 = var4.ACTION_TO_TEXT;
-    var _closure1_slot3 = var5;
-    var5 = var4.ACTION_TO_TEXT_V2;
     var _closure1_slot4 = var5;
-    var5 = var4.FAMILY_CENTER_ERROR_CODE_TO_FAILURE;
+    var5 = var4.ACTION_TO_TEXT_V2;
     var _closure1_slot5 = var5;
-    var5 = var4.FamilyCenterFailureCode;
+    var5 = var4.FAMILY_CENTER_ERROR_CODE_TO_FAILURE;
     var _closure1_slot6 = var5;
+    var5 = var4.FamilyCenterFailureCode;
+    var _closure1_slot7 = var5;
     var4 = var4.TeenActionDisplayType;
-    var _closure1_slot7 = var4;
+    var _closure1_slot8 = var4;
     var4 = function getActivityTypeTextConfigs(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
             var2 = global;
             var5 = var2.Map;
-            var9 = _closure1_slot3;
+            var9 = _closure1_slot4;
             var4 = var5.prototype;
             var4 = Object.create(var4, {constructor: {value: var5}});
             var10 = var4;
@@ -50,7 +54,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var2;
             var8 = var6;
             var7 = arraySpread(var9, var8, var7);
-            var8 = _closure1_slot4;
+            var8 = _closure1_slot5;
             var9 = var2;
             var3 = arraySpread(var9, var8, var7);
             var3 = var4.prototype;
@@ -63,8 +67,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot8 = var4;
-    var5 = 4;
+    var _closure1_slot9 = var4;
+    var5 = 6;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -74,14 +78,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = {};
         var7 = _closure1_slot0;
         var5 = _closure1_slot2;
-        var6 = 1;
+        var6 = 2;
         var3 = var5[var6];
         var4 = undefined;
         var3 = var7.bind(var4)(var3);
         var10 = var3.intl;
         var9 = var10.string;
         var3 = _closure1_slot1;
-        var2 = 2;
+        var2 = 3;
         var8 = var5[var2];
         var8 = var3.bind(var4)(var8);
         var8 = var8.VjIAQU;
@@ -109,14 +113,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = {};
             var8 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var7 = 1;
+            var7 = 2;
             var3 = var6[var7];
             var5 = undefined;
             var3 = var8.bind(var5)(var3);
             var11 = var3.intl;
             var10 = var11.string;
             var4 = _closure1_slot1;
-            var3 = 2;
+            var3 = 3;
             var1 = var6[var3];
             var9 = var4.bind(var5)(var1);
             var1 = arg1;
@@ -170,7 +174,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = arg3;
             var6 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var3 = 3;
+            var3 = 4;
             var2 = var7[var3];
             var4 = undefined;
             var2 = var6.bind(var4)(var2);
@@ -197,7 +201,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  123:
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var1 = 1;
+            var1 = 2;
             var1 = var5[var1];
             var1 = var3.bind(var4)(var1);
             var5 = var1.intl;
@@ -239,7 +243,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = arg1;
             var6 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var1 = 3;
+            var1 = 4;
             var2 = var7[var1];
             var5 = undefined;
             var2 = var6.bind(var5)(var2);
@@ -275,7 +279,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  156:
             var4 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var1 = 1;
+            var1 = 2;
             var1 = var6[var1];
             var1 = var4.bind(var5)(var1);
             var8 = var1.intl;
@@ -288,7 +292,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  207:
             var6 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var4 = 1;
+            var4 = 2;
             var4 = var8[var4];
             var4 = var6.bind(var5)(var4);
             var9 = var4.intl;
@@ -311,7 +315,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  289:
             var6 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var4 = 1;
+            var4 = 2;
             var4 = var8[var4];
             var4 = var6.bind(var5)(var4);
             var9 = var4.intl;
@@ -330,7 +334,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  363:
             var4 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var3 = 1;
+            var3 = 2;
             var3 = var6[var3];
             var3 = var4.bind(var5)(var3);
             var6 = var3.intl;
@@ -358,20 +362,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
             var3 = arg1;
             var4 = var3.display_type;
-            var1 = _closure1_slot7;
+            var1 = _closure1_slot8;
             var1 = var1.USER_ADD;
             var1 = var4 === var1;
             if(var1) { _fun0005_ip = 49; continue _fun0005 }
  29:
             var5 = var3.display_type;
-            var4 = _closure1_slot7;
+            var4 = _closure1_slot8;
             var4 = var4.USER_INTERACTION;
             var1 = var5 === var4;
  49:
             if(var1) { _fun0005_ip = 72; continue _fun0005 }
  52:
             var3 = var3.display_type;
-            var2 = _closure1_slot7;
+            var2 = _closure1_slot8;
             var2 = var2.USER_CALLED;
             var1 = var3 === var2;
  72:
@@ -384,13 +388,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
             var3 = arg1;
             var4 = var3.display_type;
-            var1 = _closure1_slot7;
+            var1 = _closure1_slot8;
             var1 = var1.GUILD_ADD;
             var1 = var4 === var1;
             if(var1) { _fun0006_ip = 49; continue _fun0006 }
  29:
             var3 = var3.display_type;
-            var2 = _closure1_slot7;
+            var2 = _closure1_slot8;
             var2 = var2.GUILD_INTERACTION;
             var1 = var3 === var2;
  49:
@@ -405,7 +409,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = global;
             var3 = var1.Object;
             var2 = var3.values;
-            var1 = _closure1_slot7;
+            var1 = _closure1_slot8;
             var4 = var2.bind(var3)(var1);
             var1 = var4.length;
             var3 = 0;
@@ -431,14 +435,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = function(arg1) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
-            var3 = _closure1_slot5;
+            var3 = _closure1_slot6;
             var1 = arg1;
             var1 = var1.code;
             var1 = var3[var1];
             var3 = null;
             if(!(var3 == var1)) { _fun0008_ip = 35; continue _fun0008 }
  25:
-            var2 = _closure1_slot6;
+            var2 = _closure1_slot7;
             var1 = var2.GENERIC_ERROR;
  35:
             return var1;
@@ -448,7 +452,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = function(arg1) {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
-            var3 = _closure1_slot8;
+            var3 = _closure1_slot9;
             var2 = undefined;
             var1 = arg1;
             var4 = var3.bind(var2)(var1);
@@ -484,7 +488,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var3['getSortedActivityTypeConfigs'] = var5;
     var3['getActivityTypeTextConfigs'] = var4;
-    var2 = function(arg1) {
+    var4 = function(arg1) {
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
  0:
             var3 = arg1;
@@ -517,6 +521,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var3['formatTotalTime'] = var2;
+    var3['formatTotalTime'] = var4;
+    var2 = function() {
+        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+ 0:
+            var3 = _closure1_slot3;
+            var2 = var3.getAreLinkedUsersProcessed;
+            var2 = var2.bind(var3)();
+            if(var2) { _fun0011_ip = 56; continue _fun0011 }
+ 22:
+            var4 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var2 = 5;
+            var3 = var3[var2];
+            var2 = undefined;
+            var4 = var4.bind(var2)(var3);
+            var3 = var4.fetchLinkedUsers;
+            var3 = var3.bind(var4)();
+            return var2;
+ 56:
+            var2 = _closure1_slot3;
+            var1 = var2.getLinkedUsers;
+            var1 = var1.bind(var2)();
+            return var1;
+        }
+    };
+    var3['getOrFetchLinkedUsers'] = var2;
     return var1;
 })();

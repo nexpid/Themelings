@@ -273,7 +273,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4[var1] = var5;
                 var1 = _closure1_slot4;
                 var1 = var1.INSERT;
-                _fun0005_ip = 212; continue _fun0005;
+                _fun0005_ip = 198; continue _fun0005;
  60:
                 var7 = var2.items;
                 var9 = var8 == var7;
@@ -289,36 +289,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  95:
                 var6 = var7.length;
  100:
-                if(!(var4 === var6)) { _fun0005_ip = 181; continue _fun0005 }
+                if(!(var4 === var6)) { _fun0005_ip = 167; continue _fun0005 }
  104:
                 var6 = var2.compressionProgress;
                 var4 = var5.compressionProgress;
-                if(!(var6 === var4)) { _fun0005_ip = 181; continue _fun0005 }
+                if(!(var6 === var4)) { _fun0005_ip = 167; continue _fun0005 }
  120:
                 var6 = var2.progress;
                 var4 = var5.progress;
-                if(!(var6 === var4)) { _fun0005_ip = 181; continue _fun0005 }
+                if(!(var6 === var4)) { _fun0005_ip = 167; continue _fun0005 }
  136:
-                var6 = var2.currentSize;
-                var4 = var5.currentSize;
-                if(!(var6 === var4)) { _fun0005_ip = 181; continue _fun0005 }
+                var4 = var2.currentSize;
+                var2 = var5.currentSize;
+                if(!(var4 === var2)) { _fun0005_ip = 167; continue _fun0005 }
  152:
-                var4 = var2.name;
-                var2 = var5.name;
-                if(!(var4 === var2)) { _fun0005_ip = 181; continue _fun0005 }
- 166:
                 var2 = _closure1_slot4;
                 var2 = var2.NOOP;
-                _fun0005_ip = 209; continue _fun0005;
- 181:
+                _fun0005_ip = 195; continue _fun0005;
+ 167:
                 var4 = var3.uploadProgressIds;
                 var3 = var5.id;
                 var4[var3] = var5;
                 var3 = _closure1_slot4;
                 var2 = var3.UPDATE;
- 209:
+ 195:
                 var1 = var2;
- 212:
+ 198:
                 return var1;
             }
         };

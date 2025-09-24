@@ -582,6 +582,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var23['answerNumber'] = var27;
             var23 = var25.bind(var26)(var24, var23);
             var17['accessibilityLabel'] = var23;
+            var23 = undefined;
+            if(!var6) { _fun0003_ip = 638; continue _fun0003 }
+ 578:
+            var25 = _closure1_slot0;
+            var24 = _closure1_slot2;
+            var26 = var24[var15];
+            var26 = var25.bind(var4)(var26);
+            var27 = var26.intl;
+            var26 = var27.formatToPlainString;
+            var24 = var24[var15];
+            var24 = var25.bind(var4)(var24);
+            var24 = var24.t;
+            var25 = var24.jnq5Hh;
+            var24 = {};
+            var24['errorMessage'] = var10;
+            var23 = var26.bind(var27)(var25, var24);
+ 638:
+            var17['accessibilityHint'] = var23;
             var23 = _closure1_slot8;
             var17['maxLength'] = var23;
             var23 = 'next';
@@ -596,8 +614,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var13.bind(var4)(var12, var9);
             var9 = new Array(2);
             var9[0] = var12;
-            if(!var11) { _fun0003_ip = 845; continue _fun0003 }
- 642:
+            if(!var11) { _fun0003_ip = 915; continue _fun0003 }
+ 712:
             var14 = _closure1_slot11;
             var13 = _closure1_slot4;
             var12 = {};
@@ -649,14 +667,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var17.bind(var4)(var16, var15);
             var12['children'] = var15;
             var11 = var14.bind(var4)(var13, var12);
- 845:
+ 915:
             var9[1] = var11;
             var5['children'] = var9;
             var8 = var3.bind(var4)(var8, var5);
             var5 = new Array(2);
             var5[0] = var8;
-            if(!var6) { _fun0003_ip = 906; continue _fun0003 }
- 870:
+            if(!var6) { _fun0003_ip = 976; continue _fun0003 }
+ 940:
             var9 = _closure1_slot11;
             var8 = _closure1_slot1;
             var11 = _closure1_slot2;
@@ -666,7 +684,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = {};
             var7['message'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 906:
+ 976:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

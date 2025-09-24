@@ -140,18 +140,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var8.fileFinishedImporting;
     var6 = 'modules/avatar_decorations/AvatarDecorationUtils.tsx';
     var6 = var7.bind(var8)(var6);
-    var6 = function(arg1) {
-        var4 = arg1;
-        var3 = var4.split;
-        var2 = '_';
-        var1 = 2;
-        var3 = var3.bind(var4)(var2, var1);
-        var2 = var3.includes;
-        var1 = 'a';
-        var1 = var2.bind(var3)(var1);
-        return var1;
-    };
-    var3['isAnimatedAvatarDecoration'] = var6;
     var3['parseAvatarDecorationData'] = var5;
     var3['isAvatarDecorationExpired'] = var4;
     var4 = function(arg1, arg2) {

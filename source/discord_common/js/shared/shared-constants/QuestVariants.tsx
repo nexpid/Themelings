@@ -102,6 +102,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['CLOUD_GAMING_ACTIVITY'] = var4;
     var1 = 'CLOUD_GAMING_ACTIVITY';
     var2[var4] = var1;
+    var4 = 26;
+    var2['NON_GAMING_PLAY_QUEST'] = var4;
+    var1 = 'NON_GAMING_PLAY_QUEST';
+    var2[var4] = var1;
     var4 = dependencyMap;
     var1 = 0;
     var5 = var4[var1];

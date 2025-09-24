@@ -644,8 +644,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = _closure1_slot11;
             var13 = var9.NONE;
             var9 = null;
-            if(!(var20 !== var13)) { _fun0002_ip = 1658; continue _fun0002 }
- 1606:
+            if(!(var20 !== var13)) { _fun0002_ip = 1666; continue _fun0002 }
+ 1614:
             var21 = _closure1_slot12;
             var20 = _closure1_slot1;
             var29 = _closure1_slot2;
@@ -658,7 +658,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var25 = var15.fpCountdownPill;
             var13['style'] = var25;
             var9 = var21.bind(var4)(var20, var13);
- 1658:
+ 1666:
             var8[3] = var9;
             var21 = _closure1_slot12;
             var20 = _closure1_slot1;
@@ -685,13 +685,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var26 = var26[var13];
             var26 = var30.bind(var4)(var26);
             var26 = var26.Colors;
-            if(var25) { _fun0002_ip = 1781; continue _fun0002 }
- 1773:
-            var25 = var26.BRAND;
-            _fun0002_ip = 1787; continue _fun0002;
+            if(var25) { _fun0002_ip = 1789; continue _fun0002 }
  1781:
+            var25 = var26.BRAND;
+            _fun0002_ip = 1795; continue _fun0002;
+ 1789:
             var25 = var26.WHITE;
- 1787:
+ 1795:
             var9['buttonColor'] = var25;
             var26 = _closure1_slot0;
             var25 = _closure1_slot2;
@@ -704,13 +704,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var26 = var26[var28];
             var26 = var27.bind(var4)(var26);
             var26 = var26.unsafe_rawColors;
-            if(var25) { _fun0002_ip = 1853; continue _fun0002 }
- 1845:
-            var25 = var26.WHITE_500;
-            _fun0002_ip = 1859; continue _fun0002;
+            if(var25) { _fun0002_ip = 1861; continue _fun0002 }
  1853:
+            var25 = var26.WHITE_500;
+            _fun0002_ip = 1867; continue _fun0002;
+ 1861:
             var25 = var26.BRAND_500;
- 1859:
+ 1867:
             var9['buttonTextColor'] = var25;
             var9['guild'] = var24;
             var9['previousGuildSubscriptionSlot'] = var23;
@@ -751,8 +751,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5[0] = var11;
             var7 = var7[var13];
             var7 = var9.bind(var4)(var7);
-            if(var6) { _fun0002_ip = 2203; continue _fun0002 }
- 2046:
+            if(var6) { _fun0002_ip = 2211; continue _fun0002 }
+ 2054:
             var6 = {};
             var11 = var15.cta;
             var9 = new Array(2);
@@ -817,8 +817,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var6['onPress'] = var9;
-            _fun0002_ip = 2372; continue _fun0002;
- 2203:
+            _fun0002_ip = 2380; continue _fun0002;
+ 2211:
             var9 = {};
             var16 = var15.cta;
             var11 = new Array(2);
@@ -906,7 +906,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var9['renderIcon'] = var10;
             var6 = var9;
- 2372:
+ 2380:
             var6 = var8.bind(var4)(var7, var6);
             var5[1] = var6;
             var1['children'] = var5;

@@ -18,40 +18,41 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     StartGenerator();
                     var2 = arg2;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=3);
-                    if(var4) { _fun0001_ip = 650; continue _fun0001 }
+                    if(var4) { _fun0001_ip = 734; continue _fun0001 }
  13:
                     var16 = arg1;
                     var14 = var2.nick;
                     var13 = var2.avatar;
                     var11 = var2.avatarDescription;
                     var12 = var2.avatarId;
-                    var17 = var2.avatarDecoration;
-                    var19 = var2.nameplate;
+                    var18 = var2.avatarDecoration;
+                    var20 = var2.nameplate;
+                    var17 = var2.displayNameStyles;
                     var6 = undefined;
                     var15 = undefined;
                     var10 = undefined;
                     var5 = undefined;
-                    SaveGenerator(address=64);
- 62:
+                    SaveGenerator(address=70);
+ 68:
                     return var6;
- 64:
+ 70:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0001_ip = 647; continue _fun0001 }
- 73:
+                    if(var4) { _fun0001_ip = 731; continue _fun0001 }
+ 79:
                     var4 = var16;
                     var9 = null;
-                    if(!(var9 != var4)) { _fun0001_ip = 611; continue _fun0001 }
- 85:
-                    var18 = _closure1_slot1;
+                    if(!(var9 != var4)) { _fun0001_ip = 695; continue _fun0001 }
+ 91:
+                    var19 = _closure1_slot1;
                     var8 = _closure1_slot2;
                     var7 = 2;
                     var8 = var8[var7];
-                    var20 = var18.bind(var6)(var8);
-                    var18 = var20.dispatch;
+                    var21 = var19.bind(var6)(var8);
+                    var19 = var21.dispatch;
                     var8 = {};
-                    var21 = 'GUILD_IDENTITY_SETTINGS_SUBMIT';
-                    var8['type'] = var21;
-                    var8 = var18.bind(var20)(var8);
+                    var22 = 'GUILD_IDENTITY_SETTINGS_SUBMIT';
+                    var8['type'] = var22;
+                    var8 = var19.bind(var21)(var8);
                     var8 = {};
                     var8['nick'] = var14;
                     var14 = var13;
@@ -59,51 +60,85 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8['avatar_description'] = var11;
                     var11 = var12;
                     var8['avatar_id'] = var11;
-                    var14 = var9 === var17;
+                    var14 = var9 === var18;
                     var11 = null;
-                    if(var14) { _fun0001_ip = 184; continue _fun0001 }
- 167:
-                    var20 = var9 == var17;
-                    var18 = undefined;
-                    if(var20) { _fun0001_ip = 181; continue _fun0001 }
- 176:
-                    var18 = var17.id;
- 181:
-                    var11 = var18;
- 184:
+                    if(var14) { _fun0001_ip = 190; continue _fun0001 }
+ 173:
+                    var21 = var9 == var18;
+                    var19 = undefined;
+                    if(var21) { _fun0001_ip = 187; continue _fun0001 }
+ 182:
+                    var19 = var18.id;
+ 187:
+                    var11 = var19;
+ 190:
                     var8['avatar_decoration_id'] = var11;
                     var11 = null;
-                    if(var14) { _fun0001_ip = 212; continue _fun0001 }
- 194:
-                    var18 = var9 == var17;
+                    if(var14) { _fun0001_ip = 218; continue _fun0001 }
+ 200:
+                    var19 = var9 == var18;
                     var14 = undefined;
-                    if(var18) { _fun0001_ip = 209; continue _fun0001 }
- 203:
-                    var14 = var17.skuId;
+                    if(var19) { _fun0001_ip = 215; continue _fun0001 }
  209:
+                    var14 = var18.skuId;
+ 215:
                     var11 = var14;
- 212:
+ 218:
                     var8['avatar_decoration_sku_id'] = var11;
                     var11 = undefined;
-                    if(!(var6 !== var19)) { _fun0001_ip = 264; continue _fun0001 }
- 223:
+                    if(!(var6 !== var20)) { _fun0001_ip = 270; continue _fun0001 }
+ 229:
                     var14 = {};
-                    var17 = null;
-                    if(!(var17 !== var19)) { _fun0001_ip = 256; continue _fun0001 }
- 231:
-                    var18 = {};
-                    var20 = var19.id;
-                    var18['id'] = var20;
-                    var19 = var19.skuId;
-                    var18['sku_id'] = var19;
-                    var17 = var18;
- 256:
-                    var14['nameplate'] = var17;
+                    var18 = null;
+                    if(!(var9 !== var20)) { _fun0001_ip = 262; continue _fun0001 }
+ 237:
+                    var19 = {};
+                    var21 = var20.id;
+                    var19['id'] = var21;
+                    var20 = var20.skuId;
+                    var19['sku_id'] = var20;
+                    var18 = var19;
+ 262:
+                    var14['nameplate'] = var18;
                     var11 = var14;
- 264:
+ 270:
                     var8['collectibles'] = var11;
+                    var14 = var6 !== var17;
+                    var11 = undefined;
+                    if(!var14) { _fun0001_ip = 299; continue _fun0001 }
+ 284:
+                    var18 = null;
+                    if(!(var9 !== var17)) { _fun0001_ip = 296; continue _fun0001 }
+ 290:
+                    var18 = var17.fontId;
+ 296:
+                    var11 = var18;
+ 299:
+                    var8['display_name_font_id'] = var11;
+                    var11 = undefined;
+                    if(!var14) { _fun0001_ip = 324; continue _fun0001 }
+ 309:
+                    var18 = null;
+                    if(!(var9 !== var17)) { _fun0001_ip = 321; continue _fun0001 }
+ 315:
+                    var18 = var17.effectId;
+ 321:
+                    var11 = var18;
+ 324:
+                    var8['display_name_effect_id'] = var11;
+                    var11 = undefined;
+                    if(!var14) { _fun0001_ip = 348; continue _fun0001 }
+ 334:
+                    var14 = null;
+                    if(!(var14 !== var17)) { _fun0001_ip = 345; continue _fun0001 }
+ 340:
+                    var14 = var17.colors;
+ 345:
+                    var11 = var14;
+ 348:
+                    var8['display_name_colors'] = var11;
                     var15 = var8;
- 272: // try_start_0
+ 356: // try_start_0
                     var11 = _closure1_slot0;
                     var14 = _closure1_slot2;
                     var8 = 3;
@@ -123,13 +158,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var15 = false;
                     var8['rejectWithError'] = var15;
                     var8 = var11.bind(var14)(var8);
-                    SaveGenerator(address=353);
- 351:
+                    SaveGenerator(address=437);
+ 435:
                     return var8;
- 353:
+ 437:
                     ResumeGenerator(result_out_reg=7, return_bool_out_reg=10);
-                    if(var11) { _fun0001_ip = 506; continue _fun0001 }
- 362:
+                    if(var11) { _fun0001_ip = 590; continue _fun0001 }
+ 446:
                     var10 = var8;
                     var17 = var8.body;
                     var14 = _closure1_slot1;
@@ -152,12 +187,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var11 = var14.bind(var15)(var11);
                     var13 = var9 == var13;
                     var11 = var13;
-                    if(!var13) { _fun0001_ip = 461; continue _fun0001 }
- 457:
+                    if(!var13) { _fun0001_ip = 545; continue _fun0001 }
+ 541:
                     var11 = var9 == var12;
- 461:
-                    if(var11) { _fun0001_ip = 503; continue _fun0001 }
- 464:
+ 545:
+                    if(var11) { _fun0001_ip = 587; continue _fun0001 }
+ 548:
                     var12 = _closure1_slot1;
                     var11 = _closure1_slot2;
                     var11 = var11[var7];
@@ -167,28 +202,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var14 = 'RECENT_AVATARS_UPDATE';
                     var11['type'] = var14;
                     var11 = var12.bind(var13)(var11);
- 503: // try_end0
+ 587: // try_end0
                     return var10;
- 506:
+ 590:
                     return var8;
- 509: // catch_target0
+ 593: // catch_target0
                     CatchBlockStart(arg_register=7);
                     var3 = var8;
                     var8 = var8.body;
                     var5 = var8;
                     var10 = var9 == var8;
                     var8 = undefined;
-                    if(var10) { _fun0001_ip = 539; continue _fun0001 }
- 531:
+                    if(var10) { _fun0001_ip = 623; continue _fun0001 }
+ 615:
                     var10 = var5;
                     var8 = var10.username;
- 539:
-                    if(!(var9 != var8)) { _fun0001_ip = 559; continue _fun0001 }
- 543:
+ 623:
+                    if(!(var9 != var8)) { _fun0001_ip = 643; continue _fun0001 }
+ 627:
                     var8 = var5.username;
                     var5['nick'] = var8;
                     var5 = delete var5.username;
- 559:
+ 643:
                     var5 = _closure1_slot1;
                     var4 = _closure1_slot2;
                     var4 = var4[var7];
@@ -201,19 +236,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4['errors'] = var7;
                     var4 = var5.bind(var6)(var4);
                     return var3;
- 611:
+ 695:
                     var3 = global;
                     var5 = var3.Error;
                     var3 = var5.prototype;
                     var4 = Object.create(var3, {constructor: {value: var5}});
-                    var22 = 'Need guildId';
-                    var23 = var4;
-                    var3 = new var23[var5](var22, var21);
+                    var23 = 'Need guildId';
+                    var24 = var4;
+                    var3 = new var24[var5](var23, var22);
                     var3 = var3 instanceof Object ? var3 : var4;
                     throw var3;
- 647:
+ 731:
                     return var2;
- 650:
+ 734:
                     return var1;
                 }
             };
@@ -468,6 +503,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['setGuildMemberPendingNameplate'] = var4;
+    var4 = function setGuildMemberPendingDisplayNameStyles(arg1) {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 2;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'GUILD_IDENTITY_SETTINGS_SET_PENDING_DISPLAY_NAME_STYLES';
+        var2['type'] = var5;
+        var5 = arg1;
+        var2['displayNameStyles'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var3['setGuildMemberPendingDisplayNameStyles'] = var4;
     var4 = function resetPendingMemberChanges() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;

@@ -31,42 +31,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
             var1 = arg1;
             var5 = var1.guildId;
-            var2 = _closure1_slot1;
-            var8 = _closure1_slot2;
+            var2 = _closure1_slot0;
+            var3 = _closure1_slot2;
             var1 = 2;
-            var1 = var8[var1];
+            var1 = var3[var1];
             var4 = undefined;
-            var9 = var2.bind(var4)(var1);
-            var7 = var9.useExperiment;
-            var3 = {};
-            var3['guildId'] = var5;
-            var1 = 'GuildSettingsModal';
-            var3['location'] = var1;
-            var1 = {};
-            var10 = true;
-            var1['autoTrackExposure'] = var10;
-            var1 = var7.bind(var9)(var3, var1);
-            var7 = var1.enabled;
-            var3 = _closure1_slot0;
-            var1 = 3;
-            var1 = var8[var1];
-            var3 = var3.bind(var4)(var1);
-            var1 = var3.useCanReviewGuildMemberApplications;
-            var1 = var1.bind(var3)(var5);
+            var2 = var2.bind(var4)(var1);
+            var1 = var2.useCanReviewGuildMemberApplications;
+            var1 = var1.bind(var2)(var5);
             var3 = _closure1_slot3;
-            if(!var7) { _fun0001_ip = 112; continue _fun0001 }
- 109:
-            if(var1) { _fun0001_ip = 125; continue _fun0001 }
- 112:
+            var2 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var1 = 5;
+            if(var1) { _fun0001_ip = 68; continue _fun0001 }
+ 59:
+            var1 = 4;
             var1 = var7[var1];
-            _fun0001_ip = 136; continue _fun0001;
- 125:
-            var7 = _closure1_slot2;
-            var6 = 4;
+            _fun0001_ip = 75; continue _fun0001;
+ 68:
+            var6 = 3;
             var1 = var7[var6];
- 136:
+ 75:
             var2 = var2.bind(var4)(var1);
             var1 = {};
             var1['guildId'] = var5;
@@ -75,7 +59,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 6;
+    var4 = 5;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

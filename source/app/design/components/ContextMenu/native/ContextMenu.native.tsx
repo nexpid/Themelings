@@ -29,7 +29,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var4.jsx;
     var _closure1_slot5 = var4;
     var4 = {};
-    var7 = "function ContextMenuNativeTsx1(){const{measure,buttonRef,title,itemCount,dividerIndexes,approximateItemHeight,CONTEXT_MENU_DIVIDER_HEIGHT,CONTEXT_MENU_OFFSET,screenHeight,CONTEXT_MENU_EDGE_OFFSET,screenWidth,CONTEXT_MENU_MIN_WIDTH,menuAlign,runOnJS,showMenu}=this.__closure;const measurements=measure(buttonRef);if(measurements!=null){const{pageX:pageX,pageY:pageY,height:height,width:width}=measurements;const rowCount=title!=null?itemCount+1:itemCount;const dividerCount=(title!=null?1:0)+dividerIndexes.length;const menuHeight=approximateItemHeight.get()*rowCount+CONTEXT_MENU_DIVIDER_HEIGHT*dividerCount;const positionBelowOffset=pageY+height+CONTEXT_MENU_OFFSET;const positionAboveOffset=screenHeight-pageY+CONTEXT_MENU_OFFSET;const availableSpaceBelow=screenHeight-positionBelowOffset-CONTEXT_MENU_EDGE_OFFSET;const availableSpaceAbove=pageY-CONTEXT_MENU_EDGE_OFFSET;const wouldOverflowBelow=availableSpaceBelow<menuHeight;const wouldOverflowAbove=availableSpaceAbove<menuHeight;const minimumRightPosition=Math.max(screenWidth-pageX-width,CONTEXT_MENU_EDGE_OFFSET);function autoPositionVertical(offset){let positionY='below';let y=pageY+height+CONTEXT_MENU_OFFSET;if(wouldOverflowBelow&&wouldOverflowAbove){if(availableSpaceBelow>availableSpaceAbove){positionY='below';}else{positionY='above';}}else if(wouldOverflowBelow){positionY='above';}else{positionY='below';}y=(positionY==='above'?positionAboveOffset:positionBelowOffset)+(offset!==null&&offset!==void 0?offset:0);return{y:y,positionY:positionY};}function autoPositionHorizontal(){const distanceFromLeftEdge=pageX-CONTEXT_MENU_EDGE_OFFSET;const distanceFromRightEdge=screenWidth-CONTEXT_MENU_EDGE_OFFSET-(pageX+CONTEXT_MENU_MIN_WIDTH);let positionX='left';let x=pageX;if(distanceFromLeftEdge>distanceFromRightEdge){positionX='right';x=minimumRightPosition;}return{x:x,positionX:positionX};}if(menuAlign==='auto'){const{y:y,positionY:positionY}=autoPositionVertical();const{x:x,positionX:positionX}=autoPositionHorizontal();runOnJS(showMenu)(x,y,positionX,positionY,menuHeight,width);return;}else if(menuAlign==='above'||menuAlign==='below'){const positionY=menuAlign;const y=positionY==='above'?positionAboveOffset:positionBelowOffset;const{x:x,positionX:positionX}=autoPositionHorizontal();runOnJS(showMenu)(x,y,positionX,positionY,menuHeight,width);return;}else{const positionX=menuAlign==='left'?'right':'left';const x=positionX==='left'?pageX+width+CONTEXT_MENU_OFFSET:minimumRightPosition+width+CONTEXT_MENU_OFFSET;const{y:y,positionY:positionY}=autoPositionVertical(-1*(CONTEXT_MENU_OFFSET+height));runOnJS(showMenu)(x,y,positionX,positionY,menuHeight,width);return;}}}";
+    var7 = "function ContextMenuNativeTsx1(){const{measure,buttonRef,title,itemCount,dividerIndexes,approximateItemHeight,CONTEXT_MENU_DIVIDER_HEIGHT,CONTEXT_MENU_OFFSET,screenHeight,CONTEXT_MENU_EDGE_OFFSET,screenWidth,CONTEXT_MENU_MIN_WIDTH,menuAlign,runOnJS,showMenu}=this.__closure;const measurements=measure(buttonRef);if(measurements!=null){const{pageX:pageX,pageY:pageY,height:height,width:width}=measurements;const rowCount=title!=null?itemCount+1:itemCount;const dividerCount=(title!=null?1:0)+dividerIndexes.length;const menuHeight=approximateItemHeight.get()*rowCount+CONTEXT_MENU_DIVIDER_HEIGHT*dividerCount;const positionBelowOffset=pageY+height+CONTEXT_MENU_OFFSET;const positionAboveOffset=screenHeight-pageY+CONTEXT_MENU_OFFSET;const availableSpaceBelow=screenHeight-positionBelowOffset-CONTEXT_MENU_EDGE_OFFSET;const availableSpaceAbove=pageY-CONTEXT_MENU_EDGE_OFFSET;const wouldOverflowBelow=availableSpaceBelow<menuHeight;const wouldOverflowAbove=availableSpaceAbove<menuHeight;const minimumRightPosition=Math.max(screenWidth-pageX-width,CONTEXT_MENU_EDGE_OFFSET);function autoPositionVertical(offset){let positionY='below';let y=pageY+height+CONTEXT_MENU_OFFSET;if(wouldOverflowBelow===wouldOverflowAbove){if(availableSpaceBelow>availableSpaceAbove){positionY='below';}else{positionY='above';}}else if(wouldOverflowBelow){positionY='above';}else{positionY='below';}y=(positionY==='above'?positionAboveOffset:positionBelowOffset)+(offset!==null&&offset!==void 0?offset:0);return{y:y,positionY:positionY};}function autoPositionHorizontal(){const distanceFromLeftEdge=pageX-CONTEXT_MENU_EDGE_OFFSET;const distanceFromRightEdge=screenWidth-CONTEXT_MENU_EDGE_OFFSET-(pageX+CONTEXT_MENU_MIN_WIDTH);let positionX='left';let x=pageX;if(distanceFromLeftEdge>distanceFromRightEdge){positionX='right';x=minimumRightPosition;}return{x:x,positionX:positionX};}if(menuAlign==='auto'){const{y:y,positionY:positionY}=autoPositionVertical();const{x:x,positionX:positionX}=autoPositionHorizontal();runOnJS(showMenu)(x,y,positionX,positionY,menuHeight,width);return;}else if(menuAlign==='above'||menuAlign==='below'){const positionY=menuAlign;const y=positionY==='above'?positionAboveOffset:positionBelowOffset;const{x:x,positionX:positionX}=autoPositionHorizontal();runOnJS(showMenu)(x,y,positionX,positionY,menuHeight,width);return;}else{const positionX=menuAlign==='left'?'right':'left';const x=positionX==='left'?pageX+width+CONTEXT_MENU_OFFSET:minimumRightPosition+width+CONTEXT_MENU_OFFSET;const{y:y,positionY:positionY}=autoPositionVertical(-1*(CONTEXT_MENU_OFFSET+height));runOnJS(showMenu)(x,y,positionX,positionY,menuHeight,width);return;}}}";
     var4['code'] = var7;
     var _closure1_slot6 = var4;
     var4 = {};
@@ -485,46 +485,45 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var1 = var3.bind(var1)(var2);
                             var1 = var1.CONTEXT_MENU_OFFSET;
                             var1 = {};
-                            var2 = _closure3_slot6;
-                            if(!var2) { _fun0008_ip = 58; continue _fun0008 }
- 46:
-                            var4 = _closure3_slot5;
+                            var4 = _closure3_slot6;
+                            var6 = _closure3_slot5;
                             var2 = _closure3_slot1;
-                            if(!(!(var4 < var2))) { _fun0008_ip = 79; continue _fun0008 }
- 58:
+                            var2 = var6 < var2;
+                            if(!(var4 !== var2)) { _fun0008_ip = 80; continue _fun0008 }
+ 59:
                             var4 = _closure3_slot6;
                             var2 = 'below';
-                            if(!var4) { _fun0008_ip = 77; continue _fun0008 }
- 71:
+                            if(!var4) { _fun0008_ip = 78; continue _fun0008 }
+ 72:
                             var2 = 'above';
- 77:
-                            _fun0008_ip = 109; continue _fun0008;
- 79:
+ 78:
+                            _fun0008_ip = 110; continue _fun0008;
+ 80:
                             var6 = _closure3_slot4;
                             var4 = _closure3_slot5;
                             var6 = var6 > var4;
                             var4 = 'above';
-                            if(!var6) { _fun0008_ip = 106; continue _fun0008 }
- 100:
+                            if(!var6) { _fun0008_ip = 107; continue _fun0008 }
+ 101:
                             var4 = 'below';
- 106:
+ 107:
                             var2 = var4;
- 109:
+ 110:
                             var4 = 'above';
-                            if(!(var4 !== var2)) { _fun0008_ip = 125; continue _fun0008 }
- 119:
+                            if(!(var4 !== var2)) { _fun0008_ip = 126; continue _fun0008 }
+ 120:
                             var4 = _closure3_slot2;
-                            _fun0008_ip = 129; continue _fun0008;
- 125:
+                            _fun0008_ip = 130; continue _fun0008;
+ 126:
                             var4 = _closure3_slot3;
- 129:
+ 130:
                             var3 = null;
                             var6 = var3 != var5;
                             var3 = 0;
-                            if(!var6) { _fun0008_ip = 143; continue _fun0008 }
- 140:
+                            if(!var6) { _fun0008_ip = 144; continue _fun0008 }
+ 141:
                             var3 = var5;
- 143:
+ 144:
                             var3 = var4 + var3;
                             var1['y'] = var3;
                             var1['positionY'] = var2;
@@ -797,7 +796,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8['runOnJS'] = var25;
             var8['showMenu'] = var19;
             var9['__closure'] = var8;
-            var8 = 3821185714246.0;
+            var8 = 2477764733179.0;
             var9['__workletHash'] = var8;
             var8 = _closure1_slot6;
             var9['__initData'] = var8;

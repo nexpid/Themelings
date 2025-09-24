@@ -53,6 +53,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var4.NativeModules;
     var _closure1_slot1 = var4;
     var4 = 2;
+    var7 = var6[var4];
+    var4 = metroImportAll;
+    var7 = var4.bind(var1)(var7);
+    var4 = var7.registerTimerPolyfills;
+    var4 = var4.bind(var7)();
+    var4 = 3;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

@@ -372,7 +372,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = arg1;
                     var5 = this;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=5);
-                    if(var6) { _fun0006_ip = 916; continue _fun0006 }
+                    if(var6) { _fun0006_ip = 822; continue _fun0006 }
  18:
                     var _closure4_slot0 = var5;
                     var7 = var3;
@@ -554,8 +554,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = new var25[var11](var24, var23);
                     var2 = var8 instanceof Object ? var8 : var10;
  192: // try_start_0
-                    var8 = var7;
-                    var5['files'] = var8;
+                    var5['files'] = var7;
                     var24 = _closure2_slot2;
                     var11 = function _superPropGet(arg1, arg2, arg3, arg4) {
                         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
@@ -604,35 +603,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var21 = 3;
                     var25 = undefined;
                     var22 = var5;
-                    var11 = var25[var11](var24, var23, var22, var21, var20);
-                    var10 = _closure1_slot0;
-                    var17 = _closure1_slot2;
-                    var7 = 12;
-                    var18 = var17[var7];
-                    var18 = var10.bind(var9)(var18);
-                    var19 = var18.intl;
-                    var18 = var19.formatToPlainString;
-                    var7 = var17[var7];
-                    var7 = var10.bind(var9)(var7);
-                    var7 = var7.t;
-                    var17 = var7.Iaj5LS;
-                    var10 = {};
-                    var7 = var8.length;
-                    var10['count'] = var7;
-                    var7 = 0;
-                    var20 = var8[var7];
-                    var20 = var20.filename;
-                    var10['filename'] = var20;
-                    var17 = var18.bind(var19)(var17, var10);
-                    var10 = new Array(2);
-                    var10[0] = var17;
-                    var10[1] = var8;
-                    var10 = var11.bind(var9)(var10);
-                    var10 = var5._file;
-                    var8 = var8.length;
-                    var10['attachmentsCount'] = var8;
-                    var8 = var5._handleStart;
-                    var8 = var8.bind(var5)(var9);
+                    var10 = var25[var11](var24, var23, var22, var21, var20);
+                    var8 = new Array(1);
+                    var8[0] = var7;
+                    var8 = var10.bind(var9)(var8);
+                    var8 = var5._file;
+                    var7 = var7.length;
+                    var8['attachmentsCount'] = var7;
+                    var7 = var5._handleStart;
+                    var7 = var7.bind(var5)(var9);
                     var13 = 0;
                     var8 = _closure1_slot16;
                     var7 = var5.files;
@@ -643,8 +622,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = var7.done;
                     var11 = 14;
                     var10 = 13;
-                    if(var7) { _fun0006_ip = 763; continue _fun0006 }
- 405:
+                    if(var7) { _fun0006_ip = 669; continue _fun0006 }
+ 311:
                     var7 = var12;
                     var7 = var7.value;
                     var15 = var7;
@@ -656,13 +635,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = var7.item;
                     var7 = var7.uri;
                     var7 = var8.bind(var17)(var7);
-                    SaveGenerator(address=458);
- 456:
+                    SaveGenerator(address=364);
+ 362:
                     return var7;
- 458:
+ 364:
                     ResumeGenerator(result_out_reg=6, return_bool_out_reg=7);
-                    if(var8) { _fun0006_ip = 760; continue _fun0006 }
- 467:
+                    if(var8) { _fun0006_ip = 666; continue _fun0006 }
+ 373:
                     var17 = var5.preCompressionFileSizes;
                     var8 = var17.push;
                     var8 = var8.bind(var17)(var7);
@@ -691,22 +670,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var17 = var17.bind(var20)(var8);
                     var8 = _closure1_slot12;
                     var8 = var18.bind(var19)(var17, var8);
-                    if(!(!(var7 > var8))) { _fun0006_ip = 706; continue _fun0006 }
- 609:
+                    if(!(!(var7 > var8))) { _fun0006_ip = 612; continue _fun0006 }
+ 515:
                     var17 = var13;
                     var18 = var16;
                     var8 = var18.getMaxTotalAttachmentSize;
                     var8 = var8.bind(var18)();
-                    if(!(!(var17 > var8))) { _fun0006_ip = 652; continue _fun0006 }
- 629:
+                    if(!(!(var17 > var8))) { _fun0006_ip = 558; continue _fun0006 }
+ 535:
                     var8 = var14;
                     var8 = var8.bind(var9)();
                     var12 = var8;
                     var8 = var8.done;
-                    if(var8) { _fun0006_ip = 763; continue _fun0006 }
- 647:
-                    _fun0006_ip = 405; continue _fun0006;
- 652:
+                    if(var8) { _fun0006_ip = 669; continue _fun0006 }
+ 553:
+                    _fun0006_ip = 311; continue _fun0006;
+ 558:
                     var10 = var5._handleError;
                     var8 = {};
                     var11 = _closure1_slot10;
@@ -719,9 +698,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8['reason'] = var11;
                     var8 = var10.bind(var5)(var8);
                     var8 = var2;
- 703: // try_end0
+ 609: // try_end0
                     return var8;
- 706: // try_start_1
+ 612: // try_start_1
                     var10 = var5._handleError;
                     var8 = {};
                     var11 = _closure1_slot10;
@@ -734,11 +713,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8['reason'] = var11;
                     var8 = var10.bind(var5)(var8);
                     var8 = var2;
- 757: // try_end1
+ 663: // try_end1
                     return var8;
- 760:
+ 666:
                     return var7;
- 763: // try_start_2
+ 669: // try_start_2
                     var10 = _closure1_slot14;
                     var8 = var10.log;
                     var13 = var5.id;
@@ -762,9 +741,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     };
                     var4 = var7.bind(var8)(var4);
                     var4 = var2;
- 849: // try_end2
+ 755: // try_end2
                     return var4;
- 852: // catch_target0 // catch_target1 // catch_target2
+ 758: // catch_target0 // catch_target1 // catch_target2
                     CatchBlockStart(arg_register=3);
                     var7 = _closure1_slot14;
                     var6 = var7.log;
@@ -778,7 +757,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var5._handleException;
                     var3 = var3.bind(var5)(var4);
                     return var2;
- 916:
+ 822:
                     return var1;
                 }
             };
@@ -809,12 +788,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     StartGenerator();
                     var4 = this;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0010_ip = 595; continue _fun0010 }
+                    if(var2) { _fun0010_ip = 529; continue _fun0010 }
  15:
                     var2 = undefined;
                     var8 = undefined;
                     var3 = var4._aborted;
-                    if(var3) { _fun0010_ip = 582; continue _fun0010 }
+                    if(var3) { _fun0010_ip = 516; continue _fun0010 }
  31:
                     var5 = var4._handleStart;
                     var3 = _closure1_slot11;
@@ -840,7 +819,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var3;
  116:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(var5) { _fun0010_ip = 564; continue _fun0010 }
+                    if(var5) { _fun0010_ip = 498; continue _fun0010 }
  125:
                     if(var3) { _fun0010_ip = 131; continue _fun0010 }
  128: // try_end0
@@ -864,12 +843,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var5;
  200:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=8);
-                    if(var9) { _fun0010_ip = 561; continue _fun0010 }
+                    if(var9) { _fun0010_ip = 495; continue _fun0010 }
  209:
                     var9 = var4.files;
                     var10 = var9.length;
                     var9 = 0;
-                    if(!(var9 !== var10)) { _fun0010_ip = 502; continue _fun0010 }
+                    if(!(var9 !== var10)) { _fun0010_ip = 436; continue _fun0010 }
  229:
                     var11 = var4.files;
                     var10 = var11.every;
@@ -894,9 +873,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var11 = var9.Error;
                     var9 = var11.prototype;
                     var10 = Object.create(var9, {constructor: {value: var11}});
-                    var15 = 'Not all attachments were uploaded successfully';
-                    var16 = var10;
-                    var9 = new var16[var11](var15, var14);
+                    var14 = 'Not all attachments were uploaded successfully';
+                    var15 = var10;
+                    var9 = new var15[var11](var14, var13);
                     var9 = var9 instanceof Object ? var9 : var10;
                     throw var9;
  290:
@@ -919,23 +898,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = var8.bind(var9)(var7);
  329:
                     var7 = {};
-                    var14 = var4._file;
-                    var15 = var7;
-                    var8 = copyDataProperties(var15, var14);
-                    var11 = _closure1_slot0;
-                    var12 = _closure1_slot2;
-                    var8 = 12;
-                    var9 = var12[var8];
-                    var9 = var11.bind(var2)(var9);
-                    var10 = var9.intl;
-                    var9 = var10.string;
-                    var8 = var12[var8];
-                    var8 = var11.bind(var2)(var8);
-                    var8 = var8.t;
-                    var8 = var8.Dmx3f3;
-                    var9 = var9.bind(var10)(var8);
-                    var8 = 'name';
-                    var7[var8] = var9;
+                    var13 = var4._file;
+                    var14 = var7;
+                    var8 = copyDataProperties(var14, var13);
                     var8 = 100;
                     var9 = 'progress';
                     var7[var9] = var8;
@@ -954,9 +919,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = var8.bind(var9)(var7);
                     var7 = var4._handleComplete;
                     var7 = var7.bind(var4)();
- 500: // try_end1
-                    _fun0010_ip = 592; continue _fun0010;
- 502: // try_start_2
+ 434: // try_end1
+                    _fun0010_ip = 526; continue _fun0010;
+ 436: // try_start_2
                     var8 = _closure1_slot14;
                     var7 = var8.log;
                     var10 = var4.id;
@@ -968,24 +933,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = var7.bind(var8)(var6);
                     var6 = var4._handleComplete;
                     var6 = var6.bind(var4)();
- 556: // try_end2
+ 490: // try_end2
                     var6 = undefined;
                     return var6;
- 561:
+ 495:
                     return var5;
- 564:
+ 498:
                     return var3;
- 567: // catch_target0 // catch_target1 // catch_target2
+ 501: // catch_target0 // catch_target1 // catch_target2
                     CatchBlockStart(arg_register=4);
                     var3 = var4._handleException;
                     var3 = var3.bind(var4)(var5);
-                    _fun0010_ip = 592; continue _fun0010;
- 582:
+                    _fun0010_ip = 526; continue _fun0010;
+ 516:
                     var3 = var4._handleAborted;
                     var3 = var3.bind(var4)();
- 592:
+ 526:
                     return var2;
- 595:
+ 529:
                     return var1;
                 }
             };
@@ -1087,7 +1052,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var2.uploadItems;
                     var2 = var3.has;
                     var2 = var2.bind(var3)(var6);
-                    if(!var2) { _fun0013_ip = 368; continue _fun0013 }
+                    if(!var2) { _fun0013_ip = 282; continue _fun0013 }
  43:
                     var2 = _closure3_slot0;
                     var5 = var2.uploadItems;
@@ -1103,47 +1068,33 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var6.meanBy;
                     var5 = var2.uploadItems;
                     var2 = var5.values;
-                    var14 = var2.bind(var5)();
+                    var10 = var2.bind(var5)();
                     var2 = new Array(0);
-                    var13 = 0;
-                    var15 = var2;
-                    var5 = arraySpread(var15, var14, var13);
+                    var9 = 0;
+                    var11 = var2;
+                    var5 = arraySpread(var11, var10, var9);
                     var5 = 'compressionProgress';
                     var7 = var4.bind(var6)(var2, var5);
                     var4 = 100;
-                    if(!(!(var7 >= var4))) { _fun0013_ip = 243; continue _fun0013 }
+                    if(!(!(var7 >= var4))) { _fun0013_ip = 177; continue _fun0013 }
  145:
                     var6 = _closure3_slot0;
                     var2 = {};
-                    var14 = var6._file;
-                    var15 = var2;
-                    var9 = copyDataProperties(var15, var14);
-                    var11 = _closure1_slot0;
-                    var12 = _closure1_slot2;
-                    var8 = 12;
-                    var9 = var12[var8];
-                    var9 = var11.bind(var3)(var9);
-                    var10 = var9.intl;
-                    var9 = var10.string;
-                    var8 = var12[var8];
-                    var8 = var11.bind(var3)(var8);
-                    var8 = var8.t;
-                    var8 = var8.7lc4V1;
-                    var9 = var9.bind(var10)(var8);
-                    var8 = 'name';
-                    var2[var8] = var9;
+                    var10 = var6._file;
+                    var11 = var2;
+                    var8 = copyDataProperties(var11, var10);
                     var2[var5] = var7;
                     var6['_file'] = var2;
-                    _fun0013_ip = 340; continue _fun0013;
- 243:
+                    _fun0013_ip = 254; continue _fun0013;
+ 177:
                     var2 = _closure3_slot1;
                     var2 = var2.bind(var3)();
                     var2 = _closure3_slot0;
                     var2 = var2._file;
                     var6 = var2.items;
                     var2 = null;
-                    if(!(var2 != var6)) { _fun0013_ip = 290; continue _fun0013 }
- 273:
+                    if(!(var2 != var6)) { _fun0013_ip = 224; continue _fun0013 }
+ 207:
                     var3 = var6.forEach;
                     var2 = function(arg1) {
                         var1 = arg1;
@@ -1154,25 +1105,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     };
                     var2 = var3.bind(var6)(var2);
- 290:
+ 224:
                     var3 = _closure3_slot0;
                     var2 = {};
-                    var14 = var3._file;
-                    var15 = var2;
-                    var6 = copyDataProperties(var15, var14);
-                    var6 = var3._file;
-                    var7 = var6.name;
-                    var6 = 'name';
-                    var2[var6] = var7;
+                    var10 = var3._file;
+                    var11 = var2;
+                    var6 = copyDataProperties(var11, var10);
                     var2[var5] = var4;
                     var3['_file'] = var2;
- 340:
+ 254:
                     var4 = _closure3_slot0;
                     var3 = var4.emit;
                     var2 = var4._file;
                     var1 = 'compression-progress';
                     var1 = var3.bind(var4)(var1, var2);
- 368:
+ 282:
                     var1 = undefined;
                     return var1;
                 }

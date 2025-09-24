@@ -1190,36 +1190,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = _closure1_slot2;
             var2 = var2[var7];
             var2 = var4.bind(var5)(var2);
-            var8 = var2.Storage;
-            var4 = var8.get;
-            var2 = 'hideConnectPlayStation';
-            var2 = var4.bind(var8)(var2);
-            if(!var2) { _fun0011_ip = 275; continue _fun0011 }
- 233:
-            var8 = _closure1_slot6;
-            var9 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var4 = 10;
-            var4 = var10[var4];
-            var4 = var9.bind(var5)(var4);
-            var4 = var4.DismissibleContent;
-            var4 = var4.NAGBAR_NOTICE_CONNECT_PLAYSTATION;
-            var2 = var8.bind(var5)(var6, var4);
- 275:
-            if(!var2) { _fun0011_ip = 280; continue _fun0011 }
- 278:
-            var1 = true;
- 280:
-            var4 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var2 = var2[var7];
-            var2 = var4.bind(var5)(var2);
             var7 = var2.Storage;
             var4 = var7.get;
-            var2 = 'hideMFASMSNotice';
+            var2 = 'hideConnectPlayStation';
             var2 = var4.bind(var7)(var2);
-            if(!var2) { _fun0011_ip = 364; continue _fun0011 }
- 322:
+            if(!var2) { _fun0011_ip = 275; continue _fun0011 }
+ 233:
             var4 = _closure1_slot6;
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -1227,13 +1203,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var8[var3];
             var3 = var7.bind(var5)(var3);
             var3 = var3.DismissibleContent;
-            var3 = var3.NAGBAR_NOTICE_MFA_SMS_BACKUP;
+            var3 = var3.NAGBAR_NOTICE_CONNECT_PLAYSTATION;
             var2 = var4.bind(var5)(var6, var3);
- 364:
-            if(!var2) { _fun0011_ip = 369; continue _fun0011 }
- 367:
+ 275:
+            if(!var2) { _fun0011_ip = 280; continue _fun0011 }
+ 278:
             var1 = true;
- 369:
+ 280:
             return var1;
         }
     };
@@ -1255,17 +1231,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var7.remove;
         var5 = 'hideConnectSpotify';
         var5 = var6.bind(var7)(var5);
-        var5 = var4[var2];
-        var5 = var3.bind(var1)(var5);
-        var7 = var5.Storage;
-        var6 = var7.remove;
-        var5 = 'hideConnectPlayStation';
-        var5 = var6.bind(var7)(var5);
         var2 = var4[var2];
         var2 = var3.bind(var1)(var2);
         var4 = var2.Storage;
         var3 = var4.remove;
-        var2 = 'hideMFASMSNotice';
+        var2 = 'hideConnectPlayStation';
         var2 = var3.bind(var4)(var2);
         return var1;
     };

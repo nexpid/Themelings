@@ -35,7 +35,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
     var _closure1_slot6 = var4;
-    var4 = 11;
+    var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -94,22 +94,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = null;
                     var2 = var1 != var3;
  30:
-                    if(!var2) { _fun0002_ip = 79; continue _fun0002 }
- 33:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
                     var1 = 5;
-                    var3 = var3[var1];
-                    var1 = undefined;
-                    var4 = var4.bind(var1)(var3);
-                    var3 = var4.isAnimatedAvatarDecoration;
-                    var1 = _closure2_slot1;
-                    var1 = var1.asset;
-                    var2 = var3.bind(var4)(var1);
- 79:
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var1 = 6;
                     var3 = var3[var1];
                     var1 = undefined;
                     var6 = var4.bind(var1)(var3);
@@ -159,7 +146,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  205:
             var6 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var5 = 7;
+            var5 = 6;
             var5 = var9[var5];
             var6 = var6.bind(var7)(var5);
             var5 = var6.isAndroid;
@@ -173,7 +160,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = _closure1_slot6;
             var5 = _closure1_slot1;
             var9 = _closure1_slot2;
-            var2 = 10;
+            var2 = 9;
             var2 = var9[var2];
             var5 = var5.bind(var7)(var2);
             var2 = {};
@@ -185,14 +172,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = _closure1_slot6;
             var14 = _closure1_slot1;
             var16 = _closure1_slot2;
-            var5 = 8;
+            var5 = 7;
             var5 = var16[var5];
             var6 = var14.bind(var7)(var5);
             var5 = {};
             var5['style'] = var13;
             var12 = var8.nativeCutouts;
             var5['cutouts'] = var12;
-            var12 = 10;
+            var12 = 9;
             var12 = var16[var12];
             var14 = var14.bind(var7)(var12);
             var12 = {};
@@ -214,7 +201,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['pointerEvents'] = var9;
             var12 = _closure1_slot1;
             var14 = _closure1_slot2;
-            var9 = 9;
+            var9 = 8;
             var9 = var14[var9];
             var12 = var12.bind(var7)(var9);
             var9 = {};
@@ -228,14 +215,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = _closure1_slot6;
             var9 = _closure1_slot1;
             var12 = _closure1_slot2;
-            var4 = 8;
+            var4 = 7;
             var4 = var12[var4];
             var5 = var9.bind(var7)(var4);
             var4 = {};
             var4['style'] = var13;
             var8 = var8.nativeCutouts;
             var4['cutouts'] = var8;
-            var8 = 9;
+            var8 = 8;
             var8 = var12[var8];
             var9 = var9.bind(var7)(var8);
             var8 = {};

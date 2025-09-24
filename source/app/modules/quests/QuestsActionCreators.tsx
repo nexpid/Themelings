@@ -2492,14 +2492,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     StartGenerator();
                     var5 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0019_ip = 350; continue _fun0019 }
+                    if(var2) { _fun0019_ip = 348; continue _fun0019 }
  13:
                     var6 = var5;
                     var3 = _closure1_slot4;
                     var2 = var3.isFetchingQuestPreview;
                     var2 = var2.bind(var3)(var5);
-                    if(var2) { _fun0019_ip = 345; continue _fun0019 }
- 42:
+                    if(var2) { _fun0019_ip = 343; continue _fun0019 }
+ 40:
                     var5 = _closure1_slot1;
                     var2 = _closure1_slot2;
                     var3 = 6;
@@ -2513,7 +2513,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = var6;
                     var2['questId'] = var8;
                     var2 = var5.bind(var7)(var2);
- 94: // try_start_0
+ 92: // try_start_0
                     var5 = _closure1_slot0;
                     var7 = _closure1_slot2;
                     var2 = 5;
@@ -2530,13 +2530,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = false;
                     var2['rejectWithError'] = var8;
                     var2 = var5.bind(var7)(var2);
-                    SaveGenerator(address=163);
- 161:
+                    SaveGenerator(address=161);
+ 159:
                     return var2;
- 163:
+ 161:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0019_ip = 255; continue _fun0019 }
- 169:
+                    if(var5) { _fun0019_ip = 253; continue _fun0019 }
+ 167:
                     var7 = _closure1_slot1;
                     var12 = _closure1_slot2;
                     var5 = var12[var3];
@@ -2556,11 +2556,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var10 = var11.bind(var12)(var10);
                     var5['quest'] = var10;
                     var5 = var7.bind(var8)(var5);
- 253: // try_end0
-                    _fun0019_ip = 345; continue _fun0019;
- 255:
+ 251: // try_end0
+                    _fun0019_ip = 343; continue _fun0019;
+ 253:
                     return var2;
- 258: // catch_target0
+ 256: // catch_target0
                     CatchBlockStart(arg_register=1);
                     var8 = _closure1_slot1;
                     var10 = _closure1_slot2;
@@ -2583,10 +2583,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3['questId'] = var6;
                     var3 = var4.bind(var5)(var3);
                     throw var2;
- 345:
+ 343:
                     var2 = undefined;
                     return var2;
- 350:
+ 348:
                     return var1;
                 }
             };

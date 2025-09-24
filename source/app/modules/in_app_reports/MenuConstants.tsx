@@ -18,7 +18,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.fileFinishedImporting;
     var2 = 'modules/in_app_reports/MenuConstants.tsx';
     var2 = var4.bind(var5)(var2);
-    var2 = ['ignore_users', 'block_users', 'leave_guild', 'delete_message', 'deauthorize_app'];
+    var2 = ['ignore_users', 'block_users', 'leave_guild', 'delete_message', 'deauthorize_app', 'share_with_parents'];
     var3['REMEDIATION_ELEMENT_TYPES'] = var2;
     return var1;
 })();

@@ -168,7 +168,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         StartGenerator();
                         var6 = arg3;
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0001_ip = 231; continue _fun0001 }
+                        if(var2) { _fun0001_ip = 233; continue _fun0001 }
  13:
                         var5 = _closure1_slot7;
                         var4 = var5.supports;
@@ -214,7 +214,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  165:
                         var4 = _closure2_slot8;
                         var4 = var4.bind(var5)(var3);
-                        _fun0001_ip = 226; continue _fun0001;
+                        _fun0001_ip = 228; continue _fun0001;
  179:
                         return var3;
  182:
@@ -222,7 +222,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var3 = var4.getRTCConnection;
                         var5 = var3.bind(var4)();
                         var3 = null;
-                        if(!(var3 != var5)) { _fun0001_ip = 226; continue _fun0001 }
+                        if(!(var3 != var5)) { _fun0001_ip = 228; continue _fun0001 }
  202:
                         var4 = var5.getMLSPairwiseFingerprint;
                         var3 = _closure1_slot9;
@@ -241,10 +241,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             return var1;
                         };
                         var2 = var4.bind(var5)(var3, var6, var2);
- 226:
+ 228:
                         var2 = undefined;
                         return var2;
- 231:
+ 233:
                         return var1;
                     }
                 };
@@ -296,7 +296,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var4.current;
                 var3 = var5 == var4;
  42:
-                if(!var3) { _fun0002_ip = 89; continue _fun0002 }
+                if(!var3) { _fun0002_ip = 91; continue _fun0002 }
  45:
                 var4 = _closure2_slot5;
                 var7 = undefined;
@@ -318,7 +318,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = 0;
                 var3 = var6.bind(var7)(var5, var3);
                 var4['current'] = var3;
- 89:
+ 91:
                 var2 = _closure2_slot10;
                 var2 = var2.current;
                 var _closure3_slot0 = var2;

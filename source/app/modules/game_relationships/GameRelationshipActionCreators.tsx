@@ -85,7 +85,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     StartGenerator();
                     var2 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(var3) { _fun0002_ip = 151; continue _fun0002 }
+                    if(var3) { _fun0002_ip = 155; continue _fun0002 }
  13:
                     var9 = var2.userId;
                     var8 = var2.applicationId;
@@ -96,7 +96,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var3;
  35:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0002_ip = 148; continue _fun0002 }
+                    if(var4) { _fun0002_ip = 152; continue _fun0002 }
  41: // try_start_0
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot2;
@@ -111,27 +111,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = var10.bind(var11)(var9, var8);
                     var4['url'] = var8;
                     var4 = var6.bind(var7)(var4);
-                    SaveGenerator(address=116);
- 114:
+                    SaveGenerator(address=120);
+ 118:
                     return var4;
- 116:
+ 120:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=5);
-                    if(var6) { _fun0002_ip = 128; continue _fun0002 }
- 122:
+                    if(var6) { _fun0002_ip = 132; continue _fun0002 }
+ 126:
                     var5 = var5.bind(var3)();
- 126: // try_end0
-                    _fun0002_ip = 145; continue _fun0002;
- 128:
+ 130: // try_end0
+                    _fun0002_ip = 149; continue _fun0002;
+ 132:
                     return var4;
- 131: // catch_target0
+ 135: // catch_target0
                     CatchBlockStart(arg_register=4);
                     var4 = _closure1_slot6;
                     var4 = var4.bind(var3)(var5);
- 145:
+ 149:
                     return var3;
- 148:
+ 152:
                     return var2;
- 151:
+ 155:
                     return var1;
                 }
             };

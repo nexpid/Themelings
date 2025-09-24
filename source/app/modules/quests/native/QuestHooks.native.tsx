@@ -186,7 +186,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = _closure1_slot4;
                     var1 = var3.getKey;
                     var3 = var1.bind(var3)();
-                    var1 = _closure1_slot9;
+                    var1 = _closure1_slot8;
                     var1 = var3 === var1;
                     if(var1) { _fun0004_ip = 36; continue _fun0004 }
  28:
@@ -250,7 +250,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot11 = var4;
+    var _closure1_slot10 = var4;
     var1 = global;
     var10 = var1.Object;
     var9 = var10.defineProperty;
@@ -278,20 +278,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var1)(var5);
     var8 = var5.QUEST_REWARD_CODE_CLAIM_BOTTOM_SHEET_KEY;
     var _closure1_slot6 = var8;
-    var8 = var5.QuestsExperimentLocations;
-    var _closure1_slot7 = var8;
-    var5 = var5.QuestVariants;
-    var _closure1_slot8 = var5;
+    var5 = var5.QuestsExperimentLocations;
+    var _closure1_slot7 = var5;
     var5 = 4;
     var5 = var7[var5];
     var5 = var6.bind(var1)(var5);
     var5 = var5.CAPTCHA_MODAL_KEY;
-    var _closure1_slot9 = var5;
+    var _closure1_slot8 = var5;
     var5 = 5;
     var5 = var7[var5];
     var5 = var6.bind(var1)(var5);
     var5 = var5.ThemeTypes;
-    var _closure1_slot10 = var5;
+    var _closure1_slot9 = var5;
     var5 = 20;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
@@ -301,7 +299,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = function useMobileQuestDockHeight() {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-            var2 = _closure1_slot11;
+            var2 = _closure1_slot10;
             var4 = undefined;
             var2 = var2.bind(var4)();
             var3 = var2.isVisible;
@@ -350,7 +348,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var5.isThemeDark;
                 var3 = _closure2_slot1;
                 var4 = var4.bind(var5)(var3);
-                var3 = _closure1_slot10;
+                var3 = _closure1_slot9;
                 if(var4) { _fun0006_ip = 58; continue _fun0006 }
  50:
                 var5 = var3.LIGHT;
@@ -406,36 +404,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var2.questBarHeroVideo;
                 var2 = null;
                 var3 = var2 != var3;
-                if(!var3) { _fun0007_ip = 185; continue _fun0007 }
+                if(!var3) { _fun0007_ip = 146; continue _fun0007 }
  91:
                 var6 = _closure1_slot0;
                 var3 = _closure1_slot2;
                 var3 = var3[var9];
-                var10 = var6.bind(var8)(var3);
-                var7 = var10.resolveAsset;
-                var11 = _closure2_slot0;
-                var6 = var11.id;
-                var1 = var11.config;
+                var7 = var6.bind(var8)(var3);
+                var6 = var7.resolveAsset;
+                var1 = _closure2_slot0;
+                var3 = var1.id;
+                var1 = var1.config;
                 var1 = var1.assets;
-                var3 = var1.questBarHeroVideo;
-                var1 = {};
-                var11 = var11.config;
-                var13 = var11.features;
-                var12 = var13.includes;
-                var11 = _closure1_slot8;
-                var11 = var11.QUESTS_CDN;
-                var11 = var12.bind(var13)(var11);
-                var1['newCdn'] = var11;
-                var2 = var7.bind(var10)(var6, var3, var1);
- 185:
+                var1 = var1.questBarHeroVideo;
+                var2 = var6.bind(var7)(var3, var1);
+ 146:
                 var1 = {};
                 var3 = var5.isAnimated;
                 var7 = var5.url;
-                if(var3) { _fun0007_ip = 206; continue _fun0007 }
- 201:
+                if(var3) { _fun0007_ip = 167; continue _fun0007 }
+ 162:
                 var3 = var7;
-                _fun0007_ip = 246; continue _fun0007;
- 206:
+                _fun0007_ip = 207; continue _fun0007;
+ 167:
                 var6 = var7.replace;
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
@@ -444,7 +434,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var4.EXTENSION_RE;
                 var4 = '.png';
                 var3 = var6.bind(var7)(var5, var4);
- 246:
+ 207:
                 var1['staticUrl'] = var3;
                 var1['videoAsset'] = var2;
                 return var1;

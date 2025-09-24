@@ -355,21 +355,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
                     var2 = _closure2_slot1;
-                    if(var2) { _fun0005_ip = 58; continue _fun0005 }
+                    if(var2) { _fun0005_ip = 62; continue _fun0005 }
  10:
                     var2 = _closure2_slot0;
                     var4 = var2.current;
                     var2 = null;
-                    if(!(var2 != var4)) { _fun0005_ip = 46; continue _fun0005 }
+                    if(!(var2 != var4)) { _fun0005_ip = 50; continue _fun0005 }
  25:
                     var3 = var4.scrollToOffset;
                     var2 = {'offset': 0, 'animated': false};
                     var2 = var3.bind(var4)(var2);
- 46:
+ 50:
                     var2 = _closure2_slot4;
                     var1 = 0;
                     var2['current'] = var1;
- 58:
+ 62:
                     var1 = undefined;
                     return var1;
                 }

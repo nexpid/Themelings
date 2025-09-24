@@ -25,7 +25,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['MAX_ATTACHMENT_UPLOAD_TOTAL_FILESIZE_BYTES'] = var2;
     var2 = 10;
     var3['MAX_ATTACHMENT_UPLOAD_COUNT'] = var2;
-    var2 = 30;
+    var2 = 50;
     var3['MAX_PUBLISHED_GUILD_PRODUCT_LISTINGS'] = var2;
     return var1;
 })();

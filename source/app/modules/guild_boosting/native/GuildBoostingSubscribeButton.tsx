@@ -397,12 +397,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = _closure1_slot2;
             var2 = 22;
             var2 = var13[var2];
-            var14 = var3.bind(var4)(var2);
-            var3 = var14.useIsMobileApplePaymentLinksEnabled;
+            var2 = var3.bind(var4)(var2);
+            var14 = var2.MobileApplePaymentLinkExperiment;
+            var3 = var14.useConfig;
             var2 = {};
             var20 = 'guild_boost_subscribe_button';
             var2['location'] = var20;
-            var20 = var3.bind(var14)(var2);
+            var2 = var3.bind(var14)(var2);
+            var20 = var2.enabled;
             var _closure2_slot9 = var20;
             var14 = _closure1_slot4;
             var3 = var14.useCallback;
@@ -525,15 +527,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var13[var9];
             var9 = var12.bind(var4)(var9);
             var9 = var9.t;
-            if(var8) { _fun0003_ip = 459; continue _fun0003 }
- 444:
+            if(var8) { _fun0003_ip = 470; continue _fun0003 }
+ 455:
             var8 = var9.gKmQ1N;
             var8 = var10.bind(var11)(var8);
-            _fun0003_ip = 470; continue _fun0003;
- 459:
+            _fun0003_ip = 481; continue _fun0003;
+ 470:
             var9 = var9.Uj0md3;
             var8 = var10.bind(var11)(var9);
- 470:
+ 481:
             var1['text'] = var8;
             var1['style'] = var6;
             var6 = {};

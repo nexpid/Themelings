@@ -203,7 +203,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0003_ip = 132; continue _fun0003 }
+                    if(var2) { _fun0003_ip = 136; continue _fun0003 }
  10:
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot1;
@@ -222,28 +222,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = var8.bind(var9)(var7);
                     var2['url'] = var7;
                     var2 = var5.bind(var6)(var2);
-                    SaveGenerator(address=98);
- 96:
+                    SaveGenerator(address=102);
+ 100:
                     return var2;
- 98:
+ 102:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0003_ip = 129; continue _fun0003 }
- 104:
+                    if(var5) { _fun0003_ip = 133; continue _fun0003 }
+ 108:
                     var3 = _closure1_slot2;
                     var3 = var3.bind(var4)(var2);
-                    SaveGenerator(address=117);
- 115:
+                    SaveGenerator(address=121);
+ 119:
                     return var3;
- 117:
+ 121:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(var4) { _fun0003_ip = 126; continue _fun0003 }
- 123:
+                    if(var4) { _fun0003_ip = 130; continue _fun0003 }
+ 127:
                     return var2;
- 126:
+ 130:
                     return var3;
- 129:
+ 133:
                     return var2;
- 132:
+ 136:
                     return var1;
                 }
             };
