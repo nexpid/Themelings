@@ -2479,6 +2479,16 @@
         "width": 126,
         "height": 118
     },
+    "DiceIcon": {
+        "file": "modules/hang_status/images/native/DiceIcon.png",
+        "hash": "985b4e92cbb48a66fc4c57670189d253",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 20,
+        "height": 20
+    },
     "disconnect": {
         "file": "modules/video_calls/native/images/disconnect.png",
         "hash": "72603ac548e054665a7efcd4a8c834e5",
@@ -8667,34 +8677,6 @@
         ],
         "width": 24,
         "height": 24
-    },
-    "img_nsfw_dark_theme": {
-        "file": "images/native/img_nsfw_dark_theme.png",
-        "hash": "276b85de1938dd348a2c81ce4705ed5c",
-        "scales": [
-            1
-        ],
-        "width": 544,
-        "height": 444
-    },
-    "img_nsfw_darker": {
-        "file": "design/components/Illustration/native/redesign/generated/images/img_nsfw_darker.png",
-        "hash": "030fdaa60bf651c6c41e4a5273da352e",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 272,
-        "height": 222
-    },
-    "img_nsfw_light_theme": {
-        "file": "images/native/img_nsfw_light_theme.png",
-        "hash": "1c542b45935cdff2e701d435263ecf76",
-        "scales": [
-            1
-        ],
-        "width": 544,
-        "height": 444
     },
     "img_outbound_promotion_error": {
         "file": "images/native/premium/illustrations/img_outbound_promotion_error.png",
