@@ -25,7 +25,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2[var1];
             var1 = undefined;
             var5 = var3.bind(var1)(var2);
-            var4 = var5.removeNativeSearchHistoryItem;
+            var4 = var5.removeSearchHistoryItem;
             var3 = _closure2_slot0;
             var2 = _closure2_slot1;
             var2 = var4.bind(var5)(var3, var2);
@@ -258,7 +258,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var3[var2];
                     var2 = undefined;
                     var4 = var4.bind(var2)(var3);
-                    var3 = var4.removeNativeSearchHistoryItem;
+                    var3 = var4.removeSearchHistoryItem;
                     var2 = _closure2_slot0;
                     var1 = _closure2_slot1;
                     var1 = var3.bind(var4)(var2, var1);
@@ -535,7 +535,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var3[var2];
                     var2 = undefined;
                     var4 = var4.bind(var2)(var3);
-                    var3 = var4.removeNativeSearchHistoryItem;
+                    var3 = var4.removeSearchHistoryItem;
                     var2 = _closure2_slot0;
                     var1 = _closure2_slot1;
                     var1 = var3.bind(var4)(var2, var1);
@@ -659,7 +659,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var3[var2];
                     var2 = undefined;
                     var4 = var4.bind(var2)(var3);
-                    var3 = var4.removeNativeSearchHistoryItem;
+                    var3 = var4.removeSearchHistoryItem;
                     var2 = _closure2_slot0;
                     var1 = _closure2_slot1;
                     var1 = var3.bind(var4)(var2, var1);
@@ -824,7 +824,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
-                var3 = var4.removeNativeSearchHistoryItem;
+                var3 = var4.removeSearchHistoryItem;
                 var2 = _closure2_slot0;
                 var1 = _closure2_slot1;
                 var1 = var3.bind(var4)(var2, var1);

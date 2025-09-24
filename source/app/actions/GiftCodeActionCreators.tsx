@@ -465,7 +465,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0006_ip = 257; continue _fun0006 }
+                    if(var2) { _fun0006_ip = 253; continue _fun0006 }
  10:
                     var6 = _closure1_slot1;
                     var2 = _closure1_slot2;
@@ -495,13 +495,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var9 = var10.bind(var11)(var9);
                     var4['url'] = var9;
                     var4 = var7.bind(var8)(var4);
-                    SaveGenerator(address=147);
- 145:
+                    SaveGenerator(address=143);
+ 141:
                     return var4;
- 147:
+ 143:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
-                    if(var7) { _fun0006_ip = 202; continue _fun0006 }
- 153:
+                    if(var7) { _fun0006_ip = 198; continue _fun0006 }
+ 149:
                     var8 = _closure1_slot1;
                     var7 = _closure1_slot2;
                     var7 = var7[var5];
@@ -513,11 +513,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var10 = _closure2_slot0;
                     var7['code'] = var10;
                     var7 = var8.bind(var9)(var7);
- 200: // try_end0
-                    _fun0006_ip = 254; continue _fun0006;
- 202:
+ 196: // try_end0
+                    _fun0006_ip = 250; continue _fun0006;
+ 198:
                     return var4;
- 205: // catch_target0
+ 201: // catch_target0
                     CatchBlockStart(arg_register=3);
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
@@ -530,9 +530,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = _closure2_slot0;
                     var3['code'] = var6;
                     var3 = var4.bind(var5)(var3);
- 254:
+ 250:
                     return var2;
- 257:
+ 253:
                     return var1;
                 }
             };

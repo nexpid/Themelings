@@ -266,7 +266,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2[var1];
             var1 = undefined;
             var3 = var3.bind(var1)(var2);
-            var2 = var3.clearNativeSearchHistory;
+            var2 = var3.clearSearchHistory;
             var1 = _closure2_slot0;
             var1 = var2.bind(var3)(var1);
             return var1;

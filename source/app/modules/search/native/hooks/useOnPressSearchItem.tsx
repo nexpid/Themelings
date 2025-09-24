@@ -7,7 +7,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var7;
     var _closure1_slot1 = var9;
     var _closure1_slot2 = var8;
-    var1 = function addNativeSearchHistoryItem(arg1, arg2) {
+    var1 = function addSearchHistoryItem(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
             var2 = arg1;
@@ -37,7 +37,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
-                var3 = var4.addNativeSearchHistoryItem;
+                var3 = var4.addSearchHistoryItem;
                 var2 = _closure2_slot0;
                 var1 = _closure2_slot1;
                 var1 = var3.bind(var4)(var2, var1);

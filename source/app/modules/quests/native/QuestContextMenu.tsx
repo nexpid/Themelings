@@ -182,7 +182,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             _closure2_slot11 = var25;
             var12 = var14[var12];
             var13 = var13.bind(var4)(var12);
-            var12 = var13.useQuestContextMenuExternalCta;
+            var12 = var13.useQuestExternalCta;
             var24 = var12.bind(var13)(var3);
             _closure2_slot12 = var24;
             if(!var21) { _fun0001_ip = 454; continue _fun0001 }

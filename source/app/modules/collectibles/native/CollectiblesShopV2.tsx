@@ -675,48 +675,69 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var26 = function() {
                 _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
+                    var1 = _closure2_slot1;
+                    var8 = null;
+                    var10 = var8 == var1;
+                    if(var10) { _fun0009_ip = 37; continue _fun0009 }
+ 16:
+                    var2 = _closure2_slot1;
+                    var1 = _closure1_slot12;
+                    var1 = var1.FEATURED_PAGE;
+                    var10 = var2 === var1;
+ 37:
+                    if(var10) { _fun0009_ip = 61; continue _fun0009 }
+ 40:
+                    var2 = _closure2_slot1;
+                    var1 = _closure1_slot12;
+                    var1 = var1.SHOP_ALL;
+                    var10 = var2 === var1;
+ 61:
                     var3 = _closure1_slot1;
-                    var9 = _closure1_slot2;
+                    var2 = _closure1_slot2;
                     var1 = 31;
-                    var2 = var9[var1];
+                    var2 = var2[var1];
                     var1 = undefined;
                     var7 = var3.bind(var1)(var2);
                     var4 = var7.track;
                     var2 = _closure1_slot14;
                     var3 = var2.COLLECTIBLES_SHOP_VIEWED;
                     var2 = {};
-                    var8 = _closure2_slot9;
-                    var2['location_stack'] = var8;
-                    var8 = _closure2_slot3;
-                    var2['page_session_id'] = var8;
-                    var8 = _closure2_slot0;
-                    var2['source'] = var8;
-                    var8 = 'home';
-                    var2['page_type'] = var8;
+                    var9 = _closure2_slot9;
+                    var2['location_stack'] = var9;
+                    var9 = _closure2_slot3;
+                    var2['page_session_id'] = var9;
+                    var9 = _closure2_slot0;
+                    var2['source'] = var9;
+                    var9 = 'home';
+                    if(var10) { _fun0009_ip = 140; continue _fun0009 }
+ 136:
+                    var9 = _closure2_slot1;
+ 140:
+                    var2['page_type'] = var9;
                     var2 = var4.bind(var7)(var3, var2);
-                    var8 = _closure1_slot0;
+                    var9 = _closure1_slot0;
+                    var10 = _closure1_slot2;
                     var7 = 32;
-                    var2 = var9[var7];
-                    var4 = var8.bind(var1)(var2);
+                    var2 = var10[var7];
+                    var4 = var9.bind(var1)(var2);
                     var3 = var4.trackShopPerf;
                     var2 = {};
-                    var10 = _closure2_slot3;
-                    var2['sessionId'] = var10;
-                    var7 = var9[var7];
-                    var7 = var8.bind(var1)(var7);
+                    var11 = _closure2_slot3;
+                    var2['sessionId'] = var11;
+                    var7 = var10[var7];
+                    var7 = var9.bind(var1)(var7);
                     var7 = var7.CollectiblesShopPerfCheckpoint;
                     var7 = var7.SHOP_MOUNTED;
                     var2['checkpoint'] = var7;
-                    var8 = _closure2_slot1;
-                    var7 = null;
-                    if(!(var7 == var8)) { _fun0009_ip = 167; continue _fun0009 }
- 155:
+                    var7 = _closure2_slot1;
+                    if(!(var8 == var7)) { _fun0009_ip = 234; continue _fun0009 }
+ 222:
                     var6 = _closure1_slot12;
                     var6 = var6.FEATURED_PAGE;
-                    _fun0009_ip = 171; continue _fun0009;
- 167:
+                    _fun0009_ip = 238; continue _fun0009;
+ 234:
                     var6 = _closure2_slot1;
- 171:
+ 238:
                     var2['tab'] = var6;
                     var6 = true;
                     var2['isFullScreen'] = var6;

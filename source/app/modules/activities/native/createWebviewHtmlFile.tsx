@@ -237,10 +237,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var2.iframeWindowVarName;
             var14 = var2.isIframeLoadedVarName;
             var2 = null;
-            if(!(var2 == var1)) { _fun0003_ip = 41; continue _fun0003 }
+            if(!(var2 == var1)) { _fun0003_ip = 37; continue _fun0003 }
  27:
             var1 = {'top': 0, 'bottom': 0, 'left': 0, 'right': 0};
- 41:
+ 37:
             var25 = var1.left;
             var23 = var1.right;
             var21 = var1.top;

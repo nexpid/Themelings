@@ -34,55 +34,50 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var4.data;
             var6 = var1.kind;
             var1 = 'end';
-            if(!(var1 !== var6)) { _fun0001_ip = 284; continue _fun0001 }
+            if(!(var1 !== var6)) { _fun0001_ip = 274; continue _fun0001 }
  24:
             var2 = 'loading';
-            if(!(var2 !== var6)) { _fun0001_ip = 282; continue _fun0001 }
+            if(!(var2 !== var6)) { _fun0001_ip = 272; continue _fun0001 }
  35:
             var3 = 'message';
-            if(!(var3 !== var6)) { _fun0001_ip = 253; continue _fun0001 }
+            if(!(var3 !== var6)) { _fun0001_ip = 243; continue _fun0001 }
  46:
             var5 = 'channelSummary';
-            if(!(var5 !== var6)) { _fun0001_ip = 247; continue _fun0001 }
+            if(!(var5 !== var6)) { _fun0001_ip = 237; continue _fun0001 }
  59:
             var5 = 'guildEvent';
-            if(!(var5 !== var6)) { _fun0001_ip = 239; continue _fun0001 }
+            if(!(var5 !== var6)) { _fun0001_ip = 229; continue _fun0001 }
  70:
             var5 = 'contentInventory';
-            if(!(var5 !== var6)) { _fun0001_ip = 168; continue _fun0001 }
+            if(!(var5 !== var6)) { _fun0001_ip = 158; continue _fun0001 }
  80:
             var5 = 'recommendedGuilds';
-            if(!(var5 !== var6)) { _fun0001_ip = 160; continue _fun0001 }
+            if(!(var5 !== var6)) { _fun0001_ip = 150; continue _fun0001 }
  90:
             var5 = 'forumThread';
-            if(!(var5 !== var6)) { _fun0001_ip = 152; continue _fun0001 }
+            if(!(var5 !== var6)) { _fun0001_ip = 142; continue _fun0001 }
  100:
             var5 = 'generatedCandidate';
-            if(!(var5 !== var6)) { _fun0001_ip = 144; continue _fun0001 }
+            if(!(var5 !== var6)) { _fun0001_ip = 134; continue _fun0001 }
  110:
             var5 = 'icymiHeader';
-            if(!(var5 !== var6)) { _fun0001_ip = 136; continue _fun0001 }
+            if(!(var5 !== var6)) { _fun0001_ip = 126; continue _fun0001 }
  120:
-            var5 = 'mentions';
-            if(!(var5 !== var6)) { _fun0001_ip = 134; continue _fun0001 }
- 128:
-            var6 = 'unknown';
-            return var6;
- 134:
+            var5 = 'unknown';
             return var5;
- 136:
+ 126:
             var5 = 'icymi_header';
             return var5;
- 144:
+ 134:
             var5 = 'generated_candidate';
             return var5;
- 152:
+ 142:
             var5 = 'forum_thread';
             return var5;
- 160:
+ 150:
             var5 = 'recommended_guilds';
             return var5;
- 168:
+ 158:
             var5 = var4.data;
             var5 = var5.content;
             var7 = var5.content_type;
@@ -95,29 +90,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.ContentInventoryEntryType;
             var6 = var5.CUSTOM_STATUS;
             var5 = 'hotwheels_gaming_activity';
-            if(!(var7 === var6)) { _fun0001_ip = 237; continue _fun0001 }
- 231:
+            if(!(var7 === var6)) { _fun0001_ip = 227; continue _fun0001 }
+ 221:
             var5 = 'hotwheels_custom_status';
- 237:
+ 227:
             return var5;
- 239:
+ 229:
             var5 = 'guild_event';
             return var5;
- 247:
+ 237:
             var5 = 'summary';
             return var5;
- 253:
+ 243:
             var5 = var4.channelType;
             var4 = _closure1_slot4;
             var4 = var4.GUILD_ANNOUNCEMENT;
-            if(!(var5 === var4)) { _fun0001_ip = 280; continue _fun0001 }
- 276:
+            if(!(var5 === var4)) { _fun0001_ip = 270; continue _fun0001 }
+ 266:
             var3 = 'announcement';
- 280:
+ 270:
             return var3;
- 282:
+ 272:
             return var2;
- 284:
+ 274:
             return var1;
         }
     };
@@ -843,7 +838,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2['icymi_session_id'] = var7;
         var7 = var6.feedReloadCount;
         var2['feed_reload_count'] = var7;
-        var7 = var6.feedVisibleItemsChangedCount;
+        var7 = var6.feedDwelledItemsChangedCount;
         var2['feed_visible_items_changed_count'] = var7;
         var7 = var6.feedFetchCount;
         var2['feed_fetch_count'] = var7;
@@ -908,8 +903,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var8;
  207:
             var2['item_channel_type'] = var7;
-            var6 = var6.itemCardHeight;
-            var2['item_card_height'] = var6;
+            var7 = var6.itemCardHeight;
+            var2['item_card_height'] = var7;
+            var6 = var6.isDwelling;
+            var2['is_dwelling'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var1;
         }

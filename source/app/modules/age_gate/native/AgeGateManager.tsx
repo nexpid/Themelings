@@ -343,7 +343,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  43:
                 if(!var3) { _fun0005_ip = 66; continue _fun0005 }
  46:
-                var6 = var1.nsfw_level;
+                var6 = var1.owner_configured_content_level;
                 var5 = _closure1_slot15;
                 var5 = var5.AGE_RESTRICTED;
                 var3 = var6 === var5;

@@ -898,6 +898,46 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         }
     };
     var _closure1_slot26 = var1;
+    var1 = function handleResetMediaEngineSettings(arg1) {
+        _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
+ 0:
+            var2 = arg1;
+            var1 = null;
+            if(!(var2 != var1)) { _fun0014_ip = 89; continue _fun0014 }
+ 9:
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var3 = 15;
+            var6 = var5[var3];
+            var1 = undefined;
+            var6 = var4.bind(var1)(var6);
+            var7 = var6.PreloadedUserSettingsActionCreators;
+            var6 = var7.updateAsync;
+            var3 = var5[var3];
+            var3 = var4.bind(var1)(var3);
+            var3 = var3.UserSettingsDelay;
+            var5 = var3.INFREQUENT_USER_ACTION;
+            var4 = 'audioContextSettings';
+            var3 = function(arg1) {
+                var2 = arg1;
+                var1 = {};
+                var2['user'] = var1;
+                var1 = {};
+                var2['stream'] = var1;
+                var1 = undefined;
+                return var1;
+            };
+            var3 = var6.bind(var7)(var4, var3, var5);
+            return var1;
+ 89:
+            var9 = "Cannot destructure 'undefined' or 'null'.";
+            var10 = var2;
+            var1 = throwTypeError(var10, var9);
+            var1 = undefined;
+            throw var1;
+        }
+    };
+    var _closure1_slot27 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -963,12 +1003,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var _closure1_slot14 = var4;
     var4 = function DEFAULT_VOLUME_FOR_CONTEXT(arg1) {
-        _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
+        _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
  0:
             var1 = _closure1_slot13;
             var3 = var1.STREAM;
             var1 = arg1;
-            if(!(var1 !== var3)) { _fun0014_ip = 56; continue _fun0014 }
+            if(!(var1 !== var3)) { _fun0015_ip = 56; continue _fun0015 }
  20:
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
@@ -978,7 +1018,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var4.bind(var1)(var3);
             var1 = var1.AudioSettingsDefaultVolumes;
             var1 = var1.USER;
-            _fun0014_ip = 90; continue _fun0014;
+            _fun0015_ip = 90; continue _fun0015;
  56:
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
@@ -1023,7 +1063,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.bind(var1)(var4);
     var2 = function(arg1) {
         var3 = function AudioSettingsManager(arg1) {
-            _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
+            _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
  0:
                 var5 = this;
                 var13 = 0;
@@ -1042,11 +1082,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = _closure1_slot5;
                 var1 = _closure1_slot18;
                 var1 = var1.bind(var4)();
-                if(var1) { _fun0015_ip = 84; continue _fun0015 }
+                if(var1) { _fun0016_ip = 84; continue _fun0016 }
  71:
                 var1 = var9.apply;
                 var1 = var1.bind(var9)(var5, var10);
-                _fun0015_ip = 118; continue _fun0015;
+                _fun0016_ip = 118; continue _fun0016;
  84:
                 var6 = global;
                 var8 = var6.Reflect;
@@ -1064,8 +1104,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2['AUDIO_SET_LOCAL_VOLUME'] = var4;
                 var4 = _closure1_slot25;
                 var2['AUDIO_TOGGLE_LOCAL_MUTE'] = var4;
-                var3 = _closure1_slot26;
-                var2['AUDIO_TOGGLE_LOCAL_SOUNDBOARD_MUTE'] = var3;
+                var4 = _closure1_slot26;
+                var2['AUDIO_TOGGLE_LOCAL_SOUNDBOARD_MUTE'] = var4;
+                var3 = _closure1_slot27;
+                var2['MEDIA_ENGINE_RESET_SETTINGS'] = var3;
                 var1['actions'] = var2;
                 return var1;
             }

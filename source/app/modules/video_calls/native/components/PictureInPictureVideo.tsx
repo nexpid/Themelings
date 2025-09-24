@@ -474,7 +474,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = _closure1_slot17;
             var1 = var1.ACTIVITY;
             var6 = null;
-            if(!(var1 === var3)) { _fun0002_ip = 775; continue _fun0002 }
+            if(!(var1 === var3)) { _fun0002_ip = 771; continue _fun0002 }
  398:
             var14 = _closure1_slot18;
             var3 = _closure1_slot1;
@@ -518,7 +518,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var1['onSingleTap'] = var15;
             var6 = var14.bind(var4)(var3, var1);
-            _fun0002_ip = 775; continue _fun0002;
+            _fun0002_ip = 771; continue _fun0002;
  456:
             var3 = _closure1_slot1;
             var14 = _closure1_slot2;
@@ -558,14 +558,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var14.bind(var4)(var3, var2);
  600:
             var6 = var1;
-            _fun0002_ip = 775; continue _fun0002;
+            _fun0002_ip = 771; continue _fun0002;
  608:
             var1 = var13.user;
             var2 = var1.id;
             var3 = _closure1_slot9;
             var1 = var3.getId;
             var1 = var1.bind(var3)();
-            if(!(var2 !== var1)) { _fun0002_ip = 730; continue _fun0002 }
+            if(!(var2 !== var1)) { _fun0002_ip = 726; continue _fun0002 }
  636:
             var3 = _closure1_slot18;
             var2 = _closure1_slot1;
@@ -585,8 +585,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['onSingleTap'] = var7;
             var1['onDoubleTap'] = var7;
             var1 = var3.bind(var4)(var2, var1);
-            _fun0002_ip = 772; continue _fun0002;
- 730:
+            _fun0002_ip = 768; continue _fun0002;
+ 726:
             var7 = _closure1_slot18;
             var3 = _closure1_slot1;
             var13 = _closure1_slot2;
@@ -597,19 +597,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['onSingleTap'] = var9;
             var2['onDoubleTap'] = var9;
             var1 = var7.bind(var4)(var3, var2);
- 772:
+ 768:
             var6 = var1;
- 775:
+ 771:
             var3 = _closure1_slot20;
             var2 = _closure1_slot19;
             var1 = {};
             var9 = var8 == var12;
             var7 = null;
-            if(var9) { _fun0002_ip = 910; continue _fun0002 }
- 794:
+            if(var9) { _fun0002_ip = 906; continue _fun0002 }
+ 790:
             var7 = null;
-            if(var5) { _fun0002_ip = 910; continue _fun0002 }
- 799:
+            if(var5) { _fun0002_ip = 906; continue _fun0002 }
+ 795:
             var9 = _closure1_slot18;
             var8 = _closure1_slot1;
             var13 = _closure1_slot2;
@@ -652,7 +652,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var5['onSingleTap'] = var10;
             var7 = var9.bind(var4)(var8, var5);
- 910:
+ 906:
             var5 = new Array(2);
             var5[0] = var7;
             var5[1] = var6;

@@ -146,13 +146,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var7['APEX_EXPERIMENT_OVERRIDE_CLEAR'] = var9;
-                var9 = function APEX_EXPERIMENT_CLEAR_SERVER_ASSIGNMENTS() {
+                var9 = function APEX_EXPERIMENT_CLEAR_FOR_TESTS() {
                     var2 = _closure3_slot0;
-                    var1 = var2.clearAllServerAssignments;
+                    var1 = var2.clearForTests;
                     var1 = var1.bind(var2)();
                     return var1;
                 };
-                var7['APEX_EXPERIMENT_CLEAR_SERVER_ASSIGNMENTS'] = var9;
+                var7['APEX_EXPERIMENT_CLEAR_FOR_TESTS'] = var9;
                 var9 = function APEX_EXPERIMENTS_METADATA_FETCH_SUCCESS(arg1) {
                     var3 = _closure3_slot0;
                     var2 = var3.setExperimentsMetadata;
@@ -162,6 +162,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var7['APEX_EXPERIMENTS_METADATA_FETCH_SUCCESS'] = var9;
+                var9 = function APEX_EXPERIMENTS_FETCH_START(arg1) {
+                    var3 = _closure3_slot0;
+                    var2 = var3.handleFetchStart;
+                    var1 = arg1;
+                    var1 = var1.userId;
+                    var1 = var2.bind(var3)(var1);
+                    return var1;
+                };
+                var7['APEX_EXPERIMENTS_FETCH_START'] = var9;
+                var9 = function APEX_EXPERIMENTS_FETCH_SUCCESS(arg1) {
+                    var1 = arg1;
+                    var4 = _closure3_slot0;
+                    var3 = var4.handleFetchSuccess;
+                    var2 = var1.userId;
+                    var1 = var1.experiments;
+                    var1 = var3.bind(var4)(var2, var1);
+                    return var1;
+                };
+                var7['APEX_EXPERIMENTS_FETCH_SUCCESS'] = var9;
+                var9 = function APEX_EXPERIMENTS_FETCH_FAILURE(arg1) {
+                    var3 = _closure3_slot0;
+                    var2 = var3.handleFetchFailure;
+                    var1 = arg1;
+                    var1 = var1.userId;
+                    var1 = var2.bind(var3)(var1);
+                    return var1;
+                };
+                var7['APEX_EXPERIMENTS_FETCH_FAILURE'] = var9;
                 var9 = function LOGOUT(arg1) {
                     var3 = _closure3_slot0;
                     var2 = var3.handleLogout;
@@ -183,12 +211,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = _closure1_slot5;
                 var1 = _closure1_slot9;
                 var1 = var1.bind(var4)();
-                if(var1) { _fun0002_ip = 217; continue _fun0002 }
- 204:
+                if(var1) { _fun0002_ip = 253; continue _fun0002 }
+ 240:
                 var1 = var9.apply;
                 var1 = var1.bind(var9)(var5, var10);
-                _fun0002_ip = 251; continue _fun0002;
- 217:
+                _fun0002_ip = 287; continue _fun0002;
+ 253:
                 var7 = global;
                 var8 = var7.Reflect;
                 var7 = var8.construct;
@@ -196,7 +224,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var6.bind(var4)(var5);
                 var6 = var6.constructor;
                 var1 = var7.bind(var8)(var9, var10, var6);
- 251:
+ 287:
                 var1 = var3.bind(var4)(var5, var1);
                 var _closure3_slot0 = var1;
                 var2 = function(arg1) {

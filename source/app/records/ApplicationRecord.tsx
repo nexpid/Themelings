@@ -628,6 +628,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var3.linkedGames;
  636:
                 var1['linkedGames'] = var2;
+                var2 = var3.deepLinkUri;
+                if(!(var4 == var2)) { _fun0010_ip = 658; continue _fun0010 }
+ 652:
+                var2 = var3.deeplink_uri;
+ 658:
+                var1['deepLinkUri'] = var2;
                 return var1;
             }
         };
@@ -911,12 +917,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var4.categories;
  900:
                 var1['categories'] = var6;
-                var2 = var2.linkedGames;
-                if(!(var5 == var2)) { _fun0012_ip = 921; continue _fun0012 }
+                var6 = var2.linkedGames;
+                if(!(var5 == var6)) { _fun0012_ip = 921; continue _fun0012 }
  915:
-                var2 = var4.linkedGames;
+                var6 = var4.linkedGames;
  921:
-                var1['linkedGames'] = var2;
+                var1['linkedGames'] = var6;
+                var2 = var2.deepLinkUri;
+                if(!(var5 == var2)) { _fun0012_ip = 942; continue _fun0012 }
+ 936:
+                var2 = var4.deepLinkUri;
+ 942:
+                var1['deepLinkUri'] = var2;
                 var2 = var3.prototype;
                 var2 = Object.create(var2, {constructor: {value: var3}});
                 var12 = var2;
@@ -1024,126 +1036,126 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = function value(arg1) {
             _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
  0:
-                var6 = arg1;
+                var2 = arg1;
                 var3 = _closure2_slot0;
                 var1 = {};
                 var14 = var1;
-                var13 = var6;
-                var4 = copyDataProperties(var14, var13);
-                var5 = var6.cover_image;
-                var4 = 'coverImage';
-                var1[var4] = var5;
-                var5 = var6.primary_sku_id;
-                var4 = 'primarySkuId';
-                var1[var4] = var5;
-                var4 = var6.bot;
-                var5 = null;
-                var4 = var5 != var4;
+                var13 = var2;
+                var5 = copyDataProperties(var14, var13);
+                var6 = var2.cover_image;
+                var5 = 'coverImage';
+                var1[var5] = var6;
+                var6 = var2.primary_sku_id;
+                var5 = 'primarySkuId';
+                var1[var5] = var6;
+                var5 = var2.bot;
+                var6 = null;
+                var5 = var6 != var5;
                 var7 = null;
-                if(!var4) { _fun0016_ip = 104; continue _fun0016 }
+                if(!var5) { _fun0016_ip = 104; continue _fun0016 }
  71:
                 var9 = _closure1_slot9;
-                var14 = var6.bot;
+                var14 = var2.bot;
                 var8 = var9.prototype;
                 var8 = Object.create(var8, {constructor: {value: var9}});
                 var15 = var8;
-                var4 = new var15[var9](var14, var13);
-                var7 = var4 instanceof Object ? var4 : var8;
+                var5 = new var15[var9](var14, var13);
+                var7 = var5 instanceof Object ? var5 : var8;
  104:
-                var4 = 'bot';
-                var1[var4] = var7;
-                var7 = var6.third_party_skus;
-                var4 = 'thirdPartySkus';
-                var1[var4] = var7;
-                var7 = var6.role_connections_verification_url;
-                var4 = 'roleConnectionsVerificationUrl';
-                var1[var4] = var7;
-                var7 = var6.overlay_warn;
-                var4 = 'overlayWarn';
-                var1[var4] = var7;
-                var7 = var6.overlay_compatibility_hook;
-                var4 = 'overlayCompatibilityHook';
-                var1[var4] = var7;
-                var7 = var6.overlay_methods;
-                if(!(var5 == var7)) { _fun0016_ip = 220; continue _fun0016 }
+                var5 = 'bot';
+                var1[var5] = var7;
+                var7 = var2.third_party_skus;
+                var5 = 'thirdPartySkus';
+                var1[var5] = var7;
+                var7 = var2.role_connections_verification_url;
+                var5 = 'roleConnectionsVerificationUrl';
+                var1[var5] = var7;
+                var7 = var2.overlay_warn;
+                var5 = 'overlayWarn';
+                var1[var5] = var7;
+                var7 = var2.overlay_compatibility_hook;
+                var5 = 'overlayCompatibilityHook';
+                var1[var5] = var7;
+                var7 = var2.overlay_methods;
+                if(!(var6 == var7)) { _fun0016_ip = 220; continue _fun0016 }
  183:
                 var9 = _closure1_slot0;
                 var8 = _closure1_slot2;
-                var4 = 10;
-                var8 = var8[var4];
-                var4 = undefined;
-                var4 = var9.bind(var4)(var8);
-                var4 = var4.ApplicationOverlayMethodFlags;
-                var7 = var4.DEFAULT;
+                var5 = 10;
+                var8 = var8[var5];
+                var5 = undefined;
+                var5 = var9.bind(var5)(var8);
+                var5 = var5.ApplicationOverlayMethodFlags;
+                var7 = var5.DEFAULT;
  220:
-                var4 = 'overlayMethods';
-                var1[var4] = var7;
-                var7 = var6.hook;
-                var4 = 'hook';
-                var1[var4] = var7;
-                var7 = var6.store_listing_sku_id;
-                var4 = 'storeListingSkuId';
-                var1[var4] = var7;
-                var7 = var6.guild_id;
-                var4 = 'guildId';
-                var1[var4] = var7;
-                var7 = var6.guild;
-                var4 = 'guild';
-                var1[var4] = var7;
-                var4 = var6.publishers;
-                if(!(var5 == var4)) { _fun0016_ip = 305; continue _fun0016 }
+                var5 = 'overlayMethods';
+                var1[var5] = var7;
+                var7 = var2.hook;
+                var5 = 'hook';
+                var1[var5] = var7;
+                var7 = var2.store_listing_sku_id;
+                var5 = 'storeListingSkuId';
+                var1[var5] = var7;
+                var7 = var2.guild_id;
+                var5 = 'guildId';
+                var1[var5] = var7;
+                var7 = var2.guild;
+                var5 = 'guild';
+                var1[var5] = var7;
+                var5 = var2.publishers;
+                if(!(var6 == var5)) { _fun0016_ip = 305; continue _fun0016 }
  299:
                 var7 = new Array(0);
                 _fun0016_ip = 334; continue _fun0016;
  305:
-                var9 = var6.publishers;
+                var9 = var2.publishers;
                 var8 = var9.map;
-                var4 = _closure1_slot8;
-                var4 = var4.createFromServer;
-                var7 = var8.bind(var9)(var4);
+                var5 = _closure1_slot8;
+                var5 = var5.createFromServer;
+                var7 = var8.bind(var9)(var5);
  334:
-                var4 = 'publishers';
-                var1[var4] = var7;
-                var4 = var6.developers;
-                if(!(var5 == var4)) { _fun0016_ip = 359; continue _fun0016 }
+                var5 = 'publishers';
+                var1[var5] = var7;
+                var5 = var2.developers;
+                if(!(var6 == var5)) { _fun0016_ip = 359; continue _fun0016 }
  353:
                 var7 = new Array(0);
                 _fun0016_ip = 388; continue _fun0016;
  359:
-                var9 = var6.developers;
+                var9 = var2.developers;
                 var8 = var9.map;
-                var4 = _closure1_slot8;
-                var4 = var4.createFromServer;
-                var7 = var8.bind(var9)(var4);
+                var5 = _closure1_slot8;
+                var5 = var5.createFromServer;
+                var7 = var8.bind(var9)(var5);
  388:
-                var4 = 'developers';
-                var1[var4] = var7;
-                var7 = var6.eula_id;
-                var4 = 'eulaId';
-                var1[var4] = var7;
-                var7 = var6.slug;
-                var4 = 'slug';
-                var1[var4] = var7;
-                var4 = var6.flags;
-                var8 = var5 != var4;
+                var5 = 'developers';
+                var1[var5] = var7;
+                var7 = var2.eula_id;
+                var5 = 'eulaId';
+                var1[var5] = var7;
+                var7 = var2.slug;
+                var5 = 'slug';
+                var1[var5] = var7;
+                var5 = var2.flags;
+                var8 = var6 != var5;
                 var7 = 0;
                 if(!var8) { _fun0016_ip = 446; continue _fun0016 }
  443:
-                var7 = var4;
+                var7 = var5;
  446:
-                var4 = 'flags';
-                var1[var4] = var7;
-                var7 = var6.max_participants;
-                var4 = 'maxParticipants';
-                var1[var4] = var7;
-                var7 = var6.tags;
-                var4 = 'tags';
-                var1[var4] = var7;
-                var7 = var6.embedded_activity_config;
-                var4 = 'embeddedActivityConfig';
-                var1[var4] = var7;
-                var4 = var6.integration_types_config;
-                var7 = var5 != var4;
+                var5 = 'flags';
+                var1[var5] = var7;
+                var7 = var2.max_participants;
+                var5 = 'maxParticipants';
+                var1[var5] = var7;
+                var7 = var2.tags;
+                var5 = 'tags';
+                var1[var5] = var7;
+                var7 = var2.embedded_activity_config;
+                var5 = 'embeddedActivityConfig';
+                var1[var5] = var7;
+                var5 = var2.integration_types_config;
+                var7 = var6 != var5;
                 var8 = undefined;
                 if(!var7) { _fun0016_ip = 572; continue _fun0016 }
  515:
@@ -1152,7 +1164,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var9 = var10.fromEntries;
                 var12 = var7.Object;
                 var11 = var12.entries;
-                var7 = var6.integration_types_config;
+                var7 = var2.integration_types_config;
                 var12 = var11.bind(var12)(var7);
                 var11 = var12.map;
                 var7 = function(arg1) {
@@ -1206,28 +1218,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  572:
                 var7 = 'integrationTypesConfig';
                 var1[var7] = var8;
-                var8 = var6.terms_of_service_url;
+                var8 = var2.terms_of_service_url;
                 var7 = 'termsOfServiceUrl';
                 var1[var7] = var8;
-                var8 = var6.privacy_policy_url;
+                var8 = var2.privacy_policy_url;
                 var7 = 'privacyPolicyUrl';
                 var1[var7] = var8;
-                var8 = var6.is_discoverable;
+                var8 = var2.is_discoverable;
                 var7 = 'isDiscoverable';
                 var1[var7] = var8;
-                var8 = var6.directory_entry;
+                var8 = var2.directory_entry;
                 var7 = 'directoryEntry';
                 var1[var7] = var8;
-                var8 = var6.categories;
+                var8 = var2.categories;
                 var7 = 'categories';
                 var1[var7] = var8;
-                var6 = var6.linked_games;
-                var5 = var5 == var6;
-                var4 = undefined;
-                if(var5) { _fun0016_ip = 686; continue _fun0016 }
+                var7 = var2.linked_games;
+                var6 = var6 == var7;
+                var5 = undefined;
+                if(var6) { _fun0016_ip = 686; continue _fun0016 }
  671:
-                var5 = var6.map;
-                var2 = function(arg1) {
+                var6 = var7.map;
+                var4 = function(arg1) {
                     _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
  0:
                         var2 = arg1;
@@ -1251,9 +1263,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     }
                 };
-                var4 = var5.bind(var6)(var2);
+                var5 = var6.bind(var7)(var4);
  686:
-                var2 = 'linkedGames';
+                var4 = 'linkedGames';
+                var1[var4] = var5;
+                var4 = var2.deeplink_uri;
+                var2 = 'deepLinkUri';
                 var1[var2] = var4;
                 var2 = var3.prototype;
                 var2 = Object.create(var2, {constructor: {value: var3}});

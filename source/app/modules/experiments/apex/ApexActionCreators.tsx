@@ -23,14 +23,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  13: // try_start_0
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot2;
-                    var2 = 2;
+                    var2 = 3;
                     var2 = var5[var2];
                     var5 = undefined;
                     var2 = var4.bind(var5)(var2);
                     var6 = var2.HTTP;
                     var4 = var6.get;
                     var2 = {};
-                    var7 = _closure1_slot4;
+                    var7 = _closure1_slot5;
                     var7 = var7.APEX_EXPERIMENTS_METADATA;
                     var2['url'] = var7;
                     var7 = {};
@@ -82,7 +82,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = var6.bind(var7)(var4);
                     var4 = _closure1_slot1;
                     var7 = _closure1_slot2;
-                    var3 = 3;
+                    var3 = 4;
                     var3 = var7[var3];
                     var5 = var4.bind(var5)(var3);
                     var4 = var5.dispatch;
@@ -99,7 +99,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     CatchBlockStart(arg_register=1);
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
-                    var2 = 3;
+                    var2 = 4;
                     var3 = var3[var2];
                     var2 = undefined;
                     var4 = var4.bind(var2)(var3);
@@ -118,7 +118,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot5 = var4;
+        _closure1_slot6 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -126,7 +126,144 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot5 = var1;
+    var _closure1_slot6 = var1;
+    var1 = function _fetchUserExperimentAssignments() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+ 0:
+                    StartGenerator();
+                    var7 = arg1;
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                    if(var2) { _fun0002_ip = 401; continue _fun0002 }
+ 13:
+                    var6 = var7;
+                    var2 = undefined;
+                    var10 = undefined;
+                    var5 = _closure1_slot4;
+                    var4 = var5.isFetching;
+                    var4 = var4.bind(var5)(var7);
+                    if(var4) { _fun0002_ip = 398; continue _fun0002 }
+ 44:
+                    var7 = _closure1_slot4;
+                    var5 = var7.hasLoaded;
+                    var4 = var6;
+                    var4 = var5.bind(var7)(var4);
+                    if(var4) { _fun0002_ip = 398; continue _fun0002 }
+ 68:
+                    var7 = _closure1_slot1;
+                    var4 = _closure1_slot2;
+                    var5 = 4;
+                    var4 = var4[var5];
+                    var8 = var7.bind(var2)(var4);
+                    var7 = var8.dispatch;
+                    var4 = {};
+                    var9 = 'APEX_EXPERIMENTS_FETCH_START';
+                    var4['type'] = var9;
+                    var9 = var6;
+                    var4['userId'] = var9;
+                    var4 = var7.bind(var8)(var4);
+ 117: // try_start_0
+                    var12 = _closure1_slot0;
+                    var13 = _closure1_slot2;
+                    var4 = 3;
+                    var4 = var13[var4];
+                    var4 = var12.bind(var2)(var4);
+                    var8 = var4.HTTP;
+                    var7 = var8.get;
+                    var4 = {};
+                    var9 = _closure1_slot5;
+                    var9 = var9.APEX_EXPERIMENTS;
+                    var4['url'] = var9;
+                    var9 = {};
+                    var11 = 5;
+                    var11 = var13[var11];
+                    var11 = var12.bind(var2)(var11);
+                    var11 = var11.Experiment_Surface;
+                    var11 = var11.APP;
+                    var9['surface'] = var11;
+                    var4['query'] = var9;
+                    var9 = false;
+                    var4['rejectWithError'] = var9;
+                    var4 = var7.bind(var8)(var4);
+                    SaveGenerator(address=214);
+ 212:
+                    return var4;
+ 214:
+                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
+                    if(var7) { _fun0002_ip = 350; continue _fun0002 }
+ 223:
+                    var10 = var4;
+                    var8 = null;
+                    if(!(var8 != var4)) { _fun0002_ip = 302; continue _fun0002 }
+ 232:
+                    var7 = var10;
+                    var7 = var7.body;
+                    if(!(var8 != var7)) { _fun0002_ip = 302; continue _fun0002 }
+ 244:
+                    var8 = _closure1_slot1;
+                    var7 = _closure1_slot2;
+                    var7 = var7[var5];
+                    var9 = var8.bind(var2)(var7);
+                    var8 = var9.dispatch;
+                    var7 = {};
+                    var11 = 'APEX_EXPERIMENTS_FETCH_SUCCESS';
+                    var7['type'] = var11;
+                    var11 = var6;
+                    var7['userId'] = var11;
+                    var10 = var10.body;
+                    var7['experiments'] = var10;
+                    var7 = var8.bind(var9)(var7);
+                    _fun0002_ip = 348; continue _fun0002;
+ 302:
+                    var8 = _closure1_slot1;
+                    var7 = _closure1_slot2;
+                    var7 = var7[var5];
+                    var9 = var8.bind(var2)(var7);
+                    var8 = var9.dispatch;
+                    var7 = {};
+                    var10 = 'APEX_EXPERIMENTS_FETCH_FAILURE';
+                    var7['type'] = var10;
+                    var10 = var6;
+                    var7['userId'] = var10;
+                    var7 = var8.bind(var9)(var7);
+ 348: // try_end0
+                    _fun0002_ip = 398; continue _fun0002;
+ 350:
+                    return var4;
+ 353: // catch_target0
+                    CatchBlockStart(arg_register=3);
+                    var4 = _closure1_slot1;
+                    var3 = _closure1_slot2;
+                    var3 = var3[var5];
+                    var5 = var4.bind(var2)(var3);
+                    var4 = var5.dispatch;
+                    var3 = {};
+                    var7 = 'APEX_EXPERIMENTS_FETCH_FAILURE';
+                    var3['type'] = var7;
+                    var3['userId'] = var6;
+                    var3 = var4.bind(var5)(var3);
+ 398:
+                    return var2;
+ 401:
+                    return var1;
+                }
+            };
+            return var1;
+        };
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot7 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var _closure1_slot7 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -142,18 +279,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot3 = var4;
     var4 = 1;
     var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.Endpoints;
-    var _closure1_slot4 = var4;
-    var4 = 4;
+    var _closure1_slot5 = var4;
+    var4 = 6;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/experiments/apex/ApexActionCreators.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function fetchApexExperimentsMetadata() {
+    var4 = function fetchApexExperimentsMetadata() {
         var1 = undefined;
-        var4 = _closure1_slot5;
+        var4 = _closure1_slot6;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -161,6 +302,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var3['fetchApexExperimentsMetadata'] = var2;
+    var3['fetchApexExperimentsMetadata'] = var4;
+    var2 = function fetchUserExperimentAssignments() {
+        var1 = undefined;
+        var4 = _closure1_slot7;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var3['fetchUserExperimentAssignments'] = var2;
     return var1;
 })();

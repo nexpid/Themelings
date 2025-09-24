@@ -58,7 +58,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var1.img;
                 var3 = var2.ctype;
                 var2 = 6;
-                if(!(var2 === var3)) { _fun0001_ip = 155; continue _fun0001 }
+                if(!(var2 === var3)) { _fun0001_ip = 161; continue _fun0001 }
  41:
                 var6 = _closure1_slot1;
                 var2 = _closure1_slot2;
@@ -68,32 +68,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var6.bind(var2)(var3);
                 var2 = var3.toRGBA8;
                 var1 = var1.img;
-                var7 = var2.bind(var3)(var1);
+                var2 = var2.bind(var3)(var1);
                 var1 = global;
-                var1 = var1.Uint8Array;
-                var2 = var1.prototype;
-                var2 = Object.create(var2, {constructor: {value: var1}});
+                var3 = var1.Uint8Array;
+                var1 = 0;
+                var7 = var2[var1];
+                var2 = var3.prototype;
+                var2 = Object.create(var2, {constructor: {value: var3}});
                 var8 = var2;
-                var1 = new var8[var1](var7, var6);
+                var1 = new var8[var3](var7, var6);
                 var3 = var1 instanceof Object ? var1 : var2;
                 var1 = var3.length;
                 var1 = var4 < var1;
                 var2 = 255;
-                if(!var1) { _fun0001_ip = 147; continue _fun0001 }
- 126:
+                if(!var1) { _fun0001_ip = 153; continue _fun0001 }
+ 132:
                 var1 = var3[var4];
-                if(!(!(var1 < var2))) { _fun0001_ip = 151; continue _fun0001 }
- 134:
+                if(!(!(var1 < var2))) { _fun0001_ip = 157; continue _fun0001 }
+ 140:
                 var4 = var4 + var5;
                 var1 = var3.length;
-                if(var4 < var1) { _fun0001_ip = 126; continue _fun0001 }
- 147:
+                if(var4 < var1) { _fun0001_ip = 132; continue _fun0001 }
+ 153:
                 var1 = false;
                 return var1;
- 151:
+ 157:
                 var1 = true;
                 return var1;
- 155:
+ 161:
                 var1 = false;
                 return var1;
             }

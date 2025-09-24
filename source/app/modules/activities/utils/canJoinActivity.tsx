@@ -85,7 +85,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = 4;
             var5 = var20[var5];
             var18 = var18.bind(var4)(var5);
-            var5 = var18.isDesktop;
+            var5 = var18.platformSupportsActivityJoin;
             var5 = var5.bind(var18)();
             if(var5) { _fun0001_ip = 222; continue _fun0001 }
  215:

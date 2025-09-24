@@ -48,40 +48,40 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
             var1 = arg1;
-            var7 = var1.fallbackPremiumType;
-            var4 = undefined;
-            if(!(var7 === var4)) { _fun0001_ip = 30; continue _fun0001 }
+            var8 = var1.fallbackPremiumType;
+            var5 = undefined;
+            if(!(var8 === var5)) { _fun0001_ip = 30; continue _fun0001 }
  17:
             var1 = _closure1_slot5;
-            var7 = var1.TIER_2;
+            var8 = var1.TIER_2;
  30:
-            var _closure2_slot0 = var4;
-            var _closure2_slot1 = var4;
-            var8 = _closure1_slot1;
+            var _closure2_slot0 = var5;
+            var _closure2_slot1 = var5;
+            var4 = _closure1_slot1;
             var3 = _closure1_slot2;
             var1 = 4;
             var1 = var3[var1];
-            var2 = var8.bind(var4)(var1);
+            var2 = var4.bind(var5)(var1);
             var1 = 5;
             var1 = var3[var1];
-            var1 = var8.bind(var4)(var1);
+            var1 = var4.bind(var5)(var1);
             var1 = var1.PREMIUM_TRIAL_OFFER_ACTION_SHEET;
-            var1 = var2.bind(var4)(var1);
+            var1 = var2.bind(var5)(var1);
             var1 = var1.analyticsLocations;
             _closure2_slot0 = var1;
             var2 = _closure1_slot0;
-            var8 = 6;
-            var8 = var3[var8];
-            var9 = var2.bind(var4)(var8);
-            var8 = var9.usePremiumTrialOffer;
-            var10 = var8.bind(var9)();
-            _closure2_slot1 = var10;
+            var4 = 6;
+            var4 = var3[var4];
+            var9 = var2.bind(var5)(var4);
+            var4 = var9.usePremiumTrialOffer;
+            var11 = var4.bind(var9)();
+            _closure2_slot1 = var11;
             var12 = _closure1_slot3;
-            var11 = var12.useEffect;
+            var10 = var12.useEffect;
             var9 = new Array(2);
-            var9[0] = var10;
+            var9[0] = var11;
             var9[1] = var1;
-            var8 = function() {
+            var4 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
                     var2 = _closure2_slot1;
@@ -130,12 +130,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 }
             };
-            var8 = var11.bind(var12)(var8, var9);
-            var11 = var12.useCallback;
+            var4 = var10.bind(var12)(var4, var9);
+            var10 = var12.useCallback;
             var9 = new Array(2);
             var9[0] = var1;
-            var9[1] = var10;
-            var8 = function() {
+            var9[1] = var11;
+            var4 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
                     var4 = _closure1_slot1;
@@ -211,11 +211,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 }
             };
-            var9 = var11.bind(var12)(var8, var9);
-            var11 = var12.useCallback;
-            var8 = new Array(2);
-            var8[0] = var1;
-            var8[1] = var10;
+            var10 = var10.bind(var12)(var4, var9);
+            var9 = var12.useCallback;
+            var4 = new Array(2);
+            var4[0] = var1;
+            var4[1] = var11;
             var1 = function() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
@@ -276,49 +276,53 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 }
             };
-            var8 = var11.bind(var12)(var1, var8);
+            var9 = var9.bind(var12)(var1, var4);
             var1 = 15;
             var1 = var3[var1];
-            var3 = var2.bind(var4)(var1);
-            var2 = var3.formatIntervalDuration;
-            var1 = {};
-            var13 = null;
-            var12 = var13 == var10;
-            var11 = undefined;
-            if(var12) { _fun0001_ip = 270; continue _fun0001 }
+            var4 = var2.bind(var5)(var1);
+            var3 = var4.formatIntervalDuration;
+            var2 = {};
+            var1 = null;
+            var13 = var1 == var11;
+            var12 = undefined;
+            if(var13) { _fun0001_ip = 270; continue _fun0001 }
  249:
-            var12 = var10.subscription_trial;
-            var14 = var13 == var12;
-            var11 = undefined;
+            var13 = var11.subscription_trial;
+            var14 = var1 == var13;
+            var12 = undefined;
             if(var14) { _fun0001_ip = 270; continue _fun0001 }
  264:
-            var11 = var12.interval;
+            var12 = var13.interval;
  270:
-            var1['intervalType'] = var11;
-            var12 = var13 == var10;
-            var11 = undefined;
-            if(var12) { _fun0001_ip = 305; continue _fun0001 }
- 284:
-            var12 = var10.subscription_trial;
-            var13 = var13 == var12;
-            var11 = undefined;
+            var2['intervalType'] = var12;
+            var13 = var1 == var11;
+            var12 = undefined;
             if(var13) { _fun0001_ip = 305; continue _fun0001 }
+ 284:
+            var13 = var11.subscription_trial;
+            var14 = var1 == var13;
+            var12 = undefined;
+            if(var14) { _fun0001_ip = 305; continue _fun0001 }
  299:
-            var11 = var12.interval_count;
+            var12 = var13.interval_count;
  305:
-            var1['intervalCount'] = var11;
-            var11 = var2.bind(var3)(var1);
-            var3 = _closure1_slot7;
-            var2 = _closure1_slot0;
-            var12 = _closure1_slot2;
-            var1 = 16;
-            var1 = var12[var1];
-            var1 = var2.bind(var4)(var1);
-            var2 = var1.BottomSheet;
-            var1 = {};
-            var13 = true;
-            var1['startExpanded'] = var13;
-            var6 = function onDismiss() {
+            var2['intervalCount'] = var12;
+            var12 = var3.bind(var4)(var2);
+            var2 = var1 == var11;
+            var1 = null;
+            if(var2) { _fun0001_ip = 434; continue _fun0001 }
+ 324:
+            var4 = _closure1_slot7;
+            var3 = _closure1_slot0;
+            var13 = _closure1_slot2;
+            var2 = 16;
+            var2 = var13[var2];
+            var2 = var3.bind(var5)(var2);
+            var3 = var2.BottomSheet;
+            var2 = {};
+            var14 = true;
+            var2['startExpanded'] = var14;
+            var7 = function onDismiss() {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
                     var4 = _closure1_slot1;
@@ -371,20 +375,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 }
             };
-            var1['onDismiss'] = var6;
-            var6 = _closure1_slot1;
-            var5 = 17;
-            var5 = var12[var5];
-            var6 = var6.bind(var4)(var5);
-            var5 = {};
-            var5['intervalDuration'] = var11;
-            var5['trialOffer'] = var10;
-            var5['onConfirm'] = var9;
-            var5['onDismiss'] = var8;
-            var5['fallbackPremiumType'] = var7;
-            var5 = var3.bind(var4)(var6, var5);
-            var1['children'] = var5;
-            var1 = var3.bind(var4)(var2, var1);
+            var2['onDismiss'] = var7;
+            var7 = _closure1_slot1;
+            var6 = 17;
+            var6 = var13[var6];
+            var7 = var7.bind(var5)(var6);
+            var6 = {};
+            var6['intervalDuration'] = var12;
+            var6['trialOffer'] = var11;
+            var6['onConfirm'] = var10;
+            var6['onDismiss'] = var9;
+            var6['fallbackPremiumType'] = var8;
+            var6 = var4.bind(var5)(var7, var6);
+            var2['children'] = var6;
+            var1 = var4.bind(var5)(var3, var2);
+ 434:
             return var1;
         }
     };

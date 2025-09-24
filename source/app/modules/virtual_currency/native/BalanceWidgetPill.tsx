@@ -1,24 +1,24 @@
 // app/modules/virtual_currency/native/BalanceWidgetPill.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var12 = metroImportDefault;
+    var4 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var12;
+    var _closure1_slot1 = var4;
     var _closure1_slot2 = var6;
     var1 = global;
-    var8 = var1.Object;
-    var4 = var8.defineProperty;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
     var2 = {};
     var1 = true;
     var2['value'] = var1;
     var1 = '__esModule';
-    var1 = var4.bind(var8)(var3, var1, var2);
-    var13 = 0;
-    var2 = var6[var13];
+    var1 = var8.bind(var9)(var3, var1, var2);
+    var1 = 0;
+    var2 = var6[var1];
     var1 = undefined;
-    var2 = var12.bind(var1)(var2);
+    var2 = var4.bind(var1)(var2);
     var _closure1_slot3 = var2;
     var2 = 1;
     var8 = var6[var2];
@@ -37,6 +37,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = 2;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
+    var8 = var2.Platform;
     var8 = var2.TouchableOpacity;
     var _closure1_slot8 = var8;
     var2 = var2.View;
@@ -90,8 +91,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var5 === var19;
  130:
             _closure2_slot5 = var7;
-            var3 = _closure1_slot12;
-            var13 = var3.bind(var4)();
+            var8 = _closure1_slot12;
+            var3 = 'android';
+            var13 = var8.bind(var4)(var3);
             var11 = _closure1_slot4;
             var8 = var11.useContext;
             var12 = _closure1_slot0;
@@ -127,10 +129,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3[var8];
             _closure2_slot11 = var3;
             var3 = var5 == var20;
-            if(var3) { _fun0001_ip = 303; continue _fun0001 }
- 300:
+            if(var3) { _fun0001_ip = 308; continue _fun0001 }
+ 305:
             var3 = !var18;
- 303:
+ 308:
             var12 = var12.bind(var4)(var3);
             var3 = _closure1_slot3;
             var3 = var3.bind(var4)(var12, var15);
@@ -359,10 +361,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = {};
             var1['onPress'] = var8;
             var8 = var6;
-            if(var6) { _fun0001_ip = 582; continue _fun0001 }
- 579:
+            if(var6) { _fun0001_ip = 587; continue _fun0001 }
+ 584:
             var8 = var7;
- 582:
+ 587:
             var1['disabled'] = var8;
             var8 = 0.8;
             var1['activeOpacity'] = var8;
@@ -374,10 +376,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['accessibilityRole'] = var8;
             var5 = var5 != var19;
             var11 = 'loading';
-            if(!var5) { _fun0001_ip = 640; continue _fun0001 }
- 637:
+            if(!var5) { _fun0001_ip = 645; continue _fun0001 }
+ 642:
             var11 = var19;
- 640:
+ 645:
             var5 = global;
             var5 = var5.HermesInternal;
             var8 = var5.concat;
@@ -385,10 +387,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var8.bind(var5)(var11);
             var1['accessibilityLabel'] = var5;
             var5 = {};
-            if(var6) { _fun0001_ip = 676; continue _fun0001 }
- 673:
+            if(var6) { _fun0001_ip = 681; continue _fun0001 }
+ 678:
             var6 = var7;
- 676:
+ 681:
             var5['disabled'] = var6;
             var1['accessibilityState'] = var5;
             var7 = _closure1_slot11;
@@ -422,10 +424,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var15.bind(var4)(var14);
             var15 = var14.BalanceCounter;
             var14 = {};
-            if(!var21) { _fun0001_ip = 819; continue _fun0001 }
- 816:
+            if(!var21) { _fun0001_ip = 824; continue _fun0001 }
+ 821:
             var19 = var20;
- 819:
+ 824:
             var14['value'] = var19;
             var14['valueChangeAnimationEnabled'] = var18;
             var14['onValueChange'] = var17;
@@ -443,15 +445,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11['children'] = var14;
             var11 = var12.bind(var4)(var6, var11);
             var8[1] = var11;
-            if(!var9) { _fun0001_ip = 930; continue _fun0001 }
- 904:
+            if(!var9) { _fun0001_ip = 935; continue _fun0001 }
+ 909:
             var12 = _closure1_slot10;
             var11 = _closure1_slot9;
             var10 = {};
             var13 = var13.notificationBadge;
             var10['style'] = var13;
             var9 = var12.bind(var4)(var11, var10);
- 930:
+ 935:
             var8[2] = var9;
             var5['children'] = var8;
             var5 = var7.bind(var4)(var6, var5);
@@ -467,53 +469,70 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var9 = var5.bind(var1)(var4);
     var8 = var9.createStyles;
-    var4 = {};
-    var10 = {'height': 36, 'borderRadius': null, 'justifyContent': 'center', 'alignItems': 'center', 'flexDirection': 'row'};
-    var11 = 10;
-    var14 = var6[var11];
-    var14 = var12.bind(var1)(var14);
-    var14 = var14.radii;
-    var14 = var14.round;
-    var10['borderRadius'] = var14;
-    var14 = var6[var11];
-    var14 = var12.bind(var1)(var14);
-    var14 = var14.spacing;
-    var14 = var14.PX_12;
-    var10['paddingHorizontal'] = var14;
-    var14 = var6[var11];
-    var14 = var12.bind(var1)(var14);
-    var14 = var14.spacing;
-    var14 = var14.PX_4;
-    var10['paddingVertical'] = var14;
-    var14 = var6[var11];
-    var14 = var12.bind(var1)(var14);
-    var14 = var14.colors;
-    var14 = var14.REDESIGN_BUTTON_TERTIARY_BACKGROUND;
-    var10['backgroundColor'] = var14;
-    var10['borderWidth'] = var13;
-    var4['clickable'] = var10;
-    var10 = {'flexDirection': 'row', 'alignItems': 'center', 'justifyContent': 'center', 'flexShrink': 0, 'position': 'relative', 'gap': 4};
-    var4['container'] = var10;
-    var10 = {'position': 'relative', 'height': 18, 'width': 18, 'justifyContent': 'center', 'alignItems': 'center'};
-    var4['orbsLottieContainer'] = var10;
-    var10 = {'position': 'absolute', 'right': -4.5, 'top': -4.5, 'width': 8, 'height': 8};
-    var13 = var6[var11];
-    var13 = var12.bind(var1)(var13);
-    var13 = var13.radii;
-    var13 = var13.xs;
-    var10['borderRadius'] = var13;
-    var4['notificationBadge'] = var10;
-    var10 = {'justifyContent': 'center', 'alignItems': 'flex-end'};
-    var4['balanceCounterContainer'] = var10;
-    var10 = {};
-    var11 = var6[var11];
-    var11 = var12.bind(var1)(var11);
-    var11 = var11.colors;
-    var11 = var11.REDESIGN_BUTTON_TERTIARY_TEXT;
-    var10['color'] = var11;
-    var11 = 'right';
-    var10['textAlign'] = var11;
-    var4['balanceText'] = var10;
+    var4 = function(arg1) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+ 0:
+            var1 = {};
+            var2 = {'height': 36, 'borderRadius': null, 'justifyContent': 'center', 'alignItems': 'center', 'flexDirection': 'row'};
+            var6 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var4 = 10;
+            var3 = var7[var4];
+            var5 = undefined;
+            var3 = var6.bind(var5)(var3);
+            var3 = var3.radii;
+            var3 = var3.round;
+            var2['borderRadius'] = var3;
+            var3 = var7[var4];
+            var3 = var6.bind(var5)(var3);
+            var3 = var3.spacing;
+            var3 = var3.PX_12;
+            var2['paddingHorizontal'] = var3;
+            var3 = var7[var4];
+            var3 = var6.bind(var5)(var3);
+            var3 = var3.spacing;
+            var3 = var3.PX_4;
+            var2['paddingVertical'] = var3;
+            var3 = var7[var4];
+            var3 = var6.bind(var5)(var3);
+            var3 = var3.colors;
+            var3 = var3.REDESIGN_BUTTON_TERTIARY_BACKGROUND;
+            var2['backgroundColor'] = var3;
+            var3 = 0;
+            var2['borderWidth'] = var3;
+            var1['clickable'] = var2;
+            var2 = {'flexDirection': 'row', 'alignItems': 'center', 'justifyContent': 'center', 'flexShrink': 0, 'position': 'relative', 'gap': 4};
+            var1['container'] = var2;
+            var2 = {'position': 'relative', 'height': 18, 'width': 18, 'justifyContent': 'center', 'alignItems': 'center'};
+            var1['orbsLottieContainer'] = var2;
+            var2 = {'position': 'absolute', 'right': -4.5, 'top': -4.5, 'width': 8, 'height': 8};
+            var8 = var7[var4];
+            var8 = var6.bind(var5)(var8);
+            var8 = var8.radii;
+            var8 = var8.xs;
+            var2['borderRadius'] = var8;
+            var1['notificationBadge'] = var2;
+            var2 = {'justifyContent': 'center', 'alignItems': 'flex-end'};
+            var1['balanceCounterContainer'] = var2;
+            var2 = {};
+            var4 = var7[var4];
+            var4 = var6.bind(var5)(var4);
+            var4 = var4.colors;
+            var4 = var4.REDESIGN_BUTTON_TERTIARY_TEXT;
+            var2['color'] = var4;
+            var4 = 'right';
+            var2['textAlign'] = var4;
+            var5 = 'android';
+            var4 = arg1;
+            if(!(var5 === var4)) { _fun0007_ip = 289; continue _fun0007 }
+ 286:
+            var3 = 16;
+ 289:
+            var2['lineHeight'] = var3;
+            var1['balanceText'] = var2;
+            return var1;
+        }
+    };
     var4 = var8.bind(var9)(var4);
     var _closure1_slot12 = var4;
     var4 = 11;

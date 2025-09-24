@@ -106,7 +106,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1['hasStoreChangeListeners'] = var7;
     var2['AudioSessionModeManager'] = var1;
     var1 = {};
-    var8 = ['POST_CONNECTION_OPEN', 'AUDIO_SET_LOCAL_VOLUME', 'AUDIO_TOGGLE_LOCAL_MUTE', 'AUDIO_TOGGLE_LOCAL_SOUNDBOARD_MUTE'];
+    var8 = ['POST_CONNECTION_OPEN', 'AUDIO_SET_LOCAL_VOLUME', 'AUDIO_TOGGLE_LOCAL_MUTE', 'AUDIO_TOGGLE_LOCAL_SOUNDBOARD_MUTE', 'MEDIA_ENGINE_RESET_SETTINGS'];
     var1['actions'] = var8;
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;

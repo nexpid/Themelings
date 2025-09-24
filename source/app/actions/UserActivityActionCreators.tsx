@@ -19,7 +19,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var10 = arg1;
                     var9 = arg2;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 300; continue _fun0001 }
+                    if(var2) { _fun0001_ip = 296; continue _fun0001 }
  16:
                     var2 = var10.metadata;
                     var5 = null;
@@ -31,15 +31,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var3.bind(var4)(var2);
                     var4 = var3.length;
                     var3 = 0;
-                    if(!(!(var4 > var3))) { _fun0001_ip = 297; continue _fun0001 }
+                    if(!(!(var4 > var3))) { _fun0001_ip = 293; continue _fun0001 }
  60:
                     var4 = _closure1_slot4;
                     var3 = var4.getActivityMetadata;
                     var3 = var3.bind(var4)(var9);
-                    if(!(var5 == var3)) { _fun0001_ip = 294; continue _fun0001 }
+                    if(!(var5 == var3)) { _fun0001_ip = 290; continue _fun0001 }
  87:
                     var4 = var10.session_id;
-                    if(!(var5 != var4)) { _fun0001_ip = 258; continue _fun0001 }
+                    if(!(var5 != var4)) { _fun0001_ip = 254; continue _fun0001 }
  100:
                     var5 = _closure1_slot0;
                     var7 = _closure1_slot2;
@@ -57,13 +57,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var10 = var12.bind(var13)(var9, var11, var10);
                     var4['url'] = var10;
                     var4 = var5.bind(var7)(var4);
-                    SaveGenerator(address=190);
- 188:
+                    SaveGenerator(address=186);
+ 184:
                     return var4;
- 190:
+ 186:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                    if(var5) { _fun0001_ip = 255; continue _fun0001 }
- 196:
+                    if(var5) { _fun0001_ip = 251; continue _fun0001 }
+ 192:
                     var5 = var4.body;
                     var7 = _closure1_slot1;
                     var10 = _closure1_slot2;
@@ -78,9 +78,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6['userId'] = var9;
                     var6 = var7.bind(var8)(var6);
                     return var5;
- 255:
+ 251:
                     return var4;
- 258:
+ 254:
                     var4 = global;
                     var6 = var4.Error;
                     var4 = var6.prototype;
@@ -90,11 +90,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = new var17[var6](var16, var15);
                     var4 = var4 instanceof Object ? var4 : var5;
                     throw var4;
- 294:
+ 290:
                     return var3;
- 297:
+ 293:
                     return var2;
- 300:
+ 296:
                     return var1;
                 }
             };

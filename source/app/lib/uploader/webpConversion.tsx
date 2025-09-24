@@ -324,7 +324,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     StartGenerator();
                     var2 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=3);
-                    if(var4) { _fun0002_ip = 1771; continue _fun0002 }
+                    if(var4) { _fun0002_ip = 1794; continue _fun0002 }
  15:
                     var9 = var2;
                     var _closure4_slot0 = var2;
@@ -352,7 +352,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var17 = undefined;
                     var21 = undefined;
                     var12 = null;
-                    if(!(var12 != var2)) { _fun0002_ip = 1735; continue _fun0002 }
+                    if(!(var12 != var2)) { _fun0002_ip = 1758; continue _fun0002 }
  89:
                     var24 = _closure1_slot4;
                     var8 = var24.verbose;
@@ -422,10 +422,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var6;
  182:
                     ResumeGenerator(result_out_reg=5, return_bool_out_reg=7);
-                    if(var8) { _fun0002_ip = 1665; continue _fun0002 }
+                    if(var8) { _fun0002_ip = 1688; continue _fun0002 }
  191:
                     var7 = var6;
-                    if(!(var12 == var6)) { _fun0002_ip = 1614; continue _fun0002 }
+                    if(!(var12 == var6)) { _fun0002_ip = 1637; continue _fun0002 }
  201:
                     var27 = var5.document;
                     var24 = var27.createElement;
@@ -437,7 +437,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = '2d';
                     var8 = var24.bind(var27)(var8);
                     var22 = var8;
-                    if(!(var12 != var8)) { _fun0002_ip = 1580; continue _fun0002 }
+                    if(!(var12 != var8)) { _fun0002_ip = 1603; continue _fun0002 }
  256:
                     var8 = var5.Image;
                     var24 = var8.prototype;
@@ -500,7 +500,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var8;
  351:
                     ResumeGenerator(result_out_reg=7, return_bool_out_reg=23);
-                    if(var24) { _fun0002_ip = 1536; continue _fun0002 }
+                    if(var24) { _fun0002_ip = 1559; continue _fun0002 }
  360:
                     var24 = var15;
                     var28 = var11;
@@ -538,10 +538,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var11;
  461:
                     ResumeGenerator(result_out_reg=10, return_bool_out_reg=26);
-                    if(var27) { _fun0002_ip = 1533; continue _fun0002 }
+                    if(var27) { _fun0002_ip = 1556; continue _fun0002 }
  470:
                     var16 = var11;
-                    if(!(var12 != var11)) { _fun0002_ip = 1499; continue _fun0002 }
+                    if(!(var12 != var11)) { _fun0002_ip = 1522; continue _fun0002 }
  480:
                     var27 = var5.performance;
                     var12 = var27.now;
@@ -560,7 +560,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var12;
  532:
                     ResumeGenerator(result_out_reg=11, return_bool_out_reg=26);
-                    if(var27) { _fun0002_ip = 1496; continue _fun0002 }
+                    if(var27) { _fun0002_ip = 1519; continue _fun0002 }
  541:
                     var26 = var12;
                     var30 = var22;
@@ -633,7 +633,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var13;
  672:
                     ResumeGenerator(result_out_reg=12, return_bool_out_reg=26);
-                    if(var27) { _fun0002_ip = 1452; continue _fun0002 }
+                    if(var27) { _fun0002_ip = 1475; continue _fun0002 }
  681:
                     var29 = var22;
                     var28 = var29.drawImage;
@@ -657,7 +657,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var15;
  754:
                     ResumeGenerator(result_out_reg=14, return_bool_out_reg=21);
-                    if(var22) { _fun0002_ip = 1449; continue _fun0002 }
+                    if(var22) { _fun0002_ip = 1472; continue _fun0002 }
  763:
                     var22 = _closure1_slot8;
                     var43 = var22.bind(var4)(var26);
@@ -807,38 +807,43 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var22 = var17;
                     var17 = 100;
                     var17 = var17 * var22;
-                    var22 = var20.bind(var21)(var17);
+                    var60 = var20.bind(var21)(var17);
+                    var17 = var9;
+                    var58 = var17.size;
+                    var56 = var16.size;
                     var17 = var5.HermesInternal;
-                    var21 = var17.concat;
-                    var20 = '[WebP] Insufficient savings: ';
-                    var17 = '% < 0%';
-                    var17 = var21.bind(var20)(var22, var17);
+                    var23 = var17.concat;
+                    var61 = '[WebP] Insufficient savings: ';
+                    var59 = '% < 0% (';
+                    var57 = ' -> ';
+                    var55 = ' bytes)';
+                    var17 = var61[var23](var60, var59, var58, var57, var56, var55, var54);
                     var17 = var18.bind(var19)(var17);
                     var18 = var3;
                     var17 = _closure1_slot5;
                     var17 = var17.INSUFFICIENT_SAVINGS;
                     var16 = var16.size;
                     var16 = var18.bind(var4)(var17, var16);
- 1446: // try_end4
+ 1469: // try_end4
                     return var16;
- 1449:
+ 1472:
                     return var15;
- 1452: // try_start_5
+ 1475: // try_start_5
                     var17 = var5.URL;
                     var16 = var17.revokeObjectURL;
                     var15 = var14;
                     var15 = var16.bind(var17)(var15);
- 1472: // try_end5
+ 1495: // try_end5
                     return var13;
- 1475: // try_start_6 // catch_target1
+ 1498: // try_start_6 // catch_target1
                     CatchBlockStart(arg_register=12);
                     var16 = var5.URL;
                     var15 = var16.revokeObjectURL;
                     var14 = var15.bind(var16)(var14);
                     throw var13;
- 1496: // try_end6
+ 1519: // try_end6
                     return var12;
- 1499: // try_start_7
+ 1522: // try_start_7
                     var14 = var5.Error;
                     var12 = var14.prototype;
                     var13 = Object.create(var12, {constructor: {value: var14}});
@@ -847,22 +852,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var12 = new var61[var14](var60, var59);
                     var12 = var12 instanceof Object ? var12 : var13;
                     throw var12;
- 1533: // try_end7
+ 1556: // try_end7
                     return var11;
- 1536: // try_start_8
+ 1559: // try_start_8
                     var13 = var5.URL;
                     var12 = var13.revokeObjectURL;
                     var11 = var10;
                     var11 = var12.bind(var13)(var11);
- 1556: // try_end8
+ 1579: // try_end8
                     return var8;
- 1559: // try_start_9 // catch_target0
+ 1582: // try_start_9 // catch_target0
                     CatchBlockStart(arg_register=7);
                     var12 = var5.URL;
                     var11 = var12.revokeObjectURL;
                     var10 = var11.bind(var12)(var10);
                     throw var8;
- 1580:
+ 1603:
                     var11 = var5.Error;
                     var8 = var11.prototype;
                     var10 = Object.create(var8, {constructor: {value: var11}});
@@ -871,7 +876,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = new var61[var11](var60, var59);
                     var8 = var8 instanceof Object ? var8 : var10;
                     throw var8;
- 1614:
+ 1637:
                     var11 = _closure1_slot4;
                     var10 = var11.verbose;
                     var8 = var7;
@@ -882,11 +887,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = var10.bind(var11)(var7);
                     var7 = var3;
                     var7 = var7.bind(var4)(var8);
- 1662: // try_end9
+ 1685: // try_end9
                     return var7;
- 1665:
+ 1688:
                     return var6;
- 1668: // catch_target2 // catch_target3 // catch_target4 // catch_target5 // catch_target6 // catch_target7 // catch_target8 // catch_target9
+ 1691: // catch_target2 // catch_target3 // catch_target4 // catch_target5 // catch_target6 // catch_target7 // catch_target8 // catch_target9
                     CatchBlockStart(arg_register=7);
                     var7 = _closure1_slot4;
                     var6 = var7.error;
@@ -901,7 +906,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var2.CONVERSION_FAILED;
                     var2 = var3.bind(var4)(var2);
                     return var2;
- 1735:
+ 1758:
                     var2 = global;
                     var4 = var2.Error;
                     var2 = var4.prototype;
@@ -911,7 +916,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = new var61[var4](var60, var59);
                     var2 = var2 instanceof Object ? var2 : var3;
                     throw var2;
- 1771:
+ 1794:
                     return var1;
                 }
             };

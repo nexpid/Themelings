@@ -5720,6 +5720,38 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var4 = var8.bind(var1)(var7, var4);
+    var7 = ['GAME_SERVER_CREATE'];
+    var4 = function(arg1, arg2) {
+        var1 = arg1;
+        var3 = _closure1_slot26;
+        var2 = {};
+        var4 = arg2;
+        var2['type'] = var4;
+        var4 = var1.guild_id;
+        var2['guildId'] = var4;
+        var1 = var1.game_server;
+        var2['gameServer'] = var1;
+        var1 = undefined;
+        var2 = var3.bind(var1)(var2);
+        return var1;
+    };
+    var4 = var8.bind(var1)(var7, var4);
+    var7 = ['GAME_SERVER_DELETE'];
+    var4 = function(arg1, arg2) {
+        var1 = arg1;
+        var3 = _closure1_slot26;
+        var2 = {};
+        var4 = arg2;
+        var2['type'] = var4;
+        var4 = var1.guild_id;
+        var2['guildId'] = var4;
+        var1 = var1.game_server_id;
+        var2['gameServerId'] = var1;
+        var1 = undefined;
+        var2 = var3.bind(var1)(var2);
+        return var1;
+    };
+    var4 = var8.bind(var1)(var7, var4);
     var7 = ['GUILD_APPLIED_BOOSTS_UPDATE'];
     var4 = function(arg1, arg2) {
         var3 = _closure1_slot26;

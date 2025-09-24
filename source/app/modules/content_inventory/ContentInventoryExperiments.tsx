@@ -118,7 +118,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3[var2];
             var2 = undefined;
             var4 = var4.bind(var2)(var3);
-            var3 = var4.getICYMIExperiment;
+            var3 = var4.getICYMIEnabled;
             var2 = false;
             var2 = var3.bind(var4)(var5, var2);
             if(var1) { _fun0001_ip = 84; continue _fun0001 }

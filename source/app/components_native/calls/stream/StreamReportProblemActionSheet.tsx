@@ -126,7 +126,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = 12;
         var3 = var10[var3];
         var5 = var5.bind(var4)(var3);
-        var3 = {'isStreamer': false, 'isEndStream': false, 'showVibesHoneypot': false};
+        var3 = {'isStreamer': false, 'isEndStream': false};
         var5 = var5.bind(var4)(var3);
         var3 = var5.map;
         var2 = function(arg1, arg2) {

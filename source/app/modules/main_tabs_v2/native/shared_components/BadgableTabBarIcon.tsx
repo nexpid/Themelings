@@ -436,7 +436,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = 0.5;
     var9['opacity'] = var10;
     var4['tabBarIconUnselected'] = var9;
-    var9 = {'position': 'absolute', 'top': 0, 'left': 0, 'right': 0, 'bottom': 0, 'backgroundColor': 'rgba(0, 0, 0, 0.7)', 'zIndex': 4294967286};
+    var9 = {'position': 'absolute', 'top': 0, 'left': 0, 'right': 0, 'bottom': 0, 'backgroundColor': 'rgba(0, 0, 0, 0.33)', 'zIndex': 4294967286};
     var4['dimOverlay'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot16 = var4;

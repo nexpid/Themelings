@@ -9,41 +9,51 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function getAvatarDecoration(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            var2 = arg1;
+            var3 = arg1;
             var8 = arg2;
             var5 = arguments[2];
-            var1 = undefined;
-            if(!(var5 === var1)) { _fun0001_ip = 33; continue _fun0001 }
+            var2 = undefined;
+            if(!(var5 === var2)) { _fun0001_ip = 33; continue _fun0001 }
  15:
             var4 = _closure1_slot3;
-            var3 = new Array(1);
-            var3[0] = var4;
-            var5 = var3;
+            var1 = new Array(1);
+            var1[0] = var4;
+            var5 = var1;
  33:
             var4 = _closure1_slot2;
-            var3 = 1;
-            var4 = var4.bind(var1)(var5, var3);
-            var3 = 0;
-            var7 = var4[var3];
-            var3 = null;
-            var5 = var3 != var8;
+            var1 = 1;
+            var4 = var4.bind(var2)(var5, var1);
+            var1 = 0;
+            var7 = var4[var1];
             var4 = null;
-            if(!var5) { _fun0001_ip = 83; continue _fun0001 }
+            var1 = var4 != var8;
+            var5 = null;
+            if(!var1) { _fun0001_ip = 92; continue _fun0001 }
  66:
+            var1 = var4 != var3;
+            var5 = null;
+            if(!var1) { _fun0001_ip = 92; continue _fun0001 }
+ 75:
             var6 = var7.getMember;
-            var5 = var2.id;
-            var4 = var6.bind(var7)(var8, var5);
- 83:
-            var5 = var3 == var4;
-            var1 = undefined;
-            if(var5) { _fun0001_ip = 98; continue _fun0001 }
+            var1 = var3.id;
+            var5 = var6.bind(var7)(var8, var1);
  92:
-            var1 = var4.avatarDecoration;
- 98:
-            if(!(var3 == var1)) { _fun0001_ip = 108; continue _fun0001 }
- 102:
-            var1 = var2.avatarDecoration;
- 108:
+            var6 = var4 == var5;
+            var1 = undefined;
+            if(var6) { _fun0001_ip = 107; continue _fun0001 }
+ 101:
+            var1 = var5.avatarDecoration;
+ 107:
+            if(!(var4 == var1)) { _fun0001_ip = 129; continue _fun0001 }
+ 111:
+            var4 = var4 == var3;
+            var2 = undefined;
+            if(var4) { _fun0001_ip = 126; continue _fun0001 }
+ 120:
+            var2 = var3.avatarDecoration;
+ 126:
+            var1 = var2;
+ 129:
             return var1;
         }
     };

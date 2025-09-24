@@ -56,7 +56,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  88:
                     var4 = _closure1_slot6;
                     var4 = var4.NSFW_SERVER;
-                    if(!(var4 !== var3)) { _fun0002_ip = 166; continue _fun0002 }
+                    if(!(var4 !== var3)) { _fun0002_ip = 175; continue _fun0002 }
  102:
                     var4 = _closure1_slot6;
                     var4 = var4.NSFW_CHANNEL;
@@ -198,42 +198,42 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 }
             };
-            var10 = undefined;
-            var14 = var1.bind(var10)(var2);
+            var8 = undefined;
+            var7 = var1.bind(var8)(var2);
             var1 = null;
-            if(!(var1 == var14)) { _fun0001_ip = 36; continue _fun0001 }
+            if(!(var1 == var7)) { _fun0001_ip = 36; continue _fun0001 }
  29:
-            var14 = function() {
+            var7 = function() {
                 var1 = undefined;
                 return var1;
             };
  36:
             var1 = {};
             var3 = _closure1_slot7;
-            var6 = var3.AgeGate;
+            var11 = var3.AgeGate;
             var3 = {};
-            var8 = true;
-            var3['fullscreen'] = var8;
-            var9 = _closure1_slot0;
-            var11 = _closure1_slot2;
-            var7 = 14;
-            var5 = var11[var7];
-            var5 = var9.bind(var10)(var5);
+            var13 = true;
+            var3['fullscreen'] = var13;
+            var6 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var12 = 14;
+            var5 = var9[var12];
+            var5 = var6.bind(var8)(var5);
             var5 = var5.ImpressionNames;
             var5 = var5.USER_AGE_GATE;
             var3['impressionName'] = var5;
             var5 = {};
-            var5['existing_user'] = var8;
+            var5['existing_user'] = var13;
             var3['impressionProperties'] = var5;
-            var12 = 15;
-            var5 = var11[var12];
-            var13 = var9.bind(var10)(var5);
-            var5 = var13.getHeaderBackButton;
-            var5 = var5.bind(var13)(var14);
-            var3['headerLeft'] = var5;
-            var5 = _closure1_slot11;
-            var3['headerTitle'] = var5;
-            var13 = function render(arg1, arg2) {
+            var5 = 15;
+            var10 = var9[var5];
+            var14 = var6.bind(var8)(var10);
+            var10 = var14.getHeaderBackButton;
+            var10 = var10.bind(var14)(var7);
+            var3['headerLeft'] = var10;
+            var10 = _closure1_slot11;
+            var3['headerTitle'] = var10;
+            var14 = function render(arg1, arg2) {
                 var5 = _closure2_slot0;
                 var2 = function generateOnSuccess(arg1, arg2) {
                     _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
@@ -348,14 +348,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var3.bind(var4)(var2, var1);
                 return var1;
             };
-            var3['render'] = var13;
-            var1[var6] = var3;
+            var3['render'] = var14;
+            var1[var11] = var3;
             var3 = _closure1_slot7;
-            var6 = var3.AgeGateConfirm;
+            var11 = var3.AgeGateConfirm;
             var3 = {};
-            var3['fullscreen'] = var8;
-            var3['headerTitle'] = var5;
-            var13 = function render(arg1) {
+            var3['fullscreen'] = var13;
+            var3['headerTitle'] = var10;
+            var14 = function render(arg1) {
                 var4 = _closure1_slot9;
                 var2 = _closure1_slot1;
                 var3 = _closure1_slot2;
@@ -373,24 +373,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var4.bind(var3)(var2, var1);
                 return var1;
             };
-            var3['render'] = var13;
-            var1[var6] = var3;
+            var3['render'] = var14;
+            var1[var11] = var3;
             var3 = _closure1_slot7;
-            var6 = var3.Pawtect;
+            var11 = var3.Pawtect;
             var3 = {};
-            var3['fullscreen'] = var8;
-            var12 = var11[var12];
-            var13 = var9.bind(var10)(var12);
-            var12 = var13.getHeaderBackButton;
-            var12 = var12.bind(var13)(var14);
-            var3['headerLeft'] = var12;
-            var7 = var11[var7];
-            var7 = var9.bind(var10)(var7);
-            var7 = var7.ImpressionNames;
-            var7 = var7.USER_AGE_GATE_VERIFY;
-            var3['impressionName'] = var7;
-            var3['headerTitle'] = var5;
-            var7 = function render() {
+            var3['fullscreen'] = var13;
+            var14 = var9[var5];
+            var15 = var6.bind(var8)(var14);
+            var14 = var15.getHeaderBackButton;
+            var14 = var14.bind(var15)(var7);
+            var3['headerLeft'] = var14;
+            var12 = var9[var12];
+            var12 = var6.bind(var8)(var12);
+            var12 = var12.ImpressionNames;
+            var12 = var12.USER_AGE_GATE_VERIFY;
+            var3['impressionName'] = var12;
+            var3['headerTitle'] = var10;
+            var12 = function render() {
                 var4 = _closure1_slot9;
                 var2 = _closure1_slot1;
                 var3 = _closure1_slot2;
@@ -404,17 +404,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var4.bind(var3)(var2, var1);
                 return var1;
             };
-            var3['render'] = var7;
-            var1[var6] = var3;
+            var3['render'] = var12;
+            var1[var11] = var3;
             var3 = _closure1_slot7;
-            var6 = var3.Blocked;
+            var11 = var3.Blocked;
             var3 = {};
-            var3['fullscreen'] = var8;
-            var3['headerTitle'] = var5;
-            var7 = {};
-            var7['existing_user'] = var8;
-            var3['impressionProperties'] = var7;
-            var7 = function render(arg1) {
+            var3['fullscreen'] = var13;
+            var3['headerTitle'] = var10;
+            var12 = {};
+            var12['existing_user'] = var13;
+            var3['impressionProperties'] = var12;
+            var12 = function render(arg1) {
                 var4 = _closure1_slot9;
                 var2 = _closure1_slot1;
                 var3 = _closure1_slot2;
@@ -429,12 +429,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var4.bind(var3)(var2, var1);
                 return var1;
             };
-            var3['render'] = var7;
-            var1[var6] = var3;
+            var3['render'] = var12;
+            var1[var11] = var3;
             var2 = _closure1_slot7;
             var3 = var2.NSFWGateGuild;
             var2 = {};
-            var2['headerTitle'] = var5;
+            var2['headerTitle'] = var10;
+            var5 = var9[var5];
+            var6 = var6.bind(var8)(var5);
+            var5 = var6.getHeaderBackButton;
+            var5 = var5.bind(var6)(var7);
+            var2['headerLeft'] = var5;
             var4 = function render() {
                 var4 = _closure1_slot9;
                 var2 = _closure1_slot1;

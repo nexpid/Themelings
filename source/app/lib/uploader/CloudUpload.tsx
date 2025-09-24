@@ -3146,136 +3146,155 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 _fun0030: for(var _fun0030_ip = 0; ; ) switch(_fun0030_ip) {
  0:
                     StartGenerator();
-                    var4 = this;
+                    var3 = this;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0030_ip = 741; continue _fun0030 }
+                    if(var2) { _fun0030_ip = 874; continue _fun0030 }
  13:
                     var2 = undefined;
+                    var7 = undefined;
+                    var11 = undefined;
+                    var8 = undefined;
                     var5 = undefined;
-                    var9 = undefined;
-                    var6 = undefined;
-                    var3 = undefined;
                     var12 = undefined;
-                    var8 = _closure1_slot0;
-                    var11 = _closure1_slot2;
-                    var7 = 31;
-                    var7 = var11[var7];
-                    var11 = var8.bind(var2)(var7);
-                    var8 = var11.getAttachmentWebPConversionConfig;
-                    var7 = {};
+                    var9 = _closure1_slot0;
+                    var10 = _closure1_slot2;
+                    var6 = 31;
+                    var6 = var10[var6];
+                    var10 = var9.bind(var2)(var6);
+                    var9 = var10.getImageAttachmentMezzanineV2Config;
+                    var6 = {};
                     var13 = 'CloudUpload.maybeConvertToWebP';
-                    var7['location'] = var13;
-                    var7 = var8.bind(var11)(var7);
-                    var7 = var7.enabled;
-                    if(!var7) { _fun0030_ip = 738; continue _fun0030 }
- 82:
-                    var7 = var4.item;
-                    var8 = var7.file;
-                    var7 = null;
-                    if(!(var7 == var8)) { _fun0030_ip = 154; continue _fun0030 }
- 99:
+                    var6['location'] = var13;
+                    var6 = var9.bind(var10)(var6);
+                    var9 = var6.enabled;
+                    if(var9) { _fun0030_ip = 134; continue _fun0030 }
+ 79:
                     var13 = _closure1_slot16;
-                    var11 = var13.warn;
-                    var16 = var4.id;
-                    var8 = global;
-                    var8 = var8.HermesInternal;
-                    var15 = var8.concat;
+                    var10 = var13.warn;
+                    var16 = var3.id;
+                    var9 = global;
+                    var9 = var9.HermesInternal;
+                    var15 = var9.concat;
                     var14 = 'webp conversion skipped for ';
-                    var8 = ': no file';
-                    var8 = var15.bind(var14)(var16, var8);
-                    var8 = var11.bind(var13)(var8);
-                    _fun0030_ip = 738; continue _fun0030;
- 154:
-                    var8 = var4._aborted;
-                    if(var8) { _fun0030_ip = 738; continue _fun0030 }
- 166:
-                    var8 = global;
-                    var13 = var8.performance;
-                    var11 = var13.now;
-                    var3 = var11.bind(var13)();
- 183: // try_start_0
+                    var9 = ': not enabled';
+                    var9 = var15.bind(var14)(var16, var9);
+                    var9 = var10.bind(var13)(var9);
+                    _fun0030_ip = 871; continue _fun0030;
+ 134:
+                    var9 = var3.item;
+                    var10 = var9.file;
+                    var9 = null;
+                    if(!(var9 == var10)) { _fun0030_ip = 206; continue _fun0030 }
+ 151:
+                    var14 = _closure1_slot16;
+                    var13 = var14.warn;
+                    var17 = var3.id;
+                    var10 = global;
+                    var10 = var10.HermesInternal;
+                    var16 = var10.concat;
+                    var15 = 'webp conversion skipped for ';
+                    var10 = ': no file';
+                    var10 = var16.bind(var15)(var17, var10);
+                    var10 = var13.bind(var14)(var10);
+                    _fun0030_ip = 871; continue _fun0030;
+ 206:
+                    var10 = var6.maxFileSizeBytes;
+                    if(!(var9 != var10)) { _fun0030_ip = 235; continue _fun0030 }
+ 216:
+                    var10 = var3.preCompressionSize;
+                    var6 = var6.maxFileSizeBytes;
+                    if(!(!(var10 > var6))) { _fun0030_ip = 821; continue _fun0030 }
+ 235:
+                    var6 = var3._aborted;
+                    if(var6) { _fun0030_ip = 871; continue _fun0030 }
+ 247:
+                    var10 = global;
+                    var13 = var10.performance;
+                    var6 = var13.now;
+                    var5 = var6.bind(var13)();
+ 264: // try_start_0
                     var13 = _closure1_slot0;
-                    var11 = _closure1_slot2;
+                    var6 = _closure1_slot2;
                     var15 = 32;
-                    var11 = var11[var15];
-                    var14 = var13.bind(var2)(var11);
+                    var6 = var6[var15];
+                    var14 = var13.bind(var2)(var6);
                     var13 = var14.convertToWebP;
-                    var11 = var4.item;
-                    var11 = var11.file;
-                    var11 = var13.bind(var14)(var11);
-                    SaveGenerator(address=229);
- 227:
-                    return var11;
- 229:
-                    ResumeGenerator(result_out_reg=10, return_bool_out_reg=12);
-                    if(var13) { _fun0030_ip = 585; continue _fun0030 }
- 238:
-                    var6 = var11;
-                    var13 = var4._aborted;
-                    if(var13) { _fun0030_ip = 582; continue _fun0030 }
- 253:
-                    var13 = var6;
+                    var6 = var3.item;
+                    var6 = var6.file;
+                    var6 = var13.bind(var14)(var6);
+                    SaveGenerator(address=310);
+ 308:
+                    return var6;
+ 310:
+                    ResumeGenerator(result_out_reg=5, return_bool_out_reg=12);
+                    if(var13) { _fun0030_ip = 666; continue _fun0030 }
+ 319:
+                    var8 = var6;
+                    var13 = var3._aborted;
+                    if(var13) { _fun0030_ip = 663; continue _fun0030 }
+ 334:
+                    var13 = var8;
                     var13 = var13.success;
-                    if(var13) { _fun0030_ip = 358; continue _fun0030 }
- 265:
-                    var13 = var6;
+                    if(var13) { _fun0030_ip = 439; continue _fun0030 }
+ 346:
+                    var13 = var8;
                     var13 = var13.reason;
                     var12 = var13;
-                    var13 = var7 != var13;
+                    var13 = var9 != var13;
                     var19 = 'unknown';
-                    if(!var13) { _fun0030_ip = 291; continue _fun0030 }
- 288:
+                    if(!var13) { _fun0030_ip = 372; continue _fun0030 }
+ 369:
                     var19 = var12;
- 291:
-                    var12 = var4.uploadAnalytics;
+ 372:
+                    var12 = var3.uploadAnalytics;
                     var12['conversionFailureReason'] = var19;
                     var14 = _closure1_slot16;
                     var13 = var14.log;
-                    var18 = var4.id;
-                    var12 = var8.HermesInternal;
+                    var18 = var3.id;
+                    var12 = var10.HermesInternal;
                     var17 = var12.concat;
                     var16 = 'webp conversion skipped for ';
                     var12 = ': ';
                     var12 = var17.bind(var16)(var18, var12, var19);
                     var12 = var13.bind(var14)(var12);
-                    _fun0030_ip = 580; continue _fun0030;
- 358:
-                    var14 = var4.item;
+                    _fun0030_ip = 661; continue _fun0030;
+ 439:
+                    var14 = var3.item;
                     var13 = _closure1_slot0;
                     var12 = _closure1_slot2;
                     var12 = var12[var15];
                     var15 = var13.bind(var2)(var12);
                     var13 = var15.getBestFileForUpload;
-                    var12 = var6;
+                    var12 = var8;
                     var13 = var13.bind(var15)(var12);
                     var14['file'] = var13;
-                    var13 = var4.item;
+                    var13 = var3.item;
                     var13 = var13.file;
                     var13 = var13.size;
-                    var4['currentSize'] = var13;
-                    var14 = var4.uploadAnalytics;
+                    var3['currentSize'] = var13;
+                    var14 = var3.uploadAnalytics;
                     var13 = 'image/webp';
                     var14['convertedMimeType'] = var13;
                     var12 = var12.hashTimeMs;
-                    if(!(var7 != var12)) { _fun0030_ip = 477; continue _fun0030 }
- 450:
-                    var12 = var4.uploadAnalytics;
+                    if(!(var9 != var12)) { _fun0030_ip = 558; continue _fun0030 }
+ 531:
+                    var12 = var3.uploadAnalytics;
                     var13 = var12.timing;
-                    var12 = var6;
+                    var12 = var8;
                     var12 = var12.hashTimeMs;
                     var13['hashTimeMs'] = var12;
- 477:
+ 558:
                     var14 = _closure1_slot16;
                     var13 = var14.log;
-                    var23 = var4.id;
-                    var12 = var6;
+                    var23 = var3.id;
+                    var12 = var8;
                     var29 = var12.sizeBefore;
                     var27 = var12.sizeAfter;
                     var16 = var12.compressionRatio;
                     var15 = var16.toFixed;
                     var12 = 2;
                     var25 = var15.bind(var16)(var12);
-                    var12 = var8.HermesInternal;
+                    var12 = var10.HermesInternal;
                     var19 = var12.concat;
                     var32 = 'webp conversion worked for ';
                     var30 = ': ';
@@ -3285,54 +3304,66 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var31 = var23;
                     var12 = var32[var19](var31, var30, var29, var28, var27, var26, var25, var24, var23);
                     var12 = var13.bind(var14)(var12);
- 580: // try_end0
-                    _fun0030_ip = 655; continue _fun0030;
- 582:
+ 661: // try_end0
+                    _fun0030_ip = 736; continue _fun0030;
+ 663:
                     return var2;
- 585:
-                    return var11;
- 588: // catch_target0
-                    CatchBlockStart(arg_register=12);
-                    var12 = var4.uploadAnalytics;
-                    var11 = 'unknown_error';
-                    var12['conversionFailureReason'] = var11;
-                    var12 = _closure1_slot16;
-                    var11 = var12.warn;
-                    var16 = var4.id;
-                    var10 = var8.HermesInternal;
-                    var15 = var10.concat;
-                    var14 = 'webp conversion failed for ';
-                    var10 = ':';
-                    var10 = var15.bind(var14)(var16, var10);
-                    var10 = var11.bind(var12)(var10, var13);
- 655:
-                    var4 = var4.uploadAnalytics;
-                    var4 = var4.timing;
-                    var9 = var6;
-                    var10 = var7 == var6;
-                    var6 = undefined;
-                    if(var10) { _fun0030_ip = 685; continue _fun0030 }
- 679:
-                    var6 = var9.compressTimeMs;
- 685:
-                    var5 = var6;
-                    if(!(var7 == var6)) { _fun0030_ip = 729; continue _fun0030 }
- 692:
-                    var7 = var8.Math;
-                    var6 = var7.round;
-                    var9 = var8.performance;
-                    var8 = var9.now;
-                    var8 = var8.bind(var9)();
-                    var3 = var8 - var3;
-                    var3 = var6.bind(var7)(var3);
-                    _fun0030_ip = 732; continue _fun0030;
- 729:
-                    var3 = var5;
- 732:
-                    var4['compressTimeMs'] = var3;
- 738:
+ 666:
+                    return var6;
+ 669: // catch_target0
+                    CatchBlockStart(arg_register=13);
+                    var12 = var3.uploadAnalytics;
+                    var6 = 'unknown_error';
+                    var12['conversionFailureReason'] = var6;
+                    var13 = _closure1_slot16;
+                    var12 = var13.warn;
+                    var17 = var3.id;
+                    var6 = var10.HermesInternal;
+                    var16 = var6.concat;
+                    var15 = 'webp conversion failed for ';
+                    var6 = ':';
+                    var6 = var16.bind(var15)(var17, var6);
+                    var6 = var12.bind(var13)(var6, var14);
+ 736:
+                    var6 = var3.uploadAnalytics;
+                    var6 = var6.timing;
+                    var11 = var8;
+                    var12 = var9 == var8;
+                    var8 = undefined;
+                    if(var12) { _fun0030_ip = 766; continue _fun0030 }
+ 760:
+                    var8 = var11.compressTimeMs;
+ 766:
+                    var7 = var8;
+                    if(!(var9 == var8)) { _fun0030_ip = 810; continue _fun0030 }
+ 773:
+                    var9 = var10.Math;
+                    var8 = var9.round;
+                    var11 = var10.performance;
+                    var10 = var11.now;
+                    var10 = var10.bind(var11)();
+                    var5 = var10 - var5;
+                    var5 = var8.bind(var9)(var5);
+                    _fun0030_ip = 813; continue _fun0030;
+ 810:
+                    var5 = var7;
+ 813:
+                    var6['compressTimeMs'] = var5;
+                    _fun0030_ip = 871; continue _fun0030;
+ 821:
+                    var5 = _closure1_slot16;
+                    var4 = var5.warn;
+                    var8 = var3.id;
+                    var3 = global;
+                    var3 = var3.HermesInternal;
+                    var7 = var3.concat;
+                    var6 = 'webp conversion skipped for ';
+                    var3 = ': too big';
+                    var3 = var7.bind(var6)(var8, var3);
+                    var3 = var4.bind(var5)(var3);
+ 871:
                     return var2;
- 741:
+ 874:
                     return var1;
                 }
             };

@@ -212,8 +212,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var7.isValidElement;
             var3 = var3.bind(var7)(var14);
             var7 = var14;
-            if(!var3) { _fun0001_ip = 178; continue _fun0001 }
- 125:
+            if(!var3) { _fun0001_ip = 174; continue _fun0001 }
+ 121:
             var13 = _closure1_slot3;
             var8 = var13.cloneElement;
             var3 = {};
@@ -226,21 +226,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var15.WHITE;
             var3['color'] = var15;
             var7 = var8.bind(var13)(var14, var3);
- 178:
+ 174:
             var8 = var1 != var12;
             var3 = undefined;
-            if(!var8) { _fun0001_ip = 196; continue _fun0001 }
- 187:
+            if(!var8) { _fun0001_ip = 192; continue _fun0001 }
+ 183:
             var8 = {};
             var8['bottom'] = var12;
             var3 = var8;
- 196:
+ 192:
             var4 = var4.button;
             var8 = new Array(2);
             var8[0] = var4;
             var8[1] = var3;
-            if(!(var1 == var10)) { _fun0001_ip = 352; continue _fun0001 }
- 221:
+            if(!(var1 == var10)) { _fun0001_ip = 348; continue _fun0001 }
+ 217:
             var4 = _closure1_slot4;
             var3 = _closure1_slot0;
             var12 = _closure1_slot2;
@@ -271,8 +271,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = 'pillStyle';
             var1[var11] = var12;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0001_ip = 414; continue _fun0001;
- 352:
+            _fun0001_ip = 410; continue _fun0001;
+ 348:
             var4 = _closure1_slot4;
             var3 = _closure1_slot8;
             var2 = {};
@@ -288,7 +288,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = 'icon';
             var2[var6] = var7;
             var1 = var4.bind(var5)(var3, var2);
- 414:
+ 410:
             return var1;
         }
     };

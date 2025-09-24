@@ -152,7 +152,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = 1;
             var2 = {'flex': 1, 'alignItems': 'center'};
             var1['rootContainer'] = var2;
-            var2 = {'width': null, 'flexDirection': 'row', 'justifyContent': 'center', 'gap': 32, 'paddingBottom': 32};
+            var2 = {'width': null, 'flexDirection': 'row', 'justifyContent': 'flex-start', 'gap': 32, 'paddingBottom': 32};
             var9 = _closure1_slot0;
             var6 = _closure1_slot2;
             var7 = 5;

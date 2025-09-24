@@ -194,8 +194,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = _closure1_slot7;
                 var1 = var1.doubleTapBehavior;
                 var3 = null;
-                if(!(var3 == var1)) { _fun0005_ip = 53; continue _fun0005 }
- 19:
+                if(!(var3 == var1)) { _fun0005_ip = 55; continue _fun0005 }
+ 21:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot1;
                 var2 = 6;
@@ -204,7 +204,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var4.bind(var2)(var3);
                 var2 = var2.GravityICYMIDoubleTapBehavior;
                 var1 = var2.DEFAULT;
- 53:
+ 55:
                 return var1;
             }
         };

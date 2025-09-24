@@ -53,7 +53,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0002_ip = 579; continue _fun0002 }
+                    if(var2) { _fun0002_ip = 575; continue _fun0002 }
  10:
                     var13 = arg1;
                     var4 = undefined;
@@ -77,47 +77,47 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var13 = var14.bind(var15)(var13);
                     var2['url'] = var13;
                     var2 = var3.bind(var8)(var2);
-                    SaveGenerator(address=104);
- 102:
+                    SaveGenerator(address=100);
+ 98:
                     return var2;
- 104:
+ 100:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0002_ip = 560; continue _fun0002 }
- 113:
+                    if(var3) { _fun0002_ip = 556; continue _fun0002 }
+ 109:
                     var3 = var2.body;
                     var7 = var3.stripe_payment_intent_client_secret;
                     var3 = _closure1_slot9;
                     var3 = var3.bind(var4)();
-                    SaveGenerator(address=136);
- 134:
+                    SaveGenerator(address=132);
+ 130:
                     return var3;
- 136:
+ 132:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(var4) { _fun0002_ip = 557; continue _fun0002 }
- 145:
+                    if(var4) { _fun0002_ip = 553; continue _fun0002 }
+ 141:
                     var10 = var3;
                     var8 = null;
-                    if(!(var8 != var3)) { _fun0002_ip = 542; continue _fun0002 }
- 157:
+                    if(!(var8 != var3)) { _fun0002_ip = 538; continue _fun0002 }
+ 153:
                     var14 = var10;
                     var13 = var14.retrievePaymentIntent;
                     var4 = var7;
                     var4 = var13.bind(var14)(var4);
-                    SaveGenerator(address=178);
- 176:
+                    SaveGenerator(address=174);
+ 172:
                     return var4;
- 178:
+ 174:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=12);
-                    if(var13) { _fun0002_ip = 539; continue _fun0002 }
- 187:
+                    if(var13) { _fun0002_ip = 535; continue _fun0002 }
+ 183:
                     var13 = var4.error;
                     var6 = var13;
                     var12 = var4.paymentIntent;
-                    if(!(var8 == var13)) { _fun0002_ip = 525; continue _fun0002 }
- 208:
+                    if(!(var8 == var13)) { _fun0002_ip = 521; continue _fun0002 }
+ 204:
                     var13 = var12;
-                    if(!(var8 != var13)) { _fun0002_ip = 510; continue _fun0002 }
- 218:
+                    if(!(var8 != var13)) { _fun0002_ip = 506; continue _fun0002 }
+ 214:
                     var5 = {};
                     var15 = var12;
                     var16 = var15.status;
@@ -125,51 +125,51 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var15 = var15.REQUIRES_PAYMENT_METHOD;
                     var15 = var16 === var15;
                     var14 = var15;
-                    if(!var15) { _fun0002_ip = 261; continue _fun0002 }
- 248:
+                    if(!var15) { _fun0002_ip = 257; continue _fun0002 }
+ 244:
                     var15 = var12;
                     var15 = var15.last_payment_error;
                     var14 = var8 != var15;
- 261:
+ 257:
                     var13 = var14;
-                    if(!var14) { _fun0002_ip = 286; continue _fun0002 }
- 267:
+                    if(!var14) { _fun0002_ip = 282; continue _fun0002 }
+ 263:
                     var14 = var12;
                     var14 = var14.last_payment_error;
                     var14 = var14.payment_method;
                     var13 = var8 != var14;
- 286:
-                    if(!var13) { _fun0002_ip = 318; continue _fun0002 }
- 289:
+ 282:
+                    if(!var13) { _fun0002_ip = 314; continue _fun0002 }
+ 285:
                     var14 = var5;
                     var13 = var12;
                     var13 = var13.last_payment_error;
                     var13 = var13.payment_method;
                     var13 = var13.id;
                     var14['payment_method'] = var13;
- 318:
+ 314:
                     var13 = var12;
                     var14 = var13.status;
                     var13 = _closure1_slot8;
                     var13 = var13.REQUIRES_PAYMENT_METHOD;
-                    if(!(var13 !== var14)) { _fun0002_ip = 449; continue _fun0002 }
- 340:
+                    if(!(var13 !== var14)) { _fun0002_ip = 445; continue _fun0002 }
+ 336:
                     var13 = _closure1_slot8;
                     var13 = var13.REQUIRES_CONFIRMATION;
-                    if(!(var13 !== var14)) { _fun0002_ip = 449; continue _fun0002 }
- 354:
+                    if(!(var13 !== var14)) { _fun0002_ip = 445; continue _fun0002 }
+ 350:
                     var13 = _closure1_slot8;
                     var13 = var13.REQUIRES_ACTION;
-                    if(!(var13 !== var14)) { _fun0002_ip = 449; continue _fun0002 }
- 368:
+                    if(!(var13 !== var14)) { _fun0002_ip = 445; continue _fun0002 }
+ 364:
                     var13 = _closure1_slot8;
                     var13 = var13.SUCCEEDED;
-                    if(!(var13 !== var14)) { _fun0002_ip = 444; continue _fun0002 }
- 382:
+                    if(!(var13 !== var14)) { _fun0002_ip = 440; continue _fun0002 }
+ 378:
                     var13 = _closure1_slot8;
                     var13 = var13.PROCESSING;
-                    if(!(var13 !== var14)) { _fun0002_ip = 444; continue _fun0002 }
- 396:
+                    if(!(var13 !== var14)) { _fun0002_ip = 440; continue _fun0002 }
+ 392:
                     var11 = _closure1_slot8;
                     var11 = var11.CANCELED;
                     var11 = {};
@@ -180,68 +180,68 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var12 = 'Invalid Payment Intent status: ';
                     var12 = var13.bind(var12)(var14);
                     var11['error'] = var12;
- 441: // try_end0
+ 437: // try_end0
                     return var11;
- 444:
+ 440:
                     var11 = {};
                     return var11;
- 449: // try_start_1
+ 445: // try_start_1
                     var11 = var10;
                     var10 = var11.confirmCardPayment;
                     var5 = var10.bind(var11)(var7, var5);
-                    SaveGenerator(address=468);
- 466:
+                    SaveGenerator(address=464);
+ 462:
                     return var5;
- 468:
+ 464:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=6);
-                    if(var7) { _fun0002_ip = 507; continue _fun0002 }
- 474:
+                    if(var7) { _fun0002_ip = 503; continue _fun0002 }
+ 470:
                     var7 = var5.error;
                     var9 = var7;
-                    if(!(var8 == var7)) { _fun0002_ip = 490; continue _fun0002 }
- 486:
+                    if(!(var8 == var7)) { _fun0002_ip = 486; continue _fun0002 }
+ 482:
                     var7 = {};
-                    _fun0002_ip = 504; continue _fun0002;
- 490:
+                    _fun0002_ip = 500; continue _fun0002;
+ 486:
                     var8 = {};
                     var9 = var9.message;
                     var8['error'] = var9;
                     var7 = var8;
- 504: // try_end1
+ 500: // try_end1
                     return var7;
- 507:
+ 503:
                     return var5;
- 510: // try_start_2
+ 506: // try_start_2
                     var5 = {};
                     var7 = 'payment intent does not exist';
                     var5['error'] = var7;
- 522: // try_end2
+ 518: // try_end2
                     return var5;
- 525: // try_start_3
+ 521: // try_start_3
                     var5 = {};
                     var6 = var6.message;
                     var5['error'] = var6;
- 536: // try_end3
+ 532: // try_end3
                     return var5;
- 539:
+ 535:
                     return var4;
- 542: // try_start_4
+ 538: // try_start_4
                     var4 = {};
                     var5 = 'unable to load stripe';
                     var4['error'] = var5;
- 554: // try_end4
+ 550: // try_end4
                     return var4;
- 557:
+ 553:
                     return var3;
- 560:
+ 556:
                     return var2;
- 563: // catch_target0 // catch_target1 // catch_target2 // catch_target3 // catch_target4
+ 559: // catch_target0 // catch_target1 // catch_target2 // catch_target3 // catch_target4
                     CatchBlockStart(arg_register=2);
                     var2 = {};
                     var3 = var3.message;
                     var2['error'] = var3;
                     return var2;
- 579:
+ 575:
                     return var1;
                 }
             };

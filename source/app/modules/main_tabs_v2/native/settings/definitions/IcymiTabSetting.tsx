@@ -47,13 +47,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var7.ADVANCED;
     var2['parent'] = var7;
     var7 = function useICYMISettingValue() {
-        var2 = _closure1_slot1;
-        var3 = _closure1_slot2;
-        var1 = 2;
-        var1 = var3[var1];
+        var4 = _closure1_slot1;
+        var5 = _closure1_slot2;
+        var2 = 2;
+        var2 = var5[var2];
         var3 = undefined;
-        var2 = var2.bind(var3)(var1);
-        var1 = 'hide_icymi_tab';
+        var2 = var4.bind(var3)(var2);
+        var4 = _closure1_slot0;
+        var1 = 3;
+        var1 = var5[var1];
+        var1 = var4.bind(var3)(var1);
+        var1 = var1.ICYMI_LAB_FEATURE;
         var1 = var2.bind(var3)(var1);
         return var1;
     };
@@ -61,33 +65,36 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = function onICYMISettingValueChange(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            var2 = arg1;
-            var5 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var1 = 3;
-            var4 = var4[var1];
-            var1 = undefined;
-            var4 = var5.bind(var1)(var4);
-            var8 = var4.ICYMIAnalytics;
-            var7 = var8.trackItemInteraction;
-            var6 = 'show';
-            if(!var2) { _fun0001_ip = 51; continue _fun0001 }
- 47:
-            var6 = 'hide';
- 51:
-            var5 = 'icymi_tab_toggle';
-            var4 = 'press';
-            var4 = var7.bind(var8)(var6, var5, var4);
+            var6 = arg1;
             var4 = _closure1_slot0;
-            var5 = _closure1_slot2;
-            var3 = 4;
-            var3 = var5[var3];
-            var5 = var4.bind(var1)(var3);
+            var3 = _closure1_slot2;
+            var1 = 4;
+            var3 = var3[var1];
+            var1 = undefined;
+            var3 = var4.bind(var1)(var3);
+            var8 = var3.ICYMIAnalytics;
+            var7 = var8.trackItemInteraction;
+            var5 = 'show';
+            if(!var6) { _fun0001_ip = 51; continue _fun0001 }
+ 47:
+            var5 = 'hide';
+ 51:
+            var4 = 'icymi_tab_toggle';
+            var3 = 'press';
+            var3 = var7.bind(var8)(var5, var4, var3);
+            var3 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var2 = 5;
+            var2 = var7[var2];
+            var5 = var3.bind(var1)(var2);
             var4 = var5.toggleLabFeature;
-            var3 = {};
-            var3['enabled'] = var2;
-            var2 = 'hide_icymi_tab';
-            var2 = var4.bind(var5)(var2, var3);
+            var2 = 3;
+            var2 = var7[var2];
+            var2 = var3.bind(var1)(var2);
+            var3 = var2.ICYMI_LAB_FEATURE;
+            var2 = {};
+            var2['enabled'] = var6;
+            var2 = var4.bind(var5)(var3, var2);
             return var1;
         }
     };
@@ -95,11 +102,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = function useICYMIPredicate() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
-        var1 = 5;
+        var1 = 3;
         var2 = var2[var1];
         var1 = undefined;
         var3 = var3.bind(var1)(var2);
-        var2 = var3.useICYMIExperiment;
+        var2 = var3.useICYMIEnabled;
         var1 = 'settings';
         var1 = var2.bind(var3)(var1);
         return var1;

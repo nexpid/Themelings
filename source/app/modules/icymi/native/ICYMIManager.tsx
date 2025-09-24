@@ -39,13 +39,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot10 = var2;
+            _closure1_slot9 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot10 = var1;
+    var _closure1_slot9 = var1;
     var1 = function fetchDehydratedData() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
@@ -57,27 +57,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  11:
             var4 = _closure1_slot1;
             var5 = _closure1_slot2;
-            var2 = 6;
+            var2 = 5;
             var2 = var5[var2];
             var5 = var4.bind(var1)(var2);
             var4 = var5.fetchDehydrated;
             var2 = {};
             var2['isInitialLoad'] = var6;
             var2 = var4.bind(var5)(var2);
-            var4 = _closure1_slot9;
+            var4 = _closure1_slot8;
             var2 = null;
             if(!(var2 != var4)) { _fun0002_ip = 79; continue _fun0002 }
  62:
             var2 = global;
             var4 = var2.clearTimeout;
-            var2 = _closure1_slot9;
+            var2 = _closure1_slot8;
             var2 = var4.bind(var1)(var2);
  79:
             var2 = global;
             var5 = var2.setTimeout;
             var4 = _closure1_slot1;
             var6 = _closure1_slot2;
-            var2 = 7;
+            var2 = 6;
             var2 = var6[var2];
             var2 = var4.bind(var1)(var2);
             var2 = var2.Millis;
@@ -85,17 +85,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = 15;
             var4 = var2 * var4;
             var2 = function() {
-                var2 = _closure1_slot11;
+                var2 = _closure1_slot10;
                 var1 = undefined;
                 var2 = var2.bind(var1)();
                 return var1;
             };
             var2 = var5.bind(var1)(var2, var4);
-            _closure1_slot9 = var2;
+            _closure1_slot8 = var2;
             return var1;
         }
     };
-    var _closure1_slot11 = var1;
+    var _closure1_slot10 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -125,13 +125,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var _closure1_slot7 = var4;
-    var4 = 5;
-    var4 = var6[var4];
-    var4 = var7.bind(var1)(var4);
-    var _closure1_slot8 = var4;
     var4 = null;
-    var _closure1_slot9 = var4;
-    var4 = 12;
+    var _closure1_slot8 = var4;
+    var4 = 9;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var2 = function(arg1) {
@@ -147,7 +143,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = _closure1_slot6;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot5;
-                var1 = _closure1_slot10;
+                var1 = _closure1_slot9;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0003_ip = 69; continue _fun0003 }
  51:
@@ -182,7 +178,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = function value() {
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 8;
+            var1 = 7;
             var2 = var2[var1];
             var1 = undefined;
             var5 = var3.bind(var1)(var2);
@@ -202,7 +198,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = function value() {
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 8;
+            var1 = 7;
             var2 = var2[var1];
             var1 = undefined;
             var5 = var3.bind(var1)(var2);
@@ -219,51 +215,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = 'handlePostConnectionOpen';
         var5['key'] = var7;
         var6 = function value() {
-            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
-                var4 = _closure1_slot11;
-                var1 = undefined;
-                var3 = true;
-                var3 = var4.bind(var1)(var3);
-                var4 = _closure1_slot1;
-                var5 = _closure1_slot2;
-                var3 = 6;
-                var6 = var5[var3];
-                var7 = var4.bind(var1)(var6);
-                var6 = var7.getGuildChannelScores;
-                var6 = var6.bind(var7)();
-                var3 = var5[var3];
-                var4 = var4.bind(var1)(var3);
-                var3 = var4.getRecommendedGuilds;
-                var3 = var3.bind(var4)();
-                var4 = _closure1_slot0;
-                var3 = 9;
-                var3 = var5[var3];
-                var6 = var4.bind(var1)(var3);
-                var3 = var6.fetchChannelAffinities;
-                var3 = var3.bind(var6)();
-                var3 = 10;
-                var3 = var5[var3];
-                var5 = var4.bind(var1)(var3);
-                var4 = var5.getIsNotificationsTabMerged;
-                var3 = {'location': 'ICYMIManager', 'autoTrackExposure': false};
-                var3 = var4.bind(var5)(var3);
-                var3 = var3.enabled;
-                if(!var3) { _fun0004_ip = 184; continue _fun0004 }
- 136:
-                var4 = _closure1_slot0;
-                var5 = _closure1_slot2;
-                var3 = 11;
-                var3 = var5[var3];
-                var5 = var4.bind(var1)(var3);
-                var4 = var5.gravityFetchMentions;
-                var2 = _closure1_slot8;
-                var3 = var2.roleFilter;
-                var2 = var2.everyoneFilter;
-                var2 = var4.bind(var5)(var3, var2);
- 184:
-                return var1;
-            }
+            var4 = _closure1_slot10;
+            var1 = undefined;
+            var3 = true;
+            var3 = var4.bind(var1)(var3);
+            var5 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var3 = 5;
+            var6 = var4[var3];
+            var7 = var5.bind(var1)(var6);
+            var6 = var7.getGuildChannelScores;
+            var6 = var6.bind(var7)();
+            var3 = var4[var3];
+            var5 = var5.bind(var1)(var3);
+            var3 = var5.getRecommendedGuilds;
+            var3 = var3.bind(var5)();
+            var3 = _closure1_slot0;
+            var2 = 8;
+            var2 = var4[var2];
+            var3 = var3.bind(var1)(var2);
+            var2 = var3.fetchChannelAffinities;
+            var2 = var2.bind(var3)();
+            return var1;
         };
         var5['value'] = var6;
         var1[2] = var5;
@@ -276,7 +249,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var4;
     var2 = new var13[var2](var12);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 13;
+    var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
