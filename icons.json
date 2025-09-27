@@ -11319,6 +11319,16 @@
         "width": 200.33333333333334,
         "height": 139.33333333333334
     },
+    "RedoIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/RedoIcon.png",
+        "hash": "99c2aceced1d5a009665b153565dfa9a",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "RefreshIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/RefreshIcon.png",
         "hash": "6a0ddc4dfa01243a568d62e1d4d9933f",
@@ -12990,9 +13000,29 @@
         "width": 70,
         "height": 47
     },
+    "UndoIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/UndoIcon.png",
+        "hash": "323498ae21a1f1cd52570d9622a76094",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "UnknownGameIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/UnknownGameIcon.png",
         "hash": "d3fab159eb6fbc67101ebfb3c406ad51",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
+    "UnsendIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/UnsendIcon.png",
+        "hash": "e419c87bb474b83d8ead0592b77205c7",
         "scales": [
             2,
             3
