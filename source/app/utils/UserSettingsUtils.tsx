@@ -304,10 +304,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         }
     };
     var3['harvestDisabled'] = var6;
-    var6 = function trackPaneViewed(arg1) {
+    var6 = function trackUserSettingsPaneViewed(arg1) {
         var1 = arg1;
-        var8 = var1.destinationPane;
-        var7 = var1.source;
+        var11 = var1.destinationPane;
+        var12 = var1.originPane;
+        var9 = var1.source;
+        var8 = var1.subsection;
+        var10 = var1.locationStack;
+        var7 = var1.searchQuery;
         var6 = var1.applicationId;
         var4 = _closure1_slot1;
         var3 = _closure1_slot2;
@@ -315,19 +319,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var3[var1];
         var1 = undefined;
         var5 = var4.bind(var1)(var3);
-        var4 = var5.track;
+        var4 = var5.trackWithMetadata;
         var2 = _closure1_slot5;
         var3 = var2.SETTINGS_PANE_VIEWED;
         var2 = {};
-        var9 = 'user';
-        var2['settings_type'] = var9;
-        var2['destination_pane'] = var8;
-        var2['source'] = var7;
+        var13 = 'user';
+        var2['settings_type'] = var13;
+        var2['origin_pane'] = var12;
+        var2['destination_pane'] = var11;
+        var2['location_stack'] = var10;
+        var2['source'] = var9;
+        var2['subsection'] = var8;
+        var2['search_query'] = var7;
         var2['application_id'] = var6;
         var2 = var4.bind(var5)(var3, var2);
         return var1;
     };
-    var3['trackPaneViewed'] = var6;
+    var3['trackUserSettingsPaneViewed'] = var6;
     var3['NonSpamRetrainingOptInOptions'] = var5;
     var3['NonSpamRetrainingOptInOptionsToValue'] = var4;
     var2 = function generateNonSpamRetrainingOptInSettingOptions() {

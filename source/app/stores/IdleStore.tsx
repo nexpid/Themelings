@@ -86,15 +86,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = _closure1_slot12;
                 var4 = var4 - var1;
                 var1 = _closure1_slot9;
-                if(!(!(var4 > var1))) { _fun0004_ip = 98; continue _fun0004 }
+                if(!(!(var4 > var1))) { _fun0004_ip = 102; continue _fun0004 }
  36:
                 var1 = _closure1_slot19;
                 var5 = undefined;
                 var1 = var1.bind(var5)();
-                if(var1) { _fun0004_ip = 98; continue _fun0004 }
+                if(var1) { _fun0004_ip = 102; continue _fun0004 }
  49:
                 var1 = _closure1_slot13;
-                if(!var1) { _fun0004_ip = 162; continue _fun0004 }
+                if(!var1) { _fun0004_ip = 166; continue _fun0004 }
  56:
                 var4 = _closure1_slot1;
                 var6 = _closure1_slot2;
@@ -104,11 +104,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var5.dispatch;
                 var1 = {'type': 'IDLE', 'idle': false};
                 var1 = var4.bind(var5)(var1);
-                _fun0004_ip = 162; continue _fun0004;
- 98:
+                _fun0004_ip = 166; continue _fun0004;
+ 102:
                 var1 = _closure1_slot13;
-                if(var1) { _fun0004_ip = 162; continue _fun0004 }
- 105:
+                if(var1) { _fun0004_ip = 166; continue _fun0004 }
+ 109:
                 var5 = _closure1_slot1;
                 var4 = _closure1_slot2;
                 var1 = 11;
@@ -120,7 +120,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = _closure1_slot12;
                 var1['idleSince'] = var6;
                 var1 = var4.bind(var5)(var1);
- 162:
+ 166:
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
                 var1 = 9;
@@ -131,8 +131,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var5.getSetting;
                 var5 = var4.bind(var5)();
                 var4 = 0;
-                if(!(var4 !== var5)) { _fun0004_ip = 357; continue _fun0004 }
- 209:
+                if(!(var4 !== var5)) { _fun0004_ip = 361; continue _fun0004 }
+ 213:
                 var6 = var3.Date;
                 var4 = var6.now;
                 var6 = var4.bind(var6)();
@@ -150,15 +150,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var5 * var3;
                 var3 = _closure1_slot9;
                 var3 = var6.bind(var7)(var5, var3);
-                if(!(!(var4 > var3))) { _fun0004_ip = 357; continue _fun0004 }
- 293:
+                if(!(!(var4 > var3))) { _fun0004_ip = 361; continue _fun0004 }
+ 297:
                 var3 = _closure1_slot19;
                 var3 = var3.bind(var1)();
-                if(var3) { _fun0004_ip = 357; continue _fun0004 }
- 304:
+                if(var3) { _fun0004_ip = 361; continue _fun0004 }
+ 308:
                 var3 = _closure1_slot14;
-                if(!var3) { _fun0004_ip = 408; continue _fun0004 }
- 311:
+                if(!var3) { _fun0004_ip = 412; continue _fun0004 }
+ 315:
                 var4 = _closure1_slot1;
                 var5 = _closure1_slot2;
                 var3 = 11;
@@ -167,11 +167,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var5.dispatch;
                 var3 = {'type': 'AFK', 'afk': false};
                 var3 = var4.bind(var5)(var3);
-                _fun0004_ip = 408; continue _fun0004;
- 357:
+                _fun0004_ip = 412; continue _fun0004;
+ 361:
                 var3 = _closure1_slot14;
-                if(var3) { _fun0004_ip = 408; continue _fun0004 }
- 364:
+                if(var3) { _fun0004_ip = 412; continue _fun0004 }
+ 368:
                 var3 = _closure1_slot1;
                 var4 = _closure1_slot2;
                 var2 = 11;
@@ -180,7 +180,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var4.dispatch;
                 var2 = {'type': 'AFK', 'afk': true};
                 var2 = var3.bind(var4)(var2);
- 408:
+ 412:
                 return var1;
             }
         };

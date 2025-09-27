@@ -110,11 +110,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = 'onPress';
             var2 = var2 in var5;
             var6 = var3;
-            if(!var2) { _fun0002_ip = 186; continue _fun0002 }
- 177:
+            if(!var2) { _fun0002_ip = 190; continue _fun0002 }
+ 181:
             var2 = var5.onPress;
-            if(!(var10 == var2)) { _fun0002_ip = 223; continue _fun0002 }
- 186:
+            if(!(var10 == var2)) { _fun0002_ip = 227; continue _fun0002 }
+ 190:
             var11 = _closure1_slot7;
             var3 = _closure1_slot6;
             var2 = {};
@@ -125,7 +125,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[var12] = var7;
             var2 = var11.bind(var4)(var3, var2);
             return var2;
- 223:
+ 227:
             var11 = var5.accessibilityRole;
             var3 = _closure1_slot4;
             var2 = _closure1_slot3;
@@ -135,10 +135,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = {};
             var12 = var10 != var11;
             var10 = 'button';
-            if(!var12) { _fun0002_ip = 266; continue _fun0002 }
- 263:
+            if(!var12) { _fun0002_ip = 270; continue _fun0002 }
+ 267:
             var10 = var11;
- 266:
+ 270:
             var1['accessibilityRole'] = var10;
             var17 = var1;
             var16 = var5;

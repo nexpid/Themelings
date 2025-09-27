@@ -2347,25 +2347,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = 66;
                     var5 = var7[var5];
                     var7 = var6.bind(var1)(var5);
-                    var6 = var7.trackPaneViewed;
+                    var6 = var7.trackUserSettingsPaneViewed;
                     var5 = {};
                     var8 = var8.GUILD_BOOSTING;
                     var5['destinationPane'] = var8;
                     var5 = var6.bind(var7)(var5);
                     var5 = null;
-                    if(!(var5 == var4)) { _fun0008_ip = 160; continue _fun0008 }
- 134:
+                    if(!(var5 == var4)) { _fun0008_ip = 161; continue _fun0008 }
+ 135:
                     var6 = _closure2_slot0;
                     var5 = var6.push;
                     var3 = _closure1_slot19;
                     var3 = var3.GUILD_BOOSTING;
                     var3 = var5.bind(var6)(var3);
-                    _fun0008_ip = 175; continue _fun0008;
- 160:
+                    _fun0008_ip = 176; continue _fun0008;
+ 161:
                     var3 = _closure2_slot0;
                     var2 = var3.navigate;
                     var2 = var2.bind(var3)(var4);
- 175:
+ 176:
                     return var1;
                 }
             };

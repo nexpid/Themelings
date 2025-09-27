@@ -118,16 +118,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var12.bind(var1)(var7);
     var _closure1_slot18 = var7;
     var7 = 14;
+    var7 = var6[var7];
+    var7 = var12.bind(var1)(var7);
+    var _closure1_slot19 = var7;
+    var7 = 15;
     var8 = var6[var7];
     var8 = var12.bind(var1)(var8);
-    var _closure1_slot19 = var8;
+    var _closure1_slot20 = var8;
     var7 = var6[var7];
     var7 = var5.bind(var1)(var7);
     var7 = var7.RoleColorsStyle;
-    var _closure1_slot20 = var7;
-    var7 = 15;
-    var7 = var6[var7];
-    var7 = var12.bind(var1)(var7);
     var _closure1_slot21 = var7;
     var7 = 16;
     var7 = var6[var7];
@@ -430,7 +430,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var1 = var1.role;
                             var6 = var1.id;
                             var _closure5_slot8 = var6;
-                            var5 = _closure1_slot19;
+                            var5 = _closure1_slot20;
                             var1 = var5.getRoleStyleData;
                             var5 = var1.bind(var5)(var6);
                             var8 = null;
@@ -443,7 +443,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  151:
                             if(!(var8 == var10)) { _fun0003_ip = 165; continue _fun0003 }
  155:
-                            var7 = _closure1_slot20;
+                            var7 = _closure1_slot21;
                             var10 = var7.SOLID;
  165:
                             var9 = var8 == var5;
@@ -479,11 +479,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var9 = var5[var10];
  248:
                             var _closure5_slot10 = var9;
-                            var5 = _closure1_slot20;
+                            var5 = _closure1_slot21;
                             var5 = var5.SOLID;
                             if(!(var10 !== var5)) { _fun0003_ip = 329; continue _fun0003 }
  266:
-                            var5 = _closure1_slot20;
+                            var5 = _closure1_slot21;
                             var5 = var5.HOLOGRAPHIC;
                             if(!(var10 !== var5)) { _fun0003_ip = 309; continue _fun0003 }
  280:
@@ -510,18 +510,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var5['primary_color'] = var7;
                             _closure5_slot10 = var5;
  353:
-                            var5 = _closure1_slot19;
+                            var5 = _closure1_slot20;
                             var5 = var5.hasRoleConfigurationChanges;
                             if(!var5) { _fun0003_ip = 390; continue _fun0003 }
  368:
-                            var7 = _closure1_slot19;
+                            var7 = _closure1_slot20;
                             var8 = var7.editedRoleIdsForConfigurations;
                             var7 = var8.has;
                             var5 = var7.bind(var8)(var6);
  390:
                             if(!var5) { _fun0003_ip = 421; continue _fun0003 }
  393:
-                            var5 = _closure1_slot19;
+                            var5 = _closure1_slot20;
                             var4 = var5.getEditedRoleConnectionConfigurationsMap;
                             var5 = var4.bind(var5)();
                             var4 = var5.get;
@@ -1634,7 +1634,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4[1] = var3;
             var3 = _closure1_slot15;
             var4[2] = var3;
-            var3 = _closure1_slot21;
+            var3 = _closure1_slot19;
             var4[3] = var3;
             var3 = function() {
                 _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
@@ -1682,7 +1682,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var17[var9](var16, var15, var14, var13, var12);
                     var6 = !var4;
  164:
-                    var4 = _closure1_slot21;
+                    var4 = _closure1_slot19;
                     var1 = var4.getProps;
                     var1 = var1.bind(var4)();
                     var4 = var1.integrations;

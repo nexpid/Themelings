@@ -241,11 +241,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  169:
             var3 = var4;
  172:
+            if(var3) { _fun0005_ip = 213; continue _fun0005 }
+ 175:
+            var9 = var5 == var8;
+            var4 = undefined;
+            if(var9) { _fun0005_ip = 210; continue _fun0005 }
+ 184:
+            var12 = var8.features;
+            var11 = var12.has;
+            var9 = _closure1_slot9;
+            var9 = var9.SOCIAL_LAYER_STOREFRONT;
+            var4 = var11.bind(var12)(var9);
+ 210:
+            var3 = var4;
+ 213:
             var3 = !var3;
-            if(var3) { _fun0005_ip = 265; continue _fun0005 }
- 178:
-            if(var2) { _fun0005_ip = 214; continue _fun0005 }
- 181:
+            if(var3) { _fun0005_ip = 306; continue _fun0005 }
+ 219:
+            if(var2) { _fun0005_ip = 255; continue _fun0005 }
+ 222:
             var9 = _closure1_slot0;
             var11 = _closure1_slot3;
             var4 = 7;
@@ -253,27 +267,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var9.bind(var6)(var4);
             var4 = var9.isRestrictedFromShowingGuildPurchaseEntryPoints;
             var4 = var4.bind(var9)(var10);
-            _fun0005_ip = 262; continue _fun0005;
- 214:
+            _fun0005_ip = 303; continue _fun0005;
+ 255:
             var9 = var5 == var8;
             var6 = undefined;
-            if(var9) { _fun0005_ip = 249; continue _fun0005 }
- 223:
+            if(var9) { _fun0005_ip = 290; continue _fun0005 }
+ 264:
             var9 = var8.features;
             var8 = var9.has;
             var7 = _closure1_slot9;
             var7 = var7.CREATOR_MONETIZABLE_RESTRICTED;
             var6 = var8.bind(var9)(var7);
- 249:
+ 290:
             var5 = var5 == var6;
-            if(var5) { _fun0005_ip = 259; continue _fun0005 }
- 256:
+            if(var5) { _fun0005_ip = 300; continue _fun0005 }
+ 297:
             var5 = var6;
- 259:
+ 300:
             var4 = var5;
- 262:
+ 303:
             var3 = var4;
- 265:
+ 306:
             var1['shouldHideGuildPurchaseEntryPoints'] = var3;
             var1['restrictionsLoading'] = var2;
             return var1;

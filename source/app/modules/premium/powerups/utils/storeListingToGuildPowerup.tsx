@@ -141,7 +141,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  354:
             var5 = var6.guild_features;
  360:
-            if(!(var16 != var5)) { _fun0001_ip = 853; continue _fun0001 }
+            if(!(var16 != var5)) { _fun0001_ip = 854; continue _fun0001 }
  367:
             var7 = _closure1_slot3;
             var6 = var5.additional_emoji_slots;
@@ -162,7 +162,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var14;
             var7 = var13;
             var6 = var12;
-            if(!var2) { _fun0001_ip = 781; continue _fun0001 }
+            if(!var2) { _fun0001_ip = 782; continue _fun0001 }
  450:
             var19 = var17.find;
             var2 = function(arg1) {
@@ -176,107 +176,107 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var22 = var19.bind(var17)(var2);
             var2 = var16 == var22;
             var19 = undefined;
-            if(var2) { _fun0001_ip = 539; continue _fun0001 }
- 476:
+            if(var2) { _fun0001_ip = 540; continue _fun0001 }
+ 477:
             var2 = var22.sku;
             var20 = var16 == var2;
             var11 = var2;
             var19 = undefined;
-            if(var20) { _fun0001_ip = 539; continue _fun0001 }
- 494:
+            if(var20) { _fun0001_ip = 540; continue _fun0001 }
+ 495:
             var2 = var2.powerup_metadata;
             var20 = var16 == var2;
             var11 = var2;
             var19 = undefined;
-            if(var20) { _fun0001_ip = 539; continue _fun0001 }
- 512:
+            if(var20) { _fun0001_ip = 540; continue _fun0001 }
+ 513:
             var20 = var2.guild_features;
             var2 = var16 == var20;
             var11 = var20;
             var19 = undefined;
-            if(var2) { _fun0001_ip = 539; continue _fun0001 }
- 530:
+            if(var2) { _fun0001_ip = 540; continue _fun0001 }
+ 531:
             var19 = var20.additional_emoji_slots;
             var11 = var20;
- 539:
+ 540:
             var20 = var16 != var19;
             var2 = 0;
-            if(!var20) { _fun0001_ip = 551; continue _fun0001 }
- 548:
+            if(!var20) { _fun0001_ip = 552; continue _fun0001 }
+ 549:
             var2 = var19;
- 551:
+ 552:
             var21 = var14 + var2;
             var2 = var16 == var22;
             var19 = undefined;
-            if(var2) { _fun0001_ip = 627; continue _fun0001 }
- 564:
+            if(var2) { _fun0001_ip = 628; continue _fun0001 }
+ 565:
             var2 = var22.sku;
             var20 = var16 == var2;
             var10 = var2;
             var19 = undefined;
-            if(var20) { _fun0001_ip = 627; continue _fun0001 }
- 582:
+            if(var20) { _fun0001_ip = 628; continue _fun0001 }
+ 583:
             var2 = var2.powerup_metadata;
             var20 = var16 == var2;
             var10 = var2;
             var19 = undefined;
-            if(var20) { _fun0001_ip = 627; continue _fun0001 }
- 600:
+            if(var20) { _fun0001_ip = 628; continue _fun0001 }
+ 601:
             var20 = var2.guild_features;
             var2 = var16 == var20;
             var10 = var20;
             var19 = undefined;
-            if(var2) { _fun0001_ip = 627; continue _fun0001 }
- 618:
+            if(var2) { _fun0001_ip = 628; continue _fun0001 }
+ 619:
             var19 = var20.additional_sound_slots;
             var10 = var20;
- 627:
+ 628:
             var20 = var16 != var19;
             var2 = 0;
-            if(!var20) { _fun0001_ip = 639; continue _fun0001 }
- 636:
+            if(!var20) { _fun0001_ip = 640; continue _fun0001 }
+ 637:
             var2 = var19;
- 639:
+ 640:
             var20 = var13 + var2;
             var2 = var16 == var22;
             var19 = undefined;
-            if(var2) { _fun0001_ip = 715; continue _fun0001 }
- 652:
+            if(var2) { _fun0001_ip = 716; continue _fun0001 }
+ 653:
             var2 = var22.sku;
             var23 = var16 == var2;
             var9 = var2;
             var19 = undefined;
-            if(var23) { _fun0001_ip = 715; continue _fun0001 }
- 670:
+            if(var23) { _fun0001_ip = 716; continue _fun0001 }
+ 671:
             var2 = var2.powerup_metadata;
             var23 = var16 == var2;
             var9 = var2;
             var19 = undefined;
-            if(var23) { _fun0001_ip = 715; continue _fun0001 }
- 688:
+            if(var23) { _fun0001_ip = 716; continue _fun0001 }
+ 689:
             var23 = var2.guild_features;
             var2 = var16 == var23;
             var9 = var23;
             var19 = undefined;
-            if(var2) { _fun0001_ip = 715; continue _fun0001 }
- 706:
+            if(var2) { _fun0001_ip = 716; continue _fun0001 }
+ 707:
             var19 = var23.additional_sticker_slots;
             var9 = var23;
- 715:
+ 716:
             var23 = var16 != var19;
             var2 = 0;
-            if(!var23) { _fun0001_ip = 727; continue _fun0001 }
- 724:
+            if(!var23) { _fun0001_ip = 728; continue _fun0001 }
+ 725:
             var2 = var19;
- 727:
+ 728:
             var19 = var12 + var2;
             var23 = var16 == var22;
             var2 = undefined;
-            if(var23) { _fun0001_ip = 752; continue _fun0001 }
- 740:
+            if(var23) { _fun0001_ip = 753; continue _fun0001 }
+ 741:
             var22 = var22.sku;
             var2 = var22.dependent_sku_id;
- 752:
+ 753:
             _closure2_slot0 = var2;
             var14 = var21;
             var13 = var20;
@@ -285,7 +285,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var13;
             var6 = var12;
             if(var16 != var2) { _fun0001_ip = 450; continue _fun0001 }
- 781:
+ 782:
             var2 = {};
             var4 = _closure1_slot2;
             var4 = var4.LEVEL;
@@ -305,7 +305,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var24 = var3;
             var3 = copyDataProperties(var25, var24);
             return var2;
- 853:
+ 854:
             return var1;
         }
     };

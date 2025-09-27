@@ -439,7 +439,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var14.PX_8;
             var11['gap'] = var14;
             var8['style'] = var11;
-            if(!var13) { _fun0001_ip = 763; continue _fun0001 }
+            if(!var13) { _fun0001_ip = 756; continue _fun0001 }
  702:
             var18 = _closure1_slot6;
             var14 = _closure1_slot0;
@@ -494,6 +494,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var6.bind(var1)(var5);
                     var5 = var5.MOBILE_ORBS_INTRO_QUEST_ID;
                     var2['scrollToQuestId'] = var5;
+                    var5 = true;
+                    var2['mergeExistingRoutes'] = var5;
                     var2 = var3.bind(var4)(var2);
                     return var1;
                 };
@@ -548,10 +550,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var11['onPress'] = var19;
-            var19 = false;
-            var11['showNotificationBadge'] = var19;
             var13 = var18.bind(var4)(var14, var11);
- 763:
+ 756:
             var11 = new Array(2);
             var11[0] = var13;
             var14 = _closure1_slot6;

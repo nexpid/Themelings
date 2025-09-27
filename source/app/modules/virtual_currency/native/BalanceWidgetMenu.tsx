@@ -73,13 +73,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
             var2 = arg1;
             var6 = var2.style;
-            var17 = _closure1_slot0;
-            var18 = _closure1_slot2;
+            var12 = _closure1_slot0;
+            var5 = _closure1_slot2;
             var2 = 5;
-            var2 = var18[var2];
+            var2 = var5[var2];
             var4 = undefined;
-            var7 = var17.bind(var4)(var2);
-            var5 = var7.useStateFromStores;
+            var8 = var12.bind(var4)(var2);
+            var7 = var8.useStateFromStores;
             var2 = _closure1_slot5;
             var3 = new Array(1);
             var3[0] = var2;
@@ -88,10 +88,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var1.onboardingPillEnabled;
                 return var1;
             };
-            var9 = var5.bind(var7)(var3, var2);
+            var9 = var7.bind(var8)(var3, var2);
             var2 = 6;
-            var2 = var18[var2];
-            var3 = var17.bind(var4)(var2);
+            var2 = var5[var2];
+            var3 = var12.bind(var4)(var2);
             var2 = var3.useFetchVirtualCurrencyBalance;
             var2 = var2.bind(var3)();
             var15 = var2.balance;
@@ -187,6 +187,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var6.bind(var1)(var5);
                     var5 = var5.MOBILE_ORBS_INTRO_QUEST_ID;
                     var2['scrollToQuestId'] = var5;
+                    var5 = true;
+                    var2['mergeExistingRoutes'] = var5;
                     var2 = var3.bind(var4)(var2);
                     return var1;
                 };
@@ -216,8 +218,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var5.bind(var6)(var3, var2, var4);
                 return var1;
             };
-            var5 = _closure1_slot3;
-            var3 = var5.useCallback;
+            var7 = _closure1_slot3;
+            var3 = var7.useCallback;
             var2 = function() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
@@ -246,33 +248,52 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var1 = new Array(0);
-            var13 = var3.bind(var5)(var2, var1);
+            var13 = var3.bind(var7)(var2, var1);
             var3 = _closure1_slot8;
             var1 = 16;
-            var1 = var18[var1];
-            var1 = var17.bind(var4)(var1);
+            var1 = var5[var1];
+            var1 = var12.bind(var4)(var1);
             var2 = var1.PressableOpacity;
-            var1 = {'accessibilityRole': 'button', 'accessibilityLabel': 'Orbs Balance'};
-            var1['onPress'] = var14;
+            var1 = {};
+            var7 = 'button';
+            var1['accessibilityRole'] = var7;
+            var18 = 10;
+            var7 = var5[var18];
+            var7 = var12.bind(var4)(var7);
+            var8 = var7.intl;
+            var7 = var8.string;
+            var5 = var5[var18];
+            var5 = var12.bind(var4)(var5);
+            var5 = var5.t;
+            var5 = var5.y0WGqK;
+            var5 = var7.bind(var8)(var5);
+            var1['accessibilityLabel'] = var5;
+            var5 = var14;
+            if(!var9) { _fun0001_ip = 230; continue _fun0001 }
+ 227:
+            var5 = var13;
+ 230:
+            var1['onPress'] = var5;
             var7 = var11.pressable;
             var5 = new Array(2);
             var5[0] = var7;
             var5[1] = var6;
             var1['style'] = var5;
             var8 = _closure1_slot7;
+            var17 = _closure1_slot0;
+            var7 = _closure1_slot2;
             var5 = 17;
-            var5 = var18[var5];
+            var5 = var7[var5];
             var5 = var17.bind(var4)(var5);
             var6 = var5.Text;
             var5 = {'accessibilityRole': 'header', 'variant': 'text-sm/semibold', 'color': 'header-secondary'};
-            var7 = var11.label;
-            var5['style'] = var7;
-            var7 = 10;
-            var12 = var18[var7];
+            var12 = var11.label;
+            var5['style'] = var12;
+            var12 = var7[var18];
             var12 = var17.bind(var4)(var12);
             var16 = var12.intl;
             var12 = var16.string;
-            var7 = var18[var7];
+            var7 = var7[var18];
             var7 = var17.bind(var4)(var7);
             var7 = var7.t;
             var7 = var7.gGtZp6;
@@ -286,8 +307,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var11.pill;
             var6['style'] = var11;
             var12 = _closure1_slot7;
-            if(var9) { _fun0001_ip = 386; continue _fun0001 }
- 334:
+            if(var9) { _fun0001_ip = 440; continue _fun0001 }
+ 395:
             var11 = _closure1_slot0;
             var16 = _closure1_slot2;
             var9 = 19;
@@ -296,12 +317,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var9.BalanceWidgetPill;
             var9 = {};
             var9['balance'] = var15;
-            var15 = false;
-            var9['showNotificationBadge'] = var15;
             var9['onPress'] = var14;
             var9 = var12.bind(var4)(var11, var9);
-            _fun0001_ip = 418; continue _fun0001;
- 386:
+            _fun0001_ip = 472; continue _fun0001;
+ 440:
             var11 = _closure1_slot1;
             var14 = _closure1_slot2;
             var10 = 18;
@@ -310,7 +329,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = {};
             var10['onPress'] = var13;
             var9 = var12.bind(var4)(var11, var10);
- 418:
+ 472:
             var6['children'] = var9;
             var6 = var8.bind(var4)(var7, var6);
             var5[1] = var6;

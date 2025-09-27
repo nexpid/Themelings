@@ -1026,19 +1026,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1['pollMedia'] = var13;
                     var1['isSelected'] = var11;
                     var11 = _closure2_slot7;
-                    if(!var11) { _fun0010_ip = 632; continue _fun0010 }
- 629:
+                    if(!var11) { _fun0010_ip = 628; continue _fun0010 }
+ 625:
                     var11 = var12;
- 632:
+ 628:
                     var1['isVictor'] = var11;
                     var1['didSelfVote'] = var9;
                     var1['style'] = var8;
                     var8 = _closure2_slot10;
-                    if(!var8) { _fun0010_ip = 662; continue _fun0010 }
- 655:
+                    if(!var8) { _fun0010_ip = 658; continue _fun0010 }
+ 651:
                     var9 = _closure2_slot1;
                     var8 = !var9;
- 662:
+ 658:
                     var1['shouldAnimateTransition'] = var8;
                     var9 = var4.Math;
                     var8 = var9.round;

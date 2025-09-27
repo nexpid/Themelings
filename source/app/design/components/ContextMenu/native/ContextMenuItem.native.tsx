@@ -432,10 +432,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var10 = var1.height;
                     var3 = var1.width;
                     var1 = 0;
-                    if(!(var1 !== var10)) { _fun0005_ip = 149; continue _fun0005 }
- 31:
-                    if(!(var1 !== var3)) { _fun0005_ip = 149; continue _fun0005 }
- 35:
+                    if(!(var1 !== var10)) { _fun0005_ip = 148; continue _fun0005 }
+ 30:
+                    if(!(var1 !== var3)) { _fun0005_ip = 148; continue _fun0005 }
+ 34:
                     var8 = _closure2_slot0;
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot2;
@@ -461,7 +461,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var1.INDEX_BOUNDS_WIDTH_OFFSET;
                     var1 = var4 + var1;
                     var2[var1] = var3;
- 149:
+ 148:
                     var1 = undefined;
                     return var1;
                 }

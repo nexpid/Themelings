@@ -104,16 +104,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var4.bind(var5)(var3);
                 var6 = null;
                 var3 = var6 == var4;
-                if(var3) { _fun0002_ip = 59; continue _fun0002 }
- 49:
+                if(var3) { _fun0002_ip = 60; continue _fun0002 }
+ 50:
                 var5 = var4.onDismiss;
                 var3 = var6 == var5;
- 59:
-                if(var3) { _fun0002_ip = 72; continue _fun0002 }
- 62:
+ 60:
+                if(var3) { _fun0002_ip = 73; continue _fun0002 }
+ 63:
                 var3 = var4.onDismiss;
                 var3 = var3.bind(var4)();
- 72:
+ 73:
                 var3 = _closure1_slot2;
                 var2 = var3.setState;
                 var1 = function(arg1) {

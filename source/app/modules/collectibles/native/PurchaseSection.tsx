@@ -243,32 +243,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot2 = var5;
             var _closure2_slot3 = var5;
             var _closure2_slot4 = var5;
-            var2 = _closure1_slot14;
-            var7 = var2.bind(var5)();
-            _closure2_slot2 = var7;
-            var4 = _closure1_slot0;
+            var3 = _closure1_slot14;
+            var6 = var3.bind(var5)();
+            _closure2_slot2 = var6;
+            var7 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var2 = 16;
-            var2 = var8[var2];
-            var3 = var4.bind(var5)(var2);
-            var2 = var3.useVirtualCurrencyData;
-            var3 = var2.bind(var3)(var10, var9);
-            var2 = var3.enabled;
-            var14 = var3.price;
-            var9 = var3.canAfford;
-            _closure2_slot3 = var9;
-            var3 = 17;
+            var3 = 16;
             var3 = var8[var3];
-            var4 = var4.bind(var5)(var3);
-            var3 = var4.useNavigation;
-            var11 = var3.bind(var4)();
+            var4 = var7.bind(var5)(var3);
+            var3 = var4.useVirtualCurrencyData;
+            var4 = var3.bind(var4)(var10, var9);
+            var3 = var4.enabled;
+            var17 = var4.price;
+            var9 = var4.canAfford;
+            _closure2_slot3 = var9;
+            var4 = 17;
+            var4 = var8[var4];
+            var7 = var7.bind(var5)(var4);
+            var4 = var7.useNavigation;
+            var11 = var4.bind(var7)();
             _closure2_slot4 = var11;
             var8 = _closure1_slot4;
-            var4 = var8.useCallback;
-            var3 = new Array(3);
-            var3[0] = var11;
-            var3[1] = var10;
-            var3[2] = var1;
+            var7 = var8.useCallback;
+            var4 = new Array(3);
+            var4[0] = var11;
+            var4[1] = var10;
+            var4[2] = var1;
             var1 = function() {
                 var5 = _closure1_slot1;
                 var2 = _closure1_slot2;
@@ -440,27 +440,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var5.bind(var6)(var4, var3, var2);
                 return var1;
             };
-            var8 = var4.bind(var8)(var1, var3);
+            var8 = var7.bind(var8)(var1, var4);
             var1 = null;
-            if(!(var1 != var14)) { _fun0002_ip = 470; continue _fun0002 }
+            if(!(var1 != var17)) { _fun0002_ip = 534; continue _fun0002 }
  192:
-            if(!var2) { _fun0002_ip = 470; continue _fun0002 }
+            if(!var3) { _fun0002_ip = 534; continue _fun0002 }
  198:
-            var3 = _closure1_slot0;
-            var11 = _closure1_slot2;
-            var2 = 15;
-            var4 = var11[var2];
-            var4 = var3.bind(var5)(var4);
-            var12 = var4.intl;
-            var10 = var12.format;
-            var2 = var11[var2];
-            var2 = var3.bind(var5)(var2);
-            var2 = var2.t;
-            var4 = var2.lOtBOD;
-            var2 = {};
-            var14 = var14.amount;
-            var2['orbPrice'] = var14;
-            var13 = function orbIconHook() {
+            var4 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var13 = 15;
+            var3 = var7[var13];
+            var3 = var4.bind(var5)(var3);
+            var12 = var3.intl;
+            var11 = var12.format;
+            var3 = var7[var13];
+            var3 = var4.bind(var5)(var3);
+            var3 = var3.t;
+            var10 = var3.lOtBOD;
+            var3 = {};
+            var15 = var17.amount;
+            var3['orbPrice'] = var15;
+            var14 = function orbIconHook() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
                     var4 = _closure1_slot11;
@@ -496,33 +496,46 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 }
             };
-            var2['orbIconHook'] = var13;
-            var10 = var10.bind(var12)(var4, var2);
-            var4 = _closure1_slot11;
-            var2 = 25;
-            var2 = var11[var2];
-            var2 = var3.bind(var5)(var2);
-            var3 = var2.Text;
-            var2 = {};
-            var11 = var7.orbsButtonText;
-            var2['style'] = var11;
-            var11 = 'text-md/semibold';
-            var2['variant'] = var11;
-            var11 = 'interactive-active';
+            var3['orbIconHook'] = var14;
+            var12 = var11.bind(var12)(var10, var3);
+            var10 = _closure1_slot11;
+            var3 = 25;
+            var3 = var7[var3];
+            var3 = var4.bind(var5)(var3);
+            var4 = var3.Text;
+            var3 = {};
+            var7 = var6.orbsButtonText;
+            var3['style'] = var7;
+            var7 = 'text-md/semibold';
+            var3['variant'] = var7;
+            var7 = 'interactive-active';
             if(!var9) { _fun0002_ip = 337; continue _fun0002 }
  333:
-            var11 = 'white';
+            var7 = 'white';
  337:
-            var2['color'] = var11;
-            var2['children'] = var10;
-            var10 = var4.bind(var5)(var3, var2);
+            var3['color'] = var7;
+            var7 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var14 = var11[var13];
+            var14 = var7.bind(var5)(var14);
+            var16 = var14.intl;
+            var15 = var16.formatToPlainString;
+            var13 = var11[var13];
+            var13 = var7.bind(var5)(var13);
+            var13 = var13.t;
+            var14 = var13.yi41qa;
+            var13 = {};
+            var17 = var17.amount;
+            var13['orbPrice'] = var17;
+            var13 = var15.bind(var16)(var14, var13);
+            var3['accessibilityLabel'] = var13;
+            var3['children'] = var12;
+            var10 = var10.bind(var5)(var4, var3);
             var4 = _closure1_slot11;
             var3 = _closure1_slot5;
             var2 = {};
-            var7 = var7.buttonContainer;
-            var2['style'] = var7;
-            var7 = _closure1_slot0;
-            var11 = _closure1_slot2;
+            var6 = var6.buttonContainer;
+            var2['style'] = var6;
             var6 = 26;
             var6 = var11[var6];
             var6 = var7.bind(var5)(var6);
@@ -537,10 +550,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = 'lg';
             var6['size'] = var8;
             var8 = 'secondary';
-            if(!var9) { _fun0002_ip = 441; continue _fun0002 }
- 437:
+            if(!var9) { _fun0002_ip = 505; continue _fun0002 }
+ 501:
             var8 = 'primary';
- 441:
+ 505:
             var6['variant'] = var8;
             var8 = true;
             var6['grow'] = var8;
@@ -548,7 +561,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['children'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
- 470:
+ 534:
             return var1;
         }
     };

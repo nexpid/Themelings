@@ -1479,13 +1479,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var1.nativeEvent;
                     var4 = _closure2_slot5;
                     var2 = null;
-                    if(!(var2 != var4)) { _fun0020_ip = 39; continue _fun0020 }
- 22:
+                    if(!(var2 != var4)) { _fun0020_ip = 38; continue _fun0020 }
+ 21:
                     var5 = _closure2_slot5;
                     var4 = undefined;
                     var2 = 'scroll_reaction_row';
                     var2 = var5.bind(var4)(var2);
- 39:
+ 38:
                     var2 = var1.contentOffset;
                     var4 = var2.x;
                     var2 = var1.contentSize;

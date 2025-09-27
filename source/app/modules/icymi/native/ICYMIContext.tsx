@@ -31,48 +31,48 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = function useICYMIContextConstructor() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            var2 = _closure1_slot0;
+            var3 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var1 = 2;
-            var1 = var7[var1];
+            var2 = 2;
+            var2 = var7[var2];
             var6 = undefined;
-            var4 = var2.bind(var6)(var1);
-            var2 = var4.useDestinationICYMIExperiment;
-            var1 = {};
+            var4 = var3.bind(var6)(var2);
+            var3 = var4.useDestinationICYMIExperiment;
+            var2 = {};
             var5 = 'ICYMI';
-            var1['location'] = var5;
-            var1 = var2.bind(var4)(var1);
-            var5 = var1.isNewCardDesign;
-            var1 = var1.isNewHeaderAndInteractions;
-            var4 = _closure1_slot1;
+            var2['location'] = var5;
+            var2 = var3.bind(var4)(var2);
+            var3 = var2.isNewCardDesign;
+            var4 = var2.isNewHeaderAndInteractions;
+            var5 = _closure1_slot1;
             var2 = 3;
             var2 = var7[var2];
-            var2 = var4.bind(var6)(var2);
+            var2 = var5.bind(var6)(var2);
             var2 = var2.bind(var6)();
             var8 = var2.width;
             var2 = global;
             var7 = var2.Math;
-            var4 = var7.min;
+            var5 = var7.min;
             var2 = 480;
-            var2 = var4.bind(var7)(var8, var2);
-            if(var5) { _fun0001_ip = 147; continue _fun0001 }
+            var2 = var5.bind(var7)(var8, var2);
+            if(var3) { _fun0001_ip = 147; continue _fun0001 }
  111:
-            if(var1) { _fun0001_ip = 147; continue _fun0001 }
+            if(var4) { _fun0001_ip = 147; continue _fun0001 }
  114:
-            var4 = _closure1_slot1;
+            var5 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var4 = 4;
+            var4 = var7[var4];
+            var4 = var5.bind(var6)(var4);
+            var4 = var4.spacing;
+            var4 = var4.PX_12;
+            _fun0001_ip = 177; continue _fun0001;
+ 147:
+            var5 = _closure1_slot1;
             var7 = _closure1_slot2;
             var1 = 4;
             var1 = var7[var1];
-            var1 = var4.bind(var6)(var1);
-            var1 = var1.spacing;
-            var4 = var1.PX_12;
-            _fun0001_ip = 177; continue _fun0001;
- 147:
-            var7 = _closure1_slot1;
-            var8 = _closure1_slot2;
-            var1 = 4;
-            var1 = var8[var1];
-            var1 = var7.bind(var6)(var1);
+            var1 = var5.bind(var6)(var1);
             var1 = var1.spacing;
             var4 = var1.PX_16;
  177:
@@ -80,17 +80,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['width'] = var2;
             var1['margin'] = var4;
             var2 = 0;
-            if(var5) { _fun0001_ip = 228; continue _fun0001 }
+            if(var3) { _fun0001_ip = 200; continue _fun0001 }
  193:
-            var5 = _closure1_slot1;
-            var7 = _closure1_slot2;
-            var3 = 4;
-            var3 = var7[var3];
-            var3 = var5.bind(var6)(var3);
-            var3 = var3.spacing;
-            var3 = var3.PX_40;
+            var3 = 38;
             var2 = var4 + var3;
- 228:
+ 200:
             var1['inset'] = var2;
             return var1;
         }

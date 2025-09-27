@@ -197,7 +197,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var4.themeColors;
  432:
             var5 = var3 != var5;
-            if(!var5) { _fun0001_ip = 466; continue _fun0001 }
+            if(!var5) { _fun0001_ip = 467; continue _fun0001 }
  439:
             var9 = var4.themeColors;
             var8 = var9.find;
@@ -209,40 +209,40 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var7 = var8.bind(var9)(var7);
             var5 = var2 !== var7;
- 466:
-            if(!var5) { _fun0001_ip = 492; continue _fun0001 }
- 469:
+ 467:
+            if(!var5) { _fun0001_ip = 493; continue _fun0001 }
+ 470:
             var7 = var1.push;
             var5 = _closure1_slot10;
             var5 = var5.THEME;
             var5 = var7.bind(var1)(var5);
- 492:
+ 493:
             var7 = var3 == var6;
             var5 = undefined;
-            if(var7) { _fun0001_ip = 507; continue _fun0001 }
- 501:
+            if(var7) { _fun0001_ip = 508; continue _fun0001 }
+ 502:
             var5 = var6.avatarDecoration;
- 507:
-            if(!(var3 != var5)) { _fun0001_ip = 534; continue _fun0001 }
- 511:
+ 508:
+            if(!(var3 != var5)) { _fun0001_ip = 535; continue _fun0001 }
+ 512:
             var6 = var1.push;
             var5 = _closure1_slot10;
             var5 = var5.AVATAR_DECORATION;
             var5 = var6.bind(var1)(var5);
- 534:
+ 535:
             var5 = var3 == var4;
             var2 = undefined;
-            if(var5) { _fun0001_ip = 549; continue _fun0001 }
- 543:
+            if(var5) { _fun0001_ip = 550; continue _fun0001 }
+ 544:
             var2 = var4.profileEffect;
- 549:
-            if(!(var3 != var2)) { _fun0001_ip = 576; continue _fun0001 }
- 553:
+ 550:
+            if(!(var3 != var2)) { _fun0001_ip = 577; continue _fun0001 }
+ 554:
             var3 = var1.push;
             var2 = _closure1_slot10;
             var2 = var2.PROFILE_EFFECT;
             var2 = var3.bind(var1)(var2);
- 576:
+ 577:
             return var1;
         }
     };
@@ -1212,7 +1212,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['trackUserProfileEditAction'] = var4;
-    var2 = function(arg1) {
+    var4 = function(arg1) {
         var13 = arg1;
         var20 = var13.guildId;
         var16 = var13.channelId;
@@ -1274,6 +1274,62 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var4.bind(var5)(var3, var2);
         return var1;
     };
-    var3['trackUserProfileEditSaved'] = var2;
+    var3['trackUserProfileEditSaved'] = var4;
+    var2 = function(arg1) {
+        var11 = arg1;
+        var18 = var11.guildId;
+        var14 = var11.channelId;
+        var10 = var11.analyticsLocations;
+        var9 = var11.action;
+        var8 = var11.wishlistId;
+        var7 = var11.skuId;
+        var3 = _closure1_slot19;
+        var2 = {};
+        var20 = var2;
+        var19 = var11;
+        var1 = copyDataProperties(var20, var19);
+        var1 = 'action';
+        var2[var1] = var9;
+        var1 = undefined;
+        var2 = var3.bind(var1)(var2);
+        var3 = _closure1_slot1;
+        var15 = _closure1_slot2;
+        var2 = 12;
+        var2 = var15[var2];
+        var5 = var3.bind(var1)(var2);
+        var4 = var5.track;
+        var2 = _closure1_slot12;
+        var3 = var2.USER_PROFILE_WISHLIST_ACTION;
+        var2 = {};
+        var13 = _closure1_slot0;
+        var12 = 13;
+        var16 = var15[var12];
+        var17 = var13.bind(var1)(var16);
+        var16 = var17.collectGuildAnalyticsMetadata;
+        var19 = var16.bind(var17)(var18);
+        var20 = var2;
+        var16 = copyDataProperties(var20, var19);
+        var12 = var15[var12];
+        var13 = var13.bind(var1)(var12);
+        var12 = var13.collectChannelAnalyticsMetadataFromId;
+        var19 = var12.bind(var13)(var14);
+        var20 = var2;
+        var12 = copyDataProperties(var20, var19);
+        var6 = _closure1_slot17;
+        var19 = var6.bind(var1)(var11);
+        var20 = var2;
+        var6 = copyDataProperties(var20, var19);
+        var6 = 'location_stack';
+        var2[var6] = var10;
+        var6 = 'action_type';
+        var2[var6] = var9;
+        var6 = 'wishlist_id';
+        var2[var6] = var8;
+        var6 = 'sku_id';
+        var2[var6] = var7;
+        var2 = var4.bind(var5)(var3, var2);
+        return var1;
+    };
+    var3['trackUserProfileWishlistAction'] = var2;
     return var1;
 })();

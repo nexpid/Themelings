@@ -932,11 +932,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var1.start;
                     var3 = _closure2_slot1;
                     var3 = var3.current;
-                    if(!(var2 !== var3)) { _fun0009_ip = 46; continue _fun0009 }
- 36:
+                    if(!(var2 !== var3)) { _fun0009_ip = 45; continue _fun0009 }
+ 35:
                     var1 = _closure2_slot1;
                     var1['current'] = var2;
- 46:
+ 45:
                     var1 = undefined;
                     return var1;
                 }

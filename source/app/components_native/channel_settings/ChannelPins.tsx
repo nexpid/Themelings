@@ -494,8 +494,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = var7.bind(var8)(var6, var3);
                     var6 = null;
                     var3 = var6 != var7;
-                    if(!var3) { _fun0005_ip = 135; continue _fun0005 }
- 105:
+                    if(!var3) { _fun0005_ip = 136; continue _fun0005 }
+ 106:
                     var9 = _closure1_slot1;
                     var10 = _closure1_slot2;
                     var8 = 26;
@@ -503,14 +503,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = var9.bind(var1)(var8);
                     var7 = var7.message;
                     var3 = var8.bind(var1)(var7);
- 135:
-                    if(!var3) { _fun0005_ip = 214; continue _fun0005 }
- 138:
+ 136:
+                    if(!var3) { _fun0005_ip = 215; continue _fun0005 }
+ 139:
                     var7 = _closure1_slot10;
                     var3 = var7.getChannel;
                     var3 = var3.bind(var7)(var4);
-                    if(!(var6 != var3)) { _fun0005_ip = 214; continue _fun0005 }
- 156:
+                    if(!(var6 != var3)) { _fun0005_ip = 215; continue _fun0005 }
+ 157:
                     var7 = _closure1_slot1;
                     var6 = _closure1_slot2;
                     var3 = 27;
@@ -524,7 +524,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var3.bind(var1)(var2);
                     var2 = var3.transitionToMessage;
                     var2 = var2.bind(var3)(var4, var5);
- 214:
+ 215:
                     return var1;
                 }
             };
@@ -556,12 +556,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var5.getContent;
                     var4 = var4.bind(var5)();
                     var6 = null;
-                    if(!(var6 == var4)) { _fun0006_ip = 357; continue _fun0006 }
+                    if(!(var6 == var4)) { _fun0006_ip = 358; continue _fun0006 }
  102:
                     var4 = _closure2_slot8;
                     var4 = var6 == var4;
                     var8 = undefined;
-                    if(var4) { _fun0006_ip = 139; continue _fun0006 }
+                    if(var4) { _fun0006_ip = 140; continue _fun0006 }
  118:
                     var5 = _closure2_slot8;
                     var4 = var5.find;
@@ -574,22 +574,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     };
                     var8 = var4.bind(var5)(var3);
- 139:
-                    if(!(var6 != var8)) { _fun0006_ip = 357; continue _fun0006 }
- 146:
+ 140:
+                    if(!(var6 != var8)) { _fun0006_ip = 358; continue _fun0006 }
+ 147:
                     var5 = _closure1_slot12;
                     var4 = var5.getUser;
                     var3 = var8.message;
                     var3 = var3.author;
                     var3 = var3.id;
                     var5 = var4.bind(var5)(var3);
-                    if(!(var6 != var5)) { _fun0006_ip = 357; continue _fun0006 }
- 184:
+                    if(!(var6 != var5)) { _fun0006_ip = 358; continue _fun0006 }
+ 185:
                     var4 = _closure1_slot10;
                     var3 = var4.getChannel;
                     var9 = var3.bind(var4)(var7);
-                    if(!(var6 != var9)) { _fun0006_ip = 357; continue _fun0006 }
- 205:
+                    if(!(var6 != var9)) { _fun0006_ip = 358; continue _fun0006 }
+ 206:
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
                     var2 = 29;
@@ -622,14 +622,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2['message'] = var8;
                     var8 = var6 != var7;
                     var6 = undefined;
-                    if(!var8) { _fun0006_ip = 343; continue _fun0006 }
- 340:
+                    if(!var8) { _fun0006_ip = 344; continue _fun0006 }
+ 341:
                     var6 = var7;
- 343:
+ 344:
                     var2['selectedMedia'] = var6;
                     var2['user'] = var5;
                     var2 = var3.bind(var4)(var2);
- 357:
+ 358:
                     return var1;
                 }
             };

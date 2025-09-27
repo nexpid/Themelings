@@ -68,7 +68,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2.bind(var3)(var8, var1);
             var2 = !var1;
             var1 = !var2;
-            if(var2) { _fun0001_ip = 268; continue _fun0001 }
+            if(var2) { _fun0001_ip = 270; continue _fun0001 }
  107:
             var5 = _closure1_slot4;
             var3 = var5.isSpeaker;
@@ -76,7 +76,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var5)(var8, var2);
             var3 = !var2;
             var2 = !var3;
-            if(var3) { _fun0001_ip = 265; continue _fun0001 }
+            if(var3) { _fun0001_ip = 267; continue _fun0001 }
  140:
             var8 = _closure1_slot3;
             var5 = var8.getMutableParticipants;
@@ -107,8 +107,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var5.bind(var8)(var3);
             var5 = null;
             var3 = var5 == var3;
-            if(var3) { _fun0001_ip = 262; continue _fun0001 }
- 186:
+            if(var3) { _fun0001_ip = 264; continue _fun0001 }
+ 187:
             var9 = _closure1_slot3;
             var8 = var9.getMutableParticipants;
             var7 = var7.id;
@@ -145,11 +145,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var4 = var6.bind(var7)(var4);
             var3 = var5 == var4;
- 262:
+ 264:
             var2 = var3;
- 265:
+ 267:
             var1 = var2;
- 268:
+ 270:
             return var1;
         }
     };

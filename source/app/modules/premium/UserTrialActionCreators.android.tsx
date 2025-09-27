@@ -121,12 +121,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0002_ip = 243; continue _fun0002 }
+                    if(var2) { _fun0002_ip = 247; continue _fun0002 }
  10:
                     var2 = _closure2_slot0;
                     var3 = var2.expires_at;
                     var2 = null;
-                    if(!(var2 == var3)) { _fun0002_ip = 238; continue _fun0002 }
+                    if(!(var2 == var3)) { _fun0002_ip = 242; continue _fun0002 }
  32: // try_start_0
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot2;
@@ -166,14 +166,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3['userTrialOffer'] = var6;
                     var3 = var4.bind(var5)(var3);
  171: // try_end0
-                    _fun0002_ip = 238; continue _fun0002;
+                    _fun0002_ip = 242; continue _fun0002;
  173:
                     return var2;
  176: // catch_target0
                     CatchBlockStart(arg_register=1);
                     var3 = var2.status;
                     var2 = 404;
-                    if(!(var2 === var3)) { _fun0002_ip = 238; continue _fun0002 }
+                    if(!(var2 === var3)) { _fun0002_ip = 242; continue _fun0002 }
  193:
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
@@ -184,10 +184,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var4.dispatch;
                     var2 = {'type': 'BILLING_USER_TRIAL_OFFER_ACKNOWLEDGED_SUCCESS', 'userTrialOffer': null};
                     var2 = var3.bind(var4)(var2);
- 238:
+ 242:
                     var2 = undefined;
                     return var2;
- 243:
+ 247:
                     return var1;
                 }
             };

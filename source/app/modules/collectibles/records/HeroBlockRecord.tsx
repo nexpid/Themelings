@@ -115,8 +115,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3['mobileTitle'] = var4;
                 var4 = var2.mobile_summary;
                 var3['mobileSummary'] = var4;
-                var2 = var2.mobile_products_title;
-                var3['mobileProductsTitle'] = var2;
+                var4 = var2.mobile_products_title;
+                var3['mobileProductsTitle'] = var4;
+                var4 = var2.mobile_hero_path;
+                var3['mobileHeroPath'] = var4;
+                var2 = var2.mobile_hero_animated_path;
+                var3['mobileHeroAnimatedPath'] = var2;
                 return var1;
             }
         };

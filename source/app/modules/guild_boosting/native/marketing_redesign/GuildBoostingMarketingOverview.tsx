@@ -286,8 +286,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = _closure2_slot8;
                     var3 = var3.current;
                     var3 = !var3;
-                    if(!var3) { _fun0003_ip = 103; continue _fun0003 }
- 45:
+                    if(!var3) { _fun0003_ip = 102; continue _fun0003 }
+ 44:
                     var6 = var5.height;
                     var5 = var2.y;
                     var5 = var6 + var5;
@@ -301,9 +301,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var4.VISIBILITY_OFFSET;
                     var4 = var6 - var4;
                     var3 = var5 >= var4;
- 103:
-                    if(!var3) { _fun0003_ip = 202; continue _fun0003 }
- 106:
+ 102:
+                    if(!var3) { _fun0003_ip = 201; continue _fun0003 }
+ 105:
                     var5 = _closure1_slot1;
                     var4 = _closure1_slot2;
                     var3 = 12;
@@ -326,7 +326,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = _closure2_slot8;
                     var3 = true;
                     var4['current'] = var3;
- 202:
+ 201:
                     var3 = _closure2_slot5;
                     var2 = var2.y;
                     var1 = _closure2_slot6;

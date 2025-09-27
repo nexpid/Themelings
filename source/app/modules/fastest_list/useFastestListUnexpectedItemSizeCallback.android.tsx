@@ -40,11 +40,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = _closure2_slot0;
                 var9 = var1.current;
                 var1 = var8.isSectionHeader;
-                if(var1) { _fun0001_ip = 127; continue _fun0001 }
- 30:
+                if(var1) { _fun0001_ip = 126; continue _fun0001 }
+ 29:
                 var1 = var8.isSectionFooter;
-                if(var1) { _fun0001_ip = 77; continue _fun0001 }
- 39:
+                if(var1) { _fun0001_ip = 76; continue _fun0001 }
+ 38:
                 var4 = var9.renderItem;
                 var3 = var8.section;
                 var1 = var8.item;
@@ -52,100 +52,100 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = null;
                 var3 = var3 != var1;
                 var5 = undefined;
-                if(!var3) { _fun0001_ip = 75; continue _fun0001 }
- 72:
+                if(!var3) { _fun0001_ip = 74; continue _fun0001 }
+ 71:
                 var5 = var1;
- 75:
-                _fun0001_ip = 125; continue _fun0001;
- 77:
+ 74:
+                _fun0001_ip = 124; continue _fun0001;
+ 76:
                 var1 = var9.renderSectionFooter;
                 var4 = null;
                 var6 = var4 == var1;
                 var3 = undefined;
-                if(var6) { _fun0001_ip = 110; continue _fun0001 }
- 94:
+                if(var6) { _fun0001_ip = 109; continue _fun0001 }
+ 93:
                 var7 = var9.renderSectionFooter;
                 var6 = var8.section;
                 var3 = var7.bind(var9)(var6);
- 110:
+ 109:
                 var4 = var4 != var3;
                 var1 = undefined;
-                if(!var4) { _fun0001_ip = 122; continue _fun0001 }
- 119:
+                if(!var4) { _fun0001_ip = 121; continue _fun0001 }
+ 118:
                 var1 = var3;
- 122:
+ 121:
                 var5 = var1;
- 125:
-                _fun0001_ip = 175; continue _fun0001;
- 127:
+ 124:
+                _fun0001_ip = 174; continue _fun0001;
+ 126:
                 var1 = var9.renderSectionHeader;
                 var4 = null;
                 var6 = var4 == var1;
                 var3 = undefined;
-                if(var6) { _fun0001_ip = 160; continue _fun0001 }
- 144:
+                if(var6) { _fun0001_ip = 159; continue _fun0001 }
+ 143:
                 var7 = var9.renderSectionHeader;
                 var6 = var8.section;
                 var3 = var7.bind(var9)(var6);
- 160:
+ 159:
                 var4 = var4 != var3;
                 var1 = undefined;
-                if(!var4) { _fun0001_ip = 172; continue _fun0001 }
- 169:
+                if(!var4) { _fun0001_ip = 171; continue _fun0001 }
+ 168:
                 var1 = var3;
- 172:
+ 171:
                 var5 = var1;
- 175:
+ 174:
                 var4 = null;
                 var3 = var4 == var5;
                 var1 = undefined;
                 var9 = undefined;
-                if(var3) { _fun0001_ip = 193; continue _fun0001 }
- 188:
+                if(var3) { _fun0001_ip = 192; continue _fun0001 }
+ 187:
                 var9 = var5.props;
- 193:
+ 192:
                 var6 = var4 == var5;
                 var3 = undefined;
-                if(var6) { _fun0001_ip = 207; continue _fun0001 }
- 202:
+                if(var6) { _fun0001_ip = 206; continue _fun0001 }
+ 201:
                 var3 = var5.type;
- 207:
+ 206:
                 var10 = 'function';
                 var5 = typeof var3;
-                if(!(var10 === var5)) { _fun0001_ip = 234; continue _fun0001 }
- 218:
+                if(!(var10 === var5)) { _fun0001_ip = 233; continue _fun0001 }
+ 217:
                 var5 = var3.name;
                 var6 = var5.length;
                 var5 = 0;
-                if(!(!(var6 > var5))) { _fun0001_ip = 285; continue _fun0001 }
- 234:
+                if(!(!(var6 > var5))) { _fun0001_ip = 284; continue _fun0001 }
+ 233:
                 var6 = var4 == var3;
                 var5 = undefined;
-                if(var6) { _fun0001_ip = 248; continue _fun0001 }
- 243:
+                if(var6) { _fun0001_ip = 247; continue _fun0001 }
+ 242:
                 var5 = var3.type;
- 248:
+ 247:
                 var7 = typeof var5;
                 var6 = undefined;
-                if(!(var10 === var7)) { _fun0001_ip = 283; continue _fun0001 }
- 257:
+                if(!(var10 === var7)) { _fun0001_ip = 282; continue _fun0001 }
+ 256:
                 var7 = var5.name;
                 var10 = var7.length;
                 var7 = 0;
                 var7 = var10 > var7;
                 var6 = undefined;
-                if(!var7) { _fun0001_ip = 283; continue _fun0001 }
- 278:
+                if(!var7) { _fun0001_ip = 282; continue _fun0001 }
+ 277:
                 var6 = var5.name;
- 283:
-                _fun0001_ip = 290; continue _fun0001;
- 285:
+ 282:
+                _fun0001_ip = 289; continue _fun0001;
+ 284:
                 var6 = var3.name;
- 290:
+ 289:
                 var5 = var4 == var6;
                 var3 = undefined;
-                if(!var5) { _fun0001_ip = 331; continue _fun0001 }
- 299:
+                if(!var5) { _fun0001_ip = 330; continue _fun0001 }
+ 298:
                 var5 = global;
                 var7 = var5.Object;
                 var5 = var7.keys;
@@ -153,15 +153,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = var9.join;
                 var5 = ',';
                 var3 = var7.bind(var9)(var5);
- 331:
+ 330:
                 var5 = var8.isSectionHeader;
-                if(var5) { _fun0001_ip = 426; continue _fun0001 }
- 340:
+                if(var5) { _fun0001_ip = 425; continue _fun0001 }
+ 339:
                 var7 = var8.isSectionFooter;
                 var11 = var8.section;
                 var5 = global;
-                if(var7) { _fun0001_ip = 397; continue _fun0001 }
- 356:
+                if(var7) { _fun0001_ip = 396; continue _fun0001 }
+ 355:
                 var15 = var8.item;
                 var7 = var5.HermesInternal;
                 var12 = var7.concat;
@@ -170,16 +170,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var14 = '.';
                 var17 = var11;
                 var7 = var18[var12](var17, var16, var15, var14, var13);
-                _fun0001_ip = 424; continue _fun0001;
- 397:
+                _fun0001_ip = 423; continue _fun0001;
+ 396:
                 var5 = var5.HermesInternal;
                 var10 = var5.concat;
                 var9 = 'Section footer at section ';
                 var5 = '.';
                 var7 = var10.bind(var9)(var11, var5);
- 424:
-                _fun0001_ip = 460; continue _fun0001;
- 426:
+ 423:
+                _fun0001_ip = 459; continue _fun0001;
+ 425:
                 var11 = var8.section;
                 var5 = global;
                 var5 = var5.HermesInternal;
@@ -187,7 +187,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var9 = 'Section header at section ';
                 var5 = '.';
                 var7 = var10.bind(var9)(var11, var5);
- 460:
+ 459:
                 var5 = {};
                 var17 = var8.sizeExpected;
                 var15 = var8.size;
@@ -202,10 +202,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5['itemPosition'] = var7;
                 var7 = var4 != var6;
                 var4 = 'Unknown component.';
-                if(!var7) { _fun0001_ip = 538; continue _fun0001 }
- 535:
+                if(!var7) { _fun0001_ip = 537; continue _fun0001 }
+ 534:
                 var4 = var6;
- 538:
+ 537:
                 var5['itemName'] = var4;
                 var5['itemProps'] = var3;
                 var2 = _closure2_slot0;

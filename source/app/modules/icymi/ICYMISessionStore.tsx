@@ -27,11 +27,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var4)(var2);
             var2 = !var2;
             var _closure2_slot0 = var2;
- 72: // try_end0
-            _fun0001_ip = 76; continue _fun0001;
- 74: // catch_target0
+ 70: // try_end0
+            _fun0001_ip = 74; continue _fun0001;
+ 72: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+ 74:
             var2 = function _isNativeReflectConstruct() {
                 var1 = _closure2_slot0;
                 var1 = !var1;
@@ -65,7 +65,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  49:
             var2 = var3.@@iterator;
  55:
-            if(var2) { _fun0002_ip = 345; continue _fun0002 }
+            if(var2) { _fun0002_ip = 343; continue _fun0002 }
  61:
             var6 = var5.Array;
             var4 = var6.isArray;
@@ -178,7 +178,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 }
             };
             return var1;
- 345:
+ 343:
             var1 = var2.call;
             var3 = var1.bind(var2)(var3);
             var2 = var3.next;
@@ -255,7 +255,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         }
     };
     var _closure1_slot16 = var1;
-    var6 = function handleTabOpened(arg1) {
+    var6 = function handleTabOpened() {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
             var2 = _closure1_slot15;
@@ -380,6 +380,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4['_reloadCount'] = var5;
                 var4['_feedFetchCount'] = var5;
                 var4['_dwelledItemsChangedCount'] = var5;
+                var4['_interactionCount'] = var5;
                 var4['_latestDwellStartTimeMs'] = var5;
                 var11 = var3.setTimeout;
                 var10 = function() {
@@ -405,8 +406,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3['previousIcymiSessionCount'] = var9;
                 var3 = var7.bind(var8)(var3);
                 var3 = var6.length;
-                if(!(var3 > var5)) { _fun0008_ip = 360; continue _fun0008 }
- 332:
+                if(!(var3 > var5)) { _fun0008_ip = 362; continue _fun0008 }
+ 336:
                 var3 = var4.startItemsDwell;
                 var5 = var6.map;
                 var2 = function(arg1) {
@@ -424,7 +425,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 };
                 var2 = var5.bind(var6)(var2);
                 var2 = var3.bind(var4)(var2);
- 360:
+ 362:
                 return var1;
             }
         };
@@ -438,7 +439,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['get'] = var2;
-        var2 = new Array(19);
+        var2 = new Array(22);
         var2[0] = var1;
         var1 = {};
         var6 = 'startTimestamp';
@@ -471,6 +472,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['get'] = var6;
         var2[3] = var1;
         var1 = {};
+        var6 = 'interactionCount';
+        var1['key'] = var6;
+        var6 = function get() {
+            var1 = this;
+            var1 = var1._interactionCount;
+            return var1;
+        };
+        var1['get'] = var6;
+        var2[4] = var1;
+        var1 = {};
         var6 = 'uniqueImpressionCount';
         var1['key'] = var6;
         var6 = function get() {
@@ -480,7 +491,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['get'] = var6;
-        var2[4] = var1;
+        var2[5] = var1;
         var1 = {};
         var6 = 'reloadCount';
         var1['key'] = var6;
@@ -490,7 +501,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['get'] = var6;
-        var2[5] = var1;
+        var2[6] = var1;
         var1 = {};
         var6 = 'feedFetchCount';
         var1['key'] = var6;
@@ -500,7 +511,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['get'] = var6;
-        var2[6] = var1;
+        var2[7] = var1;
         var1 = {};
         var6 = 'dwelledItemsChangedCount';
         var1['key'] = var6;
@@ -510,7 +521,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['get'] = var6;
-        var2[7] = var1;
+        var2[8] = var1;
         var1 = {};
         var6 = 'impressionItemTypes';
         var1['key'] = var6;
@@ -520,7 +531,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['get'] = var6;
-        var2[8] = var1;
+        var2[9] = var1;
+        var1 = {};
+        var6 = 'getImpression';
+        var1['key'] = var6;
+        var6 = function value(arg1) {
+            var2 = arg1;
+            var _closure3_slot0 = var2;
+            var2 = this;
+            var3 = var2._activeItems;
+            var2 = var3.find;
+            var1 = function(arg1) {
+                var1 = arg1;
+                var2 = var1.itemId;
+                var1 = _closure3_slot0;
+                var1 = var2 === var1;
+                return var1;
+            };
+            var1 = var2.bind(var3)(var1);
+            return var1;
+        };
+        var1['value'] = var6;
+        var2[10] = var1;
         var1 = {};
         var6 = 'startItemsDwell';
         var1['key'] = var6;
@@ -530,15 +562,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = arg1;
                 var1 = this;
                 var _closure3_slot0 = var1;
-                var _closure3_slot1 = var1;
                 var2 = var1._resetTimeout;
                 var2 = var2.bind(var1)();
                 _closure1_slot8 = var6;
                 var5 = var6.length;
                 var2 = var1._activeItems;
                 var2 = var2.length;
-                if(!(var5 === var2)) { _fun0009_ip = 77; continue _fun0009 }
- 53:
+                if(!(var5 === var2)) { _fun0009_ip = 71; continue _fun0009 }
+ 49:
                 var5 = var6.every;
                 var2 = function(arg1, arg2) {
                     var1 = _closure3_slot0;
@@ -552,13 +583,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var2 = var5.bind(var6)(var2);
-                if(var2) { _fun0009_ip = 241; continue _fun0009 }
- 77:
+                if(var2) { _fun0009_ip = 285; continue _fun0009 }
+ 71:
                 var2 = var1._dwelledItemsChangedCount;
                 var2 = var2 + 1;
                 var1['_dwelledItemsChangedCount'] = var2;
                 var2 = new Array(0);
-                var _closure3_slot2 = var2;
                 var5 = global;
                 var8 = var5.Set;
                 var9 = var1._activeItems;
@@ -568,67 +598,43 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var1.itemId;
                     return var1;
                 };
-                var11 = var7.bind(var9)(var5);
+                var13 = var7.bind(var9)(var5);
                 var7 = var8.prototype;
                 var7 = Object.create(var7, {constructor: {value: var8}});
-                var12 = var7;
-                var5 = new var12[var8](var11, var10);
+                var14 = var7;
+                var5 = new var14[var8](var13, var12);
                 var5 = var5 instanceof Object ? var5 : var7;
-                var _closure3_slot3 = var5;
-                var9 = function _loop(arg1) {
-                    _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
- 0:
-                        var1 = arg1;
-                        var _closure4_slot0 = var1;
-                        var4 = _closure3_slot1;
-                        var5 = var4._activeItems;
-                        var4 = var5.find;
-                        var3 = function(arg1) {
-                            var1 = arg1;
-                            var2 = var1.itemId;
-                            var1 = _closure4_slot0;
-                            var1 = var1.itemId;
-                            var1 = var2 === var1;
-                            return var1;
-                        };
-                        var5 = var4.bind(var5)(var3);
-                        var3 = null;
-                        if(!(var3 == var5)) { _fun0010_ip = 78; continue _fun0010 }
- 45:
-                        var6 = _closure3_slot2;
-                        var4 = var6.push;
-                        var7 = _closure3_slot1;
-                        var3 = var7._createImpression;
-                        var3 = var3.bind(var7)(var1);
-                        var3 = var4.bind(var6)(var3);
-                        _fun0010_ip = 112; continue _fun0010;
- 78:
-                        var4 = _closure3_slot2;
-                        var3 = var4.push;
-                        var3 = var3.bind(var4)(var5);
-                        var3 = _closure3_slot3;
-                        var2 = var3.delete;
-                        var1 = var1.itemId;
-                        var1 = var2.bind(var3)(var1);
- 112:
-                        var1 = undefined;
-                        return var1;
-                    }
-                };
                 var4 = _closure1_slot13;
-                var8 = undefined;
-                var7 = var4.bind(var8)(var6);
-                var6 = var7.bind(var8)();
+                var9 = undefined;
+                var8 = var4.bind(var9)(var6);
+                var6 = var8.bind(var9)();
                 var4 = var6.done;
-                if(var4) { _fun0009_ip = 210; continue _fun0009 }
- 185:
+                var7 = null;
+                if(var4) { _fun0009_ip = 256; continue _fun0009 }
+ 164:
                 var4 = var6.value;
-                var4 = var9.bind(var8)(var4);
-                var10 = var7.bind(var8)();
+                var11 = var1.getImpression;
+                var10 = var4.itemId;
+                var11 = var11.bind(var1)(var10);
+                if(!(var7 == var11)) { _fun0009_ip = 215; continue _fun0009 }
+ 190:
+                var12 = var2.push;
+                var10 = var1._createImpression;
+                var10 = var10.bind(var1)(var4);
+                var10 = var12.bind(var2)(var10);
+                _fun0009_ip = 241; continue _fun0009;
+ 215:
+                var10 = var2.push;
+                var10 = var10.bind(var2)(var11);
+                var10 = var5.delete;
+                var4 = var4.itemId;
+                var4 = var10.bind(var5)(var4);
+ 241:
+                var10 = var8.bind(var9)();
                 var4 = var10.done;
                 var6 = var10;
-                if(!var4) { _fun0009_ip = 185; continue _fun0009 }
- 210:
+                if(!var4) { _fun0009_ip = 164; continue _fun0009 }
+ 256:
                 var4 = var5.forEach;
                 var3 = function(arg1) {
                     var3 = _closure3_slot0;
@@ -641,132 +647,171 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1['_activeItems'] = var2;
                 var2 = var1._activeItems;
                 return var2;
- 241:
+ 285:
                 var1 = var1._activeItems;
                 return var1;
             }
         };
         var1['value'] = var6;
-        var2[9] = var1;
+        var2[11] = var1;
         var1 = {};
         var6 = 'trackItemsLongImpression';
         var1['key'] = var6;
-        var6 = function trackItemsLongImpression(arg1) {
-            _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+        var6 = function value(arg1) {
+            _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
  0:
-                var2 = this;
-                var _closure3_slot0 = var2;
-                var5 = function _loop2(arg1) {
-                    _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
- 0:
-                        var3 = arg1;
-                        var _closure4_slot0 = var3;
-                        var2 = _closure3_slot0;
-                        var4 = var2._activeItems;
-                        var2 = var4.find;
-                        var1 = function(arg1) {
-                            var1 = arg1;
-                            var2 = var1.itemId;
-                            var1 = _closure4_slot0;
-                            var1 = var1.itemId;
-                            var1 = var2 === var1;
-                            return var1;
-                        };
-                        var6 = var2.bind(var4)(var1);
-                        var5 = null;
-                        var7 = var6;
-                        if(!(var5 == var7)) { _fun0012_ip = 63; continue _fun0012 }
- 48:
-                        var2 = _closure3_slot0;
-                        var1 = var2._constructImpressionFromInput;
-                        var7 = var1.bind(var2)(var3);
- 63:
-                        var3 = _closure1_slot0;
-                        var2 = _closure1_slot1;
-                        var1 = 6;
-                        var2 = var2[var1];
-                        var1 = undefined;
-                        var2 = var3.bind(var1)(var2);
-                        var4 = var2.ICYMIAnalytics;
-                        var3 = var4.trackFeedItemDwell1s;
-                        var2 = {};
-                        var9 = _closure3_slot0;
-                        var10 = var9._sessionId;
-                        var2['icymiSessionId'] = var10;
-                        var10 = var7.impressionId;
-                        var2['impressionId'] = var10;
-                        var10 = var7.itemId;
-                        var2['itemId'] = var10;
-                        var10 = var7.itemType;
-                        var2['itemType'] = var10;
-                        var10 = var7.impressionStartTimestamp;
-                        var2['dwellStartTimeMs'] = var10;
-                        var10 = var7.triggerType;
-                        var2['triggerType'] = var10;
-                        var11 = var9._viewedItemIdMap;
-                        var10 = var11.get;
-                        var9 = var7.itemId;
-                        var10 = var10.bind(var11)(var9);
-                        var11 = var5 != var10;
-                        var9 = 0;
-                        if(!var11) { _fun0012_ip = 206; continue _fun0012 }
- 203:
-                        var9 = var10;
- 206:
-                        var2['itemOccurenceCountInSession'] = var9;
-                        var9 = var7.itemFeedIndex;
-                        var2['itemFeedIndex'] = var9;
-                        var9 = var7.itemScore;
-                        var2['itemScore'] = var9;
-                        var9 = var7.isInitiallyVisible;
-                        var2['isInitiallyVisible'] = var9;
-                        var9 = var7.itemChannelType;
-                        var2['itemChannelType'] = var9;
-                        var10 = _closure1_slot10;
-                        var9 = var10.get;
-                        var8 = var7.itemId;
-                        var8 = var9.bind(var10)(var8);
-                        if(!(var5 == var8)) { _fun0012_ip = 285; continue _fun0012 }
- 279:
-                        var8 = var7.itemCardHeight;
- 285:
-                        var9 = var5 != var8;
-                        var7 = null;
-                        if(!var9) { _fun0012_ip = 297; continue _fun0012 }
- 294:
-                        var7 = var8;
- 297:
-                        var2['itemCardHeight'] = var7;
-                        var5 = var5 != var6;
-                        var2['isDwelling'] = var5;
-                        var2 = var3.bind(var4)(var2);
-                        return var1;
-                    }
-                };
+                var9 = this;
                 var3 = _closure1_slot13;
                 var1 = undefined;
                 var2 = arg1;
-                var4 = var3.bind(var1)(var2);
-                var3 = var4.bind(var1)();
+                var7 = var3.bind(var1)(var2);
+                var3 = var7.bind(var1)();
                 var2 = var3.done;
-                if(var2) { _fun0011_ip = 70; continue _fun0011 }
- 45:
-                var2 = var3.value;
-                var2 = var5.bind(var1)(var2);
-                var6 = var4.bind(var1)();
-                var2 = var6.done;
-                var3 = var6;
-                if(!var2) { _fun0011_ip = 45; continue _fun0011 }
- 70:
+                var6 = null;
+                var5 = 6;
+                if(var2) { _fun0010_ip = 361; continue _fun0010 }
+ 40:
+                var10 = var3.value;
+                var11 = var9.getImpression;
+                var2 = var10.itemId;
+                var13 = var11.bind(var9)(var2);
+                var12 = var13;
+                if(!(var6 == var12)) { _fun0010_ip = 80; continue _fun0010 }
+ 69:
+                var2 = var9._constructImpressionFromInput;
+                var12 = var2.bind(var9)(var10);
+ 80:
+                var10 = _closure1_slot0;
+                var2 = _closure1_slot1;
+                var2 = var2[var5];
+                var2 = var10.bind(var1)(var2);
+                var11 = var2.ICYMIAnalytics;
+                var10 = var11.trackFeedItemDwell1s;
+                var2 = {};
+                var14 = var9._sessionId;
+                var2['icymiSessionId'] = var14;
+                var14 = var12.impressionId;
+                var2['impressionId'] = var14;
+                var14 = var12.itemId;
+                var2['itemId'] = var14;
+                var14 = var12.itemType;
+                var2['itemType'] = var14;
+                var14 = var12.impressionStartTimestamp;
+                var2['dwellStartTimeMs'] = var14;
+                var14 = var12.triggerType;
+                var2['triggerType'] = var14;
+                var16 = var9._viewedItemIdMap;
+                var15 = var16.get;
+                var14 = var12.itemId;
+                var15 = var15.bind(var16)(var14);
+                var16 = var6 != var15;
+                var14 = 0;
+                if(!var16) { _fun0010_ip = 211; continue _fun0010 }
+ 208:
+                var14 = var15;
+ 211:
+                var2['itemOccurenceCountInSession'] = var14;
+                var14 = var12.itemFeedIndex;
+                var2['itemFeedIndex'] = var14;
+                var14 = var12.itemScore;
+                var2['itemScore'] = var14;
+                var14 = var12.isInitiallyVisible;
+                var2['isInitiallyVisible'] = var14;
+                var14 = var12.itemChannelType;
+                var2['itemChannelType'] = var14;
+                var16 = _closure1_slot10;
+                var15 = var16.get;
+                var14 = var12.itemId;
+                var15 = var15.bind(var16)(var14);
+                if(!(var6 == var15)) { _fun0010_ip = 290; continue _fun0010 }
+ 284:
+                var15 = var12.itemCardHeight;
+ 290:
+                var16 = var6 != var15;
+                var14 = null;
+                if(!var16) { _fun0010_ip = 302; continue _fun0010 }
+ 299:
+                var14 = var15;
+ 302:
+                var2['itemCardHeight'] = var14;
+                var13 = var6 != var13;
+                var2['isDwelling'] = var13;
+                var13 = var12.interactionActionTypes;
+                var2['interactionActionTypes'] = var13;
+                var12 = var12.interactionCount;
+                var2['interactionCount'] = var12;
+                var2 = var10.bind(var11)(var2);
+                var10 = var7.bind(var1)();
+                var2 = var10.done;
+                var3 = var10;
+                if(!var2) { _fun0010_ip = 40; continue _fun0010 }
+ 361:
                 return var1;
             }
         };
         var1['value'] = var6;
-        var2[10] = var1;
+        var2[12] = var1;
+        var1 = {};
+        var6 = 'trackItemInteraction';
+        var1['key'] = var6;
+        var6 = function value(arg1, arg2, arg3) {
+            _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+ 0:
+                var2 = arg1;
+                var5 = arg3;
+                var3 = this;
+                var1 = var3._interactionCount;
+                var1 = var1 + 1;
+                var3['_interactionCount'] = var1;
+                var1 = var3.getImpression;
+                var3 = var1.bind(var3)(var2);
+                var6 = _closure1_slot0;
+                var4 = _closure1_slot1;
+                var1 = 6;
+                var4 = var4[var1];
+                var1 = undefined;
+                var4 = var6.bind(var1)(var4);
+                var7 = var4.ICYMIAnalytics;
+                var6 = var7.trackItemInteraction;
+                var4 = {};
+                var4['id'] = var2;
+                var2 = arg2;
+                var4['type'] = var2;
+                var4['actionType'] = var5;
+                var2 = null;
+                var9 = var2 == var3;
+                var8 = undefined;
+                if(var9) { _fun0011_ip = 107; continue _fun0011 }
+ 101:
+                var8 = var3.impressionId;
+ 107:
+                var4['impressionId'] = var8;
+                var9 = var2 == var3;
+                var8 = undefined;
+                if(var9) { _fun0011_ip = 127; continue _fun0011 }
+ 121:
+                var8 = var3.uxVariation;
+ 127:
+                var4['uxVariation'] = var8;
+                var4 = var6.bind(var7)(var4);
+                if(!(var2 != var3)) { _fun0011_ip = 172; continue _fun0011 }
+ 141:
+                var4 = var3.interactionActionTypes;
+                var2 = var4.push;
+                var2 = var2.bind(var4)(var5);
+                var2 = var3.interactionCount;
+                var2 = var2 + 1;
+                var3['interactionCount'] = var2;
+ 172:
+                return var1;
+            }
+        };
+        var1['value'] = var6;
+        var2[13] = var1;
         var1 = {};
         var6 = 'incrementReloadCount';
         var1['key'] = var6;
-        var6 = function incrementReloadCount() {
+        var6 = function value() {
             var2 = this;
             var1 = var2._resetTimeout;
             var1 = var1.bind(var2)();
@@ -777,11 +822,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['value'] = var6;
-        var2[11] = var1;
+        var2[14] = var1;
         var1 = {};
         var6 = 'incrementFeedFetchCount';
         var1['key'] = var6;
-        var6 = function incrementFeedFetchCount() {
+        var6 = function value() {
             var2 = this;
             var1 = var2._feedFetchCount;
             var1 = var1 + 1;
@@ -790,11 +835,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['value'] = var6;
-        var2[12] = var1;
+        var2[15] = var1;
         var1 = {};
         var6 = 'endAllImpressions';
         var1['key'] = var6;
-        var6 = function endAllImpressions() {
+        var6 = function value() {
             var2 = this;
             var _closure3_slot0 = var2;
             var6 = var2._activeItems;
@@ -816,11 +861,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['value'] = var6;
-        var2[13] = var1;
+        var2[16] = var1;
         var1 = {};
         var6 = 'endSession';
         var1['key'] = var6;
-        var6 = function endSession() {
+        var6 = function value() {
             var1 = this;
             var2 = var1.endAllImpressions;
             var2 = var2.bind(var1)();
@@ -879,6 +924,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var9.bind(var10)(var8);
             var8 = var8.uxVariation;
             var4['uxVariation'] = var8;
+            var8 = var1._interactionCount;
+            var4['interactionCount'] = var8;
             var4 = var6.bind(var7)(var4);
             var4 = var3.clearTimeout;
             var3 = var1._timeout;
@@ -894,11 +941,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['value'] = var6;
-        var2[14] = var1;
+        var2[17] = var1;
         var1 = {};
         var6 = '_resetTimeout';
         var1['key'] = var6;
-        var6 = function _resetTimeout() {
+        var6 = function value() {
             var3 = this;
             var _closure3_slot0 = var3;
             var4 = global;
@@ -919,12 +966,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['value'] = var6;
-        var2[15] = var1;
+        var2[18] = var1;
         var1 = {};
         var6 = '_createImpression';
         var1['key'] = var6;
-        var6 = function _createImpression(arg1) {
-            _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+        var6 = function value(arg1) {
+            _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
  0:
                 var2 = arg1;
                 var3 = this;
@@ -943,7 +990,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = null;
                 var9 = var8 != var4;
                 var8 = 0;
-                if(!var9) { _fun0013_ip = 85; continue _fun0013 }
+                if(!var9) { _fun0012_ip = 85; continue _fun0012 }
  82:
                 var8 = var4;
  85:
@@ -960,12 +1007,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var1['value'] = var6;
-        var2[16] = var1;
+        var2[19] = var1;
         var1 = {};
         var6 = '_constructImpressionFromInput';
         var1['key'] = var6;
-        var6 = function _constructImpressionFromInput(arg1) {
-            _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
+        var6 = function value(arg1) {
+            _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
  0:
                 var3 = arg1;
                 var5 = _closure1_slot0;
@@ -1005,7 +1052,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var5.bind(var6)(var3);
                 var3 = null;
                 var6 = var3 != var5;
-                if(!var6) { _fun0014_ip = 183; continue _fun0014 }
+                if(!var6) { _fun0013_ip = 183; continue _fun0013 }
  180:
                 var3 = var5;
  183:
@@ -1023,16 +1070,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var3.bind(var4)(var2);
                 var2 = var2.uxVariation;
                 var1['uxVariation'] = var2;
+                var2 = new Array(0);
+                var1['interactionActionTypes'] = var2;
+                var2 = 0;
+                var1['interactionCount'] = var2;
                 return var1;
             }
         };
         var1['value'] = var6;
-        var2[17] = var1;
+        var2[20] = var1;
         var1 = {};
         var6 = '_endImpression';
         var1['key'] = var6;
-        var5 = function _endImpression(arg1) {
-            _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
+        var5 = function value(arg1) {
+            _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
  0:
                 var3 = this;
                 var2 = arg1;
@@ -1052,8 +1103,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = null;
                 var4 = var8 != var2;
                 var1 = null;
-                if(!var4) { _fun0015_ip = 398; continue _fun0015 }
- 60:
+                if(!var4) { _fun0014_ip = 418; continue _fun0014 }
+ 58:
                 var4 = global;
                 var5 = var4.Date;
                 var4 = var5.now;
@@ -1094,10 +1145,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var11 = var11.bind(var12)(var10);
                 var12 = var8 != var11;
                 var10 = 0;
-                if(!var12) { _fun0015_ip = 262; continue _fun0015 }
- 259:
+                if(!var12) { _fun0014_ip = 260; continue _fun0014 }
+ 257:
                 var10 = var11;
- 262:
+ 260:
                 var4['itemOccurenceCountInSession'] = var10;
                 var10 = var2.itemFeedIndex;
                 var4['itemFeedIndex'] = var10;
@@ -1111,31 +1162,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var10 = var11.get;
                 var9 = var2.itemId;
                 var9 = var10.bind(var11)(var9);
-                if(!(var8 == var9)) { _fun0015_ip = 341; continue _fun0015 }
- 335:
+                if(!(var8 == var9)) { _fun0014_ip = 339; continue _fun0014 }
+ 333:
                 var9 = var2.itemCardHeight;
- 341:
+ 339:
                 var10 = var8 != var9;
                 var8 = null;
-                if(!var10) { _fun0015_ip = 353; continue _fun0015 }
- 350:
+                if(!var10) { _fun0014_ip = 351; continue _fun0014 }
+ 348:
                 var8 = var9;
- 353:
+ 351:
                 var4['itemCardHeight'] = var8;
                 var8 = var2.uxVariation;
                 var4['uxVariation'] = var8;
+                var8 = var2.interactionActionTypes;
+                var4['interactionActionTypes'] = var8;
+                var8 = var2.interactionCount;
+                var4['interactionCount'] = var8;
                 var4 = var5.bind(var7)(var4);
                 var5 = var3._activeItems;
                 var4 = var5.splice;
                 var3 = 1;
                 var3 = var4.bind(var5)(var6, var3);
                 var1 = var2;
- 398:
+ 418:
                 return var1;
             }
         };
         var1['value'] = var5;
-        var2[18] = var1;
+        var2[21] = var1;
         var1 = undefined;
         var1 = var4.bind(var1)(var3, var2);
         return var1;
@@ -1148,7 +1203,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var5.Store;
     var5 = function(arg1) {
         var4 = function ICYMISessionStore() {
-            _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
+            _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
  0:
                 var4 = this;
                 var3 = undefined;
@@ -1161,13 +1216,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = _closure1_slot2;
                 var1 = _closure1_slot12;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0016_ip = 69; continue _fun0016 }
+                if(var1) { _fun0015_ip = 69; continue _fun0015 }
  51:
                 var7 = var9.apply;
                 var5 = arguments;
                 var1 = var5;
                 var1 = var7.bind(var9)(var4, var1);
-                _fun0016_ip = 105; continue _fun0016;
+                _fun0015_ip = 105; continue _fun0015;
  69:
                 var7 = global;
                 var8 = var7.Reflect;
@@ -1216,7 +1271,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var9.bind(var1)(var5);
     var5 = {};
     var5['ICYMI_TAB_OPENED'] = var6;
-    var6 = function handleTabClosed(arg1) {
+    var6 = function handleTabClosed() {
         var2 = _closure1_slot15;
         var1 = undefined;
         var1 = var2.bind(var1)();
@@ -1224,11 +1279,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var5['ICYMI_TAB_CLOSED'] = var6;
     var6 = function handleIcymiTabFocussed(arg1) {
-        _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
+        _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
  0:
             var1 = arg1;
             var2 = var1.focused;
-            if(var2) { _fun0017_ip = 27; continue _fun0017 }
+            if(var2) { _fun0016_ip = 27; continue _fun0016 }
  15:
             var3 = _closure1_slot16;
             var2 = undefined;
@@ -1237,7 +1292,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  27:
             var3 = _closure1_slot7;
             var2 = null;
-            if(!(var2 == var3)) { _fun0017_ip = 49; continue _fun0017 }
+            if(!(var2 == var3)) { _fun0016_ip = 49; continue _fun0016 }
  37:
             var3 = _closure1_slot17;
             var2 = undefined;
@@ -1247,7 +1302,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = _closure1_slot8;
             var3 = var2.length;
             var2 = 0;
-            if(!(!(var3 > var2))) { _fun0017_ip = 68; continue _fun0017 }
+            if(!(!(var3 > var2))) { _fun0016_ip = 68; continue _fun0016 }
  64:
             var2 = false;
             return var2;
@@ -1277,18 +1332,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var5['ICYMI_SET_FOCUSED_TAB'] = var6;
     var6 = function handleItemsDwellStart(arg1) {
-        _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
+        _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
  0:
             var1 = arg1;
             var4 = _closure1_slot7;
             var3 = null;
-            if(!(var3 != var4)) { _fun0018_ip = 39; continue _fun0018 }
+            if(!(var3 != var4)) { _fun0017_ip = 39; continue _fun0017 }
  16:
             var5 = _closure1_slot7;
             var4 = var5.startItemsDwell;
             var3 = var1.items;
             var3 = var4.bind(var5)(var3);
-            _fun0018_ip = 77; continue _fun0018;
+            _fun0017_ip = 77; continue _fun0017;
  39:
             var5 = _closure1_slot11;
             var7 = var1.items;
@@ -1306,12 +1361,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var5['ICYMI_ITEMS_DWELL_START'] = var6;
     var6 = function handleItemsLongImpression(arg1) {
-        _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
+        _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
  0:
             var1 = arg1;
             var4 = _closure1_slot7;
             var3 = null;
-            if(!(var3 == var4)) { _fun0019_ip = 54; continue _fun0019 }
+            if(!(var3 == var4)) { _fun0018_ip = 54; continue _fun0018 }
  16:
             var6 = _closure1_slot11;
             var8 = var1.items;
@@ -1332,13 +1387,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         }
     };
     var5['ICYMI_ITEMS_LONG_IMPRESSION'] = var6;
-    var6 = function handleReloadICYMI(arg1) {
-        _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
+    var6 = function handleReloadICYMI() {
+        _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
  0:
             var3 = _closure1_slot7;
             var1 = null;
             var1 = var1 != var3;
-            if(!var1) { _fun0020_ip = 34; continue _fun0020 }
+            if(!var1) { _fun0019_ip = 34; continue _fun0019 }
  16:
             var3 = _closure1_slot7;
             var2 = var3.incrementReloadCount;
@@ -1349,13 +1404,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         }
     };
     var5['RELOAD_ICYMI'] = var6;
-    var6 = function handleLoadICYMIDehydrated(arg1) {
-        _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
+    var6 = function handleLoadICYMIDehydrated() {
+        _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
  0:
             var3 = _closure1_slot7;
             var1 = null;
             var1 = var1 != var3;
-            if(!var1) { _fun0021_ip = 44; continue _fun0021 }
+            if(!var1) { _fun0020_ip = 44; continue _fun0020 }
  16:
             var4 = _closure1_slot7;
             var3 = var4.incrementFeedFetchCount;
@@ -1370,19 +1425,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var5['LOAD_ICYMI_DEHYDRATED'] = var6;
     var6 = function handleAppStateUpdate(arg1) {
-        _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
+        _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
  0:
             var1 = arg1;
             var2 = var1.state;
             var1 = 'active';
             var1 = var1 !== var2;
-            if(!var1) { _fun0022_ip = 32; continue _fun0022 }
+            if(!var1) { _fun0021_ip = 32; continue _fun0021 }
  19:
             var3 = _closure1_slot7;
             var2 = null;
             var1 = var2 != var3;
  32:
-            if(!var1) { _fun0022_ip = 48; continue _fun0022 }
+            if(!var1) { _fun0021_ip = 48; continue _fun0021 }
  35:
             var3 = _closure1_slot15;
             var2 = undefined;
@@ -1393,23 +1448,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var5['APP_STATE_UPDATE'] = var6;
     var6 = function handleChannelSelected(arg1) {
-        _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
+        _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
  0:
             var3 = arg1;
             var4 = _closure1_slot7;
             var1 = null;
             var1 = var1 != var4;
-            if(!var1) { _fun0023_ip = 28; continue _fun0023 }
+            if(!var1) { _fun0022_ip = 28; continue _fun0022 }
  19:
             var4 = var3.isInitialSetup;
             var1 = !var4;
  28:
-            if(!var1) { _fun0023_ip = 40; continue _fun0023 }
+            if(!var1) { _fun0022_ip = 40; continue _fun0022 }
  31:
             var3 = var3.preserveDrawerState;
             var1 = !var3;
  40:
-            if(!var1) { _fun0023_ip = 53; continue _fun0023 }
+            if(!var1) { _fun0022_ip = 53; continue _fun0022 }
  43:
             var3 = _closure1_slot16;
             var2 = undefined;
@@ -1430,6 +1485,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var5['ICYMI_SET_CARD_HEIGHT'] = var6;
+    var6 = function handleItemInteracted(arg1) {
+        _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
+ 0:
+            var1 = arg1;
+            var4 = _closure1_slot7;
+            var3 = null;
+            if(!(var3 == var4)) { _fun0023_ip = 52; continue _fun0023 }
+ 16:
+            var6 = _closure1_slot11;
+            var9 = _closure1_slot8;
+            var3 = var6.prototype;
+            var4 = Object.create(var3, {constructor: {value: var6}});
+            var8 = 'focus';
+            var10 = var4;
+            var3 = new var10[var6](var9, var8, var7);
+            var3 = var3 instanceof Object ? var3 : var4;
+            _closure1_slot7 = var3;
+ 52:
+            var5 = _closure1_slot7;
+            var4 = var5.trackItemInteraction;
+            var3 = var1.itemId;
+            var2 = var1.itemType;
+            var1 = var1.actionType;
+            var1 = var4.bind(var5)(var3, var2, var1);
+            var1 = true;
+            return var1;
+        }
+    };
+    var5['ICYMI_ITEM_INTERACTED'] = var6;
     var6 = var10.prototype;
     var6 = Object.create(var6, {constructor: {value: var10}});
     var15 = var6;

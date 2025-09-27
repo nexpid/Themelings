@@ -2015,9 +2015,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.shouldShowAgeVerificationForLargeGuildId;
             var3 = var3.bind(var4)(var8);
             var4 = null;
-            if(!(var4 != var8)) { _fun0014_ip = 201; continue _fun0014 }
+            if(!(var4 != var8)) { _fun0014_ip = 216; continue _fun0014 }
  48:
-            if(var3) { _fun0014_ip = 201; continue _fun0014 }
+            if(var3) { _fun0014_ip = 216; continue _fun0014 }
  54:
             var5 = _closure1_slot9;
             var3 = var5.getDefaultChannel;
@@ -2043,29 +2043,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.id;
             var3 = var6.bind(var7)(var8, var3);
             var3 = var4.bind(var5)(var3);
-            _fun0014_ip = 242; continue _fun0014;
+            _fun0014_ip = 272; continue _fun0014;
  158:
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot3;
+            var3 = 18;
+            var3 = var5[var3];
+            var6 = var4.bind(var1)(var3);
+            var5 = var6.transitionTo;
+            var3 = _closure1_slot19;
+            var4 = var3.FRIENDS;
+            var3 = {'navigationReplace': false, 'openChannel': true};
+            var3 = var5.bind(var6)(var4, var3);
+            _fun0014_ip = 272; continue _fun0014;
+ 216:
             var4 = _closure1_slot0;
             var5 = _closure1_slot3;
             var3 = 18;
             var3 = var5[var3];
             var5 = var4.bind(var1)(var3);
             var4 = var5.transitionTo;
-            var3 = _closure1_slot19;
-            var3 = var3.FRIENDS;
-            var3 = var4.bind(var5)(var3);
-            _fun0014_ip = 242; continue _fun0014;
- 201:
-            var4 = _closure1_slot0;
-            var5 = _closure1_slot3;
-            var3 = 18;
-            var3 = var5[var3];
-            var4 = var4.bind(var1)(var3);
-            var3 = var4.transitionTo;
             var2 = _closure1_slot19;
-            var2 = var2.FRIENDS;
-            var2 = var3.bind(var4)(var2);
- 242:
+            var3 = var2.FRIENDS;
+            var2 = {'navigationReplace': false, 'openChannel': true};
+            var2 = var4.bind(var5)(var3, var2);
+ 272:
             return var1;
         }
     };

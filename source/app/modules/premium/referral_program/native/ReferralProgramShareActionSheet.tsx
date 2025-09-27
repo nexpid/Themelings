@@ -993,12 +993,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var1.height;
                     var1 = 150;
                     var1 = var3 - var1;
-                    if(!(var2 >= var1)) { _fun0009_ip = 82; continue _fun0009 }
- 69:
+                    if(!(var2 >= var1)) { _fun0009_ip = 79; continue _fun0009 }
+ 66:
                     var2 = _closure2_slot8;
                     var1 = undefined;
                     var1 = var2.bind(var1)();
- 82:
+ 79:
                     var1 = undefined;
                     return var1;
                 }

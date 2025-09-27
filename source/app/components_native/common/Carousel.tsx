@@ -306,13 +306,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var2.props;
                     var4 = var2.onPageChange;
                     var2 = null;
-                    if(!(var2 != var4)) { _fun0004_ip = 114; continue _fun0004 }
- 94:
+                    if(!(var2 != var4)) { _fun0004_ip = 113; continue _fun0004 }
+ 93:
                     var1 = _closure3_slot0;
                     var2 = var1.props;
                     var1 = var2.onPageChange;
                     var1 = var1.bind(var2)(var3);
- 114:
+ 113:
                     var1 = undefined;
                     return var1;
                 }

@@ -150,8 +150,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var5 = var5.bind(var9)(var4);
             var4 = null;
-            if(!(var4 != var2)) { _fun0002_ip = 298; continue _fun0002 }
- 186:
+            if(!(var4 != var2)) { _fun0002_ip = 299; continue _fun0002 }
+ 187:
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
             var9 = 14;
@@ -160,37 +160,37 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var11.getEmbeddedActivityLocationChannelId;
             var13 = var4 == var12;
             var9 = undefined;
-            if(var13) { _fun0002_ip = 226; continue _fun0002 }
- 221:
+            if(var13) { _fun0002_ip = 227; continue _fun0002 }
+ 222:
             var9 = var12.location;
- 226:
+ 227:
             var9 = var10.bind(var11)(var9);
-            if(!(var4 != var8)) { _fun0002_ip = 267; continue _fun0002 }
- 235:
+            if(!(var4 != var8)) { _fun0002_ip = 268; continue _fun0002 }
+ 236:
             var8 = var8.id;
-            if(!(var9 === var8)) { _fun0002_ip = 267; continue _fun0002 }
- 244:
+            if(!(var9 === var8)) { _fun0002_ip = 268; continue _fun0002 }
+ 245:
             var8 = var4 == var7;
             var6 = undefined;
-            if(var8) { _fun0002_ip = 258; continue _fun0002 }
- 253:
+            if(var8) { _fun0002_ip = 259; continue _fun0002 }
+ 254:
             var6 = var7.id;
- 258:
+ 259:
             var2 = var2.id;
-            if(!(var6 !== var2)) { _fun0002_ip = 286; continue _fun0002 }
- 267:
+            if(!(var6 !== var2)) { _fun0002_ip = 287; continue _fun0002 }
+ 268:
             var2 = var1;
-            if(!(var4 != var5)) { _fun0002_ip = 296; continue _fun0002 }
- 274:
+            if(!(var4 != var5)) { _fun0002_ip = 297; continue _fun0002 }
+ 275:
             var4 = _closure1_slot7;
             var2 = var4.JOIN;
-            _fun0002_ip = 296; continue _fun0002;
- 286:
+            _fun0002_ip = 297; continue _fun0002;
+ 287:
             var3 = _closure1_slot7;
             var2 = var3.LEAVE;
- 296:
+ 297:
             return var2;
- 298:
+ 299:
             return var1;
         }
     };
@@ -794,8 +794,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['joinableEmbeddedApp'] = var9;
             var1['activityAction'] = var8;
             var1['onActivityItemSelected'] = var7;
-            if(var5) { _fun0011_ip = 588; continue _fun0011 }
- 554:
+            if(var5) { _fun0011_ip = 589; continue _fun0011 }
+ 555:
             var5 = _closure1_slot0;
             var7 = _closure1_slot2;
             var3 = 9;
@@ -803,10 +803,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var5.bind(var6)(var3);
             var3 = var3.EmbeddedActivityLabelTypes;
             var3 = var3.NONE;
-            _fun0011_ip = 594; continue _fun0011;
- 588:
+            _fun0011_ip = 595; continue _fun0011;
+ 589:
             var3 = var4.label_type;
- 594:
+ 595:
             var1['labelType'] = var3;
             var1['staffReleasePhase'] = var2;
             return var1;

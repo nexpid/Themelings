@@ -1401,15 +1401,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17 = var21[var17];
             var17 = var20.bind(var4)(var17);
             var17 = var17.t;
-            if(var16) { _fun0010_ip = 884; continue _fun0010 }
- 869:
+            if(var16) { _fun0010_ip = 888; continue _fun0010 }
+ 873:
             var16 = var17.ndsK4e;
             var16 = var18.bind(var19)(var16);
-            _fun0010_ip = 895; continue _fun0010;
- 884:
+            _fun0010_ip = 899; continue _fun0010;
+ 888:
             var17 = var17.WAI6xs;
             var16 = var18.bind(var19)(var17);
- 895:
+ 899:
             var10['text'] = var16;
             var15 = function handleCancelPress() {
                 var4 = _closure2_slot2;

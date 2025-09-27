@@ -22,14 +22,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var4;
     var2 = function() {
         var5 = function AssetDisplayConfigRecord(arg1) {
-            var3 = this;
-            var4 = _closure1_slot0;
-            var2 = _closure2_slot0;
-            var1 = undefined;
-            var2 = var4.bind(var1)(var3, var2);
             var2 = arg1;
-            var2 = var2.desktop_max_height;
-            var3['desktopMaxHeight'] = var2;
+            var3 = this;
+            var5 = _closure1_slot0;
+            var4 = _closure2_slot0;
+            var1 = undefined;
+            var4 = var5.bind(var1)(var3, var4);
+            var4 = var2.desktop_max_height;
+            var3['desktopMaxHeight'] = var4;
+            var2 = var2.mobile_max_height;
+            var3['mobileMaxHeight'] = var2;
             return var1;
         };
         var _closure2_slot0 = var5;
@@ -55,8 +57,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var1['value'] = var3;
-        var3 = new Array(1);
+        var3 = new Array(2);
         var3[0] = var1;
+        var1 = {};
+        var6 = 'toMobileStyles';
+        var1['key'] = var6;
+        var6 = function value() {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+ 0:
+                var2 = this;
+                var3 = var2.mobileMaxHeight;
+                var1 = null;
+                if(!(var1 == var3)) { _fun0002_ip = 19; continue _fun0002 }
+ 15:
+                var1 = undefined;
+                return var1;
+ 19:
+                var1 = {};
+                var2 = var2.mobileMaxHeight;
+                var1['maxHeight'] = var2;
+                return var1;
+            }
+        };
+        var1['value'] = var6;
+        var3[1] = var1;
         var1 = {};
         var6 = 'fromServer';
         var1['key'] = var6;

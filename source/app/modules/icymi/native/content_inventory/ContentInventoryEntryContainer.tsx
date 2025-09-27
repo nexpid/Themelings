@@ -44,61 +44,65 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            var3 = arg1;
+            var4 = arg1;
             var5 = arg2;
             var1 = {};
             var2 = {};
             var6 = 0;
             if(var5) { _fun0001_ip = 21; continue _fun0001 }
  15:
-            var6 = var3.margin;
+            var6 = var4.margin;
  21:
             var2['marginTop'] = var6;
             var1['pressable'] = var2;
             var2 = {};
-            var6 = var3.margin;
+            var6 = var4.margin;
             var2['marginHorizontal'] = var6;
             var6 = 0;
             if(var5) { _fun0001_ip = 54; continue _fun0001 }
  48:
-            var6 = var3.margin;
+            var6 = var4.margin;
  54:
             var2['paddingBottom'] = var6;
-            var4 = 0;
+            var3 = 0;
             if(!var5) { _fun0001_ip = 70; continue _fun0001 }
  64:
-            var4 = var3.margin;
+            var3 = var4.margin;
  70:
-            var2['paddingTop'] = var4;
+            var2['paddingTop'] = var3;
             var1['container'] = var2;
             var2 = {};
-            var4 = var3.margin;
-            var2['marginBottom'] = var4;
+            var3 = var4.margin;
+            var2['marginBottom'] = var3;
             var1['screenshotContainer'] = var2;
             var2 = {'display': 'flex', 'flexDirection': 'row', 'alignItems': 'center'};
-            var4 = var3.margin;
-            var2['gap'] = var4;
-            var3 = var3.margin;
-            var2['marginBottom'] = var3;
+            var8 = _closure1_slot1;
+            var9 = _closure1_slot2;
+            var6 = 5;
+            var7 = var9[var6];
+            var5 = undefined;
+            var7 = var8.bind(var5)(var7);
+            var7 = var7.spacing;
+            var7 = var7.PX_12;
+            var2['gap'] = var7;
+            var4 = var4.margin;
+            var2['marginBottom'] = var4;
             var1['header'] = var2;
             var2 = {};
             var4 = 1;
             var2['flex'] = var4;
             var1['headerInfo'] = var2;
             var2 = {'display': 'flex', 'flexDirection': 'row', 'alignItems': 'center', 'gap': 6, 'marginBottom': null, 'marginTop': 2};
-            var6 = 6;
+            var7 = 6;
             var8 = _closure1_slot0;
-            var7 = _closure1_slot2;
-            var5 = 5;
-            var7 = var7[var5];
-            var5 = undefined;
+            var7 = var9[var7];
             var8 = var8.bind(var5)(var7);
             var7 = var8.isAndroid;
             var7 = var7.bind(var8)();
-            if(!var7) { _fun0001_ip = 209; continue _fun0001 }
- 203:
+            if(!var7) { _fun0001_ip = 227; continue _fun0001 }
+ 221:
             var4 = -1;
- 209:
+ 227:
             var2['marginBottom'] = var4;
             var1['title'] = var2;
             var2 = {'flexDirection': 'row', 'alignItems': 'center'};
@@ -172,21 +176,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     var3 = _closure2_slot3;
                     var2 = null;
-                    if(!(var2 == var3)) { _fun0003_ip = 104; continue _fun0003 }
+                    if(!(var2 == var3)) { _fun0003_ip = 94; continue _fun0003 }
  13:
-                    var6 = _closure1_slot0;
+                    var3 = _closure1_slot1;
                     var5 = _closure1_slot2;
-                    var3 = 8;
-                    var3 = var5[var3];
+                    var2 = 8;
+                    var2 = var5[var2];
                     var4 = undefined;
-                    var3 = var6.bind(var4)(var3);
-                    var9 = var3.ICYMIAnalytics;
-                    var8 = var9.trackItemInteraction;
+                    var9 = var3.bind(var4)(var2);
+                    var8 = var9.itemInteracted;
                     var7 = _closure2_slot0;
                     var6 = _closure2_slot2;
-                    var3 = 'open_profile';
-                    var3 = var8.bind(var9)(var7, var6, var3);
-                    var3 = _closure1_slot1;
+                    var2 = 'open_profile';
+                    var2 = var8.bind(var9)(var7, var6, var2);
                     var2 = 9;
                     var2 = var5[var2];
                     var3 = var3.bind(var4)(var2);
@@ -194,23 +196,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = _closure2_slot1;
                     var2['userId'] = var5;
                     var2 = var3.bind(var4)(var2);
-                    _fun0003_ip = 170; continue _fun0003;
- 104:
-                    var4 = _closure1_slot0;
+                    _fun0003_ip = 154; continue _fun0003;
+ 94:
+                    var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
                     var2 = 8;
                     var3 = var3[var2];
                     var2 = undefined;
-                    var3 = var4.bind(var2)(var3);
-                    var7 = var3.ICYMIAnalytics;
-                    var6 = var7.trackItemInteraction;
+                    var7 = var4.bind(var2)(var3);
+                    var6 = var7.itemInteracted;
                     var5 = _closure2_slot0;
                     var4 = _closure2_slot2;
                     var3 = 'press';
                     var3 = var6.bind(var7)(var5, var4, var3);
                     var1 = _closure2_slot3;
                     var1 = var1.bind(var2)();
- 170:
+ 154:
                     var1 = undefined;
                     return var1;
                 }

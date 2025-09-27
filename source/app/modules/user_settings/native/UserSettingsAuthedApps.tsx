@@ -282,7 +282,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = 21;
                     var3 = var5[var3];
                     var5 = var4.bind(var1)(var3);
-                    var4 = var5.trackPaneViewed;
+                    var4 = var5.trackUserSettingsPaneViewed;
                     var3 = {};
                     var6 = var2.AUTHORIZED_APP;
                     var3['destinationPane'] = var6;

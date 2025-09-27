@@ -192,32 +192,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                 var2 = arg1;
                 var3 = _closure2_slot2;
-                if(!var3) { _fun0002_ip = 35; continue _fun0002 }
+                if(!var3) { _fun0002_ip = 34; continue _fun0002 }
  13:
                 var4 = var2.nativeEvent;
                 var4 = var4.data;
                 var5 = 'string';
                 var4 = typeof var4;
                 var3 = var5 !== var4;
- 35:
-                if(!var3) { _fun0002_ip = 86; continue _fun0002 }
- 38:
+ 34:
+                if(!var3) { _fun0002_ip = 84; continue _fun0002 }
+ 37:
                 var2 = var2.nativeEvent;
                 var3 = var2.data;
                 var2 = null;
                 var5 = var2 == var3;
                 var2 = undefined;
                 var4 = undefined;
-                if(var5) { _fun0002_ip = 68; continue _fun0002 }
- 62:
+                if(var5) { _fun0002_ip = 66; continue _fun0002 }
+ 60:
                 var4 = var3.eventType;
- 68:
+ 66:
                 var3 = 'Verification.Result';
-                if(!(var3 === var4)) { _fun0002_ip = 86; continue _fun0002 }
- 78:
+                if(!(var3 === var4)) { _fun0002_ip = 84; continue _fun0002 }
+ 76:
                 var1 = _closure2_slot3;
                 var1 = var1.bind(var2)();
- 86:
+ 84:
                 var1 = undefined;
                 return var1;
             }

@@ -28,10 +28,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 'modules/oauth2/Constants.tsx';
     var4 = var5.bind(var6)(var4);
     var3['OAuth2Steps'] = var2;
-    var2 = {};
-    var4 = '?error=canceled';
-    var2['AUTHORIZATION_CANCEL_FRAGMENT'] = var4;
-    var3['SocialSdkDeeplinks'] = var2;
     var2 = '1f447';
     var3['EMOJI_POINTING_DOWN_CODE_POINT'] = var2;
     return var1;

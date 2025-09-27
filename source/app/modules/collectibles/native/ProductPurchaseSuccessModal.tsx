@@ -1110,7 +1110,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17 = var29[var17];
             var17 = var18.bind(var4)(var17);
             var18 = var17.BalanceWidgetPill;
-            var17 = {'initialRenderedBalance': null, 'balance': null, 'animateBalanceChanges': true, 'showNotificationBadge': false, 'onPress': null, 'disabled': true};
+            var17 = {'initialRenderedBalance': null, 'balance': null, 'animateBalanceChanges': true, 'onPress': null, 'disabled': true, 'variant': 'secondary'};
             var17['initialRenderedBalance'] = var26;
             var17['balance'] = var23;
             var23 = function onPress() {

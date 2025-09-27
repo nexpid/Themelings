@@ -125,7 +125,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     var3 = _closure2_slot2;
                     var2 = 0;
-                    if(!(var2 === var3)) { _fun0002_ip = 44; continue _fun0002 }
+                    if(!(var2 === var3)) { _fun0002_ip = 43; continue _fun0002 }
  13:
                     var3 = _closure2_slot3;
                     var1 = arg1;
@@ -134,7 +134,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var1.height;
                     var1 = undefined;
                     var1 = var3.bind(var1)(var2);
- 44:
+ 43:
                     var1 = undefined;
                     return var1;
                 }
@@ -148,7 +148,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     var3 = _closure2_slot4;
                     var2 = 0;
-                    if(!(var2 === var3)) { _fun0003_ip = 44; continue _fun0003 }
+                    if(!(var2 === var3)) { _fun0003_ip = 43; continue _fun0003 }
  13:
                     var3 = _closure2_slot5;
                     var1 = arg1;
@@ -157,7 +157,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var1.height;
                     var1 = undefined;
                     var1 = var3.bind(var1)(var2);
- 44:
+ 43:
                     var1 = undefined;
                     return var1;
                 }

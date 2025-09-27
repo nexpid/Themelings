@@ -2277,13 +2277,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         };
                         var1 = var2.bind(var4)(var1);
                         var2 = null;
-                        if(!(var2 == var1)) { _fun0020_ip = 32; continue _fun0020 }
- 26:
+                        if(!(var2 == var1)) { _fun0020_ip = 33; continue _fun0020 }
+ 27:
                         var3 = 0;
                         var1 = var4[var3];
- 32:
-                        if(!(var2 != var1)) { _fun0020_ip = 87; continue _fun0020 }
- 36:
+ 33:
+                        if(!(var2 != var1)) { _fun0020_ip = 88; continue _fun0020 }
+ 37:
                         var4 = _closure1_slot0;
                         var3 = _closure1_slot2;
                         var2 = 15;
@@ -2295,7 +2295,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = var3.setInputDevice;
                         var1 = var1.index;
                         var1 = var2.bind(var3)(var1);
- 87:
+ 88:
                         var1 = undefined;
                         return var1;
                     }
@@ -2390,13 +2390,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         };
                         var1 = var2.bind(var4)(var1);
                         var2 = null;
-                        if(!(var2 == var1)) { _fun0022_ip = 32; continue _fun0022 }
- 26:
+                        if(!(var2 == var1)) { _fun0022_ip = 33; continue _fun0022 }
+ 27:
                         var3 = 0;
                         var1 = var4[var3];
- 32:
-                        if(!(var2 != var1)) { _fun0022_ip = 87; continue _fun0022 }
- 36:
+ 33:
+                        if(!(var2 != var1)) { _fun0022_ip = 88; continue _fun0022 }
+ 37:
                         var4 = _closure1_slot0;
                         var3 = _closure1_slot2;
                         var2 = 15;
@@ -2408,7 +2408,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = var3.setOutputDevice;
                         var1 = var1.index;
                         var1 = var2.bind(var3)(var1);
- 87:
+ 88:
                         var1 = undefined;
                         return var1;
                     }
@@ -2469,7 +2469,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     StartGenerator();
                     var4 = this;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0023_ip = 327; continue _fun0023 }
+                    if(var2) { _fun0023_ip = 328; continue _fun0023 }
  15:
                     var _closure4_slot0 = var4;
                     var2 = arg1;
@@ -2481,7 +2481,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var2;
  40:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0023_ip = 324; continue _fun0023 }
+                    if(var5) { _fun0023_ip = 325; continue _fun0023 }
  49:
                     var6 = var2.find;
                     var5 = function(arg1) {
@@ -2493,16 +2493,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     };
                     var10 = var6.bind(var2)(var5);
                     var11 = null;
-                    if(!(var11 == var10)) { _fun0023_ip = 79; continue _fun0023 }
- 70:
+                    if(!(var11 == var10)) { _fun0023_ip = 80; continue _fun0023 }
+ 71:
                     var5 = _closure1_slot18;
-                    _fun0023_ip = 84; continue _fun0023;
- 79:
+                    _fun0023_ip = 85; continue _fun0023;
+ 80:
                     var5 = var10.id;
- 84:
+ 85:
                     var6 = var4.videoInputDeviceId;
-                    if(!(var5 !== var6)) { _fun0023_ip = 319; continue _fun0023 }
- 97:
+                    if(!(var5 !== var6)) { _fun0023_ip = 320; continue _fun0023 }
+ 98:
                     var4['videoInputDeviceId'] = var5;
                     var7 = _closure1_slot0;
                     var6 = _closure1_slot2;
@@ -2514,8 +2514,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = _closure1_slot22;
                     var6 = var6.SET_VIDEO_DEVICE_BY_ID;
                     var6 = var7.bind(var12)(var6);
-                    if(var6) { _fun0023_ip = 210; continue _fun0023 }
- 152:
+                    if(var6) { _fun0023_ip = 211; continue _fun0023 }
+ 153:
                     var7 = _closure1_slot0;
                     var6 = _closure1_slot2;
                     var6 = var6[var9];
@@ -2525,32 +2525,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = var12.setVideoInputDevice;
                     var13 = var11 != var10;
                     var6 = -1;
-                    if(!var13) { _fun0023_ip = 203; continue _fun0023 }
- 198:
+                    if(!var13) { _fun0023_ip = 204; continue _fun0023 }
+ 199:
                     var6 = var10.index;
- 203:
+ 204:
                     var6 = var7.bind(var12)(var6);
-                    _fun0023_ip = 298; continue _fun0023;
- 210:
-                    if(!(var11 == var10)) { _fun0023_ip = 220; continue _fun0023 }
- 214:
+                    _fun0023_ip = 299; continue _fun0023;
+ 211:
+                    if(!(var11 == var10)) { _fun0023_ip = 221; continue _fun0023 }
+ 215:
                     var7 = _closure1_slot18;
-                    _fun0023_ip = 260; continue _fun0023;
- 220:
+                    _fun0023_ip = 261; continue _fun0023;
+ 221:
                     var6 = var10.originalId;
-                    if(!(var11 != var6)) { _fun0023_ip = 244; continue _fun0023 }
- 230:
+                    if(!(var11 != var6)) { _fun0023_ip = 245; continue _fun0023 }
+ 231:
                     var11 = var10.originalId;
                     var6 = '';
-                    if(!(var6 === var11)) { _fun0023_ip = 251; continue _fun0023 }
- 244:
+                    if(!(var6 === var11)) { _fun0023_ip = 252; continue _fun0023 }
+ 245:
                     var6 = var10.id;
-                    _fun0023_ip = 257; continue _fun0023;
- 251:
+                    _fun0023_ip = 258; continue _fun0023;
+ 252:
                     var6 = var10.originalId;
- 257:
+ 258:
                     var7 = var6;
- 260:
+ 261:
                     var6 = _closure1_slot0;
                     var5 = _closure1_slot2;
                     var5 = var5[var9];
@@ -2559,7 +2559,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = var5.bind(var6)();
                     var5 = var6.setVideoInputDevice;
                     var5 = var5.bind(var6)(var7);
- 298:
+ 299:
                     var5 = var4.connections;
                     var4 = var5.forEach;
                     var3 = function(arg1) {
@@ -2572,12 +2572,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     };
                     var3 = var4.bind(var5)(var3);
- 319:
+ 320:
                     var3 = undefined;
                     return var3;
- 324:
+ 325:
                     return var2;
- 327:
+ 328:
                     return var1;
                 }
             };

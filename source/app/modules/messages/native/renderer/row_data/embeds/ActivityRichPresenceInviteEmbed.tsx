@@ -255,12 +255,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var1 == var2;
                     var3 = undefined;
                     var4 = undefined;
-                    if(var5) { _fun0004_ip = 50; continue _fun0004 }
+                    if(var5) { _fun0004_ip = 51; continue _fun0004 }
  16:
                     var6 = var2.linkedGames;
                     var2 = var1 == var6;
                     var4 = undefined;
-                    if(var2) { _fun0004_ip = 50; continue _fun0004 }
+                    if(var2) { _fun0004_ip = 51; continue _fun0004 }
  31:
                     var5 = var6.find;
                     var2 = function(arg1) {
@@ -278,14 +278,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     };
                     var4 = var5.bind(var6)(var2);
- 50:
+ 51:
                     var2 = _closure1_slot20;
                     var5 = var1 == var4;
                     var1 = undefined;
-                    if(var5) { _fun0004_ip = 71; continue _fun0004 }
- 66:
+                    if(var5) { _fun0004_ip = 72; continue _fun0004 }
+ 67:
                     var1 = var4.id;
- 71:
+ 72:
                     var1 = var2.bind(var3)(var1);
                     return var1;
                 }

@@ -210,34 +210,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0002_ip = 144; continue _fun0002 }
+                    if(var2) { _fun0002_ip = 142; continue _fun0002 }
  10:
                     var4 = _closure2_slot2;
                     var3 = undefined;
                     var2 = true;
                     var2 = var4.bind(var3)(var2);
-                    var4 = _closure1_slot0;
+                    var6 = _closure1_slot1;
                     var5 = _closure1_slot2;
-                    var2 = 9;
-                    var2 = var5[var2];
-                    var2 = var4.bind(var3)(var2);
-                    var8 = var2.ICYMIAnalytics;
-                    var7 = var8.trackItemInteraction;
+                    var4 = 9;
+                    var4 = var5[var4];
+                    var8 = var6.bind(var3)(var4);
+                    var7 = var8.itemInteracted;
                     var6 = 'caught_up';
-                    var2 = 'press_explore';
-                    var2 = var7.bind(var8)(var6, var6, var2);
+                    var4 = 'press_explore';
+                    var4 = var7.bind(var8)(var6, var6, var4);
+                    var4 = _closure1_slot0;
                     var2 = 10;
                     var2 = var5[var2];
                     var4 = var4.bind(var3)(var2);
                     var2 = var4.maybeFetchGuildDiscoveryCategories;
                     var2 = var2.bind(var4)();
-                    SaveGenerator(address=106);
- 104:
+                    SaveGenerator(address=104);
+ 102:
                     return var2;
- 106:
+ 104:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0002_ip = 141; continue _fun0002 }
- 112:
+                    if(var4) { _fun0002_ip = 139; continue _fun0002 }
+ 110:
                     var4 = global;
                     var6 = var4.setTimeout;
                     var5 = function() {
@@ -266,9 +266,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = 100;
                     var4 = var6.bind(var3)(var5, var4);
                     return var3;
- 141:
+ 139:
                     return var2;
- 144:
+ 142:
                     return var1;
                 }
             };
@@ -281,32 +281,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = function() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                var3 = _closure1_slot0;
+                var5 = _closure1_slot1;
                 var4 = _closure1_slot2;
                 var1 = 9;
-                var2 = var4[var1];
+                var3 = var4[var1];
                 var1 = undefined;
-                var2 = var3.bind(var1)(var2);
-                var7 = var2.ICYMIAnalytics;
-                var6 = var7.trackItemInteraction;
+                var7 = var5.bind(var1)(var3);
+                var6 = var7.itemInteracted;
                 var5 = 'caught_up';
-                var2 = 'press_home';
-                var2 = var6.bind(var7)(var5, var5, var2);
+                var3 = 'press_home';
+                var3 = var6.bind(var7)(var5, var5, var3);
+                var3 = _closure1_slot0;
                 var2 = 12;
                 var2 = var4[var2];
                 var3 = var3.bind(var1)(var2);
                 var2 = var3.getRootNavigationRef;
                 var5 = var2.bind(var3)();
                 var2 = null;
-                if(!(var2 != var5)) { _fun0003_ip = 111; continue _fun0003 }
- 84:
+                if(!(var2 != var5)) { _fun0003_ip = 109; continue _fun0003 }
+ 82:
                 var4 = var5.navigate;
                 var3 = {};
                 var2 = 'guilds';
                 var3['screen'] = var2;
                 var2 = 'tabs';
                 var2 = var4.bind(var5)(var2, var3);
- 111:
+ 109:
                 return var1;
             }
         };

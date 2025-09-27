@@ -132,26 +132,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3['consumeLogs'] = var5;
         var3['BlockedDomainsStore'] = var4;
         var4 = function getFluxApi() {
+            var1 = _closure1_slot2;
+            var3 = var1.fluxApi;
+            var _closure2_slot0 = var3;
             var1 = {};
-            var4 = _closure1_slot2;
-            var4 = var4.registerKvStore;
-            var1['registerKvStore'] = var4;
-            var4 = _closure1_slot2;
-            var4 = var4.registerKkvStore;
-            var1['registerKkvStore'] = var4;
-            var4 = _closure1_slot2;
-            var4 = var4.findStoresThatCanHandleActionType;
-            var1['findStoresThatCanHandleActionType'] = var4;
-            var3 = _closure1_slot2;
-            var3 = var3.getRegisteredActionTypes;
-            var1['getActions'] = var3;
+            var5 = var1;
+            var4 = var3;
+            var3 = copyDataProperties(var5, var4);
             var3 = function dispatchAction(arg1, arg2) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
                     var2 = arg1;
                     var1 = arg2;
  6: // try_start_0
-                    var5 = _closure1_slot2;
+                    var5 = _closure2_slot0;
                     var4 = var5.dispatchAction;
                     var1 = var4.bind(var5)(var2, var1);
  25: // try_end0
@@ -179,15 +173,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 }
             };
-            var1['dispatchAction'] = var3;
-            var2 = function getMemoryStatistics(arg1) {
-                var3 = _closure1_slot2;
-                var2 = var3.getStoreMemoryStatistics;
-                var1 = arg1;
-                var1 = var2.bind(var3)(var1);
-                return var1;
-            };
-            var1['getMemoryStatistics'] = var2;
+            var2 = 'dispatchAction';
+            var1[var2] = var3;
             return var1;
         };
         var3['getFluxApi'] = var4;

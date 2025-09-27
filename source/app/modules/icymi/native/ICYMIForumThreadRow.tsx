@@ -146,14 +146,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = function() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                    var4 = _closure1_slot0;
+                    var4 = _closure1_slot1;
                     var2 = _closure1_slot2;
                     var1 = 10;
                     var2 = var2[var1];
                     var1 = undefined;
-                    var2 = var4.bind(var1)(var2);
-                    var8 = var2.ICYMIAnalytics;
-                    var7 = var8.trackItemInteraction;
+                    var8 = var4.bind(var1)(var2);
+                    var7 = var8.itemInteracted;
                     var4 = _closure2_slot1;
                     var6 = var4.id;
                     var5 = 'forum_thread';
@@ -162,13 +161,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = _closure2_slot0;
                     var6 = null;
                     var4 = var6 != var4;
-                    if(!var4) { _fun0004_ip = 89; continue _fun0004 }
- 81:
+                    if(!var4) { _fun0004_ip = 83; continue _fun0004 }
+ 75:
                     var5 = _closure2_slot5;
                     var4 = var6 != var5;
- 89:
-                    if(!var4) { _fun0004_ip = 152; continue _fun0004 }
- 92:
+ 83:
+                    if(!var4) { _fun0004_ip = 146; continue _fun0004 }
+ 86:
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot2;
                     var3 = 11;
@@ -182,7 +181,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = _closure2_slot1;
                     var2 = var2.id;
                     var2 = var5.bind(var6)(var4, var3, var2);
- 152:
+ 146:
                     return var1;
                 }
             };
@@ -201,29 +200,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = _closure2_slot0;
                     var3 = var2.parent_id;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0005_ip = 117; continue _fun0005 }
+                    if(!(var2 != var3)) { _fun0005_ip = 115; continue _fun0005 }
  19:
-                    var4 = _closure1_slot0;
+                    var6 = _closure1_slot1;
                     var5 = _closure1_slot2;
-                    var2 = 10;
-                    var2 = var5[var2];
-                    var3 = undefined;
-                    var2 = var4.bind(var3)(var2);
-                    var9 = var2.ICYMIAnalytics;
-                    var8 = var9.trackItemInteraction;
-                    var2 = _closure2_slot1;
-                    var7 = var2.id;
+                    var3 = 10;
+                    var3 = var5[var3];
+                    var4 = undefined;
+                    var9 = var6.bind(var4)(var3);
+                    var8 = var9.itemInteracted;
+                    var3 = _closure2_slot1;
+                    var7 = var3.id;
                     var6 = 'forum_thread';
-                    var2 = 'long_press_forum_thread';
-                    var2 = var8.bind(var9)(var7, var6, var2);
+                    var3 = 'long_press_forum_thread';
+                    var3 = var8.bind(var9)(var7, var6, var3);
+                    var3 = _closure1_slot0;
                     var2 = 12;
                     var2 = var5[var2];
-                    var3 = var4.bind(var3)(var2);
+                    var3 = var3.bind(var4)(var2);
                     var2 = var3.openChannelLongPressActionSheet;
                     var1 = _closure2_slot0;
                     var1 = var1.parent_id;
                     var1 = var2.bind(var3)(var1);
- 117:
+ 115:
                     var1 = undefined;
                     return var1;
                 }
@@ -246,22 +245,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = function() {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-                    var4 = _closure1_slot0;
+                    var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
                     var1 = 10;
                     var3 = var3[var1];
                     var1 = undefined;
-                    var3 = var4.bind(var1)(var3);
-                    var9 = var3.ICYMIAnalytics;
-                    var8 = var9.trackItemInteraction;
+                    var9 = var4.bind(var1)(var3);
+                    var8 = var9.itemInteracted;
                     var3 = _closure2_slot1;
                     var7 = var3.id;
                     var5 = 'forum_thread';
                     var4 = 'press_comments';
                     var4 = var8.bind(var9)(var7, var5, var4);
                     var7 = null;
-                    if(!(var7 != var3)) { _fun0006_ip = 138; continue _fun0006 }
- 74:
+                    if(!(var7 != var3)) { _fun0006_ip = 132; continue _fun0006 }
+ 68:
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
                     var2 = 11;
@@ -273,13 +271,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = _closure2_slot5;
                     var7 = var7 == var2;
                     var2 = undefined;
-                    if(var7) { _fun0006_ip = 131; continue _fun0006 }
- 122:
+                    if(var7) { _fun0006_ip = 125; continue _fun0006 }
+ 116:
                     var6 = _closure2_slot5;
                     var2 = var6.id;
- 131:
+ 125:
                     var2 = var4.bind(var5)(var3, var2, var1);
- 138:
+ 132:
                     return var1;
                 }
             };

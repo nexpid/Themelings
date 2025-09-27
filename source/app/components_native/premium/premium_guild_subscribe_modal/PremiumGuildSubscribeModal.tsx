@@ -204,7 +204,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 var2 = var4[var1];
                                 var1 = undefined;
                                 var7 = var3.bind(var1)(var2);
-                                var6 = var7.trackPaneViewed;
+                                var6 = var7.trackUserSettingsPaneViewed;
                                 var2 = {};
                                 var5 = _closure1_slot7;
                                 var8 = var5.GUILD_BOOSTING;

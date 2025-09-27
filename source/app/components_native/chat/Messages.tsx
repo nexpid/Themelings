@@ -1413,13 +1413,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var3 = var3._chatRef;
                         var3 = var3.current;
                         var19 = var4.bind(var7)(var3);
-                        if(!(var20 !== var19)) { _fun0016_ip = 208; continue _fun0016 }
- 139:
+                        if(!(var20 !== var19)) { _fun0016_ip = 207; continue _fun0016 }
+ 138:
                         var3 = _closure3_slot0;
                         var3 = var3.props;
                         var3 = var3.isStaff;
-                        if(!var3) { _fun0016_ip = 380; continue _fun0016 }
- 160:
+                        if(!var3) { _fun0016_ip = 379; continue _fun0016 }
+ 159:
                         var18 = _closure1_slot77;
                         var7 = var18.log;
                         var3 = _closure3_slot0;
@@ -1430,8 +1430,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var22 = var20;
                         var21 = var19;
                         var3 = var25[var7](var24, var23, var22, var21, var20);
-                        _fun0016_ip = 380; continue _fun0016;
- 208:
+                        _fun0016_ip = 379; continue _fun0016;
+ 207:
                         var7 = _closure3_slot0;
                         var2 = var7.props;
                         var4 = var2.visibleMessagesWindowHandler;
@@ -1468,7 +1468,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2['firstVisibleMessageRowIndex'] = var6;
                         var2['lastVisibleMessageRowIndex'] = var5;
                         var2 = var3.bind(var4)(var2);
- 380:
+ 379:
                         return var1;
                     }
                 };
@@ -3056,10 +3056,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var10 = var7.mimeType;
                         var11 = var8 != var10;
                         var9 = 'video';
-                        if(!var11) { _fun0030_ip = 155; continue _fun0030 }
- 152:
+                        if(!var11) { _fun0030_ip = 154; continue _fun0030 }
+ 151:
                         var9 = var10;
- 155:
+ 154:
                         var2['mime_type'] = var9;
                         var2['file_size'] = var8;
                         var7 = var7.fileDurationSec;
@@ -3774,7 +3774,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var2.props;
                 var4 = var4.currentUserId;
                 var7 = null;
-                if(!(var7 != var4)) { _fun0040_ip = 3347; continue _fun0040 }
+                if(!(var7 != var4)) { _fun0040_ip = 3348; continue _fun0040 }
  36:
                 var4 = var2.props;
                 var4 = var4.messages;
@@ -4436,7 +4436,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  2701:
                 var12 = var2.recordTimings;
                 var12 = var12.bind(var2)();
-                _fun0040_ip = 3347; continue _fun0040;
+                _fun0040_ip = 3348; continue _fun0040;
  2716:
                 var12 = global;
                 var12 = var12.Set;
@@ -4503,7 +4503,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var18 = var3.participantsLength;
                 var16 = var2.props;
                 var16 = var16.participantsLength;
-                if(!(var18 !== var16)) { _fun0040_ip = 3068; continue _fun0040 }
+                if(!(var18 !== var16)) { _fun0040_ip = 3069; continue _fun0040 }
  2980:
                 var16 = _closure1_slot1;
                 var18 = _closure1_slot2;
@@ -4526,12 +4526,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var15 = var17.bind(var18)(var16, var15);
-                if(!(var7 != var15)) { _fun0040_ip = 3068; continue _fun0040 }
- 3053:
+                if(!(var7 != var15)) { _fun0040_ip = 3069; continue _fun0040 }
+ 3054:
                 var16 = var12.add;
                 var15 = var15.id;
                 var15 = var16.bind(var12)(var15);
- 3068:
+ 3069:
                 var16 = var3.channelThreadsVersion;
                 var15 = var2.props;
                 var15 = var15.channelThreadsVersion;
@@ -4555,18 +4555,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var15 = var3.communicationDisabledVersion;
                 var16 = var7 != var15;
                 var7 = -1;
-                if(!var16) { _fun0040_ip = 3190; continue _fun0040 }
- 3187:
+                if(!var16) { _fun0040_ip = 3191; continue _fun0040 }
+ 3188:
                 var7 = var15;
- 3190:
+ 3191:
                 var _closure3_slot28 = var7;
                 var3 = var3.cacheStoreLoaded;
                 var7 = !var3;
-                if(!var7) { _fun0040_ip = 3217; continue _fun0040 }
- 3206:
+                if(!var7) { _fun0040_ip = 3218; continue _fun0040 }
+ 3207:
                 var3 = var2.props;
                 var7 = var3.cacheStoreLoaded;
- 3217:
+ 3218:
                 var _closure3_slot29 = var7;
                 var3 = var2.props;
                 var15 = var3.messages;
@@ -5122,7 +5122,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var3.bind(var2)(var1);
                 var1 = var2.recordTimings;
                 var1 = var1.bind(var2)();
- 3347:
+ 3348:
                 var1 = undefined;
                 return var1;
             }

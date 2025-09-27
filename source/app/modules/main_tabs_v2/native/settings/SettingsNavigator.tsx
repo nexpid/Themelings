@@ -219,7 +219,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
-                var3 = var4.trackPaneViewed;
+                var3 = var4.trackUserSettingsPaneViewed;
                 var2 = {};
                 var5 = _closure2_slot1;
                 var2['destinationPane'] = var5;
@@ -509,18 +509,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var1.actionName;
                     var1 = 'escape';
                     var1 = var1 === var2;
-                    if(!var1) { _fun0005_ip = 43; continue _fun0005 }
- 26:
+                    if(!var1) { _fun0005_ip = 42; continue _fun0005 }
+ 25:
                     var3 = _closure2_slot6;
                     var2 = var3.canGoBack;
                     var1 = var2.bind(var3)();
- 43:
-                    if(!var1) { _fun0005_ip = 63; continue _fun0005 }
- 46:
+ 42:
+                    if(!var1) { _fun0005_ip = 62; continue _fun0005 }
+ 45:
                     var2 = _closure2_slot6;
                     var1 = var2.goBack;
                     var1 = var1.bind(var2)();
- 63:
+ 62:
                     var1 = undefined;
                     return var1;
                 }

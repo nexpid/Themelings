@@ -178,11 +178,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var1.actionName;
                     var1 = _closure1_slot9;
                     var1 = var1.ADD;
-                    if(!(var3 !== var1)) { _fun0003_ip = 36; continue _fun0003 }
- 32:
+                    if(!(var3 !== var1)) { _fun0003_ip = 35; continue _fun0003 }
+ 31:
                     var1 = undefined;
                     return var1;
- 36:
+ 35:
                     var5 = _closure2_slot4;
                     var4 = var5.set;
                     var3 = true;

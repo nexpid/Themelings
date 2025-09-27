@@ -161,11 +161,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = _closure2_slot1;
                     var1 = _closure2_slot2;
                     var2 = var4;
-                    if(!var1) { _fun0002_ip = 44; continue _fun0002 }
- 37:
+                    if(!var1) { _fun0002_ip = 43; continue _fun0002 }
+ 36:
                     var1 = 2;
                     var2 = var4 / var1;
- 44:
+ 43:
                     var1 = undefined;
                     var1 = var3.bind(var1)(var2);
                     var1 = undefined;

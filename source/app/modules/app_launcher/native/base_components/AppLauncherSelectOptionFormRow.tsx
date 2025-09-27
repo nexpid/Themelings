@@ -97,16 +97,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var9.Text;
             var9 = {};
             var13 = 'text-md/medium';
-            if(!var8) { _fun0001_ip = 203; continue _fun0001 }
- 199:
-            var13 = 'text-sm/medium';
+            if(!var8) { _fun0001_ip = 207; continue _fun0001 }
  203:
+            var13 = 'text-sm/medium';
+ 207:
             var9['variant'] = var13;
             var13 = 'text-normal';
-            if(!var8) { _fun0001_ip = 222; continue _fun0001 }
- 216:
+            if(!var8) { _fun0001_ip = 226; continue _fun0001 }
+ 220:
             var13 = 'interactive-normal';
- 222:
+ 226:
             var9['color'] = var13;
             var13 = 1;
             var9['lineClamp'] = var13;
@@ -115,8 +115,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var3.bind(var4)(var11, var9);
             var1['label'] = var9;
             var6 = null;
-            if(!var8) { _fun0001_ip = 265; continue _fun0001 }
- 258:
+            if(!var8) { _fun0001_ip = 269; continue _fun0001 }
+ 262:
             var6 = function() {
                 var4 = _closure1_slot3;
                 var2 = _closure1_slot0;
@@ -132,7 +132,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var4.bind(var3)(var2, var1);
                 return var1;
             };
- 265:
+ 269:
             var1['subLabel'] = var6;
             var8 = _closure1_slot3;
             var13 = _closure1_slot1;

@@ -49,19 +49,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = new Array(1);
             var2[0] = var5;
             var1 = function() {
-                var6 = _closure1_slot0;
+                var4 = _closure1_slot0;
                 var7 = _closure1_slot2;
                 var1 = 3;
-                var2 = var7[var1];
+                var3 = var7[var1];
                 var1 = undefined;
-                var5 = var6.bind(var1)(var2);
+                var5 = var4.bind(var1)(var3);
                 var4 = var5.openConversation;
                 var3 = _closure2_slot0;
+                var6 = _closure1_slot1;
                 var2 = 4;
                 var2 = var7[var2];
                 var2 = var6.bind(var1)(var2);
-                var2 = var2.ICYMIAnalytics;
-                var2 = var2.trackItemInteraction;
+                var2 = var2.itemInteracted;
                 var2 = var4.bind(var5)(var3, var2);
                 return var1;
             };

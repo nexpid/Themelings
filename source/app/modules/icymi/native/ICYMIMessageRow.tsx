@@ -870,19 +870,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8[0] = var5;
             var8[1] = var10;
             var5 = function() {
-                var4 = _closure1_slot0;
+                var4 = _closure1_slot1;
                 var5 = _closure1_slot2;
                 var1 = 27;
                 var2 = var5[var1];
                 var1 = undefined;
-                var2 = var4.bind(var1)(var2);
-                var9 = var2.ICYMIAnalytics;
-                var8 = var9.trackItemInteraction;
-                var3 = _closure2_slot0;
-                var7 = var3.id;
+                var9 = var4.bind(var1)(var2);
+                var8 = var9.itemInteracted;
+                var4 = _closure2_slot0;
+                var7 = var4.id;
                 var6 = 'message';
-                var3 = 'long_press_channel';
-                var3 = var8.bind(var9)(var7, var6, var3);
+                var4 = 'long_press_channel';
+                var4 = var8.bind(var9)(var7, var6, var4);
+                var4 = _closure1_slot0;
                 var3 = 28;
                 var3 = var5[var3];
                 var4 = var4.bind(var1)(var3);
@@ -899,19 +899,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13[0] = var11;
             var13[1] = var10;
             var5 = function() {
-                var3 = _closure1_slot0;
+                var3 = _closure1_slot1;
                 var4 = _closure1_slot2;
                 var1 = 27;
                 var2 = var4[var1];
                 var1 = undefined;
-                var2 = var3.bind(var1)(var2);
-                var11 = var2.ICYMIAnalytics;
-                var10 = var11.trackItemInteraction;
+                var10 = var3.bind(var1)(var2);
+                var9 = var10.itemInteracted;
                 var5 = _closure2_slot0;
-                var9 = var5.id;
-                var8 = 'message';
+                var8 = var5.id;
+                var3 = 'message';
                 var2 = 'long_press_message';
-                var2 = var10.bind(var11)(var9, var8, var2);
+                var2 = var9.bind(var10)(var8, var3, var2);
+                var3 = _closure1_slot0;
                 var2 = 29;
                 var2 = var4[var2];
                 var4 = var3.bind(var1)(var2);
@@ -940,22 +940,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = function() {
                 _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
-                    var4 = _closure1_slot0;
+                    var4 = _closure1_slot1;
                     var2 = _closure1_slot2;
                     var1 = 27;
                     var2 = var2[var1];
                     var1 = undefined;
-                    var2 = var4.bind(var1)(var2);
-                    var9 = var2.ICYMIAnalytics;
-                    var8 = var9.trackItemInteraction;
+                    var9 = var4.bind(var1)(var2);
+                    var8 = var9.itemInteracted;
                     var5 = _closure2_slot0;
                     var7 = var5.id;
                     var6 = 'message';
                     var4 = 'press_comments';
                     var4 = var8.bind(var9)(var7, var6, var4);
                     var4 = null;
-                    if(!(var4 != var5)) { _fun0008_ip = 123; continue _fun0008 }
- 72:
+                    if(!(var4 != var5)) { _fun0008_ip = 117; continue _fun0008 }
+ 66:
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot2;
                     var3 = 30;
@@ -967,7 +966,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = _closure2_slot2;
                     var2 = var2.id;
                     var2 = var4.bind(var5)(var3, var2, var1);
- 123:
+ 117:
                     return var1;
                 }
             };
@@ -993,54 +992,53 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = function() {
                 _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
-                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot1;
                     var1 = _closure1_slot2;
                     var7 = 27;
-                    var3 = var1[var7];
+                    var2 = var1[var7];
                     var1 = undefined;
-                    var3 = var4.bind(var1)(var3);
-                    var9 = var3.ICYMIAnalytics;
-                    var6 = var9.trackItemInteraction;
-                    var3 = _closure2_slot0;
-                    var5 = var3.id;
-                    var4 = 'message';
-                    var3 = 'press_message';
-                    var3 = var6.bind(var9)(var5, var4, var3);
+                    var9 = var3.bind(var1)(var2);
+                    var5 = var9.itemInteracted;
+                    var2 = _closure2_slot0;
+                    var4 = var2.id;
+                    var3 = 'message';
+                    var2 = 'press_message';
+                    var2 = var5.bind(var9)(var4, var3, var2);
                     var3 = _closure2_slot8;
-                    var6 = _closure1_slot0;
+                    var4 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    if(var3) { _fun0009_ip = 135; continue _fun0009 }
- 81:
+                    if(var3) { _fun0009_ip = 129; continue _fun0009 }
+ 75:
                     var3 = 30;
                     var3 = var2[var3];
-                    var10 = var6.bind(var1)(var3);
-                    var9 = var10.navigateToPost;
+                    var11 = var4.bind(var1)(var3);
+                    var10 = var11.navigateToPost;
                     var3 = _closure2_slot1;
-                    var5 = var3.id;
+                    var9 = var3.id;
                     var3 = _closure2_slot2;
-                    var4 = var3.id;
+                    var5 = var3.id;
                     var3 = _closure2_slot0;
                     var3 = var3.id;
-                    var3 = var9.bind(var10)(var5, var4, var3);
-                    _fun0009_ip = 208; continue _fun0009;
- 135:
+                    var3 = var10.bind(var11)(var9, var5, var3);
+                    _fun0009_ip = 200; continue _fun0009;
+ 129:
                     var3 = 32;
                     var3 = var2[var3];
-                    var5 = var6.bind(var1)(var3);
+                    var5 = var4.bind(var1)(var3);
                     var4 = var5.openConversation;
                     var3 = {};
-                    var12 = _closure2_slot12;
-                    var13 = var3;
-                    var8 = copyDataProperties(var13, var12);
+                    var13 = _closure2_slot12;
+                    var14 = var3;
+                    var8 = copyDataProperties(var14, var13);
                     var9 = 'icymi-bottom-sheet';
                     var8 = 'renderLocation';
                     var3[var8] = var9;
+                    var6 = _closure1_slot1;
                     var2 = var2[var7];
                     var2 = var6.bind(var1)(var2);
-                    var2 = var2.ICYMIAnalytics;
-                    var2 = var2.trackItemInteraction;
+                    var2 = var2.itemInteracted;
                     var2 = var4.bind(var5)(var3, var2);
- 208:
+ 200:
                     return var1;
                 }
             };

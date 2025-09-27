@@ -146,7 +146,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var4 = 3;
                         var4 = var6[var4];
                         var6 = var5.bind(var1)(var4);
-                        var5 = var6.trackPaneViewed;
+                        var5 = var6.trackUserSettingsPaneViewed;
                         var4 = {};
                         var7 = var2.route;
                         var4['destinationPane'] = var7;

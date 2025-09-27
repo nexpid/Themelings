@@ -313,20 +313,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var1 == var2;
                     var1 = undefined;
                     var4 = undefined;
-                    if(var3) { _fun0003_ip = 33; continue _fun0003 }
- 28:
+                    if(var3) { _fun0003_ip = 32; continue _fun0003 }
+ 27:
                     var4 = var2.height;
- 33:
+ 32:
                     var2 = 0;
-                    if(!(var4 > var2)) { _fun0003_ip = 67; continue _fun0003 }
- 39:
+                    if(!(var4 > var2)) { _fun0003_ip = 66; continue _fun0003 }
+ 38:
                     var3 = _closure2_slot0;
                     var3 = var3.bind(var1)(var4);
                     var4 = _closure2_slot1;
                     var3 = var4.set;
                     var2 = true;
                     var2 = var3.bind(var4)(var2);
- 67:
+ 66:
                     return var1;
                 }
             };

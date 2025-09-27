@@ -1180,7 +1180,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var2['setCardHeight'] = var7;
-    var4 = function takeSurvey() {
+    var7 = function takeSurvey() {
         _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
  0:
             var5 = arguments[0];
@@ -1206,7 +1206,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var2['takeSurvey'] = var4;
+    var2['takeSurvey'] = var7;
+    var4 = function itemInteracted(arg1, arg2, arg3) {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 3;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'ICYMI_ITEM_INTERACTED';
+        var2['type'] = var5;
+        var5 = arg1;
+        var2['itemId'] = var5;
+        var5 = arg2;
+        var2['itemType'] = var5;
+        var5 = arg3;
+        var2['actionType'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var2['itemInteracted'] = var4;
     var4 = 8;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

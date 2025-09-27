@@ -62,16 +62,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var10[var4];
     var11 = var9.bind(var1)(var5);
     var8 = var11.createExperiment;
-    var5 = {'kind': 'user', 'id': '2025-05_hotwheels_user_affinity_v2', 'label': 'Next iteration of the activity feed ranking model.'};
+    var5 = {'kind': 'user', 'id': '2025-09_hotwheels_nvidia_boost', 'label': 'Next iteration of the activity feed ranking model.'};
     var12 = var12.CONNECTION_OPEN;
     var5['commonTriggerPoint'] = var12;
     var12 = {};
     var5['defaultConfig'] = var12;
-    var15 = {'id': 14, 'label': 'ML model V3 - User Affinity V2'};
+    var15 = {'id': 16, 'label': 'ML model V3 - Nvidia small boost'};
     var12 = {};
     var15['config'] = var12;
-    var12 = new Array(1);
+    var12 = new Array(2);
     var12[0] = var15;
+    var15 = {'id': 17, 'label': 'ML model V3 - Nvidia big boost'};
+    var16 = {};
+    var15['config'] = var16;
+    var12[1] = var15;
     var5['treatments'] = var12;
     var5 = var8.bind(var11)(var5);
     var4 = var10[var4];
@@ -98,7 +102,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var9.bind(var10)(var8);
     var3['MemberlistRankerExperiment'] = var7;
     var3['HotwheelsHoldoutTheSequel'] = var6;
-    var3['HotwheelsActivityFeedMlModelUAV2Experiment'] = var5;
+    var3['HotwheelsActivityFeedNvidiaExperiment'] = var5;
     var5 = function isEligibleForContentInventoryV1(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:

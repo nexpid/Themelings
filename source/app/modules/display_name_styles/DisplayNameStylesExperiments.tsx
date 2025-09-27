@@ -63,7 +63,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var8[var2];
     var10 = var7.bind(var1)(var2);
     var9 = var10.createApexExperiment;
-    var2 = {'name': '2025-09-display-name-styles-per-server', 'kind': 'user'};
+    var2 = {'name': '2025-09-display-name-styles-ga', 'kind': 'user'};
     var11 = {};
     var11['enabled'] = var12;
     var2['defaultConfig'] = var11;
@@ -80,6 +80,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = var7.bind(var8)(var6);
     var3['DisplayNameStylesViewerExperiment'] = var5;
     var3['DisplayNameStylesSetterExperiment'] = var4;
-    var3['DisplayNameStylesPerServerExperiment'] = var2;
+    var3['DisplayNameStylesGaExperiment'] = var2;
     return var1;
 })();

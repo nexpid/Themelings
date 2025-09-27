@@ -4575,6 +4575,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var4 = var8.bind(var1)(var7, var4);
+    var7 = ['QUEST_PREVIEW_UPDATE'];
+    var4 = function(arg1) {
+        var3 = _closure1_slot26;
+        var2 = {};
+        var1 = 'QUEST_PREVIEW_UPDATE';
+        var2['type'] = var1;
+        var1 = arg1;
+        var1 = var1.quest_id;
+        var2['quest_id'] = var1;
+        var1 = undefined;
+        var2 = var3.bind(var1)(var2);
+        return var1;
+    };
+    var4 = var8.bind(var1)(var7, var4);
     var7 = ['APPLICATION_COMMAND_PERMISSIONS_UPDATE'];
     var4 = function(arg1, arg2) {
         var3 = _closure1_slot26;

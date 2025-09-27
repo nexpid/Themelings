@@ -434,19 +434,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['icon'] = var10;
             var10 = 'start';
             var1['iconPosition'] = var10;
+            var1['loading'] = var5;
             var1['onPress'] = var9;
-            if(var5) { _fun0002_ip = 354; continue _fun0002 }
- 350:
+            if(var5) { _fun0002_ip = 359; continue _fun0002 }
+ 355:
             var5 = var8 == var6;
- 354:
-            if(var5) { _fun0002_ip = 361; continue _fun0002 }
- 357:
+ 359:
+            if(var5) { _fun0002_ip = 366; continue _fun0002 }
+ 362:
             var5 = var8 == var7;
- 361:
-            if(var5) { _fun0002_ip = 368; continue _fun0002 }
- 364:
+ 366:
+            if(var5) { _fun0002_ip = 373; continue _fun0002 }
+ 369:
             var5 = var7 < var6;
- 368:
+ 373:
             var1['disabled'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

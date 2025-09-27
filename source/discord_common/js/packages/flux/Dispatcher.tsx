@@ -1345,23 +1345,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                 var4 = this;
                 var _closure3_slot0 = var4;
- 9: // try_start_0
+                var2 = undefined;
+ 11: // try_start_0
                 var5 = var4._dependencyGraph;
                 var3 = var5.overallOrder;
                 var3 = var3.bind(var5)();
                 var4['_orderedCallbackTokens'] = var3;
- 31: // try_end0
+ 33: // try_end0
                 return var3;
- 33: // catch_target0
+ 35: // catch_target0
                 CatchBlockStart(arg_register=2);
                 var2 = var3;
                 var4 = var3.cyclePath;
                 var3 = null;
-                if(!(var3 == var4)) { _fun0022_ip = 55; continue _fun0022 }
- 50:
+                if(!(var3 == var4)) { _fun0022_ip = 57; continue _fun0022 }
+ 52:
                 var3 = var2;
                 throw var3;
- 55:
+ 57:
                 var3 = var2.cyclePath;
                 var2 = var3.map;
                 var1 = function(arg1) {

@@ -51,7 +51,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = _closure1_slot7;
             var4 = var3[var2];
             var3 = null;
-            if(!(var3 == var4)) { _fun0002_ip = 51; continue _fun0002 }
+            if(!(var3 == var4)) { _fun0002_ip = 58; continue _fun0002 }
  20:
             var4 = _closure1_slot7;
             var3 = {};
@@ -60,9 +60,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = {};
             var3['instances'] = var5;
             var5 = {};
+            var3['instructions'] = var5;
+            var5 = {};
             var3['entitlements'] = var5;
             var4[var2] = var3;
- 51:
+ 58:
             var1 = _closure1_slot7;
             var1 = var1[var2];
             return var1;
@@ -367,6 +369,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var2['PORTKEY_FETCH_INSTANCES_SUCCESS'] = var8;
+    var8 = function handleFetchProductSuccess(arg1) {
+        var1 = arg1;
+        var5 = var1.guildId;
+        var8 = var1.skuId;
+        var6 = var1.instructions;
+        var3 = {};
+        var10 = _closure1_slot7;
+        var11 = var3;
+        var1 = copyDataProperties(var11, var10);
+        var4 = {};
+        var9 = _closure1_slot9;
+        var1 = undefined;
+        var10 = var9.bind(var1)(var5);
+        var11 = var4;
+        var7 = copyDataProperties(var11, var10);
+        var7 = {};
+        var9 = var9.bind(var1)(var5);
+        var10 = var9.instructions;
+        var11 = var7;
+        var9 = copyDataProperties(var11, var10);
+        var7[var8] = var6;
+        var6 = 'instructions';
+        var4[var6] = var7;
+        var3[var5] = var4;
+        _closure1_slot7 = var3;
+        return var1;
+    };
+    var2['PORTKEY_FETCH_GAME_INSTRUCTIONS_SUCCESS'] = var8;
     var8 = function handleFetchBoostEntitlementsSuccess(arg1) {
         var1 = arg1;
         var5 = var1.guildId;

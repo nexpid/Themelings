@@ -320,7 +320,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['onPress'] = var6;
             var6 = 'dot';
             var8 = var6 === var8;
-            if(!var8) { _fun0005_ip = 290; continue _fun0005 }
+            if(!var8) { _fun0005_ip = 286; continue _fun0005 }
  234:
             var12 = _closure1_slot13;
             var11 = _closure1_slot0;
@@ -332,7 +332,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = {'color': null, 'colors': null, 'size': 'small'};
             var6['color'] = var13;
             var8 = var12.bind(var5)(var11, var6);
- 290:
+ 286:
             var6 = new Array(2);
             var6[0] = var8;
             var8 = _closure1_slot0;

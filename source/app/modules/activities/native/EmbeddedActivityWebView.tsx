@@ -1399,7 +1399,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     var2 = _closure2_slot8;
                     var7 = null;
-                    if(!(var7 == var2)) { _fun0019_ip = 156; continue _fun0019 }
+                    if(!(var7 == var2)) { _fun0019_ip = 155; continue _fun0019 }
  16:
                     var2 = global;
                     var4 = var2.JSON;
@@ -1411,20 +1411,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = 'object';
                     var2 = typeof var5;
                     var2 = var3 === var2;
-                    if(!var2) { _fun0019_ip = 90; continue _fun0019 }
- 63:
+                    if(!var2) { _fun0019_ip = 89; continue _fun0019 }
+ 62:
                     var3 = _closure2_slot13;
                     var4 = var7 == var3;
                     var3 = undefined;
-                    if(var4) { _fun0019_ip = 86; continue _fun0019 }
- 76:
+                    if(var4) { _fun0019_ip = 85; continue _fun0019 }
+ 75:
                     var4 = _closure2_slot13;
                     var3 = var4.origin;
- 86:
+ 85:
                     var2 = var7 != var3;
- 90:
-                    if(!var2) { _fun0019_ip = 156; continue _fun0019 }
- 93:
+ 89:
+                    if(!var2) { _fun0019_ip = 155; continue _fun0019 }
+ 92:
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot3;
                     var2 = 30;
@@ -1434,14 +1434,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var4.handleMessage;
                     var6 = _closure2_slot13;
                     var6 = var7 == var6;
-                    if(var6) { _fun0019_ip = 145; continue _fun0019 }
- 135:
+                    if(var6) { _fun0019_ip = 144; continue _fun0019 }
+ 134:
                     var6 = _closure2_slot13;
                     var2 = var6.origin;
- 145:
+ 144:
                     var1 = _closure2_slot32;
                     var1 = var3.bind(var4)(var5, var2, var1);
- 156:
+ 155:
                     var1 = undefined;
                     return var1;
                 }

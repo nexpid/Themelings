@@ -474,7 +474,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = _closure1_slot17;
             var1 = var1.ACTIVITY;
             var6 = null;
-            if(!(var1 === var3)) { _fun0002_ip = 771; continue _fun0002 }
+            if(!(var1 === var3)) { _fun0002_ip = 775; continue _fun0002 }
  398:
             var14 = _closure1_slot18;
             var3 = _closure1_slot1;
@@ -518,7 +518,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var1['onSingleTap'] = var15;
             var6 = var14.bind(var4)(var3, var1);
-            _fun0002_ip = 771; continue _fun0002;
+            _fun0002_ip = 775; continue _fun0002;
  456:
             var3 = _closure1_slot1;
             var14 = _closure1_slot2;
@@ -558,14 +558,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var14.bind(var4)(var3, var2);
  600:
             var6 = var1;
-            _fun0002_ip = 771; continue _fun0002;
+            _fun0002_ip = 775; continue _fun0002;
  608:
             var1 = var13.user;
             var2 = var1.id;
             var3 = _closure1_slot9;
             var1 = var3.getId;
             var1 = var1.bind(var3)();
-            if(!(var2 !== var1)) { _fun0002_ip = 726; continue _fun0002 }
+            if(!(var2 !== var1)) { _fun0002_ip = 730; continue _fun0002 }
  636:
             var3 = _closure1_slot18;
             var2 = _closure1_slot1;
@@ -585,8 +585,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['onSingleTap'] = var7;
             var1['onDoubleTap'] = var7;
             var1 = var3.bind(var4)(var2, var1);
-            _fun0002_ip = 768; continue _fun0002;
- 726:
+            _fun0002_ip = 772; continue _fun0002;
+ 730:
             var7 = _closure1_slot18;
             var3 = _closure1_slot1;
             var13 = _closure1_slot2;
@@ -597,19 +597,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['onSingleTap'] = var9;
             var2['onDoubleTap'] = var9;
             var1 = var7.bind(var4)(var3, var2);
- 768:
+ 772:
             var6 = var1;
- 771:
+ 775:
             var3 = _closure1_slot20;
             var2 = _closure1_slot19;
             var1 = {};
             var9 = var8 == var12;
             var7 = null;
-            if(var9) { _fun0002_ip = 906; continue _fun0002 }
- 790:
+            if(var9) { _fun0002_ip = 910; continue _fun0002 }
+ 794:
             var7 = null;
-            if(var5) { _fun0002_ip = 906; continue _fun0002 }
- 795:
+            if(var5) { _fun0002_ip = 910; continue _fun0002 }
+ 799:
             var9 = _closure1_slot18;
             var8 = _closure1_slot1;
             var13 = _closure1_slot2;
@@ -652,7 +652,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var5['onSingleTap'] = var10;
             var7 = var9.bind(var4)(var8, var5);
- 906:
+ 910:
             var5 = new Array(2);
             var5[0] = var7;
             var5[1] = var6;
@@ -779,7 +779,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var2 = _closure3_slot1;
                             var1 = null;
                             var2 = var1 == var2;
-                            if(var2) { _fun0010_ip = 52; continue _fun0010 }
+                            if(var2) { _fun0010_ip = 53; continue _fun0010 }
  16:
                             var3 = _closure1_slot12;
                             var2 = var3.getSpeakers;
@@ -803,7 +803,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 }
                             };
                             var1 = var3.bind(var4)(var2);
- 52:
+ 53:
                             return var1;
                         }
                     };
@@ -816,7 +816,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var4.bind(var10)(var12, var1);
                     var _closure3_slot2 = var1;
                     var4 = null;
-                    if(!(var4 != var1)) { _fun0009_ip = 291; continue _fun0009 }
+                    if(!(var4 != var1)) { _fun0009_ip = 292; continue _fun0009 }
  251:
                     var10 = var11.find;
                     var1 = function(arg1) {
@@ -827,23 +827,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     };
                     var1 = var10.bind(var11)(var1);
-                    if(!(var4 != var1)) { _fun0009_ip = 291; continue _fun0009 }
- 272:
+                    if(!(var4 != var1)) { _fun0009_ip = 292; continue _fun0009 }
+ 273:
                     var10 = var1.type;
                     var9 = _closure1_slot17;
                     var9 = var9.USER;
-                    if(!(var10 !== var9)) { _fun0009_ip = 361; continue _fun0009 }
- 291:
+                    if(!(var10 !== var9)) { _fun0009_ip = 362; continue _fun0009 }
+ 292:
                     var9 = var4 == var2;
                     var8 = undefined;
-                    if(var9) { _fun0009_ip = 306; continue _fun0009 }
- 300:
+                    if(var9) { _fun0009_ip = 307; continue _fun0009 }
+ 301:
                     var8 = var2.streamId;
- 306:
-                    if(!(var4 == var8)) { _fun0009_ip = 359; continue _fun0009 }
- 310:
-                    if(var7) { _fun0009_ip = 357; continue _fun0009 }
- 313:
+ 307:
+                    if(!(var4 == var8)) { _fun0009_ip = 360; continue _fun0009 }
+ 311:
+                    if(var7) { _fun0009_ip = 358; continue _fun0009 }
+ 314:
                     var7 = new Array(0);
                     var19 = var7;
                     var18 = var6;
@@ -868,14 +868,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     };
                     var3 = var6.bind(var7)(var3);
                     var3 = var3[var5];
-                    if(!(var4 != var3)) { _fun0009_ip = 357; continue _fun0009 }
- 355:
+                    if(!(var4 != var3)) { _fun0009_ip = 358; continue _fun0009 }
+ 356:
                     return var3;
- 357:
+ 358:
                     return var2;
- 359:
+ 360:
                     return var2;
- 361:
+ 362:
                     return var1;
                 }
             };

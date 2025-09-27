@@ -294,12 +294,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var1.nativeEvent;
                     var2 = var1.actionName;
                     var1 = 'remove';
-                    if(!(var1 === var2)) { _fun0005_ip = 36; continue _fun0005 }
- 23:
+                    if(!(var1 === var2)) { _fun0005_ip = 35; continue _fun0005 }
+ 22:
                     var2 = _closure2_slot13;
                     var1 = undefined;
                     var1 = var2.bind(var1)();
- 36:
+ 35:
                     var1 = undefined;
                     return var1;
                 }

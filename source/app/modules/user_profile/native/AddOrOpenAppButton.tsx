@@ -151,8 +151,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var1.nativeEvent;
                     var2 = var1.actionName;
                     var1 = 'longPress';
-                    if(!(var1 === var2)) { _fun0002_ip = 113; continue _fun0002 }
- 25:
+                    if(!(var1 === var2)) { _fun0002_ip = 112; continue _fun0002 }
+ 24:
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
                     var1 = 10;
@@ -172,7 +172,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var3.bind(var2)(var1);
                     var1 = var2.presentLinkCopied;
                     var1 = var1.bind(var2)();
- 113:
+ 112:
                     var1 = undefined;
                     return var1;
                 }

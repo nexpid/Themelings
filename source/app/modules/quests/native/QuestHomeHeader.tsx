@@ -276,8 +276,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var9['onPress'] = var11;
-        var11 = false;
-        var9['showNotificationBadge'] = var11;
         var10 = var3.bind(var4)(var10, var9);
         var9 = new Array(2);
         var9[0] = var10;

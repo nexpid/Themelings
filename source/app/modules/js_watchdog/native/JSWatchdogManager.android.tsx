@@ -163,7 +163,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var1 = undefined;
                         var2 = var3.bind(var1)(var2);
                         var4 = var2.JSWatchdogExperiment;
-                        var3 = var4.getCurrentConfig;
+                        var3 = var4.getConfig;
                         var2 = {};
                         var5 = 'APP_STATE_UPDATE';
                         var2['location'] = var5;
@@ -190,7 +190,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var1 = undefined;
                         var2 = var3.bind(var1)(var2);
                         var4 = var2.JSWatchdogExperiment;
-                        var3 = var4.getCurrentConfig;
+                        var3 = var4.getConfig;
                         var2 = {};
                         var5 = 'CONNECTION_OPEN_SUPPLEMENTAL';
                         var2['location'] = var5;

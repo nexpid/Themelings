@@ -4174,41 +4174,41 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var4 = var3.hasReachedEndBefore;
                         var3 = var8.nativeEvent;
                         var3 = var3.layoutMeasurement;
-                        if(var9) { _fun0047_ip = 115; continue _fun0047 }
- 108:
+                        if(var9) { _fun0047_ip = 114; continue _fun0047 }
+ 107:
                         var10 = var3.height;
-                        _fun0047_ip = 120; continue _fun0047;
- 115:
+                        _fun0047_ip = 119; continue _fun0047;
+ 114:
                         var10 = var3.width;
- 120:
-                        if(var9) { _fun0047_ip = 130; continue _fun0047 }
- 123:
+ 119:
+                        if(var9) { _fun0047_ip = 129; continue _fun0047 }
+ 122:
                         var16 = var7.top;
-                        _fun0047_ip = 135; continue _fun0047;
- 130:
+                        _fun0047_ip = 134; continue _fun0047;
+ 129:
                         var16 = var7.left;
- 135:
+ 134:
                         var13 = null;
                         var17 = var13 != var16;
                         var5 = 0;
                         var3 = 0;
-                        if(!var17) { _fun0047_ip = 151; continue _fun0047 }
- 148:
+                        if(!var17) { _fun0047_ip = 150; continue _fun0047 }
+ 147:
                         var3 = var16;
- 151:
-                        if(var9) { _fun0047_ip = 161; continue _fun0047 }
- 154:
+ 150:
+                        if(var9) { _fun0047_ip = 160; continue _fun0047 }
+ 153:
                         var16 = var7.bottom;
-                        _fun0047_ip = 166; continue _fun0047;
- 161:
+                        _fun0047_ip = 165; continue _fun0047;
+ 160:
                         var16 = var7.right;
- 166:
+ 165:
                         var17 = var13 != var16;
                         var7 = 0;
-                        if(!var17) { _fun0047_ip = 178; continue _fun0047 }
- 175:
+                        if(!var17) { _fun0047_ip = 177; continue _fun0047 }
+ 174:
                         var7 = var16;
- 178:
+ 177:
                         var16 = _closure3_slot0;
                         var3 = var10 - var3;
                         var3 = var3 - var7;
@@ -4227,30 +4227,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var7 = var20 - var7;
                         var7 = var18.bind(var19)(var17, var7);
                         var16['scrollPos'] = var7;
-                        if(!(var13 != var15)) { _fun0047_ip = 280; continue _fun0047 }
- 275:
+                        if(!(var13 != var15)) { _fun0047_ip = 279; continue _fun0047 }
+ 274:
                         var15 = var15.bind(var1)(var8);
- 280:
+ 279:
                         var15 = _closure3_slot0;
                         var16 = var15.deferNextCompute;
                         var15 = _closure3_slot0;
-                        if(var16) { _fun0047_ip = 309; continue _fun0047 }
- 297:
+                        if(var16) { _fun0047_ip = 308; continue _fun0047 }
+ 296:
                         var16 = var15.computeBlocks;
                         var16 = var16.bind(var15)();
-                        _fun0047_ip = 380; continue _fun0047;
- 309:
+                        _fun0047_ip = 379; continue _fun0047;
+ 308:
                         var16 = false;
                         var15['deferNextCompute'] = var16;
                         var16 = var15.deferredCompute;
                         var15 = -1;
-                        if(!(var15 !== var16)) { _fun0047_ip = 354; continue _fun0047 }
- 333:
+                        if(!(var15 !== var16)) { _fun0047_ip = 353; continue _fun0047 }
+ 332:
                         var16 = var3.cancelAnimationFrame;
                         var15 = _closure3_slot0;
                         var15 = var15.deferredCompute;
                         var15 = var16.bind(var1)(var15);
- 354:
+ 353:
                         var16 = _closure3_slot0;
                         var17 = var3.requestAnimationFrame;
                         var15 = function() {
@@ -4261,9 +4261,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         };
                         var15 = var17.bind(var1)(var15);
                         var16['deferredCompute'] = var15;
- 380:
-                        if(var14) { _fun0047_ip = 430; continue _fun0047 }
- 383:
+ 379:
+                        if(var14) { _fun0047_ip = 429; continue _fun0047 }
+ 382:
                         var16 = var3.clearTimeout;
                         var14 = _closure3_slot0;
                         var15 = var14.disableAnchoringTimeout;
@@ -4282,26 +4282,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var11 = 100;
                         var11 = var16.bind(var1)(var15, var11);
                         var14['disableAnchoringTimeout'] = var11;
- 430:
-                        if(!(var13 != var6)) { _fun0047_ip = 606; continue _fun0047 }
- 437:
+ 429:
+                        if(!(var13 != var6)) { _fun0047_ip = 604; continue _fun0047 }
+ 436:
                         var8 = var8.nativeEvent;
                         var8 = var8.contentSize;
-                        if(var9) { _fun0047_ip = 459; continue _fun0047 }
- 452:
+                        if(var9) { _fun0047_ip = 457; continue _fun0047 }
+ 450:
                         var11 = var8.height;
-                        _fun0047_ip = 464; continue _fun0047;
- 459:
+                        _fun0047_ip = 462; continue _fun0047;
+ 457:
                         var11 = var8.width;
- 464:
+ 462:
                         var9 = var3.Math;
                         var8 = var9.ceil;
                         var13 = var13 != var12;
                         var5 = 0;
-                        if(!var13) { _fun0047_ip = 488; continue _fun0047 }
- 485:
+                        if(!var13) { _fun0047_ip = 486; continue _fun0047 }
+ 483:
                         var5 = var12;
- 488:
+ 486:
                         var5 = var11 - var5;
                         var5 = var5 - var10;
                         var8 = var8.bind(var9)(var5);
@@ -4309,10 +4309,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var3 = var5.ceil;
                         var7 = var3.bind(var5)(var7);
                         var5 = var7 >= var8;
-                        if(!var5) { _fun0047_ip = 570; continue _fun0047 }
- 525:
-                        if(var4) { _fun0047_ip = 570; continue _fun0047 }
- 528:
+                        if(!var5) { _fun0047_ip = 568; continue _fun0047 }
+ 523:
+                        if(var4) { _fun0047_ip = 568; continue _fun0047 }
+ 526:
                         var10 = _closure3_slot0;
                         var9 = var10.setState;
                         var3 = {};
@@ -4323,22 +4323,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var7 = var7 - var8;
                         var3['distanceFromEnd'] = var7;
                         var3 = var6.bind(var1)(var3);
-                        _fun0047_ip = 606; continue _fun0047;
- 570:
+                        _fun0047_ip = 604; continue _fun0047;
+ 568:
                         var3 = !var5;
-                        if(var5) { _fun0047_ip = 579; continue _fun0047 }
- 576:
+                        if(var5) { _fun0047_ip = 577; continue _fun0047 }
+ 574:
                         var3 = var4;
- 579:
-                        if(!var3) { _fun0047_ip = 606; continue _fun0047 }
- 582:
+ 577:
+                        if(!var3) { _fun0047_ip = 604; continue _fun0047 }
+ 580:
                         var5 = _closure3_slot0;
                         var4 = var5.setState;
                         var3 = {};
                         var6 = false;
                         var3['hasReachedEndBefore'] = var6;
                         var3 = var4.bind(var5)(var3);
- 606:
+ 604:
                         var3 = _closure3_slot0;
                         var2 = var3.queueViewabilityChange;
                         var2 = var2.bind(var3)();
@@ -4358,78 +4358,78 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var4 = var1.props;
                         var13 = var4.contentInset;
                         var1 = undefined;
-                        if(!(var1 === var13)) { _fun0048_ip = 57; continue _fun0048 }
- 50:
+                        if(!(var1 === var13)) { _fun0048_ip = 56; continue _fun0048 }
+ 49:
                         var13 = _closure1_slot18;
- 57:
+ 56:
                         var7 = var4.onLayout;
                         var10 = var4.horizontal;
                         var4 = var4.chunkBase;
                         var3 = var3.layout;
-                        if(var10) { _fun0048_ip = 91; continue _fun0048 }
- 84:
+                        if(var10) { _fun0048_ip = 90; continue _fun0048 }
+ 83:
                         var12 = var3.height;
-                        _fun0048_ip = 96; continue _fun0048;
- 91:
+                        _fun0048_ip = 95; continue _fun0048;
+ 90:
                         var12 = var3.width;
- 96:
-                        if(var10) { _fun0048_ip = 106; continue _fun0048 }
- 99:
+ 95:
+                        if(var10) { _fun0048_ip = 105; continue _fun0048 }
+ 98:
                         var14 = var13.top;
-                        _fun0048_ip = 111; continue _fun0048;
- 106:
+                        _fun0048_ip = 110; continue _fun0048;
+ 105:
                         var14 = var13.left;
- 111:
+ 110:
                         var3 = null;
                         var15 = var3 != var14;
                         var6 = 0;
-                        if(!var15) { _fun0048_ip = 125; continue _fun0048 }
- 122:
+                        if(!var15) { _fun0048_ip = 124; continue _fun0048 }
+ 121:
                         var6 = var14;
- 125:
-                        if(var10) { _fun0048_ip = 135; continue _fun0048 }
- 128:
+ 124:
+                        if(var10) { _fun0048_ip = 134; continue _fun0048 }
+ 127:
                         var10 = var13.bottom;
-                        _fun0048_ip = 140; continue _fun0048;
- 135:
+                        _fun0048_ip = 139; continue _fun0048;
+ 134:
                         var10 = var13.right;
- 140:
+ 139:
                         var13 = var3 != var10;
                         var11 = 0;
-                        if(!var13) { _fun0048_ip = 152; continue _fun0048 }
- 149:
+                        if(!var13) { _fun0048_ip = 151; continue _fun0048 }
+ 148:
                         var11 = var10;
- 152:
+ 151:
                         var10 = _closure3_slot0;
                         var6 = var12 - var6;
                         var6 = var6 - var11;
                         var10['containerSize'] = var6;
-                        if(!(var3 == var4)) { _fun0048_ip = 195; continue _fun0048 }
- 174:
+                        if(!(var3 == var4)) { _fun0048_ip = 194; continue _fun0048 }
+ 173:
                         var10 = var8.setInfo;
                         var6 = _closure3_slot0;
                         var6 = var6.containerSize;
                         var6 = var10.bind(var8)(var6);
- 195:
-                        if(!(var3 != var7)) { _fun0048_ip = 209; continue _fun0048 }
- 199:
+ 194:
+                        if(!(var3 != var7)) { _fun0048_ip = 208; continue _fun0048 }
+ 198:
                         var6 = _closure3_slot0;
                         var6 = var7.bind(var1)(var9, var6);
- 209:
-                        if(var5) { _fun0048_ip = 228; continue _fun0048 }
- 212:
+ 208:
+                        if(var5) { _fun0048_ip = 227; continue _fun0048 }
+ 211:
                         var6 = _closure3_slot0;
                         var5 = var6.computeBlocks;
                         var5 = var5.bind(var6)();
-                        _fun0048_ip = 284; continue _fun0048;
- 228:
-                        if(!(var3 != var4)) { _fun0048_ip = 248; continue _fun0048 }
- 232:
+                        _fun0048_ip = 283; continue _fun0048;
+ 227:
+                        if(!(var3 != var4)) { _fun0048_ip = 247; continue _fun0048 }
+ 231:
                         var4 = _closure3_slot0;
                         var3 = var4.restoreScrollPosition;
                         var3 = var3.bind(var4)();
-                        _fun0048_ip = 284; continue _fun0048;
- 248:
+                        _fun0048_ip = 283; continue _fun0048;
+ 247:
                         var5 = _closure3_slot0;
                         var4 = var5.setState;
                         var7 = var5.getInitialState;
@@ -4437,7 +4437,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var3 = false;
                         var3 = var7.bind(var5)(var6, var8, var3);
                         var3 = var4.bind(var5)(var3);
- 284:
+ 283:
                         var3 = _closure3_slot0;
                         var2 = var3.queueViewabilityChange;
                         var2 = var2.bind(var3)();
@@ -5240,13 +5240,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = arg1;
                 var2 = var2.nativeEvent;
                 var2 = var2.contentOffset;
-                if(var1) { _fun0061_ip = 39; continue _fun0061 }
- 32:
+                if(var1) { _fun0061_ip = 38; continue _fun0061 }
+ 31:
                 var1 = var2.y;
-                _fun0061_ip = 44; continue _fun0061;
- 39:
+                _fun0061_ip = 43; continue _fun0061;
+ 38:
                 var1 = var2.x;
- 44:
+ 43:
                 return var1;
             }
         };

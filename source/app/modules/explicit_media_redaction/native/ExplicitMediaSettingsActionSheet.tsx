@@ -91,8 +91,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     };
                     var2 = var2.bind(var3)(var1);
                     var1 = null;
-                    if(!(var1 != var2)) { _fun0002_ip = 83; continue _fun0002 }
- 39:
+                    if(!(var1 != var2)) { _fun0002_ip = 84; continue _fun0002 }
+ 40:
                     var1 = var2.onPress;
                     var1 = var1.bind(var2)();
                     var3 = _closure1_slot1;
@@ -103,7 +103,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var3.bind(var1)(var2);
                     var1 = var2.hideActionSheet;
                     var1 = var1.bind(var2)();
- 83:
+ 84:
                     var1 = undefined;
                     return var1;
                 }

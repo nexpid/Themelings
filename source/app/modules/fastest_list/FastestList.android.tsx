@@ -269,13 +269,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = _closure2_slot3;
                     var3 = var1.current;
                     var1 = null;
-                    if(!(var1 != var3)) { _fun0004_ip = 38; continue _fun0004 }
+                    if(!(var1 != var3)) { _fun0004_ip = 37; continue _fun0004 }
  18:
                     var2 = var3.setVisibleItems;
                     var1 = arg1;
                     var1 = var1.nativeEvent;
                     var1 = var2.bind(var3)(var1);
- 38:
+ 37:
                     var1 = undefined;
                     return var1;
                 }

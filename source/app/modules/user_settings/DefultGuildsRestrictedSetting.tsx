@@ -13,7 +13,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6['value'] = var1;
     var1 = '__esModule';
     var1 = var7.bind(var8)(var3, var1, var6);
-    var1 = 2;
+    var1 = 1;
     var4 = var4[var1];
     var1 = undefined;
     var6 = var5.bind(var1)(var4);
@@ -23,43 +23,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            var5 = _closure1_slot0;
-            var6 = _closure1_slot1;
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot1;
             var1 = 0;
-            var2 = var6[var1];
-            var3 = undefined;
-            var2 = var5.bind(var3)(var2);
-            var4 = var2.DefaultGuildsRestricted;
-            var2 = var4.useSetting;
-            var4 = var2.bind(var4)();
-            var1 = var6[var1];
-            var1 = var5.bind(var3)(var1);
+            var3 = var5[var1];
+            var2 = undefined;
+            var3 = var4.bind(var2)(var3);
+            var6 = var3.DefaultGuildsRestricted;
+            var3 = var6.useSetting;
+            var3 = var3.bind(var6)();
+            var1 = var5[var1];
+            var1 = var4.bind(var2)(var1);
             var2 = var1.DefaultGuildsRestrictedV2;
             var1 = var2.useSetting;
             var1 = var1.bind(var2)();
-            var2 = 1;
-            var2 = var6[var2];
-            var5 = var5.bind(var3)(var2);
-            var3 = var5.useIsEligibleForDMDefaultOff;
-            var2 = 'useDefaultGuildsRestricted';
-            var3 = var3.bind(var5)(var2);
             var2 = null;
-            if(!(var2 == var1)) { _fun0001_ip = 125; continue _fun0001 }
- 98:
-            var5 = !var4;
-            var2 = !var5;
-            if(!var5) { _fun0001_ip = 122; continue _fun0001 }
- 107:
-            var5 = !var3;
-            var3 = !var5;
-            if(!var5) { _fun0001_ip = 119; continue _fun0001 }
- 116:
-            var3 = var4;
- 119:
+            if(!(var2 == var1)) { _fun0001_ip = 86; continue _fun0001 }
+ 71:
+            var4 = !var3;
+            var2 = !var4;
+            if(!var4) { _fun0001_ip = 83; continue _fun0001 }
+ 80:
             var2 = var3;
- 122:
+ 83:
             var1 = var2;
- 125:
+ 86:
             return var1;
         }
     };

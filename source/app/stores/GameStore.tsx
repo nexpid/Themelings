@@ -227,15 +227,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = function gameFromServer(arg1) {
             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-                var2 = arg1;
+                var3 = arg1;
                 var1 = {};
-                var3 = var2.id;
-                var1['id'] = var3;
-                var3 = var2.name;
-                var1['name'] = var3;
-                var7 = var2.executables;
-                var3 = null;
-                if(!(var3 == var7)) { _fun0006_ip = 39; continue _fun0006 }
+                var2 = var3.id;
+                var1['id'] = var2;
+                var2 = var3.name;
+                var1['name'] = var2;
+                var7 = var3.executables;
+                var4 = null;
+                if(!(var4 == var7)) { _fun0006_ip = 39; continue _fun0006 }
  35:
                 var7 = new Array(0);
  39:
@@ -243,65 +243,73 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = _closure1_slot9;
                 var5 = var6.bind(var7)(var5);
                 var1['executables'] = var5;
-                var6 = var2.overlay;
-                var5 = var3 != var6;
+                var6 = var3.overlay;
+                var5 = var4 != var6;
                 if(!var5) { _fun0006_ip = 77; continue _fun0006 }
  74:
                 var5 = var6;
  77:
                 var1['overlay'] = var5;
-                var6 = var2.overlay_warn;
-                var5 = var3 != var6;
+                var6 = var3.overlay_warn;
+                var5 = var4 != var6;
                 if(!var5) { _fun0006_ip = 98; continue _fun0006 }
  95:
                 var5 = var6;
  98:
                 var1['overlayWarn'] = var5;
-                var6 = var2.overlay_compatibility_hook;
-                var5 = var3 != var6;
+                var6 = var3.overlay_compatibility_hook;
+                var5 = var4 != var6;
                 if(!var5) { _fun0006_ip = 119; continue _fun0006 }
  116:
                 var5 = var6;
  119:
                 var1['overlayCompatibilityHook'] = var5;
-                var6 = var2.hook;
-                var5 = var3 == var6;
+                var6 = var3.hook;
+                var5 = var4 == var6;
                 if(var5) { _fun0006_ip = 140; continue _fun0006 }
  137:
                 var5 = var6;
  140:
                 var1['hook'] = var5;
-                var5 = var2.aliases;
-                if(!(var3 == var5)) { _fun0006_ip = 159; continue _fun0006 }
+                var5 = var3.aliases;
+                if(!(var4 == var5)) { _fun0006_ip = 159; continue _fun0006 }
  155:
                 var5 = new Array(0);
  159:
                 var1['aliases'] = var5;
                 var6 = _closure1_slot8;
                 var5 = var6.supportsOutOfProcessOverlay;
-                var4 = var2.overlay_methods;
-                var4 = var5.bind(var6)(var4);
-                var1['supportsOutOfProcessOverlay'] = var4;
-                var4 = var2.themes;
-                if(!(var3 == var4)) { _fun0006_ip = 204; continue _fun0006 }
+                var2 = var3.overlay_methods;
+                var2 = var5.bind(var6)(var2);
+                var1['supportsOutOfProcessOverlay'] = var2;
+                var2 = var3.themes;
+                if(!(var4 == var2)) { _fun0006_ip = 204; continue _fun0006 }
  200:
-                var4 = new Array(0);
- 204:
-                var1['themes'] = var4;
-                var5 = var2.icon_hash;
-                var6 = var3 != var5;
-                var4 = undefined;
-                if(!var6) { _fun0006_ip = 227; continue _fun0006 }
- 224:
-                var4 = var5;
- 227:
-                var1['icon'] = var4;
-                var2 = var2.third_party_skus;
-                if(!(var3 == var2)) { _fun0006_ip = 245; continue _fun0006 }
- 241:
                 var2 = new Array(0);
+ 204:
+                var1['themes'] = var2;
+                var6 = var3.icon_hash;
+                var7 = var4 != var6;
+                var5 = undefined;
+                if(!var7) { _fun0006_ip = 227; continue _fun0006 }
+ 224:
+                var5 = var6;
+ 227:
+                var1['icon'] = var5;
+                var5 = var3.third_party_skus;
+                if(!(var4 == var5)) { _fun0006_ip = 245; continue _fun0006 }
+ 241:
+                var5 = new Array(0);
  245:
-                var1['thirdPartySkus'] = var2;
+                var1['thirdPartySkus'] = var5;
+                var3 = var3.cover_image_hash;
+                var4 = var4 != var3;
+                var2 = undefined;
+                if(!var4) { _fun0006_ip = 268; continue _fun0006 }
+ 265:
+                var2 = var3;
+ 268:
+                var1['cover_image_hash'] = var2;
                 return var1;
             }
         };
@@ -309,41 +317,49 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = function convertGameRecordToGame(arg1) {
             _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
-                var2 = arg1;
+                var3 = arg1;
                 var1 = {};
-                var3 = var2.id;
-                var1['id'] = var3;
-                var3 = var2.name;
-                var1['name'] = var3;
-                var3 = var2.executables;
-                var1['executables'] = var3;
-                var3 = var2.overlayWarn;
-                var1['overlayWarn'] = var3;
-                var3 = var2.overlayCompatibilityHook;
-                var1['overlayCompatibilityHook'] = var3;
-                var3 = var2.overlay;
-                var1['overlay'] = var3;
-                var3 = var2.hook;
-                var1['hook'] = var3;
-                var3 = var2.aliases;
-                var1['aliases'] = var3;
-                var3 = var2.supportsOutOfProcessOverlay;
-                var1['supportsOutOfProcessOverlay'] = var3;
-                var4 = var2.themes;
-                var3 = null;
-                if(!(var3 == var4)) { _fun0007_ip = 116; continue _fun0007 }
+                var2 = var3.id;
+                var1['id'] = var2;
+                var2 = var3.name;
+                var1['name'] = var2;
+                var2 = var3.executables;
+                var1['executables'] = var2;
+                var2 = var3.overlayWarn;
+                var1['overlayWarn'] = var2;
+                var2 = var3.overlayCompatibilityHook;
+                var1['overlayCompatibilityHook'] = var2;
+                var2 = var3.overlay;
+                var1['overlay'] = var2;
+                var2 = var3.hook;
+                var1['hook'] = var2;
+                var2 = var3.aliases;
+                var1['aliases'] = var2;
+                var2 = var3.supportsOutOfProcessOverlay;
+                var1['supportsOutOfProcessOverlay'] = var2;
+                var4 = var3.themes;
+                var2 = null;
+                if(!(var2 == var4)) { _fun0007_ip = 116; continue _fun0007 }
  112:
                 var4 = new Array(0);
  116:
                 var1['themes'] = var4;
-                var4 = var2.icon;
+                var4 = var3.icon;
                 var1['icon'] = var4;
-                var2 = var2.thirdPartySkus;
-                if(!(var3 == var2)) { _fun0007_ip = 144; continue _fun0007 }
+                var4 = var3.thirdPartySkus;
+                if(!(var2 == var4)) { _fun0007_ip = 144; continue _fun0007 }
  140:
-                var2 = new Array(0);
+                var4 = new Array(0);
  144:
-                var1['thirdPartySkus'] = var2;
+                var1['thirdPartySkus'] = var4;
+                var3 = var3.cover_image_hash;
+                var4 = var2 != var3;
+                var2 = undefined;
+                if(!var4) { _fun0007_ip = 167; continue _fun0007 }
+ 164:
+                var2 = var3;
+ 167:
+                var1['cover_image_hash'] = var2;
                 return var1;
             }
         };
@@ -686,12 +702,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = null;
                     var6 = var1 == var3;
                     var2 = undefined;
-                    if(var6) { _fun0013_ip = 49; continue _fun0013 }
+                    if(var6) { _fun0013_ip = 50; continue _fun0013 }
  17:
                     var6 = var3.linkedGames;
                     var3 = var1 == var6;
                     var2 = undefined;
-                    if(var3) { _fun0013_ip = 49; continue _fun0013 }
+                    if(var3) { _fun0013_ip = 50; continue _fun0013 }
  32:
                     var5 = var6.find;
                     var3 = function(arg1) {
@@ -709,15 +725,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     };
                     var2 = var5.bind(var6)(var3);
- 49:
+ 50:
                     var3 = var1 != var2;
                     var1 = null;
-                    if(!var3) { _fun0013_ip = 74; continue _fun0013 }
- 58:
+                    if(!var3) { _fun0013_ip = 75; continue _fun0013 }
+ 59:
                     var3 = var4.getDetectableGame;
                     var2 = var2.id;
                     var1 = var3.bind(var4)(var2);
- 74:
+ 75:
                     return var1;
                 }
             };

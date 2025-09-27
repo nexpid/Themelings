@@ -16,7 +16,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var6 = var2.bind(var1)(var4);
     var4 = var6.createContext;
-    var2 = {'reducedMotion': null, 'prefersCrossfades': false, 'forcedColors': null, 'alwaysShowLinkDecorations': false, 'highContrastModeEnabled': false};
+    var2 = {'reducedMotion': null, 'prefersCrossfades': false, 'forcedColors': null, 'alwaysShowLinkDecorations': false, 'highContrastModeEnabled': false, 'keyboardModeEnabled': true};
     var7 = {'enabled': false, 'rawValue': 'no-preference'};
     var2['reducedMotion'] = var7;
     var7 = {'enabled': false, 'rawValue': 'none'};

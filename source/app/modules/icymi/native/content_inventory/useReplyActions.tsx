@@ -460,14 +460,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
                     var4 = arg1;
-                    var2 = _closure1_slot0;
+                    var2 = _closure1_slot1;
                     var3 = _closure1_slot2;
                     var1 = 21;
                     var1 = var3[var1];
                     var3 = undefined;
-                    var1 = var2.bind(var3)(var1);
-                    var8 = var1.ICYMIAnalytics;
-                    var7 = var8.trackItemInteraction;
+                    var8 = var2.bind(var3)(var1);
+                    var7 = var8.itemInteracted;
                     var2 = _closure2_slot0;
                     var6 = var2.id;
                     var5 = _closure2_slot2;
@@ -476,18 +475,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = _closure2_slot5;
                     var5 = var4.id;
                     var1 = null;
-                    if(!(var1 == var5)) { _fun0006_ip = 91; continue _fun0006 }
- 84:
+                    if(!(var1 == var5)) { _fun0006_ip = 85; continue _fun0006 }
+ 78:
                     var1 = var4.surrogates;
-                    _fun0006_ip = 119; continue _fun0006;
- 91:
+                    _fun0006_ip = 113; continue _fun0006;
+ 85:
                     var6 = var4.name;
                     var4 = global;
                     var4 = var4.HermesInternal;
                     var5 = var4.concat;
                     var4 = ':';
                     var1 = var5.bind(var4)(var6, var4);
- 119:
+ 113:
                     var1 = var2.bind(var3)(var1);
                     return var1;
                 }
@@ -548,7 +547,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     var3 = _closure2_slot1;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0008_ip = 301; continue _fun0008 }
+                    if(!(var2 != var3)) { _fun0008_ip = 295; continue _fun0008 }
  16:
                     var2 = _closure2_slot0;
                     var4 = var2.content_type;
@@ -582,22 +581,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  143:
                     var11 = 'hotwheels_gaming_activity';
  149:
-                    var7 = _closure1_slot0;
+                    var5 = _closure1_slot1;
                     var2 = _closure1_slot2;
                     var4 = 21;
                     var4 = var2[var4];
-                    var4 = var7.bind(var8)(var4);
-                    var10 = var4.ICYMIAnalytics;
-                    var9 = var10.trackItemInteraction;
+                    var10 = var5.bind(var8)(var4);
+                    var9 = var10.itemInteracted;
                     var6 = _closure2_slot0;
-                    var5 = var6.id;
+                    var7 = var6.id;
                     var4 = 'press_reply_react';
-                    var4 = var9.bind(var10)(var5, var11, var4);
-                    var4 = _closure1_slot1;
-                    var3 = 17;
-                    var3 = var2[var3];
-                    var5 = var4.bind(var8)(var3);
+                    var4 = var9.bind(var10)(var7, var11, var4);
+                    var4 = 17;
+                    var4 = var2[var4];
+                    var5 = var5.bind(var8)(var4);
                     var4 = var5.openLazy;
+                    var7 = _closure1_slot0;
                     var3 = 25;
                     var3 = var2[var3];
                     var7 = var7.bind(var8)(var3);
@@ -615,7 +613,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2['onPressEmoji'] = var1;
                     var1 = 'ReactActionSheet';
                     var1 = var4.bind(var5)(var3, var1, var2);
- 301:
+ 295:
                     var1 = undefined;
                     return var1;
                 }

@@ -535,19 +535,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var1.height;
                     var1 = null;
                     var1 = var1 != var2;
-                    if(!var1) { _fun0004_ip = 40; continue _fun0004 }
- 29:
+                    if(!var1) { _fun0004_ip = 39; continue _fun0004 }
+ 28:
                     var3 = _closure2_slot1;
                     var1 = var3 !== var2;
- 40:
-                    if(!var1) { _fun0004_ip = 64; continue _fun0004 }
- 43:
+ 39:
+                    if(!var1) { _fun0004_ip = 63; continue _fun0004 }
+ 42:
                     var3 = _closure2_slot2;
                     var1 = 200;
                     var2 = var2 - var1;
                     var1 = undefined;
                     var1 = var3.bind(var1)(var2);
- 64:
+ 63:
                     var1 = undefined;
                     return var1;
                 }

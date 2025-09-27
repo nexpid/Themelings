@@ -328,25 +328,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
             var11 = arg1;
-            var9 = arg2;
+            var7 = arg2;
             var _closure2_slot0 = var11;
-            var _closure2_slot1 = var9;
-            var6 = _closure1_slot0;
+            var _closure2_slot1 = var7;
+            var9 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var3 = 7;
-            var3 = var12[var3];
-            var7 = undefined;
-            var3 = var6.bind(var7)(var3);
-            var5 = var3.DisplayNameStylesPerServerExperiment;
-            var4 = var5.useConfig;
-            var3 = {};
-            var8 = 'useGuildMemberOrUserPendingDisplayNameStyles';
-            var3['location'] = var8;
-            var3 = var4.bind(var5)(var3);
-            var8 = var3.enabled;
-            var5 = 5;
-            var3 = var12[var5];
-            var13 = var6.bind(var7)(var3);
+            var1 = 7;
+            var1 = var12[var1];
+            var8 = undefined;
+            var1 = var9.bind(var8)(var1);
+            var4 = var1.DisplayNameStylesGaExperiment;
+            var3 = var4.useConfig;
+            var1 = {};
+            var6 = 'useGuildMemberOrUserPendingDisplayNameStyles';
+            var1['location'] = var6;
+            var1 = var3.bind(var4)(var1);
+            var1 = var1.enabled;
+            var6 = 5;
+            var3 = var12[var6];
+            var13 = var9.bind(var8)(var3);
             var10 = var13.useStateFromStores;
             var3 = _closure1_slot6;
             var4 = new Array(1);
@@ -376,8 +376,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 }
             };
             var10 = var10.bind(var13)(var4, var3);
-            var3 = var12[var5];
-            var14 = var6.bind(var7)(var3);
+            var3 = var12[var6];
+            var14 = var9.bind(var8)(var3);
             var13 = var14.useStateFromStoresObject;
             var3 = _closure1_slot7;
             var4 = new Array(1);
@@ -397,13 +397,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var13.bind(var14)(var4, var3);
             var4 = var3.pendingUserDisplayNameStyles;
             var3 = var3.userErrors;
-            var5 = var12[var5];
-            var6 = var6.bind(var7)(var5);
-            var5 = var6.useStateFromStoresObject;
+            var6 = var12[var6];
+            var9 = var9.bind(var8)(var6);
+            var6 = var9.useStateFromStoresObject;
             var12 = _closure1_slot4;
-            var2 = new Array(1);
-            var2[0] = var12;
-            var1 = function() {
+            var5 = new Array(1);
+            var5[0] = var12;
+            var2 = function() {
                 var1 = {};
                 var3 = _closure1_slot4;
                 var2 = var3.getPendingDisplayNameStyles;
@@ -415,42 +415,47 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1['guildErrors'] = var2;
                 return var1;
             };
-            var1 = var5.bind(var6)(var2, var1);
-            var6 = var1.pendingGuildDisplayNameStyles;
-            var2 = var1.guildErrors;
-            var1 = null;
-            var12 = var1 == var11;
+            var2 = var6.bind(var9)(var5, var2);
+            var6 = var2.pendingGuildDisplayNameStyles;
+            var2 = var2.guildErrors;
+            var9 = null;
+            var12 = var9 == var11;
             var5 = undefined;
             if(var12) { _fun0006_ip = 232; continue _fun0006 }
  226:
             var5 = var11.displayNameStyles;
  232:
-            var11 = var1 == var10;
-            var7 = undefined;
+            var11 = var9 == var10;
+            var8 = undefined;
             if(var11) { _fun0006_ip = 247; continue _fun0006 }
  241:
-            var7 = var10.displayNameStyles;
+            var8 = var10.displayNameStyles;
  247:
-            if(!(var1 != var9)) { _fun0006_ip = 281; continue _fun0006 }
+            if(!(var9 != var7)) { _fun0006_ip = 291; continue _fun0006 }
  251:
-            if(!var8) { _fun0006_ip = 281; continue _fun0006 }
+            if(!var1) { _fun0006_ip = 291; continue _fun0006 }
  254:
-            if(!(var1 == var7)) { _fun0006_ip = 262; continue _fun0006 }
+            if(!(var9 == var8)) { _fun0006_ip = 262; continue _fun0006 }
  258:
-            if(!(var1 != var6)) { _fun0006_ip = 281; continue _fun0006 }
+            if(!(var9 != var6)) { _fun0006_ip = 291; continue _fun0006 }
  262:
             var1 = {};
+            var7 = var5;
+            if(!(var9 != var8)) { _fun0006_ip = 274; continue _fun0006 }
+ 271:
+            var7 = var8;
+ 274:
             var1['currentDisplayNameStyles'] = var7;
             var1['pendingDisplayNameStyles'] = var6;
             var1['pendingErrors'] = var2;
-            _fun0006_ip = 301; continue _fun0006;
- 281:
+            _fun0006_ip = 311; continue _fun0006;
+ 291:
             var2 = {};
             var2['currentDisplayNameStyles'] = var5;
             var2['pendingDisplayNameStyles'] = var4;
             var2['pendingErrors'] = var3;
             var1 = var2;
- 301:
+ 311:
             return var1;
         }
     };

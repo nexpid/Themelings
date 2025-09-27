@@ -321,16 +321,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var1.contentOffset;
                     var3 = var1.contentSize;
                     var2 = _closure2_slot3;
-                    if(var2) { _fun0002_ip = 60; continue _fun0002 }
- 37:
+                    if(var2) { _fun0002_ip = 59; continue _fun0002 }
+ 36:
                     var5 = var5.height;
                     var4 = var4.y;
                     var4 = var5 + var4;
                     var3 = var3.height;
                     var2 = var4 < var3;
- 60:
-                    if(var2) { _fun0002_ip = 131; continue _fun0002 }
- 63:
+ 59:
+                    if(var2) { _fun0002_ip = 130; continue _fun0002 }
+ 62:
                     var5 = _closure1_slot1;
                     var4 = _closure1_slot2;
                     var3 = 21;
@@ -347,7 +347,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = _closure2_slot4;
                     var1 = true;
                     var1 = var2.bind(var3)(var1);
- 131:
+ 130:
                     var1 = undefined;
                     return var1;
                 }

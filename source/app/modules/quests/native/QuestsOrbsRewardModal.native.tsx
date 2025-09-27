@@ -1041,7 +1041,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var33[var15];
             var15 = var32.bind(var4)(var15);
             var17 = var15.BalanceWidgetPill;
-            var15 = {'initialRenderedBalance': null, 'balance': null, 'animateBalanceChanges': true, 'showNotificationBadge': false, 'onPress': null, 'disabled': true};
+            var15 = {'initialRenderedBalance': null, 'balance': null, 'animateBalanceChanges': true, 'onPress': null, 'disabled': true, 'variant': 'secondary'};
             var15['initialRenderedBalance'] = var25;
             var15['balance'] = var24;
             var24 = function onPress() {

@@ -30,8 +30,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         }
     };
     var _closure1_slot8 = var1;
-    var4 = function clearHangStatus(arg1) {
-        var8 = arg1;
+    var4 = function clearHangStatus(arg1, arg2) {
         var3 = _closure1_slot0;
         var4 = _closure1_slot1;
         var1 = 7;
@@ -40,8 +39,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var3.bind(var1)(var2);
         var5 = var7.dispatch;
         var2 = {};
-        var9 = 'CLEAR_HANG_STATUS';
-        var2['type'] = var9;
+        var8 = 'CLEAR_HANG_STATUS';
+        var2['type'] = var8;
+        var8 = arg2;
         var2['saveAsDefault'] = var8;
         var2 = var5.bind(var7)(var2);
         var2 = 8;
@@ -52,13 +52,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var2.CLEAR_HANG_STATUS;
         var2 = {};
         var7 = global;
-        var7 = var7.Boolean;
-        var7 = var7.bind(var1)(var8);
+        var8 = var7.Boolean;
+        var7 = arg1;
+        var7 = var8.bind(var1)(var7);
         var2['manual_update'] = var7;
         var6 = _closure1_slot8;
-        var10 = var6.bind(var1)();
-        var11 = var2;
-        var6 = copyDataProperties(var11, var10);
+        var9 = var6.bind(var1)();
+        var10 = var2;
+        var6 = copyDataProperties(var10, var9);
         var2 = var4.bind(var5)(var3, var2);
         return var1;
     };
@@ -125,12 +126,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  55:
             if(!(var2 != var7)) { _fun0002_ip = 63; continue _fun0002 }
  59:
-            if(!(var2 == var10)) { _fun0002_ip = 77; continue _fun0002 }
+            if(!(var2 == var10)) { _fun0002_ip = 80; continue _fun0002 }
  63:
-            var2 = _closure1_slot9;
-            var2 = var2.bind(var1)(var8);
-            _fun0002_ip = 203; continue _fun0002;
- 77:
+            var3 = _closure1_slot9;
+            var2 = false;
+            var2 = var3.bind(var1)(var2, var8);
+            _fun0002_ip = 206; continue _fun0002;
+ 80:
             var3 = _closure1_slot0;
             var4 = _closure1_slot1;
             var2 = 7;
@@ -161,7 +163,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var2;
             var6 = copyDataProperties(var13, var12);
             var2 = var4.bind(var5)(var3, var2);
- 203:
+ 206:
             return var1;
         }
     };
@@ -176,13 +178,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             if(!(var1 !== var9)) { _fun0003_ip = 23; continue _fun0003 }
  17:
             var1 = null;
-            if(!(var1 == var7)) { _fun0003_ip = 42; continue _fun0003 }
+            if(!(var1 == var7)) { _fun0003_ip = 45; continue _fun0003 }
  23:
-            var2 = _closure1_slot9;
-            var1 = undefined;
-            var1 = var2.bind(var1)(var8);
-            _fun0003_ip = 216; continue _fun0003;
- 42:
+            var3 = _closure1_slot9;
+            var2 = undefined;
+            var1 = false;
+            var1 = var3.bind(var2)(var1, var8);
+            _fun0003_ip = 219; continue _fun0003;
+ 45:
             var2 = _closure1_slot0;
             var3 = _closure1_slot1;
             var1 = 7;
@@ -221,7 +224,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var1;
             var5 = copyDataProperties(var13, var12);
             var1 = var3.bind(var4)(var2, var1);
- 216:
+ 219:
             var1 = undefined;
             return var1;
         }
@@ -233,13 +236,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = arg1;
             var8 = arg2;
             var1 = null;
-            if(!(var1 == var9)) { _fun0004_ip = 31; continue _fun0004 }
+            if(!(var1 == var9)) { _fun0004_ip = 34; continue _fun0004 }
  12:
-            var2 = _closure1_slot9;
-            var1 = undefined;
-            var1 = var2.bind(var1)(var8);
-            _fun0004_ip = 166; continue _fun0004;
- 31:
+            var3 = _closure1_slot9;
+            var2 = undefined;
+            var1 = false;
+            var1 = var3.bind(var2)(var1, var8);
+            _fun0004_ip = 169; continue _fun0004;
+ 34:
             var2 = _closure1_slot0;
             var3 = _closure1_slot1;
             var1 = 7;
@@ -271,7 +275,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var1;
             var5 = copyDataProperties(var12, var11);
             var1 = var3.bind(var4)(var2, var1);
- 166:
+ 169:
             var1 = undefined;
             return var1;
         }

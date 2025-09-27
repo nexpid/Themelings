@@ -149,7 +149,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var3.getChannelId;
                 var6 = var1.bind(var3)();
                 var1 = null;
-                if(!(var1 != var6)) { _fun0003_ip = 115; continue _fun0003 }
+                if(!(var1 != var6)) { _fun0003_ip = 116; continue _fun0003 }
  25:
                 var5 = _closure1_slot6;
                 var3 = var5.getSelectedParticipantId;
@@ -160,7 +160,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = _closure1_slot5;
                 var2 = var3.getRTCConnection;
                 var3 = var2.bind(var3)();
-                if(!(var1 != var3)) { _fun0003_ip = 115; continue _fun0003 }
+                if(!(var1 != var3)) { _fun0003_ip = 116; continue _fun0003 }
  73:
                 var2 = var3.setSelectedParticipant;
                 var5 = var6.find;
@@ -182,12 +182,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var5.bind(var6)(var4);
                 var5 = var1 == var4;
                 var1 = undefined;
-                if(var5) { _fun0003_ip = 110; continue _fun0003 }
- 105:
+                if(var5) { _fun0003_ip = 111; continue _fun0003 }
+ 106:
                 var1 = var4.id;
- 110:
+ 111:
                 var1 = var2.bind(var3)(var1);
- 115:
+ 116:
                 var1 = undefined;
                 return var1;
             }

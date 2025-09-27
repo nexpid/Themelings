@@ -429,25 +429,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var3 = var2.GameShareModal;
                         var _closure4_slot0 = var3;
                         var2 = null;
-                        if(!(var2 != var3)) { _fun0007_ip = 155; continue _fun0007 }
+                        if(!(var2 != var3)) { _fun0007_ip = 145; continue _fun0007 }
  24:
-                        var4 = _closure1_slot0;
+                        var5 = _closure1_slot1;
                         var6 = _closure1_slot3;
                         var2 = 16;
                         var2 = var6[var2];
-                        var5 = undefined;
-                        var2 = var4.bind(var5)(var2);
-                        var10 = var2.ICYMIAnalytics;
-                        var9 = var10.trackItemInteraction;
+                        var4 = undefined;
+                        var10 = var5.bind(var4)(var2);
+                        var9 = var10.itemInteracted;
                         var2 = _closure2_slot0;
                         var8 = var2.id;
                         var7 = 'hotwheels_gaming_activity';
-                        var4 = 'press_forward';
-                        var4 = var9.bind(var10)(var8, var7, var4);
-                        var4 = _closure1_slot1;
+                        var3 = 'press_forward';
+                        var3 = var9.bind(var10)(var8, var7, var3);
                         var3 = 17;
                         var3 = var6[var3];
-                        var6 = var4.bind(var5)(var3);
+                        var6 = var5.bind(var4)(var3);
                         var5 = var6.pushLazy;
                         var4 = {};
                         var4['content'] = var2;
@@ -467,7 +465,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var13 = var4;
                         var11 = var3;
                         var1 = var15[var5](var14, var13, var12, var11, var10);
- 155:
+ 145:
                         var1 = undefined;
                         return var1;
                     }
@@ -492,14 +490,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[0] = var32;
             var3[1] = var15;
             var2 = function() {
-                var3 = _closure1_slot0;
+                var3 = _closure1_slot1;
                 var2 = _closure1_slot3;
                 var1 = 16;
                 var2 = var2[var1];
                 var1 = undefined;
-                var2 = var3.bind(var1)(var2);
-                var7 = var2.ICYMIAnalytics;
-                var6 = var7.trackItemInteraction;
+                var7 = var3.bind(var1)(var2);
+                var6 = var7.itemInteracted;
                 var3 = _closure2_slot0;
                 var5 = var3.id;
                 var4 = 'hotwheels_gaming_activity';

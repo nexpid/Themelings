@@ -353,7 +353,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     var2 = arg1;
                     var1 = null;
-                    if(!(var1 != var2)) { _fun0005_ip = 236; continue _fun0005 }
+                    if(!(var1 != var2)) { _fun0005_ip = 241; continue _fun0005 }
  12:
                     var3 = _closure2_slot5;
                     var3 = var3.length;
@@ -421,10 +421,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3['backgroundVariant'] = var8;
                     var3['disableNavigateOnPress'] = var7;
                     var3['truncate'] = var7;
+                    var3['renderLoadingSpacer'] = var7;
                     var2 = var2.id;
                     var2 = var5.bind(var6)(var4, var3, var2);
                     return var2;
- 236:
+ 241:
                     return var1;
                 }
             };

@@ -66,19 +66,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
             var6 = arg1;
-            var4 = _closure1_slot0;
+            var4 = _closure1_slot1;
             var3 = _closure1_slot2;
             var1 = 4;
             var3 = var3[var1];
             var1 = undefined;
-            var3 = var4.bind(var1)(var3);
-            var8 = var3.ICYMIAnalytics;
-            var7 = var8.trackItemInteraction;
+            var8 = var4.bind(var1)(var3);
+            var7 = var8.itemInteracted;
             var5 = 'show';
-            if(!var6) { _fun0001_ip = 51; continue _fun0001 }
- 47:
+            if(!var6) { _fun0001_ip = 45; continue _fun0001 }
+ 41:
             var5 = 'hide';
- 51:
+ 45:
             var4 = 'icymi_tab_toggle';
             var3 = 'press';
             var3 = var7.bind(var8)(var5, var4, var3);

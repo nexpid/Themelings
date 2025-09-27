@@ -681,13 +681,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 var1 = var1.nativeEvent;
                                 var2 = var1.key;
                                 var1 = 'Backspace';
-                                if(!(var1 === var2)) { _fun0008_ip = 120; continue _fun0008 }
- 27:
+                                if(!(var1 === var2)) { _fun0008_ip = 119; continue _fun0008 }
+ 26:
                                 var1 = _closure2_slot5;
                                 var1 = var1[var3];
                                 var7 = '';
-                                if(!(var7 === var1)) { _fun0008_ip = 159; continue _fun0008 }
- 46:
+                                if(!(var7 === var1)) { _fun0008_ip = 158; continue _fun0008 }
+ 45:
                                 var6 = _closure2_slot6;
                                 var11 = _closure2_slot5;
                                 var1 = 1;
@@ -704,23 +704,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 var1 = var3 - var1;
                                 var2 = var2[var1];
                                 var1 = null;
-                                if(!(var1 != var2)) { _fun0008_ip = 159; continue _fun0008 }
- 108:
+                                if(!(var1 != var2)) { _fun0008_ip = 158; continue _fun0008 }
+ 107:
                                 var1 = var2.focus;
                                 var1 = var1.bind(var2)();
-                                _fun0008_ip = 159; continue _fun0008;
- 120:
+                                _fun0008_ip = 158; continue _fun0008;
+ 119:
                                 var1 = _closure2_slot7;
                                 var2 = var1.current;
                                 var1 = 1;
                                 var1 = var3 + var1;
                                 var2 = var2[var1];
                                 var1 = null;
-                                if(!(var1 != var2)) { _fun0008_ip = 159; continue _fun0008 }
- 149:
+                                if(!(var1 != var2)) { _fun0008_ip = 158; continue _fun0008 }
+ 148:
                                 var1 = var2.focus;
                                 var1 = var1.bind(var2)();
- 159:
+ 158:
                                 var1 = undefined;
                                 return var1;
                             }
@@ -757,10 +757,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var2 = var2.bind(var4)();
                             var4 = var2.split;
                             var7 = var4.bind(var2)(var3);
-                            if(!(var3 === var2)) { _fun0009_ip = 108; continue _fun0009 }
+                            if(!(var3 === var2)) { _fun0009_ip = 110; continue _fun0009 }
  100:
                             var7 = [''];
- 108:
+ 110:
                             var9 = _closure2_slot5;
                             var4 = new Array(0);
                             var10 = var4;

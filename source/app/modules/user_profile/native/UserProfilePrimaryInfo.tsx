@@ -210,7 +210,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     var2 = _closure2_slot0;
                     var1 = null;
-                    if(!(var1 != var2)) { _fun0004_ip = 172; continue _fun0004 }
+                    if(!(var1 != var2)) { _fun0004_ip = 176; continue _fun0004 }
  16:
                     var5 = _closure1_slot12;
                     var4 = _closure1_slot0;
@@ -228,8 +228,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = var5.bind(var6)(var4, var2);
                     var4 = _closure2_slot2;
                     var2 = var7;
-                    if(!(var1 != var4)) { _fun0004_ip = 170; continue _fun0004 }
- 95:
+                    if(!(var1 != var4)) { _fun0004_ip = 174; continue _fun0004 }
+ 99:
                     var5 = _closure1_slot12;
                     var4 = _closure1_slot0;
                     var9 = _closure1_slot2;
@@ -248,9 +248,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3['accessibilityHint'] = var8;
                     var3['children'] = var7;
                     var2 = var5.bind(var6)(var4, var3);
- 170:
+ 174:
                     return var2;
- 172:
+ 176:
                     return var1;
                 }
             };
@@ -736,7 +736,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var11 = var3.bind(var7)(var2);
             var _closure2_slot7 = var11;
-            if(!var1) { _fun0007_ip = 148; continue _fun0007 }
+            if(!var1) { _fun0007_ip = 149; continue _fun0007 }
  127:
             var3 = var7.find;
             var2 = function(arg1) {
@@ -749,9 +749,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var7)(var2);
             var2 = null;
             var1 = var2 == var3;
- 148:
-            if(!var1) { _fun0007_ip = 317; continue _fun0007 }
- 154:
+ 149:
+            if(!var1) { _fun0007_ip = 318; continue _fun0007 }
+ 155:
             var2 = var11.push;
             var7 = _closure1_slot12;
             var3 = _closure1_slot21;
@@ -790,7 +790,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['showToastOnPress'] = var12;
             var1 = var7.bind(var4)(var3, var1);
             var1 = var2.bind(var11)(var1);
- 317:
+ 318:
             var1 = _closure1_slot6;
             var1 = var1.bind(var4)();
             var1 = var1.width;

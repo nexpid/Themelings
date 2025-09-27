@@ -57,8 +57,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['rawValue'] = var2;
             return var1;
         };
-        var13 = var11.bind(var12)(var10, var9);
-        var _closure2_slot0 = var13;
+        var14 = var11.bind(var12)(var10, var9);
+        var _closure2_slot0 = var14;
         var9 = var7[var8];
         var12 = var2.bind(var4)(var9);
         var11 = var12.useStateFromStores;
@@ -69,11 +69,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.systemPrefersCrossfades;
             return var1;
         };
-        var12 = var11.bind(var12)(var10, var9);
-        var _closure2_slot1 = var12;
+        var13 = var11.bind(var12)(var10, var9);
+        var _closure2_slot1 = var13;
         var9 = var7[var8];
-        var14 = var2.bind(var4)(var9);
-        var11 = var14.useStateFromStoresObject;
+        var12 = var2.bind(var4)(var9);
+        var11 = var12.useStateFromStoresObject;
         var10 = new Array(1);
         var10[0] = var6;
         var9 = function() {
@@ -85,8 +85,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['rawValue'] = var2;
             return var1;
         };
-        var11 = var11.bind(var14)(var10, var9);
-        var _closure2_slot2 = var11;
+        var12 = var11.bind(var12)(var10, var9);
+        var _closure2_slot2 = var12;
+        var9 = var7[var8];
+        var15 = var2.bind(var4)(var9);
+        var11 = var15.useStateFromStores;
+        var10 = new Array(1);
+        var10[0] = var6;
+        var9 = function() {
+            var1 = _closure1_slot3;
+            var1 = var1.alwaysShowLinkDecorations;
+            return var1;
+        };
+        var11 = var11.bind(var15)(var10, var9);
+        var _closure2_slot3 = var11;
         var8 = var7[var8];
         var10 = var2.bind(var4)(var8);
         var9 = var10.useStateFromStores;
@@ -94,18 +106,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8[0] = var6;
         var6 = function() {
             var1 = _closure1_slot3;
-            var1 = var1.alwaysShowLinkDecorations;
+            var1 = var1.keyboardModeEnabled;
             return var1;
         };
         var10 = var9.bind(var10)(var8, var6);
-        var _closure2_slot3 = var10;
+        var _closure2_slot4 = var10;
         var9 = _closure1_slot2;
         var8 = var9.useMemo;
-        var6 = new Array(4);
-        var6[0] = var13;
-        var6[1] = var12;
-        var6[2] = var11;
-        var6[3] = var10;
+        var6 = new Array(5);
+        var6[0] = var14;
+        var6[1] = var13;
+        var6[2] = var12;
+        var6[3] = var11;
+        var6[4] = var10;
         var3 = function() {
             var1 = {};
             var3 = _closure2_slot0;
@@ -114,10 +127,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['prefersCrossfades'] = var3;
             var3 = _closure2_slot2;
             var1['forcedColors'] = var3;
-            var2 = _closure2_slot3;
-            var1['alwaysShowLinkDecorations'] = var2;
-            var2 = false;
-            var1['highContrastModeEnabled'] = var2;
+            var3 = _closure2_slot3;
+            var1['alwaysShowLinkDecorations'] = var3;
+            var3 = false;
+            var1['highContrastModeEnabled'] = var3;
+            var2 = _closure2_slot4;
+            var1['keyboardModeEnabled'] = var2;
             return var1;
         };
         var6 = var8.bind(var9)(var3, var6);

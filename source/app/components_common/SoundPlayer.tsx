@@ -1156,7 +1156,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var13.isNotNullish;
                 var13 = var1.bind(var13)(var15);
                 var1 = undefined;
-                if(!var13) { _fun0017_ip = 475; continue _fun0017 }
+                if(!var13) { _fun0017_ip = 477; continue _fun0017 }
  126:
                 var16 = var4.voiceChannelActivities;
                 var15 = var16.find;
@@ -1183,8 +1183,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var15 = var15.length;
                 var9 = var9.length;
                 var15 = var15 < var9;
-                if(!var15) { _fun0017_ip = 223; continue _fun0017 }
- 189:
+                if(!var15) { _fun0017_ip = 225; continue _fun0017 }
+ 191:
                 var16 = _closure1_slot0;
                 var9 = _closure1_slot1;
                 var9 = var9[var12];
@@ -1192,191 +1192,191 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var16 = var17.isNotNullish;
                 var9 = var4.voiceChannelId;
                 var15 = var16.bind(var17)(var9);
- 223:
+ 225:
                 var9 = undefined;
-                if(!var15) { _fun0017_ip = 234; continue _fun0017 }
- 228:
+                if(!var15) { _fun0017_ip = 236; continue _fun0017 }
+ 230:
                 var9 = 'activity_launch';
- 234:
+ 236:
                 var15 = var11 === var14;
-                if(!var15) { _fun0017_ip = 269; continue _fun0017 }
- 241:
+                if(!var15) { _fun0017_ip = 271; continue _fun0017 }
+ 243:
                 var17 = _closure1_slot0;
                 var16 = _closure1_slot1;
                 var16 = var16[var12];
                 var17 = var17.bind(var11)(var16);
                 var16 = var17.isNotNullish;
                 var15 = var16.bind(var17)(var13);
- 269:
-                if(!var15) { _fun0017_ip = 278; continue _fun0017 }
- 272:
+ 271:
+                if(!var15) { _fun0017_ip = 280; continue _fun0017 }
+ 274:
                 var9 = 'activity_end';
- 278:
+ 280:
                 var15 = var11 === var13;
-                if(!var15) { _fun0017_ip = 313; continue _fun0017 }
- 285:
+                if(!var15) { _fun0017_ip = 315; continue _fun0017 }
+ 287:
                 var17 = _closure1_slot0;
                 var16 = _closure1_slot1;
                 var16 = var16[var12];
                 var17 = var17.bind(var11)(var16);
                 var16 = var17.isNotNullish;
                 var15 = var16.bind(var17)(var14);
- 313:
-                if(!var15) { _fun0017_ip = 334; continue _fun0017 }
- 316:
+ 315:
+                if(!var15) { _fun0017_ip = 336; continue _fun0017 }
+ 318:
                 var16 = var14.userIds;
                 var17 = var16.size;
                 var16 = 1;
                 var15 = var17 > var16;
- 334:
-                if(!var15) { _fun0017_ip = 343; continue _fun0017 }
- 337:
+ 336:
+                if(!var15) { _fun0017_ip = 345; continue _fun0017 }
+ 339:
                 var9 = 'activity_user_join';
- 343:
+ 345:
                 var16 = _closure1_slot0;
                 var15 = _closure1_slot1;
                 var15 = var15[var12];
                 var16 = var16.bind(var11)(var15);
                 var15 = var16.isNotNullish;
                 var15 = var15.bind(var16)(var14);
-                if(!var15) { _fun0017_ip = 402; continue _fun0017 }
- 374:
+                if(!var15) { _fun0017_ip = 404; continue _fun0017 }
+ 376:
                 var17 = _closure1_slot0;
                 var16 = _closure1_slot1;
                 var16 = var16[var12];
                 var17 = var17.bind(var11)(var16);
                 var16 = var17.isNotNullish;
                 var15 = var16.bind(var17)(var13);
- 402:
+ 404:
                 var1 = var9;
-                if(!var15) { _fun0017_ip = 475; continue _fun0017 }
- 408:
+                if(!var15) { _fun0017_ip = 477; continue _fun0017 }
+ 410:
                 var15 = var14.userIds;
                 var16 = var15.size;
                 var15 = var13.userIds;
                 var15 = var15.size;
-                if(!(var16 > var15)) { _fun0017_ip = 440; continue _fun0017 }
- 434:
+                if(!(var16 > var15)) { _fun0017_ip = 442; continue _fun0017 }
+ 436:
                 var9 = 'activity_user_join';
- 440:
+ 442:
                 var14 = var14.userIds;
                 var14 = var14.size;
                 var13 = var13.userIds;
                 var13 = var13.size;
-                if(!(var14 < var13)) { _fun0017_ip = 472; continue _fun0017 }
- 466:
+                if(!(var14 < var13)) { _fun0017_ip = 474; continue _fun0017 }
+ 468:
                 var9 = 'activity_user_left';
- 472:
+ 474:
                 var1 = var9;
- 475:
+ 477:
                 var9 = var1;
-                if(var8) { _fun0017_ip = 720; continue _fun0017 }
- 484:
+                if(var8) { _fun0017_ip = 722; continue _fun0017 }
+ 486:
                 var8 = var4.connectedChannelActivities;
                 var8 = var8.length;
                 var3 = var3.length;
                 var3 = var8 < var3;
-                if(!var3) { _fun0017_ip = 527; continue _fun0017 }
- 507:
+                if(!var3) { _fun0017_ip = 529; continue _fun0017 }
+ 509:
                 var8 = var4.channelActivities;
                 var8 = var8.length;
                 var5 = var5.length;
                 var3 = var8 < var5;
- 527:
-                if(!var3) { _fun0017_ip = 536; continue _fun0017 }
- 530:
+ 529:
+                if(!var3) { _fun0017_ip = 538; continue _fun0017 }
+ 532:
                 var1 = 'activity_launch';
- 536:
+ 538:
                 var3 = var4.userConnectedActivity;
                 var5 = null;
                 var5 = var5 == var10;
-                if(!var5) { _fun0017_ip = 579; continue _fun0017 }
- 551:
+                if(!var5) { _fun0017_ip = 581; continue _fun0017 }
+ 553:
                 var13 = _closure1_slot0;
                 var8 = _closure1_slot1;
                 var8 = var8[var12];
                 var13 = var13.bind(var11)(var8);
                 var8 = var13.isNotNullish;
                 var5 = var8.bind(var13)(var3);
- 579:
-                if(!var5) { _fun0017_ip = 588; continue _fun0017 }
- 582:
+ 581:
+                if(!var5) { _fun0017_ip = 590; continue _fun0017 }
+ 584:
                 var1 = 'activity_end';
- 588:
+ 590:
                 var8 = _closure1_slot0;
                 var5 = _closure1_slot1;
                 var5 = var5[var12];
                 var8 = var8.bind(var11)(var5);
                 var5 = var8.isNotNullish;
                 var5 = var5.bind(var8)(var10);
-                if(!var5) { _fun0017_ip = 647; continue _fun0017 }
- 619:
+                if(!var5) { _fun0017_ip = 649; continue _fun0017 }
+ 621:
                 var8 = _closure1_slot0;
                 var7 = _closure1_slot1;
                 var7 = var7[var12];
                 var8 = var8.bind(var11)(var7);
                 var7 = var8.isNotNullish;
                 var5 = var7.bind(var8)(var3);
- 647:
+ 649:
                 var9 = var1;
-                if(!var5) { _fun0017_ip = 720; continue _fun0017 }
- 653:
+                if(!var5) { _fun0017_ip = 722; continue _fun0017 }
+ 655:
                 var5 = var10.userIds;
                 var7 = var5.size;
                 var5 = var3.userIds;
                 var5 = var5.size;
-                if(!(var7 > var5)) { _fun0017_ip = 685; continue _fun0017 }
- 679:
+                if(!(var7 > var5)) { _fun0017_ip = 687; continue _fun0017 }
+ 681:
                 var1 = 'activity_user_join';
- 685:
+ 687:
                 var5 = var10.userIds;
                 var5 = var5.size;
                 var3 = var3.userIds;
                 var3 = var3.size;
-                if(!(var5 < var3)) { _fun0017_ip = 717; continue _fun0017 }
- 711:
+                if(!(var5 < var3)) { _fun0017_ip = 719; continue _fun0017 }
+ 713:
                 var1 = 'activity_user_left';
- 717:
+ 719:
                 var9 = var1;
- 720:
+ 722:
                 var5 = null;
                 var1 = var5 != var9;
-                if(var1) { _fun0017_ip = 749; continue _fun0017 }
- 729:
+                if(var1) { _fun0017_ip = 751; continue _fun0017 }
+ 731:
                 var3 = var4.connectedActivityLocation;
                 var3 = var5 == var3;
-                if(!var3) { _fun0017_ip = 746; continue _fun0017 }
- 742:
+                if(!var3) { _fun0017_ip = 748; continue _fun0017 }
+ 744:
                 var3 = var5 == var2;
- 746:
+ 748:
                 var1 = var3;
- 749:
+ 751:
                 var3 = var9;
-                if(var1) { _fun0017_ip = 924; continue _fun0017 }
- 758:
+                if(var1) { _fun0017_ip = 926; continue _fun0017 }
+ 760:
                 var1 = var4.connectedActivityLocation;
-                if(!(var5 == var1)) { _fun0017_ip = 784; continue _fun0017 }
- 768:
+                if(!(var5 == var1)) { _fun0017_ip = 786; continue _fun0017 }
+ 770:
                 var7 = var5 != var2;
                 var1 = 'activity_launch';
-                if(var7) { _fun0017_ip = 921; continue _fun0017 }
- 784:
+                if(var7) { _fun0017_ip = 923; continue _fun0017 }
+ 786:
                 var7 = var4.connectedActivityLocation;
-                if(!(var5 != var7)) { _fun0017_ip = 807; continue _fun0017 }
- 794:
+                if(!(var5 != var7)) { _fun0017_ip = 809; continue _fun0017 }
+ 796:
                 var7 = var5 == var2;
                 var2 = 'activity_end';
-                if(var7) { _fun0017_ip = 918; continue _fun0017 }
- 807:
+                if(var7) { _fun0017_ip = 920; continue _fun0017 }
+ 809:
                 var8 = var5 != var10;
-                if(!var8) { _fun0017_ip = 824; continue _fun0017 }
- 814:
+                if(!var8) { _fun0017_ip = 826; continue _fun0017 }
+ 816:
                 var7 = var4.userConnectedActivity;
                 var8 = var5 != var7;
- 824:
+ 826:
                 var7 = var9;
-                if(!var8) { _fun0017_ip = 915; continue _fun0017 }
- 830:
+                if(!var8) { _fun0017_ip = 917; continue _fun0017 }
+ 832:
                 var8 = var4.userConnectedActivity;
                 var8 = var8.userIds;
                 var11 = var8.size;
@@ -1384,62 +1384,62 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = var8.size;
                 var11 = var11 < var8;
                 var8 = 'activity_user_join';
-                if(var11) { _fun0017_ip = 912; continue _fun0017 }
- 871:
+                if(var11) { _fun0017_ip = 914; continue _fun0017 }
+ 873:
                 var11 = var4.userConnectedActivity;
                 var11 = var11.userIds;
                 var11 = var11.size;
                 var10 = var10.userIds;
                 var10 = var10.size;
-                if(!(var11 > var10)) { _fun0017_ip = 909; continue _fun0017 }
- 903:
+                if(!(var11 > var10)) { _fun0017_ip = 911; continue _fun0017 }
+ 905:
                 var9 = 'activity_user_leave';
- 909:
+ 911:
                 var8 = var9;
- 912:
+ 914:
                 var7 = var8;
- 915:
+ 917:
                 var2 = var7;
- 918:
+ 920:
                 var1 = var2;
- 921:
+ 923:
                 var3 = var1;
- 924:
+ 926:
                 var2 = var5 != var3;
-                if(var2) { _fun0017_ip = 951; continue _fun0017 }
- 931:
+                if(var2) { _fun0017_ip = 953; continue _fun0017 }
+ 933:
                 var1 = var4.connectedFrame;
                 var1 = var5 == var1;
-                if(!var1) { _fun0017_ip = 948; continue _fun0017 }
- 944:
+                if(!var1) { _fun0017_ip = 950; continue _fun0017 }
+ 946:
                 var1 = var5 == var6;
- 948:
+ 950:
                 var2 = var1;
- 951:
+ 953:
                 var1 = var3;
-                if(var2) { _fun0017_ip = 1012; continue _fun0017 }
- 957:
+                if(var2) { _fun0017_ip = 1014; continue _fun0017 }
+ 959:
                 var2 = var4.connectedFrame;
-                if(!(var5 == var2)) { _fun0017_ip = 980; continue _fun0017 }
- 967:
+                if(!(var5 == var2)) { _fun0017_ip = 982; continue _fun0017 }
+ 969:
                 var7 = var5 != var6;
                 var2 = 'activity_launch';
-                if(var7) { _fun0017_ip = 1009; continue _fun0017 }
- 980:
+                if(var7) { _fun0017_ip = 1011; continue _fun0017 }
+ 982:
                 var4 = var4.connectedFrame;
                 var4 = var5 != var4;
-                if(!var4) { _fun0017_ip = 997; continue _fun0017 }
- 993:
+                if(!var4) { _fun0017_ip = 999; continue _fun0017 }
+ 995:
                 var4 = var5 == var6;
- 997:
-                if(!var4) { _fun0017_ip = 1006; continue _fun0017 }
- 1000:
+ 999:
+                if(!var4) { _fun0017_ip = 1008; continue _fun0017 }
+ 1002:
                 var3 = 'activity_end';
- 1006:
+ 1008:
                 var2 = var3;
- 1009:
+ 1011:
                 var1 = var2;
- 1012:
+ 1014:
                 return var1;
             }
         };

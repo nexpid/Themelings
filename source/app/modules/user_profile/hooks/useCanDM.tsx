@@ -117,13 +117,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = _closure2_slot3;
                 var1 = !var3;
  20:
-                if(!var1) { _fun0002_ip = 95; continue _fun0002 }
+                if(!var1) { _fun0002_ip = 96; continue _fun0002 }
  23:
                 var6 = _closure1_slot6;
                 var5 = var6.isFriend;
                 var3 = _closure2_slot0;
                 var3 = var5.bind(var6)(var3);
-                if(var3) { _fun0002_ip = 92; continue _fun0002 }
+                if(var3) { _fun0002_ip = 93; continue _fun0002 }
  48:
                 var6 = _closure1_slot5;
                 var5 = var6.memberOf;
@@ -141,11 +141,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var5.bind(var6)(var4);
                 var4 = null;
                 var3 = var4 != var5;
- 92:
+ 93:
                 var1 = var3;
- 95:
-                if(var1) { _fun0002_ip = 175; continue _fun0002 }
- 98:
+ 96:
+                if(var1) { _fun0002_ip = 176; continue _fun0002 }
+ 99:
                 var5 = _closure1_slot2;
                 var4 = var5.getGameFriendsForUser;
                 var2 = _closure2_slot0;
@@ -153,8 +153,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var2.length;
                 var2 = 0;
                 var2 = var4 > var2;
-                if(!var2) { _fun0002_ip = 172; continue _fun0002 }
- 134:
+                if(!var2) { _fun0002_ip = 173; continue _fun0002 }
+ 135:
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot1;
                 var3 = 6;
@@ -164,9 +164,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var3.AllowGameFriendDmsInDiscord;
                 var3 = var4.getSetting;
                 var2 = var3.bind(var4)();
- 172:
+ 173:
                 var1 = var2;
- 175:
+ 176:
                 return var1;
             }
         };

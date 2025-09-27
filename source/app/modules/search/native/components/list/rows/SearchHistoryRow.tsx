@@ -816,8 +816,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var1.nativeEvent;
                 var2 = var1.actionName;
                 var1 = 'remove';
-                if(!(var1 === var2)) { _fun0011_ip = 71; continue _fun0011 }
- 23:
+                if(!(var1 === var2)) { _fun0011_ip = 70; continue _fun0011 }
+ 22:
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
                 var1 = 10;
@@ -828,7 +828,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = _closure2_slot0;
                 var1 = _closure2_slot1;
                 var1 = var3.bind(var4)(var2, var1);
- 71:
+ 70:
                 var1 = undefined;
                 return var1;
             }

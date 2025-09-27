@@ -1522,7 +1522,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.bind(var1)(var4);
             var4 = var6.getEmbeddedActivityLocationChannelId;
             var4 = var4.bind(var6)(var7);
-            if(!(var5 != var4)) { _fun0006_ip = 345; continue _fun0006 }
+            if(!(var5 != var4)) { _fun0006_ip = 346; continue _fun0006 }
  164:
             var7 = _closure1_slot6;
             var6 = var7.getSelectedParticipantId;
@@ -1548,13 +1548,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var10 = var8.bind(var10)(var3);
-            if(!(var5 != var10)) { _fun0006_ip = 347; continue _fun0006 }
- 240:
-            if(!(var5 != var7)) { _fun0006_ip = 347; continue _fun0006 }
- 244:
+            if(!(var5 != var10)) { _fun0006_ip = 348; continue _fun0006 }
+ 241:
+            if(!(var5 != var7)) { _fun0006_ip = 348; continue _fun0006 }
+ 245:
             var3 = '';
-            if(!(var3 !== var7)) { _fun0006_ip = 347; continue _fun0006 }
- 252:
+            if(!(var3 !== var7)) { _fun0006_ip = 348; continue _fun0006 }
+ 253:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var3 = 45;
@@ -1565,14 +1565,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['applicationId'] = var9;
             var11 = var5 == var10;
             var9 = undefined;
-            if(var11) { _fun0006_ip = 299; continue _fun0006 }
- 293:
+            if(var11) { _fun0006_ip = 300; continue _fun0006 }
+ 294:
             var9 = var10.compositeInstanceId;
- 299:
+ 300:
             var3['instanceId'] = var9;
             var3 = var7.bind(var8)(var3);
-            if(!(var6 === var3)) { _fun0006_ip = 345; continue _fun0006 }
- 313:
+            if(!(var6 === var3)) { _fun0006_ip = 346; continue _fun0006 }
+ 314:
             var3 = _closure1_slot1;
             var6 = _closure1_slot2;
             var2 = 46;
@@ -1580,9 +1580,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var1)(var2);
             var2 = var3.selectParticipant;
             var2 = var2.bind(var3)(var4, var5);
- 345:
+ 346:
             return var1;
- 347:
+ 348:
             return var1;
         }
     };

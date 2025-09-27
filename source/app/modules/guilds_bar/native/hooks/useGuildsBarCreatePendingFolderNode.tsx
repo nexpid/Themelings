@@ -283,11 +283,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var5.bind(var6)(var1, var2);
             var2 = var4.length;
             var1 = 0;
-            if(!(!(var2 > var1))) { _fun0004_ip = 177; continue _fun0004 }
+            if(!(!(var2 > var1))) { _fun0004_ip = 173; continue _fun0004 }
  161:
             var1 = {'expanded': false, 'pendingFolderNode': null};
             return var1;
- 177:
+ 173:
             var12 = _closure1_slot0;
             var13 = _closure1_slot2;
             var6 = 7;
@@ -319,8 +319,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var1.bind(var7)(var4);
             var4 = var5.bind(var7)();
             var1 = var4.done;
-            if(var1) { _fun0004_ip = 391; continue _fun0004 }
- 322:
+            if(var1) { _fun0004_ip = 387; continue _fun0004 }
+ 318:
             var13 = var4.value;
             var10 = var2.children;
             var9 = var10.push;
@@ -335,8 +335,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var5.bind(var7)();
             var1 = var9.done;
             var4 = var9;
-            if(!var1) { _fun0004_ip = 322; continue _fun0004 }
- 391:
+            if(!var1) { _fun0004_ip = 318; continue _fun0004 }
+ 387:
             var1 = {};
             var1['expanded'] = var3;
             var1['pendingFolderNode'] = var2;

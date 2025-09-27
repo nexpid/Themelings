@@ -914,21 +914,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var12.bind(var13)(var11);
  1219:
             var6['widgets'] = var10;
+            var10 = var2.wishlist_settings;
+            var6['wishlistSettings'] = var10;
             var6 = var8.bind(var9)(var7, var6);
             var7 = var2.user_profile;
             var8 = var5 == var7;
             var6 = undefined;
-            if(var8) { _fun0005_ip = 1266; continue _fun0005 }
- 1245:
+            if(var8) { _fun0005_ip = 1279; continue _fun0005 }
+ 1258:
             var7 = var7.profile_effect;
             var8 = var5 == var7;
             var6 = undefined;
-            if(var8) { _fun0005_ip = 1266; continue _fun0005 }
- 1260:
+            if(var8) { _fun0005_ip = 1279; continue _fun0005 }
+ 1273:
             var6 = var7.expires_at;
- 1266:
-            if(!(var5 != var6)) { _fun0005_ip = 1360; continue _fun0005 }
- 1270:
+ 1279:
+            if(!(var5 != var6)) { _fun0005_ip = 1373; continue _fun0005 }
+ 1283:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var6 = 21;
@@ -949,10 +951,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var2.user;
             var6 = var6.id;
             var6 = var7.bind(var1)(var6);
- 1360:
-            var6 = var2.guild_member_profile;
-            if(!(var5 != var6)) { _fun0005_ip = 1969; continue _fun0005 }
  1373:
+            var6 = var2.guild_member_profile;
+            if(!(var5 != var6)) { _fun0005_ip = 1982; continue _fun0005 }
+ 1386:
             var6 = var2.guild_member_profile;
             var8 = var6.profile_effect;
             var9 = {};
@@ -971,23 +973,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var2.guild_member_profile;
             var10 = var5 == var7;
             var6 = undefined;
-            if(var10) { _fun0005_ip = 1471; continue _fun0005 }
- 1465:
+            if(var10) { _fun0005_ip = 1484; continue _fun0005 }
+ 1478:
             var6 = var7.theme_colors;
- 1471:
+ 1484:
             var9['themeColors'] = var6;
             var7 = var2.guild_member_profile;
             var10 = var5 == var7;
             var6 = undefined;
-            if(var10) { _fun0005_ip = 1497; continue _fun0005 }
- 1491:
+            if(var10) { _fun0005_ip = 1510; continue _fun0005 }
+ 1504:
             var6 = var7.popout_animation_particle_type;
- 1497:
+ 1510:
             var9['popoutAnimationParticleType'] = var6;
             var7 = var5 != var8;
             var6 = undefined;
-            if(!var7) { _fun0005_ip = 1547; continue _fun0005 }
- 1511:
+            if(!var7) { _fun0005_ip = 1560; continue _fun0005 }
+ 1524:
             var7 = {};
             var10 = var8.id;
             var7['id'] = var10;
@@ -996,7 +998,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var8.expires_at;
             var7['expiresAt'] = var8;
             var6 = var7;
- 1547:
+ 1560:
             var9['profileEffect'] = var6;
             var6 = var2.guild_member_profile;
             var6 = var6.bio;
@@ -1011,8 +1013,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var2.user;
             var6 = var6.id;
             var8 = var7.bind(var8)(var6);
-            if(!(var5 == var8)) { _fun0005_ip = 1702; continue _fun0005 }
- 1627:
+            if(!(var5 == var8)) { _fun0005_ip = 1715; continue _fun0005 }
+ 1640:
             var6 = var4.Map;
             var7 = var6.prototype;
             var7 = Object.create(var7, {constructor: {value: var6}});
@@ -1028,27 +1030,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var2.user;
             var6 = var6.id;
             var6 = var7.bind(var10)(var6, var11);
-            _fun0005_ip = 1724; continue _fun0005;
- 1702:
+            _fun0005_ip = 1737; continue _fun0005;
+ 1715:
             var7 = var8.set;
             var6 = var2.guild_member_profile;
             var6 = var6.guild_id;
             var6 = var7.bind(var8)(var6, var9);
- 1724:
+ 1737:
             var7 = var2.guild_member_profile;
             var8 = var5 == var7;
             var6 = undefined;
-            if(var8) { _fun0005_ip = 1760; continue _fun0005 }
- 1739:
+            if(var8) { _fun0005_ip = 1773; continue _fun0005 }
+ 1752:
             var7 = var7.profile_effect;
             var8 = var5 == var7;
             var6 = undefined;
-            if(var8) { _fun0005_ip = 1760; continue _fun0005 }
- 1754:
-            var6 = var7.expires_at;
- 1760:
-            if(!(var5 != var6)) { _fun0005_ip = 1969; continue _fun0005 }
+            if(var8) { _fun0005_ip = 1773; continue _fun0005 }
  1767:
+            var6 = var7.expires_at;
+ 1773:
+            if(!(var5 != var6)) { _fun0005_ip = 1982; continue _fun0005 }
+ 1780:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var6 = 21;
@@ -1065,8 +1067,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var2.user;
             var6 = var6.id;
             var6 = var8.bind(var9)(var6);
-            if(!(var5 == var6)) { _fun0005_ip = 1916; continue _fun0005 }
- 1841:
+            if(!(var5 == var6)) { _fun0005_ip = 1929; continue _fun0005 }
+ 1854:
             var4 = var4.Map;
             var5 = var4.prototype;
             var5 = Object.create(var5, {constructor: {value: var4}});
@@ -1082,20 +1084,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var2.user;
             var4 = var4.id;
             var4 = var5.bind(var8)(var4, var9);
-            _fun0005_ip = 1938; continue _fun0005;
- 1916:
+            _fun0005_ip = 1951; continue _fun0005;
+ 1929:
             var5 = var6.set;
             var4 = var2.guild_member_profile;
             var4 = var4.guild_id;
             var4 = var5.bind(var6)(var4, var7);
- 1938:
+ 1951:
             var4 = _closure1_slot35;
             var3 = var2.user;
             var3 = var3.id;
             var2 = var2.guild_member_profile;
             var2 = var2.guild_id;
             var2 = var4.bind(var1)(var3, var2);
- 1969:
+ 1982:
             return var1;
         }
     };
@@ -1998,7 +2000,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(12);
+        var1 = new Array(14);
         var1[0] = var5;
         var5 = {};
         var7 = 'isFetchingProfile';
@@ -2155,10 +2157,66 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5['value'] = var7;
         var1[9] = var5;
         var5 = {};
+        var7 = 'getWishlistIds';
+        var5['key'] = var7;
+        var7 = function value(arg1) {
+            _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
+ 0:
+                var3 = _closure1_slot19;
+                var2 = var3.get;
+                var1 = arg1;
+                var2 = var2.bind(var3)(var1);
+                var3 = null;
+                var4 = var3 == var2;
+                var1 = undefined;
+                if(var4) { _fun0023_ip = 37; continue _fun0023 }
+ 31:
+                var1 = var2.wishlistSettings;
+ 37:
+                if(!(var3 == var1)) { _fun0023_ip = 47; continue _fun0023 }
+ 41:
+                var1 = new Array(0);
+                _fun0023_ip = 71; continue _fun0023;
+ 47:
+                var3 = global;
+                var4 = var3.Object;
+                var3 = var4.keys;
+                var2 = var2.wishlistSettings;
+                var1 = var3.bind(var4)(var2);
+ 71:
+                return var1;
+            }
+        };
+        var5['value'] = var7;
+        var1[10] = var5;
+        var5 = {};
+        var7 = 'getFirstWishlistId';
+        var5['key'] = var7;
+        var7 = function value(arg1) {
+            _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
+ 0:
+                var3 = this;
+                var2 = var3.getWishlistIds;
+                var1 = arg1;
+                var3 = var2.bind(var3)(var1);
+                var1 = var3.length;
+                var2 = 0;
+                var4 = var1 > var2;
+                var1 = null;
+                if(!var4) { _fun0024_ip = 39; continue _fun0024 }
+ 35:
+                var1 = var3[var2];
+ 39:
+                return var1;
+            }
+        };
+        var5['value'] = var7;
+        var1[11] = var5;
+        var5 = {};
         var7 = 'takeSnapshot';
         var5['key'] = var7;
         var7 = function value() {
-            _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
+            _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
  0:
                 var3 = _closure1_slot10;
                 var2 = var3.getId;
@@ -2167,7 +2225,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var2.get;
                 var3 = var1.bind(var2)(var5);
                 var1 = null;
-                if(!(var1 == var3)) { _fun0023_ip = 67; continue _fun0023 }
+                if(!(var1 == var3)) { _fun0025_ip = 67; continue _fun0025 }
  37:
                 var1 = {};
                 var2 = _closure2_slot0;
@@ -2175,7 +2233,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1['version'] = var2;
                 var2 = new Array(0);
                 var1['data'] = var2;
-                _fun0023_ip = 113; continue _fun0023;
+                _fun0025_ip = 113; continue _fun0025;
  67:
                 var2 = {};
                 var4 = _closure2_slot0;
@@ -2193,7 +2251,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var5['value'] = var7;
-        var1[10] = var5;
+        var1[12] = var5;
         var5 = {};
         var7 = 'applicationWidgetApplicationIds';
         var5['key'] = var7;
@@ -2202,7 +2260,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var5['get'] = var6;
-        var1[11] = var5;
+        var1[13] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

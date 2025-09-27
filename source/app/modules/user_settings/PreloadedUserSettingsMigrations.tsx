@@ -1248,17 +1248,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
  0:
             var6 = arg1;
-            var3 = _closure1_slot0;
+            var2 = _closure1_slot0;
             var1 = _closure1_slot2;
             var7 = 6;
             var1 = var1[var7];
             var5 = undefined;
-            var1 = var3.bind(var5)(var1);
+            var1 = var2.bind(var5)(var1);
             var4 = var1.Storage;
-            var3 = var4.get;
+            var2 = var4.get;
             var1 = 'hidePremiumPromo';
-            var3 = var3.bind(var4)(var1);
-            if(!var3) { _fun0012_ip = 95; continue _fun0012 }
+            var2 = var2.bind(var4)(var1);
+            if(!var2) { _fun0012_ip = 95; continue _fun0012 }
  53:
             var4 = _closure1_slot6;
             var8 = _closure1_slot0;
@@ -1268,22 +1268,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var8.bind(var5)(var1);
             var1 = var1.DismissibleContent;
             var1 = var1.NAGBAR_NOTICE_PREMIUM_PROMO;
-            var3 = var4.bind(var5)(var6, var1);
+            var2 = var4.bind(var5)(var6, var1);
  95:
             var1 = false;
-            if(!var3) { _fun0012_ip = 102; continue _fun0012 }
+            if(!var2) { _fun0012_ip = 102; continue _fun0012 }
  100:
             var1 = true;
  102:
             var4 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var3 = var3[var7];
-            var3 = var4.bind(var5)(var3);
-            var8 = var3.Storage;
+            var2 = _closure1_slot2;
+            var2 = var2[var7];
+            var2 = var4.bind(var5)(var2);
+            var8 = var2.Storage;
             var4 = var8.get;
-            var3 = 'hidePremiumTier2TrialEnding';
-            var3 = var4.bind(var8)(var3);
-            if(!var3) { _fun0012_ip = 186; continue _fun0012 }
+            var2 = 'hidePremiumTier2TrialEnding';
+            var2 = var4.bind(var8)(var2);
+            if(!var2) { _fun0012_ip = 186; continue _fun0012 }
  144:
             var8 = _closure1_slot6;
             var9 = _closure1_slot0;
@@ -1293,54 +1293,36 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var9.bind(var5)(var4);
             var4 = var4.DismissibleContent;
             var4 = var4.NAGBAR_NOTICE_PREMIUM_TIER_TWO_TRIAL_ENDING;
-            var3 = var8.bind(var5)(var6, var4);
+            var2 = var8.bind(var5)(var6, var4);
  186:
-            if(!var3) { _fun0012_ip = 191; continue _fun0012 }
+            if(!var2) { _fun0012_ip = 191; continue _fun0012 }
  189:
             var1 = true;
  191:
             var4 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var3 = var3[var7];
-            var3 = var4.bind(var5)(var3);
-            var7 = var3.Storage;
+            var2 = _closure1_slot2;
+            var2 = var2[var7];
+            var2 = var4.bind(var5)(var2);
+            var7 = var2.Storage;
             var4 = var7.get;
-            var3 = 'hidePremiumReactivateNotice';
-            var3 = var4.bind(var7)(var3);
-            if(!var3) { _fun0012_ip = 275; continue _fun0012 }
+            var2 = 'hidePremiumReactivateNotice';
+            var2 = var4.bind(var7)(var2);
+            if(!var2) { _fun0012_ip = 275; continue _fun0012 }
  233:
-            var7 = _closure1_slot6;
-            var8 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var4 = 10;
-            var4 = var9[var4];
-            var4 = var8.bind(var5)(var4);
-            var4 = var4.DismissibleContent;
-            var4 = var4.NAGBAR_NOTICE_PREMIUM_REACTIVATE;
-            var3 = var7.bind(var5)(var6, var4);
+            var4 = _closure1_slot6;
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var3 = 10;
+            var3 = var8[var3];
+            var3 = var7.bind(var5)(var3);
+            var3 = var3.DismissibleContent;
+            var3 = var3.NAGBAR_NOTICE_PREMIUM_REACTIVATE;
+            var2 = var4.bind(var5)(var6, var3);
  275:
-            if(!var3) { _fun0012_ip = 280; continue _fun0012 }
+            if(!var2) { _fun0012_ip = 280; continue _fun0012 }
  278:
             var1 = true;
  280:
-            var4 = _closure1_slot7;
-            var7 = _closure1_slot0;
-            var8 = _closure1_slot2;
-            var2 = 4;
-            var2 = var8[var2];
-            var2 = var7.bind(var5)(var2);
-            var2 = var2.HotspotLocations;
-            var3 = var2.INVITE_SPLASH_GUILD_HEADER_TOOLTIP;
-            var2 = 10;
-            var2 = var8[var2];
-            var2 = var7.bind(var5)(var2);
-            var2 = var2.DismissibleContent;
-            var2 = var2.GUILD_HEADER_INVITE_SPLASH;
-            var2 = var4.bind(var5)(var6, var3, var2);
-            if(!var2) { _fun0012_ip = 352; continue _fun0012 }
- 350:
-            var1 = true;
- 352:
             return var1;
         }
     };

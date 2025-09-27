@@ -146,7 +146,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot0 = var2;
             var4 = var2.cover_sticker_id;
             var3 = null;
-            if(!(var3 != var4)) { _fun0002_ip = 46; continue _fun0002 }
+            if(!(var3 != var4)) { _fun0002_ip = 47; continue _fun0002 }
  21:
             var5 = var2.stickers;
             var4 = var5.find;
@@ -159,13 +159,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var1 = var4.bind(var5)(var1);
-            if(!(var3 == var1)) { _fun0002_ip = 60; continue _fun0002 }
- 46:
+            if(!(var3 == var1)) { _fun0002_ip = 61; continue _fun0002 }
+ 47:
             var3 = var2.stickers;
             var2 = 0;
             var2 = var3[var2];
             return var2;
- 60:
+ 61:
             return var1;
         }
     };

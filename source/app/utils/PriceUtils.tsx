@@ -8,21 +8,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = function formatPrice(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            var2 = arg3;
-            var1 = null;
-            var6 = var2;
-            if(!(var1 == var6)) { _fun0001_ip = 14; continue _fun0001 }
+            var1 = arg3;
+            var7 = null;
+            var6 = var1;
+            if(!(var7 == var6)) { _fun0001_ip = 14; continue _fun0001 }
  12:
             var6 = {};
  14:
-            var4 = var1 == var2;
+            var2 = var7 == var1;
             var3 = undefined;
             var5 = undefined;
-            if(var4) { _fun0001_ip = 33; continue _fun0001 }
+            if(var2) { _fun0001_ip = 33; continue _fun0001 }
  25:
-            var5 = var2.localeOverride;
+            var5 = var1.localeOverride;
  33:
-            if(!(var1 == var5)) { _fun0001_ip = 50; continue _fun0001 }
+            if(!(var7 == var5)) { _fun0001_ip = 50; continue _fun0001 }
  37:
             var1 = _closure1_slot2;
             var5 = var1.locale;
@@ -31,29 +31,41 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1 === var5;
             if(!var1) { _fun0001_ip = 88; continue _fun0001 }
  61:
-            var7 = _closure1_slot4;
-            var4 = var7.includes;
+            var8 = _closure1_slot4;
+            var4 = var8.includes;
             var2 = _closure1_slot2;
             var2 = var2.systemLocale;
-            var1 = var4.bind(var7)(var2);
+            var1 = var4.bind(var8)(var2);
  88:
             if(!var1) { _fun0001_ip = 101; continue _fun0001 }
  91:
             var1 = 'code';
             var6['currencyDisplay'] = var1;
  101:
+            var2 = var6.maximumFractionDigits;
+            var4 = var6.minimumFractionDigits;
+            var1 = 0;
+            var2 = var1 === var2;
+            if(!var2) { _fun0001_ip = 126; continue _fun0001 }
+ 122:
+            var2 = var7 == var4;
+ 126:
+            if(!var2) { _fun0001_ip = 135; continue _fun0001 }
+ 129:
+            var6['minimumFractionDigits'] = var1;
+ 135:
             var2 = _closure1_slot0;
             var4 = _closure1_slot1;
             var1 = 2;
             var1 = var4[var1];
             var4 = var2.bind(var3)(var1);
             var3 = var4.formatPrice;
-            var11 = arg1;
-            var10 = arg2;
-            var12 = var4;
-            var9 = var5;
-            var8 = var6;
-            var1 = var12[var3](var11, var10, var9, var8, var7);
+            var12 = arg1;
+            var11 = arg2;
+            var13 = var4;
+            var10 = var5;
+            var9 = var6;
+            var1 = var13[var3](var12, var11, var10, var9, var8);
             return var1;
         }
     };

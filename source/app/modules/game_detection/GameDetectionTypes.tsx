@@ -137,57 +137,59 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = new Array(0);
  178:
                 var1['aliases'] = var4;
+                var4 = var2.cover_image_hash;
+                var1['cover_image_hash'] = var4;
                 var5 = var2.executables;
                 var4 = null;
-                if(!(var4 == var5)) { _fun0002_ip = 200; continue _fun0002 }
- 196:
+                if(!(var4 == var5)) { _fun0002_ip = 212; continue _fun0002 }
+ 208:
                 var5 = new Array(0);
- 200:
+ 212:
                 var4 = var5.map;
                 var3 = _closure1_slot5;
                 var3 = var4.bind(var5)(var3);
                 var1['executables'] = var3;
                 var3 = var2.overlay;
-                if(var3) { _fun0002_ip = 231; continue _fun0002 }
- 229:
+                if(var3) { _fun0002_ip = 243; continue _fun0002 }
+ 241:
                 var3 = false;
- 231:
+ 243:
                 var1['overlay'] = var3;
                 var3 = var2.overlayWarn;
-                if(var3) { _fun0002_ip = 248; continue _fun0002 }
- 246:
+                if(var3) { _fun0002_ip = 260; continue _fun0002 }
+ 258:
                 var3 = false;
- 248:
+ 260:
                 var1['overlayWarn'] = var3;
                 var3 = var2.overlayCompatibilityHook;
-                if(var3) { _fun0002_ip = 265; continue _fun0002 }
- 263:
+                if(var3) { _fun0002_ip = 277; continue _fun0002 }
+ 275:
                 var3 = false;
- 265:
+ 277:
                 var1['overlayCompatibilityHook'] = var3;
                 var3 = var2.hook;
-                if(var3) { _fun0002_ip = 282; continue _fun0002 }
- 280:
+                if(var3) { _fun0002_ip = 294; continue _fun0002 }
+ 292:
                 var3 = false;
- 282:
+ 294:
                 var1['hook'] = var3;
                 var3 = var2.supportsOutOfProcessOverlay;
-                if(var3) { _fun0002_ip = 299; continue _fun0002 }
- 297:
+                if(var3) { _fun0002_ip = 311; continue _fun0002 }
+ 309:
                 var3 = false;
- 299:
+ 311:
                 var1['supportsOutOfProcessOverlay'] = var3;
                 var3 = var2.thirdPartySkus;
-                if(var3) { _fun0002_ip = 318; continue _fun0002 }
- 314:
+                if(var3) { _fun0002_ip = 330; continue _fun0002 }
+ 326:
                 var3 = new Array(0);
- 318:
+ 330:
                 var1['thirdPartySkus'] = var3;
                 var3 = var2.themes;
-                if(var3) { _fun0002_ip = 337; continue _fun0002 }
- 333:
+                if(var3) { _fun0002_ip = 349; continue _fun0002 }
+ 345:
                 var3 = new Array(0);
- 337:
+ 349:
                 var1['themes'] = var3;
                 var2 = var2.linkedApplications;
                 var1['linkedApplications'] = var2;

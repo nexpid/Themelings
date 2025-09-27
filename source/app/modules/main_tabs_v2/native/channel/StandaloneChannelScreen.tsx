@@ -763,16 +763,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var1.actionName;
                     var1 = 'escape';
                     var1 = var1 === var2;
-                    if(!var1) { _fun0008_ip = 33; continue _fun0008 }
- 26:
+                    if(!var1) { _fun0008_ip = 32; continue _fun0008 }
+ 25:
                     var1 = _closure2_slot4;
- 33:
-                    if(!var1) { _fun0008_ip = 53; continue _fun0008 }
- 36:
+ 32:
+                    if(!var1) { _fun0008_ip = 52; continue _fun0008 }
+ 35:
                     var2 = _closure2_slot2;
                     var1 = var2.goBack;
                     var1 = var1.bind(var2)();
- 53:
+ 52:
                     var1 = undefined;
                     return var1;
                 }

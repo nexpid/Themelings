@@ -154,7 +154,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             if(!var2) { _fun0001_ip = 246; continue _fun0001 }
  237:
             var2 = null;
-            if(!(var2 != var14)) { _fun0001_ip = 1440; continue _fun0001 }
+            if(!(var2 != var14)) { _fun0001_ip = 1505; continue _fun0001 }
  246:
             var5 = _closure1_slot0;
             var16 = _closure1_slot2;
@@ -165,16 +165,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.bind(var5)(var15, var7);
             var17 = var2.discountPercentage;
             var2 = 'partiallyOwnedBundle';
-            if(!(var2 !== var3)) { _fun0001_ip = 1312; continue _fun0001 }
+            if(!(var2 !== var3)) { _fun0001_ip = 1377; continue _fun0001 }
  297:
             var2 = 'purchased';
-            if(!(var2 !== var3)) { _fun0001_ip = 1184; continue _fun0001 }
+            if(!(var2 !== var3)) { _fun0001_ip = 1249; continue _fun0001 }
  308:
             var2 = 'nitroUpsell';
-            if(!(var2 !== var3)) { _fun0001_ip = 1056; continue _fun0001 }
+            if(!(var2 !== var3)) { _fun0001_ip = 1121; continue _fun0001 }
  319:
             var2 = 'nitroClaim';
-            if(!(var2 !== var3)) { _fun0001_ip = 926; continue _fun0001 }
+            if(!(var2 !== var3)) { _fun0001_ip = 991; continue _fun0001 }
  332:
             var5 = _closure1_slot8;
             var3 = _closure1_slot4;
@@ -269,7 +269,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  694:
             var7[2] = var8;
             var2['children'] = var7;
-            _fun0001_ip = 918; continue _fun0001;
+            _fun0001_ip = 983; continue _fun0001;
  707:
             var7 = {};
             var9 = var6.priceDescription;
@@ -303,16 +303,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var14.bind(var4)(var9);
             var10 = var9.Text;
             var9 = {'variant': 'text-xs/semibold', 'color': 'header-primary', 'lineClamp': 1};
+            var13 = 14;
+            var16 = var15[var13];
+            var16 = var14.bind(var4)(var16);
+            var18 = var16.intl;
+            var17 = var18.formatToPlainString;
+            var13 = var15[var13];
+            var13 = var14.bind(var4)(var13);
+            var13 = var13.t;
+            var16 = var13.W4DfeH;
+            var13 = {};
+            var19 = var12.amount;
+            var13['orbAmount'] = var19;
+            var13 = var17.bind(var18)(var16, var13);
+            var9['accessibilityLabel'] = var13;
             var13 = 16;
             var13 = var15[var13];
             var14 = var14.bind(var4)(var13);
             var13 = var14.isAndroid;
             var14 = var13.bind(var14)();
             var13 = undefined;
-            if(!var14) { _fun0001_ip = 887; continue _fun0001 }
- 881:
+            if(!var14) { _fun0001_ip = 952; continue _fun0001 }
+ 946:
             var13 = var6.androidTextPadding;
- 887:
+ 952:
             var9['style'] = var13;
             var12 = var12.amount;
             var9['children'] = var12;
@@ -320,10 +334,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8[1] = var9;
             var7['children'] = var8;
             var2 = var7;
- 918:
+ 983:
             var2 = var5.bind(var4)(var3, var2);
             return var2;
- 926:
+ 991:
             var5 = _closure1_slot7;
             var3 = _closure1_slot4;
             var2 = {};
@@ -351,7 +365,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['children'] = var7;
             var2 = var5.bind(var4)(var3, var2);
             return var2;
- 1056:
+ 1121:
             var5 = _closure1_slot7;
             var3 = _closure1_slot4;
             var2 = {};
@@ -379,7 +393,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['children'] = var7;
             var2 = var5.bind(var4)(var3, var2);
             return var2;
- 1184:
+ 1249:
             var5 = _closure1_slot7;
             var3 = _closure1_slot4;
             var2 = {};
@@ -407,7 +421,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['children'] = var7;
             var2 = var5.bind(var4)(var3, var2);
             return var2;
- 1312:
+ 1377:
             var5 = _closure1_slot7;
             var3 = _closure1_slot4;
             var2 = {};
@@ -435,7 +449,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['children'] = var6;
             var2 = var5.bind(var4)(var3, var2);
             return var2;
- 1440:
+ 1505:
             var3 = _closure1_slot7;
             var2 = _closure1_slot0;
             var5 = _closure1_slot2;

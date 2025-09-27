@@ -338,23 +338,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var3.nativeEvent;
                     var1 = undefined;
                     var2 = var4.bind(var1)(var2);
-                    if(!var2) { _fun0005_ip = 50; continue _fun0005 }
- 26:
+                    if(!var2) { _fun0005_ip = 49; continue _fun0005 }
+ 25:
                     var5 = _closure2_slot0;
                     var4 = null;
-                    if(!(var4 != var5)) { _fun0005_ip = 50; continue _fun0005 }
- 39:
+                    if(!(var4 != var5)) { _fun0005_ip = 49; continue _fun0005 }
+ 38:
                     var4 = _closure2_slot0;
                     var2 = true;
                     var2 = var4.bind(var1)(var2);
- 50:
+ 49:
                     var5 = _closure2_slot1;
                     var4 = null;
-                    if(!(var4 != var5)) { _fun0005_ip = 72; continue _fun0005 }
- 63:
+                    if(!(var4 != var5)) { _fun0005_ip = 71; continue _fun0005 }
+ 62:
                     var2 = _closure2_slot1;
                     var2 = var2.bind(var1)(var3);
- 72:
+ 71:
                     return var1;
                 }
             };
