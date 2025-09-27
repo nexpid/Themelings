@@ -173,10 +173,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['contentInventoryContainer'] = var2;
             var2 = {'flexDirection': 'row', 'alignItems': 'center', 'justifyContent': 'space-between'};
             var4 = 0;
-            if(var5) { _fun0001_ip = 470; continue _fun0001 }
- 464:
+            if(var5) { _fun0001_ip = 468; continue _fun0001 }
+ 462:
             var4 = var3.inset;
- 470:
+ 468:
             var2['marginLeft'] = var4;
             var3 = var3.margin;
             var2['marginTop'] = var3;

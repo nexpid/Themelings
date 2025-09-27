@@ -360,6 +360,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['QUEST_HOME_PAGE'] = var1;
     var1 = 'quest embed';
     var2['QUEST_EMBED'] = var1;
+    var1 = 'quest reward modal';
+    var2['QUEST_REWARD_MODAL'] = var1;
     var1 = 'premium marketing surface';
     var2['PREMIUM_MARKETING_SURFACE'] = var1;
     var1 = 'premium marketing hero cta';
@@ -910,6 +912,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['USER_PROFILE_ACTIVITY_BUTTONS'] = var1;
     var1 = 'user profile cloud play section';
     var2['USER_PROFILE_ACTIVITY_CLOUD_PLAY_SECTION'] = var1;
+    var1 = 'user profile wishlist';
+    var2['USER_PROFILE_WISHLIST'] = var1;
     var1 = 'blocked profile modal';
     var2['BLOCKED_PROFILE_MODAL'] = var1;
     var1 = 'ignored profile modal';

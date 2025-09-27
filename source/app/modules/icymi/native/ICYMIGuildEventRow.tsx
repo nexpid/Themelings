@@ -362,33 +362,39 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var9 = {};
                     var12 = var13.locationContainer;
                     var9['style'] = var12;
-                    var22 = _closure1_slot11;
-                    var15 = _closure1_slot0;
-                    var14 = _closure1_slot2;
+                    var15 = _closure1_slot11;
+                    var23 = _closure1_slot0;
+                    var26 = _closure1_slot2;
                     var12 = 20;
-                    var12 = var14[var12];
-                    var12 = var15.bind(var1)(var12);
-                    var16 = var12.GroupIcon;
+                    var12 = var26[var12];
+                    var12 = var23.bind(var1)(var12);
+                    var14 = var12.GroupIcon;
                     var12 = {};
                     var21 = 'xs';
                     var12['size'] = var21;
-                    var23 = var13.eventsChannelIcon;
-                    var12['style'] = var23;
-                    var16 = var22.bind(var1)(var16, var12);
+                    var16 = var13.eventsChannelIcon;
+                    var12['style'] = var16;
+                    var14 = var15.bind(var1)(var14, var12);
                     var12 = new Array(2);
-                    var12[0] = var16;
+                    var12[0] = var14;
                     var16 = _closure1_slot11;
-                    var14 = var14[var20];
-                    var14 = var15.bind(var1)(var14);
+                    var14 = var26[var20];
+                    var14 = var23.bind(var1)(var14);
                     var15 = var14.Text;
                     var14 = {'lineClamp': 1, 'variant': 'text-xs/normal', 'color': 'text-muted'};
-                    var25 = _closure2_slot12;
-                    var22 = global;
-                    var22 = var22.HermesInternal;
-                    var24 = var22.concat;
-                    var23 = '';
-                    var22 = ' people are interested';
-                    var22 = var24.bind(var23)(var25, var22);
+                    var22 = 10;
+                    var24 = var26[var22];
+                    var24 = var23.bind(var1)(var24);
+                    var25 = var24.intl;
+                    var24 = var25.format;
+                    var22 = var26[var22];
+                    var22 = var23.bind(var1)(var22);
+                    var22 = var22.t;
+                    var23 = var22.+DLsDw;
+                    var22 = {};
+                    var26 = _closure2_slot12;
+                    var22['count'] = var26;
+                    var22 = var24.bind(var25)(var23, var22);
                     var14['children'] = var22;
                     var14 = var16.bind(var1)(var15, var14);
                     var12[1] = var14;
@@ -402,12 +408,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var13 = var13.locationContainer;
                     var10['style'] = var13;
                     var13 = _closure2_slot8;
-                    if(!(var17 == var13)) { _fun0003_ip = 721; continue _fun0003 }
- 622:
+                    if(!(var17 == var13)) { _fun0003_ip = 747; continue _fun0003 }
+ 648:
                     var13 = _closure2_slot7;
                     var14 = var17 != var13;
-                    if(!var14) { _fun0003_ip = 719; continue _fun0003 }
- 633:
+                    if(!var14) { _fun0003_ip = 745; continue _fun0003 }
+ 659:
                     var16 = _closure1_slot11;
                     var23 = _closure1_slot1;
                     var24 = _closure1_slot2;
@@ -428,9 +434,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var22 = true;
                     var13['disableColor'] = var22;
                     var14 = var16.bind(var1)(var15, var13);
- 719:
-                    _fun0003_ip = 755; continue _fun0003;
- 721:
+ 745:
+                    _fun0003_ip = 781; continue _fun0003;
+ 747:
                     var16 = _closure1_slot11;
                     var15 = _closure2_slot8;
                     var13 = {};
@@ -439,7 +445,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var21 = var21.eventsChannelIcon;
                     var13['style'] = var21;
                     var14 = var16.bind(var1)(var15, var13);
- 755:
+ 781:
                     var13 = new Array(2);
                     var13[0] = var14;
                     var16 = _closure1_slot11;
@@ -452,8 +458,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var20 = _closure2_slot6;
                     var20 = var17 != var20;
                     var17 = null;
-                    if(!var20) { _fun0003_ip = 854; continue _fun0003 }
- 816:
+                    if(!var20) { _fun0003_ip = 880; continue _fun0003 }
+ 842:
                     var20 = _closure1_slot0;
                     var21 = _closure1_slot2;
                     var19 = 19;
@@ -463,7 +469,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var19 = _closure2_slot6;
                     var18 = true;
                     var17 = var20.bind(var21)(var19, var18);
- 854:
+ 880:
                     var14['children'] = var17;
                     var14 = var16.bind(var1)(var15, var14);
                     var13[1] = var14;

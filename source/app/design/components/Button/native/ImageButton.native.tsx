@@ -93,10 +93,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['alignSelf'] = var7;
             var8 = arg3;
             var7 = 0;
-            if(!var8) { _fun0001_ip = 201; continue _fun0001 }
- 198:
+            if(!var8) { _fun0001_ip = 200; continue _fun0001 }
+ 197:
             var7 = 1;
- 201:
+ 200:
             var2['flexGrow'] = var7;
             var1['labelPressable'] = var2;
             var2 = {};

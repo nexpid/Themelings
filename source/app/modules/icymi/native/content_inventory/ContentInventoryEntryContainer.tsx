@@ -99,10 +99,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var8.bind(var5)(var7);
             var7 = var8.isAndroid;
             var7 = var7.bind(var8)();
-            if(!var7) { _fun0001_ip = 227; continue _fun0001 }
- 221:
+            if(!var7) { _fun0001_ip = 226; continue _fun0001 }
+ 220:
             var4 = -1;
- 227:
+ 226:
             var2['marginBottom'] = var4;
             var1['title'] = var2;
             var2 = {'flexDirection': 'row', 'alignItems': 'center'};

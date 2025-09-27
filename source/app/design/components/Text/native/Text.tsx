@@ -88,11 +88,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5[500] = var11;
     var11 = var10.PRIMARY_SEMIBOLD;
     var5[600] = var11;
-    var10 = var10.PRIMARY_BOLD;
-    var5[700] = var10;
+    var11 = var10.PRIMARY_BOLD;
+    var5[700] = var11;
     var _closure1_slot8 = var5;
     var5 = {};
-    var10 = 'ABCGintoNord-ExtraBold';
+    var10 = var10.GINTO_NORD_EXTRA_BOLD;
     var5[800] = var10;
     var _closure1_slot9 = var5;
     var5 = var9.create;

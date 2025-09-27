@@ -851,83 +851,89 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var4.roleConnectionsVerificationUrl;
  669:
                 var1['roleConnectionsVerificationUrl'] = var6;
-                var6 = var2.integrationTypesConfig;
+                var6 = var2.connectionEntrypointUrl;
                 if(!(var5 == var6)) { _fun0012_ip = 690; continue _fun0012 }
  684:
-                var6 = var4.integrationTypesConfig;
+                var6 = var4.connectionEntrypointUrl;
  690:
-                var1['integrationTypesConfig'] = var6;
-                var6 = var2.isMonetized;
+                var1['connectionEntrypointUrl'] = var6;
+                var6 = var2.integrationTypesConfig;
                 if(!(var5 == var6)) { _fun0012_ip = 711; continue _fun0012 }
  705:
-                var6 = var4.isMonetized;
+                var6 = var4.integrationTypesConfig;
  711:
-                var1['isMonetized'] = var6;
-                var6 = var2.storefront_available;
+                var1['integrationTypesConfig'] = var6;
+                var6 = var2.isMonetized;
                 if(!(var5 == var6)) { _fun0012_ip = 732; continue _fun0012 }
  726:
-                var6 = var4.storefront_available;
+                var6 = var4.isMonetized;
  732:
-                var1['storefront_available'] = var6;
-                var6 = var2.termsOfServiceUrl;
+                var1['isMonetized'] = var6;
+                var6 = var2.storefront_available;
                 if(!(var5 == var6)) { _fun0012_ip = 753; continue _fun0012 }
  747:
-                var6 = var4.termsOfServiceUrl;
+                var6 = var4.storefront_available;
  753:
-                var1['termsOfServiceUrl'] = var6;
-                var6 = var2.privacyPolicyUrl;
+                var1['storefront_available'] = var6;
+                var6 = var2.termsOfServiceUrl;
                 if(!(var5 == var6)) { _fun0012_ip = 774; continue _fun0012 }
  768:
-                var6 = var4.privacyPolicyUrl;
+                var6 = var4.termsOfServiceUrl;
  774:
-                var1['privacyPolicyUrl'] = var6;
-                var6 = var2.isVerified;
+                var1['termsOfServiceUrl'] = var6;
+                var6 = var2.privacyPolicyUrl;
                 if(!(var5 == var6)) { _fun0012_ip = 795; continue _fun0012 }
  789:
-                var6 = var4.isVerified;
+                var6 = var4.privacyPolicyUrl;
  795:
-                var1['isVerified'] = var6;
-                var6 = var2.customInstallUrl;
+                var1['privacyPolicyUrl'] = var6;
+                var6 = var2.isVerified;
                 if(!(var5 == var6)) { _fun0012_ip = 816; continue _fun0012 }
  810:
-                var6 = var4.customInstallUrl;
+                var6 = var4.isVerified;
  816:
-                var1['customInstallUrl'] = var6;
-                var6 = var2.installParams;
+                var1['isVerified'] = var6;
+                var6 = var2.customInstallUrl;
                 if(!(var5 == var6)) { _fun0012_ip = 837; continue _fun0012 }
  831:
-                var6 = var4.installParams;
+                var6 = var4.customInstallUrl;
  837:
-                var1['installParams'] = var6;
-                var6 = var2.isDiscoverable;
+                var1['customInstallUrl'] = var6;
+                var6 = var2.installParams;
                 if(!(var5 == var6)) { _fun0012_ip = 858; continue _fun0012 }
  852:
-                var6 = var4.isDiscoverable;
+                var6 = var4.installParams;
  858:
-                var1['isDiscoverable'] = var6;
-                var6 = var2.directoryEntry;
+                var1['installParams'] = var6;
+                var6 = var2.isDiscoverable;
                 if(!(var5 == var6)) { _fun0012_ip = 879; continue _fun0012 }
  873:
-                var6 = var4.directoryEntry;
+                var6 = var4.isDiscoverable;
  879:
-                var1['directoryEntry'] = var6;
-                var6 = var2.categories;
+                var1['isDiscoverable'] = var6;
+                var6 = var2.directoryEntry;
                 if(!(var5 == var6)) { _fun0012_ip = 900; continue _fun0012 }
  894:
-                var6 = var4.categories;
+                var6 = var4.directoryEntry;
  900:
-                var1['categories'] = var6;
-                var6 = var2.linkedGames;
+                var1['directoryEntry'] = var6;
+                var6 = var2.categories;
                 if(!(var5 == var6)) { _fun0012_ip = 921; continue _fun0012 }
  915:
-                var6 = var4.linkedGames;
+                var6 = var4.categories;
  921:
+                var1['categories'] = var6;
+                var6 = var2.linkedGames;
+                if(!(var5 == var6)) { _fun0012_ip = 942; continue _fun0012 }
+ 936:
+                var6 = var4.linkedGames;
+ 942:
                 var1['linkedGames'] = var6;
                 var2 = var2.deepLinkUri;
-                if(!(var5 == var2)) { _fun0012_ip = 942; continue _fun0012 }
- 936:
+                if(!(var5 == var2)) { _fun0012_ip = 963; continue _fun0012 }
+ 957:
                 var2 = var4.deepLinkUri;
- 942:
+ 963:
                 var1['deepLinkUri'] = var2;
                 var2 = var3.prototype;
                 var2 = Object.create(var2, {constructor: {value: var3}});

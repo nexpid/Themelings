@@ -928,20 +928,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
             var2 = arg1;
-            var20 = var2.defibrillator;
-            var11 = var2.quest;
-            var _closure2_slot0 = var11;
-            var13 = var2.handleTaskSelect;
-            var9 = var2.location;
-            var15 = var2.showMicrophone;
+            var16 = var2.defibrillator;
+            var15 = var2.quest;
+            var _closure2_slot0 = var15;
+            var10 = var2.handleTaskSelect;
+            var8 = var2.location;
+            var11 = var2.showMicrophone;
             var4 = undefined;
-            if(!(var15 === var4)) { _fun0008_ip = 46; continue _fun0008 }
+            if(!(var11 === var4)) { _fun0008_ip = 46; continue _fun0008 }
  44:
-            var15 = false;
+            var11 = false;
  46:
-            var10 = var2.sourceQuestContent;
-            var _closure2_slot1 = var10;
-            var8 = var2.step;
+            var17 = var2.sourceQuestContent;
+            var _closure2_slot1 = var17;
+            var7 = var2.step;
             var _closure2_slot2 = var4;
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
@@ -949,17 +949,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var5[var2];
             var6 = var3.bind(var4)(var2);
             var5 = var6.useShouldAllowMobileVideoTask;
-            var3 = var11.config;
+            var3 = var15.config;
             var2 = {};
-            var2['location'] = var9;
-            var16 = var5.bind(var6)(var3, var2);
-            _closure2_slot2 = var16;
+            var2['location'] = var8;
+            var13 = var5.bind(var6)(var3, var2);
+            _closure2_slot2 = var13;
             var5 = _closure1_slot4;
             var3 = var5.useMemo;
             var2 = new Array(3);
-            var2[0] = var11;
-            var2[1] = var16;
-            var2[2] = var10;
+            var2[0] = var15;
+            var2[1] = var13;
+            var2[2] = var17;
             var1 = function() {
                 _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
@@ -1020,133 +1020,86 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 }
             };
-            var17 = var3.bind(var5)(var1, var2);
+            var14 = var3.bind(var5)(var1, var2);
             var3 = _closure1_slot11;
             var2 = _closure1_slot12;
             var1 = {};
             var5 = _closure1_slot13;
             var5 = var5.TASK_SELECT;
-            var6 = var8 === var5;
+            var6 = var7 === var5;
             if(!var6) { _fun0008_ip = 218; continue _fun0008 }
  181:
-            var12 = _closure1_slot10;
-            var9 = _closure1_slot1;
-            var14 = _closure1_slot2;
+            var9 = _closure1_slot10;
+            var8 = _closure1_slot1;
+            var18 = _closure1_slot2;
             var5 = 25;
-            var5 = var14[var5];
-            var9 = var9.bind(var4)(var5);
+            var5 = var18[var5];
+            var8 = var8.bind(var4)(var5);
             var5 = {};
-            var5['onTaskSelect'] = var13;
-            var6 = var12.bind(var4)(var9, var5);
+            var5['onTaskSelect'] = var10;
+            var6 = var9.bind(var4)(var8, var5);
  218:
-            var5 = new Array(4);
+            var5 = new Array(3);
             var5[0] = var6;
             var6 = _closure1_slot13;
             var6 = var6.CONSOLE_CONNECT;
-            var6 = var8 === var6;
+            var6 = var7 === var6;
             if(!var6) { _fun0008_ip = 290; continue _fun0008 }
  243:
-            var13 = _closure1_slot10;
-            var12 = _closure1_slot1;
-            var14 = _closure1_slot2;
-            var9 = 26;
-            var9 = var14[var9];
-            var12 = var12.bind(var4)(var9);
-            var9 = {};
-            var9['quest'] = var11;
-            var9['step'] = var8;
-            var9['sourceQuestContent'] = var10;
-            var6 = var13.bind(var4)(var12, var9);
+            var10 = _closure1_slot10;
+            var9 = _closure1_slot1;
+            var18 = _closure1_slot2;
+            var8 = 26;
+            var8 = var18[var8];
+            var9 = var9.bind(var4)(var8);
+            var8 = {};
+            var8['quest'] = var15;
+            var8['step'] = var7;
+            var8['sourceQuestContent'] = var17;
+            var6 = var10.bind(var4)(var9, var8);
  290:
             var5[1] = var6;
             var6 = _closure1_slot13;
             var6 = var6.TASK_STATUS;
-            var6 = var8 === var6;
+            var6 = var7 === var6;
             if(!var6) { _fun0008_ip = 395; continue _fun0008 }
  311:
-            var13 = _closure1_slot11;
-            var12 = _closure1_slot6;
-            var9 = {};
-            var14 = new Array(2);
-            var14[0] = var17;
-            if(!var15) { _fun0008_ip = 335; continue _fun0008 }
+            var9 = _closure1_slot11;
+            var8 = _closure1_slot6;
+            var7 = {};
+            var10 = new Array(2);
+            var10[0] = var14;
+            if(!var11) { _fun0008_ip = 335; continue _fun0008 }
  332:
-            var15 = !var16;
+            var11 = !var13;
  335:
-            if(!var15) { _fun0008_ip = 381; continue _fun0008 }
+            if(!var11) { _fun0008_ip = 381; continue _fun0008 }
  338:
-            var18 = _closure1_slot10;
-            var17 = _closure1_slot20;
-            var16 = {};
-            var16['quest'] = var11;
-            var19 = null;
-            var21 = var19 == var20;
-            var19 = undefined;
-            if(var21) { _fun0008_ip = 370; continue _fun0008 }
+            var14 = _closure1_slot10;
+            var13 = _closure1_slot19;
+            var12 = {};
+            var12['quest'] = var15;
+            var15 = null;
+            var17 = var15 == var16;
+            var15 = undefined;
+            if(var17) { _fun0008_ip = 370; continue _fun0008 }
  364:
-            var19 = var20.errorHints;
+            var15 = var16.errorHints;
  370:
-            var16['errorHints'] = var19;
-            var15 = var18.bind(var4)(var17, var16);
+            var12['errorHints'] = var15;
+            var11 = var14.bind(var4)(var13, var12);
  381:
-            var14[1] = var15;
-            var9['children'] = var14;
-            var6 = var13.bind(var4)(var12, var9);
+            var10[1] = var11;
+            var7['children'] = var10;
+            var6 = var9.bind(var4)(var8, var7);
  395:
             var5[2] = var6;
-            var6 = _closure1_slot13;
-            var6 = var6.TASK_STATUS;
-            var6 = var8 === var6;
-            if(!var6) { _fun0008_ip = 422; continue _fun0008 }
- 416:
-            var6 = var11.preview;
- 422:
-            if(!var6) { _fun0008_ip = 451; continue _fun0008 }
- 425:
-            var9 = _closure1_slot10;
-            var8 = _closure1_slot19;
-            var7 = {};
-            var7['quest'] = var11;
-            var7['sourceQuestContent'] = var10;
-            var6 = var9.bind(var4)(var8, var7);
- 451:
-            var5[3] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }
     };
     var _closure1_slot18 = var4;
-    var1 = function PreviewControls(arg1) {
-        var1 = arg1;
-        var10 = var1.quest;
-        var8 = var1.sourceQuestContent;
-        var1 = _closure1_slot14;
-        var4 = undefined;
-        var5 = var1.bind(var4)();
-        var3 = _closure1_slot10;
-        var2 = _closure1_slot6;
-        var1 = {};
-        var5 = var5.previewContainer;
-        var1['style'] = var5;
-        var7 = _closure1_slot10;
-        var6 = _closure1_slot1;
-        var11 = _closure1_slot2;
-        var5 = 27;
-        var5 = var11[var5];
-        var6 = var6.bind(var4)(var5);
-        var5 = {};
-        var5['quest'] = var10;
-        var9 = _closure1_slot8;
-        var9 = var9.QUEST_HOME_MOBILE;
-        var5['location'] = var9;
-        var5['sourceQuestContent'] = var8;
-        var5 = var7.bind(var4)(var6, var5);
-        var1['children'] = var5;
-        var1 = var3.bind(var4)(var2, var1);
-        return var1;
-    };
-    var _closure1_slot19 = var1;
     var1 = function MicrophoneUnit(arg1) {
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
  0:
@@ -1251,7 +1204,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = _closure1_slot10;
             var11 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var10 = 28;
+            var10 = 27;
             var10 = var13[var10];
             var10 = var11.bind(var4)(var10);
             var11 = var10.WarningIcon;
@@ -1268,7 +1221,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = _closure1_slot10;
             var12 = _closure1_slot0;
             var16 = _closure1_slot2;
-            var11 = 29;
+            var11 = 28;
             var11 = var16[var11];
             var11 = var12.bind(var4)(var11);
             var12 = var11.Text;
@@ -1313,7 +1266,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = _closure1_slot10;
                 var2 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var1 = 29;
+                var1 = 28;
                 var1 = var3[var1];
                 var4 = undefined;
                 var1 = var2.bind(var4)(var1);
@@ -1334,7 +1287,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot20 = var1;
+    var _closure1_slot19 = var1;
     var1 = global;
     var8 = var1.Object;
     var6 = var8.defineProperty;
@@ -1475,7 +1428,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['isInQuestBottomSheet'] = var12;
     var2 = var8.bind(var11)(var2);
     var _closure1_slot15 = var2;
-    var8 = 30;
+    var8 = 29;
     var8 = var10[var8];
     var10 = var9.bind(var1)(var8);
     var9 = var10.fileFinishedImporting;

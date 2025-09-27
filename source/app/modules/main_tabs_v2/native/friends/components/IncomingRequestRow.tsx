@@ -150,19 +150,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var1.actionName;
                 var2 = _closure1_slot9;
                 var2 = var2.ACCEPT;
-                if(!(var2 !== var3)) { _fun0002_ip = 199; continue _fun0002 }
- 34:
+                if(!(var2 !== var3)) { _fun0002_ip = 200; continue _fun0002 }
+ 35:
                 var2 = _closure1_slot9;
                 var2 = var2.DECLINE;
-                if(!(var2 !== var3)) { _fun0002_ip = 123; continue _fun0002 }
- 48:
+                if(!(var2 !== var3)) { _fun0002_ip = 124; continue _fun0002 }
+ 49:
                 var2 = _closure1_slot9;
                 var2 = var2.WAVE;
-                if(!(var2 !== var3)) { _fun0002_ip = 66; continue _fun0002 }
- 62:
+                if(!(var2 !== var3)) { _fun0002_ip = 67; continue _fun0002 }
+ 63:
                 var2 = undefined;
                 return var2;
- 66:
+ 67:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
                 var2 = 10;
@@ -176,7 +176,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = 'Incoming Friend Request';
                 var2 = var5.bind(var6)(var4, var3, var2);
                 return var2;
- 123:
+ 124:
                 var3 = _closure2_slot4;
                 var6 = _closure2_slot0;
                 var2 = var6.id;
@@ -195,7 +195,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2['applicationId'] = var5;
                 var2 = var3.bind(var4)(var2);
                 return var2;
- 199:
+ 200:
                 var5 = _closure2_slot7;
                 var4 = var5.set;
                 var2 = true;

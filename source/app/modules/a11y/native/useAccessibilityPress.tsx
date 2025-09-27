@@ -55,12 +55,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var1.nativeEvent;
                     var2 = var1.actionName;
                     var1 = 'activate';
-                    if(!(var1 === var2)) { _fun0001_ip = 38; continue _fun0001 }
- 22:
+                    if(!(var1 === var2)) { _fun0001_ip = 39; continue _fun0001 }
+ 23:
                     var2 = _closure2_slot2;
                     var1 = var2.current;
                     var1 = var1.bind(var2)();
- 38:
+ 39:
                     var1 = undefined;
                     return var1;
                 }

@@ -86,11 +86,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var10.bind(var4)(var3);
             var3 = var10.isArray;
             var3 = var3.bind(var10)(var1);
-            if(!var3) { _fun0001_ip = 178; continue _fun0001 }
- 169:
+            if(!var3) { _fun0001_ip = 177; continue _fun0001 }
+ 168:
             var1 = var1.length;
-            if(!(var1 === var2)) { _fun0001_ip = 243; continue _fun0001 }
- 178:
+            if(!(var1 === var2)) { _fun0001_ip = 242; continue _fun0001 }
+ 177:
             var3 = _closure1_slot5;
             var2 = _closure1_slot4;
             var1 = {};
@@ -365,7 +365,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
- 243:
+ 242:
             var1 = global;
             var3 = var1.Error;
             var1 = var3.prototype;

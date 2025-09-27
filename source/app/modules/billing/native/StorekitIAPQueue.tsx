@@ -9,66 +9,72 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = function mapToIAPProduct(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            var3 = arg1;
-            var1 = var3.countryCode;
-            var5 = null;
-            var1 = var5 != var1;
-            if(!var1) { _fun0001_ip = 35; continue _fun0001 }
- 18:
-            var2 = var3.countryCode;
-            var4 = var2.length;
-            var2 = 0;
-            var1 = var2 !== var4;
- 35:
+            var1 = arg1;
+            var3 = var1;
             var4 = '';
-            if(!var1) { _fun0001_ip = 62; continue _fun0001 }
- 42:
+            var1 = var1.countryCode;
+            var5 = null;
+            if(!(var5 != var1)) { _fun0001_ip = 69; continue _fun0001 }
+ 22:
+            var1 = var3;
+            var1 = var1.countryCode;
+            var2 = var1.length;
+            var1 = 0;
+            if(!(var1 !== var2)) { _fun0001_ip = 69; continue _fun0001 }
+ 42: // try_start_0
             var6 = _closure1_slot5;
-            var2 = var3.countryCode;
+            var1 = var3;
+            var2 = var1.countryCode;
             var1 = undefined;
             var4 = var6.bind(var1)(var2);
- 62:
+ 65: // try_end0
+            _fun0001_ip = 69; continue _fun0001;
+ 67: // catch_target0
+            CatchBlockStart(arg_register=0);
+ 69:
             var1 = {};
-            var2 = var3.productId;
+            var6 = var3;
+            var2 = var6.productId;
             var1['identifier'] = var2;
             var2 = global;
-            var7 = var2.parseFloat;
-            var6 = var3.price;
+            var8 = var2.parseFloat;
+            var7 = var6.price;
             var2 = undefined;
-            var6 = var7.bind(var2)(var6);
-            var1['price'] = var6;
-            var8 = var3.localizedPrice;
+            var7 = var8.bind(var2)(var7);
+            var1['price'] = var7;
+            var8 = var6.localizedPrice;
             var6 = var5 == var8;
             var5 = undefined;
-            if(var6) { _fun0001_ip = 146; continue _fun0001 }
- 116:
+            if(var6) { _fun0001_ip = 156; continue _fun0001 }
+ 126:
             var7 = var8.split;
             var6 = /[0-9]/;
             var7 = var7.bind(var8)(var6);
             var6 = 0;
             var5 = var7[var6];
- 146:
+ 156:
             var1['currencySymbol'] = var5;
-            var6 = var3.currency;
-            var5 = var6.toLowerCase;
-            var5 = var5.bind(var6)();
-            var1['currencyCode'] = var5;
-            var5 = var3.price;
-            var1['priceString'] = var5;
+            var5 = var3;
+            var7 = var5.currency;
+            var6 = var7.toLowerCase;
+            var6 = var6.bind(var7)();
+            var1['currencyCode'] = var6;
+            var6 = var5.price;
+            var1['priceString'] = var6;
             var1['countryCode'] = var4;
             var4 = false;
             var1['downloadable'] = var4;
-            var4 = var3.description;
+            var4 = var5.description;
             var1['description'] = var4;
-            var4 = var3.title;
+            var4 = var5.title;
             var1['title'] = var4;
             var4 = 'discounts';
-            var4 = var4 in var3;
+            var4 = var4 in var5;
             var2 = undefined;
-            if(!var4) { _fun0001_ip = 236; continue _fun0001 }
- 230:
+            if(!var4) { _fun0001_ip = 249; continue _fun0001 }
+ 243:
             var2 = var3.discounts;
- 236:
+ 249:
             var1['discounts'] = var2;
             return var1;
         }

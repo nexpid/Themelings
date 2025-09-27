@@ -1,4 +1,4 @@
-// app/modules/guild_settings/native/GuildSettingsModalSecurity.tsx
+// app/modules/guild_settings/safety/native/GuildSettingsModalSecurity.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var11 = metroImportDefault;
@@ -92,7 +92,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/guild_settings/native/GuildSettingsModalSecurity.tsx';
+    var4 = 'modules/guild_settings/safety/native/GuildSettingsModalSecurity.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function GuildSettingsModalSecurity(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {

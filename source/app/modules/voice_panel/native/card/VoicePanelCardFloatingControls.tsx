@@ -667,66 +667,67 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = function() {
                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
-                    var3 = _closure2_slot1;
+                    var4 = _closure2_slot1;
                     var6 = _closure1_slot0;
-                    var4 = _closure1_slot2;
+                    var5 = _closure1_slot2;
                     var1 = 21;
-                    var4 = var4[var1];
+                    var5 = var5[var1];
                     var1 = undefined;
-                    var8 = var6.bind(var1)(var4);
+                    var8 = var6.bind(var1)(var5);
                     var6 = var8.getHangStatusText;
-                    var4 = _closure2_slot0;
-                    if(var3) { _fun0007_ip = 57; continue _fun0007 }
+                    var5 = _closure2_slot0;
+                    if(var4) { _fun0007_ip = 57; continue _fun0007 }
  45:
-                    var3 = _closure2_slot4;
-                    var7 = var6.bind(var8)(var4, var3);
+                    var4 = _closure2_slot4;
+                    var7 = var6.bind(var8)(var5, var4);
                     _fun0007_ip = 67; continue _fun0007;
  57:
-                    var3 = _closure2_slot5;
-                    var7 = var6.bind(var8)(var4, var3);
+                    var4 = _closure2_slot5;
+                    var7 = var6.bind(var8)(var5, var4);
  67:
-                    var3 = null;
-                    if(!(var3 == var7)) { _fun0007_ip = 128; continue _fun0007 }
+                    var4 = null;
+                    if(!(var4 == var7)) { _fun0007_ip = 128; continue _fun0007 }
  73:
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var3 = 22;
-                    var4 = var9[var3];
+                    var4 = 22;
+                    var5 = var9[var4];
+                    var5 = var8.bind(var1)(var5);
+                    var6 = var5.intl;
+                    var5 = var6.string;
+                    var4 = var9[var4];
                     var4 = var8.bind(var1)(var4);
-                    var6 = var4.intl;
-                    var4 = var6.string;
-                    var3 = var9[var3];
-                    var3 = var8.bind(var1)(var3);
-                    var3 = var3.t;
-                    var3 = var3.d8R2VF;
-                    var7 = var4.bind(var6)(var3);
+                    var4 = var4.t;
+                    var4 = var4.d8R2VF;
+                    var7 = var5.bind(var6)(var4);
  128:
-                    var3 = _closure2_slot1;
-                    if(var3) { _fun0007_ip = 178; continue _fun0007 }
+                    var4 = _closure2_slot1;
+                    if(var4) { _fun0007_ip = 178; continue _fun0007 }
  135:
-                    var4 = _closure1_slot1;
+                    var5 = _closure1_slot1;
                     var6 = _closure1_slot2;
-                    var3 = 24;
-                    var3 = var6[var3];
-                    var6 = var4.bind(var1)(var3);
-                    var4 = var6.open;
-                    var3 = {};
-                    var3['key'] = var7;
-                    var3['content'] = var7;
-                    var3 = var4.bind(var6)(var3);
-                    _fun0007_ip = 219; continue _fun0007;
+                    var4 = 24;
+                    var4 = var6[var4];
+                    var6 = var5.bind(var1)(var4);
+                    var5 = var6.open;
+                    var4 = {};
+                    var4['key'] = var7;
+                    var4['content'] = var7;
+                    var4 = var5.bind(var6)(var4);
+                    _fun0007_ip = 222; continue _fun0007;
  178:
-                    var3 = _closure1_slot0;
-                    var4 = _closure1_slot2;
-                    var2 = 23;
-                    var2 = var4[var2];
-                    var4 = var3.bind(var1)(var2);
-                    var3 = var4.showHangStatusPickerActionSheet;
-                    var2 = {};
-                    var5 = _closure2_slot3;
-                    var2['channelId'] = var5;
-                    var2 = var3.bind(var4)(var2);
- 219:
+                    var4 = _closure1_slot0;
+                    var5 = _closure1_slot2;
+                    var3 = 23;
+                    var3 = var5[var3];
+                    var5 = var4.bind(var1)(var3);
+                    var4 = var5.showHangStatusPickerActionSheet;
+                    var3 = {};
+                    var2 = _closure2_slot3;
+                    var3['channelId'] = var2;
+                    var2 = true;
+                    var2 = var4.bind(var5)(var3, var2);
+ 222:
                     return var1;
                 }
             };

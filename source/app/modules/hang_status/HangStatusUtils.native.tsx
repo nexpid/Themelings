@@ -132,99 +132,134 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var _closure1_slot5 = var4;
+    var4 = function getTwemojiSystemHangStatuses() {
+        var1 = {};
+        var2 = _closure1_slot3;
+        var6 = var2.BRB;
+        var3 = {};
+        var8 = _closure1_slot0;
+        var9 = _closure1_slot2;
+        var4 = 2;
+        var7 = var9[var4];
+        var5 = undefined;
+        var7 = var8.bind(var5)(var7);
+        var11 = var7.intl;
+        var10 = var11.string;
+        var7 = var9[var4];
+        var7 = var8.bind(var5)(var7);
+        var7 = var7.t;
+        var7 = var7.fFTJTE;
+        var7 = var10.bind(var11)(var7);
+        var3['title'] = var7;
+        var7 = {};
+        var7['id'] = var5;
+        var10 = '💨';
+        var7['name'] = var10;
+        var3['emoji'] = var7;
+        var1[var6] = var3;
+        var6 = var2.CHILLING;
+        var3 = {};
+        var7 = var9[var4];
+        var7 = var8.bind(var5)(var7);
+        var11 = var7.intl;
+        var10 = var11.string;
+        var7 = var9[var4];
+        var7 = var8.bind(var5)(var7);
+        var7 = var7.t;
+        var7 = var7.vybY9f;
+        var7 = var10.bind(var11)(var7);
+        var3['title'] = var7;
+        var7 = {};
+        var7['id'] = var5;
+        var10 = '🍨';
+        var7['name'] = var10;
+        var3['emoji'] = var7;
+        var1[var6] = var3;
+        var6 = var2.GAMING;
+        var3 = {};
+        var7 = var9[var4];
+        var7 = var8.bind(var5)(var7);
+        var11 = var7.intl;
+        var10 = var11.string;
+        var7 = var9[var4];
+        var7 = var8.bind(var5)(var7);
+        var7 = var7.t;
+        var7 = var7.wvWdTU;
+        var7 = var10.bind(var11)(var7);
+        var3['title'] = var7;
+        var7 = {};
+        var7['id'] = var5;
+        var10 = '⚔️';
+        var7['name'] = var10;
+        var3['emoji'] = var7;
+        var1[var6] = var3;
+        var6 = var2.WATCHING;
+        var3 = {};
+        var7 = var9[var4];
+        var7 = var8.bind(var5)(var7);
+        var11 = var7.intl;
+        var10 = var11.string;
+        var7 = var9[var4];
+        var7 = var8.bind(var5)(var7);
+        var7 = var7.t;
+        var7 = var7.s8xFaG;
+        var7 = var10.bind(var11)(var7);
+        var3['title'] = var7;
+        var7 = {};
+        var7['id'] = var5;
+        var10 = '🍿';
+        var7['name'] = var10;
+        var3['emoji'] = var7;
+        var1[var6] = var3;
+        var3 = var2.FOCUSING;
+        var2 = {};
+        var6 = var9[var4];
+        var6 = var8.bind(var5)(var6);
+        var7 = var6.intl;
+        var6 = var7.string;
+        var4 = var9[var4];
+        var4 = var8.bind(var5)(var4);
+        var4 = var4.t;
+        var4 = var4.D5eCT0;
+        var4 = var6.bind(var7)(var4);
+        var2['title'] = var4;
+        var4 = {};
+        var4['id'] = var5;
+        var5 = '🧠';
+        var4['name'] = var5;
+        var2['emoji'] = var4;
+        var1[var3] = var2;
+        return var1;
+    };
+    var _closure1_slot6 = var4;
     var5 = function getHangStatusOptions(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
             var2 = arg1;
             var1 = 'original';
-            if(!(var1 !== var2)) { _fun0001_ip = 896; continue _fun0001 }
+            if(!(var1 !== var2)) { _fun0001_ip = 617; continue _fun0001 }
  14:
             var1 = 'illocons';
-            if(!(var1 !== var2)) { _fun0001_ip = 469; continue _fun0001 }
+            if(!(var1 !== var2)) { _fun0001_ip = 190; continue _fun0001 }
  27:
             var1 = 'twemoji';
-            if(!(var1 === var2)) { _fun0001_ip = 896; continue _fun0001 }
+            if(!(var1 !== var2)) { _fun0001_ip = 175; continue _fun0001 }
  40:
+            var1 = 'twemojimild';
+            if(!(var1 === var2)) { _fun0001_ip = 617; continue _fun0001 }
+ 53:
             var1 = {};
+            var2 = _closure1_slot6;
+            var5 = undefined;
+            var13 = var2.bind(var5)();
+            var14 = var1;
+            var2 = copyDataProperties(var14, var13);
             var2 = _closure1_slot3;
-            var6 = var2.BRB;
-            var3 = {};
+            var3 = var2.CHILLING;
+            var2 = {};
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
             var4 = 2;
-            var7 = var9[var4];
-            var5 = undefined;
-            var7 = var8.bind(var5)(var7);
-            var11 = var7.intl;
-            var10 = var11.string;
-            var7 = var9[var4];
-            var7 = var8.bind(var5)(var7);
-            var7 = var7.t;
-            var7 = var7.fFTJTE;
-            var7 = var10.bind(var11)(var7);
-            var3['title'] = var7;
-            var7 = {};
-            var7['id'] = var5;
-            var10 = '💨';
-            var7['name'] = var10;
-            var3['emoji'] = var7;
-            var1[var6] = var3;
-            var6 = var2.CHILLING;
-            var3 = {};
-            var7 = var9[var4];
-            var7 = var8.bind(var5)(var7);
-            var11 = var7.intl;
-            var10 = var11.string;
-            var7 = var9[var4];
-            var7 = var8.bind(var5)(var7);
-            var7 = var7.t;
-            var7 = var7.vybY9f;
-            var7 = var10.bind(var11)(var7);
-            var3['title'] = var7;
-            var7 = {};
-            var7['id'] = var5;
-            var10 = '🍨';
-            var7['name'] = var10;
-            var3['emoji'] = var7;
-            var1[var6] = var3;
-            var6 = var2.GAMING;
-            var3 = {};
-            var7 = var9[var4];
-            var7 = var8.bind(var5)(var7);
-            var11 = var7.intl;
-            var10 = var11.string;
-            var7 = var9[var4];
-            var7 = var8.bind(var5)(var7);
-            var7 = var7.t;
-            var7 = var7.wvWdTU;
-            var7 = var10.bind(var11)(var7);
-            var3['title'] = var7;
-            var7 = {};
-            var7['id'] = var5;
-            var10 = '⚔️';
-            var7['name'] = var10;
-            var3['emoji'] = var7;
-            var1[var6] = var3;
-            var6 = var2.WATCHING;
-            var3 = {};
-            var7 = var9[var4];
-            var7 = var8.bind(var5)(var7);
-            var11 = var7.intl;
-            var10 = var11.string;
-            var7 = var9[var4];
-            var7 = var8.bind(var5)(var7);
-            var7 = var7.t;
-            var7 = var7.s8xFaG;
-            var7 = var10.bind(var11)(var7);
-            var3['title'] = var7;
-            var7 = {};
-            var7['id'] = var5;
-            var10 = '🍿';
-            var7['name'] = var10;
-            var3['emoji'] = var7;
-            var1[var6] = var3;
-            var3 = var2.FOCUSING;
-            var2 = {};
             var6 = var9[var4];
             var6 = var8.bind(var5)(var6);
             var7 = var6.intl;
@@ -232,17 +267,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var9[var4];
             var4 = var8.bind(var5)(var4);
             var4 = var4.t;
-            var4 = var4.D5eCT0;
+            var4 = var4.IeolFR;
             var4 = var6.bind(var7)(var4);
             var2['title'] = var4;
             var4 = {};
             var4['id'] = var5;
-            var5 = '🧠';
+            var5 = '💭';
             var4['name'] = var5;
             var2['emoji'] = var4;
             var1[var3] = var2;
             return var1;
- 469:
+ 175:
+            var2 = _closure1_slot6;
+            var1 = undefined;
+            var1 = var2.bind(var1)();
+            return var1;
+ 190:
             var1 = {};
             var2 = _closure1_slot3;
             var9 = var2.BRB;
@@ -336,14 +376,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['icon'] = var4;
             var1[var3] = var2;
             return var1;
- 896:
+ 617:
             var2 = _closure1_slot5;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot6 = var5;
+    var _closure1_slot7 = var5;
     var4 = function getHangStatusDetails(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
@@ -389,7 +429,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = null;
             if(!(var4 !== var7)) { _fun0002_ip = 158; continue _fun0002 }
  129:
-            var3 = _closure1_slot6;
+            var3 = _closure1_slot7;
             var9 = var8.length;
             var7 = 1;
             if(!(var9 > var7)) { _fun0002_ip = 149; continue _fun0002 }
@@ -406,7 +446,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot7 = var4;
+    var _closure1_slot8 = var4;
     var6 = 10;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
@@ -462,7 +502,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var8.CUSTOM;
             if(!(var9 !== var8)) { _fun0003_ip = 164; continue _fun0003 }
  137:
-            var2 = _closure1_slot7;
+            var2 = _closure1_slot8;
             var6 = var2.bind(var3)(var7, var4, var6);
             var7 = var5 == var6;
             var2 = undefined;

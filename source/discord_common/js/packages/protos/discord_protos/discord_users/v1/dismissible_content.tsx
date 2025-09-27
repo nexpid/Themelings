@@ -1738,6 +1738,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['APPLICATION_WIDGET_EMPTY_STATE_CARD_ADD_WIDGET'] = var2;
     var1 = 'APPLICATION_WIDGET_EMPTY_STATE_CARD_ADD_WIDGET';
     var4[var2] = var1;
+    var2 = 620;
+    var4['GAME_SERVER_HOSTING_NEW_BADGE'] = var2;
+    var1 = 'GAME_SERVER_HOSTING_NEW_BADGE';
+    var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;
     var1 = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

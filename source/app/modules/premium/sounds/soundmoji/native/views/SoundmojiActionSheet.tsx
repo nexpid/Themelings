@@ -63,10 +63,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var12 = var14.isIOS;
         var14 = var12.bind(var14)();
         var12 = undefined;
-        if(!var14) { _fun0001_ip = 271; continue _fun0001 }
- 268:
+        if(!var14) { _fun0001_ip = 270; continue _fun0001 }
+ 267:
         var12 = var13;
- 271:
+ 270:
         var9['fontSize'] = var12;
         var12 = var6[var10];
         var12 = var11.bind(var1)(var12);

@@ -54,7 +54,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var2[var8];
             var11 = var9.bind(var7)(var11);
             var11 = var11.t;
-            var11 = var11.+zx47e;
+            var11 = var11.zLch/f;
             var11 = var12.bind(var13)(var11);
             var3['buyButtonLabel'] = var11;
             var11 = _closure1_slot2;

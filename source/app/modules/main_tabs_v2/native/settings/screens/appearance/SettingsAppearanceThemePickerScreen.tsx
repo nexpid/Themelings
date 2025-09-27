@@ -116,13 +116,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var16 = var5.bind(var1)(var15);
         var15 = var16.isIOS;
         var15 = var15.bind(var16)();
-        if(var15) { _fun0001_ip = 414; continue _fun0001 }
- 395:
+        if(var15) { _fun0001_ip = 413; continue _fun0001 }
+ 394:
         var15 = var6[var10];
         var15 = var11.bind(var1)(var15);
         var15 = var15.spacing;
         var14 = var15.PX_16;
- 414:
+ 413:
         var12['marginBottom'] = var14;
         var4['container'] = var12;
         var12 = {'width': '100%', 'gap': null, 'alignItems': 'center'};

@@ -85,12 +85,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var13.PX_24;
     var9['gap'] = var13;
     var4['titleContainer'] = var9;
-    var9 = {'color': null, 'fontFamily': 'ABC Ginto Discord Nord', 'fontSize': 36, 'fontStyle': 'normal', 'fontWeight': '900', 'lineHeight': 36, 'textAlignVertical': 'center', 'textTransform': 'uppercase', 'textAlign': 'center'};
-    var13 = var6[var10];
-    var13 = var11.bind(var1)(var13);
-    var13 = var13.colors;
-    var13 = var13.WHITE;
-    var9['color'] = var13;
+    var9 = {'textAlignVertical': 'center', 'textTransform': 'uppercase', 'textAlign': 'center'};
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
     var13 = var13.spacing;
@@ -556,9 +551,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var13 = var20[var14];
         var13 = var19.bind(var4)(var13);
         var21 = var13.Text;
-        var13 = {};
-        var16 = 'heading-xl/bold';
-        var13['variant'] = var16;
+        var13 = {'variant': 'display-md', 'style': null, 'color': 'white'};
         var16 = var12.title;
         var13['style'] = var16;
         var16 = 15;

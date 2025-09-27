@@ -74,8 +74,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = arg1;
                     var1 = var1.nativeEvent;
                     var2 = null;
-                    if(!(var2 != var1)) { _fun0002_ip = 173; continue _fun0002 }
- 17:
+                    if(!(var2 != var1)) { _fun0002_ip = 174; continue _fun0002 }
+ 18:
                     var2 = var1.contentOffset;
                     var3 = var2.y;
                     var2 = var1.contentSize;
@@ -83,44 +83,44 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var1.layoutMeasurement;
                     var2 = var1.height;
                     var5 = _closure2_slot1;
-                    if(!(!(var3 < var5))) { _fun0002_ip = 173; continue _fun0002 }
- 61:
+                    if(!(!(var3 < var5))) { _fun0002_ip = 174; continue _fun0002 }
+ 62:
                     var2 = var3 + var2;
-                    if(!(!(var2 > var4))) { _fun0002_ip = 173; continue _fun0002 }
- 69:
+                    if(!(!(var2 > var4))) { _fun0002_ip = 174; continue _fun0002 }
+ 70:
                     var4 = _closure2_slot2;
                     var2 = var4.get;
                     var2 = var2.bind(var4)();
                     var7 = var3 - var2;
                     var4 = 10;
-                    if(!(!(var3 < var4))) { _fun0002_ip = 143; continue _fun0002 }
- 93:
+                    if(!(!(var3 < var4))) { _fun0002_ip = 144; continue _fun0002 }
+ 94:
                     var2 = global;
                     var5 = var2.Math;
                     var2 = var5.abs;
                     var2 = var2.bind(var5)(var7);
-                    if(!(var2 > var4)) { _fun0002_ip = 159; continue _fun0002 }
- 116:
+                    if(!(var2 > var4)) { _fun0002_ip = 160; continue _fun0002 }
+ 117:
                     var5 = _closure2_slot0;
                     var4 = var5.set;
                     var2 = 1;
                     var6 = 0;
-                    if(!(var7 < var6)) { _fun0002_ip = 136; continue _fun0002 }
- 134:
+                    if(!(var7 < var6)) { _fun0002_ip = 137; continue _fun0002 }
+ 135:
                     var2 = 0;
- 136:
+ 137:
                     var2 = var4.bind(var5)(var2);
-                    _fun0002_ip = 159; continue _fun0002;
- 143:
+                    _fun0002_ip = 160; continue _fun0002;
+ 144:
                     var5 = _closure2_slot0;
                     var4 = var5.set;
                     var2 = 0;
                     var2 = var4.bind(var5)(var2);
- 159:
+ 160:
                     var2 = _closure2_slot2;
                     var1 = var2.set;
                     var1 = var1.bind(var2)(var3);
- 173:
+ 174:
                     var1 = undefined;
                     return var1;
                 }

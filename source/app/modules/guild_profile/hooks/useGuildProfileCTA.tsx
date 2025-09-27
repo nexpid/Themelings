@@ -249,10 +249,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1['isBypassInvite'] = var3;
                 var2 = var2.roles;
                 var1['inviteRoles'] = var2;
-                _fun0002_ip = 241; continue _fun0002;
+                _fun0002_ip = 237; continue _fun0002;
  227:
                 var1 = {'validInviteKey': null, 'isBypassInvite': false, 'inviteRoles': null};
- 241:
+ 237:
                 return var1;
             }
         };

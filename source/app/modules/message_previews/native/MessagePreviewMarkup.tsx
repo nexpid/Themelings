@@ -216,7 +216,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  107:
             var4 = var4.maxFontSizeMultiplier;
             var8 = '';
-            if(!(var8 !== var12)) { _fun0002_ip = 344; continue _fun0002 }
+            if(!(var8 !== var12)) { _fun0002_ip = 340; continue _fun0002 }
  124:
             var8 = {'allowLinks': true, 'allowDevLinks': false, 'allowEmojiLinks': false, 'mentionChannels': null, 'soundboardSounds': null, 'isInteracting': false, 'formatInline': true, 'noStyleAndInteraction': true, 'allowHeading': true, 'allowList': true, 'allowGameMentions': null, 'disableAutoBlockNewlines': true, 'previewLinkTarget': false};
             var13 = true;
@@ -243,10 +243,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8['channelId'] = var1;
             var1 = null;
             var1 = var1 != var2;
-            if(!var1) { _fun0002_ip = 253; continue _fun0002 }
- 250:
+            if(!var1) { _fun0002_ip = 249; continue _fun0002 }
+ 246:
             var1 = var2;
- 253:
+ 249:
             var8['muted'] = var1;
             var2 = _closure1_slot5;
             var1 = {};
@@ -268,7 +268,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['maxFontSizeMultiplier'] = var4;
             var1 = var2.bind(var3)(var1);
             return var1;
- 344:
+ 340:
             var1 = null;
             return var1;
         }

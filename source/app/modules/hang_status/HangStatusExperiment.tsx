@@ -36,11 +36,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10['config'] = var11;
     var9[1] = var10;
     var10 = {'id': 3, 'label': 'Enable Hang Status with Twemoji - neutral default'};
-    var11 = {'enableHangStatus': true, 'setDefaultStatus': true, 'allowChannelTopic': true, 'allowPermanentClear': false, 'defaultStatusVariant': 'twemoji'};
+    var11 = {'enableHangStatus': true, 'setDefaultStatus': true, 'allowChannelTopic': true, 'allowPermanentClear': false, 'defaultStatusVariant': 'twemojimild'};
     var10['config'] = var11;
     var9[2] = var10;
     var10 = {'id': 4, 'label': 'Enable Hang Status with Twemoji - neutral default, allow clearing statuses'};
-    var11 = {'enableHangStatus': true, 'setDefaultStatus': true, 'allowChannelTopic': true, 'allowPermanentClear': true, 'defaultStatusVariant': 'twemoji'};
+    var11 = {'enableHangStatus': true, 'setDefaultStatus': true, 'allowChannelTopic': true, 'allowPermanentClear': true, 'defaultStatusVariant': 'twemojimild'};
     var10['config'] = var11;
     var9[3] = var10;
     var10 = {'id': 5, 'label': 'Enable Hang Status with Twemoji - no default, allow clearing statuses'};

@@ -781,21 +781,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var5 = undefined;
                         var2 = 'activate';
                         var1 = undefined;
-                        if(!(var2 === var3)) { _fun0008_ip = 65; continue _fun0008 }
- 26:
+                        if(!(var2 === var3)) { _fun0008_ip = 66; continue _fun0008 }
+ 27:
                         var4 = _closure3_slot1;
                         var2 = null;
                         var4 = var2 == var4;
                         var2 = undefined;
-                        if(var4) { _fun0008_ip = 62; continue _fun0008 }
- 44:
+                        if(var4) { _fun0008_ip = 63; continue _fun0008 }
+ 45:
                         var4 = _closure3_slot1;
                         var3 = _closure3_slot0;
                         var3 = var3.id;
                         var2 = var4.bind(var5)(var3);
- 62:
+ 63:
                         var1 = var2;
- 65:
+ 66:
                         return var1;
                     }
                 };

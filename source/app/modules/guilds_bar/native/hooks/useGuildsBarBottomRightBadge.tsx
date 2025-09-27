@@ -228,13 +228,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var1 = var1.layout;
                             var4 = _closure2_slot4;
                             var3 = var1.width;
-                            if(!(var4 !== var3)) { _fun0004_ip = 46; continue _fun0004 }
- 30:
+                            if(!(var4 !== var3)) { _fun0004_ip = 47; continue _fun0004 }
+ 31:
                             var3 = _closure2_slot5;
                             var2 = var1.width;
                             var1 = undefined;
                             var1 = var3.bind(var1)(var2);
- 46:
+ 47:
                             var1 = undefined;
                             return var1;
                         }

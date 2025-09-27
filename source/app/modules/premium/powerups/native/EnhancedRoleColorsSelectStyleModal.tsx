@@ -111,23 +111,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = {'width': '100%', 'textAlign': 'center'};
             var4 = _closure1_slot8;
             var4 = var4.LIGHT;
-            if(!(var9 !== var4)) { _fun0001_ip = 326; continue _fun0001 }
- 296:
+            if(!(var9 !== var4)) { _fun0001_ip = 325; continue _fun0001 }
+ 295:
             var10 = _closure1_slot1;
             var4 = _closure1_slot2;
             var4 = var4[var6];
             var4 = var10.bind(var5)(var4);
             var4 = var4.colors;
             var4 = var4.BACKGROUND_SECONDARY;
-            _fun0001_ip = 354; continue _fun0001;
- 326:
+            _fun0001_ip = 353; continue _fun0001;
+ 325:
             var11 = _closure1_slot1;
             var10 = _closure1_slot2;
             var10 = var10[var6];
             var10 = var11.bind(var5)(var10);
             var10 = var10.colors;
             var4 = var10.BACKGROUND_PRIMARY;
- 354:
+ 353:
             var2['backgroundColor'] = var4;
             var10 = _closure1_slot1;
             var4 = _closure1_slot2;
@@ -140,23 +140,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = {};
             var4 = _closure1_slot8;
             var4 = var4.LIGHT;
-            if(!(var9 !== var4)) { _fun0001_ip = 441; continue _fun0001 }
- 411:
+            if(!(var9 !== var4)) { _fun0001_ip = 440; continue _fun0001 }
+ 410:
             var9 = _closure1_slot1;
             var4 = _closure1_slot2;
             var4 = var4[var6];
             var4 = var9.bind(var5)(var4);
             var4 = var4.colors;
             var4 = var4.BACKGROUND_SECONDARY;
-            _fun0001_ip = 469; continue _fun0001;
- 441:
+            _fun0001_ip = 468; continue _fun0001;
+ 440:
             var10 = _closure1_slot1;
             var9 = _closure1_slot2;
             var9 = var9[var6];
             var9 = var10.bind(var5)(var9);
             var9 = var9.colors;
             var4 = var9.BACKGROUND_PRIMARY;
- 469:
+ 468:
             var2['backgroundColor'] = var4;
             var4 = _closure1_slot1;
             var3 = _closure1_slot2;

@@ -376,6 +376,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var14.bind(var4)(var13);
             var14 = var13.TTIFirstContentfulPaint;
             var13 = {};
+            var16 = 'hub_directory';
+            var13['label'] = var16;
             var13 = var15.bind(var4)(var14, var13);
             var12[3] = var13;
             var11['children'] = var12;
@@ -386,8 +388,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = new Array(2);
             var5[0] = var6;
             var6 = null;
-            if(!var8) { _fun0003_ip = 631; continue _fun0003 }
- 588:
+            if(!var8) { _fun0003_ip = 641; continue _fun0003 }
+ 598:
             var9 = _closure1_slot19;
             var8 = _closure1_slot1;
             var11 = _closure1_slot3;
@@ -399,7 +401,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = true;
             var7['onDirectoryPage'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 631:
+ 641:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
@@ -953,11 +955,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             _closure2_slot14 = var5;
             var5 = var1 == var16;
             var1 = null;
-            if(var5) { _fun0005_ip = 1008; continue _fun0005 }
+            if(var5) { _fun0005_ip = 1018; continue _fun0005 }
  639:
-            if(var4) { _fun0005_ip = 800; continue _fun0005 }
+            if(var4) { _fun0005_ip = 810; continue _fun0005 }
  645:
-            if(!(var2 === var3)) { _fun0005_ip = 800; continue _fun0005 }
+            if(!(var2 === var3)) { _fun0005_ip = 810; continue _fun0005 }
  652:
             var4 = _closure1_slot20;
             var3 = _closure1_slot5;
@@ -990,12 +992,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var8.bind(var6)(var7);
             var8 = var7.TTIFirstContentfulPaint;
             var7 = {};
+            var17 = 'guild_directory_empty';
+            var7['label'] = var17;
             var7 = var15.bind(var6)(var8, var7);
             var5[2] = var7;
             var2['children'] = var5;
             var2 = var4.bind(var6)(var3, var2);
-            _fun0005_ip = 1005; continue _fun0005;
- 800:
+            _fun0005_ip = 1015; continue _fun0005;
+ 810:
             var5 = _closure1_slot19;
             var4 = _closure1_slot5;
             var3 = {};
@@ -1097,9 +1101,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var5.bind(var6)(var8, var7);
             var3['children'] = var7;
             var2 = var5.bind(var6)(var4, var3);
- 1005:
+ 1015:
             var1 = var2;
- 1008:
+ 1018:
             return var1;
         }
     };

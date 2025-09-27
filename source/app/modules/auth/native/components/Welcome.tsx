@@ -786,7 +786,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var6.bind(var7)(var5);
             if(!var3) { _fun0003_ip = 431; continue _fun0003 }
  425:
-            if(var2) { _fun0003_ip = 957; continue _fun0003 }
+            if(var2) { _fun0003_ip = 967; continue _fun0003 }
  431:
             var11 = _closure1_slot0;
             var13 = _closure1_slot2;
@@ -957,6 +957,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var11.bind(var4)(var10);
             var11 = var10.TTIFirstContentfulPaint;
             var10 = {};
+            var13 = 'welcome';
+            var10['label'] = var13;
             var10 = var12.bind(var4)(var11, var10);
             var9[3] = var10;
             var6['children'] = var9;
@@ -964,7 +966,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['children'] = var6;
             var2 = var5.bind(var4)(var3, var2);
             return var2;
- 957:
+ 967:
             var3 = _closure1_slot21;
             var2 = _closure1_slot1;
             var5 = _closure1_slot2;

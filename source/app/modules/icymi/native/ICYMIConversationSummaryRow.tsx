@@ -421,23 +421,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['emojiContainer'] = var2;
             var2 = {};
             var8 = undefined;
-            if(!var9) { _fun0004_ip = 403; continue _fun0004 }
- 375:
+            if(!var9) { _fun0004_ip = 401; continue _fun0004 }
+ 373:
             var11 = _closure1_slot1;
             var10 = _closure1_slot2;
             var10 = var10[var6];
             var10 = var11.bind(var5)(var10);
             var10 = var10.colors;
             var8 = var10.CARD_SECONDARY_BG;
- 403:
+ 401:
             var2['backgroundColor'] = var8;
             var8 = 'flex-end';
             var2['justifyContent'] = var8;
             var8 = 0;
-            if(var9) { _fun0004_ip = 428; continue _fun0004 }
- 422:
+            if(var9) { _fun0004_ip = 426; continue _fun0004 }
+ 420:
             var8 = var4.inset;
- 428:
+ 426:
             var2['marginLeft'] = var8;
             var8 = var4.margin;
             var2['paddingVertical'] = var8;

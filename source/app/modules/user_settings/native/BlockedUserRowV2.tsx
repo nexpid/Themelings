@@ -137,11 +137,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var1.nativeEvent;
                     var2 = var1.actionName;
                     var1 = 'unblock';
-                    if(!(var1 !== var2)) { _fun0002_ip = 26; continue _fun0002 }
- 22:
+                    if(!(var1 !== var2)) { _fun0002_ip = 27; continue _fun0002 }
+ 23:
                     var1 = undefined;
                     return var1;
- 26:
+ 27:
                     var3 = _closure1_slot5;
                     var1 = _closure2_slot0;
                     var2 = var1.id;

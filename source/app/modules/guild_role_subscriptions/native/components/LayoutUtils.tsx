@@ -42,10 +42,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var1.children;
             var2 = var1.gap;
             var4 = undefined;
-            if(!(var2 === var4)) { _fun0001_ip = 25; continue _fun0001 }
- 22:
+            if(!(var2 === var4)) { _fun0001_ip = 24; continue _fun0001 }
+ 21:
             var2 = 4;
- 25:
+ 24:
             var _closure2_slot0 = var2;
             var1 = var1.renderGap;
             var _closure2_slot1 = var1;

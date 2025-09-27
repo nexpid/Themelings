@@ -129,20 +129,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var16 = var18.isIOS;
         var18 = var16.bind(var18)();
         var16 = 20;
-        if(!var18) { _fun0001_ip = 589; continue _fun0001 }
- 586:
+        if(!var18) { _fun0001_ip = 587; continue _fun0001 }
+ 584:
         var16 = var17;
- 589:
+ 587:
         var10['fontSize'] = var16;
         var15 = var6[var15];
         var16 = var5.bind(var1)(var15);
         var15 = var16.isIOS;
         var16 = var15.bind(var16)();
         var15 = undefined;
-        if(!var16) { _fun0001_ip = 621; continue _fun0001 }
- 618:
+        if(!var16) { _fun0001_ip = 619; continue _fun0001 }
+ 616:
         var15 = 32;
- 621:
+ 619:
         var10['lineHeight'] = var15;
         var10['textAlign'] = var14;
         var14 = var6[var11];

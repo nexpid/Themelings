@@ -46,10 +46,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = 'column';
             var5 = 'horizontal';
             var4 = arg2;
-            if(!(var5 === var4)) { _fun0001_ip = 55; continue _fun0001 }
- 51:
+            if(!(var5 === var4)) { _fun0001_ip = 54; continue _fun0001 }
+ 50:
             var3 = 'row';
- 55:
+ 54:
             var2['flexDirection'] = var3;
             var1['stack'] = var2;
             return var1;

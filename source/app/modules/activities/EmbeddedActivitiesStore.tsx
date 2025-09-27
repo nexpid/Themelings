@@ -2361,6 +2361,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var6['EMBEDDED_ACTIVITY_LAUNCH_FAIL'] = var10;
+    var10 = function handleEmbeddedActivityLaunchCancel(arg1) {
+        var1 = arg1;
+        var4 = var1.applicationId;
+        var1 = var1.channelId;
+        var5 = _closure1_slot47;
+        var3 = {};
+        var3['applicationId'] = var4;
+        var3['channelId'] = var1;
+        var1 = undefined;
+        var3 = var5.bind(var1)(var3);
+        var3 = _closure1_slot26;
+        var2 = var3.delete;
+        var2 = var2.bind(var3)(var4);
+        return var1;
+    };
+    var6['EMBEDDED_ACTIVITY_LAUNCH_CANCEL'] = var10;
     var10 = function handleEmbeddedActivityClose(arg1) {
         _fun0037: for(var _fun0037_ip = 0; ; ) switch(_fun0037_ip) {
  0:

@@ -242,13 +242,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = _closure2_slot8;
                     var3 = var4.set;
                     var5 = _closure1_slot16;
-                    if(var2) { _fun0004_ip = 68; continue _fun0004 }
- 60:
+                    if(var2) { _fun0004_ip = 69; continue _fun0004 }
+ 61:
                     var2 = var5.HIDDEN;
-                    _fun0004_ip = 74; continue _fun0004;
- 68:
+                    _fun0004_ip = 75; continue _fun0004;
+ 69:
                     var2 = var5.VISIBLE;
- 74:
+ 75:
                     var2 = var3.bind(var4)(var2);
                     return var1;
                 }

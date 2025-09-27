@@ -78,7 +78,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = undefined;
             if(!var9) { _fun0001_ip = 247; continue _fun0001 }
  234:
-            var9 = _closure1_slot80;
+            var9 = _closure1_slot79;
             var7 = var9.bind(var8)(var3, var8);
  247:
             _fun0001_ip = 265; continue _fun0001;
@@ -90,7 +90,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var7;
             _fun0001_ip = 283; continue _fun0001;
  270:
-            var7 = _closure1_slot80;
+            var7 = _closure1_slot79;
             var6 = var7.bind(var8)(var3, var8);
  283:
             var4 = var6;
@@ -149,7 +149,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot79 = var1;
+    var _closure1_slot78 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
@@ -182,7 +182,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot80 = var1;
+    var _closure1_slot79 = var1;
     var1 = function _isNativeReflectConstruct() {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
@@ -215,13 +215,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot81 = var2;
+            _closure1_slot80 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot81 = var1;
+    var _closure1_slot80 = var1;
     var1 = global;
     var9 = var1.Object;
     var7 = var9.defineProperty;
@@ -507,10 +507,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var9 = var4.jsx;
     var _closure1_slot74 = var9;
-    var9 = var4.Fragment;
-    var _closure1_slot75 = var9;
     var4 = var4.jsxs;
-    var _closure1_slot76 = var4;
+    var _closure1_slot75 = var4;
     var4 = 61;
     var4 = var6[var4];
     var9 = var8.bind(var1)(var4);
@@ -520,7 +518,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var8;
     var4 = new var13[var9](var12, var11);
     var4 = var4 instanceof Object ? var4 : var8;
-    var _closure1_slot77 = var4;
+    var _closure1_slot76 = var4;
     var8 = var7.Component;
     var4 = function(arg1) {
         var4 = function Messages(arg1) {
@@ -541,7 +539,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = _closure1_slot8;
                 var10 = var1.bind(var5)(var4);
                 var4 = _closure1_slot7;
-                var1 = _closure1_slot81;
+                var1 = _closure1_slot80;
                 var1 = var1.bind(var5)();
                 if(var1) { _fun0005_ip = 86; continue _fun0005 }
  73:
@@ -901,7 +899,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var1 = false;
                         return var1;
  10:
-                        var2 = _closure1_slot79;
+                        var2 = _closure1_slot78;
                         var5 = undefined;
                         var1 = arg1;
                         var4 = var2.bind(var5)(var1);
@@ -1413,14 +1411,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var3 = var3._chatRef;
                         var3 = var3.current;
                         var19 = var4.bind(var7)(var3);
-                        if(!(var20 !== var19)) { _fun0016_ip = 207; continue _fun0016 }
- 138:
+                        if(!(var20 !== var19)) { _fun0016_ip = 208; continue _fun0016 }
+ 139:
                         var3 = _closure3_slot0;
                         var3 = var3.props;
                         var3 = var3.isStaff;
-                        if(!var3) { _fun0016_ip = 379; continue _fun0016 }
- 159:
-                        var18 = _closure1_slot77;
+                        if(!var3) { _fun0016_ip = 380; continue _fun0016 }
+ 160:
+                        var18 = _closure1_slot76;
                         var7 = var18.log;
                         var3 = _closure3_slot0;
                         var3 = var3.props;
@@ -1430,8 +1428,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var22 = var20;
                         var21 = var19;
                         var3 = var25[var7](var24, var23, var22, var21, var20);
-                        _fun0016_ip = 379; continue _fun0016;
- 207:
+                        _fun0016_ip = 380; continue _fun0016;
+ 208:
                         var7 = _closure3_slot0;
                         var2 = var7.props;
                         var4 = var2.visibleMessagesWindowHandler;
@@ -1468,7 +1466,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2['firstVisibleMessageRowIndex'] = var6;
                         var2['lastVisibleMessageRowIndex'] = var5;
                         var2 = var3.bind(var4)(var2);
- 379:
+ 380:
                         return var1;
                     }
                 };
@@ -3056,10 +3054,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var10 = var7.mimeType;
                         var11 = var8 != var10;
                         var9 = 'video';
-                        if(!var11) { _fun0030_ip = 154; continue _fun0030 }
- 151:
+                        if(!var11) { _fun0030_ip = 155; continue _fun0030 }
+ 152:
                         var9 = var10;
- 154:
+ 155:
                         var2['mime_type'] = var9;
                         var2['file_size'] = var8;
                         var7 = var7.fileDurationSec;
@@ -3438,7 +3436,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 var5 = _closure4_slot22;
                                 var2['shouldFilterKeywords'] = var5;
                                 var2 = var3.bind(var4)(var2);
-                                var3 = _closure1_slot79;
+                                var3 = _closure1_slot78;
                                 var4 = _closure1_slot1;
                                 var5 = _closure1_slot2;
                                 var2 = 84;
@@ -5359,235 +5357,216 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = function value() {
             _fun0044: for(var _fun0044_ip = 0; ; ) switch(_fun0044_ip) {
  0:
-                var10 = this;
-                var1 = var10.props;
-                var13 = var1.animateEmoji;
-                var14 = var1.onPressKey;
-                var17 = var1.style;
-                var12 = var1.children;
-                var11 = var1.HACK_fixModalInteraction;
-                var15 = var1.alwaysRespectKeyboard;
-                var9 = var1.messages;
-                var16 = var1.doubleTapToReactEnabled;
-                var4 = _closure1_slot76;
-                var3 = _closure1_slot75;
-                var2 = {};
-                var8 = _closure1_slot74;
-                var7 = _closure1_slot1;
-                var5 = _closure1_slot2;
+                var5 = this;
+                var1 = var5.props;
+                var8 = var1.animateEmoji;
+                var9 = var1.onPressKey;
+                var12 = var1.style;
+                var7 = var1.children;
+                var6 = var1.HACK_fixModalInteraction;
+                var10 = var1.alwaysRespectKeyboard;
+                var11 = var1.doubleTapToReactEnabled;
+                var4 = _closure1_slot74;
+                var2 = _closure1_slot1;
+                var3 = _closure1_slot2;
                 var1 = 95;
-                var5 = var5[var1];
-                var1 = undefined;
-                var7 = var7.bind(var1)(var5);
-                var5 = {};
-                var18 = var10._chatRef;
-                var5['ref'] = var18;
-                var5['style'] = var17;
-                var17 = true;
-                var5['inverted'] = var17;
-                var5['alwaysRespectKeyboard'] = var15;
-                var15 = var10.handleScrollPosition;
-                var5['onChatScrollPosition'] = var15;
-                var15 = var10.handleTapImage;
-                var5['onTapImage'] = var15;
-                var15 = var10.handleTapChannel;
-                var5['onTapChannel'] = var15;
-                var15 = var10.handleLongPressChannel;
-                var5['onLongPressChannel'] = var15;
-                var15 = var10.handleTapAttachmentLink;
-                var5['onTapAttachmentLink'] = var15;
-                var15 = var10.handleLongPressAttachmentLink;
-                var5['onLongPressAttachmentLink'] = var15;
-                var15 = var10.handleTapCall;
-                var5['onTapCall'] = var15;
-                var15 = var10.handleTapMention;
-                var5['onTapMention'] = var15;
-                var15 = var10.handleTapCommandMention;
-                var5['onTapCommandMention'] = var15;
-                var15 = var10.handleLongPressCommandMention;
-                var5['onLongPressCommandMention'] = var15;
-                var15 = var10.handleTapLink;
-                var5['onTapLink'] = var15;
-                var15 = var10.handleLongPressLink;
-                var5['onLongPressLink'] = var15;
-                var15 = var10.handleTapReaction;
-                var5['onTapReaction'] = var15;
-                var15 = var10.handleLongPressReaction;
-                var5['onLongPressReaction'] = var15;
-                var15 = var10.handleTapAvatar;
-                var5['onTapAvatar'] = var15;
-                var15 = var10.handleTapUsername;
-                var5['onTapUsername'] = var15;
-                var15 = var10.handleLongPressUsername;
-                var5['onLongPressUsername'] = var15;
-                var15 = var10.handleOpenSticker;
-                var5['onTapSticker'] = var15;
-                var15 = var10.handleLongPressSticker;
-                var5['onLongPressSticker'] = var15;
-                var15 = var10.handleLongPressMessage;
-                var5['onLongPressMessage'] = var15;
-                var15 = var10.handleInitiateReply;
-                var5['onInitiateReply'] = var15;
-                var15 = var10.handleInitiateEdit;
-                var5['onInitiateEdit'] = var15;
-                var15 = var10.handleInitiateThread;
-                var5['onInitiateThread'] = var15;
-                var15 = var10.handleTapMessage;
-                var5['onTapMessage'] = var15;
-                var15 = undefined;
-                if(!var16) { _fun0044_ip = 396; continue _fun0044 }
- 390:
-                var15 = var10.handleDoubleTapMessage;
- 396:
-                var5['onDoubleTapMessage'] = var15;
-                var15 = var10.handleTapSeparator;
-                var5['onTapSeparator'] = var15;
-                var15 = var10.handleTapInviteEmbed;
-                var5['onTapInviteEmbed'] = var15;
-                var15 = var10.handleTapInviteEmbedAccept;
-                var5['onTapInviteEmbedAccept'] = var15;
-                var15 = var10.handleTapJoinActivity;
-                var5['onTapJoinActivity'] = var15;
-                var15 = var10.handleTapJoinRichPresence;
-                var5['onTapJoinRichPresence'] = var15;
-                var5['onPressKey'] = var14;
-                var5['animateEmoji'] = var13;
-                var13 = var10.handleTapGiftCodeEmbed;
-                var5['onTapGiftCodeEmbed'] = var13;
-                var13 = var10.handleTapCancelUploadItem;
-                var5['onTapCancelUploadItem'] = var13;
-                var13 = var10.handleTapReply;
-                var5['onTapMessageReply'] = var13;
-                var13 = var10.handleTapSummary;
-                var5['onTapSummary'] = var13;
-                var13 = var10.handleTapSummaryJump;
-                var5['onTapSummaryJump'] = var13;
-                var13 = var10.handleTapGiftCodeAccept;
-                var5['onTapGiftCodeAccept'] = var13;
-                var13 = var10.handleTapReferralRedeem;
-                var5['onTapReferralRedeem'] = var13;
-                var13 = var10.handleTapThreadEmbed;
-                var5['onTapThreadEmbed'] = var13;
-                var13 = var10.handleTapEmoji;
-                var5['onTapEmoji'] = var13;
-                var13 = var10.handleTapTimestamp;
-                var5['onTapTimestamp'] = var13;
-                var13 = var10.handleTapInlineCode;
-                var5['onTapInlineCode'] = var13;
-                var13 = var10.handleTapRoleIcon;
-                var5['onTapRoleIcon'] = var13;
-                var13 = var10.handleTapGameIcon;
-                var5['onTapGameIcon'] = var13;
-                var13 = var10.handleTapSuppressNotificationsIcon;
-                var5['onTapSuppressNotificationsIcon'] = var13;
-                var13 = var10.handleTapConnectionsRoleTag;
-                var5['onTapConnectionsRoleTag'] = var13;
-                var13 = var10.handleTapTimeoutIcon;
-                var5['onTapTimeoutIcon'] = var13;
-                var13 = var10.handleTapButtonActionComponent;
-                var5['onTapButtonActionComponent'] = var13;
-                var13 = var10.handleTapSelectActionComponent;
-                var5['onTapSelectActionComponent'] = var13;
-                var13 = var10.handleTapWelcomeReply;
-                var5['onTapWelcomeReply'] = var13;
-                var13 = var10.handleTapInviteToSpeak;
-                var5['onTapInviteToSpeak'] = var13;
-                var13 = var10.handleTapAutoModerationActions;
-                var5['onTapAutoModerationActions'] = var13;
-                var13 = var10.handleTapAutoModerationFeedback;
-                var5['onTapAutoModerationFeedback'] = var13;
-                var13 = var10.handleTapFollowForumPost;
-                var5['onTapFollowForumPost'] = var13;
-                var13 = var10.handleTapShareForumPost;
-                var5['onTapShareForumPost'] = var13;
-                var13 = var10.handleTapReactionOverflow;
-                var5['onTapReactionOverflow'] = var13;
-                var13 = var10.handleTapNavBar;
-                var5['onTapNavBar'] = var13;
-                var13 = var10.handleCopyText;
-                var5['onTapCopyText'] = var13;
-                var13 = var10.handleTapOpTag;
-                var5['onTapOpTag'] = var13;
-                var13 = var10.handleTapTag;
-                var5['onTapTag'] = var13;
-                var13 = var10.handleTapRemix;
-                var5['onTapRemix'] = var13;
-                var13 = var10.handleMediaAttachmentPlaybackEnded;
-                var5['onMediaAttachmentPlaybackEnded'] = var13;
-                var13 = var10.handleMediaAttachmentPlaybackStarted;
-                var5['onMediaAttachmentPlaybackStarted'] = var13;
-                var13 = var10.handlerVoiceMessagePlaybackFailed;
-                var5['onVoiceMessagePlaybackFailed'] = var13;
-                var13 = var10.handleTapShowAltText;
-                var5['onTapShowAltText'] = var13;
-                var13 = var10.handleTapPostPreviewEmbed;
-                var5['onTapPostPreviewEmbed'] = var13;
-                var13 = var10.handleTapDismissMediaPostSharePrompt;
-                var5['onTapDismissMediaPostSharePrompt'] = var13;
-                var13 = var10.handleTapChannelPromptButton;
-                var5['onTapChannelPromptButton'] = var13;
-                var13 = var10.handleTapObscuredMediaLearnMore;
-                var5['onTapObscuredMediaLearnMore'] = var13;
-                var13 = var10.handleTapObscuredMediaToggle;
-                var5['onTapObscuredMediaToggle'] = var13;
-                var13 = var10.handleTapSafetyPolicyNoticeEmbed;
-                var5['onTapSafetyPolicyNoticeEmbed'] = var13;
-                var13 = var10.handleTapSafetySystemNotificationCta;
-                var5['onTapSafetySystemNotificationCta'] = var13;
-                var13 = var10.handleTapPollAnswer;
-                var5['onTapPollAnswer'] = var13;
-                var13 = var10.handleTapPollSubmitVote;
-                var5['onTapPollSubmitVote'] = var13;
-                var13 = var10.handleTapPollAction;
-                var5['onTapPollAction'] = var13;
-                var13 = var10.handleLongPressPollImage;
-                var5['onLongPressPollImage'] = var13;
-                var13 = var10.handleTapCtaButton;
-                var5['onTapCtaButton'] = var13;
-                var13 = var10.handleMessageAccessibilityAction;
-                var5['onMessageAccessibilityAction'] = var13;
-                var13 = var10.handleTapForwardFooter;
-                var5['onTapForwardFooter'] = var13;
-                var13 = var10.handleTapInlineForward;
-                var5['onTapInlineForward'] = var13;
-                var13 = var10.handleTapClanTagChiplet;
-                var5['onTapClanTagChiplet'] = var13;
-                var13 = var10.handleTapContentInventoryEntryEmbed;
-                var5['onTapContentInventoryEntryEmbed'] = var13;
-                var13 = var10.handleTapSoundmoji;
-                var5['onTapSoundmoji'] = var13;
-                var13 = var10.handleTapAppMessageEmbed;
-                var5['onTapAppMessageEmbed'] = var13;
-                var13 = var10.handleTapPreviewSharedClientTheme;
-                var5['onTapPreviewSharedClientTheme'] = var13;
-                var13 = var10.handleSharedClientThemeViewed;
-                var5['onSharedClientThemeViewed'] = var13;
-                var5['children'] = var12;
-                var5['HACK_fixModalInteraction'] = var11;
-                var11 = var10.handleTapTableView;
-                var5['onTapTableView'] = var11;
-                var11 = var10.handleFirstLayout;
-                var5['onFirstLayout'] = var11;
-                var11 = var10.handleMediaPlayFinishedAnalytics;
-                var5['onMediaPlayFinishedAnalytics'] = var11;
-                var10 = var10.handleMessageVisibilityChanged;
-                var5['onMessageVisibilityChanged'] = var10;
-                var7 = var8.bind(var1)(var7, var5);
-                var5 = new Array(2);
-                var5[0] = var7;
-                var8 = _closure1_slot74;
-                var7 = _closure1_slot0;
-                var10 = _closure1_slot2;
-                var6 = 96;
-                var6 = var10[var6];
-                var6 = var7.bind(var1)(var6);
-                var7 = var6.ChatTTITracker;
-                var6 = {};
-                var6['messages'] = var9;
-                var6 = var8.bind(var1)(var7, var6);
-                var5[1] = var6;
-                var2['children'] = var5;
-                var1 = var4.bind(var1)(var3, var2);
+                var1 = var3[var1];
+                var3 = undefined;
+                var2 = var2.bind(var3)(var1);
+                var1 = {};
+                var13 = var5._chatRef;
+                var1['ref'] = var13;
+                var1['style'] = var12;
+                var12 = true;
+                var1['inverted'] = var12;
+                var1['alwaysRespectKeyboard'] = var10;
+                var10 = var5.handleScrollPosition;
+                var1['onChatScrollPosition'] = var10;
+                var10 = var5.handleTapImage;
+                var1['onTapImage'] = var10;
+                var10 = var5.handleTapChannel;
+                var1['onTapChannel'] = var10;
+                var10 = var5.handleLongPressChannel;
+                var1['onLongPressChannel'] = var10;
+                var10 = var5.handleTapAttachmentLink;
+                var1['onTapAttachmentLink'] = var10;
+                var10 = var5.handleLongPressAttachmentLink;
+                var1['onLongPressAttachmentLink'] = var10;
+                var10 = var5.handleTapCall;
+                var1['onTapCall'] = var10;
+                var10 = var5.handleTapMention;
+                var1['onTapMention'] = var10;
+                var10 = var5.handleTapCommandMention;
+                var1['onTapCommandMention'] = var10;
+                var10 = var5.handleLongPressCommandMention;
+                var1['onLongPressCommandMention'] = var10;
+                var10 = var5.handleTapLink;
+                var1['onTapLink'] = var10;
+                var10 = var5.handleLongPressLink;
+                var1['onLongPressLink'] = var10;
+                var10 = var5.handleTapReaction;
+                var1['onTapReaction'] = var10;
+                var10 = var5.handleLongPressReaction;
+                var1['onLongPressReaction'] = var10;
+                var10 = var5.handleTapAvatar;
+                var1['onTapAvatar'] = var10;
+                var10 = var5.handleTapUsername;
+                var1['onTapUsername'] = var10;
+                var10 = var5.handleLongPressUsername;
+                var1['onLongPressUsername'] = var10;
+                var10 = var5.handleOpenSticker;
+                var1['onTapSticker'] = var10;
+                var10 = var5.handleLongPressSticker;
+                var1['onLongPressSticker'] = var10;
+                var10 = var5.handleLongPressMessage;
+                var1['onLongPressMessage'] = var10;
+                var10 = var5.handleInitiateReply;
+                var1['onInitiateReply'] = var10;
+                var10 = var5.handleInitiateEdit;
+                var1['onInitiateEdit'] = var10;
+                var10 = var5.handleInitiateThread;
+                var1['onInitiateThread'] = var10;
+                var10 = var5.handleTapMessage;
+                var1['onTapMessage'] = var10;
+                var10 = undefined;
+                if(!var11) { _fun0044_ip = 380; continue _fun0044 }
+ 374:
+                var10 = var5.handleDoubleTapMessage;
+ 380:
+                var1['onDoubleTapMessage'] = var10;
+                var10 = var5.handleTapSeparator;
+                var1['onTapSeparator'] = var10;
+                var10 = var5.handleTapInviteEmbed;
+                var1['onTapInviteEmbed'] = var10;
+                var10 = var5.handleTapInviteEmbedAccept;
+                var1['onTapInviteEmbedAccept'] = var10;
+                var10 = var5.handleTapJoinActivity;
+                var1['onTapJoinActivity'] = var10;
+                var10 = var5.handleTapJoinRichPresence;
+                var1['onTapJoinRichPresence'] = var10;
+                var1['onPressKey'] = var9;
+                var1['animateEmoji'] = var8;
+                var8 = var5.handleTapGiftCodeEmbed;
+                var1['onTapGiftCodeEmbed'] = var8;
+                var8 = var5.handleTapCancelUploadItem;
+                var1['onTapCancelUploadItem'] = var8;
+                var8 = var5.handleTapReply;
+                var1['onTapMessageReply'] = var8;
+                var8 = var5.handleTapSummary;
+                var1['onTapSummary'] = var8;
+                var8 = var5.handleTapSummaryJump;
+                var1['onTapSummaryJump'] = var8;
+                var8 = var5.handleTapGiftCodeAccept;
+                var1['onTapGiftCodeAccept'] = var8;
+                var8 = var5.handleTapReferralRedeem;
+                var1['onTapReferralRedeem'] = var8;
+                var8 = var5.handleTapThreadEmbed;
+                var1['onTapThreadEmbed'] = var8;
+                var8 = var5.handleTapEmoji;
+                var1['onTapEmoji'] = var8;
+                var8 = var5.handleTapTimestamp;
+                var1['onTapTimestamp'] = var8;
+                var8 = var5.handleTapInlineCode;
+                var1['onTapInlineCode'] = var8;
+                var8 = var5.handleTapRoleIcon;
+                var1['onTapRoleIcon'] = var8;
+                var8 = var5.handleTapGameIcon;
+                var1['onTapGameIcon'] = var8;
+                var8 = var5.handleTapSuppressNotificationsIcon;
+                var1['onTapSuppressNotificationsIcon'] = var8;
+                var8 = var5.handleTapConnectionsRoleTag;
+                var1['onTapConnectionsRoleTag'] = var8;
+                var8 = var5.handleTapTimeoutIcon;
+                var1['onTapTimeoutIcon'] = var8;
+                var8 = var5.handleTapButtonActionComponent;
+                var1['onTapButtonActionComponent'] = var8;
+                var8 = var5.handleTapSelectActionComponent;
+                var1['onTapSelectActionComponent'] = var8;
+                var8 = var5.handleTapWelcomeReply;
+                var1['onTapWelcomeReply'] = var8;
+                var8 = var5.handleTapInviteToSpeak;
+                var1['onTapInviteToSpeak'] = var8;
+                var8 = var5.handleTapAutoModerationActions;
+                var1['onTapAutoModerationActions'] = var8;
+                var8 = var5.handleTapAutoModerationFeedback;
+                var1['onTapAutoModerationFeedback'] = var8;
+                var8 = var5.handleTapFollowForumPost;
+                var1['onTapFollowForumPost'] = var8;
+                var8 = var5.handleTapShareForumPost;
+                var1['onTapShareForumPost'] = var8;
+                var8 = var5.handleTapReactionOverflow;
+                var1['onTapReactionOverflow'] = var8;
+                var8 = var5.handleTapNavBar;
+                var1['onTapNavBar'] = var8;
+                var8 = var5.handleCopyText;
+                var1['onTapCopyText'] = var8;
+                var8 = var5.handleTapOpTag;
+                var1['onTapOpTag'] = var8;
+                var8 = var5.handleTapTag;
+                var1['onTapTag'] = var8;
+                var8 = var5.handleTapRemix;
+                var1['onTapRemix'] = var8;
+                var8 = var5.handleMediaAttachmentPlaybackEnded;
+                var1['onMediaAttachmentPlaybackEnded'] = var8;
+                var8 = var5.handleMediaAttachmentPlaybackStarted;
+                var1['onMediaAttachmentPlaybackStarted'] = var8;
+                var8 = var5.handlerVoiceMessagePlaybackFailed;
+                var1['onVoiceMessagePlaybackFailed'] = var8;
+                var8 = var5.handleTapShowAltText;
+                var1['onTapShowAltText'] = var8;
+                var8 = var5.handleTapPostPreviewEmbed;
+                var1['onTapPostPreviewEmbed'] = var8;
+                var8 = var5.handleTapDismissMediaPostSharePrompt;
+                var1['onTapDismissMediaPostSharePrompt'] = var8;
+                var8 = var5.handleTapChannelPromptButton;
+                var1['onTapChannelPromptButton'] = var8;
+                var8 = var5.handleTapObscuredMediaLearnMore;
+                var1['onTapObscuredMediaLearnMore'] = var8;
+                var8 = var5.handleTapObscuredMediaToggle;
+                var1['onTapObscuredMediaToggle'] = var8;
+                var8 = var5.handleTapSafetyPolicyNoticeEmbed;
+                var1['onTapSafetyPolicyNoticeEmbed'] = var8;
+                var8 = var5.handleTapSafetySystemNotificationCta;
+                var1['onTapSafetySystemNotificationCta'] = var8;
+                var8 = var5.handleTapPollAnswer;
+                var1['onTapPollAnswer'] = var8;
+                var8 = var5.handleTapPollSubmitVote;
+                var1['onTapPollSubmitVote'] = var8;
+                var8 = var5.handleTapPollAction;
+                var1['onTapPollAction'] = var8;
+                var8 = var5.handleLongPressPollImage;
+                var1['onLongPressPollImage'] = var8;
+                var8 = var5.handleTapCtaButton;
+                var1['onTapCtaButton'] = var8;
+                var8 = var5.handleMessageAccessibilityAction;
+                var1['onMessageAccessibilityAction'] = var8;
+                var8 = var5.handleTapForwardFooter;
+                var1['onTapForwardFooter'] = var8;
+                var8 = var5.handleTapInlineForward;
+                var1['onTapInlineForward'] = var8;
+                var8 = var5.handleTapClanTagChiplet;
+                var1['onTapClanTagChiplet'] = var8;
+                var8 = var5.handleTapContentInventoryEntryEmbed;
+                var1['onTapContentInventoryEntryEmbed'] = var8;
+                var8 = var5.handleTapSoundmoji;
+                var1['onTapSoundmoji'] = var8;
+                var8 = var5.handleTapAppMessageEmbed;
+                var1['onTapAppMessageEmbed'] = var8;
+                var8 = var5.handleTapPreviewSharedClientTheme;
+                var1['onTapPreviewSharedClientTheme'] = var8;
+                var8 = var5.handleSharedClientThemeViewed;
+                var1['onSharedClientThemeViewed'] = var8;
+                var1['children'] = var7;
+                var1['HACK_fixModalInteraction'] = var6;
+                var6 = var5.handleTapTableView;
+                var1['onTapTableView'] = var6;
+                var6 = var5.handleFirstLayout;
+                var1['onFirstLayout'] = var6;
+                var6 = var5.handleMediaPlayFinishedAnalytics;
+                var1['onMediaPlayFinishedAnalytics'] = var6;
+                var5 = var5.handleMessageVisibilityChanged;
+                var1['onMessageVisibilityChanged'] = var5;
+                var1 = var4.bind(var3)(var2, var1);
                 return var1;
             }
         };
@@ -5597,7 +5576,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var4 = var4.bind(var1)(var8);
-    var _closure1_slot78 = var4;
+    var _closure1_slot77 = var4;
     var4 = var7.forwardRef;
     var2 = function(arg1, arg2) {
         _fun0045: for(var _fun0045_ip = 0; ; ) switch(_fun0045_ip) {
@@ -5607,7 +5586,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot0 = var7;
             var5 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var3 = 97;
+            var3 = 96;
             var8 = var2[var3];
             var4 = undefined;
             var13 = var5.bind(var4)(var8);
@@ -5672,7 +5651,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = new Array(0);
             var94 = var13.bind(var14)(var10, var5, var2);
             var _closure2_slot5 = var94;
-            var2 = 100;
+            var2 = 99;
             var5 = var11[var2];
             var5 = var8.bind(var4)(var5);
             var10 = var5.InlineAttachmentMedia;
@@ -5726,7 +5705,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var2 = new Array(0);
             r107 = var13.bind(var14)(var10, var5, var2);
-            var2 = 101;
+            var2 = 100;
             var2 = var11[var2];
             var5 = var8.bind(var4)(var2);
             var2 = var5.useIsMessageSwipeActionsEnabled;
@@ -5773,7 +5752,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var _closure3_slot1 = var6;
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var3 = 97;
+                var3 = 96;
                 var4 = var4[var3];
                 var3 = undefined;
                 var5 = var5.bind(var3)(var4);
@@ -5880,7 +5859,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  56:
                         var5 = _closure1_slot1;
                         var10 = _closure1_slot2;
-                        var3 = 98;
+                        var3 = 97;
                         var3 = var10[var3];
                         var7 = var5.bind(var1)(var3);
                         var6 = var7.fetchApplications;
@@ -5891,7 +5870,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var8 = var5.bind(var1)(var3);
                         var5 = var8.filter;
                         var9 = _closure1_slot0;
-                        var4 = 99;
+                        var4 = 98;
                         var4 = var10[var4];
                         var4 = var9.bind(var1)(var4);
                         var4 = var4.isNotNullish;
@@ -5914,7 +5893,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var2 = var2.bind(var4)(var82);
             var15 = _closure1_slot1;
-            var2 = 102;
+            var2 = 101;
             var2 = var11[var2];
             var2 = var15.bind(var4)(var2);
             var2 = var2.bind(var4)(var82, var7);
@@ -6013,7 +5992,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var3.filter;
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var1 = 99;
+                var1 = 98;
                 var4 = var4[var1];
                 var1 = undefined;
                 var1 = var5.bind(var1)(var4);
@@ -6081,7 +6060,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             return var1;
                         }
                     };
-                    var3 = _closure1_slot79;
+                    var3 = _closure1_slot78;
                     var5 = _closure1_slot13;
                     var4 = var5.getEmbeddedActivitiesForChannel;
                     var2 = _closure2_slot2;
@@ -6169,7 +6148,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 _fun0051: for(var _fun0051_ip = 0; ; ) switch(_fun0051_ip) {
  0:
                     var1 = new Array(0);
-                    var3 = _closure1_slot79;
+                    var3 = _closure1_slot78;
                     var4 = _closure1_slot13;
                     var2 = var4.getLaunchStates;
                     var2 = var2.bind(var4)();
@@ -6256,7 +6235,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var2 = new Array(0);
             var74 = var20.bind(var22)(var18, var17, var2);
-            var2 = 103;
+            var2 = 102;
             var2 = var11[var2];
             var18 = var8.bind(var4)(var2);
             var17 = var18.useQuests;
@@ -6282,7 +6261,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var18 = var17.bind(var18)(var2);
             var17 = var18.filter;
-            var2 = 99;
+            var2 = 98;
             var2 = var11[var2];
             var2 = var8.bind(var4)(var2);
             var2 = var2.isNotNullish;
@@ -6318,7 +6297,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var3.filter;
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var1 = 99;
+                var1 = 98;
                 var4 = var4[var1];
                 var1 = undefined;
                 var1 = var5.bind(var1)(var4);
@@ -6327,7 +6306,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var23 = var18.bind(var20)(var17, var2);
-            var2 = 104;
+            var2 = 103;
             var2 = var11[var2];
             var18 = var8.bind(var4)(var2);
             var17 = var18.useTrialOffer;
@@ -6342,7 +6321,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = function() {
                 var4 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var2 = 105;
+                var2 = 104;
                 var3 = var3[var2];
                 var2 = undefined;
                 var4 = var4.bind(var2)(var3);
@@ -6458,7 +6437,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var67 = var24.bind(var25)(var18, var2, var17);
-            var2 = 106;
+            var2 = 105;
             var2 = var11[var2];
             var2 = var15.bind(var4)(var2);
             var66 = var2.bind(var4)(var93);
@@ -6667,7 +6646,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = _closure1_slot28;
             var18 = new Array(1);
             var18[0] = var2;
-            var2 = 107;
+            var2 = 106;
             var2 = var11[var2];
             var2 = var8.bind(var4)(var2);
             r110 = var2.isVersionEqual;
@@ -6701,13 +6680,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var46 = var15.bind(var17)(var14, var2);
-            var2 = 108;
+            var2 = 107;
             var2 = var11[var2];
             var15 = var8.bind(var4)(var2);
             var14 = var15.useIsSpamMessageRequest;
             var2 = var7.id;
             var89 = var14.bind(var15)(var2);
-            var2 = 109;
+            var2 = 108;
             var2 = var11[var2];
             var11 = var8.bind(var4)(var2);
             var8 = var11.useIsMessageRequest;
@@ -6856,7 +6835,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var43 = var15.bind(var17)(var14, var2);
-            var2 = 110;
+            var2 = 109;
             var2 = var11[var2];
             var11 = var8.bind(var4)(var2);
             var8 = var11.useCurrentUserCommunicationDisabled;
@@ -6885,7 +6864,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var42 = var10.bind(var11)(var5, var2);
             var2 = _closure1_slot1;
-            var5 = 111;
+            var5 = 110;
             var5 = r108[var5];
             var14 = var2.bind(var4)(var5);
             var11 = var14.useExperiment;
@@ -6967,11 +6946,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var8.bind(var4)(var5);
             var5 = var10.useMessageJumpAndroidKeyboardHeight;
             var36 = var5.bind(var10)();
-            var5 = 112;
+            var5 = 111;
             var5 = r108[var5];
             var5 = var2.bind(var4)(var5);
             var34 = var5.bind(var4)();
-            var5 = 113;
+            var5 = 112;
             var5 = r108[var5];
             var10 = var8.bind(var4)(var5);
             var5 = var10.useChannelSummariesExperiment;
@@ -7082,12 +7061,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['messages'] = var82;
             var5['isMessagesReady'] = var47;
             var32 = var10.bind(var11)(var5);
-            var5 = 114;
+            var5 = 113;
             var5 = r108[var5];
             var10 = var8.bind(var4)(var5);
             var5 = var10.useShouldDisplaySpoilerObscurity;
             var31 = var5.bind(var10)(var7);
-            var5 = 115;
+            var5 = 114;
             var5 = r108[var5];
             var10 = var8.bind(var4)(var5);
             var5 = var10.useIsAgeVerified;
@@ -7099,7 +7078,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = function() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 116;
+                var1 = 115;
                 var2 = var2[var1];
                 var1 = undefined;
                 var2 = var3.bind(var1)(var2);
@@ -7108,7 +7087,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = function() {
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
-                    var1 = 116;
+                    var1 = 115;
                     var2 = var2[var1];
                     var1 = undefined;
                     var3 = var3.bind(var1)(var2);
@@ -7119,7 +7098,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var5 = var11.bind(var14)(var5, var10);
-            var5 = 117;
+            var5 = 116;
             var5 = r108[var5];
             var11 = var8.bind(var4)(var5);
             var10 = var11.useShouldDisableInteractiveComponents;
@@ -7144,11 +7123,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var28 = var14.bind(var17)(var11, var5, var10);
-            var5 = 118;
+            var5 = 117;
             var5 = r108[var5];
             var5 = var2.bind(var4)(var5);
             r102 = var5.bind(var4)();
-            var5 = 119;
+            var5 = 118;
             var5 = r108[var5];
             var5 = var2.bind(var4)(var5);
             var5 = var5.bind(var4)(var82);
@@ -7183,7 +7162,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 }
             };
             r105 = var11.bind(var14)(var10, var5);
-            var5 = 120;
+            var5 = 119;
             var5 = r108[var5];
             var10 = var8.bind(var4)(var5);
             var5 = var10.useShouldFilterKeywords;
@@ -7201,12 +7180,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var51 = var11.bind(var14)(var10, var5);
-            var5 = 121;
+            var5 = 120;
             var5 = r108[var5];
             var10 = var8.bind(var4)(var5);
             var5 = var10.useGuildProfileInviteEmbedHoldoutEnabled;
             var18 = var5.bind(var10)(r109);
-            var5 = 122;
+            var5 = 121;
             var5 = r108[var5];
             var11 = var8.bind(var4)(var5);
             var10 = var11.useColorStore;
@@ -7235,7 +7214,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var14 = var11.bind(var14)(var10, var5);
-            var5 = 123;
+            var5 = 122;
             var5 = r108[var5];
             var11 = var8.bind(var4)(var5);
             var10 = var11.useDoubleTapToReactExperiment;
@@ -7264,7 +7243,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var3.filter;
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var1 = 99;
+                var1 = 98;
                 var4 = var4[var1];
                 var1 = undefined;
                 var1 = var5.bind(var1)(var4);
@@ -7313,8 +7292,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var10 = var5.bind(var10)(var3, var1);
-            var3 = _closure1_slot76;
-            var5 = 124;
+            var3 = _closure1_slot75;
+            var5 = 123;
             var1 = r108[var5];
             var2 = var2.bind(var4)(var1);
             var1 = {};
@@ -7330,7 +7309,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             r108 = _closure1_slot74;
             var8 = _closure1_slot1;
             r109 = _closure1_slot2;
-            var5 = 125;
+            var5 = 124;
             var5 = r109[var5];
             var8 = var8.bind(var4)(var5);
             var5 = {};
@@ -7341,7 +7320,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = new Array(2);
             var5[0] = var7;
             var8 = _closure1_slot74;
-            var7 = _closure1_slot78;
+            var7 = _closure1_slot77;
             var6 = {};
             r108 = arg2;
             var6['ref'] = r108;
@@ -7469,7 +7448,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 126;
+    var4 = 125;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

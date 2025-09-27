@@ -396,8 +396,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var1 = var1.layout;
                             var7 = var1.height;
                             var6 = 0;
-                            if(!(var7 > var6)) { _fun0004_ip = 100; continue _fun0004 }
- 25:
+                            if(!(var7 > var6)) { _fun0004_ip = 101; continue _fun0004 }
+ 26:
                             var8 = _closure2_slot9;
                             var4 = var8.current;
                             var3 = _closure3_slot1;
@@ -409,16 +409,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var9 = null;
                             var9 = var9 != var8;
                             var6 = 0;
-                            if(!var9) { _fun0004_ip = 80; continue _fun0004 }
- 77:
+                            if(!var9) { _fun0004_ip = 81; continue _fun0004 }
+ 78:
                             var6 = var8;
- 80:
+ 81:
                             var2 = var2.bind(var5)(var7, var6);
                             var4[var3] = var2;
                             var2 = _closure2_slot10;
                             var1 = undefined;
                             var1 = var2.bind(var1)();
- 100:
+ 101:
                             var1 = undefined;
                             return var1;
                         }

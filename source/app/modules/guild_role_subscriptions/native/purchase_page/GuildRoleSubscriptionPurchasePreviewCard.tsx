@@ -112,8 +112,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var19 = 0;
             var10 = arraySpread(var21, var20, var19);
             var9 = var18 > var9;
-            if(!var9) { _fun0001_ip = 262; continue _fun0001 }
- 158:
+            if(!var9) { _fun0001_ip = 261; continue _fun0001 }
+ 157:
             var14 = _closure1_slot8;
             var13 = _closure1_slot6;
             var12 = {};
@@ -134,7 +134,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12['children'] = var11;
             var11 = 'andMore';
             var9 = var14.bind(var4)(var13, var12, var11);
- 262:
+ 261:
             var8[var10] = var9;
             var9 = 1;
             var9 = var10 + var9;

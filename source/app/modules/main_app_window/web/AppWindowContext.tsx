@@ -1,4 +1,4 @@
-// app/lib/web/AppWindowContext.tsx
+// app/modules/main_app_window/web/AppWindowContext.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var9 = require;
     var3 = exports;
@@ -131,7 +131,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var10[var8];
     var10 = var9.bind(var1)(var8);
     var9 = var10.fileFinishedImporting;
-    var8 = 'lib/web/AppWindowContext.tsx';
+    var8 = 'modules/main_app_window/web/AppWindowContext.tsx';
     var8 = var9.bind(var10)(var8);
     var3['default'] = var7;
     var3['MainWindowDispatch'] = var6;

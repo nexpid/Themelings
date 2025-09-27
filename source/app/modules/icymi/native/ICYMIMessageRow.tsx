@@ -365,7 +365,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var26 = var2.width;
             var2 = var1 == var32;
             var1 = null;
-            if(var2) { _fun0004_ip = 886; continue _fun0004 }
+            if(var2) { _fun0004_ip = 885; continue _fun0004 }
  285:
             var4 = _closure1_slot15;
             var3 = _closure1_slot4;
@@ -503,7 +503,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[1] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 886:
+ 885:
             return var1;
         }
     };
@@ -620,10 +620,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var10.isAndroid;
             var10 = var7.bind(var10)();
             var7 = 0;
-            if(!var10) { _fun0005_ip = 117; continue _fun0005 }
- 111:
+            if(!var10) { _fun0005_ip = 116; continue _fun0005 }
+ 110:
             var7 = -2;
- 117:
+ 116:
             var2['marginTop'] = var7;
             var10 = _closure1_slot1;
             var7 = _closure1_slot2;
@@ -633,15 +633,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7.md;
             var2['borderRadius'] = var7;
             var7 = 0;
-            if(!var5) { _fun0005_ip = 186; continue _fun0005 }
- 158:
+            if(!var5) { _fun0005_ip = 185; continue _fun0005 }
+ 157:
             var12 = _closure1_slot1;
             var10 = _closure1_slot2;
             var10 = var10[var9];
             var10 = var12.bind(var8)(var10);
             var10 = var10.spacing;
             var7 = var10.PX_8;
- 186:
+ 185:
             var2['gap'] = var7;
             var1['messagePreview'] = var2;
             var2 = {};
@@ -678,10 +678,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['replyInner'] = var2;
             var2 = {};
             var7 = 0;
-            if(var5) { _fun0005_ip = 368; continue _fun0005 }
- 362:
+            if(var5) { _fun0005_ip = 365; continue _fun0005 }
+ 359:
             var7 = var4.inset;
- 368:
+ 365:
             var2['paddingLeft'] = var7;
             var7 = var4.margin;
             var2['paddingBottom'] = var7;
@@ -708,10 +708,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var4.margin;
             var2['paddingHorizontal'] = var6;
             var3 = 0;
-            if(var5) { _fun0005_ip = 499; continue _fun0005 }
- 493:
+            if(var5) { _fun0005_ip = 495; continue _fun0005 }
+ 489:
             var3 = var4.inset;
- 499:
+ 495:
             var2['marginLeft'] = var3;
             var1['footer'] = var2;
             return var1;

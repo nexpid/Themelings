@@ -82,21 +82,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
                 var1 = arg1;
-                var11 = var1.product;
+                var12 = var1.product;
                 var5 = var1.onPress;
-                var15 = var1.unpublishedAt;
-                var10 = var1.collectibleProductState;
-                var14 = var1.solidBackground;
-                var9 = var1.preferVCPrice;
-                var1 = _closure1_slot7;
+                var16 = var1.unpublishedAt;
+                var11 = var1.collectibleProductState;
+                var15 = var1.solidBackground;
+                var10 = var1.preferVCPrice;
+                var9 = var1.isDisabled;
                 var4 = undefined;
-                var16 = var1.bind(var4)();
+                if(!(var9 === var4)) { _fun0002_ip = 52; continue _fun0002 }
+ 50:
+                var9 = false;
+ 52:
+                var1 = _closure1_slot7;
+                var17 = var1.bind(var4)();
                 var2 = _closure1_slot0;
                 var7 = _closure1_slot2;
                 var1 = 6;
                 var1 = var7[var1];
-                var12 = var2.bind(var4)(var1);
-                var8 = var12.useStateFromStores;
+                var13 = var2.bind(var4)(var1);
+                var8 = var13.useStateFromStores;
                 var1 = _closure1_slot4;
                 var3 = new Array(1);
                 var3[0] = var1;
@@ -113,106 +118,108 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var2.bind(var3)(var1);
                     return var1;
                 };
-                var13 = var8.bind(var12)(var3, var1);
+                var14 = var8.bind(var13)(var3, var1);
                 var3 = _closure1_slot6;
                 var1 = 8;
                 var1 = var7[var1];
                 var1 = var2.bind(var4)(var1);
                 var2 = var1.PressableOpacity;
                 var1 = {};
-                var7 = var16.card;
+                var7 = var17.card;
                 var8 = new Array(2);
                 var8[0] = var7;
                 var7 = null;
-                var12 = var7 == var11;
-                var17 = undefined;
-                if(var12) { _fun0002_ip = 157; continue _fun0002 }
- 152:
-                var17 = var11.type;
- 157:
-                var18 = _closure1_slot0;
-                var19 = _closure1_slot2;
-                var12 = 9;
-                var12 = var19[var12];
-                var12 = var18.bind(var4)(var12);
-                var12 = var12.CollectiblesItemType;
-                var12 = var12.PROFILE_EFFECT;
-                var12 = var17 === var12;
-                if(!var12) { _fun0002_ip = 202; continue _fun0002 }
- 196:
-                var12 = var16.cardProfileEffectBorder;
- 202:
-                var8[1] = var12;
+                var13 = var7 == var12;
+                var18 = undefined;
+                if(var13) { _fun0002_ip = 169; continue _fun0002 }
+ 164:
+                var18 = var12.type;
+ 169:
+                var19 = _closure1_slot0;
+                var20 = _closure1_slot2;
+                var13 = 9;
+                var13 = var20[var13];
+                var13 = var19.bind(var4)(var13);
+                var13 = var13.CollectiblesItemType;
+                var13 = var13.PROFILE_EFFECT;
+                var13 = var18 === var13;
+                if(!var13) { _fun0002_ip = 214; continue _fun0002 }
+ 208:
+                var13 = var17.cardProfileEffectBorder;
+ 214:
+                var8[1] = var13;
                 var1['style'] = var8;
                 var1['onPress'] = var5;
                 var5 = 0.8;
                 var1['activeOpacity'] = var5;
                 var5 = 'button';
                 var1['accessibilityRole'] = var5;
-                if(!(var7 == var15)) { _fun0002_ip = 313; continue _fun0002 }
- 241:
+                if(!(var7 == var16)) { _fun0002_ip = 325; continue _fun0002 }
+ 253:
                 var5 = 'nitroClaim';
                 var7 = null;
-                if(!(var5 === var10)) { _fun0002_ip = 311; continue _fun0002 }
- 253:
-                var12 = _closure1_slot5;
+                if(!(var5 === var11)) { _fun0002_ip = 323; continue _fun0002 }
+ 265:
+                var13 = _closure1_slot5;
                 var8 = _closure1_slot0;
-                var17 = _closure1_slot2;
+                var18 = _closure1_slot2;
                 var5 = 11;
-                var5 = var17[var5];
+                var5 = var18[var5];
                 var5 = var8.bind(var4)(var5);
                 var8 = var5.NitroWheelIcon;
                 var5 = {};
-                var16 = var16.premiumWheel;
-                var5['style'] = var16;
-                var16 = 'header-primary';
-                var5['color'] = var16;
-                var7 = var12.bind(var4)(var8, var5);
- 311:
-                _fun0002_ip = 350; continue _fun0002;
- 313:
-                var12 = _closure1_slot5;
+                var17 = var17.premiumWheel;
+                var5['style'] = var17;
+                var17 = 'header-primary';
+                var5['color'] = var17;
+                var7 = var13.bind(var4)(var8, var5);
+ 323:
+                _fun0002_ip = 362; continue _fun0002;
+ 325:
+                var13 = _closure1_slot5;
                 var8 = _closure1_slot1;
-                var16 = _closure1_slot2;
+                var17 = _closure1_slot2;
                 var5 = 10;
-                var5 = var16[var5];
+                var5 = var17[var5];
                 var8 = var8.bind(var4)(var5);
                 var5 = {};
-                var5['unpublishedAt'] = var15;
-                var7 = var12.bind(var4)(var8, var5);
- 350:
+                var5['unpublishedAt'] = var16;
+                var7 = var13.bind(var4)(var8, var5);
+ 362:
                 var5 = new Array(3);
                 var5[0] = var7;
-                var12 = _closure1_slot5;
+                var13 = _closure1_slot5;
                 var8 = _closure1_slot1;
-                var15 = _closure1_slot2;
+                var16 = _closure1_slot2;
                 var7 = 12;
-                var7 = var15[var7];
+                var7 = var16[var7];
                 var8 = var8.bind(var4)(var7);
                 var7 = {};
-                var7['solidBackground'] = var14;
-                var7['product'] = var11;
-                var7['isDarkTheme'] = var13;
-                var13 = 'purchased';
-                var13 = var13 === var10;
-                if(var13) { _fun0002_ip = 420; continue _fun0002 }
- 410:
-                var14 = 'partiallyOwnedBundle';
-                var13 = var14 === var10;
- 420:
-                var7['isPurchased'] = var13;
-                var7 = var12.bind(var4)(var8, var7);
+                var7['solidBackground'] = var15;
+                var7['product'] = var12;
+                var7['isDarkTheme'] = var14;
+                var14 = 'purchased';
+                var14 = var14 === var11;
+                if(var14) { _fun0002_ip = 432; continue _fun0002 }
+ 422:
+                var15 = 'partiallyOwnedBundle';
+                var14 = var15 === var11;
+ 432:
+                var7['isPurchased'] = var14;
+                var7['isDisabled'] = var9;
+                var7 = var13.bind(var4)(var8, var7);
                 var5[1] = var7;
                 var8 = _closure1_slot5;
                 var7 = _closure1_slot1;
-                var12 = _closure1_slot2;
+                var13 = _closure1_slot2;
                 var6 = 13;
-                var6 = var12[var6];
+                var6 = var13[var6];
                 var7 = var7.bind(var4)(var6);
                 var6 = {};
-                var6['product'] = var11;
-                var6['collectibleProductState'] = var10;
-                var6['preferVCPrice'] = var9;
+                var6['product'] = var12;
+                var6['collectibleProductState'] = var11;
+                var6['preferVCPrice'] = var10;
+                var6['isDisabled'] = var9;
                 var6 = var8.bind(var4)(var7, var6);
                 var5[2] = var6;
                 var1['children'] = var5;
@@ -226,27 +233,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
                 var2 = arg1;
-                var12 = var2.product;
-                var _closure2_slot0 = var12;
-                var9 = var2.unpublishedAt;
-                var8 = var2.solidBackground;
-                var7 = var2.preferVCPrice;
+                var13 = var2.product;
+                var _closure2_slot0 = var13;
+                var10 = var2.unpublishedAt;
+                var9 = var2.solidBackground;
+                var8 = var2.preferVCPrice;
                 var4 = undefined;
                 var _closure2_slot4 = var4;
                 var _closure2_slot5 = var4;
                 var3 = _closure1_slot1;
-                var16 = _closure1_slot2;
+                var17 = _closure1_slot2;
                 var2 = 14;
-                var2 = var16[var2];
+                var2 = var17[var2];
                 var2 = var3.bind(var4)(var2);
                 var2 = var2.bind(var4)();
                 var2 = var2.analyticsLocations;
                 var _closure2_slot1 = var2;
                 var11 = _closure1_slot3;
-                var10 = var11.useCallback;
+                var7 = var11.useCallback;
                 var6 = new Array(2);
                 var6[0] = var2;
-                var6[1] = var12;
+                var6[1] = var13;
                 var2 = function() {
                     var5 = _closure1_slot1;
                     var4 = _closure1_slot2;
@@ -269,70 +276,77 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var3.bind(var4)(var2);
                     return var1;
                 };
-                var11 = var10.bind(var11)(var2, var6);
-                var13 = _closure1_slot0;
+                var12 = var7.bind(var11)(var2, var6);
+                var14 = _closure1_slot0;
                 var2 = 17;
-                var2 = var16[var2];
-                var10 = var13.bind(var4)(var2);
-                var6 = var10.useTrackProductCardImpression;
-                var2 = var12.skuId;
-                var2 = var6.bind(var10)(var2);
+                var2 = var17[var2];
+                var7 = var14.bind(var4)(var2);
+                var6 = var7.useTrackProductCardImpression;
+                var2 = var13.skuId;
+                var2 = var6.bind(var7)(var2);
                 var6 = var2.handleCardVisibilityChange;
                 var2 = 18;
-                var2 = var16[var2];
-                var10 = var13.bind(var4)(var2);
-                var2 = var10.useCurrentUser;
-                var10 = var2.bind(var10)();
+                var2 = var17[var2];
+                var7 = var14.bind(var4)(var2);
+                var2 = var7.useCurrentUser;
+                var7 = var2.bind(var7)();
                 var2 = 19;
-                var2 = var16[var2];
+                var2 = var17[var2];
                 var3 = var3.bind(var4)(var2);
                 var2 = var3.canUseCollectibles;
-                var3 = var2.bind(var3)(var10);
+                var3 = var2.bind(var3)(var7);
                 var2 = 20;
-                var2 = var16[var2];
-                var10 = var13.bind(var4)(var2);
-                var2 = var10.useProductPurchaseState;
-                var2 = var2.bind(var10)(var12);
-                var14 = var2.isPurchased;
-                var _closure2_slot2 = var14;
-                var15 = var2.isPartiallyOwnedBundle;
-                var _closure2_slot3 = var15;
-                var10 = 21;
-                var2 = var16[var10];
-                var17 = var13.bind(var4)(var2);
-                var2 = var17.isPremiumCollectiblesProduct;
-                var2 = var2.bind(var17)(var12);
-                var10 = var16[var10];
-                var13 = var13.bind(var4)(var10);
-                var10 = var13.isFreeCollectiblesProduct;
-                var10 = var10.bind(var13)(var12);
-                var13 = var2;
-                if(!var2) { _fun0003_ip = 293; continue _fun0003 }
- 290:
-                var13 = !var3;
- 293:
-                if(!var13) { _fun0003_ip = 299; continue _fun0003 }
- 296:
-                var13 = !var10;
- 299:
-                _closure2_slot4 = var13;
-                var16 = var10;
-                if(var16) { _fun0003_ip = 318; continue _fun0003 }
- 309:
-                if(!var2) { _fun0003_ip = 315; continue _fun0003 }
- 312:
+                var2 = var17[var2];
+                var7 = var14.bind(var4)(var2);
+                var2 = var7.useProductPurchaseState;
+                var2 = var2.bind(var7)(var13);
+                var15 = var2.isPurchased;
+                var _closure2_slot2 = var15;
+                var16 = var2.isPartiallyOwnedBundle;
+                var _closure2_slot3 = var16;
+                var2 = 21;
+                var2 = var17[var2];
+                var11 = var14.bind(var4)(var2);
+                var7 = var11.useProductDisableState;
+                var2 = var13.skuId;
+                var2 = var7.bind(var11)(var2);
+                var7 = var2.isDisabled;
+                var11 = 22;
+                var2 = var17[var11];
+                var18 = var14.bind(var4)(var2);
+                var2 = var18.isPremiumCollectiblesProduct;
+                var2 = var2.bind(var18)(var13);
+                var11 = var17[var11];
+                var14 = var14.bind(var4)(var11);
+                var11 = var14.isFreeCollectiblesProduct;
+                var11 = var11.bind(var14)(var13);
+                var14 = var2;
+                if(!var2) { _fun0003_ip = 328; continue _fun0003 }
+ 325:
+                var14 = !var3;
+ 328:
+                if(!var14) { _fun0003_ip = 334; continue _fun0003 }
+ 331:
+                var14 = !var11;
+ 334:
+                _closure2_slot4 = var14;
+                var17 = var11;
+                if(var17) { _fun0003_ip = 353; continue _fun0003 }
+ 344:
+                if(!var2) { _fun0003_ip = 350; continue _fun0003 }
+ 347:
                 var2 = var3;
- 315:
-                var16 = var2;
- 318:
-                _closure2_slot5 = var16;
-                var10 = _closure1_slot3;
-                var3 = var10.useMemo;
+ 350:
+                var17 = var2;
+ 353:
+                _closure2_slot5 = var17;
+                var11 = _closure1_slot3;
+                var3 = var11.useMemo;
                 var2 = new Array(4);
-                var2[0] = var16;
-                var2[1] = var15;
-                var2[2] = var14;
-                var2[3] = var13;
+                var2[0] = var17;
+                var2[1] = var16;
+                var2[2] = var15;
+                var2[3] = var14;
                 var1 = function() {
                     _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
@@ -365,23 +379,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     }
                 };
-                var10 = var3.bind(var10)(var1, var2);
+                var11 = var3.bind(var11)(var1, var2);
                 var3 = _closure1_slot5;
                 var2 = _closure1_slot1;
-                var13 = _closure1_slot2;
-                var1 = 22;
-                var1 = var13[var1];
+                var14 = _closure1_slot2;
+                var1 = 23;
+                var1 = var14[var1];
                 var2 = var2.bind(var4)(var1);
                 var1 = {};
                 var1['onChange'] = var6;
                 var6 = _closure1_slot8;
                 var5 = {};
-                var5['product'] = var12;
-                var5['onPress'] = var11;
-                var5['collectibleProductState'] = var10;
-                var5['unpublishedAt'] = var9;
-                var5['solidBackground'] = var8;
-                var5['preferVCPrice'] = var7;
+                var5['product'] = var13;
+                var5['onPress'] = var12;
+                var5['collectibleProductState'] = var11;
+                var5['unpublishedAt'] = var10;
+                var5['solidBackground'] = var9;
+                var5['preferVCPrice'] = var8;
+                var5['isDisabled'] = var7;
                 var5 = var3.bind(var4)(var6, var5);
                 var1['children'] = var5;
                 var1 = var3.bind(var4)(var2, var1);
@@ -389,7 +404,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var5 = var6.bind(var9)(var5);
-        var6 = 23;
+        var6 = 24;
         var6 = var8[var6];
         var8 = var7.bind(var1)(var6);
         var7 = var8.fileFinishedImporting;

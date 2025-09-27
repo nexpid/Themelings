@@ -94,18 +94,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['gap'] = var8;
             var8 = _closure1_slot10;
             var2['paddingHorizontal'] = var8;
-            if(var5) { _fun0001_ip = 111; continue _fun0001 }
- 103:
+            if(var5) { _fun0001_ip = 110; continue _fun0001 }
+ 102:
             var3 = var3.inset;
-            _fun0001_ip = 139; continue _fun0001;
- 111:
+            _fun0001_ip = 138; continue _fun0001;
+ 110:
             var5 = _closure1_slot1;
             var4 = _closure1_slot2;
             var4 = var4[var7];
             var4 = var5.bind(var6)(var4);
             var4 = var4.spacing;
             var3 = var4.PX_32;
- 139:
+ 138:
             var2['marginLeft'] = var3;
             var1['footer'] = var2;
             return var1;

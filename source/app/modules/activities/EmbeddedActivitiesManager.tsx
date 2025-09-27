@@ -1376,6 +1376,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var3.bind(var4)();
                 var1['handleActivityLaunchFail'] = var3;
                 var3 = function(arg1) {
+                    var1 = arg1;
+                    var4 = var1.nonce;
+                    var3 = var1.applicationId;
+                    var2 = _closure1_slot32;
+                    var1 = undefined;
+                    var2 = var2.bind(var1)(var3, var4);
+                    return var1;
+                };
+                var1['handleActivityLaunchCancel'] = var3;
+                var3 = function(arg1) {
                     _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
  0:
                         var1 = arg1;
@@ -2118,6 +2128,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = 'EMBEDDED_ACTIVITY_LAUNCH_FAIL';
             var7 = var9.bind(var10)(var7, var8);
             var7 = var5[var3];
+            var10 = var4.bind(var1)(var7);
+            var9 = var10.subscribe;
+            var8 = var2.handleActivityLaunchCancel;
+            var7 = 'EMBEDDED_ACTIVITY_LAUNCH_CANCEL';
+            var7 = var9.bind(var10)(var7, var8);
+            var7 = var5[var3];
             var9 = var4.bind(var1)(var7);
             var8 = var9.subscribe;
             var7 = _closure1_slot35;
@@ -2235,6 +2251,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var10.unsubscribe;
             var8 = var2.handleActivityLaunchFail;
             var7 = 'EMBEDDED_ACTIVITY_LAUNCH_FAIL';
+            var7 = var9.bind(var10)(var7, var8);
+            var7 = var5[var3];
+            var10 = var4.bind(var1)(var7);
+            var9 = var10.unsubscribe;
+            var8 = var2.handleActivityLaunchCancel;
+            var7 = 'EMBEDDED_ACTIVITY_LAUNCH_CANCEL';
             var7 = var9.bind(var10)(var7, var8);
             var7 = var5[var3];
             var9 = var4.bind(var1)(var7);

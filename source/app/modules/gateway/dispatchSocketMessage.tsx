@@ -5734,7 +5734,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var4 = var8.bind(var1)(var7, var4);
-    var7 = ['GAME_SERVER_CREATE'];
+    var7 = ['GAME_SERVER_CREATE', 'GAME_SERVER_UPDATE'];
     var4 = function(arg1, arg2) {
         var1 = arg1;
         var3 = _closure1_slot26;

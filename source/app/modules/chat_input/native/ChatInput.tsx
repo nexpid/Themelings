@@ -913,24 +913,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var1 = var1.chatInputCover;
                         var5 = var1.current;
                         var1 = null;
-                        if(!(var1 != var5)) { _fun0011_ip = 86; continue _fun0011 }
- 75:
+                        if(!(var1 != var5)) { _fun0011_ip = 87; continue _fun0011 }
+ 76:
                         var3 = var5.focused;
                         var3 = var3.bind(var5)(var7);
- 86:
+ 87:
                         var3 = _closure2_slot6;
                         var3 = var3.chatInputAppCommandManager;
                         var5 = var3.current;
-                        if(!(var1 != var5)) { _fun0011_ip = 115; continue _fun0011 }
- 105:
+                        if(!(var1 != var5)) { _fun0011_ip = 116; continue _fun0011 }
+ 106:
                         var3 = var5.updateState;
                         var3 = var3.bind(var5)();
- 115:
+ 116:
                         var3 = _closure2_slot6;
                         var3 = var3.chatInputAutocomplete;
                         var6 = var3.current;
-                        if(!(var1 != var6)) { _fun0011_ip = 206; continue _fun0011 }
- 134:
+                        if(!(var1 != var6)) { _fun0011_ip = 207; continue _fun0011 }
+ 135:
                         var5 = var6.setData;
                         var3 = {};
                         var3['focused'] = var7;
@@ -946,12 +946,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var7 = var7.selectionEnd;
                         var3['selectionEnd'] = var7;
                         var3 = var5.bind(var6)(var3);
- 206:
+ 207:
                         var2 = _closure2_slot6;
                         var2 = var2.chatInputSendButton;
                         var3 = var2.current;
-                        if(!(var1 != var3)) { _fun0011_ip = 257; continue _fun0011 }
- 225:
+                        if(!(var1 != var3)) { _fun0011_ip = 258; continue _fun0011 }
+ 226:
                         var2 = var3.setHasText;
                         var1 = var4.trim;
                         var1 = var1.bind(var4)();
@@ -959,7 +959,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var1 = 0;
                         var1 = var4 > var1;
                         var1 = var2.bind(var3)(var1);
- 257:
+ 258:
                         var1 = undefined;
                         return var1;
                     }
@@ -996,24 +996,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var1 = var1.chatInputAppCommandManager;
                         var3 = var1.current;
                         var1 = null;
-                        if(!(var1 != var3)) { _fun0012_ip = 149; continue _fun0012 }
- 139:
+                        if(!(var1 != var3)) { _fun0012_ip = 150; continue _fun0012 }
+ 140:
                         var2 = var3.updateState;
                         var2 = var2.bind(var3)();
- 149:
+ 150:
                         var2 = _closure2_slot6;
                         var2 = var2.chatInputCover;
                         var3 = var2.current;
-                        if(!(var1 != var3)) { _fun0012_ip = 179; continue _fun0012 }
- 168:
+                        if(!(var1 != var3)) { _fun0012_ip = 180; continue _fun0012 }
+ 169:
                         var2 = var3.focused;
                         var2 = var2.bind(var3)(var7);
- 179:
+ 180:
                         var2 = _closure2_slot6;
                         var2 = var2.chatInputAutocomplete;
                         var3 = var2.current;
-                        if(!(var1 != var3)) { _fun0012_ip = 249; continue _fun0012 }
- 198:
+                        if(!(var1 != var3)) { _fun0012_ip = 250; continue _fun0012 }
+ 199:
                         var2 = var3.setData;
                         var1 = {};
                         var1['focused'] = var7;
@@ -1025,7 +1025,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var1['selectionStart'] = var5;
                         var1['selectionEnd'] = var4;
                         var1 = var2.bind(var3)(var1);
- 249:
+ 250:
                         var1 = undefined;
                         return var1;
                     }
@@ -1065,13 +1065,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = var2.chatInputAutocomplete;
                         var3 = var2.current;
                         var2 = null;
-                        if(!(var2 != var3)) { _fun0013_ip = 54; continue _fun0013 }
- 32:
+                        if(!(var2 != var3)) { _fun0013_ip = 55; continue _fun0013 }
+ 33:
                         var2 = var3.setChatInputHeight;
                         var1 = var1.layout;
                         var1 = var1.height;
                         var1 = var2.bind(var3)(var1);
- 54:
+ 55:
                         var1 = undefined;
                         return var1;
                     }
@@ -1087,25 +1087,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var4 = var1.width;
                         var2 = 0;
                         var1 = var2 !== var3;
-                        if(!var1) { _fun0014_ip = 37; continue _fun0014 }
- 33:
+                        if(!var1) { _fun0014_ip = 38; continue _fun0014 }
+ 34:
                         var1 = var2 !== var4;
- 37:
-                        if(!var1) { _fun0014_ip = 95; continue _fun0014 }
- 40:
+ 38:
+                        if(!var1) { _fun0014_ip = 96; continue _fun0014 }
+ 41:
                         var2 = _closure2_slot6;
                         var2 = var2.props;
                         var2 = var2.current;
                         var4 = var2.threadCreationCallback;
                         var2 = null;
-                        if(!(var2 == var4)) { _fun0014_ip = 95; continue _fun0014 }
- 69:
+                        if(!(var2 == var4)) { _fun0014_ip = 96; continue _fun0014 }
+ 70:
                         var1 = _closure2_slot6;
                         var1 = var1.chatInput;
                         var2 = var1.current;
                         var1 = var2.updateChatInputContainerHeightDebounced;
                         var1 = var1.bind(var2)(var3);
- 95:
+ 96:
                         var1 = undefined;
                         return var1;
                     }
@@ -1184,30 +1184,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = var2.state;
                         var2 = var2.current;
                         var2 = var2.focused;
-                        if(!var2) { _fun0017_ip = 117; continue _fun0017 }
- 39:
+                        if(!var2) { _fun0017_ip = 118; continue _fun0017 }
+ 40:
                         var2 = _closure2_slot6;
                         var2 = var2.chatInputAppCommandManager;
                         var7 = var2.current;
                         var6 = null;
                         var2 = var6 == var7;
                         var3 = var7;
-                        if(var2) { _fun0017_ip = 83; continue _fun0017 }
- 66:
+                        if(var2) { _fun0017_ip = 84; continue _fun0017 }
+ 67:
                         var5 = var7.getApplicationCommandManager;
                         var5 = var5.bind(var7)();
                         var2 = var6 == var5;
                         var3 = var5;
- 83:
-                        if(var2) { _fun0017_ip = 117; continue _fun0017 }
- 86:
+ 84:
+                        if(var2) { _fun0017_ip = 118; continue _fun0017 }
+ 87:
                         var2 = var3.setPastedCommand;
                         var1 = _closure2_slot6;
                         var1 = var1.props;
                         var1 = var1.current;
                         var1 = var1.channel;
                         var1 = var2.bind(var3)(var4, var1);
- 117:
+ 118:
                         var1 = undefined;
                         return var1;
                     }
@@ -1221,7 +1221,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(var2) { _fun0018_ip = 340; continue _fun0018 }
+                            if(var2) { _fun0018_ip = 341; continue _fun0018 }
  10:
                             var2 = arg1;
                             var2 = var2.nativeEvent;
@@ -1230,25 +1230,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var6 = var2.height;
                             var10 = var2.type;
                             var4 = undefined;
-                            SaveGenerator(address=44);
- 42:
+                            SaveGenerator(address=45);
+ 43:
                             return var4;
- 44:
+ 45:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                            if(var3) { _fun0018_ip = 337; continue _fun0018 }
- 53:
+                            if(var3) { _fun0018_ip = 338; continue _fun0018 }
+ 54:
                             var3 = _closure2_slot6;
                             var3 = var3.state;
                             var3 = var3.current;
                             var3 = var3.focused;
-                            if(!var3) { _fun0018_ip = 331; continue _fun0018 }
- 82:
+                            if(!var3) { _fun0018_ip = 332; continue _fun0018 }
+ 83:
                             var3 = _closure2_slot6;
                             var3 = var3.props;
                             var3 = var3.current;
                             var3 = var3.canUpload;
-                            if(!var3) { _fun0018_ip = 331; continue _fun0018 }
- 108:
+                            if(!var3) { _fun0018_ip = 332; continue _fun0018 }
+ 109:
                             var5 = _closure1_slot0;
                             var12 = _closure1_slot3;
                             var3 = 35;
@@ -1256,13 +1256,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var5 = var5.bind(var4)(var3);
                             var3 = var5.getImageDimensionsIfMissing;
                             var3 = var3.bind(var5)(var11, var7, var6);
-                            SaveGenerator(address=148);
- 146:
+                            SaveGenerator(address=149);
+ 147:
                             return var3;
- 148:
+ 149:
                             ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                            if(var5) { _fun0018_ip = 334; continue _fun0018 }
- 157:
+                            if(var5) { _fun0018_ip = 335; continue _fun0018 }
+ 158:
                             var6 = _closure1_slot1;
                             var12 = _closure1_slot3;
                             var5 = 36;
@@ -1302,13 +1302,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var8 = var8.ChannelMessage;
                             var5['draftType'] = var8;
                             var5 = var6.bind(var7)(var5);
- 331:
+ 332:
                             return var4;
- 334:
+ 335:
                             return var3;
- 337:
+ 338:
                             return var2;
- 340:
+ 341:
                             return var1;
                         }
                     };
@@ -1672,16 +1672,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = var2.chatInputAppCommandManager;
                         var7 = var2.current;
                         var2 = null;
-                        if(!(var2 != var7)) { _fun0020_ip = 179; continue _fun0020 }
- 169:
+                        if(!(var2 != var7)) { _fun0020_ip = 180; continue _fun0020 }
+ 170:
                         var6 = var7.updateState;
                         var6 = var6.bind(var7)();
- 179:
+ 180:
                         var6 = _closure2_slot6;
                         var6 = var6.chatInputAutocomplete;
                         var8 = var6.current;
-                        if(!(var2 != var8)) { _fun0020_ip = 250; continue _fun0020 }
- 198:
+                        if(!(var2 != var8)) { _fun0020_ip = 251; continue _fun0020 }
+ 199:
                         var7 = var8.setData;
                         var6 = {};
                         var11 = _closure2_slot6;
@@ -1693,12 +1693,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var6['selectionStart'] = var10;
                         var6['selectionEnd'] = var9;
                         var6 = var7.bind(var8)(var6);
- 250:
+ 251:
                         var6 = _closure2_slot6;
                         var6 = var6.chatInputSendButton;
                         var8 = var6.current;
-                        if(!(var2 != var8)) { _fun0020_ip = 301; continue _fun0020 }
- 269:
+                        if(!(var2 != var8)) { _fun0020_ip = 302; continue _fun0020 }
+ 270:
                         var7 = var8.setHasText;
                         var6 = var1.trim;
                         var6 = var6.bind(var1)();
@@ -1706,9 +1706,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var6 = 0;
                         var6 = var9 > var6;
                         var6 = var7.bind(var8)(var6);
- 301:
-                        if(!(var4 !== var5)) { _fun0020_ip = 401; continue _fun0020 }
- 305:
+ 302:
+                        if(!(var4 !== var5)) { _fun0020_ip = 402; continue _fun0020 }
+ 306:
                         var4 = _closure2_slot6;
                         var4 = var4.chatInput;
                         var5 = var4.current;
@@ -1717,12 +1717,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var3 = _closure2_slot6;
                         var3 = var3.chatInputCharCounter;
                         var3 = var3.current;
-                        if(!(var2 != var3)) { _fun0020_ip = 366; continue _fun0020 }
- 350:
+                        if(!(var2 != var3)) { _fun0020_ip = 367; continue _fun0020 }
+ 351:
                         var2 = var3.onMessageLengthChanged;
                         var1 = var1.length;
                         var1 = var2.bind(var3)(var1);
- 366:
+ 367:
                         var3 = _closure1_slot0;
                         var2 = _closure1_slot3;
                         var1 = 50;
@@ -1731,7 +1731,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = var3.bind(var1)(var2);
                         var1 = var2.hideContextMenu;
                         var1 = var1.bind(var2)();
- 401:
+ 402:
                         var1 = undefined;
                         return var1;
                     }
@@ -1745,8 +1745,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = var1.tapAction;
                         var3 = var2.action;
                         var1 = 'tapAttachment';
-                        if(!(var1 === var3)) { _fun0021_ip = 178; continue _fun0021 }
- 32:
+                        if(!(var1 === var3)) { _fun0021_ip = 179; continue _fun0021 }
+ 33:
                         var1 = _closure2_slot6;
                         var1 = var1.chatInput;
                         var3 = var1.current;
@@ -1770,8 +1770,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var7 = var7.state;
                         var7 = var7.current;
                         var7 = var7.focused;
-                        if(!var7) { _fun0021_ip = 159; continue _fun0021 }
- 150:
+                        if(!var7) { _fun0021_ip = 160; continue _fun0021 }
+ 151:
                         var1 = function() {
                             var1 = _closure2_slot6;
                             var1 = var1.chatInput;
@@ -1780,14 +1780,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var1 = var1.bind(var2)();
                             return var1;
                         };
- 159:
+ 160:
                         var12 = var6;
                         var11 = var4;
                         var10 = var3;
                         var9 = var2;
                         var8 = var1;
                         var1 = var12[var5](var11, var10, var9, var8, var7);
- 178:
+ 179:
                         var1 = undefined;
                         return var1;
                     }
@@ -1909,11 +1909,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var1 = var2.get;
                         var2 = var1.bind(var2)(var4);
                         var1 = null;
-                        if(!(var1 != var2)) { _fun0023_ip = 60; continue _fun0023 }
- 53:
+                        if(!(var1 != var2)) { _fun0023_ip = 61; continue _fun0023 }
+ 54:
                         var1 = undefined;
                         var1 = var2.bind(var1)(var3);
- 60:
+ 61:
                         var1 = undefined;
                         return var1;
                     }

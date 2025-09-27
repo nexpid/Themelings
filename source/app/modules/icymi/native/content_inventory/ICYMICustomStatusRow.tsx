@@ -216,10 +216,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['position'] = var8;
             var10 = arg2;
             var8 = 0;
-            if(var10) { _fun0002_ip = 264; continue _fun0002 }
- 258:
+            if(var10) { _fun0002_ip = 263; continue _fun0002 }
+ 257:
             var8 = var9.inset;
- 264:
+ 263:
             var2['marginLeft'] = var8;
             var1['cardContainer'] = var2;
             var2 = {'gap': null, 'alignItems': 'center', 'justifyContent': 'center', 'padding': null, 'borderRadius': null, 'width': '100%', 'zIndex': 1};
@@ -236,10 +236,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['borderRadius'] = var8;
             var8 = 1;
             var10 = 17;
-            if(!var12) { _fun0002_ip = 357; continue _fun0002 }
- 355:
+            if(!var12) { _fun0002_ip = 356; continue _fun0002 }
+ 354:
             var10 = 0;
- 357:
+ 356:
             var2['marginBottom'] = var10;
             var2['overflow'] = var4;
             var1['card'] = var2;

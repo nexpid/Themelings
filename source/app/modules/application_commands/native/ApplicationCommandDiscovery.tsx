@@ -624,16 +624,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var1 == var4;
                     var1 = undefined;
                     var2 = undefined;
-                    if(var5) { _fun0009_ip = 45; continue _fun0009 }
- 40:
+                    if(var5) { _fun0009_ip = 46; continue _fun0009 }
+ 41:
                     var2 = var4.y;
- 45:
-                    if(!(var3 === var2)) { _fun0009_ip = 64; continue _fun0009 }
- 49:
+ 46:
+                    if(!(var3 === var2)) { _fun0009_ip = 65; continue _fun0009 }
+ 50:
                     var3 = _closure2_slot6;
                     var2 = false;
                     var3['current'] = var2;
- 64:
+ 65:
                     return var1;
                 }
             };
@@ -990,28 +990,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = var7.bind(var1)(var6);
                     var7 = _closure2_slot6;
                     var7 = var7.current;
-                    if(var7) { _fun0014_ip = 287; continue _fun0014 }
- 66:
+                    if(var7) { _fun0014_ip = 288; continue _fun0014 }
+ 67:
                     var7 = _closure2_slot9;
                     var7 = var7.length;
                     var13 = 0;
-                    if(!(var7 > var13)) { _fun0014_ip = 287; continue _fun0014 }
- 84:
+                    if(!(var7 > var13)) { _fun0014_ip = 288; continue _fun0014 }
+ 85:
                     var7 = var3.top;
-                    if(!(!(var6 < var7))) { _fun0014_ip = 247; continue _fun0014 }
- 96:
+                    if(!(!(var6 < var7))) { _fun0014_ip = 248; continue _fun0014 }
+ 97:
                     var8 = var4.height;
                     var7 = var5.height;
                     var7 = var8 - var7;
                     var3 = var3.bottom;
                     var3 = var7 - var3;
-                    if(!(var6 > var3)) { _fun0014_ip = 287; continue _fun0014 }
- 126:
+                    if(!(var6 > var3)) { _fun0014_ip = 288; continue _fun0014 }
+ 127:
                     var3 = _closure2_slot3;
                     var8 = var3.current;
                     var3 = null;
-                    if(!(var3 != var8)) { _fun0014_ip = 287; continue _fun0014 }
- 144:
+                    if(!(var3 != var8)) { _fun0014_ip = 288; continue _fun0014 }
+ 145:
                     var7 = var8.scrollToLocation;
                     var3 = {};
                     var9 = _closure2_slot9;
@@ -1035,32 +1035,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var9 = false;
                     var3['animated'] = var9;
                     var3 = var7.bind(var8)(var3);
-                    _fun0014_ip = 287; continue _fun0014;
- 247:
+                    _fun0014_ip = 288; continue _fun0014;
+ 248:
                     var3 = _closure2_slot3;
                     var8 = var3.current;
                     var3 = null;
-                    if(!(var3 != var8)) { _fun0014_ip = 287; continue _fun0014 }
- 262:
+                    if(!(var3 != var8)) { _fun0014_ip = 288; continue _fun0014 }
+ 263:
                     var7 = var8.scrollToLocation;
                     var3 = {'sectionIndex': 0, 'itemIndex': 0, 'viewPosition': 0, 'animated': false};
                     var3 = var7.bind(var8)(var3);
- 287:
+ 288:
                     var3 = _closure2_slot11;
-                    if(!var3) { _fun0014_ip = 323; continue _fun0014 }
- 294:
+                    if(!var3) { _fun0014_ip = 324; continue _fun0014 }
+ 295:
                     var5 = var5.height;
                     var5 = var6 + var5;
                     var6 = var4.height;
                     var4 = _closure1_slot17;
                     var4 = var6 - var4;
                     var3 = var5 >= var4;
- 323:
-                    if(!var3) { _fun0014_ip = 334; continue _fun0014 }
- 326:
+ 324:
+                    if(!var3) { _fun0014_ip = 335; continue _fun0014 }
+ 327:
                     var2 = _closure2_slot13;
                     var2 = var2.bind(var1)();
- 334:
+ 335:
                     return var1;
                 }
             };

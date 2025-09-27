@@ -213,6 +213,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var7.bind(var4)(var6);
         var7 = var6.TTIFirstContentfulPaint;
         var6 = {};
+        var9 = 'message_requests';
+        var6['label'] = var9;
         var6 = var8.bind(var4)(var7, var6);
         var5[2] = var6;
         var1['children'] = var5;

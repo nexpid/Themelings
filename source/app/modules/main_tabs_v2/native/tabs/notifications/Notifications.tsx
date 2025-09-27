@@ -143,6 +143,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var13.bind(var4)(var12);
             var13 = var12.TTIFirstContentfulPaint;
             var12 = {};
+            var15 = 'notifications';
+            var12['label'] = var15;
             var12 = var14.bind(var4)(var13, var12);
             var11[2] = var12;
             var8['children'] = var11;
