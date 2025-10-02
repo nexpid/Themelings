@@ -896,7 +896,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var5['get'] = var1;
-        var1 = new Array(26);
+        var1 = new Array(27);
         var1[0] = var5;
         var5 = {};
         var7 = 'excludedQuests';
@@ -1190,7 +1190,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = {};
         var7 = 'isQuestExpired';
         var5['key'] = var7;
-        var6 = function value(arg1) {
+        var7 = function value(arg1) {
             _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
  0:
                 var3 = _closure1_slot29;
@@ -1206,8 +1206,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             }
         };
-        var5['value'] = var6;
+        var5['value'] = var7;
         var1[25] = var5;
+        var5 = {};
+        var7 = 'getQuestLoadedViaPreview';
+        var5['key'] = var7;
+        var6 = function value(arg1) {
+            var3 = _closure1_slot31;
+            var2 = var3.get;
+            var1 = arg1;
+            var1 = var2.bind(var3)(var1);
+            return var1;
+        };
+        var5['value'] = var6;
+        var1[26] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

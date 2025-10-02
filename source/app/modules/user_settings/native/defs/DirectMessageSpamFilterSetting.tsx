@@ -1,0 +1,180 @@
+// app/modules/user_settings/native/defs/DirectMessageSpamFilterSetting.tsx
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var3 = exports;
+    var6 = dependencyMap;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var2);
+    var1 = 0;
+    var7 = var6[var1];
+    var2 = metroImportAll;
+    var1 = undefined;
+    var2 = var2.bind(var1)(var7);
+    var _closure1_slot2 = var2;
+    var2 = 1;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var2 = var2.ExplicitContentFilterToDmSpamFilterV2;
+    var _closure1_slot3 = var2;
+    var2 = 2;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var7 = var2.MobileSetting;
+    var2 = {};
+    var8 = 3;
+    var8 = var6[var8];
+    var8 = var5.bind(var1)(var8);
+    var8 = var8.RendererType;
+    var8 = var8.RADIO;
+    var2['type'] = var8;
+    var8 = 7;
+    var9 = var6[var8];
+    var9 = var5.bind(var1)(var9);
+    var10 = var9.intl;
+    var9 = var10.string;
+    var8 = var6[var8];
+    var8 = var5.bind(var1)(var8);
+    var8 = var8.t;
+    var8 = var8.tiCXaG;
+    var8 = var9.bind(var10)(var8);
+    var2['title'] = var8;
+    var7 = var7.CONTENT_AND_SOCIAL_DISCORD;
+    var2['parent'] = var7;
+    var7 = function useDmSpamFilterSettingOptions() {
+        var4 = _closure1_slot2;
+        var3 = var4.useMemo;
+        var2 = function() {
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var1 = 6;
+            var2 = var2[var1];
+            var1 = undefined;
+            var2 = var3.bind(var1)(var2);
+            var1 = var2.generateDmSpamOptions;
+            var3 = var1.bind(var2)();
+            var2 = var3.map;
+            var1 = function(arg1) {
+                var2 = arg1;
+                var1 = {};
+                var3 = var2.value;
+                var1['value'] = var3;
+                var3 = var2.name;
+                var1['label'] = var3;
+                var2 = var2.desc;
+                var1['subLabel'] = var2;
+                return var1;
+            };
+            var1 = var2.bind(var3)(var1);
+            return var1;
+        };
+        var1 = new Array(0);
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
+    };
+    var2['useOptions'] = var7;
+    var7 = function useDmSpamFilterSettingValue() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+ 0:
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var6 = 4;
+            var1 = var2[var6];
+            var5 = undefined;
+            var1 = var4.bind(var5)(var1);
+            var7 = var1.DmSpamFilterV2;
+            var1 = var7.useSetting;
+            var1 = var1.bind(var7)();
+            var6 = var2[var6];
+            var6 = var4.bind(var5)(var6);
+            var7 = var6.ExplicitContentFilter;
+            var6 = var7.useSetting;
+            var7 = var6.bind(var7)();
+            var6 = 5;
+            var2 = var2[var6];
+            var2 = var4.bind(var5)(var2);
+            var2 = var2.DmSpamFilterV2;
+            var2 = var2.DEFAULT_UNSET;
+            if(!(var1 === var2)) { _fun0001_ip = 146; continue _fun0001 }
+ 94:
+            var4 = _closure1_slot3;
+            var2 = var4.get;
+            var2 = var2.bind(var4)(var7);
+            var4 = null;
+            if(!(var4 == var2)) { _fun0001_ip = 143; continue _fun0001 }
+ 114:
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var3 = var3[var6];
+            var3 = var4.bind(var5)(var3);
+            var3 = var3.DmSpamFilterV2;
+            var2 = var3.NON_FRIENDS;
+ 143:
+            var1 = var2;
+ 146:
+            return var1;
+        }
+    };
+    var2['useValue'] = var7;
+    var7 = function onDmSpamFilterSettingValueChange(arg1) {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 4;
+        var2 = var2[var1];
+        var1 = undefined;
+        var2 = var3.bind(var1)(var2);
+        var4 = var2.DmSpamFilterV2;
+        var3 = var4.updateSetting;
+        var2 = global;
+        var5 = var2.Number;
+        var2 = arg1;
+        var2 = var5.bind(var1)(var2);
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var2['onValueChange'] = var7;
+    var4 = function additionalSearchTerms() {
+        var6 = _closure1_slot0;
+        var7 = _closure1_slot1;
+        var2 = 7;
+        var1 = var7[var2];
+        var5 = undefined;
+        var1 = var6.bind(var5)(var1);
+        var4 = var1.intl;
+        var3 = var4.string;
+        var1 = var7[var2];
+        var1 = var6.bind(var5)(var1);
+        var1 = var1.t;
+        var1 = var1.H9XOl5;
+        var3 = var3.bind(var4)(var1);
+        var1 = new Array(2);
+        var1[0] = var3;
+        var3 = var7[var2];
+        var3 = var6.bind(var5)(var3);
+        var4 = var3.intl;
+        var3 = var4.string;
+        var2 = var7[var2];
+        var2 = var6.bind(var5)(var2);
+        var2 = var2.t;
+        var2 = var2.k4W40N;
+        var2 = var3.bind(var4)(var2);
+        var1[1] = var2;
+        return var1;
+    };
+    var2['additionalSearchTerms'] = var4;
+    var4 = 8;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/user_settings/native/defs/DirectMessageSpamFilterSetting.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
+})();

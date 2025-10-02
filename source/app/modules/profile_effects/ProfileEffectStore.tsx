@@ -96,29 +96,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot11 = var8;
     var _closure1_slot12 = var2;
     var _closure1_slot13 = var2;
-    var2 = function handleProfileEffectUpdate(arg1) {
+    var2 = function handleProfileEffectUpdate(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
             var4 = arg1;
-            var5 = _closure1_slot0;
-            var3 = _closure1_slot1;
+            var3 = arg2;
+            var6 = _closure1_slot0;
+            var5 = _closure1_slot1;
             var1 = 7;
-            var3 = var3[var1];
+            var5 = var5[var1];
             var1 = undefined;
-            var5 = var5.bind(var1)(var3);
-            var3 = var5.isEqual;
-            var6 = _closure1_slot8;
-            var1 = var4.id;
-            var1 = var6[var1];
-            var1 = var3.bind(var5)(var1, var4);
+            var6 = var6.bind(var1)(var5);
+            var5 = var6.isEqual;
+            var1 = _closure1_slot8;
+            var1 = var1[var4];
+            var1 = var5.bind(var6)(var1, var3);
             var1 = !var1;
-            if(!var1) { _fun0002_ip = 74; continue _fun0002 }
- 59:
-            var3 = _closure1_slot8;
-            var2 = var4.id;
-            var3[var2] = var4;
+            if(!var1) { _fun0002_ip = 67; continue _fun0002 }
+ 57:
+            var2 = _closure1_slot8;
+            var2[var4] = var3;
             var1 = true;
- 74:
+ 67:
             return var1;
         }
     };
@@ -133,26 +132,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = function(arg1) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                var5 = arg1;
-                var3 = _closure1_slot7;
+                var6 = arg1;
+                var2 = _closure1_slot7;
                 var1 = undefined;
-                var3 = var3.bind(var1)(var5);
-                if(!var3) { _fun0003_ip = 71; continue _fun0003 }
+                var2 = var2.bind(var1)(var6);
+                if(!var2) { _fun0003_ip = 78; continue _fun0003 }
  20:
-                var4 = {};
-                var3 = var5.id;
-                var4['id'] = var3;
-                var6 = _closure2_slot0;
-                var6 = var6.skuId;
-                var4['skuId'] = var6;
-                var4['config'] = var5;
-                var2 = _closure1_slot14;
-                var2 = var2.bind(var1)(var4);
-                if(!var2) { _fun0003_ip = 71; continue _fun0003 }
- 65:
+                var5 = {};
+                var2 = var6.id;
+                var5['id'] = var2;
+                var2 = _closure2_slot0;
+                var7 = var2.skuId;
+                var5['skuId'] = var7;
+                var5['config'] = var6;
+                var4 = _closure1_slot14;
+                var2 = var2.skuId;
+                var2 = var4.bind(var1)(var2, var5);
+                if(!var2) { _fun0003_ip = 78; continue _fun0003 }
+ 72:
                 var2 = true;
                 _closure2_slot1 = var2;
- 71:
+ 78:
                 return var1;
             }
         };
@@ -280,7 +280,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = new Array(4);
         var1[0] = var5;
         var5 = {};
-        var7 = 'getProfileEffectById';
+        var7 = 'getProfileEffect';
         var5['key'] = var7;
         var7 = function value(arg1) {
             _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
@@ -345,15 +345,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var3.forEach;
         var1 = function(arg1) {
             var1 = arg1;
-            var3 = _closure1_slot14;
+            var4 = _closure1_slot14;
+            var3 = var1.skuId;
             var2 = {};
-            var4 = var1.id;
-            var2['id'] = var4;
-            var4 = var1.skuId;
-            var2['skuId'] = var4;
+            var5 = var1.id;
+            var2['id'] = var5;
+            var5 = var1.skuId;
+            var2['skuId'] = var5;
             var2['config'] = var1;
             var1 = undefined;
-            var2 = var3.bind(var1)(var2);
+            var2 = var4.bind(var1)(var3, var2);
             return var1;
         };
         var1 = var2.bind(var3)(var1);

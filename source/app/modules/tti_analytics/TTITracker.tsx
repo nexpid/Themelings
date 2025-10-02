@@ -2643,55 +2643,55 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = null;
                     var7 = var5 == var3;
                     var6 = undefined;
-                    if(var7) { _fun0025_ip = 3008; continue _fun0025 }
- 3002:
+                    if(var7) { _fun0025_ip = 3002; continue _fun0025 }
+ 2996:
                     var6 = var3.guilds;
- 3008:
+ 3002:
                     var3 = 'cache_num_guilds';
                     var1[var3] = var6;
                     var3 = var2.cacheInfo;
                     var7 = var5 == var3;
                     var6 = undefined;
-                    if(var7) { _fun0025_ip = 3040; continue _fun0025 }
- 3034:
+                    if(var7) { _fun0025_ip = 3034; continue _fun0025 }
+ 3028:
                     var6 = var3.privateChannels;
- 3040:
+ 3034:
                     var3 = 'cache_num_private_channels';
                     var1[var3] = var6;
                     var3 = var2.cacheInfo;
                     var7 = var5 == var3;
                     var6 = undefined;
-                    if(var7) { _fun0025_ip = 3072; continue _fun0025 }
- 3066:
+                    if(var7) { _fun0025_ip = 3066; continue _fun0025 }
+ 3060:
                     var6 = var3.basicChannels;
- 3072:
+ 3066:
                     var3 = 'cache_num_basic_channels';
                     var1[var3] = var6;
                     var3 = var2.cacheInfo;
                     var7 = var5 == var3;
                     var6 = undefined;
-                    if(var7) { _fun0025_ip = 3104; continue _fun0025 }
- 3098:
+                    if(var7) { _fun0025_ip = 3098; continue _fun0025 }
+ 3092:
                     var6 = var3.basicChannelsStale;
- 3104:
+ 3098:
                     var3 = 'cache_num_basic_channels_stale';
                     var1[var3] = var6;
                     var3 = var2.cacheInfo;
                     var7 = var5 == var3;
                     var6 = undefined;
-                    if(var7) { _fun0025_ip = 3136; continue _fun0025 }
- 3130:
+                    if(var7) { _fun0025_ip = 3130; continue _fun0025 }
+ 3124:
                     var6 = var3.fullChannels;
- 3136:
+ 3130:
                     var3 = 'cache_num_full_channels';
                     var1[var3] = var6;
                     var3 = var2.cacheInfo;
                     var5 = var5 == var3;
                     var4 = undefined;
-                    if(var5) { _fun0025_ip = 3168; continue _fun0025 }
- 3162:
+                    if(var5) { _fun0025_ip = 3162; continue _fun0025 }
+ 3156:
                     var4 = var3.fullChannelGuilds;
- 3168:
+ 3162:
                     var3 = 'cache_num_full_channel_guilds';
                     var1[var3] = var4;
                     var3 = var2.loadIndex;

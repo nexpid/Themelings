@@ -546,7 +546,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = undefined;
             var4 = var2.bind(var6)(var1);
             var2 = var4.useProfileEffectPreset;
-            var1 = var7.profileEffectId;
+            var1 = var7.skuId;
             var2 = var2.bind(var4)(var1);
             var1 = null;
             var4 = var1 == var2;

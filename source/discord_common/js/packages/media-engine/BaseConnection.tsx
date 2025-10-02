@@ -443,7 +443,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(29);
+        var1 = new Array(28);
         var1[0] = var5;
         var5 = {};
         var8 = 'getLocalMute';
@@ -1025,22 +1025,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5['value'] = var8;
         var1[20] = var5;
         var5 = {};
-        var8 = 'setGoLiveUsePixelCounts';
-        var5['key'] = var8;
-        var8 = function value(arg1, arg2, arg3) {
-            var1 = this;
-            var5 = var1.videoQualityManager;
-            var4 = var5.setGoLiveUsePixelCounts;
-            var3 = arg1;
-            var2 = arg2;
-            var1 = arg3;
-            var1 = var4.bind(var5)(var3, var2, var1);
-            var1 = undefined;
-            return var1;
-        };
-        var5['value'] = var8;
-        var1[21] = var5;
-        var5 = {};
         var8 = 'applyQualityConstraints';
         var5['key'] = var8;
         var8 = function value() {
@@ -1061,7 +1045,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var5['value'] = var8;
-        var1[22] = var5;
+        var1[21] = var5;
         var5 = {};
         var8 = 'pickProperties';
         var5['key'] = var8;
@@ -1097,7 +1081,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var5['value'] = var8;
-        var1[23] = var5;
+        var1[22] = var5;
         var5 = {};
         var8 = 'initializeStreamParameters';
         var5['key'] = var8;
@@ -1212,7 +1196,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var5['value'] = var8;
-        var1[24] = var5;
+        var1[23] = var5;
         var5 = {};
         var8 = 'getLocalWant';
         var5['key'] = var8;
@@ -1302,7 +1286,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var5['value'] = var8;
-        var1[25] = var5;
+        var1[24] = var5;
         var5 = {};
         var8 = 'getRemoteVideoSinkWants';
         var5['key'] = var8;
@@ -1314,7 +1298,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var5['value'] = var8;
-        var1[26] = var5;
+        var1[25] = var5;
         var5 = {};
         var8 = 'getRemoteVideoSinkPixelCount';
         var5['key'] = var8;
@@ -1348,7 +1332,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var5['value'] = var8;
-        var1[27] = var5;
+        var1[26] = var5;
         var5 = {};
         var8 = 'emitStats';
         var5['key'] = var8;
@@ -1407,7 +1391,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var5['value'] = var6;
-        var1[28] = var5;
+        var1[27] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

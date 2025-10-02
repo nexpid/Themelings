@@ -879,10 +879,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var14.none;
     var11['borderRadius'] = var14;
     var4['avatarContainer'] = var11;
-    var15 = 'center';
-    var11 = {'flexDirection': 'row', 'alignItems': 'center', 'marginBottom': 8};
+    var11 = {'flexDirection': 'row', 'alignItems': 'flex-start', 'marginBottom': 8, 'marginLeft': 16, 'marginRight': 16};
     var4['inviteJoinContainer'] = var11;
     var11 = {};
+    var15 = 'center';
     var11['textAlign'] = var15;
     var4['inviteJoinText'] = var11;
     var11 = {'display': 'flex', 'flexDirection': 'row'};
@@ -1401,15 +1401,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17 = var21[var17];
             var17 = var20.bind(var4)(var17);
             var17 = var17.t;
-            if(var16) { _fun0010_ip = 888; continue _fun0010 }
- 873:
+            if(var16) { _fun0010_ip = 884; continue _fun0010 }
+ 869:
             var16 = var17.ndsK4e;
             var16 = var18.bind(var19)(var16);
-            _fun0010_ip = 899; continue _fun0010;
- 888:
+            _fun0010_ip = 895; continue _fun0010;
+ 884:
             var17 = var17.WAI6xs;
             var16 = var18.bind(var19)(var17);
- 899:
+ 895:
             var10['text'] = var16;
             var15 = function handleCancelPress() {
                 var4 = _closure2_slot2;

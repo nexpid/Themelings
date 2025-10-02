@@ -436,9 +436,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = 27;
             var1 = var7[var1];
             var5 = undefined;
-            var1 = var2.bind(var5)(var1);
-            var4 = var1.HangStatusExperiment;
-            var2 = var4.useExperiment;
+            var4 = var2.bind(var5)(var1);
+            var2 = var4.useHangStatusExperiment;
             var1 = {};
             var8 = var3.guild_id;
             var1['guildId'] = var8;
@@ -453,11 +452,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = true;
             var2 = var2.bind(var5)(var3, var1);
             var1 = null;
-            if(!var4) { _fun0004_ip = 275; continue _fun0004 }
- 113:
+            if(!var4) { _fun0004_ip = 269; continue _fun0004 }
+ 107:
             var1 = null;
-            if(!var2) { _fun0004_ip = 275; continue _fun0004 }
- 121:
+            if(!var2) { _fun0004_ip = 269; continue _fun0004 }
+ 115:
             var4 = _closure1_slot16;
             var9 = _closure1_slot0;
             var10 = _closure1_slot2;
@@ -508,7 +507,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var7.bind(var8)(var6);
             var2['label'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 275:
+ 269:
             return var1;
         }
     };

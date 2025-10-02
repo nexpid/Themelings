@@ -55,71 +55,53 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var5)(var2);
             var2 = var2.ExplicitContentRedaction;
             var2 = var2.UNSET_EXPLICIT_CONTENT_REDACTION;
-            if(!(var1 === var2)) { _fun0001_ip = 297; continue _fun0001 }
+            if(!(var1 === var2)) { _fun0001_ip = 229; continue _fun0001 }
  83:
             var8 = _closure1_slot3;
             var2 = var8.getCurrentUser;
             var2 = var2.bind(var8)();
             var9 = _closure1_slot0;
-            var8 = _closure1_slot1;
-            var11 = 4;
-            var8 = var8[var11];
-            var9 = var9.bind(var5)(var8);
-            var8 = var9.isEligibleForSensitiveContentDefaultsMixed;
-            var10 = 'resolveSettingWithDefaults';
-            var8 = var8.bind(var9)(var10);
-            if(var8) { _fun0001_ip = 274; continue _fun0001 }
- 142:
-            var9 = _closure1_slot0;
-            var8 = _closure1_slot1;
-            var8 = var8[var11];
-            var9 = var9.bind(var5)(var8);
-            var8 = var9.isEligibleForSensitiveContentDefaultsAllBlur;
-            var8 = var8.bind(var9)(var10);
-            if(var8) { _fun0001_ip = 240; continue _fun0001 }
- 173:
+            var10 = _closure1_slot1;
+            var8 = 4;
+            var8 = var10[var8];
+            var10 = var9.bind(var5)(var8);
+            var9 = var10.isEligibleForSettingsDefaultsAggregate;
+            var8 = 'resolveSettingWithDefaults';
+            var8 = var9.bind(var10)(var8);
+            if(var8) { _fun0001_ip = 206; continue _fun0001 }
+ 139:
             var8 = var4 == var2;
             var4 = undefined;
-            if(var8) { _fun0001_ip = 188; continue _fun0001 }
- 182:
+            if(var8) { _fun0001_ip = 154; continue _fun0001 }
+ 148:
             var4 = var2.nsfwAllowed;
- 188:
+ 154:
             var2 = false;
-            if(!(var2 !== var4)) { _fun0001_ip = 217; continue _fun0001 }
- 194:
+            if(!(var2 !== var4)) { _fun0001_ip = 183; continue _fun0001 }
+ 160:
             var4 = _closure1_slot7;
             var2 = {};
             var2['isDm'] = var7;
             var2['isFriend'] = var6;
             var2 = var4.bind(var5)(var2);
-            _fun0001_ip = 238; continue _fun0001;
- 217:
+            _fun0001_ip = 204; continue _fun0001;
+ 183:
             var8 = _closure1_slot8;
             var4 = {};
             var4['isDm'] = var7;
             var4['isFriend'] = var6;
             var2 = var8.bind(var5)(var4);
- 238:
-            _fun0001_ip = 272; continue _fun0001;
- 240:
-            var8 = _closure1_slot0;
-            var9 = _closure1_slot1;
-            var4 = 3;
-            var4 = var9[var4];
-            var4 = var8.bind(var5)(var4);
-            var4 = var4.ExplicitContentRedaction;
-            var2 = var4.BLUR;
- 272:
-            _fun0001_ip = 295; continue _fun0001;
- 274:
+ 204:
+            _fun0001_ip = 227; continue _fun0001;
+ 206:
             var4 = _closure1_slot6;
             var3 = {};
             var3['isDm'] = var7;
             var3['isFriend'] = var6;
             var2 = var4.bind(var5)(var3);
- 295:
+ 227:
             return var2;
- 297:
+ 229:
             return var1;
         }
     };

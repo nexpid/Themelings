@@ -221,16 +221,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
                     var2 = _closure1_slot8;
-                    var1 = var2.getProps;
-                    var1 = var1.bind(var2)();
-                    var2 = var1.analyticsLocation;
+                    var1 = var2.getAnalyticsLocation;
+                    var2 = var1.bind(var2)();
                     var1 = null;
                     var3 = var1 == var2;
                     var1 = undefined;
-                    if(var3) { _fun0002_ip = 39; continue _fun0002 }
- 34:
+                    if(var3) { _fun0002_ip = 35; continue _fun0002 }
+ 30:
                     var1 = var2.section;
- 39:
+ 35:
                     return var1;
                 }
             };

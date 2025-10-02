@@ -316,7 +316,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var15.profileEffect;
  734:
             var9 = var14 != var9;
-            if(!var9) { _fun0002_ip = 808; continue _fun0002 }
+            if(!var9) { _fun0002_ip = 809; continue _fun0002 }
  741:
             var12 = _closure1_slot7;
             var11 = _closure1_slot1;
@@ -327,16 +327,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = {};
             var16 = var14 == var15;
             var14 = undefined;
-            if(var16) { _fun0002_ip = 787; continue _fun0002 }
+            if(var16) { _fun0002_ip = 788; continue _fun0002 }
  776:
             var15 = var15.profileEffect;
-            var14 = var15.id;
- 787:
-            var10['profileEffectId'] = var14;
+            var14 = var15.skuId;
+ 788:
+            var10['skuId'] = var14;
             var13 = var13.profileEffect;
             var10['style'] = var13;
             var9 = var12.bind(var4)(var11, var10);
- 808:
+ 809:
             var8[2] = var9;
             var5['children'] = var8;
             var5 = var7.bind(var4)(var6, var5);

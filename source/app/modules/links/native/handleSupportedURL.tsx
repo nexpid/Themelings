@@ -72,37 +72,37 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 9;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.MobileSetting;
+    var4 = var4.NativePermissionTypes;
     var _closure1_slot18 = var4;
     var4 = 10;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.NativePermissionTypes;
+    var4 = var4.OAUTH2_AUTHORIZE_MODAL_KEY;
     var _closure1_slot19 = var4;
     var4 = 11;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.OAUTH2_AUTHORIZE_MODAL_KEY;
+    var4 = var4.FAMILY_CENTER_LINK_REQUEST_REGEX;
     var _closure1_slot20 = var4;
     var4 = 12;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.FAMILY_CENTER_LINK_REQUEST_REGEX;
+    var4 = var4.ApplePaymentLinkDeepLinkActions;
     var _closure1_slot21 = var4;
     var4 = 13;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.ApplePaymentLinkDeepLinkActions;
+    var4 = var4.QuestsExperimentLocations;
     var _closure1_slot22 = var4;
     var4 = 14;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.QuestsExperimentLocations;
+    var4 = var4.SHARE_SCREEN_MODAL_KEY;
     var _closure1_slot23 = var4;
     var4 = 15;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.SHARE_SCREEN_MODAL_KEY;
+    var4 = var4.MobileSetting;
     var _closure1_slot24 = var4;
     var4 = 72;
     var4 = var6[var4];
@@ -327,7 +327,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = var5.bind(var3)(var4);
                     var5 = var6.isQuestPreviewTool2Enabled;
                     var4 = {};
-                    var8 = _closure1_slot23;
+                    var8 = _closure1_slot22;
                     var8 = var8.QUEST_PREVIEW_TOOL_2;
                     var4['location'] = var8;
                     var4 = var5.bind(var6)(var4);
@@ -431,7 +431,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var4.CONTENT_AND_SOCIAL;
                     var6['screen'] = var4;
                     var4 = {};
-                    var5 = _closure1_slot18;
+                    var5 = _closure1_slot24;
                     var5 = var5.CONNECTED_GAMES;
                     var4['tab'] = var5;
                     var6['params'] = var4;
@@ -640,12 +640,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
                             var4 = _closure3_slot8;
-                            var3 = _closure1_slot22;
+                            var3 = _closure1_slot21;
                             var3 = var3.PREMIUM_CHECKOUT_SUCCESS;
                             if(!(var4 !== var3)) { _fun0003_ip = 76; continue _fun0003 }
  24:
                             var3 = _closure3_slot8;
-                            var2 = _closure1_slot22;
+                            var2 = _closure1_slot21;
                             var2 = var2.PREMIUM_SUBSCRIPTION_UPDATE;
                             if(!(var3 === var2)) { _fun0003_ip = 93; continue _fun0003 }
  42:
@@ -769,7 +769,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6['shareId'] = var4;
                     var4 = var7.attachmentManifest;
                     var6['attachmentManifest'] = var4;
-                    var16 = _closure1_slot24;
+                    var16 = _closure1_slot23;
                     var4 = {};
                     var13 = 'modal';
                     var4['presentation'] = var13;
@@ -1446,7 +1446,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var6[var4];
                     var6 = var5.bind(var3)(var4);
                     var5 = var6.requestPermission;
-                    var4 = _closure1_slot19;
+                    var4 = _closure1_slot18;
                     var4 = var4.CAMERA;
                     var6 = var5.bind(var6)(var4);
                     var5 = var6.then;
@@ -1579,13 +1579,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                     var1 = undefined;
                                     var4 = var4.bind(var1)(var3);
                                     var3 = var4.popWithKey;
-                                    var2 = _closure1_slot20;
+                                    var2 = _closure1_slot19;
                                     var2 = var3.bind(var4)(var2);
                                     return var1;
                                 };
                                 var7 = 'dismissOAuthModal';
                                 var3[var7] = var8;
-                                var2 = _closure1_slot20;
+                                var2 = _closure1_slot19;
                                 var2 = var5.bind(var6)(var4, var3, var2);
                                 return var1;
                             };
@@ -1638,7 +1638,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var4 = var4 != var5;
                             if(!var4) { _fun0011_ip = 113; continue _fun0011 }
  95:
-                            var7 = _closure1_slot21;
+                            var7 = _closure1_slot20;
                             var6 = var7.test;
                             var5 = _closure3_slot7;
                             var4 = var6.bind(var7)(var5);

@@ -41,7 +41,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = function() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 15;
+                var1 = 14;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -57,7 +57,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var5.bind(var7)(var1, var3);
             var14 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var1 = 16;
+            var1 = 15;
             var3 = var5[var1];
             var7 = var14.bind(var4)(var3);
             var3 = var7.useAnimatedStyle;
@@ -67,7 +67,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = {};
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
-                    var1 = 17;
+                    var1 = 16;
                     var1 = var4[var1];
                     var7 = undefined;
                     var1 = var3.bind(var7)(var1);
@@ -83,7 +83,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = {};
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var8 = 18;
+                    var8 = 17;
                     var3 = var3[var8];
                     var10 = var4.bind(var7)(var3);
                     var9 = var10.withTiming;
@@ -125,13 +125,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 }
             };
             var12 = {};
-            var13 = 17;
+            var13 = 16;
             var13 = var5[var13];
             var13 = var14.bind(var4)(var13);
             var13 = var13.STANDARD_EASING;
             var12['STANDARD_EASING'] = var13;
             var12['show'] = var6;
-            var13 = 18;
+            var13 = 17;
             var13 = var5[var13];
             var13 = var14.bind(var4)(var13);
             var13 = var13.withTiming;
@@ -170,7 +170,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = _closure1_slot6;
             var9 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var8 = 14;
+            var8 = 18;
             var8 = var12[var8];
             var8 = var9.bind(var4)(var8);
             var9 = var8.Text;
@@ -293,89 +293,51 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var10[var2];
             var2 = var7.bind(var5)(var2);
             var3 = var2.BottomSheetTitleHeader;
-            if(var1) { _fun0003_ip = 473; continue _fun0003 }
+            if(var1) { _fun0003_ip = 278; continue _fun0003 }
  90:
             var1 = {};
             var1['title'] = var8;
-            var17 = _closure1_slot6;
+            var15 = _closure1_slot6;
             var2 = 12;
             var11 = var10[var2];
             var11 = var7.bind(var5)(var11);
-            var12 = var11.PressableOpacity;
+            var12 = var11.ActionSheetHeaderPressableText;
             var11 = {};
-            var15 = 'button';
-            var11['accessibilityRole'] = var15;
             var11['onPress'] = var9;
-            var16 = 13;
-            var13 = var10[var16];
-            var13 = var7.bind(var5)(var13);
-            var19 = var13.intl;
-            var18 = var19.string;
-            var13 = var10[var16];
-            var13 = var7.bind(var5)(var13);
-            var13 = var13.t;
-            var13 = var13.ETE/oK;
-            var13 = var18.bind(var19)(var13);
-            var11['accessibilityLabel'] = var13;
-            var20 = _closure1_slot6;
-            var13 = 14;
-            var18 = var10[var13];
-            var18 = var7.bind(var5)(var18);
-            var19 = var18.Text;
-            var18 = {'variant': 'heading-md/semibold', 'color': 'control-brand-foreground'};
-            var21 = var10[var16];
-            var21 = var7.bind(var5)(var21);
-            var23 = var21.intl;
-            var22 = var23.string;
-            var21 = var10[var16];
-            var21 = var7.bind(var5)(var21);
-            var21 = var21.t;
-            var21 = var21.ETE/oK;
-            var21 = var22.bind(var23)(var21);
-            var18['children'] = var21;
-            var18 = var20.bind(var5)(var19, var18);
-            var11['children'] = var18;
-            var11 = var17.bind(var5)(var12, var11);
+            var13 = 13;
+            var16 = var10[var13];
+            var16 = var7.bind(var5)(var16);
+            var18 = var16.intl;
+            var17 = var18.string;
+            var16 = var10[var13];
+            var16 = var7.bind(var5)(var16);
+            var16 = var16.t;
+            var16 = var16.ETE/oK;
+            var16 = var17.bind(var18)(var16);
+            var11['label'] = var16;
+            var11 = var15.bind(var5)(var12, var11);
             var1['leading'] = var11;
             var12 = _closure1_slot6;
             var2 = var10[var2];
             var2 = var7.bind(var5)(var2);
-            var11 = var2.PressableOpacity;
+            var11 = var2.ActionSheetHeaderPressableText;
             var2 = {};
-            var2['accessibilityRole'] = var15;
             var2['onPress'] = var14;
-            var14 = var10[var16];
+            var14 = var10[var13];
             var14 = var7.bind(var5)(var14);
-            var17 = var14.intl;
-            var15 = var17.string;
-            var14 = var10[var16];
-            var14 = var7.bind(var5)(var14);
-            var14 = var14.t;
-            var14 = var14.R3BPHx;
-            var14 = var15.bind(var17)(var14);
-            var2['accessibilityLabel'] = var14;
-            var15 = _closure1_slot6;
+            var15 = var14.intl;
+            var14 = var15.string;
             var13 = var10[var13];
             var13 = var7.bind(var5)(var13);
-            var14 = var13.Text;
-            var13 = {'variant': 'heading-md/semibold', 'color': 'control-brand-foreground'};
-            var17 = var10[var16];
-            var17 = var7.bind(var5)(var17);
-            var18 = var17.intl;
-            var17 = var18.string;
-            var16 = var10[var16];
-            var16 = var7.bind(var5)(var16);
-            var16 = var16.t;
-            var16 = var16.R3BPHx;
-            var16 = var17.bind(var18)(var16);
-            var13['children'] = var16;
-            var13 = var15.bind(var5)(var14, var13);
-            var2['children'] = var13;
+            var13 = var13.t;
+            var13 = var13.R3BPHx;
+            var13 = var14.bind(var15)(var13);
+            var2['label'] = var13;
             var2 = var12.bind(var5)(var11, var2);
             var1['trailing'] = var2;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0003_ip = 524; continue _fun0003;
- 473:
+            _fun0003_ip = 329; continue _fun0003;
+ 278:
             var2 = {};
             var2['title'] = var8;
             var8 = _closure1_slot6;
@@ -388,7 +350,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var8.bind(var5)(var7, var6);
             var2['trailing'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 524:
+ 329:
             return var1;
         }
     };

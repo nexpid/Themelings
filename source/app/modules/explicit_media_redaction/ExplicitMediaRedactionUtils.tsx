@@ -42,7 +42,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var5[var1];
             var3 = undefined;
             var6 = var4.bind(var3)(var1);
-            var2 = var6.useIsEligibleForSensitiveContentDefaults;
+            var2 = var6.useIsEligibleForSettingsDefaultsAggregate;
             var1 = 'explicit_media_redaction_utils';
             var1 = var2.bind(var6)(var1);
             var2 = 13;
@@ -783,7 +783,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var5[var1];
             var3 = undefined;
             var6 = var4.bind(var3)(var1);
-            var2 = var6.isEligibleForSensitiveContentDefaults;
+            var2 = var6.isEligibleForSettingsDefaultsAggregate;
             var1 = 'explicit_media_redaction_utils';
             var1 = var2.bind(var6)(var1);
             var2 = 13;

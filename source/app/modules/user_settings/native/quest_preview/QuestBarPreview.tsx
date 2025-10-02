@@ -1,0 +1,124 @@
+// app/modules/user_settings/native/quest_preview/QuestBarPreview.tsx
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var11 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var11;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = metroImportAll;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.View;
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot4 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
+    var4 = {};
+    var9 = {'position': 'absolute', 'bottom': 0, 'left': 0, 'right': 0, 'zIndex': 1000, 'elevation': 1000, 'pointerEvents': 'box-none'};
+    var4['overlay'] = var9;
+    var9 = {'position': 'absolute', 'bottom': 0, 'left': null, 'right': null, 'zIndex': 1001, 'elevation': 1001};
+    var10 = 4;
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.spacing;
+    var12 = var12.PX_16;
+    var9['left'] = var12;
+    var10 = var6[var10];
+    var10 = var11.bind(var1)(var10);
+    var10 = var10.spacing;
+    var10 = var10.PX_16;
+    var9['right'] = var10;
+    var4['questDockContainer'] = var9;
+    var4 = var7.bind(var8)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 8;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/user_settings/native/quest_preview/QuestBarPreview.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function QuestBarPreview(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+ 0:
+            var1 = arg1;
+            var14 = var1.quest;
+            var2 = var1.isVisible;
+            var1 = _closure1_slot5;
+            var5 = undefined;
+            var7 = var1.bind(var5)();
+            var3 = null;
+            var4 = var3 != var14;
+            var1 = null;
+            if(!var4) { _fun0001_ip = 218; continue _fun0001 }
+ 42:
+            var1 = null;
+            if(!var2) { _fun0001_ip = 218; continue _fun0001 }
+ 50:
+            var4 = _closure1_slot4;
+            var3 = _closure1_slot3;
+            var2 = {};
+            var6 = var7.overlay;
+            var2['style'] = var6;
+            var6 = {};
+            var7 = var7.questDockContainer;
+            var6['style'] = var7;
+            var12 = _closure1_slot0;
+            var13 = _closure1_slot2;
+            var7 = 5;
+            var7 = var13[var7];
+            var7 = var12.bind(var5)(var7);
+            var8 = var7.QuestDockExternalCoordinationContextProvider;
+            var7 = {};
+            var10 = _closure1_slot1;
+            var9 = 6;
+            var9 = var13[var9];
+            var9 = var10.bind(var5)(var9);
+            var10 = var9.Provider;
+            var9 = {};
+            var11 = {};
+            var15 = true;
+            var11['isVisible'] = var15;
+            var11['quest'] = var14;
+            var9['value'] = var11;
+            var11 = 7;
+            var11 = var13[var11];
+            var11 = var12.bind(var5)(var11);
+            var12 = var11.QuestDockWithEntranceAnimation;
+            var11 = {};
+            var11 = var4.bind(var5)(var12, var11);
+            var9['children'] = var11;
+            var9 = var4.bind(var5)(var10, var9);
+            var7['children'] = var9;
+            var7 = var4.bind(var5)(var8, var7);
+            var6['children'] = var7;
+            var6 = var4.bind(var5)(var3, var6);
+            var2['children'] = var6;
+            var1 = var4.bind(var5)(var3, var2);
+ 218:
+            return var1;
+        }
+    };
+    var3['QuestBarPreview'] = var2;
+    return var1;
+})();

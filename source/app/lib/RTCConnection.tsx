@@ -3522,7 +3522,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var5.state;
                     var3 = _closure1_slot22;
                     var3 = var3.DISCONNECTED;
-                    if(!(var4 !== var3)) { _fun0051_ip = 2495; continue _fun0051 }
+                    if(!(var4 !== var3)) { _fun0051_ip = 2500; continue _fun0051 }
  430:
                     var4 = var5._videoQuality;
                     var _closure3_slot3 = var4;
@@ -3835,20 +3835,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     };
                     var3 = var4.bind(var8)(var3);
                     var4 = var5._trackMLSFailures;
-                    var3 = {};
-                    var8 = false;
-                    var3['recovered'] = var8;
+                    var3 = {'recovered': false, 'downgraded': false};
                     var3 = var4.bind(var5)(var3);
                     var4 = _closure1_slot18;
                     var3 = var4.shouldIncludePreferredRegion;
                     var3 = var3.bind(var4)();
                     var10 = null;
-                    if(!var3) { _fun0051_ip = 773; continue _fun0051 }
- 759:
+                    if(!var3) { _fun0051_ip = 778; continue _fun0051 }
+ 764:
                     var4 = _closure1_slot18;
                     var3 = var4.getPreferredRegion;
                     var10 = var3.bind(var4)();
- 773:
+ 778:
                     var4 = _closure1_slot15;
                     var3 = var4.getSettings;
                     var4 = var3.bind(var4)();
@@ -3864,8 +3862,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var12 = var11 == var3;
                     var13 = undefined;
                     var9 = undefined;
-                    if(var12) { _fun0051_ip = 891; continue _fun0051 }
- 842:
+                    if(var12) { _fun0051_ip = 896; continue _fun0051 }
+ 847:
                     var3 = var3.stats;
                     var3 = var3.rtp;
                     var15 = var3.outbound;
@@ -3880,10 +3878,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var12.bind(var15)(var3);
                     var12 = var11 == var3;
                     var9 = undefined;
-                    if(var12) { _fun0051_ip = 891; continue _fun0051 }
- 885:
+                    if(var12) { _fun0051_ip = 896; continue _fun0051 }
+ 890:
                     var9 = var3.sampleRateMismatchPercent;
- 891:
+ 896:
                     var3 = {};
                     var12 = var5._getAnalyticsProperties;
                     var21 = var12.bind(var5)();
@@ -3909,143 +3907,143 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var15 = var5._voiceQuality;
                     var14 = var11 == var15;
                     var12 = undefined;
-                    if(var14) { _fun0051_ip = 1019; continue _fun0051 }
- 1007:
+                    if(var14) { _fun0051_ip = 1024; continue _fun0051 }
+ 1012:
                     var14 = var15.getMosStats;
                     var12 = var14.bind(var15)();
- 1019:
+ 1024:
                     var22 = var3;
                     var21 = var12;
                     var12 = copyDataProperties(var22, var21);
                     var15 = var5._voiceQuality;
                     var14 = var11 == var15;
                     var12 = undefined;
-                    if(var14) { _fun0051_ip = 1054; continue _fun0051 }
- 1044:
+                    if(var14) { _fun0051_ip = 1059; continue _fun0051 }
+ 1049:
                     var14 = var15.getPacketStats;
                     var12 = var14.bind(var15)();
- 1054:
+ 1059:
                     var22 = var3;
                     var21 = var12;
                     var12 = copyDataProperties(var22, var21);
                     var15 = var5._voiceQuality;
                     var14 = var11 == var15;
                     var12 = undefined;
-                    if(var14) { _fun0051_ip = 1091; continue _fun0051 }
- 1079:
+                    if(var14) { _fun0051_ip = 1096; continue _fun0051 }
+ 1084:
                     var14 = var15.getBytesStats;
                     var12 = var14.bind(var15)();
- 1091:
+ 1096:
                     var22 = var3;
                     var21 = var12;
                     var12 = copyDataProperties(var22, var21);
                     var15 = var5._voiceQuality;
                     var14 = var11 == var15;
                     var12 = undefined;
-                    if(var14) { _fun0051_ip = 1128; continue _fun0051 }
- 1116:
+                    if(var14) { _fun0051_ip = 1133; continue _fun0051 }
+ 1121:
                     var14 = var15.getBufferStats;
                     var12 = var14.bind(var15)();
- 1128:
+ 1133:
                     var22 = var3;
                     var21 = var12;
                     var12 = copyDataProperties(var22, var21);
                     var15 = var5._voiceQuality;
                     var14 = var11 == var15;
                     var12 = undefined;
-                    if(var14) { _fun0051_ip = 1163; continue _fun0051 }
- 1153:
+                    if(var14) { _fun0051_ip = 1168; continue _fun0051 }
+ 1158:
                     var14 = var15.getNetworkStats;
                     var12 = var14.bind(var15)();
- 1163:
+ 1168:
                     var22 = var3;
                     var21 = var12;
                     var12 = copyDataProperties(var22, var21);
                     var15 = var5._voiceQuality;
                     var14 = var11 == var15;
                     var12 = undefined;
-                    if(var14) { _fun0051_ip = 1200; continue _fun0051 }
- 1188:
+                    if(var14) { _fun0051_ip = 1205; continue _fun0051 }
+ 1193:
                     var14 = var15.getSystemResourceStats;
                     var12 = var14.bind(var15)();
- 1200:
+ 1205:
                     var22 = var3;
                     var21 = var12;
                     var12 = copyDataProperties(var22, var21);
                     var15 = var5._voiceQuality;
                     var14 = var11 == var15;
                     var12 = undefined;
-                    if(var14) { _fun0051_ip = 1237; continue _fun0051 }
- 1225:
+                    if(var14) { _fun0051_ip = 1242; continue _fun0051 }
+ 1230:
                     var14 = var15.getFrameOpStats;
                     var12 = var14.bind(var15)();
- 1237:
+ 1242:
                     var22 = var3;
                     var21 = var12;
                     var12 = copyDataProperties(var22, var21);
                     var15 = var5._voiceQuality;
                     var14 = var11 == var15;
                     var12 = undefined;
-                    if(var14) { _fun0051_ip = 1272; continue _fun0051 }
- 1262:
+                    if(var14) { _fun0051_ip = 1277; continue _fun0051 }
+ 1267:
                     var14 = var15.getDurationStats;
                     var12 = var14.bind(var15)();
- 1272:
+ 1277:
                     var22 = var3;
                     var21 = var12;
                     var12 = copyDataProperties(var22, var21);
                     var15 = var5._voiceQuality;
                     var14 = var11 == var15;
                     var12 = undefined;
-                    if(var14) { _fun0051_ip = 1309; continue _fun0051 }
- 1297:
+                    if(var14) { _fun0051_ip = 1314; continue _fun0051 }
+ 1302:
                     var14 = var15.getTransportStats;
                     var12 = var14.bind(var15)();
- 1309:
+ 1314:
                     var22 = var3;
                     var21 = var12;
                     var12 = copyDataProperties(var22, var21);
                     var15 = var5._voiceQuality;
                     var14 = var11 == var15;
                     var12 = undefined;
-                    if(var14) { _fun0051_ip = 1346; continue _fun0051 }
- 1334:
+                    if(var14) { _fun0051_ip = 1351; continue _fun0051 }
+ 1339:
                     var14 = var15.getE2EEStats;
                     var12 = var14.bind(var15)();
- 1346:
+ 1351:
                     var22 = var3;
                     var21 = var12;
                     var12 = copyDataProperties(var22, var21);
                     var15 = var5._voiceQuality;
                     var14 = var11 == var15;
                     var12 = undefined;
-                    if(var14) { _fun0051_ip = 1381; continue _fun0051 }
- 1371:
+                    if(var14) { _fun0051_ip = 1386; continue _fun0051 }
+ 1376:
                     var14 = var15.getAudioDeviceStats;
                     var12 = var14.bind(var15)();
- 1381:
+ 1386:
                     var22 = var3;
                     var21 = var12;
                     var12 = copyDataProperties(var22, var21);
                     var15 = var5._voiceQuality;
                     var14 = var11 == var15;
                     var12 = undefined;
-                    if(var14) { _fun0051_ip = 1418; continue _fun0051 }
- 1406:
+                    if(var14) { _fun0051_ip = 1423; continue _fun0051 }
+ 1411:
                     var14 = var15.getAudioLevelStats;
                     var12 = var14.bind(var15)();
- 1418:
+ 1423:
                     var22 = var3;
                     var21 = var12;
                     var12 = copyDataProperties(var22, var21);
                     var15 = var5._voiceDuration;
                     var14 = var11 == var15;
                     var12 = undefined;
-                    if(var14) { _fun0051_ip = 1453; continue _fun0051 }
- 1443:
+                    if(var14) { _fun0051_ip = 1458; continue _fun0051 }
+ 1448:
                     var14 = var15.getDurationStats;
                     var12 = var14.bind(var15)();
- 1453:
+ 1458:
                     var22 = var3;
                     var21 = var12;
                     var12 = copyDataProperties(var22, var21);
@@ -4061,11 +4059,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var15 = var5._systemResponsiveness;
                     var14 = var11 == var15;
                     var12 = undefined;
-                    if(var14) { _fun0051_ip = 1530; continue _fun0051 }
- 1518:
+                    if(var14) { _fun0051_ip = 1535; continue _fun0051 }
+ 1523:
                     var14 = var15.getPttQueueLatencyStats;
                     var12 = var14.bind(var15)();
- 1530:
+ 1535:
                     var22 = var3;
                     var21 = var12;
                     var12 = copyDataProperties(var22, var21);
@@ -4078,10 +4076,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3[var12] = var14;
                     var14 = var11 != var8;
                     var12 = null;
-                    if(!var14) { _fun0051_ip = 1591; continue _fun0051 }
- 1585:
+                    if(!var14) { _fun0051_ip = 1596; continue _fun0051 }
+ 1590:
                     var12 = var8.bitrate;
- 1591:
+ 1596:
                     var8 = 'channel_bitrate';
                     var3[var8] = var12;
                     var8 = 'cloudflare_best_region';
@@ -4161,18 +4159,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = var5._connection;
                     var8 = var11 != var8;
                     var10 = null;
-                    if(!var8) { _fun0051_ip = 2032; continue _fun0051 }
- 2002:
+                    if(!var8) { _fun0051_ip = 2037; continue _fun0051 }
+ 2007:
                     var14 = var5._connection;
                     var12 = var11 == var14;
                     var8 = undefined;
-                    if(var12) { _fun0051_ip = 2029; continue _fun0051 }
- 2017:
+                    if(var12) { _fun0051_ip = 2034; continue _fun0051 }
+ 2022:
                     var12 = var14.getNumFastUdpReconnects;
                     var8 = var12.bind(var14)();
- 2029:
+ 2034:
                     var10 = var8;
- 2032:
+ 2037:
                     var8 = 'num_fast_udp_reconnects';
                     var3[var8] = var10;
                     var10 = var5.parentMediaSessionId;
@@ -4300,19 +4298,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3[1] = var9;
                     var9 = var10.getKrispEnableStats;
                     var9 = var9.bind(var10)();
-                    if(var9) { _fun0051_ip = 2409; continue _fun0051 }
- 2390:
+                    if(var9) { _fun0051_ip = 2414; continue _fun0051 }
+ 2395:
                     var10 = var7.Promise;
                     var9 = var10.resolve;
                     var9 = var9.bind(var10)(var11);
-                    _fun0051_ip = 2433; continue _fun0051;
- 2409:
+                    _fun0051_ip = 2438; continue _fun0051;
+ 2414:
                     var11 = _closure1_slot15;
                     var10 = var11.getMediaEngine;
                     var11 = var10.bind(var11)();
                     var10 = var11.getNoiseCancellationStats;
                     var9 = var10.bind(var11)();
- 2433:
+ 2438:
                     var3[2] = var9;
                     var10 = _closure1_slot15;
                     var9 = var10.getMediaEngine;
@@ -4465,7 +4463,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var3.bind(var4)(var1);
                     var1 = var5._trackRemainingSecureFrameTransitions;
                     var1 = var1.bind(var5)();
- 2495:
+ 2500:
                     var1 = new Array(0);
                     var5['_pingTimeouts'] = var1;
                     var1 = new Array(0);
@@ -4478,11 +4476,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = null;
                     var5['_mediaSessionId'] = var3;
                     var8 = var5._voiceQuality;
-                    if(!(var3 != var8)) { _fun0051_ip = 2565; continue _fun0051 }
- 2555:
+                    if(!(var3 != var8)) { _fun0051_ip = 2570; continue _fun0051 }
+ 2560:
                     var1 = var8.stop;
                     var1 = var1.bind(var8)();
- 2565:
+ 2570:
                     var5['_voiceQuality'] = var3;
                     var9 = var7.clearInterval;
                     var8 = var5._voiceQualityPeriodicStatsInterval;
@@ -4493,26 +4491,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5['_noiseCancellationError'] = var4;
                     var5['_numNoiseCancellationChanges'] = var4;
                     var9 = var5._voiceDuration;
-                    if(!(var3 != var9)) { _fun0051_ip = 2634; continue _fun0051 }
- 2624:
+                    if(!(var3 != var9)) { _fun0051_ip = 2639; continue _fun0051 }
+ 2629:
                     var8 = var9.stop;
                     var8 = var8.bind(var9)();
- 2634:
+ 2639:
                     var5['_voiceDuration'] = var3;
                     var9 = var5._videoQuality;
-                    if(!(var3 != var9)) { _fun0051_ip = 2660; continue _fun0051 }
- 2650:
+                    if(!(var3 != var9)) { _fun0051_ip = 2665; continue _fun0051 }
+ 2655:
                     var8 = var9.stop;
                     var8 = var8.bind(var9)();
- 2660:
+ 2665:
                     var5['_videoQuality'] = var3;
                     var5['_videoHealthManager'] = var3;
                     var9 = var5._localMediaSinkWantsManager;
-                    if(!(var3 != var9)) { _fun0051_ip = 2692; continue _fun0051 }
- 2682:
+                    if(!(var3 != var9)) { _fun0051_ip = 2697; continue _fun0051 }
+ 2687:
                     var8 = var9.reset;
                     var8 = var8.bind(var9)();
- 2692:
+ 2697:
                     var5['_secureFramesState'] = var3;
                     var9 = var7.Set;
                     var8 = var5.userId;
@@ -4536,13 +4534,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5['_secureFramesTransitionPrepareCount'] = var4;
                     var5['_secureFramesTransitionExecuteCount'] = var4;
                     var4 = var5._connection;
-                    if(!(var3 != var4)) { _fun0051_ip = 2834; continue _fun0051 }
- 2812:
+                    if(!(var3 != var4)) { _fun0051_ip = 2839; continue _fun0051 }
+ 2817:
                     var4 = var5._connection;
                     var5['_connection'] = var3;
                     var3 = var4.destroy;
                     var3 = var3.bind(var4)();
- 2834:
+ 2839:
                     var4 = var5.setState;
                     var2 = _closure1_slot22;
                     var3 = var2.DISCONNECTED;
@@ -7855,10 +7853,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var7.now;
                     var4 = var4.bind(var7)();
                     var _closure3_slot3 = var4;
+                    var4 = 0;
+                    if(!(var4 === var5)) { _fun0098_ip = 155; continue _fun0098 }
+ 130:
+                    var7 = var3._trackMLSFailures;
+                    var4 = {'recovered': true, 'downgraded': true};
+                    var4 = var7.bind(var3)(var4);
+ 155:
                     var4 = var3._connection;
                     var3 = null;
-                    if(!(var3 != var4)) { _fun0098_ip = 154; continue _fun0098 }
- 136:
+                    if(!(var3 != var4)) { _fun0098_ip = 185; continue _fun0098 }
+ 167:
                     var3 = var4.prepareSecureFramesTransition;
                     var2 = function() {
                         var5 = _closure3_slot0;
@@ -7884,7 +7889,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     };
                     var2 = var3.bind(var4)(var6, var5, var2);
- 154:
+ 185:
                     return var1;
                 }
             };
@@ -8291,12 +8296,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var2 = var2.bind(var4)(var3);
                             var2 = var4._handleSecureFramesInit;
                             var2 = var2.bind(var4)(var1);
-                            _fun0108_ip = 181; continue _fun0108;
+                            _fun0108_ip = 186; continue _fun0108;
  123:
                             var3 = var4._trackMLSFailures;
-                            var2 = {};
-                            var5 = true;
-                            var2['recovered'] = var5;
+                            var2 = {'recovered': true, 'downgraded': false};
                             var2 = var3.bind(var4)(var2);
                             var2 = undefined;
                             var4['_mlsSessionResetStartTime'] = var2;
@@ -8306,7 +8309,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var2 = var5.bind(var4)(var2, var3);
                             var2 = var4._maybeSendSecureFramesTransitionReady;
                             var2 = var2.bind(var4)(var3);
- 181:
+ 186:
                             var5 = _closure3_slot0;
                             var4 = var5._storeSecureFrameTransitionData;
                             var3 = _closure3_slot1;
@@ -8394,12 +8397,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var1 = var2.bind(var3)(var1);
                             var1 = var3._sendMLSKeyPackage;
                             var1 = var1.bind(var3)();
-                            _fun0110_ip = 138; continue _fun0110;
+                            _fun0110_ip = 143; continue _fun0110;
  80:
                             var2 = var3._trackMLSFailures;
-                            var1 = {};
-                            var4 = true;
-                            var1['recovered'] = var4;
+                            var1 = {'recovered': true, 'downgraded': false};
                             var1 = var2.bind(var3)(var1);
                             var1 = undefined;
                             var3['_mlsSessionResetStartTime'] = var1;
@@ -8409,7 +8410,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var1 = var4.bind(var3)(var1, var2);
                             var1 = var3._maybeSendSecureFramesTransitionReady;
                             var1 = var1.bind(var3)(var2);
- 138:
+ 143:
                             var5 = _closure3_slot0;
                             var4 = var5._storeSecureFrameTransitionData;
                             var3 = _closure3_slot1;
@@ -8567,9 +8568,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = function value(arg1) {
                 _fun0114: for(var _fun0114_ip = 0; ; ) switch(_fun0114_ip) {
  0:
-                    var3 = this;
                     var1 = arg1;
-                    var25 = var1.recovered;
+                    var3 = this;
+                    var27 = var1.recovered;
+                    var26 = var1.downgraded;
                     var4 = _closure1_slot0;
                     var2 = _closure1_slot3;
                     var1 = 18;
@@ -8577,86 +8579,88 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = undefined;
                     var4 = var4.bind(var1)(var2);
                     var2 = var4.now;
-                    var23 = var2.bind(var4)();
+                    var24 = var2.bind(var4)();
                     var2 = var3.getMediaSessionId;
-                    var22 = var2.bind(var3)();
+                    var23 = var2.bind(var3)();
                     var4 = var3._mlsSessionResetStartTime;
                     var2 = null;
                     var2 = var2 != var4;
-                    var21 = undefined;
-                    if(!var2) { _fun0114_ip = 83; continue _fun0114 }
- 73:
+                    var22 = undefined;
+                    if(!var2) { _fun0114_ip = 89; continue _fun0114 }
+ 79:
                     var2 = var3._mlsSessionResetStartTime;
-                    var21 = var23 - var2;
- 83:
+                    var22 = var24 - var2;
+ 89:
                     var4 = _closure1_slot34;
                     var2 = var3._mlsFailures;
-                    var20 = var4.bind(var1)(var2);
-                    var4 = var20.bind(var1)();
+                    var21 = var4.bind(var1)(var2);
+                    var4 = var21.bind(var1)();
                     var2 = var4.done;
-                    var19 = 20;
-                    var18 = 'media_session_id';
-                    var17 = 'parent_media_session_id';
-                    var16 = 'failure_id';
-                    var15 = 'failure_time';
-                    var14 = 'failure_source';
-                    var13 = 'failure_reason';
-                    var12 = 'failure_count';
-                    var11 = 'failure_was_recovered';
+                    var20 = 20;
+                    var19 = 'media_session_id';
+                    var18 = 'parent_media_session_id';
+                    var17 = 'failure_id';
+                    var16 = 'failure_time';
+                    var15 = 'failure_source';
+                    var14 = 'failure_reason';
+                    var13 = 'failure_count';
+                    var12 = 'failure_was_recovered';
+                    var11 = 'failure_cleared_by_downgrade';
                     var10 = 'time_since_first_occurrence';
                     var9 = 'time_since_last_reset';
                     var8 = 'failure_count_during_reset';
                     var7 = 'time_since_init';
                     var6 = 'event_history';
                     var5 = 'connection_serial';
-                    if(var2) { _fun0114_ip = 416; continue _fun0114 }
- 194:
+                    if(var2) { _fun0114_ip = 433; continue _fun0114 }
+ 206:
                     var2 = var4.value;
-                    var36 = var2.id;
-                    var35 = var2.source;
-                    var34 = var2.reason;
-                    var33 = var2.count;
-                    var31 = var2.countDuringReset;
-                    var32 = var2.firstOccurrence;
-                    var30 = var2.timeSinceInit;
-                    var29 = var2.eventLog;
-                    var26 = _closure1_slot1;
+                    var38 = var2.id;
+                    var37 = var2.source;
+                    var36 = var2.reason;
+                    var35 = var2.count;
+                    var33 = var2.countDuringReset;
+                    var34 = var2.firstOccurrence;
+                    var32 = var2.timeSinceInit;
+                    var31 = var2.eventLog;
+                    var28 = _closure1_slot1;
                     var2 = _closure1_slot3;
-                    var2 = var2[var19];
-                    var28 = var26.bind(var1)(var2);
-                    var27 = var28.track;
+                    var2 = var2[var20];
+                    var30 = var28.bind(var1)(var2);
+                    var29 = var30.track;
                     var2 = _closure1_slot20;
-                    var26 = var2.MLS_FAILURES;
+                    var28 = var2.MLS_FAILURES;
                     var2 = {};
-                    var37 = var3._getAnalyticsProperties;
-                    var38 = var37.bind(var3)();
-                    var39 = var2;
-                    var37 = copyDataProperties(var39, var38);
-                    var2[var18] = var22;
-                    var37 = var3.parentMediaSessionId;
-                    var2[var17] = var37;
-                    var2[var16] = var36;
-                    var36 = var3._createdTime;
-                    var36 = var32 - var36;
-                    var2[var15] = var36;
-                    var2[var14] = var35;
-                    var2[var13] = var34;
-                    var2[var12] = var33;
-                    var2[var11] = var25;
-                    var32 = var23 - var32;
-                    var2[var10] = var32;
-                    var2[var9] = var21;
-                    var2[var8] = var31;
-                    var2[var7] = var30;
-                    var2[var6] = var29;
-                    var29 = var3._connectionSerial;
-                    var2[var5] = var29;
-                    var2 = var27.bind(var28)(var26, var2);
-                    var26 = var20.bind(var1)();
-                    var2 = var26.done;
-                    var4 = var26;
-                    if(!var2) { _fun0114_ip = 194; continue _fun0114 }
- 416:
+                    var39 = var3._getAnalyticsProperties;
+                    var40 = var39.bind(var3)();
+                    var41 = var2;
+                    var39 = copyDataProperties(var41, var40);
+                    var2[var19] = var23;
+                    var39 = var3.parentMediaSessionId;
+                    var2[var18] = var39;
+                    var2[var17] = var38;
+                    var38 = var3._createdTime;
+                    var38 = var34 - var38;
+                    var2[var16] = var38;
+                    var2[var15] = var37;
+                    var2[var14] = var36;
+                    var2[var13] = var35;
+                    var2[var12] = var27;
+                    var2[var11] = var26;
+                    var34 = var24 - var34;
+                    var2[var10] = var34;
+                    var2[var9] = var22;
+                    var2[var8] = var33;
+                    var2[var7] = var32;
+                    var2[var6] = var31;
+                    var31 = var3._connectionSerial;
+                    var2[var5] = var31;
+                    var2 = var29.bind(var30)(var28, var2);
+                    var28 = var21.bind(var1)();
+                    var2 = var28.done;
+                    var4 = var28;
+                    if(!var2) { _fun0114_ip = 206; continue _fun0114 }
+ 433:
                     var2 = new Array(0);
                     var3['_mlsFailures'] = var2;
                     return var1;

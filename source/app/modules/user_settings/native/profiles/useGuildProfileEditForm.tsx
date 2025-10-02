@@ -126,7 +126,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var6.formState;
             var22 = var6.pendingAvatarDecoration;
             var _closure2_slot8 = var22;
-            var16 = var6.pendingProfileEffectId;
+            var16 = var6.pendingProfileEffect;
             var _closure2_slot9 = var16;
             var21 = var6.pendingNameplate;
             var _closure2_slot10 = var21;
@@ -317,7 +317,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var7 = _closure2_slot6;
                         var2['pendingThemeColors'] = var7;
                         var7 = _closure2_slot9;
-                        var2['pendingProfileEffectId'] = var7;
+                        var2['pendingProfileEffect'] = var7;
                         var12 = var3.bind(var4)(var2);
                         var3 = global;
                         var4 = var3.Object;

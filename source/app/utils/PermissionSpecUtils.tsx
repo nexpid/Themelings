@@ -12,119 +12,108 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = function getPermissionOptions(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            var11 = arg1;
+            var10 = arg1;
             var2 = _closure1_slot0;
             var3 = _closure1_slot3;
             var1 = 4;
             var1 = var3[var1];
-            var15 = undefined;
-            var2 = var2.bind(var15)(var1);
+            var14 = undefined;
+            var2 = var2.bind(var14)(var1);
             var1 = var2.isGuildEligibleForStageChannels;
-            var7 = var1.bind(var2)(var11);
+            var6 = var1.bind(var2)(var10);
             var2 = _closure1_slot5;
             var1 = var2.getGuild;
-            var3 = var1.bind(var2)(var11);
+            var3 = var1.bind(var2)(var10);
             var1 = null;
-            var6 = var1 != var3;
-            if(!var6) { _fun0001_ip = 93; continue _fun0001 }
+            var5 = var1 != var3;
+            if(!var5) { _fun0001_ip = 93; continue _fun0001 }
  62:
             var2 = _closure1_slot0;
             var4 = _closure1_slot3;
             var1 = 5;
             var1 = var4[var1];
-            var2 = var2.bind(var15)(var1);
+            var2 = var2.bind(var14)(var1);
             var1 = var2.isCreatorMonetizationEnabledGuild;
-            var6 = var1.bind(var2)(var3);
+            var5 = var1.bind(var2)(var3);
  93:
-            var9 = _closure1_slot0;
-            var16 = _closure1_slot3;
+            var8 = _closure1_slot0;
+            var15 = _closure1_slot3;
             var1 = 6;
-            var1 = var16[var1];
-            var3 = var9.bind(var15)(var1);
+            var1 = var15[var1];
+            var3 = var8.bind(var14)(var1);
             var2 = var3.getSoundmojiRenderingExperiment;
             var1 = {};
-            var10 = 'getPermissionOptions';
-            var1['location'] = var10;
-            var5 = var2.bind(var3)(var1);
+            var9 = 'getPermissionOptions';
+            var1['location'] = var9;
+            var4 = var2.bind(var3)(var1);
             var1 = 7;
-            var1 = var16[var1];
-            var1 = var9.bind(var15)(var1);
-            var3 = var1.GuildPinPermissionExperiment;
-            var2 = var3.getCurrentConfig;
-            var1 = {};
-            var1['guildId'] = var11;
-            var1['location'] = var10;
-            var1 = var2.bind(var3)(var1);
-            var4 = var1.enabled;
-            var1 = 8;
-            var1 = var16[var1];
-            var1 = var9.bind(var15)(var1);
+            var1 = var15[var1];
+            var1 = var8.bind(var14)(var1);
             var3 = var1.GameMentionsGuildExperiment;
             var2 = var3.getCurrentConfig;
             var1 = {};
-            var1['guildId'] = var11;
-            var1['location'] = var10;
+            var1['guildId'] = var10;
+            var1['location'] = var9;
             var1 = var2.bind(var3)(var1);
             var3 = var1.enabled;
-            var14 = _closure1_slot1;
-            var1 = 9;
-            var1 = var16[var1];
-            var8 = var14.bind(var15)(var1);
-            var2 = var8.getCurrentConfig;
+            var13 = _closure1_slot1;
+            var1 = 8;
+            var1 = var15[var1];
+            var7 = var13.bind(var14)(var1);
+            var2 = var7.getCurrentConfig;
             var1 = {};
-            var1['guildId'] = var11;
-            var1['location'] = var10;
-            var1 = var2.bind(var8)(var1);
+            var1['guildId'] = var10;
+            var1['location'] = var9;
+            var1 = var2.bind(var7)(var1);
             var2 = var1.enabled;
             var1 = {};
-            var8 = 10;
-            var10 = var16[var8];
-            var10 = var9.bind(var15)(var10);
-            var17 = var10.intl;
-            var13 = var17.format;
-            var10 = var16[var8];
-            var10 = var9.bind(var15)(var10);
-            var10 = var10.t;
-            var11 = var10.ZuzwPz;
-            var10 = {};
-            var18 = var16[var8];
-            var18 = var9.bind(var15)(var18);
-            var20 = var18.intl;
-            var19 = var20.string;
-            var18 = var16[var8];
-            var18 = var9.bind(var15)(var18);
-            var18 = var18.t;
-            var18 = var18.DkSwJy;
-            var18 = var19.bind(var20)(var18);
-            var10['keybind'] = var18;
-            var10 = var13.bind(var17)(var11, var10);
-            var1['PRIORITY_SPEAKER_DESCRIPTION'] = var10;
-            var10 = var16[var8];
-            var10 = var9.bind(var15)(var10);
-            var11 = var10.intl;
-            var10 = var11.format;
-            var8 = var16[var8];
-            var8 = var9.bind(var15)(var8);
-            var8 = var8.t;
-            var9 = var8.fVE8y8;
-            var8 = {};
-            var13 = 11;
-            var13 = var16[var13];
-            var14 = var14.bind(var15)(var13);
-            var13 = var14.getArticleURL;
-            var12 = _closure1_slot6;
-            var12 = var12.SOUNDBOARD;
-            var12 = var13.bind(var14)(var12);
-            var8['helpCenterArticle'] = var12;
-            var8 = var10.bind(var11)(var9, var8);
-            var1['SOUNDBOARD_DESCRIPTION'] = var8;
-            var1['showStageChannelPermissions'] = var7;
-            var7 = true;
-            var1['showExperimental'] = var7;
-            var1['showMembershipManualApprovalPermissions'] = var7;
-            var1['showCreatorMonetizationAnalyticsPermission'] = var6;
-            var1['inSoundmojiExperiment'] = var5;
-            var1['inPinPermissionExperiment'] = var4;
+            var7 = 9;
+            var9 = var15[var7];
+            var9 = var8.bind(var14)(var9);
+            var16 = var9.intl;
+            var12 = var16.format;
+            var9 = var15[var7];
+            var9 = var8.bind(var14)(var9);
+            var9 = var9.t;
+            var10 = var9.ZuzwPz;
+            var9 = {};
+            var17 = var15[var7];
+            var17 = var8.bind(var14)(var17);
+            var19 = var17.intl;
+            var18 = var19.string;
+            var17 = var15[var7];
+            var17 = var8.bind(var14)(var17);
+            var17 = var17.t;
+            var17 = var17.DkSwJy;
+            var17 = var18.bind(var19)(var17);
+            var9['keybind'] = var17;
+            var9 = var12.bind(var16)(var10, var9);
+            var1['PRIORITY_SPEAKER_DESCRIPTION'] = var9;
+            var9 = var15[var7];
+            var9 = var8.bind(var14)(var9);
+            var10 = var9.intl;
+            var9 = var10.format;
+            var7 = var15[var7];
+            var7 = var8.bind(var14)(var7);
+            var7 = var7.t;
+            var8 = var7.fVE8y8;
+            var7 = {};
+            var12 = 10;
+            var12 = var15[var12];
+            var13 = var13.bind(var14)(var12);
+            var12 = var13.getArticleURL;
+            var11 = _closure1_slot6;
+            var11 = var11.SOUNDBOARD;
+            var11 = var12.bind(var13)(var11);
+            var7['helpCenterArticle'] = var11;
+            var7 = var9.bind(var10)(var8, var7);
+            var1['SOUNDBOARD_DESCRIPTION'] = var7;
+            var1['showStageChannelPermissions'] = var6;
+            var6 = true;
+            var1['showExperimental'] = var6;
+            var1['showMembershipManualApprovalPermissions'] = var6;
+            var1['showCreatorMonetizationAnalyticsPermission'] = var5;
+            var1['inSoundmojiExperiment'] = var4;
             var1['inGameMentionsExperiment'] = var3;
             var1['inBypassSlowmodePermissionExperiment'] = var2;
             return var1;
@@ -193,19 +182,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
             var4 = arg1;
-            var23 = arg2;
+            var22 = arg2;
             var _closure2_slot0 = var4;
             var5 = _closure1_slot11;
             var10 = undefined;
             var2 = arg3;
             var1 = arg4;
-            var6 = var5.bind(var10)(var23, var2, var1);
+            var6 = var5.bind(var10)(var22, var2, var1);
             var _closure2_slot1 = var6;
             var1 = _closure1_slot12;
             var7 = var1.bind(var10)(var4);
             var2 = _closure1_slot0;
             var5 = _closure1_slot3;
-            var1 = 12;
+            var1 = 11;
             var1 = var5[var1];
             var1 = var2.bind(var10)(var1);
             var5 = var1.VoiceInThreadsExperiment;
@@ -220,115 +209,113 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  108:
             var9 = _closure1_slot4;
             var2 = var9.has;
-            var1 = var23.type;
+            var1 = var22.type;
             var5 = var2.bind(var9)(var1);
  127:
             var2 = _closure1_slot0;
             var9 = _closure1_slot3;
-            var1 = 13;
+            var1 = 12;
             var1 = var9[var1];
             var11 = var2.bind(var10)(var1);
             var1 = var11.isStageVideoEnabled;
-            var20 = var1.bind(var11)(var4);
-            var1 = 14;
+            var19 = var1.bind(var11)(var4);
+            var1 = 13;
             var1 = var9[var1];
             var2 = var2.bind(var10)(var1);
             var1 = var2.canCurrentUserManageMessageFilters;
             var14 = var1.bind(var2)(var4);
-            var1 = var23.isMediaChannel;
-            var2 = var1.bind(var23)();
+            var1 = var22.isMediaChannel;
+            var2 = var1.bind(var22)();
             var _closure2_slot2 = var2;
-            var18 = var7.inSoundmojiExperiment;
-            var17 = var7.inPinPermissionExperiment;
+            var17 = var7.inSoundmojiExperiment;
             var16 = var7.inBypassSlowmodePermissionExperiment;
-            var4 = var23.type;
+            var4 = var22.type;
             var1 = _closure1_slot7;
             var1 = var1.GUILD_CATEGORY;
-            if(!(var1 !== var4)) { _fun0003_ip = 2344; continue _fun0003 }
- 235:
+            if(!(var1 !== var4)) { _fun0003_ip = 2328; continue _fun0003 }
+ 229:
             var1 = _closure1_slot7;
             var1 = var1.GUILD_VOICE;
-            if(!(var1 !== var4)) { _fun0003_ip = 1799; continue _fun0003 }
- 252:
+            if(!(var1 !== var4)) { _fun0003_ip = 1783; continue _fun0003 }
+ 246:
             var1 = _closure1_slot7;
             var1 = var1.GUILD_STAGE_VOICE;
-            if(!(var1 !== var4)) { _fun0003_ip = 1176; continue _fun0003 }
- 269:
+            if(!(var1 !== var4)) { _fun0003_ip = 1160; continue _fun0003 }
+ 263:
             var1 = _closure1_slot7;
             var1 = var1.GUILD_FORUM;
-            if(!(var1 !== var4)) { _fun0003_ip = 679; continue _fun0003 }
- 286:
+            if(!(var1 !== var4)) { _fun0003_ip = 668; continue _fun0003 }
+ 280:
             var1 = _closure1_slot7;
             var1 = var1.GUILD_MEDIA;
-            if(!(var1 !== var4)) { _fun0003_ip = 679; continue _fun0003 }
- 303:
+            if(!(var1 !== var4)) { _fun0003_ip = 668; continue _fun0003 }
+ 297:
             var11 = _closure1_slot2;
-            var19 = _closure1_slot3;
-            var9 = 15;
-            var1 = var19[var9];
+            var18 = _closure1_slot3;
+            var9 = 14;
+            var1 = var18[var9];
             var13 = var11.bind(var10)(var1);
             var12 = var13.generateChannelGeneralSection;
             var15 = _closure1_slot0;
-            var4 = 10;
-            var1 = var19[var4];
+            var4 = 9;
+            var1 = var18[var4];
             var1 = var15.bind(var10)(var1);
-            var22 = var1.intl;
-            var21 = var22.string;
-            var1 = var19[var4];
+            var21 = var1.intl;
+            var20 = var21.string;
+            var1 = var18[var4];
             var1 = var15.bind(var10)(var1);
             var1 = var1.t;
             var1 = var1.ouHggI;
-            var1 = var21.bind(var22)(var1);
+            var1 = var20.bind(var21)(var1);
             var12 = var12.bind(var13)(var6, var1);
             var1 = new Array(4);
             var1[0] = var12;
-            var12 = var19[var9];
-            var21 = var11.bind(var10)(var12);
-            var13 = var21.generateChannelMembershipSection;
-            var12 = var19[var4];
+            var12 = var18[var9];
+            var20 = var11.bind(var10)(var12);
+            var13 = var20.generateChannelMembershipSection;
+            var12 = var18[var4];
             var12 = var15.bind(var10)(var12);
-            var24 = var12.intl;
-            var22 = var24.string;
-            var12 = var19[var4];
+            var23 = var12.intl;
+            var21 = var23.string;
+            var12 = var18[var4];
             var12 = var15.bind(var10)(var12);
             var12 = var12.t;
             var12 = var12.Ny49TE;
-            var12 = var22.bind(var24)(var12);
-            var12 = var13.bind(var21)(var6, var12);
+            var12 = var21.bind(var23)(var12);
+            var12 = var13.bind(var20)(var6, var12);
             var1[1] = var12;
-            var12 = var19[var9];
-            var22 = var11.bind(var10)(var12);
-            var21 = var22.generateChannelTextSection;
-            var12 = var19[var4];
+            var12 = var18[var9];
+            var21 = var11.bind(var10)(var12);
+            var20 = var21.generateChannelTextSection;
+            var12 = var18[var4];
             var12 = var15.bind(var10)(var12);
-            var24 = var12.intl;
-            var13 = var24.string;
-            var12 = var19[var4];
+            var23 = var12.intl;
+            var13 = var23.string;
+            var12 = var18[var4];
             var12 = var15.bind(var10)(var12);
             var12 = var12.t;
             var12 = var12.cKobOz;
-            var13 = var13.bind(var24)(var12);
+            var13 = var13.bind(var23)(var12);
             var12 = {};
-            var24 = var23.type;
-            var23 = _closure1_slot7;
-            var23 = var23.GUILD_ANNOUNCEMENT;
-            var23 = var24 !== var23;
-            var12['showPrivateThreads'] = var23;
-            var23 = true;
-            var12['showCreateThreads'] = var23;
-            var12['inSoundmojiExperiment'] = var18;
-            var12['inPinPermissionExperiment'] = var17;
+            var23 = var22.type;
+            var22 = _closure1_slot7;
+            var22 = var22.GUILD_ANNOUNCEMENT;
+            var22 = var23 !== var22;
+            var12['showPrivateThreads'] = var22;
+            var22 = true;
+            var12['showCreateThreads'] = var22;
+            var12['inSoundmojiExperiment'] = var17;
             var12['inBypassSlowmodePermissionExperiment'] = var16;
-            var12 = var21.bind(var22)(var6, var13, var12);
+            var12 = var20.bind(var21)(var6, var13, var12);
             var1[2] = var12;
-            var9 = var19[var9];
+            var9 = var18[var9];
             var11 = var11.bind(var10)(var9);
             var9 = var11.generateChannelAppsSection;
-            var12 = var19[var4];
+            var12 = var18[var4];
             var12 = var15.bind(var10)(var12);
             var13 = var12.intl;
             var12 = var13.string;
-            var4 = var19[var4];
+            var4 = var18[var4];
             var4 = var15.bind(var10)(var4);
             var4 = var4.t;
             var4 = var4.rrh/W1;
@@ -339,14 +326,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = function() {
                 var3 = _closure1_slot2;
                 var9 = _closure1_slot3;
-                var2 = 15;
+                var2 = 14;
                 var2 = var9[var2];
                 var8 = undefined;
                 var4 = var3.bind(var8)(var2);
                 var3 = var4.generateChannelVoiceSection;
                 var2 = _closure2_slot1;
                 var7 = _closure1_slot0;
-                var1 = 10;
+                var1 = 9;
                 var5 = var9[var1];
                 var5 = var7.bind(var8)(var5);
                 var6 = var5.intl;
@@ -359,15 +346,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var3.bind(var4)(var2, var1);
                 return var1;
             };
-            var26 = var9.bind(var10)(var5, var4);
-            var25 = 4;
-            var27 = var1;
-            var4 = arraySpread(var27, var26, var25);
+            var25 = var9.bind(var10)(var5, var4);
+            var24 = 4;
+            var26 = var1;
+            var4 = arraySpread(var26, var25, var24);
             return var1;
- 679:
+ 668:
             var11 = _closure1_slot0;
             var1 = _closure1_slot3;
-            var15 = 10;
+            var15 = 9;
             var4 = var1[var15];
             var4 = var11.bind(var10)(var4);
             var9 = var4.intl;
@@ -375,75 +362,75 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1[var15];
             var1 = var11.bind(var10)(var1);
             var1 = var1.t;
-            if(var2) { _fun0003_ip = 741; continue _fun0003 }
- 726:
+            if(var2) { _fun0003_ip = 730; continue _fun0003 }
+ 715:
             var11 = var1.TS7CnZ;
             var12 = var4.bind(var9)(var11);
-            _fun0003_ip = 754; continue _fun0003;
- 741:
+            _fun0003_ip = 743; continue _fun0003;
+ 730:
             var1 = var1.aSjPg4;
             var12 = var4.bind(var9)(var1);
- 754:
+ 743:
             var4 = _closure1_slot0;
             var1 = _closure1_slot3;
             var1 = var1[var15];
             var1 = var4.bind(var10)(var1);
             var1 = var1.t;
-            if(var2) { _fun0003_ip = 789; continue _fun0003 }
- 779:
-            var23 = var1.1MTnqa;
-            _fun0003_ip = 797; continue _fun0003;
- 789:
-            var23 = var1.YjJTtL;
- 797:
+            if(var2) { _fun0003_ip = 778; continue _fun0003 }
+ 768:
+            var22 = var1.1MTnqa;
+            _fun0003_ip = 786; continue _fun0003;
+ 778:
+            var22 = var1.YjJTtL;
+ 786:
             var9 = _closure1_slot2;
             var2 = _closure1_slot3;
-            var4 = 15;
+            var4 = 14;
             var1 = var2[var4];
             var13 = var9.bind(var10)(var1);
             var11 = var13.generateChannelGeneralSection;
-            var24 = _closure1_slot0;
+            var23 = _closure1_slot0;
             var1 = var2[var15];
-            var1 = var24.bind(var10)(var1);
-            var21 = var1.intl;
-            var19 = var21.string;
+            var1 = var23.bind(var10)(var1);
+            var20 = var1.intl;
+            var18 = var20.string;
             var1 = var2[var15];
-            var1 = var24.bind(var10)(var1);
+            var1 = var23.bind(var10)(var1);
             var1 = var1.t;
             var1 = var1.ouHggI;
-            var1 = var19.bind(var21)(var1);
+            var1 = var18.bind(var20)(var1);
             var11 = var11.bind(var13)(var6, var1);
             var1 = new Array(4);
             var1[0] = var11;
             var11 = var2[var4];
-            var19 = var9.bind(var10)(var11);
-            var13 = var19.generateChannelMembershipSection;
+            var18 = var9.bind(var10)(var11);
+            var13 = var18.generateChannelMembershipSection;
             var11 = var2[var15];
-            var11 = var24.bind(var10)(var11);
-            var22 = var11.intl;
-            var21 = var22.string;
+            var11 = var23.bind(var10)(var11);
+            var21 = var11.intl;
+            var20 = var21.string;
             var11 = var2[var15];
-            var11 = var24.bind(var10)(var11);
+            var11 = var23.bind(var10)(var11);
             var11 = var11.t;
             var11 = var11.Ny49TE;
-            var11 = var21.bind(var22)(var11);
-            var11 = var13.bind(var19)(var6, var11);
+            var11 = var20.bind(var21)(var11);
+            var11 = var13.bind(var18)(var6, var11);
             var1[1] = var11;
             var2 = var2[var4];
             var11 = var9.bind(var10)(var2);
             var9 = var11.generateChannelTextSection;
             var2 = {'showPrivateThreads': false, 'showCreateThreads': false};
             var13 = undefined;
-            if(!var14) { _fun0003_ip = 1035; continue _fun0003 }
- 988:
-            var21 = _closure1_slot0;
-            var19 = _closure1_slot3;
-            var19 = var19[var15];
-            var19 = var21.bind(var10)(var19);
-            var22 = var19.intl;
-            var21 = var22.format;
-            var19 = {};
-            var24 = function setUpAutomod() {
+            if(!var14) { _fun0003_ip = 1024; continue _fun0003 }
+ 977:
+            var20 = _closure1_slot0;
+            var18 = _closure1_slot3;
+            var18 = var18[var15];
+            var18 = var20.bind(var10)(var18);
+            var21 = var18.intl;
+            var20 = var21.format;
+            var18 = {};
+            var23 = function setUpAutomod() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
                     var1 = _closure2_slot2;
@@ -451,7 +438,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  10:
                     var4 = _closure1_slot0;
                     var2 = _closure1_slot3;
-                    var1 = 17;
+                    var1 = 16;
                     var2 = var2[var1];
                     var1 = undefined;
                     var2 = var4.bind(var1)(var2);
@@ -460,7 +447,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  45:
                     var5 = _closure1_slot1;
                     var4 = _closure1_slot3;
-                    var1 = 16;
+                    var1 = 15;
                     var4 = var4[var1];
                     var1 = undefined;
                     var5 = var5.bind(var1)(var4);
@@ -472,12 +459,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 }
             };
-            var19['setUpAutomod'] = var24;
-            var13 = var21.bind(var22)(var23, var19);
- 1035:
+            var18['setUpAutomod'] = var23;
+            var13 = var20.bind(var21)(var22, var18);
+ 1024:
             var2['sectionDescription'] = var13;
-            var2['inSoundmojiExperiment'] = var18;
-            var2['inPinPermissionExperiment'] = var17;
+            var2['inSoundmojiExperiment'] = var17;
             var2['inBypassSlowmodePermissionExperiment'] = var16;
             var2 = var9.bind(var11)(var6, var12, var2);
             var1[2] = var2;
@@ -502,14 +488,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = function() {
                 var3 = _closure1_slot2;
                 var9 = _closure1_slot3;
-                var2 = 15;
+                var2 = 14;
                 var2 = var9[var2];
                 var8 = undefined;
                 var4 = var3.bind(var8)(var2);
                 var3 = var4.generateChannelVoiceSection;
                 var2 = _closure2_slot1;
                 var7 = _closure1_slot0;
-                var1 = 10;
+                var1 = 9;
                 var5 = var9[var1];
                 var5 = var7.bind(var8)(var5);
                 var6 = var5.intl;
@@ -522,26 +508,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var3.bind(var4)(var2, var1);
                 return var1;
             };
-            var26 = var4.bind(var10)(var5, var2);
-            var25 = 4;
-            var27 = var1;
-            var2 = arraySpread(var27, var26, var25);
+            var25 = var4.bind(var10)(var5, var2);
+            var24 = 4;
+            var26 = var1;
+            var2 = arraySpread(var26, var25, var24);
             return var1;
- 1176:
+ 1160:
             var9 = _closure1_slot2;
             var2 = _closure1_slot3;
-            var4 = 15;
+            var4 = 14;
             var1 = var2[var4];
             var13 = var9.bind(var10)(var1);
             var12 = var13.generateChannelGeneralSection;
-            var19 = _closure1_slot0;
-            var15 = 10;
+            var18 = _closure1_slot0;
+            var15 = 9;
             var1 = var2[var15];
-            var1 = var19.bind(var10)(var1);
+            var1 = var18.bind(var10)(var1);
             var11 = var1.intl;
             var5 = var11.string;
             var1 = var2[var15];
-            var1 = var19.bind(var10)(var1);
+            var1 = var18.bind(var10)(var1);
             var1 = var1.t;
             var1 = var1.ouHggI;
             var5 = var5.bind(var11)(var1);
@@ -555,89 +541,89 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var9.bind(var10)(var5);
             var12 = var13.generateChannelMembershipSection;
             var5 = var2[var15];
-            var5 = var19.bind(var10)(var5);
-            var22 = var5.intl;
-            var21 = var22.string;
+            var5 = var18.bind(var10)(var5);
+            var21 = var5.intl;
+            var20 = var21.string;
             var5 = var2[var15];
-            var5 = var19.bind(var10)(var5);
+            var5 = var18.bind(var10)(var5);
             var5 = var5.t;
             var5 = var5.Ny49TE;
-            var5 = var21.bind(var22)(var5);
+            var5 = var20.bind(var21)(var5);
             var5 = var12.bind(var13)(var6, var5);
             var1[1] = var5;
             var5 = var2[var4];
             var13 = var9.bind(var10)(var5);
             var12 = var13.generateChannelStageVoiceSection;
             var5 = var2[var15];
-            var5 = var19.bind(var10)(var5);
-            var22 = var5.intl;
-            var21 = var22.string;
+            var5 = var18.bind(var10)(var5);
+            var21 = var5.intl;
+            var20 = var21.string;
             var5 = var2[var15];
-            var5 = var19.bind(var10)(var5);
+            var5 = var18.bind(var10)(var5);
             var5 = var5.t;
             var5 = var5.46Ra1d;
-            var5 = var21.bind(var22)(var5);
-            var5 = var12.bind(var13)(var6, var5, var20);
+            var5 = var20.bind(var21)(var5);
+            var5 = var12.bind(var13)(var6, var5, var19);
             var1[2] = var5;
             var5 = var2[var4];
             var13 = var9.bind(var10)(var5);
             var12 = var13.generateChannelStageSection;
             var5 = var2[var15];
-            var5 = var19.bind(var10)(var5);
-            var21 = var5.intl;
-            var20 = var21.string;
+            var5 = var18.bind(var10)(var5);
+            var20 = var5.intl;
+            var19 = var20.string;
             var5 = var2[var15];
-            var5 = var19.bind(var10)(var5);
+            var5 = var18.bind(var10)(var5);
             var5 = var5.t;
             var5 = var5.yniaur;
-            var5 = var20.bind(var21)(var5);
+            var5 = var19.bind(var20)(var5);
             var5 = var12.bind(var13)(var6, var5);
             var1[3] = var5;
             var5 = var2[var4];
             var13 = var9.bind(var10)(var5);
             var12 = var13.generateChannelEventsSection;
             var5 = var2[var15];
-            var5 = var19.bind(var10)(var5);
-            var21 = var5.intl;
-            var20 = var21.string;
+            var5 = var18.bind(var10)(var5);
+            var20 = var5.intl;
+            var19 = var20.string;
             var5 = var2[var15];
-            var5 = var19.bind(var10)(var5);
+            var5 = var18.bind(var10)(var5);
             var5 = var5.t;
             var5 = var5.b8lplZ;
-            var5 = var20.bind(var21)(var5);
+            var5 = var19.bind(var20)(var5);
             var5 = var12.bind(var13)(var6, var5);
             var1[4] = var5;
             var5 = var2[var4];
             var12 = var9.bind(var10)(var5);
             var9 = var12.generateChannelVoiceChatSection;
             var5 = var2[var15];
-            var5 = var19.bind(var10)(var5);
+            var5 = var18.bind(var10)(var5);
             var13 = var5.intl;
             var5 = var13.string;
             var2 = var2[var15];
-            var2 = var19.bind(var10)(var2);
+            var2 = var18.bind(var10)(var2);
             var2 = var2.t;
             var2 = var2.iqlsnJ;
             var5 = var5.bind(var13)(var2);
             var2 = {};
             var13 = undefined;
-            if(!var14) { _fun0003_ip = 1687; continue _fun0003 }
- 1620:
-            var20 = _closure1_slot0;
-            var19 = _closure1_slot3;
-            var21 = var19[var15];
-            var21 = var20.bind(var10)(var21);
-            var22 = var21.intl;
-            var21 = var22.format;
-            var19 = var19[var15];
-            var19 = var20.bind(var10)(var19);
-            var19 = var19.t;
-            var20 = var19.4Z9FbW;
-            var19 = {};
-            var23 = function setUpAutomod() {
+            if(!var14) { _fun0003_ip = 1671; continue _fun0003 }
+ 1604:
+            var19 = _closure1_slot0;
+            var18 = _closure1_slot3;
+            var20 = var18[var15];
+            var20 = var19.bind(var10)(var20);
+            var21 = var20.intl;
+            var20 = var21.format;
+            var18 = var18[var15];
+            var18 = var19.bind(var10)(var18);
+            var18 = var18.t;
+            var19 = var18.4Z9FbW;
+            var18 = {};
+            var22 = function setUpAutomod() {
                 var4 = _closure1_slot1;
                 var3 = _closure1_slot3;
-                var1 = 16;
+                var1 = 15;
                 var3 = var3[var1];
                 var1 = undefined;
                 var5 = var4.bind(var1)(var3);
@@ -648,11 +634,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var4.bind(var5)(var3, var2);
                 return var1;
             };
-            var19['setUpAutomod'] = var23;
-            var13 = var21.bind(var22)(var20, var19);
- 1687:
+            var18['setUpAutomod'] = var22;
+            var13 = var20.bind(var21)(var19, var18);
+ 1671:
             var2['sectionDescription'] = var13;
-            var2['inSoundmojiExperiment'] = var18;
+            var2['inSoundmojiExperiment'] = var17;
             var2 = var9.bind(var12)(var6, var5, var2);
             var1[5] = var2;
             var5 = _closure1_slot2;
@@ -675,27 +661,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var5.bind(var9)(var6, var4, var2);
             var1[6] = var2;
             return var1;
- 1799:
+ 1783:
             var9 = _closure1_slot2;
             var2 = _closure1_slot3;
-            var4 = 15;
+            var4 = 14;
             var1 = var2[var4];
             var12 = var9.bind(var10)(var1);
             var11 = var12.generateChannelGeneralSection;
             var15 = _closure1_slot0;
-            var13 = 10;
+            var13 = 9;
             var1 = var2[var13];
             var1 = var15.bind(var10)(var1);
-            var19 = var1.intl;
-            var5 = var19.string;
+            var18 = var1.intl;
+            var5 = var18.string;
             var1 = var2[var13];
             var1 = var15.bind(var10)(var1);
             var1 = var1.t;
             var1 = var1.ouHggI;
-            var5 = var5.bind(var19)(var1);
+            var5 = var5.bind(var18)(var1);
             var1 = {};
-            var19 = true;
-            var1['showManageWebhooks'] = var19;
+            var18 = true;
+            var1['showManageWebhooks'] = var18;
             var5 = var11.bind(var12)(var6, var5, var1);
             var1 = new Array(6);
             var1[0] = var5;
@@ -704,13 +690,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var12.generateChannelMembershipSection;
             var5 = var2[var13];
             var5 = var15.bind(var10)(var5);
-            var20 = var5.intl;
-            var19 = var20.string;
+            var19 = var5.intl;
+            var18 = var19.string;
             var5 = var2[var13];
             var5 = var15.bind(var10)(var5);
             var5 = var5.t;
             var5 = var5.Ny49TE;
-            var5 = var19.bind(var20)(var5);
+            var5 = var18.bind(var19)(var5);
             var5 = var11.bind(var12)(var6, var5);
             var1[1] = var5;
             var5 = var2[var4];
@@ -718,13 +704,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var12.generateChannelVoiceSection;
             var5 = var2[var13];
             var5 = var15.bind(var10)(var5);
-            var20 = var5.intl;
-            var19 = var20.string;
+            var19 = var5.intl;
+            var18 = var19.string;
             var5 = var2[var13];
             var5 = var15.bind(var10)(var5);
             var5 = var5.t;
             var5 = var5.46Ra1d;
-            var5 = var19.bind(var20)(var5);
+            var5 = var18.bind(var19)(var5);
             var5 = var11.bind(var12)(var6, var5);
             var1[2] = var5;
             var5 = var2[var4];
@@ -741,23 +727,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.bind(var12)(var2);
             var2 = {};
             var12 = undefined;
-            if(!var14) { _fun0003_ip = 2171; continue _fun0003 }
- 2104:
+            if(!var14) { _fun0003_ip = 2155; continue _fun0003 }
+ 2088:
             var15 = _closure1_slot0;
             var14 = _closure1_slot3;
-            var19 = var14[var13];
-            var19 = var15.bind(var10)(var19);
-            var20 = var19.intl;
-            var19 = var20.format;
+            var18 = var14[var13];
+            var18 = var15.bind(var10)(var18);
+            var19 = var18.intl;
+            var18 = var19.format;
             var14 = var14[var13];
             var14 = var15.bind(var10)(var14);
             var14 = var14.t;
             var15 = var14.4Z9FbW;
             var14 = {};
-            var21 = function setUpAutomod() {
+            var20 = function setUpAutomod() {
                 var4 = _closure1_slot1;
                 var3 = _closure1_slot3;
-                var1 = 16;
+                var1 = 15;
                 var3 = var3[var1];
                 var1 = undefined;
                 var5 = var4.bind(var1)(var3);
@@ -768,11 +754,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var4.bind(var5)(var3, var2);
                 return var1;
             };
-            var14['setUpAutomod'] = var21;
-            var12 = var19.bind(var20)(var15, var14);
- 2171:
+            var14['setUpAutomod'] = var20;
+            var12 = var18.bind(var19)(var15, var14);
+ 2155:
             var2['sectionDescription'] = var12;
-            var2['inSoundmojiExperiment'] = var18;
+            var2['inSoundmojiExperiment'] = var17;
             var2 = var9.bind(var11)(var6, var5, var2);
             var1[3] = var2;
             var5 = _closure1_slot2;
@@ -783,13 +769,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = _closure1_slot0;
             var9 = var2[var13];
             var9 = var12.bind(var10)(var9);
-            var19 = var9.intl;
-            var15 = var19.string;
+            var18 = var9.intl;
+            var15 = var18.string;
             var9 = var2[var13];
             var9 = var12.bind(var10)(var9);
             var9 = var9.t;
             var9 = var9.b8lplZ;
-            var9 = var15.bind(var19)(var9);
+            var9 = var15.bind(var18)(var9);
             var9 = var11.bind(var14)(var6, var9);
             var1[4] = var9;
             var4 = var2[var4];
@@ -807,15 +793,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4.bind(var5)(var6, var2);
             var1[5] = var2;
             return var1;
- 2344:
+ 2328:
             var5 = _closure1_slot2;
             var11 = _closure1_slot3;
-            var4 = 15;
+            var4 = 14;
             var1 = var11[var4];
             var13 = var5.bind(var10)(var1);
             var12 = var13.generateChannelGeneralSection;
             var9 = _closure1_slot0;
-            var2 = 10;
+            var2 = 9;
             var1 = var11[var2];
             var1 = var9.bind(var10)(var1);
             var15 = var1.intl;
@@ -833,13 +819,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var14.generateChannelMembershipSection;
             var12 = var11[var2];
             var12 = var9.bind(var10)(var12);
-            var19 = var12.intl;
-            var15 = var19.string;
+            var18 = var12.intl;
+            var15 = var18.string;
             var12 = var11[var2];
             var12 = var9.bind(var10)(var12);
             var12 = var12.t;
             var12 = var12.Ny49TE;
-            var12 = var15.bind(var19)(var12);
+            var12 = var15.bind(var18)(var12);
             var12 = var13.bind(var14)(var6, var12);
             var1[1] = var12;
             var12 = var11[var4];
@@ -847,16 +833,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var15.generateChannelTextSection;
             var12 = var11[var2];
             var12 = var9.bind(var10)(var12);
-            var19 = var12.intl;
-            var13 = var19.string;
+            var18 = var12.intl;
+            var13 = var18.string;
             var12 = var11[var2];
             var12 = var9.bind(var10)(var12);
             var12 = var12.t;
             var12 = var12.cKobOz;
-            var13 = var13.bind(var19)(var12);
+            var13 = var13.bind(var18)(var12);
             var12 = {'showPrivateThreads': true, 'showCreateThreads': true};
-            var12['inSoundmojiExperiment'] = var18;
-            var12['inPinPermissionExperiment'] = var17;
+            var12['inSoundmojiExperiment'] = var17;
             var12['inBypassSlowmodePermissionExperiment'] = var16;
             var12 = var14.bind(var15)(var6, var13, var12);
             var1[2] = var12;
@@ -893,14 +878,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = function() {
                 var3 = _closure1_slot2;
                 var9 = _closure1_slot3;
-                var2 = 15;
+                var2 = 14;
                 var2 = var9[var2];
                 var8 = undefined;
                 var4 = var3.bind(var8)(var2);
                 var3 = var4.generateChannelStageSection;
                 var2 = _closure2_slot1;
                 var7 = _closure1_slot0;
-                var1 = 10;
+                var1 = 9;
                 var5 = var9[var1];
                 var5 = var7.bind(var8)(var5);
                 var6 = var5.intl;
@@ -913,10 +898,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var3.bind(var4)(var2, var1);
                 return var1;
             };
-            var26 = var8.bind(var10)(var7, var3);
-            var25 = 5;
-            var27 = var1;
-            var3 = arraySpread(var27, var26, var25);
+            var25 = var8.bind(var10)(var7, var3);
+            var24 = 5;
+            var26 = var1;
+            var3 = arraySpread(var26, var25, var24);
             var4 = var11[var4];
             var5 = var5.bind(var10)(var4);
             var4 = var5.generateChannelEventsSection;
@@ -964,7 +949,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  92:
             var5 = _closure1_slot2;
             var3 = _closure1_slot3;
-            var2 = 15;
+            var2 = 14;
             var2 = var3[var2];
             var3 = undefined;
             var5 = var5.bind(var3)(var2);
@@ -1022,7 +1007,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = function getGuildPermissionSpecMap(arg1) {
         var3 = _closure1_slot2;
         var4 = _closure1_slot3;
-        var2 = 15;
+        var2 = 14;
         var2 = var4[var2];
         var5 = undefined;
         var3 = var3.bind(var5)(var2);
@@ -1035,7 +1020,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var2['getGuildPermissionSpecMap'] = var4;
-    var4 = 18;
+    var4 = 17;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

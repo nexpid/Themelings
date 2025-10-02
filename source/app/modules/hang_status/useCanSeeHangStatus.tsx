@@ -40,17 +40,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = 2;
             var1 = var5[var1];
             var6 = undefined;
-            var1 = var4.bind(var6)(var1);
-            var5 = var1.HangStatusExperiment;
-            var4 = var5.useExperiment;
+            var5 = var4.bind(var6)(var1);
+            var4 = var5.useHangStatusExperiment;
             var1 = {};
             var7 = null;
             var9 = var7 == var8;
             var7 = undefined;
-            if(var9) { _fun0001_ip = 64; continue _fun0001 }
- 59:
+            if(var9) { _fun0001_ip = 58; continue _fun0001 }
+ 53:
             var7 = var8.guild_id;
- 64:
+ 58:
             var1['guildId'] = var7;
             var7 = arg1;
             var1['location'] = var7;
@@ -75,10 +74,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var2 = var4.bind(var5)(var3, var2);
-            if(!var1) { _fun0001_ip = 142; continue _fun0001 }
- 139:
+            if(!var1) { _fun0001_ip = 136; continue _fun0001 }
+ 133:
             var1 = var2;
- 142:
+ 136:
             return var1;
         }
     };

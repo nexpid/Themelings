@@ -138,9 +138,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = var6.localVideo;
             var6 = 13;
             var6 = var7[var6];
-            var6 = var10.bind(var4)(var6);
-            var12 = var6.HangStatusExperiment;
-            var11 = var12.useExperiment;
+            var12 = var10.bind(var4)(var6);
+            var11 = var12.useHangStatusExperiment;
             var6 = {};
             var15 = var13.guild_id;
             var6['guildId'] = var15;
@@ -269,17 +268,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var26.bind(var27)(var12, var7, var10);
             var10 = null;
             var12 = var10 != var9;
-            if(!var12) { _fun0001_ip = 445; continue _fun0001 }
- 442:
+            if(!var12) { _fun0001_ip = 439; continue _fun0001 }
+ 436:
             var12 = var5;
- 445:
-            if(!var12) { _fun0001_ip = 466; continue _fun0001 }
- 448:
+ 439:
+            if(!var12) { _fun0001_ip = 460; continue _fun0001 }
+ 442:
             var26 = _closure1_slot7;
             var5 = var26.getSessionId;
             var5 = var5.bind(var26)();
             var12 = var9 !== var5;
- 466:
+ 460:
             _closure2_slot5 = var12;
             var5 = _closure1_slot0;
             var26 = _closure1_slot2;
@@ -344,35 +343,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['member'] = var25;
             var1['user'] = var24;
             var1['collapsed'] = var23;
-            if(var21) { _fun0001_ip = 630; continue _fun0001 }
- 627:
+            if(var21) { _fun0001_ip = 624; continue _fun0001 }
+ 621:
             var21 = var22;
- 630:
+ 624:
             var1['serverMute'] = var21;
             var1['serverDeaf'] = var20;
             var1['mute'] = var19;
             var1['deaf'] = var18;
             var1['localMute'] = var17;
-            if(var14) { _fun0001_ip = 661; continue _fun0001 }
- 658:
+            if(var14) { _fun0001_ip = 655; continue _fun0001 }
+ 652:
             var14 = var16;
- 661:
+ 655:
             var1['video'] = var14;
             var16 = var10 == var15;
             var14 = undefined;
-            if(var16) { _fun0001_ip = 680; continue _fun0001 }
- 675:
+            if(var16) { _fun0001_ip = 674; continue _fun0001 }
+ 669:
             var14 = var15.channelId;
- 680:
+ 674:
             var13 = var13.id;
             var13 = var14 === var13;
             var1['stream'] = var13;
             var1['platform'] = var11;
             var11 = var10 == var11;
-            if(!var11) { _fun0001_ip = 709; continue _fun0001 }
- 706:
+            if(!var11) { _fun0001_ip = 703; continue _fun0001 }
+ 700:
             var11 = var12;
- 709:
+ 703:
             var1['disabled'] = var11;
             var9 = var10 != var9;
             var1['isInEmbeddedActivity'] = var9;

@@ -49,48 +49,66 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
             var2 = _closure1_slot7;
-            var4 = var2.NSUserDefaultsBridge;
-            var5 = null;
-            if(!(var5 != var4)) { _fun0002_ip = 77; continue _fun0002 }
+            var5 = var2.NSUserDefaultsBridge;
+            var2 = null;
+            if(!(var2 != var5)) { _fun0002_ip = 77; continue _fun0002 }
  19:
-            var3 = var4.setShouldEnableCustomEmojisInPushNotifications;
+            var4 = var5.setShouldEnableCustomEmojisInPushNotifications;
             var7 = _closure1_slot0;
             var6 = _closure1_slot1;
-            var2 = 6;
-            var6 = var6[var2];
-            var2 = undefined;
-            var7 = var7.bind(var2)(var6);
+            var3 = 6;
+            var6 = var6[var3];
+            var3 = undefined;
+            var7 = var7.bind(var3)(var6);
             var6 = var7.shouldEnableCustomEmojisInPushNotifications;
-            var2 = {};
+            var3 = {};
             var8 = 'NativeExperimentBridgeManager';
-            var2['location'] = var8;
-            var2 = var6.bind(var7)(var2);
-            var2 = var3.bind(var4)(var2);
+            var3['location'] = var8;
+            var3 = var6.bind(var7)(var3);
+            var3 = var4.bind(var5)(var3);
  77:
-            var2 = _closure1_slot7;
-            var3 = var2.NSUserDefaultsBridge;
-            var2 = var5 == var3;
-            if(var2) { _fun0002_ip = 104; continue _fun0002 }
+            var3 = _closure1_slot7;
+            var5 = var3.NSUserDefaultsBridge;
+            var3 = var2 == var5;
+            if(var3) { _fun0002_ip = 104; continue _fun0002 }
  94:
-            var4 = var3.setShouldClearChannelNotificationsOnPushAck;
-            var2 = var5 == var4;
+            var4 = var5.setShouldClearChannelNotificationsOnPushAck;
+            var3 = var2 == var4;
  104:
-            if(var2) { _fun0002_ip = 163; continue _fun0002 }
+            if(var3) { _fun0002_ip = 163; continue _fun0002 }
  107:
-            var2 = var3.setShouldClearChannelNotificationsOnPushAck;
+            var4 = var5.setShouldClearChannelNotificationsOnPushAck;
+            var7 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var3 = 7;
+            var6 = var6[var3];
+            var3 = undefined;
+            var7 = var7.bind(var3)(var6);
+            var6 = var7.shouldClearChannelNotificationsOnPushAck;
+            var3 = {};
+            var8 = 'NativeExperimentBridgeManager';
+            var3['location'] = var8;
+            var3 = var6.bind(var7)(var3);
+            var3 = var4.bind(var5)(var3);
+ 163:
+            var3 = _closure1_slot7;
+            var3 = var3.NSUserDefaultsBridge;
+            if(!(var2 != var3)) { _fun0002_ip = 235; continue _fun0002 }
+ 177:
+            var2 = var3.setShouldEnableAnimatedReactionUpdates;
             var5 = _closure1_slot0;
             var4 = _closure1_slot1;
-            var1 = 7;
+            var1 = 8;
             var4 = var4[var1];
             var1 = undefined;
             var5 = var5.bind(var1)(var4);
-            var4 = var5.shouldClearChannelNotificationsOnPushAck;
+            var4 = var5.shouldEnableAnimatedReactionUpdates;
             var1 = {};
             var6 = 'NativeExperimentBridgeManager';
             var1['location'] = var6;
             var1 = var4.bind(var5)(var1);
             var1 = var2.bind(var3)(var1);
- 163:
+ 235:
             var1 = undefined;
             return var1;
         }
@@ -135,7 +153,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.NativeModules;
     var _closure1_slot7 = var4;
-    var4 = 9;
+    var4 = 10;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var2 = function(arg1) {
@@ -176,7 +194,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var2.bind(var5)(var4, var1);
                 var4 = _closure1_slot0;
                 var2 = _closure1_slot1;
-                var6 = 8;
+                var6 = 9;
                 var2 = var2[var6];
                 var4 = var4.bind(var5)(var2);
                 var2 = var4.isIOS;
@@ -226,7 +244,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var4;
     var2 = new var13[var2](var12);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 10;
+    var4 = 11;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

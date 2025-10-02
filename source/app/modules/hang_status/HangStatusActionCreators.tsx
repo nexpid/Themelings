@@ -369,7 +369,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         }
     };
     var3['deleteInvalidHangStatuses'] = var4;
-    var2 = function updateFavoriteHangStatus(arg1, arg2) {
+    var4 = function updateFavoriteHangStatus(arg1, arg2) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 7;
@@ -387,6 +387,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var3['updateFavoriteHangStatus'] = var2;
+    var3['updateFavoriteHangStatus'] = var4;
+    var2 = function resetHangStatusState() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 7;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'RESET_HANG_STATUS_STATE';
+        var2['type'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var3['resetHangStatusState'] = var2;
     return var1;
 })();

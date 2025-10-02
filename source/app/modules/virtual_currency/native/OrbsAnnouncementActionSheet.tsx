@@ -442,10 +442,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = new Array(1);
         var2[0] = var1;
         var1 = function() {
-            var3 = _closure2_slot0;
-            var1 = _closure1_slot7;
-            var2 = var1.USER_DISMISS;
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var1 = 19;
+            var3 = var3[var1];
             var1 = undefined;
+            var5 = var4.bind(var1)(var3);
+            var4 = var5.setVirtualCurrencyOnboardingPillEnabled;
+            var3 = true;
+            var3 = var4.bind(var5)(var3);
+            var3 = _closure2_slot0;
+            var2 = _closure1_slot7;
+            var2 = var2.USER_DISMISS;
             var2 = var3.bind(var1)(var2);
             return var1;
         };

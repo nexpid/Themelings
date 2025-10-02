@@ -173,6 +173,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11['category'] = var12;
     var2['iar_skip_api_report_submit'] = var11;
     var11 = {};
+    var12 = 'Show IAR report sub type labels';
+    var11['label'] = var12;
+    var12 = var5.REPORTING;
+    var11['category'] = var12;
+    var2['iar_show_report_sub_type_labels'] = var11;
+    var11 = {};
     var12 = "Only show application collections (e.g. in App Directory, App Launcher in text) that have the 'preview' active state. This disables application collections cache, too, so you can see collections updates immediately.";
     var11['label'] = var12;
     var12 = var5.APP_COLLECTIONS;

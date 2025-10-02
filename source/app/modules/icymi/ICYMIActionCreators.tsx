@@ -492,118 +492,118 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0007_ip = 668; continue _fun0007 }
+                    if(var2) { _fun0007_ip = 740; continue _fun0007 }
  10:
                     var2 = undefined;
-                    var9 = undefined;
+                    var10 = undefined;
+                    var15 = undefined;
                     var14 = undefined;
+                    var12 = undefined;
                     var13 = undefined;
                     var11 = undefined;
-                    var12 = undefined;
-                    var10 = undefined;
-                    var5 = _closure1_slot0;
-                    var6 = _closure1_slot2;
-                    var4 = 5;
-                    var4 = var6[var4];
-                    var5 = var5.bind(var2)(var4);
-                    var4 = var5.icymiEnabled;
-                    var6 = 'fetchHydrated';
-                    var4 = var4.bind(var5)(var6);
-                    if(!var4) { _fun0007_ip = 665; continue _fun0007 }
+                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var6 = 5;
+                    var3 = var3[var6];
+                    var4 = var4.bind(var2)(var3);
+                    var3 = var4.icymiEnabled;
+                    var5 = 'fetchHydrated';
+                    var3 = var3.bind(var4)(var5);
+                    if(!var3) { _fun0007_ip = 737; continue _fun0007 }
  68:
-                    var5 = _closure1_slot0;
-                    var7 = _closure1_slot2;
-                    var4 = 6;
-                    var4 = var7[var4];
-                    var5 = var5.bind(var2)(var4);
-                    var4 = var5.getICYMINewConversationSummaryExperiment;
-                    var7 = false;
-                    var4 = var4.bind(var5)(var6, var7);
-                    var9 = var4.contentGenerationEnabled;
+                    var4 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var3 = 6;
+                    var3 = var8[var3];
+                    var4 = var4.bind(var2)(var3);
+                    var3 = var4.getICYMINewConversationSummaryExperiment;
+                    var9 = false;
+                    var3 = var3.bind(var4)(var5, var9);
+                    var10 = var3.contentGenerationEnabled;
                     var5 = _closure2_slot2;
                     var4 = var5.messageItems;
-                    var14 = var4;
-                    var13 = var5.summaryItems;
-                    var11 = var5.activityItems;
-                    var12 = var5.generatedCandidateItems;
+                    var15 = var4;
+                    var14 = var5.summaryItems;
+                    var12 = var5.activityItems;
+                    var13 = var5.generatedCandidateItems;
                     var4 = var4.length;
                     var5 = 0;
                     if(!(var5 === var4)) { _fun0007_ip = 336; continue _fun0007 }
  156:
-                    var4 = var13;
+                    var4 = var14;
                     var4 = var4.length;
                     if(!(var5 === var4)) { _fun0007_ip = 336; continue _fun0007 }
  171:
-                    var4 = var11;
+                    var4 = var12;
                     var4 = var4.length;
                     if(!(var5 === var4)) { _fun0007_ip = 336; continue _fun0007 }
  186:
-                    var4 = var12;
+                    var4 = var13;
                     var4 = var4.length;
                     if(!(var5 === var4)) { _fun0007_ip = 336; continue _fun0007 }
  201:
                     var5 = _closure1_slot1;
-                    var6 = _closure1_slot2;
+                    var8 = _closure1_slot2;
                     var4 = 3;
-                    var4 = var6[var4];
-                    var6 = var5.bind(var2)(var4);
-                    var5 = var6.dispatch;
+                    var4 = var8[var4];
+                    var8 = var5.bind(var2)(var4);
+                    var5 = var8.dispatch;
                     var4 = {};
-                    var15 = 'LOAD_ICYMI_HYDRATED';
-                    var4['type'] = var15;
-                    var15 = new Array(0);
-                    var4['requestMessageItems'] = var15;
-                    var15 = new Array(0);
-                    var4['requestSummaryItems'] = var15;
-                    var15 = new Array(0);
-                    var4['requestActivityItems'] = var15;
-                    var15 = new Array(0);
-                    var4['requestGeneratedCandidateItems'] = var15;
-                    var15 = new Array(0);
-                    var4['messageItems'] = var15;
-                    var15 = new Array(0);
-                    var4['summaryItems'] = var15;
-                    var15 = new Array(0);
-                    var4['activityItems'] = var15;
-                    var15 = new Array(0);
-                    var4['generatedCandidateItems'] = var15;
-                    var15 = _closure2_slot0;
-                    var4['startingIndex'] = var15;
-                    var15 = _closure2_slot1;
-                    var4['endingIndex'] = var15;
-                    var4 = var5.bind(var6)(var4);
-                    _fun0007_ip = 665; continue _fun0007;
+                    var16 = 'LOAD_ICYMI_HYDRATED';
+                    var4['type'] = var16;
+                    var16 = new Array(0);
+                    var4['requestMessageItems'] = var16;
+                    var16 = new Array(0);
+                    var4['requestSummaryItems'] = var16;
+                    var16 = new Array(0);
+                    var4['requestActivityItems'] = var16;
+                    var16 = new Array(0);
+                    var4['requestGeneratedCandidateItems'] = var16;
+                    var16 = new Array(0);
+                    var4['messageItems'] = var16;
+                    var16 = new Array(0);
+                    var4['summaryItems'] = var16;
+                    var16 = new Array(0);
+                    var4['activityItems'] = var16;
+                    var16 = new Array(0);
+                    var4['generatedCandidateItems'] = var16;
+                    var16 = _closure2_slot0;
+                    var4['startingIndex'] = var16;
+                    var16 = _closure2_slot1;
+                    var4['endingIndex'] = var16;
+                    var4 = var5.bind(var8)(var4);
+                    _fun0007_ip = 737; continue _fun0007;
  336: // try_start_0
                     var5 = _closure1_slot0;
-                    var6 = _closure1_slot2;
+                    var8 = _closure1_slot2;
                     var4 = 2;
-                    var4 = var6[var4];
+                    var4 = var8[var4];
                     var4 = var5.bind(var2)(var4);
-                    var6 = var4.HTTP;
-                    var5 = var6.post;
+                    var8 = var4.HTTP;
+                    var5 = var8.post;
                     var4 = {};
-                    var15 = _closure1_slot4;
-                    var15 = var15.GRAVITY_ITEMS_HYDRATE;
-                    var4['url'] = var15;
-                    var15 = {};
-                    var16 = var14;
-                    var15['message_items'] = var16;
-                    var16 = var13;
-                    var15['summary_items'] = var16;
-                    var16 = var11;
-                    var15['activity_items'] = var16;
-                    var16 = var9;
-                    if(var16) { _fun0007_ip = 421; continue _fun0007 }
+                    var16 = _closure1_slot4;
+                    var16 = var16.GRAVITY_ITEMS_HYDRATE;
+                    var4['url'] = var16;
+                    var16 = {};
+                    var17 = var15;
+                    var16['message_items'] = var17;
+                    var17 = var14;
+                    var16['summary_items'] = var17;
+                    var17 = var12;
+                    var16['activity_items'] = var17;
+                    var17 = var10;
+                    if(var17) { _fun0007_ip = 421; continue _fun0007 }
  415:
-                    var16 = new Array(0);
+                    var17 = new Array(0);
                     _fun0007_ip = 424; continue _fun0007;
  421:
-                    var16 = var12;
+                    var17 = var13;
  424:
-                    var15['generated_candidate_items'] = var16;
-                    var4['body'] = var15;
-                    var4['rejectWithError'] = var7;
-                    var4 = var5.bind(var6)(var4);
+                    var16['generated_candidate_items'] = var17;
+                    var4['body'] = var16;
+                    var4['rejectWithError'] = var9;
+                    var4 = var5.bind(var8)(var4);
                     SaveGenerator(address=446);
  444:
                     return var4;
@@ -611,68 +611,84 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
                     if(var5) { _fun0007_ip = 629; continue _fun0007 }
  455:
-                    var10 = var4;
-                    var6 = _closure1_slot1;
-                    var7 = _closure1_slot2;
+                    var11 = var4;
+                    var8 = _closure1_slot1;
+                    var9 = _closure1_slot2;
                     var5 = 3;
-                    var5 = var7[var5];
-                    var7 = var6.bind(var2)(var5);
-                    var6 = var7.dispatch;
+                    var5 = var9[var5];
+                    var9 = var8.bind(var2)(var5);
+                    var8 = var9.dispatch;
                     var5 = {};
-                    var15 = 'LOAD_ICYMI_HYDRATED';
-                    var5['type'] = var15;
-                    var5['requestMessageItems'] = var14;
-                    var5['requestSummaryItems'] = var13;
-                    var5['requestActivityItems'] = var11;
-                    var11 = var9;
-                    if(var11) { _fun0007_ip = 520; continue _fun0007 }
+                    var16 = 'LOAD_ICYMI_HYDRATED';
+                    var5['type'] = var16;
+                    var5['requestMessageItems'] = var15;
+                    var5['requestSummaryItems'] = var14;
+                    var5['requestActivityItems'] = var12;
+                    var12 = var10;
+                    if(var12) { _fun0007_ip = 520; continue _fun0007 }
  514:
-                    var11 = new Array(0);
+                    var12 = new Array(0);
                     _fun0007_ip = 523; continue _fun0007;
  520:
-                    var11 = var12;
+                    var12 = var13;
  523:
-                    var5['requestGeneratedCandidateItems'] = var11;
-                    var11 = var10;
-                    var12 = var11.body;
-                    var12 = var12.message_items;
-                    var5['messageItems'] = var12;
-                    var12 = var11.body;
-                    var12 = var12.summary_items;
-                    var5['summaryItems'] = var12;
-                    var11 = var11.body;
-                    var11 = var11.activity_items;
-                    var5['activityItems'] = var11;
-                    if(var9) { _fun0007_ip = 588; continue _fun0007 }
+                    var5['requestGeneratedCandidateItems'] = var12;
+                    var12 = var11;
+                    var13 = var12.body;
+                    var13 = var13.message_items;
+                    var5['messageItems'] = var13;
+                    var13 = var12.body;
+                    var13 = var13.summary_items;
+                    var5['summaryItems'] = var13;
+                    var12 = var12.body;
+                    var12 = var12.activity_items;
+                    var5['activityItems'] = var12;
+                    if(var10) { _fun0007_ip = 588; continue _fun0007 }
  582:
-                    var9 = new Array(0);
+                    var10 = new Array(0);
                     _fun0007_ip = 599; continue _fun0007;
  588:
-                    var10 = var10.body;
-                    var9 = var10.generated_candidate_items;
+                    var11 = var11.body;
+                    var10 = var11.generated_candidate_items;
  599:
-                    var5['generatedCandidateItems'] = var9;
-                    var9 = _closure2_slot0;
-                    var5['startingIndex'] = var9;
-                    var8 = _closure2_slot1;
-                    var5['endingIndex'] = var8;
-                    var5 = var6.bind(var7)(var5);
+                    var5['generatedCandidateItems'] = var10;
+                    var10 = _closure2_slot0;
+                    var5['startingIndex'] = var10;
+                    var10 = _closure2_slot1;
+                    var5['endingIndex'] = var10;
+                    var5 = var8.bind(var9)(var5);
  627: // try_end0
-                    _fun0007_ip = 665; continue _fun0007;
+                    _fun0007_ip = 737; continue _fun0007;
  629:
                     return var4;
  632: // catch_target0
-                    CatchBlockStart(arg_register=4);
+                    CatchBlockStart(arg_register=9);
                     var4 = _closure1_slot1;
-                    var6 = _closure1_slot2;
-                    var3 = 4;
-                    var3 = var6[var3];
-                    var4 = var4.bind(var2)(var3);
-                    var3 = var4.captureException;
-                    var3 = var3.bind(var4)(var5);
- 665:
+                    var5 = _closure1_slot2;
+                    var8 = 4;
+                    var8 = var5[var8];
+                    var9 = var4.bind(var2)(var8);
+                    var8 = var9.captureException;
+                    var8 = var8.bind(var9)(var10);
+                    var7 = _closure1_slot0;
+                    var6 = var5[var6];
+                    var8 = var7.bind(var2)(var6);
+                    var7 = var8.generateHydrationId;
+                    var6 = _closure2_slot0;
+                    var3 = _closure2_slot1;
+                    var6 = var7.bind(var8)(var6, var3);
+                    var3 = 3;
+                    var3 = var5[var3];
+                    var5 = var4.bind(var2)(var3);
+                    var4 = var5.dispatch;
+                    var3 = {};
+                    var7 = 'LOAD_ICYMI_HYDRATED_FAILED';
+                    var3['type'] = var7;
+                    var3['hydrationId'] = var6;
+                    var3 = var4.bind(var5)(var3);
+ 737:
                     return var2;
- 668:
+ 740:
                     return var1;
                 }
             };
@@ -965,6 +981,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var2['reloadICYMITab'] = var7;
+    var7 = function loadHydratedAttempt(arg1) {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 3;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'LOAD_ICYMI_HYDRATED_ATTEMPT';
+        var2['type'] = var5;
+        var5 = arg1;
+        var2['hydrationId'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var2['loadHydratedAttempt'] = var7;
     var7 = function openICYMITab() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;

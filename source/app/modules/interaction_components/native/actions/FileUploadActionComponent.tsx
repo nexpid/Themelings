@@ -78,7 +78,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = undefined;
             if(!var9) { _fun0001_ip = 247; continue _fun0001 }
  234:
-            var9 = _closure1_slot14;
+            var9 = _closure1_slot13;
             var7 = var9.bind(var8)(var3, var8);
  247:
             _fun0001_ip = 265; continue _fun0001;
@@ -90,7 +90,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var7;
             _fun0001_ip = 283; continue _fun0001;
  270:
-            var7 = _closure1_slot14;
+            var7 = _closure1_slot13;
             var6 = var7.bind(var8)(var3, var8);
  283:
             var4 = var6;
@@ -149,7 +149,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot13 = var1;
+    var _closure1_slot12 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
@@ -182,7 +182,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot14 = var1;
+    var _closure1_slot13 = var1;
     var1 = function MainAreaCanUpload(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
@@ -193,7 +193,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var1.maxSizeBytes;
             var7 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var1 = 9;
+            var1 = 8;
             var3 = var6[var1];
             var4 = undefined;
             var9 = var7.bind(var4)(var3);
@@ -205,27 +205,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = true;
             var1 = {'useKibibytes': true, 'useSpace': true};
             var12 = var3.bind(var9)(var2, var1);
-            var3 = _closure1_slot10;
-            var9 = 10;
+            var3 = _closure1_slot9;
+            var9 = 9;
             var1 = var6[var9];
             var1 = var7.bind(var4)(var1);
             var2 = var1.TableRow;
             var1 = {};
             var1['onPress'] = var10;
-            var11 = _closure1_slot10;
+            var11 = _closure1_slot9;
             var9 = var6[var9];
             var9 = var7.bind(var4)(var9);
             var9 = var9.TableRow;
             var10 = var9.Icon;
             var9 = {};
-            var14 = 11;
+            var14 = 10;
             var14 = var6[var14];
             var14 = var7.bind(var4)(var14);
             var14 = var14.FileUpIcon;
             var9['IconComponent'] = var14;
             var9 = var11.bind(var4)(var10, var9);
             var1['icon'] = var9;
-            var14 = 12;
+            var14 = 11;
             var9 = var6[var14];
             var9 = var7.bind(var4)(var9);
             var10 = var9.intl;
@@ -301,31 +301,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot15 = var1;
+    var _closure1_slot14 = var1;
     var1 = function MainAreaLimitReached() {
-        var4 = _closure1_slot10;
+        var4 = _closure1_slot9;
         var8 = _closure1_slot0;
         var9 = _closure1_slot2;
-        var5 = 10;
+        var5 = 9;
         var1 = var9[var5];
         var3 = undefined;
         var1 = var8.bind(var3)(var1);
         var2 = var1.TableRow;
         var1 = {'icon': null, 'label': null, 'subLabel': null, 'disabled': true, 'start': true, 'end': true};
-        var7 = _closure1_slot10;
+        var7 = _closure1_slot9;
         var5 = var9[var5];
         var5 = var8.bind(var3)(var5);
         var5 = var5.TableRow;
         var6 = var5.Icon;
         var5 = {};
-        var10 = 13;
+        var10 = 12;
         var10 = var9[var10];
         var10 = var8.bind(var3)(var10);
         var10 = var10.CircleCheckIcon;
         var5['IconComponent'] = var10;
         var5 = var7.bind(var3)(var6, var5);
         var1['icon'] = var5;
-        var5 = 12;
+        var5 = 11;
         var6 = var9[var5];
         var6 = var8.bind(var3)(var6);
         var10 = var6.intl;
@@ -349,7 +349,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var4.bind(var3)(var2, var1);
         return var1;
     };
-    var _closure1_slot16 = var1;
+    var _closure1_slot15 = var1;
     var1 = function File(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
@@ -358,20 +358,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot0 = var5;
             var1 = var1.handleRemoveFile;
             var _closure2_slot1 = var1;
-            var1 = _closure1_slot12;
+            var1 = _closure1_slot11;
             var4 = undefined;
             var16 = var1.bind(var4)();
-            var3 = _closure1_slot10;
+            var3 = _closure1_slot9;
             var15 = _closure1_slot0;
             var17 = _closure1_slot2;
-            var1 = 10;
+            var1 = 9;
             var1 = var17[var1];
             var1 = var15.bind(var4)(var1);
             var2 = var1.TableRow;
             var1 = {};
-            var10 = _closure1_slot10;
+            var10 = _closure1_slot9;
             var7 = _closure1_slot1;
-            var14 = 14;
+            var14 = 13;
             var6 = var17[var14];
             var7 = var7.bind(var4)(var6);
             var6 = {};
@@ -385,12 +385,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = 32;
             var6['width'] = var11;
             var6['height'] = var11;
-            var13 = _closure1_slot10;
+            var13 = _closure1_slot9;
             var12 = _closure1_slot5;
             var11 = {};
             var16 = var16.defaultAttachmentIconWrapper;
             var11['style'] = var16;
-            var16 = _closure1_slot10;
+            var16 = _closure1_slot9;
             var14 = var17[var14];
             var14 = var15.bind(var4)(var14);
             var15 = var14.AttachmentIcon;
@@ -409,7 +409,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  234:
             var11 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var6 = 12;
+            var6 = 11;
             var7 = var12[var6];
             var7 = var11.bind(var4)(var7);
             var10 = var7.intl;
@@ -421,17 +421,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var7.bind(var10)(var6);
  291:
             var1['label'] = var5;
-            var7 = _closure1_slot10;
+            var7 = _closure1_slot9;
             var11 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var5 = 15;
+            var5 = 14;
             var5 = var12[var5];
             var5 = var11.bind(var4)(var5);
             var6 = var5.IconButton;
             var5 = {'variant': 'tertiary', 'size': 'sm'};
             var14 = 'sm';
-            var13 = _closure1_slot10;
-            var9 = 16;
+            var13 = _closure1_slot9;
+            var9 = 15;
             var9 = var12[var9];
             var9 = var11.bind(var4)(var9);
             var10 = var9.XSmallIcon;
@@ -448,7 +448,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var5['onPress'] = var8;
-            var8 = 12;
+            var8 = 11;
             var9 = var12[var8];
             var9 = var11.bind(var4)(var9);
             var10 = var9.intl;
@@ -468,7 +468,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot17 = var1;
+    var _closure1_slot16 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -503,21 +503,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot7 = var4;
     var4 = 5;
     var4 = var6[var4];
-    var4 = var7.bind(var1)(var4);
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.NOOP;
     var _closure1_slot8 = var4;
     var4 = 6;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.NOOP;
-    var _closure1_slot9 = var4;
-    var4 = 7;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
     var7 = var4.jsx;
-    var _closure1_slot10 = var7;
+    var _closure1_slot9 = var7;
     var4 = var4.jsxs;
-    var _closure1_slot11 = var4;
-    var4 = 8;
+    var _closure1_slot10 = var4;
+    var4 = 7;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
@@ -525,7 +521,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {'width': 32, 'alignItems': 'center'};
     var4['defaultAttachmentIconWrapper'] = var9;
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot12 = var4;
+    var _closure1_slot11 = var4;
     var4 = 34;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -536,130 +532,102 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
             var10 = arg1;
-            var3 = var10.type;
-            var _closure2_slot0 = var3;
             var14 = var10.minValues;
             var12 = var10.maxValues;
-            var _closure2_slot1 = var12;
-            var6 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var1 = 17;
-            var1 = var4[var1];
+            var _closure2_slot0 = var12;
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var1 = 16;
+            var1 = var3[var1];
             var5 = undefined;
-            var6 = var6.bind(var5)(var1);
-            var1 = var6.useComponentStateContext;
-            var6 = var1.bind(var6)();
-            var7 = _closure1_slot1;
-            var9 = 18;
-            var1 = var4[var9];
-            var15 = var7.bind(var5)(var1);
+            var4 = var4.bind(var5)(var1);
+            var1 = var4.useComponentStateContext;
+            var6 = var1.bind(var4)();
+            var4 = _closure1_slot1;
+            var9 = 17;
+            var1 = var3[var9];
+            var11 = var4.bind(var5)(var1);
             var1 = null;
-            var11 = var1 != var6;
-            var8 = 'FileUploadActionComponent must be used within a ComponentStateContextProvider';
-            var8 = var15.bind(var5)(var11, var8);
+            var8 = var1 != var6;
+            var7 = 'FileUploadActionComponent must be used within a ComponentStateContextProvider';
+            var7 = var11.bind(var5)(var8, var7);
             var16 = var6.channelId;
-            var _closure2_slot2 = var16;
-            var4 = var4[var9];
-            var8 = var7.bind(var5)(var4);
-            var7 = var1 != var16;
-            var4 = 'FileUploadActionComponent must be used inside a channel';
-            var4 = var8.bind(var5)(var7, var4);
-            var4 = var6.modal;
-            var7 = var1 == var4;
+            var _closure2_slot1 = var16;
+            var3 = var3[var9];
+            var7 = var4.bind(var5)(var3);
+            var4 = var1 != var16;
+            var3 = 'FileUploadActionComponent must be used inside a channel';
+            var3 = var7.bind(var5)(var4, var3);
+            var3 = var6.modal;
+            var4 = var1 == var3;
             var17 = undefined;
-            if(var7) { _fun0006_ip = 154; continue _fun0006 }
- 148:
-            var17 = var4.customId;
- 154:
-            var _closure2_slot3 = var17;
-            var11 = _closure1_slot1;
-            var8 = _closure1_slot2;
-            var4 = var8[var9];
-            var15 = var11.bind(var5)(var4);
-            var7 = var1 != var17;
-            var4 = 'FileUploadActionComponent requires modalCustomId from context';
-            var4 = var15.bind(var5)(var7, var4);
-            var7 = _closure1_slot0;
-            var4 = 19;
-            var4 = var8[var4];
-            var19 = var7.bind(var5)(var4);
-            var18 = var19.useStateFromStores;
-            var4 = _closure1_slot6;
-            var15 = new Array(1);
-            var15[0] = var4;
-            var4 = function() {
+            if(var4) { _fun0006_ip = 145; continue _fun0006 }
+ 139:
+            var17 = var3.customId;
+ 145:
+            var _closure2_slot2 = var17;
+            var8 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var3 = var7[var9];
+            var11 = var8.bind(var5)(var3);
+            var4 = var1 != var17;
+            var3 = 'FileUploadActionComponent requires modalCustomId from context';
+            var3 = var11.bind(var5)(var4, var3);
+            var4 = _closure1_slot0;
+            var3 = 18;
+            var3 = var7[var3];
+            var18 = var4.bind(var5)(var3);
+            var15 = var18.useStateFromStores;
+            var3 = _closure1_slot6;
+            var11 = new Array(1);
+            var11[0] = var3;
+            var3 = function() {
                 var3 = _closure1_slot6;
                 var2 = var3.getChannel;
-                var1 = _closure2_slot2;
+                var1 = _closure2_slot1;
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var15 = var18.bind(var19)(var15, var4);
-            var _closure2_slot4 = var15;
-            var4 = var8[var9];
-            var18 = var11.bind(var5)(var4);
-            var11 = var1 != var15;
-            var4 = 'FileUploadActionComponent requires a valid channel';
-            var4 = var18.bind(var5)(var11, var4);
-            var4 = 20;
-            var4 = var8[var4];
-            var8 = var7.bind(var5)(var4);
-            var7 = var8.maxFileSize;
-            var4 = var15.guild_id;
-            var11 = var7.bind(var8)(var4);
-            var _closure2_slot5 = var11;
-            var4 = var6.useComponentState;
-            var7 = var4.bind(var6)(var10, var5);
-            var4 = var7.state;
-            var _closure2_slot6 = var4;
-            var8 = var7.executeStateUpdate;
+            var15 = var15.bind(var18)(var11, var3);
+            var _closure2_slot3 = var15;
+            var3 = var7[var9];
+            var11 = var8.bind(var5)(var3);
+            var8 = var1 != var15;
+            var3 = 'FileUploadActionComponent requires a valid channel';
+            var3 = var11.bind(var5)(var8, var3);
+            var3 = 19;
+            var3 = var7[var3];
+            var11 = var4.bind(var5)(var3);
+            var8 = var11.maxFileSize;
+            var3 = var15.guild_id;
+            var11 = var8.bind(var11)(var3);
+            var _closure2_slot4 = var11;
+            var3 = 20;
+            var3 = var7[var3];
+            var4 = var4.bind(var5)(var3);
+            var3 = var4.useFileUploadComponentState;
+            var4 = var3.bind(var4)(var10);
+            var7 = var4.uploadIds;
+            var _closure2_slot5 = var7;
+            var3 = var4.setUploadIds;
+            var _closure2_slot6 = var3;
+            var8 = var4.currentUploads;
             var _closure2_slot7 = var8;
-            var19 = _closure1_slot4;
-            var18 = var19.useMemo;
-            var7 = new Array(2);
-            var7[0] = var4;
-            var7[1] = var3;
-            var4 = function() {
-                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
- 0:
-                    var3 = _closure2_slot6;
-                    var1 = null;
-                    var1 = var1 == var3;
-                    var3 = undefined;
-                    if(var1) { _fun0007_ip = 27; continue _fun0007 }
- 18:
-                    var1 = _closure2_slot6;
-                    var3 = var1.type;
- 27:
-                    var1 = _closure2_slot0;
-                    if(!(var3 !== var1)) { _fun0007_ip = 41; continue _fun0007 }
- 35:
-                    var1 = new Array(0);
-                    _fun0007_ip = 51; continue _fun0007;
- 41:
-                    var2 = _closure2_slot6;
-                    var1 = var2.uploadIds;
- 51:
-                    return var1;
-                }
-            };
-            var7 = var18.bind(var19)(var4, var7);
-            var _closure2_slot8 = var7;
             var4 = var6.getParents;
             var10 = var4.bind(var6)(var10);
             var6 = var1 == var10;
             var4 = undefined;
-            if(var6) { _fun0006_ip = 393; continue _fun0006 }
- 387:
+            if(var6) { _fun0006_ip = 368; continue _fun0006 }
+ 362:
             var6 = 0;
             var4 = var10[var6];
- 393:
+ 368:
             var6 = var1 == var4;
             var18 = undefined;
-            if(var6) { _fun0006_ip = 407; continue _fun0006 }
- 402:
+            if(var6) { _fun0006_ip = 382; continue _fun0006 }
+ 377:
             var18 = var4.type;
- 407:
+ 382:
             var10 = _closure1_slot0;
             var19 = _closure1_slot2;
             var6 = 21;
@@ -668,11 +636,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.ComponentType;
             var6 = var6.LABEL;
             var10 = undefined;
-            if(!(var18 === var6)) { _fun0006_ip = 448; continue _fun0006 }
- 445:
+            if(!(var18 === var6)) { _fun0006_ip = 423; continue _fun0006 }
+ 420:
             var10 = var4;
- 448:
-            var _closure2_slot9 = var10;
+ 423:
+            var _closure2_slot8 = var10;
             var6 = _closure1_slot1;
             var4 = _closure1_slot2;
             var4 = var4[var9];
@@ -687,32 +655,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = undefined;
                 var2 = function* (arg1) {
                     var1 = function* anon_0_(arg1) {
-                        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+                        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
                             StartGenerator();
                             var5 = arg1;
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(var2) { _fun0008_ip = 424; continue _fun0008 }
+                            if(var2) { _fun0007_ip = 409; continue _fun0007 }
  13:
                             var3 = var5.length;
                             var2 = 0;
-                            if(!(var2 !== var3)) { _fun0008_ip = 263; continue _fun0008 }
+                            if(!(var2 !== var3)) { _fun0007_ip = 248; continue _fun0007 }
  27:
-                            var2 = _closure2_slot8;
+                            var2 = _closure2_slot5;
                             var3 = var2.length;
                             var2 = var5.length;
                             var3 = var3 + var2;
-                            var2 = _closure2_slot1;
-                            if(!(!(var3 > var2))) { _fun0008_ip = 268; continue _fun0008 }
+                            var2 = _closure2_slot0;
+                            if(!(!(var3 > var2))) { _fun0007_ip = 253; continue _fun0007 }
  59:
-                            var2 = _closure1_slot13;
+                            var2 = _closure1_slot12;
                             var4 = undefined;
                             var10 = var2.bind(var4)(var5);
                             var6 = var10.bind(var4)();
                             var2 = var6.done;
                             var8 = 23;
                             var7 = var6;
-                            if(var2) { _fun0008_ip = 206; continue _fun0008 }
+                            if(var2) { _fun0007_ip = 206; continue _fun0007 }
  91:
                             var2 = var7.value;
                             var11 = _closure1_slot0;
@@ -727,17 +695,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             return var2;
  133:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                            if(var6) { _fun0008_ip = 203; continue _fun0008 }
+                            if(var6) { _fun0007_ip = 203; continue _fun0007 }
  139:
-                            var6 = _closure2_slot5;
-                            if(!(!(var2 > var6))) { _fun0008_ip = 164; continue _fun0008 }
+                            var6 = _closure2_slot4;
+                            if(!(!(var2 > var6))) { _fun0007_ip = 164; continue _fun0007 }
  147:
                             var11 = var10.bind(var4)();
                             var6 = var11.done;
                             var7 = var11;
-                            if(var6) { _fun0008_ip = 206; continue _fun0008 }
+                            if(var6) { _fun0007_ip = 206; continue _fun0007 }
  162:
-                            _fun0008_ip = 91; continue _fun0008;
+                            _fun0007_ip = 91; continue _fun0007;
  164:
                             var6 = _closure1_slot0;
                             var7 = _closure1_slot2;
@@ -745,7 +713,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var3 = var7[var3];
                             var7 = var6.bind(var4)(var3);
                             var6 = var7.showFileSizeExceededAlert;
-                            var3 = _closure2_slot5;
+                            var3 = _closure2_slot4;
                             var3 = var6.bind(var7)(var3, var2);
                             return var3;
  203:
@@ -760,7 +728,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 var4 = undefined;
                                 var3 = var2.bind(var4)(var1);
                                 var2 = var3.makeComponentUploadId;
-                                var1 = _closure2_slot3;
+                                var1 = _closure2_slot2;
                                 var1 = var2.bind(var3)(var1);
                                 var3 = _closure1_slot1;
                                 var2 = 26;
@@ -768,7 +736,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 var4 = var3.bind(var4)(var2);
                                 var3 = var4.setFile;
                                 var2 = {};
-                                var6 = _closure2_slot2;
+                                var6 = _closure2_slot1;
                                 var2['channelId'] = var6;
                                 var2['id'] = var1;
                                 var6 = {};
@@ -784,20 +752,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 var2 = var3.bind(var4)(var2);
                                 return var1;
                             };
-                            var7 = var3.bind(var5)(var2);
-                            var3 = _closure2_slot7;
-                            var2 = {};
-                            var5 = _closure2_slot0;
-                            var2['type'] = var5;
-                            var6 = _closure2_slot8;
-                            var5 = var6.concat;
-                            var5 = var5.bind(var6)(var7);
-                            var2['uploadIds'] = var5;
+                            var6 = var3.bind(var5)(var2);
+                            var3 = _closure2_slot6;
+                            var5 = _closure2_slot5;
+                            var2 = var5.concat;
+                            var2 = var2.bind(var5)(var6);
                             var2 = var3.bind(var4)(var2);
- 263:
+ 248:
                             var2 = undefined;
                             return var2;
- 268:
+ 253:
                             var3 = _closure1_slot1;
                             var11 = _closure1_slot2;
                             var2 = 22;
@@ -807,7 +771,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var3 = var4.show;
                             var2 = {};
                             var6 = _closure1_slot0;
-                            var5 = 12;
+                            var5 = 11;
                             var7 = var11[var5];
                             var7 = var6.bind(var10)(var7);
                             var12 = var7.intl;
@@ -827,13 +791,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var5 = var5.t;
                             var6 = var5.dy6viI;
                             var5 = {};
-                            var9 = _closure2_slot1;
+                            var9 = _closure2_slot0;
                             var5['maxValues'] = var9;
                             var5 = var7.bind(var8)(var6, var5);
                             var2['body'] = var5;
                             var2 = var3.bind(var4)(var2);
                             return var2;
- 424:
+ 409:
                             return var1;
                         }
                     };
@@ -854,76 +818,49 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var4 = var1.bind(var5)();
-            var1 = new Array(7);
+            var1 = new Array(6);
             var1[0] = var7;
             var1[1] = var12;
-            var1[2] = var8;
-            var1[3] = var3;
-            var1[4] = var11;
-            var1[5] = var17;
-            var1[6] = var16;
+            var1[2] = var3;
+            var1[3] = var11;
+            var1[4] = var17;
+            var1[5] = var16;
             var1 = var6.bind(var9)(var4, var1);
-            var _closure2_slot10 = var1;
+            var _closure2_slot9 = var1;
             var6 = var9.useCallback;
-            var4 = new Array(4);
+            var4 = new Array(3);
             var4[0] = var16;
             var4[1] = var7;
-            var4[2] = var8;
-            var4[3] = var3;
+            var4[2] = var3;
             var3 = function(arg1) {
                 var8 = arg1;
                 var _closure3_slot0 = var8;
                 var5 = _closure1_slot1;
-                var4 = _closure1_slot2;
+                var2 = _closure1_slot2;
                 var1 = 26;
-                var4 = var4[var1];
+                var2 = var2[var1];
                 var1 = undefined;
-                var7 = var5.bind(var1)(var4);
+                var7 = var5.bind(var1)(var2);
                 var6 = var7.remove;
-                var4 = _closure2_slot2;
-                var3 = _closure1_slot7;
-                var3 = var3.InteractionModal;
-                var3 = var6.bind(var7)(var4, var8, var3);
-                var4 = _closure2_slot8;
-                var3 = var4.filter;
-                var2 = function(arg1) {
+                var5 = _closure2_slot1;
+                var4 = _closure1_slot7;
+                var4 = var4.InteractionModal;
+                var4 = var6.bind(var7)(var5, var8, var4);
+                var5 = _closure2_slot5;
+                var4 = var5.filter;
+                var3 = function(arg1) {
                     var2 = _closure3_slot0;
                     var1 = arg1;
                     var1 = var1 !== var2;
                     return var1;
                 };
-                var4 = var3.bind(var4)(var2);
-                var3 = _closure2_slot7;
-                var2 = {};
-                var5 = _closure2_slot0;
-                var2['type'] = var5;
-                var2['uploadIds'] = var4;
-                var2 = var3.bind(var1)(var2);
+                var3 = var4.bind(var5)(var3);
+                var2 = _closure2_slot6;
+                var2 = var2.bind(var1)(var3);
                 return var1;
             };
             var6 = var6.bind(var9)(var3, var4);
-            var _closure2_slot11 = var6;
-            var4 = var7.map;
-            var3 = function(arg1) {
-                var5 = _closure1_slot8;
-                var4 = var5.getUpload;
-                var3 = _closure2_slot2;
-                var1 = _closure1_slot7;
-                var2 = var1.InteractionModal;
-                var1 = arg1;
-                var1 = var4.bind(var5)(var3, var1, var2);
-                return var1;
-            };
-            var8 = var4.bind(var7)(var3);
-            var4 = var8.filter;
-            var3 = function(arg1) {
-                var2 = null;
-                var1 = arg1;
-                var1 = var2 != var1;
-                return var1;
-            };
-            var8 = var4.bind(var8)(var3);
-            var _closure2_slot12 = var8;
+            var _closure2_slot10 = var6;
             var4 = var9.useCallback;
             var3 = new Array(7);
             var3[0] = var15;
@@ -939,9 +876,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var11 = var2.InteractionModal;
                 var _closure3_slot0 = var11;
                 var2 = {};
-                var3 = _closure2_slot4;
+                var3 = _closure2_slot3;
                 var2['channel'] = var3;
-                var10 = _closure2_slot1;
+                var10 = _closure2_slot0;
                 var2['uploadLimit'] = var10;
                 var3 = function onDismissKeyboard() {
                     var3 = _closure1_slot0;
@@ -955,10 +892,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var2['onDismissKeyboard'] = var3;
-                var3 = _closure1_slot9;
+                var3 = _closure1_slot8;
                 var2['onRestoreKeyboard'] = var3;
                 var3 = function onSelectFiles(arg1) {
-                    var3 = _closure2_slot10;
+                    var3 = _closure2_slot9;
                     var1 = undefined;
                     var2 = arg1;
                     var2 = var3.bind(var1)(var2);
@@ -979,16 +916,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var6.bind(var1)(var2);
                 var3 = var4.showMediaKeyboardActionSheet;
                 var2 = {};
-                var12 = _closure2_slot9;
+                var12 = _closure2_slot8;
                 var12 = var12.label;
                 var2['title'] = var12;
-                var12 = _closure2_slot4;
+                var12 = _closure2_slot3;
                 var2['channel'] = var12;
                 var2['draftType'] = var11;
                 var2['uploadLimit'] = var10;
                 var10 = true;
                 var2['disableWhenReachedLimit'] = var10;
-                var9 = _closure2_slot8;
+                var9 = _closure2_slot5;
                 var2['includedUploadIds'] = var9;
                 var9 = false;
                 var2['showRemixButton'] = var9;
@@ -1028,7 +965,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 };
                 var2['onPressCamera'] = var9;
                 var9 = function onSelectItem(arg1, arg2, arg3) {
-                    _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+                    _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
                         var5 = arg2;
                         var _closure4_slot0 = var5;
@@ -1041,7 +978,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var4 = var6.hideMediaKeyboardActionSheet;
                         var4 = var4.bind(var6)();
                         var4 = arg3;
-                        if(var4) { _fun0009_ip = 103; continue _fun0009 }
+                        if(var4) { _fun0008_ip = 103; continue _fun0008 }
  50:
                         var4 = _closure1_slot0;
                         var6 = _closure1_slot2;
@@ -1050,13 +987,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var4 = var4.bind(var1)(var3);
                         var3 = var4.mediaNodeToUploadItem;
                         var5 = var3.bind(var4)(var5);
-                        var4 = _closure2_slot10;
+                        var4 = _closure2_slot9;
                         var3 = new Array(1);
                         var3[0] = var5;
                         var3 = var4.bind(var1)(var3);
-                        _fun0009_ip = 148; continue _fun0009;
+                        _fun0008_ip = 148; continue _fun0008;
  103:
-                        var5 = _closure2_slot12;
+                        var5 = _closure2_slot7;
                         var4 = var5.find;
                         var2 = function(arg1) {
                             var3 = _closure1_slot0;
@@ -1075,9 +1012,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         };
                         var2 = var4.bind(var5)(var2);
                         var4 = null;
-                        if(!(var4 != var2)) { _fun0009_ip = 148; continue _fun0009 }
+                        if(!(var4 != var2)) { _fun0008_ip = 148; continue _fun0008 }
  134:
-                        var3 = _closure2_slot11;
+                        var3 = _closure2_slot10;
                         var2 = var2.id;
                         var2 = var3.bind(var1)(var2);
  148:
@@ -1100,7 +1037,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = _closure3_slot0;
                     var5 = 'draftType';
                     var2[var5] = var6;
-                    var6 = _closure2_slot8;
+                    var6 = _closure2_slot5;
                     var5 = 'includedUploadIds';
                     var2[var5] = var6;
                     var2 = var3.bind(var4)(var2);
@@ -1120,12 +1057,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var15 = var4.bind(var9)(var1, var3);
             var3 = 1;
-            if(!(var3 === var12)) { _fun0006_ip = 701; continue _fun0006 }
- 689:
+            if(!(var3 === var12)) { _fun0006_ip = 630; continue _fun0006 }
+ 618:
             var1 = var8.length;
-            if(!(var3 !== var1)) { _fun0006_ip = 924; continue _fun0006 }
- 701:
-            var4 = _closure1_slot11;
+            if(!(var3 !== var1)) { _fun0006_ip = 853; continue _fun0006 }
+ 630:
+            var4 = _closure1_slot10;
             var3 = _closure1_slot0;
             var16 = _closure1_slot2;
             var1 = 31;
@@ -1141,31 +1078,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var9.PX_12;
             var1['spacing'] = var9;
             var7 = var7.length;
-            if(!(!(var7 >= var12))) { _fun0006_ip = 811; continue _fun0006 }
- 773:
-            var10 = _closure1_slot10;
-            var9 = _closure1_slot15;
+            if(!(!(var7 >= var12))) { _fun0006_ip = 740; continue _fun0006 }
+ 702:
+            var10 = _closure1_slot9;
+            var9 = _closure1_slot14;
             var7 = {};
             var7['openFilePicker'] = var15;
             var7['minValues'] = var14;
             var7['maxValues'] = var12;
             var7['maxSizeBytes'] = var11;
             var9 = var10.bind(var5)(var9, var7);
-            _fun0006_ip = 827; continue _fun0006;
- 811:
-            var11 = _closure1_slot10;
-            var10 = _closure1_slot16;
+            _fun0006_ip = 756; continue _fun0006;
+ 740:
+            var11 = _closure1_slot9;
+            var10 = _closure1_slot15;
             var7 = {};
             var9 = var11.bind(var5)(var10, var7);
- 827:
+ 756:
             var7 = new Array(2);
             var7[0] = var9;
             var10 = var8.length;
             var9 = 0;
             var9 = var10 > var9;
-            if(!var9) { _fun0006_ip = 908; continue _fun0006 }
- 849:
-            var12 = _closure1_slot10;
+            if(!var9) { _fun0006_ip = 837; continue _fun0006 }
+ 778:
+            var12 = _closure1_slot9;
             var11 = _closure1_slot0;
             var14 = _closure1_slot2;
             var10 = 33;
@@ -1176,11 +1113,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var8.map;
             var13 = function(arg1) {
                 var1 = arg1;
-                var5 = _closure1_slot10;
-                var4 = _closure1_slot17;
+                var5 = _closure1_slot9;
+                var4 = _closure1_slot16;
                 var3 = {};
                 var3['upload'] = var1;
-                var2 = _closure2_slot11;
+                var2 = _closure2_slot10;
                 var3['handleRemoveFile'] = var2;
                 var2 = var1.id;
                 var1 = undefined;
@@ -1190,21 +1127,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var14.bind(var8)(var13);
             var10['children'] = var13;
             var9 = var12.bind(var5)(var11, var10);
- 908:
+ 837:
             var7[1] = var9;
             var1['children'] = var7;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0006_ip = 956; continue _fun0006;
- 924:
-            var4 = _closure1_slot10;
-            var3 = _closure1_slot17;
+            _fun0006_ip = 885; continue _fun0006;
+ 853:
+            var4 = _closure1_slot9;
+            var3 = _closure1_slot16;
             var2 = {};
             var7 = 0;
             var7 = var8[var7];
             var2['upload'] = var7;
             var2['handleRemoveFile'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 956:
+ 885:
             return var1;
         }
     };

@@ -45,7 +45,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = undefined;
             if(!(var2 === var1)) { _fun0001_ip = 22; continue _fun0001 }
  17:
-            var2 = function n() {
+            var2 = function o() {
                 var1 = undefined;
                 return var1;
             };
@@ -149,7 +149,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = 8;
             var5 = var7[var5];
             var7 = var6.bind(var1)(var5);
-            var6 = var7.isEligibleForSensitiveContentDefaults;
+            var6 = var7.isEligibleForSettingsDefaultsAggregate;
             var5 = 'age_verification_utils';
             var4 = var6.bind(var7)(var5);
  94:

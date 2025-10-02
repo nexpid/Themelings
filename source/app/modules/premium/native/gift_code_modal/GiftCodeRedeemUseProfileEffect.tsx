@@ -71,224 +71,218 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 'modules/premium/native/gift_code_modal/GiftCodeRedeemUseProfileEffect.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function GiftCodeRedeemUseProfileEffect(arg1) {
-        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+        var2 = arg1;
+        var3 = var2.profileEffect;
+        var17 = var2.user;
+        var5 = _closure1_slot5;
+        var2 = var5.useState;
+        var7 = var2.bind(var5)(var3);
+        var3 = _closure1_slot4;
+        var4 = undefined;
+        var2 = 2;
+        var3 = var3.bind(var4)(var7, var2);
+        var2 = 0;
+        var20 = var3[var2];
+        var _closure2_slot0 = var20;
+        var2 = 1;
+        var19 = var3[var2];
+        var2 = _closure1_slot10;
+        var11 = var2.bind(var4)();
+        var10 = _closure1_slot1;
+        var16 = _closure1_slot2;
+        var2 = 7;
+        var2 = var16[var2];
+        var2 = var10.bind(var4)(var2);
+        var2 = var2.bind(var4)();
+        var18 = var2.isFetching;
+        var2 = 8;
+        var2 = var16[var2];
+        var2 = var10.bind(var4)(var2);
+        var2 = var2.bind(var4)();
+        var3 = var2.handleSubmit;
+        var _closure2_slot1 = var3;
+        var14 = var2.isSubmitting;
+        var2 = var2.pendingProfileEffect;
+        var _closure2_slot2 = var2;
+        var2 = 9;
+        var2 = var16[var2];
+        var3 = var10.bind(var4)(var2);
+        var2 = var17.id;
+        var2 = var3.bind(var4)(var2);
+        var _closure2_slot3 = var2;
+        var3 = var5.useEffect;
+        var2 = function() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            var2 = arg1;
-            var5 = var2.profileEffect;
-            var12 = var2.user;
-            var4 = undefined;
-            var _closure2_slot3 = var4;
-            var3 = _closure1_slot5;
-            var2 = var3.useState;
-            var5 = var2.bind(var3)(var5);
-            var3 = _closure1_slot4;
-            var2 = 2;
-            var3 = var3.bind(var4)(var5, var2);
-            var2 = 0;
-            var19 = var3[var2];
-            var _closure2_slot0 = var19;
-            var2 = 1;
-            var18 = var3[var2];
-            var2 = _closure1_slot10;
-            var11 = var2.bind(var4)();
-            var3 = _closure1_slot1;
-            var5 = _closure1_slot2;
-            var2 = 7;
-            var2 = var5[var2];
-            var2 = var3.bind(var4)(var2);
-            var2 = var2.bind(var4)();
-            var17 = var2.isFetching;
-            var2 = 8;
-            var2 = var5[var2];
-            var2 = var3.bind(var4)(var2);
-            var2 = var2.bind(var4)();
-            var6 = var2.handleSubmit;
-            var _closure2_slot1 = var6;
-            var14 = var2.isSubmitting;
-            var2 = var2.pendingProfileEffectId;
-            var _closure2_slot2 = var2;
-            var2 = 9;
-            var2 = var5[var2];
-            var3 = var3.bind(var4)(var2);
-            var2 = var12.id;
-            var3 = var3.bind(var4)(var2);
-            var5 = null;
-            var6 = var5 == var3;
-            var2 = undefined;
-            if(var6) { _fun0001_ip = 202; continue _fun0001 }
- 182:
-            var3 = var3.profileEffect;
-            var5 = var5 == var3;
-            var2 = undefined;
-            if(var5) { _fun0001_ip = 202; continue _fun0001 }
- 197:
-            var2 = var3.id;
- 202:
-            _closure2_slot3 = var2;
-            var5 = _closure1_slot5;
-            var3 = var5.useEffect;
-            var2 = function() {
-                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
-                    var1 = _closure2_slot0;
-                    var5 = null;
-                    var3 = var5 == var1;
-                    var1 = undefined;
-                    var4 = undefined;
-                    if(var3) { _fun0002_ip = 29; continue _fun0002 }
- 20:
-                    var3 = _closure2_slot0;
-                    var4 = var3.id;
- 29:
-                    var3 = _closure2_slot2;
-                    if(!(var4 !== var3)) { _fun0002_ip = 98; continue _fun0002 }
- 37:
-                    var4 = _closure1_slot0;
-                    var6 = _closure1_slot2;
-                    var3 = 10;
-                    var3 = var6[var3];
-                    var4 = var4.bind(var1)(var3);
-                    var3 = var4.setNewPendingProfileEffectId;
-                    var6 = _closure2_slot0;
-                    var6 = var5 != var6;
-                    var5 = null;
-                    if(!var6) { _fun0002_ip = 88; continue _fun0002 }
- 79:
-                    var6 = _closure2_slot0;
-                    var5 = var6.id;
- 88:
-                    var2 = _closure2_slot3;
-                    var2 = var3.bind(var4)(var5, var2);
- 98:
-                    return var1;
-                }
-            };
-            var2 = var3.bind(var5)(var2);
-            var1 = function() {
-                var4 = _closure1_slot3;
+                var1 = _closure2_slot0;
+                var7 = null;
+                var2 = var7 == var1;
+                var1 = undefined;
                 var3 = undefined;
-                var2 = function* () {
-                    var1 = function* anon_0_() {
-                        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
-                            StartGenerator();
-                            ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(var2) { _fun0003_ip = 69; continue _fun0003 }
- 7:
-                            var2 = _closure2_slot1;
-                            var3 = undefined;
-                            var2 = var2.bind(var3)();
-                            SaveGenerator(address=24);
- 22:
-                            return var2;
- 24:
-                            ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                            if(var4) { _fun0003_ip = 66; continue _fun0003 }
+                if(var2) { _fun0001_ip = 30; continue _fun0001 }
+ 20:
+                var2 = _closure2_slot0;
+                var3 = var2.skuId;
  30:
-                            var5 = _closure1_slot1;
-                            var6 = _closure1_slot2;
-                            var4 = 11;
-                            var4 = var6[var4];
-                            var5 = var5.bind(var3)(var4);
-                            var4 = var5.pop;
-                            var4 = var4.bind(var5)();
-                            return var3;
+                var2 = _closure2_slot2;
+                var4 = var7 == var2;
+                var2 = undefined;
+                if(var4) { _fun0001_ip = 53; continue _fun0001 }
+ 43:
+                var4 = _closure2_slot2;
+                var2 = var4.skuId;
+ 53:
+                if(!(var3 !== var2)) { _fun0001_ip = 132; continue _fun0001 }
+ 57:
+                var3 = _closure1_slot0;
+                var4 = _closure1_slot2;
+                var2 = 10;
+                var2 = var4[var2];
+                var5 = var3.bind(var1)(var2);
+                var4 = var5.setNewPendingProfileEffect;
+                var2 = _closure2_slot0;
+                var2 = var7 != var2;
+                var3 = null;
+                if(!var2) { _fun0001_ip = 103; continue _fun0001 }
+ 99:
+                var3 = _closure2_slot0;
+ 103:
+                var2 = _closure2_slot3;
+                var7 = var7 == var2;
+                var2 = undefined;
+                if(var7) { _fun0001_ip = 126; continue _fun0001 }
+ 116:
+                var6 = _closure2_slot3;
+                var2 = var6.profileEffect;
+ 126:
+                var2 = var4.bind(var5)(var3, var2);
+ 132:
+                return var1;
+            }
+        };
+        var2 = var3.bind(var5)(var2);
+        var1 = function() {
+            var4 = _closure1_slot3;
+            var3 = undefined;
+            var2 = function* () {
+                var1 = function* anon_0_() {
+                    _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+ 0:
+                        StartGenerator();
+                        ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                        if(var2) { _fun0002_ip = 69; continue _fun0002 }
+ 7:
+                        var2 = _closure2_slot1;
+                        var3 = undefined;
+                        var2 = var2.bind(var3)();
+                        SaveGenerator(address=24);
+ 22:
+                        return var2;
+ 24:
+                        ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
+                        if(var4) { _fun0002_ip = 66; continue _fun0002 }
+ 30:
+                        var5 = _closure1_slot1;
+                        var6 = _closure1_slot2;
+                        var4 = 11;
+                        var4 = var6[var4];
+                        var5 = var5.bind(var3)(var4);
+                        var4 = var5.pop;
+                        var4 = var4.bind(var5)();
+                        return var3;
  66:
-                            return var2;
+                        return var2;
  69:
-                            return var1;
-                        }
-                    };
-                    return var1;
-                };
-                var2 = var4.bind(var3)(var2);
-                var _closure3_slot0 = var2;
-                var1 = function() {
-                    var1 = undefined;
-                    var4 = _closure3_slot0;
-                    var3 = var4.apply;
-                    var1 = arguments;
-                    var2 = var1;
-                    var1 = this;
-                    var1 = var3.bind(var4)(var1, var2);
-                    return var1;
+                        return var1;
+                    }
                 };
                 return var1;
             };
-            var13 = var1.bind(var4)();
-            var3 = _closure1_slot9;
-            var15 = _closure1_slot0;
-            var16 = _closure1_slot2;
-            var1 = 12;
-            var1 = var16[var1];
-            var1 = var15.bind(var4)(var1);
-            var2 = var1.SafeAreaPaddingView;
-            var1 = {};
-            var5 = true;
-            var1['bottom'] = var5;
-            var5 = var11.container;
-            var1['style'] = var5;
-            var8 = _closure1_slot8;
-            var6 = _closure1_slot7;
-            var5 = {};
-            var7 = 13;
-            var7 = var16[var7];
-            var7 = var15.bind(var4)(var7);
-            var10 = var7.EditProfileEffectInner;
-            var7 = {};
-            var7['selectedProfileEffect'] = var19;
-            var7['setSelectedProfileEffect'] = var18;
-            var7['isFetching'] = var17;
-            var7['user'] = var12;
-            var12 = false;
-            var7['showTitle'] = var12;
-            var7 = var8.bind(var4)(var10, var7);
-            var5['children'] = var7;
-            var6 = var8.bind(var4)(var6, var5);
-            var5 = new Array(2);
-            var5[0] = var6;
-            var7 = _closure1_slot6;
-            var6 = {};
-            var10 = var11.saveButtonContainer;
-            var6['style'] = var10;
-            var10 = _closure1_slot1;
-            var12 = 14;
-            var9 = var16[var12];
-            var10 = var10.bind(var4)(var9);
-            var9 = {};
-            var9['loading'] = var14;
-            var14 = var16[var12];
-            var14 = var15.bind(var4)(var14);
-            var14 = var14.ButtonColors;
-            var14 = var14.BRAND;
-            var9['color'] = var14;
-            var9['onPress'] = var13;
-            var12 = var16[var12];
-            var12 = var15.bind(var4)(var12);
-            var12 = var12.ButtonSizes;
-            var12 = var12.MEDIUM;
-            var9['size'] = var12;
-            var12 = 15;
-            var13 = var16[var12];
-            var13 = var15.bind(var4)(var13);
-            var14 = var13.intl;
-            var13 = var14.string;
-            var12 = var16[var12];
-            var12 = var15.bind(var4)(var12);
-            var12 = var12.t;
-            var12 = var12.R3BPHx;
-            var12 = var13.bind(var14)(var12);
-            var9['text'] = var12;
-            var11 = var11.saveButtonText;
-            var9['textStyle'] = var11;
-            var9 = var8.bind(var4)(var10, var9);
-            var6['children'] = var9;
-            var6 = var8.bind(var4)(var7, var6);
-            var5[1] = var6;
-            var1['children'] = var5;
-            var1 = var3.bind(var4)(var2, var1);
+            var2 = var4.bind(var3)(var2);
+            var _closure3_slot0 = var2;
+            var1 = function() {
+                var1 = undefined;
+                var4 = _closure3_slot0;
+                var3 = var4.apply;
+                var1 = arguments;
+                var2 = var1;
+                var1 = this;
+                var1 = var3.bind(var4)(var1, var2);
+                return var1;
+            };
             return var1;
-        }
+        };
+        var13 = var1.bind(var4)();
+        var3 = _closure1_slot9;
+        var15 = _closure1_slot0;
+        var1 = 12;
+        var1 = var16[var1];
+        var1 = var15.bind(var4)(var1);
+        var2 = var1.SafeAreaPaddingView;
+        var1 = {};
+        var5 = true;
+        var1['bottom'] = var5;
+        var5 = var11.container;
+        var1['style'] = var5;
+        var8 = _closure1_slot8;
+        var7 = _closure1_slot7;
+        var5 = {};
+        var9 = 13;
+        var9 = var16[var9];
+        var9 = var15.bind(var4)(var9);
+        var12 = var9.EditProfileEffectInner;
+        var9 = {};
+        var9['selectedProfileEffect'] = var20;
+        var9['setSelectedProfileEffect'] = var19;
+        var9['isFetching'] = var18;
+        var9['user'] = var17;
+        var17 = false;
+        var9['showTitle'] = var17;
+        var9 = var8.bind(var4)(var12, var9);
+        var5['children'] = var9;
+        var7 = var8.bind(var4)(var7, var5);
+        var5 = new Array(2);
+        var5[0] = var7;
+        var7 = _closure1_slot6;
+        var6 = {};
+        var9 = var11.saveButtonContainer;
+        var6['style'] = var9;
+        var12 = 14;
+        var9 = var16[var12];
+        var10 = var10.bind(var4)(var9);
+        var9 = {};
+        var9['loading'] = var14;
+        var14 = var16[var12];
+        var14 = var15.bind(var4)(var14);
+        var14 = var14.ButtonColors;
+        var14 = var14.BRAND;
+        var9['color'] = var14;
+        var9['onPress'] = var13;
+        var12 = var16[var12];
+        var12 = var15.bind(var4)(var12);
+        var12 = var12.ButtonSizes;
+        var12 = var12.MEDIUM;
+        var9['size'] = var12;
+        var12 = 15;
+        var13 = var16[var12];
+        var13 = var15.bind(var4)(var13);
+        var14 = var13.intl;
+        var13 = var14.string;
+        var12 = var16[var12];
+        var12 = var15.bind(var4)(var12);
+        var12 = var12.t;
+        var12 = var12.R3BPHx;
+        var12 = var13.bind(var14)(var12);
+        var9['text'] = var12;
+        var11 = var11.saveButtonText;
+        var9['textStyle'] = var11;
+        var9 = var8.bind(var4)(var10, var9);
+        var6['children'] = var9;
+        var6 = var8.bind(var4)(var7, var6);
+        var5[1] = var6;
+        var1['children'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
     var3['default'] = var2;
     return var1;

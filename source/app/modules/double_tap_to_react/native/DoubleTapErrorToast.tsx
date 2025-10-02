@@ -8,26 +8,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var11;
     var _closure1_slot2 = var6;
     var1 = function DoubleTapErrorToastIcon() {
-        var1 = _closure1_slot5;
+        var1 = _closure1_slot6;
         var4 = undefined;
         var5 = var1.bind(var4)();
-        var3 = _closure1_slot4;
+        var3 = _closure1_slot5;
         var2 = _closure1_slot3;
         var1 = {};
         var5 = var5.icon;
         var1['style'] = var5;
         var5 = true;
         var1['aria-hidden'] = var5;
-        var7 = _closure1_slot4;
+        var7 = _closure1_slot5;
         var6 = _closure1_slot0;
         var10 = _closure1_slot2;
-        var5 = 5;
+        var5 = 6;
         var5 = var10[var5];
         var5 = var6.bind(var4)(var5);
         var6 = var5.XSmallBoldIcon;
         var5 = {};
         var9 = _closure1_slot1;
-        var8 = 4;
+        var8 = 5;
         var8 = var10[var8];
         var8 = var9.bind(var4)(var8);
         var8 = var8.colors;
@@ -40,7 +40,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot6 = var1;
+    var _closure1_slot7 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -62,9 +62,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.jsx;
+    var4 = var4.EmojiDisabledReasons;
     var _closure1_slot4 = var4;
     var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot5 = var4;
+    var4 = 4;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
@@ -72,7 +77,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {'flexWrap': 'wrap', 'flexDirection': 'row', 'alignItems': 'center'};
     var4['container'] = var9;
     var9 = {};
-    var10 = 4;
+    var10 = 5;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
@@ -95,8 +100,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['marginLeft'] = var10;
     var4['icon'] = var9;
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot5 = var4;
-    var4 = 9;
+    var _closure1_slot6 = var4;
+    var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -104,11 +109,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function showDoubleTapErrorToast(arg1) {
         var1 = arg1;
-        var1 = var1.emojiName;
-        var _closure2_slot0 = var1;
+        var2 = var1.emojiName;
+        var _closure2_slot0 = var2;
+        var1 = var1.reason;
+        var _closure2_slot1 = var1;
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 6;
+        var1 = 7;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -117,8 +124,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = 'EMOJI_DOUBLE_TAP_ERROR';
         var2['key'] = var6;
         var6 = function icon() {
-            var4 = _closure1_slot4;
-            var3 = _closure1_slot6;
+            var4 = _closure1_slot5;
+            var3 = _closure1_slot7;
             var2 = undefined;
             var1 = {};
             var1 = var4.bind(var2)(var3, var1);
@@ -128,53 +135,91 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = function content() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                var4 = _closure1_slot4;
-                var2 = _closure1_slot0;
-                var3 = _closure1_slot2;
-                var1 = 7;
-                var1 = var3[var1];
-                var3 = undefined;
-                var1 = var2.bind(var3)(var1);
-                var2 = var1.Text;
+                var3 = _closure2_slot1;
+                var1 = _closure1_slot4;
+                var1 = var1.DISALLOW_EXTERNAL;
+                if(!(var3 === var1)) { _fun0001_ip = 37; continue _fun0001 }
+ 24:
+                var3 = _closure2_slot0;
+                var1 = null;
+                if(!(var1 == var3)) { _fun0001_ip = 230; continue _fun0001 }
+ 37:
+                var5 = _closure1_slot5;
+                var3 = _closure1_slot0;
+                var4 = _closure1_slot2;
+                var1 = 8;
+                var1 = var4[var1];
+                var4 = undefined;
+                var1 = var3.bind(var4)(var1);
+                var3 = var1.Text;
                 var1 = {};
-                var5 = 'text-sm/normal';
-                var1['variant'] = var5;
+                var6 = 'text-sm/normal';
+                var1['variant'] = var6;
                 var7 = _closure2_slot0;
-                var5 = null;
-                if(!(var5 == var7)) { _fun0001_ip = 118; continue _fun0001 }
- 59:
+                var6 = null;
+                if(!(var6 == var7)) { _fun0001_ip = 149; continue _fun0001 }
+ 90:
                 var9 = _closure1_slot0;
                 var11 = _closure1_slot2;
-                var5 = 8;
-                var7 = var11[var5];
-                var7 = var9.bind(var3)(var7);
+                var6 = 9;
+                var7 = var11[var6];
+                var7 = var9.bind(var4)(var7);
                 var8 = var7.intl;
                 var7 = var8.string;
-                var5 = var11[var5];
-                var5 = var9.bind(var3)(var5);
-                var5 = var5.t;
-                var5 = var5.CL5mWl;
-                var5 = var7.bind(var8)(var5);
-                _fun0001_ip = 187; continue _fun0001;
- 118:
+                var6 = var11[var6];
+                var6 = var9.bind(var4)(var6);
+                var6 = var6.t;
+                var6 = var6.CL5mWl;
+                var6 = var7.bind(var8)(var6);
+                _fun0001_ip = 218; continue _fun0001;
+ 149:
+                var8 = _closure1_slot0;
+                var12 = _closure1_slot2;
+                var7 = 9;
+                var9 = var12[var7];
+                var9 = var8.bind(var4)(var9);
+                var11 = var9.intl;
+                var9 = var11.format;
+                var7 = var12[var7];
+                var7 = var8.bind(var4)(var7);
+                var7 = var7.t;
+                var8 = var7.WZGLFh;
+                var7 = {};
+                var12 = _closure2_slot0;
+                var7['emojiName'] = var12;
+                var6 = var9.bind(var11)(var8, var7);
+ 218:
+                var1['children'] = var6;
+                var1 = var5.bind(var4)(var3, var1);
+                _fun0001_ip = 344; continue _fun0001;
+ 230:
+                var5 = _closure1_slot5;
                 var7 = _closure1_slot0;
                 var11 = _closure1_slot2;
-                var6 = 8;
+                var2 = 8;
+                var2 = var11[var2];
+                var4 = undefined;
+                var2 = var7.bind(var4)(var2);
+                var3 = var2.Text;
+                var2 = {};
+                var6 = 'text-sm/normal';
+                var2['variant'] = var6;
+                var6 = 9;
                 var8 = var11[var6];
-                var8 = var7.bind(var3)(var8);
+                var8 = var7.bind(var4)(var8);
                 var9 = var8.intl;
                 var8 = var9.format;
                 var6 = var11[var6];
-                var6 = var7.bind(var3)(var6);
+                var6 = var7.bind(var4)(var6);
                 var6 = var6.t;
-                var7 = var6.WZGLFh;
+                var7 = var6.Dz4vkp;
                 var6 = {};
                 var10 = _closure2_slot0;
                 var6['emojiName'] = var10;
-                var5 = var8.bind(var9)(var7, var6);
- 187:
-                var1['children'] = var5;
-                var1 = var4.bind(var3)(var2, var1);
+                var6 = var8.bind(var9)(var7, var6);
+                var2['children'] = var6;
+                var1 = var5.bind(var4)(var3, var2);
+ 344:
                 return var1;
             }
         };

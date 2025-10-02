@@ -24,10 +24,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var5.ApexExperiment;
     var3['ApexExperiment'] = var5;
     var5 = 2;
+    var7 = var4[var5];
+    var7 = var6.bind(var1)(var7);
+    var7 = var7.ApexExperimentsMessage;
+    var3['ApexExperimentsMessage'] = var7;
     var5 = var4[var5];
     var5 = var6.bind(var1)(var5);
-    var5 = var5.ApexExperimentsMessage;
-    var3['ApexExperimentsMessage'] = var5;
+    var5 = var5.ExperimentName;
+    var3['ExperimentName'] = var5;
     var4 = var4[var2];
     var2 = metroImportDefault;
     var2 = var2.bind(var1)(var4);

@@ -763,8 +763,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = var7.bind(var1)(var6);
                 var6 = {};
                 var9 = arg1;
-                var9 = var9.id;
-                var6['profileEffectId'] = var9;
+                var9 = var9.skuId;
+                var6['skuId'] = var9;
                 var9 = 0;
                 var6['bannerAdjustment'] = var9;
                 var6 = var8.bind(var1)(var7, var6);

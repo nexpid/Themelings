@@ -39,13 +39,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot28 = var2;
+            _closure1_slot30 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot28 = var1;
+    var _closure1_slot30 = var1;
     var10 = function getDefaultSelectedTab() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
@@ -98,7 +98,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot29 = var10;
+    var _closure1_slot31 = var10;
     var12 = function freshTeenActivityWithMap() {
         var1 = {};
         var3 = _closure1_slot14;
@@ -131,7 +131,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1[var3] = var2;
         return var1;
     };
-    var _closure1_slot30 = var12;
+    var _closure1_slot32 = var12;
     var11 = function freshTeenActivityTotals() {
         var1 = {};
         var3 = _closure1_slot14;
@@ -158,7 +158,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1[var2] = var3;
         return var1;
     };
-    var _closure1_slot31 = var11;
+    var _closure1_slot33 = var11;
     var1 = function processLinkedUsers() {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
@@ -195,7 +195,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot32 = var1;
+    var _closure1_slot34 = var1;
     var1 = function processTeenActivityTotals(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
@@ -208,7 +208,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot33 = var1;
+    var _closure1_slot35 = var1;
     var1 = function processTeenActions(arg1, arg2) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
@@ -216,7 +216,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = arg2;
             if(var3) { _fun0005_ip = 26; continue _fun0005 }
  14:
-            var4 = _closure1_slot30;
+            var4 = _closure1_slot32;
             var3 = undefined;
             var4 = var4.bind(var3)();
             _fun0005_ip = 30; continue _fun0005;
@@ -257,11 +257,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot34 = var1;
+    var _closure1_slot36 = var1;
     var1 = function processGuilds(arg1) {
         var5 = arg1;
         var4 = var5.reduce;
-        var3 = _closure1_slot27;
+        var3 = _closure1_slot29;
         var1 = function(arg1, arg2) {
             _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
@@ -297,38 +297,42 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var1 = var4.bind(var5)(var1, var3);
-        _closure1_slot27 = var1;
+        _closure1_slot29 = var1;
         var1 = undefined;
         return var1;
     };
-    var _closure1_slot35 = var1;
+    var _closure1_slot37 = var1;
     var1 = function handleFetchStart() {
         var1 = true;
         _closure1_slot24 = var1;
         var1 = undefined;
         return var1;
     };
-    var _closure1_slot36 = var1;
+    var _closure1_slot38 = var1;
     var1 = function handleInitialLoad(arg1) {
         var1 = arg1;
-        var4 = var1.linkedUsers;
-        var1 = var1.familyCenterTeenActivity;
-        var7 = var1.actions;
-        var5 = var1.guilds;
-        var6 = var1.totals;
-        var2 = var1.teenId;
-        var1 = var1.rangeStartId;
-        _closure1_slot15 = var2;
+        var6 = var1.linkedUsers;
+        var2 = var1.familyCenterTeenActivity;
+        var9 = var2.actions;
+        var7 = var2.guilds;
+        var8 = var2.totals;
+        var5 = var2.teenId;
+        var1 = var2.rangeStartId;
+        var4 = var2.topUserActivities;
+        var2 = var2.topGuildActivities;
+        _closure1_slot15 = var5;
         _closure1_slot16 = var1;
-        var2 = _closure1_slot34;
+        var5 = _closure1_slot36;
         var1 = undefined;
-        var2 = var2.bind(var1)(var7);
-        var2 = _closure1_slot33;
-        var2 = var2.bind(var1)(var6);
-        var2 = _closure1_slot35;
-        var2 = var2.bind(var1)(var5);
-        var2 = _closure1_slot32;
-        var2 = var2.bind(var1)(var4);
+        var5 = var5.bind(var1)(var9);
+        var5 = _closure1_slot35;
+        var5 = var5.bind(var1)(var8);
+        var5 = _closure1_slot37;
+        var5 = var5.bind(var1)(var7);
+        var5 = _closure1_slot34;
+        var5 = var5.bind(var1)(var6);
+        _closure1_slot27 = var4;
+        _closure1_slot28 = var2;
         var2 = false;
         _closure1_slot24 = var2;
         var4 = _closure1_slot1;
@@ -347,46 +351,50 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _closure1_slot23 = var2;
         return var1;
     };
-    var _closure1_slot37 = var1;
+    var _closure1_slot39 = var1;
     var1 = function handleLinkedUserFetch(arg1) {
         var1 = arg1;
         var3 = var1.linkedUsers;
-        var2 = _closure1_slot32;
+        var2 = _closure1_slot34;
         var1 = undefined;
         var2 = var2.bind(var1)(var3);
         return var1;
     };
-    var _closure1_slot38 = var1;
+    var _closure1_slot40 = var1;
     var1 = function handleRequestLinkSuccess(arg1) {
         var1 = arg1;
         var3 = var1.linkedUsers;
-        var2 = _closure1_slot32;
+        var2 = _closure1_slot34;
         var1 = undefined;
         var2 = var2.bind(var1)(var3);
         return var1;
     };
-    var _closure1_slot39 = var1;
+    var _closure1_slot41 = var1;
     var1 = function handleTeenActivityFetch(arg1) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
             var1 = arg1;
             var2 = var1.familyCenterTeenActivity;
             var1 = undefined;
-            if(!(var1 !== var2)) { _fun0008_ip = 144; continue _fun0008 }
+            if(!(var1 !== var2)) { _fun0008_ip = 164; continue _fun0008 }
  18:
-            var6 = var2.actions;
-            var5 = var2.totals;
-            var4 = var2.guilds;
-            var7 = var2.teenId;
-            var2 = var2.rangeStartId;
-            _closure1_slot15 = var7;
-            _closure1_slot16 = var2;
-            var2 = _closure1_slot34;
-            var2 = var2.bind(var1)(var6);
-            var2 = _closure1_slot33;
-            var2 = var2.bind(var1)(var5);
-            var2 = _closure1_slot35;
-            var2 = var2.bind(var1)(var4);
+            var8 = var2.actions;
+            var7 = var2.totals;
+            var6 = var2.guilds;
+            var9 = var2.teenId;
+            var5 = var2.rangeStartId;
+            var4 = var2.topUserActivities;
+            var2 = var2.topGuildActivities;
+            _closure1_slot15 = var9;
+            _closure1_slot16 = var5;
+            var5 = _closure1_slot36;
+            var5 = var5.bind(var1)(var8);
+            var5 = _closure1_slot35;
+            var5 = var5.bind(var1)(var7);
+            var5 = _closure1_slot37;
+            var5 = var5.bind(var1)(var6);
+            _closure1_slot27 = var4;
+            _closure1_slot28 = var2;
             var2 = false;
             _closure1_slot24 = var2;
             var4 = _closure1_slot1;
@@ -401,43 +409,43 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.bind(var6)();
             var2 = var4.bind(var5)(var2);
             _closure1_slot25 = var2;
- 144:
+ 164:
             return var1;
         }
     };
-    var _closure1_slot40 = var1;
+    var _closure1_slot42 = var1;
     var1 = function handleTeenActivityMoreFetch(arg1) {
         var1 = arg1;
         var1 = var1.familyCenterTeenActivity;
         var6 = var1.actions;
         var3 = var1.guilds;
-        var5 = _closure1_slot34;
+        var5 = _closure1_slot36;
         var1 = undefined;
         var4 = true;
         var4 = var5.bind(var1)(var6, var4);
-        var2 = _closure1_slot35;
-        var2 = var2.bind(var1)(var3);
-        return var1;
-    };
-    var _closure1_slot41 = var1;
-    var1 = function handleUserLinkStatusUpdate(arg1) {
-        var1 = arg1;
-        var3 = var1.linkedUsers;
-        var2 = _closure1_slot32;
-        var1 = undefined;
-        var2 = var2.bind(var1)(var3);
-        return var1;
-    };
-    var _closure1_slot42 = var1;
-    var1 = function handleUserLinkRemove(arg1) {
-        var1 = arg1;
-        var3 = var1.linkedUsers;
-        var2 = _closure1_slot32;
-        var1 = undefined;
+        var2 = _closure1_slot37;
         var2 = var2.bind(var1)(var3);
         return var1;
     };
     var _closure1_slot43 = var1;
+    var1 = function handleUserLinkStatusUpdate(arg1) {
+        var1 = arg1;
+        var3 = var1.linkedUsers;
+        var2 = _closure1_slot34;
+        var1 = undefined;
+        var2 = var2.bind(var1)(var3);
+        return var1;
+    };
+    var _closure1_slot44 = var1;
+    var1 = function handleUserLinkRemove(arg1) {
+        var1 = arg1;
+        var3 = var1.linkedUsers;
+        var2 = _closure1_slot34;
+        var1 = undefined;
+        var2 = var2.bind(var1)(var3);
+        return var1;
+    };
+    var _closure1_slot45 = var1;
     var1 = function handleLinkCodeFetch(arg1) {
         var1 = arg1;
         var2 = var1.linkCode;
@@ -445,7 +453,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = undefined;
         return var1;
     };
-    var _closure1_slot44 = var1;
+    var _closure1_slot46 = var1;
     var1 = function handleTabSelect(arg1) {
         var1 = arg1;
         var2 = var1.tab;
@@ -453,7 +461,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = undefined;
         return var1;
     };
-    var _closure1_slot45 = var1;
+    var _closure1_slot47 = var1;
     var1 = function handleCurrentUserUpdate(arg1) {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
@@ -492,7 +500,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.length;
             if(!(!(var5 > var4))) { _fun0009_ip = 134; continue _fun0009 }
  117:
-            var4 = _closure1_slot32;
+            var4 = _closure1_slot34;
             var3 = var3.linked_users;
             var3 = var4.bind(var1)(var3);
             _fun0009_ip = 164; continue _fun0009;
@@ -508,7 +516,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot46 = var1;
+    var _closure1_slot48 = var1;
     var1 = function handleSetLocationMetadata(arg1) {
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
  0:
@@ -532,32 +540,36 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot47 = var1;
+    var _closure1_slot49 = var1;
     var1 = function reset() {
         var4 = null;
         _closure1_slot15 = var4;
         _closure1_slot16 = var4;
         var1 = {};
         _closure1_slot17 = var1;
-        var2 = _closure1_slot30;
+        var2 = _closure1_slot32;
         var1 = undefined;
         var2 = var2.bind(var1)();
         _closure1_slot19 = var2;
-        var2 = _closure1_slot31;
+        var2 = _closure1_slot33;
         var2 = var2.bind(var1)();
         _closure1_slot20 = var2;
         var2 = {};
-        _closure1_slot27 = var2;
+        _closure1_slot29 = var2;
         var2 = false;
         _closure1_slot24 = var2;
         _closure1_slot25 = var4;
-        var4 = _closure1_slot29;
+        var4 = _closure1_slot31;
         var4 = var4.bind(var1)();
         _closure1_slot22 = var4;
         _closure1_slot18 = var2;
+        var2 = new Array(0);
+        _closure1_slot27 = var2;
+        var2 = new Array(0);
+        _closure1_slot28 = var2;
         return var1;
     };
-    var _closure1_slot48 = var1;
+    var _closure1_slot50 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -632,8 +644,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot24 = var9;
     var _closure1_slot25 = var8;
     var _closure1_slot26 = var8;
-    var8 = {};
+    var8 = new Array(0);
     var _closure1_slot27 = var8;
+    var8 = new Array(0);
+    var _closure1_slot28 = var8;
+    var8 = {};
+    var _closure1_slot29 = var8;
     var2 = function(arg1) {
         var4 = function FamilyCenterStore() {
             _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
@@ -644,7 +660,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = undefined;
                 var1 = var1.bind(var4)(var5, var3);
                 var1 = {};
-                var7 = _closure1_slot46;
+                var7 = _closure1_slot48;
                 var1['CURRENT_USER_UPDATE'] = var7;
                 var7 = function CACHE_LOADED_LAZY() {
                     var2 = _closure3_slot0;
@@ -653,36 +669,36 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var1['CACHE_LOADED_LAZY'] = var7;
-                var7 = _closure1_slot37;
-                var1['FAMILY_CENTER_INITIAL_LOAD'] = var7;
-                var7 = _closure1_slot36;
-                var1['FAMILY_CENTER_FETCH_START'] = var7;
-                var7 = _closure1_slot38;
-                var1['FAMILY_CENTER_LINKED_USERS_FETCH_SUCCESS'] = var7;
-                var7 = _closure1_slot40;
-                var1['FAMILY_CENTER_TEEN_ACTIVITY_FETCH_SUCCESS'] = var7;
-                var7 = _closure1_slot41;
-                var1['FAMILY_CENTER_TEEN_ACTIVITY_MORE_FETCH_SUCCESS'] = var7;
                 var7 = _closure1_slot39;
-                var1['FAMILY_CENTER_REQUEST_LINK_SUCCESS'] = var7;
+                var1['FAMILY_CENTER_INITIAL_LOAD'] = var7;
+                var7 = _closure1_slot38;
+                var1['FAMILY_CENTER_FETCH_START'] = var7;
+                var7 = _closure1_slot40;
+                var1['FAMILY_CENTER_LINKED_USERS_FETCH_SUCCESS'] = var7;
                 var7 = _closure1_slot42;
-                var1['FAMILY_CENTER_REQUEST_LINK_UPDATE_SUCCESS'] = var7;
+                var1['FAMILY_CENTER_TEEN_ACTIVITY_FETCH_SUCCESS'] = var7;
                 var7 = _closure1_slot43;
-                var1['FAMILY_CENTER_REQUEST_LINK_REMOVE_SUCCESS'] = var7;
+                var1['FAMILY_CENTER_TEEN_ACTIVITY_MORE_FETCH_SUCCESS'] = var7;
+                var7 = _closure1_slot41;
+                var1['FAMILY_CENTER_REQUEST_LINK_SUCCESS'] = var7;
                 var7 = _closure1_slot44;
-                var1['FAMILY_CENTER_LINK_CODE_FETCH_SUCCESS'] = var7;
+                var1['FAMILY_CENTER_REQUEST_LINK_UPDATE_SUCCESS'] = var7;
                 var7 = _closure1_slot45;
-                var1['FAMILY_CENTER_HANDLE_TAB_SELECT'] = var7;
+                var1['FAMILY_CENTER_REQUEST_LINK_REMOVE_SUCCESS'] = var7;
+                var7 = _closure1_slot46;
+                var1['FAMILY_CENTER_LINK_CODE_FETCH_SUCCESS'] = var7;
                 var7 = _closure1_slot47;
+                var1['FAMILY_CENTER_HANDLE_TAB_SELECT'] = var7;
+                var7 = _closure1_slot49;
                 var1['SET_LOCATION_METADATA'] = var7;
-                var7 = _closure1_slot48;
+                var7 = _closure1_slot50;
                 var1['LOGOUT'] = var7;
                 var10 = new Array(1);
                 var10[0] = var1;
                 var1 = _closure1_slot6;
                 var9 = var1.bind(var4)(var3);
                 var3 = _closure1_slot5;
-                var1 = _closure1_slot28;
+                var1 = _closure1_slot30;
                 var1 = var1.bind(var4)();
                 if(var1) { _fun0011_ip = 211; continue _fun0011 }
  198:
@@ -721,7 +737,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(18);
+        var1 = new Array(20);
         var1[0] = var5;
         var5 = {};
         var7 = 'loadCache';
@@ -737,21 +753,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = null;
                 if(!(var2 != var1)) { _fun0012_ip = 101; continue _fun0012 }
  33:
-                var5 = _closure1_slot32;
+                var5 = _closure1_slot34;
                 var4 = var1.linkedUsers;
                 var3 = undefined;
                 var4 = var5.bind(var3)(var4);
-                var5 = _closure1_slot35;
+                var5 = _closure1_slot37;
                 var4 = var1.guilds;
                 var4 = var5.bind(var3)(var4);
-                var4 = _closure1_slot34;
+                var4 = _closure1_slot36;
                 var2 = var1.teenActivity;
                 var2 = var4.bind(var3)(var2);
                 var2 = var1.teenActivityTotals;
                 var1 = function teenActivityTotalsFromSnapshot(arg1) {
                     var6 = arg1;
                     var5 = var6.reduce;
-                    var2 = _closure1_slot31;
+                    var2 = _closure1_slot33;
                     var1 = undefined;
                     var4 = var2.bind(var1)();
                     var2 = function(arg1, arg2) {
@@ -924,7 +940,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['teenActivity'] = var5;
             var5 = var4.Object;
             var4 = var5.values;
-            var3 = _closure1_slot27;
+            var3 = _closure1_slot29;
             var3 = var4.bind(var5)(var3);
             var2['guilds'] = var3;
             var1['data'] = var2;
@@ -1041,7 +1057,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = 'getGuild';
         var5['key'] = var7;
         var7 = function value(arg1) {
-            var2 = _closure1_slot27;
+            var2 = _closure1_slot29;
             var1 = arg1;
             var1 = var2[var1];
             return var1;
@@ -1103,6 +1119,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5['value'] = var7;
         var1[16] = var5;
         var5 = {};
+        var7 = 'getTopUserActivities';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = _closure1_slot27;
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[17] = var5;
+        var5 = {};
+        var7 = 'getTopGuildActivities';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = _closure1_slot28;
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[18] = var5;
+        var5 = {};
         var7 = 'canRefetch';
         var5['key'] = var7;
         var6 = function value() {
@@ -1129,7 +1163,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var5['value'] = var6;
-        var1[17] = var5;
+        var1[19] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

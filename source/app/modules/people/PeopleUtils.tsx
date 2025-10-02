@@ -272,7 +272,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4[var3];
             var4 = undefined;
             var9 = var8.bind(var4)(var3);
-            var8 = var9.isEligibleForFriendRequestAlerts;
+            var8 = var9.isEligibleForSettingsDefaultsAggregate;
             var3 = 'useFriendRequestActions';
             var3 = var8.bind(var9)(var3);
             var9 = _closure1_slot3;

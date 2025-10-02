@@ -129,7 +129,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = arg1;
             var26 = var2.user;
             var42 = var2.guildId;
-            var12 = var2.pendingProfileEffectRecord;
+            var11 = var2.pendingProfileEffectRecord;
             var17 = var2.style;
             var20 = var2.compact;
             var4 = undefined;
@@ -190,33 +190,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = _closure1_slot2;
             var2 = 11;
             var2 = var7[var2];
-            var11 = var3.bind(var4)(var2);
-            var8 = var11.useUserProfileColors;
+            var12 = var3.bind(var4)(var2);
+            var8 = var12.useUserProfileColors;
             var2 = {};
             var2['theme'] = var5;
             var2['primaryColor'] = var22;
             var2['secondaryColor'] = var19;
-            var2 = var8.bind(var11)(var2);
+            var2 = var8.bind(var12)(var2);
             var23 = var2.gradientFallbackBackground;
             var39 = var2.avatarBackground;
             var27 = var2.containerBackground;
             var2 = 12;
             var2 = var7[var2];
             var7 = var3.bind(var4)(var2);
-            var3 = var7.getPreviewProfileEffectId;
+            var3 = var7.getPreviewProfileEffect;
             var2 = {};
             var8 = null;
-            if(!(var8 !== var12)) { _fun0002_ip = 340; continue _fun0002 }
+            if(!(var8 !== var11)) { _fun0002_ip = 326; continue _fun0002 }
  323:
-            var14 = var9 == var12;
-            var11 = undefined;
-            if(var14) { _fun0002_ip = 337; continue _fun0002 }
- 332:
-            var11 = var12.id;
- 337:
             var8 = var11;
- 340:
-            var2['pendingProfileEffectId'] = var8;
+ 326:
+            var2['pendingProfileEffect'] = var8;
             var2['displayProfile'] = var24;
             var14 = var3.bind(var7)(var2);
             var18 = _closure1_slot0;
@@ -323,17 +317,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8['pendingAvatarSrc'] = var41;
             var17 = var9 != var16;
             var12 = undefined;
-            if(!var17) { _fun0002_ip = 759; continue _fun0002 }
- 756:
+            if(!var17) { _fun0002_ip = 745; continue _fun0002 }
+ 742:
             var12 = var16;
- 759:
+ 745:
             var8['pendingAccentColor'] = var12;
             var16 = var9 != var15;
             var12 = undefined;
-            if(!var16) { _fun0002_ip = 776; continue _fun0002 }
- 773:
+            if(!var16) { _fun0002_ip = 762; continue _fun0002 }
+ 759:
             var12 = var15;
- 776:
+ 762:
             var8['pendingThemeColors'] = var12;
             var38 = true;
             var8['disableInteraction'] = var38;
@@ -370,25 +364,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var19 = new Array(3);
             var19[0] = var22;
             var22 = !var21;
-            if(var21) { _fun0002_ip = 942; continue _fun0002 }
- 928:
+            if(var21) { _fun0002_ip = 928; continue _fun0002 }
+ 914:
             var23 = {};
             var36 = _closure1_slot5;
             var23['paddingTop'] = var36;
             var22 = var23;
- 942:
+ 928:
             var19[1] = var22;
             var22 = {};
             var23 = undefined;
-            if(!var35) { _fun0002_ip = 959; continue _fun0002 }
- 953:
+            if(!var35) { _fun0002_ip = 945; continue _fun0002 }
+ 939:
             var23 = '100%';
- 959:
+ 945:
             var22['height'] = var23;
             var19[2] = var22;
             var17['containerStyle'] = var19;
-            if(!var21) { _fun0002_ip = 1053; continue _fun0002 }
- 975:
+            if(!var21) { _fun0002_ip = 1039; continue _fun0002 }
+ 961:
             var23 = _closure1_slot7;
             var22 = _closure1_slot1;
             var35 = _closure1_slot2;
@@ -406,7 +400,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var32 = var32.emojiOnlyCustomStatusBubble;
             var19['emojiOnlyStyle'] = var32;
             var21 = var23.bind(var4)(var22, var19);
- 1053:
+ 1039:
             var19 = new Array(3);
             var19[0] = var21;
             var23 = _closure1_slot7;
@@ -421,16 +415,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var32 = var32.PREVIEW;
             var21['themeType'] = var32;
             var21['displayName'] = var31;
-            if(!(var9 == var30)) { _fun0002_ip = 1132; continue _fun0002 }
- 1114:
+            if(!(var9 == var30)) { _fun0002_ip = 1118; continue _fun0002 }
+ 1100:
             var32 = var9 == var24;
             var31 = undefined;
-            if(var32) { _fun0002_ip = 1129; continue _fun0002 }
- 1123:
+            if(var32) { _fun0002_ip = 1115; continue _fun0002 }
+ 1109:
             var31 = var24.pronouns;
- 1129:
+ 1115:
             var30 = var31;
- 1132:
+ 1118:
             var21['pronouns'] = var30;
             var21['badges'] = var29;
             var21['badgeContainerBackground'] = var27;
@@ -438,8 +432,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var21 = var23.bind(var4)(var22, var21);
             var19[1] = var21;
             var20 = !var20;
-            if(!var20) { _fun0002_ip = 1275; continue _fun0002 }
- 1168:
+            if(!var20) { _fun0002_ip = 1261; continue _fun0002 }
+ 1154:
             var23 = _closure1_slot7;
             var22 = _closure1_slot1;
             var28 = _closure1_slot2;
@@ -462,13 +456,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var21['style'] = var24;
             var26 = var9 != var25;
             var24 = 3;
-            if(!var26) { _fun0002_ip = 1264; continue _fun0002 }
- 1261:
+            if(!var26) { _fun0002_ip = 1250; continue _fun0002 }
+ 1247:
             var24 = var25;
- 1264:
+ 1250:
             var21['bioLineClamp'] = var24;
             var20 = var23.bind(var4)(var22, var21);
- 1275:
+ 1261:
             var19[2] = var20;
             var17['children'] = var19;
             var17 = var15.bind(var4)(var18, var17);
@@ -477,8 +471,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var15.bind(var4)(var12, var11);
             var8[1] = var11;
             var9 = var9 != var14;
-            if(!var9) { _fun0002_ip = 1361; continue _fun0002 }
- 1314:
+            if(!var9) { _fun0002_ip = 1353; continue _fun0002 }
+ 1300:
             var12 = _closure1_slot7;
             var11 = _closure1_slot1;
             var15 = _closure1_slot2;
@@ -486,11 +480,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var15[var10];
             var11 = var11.bind(var4)(var10);
             var10 = {};
-            var10['profileEffectId'] = var14;
+            var14 = var14.skuId;
+            var10['skuId'] = var14;
             var13 = var13.profileEffect;
             var10['style'] = var13;
             var9 = var12.bind(var4)(var11, var10);
- 1361:
+ 1353:
             var8[2] = var9;
             var5['children'] = var8;
             var5 = var7.bind(var4)(var6, var5);

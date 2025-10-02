@@ -493,7 +493,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         };
         var4 = var7.bind(var8)(var4);
         var _closure1_slot13 = var4;
-        var4 = 36;
+        var4 = 38;
         var4 = var6[var4];
         var6 = var5.bind(var1)(var4);
         var5 = var6.fileFinishedImporting;
@@ -537,12 +537,51 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = var1.insets;
                 var5 = _closure1_slot3;
                 var3 = var5.useCallback;
+                var2 = function() {
+                    var8 = _closure1_slot0;
+                    var9 = _closure1_slot2;
+                    var1 = 22;
+                    var3 = var9[var1];
+                    var1 = undefined;
+                    var4 = var8.bind(var1)(var3);
+                    var3 = var4.closeCreatePollModal;
+                    var3 = var3.bind(var4)();
+                    var3 = _closure1_slot1;
+                    var2 = 23;
+                    var2 = var9[var2];
+                    var4 = var3.bind(var1)(var2);
+                    var3 = var4.open;
+                    var2 = {};
+                    var5 = 'POLL_CREATED_SUCCESS';
+                    var2['key'] = var5;
+                    var5 = 24;
+                    var5 = var9[var5];
+                    var5 = var8.bind(var1)(var5);
+                    var5 = var5.PollsIcon;
+                    var2['IconComponent'] = var5;
+                    var5 = 8;
+                    var6 = var9[var5];
+                    var6 = var8.bind(var1)(var6);
+                    var7 = var6.intl;
+                    var6 = var7.string;
+                    var5 = var9[var5];
+                    var5 = var8.bind(var1)(var5);
+                    var5 = var5.t;
+                    var5 = var5.OPsckJ;
+                    var5 = var6.bind(var7)(var5);
+                    var2['content'] = var5;
+                    var2 = var3.bind(var4)(var2);
+                    return var1;
+                };
+                var1 = new Array(0);
+                var3 = var3.bind(var5)(var2, var1);
+                var8 = var5.useCallback;
                 var2 = function(arg1) {
                     var1 = arg1;
                     var9 = var1.indexToRemove;
                     var5 = _closure1_slot0;
                     var8 = _closure1_slot2;
-                    var1 = 22;
+                    var1 = 25;
                     var2 = var8[var1];
                     var1 = undefined;
                     var2 = var5.bind(var1)(var2);
@@ -566,15 +605,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var1 = new Array(0);
-                var3 = var3.bind(var5)(var2, var1);
-                var1 = 23;
+                var2 = var8.bind(var5)(var2, var1);
+                var1 = 26;
                 var1 = var21[var1];
-                var2 = var30.bind(var4)(var1);
-                var1 = 24;
-                var1 = var21[var1];
-                var1 = var31.bind(var4)(var1);
-                var1 = var1.closeCreatePollModal;
-                var2 = var2.bind(var4)(var6, var1, var3);
+                var1 = var30.bind(var4)(var1);
+                var2 = var1.bind(var4)(var6, var3, var2);
                 var27 = var2.answers;
                 var _closure2_slot1 = var27;
                 var1 = var2.question;
@@ -608,7 +643,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var _closure2_slot12 = var1;
                 var6 = var2.setShouldFocusOnInvalidField;
                 var _closure2_slot13 = var6;
-                var2 = 25;
+                var2 = 27;
                 var2 = var21[var2];
                 var3 = var31.bind(var4)(var2);
                 var2 = var3.useTrackPollCreationEvents;
@@ -621,7 +656,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var2.bind(var1)();
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
-                    var2 = 24;
+                    var2 = 22;
                     var2 = var4[var2];
                     var3 = var3.bind(var1)(var2);
                     var2 = var3.closeCreatePollModal;
@@ -629,7 +664,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var _closure2_slot15 = var2;
-                var2 = 26;
+                var2 = 28;
                 var2 = var21[var2];
                 var8 = var31.bind(var4)(var2);
                 var3 = var8.useNavigatorBackPressHandler;
@@ -638,7 +673,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                         var4 = _closure1_slot0;
                         var3 = _closure1_slot2;
-                        var2 = 27;
+                        var2 = 29;
                         var2 = var3[var2];
                         var3 = undefined;
                         var7 = var4.bind(var3)(var2);
@@ -650,7 +685,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  51:
                         var5 = _closure1_slot0;
                         var6 = _closure1_slot2;
-                        var4 = 28;
+                        var4 = 30;
                         var4 = var6[var4];
                         var6 = var5.bind(var3)(var4);
                         var5 = var6.openAlert;
@@ -673,7 +708,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     }
                 };
                 var2 = var3.bind(var8)(var2);
-                var2 = 29;
+                var2 = 31;
                 var2 = var21[var2];
                 var3 = var30.bind(var4)(var2);
                 var2 = {};
@@ -720,7 +755,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var11 = var4.length;
                         var5['numOfErrors'] = var11;
                         var7 = var9.bind(var10)(var7, var5);
-                        var5 = 22;
+                        var5 = 25;
                         var5 = var8[var5];
                         var5 = var6.bind(var3)(var5);
                         var6 = var5.AccessibilityAnnouncer;
@@ -762,7 +797,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var9 = var12.header;
                 var8['style'] = var9;
                 var14 = _closure1_slot9;
-                var10 = 30;
+                var10 = 32;
                 var9 = var21[var10];
                 var9 = var31.bind(var4)(var9);
                 var11 = var9.HeaderActionButton;
@@ -783,7 +818,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                         var4 = _closure1_slot0;
                         var2 = _closure1_slot2;
-                        var1 = 27;
+                        var1 = 29;
                         var2 = var2[var1];
                         var1 = undefined;
                         var7 = var4.bind(var1)(var2);
@@ -795,7 +830,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  51:
                         var5 = _closure1_slot0;
                         var6 = _closure1_slot2;
-                        var4 = 28;
+                        var4 = 30;
                         var4 = var6[var4];
                         var6 = var5.bind(var1)(var4);
                         var5 = var6.openAlert;
@@ -816,7 +851,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     }
                 };
                 var9['onPress'] = var23;
-                var23 = 31;
+                var23 = 33;
                 var23 = var21[var23];
                 var23 = var30.bind(var4)(var23);
                 var9['source'] = var23;
@@ -883,25 +918,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var9['contentContainerStyle'] = var14;
                 var23 = null;
                 var15 = var23 != var32;
-                if(!var15) { _fun0003_ip = 1060; continue _fun0003 }
- 1005:
+                if(!var15) { _fun0003_ip = 1064; continue _fun0003 }
+ 1009:
                 var21 = _closure1_slot9;
                 var20 = _closure1_slot1;
                 var30 = _closure1_slot2;
-                var14 = 32;
+                var14 = 34;
                 var14 = var30[var14];
                 var20 = var20.bind(var4)(var14);
                 var14 = {};
                 var31 = var23 == var32;
                 var30 = undefined;
-                if(var31) { _fun0003_ip = 1050; continue _fun0003 }
- 1040:
+                if(var31) { _fun0003_ip = 1054; continue _fun0003 }
+ 1044:
                 var31 = var32.getAnyErrorMessage;
                 var30 = var31.bind(var32)();
- 1050:
+ 1054:
                 var14['children'] = var30;
                 var15 = var21.bind(var4)(var20, var14);
- 1060:
+ 1064:
                 var14 = new Array(3);
                 var14[0] = var15;
                 var21 = _closure1_slot9;
@@ -916,10 +951,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var15['onSubmitEditing'] = var26;
                 var26 = var23 == var25;
                 var23 = undefined;
-                if(var26) { _fun0003_ip = 1128; continue _fun0003 }
- 1122:
+                if(var26) { _fun0003_ip = 1132; continue _fun0003 }
+ 1126:
                 var23 = var25.question;
- 1128:
+ 1132:
                 var15['error'] = var23;
                 var15 = var21.bind(var4)(var20, var15);
                 var14[1] = var15;
@@ -931,7 +966,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var26 = _closure1_slot9;
                 var32 = _closure1_slot0;
                 var29 = _closure1_slot2;
-                var23 = 33;
+                var23 = 35;
                 var23 = var29[var23];
                 var23 = var32.bind(var4)(var23);
                 var25 = var23.FormLabel;
@@ -961,7 +996,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var5 = _closure1_slot9;
                         var3 = _closure1_slot1;
                         var4 = _closure1_slot2;
-                        var2 = 34;
+                        var2 = 36;
                         var2 = var4[var2];
                         var4 = undefined;
                         var3 = var3.bind(var4)(var2);
@@ -1015,14 +1050,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 };
                 var25 = var26.bind(var27)(var25);
                 var23[1] = var25;
-                if(!var24) { _fun0003_ip = 1321; continue _fun0003 }
- 1301:
+                if(!var24) { _fun0003_ip = 1325; continue _fun0003 }
+ 1305:
                 var27 = _closure1_slot9;
                 var26 = _closure1_slot15;
                 var25 = {};
                 var25['onPress'] = var28;
                 var24 = var27.bind(var4)(var26, var25);
- 1321:
+ 1325:
                 var23[2] = var24;
                 var15['children'] = var23;
                 var15 = var21.bind(var4)(var20, var15);
@@ -1046,7 +1081,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var15 = _closure1_slot9;
                 var21 = _closure1_slot0;
                 var18 = _closure1_slot2;
-                var13 = 35;
+                var13 = 37;
                 var13 = var18[var13];
                 var13 = var21.bind(var4)(var13);
                 var14 = var13.TableCheckboxRow;

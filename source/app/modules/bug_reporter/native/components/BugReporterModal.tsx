@@ -893,7 +893,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(var2) { _fun0010_ip = 337; continue _fun0010 }
+                            if(var2) { _fun0010_ip = 339; continue _fun0010 }
  12:
                             var3 = undefined;
                             var _closure5_slot0 = var3;
@@ -905,10 +905,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var2 = var5.isAndroid;
                             var2 = var2.bind(var5)();
                             var7 = 'mixed';
-                            if(!var2) { _fun0010_ip = 61; continue _fun0010 }
- 57:
+                            if(!var2) { _fun0010_ip = 63; continue _fun0010 }
+ 59:
                             var7 = 'any';
- 61:
+ 63:
                             var5 = _closure1_slot0;
                             var6 = _closure1_slot2;
                             var2 = 28;
@@ -918,16 +918,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var2 = {'mediaType': null, 'includeBase64': false, 'selectionLimit': 1};
                             var2['mediaType'] = var7;
                             var2 = var5.bind(var6)(var2);
-                            SaveGenerator(address=116);
- 114:
-                            return var2;
+                            SaveGenerator(address=118);
  116:
+                            return var2;
+ 118:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                            if(var5) { _fun0010_ip = 334; continue _fun0010 }
- 125:
+                            if(var5) { _fun0010_ip = 336; continue _fun0010 }
+ 127:
                             var5 = null;
-                            if(!(var5 != var2)) { _fun0010_ip = 331; continue _fun0010 }
- 134:
+                            if(!(var5 != var2)) { _fun0010_ip = 333; continue _fun0010 }
+ 136:
                             var6 = var2.assets;
                             var5 = 0;
                             var12 = var6[var5];
@@ -983,11 +983,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 return var1;
                             };
                             var4 = var5.bind(var3)(var4);
- 331:
+ 333:
                             return var3;
- 334:
+ 336:
                             return var2;
- 337:
+ 339:
                             return var1;
                         }
                     };

@@ -11,36 +11,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
             var1 = arg1;
-            var6 = var1.item;
-            var1 = _closure1_slot12;
+            var1 = var1.item;
+            var2 = _closure1_slot12;
             var5 = undefined;
-            var11 = var1.bind(var5)();
-            var2 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var1 = 6;
-            var1 = var3[var1];
-            var4 = var2.bind(var5)(var1);
-            var3 = var4.useProfileEffectPreset;
+            var11 = var2.bind(var5)();
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 6;
+            var2 = var4[var2];
+            var3 = var3.bind(var5)(var2);
+            var2 = var3.useProfileEffectPreset;
+            var1 = var1.skuId;
+            var3 = var2.bind(var3)(var1);
             var1 = null;
-            var8 = var1 == var6;
-            var2 = undefined;
-            if(var8) { _fun0001_ip = 63; continue _fun0001 }
- 58:
-            var2 = var6.id;
- 63:
-            var3 = var3.bind(var4)(var2);
-            if(!(var1 != var3)) { _fun0001_ip = 241; continue _fun0001 }
- 75:
+            if(!(var1 != var3)) { _fun0001_ip = 233; continue _fun0001 }
+ 67:
             var4 = var1 == var3;
             var2 = undefined;
-            if(var4) { _fun0001_ip = 89; continue _fun0001 }
- 84:
+            if(var4) { _fun0001_ip = 81; continue _fun0001 }
+ 76:
             var2 = var3.config;
- 89:
-            if(!(var1 == var2)) { _fun0001_ip = 95; continue _fun0001 }
- 93:
+ 81:
+            if(!(var1 == var2)) { _fun0001_ip = 87; continue _fun0001 }
+ 85:
             var2 = {};
- 95:
+ 87:
             var13 = var2.accessibilityLabel;
             var12 = var2.thumbnailPreviewSrc;
             var10 = var2.title;
@@ -76,7 +71,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['children'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
- 241:
+ 233:
             return var1;
         }
     };

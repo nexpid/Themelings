@@ -127,10 +127,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var17 = var7.bind(var1)(var16);
         var16 = var17.isAndroid;
         var16 = var16.bind(var17)();
-        if(!var16) { _fun0001_ip = 381; continue _fun0001 }
- 375:
+        if(!var16) { _fun0001_ip = 377; continue _fun0001 }
+ 371:
         var15 = -2;
- 381:
+ 377:
         var12['marginTop'] = var15;
         var6['actionText'] = var12;
         var12 = {'position': 'absolute', 'left': 4294967294, 'top': 4294967295};

@@ -25,6 +25,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot3 = var4;
     var4 = [1, 100, 1000, 10000];
     var _closure1_slot4 = var4;
+    var4 = [100, 500, 1000, 5000];
+    var _closure1_slot5 = var4;
     var2 = function() {
         var4 = _closure1_slot3;
         var3 = function VoiceDuration(arg1, arg2) {
@@ -65,6 +67,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = new var13[var6](var12);
                 var6 = var6 instanceof Object ? var6 : var7;
                 var3['timesUntilSpeakingDurationMilestonesMs'] = var6;
+                var6 = var2.Map;
+                var7 = var6.prototype;
+                var7 = Object.create(var7, {constructor: {value: var6}});
+                var13 = var7;
+                var6 = new var13[var6](var12);
+                var6 = var6 instanceof Object ? var6 : var7;
+                var3['speakingMinimumChunks'] = var6;
+                var6 = var2.Map;
+                var7 = var6.prototype;
+                var7 = Object.create(var7, {constructor: {value: var6}});
+                var13 = var7;
+                var6 = new var13[var6](var12);
+                var6 = var6 instanceof Object ? var6 : var7;
+                var3['speakingMinimumChunkCounts'] = var6;
+                var6 = 0;
+                var3['speechEventCount'] = var6;
                 var6 = _closure1_slot0;
                 var7 = _closure1_slot1;
                 var4 = 2;
@@ -187,6 +205,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var4.timesUntilSpeakingDurationMilestonesMs;
                 var3 = var5.clear;
                 var3 = var3.bind(var5)();
+                var5 = var4.speakingMinimumChunks;
+                var3 = var5.clear;
+                var3 = var3.bind(var5)();
+                var5 = var4.speakingMinimumChunkCounts;
+                var3 = var5.clear;
+                var3 = var3.bind(var5)();
+                var3 = 0;
+                var4['speechEventCount'] = var3;
                 var5 = var4.connected;
                 var3 = var5.start;
                 var3 = var3.bind(var5)();
@@ -264,7 +290,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var1['value'] = var2;
-        var2 = new Array(11);
+        var2 = new Array(12);
         var2[0] = var1;
         var1 = {};
         var6 = '_getVoiceFilterStopWatch';
@@ -313,55 +339,61 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = function value(arg1) {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                var1 = this;
-                var3 = var1._getVoiceFilterStopWatch;
-                var4 = var1.connection;
-                var2 = var4.getVoiceFilterId;
-                var2 = var2.bind(var4)();
-                var2 = var3.bind(var1)(var2);
-                var3 = arg1;
-                if(var3) { _fun0005_ip = 154; continue _fun0005 }
- 36:
-                var3 = var1.connected;
-                var6 = var3.lastStartTime;
-                var3 = var1.speaking;
-                var5 = var3.lastStartTime;
-                var3 = var1.speaking;
-                var4 = var3.lastElapsed;
-                var7 = var1.speaking;
-                var3 = var7.stop;
-                var3 = var3.bind(var7)();
-                var7 = var1.listening;
-                var3 = var7.isRunning;
-                var3 = var3.bind(var7)();
-                if(var3) { _fun0005_ip = 123; continue _fun0005 }
- 107:
-                var7 = var1.participation;
-                var3 = var7.stop;
-                var3 = var3.bind(var7)();
- 123:
-                var3 = null;
-                if(!(var3 != var2)) { _fun0005_ip = 139; continue _fun0005 }
- 129:
-                var3 = var2.stop;
-                var3 = var3.bind(var2)();
- 139:
-                var3 = var1.computeSpeakingDurationMilestones;
-                var3 = var3.bind(var1)(var6, var5, var4);
-                _fun0005_ip = 199; continue _fun0005;
- 154:
-                var4 = var1.speaking;
-                var3 = var4.start;
-                var3 = var3.bind(var4)();
-                var3 = var1.participation;
+                var2 = this;
+                var3 = var2._getVoiceFilterStopWatch;
+                var4 = var2.connection;
+                var1 = var4.getVoiceFilterId;
+                var1 = var1.bind(var4)();
+                var3 = var3.bind(var2)(var1);
+                var1 = arg1;
+                if(var1) { _fun0005_ip = 167; continue _fun0005 }
+ 39:
+                var1 = var2.connected;
+                var6 = var1.lastStartTime;
+                var1 = var2.speaking;
+                var5 = var1.lastStartTime;
+                var1 = var2.speaking;
+                var4 = var1.lastElapsed;
+                var1 = var2.addSpeechChunk;
+                var1 = var1.bind(var2)();
+                var7 = var2.speaking;
+                var1 = var7.stop;
+                var1 = var1.bind(var7)();
+                var7 = var2.listening;
+                var1 = var7.isRunning;
+                var1 = var1.bind(var7)();
+                if(var1) { _fun0005_ip = 136; continue _fun0005 }
+ 120:
+                var7 = var2.participation;
+                var1 = var7.stop;
+                var1 = var1.bind(var7)();
+ 136:
+                var1 = null;
+                if(!(var1 != var3)) { _fun0005_ip = 152; continue _fun0005 }
+ 142:
+                var1 = var3.stop;
+                var1 = var1.bind(var3)();
+ 152:
+                var1 = var2.computeSpeakingDurationMilestones;
+                var1 = var1.bind(var2)(var6, var5, var4);
+                _fun0005_ip = 227; continue _fun0005;
+ 167:
+                var4 = var2.speaking;
+                var1 = var4.start;
+                var1 = var1.bind(var4)();
+                var4 = var2.participation;
+                var1 = var4.start;
+                var1 = var1.bind(var4)();
+                var1 = null;
+                if(!(var1 != var3)) { _fun0005_ip = 212; continue _fun0005 }
+ 203:
                 var1 = var3.start;
                 var1 = var1.bind(var3)();
-                var1 = null;
-                if(!(var1 != var2)) { _fun0005_ip = 199; continue _fun0005 }
- 190:
-                var1 = var2.start;
-                var1 = var1.bind(var2)();
- 199:
+ 212:
+                var1 = var2.speechEventCount;
+                var1 = var1 + 1;
+                var2['speechEventCount'] = var1;
+ 227:
                 var1 = undefined;
                 return var1;
             }
@@ -549,6 +581,82 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['value'] = var6;
         var2[6] = var1;
         var1 = {};
+        var6 = 'addSpeechChunk';
+        var1['key'] = var6;
+        var6 = function value() {
+            _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+ 0:
+                var2 = this;
+                var _closure3_slot0 = var2;
+                var3 = var2.speaking;
+                var3 = var3.lastStartTime;
+                var4 = null;
+                if(!(var4 != var3)) { _fun0010_ip = 91; continue _fun0010 }
+ 27:
+                var4 = var2.timestampProducer;
+                var2 = var4.now;
+                var2 = var2.bind(var4)();
+                var2 = var2 - var3;
+                var _closure3_slot1 = var2;
+                var4 = _closure1_slot5;
+                var3 = var4.filter;
+                var2 = function(arg1) {
+                    var2 = _closure3_slot1;
+                    var1 = arg1;
+                    var1 = var2 >= var1;
+                    return var1;
+                };
+                var3 = var3.bind(var4)(var2);
+                var2 = var3.forEach;
+                var1 = function(arg1) {
+                    _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+ 0:
+                        var4 = arg1;
+                        var2 = _closure3_slot0;
+                        var3 = var2.speakingMinimumChunks;
+                        var2 = var3.get;
+                        var2 = var2.bind(var3)(var4);
+                        var3 = null;
+                        var6 = var3 != var2;
+                        var9 = 0;
+                        if(!var6) { _fun0011_ip = 40; continue _fun0011 }
+ 37:
+                        var9 = var2;
+ 40:
+                        var2 = _closure3_slot0;
+                        var8 = var2.speakingMinimumChunks;
+                        var7 = var8.set;
+                        var6 = _closure3_slot1;
+                        var6 = var9 + var6;
+                        var6 = var7.bind(var8)(var4, var6);
+                        var6 = var2.speakingMinimumChunkCounts;
+                        var2 = var6.get;
+                        var2 = var2.bind(var6)(var4);
+                        var3 = var3 != var2;
+                        var5 = 0;
+                        if(!var3) { _fun0011_ip = 97; continue _fun0011 }
+ 94:
+                        var5 = var2;
+ 97:
+                        var1 = _closure3_slot0;
+                        var3 = var1.speakingMinimumChunkCounts;
+                        var2 = var3.set;
+                        var1 = 1;
+                        var1 = var5 + var1;
+                        var1 = var2.bind(var3)(var4, var1);
+                        var1 = undefined;
+                        return var1;
+                    }
+                };
+                var1 = var2.bind(var3)(var1);
+ 91:
+                var1 = undefined;
+                return var1;
+            }
+        };
+        var1['value'] = var6;
+        var2[7] = var1;
+        var1 = {};
         var6 = 'setNoiseCancellationEnabled';
         var1['key'] = var6;
         var6 = function value(arg1) {
@@ -560,12 +668,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['value'] = var6;
-        var2[7] = var1;
+        var2[8] = var1;
         var1 = {};
         var6 = 'stop';
         var1['key'] = var6;
         var6 = function value() {
             var5 = this;
+            var1 = var5.addSpeechChunk;
+            var1 = var1.bind(var5)();
             var1 = var5.connected;
             var4 = var1.lastStartTime;
             var1 = var5.speaking;
@@ -605,7 +715,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['value'] = var6;
-        var2[8] = var1;
+        var2[9] = var1;
         var1 = {};
         var6 = 'getVoiceFilterSpeakingDurationMs';
         var1['key'] = var6;
@@ -622,7 +732,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = arraySpread(var7, var6, var5);
             var2 = var4.map;
             var1 = function(arg1) {
-                _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+                _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
  0:
                     var5 = arg1;
                     var1 = var5[Symbol.iterator];
@@ -632,24 +742,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = undefined;
                     var4 = var2 === var7;
                     var2 = undefined;
-                    if(var4) { _fun0010_ip = 27; continue _fun0010 }
+                    if(var4) { _fun0012_ip = 27; continue _fun0012 }
  24:
                     var2 = var3;
  27:
                     var3 = undefined;
-                    if(var4) { _fun0010_ip = 57; continue _fun0010 }
+                    if(var4) { _fun0012_ip = 57; continue _fun0012 }
  32:
                     var6 = var5().value;
                     var5 = var1;
                     var5 = var5 === var7;
                     var3 = undefined;
                     var4 = var5;
-                    if(var5) { _fun0010_ip = 57; continue _fun0010 }
+                    if(var5) { _fun0012_ip = 57; continue _fun0012 }
  51:
                     var3 = var6;
                     var4 = var5;
  57:
-                    if(var4) { _fun0010_ip = 63; continue _fun0010 }
+                    if(var4) { _fun0012_ip = 63; continue _fun0012 }
  60:
                     var1.return();
  63:
@@ -672,120 +782,223 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['value'] = var6;
-        var2[9] = var1;
+        var2[10] = var1;
         var1 = {};
         var6 = 'getDurationStats';
         var1['key'] = var6;
         var5 = function value() {
-            var3 = this;
-            var _closure3_slot0 = var3;
-            var6 = var3.computeSpeakingDurationMilestones;
-            var1 = var3.connected;
-            var5 = var1.lastStartTime;
-            var1 = var3.speaking;
-            var4 = var1.lastStartTime;
-            var1 = var3.speaking;
-            var1 = var1.lastElapsed;
-            var1 = var6.bind(var3)(var5, var4, var1);
-            var1 = {};
-            var5 = var3.listening;
-            var4 = var5.elapsed;
-            var5 = var4.bind(var5)();
-            var4 = var5.asMilliseconds;
-            var4 = var4.bind(var5)();
-            var1['duration_listening_ms'] = var4;
-            var5 = var3.speaking;
-            var4 = var5.elapsed;
-            var5 = var4.bind(var5)();
-            var4 = var5.asMilliseconds;
-            var4 = var4.bind(var5)();
-            var1['duration_speaking_ms'] = var4;
-            var5 = var3.participation;
-            var4 = var5.elapsed;
-            var5 = var4.bind(var5)();
-            var4 = var5.asMilliseconds;
-            var4 = var4.bind(var5)();
-            var1['duration_participation_ms'] = var4;
-            var5 = var3.connected;
-            var4 = var5.elapsed;
-            var5 = var4.bind(var5)();
-            var4 = var5.asMilliseconds;
-            var4 = var4.bind(var5)();
-            var1['duration_connected_ms'] = var4;
-            var5 = var3.muted;
-            var4 = var5.elapsed;
-            var5 = var4.bind(var5)();
-            var4 = var5.asMilliseconds;
-            var4 = var4.bind(var5)();
-            var1['duration_muted_ms'] = var4;
-            var5 = var3.voiceFilterSpeaking;
-            var4 = var5.keys;
-            var8 = var4.bind(var5)();
-            var5 = new Array(0);
-            var9 = var5;
-            var7 = 0;
-            var6 = arraySpread(var9, var8, var7);
-            var1['duration_speaking_voice_filter_ids'] = var5;
-            var6 = var3.noiseCancellation;
-            var5 = var6.totalDuration;
-            var5 = var5.bind(var6)();
-            var1['duration_noise_cancellation_enabled_ms'] = var5;
-            var5 = var3.voiceFilterSpeaking;
-            var3 = var5.values;
-            var8 = var3.bind(var5)();
-            var5 = new Array(0);
-            var9 = var5;
-            var3 = arraySpread(var9, var8, var7);
-            var4 = var5.map;
-            var3 = function(arg1) {
-                var2 = arg1;
-                var1 = var2.elapsed;
-                var2 = var1.bind(var2)();
-                var1 = var2.asMilliseconds;
-                var1 = var1.bind(var2)();
-                return var1;
-            };
-            var3 = var4.bind(var5)(var3);
-            var1['duration_speaking_voice_filter_ms'] = var3;
-            var5 = _closure1_slot4;
-            var4 = var5.filter;
-            var3 = function(arg1) {
-                var1 = _closure3_slot0;
-                var3 = var1.timesUntilSpeakingDurationMilestonesMs;
-                var2 = var3.has;
-                var1 = arg1;
-                var1 = var2.bind(var3)(var1);
-                return var1;
-            };
-            var5 = var4.bind(var5)(var3);
-            var4 = var5.reduce;
-            var3 = function(arg1, arg2) {
-                var5 = arg2;
+            _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+ 0:
+                var3 = this;
+                var _closure3_slot0 = var3;
+                var1 = var3.speaking;
+                var6 = var1.lastStartTime;
+                var4 = var3.timestampProducer;
+                var1 = var4.now;
+                var4 = var1.bind(var4)();
+                var1 = null;
+                var7 = var1 != var6;
+                var1 = 0;
+                if(!var7) { _fun0013_ip = 51; continue _fun0013 }
+ 47:
+                var1 = var4 - var6;
+ 51:
+                var _closure3_slot1 = var1;
+                var7 = var3.computeSpeakingDurationMilestones;
+                var1 = var3.connected;
+                var6 = var1.lastStartTime;
+                var1 = var3.speaking;
+                var4 = var1.lastStartTime;
+                var1 = var3.speaking;
+                var1 = var1.lastElapsed;
+                var1 = var7.bind(var3)(var6, var4, var1);
                 var1 = {};
-                var6 = arg1;
-                var7 = var1;
-                var2 = copyDataProperties(var7, var6);
-                var2 = global;
-                var2 = var2.HermesInternal;
-                var4 = var2.concat;
-                var3 = 'time_to_first_';
-                var2 = 'ms_speech_ms';
-                var3 = var4.bind(var3)(var5, var2);
-                var2 = _closure3_slot0;
-                var4 = var2.timesUntilSpeakingDurationMilestonesMs;
-                var2 = var4.get;
-                var2 = var2.bind(var4)(var5);
-                var1[var3] = var2;
+                var6 = var3.listening;
+                var4 = var6.elapsed;
+                var6 = var4.bind(var6)();
+                var4 = var6.asMilliseconds;
+                var4 = var4.bind(var6)();
+                var1['duration_listening_ms'] = var4;
+                var6 = var3.speaking;
+                var4 = var6.elapsed;
+                var6 = var4.bind(var6)();
+                var4 = var6.asMilliseconds;
+                var4 = var4.bind(var6)();
+                var1['duration_speaking_ms'] = var4;
+                var6 = var3.participation;
+                var4 = var6.elapsed;
+                var6 = var4.bind(var6)();
+                var4 = var6.asMilliseconds;
+                var4 = var4.bind(var6)();
+                var1['duration_participation_ms'] = var4;
+                var6 = var3.connected;
+                var4 = var6.elapsed;
+                var6 = var4.bind(var6)();
+                var4 = var6.asMilliseconds;
+                var4 = var4.bind(var6)();
+                var1['duration_connected_ms'] = var4;
+                var6 = var3.muted;
+                var4 = var6.elapsed;
+                var6 = var4.bind(var6)();
+                var4 = var6.asMilliseconds;
+                var4 = var4.bind(var6)();
+                var1['duration_muted_ms'] = var4;
+                var6 = var3.voiceFilterSpeaking;
+                var4 = var6.keys;
+                var9 = var4.bind(var6)();
+                var4 = new Array(0);
+                var10 = var4;
+                var8 = 0;
+                var6 = arraySpread(var10, var9, var8);
+                var1['duration_speaking_voice_filter_ids'] = var4;
+                var6 = var3.noiseCancellation;
+                var4 = var6.totalDuration;
+                var4 = var4.bind(var6)();
+                var1['duration_noise_cancellation_enabled_ms'] = var4;
+                var6 = var3.voiceFilterSpeaking;
+                var4 = var6.values;
+                var9 = var4.bind(var6)();
+                var6 = new Array(0);
+                var10 = var6;
+                var4 = arraySpread(var10, var9, var8);
+                var5 = var6.map;
+                var4 = function(arg1) {
+                    var2 = arg1;
+                    var1 = var2.elapsed;
+                    var2 = var1.bind(var2)();
+                    var1 = var2.asMilliseconds;
+                    var1 = var1.bind(var2)();
+                    return var1;
+                };
+                var4 = var5.bind(var6)(var4);
+                var1['duration_speaking_voice_filter_ms'] = var4;
+                var3 = var3.speechEventCount;
+                var1['speech_event_count'] = var3;
+                var6 = _closure1_slot4;
+                var5 = var6.filter;
+                var4 = function(arg1) {
+                    var1 = _closure3_slot0;
+                    var3 = var1.timesUntilSpeakingDurationMilestonesMs;
+                    var2 = var3.has;
+                    var1 = arg1;
+                    var1 = var2.bind(var3)(var1);
+                    return var1;
+                };
+                var7 = var5.bind(var6)(var4);
+                var6 = var7.reduce;
+                var5 = function(arg1, arg2) {
+                    var5 = arg2;
+                    var1 = {};
+                    var6 = arg1;
+                    var7 = var1;
+                    var2 = copyDataProperties(var7, var6);
+                    var2 = global;
+                    var2 = var2.HermesInternal;
+                    var4 = var2.concat;
+                    var3 = 'time_to_first_';
+                    var2 = 'ms_speech_ms';
+                    var3 = var4.bind(var3)(var5, var2);
+                    var2 = _closure3_slot0;
+                    var4 = var2.timesUntilSpeakingDurationMilestonesMs;
+                    var2 = var4.get;
+                    var2 = var2.bind(var4)(var5);
+                    var1[var3] = var2;
+                    return var1;
+                };
+                var4 = {};
+                var9 = var6.bind(var7)(var5, var4);
+                var10 = var1;
+                var4 = copyDataProperties(var10, var9);
+                var5 = _closure1_slot5;
+                var4 = var5.filter;
+                var3 = function(arg1) {
+                    _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
+ 0:
+                        var3 = arg1;
+                        var1 = _closure3_slot0;
+                        var4 = var1.speakingMinimumChunks;
+                        var1 = var4.has;
+                        var1 = var1.bind(var4)(var3);
+                        if(var1) { _fun0014_ip = 37; continue _fun0014 }
+ 29:
+                        var2 = _closure3_slot1;
+                        var1 = var2 >= var3;
+ 37:
+                        return var1;
+                    }
+                };
+                var5 = var4.bind(var5)(var3);
+                var4 = var5.reduce;
+                var3 = function(arg1, arg2) {
+                    _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
+ 0:
+                        var6 = arg2;
+                        var1 = {};
+                        var11 = arg1;
+                        var12 = var1;
+                        var2 = copyDataProperties(var12, var11);
+                        var3 = global;
+                        var2 = var3.HermesInternal;
+                        var5 = var2.concat;
+                        var4 = 'duration_speaking_gte_';
+                        var2 = 'ms_ms';
+                        var8 = var5.bind(var4)(var6, var2);
+                        var2 = _closure3_slot0;
+                        var4 = var2.speakingMinimumChunks;
+                        var2 = var4.get;
+                        var7 = var2.bind(var4)(var6);
+                        var2 = null;
+                        var10 = var2 != var7;
+                        var9 = 0;
+                        if(!var10) { _fun0015_ip = 83; continue _fun0015 }
+ 80:
+                        var9 = var7;
+ 83:
+                        var7 = _closure3_slot1;
+                        var10 = var7 >= var6;
+                        var7 = 0;
+                        if(!var10) { _fun0015_ip = 100; continue _fun0015 }
+ 96:
+                        var7 = _closure3_slot1;
+ 100:
+                        var7 = var9 + var7;
+                        var1[var8] = var7;
+                        var3 = var3.HermesInternal;
+                        var8 = var3.concat;
+                        var7 = 'speech_event_count_gte_';
+                        var3 = 'ms';
+                        var3 = var8.bind(var7)(var6, var3);
+                        var7 = _closure3_slot0;
+                        var8 = var7.speakingMinimumChunkCounts;
+                        var7 = var8.get;
+                        var7 = var7.bind(var8)(var6);
+                        var8 = var2 != var7;
+                        var2 = 0;
+                        if(!var8) { _fun0015_ip = 168; continue _fun0015 }
+ 165:
+                        var2 = var7;
+ 168:
+                        var5 = _closure3_slot1;
+                        var5 = var5 >= var6;
+                        var4 = 0;
+                        if(!var5) { _fun0015_ip = 184; continue _fun0015 }
+ 181:
+                        var4 = 1;
+ 184:
+                        var2 = var2 + var4;
+                        var1[var3] = var2;
+                        return var1;
+                    }
+                };
+                var2 = {};
+                var9 = var4.bind(var5)(var3, var2);
+                var10 = var1;
+                var2 = copyDataProperties(var10, var9);
                 return var1;
-            };
-            var2 = {};
-            var8 = var4.bind(var5)(var3, var2);
-            var9 = var1;
-            var2 = copyDataProperties(var9, var8);
-            return var1;
+            }
         };
         var1['value'] = var5;
-        var2[10] = var1;
+        var2[11] = var1;
         var1 = undefined;
         var1 = var4.bind(var1)(var3, var2);
         return var1;

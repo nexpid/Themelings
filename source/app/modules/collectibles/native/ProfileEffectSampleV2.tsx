@@ -216,9 +216,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = 9;
             var6 = var10[var6];
             var7 = var7.bind(var4)(var6);
-            var6 = {'profileEffectId': null, 'bannerAdjustment': 0, 'useThumbnail': true};
-            var9 = var9.id;
-            var6['profileEffectId'] = var9;
+            var6 = {'skuId': null, 'bannerAdjustment': 0, 'useThumbnail': true};
+            var9 = var9.skuId;
+            var6['skuId'] = var9;
             var6 = var8.bind(var4)(var7, var6);
             var5[2] = var6;
             var1['children'] = var5;

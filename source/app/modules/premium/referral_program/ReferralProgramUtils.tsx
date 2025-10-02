@@ -37,7 +37,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var _closure1_slot4 = var4;
-    var5 = 9;
+    var5 = 8;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -234,71 +234,45 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function() {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            var3 = _closure1_slot1;
-            var9 = _closure1_slot2;
-            var6 = 6;
-            var1 = var9[var6];
-            var5 = undefined;
-            var4 = var3.bind(var5)(var1);
-            var3 = var4.useExperiment;
-            var1 = {};
-            var7 = 'useIsReferralProgramPopoverShowable';
-            var1['location'] = var7;
-            var3 = var3.bind(var4)(var1);
             var7 = _closure1_slot0;
-            var1 = 7;
-            var1 = var9[var1];
-            var8 = var7.bind(var5)(var1);
-            var4 = var8.useIsEligibleSenderForReferralProgram;
-            var10 = var3.cohort;
-            var1 = var9[var6];
-            var1 = var7.bind(var5)(var1);
-            var1 = var1.ReferralProgramPopoverExperimentCohort;
-            var1 = var1.Control;
-            var1 = var10 === var1;
-            var1 = var4.bind(var8)(var1);
-            var4 = _closure1_slot4;
-            var8 = var4.bind(var5)();
-            var4 = 8;
-            var4 = var9[var4];
-            var10 = var7.bind(var5)(var4);
-            var9 = var10.useStateFromStores;
-            var4 = _closure1_slot3;
-            var7 = new Array(1);
-            var7[0] = var4;
-            var4 = function() {
+            var8 = _closure1_slot2;
+            var1 = 6;
+            var1 = var8[var1];
+            var6 = undefined;
+            var2 = var7.bind(var6)(var1);
+            var1 = var2.useIsEligibleSenderForReferralProgram;
+            var4 = false;
+            var1 = var1.bind(var2)(var4);
+            var2 = _closure1_slot4;
+            var2 = var2.bind(var6)();
+            var5 = 7;
+            var5 = var8[var5];
+            var7 = var7.bind(var6)(var5);
+            var6 = var7.useStateFromStores;
+            var3 = _closure1_slot3;
+            var5 = new Array(1);
+            var5[0] = var3;
+            var3 = function() {
                 var2 = _closure1_slot3;
                 var1 = var2.getReferralsRemaining;
                 var1 = var1.bind(var2)();
                 return var1;
             };
-            var7 = var9.bind(var10)(var7, var4);
-            if(!var1) { _fun0003_ip = 165; continue _fun0003 }
- 159:
-            var4 = false;
-            var1 = var4 === var8;
- 165:
-            if(!var1) { _fun0003_ip = 174; continue _fun0003 }
- 168:
-            var4 = null;
-            var1 = var4 !== var7;
- 174:
-            if(!var1) { _fun0003_ip = 183; continue _fun0003 }
- 177:
-            var4 = 0;
-            var1 = var7 > var4;
- 183:
-            if(!var1) { _fun0003_ip = 225; continue _fun0003 }
- 186:
-            var3 = var3.cohort;
-            var4 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var2 = var2[var6];
-            var2 = var4.bind(var5)(var2);
-            var2 = var2.ReferralProgramPopoverExperimentCohort;
-            var2 = var2.Control;
-            var1 = var3 !== var2;
- 225:
+            var3 = var6.bind(var7)(var5, var3);
+            if(!var1) { _fun0003_ip = 95; continue _fun0003 }
+ 91:
+            var1 = var4 === var2;
+ 95:
+            if(!var1) { _fun0003_ip = 104; continue _fun0003 }
+ 98:
+            var2 = null;
+            var1 = var2 !== var3;
+ 104:
+            if(!var1) { _fun0003_ip = 113; continue _fun0003 }
+ 107:
+            var2 = 0;
+            var1 = var3 > var2;
+ 113:
             return var1;
         }
     };

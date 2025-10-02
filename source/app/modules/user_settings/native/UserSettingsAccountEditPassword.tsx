@@ -317,13 +317,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var1 = var1.bind(var2)();
  75:
                             var3 = _closure1_slot12;
-                            var2 = var3.getProps;
-                            var2 = var2.bind(var3)();
-                            var5 = var2.errors;
+                            var2 = var3.getErrors;
+                            var5 = var2.bind(var3)();
                             var2 = null;
                             var2 = var2 == var5;
-                            if(var2) { _fun0005_ip = 144; continue _fun0005 }
- 107:
+                            if(var2) { _fun0005_ip = 138; continue _fun0005 }
+ 101:
                             var6 = _closure1_slot1;
                             var4 = _closure1_slot2;
                             var3 = 16;
@@ -333,19 +332,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var4 = var3.bind(var4)(var5);
                             var3 = var4.isEmpty;
                             var2 = var3.bind(var4)();
- 144:
-                            if(!var2) { _fun0005_ip = 251; continue _fun0005 }
- 147:
+ 138:
+                            if(!var2) { _fun0005_ip = 245; continue _fun0005 }
+ 141:
                             var2 = _closure4_slot0;
-                            if(var2) { _fun0005_ip = 187; continue _fun0005 }
- 157:
+                            if(var2) { _fun0005_ip = 181; continue _fun0005 }
+ 151:
                             var2 = _closure3_slot0;
                             var2 = var2.props;
                             var3 = var2.navigation;
                             var2 = var3.pop;
                             var2 = var2.bind(var3)();
-                            _fun0005_ip = 251; continue _fun0005;
- 187:
+                            _fun0005_ip = 245; continue _fun0005;
+ 181:
                             var3 = _closure1_slot1;
                             var4 = _closure1_slot2;
                             var2 = 17;
@@ -361,7 +360,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var2 = var3.bind(var2)(var1);
                             var1 = var2.close;
                             var1 = var1.bind(var2)();
- 251:
+ 245:
                             var1 = undefined;
                             return var1;
                         }
@@ -818,14 +817,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = null;
                 var2 = var6 != var1;
                 var3 = _closure1_slot12;
-                var1 = var3.getProps;
-                var1 = var1.bind(var3)();
-                var11 = var1.errors;
-                var10 = var1.submitting;
-                var7 = var1.settings;
-                var4 = var1.openWithoutBackstack;
-                if(var4) { _fun0010_ip = 132; continue _fun0010 }
- 96:
+                var1 = var3.getErrors;
+                var11 = var1.bind(var3)();
+                var1 = var3.getSubmitting;
+                var10 = var1.bind(var3)();
+                var1 = var3.getSettings;
+                var7 = var1.bind(var3)();
+                var1 = var3.getOpenWithoutBackstack;
+                var4 = var1.bind(var3)();
+                if(var4) { _fun0010_ip = 142; continue _fun0010 }
+ 106:
                 var3 = _closure1_slot1;
                 var12 = _closure1_slot2;
                 var1 = 27;
@@ -834,16 +835,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var6 != var8;
                 var1 = 'EditPasswordWrapper: user cannot be undefined';
                 var1 = var12.bind(var9)(var3, var1);
- 132:
+ 142:
                 var1 = var6 == var8;
                 var14 = undefined;
-                if(var1) { _fun0010_ip = 146; continue _fun0010 }
- 141:
+                if(var1) { _fun0010_ip = 156; continue _fun0010 }
+ 151:
                 var14 = var8.id;
- 146:
+ 156:
                 var3 = var6 != var14;
-                if(!var3) { _fun0010_ip = 187; continue _fun0010 }
- 153:
+                if(!var3) { _fun0010_ip = 197; continue _fun0010 }
+ 163:
                 var13 = _closure1_slot11;
                 var12 = var13.requiredActionsIncludes;
                 var1 = _closure1_slot15;
@@ -851,7 +852,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = new Array(1);
                 var1[0] = var15;
                 var3 = var12.bind(var13)(var14, var1);
- 187:
+ 197:
                 var1 = {};
                 var1['errors'] = var11;
                 var1['submitting'] = var10;
@@ -859,15 +860,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1['user'] = var8;
                 var10 = var6 == var8;
                 var7 = undefined;
-                if(var10) { _fun0010_ip = 223; continue _fun0010 }
- 217:
+                if(var10) { _fun0010_ip = 233; continue _fun0010 }
+ 227:
                 var7 = var8.verified;
- 223:
-                var6 = var6 != var7;
-                if(!var6) { _fun0010_ip = 233; continue _fun0010 }
- 230:
-                var6 = var7;
  233:
+                var6 = var6 != var7;
+                if(!var6) { _fun0010_ip = 243; continue _fun0010 }
+ 240:
+                var6 = var7;
+ 243:
                 var1['verified'] = var6;
                 var8 = _closure1_slot0;
                 var10 = _closure1_slot2;
@@ -892,10 +893,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var5.8dM4FB;
                 var5 = var6.bind(var7)(var5);
                 var1['newPasswordLabel'] = var5;
-                if(!var3) { _fun0010_ip = 357; continue _fun0010 }
- 354:
+                if(!var3) { _fun0010_ip = 367; continue _fun0010 }
+ 364:
                 var3 = var4;
- 357:
+ 367:
                 var1['showForcedPasswordUpdate'] = var3;
                 var1['hasBannerText'] = var2;
                 return var1;

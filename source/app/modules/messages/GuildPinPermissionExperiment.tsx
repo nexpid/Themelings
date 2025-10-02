@@ -1,66 +1,47 @@
 // app/modules/messages/GuildPinPermissionExperiment.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var6 = require;
+    var5 = require;
     var3 = exports;
-    var7 = dependencyMap;
-    var _closure1_slot0 = var6;
-    var _closure1_slot1 = var7;
+    var6 = dependencyMap;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
     var1 = global;
     var8 = var1.Object;
-    var5 = var8.defineProperty;
+    var7 = var8.defineProperty;
     var4 = {};
-    var11 = true;
-    var4['value'] = var11;
+    var1 = true;
+    var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var5.bind(var8)(var3, var1, var4);
+    var1 = var7.bind(var8)(var3, var1, var4);
     var1 = 0;
-    var5 = var7[var1];
+    var7 = var6[var1];
     var4 = metroImportDefault;
     var1 = undefined;
-    var4 = var4.bind(var1)(var5);
+    var4 = var4.bind(var1)(var7);
     var _closure1_slot2 = var4;
     var4 = 1;
-    var4 = var7[var4];
-    var4 = var6.bind(var1)(var4);
-    var5 = var4.EMPTY_STRING_SNOWFLAKE_ID;
-    var _closure1_slot3 = var5;
-    var5 = var4.GuildFeatures;
-    var _closure1_slot4 = var5;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.EMPTY_STRING_SNOWFLAKE_ID;
+    var _closure1_slot3 = var7;
+    var7 = var4.GuildFeatures;
+    var _closure1_slot4 = var7;
     var4 = var4.Permissions;
     var _closure1_slot5 = var4;
-    var4 = 2;
-    var4 = var7[var4];
-    var8 = var6.bind(var1)(var4);
-    var5 = var8.createExperiment;
-    var4 = {'kind': 'guild', 'id': '2025-06_guild_pin_permission', 'label': 'Guild Pin Permission'};
-    var9 = {};
-    var10 = false;
-    var9['enabled'] = var10;
-    var4['defaultConfig'] = var9;
-    var10 = {'id': 1, 'label': 'Allows use of the Pin Messages permission'};
-    var9 = {};
-    var9['enabled'] = var11;
-    var10['config'] = var9;
-    var9 = new Array(1);
-    var9[0] = var10;
-    var4['treatments'] = var9;
-    var4 = var5.bind(var8)(var4);
-    var _closure1_slot6 = var4;
-    var5 = 6;
-    var5 = var7[var5];
-    var7 = var6.bind(var1)(var5);
-    var6 = var7.fileFinishedImporting;
-    var5 = 'modules/messages/GuildPinPermissionExperiment.tsx';
-    var5 = var6.bind(var7)(var5);
-    var3['GuildPinPermissionExperiment'] = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/messages/GuildPinPermissionExperiment.tsx';
+    var4 = var5.bind(var6)(var4);
     var2 = function useIsPinPermissionMigrationNotificationAvailable(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            var10 = arg1;
-            var _closure2_slot0 = var10;
+            var9 = arg1;
+            var _closure2_slot0 = var9;
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
-            var2 = 3;
+            var2 = 2;
             var3 = var3[var2];
             var2 = undefined;
             var5 = var4.bind(var2)(var3);
@@ -78,65 +59,47 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var1 = var4.bind(var5)(var3, var1);
-            var5 = _closure1_slot6;
-            var4 = var5.useExperiment;
-            var3 = {};
-            var9 = null;
-            var7 = var9 == var10;
-            var6 = undefined;
-            if(var7) { _fun0001_ip = 92; continue _fun0001 }
- 87:
-            var6 = var10.id;
- 92:
-            var3['guildId'] = var6;
-            var6 = 'useIsPinPermissionMigrationNotificationAvailable';
-            var3['location'] = var6;
-            var3 = var4.bind(var5)(var3);
-            var4 = var3.enabled;
-            var5 = var9 == var10;
+            var8 = null;
+            var4 = var8 == var9;
             var3 = undefined;
-            if(var5) { _fun0001_ip = 149; continue _fun0001 }
- 123:
-            var7 = var10.features;
-            var6 = var7.has;
-            var5 = _closure1_slot4;
-            var5 = var5.PIN_PERMISSION_MIGRATION_COMPLETE;
-            var3 = var6.bind(var7)(var5);
- 149:
-            var11 = _closure1_slot0;
-            var12 = _closure1_slot1;
-            var5 = 4;
-            var5 = var12[var5];
-            var7 = var11.bind(var2)(var5);
-            var6 = var7.useIsSingleUseGuildDismissibleContentDismissed;
-            var5 = 5;
-            var5 = var12[var5];
-            var5 = var11.bind(var2)(var5);
-            var5 = var5.DismissibleContent;
-            var5 = var5.GUILD_PIN_PERMISSION_MIGRATION_NOTIFICATION;
-            var11 = var9 == var10;
+            if(var4) { _fun0001_ip = 101; continue _fun0001 }
+ 75:
+            var6 = var9.features;
+            var5 = var6.has;
+            var4 = _closure1_slot4;
+            var4 = var4.PIN_PERMISSION_MIGRATION_COMPLETE;
+            var3 = var5.bind(var6)(var4);
+ 101:
+            var10 = _closure1_slot0;
+            var11 = _closure1_slot1;
+            var4 = 3;
+            var4 = var11[var4];
+            var6 = var10.bind(var2)(var4);
+            var5 = var6.useIsSingleUseGuildDismissibleContentDismissed;
+            var4 = 4;
+            var4 = var11[var4];
+            var4 = var10.bind(var2)(var4);
+            var4 = var4.DismissibleContent;
+            var4 = var4.GUILD_PIN_PERMISSION_MIGRATION_NOTIFICATION;
+            var10 = var8 == var9;
             var2 = undefined;
-            if(var11) { _fun0001_ip = 213; continue _fun0001 }
- 208:
-            var2 = var10.id;
- 213:
-            if(!(var9 == var2)) { _fun0001_ip = 221; continue _fun0001 }
- 217:
+            if(var10) { _fun0001_ip = 165; continue _fun0001 }
+ 160:
+            var2 = var9.id;
+ 165:
+            if(!(var8 == var2)) { _fun0001_ip = 173; continue _fun0001 }
+ 169:
             var2 = _closure1_slot3;
- 221:
-            var2 = var6.bind(var7)(var5, var2);
-            if(!var1) { _fun0001_ip = 233; continue _fun0001 }
- 230:
-            var1 = var4;
- 233:
-            if(!var1) { _fun0001_ip = 239; continue _fun0001 }
- 236:
+ 173:
+            var2 = var5.bind(var6)(var4, var2);
+            if(!var1) { _fun0001_ip = 185; continue _fun0001 }
+ 182:
             var1 = !var3;
- 239:
-            if(!var1) { _fun0001_ip = 245; continue _fun0001 }
- 242:
+ 185:
+            if(!var1) { _fun0001_ip = 191; continue _fun0001 }
+ 188:
             var1 = !var2;
- 245:
+ 191:
             return var1;
         }
     };

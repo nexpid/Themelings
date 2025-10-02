@@ -171,8 +171,51 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = 'modules/parent_tools/hooks/useUserLinks.tsx';
     var5 = var6.bind(var7)(var5);
     var3['useUserForLinkStatus'] = var4;
+    var4 = function() {
+        var5 = _closure1_slot0;
+        var4 = _closure1_slot2;
+        var3 = 3;
+        var4 = var4[var3];
+        var3 = undefined;
+        var5 = var5.bind(var3)(var4);
+        var4 = var5.useStateFromStores;
+        var2 = _closure1_slot4;
+        var3 = new Array(1);
+        var3[0] = var2;
+        var2 = function() {
+            var2 = _closure1_slot4;
+            var1 = var2.getLinkedUsers;
+            var1 = var1.bind(var2)();
+            return var1;
+        };
+        var4 = var4.bind(var5)(var3, var2);
+        var2 = global;
+        var3 = var2.Object;
+        var2 = var3.values;
+        var3 = var2.bind(var3)(var4);
+        var2 = var3.some;
+        var1 = function(arg1) {
+            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+ 0:
+                var2 = arg1;
+                var1 = null;
+                var1 = var1 != var2;
+                if(!var1) { _fun0003_ip = 35; continue _fun0003 }
+ 12:
+                var3 = var2.link_status;
+                var2 = _closure1_slot10;
+                var2 = var2.ACTIVE;
+                var1 = var3 === var2;
+ 35:
+                return var1;
+            }
+        };
+        var1 = var2.bind(var3)(var1);
+        return var1;
+    };
+    var3['useHasActiveLinks'] = var4;
     var4 = function useUserQRLinkUrl() {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -207,11 +250,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = null;
             var6 = var7 == var4;
             var1 = null;
-            if(var6) { _fun0003_ip = 127; continue _fun0003 }
+            if(var6) { _fun0004_ip = 127; continue _fun0004 }
  103:
             var6 = var7 == var2;
             var1 = null;
-            if(var6) { _fun0003_ip = 127; continue _fun0003 }
+            if(var6) { _fun0004_ip = 127; continue _fun0004 }
  112:
             var3 = _closure1_slot6;
             var2 = var2.id;
@@ -222,7 +265,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var3['useUserQRLinkUrl'] = var4;
     var4 = function useHasMaxConnections() {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
             var2 = _closure1_slot1;
             var4 = _closure1_slot2;
@@ -235,10 +278,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = _closure1_slot10;
             var1 = var1.ACTIVE;
             var1 = var4.bind(var5)(var1);
-            if(var2) { _fun0004_ip = 57; continue _fun0004 }
+            if(var2) { _fun0005_ip = 57; continue _fun0005 }
  51:
             var2 = _closure1_slot8;
-            _fun0004_ip = 61; continue _fun0004;
+            _fun0005_ip = 61; continue _fun0005;
  57:
             var2 = _closure1_slot7;
  61:
@@ -249,7 +292,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var3['useHasMaxConnections'] = var4;
     var4 = function usePendingRequestCount() {
-        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -285,7 +328,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = null;
             var3 = var1 == var3;
             var1 = 0;
-            if(var3) { _fun0005_ip = 145; continue _fun0005 }
+            if(var3) { _fun0006_ip = 145; continue _fun0006 }
  107:
             var3 = global;
             var4 = var3.Object;
@@ -293,19 +336,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var3.bind(var4)(var5);
             var3 = var4.filter;
             var2 = function(arg1) {
-                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
                     var2 = arg1;
                     var1 = null;
                     var1 = var1 != var2;
-                    if(!var1) { _fun0006_ip = 35; continue _fun0006 }
+                    if(!var1) { _fun0007_ip = 35; continue _fun0007 }
  12:
                     var4 = var2.link_status;
                     var3 = _closure1_slot10;
                     var3 = var3.PENDING;
                     var1 = var4 === var3;
  35:
-                    if(!var1) { _fun0006_ip = 62; continue _fun0006 }
+                    if(!var1) { _fun0007_ip = 62; continue _fun0007 }
  38:
                     var3 = _closure2_slot0;
                     var3 = var3.id;
@@ -323,7 +366,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var3['usePendingRequestCount'] = var4;
     var4 = function useAcceptedRequestsCount() {
-        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -358,7 +401,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = null;
             var3 = var1 == var3;
             var1 = 0;
-            if(var3) { _fun0007_ip = 141; continue _fun0007 }
+            if(var3) { _fun0008_ip = 141; continue _fun0008 }
  103:
             var3 = global;
             var4 = var3.Object;
@@ -366,12 +409,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var3.bind(var4)(var5);
             var3 = var4.filter;
             var2 = function(arg1) {
-                _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+                _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
                     var2 = arg1;
                     var1 = null;
                     var1 = var1 != var2;
-                    if(!var1) { _fun0008_ip = 35; continue _fun0008 }
+                    if(!var1) { _fun0009_ip = 35; continue _fun0009 }
  12:
                     var3 = var2.link_status;
                     var2 = _closure1_slot10;
@@ -389,7 +432,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var3['useAcceptedRequestsCount'] = var4;
     var4 = function useActivityWindowTimeStamp(arg1) {
-        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
  0:
             var1 = arg1;
             var _closure2_slot0 = var1;
@@ -410,12 +453,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = new Array(1);
             var4[0] = var1;
             var1 = function() {
-                _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+                _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
  0:
                     var2 = _closure2_slot1;
                     var1 = null;
                     var2 = var1 == var2;
-                    if(var2) { _fun0010_ip = 35; continue _fun0010 }
+                    if(var2) { _fun0011_ip = 35; continue _fun0011 }
  16:
                     var3 = _closure1_slot4;
                     var2 = var3.getRangeStartTimestamp;
@@ -427,7 +470,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var6.bind(var7)(var4, var1);
             var1 = null;
             var4 = var1 == var7;
-            if(var4) { _fun0009_ip = 179; continue _fun0009 }
+            if(var4) { _fun0010_ip = 179; continue _fun0010 }
  97:
             var4 = _closure1_slot0;
             var6 = _closure1_slot2;
@@ -457,7 +500,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var3['useActivityWindowTimeStamp'] = var4;
     var2 = function useLinkTimestampText(arg1, arg2) {
-        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
  0:
             var2 = arg1;
             var _closure2_slot0 = var2;
@@ -481,7 +524,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var3.bind(var5)(var2, var1);
             var1 = null;
             var2 = var1 != var7;
-            if(!var2) { _fun0011_ip = 149; continue _fun0011 }
+            if(!var2) { _fun0012_ip = 149; continue _fun0012 }
  71:
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
@@ -496,10 +539,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = _closure1_slot10;
             var7 = var2.PENDING;
             var2 = arg2;
-            if(!(var2 !== var7)) { _fun0011_ip = 139; continue _fun0011 }
+            if(!(var2 !== var7)) { _fun0012_ip = 139; continue _fun0012 }
  133:
             var2 = _closure1_slot5;
-            _fun0011_ip = 143; continue _fun0011;
+            _fun0012_ip = 143; continue _fun0012;
  139:
             var2 = _closure1_slot9;
  143:

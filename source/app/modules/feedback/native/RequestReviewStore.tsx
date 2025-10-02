@@ -332,10 +332,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = _closure1_slot12;
                 var3 = var5.bind(var6)(var3);
                 var5 = null;
-                if(!(var5 == var3)) { _fun0006_ip = 68; continue _fun0006 }
+                if(!(var5 == var3)) { _fun0006_ip = 64; continue _fun0006 }
  54:
                 var3 = {'firstUse': 0, 'revision': 0};
- 68:
+ 64:
                 _closure1_slot13 = var3;
                 var3 = var4.waitFor;
                 var2 = _closure1_slot8;

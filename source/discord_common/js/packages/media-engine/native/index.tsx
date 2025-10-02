@@ -748,6 +748,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = var7.bind(var3)(var5);
                 var5 = var7.getVoiceEngine;
                 var7 = var5.bind(var7)();
+                var5 = var7.updateFieldTrial;
+                if(!(var6 != var5)) { _fun0003_ip = 530; continue _fun0003 }
+ 508:
+                var11 = var7.updateFieldTrial;
+                var9 = 'WebRTC-CheckReceiveTime';
+                var5 = 'Enabled';
+                var5 = var11.bind(var7)(var9, var5);
+ 530:
                 var9 = var7.setDeviceChangeCallback;
                 var5 = var1.handleDeviceChange;
                 var5 = var9.bind(var7)(var5);
@@ -758,52 +766,52 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var1.handleVoiceActivity;
                 var5 = var9.bind(var7)(var5);
                 var5 = var7.setVideoInputInitializationCallback;
-                if(!(var6 != var5)) { _fun0003_ip = 576; continue _fun0003 }
- 559:
+                if(!(var6 != var5)) { _fun0003_ip = 608; continue _fun0003 }
+ 591:
                 var9 = var7.setVideoInputInitializationCallback;
                 var5 = var1.handleVideoInputInitialization;
                 var5 = var9.bind(var7)(var5);
- 576:
+ 608:
                 var5 = var7.setAudioInputInitializationCallback;
-                if(!(var6 != var5)) { _fun0003_ip = 603; continue _fun0003 }
- 586:
+                if(!(var6 != var5)) { _fun0003_ip = 635; continue _fun0003 }
+ 618:
                 var9 = var7.setAudioInputInitializationCallback;
                 var5 = var1.handleAudioInputInitialization;
                 var5 = var9.bind(var7)(var5);
- 603:
+ 635:
                 var5 = var7.setAudioDeviceModuleErrorCallback;
-                if(!(var6 != var5)) { _fun0003_ip = 630; continue _fun0003 }
- 613:
+                if(!(var6 != var5)) { _fun0003_ip = 662; continue _fun0003 }
+ 645:
                 var9 = var7.setAudioDeviceModuleErrorCallback;
                 var5 = var1.handleAudioDeviceModuleErrorCallback;
                 var5 = var9.bind(var7)(var5);
- 630:
+ 662:
                 var9 = var7.setTransportOptions;
                 var5 = {'idleJitterBufferFlush': true, 'ducking': false};
                 var5 = var9.bind(var7)(var5);
                 var5 = var7.setNativeScreenSharePickerCallbacks;
-                if(!(var6 != var5)) { _fun0003_ip = 696; continue _fun0003 }
- 665:
+                if(!(var6 != var5)) { _fun0003_ip = 728; continue _fun0003 }
+ 697:
                 var12 = var7.setNativeScreenSharePickerCallbacks;
                 var11 = var1.handleNativeScreenSharePickerUpdate;
                 var9 = var1.handleNativeScreenSharePickerCancel;
                 var5 = var1.handleNativeScreenSharePickerError;
                 var5 = var12.bind(var7)(var11, var9, var5);
- 696:
+ 728:
                 var5 = var7.setVideoCodecErrorCallback;
-                if(!(var6 != var5)) { _fun0003_ip = 723; continue _fun0003 }
- 706:
+                if(!(var6 != var5)) { _fun0003_ip = 755; continue _fun0003 }
+ 738:
                 var9 = var7.setVideoCodecErrorCallback;
                 var5 = var1.handleVideoCodecErrorCallback;
                 var5 = var9.bind(var7)(var5);
- 723:
+ 755:
                 var5 = var7.setSystemMicrophoneModeChangeCallback;
-                if(!(var6 != var5)) { _fun0003_ip = 750; continue _fun0003 }
- 733:
+                if(!(var6 != var5)) { _fun0003_ip = 782; continue _fun0003 }
+ 765:
                 var9 = var7.setSystemMicrophoneModeChangeCallback;
                 var5 = var1.handleSystemMicrophoneModeChangeCallback;
                 var5 = var9.bind(var7)(var5);
- 750:
+ 782:
                 var11 = var1.on;
                 var9 = var1.handleRemoveListener;
                 var5 = 'removeListener';
@@ -819,8 +827,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var9.getVoiceEngine;
                 var5 = var5.bind(var9)();
                 var5 = var5.getAudioSubsystem;
-                if(!(var6 == var5)) { _fun0003_ip = 934; continue _fun0003 }
- 831:
+                if(!(var6 == var5)) { _fun0003_ip = 966; continue _fun0003 }
+ 863:
                 var9 = _closure1_slot0;
                 var5 = _closure1_slot2;
                 var5 = var5[var10];
@@ -828,8 +836,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var9.getVoiceEngine;
                 var5 = var5.bind(var9)();
                 var5 = var5.getUseLegacyAudioDevice;
-                if(!(var6 != var5)) { _fun0003_ip = 977; continue _fun0003 }
- 868:
+                if(!(var6 != var5)) { _fun0003_ip = 1009; continue _fun0003 }
+ 900:
                 var9 = _closure1_slot0;
                 var5 = _closure1_slot2;
                 var5 = var5[var10];
@@ -839,16 +847,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var9.getUseLegacyAudioDevice;
                 var5 = var5.bind(var9)();
                 var9 = _closure1_slot14;
-                if(var5) { _fun0003_ip = 920; continue _fun0003 }
- 912:
+                if(var5) { _fun0003_ip = 952; continue _fun0003 }
+ 944:
                 var5 = var9.STANDARD;
-                _fun0003_ip = 926; continue _fun0003;
- 920:
+                _fun0003_ip = 958; continue _fun0003;
+ 952:
                 var5 = var9.LEGACY;
- 926:
+ 958:
                 var1['audioSubsystem'] = var5;
-                _fun0003_ip = 977; continue _fun0003;
- 934:
+                _fun0003_ip = 1009; continue _fun0003;
+ 966:
                 var9 = _closure1_slot0;
                 var5 = _closure1_slot2;
                 var5 = var5[var10];
@@ -866,46 +874,46 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var5 = var9.bind(var10)(var5);
- 977:
+ 1009:
                 var5 = var7.pingVoiceThread;
                 var5 = var6 != var5;
-                if(!var5) { _fun0003_ip = 1006; continue _fun0003 }
- 990:
+                if(!var5) { _fun0003_ip = 1038; continue _fun0003 }
+ 1022:
                 var9 = var8.window;
                 var10 = 'undefined';
                 var9 = typeof var9;
                 var5 = var10 !== var9;
- 1006:
-                if(!var5) { _fun0003_ip = 1035; continue _fun0003 }
- 1009:
+ 1038:
+                if(!var5) { _fun0003_ip = 1067; continue _fun0003 }
+ 1041:
                 var8 = var8.window;
                 var8 = var8.GLOBAL_ENV;
                 var9 = var8.RELEASE_CHANNEL;
                 var8 = 'canary';
                 var5 = var8 === var9;
- 1035:
-                if(!var5) { _fun0003_ip = 1048; continue _fun0003 }
- 1038:
+ 1067:
+                if(!var5) { _fun0003_ip = 1080; continue _fun0003 }
+ 1070:
                 var5 = var1.watchdogTick;
                 var5 = var5.bind(var1)();
- 1048:
+ 1080:
                 var5 = var7.setActiveSinksChangeCallback;
-                if(!(var6 != var5)) { _fun0003_ip = 1075; continue _fun0003 }
- 1058:
+                if(!(var6 != var5)) { _fun0003_ip = 1107; continue _fun0003 }
+ 1090:
                 var8 = var7.setActiveSinksChangeCallback;
                 var5 = var1.handleActiveSinksChange;
                 var5 = var8.bind(var7)(var5);
- 1075:
+ 1107:
                 var5 = var7.setLoopbackPlaybackGainMultiplier;
-                if(!(var6 != var5)) { _fun0003_ip = 1100; continue _fun0003 }
- 1085:
+                if(!(var6 != var5)) { _fun0003_ip = 1132; continue _fun0003 }
+ 1117:
                 var8 = var7.setLoopbackPlaybackGainMultiplier;
                 var5 = _closure1_slot20;
                 var5 = var8.bind(var7)(var5);
- 1100:
+ 1132:
                 var5 = var7.setVoiceFiltersFailedCallback;
-                if(!(var6 != var5)) { _fun0003_ip = 1126; continue _fun0003 }
- 1110:
+                if(!(var6 != var5)) { _fun0003_ip = 1158; continue _fun0003 }
+ 1142:
                 var6 = var7.setVoiceFiltersFailedCallback;
                 var5 = function(arg1) {
                     var4 = _closure3_slot0;
@@ -923,7 +931,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var5 = var6.bind(var7)(var5);
- 1126:
+ 1158:
                 var5 = _closure1_slot1;
                 var6 = _closure1_slot2;
                 var4 = 16;

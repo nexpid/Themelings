@@ -320,7 +320,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = _closure1_slot12;
             var4 = var5.getCurrentHangStatus;
             var12 = var4.bind(var5)();
-            if(!(var6 != var12)) { _fun0002_ip = 1021; continue _fun0002 }
+            if(!(var6 != var12)) { _fun0002_ip = 1015; continue _fun0002 }
  803:
             var5 = _closure1_slot12;
             var4 = var5.getCustomHangStatus;
@@ -329,9 +329,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = _closure1_slot2;
             var4 = 25;
             var4 = var9[var4];
-            var4 = var5.bind(var1)(var4);
-            var9 = var4.HangStatusExperiment;
-            var5 = var9.getCurrentConfig;
+            var9 = var5.bind(var1)(var4);
+            var5 = var9.getHangStatusExperiment;
             var4 = {};
             var13 = _closure1_slot17;
             var11 = var13.getChannel;
@@ -341,10 +340,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var11.bind(var13)(var10);
             var13 = var6 == var11;
             var10 = undefined;
-            if(var13) { _fun0002_ip = 893; continue _fun0002 }
- 888:
+            if(var13) { _fun0002_ip = 887; continue _fun0002 }
+ 882:
             var10 = var11.guild_id;
- 893:
+ 887:
             var4['guildId'] = var10;
             var10 = 'LocalActivityStore';
             var4['location'] = var10;
@@ -365,20 +364,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4['state'] = var8;
             var9 = var6 == var7;
             var8 = undefined;
-            if(var9) { _fun0002_ip = 993; continue _fun0002 }
- 988:
+            if(var9) { _fun0002_ip = 987; continue _fun0002 }
+ 982:
             var8 = var7.status;
- 993:
+ 987:
             var4['details'] = var8;
             var8 = var6 == var7;
             var6 = undefined;
-            if(var8) { _fun0002_ip = 1012; continue _fun0002 }
- 1007:
+            if(var8) { _fun0002_ip = 1006; continue _fun0002 }
+ 1001:
             var6 = var7.emoji;
- 1012:
+ 1006:
             var4['emoji'] = var6;
             var4 = var5.bind(var3)(var4);
- 1021:
+ 1015:
             var5 = _closure1_slot1;
             var6 = _closure1_slot2;
             var4 = 26;
@@ -386,10 +385,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.bind(var1)(var4);
             var4 = _closure1_slot25;
             var4 = var5.bind(var1)(var4, var3);
-            if(var4) { _fun0002_ip = 1058; continue _fun0002 }
- 1054:
+            if(var4) { _fun0002_ip = 1052; continue _fun0002 }
+ 1048:
             _closure1_slot25 = var3;
- 1058:
+ 1052:
             return var1;
         }
     };

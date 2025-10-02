@@ -44,7 +44,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot4 = var8;
             var2 = var3.guildMember;
             var _closure2_slot5 = var2;
-            var10 = var3.profileEffectId;
+            var10 = var3.profileEffectSkuId;
             var _closure2_slot6 = var10;
             var4 = var3.type;
             var _closure2_slot7 = var4;
@@ -61,17 +61,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = null;
             var15 = var13 == var2;
             var14 = undefined;
-            if(var15) { _fun0001_ip = 139; continue _fun0001 }
- 133:
+            if(var15) { _fun0001_ip = 141; continue _fun0001 }
+ 135:
             var14 = var2.avatarDecoration;
- 139:
+ 141:
             var5[4] = var14;
             var13 = var13 == var12;
             var11 = undefined;
-            if(var13) { _fun0001_ip = 158; continue _fun0001 }
- 152:
+            if(var13) { _fun0001_ip = 160; continue _fun0001 }
+ 154:
             var11 = var12.avatarDecoration;
- 158:
+ 160:
             var5[5] = var11;
             var5[6] = var10;
             var5[7] = var4;

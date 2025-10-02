@@ -57,18 +57,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var3.pendingThemeColors;
             var1['theme_colors'] = var4;
  119:
-            var4 = var3.pendingProfileEffectId;
-            if(!(var5 !== var4)) { _fun0001_ip = 156; continue _fun0001 }
+            var4 = var3.pendingProfileEffect;
+            if(!(var5 !== var4)) { _fun0001_ip = 161; continue _fun0001 }
  129:
-            var4 = var3.pendingProfileEffectId;
+            var4 = var3.pendingProfileEffect;
             var4 = var2 != var4;
             var2 = null;
-            if(!var4) { _fun0001_ip = 150; continue _fun0001 }
+            if(!var4) { _fun0001_ip = 155; continue _fun0001 }
  144:
-            var2 = var3.pendingProfileEffectId;
- 150:
+            var3 = var3.pendingProfileEffect;
+            var2 = var3.id;
+ 155:
             var1['profile_effect_id'] = var2;
- 156:
+ 161:
             return var1;
         }
     };

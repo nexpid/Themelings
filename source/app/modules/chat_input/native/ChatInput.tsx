@@ -209,7 +209,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var8.bind(var9)(var4);
     var _closure1_slot31 = var4;
     var4 = {};
-    var8 = 'function ChatInputTsx1(){const{textFieldHeight}=this.__closure;return{height:textFieldHeight.get()};}';
+    var8 = 'function ChatInputTsx1(){const{textFieldHeight}=this.__closure;return{minHeight:textFieldHeight.get()};}';
     var4['code'] = var8;
     var _closure1_slot32 = var4;
     var4 = var7.forwardRef;
@@ -586,13 +586,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = _closure2_slot4;
                 var2 = var3.get;
                 var2 = var2.bind(var3)();
-                var1['height'] = var2;
+                var1['minHeight'] = var2;
                 return var1;
             };
             var20 = {};
             var20['textFieldHeight'] = var16;
             var6['__closure'] = var20;
-            var20 = 9294501099507.0;
+            var20 = 11048691841625.0;
             var6['__workletHash'] = var20;
             var20 = _closure1_slot32;
             var6['__initData'] = var20;

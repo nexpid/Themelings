@@ -37,7 +37,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 702; continue _fun0001 }
+                    if(var2) { _fun0001_ip = 704; continue _fun0001 }
  10:
                     var14 = arg1;
                     var16 = arg2;
@@ -135,7 +135,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var2;
  332:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=6);
-                    if(var7) { _fun0001_ip = 597; continue _fun0001 }
+                    if(var7) { _fun0001_ip = 599; continue _fun0001 }
  341:
                     var4 = var2;
                     var7 = var2.ok;
@@ -165,7 +165,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7['errors'] = var16;
                     var7['apiError'] = var15;
                     var7 = var13.bind(var14)(var7);
-                    _fun0001_ip = 594; continue _fun0001;
+                    _fun0001_ip = 596; continue _fun0001;
  458:
                     var7 = var4;
                     var7 = var7.body;
@@ -204,11 +204,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var21 = var6;
                     var9 = copyDataProperties(var21, var20);
                     var6 = var7.bind(var8)(var6);
- 594: // try_end0
+ 596: // try_end0
                     return var4;
- 597:
+ 599:
                     return var2;
- 600: // catch_target0
+ 602: // catch_target0
                     CatchBlockStart(arg_register=1);
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot2;
@@ -235,7 +235,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3['apiError'] = var6;
                     var3 = var4.bind(var5)(var3);
                     return var2;
- 702:
+ 704:
                     return var1;
                 }
             };
@@ -268,7 +268,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var _closure1_slot14 = var6;
-    var4 = function fetchApplicationWidgetApplicationIds() {
+    var4 = function fetchApplicationWidgetApplicationConfigs() {
         var1 = undefined;
         var4 = _closure1_slot16;
         var3 = var4.apply;
@@ -279,7 +279,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var _closure1_slot15 = var4;
-    var1 = function _fetchApplicationWidgetApplicationIds() {
+    var1 = function _fetchApplicationWidgetApplicationConfigs() {
         var5 = undefined;
         var1 = undefined;
         var4 = _closure1_slot3;
@@ -289,18 +289,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0002_ip = 295; continue _fun0002 }
+                    if(var2) { _fun0002_ip = 297; continue _fun0002 }
  10:
                     var2 = _closure1_slot5;
-                    var3 = var2.applicationWidgetApplicationIds;
+                    var3 = var2.applicationWidgetApplicationConfigs;
                     var2 = null;
                     if(!(var2 != var3)) { _fun0002_ip = 53; continue _fun0002 }
  29:
                     var2 = _closure1_slot5;
-                    var2 = var2.applicationWidgetApplicationIds;
+                    var2 = var2.applicationWidgetApplicationConfigs;
                     var3 = var2.length;
                     var2 = 0;
-                    if(!(!(var3 > var2))) { _fun0002_ip = 290; continue _fun0002 }
+                    if(!(!(var3 > var2))) { _fun0002_ip = 292; continue _fun0002 }
  53:
                     var4 = _closure1_slot1;
                     var2 = _closure1_slot2;
@@ -310,7 +310,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = var4.bind(var5)(var2);
                     var4 = var7.dispatch;
                     var2 = {};
-                    var8 = 'USER_PROFILE_APPLICATION_WIDGET_APPLICATION_IDS_FETCH_START';
+                    var8 = 'USER_PROFILE_APPLICATION_WIDGET_APPLICATION_CONFIGS_FETCH_START';
                     var2['type'] = var8;
                     var2 = var4.bind(var7)(var2);
  97: // try_start_0
@@ -333,7 +333,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var2;
  158:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0002_ip = 221; continue _fun0002 }
+                    if(var4) { _fun0002_ip = 223; continue _fun0002 }
  164:
                     var7 = _closure1_slot1;
                     var4 = _closure1_slot2;
@@ -341,17 +341,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = var7.bind(var5)(var4);
                     var7 = var8.dispatch;
                     var4 = {};
-                    var9 = 'USER_PROFILE_APPLICATION_WIDGET_APPLICATION_IDS_FETCH_SUCCESS';
+                    var9 = 'USER_PROFILE_APPLICATION_WIDGET_APPLICATION_CONFIGS_FETCH_SUCCESS';
                     var4['type'] = var9;
                     var9 = var2.body;
-                    var9 = var9.application_ids;
-                    var4['applicationIds'] = var9;
+                    var9 = var9.application_configs;
+                    var4['applicationConfigs'] = var9;
                     var4 = var7.bind(var8)(var4);
- 219: // try_end0
-                    _fun0002_ip = 290; continue _fun0002;
- 221:
+ 221: // try_end0
+                    _fun0002_ip = 292; continue _fun0002;
+ 223:
                     return var2;
- 224: // catch_target0
+ 226: // catch_target0
                     CatchBlockStart(arg_register=1);
                     var4 = _closure1_slot1;
                     var6 = _closure1_slot2;
@@ -359,7 +359,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = var4.bind(var5)(var3);
                     var7 = var8.dispatch;
                     var3 = {};
-                    var9 = 'USER_PROFILE_APPLICATION_WIDGET_APPLICATION_IDS_FETCH_FAILURE';
+                    var9 = 'USER_PROFILE_APPLICATION_WIDGET_APPLICATION_CONFIGS_FETCH_FAILURE';
                     var3['type'] = var9;
                     var3 = var7.bind(var8)(var3);
                     var3 = 12;
@@ -368,10 +368,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var4.captureException;
                     var3 = var3.bind(var4)(var2);
                     throw var2;
- 290:
+ 292:
                     var2 = undefined;
                     return var2;
- 295:
+ 297:
                     return var1;
                 }
             };
@@ -433,13 +433,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = {};
     var13 = function queryId() {
         var1 = _closure1_slot9;
-        var1 = var1.APPLICATION_WIDGET_APPLICATION_IDS;
+        var1 = var1.APPLICATION_WIDGET_APPLICATION_CONFIGS;
         return var1;
     };
     var2['queryId'] = var13;
     var13 = function get() {
         var1 = _closure1_slot5;
-        var1 = var1.applicationWidgetApplicationIds;
+        var1 = var1.applicationWidgetApplicationConfigs;
         return var1;
     };
     var2['get'] = var13;
@@ -705,10 +705,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var4.bind(var1)(var3);
         var4 = var5.dispatch;
         var3 = {};
-        var6 = 'USER_SETTINGS_ACCOUNT_SET_TRY_IT_OUT_PROFILE_EFFECT_ID';
+        var6 = 'USER_SETTINGS_ACCOUNT_SET_TRY_IT_OUT_PROFILE_EFFECT';
         var3['type'] = var6;
         var6 = arg1;
-        var3['profileEffectId'] = var6;
+        var3['profileEffect'] = var6;
         var3 = var4.bind(var5)(var3);
         var3 = _closure1_slot12;
         var2 = _closure1_slot11;
@@ -781,7 +781,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['setTryItOutPreset'] = var5;
-    var3['fetchApplicationWidgetApplicationIds'] = var4;
-    var3['useApplicationWidgetApplicationIds'] = var2;
+    var3['fetchApplicationWidgetApplicationConfigs'] = var4;
+    var3['useApplicationWidgetApplicationConfigs'] = var2;
     return var1;
 })();

@@ -77,8 +77,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
     var _closure1_slot7 = var2;
-    var4 = {'sidebarWidth': 420, 'lastOpenTabId': null, 'displayTools': false, 'showDevWidget': false};
-    var2 = 420;
+    var4 = {'sidebarWidth': 460, 'lastOpenTabId': null, 'displayTools': false, 'showDevWidget': false};
+    var2 = 460;
     var8 = {'x': 0, 'y': 0};
     var4['devWidgetPosition'] = var8;
     var8 = new Array(0);

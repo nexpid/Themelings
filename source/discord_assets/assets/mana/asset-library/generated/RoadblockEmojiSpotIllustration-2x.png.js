@@ -18,10 +18,10 @@ module.exports = (function(global, require, metroImportDefault, metroImportAll, 
     var4 = var5.fileFinishedImporting;
     var2 = '../discord_assets/assets/mana/asset-library/generated/RoadblockEmojiSpotIllustration-2x.png.js';
     var2 = var4.bind(var5)(var2);
-    var2 = 'https://cdn.discordapp.com/assets/content/2ac76482b1042b875dbb0da50336333d8934b4ba28cd02d98c2dc683e7cce6c3.png';
+    var2 = 'https://cdn.discordapp.com/assets/content/2e7f9eb6e940e386df7481c4325732cb0fe6291b799069fb33afdf244a8c7ec6.png';
     var3['default'] = var2;
     var2 = {};
-    var4 = 91851;
+    var4 = 91853;
     var2['fileBytes'] = var4;
     var3['metadata'] = var2;
     return var1;

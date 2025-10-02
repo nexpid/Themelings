@@ -417,7 +417,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.radii;
-    var13 = var13.lg;
+    var13 = var13.md;
     var9['borderRadius'] = var13;
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);

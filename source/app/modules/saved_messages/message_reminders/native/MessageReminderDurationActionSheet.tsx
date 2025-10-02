@@ -1,11 +1,11 @@
 // app/modules/saved_messages/message_reminders/native/MessageReminderDurationActionSheet.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var12 = metroImportDefault;
+    var11 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var12;
+    var _closure1_slot1 = var11;
     var _closure1_slot2 = var6;
     var1 = global;
     var8 = var1.Object;
@@ -18,7 +18,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = 0;
     var4 = var6[var1];
     var1 = undefined;
-    var4 = var12.bind(var1)(var4);
+    var4 = var11.bind(var1)(var4);
     var _closure1_slot3 = var4;
     var4 = 1;
     var7 = var6[var4];
@@ -32,7 +32,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot5 = var4;
     var4 = 3;
     var4 = var6[var4];
-    var4 = var12.bind(var1)(var4);
+    var4 = var11.bind(var1)(var4);
     var _closure1_slot6 = var4;
     var4 = 4;
     var4 = var6[var4];
@@ -41,24 +41,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot7 = var4;
     var4 = 5;
     var4 = var6[var4];
-    var9 = var5.bind(var1)(var4);
-    var8 = var9.createStyles;
-    var7 = {};
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
     var4 = {};
+    var9 = {};
     var10 = 28;
-    var4['marginHorizontal'] = var10;
-    var7['durationsContainer'] = var4;
-    var10 = {'flexDirection': 'row', 'paddingVertical': 20, 'alignItems': 'center', 'borderColor': null, 'borderBottomWidth': 1};
-    var4 = 20;
-    var11 = 6;
-    var11 = var6[var11];
-    var11 = var12.bind(var1)(var11);
-    var11 = var11.colors;
-    var11 = var11.BORDER_SUBTLE;
-    var10['borderColor'] = var11;
-    var7['duration'] = var10;
-    var7 = var8.bind(var9)(var7);
-    var _closure1_slot8 = var7;
+    var9['marginHorizontal'] = var10;
+    var4['durationsContainer'] = var9;
+    var9 = {'flexDirection': 'row', 'paddingVertical': 20, 'alignItems': 'center', 'borderColor': null, 'borderBottomWidth': 1};
+    var10 = 6;
+    var10 = var6[var10];
+    var10 = var11.bind(var1)(var10);
+    var10 = var10.colors;
+    var10 = var10.BORDER_SUBTLE;
+    var9['borderColor'] = var10;
+    var4['duration'] = var9;
+    var4 = var7.bind(var8)(var4);
+    var _closure1_slot8 = var4;
+    var4 = 21;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -189,58 +189,61 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[0] = var13;
             var6[1] = var3;
             var3 = function() {
-                var4 = _closure1_slot7;
-                var12 = _closure1_slot0;
-                var13 = _closure1_slot2;
-                var1 = 10;
-                var1 = var13[var1];
-                var3 = undefined;
-                var1 = var12.bind(var3)(var1);
-                var2 = var1.BottomSheetTitleHeader;
-                var1 = {};
-                var9 = 11;
-                var5 = var13[var9];
-                var5 = var12.bind(var3)(var5);
-                var7 = var5.intl;
-                var6 = var7.string;
-                var5 = var13[var9];
-                var5 = var12.bind(var3)(var5);
-                var5 = var5.t;
-                var5 = var5.roMu1N;
-                var5 = var6.bind(var7)(var5);
-                var1['title'] = var5;
-                var5 = _closure2_slot7;
-                var1['subtitle'] = var5;
-                var5 = 12;
-                var5 = var13[var5];
-                var5 = var12.bind(var3)(var5);
-                var6 = var5.PressableOpacity;
-                var5 = {};
-                var8 = 'button';
-                var5['accessibilityRole'] = var8;
-                var7 = _closure2_slot4;
-                var5['onPress'] = var7;
-                var7 = 13;
-                var7 = var13[var7];
-                var7 = var12.bind(var3)(var7);
-                var8 = var7.Text;
-                var7 = {'variant': 'text-md/semibold', 'color': 'control-brand-foreground'};
-                var10 = var13[var9];
-                var10 = var12.bind(var3)(var10);
-                var11 = var10.intl;
-                var10 = var11.string;
-                var9 = var13[var9];
-                var9 = var12.bind(var3)(var9);
-                var9 = var9.t;
-                var9 = var9.13/7kZ;
-                var9 = var10.bind(var11)(var9);
-                var7['children'] = var9;
-                var7 = var4.bind(var3)(var8, var7);
-                var5['children'] = var7;
-                var5 = var4.bind(var3)(var6, var5);
-                var1['leading'] = var5;
-                var1 = var4.bind(var3)(var2, var1);
-                return var1;
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+ 0:
+                    var4 = _closure1_slot7;
+                    var9 = _closure1_slot0;
+                    var5 = _closure1_slot2;
+                    var1 = 10;
+                    var1 = var5[var1];
+                    var3 = undefined;
+                    var1 = var9.bind(var3)(var1);
+                    var2 = var1.BottomSheetTitleHeader;
+                    var1 = {};
+                    var13 = 11;
+                    var7 = var5[var13];
+                    var7 = var9.bind(var3)(var7);
+                    var8 = var7.intl;
+                    var7 = var8.string;
+                    var5 = var5[var13];
+                    var5 = var9.bind(var3)(var5);
+                    var5 = var5.t;
+                    var5 = var5.roMu1N;
+                    var5 = var7.bind(var8)(var5);
+                    var1['title'] = var5;
+                    var5 = _closure2_slot7;
+                    var1['subtitle'] = var5;
+                    var7 = _closure2_slot4;
+                    var5 = null;
+                    var5 = var5 != var7;
+                    if(!var5) { _fun0002_ip = 209; continue _fun0002 }
+ 115:
+                    var8 = _closure1_slot7;
+                    var12 = _closure1_slot0;
+                    var9 = _closure1_slot2;
+                    var6 = 12;
+                    var6 = var9[var6];
+                    var6 = var12.bind(var3)(var6);
+                    var7 = var6.ActionSheetHeaderPressableText;
+                    var6 = {};
+                    var10 = _closure2_slot4;
+                    var6['onPress'] = var10;
+                    var10 = var9[var13];
+                    var10 = var12.bind(var3)(var10);
+                    var11 = var10.intl;
+                    var10 = var11.string;
+                    var9 = var9[var13];
+                    var9 = var12.bind(var3)(var9);
+                    var9 = var9.t;
+                    var9 = var9.13/7kZ;
+                    var9 = var10.bind(var11)(var9);
+                    var6['label'] = var9;
+                    var5 = var8.bind(var3)(var7, var6);
+ 209:
+                    var1['leading'] = var5;
+                    var1 = var4.bind(var3)(var2, var1);
+                    return var1;
+                }
             };
             var6 = var7.bind(var10)(var3, var6);
             var7 = var10.useMemo;
@@ -250,11 +253,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var8.duration;
             var3[2] = var11;
             var1 = function() {
-                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
                     var19 = _closure1_slot0;
                     var16 = _closure1_slot2;
-                    var1 = 14;
+                    var1 = 13;
                     var1 = var16[var1];
                     var7 = undefined;
                     var1 = var19.bind(var7)(var1);
@@ -268,7 +271,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var5 = _closure1_slot7;
                         var7 = _closure1_slot0;
                         var8 = _closure1_slot2;
-                        var2 = 12;
+                        var2 = 14;
                         var2 = var8[var2];
                         var4 = undefined;
                         var2 = var7.bind(var4)(var2);
@@ -297,7 +300,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             return var1;
                         };
                         var2['onPress'] = var6;
-                        var6 = 13;
+                        var6 = 16;
                         var6 = var8[var6];
                         var6 = var7.bind(var4)(var6);
                         var7 = var6.Text;
@@ -318,7 +321,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var2.bind(var3)(var1);
                     var6 = var1.push;
                     var14 = _closure1_slot7;
-                    var4 = 12;
+                    var4 = 14;
                     var2 = var16[var4];
                     var2 = var19.bind(var7)(var2);
                     var12 = var2.PressableOpacity;
@@ -348,15 +351,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var5 = var3.bind(var1)(var2);
                         var2 = var5.hideActionSheet;
                         var2 = var2.bind(var5)();
-                        var2 = 16;
+                        var2 = 17;
                         var5 = var8[var2];
                         var7 = var3.bind(var1)(var5);
                         var6 = var7.pushLazy;
                         var5 = _closure1_slot0;
-                        var4 = 18;
+                        var4 = 19;
                         var4 = var8[var4];
                         var9 = var5.bind(var1)(var4);
-                        var4 = 17;
+                        var4 = 18;
                         var5 = var8[var4];
                         var4 = var8.paths;
                         var5 = var9.bind(var1)(var5, var4);
@@ -380,7 +383,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     };
                     var9['onPress'] = var2;
-                    var2 = 13;
+                    var2 = 16;
                     var3 = var16[var2];
                     var3 = var19.bind(var7)(var3);
                     var15 = var3.Text;
@@ -402,7 +405,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var6.bind(var1)(var3);
                     var6 = _closure2_slot1;
                     var3 = null;
-                    if(!(var3 != var6)) { _fun0002_ip = 499; continue _fun0002 }
+                    if(!(var3 != var6)) { _fun0003_ip = 499; continue _fun0003 }
  285:
                     var3 = var1.push;
                     var6 = _closure1_slot7;
@@ -465,7 +468,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var7 = var7.bind(var10)(var1, var3);
             var3 = _closure1_slot7;
-            var1 = 19;
+            var1 = 20;
             var1 = var9[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.BottomSheet;

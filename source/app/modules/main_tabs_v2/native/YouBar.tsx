@@ -1000,19 +1000,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = _closure1_slot21;
             var2 = _closure1_slot6;
             var21 = null;
-            if(!(var21 != var5)) { _fun0006_ip = 1073; continue _fun0006 }
+            if(!(var21 != var5)) { _fun0006_ip = 1087; continue _fun0006 }
  503:
-            if(!(var21 != var1)) { _fun0006_ip = 1073; continue _fun0006 }
+            if(!(var21 != var1)) { _fun0006_ip = 1087; continue _fun0006 }
  510:
             var1 = {};
             var5 = var12.youButton;
             var1['style'] = var5;
             var7 = _closure1_slot20;
-            var28 = _closure1_slot0;
-            var29 = _closure1_slot2;
-            var25 = 16;
-            var5 = var29[var25];
-            var5 = var28.bind(var4)(var5);
+            var29 = _closure1_slot0;
+            var30 = _closure1_slot2;
+            var26 = 16;
+            var5 = var30[var26];
+            var5 = var29.bind(var4)(var5);
             var6 = var5.TransitionGroup;
             var5 = {};
             var5['items'] = var9;
@@ -1058,23 +1058,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9['style'] = var14;
             var16 = _closure1_slot20;
             var17 = 18;
-            var14 = var29[var17];
-            var14 = var28.bind(var4)(var14);
+            var14 = var30[var17];
+            var14 = var29.bind(var4)(var14);
             var15 = var14.Text;
             var14 = {'variant': 'heading-md/bold', 'color': 'header-primary', 'lineClamp': 1, 'maxFontSizeMultiplier': 1.75, 'style': null, 'children': 'Disquird'};
+            var25 = 1;
             var18 = {};
-            var26 = 0;
-            var18['opacity'] = var26;
-            var27 = 19;
-            var27 = var29[var27];
-            var28 = var28.bind(var4)(var27);
-            var27 = var28.isAndroid;
-            var27 = var27.bind(var28)();
-            if(!var27) { _fun0006_ip = 696; continue _fun0006 }
- 693:
-            var26 = 2;
+            var27 = 0;
+            var18['opacity'] = var27;
+            var28 = 19;
+            var28 = var30[var28];
+            var29 = var29.bind(var4)(var28);
+            var28 = var29.isAndroid;
+            var28 = var28.bind(var29)();
+            if(!var28) { _fun0006_ip = 699; continue _fun0006 }
  696:
-            var18['paddingBottom'] = var26;
+            var27 = 2;
+ 699:
+            var18['paddingBottom'] = var27;
             var14['style'] = var18;
             var15 = var16.bind(var4)(var15, var14);
             var14 = new Array(2);
@@ -1082,7 +1083,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var18 = _closure1_slot20;
             var16 = _closure1_slot0;
             var15 = _closure1_slot2;
-            var15 = var15[var25];
+            var15 = var15[var26];
             var15 = var16.bind(var4)(var15);
             var16 = var15.TransitionGroup;
             var15 = {};
@@ -1107,57 +1108,60 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13['style'] = var16;
             var18 = var21 == var22;
             var16 = undefined;
-            if(var18) { _fun0006_ip = 838; continue _fun0006 }
- 833:
+            if(var18) { _fun0006_ip = 841; continue _fun0006 }
+ 836:
             var16 = var22.emoji;
- 838:
+ 841:
             var16 = var21 != var16;
             var18 = null;
-            if(!var16) { _fun0006_ip = 902; continue _fun0006 }
- 847:
+            if(!var16) { _fun0006_ip = 905; continue _fun0006 }
+ 850:
             var20 = _closure1_slot20;
             var19 = _closure1_slot1;
-            var26 = _closure1_slot2;
+            var27 = _closure1_slot2;
             var16 = 30;
-            var16 = var26[var16];
+            var16 = var27[var16];
             var19 = var19.bind(var4)(var16);
             var16 = {};
-            var16['size'] = var25;
-            var25 = var12.statusEmoji;
-            var16['style'] = var25;
-            var25 = var22.emoji;
-            var16['emoji'] = var25;
+            var16['size'] = var26;
+            var26 = var12.statusEmoji;
+            var16['style'] = var26;
+            var26 = var22.emoji;
+            var16['emoji'] = var26;
             var18 = var20.bind(var4)(var19, var16);
- 902:
+ 905:
             var16 = new Array(2);
             var16[0] = var18;
             var19 = _closure1_slot20;
-            var25 = _closure1_slot0;
+            var26 = _closure1_slot0;
             var20 = _closure1_slot2;
             var17 = var20[var17];
-            var17 = var25.bind(var4)(var17);
+            var17 = var26.bind(var4)(var17);
             var18 = var17.Text;
             var17 = {'variant': 'text-xs/medium', 'color': 'text-normal', 'lineClamp': 1, 'ellipsizeMode': 'tail', 'accessibilityHint': null, 'maxFontSizeMultiplier': 1.75};
             var20 = var20[var24];
-            var25 = var25.bind(var4)(var20);
-            var20 = var25.humanizeStatus;
-            var20 = var20.bind(var25)(var23);
+            var26 = var26.bind(var4)(var20);
+            var20 = var26.humanizeStatus;
+            var20 = var20.bind(var26)(var23);
             var17['accessibilityHint'] = var20;
+            var20 = {};
+            var20['flexShrink'] = var25;
+            var17['style'] = var20;
             var25 = var21 == var22;
             var20 = undefined;
-            if(var25) { _fun0006_ip = 990; continue _fun0006 }
- 985:
+            if(var25) { _fun0006_ip = 1004; continue _fun0006 }
+ 999:
             var20 = var22.state;
- 990:
-            if(!(var21 == var20)) { _fun0006_ip = 1022; continue _fun0006 }
- 994:
+ 1004:
+            if(!(var21 == var20)) { _fun0006_ip = 1036; continue _fun0006 }
+ 1008:
             var22 = _closure1_slot0;
             var21 = _closure1_slot2;
             var21 = var21[var24];
             var22 = var22.bind(var4)(var21);
             var21 = var22.humanizeStatus;
             var20 = var21.bind(var22)(var23);
- 1022:
+ 1036:
             var17['children'] = var20;
             var17 = var19.bind(var4)(var18, var17);
             var16[1] = var17;
@@ -1168,8 +1172,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var8.bind(var4)(var7, var6);
             var5[1] = var6;
             var1['children'] = var5;
-            _fun0006_ip = 1218; continue _fun0006;
- 1073:
+            _fun0006_ip = 1232; continue _fun0006;
+ 1087:
             var5 = {};
             var6 = var12.youButton;
             var5['style'] = var6;
@@ -1205,7 +1209,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[1] = var7;
             var5['children'] = var6;
             var1 = var5;
- 1218:
+ 1232:
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

@@ -57,6 +57,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var _closure1_slot18 = var4;
+    var5 = function reset() {
+        var2 = _closure1_slot18;
+        var1 = undefined;
+        var2 = var2.bind(var1)();
+        _closure1_slot16 = var2;
+        return var1;
+    };
     var1 = function handleRunningGameStoreChange() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
@@ -99,13 +106,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var _closure1_slot19 = var1;
     var1 = global;
-    var10 = var1.Object;
-    var9 = var10.defineProperty;
+    var11 = var1.Object;
+    var9 = var11.defineProperty;
     var2 = {};
     var1 = true;
     var2['value'] = var1;
     var1 = '__esModule';
-    var1 = var9.bind(var10)(var3, var1, var2);
+    var1 = var9.bind(var11)(var3, var1, var2);
     var1 = 0;
     var2 = var7[var1];
     var1 = undefined;
@@ -134,8 +141,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = 6;
     var9 = var7[var2];
     var9 = var6.bind(var1)(var9);
-    var10 = var9.HangStatusTypes;
-    var _closure1_slot9 = var10;
+    var11 = var9.HangStatusTypes;
+    var _closure1_slot9 = var11;
     var9 = var9.SYSTEM_HANG_STATUS_TYPES;
     var _closure1_slot10 = var9;
     var9 = 7;
@@ -400,7 +407,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['displayName'] = var4;
     var9['persistKey'] = var4;
     var4 = new Array(3);
-    var10 = function(arg1) {
+    var11 = function(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
             var2 = arg1;
@@ -429,8 +436,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var4[0] = var10;
-    var10 = function(arg1) {
+    var4[0] = var11;
+    var11 = function(arg1) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
             var1 = arg1;
@@ -443,8 +450,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var4[1] = var10;
-    var10 = function(arg1) {
+    var4[1] = var11;
+    var11 = function(arg1) {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
             var1 = arg1;
@@ -465,21 +472,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var4[2] = var10;
+    var4[2] = var11;
     var9['migrations'] = var4;
     var4 = 14;
     var4 = var7[var4];
-    var13 = var8.bind(var1)(var4);
+    var14 = var8.bind(var1)(var4);
     var4 = {};
-    var10 = function reset() {
-        var2 = _closure1_slot18;
-        var1 = undefined;
-        var2 = var2.bind(var1)();
-        _closure1_slot16 = var2;
-        return var1;
-    };
-    var4['LOGOUT'] = var10;
-    var10 = function handleSetHangStatus(arg1) {
+    var4['LOGOUT'] = var5;
+    var11 = function handleSetHangStatus(arg1) {
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
  0:
             var1 = arg1;
@@ -535,11 +535,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             if(!(!(var8 >= var4))) { _fun0010_ip = 174; continue _fun0010 }
  142:
             var7 = var9.length;
-            var4 = 13;
+            var4 = 7;
             if(!(var4 === var7)) { _fun0010_ip = 189; continue _fun0010 }
  154:
             var10 = var9.splice;
-            var7 = 12;
+            var7 = 6;
             var4 = 1;
             var4 = var10.bind(var9)(var7, var4);
             _fun0010_ip = 189; continue _fun0010;
@@ -572,9 +572,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = _closure1_slot2;
             var2 = 10;
             var2 = var5[var2];
-            var2 = var4.bind(var1)(var2);
-            var5 = var2.HangStatusExperiment;
-            var4 = var5.getCurrentConfig;
+            var5 = var4.bind(var1)(var2);
+            var4 = var5.getHangStatusExperiment;
             var2 = {};
             var2['guildId'] = var6;
             var6 = 'UpdateHangStatus';
@@ -599,8 +598,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var4['UPDATE_HANG_STATUS'] = var10;
-    var10 = function handleSetCustomHangStatus(arg1) {
+    var4['UPDATE_HANG_STATUS'] = var11;
+    var11 = function handleSetCustomHangStatus(arg1) {
         _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
  0:
             var1 = arg1;
@@ -663,11 +662,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             if(!(!(var7 >= var5))) { _fun0012_ip = 143; continue _fun0012 }
  111:
             var6 = var8.length;
-            var5 = 13;
+            var5 = 7;
             if(!(var5 === var6)) { _fun0012_ip = 158; continue _fun0012 }
  123:
             var9 = var8.splice;
-            var6 = 12;
+            var6 = 6;
             var5 = 1;
             var5 = var9.bind(var8)(var6, var5);
             _fun0012_ip = 158; continue _fun0012;
@@ -712,8 +711,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var4['UPDATE_HANG_STATUS_CUSTOM'] = var10;
-    var10 = function handleSetGameActivityHangStatus(arg1) {
+    var4['UPDATE_HANG_STATUS_CUSTOM'] = var11;
+    var11 = function handleSetGameActivityHangStatus(arg1) {
         _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
  0:
             var1 = arg1;
@@ -740,8 +739,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var4['UPDATE_HANG_STATUS_GAME_ACTIVITY'] = var10;
-    var10 = function handleDeleteInvalidHangStatus(arg1) {
+    var4['UPDATE_HANG_STATUS_GAME_ACTIVITY'] = var11;
+    var11 = function handleDeleteInvalidHangStatus(arg1) {
         var1 = arg1;
         var6 = var1.statuses;
         var2 = _closure1_slot16;
@@ -906,8 +905,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = undefined;
         return var1;
     };
-    var4['DELETE_INVALID_HANG_STATUSES'] = var10;
-    var10 = function handleClearHangStatus(arg1) {
+    var4['DELETE_INVALID_HANG_STATUSES'] = var11;
+    var11 = function handleClearHangStatus(arg1) {
         _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
  0:
             var1 = arg1;
@@ -927,8 +926,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var4['CLEAR_HANG_STATUS'] = var10;
-    var5 = function handleFavoriteHangStatus(arg1) {
+    var4['CLEAR_HANG_STATUS'] = var11;
+    var10 = function handleFavoriteHangStatus(arg1) {
         _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
  0:
             var1 = arg1;
@@ -1022,12 +1021,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var4['UPDATE_FAVORITE_HANG_STATUS'] = var5;
+    var4['UPDATE_FAVORITE_HANG_STATUS'] = var10;
+    var4['RESET_HANG_STATUS_STATE'] = var5;
     var5 = var9.prototype;
     var5 = Object.create(var5, {constructor: {value: var9}});
-    var14 = var5;
-    var12 = var4;
-    var4 = new var14[var9](var13, var12, var11);
+    var15 = var5;
+    var13 = var4;
+    var4 = new var15[var9](var14, var13, var12);
     var4 = var4 instanceof Object ? var4 : var5;
     var5 = 15;
     var5 = var7[var5];

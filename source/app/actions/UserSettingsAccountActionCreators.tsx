@@ -748,7 +748,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['setGlobalPendingNameplate'] = var4;
-    var4 = function setPendingProfileEffectId(arg1) {
+    var4 = function setPendingProfileEffect(arg1) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
         var1 = 3;
@@ -757,14 +757,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
         var2 = {};
-        var5 = 'USER_SETTINGS_ACCOUNT_SET_PENDING_PROFILE_EFFECT_ID';
+        var5 = 'USER_SETTINGS_ACCOUNT_SET_PENDING_PROFILE_EFFECT';
         var2['type'] = var5;
         var5 = arg1;
-        var2['profileEffectId'] = var5;
+        var2['profileEffect'] = var5;
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var3['setPendingProfileEffectId'] = var4;
+    var3['setPendingProfileEffect'] = var4;
     var4 = function setPendingPrimaryGuildId(arg1) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;

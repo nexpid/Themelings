@@ -1,0 +1,156 @@
+// app/modules/user_settings/native/defs/ExperimentOverrideActiveSetting.tsx
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var8 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = function useExperimentOverrideActiveCount() {
+        var6 = _closure1_slot0;
+        var7 = _closure1_slot1;
+        var4 = 5;
+        var2 = var7[var4];
+        var5 = undefined;
+        var10 = var6.bind(var5)(var2);
+        var9 = var10.useStateFromStores;
+        var2 = _closure1_slot2;
+        var8 = new Array(1);
+        var8[0] = var2;
+        var2 = function() {
+            var1 = global;
+            var3 = var1.Object;
+            var2 = var3.keys;
+            var4 = _closure1_slot2;
+            var1 = var4.getAllExperimentOverrideDescriptors;
+            var1 = var1.bind(var4)();
+            var1 = var2.bind(var3)(var1);
+            var1 = var1.length;
+            return var1;
+        };
+        var2 = var9.bind(var10)(var8, var2);
+        var4 = var7[var4];
+        var5 = var6.bind(var5)(var4);
+        var4 = var5.useStateFromStores;
+        var6 = _closure1_slot3;
+        var3 = new Array(1);
+        var3[0] = var6;
+        var1 = function() {
+            var1 = global;
+            var3 = var1.Object;
+            var2 = var3.keys;
+            var4 = _closure1_slot3;
+            var1 = var4.getClientOverrides;
+            var1 = var1.bind(var4)();
+            var1 = var2.bind(var3)(var1);
+            var1 = var1.length;
+            return var1;
+        };
+        var1 = var4.bind(var5)(var3, var1);
+        var1 = var2 + var1;
+        return var1;
+    };
+    var _closure1_slot5 = var1;
+    var1 = global;
+    var10 = var1.Object;
+    var9 = var10.defineProperty;
+    var2 = {};
+    var4 = true;
+    var2['value'] = var4;
+    var1 = '__esModule';
+    var1 = var9.bind(var10)(var3, var1, var2);
+    var1 = 0;
+    var2 = var6[var1];
+    var1 = undefined;
+    var2 = var8.bind(var1)(var2);
+    var _closure1_slot2 = var2;
+    var2 = 1;
+    var2 = var6[var2];
+    var2 = var8.bind(var1)(var2);
+    var _closure1_slot3 = var2;
+    var2 = 2;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var8 = var2.RendererType;
+    var2 = 3;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var2 = var2.jsx;
+    var _closure1_slot4 = var2;
+    var2 = {'type': null, 'title': 'Experiments Overrides Active', 'parent': null};
+    var8 = var8.PRESSABLE;
+    var2['type'] = var8;
+    var8 = 8;
+    var8 = var6[var8];
+    var8 = var5.bind(var1)(var8);
+    var8 = var8.BeakerIcon;
+    var2['IconComponent'] = var8;
+    var8 = function useExperimentOverrideActiveDescription() {
+        var2 = _closure1_slot5;
+        var4 = undefined;
+        var6 = var2.bind(var4)();
+        var3 = _closure1_slot4;
+        var2 = _closure1_slot0;
+        var5 = _closure1_slot1;
+        var1 = 6;
+        var1 = var5[var1];
+        var1 = var2.bind(var4)(var1);
+        var2 = var1.DevToolsContentSubLabel;
+        var1 = {};
+        var5 = 'Experiments overridden: ';
+        var1['label'] = var5;
+        var5 = var6.toString;
+        var5 = var5.bind(var6)();
+        var1['value'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
+    };
+    var2['useDescription'] = var8;
+    var8 = function useHasExperimentOverrideActive() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+ 0:
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var2 = 7;
+            var2 = var3[var2];
+            var3 = undefined;
+            var4 = var4.bind(var3)(var2);
+            var2 = var4.useStaffOrDeveloperSettingPredicate;
+            var2 = var2.bind(var4)();
+            var1 = _closure1_slot5;
+            var3 = var1.bind(var3)();
+            var1 = 0;
+            var1 = var3 > var1;
+            if(!var1) { _fun0001_ip = 55; continue _fun0001 }
+ 52:
+            var1 = var2;
+ 55:
+            return var1;
+        }
+    };
+    var2['usePredicate'] = var8;
+    var7 = function handleExperimentOverrideActivePress() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 4;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.navigateToDevTools;
+        var2 = {};
+        var5 = 'experiments';
+        var2['screenKey'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var2['onPress'] = var7;
+    var2['withArrow'] = var4;
+    var4 = 9;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/user_settings/native/defs/ExperimentOverrideActiveSetting.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
+})();

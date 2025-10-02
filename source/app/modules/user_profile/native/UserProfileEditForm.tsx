@@ -336,7 +336,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var1.pendingAvatar;
             var43 = var1.pendingAvatarDecoration;
             var66 = var1.pendingBanner;
-            var42 = var1.pendingProfileEffectId;
+            var42 = var1.pendingProfileEffect;
             var35 = var1.pendingNameplate;
             var34 = var1.pendingThemeColors;
             var65 = var1.pendingAccentColor;
@@ -971,7 +971,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var29 = var34.bind(var4)(var28);
             var28 = {};
             var28['user'] = var39;
-            var28['pendingProfileEffectId'] = var42;
+            var28['pendingProfileEffect'] = var42;
             var28['displayProfile'] = var41;
             var28 = var30.bind(var4)(var29, var28);
             var26[6] = var28;

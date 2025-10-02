@@ -196,7 +196,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = arg2;
                     var10 = arg3;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0004_ip = 269; continue _fun0004 }
+                    if(var2) { _fun0004_ip = 271; continue _fun0004 }
  19:
                     var2 = global;
                     var4 = var2.JSON;
@@ -208,7 +208,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = _closure1_slot11;
                     var3 = var5.has;
                     var3 = var3.bind(var5)(var4);
-                    if(var3) { _fun0004_ip = 252; continue _fun0004 }
+                    if(var3) { _fun0004_ip = 254; continue _fun0004 }
  72:
                     var6 = _closure1_slot0;
                     var5 = _closure1_slot2;
@@ -239,13 +239,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = false;
                     var3['rejectWithError'] = var7;
                     var3 = var5.bind(var6)(var3);
-                    SaveGenerator(address=177);
- 175:
-                    return var3;
+                    SaveGenerator(address=179);
  177:
+                    return var3;
+ 179:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(var5) { _fun0004_ip = 249; continue _fun0004 }
- 183:
+                    if(var5) { _fun0004_ip = 251; continue _fun0004 }
+ 185:
                     var5 = var3.body;
                     var9 = var5.users;
                     var6 = var5.next_index;
@@ -268,14 +268,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = var7.set;
                     var6 = var6.bind(var7)(var4, var5);
                     return var5;
- 249:
+ 251:
                     return var3;
- 252:
+ 254:
                     var3 = _closure1_slot11;
                     var2 = var3.get;
                     var2 = var2.bind(var3)(var4);
                     return var2;
- 269:
+ 271:
                     return var1;
                 }
             };

@@ -281,7 +281,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5['value'] = var7;
         var1[5] = var5;
         var5 = {};
-        var7 = 'getPendingProfileEffectId';
+        var7 = 'getPendingProfileEffect';
         var5['key'] = var7;
         var7 = function value() {
             var1 = _closure1_slot10;
@@ -371,7 +371,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = _closure1_slot8;
             var1['pendingAvatarDecoration'] = var3;
             var3 = _closure1_slot10;
-            var1['pendingProfileEffectId'] = var3;
+            var1['pendingProfileEffect'] = var3;
             var3 = _closure1_slot11;
             var1['pendingBanner'] = var3;
             var3 = _closure1_slot12;
@@ -536,14 +536,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var2['GUILD_IDENTITY_SETTINGS_SET_PENDING_NAMEPLATE'] = var12;
-    var12 = function handleSetPendingProfileEffectId(arg1) {
+    var12 = function handleSetPendingProfileEffect(arg1) {
         var1 = arg1;
-        var2 = var1.profileEffectId;
+        var2 = var1.profileEffect;
         _closure1_slot10 = var2;
         var1 = undefined;
         return var1;
     };
-    var2['GUILD_IDENTITY_SETTINGS_SET_PENDING_PROFILE_EFFECT_ID'] = var12;
+    var2['GUILD_IDENTITY_SETTINGS_SET_PENDING_PROFILE_EFFECT'] = var12;
     var12 = function handleSetPendingBanner(arg1) {
         var1 = arg1;
         var2 = var1.banner;

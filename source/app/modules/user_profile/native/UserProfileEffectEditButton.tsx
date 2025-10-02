@@ -71,7 +71,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot0 = var6;
             var11 = var3.user;
             var _closure2_slot1 = var11;
-            var2 = var3.pendingProfileEffectId;
+            var2 = var3.pendingProfileEffect;
             var _closure2_slot2 = var2;
             var12 = var3.guildId;
             var _closure2_slot3 = var12;
@@ -96,15 +96,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var10.useMemo;
             var16 = var5 == var6;
             var14 = undefined;
-            if(var16) { _fun0001_ip = 150; continue _fun0001 }
+            if(var16) { _fun0001_ip = 136; continue _fun0001 }
  130:
-            var6 = var6.profileEffect;
-            var16 = var5 == var6;
-            var14 = undefined;
-            if(var16) { _fun0001_ip = 150; continue _fun0001 }
- 145:
-            var14 = var6.id;
- 150:
+            var14 = var6.profileEffect;
+ 136:
             var6 = new Array(5);
             var6[0] = var14;
             var6[1] = var13;
@@ -112,65 +107,50 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[3] = var2;
             var13 = var5 == var7;
             var2 = undefined;
-            if(var13) { _fun0001_ip = 199; continue _fun0001 }
- 179:
-            var13 = var7.profileEffect;
-            var14 = var5 == var13;
-            var2 = undefined;
-            if(var14) { _fun0001_ip = 199; continue _fun0001 }
- 194:
-            var2 = var13.id;
- 199:
+            if(var13) { _fun0001_ip = 171; continue _fun0001 }
+ 165:
+            var2 = var7.profileEffect;
+ 171:
             var6[4] = var2;
             var2 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
                     var1 = _closure2_slot6;
-                    if(var1) { _fun0002_ip = 51; continue _fun0002 }
+                    if(var1) { _fun0002_ip = 37; continue _fun0002 }
  10:
-                    var1 = _closure2_slot0;
-                    var3 = null;
-                    var2 = var3 == var1;
+                    var2 = _closure2_slot0;
+                    var1 = null;
+                    var2 = var1 == var2;
                     var1 = undefined;
-                    if(var2) { _fun0002_ip = 49; continue _fun0002 }
+                    if(var2) { _fun0002_ip = 35; continue _fun0002 }
  25:
                     var2 = _closure2_slot0;
-                    var2 = var2.profileEffect;
-                    var3 = var3 == var2;
-                    var1 = undefined;
-                    if(var3) { _fun0002_ip = 49; continue _fun0002 }
- 44:
-                    var1 = var2.id;
- 49:
-                    _fun0002_ip = 117; continue _fun0002;
- 51:
+                    var1 = var2.profileEffect;
+ 35:
+                    _fun0002_ip = 89; continue _fun0002;
+ 37:
                     var2 = _closure2_slot5;
-                    if(!var2) { _fun0002_ip = 68; continue _fun0002 }
- 58:
+                    if(!var2) { _fun0002_ip = 54; continue _fun0002 }
+ 44:
                     var2 = _closure2_slot2;
                     var5 = null;
-                    if(!(var5 !== var2)) { _fun0002_ip = 74; continue _fun0002 }
- 68:
+                    if(!(var5 !== var2)) { _fun0002_ip = 60; continue _fun0002 }
+ 54:
                     var2 = _closure2_slot2;
-                    _fun0002_ip = 114; continue _fun0002;
- 74:
+                    _fun0002_ip = 86; continue _fun0002;
+ 60:
                     var3 = _closure2_slot4;
-                    var7 = var5 == var3;
+                    var5 = var5 == var3;
                     var3 = undefined;
-                    if(var7) { _fun0002_ip = 111; continue _fun0002 }
- 87:
+                    if(var5) { _fun0002_ip = 83; continue _fun0002 }
+ 73:
                     var4 = _closure2_slot4;
-                    var4 = var4.profileEffect;
-                    var5 = var5 == var4;
-                    var3 = undefined;
-                    if(var5) { _fun0002_ip = 111; continue _fun0002 }
- 106:
-                    var3 = var4.id;
- 111:
+                    var3 = var4.profileEffect;
+ 83:
                     var2 = var3;
- 114:
+ 86:
                     var1 = var2;
- 117:
+ 89:
                     return var1;
                 }
             };
@@ -180,9 +160,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = _closure1_slot2;
             var2 = 6;
             var2 = var8[var2];
-            var6 = var6.bind(var4)(var2);
-            var2 = var6.useProfileEffectPreset;
-            var2 = var2.bind(var6)(var13);
+            var8 = var6.bind(var4)(var2);
+            var6 = var8.useProfileEffectPreset;
+            var10 = var5 == var13;
+            var2 = undefined;
+            if(var10) { _fun0001_ip = 233; continue _fun0001 }
+ 227:
+            var2 = var13.skuId;
+ 233:
+            var2 = var6.bind(var8)(var2);
             var10 = _closure1_slot3;
             var8 = var10.useCallback;
             var6 = new Array(3);
@@ -209,7 +195,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = _closure2_slot1;
                 var3['user'] = var7;
                 var7 = _closure2_slot7;
-                var3['currentProfileEffectId'] = var7;
+                var3['currentProfileEffect'] = var7;
                 var2 = _closure2_slot3;
                 var3['guildId'] = var2;
                 var2 = 'Profile Effect';
@@ -219,16 +205,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var8.bind(var10)(var1, var6);
             var8 = var5 == var2;
             var1 = undefined;
-            if(var8) { _fun0001_ip = 308; continue _fun0001 }
- 298:
+            if(var8) { _fun0001_ip = 295; continue _fun0001 }
+ 285:
             var8 = var2.config;
             var1 = var8.title;
- 308:
-            if(var3) { _fun0001_ip = 375; continue _fun0001 }
- 311:
+ 295:
+            if(var3) { _fun0001_ip = 362; continue _fun0001 }
+ 298:
             var8 = var1;
-            if(!(var5 == var1)) { _fun0001_ip = 373; continue _fun0001 }
- 318:
+            if(!(var5 == var1)) { _fun0001_ip = 360; continue _fun0001 }
+ 305:
             var12 = _closure1_slot0;
             var14 = _closure1_slot2;
             var3 = 10;
@@ -241,30 +227,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.t;
             var3 = var3.PoWNfX;
             var8 = var10.bind(var11)(var3);
- 373:
-            _fun0001_ip = 484; continue _fun0001;
- 375:
+ 360:
+            _fun0001_ip = 471; continue _fun0001;
+ 362:
             var10 = var5 == var2;
             var3 = undefined;
-            if(var10) { _fun0001_ip = 389; continue _fun0001 }
- 384:
+            if(var10) { _fun0001_ip = 376; continue _fun0001 }
+ 371:
             var3 = var2.id;
- 389:
+ 376:
             var10 = var5 == var7;
             var2 = undefined;
-            if(var10) { _fun0001_ip = 418; continue _fun0001 }
- 398:
+            if(var10) { _fun0001_ip = 405; continue _fun0001 }
+ 385:
             var7 = var7.profileEffect;
             var10 = var5 == var7;
             var2 = undefined;
-            if(var10) { _fun0001_ip = 418; continue _fun0001 }
- 413:
+            if(var10) { _fun0001_ip = 405; continue _fun0001 }
+ 400:
             var2 = var7.id;
- 418:
-            if(!(var3 !== var2)) { _fun0001_ip = 426; continue _fun0001 }
- 422:
-            if(!(var5 == var1)) { _fun0001_ip = 481; continue _fun0001 }
- 426:
+ 405:
+            if(!(var3 !== var2)) { _fun0001_ip = 413; continue _fun0001 }
+ 409:
+            if(!(var5 == var1)) { _fun0001_ip = 468; continue _fun0001 }
+ 413:
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
             var2 = 10;
@@ -277,9 +263,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.t;
             var2 = var2.CHf9iI;
             var1 = var3.bind(var7)(var2);
- 481:
+ 468:
             var8 = var1;
- 484:
+ 471:
             var3 = _closure1_slot5;
             var11 = _closure1_slot0;
             var12 = _closure1_slot2;
@@ -312,8 +298,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var8.bind(var10)(var7);
             var1['accessibilityHint'] = var7;
             var1['onPress'] = var6;
-            if(!(var5 == var13)) { _fun0001_ip = 696; continue _fun0001 }
- 633:
+            if(!(var5 == var13)) { _fun0001_ip = 683; continue _fun0001 }
+ 620:
             var7 = _closure1_slot5;
             var10 = _closure1_slot1;
             var11 = _closure1_slot2;
@@ -328,8 +314,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var15.noneIcon;
             var5['style'] = var8;
             var5 = var7.bind(var4)(var6, var5);
-            _fun0001_ip = 841; continue _fun0001;
- 696:
+            _fun0001_ip = 834; continue _fun0001;
+ 683:
             var8 = _closure1_slot6;
             var7 = _closure1_slot4;
             var6 = {};
@@ -356,13 +342,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = 14;
             var10 = var14[var10];
             var11 = var11.bind(var4)(var10);
-            var10 = {'profileEffectId': null, 'bannerAdjustment': 0, 'useThumbnail': true};
-            var10['profileEffectId'] = var13;
+            var10 = {'skuId': null, 'bannerAdjustment': 0, 'useThumbnail': true};
+            var13 = var13.skuId;
+            var10['skuId'] = var13;
             var10 = var12.bind(var4)(var11, var10);
             var9[1] = var10;
             var6['children'] = var9;
             var5 = var8.bind(var4)(var7, var6);
- 841:
+ 834:
             var1['leading'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

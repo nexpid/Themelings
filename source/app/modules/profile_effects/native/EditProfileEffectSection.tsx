@@ -85,14 +85,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var3[var1];
             var3 = var2.bind(var4)(var1);
             var2 = var3.useProfileEffectPreset;
-            var1 = var12.id;
+            var1 = var12.skuId;
             var1 = var2.bind(var3)(var1);
             var2 = var6 == var1;
             var7 = undefined;
-            if(var2) { _fun0001_ip = 107; continue _fun0001 }
- 102:
+            if(var2) { _fun0001_ip = 108; continue _fun0001 }
+ 103:
             var7 = var1.config;
- 107:
+ 108:
             var3 = _closure1_slot7;
             var2 = _closure1_slot0;
             var10 = _closure1_slot2;
@@ -104,10 +104,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['isSelected'] = var9;
             var9 = var6 == var7;
             var6 = undefined;
-            if(var9) { _fun0001_ip = 158; continue _fun0001 }
- 153:
+            if(var9) { _fun0001_ip = 159; continue _fun0001 }
+ 154:
             var6 = var7.accessibilityLabel;
- 158:
+ 159:
             var1['accessibilityLabel'] = var6;
             var6 = var12.skuId;
             var1['skuId'] = var6;
@@ -146,9 +146,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = 21;
             var9 = var13[var9];
             var10 = var10.bind(var4)(var9);
-            var9 = {'profileEffectId': null, 'bannerAdjustment': 0, 'useThumbnail': true};
-            var12 = var12.id;
-            var9['profileEffectId'] = var12;
+            var9 = {'skuId': null, 'bannerAdjustment': 0, 'useThumbnail': true};
+            var12 = var12.skuId;
+            var9['skuId'] = var12;
             var9 = var11.bind(var4)(var10, var9);
             var8[1] = var9;
             var5['children'] = var8;
@@ -320,10 +320,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[1] = var16;
             var16 = var13 == var15;
             var13 = undefined;
-            if(var16) { _fun0002_ip = 316; continue _fun0002 }
+            if(var16) { _fun0002_ip = 317; continue _fun0002 }
  311:
-            var13 = var15.id;
- 316:
+            var13 = var15.skuId;
+ 317:
             var2[2] = var13;
             var2[3] = var12;
             var2[4] = var1;
@@ -464,12 +464,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var2 = var2 == var3;
                             var5 = undefined;
                             var7 = undefined;
-                            if(var2) { _fun0004_ip = 38; continue _fun0004 }
+                            if(var2) { _fun0004_ip = 39; continue _fun0004 }
  29:
                             var2 = _closure2_slot0;
-                            var7 = var2.id;
- 38:
-                            var6 = var1.id;
+                            var7 = var2.skuId;
+ 39:
+                            var6 = var1.skuId;
                             var4 = _closure1_slot7;
                             var3 = _closure1_slot10;
                             var2 = {};
@@ -486,7 +486,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var2['onPress'] = var8;
                             var6 = var7 === var6;
                             var2['isSelected'] = var6;
-                            var1 = var1.id;
+                            var1 = var1.skuId;
                             var1 = var4.bind(var5)(var3, var2, var1);
                             return var1;
                         }

@@ -4,143 +4,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3 = exports;
     var6 = dependencyMap;
     var1 = global;
-    var8 = var1.Object;
-    var7 = var8.defineProperty;
-    var4 = {};
+    var7 = var1.Object;
+    var4 = var7.defineProperty;
+    var2 = {};
     var1 = true;
-    var4['value'] = var1;
+    var2['value'] = var1;
     var1 = '__esModule';
-    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = var4.bind(var7)(var3, var1, var2);
     var1 = 0;
-    var4 = var6[var1];
+    var2 = var6[var1];
     var1 = undefined;
-    var4 = var5.bind(var1)(var4);
-    var7 = var4.createZustandStore;
-    var4 = function() {
+    var2 = var5.bind(var1)(var2);
+    var4 = var2.createZustandStore;
+    var2 = function() {
         var1 = {'query': '', 'isActive': false, 'selected': null};
         return var1;
     };
-    var4 = var7.bind(var1)(var4);
-    var _closure1_slot0 = var4;
+    var2 = var4.bind(var1)(var2);
     var4 = 1;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/user_settings/UserSettingSearchStore.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = function setSelectedSearchResult(arg1) {
-        var3 = _closure1_slot0;
-        var2 = var3.setState;
-        var1 = {};
-        var4 = arg1;
-        var1['selected'] = var4;
-        var1 = var2.bind(var3)(var1);
-        var1 = undefined;
-        return var1;
-    };
-    var3['setSelectedSearchResult'] = var4;
-    var4 = function getSelectedSearchResult() {
-        var3 = _closure1_slot0;
-        var2 = var3.getField;
-        var1 = 'selected';
-        var1 = var2.bind(var3)(var1);
-        return var1;
-    };
-    var3['getSelectedSearchResult'] = var4;
-    var4 = function useSelectedSearchResult() {
-        var3 = _closure1_slot0;
-        var2 = var3.useField;
-        var1 = 'selected';
-        var1 = var2.bind(var3)(var1);
-        return var1;
-    };
-    var3['useSelectedSearchResult'] = var4;
-    var4 = function clearSelectedSearchResult() {
-        var3 = _closure1_slot0;
-        var2 = var3.setState;
-        var1 = {};
-        var4 = null;
-        var1['selected'] = var4;
-        var1 = var2.bind(var3)(var1);
-        var1 = undefined;
-        return var1;
-    };
-    var3['clearSelectedSearchResult'] = var4;
-    var4 = function setSettingSearchQuery(arg1) {
-        var3 = _closure1_slot0;
-        var2 = var3.setState;
-        var1 = {};
-        var4 = arg1;
-        var1['query'] = var4;
-        var1 = var2.bind(var3)(var1);
-        var1 = undefined;
-        return var1;
-    };
-    var3['setSettingSearchQuery'] = var4;
-    var4 = function setIsSettingSearchActive(arg1) {
-        var3 = _closure1_slot0;
-        var2 = var3.setState;
-        var1 = {};
-        var4 = arg1;
-        var1['isActive'] = var4;
-        var1 = var2.bind(var3)(var1);
-        var1 = undefined;
-        return var1;
-    };
-    var3['setIsSettingSearchActive'] = var4;
-    var4 = function useIsSettingSearchActive() {
-        var3 = _closure1_slot0;
-        var2 = var3.useField;
-        var1 = 'isActive';
-        var1 = var2.bind(var3)(var1);
-        return var1;
-    };
-    var3['useIsSettingSearchActive'] = var4;
-    var4 = function getIsSettingSearchActive() {
-        var3 = _closure1_slot0;
-        var2 = var3.getField;
-        var1 = 'isActive';
-        var1 = var2.bind(var3)(var1);
-        return var1;
-    };
-    var3['getIsSettingSearchActive'] = var4;
-    var4 = function useSettingSearchQuery() {
-        var3 = _closure1_slot0;
-        var2 = var3.useField;
-        var1 = 'query';
-        var1 = var2.bind(var3)(var1);
-        return var1;
-    };
-    var3['useSettingSearchQuery'] = var4;
-    var4 = function useIsSettingSearchQueryEmpty() {
-        var4 = _closure1_slot0;
-        var3 = var4.useState;
-        var2 = function(arg1) {
-            var1 = arg1;
-            var2 = var1.query;
-            var1 = var2.trim;
-            var2 = var1.bind(var2)();
-            var1 = '';
-            var1 = var1 === var2;
-            return var1;
-        };
-        var1 = function(arg1, arg2) {
-            var2 = arg1;
-            var1 = arg2;
-            var1 = var2 === var1;
-            return var1;
-        };
-        var1 = var3.bind(var4)(var2, var1);
-        return var1;
-    };
-    var3['useIsSettingSearchQueryEmpty'] = var4;
-    var2 = function getSettingSearchQuery() {
-        var3 = _closure1_slot0;
-        var2 = var3.getField;
-        var1 = 'query';
-        var1 = var2.bind(var3)(var1);
-        return var1;
-    };
-    var3['getSettingSearchQuery'] = var2;
+    var3['default'] = var2;
     return var1;
 })();

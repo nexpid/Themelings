@@ -96,7 +96,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = var7.fileFinishedImporting;
     var5 = 'uikit-native/refresh/form/FormDivider.tsx';
     var5 = var6.bind(var7)(var5);
-    var4 = function FormDivider(arg1) {
+    var4 = function Divider(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
             var1 = arg1;

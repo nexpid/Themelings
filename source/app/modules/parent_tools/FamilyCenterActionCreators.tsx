@@ -329,7 +329,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0005_ip = 358; continue _fun0005 }
+                    if(var2) { _fun0005_ip = 414; continue _fun0005 }
  10:
                     var3 = _closure1_slot1;
                     var5 = _closure1_slot2;
@@ -360,7 +360,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var2;
  114:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0005_ip = 355; continue _fun0005 }
+                    if(var3) { _fun0005_ip = 411; continue _fun0005 }
  123:
                     var3 = var2.body;
                     var11 = var3.teen_audit_log;
@@ -426,6 +426,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = new Array(0);
  295:
                     var3['guilds'] = var5;
+                    var12 = var10 == var11;
+                    var5 = undefined;
+                    if(var12) { _fun0005_ip = 315; continue _fun0005 }
+ 309:
+                    var5 = var11.top_user_activities;
+ 315:
+                    if(!(var10 == var5)) { _fun0005_ip = 323; continue _fun0005 }
+ 319:
+                    var5 = new Array(0);
+ 323:
+                    var3['topUserActivities'] = var5;
+                    var12 = var10 == var11;
+                    var5 = undefined;
+                    if(var12) { _fun0005_ip = 343; continue _fun0005 }
+ 337:
+                    var5 = var11.top_guild_activities;
+ 343:
+                    if(!(var10 == var5)) { _fun0005_ip = 351; continue _fun0005 }
+ 347:
+                    var5 = new Array(0);
+ 351:
+                    var3['topGuildActivities'] = var5;
                     var5 = _closure1_slot1;
                     var4 = _closure1_slot2;
                     var4 = var4[var9];
@@ -439,9 +461,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4['users'] = var7;
                     var4 = var5.bind(var6)(var4);
                     return var3;
- 355:
+ 411:
                     return var2;
- 358:
+ 414:
                     return var1;
                 }
             };
@@ -605,7 +627,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0008_ip = 262; continue _fun0008 }
+                    if(var2) { _fun0008_ip = 302; continue _fun0008 }
  10:
                     var3 = _closure1_slot1;
                     var5 = _closure1_slot2;
@@ -638,7 +660,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var2;
  126:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0008_ip = 259; continue _fun0008 }
+                    if(var3) { _fun0008_ip = 299; continue _fun0008 }
  135:
                     var3 = var2.body;
                     var5 = var3.teen_audit_log;
@@ -653,8 +675,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3['actions'] = var8;
                     var8 = var5.users;
                     var3['users'] = var8;
-                    var5 = var5.guilds;
-                    var3['guilds'] = var5;
+                    var8 = var5.guilds;
+                    var3['guilds'] = var8;
+                    var9 = var5.top_user_activities;
+                    var8 = null;
+                    if(!(var8 == var9)) { _fun0008_ip = 230; continue _fun0008 }
+ 226:
+                    var9 = new Array(0);
+ 230:
+                    var3['topUserActivities'] = var9;
+                    var5 = var5.top_guild_activities;
+                    if(!(var8 == var5)) { _fun0008_ip = 249; continue _fun0008 }
+ 245:
+                    var5 = new Array(0);
+ 249:
+                    var3['topGuildActivities'] = var5;
                     var5 = _closure1_slot1;
                     var4 = _closure1_slot2;
                     var4 = var4[var7];
@@ -666,9 +701,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4['familyCenterTeenActivity'] = var3;
                     var4 = var5.bind(var6)(var4);
                     return var3;
- 259:
+ 299:
                     return var2;
- 262:
+ 302:
                     return var1;
                 }
             };
@@ -696,7 +731,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0009_ip = 299; continue _fun0009 }
+                    if(var2) { _fun0009_ip = 339; continue _fun0009 }
  10:
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
@@ -724,7 +759,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var2;
  102:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0009_ip = 296; continue _fun0009 }
+                    if(var3) { _fun0009_ip = 336; continue _fun0009 }
  111:
                     var3 = var2.body;
                     var3 = var3.teen_audit_log;
@@ -739,6 +774,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7['users'] = var4;
                     var4 = var3.guilds;
                     var7['guilds'] = var4;
+                    var4 = var3.top_user_activities;
+                    var5 = null;
+                    if(!(var5 == var4)) { _fun0009_ip = 195; continue _fun0009 }
+ 191:
+                    var4 = new Array(0);
+ 195:
+                    var7['topUserActivities'] = var4;
+                    var4 = var3.top_guild_activities;
+                    if(!(var5 == var4)) { _fun0009_ip = 214; continue _fun0009 }
+ 210:
+                    var4 = new Array(0);
+ 214:
+                    var7['topGuildActivities'] = var4;
                     var5 = _closure1_slot1;
                     var8 = _closure1_slot2;
                     var4 = 6;
@@ -766,9 +814,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4['familyCenterTeenActivity'] = var7;
                     var4 = var5.bind(var6)(var4);
                     return var3;
- 296:
+ 336:
                     return var2;
- 299:
+ 339:
                     return var1;
                 }
             };

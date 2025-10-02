@@ -912,15 +912,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.forwardRef;
     var2 = function(arg1, arg2) {
         var2 = arg1;
-        var11 = arg2;
-        var15 = var2.channel;
-        var _closure2_slot0 = var15;
-        var14 = var2.onBackPress;
-        var _closure2_slot1 = var14;
+        var14 = arg2;
+        var17 = var2.channel;
+        var _closure2_slot0 = var17;
+        var16 = var2.onBackPress;
+        var _closure2_slot1 = var16;
         var7 = var2.componentWidth;
-        var12 = var2.searchBarLayoutProps;
-        var _closure2_slot2 = var12;
-        var _closure2_slot3 = var11;
+        var13 = var2.onSuggestionsLayoutMeasure;
+        var _closure2_slot2 = var13;
+        var12 = var2.suggestionsDismissed;
+        var _closure2_slot3 = var12;
+        var11 = var2.setSuggestionsDismissed;
+        var _closure2_slot4 = var11;
+        var _closure2_slot5 = var14;
         var2 = _closure1_slot15;
         var4 = undefined;
         var5 = var2.bind(var4)();
@@ -930,12 +934,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var10[var2];
         var3 = var6.bind(var4)(var2);
         var2 = var3.useChannelDetailWidth;
-        var13 = var2.bind(var3)(var7);
-        var _closure2_slot4 = var13;
+        var15 = var2.bind(var3)(var7);
+        var _closure2_slot6 = var15;
         var3 = _closure1_slot9;
-        var2 = var15.id;
+        var2 = var17.id;
         var2 = var3.bind(var4)(var2);
-        var _closure2_slot5 = var2;
+        var _closure2_slot7 = var2;
         var7 = _closure1_slot3;
         var9 = var7.useMemo;
         var3 = new Array(1);
@@ -943,7 +947,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = function() {
             _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
  0:
-                var1 = _closure2_slot5;
+                var1 = _closure2_slot7;
                 var2 = _closure1_slot16;
                 if(var1) { _fun0010_ip = 33; continue _fun0010 }
  17:
@@ -962,12 +966,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         };
         var9 = var9.bind(var7)(var2, var3);
         var3 = var7.useCallback;
-        var2 = new Array(5);
-        var2[0] = var15;
-        var2[1] = var14;
-        var2[2] = var13;
-        var2[3] = var12;
-        var2[4] = var11;
+        var2 = new Array(7);
+        var2[0] = var17;
+        var2[1] = var16;
+        var2[2] = var15;
+        var2[3] = var14;
+        var2[4] = var13;
+        var2[5] = var12;
+        var2[6] = var11;
         var1 = function(arg1, arg2, arg3, arg4) {
             _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
  0:
@@ -977,7 +983,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = arg4;
                 var3 = _closure1_slot16;
                 var3 = var3.BUTTONS;
-                if(!(var3 !== var4)) { _fun0011_ip = 129; continue _fun0011 }
+                if(!(var3 !== var4)) { _fun0011_ip = 132; continue _fun0011 }
  29:
                 var3 = _closure1_slot16;
                 var3 = var3.SEARCH;
@@ -989,24 +995,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = _closure1_slot13;
                 var6 = _closure1_slot22;
                 var4 = {};
-                var9 = _closure2_slot3;
+                var9 = _closure2_slot5;
                 var4['ref'] = var9;
                 var9 = _closure2_slot0;
                 var4['channel'] = var9;
-                var11 = _closure2_slot2;
-                var12 = var4;
-                var9 = copyDataProperties(var12, var11);
-                var9 = 'transitionState';
-                var4[var9] = var7;
+                var9 = _closure2_slot2;
+                var4['onSuggestionsLayoutMeasure'] = var9;
+                var9 = _closure2_slot3;
+                var4['suggestionsDismissed'] = var9;
                 var9 = _closure2_slot4;
-                var3 = 'width';
-                var4[var3] = var9;
-                var3 = 'cleanUp';
-                var4[var3] = var1;
+                var4['setSuggestionsDismissed'] = var9;
+                var4['transitionState'] = var7;
+                var3 = _closure2_slot6;
+                var4['width'] = var3;
+                var4['cleanUp'] = var1;
                 var3 = undefined;
                 var3 = var8.bind(var3)(var6, var4, var5);
                 return var3;
- 129:
+ 132:
                 var4 = _closure1_slot13;
                 var3 = _closure1_slot25;
                 var2 = {};
@@ -1015,7 +1021,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = _closure2_slot1;
                 var2['onBackPress'] = var8;
                 var2['transitionState'] = var7;
-                var6 = _closure2_slot4;
+                var6 = _closure2_slot6;
                 var2['width'] = var6;
                 var2['cleanUp'] = var1;
                 var1 = undefined;

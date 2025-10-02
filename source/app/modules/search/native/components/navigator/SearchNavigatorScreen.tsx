@@ -189,6 +189,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var10.13/7kZ;
             var10 = var12.bind(var13)(var10);
             var5['accessibilityLabel'] = var10;
+            var10 = 'button';
+            var5['accessibilityRole'] = var10;
             var7 = _closure2_slot0;
             var7 = var7.goBack;
             var5['onPress'] = var7;

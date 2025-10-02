@@ -238,100 +238,155 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var1.nonce;
             var _closure2_slot0 = var2;
             var3 = var1.data;
+            var8 = var1.preflight;
+            var9 = undefined;
+            var _closure2_slot1 = var9;
             var7 = var3.interactionType;
-            var9 = _closure1_slot0;
+            var10 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var10 = 5;
-            var6 = var6[var10];
-            var8 = undefined;
-            var6 = var9.bind(var8)(var6);
+            var11 = 5;
+            var6 = var6[var11];
+            var6 = var10.bind(var9)(var6);
             var6 = var6.InteractionTypes;
             var6 = var6.APPLICATION_COMMAND;
-            if(!(var6 !== var7)) { _fun0006_ip = 278; continue _fun0006 }
- 75:
-            var9 = _closure1_slot0;
+            if(!(var6 !== var7)) { _fun0006_ip = 368; continue _fun0006 }
+ 85:
+            var10 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var6 = var6[var10];
-            var6 = var9.bind(var8)(var6);
+            var6 = var6[var11];
+            var6 = var10.bind(var9)(var6);
             var6 = var6.InteractionTypes;
             var6 = var6.MODAL_SUBMIT;
-            if(!(var6 !== var7)) { _fun0006_ip = 112; continue _fun0006 }
- 108:
+            if(!(var6 !== var7)) { _fun0006_ip = 122; continue _fun0006 }
+ 118:
             var6 = false;
             return var6;
- 112:
+ 122:
             var7 = _closure1_slot1;
-            var9 = _closure1_slot2;
+            var10 = _closure1_slot2;
             var6 = 6;
-            var6 = var9[var6];
-            var9 = var7.bind(var8)(var6);
+            var6 = var10[var6];
+            var11 = var7.bind(var9)(var6);
             var7 = _closure1_slot8;
             var6 = null;
-            var7 = var6 == var7;
-            if(var7) { _fun0006_ip = 163; continue _fun0006 }
- 145:
-            var10 = _closure1_slot9;
-            var6 = _closure1_slot13;
-            var6 = var6.ERRORED;
-            var7 = var10 === var6;
- 163:
-            if(var7) { _fun0006_ip = 184; continue _fun0006 }
- 166:
-            var10 = _closure1_slot9;
-            var6 = _closure1_slot13;
-            var6 = var6.SUCCEEDED;
-            var7 = var10 === var6;
- 184:
-            var6 = 'cannot submit multiple modals at once';
-            var6 = var9.bind(var8)(var7, var6);
+            var10 = var6 == var7;
+            if(var10) { _fun0006_ip = 173; continue _fun0006 }
+ 155:
+            var12 = _closure1_slot9;
+            var7 = _closure1_slot13;
+            var7 = var7.ERRORED;
+            var10 = var12 === var7;
+ 173:
+            if(var10) { _fun0006_ip = 194; continue _fun0006 }
+ 176:
+            var12 = _closure1_slot9;
+            var7 = _closure1_slot13;
+            var7 = var7.SUCCEEDED;
+            var10 = var12 === var7;
+ 194:
+            var7 = 'cannot submit multiple modals at once';
+            var7 = var11.bind(var9)(var10, var7);
             _closure1_slot8 = var2;
-            var6 = _closure1_slot13;
-            var6 = var6.IN_FLIGHT;
-            _closure1_slot9 = var6;
-            var6 = global;
-            var7 = var6.setTimeout;
-            var9 = _closure1_slot1;
-            var10 = _closure1_slot2;
-            var6 = 8;
-            var6 = var10[var6];
-            var6 = var9.bind(var8)(var6);
-            var6 = var6.Millis;
-            var9 = var6.SECOND;
-            var6 = 10;
-            var6 = var6 * var9;
-            var5 = function() {
-                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+            var7 = _closure1_slot13;
+            var7 = var7.IN_FLIGHT;
+            _closure1_slot9 = var7;
+            var7 = function startTimeout(arg1) {
+                var1 = global;
+                var4 = var1.setTimeout;
+                var1 = undefined;
+                var3 = function() {
+                    _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
-                    var4 = _closure1_slot8;
-                    var3 = _closure2_slot0;
-                    var3 = var4 === var3;
-                    if(!var3) { _fun0007_ip = 39; continue _fun0007 }
+                        var4 = _closure1_slot8;
+                        var3 = _closure2_slot0;
+                        var3 = var4 === var3;
+                        if(!var3) { _fun0007_ip = 39; continue _fun0007 }
  21:
-                    var5 = _closure1_slot9;
-                    var4 = _closure1_slot13;
-                    var4 = var4.IN_FLIGHT;
-                    var3 = var5 === var4;
+                        var5 = _closure1_slot9;
+                        var4 = _closure1_slot13;
+                        var4 = var4.IN_FLIGHT;
+                        var3 = var5 === var4;
  39:
-                    if(!var3) { _fun0007_ip = 79; continue _fun0007 }
+                        if(!var3) { _fun0007_ip = 79; continue _fun0007 }
  42:
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var2 = 7;
-                    var3 = var3[var2];
-                    var2 = undefined;
-                    var3 = var4.bind(var2)(var3);
-                    var2 = var3.setFailed;
-                    var1 = _closure2_slot0;
-                    var1 = var2.bind(var3)(var1);
+                        var4 = _closure1_slot0;
+                        var3 = _closure1_slot2;
+                        var2 = 7;
+                        var3 = var3[var2];
+                        var2 = undefined;
+                        var3 = var4.bind(var2)(var3);
+                        var2 = var3.setFailed;
+                        var1 = _closure2_slot0;
+                        var1 = var2.bind(var3)(var1);
  79:
-                    var1 = undefined;
-                    return var1;
-                }
+                        var1 = undefined;
+                        return var1;
+                    }
+                };
+                var2 = arg1;
+                var2 = var4.bind(var1)(var3, var2);
+                return var1;
             };
-            var5 = var7.bind(var8)(var5, var6);
+            _closure2_slot1 = var7;
+            if(!(var6 == var8)) { _fun0006_ip = 285; continue _fun0006 }
+ 239:
+            var10 = _closure1_slot1;
+            var11 = _closure1_slot2;
+            var6 = 8;
+            var6 = var11[var6];
+            var6 = var10.bind(var9)(var6);
+            var6 = var6.Millis;
+            var10 = var6.SECOND;
+            var6 = 10;
+            var6 = var6 * var10;
+            var6 = var7.bind(var9)(var6);
+            _fun0006_ip = 364; continue _fun0006;
+ 285:
+            var10 = _closure1_slot1;
+            var11 = _closure1_slot2;
+            var6 = 8;
+            var6 = var11[var6];
+            var6 = var10.bind(var9)(var6);
+            var6 = var6.Millis;
+            var10 = var6.MINUTE;
+            var6 = 2;
+            var6 = var6 * var10;
+            var6 = var7.bind(var9)(var6);
+            var7 = var8.then;
+            var6 = function() {
+                var3 = _closure2_slot1;
+                var4 = _closure1_slot1;
+                var2 = _closure1_slot2;
+                var1 = 8;
+                var1 = var2[var1];
+                var2 = undefined;
+                var1 = var4.bind(var2)(var1);
+                var1 = var1.Millis;
+                var4 = var1.SECOND;
+                var1 = 10;
+                var1 = var1 * var4;
+                var1 = var3.bind(var2)(var1);
+                return var1;
+            };
+            var7 = var7.bind(var8)(var6);
+            var6 = var7.catch;
+            var5 = function() {
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var1 = 7;
+                var2 = var2[var1];
+                var1 = undefined;
+                var3 = var3.bind(var1)(var2);
+                var2 = var3.setFailed;
+                var1 = _closure2_slot0;
+                var1 = var2.bind(var3)(var1);
+                return var1;
+            };
+            var5 = var6.bind(var7)(var5);
+ 364:
             var5 = true;
             return var5;
- 278:
+ 368:
             _closure1_slot10 = var4;
             var3 = var3.channelId;
             _closure1_slot11 = var3;

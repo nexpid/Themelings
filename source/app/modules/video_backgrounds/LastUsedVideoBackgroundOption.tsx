@@ -143,10 +143,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.voiceAndVideo;
             var4 = null;
             var4 = var4 == var3;
-            if(var4) { _fun0003_ip = 117; continue _fun0003 }
- 111:
+            if(var4) { _fun0003_ip = 121; continue _fun0003 }
+ 115:
             var6 = var3.videoBackgroundFilterDesktop;
- 117:
+ 121:
             var _closure2_slot1 = var6;
             var4 = _closure1_slot3;
             var3 = var4.useMemo;

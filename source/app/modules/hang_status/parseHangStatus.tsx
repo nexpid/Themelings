@@ -36,7 +36,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
             var4 = arg2;
             var5 = null;
-            if(!(var5 != var4)) { _fun0001_ip = 197; continue _fun0001 }
+            if(!(var5 != var4)) { _fun0001_ip = 191; continue _fun0001 }
  12:
             var7 = _closure1_slot2;
             var6 = var7.getChannel;
@@ -62,9 +62,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = _closure1_slot1;
             var1 = 2;
             var1 = var6[var1];
-            var1 = var2.bind(var3)(var1);
-            var3 = var1.HangStatusExperiment;
-            var2 = var3.getCurrentConfig;
+            var3 = var2.bind(var3)(var1);
+            var2 = var3.getHangStatusExperiment;
             var1 = {};
             var1['guildId'] = var5;
             var5 = 'parseHangStatus';
@@ -77,21 +76,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var4.length;
             var2 = 1;
             var1 = var4;
-            if(!(var5 > var2)) { _fun0001_ip = 195; continue _fun0001 }
- 163:
+            if(!(var5 > var2)) { _fun0001_ip = 189; continue _fun0001 }
+ 157:
             var2 = var4[var2];
             var1 = var4;
-            if(!(var2 !== var3)) { _fun0001_ip = 195; continue _fun0001 }
- 174:
+            if(!(var2 !== var3)) { _fun0001_ip = 189; continue _fun0001 }
+ 168:
             var2 = 0;
             var4 = var4[var2];
             var2 = new Array(2);
             var2[0] = var4;
             var2[1] = var3;
             var1 = var2;
- 195:
+ 189:
             return var1;
- 197:
+ 191:
             var1 = _closure1_slot4;
             return var1;
         }

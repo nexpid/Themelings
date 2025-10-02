@@ -54,13 +54,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = arg1;
             var1 = var2.bind(var3)(var1);
             var2 = null;
-            if(!(var2 == var1)) { _fun0002_ip = 55; continue _fun0002 }
+            if(!(var2 == var1)) { _fun0002_ip = 59; continue _fun0002 }
  26:
             var2 = {'isElementFullscreen': false, 'focused': false, 'windowSize': null, 'visible': false};
             var3 = {'width': 0, 'height': 0};
             var2['windowSize'] = var3;
             var1 = var2;
- 55:
+ 59:
             return var1;
         }
     };

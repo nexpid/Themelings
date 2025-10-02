@@ -363,7 +363,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var54 = var4.pendingPronouns;
             var49 = var4.pendingBio;
             var42 = var4.pendingAvatarDecoration;
-            var41 = var4.pendingProfileEffectId;
+            var41 = var4.pendingProfileEffect;
             var36 = var4.pendingNameplate;
             var8 = _closure1_slot0;
             var4 = 27;
@@ -1137,7 +1137,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var32['user'] = var37;
             var42 = var35.id;
             var32['guildId'] = var42;
-            var32['pendingProfileEffectId'] = var41;
+            var32['pendingProfileEffect'] = var41;
             var32['displayProfile'] = var40;
             var32 = var39.bind(var5)(var34, var32);
             var31[6] = var32;
