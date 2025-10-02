@@ -3,7 +3,7 @@ import { dirname } from "node:path";
 import { commit } from "../commit";
 import { deminify } from "../deminify";
 import { cuteVersion } from "../shared";
-import { join, mkdirSuppressed, type Progress, sortByHierarchy } from "../util";
+import { discordPath, mkdirSuppressed, join, type Progress, sortByHierarchy } from "../util";
 
 const moduleStartIndentation = " ".repeat(4);
 
@@ -17,13 +17,16 @@ export default async function code(progress: Progress, code: string[]) {
 		const line = code[i];
 
 		// find the start of the file import based on the indentation
-		if (new RegExp(`^${moduleStartIndentation}r\\d = function\\(`).test(line) && line.includes(" { // Environment:")) {
+		if (
+			new RegExp(`^${moduleStartIndentation}r\\d{1,2} = function\\(`).test(line) &&
+			line.includes(" { // Environment:")
+		) {
 			moduleStart = i;
 		}
 
 		// easiest way to check
 		const path = code[i + 1]?.match(/ = '(.*?)';$/)?.[1];
-		if (line.match(/ = r\d\.fileFinishedImporting;$/) && path) {
+		if (line.match(/ = r\d{1,2}\.fileFinishedImporting;$/) && path) {
 			const start = moduleStart;
 			if (!start) throw `moduleStart was null for ${start}~${i}; null ~ ${code[i]}`;
 			moduleStart = null;
@@ -40,13 +43,13 @@ export default async function code(progress: Progress, code: string[]) {
 
 			if (!moduleEnd) throw `moduleEnd was null for ${start}~${i}; ${code[start]} ~ ${code[i]}`;
 
-			const realPath = join("app", path);
+			const realPath = discordPath(path);
 			files.set(
 				realPath,
 				deminify(
 					code
 						.slice(start, moduleEnd + 1)
-						.map((line) => line.slice(moduleStartIndentation.length))
+						.map((line) => line.replace(new RegExp(`^${moduleStartIndentation}`), ""))
 						.join("\n"),
 					realPath,
 				),
@@ -57,6 +60,7 @@ export default async function code(progress: Progress, code: string[]) {
 	await Bun.write(
 		"../data/source.jsonl",
 		[...files.entries()]
+			.sort(([a], [b]) => a.localeCompare(b))
 			.map(([file, text]) => `{ "file": ${JSON.stringify(file)}, "size": ${text.final.length} }`)
 			.join("\n"),
 	);

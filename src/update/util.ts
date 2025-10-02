@@ -1,6 +1,6 @@
 import { mkdir } from "node:fs/promises";
 import { join as _join } from "node:path";
-import { revision, type ShellOutput } from "bun";
+import type { $ } from "bun";
 
 export const maxChangesThreshold = 10; // thank you Discord for making 700 icon changes in one version
 export const maxCodeChangesThreshold = 10;
@@ -123,7 +123,7 @@ export async function wrapPromise(promise: Promise<any>, progress: Progress, key
 	}
 }
 
-export function handleShellErr(out: ShellOutput): ShellOutput {
+export function handleShellErr(out: $.ShellOutput): $.ShellOutput {
 	if (out.exitCode !== 0 && out.exitCode !== 11)
 		throw new Error(
 			`${`${out.stdout.toString().trim()}\n${out.stderr.toString().trim()}`} (exit code ${out.exitCode})`,
@@ -133,12 +133,9 @@ export function handleShellErr(out: ShellOutput): ShellOutput {
 
 export const join = (...paths: string[]) => _join(...paths).replace(/\\/g, "/");
 
-// at this bun version, warnings flood the console sometimes
 export const mkdirSuppressed = (...args: Parameters<typeof mkdir>) =>
 	mkdir(...args).catch((e) =>
-		e?.code === "EEXIST"
-			? (revision === "c1708ea6ab529a4c747a8282a24d125dc20b0a63" && didSomethingInLog(), void e)
-			: cuteError(e),
+		e?.code !== "EEXIST" && cuteError(e),
 	);
 
 export function cuteError(e: any) {
@@ -158,4 +155,8 @@ export function formatBytes(bytes: number, decimals = 2): string {
 	const i = Math.floor(Math.log(bytes) / Math.log(k));
 
 	return `${Number.parseFloat((bytes / k ** i).toFixed(Math.max(decimals, 0)))} ${sizes[i]}`;
+}
+
+export function discordPath(path: string) {
+	return join("app", path);
 }

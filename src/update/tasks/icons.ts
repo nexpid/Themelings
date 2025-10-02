@@ -3,7 +3,7 @@ import { dirname } from "node:path";
 import type { Icons } from "../../types";
 import { commit } from "../commit";
 import { cuteVersion } from "../shared";
-import { join, mkdirSuppressed, type Progress, sortByHierarchy, sortObj } from "../util";
+import { discordPath, join, mkdirSuppressed, type Progress, sortByHierarchy, sortObj } from "../util";
 
 export default async function icons(progress: Progress, code: string[], ...paths: string[]) {
 	const lookForFiles: {
@@ -62,10 +62,11 @@ export default async function icons(progress: Progress, code: string[], ...paths
 		const filePath = listed.find((f) => f.endsWith(`/${path}`));
 
 		if (filePath) {
-			let root = lookFor.httpServerLocation.split("/").slice(2).join("/");
-			if (root.startsWith("../")) root = `_/${root.slice(3)}`;
+			const actualPath = join(
+				discordPath(lookFor.httpServerLocation.split("/").slice(2).join("/")),
+				`${lookFor.name}.${lookFor.type}`,
+			);
 
-			const actualPath = join(root, `${lookFor.name}.${lookFor.type}`);
 			icons[lookFor.name] = {
 				file: actualPath,
 				hash: lookFor.hash,
@@ -73,7 +74,6 @@ export default async function icons(progress: Progress, code: string[], ...paths
 				width: lookFor.width ?? null,
 				height: lookFor.height ?? null,
 			};
-
 			toMove.push([filePath, join("../data/icons", actualPath)]);
 		}
 	}

@@ -4,7 +4,8 @@ import { extname } from "node:path";
 const variableMatch = /\br(\d{1,2})\b/g;
 const argumentMatch = /\ba(\d{1,2})\b/g;
 
-const funMatch = /\b(_fun)(\d+)(_ip)?\b/g;
+const funMatch = /\b(_fun)(\d+)(_ip)?(?: = (\d+))?\b/g;
+const caseMatch = /^case (\d+):/g;
 
 const functNameMatch = /(function\*?) ?(\(.*?\) {) \/\/ Original name: +\??(.+), environment: \w+$/g;
 const functOpenMatch = /function\*? ?\((.*?)\) {/;
@@ -38,6 +39,8 @@ export function deminify(code: string, path: string) {
 	let depth = 0;
 	const localArgs = new Map<number, number>();
 	const funMap = new Map<string, string>();
+    const caseMap = new Map<string, number>();
+    caseMap.set("0", 0);
 
 	const varReplacer = (_: string, id: string) => `var${Number(id) + 1}`;
 	const argReplacer = (_: string, id: string) => {
@@ -48,12 +51,22 @@ export function deminify(code: string, path: string) {
 		if (depth === 1) return nativeModuleNames[n] ?? `native${n + 1}`;
 		else return `arg${n + 1}`;
 	};
-	const funReplacer = (_: string, prefix: string, id: string, suffix: string) => {
+	const funReplacer = (_: string, prefix: string, id: string, suffix: string, caseId?: string) => {
 		const num = funMap.get(id) ?? String(funMap.size + 1).padStart(4, "0");
 		funMap.set(id, num);
 
-		return `${prefix}${num}${suffix ?? ""}`;
+        const text = `${prefix}${num}${suffix ?? ""}`;
+        if (!caseId) return text;
+
+        const caseNum = caseMap.get(caseId) ?? caseMap.size + 1;
+        caseMap.set(caseId, caseNum);
+		return `${text} = ${caseNum}`;
 	};
+    const caseReplacer = (_: string, id: string) => {
+        const num = caseMap.get(id) ?? caseMap.size + 1;
+        caseMap.set(id, num);
+		return `case ${num}:`;
+    }
 	const functNameReplacer = (_: string, prefix: string, stuff: string, name: string) => `${prefix} ${name}${stuff}`;
 
 	let j = 1;
@@ -95,6 +108,7 @@ export function deminify(code: string, path: string) {
 			.replace(variableMatch, varReplacer)
 			.replace(argumentMatch, argReplacer)
 			.replace(funMatch, funReplacer)
+            .replace(caseMatch, caseReplacer)
 			.replace(functNameMatch, functNameReplacer)
 			.replace(nullstringMatch, (_, __, id: string) => {
 				if (nullStrings.has(id)) return nullStrings.get(id)!;
