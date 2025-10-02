@@ -34,25 +34,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = function() {
             var1 = function(arg1) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     var4 = arg1;
                     var3 = _closure2_slot1;
                     var5 = null;
-                    if(!(var5 != var3)) { _fun0001_ip = 48; continue _fun0001 }
- 18:
+                    if(!(var5 != var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var3 = _closure2_slot1;
                     var6 = var5 == var3;
                     var3 = undefined;
-                    if(var6) { _fun0001_ip = 46; continue _fun0001 }
- 31:
+                    if(var6) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                     var7 = _closure2_slot1;
                     var6 = var7.getGlyphIDs;
                     var3 = var6.bind(var7)(var4);
- 46:
-                    _fun0001_ip = 52; continue _fun0001;
- 48:
+case 4:
+                    _fun0001_ip = 6; continue _fun0001;
+case 2:
                     var3 = new Array(0);
- 52:
+case 6:
                     var _closure4_slot0 = var3;
                     var6 = new Array(0);
                     var8 = 0;
@@ -74,22 +74,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var3.bind(var6)(var1);
                     var3 = _closure2_slot0;
                     var3 = var5 !== var3;
-                    if(!var3) { _fun0001_ip = 135; continue _fun0001 }
- 114:
+                    if(!var3) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
                     var7 = _closure1_slot3;
                     var6 = _closure2_slot0;
                     var7 = var7[var6];
                     var6 = true;
                     var3 = var6 === var7;
- 135:
-                    if(var3) { _fun0001_ip = 152; continue _fun0001 }
- 138:
+case 7:
+                    if(var3) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
                     var6 = var1.length;
                     var4 = var4.length;
                     var3 = var6 === var4;
- 152:
-                    if(var3) { _fun0001_ip = 212; continue _fun0001 }
- 155:
+case 9:
+                    if(var3) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
                     var7 = _closure1_slot0;
                     var6 = _closure1_slot1;
                     var4 = 1;
@@ -99,13 +99,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var6.presentRemixLanguageSupportWarning;
                     var4 = var4.bind(var6)();
                     var4 = _closure2_slot0;
-                    if(!(var5 !== var4)) { _fun0001_ip = 212; continue _fun0001 }
- 198:
+                    if(!(var5 !== var4)) { _fun0001_ip = 11; continue _fun0001 }
+case 13:
                     var4 = _closure1_slot3;
                     var3 = _closure2_slot0;
                     var2 = true;
                     var4[var3] = var2;
- 212:
+case 11:
                     return var1;
                 }
             };

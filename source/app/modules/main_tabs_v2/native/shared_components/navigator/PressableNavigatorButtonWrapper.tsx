@@ -56,15 +56,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function PressableNavigatorButtonWrapper(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var5 = var1.children;
             var6 = var1.isModal;
             var4 = undefined;
-            if(!(var6 === var4)) { _fun0001_ip = 22; continue _fun0001 }
- 20:
+            if(!(var6 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = false;
- 22:
+case 2:
             var2 = _closure1_slot2;
             var7 = var2.bind(var4)();
             var3 = _closure1_slot1;
@@ -72,13 +72,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = {};
             var8 = false;
             var1['collapsable'] = var8;
-            if(var6) { _fun0001_ip = 61; continue _fun0001 }
- 53:
+            if(var6) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var6 = var7.buttonWrapper;
-            _fun0001_ip = 67; continue _fun0001;
- 61:
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
             var6 = var7.buttonWrapperModal;
- 67:
+case 6:
             var1['style'] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

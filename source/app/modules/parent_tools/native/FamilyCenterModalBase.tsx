@@ -96,7 +96,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function FamilyCenterModalBase(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var12 = var1.children;
             var17 = var1.footer;
@@ -171,8 +171,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = new Array(2);
             var10[0] = var11;
             var11 = null;
-            if(!(var4 !== var17)) { _fun0001_ip = 342; continue _fun0001 }
- 273:
+            if(!(var4 !== var17)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var14 = _closure1_slot5;
             var13 = _closure1_slot3;
             var12 = {};
@@ -189,7 +189,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var14.bind(var4)(var16, var15);
             var12['children'] = var15;
             var11 = var14.bind(var4)(var13, var12);
- 342:
+case 2:
             var10[1] = var11;
             var9['children'] = var10;
             var9 = var7.bind(var4)(var6, var9);

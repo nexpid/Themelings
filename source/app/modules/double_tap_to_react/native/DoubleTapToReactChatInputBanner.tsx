@@ -1,7 +1,7 @@
 // app/modules/double_tap_to_react/native/DoubleTapToReactChatInputBanner.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
         var5 = require;
         var11 = metroImportDefault;
         var3 = exports;
@@ -11,7 +11,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure1_slot2 = var6;
         var1 = function DoubleTapToReactChatInputBannerInner(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var24 = var1.emoji;
                 var13 = var1.handleDismissBanner;
@@ -59,17 +59,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var15 = null;
                 var16 = var15 == var14;
                 var14 = '';
-                if(!var16) { _fun0002_ip = 193; continue _fun0002 }
- 188:
+                if(!var16) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                 var14 = var24.surrogates;
- 193:
+case 2:
                 var8['name'] = var14;
                 var14 = var24.id;
-                if(!(var15 == var14)) { _fun0002_ip = 213; continue _fun0002 }
- 206:
+                if(!(var15 == var14)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                 var14 = var24.url;
-                _fun0002_ip = 280; continue _fun0002;
- 213:
+                _fun0002_ip = 6; continue _fun0002;
+case 4:
                 var16 = _closure1_slot1;
                 var17 = _closure1_slot2;
                 var15 = 12;
@@ -80,15 +80,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var19 = var24.id;
                 var15['id'] = var19;
                 var18 = !var18;
-                if(!var18) { _fun0002_ip = 262; continue _fun0002 }
- 256:
+                if(!var18) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
                 var18 = var24.animated;
- 262:
+case 7:
                 var15['animated'] = var18;
                 var18 = _closure1_slot8;
                 var15['size'] = var18;
                 var14 = var16.bind(var17)(var15);
- 280:
+case 6:
                 var8['src'] = var14;
                 var10 = var12.bind(var4)(var10, var8);
                 var8 = new Array(2);
@@ -350,10 +350,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var14 = var16.isIOS;
         var16 = var14.bind(var16)();
         var14 = 22;
-        if(!var16) { _fun0001_ip = 569; continue _fun0001 }
- 566:
+        if(!var16) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
         var14 = var15;
- 569:
+case 9:
         var9['fontSize'] = var14;
         var9['textAlign'] = var13;
         var12 = var6[var12];
@@ -361,10 +361,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var12 = var13.isIOS;
         var13 = var12.bind(var13)();
         var12 = undefined;
-        if(!var13) { _fun0001_ip = 605; continue _fun0001 }
- 602:
+        if(!var13) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
         var12 = 32;
- 605:
+case 11:
         var9['lineHeight'] = var12;
         var12 = var6[var10];
         var12 = var11.bind(var1)(var12);
@@ -399,7 +399,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var5.bind(var6)(var4);
         var2 = function DoubleTapToReactChatInputBanner() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var2 = _closure1_slot13;
                 var5 = undefined;
                 var14 = var2.bind(var5)();
@@ -475,19 +475,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3[2] = var2;
                 var2 = function() {
                     _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                         var4 = _closure2_slot1;
                         var3 = _closure2_slot4;
                         var2 = var3.set;
-                        if(var4) { _fun0004_ip = 28; continue _fun0004 }
- 19:
+                        if(var4) { _fun0004_ip = 13; continue _fun0004 }
+case 14:
                         var4 = 0;
                         var4 = var2.bind(var3)(var4);
-                        _fun0004_ip = 37; continue _fun0004;
- 28:
+                        _fun0004_ip = 15; continue _fun0004;
+case 13:
                         var1 = _closure2_slot2;
                         var1 = var2.bind(var3)(var1);
- 37:
+case 15:
                         var1 = undefined;
                         return var1;
                     }
@@ -498,11 +498,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var8.useAnimatedStyle;
                 var2 = function y() {
                     _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
                         var1 = _closure2_slot3;
                         var2 = {};
-                        if(var1) { _fun0005_ip = 132; continue _fun0005 }
- 12:
+                        if(var1) { _fun0005_ip = 16; continue _fun0005 }
+case 17:
                         var11 = _closure1_slot0;
                         var12 = _closure1_slot2;
                         var1 = 20;
@@ -530,14 +530,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var1 = var5.bind(var6)(var1, var4);
                         var2['height'] = var1;
                         var1 = var2;
-                        _fun0005_ip = 152; continue _fun0005;
- 132:
+                        _fun0005_ip = 18; continue _fun0005;
+case 16:
                         var4 = _closure2_slot4;
                         var3 = var4.get;
                         var3 = var3.bind(var4)();
                         var2['height'] = var3;
                         var1 = var2;
- 152:
+case 18:
                         return var1;
                     }
                 };
@@ -587,7 +587,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3[0] = var17;
                 var2 = function() {
                     _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
- 0:
+case 0:
                         var4 = _closure1_slot0;
                         var2 = _closure1_slot2;
                         var1 = 23;
@@ -598,8 +598,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = var2.bind(var4)();
                         var5 = _closure2_slot0;
                         var4 = null;
-                        if(!(var4 != var5)) { _fun0006_ip = 154; continue _fun0006 }
- 48:
+                        if(!(var4 != var5)) { _fun0006_ip = 19; continue _fun0006 }
+case 20:
                         var5 = _closure1_slot1;
                         var8 = _closure1_slot2;
                         var4 = 24;
@@ -624,7 +624,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var3['markAsDismissed'] = var2;
                         var2 = 'DoubleTapToReactActionSheet';
                         var2 = var5.bind(var6)(var4, var2, var3);
- 154:
+case 19:
                         return var1;
                     }
                 };
@@ -660,8 +660,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var16 = var3.bind(var4)(var1, var2);
                 var1 = null;
                 var2 = var1 == var17;
-                if(var2) { _fun0003_ip = 734; continue _fun0003 }
- 500:
+                if(var2) { _fun0003_ip = 21; continue _fun0003 }
+case 22:
                 var4 = _closure1_slot10;
                 var3 = _closure1_slot11;
                 var2 = {};
@@ -717,7 +717,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6[1] = var7;
                 var2['children'] = var6;
                 var1 = var4.bind(var5)(var3, var2);
- 734:
+case 21:
                 return var1;
             }
         };

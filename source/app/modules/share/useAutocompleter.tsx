@@ -107,24 +107,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4[1] = var1;
         var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var3 = _closure2_slot0;
                 var2 = null;
                 var2 = var2 != var3;
-                if(!var2) { _fun0001_ip = 33; continue _fun0001 }
- 16:
+                if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var4 = _closure2_slot0;
                 var3 = _closure2_slot2;
                 var3 = var3.options;
                 var2 = var4 !== var3;
- 33:
-                if(!var2) { _fun0001_ip = 55; continue _fun0001 }
- 36:
+case 2:
+                if(!var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var3 = _closure2_slot2;
                 var2 = var3.setOptions;
                 var1 = _closure2_slot0;
                 var1 = var2.bind(var3)(var1);
- 55:
+case 4:
                 var1 = undefined;
                 return var1;
             }
@@ -136,7 +136,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4[0] = var7;
         var3 = function(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var4 = var1.query;
                 var2 = var1.resultTypes;
@@ -144,21 +144,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var3.resultTypes;
                 var3 = null;
                 var3 = var3 != var5;
-                if(!var3) { _fun0002_ip = 64; continue _fun0002 }
- 37:
+                if(!var3) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                 var5 = _closure2_slot2;
                 var7 = var5.resultTypes;
                 var6 = function isArrayEqualSet(arg1, arg2) {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                         var4 = arg1;
                         var1 = arg2;
                         var _closure4_slot0 = var1;
                         var3 = var4.length;
                         var1 = var1.size;
                         var1 = var3 === var1;
-                        if(!var1) { _fun0003_ip = 47; continue _fun0003 }
- 29:
+                        if(!var1) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
                         var3 = var4.every;
                         var2 = function(arg1) {
                             var3 = _closure4_slot0;
@@ -168,15 +168,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             return var1;
                         };
                         var1 = var3.bind(var4)(var2);
- 47:
+case 8:
                         return var1;
                     }
                 };
                 var5 = undefined;
                 var3 = var6.bind(var5)(var2, var7);
- 64:
-                if(var3) { _fun0002_ip = 111; continue _fun0002 }
- 67:
+case 6:
+                if(var3) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
                 var5 = _closure2_slot2;
                 var3 = var5.setResultTypes;
                 var3 = var3.bind(var5)(var2);
@@ -184,21 +184,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = var2.length;
                 var2 = 20;
                 var6 = 1;
-                if(!(var6 === var7)) { _fun0002_ip = 106; continue _fun0002 }
- 103:
+                if(!(var6 === var7)) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
                 var2 = 50;
- 106:
+case 12:
                 var2 = var3.bind(var5)(var2);
- 111:
+case 10:
                 var3 = _closure2_slot2;
                 var2 = var3.search;
                 var1 = var4.trim;
                 var5 = var1.bind(var4)();
                 var1 = '';
-                if(!(var1 !== var5)) { _fun0002_ip = 142; continue _fun0002 }
- 139:
+                if(!(var1 !== var5)) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
                 var1 = var4;
- 142:
+case 14:
                 var1 = var2.bind(var3)(var1);
                 var1 = undefined;
                 return var1;

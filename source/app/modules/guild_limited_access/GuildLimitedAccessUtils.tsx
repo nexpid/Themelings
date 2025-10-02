@@ -25,28 +25,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function isLimitedAccessErrorCode(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg2;
             var2 = 403;
             var1 = arg1;
             var1 = var2 === var1;
-            if(!var1) { _fun0001_ip = 25; continue _fun0001 }
- 19:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = null;
             var1 = var2 != var3;
- 25:
-            if(!var1) { _fun0001_ip = 45; continue _fun0001 }
- 28:
+case 2:
+            if(!var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = _closure1_slot0;
             var2 = var2.GUILD_LIMITED_ACCESS_DEFAULT;
             var1 = var3 >= var2;
- 45:
-            if(!var1) { _fun0001_ip = 65; continue _fun0001 }
- 48:
+case 4:
+            if(!var1) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var2 = _closure1_slot0;
             var2 = var2.GUILD_LIMITED_ACCESS_MAX;
             var1 = var3 <= var2;
- 65:
+case 6:
             return var1;
         }
     };

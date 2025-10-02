@@ -7,7 +7,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var4;
     var1 = function _rewardRedemptionInstructionsFromServer(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var9 = arg1;
             var1 = {};
             var8 = global;
@@ -19,8 +19,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var6 < var2;
             var5 = undefined;
             var3 = 0;
-            if(!var2) { _fun0001_ip = 115; continue _fun0001 }
- 44:
+            if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var7[var3];
             var10 = var8.parseInt;
             var10 = var10.bind(var5)(var2);
@@ -31,15 +31,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var11.QUEST_REWARD_CODE_PLATFORMS_SET;
             var11 = var12.has;
             var11 = var11.bind(var12)(var10);
-            if(!var11) { _fun0001_ip = 103; continue _fun0001 }
- 95:
+            if(!var11) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = var9[var2];
             var1[var10] = var2;
- 103:
+case 4:
             var3 = var3 + 1;
             var2 = var7.length;
-            if(var3 < var2) { _fun0001_ip = 44; continue _fun0001 }
- 115:
+            if(var3 < var2) { _fun0001_ip = 3; continue _fun0001 }
+case 2:
             return var1;
         }
     };
@@ -54,7 +54,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = var7.bind(var8)(var3, var1, var6);
     var1 = function _questRewardV2FromServer(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var2 = arg1;
             var3 = var2.type;
             var5 = _closure1_slot0;
@@ -65,42 +65,42 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var5.bind(var6)(var1);
             var1 = var1.QuestRewardTypes;
             var1 = var1.REWARD_CODE;
-            if(!(var1 !== var3)) { _fun0002_ip = 772; continue _fun0002 }
- 52:
+            if(!(var1 !== var3)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var5 = _closure1_slot0;
             var1 = _closure1_slot1;
             var1 = var1[var7];
             var1 = var5.bind(var6)(var1);
             var1 = var1.QuestRewardTypes;
             var1 = var1.COLLECTIBLE;
-            if(!(var1 !== var3)) { _fun0002_ip = 600; continue _fun0002 }
- 88:
+            if(!(var1 !== var3)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var5 = _closure1_slot0;
             var1 = _closure1_slot1;
             var1 = var1[var7];
             var1 = var5.bind(var6)(var1);
             var1 = var1.QuestRewardTypes;
             var1 = var1.VIRTUAL_CURRENCY;
-            if(!(var1 !== var3)) { _fun0002_ip = 476; continue _fun0002 }
- 124:
+            if(!(var1 !== var3)) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
             var5 = _closure1_slot0;
             var1 = _closure1_slot1;
             var1 = var1[var7];
             var1 = var5.bind(var6)(var1);
             var1 = var1.QuestRewardTypes;
             var1 = var1.FRACTIONAL_PREMIUM;
-            if(!(var1 !== var3)) { _fun0002_ip = 330; continue _fun0002 }
- 160:
+            if(!(var1 !== var3)) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
             var5 = _closure1_slot0;
             var1 = _closure1_slot1;
             var1 = var1[var7];
             var1 = var5.bind(var6)(var1);
             var1 = var1.QuestRewardTypes;
             var1 = var1.IN_GAME;
-            if(!(var1 !== var3)) { _fun0002_ip = 195; continue _fun0002 }
- 193:
+            if(!(var1 !== var3)) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
             return var6;
- 195:
+case 14:
             var1 = {};
             var5 = _closure1_slot0;
             var3 = _closure1_slot1;
@@ -129,7 +129,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['nameWithArticle'] = var5;
             var1['messages'] = var3;
             return var1;
- 330:
+case 12:
             var1 = {};
             var5 = _closure1_slot0;
             var3 = _closure1_slot1;
@@ -160,7 +160,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['nameWithArticle'] = var5;
             var1['messages'] = var3;
             return var1;
- 476:
+case 10:
             var1 = {};
             var5 = _closure1_slot0;
             var3 = _closure1_slot1;
@@ -187,7 +187,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var2.orb_quantity;
             var1['orbQuantity'] = var3;
             return var1;
- 600:
+case 8:
             var1 = {};
             var5 = _closure1_slot0;
             var3 = _closure1_slot1;
@@ -222,7 +222,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var2.expires_at_premium;
             var1['expiresAtPremium'] = var3;
             return var1;
- 772:
+case 6:
             var1 = {};
             var5 = _closure1_slot0;
             var3 = _closure1_slot1;

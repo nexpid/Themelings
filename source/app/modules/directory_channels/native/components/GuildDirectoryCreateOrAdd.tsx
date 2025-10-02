@@ -430,7 +430,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function GuildDirectoryCreateOrAdd(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var _closure2_slot0 = var3;
             var1 = _closure1_slot12;
@@ -497,16 +497,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11[2] = var3;
             var10 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = _closure2_slot6;
                     var1 = 0;
-                    if(!(var1 !== var3)) { _fun0002_ip = 19; continue _fun0002 }
- 13:
+                    if(!(var1 !== var3)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var1 = _closure2_slot4;
-                    _fun0002_ip = 23; continue _fun0002;
- 19:
+                    _fun0002_ip = 4; continue _fun0002;
+case 2:
                     var1 = _closure2_slot3;
- 23:
+case 4:
                     return var1;
                 }
             };
@@ -564,7 +564,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10[2] = var3;
             var4 = function(arg1) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var2 = arg1;
                     var1 = var2.item;
                     var4 = var2.index;
@@ -580,8 +580,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var4 === var1;
                     var6['end'] = var1;
                     var1 = _closure2_slot6;
-                    if(!(var3 !== var1)) { _fun0003_ip = 115; continue _fun0003 }
- 64:
+                    if(!(var3 !== var1)) { _fun0003_ip = 5; continue _fun0003 }
+case 6:
                     var5 = _closure1_slot10;
                     var4 = _closure1_slot14;
                     var3 = {};
@@ -611,8 +611,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3[var1] = var7;
                     var1 = undefined;
                     var1 = var5.bind(var1)(var4, var3);
-                    _fun0003_ip = 170; continue _fun0003;
- 115:
+                    _fun0003_ip = 7; continue _fun0003;
+case 5:
                     var5 = _closure1_slot10;
                     var4 = _closure1_slot13;
                     var3 = {};
@@ -626,7 +626,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3[var2] = var6;
                     var2 = undefined;
                     var1 = var5.bind(var2)(var4, var3);
- 170:
+case 7:
                     return var1;
                 }
             };
@@ -668,8 +668,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var12 = var4.bind(var8)(var2, var3);
             var4 = _closure1_slot10;
-            if(var1) { _fun0001_ip = 519; continue _fun0001 }
- 390:
+            if(var1) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 21;
@@ -700,8 +700,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var9.bind(var5)(var8, var3);
             var1['children'] = var3;
             var1 = var4.bind(var5)(var2, var1);
-            _fun0001_ip = 557; continue _fun0001;
- 519:
+            _fun0001_ip = 10; continue _fun0001;
+case 8:
             var3 = _closure1_slot5;
             var2 = {};
             var7 = var7.loadingContainer;
@@ -711,7 +711,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var4.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 557:
+case 10:
             return var1;
         }
     };

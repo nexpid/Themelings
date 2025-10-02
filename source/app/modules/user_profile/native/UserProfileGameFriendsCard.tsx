@@ -44,7 +44,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function UserProfileGameFriendsCard(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = var1.applicationIds;
             var9 = var1.style;
@@ -71,18 +71,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot0 = var7;
             var1 = var7.length;
             var3 = 0;
-            if(!(var3 !== var1)) { _fun0001_ip = 586; continue _fun0001 }
- 101:
+            if(!(var3 !== var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = 'text-md/normal';
             _closure2_slot1 = var1;
             var1 = var7.length;
             var2 = 1;
-            if(!(var2 !== var1)) { _fun0001_ip = 358; continue _fun0001 }
- 126:
+            if(!(var2 !== var1)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var8 = var7.length;
             var1 = 2;
-            if(!(var1 !== var8)) { _fun0001_ip = 270; continue _fun0001 }
- 141:
+            if(!(var1 !== var8)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var1 = var7.length;
             var1 = var1 - var2;
             var1 = var7[var1];
@@ -151,8 +151,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var1['applicationNameLast'] = var8;
             var7 = var3.bind(var7)(var2, var1);
-            _fun0001_ip = 430; continue _fun0001;
- 270:
+            _fun0001_ip = 8; continue _fun0001;
+case 6:
             var2 = _closure1_slot0;
             var11 = _closure1_slot2;
             var1 = 4;
@@ -212,8 +212,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var1['applicationName2'] = var11;
             var7 = var3.bind(var8)(var2, var1);
-            _fun0001_ip = 430; continue _fun0001;
- 358:
+            _fun0001_ip = 8; continue _fun0001;
+case 4:
             var2 = _closure1_slot0;
             var11 = _closure1_slot2;
             var1 = 4;
@@ -250,7 +250,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var1['applicationName'] = var10;
             var7 = var3.bind(var8)(var2, var1);
- 430:
+case 8:
             var3 = _closure1_slot3;
             var2 = _closure1_slot1;
             var8 = _closure1_slot2;
@@ -285,7 +285,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
- 586:
+case 2:
             var1 = null;
             return var1;
         }

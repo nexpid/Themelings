@@ -37,7 +37,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function Dialog(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var7 = var3.dialogKey;
             var9 = var3.onDismiss;
@@ -68,10 +68,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = true;
             var1['accessibilityViewIsModal'] = var10;
             var1['onAccessibilityEscape'] = var9;
-            if(!(var8 != var7)) { _fun0001_ip = 128; continue _fun0001 }
- 125:
+            if(!(var8 != var7)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = var7;
- 128:
+case 2:
             var1['nativeID'] = var6;
             var13 = var1;
             var12 = var5;

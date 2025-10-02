@@ -32,7 +32,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useVideoSpinnerTimer(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var3 = var1.location;
             var _closure2_slot0 = var3;
@@ -46,10 +46,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot4 = var11;
             var10 = var1.paused;
             var1 = undefined;
-            if(!(var10 === var1)) { _fun0001_ip = 67; continue _fun0001 }
- 65:
+            if(!(var10 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var10 = false;
- 67:
+case 2:
             var _closure2_slot5 = var10;
             var _closure2_slot6 = var1;
             var5 = _closure1_slot3;
@@ -87,29 +87,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[5] = var6;
             var2 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var2 = _closure2_slot5;
-                    if(var2) { _fun0002_ip = 76; continue _fun0002 }
- 10:
+                    if(var2) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var2 = _closure2_slot4;
-                    if(var2) { _fun0002_ip = 60; continue _fun0002 }
- 17:
+                    if(var2) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var3 = _closure2_slot3;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0002_ip = 76; continue _fun0002 }
- 27:
+                    if(!(var2 != var3)) { _fun0002_ip = 4; continue _fun0002 }
+case 8:
                     var6 = _closure2_slot6;
                     var5 = var6.trackSpinnerDuration;
                     var4 = _closure2_slot1;
                     var3 = _closure2_slot2;
                     var2 = _closure2_slot3;
                     var2 = var5.bind(var6)(var4, var3, var2);
-                    _fun0002_ip = 76; continue _fun0002;
- 60:
+                    _fun0002_ip = 4; continue _fun0002;
+case 6:
                     var2 = _closure2_slot6;
                     var1 = var2.onSpinnerStarted;
                     var1 = var1.bind(var2)();
- 76:
+case 4:
                     var1 = undefined;
                     return var1;
                 }

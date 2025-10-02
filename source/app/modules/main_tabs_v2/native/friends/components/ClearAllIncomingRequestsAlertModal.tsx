@@ -25,11 +25,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = function* () {
             var1 = function* anon_0_() {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 58; continue _fun0001 }
- 7:
+                    if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
                     var2 = 3;
@@ -39,16 +39,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var4.clearPendingRelationships;
                     var2 = var2.bind(var4)();
                     SaveGenerator(address=46);
- 44:
+case 4:
                     return var2;
- 46:
+case 5:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0001_ip = 55; continue _fun0001 }
- 52:
+                    if(var4) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                     return var3;
- 55:
+case 6:
                     return var2;
- 58:
+case 2:
                     return var1;
                 }
             };

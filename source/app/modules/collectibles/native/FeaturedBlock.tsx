@@ -120,7 +120,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6['androidRippleConfig'] = var11;
         var9 = function onPress() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var3 = _closure1_slot1;
                 var4 = _closure1_slot2;
                 var1 = 8;
@@ -135,11 +135,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = null;
                 var9 = var3 == var8;
                 var8 = undefined;
-                if(var9) { _fun0001_ip = 70; continue _fun0001 }
- 60:
+                if(var9) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var9 = _closure2_slot3;
                 var8 = var9.sessionId;
- 70:
+case 2:
                 var1['collectibles_shop_session_id'] = var8;
                 var8 = _closure2_slot0;
                 var8 = var8.categoryStoreListingId;
@@ -149,20 +149,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = _closure2_slot3;
                 var9 = var3 == var8;
                 var8 = undefined;
-                if(var9) { _fun0001_ip = 124; continue _fun0001 }
- 114:
+                if(var9) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var9 = _closure2_slot3;
                 var8 = var9.pageSection;
- 124:
+case 4:
                 var1['page_section'] = var8;
                 var8 = _closure2_slot3;
                 var9 = var3 == var8;
                 var8 = undefined;
-                if(var9) { _fun0001_ip = 152; continue _fun0001 }
- 142:
+                if(var9) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                 var9 = _closure2_slot3;
                 var8 = var9.pageCategory;
- 152:
+case 6:
                 var1['page_category'] = var8;
                 var8 = 'FEATURED_BLOCK';
                 var1['tile_type'] = var8;
@@ -171,19 +171,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = _closure2_slot3;
                 var11 = var3 == var8;
                 var8 = undefined;
-                if(var11) { _fun0001_ip = 199; continue _fun0001 }
- 189:
+                if(var11) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
                 var11 = _closure2_slot3;
                 var8 = var11.tilePosition;
- 199:
+case 8:
                 var8 = var9.bind(var10)(var8);
                 var1['tile_position'] = var8;
                 var1['cta_name'] = var3;
                 var1 = var5.bind(var7)(var4, var1);
                 var1 = _closure2_slot1;
                 var1 = var3 != var1;
-                if(!var1) { _fun0001_ip = 276; continue _fun0001 }
- 231:
+                if(!var1) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
                 var5 = _closure2_slot2;
                 var4 = var5.push;
                 var2 = _closure1_slot5;
@@ -194,7 +194,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = _closure2_slot3;
                 var2['analyticsContext'] = var6;
                 var1 = var4.bind(var5)(var3, var2);
- 276:
+case 10:
                 var1 = undefined;
                 return var1;
             }

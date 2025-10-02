@@ -100,7 +100,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['showEditBenefitModal'] = var4;
     var2 = function showEditEmojisModal(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var10 = var1.guildId;
             var9 = var1.subscriptionRoleId;
@@ -126,8 +126,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['guildId'] = var10;
             var3['subscriptionRoleId'] = var9;
             var9 = null;
-            if(!(var9 == var8)) { _fun0001_ip = 142; continue _fun0001 }
- 114:
+            if(!(var9 == var8)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var9 = global;
             var9 = var9.Set;
             var10 = var9.prototype;
@@ -135,7 +135,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var10;
             var9 = new var15[var9](var14);
             var8 = var9 instanceof Object ? var9 : var10;
- 142:
+case 2:
             var3['initialTierEmojiIds'] = var8;
             var3['listingId'] = var7;
             var3['onSave'] = var2;

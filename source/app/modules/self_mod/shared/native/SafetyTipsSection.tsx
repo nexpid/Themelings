@@ -75,7 +75,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function SafetyTipsContainer(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var16 = var1.description;
             var11 = var1.safetyTips;
@@ -114,8 +114,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var7.Stack;
             var7 = {'spacing': 8, 'align': 'center', 'justify': 'center'};
             var21 = 8;
-            if(!var8) { _fun0001_ip = 283; continue _fun0001 }
- 177:
+            if(!var8) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var15 = _closure1_slot4;
             var20 = _closure1_slot0;
             var17 = _closure1_slot2;
@@ -139,7 +139,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17 = var18.bind(var19)(var17);
             var13['children'] = var17;
             var8 = var15.bind(var4)(var14, var13);
- 283:
+case 2:
             var13 = new Array(2);
             var13[0] = var8;
             var8 = _closure1_slot4;

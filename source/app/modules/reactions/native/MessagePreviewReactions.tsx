@@ -39,7 +39,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function _default(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var12 = var1.channelId;
             var11 = var1.messageId;
@@ -61,19 +61,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2[0] = var6;
                 var1 = function() {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                         var4 = _closure1_slot3;
                         var3 = var4.getMessage;
                         var2 = _closure3_slot0;
                         var2 = var3.bind(var4)(var2);
                         var3 = null;
-                        if(!(var3 == var2)) { _fun0002_ip = 37; continue _fun0002 }
- 31:
+                        if(!(var3 == var2)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                         var1 = _closure1_slot5;
-                        _fun0002_ip = 43; continue _fun0002;
- 37:
+                        _fun0002_ip = 4; continue _fun0002;
+case 2:
                         var1 = var2.reactions;
- 43:
+case 4:
                         return var1;
                     }
                 };
@@ -102,8 +102,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['value'] = var5;
             var7 = var9.length;
             var5 = 0;
-            if(!(!(var7 > var5))) { _fun0001_ip = 166; continue _fun0001 }
- 126:
+            if(!(!(var7 > var5))) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var8 = _closure1_slot4;
             var7 = _closure1_slot0;
             var13 = _closure1_slot2;
@@ -113,8 +113,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var5.MessageReactionsEmpty;
             var5 = {};
             var5 = var8.bind(var4)(var7, var5);
-            _fun0001_ip = 221; continue _fun0001;
- 166:
+            _fun0001_ip = 7; continue _fun0001;
+case 5:
             var8 = _closure1_slot4;
             var7 = _closure1_slot0;
             var13 = _closure1_slot2;
@@ -128,7 +128,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6['emoji'] = var10;
             var6['reactions'] = var9;
             var5 = var8.bind(var4)(var7, var6);
- 221:
+case 7:
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

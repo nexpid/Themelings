@@ -27,7 +27,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function canUserSeeMonetizationOnboarding(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var10 = var4.ownerId;
             var3 = _closure1_slot2;
@@ -37,10 +37,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3 == var2;
             var7 = undefined;
             var9 = undefined;
-            if(var3) { _fun0001_ip = 43; continue _fun0001 }
- 38:
+            if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var9 = var2.id;
- 43:
+case 2:
             var6 = _closure1_slot0;
             var8 = _closure1_slot1;
             var5 = 1;

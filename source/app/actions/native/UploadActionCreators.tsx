@@ -49,7 +49,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['restoreFailedUpload'] = var7;
     var7 = function cancel(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg2;
             var6 = _closure1_slot0;
             var1 = _closure1_slot1;
@@ -70,8 +70,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.id;
             var6 = var3.bind(var6)(var2);
             var2 = null;
-            if(!(var2 != var6)) { _fun0001_ip = 198; continue _fun0001 }
- 86:
+            if(!(var2 != var6)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var8 = _closure1_slot2;
             var7 = var8.getDraft;
             var3 = var6.channel_id;
@@ -79,8 +79,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.ChannelMessage;
             var3 = var7.bind(var8)(var3, var2);
             var2 = '';
-            if(!(var2 === var3)) { _fun0001_ip = 198; continue _fun0001 }
- 125:
+            if(!(var2 === var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var3 = _closure1_slot0;
             var2 = _closure1_slot1;
             var2 = var2[var4];
@@ -97,7 +97,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.ChannelMessage;
             var2['draftType'] = var5;
             var2 = var3.bind(var4)(var2);
- 198:
+case 2:
             return var1;
         }
     };

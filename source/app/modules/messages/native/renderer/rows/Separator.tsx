@@ -53,7 +53,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function generateSeparatorRowData(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var5 = var1.rowType;
             var2 = var1.changeType;
@@ -63,16 +63,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var7.bind(var3)(var4);
             var7 = _closure1_slot3;
             var7 = var7.DAY;
-            if(!(var7 !== var5)) { _fun0001_ip = 225; continue _fun0001 }
- 49:
+            if(!(var7 !== var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var7 = _closure1_slot3;
             var7 = var7.UNREAD;
-            if(!(var7 !== var5)) { _fun0001_ip = 179; continue _fun0001 }
- 63:
+            if(!(var7 !== var5)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var7 = _closure1_slot3;
             var7 = var7.SUMMARY;
-            if(!(var7 !== var5)) { _fun0001_ip = 110; continue _fun0001 }
- 77:
+            if(!(var7 !== var5)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
             var7 = 3;
@@ -81,7 +81,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var8.assertNever;
             var7 = var7.bind(var8)(var5);
             return var3;
- 110:
+case 6:
             var8 = var1.summary;
             var7 = var1.isBeforeContent;
             var3 = {};
@@ -97,7 +97,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['isBeforeContent'] = var7;
             var3['changeType'] = var2;
             return var3;
- 179:
+case 4:
             var7 = var1.text;
             var3 = {};
             var8 = _closure1_slot2;
@@ -109,7 +109,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['changeType'] = var2;
             var3['text'] = var7;
             return var3;
- 225:
+case 2:
             var3 = var1.text;
             var1 = {};
             var6 = _closure1_slot2;

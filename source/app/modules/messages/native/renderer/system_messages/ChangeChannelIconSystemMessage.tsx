@@ -28,7 +28,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function createChangeChannelIconSystemMessage(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var12 = var4.message;
             var5 = var4.theme;
@@ -64,20 +64,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = null;
             var6 = var13 == var7;
             var5 = undefined;
-            if(var6) { _fun0001_ip = 178; continue _fun0001 }
- 153:
+            if(var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = var7.isGroupDM;
             var6 = var13 == var6;
             var5 = undefined;
-            if(var6) { _fun0001_ip = 178; continue _fun0001 }
- 168:
+            if(var6) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var6 = var7.isGroupDM;
             var5 = var6.bind(var7)();
- 178:
-            if(!(var13 != var5)) { _fun0001_ip = 185; continue _fun0001 }
- 182:
-            if(var5) { _fun0001_ip = 255; continue _fun0001 }
- 185:
+case 2:
+            if(!(var13 != var5)) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
+            if(var5) { _fun0001_ip = 7; continue _fun0001 }
+case 5:
             var6 = _closure1_slot0;
             var9 = _closure1_slot2;
             var5 = 3;
@@ -93,8 +93,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['username'] = var15;
             var5['usernameOnClick'] = var10;
             var5 = var7.bind(var8)(var6, var5);
-            _fun0001_ip = 377; continue _fun0001;
- 255:
+            _fun0001_ip = 8; continue _fun0001;
+case 7:
             var7 = _closure1_slot0;
             var16 = _closure1_slot2;
             var6 = 3;
@@ -114,17 +114,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10['action'] = var15;
             var15 = var13 == var14;
             var13 = undefined;
-            if(var15) { _fun0001_ip = 346; continue _fun0001 }
- 340:
+            if(var15) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var13 = var14.linkColor;
- 346:
+case 9:
             var10['linkColor'] = var13;
             var12 = var12.channel_id;
             var10['messageChannelId'] = var12;
             var10['medium'] = var11;
             var6['onEditGroup'] = var10;
             var5 = var8.bind(var9)(var7, var6);
- 377:
+case 8:
             var1['content'] = var5;
             var5 = _closure1_slot1;
             var6 = _closure1_slot2;

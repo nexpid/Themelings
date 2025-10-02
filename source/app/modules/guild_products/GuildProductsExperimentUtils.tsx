@@ -27,7 +27,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function useGuildEligibleForGuildProducts(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var3 = _closure1_slot0;
             var2 = _closure1_slot1;
@@ -39,10 +39,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.useExperiment;
             var1 = {};
             var6 = null;
-            if(!(var6 == var4)) { _fun0001_ip = 52; continue _fun0001 }
- 48:
+            if(!(var6 == var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = _closure1_slot2;
- 52:
+case 2:
             var1['guildId'] = var4;
             var4 = arg2;
             var1['location'] = var4;
@@ -54,7 +54,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['useGuildEligibleForGuildProducts'] = var4;
     var2 = function isGuildEligibleForGuildProducts(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var4 = arg1;
             var3 = _closure1_slot0;
             var2 = _closure1_slot1;
@@ -66,10 +66,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.getCurrentConfig;
             var1 = {};
             var6 = null;
-            if(!(var6 == var4)) { _fun0002_ip = 52; continue _fun0002 }
- 48:
+            if(!(var6 == var4)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
             var4 = _closure1_slot2;
- 52:
+case 2:
             var1['guildId'] = var4;
             var4 = arg2;
             var1['location'] = var4;

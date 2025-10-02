@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function CountryCodeSelector(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = var1.show;
             var3 = var1.alpha2;
@@ -22,18 +22,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var1 != var3;
             var7 = '';
             var6 = var7;
-            if(!var4) { _fun0001_ip = 58; continue _fun0001 }
- 55:
+            if(!var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = var3;
- 58:
+case 2:
             var3 = global;
             var3 = var3.HermesInternal;
             var4 = var3.concat;
             var3 = ' ';
             var17 = var4.bind(var7)(var6, var3, var8);
             var1 = null;
-            if(!var2) { _fun0001_ip = 379; continue _fun0001 }
- 90:
+            if(!var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var4 = _closure1_slot5;
             var3 = _closure1_slot4;
             var2 = {};
@@ -98,7 +98,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var8.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 379:
+case 4:
             return var1;
         }
     };
@@ -173,7 +173,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var8.forwardRef;
     var2 = function(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var4 = arg1;
             var5 = var4.style;
             var16 = var4.textInputStyle;
@@ -202,7 +202,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var22 = copyDataProperties(var25, var24, var23);
             var19 = function handleChangeText(arg1) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var4 = arg1;
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
@@ -214,17 +214,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = _closure2_slot4;
                     var5 = var5.bind(var6)(var3, var4);
                     var3 = '';
-                    if(!var5) { _fun0003_ip = 58; continue _fun0003 }
- 54:
+                    if(!var5) { _fun0003_ip = 2; continue _fun0003 }
+case 6:
                     var3 = _closure2_slot2;
- 58:
+case 2:
                     var6 = _closure2_slot0;
                     var5 = null;
-                    if(!(var5 != var6)) { _fun0003_ip = 78; continue _fun0003 }
- 68:
+                    if(!(var5 != var6)) { _fun0003_ip = 7; continue _fun0003 }
+case 8:
                     var2 = _closure2_slot0;
                     var2 = var2.bind(var1)(var4, var3);
- 78:
+case 7:
                     return var1;
                 }
             };
@@ -275,8 +275,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['style'] = var5;
             var5 = var6 != var15;
             var8 = null;
-            if(!var5) { _fun0002_ip = 324; continue _fun0002 }
- 279:
+            if(!var5) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
             var12 = _closure1_slot5;
             var9 = _closure1_slot1;
             var13 = _closure1_slot2;
@@ -288,7 +288,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['style'] = var13;
             var5['children'] = var15;
             var8 = var12.bind(var4)(var9, var5);
- 324:
+case 9:
             var5 = new Array(4);
             var5[0] = var8;
             var12 = _closure1_slot5;
@@ -341,10 +341,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var13.PhoneOrEmailSelectorForceMode;
             var13 = var13.PHONE;
             var16 = 'emailAddress';
-            if(!(var17 === var13)) { _fun0002_ip = 495; continue _fun0002 }
- 489:
+            if(!(var17 === var13)) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
             var16 = 'telephoneNumber';
- 495:
+case 11:
             var13 = 'textContentType';
             var8[var13] = var16;
             var16 = _closure1_slot0;
@@ -354,10 +354,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var13.PhoneOrEmailSelectorForceMode;
             var13 = var13.PHONE;
             var16 = 'email-address';
-            if(!(var17 === var13)) { _fun0002_ip = 549; continue _fun0002 }
- 543:
+            if(!(var17 === var13)) { _fun0002_ip = 13; continue _fun0002 }
+case 14:
             var16 = 'phone-pad';
- 549:
+case 13:
             var13 = 'keyboardType';
             var8[var13] = var16;
             var13 = 'accessibilityLabel';
@@ -368,8 +368,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5[1] = var8;
             var9 = var6 != var14;
             var8 = null;
-            if(!var9) { _fun0002_ip = 640; continue _fun0002 }
- 595:
+            if(!var9) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
             var13 = _closure1_slot5;
             var12 = _closure1_slot1;
             var15 = _closure1_slot2;
@@ -381,12 +381,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9['style'] = var15;
             var9['children'] = var14;
             var8 = var13.bind(var4)(var12, var9);
- 640:
+case 15:
             var5[2] = var8;
             var8 = var6 != var10;
             var6 = null;
-            if(!var8) { _fun0002_ip = 718; continue _fun0002 }
- 653:
+            if(!var8) { _fun0002_ip = 17; continue _fun0002 }
+case 18:
             var9 = _closure1_slot5;
             var8 = _closure1_slot0;
             var12 = _closure1_slot2;
@@ -399,7 +399,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7['style'] = var11;
             var7['children'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 718:
+case 17:
             var5[3] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

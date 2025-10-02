@@ -41,18 +41,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3[1] = var5;
         var2 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var2 = _closure2_slot1;
-                if(!var2) { _fun0001_ip = 189; continue _fun0001 }
- 13:
+                if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var3 = _closure2_slot0;
                 var2 = _closure2_slot2;
-                if(var3) { _fun0001_ip = 125; continue _fun0001 }
- 24:
+                if(var3) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var4 = var2.current;
                 var3 = null;
-                if(!(var3 != var4)) { _fun0001_ip = 189; continue _fun0001 }
- 38:
+                if(!(var3 != var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 6:
                 var4 = global;
                 var5 = var4.Date;
                 var4 = var5.now;
@@ -72,8 +72,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4['dwellTimeMs'] = var7;
                 var4 = var5.bind(var6)(var4);
                 var1['current'] = var3;
-                _fun0001_ip = 189; continue _fun0001;
- 125:
+                _fun0001_ip = 2; continue _fun0001;
+case 4:
                 var1 = global;
                 var3 = var1.Date;
                 var1 = var3.now;
@@ -88,7 +88,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var1.ICYMIAnalytics;
                 var1 = var2.trackFeedEmptyLoadingSeen;
                 var1 = var1.bind(var2)();
- 189:
+case 2:
                 var1 = undefined;
                 return var1;
             }
@@ -99,15 +99,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[0] = var5;
         var1 = function() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var2 = _closure2_slot1;
-                if(var2) { _fun0002_ip = 110; continue _fun0002 }
- 10:
+                if(var2) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
                 var2 = _closure2_slot2;
                 var3 = var2.current;
                 var2 = null;
-                if(!(var2 != var3)) { _fun0002_ip = 110; continue _fun0002 }
- 25:
+                if(!(var2 != var3)) { _fun0002_ip = 7; continue _fun0002 }
+case 9:
                 var3 = global;
                 var4 = var3.Date;
                 var3 = var4.now;
@@ -127,7 +127,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3['dwellTimeMs'] = var6;
                 var3 = var4.bind(var5)(var3);
                 var1['current'] = var2;
- 110:
+case 7:
                 var1 = undefined;
                 return var1;
             }

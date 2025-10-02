@@ -1,7 +1,7 @@
 // app/design/components/experimental/Pressables/native/AnimatedPressableHighlight.native.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
         var5 = require;
         var7 = metroImportDefault;
         var3 = exports;
@@ -48,8 +48,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var5.bind(var1)(var2);
         var2 = var7.isAndroid;
         var2 = var2.bind(var7)();
-        if(var2) { _fun0001_ip = 197; continue _fun0001 }
- 190:
+        if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
         var2 = function AnimatedPressableHighlightiOS(arg1) {
             var3 = arg1;
             var6 = var3.children;
@@ -94,11 +94,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         };
-        _fun0001_ip = 202; continue _fun0001;
- 197:
+        _fun0001_ip = 4; continue _fun0001;
+case 2:
         var2 = function AnimatedPressableHighlightAndroid(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var4 = arg1;
                 var6 = var4.children;
                 var9 = null;
@@ -132,14 +132,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var10 = var5.androidRippleConfig;
                 var11 = var9 == var10;
                 var9 = undefined;
-                if(var11) { _fun0002_ip = 142; continue _fun0002 }
- 136:
+                if(var11) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
                 var9 = var10.cornerRadius;
- 142:
+case 5:
                 var3[1] = var9;
                 var2 = function() {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                         var1 = {};
                         var3 = _closure2_slot1;
                         var1['color'] = var3;
@@ -148,16 +148,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = null;
                         var5 = var2 == var4;
                         var3 = undefined;
-                        if(var5) { _fun0003_ip = 40; continue _fun0003 }
- 34:
+                        if(var5) { _fun0003_ip = 7; continue _fun0003 }
+case 8:
                         var3 = var4.cornerRadius;
- 40:
+case 7:
                         var4 = var2 != var3;
                         var2 = 12;
-                        if(!var4) { _fun0003_ip = 53; continue _fun0003 }
- 50:
+                        if(!var4) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
                         var2 = var3;
- 53:
+case 9:
                         var1['cornerRadius'] = var2;
                         return var1;
                     }
@@ -176,7 +176,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             }
         };
- 202:
+case 4:
         var4 = 9;
         var4 = var6[var4];
         var6 = var5.bind(var1)(var4);

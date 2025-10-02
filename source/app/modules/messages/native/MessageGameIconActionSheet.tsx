@@ -1,7 +1,7 @@
 // app/modules/messages/native/MessageGameIconActionSheet.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
         var5 = require;
         var13 = metroImportDefault;
         var3 = exports;
@@ -55,10 +55,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var12 = var14.isAndroid;
         var14 = var12.bind(var14)();
         var12 = 0;
-        if(!var14) { _fun0001_ip = 225; continue _fun0001 }
- 222:
+        if(!var14) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
         var12 = 16;
- 225:
+case 2:
         var9['paddingBottom'] = var12;
         var4['contentWrapper'] = var9;
         var9 = {};
@@ -95,7 +95,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var5.bind(var6)(var4);
         var2 = function _default(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var2 = arg1;
                 var3 = var2.applicationId;
                 var _closure2_slot0 = var3;
@@ -123,8 +123,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var14 = null;
                 var2 = var14 == var24;
                 var1 = null;
-                if(var2) { _fun0002_ip = 621; continue _fun0002 }
- 97:
+                if(var2) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                 var4 = _closure1_slot6;
                 var3 = _closure1_slot0;
                 var13 = _closure1_slot2;
@@ -155,18 +155,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var13 = {};
                 var16 = var14 == var24;
                 var15 = undefined;
-                if(var16) { _fun0002_ip = 230; continue _fun0002 }
- 216:
+                if(var16) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                 var19 = var24.getIconURL;
                 var16 = 56;
                 var15 = var19.bind(var24)(var16);
- 230:
+case 6:
                 var16 = var14 != var15;
                 var14 = '';
-                if(!var16) { _fun0002_ip = 244; continue _fun0002 }
- 241:
+                if(!var16) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                 var14 = var15;
- 244:
+case 8:
                 var13['uri'] = var14;
                 var10['source'] = var13;
                 var10['disableColor'] = var12;
@@ -248,7 +248,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var4.bind(var5)(var7, var6);
                 var2['children'] = var6;
                 var1 = var4.bind(var5)(var3, var2);
- 621:
+case 4:
                 return var1;
             }
         };

@@ -29,7 +29,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function usePressUnderlayColor(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var6 = arg1;
             var8 = _closure1_slot1;
             var10 = _closure1_slot2;
@@ -52,21 +52,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = null;
             var1 = var3 == var6;
             var5 = undefined;
-            if(var1) { _fun0001_ip = 115; continue _fun0001 }
- 93:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var10 = var6.slice;
             var1 = var6.length;
             var9 = var1 - var9;
             var1 = 0;
             var5 = var10.bind(var6)(var1, var9);
- 115:
+case 2:
             var1 = var8;
-            if(!(var3 != var5)) { _fun0001_ip = 193; continue _fun0001 }
- 122:
+            if(!(var3 != var5)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = _closure1_slot3;
             var1 = var8;
-            if(!(var6 !== var3)) { _fun0001_ip = 193; continue _fun0001 }
- 133:
+            if(!(var6 !== var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 6:
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
             var2 = 4;
@@ -75,12 +75,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.hexWithOpacity;
             var2 = 0.08;
             var6 = 'dark';
-            if(!(var6 === var7)) { _fun0001_ip = 187; continue _fun0001 }
- 177:
+            if(!(var6 === var7)) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var2 = 0.12;
- 187:
+case 7:
             var1 = var3.bind(var4)(var5, var2);
- 193:
+case 4:
             return var1;
         }
     };

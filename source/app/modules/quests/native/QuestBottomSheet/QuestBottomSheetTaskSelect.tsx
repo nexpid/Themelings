@@ -77,19 +77,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5['label'] = var12;
         var12 = function onPress() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var3 = _closure2_slot0;
                 var1 = null;
                 var3 = var1 == var3;
                 var4 = undefined;
                 var1 = undefined;
-                if(var3) { _fun0001_ip = 42; continue _fun0001 }
- 20:
+                if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var3 = _closure2_slot0;
                 var2 = _closure1_slot2;
                 var2 = var2.DESKTOP;
                 var1 = var3.bind(var4)(var2);
- 42:
+case 2:
                 return var1;
             }
         };
@@ -121,19 +121,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6['label'] = var10;
         var9 = function onPress() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var3 = _closure2_slot0;
                 var1 = null;
                 var3 = var1 == var3;
                 var4 = undefined;
                 var1 = undefined;
-                if(var3) { _fun0002_ip = 42; continue _fun0002 }
- 20:
+                if(var3) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                 var3 = _closure2_slot0;
                 var2 = _closure1_slot2;
                 var2 = var2.CONSOLE;
                 var1 = var3.bind(var4)(var2);
- 42:
+case 2:
                 return var1;
             }
         };

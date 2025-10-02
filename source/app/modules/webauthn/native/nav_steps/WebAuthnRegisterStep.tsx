@@ -194,7 +194,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function WebAuthnRegisterStep() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 10;
@@ -231,13 +231,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var5.isAndroid;
             var5 = var3.bind(var5)();
             var3 = _closure1_slot10;
-            if(var5) { _fun0001_ip = 163; continue _fun0001 }
- 155:
+            if(var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var10 = var3.OTHER_AND_ANDROID_NONDISCOVERABLE;
-            _fun0001_ip = 169; continue _fun0001;
- 163:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var10 = var3.PASSKEY_CREDENTIAL_MANAGER;
- 169:
+case 4:
             var5 = _closure1_slot4;
             var3 = var5.useState;
             var10 = var3.bind(var5)(var10);
@@ -332,22 +332,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17 = var17[var18];
             var17 = var21.bind(var4)(var17);
             var21 = var17.t;
-            if(var13) { _fun0001_ip = 516; continue _fun0001 }
- 501:
+            if(var13) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var17 = var21.Lh5vTU;
             var17 = var22.bind(var23)(var17);
-            _fun0001_ip = 529; continue _fun0001;
- 516:
+            _fun0001_ip = 7; continue _fun0001;
+case 5:
             var21 = var21.aVMiX1;
             var17 = var22.bind(var23)(var21);
- 529:
+case 7:
             var9['children'] = var17;
             var9 = var16.bind(var4)(var15, var9);
             var7[1] = var9;
             var9 = null;
             var9 = var9 != var19;
-            if(!var9) { _fun0001_ip = 602; continue _fun0001 }
- 552:
+            if(!var9) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var17 = _closure1_slot7;
             var16 = _closure1_slot0;
             var15 = _closure1_slot2;
@@ -357,7 +357,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = {'variant': 'text-md/normal', 'color': 'status-danger'};
             var15['children'] = var19;
             var9 = var17.bind(var4)(var16, var15);
- 602:
+case 8:
             var7[2] = var9;
             var5['children'] = var7;
             var6 = var3.bind(var4)(var6, var5);
@@ -369,8 +369,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7.bind(var4)(var6);
             var6 = var7.isAndroid;
             var6 = var6.bind(var7)();
-            if(!var6) { _fun0001_ip = 684; continue _fun0001 }
- 653:
+            if(!var6) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var9 = _closure1_slot7;
             var8 = _closure1_slot12;
             var7 = {};
@@ -378,7 +378,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7['registering'] = var13;
             var7['onChange'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 684:
+case 10:
             var5[1] = var6;
             var8 = _closure1_slot7;
             var10 = _closure1_slot0;
@@ -403,15 +403,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var14[var18];
             var14 = var15.bind(var4)(var14);
             var15 = var14.t;
-            if(var13) { _fun0001_ip = 803; continue _fun0001 }
- 788:
+            if(var13) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var14 = var15.oibaQU;
             var14 = var16.bind(var17)(var14);
-            _fun0001_ip = 814; continue _fun0001;
- 803:
+            _fun0001_ip = 14; continue _fun0001;
+case 12:
             var15 = var15.wePEBA;
             var14 = var16.bind(var17)(var15);
- 814:
+case 14:
             var9['text'] = var14;
             var9['disabled'] = var13;
             var9['loading'] = var13;

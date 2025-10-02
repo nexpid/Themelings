@@ -9,8 +9,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function _isNativeReflectConstruct() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
- 2: // try_start_0
+case 0:
+case 2: // try_start_0
             var2 = global;
             var3 = var2.Boolean;
             var3 = var3.prototype;
@@ -28,11 +28,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var4)(var2);
             var2 = !var2;
             var _closure2_slot0 = var2;
- 72: // try_end0
-            _fun0001_ip = 76; continue _fun0001;
- 74: // catch_target0
+case 3: // try_end0
+            _fun0001_ip = 4; continue _fun0001;
+case 5: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+case 4:
             var2 = function _isNativeReflectConstruct() {
                 var1 = _closure2_slot0;
                 var1 = !var1;
@@ -48,27 +48,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot15 = var1;
     var1 = function handleMessageSendFailure(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var7 = var1.channelId;
             var6 = var1.messageId;
             var1 = var1.shouldNotify;
-            if(!var1) { _fun0002_ip = 370; continue _fun0002 }
- 25:
+            if(!var1) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var2 = _closure1_slot11;
             var1 = var2.getState;
             var2 = var1.bind(var2)();
             var1 = 'active';
-            if(!(var1 === var2)) { _fun0002_ip = 192; continue _fun0002 }
- 53:
+            if(!(var1 === var2)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var2 = _closure1_slot9;
             var1 = var2.getGuildId;
             var3 = var1.bind(var2)();
             var2 = _closure1_slot8;
             var1 = var2.getChannelId;
             var1 = var1.bind(var2)(var3);
-            if(!(var7 !== var1)) { _fun0002_ip = 188; continue _fun0002 }
- 86:
+            if(!(var7 !== var1)) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
             var1 = 11;
@@ -101,11 +101,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var1['onDismiss'] = var4;
             var1 = var2.bind(var3)(var1);
-            _fun0002_ip = 370; continue _fun0002;
- 188:
+            _fun0002_ip = 6; continue _fun0002;
+case 10:
             var1 = undefined;
             return var1;
- 192:
+case 8:
             var2 = _closure1_slot1;
             var12 = _closure1_slot2;
             var1 = 12;
@@ -146,7 +146,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4['type'] = var5;
             var1['userInfo'] = var4;
             var1 = var2.bind(var3)(var1);
- 370:
+case 6:
             var1 = undefined;
             return var1;
         }
@@ -154,46 +154,46 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot16 = var1;
     var1 = function handleMessageCreate(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var2 = arg1;
             var5 = var2.message;
             var _closure2_slot0 = var5;
             var3 = var2.sendMessageOptions;
             var6 = null;
             var2 = var6 != var3;
-            if(!var2) { _fun0003_ip = 35; continue _fun0003 }
- 29:
+            if(!var2) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
             var2 = var3.isHydratingExpiredPendingMessage;
- 35:
-            if(!var2) { _fun0003_ip = 60; continue _fun0003 }
- 38:
+case 12:
+            if(!var2) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
             var4 = var5.state;
             var3 = _closure1_slot13;
             var3 = var3.SEND_FAILED;
             var2 = var4 === var3;
- 60:
-            if(!var2) { _fun0003_ip = 117; continue _fun0003 }
- 63:
+case 14:
+            if(!var2) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
             var4 = _closure1_slot10;
             var3 = var4.getCurrentUser;
             var7 = var3.bind(var4)();
             var8 = var6 == var7;
             var3 = undefined;
-            if(var8) { _fun0003_ip = 93; continue _fun0003 }
- 88:
+            if(var8) { _fun0003_ip = 18; continue _fun0003 }
+case 19:
             var3 = var7.id;
- 93:
+case 18:
             var5 = var5.author;
             var6 = var6 == var5;
             var4 = undefined;
-            if(var6) { _fun0003_ip = 113; continue _fun0003 }
- 108:
+            if(var6) { _fun0003_ip = 20; continue _fun0003 }
+case 21:
             var4 = var5.id;
- 113:
+case 20:
             var2 = var3 === var4;
- 117:
-            if(!var2) { _fun0003_ip = 149; continue _fun0003 }
- 120:
+case 16:
+            if(!var2) { _fun0003_ip = 22; continue _fun0003 }
+case 23:
             var2 = global;
             var4 = var2.setTimeout;
             var3 = undefined;
@@ -213,7 +213,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var1 = 3000;
             var1 = var4.bind(var3)(var2, var1);
- 149:
+case 22:
             var1 = undefined;
             return var1;
         }
@@ -282,7 +282,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function(arg1) {
         var3 = function MessageSendFailureNotificationManager(arg1) {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                 var5 = this;
                 var13 = 0;
                 var1 = copyRestArgs(var13);
@@ -300,12 +300,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = _closure1_slot5;
                 var1 = _closure1_slot15;
                 var1 = var1.bind(var4)();
-                if(var1) { _fun0004_ip = 84; continue _fun0004 }
- 71:
+                if(var1) { _fun0004_ip = 24; continue _fun0004 }
+case 25:
                 var1 = var9.apply;
                 var1 = var1.bind(var9)(var5, var10);
-                _fun0004_ip = 118; continue _fun0004;
- 84:
+                _fun0004_ip = 26; continue _fun0004;
+case 24:
                 var6 = global;
                 var8 = var6.Reflect;
                 var7 = var8.construct;
@@ -313,7 +313,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var6.bind(var4)(var5);
                 var6 = var6.constructor;
                 var1 = var7.bind(var8)(var9, var10, var6);
- 118:
+case 26:
                 var1 = var2.bind(var4)(var5, var1);
                 var2 = {};
                 var4 = _closure1_slot17;

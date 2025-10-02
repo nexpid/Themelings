@@ -32,7 +32,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var8.createStyles;
     var4 = function(arg1, arg2, arg3, arg4) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = {};
             var2 = {};
             var3 = '100%';
@@ -46,10 +46,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = 'column';
             var5 = 'horizontal';
             var4 = arg2;
-            if(!(var5 === var4)) { _fun0001_ip = 54; continue _fun0001 }
- 50:
+            if(!(var5 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = 'row';
- 54:
+case 2:
             var2['flexDirection'] = var3;
             var1['stack'] = var2;
             return var1;
@@ -65,33 +65,33 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function Stack(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = var1.spacing;
             var10 = 8;
             var4 = undefined;
-            if(!(var4 !== var2)) { _fun0002_ip = 20; continue _fun0002 }
- 17:
+            if(!(var4 !== var2)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var10 = var2;
- 20:
+case 4:
             var2 = var1.direction;
             var9 = 'vertical';
-            if(!(var4 !== var2)) { _fun0002_ip = 37; continue _fun0002 }
- 34:
+            if(!(var4 !== var2)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var9 = var2;
- 37:
+case 6:
             var2 = var1.align;
             var7 = 'stretch';
-            if(!(var4 !== var2)) { _fun0002_ip = 54; continue _fun0002 }
- 51:
+            if(!(var4 !== var2)) { _fun0002_ip = 2; continue _fun0002 }
+case 8:
             var7 = var2;
- 54:
+case 2:
             var2 = var1.justify;
             var3 = 'flex-start';
-            if(!(var4 !== var2)) { _fun0002_ip = 73; continue _fun0002 }
- 70:
+            if(!(var4 !== var2)) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
             var3 = var2;
- 73:
+case 9:
             var5 = var1.children;
             var8 = var1.style;
             var6 = var1.onLayout;

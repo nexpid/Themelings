@@ -79,7 +79,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function VEVOOPropBlurTintRgba() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = _closure1_slot11;
             var4 = undefined;
             var22 = var1.bind(var4)();
@@ -109,10 +109,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = null;
             var11 = var15 != var10;
             var1 = 'black';
-            if(!var11) { _fun0001_ip = 128; continue _fun0001 }
- 125:
+            if(!var11) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var10;
- 128:
+case 2:
             var1 = var7.bind(var8)(var1);
             var8 = _closure1_slot3;
             var1 = var8.bind(var4)(var1, var9);
@@ -136,31 +136,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var7.useCallback;
             var2 = function(arg1, arg2) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var8 = arg1;
                     var9 = arg2;
                     var7 = null;
-                    if(!(var7 != var8)) { _fun0002_ip = 28; continue _fun0002 }
- 14:
+                    if(!(var7 != var8)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var3 = _closure2_slot2;
                     var1 = undefined;
                     var1 = var3.bind(var1)(var8);
- 28:
-                    if(!(var7 != var9)) { _fun0002_ip = 46; continue _fun0002 }
- 32:
+case 4:
+                    if(!(var7 != var9)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var3 = _closure2_slot4;
                     var1 = undefined;
                     var1 = var3.bind(var1)(var9);
- 46:
+case 6:
                     var3 = var7 != var8;
                     var1 = undefined;
                     var4 = undefined;
-                    if(!var3) { _fun0002_ip = 101; continue _fun0002 }
- 57:
+                    if(!var3) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                     var3 = var7 != var9;
                     var4 = undefined;
-                    if(!var3) { _fun0002_ip = 101; continue _fun0002 }
- 66:
+                    if(!var3) { _fun0002_ip = 8; continue _fun0002 }
+case 10:
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot2;
                     var3 = 8;
@@ -168,7 +168,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var5.bind(var1)(var3);
                     var3 = var5.hexToRgbaString;
                     var4 = var3.bind(var5)(var8, var9);
- 101:
+case 8:
                     var5 = {};
                     var6 = _closure1_slot6;
                     var10 = var6.bind(var1)();
@@ -181,12 +181,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = 'blurTintRgbaOverride';
                     var5[var6] = var4;
                     var _closure3_slot0 = var5;
-                    if(!(var7 != var4)) { _fun0002_ip = 173; continue _fun0002 }
- 162:
+                    if(!(var7 != var4)) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
                     var4 = _closure1_slot7;
                     var4 = var4.bind(var1)(var5);
-                    _fun0002_ip = 225; continue _fun0002;
- 173:
+                    _fun0002_ip = 13; continue _fun0002;
+case 11:
                     var4 = _closure1_slot7;
                     var3 = {};
                     var11 = var3;
@@ -205,7 +205,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     };
                     var2 = var3.bind(var1)(var2);
- 225:
+case 13:
                     return var1;
                 }
             };
@@ -236,21 +236,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7['value'] = var6;
             var9 = function onValueChange(arg1) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var3 = arg1;
                     var4 = _closure2_slot0;
                     var1 = undefined;
                     var4 = var4.bind(var1)(var3);
                     var4 = _closure2_slot5;
-                    if(var3) { _fun0003_ip = 32; continue _fun0003 }
- 24:
+                    if(var3) { _fun0003_ip = 7; continue _fun0003 }
+case 14:
                     var3 = var4.bind(var1)(var1, var1);
-                    _fun0003_ip = 46; continue _fun0003;
- 32:
+                    _fun0003_ip = 6; continue _fun0003;
+case 7:
                     var3 = _closure2_slot1;
                     var2 = _closure2_slot3;
                     var2 = var4.bind(var1)(var3, var2);
- 46:
+case 6:
                     return var1;
                 }
             };
@@ -292,18 +292,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11['disabled'] = var14;
             var17 = var15 == var19;
             var14 = undefined;
-            if(var17) { _fun0001_ip = 529; continue _fun0001 }
- 515:
+            if(var17) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
             var18 = var19.toFixed;
             var17 = 3;
             var14 = var18.bind(var19)(var17);
- 529:
+case 15:
             var15 = var15 != var14;
             var17 = '';
-            if(!var15) { _fun0001_ip = 543; continue _fun0001 }
- 540:
+            if(!var15) { _fun0001_ip = 17; continue _fun0001 }
+case 18:
             var17 = var14;
- 543:
+case 17:
             var14 = global;
             var14 = var14.HermesInternal;
             var15 = var14.concat;

@@ -53,7 +53,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[0] = var8;
         var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var3 = _closure1_slot3;
                 var2 = var3.getChannel;
                 var1 = _closure2_slot0;
@@ -61,16 +61,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = null;
                 var4 = var1 == var3;
                 var2 = undefined;
-                if(var4) { _fun0001_ip = 41; continue _fun0001 }
- 35:
+                if(var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var2 = var3.userLimit;
- 41:
+case 2:
                 var3 = var1 != var2;
                 var1 = 0;
-                if(!var3) { _fun0001_ip = 53; continue _fun0001 }
- 50:
+                if(!var3) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var1 = var2;
- 53:
+case 4:
                 return var1;
             }
         };

@@ -36,15 +36,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function usePremiumFeatures(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var6 = arg1;
             var5 = arguments[1];
             var _closure2_slot0 = var6;
             var7 = undefined;
-            if(!(var5 === var7)) { _fun0001_ip = 20; continue _fun0001 }
- 18:
+            if(!(var5 === var7)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = false;
- 20:
+case 2:
             var _closure2_slot1 = var5;
             var _closure2_slot2 = var7;
             var4 = _closure1_slot0;
@@ -63,7 +63,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[2] = var5;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = {};
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot2;
@@ -115,11 +115,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = new Array(7);
                     var4[0] = var3;
                     var2 = _closure2_slot2;
-                    if(var2) { _fun0002_ip = 237; continue _fun0002 }
- 228:
+                    if(var2) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var2 = new Array(0);
-                    _fun0002_ip = 397; continue _fun0002;
- 237:
+                    _fun0002_ip = 6; continue _fun0002;
+case 4:
                     var5 = {};
                     var11 = _closure1_slot0;
                     var3 = _closure1_slot2;
@@ -156,7 +156,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = new Array(1);
                     var3[0] = var5;
                     var2 = var3;
- 397:
+case 6:
                     var5 = 1;
                     var21 = var4;
                     var20 = var2;
@@ -352,22 +352,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var4.filter;
                     var2 = function(arg1) {
                         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                             var3 = arg1;
                             var5 = var3.premiumTypes;
                             var4 = var5.has;
                             var1 = _closure2_slot0;
                             var1 = var4.bind(var5)(var1);
-                            if(!var1) { _fun0003_ip = 48; continue _fun0003 }
- 29:
+                            if(!var1) { _fun0003_ip = 7; continue _fun0003 }
+case 8:
                             var2 = _closure2_slot1;
                             var2 = !var2;
-                            if(var2) { _fun0003_ip = 45; continue _fun0003 }
- 39:
+                            if(var2) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
                             var2 = var3.availableOnFractional;
- 45:
+case 9:
                             var1 = var2;
- 48:
+case 7:
                             return var1;
                         }
                     };

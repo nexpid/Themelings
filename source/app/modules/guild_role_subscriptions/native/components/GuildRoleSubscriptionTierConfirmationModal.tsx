@@ -76,16 +76,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function GuildRoleSubscriptionTierConfirmationModal(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arg1;
             var18 = var5.onDone;
             var _closure2_slot0 = var18;
             var7 = var5.isForGroupSetupModal;
             var4 = undefined;
-            if(!(var7 === var4)) { _fun0001_ip = 29; continue _fun0001 }
- 27:
+            if(!(var7 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var7 = false;
- 29:
+case 2:
             var12 = null;
             var3 = Object.create(var12);
             var11 = 0;
@@ -137,11 +137,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = function* () {
                 var1 = function* anon_0_() {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0002_ip = 89; continue _fun0002 }
- 7: // try_start_0
+                        if(var2) { _fun0002_ip = 4; continue _fun0002 }
+case 5: // try_start_0
                         var4 = _closure2_slot1;
                         var5 = undefined;
                         var2 = true;
@@ -149,29 +149,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = _closure2_slot0;
                         var2 = var2.bind(var5)();
                         SaveGenerator(address=35);
- 33:
+case 6:
                         return var2;
- 35:
+case 7:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                        if(var4) { _fun0002_ip = 55; continue _fun0002 }
- 41: // try_end0
+                        if(var4) { _fun0002_ip = 8; continue _fun0002 }
+case 9: // try_end0
                         var6 = _closure2_slot1;
                         var4 = false;
                         var4 = var6.bind(var5)(var4);
                         return var5;
- 55:
+case 8:
                         var4 = _closure2_slot1;
                         var3 = false;
                         var3 = var4.bind(var5)(var3);
                         return var2;
- 69: // catch_target0
+case 10: // catch_target0
                         CatchBlockStart(arg_register=1);
                         var5 = _closure2_slot1;
                         var4 = undefined;
                         var3 = false;
                         var3 = var5.bind(var4)(var3);
                         throw var2;
- 89:
+case 4:
                         return var1;
                     }
                 };
@@ -216,14 +216,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var32 = var1;
             var31 = var6;
             var6 = copyDataProperties(var32, var31);
-            if(!var7) { _fun0001_ip = 806; continue _fun0001 }
- 421:
+            if(!var7) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var11 = _closure1_slot10;
             var8 = _closure1_slot9;
             var6 = {};
             var13 = var12 != var26;
-            if(!var13) { _fun0001_ip = 635; continue _fun0001 }
- 441:
+            if(!var13) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var18 = _closure1_slot10;
             var15 = _closure1_slot9;
             var12 = {};
@@ -269,7 +269,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var19[1] = var21;
             var12['children'] = var19;
             var13 = var18.bind(var4)(var15, var12);
- 635:
+case 13:
             var12 = new Array(3);
             var12[0] = var13;
             var15 = _closure1_slot8;
@@ -306,7 +306,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12[2] = var13;
             var6['children'] = var12;
             var7 = var11.bind(var4)(var8, var6);
- 806:
+case 11:
             var6 = new Array(2);
             var6[0] = var7;
             var8 = _closure1_slot8;

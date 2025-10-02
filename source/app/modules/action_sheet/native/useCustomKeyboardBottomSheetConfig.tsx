@@ -33,14 +33,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useCustomKeyboardBottomSheetConfig(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var13 = var2.forceMaxHeight;
             var7 = undefined;
-            if(!(var13 === var7)) { _fun0001_ip = 19; continue _fun0001 }
- 17:
+            if(!(var13 === var7)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var13 = false;
- 19:
+case 2:
             var _closure2_slot0 = var13;
             var _closure2_slot1 = var7;
             var _closure2_slot2 = var7;
@@ -68,7 +68,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var7)(var2);
             var2 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var2 = _closure2_slot1;
                     var2 = var2.height;
                     var1 = _closure2_slot2;
@@ -86,13 +86,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var2.isAndroid;
                     var2 = var1.bind(var2)();
                     var1 = var5;
-                    if(var2) { _fun0002_ip = 208; continue _fun0002 }
- 77:
+                    if(var2) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var2 = _closure1_slot4;
                     var2 = var2.useReducedMotion;
                     var1 = var5;
-                    if(var2) { _fun0002_ip = 208; continue _fun0002 }
- 93:
+                    if(var2) { _fun0002_ip = 4; continue _fun0002 }
+case 6:
                     var4 = _closure1_slot0;
                     var6 = _closure1_slot2;
                     var2 = 3;
@@ -102,8 +102,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = var2.bind(var4)();
                     var4 = 0;
                     var2 = var5;
-                    if(!(var4 === var6)) { _fun0002_ip = 205; continue _fun0002 }
- 132:
+                    if(!(var4 === var6)) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
                     var6 = _closure1_slot0;
                     var8 = _closure1_slot2;
                     var3 = 4;
@@ -117,15 +117,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var3.KeyboardTypes;
                     var3 = var3.SYSTEM;
                     var2 = var5;
-                    if(!(var4 === var3)) { _fun0002_ip = 205; continue _fun0002 }
- 193:
+                    if(!(var4 === var3)) { _fun0002_ip = 7; continue _fun0002 }
+case 9:
                     var3 = {};
                     var4 = true;
                     var3['animateOnMount'] = var4;
                     var2 = var3;
- 205:
+case 7:
                     var1 = var2;
- 208:
+case 4:
                     return var1;
                 }
             };
@@ -140,24 +140,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[2] = var12;
             var1 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var1 = _closure2_slot0;
-                    if(var1) { _fun0003_ip = 32; continue _fun0003 }
- 10:
+                    if(var1) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
                     var2 = _closure2_slot2;
                     var1 = new Array(2);
                     var1[0] = var2;
                     var2 = _closure2_slot3;
                     var1[1] = var2;
-                    _fun0003_ip = 55; continue _fun0003;
- 32:
+                    _fun0003_ip = 12; continue _fun0003;
+case 10:
                     var4 = _closure2_slot3;
                     var2 = new Array(2);
                     var2[0] = var4;
                     var3 = _closure2_slot3;
                     var2[1] = var3;
                     var1 = var2;
- 55:
+case 12:
                     return var1;
                 }
             };
@@ -172,10 +172,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.bind(var8)();
             var8 = !var6;
             var6 = !var8;
-            if(var8) { _fun0001_ip = 229; continue _fun0001 }
- 227:
+            if(var8) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var6 = undefined;
- 229:
+case 13:
             var1['accessible'] = var6;
             var1['contentHeight'] = var5;
             var4 = var4.height;

@@ -1,7 +1,7 @@
 // app/utils/ReleaseChannelUtils.native.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
         var6 = require;
         var3 = exports;
         var7 = dependencyMap;
@@ -26,22 +26,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var6.bind(var1)(var4);
         var4 = var5.isAndroid;
         var8 = var4.bind(var5)();
-        if(!var8) { _fun0001_ip = 122; continue _fun0001 }
- 97:
+        if(!var8) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
         var5 = var2.indexOf;
         var4 = 'canary';
         var5 = var5.bind(var2)(var4);
         var4 = -1;
         var8 = var4 === var5;
- 122:
-        if(!var8) { _fun0001_ip = 150; continue _fun0001 }
- 125:
+case 2:
+        if(!var8) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
         var5 = var2.indexOf;
         var4 = 'beta';
         var5 = var5.bind(var2)(var4);
         var4 = -1;
         var8 = var4 === var5;
- 150:
+case 4:
         var4 = 'stable';
         var5 = var4 === var2;
         var9 = var2.indexOf;
@@ -49,22 +49,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var9.bind(var2)(var4);
         var10 = -1;
         var9 = var10 !== var4;
-        if(var9) { _fun0001_ip = 207; continue _fun0001 }
- 186:
+        if(var9) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
         var11 = var2.indexOf;
         var4 = 'developer';
         var4 = var11.bind(var2)(var4);
         var9 = var10 !== var4;
- 207:
+case 6:
         var4 = !var9;
-        if(var9) { _fun0001_ip = 222; continue _fun0001 }
- 213:
-        if(var5) { _fun0001_ip = 219; continue _fun0001 }
- 216:
+        if(var9) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
+        if(var5) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
         var5 = var8;
- 219:
+case 10:
         var4 = var5;
- 222:
+case 8:
         var5 = 2;
         var5 = var7[var5];
         var7 = var6.bind(var1)(var5);

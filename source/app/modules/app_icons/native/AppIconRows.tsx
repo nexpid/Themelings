@@ -9,11 +9,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function BackwardsCompatibleAppIconRows(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = null;
-            if(!(var2 != var1)) { _fun0001_ip = 288; continue _fun0001 }
- 14:
+            if(!(var2 != var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var18 = {};
             var5 = undefined;
             var17 = var2;
@@ -42,7 +42,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var1.title;
             var1 = function onLongPress(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var2 = _closure1_slot0;
                     var3 = _closure1_slot2;
                     var1 = 6;
@@ -53,12 +53,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var1.DEFAULT;
                     var2 = arg1;
                     var1 = null;
-                    if(!(var2 === var3)) { _fun0002_ip = 60; continue _fun0002 }
- 46:
+                    if(!(var2 === var3)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var3 = _closure2_slot2;
                     var2 = true;
                     var1 = var3.bind(var4)(var2);
- 60:
+case 4:
                     return var1;
                 }
             };
@@ -126,7 +126,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['children'] = var6;
             var1 = var4.bind(var5)(var3, var1);
             return var1;
- 288:
+case 2:
             var17 = "Cannot destructure 'undefined' or 'null'.";
             var18 = var2;
             var1 = throwTypeError(var18, var17);
@@ -198,7 +198,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function AppIconRows(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var2 = arg1;
             var12 = var2.onSelect;
             var2 = _closure1_slot11;
@@ -236,8 +236,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var9.length;
             var2 = 0;
             var15 = var3 > var2;
-            if(!var15) { _fun0003_ip = 177; continue _fun0003 }
- 151:
+            if(!var15) { _fun0003_ip = 6; continue _fun0003 }
+case 7:
             var3 = var9.filter;
             var1 = function(arg1) {
                 var1 = arg1;
@@ -248,13 +248,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var3.bind(var9)(var1);
             var1 = var1.length;
             var15 = var1 > var2;
- 177:
+case 6:
             var3 = _closure1_slot10;
             var2 = _closure1_slot9;
             var1 = {};
             var6 = null;
-            if(!var15) { _fun0003_ip = 289; continue _fun0003 }
- 192:
+            if(!var15) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
             var8 = _closure1_slot8;
             var7 = _closure1_slot12;
             var5 = {};
@@ -276,17 +276,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['title'] = var9;
             var5['onSelect'] = var12;
             var6 = var8.bind(var4)(var7, var5);
- 289:
+case 8:
             var5 = new Array(2);
             var5[0] = var6;
             var8 = _closure1_slot8;
             var7 = _closure1_slot5;
             var6 = {};
             var9 = !var17;
-            if(!var9) { _fun0003_ip = 319; continue _fun0003 }
- 313:
+            if(!var9) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
             var9 = var10.bottomUpsellPadding;
- 319:
+case 10:
             var6['style'] = var9;
             var11 = _closure1_slot8;
             var10 = _closure1_slot12;
@@ -295,8 +295,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9['icons'] = var16;
             var9['currentAppIcon'] = var13;
             var13 = undefined;
-            if(!var15) { _fun0003_ip = 408; continue _fun0003 }
- 353:
+            if(!var15) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
             var17 = _closure1_slot0;
             var18 = _closure1_slot2;
             var14 = 8;
@@ -309,7 +309,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var14.t;
             var14 = var14.Ipxkoq;
             var13 = var15.bind(var16)(var14);
- 408:
+case 12:
             var9['title'] = var13;
             var9['onSelect'] = var12;
             var9 = var11.bind(var4)(var10, var9);

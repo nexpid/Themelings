@@ -1,7 +1,7 @@
 // app/utils/MFAUtils.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
         var8 = require;
         var3 = exports;
         var9 = dependencyMap;
@@ -32,35 +32,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10 = var7 == var6;
         var1 = undefined;
         var11 = undefined;
-        if(var10) { _fun0001_ip = 90; continue _fun0001 }
- 84:
+        if(var10) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
         var11 = var6.crypto;
- 90:
-        if(!(var7 == var11)) { _fun0001_ip = 118; continue _fun0001 }
- 94:
+case 2:
+        if(!(var7 == var11)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
         var10 = var5.window;
         var12 = var7 == var10;
         var6 = undefined;
-        if(var12) { _fun0001_ip = 115; continue _fun0001 }
- 109:
+        if(var12) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
         var6 = var10.msCrypto;
- 115:
+case 6:
         var11 = var6;
- 118:
+case 4:
         var _closure1_slot2 = var11;
         var6 = var5.window;
         var5 = 'Uint8Array';
         var5 = var5 in var6;
         var6 = var7 != var11;
-        if(!var6) { _fun0001_ip = 151; continue _fun0001 }
- 143:
+        if(!var6) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
         var10 = 'getRandomValues';
         var6 = var10 in var11;
- 151:
-        if(!var6) { _fun0001_ip = 157; continue _fun0001 }
- 154:
+case 8:
+        if(!var6) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
         var6 = var5;
- 157:
+case 10:
         var5 = 0;
         var5 = var9[var5];
         var5 = var8.bind(var1)(var5);
@@ -116,13 +116,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3['encodeTotpSecret'] = var4;
         var2 = function encodeTotpSecretAsUrl(arg1, arg2) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var4 = arguments[2];
                 var3 = undefined;
-                if(!(var4 === var3)) { _fun0002_ip = 15; continue _fun0002 }
- 9:
+                if(!(var4 === var3)) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
                 var4 = 'Discord';
- 15:
+case 12:
                 var1 = global;
                 var2 = var1.encodeURI;
                 var9 = var2.bind(var3)(var4);

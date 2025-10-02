@@ -46,30 +46,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function collectThreadMetadata(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var8 = arguments[1];
             var7 = undefined;
-            if(!(var8 === var7)) { _fun0001_ip = 14; continue _fun0001 }
- 12:
+            if(!(var8 === var7)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var8 = false;
- 14:
+case 2:
             var5 = null;
             var2 = var5 != var3;
             var1 = null;
-            if(!var2) { _fun0001_ip = 353; continue _fun0001 }
- 28:
+            if(!var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var9 = _closure1_slot5;
             var6 = var9.has;
             var2 = var3.type;
             var2 = var6.bind(var9)(var2);
             var1 = null;
-            if(!var2) { _fun0001_ip = 353; continue _fun0001 }
- 58:
+            if(!var2) { _fun0001_ip = 4; continue _fun0001 }
+case 6:
             var2 = {};
             var6 = undefined;
-            if(!var8) { _fun0001_ip = 95; continue _fun0001 }
- 65:
+            if(!var8) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var9 = _closure1_slot0;
             var10 = _closure1_slot2;
             var8 = 5;
@@ -77,7 +77,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var9.bind(var7)(var8);
             var8 = var9.getLastRouteChangeSource;
             var6 = var8.bind(var9)();
- 95:
+case 7:
             var2['location'] = var6;
             var9 = _closure1_slot3;
             var8 = var9.getMemberCount;
@@ -92,39 +92,39 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var3.threadMetadata;
             var9 = var5 == var6;
             var8 = undefined;
-            if(var9) { _fun0001_ip = 174; continue _fun0001 }
- 168:
+            if(var9) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var8 = var6.archived;
- 174:
+case 9:
             var6 = true;
             var6 = var6 === var8;
             var2['thread_archived'] = var6;
             var6 = var3.threadMetadata;
             var9 = var5 == var6;
             var8 = undefined;
-            if(var9) { _fun0001_ip = 208; continue _fun0001 }
- 202:
+            if(var9) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var8 = var6.locked;
- 208:
+case 11:
             var6 = var5 != var8;
-            if(!var6) { _fun0001_ip = 218; continue _fun0001 }
- 215:
+            if(!var6) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var6 = var8;
- 218:
+case 13:
             var2['thread_locked'] = var6;
             var8 = var3.threadMetadata;
             var9 = var5 == var8;
             var6 = undefined;
-            if(var9) { _fun0001_ip = 246; continue _fun0001 }
- 240:
+            if(var9) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
             var6 = var8.autoArchiveDuration;
- 246:
+case 15:
             var8 = var5 != var6;
             var5 = 0;
-            if(!var8) { _fun0001_ip = 258; continue _fun0001 }
- 255:
+            if(!var8) { _fun0001_ip = 17; continue _fun0001 }
+case 18:
             var5 = var6;
- 258:
+case 17:
             var2['thread_auto_archive_duration_minutes'] = var5;
             var6 = _closure1_slot1;
             var8 = _closure1_slot2;
@@ -144,7 +144,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.parentChannelThreadType;
             var2['parent_channel_type'] = var3;
             var1 = var2;
- 353:
+case 4:
             return var1;
         }
     };

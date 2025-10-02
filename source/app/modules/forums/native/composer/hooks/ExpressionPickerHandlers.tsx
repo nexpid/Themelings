@@ -67,7 +67,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var4.useCallback;
         var2 = function(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var3 = arg1;
                 var1 = _closure2_slot5;
                 var4 = var1.current;
@@ -83,30 +83,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var9 = var10.substring;
                 var7 = var1.end;
                 var6 = null;
-                if(!(var6 == var7)) { _fun0001_ip = 86; continue _fun0001 }
- 81:
+                if(!(var6 == var7)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var7 = var1.start;
- 86:
+case 2:
                 var7 = var9.bind(var10)(var7);
                 var1 = var1.start;
                 var1 = var3.id;
-                if(!(var6 == var1)) { _fun0001_ip = 114; continue _fun0001 }
- 105:
+                if(!(var6 == var1)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var1 = var3.surrogates;
-                if(!(var6 == var1)) { _fun0001_ip = 223; continue _fun0001 }
- 114:
+                if(!(var6 == var1)) { _fun0001_ip = 6; continue _fun0001 }
+case 4:
                 var1 = var3.uniqueName;
-                if(!(var6 != var1)) { _fun0001_ip = 138; continue _fun0001 }
- 124:
+                if(!(var6 != var1)) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
                 var6 = var3.uniqueName;
                 var1 = '';
-                if(!(var1 === var6)) { _fun0001_ip = 145; continue _fun0001 }
- 138:
+                if(!(var1 === var6)) { _fun0001_ip = 9; continue _fun0001 }
+case 7:
                 var10 = var3.name;
-                _fun0001_ip = 151; continue _fun0001;
- 145:
+                _fun0001_ip = 10; continue _fun0001;
+case 9:
                 var10 = var3.uniqueName;
- 151:
+case 10:
                 var1 = global;
                 var6 = var1.HermesInternal;
                 var11 = var6.concat;
@@ -122,8 +122,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var1.bind(var9)(var10, var6);
                 var1 = var5 + var1;
                 var1 = var1.length;
-                _fun0001_ip = 257; continue _fun0001;
- 223:
+                _fun0001_ip = 11; continue _fun0001;
+case 6:
                 var6 = var3.surrogates;
                 var6 = var5 + var6;
                 var7 = var6 + var7;
@@ -132,7 +132,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var3.surrogates;
                 var3 = var5 + var3;
                 var1 = var3.length;
- 257:
+case 11:
                 var3 = {};
                 var3['start'] = var1;
                 var3['end'] = var1;
@@ -172,7 +172,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[5] = var5;
         var1 = function(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var4 = var1.url;
                 var6 = _closure2_slot1;
@@ -184,11 +184,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var6.substring;
                 var1 = var1.end;
                 var7 = null;
-                if(!(var7 == var1)) { _fun0002_ip = 64; continue _fun0002 }
- 55:
+                if(!(var7 == var1)) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
                 var7 = _closure2_slot0;
                 var1 = var7.start;
- 64:
+case 12:
                 var6 = var5.bind(var6)(var1);
                 var1 = _closure2_slot0;
                 var1 = var1.start;
@@ -196,8 +196,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = ' ';
                 var1 = var1.bind(var3)(var5);
                 var7 = _closure2_slot2;
-                if(var1) { _fun0002_ip = 160; continue _fun0002 }
- 100:
+                if(var1) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
                 var1 = global;
                 var8 = var1.HermesInternal;
                 var8 = var8.concat;
@@ -211,15 +211,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var1.bind(var5)(var4);
                 var1 = var3 + var1;
                 var1 = var1.length;
-                _fun0002_ip = 184; continue _fun0002;
- 160:
+                _fun0002_ip = 16; continue _fun0002;
+case 14:
                 var5 = var3 + var4;
                 var6 = var5 + var6;
                 var5 = undefined;
                 var5 = var7.bind(var5)(var6);
                 var3 = var3 + var4;
                 var1 = var3.length;
- 184:
+case 16:
                 var4 = _closure2_slot4;
                 var3 = {};
                 var3['start'] = var1;

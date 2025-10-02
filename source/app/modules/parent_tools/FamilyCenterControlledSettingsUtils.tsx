@@ -15,12 +15,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = var5.bind(var6)(var3, var1, var4);
     var7 = function isSetAndNotDefault(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var1 = null;
             var1 = var1 != var3;
-            if(!var1) { _fun0001_ip = 52; continue _fun0001 }
- 12:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = _closure1_slot0;
             var4 = _closure1_slot1;
             var2 = 0;
@@ -30,14 +30,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.ExplicitContentRedaction;
             var2 = var2.UNSET_EXPLICIT_CONTENT_REDACTION;
             var1 = var3 !== var2;
- 52:
+case 2:
             return var1;
         }
     };
     var _closure1_slot2 = var7;
     var6 = function getGoreContentSettingOrDefault(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var3 = _closure1_slot0;
             var4 = _closure1_slot1;
             var1 = 1;
@@ -49,17 +49,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = arg1;
             var1 = var3.bind(var5)(var1);
             var3 = null;
-            if(!(var3 == var1)) { _fun0002_ip = 53; continue _fun0002 }
- 51:
+            if(!(var3 == var1)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var1 = {};
- 53:
+case 4:
             var5 = var1.goreContentNonFriendDm;
             var3 = var1.goreContentFriendDm;
             var1 = {};
             var6 = _closure1_slot2;
             var6 = var6.bind(var4)(var5);
-            if(var6) { _fun0002_ip = 119; continue _fun0002 }
- 79:
+            if(var6) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var7 = _closure1_slot0;
             var8 = _closure1_slot1;
             var6 = 2;
@@ -70,12 +70,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = true;
             var6['isDm'] = var9;
             var5 = var7.bind(var8)(var6);
- 119:
+case 6:
             var1['goreContentNonFriendDm'] = var5;
             var5 = _closure1_slot2;
             var5 = var5.bind(var4)(var3);
-            if(var5) { _fun0002_ip = 181; continue _fun0002 }
- 136:
+            if(var5) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var5 = 2;
@@ -84,7 +84,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var7.resolveGoreSettingWithDefaultsForTeen;
             var5 = {'isDm': true, 'isFriend': true};
             var3 = var6.bind(var7)(var5);
- 181:
+case 8:
             var1['goreContentFriendDm'] = var3;
             var3 = _closure1_slot0;
             var5 = _closure1_slot1;
@@ -100,20 +100,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot3 = var6;
     var5 = function resolveExplicitContentSettingWithDefaultsForTeen(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var2 = arg1;
             var7 = var2.teenId;
             var1 = var2.setting;
             var2 = var2.isFriend;
             var6 = undefined;
-            if(!(var2 === var6)) { _fun0003_ip = 29; continue _fun0003 }
- 27:
+            if(!(var2 === var6)) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
             var2 = false;
- 29:
+case 10:
             var4 = _closure1_slot2;
             var4 = var4.bind(var6)(var1);
-            if(var4) { _fun0003_ip = 128; continue _fun0003 }
- 44:
+            if(var4) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
             var5 = _closure1_slot0;
             var8 = _closure1_slot1;
             var4 = 1;
@@ -127,24 +127,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = 3;
             var3 = var7[var3];
             var3 = var5.bind(var6)(var3);
-            if(var2) { _fun0003_ip = 116; continue _fun0003 }
- 104:
+            if(var2) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
             var2 = var3.TEEN_EXPLICIT_CONTENT_FILTER_TO_EXPLICIT_CONTENT_REDACTION_NON_FRIEND_DM;
             var2 = var2[var4];
-            _fun0003_ip = 126; continue _fun0003;
- 116:
+            _fun0003_ip = 16; continue _fun0003;
+case 14:
             var3 = var3.TEEN_EXPLICIT_CONTENT_FILTER_TO_EXPLICIT_CONTENT_REDACTION_FRIEND_DM;
             var2 = var3[var4];
- 126:
+case 16:
             return var2;
- 128:
+case 12:
             return var1;
         }
     };
     var _closure1_slot4 = var5;
     var4 = function getExplicitContentSettingOrDefault(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var8 = arg1;
             var3 = _closure1_slot0;
             var4 = _closure1_slot1;
@@ -162,10 +162,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = null;
             var10 = var6 == var7;
             var9 = undefined;
-            if(var10) { _fun0004_ip = 75; continue _fun0004 }
- 69:
+            if(var10) { _fun0004_ip = 17; continue _fun0004 }
+case 18:
             var9 = var7.explicitContentNonFriendDm;
- 75:
+case 17:
             var3['setting'] = var9;
             var3 = var5.bind(var4)(var3);
             var1['explicitContentNonFriendDm'] = var3;
@@ -174,10 +174,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['teenId'] = var8;
             var8 = var6 == var7;
             var6 = undefined;
-            if(var8) { _fun0004_ip = 116; continue _fun0004 }
- 110:
+            if(var8) { _fun0004_ip = 14; continue _fun0004 }
+case 19:
             var6 = var7.explicitContentFriendDm;
- 116:
+case 14:
             var3['setting'] = var6;
             var6 = true;
             var3['isFriend'] = var6;

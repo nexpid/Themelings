@@ -79,13 +79,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['setInitiatedPurchaseFromNewFlow'] = var4;
     var4 = function setPaymentSuccess() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = _closure1_slot5;
             var2 = var3.getState;
             var2 = var2.bind(var3)();
             var2 = var2.initiatedPurchaseFromNewFlow;
-            if(!var2) { _fun0001_ip = 103; continue _fun0001 }
- 26:
+            if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = _closure1_slot5;
             var2 = var3.getState;
             var2 = var2.bind(var3)();
@@ -109,10 +109,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var4 = var5.bind(var6)(var4);
             var4 = null;
-            if(!(var4 != var2)) { _fun0001_ip = 103; continue _fun0001 }
- 98:
+            if(!(var4 != var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var1 = var2.bind(var1)(var3);
- 103:
+case 2:
             var1 = undefined;
             return var1;
         }
@@ -143,12 +143,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['setApplePaymentLinkStatus'] = var4;
     var4 = function handleApplePaymentLinkStatus(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var2 = arg1;
             var _closure2_slot0 = var2;
             var1 = 'succeeded';
-            if(!(var1 === var2)) { _fun0002_ip = 238; continue _fun0002 }
- 22:
+            if(!(var1 === var2)) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
             var2 = _closure1_slot5;
             var1 = var2.getState;
             var1 = var1.bind(var2)();
@@ -156,8 +156,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var1.onPaymentSuccess;
             var6 = var1.applePaymentLinkStatus;
             var1 = 'dismissed';
-            if(!(var1 !== var6)) { _fun0002_ip = 242; continue _fun0002 }
- 68:
+            if(!(var1 !== var6)) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
             var6 = _closure1_slot3;
             var1 = var6.getKey;
             var8 = var1.bind(var6)();
@@ -168,8 +168,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = undefined;
             var7 = var9.bind(var1)(var7);
             var7 = var7.PREMIUM_PLAN_SELECTION_ACTION_SHEET_KEY;
-            if(!(var8 !== var7)) { _fun0002_ip = 191; continue _fun0002 }
- 114:
+            if(!(var8 !== var7)) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
             var9 = _closure1_slot1;
             var10 = _closure1_slot2;
             var6 = var10[var6];
@@ -188,7 +188,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = {};
             var6['analyticsLocation'] = var8;
             var6 = var7.bind(var1)(var6);
- 191:
+case 9:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var5 = 3;
@@ -208,13 +208,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var4 = var5.bind(var6)(var4);
             var4 = null;
-            if(!(var4 != var2)) { _fun0002_ip = 238; continue _fun0002 }
- 233:
+            if(!(var4 != var2)) { _fun0002_ip = 5; continue _fun0002 }
+case 11:
             var1 = var2.bind(var1)(var3);
- 238:
+case 5:
             var1 = undefined;
             return var1;
- 242:
+case 7:
             var1 = undefined;
             return var1;
         }
@@ -222,18 +222,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['handleApplePaymentLinkStatus'] = var4;
     var4 = function showOldPaymentFlowSuccess(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var3 = _closure1_slot5;
             var2 = var3.getState;
             var2 = var2.bind(var3)();
             var2 = var2.initiatedPurchaseFromNewFlow;
-            if(var2) { _fun0003_ip = 37; continue _fun0003 }
- 26:
+            if(var2) { _fun0003_ip = 12; continue _fun0003 }
+case 3:
             var3 = arg1;
             var2 = undefined;
             var2 = var3.bind(var2)();
-            _fun0003_ip = 77; continue _fun0003;
- 37:
+            _fun0003_ip = 13; continue _fun0003;
+case 12:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
             var1 = 3;
@@ -251,7 +251,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var1 = var2.bind(var3)(var1);
- 77:
+case 13:
             var1 = undefined;
             return var1;
         }
@@ -259,7 +259,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['showOldPaymentFlowSuccess'] = var4;
     var2 = function reset() {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var4 = _closure1_slot5;
             var3 = var4.getState;
             var4 = var3.bind(var4)();
@@ -269,14 +269,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.applePaymentLinkStatus;
             var _closure2_slot0 = var4;
             var4 = null;
-            if(!(var4 != var5)) { _fun0004_ip = 72; continue _fun0004 }
- 53:
+            if(!(var4 != var5)) { _fun0004_ip = 14; continue _fun0004 }
+case 15:
             var4 = {};
             var4['productId'] = var6;
             var4['isSuccess'] = var3;
             var3 = undefined;
             var3 = var5.bind(var3)(var4);
- 72:
+case 14:
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 3;
@@ -286,7 +286,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.batchUpdates;
             var2 = function() {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
                     var4 = _closure1_slot5;
                     var3 = var4.setState;
                     var2 = {'productId': '', 'initiatedPurchaseFromNewFlow': false, 'isPaymentSuccess': false};
@@ -294,15 +294,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = null;
                     var6 = var7 != var1;
                     var1 = null;
-                    if(!var6) { _fun0005_ip = 65; continue _fun0005 }
- 45:
+                    if(!var6) { _fun0005_ip = 16; continue _fun0005 }
+case 17:
                     var6 = _closure2_slot0;
                     var5 = 'in_mobile_web';
                     var1 = null;
-                    if(!(var5 !== var6)) { _fun0005_ip = 65; continue _fun0005 }
- 61:
+                    if(!(var5 !== var6)) { _fun0005_ip = 16; continue _fun0005 }
+case 18:
                     var1 = 'dismissed';
- 65:
+case 16:
                     var2['applePaymentLinkStatus'] = var1;
                     var1 = undefined;
                     var2['onPaymentSuccess'] = var1;

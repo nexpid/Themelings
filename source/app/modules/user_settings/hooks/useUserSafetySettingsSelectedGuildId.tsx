@@ -58,7 +58,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['useAllServersOptionSelected'] = var4;
     var2 = function() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = _closure1_slot6;
             var2 = undefined;
             var4 = var4.bind(var2)();
@@ -82,19 +82,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var5.bind(var6)(var4, var1);
             var1 = null;
             var5 = var1 == var4;
-            if(var5) { _fun0001_ip = 104; continue _fun0001 }
- 78:
+            if(var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = var4.features;
             var4 = var5.has;
             var3 = _closure1_slot5;
             var3 = var3.HUB;
             var2 = var4.bind(var5)(var3);
- 104:
+case 2:
             var1 = var1 != var2;
-            if(!var1) { _fun0001_ip = 114; continue _fun0001 }
- 111:
+            if(!var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = var2;
- 114:
+case 4:
             return var1;
         }
     };

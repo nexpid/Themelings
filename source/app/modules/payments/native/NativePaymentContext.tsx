@@ -72,19 +72,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9[1] = var13;
         var2 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var3 = _closure2_slot1;
                 var2 = null;
                 var2 = var2 == var3;
-                if(var2) { _fun0001_ip = 40; continue _fun0001 }
- 16:
+                if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var5 = _closure1_slot4;
                 var4 = var5.isFetchingForSKUs;
                 var3 = _closure2_slot0;
                 var2 = var4.bind(var5)(var3);
- 40:
-                if(var2) { _fun0001_ip = 94; continue _fun0001 }
- 43:
+case 2:
+                if(var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
                 var2 = 6;
@@ -96,7 +96,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = _closure2_slot1;
                 var1 = var1.country;
                 var1 = var3.bind(var4)(var2, var1);
- 94:
+case 4:
                 var1 = undefined;
                 return var1;
             }

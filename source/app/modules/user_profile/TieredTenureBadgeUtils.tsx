@@ -36,34 +36,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['getTieredTenureBadgeData'] = var4;
     var4 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var3 = _closure1_slot3;
             var1 = undefined;
             var3 = var3.bind(var1)(var2);
             var1 = null;
             var3 = var1 == var3;
-            if(var3) { _fun0001_ip = 29; continue _fun0001 }
- 26:
+            if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var2;
- 29:
+case 2:
             return var1;
         }
     };
     var3['getTieredTenureBadge'] = var4;
     var2 = function(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var6 = arg2;
             var1 = null;
-            if(!(var1 != var6)) { _fun0002_ip = 105; continue _fun0002 }
- 9:
+            if(!(var1 != var6)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var5 = _closure1_slot3;
             var4 = undefined;
             var2 = arg1;
             var2 = var5.bind(var4)(var2);
-            if(!(var1 != var2)) { _fun0002_ip = 103; continue _fun0002 }
- 30:
+            if(!(var1 != var2)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var7 = _closure1_slot0;
             var3 = _closure1_slot1;
             var5 = 1;
@@ -80,9 +80,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.toDate;
             var2 = var2.bind(var3)();
             return var2;
- 103:
+case 6:
             return var1;
- 105:
+case 4:
             return var1;
         }
     };

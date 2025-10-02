@@ -7,34 +7,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var8;
     var1 = function _toPropertyKey(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var7 = arg1;
             var4 = 'object';
             var1 = typeof var7;
             var2 = var7;
-            if(!(var4 === var1)) { _fun0001_ip = 119; continue _fun0001 }
- 17:
+            if(!(var4 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var7;
-            if(!var2) { _fun0001_ip = 119; continue _fun0001 }
- 23:
+            if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var1 = global;
             var3 = var1.Symbol;
             var3 = var3.toPrimitive;
             var6 = var7[var3];
             var5 = undefined;
-            if(!(var5 === var6)) { _fun0001_ip = 60; continue _fun0001 }
- 47:
+            if(!(var5 === var6)) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var3 = var1.String;
             var2 = var3.bind(var5)(var7);
-            _fun0001_ip = 119; continue _fun0001;
- 60:
+            _fun0001_ip = 2; continue _fun0001;
+case 5:
             var5 = var6.call;
             var3 = 'string';
             var5 = var5.bind(var6)(var7, var3);
             var3 = typeof var5;
             var2 = var5;
-            if(!(var4 === var3)) { _fun0001_ip = 119; continue _fun0001 }
- 85:
+            if(!(var4 === var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 7:
             var4 = var1.TypeError;
             var1 = var4.prototype;
             var3 = Object.create(var1, {constructor: {value: var4}});
@@ -43,14 +43,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = new var10[var4](var9, var8);
             var1 = var1 instanceof Object ? var1 : var3;
             throw var1;
- 119:
+case 2:
             var4 = 'symbol';
             var3 = typeof var2;
             var1 = var2;
-            if(!(var4 !== var3)) { _fun0001_ip = 136; continue _fun0001 }
- 133:
+            if(!(var4 !== var3)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var1 = '' + var2;
- 136:
+case 8:
             return var1;
         }
     };
@@ -107,7 +107,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = {};
         var3 = function getItem(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot1;
                 var1 = 4;
@@ -120,10 +120,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var2.bind(var3)(var1);
                 var1 = null;
                 var3 = var1 != var2;
-                if(!var3) { _fun0002_ip = 56; continue _fun0002 }
- 53:
+                if(!var3) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
                 var1 = var2;
- 56:
+case 10:
                 return var1;
             }
         };
@@ -230,7 +230,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['setMuted'] = var3;
         var3 = function setVideoProgress(arg1, arg2, arg3) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var4 = arg1;
                 var8 = arg2;
                 var _closure3_slot0 = var4;
@@ -245,16 +245,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = null;
                 var6 = var4 == var5;
                 var3 = undefined;
-                if(var6) { _fun0003_ip = 63; continue _fun0003 }
- 57:
+                if(var6) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
                 var3 = var5.maxTimestampSec;
- 63:
+case 12:
                 var4 = var4 != var3;
                 var6 = 0;
-                if(!var4) { _fun0003_ip = 75; continue _fun0003 }
- 72:
+                if(!var4) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
                 var6 = var3;
- 75:
+case 14:
                 var3 = global;
                 var5 = var3.Math;
                 var4 = var5.max;
@@ -378,7 +378,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['getVideoProgress'] = var3;
         var3 = function getVideoProgressState(arg1) {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                 var2 = _closure2_slot1;
                 var1 = undefined;
                 var1 = var2.bind(var1)();
@@ -386,33 +386,33 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = arg1;
                 var1 = var2[var1];
                 var2 = null;
-                if(!(var2 != var1)) { _fun0004_ip = 104; continue _fun0004 }
- 32:
+                if(!(var2 != var1)) { _fun0004_ip = 16; continue _fun0004 }
+case 17:
                 var3 = var1.timestampSec;
                 var2 = 0;
-                if(!(var2 !== var3)) { _fun0004_ip = 89; continue _fun0004 }
- 44:
+                if(!(var2 !== var3)) { _fun0004_ip = 18; continue _fun0004 }
+case 19:
                 var2 = var1.timestampSec;
                 var1 = var1.duration;
-                if(!(!(var2 >= var1))) { _fun0004_ip = 74; continue _fun0004 }
- 59:
+                if(!(!(var2 >= var1))) { _fun0004_ip = 20; continue _fun0004 }
+case 21:
                 var1 = _closure1_slot3;
                 var1 = var1.IN_PROGRESS;
-                _fun0004_ip = 87; continue _fun0004;
- 74:
+                _fun0004_ip = 22; continue _fun0004;
+case 20:
                 var2 = _closure1_slot3;
                 var1 = var2.COMPLETED;
- 87:
-                _fun0004_ip = 102; continue _fun0004;
- 89:
+case 22:
+                _fun0004_ip = 23; continue _fun0004;
+case 18:
                 var2 = _closure1_slot3;
                 var1 = var2.NOT_STARTED;
- 102:
-                _fun0004_ip = 117; continue _fun0004;
- 104:
+case 23:
+                _fun0004_ip = 24; continue _fun0004;
+case 16:
                 var2 = _closure1_slot3;
                 var1 = var2.UNKNOWN;
- 117:
+case 24:
                 return var1;
             }
         };

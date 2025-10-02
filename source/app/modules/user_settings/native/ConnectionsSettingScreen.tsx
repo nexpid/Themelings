@@ -50,7 +50,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function ConnectionsSettingScreen() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
             var3 = 5;
@@ -69,10 +69,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = null;
             var6 = var5 == var3;
             var5 = undefined;
-            if(var6) { _fun0001_ip = 86; continue _fun0001 }
- 80:
+            if(var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = var3.selectedPlatformType;
- 86:
+case 2:
             var7 = _closure1_slot3;
             var6 = var7.useLayoutEffect;
             var3 = new Array(1);

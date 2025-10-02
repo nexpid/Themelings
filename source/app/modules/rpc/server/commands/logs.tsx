@@ -69,7 +69,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['validation'] = var9;
     var8 = function handler(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var3 = var1.socket;
             var1 = var1.args;
@@ -93,44 +93,44 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = ' - ';
             var4 = var6.bind(var4)(var7, var3, var8);
             var3 = 'log';
-            if(!(var3 !== var5)) { _fun0001_ip = 214; continue _fun0001 }
- 116:
+            if(!(var3 !== var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = 'warn';
-            if(!(var3 !== var5)) { _fun0001_ip = 198; continue _fun0001 }
- 124:
+            if(!(var3 !== var5)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = 'debug';
-            if(!(var3 !== var5)) { _fun0001_ip = 181; continue _fun0001 }
- 132:
+            if(!(var3 !== var5)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var3 = 'info';
-            if(!(var3 !== var5)) { _fun0001_ip = 164; continue _fun0001 }
- 140:
+            if(!(var3 !== var5)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var3 = 'error';
-            if(!(var3 === var5)) { _fun0001_ip = 229; continue _fun0001 }
- 148:
+            if(!(var3 === var5)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var5 = _closure1_slot3;
             var3 = var5.error;
             var3 = var3.bind(var5)(var4);
-            _fun0001_ip = 229; continue _fun0001;
- 164:
+            _fun0001_ip = 10; continue _fun0001;
+case 8:
             var5 = _closure1_slot3;
             var3 = var5.info;
             var3 = var3.bind(var5)(var4);
-            _fun0001_ip = 229; continue _fun0001;
- 181:
+            _fun0001_ip = 10; continue _fun0001;
+case 6:
             var5 = _closure1_slot3;
             var3 = var5.verbose;
             var3 = var3.bind(var5)(var4);
-            _fun0001_ip = 229; continue _fun0001;
- 198:
+            _fun0001_ip = 10; continue _fun0001;
+case 4:
             var5 = _closure1_slot3;
             var3 = var5.warn;
             var3 = var3.bind(var5)(var4);
-            _fun0001_ip = 229; continue _fun0001;
- 214:
+            _fun0001_ip = 10; continue _fun0001;
+case 2:
             var3 = _closure1_slot3;
             var2 = var3.log;
             var2 = var2.bind(var3)(var4);
- 229:
+case 10:
             return var1;
         }
     };

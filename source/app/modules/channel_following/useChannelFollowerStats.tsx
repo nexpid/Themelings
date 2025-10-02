@@ -86,11 +86,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4[2] = var2;
         var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var2 = _closure2_slot3;
                 var3 = null;
-                if(!(var3 != var2)) { _fun0001_ip = 55; continue _fun0001 }
- 13:
+                if(!(var3 != var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var2 = global;
                 var4 = var2.Date;
                 var2 = var4.now;
@@ -99,11 +99,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var2.lastFetched;
                 var4 = var4 - var2;
                 var2 = _closure1_slot6;
-                if(!(var4 > var2)) { _fun0001_ip = 115; continue _fun0001 }
- 55:
+                if(!(var4 > var2)) { _fun0001_ip = 4; continue _fun0001 }
+case 2:
                 var2 = _closure2_slot1;
-                if(var2) { _fun0001_ip = 115; continue _fun0001 }
- 62:
+                if(var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var4 = _closure2_slot2;
                 var5 = undefined;
                 var2 = true;
@@ -116,21 +116,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var5.fetchChannelFollowerStats;
                 var2 = _closure2_slot0;
                 var2 = var4.bind(var5)(var2);
-                _fun0001_ip = 146; continue _fun0001;
- 115:
+                _fun0001_ip = 6; continue _fun0001;
+case 4:
                 var2 = _closure2_slot3;
                 var2 = var3 != var2;
-                if(!var2) { _fun0001_ip = 130; continue _fun0001 }
- 126:
+                if(!var2) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
                 var2 = _closure2_slot1;
- 130:
-                if(!var2) { _fun0001_ip = 146; continue _fun0001 }
- 133:
+case 7:
+                if(!var2) { _fun0001_ip = 6; continue _fun0001 }
+case 9:
                 var3 = _closure2_slot2;
                 var2 = undefined;
                 var1 = false;
                 var1 = var3.bind(var2)(var1);
- 146:
+case 6:
                 var1 = undefined;
                 return var1;
             }

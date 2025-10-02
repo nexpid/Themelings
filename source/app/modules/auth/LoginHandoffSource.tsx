@@ -41,7 +41,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['LoginHandoffSource'] = var4;
     var2 = function getLoginHandoffSourceFromRedirectTo(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = global;
             var3 = var1.decodeURIComponent;
             var1 = undefined;
@@ -55,13 +55,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var5.tryParseChannelPath;
             var3 = var3.bind(var5)(var4);
             var5 = null;
-            if(!(var5 != var3)) { _fun0001_ip = 77; continue _fun0001 }
- 58:
+            if(!(var5 != var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = var3.channelId;
             var3 = _closure1_slot4;
             var3 = var3.ROLE_SUBSCRIPTIONS;
-            if(!(var5 !== var3)) { _fun0001_ip = 127; continue _fun0001 }
- 77:
+            if(!(var5 !== var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 2:
             var7 = _closure1_slot2;
             var6 = var7.SETTINGS;
             var3 = _closure1_slot3;
@@ -69,16 +69,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = 'role-subscriptions';
             var3 = var6.bind(var7)(var5, var3);
             var1 = undefined;
-            if(!(var4 === var3)) { _fun0001_ip = 125; continue _fun0001 }
- 115:
+            if(!(var4 === var3)) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var3 = _closure1_slot5;
             var1 = var3.ROLE_SUBSCRIPTION_SETTING;
- 125:
-            _fun0001_ip = 137; continue _fun0001;
- 127:
+case 5:
+            _fun0001_ip = 7; continue _fun0001;
+case 4:
             var2 = _closure1_slot5;
             var1 = var2.ROLE_SUBSCRIPTION;
- 137:
+case 7:
             return var1;
         }
     };

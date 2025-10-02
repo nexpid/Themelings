@@ -55,33 +55,33 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['default'] = var4;
     var2 = function getConsoleIconForVoicePlatform(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var1 = _closure1_slot2;
             var1 = var1.XBOX;
-            if(!(var4 !== var1)) { _fun0001_ip = 60; continue _fun0001 }
- 20:
+            if(!(var4 !== var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = _closure1_slot2;
             var3 = var1.PLAYSTATION;
             var1 = null;
-            if(!(var4 === var3)) { _fun0001_ip = 58; continue _fun0001 }
- 36:
+            if(!(var4 === var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = _closure1_slot0;
             var4 = _closure1_slot1;
             var3 = 3;
             var4 = var4[var3];
             var3 = undefined;
             var1 = var5.bind(var3)(var4);
- 58:
-            _fun0001_ip = 82; continue _fun0001;
- 60:
+case 4:
+            _fun0001_ip = 6; continue _fun0001;
+case 2:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
             var2 = 2;
             var3 = var3[var2];
             var2 = undefined;
             var1 = var4.bind(var2)(var3);
- 82:
+case 6:
             return var1;
         }
     };

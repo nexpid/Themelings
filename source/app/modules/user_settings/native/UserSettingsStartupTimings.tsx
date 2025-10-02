@@ -122,7 +122,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function UserSettingsStartupTimings() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = _closure1_slot10;
             var4 = undefined;
             var6 = var1.bind(var4)();
@@ -242,16 +242,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = null;
             var10 = var3 == var7;
             var2 = undefined;
-            if(var10) { _fun0001_ip = 477; continue _fun0001 }
- 471:
+            if(var10) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var7.time_first_contentful_paint;
- 477:
+case 2:
             var3 = var3 != var2;
             var1 = 0;
-            if(!var3) { _fun0001_ip = 489; continue _fun0001 }
- 486:
+            if(!var3) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = var2;
- 489:
+case 4:
             var _closure2_slot12 = var1;
             var1 = function renderTime(arg1) {
                 var8 = arg1;
@@ -285,7 +285,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot13 = var1;
             var1 = function renderTTi(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var6 = arg1;
                     var4 = _closure1_slot7;
                     var3 = _closure1_slot11;
@@ -296,18 +296,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var1 == var6;
                     var7 = '';
                     var1 = var7;
-                    if(var5) { _fun0002_ip = 72; continue _fun0002 }
- 42:
+                    if(var5) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var5 = 0;
                     var5 = var6 <= var5;
                     var1 = var7;
-                    if(var5) { _fun0002_ip = 72; continue _fun0002 }
- 54:
+                    if(var5) { _fun0002_ip = 6; continue _fun0002 }
+case 8:
                     var5 = 1000;
                     var6 = var6 / var5;
                     var5 = 's';
                     var1 = var6 + var5;
- 72:
+case 6:
                     var2['children'] = var1;
                     var1 = undefined;
                     var1 = var4.bind(var1)(var3, var2);
@@ -330,7 +330,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = {};
             var10 = function ListHeaderComponent() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var4 = _closure1_slot8;
                     var3 = _closure1_slot9;
                     var2 = {};
@@ -424,11 +424,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var26 = null;
                     var25 = var26 == var23;
                     var23 = undefined;
-                    if(var25) { _fun0003_ip = 422; continue _fun0003 }
- 412:
+                    if(var25) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
                     var25 = _closure2_slot11;
                     var23 = var25.time_display_messages_with_cache_end;
- 422:
+case 9:
                     var24 = var24.bind(var1)(var23);
                     var23 = ['Cached Messages Render: '];
                     var23[1] = var24;
@@ -442,11 +442,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var24 = _closure2_slot11;
                     var26 = var26 == var24;
                     var24 = undefined;
-                    if(var26) { _fun0003_ip = 492; continue _fun0003 }
- 482:
+                    if(var26) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
                     var26 = _closure2_slot11;
                     var24 = var26.time_display_latest_messages_end;
- 492:
+case 11:
                     var25 = var25.bind(var1)(var24);
                     var24 = ['Latest Messages Render: '];
                     var24[1] = var25;

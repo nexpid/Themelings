@@ -19,7 +19,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[0] = var1;
         var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var2 = _closure1_slot3;
                 var1 = var2.getCurrentUser;
                 var6 = var1.bind(var2)();
@@ -35,15 +35,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = null;
                 var5 = var2 == var6;
                 var9 = undefined;
-                if(var5) { _fun0001_ip = 69; continue _fun0001 }
- 63:
+                if(var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var9 = var6.verified;
- 69:
+case 2:
                 var5 = var2 != var9;
-                if(!var5) { _fun0001_ip = 79; continue _fun0001 }
- 76:
+                if(!var5) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var5 = var9;
- 79:
+case 4:
                 var1[var8] = var5;
                 var5 = _closure1_slot0;
                 var3 = _closure1_slot1;
@@ -53,16 +53,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var3.PHONE;
                 var5 = var2 == var6;
                 var4 = undefined;
-                if(var5) { _fun0001_ip = 132; continue _fun0001 }
- 122:
+                if(var5) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                 var5 = var6.isPhoneVerified;
                 var4 = var5.bind(var6)();
- 132:
+case 6:
                 var2 = var2 != var4;
-                if(!var2) { _fun0001_ip = 142; continue _fun0001 }
- 139:
+                if(!var2) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
                 var2 = var4;
- 142:
+case 8:
                 var1[var3] = var2;
                 return var1;
             }
@@ -159,19 +159,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3[0] = var6;
         var2 = function() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var2 = _closure2_slot2;
                 var2 = var2.current;
                 var4 = var2.current;
                 var3 = var2.initial;
                 var2 = null;
-                if(!(var2 == var3)) { _fun0002_ip = 48; continue _fun0002 }
- 29:
+                if(!(var2 == var3)) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
                 var3 = _closure1_slot5;
                 var2 = _closure2_slot0;
                 var1 = undefined;
                 var1 = var3.bind(var1)(var2, var4);
- 48:
+case 10:
                 var1 = undefined;
                 return var1;
             }

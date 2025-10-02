@@ -38,13 +38,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var2;
         var2 = function value(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var3 = this;
                 var8 = 0;
                 var4 = copyRestArgs(var8);
                 var1 = var3.isInitialized;
-                if(var1) { _fun0001_ip = 61; continue _fun0001 }
- 18:
+                if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var1 = true;
                 var3['isInitialized'] = var1;
                 var2 = var3._initialize;
@@ -57,7 +57,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = var1;
                 var6 = var3;
                 var1 = apply(var8, var7, var6);
- 61:
+case 2:
                 var1 = undefined;
                 return var1;
             }
@@ -70,16 +70,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var5 = function value() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var2 = this;
                 var1 = var2.isInitialized;
-                if(!var1) { _fun0002_ip = 30; continue _fun0002 }
- 12:
+                if(!var1) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                 var1 = false;
                 var2['isInitialized'] = var1;
                 var1 = var2._terminate;
                 var1 = var1.bind(var2)();
- 30:
+case 4:
                 var1 = undefined;
                 return var1;
             }

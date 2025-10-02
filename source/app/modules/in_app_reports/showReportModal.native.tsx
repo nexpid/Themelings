@@ -14,29 +14,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = function* (arg1, arg2, arg3) {
             var1 = function* anon_0_(arg1, arg2, arg3) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     StartGenerator();
                     var2 = arg3;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(var3) { _fun0001_ip = 299; continue _fun0001 }
- 13:
+                    if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var12 = arg1;
                     var4 = arg2;
                     var11 = var2.onSubmit;
                     var2 = var2.isEligibleForFeedback;
                     var3 = undefined;
-                    if(!(var2 === var3)) { _fun0001_ip = 39; continue _fun0001 }
- 37:
+                    if(!(var2 === var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                     var2 = true;
- 39:
+case 4:
                     var10 = var2;
                     SaveGenerator(address=46);
- 44:
+case 6:
                     return var3;
- 46:
+case 7:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0001_ip = 296; continue _fun0001 }
- 55: // try_start_0
+                    if(var5) { _fun0001_ip = 8; continue _fun0001 }
+case 9: // try_start_0
                     var7 = _closure1_slot0;
                     var8 = _closure1_slot2;
                     var6 = 1;
@@ -53,33 +53,33 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = 2;
                     var7 = var9[var7];
                     var8 = var8.bind(var3)(var7);
-                    if(var6) { _fun0001_ip = 165; continue _fun0001 }
- 131:
+                    if(var6) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
                     var9 = var8.getReportMenu;
                     var7 = var12;
                     var6 = var4;
                     var6 = var9.bind(var8)(var7, var6);
                     SaveGenerator(address=153);
- 151:
+case 12:
                     return var6;
- 153:
+case 13:
                     ResumeGenerator(result_out_reg=5, return_bool_out_reg=6);
                     var13 = var6;
-                    if(!var7) { _fun0001_ip = 193; continue _fun0001 }
- 162: // try_end0
+                    if(!var7) { _fun0001_ip = 14; continue _fun0001 }
+case 15: // try_end0
                     return var6;
- 165: // try_start_1
+case 10: // try_start_1
                     var7 = var8.getReportMenuForModeratorReport;
                     var6 = var12;
                     var4 = var7.bind(var8)(var6, var4);
                     SaveGenerator(address=184);
- 182:
+case 16:
                     return var4;
- 184:
+case 17:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=5);
                     var13 = var4;
-                    if(var6) { _fun0001_ip = 288; continue _fun0001 }
- 193:
+                    if(var6) { _fun0001_ip = 18; continue _fun0001 }
+case 14:
                     var8 = _closure1_slot1;
                     var6 = _closure1_slot2;
                     var7 = 3;
@@ -101,17 +101,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6['isEligibleForFeedback'] = var10;
                     var5 = _closure1_slot4;
                     var5 = var8.bind(var9)(var7, var6, var5);
- 286: // try_end1
-                    _fun0001_ip = 293; continue _fun0001;
- 288:
+case 19: // try_end1
+                    _fun0001_ip = 20; continue _fun0001;
+case 18:
                     return var4;
- 291: // catch_target0 // catch_target1
+case 21: // catch_target0 // catch_target1
                     CatchBlockStart(arg_register=3);
- 293:
+case 20:
                     return var3;
- 296:
+case 8:
                     return var2;
- 299:
+case 2:
                     return var1;
                 }
             };

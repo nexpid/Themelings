@@ -53,7 +53,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['parent'] = var7;
     var7 = function useInAppNotificationsSettingValue() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = _closure1_slot0;
             var5 = _closure1_slot2;
             var2 = 3;
@@ -69,10 +69,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.useSetting;
             var2 = var2.bind(var3)();
             var1 = !var1;
-            if(!var1) { _fun0001_ip = 75; continue _fun0001 }
- 72:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var2;
- 75:
+case 2:
             return var1;
         }
     };
@@ -103,7 +103,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['onValueChange'] = var7;
     var4 = function useInAppNotificationsDescription() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
             var1 = 4;
@@ -113,8 +113,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var3.useFocusModeEnabled;
             var3 = var1.bind(var3)();
             var1 = undefined;
-            if(!var3) { _fun0002_ip = 97; continue _fun0002 }
- 40:
+            if(!var3) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var5 = _closure1_slot0;
             var7 = _closure1_slot2;
             var2 = 5;
@@ -127,7 +127,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.t;
             var2 = var2.cIRG0t;
             var1 = var3.bind(var4)(var2);
- 97:
+case 4:
             return var1;
         }
     };

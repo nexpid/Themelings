@@ -199,7 +199,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var3.useAnimatedStyle;
         var1 = function o() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var1 = {};
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
@@ -209,13 +209,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var5.bind(var3)(var4);
                 var5 = var6.withSpring;
                 var4 = _closure2_slot0;
-                if(var4) { _fun0001_ip = 48; continue _fun0001 }
- 42:
+                if(var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var4 = _closure2_slot3;
-                _fun0001_ip = 52; continue _fun0001;
- 48:
+                _fun0001_ip = 4; continue _fun0001;
+case 2:
                 var4 = _closure2_slot4;
- 52:
+case 4:
                 var3 = _closure1_slot9;
                 var2 = 'animate-always';
                 var2 = var5.bind(var6)(var4, var3, var2);

@@ -43,7 +43,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var8.createStyles;
     var4 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = {};
             var2 = {};
             var6 = _closure1_slot0;
@@ -58,10 +58,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['height'] = var4;
             var4 = 12;
             var6 = arg1;
-            if(!var6) { _fun0001_ip = 60; continue _fun0001 }
- 56:
+            if(!var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = _closure1_slot5;
- 60:
+case 2:
             var2['paddingStart'] = var4;
             var6 = _closure1_slot4;
             var7 = _closure1_slot0;
@@ -72,11 +72,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var7.isAndroid;
             var7 = var4.bind(var7)();
             var4 = 0;
-            if(!var7) { _fun0001_ip = 113; continue _fun0001 }
- 103:
+            if(!var7) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var7 = _closure1_slot2;
             var4 = var7.hairlineWidth;
- 113:
+case 4:
             var4 = var6 + var4;
             var4 = -var4;
             var2['marginTop'] = var4;
@@ -105,14 +105,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function TableRowDivider(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var3 = var1.adjustSpacingForIcon;
             var4 = undefined;
-            if(!(var3 === var4)) { _fun0002_ip = 17; continue _fun0002 }
- 15:
+            if(!(var3 === var4)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var3 = false;
- 17:
+case 6:
             var2 = _closure1_slot7;
             var6 = var2.bind(var4)(var3);
             var3 = _closure1_slot6;

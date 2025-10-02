@@ -69,7 +69,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function FamilyCenterActivityPage() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = _closure1_slot8;
             var4 = undefined;
             var13 = var1.bind(var4)();
@@ -89,8 +89,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['style'] = var6;
             var6 = var5.length;
             var5 = 0;
-            if(!(var5 !== var6)) { _fun0001_ip = 121; continue _fun0001 }
- 84:
+            if(!(var5 !== var6)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var7 = _closure1_slot5;
             var6 = _closure1_slot1;
             var8 = _closure1_slot2;
@@ -99,8 +99,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.bind(var4)(var5);
             var5 = {};
             var5 = var7.bind(var4)(var6, var5);
-            _fun0001_ip = 265; continue _fun0001;
- 121:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var8 = _closure1_slot7;
             var7 = _closure1_slot6;
             var6 = {};
@@ -136,7 +136,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9[2] = var10;
             var6['children'] = var9;
             var5 = var8.bind(var4)(var7, var6);
- 265:
+case 4:
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

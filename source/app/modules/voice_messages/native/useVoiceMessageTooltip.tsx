@@ -84,13 +84,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4[0] = var9;
         var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var2 = _closure2_slot0;
-                if(var2) { _fun0001_ip = 16; continue _fun0001 }
- 12:
+                if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var2 = undefined;
                 return var2;
- 16:
+case 2:
                 var4 = _closure1_slot0;
                 var5 = _closure1_slot1;
                 var3 = 4;
@@ -106,7 +106,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = _closure1_slot3;
                 var2 = function() {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                         var4 = _closure3_slot0;
                         var5 = _closure1_slot0;
                         var3 = _closure1_slot1;
@@ -119,11 +119,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var7 = true;
                         var3['includeCustomKeyboard'] = var7;
                         var3 = var5.bind(var6)(var3);
-                        if(!(var4 !== var3)) { _fun0002_ip = 64; continue _fun0002 }
- 56:
+                        if(!(var4 !== var3)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                         var2 = _closure1_slot4;
                         var2 = var2.bind(var1)();
- 64:
+case 4:
                         return var1;
                     }
                 };

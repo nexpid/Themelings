@@ -33,15 +33,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useOnMessageSend(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var7 = arg1;
             var6 = arguments[1];
             var _closure2_slot0 = var7;
             var1 = undefined;
-            if(!(var6 === var1)) { _fun0001_ip = 20; continue _fun0001 }
- 18:
+            if(!(var6 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = undefined;
- 20:
+case 2:
             var _closure2_slot1 = var6;
             var5 = _closure1_slot2;
             var4 = var5.useEffect;
@@ -51,45 +51,45 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = function() {
                 var5 = function handleMessage(arg1) {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                         var3 = _closure2_slot1;
                         var1 = undefined;
                         var3 = var1 !== var3;
-                        if(!var3) { _fun0002_ip = 32; continue _fun0002 }
- 16:
+                        if(!var3) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                         var4 = arg1;
                         var5 = var4.channelId;
                         var4 = _closure2_slot1;
                         var3 = var5 !== var4;
- 32:
-                        if(var3) { _fun0002_ip = 43; continue _fun0002 }
- 35:
+case 4:
+                        if(var3) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                         var2 = _closure2_slot0;
                         var2 = var2.bind(var1)();
- 43:
+case 6:
                         return var1;
                     }
                 };
                 var _closure3_slot0 = var5;
                 var10 = function handleMessageCreate(arg1) {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                         var3 = arg1;
                         var1 = var3.optimistic;
-                        if(var1) { _fun0003_ip = 39; continue _fun0003 }
- 12:
+                        if(var1) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
                         var2 = var3.message;
                         var4 = var2.state;
                         var2 = _closure1_slot3;
                         var2 = var2.SENDING;
                         var1 = var4 === var2;
- 39:
-                        if(!var1) { _fun0003_ip = 56; continue _fun0003 }
- 42:
+case 8:
+                        if(!var1) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
                         var2 = _closure3_slot0;
                         var1 = undefined;
                         var1 = var2.bind(var1)(var3);
- 56:
+case 10:
                         var1 = undefined;
                         return var1;
                     }

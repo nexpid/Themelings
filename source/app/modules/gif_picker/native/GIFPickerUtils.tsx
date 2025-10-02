@@ -34,7 +34,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot7 = var4;
     var4 = function transformFavoriteGifUrl(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var9 = arg2;
             var2 = _closure1_slot1;
@@ -46,8 +46,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2.toURLSafe;
             var2 = var1.bind(var2)(var4);
             var5 = null;
-            if(!(var5 != var2)) { _fun0001_ip = 233; continue _fun0001 }
- 51:
+            if(!(var5 != var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = _closure1_slot0;
             var1 = _closure1_slot2;
             var8 = 3;
@@ -55,16 +55,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var6)(var1);
             var1 = var3.isExternalProxiedAttachmentUrl;
             var1 = var1.bind(var3)(var2);
-            if(var1) { _fun0001_ip = 116; continue _fun0001 }
- 85:
+            if(var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = _closure1_slot0;
             var1 = _closure1_slot2;
             var1 = var1[var8];
             var3 = var3.bind(var6)(var1);
             var1 = var3.isAttachmentUrl;
             var1 = var1.bind(var3)(var2);
-            if(!var1) { _fun0001_ip = 233; continue _fun0001 }
- 116:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var3 = var2.pathname;
             var1 = var3.toLowerCase;
             var8 = var1.bind(var3)();
@@ -83,69 +83,69 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var11.endsWith;
             var3 = '.gif';
             var3 = var10.bind(var11)(var3);
-            if(var8) { _fun0001_ip = 383; continue _fun0001 }
- 221:
-            if(var1) { _fun0001_ip = 383; continue _fun0001 }
- 227:
-            if(var3) { _fun0001_ip = 383; continue _fun0001 }
- 233:
+            if(var8) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+            if(var1) { _fun0001_ip = 6; continue _fun0001 }
+case 8:
+            if(var3) { _fun0001_ip = 6; continue _fun0001 }
+case 2:
             var10 = _closure1_slot5;
             var8 = var10.test;
             var8 = var8.bind(var10)(var9);
-            if(var8) { _fun0001_ip = 298; continue _fun0001 }
- 250:
+            if(var8) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var10 = _closure1_slot6;
             var8 = var10.test;
             var8 = var8.bind(var10)(var9);
-            if(!var8) { _fun0001_ip = 296; continue _fun0001 }
- 267:
+            if(!var8) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var8 = global;
             var8 = var8.HermesInternal;
             var11 = var8.concat;
             var10 = '';
             var8 = '.gif';
             var4 = var11.bind(var10)(var9, var8);
- 296:
-            _fun0001_ip = 381; continue _fun0001;
- 298:
+case 11:
+            _fun0001_ip = 13; continue _fun0001;
+case 9:
             var8 = _closure1_slot7;
             var7 = var8.exec;
             var9 = var7.bind(var8)(var9);
             var7 = var5 == var9;
             var8 = undefined;
-            if(var7) { _fun0001_ip = 350; continue _fun0001 }
- 322:
+            if(var7) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var7 = 0;
             var7 = var9[var7];
             var5 = var5 == var7;
             var8 = undefined;
-            if(var5) { _fun0001_ip = 350; continue _fun0001 }
- 337:
+            if(var5) { _fun0001_ip = 14; continue _fun0001 }
+case 16:
             var6 = var7.slice;
             var5 = 1;
             var8 = var6.bind(var7)(var5);
- 350:
+case 14:
             var5 = global;
             var5 = var5.HermesInternal;
             var7 = var5.concat;
             var6 = 'https://media.giphy.com/media/';
             var5 = '/giphy.gif';
             var4 = var7.bind(var6)(var8, var5);
- 381:
+case 13:
             return var4;
- 383:
-            if(var1) { _fun0001_ip = 389; continue _fun0001 }
- 386:
+case 6:
+            if(var1) { _fun0001_ip = 17; continue _fun0001 }
+case 18:
             var1 = var3;
- 389:
-            if(!var1) { _fun0001_ip = 419; continue _fun0001 }
- 392:
+case 17:
+            if(!var1) { _fun0001_ip = 19; continue _fun0001 }
+case 20:
             var5 = var2.searchParams;
             var4 = var5.set;
             var3 = 'format';
             var1 = 'webp';
             var1 = var4.bind(var5)(var3, var1);
- 419:
+case 19:
             var5 = var2.searchParams;
             var4 = var5.set;
             var3 = 'animated';
@@ -182,15 +182,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[0] = var3;
         var1 = function() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var1 = _closure2_slot0;
                 var1 = var1.length;
                 var4 = 0;
                 var2 = var1 > var4;
                 var9 = undefined;
                 var1 = undefined;
-                if(!var2) { _fun0002_ip = 138; continue _fun0002 }
- 25:
+                if(!var2) { _fun0002_ip = 21; continue _fun0002 }
+case 22:
                 var2 = {};
                 var6 = _closure1_slot4;
                 var6 = var6.FAVORITES;
@@ -216,7 +216,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var3.format;
                 var2['format'] = var3;
                 var1 = var2;
- 138:
+case 21:
                 return var1;
             }
         };

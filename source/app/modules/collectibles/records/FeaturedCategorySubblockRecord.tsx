@@ -26,7 +26,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function() {
         var5 = function FeaturedCategorySubblockRecord(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var2 = arg1;
                 var3 = this;
                 var6 = _closure1_slot2;
@@ -50,8 +50,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var2.unpublished_at;
                 var4 = null;
                 var5 = var4 != var5;
-                if(!var5) { _fun0001_ip = 150; continue _fun0001 }
- 116:
+                if(!var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var5 = global;
                 var7 = var5.Date;
                 var9 = var2.unpublished_at;
@@ -60,7 +60,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var10 = var6;
                 var5 = new var10[var7](var9, var8);
                 var4 = var5 instanceof Object ? var5 : var6;
- 150:
+case 2:
                 var3['unpublishedAt'] = var4;
                 var4 = var2.body_text;
                 var3['bodyText'] = var4;

@@ -41,30 +41,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function setAccessibilityFocus(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var3 = var1.ref;
             var4 = var1.delay;
             var1 = undefined;
-            if(!(var4 === var1)) { _fun0001_ip = 24; continue _fun0001 }
- 22:
+            if(!(var4 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = 0;
- 24:
+case 2:
             var _closure2_slot0 = var1;
             var5 = null;
-            if(!(var5 != var3)) { _fun0001_ip = 78; continue _fun0001 }
- 34:
+            if(!(var5 != var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var6 = _closure1_slot4;
             var3 = var3.current;
             var3 = var6.bind(var1)(var3);
             _closure2_slot0 = var3;
-            if(!(var5 != var3)) { _fun0001_ip = 78; continue _fun0001 }
- 59:
+            if(!(var5 != var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 6:
             var3 = global;
             var3 = var3.setTimeout;
             var2 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var4 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var1 = 3;
@@ -73,8 +73,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var4.bind(var1)(var2);
                     var2 = var4.isFabric;
                     var4 = var2.bind(var4)();
-                    if(var4) { _fun0002_ip = 96; continue _fun0002 }
- 41:
+                    if(var4) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
                     var6 = _closure2_slot0;
                     var5 = _closure1_slot1;
                     var7 = _closure1_slot2;
@@ -93,18 +93,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     };
                     var4 = var5.bind(var6)(var4);
-                    _fun0002_ip = 115; continue _fun0002;
- 96:
+                    _fun0002_ip = 9; continue _fun0002;
+case 7:
                     var4 = _closure1_slot3;
                     var3 = var4.setAccessibilityFocus;
                     var2 = _closure2_slot0;
                     var2 = var3.bind(var4)(var2);
- 115:
+case 9:
                     return var1;
                 }
             };
             var2 = var3.bind(var1)(var2, var4);
- 78:
+case 4:
             return var1;
         }
     };

@@ -37,7 +37,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function ApplicationStreamActivityStatus(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var3 = var1.game;
             var14 = var1.iconStyle;
@@ -45,40 +45,40 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var1.maxFontSizeMultiplier;
             var5 = var1.hideIcon;
             var4 = undefined;
-            if(!(var5 === var4)) { _fun0001_ip = 41; continue _fun0001 }
- 39:
+            if(!(var5 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = false;
- 41:
+case 2:
             var6 = var1.hideText;
-            if(!(var6 === var4)) { _fun0001_ip = 53; continue _fun0001 }
- 51:
+            if(!(var6 === var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var6 = false;
- 53:
-            if(!var5) { _fun0001_ip = 62; continue _fun0001 }
- 56:
-            if(var6) { _fun0001_ip = 390; continue _fun0001 }
- 62:
+case 4:
+            if(!var5) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+            if(var6) { _fun0001_ip = 8; continue _fun0001 }
+case 6:
             var1 = null;
             var2 = var1 == var3;
             var7 = undefined;
-            if(var2) { _fun0001_ip = 78; continue _fun0001 }
- 73:
+            if(var2) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var7 = var3.name;
- 78:
+case 9:
             var2 = '';
             var8 = null;
-            if(!(var2 !== var7)) { _fun0001_ip = 105; continue _fun0001 }
- 88:
+            if(!(var2 !== var7)) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var7 = var1 == var3;
             var2 = undefined;
-            if(var7) { _fun0001_ip = 102; continue _fun0001 }
- 97:
+            if(var7) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var2 = var3.name;
- 102:
+case 13:
             var8 = var2;
- 105:
-            if(!(var1 == var8)) { _fun0001_ip = 169; continue _fun0001 }
- 109:
+case 11:
+            if(!(var1 == var8)) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
             var7 = _closure1_slot0;
             var9 = _closure1_slot2;
             var1 = 2;
@@ -91,8 +91,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.t;
             var1 = var1.eXan7O;
             var10 = var2.bind(var3)(var1);
-            _fun0001_ip = 234; continue _fun0001;
- 169:
+            _fun0001_ip = 17; continue _fun0001;
+case 15:
             var2 = _closure1_slot0;
             var9 = _closure1_slot2;
             var1 = 2;
@@ -107,13 +107,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = {};
             var1['name'] = var8;
             var10 = var3.bind(var7)(var2, var1);
- 234:
+case 17:
             var3 = _closure1_slot5;
             var2 = _closure1_slot4;
             var1 = {};
             var8 = !var5;
-            if(!var8) { _fun0001_ip = 315; continue _fun0001 }
- 253:
+            if(!var8) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
             var13 = _closure1_slot3;
             var9 = _closure1_slot1;
             var17 = _closure1_slot2;
@@ -129,12 +129,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['icon'] = var15;
             var5['style'] = var14;
             var8 = var13.bind(var4)(var9, var5);
- 315:
+case 18:
             var5 = new Array(2);
             var5[0] = var8;
             var6 = !var6;
-            if(!var6) { _fun0001_ip = 374; continue _fun0001 }
- 329:
+            if(!var6) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
             var9 = _closure1_slot3;
             var8 = _closure1_slot1;
             var13 = _closure1_slot2;
@@ -146,12 +146,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7['maxFontSizeMultiplier'] = var11;
             var7['children'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 374:
+case 20:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
- 390:
+case 8:
             var1 = null;
             return var1;
         }

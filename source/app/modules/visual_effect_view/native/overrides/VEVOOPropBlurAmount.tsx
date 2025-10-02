@@ -51,7 +51,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function VEVOOPropBlurAmount() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = _closure1_slot8;
             var4 = undefined;
             var7 = var1.bind(var4)();
@@ -82,15 +82,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var8.useCallback;
             var2 = function(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var5 = arg1;
                     var1 = null;
-                    if(!(var1 != var5)) { _fun0002_ip = 23; continue _fun0002 }
- 9:
+                    if(!(var1 != var5)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var2 = _closure2_slot2;
                     var1 = undefined;
                     var1 = var2.bind(var1)(var5);
- 23:
+case 2:
                     var3 = _closure1_slot6;
                     var2 = {};
                     var4 = _closure1_slot5;
@@ -118,18 +118,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = null;
             var12 = var11 == var15;
             var8 = undefined;
-            if(var12) { _fun0001_ip = 200; continue _fun0001 }
- 186:
+            if(var12) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var14 = var15.toFixed;
             var12 = 3;
             var8 = var14.bind(var15)(var12);
- 200:
+case 4:
             var11 = var11 != var8;
             var12 = '';
-            if(!var11) { _fun0001_ip = 214; continue _fun0001 }
- 211:
+            if(!var11) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var12 = var8;
- 214:
+case 6:
             var8 = global;
             var8 = var8.HermesInternal;
             var11 = var8.concat;
@@ -149,17 +149,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7['value'] = var5;
             var13 = function onValueChange(arg1) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var5 = arg1;
                     var2 = _closure2_slot0;
                     var1 = undefined;
                     var2 = var2.bind(var1)(var5);
                     var3 = _closure2_slot3;
                     var2 = undefined;
-                    if(!var5) { _fun0003_ip = 30; continue _fun0003 }
- 26:
+                    if(!var5) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
                     var2 = _closure2_slot1;
- 30:
+case 8:
                     var2 = var3.bind(var1)(var2);
                     return var1;
                 }

@@ -9,13 +9,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var8;
     var4 = function useFetchPurchases() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var11 = arguments[0];
             var10 = undefined;
-            if(!(var11 === var10)) { _fun0001_ip = 13; continue _fun0001 }
- 11:
+            if(!(var11 === var10)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var11 = false;
- 13:
+case 2:
             var _closure2_slot0 = var11;
             var _closure2_slot1 = var10;
             var _closure2_slot2 = var10;
@@ -106,24 +106,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8[0] = var11;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = _closure2_slot0;
                     var1 = true;
                     var1 = var1 === var3;
-                    if(!var1) { _fun0002_ip = 25; continue _fun0002 }
- 16:
+                    if(!var1) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var3 = _closure2_slot3;
                     var1 = var3.current;
- 25:
-                    if(!var1) { _fun0002_ip = 43; continue _fun0002 }
- 28:
+case 4:
+                    if(!var1) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var2 = _closure2_slot4;
                     var3 = var2.current;
                     var2 = null;
                     var1 = var2 == var3;
- 43:
-                    if(var1) { _fun0002_ip = 93; continue _fun0002 }
- 46:
+case 6:
+                    if(var1) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var1 = 5;
@@ -135,7 +135,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = _closure1_slot7;
                     var1['variantsReturnStyle'] = var4;
                     var1 = var2.bind(var3)(var1);
- 93:
+case 8:
                     var1 = undefined;
                     return var1;
                 }
@@ -154,16 +154,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot8 = var4;
     var5 = function useFetchCollectiblesCategoriesAndPurchases(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var5 = arg1;
             var1 = null;
             var2 = var1 == var5;
             var4 = undefined;
             var3 = undefined;
-            if(var2) { _fun0003_ip = 22; continue _fun0003 }
- 16:
+            if(var2) { _fun0003_ip = 10; continue _fun0003 }
+case 5:
             var3 = var5.paymentGateway;
- 22:
+case 10:
             var7 = _closure1_slot1;
             var8 = _closure1_slot2;
             var6 = 6;
@@ -173,24 +173,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6['paymentGateway'] = var3;
             var8 = var1 == var5;
             var3 = undefined;
-            if(var8) { _fun0003_ip = 67; continue _fun0003 }
- 61:
+            if(var8) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
             var3 = var5.noOp;
- 67:
+case 11:
             var6['noOp'] = var3;
             var8 = var1 == var5;
             var3 = undefined;
-            if(var8) { _fun0003_ip = 87; continue _fun0003 }
- 81:
+            if(var8) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
             var3 = var5.logPerf;
- 87:
+case 13:
             var6['logPerf'] = var3;
             var8 = var1 == var5;
             var3 = undefined;
-            if(var8) { _fun0003_ip = 107; continue _fun0003 }
- 101:
+            if(var8) { _fun0003_ip = 15; continue _fun0003 }
+case 16:
             var3 = var5.countryCode;
- 107:
+case 15:
             var6['countryCode'] = var3;
             var3 = arg2;
             var3 = var7.bind(var4)(var6, var3);
@@ -201,10 +201,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = _closure1_slot8;
             var8 = var1 == var5;
             var1 = undefined;
-            if(var8) { _fun0003_ip = 164; continue _fun0003 }
- 158:
+            if(var8) { _fun0003_ip = 17; continue _fun0003 }
+case 18:
             var1 = var5.stalePurchasesOK;
- 164:
+case 17:
             var2 = var2.bind(var4)(var1);
             var8 = var2.isClaiming;
             var5 = var2.fetchPurchasesError;
@@ -212,10 +212,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var2.isFetching;
             var1 = {};
             var11 = var10;
-            if(var11) { _fun0003_ip = 204; continue _fun0003 }
- 201:
+            if(var11) { _fun0003_ip = 19; continue _fun0003 }
+case 20:
             var11 = var9;
- 204:
+case 19:
             var1['isFetching'] = var11;
             var1['isFetchingCategories'] = var10;
             var1['isFetchingPurchases'] = var9;
@@ -281,15 +281,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['useGetOrFetchPurchases'] = var4;
     var2 = function(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var1 = arg1;
             var3 = _closure1_slot9;
             var2 = {};
             var4 = null;
-            if(!(var4 == var1)) { _fun0004_ip = 20; continue _fun0004 }
- 18:
+            if(!(var4 == var1)) { _fun0004_ip = 21; continue _fun0004 }
+case 22:
             var1 = {};
- 20:
+case 21:
             var6 = var2;
             var5 = var1;
             var1 = copyDataProperties(var6, var5);

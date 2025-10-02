@@ -34,7 +34,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function ItemSelectorActionSheet(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var15 = var1.title;
             var13 = var1.body;
@@ -68,8 +68,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7['title'] = var15;
             var9 = null;
             var10 = var9 != var18;
-            if(!var10) { _fun0001_ip = 186; continue _fun0001 }
- 144:
+            if(!var10) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var17 = _closure1_slot3;
             var12 = _closure1_slot0;
             var19 = _closure1_slot1;
@@ -80,7 +80,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = {};
             var10['onPress'] = var18;
             var9 = var17.bind(var3)(var12, var10);
- 186:
+case 2:
             var7['trailing'] = var9;
             var7 = var4.bind(var3)(var8, var7);
             var5['header'] = var7;

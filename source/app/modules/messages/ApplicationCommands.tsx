@@ -27,14 +27,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function getApplicationCommand(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = _closure1_slot1;
             var3 = var4.exec;
             var1 = arg1;
             var5 = var3.bind(var4)(var1);
             var1 = null;
-            if(!(var1 != var5)) { _fun0001_ip = 186; continue _fun0001 }
- 30:
+            if(!(var1 != var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = _closure1_slot0;
             var3 = undefined;
             var2 = 4;
@@ -49,24 +49,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var3[var2];
             var3 = var1 == var7;
             var2 = null;
-            if(var3) { _fun0001_ip = 184; continue _fun0001 }
- 81:
+            if(var3) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = var1 == var4;
             var2 = null;
-            if(var3) { _fun0001_ip = 184; continue _fun0001 }
- 90:
+            if(var3) { _fun0001_ip = 4; continue _fun0001 }
+case 6:
             var3 = {};
             var8 = var1 != var6;
             var5 = '';
             var10 = var5;
-            if(!var8) { _fun0001_ip = 128; continue _fun0001 }
- 106:
+            if(!var8) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var8 = global;
             var8 = var8.HermesInternal;
             var9 = var8.concat;
             var8 = ' ';
             var10 = var9.bind(var8)(var6);
- 128:
+case 7:
             var8 = global;
             var8 = var8.HermesInternal;
             var9 = var8.concat;
@@ -76,15 +76,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['name'] = var7;
             var3['id'] = var4;
             var4 = var1 != var6;
-            if(!var4) { _fun0001_ip = 174; continue _fun0001 }
- 170:
+            if(!var4) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var4 = var5 !== var6;
- 174:
+case 9:
             var3['hasOptions'] = var4;
             var2 = var3;
- 184:
+case 4:
             return var2;
- 186:
+case 2:
             return var1;
         }
     };

@@ -115,7 +115,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var10 = arg1;
             var _closure2_slot0 = var10;
             var8 = _closure1_slot0;
@@ -131,8 +131,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.DismissibleContent;
             var2 = var2.DOUBLE_TAP_TO_REACT_REMINDER;
             var2 = var3.bind(var5)(var2);
-            if(var2) { _fun0001_ip = 331; continue _fun0001 }
- 75:
+            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
             var11 = 10;
@@ -145,27 +145,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = null;
             var13 = var2 == var12;
             var3 = undefined;
-            if(var13) { _fun0001_ip = 134; continue _fun0001 }
- 128:
+            if(var13) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = var12.defaultReactionEmoji;
- 134:
-            if(!(var2 == var3)) { _fun0001_ip = 140; continue _fun0001 }
- 138:
+case 4:
+            if(!(var2 == var3)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var3 = {};
- 140:
+case 6:
             var8 = var5.bind(var8)(var3);
             var2 = var2 != var8;
-            if(!var2) { _fun0001_ip = 181; continue _fun0001 }
- 152:
+            if(!var2) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var5 = _closure1_slot0;
             var3 = _closure1_slot2;
             var3 = var3[var11];
             var5 = var5.bind(var1)(var3);
             var3 = var5.areEmojisEqual;
             var2 = var3.bind(var5)(var8, var10);
- 181:
-            if(!var2) { _fun0001_ip = 331; continue _fun0001 }
- 187:
+case 8:
+            if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+case 10:
             var5 = _closure1_slot1;
             var2 = _closure1_slot2;
             var3 = 11;
@@ -220,7 +220,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = true;
             var2['forceTrack'] = var6;
             var2 = var4.bind(var5)(var3, var2);
- 331:
+case 2:
             return var1;
         }
     };

@@ -7,7 +7,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var7;
     var4 = function useUrlParts(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arg1;
             var _closure2_slot0 = var5;
             var4 = _closure1_slot3;
@@ -43,10 +43,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = '';
             var1 = '//';
             var6 = var4;
-            if(!(var1 === var2)) { _fun0001_ip = 94; continue _fun0001 }
- 91:
+            if(!(var1 === var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = var1;
- 94:
+case 2:
             var1 = {};
             var1['protocol'] = var8;
             var1['authorityPrefix'] = var6;
@@ -129,23 +129,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10[4] = var12;
         var3 = function() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var2 = _closure2_slot5;
-                if(!var2) { _fun0002_ip = 25; continue _fun0002 }
- 10:
+                if(!var2) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                 var4 = _closure2_slot1;
                 var3 = _closure2_slot0;
                 var2 = undefined;
                 var2 = var4.bind(var2)(var3);
- 25:
+case 4:
                 var3 = _closure2_slot4;
                 var2 = null;
-                if(!(var2 != var3)) { _fun0002_ip = 45; continue _fun0002 }
- 35:
+                if(!(var2 != var3)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                 var3 = _closure2_slot4;
                 var2 = undefined;
                 var2 = var3.bind(var2)();
- 45:
+case 6:
                 var2 = _closure2_slot2;
                 var1 = undefined;
                 var2 = var2.bind(var1)();
@@ -160,15 +160,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[1] = var12;
         var1 = function() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var3 = _closure2_slot4;
                 var2 = null;
-                if(!(var2 != var3)) { _fun0003_ip = 23; continue _fun0003 }
- 13:
+                if(!(var2 != var3)) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
                 var3 = _closure2_slot4;
                 var2 = undefined;
                 var2 = var3.bind(var2)();
- 23:
+case 8:
                 var2 = _closure2_slot3;
                 var1 = undefined;
                 var2 = var2.bind(var1)();

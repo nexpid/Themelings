@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var7;
     var4 = function InteractionModal(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var24 = arg1;
             var1 = _closure1_slot8;
             var4 = undefined;
@@ -151,12 +151,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var22 = null;
             var12 = var22 != var29;
             var19 = null;
-            if(!var12) { _fun0001_ip = 730; continue _fun0001 }
- 625:
+            if(!var12) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var12 = '';
             var19 = null;
-            if(!(var12 !== var29)) { _fun0001_ip = 730; continue _fun0001 }
- 635:
+            if(!(var12 !== var29)) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var25 = _closure1_slot6;
             var22 = _closure1_slot3;
             var12 = {};
@@ -179,7 +179,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var26 = var28.bind(var4)(var27, var26);
             var12['children'] = var26;
             var19 = var25.bind(var4)(var22, var12);
- 730:
+case 2:
             var12 = new Array(2);
             var12[0] = var19;
             var27 = _closure1_slot6;

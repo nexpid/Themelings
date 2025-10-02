@@ -24,7 +24,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function createUserPremiumGuildSubscriptionSystemMessage(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var12 = var4.message;
             var16 = var4.roleStyle;
@@ -53,8 +53,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var13.id;
             var18 = var6.bind(var7)(var8, var1, var16);
             var1 = {};
-            if(!(!(var10 > var5))) { _fun0001_ip = 312; continue _fun0001 }
- 138:
+            if(!(!(var10 > var5))) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = _closure1_slot0;
             var9 = _closure1_slot2;
             var5 = 3;
@@ -77,24 +77,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var19 = null;
             var20 = 'username';
             var14 = null;
-            if(!(var20 === var16)) { _fun0001_ip = 236; continue _fun0001 }
- 233:
+            if(!(var20 === var16)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var14 = var15;
- 236:
+case 4:
             var9['linkColor'] = var14;
             var9['roleColor'] = var15;
             var14 = null;
-            if(!var18) { _fun0001_ip = 254; continue _fun0001 }
- 251:
+            if(!var18) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var14 = var17;
- 254:
+case 6:
             var9['roleColors'] = var14;
             var14 = 'dot';
             var14 = var14 === var16;
-            if(!var14) { _fun0001_ip = 274; continue _fun0001 }
- 270:
+            if(!var14) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var14 = var19 != var15;
- 274:
+case 8:
             var9['shouldShowRoleDot'] = var14;
             var14 = var12.channel_id;
             var9['messageChannelId'] = var14;
@@ -102,8 +102,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9['medium'] = var14;
             var5['usernameOnClick'] = var9;
             var5 = var7.bind(var8)(var6, var5);
-            _fun0001_ip = 488; continue _fun0001;
- 312:
+            _fun0001_ip = 10; continue _fun0001;
+case 2:
             var7 = _closure1_slot0;
             var14 = _closure1_slot2;
             var6 = 3;
@@ -126,24 +126,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = null;
             var19 = 'username';
             var13 = null;
-            if(!(var19 === var16)) { _fun0001_ip = 412; continue _fun0001 }
- 409:
+            if(!(var19 === var16)) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var13 = var15;
- 412:
+case 11:
             var11['linkColor'] = var13;
             var11['roleColor'] = var15;
             var13 = null;
-            if(!var18) { _fun0001_ip = 430; continue _fun0001 }
- 427:
+            if(!var18) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var13 = var17;
- 430:
+case 13:
             var11['roleColors'] = var13;
             var13 = 'dot';
             var13 = var13 === var16;
-            if(!var13) { _fun0001_ip = 450; continue _fun0001 }
- 446:
+            if(!var13) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
             var13 = var14 != var15;
- 450:
+case 15:
             var11['shouldShowRoleDot'] = var13;
             var12 = var12.channel_id;
             var11['messageChannelId'] = var12;
@@ -152,7 +152,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6['usernameOnClick'] = var11;
             var6['numSubscriptions'] = var10;
             var5 = var8.bind(var9)(var7, var6);
- 488:
+case 10:
             var1['content'] = var5;
             var5 = _closure1_slot1;
             var6 = _closure1_slot2;

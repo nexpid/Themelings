@@ -63,18 +63,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = function* () {
                 var1 = function* anon_0_() {
                     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0001_ip = 123; continue _fun0001 }
- 7:
+                        if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                         var5 = _closure1_slot3;
                         var4 = var5.getGuildFolderById;
                         var2 = _closure2_slot0;
                         var4 = var4.bind(var5)(var2);
                         var2 = null;
-                        if(!(var2 != var4)) { _fun0001_ip = 115; continue _fun0001 }
- 38:
+                        if(!(var2 != var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                         var7 = _closure1_slot0;
                         var2 = _closure1_slot1;
                         var5 = 6;
@@ -86,23 +86,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = var2.paths;
                         var2 = var7.bind(var6)(var5, var2);
                         SaveGenerator(address=82);
- 80:
+case 6:
                         return var2;
- 82:
+case 7:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                        if(var5) { _fun0001_ip = 120; continue _fun0001 }
- 88:
+                        if(var5) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
                         var5 = var2.default;
                         var4 = var4.guildIds;
                         var3 = _closure1_slot4;
                         var3 = var3.GUILD_LIST;
                         var3 = var5.bind(var6)(var4, var3);
- 115:
+case 4:
                         var3 = undefined;
                         return var3;
- 120:
+case 8:
                         return var2;
- 123:
+case 2:
                         return var1;
                     }
                 };
@@ -137,11 +137,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = function* () {
                 var1 = function* anon_0_() {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0002_ip = 84; continue _fun0002 }
- 7:
+                        if(var2) { _fun0002_ip = 10; continue _fun0002 }
+case 3:
                         var5 = _closure1_slot0;
                         var2 = _closure1_slot1;
                         var3 = 6;
@@ -153,19 +153,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = var2.paths;
                         var2 = var5.bind(var3)(var4, var2);
                         SaveGenerator(address=54);
- 52:
+case 11:
                         return var2;
- 54:
+case 12:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                        if(var4) { _fun0002_ip = 81; continue _fun0002 }
- 60:
+                        if(var4) { _fun0002_ip = 13; continue _fun0002 }
+case 14:
                         var5 = var2.showGuildsBarFolderModal;
                         var4 = _closure2_slot0;
                         var4 = var5.bind(var3)(var4);
                         return var3;
- 81:
+case 13:
                         return var2;
- 84:
+case 10:
                         return var1;
                     }
                 };

@@ -33,7 +33,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function FormTrialActiveUserLimitPicker(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var9 = var1.activeTrialUserlimit;
             var _closure2_slot0 = var9;
@@ -54,12 +54,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.bind(var4)(var1);
             var1 = {};
             var7 = null;
-            if(!(var7 != var9)) { _fun0001_ip = 98; continue _fun0001 }
- 87:
+            if(!(var7 != var9)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var7 = var9.toString;
             var7 = var7.bind(var9)();
-            _fun0001_ip = 153; continue _fun0001;
- 98:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var11 = _closure1_slot0;
             var12 = _closure1_slot2;
             var8 = 4;
@@ -72,7 +72,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var8.t;
             var8 = var8.zHfL6u;
             var7 = var9.bind(var10)(var8);
- 153:
+case 4:
             var1['label'] = var7;
             var6 = function onPress() {
                 var4 = _closure1_slot1;

@@ -44,15 +44,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useHideSelfVideo(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var6 = arg1;
             var3 = arguments[1];
             var9 = undefined;
-            if(!(var3 === var9)) { _fun0001_ip = 27; continue _fun0001 }
- 14:
+            if(!(var3 === var9)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = _closure1_slot6;
             var3 = var1.DEFAULT;
- 27:
+case 2:
             var _closure2_slot0 = var3;
             var _closure2_slot1 = var9;
             var8 = _closure1_slot0;
@@ -106,29 +106,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var8.bind(var9)(var7, var3, var4);
             var4 = null;
             var4 = var4 == var6;
-            if(var4) { _fun0001_ip = 192; continue _fun0001 }
- 188:
+            if(var4) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var4 = var6 === var5;
- 192:
-            if(!var4) { _fun0001_ip = 198; continue _fun0001 }
- 195:
+case 4:
+            if(!var4) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var4 = var1;
- 198:
+case 6:
             var1 = new Array(3);
             var1[0] = var4;
             var1[1] = var3;
             var2 = function(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var2 = _closure1_slot5;
                     var3 = arg1;
-                    if(var3) { _fun0002_ip = 21; continue _fun0002 }
- 13:
+                    if(var3) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                     var6 = var2.MANUAL_ENABLED;
-                    _fun0002_ip = 27; continue _fun0002;
- 21:
+                    _fun0002_ip = 2; continue _fun0002;
+case 8:
                     var6 = var2.DISABLED;
- 27:
+case 2:
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
                     var1 = 5;

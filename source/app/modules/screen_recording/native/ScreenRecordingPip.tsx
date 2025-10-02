@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function ScreenRecordingPip(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var4 = var1.surveyConfig;
             var1 = _closure1_slot11;
@@ -161,8 +161,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = new Array(0);
             var13 = var4.bind(var6)(var3, var1);
             var1 = null;
-            if(!var2) { _fun0001_ip = 908; continue _fun0001 }
- 358:
+            if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = _closure1_slot8;
             var3 = _closure1_slot9;
             var2 = {};
@@ -217,26 +217,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var21 = var20.stepText;
             var13['style'] = var21;
             var21 = 'Uploading...';
-            if(var16) { _fun0001_ip = 632; continue _fun0001 }
- 604:
+            if(var16) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var24 = var23 + var22;
             var22 = global;
             var22 = var22.HermesInternal;
             var23 = var22.concat;
             var22 = 'Step ';
             var21 = var23.bind(var22)(var24);
- 632:
+case 4:
             var13['children'] = var21;
             var17 = var19.bind(var5)(var17, var13);
             var13 = new Array(2);
             var13[0] = var17;
             var17 = _closure1_slot7;
-            if(var16) { _fun0001_ip = 813; continue _fun0001 }
- 660:
+            if(var16) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var16 = _closure1_slot5;
             var19 = {};
-            if(var14) { _fun0001_ip = 738; continue _fun0001 }
- 669:
+            if(var14) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var14 = var20.stopButton;
             var19['style'] = var14;
             var22 = _closure1_slot7;
@@ -250,8 +250,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var22.bind(var5)(var21, var14);
             var19['children'] = var14;
             var14 = var19;
-            _fun0001_ip = 805; continue _fun0001;
- 738:
+            _fun0001_ip = 10; continue _fun0001;
+case 8:
             var20 = var20.doneButton;
             var19['style'] = var20;
             var22 = _closure1_slot7;
@@ -265,10 +265,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var20 = var22.bind(var5)(var21, var20);
             var19['children'] = var20;
             var14 = var19;
- 805:
+case 10:
             var14 = var17.bind(var5)(var16, var14);
-            _fun0001_ip = 870; continue _fun0001;
- 813:
+            _fun0001_ip = 11; continue _fun0001;
+case 6:
             var16 = _closure1_slot0;
             var19 = _closure1_slot2;
             var15 = 19;
@@ -282,7 +282,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var15['onPress'] = var18;
             var14 = var17.bind(var5)(var16, var15);
- 870:
+case 11:
             var13[1] = var14;
             var10['children'] = var13;
             var10 = var12.bind(var5)(var11, var10);
@@ -291,7 +291,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[1] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 908:
+case 2:
             return var1;
         }
     };
@@ -428,7 +428,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot16 = var4;
     var4 = function DraggableContainer(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var16 = var1.x;
             var _closure2_slot0 = var16;
@@ -440,10 +440,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot3 = var23;
             var21 = var1.dragBoundsPadding;
             var4 = undefined;
-            if(!(var21 === var4)) { _fun0002_ip = 57; continue _fun0002 }
- 55:
+            if(!(var21 === var4)) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
             var21 = 0;
- 57:
+case 12:
             var _closure2_slot4 = var21;
             var18 = var1.onChangePosition;
             var _closure2_slot5 = var18;
@@ -756,7 +756,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function ScreenRecordingPipConnected() {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var3 = _closure1_slot6;
             var5 = undefined;
             var1 = function(arg1) {
@@ -767,14 +767,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var3.bind(var5)(var1);
             var1 = null;
             var3 = var1 == var6;
-            if(var3) { _fun0003_ip = 53; continue _fun0003 }
- 32:
+            if(var3) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
             var4 = _closure1_slot7;
             var3 = _closure1_slot18;
             var2 = {};
             var2['surveyConfig'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 53:
+case 14:
             return var1;
         }
     };

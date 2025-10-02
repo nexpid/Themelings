@@ -50,7 +50,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3[0] = var6;
         var2 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var4 = _closure2_slot0;
                 var6 = _closure1_slot0;
                 var5 = _closure1_slot1;
@@ -60,13 +60,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var6.bind(var5)(var3);
                 var3 = var3.ActivityAction;
                 var3 = var3.LEAVE;
-                if(!(var4 !== var3)) { _fun0001_ip = 65; continue _fun0001 }
- 50:
+                if(!(var4 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var3 = _closure2_slot1;
                 var2 = _closure2_slot0;
                 var2 = var3.bind(var5)(var2);
                 return var5;
- 65:
+case 2:
                 var2 = global;
                 var4 = var2.setTimeout;
                 var3 = function() {

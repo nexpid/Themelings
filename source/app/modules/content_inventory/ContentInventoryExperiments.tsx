@@ -105,7 +105,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['HotwheelsActivityFeedNvidiaExperiment'] = var5;
     var5 = function isEligibleForContentInventoryV1(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arg1;
             var6 = _closure1_slot2;
             var4 = var6.getCurrentConfig;
@@ -125,17 +125,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.getICYMIEnabled;
             var2 = false;
             var2 = var3.bind(var4)(var5, var2);
-            if(var1) { _fun0001_ip = 84; continue _fun0001 }
- 81:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var2;
- 84:
+case 2:
             return var1;
         }
     };
     var3['isEligibleForContentInventoryV1'] = var5;
     var5 = function isEligibleForImpressionCapping(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var4 = _closure1_slot2;
             var3 = var4.getCurrentConfig;
             var2 = {};
@@ -147,11 +147,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var4)(var2, var1);
             var1 = var2.enabled;
             var3 = var2.impressionCappingEnabled;
-            if(!var1) { _fun0002_ip = 57; continue _fun0002 }
- 51:
+            if(!var1) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var2 = true;
             var1 = var2 === var3;
- 57:
+case 4:
             return var1;
         }
     };

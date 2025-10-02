@@ -60,18 +60,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var6 = function value(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var1 = this;
                 var3 = var1.searchFetchers;
                 var2 = var3.get;
                 var1 = arg1;
                 var2 = var2.bind(var3)(var1);
                 var1 = null;
-                if(!(var1 != var2)) { _fun0001_ip = 38; continue _fun0001 }
- 28:
+                if(!(var1 != var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var1 = var2.cancel;
                 var1 = var1.bind(var2)();
- 38:
+case 2:
                 var1 = undefined;
                 return var1;
             }

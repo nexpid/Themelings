@@ -15,18 +15,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot6 = var5;
     var1 = function paramPattern(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arguments[2];
             var5 = undefined;
-            if(!(var1 === var5)) { _fun0001_ip = 11; continue _fun0001 }
- 9:
+            if(!(var1 === var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = {};
- 11:
+case 2:
             var1 = var1.optional;
-            if(!(var1 === var5)) { _fun0001_ip = 23; continue _fun0001 }
- 21:
+            if(!(var1 === var5)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = false;
- 23:
+case 4:
             var4 = _closure1_slot0;
             var6 = _closure1_slot1;
             var2 = 2;
@@ -40,10 +40,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = arg1;
             var8 = var4.bind(var5)(var2);
             var7 = '';
-            if(!var1) { _fun0001_ip = 89; continue _fun0001 }
- 85:
+            if(!var1) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var7 = '?';
- 89:
+case 6:
             var1 = global;
             var1 = var1.HermesInternal;
             var6 = var1.concat;
@@ -97,23 +97,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = {};
     var6 = function guildId() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arguments[0];
             var5 = undefined;
-            if(!(var1 === var5)) { _fun0002_ip = 11; continue _fun0002 }
- 9:
+            if(!(var1 === var5)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
             var1 = {};
- 11:
+case 2:
             var4 = var1.name;
-            if(!(var4 === var5)) { _fun0002_ip = 24; continue _fun0002 }
- 20:
+            if(!(var4 === var5)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var4 = 'guildId';
- 24:
+case 8:
             var6 = var1.optional;
-            if(!(var6 === var5)) { _fun0002_ip = 36; continue _fun0002 }
- 34:
+            if(!(var6 === var5)) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
             var6 = false;
- 36:
+case 10:
             var3 = _closure1_slot7;
             var7 = _closure1_slot5;
             var2 = var7.map;
@@ -142,23 +142,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['guildId'] = var6;
     var6 = function channelId() {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var1 = arguments[0];
             var5 = undefined;
-            if(!(var1 === var5)) { _fun0003_ip = 11; continue _fun0003 }
- 9:
+            if(!(var1 === var5)) { _fun0003_ip = 2; continue _fun0003 }
+case 3:
             var1 = {};
- 11:
+case 2:
             var4 = var1.name;
-            if(!(var4 === var5)) { _fun0003_ip = 24; continue _fun0003 }
- 20:
+            if(!(var4 === var5)) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
             var4 = 'channelId';
- 24:
+case 8:
             var6 = var1.optional;
-            if(!(var6 === var5)) { _fun0003_ip = 36; continue _fun0003 }
- 34:
+            if(!(var6 === var5)) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
             var6 = false;
- 36:
+case 10:
             var3 = _closure1_slot7;
             var11 = _closure1_slot3;
             var7 = new Array(0);
@@ -198,54 +198,54 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['isPseudoGuildId'] = var5;
     var5 = function isValidGuildId(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var5 = arg1;
             var1 = null;
             var1 = var1 != var5;
-            if(!var1) { _fun0004_ip = 58; continue _fun0004 }
- 12:
+            if(!var1) { _fun0004_ip = 12; continue _fun0004 }
+case 13:
             var4 = _closure1_slot6;
             var2 = undefined;
             var2 = var4.bind(var2)(var5);
             var4 = !var2;
             var2 = !var4;
-            if(!var4) { _fun0004_ip = 55; continue _fun0004 }
- 35:
+            if(!var4) { _fun0004_ip = 14; continue _fun0004 }
+case 15:
             var4 = _closure1_slot4;
             var3 = var4.test;
             var3 = var3.bind(var4)(var5);
             var3 = !var3;
             var2 = !var3;
- 55:
+case 14:
             var1 = var2;
- 58:
+case 12:
             return var1;
         }
     };
     var3['isValidGuildId'] = var5;
     var4 = function isValidChannelId(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
             var5 = arg1;
             var1 = null;
             var1 = var1 == var5;
-            if(var1) { _fun0005_ip = 58; continue _fun0005 }
- 12:
+            if(var1) { _fun0005_ip = 12; continue _fun0005 }
+case 13:
             var4 = _closure1_slot4;
             var2 = var4.test;
             var2 = var2.bind(var4)(var5);
             var4 = !var2;
             var2 = !var4;
-            if(!var4) { _fun0005_ip = 55; continue _fun0005 }
- 38:
+            if(!var4) { _fun0005_ip = 14; continue _fun0005 }
+case 16:
             var4 = _closure1_slot2;
             var3 = undefined;
             var3 = var4.bind(var3)(var5);
             var3 = !var3;
             var2 = !var3;
- 55:
+case 14:
             var1 = var2;
- 58:
+case 12:
             return var1;
         }
     };

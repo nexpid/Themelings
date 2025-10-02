@@ -20,9 +20,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function getHostname(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
- 3: // try_start_0
+case 2: // try_start_0
             var2 = global;
             var3 = var2.URL;
             var4 = var1;
@@ -32,9 +32,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = new var5[var3](var4, var3);
             var1 = var1 instanceof Object ? var1 : var2;
             var1 = var1.hostname;
- 40: // try_end0
+case 3: // try_end0
             return var1;
- 42: // catch_target0
+case 4: // catch_target0
             CatchBlockStart(arg_register=0);
             var1 = '';
             return var1;
@@ -43,9 +43,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['getHostname'] = var4;
     var2 = function getProtocol(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
- 3: // try_start_0
+case 2: // try_start_0
             var2 = global;
             var3 = var2.URL;
             var4 = var1;
@@ -55,9 +55,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = new var5[var3](var4, var3);
             var1 = var1 instanceof Object ? var1 : var2;
             var1 = var1.protocol;
- 40: // try_end0
+case 3: // try_end0
             return var1;
- 42: // catch_target0
+case 4: // catch_target0
             CatchBlockStart(arg_register=0);
             var1 = '';
             return var1;

@@ -38,7 +38,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function GuildEventSchedule(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var6 = var2.guildEvent;
             var1 = var2.recurrenceId;
@@ -95,8 +95,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.MAX_DAYS_AHEAD_AN_EVENT_CAN_END;
             var11 = var3.bind(var5)(var2, var9);
             var9 = null;
-            if(!(var9 != var1)) { _fun0001_ip = 259; continue _fun0001 }
- 195:
+            if(!(var9 != var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var10 = var14.add;
             var5 = _closure1_slot0;
             var1 = _closure1_slot2;
@@ -110,7 +110,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var5.bind(var4)(var1);
             var1 = var1.MAX_YEARS_AHEAD_RECURRING_EVENT;
             var1 = var2.bind(var11)(var1, var3);
- 259:
+case 2:
             var3 = _closure1_slot6;
             var2 = _closure1_slot5;
             var1 = {};
@@ -166,8 +166,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5[0] = var10;
             var6 = var6.scheduled_end_time;
             var6 = var9 != var6;
-            if(!var6) { _fun0001_ip = 627; continue _fun0001 }
- 463:
+            if(!var6) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var9 = _closure1_slot4;
             var13 = _closure1_slot0;
             var10 = _closure1_slot2;
@@ -214,7 +214,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var11.bind(var12)(var10);
             var7['timeLabel'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 627:
+case 4:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

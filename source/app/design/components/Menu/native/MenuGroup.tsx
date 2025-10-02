@@ -56,7 +56,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.forwardRef;
     var2 = function(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var8 = arg2;
             var5 = var1.style;
@@ -72,15 +72,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = null;
             var5 = var5 !== var8;
             var8 = !var5;
-            if(var5) { _fun0001_ip = 87; continue _fun0001 }
- 61:
+            if(var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var11 = _closure1_slot2;
             var10 = _closure1_slot1;
             var5 = {};
             var12 = var12.divider;
             var5['style'] = var12;
             var8 = var11.bind(var4)(var10, var5);
- 87:
+case 2:
             var5 = new Array(2);
             var5[0] = var8;
             var7 = _closure1_slot0;
@@ -88,26 +88,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var8.map;
             var6 = function(arg1, arg2) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var5 = arg1;
                     var3 = 0;
                     var2 = arg2;
                     var1 = var5;
-                    if(!(var3 === var2)) { _fun0002_ip = 68; continue _fun0002 }
- 15:
+                    if(!(var3 === var2)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var4 = _closure1_slot0;
                     var3 = var4.isValidElement;
                     var3 = var3.bind(var4)(var5);
                     var1 = var5;
-                    if(!var3) { _fun0002_ip = 68; continue _fun0002 }
- 39:
+                    if(!var3) { _fun0002_ip = 4; continue _fun0002 }
+case 6:
                     var4 = _closure1_slot0;
                     var3 = var4.cloneElement;
                     var2 = {};
                     var6 = _closure2_slot0;
                     var2['ref'] = var6;
                     var1 = var3.bind(var4)(var5, var2);
- 68:
+case 4:
                     return var1;
                 }
             };

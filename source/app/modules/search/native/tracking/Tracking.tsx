@@ -16,57 +16,57 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot11 = var1;
     var1 = function toAnalyticsSearchFilterType(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var3 = _closure1_slot9;
             var3 = var3.FILTER_FROM;
-            if(!(var3 !== var2)) { _fun0001_ip = 159; continue _fun0001 }
- 23:
+            if(!(var3 !== var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = _closure1_slot9;
             var3 = var3.FILTER_MENTIONS;
-            if(!(var3 !== var2)) { _fun0001_ip = 151; continue _fun0001 }
- 37:
+            if(!(var3 !== var2)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = _closure1_slot9;
             var3 = var3.FILTER_IN;
-            if(!(var3 !== var2)) { _fun0001_ip = 143; continue _fun0001 }
- 51:
+            if(!(var3 !== var2)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var3 = _closure1_slot9;
             var3 = var3.FILTER_HAS;
-            if(!(var3 !== var2)) { _fun0001_ip = 135; continue _fun0001 }
- 65:
+            if(!(var3 !== var2)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var3 = _closure1_slot9;
             var3 = var3.FILTER_ON;
-            if(!(var3 !== var2)) { _fun0001_ip = 127; continue _fun0001 }
- 79:
+            if(!(var3 !== var2)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var3 = _closure1_slot9;
             var3 = var3.FILTER_AFTER;
-            if(!(var3 !== var2)) { _fun0001_ip = 119; continue _fun0001 }
- 93:
+            if(!(var3 !== var2)) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var1 = _closure1_slot9;
             var1 = var1.FILTER_BEFORE;
-            if(!(var1 !== var2)) { _fun0001_ip = 111; continue _fun0001 }
- 107:
+            if(!(var1 !== var2)) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var1 = null;
             return var1;
- 111:
+case 14:
             var1 = 'filter_before';
             return var1;
- 119:
+case 12:
             var1 = 'filter_after';
             return var1;
- 127:
+case 10:
             var1 = 'filter_on';
             return var1;
- 135:
+case 8:
             var1 = 'filter_has';
             return var1;
- 143:
+case 6:
             var1 = 'filter_in';
             return var1;
- 151:
+case 4:
             var1 = 'filter_mentions';
             return var1;
- 159:
+case 2:
             var1 = 'filter_from';
             return var1;
         }
@@ -74,52 +74,52 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot12 = var1;
     var1 = function toAnalyticsSearchLocation(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var3 = var1.type;
             var2 = _closure1_slot10;
             var2 = var2.GUILD;
-            if(!(var2 !== var3)) { _fun0002_ip = 150; continue _fun0002 }
- 28:
+            if(!(var2 !== var3)) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
             var2 = _closure1_slot10;
             var2 = var2.GUILD_CHANNEL;
-            if(!(var2 !== var3)) { _fun0002_ip = 138; continue _fun0002 }
- 42:
+            if(!(var2 !== var3)) { _fun0002_ip = 18; continue _fun0002 }
+case 19:
             var2 = _closure1_slot10;
             var2 = var2.THREAD;
-            if(!(var2 !== var3)) { _fun0002_ip = 138; continue _fun0002 }
- 56:
+            if(!(var2 !== var3)) { _fun0002_ip = 18; continue _fun0002 }
+case 20:
             var2 = _closure1_slot10;
             var2 = var2.CHANNEL;
-            if(!(var2 !== var3)) { _fun0002_ip = 126; continue _fun0002 }
- 70:
+            if(!(var2 !== var3)) { _fun0002_ip = 21; continue _fun0002 }
+case 22:
             var2 = _closure1_slot10;
             var2 = var2.DMS;
-            if(!(var2 !== var3)) { _fun0002_ip = 114; continue _fun0002 }
- 84:
+            if(!(var2 !== var3)) { _fun0002_ip = 23; continue _fun0002 }
+case 24:
             var2 = _closure1_slot10;
             var2 = var2.FAVORITES;
-            if(!(var2 !== var3)) { _fun0002_ip = 102; continue _fun0002 }
- 98:
+            if(!(var2 !== var3)) { _fun0002_ip = 25; continue _fun0002 }
+case 26:
             var2 = undefined;
             return var2;
- 102:
+case 25:
             var2 = _closure1_slot5;
             var2 = var2.FAVORITES;
             return var2;
- 114:
+case 23:
             var2 = _closure1_slot5;
             var2 = var2.DM_LIST;
             return var2;
- 126:
+case 21:
             var2 = _closure1_slot5;
             var2 = var2.DM_CHANNEL;
             return var2;
- 138:
+case 18:
             var2 = _closure1_slot5;
             var2 = var2.GUILD_CHANNEL;
             return var2;
- 150:
+case 16:
             var1 = _closure1_slot5;
             var1 = var1.GUILD;
             return var1;
@@ -128,7 +128,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot13 = var1;
     var1 = function collectSearchAnalyticsMetadata(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var4 = arg1;
             var3 = _closure1_slot1;
             var1 = _closure1_slot2;
@@ -141,11 +141,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = {};
             var7 = null;
             var3 = var8;
-            if(!(var7 != var3)) { _fun0003_ip = 59; continue _fun0003 }
- 50:
+            if(!(var7 != var3)) { _fun0003_ip = 27; continue _fun0003 }
+case 28:
             var7 = _closure1_slot11;
             var3 = var7.bind(var5)(var8);
- 59:
+case 27:
             var1['search_tab_selected'] = var3;
             var3 = _closure1_slot13;
             var3 = var3.bind(var5)(var4);
@@ -432,7 +432,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['trackSearchIndexing'] = var4;
     var4 = function trackSearchHistoryClicked(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var1 = arg1;
             var5 = var1.searchContext;
             var4 = var1.searchHistoryItemType;
@@ -459,10 +459,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = null;
             var9 = var8 == var6;
             var8 = undefined;
-            if(var9) { _fun0004_ip = 117; continue _fun0004 }
- 112:
+            if(var9) { _fun0004_ip = 29; continue _fun0004 }
+case 30:
             var8 = var6.type;
- 117:
+case 29:
             var6 = 'search_result_channel_type';
             var2[var6] = var8;
             var6 = 'search_history_type';
@@ -474,7 +474,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['trackSearchHistoryClicked'] = var4;
     var4 = function trackSuggestedSearchClicked(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
             var1 = arg1;
             var4 = var1.searchContext;
             var5 = var1.channelId;
@@ -498,10 +498,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = null;
             var8 = var7 == var6;
             var7 = undefined;
-            if(var8) { _fun0005_ip = 103; continue _fun0005 }
- 98:
+            if(var8) { _fun0005_ip = 31; continue _fun0005 }
+case 26:
             var7 = var6.type;
- 103:
+case 31:
             var6 = 'search_result_channel_type';
             var2[var6] = var7;
             var2 = var4.bind(var5)(var3, var2);
@@ -511,7 +511,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['trackSuggestedSearchClicked'] = var4;
     var4 = function trackSearchResultClicked(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
- 0:
+case 0:
             var1 = arg1;
             var5 = var1.searchContext;
             var12 = var1.channelId;
@@ -565,10 +565,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = null;
             var18 = var9 == var10;
             var17 = undefined;
-            if(var18) { _fun0006_ip = 190; continue _fun0006 }
- 185:
+            if(var18) { _fun0006_ip = 32; continue _fun0006 }
+case 33:
             var17 = var10.type;
- 190:
+case 32:
             var10 = 'search_result_channel_type';
             var2[var10] = var17;
             var10 = var16.trim;
@@ -590,10 +590,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = 'search_result_user_id';
             var2[var10] = var11;
             var9 = null;
-            if(var8) { _fun0006_ip = 301; continue _fun0006 }
- 298:
+            if(var8) { _fun0006_ip = 34; continue _fun0006 }
+case 35:
             var9 = var7;
- 301:
+case 34:
             var7 = 'total_search_results';
             var2[var7] = var9;
             var7 = 'is_initial_search_query';
@@ -762,7 +762,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['trackSearchTabSelected'] = var4;
     var4 = function trackSearchJumpToMessage(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
- 0:
+case 0:
             var1 = arg1;
             var4 = var1.searchContext;
             var7 = var1.channelId;
@@ -786,10 +786,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = null;
             var9 = var8 == var6;
             var8 = undefined;
-            if(var9) { _fun0007_ip = 103; continue _fun0007 }
- 98:
+            if(var9) { _fun0007_ip = 31; continue _fun0007 }
+case 26:
             var8 = var6.type;
- 103:
+case 31:
             var6 = 'search_result_channel_type';
             var2[var6] = var8;
             var6 = 'search_result_channel_id';

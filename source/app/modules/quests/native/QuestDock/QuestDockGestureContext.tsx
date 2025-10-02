@@ -73,7 +73,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var8.memo;
     var2 = function QuestDockGestureContextProviderInner(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var6 = _closure1_slot3;
             var7 = var6.useMemo;
             var11 = _closure1_slot0;
@@ -153,13 +153,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.questDockSoftDismissedAt;
             var5 = var11.bind(var12)(var5);
             var11 = _closure1_slot5;
-            if(var5) { _fun0001_ip = 378; continue _fun0001 }
- 370:
+            if(var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = var11.COLLAPSED;
-            _fun0001_ip = 384; continue _fun0001;
- 378:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var5 = var11.SOFT_DISMISSED;
- 384:
+case 4:
             var8 = var6.bind(var8)(var5);
             var _closure2_slot4 = var8;
             var6 = _closure1_slot0;

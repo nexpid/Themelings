@@ -24,7 +24,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useShowTryItOutButtonInAppLauncher(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var6 = var1.context;
             var9 = var1.application;
@@ -49,20 +49,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var6.type;
             var7 = 'channel';
             var2 = undefined;
-            if(!(var7 === var8)) { _fun0001_ip = 110; continue _fun0001 }
- 105:
+            if(!(var7 === var8)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var6.channel;
- 110:
+case 2:
             var2 = var3.bind(var5)(var2);
-            if(!var1) { _fun0001_ip = 124; continue _fun0001 }
- 118:
+            if(!var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = null;
             var1 = var3 != var4;
- 124:
-            if(!var1) { _fun0001_ip = 130; continue _fun0001 }
- 127:
+case 4:
+            if(!var1) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var1 = !var2;
- 130:
+case 6:
             return var1;
         }
     };

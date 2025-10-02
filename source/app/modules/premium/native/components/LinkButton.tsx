@@ -46,7 +46,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var7 = var1.onPress;
             var9 = var1.text;
@@ -55,15 +55,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var1.textStyle;
             var11 = var1.variant;
             var4 = undefined;
-            if(!(var11 === var4)) { _fun0001_ip = 45; continue _fun0001 }
- 41:
+            if(!(var11 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var11 = 'text-xs/medium';
- 45:
+case 2:
             var10 = var1.textColor;
-            if(!(var10 === var4)) { _fun0001_ip = 61; continue _fun0001 }
- 55:
+            if(!(var10 === var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var10 = 'text-link';
- 61:
+case 4:
             var6 = var1.iconRight;
             var1 = _closure1_slot4;
             var16 = var1.bind(var4)();
@@ -79,10 +79,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = new Array(3);
             var13[0] = var15;
             var15 = var8;
-            if(!var15) { _fun0001_ip = 136; continue _fun0001 }
- 130:
+            if(!var15) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var15 = var16.disabledContainerStyle;
- 136:
+case 6:
             var13[1] = var15;
             var13[2] = var14;
             var1['style'] = var13;

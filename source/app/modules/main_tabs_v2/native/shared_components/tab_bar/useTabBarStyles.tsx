@@ -1,7 +1,7 @@
 // app/modules/main_tabs_v2/native/shared_components/tab_bar/useTabBarStyles.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
         var7 = require;
         var13 = metroImportDefault;
         var3 = exports;
@@ -105,15 +105,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var21 = var7.bind(var1)(var20);
         var20 = var21.isAndroid;
         var20 = var20.bind(var21)();
-        if(!var20) { _fun0001_ip = 474; continue _fun0001 }
- 446:
+        if(!var20) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
         var20 = var8[var12];
         var20 = var13.bind(var1)(var20);
         var20 = var20.spacing;
         var20 = var20.PX_4;
         var20 = var20 / var15;
         var18 = var20 / var15;
- 474:
+case 2:
         var17 = var17 / var15;
         var17 = var19 - var17;
         var17 = var17 - var18;
@@ -145,10 +145,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var16 = var17.isIOS;
         var17 = var16.bind(var17)();
         var16 = undefined;
-        if(!var17) { _fun0001_ip = 619; continue _fun0001 }
- 613:
+        if(!var17) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
         var16 = -1;
- 619:
+case 4:
         var10['marginLeft'] = var16;
         var4['tabBarIcon'] = var10;
         var10 = {};
@@ -197,7 +197,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3['useTabBarStyles'] = var4;
         var2 = function useTabBarStylesComputed() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var3 = _closure1_slot6;
                 var4 = undefined;
                 var15 = var3.bind(var4)();
@@ -229,10 +229,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var3.primaryColor;
                 var _closure2_slot4 = var5;
                 var3 = null;
-                if(!(var3 != var8)) { _fun0002_ip = 141; continue _fun0002 }
- 138:
+                if(!(var3 != var8)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                 var18 = var8;
- 141:
+case 6:
                 var13 = _closure1_slot0;
                 var17 = _closure1_slot2;
                 var6 = 10;
@@ -309,28 +309,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2[11] = var5;
                 var1 = function() {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                         var1 = _closure2_slot9;
                         var3 = undefined;
-                        if(!var1) { _fun0003_ip = 63; continue _fun0003 }
- 12:
+                        if(!var1) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
                         var1 = _closure2_slot0;
                         var2 = var1.tabBarNux;
                         var1 = new Array(2);
                         var1[0] = var2;
                         var4 = _closure2_slot2;
                         var2 = null;
-                        if(!(var2 == var4)) { _fun0003_ip = 52; continue _fun0003 }
- 40:
+                        if(!(var2 == var4)) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
                         var2 = _closure2_slot0;
                         var2 = var2.tabBarNuxBackground;
-                        _fun0003_ip = 56; continue _fun0003;
- 52:
+                        _fun0003_ip = 12; continue _fun0003;
+case 10:
                         var2 = _closure2_slot2;
- 56:
+case 12:
                         var1[1] = var2;
                         var3 = var1;
- 63:
+case 8:
                         var1 = _closure2_slot0;
                         var1 = var1.tabBarTabletHeight;
                         var2 = new Array(2);
@@ -341,8 +341,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2[1] = var1;
                         var1 = _closure2_slot11;
                         var6 = undefined;
-                        if(!var1) { _fun0003_ip = 146; continue _fun0003 }
- 104:
+                        if(!var1) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
                         var1 = _closure2_slot0;
                         var4 = var1.tabBarYouTablet;
                         var1 = new Array(3);
@@ -353,47 +353,47 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var1[1] = var4;
                         var1[2] = var2;
                         var6 = var1;
- 146:
+case 13:
                         var1 = _closure2_slot11;
                         var10 = undefined;
-                        if(!var1) { _fun0003_ip = 180; continue _fun0003 }
- 155:
+                        if(!var1) { _fun0003_ip = 15; continue _fun0003 }
+case 16:
                         var1 = _closure2_slot0;
                         var4 = var1.tabBarIcymTablet;
                         var1 = new Array(2);
                         var1[0] = var4;
                         var1[1] = var2;
                         var10 = var1;
- 180:
+case 15:
                         var1 = _closure2_slot11;
                         var8 = undefined;
-                        if(!var1) { _fun0003_ip = 214; continue _fun0003 }
- 189:
+                        if(!var1) { _fun0003_ip = 17; continue _fun0003 }
+case 18:
                         var1 = _closure2_slot0;
                         var4 = var1.tabBarNotificationsTablet;
                         var1 = new Array(2);
                         var1[0] = var4;
                         var1[1] = var2;
                         var8 = var1;
- 214:
+case 17:
                         var1 = _closure2_slot11;
                         var5 = undefined;
-                        if(!var1) { _fun0003_ip = 248; continue _fun0003 }
- 223:
+                        if(!var1) { _fun0003_ip = 19; continue _fun0003 }
+case 20:
                         var1 = _closure2_slot0;
                         var4 = var1.tabBarSettingsTablet;
                         var1 = new Array(2);
                         var1[0] = var4;
                         var1[1] = var2;
                         var5 = var1;
- 248:
+case 19:
                         var1 = _closure2_slot11;
                         var11 = undefined;
-                        if(!var1) { _fun0003_ip = 267; continue _fun0003 }
- 257:
+                        if(!var1) { _fun0003_ip = 21; continue _fun0003 }
+case 22:
                         var1 = _closure2_slot0;
                         var11 = var1.tabBarGuildsTablet;
- 267:
+case 21:
                         var1 = _closure2_slot0;
                         var2 = var1.tabBarIcon;
                         var13 = {};
@@ -405,19 +405,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var1 = copyDataProperties(var15, var14);
                         var1 = _closure2_slot11;
                         var9 = undefined;
-                        if(!var1) { _fun0003_ip = 383; continue _fun0003 }
- 312:
+                        if(!var1) { _fun0003_ip = 23; continue _fun0003 }
+case 24:
                         var1 = {};
                         var12 = _closure2_slot1;
                         var4 = null;
-                        if(!(var4 == var12)) { _fun0003_ip = 336; continue _fun0003 }
- 324:
+                        if(!(var4 == var12)) { _fun0003_ip = 25; continue _fun0003 }
+case 26:
                         var4 = _closure2_slot0;
                         var4 = var4.tabBarTablet;
-                        _fun0003_ip = 338; continue _fun0003;
- 336:
+                        _fun0003_ip = 27; continue _fun0003;
+case 25:
                         var4 = {};
- 338:
+case 27:
                         var15 = var1;
                         var14 = var4;
                         var4 = copyDataProperties(var15, var14);
@@ -429,7 +429,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var4 = 'height';
                         var1[var4] = var12;
                         var9 = var1;
- 383:
+case 23:
                         var1 = {};
                         var4 = {};
                         var12 = new Array(2);
@@ -459,15 +459,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var4 = {};
                         var10 = _closure2_slot3;
                         var8 = null;
-                        if(!(var8 != var10)) { _fun0003_ip = 511; continue _fun0003 }
- 499:
+                        if(!(var8 != var10)) { _fun0003_ip = 28; continue _fun0003 }
+case 29:
                         var8 = _closure2_slot0;
                         var10 = var8.tabBarYou;
-                        _fun0003_ip = 521; continue _fun0003;
- 511:
+                        _fun0003_ip = 30; continue _fun0003;
+case 28:
                         var8 = _closure2_slot0;
                         var10 = var8.tabBar;
- 521:
+case 30:
                         var8 = new Array(2);
                         var8[0] = var10;
                         var8[1] = var9;

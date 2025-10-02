@@ -42,7 +42,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useRequestToSpeakPermission(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var _closure2_slot0 = var3;
             var7 = _closure1_slot0;
@@ -85,20 +85,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = 1;
             var1 = var6[var1];
             var _closure2_slot2 = var1;
-            if(!(var4 !== var3)) { _fun0001_ip = 168; continue _fun0001 }
- 163:
+            if(!(var4 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var1.bind(var5)(var4);
- 168:
+case 2:
             var1 = new Array(2);
             var1[0] = var3;
             var2 = function(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var5 = arg1;
                     var3 = _closure2_slot1;
                     var1 = null;
-                    if(!(var1 != var3)) { _fun0002_ip = 77; continue _fun0002 }
- 16:
+                    if(!(var1 != var3)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var1 = _closure2_slot2;
                     var6 = undefined;
                     var1 = var1.bind(var6)(var5);
@@ -112,7 +112,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = _closure1_slot6;
                     var1 = var1.REQUEST_TO_SPEAK;
                     var1 = var3.bind(var4)(var2, var1, var5);
- 77:
+case 4:
                     var1 = undefined;
                     return var1;
                 }

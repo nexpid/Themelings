@@ -63,7 +63,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var11 = var1.onCreateThreadPress;
             var1 = _closure1_slot6;
@@ -139,8 +139,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5[2] = var6;
             var6 = null;
             var6 = var6 != var11;
-            if(!var6) { _fun0001_ip = 452; continue _fun0001 }
- 362:
+            if(!var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var9 = _closure1_slot4;
             var13 = _closure1_slot0;
             var10 = _closure1_slot2;
@@ -161,7 +161,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var11.bind(var12)(var10);
             var7['text'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 452:
+case 2:
             var5[3] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

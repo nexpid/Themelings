@@ -7,13 +7,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var6;
     var1 = function canUIRequestGatewaySocket() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arguments[0];
             var1 = undefined;
-            if(!(var2 === var1)) { _fun0001_ip = 16; continue _fun0001 }
- 9:
+            if(!(var2 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = _closure1_slot2;
- 16:
+case 2:
             var1 = var2.getState;
             var2 = var1.bind(var2)();
             var1 = 'active';

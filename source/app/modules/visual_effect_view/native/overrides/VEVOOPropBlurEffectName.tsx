@@ -99,15 +99,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var6.useCallback;
         var2 = function(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var5 = arg1;
                 var1 = null;
-                if(!(var1 != var5)) { _fun0001_ip = 23; continue _fun0001 }
- 9:
+                if(!(var1 != var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var2 = _closure2_slot7;
                 var1 = undefined;
                 var1 = var2.bind(var1)(var5);
- 23:
+case 2:
                 var3 = _closure1_slot5;
                 var2 = {};
                 var4 = _closure1_slot4;
@@ -148,17 +148,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6['value'] = var15;
         var10 = function onValueChange(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var5 = arg1;
                 var2 = _closure2_slot5;
                 var1 = undefined;
                 var2 = var2.bind(var1)(var5);
                 var3 = _closure2_slot8;
                 var2 = undefined;
-                if(!var5) { _fun0002_ip = 30; continue _fun0002 }
- 26:
+                if(!var5) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                 var2 = _closure2_slot6;
- 30:
+case 4:
                 var2 = var3.bind(var1)(var2);
                 return var1;
             }
@@ -187,14 +187,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8['value'] = var13;
         var13 = function onValueChange() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var3 = _closure2_slot3;
                 var1 = _closure2_slot2;
                 var2 = 'Dark';
-                if(!(var2 === var1)) { _fun0003_ip = 27; continue _fun0003 }
- 21:
+                if(!(var2 === var1)) { _fun0003_ip = 6; continue _fun0003 }
+case 7:
                 var2 = 'Light';
- 27:
+case 6:
                 var1 = undefined;
                 var2 = var3.bind(var1)(var2);
                 return var1;

@@ -96,7 +96,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['eligibleReportSubtypes'] = var7;
     var7 = function onApply() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var11 = _closure1_slot0;
             var5 = _closure1_slot1;
             var1 = 0;
@@ -117,8 +117,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var11.bind(var6)(var5);
             var5 = var5.ExplicitContentRedaction;
             var5 = var5.SHOW;
-            if(!(var10 === var5)) { _fun0001_ip = 132; continue _fun0001 }
- 97:
+            if(!(var10 === var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var10 = _closure1_slot0;
             var5 = _closure1_slot1;
             var5 = var5[var7];
@@ -126,15 +126,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.ExplicitContentRedaction;
             var5 = var5.BLUR;
             var1['explicitContentGuilds'] = var5;
- 132:
+case 2:
             var10 = _closure1_slot0;
             var5 = _closure1_slot1;
             var5 = var5[var7];
             var5 = var10.bind(var6)(var5);
             var5 = var5.ExplicitContentRedaction;
             var5 = var5.SHOW;
-            if(!(var9 === var5)) { _fun0001_ip = 200; continue _fun0001 }
- 165:
+            if(!(var9 === var5)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var9 = _closure1_slot0;
             var5 = _closure1_slot1;
             var5 = var5[var7];
@@ -142,15 +142,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.ExplicitContentRedaction;
             var5 = var5.BLUR;
             var1['explicitContentFriendDm'] = var5;
- 200:
+case 4:
             var9 = _closure1_slot0;
             var5 = _closure1_slot1;
             var5 = var5[var7];
             var5 = var9.bind(var6)(var5);
             var5 = var5.ExplicitContentRedaction;
             var5 = var5.SHOW;
-            if(!(var8 === var5)) { _fun0001_ip = 268; continue _fun0001 }
- 233:
+            if(!(var8 === var5)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var5 = _closure1_slot0;
             var4 = _closure1_slot1;
             var4 = var4[var7];
@@ -158,7 +158,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.ExplicitContentRedaction;
             var4 = var4.BLUR;
             var1['explicitContentNonFriendDm'] = var4;
- 268:
+case 6:
             var1 = var2.bind(var3)(var1);
             return var1;
         }
@@ -166,7 +166,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['onApply'] = var7;
     var4 = function predicate() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var8 = _closure1_slot0;
             var1 = _closure1_slot1;
             var3 = 0;
@@ -184,8 +184,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.ExplicitContentRedaction;
             var1 = var1.SHOW;
             var1 = var4 === var1;
-            if(var1) { _fun0002_ip = 116; continue _fun0002 }
- 83:
+            if(var1) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var8 = _closure1_slot0;
             var4 = _closure1_slot1;
             var4 = var4[var6];
@@ -193,9 +193,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.ExplicitContentRedaction;
             var4 = var4.SHOW;
             var1 = var7 === var4;
- 116:
-            if(var1) { _fun0002_ip = 152; continue _fun0002 }
- 119:
+case 8:
+            if(var1) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
             var4 = _closure1_slot0;
             var2 = _closure1_slot1;
             var2 = var2[var6];
@@ -203,7 +203,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.ExplicitContentRedaction;
             var2 = var2.SHOW;
             var1 = var3 === var2;
- 152:
+case 10:
             return var1;
         }
     };

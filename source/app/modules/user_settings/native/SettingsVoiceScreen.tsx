@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function KrispLogo() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = _closure1_slot11;
             var4 = undefined;
             var10 = var1.bind(var4)();
@@ -27,17 +27,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.bind(var2)(var3);
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
-            if(var1) { _fun0001_ip = 89; continue _fun0001 }
- 75:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = 10;
             var1 = var3[var1];
             var8 = var2.bind(var4)(var1);
-            _fun0001_ip = 101; continue _fun0001;
- 89:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var1 = 9;
             var1 = var3[var1];
             var8 = var2.bind(var4)(var1);
- 101:
+case 4:
             var3 = _closure1_slot9;
             var2 = _closure1_slot4;
             var1 = {};

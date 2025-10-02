@@ -48,7 +48,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function collectCallFeedback(arg1, arg2, arg3, arg4) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var3 = _closure1_slot7;
             var2 = var3.getVoiceChannelId;
@@ -58,16 +58,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var3.bind(var5)(var2);
             var5 = null;
             var3 = arg2;
-            if(!(var5 == var3)) { _fun0001_ip = 51; continue _fun0001 }
- 43:
-            if(!(var5 != var2)) { _fun0001_ip = 51; continue _fun0001 }
- 47:
-            if(!(var5 == var6)) { _fun0001_ip = 62; continue _fun0001 }
- 51:
+            if(!(var5 == var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            if(!(var5 != var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
+            if(!(var5 == var6)) { _fun0001_ip = 5; continue _fun0001 }
+case 2:
             var2 = undefined;
             var2 = var4.bind(var2)();
-            _fun0001_ip = 625; continue _fun0001;
- 62:
+            _fun0001_ip = 6; continue _fun0001;
+case 5:
             var7 = _closure1_slot6;
             var2 = var7.getVoiceFilterSpeakingDurationMs;
             var8 = var2.bind(var7)();
@@ -105,8 +105,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = copyDataProperties(var14, var13);
             var6 = var5 != var8;
             var7 = null;
-            if(!var6) { _fun0001_ip = 254; continue _fun0001 }
- 229:
+            if(!var6) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var6 = var8.keys;
             var13 = var6.bind(var8)();
             var6 = new Array(0);
@@ -114,13 +114,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var6;
             var9 = arraySpread(var14, var13, var12);
             var7 = var6;
- 254:
+case 7:
             var6 = 'duration_speaking_voice_filter_ids';
             var2[var6] = var7;
             var6 = var5 != var8;
             var7 = null;
-            if(!var6) { _fun0001_ip = 299; continue _fun0001 }
- 274:
+            if(!var6) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var6 = var8.values;
             var13 = var6.bind(var8)();
             var6 = new Array(0);
@@ -128,14 +128,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var6;
             var8 = arraySpread(var14, var13, var12);
             var7 = var6;
- 299:
+case 9:
             var6 = 'duration_speaking_voice_filter_ms';
             var2[var6] = var7;
             var4 = var4.bind(var3)();
             var4 = _closure1_slot3;
             var4 = var4.hasUsedBackgroundInCall;
-            if(var4) { _fun0001_ip = 381; continue _fun0001 }
- 329:
+            if(var4) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var6 = _closure1_slot1;
             var7 = _closure1_slot2;
             var4 = 9;
@@ -147,8 +147,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4['type'] = var8;
             var4['analyticsData'] = var2;
             var4 = var6.bind(var7)(var4);
-            _fun0001_ip = 625; continue _fun0001;
- 381:
+            _fun0001_ip = 6; continue _fun0001;
+case 11:
             var4 = {};
             var14 = var4;
             var13 = var2;
@@ -172,10 +172,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var7[var6];
             var7 = var5 == var6;
             var5 = undefined;
-            if(var7) { _fun0001_ip = 481; continue _fun0001 }
- 476:
+            if(var7) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var5 = var6.name;
- 481:
+case 13:
             var2['video_device_name'] = var5;
             var6 = _closure1_slot5;
             var5 = var6.getHardwareEncoding;
@@ -207,7 +207,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['type'] = var5;
             var1['analyticsData'] = var4;
             var1 = var2.bind(var3)(var1);
- 625:
+case 6:
             var1 = undefined;
             return var1;
         }

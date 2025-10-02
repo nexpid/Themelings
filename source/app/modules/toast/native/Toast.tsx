@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function ToastIcon(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var9 = var1.icon;
             var5 = var1.IconComponent;
@@ -25,32 +25,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = null;
             var11 = var1 != var10;
             var3 = 'header-primary';
-            if(!var11) { _fun0001_ip = 74; continue _fun0001 }
- 71:
+            if(!var11) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = var10;
- 74:
+case 2:
             var6 = var6.bind(var8)(var3);
             var3 = {};
-            if(var7) { _fun0001_ip = 96; continue _fun0001 }
- 84:
+            if(var7) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var7 = true;
             var3['disableColor'] = var7;
             var10 = var3;
-            _fun0001_ip = 103; continue _fun0001;
- 96:
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
             var3['color'] = var6;
             var10 = var3;
- 103:
-            if(!(var1 == var5)) { _fun0001_ip = 210; continue _fun0001 }
- 107:
+case 6:
+            if(!(var1 == var5)) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var7 = 'function';
             var3 = typeof var9;
-            if(!(var7 !== var3)) { _fun0001_ip = 184; continue _fun0001 }
- 118:
+            if(!(var7 !== var3)) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var3 = var1 != var9;
             var1 = null;
-            if(!var3) { _fun0001_ip = 182; continue _fun0001 }
- 127:
+            if(!var3) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var8 = _closure1_slot6;
             var7 = _closure1_slot1;
             var11 = _closure1_slot2;
@@ -65,32 +65,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var10;
             var10 = copyDataProperties(var13, var12);
             var1 = var8.bind(var4)(var7, var3);
- 182:
-            _fun0001_ip = 208; continue _fun0001;
- 184:
+case 11:
+            _fun0001_ip = 13; continue _fun0001;
+case 9:
             var8 = _closure1_slot6;
             var7 = _closure1_slot7;
             var3 = {};
             var9 = var9.bind(var4)();
             var3['children'] = var9;
             var1 = var8.bind(var4)(var7, var3);
- 208:
-            _fun0001_ip = 234; continue _fun0001;
- 210:
+case 13:
+            _fun0001_ip = 14; continue _fun0001;
+case 7:
             var3 = _closure1_slot6;
             var2 = {};
             var7 = 'sm';
             var2['size'] = var7;
             var2['color'] = var6;
             var1 = var3.bind(var4)(var5, var2);
- 234:
+case 14:
             return var1;
         }
     };
     var _closure1_slot10 = var1;
     var1 = function ToastContent(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var6 = var1.content;
             var8 = var1.onTextLayout;
@@ -99,8 +99,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var1.bind(var5)();
             var3 = 'function';
             var1 = typeof var6;
-            if(!(var3 !== var1)) { _fun0002_ip = 111; continue _fun0002 }
- 38:
+            if(!(var3 !== var1)) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
             var4 = _closure1_slot6;
             var3 = _closure1_slot0;
             var9 = _closure1_slot2;
@@ -114,8 +114,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['style'] = var8;
             var1['children'] = var6;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0002_ip = 145; continue _fun0002;
- 111:
+            _fun0002_ip = 17; continue _fun0002;
+case 15:
             var4 = _closure1_slot6;
             var3 = _closure1_slot5;
             var2 = {};
@@ -124,7 +124,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.bind(var5)();
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 145:
+case 17:
             return var1;
         }
     };
@@ -220,7 +220,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function Toast(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var1 = arg1;
             var14 = var1.icon;
             var13 = var1.iconColor;
@@ -250,10 +250,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = new Array(3);
             var5[0] = var8;
             var8 = null;
-            if(!var16) { _fun0003_ip = 131; continue _fun0003 }
- 125:
+            if(!var16) { _fun0003_ip = 18; continue _fun0003 }
+case 19:
             var8 = var15.multilineContainer;
- 131:
+case 18:
             var5[1] = var8;
             var5[2] = var7;
             var1['style'] = var5;

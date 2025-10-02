@@ -150,17 +150,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = {};
         var11 = function onSelect(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var3 = arg1;
                 var _closure3_slot0 = var3;
                 var2 = _closure2_slot0;
-                if(var2) { _fun0001_ip = 35; continue _fun0001 }
- 19:
+                if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var2 = _closure2_slot2;
                 var1 = undefined;
                 var1 = var2.bind(var1)(var3);
-                _fun0001_ip = 309; continue _fun0001;
- 35:
+                _fun0001_ip = 4; continue _fun0001;
+case 2:
                 var2 = _closure1_slot1;
                 var10 = _closure1_slot2;
                 var1 = 13;
@@ -234,7 +234,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = false;
                 var1['hideActionSheet'] = var4;
                 var1 = var2.bind(var3)(var1);
- 309:
+case 4:
                 var1 = undefined;
                 return var1;
             }

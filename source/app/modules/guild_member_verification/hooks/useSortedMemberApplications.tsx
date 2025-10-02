@@ -69,7 +69,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3[1] = var6;
         var2 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var3 = _closure2_slot2;
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot1;
@@ -79,11 +79,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var5.bind(var1)(var4);
                 var1 = var1.GuildJoinRequestSortOrders;
                 var1 = var1.TIMESTAMP_DESC;
-                if(!(var3 !== var1)) { _fun0001_ip = 54; continue _fun0001 }
- 48:
+                if(!(var3 !== var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var1 = _closure2_slot3;
-                _fun0001_ip = 81; continue _fun0001;
- 54:
+                _fun0001_ip = 4; continue _fun0001;
+case 2:
                 var7 = _closure2_slot3;
                 var3 = new Array(0);
                 var6 = 0;
@@ -91,7 +91,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = arraySpread(var8, var7, var6);
                 var2 = var3.reverse;
                 var1 = var2.bind(var3)();
- 81:
+case 4:
                 return var1;
             }
         };

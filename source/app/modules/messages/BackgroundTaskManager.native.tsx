@@ -1,7 +1,7 @@
 // app/modules/messages/BackgroundTaskManager.native.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
         var9 = require;
         var5 = metroImportDefault;
         var3 = exports;
@@ -19,27 +19,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = function* () {
                 var1 = function* anon_0_() {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0002_ip = 100; continue _fun0002 }
- 9:
+                        if(var2) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                         var4 = _closure1_slot5;
                         var _closure4_slot0 = var4;
- 20: // try_start_0
+case 4: // try_start_0
                         var6 = _closure1_slot6;
                         var2 = _closure2_slot1;
                         var5 = undefined;
                         var2 = var6.bind(var5)(var2);
                         SaveGenerator(address=42);
- 40:
+case 5:
                         return var2;
- 42:
+case 6:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                        if(var6) { _fun0002_ip = 79; continue _fun0002 }
- 48:
+                        if(var6) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
                         _closure4_slot0 = var2;
- 52: // try_end0
+case 9: // try_end0
                         var4 = _closure2_slot0;
                         var5 = var4.bind(var5)();
                         var4 = var5.finally;
@@ -52,15 +52,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         };
                         var3 = var4.bind(var5)(var3);
                         return var3;
- 79:
+case 7:
                         return var2;
- 82: // catch_target0
+case 10: // catch_target0
                         CatchBlockStart(arg_register=1);
                         var3 = _closure2_slot0;
                         var2 = undefined;
                         var2 = var3.bind(var2)();
                         return var2;
- 100:
+case 2:
                         return var1;
                     }
                 };
@@ -93,15 +93,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var6.isAndroid;
         var5 = var5.bind(var6)();
         var6 = -1;
-        if(var5) { _fun0001_ip = 144; continue _fun0001 }
- 132:
+        if(var5) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
         var4 = var4.DCDBackgroundTaskManager;
         var6 = var4.backgroundTaskIdentifierInvalid;
- 144:
+case 11:
         var _closure1_slot5 = var6;
         var5 = function startBackgroundTask(arg1) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var3 = _closure1_slot0;
                 var5 = _closure1_slot2;
@@ -111,17 +111,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var3.bind(var6)(var2);
                 var2 = var3.isAndroid;
                 var2 = var2.bind(var3)();
-                if(var2) { _fun0003_ip = 62; continue _fun0003 }
- 40:
+                if(var2) { _fun0003_ip = 13; continue _fun0003 }
+case 5:
                 var2 = _closure1_slot4;
                 var3 = var2.DCDBackgroundTaskManager;
                 var2 = var3.startBackgroundTask;
                 var2 = var2.bind(var3)();
                 return var2;
- 62:
+case 13:
                 var2 = null;
-                if(!(var2 != var1)) { _fun0003_ip = 186; continue _fun0003 }
- 68:
+                if(!(var2 != var1)) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
                 var8 = var1.title;
                 var5 = var1.content;
                 var2 = _closure1_slot1;
@@ -149,7 +149,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1['usesGateway'] = var4;
                 var1 = var2.bind(var3)(var1);
                 return var1;
- 186:
+case 14:
                 var1 = global;
                 var3 = var1.Promise;
                 var1 = var3.prototype;
@@ -170,11 +170,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure1_slot6 = var5;
         var4 = function endBackgroundTask(arg1) {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                 var3 = arg1;
                 var2 = _closure1_slot5;
-                if(!(var3 !== var2)) { _fun0004_ip = 102; continue _fun0004 }
- 14:
+                if(!(var3 !== var2)) { _fun0004_ip = 16; continue _fun0004 }
+case 17:
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
                 var2 = 2;
@@ -183,14 +183,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var5.bind(var4)(var2);
                 var2 = var5.isAndroid;
                 var2 = var2.bind(var5)();
-                if(var2) { _fun0004_ip = 71; continue _fun0004 }
- 48:
+                if(var2) { _fun0004_ip = 18; continue _fun0004 }
+case 8:
                 var2 = _closure1_slot4;
                 var5 = var2.DCDBackgroundTaskManager;
                 var2 = var5.endBackgroundTask;
                 var2 = var2.bind(var5)(var3);
-                _fun0004_ip = 102; continue _fun0004;
- 71:
+                _fun0004_ip = 16; continue _fun0004;
+case 18:
                 var2 = _closure1_slot1;
                 var5 = _closure1_slot2;
                 var1 = 3;
@@ -198,7 +198,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var2.bind(var4)(var1);
                 var1 = var2.removeServiceHandler;
                 var1 = var1.bind(var2)(var3);
- 102:
+case 16:
                 var1 = undefined;
                 return var1;
             }

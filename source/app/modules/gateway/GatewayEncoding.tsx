@@ -1,7 +1,7 @@
 // app/modules/gateway/GatewayEncoding.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
         var5 = require;
         var7 = metroImportDefault;
         var3 = exports;
@@ -58,26 +58,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['key'] = var6;
             var6 = function value(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var5 = arg1;
                     var2 = typeof var5;
                     var1 = 'string';
-                    if(!(var1 === var2)) { _fun0002_ip = 35; continue _fun0002 }
- 14:
+                    if(!(var1 === var2)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var1 = global;
                     var3 = var1.JSON;
                     var1 = var3.parse;
                     var1 = var1.bind(var3)(var5);
                     return var1;
- 35:
+case 2:
                     var1 = global;
                     var3 = var1.Error;
                     var4 = null;
                     var5 = var4 == var5;
-                    if(var5) { _fun0002_ip = 55; continue _fun0002 }
- 52:
+                    if(var5) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var4 = var2;
- 55:
+case 4:
                     var1 = var1.HermesInternal;
                     var2 = var1.concat;
                     var1 = 'Expected a string to be passed to JSONEncoding.unpack, got ';
@@ -116,20 +116,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         };
         var4 = var2.bind(var1)();
         var2 = var4;
-        if(!(var1 !== var7)) { _fun0001_ip = 122; continue _fun0001 }
- 119:
+        if(!(var1 !== var7)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
         var2 = var7;
- 122:
+case 6:
         var7 = 3;
         var7 = var6[var7];
         var7 = var5.bind(var1)(var7);
         var8 = var7.ProcessArgs;
         var7 = var8.isDiscordGatewayPlaintextSet;
         var7 = var7.bind(var8)();
-        if(!var7) { _fun0001_ip = 156; continue _fun0001 }
- 153:
+        if(!var7) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
         var2 = var4;
- 156:
+case 8:
         var4 = 4;
         var4 = var6[var4];
         var6 = var5.bind(var1)(var4);

@@ -31,13 +31,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['clearVADWarning'] = var5;
     var5 = function clearSuppressWarning() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arguments[0];
             var1 = undefined;
-            if(!(var5 === var1)) { _fun0001_ip = 11; continue _fun0001 }
- 9:
+            if(!(var5 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = false;
- 11:
+case 2:
             var3 = _closure1_slot0;
             var4 = _closure1_slot1;
             var2 = 0;

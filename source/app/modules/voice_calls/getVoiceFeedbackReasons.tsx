@@ -46,7 +46,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var7)(var5);
     var4 = function getVoiceFeedbackReasons(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var4 = var2.isMobile;
             var5 = {};
@@ -239,13 +239,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = new var15[var5](var14);
             var5 = var5 instanceof Object ? var5 : var6;
             var _closure2_slot0 = var5;
-            if(var4) { _fun0001_ip = 888; continue _fun0001 }
- 868:
+            if(var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = var5.add;
             var2 = _closure1_slot2;
             var2 = var2.SPEAKERPHONE;
             var2 = var4.bind(var5)(var2);
- 888:
+case 2:
             var2 = var3.filter;
             var1 = function(arg1) {
                 var3 = _closure2_slot0;

@@ -22,55 +22,55 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var4 = arg2;
             var2 = var1.start;
-            if(!(!(var4 >= var2))) { _fun0001_ip = 19; continue _fun0001 }
- 15:
+            if(!(!(var4 >= var2))) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = false;
             return var2;
- 19:
+case 2:
             var2 = var1.loop;
-            if(var2) { _fun0001_ip = 50; continue _fun0001 }
- 28:
+            if(var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = var1.duration;
             var2 = var1.start;
             var2 = var3 + var2;
-            if(!(var4 > var2)) { _fun0001_ip = 50; continue _fun0001 }
- 46:
+            if(!(var4 > var2)) { _fun0001_ip = 4; continue _fun0001 }
+case 6:
             var2 = false;
             return var2;
- 50:
+case 4:
             var2 = var1.loop;
-            if(!var2) { _fun0001_ip = 131; continue _fun0001 }
- 59:
+            if(!var2) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var2 = var1.loopDelay;
             var3 = undefined;
-            if(!(var3 !== var2)) { _fun0001_ip = 131; continue _fun0001 }
- 71:
+            if(!(var3 !== var2)) { _fun0001_ip = 7; continue _fun0001 }
+case 9:
             var5 = var1.loopDelay;
             var2 = 0;
-            if(!(var5 > var2)) { _fun0001_ip = 131; continue _fun0001 }
- 83:
+            if(!(var5 > var2)) { _fun0001_ip = 7; continue _fun0001 }
+case 10:
             var2 = var1.duration;
             var5 = null;
             var5 = var5 == var1;
             var3 = undefined;
-            if(var5) { _fun0001_ip = 105; continue _fun0001 }
- 99:
+            if(var5) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var3 = var1.loopDelay;
- 105:
+case 11:
             var3 = var2 + var3;
             var2 = var1.start;
             var2 = var4 - var2;
             var2 = var2 % var3;
             var1 = var1.duration;
-            if(!(!(var2 > var1))) { _fun0001_ip = 135; continue _fun0001 }
- 131:
+            if(!(!(var2 > var1))) { _fun0001_ip = 13; continue _fun0001 }
+case 7:
             var1 = true;
             return var1;
- 135:
+case 13:
             var1 = false;
             return var1;
         }

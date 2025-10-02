@@ -52,26 +52,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['BadgeCategory'] = var4;
     var2 = function getBadgeCategory(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = var1.staff;
-            if(var2) { _fun0001_ip = 201; continue _fun0001 }
- 15:
+            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var1.verified;
-            if(!var2) { _fun0001_ip = 36; continue _fun0001 }
- 24:
+            if(!var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = var1.partnered;
-            if(var2) { _fun0001_ip = 186; continue _fun0001 }
- 36:
+            if(var2) { _fun0001_ip = 6; continue _fun0001 }
+case 4:
             var2 = var1.verified;
-            if(var2) { _fun0001_ip = 171; continue _fun0001 }
- 48:
+            if(var2) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var2 = var1.partnered;
-            if(var2) { _fun0001_ip = 156; continue _fun0001 }
- 57:
+            if(var2) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var2 = var1.community;
-            if(!var2) { _fun0001_ip = 112; continue _fun0001 }
- 66:
+            if(!var2) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var4 = var1.visibility;
             var6 = _closure1_slot0;
             var5 = _closure1_slot1;
@@ -81,42 +81,42 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var6.bind(var3)(var5);
             var3 = var3.GuildVisibility;
             var3 = var3.PUBLIC;
-            if(!(var4 !== var3)) { _fun0001_ip = 144; continue _fun0001 }
- 112:
+            if(!(var4 !== var3)) { _fun0001_ip = 13; continue _fun0001 }
+case 11:
             var1 = var1.community;
             var3 = _closure1_slot2;
-            if(var1) { _fun0001_ip = 136; continue _fun0001 }
- 128:
+            if(var1) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var1 = var3.NONE;
-            _fun0001_ip = 142; continue _fun0001;
- 136:
+            _fun0001_ip = 16; continue _fun0001;
+case 14:
             var1 = var3.COMMUNITY;
- 142:
-            _fun0001_ip = 154; continue _fun0001;
- 144:
+case 16:
+            _fun0001_ip = 17; continue _fun0001;
+case 13:
             var2 = _closure1_slot2;
             var1 = var2.DISCOVERABLE;
- 154:
-            _fun0001_ip = 169; continue _fun0001;
- 156:
+case 17:
+            _fun0001_ip = 18; continue _fun0001;
+case 9:
             var2 = _closure1_slot2;
             var1 = var2.PARTNERED;
- 169:
-            _fun0001_ip = 184; continue _fun0001;
- 171:
+case 18:
+            _fun0001_ip = 19; continue _fun0001;
+case 7:
             var2 = _closure1_slot2;
             var1 = var2.VERIFIED;
- 184:
-            _fun0001_ip = 199; continue _fun0001;
- 186:
+case 19:
+            _fun0001_ip = 20; continue _fun0001;
+case 6:
             var2 = _closure1_slot2;
             var1 = var2.VERIFIED_AND_PARTNERED;
- 199:
-            _fun0001_ip = 214; continue _fun0001;
- 201:
+case 20:
+            _fun0001_ip = 21; continue _fun0001;
+case 2:
             var2 = _closure1_slot2;
             var1 = var2.STAFF;
- 214:
+case 21:
             return var1;
         }
     };

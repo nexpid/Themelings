@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function SystemNotificationsSubLabel() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = _closure1_slot10;
             var5 = undefined;
             var22 = var1.bind(var5)();
@@ -25,17 +25,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.bind(var5)(var1);
             var1 = var2.hasAndroidNotificationChannels;
             var6 = var1.bind(var2)();
-            if(var6) { _fun0001_ip = 76; continue _fun0001 }
- 68:
+            if(var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = null;
-            if(!var7) { _fun0001_ip = 532; continue _fun0001 }
- 76:
+            if(!var7) { _fun0001_ip = 4; continue _fun0001 }
+case 2:
             var4 = _closure1_slot8;
             var3 = _closure1_slot9;
             var2 = {};
             var8 = var6;
-            if(!var8) { _fun0001_ip = 194; continue _fun0001 }
- 92:
+            if(!var8) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var10 = _closure1_slot7;
             var14 = _closure1_slot0;
             var15 = _closure1_slot2;
@@ -56,11 +56,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var12.bind(var13)(var11);
             var6['children'] = var11;
             var8 = var10.bind(var5)(var9, var6);
- 194:
+case 5:
             var6 = new Array(2);
             var6[0] = var8;
-            if(!var7) { _fun0001_ip = 518; continue _fun0001 }
- 208:
+            if(!var7) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var10 = _closure1_slot7;
             var9 = _closure1_slot4;
             var8 = {};
@@ -127,11 +127,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var13.bind(var5)(var12, var11);
             var8['children'] = var11;
             var7 = var10.bind(var5)(var9, var8);
- 518:
+case 7:
             var6[1] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 532:
+case 4:
             return var1;
         }
     };

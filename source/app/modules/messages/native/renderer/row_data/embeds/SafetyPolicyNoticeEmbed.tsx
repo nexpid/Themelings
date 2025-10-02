@@ -39,43 +39,43 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function createSafetyPolicyNoticeEmbed(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var4 = var2.embeds;
             var1 = null;
-            if(!(var1 != var4)) { _fun0001_ip = 278; continue _fun0001 }
- 20:
+            if(!(var1 != var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = var2.embeds;
             var5 = 0;
             var6 = var4[var5];
             var8 = var1 == var6;
             var7 = undefined;
             var4 = undefined;
-            if(var8) { _fun0001_ip = 49; continue _fun0001 }
- 43:
+            if(var8) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var4 = var6.fields;
- 49:
-            if(!(var1 != var4)) { _fun0001_ip = 278; continue _fun0001 }
- 56:
+case 4:
+            if(!(var1 != var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 6:
             var4 = var2.embeds;
             var4 = var4[var5];
             var6 = var1 == var4;
             var8 = undefined;
-            if(var6) { _fun0001_ip = 80; continue _fun0001 }
- 75:
+            if(var6) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var8 = var4.type;
- 80:
+case 7:
             var6 = _closure1_slot4;
             var6 = var6.SAFETY_POLICY_NOTICE;
-            if(!(var8 === var6)) { _fun0001_ip = 278; continue _fun0001 }
- 100:
+            if(!(var8 === var6)) { _fun0001_ip = 2; continue _fun0001 }
+case 9:
             var2 = var2.embeds;
             var5 = var2[var5];
             var9 = var5.fields;
             var2 = var1 == var9;
             var6 = undefined;
-            if(var2) { _fun0001_ip = 143; continue _fun0001 }
- 125:
+            if(var2) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var8 = var9.find;
             var2 = function(arg1) {
                 var1 = arg1;
@@ -86,30 +86,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var6 = var8.bind(var9)(var2);
- 143:
+case 10:
             var8 = var1 != var6;
             var2 = undefined;
-            if(!var8) { _fun0001_ip = 155; continue _fun0001 }
- 152:
+            if(!var8) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var2 = var6;
- 155:
+case 12:
             var8 = var1 == var2;
             var6 = undefined;
-            if(var8) { _fun0001_ip = 170; continue _fun0001 }
- 164:
+            if(var8) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var6 = var2.rawValue;
- 170:
+case 14:
             var8 = var1 != var6;
             var2 = undefined;
-            if(!var8) { _fun0001_ip = 182; continue _fun0001 }
- 179:
+            if(!var8) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var2 = var6;
- 182:
+case 16:
             var8 = var5.fields;
             var6 = var1 == var8;
             var5 = undefined;
-            if(var6) { _fun0001_ip = 215; continue _fun0001 }
- 197:
+            if(var6) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
             var6 = var8.find;
             var3 = function(arg1) {
                 var1 = arg1;
@@ -120,34 +120,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var5 = var6.bind(var8)(var3);
- 215:
+case 18:
             var6 = var1 != var5;
             var3 = undefined;
-            if(!var6) { _fun0001_ip = 227; continue _fun0001 }
- 224:
+            if(!var6) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
             var3 = var5;
- 227:
+case 20:
             var5 = var1 == var3;
             var15 = undefined;
-            if(var5) { _fun0001_ip = 270; continue _fun0001 }
- 236:
+            if(var5) { _fun0001_ip = 22; continue _fun0001 }
+case 23:
             var5 = var3.rawValue;
             var5 = var1 == var5;
             var15 = undefined;
-            if(var5) { _fun0001_ip = 270; continue _fun0001 }
- 251:
+            if(var5) { _fun0001_ip = 22; continue _fun0001 }
+case 24:
             var5 = global;
             var5 = var5.parseFloat;
             var3 = var3.rawValue;
             var15 = var5.bind(var7)(var3);
- 270:
-            if(!(var1 != var2)) { _fun0001_ip = 278; continue _fun0001 }
- 274:
-            if(!(var1 == var15)) { _fun0001_ip = 282; continue _fun0001 }
- 278:
+case 22:
+            if(!(var1 != var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 25:
+            if(!(var1 == var15)) { _fun0001_ip = 26; continue _fun0001 }
+case 2:
             var1 = undefined;
             return var1;
- 282:
+case 26:
             var1 = {};
             var6 = _closure1_slot0;
             var8 = _closure1_slot2;

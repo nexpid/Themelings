@@ -18,7 +18,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = {};
     var6 = function showModal(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = var1.quest;
             var7 = var1.isTargetedDisclosure;
@@ -67,10 +67,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = null;
             var8 = var2 == var7;
             var2 = undefined;
-            if(var8) { _fun0001_ip = 229; continue _fun0001 }
- 224:
+            if(var8) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var7.name;
- 229:
+case 2:
             var3['cosponsorName'] = var2;
             var2 = 'QUEST_DISCLOSURE_MODAL';
             var2 = var5.bind(var6)(var4, var3, var2);

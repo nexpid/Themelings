@@ -114,18 +114,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var5 = function value(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var4 = arg1;
                 var3 = this;
                 var1 = _closure2_slot0;
                 var1 = var4 instanceof var1;
-                if(!var1) { _fun0001_ip = 95; continue _fun0001 }
- 20:
+                if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var5 = var4.type;
                 var2 = var3.type;
                 var2 = var5 === var2;
-                if(!var2) { _fun0001_ip = 92; continue _fun0001 }
- 37:
+                if(!var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var7 = _closure1_slot0;
                 var6 = _closure1_slot1;
                 var5 = 3;
@@ -137,9 +137,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var4.games;
                 var3 = var3.type;
                 var2 = var6.bind(var7)(var5, var4, var3);
- 92:
+case 4:
                 var1 = var2;
- 95:
+case 2:
                 return var1;
             }
         };

@@ -46,12 +46,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function getAppGradientColors(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arg1;
             var1 = _closure1_slot3;
             var2 = null;
-            if(!(var2 != var5)) { _fun0001_ip = 211; continue _fun0001 }
- 19:
+            if(!(var2 != var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = _closure1_slot0;
             var4 = _closure1_slot2;
             var2 = 2;
@@ -62,14 +62,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var4.bind(var6)(var5);
             var4 = _closure1_slot0;
             var6 = _closure1_slot2;
-            if(var8) { _fun0001_ip = 85; continue _fun0001 }
- 63:
+            if(var8) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = var6[var2];
             var8 = var4.bind(var7)(var2);
             var2 = var8.maybeFetchColors;
             var2 = var2.bind(var8)(var5);
             return var1;
- 85:
+case 4:
             var2 = 3;
             var2 = var6[var2];
             var4 = var4.bind(var7)(var2);
@@ -79,14 +79,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var2.secondaryColor;
             var2 = '#000000';
             var5 = var10 === var2;
-            if(!var5) { _fun0001_ip = 135; continue _fun0001 }
- 131:
+            if(!var5) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var5 = var6 === var2;
- 135:
+case 6:
             var4 = false;
             var2 = var1;
-            if(!(var4 === var5)) { _fun0001_ip = 209; continue _fun0001 }
- 144:
+            if(!(var4 === var5)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var5 = _closure1_slot0;
             var8 = _closure1_slot2;
             var4 = 0;
@@ -102,16 +102,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.bind(var5)(var6);
             var3[1] = var4;
             var2 = var3;
- 209:
+case 8:
             return var2;
- 211:
+case 2:
             return var1;
         }
     };
     var3['getAppGradientColors'] = var4;
     var2 = function getAppIconSrc(arg1, arg2, arg3) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
             var1 = 4;
@@ -131,10 +131,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.bind(var3)(var1);
             var1 = null;
             var3 = var1 != var2;
-            if(!var3) { _fun0002_ip = 79; continue _fun0002 }
- 76:
+            if(!var3) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
             var1 = var2;
- 79:
+case 10:
             return var1;
         }
     };

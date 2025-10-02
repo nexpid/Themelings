@@ -33,7 +33,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot4 = var4;
     var4 = function emitAPLSentryErrorOnFailure(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var9 = arg1;
             var5 = var9[Symbol.iterator];
             var9 = var5().next;
@@ -42,29 +42,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = undefined;
             var6 = var6 === var1;
             var8 = undefined;
-            if(var6) { _fun0001_ip = 27; continue _fun0001 }
- 24:
+            if(var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var8 = var11;
- 27:
+case 2:
             var10 = var8;
             var8 = undefined;
-            if(var6) { _fun0001_ip = 60; continue _fun0001 }
- 35:
+            if(var6) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var11 = var9().value;
             var9 = var5;
             var9 = var9 === var1;
             var8 = undefined;
             var6 = var9;
-            if(var9) { _fun0001_ip = 60; continue _fun0001 }
- 54:
+            if(var9) { _fun0001_ip = 4; continue _fun0001 }
+case 6:
             var8 = var11;
             var6 = var9;
- 60:
+case 4:
             var4 = var8;
-            if(var6) { _fun0001_ip = 69; continue _fun0001 }
- 66:
+            if(var6) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var5.return();
- 69:
+case 7:
             var2 = arg2;
             var7 = undefined;
             var3 = 'Apple Payment Link mobile app to web popout failed';
@@ -74,7 +74,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = arg3;
             var5['load_id'] = var6;
             var7 = var5;
- 103: // try_start_0
+case 9: // try_start_0
             var9 = _closure1_slot4;
             var8 = var9.error;
             var13 = var4;
@@ -108,9 +108,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = copyDataProperties(var16, var15);
             var4['extra'] = var10;
             var4 = var8.bind(var9)(var6, var5, var4);
- 249: // try_end0
-            _fun0001_ip = 330; continue _fun0001;
- 251: // catch_target0
+case 10: // try_end0
+            _fun0001_ip = 11; continue _fun0001;
+case 12: // catch_target0
             CatchBlockStart(arg_register=3);
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
@@ -130,7 +130,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = {};
             var2['extra'] = var7;
             var2 = var5.bind(var6)(var4, var3, var2);
- 330:
+case 11:
             return var1;
         }
     };

@@ -1,7 +1,7 @@
 // app/modules/media_viewer/native/components/MediaModalSpoilerOverlay.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
         var5 = require;
         var15 = metroImportDefault;
         var3 = exports;
@@ -77,13 +77,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var14 = var6[var14];
         var14 = var15.bind(var1)(var14);
         var14 = var14.unsafe_rawColors;
-        if(var13) { _fun0001_ip = 348; continue _fun0001 }
- 340:
+        if(var13) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
         var13 = var14.PRIMARY_600;
-        _fun0001_ip = 354; continue _fun0001;
- 348:
+        _fun0001_ip = 4; continue _fun0001;
+case 2:
         var13 = var14.PRIMARY_800;
- 354:
+case 4:
         var10['backgroundColor'] = var13;
         var10['flexGrow'] = var12;
         var10['justifyContent'] = var11;
@@ -95,7 +95,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var7.memo;
         var2 = function MediaModalSpoilerOverlay(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var12 = var1.style;
                 var3 = var1.index;
@@ -127,8 +127,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = 1;
                 var8 = var3[var1];
                 var1 = null;
-                if(!var2) { _fun0002_ip = 693; continue _fun0002 }
- 138:
+                if(!var2) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
                 var4 = _closure1_slot7;
                 var7 = _closure1_slot1;
                 var11 = _closure1_slot2;
@@ -150,8 +150,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = var7.bind(var5)(var6);
                 var6 = {};
                 var11 = var10.obscure;
-                if(var11) { _fun0002_ip = 262; continue _fun0002 }
- 226:
+                if(var11) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
                 var12 = _closure1_slot0;
                 var13 = _closure1_slot2;
                 var11 = 5;
@@ -160,10 +160,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var11 = var12.isAndroid;
                 var12 = var11.bind(var12)();
                 var11 = 'light';
-                if(!var12) { _fun0002_ip = 266; continue _fun0002 }
- 262:
+                if(!var12) { _fun0002_ip = 9; continue _fun0002 }
+case 7:
                 var11 = 'dark';
- 266:
+case 9:
                 var6['blurTheme'] = var11;
                 var6['android_fallbackColor'] = var9;
                 var9 = _closure1_slot4;
@@ -179,8 +179,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var11 = var11.spoilerOverlayContainer;
                 var7['style'] = var11;
                 var10 = var10.obscure;
-                if(var10) { _fun0002_ip = 485; continue _fun0002 }
- 340:
+                if(var10) { _fun0002_ip = 10; continue _fun0002 }
+case 3:
                 var12 = _closure1_slot6;
                 var11 = _closure1_slot5;
                 var10 = {};
@@ -210,8 +210,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var13 = var12.bind(var5)(var15, var13);
                 var10['children'] = var13;
                 var10 = var12.bind(var5)(var11, var10);
-                _fun0002_ip = 669; continue _fun0002;
- 485:
+                _fun0002_ip = 11; continue _fun0002;
+case 10:
                 var13 = _closure1_slot7;
                 var12 = _closure1_slot5;
                 var11 = {};
@@ -249,13 +249,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var14[1] = var15;
                 var11['children'] = var14;
                 var10 = var13.bind(var5)(var12, var11);
- 669:
+case 11:
                 var7['children'] = var10;
                 var7 = var9.bind(var5)(var8, var7);
                 var6[1] = var7;
                 var2['children'] = var6;
                 var1 = var4.bind(var5)(var3, var2);
- 693:
+case 5:
                 return var1;
             }
         };

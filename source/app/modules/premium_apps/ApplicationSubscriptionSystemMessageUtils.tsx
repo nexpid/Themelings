@@ -22,14 +22,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function getApplicationSubscriptionSystemMessageASTContent(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var7 = var1.application;
             var8 = var1.username;
             var6 = var1.usernameOnClick;
             var1 = null;
-            if(!(var1 == var7)) { _fun0001_ip = 101; continue _fun0001 }
- 25:
+            if(!(var1 == var7)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = _closure1_slot0;
             var9 = _closure1_slot1;
             var1 = 0;
@@ -46,8 +46,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['username'] = var8;
             var1['usernameOnClick'] = var6;
             var1 = var3.bind(var4)(var2, var1);
-            _fun0001_ip = 185; continue _fun0001;
- 101:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var9 = _closure1_slot0;
             var10 = _closure1_slot1;
             var2 = 0;
@@ -66,7 +66,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['applicationName'] = var7;
             var2['usernameOnClick'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 185:
+case 4:
             return var1;
         }
     };

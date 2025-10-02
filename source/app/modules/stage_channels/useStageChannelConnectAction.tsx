@@ -33,7 +33,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var7)(var5);
     var5 = function useStageChannelConnectAction(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var6 = arg1;
             var4 = _closure1_slot0;
             var7 = _closure1_slot1;
@@ -48,17 +48,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = true;
             var1 = var4.bind(var5)(var6, var1);
             var1 = var1.moderator;
-            if(var3) { _fun0001_ip = 76; continue _fun0001 }
- 61:
-            if(!var1) { _fun0001_ip = 76; continue _fun0001 }
- 64:
+            if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var1 = _closure1_slot2;
             var1 = var1.START_EVENT;
-            _fun0001_ip = 86; continue _fun0001;
- 76:
+            _fun0001_ip = 5; continue _fun0001;
+case 2:
             var2 = _closure1_slot2;
             var1 = var2.NORMAL;
- 86:
+case 5:
             return var1;
         }
     };

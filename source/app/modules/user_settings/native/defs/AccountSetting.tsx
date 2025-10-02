@@ -58,7 +58,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['IconComponent'] = var4;
     var4 = function useAccountSettingTrailing() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
             var1 = 3;
@@ -68,8 +68,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var3.useIsEligibleForPomelo;
             var3 = var1.bind(var3)();
             var1 = null;
-            if(!var3) { _fun0001_ip = 144; continue _fun0001 }
- 40:
+            if(!var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = _closure1_slot3;
             var7 = _closure1_slot1;
             var8 = _closure1_slot2;
@@ -94,7 +94,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var7.bind(var5)(var6);
             var2['source'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 144:
+case 2:
             return var1;
         }
     };

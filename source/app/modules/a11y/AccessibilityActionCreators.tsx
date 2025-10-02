@@ -59,13 +59,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['setFontSize'] = var4;
     var4 = function setMessageGroupSpacing() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arguments[0];
             var1 = undefined;
-            if(!(var5 === var1)) { _fun0001_ip = 11; continue _fun0001 }
- 9:
+            if(!(var5 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = null;
- 11:
+case 2:
             var3 = _closure1_slot0;
             var4 = _closure1_slot1;
             var2 = 4;
@@ -308,7 +308,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['setSaturation'] = var4;
     var4 = function setPrefersReducedMotion(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var4 = _closure1_slot2;
             var3 = var4.useReducedMotion;
             var6 = _closure1_slot0;
@@ -325,10 +325,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['prefersReducedMotion'] = var8;
             var5 = var6.bind(var7)(var5);
             var4 = var4.useReducedMotion;
-            if(var3) { _fun0002_ip = 192; continue _fun0002 }
- 72:
-            if(!var4) { _fun0002_ip = 192; continue _fun0002 }
- 75:
+            if(var3) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
+            if(!var4) { _fun0002_ip = 4; continue _fun0002 }
+case 6:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var5 = 6;
@@ -356,14 +356,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8['reasonKey'] = var9;
             var5['animateStickers'] = var8;
             var5 = var6.bind(var7)(var5);
-            _fun0002_ip = 246; continue _fun0002;
- 192:
-            if(!var3) { _fun0002_ip = 198; continue _fun0002 }
- 195:
+            _fun0002_ip = 7; continue _fun0002;
+case 4:
+            if(!var3) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var3 = !var4;
- 198:
-            if(!var3) { _fun0002_ip = 246; continue _fun0002 }
- 201:
+case 8:
+            if(!var3) { _fun0002_ip = 7; continue _fun0002 }
+case 10:
             var3 = _closure1_slot0;
             var4 = _closure1_slot1;
             var2 = 6;
@@ -374,7 +374,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = 'animateEmoji';
             var2 = 'animateStickers';
             var2 = var5.bind(var6)(var4, var3, var2);
- 246:
+case 7:
             return var1;
         }
     };

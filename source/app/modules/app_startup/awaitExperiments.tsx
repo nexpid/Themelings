@@ -51,11 +51,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['beginLoadedExperimentsTimeout'] = var4;
     var4 = function onExperimentsLoaded() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = _closure1_slot1;
             var2 = null;
-            if(!(var2 != var3)) { _fun0001_ip = 46; continue _fun0001 }
- 13:
+            if(!(var2 != var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = _closure1_slot0;
             var2 = var3.resolve;
             var2 = var2.bind(var3)();
@@ -64,7 +64,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = _closure1_slot1;
             var1 = undefined;
             var1 = var3.bind(var1)(var2);
- 46:
+case 2:
             var1 = undefined;
             return var1;
         }

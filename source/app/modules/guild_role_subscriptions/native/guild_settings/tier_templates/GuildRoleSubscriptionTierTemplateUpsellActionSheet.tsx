@@ -185,7 +185,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5['style'] = var8;
         var8 = function onLayout(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var1 = var1.nativeEvent;
                 var1 = var1.layout;
@@ -195,11 +195,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = _closure2_slot2;
                 var1 = _closure2_slot3;
                 var2 = var4;
-                if(!var1) { _fun0001_ip = 51; continue _fun0001 }
- 44:
+                if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var1 = 2;
                 var2 = var4 / var1;
- 51:
+case 2:
                 var1 = undefined;
                 var1 = var3.bind(var1)(var2);
                 var1 = undefined;

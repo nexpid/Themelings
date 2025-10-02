@@ -38,7 +38,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useTrackUserProfileActivityView(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var3 = var1.userId;
             var _closure2_slot0 = var3;
@@ -75,10 +75,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var8[var7];
             var _closure2_slot2 = var7;
             var6 = !var6;
-            if(!var6) { _fun0001_ip = 133; continue _fun0001 }
- 130:
+            if(!var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = !var4;
- 133:
+case 2:
             _closure2_slot3 = var6;
             var4 = _closure1_slot3;
             var3 = new Array(2);
@@ -86,10 +86,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[1] = var5;
             var2 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var2 = _closure2_slot3;
-                    if(!var2) { _fun0002_ip = 44; continue _fun0002 }
- 10:
+                    if(!var2) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var4 = _closure2_slot1;
                     var2 = {};
                     var3 = 'VIEW_ACTIVITY_CARD';
@@ -99,7 +99,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = _closure2_slot2;
                     var1 = true;
                     var1 = var2.bind(var3)(var1);
- 44:
+case 4:
                     var1 = undefined;
                     return var1;
                 }

@@ -79,78 +79,78 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['default'] = var4;
     var2 = function useHappeningNowScrollSnapping(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var9 = arg1;
             var2 = var9.current;
             var8 = null;
             var3 = var8 == var2;
             var1 = undefined;
-            if(var3) { _fun0001_ip = 52; continue _fun0001 }
- 19:
+            if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var2.state;
             var3 = var8 == var2;
             var1 = undefined;
-            if(var3) { _fun0001_ip = 52; continue _fun0001 }
- 33:
+            if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var2 = var2.data;
             var3 = var8 == var2;
             var1 = undefined;
-            if(var3) { _fun0001_ip = 52; continue _fun0001 }
- 47:
+            if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 5:
             var1 = var2.length;
- 52:
+case 2:
             var2 = var8 != var1;
             var6 = 0;
             var5 = 0;
-            if(!var2) { _fun0001_ip = 66; continue _fun0001 }
- 63:
+            if(!var2) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var5 = var1;
- 66:
+case 6:
             var1 = new Array(0);
             var10 = var6 < var5;
             var4 = 0;
             var3 = 0;
             var2 = undefined;
-            if(!var10) { _fun0001_ip = 191; continue _fun0001 }
- 83:
+            if(!var10) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var10 = var8 == var9;
             var11 = undefined;
-            if(var10) { _fun0001_ip = 158; continue _fun0001 }
- 92:
+            if(var10) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var10 = var9.current;
             var12 = var8 == var10;
             var2 = var10;
             var11 = undefined;
-            if(var12) { _fun0001_ip = 158; continue _fun0001 }
- 109:
+            if(var12) { _fun0001_ip = 10; continue _fun0001 }
+case 12:
             var12 = var10.recyclerlistview_unsafe;
             var10 = var8 == var12;
             var2 = var12;
             var11 = undefined;
-            if(var10) { _fun0001_ip = 158; continue _fun0001 }
- 127:
+            if(var10) { _fun0001_ip = 10; continue _fun0001 }
+case 13:
             var10 = var12.getLayout;
             var12 = var10.bind(var12)(var3);
             var10 = var8 == var12;
             var2 = var12;
             var11 = undefined;
-            if(var10) { _fun0001_ip = 158; continue _fun0001 }
- 150:
+            if(var10) { _fun0001_ip = 10; continue _fun0001 }
+case 14:
             var11 = var12.width;
             var2 = var12;
- 158:
+case 10:
             var12 = var8 != var11;
             var10 = 0;
-            if(!var12) { _fun0001_ip = 170; continue _fun0001 }
- 167:
+            if(!var12) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
             var10 = var11;
- 170:
+case 15:
             var11 = var1.push;
             var11 = var11.bind(var1)(var4);
             var4 = var4 + var10;
             var3 = var3 + 1;
-            if(var3 < var5) { _fun0001_ip = 83; continue _fun0001 }
- 191:
+            if(var3 < var5) { _fun0001_ip = 9; continue _fun0001 }
+case 8:
             return var1;
         }
     };

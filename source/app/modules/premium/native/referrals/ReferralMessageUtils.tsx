@@ -29,7 +29,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function canOpenPremiumPlanDirectlyForReferralTrial() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = _closure1_slot0;
             var4 = var3.getPremiumTypeSubscription;
             var1 = false;
@@ -39,15 +39,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = _closure1_slot1;
             var2 = var3.isFetchingOffer;
             var2 = var2.bind(var3)();
-            if(!var1) { _fun0001_ip = 53; continue _fun0001 }
- 47:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = null;
             var1 = var3 == var4;
- 53:
-            if(!var1) { _fun0001_ip = 59; continue _fun0001 }
- 56:
+case 2:
+            if(!var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = !var2;
- 59:
+case 4:
             return var1;
         }
     };

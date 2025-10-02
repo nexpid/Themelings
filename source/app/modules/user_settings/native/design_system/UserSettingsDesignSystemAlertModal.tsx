@@ -13,11 +13,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = function* () {
             var1 = function* anon_0_() {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 62; continue _fun0001 }
- 7:
+                    if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var2 = global;
                     var4 = var2.Promise;
                     var2 = var4.prototype;
@@ -35,17 +35,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = new var6[var4](var5, var4);
                     var2 = var2 instanceof Object ? var2 : var3;
                     SaveGenerator(address=48);
- 46:
+case 4:
                     return var2;
- 48:
+case 5:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0001_ip = 59; continue _fun0001 }
- 54:
+                    if(var3) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                     var3 = undefined;
                     return var3;
- 59:
+case 6:
                     return var2;
- 62:
+case 2:
                     return var1;
                 }
             };

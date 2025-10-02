@@ -92,7 +92,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function _default(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var7 = var1.channelId;
             var1 = _closure1_slot10;
@@ -119,18 +119,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[0] = var4;
             var4 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = _closure1_slot5;
                     var2 = var3.getUser;
                     var5 = _closure2_slot1;
                     var1 = null;
                     var5 = var1 == var5;
                     var1 = undefined;
-                    if(var5) { _fun0002_ip = 40; continue _fun0002 }
- 31:
+                    if(var5) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var4 = _closure2_slot1;
                     var1 = var4.userId;
- 40:
+case 2:
                     var1 = var2.bind(var3)(var1);
                     return var1;
                 }
@@ -162,13 +162,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = null;
             var2 = var13 == var8;
             var1 = null;
-            if(var2) { _fun0001_ip = 924; continue _fun0001 }
- 207:
+            if(var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = var8.formResponses;
             var2 = var13 == var2;
             var1 = null;
-            if(var2) { _fun0001_ip = 924; continue _fun0001 }
- 225:
+            if(var2) { _fun0001_ip = 4; continue _fun0001 }
+case 6:
             var4 = _closure1_slot8;
             var3 = _closure1_slot9;
             var2 = {};
@@ -177,8 +177,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var19.container;
             var6['style'] = var10;
             var14 = var13 != var24;
-            if(!var14) { _fun0001_ip = 413; continue _fun0001 }
- 260:
+            if(!var14) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var18 = _closure1_slot8;
             var17 = _closure1_slot3;
             var10 = {};
@@ -212,12 +212,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var19[1] = var20;
             var10['children'] = var19;
             var14 = var18.bind(var5)(var17, var10);
- 413:
+case 7:
             var10 = new Array(3);
             var10[0] = var14;
             var13 = var13 != var23;
-            if(!var13) { _fun0001_ip = 543; continue _fun0001 }
- 428:
+            if(!var13) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var18 = _closure1_slot7;
             var20 = _closure1_slot0;
             var24 = _closure1_slot2;
@@ -241,7 +241,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var19 = var21.bind(var22)(var20, var19);
             var14['children'] = var19;
             var13 = var18.bind(var5)(var17, var14);
- 543:
+case 9:
             var10[1] = var13;
             var17 = var8.formResponses;
             var14 = var17.filter;
@@ -263,7 +263,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var14.map;
             var12 = function(arg1, arg2) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var13 = arg1;
                     var2 = var13.field_type;
                     var3 = _closure1_slot0;
@@ -274,19 +274,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var3.bind(var5)(var1);
                     var1 = var1.VerificationFormFieldTypes;
                     var1 = var1.MULTIPLE_CHOICE;
-                    if(!(var2 === var1)) { _fun0003_ip = 62; continue _fun0003 }
- 50:
+                    if(!(var2 === var1)) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
                     var2 = var13.response;
                     var1 = null;
-                    if(!(var1 == var2)) { _fun0003_ip = 70; continue _fun0003 }
- 62:
+                    if(!(var1 == var2)) { _fun0003_ip = 13; continue _fun0003 }
+case 11:
                     var9 = var13.response;
-                    _fun0003_ip = 86; continue _fun0003;
- 70:
+                    _fun0003_ip = 14; continue _fun0003;
+case 13:
                     var2 = var13.choices;
                     var1 = var13.response;
                     var9 = var2[var1];
- 86:
+case 14:
                     var4 = _closure1_slot8;
                     var3 = _closure1_slot3;
                     var2 = {};
@@ -335,8 +335,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var4.bind(var5)(var9, var6);
             var6 = new Array(2);
             var6[0] = var9;
-            if(!var7) { _fun0001_ip = 654; continue _fun0001 }
- 612:
+            if(!var7) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
             var9 = var8.applicationStatus;
             var10 = _closure1_slot0;
             var12 = _closure1_slot2;
@@ -346,9 +346,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var8.GuildJoinRequestApplicationStatuses;
             var8 = var8.SUBMITTED;
             var7 = var9 === var8;
- 654:
-            if(!var7) { _fun0001_ip = 910; continue _fun0001 }
- 660:
+case 15:
+            if(!var7) { _fun0001_ip = 17; continue _fun0001 }
+case 18:
             var10 = _closure1_slot8;
             var18 = _closure1_slot0;
             var19 = _closure1_slot2;
@@ -397,11 +397,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11[1] = var12;
             var8['children'] = var11;
             var7 = var10.bind(var5)(var9, var8);
- 910:
+case 17:
             var6[1] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 924:
+case 4:
             return var1;
         }
     };

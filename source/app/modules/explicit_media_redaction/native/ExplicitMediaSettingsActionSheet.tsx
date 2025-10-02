@@ -61,7 +61,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function ExplicitMediaSettingsActionSheet(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var17 = var1.title;
             var7 = var1.subtitle;
@@ -77,7 +77,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[0] = var13;
             var1 = function(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var2 = arg1;
                     var _closure3_slot0 = var2;
                     var3 = _closure2_slot0;
@@ -91,8 +91,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     };
                     var2 = var2.bind(var3)(var1);
                     var1 = null;
-                    if(!(var1 != var2)) { _fun0002_ip = 84; continue _fun0002 }
- 40:
+                    if(!(var1 != var2)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var1 = var2.onPress;
                     var1 = var1.bind(var2)();
                     var3 = _closure1_slot1;
@@ -103,7 +103,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var3.bind(var1)(var2);
                     var1 = var2.hideActionSheet;
                     var1 = var1.bind(var2)();
- 84:
+case 2:
                     var1 = undefined;
                     return var1;
                 }
@@ -140,8 +140,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var9.TableRadioGroup;
             var9 = {};
             var16 = null;
-            if(!(var16 == var14)) { _fun0001_ip = 233; continue _fun0001 }
- 201:
+            if(!(var16 == var14)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var16 = _closure1_slot0;
             var17 = _closure1_slot2;
             var15 = 9;
@@ -149,7 +149,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var16.bind(var4)(var15);
             var15 = var15.ExplicitContentRedaction;
             var14 = var15.SHOW;
- 233:
+case 4:
             var9['defaultValue'] = var14;
             var9['onChange'] = var12;
             var12 = var13.map;

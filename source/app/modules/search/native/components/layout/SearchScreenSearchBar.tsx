@@ -59,7 +59,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.forwardRef;
     var2 = function(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var11 = var1.searchContext;
             var20 = var1.onSuggestionsLayoutMesure;
@@ -77,10 +77,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5[0] = var6;
             var18 = null;
             var6 = var18 != var19;
-            if(!var6) { _fun0001_ip = 84; continue _fun0001 }
- 78:
+            if(!var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = var10.headerWithBackButton;
- 84:
+case 2:
             var5[1] = var6;
             var1['style'] = var5;
             var5 = new Array(3);
@@ -118,10 +118,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17 = new Array(2);
             var17[0] = var20;
             var18 = var18 != var19;
-            if(!var18) { _fun0001_ip = 245; continue _fun0001 }
- 239:
+            if(!var18) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var18 = var10.suggestionsWithBackButton;
- 245:
+case 4:
             var17[1] = var18;
             var15['containerStyle'] = var17;
             var15 = var14.bind(var4)(var16, var15);

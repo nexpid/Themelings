@@ -128,7 +128,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.useAnimatedStyle;
             var1 = function S() {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     var1 = {};
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
@@ -138,15 +138,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var13 = var4.bind(var8)(var3);
                     var12 = var13.withSpring;
                     var3 = _closure3_slot0;
-                    if(var3) { _fun0001_ip = 54; continue _fun0001 }
- 42:
+                    if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var3 = _closure3_slot2;
                     var11 = var3.borderColor;
-                    _fun0001_ip = 64; continue _fun0001;
- 54:
+                    _fun0001_ip = 4; continue _fun0001;
+case 2:
                     var3 = _closure3_slot1;
                     var11 = var3.borderColor;
- 64:
+case 4:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
                     var9 = 7;
@@ -160,15 +160,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var4.bind(var8)(var3);
                     var4 = var5.withSpring;
                     var3 = _closure3_slot0;
-                    if(var3) { _fun0001_ip = 140; continue _fun0001 }
- 129:
+                    if(var3) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
                     var3 = _closure3_slot2;
                     var3 = var3.backgroundColor;
-                    _fun0001_ip = 149; continue _fun0001;
- 140:
+                    _fun0001_ip = 7; continue _fun0001;
+case 5:
                     var7 = _closure3_slot1;
                     var3 = var7.backgroundColor;
- 149:
+case 7:
                     var7 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var2 = var2[var9];
@@ -216,13 +216,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.useAnimatedStyle;
             var1 = function n() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var1 = _closure3_slot0;
                     var7 = 0.5;
-                    if(!var1) { _fun0002_ip = 23; continue _fun0002 }
- 20:
+                    if(!var1) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                     var7 = 1;
- 23:
+case 8:
                     var1 = {};
                     var5 = _closure1_slot0;
                     var3 = _closure1_slot2;
@@ -233,10 +233,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var13 = var14.withSpring;
                     var3 = _closure3_slot1;
                     var12 = 0;
-                    if(!var3) { _fun0002_ip = 67; continue _fun0002 }
- 64:
+                    if(!var3) { _fun0002_ip = 10; continue _fun0002 }
+case 4:
                     var12 = 1;
- 67:
+case 10:
                     var6 = _closure1_slot0;
                     var5 = _closure1_slot2;
                     var9 = 7;
@@ -252,10 +252,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var6.withSpring;
                     var10 = _closure3_slot1;
                     var4 = 1;
-                    if(var10) { _fun0002_ip = 139; continue _fun0002 }
- 136:
+                    if(var10) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
                     var4 = var7;
- 139:
+case 11:
                     var7 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var2 = var2[var9];

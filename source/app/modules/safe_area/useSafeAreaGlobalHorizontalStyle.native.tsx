@@ -47,7 +47,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useSafeAreaGlobalHorizontalStyle() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = _closure1_slot4;
             var4 = undefined;
             var3 = function(arg1) {
@@ -67,8 +67,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var3.bind(var5)();
             var3 = null;
             var5 = var3 != var9;
-            if(!var5) { _fun0001_ip = 149; continue _fun0001 }
- 66:
+            if(!var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var3 = 5;
@@ -76,8 +76,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7.bind(var4)(var3);
             var3 = var7.isVoiceChannelModalKey;
             var3 = var3.bind(var7)(var9);
-            if(var3) { _fun0001_ip = 146; continue _fun0001 }
- 100:
+            if(var3) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var7 = _closure1_slot5;
             var8 = new Array(4);
             var8[0] = var7;
@@ -89,9 +89,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8[3] = var7;
             var7 = var8.includes;
             var3 = var7.bind(var8)(var9);
- 146:
+case 4:
             var5 = var3;
- 149:
+case 2:
             var _closure2_slot1 = var5;
             var7 = _closure1_slot1;
             var8 = _closure1_slot2;
@@ -108,33 +108,33 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[2] = var5;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var1 = _closure2_slot0;
                     var4 = !var1;
-                    if(!var4) { _fun0002_ip = 20; continue _fun0002 }
- 13:
+                    if(!var4) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var1 = _closure2_slot1;
                     var4 = !var1;
- 20:
+case 6:
                     var1 = {};
                     var6 = _closure2_slot0;
                     var5 = undefined;
-                    if(var6) { _fun0002_ip = 49; continue _fun0002 }
- 31:
+                    if(var6) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                     var6 = _closure2_slot1;
                     var5 = undefined;
-                    if(var6) { _fun0002_ip = 49; continue _fun0002 }
- 40:
+                    if(var6) { _fun0002_ip = 8; continue _fun0002 }
+case 10:
                     var6 = _closure2_slot2;
                     var5 = var6.right;
- 49:
+case 8:
                     var1['paddingRight'] = var5;
                     var2 = undefined;
-                    if(!var4) { _fun0002_ip = 68; continue _fun0002 }
- 59:
+                    if(!var4) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
                     var3 = _closure2_slot2;
                     var2 = var3.left;
- 68:
+case 11:
                     var1['paddingLeft'] = var2;
                     var2 = 1;
                     var1['flex'] = var2;

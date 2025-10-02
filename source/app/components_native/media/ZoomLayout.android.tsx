@@ -1,7 +1,7 @@
 // app/components_native/media/ZoomLayout.android.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
         var6 = require;
         var3 = exports;
         var7 = dependencyMap;
@@ -32,17 +32,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = var6.bind(var1)(var2);
         var2 = var9.isFabric;
         var2 = var2.bind(var9)();
-        if(var2) { _fun0001_ip = 136; continue _fun0001 }
- 123:
+        if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
         var2 = 'DCDZoomLayoutAndroid';
         var2 = var5.bind(var1)(var2);
-        _fun0001_ip = 153; continue _fun0001;
- 136:
+        _fun0001_ip = 4; continue _fun0001;
+case 2:
         var5 = 4;
         var5 = var7[var5];
         var5 = var6.bind(var1)(var5);
         var2 = var5.default;
- 153:
+case 4:
         var _closure1_slot1 = var2;
         var2 = 5;
         var5 = var7[var2];

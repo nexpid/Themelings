@@ -9,22 +9,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function renderActivityOrPIP(arg1, arg2, arg3, arg4) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = _closure1_slot7;
             var2 = _closure1_slot1;
             var4 = 'pip';
             var1 = arg2;
-            if(!(var4 !== var1)) { _fun0001_ip = 35; continue _fun0001 }
- 22:
+            if(!(var4 !== var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = _closure1_slot2;
             var1 = 5;
             var1 = var4[var1];
-            _fun0001_ip = 46; continue _fun0001;
- 35:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var4 = _closure1_slot2;
             var3 = 4;
             var1 = var4[var3];
- 46:
+case 4:
             var4 = undefined;
             var3 = var2.bind(var4)(var1);
             var2 = {};
@@ -127,34 +127,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[1] = var5;
         var1 = function() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var3 = _closure2_slot0;
                 var2 = _closure1_slot6;
                 var2 = var2.DISCONNECTED;
-                if(!(var3 !== var2)) { _fun0002_ip = 79; continue _fun0002 }
- 24:
+                if(!(var3 !== var2)) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
                 var3 = _closure2_slot0;
                 var2 = _closure1_slot6;
                 var2 = var2.PIP;
-                if(!(var3 === var2)) { _fun0002_ip = 49; continue _fun0002 }
- 42:
+                if(!(var3 === var2)) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
                 var2 = _closure2_slot1;
-                if(var2) { _fun0002_ip = 79; continue _fun0002 }
- 49:
+                if(var2) { _fun0002_ip = 5; continue _fun0002 }
+case 7:
                 var2 = _closure2_slot0;
                 var1 = _closure1_slot6;
                 var1 = var1.PIP;
-                if(!(var2 !== var1)) { _fun0002_ip = 73; continue _fun0002 }
- 67:
+                if(!(var2 !== var1)) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
                 var10 = _closure1_slot11;
-                _fun0002_ip = 77; continue _fun0002;
- 73:
+                _fun0002_ip = 11; continue _fun0002;
+case 9:
                 var10 = _closure1_slot10;
- 77:
-                _fun0002_ip = 83; continue _fun0002;
- 79:
+case 11:
+                _fun0002_ip = 12; continue _fun0002;
+case 5:
                 var10 = _closure1_slot9;
- 83:
+case 12:
                 var4 = _closure1_slot8;
                 var7 = _closure1_slot0;
                 var11 = _closure1_slot2;

@@ -41,15 +41,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var3;
         var3 = function value() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var2 = this;
                 var3 = var2.desktopMaxHeight;
                 var1 = null;
-                if(!(var1 == var3)) { _fun0001_ip = 19; continue _fun0001 }
- 15:
+                if(!(var1 == var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var1 = undefined;
                 return var1;
- 19:
+case 2:
                 var1 = {};
                 var2 = var2.desktopMaxHeight;
                 var1['maxHeight'] = var2;
@@ -64,15 +64,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var6 = function value() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var2 = this;
                 var3 = var2.mobileMaxHeight;
                 var1 = null;
-                if(!(var1 == var3)) { _fun0002_ip = 19; continue _fun0002 }
- 15:
+                if(!(var1 == var3)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                 var1 = undefined;
                 return var1;
- 19:
+case 2:
                 var1 = {};
                 var2 = var2.mobileMaxHeight;
                 var1['maxHeight'] = var2;

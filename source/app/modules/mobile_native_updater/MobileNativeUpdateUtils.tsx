@@ -13,15 +13,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = function* () {
             var1 = function* anon_0_() {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 462; continue _fun0001 }
- 10:
+                    if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var3 = _closure1_slot3;
                     var2 = null;
-                    if(!(var2 !== var3)) { _fun0001_ip = 459; continue _fun0001 }
- 26:
+                    if(!(var2 !== var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                     var5 = _closure1_slot4;
                     var4 = var5.info;
                     var3 = _closure1_slot3;
@@ -55,17 +55,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3['rejectWithError'] = var7;
                     var3 = var4.bind(var5)(var3);
                     SaveGenerator(address=168);
- 166:
+case 6:
                     return var3;
- 168:
+case 7:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(var4) { _fun0001_ip = 456; continue _fun0001 }
- 177:
+                    if(var4) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
                     var4 = var3.ok;
-                    if(var4) { _fun0001_ip = 188; continue _fun0001 }
- 186:
+                    if(var4) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
                     throw var3;
- 188:
+case 10:
                     var5 = {};
                     var4 = var3.body;
                     var4 = var4.build;
@@ -88,13 +88,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = var5.build;
                     var4 = _closure1_slot3;
                     var4 = var4.currentBuild;
-                    if(!(var7 > var4)) { _fun0001_ip = 324; continue _fun0001 }
- 304:
+                    if(!(var7 > var4)) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
                     var7 = var5.version;
                     var4 = _closure1_slot3;
                     var4 = var4.currentVersion;
-                    if(!(!(var7 >= var4))) { _fun0001_ip = 389; continue _fun0001 }
- 324:
+                    if(!(!(var7 >= var4))) { _fun0001_ip = 14; continue _fun0001 }
+case 12:
                     var8 = _closure1_slot4;
                     var7 = var8.info;
                     var13 = var5.build;
@@ -107,8 +107,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var11.bind(var10)(var13, var4, var12);
                     var4 = var7.bind(var8)(var4);
                     var4 = null;
-                    _fun0001_ip = 453; continue _fun0001;
- 389:
+                    _fun0001_ip = 15; continue _fun0001;
+case 14:
                     var8 = _closure1_slot4;
                     var7 = var8.info;
                     var12 = var5.build;
@@ -121,13 +121,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = var10.bind(var9)(var12, var6, var11);
                     var6 = var7.bind(var8)(var6);
                     var4 = var5;
- 453:
+case 15:
                     return var4;
- 456:
+case 8:
                     return var3;
- 459:
+case 4:
                     return var2;
- 462:
+case 2:
                     return var1;
                 }
             };
@@ -145,12 +145,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot5 = var1;
     var2 = function openBuildInstallerUrl(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var3 = arg1;
             var1 = undefined;
             var5 = undefined;
             var4 = undefined;
- 9: // try_start_0
+case 16: // try_start_0
             var2 = global;
             var7 = var2.URL;
             var10 = var3;
@@ -165,14 +165,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = null;
             var8 = var6 == var8;
             var6 = undefined;
-            if(var8) { _fun0002_ip = 82; continue _fun0002 }
- 67:
+            if(var8) { _fun0002_ip = 17; continue _fun0002 }
+case 18:
             var8 = _closure1_slot3;
             var8 = var8.url;
             var6 = var8.origin;
- 82:
-            if(!(var7 === var6)) { _fun0002_ip = 222; continue _fun0002 }
- 89:
+case 17:
+            if(!(var7 === var6)) { _fun0002_ip = 19; continue _fun0002 }
+case 20:
             var7 = _closure1_slot0;
             var8 = _closure1_slot1;
             var6 = 4;
@@ -185,15 +185,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7.bind(var1)(var6);
             var6 = var7.isIOS;
             var6 = var6.bind(var7)();
-            if(var6) { _fun0002_ip = 167; continue _fun0002 }
- 145:
+            if(var6) { _fun0002_ip = 21; continue _fun0002 }
+case 22:
             var7 = var4;
             var8 = var5;
             var6 = var8.toString;
             var6 = var6.bind(var8)();
             var6 = var7.bind(var1)(var6);
-            _fun0002_ip = 220; continue _fun0002;
- 167:
+            _fun0002_ip = 23; continue _fun0002;
+case 21:
             var7 = _closure1_slot0;
             var8 = _closure1_slot1;
             var6 = 6;
@@ -206,9 +206,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var8.toString;
             var4 = var4.bind(var8)();
             var4 = var6.bind(var1)(var4, var7);
- 220: // try_end0
-            _fun0002_ip = 267; continue _fun0002;
- 222: // try_start_1
+case 23: // try_end0
+            _fun0002_ip = 24; continue _fun0002;
+case 19: // try_start_1
             var4 = _closure1_slot4;
             var3 = var4.error;
             var6 = var5;
@@ -217,12 +217,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = 'Attempted to follow invalid install URL ';
             var2 = var5.bind(var2)(var6);
             var2 = var3.bind(var4)(var2);
- 261: // try_end1
+case 25: // try_end1
             var2 = undefined;
             return var2;
- 265: // catch_target0 // catch_target1
+case 26: // catch_target0 // catch_target1
             CatchBlockStart(arg_register=1);
- 267:
+case 24:
             return var1;
         }
     };

@@ -166,23 +166,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var7)(var5);
     var4 = function GuildProgressOverview(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = var2.guild;
             var _closure2_slot0 = var1;
             var10 = var2.titleStyle;
             var3 = var2.longPressDisabled;
             var4 = undefined;
-            if(!(var3 === var4)) { _fun0001_ip = 34; continue _fun0001 }
- 32:
+            if(!(var3 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = false;
- 34:
+case 2:
             var _closure2_slot1 = var3;
             var7 = var2.resume;
-            if(!(var7 === var4)) { _fun0001_ip = 50; continue _fun0001 }
- 48:
+            if(!(var7 === var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var7 = false;
- 50:
+case 4:
             var _closure2_slot2 = var4;
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
@@ -203,10 +203,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[1] = var1;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var2 = _closure2_slot2;
-                    if(!var2) { _fun0002_ip = 55; continue _fun0002 }
- 10:
+                    if(!var2) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
                     var2 = 7;
@@ -217,7 +217,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = _closure2_slot0;
                     var1 = var1.id;
                     var1 = var2.bind(var3)(var1);
- 55:
+case 6:
                     var1 = undefined;
                     return var1;
                 }
@@ -229,10 +229,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['titleStyle'] = var10;
             var10 = function onPress() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var1 = _closure2_slot2;
-                    if(var1) { _fun0003_ip = 55; continue _fun0003 }
- 10:
+                    if(var1) { _fun0003_ip = 6; continue _fun0003 }
+case 7:
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
                     var1 = 7;
@@ -243,7 +243,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = _closure2_slot0;
                     var1 = var1.id;
                     var1 = var3.bind(var4)(var1);
- 55:
+case 6:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
                     var1 = 6;
@@ -259,10 +259,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['onPress'] = var10;
             var9 = function onLongPress() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                     var1 = _closure2_slot1;
-                    if(var1) { _fun0004_ip = 141; continue _fun0004 }
- 13:
+                    if(var1) { _fun0004_ip = 8; continue _fun0004 }
+case 9:
                     var9 = _closure1_slot0;
                     var10 = _closure1_slot2;
                     var1 = 8;
@@ -303,7 +303,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4[0] = var5;
                     var1['options'] = var4;
                     var1 = var2.bind(var3)(var1);
- 141:
+case 8:
                     var1 = undefined;
                     return var1;
                 }
@@ -319,15 +319,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var12[var8];
             var8 = var11.bind(var4)(var8);
             var8 = var8.t;
-            if(var7) { _fun0001_ip = 247; continue _fun0001 }
- 234:
+            if(var7) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var7 = var8.o3HK3d;
             var7 = var9.bind(var10)(var7);
-            _fun0001_ip = 260; continue _fun0001;
- 247:
+            _fun0001_ip = 12; continue _fun0001;
+case 10:
             var8 = var8.NzxWjY;
             var7 = var9.bind(var10)(var8);
- 260:
+case 12:
             var1['title'] = var7;
             var1['subtitle'] = var6;
             var1['percentComplete'] = var5;

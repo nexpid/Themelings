@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function Content() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = _closure1_slot10;
             var4 = undefined;
             var24 = var1.bind(var4)();
@@ -72,10 +72,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot5 = var22;
             var20 = var2[var3];
             var5 = 'Show tooltip';
-            if(!var1) { _fun0001_ip = 278; continue _fun0001 }
- 272:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = 'Hide tooltip';
- 278:
+case 2:
             var3 = _closure1_slot4;
             var2 = var3.useRef;
             var23 = null;
@@ -90,14 +90,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[4] = var22;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var1 = {'title': 'Introducing Coachmark!', 'description': 'Coachmark is a new component that can be used to highlight new features or UI elements.'};
                     var5 = _closure2_slot3;
                     var4 = 'top';
-                    if(!var5) { _fun0002_ip = 34; continue _fun0002 }
- 30:
+                    if(!var5) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var4 = 'bottom';
- 34:
+case 4:
                     var1['position'] = var4;
                     var4 = _closure2_slot0;
                     var1['visible'] = var4;
@@ -119,10 +119,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = _closure2_slot2;
                     var1['experimental_withBlurBackground'] = var5;
                     var5 = _closure2_slot4;
-                    if(!var5) { _fun0002_ip = 111; continue _fun0002 }
- 105:
+                    if(!var5) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var4 = 'Got it!';
- 111:
+case 6:
                     var1['buttonLabel'] = var4;
                     var3 = function onButtonPress() {
                         var3 = _closure2_slot1;
@@ -171,8 +171,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = _closure1_slot8;
             var1 = {};
             var10 = _closure1_slot7;
-            if(var17) { _fun0001_ip = 505; continue _fun0001 }
- 454:
+            if(var17) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var6 = _closure1_slot5;
             var5 = {};
             var15 = {};
@@ -185,8 +185,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['style'] = var7;
             var5['children'] = var11;
             var6 = var10.bind(var4)(var6, var5);
-            _fun0001_ip = 612; continue _fun0001;
- 505:
+            _fun0001_ip = 10; continue _fun0001;
+case 8:
             var7 = _closure1_slot1;
             var15 = _closure1_slot2;
             var5 = 9;
@@ -209,7 +209,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['colors'] = var15;
             var5['children'] = var11;
             var6 = var10.bind(var4)(var7, var5);
- 612:
+case 10:
             var5 = new Array(7);
             var5[0] = var6;
             var11 = _closure1_slot7;
@@ -253,10 +253,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var24 = 'Button Variant';
             var12['title'] = var24;
             var23 = var23 != var22;
-            if(!var23) { _fun0001_ip = 799; continue _fun0001 }
- 796:
+            if(!var23) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var21 = var22;
- 799:
+case 11:
             var12['defaultValue'] = var21;
             var12['onChange'] = var20;
             var21 = ['secondary', 'primary', 'experimental_premium-primary'];

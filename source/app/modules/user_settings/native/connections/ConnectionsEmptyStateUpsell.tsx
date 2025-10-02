@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function EmptyStateCard(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var11 = var2.platform;
             var _closure2_slot0 = var11;
@@ -78,7 +78,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[4] = var10;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
                     var2 = 10;
@@ -88,8 +88,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var3.makeSource;
                     var7 = _closure2_slot2;
                     var5 = null;
-                    if(!(var5 == var7)) { _fun0002_ip = 107; continue _fun0002 }
- 44:
+                    if(!(var5 == var7)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var5 = _closure1_slot0;
                     var7 = _closure1_slot2;
                     var1 = 11;
@@ -100,19 +100,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var5.bind(var6)(var1);
                     var5 = _closure2_slot0;
                     var5 = var5.icon;
-                    if(var1) { _fun0002_ip = 99; continue _fun0002 }
- 91:
+                    if(var1) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var1 = var5.lightPNG;
-                    _fun0002_ip = 105; continue _fun0002;
- 99:
+                    _fun0002_ip = 6; continue _fun0002;
+case 4:
                     var1 = var5.darkPNG;
- 105:
-                    _fun0002_ip = 122; continue _fun0002;
- 107:
+case 6:
+                    _fun0002_ip = 7; continue _fun0002;
+case 2:
                     var4 = _closure2_slot0;
                     var4 = var4.icon;
                     var1 = var4.whitePNG;
- 122:
+case 7:
                     var1 = var2.bind(var3)(var1);
                     return var1;
                 }
@@ -138,12 +138,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var11.color;
             var10 = null;
             var10 = var10 != var14;
-            if(!var10) { _fun0001_ip = 295; continue _fun0001 }
- 286:
+            if(!var10) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var14 = {};
             var14['backgroundColor'] = var15;
             var10 = var14;
- 295:
+case 8:
             var9[1] = var10;
             var5['style'] = var9;
             var10 = _closure1_slot6;

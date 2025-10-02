@@ -9,8 +9,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var7;
     var1 = function _isNativeReflectConstruct() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
- 2: // try_start_0
+case 0:
+case 2: // try_start_0
             var2 = global;
             var3 = var2.Boolean;
             var3 = var3.prototype;
@@ -28,11 +28,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var4)(var2);
             var2 = !var2;
             var _closure2_slot0 = var2;
- 70: // try_end0
-            _fun0001_ip = 74; continue _fun0001;
- 72: // catch_target0
+case 3: // try_end0
+            _fun0001_ip = 4; continue _fun0001;
+case 5: // catch_target0
             CatchBlockStart(arg_register=1);
- 74:
+case 4:
             var2 = function _isNativeReflectConstruct() {
                 var1 = _closure2_slot0;
                 var1 = !var1;
@@ -88,7 +88,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = function(arg1) {
         var4 = function ApexExperimentStore() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var5 = this;
                 var1 = _closure1_slot3;
                 var3 = _closure2_slot0;
@@ -211,12 +211,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = _closure1_slot5;
                 var1 = _closure1_slot9;
                 var1 = var1.bind(var4)();
-                if(var1) { _fun0002_ip = 253; continue _fun0002 }
- 240:
+                if(var1) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                 var1 = var9.apply;
                 var1 = var1.bind(var9)(var5, var10);
-                _fun0002_ip = 287; continue _fun0002;
- 253:
+                _fun0002_ip = 8; continue _fun0002;
+case 6:
                 var7 = global;
                 var8 = var7.Reflect;
                 var7 = var8.construct;
@@ -224,7 +224,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var6.bind(var4)(var5);
                 var6 = var6.constructor;
                 var1 = var7.bind(var8)(var9, var10, var6);
- 287:
+case 8:
                 var1 = var3.bind(var4)(var5, var1);
                 var _closure3_slot0 = var1;
                 var2 = function(arg1) {

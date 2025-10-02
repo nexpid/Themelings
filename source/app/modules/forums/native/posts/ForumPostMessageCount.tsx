@@ -1,7 +1,7 @@
 // app/modules/forums/native/posts/ForumPostMessageCount.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
         var5 = require;
         var15 = metroImportDefault;
         var3 = exports;
@@ -53,10 +53,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var14 = var16.isAndroid;
         var16 = var14.bind(var16)();
         var14 = 0;
-        if(!var16) { _fun0001_ip = 208; continue _fun0001 }
- 205:
+        if(!var16) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
         var14 = var12;
- 208:
+case 2:
         var9['marginTop'] = var14;
         var4['iconRead'] = var9;
         var9 = {};
@@ -71,10 +71,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var13 = var14.isAndroid;
         var13 = var13.bind(var14)();
         var11 = 0;
-        if(!var13) { _fun0001_ip = 275; continue _fun0001 }
- 272:
+        if(!var13) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
         var11 = var12;
- 275:
+case 4:
         var9['marginTop'] = var11;
         var4['iconUnread'] = var9;
         var9 = {};
@@ -95,7 +95,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var5.bind(var6)(var4);
         var2 = function ForumPostMessageCount(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var3 = var1.thread;
                 var17 = var1.hasUnreads;
@@ -115,10 +115,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var9 = var1.messageCount;
                 var14 = var1.unreadCount;
                 var13 = 'text-muted';
-                if(!var17) { _fun0002_ip = 104; continue _fun0002 }
- 98:
+                if(!var17) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                 var13 = 'text-normal';
- 104:
+case 6:
                 var3 = _closure1_slot5;
                 var2 = _closure1_slot3;
                 var1 = {};
@@ -150,26 +150,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = {};
                 var16 = 'xs';
                 var5['size'] = var16;
-                if(var17) { _fun0002_ip = 247; continue _fun0002 }
- 239:
+                if(var17) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                 var16 = var12.iconRead;
-                _fun0002_ip = 253; continue _fun0002;
- 247:
+                _fun0002_ip = 10; continue _fun0002;
+case 8:
                 var16 = var12.iconUnread;
- 253:
+case 10:
                 var5['style'] = var16;
                 var16 = 'interactive-muted';
-                if(!var17) { _fun0002_ip = 272; continue _fun0002 }
- 266:
+                if(!var17) { _fun0002_ip = 5; continue _fun0002 }
+case 11:
                 var16 = 'interactive-normal';
- 272:
+case 5:
                 var5['color'] = var16;
                 var8 = var10.bind(var4)(var8, var5);
                 var5 = new Array(3);
                 var5[0] = var8;
                 var10 = _closure1_slot4;
-                if(var6) { _fun0002_ip = 353; continue _fun0002 }
- 297:
+                if(var6) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
                 var8 = _closure1_slot1;
                 var16 = _closure1_slot2;
                 var6 = 10;
@@ -183,8 +183,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var9 = false;
                 var6['animate'] = var9;
                 var6 = var10.bind(var4)(var8, var6);
-                _fun0002_ip = 402; continue _fun0002;
- 353:
+                _fun0002_ip = 14; continue _fun0002;
+case 12:
                 var9 = _closure1_slot0;
                 var16 = _closure1_slot2;
                 var8 = 9;
@@ -197,12 +197,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8['color'] = var13;
                 var8['children'] = var11;
                 var6 = var10.bind(var4)(var9, var8);
- 402:
+case 14:
                 var5[1] = var6;
                 var6 = null;
                 var6 = var6 != var14;
-                if(!var6) { _fun0002_ip = 557; continue _fun0002 }
- 418:
+                if(!var6) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
                 var9 = _closure1_slot5;
                 var11 = _closure1_slot0;
                 var10 = _closure1_slot2;
@@ -230,7 +230,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var10[2] = var11;
                 var7['children'] = var10;
                 var6 = var9.bind(var4)(var8, var7);
- 557:
+case 15:
                 var5[2] = var6;
                 var1['children'] = var5;
                 var1 = var3.bind(var4)(var2, var1);

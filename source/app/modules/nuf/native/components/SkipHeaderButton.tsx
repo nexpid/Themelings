@@ -51,7 +51,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function SkipHeaderButton(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var6 = arg1;
             var1 = _closure1_slot3;
             var4 = undefined;
@@ -72,17 +72,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8[0] = var7;
             var10 = var6.insideNavigator;
             var7 = undefined;
-            if(!var10) { _fun0001_ip = 89; continue _fun0001 }
- 83:
+            if(!var10) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var7 = var9.insideNavigatorButton;
- 89:
+case 2:
             var8[1] = var7;
             var7 = 'labelStyle';
             var1[var7] = var8;
             var6 = var6.label;
             var7 = null;
-            if(!(var7 == var6)) { _fun0001_ip = 168; continue _fun0001 }
- 113:
+            if(!(var7 == var6)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var9 = _closure1_slot0;
             var10 = _closure1_slot1;
             var5 = 5;
@@ -95,7 +95,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.t;
             var5 = var5.5WxrcX;
             var6 = var7.bind(var8)(var5);
- 168:
+case 4:
             var5 = 'label';
             var1[var5] = var6;
             var1 = var3.bind(var4)(var2, var1);

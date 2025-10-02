@@ -37,25 +37,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function getChannelIconURL(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var6 = arguments[1];
             var5 = undefined;
-            if(!(var6 === var5)) { _fun0001_ip = 15; continue _fun0001 }
- 12:
+            if(!(var6 === var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = 32;
- 15:
+case 2:
             var4 = var2.type;
             var3 = _closure1_slot5;
             var3 = var3.DM;
-            if(!(var3 !== var4)) { _fun0001_ip = 124; continue _fun0001 }
- 37:
+            if(!(var3 !== var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = _closure1_slot5;
             var3 = var3.GROUP_DM;
-            if(!(var3 !== var4)) { _fun0001_ip = 53; continue _fun0001 }
- 51:
+            if(!(var3 !== var4)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             return var5;
- 53:
+case 6:
             var4 = _closure1_slot1;
             var7 = _closure1_slot2;
             var3 = 4;
@@ -73,7 +73,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['size'] = var6;
             var3 = var4.bind(var7)(var3);
             return var3;
- 124:
+case 4:
             var4 = var2.recipients;
             var3 = var4.map;
             var2 = _closure1_slot4;
@@ -94,32 +94,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var2[var1];
             var1 = null;
             var2 = var1 == var4;
-            if(var2) { _fun0001_ip = 230; continue _fun0001 }
- 214:
+            if(var2) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var3 = var4.getAvatarURL;
             var2 = arguments[2];
             var1 = var3.bind(var4)(var5, var6, var2);
- 230:
+case 8:
             return var1;
         }
     };
     var3['getChannelIconURL'] = var4;
     var2 = function getChannelIconSource(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var2 = arg1;
             var4 = var2.type;
             var3 = _closure1_slot5;
             var3 = var3.DM;
-            if(!(var3 !== var4)) { _fun0002_ip = 119; continue _fun0002 }
- 25:
+            if(!(var3 !== var4)) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
             var3 = _closure1_slot5;
             var3 = var3.GROUP_DM;
-            if(!(var3 !== var4)) { _fun0002_ip = 43; continue _fun0002 }
- 39:
+            if(!(var3 !== var4)) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
             var3 = undefined;
             return var3;
- 43:
+case 12:
             var5 = _closure1_slot1;
             var4 = _closure1_slot2;
             var3 = 4;
@@ -139,7 +139,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['size'] = var6;
             var3 = var4.bind(var5)(var3);
             return var3;
- 119:
+case 10:
             var4 = var2.recipients;
             var3 = var4.map;
             var2 = _closure1_slot4;
@@ -161,11 +161,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var2[var1];
             var1 = null;
             var2 = var1 != var3;
-            if(!var2) { _fun0002_ip = 222; continue _fun0002 }
- 211:
+            if(!var2) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
             var2 = var3.getAvatarSource;
             var1 = var2.bind(var3)(var4);
- 222:
+case 14:
             return var1;
         }
     };

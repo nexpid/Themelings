@@ -31,11 +31,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.awaitStorage;
             var2 = function() {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     var1 = _closure2_slot0;
                     var1 = var1.isFullscreenCallUI;
-                    if(!var1) { _fun0001_ip = 120; continue _fun0001 }
- 18:
+                    if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var3 = _closure1_slot1;
                     var9 = _closure1_slot2;
                     var1 = 2;
@@ -59,7 +59,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var13 = var1;
                     var6 = copyDataProperties(var13, var12);
                     var1 = var4.bind(var5)(var3, var1);
- 120:
+case 2:
                     var4 = _closure1_slot1;
                     var5 = _closure1_slot2;
                     var1 = 2;

@@ -42,7 +42,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function PresenceActivityStatus(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = var1.activity;
             var14 = var1.iconStyle;
@@ -50,15 +50,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var1.maxFontSizeMultiplier;
             var5 = var1.hideIcon;
             var4 = undefined;
-            if(!(var5 === var4)) { _fun0001_ip = 41; continue _fun0001 }
- 39:
+            if(!(var5 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = false;
- 41:
+case 2:
             var6 = var1.hideText;
-            if(!(var6 === var4)) { _fun0001_ip = 53; continue _fun0001 }
- 51:
+            if(!(var6 === var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var6 = false;
- 53:
+case 4:
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
             var1 = 8;
@@ -82,10 +82,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['location'] = var10;
             var3 = var8.bind(var9)(var3);
             var8 = var3.descriptiveTextEnabled;
-            if(!var5) { _fun0001_ip = 164; continue _fun0001 }
- 158:
-            if(var6) { _fun0001_ip = 636; continue _fun0001 }
- 164:
+            if(!var5) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+            if(var6) { _fun0001_ip = 8; continue _fun0001 }
+case 6:
             var9 = _closure1_slot1;
             var10 = _closure1_slot2;
             var3 = 10;
@@ -93,108 +93,108 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var9.bind(var4)(var3);
             var3 = var3.bind(var4)(var2, var8);
             var10 = var3.text;
-            if(!(var1 === var4)) { _fun0001_ip = 201; continue _fun0001 }
- 199:
+            if(!(var1 === var4)) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var1 = false;
- 201:
+case 9:
             var8 = _closure1_slot1;
             var9 = _closure1_slot2;
             var3 = 3;
             var3 = var9[var3];
             var3 = var8.bind(var4)(var3);
             var3 = var3.bind(var4)(var2);
-            if(var3) { _fun0001_ip = 444; continue _fun0001 }
- 232:
+            if(var3) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var8 = var2.type;
             var3 = _closure1_slot3;
             var3 = var3.PLAYING;
-            if(!(var8 !== var3)) { _fun0001_ip = 416; continue _fun0001 }
- 254:
+            if(!(var8 !== var3)) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var8 = var2.type;
             var3 = _closure1_slot3;
             var3 = var3.LISTENING;
-            if(!(var8 !== var3)) { _fun0001_ip = 388; continue _fun0001 }
- 273:
+            if(!(var8 !== var3)) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
             var8 = var2.type;
             var3 = _closure1_slot3;
             var3 = var3.WATCHING;
-            if(!(var8 !== var3)) { _fun0001_ip = 360; continue _fun0001 }
- 292:
+            if(!(var8 !== var3)) { _fun0001_ip = 17; continue _fun0001 }
+case 18:
             var8 = var2.type;
             var3 = _closure1_slot3;
             var3 = var3.STREAMING;
-            if(!(var8 !== var3)) { _fun0001_ip = 360; continue _fun0001 }
- 311:
+            if(!(var8 !== var3)) { _fun0001_ip = 17; continue _fun0001 }
+case 19:
             var3 = var2.type;
             var2 = _closure1_slot3;
             var2 = var2.COMPETING;
             var15 = null;
-            if(!(var3 === var2)) { _fun0001_ip = 358; continue _fun0001 }
- 332:
+            if(!(var3 === var2)) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
             var3 = _closure1_slot0;
             var8 = _closure1_slot2;
             var2 = 4;
             var2 = var8[var2];
             var2 = var3.bind(var4)(var2);
             var15 = var2.GameControllerIcon;
- 358:
-            _fun0001_ip = 386; continue _fun0001;
- 360:
+case 20:
+            _fun0001_ip = 22; continue _fun0001;
+case 17:
             var3 = _closure1_slot0;
             var8 = _closure1_slot2;
             var2 = 7;
             var2 = var8[var2];
             var2 = var3.bind(var4)(var2);
             var15 = var2.TvIcon;
- 386:
-            _fun0001_ip = 414; continue _fun0001;
- 388:
+case 22:
+            _fun0001_ip = 23; continue _fun0001;
+case 15:
             var3 = _closure1_slot0;
             var8 = _closure1_slot2;
             var2 = 6;
             var2 = var8[var2];
             var2 = var3.bind(var4)(var2);
             var15 = var2.MusicIcon;
- 414:
-            _fun0001_ip = 442; continue _fun0001;
- 416:
+case 23:
+            _fun0001_ip = 24; continue _fun0001;
+case 13:
             var3 = _closure1_slot0;
             var8 = _closure1_slot2;
             var2 = 4;
             var2 = var8[var2];
             var2 = var3.bind(var4)(var2);
             var15 = var2.GameControllerIcon;
- 442:
-            _fun0001_ip = 496; continue _fun0001;
- 444:
+case 24:
+            _fun0001_ip = 25; continue _fun0001;
+case 11:
             var3 = _closure1_slot0;
             var8 = _closure1_slot2;
-            if(var1) { _fun0001_ip = 475; continue _fun0001 }
- 455:
+            if(var1) { _fun0001_ip = 26; continue _fun0001 }
+case 27:
             var1 = 5;
             var1 = var8[var1];
             var1 = var3.bind(var4)(var1);
             var1 = var1.AppsIcon;
-            _fun0001_ip = 493; continue _fun0001;
- 475:
+            _fun0001_ip = 28; continue _fun0001;
+case 26:
             var2 = 4;
             var2 = var8[var2];
             var2 = var3.bind(var4)(var2);
             var1 = var2.GameControllerIcon;
- 493:
+case 28:
             var15 = var1;
- 496:
+case 25:
             var3 = _closure1_slot6;
             var2 = _closure1_slot5;
             var1 = {};
             var8 = !var5;
-            if(!var8) { _fun0001_ip = 518; continue _fun0001 }
- 512:
+            if(!var8) { _fun0001_ip = 29; continue _fun0001 }
+case 30:
             var5 = null;
             var8 = var5 != var15;
- 518:
-            if(!var8) { _fun0001_ip = 561; continue _fun0001 }
- 521:
+case 29:
+            if(!var8) { _fun0001_ip = 31; continue _fun0001 }
+case 32:
             var13 = _closure1_slot4;
             var9 = _closure1_slot1;
             var16 = _closure1_slot2;
@@ -205,12 +205,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['icon'] = var15;
             var5['style'] = var14;
             var8 = var13.bind(var4)(var9, var5);
- 561:
+case 31:
             var5 = new Array(2);
             var5[0] = var8;
             var6 = !var6;
-            if(!var6) { _fun0001_ip = 620; continue _fun0001 }
- 575:
+            if(!var6) { _fun0001_ip = 33; continue _fun0001 }
+case 34:
             var9 = _closure1_slot4;
             var8 = _closure1_slot1;
             var13 = _closure1_slot2;
@@ -222,12 +222,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7['maxFontSizeMultiplier'] = var11;
             var7['children'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 620:
+case 33:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
- 636:
+case 8:
             var1 = null;
             return var1;
         }

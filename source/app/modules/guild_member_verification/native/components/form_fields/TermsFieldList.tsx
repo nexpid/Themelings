@@ -197,7 +197,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var8.map;
         var6 = function(arg1, arg2) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var9 = arg1;
                 var8 = arg2;
                 var5 = _closure1_slot6;
@@ -213,22 +213,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2[0] = var6;
                 var14 = 0;
                 var11 = null;
-                if(!(var14 === var8)) { _fun0001_ip = 74; continue _fun0001 }
- 64:
+                if(!(var14 === var8)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var14 = _closure2_slot2;
                 var11 = var14.firstItem;
- 74:
+case 2:
                 var2[1] = var11;
                 var11 = _closure2_slot0;
                 var14 = var11.length;
                 var11 = 1;
                 var15 = var14 - var11;
                 var14 = null;
-                if(!(var8 === var15)) { _fun0001_ip = 110; continue _fun0001 }
- 100:
+                if(!(var8 === var15)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var15 = _closure2_slot2;
                 var14 = var15.lastItem;
- 110:
+case 4:
                 var2[2] = var14;
                 var1['style'] = var2;
                 var16 = _closure1_slot5;
@@ -249,8 +249,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var10 = var10.length;
                 var10 = var10 - var11;
                 var6 = null;
-                if(!(var8 !== var10)) { _fun0001_ip = 234; continue _fun0001 }
- 196:
+                if(!(var8 !== var10)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                 var11 = _closure1_slot5;
                 var10 = _closure1_slot0;
                 var12 = _closure1_slot2;
@@ -260,7 +260,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var10 = var7.TableRowDivider;
                 var7 = {};
                 var6 = var11.bind(var2)(var10, var7);
- 234:
+case 6:
                 var1[1] = var6;
                 var3['children'] = var1;
                 var1 = global;

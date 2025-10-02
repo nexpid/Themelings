@@ -60,7 +60,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function MaskedBadge(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var13 = var2.backgroundColor;
             var _closure2_slot0 = var13;
@@ -85,11 +85,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var10 = var8.bind(var10)(var1, var4);
             var1 = 0;
-            if(!(!(var7 > var1))) { _fun0001_ip = 152; continue _fun0001 }
- 94:
+            if(!(!(var7 > var1))) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = null;
-            if(!var3) { _fun0001_ip = 150; continue _fun0001 }
- 99:
+            if(!var3) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var8 = _closure1_slot4;
             var4 = _closure1_slot1;
             var15 = _closure1_slot2;
@@ -102,9 +102,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var11.unreadBadge;
             var3['style'] = var13;
             var1 = var8.bind(var5)(var4, var3);
- 150:
-            _fun0001_ip = 270; continue _fun0001;
- 152:
+case 4:
+            _fun0001_ip = 6; continue _fun0001;
+case 2:
             var4 = _closure1_slot4;
             var3 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -124,17 +124,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = new Array(3);
             var8[0] = var10;
             var10 = null;
-            if(!var12) { _fun0001_ip = 243; continue _fun0001 }
- 237:
+            if(!var12) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var10 = var11.lowPriorityBadge;
- 243:
+case 7:
             var8[1] = var10;
             var8[2] = var9;
             var2['style'] = var8;
             var2['value'] = var7;
             var2['maxValue'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 270:
+case 6:
             return var1;
         }
     };

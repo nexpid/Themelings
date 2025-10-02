@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var7;
     var2 = function AppliedForumTag(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var6 = var1.tag;
             var3 = var1.hasUnreads;
@@ -37,27 +37,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7[0] = var2;
             var2 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = _closure2_slot3;
                     var1 = null;
                     var3 = var1 != var3;
-                    if(!var3) { _fun0002_ip = 38; continue _fun0002 }
- 16:
+                    if(!var3) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var4 = _closure1_slot4;
                     var3 = var4.getUsableCustomEmojiById;
                     var2 = _closure2_slot3;
                     var1 = var3.bind(var4)(var2);
- 38:
+case 2:
                     return var1;
                 }
             };
             var2 = var8.bind(var9)(var7, var2);
             var _closure2_slot5 = var2;
             var2 = 'text-muted';
-            if(!var3) { _fun0001_ip = 145; continue _fun0001 }
- 139:
+            if(!var3) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = 'header-secondary';
- 145:
+case 4:
             _closure2_slot6 = var2;
             var3 = _closure1_slot6;
             var2 = _closure1_slot1;
@@ -70,7 +70,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['tagId'] = var6;
             var5 = function children(arg1) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var3 = arg1;
                     var7 = var3.ref;
                     var12 = null;
@@ -116,13 +116,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = copyDataProperties(var20, var19);
                     var6 = _closure2_slot4;
                     var7 = var12 != var6;
-                    if(var7) { _fun0003_ip = 189; continue _fun0003 }
- 181:
+                    if(var7) { _fun0003_ip = 6; continue _fun0003 }
+case 7:
                     var6 = _closure2_slot3;
                     var7 = var12 != var6;
- 189:
-                    if(!var7) { _fun0003_ip = 358; continue _fun0003 }
- 195:
+case 6:
+                    if(!var7) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
                     var10 = _closure1_slot6;
                     var8 = _closure1_slot1;
                     var11 = _closure1_slot2;
@@ -138,8 +138,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var11 = _closure2_slot5;
                     var13 = var12 != var11;
                     var11 = undefined;
-                    if(!var13) { _fun0003_ip = 324; continue _fun0003 }
- 259:
+                    if(!var13) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
                     var14 = _closure1_slot1;
                     var15 = _closure1_slot2;
                     var13 = 11;
@@ -155,18 +155,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var16 = _closure1_slot5;
                     var13['size'] = var16;
                     var11 = var14.bind(var15)(var13);
- 324:
+case 10:
                     var6['src'] = var11;
                     var11 = _closure2_slot4;
                     var12 = var12 != var11;
                     var11 = '';
-                    if(!var12) { _fun0003_ip = 348; continue _fun0003 }
- 344:
+                    if(!var12) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
                     var11 = _closure2_slot4;
- 348:
+case 12:
                     var6['name'] = var11;
                     var7 = var10.bind(var1)(var8, var6);
- 358:
+case 8:
                     var6 = new Array(2);
                     var6[0] = var7;
                     var8 = _closure1_slot6;

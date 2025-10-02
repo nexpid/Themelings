@@ -61,7 +61,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function YouNavigator(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var3 = var1.route;
             var1 = _closure1_slot6;
@@ -85,20 +85,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = null;
             var4 = var2 == var3;
             var1 = undefined;
-            if(var4) { _fun0001_ip = 120; continue _fun0001 }
- 99:
+            if(var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = var3.params;
             var4 = var2 == var3;
             var1 = undefined;
-            if(var4) { _fun0001_ip = 120; continue _fun0001 }
- 114:
+            if(var4) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var1 = var3.inNestedNavigator;
- 120:
+case 2:
             var8 = var2 != var1;
-            if(!var8) { _fun0001_ip = 130; continue _fun0001 }
- 127:
+            if(!var8) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var8 = var1;
- 130:
+case 5:
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
             var1 = 8;
@@ -107,8 +107,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.bind(var5)();
             var1 = var1.isChatBesideChannelList;
             var4 = _closure1_slot5;
-            if(var1) { _fun0001_ip = 202; continue _fun0001 }
- 167:
+            if(var1) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
             var1 = 9;
@@ -117,8 +117,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = {};
             var1['inNestedNavigator'] = var8;
             var1 = var4.bind(var5)(var2, var1);
-            _fun0001_ip = 278; continue _fun0001;
- 202:
+            _fun0001_ip = 9; continue _fun0001;
+case 7:
             var3 = _closure1_slot3;
             var2 = {};
             var9 = var7.container;
@@ -138,7 +138,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var4.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 278:
+case 9:
             return var1;
         }
     };

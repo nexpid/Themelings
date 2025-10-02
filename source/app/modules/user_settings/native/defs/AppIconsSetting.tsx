@@ -71,7 +71,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['IconComponent'] = var4;
     var4 = function useAppIconSettingTrailing() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
             var2 = 6;
@@ -91,13 +91,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var6[var2];
             var2 = var5.bind(var4)(var2);
             var2 = var2.DismissibleContent;
-            if(var3) { _fun0001_ip = 96; continue _fun0001 }
- 88:
+            if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = var2.CUSTOM_APP_ICONS_NEW_BADGE;
-            _fun0001_ip = 102; continue _fun0001;
- 96:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var5 = var2.HALLOWEEN_APP_ICONS_APPEARANCE_SETTINGS_MOBILE_BADGE;
- 102:
+case 4:
             var3 = _closure1_slot6;
             var2 = _closure1_slot1;
             var6 = _closure1_slot2;
@@ -174,10 +174,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[4] = var5;
         var1 = function() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var1 = _closure2_slot4;
-                if(!var1) { _fun0002_ip = 55; continue _fun0002 }
- 10:
+                if(!var1) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
                 var5 = _closure2_slot2;
                 var6 = _closure1_slot0;
                 var4 = _closure1_slot2;
@@ -187,8 +187,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var6.bind(var3)(var4);
                 var4 = var4.DismissibleContent;
                 var4 = var4.HALLOWEEN_APP_ICONS_APPEARANCE_SETTINGS_MOBILE_BADGE;
-                if(!(var5 !== var4)) { _fun0002_ip = 121; continue _fun0002 }
- 55:
+                if(!(var5 !== var4)) { _fun0002_ip = 7; continue _fun0002 }
+case 5:
                 var7 = _closure2_slot0;
                 var8 = _closure1_slot0;
                 var6 = _closure1_slot2;
@@ -198,19 +198,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var8.bind(var6)(var5);
                 var5 = var5.DismissibleContent;
                 var5 = var5.CUSTOM_APP_ICONS_NEW_BADGE;
-                if(!(var7 === var5)) { _fun0002_ip = 140; continue _fun0002 }
- 100:
+                if(!(var7 === var5)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                 var5 = _closure2_slot1;
                 var4 = _closure1_slot5;
                 var4 = var4.TAKE_ACTION;
                 var4 = var5.bind(var6)(var4);
-                _fun0002_ip = 140; continue _fun0002;
- 121:
+                _fun0002_ip = 8; continue _fun0002;
+case 7:
                 var2 = _closure2_slot3;
                 var1 = _closure1_slot5;
                 var1 = var1.TAKE_ACTION;
                 var1 = var2.bind(var3)(var1);
- 140:
+case 8:
                 var1 = true;
                 return var1;
             }

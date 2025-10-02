@@ -52,7 +52,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function GenericTextRow(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var15 = var2.text;
             var _closure2_slot0 = var15;
@@ -71,26 +71,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = function* () {
                 var1 = function* anon_0_() {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0002_ip = 41; continue _fun0002 }
- 7:
+                        if(var2) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                         var4 = _closure2_slot1;
                         var2 = _closure2_slot0;
                         var3 = undefined;
                         var2 = var4.bind(var3)(var2);
                         SaveGenerator(address=29);
- 27:
+case 4:
                         return var2;
- 29:
+case 5:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                        if(var4) { _fun0002_ip = 38; continue _fun0002 }
- 35:
+                        if(var4) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                         return var3;
- 38:
+case 6:
                         return var2;
- 41:
+case 2:
                         return var1;
                     }
                 };
@@ -126,12 +126,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = {};
             var10 = null;
             var10 = var10 != var13;
-            if(!var10) { _fun0001_ip = 242; continue _fun0001 }
- 218:
+            if(!var10) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var12 = _closure1_slot5;
             var11 = {'size': 'sm', 'color': 'header-primary'};
             var10 = var12.bind(var4)(var13, var11);
- 242:
+case 8:
             var1['icon'] = var10;
             var1['label'] = var9;
             var1['onPress'] = var8;

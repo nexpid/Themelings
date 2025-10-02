@@ -28,30 +28,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = {};
     var7 = function openLazy(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var3 = var4.importer;
             var5 = var4.hideActionSheet;
             var2 = undefined;
-            if(!(var5 === var2)) { _fun0001_ip = 25; continue _fun0001 }
- 23:
+            if(!(var5 === var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = true;
- 25:
+case 2:
             var _closure2_slot0 = var5;
             var4 = var4.isDismissable;
-            if(!(var4 === var2)) { _fun0001_ip = 41; continue _fun0001 }
- 39:
+            if(!(var4 === var2)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var4 = false;
- 41:
+case 4:
             var _closure2_slot1 = var4;
             var3 = var3.bind(var2)();
             var2 = var3.then;
             var1 = function(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var1 = _closure2_slot0;
-                    if(!var1) { _fun0002_ip = 45; continue _fun0002 }
- 10:
+                    if(!var1) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
                     var1 = 2;
@@ -60,7 +60,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var3.bind(var1)(var2);
                     var1 = var2.hideActionSheet;
                     var1 = var1.bind(var2)();
- 45:
+case 6:
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
                     var1 = 3;
@@ -101,15 +101,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['close'] = var7;
     var7 = function show(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var8 = arg1;
             var4 = this;
             var6 = var8.hideActionSheet;
             var5 = var8.isDismissable;
             var2 = var8.confirmText;
             var1 = undefined;
-            if(!(var2 === var1)) { _fun0003_ip = 90; continue _fun0003 }
- 32:
+            if(!(var2 === var1)) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
             var11 = _closure1_slot0;
             var12 = _closure1_slot2;
             var3 = 4;
@@ -122,7 +122,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.t;
             var3 = var3.BddRzc;
             var2 = var9.bind(var10)(var3);
- 90:
+case 8:
             var _closure2_slot0 = var2;
             var3 = {'hideActionSheet': 0, 'isDismissable': 0, 'confirmText': 0};
             var14 = null;

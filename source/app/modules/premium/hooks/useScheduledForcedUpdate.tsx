@@ -27,16 +27,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useScheduledForcedUpdate(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var8 = var1.delay;
             var _closure2_slot0 = var8;
             var7 = var1.disable;
             var1 = undefined;
-            if(!(var7 === var1)) { _fun0001_ip = 29; continue _fun0001 }
- 27:
+            if(!(var7 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var7 = false;
- 29:
+case 2:
             var _closure2_slot1 = var7;
             var _closure2_slot2 = var1;
             var5 = _closure1_slot0;
@@ -55,14 +55,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[2] = var6;
             var2 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var4 = _closure2_slot0;
                     var3 = 0;
-                    if(!(!(var4 <= var3))) { _fun0002_ip = 58; continue _fun0002 }
- 15:
+                    if(!(!(var4 <= var3))) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var3 = _closure2_slot1;
-                    if(var3) { _fun0002_ip = 58; continue _fun0002 }
- 22:
+                    if(var3) { _fun0002_ip = 4; continue _fun0002 }
+case 6:
                     var3 = global;
                     var5 = var3.setTimeout;
                     var4 = _closure2_slot0;
@@ -84,7 +84,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     };
                     return var1;
- 58:
+case 4:
                     var1 = undefined;
                     return var1;
                 }

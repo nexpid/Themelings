@@ -39,7 +39,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function UserSettingsCommunityNotifications() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = _closure1_slot0;
             var7 = _closure1_slot2;
             var1 = 3;
@@ -67,8 +67,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var8.length;
             var3 = 0;
             var1 = null;
-            if(!(var3 !== var4)) { _fun0001_ip = 159; continue _fun0001 }
- 100:
+            if(!(var3 !== var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = _closure1_slot4;
             var3 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -194,7 +194,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var7.bind(var8)(var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 159:
+case 2:
             return var1;
         }
     };

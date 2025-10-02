@@ -94,11 +94,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function SafetyHubErrorActionSheet(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = null;
-            if(!(var2 != var1)) { _fun0001_ip = 436; continue _fun0001 }
- 12:
+            if(!(var2 != var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = _closure1_slot7;
             var5 = undefined;
             var16 = var1.bind(var5)();
@@ -205,7 +205,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['children'] = var6;
             var1 = var4.bind(var5)(var3, var1);
             return var1;
- 436:
+case 2:
             var20 = "Cannot destructure 'undefined' or 'null'.";
             var21 = var2;
             var1 = throwTypeError(var21, var20);

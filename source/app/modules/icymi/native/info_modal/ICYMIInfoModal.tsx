@@ -34,7 +34,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function ICYMIInfoModal(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var1 = var3.extendedOnboarding;
             var _closure2_slot0 = var1;
@@ -61,7 +61,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2[1] = var5;
                 var1 = function() {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                         var1 = {};
                         var10 = _closure1_slot0;
                         var3 = _closure1_slot2;
@@ -114,12 +114,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var11 = _closure1_slot2;
                         var11 = var11[var9];
                         var13 = var12.bind(var6)(var11);
-                        if(var5) { _fun0002_ip = 196; continue _fun0002 }
- 184:
+                        if(var5) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                         var5 = var13.getHeaderBackButton;
                         var5 = var5.bind(var13)();
-                        _fun0002_ip = 214; continue _fun0002;
- 196:
+                        _fun0002_ip = 4; continue _fun0002;
+case 2:
                         var12 = var13.getHeaderCloseButton;
                         var11 = function() {
                             var3 = _closure1_slot1;
@@ -138,15 +138,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             return var1;
                         };
                         var5 = var12.bind(var13)(var11);
- 214:
+case 4:
                         var3['headerLeft'] = var5;
                         var5 = function headerRight() {
                             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                                 var2 = _closure3_slot1;
                                 var1 = null;
-                                if(var2) { _fun0003_ip = 119; continue _fun0003 }
- 12:
+                                if(var2) { _fun0003_ip = 5; continue _fun0003 }
+case 6:
                                 var5 = _closure1_slot4;
                                 var9 = _closure1_slot0;
                                 var10 = _closure1_slot2;
@@ -190,7 +190,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 };
                                 var2['onPress'] = var6;
                                 var1 = var5.bind(var4)(var3, var2);
- 119:
+case 5:
                                 return var1;
                             }
                         };
@@ -307,10 +307,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[1] = var6;
             var2 = function() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                     var1 = _closure2_slot0;
-                    if(var1) { _fun0004_ip = 60; continue _fun0004 }
- 13:
+                    if(var1) { _fun0004_ip = 7; continue _fun0004 }
+case 8:
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot2;
                     var1 = 3;
@@ -321,8 +321,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var1.DEFAULT;
                     var1 = new Array(1);
                     var1[0] = var4;
-                    _fun0004_ip = 206; continue _fun0004;
- 60:
+                    _fun0004_ip = 9; continue _fun0004;
+case 7:
                     var2 = _closure2_slot1;
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot2;
@@ -331,8 +331,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = undefined;
                     var3 = var6.bind(var5)(var3);
                     var3 = var3.ICYMIInfoScreens;
-                    if(var2) { _fun0004_ip = 161; continue _fun0004 }
- 95:
+                    if(var2) { _fun0004_ip = 10; continue _fun0004 }
+case 11:
                     var8 = var3.DEFAULT;
                     var2 = new Array(3);
                     var2[0] = var8;
@@ -346,8 +346,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = var8.ICYMIInfoScreens;
                     var8 = var8.JOIN_GUILDS;
                     var2[2] = var8;
-                    _fun0004_ip = 203; continue _fun0004;
- 161:
+                    _fun0004_ip = 12; continue _fun0004;
+case 10:
                     var8 = var3.TOPICS_CLOUD;
                     var3 = new Array(2);
                     var3[0] = var8;
@@ -357,9 +357,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var4.JOIN_GUILDS;
                     var3[1] = var4;
                     var2 = var3;
- 203:
+case 12:
                     var1 = var2;
- 206:
+case 9:
                     return var1;
                 }
             };
@@ -367,8 +367,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = _closure1_slot4;
             var3 = _closure1_slot0;
             var10 = _closure1_slot2;
-            if(var1) { _fun0001_ip = 165; continue _fun0001 }
- 103:
+            if(var1) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var1 = 13;
             var1 = var10[var1];
             var1 = var3.bind(var5)(var1);
@@ -382,8 +382,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var11.DEFAULT;
             var1['initialRouteName'] = var11;
             var1 = var4.bind(var5)(var2, var1);
-            _fun0001_ip = 249; continue _fun0001;
- 165:
+            _fun0001_ip = 15; continue _fun0001;
+case 13:
             var2 = 14;
             var2 = var10[var2];
             var2 = var3.bind(var5)(var2);
@@ -397,16 +397,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var9[var7];
             var7 = var8.bind(var5)(var7);
             var7 = var7.ICYMIInfoScreens;
-            if(var6) { _fun0001_ip = 232; continue _fun0001 }
- 224:
+            if(var6) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var6 = var7.DEFAULT;
-            _fun0001_ip = 238; continue _fun0001;
- 232:
+            _fun0001_ip = 18; continue _fun0001;
+case 16:
             var6 = var7.TOPICS_CLOUD;
- 238:
+case 18:
             var2['initialRouteName'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 249:
+case 15:
             return var1;
         }
     };

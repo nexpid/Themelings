@@ -29,16 +29,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function getDecorationSizeForAvatarSize(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var2 = 'number';
             var1 = typeof var4;
-            if(!(var2 === var1)) { _fun0001_ip = 27; continue _fun0001 }
- 14:
+            if(!(var2 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = _closure1_slot3;
             var1 = var4 * var1;
-            _fun0001_ip = 70; continue _fun0001;
- 27:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var6 = _closure1_slot0;
             var5 = _closure1_slot2;
             var3 = 1;
@@ -49,21 +49,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3[var4];
             var2 = _closure1_slot3;
             var1 = var3 * var2;
- 70:
+case 4:
             return var1;
         }
     };
     var3['getDecorationSizeForAvatarSize'] = var4;
     var4 = function getDecorationCutoutForAvatarCutout(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var6 = arg1;
             var7 = arg2;
             var _closure2_slot0 = var7;
             var5 = null;
             var1 = var6;
-            if(!(var5 != var1)) { _fun0002_ip = 153; continue _fun0002 }
- 24:
+            if(!(var5 != var1)) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
             var2 = {};
             var3 = var6.direction;
             var2['direction'] = var3;
@@ -72,10 +72,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var6.inset;
             var9 = var5 != var8;
             var3 = 0;
-            if(!var9) { _fun0002_ip = 66; continue _fun0002 }
- 63:
+            if(!var9) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
             var3 = var8;
- 66:
+case 7:
             var3 = var3 + var7;
             var2['inset'] = var3;
             var8 = _closure1_slot0;
@@ -89,8 +89,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['imageType'] = var7;
             var6 = var6.nativeCutouts;
             var5 = var5 == var6;
-            if(var5) { _fun0002_ip = 145; continue _fun0002 }
- 130:
+            if(var5) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
             var5 = var6.map;
             var4 = function(arg1) {
                 var2 = arg1;
@@ -110,10 +110,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var3 = var5.bind(var6)(var4);
- 145:
+case 9:
             var2['nativeCutouts'] = var3;
             var1 = var2;
- 153:
+case 5:
             return var1;
         }
     };

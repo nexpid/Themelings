@@ -5,7 +5,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = dependencyMap;
     var6 = function setTimeout(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg2;
             var2 = global;
             var4 = var2.Math;
@@ -13,10 +13,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = null;
             var5 = var2 != var1;
             var2 = 0;
-            if(!var5) { _fun0001_ip = 30; continue _fun0001 }
- 27:
+            if(!var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var1;
- 30:
+case 2:
             var1 = 4;
             var4 = var3.bind(var4)(var2, var1);
             var3 = _closure1_slot3;
@@ -32,7 +32,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot5 = var6;
     var5 = function setInterval(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg2;
             var2 = global;
             var4 = var2.Math;
@@ -40,10 +40,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = null;
             var5 = var2 != var1;
             var2 = 0;
-            if(!var5) { _fun0002_ip = 30; continue _fun0002 }
- 27:
+            if(!var5) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
             var2 = var1;
- 30:
+case 2:
             var1 = 4;
             var4 = var3.bind(var4)(var2, var1);
             var3 = _closure1_slot3;
@@ -59,22 +59,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot6 = var5;
     var4 = function clearTimeout(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var3 = arg1;
             var1 = null;
             var1 = var1 != var3;
-            if(!var1) { _fun0003_ip = 29; continue _fun0003 }
- 12:
+            if(!var1) { _fun0003_ip = 4; continue _fun0003 }
+case 5:
             var4 = _closure1_slot2;
             var2 = var4.delete;
             var1 = var2.bind(var4)(var3);
- 29:
-            if(!var1) { _fun0003_ip = 50; continue _fun0003 }
- 32:
+case 4:
+            if(!var1) { _fun0003_ip = 6; continue _fun0003 }
+case 7:
             var2 = _closure1_slot3;
             var1 = var2.clear;
             var1 = var1.bind(var2)(var3);
- 50:
+case 6:
             var1 = undefined;
             return var1;
         }
@@ -100,11 +100,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = {'slowExecutionThresholdMillis': 500, 'delayedExecutionThresholdMillis': 5000};
     var10 = function onSlowTimer(arg1, arg2, arg3, arg4) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var3 = _closure1_slot1;
             var2 = null;
-            if(!(var2 != var3)) { _fun0004_ip = 35; continue _fun0004 }
- 13:
+            if(!(var2 != var3)) { _fun0004_ip = 8; continue _fun0004 }
+case 9:
             var6 = _closure1_slot1;
             var11 = undefined;
             var10 = arg1;
@@ -112,7 +112,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = arg3;
             var7 = arg4;
             var1 = var11[var6](var10, var9, var8, var7, var6);
- 35:
+case 8:
             var1 = undefined;
             return var1;
         }
@@ -128,23 +128,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var12.makeTimerManager;
     var7 = function expirationCallback(arg1, arg2) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
             var4 = arg1;
             var3 = _closure1_slot2;
             var2 = var3.get;
             var2 = var2.bind(var3)(var4);
-            if(!var2) { _fun0005_ip = 49; continue _fun0005 }
- 23:
+            if(!var2) { _fun0005_ip = 10; continue _fun0005 }
+case 11:
             var3 = arg2;
-            if(!var3) { _fun0005_ip = 43; continue _fun0005 }
- 29:
+            if(!var3) { _fun0005_ip = 12; continue _fun0005 }
+case 4:
             var3 = _closure1_slot2;
             var1 = var3.delete;
             var1 = var1.bind(var3)(var4);
- 43:
+case 12:
             var1 = undefined;
             var1 = var2.bind(var1)();
- 49:
+case 10:
             var1 = undefined;
             return var1;
         }

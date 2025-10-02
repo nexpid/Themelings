@@ -31,7 +31,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function MediaMessagePreviewActionSheet(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var2 = var3.channel;
             var _closure2_slot0 = var2;
@@ -53,8 +53,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var6.isNonUserBot;
             var3 = var3.bind(var6)();
             var9 = !var3;
-            if(!var9) { _fun0001_ip = 130; continue _fun0001 }
- 99:
+            if(!var9) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = _closure1_slot0;
             var8 = _closure1_slot2;
             var3 = 3;
@@ -62,9 +62,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.bind(var4)(var3);
             var3 = var5.canReportUser;
             var9 = var3.bind(var5)(var6);
- 130:
-            if(!var9) { _fun0001_ip = 164; continue _fun0001 }
- 133:
+case 2:
+            if(!var9) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
             var3 = 3;
@@ -72,7 +72,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.bind(var4)(var3);
             var3 = var5.canReportMessage;
             var9 = var3.bind(var5)(var7);
- 164:
+case 4:
             var5 = _closure1_slot3;
             var8 = var5.useCallback;
             var6 = function() {
@@ -212,8 +212,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var3.bind(var4)(var12, var8);
             var8 = new Array(3);
             var8[0] = var12;
-            if(!var11) { _fun0001_ip = 667; continue _fun0001 }
- 525:
+            if(!var11) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var16 = _closure1_slot4;
             var22 = _closure1_slot0;
             var19 = _closure1_slot2;
@@ -245,10 +245,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12['label'] = var19;
             var12['onPress'] = var17;
             var11 = var16.bind(var4)(var14, var12);
- 667:
+case 6:
             var8[1] = var11;
-            if(!var9) { _fun0001_ip = 827; continue _fun0001 }
- 677:
+            if(!var9) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var12 = _closure1_slot4;
             var17 = _closure1_slot0;
             var14 = _closure1_slot2;
@@ -282,7 +282,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = 'danger';
             var10['variant'] = var13;
             var9 = var12.bind(var4)(var11, var10);
- 827:
+case 8:
             var8[2] = var9;
             var5['children'] = var8;
             var5 = var7.bind(var4)(var6, var5);

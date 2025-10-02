@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var2 = function IntlLink(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var3 = var1.target;
             var _closure2_slot0 = var3;
@@ -29,21 +29,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.bind(var4)(var7);
             var9 = typeof var3;
             var7 = 'string';
-            if(!(var7 !== var9)) { _fun0001_ip = 126; continue _fun0001 }
- 92:
+            if(!(var7 !== var9)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var8 = 'object';
             var7 = var3;
-            if(!(var8 === var9)) { _fun0001_ip = 124; continue _fun0001 }
- 103:
+            if(!(var8 === var9)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var9 = var3.onClick;
             var8 = null;
             var7 = var3;
-            if(!(var8 != var9)) { _fun0001_ip = 124; continue _fun0001 }
- 118:
+            if(!(var8 != var9)) { _fun0001_ip = 4; continue _fun0001 }
+case 6:
             var7 = var3.onClick;
- 124:
-            _fun0001_ip = 131; continue _fun0001;
- 126:
+case 4:
+            _fun0001_ip = 7; continue _fun0001;
+case 2:
             var7 = function() {
                 var5 = _closure1_slot1;
                 var6 = _closure1_slot2;
@@ -61,7 +61,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
- 131:
+case 7:
             var3 = _closure1_slot4;
             var2 = _closure1_slot1;
             var8 = _closure1_slot2;
@@ -102,7 +102,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var9.createStyles;
     var4 = function(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = {};
             var2 = {};
             var5 = _closure1_slot1;
@@ -116,10 +116,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['color'] = var3;
             var3 = 'none';
             var4 = arg1;
-            if(!var4) { _fun0002_ip = 58; continue _fun0002 }
- 54:
+            if(!var4) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var3 = 'underline';
- 58:
+case 8:
             var2['textDecorationLine'] = var3;
             var1['link'] = var2;
             return var1;

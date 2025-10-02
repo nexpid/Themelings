@@ -16,16 +16,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[0] = var5;
         var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var3 = _closure2_slot0;
                 var2 = null;
-                if(!(var2 != var3)) { _fun0001_ip = 35; continue _fun0001 }
- 13:
+                if(!(var2 != var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var3 = _closure1_slot7;
                 var2 = var3.request;
                 var1 = _closure2_slot0;
                 var1 = var2.bind(var3)(var1);
- 35:
+case 2:
                 var1 = undefined;
                 return var1;
             }
@@ -112,20 +112,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var2;
         var2 = function value(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var4 = arg1;
                 var1 = this;
                 var3 = var1._pending;
                 var2 = var3.has;
                 var2 = var2.bind(var3)(var4);
-                if(var2) { _fun0002_ip = 41; continue _fun0002 }
- 25:
+                if(var2) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                 var5 = var1._fetched;
                 var3 = var5.has;
                 var2 = var3.bind(var5)(var4);
- 41:
-                if(var2) { _fun0002_ip = 79; continue _fun0002 }
- 44:
+case 4:
+                if(var2) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                 var3 = var1._pending;
                 var2 = var3.add;
                 var2 = var2.bind(var3)(var4);
@@ -133,7 +133,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var3.delay;
                 var1 = false;
                 var1 = var2.bind(var3)(var1);
- 79:
+case 6:
                 var1 = undefined;
                 return var1;
             }
@@ -226,13 +226,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4[0] = var3;
         var3 = function() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var2 = _closure2_slot1;
                 var1 = null;
                 var2 = var1 != var2;
                 var1 = undefined;
-                if(!var2) { _fun0003_ip = 51; continue _fun0003 }
- 18:
+                if(!var2) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
                 var2 = {};
                 var3 = _closure2_slot1;
                 var4 = var3.coverImageWidth;
@@ -240,7 +240,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var3.coverImageHeight;
                 var2['height'] = var3;
                 var1 = var2;
- 51:
+case 8:
                 return var1;
             }
         };
@@ -257,11 +257,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[0] = var5;
         var1 = function() {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                 var3 = _closure2_slot0;
                 var1 = null;
-                if(!(var1 != var3)) { _fun0004_ip = 101; continue _fun0004 }
- 13:
+                if(!(var1 != var3)) { _fun0004_ip = 10; continue _fun0004 }
+case 3:
                 var1 = {};
                 var5 = _closure1_slot6;
                 var3 = var5.isFetching;
@@ -278,8 +278,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = _closure2_slot2;
                 var2 = var3.bind(var5)(var4, var2);
                 var1['coverImageUrl'] = var2;
-                _fun0004_ip = 130; continue _fun0004;
- 101:
+                _fun0004_ip = 11; continue _fun0004;
+case 10:
                 var2 = {};
                 var3 = false;
                 var2['isFetching'] = var3;
@@ -288,7 +288,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2['themes'] = var3;
                 var2['coverImageUrl'] = var3;
                 var1 = var2;
- 130:
+case 11:
                 return var1;
             }
         };

@@ -22,7 +22,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function getLocalizedLink(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var4 = _closure1_slot0;
             var2 = _closure1_slot1;
@@ -35,13 +35,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2.toLowerCase;
             var2 = var1.bind(var2)();
             var1 = var2 in var3;
-            if(var1) { _fun0001_ip = 62; continue _fun0001 }
- 55:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var3.default;
-            _fun0001_ip = 66; continue _fun0001;
- 62:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var1 = var3[var2];
- 66:
+case 4:
             return var1;
         }
     };

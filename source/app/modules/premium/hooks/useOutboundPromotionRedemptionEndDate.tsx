@@ -47,7 +47,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[1] = var5;
         var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var2 = _closure1_slot0;
                 var3 = _closure1_slot2;
                 var1 = 2;
@@ -56,8 +56,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var2.bind(var7)(var1);
                 var3 = var4.dateFormat;
                 var1 = _closure2_slot1;
-                if(var1) { _fun0001_ip = 78; continue _fun0001 }
- 41:
+                if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var2 = _closure1_slot1;
                 var8 = _closure1_slot2;
                 var1 = 1;
@@ -66,13 +66,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = _closure2_slot0;
                 var1 = var1.endDate;
                 var2 = var2.bind(var7)(var1);
-                _fun0001_ip = 183; continue _fun0001;
- 78:
+                _fun0001_ip = 4; continue _fun0001;
+case 2:
                 var1 = _closure2_slot0;
                 var8 = var1.outboundRedemptionEndDate;
                 var1 = null;
-                if(!(var1 == var8)) { _fun0001_ip = 145; continue _fun0001 }
- 94:
+                if(!(var1 == var8)) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
                 var8 = _closure1_slot1;
                 var9 = _closure1_slot2;
                 var1 = 1;
@@ -84,8 +84,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = var9.add;
                 var1 = _closure1_slot4;
                 var1 = var8.bind(var9)(var1);
-                _fun0001_ip = 180; continue _fun0001;
- 145:
+                _fun0001_ip = 7; continue _fun0001;
+case 5:
                 var8 = _closure1_slot1;
                 var9 = _closure1_slot2;
                 var6 = 1;
@@ -94,9 +94,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = _closure2_slot0;
                 var5 = var5.outboundRedemptionEndDate;
                 var1 = var6.bind(var7)(var5);
- 180:
+case 7:
                 var2 = var1;
- 183:
+case 4:
                 var1 = 'LL';
                 var1 = var3.bind(var4)(var2, var1);
                 return var1;

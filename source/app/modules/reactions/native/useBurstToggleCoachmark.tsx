@@ -110,7 +110,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useBurstToggleCoachmark(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = _closure1_slot0;
             var7 = _closure1_slot2;
             var1 = 10;
@@ -133,16 +133,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var4)(var1);
             var1 = var3.isPremium;
             var1 = var1.bind(var3)(var6);
-            if(var1) { _fun0001_ip = 89; continue _fun0001 }
- 83:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var8 = new Array(0);
-            _fun0001_ip = 104; continue _fun0001;
- 89:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var3 = _closure1_slot9;
             var1 = new Array(1);
             var1[0] = var3;
             var8 = var1;
- 104:
+case 4:
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
             var1 = 12;

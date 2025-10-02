@@ -66,17 +66,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var3.useDerivedValue;
         var1 = function n() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var3 = _closure2_slot1;
                 var1 = var3.get;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0001_ip = 137; continue _fun0001 }
- 19:
+                if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var3 = _closure2_slot4;
                 var1 = var3.get;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0001_ip = 137; continue _fun0001 }
- 35:
+                if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
                 var3 = _closure2_slot3;
                 var1 = var3.get;
                 var3 = var1.bind(var3)();
@@ -88,27 +88,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var5.bind(var1)(var4);
                 var1 = var1.KeyboardTypes;
                 var1 = var1.SYSTEM;
-                if(!(var3 !== var1)) { _fun0001_ip = 117; continue _fun0001 }
- 89:
+                if(!(var3 !== var1)) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
                 var3 = _closure2_slot0;
                 var1 = var3.get;
                 var1 = var1.bind(var3)();
                 var3 = var1.bottom;
                 var1 = _closure2_slot5;
                 var1 = var3 + var1;
-                _fun0001_ip = 135; continue _fun0001;
- 117:
+                _fun0001_ip = 7; continue _fun0001;
+case 5:
                 var4 = _closure2_slot0;
                 var3 = var4.get;
                 var3 = var3.bind(var4)();
                 var1 = var3.bottom;
- 135:
-                _fun0001_ip = 150; continue _fun0001;
- 137:
+case 7:
+                _fun0001_ip = 8; continue _fun0001;
+case 2:
                 var3 = _closure2_slot2;
                 var2 = var3.get;
                 var1 = var2.bind(var3)();
- 150:
+case 8:
                 return var1;
             }
         };

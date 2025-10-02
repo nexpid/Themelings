@@ -77,19 +77,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var6.useDerivedValue;
         var3 = function A() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var1 = _closure2_slot1;
-                if(var1) { _fun0001_ip = 16; continue _fun0001 }
- 10:
+                if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var1 = _closure2_slot0;
-                _fun0001_ip = 35; continue _fun0001;
- 16:
+                _fun0001_ip = 4; continue _fun0001;
+case 2:
                 var4 = _closure2_slot2;
                 var3 = 10;
                 var3 = var4 + var3;
                 var2 = _closure2_slot3;
                 var1 = var3 + var2;
- 35:
+case 4:
                 return var1;
             }
         };

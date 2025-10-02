@@ -24,7 +24,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = {};
     var7 = function maybeOpenBlockUserFeedback(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var5 = var1.location;
             var4 = _closure1_slot0;
@@ -35,8 +35,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.bind(var1)(var3);
             var3 = var4.isEligibleForBlockUserFeedbackExperiment;
             var3 = var3.bind(var4)(var5);
-            if(!var3) { _fun0001_ip = 89; continue _fun0001 }
- 47:
+            if(!var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
             var2 = 2;
@@ -47,14 +47,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = 'BLOCK_USER_SHOW_FEEDBACK';
             var2['type'] = var5;
             var2 = var3.bind(var4)(var2);
- 89:
+case 2:
             return var1;
         }
     };
     var2['maybeOpenBlockUserFeedback'] = var7;
     var4 = function maybeOpenAgeVerificationUserFeedback(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var6 = var1.location;
             var5 = var1.visibleContent;
@@ -66,19 +66,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.bind(var1)(var3);
             var3 = var4.isEligibleForAgeVerificationFeedbackExperiment;
             var3 = var3.bind(var4)(var6);
-            if(!var3) { _fun0002_ip = 59; continue _fun0002 }
- 53:
+            if(!var3) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var4 = null;
             var3 = var4 != var5;
- 59:
-            if(!var3) { _fun0002_ip = 76; continue _fun0002 }
- 62:
+case 4:
+            if(!var3) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var6 = _closure1_slot3;
             var4 = var6.includes;
             var3 = var4.bind(var6)(var5);
- 76:
-            if(!var3) { _fun0002_ip = 126; continue _fun0002 }
- 79:
+case 6:
+            if(!var3) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
             var2 = 2;
@@ -90,7 +90,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['type'] = var6;
             var2['dismissibleContent'] = var5;
             var2 = var3.bind(var4)(var2);
- 126:
+case 8:
             return var1;
         }
     };

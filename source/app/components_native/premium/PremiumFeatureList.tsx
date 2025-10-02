@@ -106,7 +106,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var7.map;
         var5 = function(arg1, arg2) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var9 = arg1;
                 var5 = arg2;
                 var12 = var9.IconComponent;
@@ -167,19 +167,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var10 = null;
                 var11 = var10 != var7;
                 var7 = null;
-                if(!var11) { _fun0001_ip = 284; continue _fun0001 }
- 253:
+                if(!var11) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var12 = _closure2_slot0;
                 var11 = '';
                 var7 = null;
-                if(!(var11 !== var12)) { _fun0001_ip = 284; continue _fun0001 }
- 267:
+                if(!(var11 !== var12)) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
                 var9 = var9.renderSeparatorBelow;
                 var7 = null;
-                if(!var9) { _fun0001_ip = 284; continue _fun0001 }
- 280:
+                if(!var9) { _fun0001_ip = 2; continue _fun0001 }
+case 5:
                 var7 = _closure2_slot0;
- 284:
+case 2:
                 var6[1] = var7;
                 var2['children'] = var6;
                 var1 = var4.bind(var1)(var3, var2, var5);

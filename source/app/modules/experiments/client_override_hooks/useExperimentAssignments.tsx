@@ -48,7 +48,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[1] = var5;
         var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var1 = _closure2_slot0;
                 var5 = var1.system;
                 var6 = _closure1_slot0;
@@ -59,8 +59,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var6.bind(var2)(var1);
                 var1 = var1.ExperimentSystem;
                 var1 = var1.LEGACY;
-                if(!(var5 !== var1)) { _fun0001_ip = 110; continue _fun0001 }
- 54:
+                if(!(var5 !== var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var8 = _closure1_slot3;
                 var7 = var8.getAssignment;
                 var1 = _closure2_slot0;
@@ -71,12 +71,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = null;
                 var6 = var1 == var5;
                 var1 = undefined;
-                if(var6) { _fun0001_ip = 108; continue _fun0001 }
- 102:
+                if(var6) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var1 = var5.variantId;
- 108:
-                _fun0001_ip = 154; continue _fun0001;
- 110:
+case 4:
+                _fun0001_ip = 6; continue _fun0001;
+case 2:
                 var5 = _closure1_slot2;
                 var4 = var5.getUserExperimentDescriptor;
                 var3 = _closure2_slot0;
@@ -85,12 +85,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = null;
                 var4 = var4 == var3;
                 var2 = undefined;
-                if(var4) { _fun0001_ip = 151; continue _fun0001 }
- 145:
+                if(var4) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
                 var2 = var3.bucket;
- 151:
+case 7:
                 var1 = var2;
- 154:
+case 6:
                 return var1;
             }
         };
@@ -117,12 +117,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[1] = var5;
         var1 = function() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var2 = _closure2_slot0;
                 var1 = null;
                 var2 = var1 == var2;
-                if(var2) { _fun0002_ip = 133; continue _fun0002 }
- 16:
+                if(var2) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
                 var2 = _closure2_slot0;
                 var5 = var2.system;
                 var7 = _closure1_slot0;
@@ -133,8 +133,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var7.bind(var2)(var6);
                 var2 = var2.ExperimentSystem;
                 var2 = var2.LEGACY;
-                if(!(var5 !== var2)) { _fun0002_ip = 104; continue _fun0002 }
- 67:
+                if(!(var5 !== var2)) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
                 var8 = _closure1_slot3;
                 var7 = var8.getServerAssignment;
                 var2 = _closure2_slot0;
@@ -142,16 +142,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = _closure2_slot1;
                 var2 = var2.name;
                 var2 = var7.bind(var8)(var6, var5, var2);
-                _fun0002_ip = 130; continue _fun0002;
- 104:
+                _fun0002_ip = 13; continue _fun0002;
+case 11:
                 var5 = _closure1_slot2;
                 var4 = var5.getLoadedUserExperiment;
                 var3 = _closure2_slot0;
                 var3 = var3.name;
                 var2 = var4.bind(var5)(var3);
- 130:
+case 13:
                 var1 = var2;
- 133:
+case 9:
                 return var1;
             }
         };

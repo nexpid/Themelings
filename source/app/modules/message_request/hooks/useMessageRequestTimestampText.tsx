@@ -9,20 +9,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function getMessageTimestampForChannel(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var5 = var1.lastMessageId;
             var2 = var1.message;
             var1 = var1.loaded;
-            if(!var1) { _fun0001_ip = 29; continue _fun0001 }
- 23:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = null;
-            if(!(var1 == var2)) { _fun0001_ip = 76; continue _fun0001 }
- 29:
+            if(!(var1 == var2)) { _fun0001_ip = 4; continue _fun0001 }
+case 2:
             var1 = null;
             var3 = var1 != var5;
-            if(!var3) { _fun0001_ip = 74; continue _fun0001 }
- 38:
+            if(!var3) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var6 = _closure1_slot1;
             var4 = _closure1_slot2;
             var3 = 1;
@@ -31,9 +31,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var6.bind(var3)(var4);
             var3 = var4.extractTimestamp;
             var1 = var3.bind(var4)(var5);
- 74:
-            _fun0001_ip = 117; continue _fun0001;
- 76:
+case 5:
+            _fun0001_ip = 7; continue _fun0001;
+case 4:
             var5 = _closure1_slot1;
             var4 = _closure1_slot2;
             var3 = 1;
@@ -43,7 +43,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.extractTimestamp;
             var2 = var2.id;
             var1 = var3.bind(var4)(var2);
- 117:
+case 7:
             return var1;
         }
     };
@@ -69,7 +69,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function useMessageRequestTimestampText(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var5 = arg1;
             var _closure2_slot0 = var5;
             var8 = _closure1_slot0;
@@ -106,8 +106,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = null;
             var5 = var1 == var3;
             var1 = '';
-            if(var5) { _fun0002_ip = 161; continue _fun0002 }
- 126:
+            if(var5) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var5 = _closure1_slot1;
             var6 = _closure1_slot2;
             var2 = 4;
@@ -116,14 +116,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var2.bind(var4)(var3);
             var2 = var3.calendar;
             var1 = var2.bind(var3)();
- 161:
+case 8:
             return var1;
         }
     };
     var3['useMessageRequestTimestampText'] = var4;
     var2 = function useMessageRequestRelativeTimestampText(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var4 = arg1;
             var _closure2_slot0 = var4;
             var8 = _closure1_slot0;
@@ -160,8 +160,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = null;
             var3 = var1 == var4;
             var1 = '';
-            if(var3) { _fun0003_ip = 157; continue _fun0003 }
- 126:
+            if(var3) { _fun0003_ip = 10; continue _fun0003 }
+case 9:
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
             var2 = 5;
@@ -169,7 +169,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var5)(var2);
             var2 = var3.getTimestampString;
             var1 = var2.bind(var3)(var4);
- 157:
+case 10:
             return var1;
         }
     };

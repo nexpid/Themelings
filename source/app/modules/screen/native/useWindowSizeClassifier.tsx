@@ -9,34 +9,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var5;
     var1 = function calculateFromWidth(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = 360;
-            if(!(!(var2 <= var1))) { _fun0001_ip = 78; continue _fun0001 }
- 13:
+            if(!(!(var2 <= var1))) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = 600;
-            if(!(!(var2 <= var1))) { _fun0001_ip = 63; continue _fun0001 }
- 23:
+            if(!(!(var2 <= var1))) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = 840;
-            if(!(!(var2 <= var1))) { _fun0001_ip = 48; continue _fun0001 }
- 33:
+            if(!(!(var2 <= var1))) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var1 = _closure1_slot3;
             var1 = var1.XLARGE;
-            _fun0001_ip = 61; continue _fun0001;
- 48:
+            _fun0001_ip = 8; continue _fun0001;
+case 6:
             var2 = _closure1_slot3;
             var1 = var2.LARGE;
- 61:
-            _fun0001_ip = 76; continue _fun0001;
- 63:
+case 8:
+            _fun0001_ip = 9; continue _fun0001;
+case 4:
             var2 = _closure1_slot3;
             var1 = var2.NORMAL;
- 76:
-            _fun0001_ip = 91; continue _fun0001;
- 78:
+case 9:
+            _fun0001_ip = 10; continue _fun0001;
+case 2:
             var2 = _closure1_slot3;
             var1 = var2.SMALL;
- 91:
+case 10:
             return var1;
         }
     };

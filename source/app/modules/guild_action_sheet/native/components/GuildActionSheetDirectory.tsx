@@ -58,15 +58,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function _default(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var14 = var1.guild;
             var5 = var1.expanded;
             var4 = undefined;
-            if(!(var5 === var4)) { _fun0001_ip = 22; continue _fun0001 }
- 20:
+            if(!(var5 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = false;
- 22:
+case 2:
             var1 = _closure1_slot6;
             var11 = var1.bind(var4)();
             var10 = _closure1_slot1;

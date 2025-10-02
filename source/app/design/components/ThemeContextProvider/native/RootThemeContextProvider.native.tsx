@@ -37,70 +37,70 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function RootThemeContextProvider(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var5 = var1.children;
             var17 = var1.theme;
             var4 = undefined;
-            if(!(var17 === var4)) { _fun0001_ip = 35; continue _fun0001 }
- 22:
+            if(!(var17 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = _closure1_slot3;
             var17 = var3.DARK;
- 35:
+case 2:
             var _closure2_slot0 = var17;
             var16 = var1.primaryColor;
-            if(!(var16 === var4)) { _fun0001_ip = 51; continue _fun0001 }
- 49:
+            if(!(var16 === var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var16 = null;
- 51:
+case 4:
             var _closure2_slot1 = var16;
             var15 = var1.secondaryColor;
-            if(!(var15 === var4)) { _fun0001_ip = 67; continue _fun0001 }
- 65:
+            if(!(var15 === var4)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var15 = null;
- 67:
+case 6:
             var _closure2_slot2 = var15;
             var14 = var1.gradient;
-            if(!(var14 === var4)) { _fun0001_ip = 83; continue _fun0001 }
- 81:
+            if(!(var14 === var4)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var14 = null;
- 83:
+case 8:
             var _closure2_slot3 = var14;
             var13 = var1.flags;
-            if(!(var13 === var4)) { _fun0001_ip = 98; continue _fun0001 }
- 96:
+            if(!(var13 === var4)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var13 = 0;
- 98:
+case 10:
             var _closure2_slot4 = var13;
             var12 = var1.contrast;
-            if(!(var12 === var4)) { _fun0001_ip = 115; continue _fun0001 }
- 112:
+            if(!(var12 === var4)) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var12 = 1;
- 115:
+case 12:
             var _closure2_slot5 = var12;
             var11 = var1.saturation;
-            if(!(var11 === var4)) { _fun0001_ip = 132; continue _fun0001 }
- 129:
+            if(!(var11 === var4)) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var11 = 1;
- 132:
+case 14:
             var _closure2_slot6 = var11;
             var10 = var1.density;
-            if(!(var10 === var4)) { _fun0001_ip = 150; continue _fun0001 }
- 146:
+            if(!(var10 === var4)) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var10 = 'compact';
- 150:
+case 16:
             var _closure2_slot7 = var10;
             var9 = var1.disableAdaptiveTheme;
-            if(!(var9 === var4)) { _fun0001_ip = 166; continue _fun0001 }
- 164:
+            if(!(var9 === var4)) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
             var9 = false;
- 166:
+case 18:
             var _closure2_slot8 = var9;
             var8 = var1.reduceAdaptiveTheme;
-            if(!(var8 === var4)) { _fun0001_ip = 182; continue _fun0001 }
- 180:
+            if(!(var8 === var4)) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
             var8 = false;
- 182:
+case 20:
             var _closure2_slot9 = var8;
             var7 = _closure1_slot2;
             var6 = var7.useMemo;

@@ -542,7 +542,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var13 = var14.map;
         var12 = function(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var13 = arg1;
                 var _closure3_slot0 = var13;
                 var5 = _closure1_slot5;
@@ -567,10 +567,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = true;
                 var6 = var6 === var13;
                 var14 = 'Disabled';
-                if(!var6) { _fun0001_ip = 110; continue _fun0001 }
- 106:
+                if(!var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var14 = 'Enabled';
- 110:
+case 2:
                 var1['label'] = var14;
                 var11 = function onPress() {
                     var3 = _closure2_slot6;
@@ -602,10 +602,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1[1] = var7;
                 var3['children'] = var1;
                 var1 = 'disabled';
-                if(!var6) { _fun0001_ip = 227; continue _fun0001 }
- 223:
+                if(!var6) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var1 = 'enabled';
- 227:
+case 4:
                 var1 = var5.bind(var2)(var4, var3, var1);
                 return var1;
             }

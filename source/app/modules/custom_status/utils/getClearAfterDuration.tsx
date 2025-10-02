@@ -28,12 +28,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function getClearAfterDuration(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var3 = _closure1_slot2;
             var3 = var3.TODAY;
-            if(!(var1 !== var3)) { _fun0001_ip = 67; continue _fun0001 }
- 20:
+            if(!(var1 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = _closure1_slot0;
             var4 = _closure1_slot1;
             var2 = 1;
@@ -46,7 +46,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = 'Invalid custom status clear timeout';
             var2 = var4.bind(var5)(var3, var2);
             return var1;
- 67:
+case 2:
             var1 = global;
             var2 = var1.Date;
             var3 = var2.prototype;

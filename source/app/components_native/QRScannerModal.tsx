@@ -1,7 +1,7 @@
 // app/components_native/QRScannerModal.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
         var5 = require;
         var9 = metroImportDefault;
         var3 = exports;
@@ -55,16 +55,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = var5.bind(var1)(var4);
         var4 = var8.isAndroid;
         var4 = var4.bind(var8)();
-        if(var4) { _fun0001_ip = 232; continue _fun0001 }
- 219:
+        if(var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
         var4 = 'DCDQRScanner';
         var4 = var7.bind(var1)(var4);
-        _fun0001_ip = 244; continue _fun0001;
- 232:
+        _fun0001_ip = 4; continue _fun0001;
+case 2:
         var7 = 7;
         var7 = var6[var7];
         var4 = var9.bind(var1)(var7);
- 244:
+case 4:
         var _closure1_slot10 = var4;
         var4 = function DCDQRScanner(arg1) {
             var4 = _closure1_slot8;
@@ -123,15 +123,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var5.bind(var6)(var4);
         var2 = function QRScannerModal(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var2 = var1.showHelp;
                 var4 = undefined;
                 var9 = var4 !== var2;
-                if(!var9) { _fun0002_ip = 23; continue _fun0002 }
- 20:
+                if(!var9) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
                 var9 = var2;
- 23:
+case 5:
                 var1 = var1.onScanSuccess;
                 var _closure2_slot0 = var1;
                 var5 = _closure1_slot4;
@@ -190,8 +190,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5['flex'] = var6;
                 var1['style'] = var5;
                 var10 = _closure1_slot8;
-                if(var7) { _fun0002_ip = 214; continue _fun0002 }
- 165:
+                if(var7) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
                 var6 = _closure1_slot11;
                 var5 = {};
                 var11 = _closure1_slot12;
@@ -201,14 +201,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5['pointerEvents'] = var11;
                 var8 = function onQRCodeFound(arg1) {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                         var1 = arg1;
                         var2 = var1.nativeEvent;
                         var3 = var2.status;
                         var2 = _closure1_slot13;
                         var2 = var2.SUCCEEDED;
-                        if(!(var2 !== var3)) { _fun0003_ip = 191; continue _fun0003 }
- 34:
+                        if(!(var2 !== var3)) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
                         var2 = _closure1_slot13;
                         var2 = var2.FAILED;
                         var3 = _closure1_slot1;
@@ -242,12 +242,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var6 = var7.bind(var8)(var6);
                         var2['title'] = var6;
                         var2 = var3.bind(var4)(var2);
-                        _fun0003_ip = 388; continue _fun0003;
- 191:
+                        _fun0003_ip = 11; continue _fun0003;
+case 9:
                         var4 = _closure2_slot0;
                         var3 = undefined;
-                        if(!(var3 === var4)) { _fun0003_ip = 626; continue _fun0003 }
- 207:
+                        if(!(var3 === var4)) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
                         var6 = _closure1_slot1;
                         var7 = _closure1_slot2;
                         var4 = 11;
@@ -258,10 +258,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var4 = var4.result;
                         var6 = var6.bind(var7)(var4);
                         var4 = null;
-                        if(!(var4 == var6)) { _fun0003_ip = 258; continue _fun0003 }
- 256:
+                        if(!(var4 == var6)) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
                         var6 = {};
- 258:
+case 14:
                         var8 = var6.hostname;
                         var9 = var6.pathname;
                         var7 = _closure1_slot0;
@@ -271,20 +271,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var7 = var7.bind(var3)(var6);
                         var6 = var7.findRemoteAuthFingerprint;
                         var8 = var6.bind(var7)(var8, var9);
-                        if(!(var4 == var8)) { _fun0003_ip = 530; continue _fun0003 }
- 309:
+                        if(!(var4 == var8)) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
                         var7 = var4 == var9;
                         var6 = undefined;
-                        if(var7) { _fun0003_ip = 333; continue _fun0003 }
- 318:
+                        if(var7) { _fun0003_ip = 18; continue _fun0003 }
+case 19:
                         var10 = var9.match;
                         var7 = _closure1_slot7;
                         var6 = var10.bind(var9)(var7);
- 333:
-                        if(!(var4 != var6)) { _fun0003_ip = 341; continue _fun0003 }
- 337:
-                        if(!(var4 == var9)) { _fun0003_ip = 422; continue _fun0003 }
- 341:
+case 18:
+                        if(!(var4 != var6)) { _fun0003_ip = 20; continue _fun0003 }
+case 21:
+                        if(!(var4 == var9)) { _fun0003_ip = 22; continue _fun0003 }
+case 20:
                         var6 = _closure1_slot1;
                         var7 = _closure1_slot2;
                         var4 = 18;
@@ -295,7 +295,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var6 = var4.result;
                         var4 = false;
                         var4 = var7.bind(var10)(var6, var3, var4);
- 388:
+case 11:
                         var7 = _closure1_slot1;
                         var6 = _closure1_slot2;
                         var4 = 13;
@@ -305,7 +305,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var6 = var7.pop;
                         var6 = var6.bind(var7)();
                         return var4;
- 422:
+case 22:
                         var6 = _closure1_slot1;
                         var7 = _closure1_slot2;
                         var4 = 13;
@@ -331,7 +331,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var4 = var6.bind(var7)(var9, var4);
                         var4 = undefined;
                         return var4;
- 530:
+case 16:
                         var7 = _closure1_slot1;
                         var4 = _closure1_slot2;
                         var6 = 13;
@@ -355,7 +355,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var4 = var6.bind(var7)(var5, var4);
                         var4 = undefined;
                         return var4;
- 626:
+case 12:
                         var2 = _closure2_slot0;
                         var1 = var1.nativeEvent;
                         var1 = var1.result;
@@ -366,8 +366,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 };
                 var5['onQRCodeFound'] = var8;
                 var6 = var10.bind(var4)(var6, var5);
-                _fun0002_ip = 262; continue _fun0002;
- 214:
+                _fun0002_ip = 23; continue _fun0002;
+case 7:
                 var8 = _closure1_slot5;
                 var5 = {};
                 var11 = _closure1_slot12;
@@ -379,7 +379,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var11[1] = var12;
                 var5['style'] = var11;
                 var6 = var10.bind(var4)(var8, var5);
- 262:
+case 23:
                 var5 = new Array(3);
                 var5[0] = var6;
                 var10 = _closure1_slot8;
@@ -423,11 +423,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var10.bind(var4)(var8, var6);
                 var5[1] = var6;
                 var6 = null;
-                if(!var9) { _fun0002_ip = 611; continue _fun0002 }
- 447:
+                if(!var9) { _fun0002_ip = 24; continue _fun0002 }
+case 25:
                 var6 = null;
-                if(var7) { _fun0002_ip = 611; continue _fun0002 }
- 455:
+                if(var7) { _fun0002_ip = 24; continue _fun0002 }
+case 26:
                 var9 = _closure1_slot8;
                 var8 = _closure1_slot5;
                 var7 = {};
@@ -464,7 +464,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var10 = var9.bind(var4)(var11, var10);
                 var7['children'] = var10;
                 var6 = var9.bind(var4)(var8, var7);
- 611:
+case 24:
                 var5[2] = var6;
                 var1['children'] = var5;
                 var1 = var3.bind(var4)(var2, var1);

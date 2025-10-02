@@ -41,7 +41,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function InstantInviteSelfMeasurer(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var8 = var2.containerStyle;
             var9 = var2.item;
@@ -49,10 +49,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot0 = var10;
             var7 = var2.type;
             var4 = undefined;
-            if(!(var7 === var4)) { _fun0001_ip = 41; continue _fun0001 }
- 37:
+            if(!(var7 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var7 = 'height';
- 41:
+case 2:
             var _closure2_slot1 = var7;
             var5 = _closure1_slot3;
             var3 = var5.useCallback;
@@ -61,20 +61,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[1] = var7;
             var1 = function(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var1 = arg1;
                     var1 = var1.nativeEvent;
                     var1 = var1.layout;
                     var3 = _closure2_slot0;
                     var4 = _closure2_slot1;
                     var2 = 'height';
-                    if(!(var2 !== var4)) { _fun0002_ip = 41; continue _fun0002 }
- 34:
+                    if(!(var2 !== var4)) { _fun0002_ip = 2; continue _fun0002 }
+case 4:
                     var2 = var1.width;
-                    _fun0002_ip = 46; continue _fun0002;
- 41:
+                    _fun0002_ip = 5; continue _fun0002;
+case 2:
                     var2 = var1.height;
- 46:
+case 5:
                     var1 = undefined;
                     var2 = var3.bind(var1)(var2);
                     return var1;
@@ -93,8 +93,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['onLayout'] = var5;
             var7 = var9.type;
             var5 = 'invite';
-            if(!(var5 !== var7)) { _fun0001_ip = 199; continue _fun0001 }
- 150:
+            if(!(var5 !== var7)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var8 = _closure1_slot5;
             var7 = _closure1_slot0;
             var10 = _closure1_slot2;
@@ -106,8 +106,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var9.data;
             var5['channel'] = var10;
             var5 = var8.bind(var4)(var7, var5);
-            _fun0001_ip = 241; continue _fun0001;
- 199:
+            _fun0001_ip = 8; continue _fun0001;
+case 6:
             var8 = _closure1_slot5;
             var7 = _closure1_slot1;
             var10 = _closure1_slot2;
@@ -118,7 +118,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var9.data;
             var6['invite'] = var9;
             var5 = var8.bind(var4)(var7, var6);
- 241:
+case 8:
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

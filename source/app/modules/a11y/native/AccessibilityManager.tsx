@@ -158,29 +158,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = function* () {
             var1 = function* anon_0_() {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 60; continue _fun0001 }
- 7:
+                    if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var3 = _closure1_slot4;
                     var2 = var3.isScreenReaderEnabled;
                     var2 = var2.bind(var3)();
                     SaveGenerator(address=28);
- 26:
+case 4:
                     return var2;
- 28:
+case 5:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0001_ip = 57; continue _fun0001 }
- 34:
+                    if(var3) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                     var4 = _closure2_slot0;
                     var3 = var4.updateScreenReaderEnabled;
                     var3 = var3.bind(var4)(var2);
                     var3 = undefined;
                     return var3;
- 57:
+case 6:
                     return var2;
- 60:
+case 2:
                     return var1;
                 }
             };
@@ -212,24 +212,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['updateScreenReaderEnabled'] = var7;
     var7 = function updateSystemAppearance(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var2 = _closure1_slot8;
             var4 = var2.NO_PREFERENCE;
             var2 = arg1;
             var3 = var2.colorScheme;
             var2 = 'light';
-            if(!(var2 !== var3)) { _fun0002_ip = 50; continue _fun0002 }
- 30:
+            if(!(var2 !== var3)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var2 = 'dark';
-            if(!(var2 === var3)) { _fun0002_ip = 60; continue _fun0002 }
- 38:
+            if(!(var2 === var3)) { _fun0002_ip = 2; continue _fun0002 }
+case 10:
             var2 = _closure1_slot8;
             var4 = var2.DARK;
-            _fun0002_ip = 60; continue _fun0002;
- 50:
+            _fun0002_ip = 2; continue _fun0002;
+case 8:
             var2 = _closure1_slot8;
             var4 = var2.LIGHT;
- 60:
+case 2:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
             var1 = 11;
@@ -256,18 +256,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = 'announcementFinished';
         var1 = function(arg1) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var _closure3_slot0 = var1;
                 var3 = var1.success;
-                if(var3) { _fun0003_ip = 92; continue _fun0003 }
- 18:
+                if(var3) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
                 var6 = _closure2_slot0;
                 var5 = var6.has;
                 var4 = var1.announcement;
                 var4 = var5.bind(var6)(var4);
-                if(var4) { _fun0003_ip = 92; continue _fun0003 }
- 44:
+                if(var4) { _fun0003_ip = 11; continue _fun0003 }
+case 13:
                 var5 = _closure2_slot0;
                 var4 = var5.add;
                 var3 = var1.announcement;
@@ -291,13 +291,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 };
                 var2 = 150;
                 var2 = var5.bind(var4)(var3, var2);
-                _fun0003_ip = 115; continue _fun0003;
- 92:
+                _fun0003_ip = 14; continue _fun0003;
+case 11:
                 var3 = _closure2_slot0;
                 var2 = var3.delete;
                 var1 = var1.announcement;
                 var1 = var2.bind(var3)(var1);
- 115:
+case 14:
                 var1 = undefined;
                 return var1;
             }

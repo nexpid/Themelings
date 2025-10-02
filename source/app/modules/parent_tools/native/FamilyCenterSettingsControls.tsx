@@ -67,7 +67,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function FamilyCenterSettingsControls() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = _closure1_slot9;
             var4 = undefined;
             var6 = var1.bind(var4)();
@@ -98,12 +98,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.useIsFamilyCenterV2Enabled;
             var1 = 'settings-controls';
             var1 = var2.bind(var3)(var1);
-            if(!var1) { _fun0001_ip = 891; continue _fun0001 }
- 143:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var18.length;
             var1 = 0;
-            if(!(var1 !== var2)) { _fun0001_ip = 891; continue _fun0001 }
- 157:
+            if(!(var1 !== var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var1 = function handleSettingsClick(arg1) {
                 var4 = _closure2_slot1;
                 var3 = var4.navigate;
@@ -125,8 +125,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = _closure1_slot8;
             var17 = _closure1_slot0;
             var19 = _closure1_slot2;
-            if(var5) { _fun0001_ip = 488; continue _fun0001 }
- 205:
+            if(var5) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var5 = 18;
             var5 = var19[var5];
             var5 = var17.bind(var4)(var5);
@@ -202,8 +202,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7[1] = var9;
             var5['children'] = var7;
             var5 = var8.bind(var4)(var6, var5);
-            _fun0001_ip = 879; continue _fun0001;
- 488:
+            _fun0001_ip = 7; continue _fun0001;
+case 5:
             var9 = 11;
             var6 = var19[var9];
             var6 = var17.bind(var4)(var6);
@@ -310,11 +310,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9[1] = var10;
             var6['children'] = var9;
             var5 = var8.bind(var4)(var7, var6);
- 879:
+case 7:
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
- 891:
+case 2:
             var1 = null;
             return var1;
         }

@@ -68,13 +68,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function ChannelItemEmbeddedActivities(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var9 = var1.embeddedApps;
             var7 = var1.size;
             var4 = undefined;
-            if(!(var7 === var4)) { _fun0001_ip = 55; continue _fun0001 }
- 20:
+            if(!(var7 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
             var2 = 5;
@@ -82,18 +82,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var4)(var2);
             var2 = var2.GameIconSizes;
             var7 = var2.SIZE_24;
- 55:
+case 2:
             var5 = var1.muted;
             var2 = _closure1_slot6;
             var6 = var2.bind(var4)();
             var2 = var9.length;
             var8 = 0;
-            if(!(!(var2 <= var8))) { _fun0001_ip = 499; continue _fun0001 }
- 86:
+            if(!(!(var2 <= var8))) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = var9.length;
             var3 = 1;
-            if(!(var3 !== var2)) { _fun0001_ip = 434; continue _fun0001 }
- 101:
+            if(!(var3 !== var2)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var2 = var9[var8];
             var14 = var2.application;
             var2 = var9[var3];
@@ -128,8 +128,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11[0] = var12;
             var13 = var9.length;
             var12 = 2;
-            if(!(var12 !== var13)) { _fun0001_ip = 380; continue _fun0001 }
- 248:
+            if(!(var12 !== var13)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var14 = _closure1_slot4;
             var13 = _closure1_slot3;
             var12 = {};
@@ -161,8 +161,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var14.bind(var4)(var18, var15);
             var12['children'] = var15;
             var12 = var14.bind(var4)(var13, var12);
-            _fun0001_ip = 418; continue _fun0001;
- 380:
+            _fun0001_ip = 10; continue _fun0001;
+case 8:
             var15 = _closure1_slot4;
             var14 = _closure1_slot1;
             var13 = _closure1_slot2;
@@ -172,12 +172,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13['game'] = var16;
             var13['size'] = var7;
             var12 = var15.bind(var4)(var14, var13);
- 418:
+case 10:
             var11[1] = var12;
             var2['children'] = var11;
             var2 = var10.bind(var4)(var3, var2);
             return var2;
- 434:
+case 6:
             var3 = _closure1_slot4;
             var2 = _closure1_slot1;
             var10 = _closure1_slot2;
@@ -189,14 +189,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var8.application;
             var1['game'] = var8;
             var1['size'] = var7;
-            if(!var5) { _fun0001_ip = 487; continue _fun0001 }
- 481:
+            if(!var5) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var5 = var6.modeMuted;
- 487:
+case 11:
             var1['style'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
- 499:
+case 4:
             var1 = null;
             return var1;
         }

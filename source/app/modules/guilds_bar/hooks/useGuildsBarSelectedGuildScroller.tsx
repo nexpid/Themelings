@@ -38,32 +38,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = function() {
             var4 = function handleSelectedGuildChange() {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     var2 = _closure1_slot1;
                     var1 = var2.getGuildId;
                     var1 = var1.bind(var2)();
                     var2 = _closure3_slot0;
-                    if(!(var1 !== var2)) { _fun0001_ip = 75; continue _fun0001 }
- 28:
+                    if(!(var1 !== var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var4 = null;
                     var5 = var4 != var1;
                     var2 = null;
-                    if(!var5) { _fun0001_ip = 42; continue _fun0001 }
- 39:
+                    if(!var5) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                     var2 = var1;
- 42:
+case 4:
                     _closure3_slot0 = var2;
                     var3 = _closure2_slot0;
                     var2 = var4 != var1;
                     var4 = null;
-                    if(!var2) { _fun0001_ip = 65; continue _fun0001 }
- 62:
+                    if(!var2) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                     var4 = var1;
- 65:
+case 6:
                     var2 = undefined;
                     var1 = false;
                     var1 = var3.bind(var2)(var4, var1);
- 75:
+case 2:
                     var1 = undefined;
                     return var1;
                 }

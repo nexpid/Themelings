@@ -6,8 +6,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = dependencyMap;
     var1 = function _isNativeReflectConstruct() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
- 2: // try_start_0
+case 0:
+case 2: // try_start_0
             var2 = global;
             var3 = var2.Boolean;
             var3 = var3.prototype;
@@ -25,11 +25,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var4)(var2);
             var2 = !var2;
             var _closure2_slot0 = var2;
- 70: // try_end0
-            _fun0001_ip = 74; continue _fun0001;
- 72: // catch_target0
+case 3: // try_end0
+            _fun0001_ip = 4; continue _fun0001;
+case 5: // catch_target0
             CatchBlockStart(arg_register=1);
- 74:
+case 4:
             var2 = function _isNativeReflectConstruct() {
                 var1 = _closure2_slot0;
                 var1 = !var1;
@@ -93,7 +93,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function(arg1) {
         var4 = function GameRecord(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var2 = arg1;
                 var6 = this;
                 var1 = _closure1_slot0;
@@ -105,12 +105,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = _closure1_slot2;
                 var1 = _closure1_slot6;
                 var1 = var1.bind(var5)();
-                if(var1) { _fun0002_ip = 65; continue _fun0002 }
- 52:
+                if(var1) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                 var1 = var11.apply;
                 var1 = var1.bind(var11)(var6, var5);
-                _fun0002_ip = 103; continue _fun0002;
- 65:
+                _fun0002_ip = 8; continue _fun0002;
+case 6:
                 var7 = global;
                 var10 = var7.Reflect;
                 var9 = var10.construct;
@@ -119,7 +119,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = var7.constructor;
                 var7 = new Array(0);
                 var1 = var9.bind(var10)(var11, var7, var8);
- 103:
+case 8:
                 var1 = var4.bind(var5)(var6, var1);
                 var4 = var2.id;
                 var1['id'] = var4;
@@ -132,64 +132,64 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var2.icon_hash;
                 var1['icon_hash'] = var4;
                 var4 = var2.aliases;
-                if(var4) { _fun0002_ip = 178; continue _fun0002 }
- 174:
+                if(var4) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
                 var4 = new Array(0);
- 178:
+case 9:
                 var1['aliases'] = var4;
                 var4 = var2.cover_image_hash;
                 var1['cover_image_hash'] = var4;
                 var5 = var2.executables;
                 var4 = null;
-                if(!(var4 == var5)) { _fun0002_ip = 212; continue _fun0002 }
- 208:
+                if(!(var4 == var5)) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
                 var5 = new Array(0);
- 212:
+case 11:
                 var4 = var5.map;
                 var3 = _closure1_slot5;
                 var3 = var4.bind(var5)(var3);
                 var1['executables'] = var3;
                 var3 = var2.overlay;
-                if(var3) { _fun0002_ip = 243; continue _fun0002 }
- 241:
+                if(var3) { _fun0002_ip = 13; continue _fun0002 }
+case 14:
                 var3 = false;
- 243:
+case 13:
                 var1['overlay'] = var3;
                 var3 = var2.overlayWarn;
-                if(var3) { _fun0002_ip = 260; continue _fun0002 }
- 258:
+                if(var3) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
                 var3 = false;
- 260:
+case 15:
                 var1['overlayWarn'] = var3;
                 var3 = var2.overlayCompatibilityHook;
-                if(var3) { _fun0002_ip = 277; continue _fun0002 }
- 275:
+                if(var3) { _fun0002_ip = 17; continue _fun0002 }
+case 18:
                 var3 = false;
- 277:
+case 17:
                 var1['overlayCompatibilityHook'] = var3;
                 var3 = var2.hook;
-                if(var3) { _fun0002_ip = 294; continue _fun0002 }
- 292:
+                if(var3) { _fun0002_ip = 19; continue _fun0002 }
+case 20:
                 var3 = false;
- 294:
+case 19:
                 var1['hook'] = var3;
                 var3 = var2.supportsOutOfProcessOverlay;
-                if(var3) { _fun0002_ip = 311; continue _fun0002 }
- 309:
+                if(var3) { _fun0002_ip = 21; continue _fun0002 }
+case 22:
                 var3 = false;
- 311:
+case 21:
                 var1['supportsOutOfProcessOverlay'] = var3;
                 var3 = var2.thirdPartySkus;
-                if(var3) { _fun0002_ip = 330; continue _fun0002 }
- 326:
+                if(var3) { _fun0002_ip = 23; continue _fun0002 }
+case 24:
                 var3 = new Array(0);
- 330:
+case 23:
                 var1['thirdPartySkus'] = var3;
                 var3 = var2.themes;
-                if(var3) { _fun0002_ip = 349; continue _fun0002 }
- 345:
+                if(var3) { _fun0002_ip = 25; continue _fun0002 }
+case 26:
                 var3 = new Array(0);
- 349:
+case 25:
                 var1['themes'] = var3;
                 var2 = var2.linkedApplications;
                 var1['linkedApplications'] = var2;
@@ -207,27 +207,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5['key'] = var1;
         var1 = function value(arg1) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var4 = arg1;
                 var3 = this;
                 var1 = var3.icon;
                 var2 = null;
                 var5 = var2 == var1;
                 var1 = null;
-                if(var5) { _fun0003_ip = 109; continue _fun0003 }
- 22:
+                if(var5) { _fun0003_ip = 27; continue _fun0003 }
+case 28:
                 var8 = var3.id;
                 var7 = var3.icon;
                 var2 = var2 != var4;
                 var6 = '';
-                if(!var2) { _fun0003_ip = 67; continue _fun0003 }
- 43:
+                if(!var2) { _fun0003_ip = 29; continue _fun0003 }
+case 30:
                 var2 = global;
                 var2 = var2.HermesInternal;
                 var3 = var2.concat;
                 var2 = '?size=';
                 var6 = var3.bind(var2)(var4);
- 67:
+case 29:
                 var2 = global;
                 var2 = var2.HermesInternal;
                 var5 = var2.concat;
@@ -238,7 +238,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var11 = var7;
                 var9 = var6;
                 var1 = var14[var5](var13, var12, var11, var10, var9, var8);
- 109:
+case 27:
                 return var1;
             }
         };

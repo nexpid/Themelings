@@ -89,7 +89,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = {};
         var5 = function screenOptions(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var11 = var1.navigation;
                 var6 = var1.route;
@@ -98,10 +98,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var7 == var2;
                 var4 = undefined;
                 var1 = undefined;
-                if(var3) { _fun0001_ip = 40; continue _fun0001 }
- 34:
+                if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var1 = var2.presentation;
- 40:
+case 2:
                 var5 = 'card';
                 var3 = var5 === var1;
                 var1 = {};
@@ -111,19 +111,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var9 = var6.params;
                 var10 = var7 == var9;
                 var8 = undefined;
-                if(var10) { _fun0001_ip = 85; continue _fun0001 }
- 79:
+                if(var10) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var8 = var9.presentation;
- 85:
+case 4:
                 var9 = null;
-                if(!(var5 !== var8)) { _fun0001_ip = 106; continue _fun0001 }
- 91:
+                if(!(var5 !== var8)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                 var9 = null;
-                if(var3) { _fun0001_ip = 106; continue _fun0001 }
- 96:
+                if(var3) { _fun0001_ip = 6; continue _fun0001 }
+case 8:
                 var8 = _closure2_slot1;
                 var9 = var8.contentStyle;
- 106:
+case 6:
                 var8 = 'contentStyle';
                 var1[var8] = var9;
                 var8 = _closure2_slot0;
@@ -171,17 +171,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = var9[var8];
                 var9 = var8.key;
                 var8 = var6.key;
-                if(!(var9 === var8)) { _fun0001_ip = 236; continue _fun0001 }
- 211:
+                if(!(var9 === var8)) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
                 var9 = var6.params;
                 var10 = var7 == var9;
                 var8 = undefined;
-                if(var10) { _fun0001_ip = 232; continue _fun0001 }
- 226:
+                if(var10) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
                 var8 = var9.presentation;
- 232:
-                if(!(var5 === var8)) { _fun0001_ip = 272; continue _fun0001 }
- 236:
+case 11:
+                if(!(var5 === var8)) { _fun0001_ip = 13; continue _fun0001 }
+case 9:
                 var9 = _closure1_slot0;
                 var10 = _closure1_slot2;
                 var8 = 6;
@@ -189,8 +189,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var9 = var9.bind(var4)(var8);
                 var8 = var9.getRenderModalBackImage;
                 var9 = var8.bind(var9)(var11);
-                _fun0001_ip = 306; continue _fun0001;
- 272:
+                _fun0001_ip = 14; continue _fun0001;
+case 13:
                 var10 = _closure1_slot0;
                 var12 = _closure1_slot2;
                 var8 = 6;
@@ -198,21 +198,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var10 = var10.bind(var4)(var8);
                 var8 = var10.getRenderModalCloseImage;
                 var9 = var8.bind(var10)(var11);
- 306:
+case 14:
                 var8 = 'headerLeft';
                 var1[var8] = var9;
                 var6 = var6.params;
                 var7 = var7 == var6;
                 var4 = undefined;
-                if(var7) { _fun0001_ip = 336; continue _fun0001 }
- 330:
+                if(var7) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
                 var4 = var6.presentation;
- 336:
+case 15:
                 var4 = var5 === var4;
-                if(var4) { _fun0001_ip = 346; continue _fun0001 }
- 343:
+                if(var4) { _fun0001_ip = 17; continue _fun0001 }
+case 18:
                 var4 = var3;
- 346:
+case 17:
                 var3 = 'fullScreenGestureEnabled';
                 var1[var3] = var4;
                 var13 = _closure2_slot2;

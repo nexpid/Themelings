@@ -57,7 +57,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function UserNameplateRow(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var7 = arg1;
             var23 = var7.label;
             var22 = var7.subLabel;
@@ -71,27 +71,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot1 = var28;
             var19 = var7.disabled;
             var5 = undefined;
-            if(!(var19 === var5)) { _fun0001_ip = 71; continue _fun0001 }
- 69:
+            if(!(var19 === var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var19 = false;
- 71:
+case 2:
             var30 = var7.start;
             var24 = var7.end;
             var18 = var7.labelLineClamp;
             var17 = var7.subLabelLineClamp;
             var16 = var7.variant;
-            if(!(var16 === var5)) { _fun0001_ip = 106; continue _fun0001 }
- 102:
+            if(!(var16 === var5)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var16 = 'default';
- 106:
+case 4:
             var15 = var7.draggable;
             var14 = var7.dragHandlePressableProps;
             var26 = var7.nameplate;
             var12 = var7.isPreviewRow;
-            if(!(var12 === var5)) { _fun0001_ip = 136; continue _fun0001 }
- 134:
+            if(!(var12 === var5)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var12 = false;
- 136:
+case 6:
             var3 = {'label': 0, 'subLabel': 0, 'icon': 0, 'trailing': 0, 'arrow': 0, 'onPress': 0, 'onPressIn': 0, 'onPressOut': 0, 'disabled': 0, 'start': 0, 'end': 0, 'labelLineClamp': 0, 'subLabelLineClamp': 0, 'variant': 0, 'draggable': 0, 'dragHandlePressableProps': 0, 'nameplate': 0, 'isPreviewRow': 0};
             var10 = null;
             var33 = var3;
@@ -115,11 +115,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.TableRowGroupContext;
             var3 = var3.bind(var13)(var2);
             var2 = !var3;
-            if(!var2) { _fun0001_ip = 243; continue _fun0001 }
- 237:
+            if(!var2) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var13 = true;
             var2 = var13 === var24;
- 243:
+case 8:
             var13 = _closure1_slot4;
             var25 = var13.useState;
             var24 = false;
@@ -136,19 +136,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[0] = var4;
             var4 = function(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var4 = _closure2_slot2;
                     var1 = undefined;
                     var3 = true;
                     var3 = var4.bind(var1)(var3);
                     var4 = _closure2_slot0;
                     var3 = null;
-                    if(!(var3 != var4)) { _fun0002_ip = 38; continue _fun0002 }
- 26:
+                    if(!(var3 != var4)) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
                     var3 = _closure2_slot0;
                     var2 = arg1;
                     var2 = var3.bind(var1)(var2);
- 38:
+case 10:
                     return var1;
                 }
             };
@@ -158,19 +158,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4[0] = var28;
             var1 = function(arg1) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var4 = _closure2_slot2;
                     var1 = undefined;
                     var3 = false;
                     var3 = var4.bind(var1)(var3);
                     var4 = _closure2_slot1;
                     var3 = null;
-                    if(!(var3 != var4)) { _fun0003_ip = 38; continue _fun0003 }
- 26:
+                    if(!(var3 != var4)) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
                     var3 = _closure2_slot1;
                     var2 = arg1;
                     var2 = var3.bind(var1)(var2);
- 38:
+case 10:
                     return var1;
                 }
             };
@@ -184,11 +184,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var1.Card;
             var1 = {'shadow': 'none', 'border': 'none'};
             var28 = !var3;
-            if(!var28) { _fun0001_ip = 395; continue _fun0001 }
- 389:
+            if(!var28) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var29 = true;
             var28 = var29 === var30;
- 395:
+case 12:
             var1['start'] = var28;
             var1['end'] = var2;
             var1['onPress'] = var27;
@@ -239,11 +239,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1[var8] = var9;
             var8 = var6.bind(var5)(var4, var1);
             var1 = var8;
-            if(var3) { _fun0001_ip = 699; continue _fun0001 }
- 614:
+            if(var3) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var1 = var8;
-            if(var2) { _fun0001_ip = 699; continue _fun0001 }
- 620:
+            if(var2) { _fun0001_ip = 14; continue _fun0001 }
+case 16:
             var4 = _closure1_slot6;
             var3 = _closure1_slot7;
             var2 = {};
@@ -263,7 +263,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[1] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 699:
+case 14:
             return var1;
         }
     };

@@ -129,18 +129,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['NotificationSettingsMuteBanner'] = var4;
     var2 = function getMuteBannerSubtitleFromConfig(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var8 = arg1;
             var2 = null;
             var3 = var2 == var8;
             var6 = undefined;
             var1 = undefined;
-            if(var3) { _fun0001_ip = 22; continue _fun0001 }
- 16:
+            if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var8.end_time;
- 22:
-            if(!(var2 != var1)) { _fun0001_ip = 179; continue _fun0001 }
- 29:
+case 2:
+            if(!(var2 != var1)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var7 = _closure1_slot0;
             var10 = _closure1_slot1;
             var5 = 7;
@@ -170,8 +170,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var8.bind(var9)(var7, var5);
             var1['endTime'] = var5;
             var1 = var3.bind(var4)(var2, var1);
-            _fun0001_ip = 239; continue _fun0001;
- 179:
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
             var5 = _closure1_slot0;
             var7 = _closure1_slot1;
             var2 = 7;
@@ -184,7 +184,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.t;
             var2 = var2.tFqP/P;
             var1 = var3.bind(var4)(var2);
- 239:
+case 6:
             return var1;
         }
     };

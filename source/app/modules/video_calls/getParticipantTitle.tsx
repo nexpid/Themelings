@@ -33,15 +33,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function getParticipantTitle(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = arg2;
             var3 = arg3;
             var6 = var1.type;
             var5 = _closure1_slot4;
             var5 = var5.ACTIVITY;
-            if(!(var6 !== var5)) { _fun0001_ip = 221; continue _fun0001 }
- 34:
+            if(!(var6 !== var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var9 = _closure1_slot3;
             var7 = var9.isGuestOrLurker;
             var6 = var2.guild_id;
@@ -50,10 +50,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var5 == var10;
             var8 = undefined;
             var5 = undefined;
-            if(var11) { _fun0001_ip = 72; continue _fun0001 }
- 67:
+            if(var11) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = var10.id;
- 72:
+case 4:
             var5 = var7.bind(var9)(var6, var5);
             var7 = _closure1_slot1;
             var9 = _closure1_slot2;
@@ -67,8 +67,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.user;
             var2 = var7.bind(var9)(var6, var2, var1);
             var1 = '';
-            if(!var5) { _fun0001_ip = 215; continue _fun0001 }
- 138:
+            if(!var5) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var7 = _closure1_slot0;
             var9 = _closure1_slot2;
             var4 = 3;
@@ -86,23 +86,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var4.concat;
             var4 = ' ';
             var1 = var5.bind(var4)(var6);
- 215:
+case 6:
             var1 = var2 + var1;
             return var1;
- 221:
+case 2:
             var1 = null;
             var4 = var1 == var3;
             var2 = undefined;
-            if(var4) { _fun0001_ip = 237; continue _fun0001 }
- 232:
+            if(var4) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var2 = var3.name;
- 237:
+case 8:
             var3 = var1 != var2;
             var1 = null;
-            if(!var3) { _fun0001_ip = 249; continue _fun0001 }
- 246:
+            if(!var3) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var1 = var2;
- 249:
+case 10:
             return var1;
         }
     };

@@ -27,7 +27,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useShouldShowGiftingPromotionDeco(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arg1;
             var3 = _closure1_slot0;
             var2 = _closure1_slot1;
@@ -40,28 +40,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var1.claimableRewards;
             var6 = var1.premiumType;
             var1 = null;
-            if(!(var1 == var5)) { _fun0001_ip = 72; continue _fun0001 }
- 56:
+            if(!(var1 == var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = _closure1_slot2;
             var2 = var2.TIER_2;
             var2 = var6 === var2;
-            _fun0001_ip = 86; continue _fun0001;
- 72:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var4 = _closure1_slot2;
             var4 = var4.TIER_2;
             var2 = var5 === var4;
- 86:
+case 4:
             var1 = var1 != var3;
-            if(!var1) { _fun0001_ip = 104; continue _fun0001 }
- 93:
+            if(!var1) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var4 = var3.length;
             var3 = 0;
             var1 = var4 > var3;
- 104:
-            if(!var1) { _fun0001_ip = 110; continue _fun0001 }
- 107:
+case 5:
+            if(!var1) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var1 = var2;
- 110:
+case 7:
             return var1;
         }
     };

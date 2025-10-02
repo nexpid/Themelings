@@ -134,7 +134,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = var7.bind(var8)(var6);
     var6 = function trackViewedEvent(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg2;
             var7 = var1.channelId;
             var9 = var1.warningId;
@@ -152,12 +152,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = null;
             var8 = var7 != var9;
             var7 = undefined;
-            if(!var8) { _fun0001_ip = 86; continue _fun0001 }
- 73:
+            if(!var8) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var8 = global;
             var8 = var8.parseInt;
             var7 = var8.bind(var1)(var9);
- 86:
+case 2:
             var3['warning_id'] = var7;
             var3['warning_type'] = var6;
             var3['other_user_id'] = var2;
@@ -170,7 +170,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['ViewNameTypes'] = var5;
     var5 = function trackNamedViewEvent(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var10 = var1.channelId;
             var12 = var1.warningId;
@@ -192,12 +192,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = null;
             var11 = var10 != var12;
             var10 = undefined;
-            if(!var11) { _fun0002_ip = 108; continue _fun0002 }
- 95:
+            if(!var11) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var11 = global;
             var11 = var11.parseInt;
             var10 = var11.bind(var1)(var12);
- 108:
+case 4:
             var2['warning_id'] = var10;
             var2['warning_type'] = var9;
             var2['other_user_id'] = var8;
@@ -211,7 +211,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['CtaEventTypes'] = var4;
     var4 = function trackCtaEvent(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var1 = arg1;
             var10 = var1.channelId;
             var12 = var1.warningId;
@@ -233,12 +233,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = null;
             var11 = var10 != var12;
             var10 = undefined;
-            if(!var11) { _fun0003_ip = 108; continue _fun0003 }
- 95:
+            if(!var11) { _fun0003_ip = 4; continue _fun0003 }
+case 5:
             var11 = global;
             var11 = var11.parseInt;
             var10 = var11.bind(var1)(var12);
- 108:
+case 4:
             var2['warning_id'] = var10;
             var2['warning_type'] = var9;
             var2['other_user_id'] = var8;
@@ -251,17 +251,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['trackCtaEvent'] = var4;
     var2 = function getUserIsTeen() {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var2 = _closure1_slot2;
             var1 = var2.getCurrentUser;
             var1 = var1.bind(var2)();
             var2 = null;
             var3 = var2 == var1;
             var2 = undefined;
-            if(var3) { _fun0004_ip = 33; continue _fun0004 }
- 27:
+            if(var3) { _fun0004_ip = 6; continue _fun0004 }
+case 7:
             var2 = var1.nsfwAllowed;
- 33:
+case 6:
             var1 = false;
             var1 = var1 === var2;
             return var1;

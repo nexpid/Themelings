@@ -128,7 +128,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function MemberVerificationGuildHeader(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var21 = var2.guild;
             var15 = var2.scrollTop;
@@ -139,15 +139,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var2.bind(var4)();
             var3 = var21.banner;
             var2 = null;
-            if(!(var2 == var3)) { _fun0001_ip = 73; continue _fun0001 }
- 51:
+            if(!(var2 == var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = _closure1_slot1;
             var5 = _closure1_slot2;
             var2 = 7;
             var2 = var5[var2];
             var18 = var3.bind(var4)(var2);
-            _fun0001_ip = 104; continue _fun0001;
- 73:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var3 = _closure1_slot1;
             var5 = _closure1_slot2;
             var2 = 6;
@@ -155,7 +155,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var4)(var2);
             var2 = var3.getGuildBannerSource;
             var18 = var2.bind(var3)(var21);
- 104:
+case 4:
             var2 = _closure1_slot5;
             var20 = var2.bind(var4)();
             var _closure2_slot1 = var20;
@@ -442,21 +442,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var15[var16];
             var15 = var17.bind(var4)(var15);
             var17 = var15.t;
-            if(var11) { _fun0001_ip = 937; continue _fun0001 }
- 909:
+            if(var11) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var18 = var17.VnxBOD;
             var15 = {};
             var22 = var21.name;
             var15['guildName'] = var22;
             var15 = var19.bind(var20)(var18, var15);
-            _fun0001_ip = 963; continue _fun0001;
- 937:
+            _fun0001_ip = 7; continue _fun0001;
+case 5:
             var18 = var17.cgX47e;
             var17 = {};
             var21 = var21.name;
             var17['guildName'] = var21;
             var15 = var19.bind(var20)(var18, var17);
- 963:
+case 7:
             var8['children'] = var15;
             var8 = var10.bind(var4)(var9, var8);
             var7[1] = var8;
@@ -478,15 +478,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var12[var16];
             var12 = var15.bind(var4)(var12);
             var12 = var12.t;
-            if(var11) { _fun0001_ip = 1088; continue _fun0001 }
- 1073:
+            if(var11) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var11 = var12.7D3C5u;
             var11 = var13.bind(var14)(var11);
-            _fun0001_ip = 1101; continue _fun0001;
- 1088:
+            _fun0001_ip = 10; continue _fun0001;
+case 8:
             var12 = var12.3smSPD;
             var11 = var13.bind(var14)(var12);
- 1101:
+case 10:
             var8['children'] = var11;
             var8 = var10.bind(var4)(var9, var8);
             var7[2] = var8;

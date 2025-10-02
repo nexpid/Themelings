@@ -25,7 +25,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function usePrevValue(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var5 = _closure1_slot0;
             var4 = undefined;
@@ -37,12 +37,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var6.is;
             var4 = var2.current;
             var4 = var5.bind(var6)(var3, var4);
-            if(var4) { _fun0001_ip = 69; continue _fun0001 }
- 52:
+            if(var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = var2.current;
             var1['current'] = var4;
             var2['current'] = var3;
- 69:
+case 2:
             var1 = var1.current;
             return var1;
         }

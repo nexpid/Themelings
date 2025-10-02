@@ -28,20 +28,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function validateJumpWithAlert(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var13 = arg1;
             var2 = _closure1_slot3;
             var1 = var2.isBlockedForMessage;
             var1 = var1.bind(var2)(var13);
-            if(var1) { _fun0001_ip = 223; continue _fun0001 }
- 27:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = _closure1_slot3;
             var1 = var2.isIgnoredForMessage;
             var1 = var1.bind(var2)(var13);
             var4 = _closure1_slot0;
             var7 = _closure1_slot2;
-            if(var1) { _fun0001_ip = 159; continue _fun0001 }
- 53:
+            if(var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = 2;
             var1 = var7[var1];
             var8 = undefined;
@@ -49,8 +49,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2.isSpam;
             var1 = var1.bind(var2)(var13);
             var6 = null;
-            if(!var1) { _fun0001_ip = 293; continue _fun0001 }
- 86:
+            if(!var1) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var1 = {};
             var3 = _closure1_slot0;
             var9 = _closure1_slot2;
@@ -66,8 +66,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.zKNgPD;
             var1['body'] = var2;
             var6 = var1;
-            _fun0001_ip = 293; continue _fun0001;
- 159:
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
             var1 = {};
             var2 = 1;
             var8 = var7[var2];
@@ -82,8 +82,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.8t8doK;
             var1['body'] = var2;
             var6 = var1;
-            _fun0001_ip = 293; continue _fun0001;
- 223:
+            _fun0001_ip = 6; continue _fun0001;
+case 2:
             var1 = {};
             var4 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -100,11 +100,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.dTNNgo;
             var1['body'] = var2;
             var6 = var1;
- 293:
+case 6:
             var1 = null;
             var1 = var1 == var6;
-            if(var1) { _fun0001_ip = 482; continue _fun0001 }
- 305:
+            if(var1) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var3 = _closure1_slot1;
             var10 = _closure1_slot2;
             var2 = 3;
@@ -145,7 +145,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['confirmText'] = var5;
             var2 = var3.bind(var4)(var2);
             var1 = false;
- 482:
+case 8:
             return var1;
         }
     };

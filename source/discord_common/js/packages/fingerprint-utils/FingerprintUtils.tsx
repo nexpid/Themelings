@@ -31,16 +31,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['extractId'] = var4;
     var2 = function maybeExtractId(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var1 = null;
             var2 = var1 == var4;
-            if(var2) { _fun0001_ip = 26; continue _fun0001 }
- 12:
+            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = _closure1_slot0;
             var2 = undefined;
             var1 = var3.bind(var2)(var4);
- 26:
+case 2:
             return var1;
         }
     };

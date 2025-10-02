@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function getScreens(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg2;
             var _closure2_slot0 = var1;
             var1 = arg3;
@@ -132,7 +132,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = copyDataProperties(var11, var10);
                 var7 = function onCreate(arg1) {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                         var1 = arg1;
                         var1 = var1.guild;
                         var9 = var1.id;
@@ -149,8 +149,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = var3.getDefaultChannel;
                         var2 = var2.bind(var3)(var9);
                         var3 = null;
-                        if(!(var3 != var2)) { _fun0002_ip = 237; continue _fun0002 }
- 80:
+                        if(!(var3 != var2)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                         var3 = _closure1_slot1;
                         var4 = _closure1_slot2;
                         var5 = 7;
@@ -185,7 +185,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var6 = var6.GUILD_INVITE;
                         var2['to_step'] = var6;
                         var2 = var4.bind(var5)(var3, var2);
- 237:
+case 2:
                         return var1;
                     }
                 };
@@ -241,7 +241,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1['closeOnEditInviteLink'] = var6;
                 var5 = function onClose() {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                         var3 = _closure3_slot0;
                         var2 = _closure2_slot1;
                         var5 = _closure1_slot1;
@@ -258,10 +258,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var4 = var5.closeCreateGuildModal;
                         var4 = var4.bind(var5)();
                         var4 = null;
-                        if(!(var4 != var2)) { _fun0003_ip = 83; continue _fun0003 }
- 78:
+                        if(!(var4 != var2)) { _fun0003_ip = 4; continue _fun0003 }
+case 5:
                         var2 = var2.bind(var1)(var3);
- 83:
+case 4:
                         return var1;
                     }
                 };
@@ -283,14 +283,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['impressionProperties'] = var8;
             var2['fullscreen'] = var5;
             var8 = arg1;
-            if(var8) { _fun0001_ip = 477; continue _fun0001 }
- 468:
+            if(var8) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var8 = function() {
                 var1 = null;
                 return var1;
             };
-            _fun0001_ip = 484; continue _fun0001;
- 477:
+            _fun0001_ip = 8; continue _fun0001;
+case 6:
             var8 = function() {
                 var4 = _closure1_slot10;
                 var8 = _closure1_slot0;
@@ -315,7 +315,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var4.bind(var3)(var2, var1);
                 return var1;
             };
- 484:
+case 8:
             var2['headerTitle'] = var8;
             var8 = function render(arg1) {
                 var4 = _closure1_slot10;
@@ -508,16 +508,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[1] = var18;
         var1 = function() {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                 var2 = _closure2_slot1;
                 var1 = _closure1_slot6;
                 var1 = var1.JOIN_SERVER;
-                if(!(var2 !== var1)) { _fun0004_ip = 137; continue _fun0004 }
- 24:
+                if(!(var2 !== var1)) { _fun0004_ip = 9; continue _fun0004 }
+case 10:
                 var2 = _closure2_slot0;
                 var1 = null;
-                if(!(var1 != var2)) { _fun0004_ip = 108; continue _fun0004 }
- 34:
+                if(!(var1 != var2)) { _fun0004_ip = 11; continue _fun0004 }
+case 12:
                 var2 = {};
                 var1 = _closure1_slot6;
                 var1 = var1.GUILD_INVITE;
@@ -536,8 +536,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2['param'] = var1;
                 var1 = new Array(1);
                 var1[0] = var2;
-                _fun0004_ip = 135; continue _fun0004;
- 108:
+                _fun0004_ip = 13; continue _fun0004;
+case 11:
                 var3 = {};
                 var2 = _closure1_slot6;
                 var2 = var2.GUILD_TEMPLATES;
@@ -545,9 +545,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = new Array(1);
                 var2[0] = var3;
                 var1 = var2;
- 135:
-                _fun0004_ip = 186; continue _fun0004;
- 137:
+case 13:
+                _fun0004_ip = 14; continue _fun0004;
+case 9:
                 var3 = {};
                 var2 = _closure1_slot6;
                 var2 = var2.JOIN_SERVER;
@@ -560,7 +560,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = new Array(1);
                 var2[0] = var3;
                 var1 = var2;
- 186:
+case 14:
                 return var1;
             }
         };

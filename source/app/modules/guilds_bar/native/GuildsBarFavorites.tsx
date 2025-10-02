@@ -55,7 +55,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function GuildsBarFavorites() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var6 = _closure1_slot0;
             var9 = _closure1_slot2;
             var1 = 6;
@@ -144,13 +144,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var10[var8];
             var8 = var9.bind(var4)(var8);
             var8 = var8.colors;
-            if(var7) { _fun0001_ip = 357; continue _fun0001 }
- 349:
+            if(var7) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var7 = var8.INTERACTIVE_NORMAL;
-            _fun0001_ip = 363; continue _fun0001;
- 357:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var7 = var8.WHITE;
- 363:
+case 4:
             var5['color'] = var7;
             var5 = var3.bind(var4)(var6, var5);
             var1['children'] = var5;

@@ -7,16 +7,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var7;
     var4 = function isGuildEligibleForStageChannels(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arguments[1];
             var3 = undefined;
-            if(!(var4 === var3)) { _fun0001_ip = 27; continue _fun0001 }
- 9:
+            if(!(var4 === var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = _closure1_slot2;
             var1 = new Array(1);
             var1[0] = var2;
             var4 = var1;
- 27:
+case 2:
             var2 = var4;
             var1 = var2[Symbol.iterator];
             var2 = var1().next;
@@ -24,14 +24,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var1;
             var2 = var2 === var3;
             var5 = undefined;
-            if(var2) { _fun0001_ip = 52; continue _fun0001 }
- 49:
+            if(var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = var4;
- 52:
-            if(var2) { _fun0001_ip = 58; continue _fun0001 }
- 55:
+case 4:
+            if(var2) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var1.return();
- 58:
+case 6:
             var1 = global;
             var2 = var1.Boolean;
             var4 = var5.getGuild;
@@ -40,14 +40,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = null;
             var5 = var1 == var4;
             var1 = undefined;
-            if(var5) { _fun0001_ip = 119; continue _fun0001 }
- 90:
+            if(var5) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var6 = var4.features;
             var5 = var6.has;
             var4 = _closure1_slot3;
             var4 = var4.COMMUNITY;
             var1 = var5.bind(var6)(var4);
- 119:
+case 8:
             var1 = var2.bind(var3)(var1);
             return var1;
         }

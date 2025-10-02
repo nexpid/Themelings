@@ -61,7 +61,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function AgeVerificationGetStartedModal(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var11 = var2.entryPoint;
             var _closure2_slot0 = var11;
@@ -261,13 +261,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = {};
             var1['screens'] = var7;
             var7 = _closure1_slot7;
-            if(var6) { _fun0001_ip = 267; continue _fun0001 }
- 259:
+            if(var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = var7.INTRO;
-            _fun0001_ip = 273; continue _fun0001;
- 267:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var6 = var7.RETRY;
- 273:
+case 4:
             var1['initialRouteName'] = var6;
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;

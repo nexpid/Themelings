@@ -41,7 +41,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function ActionSheetHeaderPressableText(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var6 = var1.onPress;
             var8 = var1.label;
@@ -64,10 +64,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['onPress'] = var6;
             var9 = null;
             var6 = var8;
-            if(!(var9 != var7)) { _fun0001_ip = 96; continue _fun0001 }
- 93:
+            if(!(var9 != var7)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = var7;
- 96:
+case 2:
             var1['accessibilityLabel'] = var6;
             var7 = _closure1_slot2;
             var6 = _closure1_slot0;

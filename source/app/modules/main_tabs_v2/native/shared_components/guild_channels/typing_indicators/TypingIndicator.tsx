@@ -36,7 +36,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var8.createStyles;
     var4 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var1 = {};
             var2 = {'zIndex': 10, 'borderRadius': 17, 'borderWidth': 2};
@@ -56,13 +56,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5[var7];
             var5 = var8.bind(var6)(var5);
             var8 = var5.unsafe_rawColors;
-            if(var3) { _fun0001_ip = 112; continue _fun0001 }
- 104:
+            if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = var8.BRAND_500;
-            _fun0001_ip = 118; continue _fun0001;
- 112:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var5 = var8.BRAND_200;
- 118:
+case 4:
             var2['backgroundColor'] = var5;
             var1['ellipsis'] = var2;
             var2 = {'width': 4, 'height': 4};
@@ -71,13 +71,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4[var7];
             var4 = var5.bind(var6)(var4);
             var4 = var4.unsafe_rawColors;
-            if(var3) { _fun0001_ip = 170; continue _fun0001 }
- 162:
+            if(var3) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var3 = var4.WHITE_500;
-            _fun0001_ip = 176; continue _fun0001;
- 170:
+            _fun0001_ip = 7; continue _fun0001;
+case 5:
             var3 = var4.BRAND_500;
- 176:
+case 7:
             var2['backgroundColor'] = var3;
             var1['ellipsisDot'] = var2;
             return var1;

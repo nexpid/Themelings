@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var8;
     var1 = function DefaultAvatarButton(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var9 = var1.source;
             var6 = var1.onSelect;
@@ -30,10 +30,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = new Array(2);
             var11[0] = var12;
             var12 = undefined;
-            if(!var10) { _fun0001_ip = 95; continue _fun0001 }
- 89:
+            if(!var10) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var12 = var8.defaultAvatarSelected;
- 95:
+case 2:
             var11[1] = var12;
             var1['style'] = var11;
             var11 = 'button';

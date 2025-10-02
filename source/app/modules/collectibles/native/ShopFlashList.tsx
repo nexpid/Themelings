@@ -105,7 +105,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function _default(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var11 = var1.data;
             var8 = var1.renderItem;
@@ -125,11 +125,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.useScrollToInitialIndexOnce;
             var1 = {};
             var9 = var9 != var6;
-            if(!var9) { _fun0001_ip = 90; continue _fun0001 }
- 84:
+            if(!var9) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var10 = 0;
             var9 = var6 > var10;
- 90:
+case 2:
             var1['shouldScroll'] = var9;
             var1['initialScrollIndex'] = var6;
             var1['flashListRef'] = var12;

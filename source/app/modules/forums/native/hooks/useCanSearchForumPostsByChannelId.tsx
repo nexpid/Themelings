@@ -51,21 +51,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[1] = var5;
         var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var4 = _closure1_slot2;
                 var3 = var4.getChannel;
                 var1 = _closure2_slot0;
                 var5 = var3.bind(var4)(var1);
                 var1 = null;
                 var1 = var1 != var5;
-                if(!var1) { _fun0001_ip = 59; continue _fun0001 }
- 33:
+                if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var4 = _closure1_slot3;
                 var3 = var4.can;
                 var2 = _closure1_slot4;
                 var2 = var2.READ_MESSAGE_HISTORY;
                 var1 = var3.bind(var4)(var2, var5);
- 59:
+case 2:
                 return var1;
             }
         };

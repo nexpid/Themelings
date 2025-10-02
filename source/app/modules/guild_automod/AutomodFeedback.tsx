@@ -100,42 +100,42 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['RaidResolutionType'] = var5;
     var4 = function getMostImportantRaidResolutionType(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var3 = var4.includes;
             var1 = _closure1_slot3;
             var1 = var1.LEGITIMATE_ACTIVITY;
             var1 = var3.bind(var4)(var1);
-            if(var1) { _fun0001_ip = 107; continue _fun0001 }
- 29:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = var4.includes;
             var1 = _closure1_slot3;
             var1 = var1.DM_SPAM;
             var1 = var3.bind(var4)(var1);
-            if(var1) { _fun0001_ip = 95; continue _fun0001 }
- 52:
+            if(var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = var4.includes;
             var1 = _closure1_slot3;
             var1 = var1.JOIN_RAID;
             var1 = var3.bind(var4)(var1);
             var3 = _closure1_slot3;
-            if(var1) { _fun0001_ip = 87; continue _fun0001 }
- 79:
+            if(var1) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var1 = var3.OTHER;
-            _fun0001_ip = 93; continue _fun0001;
- 87:
+            _fun0001_ip = 8; continue _fun0001;
+case 6:
             var1 = var3.JOIN_RAID;
- 93:
-            _fun0001_ip = 105; continue _fun0001;
- 95:
+case 8:
+            _fun0001_ip = 9; continue _fun0001;
+case 4:
             var3 = _closure1_slot3;
             var1 = var3.DM_SPAM;
- 105:
-            _fun0001_ip = 117; continue _fun0001;
- 107:
+case 9:
+            _fun0001_ip = 10; continue _fun0001;
+case 2:
             var2 = _closure1_slot3;
             var1 = var2.LEGITIMATE_ACTIVITY;
- 117:
+case 10:
             return var1;
         }
     };

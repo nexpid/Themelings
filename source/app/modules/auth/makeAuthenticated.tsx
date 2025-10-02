@@ -42,24 +42,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function makeAuthenticated(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var2 = arguments[2];
             var _closure2_slot0 = var4;
             var3 = arg2;
             var _closure2_slot1 = var3;
             var3 = undefined;
-            if(!(var2 === var3)) { _fun0001_ip = 37; continue _fun0001 }
- 25:
+            if(!(var2 === var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = {};
             var5 = true;
             var3['passProps'] = var5;
             var2 = var3;
- 37:
+case 2:
             var _closure2_slot2 = var2;
             var1 = function Authenticated(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var7 = arg1;
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
@@ -69,24 +69,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var3.bind(var5)(var1);
                     var1 = var3.isAuthenticated;
                     var1 = var1.bind(var3)();
-                    if(var1) { _fun0002_ip = 189; continue _fun0002 }
- 44:
+                    if(var1) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var3 = _closure1_slot3;
                     var1 = var3.getLoginStatus;
                     var3 = var1.bind(var3)();
                     var1 = _closure1_slot4;
                     var1 = var1.LOGGING_IN;
-                    if(!(var3 !== var1)) { _fun0002_ip = 189; continue _fun0002 }
- 72:
+                    if(!(var3 !== var1)) { _fun0002_ip = 4; continue _fun0002 }
+case 6:
                     var3 = _closure1_slot3;
                     var1 = var3.allowLogoutRedirect;
                     var1 = var1.bind(var3)();
-                    if(!var1) { _fun0002_ip = 189; continue _fun0002 }
- 89:
+                    if(!var1) { _fun0002_ip = 4; continue _fun0002 }
+case 7:
                     var4 = _closure2_slot1;
                     var1 = null;
-                    if(!(var1 == var4)) { _fun0002_ip = 136; continue _fun0002 }
- 102:
+                    if(!(var1 == var4)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                     var6 = _closure1_slot5;
                     var4 = _closure1_slot1;
                     var8 = _closure1_slot2;
@@ -95,8 +95,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var4.bind(var5)(var1);
                     var1 = {};
                     var1 = var6.bind(var5)(var4, var1);
-                    _fun0002_ip = 187; continue _fun0002;
- 136:
+                    _fun0002_ip = 10; continue _fun0002;
+case 8:
                     var6 = _closure1_slot5;
                     var4 = _closure2_slot1;
                     var3 = {};
@@ -109,39 +109,39 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = var6.bind(var5)(var9, var8);
                     var3['renderRedirect'] = var8;
                     var1 = var6.bind(var5)(var4, var3);
- 187:
-                    _fun0002_ip = 236; continue _fun0002;
- 189:
+case 10:
+                    _fun0002_ip = 11; continue _fun0002;
+case 4:
                     var4 = _closure1_slot5;
                     var3 = _closure2_slot0;
                     var2 = {};
                     var6 = _closure2_slot2;
                     var8 = var6.passProps;
                     var6 = null;
-                    if(!var8) { _fun0002_ip = 220; continue _fun0002 }
- 217:
+                    if(!var8) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
                     var6 = var7;
- 220:
+case 12:
                     var12 = var2;
                     var11 = var6;
                     var6 = copyDataProperties(var12, var11);
                     var1 = var4.bind(var5)(var3, var2);
- 236:
+case 11:
                     return var1;
                 }
             };
             var2 = var4.displayName;
             var3 = null;
-            if(!(var3 == var2)) { _fun0001_ip = 64; continue _fun0001 }
- 59:
+            if(!(var3 == var2)) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var2 = var4.name;
- 64:
+case 14:
             var3 = var3 != var2;
             var5 = '<Unknown>';
-            if(!var3) { _fun0001_ip = 80; continue _fun0001 }
- 77:
+            if(!var3) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var5 = var2;
- 80:
+case 16:
             var2 = global;
             var2 = var2.HermesInternal;
             var4 = var2.concat;

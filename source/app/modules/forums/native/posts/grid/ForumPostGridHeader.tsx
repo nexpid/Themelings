@@ -68,7 +68,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function ForumPostGridHeader(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var10 = var1.thread;
             var9 = var1.hasUnreads;
@@ -89,8 +89,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var14.details;
             var5['style'] = var11;
             var11 = var7;
-            if(!var11) { _fun0001_ip = 135; continue _fun0001 }
- 92:
+            if(!var11) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var13 = _closure1_slot6;
             var12 = _closure1_slot1;
             var15 = _closure1_slot2;
@@ -101,7 +101,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var14.pinIcon;
             var7['containerStyle'] = var15;
             var11 = var13.bind(var4)(var12, var7);
- 135:
+case 2:
             var7 = new Array(4);
             var7[0] = var11;
             var13 = _closure1_slot6;
@@ -130,8 +130,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11['textStyle'] = var14;
             var11 = var13.bind(var4)(var12, var11);
             var7[2] = var11;
-            if(!var8) { _fun0001_ip = 293; continue _fun0001 }
- 261:
+            if(!var8) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var13 = _closure1_slot6;
             var12 = _closure1_slot1;
             var14 = _closure1_slot2;
@@ -140,7 +140,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var12.bind(var4)(var11);
             var11 = {};
             var8 = var13.bind(var4)(var12, var11);
- 293:
+case 4:
             var7[3] = var8;
             var5['children'] = var7;
             var7 = var3.bind(var4)(var2, var5);

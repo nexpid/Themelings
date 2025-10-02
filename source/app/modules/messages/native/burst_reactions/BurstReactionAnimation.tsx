@@ -49,7 +49,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function BurstReactionAnimation(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var7 = arg1;
             var13 = var7.channelId;
             var14 = var7.messageId;
@@ -58,10 +58,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var7.onComplete;
             var6 = var7.withFadeOut;
             var5 = undefined;
-            if(!(var6 === var5)) { _fun0001_ip = 44; continue _fun0001 }
- 42:
+            if(!(var6 === var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = true;
- 44:
+case 2:
             var4 = {'channelId': 0, 'messageId': 0, 'emoji': 0, 'isFullscreen': 0, 'onComplete': 0, 'withFadeOut': 0};
             var1 = null;
             var18 = var4;
@@ -96,30 +96,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var10 = var10.bind(var11)(var4, var2);
-            if(!(var1 != var7)) { _fun0001_ip = 329; continue _fun0001 }
- 183:
+            if(!(var1 != var7)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var4 = _closure1_slot1;
             var12 = _closure1_slot2;
-            if(var6) { _fun0001_ip = 203; continue _fun0001 }
- 194:
+            if(var6) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var2 = 7;
             var2 = var12[var2];
-            _fun0001_ip = 210; continue _fun0001;
- 203:
+            _fun0001_ip = 8; continue _fun0001;
+case 6:
             var11 = 6;
             var2 = var12[var11];
- 210:
+case 8:
             var4 = var4.bind(var5)(var2);
             var2 = {};
-            if(var6) { _fun0001_ip = 230; continue _fun0001 }
- 220:
+            if(var6) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var2['onAnimationFinish'] = var3;
             var6 = var2;
-            _fun0001_ip = 238; continue _fun0001;
- 230:
+            _fun0001_ip = 11; continue _fun0001;
+case 9:
             var2['onComplete'] = var3;
             var6 = var2;
- 238:
+case 11:
             var3 = _closure1_slot4;
             var2 = {};
             var9 = _closure1_slot5;
@@ -128,10 +128,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = false;
             var2['loop'] = var9;
             var9 = 1.2;
-            if(!var10) { _fun0001_ip = 287; continue _fun0001 }
- 277:
+            if(!var10) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var9 = 0.5;
- 287:
+case 12:
             var2['speed'] = var9;
             var18 = var2;
             var17 = var8;
@@ -143,7 +143,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[var6] = var7;
             var2 = var3.bind(var5)(var4, var2);
             return var2;
- 329:
+case 4:
             return var1;
         }
     };

@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function AddDescription(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var21 = var2.source;
             var20 = var2.channelId;
@@ -57,35 +57,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var5 != var7;
             var3 = 1;
             var26 = var3;
-            if(!var8) { _fun0001_ip = 192; continue _fun0001 }
- 162:
+            if(!var8) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var8 = var5 != var2;
             var26 = var3;
-            if(!var8) { _fun0001_ip = 192; continue _fun0001 }
- 172:
+            if(!var8) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var8 = 0;
             var26 = var3;
-            if(!(var8 !== var7)) { _fun0001_ip = 192; continue _fun0001 }
- 181:
+            if(!(var8 !== var7)) { _fun0001_ip = 2; continue _fun0001 }
+case 5:
             var26 = var3;
-            if(!(var8 !== var2)) { _fun0001_ip = 192; continue _fun0001 }
- 188:
+            if(!(var8 !== var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 6:
             var26 = var7 / var2;
- 192:
+case 2:
             var8 = _closure1_slot4;
             var7 = var8.useState;
             var2 = var5 == var18;
             var11 = undefined;
-            if(var2) { _fun0001_ip = 215; continue _fun0001 }
- 210:
+            if(var2) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var11 = var18.description;
- 215:
+case 7:
             var12 = var5 != var11;
             var2 = '';
-            if(!var12) { _fun0001_ip = 229; continue _fun0001 }
- 226:
+            if(!var12) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var2 = var11;
- 229:
+case 9:
             var7 = var7.bind(var8)(var2);
             var2 = _closure1_slot3;
             var25 = 2;

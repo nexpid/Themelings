@@ -9,19 +9,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var7;
     var1 = function computeCanEveryoneInGuildSeeRoleSubscriptions(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var2 = arguments[1];
             var7 = undefined;
-            if(!(var2 === var7)) { _fun0001_ip = 38; continue _fun0001 }
- 12:
+            if(!(var2 === var7)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = _closure1_slot4;
             var1 = new Array(2);
             var1[0] = var5;
             var3 = _closure1_slot3;
             var1[1] = var3;
             var2 = var1;
- 38:
+case 2:
             var6 = var2;
             var1 = var6[Symbol.iterator];
             var6 = var1().next;
@@ -29,32 +29,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var1;
             var5 = var2 === var7;
             var2 = undefined;
-            if(var5) { _fun0001_ip = 63; continue _fun0001 }
- 60:
+            if(var5) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = var3;
- 63:
+case 4:
             var3 = undefined;
-            if(var5) { _fun0001_ip = 93; continue _fun0001 }
- 68:
+            if(var5) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var8 = var6().value;
             var6 = var1;
             var6 = var6 === var7;
             var3 = undefined;
             var5 = var6;
-            if(var6) { _fun0001_ip = 93; continue _fun0001 }
- 87:
+            if(var6) { _fun0001_ip = 6; continue _fun0001 }
+case 8:
             var3 = var8;
             var5 = var6;
- 93:
-            if(var5) { _fun0001_ip = 99; continue _fun0001 }
- 96:
+case 6:
+            if(var5) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var1.return();
- 99:
+case 9:
             var1 = var2.getGuild;
             var5 = var1.bind(var2)(var4);
             var1 = null;
-            if(!(var1 != var5)) { _fun0001_ip = 209; continue _fun0001 }
- 115:
+            if(!(var1 != var5)) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var6 = _closure1_slot0;
             var8 = _closure1_slot2;
             var2 = 3;
@@ -68,20 +68,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.ROLE_SUBSCRIPTIONS_AVAILABLE_FOR_PURCHASE;
             var1 = var5.bind(var6)(var1);
             var2 = !var2;
-            if(var2) { _fun0001_ip = 184; continue _fun0001 }
- 181:
+            if(var2) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var2 = !var1;
- 184:
+case 13:
             var1 = !var2;
-            if(!var2) { _fun0001_ip = 207; continue _fun0001 }
- 190:
+            if(!var2) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
             var2 = var3.isViewingServerShop;
             var2 = var2.bind(var3)(var4);
             var2 = !var2;
             var1 = !var2;
- 207:
+case 15:
             return var1;
- 209:
+case 11:
             var1 = false;
             return var1;
         }
@@ -89,7 +89,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot6 = var1;
     var4 = function useRoleSubscriptionsVisibleInGuild(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var5 = arg1;
             var _closure2_slot0 = var5;
             var4 = _closure1_slot1;
@@ -131,14 +131,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.bind(var4)(var5);
             var1 = var1.shouldHideGuildPurchaseEntryPoints;
             var1 = !var1;
-            if(!var1) { _fun0002_ip = 144; continue _fun0002 }
- 135:
-            if(var2) { _fun0002_ip = 141; continue _fun0002 }
- 138:
+            if(!var1) { _fun0002_ip = 17; continue _fun0002 }
+case 18:
+            if(var2) { _fun0002_ip = 19; continue _fun0002 }
+case 20:
             var2 = var3;
- 141:
+case 19:
             var1 = var2;
- 144:
+case 17:
             return var1;
         }
     };
@@ -173,15 +173,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var7)(var5);
     var5 = function areRoleSubscriptionsVisibleInGuild(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var5 = arg1;
             var1 = _closure1_slot6;
             var4 = undefined;
             var3 = var1.bind(var4)(var5);
             var1 = !var3;
             var1 = !var1;
-            if(var3) { _fun0003_ip = 61; continue _fun0003 }
- 26:
+            if(var3) { _fun0003_ip = 21; continue _fun0003 }
+case 22:
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
             var2 = 4;
@@ -190,7 +190,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.computeHasRoleSubscriptionsInGuild;
             var2 = arg2;
             var1 = var3.bind(var4)(var5, var2);
- 61:
+case 21:
             return var1;
         }
     };
@@ -198,7 +198,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['useRoleSubscriptionsVisibleInGuild'] = var4;
     var2 = function useShowRoleSubscriptionsInChannelList(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var5 = arg1;
             var1 = _closure1_slot7;
             var4 = undefined;
@@ -211,15 +211,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.useIsEligibleForSubscriptionsInGuildShop;
             var2 = 'useShowRoleSubscriptionsInChannelList';
             var2 = var3.bind(var4)(var5, var2);
-            if(!var1) { _fun0004_ip = 67; continue _fun0004 }
- 56:
+            if(!var1) { _fun0004_ip = 23; continue _fun0004 }
+case 24:
             var2 = !var2;
-            if(var2) { _fun0004_ip = 64; continue _fun0004 }
- 62:
+            if(var2) { _fun0004_ip = 25; continue _fun0004 }
+case 26:
             var2 = true;
- 64:
+case 25:
             var1 = var2;
- 67:
+case 23:
             return var1;
         }
     };

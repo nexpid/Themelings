@@ -74,7 +74,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['onValueChange'] = var7;
     var4 = function useWebBrowserSettingOptions() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = _closure1_slot0;
             var3 = _closure1_slot1;
             var1 = 2;
@@ -109,8 +109,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.bind(var6)(var3);
             var3 = var5.isAndroid;
             var3 = var3.bind(var5)();
-            if(var3) { _fun0001_ip = 249; continue _fun0001 }
- 156:
+            if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = var1.push;
             var3 = {};
             var10 = _closure1_slot0;
@@ -131,9 +131,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var8.SAFARI;
             var3['value'] = var8;
             var3 = var5.bind(var1)(var3);
- 249:
-            if(!var2) { _fun0001_ip = 400; continue _fun0001 }
- 255:
+case 2:
+            if(!var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = var1.push;
             var2 = {};
             var8 = _closure1_slot0;
@@ -151,15 +151,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var8[var12];
             var8 = var11.bind(var6)(var8);
             var8 = var8.t;
-            if(var5) { _fun0001_ip = 347; continue _fun0001 }
- 332:
+            if(var5) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var5 = var8.FfjVVl;
             var5 = var9.bind(var10)(var5);
-            _fun0001_ip = 358; continue _fun0001;
- 347:
+            _fun0001_ip = 8; continue _fun0001;
+case 6:
             var8 = var8.kEfv8/;
             var5 = var9.bind(var10)(var8);
- 358:
+case 8:
             var2['label'] = var5;
             var5 = _closure1_slot0;
             var4 = _closure1_slot1;
@@ -169,7 +169,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.CHROME;
             var2['value'] = var4;
             var2 = var3.bind(var1)(var2);
- 400:
+case 4:
             return var1;
         }
     };

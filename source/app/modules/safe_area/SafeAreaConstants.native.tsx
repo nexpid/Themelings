@@ -1,7 +1,7 @@
 // app/modules/safe_area/SafeAreaConstants.native.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
         var7 = require;
         var3 = exports;
         var8 = dependencyMap;
@@ -22,23 +22,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = null;
         var6 = var9 != var4;
         var4 = undefined;
-        if(!var6) { _fun0001_ip = 96; continue _fun0001 }
- 81:
+        if(!var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
         var2 = var8[var2];
         var2 = var7.bind(var1)(var2);
         var4 = var2.initialWindowMetrics;
- 96:
+case 2:
         var2 = var9 == var4;
         var6 = undefined;
-        if(var2) { _fun0001_ip = 111; continue _fun0001 }
- 105:
+        if(var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
         var6 = var4.insets;
- 111:
+case 4:
         var2 = var5;
-        if(!(var9 != var6)) { _fun0001_ip = 121; continue _fun0001 }
- 118:
+        if(!(var9 != var6)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
         var2 = var6;
- 121:
+case 6:
         var6 = 1;
         var6 = var8[var6];
         var8 = var7.bind(var1)(var6);

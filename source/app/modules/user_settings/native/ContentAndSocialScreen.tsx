@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function getSocialPermissions(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var4 = var1.allServersSelected;
             var1 = _closure1_slot7;
@@ -38,8 +38,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var5.bind(var7)(var1);
             var2['label'] = var1;
             var1 = var6;
-            if(var4) { _fun0001_ip = 179; continue _fun0001 }
- 127:
+            if(var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = new Array(0);
             var15 = 0;
             var17 = var4;
@@ -54,7 +54,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17 = var4;
             var5 = arraySpread(var17, var16, var15);
             var1 = var4;
- 179:
+case 2:
             var2['settings'] = var1;
             var1 = new Array(6);
             var1[0] = var2;
@@ -305,28 +305,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var4.useState;
         var2 = function() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var3 = _closure2_slot0;
                 var2 = null;
                 var5 = var2 == var3;
                 var3 = undefined;
-                if(var5) { _fun0002_ip = 43; continue _fun0002 }
- 18:
+                if(var5) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                 var1 = _closure2_slot0;
                 var1 = var1.params;
                 var2 = var2 == var1;
                 var3 = undefined;
-                if(var2) { _fun0002_ip = 43; continue _fun0002 }
- 37:
+                if(var2) { _fun0002_ip = 4; continue _fun0002 }
+case 6:
                 var3 = var1.tab;
- 43:
+case 4:
                 var1 = _closure1_slot7;
                 var2 = var1.CONNECTED_GAMES;
                 var1 = 0;
-                if(!(var3 === var2)) { _fun0002_ip = 65; continue _fun0002 }
- 62:
+                if(!(var3 === var2)) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
                 var1 = 1;
- 65:
+case 7:
                 return var1;
             }
         };
@@ -555,7 +555,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['DiscordPermissionsPage'] = var4;
     var2 = function ConnectedGamesPage() {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var1 = _closure1_slot11;
             var5 = undefined;
             var6 = var1.bind(var5)();
@@ -623,12 +623,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var4 = new Array(0);
             var7 = var8.bind(var9)(var7, var4);
-            if(var3) { _fun0003_ip = 417; continue _fun0003 }
- 83:
+            if(var3) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
             var3 = var1.length;
             var1 = 0;
-            if(!(var1 !== var3)) { _fun0003_ip = 142; continue _fun0003 }
- 94:
+            if(!(var1 !== var3)) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
             var4 = _closure1_slot9;
             var3 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -639,8 +639,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = {};
             var1['sections'] = var7;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0003_ip = 415; continue _fun0003;
- 142:
+            _fun0003_ip = 13; continue _fun0003;
+case 11:
             var7 = _closure1_slot10;
             var4 = _closure1_slot6;
             var3 = {};
@@ -696,16 +696,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8[1] = var9;
             var3['children'] = var8;
             var1 = var7.bind(var5)(var4, var3);
- 415:
-            _fun0003_ip = 443; continue _fun0003;
- 417:
+case 13:
+            _fun0003_ip = 14; continue _fun0003;
+case 9:
             var4 = _closure1_slot9;
             var3 = _closure1_slot5;
             var2 = {};
             var6 = var6.loadingIndicator;
             var2['style'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 443:
+case 14:
             return var1;
         }
     };

@@ -43,7 +43,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var3.useAnimatedStyle;
         var1 = function s() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var1 = {};
                 var8 = _closure1_slot0;
                 var9 = _closure1_slot1;
@@ -63,10 +63,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var3.get;
                 var3 = var2.bind(var3)();
                 var2 = 'flex';
-                if(!var3) { _fun0001_ip = 91; continue _fun0001 }
- 87:
+                if(!var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var2 = 'none';
- 91:
+case 2:
                 var1['display'] = var2;
                 return var1;
             }

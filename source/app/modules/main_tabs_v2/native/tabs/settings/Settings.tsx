@@ -77,7 +77,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function Settings() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var6 = _closure1_slot0;
             var10 = _closure1_slot1;
             var2 = 5;
@@ -103,14 +103,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[2] = var11;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var1 = _closure2_slot1;
                     var2 = _closure2_slot2;
-                    if(var1) { _fun0002_ip = 22; continue _fun0002 }
- 14:
+                    if(var1) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var1 = var2.containerOuter;
-                    _fun0002_ip = 54; continue _fun0002;
- 22:
+                    _fun0002_ip = 4; continue _fun0002;
+case 2:
                     var3 = var2.containerOuterTablet;
                     var2 = new Array(2);
                     var2[0] = var3;
@@ -119,7 +119,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3['paddingTop'] = var4;
                     var2[1] = var3;
                     var1 = var2;
- 54:
+case 4:
                     return var1;
                 }
             };
@@ -133,13 +133,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var6.bind(var4)(var5);
             var6 = var5.View;
             var5 = {};
-            if(var8) { _fun0001_ip = 153; continue _fun0001 }
- 146:
+            if(var8) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var8 = var9.container;
-            _fun0001_ip = 159; continue _fun0001;
- 153:
+            _fun0001_ip = 7; continue _fun0001;
+case 5:
             var8 = var9.containerTablet;
- 159:
+case 7:
             var5['style'] = var8;
             var9 = _closure1_slot4;
             var8 = _closure1_slot0;

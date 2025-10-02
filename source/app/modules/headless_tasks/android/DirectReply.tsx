@@ -65,12 +65,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = function* (arg1) {
                         var1 = function* anon_0_(arg1) {
                             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                                 StartGenerator();
                                 var9 = arg1;
                                 ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                                if(var2) { _fun0001_ip = 257; continue _fun0001 }
- 13:
+                                if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                                 var5 = _closure1_slot0;
                                 var3 = _closure1_slot1;
                                 var2 = 5;
@@ -99,20 +99,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 var12 = var2;
                                 var2 = var16[var8](var15, var14, var13, var12, var11);
                                 SaveGenerator(address=128);
- 126:
+case 4:
                                 return var2;
- 128:
+case 5:
                                 ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                                if(var5) { _fun0001_ip = 254; continue _fun0001 }
- 134:
+                                if(var5) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                                 var8 = _closure1_slot5;
                                 var7 = var8.log;
                                 var6 = var2.ok;
                                 var5 = 'Sent message, ok:';
                                 var5 = var7.bind(var8)(var5, var6);
                                 var5 = var2.ok;
-                                if(!var5) { _fun0001_ip = 237; continue _fun0001 }
- 171:
+                                if(!var5) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
                                 var4 = _closure1_slot3;
                                 var6 = var4.PushNotificationAndroid;
                                 var5 = var6.handleDirectReplySuccess;
@@ -128,14 +128,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 var9 = copyDataProperties(var15, var14);
                                 var4 = var7.bind(var8)(var4);
                                 var4 = var5.bind(var6)(var4);
- 237:
+case 8:
                                 var5 = _closure3_slot0;
                                 var4 = true;
                                 var4 = var5.bind(var3)(var4);
                                 return var3;
- 254:
+case 6:
                                 return var2;
- 257:
+case 2:
                                 return var1;
                             }
                         };

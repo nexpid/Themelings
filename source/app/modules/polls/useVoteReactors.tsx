@@ -33,7 +33,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useVoteReactors(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var11 = var2.channelId;
             var _closure2_slot0 = var11;
@@ -62,7 +62,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var9.bind(var4)(var2);
             var14 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var8 = _closure1_slot3;
                     var7 = var8.getReactions;
                     var6 = _closure2_slot0;
@@ -86,15 +86,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var3.from;
                     var4 = null;
                     var5 = var4 == var6;
-                    if(var5) { _fun0002_ip = 112; continue _fun0002 }
- 103:
+                    if(var5) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var5 = var6.values;
                     var1 = var5.bind(var6)();
- 112:
-                    if(!(var4 == var1)) { _fun0002_ip = 120; continue _fun0002 }
- 116:
+case 2:
+                    if(!(var4 == var1)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var1 = new Array(0);
- 120:
+case 4:
                     var1 = var2.bind(var3)(var1);
                     return var1;
                 }
@@ -108,16 +108,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var3.count_details;
             var3 = null;
             var6 = var3 == var5;
-            if(var6) { _fun0001_ip = 160; continue _fun0001 }
- 154:
+            if(var6) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var4 = var5.vote;
- 160:
+case 6:
             var5 = var3 != var4;
             var3 = 0;
-            if(!var5) { _fun0001_ip = 172; continue _fun0001 }
- 169:
+            if(!var5) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var3 = var4;
- 172:
+case 8:
             var2 = var2.length;
             var2 = var3 > var2;
             var1['hasMore'] = var2;

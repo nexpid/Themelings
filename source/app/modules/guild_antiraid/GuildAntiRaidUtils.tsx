@@ -9,13 +9,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var8;
     var4 = function hasDetectedRaid(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var7 = arg1;
             var2 = var7.raidDetectedAt;
             var1 = null;
             var1 = var1 != var2;
-            if(!var1) { _fun0001_ip = 90; continue _fun0001 }
- 18:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = _closure1_slot1;
             var6 = _closure1_slot2;
             var2 = 1;
@@ -32,7 +32,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var5.bind(var4)(var2);
             var2 = var2.bind(var4)();
             var1 = var3 > var2;
- 90:
+case 2:
             return var1;
         }
     };
@@ -62,13 +62,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['DATE_CONFIG'] = var5;
     var5 = function hasDetectedActivity(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var8 = arg1;
             var1 = var8.dmSpamDetectedAt;
             var3 = null;
             var1 = var3 != var1;
-            if(!var1) { _fun0002_ip = 90; continue _fun0002 }
- 18:
+            if(!var1) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
             var6 = _closure1_slot1;
             var7 = _closure1_slot2;
             var2 = 1;
@@ -85,13 +85,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var6.bind(var5)(var2);
             var2 = var2.bind(var5)();
             var1 = var4 > var2;
- 90:
-            if(var1) { _fun0002_ip = 181; continue _fun0002 }
- 93:
+case 2:
+            if(var1) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var2 = var8.raidDetectedAt;
             var2 = var3 != var2;
-            if(!var2) { _fun0002_ip = 178; continue _fun0002 }
- 106:
+            if(!var2) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var6 = _closure1_slot1;
             var7 = _closure1_slot2;
             var3 = 1;
@@ -108,9 +108,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var6.bind(var5)(var3);
             var3 = var3.bind(var5)();
             var2 = var4 > var3;
- 178:
+case 6:
             var1 = var2;
- 181:
+case 4:
             return var1;
         }
     };
@@ -118,13 +118,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['hasDetectedRaid'] = var4;
     var4 = function hasDetectedDMRaid(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var7 = arg1;
             var2 = var7.dmSpamDetectedAt;
             var1 = null;
             var1 = var1 != var2;
-            if(!var1) { _fun0003_ip = 90; continue _fun0003 }
- 18:
+            if(!var1) { _fun0003_ip = 2; continue _fun0003 }
+case 3:
             var5 = _closure1_slot1;
             var6 = _closure1_slot2;
             var2 = 1;
@@ -141,21 +141,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var5.bind(var4)(var2);
             var2 = var2.bind(var4)();
             var1 = var3 > var2;
- 90:
+case 2:
             return var1;
         }
     };
     var3['hasDetectedDMRaid'] = var4;
     var4 = function getIncidentAlertType(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var4 = arg1;
             var1 = null;
             var2 = var1 == var4;
             var5 = undefined;
             var1 = undefined;
-            if(var2) { _fun0004_ip = 74; continue _fun0004 }
- 16:
+            if(var2) { _fun0004_ip = 8; continue _fun0004 }
+case 9:
             var2 = _closure1_slot5;
             var2 = var2.bind(var5)(var4);
             var4 = _closure1_slot0;
@@ -164,26 +164,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var6[var3];
             var3 = var4.bind(var5)(var3);
             var3 = var3.GuildIncidentAlertTypes;
-            if(var2) { _fun0004_ip = 65; continue _fun0004 }
- 57:
+            if(var2) { _fun0004_ip = 10; continue _fun0004 }
+case 11:
             var2 = var3.DM_RAID;
-            _fun0004_ip = 71; continue _fun0004;
- 65:
+            _fun0004_ip = 12; continue _fun0004;
+case 10:
             var2 = var3.JOIN_RAID;
- 71:
+case 12:
             var1 = var2;
- 74:
+case 8:
             return var1;
         }
     };
     var3['getIncidentAlertType'] = var4;
     var4 = function getEnabledInterventions(arg1, arg2) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
             var1 = new Array(0);
             var2 = arg1;
-            if(!var2) { _fun0005_ip = 57; continue _fun0005 }
- 10:
+            if(!var2) { _fun0005_ip = 11; continue _fun0005 }
+case 13:
             var3 = var1.push;
             var5 = _closure1_slot0;
             var4 = _closure1_slot2;
@@ -194,10 +194,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.GuildIncidentActionTypes;
             var2 = var2.INVITES_DISABLED;
             var2 = var3.bind(var1)(var2);
- 57:
+case 11:
             var2 = arg2;
-            if(!var2) { _fun0005_ip = 110; continue _fun0005 }
- 63:
+            if(!var2) { _fun0005_ip = 14; continue _fun0005 }
+case 15:
             var3 = var1.push;
             var5 = _closure1_slot0;
             var4 = _closure1_slot2;
@@ -208,18 +208,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.GuildIncidentActionTypes;
             var2 = var2.DMS_DISABLED;
             var2 = var3.bind(var1)(var2);
- 110:
+case 14:
             return var1;
         }
     };
     var3['getEnabledInterventions'] = var4;
     var4 = function getDisabledInterventions(arg1, arg2) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
- 0:
+case 0:
             var1 = new Array(0);
             var2 = arg1;
-            if(var2) { _fun0006_ip = 57; continue _fun0006 }
- 10:
+            if(var2) { _fun0006_ip = 11; continue _fun0006 }
+case 13:
             var3 = var1.push;
             var5 = _closure1_slot0;
             var4 = _closure1_slot2;
@@ -230,10 +230,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.GuildIncidentActionTypes;
             var2 = var2.INVITES_DISABLED;
             var2 = var3.bind(var1)(var2);
- 57:
+case 11:
             var2 = arg2;
-            if(var2) { _fun0006_ip = 110; continue _fun0006 }
- 63:
+            if(var2) { _fun0006_ip = 14; continue _fun0006 }
+case 15:
             var3 = var1.push;
             var5 = _closure1_slot0;
             var4 = _closure1_slot2;
@@ -244,20 +244,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.GuildIncidentActionTypes;
             var2 = var2.DMS_DISABLED;
             var2 = var3.bind(var1)(var2);
- 110:
+case 14:
             return var1;
         }
     };
     var3['getDisabledInterventions'] = var4;
     var4 = function isUnderLockdown(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
- 0:
+case 0:
             var4 = arg1;
             var1 = var4.dmsDisabledUntil;
             var3 = null;
             var1 = var3 != var1;
-            if(!var1) { _fun0007_ip = 82; continue _fun0007 }
- 18:
+            if(!var1) { _fun0007_ip = 16; continue _fun0007 }
+case 3:
             var2 = global;
             var7 = var2.Date;
             var8 = var4.dmsDisabledUntil;
@@ -273,13 +273,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = new var9[var2](var8);
             var2 = var2 instanceof Object ? var2 : var6;
             var1 = var5 > var2;
- 82:
-            if(var1) { _fun0007_ip = 165; continue _fun0007 }
- 85:
+case 16:
+            if(var1) { _fun0007_ip = 17; continue _fun0007 }
+case 18:
             var2 = var4.invitesDisabledUntil;
             var2 = var3 != var2;
-            if(!var2) { _fun0007_ip = 162; continue _fun0007 }
- 98:
+            if(!var2) { _fun0007_ip = 19; continue _fun0007 }
+case 20:
             var3 = global;
             var6 = var3.Date;
             var8 = var4.invitesDisabledUntil;
@@ -295,27 +295,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = new var9[var3](var8);
             var3 = var3 instanceof Object ? var3 : var5;
             var2 = var4 > var3;
- 162:
+case 19:
             var1 = var2;
- 165:
+case 17:
             return var1;
         }
     };
     var3['isUnderLockdown'] = var4;
     var4 = function hasDMsDisabled(arg1) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
- 0:
+case 0:
             var3 = arg1;
             var2 = null;
             var4 = var2 == var3;
             var1 = undefined;
-            if(var4) { _fun0008_ip = 20; continue _fun0008 }
- 14:
+            if(var4) { _fun0008_ip = 21; continue _fun0008 }
+case 22:
             var1 = var3.dmsDisabledUntil;
- 20:
+case 21:
             var1 = var2 != var1;
-            if(!var1) { _fun0008_ip = 91; continue _fun0008 }
- 27:
+            if(!var1) { _fun0008_ip = 23; continue _fun0008 }
+case 24:
             var2 = global;
             var5 = var2.Date;
             var6 = var3.dmsDisabledUntil;
@@ -331,25 +331,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = new var7[var2](var6);
             var2 = var2 instanceof Object ? var2 : var4;
             var1 = var3 > var2;
- 91:
+case 23:
             return var1;
         }
     };
     var3['hasDMsDisabled'] = var4;
     var4 = function hasInvitesDisabled(arg1) {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
- 0:
+case 0:
             var3 = arg1;
             var2 = null;
             var4 = var2 == var3;
             var1 = undefined;
-            if(var4) { _fun0009_ip = 20; continue _fun0009 }
- 14:
+            if(var4) { _fun0009_ip = 21; continue _fun0009 }
+case 22:
             var1 = var3.invitesDisabledUntil;
- 20:
+case 21:
             var1 = var2 != var1;
-            if(!var1) { _fun0009_ip = 91; continue _fun0009 }
- 27:
+            if(!var1) { _fun0009_ip = 23; continue _fun0009 }
+case 24:
             var2 = global;
             var5 = var2.Date;
             var6 = var3.invitesDisabledUntil;
@@ -365,43 +365,43 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = new var7[var2](var6);
             var2 = var2 instanceof Object ? var2 : var4;
             var1 = var3 > var2;
- 91:
+case 23:
             return var1;
         }
     };
     var3['hasInvitesDisabled'] = var4;
     var2 = function getSecurityActionDetailsString(arg1, arg2) {
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
- 0:
+case 0:
             var1 = arg1;
             var7 = arg2;
             var12 = var1.dmsDisabledUntil;
             var2 = null;
-            if(!(var2 == var12)) { _fun0010_ip = 24; continue _fun0010 }
- 18:
+            if(!(var2 == var12)) { _fun0010_ip = 25; continue _fun0010 }
+case 3:
             var12 = var1.invitesDisabledUntil;
- 24:
-            if(!(var2 != var12)) { _fun0010_ip = 518; continue _fun0010 }
- 31:
+case 25:
+            if(!(var2 != var12)) { _fun0010_ip = 26; continue _fun0010 }
+case 27:
             var3 = var1.dmsDisabledUntil;
             var3 = var2 != var3;
             var1 = var1.invitesDisabledUntil;
             var2 = var2 != var1;
             var4 = var3;
-            if(!var4) { _fun0010_ip = 60; continue _fun0010 }
- 57:
+            if(!var4) { _fun0010_ip = 28; continue _fun0010 }
+case 11:
             var4 = var2;
- 60:
+case 28:
             var1 = true;
-            if(!(var4 !== var1)) { _fun0010_ip = 374; continue _fun0010 }
- 69:
-            if(!(var3 !== var1)) { _fun0010_ip = 230; continue _fun0010 }
- 76:
-            if(!(var2 !== var1)) { _fun0010_ip = 86; continue _fun0010 }
- 80:
+            if(!(var4 !== var1)) { _fun0010_ip = 29; continue _fun0010 }
+case 30:
+            if(!(var3 !== var1)) { _fun0010_ip = 31; continue _fun0010 }
+case 32:
+            if(!(var2 !== var1)) { _fun0010_ip = 33; continue _fun0010 }
+case 34:
             var1 = '';
             return var1;
- 86:
+case 33:
             var11 = _closure1_slot0;
             var13 = _closure1_slot2;
             var6 = 3;
@@ -434,7 +434,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['time'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
- 230:
+case 31:
             var11 = _closure1_slot0;
             var13 = _closure1_slot2;
             var6 = 3;
@@ -467,7 +467,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['time'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
- 374:
+case 29:
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
             var6 = 3;
@@ -500,7 +500,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['time'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
- 518:
+case 26:
             var1 = '';
             return var1;
         }

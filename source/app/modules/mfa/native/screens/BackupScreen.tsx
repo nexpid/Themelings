@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function isValidClipboardCode(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var4 = var3.length;
             var7 = _closure1_slot0;
@@ -20,8 +20,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var7.bind(var5)(var1);
             var1 = var1.BACKUP_CODE_MIN_LENGTH;
             var1 = var4 >= var1;
-            if(!var1) { _fun0001_ip = 78; continue _fun0001 }
- 46:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = var3.length;
             var4 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -29,7 +29,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4.bind(var5)(var2);
             var2 = var2.BACKUP_CODE_MAX_LENGTH;
             var1 = var3 <= var2;
- 78:
+case 2:
             return var1;
         }
     };
@@ -69,7 +69,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function BackupScreen(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var7 = var1.mfaChallenge;
             var6 = var1.finish;
@@ -114,12 +114,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = function* (arg1) {
                     var1 = function* anon_0_(arg1) {
                         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                             StartGenerator();
                             var5 = arg1;
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(var2) { _fun0003_ip = 226; continue _fun0003 }
- 13:
+                            if(var2) { _fun0003_ip = 4; continue _fun0003 }
+case 5:
                             var10 = var5;
                             var2 = undefined;
                             var6 = undefined;
@@ -133,16 +133,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var5 = var11[var5];
                             var5 = var8.bind(var2)(var5);
                             var5 = var5.BACKUP_CODE_MIN_LENGTH;
-                            if(!(var7 !== var5)) { _fun0003_ip = 86; continue _fun0003 }
- 72:
+                            if(!(var7 !== var5)) { _fun0003_ip = 6; continue _fun0003 }
+case 7:
                             var5 = _closure2_slot4;
                             var5 = var5.bind(var2)(var2);
-                            _fun0003_ip = 223; continue _fun0003;
- 86:
+                            _fun0003_ip = 8; continue _fun0003;
+case 6:
                             var5 = _closure2_slot1;
                             var8 = true;
                             var5 = var5.bind(var2)(var8);
- 97: // try_start_0
+case 9: // try_start_0
                             var7 = _closure2_slot0;
                             var5 = {};
                             var11 = 'backup';
@@ -150,52 +150,52 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var5['data'] = var10;
                             var5 = var7.bind(var2)(var5);
                             SaveGenerator(address=125);
- 123:
+case 10:
                             return var5;
- 125:
+case 11:
                             ResumeGenerator(result_out_reg=4, return_bool_out_reg=6);
-                            if(var7) { _fun0003_ip = 142; continue _fun0003 }
- 131:
+                            if(var7) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
                             var7 = _closure2_slot5;
                             var7 = var7.bind(var2)(var8);
- 140: // try_end0
-                            _fun0003_ip = 212; continue _fun0003;
- 142:
+case 14: // try_end0
+                            _fun0003_ip = 15; continue _fun0003;
+case 12:
                             return var5;
- 145: // catch_target0
+case 16: // catch_target0
                             CatchBlockStart(arg_register=6);
                             var4 = var7;
                             var5 = _closure2_slot4;
                             var8 = null;
                             var10 = var8 == var7;
                             var7 = undefined;
-                            if(var10) { _fun0003_ip = 190; continue _fun0003 }
- 165:
+                            if(var10) { _fun0003_ip = 17; continue _fun0003 }
+case 18:
                             var10 = var4;
                             var10 = var10.body;
                             var9 = var10;
                             var10 = var8 == var10;
                             var7 = undefined;
-                            if(var10) { _fun0003_ip = 190; continue _fun0003 }
- 185:
+                            if(var10) { _fun0003_ip = 17; continue _fun0003 }
+case 19:
                             var7 = var9.message;
- 190:
+case 17:
                             var6 = var7;
-                            if(!(var8 == var7)) { _fun0003_ip = 204; continue _fun0003 }
- 197:
+                            if(!(var8 == var7)) { _fun0003_ip = 20; continue _fun0003 }
+case 21:
                             var4 = var4.message;
-                            _fun0003_ip = 207; continue _fun0003;
- 204:
+                            _fun0003_ip = 22; continue _fun0003;
+case 20:
                             var4 = var6;
- 207:
+case 22:
                             var4 = var5.bind(var2)(var4);
- 212:
+case 15:
                             var4 = _closure2_slot1;
                             var3 = false;
                             var3 = var4.bind(var2)(var3);
- 223:
+case 8:
                             return var2;
- 226:
+case 4:
                             return var1;
                         }
                     };
@@ -273,10 +273,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['onChangeCode'] = var16;
             var5['error'] = var9;
             var9 = var10;
-            if(var10) { _fun0002_ip = 447; continue _fun0002 }
- 444:
+            if(var10) { _fun0002_ip = 23; continue _fun0002 }
+case 24:
             var9 = var13;
- 447:
+case 23:
             var5['isDisabled'] = var9;
             var5 = var3.bind(var4)(var8, var5);
             var1['input'] = var5;
@@ -301,10 +301,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = var17.bind(var18)(var16);
             var5['text'] = var16;
             var16 = var10;
-            if(var10) { _fun0002_ip = 558; continue _fun0002 }
- 555:
+            if(var10) { _fun0002_ip = 25; continue _fun0002 }
+case 26:
             var16 = var13;
- 558:
+case 25:
             var5['loading'] = var16;
             var15 = function onPress() {
                 var3 = _closure2_slot6;
@@ -314,12 +314,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var5['onPress'] = var15;
-            if(var10) { _fun0002_ip = 580; continue _fun0002 }
- 577:
+            if(var10) { _fun0002_ip = 27; continue _fun0002 }
+case 28:
             var10 = var13;
- 580:
-            if(var10) { _fun0002_ip = 615; continue _fun0002 }
- 583:
+case 27:
+            if(var10) { _fun0002_ip = 29; continue _fun0002 }
+case 30:
             var12 = var12.length;
             var13 = _closure1_slot0;
             var11 = _closure1_slot2;
@@ -327,7 +327,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var13.bind(var4)(var11);
             var11 = var11.BACKUP_CODE_MIN_LENGTH;
             var10 = var12 < var11;
- 615:
+case 29:
             var5['disabled'] = var10;
             var5 = var9.bind(var4)(var8, var5);
             var1['submit'] = var5;

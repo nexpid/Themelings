@@ -22,14 +22,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function getPlatform(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = 'android';
-            if(!(var1 !== var2)) { _fun0001_ip = 95; continue _fun0001 }
- 11:
+            if(!(var1 !== var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = 'ios';
-            if(!(var1 !== var2)) { _fun0001_ip = 57; continue _fun0001 }
- 19:
+            if(!(var1 !== var2)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = _closure1_slot0;
             var2 = _closure1_slot1;
             var1 = 0;
@@ -39,7 +39,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.EmbeddedActivitySupportedPlatforms;
             var1 = var1.WEB;
             return var1;
- 57:
+case 4:
             var3 = _closure1_slot0;
             var2 = _closure1_slot1;
             var1 = 0;
@@ -49,7 +49,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.EmbeddedActivitySupportedPlatforms;
             var1 = var1.IOS;
             return var1;
- 95:
+case 2:
             var3 = _closure1_slot0;
             var2 = _closure1_slot1;
             var1 = 0;

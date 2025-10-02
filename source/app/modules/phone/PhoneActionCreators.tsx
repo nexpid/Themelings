@@ -92,22 +92,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['removePhone'] = var8;
     var8 = function resendCode(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = {};
             var2 = _closure1_slot4;
             var1 = var2.getFingerprint;
             var1 = var1.bind(var2)();
             var2 = null;
             var2 = var2 != var1;
-            if(!var2) { _fun0001_ip = 36; continue _fun0001 }
- 28:
+            if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = '';
             var2 = var3 !== var1;
- 36:
-            if(!var2) { _fun0001_ip = 45; continue _fun0001 }
- 39:
+case 2:
+            if(!var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var4['X-Fingerprint'] = var1;
- 45:
+case 4:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
             var1 = 5;
@@ -290,7 +290,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['validatePhoneForSupport'] = var8;
     var5 = function verifyPhone(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var4 = arguments[2];
             var3 = arguments[3];
             var2 = arg1;
@@ -298,46 +298,46 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = arg2;
             var _closure2_slot1 = var2;
             var2 = undefined;
-            if(!(var4 === var2)) { _fun0002_ip = 30; continue _fun0002 }
- 28:
+            if(!(var4 === var2)) { _fun0002_ip = 6; continue _fun0002 }
+case 3:
             var4 = true;
- 30:
+case 6:
             var _closure2_slot2 = var4;
-            if(!(var3 === var2)) { _fun0002_ip = 40; continue _fun0002 }
- 38:
+            if(!(var3 === var2)) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
             var3 = false;
- 40:
+case 7:
             var _closure2_slot3 = var3;
             var3 = _closure1_slot3;
             var1 = function* () {
                 var1 = function* anon_0_() {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0003_ip = 283; continue _fun0003 }
- 10:
+                        if(var2) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
                         var8 = {};
                         var3 = _closure1_slot4;
                         var2 = var3.getFingerprint;
                         var2 = var2.bind(var3)();
                         var3 = null;
                         var3 = var3 != var2;
-                        if(!var3) { _fun0003_ip = 46; continue _fun0003 }
- 38:
+                        if(!var3) { _fun0003_ip = 11; continue _fun0003 }
+case 8:
                         var4 = '';
                         var3 = var4 !== var2;
- 46:
-                        if(!var3) { _fun0003_ip = 55; continue _fun0003 }
- 49:
+case 11:
+                        if(!var3) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
                         var8['X-Fingerprint'] = var2;
- 55:
+case 12:
                         var2 = _closure2_slot3;
-                        if(!var2) { _fun0003_ip = 75; continue _fun0003 }
- 65:
+                        if(!var2) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
                         var2 = '';
                         var8['authorization'] = var2;
- 75:
+case 14:
                         var4 = _closure1_slot1;
                         var11 = _closure1_slot2;
                         var2 = 6;
@@ -371,15 +371,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2['rejectWithError'] = var8;
                         var2 = var4.bind(var7)(var2);
                         SaveGenerator(address=209);
- 207:
+case 16:
                         return var2;
- 209:
+case 17:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                        if(var4) { _fun0003_ip = 280; continue _fun0003 }
- 215:
+                        if(var4) { _fun0003_ip = 18; continue _fun0003 }
+case 19:
                         var3 = _closure2_slot2;
-                        if(!var3) { _fun0003_ip = 272; continue _fun0003 }
- 222:
+                        if(!var3) { _fun0003_ip = 20; continue _fun0003 }
+case 21:
                         var4 = _closure1_slot1;
                         var7 = _closure1_slot2;
                         var3 = 4;
@@ -392,12 +392,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var6 = _closure1_slot5;
                         var3['key'] = var6;
                         var3 = var4.bind(var5)(var3);
- 272:
+case 20:
                         var3 = var2.body;
                         return var3;
- 280:
+case 18:
                         return var2;
- 283:
+case 9:
                         return var1;
                     }
                 };

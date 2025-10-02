@@ -41,7 +41,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useFilteredGuilds(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var9 = var1.isGuildIncluded;
             var _closure2_slot0 = var9;
@@ -102,14 +102,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[3] = var9;
             var5 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = _closure2_slot3;
                     var4 = null;
-                    if(!(var4 != var3)) { _fun0002_ip = 69; continue _fun0002 }
- 15:
+                    if(!(var4 != var3)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var3 = _closure2_slot0;
-                    if(!(var4 != var3)) { _fun0002_ip = 46; continue _fun0002 }
- 23:
+                    if(!(var4 != var3)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var5 = _closure2_slot1;
                     var4 = var5.filter;
                     var3 = function(arg1) {
@@ -132,10 +132,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     };
                     var3 = var4.bind(var5)(var3);
-                    _fun0002_ip = 50; continue _fun0002;
- 46:
+                    _fun0002_ip = 6; continue _fun0002;
+case 4:
                     var3 = _closure2_slot1;
- 50:
+case 6:
                     var2 = var3.map;
                     var1 = function(arg1) {
                         var2 = _closure2_slot2;
@@ -159,10 +159,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     };
                     var1 = var2.bind(var3)(var1);
-                    _fun0002_ip = 73; continue _fun0002;
- 69:
+                    _fun0002_ip = 7; continue _fun0002;
+case 2:
                     var1 = new Array(0);
- 73:
+case 7:
                     return var1;
                 }
             };
@@ -170,10 +170,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['options'] = var5;
             var5 = null;
             var5 = var5 == var4;
-            if(var5) { _fun0001_ip = 227; continue _fun0001 }
- 223:
+            if(var5) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var2 = var3[var4];
- 227:
+case 8:
             var1['selectedGuild'] = var2;
             return var1;
         }

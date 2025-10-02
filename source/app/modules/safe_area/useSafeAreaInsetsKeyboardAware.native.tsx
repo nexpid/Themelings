@@ -37,36 +37,36 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useSafeAreaInsetsKeyboardAware() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arguments[0];
             var7 = undefined;
-            if(!(var1 === var7)) { _fun0001_ip = 13; continue _fun0001 }
- 11:
+            if(!(var1 === var7)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = {};
- 13:
+case 2:
             var8 = var1.isKeyboardAwareOnIOS;
-            if(!(var8 === var7)) { _fun0001_ip = 27; continue _fun0001 }
- 25:
+            if(!(var8 === var7)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var8 = true;
- 27:
+case 4:
             var _closure2_slot0 = var8;
             var5 = var1.isKeyboardAwareOnAndroid;
-            if(!(var5 === var7)) { _fun0001_ip = 43; continue _fun0001 }
- 41:
+            if(!(var5 === var7)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var5 = true;
- 43:
+case 6:
             var _closure2_slot1 = var5;
             var3 = var1.includeCustomKeyboardHeight;
-            if(!(var3 === var7)) { _fun0001_ip = 59; continue _fun0001 }
- 57:
+            if(!(var3 === var7)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var3 = true;
- 59:
+case 8:
             var _closure2_slot2 = var3;
             var1 = var1.includeKeyboardHeight;
-            if(!(var1 === var7)) { _fun0001_ip = 75; continue _fun0001 }
- 73:
+            if(!(var1 === var7)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var1 = false;
- 75:
+case 10:
             var _closure2_slot3 = var7;
             var _closure2_slot4 = var7;
             var _closure2_slot5 = var7;
@@ -84,7 +84,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[2] = var5;
             var3 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var2 = _closure1_slot0;
                     var1 = _closure1_slot2;
                     var4 = 6;
@@ -93,28 +93,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var2.bind(var5)(var1);
                     var1 = var2.isIOS;
                     var1 = var1.bind(var2)();
-                    if(!var1) { _fun0002_ip = 52; continue _fun0002 }
- 38:
+                    if(!var1) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
                     var1 = _closure2_slot0;
-                    if(var1) { _fun0002_ip = 52; continue _fun0002 }
- 48:
+                    if(var1) { _fun0002_ip = 12; continue _fun0002 }
+case 14:
                     var1 = 0;
                     return var1;
- 52:
+case 12:
                     var2 = _closure1_slot0;
                     var1 = _closure1_slot2;
                     var1 = var1[var4];
                     var2 = var2.bind(var5)(var1);
                     var1 = var2.isAndroid;
                     var1 = var1.bind(var2)();
-                    if(!var1) { _fun0002_ip = 95; continue _fun0002 }
- 81:
+                    if(!var1) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
                     var1 = _closure2_slot1;
-                    if(var1) { _fun0002_ip = 95; continue _fun0002 }
- 91:
+                    if(var1) { _fun0002_ip = 15; continue _fun0002 }
+case 17:
                     var1 = 0;
                     return var1;
- 95:
+case 15:
                     var2 = _closure1_slot0;
                     var4 = _closure1_slot2;
                     var1 = 7;
@@ -123,8 +123,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var2.getSystemKeyboardHeight;
                     var1 = var1.bind(var2)();
                     var6 = 0;
-                    if(!(var6 === var1)) { _fun0002_ip = 236; continue _fun0002 }
- 131:
+                    if(!(var6 === var1)) { _fun0002_ip = 18; continue _fun0002 }
+case 19:
                     var4 = _closure1_slot0;
                     var8 = _closure1_slot2;
                     var2 = 8;
@@ -138,12 +138,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var2.KeyboardTypes;
                     var4 = var2.SYSTEM;
                     var2 = 0;
-                    if(!(var7 !== var4)) { _fun0002_ip = 233; continue _fun0002 }
- 191:
+                    if(!(var7 !== var4)) { _fun0002_ip = 20; continue _fun0002 }
+case 21:
                     var4 = _closure2_slot2;
                     var2 = 0;
-                    if(!var4) { _fun0002_ip = 233; continue _fun0002 }
- 203:
+                    if(!var4) { _fun0002_ip = 20; continue _fun0002 }
+case 22:
                     var4 = _closure1_slot0;
                     var6 = _closure1_slot2;
                     var3 = 10;
@@ -151,9 +151,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var4.bind(var5)(var3);
                     var3 = var4.getCustomKeyboardHeight;
                     var2 = var3.bind(var4)();
- 233:
+case 20:
                     var1 = var2;
- 236:
+case 18:
                     return var1;
                 }
             };
@@ -184,19 +184,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = undefined;
                 var1 = function() {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                         var3 = _closure2_slot3;
                         var1 = undefined;
                         var3 = var3.bind(var1)();
                         var4 = _closure2_slot4;
                         var4 = var4.current;
-                        if(!(var4 !== var3)) { _fun0003_ip = 45; continue _fun0003 }
- 26:
+                        if(!(var4 !== var3)) { _fun0003_ip = 23; continue _fun0003 }
+case 24:
                         var4 = _closure2_slot4;
                         var4['current'] = var3;
                         var2 = _closure2_slot5;
                         var2 = var2.bind(var1)(var3);
- 45:
+case 23:
                         return var1;
                     }
                 };
@@ -207,12 +207,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = {};
             var5['keyboardHeight'] = var3;
             var8 = !var8;
-            if(var8) { _fun0001_ip = 265; continue _fun0001 }
- 262:
+            if(var8) { _fun0001_ip = 25; continue _fun0001 }
+case 26:
             var8 = !var1;
- 265:
-            if(var8) { _fun0001_ip = 297; continue _fun0001 }
- 268:
+case 25:
+            if(var8) { _fun0001_ip = 27; continue _fun0001 }
+case 28:
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
             var9 = 6;
@@ -220,7 +220,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var10.bind(var7)(var9);
             var9 = var10.isAndroid;
             var8 = var9.bind(var10)();
- 297:
+case 27:
             var5['disabled'] = var8;
             var2 = function useAnimateChanges(arg1) {
                 var2 = arg1;
@@ -238,7 +238,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2[1] = var5;
                 var1 = function() {
                     _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                         var4 = _closure1_slot0;
                         var2 = _closure1_slot2;
                         var1 = 3;
@@ -249,14 +249,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var5 = var2.bind(var4)();
                         var4 = _closure3_slot1;
                         var4 = var4.current;
-                        if(!var4) { _fun0004_ip = 96; continue _fun0004 }
- 50:
+                        if(!var4) { _fun0004_ip = 29; continue _fun0004 }
+case 30:
                         var4 = 0;
-                        if(!(var4 !== var5)) { _fun0004_ip = 96; continue _fun0004 }
- 56:
+                        if(!(var4 !== var5)) { _fun0004_ip = 29; continue _fun0004 }
+case 31:
                         var4 = _closure3_slot0;
-                        if(var4) { _fun0004_ip = 96; continue _fun0004 }
- 63:
+                        if(var4) { _fun0004_ip = 29; continue _fun0004 }
+case 32:
                         var4 = _closure1_slot0;
                         var6 = _closure1_slot2;
                         var3 = 4;
@@ -264,12 +264,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var4 = var4.bind(var1)(var3);
                         var3 = var4.DeprecatedLayoutAnimationKeyboard;
                         var3 = var3.bind(var4)(var5);
-                        _fun0004_ip = 108; continue _fun0004;
- 96:
+                        _fun0004_ip = 33; continue _fun0004;
+case 29:
                         var3 = _closure3_slot1;
                         var2 = true;
                         var3['current'] = var2;
- 108:
+case 33:
                         return var1;
                     }
                 };
@@ -279,14 +279,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var2 = var2.bind(var7)(var5);
             var5 = 0;
-            if(!var1) { _fun0001_ip = 319; continue _fun0001 }
- 316:
+            if(!var1) { _fun0001_ip = 34; continue _fun0001 }
+case 35:
             var5 = var3;
- 319:
+case 34:
             var1 = {};
             var2 = var4;
-            if(!(var3 > var6)) { _fun0001_ip = 352; continue _fun0001 }
- 328:
+            if(!(var3 > var6)) { _fun0001_ip = 36; continue _fun0001 }
+case 37:
             var3 = {};
             var15 = var3;
             var14 = var4;
@@ -294,7 +294,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = 'bottom';
             var3[var4] = var5;
             var2 = var3;
- 352:
+case 36:
             var1['insets'] = var2;
             return var1;
         }

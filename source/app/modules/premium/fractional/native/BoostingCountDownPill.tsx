@@ -116,7 +116,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function BoostingCountDownPill(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var18 = var1.fpDurationText;
             var17 = var1.isInReverseTrial;
@@ -130,10 +130,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = 0.7;
             var1['activeOpacity'] = var5;
             var5 = undefined;
-            if(var17) { _fun0001_ip = 67; continue _fun0001 }
- 63:
+            if(var17) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = _closure1_slot8;
- 67:
+case 2:
             var1['onPress'] = var5;
             var7 = _closure1_slot6;
             var6 = _closure1_slot4;
@@ -144,8 +144,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8[1] = var9;
             var5['style'] = var8;
             var9 = !var17;
-            if(!var9) { _fun0001_ip = 206; continue _fun0001 }
- 109:
+            if(!var9) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var11 = _closure1_slot5;
             var10 = _closure1_slot4;
             var8 = {};
@@ -168,7 +168,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var11.bind(var4)(var13, var12);
             var8['children'] = var12;
             var9 = var11.bind(var4)(var10, var8);
- 206:
+case 4:
             var8 = new Array(2);
             var8[0] = var9;
             var11 = _closure1_slot5;
@@ -184,10 +184,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var12.Text;
             var12 = {'variant': 'text-md/normal', 'color': 'interactive-active'};
             var15 = undefined;
-            if(!var17) { _fun0001_ip = 284; continue _fun0001 }
- 278:
+            if(!var17) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var15 = var16.fpUnavailableTextNoCountdown;
- 284:
+case 6:
             var12['style'] = var15;
             var17 = _closure1_slot0;
             var18 = _closure1_slot2;

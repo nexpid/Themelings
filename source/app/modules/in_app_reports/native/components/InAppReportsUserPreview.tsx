@@ -70,7 +70,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function UserPreview(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var13 = var1.user;
             var1 = _closure1_slot6;
@@ -144,8 +144,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var13.globalName;
             var9 = null;
             var11 = var9 != var11;
-            if(!var11) { _fun0001_ip = 395; continue _fun0001 }
- 339:
+            if(!var11) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var15 = _closure1_slot4;
             var12 = _closure1_slot0;
             var9 = _closure1_slot2;
@@ -156,7 +156,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = var13.globalName;
             var9['children'] = var16;
             var11 = var15.bind(var4)(var12, var9);
- 395:
+case 2:
             var9 = new Array(2);
             var9[0] = var11;
             var12 = _closure1_slot4;

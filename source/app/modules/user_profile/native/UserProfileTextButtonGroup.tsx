@@ -56,7 +56,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function UserProfileTextButtonGroup(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var11 = var1.primaryButton;
             var7 = var1.secondaryButton;
@@ -74,13 +74,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var1.width;
             var2 = null;
             var5 = var10;
-            if(!(var2 != var12)) { _fun0001_ip = 96; continue _fun0001 }
- 77:
+            if(!(var2 != var12)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = global;
             var4 = var1.Math;
             var1 = var4.min;
             var5 = var1.bind(var4)(var10, var12);
- 96:
+case 2:
             var1 = _closure1_slot3;
             var4 = 2;
             var1 = var4 * var1;
@@ -88,16 +88,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = 12;
             var1 = var5 - var1;
             var16 = var1 / var4;
-            if(!(var2 == var11)) { _fun0001_ip = 138; continue _fun0001 }
- 126:
+            if(!(var2 == var11)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var4 = var2 == var7;
             var1 = null;
-            if(var4) { _fun0001_ip = 380; continue _fun0001 }
- 138:
-            if(!(var2 != var11)) { _fun0001_ip = 336; continue _fun0001 }
- 145:
-            if(!(var2 != var7)) { _fun0001_ip = 293; continue _fun0001 }
- 152:
+            if(var4) { _fun0001_ip = 6; continue _fun0001 }
+case 4:
+            if(!(var2 != var11)) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
+            if(!(var2 != var7)) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var5 = _closure1_slot5;
             var4 = _closure1_slot2;
             var2 = {};
@@ -132,8 +132,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10[1] = var12;
             var2['children'] = var10;
             var2 = var5.bind(var6)(var4, var2);
-            _fun0001_ip = 334; continue _fun0001;
- 293:
+            _fun0001_ip = 11; continue _fun0001;
+case 9:
             var10 = _closure1_slot4;
             var5 = _closure1_slot2;
             var4 = {};
@@ -144,9 +144,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4['style'] = var12;
             var4['children'] = var11;
             var2 = var10.bind(var6)(var5, var4);
- 334:
-            _fun0001_ip = 377; continue _fun0001;
- 336:
+case 11:
+            _fun0001_ip = 12; continue _fun0001;
+case 7:
             var5 = _closure1_slot4;
             var4 = _closure1_slot2;
             var3 = {};
@@ -157,9 +157,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['style'] = var8;
             var3['children'] = var7;
             var2 = var5.bind(var6)(var4, var3);
- 377:
+case 12:
             var1 = var2;
- 380:
+case 6:
             return var1;
         }
     };

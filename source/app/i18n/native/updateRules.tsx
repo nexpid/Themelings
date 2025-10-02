@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var7;
     var2 = function I18nLink(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var5 = var1.node;
             var _closure2_slot0 = var5;
@@ -47,16 +47,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8[1] = var3;
             var3 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var1 = {};
                     var3 = _closure2_slot2;
                     var1['color'] = var3;
                     var3 = _closure2_slot1;
                     var2 = 'none';
-                    if(!var3) { _fun0002_ip = 28; continue _fun0002 }
- 24:
+                    if(!var3) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var2 = 'underline';
- 28:
+case 2:
                     var1['textDecorationLine'] = var2;
                     return var1;
                 }
@@ -64,25 +64,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var10.bind(var11)(var3, var8);
             var3 = var5.context;
             var10 = null;
-            if(!(var10 != var3)) { _fun0001_ip = 230; continue _fun0001 }
- 183:
+            if(!(var10 != var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var11 = var5.context;
             var3 = var5.target;
             var3 = var11[var3];
-            if(!var3) { _fun0001_ip = 210; continue _fun0001 }
- 201:
+            if(!var3) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var11 = var3.onClick;
-            if(var11) { _fun0001_ip = 218; continue _fun0001 }
- 210:
+            if(var11) { _fun0001_ip = 8; continue _fun0001 }
+case 6:
             var9['onClick'] = var3;
-            _fun0001_ip = 230; continue _fun0001;
- 218:
+            _fun0001_ip = 4; continue _fun0001;
+case 8:
             var3 = var3.onClick;
             var9['onClick'] = var3;
- 230:
+case 4:
             var3 = var9.onClick;
-            if(!(var10 == var3)) { _fun0001_ip = 253; continue _fun0001 }
- 240:
+            if(!(var10 == var3)) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var2 = function() {
                 var5 = _closure1_slot1;
                 var6 = _closure1_slot2;
@@ -102,7 +102,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var9['onClick'] = var2;
- 253:
+case 9:
             var3 = _closure1_slot4;
             var2 = _closure1_slot1;
             var10 = _closure1_slot2;

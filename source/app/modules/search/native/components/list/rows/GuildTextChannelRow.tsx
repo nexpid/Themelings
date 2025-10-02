@@ -34,7 +34,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function GuildTextChannelRow(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arg1;
             var8 = var5.channel;
             var _closure2_slot0 = var8;
@@ -58,8 +58,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var8.guild_id;
             var _closure2_slot3 = var12;
             var1 = var3 != var9;
-            if(!var1) { _fun0001_ip = 137; continue _fun0001 }
- 103:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = _closure1_slot1;
             var10 = _closure1_slot2;
             var1 = 3;
@@ -67,7 +67,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.bind(var4)(var1);
             var1 = var6.extractTimestamp;
             var3 = var1.bind(var6)(var9);
- 137:
+case 2:
             _closure2_slot4 = var3;
             var10 = _closure1_slot3;
             var9 = var10.useMemo;
@@ -77,7 +77,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[2] = var3;
             var3 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var2 = _closure1_slot0;
                     var3 = _closure1_slot2;
                     var1 = 4;
@@ -89,8 +89,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = _closure2_slot4;
                     var6 = null;
                     var7 = var6 != var7;
-                    if(!var7) { _fun0002_ip = 84; continue _fun0002 }
- 49:
+                    if(!var7) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var8 = _closure1_slot0;
                     var10 = _closure1_slot2;
                     var7 = 5;
@@ -99,7 +99,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = var9.getChannelActiveAgoTimestamp;
                     var7 = _closure2_slot4;
                     var6 = var8.bind(var9)(var7);
- 84:
+case 4:
                     var1['subtitle'] = var6;
                     var5 = _closure1_slot4;
                     var1['layout'] = var5;

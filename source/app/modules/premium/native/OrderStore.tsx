@@ -8,8 +8,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var6;
     var1 = function _isNativeReflectConstruct() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
- 2: // try_start_0
+case 0:
+case 2: // try_start_0
             var2 = global;
             var3 = var2.Boolean;
             var3 = var3.prototype;
@@ -27,11 +27,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var4)(var2);
             var2 = !var2;
             var _closure2_slot0 = var2;
- 70: // try_end0
-            _fun0001_ip = 74; continue _fun0001;
- 72: // catch_target0
+case 3: // try_end0
+            _fun0001_ip = 4; continue _fun0001;
+case 5: // catch_target0
             CatchBlockStart(arg_register=1);
- 74:
+case 4:
             var2 = function _isNativeReflectConstruct() {
                 var1 = _closure2_slot0;
                 var1 = !var1;
@@ -114,7 +114,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function(arg1) {
         var4 = function OrderStore() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var4 = this;
                 var3 = undefined;
                 var5 = undefined;
@@ -126,14 +126,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = _closure1_slot5;
                 var1 = _closure1_slot15;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0002_ip = 69; continue _fun0002 }
- 51:
+                if(var1) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                 var7 = var9.apply;
                 var5 = arguments;
                 var1 = var5;
                 var1 = var7.bind(var9)(var4, var1);
-                _fun0002_ip = 105; continue _fun0002;
- 69:
+                _fun0002_ip = 8; continue _fun0002;
+case 6:
                 var7 = global;
                 var8 = var7.Reflect;
                 var7 = var8.construct;
@@ -142,7 +142,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var6.constructor;
                 var5 = arguments;
                 var1 = var7.bind(var8)(var9, var5, var6);
- 105:
+case 8:
                 var1 = var2.bind(var3)(var4, var1);
                 return var1;
             }
@@ -188,37 +188,37 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = function* (arg1) {
             var1 = function* anon_0_(arg1) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(var3) { _fun0003_ip = 88; continue _fun0003 }
- 9:
+                    if(var3) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
                     var3 = arg1;
                     var _closure4_slot0 = var3;
                     var5 = _closure1_slot13;
                     var4 = null;
-                    if(!(var4 != var5)) { _fun0003_ip = 46; continue _fun0003 }
- 29:
+                    if(!(var4 != var5)) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
                     var4 = _closure1_slot13;
                     SaveGenerator(address=37);
- 35:
+case 13:
                     return var4;
- 37:
+case 14:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                    if(!var5) { _fun0003_ip = 80; continue _fun0003 }
- 43:
+                    if(!var5) { _fun0003_ip = 15; continue _fun0003 }
+case 16:
                     return var4;
- 46:
+case 11:
                     var5 = _closure1_slot2;
                     var4 = undefined;
                     var2 = function* () {
                         var1 = function* anon_0_() {
                             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                                 StartGenerator();
                                 ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                                if(var2) { _fun0004_ip = 165; continue _fun0004 }
- 10: // try_start_0 // try_start_1
+                                if(var2) { _fun0004_ip = 17; continue _fun0004 }
+case 18: // try_start_0 // try_start_1
                                 var5 = _closure1_slot0;
                                 var3 = _closure1_slot1;
                                 var2 = 9;
@@ -229,27 +229,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 var2 = _closure4_slot0;
                                 var2 = var6.bind(var7)(var2);
                                 SaveGenerator(address=57);
- 55:
+case 19:
                                 return var2;
- 57:
+case 20:
                                 ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                                if(var6) { _fun0004_ip = 90; continue _fun0004 }
- 63:
+                                if(var6) { _fun0004_ip = 21; continue _fun0004 }
+case 22:
                                 var6 = _closure1_slot12;
                                 var5 = _closure4_slot0;
-                                if(!(var6 === var5)) { _fun0004_ip = 81; continue _fun0004 }
- 75:
+                                if(!(var6 === var5)) { _fun0004_ip = 23; continue _fun0004 }
+case 24:
                                 var5 = null;
                                 _closure1_slot12 = var5;
- 81: // try_end0 // try_end1
+case 23: // try_end0 // try_end1
                                 var5 = null;
                                 _closure1_slot13 = var5;
                                 return var3;
- 90:
+case 21:
                                 var3 = null;
                                 _closure1_slot13 = var3;
                                 return var2;
- 99: // try_start_2 // catch_target0
+case 25: // try_start_2 // catch_target0
                                 CatchBlockStart(arg_register=1);
                                 var5 = _closure1_slot9;
                                 var4 = var5.error;
@@ -261,12 +261,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 var3 = var6.bind(var3)(var7);
                                 var3 = var4.bind(var5)(var3, var2);
                                 throw var2;
- 152: // try_end2 // catch_target1 // catch_target2
+case 26: // try_end2 // catch_target1 // catch_target2
                                 CatchBlockStart(arg_register=1);
                                 var3 = null;
                                 _closure1_slot13 = var3;
                                 throw var2;
- 165:
+case 17:
                                 return var1;
                             }
                         };
@@ -276,17 +276,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var2.bind(var4)();
                     _closure1_slot13 = var2;
                     SaveGenerator(address=74);
- 72:
+case 5:
                     return var2;
- 74:
+case 4:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0003_ip = 85; continue _fun0003 }
- 80:
+                    if(var3) { _fun0003_ip = 27; continue _fun0003 }
+case 15:
                     var3 = undefined;
                     return var3;
- 85:
+case 27:
                     return var2;
- 88:
+case 9:
                     return var1;
                 }
             };
@@ -326,16 +326,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = {};
     var7 = function handleOrderCreateStart(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = null;
-            if(!(var2 != var1)) { _fun0005_ip = 22; continue _fun0005 }
- 9:
+            if(!(var2 != var1)) { _fun0005_ip = 28; continue _fun0005 }
+case 10:
             var1 = true;
             _closure1_slot10 = var1;
             var1 = undefined;
             return var1;
- 22:
+case 28:
             var4 = "Cannot destructure 'undefined' or 'null'.";
             var5 = var2;
             var1 = throwTypeError(var5, var4);
@@ -356,17 +356,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['ORDER_CREATE_SUCCESS'] = var7;
     var7 = function handleOrderCreateFail(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
- 0:
+case 0:
             var2 = arg1;
             var3 = null;
-            if(!(var2 != var3)) { _fun0006_ip = 26; continue _fun0006 }
- 9:
+            if(!(var2 != var3)) { _fun0006_ip = 29; continue _fun0006 }
+case 10:
             var4 = false;
             _closure1_slot10 = var4;
             _closure1_slot12 = var3;
             var1 = undefined;
             return var1;
- 26:
+case 29:
             var5 = "Cannot destructure 'undefined' or 'null'.";
             var6 = var2;
             var1 = throwTypeError(var6, var5);
@@ -377,16 +377,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['ORDER_CREATE_FAIL'] = var7;
     var7 = function handleOrderUpdateStart(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = null;
-            if(!(var2 != var1)) { _fun0007_ip = 22; continue _fun0007 }
- 9:
+            if(!(var2 != var1)) { _fun0007_ip = 28; continue _fun0007 }
+case 10:
             var1 = true;
             _closure1_slot11 = var1;
             var1 = undefined;
             return var1;
- 22:
+case 28:
             var4 = "Cannot destructure 'undefined' or 'null'.";
             var5 = var2;
             var1 = throwTypeError(var5, var4);
@@ -397,16 +397,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['ORDER_UPDATE_START'] = var7;
     var7 = function handleOrderUpdateSuccess(arg1) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = null;
-            if(!(var2 != var1)) { _fun0008_ip = 22; continue _fun0008 }
- 9:
+            if(!(var2 != var1)) { _fun0008_ip = 28; continue _fun0008 }
+case 10:
             var1 = false;
             _closure1_slot11 = var1;
             var1 = undefined;
             return var1;
- 22:
+case 28:
             var4 = "Cannot destructure 'undefined' or 'null'.";
             var5 = var2;
             var1 = throwTypeError(var5, var4);
@@ -417,16 +417,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['ORDER_UPDATE_SUCCESS'] = var7;
     var7 = function handleOrderUpdateFail(arg1) {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = null;
-            if(!(var2 != var1)) { _fun0009_ip = 22; continue _fun0009 }
- 9:
+            if(!(var2 != var1)) { _fun0009_ip = 28; continue _fun0009 }
+case 10:
             var1 = false;
             _closure1_slot11 = var1;
             var1 = undefined;
             return var1;
- 22:
+case 28:
             var4 = "Cannot destructure 'undefined' or 'null'.";
             var5 = var2;
             var1 = throwTypeError(var5, var4);
@@ -437,16 +437,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['ORDER_UPDATE_FAIL'] = var7;
     var7 = function handleOrderMarkSigningStart(arg1) {
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = null;
-            if(!(var2 != var1)) { _fun0010_ip = 22; continue _fun0010 }
- 9:
+            if(!(var2 != var1)) { _fun0010_ip = 28; continue _fun0010 }
+case 10:
             var1 = true;
             _closure1_slot11 = var1;
             var1 = undefined;
             return var1;
- 22:
+case 28:
             var4 = "Cannot destructure 'undefined' or 'null'.";
             var5 = var2;
             var1 = throwTypeError(var5, var4);
@@ -457,17 +457,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['ORDER_MARK_SIGNING_START'] = var7;
     var7 = function handleOrderMarkSigningSuccess(arg1) {
         _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
- 0:
+case 0:
             var1 = arg1;
             var3 = var1.orderId;
             var1 = false;
             _closure1_slot11 = var1;
             var1 = _closure1_slot12;
-            if(!(var1 === var3)) { _fun0011_ip = 32; continue _fun0011 }
- 26:
+            if(!(var1 === var3)) { _fun0011_ip = 30; continue _fun0011 }
+case 29:
             var1 = null;
             _closure1_slot12 = var1;
- 32:
+case 30:
             var1 = undefined;
             return var1;
         }
@@ -475,17 +475,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['ORDER_MARK_SIGNING_SUCCESS'] = var7;
     var7 = function handleOrderMarkSigningFail(arg1) {
         _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
- 0:
+case 0:
             var1 = arg1;
             var3 = var1.orderId;
             var1 = false;
             _closure1_slot11 = var1;
             var1 = _closure1_slot12;
-            if(!(var1 === var3)) { _fun0012_ip = 32; continue _fun0012 }
- 26:
+            if(!(var1 === var3)) { _fun0012_ip = 30; continue _fun0012 }
+case 29:
             var1 = null;
             _closure1_slot12 = var1;
- 32:
+case 30:
             var1 = undefined;
             return var1;
         }
@@ -493,16 +493,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['ORDER_MARK_SIGNING_FAIL'] = var7;
     var7 = function handleGPlayPurchaseVerificationFailed(arg1) {
         _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = null;
-            if(!(var2 != var1)) { _fun0013_ip = 24; continue _fun0013 }
- 9:
+            if(!(var2 != var1)) { _fun0013_ip = 31; continue _fun0013 }
+case 10:
             var3 = _closure1_slot16;
             var1 = undefined;
             var3 = var3.bind(var1)();
             return var1;
- 24:
+case 31:
             var4 = "Cannot destructure 'undefined' or 'null'.";
             var5 = var2;
             var1 = throwTypeError(var5, var4);
@@ -513,18 +513,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['GPLAY_PURCHASE_VERIFICATION_FAILED'] = var7;
     var7 = function handleGPlayUpdatePurchaseState(arg1) {
         _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
- 0:
+case 0:
             var1 = arg1;
             var3 = var1.billingResult;
             var2 = _closure1_slot8;
             var2 = var2.OK;
-            if(!(var3 !== var2)) { _fun0014_ip = 38; continue _fun0014 }
- 26:
+            if(!(var3 !== var2)) { _fun0014_ip = 32; continue _fun0014 }
+case 29:
             var3 = _closure1_slot16;
             var2 = undefined;
             var2 = var3.bind(var2)();
-            _fun0014_ip = 119; continue _fun0014;
- 38:
+            _fun0014_ip = 33; continue _fun0014;
+case 32:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
             var2 = 8;
@@ -533,12 +533,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.bind(var2)(var3);
             var2 = var3.isAndroid;
             var2 = var2.bind(var3)();
-            if(!var2) { _fun0014_ip = 123; continue _fun0014 }
- 72:
+            if(!var2) { _fun0014_ip = 34; continue _fun0014 }
+case 5:
             var3 = _closure1_slot12;
             var2 = null;
-            if(!(var2 != var3)) { _fun0014_ip = 123; continue _fun0014 }
- 82:
+            if(!(var2 != var3)) { _fun0014_ip = 34; continue _fun0014 }
+case 35:
             var3 = _closure1_slot14;
             var2 = var3.startOrderSigningSafely;
             var1 = _closure1_slot12;
@@ -549,10 +549,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var1 = var2.bind(var3)(var1);
- 119:
+case 33:
             var1 = undefined;
             return var1;
- 123:
+case 34:
             var1 = false;
             return var1;
         }

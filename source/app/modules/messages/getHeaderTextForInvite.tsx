@@ -22,7 +22,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function getHeaderTextForInvite(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var9 = var4.isVoiceChannel;
             var1 = var4.isHubGuild;
@@ -41,88 +41,88 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var12[var4];
             var4 = var11.bind(var10)(var4);
             var4 = var4.t;
-            if(var9) { _fun0001_ip = 165; continue _fun0001 }
- 90:
-            if(var1) { _fun0001_ip = 126; continue _fun0001 }
- 93:
-            if(var2) { _fun0001_ip = 111; continue _fun0001 }
- 96:
+            if(var9) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            if(var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            if(var2) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var1 = var4.BoQUFR;
             var1 = var5.bind(var6)(var1);
-            _fun0001_ip = 124; continue _fun0001;
- 111:
+            _fun0001_ip = 8; continue _fun0001;
+case 6:
             var9 = var4.oU/lsr;
             var1 = var5.bind(var6)(var9);
- 124:
-            _fun0001_ip = 160; continue _fun0001;
- 126:
-            if(var2) { _fun0001_ip = 144; continue _fun0001 }
- 129:
+case 8:
+            _fun0001_ip = 9; continue _fun0001;
+case 4:
+            if(var2) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var9 = var4.sigPER;
             var9 = var5.bind(var6)(var9);
-            _fun0001_ip = 157; continue _fun0001;
- 144:
+            _fun0001_ip = 12; continue _fun0001;
+case 10:
             var10 = var4.UxmnHx;
             var9 = var5.bind(var6)(var10);
- 157:
+case 12:
             var1 = var9;
- 160:
-            _fun0001_ip = 310; continue _fun0001;
- 165:
-            if(var2) { _fun0001_ip = 237; continue _fun0001 }
- 168:
-            if(var8) { _fun0001_ip = 222; continue _fun0001 }
- 171:
-            if(var7) { _fun0001_ip = 207; continue _fun0001 }
- 174:
-            if(var3) { _fun0001_ip = 192; continue _fun0001 }
- 177:
+case 9:
+            _fun0001_ip = 13; continue _fun0001;
+case 2:
+            if(var2) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
+            if(var8) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
+            if(var7) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
+            if(var3) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
             var2 = var4.H39rER;
             var2 = var5.bind(var6)(var2);
-            _fun0001_ip = 205; continue _fun0001;
- 192:
+            _fun0001_ip = 22; continue _fun0001;
+case 20:
             var9 = var4.f4gmra;
             var2 = var5.bind(var6)(var9);
- 205:
-            _fun0001_ip = 220; continue _fun0001;
- 207:
+case 22:
+            _fun0001_ip = 23; continue _fun0001;
+case 18:
             var9 = var4.FdPNr6;
             var2 = var5.bind(var6)(var9);
- 220:
-            _fun0001_ip = 235; continue _fun0001;
- 222:
+case 23:
+            _fun0001_ip = 24; continue _fun0001;
+case 16:
             var9 = var4.Mnvc3N;
             var2 = var5.bind(var6)(var9);
- 235:
-            _fun0001_ip = 307; continue _fun0001;
- 237:
-            if(var8) { _fun0001_ip = 291; continue _fun0001 }
- 240:
-            if(var7) { _fun0001_ip = 276; continue _fun0001 }
- 243:
-            if(var3) { _fun0001_ip = 261; continue _fun0001 }
- 246:
+case 24:
+            _fun0001_ip = 25; continue _fun0001;
+case 14:
+            if(var8) { _fun0001_ip = 26; continue _fun0001 }
+case 27:
+            if(var7) { _fun0001_ip = 28; continue _fun0001 }
+case 29:
+            if(var3) { _fun0001_ip = 30; continue _fun0001 }
+case 31:
             var3 = var4.lxTgPz;
             var3 = var5.bind(var6)(var3);
-            _fun0001_ip = 274; continue _fun0001;
- 261:
+            _fun0001_ip = 32; continue _fun0001;
+case 30:
             var7 = var4.mJyBio;
             var3 = var5.bind(var6)(var7);
- 274:
-            _fun0001_ip = 289; continue _fun0001;
- 276:
+case 32:
+            _fun0001_ip = 33; continue _fun0001;
+case 28:
             var7 = var4.TJQcNj;
             var3 = var5.bind(var6)(var7);
- 289:
-            _fun0001_ip = 304; continue _fun0001;
- 291:
+case 33:
+            _fun0001_ip = 34; continue _fun0001;
+case 26:
             var4 = var4.N85DCg;
             var3 = var5.bind(var6)(var4);
- 304:
+case 34:
             var2 = var3;
- 307:
+case 25:
             var1 = var2;
- 310:
+case 13:
             return var1;
         }
     };

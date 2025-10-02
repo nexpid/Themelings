@@ -34,7 +34,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function AvatarPile(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = var1.size;
             var11 = var1.totalCount;
@@ -73,10 +73,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['size'] = var12;
             var8 = 40;
             var8 = var12 <= var8;
-            if(!var8) { _fun0001_ip = 179; continue _fun0001 }
- 176:
+            if(!var8) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = var13;
- 179:
+case 2:
             var1['gap'] = var5;
             var5 = 0.4;
             var1['depthX'] = var5;
@@ -84,12 +84,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5[0] = var6;
             var6 = null;
             var6 = var6 != var11;
-            if(!var6) { _fun0001_ip = 219; continue _fun0001 }
- 215:
+            if(!var6) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var6 = var10 < var11;
- 219:
-            if(!var6) { _fun0001_ip = 280; continue _fun0001 }
- 222:
+case 4:
+            if(!var6) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var9 = _closure1_slot3;
             var8 = _closure1_slot0;
             var14 = _closure1_slot1;
@@ -104,7 +104,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var11 - var10;
             var7['value'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 280:
+case 6:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

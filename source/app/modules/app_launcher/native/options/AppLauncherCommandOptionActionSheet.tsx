@@ -72,22 +72,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function AppLauncherCommandOptionActionSheet(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var1 = var4.option;
             var8 = var4.children;
             var10 = var4.contentContainerStyles;
             var11 = var4.scrollable;
             var5 = undefined;
-            if(!(var11 === var5)) { _fun0001_ip = 36; continue _fun0001 }
- 34:
+            if(!(var11 === var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var11 = true;
- 36:
+case 2:
             var7 = var4.startExpanded;
-            if(!(var7 === var5)) { _fun0001_ip = 48; continue _fun0001 }
- 46:
+            if(!(var7 === var5)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var7 = true;
- 48:
+case 4:
             var3 = {'option': 0, 'children': 0, 'contentContainerStyles': 0, 'scrollable': 0, 'startExpanded': 0};
             var20 = null;
             var21 = var3;
@@ -141,7 +141,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = {};
             var17 = function onPress() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
                     var1 = 9;
@@ -153,12 +153,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = _closure2_slot0;
                     var4 = var3.onDismiss;
                     var3 = null;
-                    if(!(var3 != var4)) { _fun0002_ip = 68; continue _fun0002 }
- 54:
+                    if(!(var3 != var4)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var3 = _closure2_slot0;
                     var2 = var3.onDismiss;
                     var2 = var2.bind(var3)();
- 68:
+case 6:
                     return var1;
                 }
             };

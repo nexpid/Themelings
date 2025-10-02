@@ -15,7 +15,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = var7.bind(var8)(var3, var1, var6);
     var1 = function _firstPartyTasksFromServer(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var6 = arg1;
             var1 = {};
             var2 = global;
@@ -26,12 +26,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = 0;
             var2 = var4 < var2;
             var3 = null;
-            if(!var2) { _fun0001_ip = 102; continue _fun0001 }
- 39:
+            if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var7 = var5[var4];
             var8 = var6[var7];
-            if(!(var3 != var8)) { _fun0001_ip = 90; continue _fun0001 }
- 51:
+            if(!(var3 != var8)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = {};
             var9 = var8.event_name;
             var2['eventName'] = var9;
@@ -40,18 +40,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var8.external_ids;
             var2['externalIds'] = var8;
             var1[var7] = var2;
- 90:
+case 4:
             var4 = var4 + 1;
             var2 = var5.length;
-            if(var4 < var2) { _fun0001_ip = 39; continue _fun0001 }
- 102:
+            if(var4 < var2) { _fun0001_ip = 3; continue _fun0001 }
+case 2:
             return var1;
         }
     };
     var _closure1_slot2 = var1;
     var1 = function _thirdPartyTasksFromServer(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var6 = arg1;
             var1 = {};
             var2 = global;
@@ -62,12 +62,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = 0;
             var2 = var4 < var2;
             var3 = null;
-            if(!var2) { _fun0002_ip = 109; continue _fun0002 }
- 39:
+            if(!var2) { _fun0002_ip = 6; continue _fun0002 }
+case 3:
             var7 = var5[var4];
             var8 = var6[var7];
-            if(!(var3 != var8)) { _fun0002_ip = 97; continue _fun0002 }
- 51:
+            if(!(var3 != var8)) { _fun0002_ip = 7; continue _fun0002 }
+case 5:
             var2 = {};
             var9 = var8.event_name;
             var2['eventName'] = var9;
@@ -78,18 +78,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var8.description;
             var2['description'] = var8;
             var1[var7] = var2;
- 97:
+case 7:
             var4 = var4 + 1;
             var2 = var5.length;
-            if(var4 < var2) { _fun0002_ip = 39; continue _fun0002 }
- 109:
+            if(var4 < var2) { _fun0002_ip = 3; continue _fun0002 }
+case 6:
             return var1;
         }
     };
     var _closure1_slot3 = var1;
     var1 = function _questTaskFromServer(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var2 = arg1;
             var4 = var2.type;
             var7 = _closure1_slot0;
@@ -100,75 +100,75 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var7.bind(var5)(var1);
             var1 = var1.FirstPartyQuestTaskTypes;
             var1 = var1.WATCH_VIDEO;
-            if(!(var1 !== var4)) { _fun0003_ip = 927; continue _fun0003 }
- 52:
+            if(!(var1 !== var4)) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
             var7 = _closure1_slot0;
             var1 = _closure1_slot1;
             var1 = var1[var3];
             var1 = var7.bind(var5)(var1);
             var1 = var1.FirstPartyQuestTaskTypes;
             var1 = var1.WATCH_VIDEO_ON_MOBILE;
-            if(!(var1 !== var4)) { _fun0003_ip = 814; continue _fun0003 }
- 88:
+            if(!(var1 !== var4)) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
             var7 = _closure1_slot0;
             var1 = _closure1_slot1;
             var1 = var1[var3];
             var1 = var7.bind(var5)(var1);
             var1 = var1.FirstPartyQuestTaskTypes;
             var1 = var1.PLAY_ON_DESKTOP;
-            if(!(var1 !== var4)) { _fun0003_ip = 755; continue _fun0003 }
- 124:
+            if(!(var1 !== var4)) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
             var7 = _closure1_slot0;
             var1 = _closure1_slot1;
             var1 = var1[var3];
             var1 = var7.bind(var5)(var1);
             var1 = var1.FirstPartyQuestTaskTypes;
             var1 = var1.STREAM_ON_DESKTOP;
-            if(!(var1 !== var4)) { _fun0003_ip = 707; continue _fun0003 }
- 160:
+            if(!(var1 !== var4)) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
             var7 = _closure1_slot0;
             var1 = _closure1_slot1;
             var1 = var1[var3];
             var1 = var7.bind(var5)(var1);
             var1 = var1.FirstPartyQuestTaskTypes;
             var1 = var1.PLAY_ACTIVITY;
-            if(!(var1 !== var4)) { _fun0003_ip = 659; continue _fun0003 }
- 196:
+            if(!(var1 !== var4)) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
             var7 = _closure1_slot0;
             var1 = _closure1_slot1;
             var1 = var1[var3];
             var1 = var7.bind(var5)(var1);
             var1 = var1.FirstPartyQuestTaskTypes;
             var1 = var1.PLAY_ON_XBOX;
-            if(!(var1 !== var4)) { _fun0003_ip = 600; continue _fun0003 }
- 232:
+            if(!(var1 !== var4)) { _fun0003_ip = 18; continue _fun0003 }
+case 19:
             var7 = _closure1_slot0;
             var1 = _closure1_slot1;
             var1 = var1[var3];
             var1 = var7.bind(var5)(var1);
             var1 = var1.FirstPartyQuestTaskTypes;
             var1 = var1.PLAY_ON_PLAYSTATION;
-            if(!(var1 !== var4)) { _fun0003_ip = 541; continue _fun0003 }
- 268:
+            if(!(var1 !== var4)) { _fun0003_ip = 20; continue _fun0003 }
+case 21:
             var7 = _closure1_slot0;
             var1 = _closure1_slot1;
             var1 = var1[var3];
             var1 = var7.bind(var5)(var1);
             var1 = var1.FirstPartyQuestTaskTypes;
             var1 = var1.ACHIEVEMENT_IN_GAME;
-            if(!(var1 !== var4)) { _fun0003_ip = 441; continue _fun0003 }
- 304:
+            if(!(var1 !== var4)) { _fun0003_ip = 22; continue _fun0003 }
+case 23:
             var7 = _closure1_slot0;
             var1 = _closure1_slot1;
             var1 = var1[var3];
             var1 = var7.bind(var5)(var1);
             var1 = var1.FirstPartyQuestTaskTypes;
             var1 = var1.ACHIEVEMENT_IN_ACTIVITY;
-            if(!(var1 !== var4)) { _fun0003_ip = 341; continue _fun0003 }
- 337:
+            if(!(var1 !== var4)) { _fun0003_ip = 24; continue _fun0003 }
+case 25:
             var1 = null;
             return var1;
- 341:
+case 24:
             var1 = {};
             var7 = _closure1_slot0;
             var4 = _closure1_slot1;
@@ -190,7 +190,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4['taskDescription'] = var7;
             var1['messages'] = var4;
             return var1;
- 441:
+case 22:
             var1 = {};
             var7 = _closure1_slot0;
             var4 = _closure1_slot1;
@@ -212,7 +212,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4['taskDescription'] = var7;
             var1['messages'] = var4;
             return var1;
- 541:
+case 20:
             var1 = {};
             var7 = _closure1_slot0;
             var4 = _closure1_slot1;
@@ -226,7 +226,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var2.external_ids;
             var1['externalIds'] = var4;
             return var1;
- 600:
+case 18:
             var1 = {};
             var7 = _closure1_slot0;
             var4 = _closure1_slot1;
@@ -240,7 +240,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var2.external_ids;
             var1['externalIds'] = var4;
             return var1;
- 659:
+case 16:
             var1 = {};
             var7 = _closure1_slot0;
             var4 = _closure1_slot1;
@@ -252,7 +252,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var2.target;
             var1['target'] = var4;
             return var1;
- 707:
+case 14:
             var1 = {};
             var7 = _closure1_slot0;
             var4 = _closure1_slot1;
@@ -264,7 +264,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var2.target;
             var1['target'] = var4;
             return var1;
- 755:
+case 12:
             var1 = {};
             var7 = _closure1_slot0;
             var4 = _closure1_slot1;
@@ -278,7 +278,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var2.applications;
             var1['applications'] = var4;
             return var1;
- 814:
+case 10:
             var1 = {};
             var7 = _closure1_slot0;
             var8 = _closure1_slot1;
@@ -303,7 +303,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var7.bind(var8)(var4);
             var1['messages'] = var4;
             return var1;
- 927:
+case 8:
             var1 = {};
             var4 = _closure1_slot0;
             var6 = _closure1_slot1;
@@ -340,7 +340,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var2 = arg1;
             var4 = var2.type;
             var6 = _closure1_slot0;
@@ -351,18 +351,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var6.bind(var5)(var1);
             var1 = var1.QuestTaskConfigTypes;
             var1 = var1.FIRST_PARTY;
-            if(!(var1 !== var4)) { _fun0004_ip = 184; continue _fun0004 }
- 51:
+            if(!(var1 !== var4)) { _fun0004_ip = 26; continue _fun0004 }
+case 5:
             var6 = _closure1_slot0;
             var1 = _closure1_slot1;
             var1 = var1[var7];
             var1 = var6.bind(var5)(var1);
             var1 = var1.QuestTaskConfigTypes;
             var1 = var1.THIRD_PARTY;
-            if(!(var1 !== var4)) { _fun0004_ip = 86; continue _fun0004 }
- 84:
+            if(!(var1 !== var4)) { _fun0004_ip = 27; continue _fun0004 }
+case 28:
             return var5;
- 86:
+case 27:
             var1 = {};
             var6 = _closure1_slot0;
             var4 = _closure1_slot1;
@@ -382,7 +382,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var2.join_operator;
             var1['joinOperator'] = var4;
             return var1;
- 184:
+case 26:
             var1 = {};
             var6 = _closure1_slot0;
             var4 = _closure1_slot1;
@@ -403,9 +403,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['questTaskConfigFromServer'] = var4;
     var2 = function(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
             var2 = arg1;
- 5: // try_start_0
+case 29: // try_start_0
             var3 = global;
             var6 = var3.Object;
             var5 = var6.entries;
@@ -414,7 +414,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var6.map;
             var4 = function(arg1) {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
- 0:
+case 0:
                     var6 = arg1;
                     var1 = var6[Symbol.iterator];
                     var6 = var1().next;
@@ -423,27 +423,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = undefined;
                     var5 = var2 === var4;
                     var2 = undefined;
-                    if(var5) { _fun0006_ip = 27; continue _fun0006 }
- 24:
+                    if(var5) { _fun0006_ip = 30; continue _fun0006 }
+case 31:
                     var2 = var3;
- 27:
+case 30:
                     var3 = undefined;
-                    if(var5) { _fun0006_ip = 57; continue _fun0006 }
- 32:
+                    if(var5) { _fun0006_ip = 32; continue _fun0006 }
+case 33:
                     var7 = var6().value;
                     var6 = var1;
                     var6 = var6 === var4;
                     var3 = undefined;
                     var5 = var6;
-                    if(var6) { _fun0006_ip = 57; continue _fun0006 }
- 51:
+                    if(var6) { _fun0006_ip = 32; continue _fun0006 }
+case 5:
                     var3 = var7;
                     var5 = var6;
- 57:
-                    if(var5) { _fun0006_ip = 63; continue _fun0006 }
- 60:
+case 32:
+                    if(var5) { _fun0006_ip = 34; continue _fun0006 }
+case 35:
                     var1.return();
- 63:
+case 34:
                     var1 = new Array(2);
                     var1[0] = var2;
                     var2 = _closure1_slot4;
@@ -456,7 +456,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var5.filter;
             var1 = function(arg1) {
                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
- 0:
+case 0:
                     var4 = arg1;
                     var1 = var4[Symbol.iterator];
                     var4 = var1().next;
@@ -465,22 +465,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = undefined;
                     var3 = var2 === var6;
                     var2 = undefined;
-                    if(var3) { _fun0007_ip = 49; continue _fun0007 }
- 24:
+                    if(var3) { _fun0007_ip = 36; continue _fun0007 }
+case 31:
                     var5 = var4().value;
                     var4 = var1;
                     var4 = var4 === var6;
                     var2 = undefined;
                     var3 = var4;
-                    if(var4) { _fun0007_ip = 49; continue _fun0007 }
- 43:
+                    if(var4) { _fun0007_ip = 36; continue _fun0007 }
+case 37:
                     var2 = var5;
                     var3 = var4;
- 49:
-                    if(var3) { _fun0007_ip = 55; continue _fun0007 }
- 52:
+case 36:
+                    if(var3) { _fun0007_ip = 38; continue _fun0007 }
+case 9:
                     var1.return();
- 55:
+case 38:
                     var1 = null;
                     var1 = var1 !== var2;
                     return var1;
@@ -494,9 +494,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['tasks'] = var3;
             var2 = var2.join_operator;
             var1['joinOperator'] = var2;
- 95: // try_end0
+case 39: // try_end0
             return var1;
- 97: // catch_target0
+case 7: // catch_target0
             CatchBlockStart(arg_register=0);
             var1 = {};
             var2 = {};

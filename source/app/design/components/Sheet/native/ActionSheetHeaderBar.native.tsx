@@ -52,7 +52,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var9.createStyles;
     var5 = function(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var8 = arg1;
             var4 = arg2;
             var1 = {};
@@ -61,15 +61,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['marginBottom'] = var3;
             var6 = _closure1_slot10;
             var6 = var6.FLOATING;
-            if(!(var6 !== var8)) { _fun0001_ip = 50; continue _fun0001 }
- 34:
+            if(!(var6 !== var8)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = _closure1_slot10;
             var7 = var6.OVERLAY;
             var6 = undefined;
-            if(!(var7 === var8)) { _fun0001_ip = 64; continue _fun0001 }
- 50:
+            if(!(var7 === var8)) { _fun0001_ip = 4; continue _fun0001 }
+case 2:
             var6 = {'left': 0, 'right': 0, 'position': 'absolute'};
- 64:
+case 4:
             var14 = var2;
             var13 = var6;
             var6 = copyDataProperties(var14, var13);
@@ -91,13 +91,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['backgroundColor'] = var6;
             var6 = _closure1_slot10;
             var6 = var6.FLOATING;
-            if(!(var6 !== var8)) { _fun0001_ip = 254; continue _fun0001 }
- 171:
+            if(!(var6 !== var8)) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var6 = _closure1_slot10;
             var7 = var6.OVERLAY;
             var6 = undefined;
-            if(!(var7 === var8)) { _fun0001_ip = 291; continue _fun0001 }
- 187:
+            if(!(var7 === var8)) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var7 = {};
             var9 = _closure1_slot1;
             var8 = _closure1_slot2;
@@ -113,8 +113,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var7;
             var8 = copyDataProperties(var14, var13);
             var6 = var7;
-            _fun0001_ip = 291; continue _fun0001;
- 254:
+            _fun0001_ip = 7; continue _fun0001;
+case 5:
             var7 = {};
             var9 = _closure1_slot1;
             var8 = _closure1_slot2;
@@ -124,7 +124,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var8.INTERACTIVE_MUTED;
             var7['backgroundColor'] = var8;
             var6 = var7;
- 291:
+case 7:
             var14 = var2;
             var13 = var6;
             var6 = copyDataProperties(var14, var13);
@@ -154,12 +154,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['ActionSheetHeaderBarVariants'] = var4;
     var2 = function ActionSheetHeaderBar(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var11 = var1.accessibilityLabel;
             var5 = undefined;
-            if(!(var11 === var5)) { _fun0002_ip = 72; continue _fun0002 }
- 14:
+            if(!(var11 === var5)) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var2 = 5;
@@ -172,7 +172,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.t;
             var2 = var2.WAI6xs;
             var11 = var3.bind(var4)(var2);
- 72:
+case 9:
             var14 = var1.style;
             var15 = var1.tabStyle;
             var10 = var1.onPress;
@@ -218,8 +218,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['children'] = var7;
             var7 = var4.bind(var5)(var3, var1);
             var1 = var7;
-            if(!var2) { _fun0002_ip = 349; continue _fun0002 }
- 270:
+            if(!var2) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
             var4 = _closure1_slot9;
             var3 = _closure1_slot8;
             var2 = {};
@@ -239,7 +239,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[1] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 349:
+case 11:
             return var1;
         }
     };

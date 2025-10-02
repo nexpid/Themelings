@@ -38,7 +38,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function updateGuildPreset(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var6 = arg1;
             var4 = arg2;
             var3 = _closure1_slot3;
@@ -52,24 +52,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var5.bind(var1)(var3);
             var3 = var3.Presets;
             var3 = var3.ALL_MESSAGES;
-            if(!(var4 !== var3)) { _fun0001_ip = 376; continue _fun0001 }
- 65:
+            if(!(var4 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = _closure1_slot0;
             var3 = _closure1_slot2;
             var3 = var3[var7];
             var3 = var5.bind(var1)(var3);
             var3 = var3.Presets;
             var3 = var3.MENTIONS;
-            if(!(var4 !== var3)) { _fun0001_ip = 258; continue _fun0001 }
- 101:
+            if(!(var4 !== var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = _closure1_slot0;
             var3 = _closure1_slot2;
             var3 = var3[var7];
             var3 = var5.bind(var1)(var3);
             var3 = var3.Presets;
             var3 = var3.NOTHING;
-            if(!(var4 === var3)) { _fun0001_ip = 492; continue _fun0001 }
- 137:
+            if(!(var4 === var3)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var4 = _closure1_slot1;
             var9 = _closure1_slot2;
             var3 = 4;
@@ -95,8 +95,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.NotificationLabels;
             var3 = var3.PresetNothing;
             var3 = var5.bind(var7)(var6, var4, var3);
-            _fun0001_ip = 492; continue _fun0001;
- 258:
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
             var4 = _closure1_slot1;
             var9 = _closure1_slot2;
             var3 = 4;
@@ -122,8 +122,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.NotificationLabels;
             var3 = var3.PresetMentions;
             var3 = var5.bind(var7)(var6, var4, var3);
-            _fun0001_ip = 492; continue _fun0001;
- 376:
+            _fun0001_ip = 6; continue _fun0001;
+case 2:
             var4 = _closure1_slot1;
             var8 = _closure1_slot2;
             var3 = 4;
@@ -149,7 +149,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.NotificationLabels;
             var2 = var2.PresetAll;
             var2 = var4.bind(var5)(var6, var3, var2);
- 492:
+case 6:
             return var1;
         }
     };

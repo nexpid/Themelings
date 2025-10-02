@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function RedesignBottomSheetTitleHeaderBase(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var12 = var1.title;
             var13 = var1.subtitle;
@@ -37,14 +37,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8[0] = var9;
             var9 = null;
             var11 = var9 != var13;
-            if(!var11) { _fun0001_ip = 131; continue _fun0001 }
- 111:
+            if(!var11) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var12 = _closure1_slot6;
             var11 = _closure1_slot15;
             var10 = {};
             var10['children'] = var13;
             var9 = var12.bind(var4)(var11, var10);
- 131:
+case 2:
             var8[1] = var9;
             var5['children'] = var8;
             var5 = var7.bind(var4)(var6, var5);
@@ -56,7 +56,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot11 = var1;
     var1 = function RedesignBottomSheetTitleHeaderStacked(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var13 = var1.title;
             var14 = var1.subtitle;
@@ -118,14 +118,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9[0] = var10;
             var10 = null;
             var12 = var10 != var14;
-            if(!var12) { _fun0002_ip = 276; continue _fun0002 }
- 256:
+            if(!var12) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var13 = _closure1_slot6;
             var12 = _closure1_slot15;
             var11 = {};
             var11['children'] = var14;
             var10 = var13.bind(var4)(var12, var11);
- 276:
+case 4:
             var9[1] = var10;
             var6['children'] = var9;
             var6 = var8.bind(var4)(var7, var6);
@@ -138,7 +138,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot12 = var1;
     var1 = function RedesignBottomSheetTitleHeaderComplex(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var2 = arg1;
             var19 = var2.title;
             var21 = var2.subtitle;
@@ -184,7 +184,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = undefined;
                 var2 = function(arg1) {
                     _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                         var1 = arg1;
                         var2 = global;
                         var4 = var2.Math;
@@ -192,10 +192,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = null;
                         var5 = var2 != var1;
                         var2 = 0;
-                        if(!var5) { _fun0004_ip = 30; continue _fun0004 }
- 27:
+                        if(!var5) { _fun0004_ip = 6; continue _fun0004 }
+case 7:
                         var2 = var1;
- 30:
+case 6:
                         var1 = _closure3_slot0;
                         var1 = var3.bind(var4)(var2, var1);
                         return var1;
@@ -237,14 +237,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15[0] = var17;
             var17 = null;
             var18 = var17 != var21;
-            if(!var18) { _fun0003_ip = 311; continue _fun0003 }
- 291:
+            if(!var18) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
             var20 = _closure1_slot6;
             var19 = _closure1_slot15;
             var18 = {};
             var18['children'] = var21;
             var17 = var20.bind(var4)(var19, var18);
- 311:
+case 8:
             var15[1] = var17;
             var7['children'] = var15;
             var7 = var13.bind(var4)(var8, var7);
@@ -430,7 +430,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function BottomSheetTitleHeader(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
             var7 = arg1;
             var10 = var7.leading;
             var4 = var7.trailing;
@@ -448,20 +448,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var9[var5];
             var _closure2_slot0 = var5;
             var5 = null;
-            if(!(var5 != var10)) { _fun0005_ip = 86; continue _fun0005 }
- 74:
-            if(!(var1 !== var10)) { _fun0005_ip = 86; continue _fun0005 }
- 78:
+            if(!(var5 != var10)) { _fun0005_ip = 10; continue _fun0005 }
+case 11:
+            if(!(var1 !== var10)) { _fun0005_ip = 10; continue _fun0005 }
+case 12:
             var9 = '';
-            if(!(var9 === var10)) { _fun0005_ip = 130; continue _fun0005 }
- 86:
-            if(!(var5 != var4)) { _fun0005_ip = 102; continue _fun0005 }
- 90:
-            if(!(var1 !== var4)) { _fun0005_ip = 102; continue _fun0005 }
- 94:
+            if(!(var9 === var10)) { _fun0005_ip = 13; continue _fun0005 }
+case 10:
+            if(!(var5 != var4)) { _fun0005_ip = 14; continue _fun0005 }
+case 15:
+            if(!(var1 !== var4)) { _fun0005_ip = 14; continue _fun0005 }
+case 16:
             var1 = '';
-            if(!(var1 === var4)) { _fun0005_ip = 130; continue _fun0005 }
- 102:
+            if(!(var1 === var4)) { _fun0005_ip = 13; continue _fun0005 }
+case 14:
             var5 = _closure1_slot6;
             var4 = _closure1_slot11;
             var1 = {};
@@ -469,11 +469,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var7;
             var9 = copyDataProperties(var12, var11);
             var1 = var5.bind(var6)(var4, var1);
-            _fun0005_ip = 202; continue _fun0005;
- 130:
+            _fun0005_ip = 17; continue _fun0005;
+case 13:
             var5 = _closure1_slot6;
-            if(var2) { _fun0005_ip = 177; continue _fun0005 }
- 137:
+            if(var2) { _fun0005_ip = 18; continue _fun0005 }
+case 19:
             var4 = _closure1_slot13;
             var2 = {};
             var12 = var2;
@@ -494,17 +494,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = 'onTitleTextLayout';
             var2[var8] = var9;
             var2 = var5.bind(var6)(var4, var2);
-            _fun0005_ip = 199; continue _fun0005;
- 177:
+            _fun0005_ip = 20; continue _fun0005;
+case 18:
             var4 = _closure1_slot12;
             var3 = {};
             var12 = var3;
             var11 = var7;
             var7 = copyDataProperties(var12, var11);
             var2 = var5.bind(var6)(var4, var3);
- 199:
+case 20:
             var1 = var2;
- 202:
+case 17:
             return var1;
         }
     };

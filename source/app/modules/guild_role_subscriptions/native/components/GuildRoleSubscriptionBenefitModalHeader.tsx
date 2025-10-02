@@ -121,7 +121,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function GuildRoleSubscriptionBenefitModalHeader(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var24 = var1.title;
             var13 = var1.canSave;
@@ -242,10 +242,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = new Array(2);
             var12[0] = var16;
             var13 = !var13;
-            if(!var13) { _fun0001_ip = 555; continue _fun0001 }
- 549:
+            if(!var13) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var13 = var14.disabledButton;
- 555:
+case 2:
             var12[1] = var13;
             var9['style'] = var12;
             var14 = _closure1_slot0;

@@ -45,7 +45,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot5 = var4;
     var4 = function IgnoredUserRow(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var9 = var1.userRecord;
             var _closure2_slot0 = var9;
@@ -81,34 +81,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['icon'] = var6;
             var7 = null;
             var6 = var7 != var9;
-            if(!var6) { _fun0001_ip = 187; continue _fun0001 }
- 169:
+            if(!var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var10 = var9.globalName;
-            if(!(var7 == var10)) { _fun0001_ip = 184; continue _fun0001 }
- 179:
+            if(!(var7 == var10)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var10 = var9.username;
- 184:
+case 4:
             var6 = var10;
- 187:
+case 2:
             var1['label'] = var6;
             var10 = var7 == var9;
             var6 = undefined;
-            if(var10) { _fun0001_ip = 208; continue _fun0001 }
- 202:
+            if(var10) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var6 = var9.globalName;
- 208:
+case 6:
             var10 = var7 != var6;
             var6 = undefined;
-            if(!var10) { _fun0001_ip = 234; continue _fun0001 }
- 217:
+            if(!var10) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var10 = var7 == var9;
             var7 = undefined;
-            if(var10) { _fun0001_ip = 231; continue _fun0001 }
- 226:
+            if(var10) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var7 = var9.username;
- 231:
+case 10:
             var6 = var7;
- 234:
+case 8:
             var1['subLabel'] = var6;
             var7 = {};
             var6 = 'unignore';
@@ -131,16 +131,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['accessibilityActions'] = var6;
             var6 = function onAccessibilityAction(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var1 = arg1;
                     var1 = var1.nativeEvent;
                     var2 = var1.actionName;
                     var1 = 'unignore';
-                    if(!(var1 !== var2)) { _fun0002_ip = 29; continue _fun0002 }
- 25:
+                    if(!(var1 !== var2)) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
                     var1 = undefined;
                     return var1;
- 29:
+case 12:
                     var3 = _closure1_slot5;
                     var1 = _closure2_slot0;
                     var2 = var1.id;
@@ -207,7 +207,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function ConnectedIgnoredUserRow(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var2 = arg1;
             var2 = var2.userId;
             var _closure2_slot0 = var2;
@@ -231,14 +231,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var4.bind(var6)(var3, var1);
             var1 = null;
             var3 = var1 == var6;
-            if(var3) { _fun0003_ip = 99; continue _fun0003 }
- 78:
+            if(var3) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
             var4 = _closure1_slot4;
             var3 = _closure1_slot6;
             var2 = {};
             var2['userRecord'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 99:
+case 14:
             return var1;
         }
     };

@@ -52,38 +52,38 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var10.forEach;
             var1 = function(arg1) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     var1 = arg1;
                     var1 = var1.image;
                     var2 = null;
-                    if(!(var2 != var1)) { _fun0001_ip = 102; continue _fun0001 }
- 15:
+                    if(!(var2 != var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var3 = var1.emoji;
-                    if(!(var2 == var3)) { _fun0001_ip = 84; continue _fun0001 }
- 24:
+                    if(!(var2 == var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                     var3 = var1.stickerId;
-                    if(!(var2 == var3)) { _fun0001_ip = 64; continue _fun0001 }
- 34:
+                    if(!(var2 == var3)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                     var1 = var1.mediaAttachmentState;
-                    if(!(var2 != var1)) { _fun0001_ip = 102; continue _fun0001 }
- 44:
+                    if(!(var2 != var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 8:
                     var3 = _closure3_slot0;
                     var1 = 1;
                     var1 = var3 + var1;
                     _closure3_slot0 = var1;
-                    _fun0001_ip = 102; continue _fun0001;
- 64:
+                    _fun0001_ip = 2; continue _fun0001;
+case 6:
                     var3 = _closure3_slot2;
                     var1 = 1;
                     var1 = var3 + var1;
                     _closure3_slot2 = var1;
-                    _fun0001_ip = 102; continue _fun0001;
- 84:
+                    _fun0001_ip = 2; continue _fun0001;
+case 4:
                     var3 = _closure3_slot1;
                     var1 = 1;
                     var1 = var3 + var1;
                     _closure3_slot1 = var1;
- 102:
+case 2:
                     var1 = undefined;
                     return var1;
                 }

@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function GuildEventsListHeader(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var14 = var1.eventCount;
             var1 = var1.guild;
@@ -33,8 +33,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var1.BottomSheetTitleHeader;
             var1 = {};
             var6 = 0;
-            if(!(!(var14 > var6))) { _fun0001_ip = 158; continue _fun0001 }
- 101:
+            if(!(!(var14 > var6))) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var12 = _closure1_slot0;
             var13 = _closure1_slot2;
             var6 = 13;
@@ -47,8 +47,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.t;
             var6 = var6.tlopTE;
             var6 = var7.bind(var8)(var6);
-            _fun0001_ip = 223; continue _fun0001;
- 158:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var8 = _closure1_slot0;
             var15 = _closure1_slot2;
             var7 = 13;
@@ -63,10 +63,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = {};
             var7['count'] = var14;
             var6 = var12.bind(var13)(var8, var7);
- 223:
+case 4:
             var1['title'] = var6;
-            if(!var5) { _fun0001_ip = 399; continue _fun0001 }
- 233:
+            if(!var5) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var8 = _closure1_slot9;
             var13 = _closure1_slot1;
             var14 = _closure1_slot2;
@@ -100,10 +100,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6['text'] = var10;
             var9 = function onPress() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var2 = _closure2_slot1;
-                    if(!var2) { _fun0002_ip = 84; continue _fun0002 }
- 10:
+                    if(!var2) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot2;
                     var2 = 15;
@@ -131,7 +131,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     };
                     var1['onClose'] = var5;
                     var1 = var3.bind(var4)(var2, var1);
- 84:
+case 7:
                     var1 = undefined;
                     return var1;
                 }
@@ -140,7 +140,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = true;
             var6['shrink'] = var9;
             var5 = var8.bind(var4)(var7, var6);
- 399:
+case 5:
             var1['trailing'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
@@ -378,12 +378,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[0] = var6;
         var1 = function() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var1 = _closure2_slot0;
                 var3 = var1.id;
                 var1 = null;
-                if(!(var1 != var3)) { _fun0003_ip = 74; continue _fun0003 }
- 18:
+                if(!(var1 != var3)) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
                 var3 = 21;
@@ -396,7 +396,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = _closure1_slot8;
                 var1 = var1.GUILD_EVENT;
                 var1 = var3.bind(var4)(var2, var1);
- 74:
+case 9:
                 var1 = undefined;
                 return var1;
             }

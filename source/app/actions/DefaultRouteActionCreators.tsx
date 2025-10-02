@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function isLurkingGuildRoute(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var9 = _closure1_slot0;
             var10 = _closure1_slot2;
             var1 = 2;
@@ -33,23 +33,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = null;
             var5 = var1 == var3;
             var4 = undefined;
-            if(var5) { _fun0001_ip = 120; continue _fun0001 }
- 100:
+            if(var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = var3.params;
             var5 = var1 == var3;
             var4 = undefined;
-            if(var5) { _fun0001_ip = 120; continue _fun0001 }
- 115:
+            if(var5) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var4 = var3.guildId;
- 120:
+case 2:
             var1 = var1 == var4;
-            if(var1) { _fun0001_ip = 145; continue _fun0001 }
- 127:
+            if(var1) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var3 = _closure1_slot3;
             var2 = var3.isLurking;
             var2 = var2.bind(var3)(var4);
             var1 = !var2;
- 145:
+case 5:
             var1 = !var1;
             return var1;
         }
@@ -81,13 +81,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var5 = arg1;
             var3 = _closure1_slot5;
             var1 = undefined;
             var3 = var3.bind(var1)(var5);
-            if(var3) { _fun0002_ip = 67; continue _fun0002 }
- 20:
+            if(var3) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
             var2 = 4;
@@ -99,20 +99,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['type'] = var6;
             var2['path'] = var5;
             var2 = var3.bind(var4)(var2);
- 67:
+case 7:
             return var1;
         }
     };
     var3['saveLastRoute'] = var4;
     var2 = function(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var5 = arg1;
             var3 = _closure1_slot5;
             var1 = undefined;
             var3 = var3.bind(var1)(var5);
-            if(var3) { _fun0003_ip = 67; continue _fun0003 }
- 20:
+            if(var3) { _fun0003_ip = 7; continue _fun0003 }
+case 8:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
             var2 = 4;
@@ -124,7 +124,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['type'] = var6;
             var2['path'] = var5;
             var2 = var3.bind(var4)(var2);
- 67:
+case 7:
             return var1;
         }
     };

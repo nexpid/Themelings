@@ -28,7 +28,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.forwardRef;
     var2 = function(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var12 = var3.style;
             var7 = var3.overrideVariant;
@@ -67,10 +67,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5[var10] = var11;
             var10 = var9 != var7;
             var9 = 'secondary-overlay';
-            if(!var10) { _fun0001_ip = 164; continue _fun0001 }
- 161:
+            if(!var10) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var9 = var7;
- 164:
+case 2:
             var7 = 'variant';
             var5[var7] = var9;
             var7 = 'maxFontSizeMultiplier';

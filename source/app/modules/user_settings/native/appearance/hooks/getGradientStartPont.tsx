@@ -16,39 +16,39 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = function() {
         var1 = function getHorizontalOrVerticalStartPoint(arg1, arg2, arg3) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var5 = arg1;
                 var1 = arg2;
                 var3 = arg3;
                 var2 = 0;
-                if(!(var2 !== var5)) { _fun0001_ip = 99; continue _fun0001 }
- 15:
+                if(!(var2 !== var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var4 = 90;
-                if(!(var4 !== var5)) { _fun0001_ip = 73; continue _fun0001 }
- 22:
+                if(!(var4 !== var5)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var4 = 180;
-                if(!(var4 !== var5)) { _fun0001_ip = 52; continue _fun0001 }
- 29:
+                if(!(var4 !== var5)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                 var4 = 2;
                 var5 = var3 / var4;
                 var4 = [0];
                 var4[1] = var5;
                 return var4;
- 52:
+case 6:
                 var4 = 2;
                 var5 = var1 / var4;
                 var4 = new Array(2);
                 var4[0] = var5;
                 var4[1] = var2;
                 return var4;
- 73:
+case 4:
                 var4 = -var3;
                 var3 = 2;
                 var4 = var4 / var3;
                 var3 = [0];
                 var3[1] = var4;
                 return var3;
- 99:
+case 2:
                 var3 = -var1;
                 var1 = 2;
                 var3 = var3 / var1;
@@ -76,7 +76,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = function() {
         var1 = function getStartCornerToIntersect(arg1, arg2, arg3) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var2 = arg1;
                 var1 = arg2;
                 var3 = 2;
@@ -84,42 +84,42 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = arg3;
                 var3 = var1 / var3;
                 var1 = 90;
-                if(!(!(var2 < var1))) { _fun0002_ip = 98; continue _fun0002 }
- 27:
+                if(!(!(var2 < var1))) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                 var1 = 180;
-                if(!(!(var2 < var1))) { _fun0002_ip = 78; continue _fun0002 }
- 34:
+                if(!(!(var2 < var1))) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
                 var1 = 270;
-                if(!(!(var2 < var1))) { _fun0002_ip = 61; continue _fun0002 }
- 44:
+                if(!(!(var2 < var1))) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
                 var1 = new Array(2);
                 var2 = -var4;
                 var1[0] = var2;
                 var1[1] = var3;
-                _fun0002_ip = 76; continue _fun0002;
- 61:
+                _fun0002_ip = 14; continue _fun0002;
+case 12:
                 var2 = new Array(2);
                 var2[0] = var4;
                 var2[1] = var3;
                 var1 = var2;
- 76:
-                _fun0002_ip = 96; continue _fun0002;
- 78:
+case 14:
+                _fun0002_ip = 15; continue _fun0002;
+case 10:
                 var2 = new Array(2);
                 var2[0] = var4;
                 var5 = -var3;
                 var2[1] = var5;
                 var1 = var2;
- 96:
-                _fun0002_ip = 119; continue _fun0002;
- 98:
+case 15:
+                _fun0002_ip = 16; continue _fun0002;
+case 8:
                 var2 = new Array(2);
                 var4 = -var4;
                 var2[0] = var4;
                 var3 = -var3;
                 var2[1] = var3;
                 var1 = var2;
- 119:
+case 16:
                 return var1;
             }
         };
@@ -138,7 +138,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['code'] = var5;
     var2 = function t(arg1, arg2, arg3) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var5 = arg2;
             var4 = arg3;
             var1 = arg1;
@@ -146,14 +146,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1 % var2;
             var8 = 0;
             var3 = var1;
-            if(!(var3 < var8)) { _fun0003_ip = 32; continue _fun0003 }
- 28:
+            if(!(var3 < var8)) { _fun0003_ip = 17; continue _fun0003 }
+case 18:
             var3 = var1 + var2;
- 32:
+case 17:
             var1 = 90;
             var1 = var3 % var1;
-            if(!(var1 !== var8)) { _fun0003_ip = 156; continue _fun0003 }
- 43:
+            if(!(var1 !== var8)) { _fun0003_ip = 19; continue _fun0003 }
+case 20:
             var1 = global;
             var6 = var1.Math;
             var2 = var6.tan;
@@ -180,7 +180,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var6 * var2;
             var1[1] = var2;
             return var1;
- 156:
+case 19:
             var2 = _closure1_slot1;
             var1 = undefined;
             var1 = var2.bind(var1)(var3, var5, var4);

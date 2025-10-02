@@ -56,24 +56,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['useValue'] = var7;
     var7 = function onLaunchpadSettingValueChange(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var2 = _closure1_slot2;
             var2 = var2.GESTURE_FULL;
-            if(!(var2 !== var3)) { _fun0001_ip = 272; continue _fun0001 }
- 23:
+            if(!(var2 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = _closure1_slot2;
             var2 = var2.GESTURE_EDGE;
-            if(!(var2 !== var3)) { _fun0001_ip = 207; continue _fun0001 }
- 40:
+            if(!(var2 !== var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = _closure1_slot2;
             var2 = var2.PULL_TAB;
-            if(!(var2 !== var3)) { _fun0001_ip = 139; continue _fun0001 }
- 54:
+            if(!(var2 !== var3)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var2 = _closure1_slot2;
             var2 = var2.DISABLED;
-            if(!(var2 === var3)) { _fun0001_ip = 335; continue _fun0001 }
- 71:
+            if(!(var2 === var3)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var2 = 3;
@@ -88,8 +88,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.LaunchPadMode;
             var2 = var2.LAUNCH_PAD_DISABLED;
             var2 = var3.bind(var4)(var2);
-            _fun0001_ip = 335; continue _fun0001;
- 139:
+            _fun0001_ip = 8; continue _fun0001;
+case 6:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var2 = 3;
@@ -104,8 +104,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.LaunchPadMode;
             var2 = var2.LAUNCH_PAD_PULL_TAB;
             var2 = var3.bind(var4)(var2);
-            _fun0001_ip = 335; continue _fun0001;
- 207:
+            _fun0001_ip = 8; continue _fun0001;
+case 4:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var2 = 3;
@@ -120,8 +120,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.LaunchPadMode;
             var2 = var2.LAUNCH_PAD_GESTURE_RIGHT_EDGE;
             var2 = var3.bind(var4)(var2);
-            _fun0001_ip = 335; continue _fun0001;
- 272:
+            _fun0001_ip = 8; continue _fun0001;
+case 2:
             var5 = _closure1_slot0;
             var6 = _closure1_slot1;
             var1 = 3;
@@ -136,7 +136,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.LaunchPadMode;
             var1 = var1.LAUNCH_PAD_GESTURE_FULL_SCREEN;
             var1 = var2.bind(var3)(var1);
- 335:
+case 8:
             var1 = undefined;
             return var1;
         }

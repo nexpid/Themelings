@@ -33,16 +33,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function getCollectionItemAssetUrl(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var12 = var1.itemId;
             var11 = var1.hash;
             var8 = var1.containerWidth;
             var5 = undefined;
-            if(!(var8 === var5)) { _fun0001_ip = 32; continue _fun0001 }
- 26:
+            if(!(var8 === var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var8 = 1024;
- 32:
+case 2:
             var4 = _closure1_slot0;
             var6 = _closure1_slot1;
             var1 = 1;
@@ -74,14 +74,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var4.bind(var5)(var1);
             var1 = var1.SUPPORTS_WEBP;
             var9 = 'png';
-            if(!var1) { _fun0001_ip = 175; continue _fun0001 }
- 169:
+            if(!var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var9 = 'webp';
- 175:
+case 4:
             var4 = _closure1_slot4;
             var1 = null;
-            if(!(var1 == var4)) { _fun0001_ip = 252; continue _fun0001 }
- 185:
+            if(!(var1 == var4)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var1 = var2.location;
             var8 = var1.protocol;
             var7 = _closure1_slot3;
@@ -96,8 +96,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var20 = var7;
             var17 = var10;
             var1 = var22[var5](var21, var20, var19, var18, var17, var16);
-            _fun0001_ip = 307; continue _fun0001;
- 252:
+            _fun0001_ip = 8; continue _fun0001;
+case 6:
             var21 = _closure1_slot4;
             var2 = var2.HermesInternal;
             var7 = var2.concat;
@@ -111,7 +111,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var9;
             var13 = var10;
             var1 = var22[var7](var21, var20, var19, var18, var17, var16, var15, var14, var13, var12);
- 307:
+case 8:
             return var1;
         }
     };

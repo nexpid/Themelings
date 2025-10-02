@@ -126,15 +126,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function ShareAttachments(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var12 = var1.attachments;
             var19 = var1.isRevamp;
             var5 = undefined;
-            if(!(var19 === var5)) { _fun0001_ip = 25; continue _fun0001 }
- 23:
+            if(!(var19 === var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var19 = false;
- 25:
+case 2:
             var _closure2_slot0 = var5;
             var _closure2_slot1 = var5;
             var _closure2_slot2 = var5;
@@ -166,7 +166,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var13.useAnimatedStyle;
             var7 = function y() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var1 = {};
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot2;
@@ -181,10 +181,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = 0;
                     var7 = var3 <= var6;
                     var3 = 1;
-                    if(!var7) { _fun0002_ip = 62; continue _fun0002 }
- 60:
+                    if(!var7) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var3 = 0;
- 62:
+case 4:
                     var2 = _closure1_slot8;
                     var2 = var4.bind(var5)(var3, var2);
                     var1['opacity'] = var2;
@@ -211,7 +211,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var13.useAnimatedStyle;
             var7 = function S() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var1 = {};
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot2;
@@ -232,10 +232,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var3.bind(var7)();
                     var6 = var6 >= var3;
                     var3 = 1;
-                    if(!var6) { _fun0003_ip = 90; continue _fun0003 }
- 88:
+                    if(!var6) { _fun0003_ip = 6; continue _fun0003 }
+case 7:
                     var3 = 0;
- 90:
+case 6:
                     var2 = _closure1_slot8;
                     var2 = var4.bind(var5)(var3, var2);
                     var1['opacity'] = var2;
@@ -341,16 +341,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var22 = var4.bind(var6)(var1, var2);
             var2 = var12.length;
             var1 = null;
-            if(!(var3 !== var2)) { _fun0001_ip = 951; continue _fun0001 }
- 516:
+            if(!(var3 !== var2)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var4 = _closure1_slot6;
             var3 = _closure1_slot4;
             var2 = {};
             var6 = undefined;
-            if(!var19) { _fun0001_ip = 537; continue _fun0001 }
- 531:
+            if(!var19) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var6 = var18.containerRevamp;
- 537:
+case 10:
             var2['style'] = var6;
             var9 = _closure1_slot5;
             var8 = _closure1_slot7;
@@ -404,10 +404,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = new Array(2);
             var16[0] = var17;
             var17 = undefined;
-            if(!var19) { _fun0001_ip = 797; continue _fun0001 }
- 791:
+            if(!var19) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var17 = var18.attachmentPreviewContentContainerRevamp;
- 797:
+case 12:
             var16[1] = var17;
             var7['contentContainerStyle'] = var16;
             var16 = true;
@@ -484,7 +484,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[2] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 951:
+case 8:
             return var1;
         }
     };

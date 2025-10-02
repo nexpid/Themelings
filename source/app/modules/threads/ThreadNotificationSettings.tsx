@@ -8,30 +8,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var7;
     var4 = function computeThreadNotificationSetting(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var5 = arguments[1];
             var4 = arguments[2];
             var6 = arguments[3];
             var8 = undefined;
-            if(!(var5 === var8)) { _fun0001_ip = 25; continue _fun0001 }
- 18:
+            if(!(var5 === var8)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = _closure1_slot4;
- 25:
-            if(!(var4 === var8)) { _fun0001_ip = 36; continue _fun0001 }
- 29:
+case 2:
+            if(!(var4 === var8)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var4 = _closure1_slot3;
- 36:
-            if(!(var6 === var8)) { _fun0001_ip = 47; continue _fun0001 }
- 40:
+case 4:
+            if(!(var6 === var8)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var6 = _closure1_slot2;
- 47:
+case 6:
             var2 = var5.flags;
             var1 = var3.id;
             var9 = var2.bind(var5)(var1);
             var2 = null;
-            if(!(var2 != var9)) { _fun0001_ip = 392; continue _fun0001 }
- 71:
+            if(!(var2 != var9)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var7 = _closure1_slot0;
             var5 = _closure1_slot1;
             var10 = 5;
@@ -41,8 +41,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = _closure1_slot5;
             var5 = var5.ALL_MESSAGES;
             var5 = var7.bind(var11)(var9, var5);
-            if(var5) { _fun0001_ip = 380; continue _fun0001 }
- 122:
+            if(var5) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var7 = _closure1_slot0;
             var5 = _closure1_slot1;
             var5 = var5[var10];
@@ -51,8 +51,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = _closure1_slot5;
             var5 = var5.ONLY_MENTIONS;
             var5 = var7.bind(var11)(var9, var5);
-            if(var5) { _fun0001_ip = 368; continue _fun0001 }
- 167:
+            if(var5) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var7 = _closure1_slot0;
             var5 = _closure1_slot1;
             var5 = var5[var10];
@@ -61,63 +61,63 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = _closure1_slot5;
             var5 = var5.NO_MESSAGES;
             var5 = var7.bind(var8)(var9, var5);
-            if(var5) { _fun0001_ip = 356; continue _fun0001 }
- 212:
+            if(var5) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var5 = var6.getChannel;
             var3 = var3.parent_id;
             var3 = var5.bind(var6)(var3);
-            if(!(var2 != var3)) { _fun0001_ip = 344; continue _fun0001 }
- 232:
+            if(!(var2 != var3)) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var6 = var4.isGuildOrCategoryOrChannelMuted;
             var5 = var3.guild_id;
             var2 = var3.id;
             var2 = var6.bind(var4)(var5, var2);
-            if(var2) { _fun0001_ip = 332; continue _fun0001 }
- 257:
+            if(var2) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
             var2 = var4.resolvedMessageNotifications;
             var3 = var2.bind(var4)(var3);
             var2 = _closure1_slot6;
             var2 = var2.NO_MESSAGES;
-            if(!(var3 !== var2)) { _fun0001_ip = 320; continue _fun0001 }
- 282:
+            if(!(var3 !== var2)) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
             var2 = _closure1_slot6;
             var2 = var2.ONLY_MENTIONS;
-            if(!(var3 !== var2)) { _fun0001_ip = 308; continue _fun0001 }
- 296:
+            if(!(var3 !== var2)) { _fun0001_ip = 22; continue _fun0001 }
+case 23:
             var2 = _closure1_slot5;
             var2 = var2.ALL_MESSAGES;
-            _fun0001_ip = 318; continue _fun0001;
- 308:
+            _fun0001_ip = 24; continue _fun0001;
+case 22:
             var3 = _closure1_slot5;
             var2 = var3.ONLY_MENTIONS;
- 318:
-            _fun0001_ip = 330; continue _fun0001;
- 320:
+case 24:
+            _fun0001_ip = 25; continue _fun0001;
+case 20:
             var3 = _closure1_slot5;
             var2 = var3.NO_MESSAGES;
- 330:
+case 25:
             return var2;
- 332:
+case 18:
             var2 = _closure1_slot5;
             var2 = var2.NO_MESSAGES;
             return var2;
- 344:
+case 16:
             var2 = _closure1_slot5;
             var2 = var2.NO_MESSAGES;
             return var2;
- 356:
+case 14:
             var2 = _closure1_slot5;
             var2 = var2.NO_MESSAGES;
             return var2;
- 368:
+case 12:
             var2 = _closure1_slot5;
             var2 = var2.ONLY_MENTIONS;
             return var2;
- 380:
+case 10:
             var1 = _closure1_slot5;
             var1 = var1.ALL_MESSAGES;
             return var1;
- 392:
+case 8:
             var1 = _closure1_slot5;
             var1 = var1.NO_MESSAGES;
             return var1;

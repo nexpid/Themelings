@@ -7,43 +7,43 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var7;
     var4 = function canUnlinkLobbyChannel(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var6 = arg1;
             var5 = arguments[1];
             var1 = undefined;
-            if(!(var5 === var1)) { _fun0001_ip = 19; continue _fun0001 }
- 12:
+            if(!(var5 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = _closure1_slot2;
- 19:
+case 2:
             var3 = null;
             var1 = var3 != var6;
-            if(!var1) { _fun0001_ip = 125; continue _fun0001 }
- 28:
+            if(!var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = var6.linkedLobby;
             var2 = var3 != var2;
-            if(!var2) { _fun0001_ip = 66; continue _fun0001 }
- 41:
+            if(!var2) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var4 = var5.can;
             var3 = _closure1_slot3;
             var3 = var3.MANAGE_CHANNELS;
             var2 = var4.bind(var5)(var3, var6);
- 66:
-            if(!var2) { _fun0001_ip = 94; continue _fun0001 }
- 69:
+case 6:
+            if(!var2) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var4 = var5.can;
             var3 = _closure1_slot3;
             var3 = var3.VIEW_CHANNEL;
             var2 = var4.bind(var5)(var3, var6);
- 94:
-            if(!var2) { _fun0001_ip = 122; continue _fun0001 }
- 97:
+case 8:
+            if(!var2) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var4 = var5.can;
             var3 = _closure1_slot3;
             var3 = var3.SEND_MESSAGES;
             var2 = var4.bind(var5)(var3, var6);
- 122:
+case 10:
             var1 = var2;
- 125:
+case 4:
             return var1;
         }
     };

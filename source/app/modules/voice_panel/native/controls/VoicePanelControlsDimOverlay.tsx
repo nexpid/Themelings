@@ -90,7 +90,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var9.useDerivedValue;
         var6 = function A() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var2 = _closure2_slot1;
                 var1 = var2.get;
                 var1 = var1.bind(var2)();
@@ -116,16 +116,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = _closure1_slot7;
                 var5 = var1.DRAWER;
                 var1 = 0;
-                if(!(var6 === var5)) { _fun0001_ip = 242; continue _fun0001 }
- 122:
+                if(!(var6 === var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var6 = _closure2_slot5;
                 var5 = var6.get;
                 var6 = var5.bind(var6)();
                 var5 = _closure1_slot6;
                 var5 = var5.PANEL;
                 var1 = 0;
-                if(!(var6 === var5)) { _fun0001_ip = 242; continue _fun0001 }
- 151:
+                if(!(var6 === var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
                 var6 = _closure1_slot0;
                 var9 = _closure1_slot2;
                 var5 = 6;
@@ -147,7 +147,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var12 = var4;
                 var11 = var3;
                 var1 = var14[var6](var13, var12, var11, var10, var9);
- 242:
+case 2:
                 return var1;
             }
         };
@@ -204,7 +204,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var9.useAnimatedStyle;
         var6 = function S() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var1 = {};
                 var2 = 1;
                 var1['zIndex'] = var2;
@@ -230,16 +230,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var2.screenReaderEnabled;
                 var4 = 'flex';
                 var2 = var4;
-                if(!var5) { _fun0002_ip = 136; continue _fun0002 }
- 113:
+                if(!var5) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
                 var5 = _closure2_slot7;
                 var3 = var5.get;
                 var3 = var3.bind(var5)();
                 var2 = var4;
-                if(var3) { _fun0002_ip = 136; continue _fun0002 }
- 132:
+                if(var3) { _fun0002_ip = 5; continue _fun0002 }
+case 7:
                 var2 = 'none';
- 136:
+case 5:
                 var1['display'] = var2;
                 return var1;
             }
@@ -270,16 +270,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var9.useAnimatedProps;
         var5 = function v() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var1 = {};
                 var3 = _closure2_slot7;
                 var2 = var3.get;
                 var3 = var2.bind(var3)();
                 var2 = 'none';
-                if(!var3) { _fun0003_ip = 29; continue _fun0003 }
- 25:
+                if(!var3) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
                 var2 = 'auto';
- 29:
+case 8:
                 var1['pointerEvents'] = var2;
                 return var1;
             }

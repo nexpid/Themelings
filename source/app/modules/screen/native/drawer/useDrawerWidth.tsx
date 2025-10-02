@@ -9,10 +9,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var7;
     var1 = function computeTabletDrawerWidth(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg2;
-            if(var1) { _fun0001_ip = 44; continue _fun0001 }
- 9:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = global;
             var5 = var1.Math;
             var4 = var5.min;
@@ -21,10 +21,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = 32;
             var1 = var6 - var1;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0001_ip = 48; continue _fun0001;
- 44:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var1 = _closure1_slot3;
- 48:
+case 4:
             return var1;
         }
     };
@@ -57,7 +57,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['DRAWER_LEFT_WIDTH_MIN'] = var4;
     var4 = function getDrawerWidth() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
             var1 = 1;
@@ -75,18 +75,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var1.isChatBesideChannelList;
             var3 = var1.isChatLockedOpen;
             var1 = var4;
-            if(!var6) { _fun0002_ip = 90; continue _fun0002 }
- 80:
+            if(!var6) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
             var2 = _closure1_slot5;
             var1 = var2.bind(var5)(var4, var3);
- 90:
+case 5:
             return var1;
         }
     };
     var3['getDrawerWidth'] = var4;
     var2 = function useDrawerWidth() {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var3 = _closure1_slot1;
             var6 = _closure1_slot2;
             var1 = 1;
@@ -102,11 +102,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var1.isChatBesideChannelList;
             var3 = var1.isChatLockedOpen;
             var1 = var4;
-            if(!var6) { _fun0003_ip = 78; continue _fun0003 }
- 68:
+            if(!var6) { _fun0003_ip = 7; continue _fun0003 }
+case 8:
             var2 = _closure1_slot5;
             var1 = var2.bind(var5)(var4, var3);
- 78:
+case 7:
             return var1;
         }
     };

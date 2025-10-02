@@ -24,7 +24,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = function() {
         var1 = function getMaxPanelWidth(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var4 = var1.windowWidth;
                 var7 = var1.connected;
@@ -34,15 +34,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var6.Math;
                 var2 = var3.min;
                 var1 = var4;
-                if(var7) { _fun0001_ip = 78; continue _fun0001 }
- 46:
+                if(var7) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var8 = var6.Math;
                 var7 = var8.min;
                 var6 = _closure1_slot0;
                 var5 = var4 - var5;
                 var5 = var5 - var9;
                 var1 = var7.bind(var8)(var6, var5);
- 78:
+case 2:
                 var1 = var2.bind(var3)(var4, var1);
                 return var1;
             }

@@ -70,7 +70,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function PremiumAnimatedGiftButton(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var9 = arg1;
             var18 = var9.active;
             var20 = var9.style;
@@ -111,10 +111,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[1] = var6;
             var2 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var1 = _closure2_slot1;
-                    if(var1) { _fun0002_ip = 139; continue _fun0002 }
- 13:
+                    if(var1) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var4 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var1 = 6;
@@ -123,40 +123,40 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var4.bind(var2)(var1);
                     var1 = var4.isIOS;
                     var1 = var1.bind(var4)();
-                    if(!var1) { _fun0002_ip = 95; continue _fun0002 }
- 51:
+                    if(!var1) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var1 = _closure2_slot0;
                     var6 = null;
                     var1 = var6 == var1;
                     var4 = undefined;
-                    if(var1) { _fun0002_ip = 82; continue _fun0002 }
- 66:
+                    if(var1) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var5 = _closure2_slot0;
                     var5 = var5.current;
                     var1 = var6 == var5;
                     var4 = var5;
- 82:
-                    if(var1) { _fun0002_ip = 95; continue _fun0002 }
- 85:
+case 6:
+                    if(var1) { _fun0002_ip = 4; continue _fun0002 }
+case 8:
                     var1 = var4.reset;
                     var1 = var1.bind(var4)();
- 95:
+case 4:
                     var1 = _closure2_slot0;
                     var4 = null;
                     var1 = var4 == var1;
                     var2 = undefined;
-                    if(var1) { _fun0002_ip = 126; continue _fun0002 }
- 110:
+                    if(var1) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
                     var3 = _closure2_slot0;
                     var3 = var3.current;
                     var1 = var4 == var3;
                     var2 = var3;
- 126:
-                    if(var1) { _fun0002_ip = 139; continue _fun0002 }
- 129:
+case 9:
+                    if(var1) { _fun0002_ip = 2; continue _fun0002 }
+case 11:
                     var1 = var2.play;
                     var1 = var1.bind(var2)();
- 139:
+case 2:
                     var1 = undefined;
                     return var1;
                 }
@@ -170,14 +170,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var1.View;
             var1 = {};
             var5 = undefined;
-            if(var6) { _fun0001_ip = 227; continue _fun0001 }
- 204:
+            if(var6) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var7 = _closure1_slot0;
             var6 = _closure1_slot2;
             var6 = var6[var10];
             var6 = var7.bind(var4)(var6);
             var5 = var6.FadeOut;
- 227:
+case 12:
             var1['exiting'] = var5;
             var7 = _closure1_slot6;
             var6 = _closure1_slot0;
@@ -191,14 +191,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = new Array(3);
             var10[0] = var21;
             var10[1] = var20;
-            if(!var18) { _fun0001_ip = 287; continue _fun0001 }
- 284:
+            if(!var18) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var18 = !var17;
- 287:
-            if(!var18) { _fun0001_ip = 293; continue _fun0001 }
- 290:
+case 14:
+            if(!var18) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var18 = var19;
- 293:
+case 16:
             var10[2] = var18;
             var5['style'] = var10;
             var10 = 'button';

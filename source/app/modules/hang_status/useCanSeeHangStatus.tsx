@@ -32,7 +32,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useCanSeeHangStatus(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var8 = arg2;
             var _closure2_slot0 = var8;
             var4 = _closure1_slot0;
@@ -46,10 +46,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = null;
             var9 = var7 == var8;
             var7 = undefined;
-            if(var9) { _fun0001_ip = 58; continue _fun0001 }
- 53:
+            if(var9) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var7 = var8.guild_id;
- 58:
+case 2:
             var1['guildId'] = var7;
             var7 = arg1;
             var1['location'] = var7;
@@ -74,10 +74,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var2 = var4.bind(var5)(var3, var2);
-            if(!var1) { _fun0001_ip = 136; continue _fun0001 }
- 133:
+            if(!var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = var2;
- 136:
+case 4:
             return var1;
         }
     };

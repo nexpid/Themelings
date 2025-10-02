@@ -78,18 +78,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var6 = function value() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var2 = this;
                 var1 = _closure1_slot4;
                 var1 = var1.isLowDisk;
                 var4 = var1;
-                if(!var4) { _fun0001_ip = 32; continue _fun0001 }
- 22:
+                if(!var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var5 = var2.isLowDisk;
                 var4 = var5 !== var1;
- 32:
-                if(!var4) { _fun0001_ip = 83; continue _fun0001 }
- 35:
+case 2:
+                if(!var4) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot1;
                 var3 = 3;
@@ -99,11 +99,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var4.database;
                 var4 = var3.bind(var4)();
                 var3 = null;
-                if(!(var3 != var4)) { _fun0001_ip = 83; continue _fun0001 }
- 73:
+                if(!(var3 != var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 6:
                 var3 = var4.incrementalVacuum;
                 var3 = var3.bind(var4)();
- 83:
+case 4:
                 var2['isLowDisk'] = var1;
                 var1 = undefined;
                 return var1;

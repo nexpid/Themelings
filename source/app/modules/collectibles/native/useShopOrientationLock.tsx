@@ -35,11 +35,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var4.useEffect;
         var2 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var3 = _closure1_slot3;
                 var1 = 0;
-                if(!(var1 === var3)) { _fun0001_ip = 53; continue _fun0001 }
- 13:
+                if(!(var1 === var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot1;
                 var1 = 1;
@@ -50,7 +50,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = 'PORTRAIT';
                 var1 = true;
                 var1 = var4.bind(var5)(var3, var1);
- 53:
+case 2:
                 var3 = _closure2_slot0;
                 var1 = true;
                 var3['current'] = var1;
@@ -59,17 +59,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 _closure1_slot3 = var1;
                 var1 = function() {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                         var2 = _closure2_slot0;
                         var2 = var2.current;
-                        if(!var2) { _fun0002_ip = 89; continue _fun0002 }
- 15:
+                        if(!var2) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                         var3 = _closure1_slot3;
                         var4 = var3 - 1;
                         _closure1_slot3 = var4;
                         var3 = 0;
-                        if(!(var3 === var4)) { _fun0002_ip = 77; continue _fun0002 }
- 35:
+                        if(!(var3 === var4)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                         var4 = _closure1_slot0;
                         var3 = _closure1_slot1;
                         var2 = 1;
@@ -81,11 +81,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var5 = false;
                         var2['unlockAfterRotatingToPreviousLock'] = var5;
                         var2 = var3.bind(var4)(var2);
- 77:
+case 6:
                         var2 = _closure2_slot0;
                         var1 = false;
                         var2['current'] = var1;
- 89:
+case 4:
                         var1 = undefined;
                         return var1;
                     }

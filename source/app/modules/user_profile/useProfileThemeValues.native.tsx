@@ -57,11 +57,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[1] = var5;
         var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var2 = _closure2_slot0;
                 var1 = null;
-                if(!(var1 != var2)) { _fun0001_ip = 341; continue _fun0001 }
- 16:
+                if(!(var1 != var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var7 = {};
                 var8 = _closure2_slot0;
                 var7['theme'] = var8;
@@ -110,10 +110,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var5.bind(var6)();
                 var6 = var5.DARK;
                 var5 = 0.12;
-                if(!(var8 === var6)) { _fun0001_ip = 269; continue _fun0001 }
- 259:
+                if(!(var8 === var6)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var5 = 0.24;
- 269:
+case 4:
                 var2['dividerOpacity'] = var5;
                 var8 = _closure1_slot1;
                 var3 = _closure1_slot2;
@@ -129,7 +129,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var5.bind(var6)(var4, var3, var7);
                 var2['rolePillBackgroundColor'] = var3;
                 return var2;
- 341:
+case 2:
                 return var1;
             }
         };

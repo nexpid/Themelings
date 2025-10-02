@@ -64,7 +64,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function _default(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = var2.analyticsObject;
             var _closure2_slot0 = var1;
@@ -158,8 +158,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = 'active';
             var1['variant'] = var7;
             var7 = null;
-            if(!(var7 == var6)) { _fun0001_ip = 209; continue _fun0001 }
- 154:
+            if(!(var7 == var6)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var11 = _closure1_slot0;
             var12 = _closure1_slot2;
             var7 = 9;
@@ -172,7 +172,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7.t;
             var7 = var7.pj0XBA;
             var6 = var9.bind(var10)(var7);
- 209:
+case 2:
             var1['text'] = var6;
             var7 = _closure1_slot9;
             var6 = _closure1_slot0;

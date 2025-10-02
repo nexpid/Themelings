@@ -54,14 +54,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var5.map;
         var3 = function(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var2 = arg1;
                 var4 = var2.fields;
                 var1 = null;
-                if(!(var1 == var4)) { _fun0001_ip = 19; continue _fun0001 }
- 15:
+                if(!(var1 == var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var4 = new Array(0);
- 19:
+case 2:
                 var3 = var4.map;
                 var1 = function(arg1) {
                     var2 = arg1;

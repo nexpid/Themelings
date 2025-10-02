@@ -14,15 +14,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = function* (arg1, arg2, arg3) {
             var1 = function* anon_0_(arg1, arg2, arg3) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=3);
-                    if(var4) { _fun0001_ip = 247; continue _fun0001 }
- 10:
+                    if(var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var3 = arg1;
                     var9 = arg2;
                     var2 = arg3;
- 19: // try_start_0
+case 4: // try_start_0
                     var6 = _closure1_slot0;
                     var5 = _closure1_slot2;
                     var4 = 1;
@@ -35,16 +35,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var3.id;
                     var2 = var5.bind(var6)(var4, var3, var2);
                     SaveGenerator(address=72);
- 70:
+case 5:
                     return var2;
- 72:
+case 6:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0001_ip = 83; continue _fun0001 }
- 78: // try_end0
-                    _fun0001_ip = 242; continue _fun0001;
- 83:
+                    if(var3) { _fun0001_ip = 7; continue _fun0001 }
+case 8: // try_end0
+                    _fun0001_ip = 9; continue _fun0001;
+case 7:
                     return var2;
- 86: // catch_target0
+case 10: // catch_target0
                     CatchBlockStart(arg_register=1);
                     var3 = _closure1_slot1;
                     var11 = _closure1_slot2;
@@ -80,10 +80,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var7.bind(var8)(var6, var5);
                     var2['body'] = var5;
                     var2 = var3.bind(var4)(var2);
- 242:
+case 9:
                     var2 = undefined;
                     return var2;
- 247:
+case 2:
                     return var1;
                 }
             };

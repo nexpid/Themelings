@@ -30,27 +30,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function coercePlatformTypeToConsoleType(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var2 = _closure1_slot1;
             var2 = var2.XBOX;
-            if(!(var2 !== var3)) { _fun0001_ip = 64; continue _fun0001 }
- 20:
+            if(!(var2 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = _closure1_slot1;
             var2 = var2.PLAYSTATION;
-            if(!(var2 !== var3)) { _fun0001_ip = 52; continue _fun0001 }
- 34:
+            if(!(var2 !== var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = _closure1_slot1;
             var2 = var2.PLAYSTATION_STAGING;
-            if(!(var2 !== var3)) { _fun0001_ip = 52; continue _fun0001 }
- 48:
+            if(!(var2 !== var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 6:
             var2 = null;
             return var2;
- 52:
+case 4:
             var2 = _closure1_slot0;
             var2 = var2.PLAYSTATION;
             return var2;
- 64:
+case 2:
             var1 = _closure1_slot0;
             var1 = var1.XBOX;
             return var1;
@@ -59,34 +59,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['coercePlatformTypeToConsoleType'] = var4;
     var2 = function coerceConsoleTypeToPlatformType(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var4 = arg1;
             var5 = arg2;
             var2 = _closure1_slot0;
             var2 = var2.XBOX;
-            if(!(var2 !== var4)) { _fun0002_ip = 109; continue _fun0002 }
- 25:
+            if(!(var2 !== var4)) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
             var2 = _closure1_slot0;
             var2 = var2.PLAYSTATION;
-            if(!(var2 !== var4)) { _fun0002_ip = 43; continue _fun0002 }
- 39:
+            if(!(var2 !== var4)) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
             var2 = null;
             return var2;
- 43:
+case 9:
             var4 = var5.some;
             var2 = function(arg1) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var1 = arg1;
                     var3 = var1.type;
                     var2 = var1.twoWayLink;
                     var1 = _closure1_slot1;
                     var1 = var1.PLAYSTATION_STAGING;
                     var1 = var3 === var1;
-                    if(!var1) { _fun0003_ip = 37; continue _fun0003 }
- 34:
+                    if(!var1) { _fun0003_ip = 11; continue _fun0003 }
+case 5:
                     var1 = var2;
- 37:
+case 11:
                     return var1;
                 }
             };
@@ -94,34 +94,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var5.some;
             var3 = function(arg1) {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                     var1 = arg1;
                     var3 = var1.type;
                     var2 = var1.twoWayLink;
                     var1 = _closure1_slot1;
                     var1 = var1.PLAYSTATION;
                     var1 = var3 === var1;
-                    if(!var1) { _fun0004_ip = 37; continue _fun0004 }
- 34:
+                    if(!var1) { _fun0004_ip = 11; continue _fun0004 }
+case 5:
                     var1 = var2;
- 37:
+case 11:
                     return var1;
                 }
             };
             var3 = var4.bind(var5)(var3);
-            if(var3) { _fun0002_ip = 97; continue _fun0002 }
- 82:
-            if(!var2) { _fun0002_ip = 97; continue _fun0002 }
- 85:
+            if(var3) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
+            if(!var2) { _fun0002_ip = 12; continue _fun0002 }
+case 14:
             var2 = _closure1_slot1;
             var2 = var2.PLAYSTATION_STAGING;
-            _fun0002_ip = 107; continue _fun0002;
- 97:
+            _fun0002_ip = 15; continue _fun0002;
+case 12:
             var3 = _closure1_slot1;
             var2 = var3.PLAYSTATION;
- 107:
+case 15:
             return var2;
- 109:
+case 7:
             var1 = _closure1_slot1;
             var1 = var1.XBOX;
             return var1;

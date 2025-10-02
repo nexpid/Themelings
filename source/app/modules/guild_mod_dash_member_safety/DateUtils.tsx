@@ -9,23 +9,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var4 = function getMembersTableTimestampFormatter(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var1 = _closure1_slot3;
             var1 = var1.JOINED_AT;
-            if(!(var4 !== var1)) { _fun0001_ip = 42; continue _fun0001 }
- 20:
+            if(!(var4 !== var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = _closure1_slot3;
             var3 = var1.ACCOUNT_AGE;
             var1 = undefined;
-            if(!(var4 === var3)) { _fun0001_ip = 40; continue _fun0001 }
- 36:
+            if(!(var4 === var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = _closure1_slot5;
- 40:
-            _fun0001_ip = 46; continue _fun0001;
- 42:
+case 4:
+            _fun0001_ip = 6; continue _fun0001;
+case 2:
             var1 = _closure1_slot4;
- 46:
+case 6:
             return var1;
         }
     };
@@ -147,11 +147,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['formatDateRelativeTime'] = var4;
     var2 = function(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var4 = arg1;
             var1 = null;
-            if(!(var1 == var4)) { _fun0002_ip = 39; continue _fun0002 }
- 9:
+            if(!(var1 == var4)) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
             var1 = global;
             var1 = var1.Date;
             var2 = var1.prototype;
@@ -159,8 +159,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var2;
             var1 = new var6[var1](var5);
             var2 = var1 instanceof Object ? var1 : var2;
-            _fun0002_ip = 70; continue _fun0002;
- 39:
+            _fun0002_ip = 9; continue _fun0002;
+case 7:
             var1 = global;
             var1 = var1.Date;
             var3 = var1.prototype;
@@ -169,7 +169,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var4;
             var1 = new var6[var1](var5, var4);
             var2 = var1 instanceof Object ? var1 : var3;
- 70:
+case 9:
             var1 = var2.getTime;
             var1 = var1.bind(var2)();
             return var1;

@@ -71,7 +71,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function ForumPostListBody(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var6 = var1.containerStyle;
             var16 = var1.thread;
@@ -101,8 +101,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = {};
             var8 = var10.details;
             var6['style'] = var8;
-            if(!var9) { _fun0001_ip = 183; continue _fun0001 }
- 140:
+            if(!var9) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var21 = _closure1_slot5;
             var11 = _closure1_slot1;
             var22 = _closure1_slot2;
@@ -113,7 +113,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var22 = var10.newTagContainer;
             var8['containerStyle'] = var22;
             var9 = var21.bind(var4)(var11, var8);
- 183:
+case 2:
             var8 = new Array(3);
             var8[0] = var9;
             var11 = _closure1_slot5;
@@ -171,16 +171,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = new Array(2);
             var5[0] = var6;
             var11 = null;
-            if(!(var11 != var12)) { _fun0001_ip = 455; continue _fun0001 }
- 444:
+            if(!(var11 != var12)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var8 = var12.blocked;
             var6 = null;
-            if(var8) { _fun0001_ip = 551; continue _fun0001 }
- 455:
+            if(var8) { _fun0001_ip = 6; continue _fun0001 }
+case 4:
             var8 = var11 == var15;
             var6 = null;
-            if(var8) { _fun0001_ip = 551; continue _fun0001 }
- 464:
+            if(var8) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var9 = _closure1_slot5;
             var8 = _closure1_slot0;
             var17 = _closure1_slot2;
@@ -195,15 +195,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7['isLocalDeviceMedia'] = var13;
             var13 = var11 == var12;
             var11 = undefined;
-            if(var13) { _fun0001_ip = 529; continue _fun0001 }
- 524:
+            if(var13) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var11 = var12.id;
- 529:
+case 8:
             var7['firstMessageId'] = var11;
             var10 = var10.thumbnailContainer;
             var7['containerStyle'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 551:
+case 6:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

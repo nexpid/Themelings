@@ -99,40 +99,40 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function TouchableUploadAvatar(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var2 = var3.avatarSource;
             var1 = var3.showPendingAvatar;
             var4 = undefined;
-            if(!(var1 === var4)) { _fun0001_ip = 23; continue _fun0001 }
- 21:
+            if(!(var1 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = false;
- 23:
+case 2:
             var7 = var3.onSelectAvatar;
             var3 = _closure1_slot6;
             var13 = var3.bind(var4)();
-            if(!var1) { _fun0001_ip = 52; continue _fun0001 }
- 43:
+            if(!var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = null;
             var11 = var2;
-            if(!(var3 == var11)) { _fun0001_ip = 72; continue _fun0001 }
- 52:
+            if(!(var3 == var11)) { _fun0001_ip = 6; continue _fun0001 }
+case 4:
             var5 = _closure1_slot1;
             var6 = _closure1_slot2;
             var3 = 5;
             var3 = var6[var3];
             var11 = var5.bind(var4)(var3);
- 72:
-            if(!var1) { _fun0001_ip = 81; continue _fun0001 }
- 75:
+case 6:
+            if(!var1) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var1 = null;
-            if(!(var1 == var2)) { _fun0001_ip = 89; continue _fun0001 }
- 81:
+            if(!(var1 == var2)) { _fun0001_ip = 9; continue _fun0001 }
+case 7:
             var12 = var13.defaultLogoStyle;
-            _fun0001_ip = 95; continue _fun0001;
- 89:
+            _fun0001_ip = 10; continue _fun0001;
+case 9:
             var12 = var13.uploadedAvatarStyle;
- 95:
+case 10:
             var3 = _closure1_slot4;
             var2 = _closure1_slot3;
             var1 = {};

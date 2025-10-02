@@ -83,7 +83,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var8.memo;
     var4 = function MessagesItemSuggestedFriendsHeader(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var13 = var2.stickyAt;
             var _closure2_slot0 = var13;
@@ -104,18 +104,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var5.useDerivedValue;
             var2 = function x() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = _closure2_slot0;
                     var1 = null;
                     var1 = var1 != var3;
-                    if(!var1) { _fun0002_ip = 37; continue _fun0002 }
- 16:
+                    if(!var1) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var4 = _closure2_slot1;
                     var3 = var4.get;
                     var3 = var3.bind(var4)();
                     var2 = _closure2_slot0;
                     var1 = var3 >= var2;
- 37:
+case 2:
                     return var1;
                 }
             };
@@ -155,8 +155,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var9.headerContainer;
             var1['style'] = var7;
             var7 = null;
-            if(!var5) { _fun0001_ip = 324; continue _fun0001 }
- 220:
+            if(!var5) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var10 = _closure1_slot7;
             var8 = _closure1_slot6;
             var5 = {};
@@ -179,7 +179,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11[1] = var12;
             var5['children'] = var11;
             var7 = var10.bind(var4)(var8, var5);
- 324:
+case 4:
             var5 = new Array(2);
             var5[0] = var7;
             var8 = _closure1_slot5;

@@ -114,7 +114,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function LaunchWelcomeNuxContainer(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var5 = var2.descriptors;
             var7 = var2.isTabsVisible;
@@ -220,7 +220,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var6.useAnimatedStyle;
             var2 = function A() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var1 = {};
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot2;
@@ -231,28 +231,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = var8.withSpring;
                     var5 = _closure2_slot2;
                     var6 = 0;
-                    if(!var5) { _fun0002_ip = 56; continue _fun0002 }
- 44:
+                    if(!var5) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var5 = _closure2_slot0;
                     var6 = 0;
-                    if(!var5) { _fun0002_ip = 56; continue _fun0002 }
- 53:
+                    if(!var5) { _fun0002_ip = 2; continue _fun0002 }
+case 4:
                     var6 = 1;
- 56:
+case 2:
                     var5 = _closure1_slot6;
                     var2 = 'animate-always';
                     var2 = var7.bind(var8)(var6, var5, var2);
                     var1['opacity'] = var2;
                     var5 = _closure2_slot1;
                     var2 = undefined;
-                    if(!var5) { _fun0002_ip = 99; continue _fun0002 }
- 86:
+                    if(!var5) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
                     var3 = _closure2_slot2;
                     var2 = undefined;
-                    if(var3) { _fun0002_ip = 99; continue _fun0002 }
- 95:
+                    if(var3) { _fun0002_ip = 5; continue _fun0002 }
+case 7:
                     var2 = 'none';
- 99:
+case 5:
                     var1['display'] = var2;
                     return var1;
                 }
@@ -302,7 +302,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var6.useAnimatedProps;
             var2 = function D() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var1 = {};
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot2;
@@ -313,14 +313,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var6.withSpring;
                     var8 = _closure2_slot0;
                     var4 = 0;
-                    if(!var8) { _fun0003_ip = 63; continue _fun0003 }
- 44:
+                    if(!var8) { _fun0003_ip = 8; continue _fun0003 }
+case 3:
                     var3 = _closure2_slot2;
                     var4 = 0;
-                    if(!var3) { _fun0003_ip = 63; continue _fun0003 }
- 53:
+                    if(!var3) { _fun0003_ip = 8; continue _fun0003 }
+case 4:
                     var4 = 0.3;
- 63:
+case 8:
                     var3 = _closure1_slot6;
                     var2 = 'animate-always';
                     var2 = var5.bind(var6)(var4, var3, var2);
@@ -348,8 +348,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.bind(var3)(var5);
             var20 = var2.length;
             var19 = 3;
-            if(!(!(var20 <= var19))) { _fun0001_ip = 987; continue _fun0001 }
- 518:
+            if(!(!(var20 <= var19))) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var5 = function handleDismiss() {
                 var3 = _closure2_slot3;
                 var1 = undefined;
@@ -368,13 +368,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['style'] = var6;
             var10 = 'none';
             var6 = var10;
-            if(!var12) { _fun0001_ip = 581; continue _fun0001 }
- 571:
+            if(!var12) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var6 = var10;
-            if(!var7) { _fun0001_ip = 581; continue _fun0001 }
- 577:
+            if(!var7) { _fun0001_ip = 11; continue _fun0001 }
+case 13:
             var6 = 'auto';
- 581:
+case 11:
             var1['pointerEvents'] = var6;
             var1['onPressIn'] = var5;
             var1['onPress'] = var5;
@@ -466,7 +466,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
- 987:
+case 9:
             var1 = null;
             return var1;
         }

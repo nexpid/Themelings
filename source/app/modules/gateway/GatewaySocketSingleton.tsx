@@ -1,7 +1,7 @@
 // app/modules/gateway/GatewaySocketSingleton.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
         var7 = require;
         var10 = metroImportDefault;
         var3 = exports;
@@ -63,7 +63,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var2 instanceof Object ? var2 : var9;
         var9 = function() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var2 = _closure1_slot3;
                 var1 = var2.getToken;
                 var4 = var1.bind(var2)();
@@ -75,8 +75,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5['hasToken'] = var2;
                 var2 = 'handleIdentify called';
                 var2 = var6.bind(var7)(var2, var5);
-                if(!(var1 != var4)) { _fun0002_ip = 212; continue _fun0002 }
- 61:
+                if(!(var1 != var4)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                 var9 = _closure1_slot0;
                 var8 = _closure1_slot2;
                 var2 = 5;
@@ -114,7 +114,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var3.bind(var4)();
                 var2['presence'] = var3;
                 return var2;
- 212:
+case 2:
                 return var1;
             }
         };
@@ -124,8 +124,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var11 = var7.bind(var1)(var9);
         var9 = var11.isDesktop;
         var9 = var9.bind(var11)();
-        if(!var9) { _fun0001_ip = 309; continue _fun0001 }
- 268:
+        if(!var9) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
         var9 = 9;
         var9 = var8[var9];
         var9 = var10.bind(var1)(var9);
@@ -142,7 +142,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var9 = var12.bind(var13)(var11, var9);
- 309:
+case 4:
         var9 = 10;
         var11 = var8[var9];
         var13 = var10.bind(var1)(var11);

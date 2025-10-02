@@ -37,7 +37,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['default'] = var4;
     var2 = function parseEmbeddedActivityKey(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var2 = var3.split;
             var1 = ':';
@@ -46,8 +46,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = 3;
             var2 = var2 < var1;
             var1 = null;
-            if(var2) { _fun0001_ip = 72; continue _fun0001 }
- 34:
+            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = {};
             var3 = 0;
             var3 = var4[var3];
@@ -59,7 +59,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4[var3];
             var2['instanceId'] = var3;
             var1 = var2;
- 72:
+case 2:
             return var1;
         }
     };

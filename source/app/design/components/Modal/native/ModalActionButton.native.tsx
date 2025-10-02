@@ -51,7 +51,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function ModalActionButton(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var10 = var3.variant;
             var1 = null;
@@ -70,15 +70,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = {};
             var5 = 'secondary';
             var7 = var5 === var10;
-            if(!var7) { _fun0001_ip = 91; continue _fun0001 }
- 65:
+            if(!var7) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var11 = _closure1_slot3;
             var8 = _closure1_slot2;
             var5 = {};
             var12 = var12.spacer;
             var5['style'] = var12;
             var7 = var11.bind(var4)(var8, var5);
- 91:
+case 2:
             var5 = new Array(2);
             var5[0] = var7;
             var8 = _closure1_slot3;

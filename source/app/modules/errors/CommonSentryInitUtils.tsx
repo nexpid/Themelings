@@ -52,7 +52,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure2_slot2 = var2;
         var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var2 = global;
                 var3 = var2.Date;
                 var1 = var3.now;
@@ -73,34 +73,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = _closure2_slot2;
                 var1 = var1.minute;
                 var1 = var1.slot;
-                if(!(var1 !== var5)) { _fun0001_ip = 131; continue _fun0001 }
- 101:
+                if(!(var1 !== var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var1 = _closure2_slot2;
                 var3 = var1.minute;
                 var3['slot'] = var5;
                 var3 = var1.minute;
                 var1 = 0;
                 var3['budgetUsed'] = var1;
- 131:
+case 2:
                 var1 = _closure2_slot2;
                 var1 = var1.hour;
                 var1 = var1.slot;
-                if(!(var1 !== var4)) { _fun0001_ip = 181; continue _fun0001 }
- 151:
+                if(!(var1 !== var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var1 = _closure2_slot2;
                 var3 = var1.hour;
                 var3['slot'] = var4;
                 var3 = var1.hour;
                 var1 = 0;
                 var3['budgetUsed'] = var1;
- 181:
+case 4:
                 var1 = _closure2_slot2;
                 var1 = var1.minute;
                 var3 = var1.budgetUsed;
                 var1 = _closure2_slot0;
                 var1 = var3 < var1;
-                if(!var1) { _fun0001_ip = 253; continue _fun0001 }
- 208:
+                if(!var1) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                 var3 = _closure2_slot2;
                 var5 = var3.minute;
                 var4 = var5.budgetUsed;
@@ -110,16 +110,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var3.budgetUsed;
                 var3 = _closure2_slot1;
                 var1 = var4 < var3;
- 253:
-                if(!var1) { _fun0001_ip = 283; continue _fun0001 }
- 256:
+case 6:
+                if(!var1) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
                 var2 = _closure2_slot2;
                 var3 = var2.hour;
                 var2 = var3.budgetUsed;
                 var2 = var2 + 1;
                 var3['budgetUsed'] = var2;
                 var1 = true;
- 283:
+case 8:
                 return var1;
             }
         };

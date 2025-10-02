@@ -7,19 +7,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var6;
     var2 = function getIsSocialLayerParentApplication(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var2 = null;
             var4 = var2 == var3;
             var7 = undefined;
             var1 = undefined;
-            if(var4) { _fun0001_ip = 21; continue _fun0001 }
- 16:
+            if(var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var3.flags;
- 21:
+case 2:
             var1 = var2 != var1;
-            if(!var1) { _fun0001_ip = 110; continue _fun0001 }
- 28:
+            if(!var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var6 = _closure1_slot0;
             var8 = _closure1_slot1;
             var2 = 1;
@@ -37,7 +37,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = 33;
             var2 = var6.bind(var7)(var2);
             var1 = var4.bind(var5)(var3, var2);
- 110:
+case 4:
             return var1;
         }
     };

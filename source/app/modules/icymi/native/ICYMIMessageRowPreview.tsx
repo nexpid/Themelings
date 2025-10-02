@@ -9,24 +9,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var8;
     var1 = function isMediaEmbed(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var1 = _closure1_slot4;
             var1 = var1.IMAGE;
             var1 = var3 === var1;
-            if(var1) { _fun0001_ip = 37; continue _fun0001 }
- 23:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = _closure1_slot4;
             var2 = var2.GIFV;
             var1 = var3 === var2;
- 37:
+case 2:
             return var1;
         }
     };
     var _closure1_slot6 = var1;
     var1 = function ICYMIMessageRowPreview(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var8 = var1.message;
             var2 = var1.lineClamp;
@@ -37,10 +37,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var1.maxHeight;
             var10 = var1.pointerEvents;
             var4 = undefined;
-            if(!(var10 === var4)) { _fun0002_ip = 58; continue _fun0002 }
- 54:
+            if(!(var10 === var4)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var10 = 'none';
- 58:
+case 4:
             var _closure2_slot2 = var4;
             var _closure2_slot3 = var4;
             var _closure2_slot4 = var4;
@@ -129,7 +129,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['horizontalOffset'] = var10;
             var9 = function modifyRow(arg1) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var3 = arg1;
                     var4 = _closure1_slot0;
                     var2 = _closure1_slot2;
@@ -142,8 +142,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3['contextType'] = var2;
                     var6 = _closure2_slot0;
                     var2 = null;
-                    if(!(var2 != var6)) { _fun0003_ip = 158; continue _fun0003 }
- 59:
+                    if(!(var2 != var6)) { _fun0003_ip = 6; continue _fun0003 }
+case 7:
                     var2 = {};
                     var6 = _closure2_slot0;
                     var2['numberOfLines'] = var6;
@@ -166,7 +166,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var4.seeMoreLabelColor;
                     var2['seeMoreLabelColor'] = var4;
                     var3['truncation'] = var2;
- 158:
+case 6:
                     return var1;
                 }
             };
@@ -279,7 +279,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3[2] = var7;
         var2 = function() {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                 var1 = {};
                 var3 = _closure2_slot2;
                 var1['message'] = var3;
@@ -296,10 +296,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var3.muted;
                 var3 = null;
                 var3 = var3 != var4;
-                if(!var3) { _fun0004_ip = 77; continue _fun0004 }
- 74:
+                if(!var3) { _fun0004_ip = 8; continue _fun0004 }
+case 9:
                 var3 = var4;
- 77:
+case 8:
                 var1['muted'] = var3;
                 var2 = _closure2_slot1;
                 var2 = var2.lineClamp;
@@ -439,7 +439,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3[2] = var7;
         var2 = function() {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
                 var1 = {};
                 var3 = _closure2_slot2;
                 var1['message'] = var3;
@@ -456,10 +456,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var3.muted;
                 var3 = null;
                 var3 = var3 != var4;
-                if(!var3) { _fun0005_ip = 77; continue _fun0005 }
- 74:
+                if(!var3) { _fun0005_ip = 8; continue _fun0005 }
+case 9:
                 var3 = var4;
- 77:
+case 8:
                 var1['muted'] = var3;
                 var2 = _closure2_slot1;
                 var2 = var2.lineClamp;
@@ -534,7 +534,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3[3] = var8;
         var1 = function() {
             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
- 0:
+case 0:
                 var1 = {};
                 var3 = _closure2_slot0;
                 var1['message'] = var3;
@@ -553,10 +553,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var3.muted;
                 var3 = null;
                 var3 = var3 != var4;
-                if(!var3) { _fun0006_ip = 88; continue _fun0006 }
- 85:
+                if(!var3) { _fun0006_ip = 10; continue _fun0006 }
+case 11:
                 var3 = var4;
- 88:
+case 10:
                 var1['muted'] = var3;
                 var2 = _closure2_slot1;
                 var2 = var2.pointerEvents;

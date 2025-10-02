@@ -34,7 +34,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useUserProfileApplicationRoleConnections(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var _closure2_slot0 = var2;
             var5 = _closure1_slot0;
@@ -60,32 +60,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = null;
             var6 = var5 == var2;
             var5 = undefined;
-            if(var6) { _fun0001_ip = 89; continue _fun0001 }
- 83:
+            if(var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = var2.applicationRoleConnections;
- 89:
+case 2:
             var2 = new Array(1);
             var2[0] = var5;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var2 = _closure2_slot1;
                     var3 = null;
                     var4 = var3 == var2;
                     var2 = undefined;
-                    if(var4) { _fun0002_ip = 28; continue _fun0002 }
- 18:
+                    if(var4) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var4 = _closure2_slot1;
                     var2 = var4.applicationRoleConnections;
- 28:
-                    if(!(var3 != var2)) { _fun0002_ip = 44; continue _fun0002 }
- 32:
+case 4:
+                    if(!(var3 != var2)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var1 = _closure2_slot1;
                     var1 = var1.applicationRoleConnections;
-                    _fun0002_ip = 51; continue _fun0002;
- 44:
+                    _fun0002_ip = 8; continue _fun0002;
+case 6:
                     var1 = _closure1_slot4;
- 51:
+case 8:
                     return var1;
                 }
             };

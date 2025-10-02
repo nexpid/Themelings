@@ -32,12 +32,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function getBenefitKey(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = 'roles';
             var1 = var1 in var2;
-            if(var1) { _fun0001_ip = 73; continue _fun0001 }
- 14:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var15 = var2.ref_type;
             var13 = var2.emoji_id;
             var11 = var2.name;
@@ -51,22 +51,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var1;
             var10 = var1;
             var1 = var16[var4](var15, var14, var13, var12, var11, var10, var9, var8);
-            _fun0001_ip = 102; continue _fun0001;
- 73:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var4 = var2.id;
             var2 = global;
             var2 = var2.HermesInternal;
             var3 = var2.concat;
             var2 = 'emoji-';
             var1 = var3.bind(var2)(var4);
- 102:
+case 4:
             return var1;
         }
     };
     var3['getBenefitKey'] = var4;
     var4 = function formatPlanInterval(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var9 = var1.interval;
             var5 = var1.interval_count;
@@ -80,40 +80,40 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.format;
             var2 = _closure1_slot3;
             var2 = var2.DAY;
-            if(!(var2 !== var9)) { _fun0002_ip = 158; continue _fun0002 }
- 64:
+            if(!(var2 !== var9)) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
             var2 = _closure1_slot3;
             var2 = var2.MONTH;
-            if(!(var2 !== var9)) { _fun0002_ip = 126; continue _fun0002 }
- 78:
+            if(!(var2 !== var9)) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
             var2 = _closure1_slot3;
             var6 = var2.YEAR;
             var2 = undefined;
-            if(!(var6 === var9)) { _fun0002_ip = 188; continue _fun0002 }
- 94:
+            if(!(var6 === var9)) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
             var9 = _closure1_slot0;
             var6 = _closure1_slot1;
             var6 = var6[var8];
             var6 = var9.bind(var7)(var6);
             var6 = var6.t;
             var2 = var6.cuSp8f;
-            _fun0002_ip = 188; continue _fun0002;
- 126:
+            _fun0002_ip = 9; continue _fun0002;
+case 7:
             var9 = _closure1_slot0;
             var6 = _closure1_slot1;
             var6 = var6[var8];
             var6 = var9.bind(var7)(var6);
             var6 = var6.t;
             var2 = var6.zuN54+;
-            _fun0002_ip = 188; continue _fun0002;
- 158:
+            _fun0002_ip = 9; continue _fun0002;
+case 5:
             var6 = _closure1_slot0;
             var1 = _closure1_slot1;
             var1 = var1[var8];
             var1 = var6.bind(var7)(var1);
             var1 = var1.t;
             var2 = var1.3rUmPT;
- 188:
+case 9:
             var1 = {};
             var1['count'] = var5;
             var1 = var3.bind(var4)(var2, var1);
@@ -123,25 +123,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['formatPlanInterval'] = var4;
     var4 = function formatPlanIntervalDuration(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var1 = arg1;
             var3 = var1.interval;
             var7 = var1.interval_count;
             var1 = _closure1_slot3;
             var1 = var1.DAY;
-            if(!(var1 !== var3)) { _fun0003_ip = 201; continue _fun0003 }
- 35:
+            if(!(var1 !== var3)) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
             var1 = _closure1_slot3;
             var1 = var1.MONTH;
-            if(!(var1 !== var3)) { _fun0003_ip = 134; continue _fun0003 }
- 49:
+            if(!(var1 !== var3)) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
             var1 = _closure1_slot3;
             var1 = var1.YEAR;
-            if(!(var1 !== var3)) { _fun0003_ip = 67; continue _fun0003 }
- 63:
+            if(!(var1 !== var3)) { _fun0003_ip = 15; continue _fun0003 }
+case 16:
             var1 = undefined;
             return var1;
- 67:
+case 15:
             var6 = _closure1_slot0;
             var8 = _closure1_slot1;
             var1 = 2;
@@ -158,7 +158,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['years'] = var7;
             var1 = var4.bind(var5)(var3, var1);
             return var1;
- 134:
+case 13:
             var6 = _closure1_slot0;
             var8 = _closure1_slot1;
             var1 = 2;
@@ -175,14 +175,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['months'] = var7;
             var1 = var4.bind(var5)(var3, var1);
             return var1;
- 201:
+case 11:
             var3 = 0;
-            if(!(var7 > var3)) { _fun0003_ip = 218; continue _fun0003 }
- 207:
+            if(!(var7 > var3)) { _fun0003_ip = 17; continue _fun0003 }
+case 18:
             var6 = 7;
             var1 = var7 % var6;
-            if(!(var1 !== var3)) { _fun0003_ip = 285; continue _fun0003 }
- 218:
+            if(!(var1 !== var3)) { _fun0003_ip = 19; continue _fun0003 }
+case 17:
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
             var1 = 2;
@@ -198,8 +198,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = {};
             var1['days'] = var7;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0003_ip = 354; continue _fun0003;
- 285:
+            _fun0003_ip = 20; continue _fun0003;
+case 19:
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
             var2 = 2;
@@ -216,7 +216,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var7 / var6;
             var2['weeks'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 354:
+case 20:
             return var1;
         }
     };

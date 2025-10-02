@@ -106,7 +106,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['default'] = var4;
     var2 = function useOrbsBadgeCoachmark(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var2 = var2.disabled;
             var _closure2_slot0 = var2;
@@ -151,7 +151,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1['visible'] = var3;
                 var3 = function onDismiss() {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                         var3 = _closure1_slot0;
                         var2 = _closure1_slot2;
                         var1 = 6;
@@ -161,18 +161,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = var3.getRootNavigationRef;
                         var4 = var2.bind(var3)();
                         var2 = null;
-                        if(!(var2 != var4)) { _fun0002_ip = 74; continue _fun0002 }
- 41:
+                        if(!(var2 != var4)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                         var2 = var4.isReady;
                         var2 = var2.bind(var4)();
-                        if(!var2) { _fun0002_ip = 74; continue _fun0002 }
- 54:
+                        if(!var2) { _fun0002_ip = 2; continue _fun0002 }
+case 4:
                         var3 = var4.setParams;
                         var2 = {};
                         var2['showOrbsBadgeCoachmark'] = var1;
                         var2 = var3.bind(var4)(var2);
                         return var1;
- 74:
+case 2:
                         var1 = false;
                         return var1;
                     }
@@ -191,12 +191,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var3 = var4.bind(var5)(var1, var3);
             var1 = null;
-            if(var2) { _fun0001_ip = 83; continue _fun0001 }
- 74:
+            if(var2) { _fun0001_ip = 5; continue _fun0001 }
+case 2:
             var2 = {};
             var2['props'] = var3;
             var1 = var2;
- 83:
+case 5:
             return var1;
         }
     };

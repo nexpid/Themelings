@@ -7,17 +7,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var5;
     var4 = function getMemberSupplementalByGuildId(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var3 = _closure1_slot2;
             var4 = var3[var2];
             var3 = null;
-            if(!(var3 == var4)) { _fun0001_ip = 30; continue _fun0001 }
- 20:
+            if(!(var3 == var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = _closure1_slot2;
             var3 = {};
             var4[var2] = var3;
- 30:
+case 2:
             var1 = _closure1_slot2;
             var1 = var1[var2];
             return var1;
@@ -43,20 +43,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var7)(var5);
     var5 = function hasMemberSupplemental(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var4 = arg1;
             var1 = _closure1_slot2;
             var1 = var1[var4];
             var3 = null;
             var1 = var3 != var1;
-            if(!var1) { _fun0002_ip = 42; continue _fun0002 }
- 23:
+            if(!var1) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var2 = _closure1_slot2;
             var4 = var2[var4];
             var2 = arg2;
             var2 = var4[var2];
             var1 = var3 != var2;
- 42:
+case 4:
             return var1;
         }
     };
@@ -64,12 +64,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['getMemberSupplementalByGuildId'] = var4;
     var2 = function syncMemberSupplemental(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var3 = arg2;
             var4 = var3.length;
             var2 = 0;
-            if(!(var2 !== var4)) { _fun0003_ip = 56; continue _fun0003 }
- 16:
+            if(!(var2 !== var4)) { _fun0003_ip = 6; continue _fun0003 }
+case 7:
             var5 = _closure1_slot3;
             var4 = undefined;
             var2 = arg1;
@@ -78,32 +78,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.forEach;
             var1 = function(arg1) {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                     var5 = arg1;
                     var3 = _closure2_slot0;
                     var2 = var5.userId;
                     var7 = var3[var2];
                     var2 = var5.joinSourceType;
                     var4 = null;
-                    if(!(var4 == var2)) { _fun0004_ip = 49; continue _fun0004 }
- 31:
+                    if(!(var4 == var2)) { _fun0004_ip = 8; continue _fun0004 }
+case 9:
                     var6 = var4 == var7;
                     var3 = undefined;
-                    if(var6) { _fun0004_ip = 46; continue _fun0004 }
- 40:
+                    if(var6) { _fun0004_ip = 10; continue _fun0004 }
+case 11:
                     var3 = var7.joinSourceType;
- 46:
+case 10:
                     var2 = var3;
- 49:
+case 8:
                     var3 = var4 != var2;
                     var6 = null;
-                    if(!var3) { _fun0004_ip = 61; continue _fun0004 }
- 58:
+                    if(!var3) { _fun0004_ip = 12; continue _fun0004 }
+case 13:
                     var6 = var2;
- 61:
+case 12:
                     var2 = var4 != var6;
-                    if(!var2) { _fun0004_ip = 108; continue _fun0004 }
- 68:
+                    if(!var2) { _fun0004_ip = 14; continue _fun0004 }
+case 15:
                     var9 = _closure1_slot0;
                     var8 = _closure1_slot1;
                     var3 = 0;
@@ -113,14 +113,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var3.JoinSourceType;
                     var3 = var3.UNSPECIFIED;
                     var2 = var6 !== var3;
- 108:
-                    if(var2) { _fun0004_ip = 121; continue _fun0004 }
- 111:
+case 14:
+                    if(var2) { _fun0004_ip = 16; continue _fun0004 }
+case 17:
                     var3 = var5.sourceInviteCode;
                     var2 = var4 == var3;
- 121:
-                    if(var2) { _fun0004_ip = 160; continue _fun0004 }
- 124:
+case 16:
+                    if(var2) { _fun0004_ip = 18; continue _fun0004 }
+case 19:
                     var8 = _closure1_slot0;
                     var3 = _closure1_slot1;
                     var2 = 0;
@@ -129,102 +129,102 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var8.bind(var2)(var3);
                     var2 = var2.JoinSourceType;
                     var6 = var2.INVITE;
- 160:
+case 18:
                     var3 = _closure2_slot0;
                     var2 = var5.userId;
                     var1 = {};
                     var8 = var5.userId;
                     var1['userId'] = var8;
                     var9 = var5.sourceInviteCode;
-                    if(!(var4 == var9)) { _fun0004_ip = 208; continue _fun0004 }
- 190:
+                    if(!(var4 == var9)) { _fun0004_ip = 20; continue _fun0004 }
+case 21:
                     var10 = var4 == var7;
                     var8 = undefined;
-                    if(var10) { _fun0004_ip = 205; continue _fun0004 }
- 199:
+                    if(var10) { _fun0004_ip = 22; continue _fun0004 }
+case 23:
                     var8 = var7.sourceInviteCode;
- 205:
+case 22:
                     var9 = var8;
- 208:
+case 20:
                     var10 = var4 != var9;
                     var8 = null;
-                    if(!var10) { _fun0004_ip = 220; continue _fun0004 }
- 217:
+                    if(!var10) { _fun0004_ip = 24; continue _fun0004 }
+case 25:
                     var8 = var9;
- 220:
+case 24:
                     var1['sourceInviteCode'] = var8;
                     var1['joinSourceType'] = var6;
                     var8 = var5.inviterId;
-                    if(!(var4 == var8)) { _fun0004_ip = 258; continue _fun0004 }
- 240:
+                    if(!(var4 == var8)) { _fun0004_ip = 26; continue _fun0004 }
+case 27:
                     var9 = var4 == var7;
                     var6 = undefined;
-                    if(var9) { _fun0004_ip = 255; continue _fun0004 }
- 249:
+                    if(var9) { _fun0004_ip = 28; continue _fun0004 }
+case 29:
                     var6 = var7.inviterId;
- 255:
+case 28:
                     var8 = var6;
- 258:
+case 26:
                     var9 = var4 != var8;
                     var6 = null;
-                    if(!var9) { _fun0004_ip = 270; continue _fun0004 }
- 267:
+                    if(!var9) { _fun0004_ip = 30; continue _fun0004 }
+case 31:
                     var6 = var8;
- 270:
+case 30:
                     var1['inviterId'] = var6;
                     var8 = var5.integrationType;
-                    if(!(var4 == var8)) { _fun0004_ip = 303; continue _fun0004 }
- 285:
+                    if(!(var4 == var8)) { _fun0004_ip = 32; continue _fun0004 }
+case 33:
                     var9 = var4 == var7;
                     var6 = undefined;
-                    if(var9) { _fun0004_ip = 300; continue _fun0004 }
- 294:
+                    if(var9) { _fun0004_ip = 34; continue _fun0004 }
+case 35:
                     var6 = var7.integrationType;
- 300:
+case 34:
                     var8 = var6;
- 303:
+case 32:
                     var9 = var4 != var8;
                     var6 = null;
-                    if(!var9) { _fun0004_ip = 315; continue _fun0004 }
- 312:
+                    if(!var9) { _fun0004_ip = 36; continue _fun0004 }
+case 37:
                     var6 = var8;
- 315:
+case 36:
                     var1['integrationType'] = var6;
                     var8 = var5.joinSourceApplicationId;
-                    if(!(var4 == var8)) { _fun0004_ip = 348; continue _fun0004 }
- 330:
+                    if(!(var4 == var8)) { _fun0004_ip = 38; continue _fun0004 }
+case 39:
                     var9 = var4 == var7;
                     var6 = undefined;
-                    if(var9) { _fun0004_ip = 345; continue _fun0004 }
- 339:
+                    if(var9) { _fun0004_ip = 40; continue _fun0004 }
+case 41:
                     var6 = var7.joinSourceApplicationId;
- 345:
+case 40:
                     var8 = var6;
- 348:
+case 38:
                     var9 = var4 != var8;
                     var6 = null;
-                    if(!var9) { _fun0004_ip = 360; continue _fun0004 }
- 357:
+                    if(!var9) { _fun0004_ip = 42; continue _fun0004 }
+case 43:
                     var6 = var8;
- 360:
+case 42:
                     var1['joinSourceApplicationId'] = var6;
                     var5 = var5.joinSourceChannelId;
-                    if(!(var4 == var5)) { _fun0004_ip = 393; continue _fun0004 }
- 375:
+                    if(!(var4 == var5)) { _fun0004_ip = 44; continue _fun0004 }
+case 45:
                     var8 = var4 == var7;
                     var6 = undefined;
-                    if(var8) { _fun0004_ip = 390; continue _fun0004 }
- 384:
+                    if(var8) { _fun0004_ip = 46; continue _fun0004 }
+case 47:
                     var6 = var7.joinSourceChannelId;
- 390:
+case 46:
                     var5 = var6;
- 393:
+case 44:
                     var6 = var4 != var5;
                     var4 = null;
-                    if(!var6) { _fun0004_ip = 405; continue _fun0004 }
- 402:
+                    if(!var6) { _fun0004_ip = 48; continue _fun0004 }
+case 49:
                     var4 = var5;
- 405:
+case 48:
                     var1['joinSourceChannelId'] = var4;
                     var3[var2] = var1;
                     var1 = undefined;
@@ -234,7 +234,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2.bind(var3)(var1);
             var1 = true;
             return var1;
- 56:
+case 6:
             var1 = false;
             return var1;
         }

@@ -69,7 +69,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function UserSettingsDesignSystemTabs() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var6 = _closure1_slot4;
             var1 = var6.useState;
             var5 = 0;
@@ -127,7 +127,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2[2] = var5;
                 var1 = function() {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                         var1 = new Array(0);
                         var2 = _closure3_slot0;
                         var12 = 0;
@@ -140,8 +140,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var5 = 'heading-xxl/bold';
                         var4 = 100;
                         var3 = 'Item ';
-                        if(!var2) { _fun0002_ip = 280; continue _fun0002 }
- 57:
+                        if(!var2) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                         var14 = var1.push;
                         var2 = {};
                         var16 = var12 + var11;
@@ -151,8 +151,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2['label'] = var15;
                         var16 = _closure3_slot1;
                         var15 = undefined;
-                        if(!var16) { _fun0002_ip = 134; continue _fun0002 }
- 97:
+                        if(!var16) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                         var18 = var10.Math;
                         var17 = var18.floor;
                         var19 = var10.Math;
@@ -160,7 +160,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var16 = var16.bind(var19)();
                         var16 = var4 * var16;
                         var15 = var17.bind(var18)(var16);
- 134:
+case 4:
                         var2['count'] = var15;
                         var16 = var12 + var11;
                         var15 = var10.HermesInternal;
@@ -192,8 +192,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = var14.bind(var1)(var2);
                         var12 = var12 + 1;
                         var2 = _closure3_slot0;
-                        if(var12 < var2) { _fun0002_ip = 57; continue _fun0002 }
- 280:
+                        if(var12 < var2) { _fun0002_ip = 3; continue _fun0002 }
+case 2:
                         return var1;
                     }
                 };
@@ -272,8 +272,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = new Array(2);
             var12[0] = var13;
             var13 = var19;
-            if(!var13) { _fun0001_ip = 491; continue _fun0001 }
- 451:
+            if(!var13) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var17 = _closure1_slot8;
             var16 = _closure1_slot1;
             var21 = _closure1_slot2;
@@ -284,7 +284,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15['state'] = var14;
             var15['colors'] = var20;
             var13 = var17.bind(var4)(var16, var15);
- 491:
+case 6:
             var12[1] = var13;
             var10['children'] = var12;
             var12 = var9.bind(var4)(var6, var10);

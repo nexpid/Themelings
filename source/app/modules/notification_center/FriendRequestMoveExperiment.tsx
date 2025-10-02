@@ -55,7 +55,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['default'] = var4;
     var2 = function useNumFriendRequestsForBadging(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = _closure1_slot4;
             var3 = var4.useExperiment;
             var2 = {};
@@ -83,7 +83,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var3.filter;
                 var1 = function(arg1) {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                         var5 = arg1;
                         var2 = var5.type;
                         var4 = _closure1_slot0;
@@ -95,8 +95,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var1 = var1.NotificationCenterLocalItems;
                         var1 = var1.INCOMING_FRIEND_REQUESTS;
                         var1 = var2 !== var1;
-                        if(!var1) { _fun0002_ip = 90; continue _fun0002 }
- 52:
+                        if(!var1) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                         var4 = var5.type;
                         var6 = _closure1_slot0;
                         var2 = _closure1_slot1;
@@ -105,18 +105,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = var2.NotificationCenterLocalItems;
                         var2 = var2.INCOMING_GAME_FRIEND_REQUESTS;
                         var1 = var4 !== var2;
- 90:
-                        if(var1) { _fun0002_ip = 121; continue _fun0002 }
- 93:
+case 2:
+                        if(var1) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                         var2 = _closure2_slot0;
-                        if(!var2) { _fun0002_ip = 118; continue _fun0002 }
- 103:
+                        if(!var2) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                         var4 = _closure1_slot3;
                         var3 = var4.isLocalItemAcked;
                         var2 = var3.bind(var4)(var5);
- 118:
+case 6:
                         var1 = var2;
- 121:
+case 4:
                         var1 = !var1;
                         return var1;
                     }
@@ -127,10 +127,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var2 = var4.bind(var5)(var2, var1);
             var1 = 0;
-            if(!var3) { _fun0001_ip = 113; continue _fun0001 }
- 110:
+            if(!var3) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var1 = var2;
- 113:
+case 8:
             return var1;
         }
     };

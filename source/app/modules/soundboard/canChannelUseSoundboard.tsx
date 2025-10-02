@@ -6,18 +6,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = dependencyMap;
     var4 = function canChannelUseSoundboard(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var1 = null;
-            if(!(var1 != var4)) { _fun0001_ip = 129; continue _fun0001 }
- 9:
+            if(!(var1 != var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = _closure1_slot4;
             var5 = var2.CALLABLE;
             var3 = var5.has;
             var2 = var4.type;
             var2 = var3.bind(var5)(var2);
-            if(var2) { _fun0001_ip = 125; continue _fun0001 }
- 40:
+            if(var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = _closure1_slot1;
             var3 = var5.can;
             var2 = _closure1_slot5;
@@ -32,19 +32,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = _closure1_slot3;
             var1 = var1.GUILD_VOICE;
             var1 = var4 === var1;
-            if(!var1) { _fun0001_ip = 117; continue _fun0001 }
- 114:
+            if(!var1) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var1 = var3;
- 117:
-            if(!var1) { _fun0001_ip = 123; continue _fun0001 }
- 120:
+case 6:
+            if(!var1) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var1 = var2;
- 123:
+case 8:
             return var1;
- 125:
+case 4:
             var1 = true;
             return var1;
- 129:
+case 2:
             var1 = false;
             return var1;
         }

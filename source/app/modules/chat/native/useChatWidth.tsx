@@ -24,7 +24,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function useChatWidth(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var6 = arg1;
             var4 = _closure1_slot1;
             var8 = _closure1_slot2;
@@ -46,25 +46,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var3.useDrawerWidth;
             var3 = var1.bind(var3)();
             var1 = null;
-            if(!(var1 != var6)) { _fun0001_ip = 97; continue _fun0001 }
- 90:
+            if(!(var1 != var6)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var4;
-            if(!(var2 === var6)) { _fun0001_ip = 110; continue _fun0001 }
- 97:
+            if(!(var2 === var6)) { _fun0001_ip = 4; continue _fun0001 }
+case 2:
             var2 = var4;
-            if(!var5) { _fun0001_ip = 107; continue _fun0001 }
- 103:
+            if(!var5) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var2 = var4 - var3;
- 107:
+case 5:
             var1 = var2;
- 110:
+case 4:
             return var1;
         }
     };
     var3['default'] = var4;
     var2 = function getChatWidth(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var7 = arg1;
             var4 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -82,14 +82,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.bind(var4)();
             var4 = var1.width;
             var1 = null;
-            if(!(var1 != var7)) { _fun0002_ip = 83; continue _fun0002 }
- 76:
+            if(!(var1 != var7)) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
             var1 = var4;
-            if(!(var2 === var7)) { _fun0002_ip = 126; continue _fun0002 }
- 83:
+            if(!(var2 === var7)) { _fun0002_ip = 9; continue _fun0002 }
+case 7:
             var2 = var4;
-            if(!var5) { _fun0002_ip = 123; continue _fun0002 }
- 89:
+            if(!var5) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
             var5 = _closure1_slot0;
             var7 = _closure1_slot2;
             var3 = 2;
@@ -98,9 +98,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var5.getDrawerWidth;
             var3 = var3.bind(var5)();
             var2 = var4 - var3;
- 123:
+case 10:
             var1 = var2;
- 126:
+case 9:
             return var1;
         }
     };

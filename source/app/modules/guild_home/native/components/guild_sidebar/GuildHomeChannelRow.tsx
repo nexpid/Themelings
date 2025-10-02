@@ -66,7 +66,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function GuildHomeChannelRow(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var2 = var3.guild;
             var10 = var3.selected;
@@ -103,13 +103,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1[var5];
             var1 = var2.bind(var4)(var1);
             var1 = var1.ChannelModes;
-            if(var10) { _fun0001_ip = 105; continue _fun0001 }
- 97:
+            if(var10) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var7 = var1.DEFAULT;
-            _fun0001_ip = 111; continue _fun0001;
- 105:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var7 = var1.SELECTED;
- 111:
+case 4:
             var3 = _closure1_slot6;
             var2 = _closure1_slot1;
             var9 = _closure1_slot2;

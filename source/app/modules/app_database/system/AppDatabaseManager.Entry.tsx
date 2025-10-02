@@ -54,17 +54,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var6 = function value() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var2 = this;
                 var3 = var2.module;
                 var1 = null;
-                if(!(var1 == var3)) { _fun0001_ip = 37; continue _fun0001 }
- 15:
+                if(!(var1 == var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var3 = var2.definition;
                 var1 = var3.require;
                 var1 = var1.bind(var3)();
                 var2['module'] = var1;
- 37:
+case 2:
                 var1 = undefined;
                 return var1;
             }
@@ -76,15 +76,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var6 = function value() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var1 = this;
                 var2 = var1.module;
                 var1 = null;
-                if(!(var1 != var2)) { _fun0002_ip = 27; continue _fun0002 }
- 15:
+                if(!(var1 != var2)) { _fun0002_ip = 4; continue _fun0002 }
+case 3:
                 var1 = var2.resetInMemoryState;
                 var1 = var1.bind(var2)();
- 27:
+case 4:
                 var1 = undefined;
                 return var1;
             }
@@ -96,25 +96,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var6 = function value(arg1, arg2) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var5 = arg1;
                 var2 = this;
                 var1 = var2.load;
                 var1 = var1.bind(var2)();
                 var3 = var2.module;
                 var1 = null;
-                if(!(var1 != var3)) { _fun0003_ip = 68; continue _fun0003 }
- 28:
+                if(!(var1 != var3)) { _fun0003_ip = 5; continue _fun0003 }
+case 6:
                 var2 = var2.module;
                 var4 = var2.actions;
                 var2 = var5.type;
                 var3 = var4[var2];
-                if(!(var1 != var3)) { _fun0003_ip = 68; continue _fun0003 }
- 53:
+                if(!(var1 != var3)) { _fun0003_ip = 5; continue _fun0003 }
+case 7:
                 var2 = var3.call;
                 var1 = arg2;
                 var1 = var2.bind(var3)(var4, var5, var1);
- 68:
+case 5:
                 var1 = undefined;
                 return var1;
             }

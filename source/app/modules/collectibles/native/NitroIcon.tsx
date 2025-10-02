@@ -33,24 +33,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function NitroIcon(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var10 = var1.width;
             var4 = undefined;
-            if(!(var10 === var4)) { _fun0001_ip = 17; continue _fun0001 }
- 14:
+            if(!(var10 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var10 = 106;
- 17:
+case 2:
             var9 = var1.height;
-            if(!(var9 === var4)) { _fun0001_ip = 29; continue _fun0001 }
- 26:
+            if(!(var9 === var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var9 = 26;
- 29:
+case 4:
             var7 = var1.color;
-            if(!(var7 === var4)) { _fun0001_ip = 44; continue _fun0001 }
- 38:
+            if(!(var7 === var4)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var7 = '#ffffff';
- 44:
+case 6:
             var3 = _closure1_slot3;
             var2 = _closure1_slot1;
             var8 = _closure1_slot2;

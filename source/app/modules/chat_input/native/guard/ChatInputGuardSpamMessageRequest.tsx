@@ -33,7 +33,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function ChatInputGuardSpamMessageRequest(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var12 = var1.channel;
             var _closure2_slot0 = var12;
@@ -131,14 +131,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.markAsNotSpam;
             var _closure2_slot4 = var1;
             var6 = var9;
-            if(var9) { _fun0001_ip = 261; continue _fun0001 }
- 258:
+            if(var9) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = var5;
- 261:
-            if(var6) { _fun0001_ip = 267; continue _fun0001 }
- 264:
+case 2:
+            if(var6) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var6 = var10;
- 267:
+case 4:
             var3 = _closure1_slot5;
             var2 = _closure1_slot1;
             var11 = _closure1_slot2;
@@ -193,10 +193,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var1['buttonPrimaryOnPress'] = var11;
             var1['buttonPrimaryDisabled'] = var6;
-            if(var9) { _fun0001_ip = 483; continue _fun0001 }
- 480:
+            if(var9) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var9 = var10;
- 483:
+case 6:
             var1['buttonPrimaryLoading'] = var9;
             var9 = 'destructive';
             var1['buttonPrimaryVariant'] = var9;

@@ -28,7 +28,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function createChangeChannelNameSystemMessage(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var11 = var4.message;
             var5 = var4.theme;
@@ -63,25 +63,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = null;
             var5 = var12 == var6;
             var1 = undefined;
-            if(var5) { _fun0001_ip = 176; continue _fun0001 }
- 151:
+            if(var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = var6.isGroupDM;
             var5 = var12 == var5;
             var1 = undefined;
-            if(var5) { _fun0001_ip = 176; continue _fun0001 }
- 166:
+            if(var5) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var5 = var6.isGroupDM;
             var1 = var5.bind(var6)();
- 176:
+case 2:
             var5 = var12 != var1;
-            if(!var5) { _fun0001_ip = 186; continue _fun0001 }
- 183:
+            if(!var5) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var5 = var1;
- 186:
+case 5:
             var6 = var11.content;
             var1 = '';
-            if(!(var1 !== var6)) { _fun0001_ip = 234; continue _fun0001 }
- 199:
+            if(!(var1 !== var6)) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var1 = 3;
@@ -89,8 +89,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var6.bind(var3)(var1);
             var1 = var1.t;
             var9 = var1.rk0be3;
-            _fun0001_ip = 267; continue _fun0001;
- 234:
+            _fun0001_ip = 9; continue _fun0001;
+case 7:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var1 = 3;
@@ -98,7 +98,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var6.bind(var3)(var1);
             var1 = var1.t;
             var9 = var1.hToFyc;
- 267:
+case 9:
             var1 = {};
             var7 = _closure1_slot0;
             var6 = _closure1_slot2;
@@ -107,29 +107,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var7.bind(var3)(var6);
             var8 = var6.intl;
             var7 = var8.formatToParts;
-            if(var5) { _fun0001_ip = 377; continue _fun0001 }
- 303:
+            if(var5) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var6 = var4.isForumPost;
             var15 = _closure1_slot0;
             var5 = _closure1_slot2;
             var5 = var5[var16];
             var5 = var15.bind(var3)(var5);
             var5 = var5.t;
-            if(var6) { _fun0001_ip = 342; continue _fun0001 }
- 334:
+            if(var6) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var6 = var5.XCPMEB;
-            _fun0001_ip = 348; continue _fun0001;
- 342:
+            _fun0001_ip = 14; continue _fun0001;
+case 12:
             var6 = var5.qa0e/v;
- 348:
+case 14:
             var5 = {};
             var5['username'] = var14;
             var5['usernameOnClick'] = var10;
             var15 = var11.content;
             var5['channelName'] = var15;
             var5 = var7.bind(var8)(var6, var5);
-            _fun0001_ip = 451; continue _fun0001;
- 377:
+            _fun0001_ip = 15; continue _fun0001;
+case 10:
             var6 = {};
             var6['username'] = var14;
             var6['usernameOnClick'] = var10;
@@ -140,16 +140,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10['action'] = var14;
             var14 = var12 == var13;
             var12 = undefined;
-            if(var14) { _fun0001_ip = 425; continue _fun0001 }
- 419:
+            if(var14) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var12 = var13.linkColor;
- 425:
+case 16:
             var10['linkColor'] = var12;
             var11 = var11.channel_id;
             var10['messageChannelId'] = var11;
             var6['onEditGroup'] = var10;
             var5 = var7.bind(var8)(var9, var6);
- 451:
+case 15:
             var1['content'] = var5;
             var5 = _closure1_slot1;
             var6 = _closure1_slot2;

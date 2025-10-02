@@ -42,11 +42,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4[0] = var3;
         var3 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var3 = _closure2_slot1;
                 var1 = null;
-                if(!(var1 != var3)) { _fun0001_ip = 83; continue _fun0001 }
- 13:
+                if(!(var1 != var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var3 = global;
                 var4 = var3.Uint8Array;
                 var6 = _closure2_slot1;
@@ -64,7 +64,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var3.serializeKey;
                 var2 = var2.bind(var3)(var4);
                 return var2;
- 83:
+case 2:
                 return var1;
             }
         };
@@ -85,7 +85,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[1] = var6;
         var1 = function() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var3 = _closure1_slot3;
                 var2 = var3.getUserVerifiedKeys;
                 var1 = _closure2_slot0;
@@ -93,8 +93,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = null;
                 var2 = var1 == var4;
                 var1 = 0;
-                if(var2) { _fun0002_ip = 78; continue _fun0002 }
- 36:
+                if(var2) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                 var2 = global;
                 var3 = var2.Object;
                 var2 = var3.keys;
@@ -108,7 +108,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 };
                 var2 = var3.bind(var4)(var2);
                 var1 = var2.length;
- 78:
+case 4:
                 return var1;
             }
         };

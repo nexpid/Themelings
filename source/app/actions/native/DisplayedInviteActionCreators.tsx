@@ -24,14 +24,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function showInvite(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arg1;
             var1 = arg3;
             var2 = null;
-            if(!(var2 == var1)) { _fun0001_ip = 14; continue _fun0001 }
- 12:
+            if(!(var2 == var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = {};
- 14:
+case 2:
             var9 = var1.deeplinkAttemptId;
             var4 = var1.location;
             var7 = _closure1_slot0;

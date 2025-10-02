@@ -27,7 +27,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['INITIAL_SCROLL_DELAY_MS'] = var4;
     var2 = function useScrollToInitialIndexOnce(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var8 = var1.initialScrollIndex;
             var _closure2_slot0 = var8;
@@ -37,10 +37,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot2 = var6;
             var7 = var1.afterMs;
             var1 = undefined;
-            if(!(var7 === var1)) { _fun0001_ip = 50; continue _fun0001 }
- 47:
+            if(!(var7 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var7 = 100;
- 50:
+case 2:
             var _closure2_slot3 = var7;
             var _closure2_slot4 = var1;
             var5 = _closure1_slot0;
@@ -56,22 +56,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[3] = var6;
             var2 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = _closure2_slot0;
                     var2 = null;
                     var2 = var2 != var3;
-                    if(!var2) { _fun0002_ip = 20; continue _fun0002 }
- 16:
+                    if(!var2) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var2 = _closure2_slot1;
- 20:
-                    if(!var2) { _fun0002_ip = 35; continue _fun0002 }
- 23:
+case 4:
+                    if(!var2) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var3 = _closure2_slot4;
                     var3 = var3.current;
                     var2 = !var3;
- 35:
-                    if(!var2) { _fun0002_ip = 79; continue _fun0002 }
- 38:
+case 6:
+                    if(!var2) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                     var3 = _closure2_slot4;
                     var2 = true;
                     var3['current'] = var2;
@@ -81,12 +81,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = undefined;
                     var1 = function() {
                         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                             var1 = _closure2_slot2;
                             var3 = var1.current;
                             var1 = null;
-                            if(!(var1 != var3)) { _fun0003_ip = 46; continue _fun0003 }
- 18:
+                            if(!(var1 != var3)) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
                             var2 = var3.scrollToIndex;
                             var1 = {};
                             var5 = true;
@@ -94,13 +94,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var4 = _closure2_slot0;
                             var1['index'] = var4;
                             var1 = var2.bind(var3)(var1);
- 46:
+case 10:
                             var1 = undefined;
                             return var1;
                         }
                     };
                     var1 = var4.bind(var2)(var1, var3);
- 79:
+case 8:
                     var1 = undefined;
                     return var1;
                 }

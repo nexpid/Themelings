@@ -105,7 +105,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot14 = var4;
     var4 = function DraggableContainer(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var16 = var1.x;
             var _closure2_slot0 = var16;
@@ -117,10 +117,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot3 = var23;
             var21 = var1.dragBoundsPadding;
             var4 = undefined;
-            if(!(var21 === var4)) { _fun0001_ip = 57; continue _fun0001 }
- 55:
+            if(!(var21 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var21 = 0;
- 57:
+case 2:
             var _closure2_slot4 = var21;
             var18 = var1.onChangePosition;
             var _closure2_slot5 = var18;

@@ -45,7 +45,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[0] = var5;
         var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var1 = _closure2_slot0;
                 var5 = var1.features;
                 var4 = var5.has;
@@ -53,14 +53,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var1.COMMUNITY;
                 var4 = var4.bind(var5)(var1);
                 var1 = undefined;
-                if(!var4) { _fun0001_ip = 65; continue _fun0001 }
- 41:
+                if(!var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var4 = _closure1_slot2;
                 var3 = var4.getMemberCount;
                 var2 = _closure2_slot0;
                 var2 = var2.id;
                 var1 = var3.bind(var4)(var2);
- 65:
+case 2:
                 return var1;
             }
         };

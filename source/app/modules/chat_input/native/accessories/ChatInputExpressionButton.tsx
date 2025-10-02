@@ -51,15 +51,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var11 = var2.style;
             var7 = var2.active;
             var4 = undefined;
-            if(!(var7 === var4)) { _fun0001_ip = 24; continue _fun0001 }
- 22:
+            if(!(var7 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var7 = false;
- 24:
+case 2:
             var6 = var2.onPress;
             var _closure2_slot0 = var6;
             var2 = _closure1_slot5;
@@ -114,15 +114,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var10.expressionButtonIcon;
             var5['style'] = var10;
             var10 = _closure1_slot2;
-            if(var7) { _fun0001_ip = 251; continue _fun0001 }
- 242:
+            if(var7) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var7 = 8;
             var7 = var10[var7];
-            _fun0001_ip = 258; continue _fun0001;
- 251:
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
             var9 = 7;
             var7 = var10[var9];
- 258:
+case 6:
             var7 = var8.bind(var4)(var7);
             var5['source'] = var7;
             var5 = var3.bind(var4)(var6, var5);

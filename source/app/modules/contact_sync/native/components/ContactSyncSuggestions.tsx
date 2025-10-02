@@ -169,7 +169,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot11 = var4;
     var4 = function SuggestionRow(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var14 = var1.start;
             var8 = var1.end;
@@ -185,10 +185,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var13 == var2;
             var4 = undefined;
             var1 = undefined;
-            if(var3) { _fun0001_ip = 71; continue _fun0001 }
- 66:
+            if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var2.name;
- 71:
+case 2:
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
             var2 = 11;
@@ -198,14 +198,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var18.suggested_user;
             var15 = var3.bind(var6)(var2);
             var6 = var15;
-            if(!(var13 != var1)) { _fun0001_ip = 132; continue _fun0001 }
- 118:
+            if(!(var13 != var1)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = '';
             var6 = var15;
-            if(!(var2 !== var1)) { _fun0001_ip = 132; continue _fun0001 }
- 129:
+            if(!(var2 !== var1)) { _fun0001_ip = 4; continue _fun0001 }
+case 6:
             var6 = var1;
- 132:
+case 4:
             var11 = _closure1_slot1;
             var9 = _closure1_slot2;
             var1 = 12;
@@ -253,8 +253,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9[0] = var10;
             var10 = var18.mutual_friends_count;
             var10 = var13 != var10;
-            if(!var10) { _fun0001_ip = 458; continue _fun0001 }
- 347:
+            if(!var10) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var13 = _closure1_slot8;
             var15 = _closure1_slot0;
             var19 = _closure1_slot2;
@@ -277,7 +277,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var16.bind(var17)(var15, var14);
             var11['children'] = var14;
             var10 = var13.bind(var4)(var12, var11);
- 458:
+case 7:
             var9[1] = var10;
             var6['children'] = var9;
             var6 = var8.bind(var4)(var7, var6);
@@ -474,14 +474,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[5] = var1;
         var1 = function(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var2 = arg1;
                 var1 = var2.item;
                 var9 = var2.index;
                 var3 = var1.type;
                 var2 = 'header';
-                if(!(var2 !== var3)) { _fun0002_ip = 247; continue _fun0002 }
- 29:
+                if(!(var2 !== var3)) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
                 var2 = var1.props;
                 var13 = var2.friendSuggestion;
                 var2 = var13.suggested_user;
@@ -513,8 +513,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = var7.length;
                 var9 = var9 < var7;
                 var7 = null;
-                if(!var9) { _fun0002_ip = 230; continue _fun0002 }
- 171:
+                if(!var9) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
                 var10 = _closure1_slot8;
                 var9 = _closure1_slot0;
                 var12 = _closure1_slot2;
@@ -529,12 +529,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var11 = var11.divider;
                 var8['style'] = var11;
                 var7 = var10.bind(var1)(var9, var8);
- 230:
+case 11:
                 var6[1] = var7;
                 var2['children'] = var6;
                 var1 = var4.bind(var1)(var3, var2, var5);
                 return var1;
- 247:
+case 9:
                 var4 = _closure1_slot10;
                 var3 = _closure1_slot9;
                 var2 = {};

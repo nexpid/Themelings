@@ -53,7 +53,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function generateLoadingRowData(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var4 = var1.rowType;
             var3 = var1.changeType;
@@ -65,15 +65,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var8.bind(var5)(var1);
             var1 = _closure1_slot0;
             var1 = var1.LOAD_BEFORE;
-            if(!(var4 !== var1)) { _fun0001_ip = 69; continue _fun0001 }
- 57:
+            if(!(var4 !== var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = _closure1_slot2;
             var8 = var1.LOAD_MORE_AFTER;
-            _fun0001_ip = 79; continue _fun0001;
- 69:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var1 = _closure1_slot2;
             var8 = var1.LOAD_MORE_BEFORE;
- 79:
+case 4:
             var1 = {};
             var7 = _closure1_slot1;
             var7 = var7.LOADING;
@@ -89,13 +89,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4['cornerRadius'] = var7;
             var4['text'] = var6;
             var1['button'] = var4;
-            if(var2) { _fun0001_ip = 149; continue _fun0001 }
- 141:
+            if(var2) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var4 = var5.loadButtonColor;
-            _fun0001_ip = 155; continue _fun0001;
- 149:
+            _fun0001_ip = 7; continue _fun0001;
+case 5:
             var4 = var5.loadingColor;
- 155:
+case 7:
             var1['color'] = var4;
             var1['changeType'] = var3;
             var1['isLoading'] = var2;

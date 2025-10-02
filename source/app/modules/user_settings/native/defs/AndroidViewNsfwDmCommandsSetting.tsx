@@ -68,7 +68,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['parent'] = var7;
     var7 = function useViewNsfwDmCommandsSettingValue() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = _closure1_slot0;
             var5 = _closure1_slot1;
             var2 = 3;
@@ -94,16 +94,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.bind(var4)();
             var4 = null;
             var4 = var4 == var1;
-            if(var4) { _fun0001_ip = 100; continue _fun0001 }
- 94:
+            if(var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = var1.nsfwAllowed;
- 100:
+case 2:
             var1 = true;
             var1 = var1 === var3;
-            if(!var1) { _fun0001_ip = 112; continue _fun0001 }
- 109:
+            if(!var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = var2;
- 112:
+case 4:
             return var1;
         }
     };
@@ -116,7 +116,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['onValueChange'] = var7;
     var4 = function usePredicate() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var3 = _closure1_slot0;
             var4 = _closure1_slot1;
             var1 = 5;
@@ -127,12 +127,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var1.bind(var3)();
             var1 = null;
             var1 = var1 == var3;
-            if(var1) { _fun0002_ip = 47; continue _fun0002 }
- 44:
+            if(var1) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var1 = var3;
- 47:
-            if(!var1) { _fun0002_ip = 79; continue _fun0002 }
- 50:
+case 6:
+            if(!var1) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var3 = _closure1_slot0;
             var5 = _closure1_slot1;
             var2 = 6;
@@ -140,7 +140,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var4)(var2);
             var2 = var3.isAndroid;
             var1 = var2.bind(var3)();
- 79:
+case 8:
             return var1;
         }
     };

@@ -190,7 +190,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9['text'] = var12;
         var11 = function onPress() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var4 = _closure1_slot1;
                 var7 = _closure1_slot2;
                 var1 = 13;
@@ -224,8 +224,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = null;
                 var9 = var7 != var9;
                 var7 = '';
-                if(!var9) { _fun0001_ip = 187; continue _fun0001 }
- 152:
+                if(!var9) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var10 = _closure1_slot1;
                 var11 = _closure1_slot2;
                 var9 = 14;
@@ -234,7 +234,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var9 = var10.getUserTag;
                 var8 = _closure2_slot0;
                 var7 = var9.bind(var10)(var8);
- 187:
+case 2:
                 var3['username'] = var7;
                 var6 = var5.bind(var6)(var4, var3);
                 var4 = _closure1_slot0;

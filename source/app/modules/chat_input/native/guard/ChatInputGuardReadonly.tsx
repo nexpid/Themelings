@@ -91,7 +91,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var1.channel;
         var1 = function useNotice(arg1, arg2) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var6 = arg1;
                 var _closure3_slot0 = var6;
                 var2 = _closure1_slot0;
@@ -110,10 +110,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var10 = null;
                 var8 = var10 == var7;
                 var1 = undefined;
-                if(var8) { _fun0001_ip = 86; continue _fun0001 }
- 81:
+                if(var8) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var1 = var7.channelId;
- 86:
+case 2:
                 var1 = var2.bind(var5)(var6, var1);
                 var _closure3_slot1 = var1;
                 var5 = _closure1_slot0;
@@ -127,18 +127,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7[0] = var1;
                 var1 = function() {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                         var3 = _closure1_slot4;
                         var2 = var3.getChannel;
                         var5 = _closure3_slot1;
                         var1 = null;
                         var5 = var1 == var5;
                         var1 = undefined;
-                        if(var5) { _fun0002_ip = 39; continue _fun0002 }
- 30:
+                        if(var5) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                         var4 = _closure3_slot1;
                         var1 = var4.channelId;
- 39:
+case 4:
                         var1 = var2.bind(var3)(var1);
                         return var1;
                     }
@@ -216,12 +216,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 };
                 var12 = var6.bind(var7)(var5, var1, var2);
                 var _closure3_slot4 = var12;
-                if(!(var10 == var8)) { _fun0001_ip = 446; continue _fun0001 }
- 254:
+                if(!(var10 == var8)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                 var1 = var12.length;
                 var11 = 0;
-                if(!(var11 !== var1)) { _fun0001_ip = 366; continue _fun0001 }
- 265:
+                if(!(var11 !== var1)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
                 var1 = {};
                 var5 = _closure1_slot0;
                 var13 = _closure1_slot2;
@@ -238,10 +238,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var11 = var12[var11];
                 var12 = var10 == var11;
                 var10 = undefined;
-                if(var12) { _fun0001_ip = 337; continue _fun0001 }
- 332:
+                if(var12) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
                 var10 = var11.name;
- 337:
+case 10:
                 var2['channelName'] = var10;
                 var2 = var6.bind(var7)(var5, var2);
                 var1['text'] = var2;
@@ -274,8 +274,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var1['handlePress'] = var2;
-                _fun0001_ip = 444; continue _fun0001;
- 366:
+                _fun0001_ip = 12; continue _fun0001;
+case 8:
                 var2 = {};
                 var10 = _closure1_slot0;
                 var11 = _closure1_slot2;
@@ -316,9 +316,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 };
                 var2['handlePress'] = var5;
                 var1 = var2;
- 444:
-                _fun0001_ip = 535; continue _fun0001;
- 446:
+case 12:
+                _fun0001_ip = 13; continue _fun0001;
+case 6:
                 var2 = {};
                 var5 = _closure1_slot0;
                 var10 = _closure1_slot2;
@@ -364,7 +364,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 };
                 var2['handlePress'] = var3;
                 var1 = var2;
- 535:
+case 13:
                 return var1;
             }
         };

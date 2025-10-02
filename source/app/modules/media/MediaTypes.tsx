@@ -19,7 +19,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot6 = var6;
     var4 = function messageAttachmentToUnfurledMediaItem(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var6 = arg1;
             var2 = _closure1_slot0;
             var1 = _closure1_slot2;
@@ -32,20 +32,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = null;
             var11 = var7 != var1;
             var5 = 0;
-            if(!var11) { _fun0001_ip = 53; continue _fun0001 }
- 50:
+            if(!var11) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = var1;
- 53:
+case 2:
             var1 = _closure1_slot3;
             var1 = var1.CONTAINS_EXPLICIT_MEDIA;
             var1 = var8.bind(var10)(var5, var1);
             var5 = 0;
-            if(!var1) { _fun0001_ip = 87; continue _fun0001 }
- 74:
+            if(!var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = _closure1_slot4;
             var1 = var1.EXPLICIT;
             var5 = var1 | 0;
- 87:
+case 4:
             var8 = _closure1_slot0;
             var1 = _closure1_slot2;
             var1 = var1[var9];
@@ -54,20 +54,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var6.flags;
             var11 = var7 != var1;
             var8 = 0;
-            if(!var11) { _fun0001_ip = 127; continue _fun0001 }
- 124:
+            if(!var11) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var8 = var1;
- 127:
+case 6:
             var1 = _closure1_slot3;
             var1 = var1.IS_ANIMATED;
             var1 = var9.bind(var10)(var8, var1);
             var2 = 0;
-            if(!var1) { _fun0001_ip = 161; continue _fun0001 }
- 148:
+            if(!var1) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var1 = _closure1_slot5;
             var1 = var1.IS_ANIMATED;
             var2 = var1 | 0;
- 161:
+case 8:
             var1 = {};
             var8 = var6.url;
             var1['url'] = var8;
@@ -96,14 +96,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var6.content_scan_version;
             var4 = var7 == var4;
             var3 = undefined;
-            if(var4) { _fun0001_ip = 317; continue _fun0001 }
- 297:
+            if(var4) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var4 = {};
             var6 = var6.content_scan_version;
             var4['version'] = var6;
             var4['flags'] = var5;
             var3 = var4;
- 317:
+case 10:
             var1['contentScanMetadata'] = var3;
             var1['flags'] = var2;
             return var1;
@@ -112,7 +112,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot7 = var4;
     var1 = function getMessageAttachmentMediaItemType(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var2 = arg1;
             var4 = _closure1_slot0;
             var1 = _closure1_slot2;
@@ -124,8 +124,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2.filename;
             var4 = var4.bind(var7)(var1);
             var1 = 'IMAGE';
-            if(var4) { _fun0002_ip = 100; continue _fun0002 }
- 52:
+            if(var4) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
             var3 = var3[var6];
@@ -134,12 +134,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.filename;
             var3 = var3.bind(var4)(var2);
             var2 = 'INVALID';
-            if(!var3) { _fun0002_ip = 97; continue _fun0002 }
- 93:
+            if(!var3) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
             var2 = 'VIDEO';
- 97:
+case 14:
             var1 = var2;
- 100:
+case 12:
             return var1;
         }
     };
@@ -184,7 +184,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['UnfurledMediaItemFlags'] = var5;
     var5 = function toUnfurledMediaItem(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var3 = arg1;
             var1 = {};
             var2 = var3.url;
@@ -210,20 +210,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var2 != var4;
             var7 = undefined;
             var4 = undefined;
-            if(!var5) { _fun0003_ip = 137; continue _fun0003 }
- 119:
+            if(!var5) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
             var6 = _closure1_slot6;
             var5 = var3.content_scan_metadata;
             var4 = var6.bind(var7)(var5);
- 137:
+case 16:
             var1['contentScanMetadata'] = var4;
             var3 = var3.flags;
             var4 = var2 != var3;
             var2 = 0;
-            if(!var4) { _fun0003_ip = 159; continue _fun0003 }
- 156:
+            if(!var4) { _fun0003_ip = 18; continue _fun0003 }
+case 19:
             var2 = var3;
- 159:
+case 18:
             var1['flags'] = var2;
             return var1;
         }
@@ -232,7 +232,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['messageAttachmentToUnfurledMediaItem'] = var4;
     var4 = function getUnfurledMediaItemType(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var3 = arg1;
             var2 = _closure1_slot0;
             var1 = _closure1_slot2;
@@ -244,8 +244,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var3.contentType;
             var2 = var2.bind(var4)(var1);
             var1 = 'IMAGE';
-            if(var2) { _fun0004_ip = 168; continue _fun0004 }
- 52:
+            if(var2) { _fun0004_ip = 20; continue _fun0004 }
+case 13:
             var4 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var5];
@@ -255,14 +255,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var4.bind(var5)(var2);
             var4 = 'INVALID';
             var2 = var4;
-            if(!var5) { _fun0004_ip = 165; continue _fun0004 }
- 96:
+            if(!var5) { _fun0004_ip = 21; continue _fun0004 }
+case 22:
             var7 = var3.proxyUrl;
             var5 = null;
             var7 = var5 != var7;
             var2 = var4;
-            if(!var7) { _fun0004_ip = 165; continue _fun0004 }
- 114:
+            if(!var7) { _fun0004_ip = 21; continue _fun0004 }
+case 23:
             var7 = _closure1_slot1;
             var9 = _closure1_slot2;
             var6 = 4;
@@ -273,12 +273,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var6.bind(var7)(var3);
             var3 = var5 != var3;
             var2 = var4;
-            if(!var3) { _fun0004_ip = 165; continue _fun0004 }
- 161:
+            if(!var3) { _fun0004_ip = 21; continue _fun0004 }
+case 8:
             var2 = 'VIDEO';
- 165:
+case 21:
             var1 = var2;
- 168:
+case 20:
             return var1;
         }
     };

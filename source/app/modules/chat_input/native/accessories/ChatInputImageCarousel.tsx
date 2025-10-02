@@ -46,7 +46,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function ChatInputImageCarousel(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var10 = var1.canUpload;
             var _closure2_slot0 = var10;
@@ -74,41 +74,41 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[2] = var1;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var2 = _closure2_slot2;
                     var6 = null;
                     var1 = null;
-                    if(var2) { _fun0002_ip = 87; continue _fun0002 }
- 14:
+                    if(var2) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var3 = _closure2_slot0;
                     var2 = null;
-                    if(!var3) { _fun0002_ip = 84; continue _fun0002 }
- 23:
+                    if(!var3) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var8 = _closure1_slot3;
                     var7 = var8.getActiveCommand;
                     var5 = _closure2_slot1;
                     var5 = var7.bind(var8)(var5);
                     var5 = var6 == var5;
                     var2 = null;
-                    if(!var5) { _fun0002_ip = 84; continue _fun0002 }
- 54:
+                    if(!var5) { _fun0002_ip = 4; continue _fun0002 }
+case 6:
                     var6 = _closure1_slot5;
                     var5 = var6.getUploads;
                     var4 = _closure2_slot1;
                     var3 = _closure1_slot4;
                     var3 = var3.ChannelMessage;
                     var2 = var5.bind(var6)(var4, var3);
- 84:
+case 4:
                     var1 = var2;
- 87:
+case 2:
                     return var1;
                 }
             };
             var8 = var8.bind(var9)(var4, var1, var3);
             var1 = null;
             var3 = var1 != var8;
-            if(!var3) { _fun0001_ip = 185; continue _fun0001 }
- 132:
+            if(!var3) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var4 = _closure1_slot7;
             var3 = _closure1_slot1;
             var9 = _closure1_slot2;
@@ -135,7 +135,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var2['onRemove'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 185:
+case 7:
             return var1;
         }
     };

@@ -30,24 +30,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function getGamePlatform(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var5 = null;
             var2 = var5 == var4;
             var1 = null;
-            if(var2) { _fun0001_ip = 125; continue _fun0001 }
- 14:
+            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var4.type;
             var2 = var5 == var2;
             var1 = null;
-            if(var2) { _fun0001_ip = 125; continue _fun0001 }
- 28:
+            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var6 = var4.type;
             var2 = _closure1_slot2;
             var2 = var2.PLAYING;
             var1 = null;
-            if(!(var6 === var2)) { _fun0001_ip = 125; continue _fun0001 }
- 52:
+            if(!(var6 === var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 5:
             var7 = _closure1_slot0;
             var6 = _closure1_slot1;
             var2 = 1;
@@ -55,24 +55,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = undefined;
             var2 = var7.bind(var6)(var2);
             var2 = var2.bind(var6)(var4);
-            if(var2) { _fun0001_ip = 112; continue _fun0001 }
- 82:
+            if(var2) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var2 = var4.platform;
-            if(!(var5 == var2)) { _fun0001_ip = 104; continue _fun0001 }
- 92:
+            if(!(var5 == var2)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var2 = _closure1_slot3;
             var2 = var2.DESKTOP;
-            _fun0001_ip = 110; continue _fun0001;
- 104:
+            _fun0001_ip = 10; continue _fun0001;
+case 8:
             var2 = var4.platform;
- 110:
-            _fun0001_ip = 122; continue _fun0001;
- 112:
+case 10:
+            _fun0001_ip = 11; continue _fun0001;
+case 6:
             var3 = _closure1_slot3;
             var2 = var3.XBOX;
- 122:
+case 11:
             var1 = var2;
- 125:
+case 2:
             return var1;
         }
     };

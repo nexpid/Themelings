@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var7;
     var1 = function RemoteAuthBody(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var11 = var1.remoteAuthFingerprint;
             var _closure2_slot0 = var11;
@@ -106,16 +106,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var9.bind(var10)(var3, var6);
             var3 = _closure1_slot14;
             var3 = var3.LOADING;
-            if(!(var3 !== var5)) { _fun0001_ip = 294; continue _fun0001 }
- 170:
+            if(!(var3 !== var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = _closure1_slot14;
             var3 = var3.LOADED;
-            if(!(var3 !== var5)) { _fun0001_ip = 244; continue _fun0001 }
- 184:
+            if(!(var3 !== var5)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = _closure1_slot14;
             var3 = var3.SUCCEEDED;
-            if(!(var3 !== var5)) { _fun0001_ip = 226; continue _fun0001 }
- 198:
+            if(!(var3 !== var5)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var3 = _closure1_slot14;
             var3 = var3.NOT_FOUND;
             var6 = _closure1_slot10;
@@ -123,30 +123,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = {};
             var3 = var6.bind(var4)(var5, var3);
             return var3;
- 226:
+case 6:
             var6 = _closure1_slot10;
             var5 = _closure1_slot18;
             var3 = {};
             var3 = var6.bind(var4)(var5, var3);
             return var3;
- 244:
-            if(!(var2 == var8)) { _fun0001_ip = 266; continue _fun0001 }
- 248:
+case 4:
+            if(!(var2 == var8)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var5 = _closure1_slot10;
             var3 = _closure1_slot19;
             var2 = {};
             var2 = var5.bind(var4)(var3, var2);
-            _fun0001_ip = 292; continue _fun0001;
- 266:
+            _fun0001_ip = 10; continue _fun0001;
+case 8:
             var6 = _closure1_slot10;
             var5 = _closure1_slot16;
             var3 = {};
             var3['handshakeToken'] = var8;
             var3['setAuthStep'] = var7;
             var2 = var6.bind(var4)(var5, var3);
- 292:
+case 10:
             return var2;
- 294:
+case 2:
             var3 = _closure1_slot10;
             var2 = _closure1_slot20;
             var1 = {};
@@ -157,7 +157,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot15 = var1;
     var1 = function ExperimentConnectedRemoteAuthLogin(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
             var2 = 12;
@@ -174,17 +174,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var5.bind(var6)(var3, var2);
             var2 = var2.showDelayedLogin;
             var3 = _closure1_slot10;
-            if(var2) { _fun0002_ip = 77; continue _fun0002 }
- 71:
+            if(var2) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
             var2 = _closure1_slot17;
-            _fun0002_ip = 97; continue _fun0002;
- 77:
+            _fun0002_ip = 13; continue _fun0002;
+case 11:
             var5 = _closure1_slot1;
             var6 = _closure1_slot2;
             var1 = 13;
             var1 = var6[var1];
             var2 = var5.bind(var4)(var1);
- 97:
+case 13:
             var1 = {};
             var8 = arg1;
             var9 = var1;
@@ -196,7 +196,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot16 = var1;
     var1 = function RemoteAuthLogin(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = var1.handshakeToken;
             var _closure2_slot0 = var2;
@@ -420,10 +420,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6['text'] = var17;
             var6['onPress'] = var16;
             var10 = !var10;
-            if(!var10) { _fun0003_ip = 706; continue _fun0003 }
- 703:
+            if(!var10) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
             var10 = !var15;
- 706:
+case 14:
             var6['disabled'] = var10;
             var6 = var8.bind(var4)(var7, var6);
             var5[4] = var6;

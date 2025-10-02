@@ -5,8 +5,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = dependencyMap;
     var1 = function _isNativeReflectConstruct() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
- 2: // try_start_0
+case 0:
+case 2: // try_start_0
             var2 = global;
             var3 = var2.Boolean;
             var3 = var3.prototype;
@@ -24,11 +24,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var4)(var2);
             var2 = !var2;
             var _closure2_slot0 = var2;
- 72: // try_end0
-            _fun0001_ip = 76; continue _fun0001;
- 74: // catch_target0
+case 3: // try_end0
+            _fun0001_ip = 4; continue _fun0001;
+case 5: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+case 4:
             var2 = function _isNativeReflectConstruct() {
                 var1 = _closure2_slot0;
                 var1 = !var1;
@@ -44,41 +44,41 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot11 = var1;
     var10 = function handleInviteData(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var1 = var1.invite;
             var2 = var1.guild;
             var3 = null;
             var4 = var3 == var2;
             var1 = undefined;
-            if(var4) { _fun0002_ip = 31; continue _fun0002 }
- 25:
+            if(var4) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var1 = var2.welcome_screen;
- 31:
+case 6:
             var1 = var3 != var1;
-            if(!var1) { _fun0002_ip = 62; continue _fun0002 }
- 38:
+            if(!var1) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var4 = _closure1_slot6;
             var3 = var2.id;
             var2 = var2.welcome_screen;
             var4[var3] = var2;
             var1 = true;
- 62:
+case 8:
             return var1;
         }
     };
     var9 = function handleWelcomeScreenUpdate(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var1 = arg1;
             var3 = var1.welcomeScreen;
             var2 = var1.guildId;
             var1 = _closure1_slot6;
             var5 = null;
-            if(!(var5 == var3)) { _fun0003_ip = 31; continue _fun0003 }
- 27:
+            if(!(var5 == var3)) { _fun0003_ip = 6; continue _fun0003 }
+case 10:
             var3 = _closure1_slot5;
- 31:
+case 6:
             var1[var2] = var3;
             var1 = undefined;
             return var1;
@@ -130,7 +130,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = function(arg1) {
         var4 = function WelcomeScreenStore() {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                 var4 = this;
                 var3 = undefined;
                 var5 = undefined;
@@ -142,14 +142,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = _closure1_slot2;
                 var1 = _closure1_slot11;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0004_ip = 69; continue _fun0004 }
- 51:
+                if(var1) { _fun0004_ip = 11; continue _fun0004 }
+case 12:
                 var7 = var9.apply;
                 var5 = arguments;
                 var1 = var5;
                 var1 = var7.bind(var9)(var4, var1);
-                _fun0004_ip = 105; continue _fun0004;
- 69:
+                _fun0004_ip = 13; continue _fun0004;
+case 11:
                 var7 = global;
                 var8 = var7.Reflect;
                 var7 = var8.construct;
@@ -158,7 +158,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var6.constructor;
                 var5 = arguments;
                 var1 = var7.bind(var8)(var9, var5, var6);
- 105:
+case 13:
                 var1 = var2.bind(var3)(var4, var1);
                 return var1;
             }
@@ -174,14 +174,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5['key'] = var1;
         var1 = function value(arg1) {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
                 var2 = arg1;
                 var1 = null;
-                if(!(var1 == var2)) { _fun0005_ip = 13; continue _fun0005 }
- 9:
+                if(!(var1 == var2)) { _fun0005_ip = 14; continue _fun0005 }
+case 15:
                 var1 = undefined;
                 return var1;
- 13:
+case 14:
                 var1 = _closure1_slot6;
                 var1 = var1[var2];
                 return var1;
@@ -213,32 +213,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5['key'] = var7;
         var7 = function value(arg1) {
             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
- 0:
+case 0:
                 var4 = arg1;
                 var2 = arguments[1];
                 var1 = undefined;
-                if(!(var2 === var1)) { _fun0006_ip = 14; continue _fun0006 }
- 12:
+                if(!(var2 === var1)) { _fun0006_ip = 16; continue _fun0006 }
+case 17:
                 var2 = false;
- 14:
+case 16:
                 var1 = null;
                 var1 = var1 != var4;
-                if(!var1) { _fun0006_ip = 51; continue _fun0006 }
- 23:
-                if(var2) { _fun0006_ip = 44; continue _fun0006 }
- 29:
+                if(!var1) { _fun0006_ip = 12; continue _fun0006 }
+case 18:
+                if(var2) { _fun0006_ip = 19; continue _fun0006 }
+case 20:
                 var2 = _closure1_slot7;
                 var2 = var2[var4];
-                if(var2) { _fun0006_ip = 42; continue _fun0006 }
- 40:
+                if(var2) { _fun0006_ip = 21; continue _fun0006 }
+case 22:
                 var2 = false;
- 42:
-                _fun0006_ip = 48; continue _fun0006;
- 44:
+case 21:
+                _fun0006_ip = 23; continue _fun0006;
+case 19:
                 var2 = _closure1_slot8;
- 48:
+case 23:
                 var1 = var2;
- 51:
+case 12:
                 return var1;
             }
         };
@@ -249,23 +249,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5['key'] = var7;
         var6 = function value(arg1) {
             _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
- 0:
+case 0:
                 var3 = arg1;
                 var1 = null;
-                if(!(var1 != var3)) { _fun0007_ip = 46; continue _fun0007 }
- 9:
+                if(!(var1 != var3)) { _fun0007_ip = 24; continue _fun0007 }
+case 15:
                 var2 = _closure1_slot6;
                 var2 = var2[var3];
                 var1 = var1 == var2;
-                if(var1) { _fun0007_ip = 44; continue _fun0007 }
- 27:
+                if(var1) { _fun0007_ip = 19; continue _fun0007 }
+case 10:
                 var2 = var2.welcome_channels;
                 var3 = var2.length;
                 var2 = 0;
                 var1 = var2 === var3;
- 44:
+case 19:
                 return var1;
- 46:
+case 24:
                 var1 = true;
                 return var1;
             }
@@ -288,17 +288,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['WELCOME_SCREEN_UPDATE'] = var9;
     var9 = function handleWelcomeScreenView(arg1) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
- 0:
+case 0:
             var1 = arg1;
             var5 = var1.guildId;
             var3 = var1.isLurking;
             var4 = _closure1_slot7;
             var1 = true;
             var4[var5] = var1;
-            if(!var3) { _fun0008_ip = 34; continue _fun0008 }
- 30:
+            if(!var3) { _fun0008_ip = 25; continue _fun0008 }
+case 26:
             _closure1_slot8 = var1;
- 34:
+case 25:
             var1 = undefined;
             return var1;
         }
@@ -333,7 +333,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['WELCOME_SCREEN_FETCH_START'] = var9;
     var9 = function handleFetchWelcomeScreenSuccess(arg1) {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = false;
             _closure1_slot9 = var2;
@@ -342,10 +342,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var1.guildId;
             var1 = _closure1_slot6;
             var5 = null;
-            if(!(var5 == var3)) { _fun0009_ip = 41; continue _fun0009 }
- 37:
+            if(!(var5 == var3)) { _fun0009_ip = 27; continue _fun0009 }
+case 28:
             var3 = _closure1_slot5;
- 41:
+case 27:
             var1[var2] = var3;
             var1 = undefined;
             return var1;

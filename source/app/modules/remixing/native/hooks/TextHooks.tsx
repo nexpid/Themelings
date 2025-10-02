@@ -57,7 +57,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var15 = var1.canvasSize;
             var _closure2_slot0 = var15;
@@ -127,8 +127,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var20 = null;
             var18 = var20 != var2;
             var4 = null;
-            if(!var18) { _fun0001_ip = 316; continue _fun0001 }
- 268:
+            if(!var18) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var19 = var2.type;
             var21 = _closure1_slot0;
             var23 = _closure1_slot3;
@@ -138,10 +138,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var18 = var18.RemixElement;
             var18 = var18.TEXT;
             var4 = null;
-            if(!(var19 === var18)) { _fun0001_ip = 316; continue _fun0001 }
- 311:
+            if(!(var19 === var18)) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var4 = var2.id;
- 316:
+case 2:
             var4 = var6.bind(var13)(var4, var17);
             _closure2_slot12 = var4;
             var6 = _closure1_slot5;
@@ -152,7 +152,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5[2] = var4;
             var4 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = _closure1_slot7;
                     var1 = var3.getTextState;
                     var1 = var1.bind(var3)();
@@ -166,8 +166,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var10 = var1.textBackgroundColor;
                     var3 = _closure2_slot10;
                     var1 = null;
-                    if(!(var1 == var3)) { _fun0002_ip = 114; continue _fun0002 }
- 73:
+                    if(!(var1 == var3)) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot3;
                     var1 = 10;
@@ -177,17 +177,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var4.captureMessage;
                     var1 = 'remix: createTextParams is failed because the font is null';
                     var1 = var3.bind(var4)(var1);
-                    _fun0002_ip = 133; continue _fun0002;
- 114:
+                    _fun0002_ip = 7; continue _fun0002;
+case 5:
                     var1 = _closure2_slot12;
                     var4 = undefined;
                     var1 = var1.bind(var4)(var15);
                     var3 = '';
-                    if(!(var3 === var1)) { _fun0002_ip = 137; continue _fun0002 }
- 133:
+                    if(!(var3 === var1)) { _fun0002_ip = 8; continue _fun0002 }
+case 7:
                     var1 = undefined;
                     return var1;
- 137:
+case 8:
                     var1 = {};
                     var8 = _closure1_slot0;
                     var6 = _closure1_slot3;
@@ -208,8 +208,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = var8.bind(var4)(var6);
                     var6 = var6.RemixShader;
                     var6 = var6.RAINBOW;
-                    if(!(var7 === var6)) { _fun0002_ip = 272; continue _fun0002 }
- 231:
+                    if(!(var7 === var6)) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
                     var1['color'] = var3;
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot3;
@@ -218,7 +218,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var2.RemixShader;
                     var2 = var2.RAINBOW;
                     var1['shader'] = var2;
- 272:
+case 9:
                     return var1;
                 }
             };
@@ -233,21 +233,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4[4] = var12;
             var2 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var3 = _closure2_slot13;
                     var1 = undefined;
                     var10 = var3.bind(var1)();
                     var3 = null;
-                    if(!(var3 != var10)) { _fun0003_ip = 334; continue _fun0003 }
- 22:
+                    if(!(var3 != var10)) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
                     var6 = _closure1_slot9;
                     var5 = var6.getState;
                     var5 = var5.bind(var6)();
                     var9 = var5.textTransform;
                     var13 = var5.addTextPosition;
                     var5 = _closure2_slot2;
-                    if(!(var3 != var5)) { _fun0003_ip = 104; continue _fun0003 }
- 59:
+                    if(!(var3 != var5)) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
                     var5 = _closure2_slot2;
                     var6 = var5.type;
                     var7 = _closure1_slot0;
@@ -257,8 +257,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var7.bind(var1)(var5);
                     var5 = var5.RemixElement;
                     var5 = var5.TEXT;
-                    if(!(var6 !== var5)) { _fun0003_ip = 204; continue _fun0003 }
- 104:
+                    if(!(var6 !== var5)) { _fun0003_ip = 15; continue _fun0003 }
+case 13:
                     var6 = _closure1_slot2;
                     var12 = _closure1_slot3;
                     var5 = 12;
@@ -282,8 +282,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = _closure2_slot1;
                     var5 = var12.bind(var14)(var11, var5);
                     var5 = var7.bind(var8)(var10, var6, var5);
-                    _fun0003_ip = 334; continue _fun0003;
- 204:
+                    _fun0003_ip = 11; continue _fun0003;
+case 15:
                     var6 = _closure1_slot2;
                     var7 = _closure1_slot3;
                     var5 = 12;
@@ -296,8 +296,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var18 = _closure2_slot0;
                     var19 = var5;
                     var12 = copyDataProperties(var19, var18);
-                    if(!(var3 == var11)) { _fun0003_ip = 294; continue _fun0003 }
- 256:
+                    if(!(var3 == var11)) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
                     var11 = _closure1_slot0;
                     var12 = _closure1_slot3;
                     var4 = 11;
@@ -306,11 +306,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var11 = var12.scalePoint;
                     var4 = _closure2_slot1;
                     var4 = var11.bind(var12)(var13, var4);
-                    _fun0003_ip = 303; continue _fun0003;
- 294:
+                    _fun0003_ip = 18; continue _fun0003;
+case 16:
                     var11 = _closure2_slot2;
                     var4 = var11.position;
- 303:
+case 18:
                     var20 = var8;
                     var19 = var6;
                     var18 = var10;
@@ -320,7 +320,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var20[var7](var19, var18, var17, var16, var15, var14);
                     var2 = _closure2_slot3;
                     var2 = var2.bind(var1)(var3);
- 334:
+case 11:
                     return var1;
                 }
             };
@@ -332,7 +332,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[1] = var1;
             var1 = function() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot3;
                     var1 = 13;
@@ -345,11 +345,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var3.getState;
                     var2 = var2.bind(var3)();
                     var2 = var2.shouldSaveText;
-                    if(!var2) { _fun0004_ip = 69; continue _fun0004 }
- 58:
+                    if(!var2) { _fun0004_ip = 19; continue _fun0004 }
+case 20:
                     var2 = _closure2_slot14;
                     var2 = var2.bind(var1)();
- 69:
+case 19:
                     var2 = _closure2_slot9;
                     var2 = var2.bind(var1)();
                     return var1;
@@ -367,7 +367,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4[5] = var7;
             var3 = function(arg1) {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
                     var4 = arg1;
                     var7 = _closure1_slot0;
                     var5 = _closure1_slot3;
@@ -397,17 +397,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var4.textParams;
                     var7 = var5.color;
                     var5 = null;
-                    if(!(var5 == var7)) { _fun0005_ip = 146; continue _fun0005 }
- 142:
+                    if(!(var5 == var7)) { _fun0005_ip = 21; continue _fun0005 }
+case 22:
                     var7 = _closure1_slot8;
- 146:
+case 21:
                     var7 = var8.bind(var9)(var7);
                     var5 = var5 == var4;
                     var7 = undefined;
-                    if(var5) { _fun0005_ip = 166; continue _fun0005 }
- 160:
+                    if(var5) { _fun0005_ip = 23; continue _fun0005 }
+case 24:
                     var7 = var4.shader;
- 166:
+case 23:
                     var8 = _closure1_slot0;
                     var5 = _closure1_slot3;
                     var9 = 9;
@@ -415,8 +415,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var8.bind(var1)(var5);
                     var5 = var5.RemixShader;
                     var5 = var5.RAINBOW;
-                    if(!(var7 === var5)) { _fun0005_ip = 251; continue _fun0005 }
- 202:
+                    if(!(var7 === var5)) { _fun0005_ip = 25; continue _fun0005 }
+case 26:
                     var8 = _closure1_slot0;
                     var5 = _closure1_slot3;
                     var6 = var5[var6];
@@ -427,7 +427,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var5.RemixShader;
                     var5 = var5.RAINBOW;
                     var5 = var6.bind(var7)(var5);
- 251:
+case 25:
                     var6 = _closure2_slot6;
                     var5 = var4.textParams;
                     var5 = var5.backgroundColor;

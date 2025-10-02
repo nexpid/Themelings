@@ -22,7 +22,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useInappropriateConversationSafetyToolsWarningForChannel(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var7 = _closure1_slot0;
             var8 = _closure1_slot1;
             var2 = 0;
@@ -45,10 +45,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var8.useInappropriateConversationWarningsForChannel;
             var6 = arg1;
             var6 = var7.bind(var8)(var6);
-            if(!var5) { _fun0001_ip = 127; continue _fun0001 }
- 100:
-            if(!var4) { _fun0001_ip = 127; continue _fun0001 }
- 103:
+            if(!var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            if(!var4) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var5 = var6.filter;
             var4 = function(arg1) {
                 var1 = arg1;
@@ -59,28 +59,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var4 = var5.bind(var6)(var4);
             var5 = var4.length;
-            if(!(var2 === var5)) { _fun0001_ip = 129; continue _fun0001 }
- 127:
+            if(!(var2 === var5)) { _fun0001_ip = 5; continue _fun0001 }
+case 2:
             return var3;
- 129:
+case 5:
             var3 = var4.sort;
             var1 = function(arg1, arg2) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var2 = arg1;
                     var1 = arg2;
                     var4 = var2.type;
                     var3 = var1.type;
-                    if(!(!(var4 > var3))) { _fun0002_ip = 45; continue _fun0002 }
- 20:
+                    if(!(!(var4 > var3))) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var2 = var2.dismiss_timestamp;
                     var1 = var1.dismiss_timestamp;
                     var2 = var2 < var1;
                     var1 = -1;
-                    if(!var2) { _fun0002_ip = 48; continue _fun0002 }
- 45:
+                    if(!var2) { _fun0002_ip = 8; continue _fun0002 }
+case 6:
                     var1 = 1;
- 48:
+case 8:
                     return var1;
                 }
             };

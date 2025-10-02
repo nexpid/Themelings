@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function ForumPostUsername(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = var2.thread;
             var17 = var2.authorId;
@@ -39,10 +39,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.ForumLayout;
             var3 = var3.GRID;
             var8 = 158;
-            if(!(var4 === var3)) { _fun0001_ip = 152; continue _fun0001 }
- 149:
+            if(!(var4 === var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var8 = 72;
- 152:
+case 2:
             var4 = _closure1_slot1;
             var6 = _closure1_slot2;
             var3 = 8;
@@ -70,27 +70,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var9 = var6.bind(var9)(var4, var3);
             var3 = 'username';
-            if(!(var3 === var9)) { _fun0001_ip = 264; continue _fun0001 }
- 258:
+            if(!(var3 === var9)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = null;
-            if(!(var3 == var22)) { _fun0001_ip = 268; continue _fun0001 }
- 264:
+            if(!(var3 == var22)) { _fun0001_ip = 6; continue _fun0001 }
+case 4:
             var15 = {};
-            _fun0001_ip = 277; continue _fun0001;
- 268:
+            _fun0001_ip = 7; continue _fun0001;
+case 6:
             var3 = {};
             var3['color'] = var22;
             var15 = var3;
- 277:
-            if(var2) { _fun0001_ip = 298; continue _fun0001 }
- 280:
+case 7:
+            if(var2) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var18 = {};
             var2 = 0.8;
             var18['opacity'] = var2;
-            _fun0001_ip = 300; continue _fun0001;
- 298:
+            _fun0001_ip = 10; continue _fun0001;
+case 8:
             var18 = {};
- 300:
+case 10:
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
             var2 = 11;
@@ -105,10 +105,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = null;
             var20 = var6 != var17;
             var1 = undefined;
-            if(!var20) { _fun0001_ip = 365; continue _fun0001 }
- 362:
+            if(!var20) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var1 = var17;
- 365:
+case 11:
             var28 = var4;
             var27 = var2;
             var26 = var1;
@@ -117,8 +117,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17 = var28[var3](var27, var26, var25, var24, var23);
             var2 = var6 == var12;
             var1 = null;
-            if(var2) { _fun0001_ip = 695; continue _fun0001 }
- 396:
+            if(var2) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var4 = _closure1_slot7;
             var3 = _closure1_slot3;
             var2 = {};
@@ -136,12 +136,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['accessibilityRole'] = var8;
             var8 = 'dot';
             var8 = var8 === var9;
-            if(!var8) { _fun0001_ip = 469; continue _fun0001 }
- 465:
+            if(!var8) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
             var8 = var6 != var22;
- 469:
-            if(!var8) { _fun0001_ip = 568; continue _fun0001 }
- 472:
+case 15:
+            if(!var8) { _fun0001_ip = 17; continue _fun0001 }
+case 18:
             var10 = _closure1_slot6;
             var9 = _closure1_slot3;
             var6 = {};
@@ -165,7 +165,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var18 = var20.bind(var5)(var19, var18);
             var6['children'] = var18;
             var8 = var10.bind(var5)(var9, var6);
- 568:
+case 17:
             var6 = new Array(2);
             var6[0] = var8;
             var9 = _closure1_slot7;
@@ -177,10 +177,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var7.Text;
             var7 = {'variant': 'text-sm/semibold', 'color': 'header-primary', 'gradientColors': null, 'lineClamp': 1};
             var10 = undefined;
-            if(!var17) { _fun0001_ip = 627; continue _fun0001 }
- 624:
+            if(!var17) { _fun0001_ip = 19; continue _fun0001 }
+case 20:
             var10 = var16;
- 627:
+case 19:
             var7['gradientColors'] = var10;
             var10 = new Array(3);
             var10[0] = var15;
@@ -196,7 +196,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[1] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 695:
+case 13:
             return var1;
         }
     };
@@ -256,7 +256,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function ForumPostAuthor(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var16 = var1.thread;
             var6 = var1.hasUnreads;
@@ -277,46 +277,46 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = null;
             var3 = var14 == var1;
             var13 = undefined;
-            if(var3) { _fun0002_ip = 103; continue _fun0002 }
- 97:
+            if(var3) { _fun0002_ip = 21; continue _fun0002 }
+case 22:
             var13 = var1.nick;
- 103:
-            if(!(var14 == var13)) { _fun0002_ip = 124; continue _fun0002 }
- 107:
+case 21:
+            if(!(var14 == var13)) { _fun0002_ip = 23; continue _fun0002 }
+case 24:
             var4 = var14 == var15;
             var3 = undefined;
-            if(var4) { _fun0002_ip = 121; continue _fun0002 }
- 116:
+            if(var4) { _fun0002_ip = 25; continue _fun0002 }
+case 26:
             var3 = var15.username;
- 121:
+case 25:
             var13 = var3;
- 124:
+case 23:
             var3 = var14 == var1;
             var12 = undefined;
-            if(var3) { _fun0002_ip = 139; continue _fun0002 }
- 133:
+            if(var3) { _fun0002_ip = 27; continue _fun0002 }
+case 28:
             var12 = var1.colorString;
- 139:
+case 27:
             var3 = var14 == var1;
             var11 = undefined;
-            if(var3) { _fun0002_ip = 154; continue _fun0002 }
- 148:
+            if(var3) { _fun0002_ip = 29; continue _fun0002 }
+case 30:
             var11 = var1.colorStrings;
- 154:
+case 29:
             var3 = var14 == var15;
             var1 = null;
-            if(var3) { _fun0002_ip = 243; continue _fun0002 }
- 163:
+            if(var3) { _fun0002_ip = 31; continue _fun0002 }
+case 32:
             var4 = _closure1_slot6;
             var3 = _closure1_slot9;
             var2 = {};
             var2['thread'] = var16;
             var16 = var14 == var15;
             var14 = undefined;
-            if(var16) { _fun0002_ip = 192; continue _fun0002 }
- 187:
+            if(var16) { _fun0002_ip = 33; continue _fun0002 }
+case 34:
             var14 = var15.id;
- 192:
+case 33:
             var2['authorId'] = var14;
             var2['authorName'] = var13;
             var2['authorColor'] = var12;
@@ -327,14 +327,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['textStyle'] = var7;
             var2['hasUnreads'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 243:
+case 31:
             return var1;
         }
     };
     var3['ForumPostAuthor'] = var4;
     var2 = function ForumPostMessageAuthor(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var1 = arg1;
             var13 = var1.thread;
             var10 = var1.message;
@@ -362,10 +362,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = null;
             var15 = var13 == var14;
             var13 = undefined;
-            if(var15) { _fun0003_ip = 135; continue _fun0003 }
- 130:
+            if(var15) { _fun0003_ip = 35; continue _fun0003 }
+case 36:
             var13 = var14.id;
- 135:
+case 35:
             var1['authorId'] = var13;
             var1['authorName'] = var12;
             var1['authorColor'] = var11;

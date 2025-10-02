@@ -78,7 +78,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var7.map;
         var5 = function(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var3 = arg1;
                 var1 = var3[Symbol.iterator];
                 var3 = var1().next;
@@ -87,27 +87,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = undefined;
                 var2 = var2 === var5;
                 var4 = undefined;
-                if(var2) { _fun0001_ip = 27; continue _fun0001 }
- 24:
+                if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var4 = var6;
- 27:
+case 2:
                 var6 = undefined;
-                if(var2) { _fun0001_ip = 57; continue _fun0001 }
- 32:
+                if(var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var7 = var3().value;
                 var3 = var1;
                 var3 = var3 === var5;
                 var6 = undefined;
                 var2 = var3;
-                if(var3) { _fun0001_ip = 57; continue _fun0001 }
- 51:
+                if(var3) { _fun0001_ip = 4; continue _fun0001 }
+case 6:
                 var6 = var7;
                 var2 = var3;
- 57:
-                if(var2) { _fun0001_ip = 63; continue _fun0001 }
- 60:
+case 4:
+                if(var2) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
                 var1.return();
- 63:
+case 7:
                 var3 = _closure1_slot4;
                 var2 = _closure1_slot0;
                 var7 = _closure1_slot2;

@@ -29,56 +29,56 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['PhoneOrEmailSelectorForceMode'] = var4;
     var4 = function shouldShowCountryCodeSelector(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var4 = arg2;
             var1 = _closure1_slot0;
             var1 = var1.PHONE;
-            if(!(var2 !== var1)) { _fun0001_ip = 77; continue _fun0001 }
- 23:
+            if(!(var2 !== var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = _closure1_slot0;
             var1 = var1.EMAIL;
             var1 = var2 !== var1;
-            if(!var1) { _fun0001_ip = 75; continue _fun0001 }
- 40:
+            if(!var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = var4.length;
             var2 = 3;
             var5 = var5 < var2;
             var2 = !var5;
-            if(var5) { _fun0001_ip = 72; continue _fun0001 }
- 58:
+            if(var5) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var5 = _closure1_slot1;
             var3 = var5.test;
             var2 = var3.bind(var5)(var4);
- 72:
+case 6:
             var1 = var2;
- 75:
-            _fun0001_ip = 95; continue _fun0001;
- 77:
+case 4:
+            _fun0001_ip = 8; continue _fun0001;
+case 2:
             var3 = var4.startsWith;
             var2 = '+';
             var2 = var3.bind(var4)(var2);
             var1 = !var2;
- 95:
+case 8:
             return var1;
         }
     };
     var3['shouldShowCountryCodeSelector'] = var4;
     var2 = function getPhoneOrEmail(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var3 = /^\+\d/;
             var2 = var3.test;
             var1 = arg1;
             var1 = var2.bind(var3)(var1);
             var2 = _closure1_slot0;
-            if(var1) { _fun0002_ip = 45; continue _fun0002 }
- 37:
+            if(var1) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
             var1 = var2.EMAIL;
-            _fun0002_ip = 51; continue _fun0002;
- 45:
+            _fun0002_ip = 11; continue _fun0002;
+case 9:
             var1 = var2.PHONE;
- 51:
+case 11:
             return var1;
         }
     };

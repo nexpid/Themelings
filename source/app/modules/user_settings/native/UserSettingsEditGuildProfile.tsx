@@ -75,7 +75,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function UserSettingsEditGuildProfile() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = _closure1_slot7;
             var4 = undefined;
             var13 = var2.bind(var4)();
@@ -123,17 +123,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5[1] = var7;
             var3 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var2 = _closure2_slot0;
                     var4 = null;
                     var2 = var4 != var2;
-                    if(!var2) { _fun0002_ip = 24; continue _fun0002 }
- 16:
+                    if(!var2) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var3 = _closure2_slot1;
                     var2 = var4 != var3;
- 24:
-                    if(!var2) { _fun0002_ip = 137; continue _fun0002 }
- 27:
+case 2:
+                    if(!var2) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var6 = _closure1_slot0;
                     var4 = _closure1_slot2;
                     var3 = 10;
@@ -159,17 +159,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = true;
                     var1['dispatchWait'] = var6;
                     var1 = var4.bind(var5)(var3, var2, var1);
- 137:
+case 4:
                     var1 = undefined;
                     return var1;
                 }
             };
             var3 = var8.bind(var9)(var3, var5);
             var3 = null;
-            if(!(var3 != var11)) { _fun0001_ip = 493; continue _fun0001 }
- 202:
-            if(!(var3 != var7)) { _fun0001_ip = 493; continue _fun0001 }
- 209:
+            if(!(var3 != var11)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+            if(!(var3 != var7)) { _fun0001_ip = 6; continue _fun0001 }
+case 8:
             var3 = function onSelectGuild(arg1) {
                 var2 = _closure2_slot2;
                 var1 = undefined;
@@ -288,7 +288,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['children'] = var6;
             var2 = var5.bind(var4)(var3, var2);
             return var2;
- 493:
+case 6:
             var3 = _closure1_slot5;
             var2 = _closure1_slot1;
             var5 = _closure1_slot2;

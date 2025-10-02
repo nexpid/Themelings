@@ -94,7 +94,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useConsoleLinkSettingsCoachmark(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var2 = var2.disabled;
             var8 = undefined;
@@ -116,10 +116,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var7[var4];
             var6 = var6.bind(var8)(var4);
             var4 = var6.useGetDismissibleContent;
-            if(!var5) { _fun0001_ip = 140; continue _fun0001 }
- 95:
-            if(var2) { _fun0001_ip = 140; continue _fun0001 }
- 98:
+            if(!var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var7 = _closure1_slot0;
             var9 = _closure1_slot2;
             var2 = 10;
@@ -129,10 +129,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var2.CONNECTIONS_LINK_CONSOLE_COACHMARK;
             var2 = new Array(1);
             var2[0] = var7;
-            _fun0001_ip = 144; continue _fun0001;
- 140:
+            _fun0001_ip = 5; continue _fun0001;
+case 2:
             var2 = new Array(0);
- 144:
+case 5:
             var6 = var4.bind(var6)(var2);
             var4 = _closure1_slot3;
             var2 = 2;
@@ -247,15 +247,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var3 = var4.bind(var6)(var1, var3);
             var1 = null;
-            if(!var5) { _fun0001_ip = 272; continue _fun0001 }
- 258:
+            if(!var5) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var1 = null;
-            if(!var2) { _fun0001_ip = 272; continue _fun0001 }
- 263:
+            if(!var2) { _fun0001_ip = 6; continue _fun0001 }
+case 8:
             var2 = {};
             var2['props'] = var3;
             var1 = var2;
- 272:
+case 6:
             return var1;
         }
     };

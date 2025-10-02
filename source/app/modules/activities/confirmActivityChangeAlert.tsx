@@ -24,7 +24,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function confirmActivityChangeModal(arg1, arg2, arg3, arg4) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var13 = arg1;
             var11 = arg2;
             var3 = _closure1_slot1;
@@ -83,12 +83,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = null;
             var15 = var9 == var13;
             var12 = undefined;
-            if(var15) { _fun0001_ip = 268; continue _fun0001 }
- 263:
+            if(var15) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var12 = var13.name;
- 268:
-            if(!(var9 == var12)) { _fun0001_ip = 326; continue _fun0001 }
- 272:
+case 2:
+            if(!(var9 == var12)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var17 = _closure1_slot0;
             var13 = _closure1_slot2;
             var15 = var13[var14];
@@ -100,7 +100,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var13.t;
             var13 = var13.G99XFh;
             var12 = var15.bind(var16)(var13);
- 326:
+case 4:
             var5['currentApplicationName'] = var12;
             var13 = _closure1_slot0;
             var15 = _closure1_slot2;
@@ -110,21 +110,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var15.isNullOrEmpty;
             var16 = var9 == var11;
             var12 = undefined;
-            if(var16) { _fun0001_ip = 373; continue _fun0001 }
- 368:
+            if(var16) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var12 = var11.name;
- 373:
+case 6:
             var12 = var13.bind(var15)(var12);
-            if(var12) { _fun0001_ip = 397; continue _fun0001 }
- 381:
+            if(var12) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var12 = var9 == var11;
             var9 = undefined;
-            if(var12) { _fun0001_ip = 395; continue _fun0001 }
- 390:
+            if(var12) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var9 = var11.name;
- 395:
-            _fun0001_ip = 451; continue _fun0001;
- 397:
+case 10:
+            _fun0001_ip = 12; continue _fun0001;
+case 8:
             var13 = _closure1_slot0;
             var10 = _closure1_slot2;
             var11 = var10[var14];
@@ -136,7 +136,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var10.t;
             var10 = var10.OGUjmp;
             var9 = var11.bind(var12)(var10);
- 451:
+case 12:
             var5['currentApplicationChannelName'] = var9;
             var5 = var7.bind(var8)(var6, var5);
             var2['body'] = var5;

@@ -27,7 +27,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
             var1 = 1;
@@ -38,13 +38,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var3.bind(var4)();
             var3 = null;
             var3 = var3 != var5;
-            if(!var3) { _fun0001_ip = 54; continue _fun0001 }
- 44:
+            if(!var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = var5.isReady;
             var3 = var4.bind(var5)();
- 54:
-            if(!var3) { _fun0001_ip = 97; continue _fun0001 }
- 57:
+case 2:
+            if(!var3) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var4 = var5.navigate;
             var3 = {};
             var2 = _closure1_slot2;
@@ -54,7 +54,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['params'] = var2;
             var2 = 'settings';
             var2 = var4.bind(var5)(var2, var3);
- 97:
+case 4:
             return var1;
         }
     };

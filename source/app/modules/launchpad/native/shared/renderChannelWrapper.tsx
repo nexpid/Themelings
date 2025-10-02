@@ -8,7 +8,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var6;
     var1 = function getStyles(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var6 = arg2;
             var2 = new Array(3);
             var1 = {'flex': 1, 'flexDirection': 'row', 'alignItems': 'center', 'position': 'relative'};
@@ -17,8 +17,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = _closure1_slot4;
             var5 = var1.layout;
             var1 = arg1;
-            if(var1) { _fun0001_ip = 101; continue _fun0001 }
- 46:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var5.margin;
             var7 = var1.marginVertical;
             var1 = 2;
@@ -31,8 +31,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.padding;
             var2[2] = var1;
             var1 = var2;
-            _fun0001_ip = 155; continue _fun0001;
- 101:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var5 = var5.marginThread;
             var7 = var5.marginVertical;
             var5 = 2;
@@ -45,7 +45,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.paddingThread;
             var2[2] = var3;
             var1 = var2;
- 155:
+case 4:
             return var1;
         }
     };
@@ -86,7 +86,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function renderChannelWrapper(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg2;
             var10 = var1.channel;
             var2 = var1.fontScale;
@@ -104,16 +104,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = null;
             var9 = var5 == var10;
             var8 = undefined;
-            if(var9) { _fun0002_ip = 79; continue _fun0002 }
- 69:
+            if(var9) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
             var9 = var10.isThread;
             var8 = var9.bind(var10)();
- 79:
+case 5:
             var5 = var5 != var8;
-            if(!var5) { _fun0002_ip = 89; continue _fun0002 }
- 86:
+            if(!var5) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
             var5 = var8;
- 89:
+case 7:
             var5 = var6.bind(var4)(var5, var7);
             var1['style'] = var5;
             var5 = arg1;

@@ -44,24 +44,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = _closure1_slot3;
             var3 = var1.FRACTIONAL_PREMIUM;
             var1 = arg1;
-            if(!(var1 !== var3)) { _fun0001_ip = 26; continue _fun0001 }
- 20:
+            if(!(var1 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = _closure1_slot2;
-            _fun0001_ip = 30; continue _fun0001;
- 26:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var1 = _closure1_slot6;
- 30:
+case 4:
             return var1;
         }
     };
     var3['getApplicationIdForOrbSKU'] = var4;
     var2 = function() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var7 = _closure1_slot0;
             var2 = _closure1_slot1;
             var4 = 4;
@@ -75,8 +75,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.DismissibleContent;
             var2 = var2.VIRTUAL_CURRENCY_ONBOARDING_ANNOUNCEMENT_MODAL;
             var2 = var3.bind(var5)(var2);
-            if(var2) { _fun0002_ip = 280; continue _fun0002 }
- 66:
+            if(var2) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
             var3 = _closure1_slot0;
             var2 = _closure1_slot1;
             var5 = var2[var4];
@@ -120,7 +120,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.VIRTUAL_CURRENCY_ONBOARDING;
             var2['groupName'] = var6;
             var2 = var4.bind(var5)(var3, var2);
- 280:
+case 5:
             return var1;
         }
     };

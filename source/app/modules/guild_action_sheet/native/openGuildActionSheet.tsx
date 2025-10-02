@@ -31,14 +31,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function openGuildActionSheet(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var9 = arguments[1];
             var1 = undefined;
-            if(!(var9 === var1)) { _fun0001_ip = 14; continue _fun0001 }
- 12:
+            if(!(var9 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var9 = true;
- 14:
+case 2:
             var5 = _closure1_slot1;
             var6 = _closure1_slot2;
             var3 = 1;
@@ -60,8 +60,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var6.shouldNSFWGateGuild;
             var3 = var2.id;
             var3 = var5.bind(var6)(var3);
-            if(var3) { _fun0001_ip = 325; continue _fun0001 }
- 117:
+            if(var3) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var6 = var2.features;
             var5 = var6.has;
             var3 = _closure1_slot4;
@@ -77,8 +77,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = 5;
             var6 = var3[var6];
             var6 = var10.bind(var1)(var6);
-            if(var5) { _fun0001_ip = 258; continue _fun0001 }
- 188:
+            if(var5) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var5 = 7;
             var10 = var3[var5];
             var5 = var3.paths;
@@ -93,8 +93,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['guild'] = var2;
             var5['expanded'] = var9;
             var5 = var7.bind(var8)(var11, var10, var5);
-            _fun0001_ip = 404; continue _fun0001;
- 258:
+            _fun0001_ip = 8; continue _fun0001;
+case 6:
             var5 = 6;
             var5 = var3[var5];
             var3 = var3.paths;
@@ -109,8 +109,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['guild'] = var2;
             var3['expanded'] = var9;
             var3 = var7.bind(var8)(var6, var5, var3);
-            _fun0001_ip = 404; continue _fun0001;
- 325:
+            _fun0001_ip = 8; continue _fun0001;
+case 4:
             var6 = _closure1_slot1;
             var3 = _closure1_slot2;
             var5 = 3;
@@ -129,7 +129,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['guild'] = var2;
             var2 = 'NsfwGateGuildSettingsActionSheet';
             var2 = var5.bind(var6)(var4, var2, var3);
- 404:
+case 8:
             return var1;
         }
     };

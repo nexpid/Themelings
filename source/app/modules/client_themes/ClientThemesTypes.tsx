@@ -37,7 +37,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['ClientThemeType'] = var4;
     var2 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var10 = arg1;
             var _closure2_slot0 = var10;
             var3 = global;
@@ -48,7 +48,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var5.find;
             var1 = function(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var4 = arg1;
                     var1 = var4[Symbol.iterator];
                     var4 = var1().next;
@@ -57,22 +57,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = undefined;
                     var3 = var2 === var6;
                     var2 = undefined;
-                    if(var3) { _fun0002_ip = 49; continue _fun0002 }
- 24:
+                    if(var3) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var5 = var4().value;
                     var4 = var1;
                     var4 = var4 === var6;
                     var2 = undefined;
                     var3 = var4;
-                    if(var4) { _fun0002_ip = 49; continue _fun0002 }
- 43:
+                    if(var4) { _fun0002_ip = 2; continue _fun0002 }
+case 4:
                     var2 = var5;
                     var3 = var4;
- 49:
-                    if(var3) { _fun0002_ip = 55; continue _fun0002 }
- 52:
+case 2:
+                    if(var3) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
                     var1.return();
- 55:
+case 5:
                     var1 = _closure2_slot0;
                     var1 = var2 === var1;
                     return var1;
@@ -80,14 +80,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var6 = var4.bind(var5)(var1);
             var4 = undefined;
-            if(!(var4 !== var6)) { _fun0001_ip = 76; continue _fun0001 }
- 57:
+            if(!(var4 !== var6)) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var5 = var3.parseInt;
             var1 = 0;
             var1 = var6[var1];
             var1 = var5.bind(var4)(var1);
-            _fun0001_ip = 183; continue _fun0001;
- 76:
+            _fun0001_ip = 9; continue _fun0001;
+case 7:
             var7 = _closure1_slot1;
             var5 = _closure1_slot2;
             var6 = 1;
@@ -111,7 +111,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var4)(var2);
             var2 = var2.Theme;
             var1 = var2.UNSET;
- 183:
+case 9:
             return var1;
         }
     };

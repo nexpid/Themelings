@@ -20,17 +20,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function useToggleButtonProps(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var2 = arg2;
             var1 = {};
-            if(var2) { _fun0001_ip = 19; continue _fun0001 }
- 11:
+            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = var4.off;
-            _fun0001_ip = 25; continue _fun0001;
- 19:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var3 = var4.on;
- 25:
+case 4:
             var7 = var1;
             var6 = var3;
             var3 = copyDataProperties(var7, var6);
@@ -47,17 +47,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['useToggleButtonProps'] = var4;
     var2 = function useToggleIconButtonProps(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var4 = arg1;
             var2 = arg2;
             var1 = {};
-            if(var2) { _fun0002_ip = 19; continue _fun0002 }
- 11:
+            if(var2) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
             var3 = var4.off;
-            _fun0002_ip = 25; continue _fun0002;
- 19:
+            _fun0002_ip = 4; continue _fun0002;
+case 2:
             var3 = var4.on;
- 25:
+case 4:
             var7 = var1;
             var6 = var3;
             var3 = copyDataProperties(var7, var6);

@@ -8,18 +8,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var7;
     var2 = function getPendingFolderGuildIds() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arguments[0];
             var2 = undefined;
-            if(!(var3 === var2)) { _fun0001_ip = 37; continue _fun0001 }
- 11:
+            if(!(var3 === var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = _closure1_slot2;
             var4 = new Array(2);
             var4[0] = var6;
             var5 = _closure1_slot3;
             var4[1] = var5;
             var3 = var4;
- 37:
+case 2:
             var7 = var3;
             var5 = var7[Symbol.iterator];
             var7 = var5().next;
@@ -27,27 +27,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var5;
             var6 = var3 === var2;
             var3 = undefined;
-            if(var6) { _fun0001_ip = 62; continue _fun0001 }
- 59:
+            if(var6) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = var4;
- 62:
+case 4:
             var4 = undefined;
-            if(var6) { _fun0001_ip = 92; continue _fun0001 }
- 67:
+            if(var6) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var8 = var7().value;
             var7 = var5;
             var7 = var7 === var2;
             var4 = undefined;
             var6 = var7;
-            if(var7) { _fun0001_ip = 92; continue _fun0001 }
- 86:
+            if(var7) { _fun0001_ip = 6; continue _fun0001 }
+case 8:
             var4 = var8;
             var6 = var7;
- 92:
-            if(var6) { _fun0001_ip = 98; continue _fun0001 }
- 95:
+case 6:
+            if(var6) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var5.return();
- 98:
+case 9:
             var _closure2_slot0 = var2;
             var2 = var3.computeGuildIds;
             var3 = var2.bind(var3)();

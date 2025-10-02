@@ -50,7 +50,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function ContactSyncError(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var11 = var1.style;
             var7 = var1.error;
@@ -60,11 +60,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var1.bind(var4)();
             var1 = null;
             var13 = var1 != var7;
-            if(!var13) { _fun0001_ip = 49; continue _fun0001 }
- 41:
+            if(!var13) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = '';
             var13 = var1 !== var7;
- 49:
+case 2:
             _closure2_slot0 = var13;
             var6 = _closure1_slot0;
             var9 = _closure1_slot2;
@@ -74,7 +74,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var10.useAnimatedStyle;
             var3 = function l() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var1 = {};
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
@@ -85,10 +85,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var4.withTiming;
                     var5 = _closure2_slot0;
                     var2 = 0;
-                    if(!var5) { _fun0002_ip = 47; continue _fun0002 }
- 44:
+                    if(!var5) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var2 = 44;
- 47:
+case 4:
                     var2 = var3.bind(var4)(var2);
                     var1['height'] = var2;
                     return var1;

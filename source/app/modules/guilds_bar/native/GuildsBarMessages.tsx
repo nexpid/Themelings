@@ -51,7 +51,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function GuildsBarMessages() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = _closure1_slot0;
             var10 = _closure1_slot2;
             var1 = 5;
@@ -69,17 +69,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5[0] = var2;
             var2 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = _closure1_slot3;
                     var1 = var3.getGuildId;
                     var3 = var1.bind(var3)();
                     var1 = null;
                     var1 = var1 == var3;
-                    if(var1) { _fun0002_ip = 34; continue _fun0002 }
- 26:
+                    if(var1) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var2 = _closure1_slot4;
                     var1 = var3 === var2;
- 34:
+case 2:
                     return var1;
                 }
             };
@@ -114,8 +114,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['config'] = var6;
             var1['overState'] = var4;
             var6 = 0;
-            if(!(!(var13 > var6))) { _fun0001_ip = 269; continue _fun0001 }
- 212:
+            if(!(!(var13 > var6))) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var11 = _closure1_slot0;
             var12 = _closure1_slot2;
             var6 = 9;
@@ -128,8 +128,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.t;
             var6 = var6.YUU0RE;
             var6 = var7.bind(var10)(var6);
-            _fun0001_ip = 334; continue _fun0001;
- 269:
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
             var10 = _closure1_slot0;
             var14 = _closure1_slot2;
             var7 = 9;
@@ -144,7 +144,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = {};
             var7['requestCount'] = var13;
             var6 = var11.bind(var12)(var10, var7);
- 334:
+case 6:
             var1['label'] = var6;
             var1['externalChildren'] = var5;
             var7 = _closure1_slot5;
@@ -161,13 +161,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var11[var9];
             var9 = var10.bind(var4)(var9);
             var9 = var9.colors;
-            if(var8) { _fun0001_ip = 411; continue _fun0001 }
- 403:
+            if(var8) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var8 = var9.INTERACTIVE_NORMAL;
-            _fun0001_ip = 417; continue _fun0001;
- 411:
+            _fun0001_ip = 9; continue _fun0001;
+case 7:
             var8 = var9.WHITE;
- 417:
+case 9:
             var5['color'] = var8;
             var5 = var7.bind(var4)(var6, var5);
             var1['children'] = var5;

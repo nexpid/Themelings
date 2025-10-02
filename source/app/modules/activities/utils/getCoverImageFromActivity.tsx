@@ -27,24 +27,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function getCoverImageFromActivity(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var4 = null;
             var2 = var4 == var3;
             var1 = null;
-            if(var2) { _fun0001_ip = 119; continue _fun0001 }
- 14:
+            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var3.assets;
             var2 = var4 == var2;
             var1 = null;
-            if(var2) { _fun0001_ip = 119; continue _fun0001 }
- 29:
+            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var2 = var3.assets;
             var2 = var2.large_image;
             var2 = var4 == var2;
             var1 = null;
-            if(var2) { _fun0001_ip = 119; continue _fun0001 }
- 50:
+            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 5:
             var6 = _closure1_slot0;
             var5 = _closure1_slot1;
             var4 = 1;
@@ -60,7 +60,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[1] = var2;
             var2 = arg2;
             var1 = var5.bind(var6)(var2, var4, var3);
- 119:
+case 2:
             return var1;
         }
     };

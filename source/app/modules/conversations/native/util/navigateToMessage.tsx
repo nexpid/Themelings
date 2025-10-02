@@ -37,17 +37,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function navigateToMessage(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var10 = arg1;
             var6 = arg3;
             var5 = arguments[3];
             var _closure2_slot0 = var10;
             var _closure2_slot1 = var6;
             var1 = undefined;
-            if(!(var5 === var1)) { _fun0001_ip = 27; continue _fun0001 }
- 25:
+            if(!(var5 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = false;
- 27:
+case 2:
             var3 = global;
             var7 = var3.setTimeout;
             var4 = function() {
@@ -99,12 +99,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var8.bind(var1)(var7, var4);
             var4 = null;
             var4 = var4 == var6;
-            if(var4) { _fun0001_ip = 162; continue _fun0001 }
- 159:
+            if(var4) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var4 = var5;
- 162:
-            if(var4) { _fun0001_ip = 207; continue _fun0001 }
- 165:
+case 4:
+            if(var4) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var4 = _closure1_slot0;
             var5 = _closure1_slot2;
             var3 = 4;
@@ -142,7 +142,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var2 = 150;
             var2 = var4.bind(var5)(var3, var2);
- 207:
+case 6:
             return var1;
         }
     };

@@ -8,7 +8,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var9;
     var4 = function calculateTargetDimensions(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var8 = arg2;
             var3 = var1.width;
@@ -16,8 +16,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3 / var2;
             var4 = var1.width;
             var3 = var1.height;
-            if(!(!(var4 > var3))) { _fun0001_ip = 86; continue _fun0001 }
- 34:
+            if(!(!(var4 > var3))) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = global;
             var6 = var3.Math;
             var5 = var6.min;
@@ -29,8 +29,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var5.bind(var6)(var3);
             var7 = var4;
             var4 = var3;
-            _fun0001_ip = 133; continue _fun0001;
- 86:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var3 = global;
             var6 = var3.Math;
             var5 = var6.min;
@@ -41,25 +41,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var1 * var2;
             var7 = var3.bind(var5)(var2);
             var4 = var1;
- 133:
+case 4:
             var1 = {};
             var2 = 2;
             var6 = var7 % var2;
             var5 = 0;
             var3 = var7;
-            if(!(var6 !== var5)) { _fun0001_ip = 158; continue _fun0001 }
- 151:
+            if(!(var6 !== var5)) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var6 = 1;
             var3 = var7 + var6;
- 158:
+case 5:
             var1['width'] = var3;
             var3 = var4 % var2;
             var2 = var4;
-            if(!(var3 !== var5)) { _fun0001_ip = 180; continue _fun0001 }
- 173:
+            if(!(var3 !== var5)) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var3 = 1;
             var2 = var4 + var3;
- 180:
+case 7:
             var1['height'] = var2;
             return var1;
         }
@@ -178,28 +178,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6['VERY_HIGH'] = var5;
     var5 = function(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var5 = arg1;
             var2 = _closure1_slot5;
             var2 = var2.VERY_LOW;
-            if(!(var2 !== var5)) { _fun0002_ip = 182; continue _fun0002 }
- 23:
+            if(!(var2 !== var5)) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
             var2 = _closure1_slot5;
             var2 = var2.LOW;
-            if(!(var2 !== var5)) { _fun0002_ip = 170; continue _fun0002 }
- 40:
+            if(!(var2 !== var5)) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
             var2 = _closure1_slot5;
             var2 = var2.MEDIUM;
-            if(!(var2 !== var5)) { _fun0002_ip = 158; continue _fun0002 }
- 54:
+            if(!(var2 !== var5)) { _fun0002_ip = 5; continue _fun0002 }
+case 13:
             var2 = _closure1_slot5;
             var2 = var2.HIGH;
-            if(!(var2 !== var5)) { _fun0002_ip = 146; continue _fun0002 }
- 68:
+            if(!(var2 !== var5)) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
             var2 = _closure1_slot5;
             var2 = var2.VERY_HIGH;
-            if(!(var2 !== var5)) { _fun0002_ip = 134; continue _fun0002 }
- 82:
+            if(!(var2 !== var5)) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
             var2 = global;
             var4 = var2.Error;
             var2 = var2.HermesInternal;
@@ -212,23 +212,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = new var7[var4](var6, var5);
             var2 = var2 instanceof Object ? var2 : var3;
             throw var2;
- 134:
+case 16:
             var2 = _closure1_slot2;
             var2 = var2.VERY_HIGH;
             return var2;
- 146:
+case 14:
             var2 = _closure1_slot2;
             var2 = var2.HIGH;
             return var2;
- 158:
+case 5:
             var2 = _closure1_slot2;
             var2 = var2.MEDIUM;
             return var2;
- 170:
+case 11:
             var2 = _closure1_slot2;
             var2 = var2.LOW;
             return var2;
- 182:
+case 9:
             var1 = _closure1_slot2;
             var1 = var1.VERY_LOW;
             return var1;
@@ -253,13 +253,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['DEFAULT_VIDEO_ENCODING_CONFIG'] = var5;
     var5 = function calculateKeyFrameInterval(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var1 = 2;
             var2 = arg1;
-            if(!var2) { _fun0003_ip = 12; continue _fun0003 }
- 9:
+            if(!var2) { _fun0003_ip = 18; continue _fun0003 }
+case 19:
             var1 = 3;
- 12:
+case 18:
             return var1;
         }
     };
@@ -267,18 +267,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['calculateTargetDimensions'] = var4;
     var4 = function canSkipVideoTranscode(arg1, arg2, arg3, arg4) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = arg2;
             var5 = arg3;
             var4 = arg4;
             var3 = null;
-            if(!(var3 != var5)) { _fun0004_ip = 29; continue _fun0004 }
- 18:
-            if(!(var3 != var4)) { _fun0004_ip = 29; continue _fun0004 }
- 22:
-            if(!(!(var5 > var4))) { _fun0004_ip = 194; continue _fun0004 }
- 29:
+            if(!(var3 != var5)) { _fun0004_ip = 20; continue _fun0004 }
+case 21:
+            if(!(var3 != var4)) { _fun0004_ip = 20; continue _fun0004 }
+case 22:
+            if(!(!(var5 > var4))) { _fun0004_ip = 23; continue _fun0004 }
+case 20:
             var6 = _closure1_slot7;
             var5 = var1.targetResolution;
             var4 = undefined;
@@ -294,35 +294,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.bind(var8)(var5);
             var5 = var4.width;
             var5 = var7 <= var5;
-            if(!var5) { _fun0004_ip = 115; continue _fun0004 }
- 106:
+            if(!var5) { _fun0004_ip = 24; continue _fun0004 }
+case 25:
             var4 = var4.height;
             var5 = var6 <= var4;
- 115:
+case 24:
             var4 = var2.bitRate;
             var1 = var1.targetBitrate;
             var4 = var4 <= var1;
             var1 = !var5;
-            if(!var5) { _fun0004_ip = 140; continue _fun0004 }
- 137:
+            if(!var5) { _fun0004_ip = 26; continue _fun0004 }
+case 27:
             var1 = !var4;
- 140:
-            if(var1) { _fun0004_ip = 152; continue _fun0004 }
- 143:
+case 26:
+            if(var1) { _fun0004_ip = 28; continue _fun0004 }
+case 29:
             var4 = var2.format;
             var1 = var3 == var4;
- 152:
-            if(var1) { _fun0004_ip = 189; continue _fun0004 }
- 155:
+case 28:
+            if(var1) { _fun0004_ip = 30; continue _fun0004 }
+case 31:
             var5 = var2.format;
             var4 = var5.match;
             var2 = /(avc1|hvc1|video\\/(avc|hevc))/i;
             var2 = var4.bind(var5)(var2);
             var1 = var3 === var2;
- 189:
+case 30:
             var1 = !var1;
             return var1;
- 194:
+case 23:
             var1 = false;
             return var1;
         }
@@ -330,23 +330,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['canSkipVideoTranscode'] = var4;
     var4 = function logSourceMetadata(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
             var4 = arg1;
             var1 = var4.format;
             var2 = null;
             var1 = var2 != var1;
             var8 = 'unknown';
-            if(!var1) { _fun0005_ip = 56; continue _fun0005 }
- 21:
+            if(!var1) { _fun0005_ip = 32; continue _fun0005 }
+case 33:
             var3 = var4.format;
             var1 = {'hvc1': 'hvc1 (HEVC)', 'avc1': 'avc1 (H.264)'};
             var1 = var1[var3];
-            if(!(var2 == var1)) { _fun0005_ip = 53; continue _fun0005 }
- 48:
+            if(!(var2 == var1)) { _fun0005_ip = 34; continue _fun0005 }
+case 35:
             var1 = var4.format;
- 53:
+case 34:
             var8 = var1;
- 56:
+case 32:
             var6 = _closure1_slot6;
             var3 = var6.info;
             var1 = 'Video Source Metadata:';
@@ -386,10 +386,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var6.info;
             var3 = var4.isHDRContent;
             var7 = 'No';
-            if(!var3) { _fun0005_ip = 283; continue _fun0005 }
- 277:
+            if(!var3) { _fun0005_ip = 36; continue _fun0005 }
+case 37:
             var7 = 'Yes';
- 283:
+case 36:
             var3 = '- HDR: ';
             var3 = var3 + var7;
             var3 = var5.bind(var6)(var3);
@@ -430,7 +430,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['logSourceMetadata'] = var4;
     var4 = function logEncoderSettings(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
- 0:
+case 0:
             var7 = arg1;
             var6 = _closure1_slot6;
             var2 = var6.info;
@@ -442,11 +442,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var8 == var3;
             var1 = undefined;
             var10 = undefined;
-            if(var2) { _fun0006_ip = 61; continue _fun0006 }
- 52:
+            if(var2) { _fun0006_ip = 38; continue _fun0006 }
+case 39:
             var2 = var3.toString;
             var10 = var2.bind(var3)();
- 61:
+case 38:
             var2 = global;
             var3 = var2.HermesInternal;
             var9 = var3.concat;
@@ -458,10 +458,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var7.videoQuality;
             var9 = var8 == var3;
             var11 = undefined;
-            if(var9) { _fun0006_ip = 121; continue _fun0006 }
- 115:
+            if(var9) { _fun0006_ip = 40; continue _fun0006 }
+case 24:
             var11 = var3.targetResolution;
- 121:
+case 40:
             var3 = var2.HermesInternal;
             var10 = var3.concat;
             var9 = '- Compression Quality Target Resolution: ';
@@ -473,10 +473,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var7.videoQuality;
             var8 = var8 == var3;
             var9 = undefined;
-            if(var8) { _fun0006_ip = 184; continue _fun0006 }
- 178:
+            if(var8) { _fun0006_ip = 41; continue _fun0006 }
+case 42:
             var9 = var3.targetBitrate;
- 184:
+case 41:
             var3 = var2.HermesInternal;
             var8 = var3.concat;
             var3 = '- Compression Quality Max Bitrate: ';
@@ -490,14 +490,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var7.skipVideoTranscode;
             var4 = _closure1_slot6;
             var3 = var4.info;
-            if(var6) { _fun0006_ip = 653; continue _fun0006 }
- 261:
+            if(var6) { _fun0006_ip = 43; continue _fun0006 }
+case 44:
             var6 = var7.useHEVC;
             var8 = 'avc1 (H.264)';
-            if(!var6) { _fun0006_ip = 282; continue _fun0006 }
- 276:
+            if(!var6) { _fun0006_ip = 45; continue _fun0006 }
+case 46:
             var8 = 'hvc1 (HEVC)';
- 282:
+case 45:
             var6 = '- Codec: ';
             var6 = var6 + var8;
             var6 = var3.bind(var4)(var6);
@@ -538,10 +538,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var7.createHDR;
             var10 = 'No';
             var11 = var10;
-            if(!var6) { _fun0006_ip = 514; continue _fun0006 }
- 508:
+            if(!var6) { _fun0006_ip = 47; continue _fun0006 }
+case 48:
             var11 = 'Yes';
- 514:
+case 47:
             var6 = '- Create HDR: ';
             var6 = var6 + var11;
             var6 = var8.bind(var9)(var6);
@@ -555,10 +555,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var8.bind(var9)(var6);
             var8 = var9.info;
             var6 = var7.hevcIsSupported;
-            if(!var6) { _fun0006_ip = 593; continue _fun0006 }
- 587:
+            if(!var6) { _fun0006_ip = 49; continue _fun0006 }
+case 50:
             var10 = 'Yes';
- 593:
+case 49:
             var6 = '- HEVC Supported: ';
             var6 = var6 + var10;
             var6 = var8.bind(var9)(var6);
@@ -570,25 +570,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = '- Progress Update Granularity: ';
             var2 = var7.bind(var2)(var8);
             var2 = var5.bind(var6)(var2);
-            _fun0006_ip = 664; continue _fun0006;
- 653:
+            _fun0006_ip = 51; continue _fun0006;
+case 43:
             var2 = '- Skip Video Transcode: Yes';
             var2 = var3.bind(var4)(var2);
- 664:
+case 51:
             return var1;
         }
     };
     var3['logEncoderSettings'] = var4;
     var4 = function calculateOptimalBitrate(arg1, arg2, arg3, arg4, arg5) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
- 0:
+case 0:
             var1 = arg5;
             var2 = arg1;
             var4 = var2.bitRate;
             var2 = null;
             var5 = var4;
-            if(!(var2 !== var1)) { _fun0007_ip = 173; continue _fun0007 }
- 24:
+            if(!(var2 !== var1)) { _fun0007_ip = 8; continue _fun0007 }
+case 52:
             var6 = var1.thermalState;
             var7 = _closure1_slot0;
             var2 = _closure1_slot1;
@@ -599,8 +599,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.ThermalState;
             var2 = var2.SERIOUS;
             var2 = var6 !== var2;
-            if(!var2) { _fun0007_ip = 113; continue _fun0007 }
- 74:
+            if(!var2) { _fun0007_ip = 53; continue _fun0007 }
+case 54:
             var6 = var1.thermalState;
             var7 = _closure1_slot0;
             var3 = _closure1_slot1;
@@ -609,23 +609,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.ThermalState;
             var3 = var3.CRITICAL;
             var2 = var6 !== var3;
- 113:
+case 53:
             var3 = var4;
-            if(var2) { _fun0007_ip = 133; continue _fun0007 }
- 119:
+            if(var2) { _fun0007_ip = 4; continue _fun0007 }
+case 55:
             var2 = 0.8;
             var3 = var4 * var2;
- 133:
+case 4:
             var4 = var1.batteryLevel;
             var2 = 0.3;
             var1 = var3;
-            if(!(var4 < var2)) { _fun0007_ip = 170; continue _fun0007 }
- 156:
+            if(!(var4 < var2)) { _fun0007_ip = 11; continue _fun0007 }
+case 56:
             var2 = 0.9;
             var1 = var3 * var2;
- 170:
+case 11:
             var5 = var1;
- 173:
+case 8:
             var1 = global;
             var4 = var1.Math;
             var3 = var4.max;
@@ -644,32 +644,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['calculateOptimalBitrate'] = var4;
     var2 = function shouldUseHEVC(arg1, arg2, arg3, arg4, arg5) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
- 0:
+case 0:
             var2 = arg4;
             var1 = arg2;
             var3 = !var1;
-            if(var3) { _fun0008_ip = 18; continue _fun0008 }
- 12:
+            if(var3) { _fun0008_ip = 21; continue _fun0008 }
+case 18:
             var1 = arg3;
             var3 = !var1;
- 18:
+case 21:
             var1 = !var3;
-            if(var3) { _fun0008_ip = 54; continue _fun0008 }
- 24:
-            if(!var2) { _fun0008_ip = 42; continue _fun0008 }
- 27:
+            if(var3) { _fun0008_ip = 13; continue _fun0008 }
+case 52:
+            if(!var2) { _fun0008_ip = 57; continue _fun0008 }
+case 58:
             var3 = arg1;
             var4 = var3.rotationDegrees;
             var3 = 0;
             var2 = var3 !== var4;
- 42:
-            if(!var2) { _fun0008_ip = 51; continue _fun0008 }
- 45:
+case 57:
+            if(!var2) { _fun0008_ip = 59; continue _fun0008 }
+case 60:
             var3 = arg5;
             var2 = !var3;
- 51:
+case 59:
             var1 = !var2;
- 54:
+case 13:
             return var1;
         }
     };

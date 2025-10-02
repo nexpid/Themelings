@@ -56,7 +56,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function ChannelUnreadBadge(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = var1.unread;
             var14 = var1.resolvedUnreadSetting;
@@ -66,10 +66,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var1.launchpad;
             var15 = var1.panelVariant;
             var5 = undefined;
-            if(!(var15 === var5)) { _fun0001_ip = 53; continue _fun0001 }
- 51:
+            if(!(var15 === var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var15 = false;
- 53:
+case 2:
             var1 = _closure1_slot7;
             var13 = var1.bind(var5)();
             var3 = _closure1_slot0;
@@ -85,8 +85,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var3.useFontScale;
             var16 = var1.bind(var3)();
             var1 = null;
-            if(!var2) { _fun0001_ip = 366; continue _fun0001 }
- 126:
+            if(!var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var4 = _closure1_slot6;
             var3 = _closure1_slot3;
             var2 = {};
@@ -94,19 +94,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = new Array(4);
             var6[0] = var10;
             var10 = undefined;
-            if(!var15) { _fun0001_ip = 161; continue _fun0001 }
- 155:
+            if(!var15) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var10 = var13.unreadBadgePanel;
- 161:
+case 6:
             var6[1] = var10;
             var10 = var7.unreadBadge;
-            if(var9) { _fun0001_ip = 181; continue _fun0001 }
- 174:
+            if(var9) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var9 = var10.position;
-            _fun0001_ip = 187; continue _fun0001;
- 181:
+            _fun0001_ip = 10; continue _fun0001;
+case 8:
             var9 = var10.positionThread;
- 187:
+case 10:
             var6[2] = var9;
             var10 = _closure1_slot0;
             var13 = _closure1_slot2;
@@ -138,12 +138,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = {};
             var13 = _closure1_slot5;
             var13 = var13.ALL_MESSAGES;
-            if(!(var14 === var13)) { _fun0001_ip = 329; continue _fun0001 }
- 326:
-            if(!var12) { _fun0001_ip = 333; continue _fun0001 }
- 329:
+            if(!(var14 === var13)) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
+            if(!var12) { _fun0001_ip = 13; continue _fun0001 }
+case 11:
             var9 = _closure1_slot4;
- 333:
+case 13:
             var10['opacity'] = var9;
             var9 = new Array(1);
             var9[0] = var10;
@@ -151,7 +151,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var8.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 366:
+case 4:
             return var1;
         }
     };

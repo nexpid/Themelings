@@ -38,7 +38,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = {};
     var7 = function getActiveErrors() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = _closure1_slot4;
             var1 = var2.getRTCConnection;
             var3 = var1.bind(var2)();
@@ -46,20 +46,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var7 == var3;
             var1 = undefined;
             var4 = undefined;
-            if(var2) { _fun0001_ip = 40; continue _fun0001 }
- 30:
+            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var3.getDurationSeconds;
             var4 = var2.bind(var3)();
- 40:
+case 2:
             var5 = var7 != var4;
             var3 = 0;
-            if(!var5) { _fun0001_ip = 52; continue _fun0001 }
- 49:
+            if(!var5) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = var4;
- 52:
+case 4:
             var4 = 30;
-            if(!(!(var3 < var4))) { _fun0001_ip = 346; continue _fun0001 }
- 62:
+            if(!(!(var3 < var4))) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var3 = global;
             var8 = var3.performance;
             var5 = var8.now;
@@ -69,8 +69,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.bind(var9)();
             var8 = var8 - var5;
             var5 = _closure1_slot5;
-            if(!(!(var8 < var5))) { _fun0001_ip = 346; continue _fun0001 }
- 110:
+            if(!(!(var8 < var5))) { _fun0001_ip = 6; continue _fun0001 }
+case 8:
             var9 = _closure1_slot2;
             var8 = var9.getConnectionStats;
             var10 = _closure1_slot4;
@@ -78,16 +78,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var5.bind(var10)();
             var10 = var7 == var11;
             var5 = undefined;
-            if(var10) { _fun0001_ip = 153; continue _fun0001 }
- 143:
+            if(var10) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var10 = var11.getMediaEngineConnectionId;
             var5 = var10.bind(var11)();
- 153:
+case 9:
             var8 = var8.bind(var9)(var5);
             var9 = var7 == var8;
             var5 = undefined;
-            if(var9) { _fun0001_ip = 220; continue _fun0001 }
- 167:
+            if(var9) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var8 = var8.stats;
             var8 = var8.rtp;
             var10 = var8.outbound;
@@ -102,24 +102,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var9.bind(var10)(var8);
             var9 = var7 == var8;
             var5 = undefined;
-            if(var9) { _fun0001_ip = 220; continue _fun0001 }
- 214:
+            if(var9) { _fun0001_ip = 11; continue _fun0001 }
+case 13:
             var5 = var8.sampleRateMismatchPercent;
- 220:
+case 11:
             var7 = var7 != var5;
             var2 = 0;
-            if(!var7) { _fun0001_ip = 232; continue _fun0001 }
- 229:
+            if(!var7) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var2 = var5;
- 232:
+case 14:
             var5 = var3.Math;
             var3 = var5.abs;
             var3 = var3.bind(var5)(var2);
             var4 = var3 > var4;
             var3 = var2;
             var2 = undefined;
-            if(!var4) { _fun0001_ip = 344; continue _fun0001 }
- 261:
+            if(!var4) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var4 = {};
             var5 = _closure1_slot0;
             var6 = _closure1_slot1;
@@ -140,9 +140,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = new Array(1);
             var3[0] = var4;
             var2 = var3;
- 344:
+case 16:
             return var2;
- 346:
+case 6:
             return var1;
         }
     };

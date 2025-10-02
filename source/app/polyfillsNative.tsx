@@ -1,7 +1,7 @@
 // app/polyfillsNative.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
         var8 = global;
         var3 = require;
         var4 = dependencyMap;
@@ -22,57 +22,57 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var5.process;
         var7 = 'undefined';
         var6 = typeof var6;
-        if(!(var7 === var6)) { _fun0001_ip = 93; continue _fun0001 }
- 79:
+        if(!(var7 === var6)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
         var7 = var5.window;
         var6 = {};
         var7['process'] = var6;
- 93:
+case 2:
         var6 = var5.window;
         var7 = var6.process;
         var6 = var5.setImmediate;
         var7['nextTick'] = var6;
         var7 = var8.location;
         var6 = null;
-        if(!(var6 == var7)) { _fun0001_ip = 148; continue _fun0001 }
- 128:
+        if(!(var6 == var7)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
         var7 = {'protocol': 'https:', 'host': 'discord.com'};
         var8['location'] = var7;
- 148:
+case 4:
         var7 = var8.self;
-        if(var7) { _fun0001_ip = 163; continue _fun0001 }
- 157:
+        if(var7) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
         var8['self'] = var8;
- 163:
+case 6:
         var7 = var5.window;
         var7 = var7.crypto;
-        if(!(var6 == var7)) { _fun0001_ip = 209; continue _fun0001 }
- 179:
+        if(!(var6 == var7)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
         var7 = 4;
         var7 = var4[var7];
         var7 = var3.bind(var1)(var7);
         var9 = var5.window;
         var7 = var8.crypto;
         var9['crypto'] = var7;
- 209:
+case 8:
         var7 = var8.Buffer;
-        if(!(var6 == var7)) { _fun0001_ip = 243; continue _fun0001 }
- 219:
+        if(!(var6 == var7)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
         var7 = 5;
         var7 = var4[var7];
         var7 = var3.bind(var1)(var7);
         var7 = var7.Buffer;
         var8['Buffer'] = var7;
- 243:
+case 10:
         var7 = var8.__reanimatedWorkletInit;
-        if(!(var6 == var7)) { _fun0001_ip = 266; continue _fun0001 }
- 253:
+        if(!(var6 == var7)) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
         var7 = function() {
             var1 = undefined;
             return var1;
         };
         var8['__reanimatedWorkletInit'] = var7;
- 266:
+case 12:
         var7 = var5.Set;
         var7 = var7.prototype;
         var8 = var5.Map;
@@ -90,18 +90,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var5.window;
         var2 = var2.TextEncoder;
         var2 = var6 != var2;
-        if(!var2) { _fun0001_ip = 342; continue _fun0001 }
- 326:
+        if(!var2) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
         var5 = var5.window;
         var5 = var5.TextDecoder;
         var2 = var6 != var5;
- 342:
-        if(var2) { _fun0001_ip = 357; continue _fun0001 }
- 345:
+case 14:
+        if(var2) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
         var2 = 6;
         var2 = var4[var2];
         var2 = var3.bind(var1)(var2);
- 357:
+case 16:
         var2 = 7;
         var2 = var4[var2];
         var4 = var3.bind(var1)(var2);

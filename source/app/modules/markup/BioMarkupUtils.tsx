@@ -8,14 +8,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var8;
     var5 = function getOrParseBioAST(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arg1;
             var2 = _closure1_slot3;
             var1 = var2.get;
             var1 = var1.bind(var2)(var5);
             var2 = null;
-            if(!(var2 == var1)) { _fun0001_ip = 58; continue _fun0001 }
- 26:
+            if(!(var2 == var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = _closure1_slot4;
             var4 = undefined;
             var2 = true;
@@ -24,7 +24,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.set;
             var3 = var3.bind(var4)(var5, var2);
             var1 = var2;
- 58:
+case 2:
             return var1;
         }
     };
@@ -114,14 +114,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['getOrParseBioAST'] = var5;
     var4 = function parseBioReactWithCachedAST(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var4 = arg1;
             var1 = var4.trim;
             var1 = var1.bind(var4)();
             var2 = var1.length;
             var1 = 0;
-            if(!(var1 !== var2)) { _fun0002_ip = 105; continue _fun0002 }
- 24:
+            if(!(var1 !== var2)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var2 = _closure1_slot5;
             var3 = undefined;
             var2 = var2.bind(var3)(var4);
@@ -140,7 +140,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var4.bind(var5)(var1);
             var1 = var1.bind(var3)(var2);
             return var1;
- 105:
+case 4:
             var1 = null;
             return var1;
         }

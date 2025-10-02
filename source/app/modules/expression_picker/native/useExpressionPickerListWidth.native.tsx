@@ -33,7 +33,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useExpressionPickerListWidth(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var4 = 2;
@@ -55,18 +55,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var3 - var1;
             var3 = arg1;
             var1 = var5;
-            if(!var3) { _fun0001_ip = 121; continue _fun0001 }
- 89:
+            if(!var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = arg2;
             var1 = var5;
-            if(var3) { _fun0001_ip = 121; continue _fun0001 }
- 98:
+            if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var3 = global;
             var4 = var3.Math;
             var3 = var4.min;
             var2 = _closure1_slot3;
             var1 = var3.bind(var4)(var5, var2);
- 121:
+case 2:
             return var1;
         }
     };

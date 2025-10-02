@@ -9,17 +9,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function ForYouShowAllRow(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var23 = var1.children;
             var30 = var1.count;
             var9 = var1.onPress;
             var5 = var1.panelVariant;
             var8 = undefined;
-            if(!(var5 === var8)) { _fun0001_ip = 33; continue _fun0001 }
- 31:
+            if(!(var5 === var8)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = false;
- 33:
+case 2:
             var25 = _closure1_slot0;
             var27 = _closure1_slot2;
             var24 = 6;
@@ -91,13 +91,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var25 = var28[var25];
             var25 = var27.bind(var8)(var25);
             var25 = var25.AvatarSizes;
-            if(var24) { _fun0001_ip = 355; continue _fun0001 }
- 347:
+            if(var24) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var24 = var25.SMALL;
-            _fun0001_ip = 361; continue _fun0001;
- 355:
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
             var24 = var25.XSMALL_20;
- 361:
+case 6:
             var19['size'] = var24;
             var24 = '';
             var19['aria-label'] = var24;
@@ -226,7 +226,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var8.createStyles;
     var4 = function(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
             var1 = 6;
@@ -273,10 +273,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var10.isAndroid;
             var10 = var4.bind(var10)();
             var4 = 0;
-            if(!var10) { _fun0002_ip = 212; continue _fun0002 }
- 209:
+            if(!var10) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
             var4 = var9;
- 212:
+case 7:
             var2['marginBottom'] = var4;
             var1['nameText'] = var2;
             var2 = {'position': 'relative', 'borderRadius': null, 'justifyContent': 'center', 'alignItems': 'center', 'flexShrink': 0, 'flexGrow': 0};
@@ -325,16 +325,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function ForYouSuggestedFriendShowAllRow(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var1 = arg1;
             var7 = var1.suggestedFriends;
             var _closure2_slot0 = var7;
             var5 = var1.panelVariant;
             var4 = undefined;
-            if(!(var5 === var4)) { _fun0003_ip = 29; continue _fun0003 }
- 27:
+            if(!(var5 === var4)) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
             var5 = false;
- 29:
+case 9:
             var _closure2_slot1 = var4;
             var _closure2_slot2 = var4;
             var8 = _closure1_slot0;
@@ -405,7 +405,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var3.map;
                 var1 = function(arg1) {
                     _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                         var1 = arg1;
                         var5 = _closure1_slot7;
                         var3 = _closure1_slot1;
@@ -430,13 +430,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var7 = var7[var9];
                         var7 = var8.bind(var4)(var7);
                         var7 = var7.AvatarSizes;
-                        if(var6) { _fun0004_ip = 115; continue _fun0004 }
- 107:
+                        if(var6) { _fun0004_ip = 11; continue _fun0004 }
+case 12:
                         var6 = var7.SMALL;
-                        _fun0004_ip = 121; continue _fun0004;
- 115:
+                        _fun0004_ip = 13; continue _fun0004;
+case 11:
                         var6 = var7.XSMALL_20;
- 121:
+case 13:
                         var2['size'] = var6;
                         var1 = var1.user;
                         var1 = var1.id;

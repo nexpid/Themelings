@@ -73,7 +73,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var5.bind(var4)(var3);
         var3 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var4 = _closure1_slot0;
                 var5 = _closure1_slot2;
                 var1 = 7;
@@ -99,24 +99,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = null;
                 var9 = var6 != var7;
                 var8 = null;
-                if(!var9) { _fun0001_ip = 118; continue _fun0001 }
- 113:
+                if(!var9) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var8 = var7.id;
- 118:
+case 2:
                 var2['application_id'] = var8;
                 var9 = var6 != var7;
                 var8 = null;
-                if(!var9) { _fun0001_ip = 137; continue _fun0001 }
- 132:
+                if(!var9) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var8 = var7.name;
- 137:
+case 4:
                 var2['application_name'] = var8;
                 var8 = var6 != var7;
                 var6 = null;
-                if(!var8) { _fun0001_ip = 156; continue _fun0001 }
- 151:
+                if(!var8) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                 var6 = var7.id;
- 156:
+case 6:
                 var2['game_id'] = var6;
                 var2 = var4.bind(var5)(var3, var2);
                 return var1;

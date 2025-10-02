@@ -20,42 +20,42 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function getEmbeddedActivityLocationChannelId(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = null;
-            if(!(var1 == var2)) { _fun0001_ip = 13; continue _fun0001 }
- 9:
+            if(!(var1 == var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = undefined;
             return var1;
- 13:
+case 2:
             var1 = 'channel_id';
             var3 = var1 in var2;
             var1 = undefined;
-            if(!var3) { _fun0001_ip = 31; continue _fun0001 }
- 26:
+            if(!var3) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = var2.channel_id;
- 31:
+case 4:
             return var1;
         }
     };
     var3['getEmbeddedActivityLocationChannelId'] = var4;
     var2 = function getEmbeddedActivityLocationGuildId(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = null;
-            if(!(var1 == var2)) { _fun0002_ip = 13; continue _fun0002 }
- 9:
+            if(!(var1 == var2)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
             var1 = undefined;
             return var1;
- 13:
+case 2:
             var1 = 'guild_id';
             var3 = var1 in var2;
             var1 = undefined;
-            if(!var3) { _fun0002_ip = 31; continue _fun0002 }
- 26:
+            if(!var3) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var1 = var2.guild_id;
- 31:
+case 4:
             return var1;
         }
     };

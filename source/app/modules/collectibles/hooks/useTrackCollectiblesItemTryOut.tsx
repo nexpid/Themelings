@@ -69,7 +69,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[1] = var5;
         var1 = function(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var14 = var1.type;
                 var3 = var1.skuId;
@@ -128,21 +128,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = var10.isPremiumCollectiblesProduct;
                 var7 = var7.bind(var10)(var8);
                 var9 = _closure1_slot7;
-                if(var7) { _fun0001_ip = 240; continue _fun0001 }
- 232:
+                if(var7) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var7 = var9.PREMIUM_STANDARD;
-                _fun0001_ip = 246; continue _fun0001;
- 240:
+                _fun0001_ip = 4; continue _fun0001;
+case 2:
                 var7 = var9.FREE;
- 246:
+case 4:
                 var2['feature_tier'] = var7;
                 var7 = null;
                 var9 = var7 == var8;
                 var7 = undefined;
-                if(var9) { _fun0001_ip = 267; continue _fun0001 }
- 262:
+                if(var9) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
                 var7 = var8.name;
- 267:
+case 5:
                 var2['feature_selection'] = var7;
                 var6 = _closure2_slot0;
                 var2['location_stack'] = var6;

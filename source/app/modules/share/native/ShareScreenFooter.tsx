@@ -33,7 +33,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function ShareScreenFooter(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var16 = var1.text;
             var15 = var1.setText;
@@ -44,10 +44,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var1.onSend;
             var9 = var1.disabled;
             var4 = undefined;
-            if(!(var9 === var4)) { _fun0001_ip = 57; continue _fun0001 }
- 55:
+            if(!(var9 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var9 = false;
- 57:
+case 2:
             var8 = _closure1_slot0;
             var22 = _closure1_slot2;
             var18 = 2;
@@ -75,16 +75,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = {'variant': 'primary', 'size': 'md'};
             var7['text'] = var21;
             var20 = !var20;
-            if(var20) { _fun0001_ip = 199; continue _fun0001 }
- 196:
+            if(var20) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var20 = var9;
- 199:
+case 4:
             var7['disabled'] = var20;
             var20 = undefined;
-            if(var19) { _fun0001_ip = 211; continue _fun0001 }
- 208:
+            if(var19) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var20 = var10;
- 211:
+case 6:
             var7['onPress'] = var20;
             var7['loading'] = var19;
             var7 = var3.bind(var4)(var8, var7);

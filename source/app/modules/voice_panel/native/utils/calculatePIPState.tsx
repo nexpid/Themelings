@@ -41,29 +41,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function calculatePIPState(arg1, arg2, arg3, arg4, arg5) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var6 = arg1;
             var14 = arg2;
             var1 = arg5;
             var2 = var1.focusedId;
             var10 = null;
             var8 = var10 != var2;
-            if(!var8) { _fun0001_ip = 77; continue _fun0001 }
- 24:
+            if(!var8) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = _closure1_slot2;
             var4 = var5.getParticipant;
             var3 = var1.focusedId;
             var4 = var4.bind(var5)(var6, var3);
             var5 = var10 == var4;
             var3 = undefined;
-            if(var5) { _fun0001_ip = 63; continue _fun0001 }
- 58:
+            if(var5) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = var4.type;
- 63:
+case 4:
             var2 = _closure1_slot5;
             var2 = var2.ACTIVITY;
             var8 = var3 === var2;
- 77:
+case 2:
             var2 = global;
             var2 = var2.Set;
             var3 = var2.prototype;
@@ -74,8 +74,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = _closure1_slot3;
             var2 = var3.getCurrentUserActiveStream;
             var7 = var2.bind(var3)();
-            if(!(var10 != var7)) { _fun0001_ip = 169; continue _fun0001 }
- 126:
+            if(!(var10 != var7)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var3 = var5.add;
             var11 = _closure1_slot0;
             var4 = _closure1_slot1;
@@ -86,23 +86,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4.encodeStreamKey;
             var2 = var2.bind(var4)(var7);
             var2 = var3.bind(var5)(var2);
- 169:
+case 6:
             var3 = var1.mode;
             var2 = _closure1_slot4;
             var2 = var2.PANEL;
             var7 = var3 === var2;
             var2 = var1.focusedId;
             var2 = var10 != var2;
-            if(!var2) { _fun0001_ip = 204; continue _fun0001 }
- 201:
+            if(!var2) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var2 = var7;
- 204:
-            if(!var2) { _fun0001_ip = 223; continue _fun0001 }
- 207:
+case 8:
+            if(!var2) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var3 = var5.add;
             var2 = var1.focusedId;
             var2 = var3.bind(var5)(var2);
- 223:
+case 10:
             var3 = _closure1_slot0;
             var2 = _closure1_slot1;
             var12 = 5;
@@ -126,42 +126,42 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var4)(var2);
             var2 = var10 == var3;
             var4 = undefined;
-            if(var2) { _fun0001_ip = 329; continue _fun0001 }
- 324:
+            if(var2) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var4 = var3.type;
- 329:
+case 12:
             var2 = _closure1_slot5;
             var2 = var2.STREAM;
             var6 = var4 !== var2;
-            if(!var6) { _fun0001_ip = 374; continue _fun0001 }
- 346:
+            if(!var6) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var2 = var10 == var3;
             var4 = undefined;
-            if(var2) { _fun0001_ip = 360; continue _fun0001 }
- 355:
+            if(var2) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var4 = var3.type;
- 360:
+case 16:
             var2 = _closure1_slot5;
             var2 = var2.ACTIVITY;
             var6 = var4 !== var2;
- 374:
-            if(!var6) { _fun0001_ip = 417; continue _fun0001 }
- 377:
+case 14:
+            if(!var6) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
             var2 = var1.focusedId;
             var2 = var10 == var2;
-            if(var2) { _fun0001_ip = 414; continue _fun0001 }
- 390:
+            if(var2) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
             var4 = var10 == var3;
             var5 = undefined;
-            if(var4) { _fun0001_ip = 404; continue _fun0001 }
- 399:
+            if(var4) { _fun0001_ip = 22; continue _fun0001 }
+case 23:
             var5 = var3.id;
- 404:
+case 22:
             var4 = var1.focusedId;
             var2 = var5 !== var4;
- 414:
+case 20:
             var6 = var2;
- 417:
+case 18:
             var4 = _closure1_slot0;
             var2 = _closure1_slot1;
             var2 = var2[var12];
@@ -170,23 +170,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var14.getTargetDimensions;
             var15 = var10 == var3;
             var2 = undefined;
-            if(var15) { _fun0001_ip = 460; continue _fun0001 }
- 455:
+            if(var15) { _fun0001_ip = 24; continue _fun0001 }
+case 25:
             var2 = var3.id;
- 460:
+case 24:
             var2 = var13.bind(var14)(var2);
-            if(!(var10 == var2)) { _fun0001_ip = 492; continue _fun0001 }
- 469:
+            if(!(var10 == var2)) { _fun0001_ip = 26; continue _fun0001 }
+case 27:
             var10 = _closure1_slot0;
             var9 = _closure1_slot1;
             var9 = var9[var12];
             var9 = var10.bind(var11)(var9);
             var2 = var9.SquarePIPReferenceDimensions;
- 492:
-            if(!var7) { _fun0001_ip = 498; continue _fun0001 }
- 495:
+case 26:
+            if(!var7) { _fun0001_ip = 28; continue _fun0001 }
+case 29:
             var7 = var8;
- 498:
+case 28:
             var16 = var1.showSecondaryPIP;
             var20 = var5;
             var19 = var2;

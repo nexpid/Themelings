@@ -88,18 +88,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = copyDataProperties(var7, var6);
                     var5 = function onCancel() {
                         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                             var2 = _closure5_slot0;
                             var1 = var2.onClose;
                             var1 = var1.bind(var2)();
                             var3 = _closure2_slot1;
                             var2 = null;
-                            if(!(var2 != var3)) { _fun0001_ip = 40; continue _fun0001 }
- 30:
+                            if(!(var2 != var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                             var2 = _closure2_slot1;
                             var1 = undefined;
                             var1 = var2.bind(var1)();
- 40:
+case 2:
                             var1 = undefined;
                             return var1;
                         }

@@ -33,7 +33,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function BotsBanner(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var7 = var1.context;
             var2 = _closure1_slot0;
@@ -60,12 +60,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = null;
             var2 = var3 == var11;
             var1 = null;
-            if(var2) { _fun0001_ip = 244; continue _fun0001 }
- 114:
+            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var3 == var10;
             var1 = null;
-            if(var2) { _fun0001_ip = 244; continue _fun0001 }
- 123:
+            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var4 = _closure1_slot3;
             var3 = _closure1_slot1;
             var12 = _closure1_slot2;
@@ -92,7 +92,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var8.bind(var9)(var7, var6);
             var2['text'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 244:
+case 2:
             return var1;
         }
     };

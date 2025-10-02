@@ -41,7 +41,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function useMemberActionsForChannel(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var _closure2_slot0 = var2;
             var3 = arg2;
@@ -85,16 +85,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var5 = var7.bind(var8)(var6, var5);
-            if(var3) { _fun0001_ip = 147; continue _fun0001 }
- 143:
+            if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = {};
             return var3;
- 147:
+case 2:
             var6 = null;
             var3 = var6 == var2;
             var7 = undefined;
-            if(var3) { _fun0001_ip = 176; continue _fun0001 }
- 158:
+            if(var3) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = var2.findIndex;
             var1 = function(arg1) {
                 var1 = arg1;
@@ -105,39 +105,39 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var7 = var3.bind(var2)(var1);
- 176:
+case 4:
             var8 = var6 != var7;
             var3 = 0;
             var1 = 0;
-            if(!var8) { _fun0001_ip = 190; continue _fun0001 }
- 187:
+            if(!var8) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var1 = var7;
- 190:
+case 6:
             var7 = var1 >= var3;
             var3 = null;
-            if(!var7) { _fun0001_ip = 212; continue _fun0001 }
- 199:
+            if(!var7) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var7 = var6 != var2;
             var3 = null;
-            if(!var7) { _fun0001_ip = 212; continue _fun0001 }
- 208:
+            if(!var7) { _fun0001_ip = 8; continue _fun0001 }
+case 10:
             var3 = var2[var1];
- 212:
+case 8:
             var1 = {};
             var1['channelAction'] = var3;
             var2 = var6 != var3;
-            if(!var2) { _fun0001_ip = 250; continue _fun0001 }
- 226:
+            if(!var2) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var6 = var6 == var5;
             var4 = undefined;
-            if(var6) { _fun0001_ip = 244; continue _fun0001 }
- 235:
+            if(var6) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var3 = var3.channelId;
             var4 = var5[var3];
- 244:
+case 13:
             var3 = true;
             var2 = var3 === var4;
- 250:
+case 11:
             var1['completed'] = var2;
             return var1;
         }
@@ -145,7 +145,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['useMemberActionsForChannel'] = var4;
     var4 = function useNextMemberAction(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var _closure2_slot0 = var1;
             var1 = arg2;
@@ -185,43 +185,43 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot2 = var3;
             var3 = null;
             var3 = var3 == var4;
-            if(var3) { _fun0002_ip = 141; continue _fun0002 }
- 123:
+            if(var3) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
             var3 = var4.find;
             var2 = function(arg1) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var3 = arg1;
                     var4 = _closure2_slot2;
                     var1 = null;
                     var1 = var1 == var4;
                     var4 = undefined;
-                    if(var1) { _fun0003_ip = 34; continue _fun0003 }
- 21:
+                    if(var1) { _fun0003_ip = 17; continue _fun0003 }
+case 18:
                     var5 = _closure2_slot2;
                     var1 = var3.channelId;
                     var4 = var5[var1];
- 34:
+case 17:
                     var1 = true;
                     var1 = var1 !== var4;
-                    if(!var1) { _fun0003_ip = 56; continue _fun0003 }
- 43:
+                    if(!var1) { _fun0003_ip = 19; continue _fun0003 }
+case 20:
                     var3 = var3.channelId;
                     var2 = _closure2_slot1;
                     var1 = var3 !== var2;
- 56:
+case 19:
                     return var1;
                 }
             };
             var1 = var3.bind(var4)(var2);
- 141:
+case 15:
             return var1;
         }
     };
     var3['useNextMemberAction'] = var4;
     var2 = function useAllActionsCompleted(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var1 = arg1;
             var _closure2_slot0 = var1;
             var3 = _closure1_slot0;
@@ -248,16 +248,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.hasFlag;
             var2 = null;
             var7 = var2 == var6;
-            if(var7) { _fun0004_ip = 96; continue _fun0004 }
- 91:
+            if(var7) { _fun0004_ip = 21; continue _fun0004 }
+case 22:
             var5 = var6.flags;
- 96:
+case 21:
             var6 = var2 != var5;
             var2 = 0;
-            if(!var6) { _fun0004_ip = 108; continue _fun0004 }
- 105:
+            if(!var6) { _fun0004_ip = 23; continue _fun0004 }
+case 24:
             var2 = var5;
- 108:
+case 23:
             var1 = _closure1_slot6;
             var1 = var1.COMPLETED_HOME_ACTIONS;
             var1 = var3.bind(var4)(var2, var1);

@@ -80,10 +80,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['useValue'] = var7;
     var7 = function handleUsageStatisticsChange(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
-            if(var3) { _fun0001_ip = 301; continue _fun0001 }
- 14:
+            if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var8 = _closure1_slot1;
             var9 = _closure1_slot2;
             var3 = 5;
@@ -158,8 +158,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var3['onConfirm'] = var6;
             var3 = var4.bind(var5)(var3);
-            _fun0001_ip = 375; continue _fun0001;
- 301:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var5 = _closure1_slot0;
             var4 = _closure1_slot2;
             var3 = 8;
@@ -188,7 +188,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var1 = var2.bind(var3)(var1);
- 375:
+case 4:
             var1 = undefined;
             return var1;
         }

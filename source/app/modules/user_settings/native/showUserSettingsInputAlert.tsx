@@ -74,7 +74,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var _closure4_slot0 = var2;
                 var1 = function(arg1) {
                     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                         var4 = _closure1_slot3;
                         var3 = _closure4_slot0;
                         var2 = {};
@@ -113,8 +113,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2[var8] = var9;
                         var8 = var7.confirmColor;
                         var7 = null;
-                        if(!(var7 == var8)) { _fun0001_ip = 208; continue _fun0001 }
- 174:
+                        if(!(var7 == var8)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                         var7 = _closure1_slot1;
                         var8 = _closure1_slot2;
                         var6 = 6;
@@ -122,11 +122,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var6 = var7.bind(var1)(var6);
                         var6 = var6.Colors;
                         var7 = var6.RED;
-                        _fun0001_ip = 218; continue _fun0001;
- 208:
+                        _fun0001_ip = 4; continue _fun0001;
+case 2:
                         var6 = _closure2_slot3;
                         var7 = var6.confirmColor;
- 218:
+case 4:
                         var6 = 'confirmColor';
                         var2[var6] = var7;
                         var7 = _closure2_slot0;

@@ -25,12 +25,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = function* (arg1) {
             var1 = function* anon_0_(arg1) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     StartGenerator();
                     var9 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 240; continue _fun0001 }
- 13:
+                    if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
                     var2 = 8;
@@ -40,12 +40,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var4.transitionToGuildSync;
                     var2 = var2.bind(var4)(var9);
                     SaveGenerator(address=53);
- 51:
+case 4:
                     return var2;
- 53:
+case 5:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0001_ip = 237; continue _fun0001 }
- 62:
+                    if(var4) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                     var7 = _closure1_slot0;
                     var6 = _closure1_slot2;
                     var4 = 9;
@@ -85,9 +85,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4['to_step'] = var8;
                     var4 = var6.bind(var7)(var5, var4);
                     return var3;
- 237:
+case 6:
                     return var2;
- 240:
+case 2:
                     return var1;
                 }
             };
@@ -110,42 +110,42 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = function* (arg1, arg2, arg3) {
             var1 = function* anon_0_(arg1, arg2, arg3) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     StartGenerator();
                     var7 = arg1;
                     var4 = arg2;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0002_ip = 96; continue _fun0002 }
- 13:
+                    if(var2) { _fun0002_ip = 8; continue _fun0002 }
+case 3:
                     var2 = arg3;
                     var5 = var2.id;
                     var3 = _closure1_slot10;
                     var3 = var3.CREATE;
-                    if(!(var5 === var3)) { _fun0002_ip = 67; continue _fun0002 }
- 38:
+                    if(!(var5 === var3)) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
                     var6 = var7.push;
                     var3 = _closure1_slot11;
                     var5 = var3.CHANNEL_PROMPT;
                     var3 = {};
                     var3['guildId'] = var4;
                     var3 = var6.bind(var7)(var5, var3);
-                    _fun0002_ip = 88; continue _fun0002;
- 67:
+                    _fun0002_ip = 11; continue _fun0002;
+case 9:
                     var3 = _closure1_slot16;
                     var2 = undefined;
                     var2 = var3.bind(var2)(var4);
                     SaveGenerator(address=82);
- 80:
+case 12:
                     return var2;
- 82:
+case 13:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0002_ip = 93; continue _fun0002 }
- 88:
+                    if(var3) { _fun0002_ip = 14; continue _fun0002 }
+case 11:
                     var3 = undefined;
                     return var3;
- 93:
+case 14:
                     return var2;
- 96:
+case 8:
                     return var1;
                 }
             };

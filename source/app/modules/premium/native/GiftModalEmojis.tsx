@@ -77,16 +77,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function _default(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var5 = var2.emojiName;
             var _closure2_slot0 = var5;
             var2 = var2.randomizeSizing;
             var4 = undefined;
-            if(!(var2 === var4)) { _fun0001_ip = 29; continue _fun0001 }
- 27:
+            if(!(var2 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = false;
- 29:
+case 2:
             var _closure2_slot1 = var2;
             var _closure2_slot2 = var4;
             var3 = _closure1_slot0;
@@ -101,7 +101,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.map;
             var1 = function(arg1, arg2) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var4 = _closure1_slot2;
                     var5 = undefined;
                     var3 = arg1;
@@ -148,8 +148,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8[0] = var10;
                     var10 = {};
                     var12 = _closure2_slot1;
-                    if(!var12) { _fun0002_ip = 240; continue _fun0002 }
- 196:
+                    if(!var12) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var13 = var1.Math;
                     var12 = var13.random;
                     var13 = var12.bind(var13)();
@@ -157,7 +157,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var13 = var12 * var13;
                     var12 = 0.5;
                     var11 = var13 + var12;
- 240:
+case 4:
                     var10['scale'] = var11;
                     var8[1] = var10;
                     var7['transform'] = var8;

@@ -40,7 +40,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var8.createStyles;
     var4 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var1 = {};
             var2 = {};
@@ -50,15 +50,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = copyDataProperties(var11, var10);
             var6 = {};
             var8 = undefined;
-            if(var4) { _fun0001_ip = 43; continue _fun0001 }
- 34:
+            if(var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6['bottom'] = var8;
             var5 = var6;
-            _fun0001_ip = 50; continue _fun0001;
- 43:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var6['top'] = var8;
             var5 = var6;
- 50:
+case 4:
             var11 = var2;
             var10 = var5;
             var5 = copyDataProperties(var11, var10);
@@ -75,20 +75,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var2;
             var6 = copyDataProperties(var11, var10);
             var7 = {};
-            if(var4) { _fun0001_ip = 125; continue _fun0001 }
- 116:
+            if(var4) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var7['bottom'] = var8;
             var6 = var7;
-            _fun0001_ip = 132; continue _fun0001;
- 125:
+            _fun0001_ip = 7; continue _fun0001;
+case 5:
             var7['top'] = var8;
             var6 = var7;
- 132:
+case 7:
             var11 = var2;
             var10 = var6;
             var6 = copyDataProperties(var11, var10);
-            if(var4) { _fun0001_ip = 174; continue _fun0001 }
- 145:
+            if(var4) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var4 = {};
             var7 = {};
             var6 = '180deg';
@@ -96,10 +96,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = new Array(1);
             var6[0] = var7;
             var4['transform'] = var6;
-            _fun0001_ip = 176; continue _fun0001;
- 174:
+            _fun0001_ip = 10; continue _fun0001;
+case 8:
             var4 = {};
- 176:
+case 10:
             var11 = var2;
             var10 = var4;
             var4 = copyDataProperties(var11, var10);
@@ -148,24 +148,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function QuestModalContentCloudBackground(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var2 = arg1;
             var3 = var2.align;
             var1 = 'bottom';
             var4 = undefined;
             var15 = var1;
-            if(!(var4 !== var3)) { _fun0002_ip = 25; continue _fun0002 }
- 22:
+            if(!(var4 !== var3)) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
             var15 = var3;
- 25:
+case 11:
             var6 = var2.style;
             var13 = var2.imgStyle;
             var2 = var2.resizeMode;
             var9 = 'cover';
-            if(!(var4 !== var2)) { _fun0002_ip = 53; continue _fun0002 }
- 50:
+            if(!(var4 !== var2)) { _fun0002_ip = 13; continue _fun0002 }
+case 4:
             var9 = var2;
- 53:
+case 13:
             var2 = _closure1_slot7;
             var1 = var1 === var15;
             var11 = var2.bind(var4)(var1);
@@ -190,15 +190,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5[1] = var6;
             var1['style'] = var5;
             var8 = _closure1_slot5;
-            if(var10) { _fun0002_ip = 185; continue _fun0002 }
- 161:
+            if(var10) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
             var6 = _closure1_slot3;
             var5 = {};
             var7 = var11.solidBackground;
             var5['style'] = var7;
             var6 = var8.bind(var4)(var6, var5);
-            _fun0002_ip = 245; continue _fun0002;
- 185:
+            _fun0002_ip = 16; continue _fun0002;
+case 14:
             var7 = _closure1_slot1;
             var14 = _closure1_slot2;
             var5 = 6;
@@ -206,18 +206,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7.bind(var4)(var5);
             var5 = {};
             var14 = 'top';
-            if(!(var14 !== var15)) { _fun0002_ip = 221; continue _fun0002 }
- 215:
+            if(!(var14 !== var15)) { _fun0002_ip = 17; continue _fun0002 }
+case 18:
             var14 = _closure1_slot9;
-            _fun0002_ip = 225; continue _fun0002;
- 221:
+            _fun0002_ip = 19; continue _fun0002;
+case 17:
             var14 = _closure1_slot8;
- 225:
+case 19:
             var5['colors'] = var14;
             var14 = var11.gradient;
             var5['style'] = var14;
             var6 = var8.bind(var4)(var7, var5);
- 245:
+case 16:
             var5 = new Array(2);
             var5[0] = var6;
             var8 = _closure1_slot5;
@@ -227,28 +227,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var14[var6];
             var7 = var7.bind(var4)(var6);
             var6 = {};
-            if(var10) { _fun0002_ip = 290; continue _fun0002 }
- 282:
+            if(var10) { _fun0002_ip = 20; continue _fun0002 }
+case 21:
             var14 = var11.cloudsImageLight;
-            _fun0002_ip = 296; continue _fun0002;
- 290:
+            _fun0002_ip = 22; continue _fun0002;
+case 20:
             var14 = var11.cloudsImage;
- 296:
+case 22:
             var11 = new Array(2);
             var11[0] = var14;
             var11[1] = var13;
             var6['style'] = var11;
             var11 = _closure1_slot1;
             var13 = _closure1_slot2;
-            if(var10) { _fun0002_ip = 332; continue _fun0002 }
- 323:
+            if(var10) { _fun0002_ip = 23; continue _fun0002 }
+case 24:
             var10 = 9;
             var10 = var13[var10];
-            _fun0002_ip = 339; continue _fun0002;
- 332:
+            _fun0002_ip = 25; continue _fun0002;
+case 23:
             var12 = 8;
             var10 = var13[var12];
- 339:
+case 25:
             var10 = var11.bind(var4)(var10);
             var6['source'] = var10;
             var6['resizeMode'] = var9;

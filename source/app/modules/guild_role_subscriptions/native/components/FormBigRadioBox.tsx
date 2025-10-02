@@ -97,7 +97,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function FormBigRadioBox(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var9 = var2.description;
             var17 = var2.icon;
@@ -108,10 +108,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var2.onPress;
             var8 = var2.disabled;
             var4 = undefined;
-            if(!(var8 === var4)) { _fun0001_ip = 53; continue _fun0001 }
- 51:
+            if(!(var8 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var8 = false;
- 53:
+case 2:
             var _closure2_slot1 = var8;
             var2 = _closure1_slot7;
             var14 = var2.bind(var4)();
@@ -140,16 +140,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = new Array(4);
             var11[0] = var15;
             var15 = var10;
-            if(!var10) { _fun0001_ip = 153; continue _fun0001 }
- 147:
+            if(!var10) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var15 = var14.containerSelected;
- 153:
+case 4:
             var11[1] = var15;
             var15 = var8;
-            if(!var15) { _fun0001_ip = 168; continue _fun0001 }
- 163:
+            if(!var15) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var15 = var14.disabled;
- 168:
+case 6:
             var11[2] = var15;
             var11[3] = var12;
             var1['style'] = var11;
@@ -157,10 +157,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['accessibilityRole'] = var11;
             var1['accessibilityState'] = var5;
             var5 = undefined;
-            if(var8) { _fun0001_ip = 201; continue _fun0001 }
- 198:
+            if(var8) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var5 = var7;
- 201:
+case 8:
             var1['onPress'] = var5;
             var12 = _closure1_slot5;
             var7 = _closure1_slot0;
@@ -181,10 +181,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var14.iconContainer;
             var8 = new Array(2);
             var8[0] = var15;
-            if(!var10) { _fun0001_ip = 295; continue _fun0001 }
- 289:
+            if(!var10) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var10 = var14.iconContainerSelected;
- 295:
+case 10:
             var8[1] = var10;
             var7['style'] = var8;
             var8 = _closure1_slot5;

@@ -318,22 +318,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['EnteringAnimation'] = var3;
         var2 = function registerAnimationCompleteCallback(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var2 = arg1;
                 var4 = _closure2_slot0;
                 var3 = var4.get;
                 var3 = var3.bind(var4)();
-                if(var3) { _fun0001_ip = 43; continue _fun0001 }
- 22:
+                if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var1 = _closure2_slot1;
                 var3 = var1.current;
                 var1 = var3.push;
                 var1 = var1.bind(var3)(var2);
-                _fun0001_ip = 49; continue _fun0001;
- 43:
+                _fun0001_ip = 4; continue _fun0001;
+case 2:
                 var1 = undefined;
                 var1 = var2.bind(var1)();
- 49:
+case 4:
                 var1 = undefined;
                 return var1;
             }

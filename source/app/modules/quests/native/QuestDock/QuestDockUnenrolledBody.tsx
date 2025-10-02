@@ -103,7 +103,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function QuestDockUnenrolledBody() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = _closure1_slot4;
             var3 = var5.useContext;
             var8 = _closure1_slot1;
@@ -179,11 +179,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = function* () {
                 var1 = function* anon_0_() {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0002_ip = 258; continue _fun0002 }
- 10:
+                        if(var2) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                         var11 = _closure1_slot0;
                         var9 = _closure1_slot2;
                         var2 = 15;
@@ -213,15 +213,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2['sourceQuestContent'] = var9;
                         var2 = var7.bind(var8)(var6, var2);
                         SaveGenerator(address=149);
- 147:
+case 4:
                         return var2;
- 149:
+case 5:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                        if(var6) { _fun0002_ip = 255; continue _fun0002 }
- 155:
+                        if(var6) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                         var6 = _closure2_slot1;
-                        if(!var6) { _fun0002_ip = 252; continue _fun0002 }
- 162:
+                        if(!var6) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                         var7 = _closure1_slot1;
                         var8 = _closure1_slot2;
                         var6 = 18;
@@ -242,11 +242,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var4 = _closure1_slot8;
                         var4 = var4.COLLAPSED;
                         var4 = var5.bind(var3)(var4);
- 252:
+case 8:
                         return var3;
- 255:
+case 6:
                         return var2;
- 258:
+case 2:
                         return var1;
                     }
                 };
@@ -283,19 +283,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var8.bind(var4)(var7);
             var7 = {'paused': null, 'height': 80, 'width': 80};
             var12 = !var13;
-            if(var12) { _fun0001_ip = 421; continue _fun0001 }
- 418:
+            if(var12) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var12 = !var14;
- 421:
+case 10:
             var7['paused'] = var12;
             var7['quest'] = var17;
             var12 = var20.questDockRewardTile;
             var7['style'] = var12;
             var12 = var13;
-            if(!var12) { _fun0001_ip = 451; continue _fun0001 }
- 448:
+            if(!var12) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var12 = var14;
- 451:
+case 12:
             var7['withAnimation'] = var12;
             var7 = var11.bind(var4)(var8, var7);
             var11 = new Array(2);

@@ -177,13 +177,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['fetchForChannel'] = var7;
     var7 = function create(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var6 = arg3;
             var2 = arg1;
             var _closure2_slot0 = var2;
             var2 = null;
-            if(!(var2 == var6)) { _fun0001_ip = 77; continue _fun0001 }
- 18:
+            if(!(var2 == var6)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = _closure1_slot4;
             var5 = _closure1_slot1;
             var4 = _closure1_slot2;
@@ -198,7 +198,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = 0;
             var2 = var5.bind(var7)(var2, var4);
             var6 = var3[var2];
- 77:
+case 2:
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
             var2 = 2;

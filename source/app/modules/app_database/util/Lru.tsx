@@ -175,7 +175,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var6 = function value(arg1, arg2) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var5 = arg1;
                 var1 = this;
                 var3 = var1.items;
@@ -188,11 +188,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var1.items;
                 var3 = var2.size;
                 var2 = var1.limit;
-                if(!(!(var3 > var2))) { _fun0001_ip = 66; continue _fun0001 }
- 62:
+                if(!(!(var3 > var2))) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var2 = undefined;
                 return var2;
- 66:
+case 2:
                 var2 = var1.oldestKey;
                 var3 = var2.bind(var1)();
                 var4 = var1.items;

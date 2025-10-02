@@ -33,55 +33,55 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot6 = var2;
     var2 = function listItemToType(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var1 = var4.data;
             var6 = var1.kind;
             var1 = 'end';
-            if(!(var1 !== var6)) { _fun0001_ip = 274; continue _fun0001 }
- 24:
+            if(!(var1 !== var6)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = 'loading';
-            if(!(var2 !== var6)) { _fun0001_ip = 272; continue _fun0001 }
- 35:
+            if(!(var2 !== var6)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = 'message';
-            if(!(var3 !== var6)) { _fun0001_ip = 243; continue _fun0001 }
- 46:
+            if(!(var3 !== var6)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var5 = 'channelSummary';
-            if(!(var5 !== var6)) { _fun0001_ip = 237; continue _fun0001 }
- 59:
+            if(!(var5 !== var6)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var5 = 'guildEvent';
-            if(!(var5 !== var6)) { _fun0001_ip = 229; continue _fun0001 }
- 70:
+            if(!(var5 !== var6)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var5 = 'contentInventory';
-            if(!(var5 !== var6)) { _fun0001_ip = 158; continue _fun0001 }
- 80:
+            if(!(var5 !== var6)) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var5 = 'recommendedGuilds';
-            if(!(var5 !== var6)) { _fun0001_ip = 150; continue _fun0001 }
- 90:
+            if(!(var5 !== var6)) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var5 = 'forumThread';
-            if(!(var5 !== var6)) { _fun0001_ip = 142; continue _fun0001 }
- 100:
+            if(!(var5 !== var6)) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var5 = 'generatedCandidate';
-            if(!(var5 !== var6)) { _fun0001_ip = 134; continue _fun0001 }
- 110:
+            if(!(var5 !== var6)) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
             var5 = 'icymiHeader';
-            if(!(var5 !== var6)) { _fun0001_ip = 126; continue _fun0001 }
- 120:
+            if(!(var5 !== var6)) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
             var5 = 'unknown';
             return var5;
- 126:
+case 20:
             var5 = 'icymi_header';
             return var5;
- 134:
+case 18:
             var5 = 'generated_candidate';
             return var5;
- 142:
+case 16:
             var5 = 'forum_thread';
             return var5;
- 150:
+case 14:
             var5 = 'recommended_guilds';
             return var5;
- 158:
+case 12:
             var5 = var4.data;
             var5 = var5.content;
             var7 = var5.content_type;
@@ -94,36 +94,36 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.ContentInventoryEntryType;
             var6 = var5.CUSTOM_STATUS;
             var5 = 'hotwheels_gaming_activity';
-            if(!(var7 === var6)) { _fun0001_ip = 227; continue _fun0001 }
- 221:
+            if(!(var7 === var6)) { _fun0001_ip = 22; continue _fun0001 }
+case 23:
             var5 = 'hotwheels_custom_status';
- 227:
+case 22:
             return var5;
- 229:
+case 10:
             var5 = 'guild_event';
             return var5;
- 237:
+case 8:
             var5 = 'summary';
             return var5;
- 243:
+case 6:
             var5 = var4.channelType;
             var4 = _closure1_slot5;
             var4 = var4.GUILD_ANNOUNCEMENT;
-            if(!(var5 === var4)) { _fun0001_ip = 270; continue _fun0001 }
- 266:
+            if(!(var5 === var4)) { _fun0001_ip = 24; continue _fun0001 }
+case 25:
             var3 = 'announcement';
- 270:
+case 24:
             return var3;
- 272:
+case 4:
             return var2;
- 274:
+case 2:
             return var1;
         }
     };
     var _closure1_slot7 = var2;
     var2 = function dehydratedItemToType(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var2 = arg1;
             var5 = var2.type;
             var6 = _closure1_slot0;
@@ -134,85 +134,85 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var6.bind(var3)(var4);
             var4 = var4.ICYMIItemTypes;
             var4 = var4.MESSAGE;
-            if(!(var4 !== var5)) { _fun0002_ip = 307; continue _fun0002 }
- 52:
+            if(!(var4 !== var5)) { _fun0002_ip = 26; continue _fun0002 }
+case 27:
             var6 = _closure1_slot0;
             var4 = _closure1_slot2;
             var4 = var4[var7];
             var4 = var6.bind(var3)(var4);
             var4 = var4.ICYMIItemTypes;
             var4 = var4.SUMMARY;
-            if(!(var4 !== var5)) { _fun0002_ip = 301; continue _fun0002 }
- 88:
+            if(!(var4 !== var5)) { _fun0002_ip = 28; continue _fun0002 }
+case 29:
             var6 = _closure1_slot0;
             var4 = _closure1_slot2;
             var4 = var4[var7];
             var4 = var6.bind(var3)(var4);
             var4 = var4.ICYMIItemTypes;
             var4 = var4.ACTIVITY;
-            if(!(var4 !== var5)) { _fun0002_ip = 293; continue _fun0002 }
- 124:
+            if(!(var4 !== var5)) { _fun0002_ip = 30; continue _fun0002 }
+case 31:
             var6 = _closure1_slot0;
             var4 = _closure1_slot2;
             var4 = var4[var7];
             var4 = var6.bind(var3)(var4);
             var4 = var4.ICYMIItemTypes;
             var4 = var4.CUSTOM_STATUS;
-            if(!(var4 !== var5)) { _fun0002_ip = 285; continue _fun0002 }
- 160:
+            if(!(var4 !== var5)) { _fun0002_ip = 32; continue _fun0002 }
+case 33:
             var6 = _closure1_slot0;
             var4 = _closure1_slot2;
             var4 = var4[var7];
             var4 = var6.bind(var3)(var4);
             var4 = var4.ICYMIItemTypes;
             var4 = var4.GUILD_EVENT;
-            if(!(var4 !== var5)) { _fun0002_ip = 277; continue _fun0002 }
- 193:
+            if(!(var4 !== var5)) { _fun0002_ip = 34; continue _fun0002 }
+case 35:
             var6 = _closure1_slot0;
             var4 = _closure1_slot2;
             var4 = var4[var7];
             var4 = var6.bind(var3)(var4);
             var4 = var4.ICYMIItemTypes;
             var4 = var4.RECOMMENDED_GUILDS;
-            if(!(var4 !== var5)) { _fun0002_ip = 269; continue _fun0002 }
- 226:
+            if(!(var4 !== var5)) { _fun0002_ip = 36; continue _fun0002 }
+case 37:
             var6 = _closure1_slot0;
             var4 = _closure1_slot2;
             var4 = var4[var7];
             var4 = var6.bind(var3)(var4);
             var4 = var4.ICYMIItemTypes;
             var4 = var4.GENERATED_CANDIDATE;
-            if(!(var4 !== var5)) { _fun0002_ip = 261; continue _fun0002 }
- 259:
+            if(!(var4 !== var5)) { _fun0002_ip = 38; continue _fun0002 }
+case 39:
             return var3;
- 261:
+case 38:
             var3 = 'generated_candidate';
             return var3;
- 269:
+case 36:
             var3 = 'recommended_guilds';
             return var3;
- 277:
+case 34:
             var3 = 'guild_event';
             return var3;
- 285:
+case 32:
             var3 = 'hotwheels_custom_status';
             return var3;
- 293:
+case 30:
             var3 = 'hotwheels_gaming_activity';
             return var3;
- 301:
+case 28:
             var3 = 'summary';
             return var3;
- 307:
+case 26:
             var2 = var2.data;
             var3 = var2.channel_type;
             var1 = _closure1_slot5;
             var2 = var1.GUILD_ANNOUNCEMENT;
             var1 = 'message';
-            if(!(var3 === var2)) { _fun0002_ip = 340; continue _fun0002 }
- 336:
+            if(!(var3 === var2)) { _fun0002_ip = 40; continue _fun0002 }
+case 41:
             var1 = 'announcement';
- 340:
+case 40:
             return var1;
         }
     };
@@ -220,7 +220,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = {};
     var7 = function trackItemInteraction(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var6 = arg1;
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
@@ -253,10 +253,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = null;
             var9 = var7 == var8;
             var7 = undefined;
-            if(var9) { _fun0003_ip = 162; continue _fun0003 }
- 156:
+            if(var9) { _fun0003_ip = 42; continue _fun0003 }
+case 43:
             var7 = var8.sessionId;
- 162:
+case 42:
             var2['icymi_session_id'] = var7;
             var7 = var6.impressionId;
             var2['impression_id'] = var7;
@@ -575,7 +575,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['trackFeedFeedbackSubmitted'] = var7;
     var7 = function trackGeneratedCandidateFeedback(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var6 = arg1;
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
@@ -589,10 +589,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = {};
             var9 = var6.isPositive;
             var8 = 'thumbs_down';
-            if(!var9) { _fun0004_ip = 66; continue _fun0004 }
- 60:
+            if(!var9) { _fun0004_ip = 44; continue _fun0004 }
+case 45:
             var8 = 'thumbs_up';
- 66:
+case 44:
             var2['feedback_type'] = var8;
             var8 = global;
             var10 = var8.parseInt;
@@ -627,40 +627,40 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = null;
             var11 = var9 != var10;
             var8 = 0;
-            if(!var11) { _fun0004_ip = 231; continue _fun0004 }
- 228:
+            if(!var11) { _fun0004_ip = 46; continue _fun0004 }
+case 47:
             var8 = var10;
- 231:
+case 46:
             var2['primary_text_length'] = var8;
             var8 = var6.item;
             var8 = var8.secondary_text;
             var10 = var8.length;
             var11 = var9 != var10;
             var8 = 0;
-            if(!var11) { _fun0004_ip = 266; continue _fun0004 }
- 263:
+            if(!var11) { _fun0004_ip = 25; continue _fun0004 }
+case 48:
             var8 = var10;
- 266:
+case 25:
             var2['secondary_text_length'] = var8;
             var8 = var6.item;
             var8 = var8.message_ids;
             var10 = var8.length;
             var11 = var9 != var10;
             var8 = 0;
-            if(!var11) { _fun0004_ip = 301; continue _fun0004 }
- 298:
+            if(!var11) { _fun0004_ip = 28; continue _fun0004 }
+case 49:
             var8 = var10;
- 301:
+case 28:
             var2['message_count'] = var8;
             var8 = var6.item;
             var8 = var8.user_ids;
             var8 = var8.length;
             var9 = var9 != var8;
             var7 = 0;
-            if(!var9) { _fun0004_ip = 334; continue _fun0004 }
- 331:
+            if(!var9) { _fun0004_ip = 50; continue _fun0004 }
+case 51:
             var7 = var8;
- 334:
+case 50:
             var2['user_count'] = var7;
             var6 = var6.generatedItemIndex;
             var2['generated_item_index'] = var6;
@@ -881,7 +881,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['trackFeedSessionCompleted'] = var7;
     var7 = function trackFeedItemDwell1s(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
             var6 = arg1;
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
@@ -923,10 +923,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var6.itemChannelType;
             var7 = null;
             var9 = var7 != var8;
-            if(!var9) { _fun0005_ip = 207; continue _fun0005 }
- 204:
+            if(!var9) { _fun0005_ip = 52; continue _fun0005 }
+case 53:
             var7 = var8;
- 207:
+case 52:
             var2['item_channel_type'] = var7;
             var7 = var6.itemCardHeight;
             var2['item_card_height'] = var7;
@@ -943,7 +943,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['trackFeedItemDwell1s'] = var7;
     var4 = function trackFeedItemDwelled(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
- 0:
+case 0:
             var6 = arg1;
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
@@ -989,10 +989,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var6.itemChannelType;
             var7 = null;
             var9 = var7 != var8;
-            if(!var9) { _fun0006_ip = 231; continue _fun0006 }
- 228:
+            if(!var9) { _fun0006_ip = 46; continue _fun0006 }
+case 47:
             var7 = var8;
- 231:
+case 46:
             var2['item_channel_type'] = var7;
             var7 = var6.itemCardHeight;
             var2['item_card_height'] = var7;

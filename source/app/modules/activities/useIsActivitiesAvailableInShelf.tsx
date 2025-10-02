@@ -29,7 +29,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useIsActivitiesAvailableInShelf(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var7 = arg1;
             var _closure2_slot0 = var7;
             var2 = _closure1_slot0;
@@ -49,15 +49,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.bind(var6)(var1);
             var1 = null;
             var1 = var1 != var7;
-            if(!var1) { _fun0001_ip = 89; continue _fun0001 }
- 81:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = '';
             var1 = var6 !== var7;
- 89:
-            if(var1) { _fun0001_ip = 95; continue _fun0001 }
- 92:
+case 2:
+            if(var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = var5;
- 95:
+case 4:
             var _closure2_slot2 = var1;
             var6 = _closure1_slot3;
             var5 = var6.useEffect;
@@ -67,14 +67,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4[2] = var1;
             var3 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var1 = _closure2_slot2;
-                    if(!var1) { _fun0002_ip = 14; continue _fun0002 }
- 10:
+                    if(!var1) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var1 = _closure2_slot1;
- 14:
-                    if(!var1) { _fun0002_ip = 63; continue _fun0002 }
- 17:
+case 6:
+                    if(!var1) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var1 = 3;
@@ -86,16 +86,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = _closure2_slot0;
                     var1['guildId'] = var4;
                     var1 = var2.bind(var3)(var1);
- 63:
+case 8:
                     var1 = undefined;
                     return var1;
                 }
             };
             var3 = var5.bind(var6)(var3, var4);
-            if(!var1) { _fun0001_ip = 141; continue _fun0001 }
- 138:
+            if(!var1) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var1 = var2;
- 141:
+case 10:
             return var1;
         }
     };

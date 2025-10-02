@@ -38,7 +38,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function openGuildLimitedAccessInfoModal(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var _closure2_slot0 = var1;
             var3 = _closure1_slot3;
@@ -53,11 +53,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.getBestActiveInput;
             var4 = var3.bind(var4)();
             var3 = null;
-            if(!(var3 != var4)) { _fun0001_ip = 74; continue _fun0001 }
- 64:
+            if(!(var3 != var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = var4.blur;
             var3 = var3.bind(var4)();
- 74:
+case 2:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
             var2 = 4;

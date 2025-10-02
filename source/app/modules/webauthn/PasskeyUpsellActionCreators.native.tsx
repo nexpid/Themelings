@@ -18,7 +18,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = {};
     var6 = function openPasskeyUpsell() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = this;
             var8 = _closure1_slot0;
             var4 = _closure1_slot2;
@@ -33,8 +33,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.DismissibleContent;
             var4 = var4.PASSWORDLESS_UPSELL;
             var4 = var5.bind(var6)(var4);
-            if(var4) { _fun0001_ip = 204; continue _fun0001 }
- 68:
+            if(var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = _closure1_slot1;
             var6 = _closure1_slot2;
             var4 = 2;
@@ -62,8 +62,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var4 = var5.bind(var6)(var4);
-            if(!var4) { _fun0001_ip = 204; continue _fun0001 }
- 142:
+            if(!var4) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var6 = _closure1_slot0;
             var2 = _closure1_slot2;
             var4 = 4;
@@ -77,7 +77,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4.bind(var5)(var2);
             var2 = var3.openPasskeyUpsellPromoSheet;
             var2 = var2.bind(var3)();
- 204:
+case 2:
             return var1;
         }
     };

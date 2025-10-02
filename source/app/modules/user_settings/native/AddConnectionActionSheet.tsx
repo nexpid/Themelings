@@ -107,7 +107,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = var9.map;
         var7 = function(arg1, arg2) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var12 = arg2;
                 var8 = var1.name;
@@ -170,13 +170,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var14 = var15.isThemeDark;
                 var10 = _closure2_slot0;
                 var10 = var14.bind(var15)(var10);
-                if(var10) { _fun0001_ip = 190; continue _fun0001 }
- 182:
+                if(var10) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var10 = var13.lightPNG;
-                _fun0001_ip = 196; continue _fun0001;
- 190:
+                _fun0001_ip = 4; continue _fun0001;
+case 2:
                 var10 = var13.darkPNG;
- 196:
+case 4:
                 var10 = var11.bind(var12)(var10);
                 var7['source'] = var10;
                 var10 = true;

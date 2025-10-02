@@ -97,7 +97,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function DataAndPrivacySettings() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = _closure1_slot0;
             var6 = _closure1_slot2;
             var4 = 8;
@@ -181,13 +181,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var11[var8];
             var11 = var12.bind(var4)(var11);
             var11 = var11.t;
-            if(var5) { _fun0001_ip = 395; continue _fun0001 }
- 385:
+            if(var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var12 = var11.7Q2yX1;
-            _fun0001_ip = 403; continue _fun0001;
- 395:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var12 = var11.cf9mvb;
- 403:
+case 4:
             var11 = {};
             var17 = _closure1_slot1;
             var15 = _closure1_slot2;
@@ -201,8 +201,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var13.bind(var14)(var12, var11);
             var7['subLabel'] = var11;
             var9[2] = var7;
-            if(!var5) { _fun0001_ip = 605; continue _fun0001 }
- 469:
+            if(!var5) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var7 = var9.push;
             var5 = {};
             var11 = _closure1_slot4;
@@ -232,7 +232,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var13.bind(var14)(var12, var11);
             var5['subLabel'] = var11;
             var5 = var7.bind(var9)(var5);
- 605:
+case 5:
             var7 = var9.push;
             var5 = {};
             var11 = _closure1_slot0;

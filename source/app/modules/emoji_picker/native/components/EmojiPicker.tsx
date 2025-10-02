@@ -103,37 +103,37 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot12 = var4;
     var4 = function onLongPressEmoji(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var1 = var3.uniqueName;
             var4 = null;
-            if(!(var4 != var1)) { _fun0001_ip = 29; continue _fun0001 }
- 15:
+            if(!(var4 != var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var3.uniqueName;
             var1 = '';
-            if(!(var1 === var2)) { _fun0001_ip = 36; continue _fun0001 }
- 29:
+            if(!(var1 === var2)) { _fun0001_ip = 4; continue _fun0001 }
+case 2:
             var5 = var3.name;
-            _fun0001_ip = 42; continue _fun0001;
- 36:
+            _fun0001_ip = 5; continue _fun0001;
+case 4:
             var5 = var3.uniqueName;
- 42:
+case 5:
             var1 = var3.id;
-            if(!(var4 == var1)) { _fun0001_ip = 60; continue _fun0001 }
- 51:
+            if(!(var4 == var1)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var1 = var3.surrogates;
-            if(!(var4 == var1)) { _fun0001_ip = 165; continue _fun0001 }
- 60:
+            if(!(var4 == var1)) { _fun0001_ip = 8; continue _fun0001 }
+case 6:
             var2 = {};
             var1 = var3.id;
             var2['id'] = var1;
             var2['alt'] = var5;
             var1 = var3.id;
-            if(!(var4 == var1)) { _fun0001_ip = 92; continue _fun0001 }
- 85:
+            if(!(var4 == var1)) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var1 = var3.url;
-            _fun0001_ip = 158; continue _fun0001;
- 92:
+            _fun0001_ip = 11; continue _fun0001;
+case 9:
             var7 = _closure1_slot1;
             var6 = _closure1_slot2;
             var4 = 8;
@@ -149,10 +149,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = _closure1_slot8;
             var4['size'] = var8;
             var1 = var6.bind(var7)(var4);
- 158:
+case 11:
             var2['src'] = var1;
-            _fun0001_ip = 207; continue _fun0001;
- 165:
+            _fun0001_ip = 12; continue _fun0001;
+case 8:
             var1 = {};
             var3 = var3.surrogates;
             var1['surrogate'] = var3;
@@ -163,7 +163,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.bind(var3)(var5, var3);
             var1['content'] = var3;
             var2 = var1;
- 207:
+case 12:
             var7 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 9;
@@ -195,7 +195,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function EmojiPicker(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var26 = var1.channel;
             var _closure2_slot0 = var26;
@@ -203,10 +203,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var1.onBackspace;
             var29 = var1.disableLongPress;
             var4 = undefined;
-            if(!(var29 === var4)) { _fun0002_ip = 40; continue _fun0002 }
- 38:
+            if(!(var29 === var4)) { _fun0002_ip = 13; continue _fun0002 }
+case 14:
             var29 = false;
- 40:
+case 13:
             var22 = var1.inActionSheet;
             var21 = var1.inPortalKeyboard;
             var1 = _closure1_slot12;
@@ -357,8 +357,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = new Array(2);
             var9[0] = var17;
             var11 = var11.isMobileEnabled;
-            if(!var11) { _fun0002_ip = 583; continue _fun0002 }
- 547:
+            if(!var11) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
             var18 = _closure1_slot10;
             var17 = _closure1_slot1;
             var19 = _closure1_slot2;
@@ -368,7 +368,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = {};
             var11['channel'] = var26;
             var10 = var18.bind(var4)(var17, var11);
- 583:
+case 15:
             var9[1] = var10;
             var8['children'] = var9;
             var9 = var7.bind(var4)(var6, var8);
@@ -392,10 +392,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10['emojis'] = var30;
             var10['onPressEmoji'] = var28;
             var28 = undefined;
-            if(var29) { _fun0002_ip = 685; continue _fun0002 }
- 681:
+            if(var29) { _fun0002_ip = 17; continue _fun0002 }
+case 18:
             var28 = _closure1_slot13;
- 685:
+case 17:
             var10['onLongPressEmoji'] = var28;
             var10['channel'] = var26;
             var26 = _closure1_slot9;

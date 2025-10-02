@@ -37,7 +37,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var5.map;
         var3 = function(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var2 = arg1;
                 var3 = var2.type;
                 var5 = _closure1_slot0;
@@ -48,30 +48,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var5.bind(var1)(var4);
                 var1 = var1.EmojiTypes;
                 var1 = var1.UNICODE;
-                if(!(var3 !== var1)) { _fun0001_ip = 225; continue _fun0001 }
- 52:
+                if(!(var3 !== var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var1 = _closure2_slot0;
                 var4 = var1.emojisDisabled;
                 var3 = var4.has;
                 var1 = var2.id;
                 var1 = var3.bind(var4)(var1);
                 var3 = var2.animated;
-                if(!var3) { _fun0001_ip = 92; continue _fun0001 }
- 89:
-                if(var1) { _fun0001_ip = 189; continue _fun0001 }
- 92:
+                if(!var3) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+                if(var1) { _fun0001_ip = 6; continue _fun0001 }
+case 4:
                 var3 = var2.animated;
-                if(var3) { _fun0001_ip = 157; continue _fun0001 }
- 101:
-                if(var1) { _fun0001_ip = 126; continue _fun0001 }
- 104:
+                if(var3) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
+                if(var1) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
                 var1 = {};
                 var3 = var2.id;
                 var1['id'] = var3;
                 var3 = var2.name;
                 var1['name'] = var3;
-                _fun0001_ip = 155; continue _fun0001;
- 126:
+                _fun0001_ip = 11; continue _fun0001;
+case 9:
                 var3 = {};
                 var4 = var2.id;
                 var3['id'] = var4;
@@ -80,9 +80,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = true;
                 var3['disabled'] = var4;
                 var1 = var3;
- 155:
-                _fun0001_ip = 187; continue _fun0001;
- 157:
+case 11:
+                _fun0001_ip = 12; continue _fun0001;
+case 7:
                 var3 = {};
                 var4 = var2.id;
                 var3['id'] = var4;
@@ -91,9 +91,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = true;
                 var3['animated'] = var4;
                 var1 = var3;
- 187:
-                _fun0001_ip = 223; continue _fun0001;
- 189:
+case 12:
+                _fun0001_ip = 13; continue _fun0001;
+case 6:
                 var3 = {};
                 var4 = var2.id;
                 var3['id'] = var4;
@@ -103,9 +103,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3['animated'] = var4;
                 var3['disabled'] = var4;
                 var1 = var3;
- 223:
+case 13:
                 return var1;
- 225:
+case 2:
                 var1 = {};
                 var3 = var2.name;
                 var1['name'] = var3;

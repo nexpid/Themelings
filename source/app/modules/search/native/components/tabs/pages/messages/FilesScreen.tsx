@@ -131,15 +131,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3[3] = var18;
         var2 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var1 = new Array(0);
                 var _closure3_slot0 = var1;
                 var10 = 0;
                 var _closure3_slot1 = var10;
                 var4 = _closure2_slot2;
                 var3 = null;
-                if(!(var3 != var4)) { _fun0001_ip = 50; continue _fun0001 }
- 29:
+                if(!(var3 != var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var4 = _closure2_slot2;
                 var3 = var4.forEach;
                 var2 = function(arg1) {
@@ -205,10 +205,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var2 = var3.bind(var4)(var2);
- 50:
+case 2:
                 var2 = _closure2_slot6;
-                if(!(var2 > var10)) { _fun0001_ip = 279; continue _fun0001 }
- 61:
+                if(!(var2 > var10)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var8 = var1.length;
                 var3 = _closure1_slot0;
                 var4 = _closure1_slot2;
@@ -229,8 +229,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = 'file-or-link-placeholder-';
                 var2 = 10;
                 var10 = 0;
-                if(!var11) { _fun0001_ip = 279; continue _fun0001 }
- 150:
+                if(!var11) { _fun0001_ip = 4; continue _fun0001 }
+case 6:
                 var12 = var1.push;
                 var11 = {};
                 var13 = _closure1_slot4;
@@ -260,8 +260,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var11['props'] = var13;
                 var11 = var12.bind(var1)(var11);
                 var10 = var10 + 1;
-                if(var10 < var5) { _fun0001_ip = 150; continue _fun0001 }
- 279:
+                if(var10 < var5) { _fun0001_ip = 6; continue _fun0001 }
+case 4:
                 return var1;
             }
         };

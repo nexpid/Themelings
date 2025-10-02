@@ -41,13 +41,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function validateOpenInviteDialog() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = _closure1_slot3;
             var2 = var3.getConnectedFrame;
             var2 = var2.bind(var3)();
             var3 = null;
-            if(!(var3 == var2)) { _fun0001_ip = 402; continue _fun0001 }
- 26:
+            if(!(var3 == var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = _closure1_slot1;
             var5 = _closure1_slot2;
             var4 = 4;
@@ -55,15 +55,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = undefined;
             var4 = var6.bind(var5)(var4);
             var4 = var4.bind(var5)();
-            if(!(var3 != var4)) { _fun0001_ip = 334; continue _fun0001 }
- 59:
+            if(!(var3 != var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var8 = _closure1_slot4;
             var7 = var8.getGuild;
             var6 = var4.getGuildId;
             var6 = var6.bind(var4)();
             var6 = var7.bind(var8)(var6);
-            if(!(var3 != var6)) { _fun0001_ip = 238; continue _fun0001 }
- 90:
+            if(!(var3 != var6)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var3 = 6;
@@ -72,8 +72,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var8.canViewInviteModal;
             var3 = _closure1_slot5;
             var3 = var7.bind(var8)(var3, var6, var4);
-            if(var3) { _fun0001_ip = 221; continue _fun0001 }
- 130:
+            if(var3) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var7 = _closure1_slot1;
             var8 = _closure1_slot2;
             var3 = 5;
@@ -96,13 +96,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = new var14[var9](var13, var12, var11);
             var3 = var3 instanceof Object ? var3 : var7;
             throw var3;
- 221:
+case 8:
             var3 = {};
             var3['frame'] = var5;
             var3['channel'] = var4;
             var3['guild'] = var6;
             return var3;
- 238:
+case 6:
             var6 = _closure1_slot1;
             var7 = _closure1_slot2;
             var3 = 5;
@@ -126,7 +126,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = new var14[var7](var13, var12, var11);
             var3 = var3 instanceof Object ? var3 : var4;
             throw var3;
- 334:
+case 4:
             var4 = _closure1_slot1;
             var6 = _closure1_slot2;
             var3 = 5;
@@ -144,7 +144,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = new var14[var5](var13, var12, var11);
             var1 = var1 instanceof Object ? var1 : var3;
             throw var1;
- 402:
+case 2:
             var1 = {};
             var1['frame'] = var2;
             var2 = undefined;

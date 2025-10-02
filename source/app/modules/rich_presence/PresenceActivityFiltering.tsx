@@ -27,42 +27,42 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function doesGameHaveRichPresence(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var3 = arg2;
             var _closure2_slot0 = var3;
             var3 = var1.id;
             var6 = null;
-            if(!(var6 !== var3)) { _fun0001_ip = 125; continue _fun0001 }
- 23:
+            if(!(var6 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = var1.id;
             var3 = undefined;
-            if(!(var3 !== var4)) { _fun0001_ip = 125; continue _fun0001 }
- 34:
+            if(!(var3 !== var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var5 = _closure1_slot2;
             var4 = var5.getApplication;
             var1 = var1.id;
             var4 = var4.bind(var5)(var1);
             var1 = var6 != var4;
-            if(!var1) { _fun0001_ip = 74; continue _fun0001 }
- 64:
+            if(!var1) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var5 = var4.linkedGames;
             var1 = var6 != var5;
- 74:
-            if(!var1) { _fun0001_ip = 94; continue _fun0001 }
- 77:
+case 5:
+            if(!var1) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var5 = var4.linkedGames;
             var6 = var5.length;
             var5 = 0;
             var1 = var6 > var5;
- 94:
-            if(!var1) { _fun0001_ip = 123; continue _fun0001 }
- 97:
+case 7:
+            if(!var1) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var5 = var4.linkedGames;
             var4 = var5.find;
             var2 = function(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var2 = arg1;
                     var3 = var2.type;
                     var4 = _closure1_slot0;
@@ -74,8 +74,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var1.GameLinkTypes;
                     var1 = var1.LINKED;
                     var1 = var3 === var1;
-                    if(!var1) { _fun0002_ip = 77; continue _fun0002 }
- 52:
+                    if(!var1) { _fun0002_ip = 8; continue _fun0002 }
+case 11:
                     var4 = var2.id;
                     var3 = _closure2_slot0;
                     var2 = function hasRichPresenceForGame(arg1, arg2) {
@@ -96,15 +96,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     };
                     var1 = var2.bind(var5)(var4, var3);
- 77:
+case 8:
                     return var1;
                 }
             };
             var2 = var4.bind(var5)(var2);
             var1 = var3 !== var2;
- 123:
+case 9:
             return var1;
- 125:
+case 2:
             var1 = false;
             return var1;
         }

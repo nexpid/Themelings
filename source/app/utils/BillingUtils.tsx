@@ -14,23 +14,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = function* (arg1) {
             var1 = function* anon_0_(arg1) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     StartGenerator();
                     var2 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(var3) { _fun0001_ip = 115; continue _fun0001 }
- 10:
+                    if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var5 = null;
                     var4 = var5 != var2;
                     var3 = null;
-                    if(!var4) { _fun0001_ip = 109; continue _fun0001 }
- 21:
+                    if(!var4) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                     var6 = var2.paymentGateway;
                     var4 = _closure1_slot4;
                     var4 = var4.BRAINTREE;
                     var3 = null;
-                    if(!(var6 === var4)) { _fun0001_ip = 109; continue _fun0001 }
- 46:
+                    if(!(var6 === var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 6:
                     var6 = _closure1_slot0;
                     var4 = _closure1_slot2;
                     var2 = 2;
@@ -40,24 +40,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var4.collectDeviceData;
                     var2 = var2.bind(var4)();
                     SaveGenerator(address=82);
- 80:
+case 7:
                     return var2;
- 82:
+case 8:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0001_ip = 112; continue _fun0001 }
- 88:
+                    if(var4) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
                     var4 = var5 != var2;
                     var3 = null;
-                    if(!var4) { _fun0001_ip = 109; continue _fun0001 }
- 97:
+                    if(!var4) { _fun0001_ip = 4; continue _fun0001 }
+case 11:
                     var4 = {};
                     var4['braintree_device_data'] = var2;
                     var3 = var4;
- 109:
+case 4:
                     return var3;
- 112:
+case 9:
                     return var2;
- 115:
+case 2:
                     return var1;
                 }
             };
@@ -132,7 +132,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['createGatewayCheckoutContext'] = var4;
     var4 = function captureBillingException(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var7 = arg2;
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
@@ -149,10 +149,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = null;
             var8 = var2 == var7;
             var2 = undefined;
-            if(var8) { _fun0002_ip = 65; continue _fun0002 }
- 59:
+            if(var8) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
             var2 = var7.tags;
- 65:
+case 12:
             var10 = var6;
             var9 = var2;
             var2 = copyDataProperties(var10, var9);
@@ -169,7 +169,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['captureBillingException'] = var4;
     var4 = function captureBillingMessage(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var7 = arg2;
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
@@ -186,10 +186,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = null;
             var8 = var2 == var7;
             var2 = undefined;
-            if(var8) { _fun0003_ip = 65; continue _fun0003 }
- 59:
+            if(var8) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
             var2 = var7.tags;
- 65:
+case 12:
             var10 = var6;
             var9 = var2;
             var2 = copyDataProperties(var10, var9);
@@ -206,76 +206,76 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['captureBillingMessage'] = var4;
     var2 = function calculateStandardizedUnits(arg1, arg2) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var3 = arg1;
             var4 = arg2;
             var1 = 'P1M';
             var1 = var1 === var3;
             var5 = var1;
-            if(!var1) { _fun0004_ip = 32; continue _fun0004 }
- 22:
+            if(!var1) { _fun0004_ip = 14; continue _fun0004 }
+case 15:
             var2 = 'P1Y';
             var5 = var2 === var4;
- 32:
+case 14:
             var2 = true;
-            if(!(var5 !== var2)) { _fun0004_ip = 177; continue _fun0004 }
- 41:
+            if(!(var5 !== var2)) { _fun0004_ip = 16; continue _fun0004 }
+case 17:
             var5 = var1;
-            if(!var1) { _fun0004_ip = 57; continue _fun0004 }
- 47:
+            if(!var1) { _fun0004_ip = 18; continue _fun0004 }
+case 19:
             var6 = 'P6M';
             var5 = var6 === var4;
- 57:
-            if(!(var5 !== var2)) { _fun0004_ip = 172; continue _fun0004 }
- 61:
-            if(!var1) { _fun0004_ip = 74; continue _fun0004 }
- 64:
+case 18:
+            if(!(var5 !== var2)) { _fun0004_ip = 20; continue _fun0004 }
+case 21:
+            if(!var1) { _fun0004_ip = 22; continue _fun0004 }
+case 23:
             var5 = 'P3M';
             var1 = var5 === var4;
- 74:
-            if(!(var1 !== var2)) { _fun0004_ip = 167; continue _fun0004 }
- 78:
+case 22:
+            if(!(var1 !== var2)) { _fun0004_ip = 24; continue _fun0004 }
+case 25:
             var1 = 'P3M';
             var1 = var1 === var3;
             var5 = var1;
-            if(!var1) { _fun0004_ip = 104; continue _fun0004 }
- 94:
+            if(!var1) { _fun0004_ip = 26; continue _fun0004 }
+case 27:
             var6 = 'P1Y';
             var5 = var6 === var4;
- 104:
-            if(!(var5 !== var2)) { _fun0004_ip = 162; continue _fun0004 }
- 108:
-            if(!var1) { _fun0004_ip = 121; continue _fun0004 }
- 111:
+case 26:
+            if(!(var5 !== var2)) { _fun0004_ip = 28; continue _fun0004 }
+case 29:
+            if(!var1) { _fun0004_ip = 30; continue _fun0004 }
+case 31:
             var5 = 'P6M';
             var1 = var5 === var4;
- 121:
-            if(!(var1 !== var2)) { _fun0004_ip = 157; continue _fun0004 }
- 125:
+case 30:
+            if(!(var1 !== var2)) { _fun0004_ip = 32; continue _fun0004 }
+case 33:
             var1 = 'P6M';
             var1 = var1 === var3;
-            if(!var1) { _fun0004_ip = 148; continue _fun0004 }
- 138:
+            if(!var1) { _fun0004_ip = 34; continue _fun0004 }
+case 35:
             var3 = 'P1Y';
             var1 = var3 === var4;
- 148:
-            if(!(var1 !== var2)) { _fun0004_ip = 157; continue _fun0004 }
- 152:
+case 34:
+            if(!(var1 !== var2)) { _fun0004_ip = 32; continue _fun0004 }
+case 36:
             var1 = 1;
             return var1;
- 157:
+case 32:
             var1 = 2;
             return var1;
- 162:
+case 28:
             var1 = 4;
             return var1;
- 167:
+case 24:
             var1 = 3;
             return var1;
- 172:
+case 20:
             var1 = 6;
             return var1;
- 177:
+case 16:
             var1 = 12;
             return var1;
         }

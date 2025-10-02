@@ -33,11 +33,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function getHangStatusAnalytics(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var3 = null;
-            if(!(var3 != var4)) { _fun0001_ip = 91; continue _fun0001 }
- 9:
+            if(!(var3 != var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = {};
             var1['channel_id'] = var4;
             var6 = _closure1_slot0;
@@ -45,10 +45,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.bind(var6)(var4);
             var6 = var3 == var5;
             var3 = undefined;
-            if(var6) { _fun0001_ip = 46; continue _fun0001 }
- 41:
+            if(var6) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = var5.guild_id;
- 46:
+case 4:
             var1['guild_id'] = var3;
             var5 = _closure1_slot1;
             var3 = var5.getMediaSessionId;
@@ -58,8 +58,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.countVoiceStatesForChannel;
             var2 = var2.bind(var3)(var4);
             var1['call_num_participants'] = var2;
-            _fun0001_ip = 135; continue _fun0001;
- 91:
+            _fun0001_ip = 6; continue _fun0001;
+case 2:
             var2 = {};
             var3 = undefined;
             var2['channel_id'] = var3;
@@ -71,7 +71,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = 0;
             var2['call_num_participants'] = var3;
             var1 = var2;
- 135:
+case 6:
             return var1;
         }
     };

@@ -7,18 +7,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var7;
     var2 = function useInputClearButtonConfig(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg2;
             var1 = arg1;
             var1 = var1.isClearable;
-            if(!var1) { _fun0001_ip = 24; continue _fun0001 }
- 15:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var3.hasValue;
-            if(var1) { _fun0001_ip = 28; continue _fun0001 }
- 24:
+            if(var1) { _fun0001_ip = 4; continue _fun0001 }
+case 2:
             var1 = undefined;
             return var1;
- 28:
+case 4:
             var1 = {};
             var6 = _closure1_slot3;
             var8 = _closure1_slot0;
@@ -86,7 +86,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var7)(var5);
     var4 = function useInputClearButton(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var4 = _closure1_slot4;
             var5 = undefined;
             var3 = arg1;
@@ -94,8 +94,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var4.bind(var5)(var3, var1);
             var1 = null;
             var3 = var1 != var6;
-            if(!var3) { _fun0002_ip = 73; continue _fun0002 }
- 30:
+            if(!var3) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
             var4 = _closure1_slot3;
             var3 = _closure1_slot2;
             var2 = {};
@@ -106,7 +106,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = 'children';
             var2[var6] = var7;
             var1 = var4.bind(var5)(var3, var2);
- 73:
+case 5:
             return var1;
         }
     };

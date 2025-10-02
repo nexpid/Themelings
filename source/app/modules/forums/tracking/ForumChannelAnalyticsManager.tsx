@@ -64,97 +64,97 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3['setTagSetting'] = var4;
         var4 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var1 = _closure2_slot0;
                 var3 = var1.filterTagIds;
                 var1 = null;
-                if(!(var1 == var3)) { _fun0001_ip = 25; continue _fun0001 }
- 19:
+                if(!(var1 == var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var1 = new Array(0);
-                _fun0001_ip = 53; continue _fun0001;
- 25:
+                _fun0001_ip = 4; continue _fun0001;
+case 2:
                 var3 = global;
                 var4 = var3.Array;
                 var3 = var4.from;
                 var2 = _closure2_slot0;
                 var2 = var2.filterTagIds;
                 var1 = var3.bind(var4)(var2);
- 53:
+case 4:
                 return var1;
             }
         };
         var3['getFilterTagIdsAnalytics'] = var4;
         var4 = function(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var1 = _closure2_slot0;
                 var1 = var1.sortOrder;
                 var2 = null;
-                if(!(var2 == var1)) { _fun0002_ip = 61; continue _fun0002 }
- 19:
+                if(!(var2 == var1)) { _fun0002_ip = 5; continue _fun0002 }
+case 3:
                 var5 = _closure1_slot1;
                 var4 = var5.getChannel;
                 var3 = arg1;
                 var4 = var4.bind(var5)(var3);
                 var3 = var2 == var4;
                 var2 = undefined;
-                if(var3) { _fun0002_ip = 58; continue _fun0002 }
- 48:
+                if(var3) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                 var3 = var4.getDefaultSortOrder;
                 var2 = var3.bind(var4)();
- 58:
+case 6:
                 var1 = var2;
- 61:
+case 5:
                 return var1;
             }
         };
         var3['getSortOrderAnalytics'] = var4;
         var4 = function(arg1) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var1 = _closure2_slot0;
                 var1 = var1.layout;
                 var2 = null;
-                if(!(var2 == var1)) { _fun0003_ip = 61; continue _fun0003 }
- 19:
+                if(!(var2 == var1)) { _fun0003_ip = 5; continue _fun0003 }
+case 3:
                 var5 = _closure1_slot1;
                 var4 = var5.getChannel;
                 var3 = arg1;
                 var4 = var4.bind(var5)(var3);
                 var3 = var2 == var4;
                 var2 = undefined;
-                if(var3) { _fun0003_ip = 58; continue _fun0003 }
- 48:
+                if(var3) { _fun0003_ip = 6; continue _fun0003 }
+case 7:
                 var3 = var4.getDefaultLayout;
                 var2 = var3.bind(var4)();
- 58:
+case 6:
                 var1 = var2;
- 61:
+case 5:
                 return var1;
             }
         };
         var3['getLayoutAnalytics'] = var4;
         var2 = function(arg1) {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                 var1 = _closure2_slot0;
                 var1 = var1.tagSetting;
                 var2 = null;
-                if(!(var2 == var1)) { _fun0004_ip = 61; continue _fun0004 }
- 19:
+                if(!(var2 == var1)) { _fun0004_ip = 5; continue _fun0004 }
+case 3:
                 var5 = _closure1_slot1;
                 var4 = var5.getChannel;
                 var3 = arg1;
                 var4 = var4.bind(var5)(var3);
                 var3 = var2 == var4;
                 var2 = undefined;
-                if(var3) { _fun0004_ip = 58; continue _fun0004 }
- 48:
+                if(var3) { _fun0004_ip = 6; continue _fun0004 }
+case 7:
                 var3 = var4.getDefaultTagSetting;
                 var2 = var3.bind(var4)();
- 58:
+case 6:
                 var1 = var2;
- 61:
+case 5:
                 return var1;
             }
         };

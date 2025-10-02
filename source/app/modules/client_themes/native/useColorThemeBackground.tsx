@@ -27,7 +27,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useColorThemeBackground() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = _closure1_slot0;
             var6 = _closure1_slot1;
             var2 = 1;
@@ -56,14 +56,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = 'useColorThemeBackground';
             var3 = var3.bind(var5)(var1);
             var1 = var4;
-            if(!var3) { _fun0001_ip = 124; continue _fun0001 }
- 112:
+            if(!var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = null;
             var1 = var4;
-            if(!(var3 != var2)) { _fun0001_ip = 124; continue _fun0001 }
- 121:
+            if(!(var3 != var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var1 = var2;
- 124:
+case 2:
             return var1;
         }
     };

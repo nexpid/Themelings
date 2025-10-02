@@ -35,7 +35,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var4.useEffect;
         var2 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot1;
                 var2 = 2;
@@ -44,8 +44,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var4.bind(var3)(var2);
                 var2 = var4.isIpadOS;
                 var2 = var2.bind(var4)();
-                if(var2) { _fun0001_ip = 76; continue _fun0001 }
- 38:
+                if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var2 = _closure1_slot0;
                 var4 = _closure1_slot1;
                 var1 = 3;
@@ -55,10 +55,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = 'PORTRAIT';
                 var1 = false;
                 var1 = var3.bind(var4)(var2, var1);
- 76:
+case 2:
                 var1 = function() {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                         var4 = _closure1_slot0;
                         var3 = _closure1_slot1;
                         var1 = 2;
@@ -67,8 +67,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var4 = var4.bind(var1)(var3);
                         var3 = var4.isIpadOS;
                         var3 = var3.bind(var4)();
-                        if(var3) { _fun0002_ip = 78; continue _fun0002 }
- 38:
+                        if(var3) { _fun0002_ip = 4; continue _fun0002 }
+case 3:
                         var3 = _closure1_slot0;
                         var4 = _closure1_slot1;
                         var2 = 3;
@@ -79,7 +79,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var5 = false;
                         var2['unlockAfterRotatingToPreviousLock'] = var5;
                         var2 = var3.bind(var4)(var2);
- 78:
+case 4:
                         return var1;
                     }
                 };
@@ -94,7 +94,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['default'] = var4;
     var2 = function() {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var3 = _closure1_slot3;
             var2 = var3.get;
             var1 = 'screen';
@@ -104,15 +104,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var3 > var2;
             var1 = {};
             var5 = var3;
-            if(!var4) { _fun0003_ip = 46; continue _fun0003 }
- 43:
+            if(!var4) { _fun0003_ip = 5; continue _fun0003 }
+case 6:
             var5 = var2;
- 46:
+case 5:
             var1['width'] = var5;
-            if(!var4) { _fun0003_ip = 56; continue _fun0003 }
- 53:
+            if(!var4) { _fun0003_ip = 7; continue _fun0003 }
+case 8:
             var2 = var3;
- 56:
+case 7:
             var1['height'] = var2;
             return var1;
         }

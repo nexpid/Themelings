@@ -27,7 +27,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useNavigatorShouldCrossfade() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = _closure1_slot2;
             var2 = var3.useContext;
             var5 = _closure1_slot0;
@@ -46,10 +46,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var5.bind(var4)(var3);
             var3 = var4.isAndroid;
             var3 = var3.bind(var4)();
-            if(!var3) { _fun0001_ip = 90; continue _fun0001 }
- 87:
+            if(!var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var2;
- 90:
+case 2:
             return var1;
         }
     };

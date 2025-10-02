@@ -9,8 +9,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function _isNativeReflectConstruct() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
- 2: // try_start_0
+case 0:
+case 2: // try_start_0
             var2 = global;
             var3 = var2.Boolean;
             var3 = var3.prototype;
@@ -28,11 +28,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var4)(var2);
             var2 = !var2;
             var _closure2_slot0 = var2;
- 70: // try_end0
-            _fun0001_ip = 74; continue _fun0001;
- 72: // catch_target0
+case 3: // try_end0
+            _fun0001_ip = 4; continue _fun0001;
+case 5: // catch_target0
             CatchBlockStart(arg_register=1);
- 74:
+case 4:
             var2 = function _isNativeReflectConstruct() {
                 var1 = _closure2_slot0;
                 var1 = !var1;
@@ -48,34 +48,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot15 = var1;
     var1 = function _validate(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = var2.id;
             var3 = null;
             var1 = var3 != var1;
-            if(!var1) { _fun0002_ip = 26; continue _fun0002 }
- 17:
+            if(!var1) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var2 = var2.type;
             var1 = var3 != var2;
- 26:
+case 6:
             return var1;
         }
     };
     var _closure1_slot16 = var1;
     var1 = function handleReset() {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var2 = arguments[0];
             var1 = undefined;
-            if(!(var2 === var1)) { _fun0003_ip = 11; continue _fun0003 }
- 9:
+            if(!(var2 === var1)) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
             var2 = {};
- 11:
+case 8:
             var4 = var2.keepLocalItems;
-            if(!(var4 === var1)) { _fun0003_ip = 23; continue _fun0003 }
- 21:
+            if(!(var4 === var1)) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
             var4 = false;
- 23:
+case 10:
             var3 = {'loading': false, 'initialized': false, 'errored': false, 'isDataStale': false};
             var2 = false;
             var5 = new Array(0);
@@ -90,14 +90,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = new var7[var5](var6);
             var5 = var5 instanceof Object ? var5 : var6;
             var3['notifCenterIds'] = var5;
-            if(var4) { _fun0003_ip = 99; continue _fun0003 }
- 93:
+            if(var4) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
             var4 = new Array(0);
-            _fun0003_ip = 112; continue _fun0003;
- 99:
+            _fun0003_ip = 14; continue _fun0003;
+case 12:
             var5 = _closure1_slot14;
             var4 = var5.notifCenterLocalItems;
- 112:
+case 14:
             var3['notifCenterLocalItems'] = var4;
             var4 = true;
             var3['paginationHasMore'] = var4;
@@ -121,7 +121,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot18 = var1;
     var1 = function toNotificationCenterItem(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var2 = arg1;
             var5 = var2.item_enum;
             var6 = _closure1_slot0;
@@ -133,8 +133,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.ItemEnum;
             var1 = var1.FIRST_MESSAGE;
             var1 = var5 === var1;
-            if(!var1) { _fun0004_ip = 91; continue _fun0004 }
- 53:
+            if(!var1) { _fun0004_ip = 15; continue _fun0004 }
+case 16:
             var6 = var2.type;
             var7 = _closure1_slot0;
             var5 = _closure1_slot2;
@@ -143,12 +143,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.NotificationCenterItems;
             var5 = var5.LIFECYCLE_ITEM;
             var1 = var6 === var5;
- 91:
-            if(!var1) { _fun0004_ip = 106; continue _fun0004 }
- 94:
+case 15:
+            if(!var1) { _fun0004_ip = 17; continue _fun0004 }
+case 18:
             var1 = 'https://discord.com/feature/composeMessage';
             var2['deeplink'] = var1;
- 106:
+case 17:
             var1 = {};
             var10 = var1;
             var9 = var2;
@@ -160,8 +160,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = null;
             var7 = var5 != var6;
             var6 = undefined;
-            if(!var7) { _fun0004_ip = 185; continue _fun0004 }
- 149:
+            if(!var7) { _fun0004_ip = 19; continue _fun0004 }
+case 20:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var4 = 12;
@@ -170,17 +170,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var8.createMessageRecord;
             var4 = var2.message;
             var6 = var7.bind(var8)(var4);
- 185:
+case 19:
             var4 = 'message';
             var1[var4] = var6;
             var4 = var2.application;
             var4 = var5 != var4;
             var3 = undefined;
-            if(!var4) { _fun0004_ip = 218; continue _fun0004 }
- 208:
+            if(!var4) { _fun0004_ip = 21; continue _fun0004 }
+case 22:
             var2 = var2.application;
             var3 = var2.id;
- 218:
+case 21:
             var2 = 'applicationId';
             var1[var2] = var3;
             return var1;
@@ -189,36 +189,36 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot19 = var1;
     var10 = function handleAddItem(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
             var1 = arg1;
             var3 = var1.type;
             var2 = 'NOTIFICATION_CENTER_ITEM_CREATE';
-            if(!(var2 !== var3)) { _fun0005_ip = 23; continue _fun0005 }
- 16:
+            if(!(var2 !== var3)) { _fun0005_ip = 10; continue _fun0005 }
+case 23:
             var5 = var1.item;
-            _fun0005_ip = 42; continue _fun0005;
- 23:
+            _fun0005_ip = 24; continue _fun0005;
+case 10:
             var3 = _closure1_slot19;
             var2 = var1.item;
             var1 = undefined;
             var5 = var3.bind(var1)(var2);
- 42:
+case 24:
             var1 = _closure1_slot14;
             var1 = var1.initialized;
-            if(!var1) { _fun0005_ip = 196; continue _fun0005 }
- 61:
+            if(!var1) { _fun0005_ip = 25; continue _fun0005 }
+case 26:
             var3 = _closure1_slot16;
             var1 = undefined;
             var3 = var3.bind(var1)(var5);
-            if(!var3) { _fun0005_ip = 196; continue _fun0005 }
- 75:
+            if(!var3) { _fun0005_ip = 25; continue _fun0005 }
+case 27:
             var3 = _closure1_slot14;
             var6 = var3.notifCenterIds;
             var4 = var6.has;
             var3 = var5.id;
             var3 = var4.bind(var6)(var3);
-            if(var3) { _fun0005_ip = 196; continue _fun0005 }
- 103:
+            if(var3) { _fun0005_ip = 25; continue _fun0005 }
+case 28:
             var3 = _closure1_slot14;
             var6 = var3.notifCenterIds;
             var4 = var6.add;
@@ -253,7 +253,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var2 = var3.bind(var4)(var2);
             return var1;
- 196:
+case 25:
             var1 = false;
             return var1;
         }
@@ -268,15 +268,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var5.map;
         var3 = function(arg1) {
             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
- 0:
+case 0:
                 var4 = arg1;
                 var5 = _closure2_slot0;
                 var2 = var5.includes;
                 var1 = var4.id;
                 var2 = var2.bind(var5)(var1);
                 var1 = var4;
-                if(!var2) { _fun0006_ip = 59; continue _fun0006 }
- 31:
+                if(!var2) { _fun0006_ip = 29; continue _fun0006 }
+case 30:
                 var2 = {};
                 var7 = var2;
                 var6 = var4;
@@ -285,7 +285,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = 'acked';
                 var2[var3] = var4;
                 var1 = var2;
- 59:
+case 29:
                 return var1;
             }
         };
@@ -300,50 +300,50 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot20 = var1;
     var1 = function isItem(arg1, arg2, arg3) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
- 0:
+case 0:
             var2 = arg1;
             var3 = var2.type;
             var1 = arg2;
             var1 = var3 === var1;
-            if(!var1) { _fun0007_ip = 47; continue _fun0007 }
- 18:
+            if(!var1) { _fun0007_ip = 31; continue _fun0007 }
+case 32:
             var2 = var2.other_user;
             var3 = null;
             var4 = var3 == var2;
             var3 = undefined;
-            if(var4) { _fun0007_ip = 40; continue _fun0007 }
- 35:
+            if(var4) { _fun0007_ip = 33; continue _fun0007 }
+case 34:
             var3 = var2.id;
- 40:
+case 33:
             var2 = arg3;
             var1 = var3 === var2;
- 47:
+case 31:
             return var1;
         }
     };
     var _closure1_slot21 = var1;
     var1 = function isGameRelationshipItem(arg1, arg2, arg3, arg4) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
- 0:
+case 0:
             var2 = arg1;
             var5 = _closure1_slot21;
             var4 = undefined;
             var3 = arg2;
             var1 = arg3;
             var1 = var5.bind(var4)(var2, var3, var1);
-            if(!var1) { _fun0008_ip = 40; continue _fun0008 }
- 28:
+            if(!var1) { _fun0008_ip = 33; continue _fun0008 }
+case 35:
             var3 = var2.applicationId;
             var2 = arg4;
             var1 = var3 === var2;
- 40:
+case 33:
             return var1;
         }
     };
     var _closure1_slot22 = var1;
     var9 = function handleRelationshipAddOrUpdate(arg1) {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
- 0:
+case 0:
             var2 = arg1;
             var6 = var2.relationship;
             var _closure2_slot0 = var6;
@@ -358,23 +358,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var6.originApplicationId;
             var8 = _closure1_slot13;
             var8 = var8.PENDING_INCOMING;
-            if(!(var5 === var8)) { _fun0009_ip = 199; continue _fun0009 }
- 79:
-            if(var3) { _fun0009_ip = 199; continue _fun0009 }
- 82:
-            if(var4) { _fun0009_ip = 199; continue _fun0009 }
- 85:
+            if(!(var5 === var8)) { _fun0009_ip = 36; continue _fun0009 }
+case 37:
+            if(var3) { _fun0009_ip = 36; continue _fun0009 }
+case 38:
+            if(var4) { _fun0009_ip = 36; continue _fun0009 }
+case 39:
             var3 = null;
-            if(!(var3 != var14)) { _fun0009_ip = 197; continue _fun0009 }
- 91:
-            if(!(var3 != var7)) { _fun0009_ip = 199; continue _fun0009 }
- 95:
+            if(!(var3 != var14)) { _fun0009_ip = 40; continue _fun0009 }
+case 15:
+            if(!(var3 != var7)) { _fun0009_ip = 36; continue _fun0009 }
+case 41:
             var9 = _closure1_slot12;
             var8 = var9.getUser;
             var7 = var7.id;
             var12 = var8.bind(var9)(var7);
-            if(!(var3 != var12)) { _fun0009_ip = 199; continue _fun0009 }
- 119:
+            if(!(var3 != var12)) { _fun0009_ip = 36; continue _fun0009 }
+case 42:
             var8 = _closure1_slot14;
             var17 = var8.notifCenterLocalItems;
             var7 = new Array(1);
@@ -393,31 +393,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = 1;
             var9 = var10 + var9;
             var8['notifCenterLocalItems'] = var7;
-            _fun0009_ip = 199; continue _fun0009;
- 197:
+            _fun0009_ip = 36; continue _fun0009;
+case 40:
             return var3;
- 199:
+case 36:
             var3 = _closure1_slot13;
             var3 = var3.FRIEND;
             var3 = var5 !== var3;
-            if(var3) { _fun0009_ip = 227; continue _fun0009 }
- 216:
+            if(var3) { _fun0009_ip = 43; continue _fun0009 }
+case 44:
             var7 = var6.user;
             var6 = null;
             var3 = var6 == var7;
- 227:
-            if(var3) { _fun0009_ip = 233; continue _fun0009 }
- 230:
+case 43:
+            if(var3) { _fun0009_ip = 45; continue _fun0009 }
+case 46:
             var3 = var4;
- 233:
-            if(var3) { _fun0009_ip = 267; continue _fun0009 }
- 236:
+case 45:
+            if(var3) { _fun0009_ip = 47; continue _fun0009 }
+case 48:
             var6 = _closure1_slot14;
             var8 = var6.notifCenterLocalItems;
             var7 = var8.map;
             var3 = function(arg1) {
                 _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
- 0:
+case 0:
                     var4 = arg1;
                     var8 = _closure1_slot21;
                     var2 = _closure1_slot0;
@@ -433,8 +433,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var1.id;
                     var2 = var8.bind(var5)(var4, var2, var1);
                     var1 = var4;
-                    if(!var2) { _fun0010_ip = 205; continue _fun0010 }
- 77:
+                    if(!var2) { _fun0010_ip = 49; continue _fun0010 }
+case 50:
                     var2 = {};
                     var13 = var2;
                     var12 = var4;
@@ -465,28 +465,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = 'type';
                     var2[var3] = var4;
                     var1 = var2;
- 205:
+case 49:
                     return var1;
                 }
             };
             var3 = var7.bind(var8)(var3);
             var6['notifCenterLocalItems'] = var3;
- 267:
+case 47:
             var3 = _closure1_slot13;
             var3 = var3.BLOCKED;
             var3 = var5 === var3;
-            if(var3) { _fun0009_ip = 287; continue _fun0009 }
- 284:
+            if(var3) { _fun0009_ip = 51; continue _fun0009 }
+case 52:
             var3 = var4;
- 287:
-            if(!var3) { _fun0009_ip = 321; continue _fun0009 }
- 290:
+case 51:
+            if(!var3) { _fun0009_ip = 53; continue _fun0009 }
+case 54:
             var2 = _closure1_slot14;
             var4 = var2.notifCenterLocalItems;
             var3 = var4.filter;
             var1 = function(arg1) {
                 _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
- 0:
+case 0:
                     var6 = arg1;
                     var7 = _closure1_slot21;
                     var2 = _closure1_slot0;
@@ -499,8 +499,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var1.INCOMING_FRIEND_REQUESTS;
                     var1 = _closure2_slot1;
                     var1 = var7.bind(var5)(var6, var4, var1);
-                    if(var1) { _fun0011_ip = 105; continue _fun0011 }
- 61:
+                    if(var1) { _fun0011_ip = 55; continue _fun0011 }
+case 26:
                     var9 = _closure1_slot21;
                     var7 = _closure1_slot0;
                     var4 = _closure1_slot2;
@@ -510,9 +510,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = var4.INCOMING_FRIEND_REQUESTS_ACCEPTED;
                     var4 = _closure2_slot1;
                     var1 = var9.bind(var5)(var6, var7, var4);
- 105:
-                    if(var1) { _fun0011_ip = 152; continue _fun0011 }
- 108:
+case 55:
+                    if(var1) { _fun0011_ip = 56; continue _fun0011 }
+case 57:
                     var9 = _closure1_slot21;
                     var7 = _closure1_slot0;
                     var4 = _closure1_slot2;
@@ -522,9 +522,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = var4.INCOMING_GAME_FRIEND_REQUESTS;
                     var4 = _closure2_slot1;
                     var1 = var9.bind(var5)(var6, var7, var4);
- 152:
-                    if(var1) { _fun0011_ip = 199; continue _fun0011 }
- 155:
+case 56:
+                    if(var1) { _fun0011_ip = 36; continue _fun0011 }
+case 58:
                     var4 = _closure1_slot21;
                     var7 = _closure1_slot0;
                     var3 = _closure1_slot2;
@@ -534,34 +534,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var3.INCOMING_GAME_FRIEND_REQUESTS_ACCEPTED;
                     var2 = _closure2_slot1;
                     var1 = var4.bind(var5)(var6, var3, var2);
- 199:
+case 36:
                     var1 = !var1;
                     return var1;
                 }
             };
             var1 = var3.bind(var4)(var1);
             var2['notifCenterLocalItems'] = var1;
- 321:
+case 53:
             var1 = undefined;
             return var1;
         }
     };
     var1 = function updateGuildEvent(arg1) {
         _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
- 0:
+case 0:
             var5 = arg1;
             var _closure2_slot0 = var5;
             var4 = _closure1_slot9;
             var1 = undefined;
             var4 = var4.bind(var1)(var5);
-            if(!var4) { _fun0012_ip = 57; continue _fun0012 }
- 26:
+            if(!var4) { _fun0012_ip = 59; continue _fun0012 }
+case 6:
             var3 = _closure1_slot14;
             var5 = var3.notifCenterItems;
             var4 = var5.map;
             var2 = function(arg1) {
                 _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
- 0:
+case 0:
                     var3 = arg1;
                     var4 = var3.type;
                     var5 = _closure1_slot0;
@@ -573,14 +573,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var1.NotificationCenterItems;
                     var2 = var1.GUILD_SCHEDULED_EVENT_STARTED;
                     var1 = var3;
-                    if(!(var4 === var2)) { _fun0013_ip = 105; continue _fun0013 }
- 52:
+                    if(!(var4 === var2)) { _fun0013_ip = 55; continue _fun0013 }
+case 60:
                     var4 = var3.guild_scheduled_event_id;
                     var2 = _closure2_slot0;
                     var2 = var2.id;
                     var1 = var3;
-                    if(!(var4 === var2)) { _fun0013_ip = 105; continue _fun0013 }
- 77:
+                    if(!(var4 === var2)) { _fun0013_ip = 55; continue _fun0013 }
+case 50:
                     var2 = {};
                     var7 = var2;
                     var6 = var3;
@@ -589,13 +589,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = 'disable_action';
                     var2[var3] = var4;
                     var1 = var2;
- 105:
+case 55:
                     return var1;
                 }
             };
             var2 = var4.bind(var5)(var2);
             var3['notifCenterItems'] = var2;
- 57:
+case 59:
             return var1;
         }
     };
@@ -682,7 +682,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function(arg1) {
         var4 = function NotificationCenterItemsStore() {
             _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
- 0:
+case 0:
                 var4 = this;
                 var3 = undefined;
                 var5 = undefined;
@@ -694,14 +694,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = _closure1_slot5;
                 var1 = _closure1_slot15;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0014_ip = 69; continue _fun0014 }
- 51:
+                if(var1) { _fun0014_ip = 61; continue _fun0014 }
+case 62:
                 var7 = var9.apply;
                 var5 = arguments;
                 var1 = var5;
                 var1 = var7.bind(var9)(var4, var1);
-                _fun0014_ip = 105; continue _fun0014;
- 69:
+                _fun0014_ip = 55; continue _fun0014;
+case 61:
                 var7 = global;
                 var8 = var7.Reflect;
                 var7 = var8.construct;
@@ -710,7 +710,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var6.constructor;
                 var5 = arguments;
                 var1 = var7.bind(var8)(var9, var5, var6);
- 105:
+case 55:
                 var1 = var2.bind(var3)(var4, var1);
                 return var1;
             }
@@ -726,7 +726,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5['key'] = var1;
         var1 = function value(arg1) {
             _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var7 = this;
                 var6 = var7.waitFor;
@@ -735,13 +735,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = _closure1_slot8;
                 var3 = var6.bind(var7)(var5, var4, var3);
                 var3 = null;
-                if(!(var3 != var1)) { _fun0015_ip = 133; continue _fun0015 }
- 40:
+                if(!(var3 != var1)) { _fun0015_ip = 63; continue _fun0015 }
+case 33:
                 var4 = var1.notifCenterItems;
                 var3 = var4.map;
                 var1 = function(arg1) {
                     _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
- 0:
+case 0:
                         var2 = arg1;
                         var1 = {};
                         var7 = var1;
@@ -751,8 +751,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var3 = null;
                         var4 = var3 != var4;
                         var3 = undefined;
-                        if(!var4) { _fun0016_ip = 63; continue _fun0016 }
- 31:
+                        if(!var4) { _fun0016_ip = 64; continue _fun0016 }
+case 30:
                         var5 = _closure1_slot10;
                         var7 = var2.message;
                         var4 = var5.prototype;
@@ -760,7 +760,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var8 = var4;
                         var2 = new var8[var5](var7, var6);
                         var3 = var2 instanceof Object ? var2 : var4;
- 63:
+case 64:
                         var2 = 'message';
                         var1[var2] = var3;
                         return var1;
@@ -769,8 +769,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var3.bind(var4)(var1);
                 var3 = var4.length;
                 var1 = 0;
-                if(!(var3 > var1)) { _fun0015_ip = 133; continue _fun0015 }
- 74:
+                if(!(var3 > var1)) { _fun0015_ip = 63; continue _fun0015 }
+case 4:
                 var1 = {};
                 var9 = _closure1_slot14;
                 var10 = var1;
@@ -786,7 +786,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = 'staleNotifCenterItems';
                 var1[var3] = var4;
                 _closure1_slot14 = var1;
- 133:
+case 63:
                 var1 = undefined;
                 return var1;
             }
@@ -800,7 +800,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = function value() {
             var4 = function pack(arg1) {
                 _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
- 0:
+case 0:
                     var2 = arg1;
                     var1 = {};
                     var6 = var1;
@@ -810,12 +810,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = null;
                     var4 = var3 != var4;
                     var3 = undefined;
-                    if(!var4) { _fun0017_ip = 46; continue _fun0017 }
- 31:
+                    if(!var4) { _fun0017_ip = 65; continue _fun0017 }
+case 30:
                     var4 = var2.message;
                     var2 = var4.toJS;
                     var3 = var2.bind(var4)();
- 46:
+case 65:
                     var2 = 'message';
                     var1[var2] = var3;
                     return var1;
@@ -866,17 +866,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5['key'] = var7;
         var7 = function get() {
             _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
- 0:
+case 0:
                 var1 = _closure1_slot14;
                 var1 = var1.isDataStale;
                 var2 = _closure1_slot14;
-                if(var1) { _fun0018_ip = 28; continue _fun0018 }
- 20:
+                if(var1) { _fun0018_ip = 35; continue _fun0018 }
+case 66:
                 var1 = var2.notifCenterItems;
-                _fun0018_ip = 34; continue _fun0018;
- 28:
+                _fun0018_ip = 67; continue _fun0018;
+case 35:
                 var1 = var2.staleNotifCenterItems;
- 34:
+case 67:
                 return var1;
             }
         };
@@ -970,7 +970,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var6.forEach;
         var4 = function(arg1) {
             _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var7 = var1.type;
                 var3 = var1.user;
@@ -979,31 +979,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var1.user_ignored;
                 var8 = var1.origin_application_id;
                 var1 = null;
-                if(!(var1 != var3)) { _fun0019_ip = 180; continue _fun0019 }
- 46:
-                if(!var4) { _fun0019_ip = 71; continue _fun0019 }
- 49:
+                if(!(var1 != var3)) { _fun0019_ip = 68; continue _fun0019 }
+case 65:
+                if(!var4) { _fun0019_ip = 69; continue _fun0019 }
+case 70:
                 var10 = _closure2_slot1;
                 var6 = var10.add;
                 var2 = var3.id;
                 var2 = var6.bind(var10)(var2);
- 71:
+case 69:
                 var6 = _closure1_slot13;
                 var6 = var6.PENDING_INCOMING;
-                if(!(var7 === var6)) { _fun0019_ip = 178; continue _fun0019 }
- 88:
-                if(var5) { _fun0019_ip = 178; continue _fun0019 }
- 91:
-                if(var4) { _fun0019_ip = 178; continue _fun0019 }
- 94:
-                if(!(var1 != var9)) { _fun0019_ip = 178; continue _fun0019 }
- 98:
+                if(!(var7 === var6)) { _fun0019_ip = 71; continue _fun0019 }
+case 72:
+                if(var5) { _fun0019_ip = 71; continue _fun0019 }
+case 15:
+                if(var4) { _fun0019_ip = 71; continue _fun0019 }
+case 18:
+                if(!(var1 != var9)) { _fun0019_ip = 71; continue _fun0019 }
+case 73:
                 var5 = _closure1_slot12;
                 var4 = var5.getUser;
                 var3 = var3.id;
                 var7 = var4.bind(var5)(var3);
-                if(!(var1 != var7)) { _fun0019_ip = 176; continue _fun0019 }
- 122:
+                if(!(var1 != var7)) { _fun0019_ip = 74; continue _fun0019 }
+case 75:
                 var5 = _closure2_slot0;
                 var4 = var5.push;
                 var6 = _closure1_slot0;
@@ -1016,11 +1016,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var3.bind(var6)(var7, var9, var8);
                 var3 = var4.bind(var5)(var3);
                 return var2;
- 176:
+case 74:
                 return var1;
- 178:
+case 71:
                 return var1;
- 180:
+case 68:
                 return var1;
             }
         };
@@ -1029,7 +1029,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var6.forEach;
         var4 = function(arg1) {
             _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var3 = var1.type;
                 var5 = var1.id;
@@ -1037,19 +1037,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var1.since;
                 var2 = _closure1_slot13;
                 var2 = var2.PENDING_INCOMING;
-                if(!(var3 === var2)) { _fun0020_ip = 132; continue _fun0020 }
- 42:
+                if(!(var3 === var2)) { _fun0020_ip = 76; continue _fun0020 }
+case 24:
                 var4 = _closure2_slot1;
                 var3 = var4.has;
                 var3 = var3.bind(var4)(var5);
-                if(var3) { _fun0020_ip = 132; continue _fun0020 }
- 62:
+                if(var3) { _fun0020_ip = 76; continue _fun0020 }
+case 77:
                 var4 = _closure1_slot12;
                 var3 = var4.getUser;
                 var5 = var3.bind(var4)(var5);
                 var3 = null;
-                if(!(var3 != var5)) { _fun0020_ip = 132; continue _fun0020 }
- 83:
+                if(!(var3 != var5)) { _fun0020_ip = 76; continue _fun0020 }
+case 78:
                 var3 = _closure2_slot0;
                 var2 = var3.push;
                 var8 = _closure1_slot0;
@@ -1061,7 +1061,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var4.incomingGameFriendRequestLocalItem;
                 var1 = var1.bind(var4)(var5, var6, var7);
                 var1 = var2.bind(var3)(var1);
- 132:
+case 76:
                 var1 = undefined;
                 return var1;
             }
@@ -1130,7 +1130,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['NOTIFICATION_CENTER_ITEM_CREATE'] = var10;
     var11 = function handleDelete(arg1) {
         _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
- 0:
+case 0:
             var2 = arg1;
             var5 = var2.id;
             var _closure2_slot0 = var5;
@@ -1138,11 +1138,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var3.notifCenterIds;
             var3 = var4.has;
             var3 = var3.bind(var4)(var5);
-            if(var3) { _fun0021_ip = 44; continue _fun0021 }
- 40:
+            if(var3) { _fun0021_ip = 79; continue _fun0021 }
+case 33:
             var3 = false;
             return var3;
- 44:
+case 79:
             var3 = _closure1_slot14;
             var4 = var3.notifCenterIds;
             var3 = var4.delete;
@@ -1188,15 +1188,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['LOAD_NOTIFICATION_CENTER_ITEMS_FAILURE'] = var10;
     var10 = function handleLoadSuccess(arg1) {
         _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
- 0:
+case 0:
             var2 = arg1;
             var3 = var2.items;
             var8 = var2.hasMore;
             var6 = var2.cursor;
             var4 = _closure1_slot14;
             var4 = var4.loading;
-            if(!var4) { _fun0022_ip = 277; continue _fun0022 }
- 41:
+            if(!var4) { _fun0022_ip = 80; continue _fun0022 }
+case 81:
             var4 = _closure1_slot14;
             var5 = false;
             var4['loading'] = var5;
@@ -1209,34 +1209,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4['isDataStale'] = var5;
             var4 = null;
             var4 = var4 != var6;
-            if(!var4) { _fun0022_ip = 114; continue _fun0022 }
- 94:
+            if(!var4) { _fun0022_ip = 82; continue _fun0022 }
+case 18:
             var5 = _closure1_slot14;
             var7 = var5.notifCenterIds;
             var5 = var7.has;
             var4 = var5.bind(var7)(var6);
- 114:
-            if(var4) { _fun0022_ip = 171; continue _fun0022 }
- 117:
+case 82:
+            if(var4) { _fun0022_ip = 83; continue _fun0022 }
+case 84:
             var5 = _closure1_slot14;
             var4 = var3.length;
             var7 = 0;
             var4 = var4 > var7;
-            if(!var4) { _fun0022_ip = 138; continue _fun0022 }
- 135:
+            if(!var4) { _fun0022_ip = 85; continue _fun0022 }
+case 86:
             var4 = var8;
- 138:
+case 85:
             var5['paginationHasMore'] = var4;
             var5 = _closure1_slot14;
             var4 = var3.length;
             var7 = var4 > var7;
             var4 = undefined;
-            if(!var7) { _fun0022_ip = 165; continue _fun0022 }
- 162:
+            if(!var7) { _fun0022_ip = 87; continue _fun0022 }
+case 88:
             var4 = var6;
- 165:
+case 87:
             var5['paginationCursor'] = var4;
- 171:
+case 83:
             var5 = _closure1_slot14;
             var11 = var5.notifCenterItems;
             var4 = new Array(0);
@@ -1291,7 +1291,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var1 = var2.bind(var3)(var1);
- 277:
+case 80:
             var1 = undefined;
             return var1;
         }
@@ -1332,7 +1332,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var4.filter;
         var1 = function(arg1) {
             _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
- 0:
+case 0:
                 var6 = arg1;
                 var7 = _closure1_slot21;
                 var2 = _closure1_slot0;
@@ -1348,8 +1348,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var1.id;
                 var4 = var7.bind(var5)(var6, var4, var1);
                 var1 = !var4;
-                if(var4) { _fun0023_ip = 133; continue _fun0023 }
- 75:
+                if(var4) { _fun0023_ip = 63; continue _fun0023 }
+case 27:
                 var4 = _closure1_slot21;
                 var7 = _closure1_slot0;
                 var3 = _closure1_slot2;
@@ -1362,7 +1362,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var2.id;
                 var2 = var4.bind(var5)(var6, var3, var2);
                 var1 = !var2;
- 133:
+case 63:
                 return var1;
             }
         };
@@ -1374,7 +1374,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['RELATIONSHIP_REMOVE'] = var9;
     var9 = function handleGameRelationshipAddOrUpdate(arg1) {
         _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
- 0:
+case 0:
             var2 = arg1;
             var2 = var2.gameRelationship;
             var4 = var2.id;
@@ -1386,22 +1386,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = _closure1_slot11;
             var2 = var6.isBlockedOrIgnored;
             var2 = var2.bind(var6)(var4);
-            if(var2) { _fun0024_ip = 240; continue _fun0024 }
- 64:
+            if(var2) { _fun0024_ip = 89; continue _fun0024 }
+case 90:
             var2 = _closure1_slot13;
             var2 = var2.PENDING_INCOMING;
-            if(!(var5 !== var2)) { _fun0024_ip = 129; continue _fun0024 }
- 78:
+            if(!(var5 !== var2)) { _fun0024_ip = 91; continue _fun0024 }
+case 92:
             var2 = _closure1_slot13;
             var2 = var2.FRIEND;
-            if(!(var5 === var2)) { _fun0024_ip = 125; continue _fun0024 }
- 92:
+            if(!(var5 === var2)) { _fun0024_ip = 93; continue _fun0024 }
+case 94:
             var2 = _closure1_slot14;
             var6 = var2.notifCenterLocalItems;
             var5 = var6.map;
             var1 = function(arg1) {
                 _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
- 0:
+case 0:
                     var4 = arg1;
                     var9 = _closure1_slot22;
                     var2 = _closure1_slot0;
@@ -1418,8 +1418,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var14 = var4;
                     var2 = var15[var9](var14, var13, var12, var11, var10);
                     var1 = var4;
-                    if(!var2) { _fun0025_ip = 196; continue _fun0025 }
- 73:
+                    if(!var2) { _fun0025_ip = 25; continue _fun0025 }
+case 95:
                     var2 = {};
                     var14 = var2;
                     var13 = var4;
@@ -1449,28 +1449,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = 'type';
                     var2[var3] = var4;
                     var1 = var2;
- 196:
+case 25:
                     return var1;
                 }
             };
             var1 = var5.bind(var6)(var1);
             var2['notifCenterLocalItems'] = var1;
-            _fun0024_ip = 236; continue _fun0024;
- 125:
+            _fun0024_ip = 48; continue _fun0024;
+case 93:
             var1 = false;
             return var1;
- 129:
+case 91:
             var2 = _closure1_slot12;
             var1 = var2.getUser;
             var6 = var1.bind(var2)(var4);
             var2 = null;
             var1 = var2 != var8;
-            if(!var1) { _fun0024_ip = 157; continue _fun0024 }
- 153:
+            if(!var1) { _fun0024_ip = 96; continue _fun0024 }
+case 97:
             var1 = var2 != var6;
- 157:
-            if(!var1) { _fun0024_ip = 236; continue _fun0024 }
- 160:
+case 96:
+            if(!var1) { _fun0024_ip = 48; continue _fun0024 }
+case 98:
             var2 = _closure1_slot14;
             var11 = var2.notifCenterLocalItems;
             var1 = new Array(1);
@@ -1489,10 +1489,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = 1;
             var3 = var4 + var3;
             var2['notifCenterLocalItems'] = var1;
- 236:
+case 48:
             var1 = undefined;
             return var1;
- 240:
+case 89:
             var1 = false;
             return var1;
         }
@@ -1509,7 +1509,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var4.filter;
         var1 = function(arg1) {
             _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
- 0:
+case 0:
                 var7 = arg1;
                 var9 = _closure1_slot22;
                 var2 = _closure1_slot0;
@@ -1526,8 +1526,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var13 = var7;
                 var4 = var14[var9](var13, var12, var11, var10, var9);
                 var1 = !var4;
-                if(var4) { _fun0026_ip = 123; continue _fun0026 }
- 70:
+                if(var4) { _fun0026_ip = 99; continue _fun0026 }
+case 3:
                 var5 = _closure1_slot22;
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
@@ -1541,7 +1541,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var13 = var7;
                 var2 = var14[var5](var13, var12, var11, var10, var9);
                 var1 = !var2;
- 123:
+case 99:
                 return var1;
             }
         };
@@ -1560,13 +1560,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var5.map;
         var3 = function(arg1) {
             _fun0027: for(var _fun0027_ip = 0; ; ) switch(_fun0027_ip) {
- 0:
+case 0:
                 var3 = arg1;
                 var4 = var3.item_enum;
                 var2 = _closure2_slot0;
                 var1 = var3;
-                if(!(var4 === var2)) { _fun0027_ip = 58; continue _fun0027 }
- 23:
+                if(!(var4 === var2)) { _fun0027_ip = 100; continue _fun0027 }
+case 10:
                 var2 = {};
                 var6 = var2;
                 var5 = var3;
@@ -1577,7 +1577,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = 'acked';
                 var2[var3] = var4;
                 var1 = var2;
- 58:
+case 100:
                 return var1;
             }
         };
@@ -1599,14 +1599,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['SET_RECENT_MENTIONS_FILTER'] = var9;
     var9 = function handleMobileNativeUpdate(arg1) {
         _fun0028: for(var _fun0028_ip = 0; ; ) switch(_fun0028_ip) {
- 0:
+case 0:
             var1 = arg1;
             var6 = var1.newBuild;
             var1 = undefined;
             var _closure2_slot0 = var1;
             var3 = null;
-            if(!(var3 !== var6)) { _fun0028_ip = 150; continue _fun0028 }
- 26:
+            if(!(var3 !== var6)) { _fun0028_ip = 101; continue _fun0028 }
+case 6:
             var5 = _closure1_slot0;
             var7 = _closure1_slot2;
             var4 = 13;
@@ -1627,8 +1627,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var5 = var6.bind(var7)(var5);
-            if(!(var1 === var5)) { _fun0028_ip = 150; continue _fun0028 }
- 94:
+            if(!(var1 === var5)) { _fun0028_ip = 101; continue _fun0028 }
+case 18:
             var3 = _closure1_slot14;
             var6 = var3.notifCenterLocalItems;
             var5 = var6.filter;
@@ -1649,21 +1649,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = 1;
             var4 = var5 + var4;
             var3['notifCenterLocalItems'] = var2;
- 150:
+case 101:
             return var1;
         }
     };
     var2['MOBILE_NATIVE_UPDATE_CHECK_FINISHED'] = var9;
     var4 = function handleFetchApplicationsSuccess(arg1) {
         _fun0029: for(var _fun0029_ip = 0; ; ) switch(_fun0029_ip) {
- 0:
+case 0:
             var1 = arg1;
             var5 = var1.unknownApplicationIds;
             var1 = undefined;
             var _closure2_slot0 = var1;
             var3 = null;
-            if(!(var3 != var5)) { _fun0029_ip = 92; continue _fun0029 }
- 23:
+            if(!(var3 != var5)) { _fun0029_ip = 94; continue _fun0029 }
+case 10:
             var3 = global;
             var3 = var3.Set;
             var4 = var3.prototype;
@@ -1678,25 +1678,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var5.filter;
             var2 = function(arg1) {
                 _fun0030: for(var _fun0030_ip = 0; ; ) switch(_fun0030_ip) {
- 0:
+case 0:
                     var2 = arg1;
                     var3 = var2.applicationId;
                     var1 = null;
                     var1 = var1 == var3;
-                    if(var1) { _fun0030_ip = 42; continue _fun0030 }
- 17:
+                    if(var1) { _fun0030_ip = 24; continue _fun0030 }
+case 7:
                     var4 = _closure2_slot0;
                     var3 = var4.has;
                     var2 = var2.applicationId;
                     var2 = var3.bind(var4)(var2);
                     var1 = !var2;
- 42:
+case 24:
                     return var1;
                 }
             };
             var2 = var4.bind(var5)(var2);
             var3['notifCenterLocalItems'] = var2;
- 92:
+case 94:
             return var1;
         }
     };

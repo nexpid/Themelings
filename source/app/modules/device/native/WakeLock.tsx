@@ -16,7 +16,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[0] = var5;
         var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
                 var2 = 2;
@@ -25,15 +25,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var4.bind(var3)(var2);
                 var2 = var4.isAndroid;
                 var2 = var2.bind(var4)();
-                if(var2) { _fun0001_ip = 67; continue _fun0001 }
- 37:
+                if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var2 = _closure1_slot4;
                 var5 = var2.ScreenWakeLockManager;
                 var4 = var5.requestLock;
                 var2 = _closure2_slot0;
                 var2 = var4.bind(var5)(var2);
-                _fun0001_ip = 105; continue _fun0001;
- 67:
+                _fun0001_ip = 4; continue _fun0001;
+case 2:
                 var2 = _closure1_slot1;
                 var4 = _closure1_slot2;
                 var1 = 3;
@@ -42,10 +42,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var3.requestLock;
                 var1 = _closure2_slot0;
                 var1 = var2.bind(var3)(var1);
- 105:
+case 4:
                 var1 = function() {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                         var4 = _closure1_slot0;
                         var3 = _closure1_slot2;
                         var1 = 2;
@@ -54,15 +54,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var4 = var4.bind(var1)(var3);
                         var3 = var4.isAndroid;
                         var3 = var3.bind(var4)();
-                        if(var3) { _fun0002_ip = 67; continue _fun0002 }
- 37:
+                        if(var3) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                         var3 = _closure1_slot4;
                         var5 = var3.ScreenWakeLockManager;
                         var4 = var5.releaseLock;
                         var3 = _closure2_slot0;
                         var3 = var4.bind(var5)(var3);
-                        _fun0002_ip = 105; continue _fun0002;
- 67:
+                        _fun0002_ip = 4; continue _fun0002;
+case 2:
                         var3 = _closure1_slot1;
                         var4 = _closure1_slot2;
                         var2 = 3;
@@ -71,7 +71,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var3 = var4.releaseLock;
                         var2 = _closure2_slot0;
                         var2 = var3.bind(var4)(var2);
- 105:
+case 4:
                         return var1;
                     }
                 };

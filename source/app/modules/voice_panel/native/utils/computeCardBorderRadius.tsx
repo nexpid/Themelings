@@ -26,7 +26,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['code'] = var7;
     var2 = function o(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var4 = var1.id;
             var6 = var1.mode;
@@ -34,32 +34,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var1.isSelf;
             var5 = _closure1_slot0;
             var5 = var5.PANEL;
-            if(!(var6 !== var5)) { _fun0001_ip = 68; continue _fun0001 }
- 42:
+            if(!(var6 !== var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = _closure1_slot0;
             var5 = var5.PIP;
-            if(!(var6 !== var5)) { _fun0001_ip = 62; continue _fun0001 }
- 56:
+            if(!(var6 !== var5)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = _closure1_slot1;
-            _fun0001_ip = 66; continue _fun0001;
- 62:
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
             var5 = _closure1_slot2;
- 66:
+case 6:
             return var5;
- 68:
+case 2:
             var5 = null;
-            if(!(var5 != var3)) { _fun0001_ip = 81; continue _fun0001 }
- 74:
-            if(!(var3 !== var4)) { _fun0001_ip = 93; continue _fun0001 }
- 78:
-            if(var2) { _fun0001_ip = 87; continue _fun0001 }
- 81:
+            if(!(var5 != var3)) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
+            if(!(var3 !== var4)) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
+            if(var2) { _fun0001_ip = 11; continue _fun0001 }
+case 7:
             var2 = _closure1_slot1;
             return var2;
- 87:
+case 11:
             var1 = _closure1_slot2;
             return var1;
- 93:
+case 9:
             var1 = 0;
             return var1;
         }

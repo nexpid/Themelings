@@ -29,7 +29,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function isJSITraceEnabled() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = _closure1_slot1;
             var3 = _closure1_slot2;
             var1 = 1;
@@ -40,20 +40,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.bind(var3)();
             var3 = !var1;
             var1 = !var3;
-            if(var3) { _fun0001_ip = 63; continue _fun0001 }
- 43:
+            if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = _closure1_slot3;
             var3 = var2.JSITrace;
             var2 = var3.isEnabled;
             var1 = var2.bind(var3)();
- 63:
+case 2:
             return var1;
         }
     };
     var3['isJSITraceEnabled'] = var4;
     var4 = function setJSITraceEnabled(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var4 = _closure1_slot1;
             var3 = _closure1_slot2;
             var1 = 1;
@@ -62,21 +62,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.bind(var1)(var3);
             var3 = var4.isAndroid;
             var3 = var3.bind(var4)();
-            if(!var3) { _fun0002_ip = 61; continue _fun0002 }
- 37:
+            if(!var3) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var2 = _closure1_slot3;
             var4 = var2.JSITrace;
             var3 = var4.setEnabled;
             var2 = arg1;
             var2 = var3.bind(var4)(var2);
- 61:
+case 4:
             return var1;
         }
     };
     var3['setJSITraceEnabled'] = var4;
     var4 = function installJSITrace() {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var4 = _closure1_slot1;
             var2 = _closure1_slot2;
             var1 = 1;
@@ -87,20 +87,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.bind(var4)();
             var4 = !var1;
             var1 = !var4;
-            if(var4) { _fun0003_ip = 77; continue _fun0003 }
- 43:
+            if(var4) { _fun0003_ip = 6; continue _fun0003 }
+case 3:
             var3 = _closure1_slot3;
             var4 = var3.JSITrace;
             var3 = null;
             var3 = var3 == var4;
             var2 = undefined;
-            if(var3) { _fun0003_ip = 74; continue _fun0003 }
- 64:
+            if(var3) { _fun0003_ip = 7; continue _fun0003 }
+case 8:
             var3 = var4.install;
             var2 = var3.bind(var4)();
- 74:
+case 7:
             var1 = var2;
- 77:
+case 6:
             return var1;
         }
     };
@@ -126,20 +126,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['beginAyncSection'] = var4;
     var4 = function endSection(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var3 = arg1;
             var1 = null;
-            if(!(var1 == var3)) { _fun0004_ip = 28; continue _fun0004 }
- 9:
+            if(!(var1 == var3)) { _fun0004_ip = 9; continue _fun0004 }
+case 10:
             var2 = _closure1_slot0;
             var1 = var2.jsitrace_endSection;
             var1 = var1.bind(var2)();
-            _fun0004_ip = 46; continue _fun0004;
- 28:
+            _fun0004_ip = 11; continue _fun0004;
+case 9:
             var2 = _closure1_slot0;
             var1 = var2.jsitrace_endSection;
             var1 = var1.bind(var2)(var3);
- 46:
+case 11:
             var1 = undefined;
             return var1;
         }

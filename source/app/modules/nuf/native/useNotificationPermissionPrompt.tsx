@@ -91,13 +91,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3[1] = var6;
         var2 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var2 = _closure2_slot0;
-                if(!var2) { _fun0001_ip = 113; continue _fun0001 }
- 10:
+                if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var1 = _closure2_slot1;
-                if(var1) { _fun0001_ip = 113; continue _fun0001 }
- 17:
+                if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
                 var2 = _closure1_slot7;
                 var5 = var2.promptSeen;
                 var6 = _closure1_slot1;
@@ -107,12 +107,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = undefined;
                 var2 = var6.bind(var3)(var2);
                 var2 = var2.shouldRequestNotification;
-                if(!var2) { _fun0001_ip = 66; continue _fun0001 }
- 63:
+                if(!var2) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
                 var2 = !var5;
- 66:
-                if(!var2) { _fun0001_ip = 113; continue _fun0001 }
- 69:
+case 5:
+                if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+case 7:
                 var2 = _closure1_slot1;
                 var1 = _closure1_slot2;
                 var5 = var1[var4];
@@ -123,7 +123,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var2.bind(var3)(var1);
                 var1 = false;
                 var2['shouldRequestNotification'] = var1;
- 113:
+case 2:
                 var1 = undefined;
                 return var1;
             }

@@ -100,7 +100,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function StageChannelUpsell(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = var1.guildId;
             var _closure2_slot0 = var2;
@@ -120,8 +120,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var3[var1];
             var _closure2_slot2 = var11;
             var1 = null;
-            if(var2) { _fun0001_ip = 727; continue _fun0001 }
- 83:
+            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = _closure1_slot11;
             var3 = _closure1_slot5;
             var2 = {};
@@ -293,7 +293,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6['channelType'] = var10;
                 var10 = function onChannelCreated(arg1) {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                         var3 = _closure1_slot6;
                         var2 = {};
                         var4 = arg1;
@@ -304,11 +304,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var1 = undefined;
                         var3 = var3.bind(var1)(var2);
                         var2 = null;
-                        if(!(var2 != var3)) { _fun0002_ip = 55; continue _fun0002 }
- 43:
+                        if(!(var2 != var3)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                         var2 = _closure2_slot1;
                         var2 = var2.bind(var1)(var3);
- 55:
+case 4:
                         return var1;
                     }
                 };
@@ -342,7 +342,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[5] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 727:
+case 2:
             return var1;
         }
     };

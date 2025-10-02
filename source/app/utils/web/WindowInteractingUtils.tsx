@@ -36,14 +36,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['setCurrentlyInteractingWindowId'] = var4;
     var2 = function clearCurrentlyInteractingWindowId(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = _closure1_slot0;
             var1 = arg1;
-            if(!(var3 === var1)) { _fun0001_ip = 20; continue _fun0001 }
- 14:
+            if(!(var3 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = null;
             _closure1_slot0 = var1;
- 20:
+case 2:
             var1 = undefined;
             return var1;
         }

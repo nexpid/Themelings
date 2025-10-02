@@ -27,39 +27,39 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['code'] = var5;
     var10 = function t(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = arg2;
             var4 = arg3;
             var5 = null;
-            if(!(var5 != var1)) { _fun0001_ip = 243; continue _fun0001 }
- 18:
+            if(!(var5 != var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = var1.x;
-            if(!(var5 != var3)) { _fun0001_ip = 243; continue _fun0001 }
- 30:
+            if(!(var5 != var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var3 = var1.y;
-            if(!(var5 != var3)) { _fun0001_ip = 243; continue _fun0001 }
- 42:
+            if(!(var5 != var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 5:
             var3 = var1.width;
-            if(!(var5 != var3)) { _fun0001_ip = 243; continue _fun0001 }
- 54:
+            if(!(var5 != var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 6:
             var3 = var1.height;
-            if(!(var5 != var3)) { _fun0001_ip = 243; continue _fun0001 }
- 66:
-            if(!(var5 != var2)) { _fun0001_ip = 243; continue _fun0001 }
- 73:
+            if(!(var5 != var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 7:
+            if(!(var5 != var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 8:
             var3 = var2.x;
-            if(!(var5 != var3)) { _fun0001_ip = 243; continue _fun0001 }
- 85:
+            if(!(var5 != var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 9:
             var3 = var2.y;
-            if(!(var5 != var3)) { _fun0001_ip = 243; continue _fun0001 }
- 97:
+            if(!(var5 != var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 10:
             var3 = var2.width;
-            if(!(var5 != var3)) { _fun0001_ip = 243; continue _fun0001 }
- 109:
+            if(!(var5 != var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 11:
             var3 = var2.height;
-            if(!(var5 != var3)) { _fun0001_ip = 243; continue _fun0001 }
- 121:
+            if(!(var5 != var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 12:
             var3 = var1.x;
             var7 = var3 - var4;
             var5 = var1.x;
@@ -81,21 +81,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.height;
             var2 = var9 + var2;
             var1 = var8 < var1;
-            if(var1) { _fun0001_ip = 224; continue _fun0001 }
- 220:
+            if(var1) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var1 = var7 > var6;
- 224:
-            if(var1) { _fun0001_ip = 231; continue _fun0001 }
- 227:
+case 13:
+            if(var1) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
             var1 = var5 < var4;
- 231:
-            if(var1) { _fun0001_ip = 238; continue _fun0001 }
- 234:
+case 15:
+            if(var1) { _fun0001_ip = 17; continue _fun0001 }
+case 18:
             var1 = var3 > var2;
- 238:
+case 17:
             var1 = !var1;
             return var1;
- 243:
+case 2:
             var1 = false;
             return var1;
         }
@@ -111,27 +111,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5['code'] = var4;
     var4 = function l(arg1, arg2, arg3) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var3 = arg1;
             var4 = arg2;
             var5 = arg3;
             var2 = _closure1_slot3;
             var2 = var2.VOICE_CONTROLS_TOGGLE_BUTTON;
-            if(!(var2 !== var4)) { _fun0002_ip = 108; continue _fun0002 }
- 26:
+            if(!(var2 !== var4)) { _fun0002_ip = 19; continue _fun0002 }
+case 20:
             var2 = _closure1_slot3;
             var2 = var2.CAMERA_PREVIEW_PICTURE_IN_PICTURE;
-            if(!(var2 === var4)) { _fun0002_ip = 169; continue _fun0002 }
- 43:
+            if(!(var2 === var4)) { _fun0002_ip = 21; continue _fun0002 }
+case 22:
             var2 = _closure1_slot3;
             var2 = var2.VOICE_CONTROLS_TOGGLE_BUTTON;
             var2 = var3[var2];
             var2 = var2.isVisible;
-            if(var2) { _fun0002_ip = 70; continue _fun0002 }
- 66:
+            if(var2) { _fun0002_ip = 23; continue _fun0002 }
+case 7:
             var2 = false;
             return var2;
- 70:
+case 23:
             var7 = _closure1_slot4;
             var2 = _closure1_slot3;
             var2 = var2.VOICE_CONTROLS_TOGGLE_BUTTON;
@@ -139,20 +139,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = _closure1_slot2;
             var2 = undefined;
             var2 = var7.bind(var2)(var5, var6, var4);
-            if(!var2) { _fun0002_ip = 169; continue _fun0002 }
- 104:
+            if(!var2) { _fun0002_ip = 21; continue _fun0002 }
+case 24:
             var2 = true;
             return var2;
- 108:
+case 19:
             var2 = _closure1_slot3;
             var2 = var2.CAMERA_PREVIEW_PICTURE_IN_PICTURE;
             var2 = var3[var2];
             var2 = var2.isVisible;
-            if(var2) { _fun0002_ip = 135; continue _fun0002 }
- 131:
+            if(var2) { _fun0002_ip = 25; continue _fun0002 }
+case 26:
             var2 = false;
             return var2;
- 135:
+case 25:
             var4 = _closure1_slot4;
             var2 = _closure1_slot3;
             var2 = var2.CAMERA_PREVIEW_PICTURE_IN_PICTURE;
@@ -160,11 +160,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = _closure1_slot2;
             var1 = undefined;
             var1 = var4.bind(var1)(var5, var3, var2);
-            if(var1) { _fun0002_ip = 173; continue _fun0002 }
- 169:
+            if(var1) { _fun0002_ip = 27; continue _fun0002 }
+case 21:
             var1 = false;
             return var1;
- 173:
+case 27:
             var1 = true;
             return var1;
         }

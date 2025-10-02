@@ -86,7 +86,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function InteractionIframeModal(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arg1;
             var1 = _closure1_slot10;
             var4 = undefined;
@@ -184,8 +184,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.bind(var4)(var3);
             var18 = null;
             var6 = null;
-            if(var1) { _fun0001_ip = 456; continue _fun0001 }
- 268:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = _closure1_slot8;
             var2 = _closure1_slot1;
             var13 = _closure1_slot2;
@@ -263,16 +263,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var19.id;
             var12 = var12.bind(var13)(var7);
             var7 = 'origin';
-            if(!var12) { _fun0001_ip = 430; continue _fun0001 }
- 424:
+            if(!var12) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var7 = 'no-referrer';
- 430:
+case 4:
             var1['referrerPolicy'] = var7;
             var1['isPipOrGridMode'] = var5;
             var1['webViewKey'] = var4;
             var1['ignoreSilentHardwareSwitch'] = var5;
             var6 = var3.bind(var4)(var2, var1);
- 456:
+case 2:
             var3 = _closure1_slot9;
             var2 = _closure1_slot5;
             var1 = {};
@@ -350,10 +350,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var19 = var19.bot;
             var20 = var18 == var19;
             var18 = undefined;
-            if(var20) { _fun0001_ip = 801; continue _fun0001 }
- 795:
+            if(var20) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var18 = var19.verified;
- 801:
+case 6:
             var13['verified'] = var18;
             var18 = var11.botTag;
             var13['style'] = var18;

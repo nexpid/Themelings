@@ -5,8 +5,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = dependencyMap;
     var1 = function _isNativeReflectConstruct() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
- 2: // try_start_0
+case 0:
+case 2: // try_start_0
             var2 = global;
             var3 = var2.Boolean;
             var3 = var3.prototype;
@@ -24,11 +24,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var4)(var2);
             var2 = !var2;
             var _closure2_slot0 = var2;
- 72: // try_end0
-            _fun0001_ip = 76; continue _fun0001;
- 74: // catch_target0
+case 3: // try_end0
+            _fun0001_ip = 4; continue _fun0001;
+case 5: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+case 4:
             var2 = function _isNativeReflectConstruct() {
                 var1 = _closure2_slot0;
                 var1 = !var1;
@@ -85,7 +85,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function(arg1) {
         var4 = function ParticipantFocusManager(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var5 = this;
                 var13 = 0;
                 var1 = copyRestArgs(var13);
@@ -103,12 +103,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = _closure1_slot2;
                 var1 = _closure1_slot7;
                 var1 = var1.bind(var4)();
-                if(var1) { _fun0002_ip = 84; continue _fun0002 }
- 71:
+                if(var1) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                 var1 = var9.apply;
                 var1 = var1.bind(var9)(var5, var10);
-                _fun0002_ip = 118; continue _fun0002;
- 84:
+                _fun0002_ip = 8; continue _fun0002;
+case 6:
                 var6 = global;
                 var8 = var6.Reflect;
                 var7 = var8.construct;
@@ -116,7 +116,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var6.bind(var4)(var5);
                 var6 = var6.constructor;
                 var1 = var7.bind(var8)(var9, var10, var6);
- 118:
+case 8:
                 var1 = var3.bind(var4)(var5, var1);
                 var3 = global;
                 var3 = var3.Map;
@@ -144,13 +144,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5['key'] = var6;
         var1 = function value() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var3 = _closure1_slot5;
                 var1 = var3.getChannelId;
                 var6 = var1.bind(var3)();
                 var1 = null;
-                if(!(var1 != var6)) { _fun0003_ip = 116; continue _fun0003 }
- 25:
+                if(!(var1 != var6)) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
                 var5 = _closure1_slot6;
                 var3 = var5.getSelectedParticipantId;
                 var3 = var3.bind(var5)(var6);
@@ -160,34 +160,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = _closure1_slot5;
                 var2 = var3.getRTCConnection;
                 var3 = var2.bind(var3)();
-                if(!(var1 != var3)) { _fun0003_ip = 116; continue _fun0003 }
- 73:
+                if(!(var1 != var3)) { _fun0003_ip = 9; continue _fun0003 }
+case 11:
                 var2 = var3.setSelectedParticipant;
                 var5 = var6.find;
                 var4 = function(arg1) {
                     _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                         var2 = arg1;
                         var3 = var2.id;
                         var1 = _closure3_slot0;
                         var1 = var3 === var1;
-                        if(!var1) { _fun0004_ip = 31; continue _fun0004 }
- 22:
+                        if(!var1) { _fun0004_ip = 12; continue _fun0004 }
+case 13:
                         var2 = var2.localVideoDisabled;
                         var1 = !var2;
- 31:
+case 12:
                         return var1;
                     }
                 };
                 var4 = var5.bind(var6)(var4);
                 var5 = var1 == var4;
                 var1 = undefined;
-                if(var5) { _fun0003_ip = 111; continue _fun0003 }
- 106:
+                if(var5) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
                 var1 = var4.id;
- 111:
+case 14:
                 var1 = var2.bind(var3)(var1);
- 116:
+case 9:
                 var1 = undefined;
                 return var1;
             }

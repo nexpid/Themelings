@@ -20,9 +20,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var4.bind(var5)(var2);
     var2 = function encodeProperties(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
- 3: // try_start_0
+case 2: // try_start_0
             var4 = global;
             var3 = var4.Buffer;
             var2 = var3.from;
@@ -33,9 +33,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.toString;
             var1 = 'base64';
             var1 = var2.bind(var3)(var1);
- 52: // try_end0
+case 3: // try_end0
             return var1;
- 54: // catch_target0
+case 4: // catch_target0
             CatchBlockStart(arg_register=0);
             var1 = null;
             return var1;

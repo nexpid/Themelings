@@ -7,12 +7,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var5;
     var4 = function parseServerNameplate(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var1 = null;
             var2 = var1 == var3;
-            if(var2) { _fun0001_ip = 70; continue _fun0001 }
- 12:
+            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = {};
             var4 = var3.asset;
             var2['asset'] = var4;
@@ -25,7 +25,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.palette;
             var2['palette'] = var3;
             var1 = var2;
- 70:
+case 2:
             return var1;
         }
     };
@@ -47,12 +47,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var7)(var5);
     var5 = function parseServerUserCollectibles(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var3 = arg1;
             var1 = null;
             var2 = var1 == var3;
-            if(var2) { _fun0002_ip = 42; continue _fun0002 }
- 12:
+            if(var2) { _fun0002_ip = 4; continue _fun0002 }
+case 3:
             var2 = {};
             var5 = _closure1_slot2;
             var4 = var3.nameplate;
@@ -60,7 +60,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var5.bind(var3)(var4);
             var2['nameplate'] = var3;
             var1 = var2;
- 42:
+case 4:
             return var1;
         }
     };

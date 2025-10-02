@@ -65,7 +65,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[0] = var6;
         var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var4 = _closure1_slot2;
                 var2 = var4.getChannel;
                 var1 = _closure2_slot0;
@@ -73,24 +73,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = {};
                 var2 = null;
                 var4 = var2 != var7;
-                if(!var4) { _fun0001_ip = 77; continue _fun0001 }
- 35:
+                if(!var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var5 = var7.isPrivate;
                 var5 = var5.bind(var7)();
-                if(var5) { _fun0001_ip = 74; continue _fun0001 }
- 48:
+                if(var5) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var9 = _closure1_slot4;
                 var8 = var9.can;
                 var6 = _closure1_slot6;
                 var6 = var6.CONNECT;
                 var5 = var8.bind(var9)(var6, var7);
- 74:
+case 4:
                 var4 = var5;
- 77:
+case 2:
                 var1['canConnect'] = var4;
                 var2 = var2 == var7;
-                if(var2) { _fun0001_ip = 132; continue _fun0001 }
- 89:
+                if(var2) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                 var6 = _closure1_slot0;
                 var5 = _closure1_slot1;
                 var4 = 6;
@@ -101,7 +101,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = _closure1_slot5;
                 var3 = _closure1_slot3;
                 var2 = var5.bind(var6)(var7, var4, var3);
- 132:
+case 6:
                 var1['isAtMaxCapacity'] = var2;
                 return var1;
             }

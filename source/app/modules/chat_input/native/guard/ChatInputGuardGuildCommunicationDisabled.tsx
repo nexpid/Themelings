@@ -33,7 +33,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function CommunicationDisabledNoticeForGuild(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var1 = var1.guildMember;
             var3 = _closure1_slot0;
@@ -46,8 +46,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.bind(var3)(var1);
             var3 = var1.communicationDisabledUntil;
             var1 = null;
-            if(!(var1 != var3)) { _fun0001_ip = 90; continue _fun0001 }
- 57:
+            if(!(var1 != var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = global;
             var1 = var1.Date;
             var2 = var1.prototype;
@@ -56,8 +56,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var3;
             var1 = new var15[var1](var14, var13);
             var5 = var1 instanceof Object ? var1 : var2;
-            _fun0001_ip = 118; continue _fun0001;
- 90:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var1 = global;
             var1 = var1.Date;
             var2 = var1.prototype;
@@ -65,7 +65,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var2;
             var1 = new var15[var1](var14);
             var5 = var1 instanceof Object ? var1 : var2;
- 118:
+case 4:
             var3 = _closure1_slot4;
             var2 = _closure1_slot1;
             var11 = _closure1_slot2;

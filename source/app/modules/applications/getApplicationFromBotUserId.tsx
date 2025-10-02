@@ -32,7 +32,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useGetApplicationFromBotUserId(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var _closure2_slot0 = var1;
             var5 = _closure1_slot0;
@@ -47,41 +47,41 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[0] = var6;
             var2 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = _closure2_slot0;
                     var4 = null;
                     var1 = undefined;
-                    if(!(var4 !== var3)) { _fun0002_ip = 68; continue _fun0002 }
- 15:
+                    if(!(var4 !== var3)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var6 = _closure1_slot2;
                     var5 = var6.getUserProfile;
                     var8 = _closure2_slot0;
-                    if(!(var4 == var8)) { _fun0002_ip = 42; continue _fun0002 }
- 36:
+                    if(!(var4 == var8)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var3 = _closure1_slot3;
-                    _fun0002_ip = 46; continue _fun0002;
- 42:
+                    _fun0002_ip = 6; continue _fun0002;
+case 4:
                     var3 = _closure2_slot0;
- 46:
+case 6:
                     var3 = var5.bind(var6)(var3);
                     var4 = var4 == var3;
                     var2 = undefined;
-                    if(var4) { _fun0002_ip = 65; continue _fun0002 }
- 60:
+                    if(var4) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
                     var2 = var3.application;
- 65:
+case 7:
                     var1 = var2;
- 68:
+case 2:
                     return var1;
                 }
             };
             var2 = var4.bind(var5)(var3, var2);
             var3 = null;
             var3 = var3 != var2;
-            if(!var3) { _fun0001_ip = 76; continue _fun0001 }
- 73:
+            if(!var3) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var1 = var2;
- 76:
+case 9:
             return var1;
         }
     };

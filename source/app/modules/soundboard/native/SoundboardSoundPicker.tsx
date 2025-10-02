@@ -96,7 +96,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var16 = var1.channel;
             var _closure2_slot0 = var16;
@@ -291,8 +291,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.bind(var4)(var5);
             var5 = var6.isIOS;
             var6 = var5.bind(var6)();
-            if(!var6) { _fun0001_ip = 730; continue _fun0001 }
- 682:
+            if(!var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var8 = _closure1_slot11;
             var7 = _closure1_slot1;
             var9 = _closure1_slot2;
@@ -304,7 +304,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = 'soundboard-footer';
             var5['portalHostName'] = var9;
             var6 = var8.bind(var4)(var7, var5);
- 730:
+case 2:
             var5 = new Array(2);
             var5[0] = var6;
             var8 = _closure1_slot12;
@@ -321,8 +321,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var10.isAndroid;
             var10 = var9.bind(var10)();
             var9 = undefined;
-            if(!var10) { _fun0001_ip = 859; continue _fun0001 }
- 811:
+            if(!var10) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var17 = _closure1_slot11;
             var12 = _closure1_slot0;
             var18 = _closure1_slot2;
@@ -334,7 +334,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var18 = 'soundboard-footer';
             var10['name'] = var18;
             var9 = var17.bind(var4)(var12, var10);
- 859:
+case 4:
             var6['footer'] = var9;
             var18 = _closure1_slot12;
             var10 = _closure1_slot5;

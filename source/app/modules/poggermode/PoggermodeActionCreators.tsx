@@ -106,7 +106,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['clearMessageCombo'] = var4;
     var2 = function updateComboOnMessageSend(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var7 = arg1;
             var3 = _closure1_slot2;
             var2 = var3.getId;
@@ -115,8 +115,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.getUserCombo;
             var9 = var2.bind(var3)(var6, var7);
             var8 = null;
-            if(!(var8 != var9)) { _fun0001_ip = 118; continue _fun0001 }
- 42:
+            if(!(var8 != var9)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
             var2 = 3;
@@ -136,37 +136,37 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['displayed'] = var10;
             var2['comboMessage'] = var5;
             var2 = var3.bind(var4)(var2);
- 118:
+case 2:
             var2 = var8 != var9;
             var3 = 1;
             var5 = var3;
-            if(!var2) { _fun0001_ip = 188; continue _fun0001 }
- 131:
+            if(!var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = var8 == var9;
             var10 = undefined;
-            if(var2) { _fun0001_ip = 145; continue _fun0001 }
- 140:
+            if(var2) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var10 = var9.value;
- 145:
+case 6:
             var2 = 0;
             var10 = var10 > var2;
             var5 = var3;
-            if(!var10) { _fun0001_ip = 188; continue _fun0001 }
- 157:
+            if(!var10) { _fun0001_ip = 4; continue _fun0001 }
+case 8:
             var10 = var8 == var9;
             var4 = undefined;
-            if(var10) { _fun0001_ip = 172; continue _fun0001 }
- 166:
+            if(var10) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var4 = var9.multiplier;
- 172:
+case 9:
             var8 = var8 != var4;
             var2 = 0;
-            if(!var8) { _fun0001_ip = 184; continue _fun0001 }
- 181:
+            if(!var8) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var2 = var4;
- 184:
+case 11:
             var5 = var2 + var3;
- 188:
+case 4:
             var3 = _closure1_slot0;
             var2 = _closure1_slot1;
             var1 = 3;

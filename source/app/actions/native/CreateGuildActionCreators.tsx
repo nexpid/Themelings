@@ -37,7 +37,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var3.addConditionalChangeListener;
         var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var4 = _closure1_slot2;
                 var3 = var4.getDefaultChannel;
                 var1 = _closure2_slot0;
@@ -45,8 +45,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var _closure3_slot0 = var3;
                 var1 = null;
                 var1 = var1 == var3;
-                if(var1) { _fun0001_ip = 64; continue _fun0001 }
- 40:
+                if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var3 = global;
                 var4 = var3.setImmediate;
                 var3 = undefined;
@@ -68,7 +68,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 };
                 var2 = var4.bind(var3)(var2);
                 var1 = false;
- 64:
+case 2:
                 return var1;
             }
         };

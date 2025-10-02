@@ -46,21 +46,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[0] = var5;
         var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var4 = _closure1_slot3;
                 var2 = var4.getChannel;
                 var1 = _closure2_slot0;
                 var4 = var2.bind(var4)(var1);
                 var1 = null;
                 var2 = var1 != var4;
-                if(!var2) { _fun0001_ip = 142; continue _fun0001 }
- 33:
+                if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var2 = var4.isPrivate;
                 var2 = var2.bind(var4)();
                 var7 = _closure1_slot0;
                 var6 = _closure1_slot1;
-                if(var2) { _fun0001_ip = 98; continue _fun0001 }
- 54:
+                if(var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var2 = 4;
                 var5 = var6[var2];
                 var2 = undefined;
@@ -71,8 +71,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var9 = var9.VOICE_CHANNEL;
                 var2['source'] = var9;
                 var2 = var5.bind(var8)(var4, var2);
-                _fun0001_ip = 139; continue _fun0001;
- 98:
+                _fun0001_ip = 6; continue _fun0001;
+case 4:
                 var5 = 3;
                 var6 = var6[var5];
                 var5 = undefined;
@@ -82,9 +82,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = _closure1_slot4;
                 var3 = var3.CHANNEL_CALL;
                 var2 = var5.bind(var6)(var4, var3);
- 139:
+case 6:
                 var1 = var2;
- 142:
+case 2:
                 return var1;
             }
         };

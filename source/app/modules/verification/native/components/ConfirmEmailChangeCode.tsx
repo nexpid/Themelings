@@ -61,15 +61,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[1] = var1;
         var1 = function(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var4 = _closure1_slot5;
                 var3 = null;
                 var5 = var3 != var1;
-                if(!var5) { _fun0001_ip = 22; continue _fun0001 }
- 19:
+                if(!var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var3 = var1;
- 22:
+case 2:
                 var1 = undefined;
                 var3 = var4.bind(var1)(var3);
                 var5 = _closure2_slot0;
@@ -81,15 +81,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var7[var2];
                 var2 = var6.bind(var1)(var2);
                 var2 = var2.VerificationModalScenes;
-                if(var5) { _fun0001_ip = 87; continue _fun0001 }
- 74:
+                if(var5) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var5 = var2.ENTER_EMAIL;
                 var5 = var3.bind(var4)(var5);
-                _fun0001_ip = 98; continue _fun0001;
- 87:
+                _fun0001_ip = 6; continue _fun0001;
+case 4:
                 var2 = var2.CHANGE_EMAIL_COLLECT_REASONS;
                 var2 = var3.bind(var4)(var2);
- 98:
+case 6:
                 return var1;
             }
         };
@@ -106,11 +106,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = function* (arg1) {
                 var1 = function* anon_0_(arg1) {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0002_ip = 62; continue _fun0002 }
- 7:
+                        if(var2) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
                         var4 = _closure1_slot0;
                         var3 = _closure1_slot2;
                         var2 = 7;
@@ -121,16 +121,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = arg1;
                         var2 = var3.bind(var4)(var2);
                         SaveGenerator(address=50);
- 48:
+case 9:
                         return var2;
- 50:
+case 10:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                        if(var3) { _fun0002_ip = 59; continue _fun0002 }
- 56:
+                        if(var3) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
                         return var2;
- 59:
+case 11:
                         return var2;
- 62:
+case 7:
                         return var1;
                     }
                 };
@@ -157,11 +157,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = function* () {
             var1 = function* anon_0_() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0003_ip = 58; continue _fun0003 }
- 7:
+                    if(var2) { _fun0003_ip = 13; continue _fun0003 }
+case 8:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
                     var2 = 7;
@@ -171,16 +171,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var4.sendConfirmationCode;
                     var2 = var2.bind(var4)();
                     SaveGenerator(address=46);
- 44:
+case 14:
                     return var2;
- 46:
+case 15:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0003_ip = 55; continue _fun0003 }
- 52:
+                    if(var4) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
                     return var3;
- 55:
+case 16:
                     return var2;
- 58:
+case 13:
                     return var1;
                 }
             };

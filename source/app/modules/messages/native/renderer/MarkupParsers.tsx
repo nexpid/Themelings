@@ -73,7 +73,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function parseEmbedTitleMarkup(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var8 = arg1;
             var2 = arg2;
             var1 = global;
@@ -86,8 +86,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var4.get;
             var1 = var1.bind(var4)(var5);
             var4 = null;
-            if(!(var4 == var1)) { _fun0001_ip = 118; continue _fun0001 }
- 57:
+            if(!(var4 == var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var7 = _closure1_slot1;
             var6 = _closure1_slot2;
             var4 = 3;
@@ -103,14 +103,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.set;
             var3 = var3.bind(var4)(var5, var2);
             var1 = var2;
- 118:
+case 2:
             return var1;
         }
     };
     var3['parseEmbedTitleMarkup'] = var4;
     var4 = function parseEmbedDescriptionMarkup(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var2 = arg1;
             var7 = var2.description;
             var1 = var2.channelId;
@@ -129,27 +129,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var6.get;
             var3 = var3.bind(var6)(var4);
             var6 = null;
-            if(!(var6 != var3)) { _fun0002_ip = 99; continue _fun0002 }
- 94:
-            if(var5) { _fun0002_ip = 99; continue _fun0002 }
- 97:
+            if(!(var6 != var3)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
+            if(var5) { _fun0002_ip = 4; continue _fun0002 }
+case 6:
             return var3;
- 99:
+case 4:
             var12 = var14;
             var3 = var7;
             var7 = var3;
             for(var5 in var12)
- 116:
+case 7:
             {
                 var7 = var3;
- 128:
+case 8:
                 var17 = var5;
                 var16 = var3.replaceAll;
                 var15 = var14[var17];
                 var3 = var16.bind(var3)(var17, var15);
-                _fun0002_ip = 116; continue _fun0002;
+                _fun0002_ip = 7; continue _fun0002;
             }
- 149:
+case 9:
             var6 = _closure1_slot1;
             var5 = _closure1_slot2;
             var3 = 3;
@@ -161,10 +161,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['channelId'] = var1;
             var1 = true;
             var10 = !var10;
-            if(!var10) { _fun0002_ip = 208; continue _fun0002 }
- 205:
+            if(!var10) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
             var10 = var9;
- 208:
+case 10:
             var3['allowHeading'] = var10;
             var3['allowList'] = var9;
             var3['previewLinkTarget'] = var8;
@@ -178,7 +178,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['parseEmbedDescriptionMarkup'] = var4;
     var2 = function parseMessageMarkup(arg1, arg2, arg3) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var5 = arg1;
             var13 = arg3;
             var12 = arguments[3];
@@ -187,43 +187,43 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = arguments[6];
             var14 = arguments[7];
             var9 = undefined;
-            if(!(var12 === var9)) { _fun0003_ip = 29; continue _fun0003 }
- 27:
+            if(!(var12 === var9)) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
             var12 = false;
- 29:
-            if(!(var10 === var9)) { _fun0003_ip = 35; continue _fun0003 }
- 33:
+case 12:
+            if(!(var10 === var9)) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
             var10 = false;
- 35:
-            if(!(var11 === var9)) { _fun0003_ip = 41; continue _fun0003 }
- 39:
+case 14:
+            if(!(var11 === var9)) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
             var11 = false;
- 41:
-            if(!(var4 === var9)) { _fun0003_ip = 47; continue _fun0003 }
- 45:
+case 16:
+            if(!(var4 === var9)) { _fun0003_ip = 18; continue _fun0003 }
+case 19:
             var4 = false;
- 47:
-            if(!(var14 === var9)) { _fun0003_ip = 53; continue _fun0003 }
- 51:
+case 18:
+            if(!(var14 === var9)) { _fun0003_ip = 20; continue _fun0003 }
+case 21:
             var14 = false;
- 53:
+case 20:
             var2 = _closure1_slot6;
             var1 = var2.get;
             var1 = var1.bind(var2)(var5);
             var6 = null;
-            if(!(var6 != var1)) { _fun0003_ip = 89; continue _fun0003 }
- 76:
+            if(!(var6 != var1)) { _fun0003_ip = 22; continue _fun0003 }
+case 23:
             var2 = var1.isInlineReplyPreview;
-            if(!(var2 !== var12)) { _fun0003_ip = 467; continue _fun0003 }
- 89:
+            if(!(var2 !== var12)) { _fun0003_ip = 24; continue _fun0003 }
+case 22:
             var7 = var5.type;
             var2 = _closure1_slot3;
             var2 = var2.CHANGELOG;
-            if(!(var7 === var2)) { _fun0003_ip = 121; continue _fun0003 }
- 108:
+            if(!(var7 === var2)) { _fun0003_ip = 25; continue _fun0003 }
+case 26:
             var2 = var5.changelogId;
-            if(!(var6 == var2)) { _fun0003_ip = 302; continue _fun0003 }
- 121:
+            if(!(var6 == var2)) { _fun0003_ip = 27; continue _fun0003 }
+case 25:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var2 = 5;
@@ -247,16 +247,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6['hideSimpleEmbedContent'] = var13;
             var6['formatInline'] = var12;
             var16 = var10;
-            if(var10) { _fun0003_ip = 224; continue _fun0003 }
- 221:
+            if(var10) { _fun0003_ip = 28; continue _fun0003 }
+case 29:
             var16 = var11;
- 224:
+case 28:
             var6['allowHeading'] = var16;
             var16 = var10;
-            if(var10) { _fun0003_ip = 238; continue _fun0003 }
- 235:
+            if(var10) { _fun0003_ip = 30; continue _fun0003 }
+case 31:
             var16 = var11;
- 238:
+case 30:
             var6['allowList'] = var16;
             var6['allowLinks'] = var4;
             var6['allowGameMentions'] = var15;
@@ -271,7 +271,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var7.set;
             var6 = var6.bind(var7)(var5, var2);
             return var2;
- 302:
+case 27:
             var2 = {'content': null, 'isInlineReplyPreview': false, 'hasSpoilerEmbeds': false};
             var7 = _closure1_slot1;
             var15 = _closure1_slot2;
@@ -293,15 +293,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6['hideSimpleEmbedContent'] = var13;
             var6['formatInline'] = var12;
             var12 = var10;
-            if(var10) { _fun0003_ip = 409; continue _fun0003 }
- 406:
+            if(var10) { _fun0003_ip = 32; continue _fun0003 }
+case 33:
             var12 = var11;
- 409:
+case 32:
             var6['allowHeading'] = var12;
-            if(var10) { _fun0003_ip = 420; continue _fun0003 }
- 417:
+            if(var10) { _fun0003_ip = 34; continue _fun0003 }
+case 35:
             var10 = var11;
- 420:
+case 34:
             var6['allowList'] = var10;
             var6['allowLinks'] = var4;
             var6['previewLinkTarget'] = var4;
@@ -312,7 +312,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.set;
             var3 = var3.bind(var4)(var5, var2);
             return var2;
- 467:
+case 24:
             return var1;
         }
     };

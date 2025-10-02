@@ -75,7 +75,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['ToastContainer'] = var4;
     var4 = function PictureInPictureGlobalContainer() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
             var1 = 5;
@@ -119,17 +119,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = null;
             var9 = var4 == var6;
             var1 = null;
-            if(var9) { _fun0001_ip = 203; continue _fun0001 }
- 152:
+            if(var9) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = null;
-            if(!var8) { _fun0001_ip = 203; continue _fun0001 }
- 157:
+            if(!var8) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var1 = null;
-            if(var7) { _fun0001_ip = 203; continue _fun0001 }
- 162:
+            if(var7) { _fun0001_ip = 2; continue _fun0001 }
+case 5:
             var1 = null;
-            if(var3) { _fun0001_ip = 203; continue _fun0001 }
- 167:
+            if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 6:
             var4 = _closure1_slot7;
             var3 = _closure1_slot1;
             var7 = _closure1_slot2;
@@ -139,7 +139,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = {};
             var2['channel'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 203:
+case 2:
             return var1;
         }
     };
@@ -149,7 +149,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var5.useMemo;
         var3 = function() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var2 = {'input': 'k', 'modifierFlags': null, 'eventName': 'keyCommandShowQuickSwitcher'};
                 var4 = _closure1_slot0;
                 var5 = _closure1_slot2;
@@ -159,13 +159,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var4.bind(var6)(var3);
                 var3 = var4.isAndroid;
                 var3 = var3.bind(var4)();
-                if(var3) { _fun0002_ip = 69; continue _fun0002 }
- 51:
+                if(var3) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
                 var3 = _closure1_slot4;
                 var3 = var3.KeyCommandsView;
                 var3 = var3.keyModifierCommand;
-                _fun0002_ip = 105; continue _fun0002;
- 69:
+                _fun0002_ip = 9; continue _fun0002;
+case 7:
                 var5 = _closure1_slot1;
                 var7 = _closure1_slot2;
                 var4 = 11;
@@ -174,7 +174,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var5.getConstants;
                 var4 = var4.bind(var5)();
                 var3 = var4.keyModifierCommand;
- 105:
+case 9:
                 var2['modifierFlags'] = var3;
                 var5 = _closure1_slot0;
                 var7 = _closure1_slot2;

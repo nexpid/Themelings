@@ -71,7 +71,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['CONTACT_SYNC_ONBOARDING_LOCATION'] = var4;
     var4 = function trackFlowStart(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var _closure2_slot0 = var1;
             var1 = _closure1_slot7;
@@ -89,10 +89,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var5 == var6;
             var1 = undefined;
             var4 = undefined;
-            if(var7) { _fun0001_ip = 79; continue _fun0001 }
- 73:
+            if(var7) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = var6.phone;
- 79:
+case 2:
             var4 = var5 != var4;
             var _closure2_slot1 = var4;
             var4 = _closure1_slot0;
@@ -105,22 +105,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.then;
             var2 = function(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = arg1;
                     var1 = _closure1_slot5;
                     var1 = var1.NOT_DETERMINED;
                     var7 = null;
-                    if(!(var3 !== var1)) { _fun0002_ip = 49; continue _fun0002 }
- 22:
+                    if(!(var3 !== var1)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var1 = _closure1_slot5;
                     var2 = var1.AUTHORIZED;
                     var1 = 'denied';
-                    if(!(var3 === var2)) { _fun0002_ip = 46; continue _fun0002 }
- 42:
+                    if(!(var3 === var2)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var1 = 'accepted';
- 46:
+case 6:
                     var7 = var1;
- 49:
+case 4:
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
                     var1 = 5;
@@ -168,7 +168,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['trackFlowStart'] = var4;
     var4 = function trackFlowStep(arg1, arg2, arg3, arg4) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var3 = arg1;
             var9 = arg2;
             var14 = arg4;
@@ -196,17 +196,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17 = var14;
             var11 = copyDataProperties(var18, var17);
             var13 = 'Onboarding';
-            if(var5) { _fun0003_ip = 132; continue _fun0003 }
- 113:
+            if(var5) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
             var11 = null;
             var15 = var11 == var14;
             var11 = undefined;
-            if(var15) { _fun0003_ip = 129; continue _fun0003 }
- 124:
+            if(var15) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
             var11 = var14.location;
- 129:
+case 10:
             var13 = var11;
- 132:
+case 8:
             var11 = 'location';
             var6[var11] = var13;
             var13 = 'Contact Sync';
@@ -225,8 +225,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = 'seconds_on_from_step';
             var6[var11] = var12;
             var6 = var8.bind(var10)(var7, var6);
-            if(!var5) { _fun0003_ip = 263; continue _fun0003 }
- 219:
+            if(!var5) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var5 = 6;
@@ -237,7 +237,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = {};
             var5['skip'] = var9;
             var5 = var7.bind(var8)(var6, var3, var5);
- 263:
+case 12:
             _closure1_slot9 = var4;
             _closure1_slot8 = var3;
             return var1;
@@ -246,7 +246,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['trackFlowStep'] = var4;
     var2 = function trackFlowEnd(arg1, arg2) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var10 = arg2;
             var2 = _closure1_slot4;
             var1 = undefined;
@@ -268,17 +268,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var10;
             var9 = copyDataProperties(var13, var12);
             var9 = 'Onboarding';
-            if(var7) { _fun0004_ip = 108; continue _fun0004 }
- 89:
+            if(var7) { _fun0004_ip = 14; continue _fun0004 }
+case 15:
             var7 = null;
             var11 = var7 == var10;
             var7 = undefined;
-            if(var11) { _fun0004_ip = 105; continue _fun0004 }
- 100:
+            if(var11) { _fun0004_ip = 16; continue _fun0004 }
+case 17:
             var7 = var10.location;
- 105:
+case 16:
             var9 = var7;
- 108:
+case 14:
             var7 = 'location';
             var2[var7] = var9;
             var9 = 'Contact Sync';

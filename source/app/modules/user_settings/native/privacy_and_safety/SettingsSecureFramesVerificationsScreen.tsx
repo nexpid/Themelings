@@ -125,21 +125,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot11 = var1;
     var1 = function renderItem(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var1 = var1.item;
             var4 = var1.type;
             var3 = _closure1_slot9;
             var3 = var3.VERIFICATION;
-            if(!(var3 !== var4)) { _fun0001_ip = 78; continue _fun0001 }
- 30:
+            if(!(var3 !== var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = _closure1_slot9;
             var3 = var3.SECTION;
-            if(!(var3 !== var4)) { _fun0001_ip = 48; continue _fun0001 }
- 44:
+            if(!(var3 !== var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = undefined;
             return var3;
- 48:
+case 4:
             var6 = _closure1_slot7;
             var5 = _closure1_slot11;
             var4 = {};
@@ -149,7 +149,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = undefined;
             var3 = var6.bind(var3)(var5, var4);
             return var3;
- 78:
+case 2:
             var4 = _closure1_slot7;
             var3 = _closure1_slot10;
             var2 = {};
@@ -170,23 +170,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot13 = var1;
     var1 = function keyExtractor(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var3 = var1.type;
             var4 = _closure1_slot9;
             var4 = var4.VERIFICATION;
-            if(!(var4 !== var3)) { _fun0002_ip = 50; continue _fun0002 }
- 25:
+            if(!(var4 !== var3)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var2 = _closure1_slot9;
             var2 = var2.SECTION;
-            if(!(var2 !== var3)) { _fun0002_ip = 43; continue _fun0002 }
- 39:
+            if(!(var2 !== var3)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var2 = undefined;
             return var2;
- 43:
+case 8:
             var2 = var1.title;
             return var2;
- 50:
+case 6:
             var1 = var1.verification;
             var1 = var1.verifiedKey;
             return var1;
@@ -511,16 +511,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[1] = var7;
         var1 = function() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var2 = _closure2_slot3;
                 var3 = var2.length;
                 var2 = 0;
-                if(!(var2 === var3)) { _fun0003_ip = 32; continue _fun0003 }
- 18:
+                if(!(var2 === var3)) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
                 var2 = _closure2_slot1;
                 var1 = var2.pop;
                 var1 = var1.bind(var2)();
- 32:
+case 10:
                 var1 = undefined;
                 return var1;
             }

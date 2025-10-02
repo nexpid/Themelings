@@ -36,7 +36,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function useGuildIdForChannelRoute(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var5 = _closure1_slot0;
             var4 = _closure1_slot1;
@@ -56,52 +56,52 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var1 = var4.bind(var5)(var2, var1);
             var2 = null;
-            if(!(var2 == var1)) { _fun0001_ip = 74; continue _fun0001 }
- 64:
+            if(!(var2 == var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var3.getGuildId;
             var1 = var2.bind(var3)();
- 74:
+case 2:
             return var1;
         }
     };
     var3['default'] = var4;
     var2 = function getGuildIdForGenericRedirect(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var3 = arg1;
             var4 = _closure1_slot2;
             var1 = var4.getGuildId;
             var4 = var1.bind(var4)();
             var1 = _closure1_slot4;
-            if(!(var4 === var1)) { _fun0002_ip = 106; continue _fun0002 }
- 28:
+            if(!(var4 === var1)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var5 = _closure1_slot3;
             var4 = var5.isFavorite;
             var1 = var3.id;
             var1 = var4.bind(var5)(var1);
-            if(var1) { _fun0002_ip = 100; continue _fun0002 }
- 51:
+            if(var1) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var1 = var3.isThread;
             var1 = var1.bind(var3)();
-            if(!var1) { _fun0002_ip = 88; continue _fun0002 }
- 64:
+            if(!var1) { _fun0002_ip = 8; continue _fun0002 }
+case 3:
             var5 = _closure1_slot3;
             var4 = var5.isFavorite;
             var1 = var3.parent_id;
             var1 = var4.bind(var5)(var1);
-            if(var1) { _fun0002_ip = 100; continue _fun0002 }
- 88:
+            if(var1) { _fun0002_ip = 6; continue _fun0002 }
+case 8:
             var1 = var3.getGuildId;
             var1 = var1.bind(var3)();
-            _fun0002_ip = 104; continue _fun0002;
- 100:
+            _fun0002_ip = 9; continue _fun0002;
+case 6:
             var1 = _closure1_slot4;
- 104:
-            _fun0002_ip = 116; continue _fun0002;
- 106:
+case 9:
+            _fun0002_ip = 10; continue _fun0002;
+case 4:
             var2 = var3.getGuildId;
             var1 = var2.bind(var3)();
- 116:
+case 10:
             return var1;
         }
     };

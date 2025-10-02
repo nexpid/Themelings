@@ -32,7 +32,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var8.forwardRef;
     var4 = function(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var7 = arg1;
             var6 = arg2;
             var4 = _closure1_slot0;
@@ -54,11 +54,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2[0] = var5;
                 var1 = function() {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                         var2 = _closure3_slot0;
                         var1 = null;
-                        if(!(var1 != var2)) { _fun0002_ip = 42; continue _fun0002 }
- 13:
+                        if(!(var1 != var2)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                         var3 = _closure1_slot2;
                         var2 = var3.forwardRef;
                         var1 = function(arg1, arg2) {
@@ -104,10 +104,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             return var1;
                         };
                         var1 = var2.bind(var3)(var1);
-                        _fun0002_ip = 49; continue _fun0002;
- 42:
+                        _fun0002_ip = 4; continue _fun0002;
+case 2:
                         var1 = _closure1_slot3;
- 49:
+case 4:
                         return var1;
                     }
                 };
@@ -120,8 +120,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var4.bind(var5)(var1);
             var1 = var1.AppLauncherEntrypoint;
             var1 = var1.VOICE;
-            if(!(var3 !== var1)) { _fun0001_ip = 330; continue _fun0001 }
- 98:
+            if(!(var3 !== var1)) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var4 = _closure1_slot4;
             var3 = _closure1_slot0;
             var9 = _closure1_slot1;
@@ -166,8 +166,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['bottomViewabilityInsetRef'] = var9;
             var1['ref'] = var6;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0001_ip = 551; continue _fun0001;
- 330:
+            _fun0001_ip = 7; continue _fun0001;
+case 5:
             var4 = _closure1_slot4;
             var3 = _closure1_slot0;
             var9 = _closure1_slot1;
@@ -211,7 +211,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['overScrollMode'] = var7;
             var2['ref'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 551:
+case 7:
             return var1;
         }
     };

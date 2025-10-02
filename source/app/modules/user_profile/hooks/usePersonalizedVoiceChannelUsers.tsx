@@ -121,18 +121,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[2] = var6;
         var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var2 = _closure2_slot3;
                 var5 = _closure2_slot1;
-                if(var2) { _fun0001_ip = 21; continue _fun0001 }
- 16:
+                if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var4 = var5;
-                _fun0001_ip = 39; continue _fun0001;
- 21:
+                _fun0001_ip = 4; continue _fun0001;
+case 2:
                 var3 = var5.sort;
                 var2 = function(arg1, arg2) {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                         var3 = _closure2_slot2;
                         var2 = var3.get;
                         var1 = arg2;
@@ -140,38 +140,38 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var4 = null;
                         var2 = var4 == var1;
                         var6 = undefined;
-                        if(var2) { _fun0002_ip = 37; continue _fun0002 }
- 31:
+                        if(var2) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
                         var6 = var1.vcProbability;
- 37:
+case 5:
                         var7 = var4 != var6;
                         var1 = 0;
-                        if(!var7) { _fun0002_ip = 49; continue _fun0002 }
- 46:
+                        if(!var7) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
                         var1 = var6;
- 49:
+case 7:
                         var7 = _closure2_slot2;
                         var6 = var7.get;
                         var5 = arg1;
                         var5 = var6.bind(var7)(var5);
                         var6 = var4 == var5;
                         var3 = undefined;
-                        if(var6) { _fun0002_ip = 81; continue _fun0002 }
- 75:
+                        if(var6) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
                         var3 = var5.vcProbability;
- 81:
+case 9:
                         var4 = var4 != var3;
                         var2 = 0;
-                        if(!var4) { _fun0002_ip = 93; continue _fun0002 }
- 90:
+                        if(!var4) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
                         var2 = var3;
- 93:
+case 11:
                         var1 = var1 - var2;
                         return var1;
                     }
                 };
                 var4 = var3.bind(var5)(var2);
- 39:
+case 4:
                 var3 = var4.map;
                 var2 = function(arg1) {
                     var3 = _closure1_slot4;

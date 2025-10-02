@@ -53,15 +53,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function OnboardingHomeScrollView(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var3 = var1.guildId;
             var2 = var1.headerOffset;
             var4 = undefined;
-            if(!(var2 === var4)) { _fun0001_ip = 26; continue _fun0001 }
- 24:
+            if(!(var2 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = 0;
- 26:
+case 2:
             var _closure2_slot0 = var2;
             var5 = var1.scrollValue;
             var _closure2_slot1 = var5;
@@ -109,24 +109,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[0] = var3;
             var3 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var2 = _closure2_slot3;
                     var3 = var2.current;
                     var2 = null;
                     var2 = var2 == var3;
-                    if(var2) { _fun0002_ip = 30; continue _fun0002 }
- 21:
+                    if(var2) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var3 = _closure2_slot5;
                     var2 = var3.current;
- 30:
-                    if(var2) { _fun0002_ip = 67; continue _fun0002 }
- 33:
+case 4:
+                    if(var2) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var2 = _closure2_slot3;
                     var4 = var2.current;
                     var3 = var4.scrollTo;
                     var2 = {'animated': false, 'y': 0};
                     var2 = var3.bind(var4)(var2);
- 67:
+case 6:
                     var2 = _closure2_slot5;
                     var1 = false;
                     var2['current'] = var1;

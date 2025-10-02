@@ -71,7 +71,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function UserProfileSection(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var20 = var3.title;
             var17 = var3.headerIcon;
@@ -109,14 +109,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var23 = var16.contentContainer;
             var24 = var11;
             var3 = copyDataProperties(var24, var23);
-            if(!(var10 != var2)) { _fun0001_ip = 174; continue _fun0001 }
- 170:
-            if(!(var10 == var1)) { _fun0001_ip = 188; continue _fun0001 }
- 174:
+            if(!(var10 != var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            if(!(var10 == var1)) { _fun0001_ip = 4; continue _fun0001 }
+case 2:
             var2 = var16.contentContainer;
             var2 = var2.borderColor;
-            _fun0001_ip = 248; continue _fun0001;
- 188:
+            _fun0001_ip = 5; continue _fun0001;
+case 4:
             var18 = _closure1_slot0;
             var19 = _closure1_slot1;
             var3 = 7;
@@ -130,7 +130,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3[var14];
             var1 = var1.dividerOpacity;
             var2 = var7.bind(var13)(var3, var1);
- 248:
+case 5:
             var1 = 'borderColor';
             var11[var1] = var2;
             var3 = _closure1_slot4;
@@ -146,8 +146,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = copyDataProperties(var24, var23);
             var6 = var10 != var20;
             var7 = null;
-            if(!var6) { _fun0001_ip = 438; continue _fun0001 }
- 310:
+            if(!var6) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var13 = _closure1_slot4;
             var8 = _closure1_slot2;
             var6 = {};
@@ -176,17 +176,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14[1] = var15;
             var6['children'] = var14;
             var7 = var13.bind(var4)(var8, var6);
- 438:
+case 6:
             var6 = new Array(2);
             var6[0] = var7;
             var8 = _closure1_slot3;
             var7 = _closure1_slot2;
             var5 = {};
             var10 = null;
-            if(!var12) { _fun0001_ip = 464; continue _fun0001 }
- 461:
+            if(!var12) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var10 = var11;
- 464:
+case 8:
             var5['style'] = var10;
             var5['children'] = var9;
             var5 = var8.bind(var4)(var7, var5);

@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function ForLaterPage(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var6 = var2.handleScroll;
             var3 = _closure1_slot9;
@@ -144,8 +144,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var8 = var8.bind(var10)(var1, var4);
             var1 = var9.length;
-            if(!(var3 !== var1)) { _fun0001_ip = 436; continue _fun0001 }
- 354:
+            if(!(var3 !== var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = _closure1_slot7;
             var3 = _closure1_slot0;
             var10 = _closure1_slot2;
@@ -164,8 +164,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = 130;
             var1['estimatedItemSize'] = var6;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0001_ip = 474; continue _fun0001;
- 436:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var4 = _closure1_slot7;
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
@@ -175,7 +175,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var2.ForLaterEmptyState;
             var2 = {};
             var1 = var4.bind(var5)(var3, var2);
- 474:
+case 4:
             return var1;
         }
     };
@@ -246,11 +246,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var8.memo;
     var2 = function(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var2 = arg1;
             var3 = null;
-            if(!(var2 != var3)) { _fun0002_ip = 279; continue _fun0002 }
- 14:
+            if(!(var2 != var3)) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
             var5 = undefined;
             var _closure2_slot0 = var5;
             var3 = _closure1_slot9;
@@ -270,7 +270,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8[0] = var9;
             var3 = function(arg1) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var4 = _closure2_slot0;
                     var3 = var4.set;
                     var5 = _closure1_slot0;
@@ -286,10 +286,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var2.y;
                     var7 = var2 > var7;
                     var2 = 0;
-                    if(!var7) { _fun0003_ip = 74; continue _fun0003 }
- 71:
+                    if(!var7) { _fun0003_ip = 7; continue _fun0003 }
+case 8:
                     var2 = 1;
- 74:
+case 7:
                     var2 = var5.bind(var6)(var2);
                     var2 = var3.bind(var4)(var2);
                     return var1;
@@ -343,7 +343,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['children'] = var6;
             var1 = var4.bind(var5)(var3, var1);
             return var1;
- 279:
+case 5:
             var14 = "Cannot destructure 'undefined' or 'null'.";
             var15 = var2;
             var1 = throwTypeError(var15, var14);

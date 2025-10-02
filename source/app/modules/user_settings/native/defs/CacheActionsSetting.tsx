@@ -108,11 +108,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var15 = function* () {
             var1 = function* anon_0_() {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 124; continue _fun0001 }
- 7:
+                    if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var5 = _closure1_slot0;
                     var3 = _closure1_slot2;
                     var2 = 14;
@@ -122,12 +122,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var5.writeCaches;
                     var2 = var2.bind(var5)();
                     SaveGenerator(address=46);
- 44:
+case 4:
                     return var2;
- 46:
+case 5:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0001_ip = 121; continue _fun0001 }
- 52:
+                    if(var5) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                     var5 = _closure1_slot8;
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot2;
@@ -143,9 +143,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var6.bind(var7)(var4);
                     var4 = var5.bind(var3)(var4);
                     return var3;
- 121:
+case 6:
                     return var2;
- 124:
+case 2:
                     return var1;
                 }
             };
@@ -295,7 +295,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['onPress'] = var8;
     var7 = function useCacheActionsPredicate() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var4 = _closure1_slot0;
             var5 = _closure1_slot2;
             var2 = 8;
@@ -319,10 +319,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var1.DeveloperMode;
             var1 = var3.useSetting;
             var1 = var1.bind(var3)();
-            if(!var1) { _fun0002_ip = 91; continue _fun0002 }
- 88:
+            if(!var1) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var1 = var2;
- 91:
+case 8:
             return var1;
         }
     };

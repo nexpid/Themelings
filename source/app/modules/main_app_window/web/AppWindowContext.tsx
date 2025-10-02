@@ -7,16 +7,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var10;
     var5 = function getWindowDispatchForElement(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var1 = var1.ownerDocument;
             var6 = var1.defaultView;
             var3 = null;
-            if(!(var3 == var6)) { _fun0001_ip = 25; continue _fun0001 }
- 21:
+            if(!(var3 == var6)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = undefined;
             return var1;
- 25:
+case 2:
             var5 = _closure1_slot0;
             var4 = _closure1_slot1;
             var1 = 5;
@@ -29,17 +29,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4.get;
             var2 = var2.bind(var4)(var5);
             var3 = var3 == var2;
-            if(var3) { _fun0001_ip = 88; continue _fun0001 }
- 82:
+            if(var3) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = var2.windowDispatch;
- 88:
+case 4:
             return var1;
         }
     };
     var _closure1_slot7 = var5;
     var4 = function getCurrentlyInteractingAppWindowContext() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var4 = _closure1_slot0;
             var2 = _closure1_slot1;
             var1 = 7;
@@ -51,19 +51,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = null;
             var4 = var2 == var5;
             var1 = null;
-            if(var4) { _fun0002_ip = 75; continue _fun0002 }
- 46:
+            if(var4) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var4 = _closure1_slot6;
             var3 = var4.get;
             var3 = var3.bind(var4)(var5);
             var4 = var2 != var3;
             var2 = null;
-            if(!var4) { _fun0002_ip = 72; continue _fun0002 }
- 69:
+            if(!var4) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var2 = var3;
- 72:
+case 8:
             var1 = var2;
- 75:
+case 6:
             return var1;
         }
     };
@@ -138,7 +138,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['getWindowDispatchForElement'] = var5;
     var5 = function getWindowDispatchForEvent(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var2 = arg1;
             var4 = _closure1_slot0;
             var5 = _closure1_slot1;
@@ -150,23 +150,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = null;
             var8 = var4 == var2;
             var1 = undefined;
-            if(var8) { _fun0003_ip = 51; continue _fun0003 }
- 45:
+            if(var8) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
             var1 = var2.target;
- 51:
+case 10:
             var6 = var6.bind(var7)(var1);
             var1 = null;
-            if(!var6) { _fun0003_ip = 88; continue _fun0003 }
- 61:
+            if(!var6) { _fun0003_ip = 4; continue _fun0003 }
+case 12:
             var3 = _closure1_slot7;
             var2 = var2.target;
             var2 = var3.bind(var5)(var2);
             var3 = var4 != var2;
             var1 = null;
-            if(!var3) { _fun0003_ip = 88; continue _fun0003 }
- 85:
+            if(!var3) { _fun0003_ip = 4; continue _fun0003 }
+case 13:
             var1 = var2;
- 88:
+case 4:
             return var1;
         }
     };
@@ -182,16 +182,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['getAppWindowContextValue'] = var4;
     var4 = function getCurrentlyInteractingAppContext() {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var2 = _closure1_slot8;
             var1 = undefined;
             var2 = var2.bind(var1)();
             var1 = null;
             var3 = var1 != var2;
-            if(!var3) { _fun0004_ip = 28; continue _fun0004 }
- 22:
+            if(!var3) { _fun0004_ip = 14; continue _fun0004 }
+case 15:
             var1 = var2.appContext;
- 28:
+case 14:
             return var1;
         }
     };
@@ -271,20 +271,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4[1] = var6;
             var3 = function() {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
                     var3 = _closure3_slot2;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0005_ip = 19; continue _fun0005 }
- 15:
+                    if(!(var2 != var3)) { _fun0005_ip = 16; continue _fun0005 }
+case 17:
                     var2 = undefined;
                     return var2;
- 19:
+case 16:
                     var2 = global;
                     var5 = var2.setInterval;
                     var4 = undefined;
                     var3 = function() {
                         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
- 0:
+case 0:
                             var3 = _closure1_slot0;
                             var2 = _closure1_slot1;
                             var1 = 5;
@@ -295,15 +295,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var3 = _closure3_slot1;
                             var3 = var4.bind(var5)(var3);
                             var4 = null;
-                            if(!(var4 != var3)) { _fun0006_ip = 78; continue _fun0006 }
- 49:
+                            if(!(var4 != var3)) { _fun0006_ip = 18; continue _fun0006 }
+case 19:
                             var2 = _closure3_slot3;
                             var2 = var2.bind(var1)(var3);
                             var2 = global;
                             var3 = var2.clearInterval;
                             var2 = _closure4_slot0;
                             var2 = var3.bind(var1)(var2);
- 78:
+case 18:
                             return var1;
                         }
                     };

@@ -182,7 +182,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = _closure3_slot0;
                 var2 = function(arg1) {
                     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                         var6 = arg1;
                         var5 = _closure1_slot1;
                         var3 = _closure1_slot2;
@@ -197,14 +197,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var3['signal'] = var6;
                         var3 = var5.bind(var7)(var3);
                         var3 = _closure2_slot0;
-                        if(!var3) { _fun0001_ip = 81; continue _fun0001 }
- 67:
+                        if(!var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                         var5 = _closure1_slot4;
                         var5 = var5.SOMETHING_ELSE;
                         var3 = var6 === var5;
- 81:
-                        if(!var3) { _fun0001_ip = 183; continue _fun0001 }
- 84:
+case 2:
+                        if(!var3) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                         var6 = _closure1_slot1;
                         var3 = _closure1_slot2;
                         var5 = 8;
@@ -258,7 +258,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var3['onClose'] = var2;
                         var2 = 'AppealIngestionFreeTextAppealReasonActionSheet';
                         var2 = var5.bind(var6)(var4, var2, var3);
- 183:
+case 4:
                         return var1;
                     }
                 };

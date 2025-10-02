@@ -347,7 +347,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['NoiseCancellerVadCpuOveruse'] = var8;
     var8 = function validateUniqueErrorCodes() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = global;
             var6 = var1.Object;
             var5 = var6.values;
@@ -370,11 +370,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4 instanceof Object ? var4 : var5;
             var5 = var6.length;
             var4 = var4.size;
-            if(!(var5 === var4)) { _fun0001_ip = 95; continue _fun0001 }
- 91:
+            if(!(var5 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = undefined;
             return var4;
- 95:
+case 2:
             var5 = var6.filter;
             var4 = function(arg1, arg2) {
                 var3 = _closure2_slot0;
@@ -394,7 +394,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var5.filter;
             var3 = function(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var4 = arg1;
                     var2 = var4[Symbol.iterator];
                     var4 = var2().next;
@@ -403,22 +403,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = undefined;
                     var3 = var1 === var6;
                     var1 = undefined;
-                    if(var3) { _fun0002_ip = 49; continue _fun0002 }
- 24:
+                    if(var3) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var5 = var4().value;
                     var4 = var2;
                     var4 = var4 === var6;
                     var1 = undefined;
                     var3 = var4;
-                    if(var4) { _fun0002_ip = 49; continue _fun0002 }
- 43:
+                    if(var4) { _fun0002_ip = 4; continue _fun0002 }
+case 6:
                     var1 = var5;
                     var3 = var4;
- 49:
-                    if(var3) { _fun0002_ip = 55; continue _fun0002 }
- 52:
+case 4:
+                    if(var3) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
                     var2.return();
- 55:
+case 7:
                     var3 = _closure2_slot1;
                     var2 = var3.includes;
                     var1 = var1.errorCode;
@@ -430,7 +430,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.map;
             var2 = function(arg1) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var4 = arg1;
                     var2 = var4[Symbol.iterator];
                     var4 = var2().next;
@@ -439,27 +439,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = undefined;
                     var3 = var3 === var7;
                     var5 = undefined;
-                    if(var3) { _fun0003_ip = 27; continue _fun0003 }
- 24:
+                    if(var3) { _fun0003_ip = 9; continue _fun0003 }
+case 5:
                     var5 = var1;
- 27:
+case 9:
                     var1 = undefined;
-                    if(var3) { _fun0003_ip = 57; continue _fun0003 }
- 32:
+                    if(var3) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
                     var6 = var4().value;
                     var4 = var2;
                     var4 = var4 === var7;
                     var1 = undefined;
                     var3 = var4;
-                    if(var4) { _fun0003_ip = 57; continue _fun0003 }
- 51:
+                    if(var4) { _fun0003_ip = 10; continue _fun0003 }
+case 12:
                     var1 = var6;
                     var3 = var4;
- 57:
-                    if(var3) { _fun0003_ip = 63; continue _fun0003 }
- 60:
+case 10:
+                    if(var3) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
                     var2.return();
- 63:
+case 13:
                     var4 = var1.errorCode;
                     var1 = global;
                     var1 = var1.HermesInternal;

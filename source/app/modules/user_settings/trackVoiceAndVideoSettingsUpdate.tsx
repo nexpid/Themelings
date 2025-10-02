@@ -28,7 +28,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function trackVoiceAndVideoDebuggingSettingsUpdated(arg1, arg2, arg3, arg4) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var8 = arg3;
             var3 = _closure1_slot0;
             var4 = _closure1_slot1;
@@ -43,12 +43,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = null;
             var6 = var5 != var8;
             var5 = undefined;
-            if(!var6) { _fun0001_ip = 69; continue _fun0001 }
- 56:
+            if(!var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = global;
             var6 = var6.String;
             var5 = var6.bind(var7)(var8);
- 69:
+case 2:
             var1['previous_setting_value'] = var5;
             var6 = arg2;
             var5 = arg1;

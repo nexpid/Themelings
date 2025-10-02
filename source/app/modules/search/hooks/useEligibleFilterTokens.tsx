@@ -42,7 +42,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[2] = var5;
         var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot1;
                 var1 = 5;
@@ -54,8 +54,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var4.bind(var5)(var1);
                 var1 = new Array(0);
                 var5 = _closure2_slot2;
-                if(var5) { _fun0001_ip = 94; continue _fun0001 }
- 54:
+                if(var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var6 = var1.push;
                 var5 = _closure1_slot4;
                 var5 = var5.FILTER_FROM;
@@ -64,18 +64,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = _closure1_slot4;
                 var5 = var5.FILTER_MENTIONS;
                 var5 = var6.bind(var1)(var5);
- 94:
+case 2:
                 var6 = var1.push;
                 var5 = _closure1_slot4;
                 var5 = var5.FILTER_HAS;
                 var5 = var6.bind(var1)(var5);
-                if(!var4) { _fun0001_ip = 137; continue _fun0001 }
- 117:
+                if(!var4) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var5 = var1.push;
                 var4 = _closure1_slot4;
                 var4 = var4.FILTER_IN;
                 var4 = var5.bind(var1)(var4);
- 137:
+case 4:
                 var5 = var1.push;
                 var4 = _closure1_slot4;
                 var4 = var4.FILTER_ON;
@@ -89,13 +89,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var4.FILTER_AFTER;
                 var4 = var5.bind(var1)(var4);
                 var3 = _closure2_slot1;
-                if(!var3) { _fun0001_ip = 224; continue _fun0001 }
- 204:
+                if(!var3) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                 var3 = var1.push;
                 var2 = _closure1_slot4;
                 var2 = var2.FILTER_AUTHOR_TYPE;
                 var2 = var3.bind(var1)(var2);
- 224:
+case 6:
                 return var1;
             }
         };

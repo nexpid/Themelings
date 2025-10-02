@@ -25,15 +25,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function maybeDispatchDevOnlyDummyFriendSuggestions() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arguments[0];
             var1 = undefined;
-            if(!(var5 === var1)) { _fun0001_ip = 23; continue _fun0001 }
- 9:
+            if(!(var5 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = global;
             var2 = var2.Number;
             var5 = var2.MAX_VALUE;
- 23:
+case 2:
             var3 = global;
             var6 = var3.Object;
             var4 = var6.values;

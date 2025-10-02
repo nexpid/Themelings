@@ -51,7 +51,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var8.forwardRef;
     var4 = function(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var14 = var2.sheetKey;
             var _closure2_slot0 = var14;
@@ -206,16 +206,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8[0] = var12;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var2 = _closure2_slot3;
                     var3 = var2.current;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0002_ip = 31; continue _fun0002 }
- 18:
+                    if(!(var2 != var3)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var3 = _closure2_slot3;
                     var2 = var3.current;
                     var2 = var2.bind(var3)();
- 31:
+case 2:
                     var2 = _closure2_slot7;
                     var1 = undefined;
                     var2 = var2.bind(var1)();
@@ -235,8 +235,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var6.isAndroid;
             var6 = var5.bind(var6)();
             var5 = var13;
-            if(!var6) { _fun0001_ip = 586; continue _fun0001 }
- 448:
+            if(!var6) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var8 = _closure1_slot9;
             var7 = _closure1_slot5;
             var6 = {'transparent': true, 'statusBarTranslucent': true, 'animationType': 'none'};
@@ -266,7 +266,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var11.bind(var4)(var10, var9);
             var6['children'] = var9;
             var5 = var8.bind(var4)(var7, var6);
- 586:
+case 4:
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

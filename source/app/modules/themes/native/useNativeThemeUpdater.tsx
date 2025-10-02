@@ -41,13 +41,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = function() {
             var4 = function handleThemeUpdate() {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     var2 = _closure1_slot3;
                     var3 = var2.theme;
                     var4 = _closure2_slot0;
                     var4 = var4.current;
-                    if(!(var3 !== var4)) { _fun0001_ip = 72; continue _fun0001 }
- 29:
+                    if(!(var3 !== var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var2 = _closure2_slot0;
                     var2['current'] = var3;
                     var4 = _closure1_slot0;
@@ -58,7 +58,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var4.bind(var1)(var2);
                     var1 = var2.updateTheme;
                     var1 = var1.bind(var2)(var3);
- 72:
+case 2:
                     var1 = undefined;
                     return var1;
                 }

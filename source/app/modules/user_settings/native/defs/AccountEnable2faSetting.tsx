@@ -52,7 +52,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['parent'] = var8;
     var8 = function onAccountEnable2FASettingPress() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = _closure1_slot3;
             var1 = var3.getCurrentUser;
             var5 = var1.bind(var3)();
@@ -60,14 +60,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var4 == var5;
             var1 = undefined;
             var3 = undefined;
-            if(var6) { _fun0001_ip = 35; continue _fun0001 }
- 29:
+            if(var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = var5.verified;
- 35:
-            if(!(var4 != var3)) { _fun0001_ip = 45; continue _fun0001 }
- 39:
-            if(var3) { _fun0001_ip = 183; continue _fun0001 }
- 45:
+case 2:
+            if(!(var4 != var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            if(var3) { _fun0001_ip = 6; continue _fun0001 }
+case 4:
             var4 = _closure1_slot1;
             var10 = _closure1_slot2;
             var3 = 5;
@@ -98,8 +98,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var7.bind(var8)(var6);
             var3['body'] = var6;
             var3 = var4.bind(var5)(var3);
-            _fun0001_ip = 213; continue _fun0001;
- 183:
+            _fun0001_ip = 7; continue _fun0001;
+case 6:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
             var2 = 4;
@@ -107,7 +107,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var1)(var2);
             var2 = var3.open;
             var2 = var2.bind(var3)();
- 213:
+case 7:
             return var1;
         }
     };

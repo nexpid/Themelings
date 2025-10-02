@@ -45,7 +45,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function getActivityPlatform(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var11 = arg1;
             var _closure2_slot0 = var11;
             var5 = _closure1_slot0;
@@ -57,24 +57,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var3.bind(var4)(var11);
             var3 = _closure1_slot0;
             var5 = _closure1_slot1;
-            if(var6) { _fun0001_ip = 300; continue _fun0001 }
- 53:
+            if(var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = 3;
             var6 = var5[var6];
             var6 = var3.bind(var4)(var6);
             var8 = var6.bind(var4)(var11);
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
-            if(var8) { _fun0001_ip = 266; continue _fun0001 }
- 84:
+            if(var8) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var8 = 4;
             var8 = var7[var8];
             var8 = var6.bind(var4)(var8);
             var10 = var8.bind(var4)(var11);
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
-            if(var10) { _fun0001_ip = 232; continue _fun0001 }
- 112:
+            if(var10) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var10 = 5;
             var10 = var9[var10];
             var10 = var8.bind(var4)(var10);
@@ -84,8 +84,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = 2;
             var11 = var13[var11];
             var11 = var12.bind(var4)(var11);
-            if(var10) { _fun0001_ip = 210; continue _fun0001 }
- 152:
+            if(var10) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var10 = var11.find;
             var2 = function(arg1) {
                 var1 = arg1;
@@ -99,25 +99,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = null;
             var12 = var13 != var10;
             var2 = null;
-            if(!var12) { _fun0001_ip = 208; continue _fun0001 }
- 181:
+            if(!var12) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var15 = _closure1_slot3;
             var14 = var15.has;
             var12 = var10.type;
             var12 = var14.bind(var15)(var12);
             var2 = null;
-            if(!var12) { _fun0001_ip = 208; continue _fun0001 }
- 205:
+            if(!var12) { _fun0001_ip = 10; continue _fun0001 }
+case 12:
             var2 = var10;
- 208:
+case 10:
             return var2;
- 210:
+case 8:
             var10 = var11.get;
             var2 = _closure1_slot2;
             var2 = var2.PLAYSTATION;
             var2 = var10.bind(var11)(var2);
             return var2;
- 232:
+case 6:
             var2 = 2;
             var2 = var9[var2];
             var9 = var8.bind(var4)(var2);
@@ -126,7 +126,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.XBOX;
             var2 = var8.bind(var9)(var2);
             return var2;
- 266:
+case 4:
             var2 = 2;
             var2 = var7[var2];
             var7 = var6.bind(var4)(var2);
@@ -135,7 +135,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.CRUNCHYROLL;
             var2 = var6.bind(var7)(var2);
             return var2;
- 300:
+case 2:
             var2 = 2;
             var2 = var5[var2];
             var3 = var3.bind(var4)(var2);

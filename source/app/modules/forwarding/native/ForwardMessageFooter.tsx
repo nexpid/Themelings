@@ -46,7 +46,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function ForwardMessageFooter(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var26 = var1.message;
             var _closure2_slot0 = var26;
@@ -183,13 +183,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var23.length;
             var1 = var1 > var2;
             var6 = undefined;
-            if(!var1) { _fun0001_ip = 512; continue _fun0001 }
- 405:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var16.length;
             var1 = var1 > var2;
             var6 = undefined;
-            if(!var1) { _fun0001_ip = 512; continue _fun0001 }
- 419:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var2 = _closure1_slot0;
             var9 = _closure1_slot2;
             var1 = 9;
@@ -209,7 +209,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var22.bind(var23)(var9);
             var1['channelNames'] = var9;
             var6 = var3.bind(var8)(var2, var1);
- 512:
+case 2:
             var3 = _closure1_slot7;
             var2 = _closure1_slot1;
             var22 = _closure1_slot2;
@@ -237,10 +237,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var20 = !var20;
             var8['disabled'] = var20;
             var20 = undefined;
-            if(var19) { _fun0001_ip = 637; continue _fun0001 }
- 634:
+            if(var19) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var20 = var10;
- 637:
+case 5:
             var8['onPress'] = var20;
             var8['loading'] = var19;
             var8 = var3.bind(var4)(var9, var8);

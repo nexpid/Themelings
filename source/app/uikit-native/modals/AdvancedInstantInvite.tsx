@@ -64,7 +64,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function AdvancedInstantInvite(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var5 = var1.channel;
             var7 = var1.guild;
@@ -83,8 +83,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = null;
             var1 = var9 != var5;
             var34 = null;
-            if(!var1) { _fun0001_ip = 138; continue _fun0001 }
- 102:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
             var1 = 5;
@@ -93,11 +93,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var1)(var2);
             var1 = var2.getChannelIcon;
             var34 = var1.bind(var2)(var5);
- 138:
+case 2:
             var1 = var9 != var5;
             var17 = ' ';
-            if(!var1) { _fun0001_ip = 195; continue _fun0001 }
- 149:
+            if(!var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
             var2 = 6;
@@ -108,7 +108,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = _closure1_slot5;
             var1 = _closure1_slot4;
             var17 = var3.bind(var4)(var5, var2, var1);
- 195:
+case 4:
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 7;
@@ -126,10 +126,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = {};
             var8 = var9 == var7;
             var5 = undefined;
-            if(var8) { _fun0001_ip = 277; continue _fun0001 }
- 272:
+            if(var8) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var5 = var7.id;
- 277:
+case 6:
             var1['guildId'] = var5;
             var5 = 'AdvancedInstantInvite';
             var1['location'] = var5;
@@ -254,8 +254,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var7.bind(var4)(var15, var11);
             var8[1] = var11;
             var11 = null;
-            if(var12) { _fun0001_ip = 1072; continue _fun0001 }
- 846:
+            if(var12) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var16 = _closure1_slot7;
             var15 = _closure1_slot8;
             var12 = {};
@@ -305,11 +305,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17[1] = var18;
             var12['children'] = var17;
             var11 = var16.bind(var4)(var15, var12);
- 1072:
+case 8:
             var8[2] = var11;
             var9 = null;
-            if(!var10) { _fun0001_ip = 1365; continue _fun0001 }
- 1084:
+            if(!var10) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var12 = _closure1_slot7;
             var11 = _closure1_slot8;
             var10 = {};
@@ -389,7 +389,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13[1] = var14;
             var10['children'] = var13;
             var9 = var12.bind(var4)(var11, var10);
- 1365:
+case 10:
             var8[3] = var9;
             var5['children'] = var8;
             var5 = var7.bind(var4)(var6, var5);

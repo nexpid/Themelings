@@ -35,7 +35,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function showMembersManagementActionSheet(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var8 = var1.guild;
             var _closure2_slot0 = var8;
@@ -100,8 +100,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.KICK_MEMBERS;
             var3 = var10.bind(var12)(var9, var3);
             var3 = var4.bind(var7)(var3, var8);
-            if(!var3) { _fun0001_ip = 268; continue _fun0001 }
- 182:
+            if(!var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = var5.push;
             var3 = {};
             var10 = _closure1_slot0;
@@ -143,7 +143,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = true;
             var3['isDestructive'] = var6;
             var3 = var4.bind(var5)(var3);
- 268:
+case 2:
             var3 = _closure1_slot0;
             var4 = _closure1_slot3;
             var2 = 8;
@@ -161,7 +161,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['default'] = var4;
     var2 = function getMembersManagementActions(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var7 = var1.guild;
             var _closure2_slot0 = var7;
@@ -226,8 +226,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.KICK_MEMBERS;
             var2 = var11.bind(var12)(var8, var2);
             var2 = var3.bind(var6)(var2, var7);
-            if(!var2) { _fun0002_ip = 271; continue _fun0002 }
- 182:
+            if(!var2) { _fun0002_ip = 4; continue _fun0002 }
+case 3:
             var3 = var1.push;
             var2 = {};
             var8 = _closure1_slot0;
@@ -269,7 +269,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = 'destructive';
             var2['variant'] = var4;
             var2 = var3.bind(var1)(var2);
- 271:
+case 4:
             return var1;
         }
     };

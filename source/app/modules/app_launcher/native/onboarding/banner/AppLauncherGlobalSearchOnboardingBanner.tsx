@@ -76,7 +76,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function GlobalSearchCoachmark(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var4 = var1.markAsDismissed;
             var _closure2_slot0 = var4;
@@ -116,10 +116,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = function() {
                 var1 = function() {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                         var2 = _closure2_slot1;
-                        if(!var2) { _fun0002_ip = 41; continue _fun0002 }
- 10:
+                        if(!var2) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                         var3 = _closure2_slot0;
                         var2 = {};
                         var1 = _closure1_slot6;
@@ -127,7 +127,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2['actionType'] = var1;
                         var1 = undefined;
                         var1 = var3.bind(var1)(var2);
- 41:
+case 2:
                         var1 = undefined;
                         return var1;
                     }
@@ -137,23 +137,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var10.bind(var11)(var4, var9);
             var9 = _closure1_slot0;
             var10 = _closure1_slot2;
-            if(var1) { _fun0001_ip = 201; continue _fun0001 }
- 181:
+            if(var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = 9;
             var1 = var10[var1];
             var1 = var9.bind(var5)(var1);
             var1 = var1.AppsIcon;
-            _fun0001_ip = 219; continue _fun0001;
- 201:
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
             var4 = 8;
             var4 = var10[var4];
             var4 = var9.bind(var5)(var4);
             var1 = var4.GameControllerIcon;
- 219:
+case 6:
             _closure2_slot3 = var1;
             var1 = null;
-            if(!var3) { _fun0001_ip = 461; continue _fun0001 }
- 231:
+            if(!var3) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var4 = _closure1_slot7;
             var12 = _closure1_slot0;
             var13 = _closure1_slot2;
@@ -231,7 +231,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = 'bottom';
             var2['position'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 461:
+case 7:
             return var1;
         }
     };

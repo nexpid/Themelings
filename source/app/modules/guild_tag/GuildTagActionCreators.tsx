@@ -14,16 +14,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = function* (arg1, arg2) {
             var1 = function* anon_0_(arg1, arg2) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 211; continue _fun0001 }
- 10:
+                    if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var10 = arg1;
                     var9 = arg2;
                     var6 = undefined;
                     var3 = undefined;
- 20: // try_start_0
+case 4: // try_start_0
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot2;
                     var2 = 3;
@@ -43,16 +43,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2['rejectWithError'] = var7;
                     var2 = var4.bind(var5)(var2);
                     SaveGenerator(address=101);
- 99:
+case 5:
                     return var2;
- 101:
+case 6:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0001_ip = 203; continue _fun0001 }
- 107:
+                    if(var4) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
                     var3 = var2;
                     var4 = var2.ok;
-                    if(!var4) { _fun0001_ip = 200; continue _fun0001 }
- 119:
+                    if(!var4) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
                     var5 = _closure1_slot1;
                     var7 = _closure1_slot2;
                     var4 = 4;
@@ -74,14 +74,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = copyDataProperties(var12, var11);
                     var4['user'] = var7;
                     var4 = var5.bind(var6)(var4);
- 200: // try_end0
+case 9: // try_end0
                     return var3;
- 203:
+case 7:
                     return var2;
- 206: // catch_target0
+case 11: // catch_target0
                     CatchBlockStart(arg_register=1);
                     return var2;
- 211:
+case 2:
                     return var1;
                 }
             };

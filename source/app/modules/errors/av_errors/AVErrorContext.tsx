@@ -8,7 +8,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var7;
     var2 = function getCommonErrorContext() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = {};
             var4 = _closure1_slot2;
             var2 = var4.getVideoDevices;
@@ -20,10 +20,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = null;
             var7 = var4 == var6;
             var5 = undefined;
-            if(var7) { _fun0001_ip = 53; continue _fun0001 }
- 48:
+            if(var7) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = var6.name;
- 53:
+case 2:
             var1['videoDeviceName'] = var5;
             var6 = _closure1_slot2;
             var5 = var6.getInputDevices;
@@ -34,10 +34,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6[var5];
             var7 = var4 == var6;
             var5 = undefined;
-            if(var7) { _fun0001_ip = 104; continue _fun0001 }
- 99:
+            if(var7) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = var6.name;
- 104:
+case 4:
             var1['audioInputDeviceName'] = var5;
             var6 = _closure1_slot2;
             var5 = var6.getOutputDevices;
@@ -48,10 +48,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var5[var3];
             var4 = var4 == var3;
             var2 = undefined;
-            if(var4) { _fun0001_ip = 155; continue _fun0001 }
- 150:
+            if(var4) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var2 = var3.name;
- 155:
+case 6:
             var1['audioOutputDeviceName'] = var2;
             return var1;
         }
@@ -90,7 +90,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var7)(var5);
     var5 = function getVoiceChannelErrorContext() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var3 = _closure1_slot4;
             var1 = var3.getVoiceChannelId;
             var6 = var1.bind(var3)();
@@ -99,20 +99,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var4 != var6;
             var3 = undefined;
             var5 = undefined;
-            if(!var7) { _fun0002_ip = 35; continue _fun0002 }
- 32:
+            if(!var7) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var5 = var6;
- 35:
+case 8:
             var1['channelId'] = var5;
             var6 = _closure1_slot3;
             var5 = var6.getMediaSessionId;
             var5 = var5.bind(var6)();
             var6 = var4 != var5;
             var4 = undefined;
-            if(!var6) { _fun0002_ip = 65; continue _fun0002 }
- 62:
+            if(!var6) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
             var4 = var5;
- 65:
+case 10:
             var1['mediaSessionId'] = var4;
             var5 = _closure1_slot3;
             var4 = var5.getRTCConnectionId;
@@ -136,7 +136,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['getVoiceChannelErrorContext'] = var5;
     var4 = function getStreamErrorContext(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var5 = arg1;
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
@@ -156,25 +156,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = null;
             var7 = var6 == var8;
             var9 = undefined;
-            if(var7) { _fun0003_ip = 92; continue _fun0003 }
- 82:
+            if(var7) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
             var7 = var8.getMediaSessionId;
             var9 = var7.bind(var8)();
- 92:
+case 12:
             var10 = var6 != var9;
             var7 = undefined;
-            if(!var10) { _fun0003_ip = 104; continue _fun0003 }
- 101:
+            if(!var10) { _fun0003_ip = 4; continue _fun0003 }
+case 14:
             var7 = var9;
- 104:
+case 4:
             var1['mediaSessionId'] = var7;
             var7 = var6 == var8;
             var6 = undefined;
-            if(var7) { _fun0003_ip = 128; continue _fun0003 }
- 118:
+            if(var7) { _fun0003_ip = 15; continue _fun0003 }
+case 16:
             var7 = var8.getRTCConnectionId;
             var6 = var7.bind(var8)();
- 128:
+case 15:
             var1['rtcConnectionId'] = var6;
             var7 = _closure1_slot0;
             var8 = _closure1_slot1;

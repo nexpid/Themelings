@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var7;
     var2 = function FacepileGroupDMAvatar(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var18 = var2.style;
             var5 = var2.size;
@@ -45,11 +45,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var19 = var9.bind(var15)(var3, var8);
             var9 = null;
-            if(!(var9 == var13)) { _fun0001_ip = 150; continue _fun0001 }
- 142:
+            if(!(var9 == var13)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = _closure1_slot9;
             var13 = var3[var5];
- 150:
+case 2:
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
             var2 = var5[var2];
@@ -145,20 +145,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['guildId'] = var4;
             var5['cutout'] = var8;
             var5['animate'] = var10;
-            if(!(var9 != var11)) { _fun0001_ip = 336; continue _fun0001 }
- 322:
+            if(!(var9 != var11)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var8 = {};
             var19 = 0;
             var19 = var11[var19];
             var8['user'] = var19;
-            _fun0001_ip = 351; continue _fun0001;
- 336:
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
             var19 = {};
             var20 = 0;
             var20 = var12[var20];
             var19['source'] = var20;
             var8 = var19;
- 351:
+case 6:
             var22 = var5;
             var21 = var8;
             var8 = copyDataProperties(var22, var21);
@@ -181,20 +181,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6['size'] = var13;
             var6['guildId'] = var4;
             var6['animate'] = var10;
-            if(!(var9 != var11)) { _fun0001_ip = 464; continue _fun0001 }
- 449:
+            if(!(var9 != var11)) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var9 = {};
             var10 = 1;
             var10 = var11[var10];
             var9['user'] = var10;
-            _fun0001_ip = 480; continue _fun0001;
- 464:
+            _fun0001_ip = 9; continue _fun0001;
+case 7:
             var10 = {};
             var11 = 1;
             var11 = var12[var11];
             var10['source'] = var11;
             var9 = var10;
- 480:
+case 9:
             var22 = var6;
             var21 = var9;
             var9 = copyDataProperties(var22, var21);
@@ -335,7 +335,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var7)(var5);
     var4 = function GroupDMAvatar(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var2 = arg1;
             var11 = var2.style;
             var9 = var2.channel;
@@ -382,20 +382,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var4.bind(var14)(var3, var1);
             var3 = var9.icon;
             var1 = null;
-            if(!(var1 == var3)) { _fun0002_ip = 299; continue _fun0002 }
- 122:
+            if(!(var1 == var3)) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
             var1 = var9.recipients;
             var1 = var1.length;
             var14 = 0;
-            if(!(var14 !== var1)) { _fun0002_ip = 299; continue _fun0002 }
- 142:
+            if(!(var14 !== var1)) { _fun0002_ip = 10; continue _fun0002 }
+case 3:
             var1 = var15.length;
-            if(!(var14 !== var1)) { _fun0002_ip = 299; continue _fun0002 }
- 154:
+            if(!(var14 !== var1)) { _fun0002_ip = 10; continue _fun0002 }
+case 12:
             var3 = var15.length;
             var1 = 1;
-            if(!(var1 !== var3)) { _fun0002_ip = 220; continue _fun0002 }
- 166:
+            if(!(var1 !== var3)) { _fun0002_ip = 13; continue _fun0002 }
+case 14:
             var4 = _closure1_slot7;
             var3 = _closure1_slot11;
             var1 = {};
@@ -408,8 +408,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['accessible'] = var7;
             var1['accessibilityLabel'] = var6;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0002_ip = 297; continue _fun0002;
- 220:
+            _fun0002_ip = 15; continue _fun0002;
+case 13:
             var13 = _closure1_slot7;
             var4 = _closure1_slot1;
             var16 = _closure1_slot2;
@@ -429,9 +429,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['accessible'] = var7;
             var3['accessibilityLabel'] = var6;
             var1 = var13.bind(var5)(var4, var3);
- 297:
-            _fun0002_ip = 368; continue _fun0002;
- 299:
+case 15:
+            _fun0002_ip = 16; continue _fun0002;
+case 10:
             var4 = _closure1_slot7;
             var3 = _closure1_slot1;
             var13 = _closure1_slot2;
@@ -449,7 +449,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['accessible'] = var7;
             var2['accessibilityLabel'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 368:
+case 16:
             return var1;
         }
     };

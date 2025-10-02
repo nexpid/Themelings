@@ -1,7 +1,7 @@
 // app/i18n/native/i18nMessagesProvider.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
         var5 = require;
         var3 = exports;
         var6 = dependencyMap;
@@ -25,16 +25,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = var5.bind(var1)(var7);
         var7 = var8.isAndroid;
         var7 = var7.bind(var8)();
-        if(var7) { _fun0001_ip = 104; continue _fun0001 }
- 94:
+        if(var7) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
         var4 = var4.i18nManager;
-        _fun0001_ip = 119; continue _fun0001;
- 104:
+        _fun0001_ip = 4; continue _fun0001;
+case 2:
         var7 = 2;
         var8 = var6[var7];
         var7 = metroImportDefault;
         var4 = var7.bind(var1)(var8);
- 119:
+case 4:
         var _closure1_slot2 = var4;
         var4 = 5;
         var4 = var6[var4];
@@ -57,7 +57,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var3.map;
                     var1 = function(arg1) {
                         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                             var4 = _closure1_slot0;
                             var1 = _closure1_slot1;
                             var3 = 3;
@@ -75,8 +75,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var1 = null;
                             var3 = var1 == var4;
                             var1 = '';
-                            if(var3) { _fun0002_ip = 106; continue _fun0002 }
- 73:
+                            if(var3) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
                             var3 = _closure1_slot0;
                             var2 = _closure1_slot1;
                             var2 = var2[var6];
@@ -84,7 +84,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var3 = var2.intl;
                             var2 = var3.reserialize;
                             var1 = var2.bind(var3)(var4);
- 106:
+case 5:
                             return var1;
                         }
                     };

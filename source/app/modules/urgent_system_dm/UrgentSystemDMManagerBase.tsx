@@ -9,8 +9,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var6;
     var1 = function _isNativeReflectConstruct() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
- 2: // try_start_0
+case 0:
+case 2: // try_start_0
             var2 = global;
             var3 = var2.Boolean;
             var3 = var3.prototype;
@@ -28,11 +28,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var4)(var2);
             var2 = !var2;
             var _closure2_slot0 = var2;
- 72: // try_end0
-            _fun0001_ip = 76; continue _fun0001;
- 74: // catch_target0
+case 3: // try_end0
+            _fun0001_ip = 4; continue _fun0001;
+case 5: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+case 4:
             var2 = function _isNativeReflectConstruct() {
                 var1 = _closure2_slot0;
                 var1 = !var1;
@@ -48,13 +48,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot13 = var1;
     var1 = function maybeShowUrgentMessageModal(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var3 = _closure1_slot9;
             var1 = var3.getCurrentUser;
             var5 = var1.bind(var3)();
             var1 = null;
-            if(!(var1 != var5)) { _fun0002_ip = 94; continue _fun0002 }
- 22:
+            if(!(var1 != var5)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var3 = _closure1_slot8;
             var1 = var3.getChannelId;
             var1 = var1.bind(var3)();
@@ -64,22 +64,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.bind(var6)(var3);
             var4 = var5.hasUrgentMessages;
             var4 = var4.bind(var5)();
-            if(!var4) { _fun0002_ip = 98; continue _fun0002 }
- 68:
-            if(!(var3 !== var1)) { _fun0002_ip = 98; continue _fun0002 }
- 72:
+            if(!var4) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
+            if(!(var3 !== var1)) { _fun0002_ip = 8; continue _fun0002 }
+case 3:
             var3 = _closure1_slot12;
-            if(var3) { _fun0002_ip = 94; continue _fun0002 }
- 79:
+            if(var3) { _fun0002_ip = 6; continue _fun0002 }
+case 10:
             var3 = true;
             _closure1_slot12 = var3;
             var4 = arg1;
             var3 = undefined;
             var3 = var4.bind(var3)();
- 94:
+case 6:
             var3 = undefined;
             return var3;
- 98:
+case 8:
             var3 = _closure1_slot15;
             var2 = {};
             var2['channelId'] = var1;
@@ -91,7 +91,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot14 = var1;
     var1 = function maybeClearUrgentMessage(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var1 = arg1;
             var3 = var1.channelId;
             var4 = _closure1_slot9;
@@ -104,17 +104,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3 === var2;
             var2 = null;
             var2 = var2 != var5;
-            if(!var2) { _fun0003_ip = 66; continue _fun0003 }
- 56:
+            if(!var2) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
             var4 = var5.hasUrgentMessages;
             var2 = var4.bind(var5)();
- 66:
-            if(!var2) { _fun0003_ip = 72; continue _fun0003 }
- 69:
+case 11:
+            if(!var2) { _fun0003_ip = 3; continue _fun0003 }
+case 13:
             var2 = var3;
- 72:
-            if(!var2) { _fun0003_ip = 125; continue _fun0003 }
- 75:
+case 3:
+            if(!var2) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
             var4 = false;
             _closure1_slot12 = var4;
             var5 = _closure1_slot0;
@@ -127,7 +127,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = _closure1_slot11;
             var1 = var1.HAS_UNREAD_URGENT_MESSAGES;
             var1 = var2.bind(var3)(var1, var4);
- 125:
+case 14:
             var1 = undefined;
             return var1;
         }
@@ -192,7 +192,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function(arg1) {
         var3 = function UrgentSystemDMManagerBase(arg1) {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                 var6 = this;
                 var1 = _closure1_slot3;
                 var2 = _closure2_slot0;
@@ -203,12 +203,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = _closure1_slot4;
                 var1 = _closure1_slot13;
                 var1 = var1.bind(var5)();
-                if(var1) { _fun0004_ip = 64; continue _fun0004 }
- 51:
+                if(var1) { _fun0004_ip = 16; continue _fun0004 }
+case 17:
                 var1 = var11.apply;
                 var1 = var1.bind(var11)(var6, var5);
-                _fun0004_ip = 102; continue _fun0004;
- 64:
+                _fun0004_ip = 18; continue _fun0004;
+case 16:
                 var7 = global;
                 var10 = var7.Reflect;
                 var9 = var10.construct;
@@ -217,7 +217,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = var7.constructor;
                 var7 = new Array(0);
                 var1 = var9.bind(var10)(var11, var7, var8);
- 102:
+case 18:
                 var1 = var2.bind(var5)(var6, var1);
                 var _closure3_slot0 = var1;
                 var2 = arg1;

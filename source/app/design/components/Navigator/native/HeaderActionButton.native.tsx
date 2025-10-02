@@ -67,7 +67,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.forwardRef;
     var2 = function(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var9 = var1.style;
             var20 = var1.textStyle;
@@ -89,14 +89,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = undefined;
             var10 = var1.bind(var4)();
             var18 = null;
-            if(!(var18 == var16)) { _fun0001_ip = 192; continue _fun0001 }
- 112:
-            if(!(var18 == var3)) { _fun0001_ip = 174; continue _fun0001 }
- 116:
+            if(!(var18 == var16)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            if(!(var18 == var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = var18 != var24;
             var7 = undefined;
-            if(!var1) { _fun0001_ip = 274; continue _fun0001 }
- 128:
+            if(!var1) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var21 = _closure1_slot4;
             var2 = _closure1_slot1;
             var25 = _closure1_slot2;
@@ -108,14 +108,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['style'] = var23;
             var1['size'] = var22;
             var7 = var21.bind(var4)(var2, var1);
-            _fun0001_ip = 274; continue _fun0001;
- 174:
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
             var2 = _closure1_slot4;
             var1 = {};
             var1['size'] = var19;
             var7 = var2.bind(var4)(var3, var1);
-            _fun0001_ip = 274; continue _fun0001;
- 192:
+            _fun0001_ip = 6; continue _fun0001;
+case 2:
             var3 = _closure1_slot4;
             var2 = _closure1_slot0;
             var19 = _closure1_slot2;
@@ -133,7 +133,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['style'] = var19;
             var1['children'] = var16;
             var7 = var3.bind(var4)(var2, var1);
- 274:
+case 6:
             var3 = _closure1_slot5;
             var2 = _closure1_slot0;
             var19 = _closure1_slot2;
@@ -144,10 +144,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = {};
             var19 = arg2;
             var1['ref'] = var19;
-            if(!(var18 != var17)) { _fun0001_ip = 320; continue _fun0001 }
- 317:
+            if(!(var18 != var17)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var16 = var17;
- 320:
+case 8:
             var1['accessibilityLabel'] = var16;
             var1['accessibilityHint'] = var15;
             var1['accessibilityActions'] = var14;
@@ -158,20 +158,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = 0.6;
             var1['activeOpacity'] = var8;
             var8 = undefined;
-            if(!var12) { _fun0001_ip = 375; continue _fun0001 }
- 371:
+            if(!var12) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var8 = _closure1_slot3;
- 375:
+case 10:
             var1['androidRippleConfig'] = var8;
             var11 = var10.button;
             var8 = new Array(3);
             var8[0] = var11;
             var8[1] = var9;
             var9 = var5;
-            if(!var9) { _fun0001_ip = 410; continue _fun0001 }
- 404:
+            if(!var9) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var9 = var10.buttonDisabled;
- 410:
+case 12:
             var8[2] = var9;
             var1['style'] = var8;
             var1['disabled'] = var5;

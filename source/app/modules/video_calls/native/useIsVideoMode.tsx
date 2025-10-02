@@ -8,59 +8,59 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var7;
     var2 = function isVideoMode() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arguments[0];
             var7 = arguments[1];
             var5 = arguments[2];
             var6 = arguments[3];
             var4 = arguments[4];
             var1 = undefined;
-            if(!(var3 === var1)) { _fun0001_ip = 28; continue _fun0001 }
- 21:
+            if(!(var3 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = _closure1_slot3;
- 28:
-            if(!(var7 === var1)) { _fun0001_ip = 39; continue _fun0001 }
- 32:
+case 2:
+            if(!(var7 === var1)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var7 = _closure1_slot5;
- 39:
-            if(!(var5 === var1)) { _fun0001_ip = 50; continue _fun0001 }
- 43:
+case 4:
+            if(!(var5 === var1)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var5 = _closure1_slot2;
- 50:
-            if(!(var6 === var1)) { _fun0001_ip = 61; continue _fun0001 }
- 54:
+case 6:
+            if(!(var6 === var1)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var6 = _closure1_slot6;
- 61:
-            if(!(var4 === var1)) { _fun0001_ip = 72; continue _fun0001 }
- 65:
+case 8:
+            if(!(var4 === var1)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var4 = _closure1_slot4;
- 72:
+case 10:
             var2 = var3.getChannel;
             var1 = var7.getVoiceChannelId;
             var1 = var1.bind(var7)();
             var3 = var2.bind(var3)(var1);
             var1 = null;
             var1 = var1 != var3;
-            if(!var1) { _fun0001_ip = 157; continue _fun0001 }
- 101:
+            if(!var1) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var2 = var5.getAllActiveStreams;
             var2 = var2.bind(var5)();
             var5 = var2.length;
             var2 = 0;
             var2 = var5 > var2;
-            if(var2) { _fun0001_ip = 141; continue _fun0001 }
- 125:
+            if(var2) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var5 = var6.hasVideo;
             var3 = var3.id;
             var2 = var5.bind(var6)(var3);
- 141:
-            if(var2) { _fun0001_ip = 154; continue _fun0001 }
- 144:
+case 14:
+            if(var2) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var3 = var4.isVideoEnabled;
             var2 = var3.bind(var4)();
- 154:
+case 16:
             var1 = var2;
- 157:
+case 12:
             return var1;
         }
     };

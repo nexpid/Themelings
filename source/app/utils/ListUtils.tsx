@@ -22,27 +22,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function getListSummaryLabel(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var8 = arg1;
             var11 = arg2;
             var1 = null;
-            if(!(var1 == var11)) { _fun0001_ip = 17; continue _fun0001 }
- 12:
+            if(!(var1 == var11)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var11 = var8.length;
- 17:
+case 2:
             var1 = '';
             var7 = 0;
-            if(!(var7 !== var11)) { _fun0001_ip = 404; continue _fun0001 }
- 30:
+            if(!(var7 !== var11)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var9 = 1;
-            if(!(var9 !== var11)) { _fun0001_ip = 330; continue _fun0001 }
- 40:
+            if(!(var9 !== var11)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var10 = 2;
-            if(!(var10 !== var11)) { _fun0001_ip = 248; continue _fun0001 }
- 50:
+            if(!(var10 !== var11)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var6 = 3;
-            if(!(var6 !== var11)) { _fun0001_ip = 157; continue _fun0001 }
- 57:
+            if(!(var6 !== var11)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var12 = _closure1_slot0;
             var2 = _closure1_slot1;
             var4 = var2[var7];
@@ -64,8 +64,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var11 - var6;
             var2['count'] = var6;
             var2 = var4.bind(var5)(var3, var2);
-            _fun0001_ip = 246; continue _fun0001;
- 157:
+            _fun0001_ip = 12; continue _fun0001;
+case 10:
             var11 = _closure1_slot0;
             var3 = _closure1_slot1;
             var5 = var3[var7];
@@ -85,9 +85,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var8[var10];
             var3['third'] = var10;
             var2 = var5.bind(var6)(var4, var3);
- 246:
-            _fun0001_ip = 328; continue _fun0001;
- 248:
+case 12:
+            _fun0001_ip = 13; continue _fun0001;
+case 8:
             var10 = _closure1_slot0;
             var3 = _closure1_slot1;
             var5 = var3[var7];
@@ -105,9 +105,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var8[var9];
             var3['second'] = var9;
             var2 = var5.bind(var6)(var4, var3);
- 328:
-            _fun0001_ip = 401; continue _fun0001;
- 330:
+case 13:
+            _fun0001_ip = 14; continue _fun0001;
+case 6:
             var9 = _closure1_slot0;
             var3 = _closure1_slot1;
             var5 = var3[var7];
@@ -123,9 +123,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var8[var7];
             var3['first'] = var7;
             var2 = var5.bind(var6)(var4, var3);
- 401:
+case 14:
             var1 = var2;
- 404:
+case 4:
             return var1;
         }
     };

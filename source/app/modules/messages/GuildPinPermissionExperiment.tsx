@@ -36,7 +36,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useIsPinPermissionMigrationNotificationAvailable(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var9 = arg1;
             var _closure2_slot0 = var9;
             var4 = _closure1_slot0;
@@ -62,14 +62,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = null;
             var4 = var8 == var9;
             var3 = undefined;
-            if(var4) { _fun0001_ip = 101; continue _fun0001 }
- 75:
+            if(var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = var9.features;
             var5 = var6.has;
             var4 = _closure1_slot4;
             var4 = var4.PIN_PERMISSION_MIGRATION_COMPLETE;
             var3 = var5.bind(var6)(var4);
- 101:
+case 2:
             var10 = _closure1_slot0;
             var11 = _closure1_slot1;
             var4 = 3;
@@ -83,23 +83,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.GUILD_PIN_PERMISSION_MIGRATION_NOTIFICATION;
             var10 = var8 == var9;
             var2 = undefined;
-            if(var10) { _fun0001_ip = 165; continue _fun0001 }
- 160:
+            if(var10) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = var9.id;
- 165:
-            if(!(var8 == var2)) { _fun0001_ip = 173; continue _fun0001 }
- 169:
+case 4:
+            if(!(var8 == var2)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var2 = _closure1_slot3;
- 173:
+case 6:
             var2 = var5.bind(var6)(var4, var2);
-            if(!var1) { _fun0001_ip = 185; continue _fun0001 }
- 182:
+            if(!var1) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var1 = !var3;
- 185:
-            if(!var1) { _fun0001_ip = 191; continue _fun0001 }
- 188:
+case 8:
+            if(!var1) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var1 = !var2;
- 191:
+case 10:
             return var1;
         }
     };

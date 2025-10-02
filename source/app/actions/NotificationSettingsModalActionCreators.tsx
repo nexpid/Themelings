@@ -235,7 +235,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var4.forEach;
         var2 = function(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var4 = arg1;
                 var2 = var4[Symbol.iterator];
                 var4 = var2().next;
@@ -244,27 +244,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = undefined;
                 var3 = var3 === var1;
                 var8 = undefined;
-                if(var3) { _fun0001_ip = 27; continue _fun0001 }
- 24:
+                if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var8 = var5;
- 27:
+case 2:
                 var7 = undefined;
-                if(var3) { _fun0001_ip = 57; continue _fun0001 }
- 32:
+                if(var3) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var5 = var4().value;
                 var4 = var2;
                 var4 = var4 === var1;
                 var7 = undefined;
                 var3 = var4;
-                if(var4) { _fun0001_ip = 57; continue _fun0001 }
- 51:
+                if(var4) { _fun0001_ip = 4; continue _fun0001 }
+case 6:
                 var7 = var5;
                 var3 = var4;
- 57:
-                if(var3) { _fun0001_ip = 63; continue _fun0001 }
- 60:
+case 4:
+                if(var3) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
                 var2.return();
- 63:
+case 7:
                 var4 = _closure2_slot2;
                 var3 = var4.get;
                 var14 = var3.bind(var4)(var8);
@@ -510,26 +510,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['updateAppDMOverrideSettings'] = var7;
     var7 = function setForumThreadsCreated(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var3 = arg1;
             var9 = arg2;
             var7 = this;
             var2 = _closure1_slot7;
-            if(var9) { _fun0002_ip = 27; continue _fun0002 }
- 19:
+            if(var9) { _fun0002_ip = 2; continue _fun0002 }
+case 9:
             var8 = var2.NEW_FORUM_THREADS_OFF;
-            _fun0002_ip = 33; continue _fun0002;
- 27:
+            _fun0002_ip = 10; continue _fun0002;
+case 2:
             var8 = var2.NEW_FORUM_THREADS_ON;
- 33:
+case 10:
             var4 = _closure1_slot7;
-            if(var9) { _fun0002_ip = 48; continue _fun0002 }
- 40:
+            if(var9) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
             var2 = var4.NEW_FORUM_THREADS_ON;
-            _fun0002_ip = 54; continue _fun0002;
- 48:
+            _fun0002_ip = 13; continue _fun0002;
+case 11:
             var2 = var4.NEW_FORUM_THREADS_OFF;
- 54:
+case 13:
             var5 = _closure1_slot4;
             var4 = var5.getChannelFlags;
             var10 = var4.bind(var5)(var3);
@@ -568,11 +568,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = function* () {
             var1 = function* anon_0_() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0003_ip = 216; continue _fun0003 }
- 10:
+                    if(var2) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
                     var2 = _closure1_slot4;
                     var2 = var2.accountNotificationSettings;
                     var10 = var2.flags;
@@ -602,12 +602,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2['rejectWithError'] = var7;
                     var2 = var5.bind(var6)(var2);
                     SaveGenerator(address=140);
- 138:
+case 16:
                     return var2;
- 140:
+case 17:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0003_ip = 213; continue _fun0003 }
- 146:
+                    if(var5) { _fun0003_ip = 18; continue _fun0003 }
+case 19:
                     var5 = _closure1_slot1;
                     var6 = _closure1_slot2;
                     var3 = 5;
@@ -622,18 +622,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3['settings'] = var7;
                     var3 = var5.bind(var6)(var3);
                     SaveGenerator(address=201);
- 199:
+case 20:
                     return var3;
- 201:
+case 21:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(var5) { _fun0003_ip = 210; continue _fun0003 }
- 207:
+                    if(var5) { _fun0003_ip = 22; continue _fun0003 }
+case 23:
                     return var4;
- 210:
+case 22:
                     return var3;
- 213:
+case 18:
                     return var2;
- 216:
+case 14:
                     return var1;
                 }
             };

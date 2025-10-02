@@ -234,7 +234,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var7)(var5);
     var4 = function GuildRoleSubscriptionTierDetailsModal(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var8 = arg1;
             var9 = _closure1_slot5;
             var1 = var9.useGroupCoverState;
@@ -254,11 +254,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var1[var3];
             var1 = var10.length;
             var6 = var1 > var2;
-            if(!var6) { _fun0001_ip = 90; continue _fun0001 }
- 84:
+            if(!var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = null;
             var6 = var1 != var12;
- 90:
+case 2:
             var3 = _closure1_slot9;
             var2 = _closure1_slot1;
             var16 = _closure1_slot2;

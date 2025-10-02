@@ -12,12 +12,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = function* (arg1, arg2) {
             var1 = function* anon_0_(arg1, arg2) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     StartGenerator();
                     var2 = arg2;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(var3) { _fun0001_ip = 593; continue _fun0001 }
- 13:
+                    if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var23 = var2.rating;
                     var21 = var2.category;
                     var20 = var2.reasonCode;
@@ -27,12 +27,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var2.analyticsData;
                     var4 = undefined;
                     SaveGenerator(address=60);
- 58:
+case 4:
                     return var4;
- 60:
+case 5:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0001_ip = 590; continue _fun0001 }
- 69:
+                    if(var3) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                     var7 = _closure1_slot3;
                     var3 = var7.getSettings;
                     var9 = var3.bind(var7)();
@@ -78,12 +78,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var7.getKrispModel;
                     var3 = var3.bind(var7)();
                     SaveGenerator(address=278);
- 276:
+case 8:
                     return var3;
- 278:
+case 9:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=6);
-                    if(var7) { _fun0001_ip = 587; continue _fun0001 }
- 287:
+                    if(var7) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
                     var7 = _closure1_slot0;
                     var8 = _closure1_slot1;
                     var6 = 3;
@@ -94,10 +94,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var12 = null;
                     var24 = var12 != var23;
                     var22 = 'no response';
-                    if(!var24) { _fun0001_ip = 332; continue _fun0001 }
- 329:
+                    if(!var24) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
                     var22 = var23;
- 332:
+case 12:
                     var6['rating'] = var22;
                     var6['category'] = var21;
                     var6['reason_code'] = var20;
@@ -126,24 +126,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6['noise_cancellation_enabled'] = var14;
                     var17 = var12 == var16;
                     var14 = undefined;
-                    if(var17) { _fun0001_ip = 492; continue _fun0001 }
- 487:
+                    if(var17) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
                     var14 = var16.name;
- 492:
+case 14:
                     var6['input_device_name'] = var14;
                     var16 = var12 == var15;
                     var14 = undefined;
-                    if(var16) { _fun0001_ip = 511; continue _fun0001 }
- 506:
+                    if(var16) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
                     var14 = var15.name;
- 511:
+case 16:
                     var6['output_device_name'] = var14;
                     var14 = var12 == var13;
                     var12 = undefined;
-                    if(var14) { _fun0001_ip = 532; continue _fun0001 }
- 527:
+                    if(var14) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
                     var12 = var13.name;
- 532:
+case 18:
                     var6['video_device_name'] = var12;
                     var6['audio_subsystem'] = var11;
                     var6['audio_layer'] = var10;
@@ -156,11 +156,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = arg1;
                     var5 = var7.bind(var8)(var5, var6);
                     return var4;
- 587:
+case 10:
                     return var3;
- 590:
+case 6:
                     return var2;
- 593:
+case 2:
                     return var1;
                 }
             };

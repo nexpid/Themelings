@@ -22,21 +22,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function getFastestListVisibleItemsWithErrorChecking(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var6 = arg1;
             var1 = arg2;
             var2 = arg3;
             var4 = var1.sectionStart;
             var3 = var2.length;
             var3 = var4 > var3;
-            if(var3) { _fun0001_ip = 42; continue _fun0001 }
- 27:
+            if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = var1.sectionEnd;
             var4 = var2.length;
             var3 = var5 > var4;
- 42:
-            if(!var3) { _fun0001_ip = 104; continue _fun0001 }
- 45:
+case 2:
+            if(!var3) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = _closure1_slot0;
             var4 = _closure1_slot1;
             var3 = 0;
@@ -50,20 +50,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4['visibleItems'] = var1;
             var3 = 'Visible items `sectionStart/End` is greater than the number of sections';
             var3 = var5.bind(var7)(var3, var4);
- 104:
+case 4:
             var4 = var1.itemStart;
             var3 = var1.sectionStart;
             var3 = var2[var3];
             var3 = var4 > var3;
-            if(var3) { _fun0001_ip = 147; continue _fun0001 }
- 127:
+            if(var3) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var5 = var1.itemEnd;
             var4 = var1.sectionEnd;
             var4 = var2[var4];
             var3 = var5 > var4;
- 147:
-            if(!var3) { _fun0001_ip = 209; continue _fun0001 }
- 150:
+case 6:
+            if(!var3) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var5 = _closure1_slot0;
             var4 = _closure1_slot1;
             var3 = 0;
@@ -77,7 +77,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['visibleItems'] = var1;
             var2 = 'Visible items `itemStart/End` is greater than the number of items in the first section';
             var2 = var4.bind(var5)(var2, var3);
- 209:
+case 8:
             return var1;
         }
     };

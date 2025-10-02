@@ -78,33 +78,33 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = copyDataProperties(var9, var8);
         var3 = function react(arg1, arg2, arg3) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var2 = arg1;
                 var1 = arg3;
                 var3 = {};
                 var4 = var2.context;
                 var6 = null;
-                if(!(var6 != var4)) { _fun0001_ip = 78; continue _fun0001 }
- 19:
+                if(!(var6 != var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var5 = var2.context;
                 var4 = var2.target;
                 var4 = var5[var4];
-                if(!var4) { _fun0001_ip = 46; continue _fun0001 }
- 37:
+                if(!var4) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var5 = var4.onClick;
-                if(var5) { _fun0001_ip = 54; continue _fun0001 }
- 46:
+                if(var5) { _fun0001_ip = 6; continue _fun0001 }
+case 4:
                 var3['onClick'] = var4;
-                _fun0001_ip = 78; continue _fun0001;
- 54:
+                _fun0001_ip = 2; continue _fun0001;
+case 6:
                 var5 = var4.onClick;
                 var3['onClick'] = var5;
                 var4 = var4.onContextMenu;
                 var3['onContextMenu'] = var4;
- 78:
+case 2:
                 var4 = var3.onClick;
-                if(!(var6 == var4)) { _fun0001_ip = 158; continue _fun0001 }
- 88:
+                if(!(var6 == var4)) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
                 var7 = _closure1_slot0;
                 var5 = _closure1_slot1;
                 var4 = 2;
@@ -115,14 +115,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var2.target;
                 var5 = var7.bind(var8)(var5);
                 var6 = var6 != var5;
-                if(!var6) { _fun0001_ip = 140; continue _fun0001 }
- 137:
+                if(!var6) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
                 var4 = var5;
- 140:
+case 9:
                 var3['href'] = var4;
                 var4 = '_blank';
                 var3['target'] = var4;
- 158:
+case 7:
                 var5 = _closure1_slot2;
                 var4 = {};
                 var6 = var2.title;

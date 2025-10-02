@@ -46,13 +46,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3[1] = var6;
         var2 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var2 = _closure2_slot1;
-                if(var2) { _fun0001_ip = 14; continue _fun0001 }
- 10:
+                if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var2 = undefined;
                 return var2;
- 14:
+case 2:
                 var4 = _closure1_slot1;
                 var3 = _closure1_slot2;
                 var2 = 2;

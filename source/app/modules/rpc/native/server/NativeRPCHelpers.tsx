@@ -36,14 +36,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = function* (arg1, arg2, arg3) {
             var1 = function* anon_0_(arg1, arg2, arg3) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     StartGenerator();
                     var9 = arg1;
                     var8 = arg2;
                     var6 = arg3;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 245; continue _fun0001 }
- 19:
+                    if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
                     var10 = 3;
@@ -53,8 +53,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var4.validateOriginAndUpdateSocket;
                     var3 = var3.bind(var4)(var9, var8);
                     var3 = null;
-                    if(!(var3 != var6)) { _fun0001_ip = 157; continue _fun0001 }
- 62:
+                    if(!(var3 != var6)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                     var11 = var9.transport;
                     var3 = _closure1_slot4;
                     var3 = var3.POST_MESSAGE;
@@ -66,12 +66,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var11 !== var3;
                     var3 = var4.bind(var5)(var6, var3);
                     SaveGenerator(address=115);
- 113:
+case 6:
                     return var3;
- 115:
+case 7:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(var4) { _fun0001_ip = 154; continue _fun0001 }
- 121:
+                    if(var4) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot2;
                     var4 = var4[var10];
@@ -79,9 +79,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var5.validateSocketApplication;
                     var4 = var4.bind(var5)(var9, var6, var8);
                     return var4;
- 154:
+case 8:
                     return var3;
- 157:
+case 4:
                     var3 = global;
                     var4 = var3.Promise;
                     var3 = var4.reject;
@@ -103,7 +103,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var2 instanceof Object ? var2 : var5;
                     var2 = var3.bind(var4)(var2);
                     return var2;
- 245:
+case 2:
                     return var1;
                 }
             };

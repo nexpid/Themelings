@@ -37,7 +37,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function createThreadStarterSystemMessage(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arg1;
             var1 = var5.message;
             var6 = var1.messageReference;
@@ -64,8 +64,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = _closure1_slot4;
             var2 = var1.LOADED;
             var1 = null;
-            if(!(var6 !== var2)) { _fun0001_ip = 218; continue _fun0001 }
- 124:
+            if(!(var6 !== var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = {};
             var10 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -88,7 +88,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var2;
             var3 = copyDataProperties(var12, var11);
             var1 = var2;
- 218:
+case 2:
             return var1;
         }
     };

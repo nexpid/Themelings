@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var8;
     var5 = function getEmbeddedActivityJoinability(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var12 = var3.userId;
             var13 = var3.activity;
@@ -22,38 +22,38 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var3.PermissionStore;
             var6 = var3.GuildStore;
             var3 = null;
-            if(!(var3 != var12)) { _fun0001_ip = 599; continue _fun0001 }
- 69:
+            if(!(var3 != var12)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var14 = var3 == var1;
             var10 = undefined;
             var5 = undefined;
-            if(var14) { _fun0001_ip = 86; continue _fun0001 }
- 80:
+            if(var14) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = var1.nsfwAllowed;
- 86:
+case 4:
             var1 = false;
-            if(!(var1 === var5)) { _fun0001_ip = 131; continue _fun0001 }
- 92:
+            if(!(var1 === var5)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var1 = var3 == var11;
             var5 = undefined;
-            if(var1) { _fun0001_ip = 122; continue _fun0001 }
- 101:
+            if(var1) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var1 = var11.embeddedActivityConfig;
             var14 = var3 == var1;
             var5 = undefined;
-            if(var14) { _fun0001_ip = 122; continue _fun0001 }
- 116:
+            if(var14) { _fun0001_ip = 8; continue _fun0001 }
+case 10:
             var5 = var1.requires_age_gate;
- 122:
+case 8:
             var1 = true;
-            if(!(var1 !== var5)) { _fun0001_ip = 584; continue _fun0001 }
- 131:
-            if(var2) { _fun0001_ip = 149; continue _fun0001 }
- 137:
+            if(!(var1 !== var5)) { _fun0001_ip = 11; continue _fun0001 }
+case 6:
+            if(var2) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var2 = _closure1_slot9;
             var2 = var2.ACTIVITIES_FEATURE_NOT_ENABLED_FOR_OS;
             return var2;
- 149:
+case 12:
             var5 = _closure1_slot1;
             var14 = _closure1_slot2;
             var2 = 6;
@@ -61,66 +61,66 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.bind(var10)(var2);
             var14 = var3 == var11;
             var2 = undefined;
-            if(var14) { _fun0001_ip = 199; continue _fun0001 }
- 178:
+            if(var14) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var11 = var11.embeddedActivityConfig;
             var14 = var3 == var11;
             var2 = undefined;
-            if(var14) { _fun0001_ip = 199; continue _fun0001 }
- 193:
+            if(var14) { _fun0001_ip = 14; continue _fun0001 }
+case 16:
             var2 = var11.supported_platforms;
- 199:
+case 14:
             var2 = var5.bind(var10)(var2);
-            if(var2) { _fun0001_ip = 219; continue _fun0001 }
- 207:
+            if(var2) { _fun0001_ip = 17; continue _fun0001 }
+case 18:
             var2 = _closure1_slot9;
             var2 = var2.ACTIVITY_NOT_SUPPORTED_ON_OS;
             return var2;
- 219:
+case 17:
             var5 = var7;
-            if(!(var3 == var5)) { _fun0001_ip = 270; continue _fun0001 }
- 226:
+            if(!(var3 == var5)) { _fun0001_ip = 19; continue _fun0001 }
+case 20:
             var11 = var8.getVoiceStateForSession;
             var14 = var3 == var13;
             var2 = undefined;
-            if(var14) { _fun0001_ip = 247; continue _fun0001 }
- 241:
+            if(var14) { _fun0001_ip = 21; continue _fun0001 }
+case 22:
             var2 = var13.session_id;
- 247:
+case 21:
             var11 = var11.bind(var8)(var12, var2);
             var12 = var3 == var11;
             var2 = undefined;
-            if(var12) { _fun0001_ip = 267; continue _fun0001 }
- 262:
+            if(var12) { _fun0001_ip = 23; continue _fun0001 }
+case 24:
             var2 = var11.channelId;
- 267:
+case 23:
             var5 = var2;
- 270:
-            if(!(var3 != var5)) { _fun0001_ip = 572; continue _fun0001 }
- 277:
+case 19:
+            if(!(var3 != var5)) { _fun0001_ip = 25; continue _fun0001 }
+case 26:
             var2 = var4.getChannel;
             var7 = var2.bind(var4)(var7);
-            if(!(var3 != var7)) { _fun0001_ip = 560; continue _fun0001 }
- 294:
+            if(!(var3 != var7)) { _fun0001_ip = 27; continue _fun0001 }
+case 28:
             var2 = var7.isPrivate;
             var2 = var2.bind(var7)();
-            if(var2) { _fun0001_ip = 548; continue _fun0001 }
- 310:
+            if(var2) { _fun0001_ip = 29; continue _fun0001 }
+case 30:
             var2 = var7.getGuildId;
             var4 = var2.bind(var7)();
-            if(!(var3 != var4)) { _fun0001_ip = 536; continue _fun0001 }
- 327:
+            if(!(var3 != var4)) { _fun0001_ip = 31; continue _fun0001 }
+case 32:
             var2 = var6.getGuild;
             var2 = var2.bind(var6)(var4);
             var4 = var3 == var2;
             var3 = undefined;
-            if(var4) { _fun0001_ip = 352; continue _fun0001 }
- 346:
+            if(var4) { _fun0001_ip = 33; continue _fun0001 }
+case 34:
             var3 = var2.afkChannelId;
- 352:
+case 33:
             var2 = var7.id;
-            if(!(var3 !== var2)) { _fun0001_ip = 524; continue _fun0001 }
- 364:
+            if(!(var3 !== var2)) { _fun0001_ip = 35; continue _fun0001 }
+case 36:
             var3 = var8.getCurrentClientVoiceChannelId;
             var2 = var7.getGuildId;
             var2 = var2.bind(var7)();
@@ -140,54 +140,54 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = _closure1_slot8;
             var6 = var6.USE_EMBEDDED_ACTIVITIES;
             var6 = var8.bind(var9)(var6, var7);
-            if(var6) { _fun0001_ip = 477; continue _fun0001 }
- 465:
+            if(var6) { _fun0001_ip = 37; continue _fun0001 }
+case 38:
             var6 = _closure1_slot9;
             var6 = var6.NO_USE_EMBEDDED_ACTIVITIES_PERMISSION;
             return var6;
- 477:
+case 37:
             var6 = var7.isVocal;
             var6 = var6.bind(var7)();
-            if(!var6) { _fun0001_ip = 548; continue _fun0001 }
- 490:
-            if(!(var4 !== var5)) { _fun0001_ip = 548; continue _fun0001 }
- 494:
-            if(var3) { _fun0001_ip = 512; continue _fun0001 }
- 497:
-            if(var2) { _fun0001_ip = 548; continue _fun0001 }
- 500:
+            if(!var6) { _fun0001_ip = 29; continue _fun0001 }
+case 39:
+            if(!(var4 !== var5)) { _fun0001_ip = 29; continue _fun0001 }
+case 40:
+            if(var3) { _fun0001_ip = 41; continue _fun0001 }
+case 42:
+            if(var2) { _fun0001_ip = 29; continue _fun0001 }
+case 43:
             var2 = _closure1_slot9;
             var2 = var2.NO_CHANNEL_CONNECT_PERMISSION;
             return var2;
- 512:
+case 41:
             var2 = _closure1_slot9;
             var2 = var2.CHANNEL_FULL;
             return var2;
- 524:
+case 35:
             var2 = _closure1_slot9;
             var2 = var2.IS_AFK_CHANNEL;
             return var2;
- 536:
+case 31:
             var2 = _closure1_slot9;
             var2 = var2.NO_GUILD;
             return var2;
- 548:
+case 29:
             var2 = _closure1_slot9;
             var2 = var2.CAN_JOIN;
             return var2;
- 560:
+case 27:
             var2 = _closure1_slot9;
             var2 = var2.NO_CHANNEL;
             return var2;
- 572:
+case 25:
             var1 = _closure1_slot9;
             var1 = var1.NO_CHANNEL;
             return var1;
- 584:
+case 11:
             var1 = _closure1_slot9;
             var1 = var1.ACTIVITY_AGE_GATED;
             return var1;
- 599:
+case 2:
             var1 = _closure1_slot9;
             var1 = var1.NO_USER;
             return var1;

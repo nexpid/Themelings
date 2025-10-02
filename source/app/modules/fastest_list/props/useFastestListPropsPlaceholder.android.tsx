@@ -7,16 +7,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var6;
     var1 = function createNativePlaceholderConfig(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var4 = null;
             var1 = var4 == var3;
             var7 = undefined;
             var10 = undefined;
-            if(var1) { _fun0001_ip = 21; continue _fun0001 }
- 16:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var10 = var3.type;
- 21:
+case 2:
             var1 = {};
             var1['borderRadius'] = var7;
             var1['borderTopLeftRadius'] = var7;
@@ -43,8 +43,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['placeholderFeedShape'] = var7;
             var1['placeholderFeedShapeSize'] = var7;
             var2 = var10;
-            if(!(var4 == var2)) { _fun0001_ip = 184; continue _fun0001 }
- 149:
+            if(!(var4 == var2)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var6 = _closure1_slot0;
             var8 = _closure1_slot1;
             var5 = 1;
@@ -52,14 +52,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var6.bind(var7)(var5);
             var5 = var5.FastestListPropsPlaceholderType;
             var2 = var5.NONE;
- 184:
+case 4:
             var1['placeholderType'] = var2;
             var1['width'] = var7;
             var1['height'] = var7;
             var1['verticalAlignment'] = var7;
             var1['horizontalAlignment'] = var7;
-            if(!(var4 != var3)) { _fun0001_ip = 1113; continue _fun0001 }
- 216:
+            if(!(var4 != var3)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var8 = _closure1_slot0;
             var6 = _closure1_slot1;
             var2 = 1;
@@ -67,24 +67,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var8.bind(var7)(var6);
             var6 = var6.FastestListPropsPlaceholderType;
             var6 = var6.NONE;
-            if(!(var6 !== var10)) { _fun0001_ip = 1111; continue _fun0001 }
- 258:
+            if(!(var6 !== var10)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var8 = _closure1_slot0;
             var6 = _closure1_slot1;
             var6 = var6[var2];
             var6 = var8.bind(var7)(var6);
             var6 = var6.FastestListPropsPlaceholderType;
             var6 = var6.SHAPE;
-            if(!(var6 !== var10)) { _fun0001_ip = 859; continue _fun0001 }
- 294:
+            if(!(var6 !== var10)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var8 = _closure1_slot0;
             var6 = _closure1_slot1;
             var6 = var6[var2];
             var6 = var8.bind(var7)(var6);
             var6 = var6.FastestListPropsPlaceholderType;
             var6 = var6.FEED_ITEM;
-            if(!(var6 !== var10)) { _fun0001_ip = 379; continue _fun0001 }
- 327:
+            if(!(var6 !== var10)) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var6 = global;
             var9 = var6.Error;
             var6 = var6.HermesInternal;
@@ -97,59 +97,59 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = new var14[var9](var13, var12);
             var6 = var6 instanceof Object ? var6 : var8;
             throw var6;
- 379:
+case 12:
             var9 = var3.borderRadius;
             var10 = var4 != var9;
             var8 = 0;
-            if(!var10) { _fun0001_ip = 396; continue _fun0001 }
- 393:
+            if(!var10) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var8 = var9;
- 396:
+case 14:
             var1['borderRadius'] = var8;
             var9 = var3.borderTopLeftRadius;
             var10 = var4 != var9;
             var8 = 0;
-            if(!var10) { _fun0001_ip = 420; continue _fun0001 }
- 417:
+            if(!var10) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var8 = var9;
- 420:
+case 16:
             var1['borderTopLeftRadius'] = var8;
             var9 = var3.borderTopRightRadius;
             var10 = var4 != var9;
             var8 = 0;
-            if(!var10) { _fun0001_ip = 444; continue _fun0001 }
- 441:
+            if(!var10) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
             var8 = var9;
- 444:
+case 18:
             var1['borderTopRightRadius'] = var8;
             var9 = var3.borderBottomLeftRadius;
             var10 = var4 != var9;
             var8 = 0;
-            if(!var10) { _fun0001_ip = 468; continue _fun0001 }
- 465:
+            if(!var10) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
             var8 = var9;
- 468:
+case 20:
             var1['borderBottomLeftRadius'] = var8;
             var9 = var3.borderBottomRightRadius;
             var10 = var4 != var9;
             var8 = 0;
-            if(!var10) { _fun0001_ip = 492; continue _fun0001 }
- 489:
+            if(!var10) { _fun0001_ip = 22; continue _fun0001 }
+case 23:
             var8 = var9;
- 492:
+case 22:
             var1['borderBottomRightRadius'] = var8;
             var9 = var3.divider;
             var8 = var4 != var9;
-            if(!var8) { _fun0001_ip = 514; continue _fun0001 }
- 511:
+            if(!var8) { _fun0001_ip = 24; continue _fun0001 }
+case 25:
             var8 = var9;
- 514:
+case 24:
             var1['divider'] = var8;
             var8 = var3.dividerColorHex;
             var9 = var4 != var8;
             var8 = undefined;
-            if(!var9) { _fun0001_ip = 572; continue _fun0001 }
- 535:
+            if(!var9) { _fun0001_ip = 26; continue _fun0001 }
+case 27:
             var10 = _closure1_slot0;
             var11 = _closure1_slot1;
             var9 = 2;
@@ -158,29 +158,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var11.hexToRgbaString;
             var9 = var3.dividerColorHex;
             var8 = var10.bind(var11)(var9);
- 572:
+case 26:
             var1['dividerColorRgba'] = var8;
             var9 = var3.dividerPaddingLeft;
             var10 = var4 != var9;
             var8 = 0;
-            if(!var10) { _fun0001_ip = 596; continue _fun0001 }
- 593:
+            if(!var10) { _fun0001_ip = 28; continue _fun0001 }
+case 29:
             var8 = var9;
- 596:
+case 28:
             var1['dividerPaddingLeft'] = var8;
             var9 = var3.dividerPaddingRight;
             var10 = var4 != var9;
             var8 = 0;
-            if(!var10) { _fun0001_ip = 620; continue _fun0001 }
- 617:
+            if(!var10) { _fun0001_ip = 30; continue _fun0001 }
+case 31:
             var8 = var9;
- 620:
+case 30:
             var1['dividerPaddingRight'] = var8;
             var8 = var3.backgroundColorHex;
             var9 = var4 != var8;
             var8 = undefined;
-            if(!var9) { _fun0001_ip = 678; continue _fun0001 }
- 641:
+            if(!var9) { _fun0001_ip = 32; continue _fun0001 }
+case 33:
             var10 = _closure1_slot0;
             var11 = _closure1_slot1;
             var9 = 2;
@@ -189,7 +189,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var11.hexToRgbaString;
             var9 = var3.backgroundColorHex;
             var8 = var10.bind(var11)(var9);
- 678:
+case 32:
             var1['placeholderFeedBackgroundColorRgba'] = var8;
             var9 = _closure1_slot0;
             var10 = _closure1_slot1;
@@ -205,68 +205,68 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var3.labelSecondarySize;
             var10 = var4 != var9;
             var8 = 0;
-            if(!var10) { _fun0001_ip = 757; continue _fun0001 }
- 754:
+            if(!var10) { _fun0001_ip = 34; continue _fun0001 }
+case 35:
             var8 = var9;
- 757:
+case 34:
             var1['placeholderFeedLabelSecondarySize'] = var8;
             var8 = var3.labelPadding;
             var1['placeholderFeedLabelPadding'] = var8;
             var9 = var3.labelPaddingInnerRatio;
             var10 = var4 != var9;
             var8 = 0.4;
-            if(!var10) { _fun0001_ip = 801; continue _fun0001 }
- 798:
+            if(!var10) { _fun0001_ip = 36; continue _fun0001 }
+case 37:
             var8 = var9;
- 801:
+case 36:
             var1['placeholderFeedLabelPaddingInnerRatio'] = var8;
             var8 = var3.padding;
             var9 = var4 != var8;
             var6 = 0;
-            if(!var9) { _fun0001_ip = 824; continue _fun0001 }
- 821:
+            if(!var9) { _fun0001_ip = 38; continue _fun0001 }
+case 39:
             var6 = var8;
- 824:
+case 38:
             var1['placeholderFeedPadding'] = var6;
             var6 = var3.shape;
             var1['placeholderFeedShape'] = var6;
             var6 = var3.shapeSize;
             var1['placeholderFeedShapeSize'] = var6;
-            _fun0001_ip = 1111; continue _fun0001;
- 859:
+            _fun0001_ip = 8; continue _fun0001;
+case 10:
             var9 = var3.borderRadius;
             var10 = var4 != var9;
             var8 = 0;
-            if(!var10) { _fun0001_ip = 876; continue _fun0001 }
- 873:
+            if(!var10) { _fun0001_ip = 40; continue _fun0001 }
+case 41:
             var8 = var9;
- 876:
+case 40:
             var1['borderRadius'] = var8;
             var8 = var3.shape;
             var1['placeholderShape'] = var8;
             var9 = var3.spaceGap;
             var10 = var4 != var9;
             var8 = 0;
-            if(!var10) { _fun0001_ip = 912; continue _fun0001 }
- 909:
+            if(!var10) { _fun0001_ip = 42; continue _fun0001 }
+case 43:
             var8 = var9;
- 912:
+case 42:
             var1['placeholderShapeGap'] = var8;
             var9 = var3.paddingHorizontal;
             var10 = var4 != var9;
             var8 = 0;
-            if(!var10) { _fun0001_ip = 935; continue _fun0001 }
- 932:
+            if(!var10) { _fun0001_ip = 44; continue _fun0001 }
+case 45:
             var8 = var9;
- 935:
+case 44:
             var1['placeholderShapePaddingHorizontal'] = var8;
             var8 = var3.paddingVertical;
             var9 = var4 != var8;
             var6 = 0;
-            if(!var9) { _fun0001_ip = 959; continue _fun0001 }
- 956:
+            if(!var9) { _fun0001_ip = 46; continue _fun0001 }
+case 47:
             var6 = var8;
- 959:
+case 46:
             var1['placeholderShapePaddingVertical'] = var6;
             var6 = _closure1_slot0;
             var8 = _closure1_slot1;
@@ -280,10 +280,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['placeholderShapeColorRgba'] = var5;
             var5 = var3.shapeCount;
             var6 = var4 != var5;
-            if(!var6) { _fun0001_ip = 1030; continue _fun0001 }
- 1027:
+            if(!var6) { _fun0001_ip = 48; continue _fun0001 }
+case 49:
             var2 = var5;
- 1030:
+case 48:
             var1['placeholderShapeCount'] = var2;
             var2 = var3.width;
             var1['width'] = var2;
@@ -293,21 +293,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var4 != var6;
             var2 = 'center';
             var5 = var2;
-            if(!var7) { _fun0001_ip = 1081; continue _fun0001 }
- 1078:
+            if(!var7) { _fun0001_ip = 50; continue _fun0001 }
+case 51:
             var5 = var6;
- 1081:
+case 50:
             var1['verticalAlignment'] = var5;
             var3 = var3.horizonalAlignment;
             var4 = var4 != var3;
-            if(!var4) { _fun0001_ip = 1105; continue _fun0001 }
- 1102:
+            if(!var4) { _fun0001_ip = 52; continue _fun0001 }
+case 53:
             var2 = var3;
- 1105:
+case 52:
             var1['horizontalAlignment'] = var2;
- 1111:
+case 8:
             return var1;
- 1113:
+case 6:
             return var1;
         }
     };
@@ -344,13 +344,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useFastestListPropsPlaceholder() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var5 = arguments[0];
             var2 = undefined;
-            if(!(var5 === var2)) { _fun0002_ip = 18; continue _fun0002 }
- 11:
+            if(!(var5 === var2)) { _fun0002_ip = 54; continue _fun0002 }
+case 55:
             var5 = _closure1_slot3;
- 18:
+case 54:
             var _closure2_slot0 = var5;
             var4 = _closure1_slot2;
             var3 = var4.useMemo;

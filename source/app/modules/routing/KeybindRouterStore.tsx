@@ -7,7 +7,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var6;
     var1 = function getMatchData(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var2 = _closure1_slot0;
             var1 = _closure1_slot1;
@@ -20,10 +20,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2 != var3;
             var7 = '';
             var5 = var7;
-            if(!var1) { _fun0001_ip = 53; continue _fun0001 }
- 50:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = var3;
- 53:
+case 2:
             var1 = {};
             var16 = _closure1_slot2;
             var15 = var16.CHANNEL;
@@ -47,18 +47,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var15.bind(var16)(var14, var11, var10);
             var1['path'] = var10;
             var1 = var6.bind(var9)(var5, var1);
-            if(!(var2 == var1)) { _fun0001_ip = 304; continue _fun0001 }
- 165:
+            if(!(var2 == var1)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var6 = _closure1_slot0;
             var5 = _closure1_slot1;
             var5 = var5[var8];
             var6 = var6.bind(var12)(var5);
             var5 = var6.matchPath;
             var8 = var2 != var3;
-            if(!var8) { _fun0001_ip = 198; continue _fun0001 }
- 195:
+            if(!var8) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var7 = var3;
- 198:
+case 6:
             var3 = {};
             var10 = _closure1_slot2;
             var9 = var10.GUILD_BOOSTING_MARKETING;
@@ -72,37 +72,37 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var9.bind(var10)(var8);
             var3['path'] = var8;
             var6 = var5.bind(var6)(var7, var3);
-            if(!(var2 == var6)) { _fun0001_ip = 278; continue _fun0001 }
- 262:
+            if(!(var2 == var6)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var3 = {'guildId': null, 'channelId': null};
-            _fun0001_ip = 302; continue _fun0001;
- 278:
+            _fun0001_ip = 10; continue _fun0001;
+case 8:
             var5 = {};
             var6 = var6.params;
             var6 = var6.guildId;
             var5['guildId'] = var6;
             var5['channelId'] = var2;
             var3 = var5;
- 302:
+case 10:
             return var3;
- 304:
+case 4:
             var1 = var1.params;
             var5 = var1.guildId;
             var3 = var1.channelId;
             var1 = {};
             var6 = _closure1_slot3;
             var4 = null;
-            if(!(var5 !== var6)) { _fun0001_ip = 335; continue _fun0001 }
- 332:
+            if(!(var5 !== var6)) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var4 = var5;
- 335:
+case 11:
             var1['guildId'] = var4;
             var4 = var2 != var3;
             var2 = null;
-            if(!var4) { _fun0001_ip = 351; continue _fun0001 }
- 348:
+            if(!var4) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var2 = var3;
- 351:
+case 13:
             var1['channelId'] = var2;
             return var1;
         }

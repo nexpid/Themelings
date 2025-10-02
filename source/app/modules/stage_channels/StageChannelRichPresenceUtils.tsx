@@ -6,34 +6,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = dependencyMap;
     var4 = function unpackStageChannelParty(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arg1;
             var3 = var5;
             var2 = undefined;
             var4 = undefined;
             var9 = undefined;
             var1 = null;
-            if(!(var1 != var5)) { _fun0001_ip = 31; continue _fun0001 }
- 18:
+            if(!(var1 != var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = var3;
             var5 = var5.party;
-            if(!(var1 == var5)) { _fun0001_ip = 33; continue _fun0001 }
- 31:
+            if(!(var1 == var5)) { _fun0001_ip = 4; continue _fun0001 }
+case 2:
             return var2;
- 33:
+case 4:
             var3 = var3.party;
             var4 = var3.id;
             var9 = var3.size;
- 49: // try_start_0
+case 5: // try_start_0
             var3 = var4;
-            if(!(var1 != var3)) { _fun0001_ip = 235; continue _fun0001 }
- 59:
+            if(!(var1 != var3)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var7 = var4;
             var6 = var7.startsWith;
             var5 = _closure1_slot7;
             var5 = var6.bind(var7)(var5);
-            if(!var5) { _fun0001_ip = 235; continue _fun0001 }
- 86:
+            if(!var5) { _fun0001_ip = 6; continue _fun0001 }
+case 8:
             var6 = var4;
             var5 = var6.split;
             var4 = ':';
@@ -70,11 +70,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = !var5;
             var3['guildIsVerified'] = var5;
             var3['stageInstanceId'] = var4;
- 233: // try_end0
+case 9: // try_end0
             return var3;
- 235:
+case 6:
             return var2;
- 237: // catch_target0
+case 10: // catch_target0
             CatchBlockStart(arg_register=1);
             return var1;
         }
@@ -129,7 +129,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var7)(var5);
     var5 = function packStageChannelPartyId(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var4 = _closure1_slot1;
             var3 = var4.getId;
@@ -139,10 +139,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var1.id;
             var3 = var4.bind(var5)(var6, var3);
             var7 = 0;
-            if(!var3) { _fun0002_ip = 49; continue _fun0002 }
- 46:
+            if(!var3) { _fun0002_ip = 5; continue _fun0002 }
+case 11:
             var7 = 1;
- 49:
+case 5:
             var5 = _closure1_slot3;
             var4 = var5.getGuild;
             var3 = var1.getGuildId;
@@ -150,32 +150,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.bind(var5)(var3);
             var4 = null;
             var5 = var7;
-            if(!(var4 != var3)) { _fun0002_ip = 163; continue _fun0002 }
- 82:
+            if(!(var4 != var3)) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
             var8 = var3.features;
             var6 = var8.has;
             var4 = _closure1_slot6;
             var4 = var4.PARTNERED;
             var4 = var6.bind(var8)(var4);
             var6 = var7;
-            if(!var4) { _fun0002_ip = 121; continue _fun0002 }
- 114:
+            if(!var4) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
             var4 = 2;
             var6 = var7 | var4;
- 121:
+case 14:
             var7 = var3.features;
             var4 = var7.has;
             var3 = _closure1_slot6;
             var3 = var3.VERIFIED;
             var4 = var4.bind(var7)(var3);
             var3 = var6;
-            if(!var4) { _fun0002_ip = 160; continue _fun0002 }
- 153:
+            if(!var4) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
             var4 = 4;
             var3 = var6 | var4;
- 160:
+case 16:
             var5 = var3;
- 163:
+case 12:
             var4 = var5.toString;
             var3 = 16;
             var11 = var4.bind(var5)(var3);
@@ -200,15 +200,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['unpackStageChannelParty'] = var4;
     var4 = function isStageActivity(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = null;
             var3 = var2 == var1;
             var2 = undefined;
-            if(var3) { _fun0003_ip = 20; continue _fun0003 }
- 14:
+            if(var3) { _fun0003_ip = 18; continue _fun0003 }
+case 19:
             var2 = var1.application_id;
- 20:
+case 18:
             var1 = _closure1_slot5;
             var1 = var2 === var1;
             return var1;
@@ -217,21 +217,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['isStageActivity'] = var4;
     var2 = function shouldShowActivity(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var4 = _closure1_slot8;
             var3 = undefined;
             var2 = arg1;
             var3 = var4.bind(var3)(var2);
             var2 = null;
-            if(!(var2 != var3)) { _fun0004_ip = 48; continue _fun0004 }
- 23:
+            if(!(var2 != var3)) { _fun0004_ip = 20; continue _fun0004 }
+case 21:
             var4 = var3.channelId;
             var3 = _closure1_slot2;
             var1 = var3.getChannel;
             var1 = var1.bind(var3)(var4);
             var1 = var2 != var1;
             return var1;
- 48:
+case 20:
             var1 = false;
             return var1;
         }

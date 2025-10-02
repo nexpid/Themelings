@@ -33,7 +33,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function AppLauncherBackButton(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var6 = var1.onPress;
             var2 = _closure1_slot0;
@@ -54,15 +54,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = {'size': 'sm', 'variant': 'secondary-overlay'};
             var9 = _closure1_slot1;
             var11 = _closure1_slot2;
-            if(var5) { _fun0001_ip = 109; continue _fun0001 }
- 100:
+            if(var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var7 = 5;
             var7 = var11[var7];
-            _fun0001_ip = 116; continue _fun0001;
- 109:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var10 = 4;
             var7 = var11[var10];
- 116:
+case 4:
             var7 = var9.bind(var4)(var7);
             var1['icon'] = var7;
             var1['onPress'] = var6;
@@ -78,13 +78,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var8[var10];
             var8 = var9.bind(var4)(var8);
             var8 = var8.t;
-            if(var5) { _fun0001_ip = 192; continue _fun0001 }
- 184:
+            if(var5) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var5 = var8.cpT0Cg;
-            _fun0001_ip = 198; continue _fun0001;
- 192:
+            _fun0001_ip = 7; continue _fun0001;
+case 5:
             var5 = var8.13/7kZ;
- 198:
+case 7:
             var5 = var6.bind(var7)(var5);
             var1['accessibilityLabel'] = var5;
             var1 = var3.bind(var4)(var2, var1);

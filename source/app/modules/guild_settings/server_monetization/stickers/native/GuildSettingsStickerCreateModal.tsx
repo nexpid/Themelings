@@ -33,7 +33,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function GuildSettingsStickerCreateModal(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = var1.guildId;
             var _closure2_slot0 = var2;
@@ -64,23 +64,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var6.intl;
             var7 = var8.string;
             var6 = null;
-            if(!(var6 == var10)) { _fun0001_ip = 163; continue _fun0001 }
- 133:
+            if(!(var6 == var10)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var10 = _closure1_slot0;
             var6 = _closure1_slot2;
             var6 = var6[var11];
             var6 = var10.bind(var4)(var6);
             var6 = var6.t;
             var6 = var6.3DzNjY;
-            _fun0001_ip = 191; continue _fun0001;
- 163:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var10 = _closure1_slot0;
             var9 = _closure1_slot2;
             var9 = var9[var11];
             var9 = var10.bind(var4)(var9);
             var9 = var9.t;
             var6 = var9.tdhW5e;
- 191:
+case 4:
             var6 = var7.bind(var8)(var6);
             var1['title'] = var6;
             var5 = function render() {

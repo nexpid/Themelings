@@ -29,15 +29,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg2;
             var1 = arg1;
             var2 = var1.sharedClientTheme;
             var7 = undefined;
-            if(!(var7 === var2)) { _fun0001_ip = 20; continue _fun0001 }
- 18:
+            if(!(var7 === var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             return var7;
- 20:
+case 2:
             var1 = {};
             var4 = var2.colors;
             var1['colors'] = var4;
@@ -48,10 +48,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var3.uri;
             var4 = '';
             var2 = var4;
-            if(!(var7 !== var5)) { _fun0001_ip = 73; continue _fun0001 }
- 68:
+            if(!(var7 !== var5)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = var3.uri;
- 73:
+case 4:
             var1['createdByAvatarUrl'] = var2;
             var9 = _closure1_slot3;
             var6 = var9.resolveAssetSource;

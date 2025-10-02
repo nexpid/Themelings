@@ -46,20 +46,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4[1] = var7;
         var3 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var1 = _closure2_slot1;
                 var3 = var1.length;
                 var1 = 0;
-                if(!(var1 !== var3)) { _fun0001_ip = 35; continue _fun0001 }
- 18:
+                if(!(var1 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var1 = {};
                 var3 = _closure2_slot0;
                 var2 = _closure2_slot1;
                 var1[var3] = var2;
-                _fun0001_ip = 37; continue _fun0001;
- 35:
+                _fun0001_ip = 4; continue _fun0001;
+case 2:
                 var1 = {};
- 37:
+case 4:
                 return var1;
             }
         };
@@ -73,19 +73,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.forEach;
             var1 = function(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var4 = arg1;
                     var3 = _closure1_slot4;
                     var2 = var3.getUser;
                     var3 = var2.bind(var3)(var4);
                     var2 = null;
-                    if(!(var2 == var3)) { _fun0002_ip = 50; continue _fun0002 }
- 27:
+                    if(!(var2 == var3)) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
                     var3 = _closure1_slot3;
                     var2 = var3.requestMember;
                     var1 = _closure2_slot0;
                     var1 = var2.bind(var3)(var1, var4);
- 50:
+case 5:
                     var1 = undefined;
                     return var1;
                 }

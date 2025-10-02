@@ -28,7 +28,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function createNewThreadSystemMessage(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var11 = var4.message;
             var15 = var4.roleStyle;
@@ -50,10 +50,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = null;
             var12 = var10 == var7;
             var1 = undefined;
-            if(var12) { _fun0001_ip = 104; continue _fun0001 }
- 99:
+            if(var12) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var7.channel_id;
- 104:
+case 2:
             var12 = var5.bind(var6)(var1);
             var6 = _closure1_slot0;
             var13 = _closure1_slot2;
@@ -85,24 +85,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9['colorString'] = var14;
             var18 = 'username';
             var13 = null;
-            if(!(var18 === var15)) { _fun0001_ip = 252; continue _fun0001 }
- 249:
+            if(!(var18 === var15)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var13 = var14;
- 252:
+case 4:
             var9['linkColor'] = var13;
             var9['roleColor'] = var14;
             var13 = null;
-            if(!var17) { _fun0001_ip = 270; continue _fun0001 }
- 267:
+            if(!var17) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var13 = var16;
- 270:
+case 6:
             var9['roleColors'] = var13;
             var13 = 'dot';
             var13 = var13 === var15;
-            if(!var13) { _fun0001_ip = 290; continue _fun0001 }
- 286:
+            if(!var13) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var13 = var10 != var14;
- 290:
+case 8:
             var9['shouldShowRoleDot'] = var13;
             var13 = var11.channel_id;
             var9['messageChannelId'] = var13;
@@ -111,23 +111,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['actorHook'] = var9;
             var13 = var10 == var12;
             var9 = undefined;
-            if(var13) { _fun0001_ip = 331; continue _fun0001 }
- 326:
+            if(var13) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var9 = var12.name;
- 331:
-            if(!(var10 == var9)) { _fun0001_ip = 340; continue _fun0001 }
- 335:
+case 10:
+            if(!(var10 == var9)) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var9 = var11.content;
- 340:
+case 12:
             var5['threadName'] = var9;
             var9 = {'action': 'bindOpenThreadChannel', 'threadId': null, 'medium': true};
             var11 = var11.messageReference;
             var12 = var10 == var11;
             var10 = undefined;
-            if(var12) { _fun0001_ip = 379; continue _fun0001 }
- 374:
+            if(var12) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var10 = var11.channel_id;
- 379:
+case 14:
             var9['threadId'] = var10;
             var5['threadOnClick'] = var9;
             var5 = var7.bind(var8)(var6, var5);

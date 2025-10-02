@@ -41,7 +41,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function PlayStationLinkError(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var6 = var1.onClose;
             var3 = var1.errorCode;
@@ -62,8 +62,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.bind(var7)(var8, var2);
             var2 = _closure1_slot3;
             var2 = var2.UNDER_MINIMUM_AGE;
-            if(!(var3 !== var2)) { _fun0001_ip = 157; continue _fun0001 }
- 98:
+            if(!(var3 !== var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
             var2 = 6;
@@ -76,8 +76,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.t;
             var2 = var2.qE9nqK;
             var7 = var3.bind(var7)(var2);
-            _fun0001_ip = 214; continue _fun0001;
- 157:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var9 = _closure1_slot0;
             var10 = _closure1_slot1;
             var2 = 6;
@@ -90,7 +90,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.t;
             var2 = var2.3dIn2N;
             var7 = var3.bind(var8)(var2);
- 214:
+case 4:
             var3 = _closure1_slot4;
             var11 = _closure1_slot0;
             var12 = _closure1_slot1;

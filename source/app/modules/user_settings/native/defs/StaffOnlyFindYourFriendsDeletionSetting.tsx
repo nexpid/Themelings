@@ -55,23 +55,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = function* () {
             var1 = function* anon_0_() {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 261; continue _fun0001 }
- 10:
+                    if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var2 = undefined;
                     var7 = undefined;
                     var5 = _closure1_slot6;
                     var3 = var5.getState;
                     var3 = var3.bind(var5)();
                     var3 = var3.isLoading;
-                    if(var3) { _fun0001_ip = 258; continue _fun0001 }
- 43:
+                    if(var3) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                     var5 = _closure1_slot7;
                     var3 = true;
                     var3 = var5.bind(var2)(var3);
- 54: // try_start_0 // try_start_1
+case 6: // try_start_0 // try_start_1
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot2;
                     var3 = 8;
@@ -80,19 +80,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var5.adminDeleteContactSync;
                     var3 = var3.bind(var5)();
                     SaveGenerator(address=88);
- 86:
+case 7:
                     return var3;
- 88:
+case 8:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(var5) { _fun0001_ip = 99; continue _fun0001 }
- 94: // try_end0
-                    _fun0001_ip = 230; continue _fun0001;
- 99: // try_end1
+                    if(var5) { _fun0001_ip = 9; continue _fun0001 }
+case 10: // try_end0
+                    _fun0001_ip = 11; continue _fun0001;
+case 9: // try_end1
                     var6 = _closure1_slot7;
                     var5 = false;
                     var5 = var6.bind(var2)(var5);
                     return var3;
- 113: // try_start_2 // catch_target0
+case 12: // try_start_2 // catch_target0
                     CatchBlockStart(arg_register=5);
                     var5 = _closure1_slot0;
                     var8 = _closure1_slot2;
@@ -110,8 +110,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var3.bind(var5)();
                     var7 = var5;
                     var3 = null;
-                    if(!(var3 != var5)) { _fun0001_ip = 230; continue _fun0001 }
- 183:
+                    if(!(var3 != var5)) { _fun0001_ip = 11; continue _fun0001 }
+case 13:
                     var5 = _closure1_slot1;
                     var6 = _closure1_slot2;
                     var3 = 10;
@@ -123,20 +123,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3['key'] = var8;
                     var3['content'] = var7;
                     var3 = var5.bind(var6)(var3);
- 230: // try_end2
+case 11: // try_end2
                     var5 = _closure1_slot7;
                     var3 = false;
                     var3 = var5.bind(var2)(var3);
-                    _fun0001_ip = 258; continue _fun0001;
- 243: // catch_target1 // catch_target2
+                    _fun0001_ip = 4; continue _fun0001;
+case 14: // catch_target1 // catch_target2
                     CatchBlockStart(arg_register=2);
                     var5 = _closure1_slot7;
                     var4 = false;
                     var4 = var5.bind(var2)(var4);
                     throw var3;
- 258:
+case 4:
                     return var2;
- 261:
+case 2:
                     return var1;
                 }
             };
@@ -227,18 +227,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['usePredicate'] = var7;
     var4 = function useIsFindYourFriendsDeletionTrailing() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = _closure1_slot8;
             var5 = undefined;
             var3 = var1.bind(var5)();
             var1 = null;
-            if(!var3) { _fun0002_ip = 34; continue _fun0002 }
- 18:
+            if(!var3) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
             var4 = _closure1_slot5;
             var3 = _closure1_slot4;
             var2 = {};
             var1 = var4.bind(var5)(var3, var2);
- 34:
+case 15:
             return var1;
         }
     };

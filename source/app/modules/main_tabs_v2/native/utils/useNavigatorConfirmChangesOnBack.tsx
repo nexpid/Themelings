@@ -56,31 +56,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = {};
         var6 = function onBeforeGoBack(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var2 = arg1;
                 var _closure3_slot0 = var2;
                 var1 = var2.preventable;
-                if(!var1) { _fun0001_ip = 159; continue _fun0001 }
- 21:
+                if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var1 = _closure2_slot1;
                 var1 = var1.current;
-                if(var1) { _fun0001_ip = 72; continue _fun0001 }
- 36:
+                if(var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var3 = _closure2_slot0;
                 var6 = var3.current;
                 var3 = null;
                 var3 = var3 == var6;
                 var5 = undefined;
-                if(var3) { _fun0001_ip = 66; continue _fun0001 }
- 56:
+                if(var3) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                 var3 = var6.hasUnsavedChanges;
                 var5 = var3.bind(var6)();
- 66:
+case 6:
                 var3 = true;
                 var1 = var3 !== var5;
- 72:
-                if(var1) { _fun0001_ip = 159; continue _fun0001 }
- 75:
+case 4:
+                if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 8:
                 var1 = var2.preventDefault;
                 var1 = var1.bind(var2)();
                 var2 = _closure1_slot3;
@@ -109,7 +109,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 };
                 var1['onConfirm'] = var4;
                 var1 = var2.bind(var3)(var1);
- 159:
+case 2:
                 var1 = undefined;
                 return var1;
             }

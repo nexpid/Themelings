@@ -59,11 +59,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[0] = var6;
         var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var4 = _closure2_slot0;
                 var3 = _closure1_slot5;
-                if(!(var4 === var3)) { _fun0001_ip = 100; continue _fun0001 }
- 18:
+                if(!(var4 === var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var4 = _closure1_slot4;
                 var3 = var4.getFavoriteChannels;
                 var4 = var3.bind(var4)();
@@ -71,24 +71,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = var4;
                 var4 = null;
                 for(var5 in var8)
- 47:
+case 4:
                 {
- 56:
+case 5:
                     var11 = var5;
                     var12 = _closure1_slot2;
                     var10 = var12.getChannel;
                     var13 = var10.bind(var12)(var11);
-                    if(var4 == var13) { _fun0001_ip = 47; continue _fun0001 }
- 77:
+                    if(var4 == var13) { _fun0001_ip = 4; continue _fun0001 }
+case 6:
                     var12 = _closure1_slot3;
                     var10 = var12.getVoiceStatesForChannel;
                     var10 = var10.bind(var12)(var13);
                     var3[var11] = var10;
-                    _fun0001_ip = 47; continue _fun0001;
+                    _fun0001_ip = 4; continue _fun0001;
                 }
- 98:
+case 7:
                 return var3;
- 100:
+case 2:
                 var3 = _closure1_slot3;
                 var2 = var3.getVoiceStates;
                 var1 = _closure2_slot0;

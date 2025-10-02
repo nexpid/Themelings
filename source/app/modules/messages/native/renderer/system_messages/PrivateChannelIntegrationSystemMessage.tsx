@@ -29,7 +29,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function createPrivateChannelIntegrationSystemMessage(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var6 = var4.message;
             var1 = var6.author;
@@ -55,14 +55,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = null;
             var9 = var8 == var12;
             var1 = undefined;
-            if(var9) { _fun0001_ip = 116; continue _fun0001 }
- 110:
+            if(var9) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var12.bot;
- 116:
+case 2:
             var1 = var8 != var1;
             var9 = undefined;
-            if(!var1) { _fun0001_ip = 164; continue _fun0001 }
- 125:
+            if(!var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = {};
             var1['action'] = var7;
             var7 = var12.bot;
@@ -72,13 +72,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['messageChannelId'] = var6;
             var1['medium'] = var5;
             var9 = var1;
- 164:
+case 4:
             var1 = {};
             var5 = _closure1_slot3;
             var6 = var5.PRIVATE_CHANNEL_INTEGRATION_ADDED;
             var5 = arg2;
-            if(!(var5 !== var6)) { _fun0001_ip = 236; continue _fun0001 }
- 183:
+            if(!(var5 !== var6)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var5 = 2;
@@ -91,8 +91,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['usernameOnClick'] = var10;
             var5['applicationNameOnClick'] = var9;
             var5 = var6.bind(var7)(var5);
-            _fun0001_ip = 287; continue _fun0001;
- 236:
+            _fun0001_ip = 8; continue _fun0001;
+case 6:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var6 = 2;
@@ -105,7 +105,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6['usernameOnClick'] = var10;
             var6['applicationNameOnClick'] = var9;
             var5 = var7.bind(var8)(var6);
- 287:
+case 8:
             var1['content'] = var5;
             var5 = _closure1_slot1;
             var6 = _closure1_slot2;

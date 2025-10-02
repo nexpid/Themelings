@@ -95,7 +95,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = {};
     var8 = function openLazy(arg1, arg2, arg3, arg4) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arg1;
             var2 = arg2;
             var _closure2_slot0 = var2;
@@ -106,12 +106,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = global;
             var2 = var2.Promise;
             var2 = var5 instanceof var2;
-            if(var2) { _fun0001_ip = 49; continue _fun0001 }
- 41:
+            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = undefined;
             var3 = var5.bind(var2)();
-            _fun0001_ip = 64; continue _fun0001;
- 49:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var4 = var5.then;
             var2 = function(arg1) {
                 var1 = arg1;
@@ -119,20 +119,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var3 = var4.bind(var5)(var2);
- 64:
+case 4:
             var2 = var3.then;
             var1 = function(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var2 = _closure2_slot1;
                     var1 = null;
-                    if(!(var1 == var2)) { _fun0002_ip = 17; continue _fun0002 }
- 13:
+                    if(!(var1 == var2)) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
                     var9 = {};
-                    _fun0002_ip = 21; continue _fun0002;
- 17:
+                    _fun0002_ip = 7; continue _fun0002;
+case 5:
                     var9 = _closure2_slot1;
- 21:
+case 7:
                     var7 = var9.impressionName;
                     var6 = var9.impressionProperties;
                     var5 = var9.backdropKind;

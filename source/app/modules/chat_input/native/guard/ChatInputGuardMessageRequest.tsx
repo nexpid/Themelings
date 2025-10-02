@@ -36,7 +36,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function ChatInputGuardMessageRequest(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var2 = var2.channel;
             var _closure2_slot0 = var2;
@@ -122,34 +122,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var2.isOptimisticAccepted;
             var6 = var2.isOptimisticRejected;
             var7 = var10;
-            if(var10) { _fun0001_ip = 207; continue _fun0001 }
- 204:
+            if(var10) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var7 = var5;
- 207:
-            if(var7) { _fun0001_ip = 213; continue _fun0001 }
- 210:
+case 2:
+            if(var7) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var7 = var12;
- 213:
-            if(var7) { _fun0001_ip = 219; continue _fun0001 }
- 216:
+case 4:
+            if(var7) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var7 = var11;
- 219:
-            if(var7) { _fun0001_ip = 225; continue _fun0001 }
- 222:
+case 6:
+            if(var7) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var7 = var6;
- 225:
+case 8:
             var2 = function() {
                 var4 = _closure1_slot3;
                 var3 = undefined;
                 var2 = function* (arg1) {
                     var1 = function* anon_0_(arg1) {
                         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                             StartGenerator();
                             var3 = arg1;
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(var2) { _fun0002_ip = 112; continue _fun0002 }
- 10:
+                            if(var2) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
                             var2 = var3.stopPropagation;
                             var2 = var2.bind(var3)();
                             var5 = _closure2_slot2;
@@ -158,12 +158,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var3 = undefined;
                             var2 = var5.bind(var3)(var2);
                             SaveGenerator(address=47);
- 45:
+case 12:
                             return var2;
- 47:
+case 13:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                            if(var5) { _fun0002_ip = 109; continue _fun0002 }
- 53:
+                            if(var5) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
                             var6 = _closure1_slot0;
                             var7 = _closure1_slot2;
                             var5 = 10;
@@ -177,9 +177,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var4['navigationReplace'] = var8;
                             var4 = var6.bind(var7)(var5, var4);
                             return var3;
- 109:
+case 14:
                             return var2;
- 112:
+case 10:
                             return var1;
                         }
                     };
@@ -206,12 +206,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = function* (arg1) {
                     var1 = function* anon_0_(arg1) {
                         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                             StartGenerator();
                             var3 = arg1;
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(var2) { _fun0003_ip = 59; continue _fun0003 }
- 10:
+                            if(var2) { _fun0003_ip = 16; continue _fun0003 }
+case 11:
                             var2 = var3.stopPropagation;
                             var2 = var2.bind(var3)();
                             var4 = _closure2_slot3;
@@ -220,16 +220,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var3 = undefined;
                             var2 = var4.bind(var3)(var2);
                             SaveGenerator(address=47);
- 45:
+case 12:
                             return var2;
- 47:
+case 13:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                            if(var4) { _fun0003_ip = 56; continue _fun0003 }
- 53:
+                            if(var4) { _fun0003_ip = 17; continue _fun0003 }
+case 15:
                             return var3;
- 56:
+case 17:
                             return var2;
- 59:
+case 16:
                             return var1;
                         }
                     };
@@ -293,14 +293,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['buttonPrimaryText'] = var15;
             var1['buttonPrimaryOnPress'] = var14;
             var1['buttonPrimaryDisabled'] = var7;
-            if(var10) { _fun0001_ip = 458; continue _fun0001 }
- 455:
+            if(var10) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
             var10 = var12;
- 458:
-            if(var10) { _fun0001_ip = 464; continue _fun0001 }
- 461:
+case 18:
+            if(var10) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
             var10 = var11;
- 464:
+case 20:
             var1['buttonPrimaryLoading'] = var10;
             var12 = _closure1_slot0;
             var9 = _closure1_slot2;
@@ -316,10 +316,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['buttonSecondaryText'] = var9;
             var1['buttonSecondaryOnPress'] = var8;
             var1['buttonSecondaryDisabled'] = var7;
-            if(var5) { _fun0001_ip = 544; continue _fun0001 }
- 541:
+            if(var5) { _fun0001_ip = 22; continue _fun0001 }
+case 23:
             var5 = var6;
- 544:
+case 22:
             var1['buttonSecondaryLoading'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

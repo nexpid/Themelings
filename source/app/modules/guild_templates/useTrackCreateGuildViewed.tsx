@@ -47,28 +47,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var3.useEffect;
         var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var3 = _closure2_slot0;
                 var2 = null;
                 var2 = var2 != var3;
-                if(!var2) { _fun0001_ip = 42; continue _fun0001 }
- 16:
+                if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var3 = _closure2_slot0;
                 var4 = var3.state;
                 var3 = _closure1_slot3;
                 var3 = var3.RESOLVING;
                 var2 = var4 !== var3;
- 42:
-                if(!var2) { _fun0001_ip = 196; continue _fun0001 }
- 48:
+case 2:
+                if(!var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var2 = _closure2_slot1;
                 var4 = var2.current;
                 var3 = var4.includes;
                 var2 = _closure2_slot0;
                 var2 = var2.code;
                 var2 = var3.bind(var4)(var2);
-                if(var2) { _fun0001_ip = 196; continue _fun0001 }
- 79:
+                if(var2) { _fun0001_ip = 4; continue _fun0001 }
+case 6:
                 var2 = _closure2_slot1;
                 var3 = var2.current;
                 var2 = var3.push;
@@ -94,7 +94,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var5.sourceGuildId;
                 var1['guild_template_guild_id'] = var5;
                 var1 = var3.bind(var4)(var2, var1);
- 196:
+case 4:
                 var1 = undefined;
                 return var1;
             }

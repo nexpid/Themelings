@@ -36,7 +36,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function() {
         var5 = function HeroBlockRecord(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var2 = arg1;
                 var3 = this;
                 var6 = _closure1_slot2;
@@ -75,8 +75,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = null;
                 var7 = var6 != var4;
                 var4 = null;
-                if(!var7) { _fun0001_ip = 237; continue _fun0001 }
- 203:
+                if(!var7) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var7 = global;
                 var9 = var7.Date;
                 var11 = var2.unpublished_at;
@@ -85,31 +85,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var12 = var8;
                 var7 = new var12[var9](var11, var10);
                 var4 = var7 instanceof Object ? var7 : var8;
- 237:
+case 2:
                 var3['unpublishedAt'] = var4;
                 var4 = var2.banner_text_color;
                 var3['bannerTextColor'] = var4;
                 var4 = var2.config;
                 var7 = var6 != var4;
                 var4 = undefined;
-                if(!var7) { _fun0001_ip = 289; continue _fun0001 }
- 269:
+                if(!var7) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var9 = _closure1_slot4;
                 var8 = var9.fromServer;
                 var7 = var2.config;
                 var4 = var8.bind(var9)(var7);
- 289:
+case 4:
                 var3['bannerConfig'] = var4;
                 var4 = var2.logo_display_config;
                 var6 = var6 != var4;
                 var4 = undefined;
-                if(!var6) { _fun0001_ip = 333; continue _fun0001 }
- 312:
+                if(!var6) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                 var7 = _closure1_slot5;
                 var6 = var7.fromServer;
                 var5 = var2.logo_display_config;
                 var4 = var6.bind(var7)(var5);
- 333:
+case 6:
                 var3['logoConfig'] = var4;
                 var4 = var2.mobile_title;
                 var3['mobileTitle'] = var4;

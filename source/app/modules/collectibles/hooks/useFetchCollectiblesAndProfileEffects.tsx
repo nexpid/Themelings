@@ -28,7 +28,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useFetchCollectiblesAndProfileEffects() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = _closure1_slot1;
             var8 = _closure1_slot2;
             var2 = 1;
@@ -54,10 +54,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var5 = var6.bind(var7)(var5, var1);
             var1 = {};
-            if(var4) { _fun0001_ip = 103; continue _fun0001 }
- 100:
+            if(var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = var5;
- 103:
+case 2:
             var1['isFetching'] = var4;
             var1['categories'] = var3;
             var1['purchases'] = var2;

@@ -17,40 +17,40 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = var7.bind(var8)(var3, var1, var4);
     var4 = function buildPlatformedThemedEmojiColorPalette(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var5 = var1.colors;
             var2 = var1.saturationFactor;
             var3 = undefined;
-            if(!(var2 === var3)) { _fun0001_ip = 23; continue _fun0001 }
- 20:
+            if(!(var2 === var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = 1;
- 23:
+case 2:
             var4 = var1.shouldProcessMobileColors;
-            if(!(var4 === var3)) { _fun0001_ip = 35; continue _fun0001 }
- 33:
+            if(!(var4 === var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var4 = false;
- 35:
+case 4:
             var1 = {};
             var1['colors'] = var5;
             var1['saturationFactor'] = var2;
             var10 = var1.colors;
             var13 = var1.saturationFactor;
-            if(!(var13 === var3)) { _fun0001_ip = 64; continue _fun0001 }
- 61:
+            if(!(var13 === var3)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var13 = 1;
- 64:
+case 6:
             var6 = null;
             var1 = var6 == var10;
             var5 = null;
-            if(var1) { _fun0001_ip = 941; continue _fun0001 }
- 78:
+            if(var1) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var1 = var10.length;
             var7 = 1;
             var1 = var1 < var7;
             var5 = null;
-            if(var1) { _fun0001_ip = 941; continue _fun0001 }
- 98:
+            if(var1) { _fun0001_ip = 8; continue _fun0001 }
+case 10:
             var8 = _closure1_slot0;
             var1 = _closure1_slot2;
             var12 = 0;
@@ -65,8 +65,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var1.bind(var2)(var22);
             var1 = var6 == var11;
             var5 = null;
-            if(var1) { _fun0001_ip = 941; continue _fun0001 }
- 167:
+            if(var1) { _fun0001_ip = 8; continue _fun0001 }
+case 11:
             var17 = _closure1_slot0;
             var10 = _closure1_slot2;
             var1 = var10[var12];
@@ -104,10 +104,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['saturationFactor'] = var13;
             var1 = var2.bind(var7)(var1);
             var17 = var11;
-            if(!(var6 != var1)) { _fun0001_ip = 355; continue _fun0001 }
- 352:
+            if(!(var6 != var1)) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var17 = var1;
- 355:
+case 12:
             var18 = _closure1_slot0;
             var10 = _closure1_slot2;
             var1 = var10[var12];
@@ -136,10 +136,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['saturationFactor'] = var13;
             var1 = var2.bind(var7)(var1);
             var14 = var11;
-            if(!(var6 != var1)) { _fun0001_ip = 490; continue _fun0001 }
- 487:
+            if(!(var6 != var1)) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var14 = var1;
- 490:
+case 14:
             var2 = _closure1_slot0;
             var16 = _closure1_slot2;
             var1 = var16[var12];
@@ -178,11 +178,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = {};
             var10 = var6 == var15;
             var7 = undefined;
-            if(var10) { _fun0001_ip = 667; continue _fun0001 }
- 658:
+            if(var10) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var10 = var15.hex;
             var7 = var10.bind(var15)();
- 667:
+case 16:
             var2['accentColor'] = var7;
             var10 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -196,35 +196,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['backgroundColor'] = var7;
             var10 = var6 == var11;
             var7 = undefined;
-            if(var10) { _fun0001_ip = 735; continue _fun0001 }
- 725:
+            if(var10) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
             var10 = var11.toHexString;
             var7 = var10.bind(var11)();
- 735:
+case 18:
             var2['highlightColor'] = var7;
             var7 = var6 == var8;
             var10 = undefined;
-            if(var7) { _fun0001_ip = 755; continue _fun0001 }
- 749:
+            if(var7) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
             var10 = var8.saturation;
- 755:
+case 20:
             var7 = 0.1;
             var15 = var10 < var7;
             var10 = var7;
-            if(!var15) { _fun0001_ip = 785; continue _fun0001 }
- 775:
+            if(!var15) { _fun0001_ip = 22; continue _fun0001 }
+case 23:
             var10 = 0.35;
- 785:
+case 22:
             var2['opacity'] = var10;
             var1['LIGHT'] = var2;
             var2 = {};
             var15 = var6 == var16;
             var10 = undefined;
-            if(var15) { _fun0001_ip = 814; continue _fun0001 }
- 805:
+            if(var15) { _fun0001_ip = 24; continue _fun0001 }
+case 25:
             var15 = var16.hex;
             var10 = var15.bind(var16)();
- 814:
+case 24:
             var2['accentColor'] = var10;
             var10 = _closure1_slot0;
             var9 = _closure1_slot2;
@@ -238,28 +238,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['backgroundColor'] = var9;
             var10 = var6 == var11;
             var9 = undefined;
-            if(var10) { _fun0001_ip = 882; continue _fun0001 }
- 872:
+            if(var10) { _fun0001_ip = 26; continue _fun0001 }
+case 27:
             var10 = var11.toHexString;
             var9 = var10.bind(var11)();
- 882:
+case 26:
             var2['highlightColor'] = var9;
             var9 = var6 == var8;
             var6 = undefined;
-            if(var9) { _fun0001_ip = 902; continue _fun0001 }
- 896:
+            if(var9) { _fun0001_ip = 28; continue _fun0001 }
+case 29:
             var6 = var8.saturation;
- 902:
+case 28:
             var7 = var6 < var7;
             var6 = 0.2;
-            if(!var7) { _fun0001_ip = 929; continue _fun0001 }
- 919:
+            if(!var7) { _fun0001_ip = 30; continue _fun0001 }
+case 31:
             var6 = 0.5;
- 929:
+case 30:
             var2['opacity'] = var6;
             var1['DARK'] = var2;
             var5 = var1;
- 941:
+case 8:
             var2 = _closure1_slot1;
             var6 = _closure1_slot2;
             var1 = 3;
@@ -284,15 +284,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['buildPlatformedThemedEmojiColorPalette'] = var4;
     var2 = function(arg1, arg2, arg3) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var4 = arg1;
             var1 = null;
-            if(!(var1 != var4)) { _fun0002_ip = 192; continue _fun0002 }
- 12:
+            if(!(var1 != var4)) { _fun0002_ip = 32; continue _fun0002 }
+case 33:
             var3 = var4.length;
             var2 = 1;
-            if(!(!(var3 < var2))) { _fun0002_ip = 192; continue _fun0002 }
- 27:
+            if(!(!(var3 < var2))) { _fun0002_ip = 32; continue _fun0002 }
+case 34:
             var3 = _closure1_slot3;
             var2 = {};
             var2['colors'] = var4;
@@ -302,59 +302,59 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var3.bind(var4)(var2);
             var6 = var1 == var5;
             var2 = arg3;
-            if(var2) { _fun0002_ip = 78; continue _fun0002 }
- 65:
+            if(var2) { _fun0002_ip = 9; continue _fun0002 }
+case 35:
             var3 = undefined;
-            if(var6) { _fun0002_ip = 76; continue _fun0002 }
- 70:
+            if(var6) { _fun0002_ip = 36; continue _fun0002 }
+case 37:
             var3 = var5.LIGHT;
- 76:
-            _fun0002_ip = 92; continue _fun0002;
- 78:
+case 36:
+            _fun0002_ip = 38; continue _fun0002;
+case 9:
             var2 = undefined;
-            if(var6) { _fun0002_ip = 89; continue _fun0002 }
- 83:
+            if(var6) { _fun0002_ip = 39; continue _fun0002 }
+case 40:
             var2 = var5.DARK;
- 89:
+case 39:
             var3 = var2;
- 92:
+case 38:
             var2 = {};
             var6 = var1 == var3;
             var5 = undefined;
-            if(var6) { _fun0002_ip = 108; continue _fun0002 }
- 103:
+            if(var6) { _fun0002_ip = 41; continue _fun0002 }
+case 42:
             var5 = var3.backgroundColor;
- 108:
+case 41:
             var2['backgroundColor'] = var5;
             var6 = var1 == var3;
             var5 = undefined;
-            if(var6) { _fun0002_ip = 127; continue _fun0002 }
- 121:
+            if(var6) { _fun0002_ip = 43; continue _fun0002 }
+case 44:
             var5 = var3.accentColor;
- 127:
+case 43:
             var2['accentColor'] = var5;
             var6 = var1 == var3;
             var5 = undefined;
-            if(var6) { _fun0002_ip = 147; continue _fun0002 }
- 141:
+            if(var6) { _fun0002_ip = 45; continue _fun0002 }
+case 46:
             var5 = var3.highlightColor;
- 147:
+case 45:
             var2['highlightColor'] = var5;
             var5 = var1 == var3;
             var4 = undefined;
-            if(var5) { _fun0002_ip = 166; continue _fun0002 }
- 161:
+            if(var5) { _fun0002_ip = 47; continue _fun0002 }
+case 48:
             var4 = var3.opacity;
- 166:
+case 47:
             var5 = var1 != var4;
             var3 = 0.15;
-            if(!var5) { _fun0002_ip = 186; continue _fun0002 }
- 183:
+            if(!var5) { _fun0002_ip = 49; continue _fun0002 }
+case 50:
             var3 = var4;
- 186:
+case 49:
             var2['opacity'] = var3;
             return var2;
- 192:
+case 32:
             return var1;
         }
     };

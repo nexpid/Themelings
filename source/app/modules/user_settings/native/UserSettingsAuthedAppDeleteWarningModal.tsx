@@ -33,7 +33,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function UserSettingsAuthedAppDeleteWarningModal(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var10 = var1.application;
             var8 = var1.onDelete;
@@ -50,16 +50,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var1[var15];
             var6 = var3.bind(var4)(var6);
             var7 = var6.intl;
-            if(var2) { _fun0001_ip = 104; continue _fun0001 }
- 72:
+            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var9 = var7.string;
             var6 = var1[var15];
             var6 = var3.bind(var4)(var6);
             var6 = var6.t;
             var6 = var6.DT39Aw;
             var11 = var9.bind(var7)(var6);
-            _fun0001_ip = 149; continue _fun0001;
- 104:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var6 = var7.formatToPlainString;
             var1 = var1[var15];
             var1 = var3.bind(var4)(var1);
@@ -69,7 +69,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var10.name;
             var1['applicationName'] = var9;
             var11 = var6.bind(var7)(var3, var1);
- 149:
+case 4:
             var7 = _closure1_slot0;
             var1 = _closure1_slot2;
             var3 = var1[var15];
@@ -79,21 +79,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1[var15];
             var1 = var7.bind(var4)(var1);
             var1 = var1.t;
-            if(var2) { _fun0001_ip = 221; continue _fun0001 }
- 193:
+            if(var2) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var7 = var1.QWGvxM;
             var2 = {};
             var9 = var10.name;
             var2['applicationName'] = var9;
             var7 = var3.bind(var6)(var7, var2);
-            _fun0001_ip = 247; continue _fun0001;
- 221:
+            _fun0001_ip = 7; continue _fun0001;
+case 5:
             var2 = var1.inM1Ym;
             var1 = {};
             var9 = var10.name;
             var1['applicationName'] = var9;
             var7 = var3.bind(var6)(var2, var1);
- 247:
+case 7:
             var3 = _closure1_slot5;
             var2 = _closure1_slot4;
             var1 = {};
@@ -104,8 +104,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var9.bind(var4)(var6);
             var6 = var10.id;
             var9 = var9.bind(var4)(var6);
-            if(!var9) { _fun0001_ip = 389; continue _fun0001 }
- 290:
+            if(!var9) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var14 = _closure1_slot3;
             var12 = _closure1_slot1;
             var16 = _closure1_slot2;
@@ -128,7 +128,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = var18.bind(var19)(var17, var16);
             var6['children'] = var16;
             var9 = var14.bind(var4)(var12, var6);
- 389:
+case 8:
             var6 = new Array(2);
             var6[0] = var9;
             var12 = _closure1_slot1;
@@ -136,8 +136,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var9[var13];
             var9 = var12.bind(var4)(var9);
             var9 = var9.bind(var4)(var10);
-            if(!var9) { _fun0001_ip = 534; continue _fun0001 }
- 422:
+            if(!var9) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var13 = _closure1_slot3;
             var12 = _closure1_slot1;
             var14 = _closure1_slot2;
@@ -162,7 +162,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var16.bind(var17)(var14);
             var10['children'] = var14;
             var9 = var13.bind(var4)(var12, var10);
- 534:
+case 10:
             var6[1] = var9;
             var1['children'] = var6;
             var6 = var3.bind(var4)(var2, var1);

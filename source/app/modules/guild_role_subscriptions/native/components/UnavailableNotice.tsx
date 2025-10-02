@@ -73,7 +73,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function UnavailableNotice(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var14 = var1.title;
             var11 = var1.description;
@@ -116,10 +116,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17 = var12.joinCtaTitle;
             var15 = new Array(2);
             var15[0] = var17;
-            if(!var16) { _fun0001_ip = 195; continue _fun0001 }
- 189:
+            if(!var16) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var16 = var12.brightTitle;
- 195:
+case 2:
             var15[1] = var16;
             var9['style'] = var15;
             var9['children'] = var14;

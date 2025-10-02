@@ -50,24 +50,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['RowType'] = var4;
     var2 = function generateDirectoryRows(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg2;
             var2 = arg1;
-            if(!var2) { _fun0001_ip = 25; continue _fun0001 }
- 11:
+            if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = var4.length;
             var2 = 0;
-            if(!(var2 !== var3)) { _fun0001_ip = 505; continue _fun0001 }
- 25:
+            if(!(var2 !== var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 2:
             var2 = var4.length;
             var6 = 0;
-            if(!(var6 !== var2)) { _fun0001_ip = 499; continue _fun0001 }
- 39:
+            if(!(var6 !== var2)) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var3 = _closure1_slot2;
             var5 = var3.ALL;
             var3 = arg3;
-            if(!(var3 === var5)) { _fun0001_ip = 447; continue _fun0001 }
- 62:
+            if(!(var3 === var5)) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var8 = new Array(0);
             var5 = _closure1_slot0;
             var3 = _closure1_slot1;
@@ -94,8 +94,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot0 = var3;
             var3 = var11.length;
             var7 = var8;
-            if(!(var3 > var6)) { _fun0001_ip = 274; continue _fun0001 }
- 160:
+            if(!(var3 > var6)) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var5 = var8.push;
             var3 = {};
             var10 = _closure1_slot3;
@@ -128,7 +128,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var3 = var10.bind(var11)(var3);
             var7 = var5.bind(var8)(var3);
- 274:
+case 9:
             var5 = var4.filter;
             var3 = function(arg1) {
                 var3 = _closure2_slot0;
@@ -148,8 +148,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var3.bind(var5)(var8);
             var5 = var9.length;
             var3 = var7;
-            if(!(var5 > var6)) { _fun0001_ip = 445; continue _fun0001 }
- 331:
+            if(!(var5 > var6)) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var6 = var7.push;
             var5 = {};
             var8 = _closure1_slot3;
@@ -182,9 +182,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var5 = var8.bind(var9)(var5);
             var3 = var6.bind(var7)(var5);
- 445:
+case 11:
             return var3;
- 447:
+case 7:
             var5 = _closure1_slot0;
             var3 = _closure1_slot1;
             var2 = 1;
@@ -205,10 +205,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var1 = var2.bind(var3)(var1);
             return var1;
- 499:
+case 5:
             var1 = new Array(0);
             return var1;
- 505:
+case 4:
             var1 = _closure1_slot4;
             return var1;
         }

@@ -7,24 +7,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var7;
     var2 = function getUserMaxFileSize(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var4 = null;
-            if(!(var4 != var3)) { _fun0001_ip = 127; continue _fun0001 }
- 9:
+            if(!(var4 != var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = _closure1_slot2;
             var1 = var5.getPremiumTypeOverride;
             var5 = var1.bind(var5)();
             var1 = var3.isStaff;
             var1 = var1.bind(var3)();
-            if(!var1) { _fun0001_ip = 47; continue _fun0001 }
- 39:
+            if(!var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = _closure1_slot6;
-            if(!(var5 !== var1)) { _fun0001_ip = 121; continue _fun0001 }
- 47:
+            if(!(var5 !== var1)) { _fun0001_ip = 6; continue _fun0001 }
+case 4:
             var1 = var3.premiumType;
-            if(!(var4 != var1)) { _fun0001_ip = 93; continue _fun0001 }
- 57:
+            if(!(var4 != var1)) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var5 = _closure1_slot0;
             var4 = _closure1_slot1;
             var1 = 3;
@@ -33,22 +33,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var5.bind(var1)(var4);
             var1 = var4.isPremium;
             var1 = var1.bind(var4)(var3);
-            if(var1) { _fun0001_ip = 99; continue _fun0001 }
- 93:
+            if(var1) { _fun0001_ip = 9; continue _fun0001 }
+case 7:
             var1 = _closure1_slot3;
-            _fun0001_ip = 119; continue _fun0001;
- 99:
+            _fun0001_ip = 10; continue _fun0001;
+case 9:
             var4 = _closure1_slot5;
             var3 = var3.premiumType;
             var3 = var4[var3];
             var1 = var3.fileSize;
- 119:
-            _fun0001_ip = 125; continue _fun0001;
- 121:
+case 10:
+            _fun0001_ip = 11; continue _fun0001;
+case 6:
             var1 = _closure1_slot4;
- 125:
+case 11:
             return var1;
- 127:
+case 2:
             var1 = _closure1_slot3;
             return var1;
         }

@@ -33,7 +33,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function FormTrialIntervalPicker(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var10 = var1.interval;
             var _closure2_slot0 = var10;
@@ -51,8 +51,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.bind(var3)(var1);
             var1 = {};
             var7 = null;
-            if(!(var7 != var10)) { _fun0001_ip = 110; continue _fun0001 }
- 77:
+            if(!(var7 != var10)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var9 = _closure1_slot0;
             var11 = _closure1_slot2;
             var7 = 4;
@@ -60,8 +60,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var9.bind(var3)(var7);
             var7 = var9.formatPlanIntervalDuration;
             var7 = var7.bind(var9)(var10);
-            _fun0001_ip = 167; continue _fun0001;
- 110:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var11 = _closure1_slot0;
             var12 = _closure1_slot2;
             var8 = 3;
@@ -74,11 +74,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var8.t;
             var8 = var8.WZG1BQ;
             var7 = var9.bind(var10)(var8);
- 167:
+case 4:
             var1['label'] = var7;
             var6 = function onPress() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var4 = _closure1_slot1;
                     var10 = _closure1_slot2;
                     var1 = 5;
@@ -110,16 +110,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3['items'] = var2;
                     var2 = function onItemSelect(arg1) {
                         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                             var3 = _closure2_slot1;
                             var2 = null;
-                            if(!(var2 != var3)) { _fun0003_ip = 27; continue _fun0003 }
- 13:
+                            if(!(var2 != var3)) { _fun0003_ip = 5; continue _fun0003 }
+case 6:
                             var3 = _closure2_slot1;
                             var2 = undefined;
                             var1 = arg1;
                             var1 = var3.bind(var2)(var1);
- 27:
+case 5:
                             var3 = _closure1_slot1;
                             var2 = _closure1_slot2;
                             var1 = 5;
@@ -136,10 +136,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = _closure2_slot0;
                     var2 = null;
                     var8 = var2 != var8;
-                    if(!var8) { _fun0002_ip = 161; continue _fun0002 }
- 157:
+                    if(!var8) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
                     var2 = _closure2_slot0;
- 161:
+case 7:
                     var3['selectedItem'] = var2;
                     var2 = 'GuildRoleSubscriptionTrialIntervalSelect';
                     var2 = var5.bind(var6)(var4, var2, var3);

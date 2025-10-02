@@ -9,12 +9,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var7;
     var2 = function isUserAccountOldEnough(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var6 = arg1;
             var5 = null;
             var1 = var5 != var6;
-            if(!var1) { _fun0001_ip = 71; continue _fun0001 }
- 12:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var7 = _closure1_slot1;
             var3 = _closure1_slot2;
             var2 = 5;
@@ -26,12 +26,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = _closure1_slot5;
             var2 = arg2;
             var2 = var6[var2];
-            if(!(var5 == var2)) { _fun0001_ip = 67; continue _fun0001 }
- 63:
+            if(!(var5 == var2)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = _closure1_slot6;
- 67:
+case 4:
             var1 = var3 >= var2;
- 71:
+case 2:
             return var1;
         }
     };
@@ -225,7 +225,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var7)(var5);
     var5 = function useNewUserDismissibleContent(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var4 = arg1;
             var6 = _closure1_slot0;
             var5 = _closure1_slot2;
@@ -255,8 +255,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot0 = var3;
             var3 = var1.newUserMinAgeRequiredOverridden;
             var1 = var4;
-            if(var3) { _fun0002_ip = 103; continue _fun0002 }
- 88:
+            if(var3) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var3 = var4.filter;
             var2 = function(arg1) {
                 var4 = _closure1_slot7;
@@ -267,19 +267,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var1 = var3.bind(var4)(var2);
- 103:
+case 6:
             return var1;
         }
     };
     var3['useNewUserDismissibleContent'] = var5;
     var4 = function disableNewUserDismissibleContent(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var1 = _closure1_slot4;
             var1 = var1.newUserMinAgeRequiredOverridden;
             var1 = !var1;
-            if(!var1) { _fun0003_ip = 51; continue _fun0003 }
- 19:
+            if(!var1) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
             var5 = _closure1_slot7;
             var3 = _closure1_slot3;
             var2 = var3.getId;
@@ -288,7 +288,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = arg1;
             var2 = var5.bind(var3)(var4, var2);
             var1 = !var2;
- 51:
+case 8:
             return var1;
         }
     };

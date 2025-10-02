@@ -40,7 +40,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function HubSidebarProgressOverview(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var8 = var1.guild;
             var _closure2_slot0 = var8;
@@ -57,8 +57,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var4.getNextHubProgressStep;
             var6 = var1.bind(var4)(var3);
             var1 = null;
-            if(!(var1 != var6)) { _fun0001_ip = 388; continue _fun0001 }
- 79:
+            if(!(var1 != var6)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var13 = var3.size;
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
@@ -67,8 +67,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.getHubProgressTitleForStep;
             var8 = var3.bind(var4)(var6);
             var3 = _closure1_slot4;
-            if(!(!(var13 < var3))) { _fun0001_ip = 177; continue _fun0001 }
- 120:
+            if(!(!(var13 < var3))) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var7 = _closure1_slot0;
             var10 = _closure1_slot2;
             var3 = 4;
@@ -81,8 +81,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.t;
             var3 = var3.+Gyklp;
             var7 = var4.bind(var6)(var3);
-            _fun0001_ip = 271; continue _fun0001;
- 177:
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
             var4 = _closure1_slot0;
             var11 = _closure1_slot2;
             var3 = 4;
@@ -104,7 +104,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = _closure1_slot4;
             var3['total'] = var11;
             var7 = var6.bind(var10)(var4, var3);
- 271:
+case 6:
             var3 = global;
             var12 = var3.Math;
             var11 = var12.max;
@@ -156,7 +156,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['percentComplete'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
- 388:
+case 2:
             return var1;
         }
     };

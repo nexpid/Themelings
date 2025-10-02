@@ -104,7 +104,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var7)(var5);
     var4 = function GuildProfileHeader(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var25 = var2.profile;
             var _closure2_slot0 = var25;
@@ -150,7 +150,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7[0] = var25;
             var3 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot2;
                     var1 = 12;
@@ -177,12 +177,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = var3.tooltipSubtitle;
                     var7 = null;
                     var3 = var7 == var5;
-                    if(!var3) { _fun0002_ip = 130; continue _fun0002 }
- 126:
+                    if(!var3) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var3 = var7 == var6;
- 130:
-                    if(var3) { _fun0002_ip = 187; continue _fun0002 }
- 133:
+case 2:
+                    if(var3) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var3 = _closure1_slot1;
                     var4 = _closure1_slot2;
                     var2 = 15;
@@ -192,13 +192,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = {};
                     var8 = 'guild-badge-tooltip';
                     var2['key'] = var8;
-                    if(!(var7 != var6)) { _fun0002_ip = 178; continue _fun0002 }
- 175:
+                    if(!(var7 != var6)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var5 = var6;
- 178:
+case 6:
                     var2['content'] = var5;
                     var2 = var3.bind(var4)(var2);
- 187:
+case 4:
                     return var1;
                 }
             };
@@ -217,7 +217,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[0] = var7;
             var2 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var4 = _closure1_slot7;
                     var3 = var4.getMember;
                     var2 = _closure2_slot1;
@@ -228,10 +228,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = null;
                     var4 = var2 == var3;
                     var1 = undefined;
-                    if(var4) { _fun0003_ip = 57; continue _fun0003 }
- 51:
+                    if(var4) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
                     var1 = var3.joinedAt;
- 57:
+case 8:
                     var1 = var2 != var1;
                     return var1;
                 }
@@ -244,10 +244,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[1] = var16;
             var1 = function() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                     var1 = _closure2_slot2;
-                    if(!var1) { _fun0004_ip = 101; continue _fun0004 }
- 10:
+                    if(!var1) { _fun0004_ip = 10; continue _fun0004 }
+case 11:
                     var6 = _closure1_slot1;
                     var5 = _closure1_slot2;
                     var3 = 16;
@@ -268,7 +268,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var2.bind(var4)(var1);
                     var1 = var2.transitionToGuild;
                     var1 = var1.bind(var2)(var3);
- 101:
+case 10:
                     var1 = undefined;
                     return var1;
                 }
@@ -313,10 +313,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var8.Text;
             var8 = {'onPress': null, 'style': null, 'accessibilityRole': 'header', 'variant': 'heading-xl/semibold', 'color': 'header-primary', 'lineClamp': 1};
             var13 = undefined;
-            if(!var16) { _fun0001_ip = 460; continue _fun0001 }
- 457:
+            if(!var16) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var13 = var14;
- 460:
+case 12:
             var8['onPress'] = var13;
             var13 = var10.guildName;
             var8['style'] = var13;

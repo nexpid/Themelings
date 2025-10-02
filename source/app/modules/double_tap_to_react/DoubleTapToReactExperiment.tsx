@@ -62,7 +62,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['DoubleTapToReactUpsellType'] = var4;
     var4 = function useDoubleTapToReactExperiment(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var5 = arg2;
             var6 = _closure1_slot0;
@@ -81,17 +81,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var1;
             var9 = var5;
             var7 = copyDataProperties(var10, var9);
-            if(var6) { _fun0001_ip = 94; continue _fun0001 }
- 73:
+            if(var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var7 = var5.disable;
             var5 = null;
             var5 = var5 != var7;
-            if(!var5) { _fun0001_ip = 91; continue _fun0001 }
- 88:
+            if(!var5) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = var7;
- 91:
+case 4:
             var6 = var5;
- 94:
+case 2:
             var5 = 'disable';
             var1[var5] = var6;
             var1 = var3.bind(var4)(var2, var1);
@@ -101,7 +101,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['useDoubleTapToReactExperiment'] = var4;
     var2 = function getDoubleTapToReactExperiment(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var5 = arg2;
             var6 = _closure1_slot0;
@@ -120,17 +120,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var1;
             var9 = var5;
             var7 = copyDataProperties(var10, var9);
-            if(var6) { _fun0002_ip = 94; continue _fun0002 }
- 73:
+            if(var6) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
             var7 = var5.disable;
             var5 = null;
             var5 = var5 != var7;
-            if(!var5) { _fun0002_ip = 91; continue _fun0002 }
- 88:
+            if(!var5) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var5 = var7;
- 91:
+case 4:
             var6 = var5;
- 94:
+case 2:
             var5 = 'disable';
             var1[var5] = var6;
             var1 = var3.bind(var4)(var2, var1);

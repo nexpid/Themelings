@@ -41,7 +41,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useActivityShelfData(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var _closure2_slot0 = var2;
             var5 = _closure1_slot0;
@@ -94,8 +94,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var6.bind(var10)(var3);
             var8 = null;
             var6 = var11;
-            if(!(var8 != var5)) { _fun0001_ip = 203; continue _fun0001 }
- 179:
+            if(!(var8 != var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = new Array(1);
             var3[0] = var5;
             var12 = 1;
@@ -103,7 +103,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var11;
             var9 = arraySpread(var14, var13, var12);
             var6 = var3;
- 203:
+case 2:
             var9 = _closure1_slot1;
             var11 = _closure1_slot2;
             var3 = 5;
@@ -136,30 +136,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[1] = var5;
             var5 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var1 = _closure2_slot3;
                     var3 = null;
-                    if(!(var3 != var1)) { _fun0002_ip = 67; continue _fun0002 }
- 13:
+                    if(!(var3 != var1)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var1 = _closure2_slot5;
                     var1 = var1.length;
                     var4 = 0;
-                    if(!(var1 > var4)) { _fun0002_ip = 67; continue _fun0002 }
- 28:
+                    if(!(var1 > var4)) { _fun0002_ip = 4; continue _fun0002 }
+case 6:
                     var1 = _closure2_slot5;
                     var1 = var1[var4];
                     var5 = var1.id;
                     var1 = _closure2_slot3;
-                    if(!(var5 === var1)) { _fun0002_ip = 67; continue _fun0002 }
- 49:
+                    if(!(var5 === var1)) { _fun0002_ip = 4; continue _fun0002 }
+case 7:
                     var1 = _closure2_slot5;
                     var1 = var1[var4];
                     var1 = var1.embeddedActivityConfig;
-                    if(!(var3 == var1)) { _fun0002_ip = 73; continue _fun0002 }
- 67:
+                    if(!(var3 == var1)) { _fun0002_ip = 8; continue _fun0002 }
+case 4:
                     var1 = new Array(0);
-                    _fun0002_ip = 117; continue _fun0002;
- 73:
+                    _fun0002_ip = 9; continue _fun0002;
+case 8:
                     var3 = {};
                     var5 = _closure2_slot5;
                     var5 = var5[var4];
@@ -171,7 +171,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = new Array(1);
                     var2[0] = var3;
                     var1 = var2;
- 117:
+case 9:
                     return var1;
                 }
             };
@@ -186,7 +186,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var3.map;
                 var1 = function(arg1) {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                         var4 = arg1;
                         var _closure4_slot0 = var4;
                         var3 = _closure2_slot5;
@@ -202,13 +202,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var3 = var2.bind(var3)(var1);
                         var1 = null;
                         var2 = var1 == var3;
-                        if(var2) { _fun0003_ip = 57; continue _fun0003 }
- 43:
+                        if(var2) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
                         var2 = {};
                         var2['activity'] = var4;
                         var2['application'] = var3;
                         var1 = var2;
- 57:
+case 10:
                         return var1;
                     }
                 };
@@ -229,10 +229,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.useMemo;
             var8 = var8 == var2;
             var7 = undefined;
-            if(var8) { _fun0001_ip = 354; continue _fun0001 }
- 348:
+            if(var8) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var7 = var2.nsfwAllowed;
- 354:
+case 12:
             var2 = new Array(3);
             var2[0] = var7;
             var2[1] = var6;
@@ -249,15 +249,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var4.filter;
                 var2 = function(arg1) {
                     _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                         var1 = arg1;
                         var1 = var1.activity;
                         var3 = var1.supported_platforms;
                         var1 = null;
-                        if(!(var1 == var3)) { _fun0004_ip = 25; continue _fun0004 }
- 21:
+                        if(!(var1 == var3)) { _fun0004_ip = 14; continue _fun0004 }
+case 15:
                         var3 = new Array(0);
- 25:
+case 14:
                         var2 = var3.includes;
                         var6 = _closure1_slot1;
                         var7 = _closure1_slot2;
@@ -280,38 +280,38 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var3.filter;
                 var1 = function(arg1) {
                     _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
                         var1 = arg1;
                         var1 = var1.activity;
                         var1 = var1.requires_age_gate;
                         var1 = !var1;
-                        if(var1) { _fun0005_ip = 55; continue _fun0005 }
- 21:
+                        if(var1) { _fun0005_ip = 16; continue _fun0005 }
+case 15:
                         var4 = _closure2_slot1;
                         var3 = null;
                         var4 = var3 == var4;
                         var3 = undefined;
-                        if(var4) { _fun0005_ip = 49; continue _fun0005 }
- 39:
+                        if(var4) { _fun0005_ip = 7; continue _fun0005 }
+case 17:
                         var2 = _closure2_slot1;
                         var3 = var2.nsfwAllowed;
- 49:
+case 7:
                         var2 = true;
                         var1 = var2 === var3;
- 55:
-                        if(var1) { _fun0005_ip = 90; continue _fun0005 }
- 58:
+case 16:
+                        if(var1) { _fun0005_ip = 18; continue _fun0005 }
+case 19:
                         var2 = _closure2_slot1;
                         var3 = null;
                         var5 = var3 == var2;
                         var2 = undefined;
-                        if(var5) { _fun0005_ip = 86; continue _fun0005 }
- 76:
+                        if(var5) { _fun0005_ip = 20; continue _fun0005 }
+case 21:
                         var4 = _closure2_slot1;
                         var2 = var4.nsfwAllowed;
- 86:
+case 20:
                         var1 = var3 == var2;
- 90:
+case 18:
                         return var1;
                     }
                 };

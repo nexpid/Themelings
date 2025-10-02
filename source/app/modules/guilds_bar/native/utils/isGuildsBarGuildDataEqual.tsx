@@ -20,18 +20,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var4.bind(var5)(var2);
     var2 = function isGuildsBarGuildDataEqual(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var2 = arg2;
             var4 = var3.icon;
             var1 = var2.icon;
             var1 = var4 === var1;
-            if(!var1) { _fun0001_ip = 39; continue _fun0001 }
- 23:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = var3.guildName;
             var2 = var2.guildName;
             var1 = var3 === var2;
- 39:
+case 2:
             return var1;
         }
     };

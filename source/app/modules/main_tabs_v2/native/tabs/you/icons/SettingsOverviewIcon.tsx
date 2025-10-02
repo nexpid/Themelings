@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function BadgedSettingsIcon(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var17 = var1.color;
             var5 = var1.showRedDot;
@@ -21,8 +21,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = {};
             var6 = var13.container;
             var1['style'] = var6;
-            if(var5) { _fun0001_ip = 104; continue _fun0001 }
- 49:
+            if(var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var7 = _closure1_slot4;
             var6 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -35,8 +35,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['size'] = var8;
             var5['color'] = var17;
             var5 = var7.bind(var4)(var6, var5);
-            _fun0001_ip = 261; continue _fun0001;
- 104:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var8 = _closure1_slot5;
             var7 = _closure1_slot3;
             var6 = {};
@@ -75,7 +75,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9[1] = var10;
             var6['children'] = var9;
             var5 = var8.bind(var4)(var7, var6);
- 261:
+case 4:
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

@@ -89,7 +89,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function _default(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var14 = var1.premiumType;
             var8 = var1.children;
@@ -132,59 +132,59 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = {};
             var13 = _closure1_slot5;
             var13 = var13.TIER_0;
-            if(!(var13 !== var14)) { _fun0001_ip = 231; continue _fun0001 }
- 185:
+            if(!(var13 !== var14)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var13 = _closure1_slot5;
             var13 = var13.TIER_1;
-            if(!(var13 !== var14)) { _fun0001_ip = 223; continue _fun0001 }
- 199:
+            if(!(var13 !== var14)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var13 = _closure1_slot5;
             var15 = var13.TIER_2;
             var13 = undefined;
-            if(!(var15 === var14)) { _fun0001_ip = 237; continue _fun0001 }
- 215:
+            if(!(var15 === var14)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var13 = var9.textLogoTier2;
-            _fun0001_ip = 237; continue _fun0001;
- 223:
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
             var13 = var9.textLogoTier1;
-            _fun0001_ip = 237; continue _fun0001;
- 231:
+            _fun0001_ip = 6; continue _fun0001;
+case 2:
             var13 = var9.textLogoTier0;
- 237:
+case 6:
             var11['style'] = var13;
             var13 = _closure1_slot5;
             var13 = var13.TIER_0;
-            if(!(var13 !== var14)) { _fun0001_ip = 329; continue _fun0001 }
- 255:
+            if(!(var13 !== var14)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var13 = _closure1_slot5;
             var13 = var13.TIER_1;
-            if(!(var13 !== var14)) { _fun0001_ip = 307; continue _fun0001 }
- 269:
+            if(!(var13 !== var14)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var13 = _closure1_slot5;
             var15 = var13.TIER_2;
             var13 = undefined;
-            if(!(var15 === var14)) { _fun0001_ip = 349; continue _fun0001 }
- 285:
+            if(!(var15 === var14)) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var16 = _closure1_slot1;
             var17 = _closure1_slot2;
             var15 = 12;
             var15 = var17[var15];
             var13 = var16.bind(var4)(var15);
-            _fun0001_ip = 349; continue _fun0001;
- 307:
+            _fun0001_ip = 12; continue _fun0001;
+case 10:
             var16 = _closure1_slot1;
             var17 = _closure1_slot2;
             var15 = 11;
             var15 = var17[var15];
             var13 = var16.bind(var4)(var15);
-            _fun0001_ip = 349; continue _fun0001;
- 329:
+            _fun0001_ip = 12; continue _fun0001;
+case 8:
             var16 = _closure1_slot1;
             var17 = _closure1_slot2;
             var15 = 10;
             var15 = var17[var15];
             var13 = var16.bind(var4)(var15);
- 349:
+case 12:
             var11['source'] = var13;
             var11 = var7.bind(var4)(var10, var11);
             var5['children'] = var11;
@@ -197,60 +197,60 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11[0] = var13;
             var13 = _closure1_slot5;
             var13 = var13.TIER_0;
-            if(!(var13 !== var14)) { _fun0001_ip = 453; continue _fun0001 }
- 407:
+            if(!(var13 !== var14)) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var13 = _closure1_slot5;
             var13 = var13.TIER_1;
-            if(!(var13 !== var14)) { _fun0001_ip = 445; continue _fun0001 }
- 421:
+            if(!(var13 !== var14)) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var13 = _closure1_slot5;
             var15 = var13.TIER_2;
             var13 = undefined;
-            if(!(var15 === var14)) { _fun0001_ip = 459; continue _fun0001 }
- 437:
+            if(!(var15 === var14)) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
             var13 = var9.wumpusLogoTier2;
-            _fun0001_ip = 459; continue _fun0001;
- 445:
+            _fun0001_ip = 18; continue _fun0001;
+case 16:
             var13 = var9.wumpusLogoTier1;
-            _fun0001_ip = 459; continue _fun0001;
- 453:
+            _fun0001_ip = 18; continue _fun0001;
+case 14:
             var13 = var9.wumpusLogoTier0;
- 459:
+case 18:
             var11[1] = var13;
             var6['style'] = var11;
             var11 = _closure1_slot5;
             var11 = var11.TIER_0;
-            if(!(var11 !== var14)) { _fun0001_ip = 555; continue _fun0001 }
- 481:
+            if(!(var11 !== var14)) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
             var11 = _closure1_slot5;
             var11 = var11.TIER_1;
-            if(!(var11 !== var14)) { _fun0001_ip = 533; continue _fun0001 }
- 495:
+            if(!(var11 !== var14)) { _fun0001_ip = 22; continue _fun0001 }
+case 23:
             var11 = _closure1_slot5;
             var13 = var11.TIER_2;
             var11 = undefined;
-            if(!(var13 === var14)) { _fun0001_ip = 575; continue _fun0001 }
- 511:
+            if(!(var13 === var14)) { _fun0001_ip = 24; continue _fun0001 }
+case 25:
             var14 = _closure1_slot1;
             var15 = _closure1_slot2;
             var13 = 15;
             var13 = var15[var13];
             var11 = var14.bind(var4)(var13);
-            _fun0001_ip = 575; continue _fun0001;
- 533:
+            _fun0001_ip = 24; continue _fun0001;
+case 22:
             var14 = _closure1_slot1;
             var15 = _closure1_slot2;
             var13 = 14;
             var13 = var15[var13];
             var11 = var14.bind(var4)(var13);
-            _fun0001_ip = 575; continue _fun0001;
- 555:
+            _fun0001_ip = 24; continue _fun0001;
+case 20:
             var13 = _closure1_slot1;
             var14 = _closure1_slot2;
             var12 = 13;
             var12 = var14[var12];
             var11 = var13.bind(var4)(var12);
- 575:
+case 24:
             var6['source'] = var11;
             var6 = var7.bind(var4)(var10, var6);
             var5[1] = var6;

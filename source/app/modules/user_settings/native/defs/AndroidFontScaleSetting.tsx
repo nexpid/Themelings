@@ -66,7 +66,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['parent'] = var7;
     var4 = function useFontScaleSliderProps() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = _closure1_slot3;
             var4 = undefined;
             var5 = var3.bind(var4)();
@@ -75,13 +75,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = null;
             var3 = var3 != var6;
             var7 = undefined;
-            if(!var3) { _fun0001_ip = 57; continue _fun0001 }
- 36:
+            if(!var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = _closure1_slot4;
             var4 = var6.indexOf;
             var3 = var5.persistedFontScale;
             var7 = var4.bind(var6)(var3);
- 57:
+case 2:
             var _closure2_slot1 = var7;
             var4 = _closure1_slot2;
             var6 = var4.useCallback;

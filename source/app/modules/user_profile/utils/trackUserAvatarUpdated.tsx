@@ -29,19 +29,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function trackUserAvatarUpdated(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var14 = var2.avatarHash;
             var11 = var2.avatarId;
             var9 = var2.isGuildProfile;
             var1 = undefined;
-            if(!(var9 === var1)) { _fun0001_ip = 29; continue _fun0001 }
- 27:
+            if(!(var9 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var9 = false;
- 29:
+case 2:
             var7 = var2.avatarAssetOrigin;
-            if(!(var7 === var1)) { _fun0001_ip = 74; continue _fun0001 }
- 39:
+            if(!(var7 === var1)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
             var2 = 1;
@@ -49,7 +49,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var1)(var2);
             var2 = var2.AssetOriginTypes;
             var7 = var2.NEW_ASSET;
- 74:
+case 4:
             var3 = _closure1_slot1;
             var8 = _closure1_slot2;
             var2 = 2;
@@ -73,12 +73,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var8.AssetOriginTypes;
             var10 = var8.ARCHIVED_ASSET;
             var8 = undefined;
-            if(!(var7 === var10)) { _fun0001_ip = 194; continue _fun0001 }
- 181:
+            if(!(var7 === var10)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var10 = global;
             var10 = var10.Number;
             var8 = var10.bind(var1)(var11);
- 194:
+case 6:
             var2['recent_avatar_id'] = var8;
             var8 = _closure1_slot0;
             var6 = _closure1_slot2;

@@ -48,19 +48,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var3.useAnimatedStyle;
         var1 = function s() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var1 = _closure2_slot0;
                 var2 = 'number';
                 var1 = typeof var1;
-                if(!(var2 !== var1)) { _fun0001_ip = 33; continue _fun0001 }
- 18:
+                if(!(var2 !== var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var2 = _closure2_slot0;
                 var1 = var2.get;
                 var2 = var1.bind(var2)();
-                _fun0001_ip = 37; continue _fun0001;
- 33:
+                _fun0001_ip = 4; continue _fun0001;
+case 2:
                 var2 = _closure2_slot0;
- 37:
+case 4:
                 var1 = 100;
                 var2 = var2 / var1;
                 var1 = {};
@@ -256,7 +256,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function Notification(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var12 = var1.icon;
             var23 = var1.label;
@@ -274,8 +274,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = null;
             var5 = var15 != var20;
             var6 = null;
-            if(!var5) { _fun0002_ip = 232; continue _fun0002 }
- 79:
+            if(!var5) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
             var8 = _closure1_slot8;
             var7 = _closure1_slot5;
             var5 = {};
@@ -309,7 +309,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9[1] = var10;
             var5['children'] = var9;
             var6 = var8.bind(var4)(var7, var5);
- 232:
+case 5:
             var5 = new Array(2);
             var5[0] = var6;
             var8 = _closure1_slot8;
@@ -336,10 +336,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12['style'] = var18;
             var20 = var15 != var19;
             var18 = null;
-            if(!var20) { _fun0002_ip = 341; continue _fun0002 }
- 338:
+            if(!var20) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
             var18 = var19;
- 341:
+case 7:
             var19 = new Array(2);
             var19[0] = var18;
             var22 = _closure1_slot7;
@@ -362,8 +362,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = var8.bind(var4)(var16, var12);
             var12 = new Array(2);
             var12[0] = var16;
-            if(!(var15 == var13)) { _fun0002_ip = 499; continue _fun0002 }
- 449:
+            if(!(var15 == var13)) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
             var16 = _closure1_slot7;
             var15 = _closure1_slot0;
             var14 = _closure1_slot2;
@@ -373,7 +373,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = {'variant': 'redesign/message-preview/medium', 'color': 'text-secondary', 'lineClamp': 2};
             var14['children'] = var17;
             var13 = var16.bind(var4)(var15, var14);
- 499:
+case 9:
             var12[1] = var13;
             var10['children'] = var12;
             var10 = var8.bind(var4)(var11, var10);
@@ -389,7 +389,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['Notification'] = var4;
     var2 = function NotificationPressable(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var1 = arg1;
             var9 = var1.children;
             var11 = var1.onLongPress;
@@ -416,14 +416,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8[0] = var9;
             var9 = null;
             var11 = var9 != var13;
-            if(!var11) { _fun0003_ip = 131; continue _fun0003 }
- 110:
+            if(!var11) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
             var12 = _closure1_slot7;
             var11 = _closure1_slot12;
             var10 = {};
             var10['percent'] = var13;
             var9 = var12.bind(var4)(var11, var10);
- 131:
+case 11:
             var8[1] = var9;
             var5['children'] = var8;
             var5 = var7.bind(var4)(var6, var5);

@@ -7,22 +7,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var7;
     var4 = function canInstallApplication(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = var2.customInstallUrl;
             var3 = var2.installParams;
             var5 = var2.integrationTypesConfig;
             var2 = null;
             var1 = var2 != var1;
-            if(var1) { _fun0001_ip = 34; continue _fun0001 }
- 30:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var2 != var3;
- 34:
-            if(var1) { _fun0001_ip = 83; continue _fun0001 }
- 37:
+case 2:
+            if(var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = var2 != var5;
-            if(!var2) { _fun0001_ip = 80; continue _fun0001 }
- 44:
+            if(!var2) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var3 = global;
             var4 = var3.Object;
             var3 = var4.values;
@@ -30,33 +30,33 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var5.some;
             var3 = function(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var4 = arg1;
                     var3 = null;
                     var5 = var3 == var4;
                     var1 = undefined;
-                    if(var5) { _fun0002_ip = 20; continue _fun0002 }
- 14:
+                    if(var5) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                     var1 = var4.oauth2_install_params;
- 20:
+case 8:
                     var1 = var3 != var1;
-                    if(var1) { _fun0002_ip = 46; continue _fun0002 }
- 27:
+                    if(var1) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
                     var5 = var3 == var4;
                     var2 = undefined;
-                    if(var5) { _fun0002_ip = 42; continue _fun0002 }
- 36:
+                    if(var5) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
                     var2 = var4.oauth2InstallParams;
- 42:
+case 12:
                     var1 = var3 != var2;
- 46:
+case 10:
                     return var1;
                 }
             };
             var2 = var4.bind(var5)(var3);
- 80:
+case 6:
             var1 = var2;
- 83:
+case 4:
             return var1;
         }
     };
@@ -89,7 +89,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['canInstallApplication'] = var4;
     var4 = function isAppUserInstallable(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var1 = arg1;
             var6 = var1.customInstallUrl;
             var5 = var1.installParams;
@@ -101,13 +101,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['integrationTypesConfig'] = var3;
             var5 = undefined;
             var1 = var4.bind(var5)(var1);
-            if(!var1) { _fun0003_ip = 61; continue _fun0003 }
- 55:
+            if(!var1) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
             var4 = null;
             var1 = var4 != var3;
- 61:
-            if(!var1) { _fun0003_ip = 100; continue _fun0003 }
- 64:
+case 14:
+            if(!var1) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
             var4 = _closure1_slot0;
             var6 = _closure1_slot1;
             var2 = 2;
@@ -116,22 +116,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.ApplicationIntegrationType;
             var2 = var2.USER_INSTALL;
             var1 = var2 in var3;
- 100:
+case 16:
             return var1;
         }
     };
     var3['isAppUserInstallable'] = var4;
     var2 = function shouldInstallApplicationOnDemand(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var1 = arg1;
             var9 = var1.applicationId;
             var8 = var1.channel;
             var5 = var1.commandIntegrationTypes;
             var4 = null;
             var2 = var4 != var5;
-            if(!var2) { _fun0004_ip = 78; continue _fun0004 }
- 28:
+            if(!var2) { _fun0004_ip = 18; continue _fun0004 }
+case 19:
             var3 = var5.includes;
             var7 = _closure1_slot0;
             var6 = _closure1_slot1;
@@ -143,25 +143,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.USER_INSTALL;
             var1 = var3.bind(var5)(var1);
             var2 = !var1;
- 78:
+case 18:
             var1 = !var2;
-            if(var2) { _fun0004_ip = 186; continue _fun0004 }
- 84:
+            if(var2) { _fun0004_ip = 20; continue _fun0004 }
+case 21:
             var2 = _closure1_slot3;
             var2 = var2.BUILT_IN;
             var3 = var9 === var2;
             var2 = !var3;
-            if(var3) { _fun0004_ip = 183; continue _fun0004 }
- 107:
+            if(var3) { _fun0004_ip = 22; continue _fun0004 }
+case 23:
             var6 = _closure1_slot2;
             var3 = var6.hasUserStateApplication;
             var3 = var3.bind(var6)(var9);
             var3 = !var3;
-            if(!var3) { _fun0004_ip = 180; continue _fun0004 }
- 128:
+            if(!var3) { _fun0004_ip = 24; continue _fun0004 }
+case 25:
             var4 = var4 == var8;
-            if(var4) { _fun0004_ip = 177; continue _fun0004 }
- 135:
+            if(var4) { _fun0004_ip = 26; continue _fun0004 }
+case 27:
             var7 = _closure1_slot2;
             var6 = var7.hasContextStateApplication;
             var5 = {};
@@ -172,13 +172,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['guildId'] = var8;
             var5 = var6.bind(var7)(var5);
             var4 = !var5;
- 177:
+case 26:
             var3 = var4;
- 180:
+case 24:
             var2 = var3;
- 183:
+case 22:
             var1 = var2;
- 186:
+case 20:
             return var1;
         }
     };

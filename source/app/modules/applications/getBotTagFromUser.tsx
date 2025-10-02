@@ -25,23 +25,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function getBotTagTypeFromUser(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = var1.isSystemUser;
             var2 = var2.bind(var1)();
-            if(var2) { _fun0001_ip = 42; continue _fun0001 }
- 16:
+            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var1.bot;
             var1 = undefined;
-            if(!var2) { _fun0001_ip = 55; continue _fun0001 }
- 27:
+            if(!var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = _closure1_slot0;
             var1 = var2.BOT;
-            _fun0001_ip = 55; continue _fun0001;
- 42:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var2 = _closure1_slot0;
             var1 = var2.SYSTEM_DM;
- 55:
+case 4:
             return var1;
         }
     };

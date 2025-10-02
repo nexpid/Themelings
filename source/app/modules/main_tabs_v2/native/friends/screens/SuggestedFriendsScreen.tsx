@@ -72,7 +72,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function SuggestedFriendsScreen() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = _closure1_slot9;
             var4 = undefined;
             var16 = var1.bind(var4)();
@@ -149,7 +149,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8[3] = var3;
             var3 = function(arg1, arg2) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var4 = arg2;
                     var _closure3_slot0 = var4;
                     var3 = _closure2_slot3;
@@ -158,22 +158,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = null;
                     var8 = var6 == var3;
                     var5 = undefined;
-                    if(var8) { _fun0002_ip = 41; continue _fun0002 }
- 35:
+                    if(var8) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var5 = var3.mutualFriendsCount;
- 41:
+case 2:
                     var5 = var6 != var5;
-                    if(!var5) { _fun0002_ip = 69; continue _fun0002 }
- 48:
+                    if(!var5) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var6 = var6 == var3;
                     var7 = undefined;
-                    if(var6) { _fun0002_ip = 63; continue _fun0002 }
- 57:
+                    if(var6) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var7 = var3.mutualFriendsCount;
- 63:
+case 6:
                     var6 = 0;
                     var5 = var7 > var6;
- 69:
+case 4:
                     var1 = _closure2_slot3;
                     var6 = var1.length;
                     var1 = 1;
@@ -184,10 +184,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = 'custom';
                     var1['type'] = var4;
                     var4 = 'contactSuggestionNoMutualCount';
-                    if(!var5) { _fun0002_ip = 118; continue _fun0002 }
- 112:
+                    if(!var5) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                     var4 = 'contactSuggestionMutualCount';
- 118:
+case 8:
                     var1['itemType'] = var4;
                     var3 = var3.user;
                     var3 = var3.id;
@@ -276,8 +276,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6['style'] = var9;
             var11 = var15.length;
             var9 = 0;
-            if(!(var9 === var11)) { _fun0001_ip = 449; continue _fun0001 }
- 327:
+            if(!(var9 === var11)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var12 = _closure1_slot7;
             var11 = _closure1_slot4;
             var9 = {};
@@ -305,8 +305,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = var12.bind(var4)(var17, var16);
             var9['children'] = var16;
             var9 = var12.bind(var4)(var11, var9);
-            _fun0001_ip = 515; continue _fun0001;
- 449:
+            _fun0001_ip = 12; continue _fun0001;
+case 10:
             var12 = _closure1_slot7;
             var11 = _closure1_slot0;
             var16 = _closure1_slot2;
@@ -322,7 +322,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10['getItemProps'] = var14;
             var10['getSectionProps'] = var13;
             var9 = var12.bind(var4)(var11, var10);
- 515:
+case 12:
             var6['children'] = var9;
             var6 = var8.bind(var4)(var7, var6);
             var5[1] = var6;

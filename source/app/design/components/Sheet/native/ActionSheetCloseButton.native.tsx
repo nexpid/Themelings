@@ -45,7 +45,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function ActionSheetCloseButton(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var5 = var1.onPress;
             var10 = var1.variant;
@@ -83,8 +83,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = {};
             var9 = 'overlay';
             var7 = undefined;
-            if(!(var9 === var10)) { _fun0001_ip = 192; continue _fun0001 }
- 161:
+            if(!(var9 === var10)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var9 = _closure1_slot1;
             var10 = _closure1_slot2;
             var8 = 5;
@@ -92,7 +92,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var9.bind(var3)(var8);
             var8 = var8.colors;
             var7 = var8.WHITE;
- 192:
+case 2:
             var5['color'] = var7;
             var5 = var4.bind(var3)(var6, var5);
             var1['children'] = var5;

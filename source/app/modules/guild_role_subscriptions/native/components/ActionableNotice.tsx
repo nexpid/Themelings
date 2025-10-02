@@ -53,7 +53,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function ActionableNotice(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var7 = var1.style;
             var13 = var1.message;
@@ -62,10 +62,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var1.submitting;
             var11 = var1.disabled;
             var4 = undefined;
-            if(!(var11 === var4)) { _fun0001_ip = 44; continue _fun0001 }
- 42:
+            if(!(var11 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var11 = false;
- 44:
+case 2:
             var1 = _closure1_slot6;
             var16 = var1.bind(var4)();
             var3 = _closure1_slot5;
@@ -103,10 +103,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var13.BRAND;
             var6['color'] = var13;
             var6['onPress'] = var12;
-            if(var10) { _fun0001_ip = 221; continue _fun0001 }
- 218:
+            if(var10) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var10 = var11;
- 221:
+case 4:
             var6['disabled'] = var10;
             var6['text'] = var9;
             var6 = var8.bind(var4)(var7, var6);

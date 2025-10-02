@@ -61,34 +61,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['setFocusedInput'] = var4;
         var4 = function focusLastInput() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var4 = _closure2_slot2;
                 var3 = _closure1_slot2;
                 var3 = var3.TITLE;
-                if(!(var4 !== var3)) { _fun0001_ip = 69; continue _fun0001 }
- 24:
+                if(!(var4 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var3 = _closure2_slot2;
                 var2 = _closure1_slot2;
                 var2 = var2.CONTENT;
-                if(!(var3 === var2)) { _fun0001_ip = 94; continue _fun0001 }
- 42:
+                if(!(var3 === var2)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var2 = _closure2_slot1;
                 var3 = var2.current;
                 var2 = null;
-                if(!(var2 != var3)) { _fun0001_ip = 94; continue _fun0001 }
- 57:
+                if(!(var2 != var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 6:
                 var2 = var3.focus;
                 var2 = var2.bind(var3)();
-                _fun0001_ip = 94; continue _fun0001;
- 69:
+                _fun0001_ip = 4; continue _fun0001;
+case 2:
                 var1 = _closure2_slot0;
                 var2 = var1.current;
                 var1 = null;
-                if(!(var1 != var2)) { _fun0001_ip = 94; continue _fun0001 }
- 84:
+                if(!(var1 != var2)) { _fun0001_ip = 4; continue _fun0001 }
+case 7:
                 var1 = var2.focus;
                 var1 = var1.bind(var2)();
- 94:
+case 4:
                 var1 = undefined;
                 return var1;
             }
@@ -96,34 +96,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['focusLastInput'] = var4;
         var3 = function blurLastInput() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var4 = _closure2_slot2;
                 var3 = _closure1_slot2;
                 var3 = var3.TITLE;
-                if(!(var4 !== var3)) { _fun0002_ip = 69; continue _fun0002 }
- 24:
+                if(!(var4 !== var3)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                 var3 = _closure2_slot2;
                 var2 = _closure1_slot2;
                 var2 = var2.CONTENT;
-                if(!(var3 === var2)) { _fun0002_ip = 94; continue _fun0002 }
- 42:
+                if(!(var3 === var2)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                 var2 = _closure2_slot1;
                 var3 = var2.current;
                 var2 = null;
-                if(!(var2 != var3)) { _fun0002_ip = 94; continue _fun0002 }
- 57:
+                if(!(var2 != var3)) { _fun0002_ip = 4; continue _fun0002 }
+case 6:
                 var2 = var3.blur;
                 var2 = var2.bind(var3)();
-                _fun0002_ip = 94; continue _fun0002;
- 69:
+                _fun0002_ip = 4; continue _fun0002;
+case 2:
                 var1 = _closure2_slot0;
                 var2 = var1.current;
                 var1 = null;
-                if(!(var1 != var2)) { _fun0002_ip = 94; continue _fun0002 }
- 84:
+                if(!(var1 != var2)) { _fun0002_ip = 4; continue _fun0002 }
+case 7:
                 var1 = var2.blur;
                 var1 = var1.bind(var2)();
- 94:
+case 4:
                 var1 = undefined;
                 return var1;
             }

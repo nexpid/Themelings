@@ -203,7 +203,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var8.bind(var9)(var7);
     var7 = function UserSettingsText() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var15 = _closure1_slot0;
             var12 = _closure1_slot2;
             var18 = 11;
@@ -654,11 +654,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var12.FormHint;
             var12 = {};
             var16 = null;
-            if(var17) { _fun0001_ip = 1696; continue _fun0001 }
- 1685:
+            if(var17) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var17 = function renderNitroUpsellText() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var7 = _closure1_slot14;
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
@@ -747,8 +747,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var3.isAndroid;
                     var1 = var1.bind(var3)();
                     var4 = _closure1_slot15;
-                    if(var1) { _fun0002_ip = 365; continue _fun0002 }
- 317:
+                    if(var1) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var3 = _closure1_slot4;
                     var1 = {};
                     var6 = _closure1_slot17;
@@ -760,8 +760,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6[2] = var7;
                     var1['children'] = var6;
                     var1 = var4.bind(var5)(var3, var1);
-                    _fun0002_ip = 397; continue _fun0002;
- 365:
+                    _fun0002_ip = 6; continue _fun0002;
+case 4:
                     var3 = _closure1_slot16;
                     var2 = {};
                     var6 = new Array(3);
@@ -770,12 +770,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6[2] = var7;
                     var2['children'] = var6;
                     var1 = var4.bind(var5)(var3, var2);
- 397:
+case 6:
                     return var1;
                 }
             };
             var16 = var17.bind(var4)();
- 1696:
+case 2:
             var12['children'] = var16;
             var12 = var3.bind(var4)(var15, var12);
             var11[2] = var12;

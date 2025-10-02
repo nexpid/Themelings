@@ -162,22 +162,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var6 = function value(arg1, arg2) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var5 = arg1;
                 var4 = arg2;
                 var2 = this;
                 var3 = var2.data;
                 var1 = var3.get;
                 var1 = var1.bind(var3)(var5);
-                if(!(var1 !== var4)) { _fun0001_ip = 59; continue _fun0001 }
- 28:
+                if(!(var1 !== var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var3 = var2.data;
                 var1 = var3.set;
                 var1 = var1.bind(var3)(var5, var4);
                 var1 = var2.version;
                 var1 = var1 + 1;
                 var2['version'] = var1;
- 59:
+case 2:
                 var1 = undefined;
                 return var1;
             }
@@ -189,18 +189,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var6 = function value(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var3 = this;
                 var4 = var3.data;
                 var2 = var4.delete;
                 var1 = arg1;
                 var1 = var2.bind(var4)(var1);
-                if(!var1) { _fun0002_ip = 39; continue _fun0002 }
- 24:
+                if(!var1) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                 var2 = var3.version;
                 var2 = var2 + 1;
                 var3['version'] = var2;
- 39:
+case 4:
                 return var1;
             }
         };
@@ -211,20 +211,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var5 = function value() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var2 = this;
                 var1 = var2.data;
                 var3 = var1.size;
                 var1 = 0;
-                if(!(var1 !== var3)) { _fun0003_ip = 49; continue _fun0003 }
- 19:
+                if(!(var1 !== var3)) { _fun0003_ip = 6; continue _fun0003 }
+case 7:
                 var3 = var2.data;
                 var1 = var3.clear;
                 var1 = var1.bind(var3)();
                 var1 = var2.version;
                 var1 = var1 + 1;
                 var2['version'] = var1;
- 49:
+case 6:
                 var1 = undefined;
                 return var1;
             }

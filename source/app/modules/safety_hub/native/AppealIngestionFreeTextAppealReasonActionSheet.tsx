@@ -82,7 +82,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function AppealIngestionFreeTextAppealReasonActionSheet(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = var1.onSave;
             var _closure2_slot0 = var2;
@@ -118,8 +118,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = 1;
             var18 = var3[var1];
             var1 = '';
-            if(!(var1 !== var2)) { _fun0001_ip = 193; continue _fun0001 }
- 136:
+            if(!(var1 !== var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
             var1 = 9;
@@ -132,8 +132,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.t;
             var1 = var1.tnE3bW;
             var21 = var2.bind(var3)(var1);
-            _fun0001_ip = 248; continue _fun0001;
- 193:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
             var1 = 9;
@@ -146,7 +146,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.t;
             var1 = var1.uoQFIi;
             var21 = var2.bind(var3)(var1);
- 248:
+case 4:
             var14 = _closure1_slot0;
             var15 = _closure1_slot2;
             var11 = 9;

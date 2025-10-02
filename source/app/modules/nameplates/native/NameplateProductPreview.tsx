@@ -93,7 +93,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot9 = var4;
     var4 = function NameplateUser(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var7 = var1.nameplate;
             var4 = undefined;
@@ -138,10 +138,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var8.getName;
             var5 = var5.bind(var8)(var11);
             var10 = var6;
-            if(!(var4 !== var3)) { _fun0001_ip = 185; continue _fun0001 }
- 182:
+            if(!(var4 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var10 = var3;
- 185:
+case 2:
             _closure2_slot2 = var10;
             var8 = _closure1_slot3;
             var6 = var8.useMemo;
@@ -199,20 +199,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot10 = var4;
     var4 = function PlaceholderUser(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var7 = var1.user;
             var6 = var1.start;
             var4 = undefined;
-            if(!(var6 === var4)) { _fun0002_ip = 21; continue _fun0002 }
- 19:
+            if(!(var6 === var4)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var6 = false;
- 21:
+case 4:
             var5 = var1.end;
-            if(!(var5 === var4)) { _fun0002_ip = 32; continue _fun0002 }
- 30:
+            if(!(var5 === var4)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var5 = false;
- 32:
+case 6:
             var3 = _closure1_slot7;
             var11 = _closure1_slot0;
             var12 = _closure1_slot2;
@@ -256,7 +256,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function _default() {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var1 = _closure1_slot9;
             var5 = undefined;
             var14 = var1.bind(var5)();
@@ -283,16 +283,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = null;
             var4 = var11 == var3;
             var1 = undefined;
-            if(var4) { _fun0003_ip = 98; continue _fun0003 }
- 92:
+            if(var4) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
             var1 = var3.skuId;
- 98:
+case 8:
             var1 = var2.bind(var5)(var1);
             var12 = var1.product;
             var1 = var11 != var3;
             var21 = undefined;
-            if(!var1) { _fun0003_ip = 149; continue _fun0003 }
- 118:
+            if(!var1) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
             var2 = _closure1_slot0;
             var4 = _closure1_slot2;
             var1 = 9;
@@ -300,7 +300,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.bind(var5)(var1);
             var1 = var2.getNameplateDataFromRecord;
             var21 = var1.bind(var2)(var3);
- 149:
+case 10:
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 10;
@@ -310,8 +310,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17 = var1.bind(var2)();
             var2 = var11 == var21;
             var1 = null;
-            if(var2) { _fun0003_ip = 987; continue _fun0003 }
- 191:
+            if(var2) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
             var4 = _closure1_slot7;
             var3 = _closure1_slot4;
             var2 = {};
@@ -333,10 +333,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = {};
             var13 = var11 == var12;
             var11 = undefined;
-            if(var13) { _fun0003_ip = 289; continue _fun0003 }
- 284:
+            if(var13) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
             var11 = var12.name;
- 289:
+case 14:
             var6['nameplate'] = var11;
             var6 = var8.bind(var9)(var7, var6);
             var2['accessibilityLabel'] = var6;
@@ -480,7 +480,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var8.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 987:
+case 12:
             return var1;
         }
     };

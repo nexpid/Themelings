@@ -67,16 +67,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var7.useAnimatedStyle;
         var2 = function E() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var1 = {'position': 'absolute', 'top': null, 'display': 'flex'};
                 var3 = _closure2_slot2;
                 var1['top'] = var3;
                 var3 = _closure2_slot0;
                 var2 = 0;
-                if(!var3) { _fun0001_ip = 39; continue _fun0001 }
- 36:
+                if(!var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var2 = 1;
- 39:
+case 2:
                 var1['opacity'] = var2;
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
@@ -129,16 +129,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var8.useAnimatedStyle;
         var2 = function n() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var1 = {};
                 var3 = _closure2_slot1;
                 var2 = var3.get;
                 var3 = var2.bind(var3)();
                 var2 = 'none';
-                if(!var3) { _fun0002_ip = 29; continue _fun0002 }
- 25:
+                if(!var3) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                 var2 = 'flex';
- 29:
+case 4:
                 var1['display'] = var2;
                 var4 = _closure1_slot1;
                 var8 = _closure1_slot2;
@@ -236,16 +236,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var3.useAnimatedStyle;
         var1 = function R() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var1 = {'display': null, 'backgroundColor': 'rgba(100, 100, 100, 0.5)', 'position': 'absolute'};
                 var3 = _closure2_slot1;
                 var2 = var3.get;
                 var3 = var2.bind(var3)();
                 var2 = 'flex';
-                if(!var3) { _fun0003_ip = 41; continue _fun0003 }
- 37:
+                if(!var3) { _fun0003_ip = 6; continue _fun0003 }
+case 7:
                 var2 = 'none';
- 41:
+case 6:
                 var1['display'] = var2;
                 var4 = _closure1_slot0;
                 var5 = _closure1_slot2;

@@ -9,20 +9,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function TraitEmoji(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var3 = var1.emoji;
             var1 = _closure1_slot7;
             var5 = undefined;
             var6 = var1.bind(var5)();
             var1 = null;
-            if(!(var1 != var3)) { _fun0001_ip = 204; continue _fun0001 }
- 30:
+            if(!(var1 != var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = var3.id;
             var4 = var1 != var4;
             var8 = undefined;
-            if(!var4) { _fun0001_ip = 104; continue _fun0001 }
- 44:
+            if(!var4) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var7 = _closure1_slot1;
             var9 = _closure1_slot2;
             var4 = 5;
@@ -37,7 +37,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = 16;
             var4['size'] = var10;
             var8 = var7.bind(var9)(var4);
- 104:
+case 4:
             var7 = _closure1_slot1;
             var9 = _closure1_slot2;
             var4 = 6;
@@ -45,13 +45,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7.bind(var5)(var4);
             var4 = var7.isCustomEmoji;
             var4 = var4.bind(var7)(var3);
-            if(var4) { _fun0001_ip = 145; continue _fun0001 }
- 138:
+            if(var4) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var7 = var3.surrogates;
-            _fun0001_ip = 150; continue _fun0001;
- 145:
+            _fun0001_ip = 8; continue _fun0001;
+case 6:
             var7 = var3.name;
- 150:
+case 8:
             var4 = _closure1_slot5;
             var3 = _closure1_slot1;
             var9 = _closure1_slot2;
@@ -65,7 +65,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['fastImageStyle'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
- 204:
+case 2:
             return var1;
         }
     };

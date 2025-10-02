@@ -52,16 +52,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['parent'] = var8;
     var8 = function useAndroidNotificationVibrationsSettingValue() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = _closure1_slot2;
             var1 = undefined;
             var2 = var2.bind(var1)();
             var1 = null;
             var1 = var1 != var2;
-            if(!var1) { _fun0001_ip = 25; continue _fun0001 }
- 22:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var2;
- 25:
+case 2:
             return var1;
         }
     };
@@ -69,7 +69,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['onValueChange'] = var7;
     var4 = function useHasAndroidNotificationVibrationsSetting() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = _closure1_slot2;
             var5 = undefined;
             var3 = var1.bind(var5)();
@@ -81,8 +81,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var4.isIOS;
             var1 = var1.bind(var4)();
             var1 = !var1;
-            if(!var1) { _fun0002_ip = 82; continue _fun0002 }
- 49:
+            if(!var1) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var4 = _closure1_slot0;
             var6 = _closure1_slot1;
             var2 = 4;
@@ -91,12 +91,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4.hasAndroidNotificationChannels;
             var2 = var2.bind(var4)();
             var1 = !var2;
- 82:
-            if(!var1) { _fun0002_ip = 91; continue _fun0002 }
- 85:
+case 4:
+            if(!var1) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var2 = null;
             var1 = var2 != var3;
- 91:
+case 6:
             return var1;
         }
     };

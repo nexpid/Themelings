@@ -104,14 +104,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = function* () {
                 var1 = function* anon_0_() {
                     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0001_ip = 162; continue _fun0001 }
- 10:
+                        if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                         var5 = undefined;
                         var4 = undefined;
- 14: // try_start_0
+case 4: // try_start_0
                         var6 = _closure2_slot0;
                         var2 = true;
                         var2 = var6.bind(var5)(var2);
@@ -123,16 +123,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = var7.getCurrentTask;
                         var2 = var2.bind(var7)();
                         SaveGenerator(address=65);
- 63:
+case 5:
                         return var2;
- 65:
+case 6:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=6);
-                        if(var7) { _fun0001_ip = 130; continue _fun0001 }
- 71:
+                        if(var7) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
                         var4 = var2;
                         var7 = null;
-                        if(!(var7 != var2)) { _fun0001_ip = 116; continue _fun0001 }
- 80:
+                        if(!(var7 != var2)) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
                         var7 = _closure1_slot0;
                         var8 = _closure1_slot2;
                         var6 = 9;
@@ -141,23 +141,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var7 = var8.navigateToScreenForTask;
                         var6 = _closure2_slot1;
                         var4 = var7.bind(var8)(var6, var4);
- 116: // try_end0
+case 9: // try_end0
                         var6 = _closure2_slot0;
                         var4 = false;
                         var4 = var6.bind(var5)(var4);
                         return var5;
- 130:
+case 7:
                         var4 = _closure2_slot0;
                         var3 = false;
                         var3 = var4.bind(var5)(var3);
                         return var2;
- 144: // catch_target0
+case 11: // catch_target0
                         CatchBlockStart(arg_register=1);
                         var4 = _closure2_slot0;
                         var3 = false;
                         var3 = var4.bind(var5)(var3);
                         throw var2;
- 162:
+case 2:
                         return var1;
                     }
                 };

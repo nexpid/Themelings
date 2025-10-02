@@ -85,14 +85,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.forwardRef;
     var2 = function(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var11 = var1.active;
             var4 = undefined;
-            if(!(var11 === var4)) { _fun0001_ip = 17; continue _fun0001 }
- 15:
+            if(!(var11 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var11 = false;
- 17:
+case 2:
             var18 = var1.style;
             var19 = var1.activeStyle;
             var12 = var1.activeIconStyle;
@@ -121,14 +121,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16[0] = var20;
             var16[1] = var18;
             var18 = var11;
-            if(!var11) { _fun0001_ip = 155; continue _fun0001 }
- 152:
+            if(!var11) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var18 = !var9;
- 155:
-            if(!var18) { _fun0001_ip = 161; continue _fun0001 }
- 158:
+case 4:
+            if(!var18) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var18 = var19;
- 161:
+case 6:
             var16[2] = var18;
             var1['style'] = var16;
             var1['disabled'] = var9;
@@ -151,20 +151,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = new Array(4);
             var8[0] = var13;
             var13 = var11;
-            if(!var11) { _fun0001_ip = 257; continue _fun0001 }
- 251:
+            if(!var11) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var13 = var10.actionButtonIconActive;
- 257:
+case 8:
             var8[1] = var13;
-            if(!var11) { _fun0001_ip = 267; continue _fun0001 }
- 264:
+            if(!var11) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var11 = var12;
- 267:
+case 10:
             var8[2] = var11;
-            if(!var9) { _fun0001_ip = 280; continue _fun0001 }
- 274:
+            if(!var9) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var9 = var10.actionButtonIconDisabled;
- 280:
+case 12:
             var8[3] = var9;
             var5['style'] = var8;
             var5 = var6.bind(var4)(var7, var5);

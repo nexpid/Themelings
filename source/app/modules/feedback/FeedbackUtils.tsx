@@ -78,7 +78,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg2;
             var _closure2_slot0 = var1;
             var4 = _closure1_slot1;
@@ -100,15 +100,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var5 = var3.bind(var1)(var2);
             var2 = -1;
-            if(!(var5 > var2)) { _fun0001_ip = 105; continue _fun0001 }
- 76:
+            if(!(var5 > var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = var1[var5];
             var4 = var1.splice;
             var2 = 1;
             var2 = var4.bind(var1)(var5, var2);
             var2 = var1.push;
             var2 = var2.bind(var1)(var3);
- 105:
+case 2:
             return var1;
         }
     };

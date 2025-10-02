@@ -22,7 +22,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function getReactNativeSVGImageSource(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var5 = _closure1_slot0;
             var1 = _closure1_slot1;
@@ -33,17 +33,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var4.isAndroid;
             var4 = var1.bind(var4)();
             var1 = var3;
-            if(!var4) { _fun0001_ip = 70; continue _fun0001 }
- 42:
+            if(!var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = global;
             var5 = var4.Array;
             var4 = var5.isArray;
             var4 = var4.bind(var5)(var3);
             var1 = var3;
-            if(!var4) { _fun0001_ip = 70; continue _fun0001 }
- 66:
+            if(!var4) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var1 = var3[var2];
- 70:
+case 2:
             return var1;
         }
     };

@@ -34,7 +34,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useInviteApplicationBypassInfo(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var _closure2_slot0 = var2;
             var6 = _closure1_slot0;
@@ -61,35 +61,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var6.bind(var7)(var5, var3, var4);
             var3 = null;
             var5 = var3 == var2;
-            if(var5) { _fun0001_ip = 111; continue _fun0001 }
- 82:
+            if(var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var8 = var2.features;
             var7 = var8.has;
             var6 = _closure1_slot3;
             var6 = var6.MEMBER_VERIFICATION_MANUAL_APPROVAL;
             var6 = var7.bind(var8)(var6);
             var5 = !var6;
- 111:
-            if(var5) { _fun0001_ip = 118; continue _fun0001 }
- 114:
+case 2:
+            if(var5) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = var3 == var2;
- 118:
-            if(var5) { _fun0001_ip = 150; continue _fun0001 }
- 121:
+case 4:
+            if(var5) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var3 = var2.features;
             var2 = var3.has;
             var1 = _closure1_slot3;
             var1 = var1.MEMBER_VERIFICATION_GATE_ENABLED;
             var1 = var2.bind(var3)(var1);
             var5 = !var1;
- 150:
+case 6:
             var2 = !var5;
             var1 = {};
             var3 = var2;
-            if(var5) { _fun0001_ip = 164; continue _fun0001 }
- 161:
+            if(var5) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var3 = var4;
- 164:
+case 8:
             var1['canCreateApplicationBypassInvites'] = var3;
             var1['isManualApprovalGuild'] = var2;
             return var1;

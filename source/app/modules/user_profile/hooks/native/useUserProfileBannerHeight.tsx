@@ -30,7 +30,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useUserProfileBannerHeight(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var6 = arg1;
             var3 = _closure1_slot0;
             var2 = undefined;
@@ -38,13 +38,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var2.width;
             var2 = null;
             var4 = var5;
-            if(!(var2 != var6)) { _fun0001_ip = 49; continue _fun0001 }
- 30:
+            if(!(var2 != var6)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = global;
             var3 = var2.Math;
             var2 = var3.min;
             var4 = var2.bind(var3)(var5, var6);
- 49:
+case 2:
             var2 = global;
             var3 = var2.Math;
             var2 = var3.round;

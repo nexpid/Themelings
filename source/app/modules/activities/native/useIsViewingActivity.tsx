@@ -28,7 +28,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useIsViewingActivity(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var8 = var1.channelId;
             var _closure2_slot0 = var8;
@@ -65,14 +65,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var2 = var6.bind(var7)(var5, var2, var4);
-            if(!var1) { _fun0001_ip = 138; continue _fun0001 }
- 135:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var3;
- 138:
-            if(!var1) { _fun0001_ip = 144; continue _fun0001 }
- 141:
+case 2:
+            if(!var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = !var2;
- 144:
+case 4:
             return var1;
         }
     };

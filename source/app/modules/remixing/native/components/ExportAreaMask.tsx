@@ -7,7 +7,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var6;
     var1 = function getAspectRect(arg1, arg2, arg3, arg4) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var7 = arg1;
             var1 = arg2;
             var10 = arg3;
@@ -20,8 +20,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var6)(var2);
             var2 = var2.AspectRatio;
             var2 = var2.ORIGINAL;
-            if(!(var2 !== var7)) { _fun0001_ip = 239; continue _fun0001 }
- 56:
+            if(!(var2 !== var7)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = _closure1_slot0;
             var2 = _closure1_slot1;
             var2 = var2[var8];
@@ -30,24 +30,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var2.SQUARE;
             var2 = var10;
             var3 = var2;
-            if(!(var5 !== var7)) { _fun0001_ip = 308; continue _fun0001 }
- 98:
+            if(!(var5 !== var7)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var11 = _closure1_slot0;
             var5 = _closure1_slot1;
             var5 = var5[var8];
             var5 = var11.bind(var6)(var5);
             var5 = var5.AspectRatio;
             var5 = var5.FOUR_THREE;
-            if(!(var5 !== var7)) { _fun0001_ip = 220; continue _fun0001 }
- 131:
+            if(!(var5 !== var7)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var11 = _closure1_slot0;
             var5 = _closure1_slot1;
             var5 = var5[var8];
             var5 = var11.bind(var6)(var5);
             var5 = var5.AspectRatio;
             var5 = var5.SIXTEEN_NINE;
-            if(!(var5 !== var7)) { _fun0001_ip = 201; continue _fun0001 }
- 164:
+            if(!(var5 !== var7)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var11 = _closure1_slot0;
             var5 = _closure1_slot1;
             var5 = var5[var8];
@@ -56,40 +56,40 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.VERTICAL;
             var2 = var1;
             var3 = var10;
-            _fun0001_ip = 308; continue _fun0001;
- 201:
+            _fun0001_ip = 4; continue _fun0001;
+case 8:
             var5 = 1.7777777777777777;
             var2 = var10 / var5;
             var3 = var10;
-            _fun0001_ip = 308; continue _fun0001;
- 220:
+            _fun0001_ip = 4; continue _fun0001;
+case 6:
             var5 = 1.3333333333333333;
             var2 = var10 / var5;
             var3 = var10;
-            _fun0001_ip = 308; continue _fun0001;
- 239:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var11 = null;
             var2 = var1;
             var3 = var10;
-            if(!(var11 != var9)) { _fun0001_ip = 308; continue _fun0001 }
- 251:
+            if(!(var11 != var9)) { _fun0001_ip = 4; continue _fun0001 }
+case 10:
             var5 = var9.height;
             var2 = var1;
             var3 = var10;
-            if(!(var11 != var5)) { _fun0001_ip = 308; continue _fun0001 }
- 266:
+            if(!(var11 != var5)) { _fun0001_ip = 4; continue _fun0001 }
+case 11:
             var5 = var9.width;
             var2 = var1;
             var3 = var10;
-            if(!(var11 != var5)) { _fun0001_ip = 308; continue _fun0001 }
- 281:
+            if(!(var11 != var5)) { _fun0001_ip = 4; continue _fun0001 }
+case 12:
             var5 = var9.width;
             var10 = var5 / var10;
             var5 = var9.width;
             var3 = var5 / var10;
             var9 = var9.height;
             var2 = var9 / var10;
- 308:
+case 4:
             var5 = _closure1_slot0;
             var4 = _closure1_slot1;
             var4 = var4[var8];
@@ -98,12 +98,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var4.VERTICAL;
             var5 = 0;
             var4 = 0;
-            if(!(var7 !== var6)) { _fun0001_ip = 356; continue _fun0001 }
- 345:
+            if(!(var7 !== var6)) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var6 = var1 - var2;
             var1 = 2;
             var4 = var6 / var1;
- 356:
+case 13:
             var1 = {};
             var1['x'] = var5;
             var1['y'] = var4;
@@ -246,7 +246,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7[9] = var5;
         var5 = function() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var8 = _closure1_slot8;
                 var16 = _closure2_slot3;
                 var15 = _closure2_slot0;
@@ -259,8 +259,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var5.bind(var1)(var4);
                 var5 = _closure1_slot3;
                 var5 = var5.useReducedMotion;
-                if(var5) { _fun0002_ip = 266; continue _fun0002 }
- 59:
+                if(var5) { _fun0002_ip = 11; continue _fun0002 }
+case 15:
                 var9 = {};
                 var5 = 250;
                 var9['duration'] = var5;
@@ -305,12 +305,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var4.width;
                 var3 = var7.bind(var8)(var3, var9);
                 var3 = var5.bind(var6)(var3);
-                _fun0002_ip = 280; continue _fun0002;
- 266:
+                _fun0002_ip = 16; continue _fun0002;
+case 11:
                 var3 = _closure2_slot5;
                 var2 = var3.set;
                 var2 = var2.bind(var3)(var4);
- 280:
+case 16:
                 return var1;
             }
         };
@@ -333,11 +333,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3['__initData'] = var10;
         var2 = function R(arg1, arg2) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var2 = arg1;
                 var1 = arg2;
-                if(!(var2 !== var1)) { _fun0003_ip = 97; continue _fun0003 }
- 10:
+                if(!(var2 !== var1)) { _fun0003_ip = 17; continue _fun0003 }
+case 18:
                 var3 = _closure2_slot5;
                 var2 = var3.set;
                 var1 = {};
@@ -358,7 +358,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var4.bind(var5)();
                 var1['height'] = var4;
                 var1 = var2.bind(var3)(var1);
- 97:
+case 17:
                 var1 = undefined;
                 return var1;
             }

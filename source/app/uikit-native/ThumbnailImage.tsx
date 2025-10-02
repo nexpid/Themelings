@@ -1,7 +1,7 @@
 // app/uikit-native/ThumbnailImage.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
         var5 = require;
         var3 = exports;
         var6 = dependencyMap;
@@ -33,25 +33,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = var5.bind(var1)(var7);
         var7 = var9.isFabric;
         var7 = var7.bind(var9)();
-        if(var7) { _fun0001_ip = 166; continue _fun0001 }
- 129:
+        if(var7) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
         var7 = 5;
         var7 = var6[var7];
         var9 = var5.bind(var1)(var7);
         var7 = var9.isAndroid;
         var7 = var7.bind(var9)();
-        if(!var7) { _fun0001_ip = 164; continue _fun0001 }
- 153:
+        if(!var7) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
         var7 = 'DCDLocalImageThumbnail';
         var4 = var8.bind(var1)(var7);
- 164:
-        _fun0001_ip = 183; continue _fun0001;
- 166:
+case 4:
+        _fun0001_ip = 6; continue _fun0001;
+case 2:
         var7 = 4;
         var7 = var6[var7];
         var7 = var5.bind(var1)(var7);
         var4 = var7.default;
- 183:
+case 6:
         var _closure1_slot1 = var4;
         var4 = 6;
         var4 = var6[var4];

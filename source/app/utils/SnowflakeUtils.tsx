@@ -144,19 +144,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['forEach'] = var6;
     var6 = function forEachKey(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var7 = arg2;
             var5 = arg1;
             var1 = undefined;
             for(var2 in var5)
- 16:
+case 2:
             {
- 25:
+case 3:
                 var8 = var2;
                 var8 = var7.bind(var1)(var8);
-                _fun0001_ip = 16; continue _fun0001;
+                _fun0001_ip = 2; continue _fun0001;
             }
- 35:
+case 4:
             return var1;
         }
     };

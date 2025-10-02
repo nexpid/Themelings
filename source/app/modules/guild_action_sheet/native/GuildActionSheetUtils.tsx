@@ -47,11 +47,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[0] = var6;
         var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var3 = _closure2_slot0;
                 var1 = null;
-                if(!(var1 != var3)) { _fun0001_ip = 142; continue _fun0001 }
- 16:
+                if(!(var1 != var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var1 = {};
                 var7 = _closure1_slot2;
                 var4 = var7.canAccessGuildSettings;
@@ -62,15 +62,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = _closure1_slot3;
                 var4 = var4.CHANGE_NICKNAME;
                 var4 = var5.bind(var7)(var4, var6);
-                if(var4) { _fun0001_ip = 100; continue _fun0001 }
- 70:
+                if(var4) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var8 = _closure1_slot2;
                 var7 = var8.can;
                 var5 = _closure1_slot3;
                 var6 = var5.MANAGE_NICKNAMES;
                 var5 = _closure2_slot0;
                 var4 = var7.bind(var8)(var6, var5);
- 100:
+case 4:
                 var1['canEditNickname'] = var4;
                 var5 = _closure1_slot2;
                 var4 = var5.can;
@@ -79,10 +79,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = _closure2_slot0;
                 var2 = var4.bind(var5)(var3, var2);
                 var1['canManageChannels'] = var2;
-                _fun0001_ip = 156; continue _fun0001;
- 142:
+                _fun0001_ip = 6; continue _fun0001;
+case 2:
                 var1 = {'canAccessSettings': false, 'canEditNickname': false, 'canManageChannels': false};
- 156:
+case 6:
                 return var1;
             }
         };

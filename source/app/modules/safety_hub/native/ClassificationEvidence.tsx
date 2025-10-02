@@ -86,7 +86,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function ClassificationEvidence(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var11 = var1.flaggedContent;
             var1 = _closure1_slot6;
@@ -95,8 +95,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var11.length;
             var2 = 0;
             var1 = null;
-            if(!(var2 !== var3)) { _fun0001_ip = 251; continue _fun0001 }
- 38:
+            if(!(var2 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = _closure1_slot5;
             var3 = _closure1_slot3;
             var2 = {};
@@ -143,7 +143,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[1] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 251:
+case 2:
             return var1;
         }
     };

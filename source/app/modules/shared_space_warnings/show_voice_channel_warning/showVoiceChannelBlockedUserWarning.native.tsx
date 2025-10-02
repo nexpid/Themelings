@@ -40,7 +40,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function showVoiceChannelBlockedUserWarning(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var8 = arg1;
             var9 = arg2;
             var2 = _closure1_slot3;
@@ -54,12 +54,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4.bind(var1)(var2);
             var2 = var2.AppStates;
             var2 = var2.ACTIVE;
-            if(!(var3 !== var2)) { _fun0001_ip = 74; continue _fun0001 }
- 61:
+            if(!(var3 !== var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = _closure1_slot4;
             var2 = var2.bind(var1)();
-            _fun0001_ip = 234; continue _fun0001;
- 74:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var2 = _closure1_slot5;
             var2 = var2.bind(var1)();
             var3 = _closure1_slot1;
@@ -96,7 +96,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['impressionProperties'] = var2;
             var2 = 'gdm_blocked_user_action_sheet';
             var2 = var5.bind(var6)(var4, var2, var3);
- 234:
+case 4:
             return var1;
         }
     };

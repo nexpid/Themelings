@@ -9,8 +9,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function _isNativeReflectConstruct() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
- 2: // try_start_0
+case 0:
+case 2: // try_start_0
             var2 = global;
             var3 = var2.Boolean;
             var3 = var3.prototype;
@@ -28,11 +28,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var4)(var2);
             var2 = !var2;
             var _closure2_slot0 = var2;
- 72: // try_end0
-            _fun0001_ip = 76; continue _fun0001;
- 74: // catch_target0
+case 3: // try_end0
+            _fun0001_ip = 4; continue _fun0001;
+case 5: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+case 4:
             var2 = function _isNativeReflectConstruct() {
                 var1 = _closure2_slot0;
                 var1 = !var1;
@@ -89,7 +89,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function(arg1) {
         var4 = function ChannelCallModalManager(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var5 = this;
                 var13 = 0;
                 var1 = copyRestArgs(var13);
@@ -107,12 +107,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = _closure1_slot5;
                 var1 = _closure1_slot10;
                 var1 = var1.bind(var4)();
-                if(var1) { _fun0002_ip = 86; continue _fun0002 }
- 73:
+                if(var1) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                 var1 = var9.apply;
                 var1 = var1.bind(var9)(var5, var10);
-                _fun0002_ip = 120; continue _fun0002;
- 86:
+                _fun0002_ip = 8; continue _fun0002;
+case 6:
                 var7 = global;
                 var8 = var7.Reflect;
                 var7 = var8.construct;
@@ -120,14 +120,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var6.bind(var4)(var5);
                 var6 = var6.constructor;
                 var1 = var7.bind(var8)(var9, var10, var6);
- 120:
+case 8:
                 var1 = var3.bind(var4)(var5, var1);
                 var _closure3_slot0 = var1;
                 var3 = false;
                 var1['inVoiceChannel'] = var3;
                 var2 = function() {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                         var2 = _closure3_slot0;
                         var6 = var2.channel;
                         var _closure4_slot0 = var6;
@@ -136,32 +136,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var7 = var2.bind(var5)();
                         var5 = null;
                         var2 = var5 != var6;
-                        if(!var2) { _fun0003_ip = 47; continue _fun0003 }
- 43:
+                        if(!var2) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
                         var2 = var5 != var7;
- 47:
-                        if(!var2) { _fun0003_ip = 76; continue _fun0003 }
- 50:
+case 9:
+                        if(!var2) { _fun0003_ip = 4; continue _fun0003 }
+case 11:
                         var10 = _closure1_slot9;
                         var9 = var10.isInChannel;
                         var8 = var6.id;
                         var7 = var7.id;
                         var2 = var9.bind(var10)(var8, var7);
- 76:
+case 4:
                         var5 = var5 != var6;
-                        if(!var5) { _fun0003_ip = 93; continue _fun0003 }
- 83:
+                        if(!var5) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
                         var6 = _closure3_slot0;
                         var5 = var6.inVoiceChannel;
- 93:
-                        if(!var5) { _fun0003_ip = 110; continue _fun0003 }
- 96:
+case 12:
+                        if(!var5) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
                         var6 = _closure3_slot0;
                         var6 = var6.inVoiceChannel;
                         var5 = var6 !== var2;
- 110:
-                        if(!var5) { _fun0003_ip = 167; continue _fun0003 }
- 113:
+case 14:
+                        if(!var5) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
                         var6 = _closure1_slot1;
                         var5 = _closure1_slot2;
                         var4 = 7;
@@ -185,7 +185,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var4 = _closure3_slot0;
                         var3 = var4.terminate;
                         var3 = var3.bind(var4)();
- 167:
+case 16:
                         var1 = _closure3_slot0;
                         var1['inVoiceChannel'] = var2;
                         var1 = undefined;
@@ -207,7 +207,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5['key'] = var1;
         var1 = function value(arg1) {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                 var5 = arg1;
                 var1 = this;
                 var1['channel'] = var5;
@@ -216,18 +216,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var3.bind(var4)();
                 var6 = null;
                 var3 = var6 != var5;
-                if(!var3) { _fun0004_ip = 41; continue _fun0004 }
- 37:
+                if(!var3) { _fun0004_ip = 18; continue _fun0004 }
+case 19:
                 var3 = var6 != var4;
- 41:
-                if(!var3) { _fun0004_ip = 70; continue _fun0004 }
- 44:
+case 18:
+                if(!var3) { _fun0004_ip = 20; continue _fun0004 }
+case 21:
                 var7 = _closure1_slot9;
                 var6 = var7.isInChannel;
                 var5 = var5.id;
                 var4 = var4.id;
                 var3 = var6.bind(var7)(var5, var4);
- 70:
+case 20:
                 var1['inVoiceChannel'] = var3;
                 var3 = _closure1_slot9;
                 var2 = var3.addChangeListener;

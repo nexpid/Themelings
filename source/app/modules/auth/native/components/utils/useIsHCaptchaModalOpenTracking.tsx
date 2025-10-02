@@ -54,7 +54,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3[0] = var6;
         var2 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot1;
                 var1 = 4;
@@ -66,19 +66,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = null;
                 var5 = var3 == var4;
                 var2 = undefined;
-                if(var5) { _fun0001_ip = 51; continue _fun0001 }
- 46:
+                if(var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var2 = var4.current;
- 51:
-                if(!(var3 == var2)) { _fun0001_ip = 57; continue _fun0001 }
- 55:
+case 2:
+                if(!(var3 == var2)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 return var1;
- 57:
+case 4:
                 var3 = var4.addListener;
                 var2 = 'state';
                 var1 = function() {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                         var3 = _closure1_slot0;
                         var2 = _closure1_slot1;
                         var1 = 5;
@@ -88,13 +88,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var3 = var5.isModalOpen;
                         var2 = 'hcaptcha';
                         var2 = var3.bind(var5)(var2);
-                        if(!var2) { _fun0002_ip = 53; continue _fun0002 }
- 45:
+                        if(!var2) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                         var3 = _closure1_slot3;
                         var2 = var3.bind(var1)();
- 53:
-                        if(!var2) { _fun0002_ip = 100; continue _fun0002 }
- 56:
+case 6:
+                        if(!var2) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                         var3 = _closure2_slot0;
                         var2 = {};
                         var5 = _closure1_slot4;
@@ -104,7 +104,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var4 = var4.VIEWED;
                         var2['actionType'] = var4;
                         var2 = var3.bind(var1)(var2);
- 100:
+case 8:
                         return var1;
                     }
                 };

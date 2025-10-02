@@ -55,16 +55,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[0] = var6;
         var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var4 = _closure1_slot4;
                 var3 = var4.getChannelId;
                 var7 = var3.bind(var4)();
                 var3 = null;
-                if(!(var3 != var7)) { _fun0001_ip = 189; continue _fun0001 }
- 28:
+                if(!(var3 != var7)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var4 = _closure2_slot0;
-                if(var4) { _fun0001_ip = 189; continue _fun0001 }
- 41:
+                if(var4) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
                 var5 = _closure1_slot2;
                 var4 = var5.getVideoParticipants;
                 var6 = var4.bind(var5)(var7);
@@ -79,8 +79,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var4.length;
                 var4 = 0;
                 var4 = var5 > var4;
-                if(var4) { _fun0001_ip = 141; continue _fun0001 }
- 87:
+                if(var4) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
                 var6 = _closure1_slot2;
                 var5 = var6.getStreamParticipants;
                 var7 = var5.bind(var6)(var7);
@@ -106,7 +106,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 };
                 var2 = var5.bind(var6)(var2);
                 var4 = var3 != var2;
- 141:
+case 5:
                 var2 = {};
                 var6 = _closure1_slot0;
                 var5 = _closure1_slot1;
@@ -120,7 +120,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = 'externalPipEnabled';
                 var2[var3] = var4;
                 return var2;
- 189:
+case 2:
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot1;
                 var1 = 4;

@@ -98,40 +98,40 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3[3] = var2;
         var2 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var3 = _closure1_slot7;
                 var2 = var3.getRequest;
                 var1 = _closure2_slot3;
                 var5 = var2.bind(var3)(var1);
                 var3 = null;
-                if(!(var3 != var5)) { _fun0001_ip = 125; continue _fun0001 }
- 31:
+                if(!(var3 != var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var6 = _closure1_slot5;
                 var2 = var6.getGuild;
                 var1 = var5.guildId;
                 var2 = var2.bind(var6)(var1);
-                if(!(var3 == var2)) { _fun0001_ip = 74; continue _fun0001 }
- 54:
+                if(!(var3 == var2)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var7 = _closure1_slot8;
                 var6 = var7.getJoinRequestGuild;
                 var1 = var5.guildId;
                 var2 = var6.bind(var7)(var1);
- 74:
+case 4:
                 var1 = {};
                 var1['joinRequest'] = var5;
                 var3 = var3 != var2;
-                if(!var3) { _fun0001_ip = 114; continue _fun0001 }
- 88:
+                if(!var3) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                 var6 = _closure1_slot6;
                 var5 = var6.can;
                 var4 = _closure1_slot9;
                 var4 = var4.KICK_MEMBERS;
                 var3 = var5.bind(var6)(var4, var2);
- 114:
+case 6:
                 var1['isModmin'] = var3;
                 var1['guild'] = var2;
                 return var1;
- 125:
+case 2:
                 var1 = {'joinRequest': null, 'isModmin': false, 'guild': null};
                 return var1;
             }
@@ -147,16 +147,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6[1] = var5;
         var5 = function() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var3 = _closure2_slot5;
                 var2 = null;
                 var2 = var2 != var3;
-                if(var2) { _fun0002_ip = 20; continue _fun0002 }
- 16:
+                if(var2) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                 var2 = _closure2_slot1;
- 20:
-                if(var2) { _fun0002_ip = 69; continue _fun0002 }
- 23:
+case 8:
+                if(var2) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
                 var2 = _closure2_slot2;
                 var3 = undefined;
                 var1 = true;
@@ -168,7 +168,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var2.bind(var3)(var1);
                 var1 = var2.fetchRequestToJoinGuilds;
                 var1 = var1.bind(var2)();
- 69:
+case 10:
                 var1 = undefined;
                 return var1;
             }
@@ -180,11 +180,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5[1] = var8;
         var1 = function() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var3 = _closure2_slot4;
                 var2 = null;
-                if(!(var2 == var3)) { _fun0003_ip = 84; continue _fun0003 }
- 13:
+                if(!(var2 == var3)) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
                 var3 = _closure2_slot0;
                 var4 = undefined;
                 var2 = true;
@@ -206,7 +206,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var1 = var2.bind(var3)(var1);
- 84:
+case 12:
                 var1 = undefined;
                 return var1;
             }

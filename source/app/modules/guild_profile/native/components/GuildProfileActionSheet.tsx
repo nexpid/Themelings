@@ -82,7 +82,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function GuildProfileActionSheet(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var17 = var2.guildId;
             var _closure2_slot0 = var17;
@@ -198,20 +198,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var14.bind(var15)(var2, var12);
             var2 = _closure1_slot7;
             var2 = var2.NOT_FETCHED;
-            if(!(var3 !== var2)) { _fun0001_ip = 777; continue _fun0001 }
- 407:
+            if(!(var3 !== var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = _closure1_slot7;
             var2 = var2.FETCHING;
-            if(!(var3 !== var2)) { _fun0001_ip = 777; continue _fun0001 }
- 424:
+            if(!(var3 !== var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var2 = null;
-            if(!(var2 == var13)) { _fun0001_ip = 441; continue _fun0001 }
- 430:
+            if(!(var2 == var13)) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var3 = _closure1_slot8;
-            if(!(var7 !== var3)) { _fun0001_ip = 650; continue _fun0001 }
- 441:
-            if(!(var2 != var13)) { _fun0001_ip = 515; continue _fun0001 }
- 445:
+            if(!(var7 !== var3)) { _fun0001_ip = 7; continue _fun0001 }
+case 5:
+            if(!(var2 != var13)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var12 = _closure1_slot10;
             var7 = _closure1_slot1;
             var14 = _closure1_slot2;
@@ -228,8 +228,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['profile'] = var13;
             var14 = var12.bind(var4)(var7, var2);
             var7 = var3;
-            _fun0001_ip = 833; continue _fun0001;
- 515:
+            _fun0001_ip = 10; continue _fun0001;
+case 8:
             var12 = _closure1_slot10;
             var3 = _closure1_slot1;
             var19 = _closure1_slot2;
@@ -260,8 +260,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['text'] = var13;
             var2['onPress'] = var9;
             var14 = var12.bind(var4)(var6, var2);
-            _fun0001_ip = 833; continue _fun0001;
- 650:
+            _fun0001_ip = 10; continue _fun0001;
+case 7:
             var12 = _closure1_slot10;
             var3 = _closure1_slot1;
             var19 = _closure1_slot2;
@@ -291,8 +291,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['text'] = var13;
             var2['onPress'] = var9;
             var14 = var12.bind(var4)(var6, var2);
-            _fun0001_ip = 833; continue _fun0001;
- 777:
+            _fun0001_ip = 10; continue _fun0001;
+case 2:
             var6 = _closure1_slot10;
             var3 = _closure1_slot4;
             var2 = {};
@@ -304,7 +304,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['children'] = var12;
             var7 = var6.bind(var4)(var3, var2);
             var14 = null;
- 833:
+case 10:
             var6 = _closure1_slot3;
             var3 = var6.useMemo;
             var2 = new Array(1);

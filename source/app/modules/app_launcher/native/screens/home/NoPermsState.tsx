@@ -67,7 +67,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function EmptyState() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = _closure1_slot7;
             var4 = undefined;
             var9 = var1.bind(var4)();
@@ -84,15 +84,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.bind(var4)();
             var1 = var3.bind(var6)(var1);
             var6 = _closure1_slot2;
-            if(var1) { _fun0001_ip = 80; continue _fun0001 }
- 71:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = 8;
             var1 = var6[var1];
-            _fun0001_ip = 87; continue _fun0001;
- 80:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var3 = 7;
             var1 = var6[var3];
- 87:
+case 4:
             var7 = var2.bind(var4)(var1);
             var12 = _closure1_slot0;
             var13 = _closure1_slot2;

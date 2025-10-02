@@ -28,7 +28,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useCreateThreadViewProps(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = _closure1_slot1;
             var7 = _closure1_slot2;
             var3 = 1;
@@ -50,18 +50,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[0] = var4;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = _closure1_slot3;
                     var2 = var3.getChannel;
                     var5 = _closure2_slot0;
                     var1 = null;
                     var5 = var1 == var5;
                     var1 = undefined;
-                    if(var5) { _fun0002_ip = 40; continue _fun0002 }
- 30:
+                    if(var5) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var4 = _closure2_slot0;
                     var1 = var4.parentChannelId;
- 40:
+case 2:
                     var1 = var2.bind(var3)(var1);
                     return var1;
                 }
@@ -70,17 +70,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = null;
             var2 = var5 == var4;
             var1 = null;
-            if(var2) { _fun0001_ip = 129; continue _fun0001 }
- 105:
+            if(var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = var5 == var3;
             var1 = null;
-            if(var2) { _fun0001_ip = 129; continue _fun0001 }
- 114:
+            if(var2) { _fun0001_ip = 4; continue _fun0001 }
+case 6:
             var2 = {};
             var2['threadSettingsDraft'] = var4;
             var2['parentChannel'] = var3;
             var1 = var2;
- 129:
+case 4:
             return var1;
         }
     };

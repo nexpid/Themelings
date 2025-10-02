@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function Row(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var11 = var1.icon;
             var12 = var1.label;
@@ -17,10 +17,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var1.selected;
             var8 = var1.disabled;
             var4 = undefined;
-            if(!(var8 === var4)) { _fun0001_ip = 37; continue _fun0001 }
- 35:
+            if(!(var8 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var8 = false;
- 37:
+case 2:
             var1 = _closure1_slot7;
             var10 = var1.bind(var4)();
             var3 = _closure1_slot6;
@@ -39,10 +39,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7['selected'] = var9;
             var1['accessibilityState'] = var7;
             var7 = var9;
-            if(var9) { _fun0001_ip = 117; continue _fun0001 }
- 114:
+            if(var9) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var7 = var8;
- 117:
+case 4:
             var1['disabled'] = var7;
             var1['onPress'] = var5;
             var8 = _closure1_slot5;
@@ -72,10 +72,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = new Array(2);
             var13[0] = var14;
             var14 = var9;
-            if(!var14) { _fun0001_ip = 260; continue _fun0001 }
- 254:
+            if(!var14) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var14 = var10.rowLabelSelected;
- 260:
+case 6:
             var13[1] = var14;
             var7['style'] = var13;
             var7['children'] = var12;
@@ -205,7 +205,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function AllChannelsSwitch(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var12 = var1.channelAccessFormat;
             var2 = var1.setChannelAccessFormat;
@@ -213,10 +213,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var1.style;
             var9 = var1.disabled;
             var4 = undefined;
-            if(!(var9 === var4)) { _fun0002_ip = 39; continue _fun0002 }
- 37:
+            if(!(var9 === var4)) { _fun0002_ip = 8; continue _fun0002 }
+case 2:
             var9 = false;
- 39:
+case 8:
             var1 = _closure1_slot7;
             var18 = var1.bind(var4)();
             var3 = _closure1_slot6;

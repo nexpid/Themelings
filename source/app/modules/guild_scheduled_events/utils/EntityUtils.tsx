@@ -5,27 +5,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = dependencyMap;
     var1 = function _getLocationFromEvent(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg2;
             var1 = _closure1_slot1;
             var3 = var1.EXTERNAL;
             var1 = arg1;
             var3 = var1 === var3;
-            if(!var3) { _fun0001_ip = 32; continue _fun0001 }
- 26:
+            if(!var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = null;
             var3 = var1 != var2;
- 32:
-            if(!var3) { _fun0001_ip = 43; continue _fun0001 }
- 35:
+case 2:
+            if(!var3) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = 'location';
             var3 = var1 in var2;
- 43:
+case 4:
             var1 = null;
-            if(!var3) { _fun0001_ip = 53; continue _fun0001 }
- 48:
+            if(!var3) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var1 = var2.location;
- 53:
+case 6:
             return var1;
         }
     };
@@ -59,20 +59,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function getChannelFromEvent(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var3 = arg1;
             var5 = var3.entity_type;
             var2 = var3.channel_id;
             var1 = _closure1_slot2;
             var5 = var5 in var1;
-            if(!var5) { _fun0002_ip = 34; continue _fun0002 }
- 28:
+            if(!var5) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var1 = null;
             var5 = var1 != var2;
- 34:
+case 8:
             var1 = undefined;
-            if(!var5) { _fun0002_ip = 75; continue _fun0002 }
- 39:
+            if(!var5) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
             var5 = _closure1_slot0;
             var4 = var5.getChannel;
             var3 = var3.channel_id;
@@ -80,12 +80,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = null;
             var4 = var4 != var3;
             var2 = undefined;
-            if(!var4) { _fun0002_ip = 72; continue _fun0002 }
- 69:
+            if(!var4) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
             var2 = var3;
- 72:
+case 12:
             var1 = var2;
- 75:
+case 10:
             return var1;
         }
     };
@@ -112,20 +112,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['getLocationFromEventData'] = var4;
     var2 = function getChannelTypeFromEntity(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var3 = arg1;
             var1 = _closure1_slot1;
             var1 = var1.VOICE;
-            if(!(var3 !== var1)) { _fun0003_ip = 36; continue _fun0003 }
- 20:
+            if(!(var3 !== var1)) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
             var1 = _closure1_slot1;
             var4 = var1.STAGE_INSTANCE;
             var1 = undefined;
-            if(!(var3 === var4)) { _fun0003_ip = 44; continue _fun0003 }
- 36:
+            if(!(var3 === var4)) { _fun0003_ip = 16; continue _fun0003 }
+case 14:
             var2 = _closure1_slot2;
             var1 = var2[var3];
- 44:
+case 16:
             return var1;
         }
     };

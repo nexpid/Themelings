@@ -29,7 +29,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function useChannelListWidth() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var1 = 1;
@@ -56,13 +56,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.DM_WIDTH;
             var2 = var2 - var1;
             var1 = 0;
-            if(!var6) { _fun0001_ip = 126; continue _fun0001 }
- 117:
+            if(!var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = 0;
-            if(var4) { _fun0001_ip = 126; continue _fun0001 }
- 122:
+            if(var4) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var1 = _closure1_slot3;
- 126:
+case 2:
             var1 = var2 - var1;
             return var1;
         }
@@ -70,7 +70,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['default'] = var4;
     var2 = function getChannelListWidth() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var1 = 1;
@@ -91,10 +91,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.DM_WIDTH;
             var2 = var2 - var1;
             var1 = 0;
-            if(!var4) { _fun0002_ip = 94; continue _fun0002 }
- 90:
+            if(!var4) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
             var1 = _closure1_slot3;
- 94:
+case 5:
             var1 = var2 - var1;
             return var1;
         }

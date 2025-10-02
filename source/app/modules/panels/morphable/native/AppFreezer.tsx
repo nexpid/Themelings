@@ -56,18 +56,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = _closure2_slot0;
             var2 = function shouldFreeze(arg1, arg2) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     var1 = arg1;
                     var4 = arg2;
                     var _closure4_slot0 = var1;
                     var3 = null;
-                    if(!(var3 == var4)) { _fun0001_ip = 31; continue _fun0001 }
- 18:
+                    if(!(var3 == var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var3 = var1.size;
                     var1 = 0;
                     var1 = var3 > var1;
-                    _fun0001_ip = 49; continue _fun0001;
- 31:
+                    _fun0001_ip = 4; continue _fun0001;
+case 2:
                     var3 = var4.some;
                     var2 = function(arg1) {
                         var3 = _closure4_slot0;
@@ -77,7 +77,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     };
                     var1 = var3.bind(var4)(var2);
- 49:
+case 4:
                     return var1;
                 }
             };

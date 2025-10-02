@@ -7,16 +7,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var7;
     var2 = function getUserRoleSubscriptionRelationship() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arguments[0];
             var1 = undefined;
-            if(!(var5 === var1)) { _fun0001_ip = 29; continue _fun0001 }
- 11:
+            if(!(var5 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = _closure1_slot2;
             var3 = new Array(1);
             var3[0] = var4;
             var5 = var3;
- 29:
+case 2:
             var3 = var5;
             var4 = var3[Symbol.iterator];
             var3 = var4().next;
@@ -24,15 +24,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4;
             var5 = var3 === var1;
             var3 = undefined;
-            if(var5) { _fun0001_ip = 54; continue _fun0001 }
- 51:
+            if(var5) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = var6;
- 54:
+case 4:
             var _closure2_slot0 = var3;
-            if(var5) { _fun0001_ip = 64; continue _fun0001 }
- 61:
+            if(var5) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var4.return();
- 64:
+case 6:
             var _closure2_slot1 = var1;
             var1 = var3.getGuildIdsWithPurchasableRoles;
             var1 = var1.bind(var3)();
@@ -41,42 +41,42 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var1.forEach;
             var3 = function(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var4 = _closure2_slot0;
                     var3 = var4.getUserSubscriptionRoles;
                     var1 = arg1;
                     var1 = var3.bind(var4)(var1);
                     var3 = var1.size;
                     var1 = 0;
-                    if(!(var3 > var1)) { _fun0002_ip = 38; continue _fun0002 }
- 32:
+                    if(!(var3 > var1)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                     var1 = true;
                     _closure2_slot1 = var1;
- 38:
+case 8:
                     var1 = undefined;
                     return var1;
                 }
             };
             var3 = var4.bind(var1)(var3);
             var2 = _closure2_slot1;
-            if(var2) { _fun0001_ip = 151; continue _fun0001 }
- 110:
+            if(var2) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var2 = var1.size;
             var1 = 0;
-            if(!(var1 !== var2)) { _fun0001_ip = 136; continue _fun0001 }
- 121:
+            if(!(var1 !== var2)) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var1 = _closure1_slot3;
             var1 = var1.IN_SUBSCRIPTION_SERVER;
-            _fun0001_ip = 149; continue _fun0001;
- 136:
+            _fun0001_ip = 14; continue _fun0001;
+case 12:
             var2 = _closure1_slot3;
             var1 = var2.NONE;
- 149:
-            _fun0001_ip = 164; continue _fun0001;
- 151:
+case 14:
+            _fun0001_ip = 15; continue _fun0001;
+case 10:
             var2 = _closure1_slot3;
             var1 = var2.SUBSCRIBED;
- 164:
+case 15:
             return var1;
         }
     };

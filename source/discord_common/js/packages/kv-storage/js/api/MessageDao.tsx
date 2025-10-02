@@ -54,15 +54,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function() {
         var4 = function MessageDao(arg1, arg2, arg3) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var2 = arg1;
                 var8 = arguments[3];
                 var3 = this;
                 var1 = undefined;
-                if(!(var8 === var1)) { _fun0001_ip = 17; continue _fun0001 }
- 15:
+                if(!(var8 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var8 = true;
- 17:
+case 2:
                 var6 = _closure1_slot2;
                 var5 = _closure2_slot0;
                 var5 = var6.bind(var1)(var3, var5);
@@ -222,11 +222,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var6 = function value(arg1, arg2, arg3) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var4 = arguments[3];
                 var8 = undefined;
-                if(!(var4 === var8)) { _fun0002_ip = 44; continue _fun0002 }
- 9:
+                if(!(var4 === var8)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                 var2 = _closure1_slot0;
                 var3 = _closure1_slot1;
                 var1 = 3;
@@ -234,7 +234,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var2.bind(var8)(var1);
                 var1 = var1.ConflictOptions;
                 var4 = var1.Replace;
- 44:
+case 4:
                 var1 = this;
                 var3 = var1.table;
                 var2 = var3.put;
@@ -254,7 +254,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var6 = function value(arg1, arg2, arg3) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var3 = arg3;
                 var4 = arguments[3];
                 var2 = arg1;
@@ -262,8 +262,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = arg2;
                 var _closure3_slot1 = var2;
                 var6 = undefined;
-                if(!(var4 === var6)) { _fun0003_ip = 63; continue _fun0003 }
- 28:
+                if(!(var4 === var6)) { _fun0003_ip = 6; continue _fun0003 }
+case 7:
                 var5 = _closure1_slot0;
                 var7 = _closure1_slot1;
                 var2 = 3;
@@ -271,7 +271,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var5.bind(var6)(var2);
                 var2 = var2.ConflictOptions;
                 var4 = var2.Replace;
- 63:
+case 6:
                 var2 = var3.map;
                 var1 = function(arg1) {
                     var5 = _closure1_slot5;
@@ -428,11 +428,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var2;
         var2 = function value(arg1, arg2, arg3) {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                 var5 = arguments[3];
                 var1 = undefined;
-                if(!(var5 === var1)) { _fun0004_ip = 44; continue _fun0004 }
- 9:
+                if(!(var5 === var1)) { _fun0004_ip = 4; continue _fun0004 }
+case 5:
                 var3 = _closure1_slot0;
                 var4 = _closure1_slot1;
                 var2 = 3;
@@ -440,7 +440,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var3.bind(var1)(var2);
                 var2 = var2.ConflictOptions;
                 var5 = var2.Replace;
- 44:
+case 4:
                 var2 = this;
                 var4 = var2.transaction;
                 var3 = var4.put;
@@ -461,7 +461,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var2;
         var2 = function value(arg1, arg2, arg3) {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
                 var4 = arg3;
                 var5 = arguments[3];
                 var1 = arg1;
@@ -469,8 +469,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = arg2;
                 var _closure3_slot1 = var1;
                 var1 = undefined;
-                if(!(var5 === var1)) { _fun0005_ip = 63; continue _fun0005 }
- 28:
+                if(!(var5 === var1)) { _fun0005_ip = 6; continue _fun0005 }
+case 7:
                 var6 = _closure1_slot0;
                 var7 = _closure1_slot1;
                 var3 = 3;
@@ -478,7 +478,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var6.bind(var1)(var3);
                 var3 = var3.ConflictOptions;
                 var5 = var3.Replace;
- 63:
+case 6:
                 var3 = var4.map;
                 var2 = function(arg1) {
                     var5 = _closure1_slot5;

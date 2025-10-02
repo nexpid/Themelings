@@ -102,7 +102,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function UserProfileCard(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var14 = var3.title;
             var11 = var3.titleIcon;
@@ -138,8 +138,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var19 = var1;
             var7 = copyDataProperties(var19, var18);
             var7 = var6 != var14;
-            if(!var7) { _fun0001_ip = 267; continue _fun0001 }
- 150:
+            if(!var7) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var9 = _closure1_slot7;
             var8 = _closure1_slot4;
             var6 = {};
@@ -165,7 +165,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10[1] = var11;
             var6['children'] = var10;
             var7 = var9.bind(var4)(var8, var6);
- 267:
+case 2:
             var6 = new Array(2);
             var6[0] = var7;
             var6[1] = var5;
@@ -178,7 +178,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['default'] = var4;
     var4 = function UserProfileFormRow(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var2 = arg1;
             var18 = var2.label;
             var10 = var2.sublabel;
@@ -190,22 +190,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var20 = var2.labelColor;
             var12 = var2.arrow;
             var4 = undefined;
-            if(!(var12 === var4)) { _fun0002_ip = 63; continue _fun0002 }
- 61:
+            if(!(var12 === var4)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var12 = false;
- 63:
+case 4:
             var2 = _closure1_slot9;
             var11 = var2.bind(var4)();
             var17 = undefined;
-            if(!var1) { _fun0002_ip = 85; continue _fun0002 }
- 79:
+            if(!var1) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var17 = 'text-danger';
- 85:
+case 6:
             var19 = 'header-primary';
-            if(!var1) { _fun0002_ip = 100; continue _fun0002 }
- 94:
+            if(!var1) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var19 = 'text-danger';
- 100:
+case 8:
             var3 = _closure1_slot7;
             var13 = _closure1_slot0;
             var14 = _closure1_slot2;
@@ -242,10 +242,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = 'text-md/semibold';
             var13['variant'] = var6;
             var6 = null;
-            if(!(var6 != var20)) { _fun0002_ip = 250; continue _fun0002 }
- 247:
+            if(!(var6 != var20)) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
             var19 = var20;
- 250:
+case 10:
             var13['color'] = var19;
             var19 = var11.rowLabelText;
             var13['style'] = var19;
@@ -253,18 +253,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var15.bind(var4)(var14, var13);
             var9[1] = var13;
             var13 = var6 != var16;
-            if(!var13) { _fun0002_ip = 309; continue _fun0002 }
- 285:
+            if(!var13) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
             var15 = _closure1_slot6;
             var14 = {};
             var18 = _closure1_slot5;
             var14['size'] = var18;
             var14['color'] = var17;
             var13 = var15.bind(var4)(var16, var14);
- 309:
+case 12:
             var9[2] = var13;
-            if(!var12) { _fun0002_ip = 362; continue _fun0002 }
- 316:
+            if(!var12) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
             var15 = _closure1_slot6;
             var14 = _closure1_slot0;
             var16 = _closure1_slot2;
@@ -276,15 +276,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = 'sm';
             var13['size'] = var16;
             var12 = var15.bind(var4)(var14, var13);
- 362:
+case 14:
             var9[3] = var12;
             var5['children'] = var9;
             var8 = var3.bind(var4)(var8, var5);
             var5 = new Array(2);
             var5[0] = var8;
             var6 = var6 != var10;
-            if(!var6) { _fun0002_ip = 421; continue _fun0002 }
- 391:
+            if(!var6) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
             var9 = _closure1_slot6;
             var8 = _closure1_slot4;
             var7 = {};
@@ -292,7 +292,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7['style'] = var11;
             var7['children'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 421:
+case 16:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
@@ -311,7 +311,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var6.map;
         var1 = function(arg1, arg2) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var5 = arg2;
                 var4 = _closure1_slot7;
                 var2 = _closure1_slot3;
@@ -319,14 +319,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = {};
                 var7 = 0;
                 var6 = null;
-                if(!(var7 !== var5)) { _fun0003_ip = 48; continue _fun0003 }
- 30:
+                if(!(var7 !== var5)) { _fun0003_ip = 18; continue _fun0003 }
+case 19:
                 var9 = _closure1_slot6;
                 var8 = _closure1_slot10;
                 var7 = undefined;
                 var1 = {};
                 var6 = var9.bind(var7)(var8, var1);
- 48:
+case 18:
                 var1 = new Array(2);
                 var1[0] = var6;
                 var6 = arg1;

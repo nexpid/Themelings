@@ -64,7 +64,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['useValue'] = var7;
     var7 = function onICYMISettingValueChange(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var6 = arg1;
             var4 = _closure1_slot1;
             var3 = _closure1_slot2;
@@ -74,10 +74,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var4.bind(var1)(var3);
             var7 = var8.itemInteracted;
             var5 = 'show';
-            if(!var6) { _fun0001_ip = 45; continue _fun0001 }
- 41:
+            if(!var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = 'hide';
- 45:
+case 2:
             var4 = 'icymi_tab_toggle';
             var3 = 'press';
             var3 = var7.bind(var8)(var5, var4, var3);

@@ -7,22 +7,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var8;
     var4 = function useAndroidMessageNotificationsSettingValue() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = _closure1_slot2;
             var1 = undefined;
             var2 = var2.bind(var1)();
             var1 = null;
             var1 = var1 != var2;
-            if(!var1) { _fun0001_ip = 25; continue _fun0001 }
- 22:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var2;
- 25:
+case 2:
             return var1;
         }
     };
     var2 = function useHasAndroidMessageNotificationsSetting() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var2 = _closure1_slot2;
             var4 = undefined;
             var3 = var2.bind(var4)();
@@ -33,11 +33,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.bind(var4)(var1);
             var1 = var2.isAndroid;
             var1 = var1.bind(var2)();
-            if(!var1) { _fun0002_ip = 51; continue _fun0002 }
- 45:
+            if(!var1) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var2 = null;
             var1 = var2 != var3;
- 51:
+case 4:
             return var1;
         }
     };

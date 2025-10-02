@@ -22,7 +22,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function getSortValueForMember(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var5 = arg2;
             var8 = _closure1_slot0;
@@ -39,51 +39,51 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var8.bind(var4)(var6);
             var6 = var6.OrderBy;
             var6 = var6.ORDER_BY_GUILD_JOINED_AT_ASC;
-            if(!(var6 !== var5)) { _fun0001_ip = 230; continue _fun0001 }
- 78:
+            if(!(var6 !== var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var8 = _closure1_slot0;
             var6 = _closure1_slot1;
             var6 = var6[var7];
             var6 = var8.bind(var4)(var6);
             var6 = var6.OrderBy;
             var6 = var6.ORDER_BY_GUILD_JOINED_AT_DESC;
-            if(!(var6 !== var5)) { _fun0001_ip = 225; continue _fun0001 }
- 111:
+            if(!(var6 !== var5)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var8 = _closure1_slot0;
             var6 = _closure1_slot1;
             var6 = var6[var7];
             var6 = var8.bind(var4)(var6);
             var6 = var6.OrderBy;
             var6 = var6.ORDER_BY_USER_ID_ASC;
-            if(!(var6 !== var5)) { _fun0001_ip = 205; continue _fun0001 }
- 144:
+            if(!(var6 !== var5)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var6 = _closure1_slot0;
             var3 = _closure1_slot1;
             var3 = var3[var7];
             var3 = var6.bind(var4)(var3);
             var3 = var3.OrderBy;
             var3 = var3.ORDER_BY_USER_ID_DESC;
-            if(!(var3 !== var5)) { _fun0001_ip = 182; continue _fun0001 }
- 177:
+            if(!(var3 !== var5)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var3 = -var1;
             return var3;
- 182:
+case 8:
             var3 = global;
             var5 = var3.parseInt;
             var3 = var2.userId;
             var3 = var5.bind(var4)(var3);
             var3 = -var3;
             return var3;
- 205:
+case 6:
             var3 = global;
             var3 = var3.parseInt;
             var2 = var2.userId;
             var2 = var3.bind(var4)(var2);
             return var2;
- 225:
+case 4:
             var2 = -var1;
             return var2;
- 230:
+case 2:
             return var1;
         }
     };

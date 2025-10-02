@@ -8,8 +8,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var6;
     var1 = function _isNativeReflectConstruct() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
- 2: // try_start_0
+case 0:
+case 2: // try_start_0
             var2 = global;
             var3 = var2.Boolean;
             var3 = var3.prototype;
@@ -27,11 +27,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var4)(var2);
             var2 = !var2;
             var _closure2_slot0 = var2;
- 72: // try_end0
-            _fun0001_ip = 76; continue _fun0001;
- 74: // catch_target0
+case 3: // try_end0
+            _fun0001_ip = 4; continue _fun0001;
+case 5: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+case 4:
             var2 = function _isNativeReflectConstruct() {
                 var1 = _closure2_slot0;
                 var1 = !var1;
@@ -97,7 +97,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = function(arg1) {
         var4 = function DispatcherWorkScheduler() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var6 = this;
                 var1 = _closure1_slot2;
                 var4 = _closure2_slot0;
@@ -108,12 +108,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = _closure1_slot4;
                 var1 = _closure1_slot13;
                 var1 = var1.bind(var5)();
-                if(var1) { _fun0002_ip = 64; continue _fun0002 }
- 51:
+                if(var1) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                 var1 = var11.apply;
                 var1 = var1.bind(var11)(var6, var5);
-                _fun0002_ip = 102; continue _fun0002;
- 64:
+                _fun0002_ip = 8; continue _fun0002;
+case 6:
                 var7 = global;
                 var10 = var7.Reflect;
                 var9 = var10.construct;
@@ -122,7 +122,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = var7.constructor;
                 var7 = new Array(0);
                 var1 = var9.bind(var10)(var11, var7, var8);
- 102:
+case 8:
                 var1 = var4.bind(var5)(var6, var1);
                 var _closure3_slot0 = var1;
                 var4 = _closure1_slot0;
@@ -159,15 +159,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5['key'] = var1;
         var1 = function value() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var2 = this;
                 var _closure3_slot0 = var2;
                 var1 = var2._enableRequestIdleCallback;
-                if(!var1) { _fun0003_ip = 80; continue _fun0003 }
- 18:
+                if(!var1) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
                 var1 = var2._criticalWorkScheduled;
-                if(var1) { _fun0003_ip = 80; continue _fun0003 }
- 27:
+                if(var1) { _fun0003_ip = 9; continue _fun0003 }
+case 11:
                 var1 = global;
                 var5 = var1.performance;
                 var4 = var5.now;
@@ -213,7 +213,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var5.bind(var1)(var4, var3);
                 var2['_flushIdleHandler'] = var3;
                 return var1;
- 80:
+case 9:
                 var1 = var2._processWorkCallback;
                 var1 = var1.bind(var2)();
                 return var1;
@@ -227,19 +227,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5['key'] = var7;
         var6 = function value() {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                 var2 = this;
                 var3 = var2._flushIdleHandler;
                 var1 = null;
-                if(!(var1 != var3)) { _fun0004_ip = 42; continue _fun0004 }
- 15:
+                if(!(var1 != var3)) { _fun0004_ip = 12; continue _fun0004 }
+case 13:
                 var3 = global;
                 var5 = var3.clearTimeout;
                 var4 = var2._flushIdleHandler;
                 var3 = undefined;
                 var3 = var5.bind(var3)(var4);
                 var2['_flushIdleHandler'] = var1;
- 42:
+case 12:
                 var1 = undefined;
                 return var1;
             }

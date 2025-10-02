@@ -101,7 +101,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8[19] = var11;
         var6 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot1;
                 var1 = 2;
@@ -112,104 +112,104 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = {};
                 var4 = _closure2_slot0;
                 var6 = null;
-                if(!(var6 == var4)) { _fun0001_ip = 58; continue _fun0001 }
- 46:
+                if(!(var6 == var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var4 = _closure2_slot10;
                 var4 = var4.theme;
-                _fun0001_ip = 62; continue _fun0001;
- 58:
+                _fun0001_ip = 4; continue _fun0001;
+case 2:
                 var4 = _closure2_slot0;
- 62:
+case 4:
                 var1['theme'] = var4;
                 var4 = _closure2_slot1;
-                if(!(var6 == var4)) { _fun0001_ip = 87; continue _fun0001 }
- 75:
+                if(!(var6 == var4)) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
                 var4 = _closure2_slot10;
                 var4 = var4.primaryColor;
-                _fun0001_ip = 91; continue _fun0001;
- 87:
+                _fun0001_ip = 7; continue _fun0001;
+case 5:
                 var4 = _closure2_slot1;
- 91:
+case 7:
                 var1['primaryColor'] = var4;
                 var4 = _closure2_slot2;
-                if(!(var6 == var4)) { _fun0001_ip = 116; continue _fun0001 }
- 104:
+                if(!(var6 == var4)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
                 var4 = _closure2_slot10;
                 var4 = var4.secondaryColor;
-                _fun0001_ip = 120; continue _fun0001;
- 116:
+                _fun0001_ip = 10; continue _fun0001;
+case 8:
                 var4 = _closure2_slot2;
- 120:
+case 10:
                 var1['secondaryColor'] = var4;
                 var4 = _closure2_slot3;
-                if(!(var6 == var4)) { _fun0001_ip = 145; continue _fun0001 }
- 133:
+                if(!(var6 == var4)) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
                 var4 = _closure2_slot10;
                 var4 = var4.gradient;
-                _fun0001_ip = 149; continue _fun0001;
- 145:
+                _fun0001_ip = 13; continue _fun0001;
+case 11:
                 var4 = _closure2_slot3;
- 149:
+case 13:
                 var1['gradient'] = var4;
                 var4 = _closure2_slot4;
-                if(!(var6 == var4)) { _fun0001_ip = 173; continue _fun0001 }
- 162:
+                if(!(var6 == var4)) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
                 var4 = _closure2_slot10;
                 var4 = var4.flags;
-                _fun0001_ip = 177; continue _fun0001;
- 173:
+                _fun0001_ip = 16; continue _fun0001;
+case 14:
                 var4 = _closure2_slot4;
- 177:
+case 16:
                 var1['flags'] = var4;
                 var4 = _closure2_slot5;
-                if(!(var6 == var4)) { _fun0001_ip = 201; continue _fun0001 }
- 189:
+                if(!(var6 == var4)) { _fun0001_ip = 17; continue _fun0001 }
+case 18:
                 var4 = _closure2_slot10;
                 var4 = var4.contrast;
-                _fun0001_ip = 205; continue _fun0001;
- 201:
+                _fun0001_ip = 19; continue _fun0001;
+case 17:
                 var4 = _closure2_slot5;
- 205:
+case 19:
                 var1['contrast'] = var4;
                 var4 = _closure2_slot6;
-                if(!(var6 == var4)) { _fun0001_ip = 230; continue _fun0001 }
- 218:
+                if(!(var6 == var4)) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
                 var4 = _closure2_slot10;
                 var4 = var4.saturation;
-                _fun0001_ip = 234; continue _fun0001;
- 230:
+                _fun0001_ip = 22; continue _fun0001;
+case 20:
                 var4 = _closure2_slot6;
- 234:
+case 22:
                 var1['saturation'] = var4;
                 var4 = _closure2_slot7;
-                if(!(var6 == var4)) { _fun0001_ip = 259; continue _fun0001 }
- 247:
+                if(!(var6 == var4)) { _fun0001_ip = 23; continue _fun0001 }
+case 24:
                 var4 = _closure2_slot10;
                 var4 = var4.density;
-                _fun0001_ip = 263; continue _fun0001;
- 259:
+                _fun0001_ip = 25; continue _fun0001;
+case 23:
                 var4 = _closure2_slot7;
- 263:
+case 25:
                 var1['density'] = var4;
                 var4 = _closure2_slot8;
-                if(!(var6 == var4)) { _fun0001_ip = 288; continue _fun0001 }
- 276:
+                if(!(var6 == var4)) { _fun0001_ip = 26; continue _fun0001 }
+case 27:
                 var4 = _closure2_slot10;
                 var4 = var4.disableAdaptiveTheme;
-                _fun0001_ip = 292; continue _fun0001;
- 288:
+                _fun0001_ip = 28; continue _fun0001;
+case 26:
                 var4 = _closure2_slot8;
- 292:
+case 28:
                 var1['disableAdaptiveTheme'] = var4;
                 var4 = _closure2_slot9;
-                if(!(var6 == var4)) { _fun0001_ip = 317; continue _fun0001 }
- 305:
+                if(!(var6 == var4)) { _fun0001_ip = 29; continue _fun0001 }
+case 30:
                 var4 = _closure2_slot10;
                 var4 = var4.reduceAdaptiveTheme;
-                _fun0001_ip = 321; continue _fun0001;
- 317:
+                _fun0001_ip = 31; continue _fun0001;
+case 29:
                 var4 = _closure2_slot9;
- 321:
+case 31:
                 var1['reduceAdaptiveTheme'] = var4;
                 var1 = var2.bind(var3)(var1);
                 return var1;

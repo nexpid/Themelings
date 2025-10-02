@@ -90,7 +90,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function _default(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var7 = var2.style;
             var9 = var2.guildId;
@@ -128,17 +128,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[2] = var6;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var1 = _closure2_slot2;
                     var3 = null;
                     var1 = var3 != var1;
-                    if(!var1) { _fun0002_ip = 24; continue _fun0002 }
- 16:
+                    if(!var1) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var2 = _closure2_slot1;
                     var1 = var3 != var2;
- 24:
-                    if(!var1) { _fun0002_ip = 190; continue _fun0002 }
- 30:
+case 2:
+                    if(!var1) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var2 = _closure1_slot1;
                     var3 = _closure1_slot2;
                     var1 = 11;
@@ -160,8 +160,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = var8.bind(var10)(var11, var7);
                     var1['is_member'] = var7;
                     var6 = var6.nsfwAllowed;
-                    if(!var6) { _fun0002_ip = 165; continue _fun0002 }
- 129:
+                    if(!var6) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var8 = _closure1_slot0;
                     var10 = _closure1_slot2;
                     var7 = 12;
@@ -170,13 +170,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = var7.ViewNsfwGuilds;
                     var7 = var8.getSetting;
                     var6 = var7.bind(var8)();
- 165:
+case 6:
                     var1['is_user_opted_in_to_age_restricted_servers'] = var6;
                     var5 = _closure1_slot8;
                     var5 = var5.GUILD_SIDEBAR;
                     var1['source'] = var5;
                     var1 = var3.bind(var4)(var2, var1);
- 190:
+case 4:
                     var1 = undefined;
                     return var1;
                 }
@@ -184,8 +184,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var3.bind(var4)(var1, var2);
             var1 = null;
             var2 = var1 == var8;
-            if(var2) { _fun0001_ip = 489; continue _fun0001 }
- 153:
+            if(var2) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var4 = _closure1_slot13;
             var3 = _closure1_slot4;
             var2 = {};
@@ -261,7 +261,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[1] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 489:
+case 8:
             return var1;
         }
     };

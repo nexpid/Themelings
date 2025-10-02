@@ -5,7 +5,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = dependencyMap;
     var5 = function findChoiceStringValue(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var6 = arg1;
             var1 = arg2;
             var _closure2_slot0 = var1;
@@ -13,8 +13,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var4 == var6;
             var2 = undefined;
             var1 = undefined;
-            if(var5) { _fun0001_ip = 57; continue _fun0001 }
- 25:
+            if(var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = var6.find;
             var3 = function(arg1) {
                 var1 = arg1;
@@ -26,23 +26,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var5.bind(var6)(var3);
             var4 = var4 == var3;
             var1 = undefined;
-            if(var4) { _fun0001_ip = 57; continue _fun0001 }
- 52:
+            if(var4) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var1 = var3.value;
- 57:
+case 2:
             var4 = 'string';
             var3 = typeof var1;
-            if(!(var4 !== var3)) { _fun0001_ip = 70; continue _fun0001 }
- 68:
+            if(!(var4 !== var3)) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             return var2;
- 70:
+case 5:
             return var1;
         }
     };
     var _closure1_slot3 = var5;
     var4 = function findChoiceNumberValue(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var6 = arg1;
             var1 = arg2;
             var _closure2_slot0 = var1;
@@ -50,8 +50,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var4 == var6;
             var2 = undefined;
             var1 = undefined;
-            if(var5) { _fun0002_ip = 57; continue _fun0002 }
- 25:
+            if(var5) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
             var5 = var6.find;
             var3 = function(arg1) {
                 var1 = arg1;
@@ -63,16 +63,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var5.bind(var6)(var3);
             var4 = var4 == var3;
             var1 = undefined;
-            if(var4) { _fun0002_ip = 57; continue _fun0002 }
- 52:
+            if(var4) { _fun0002_ip = 2; continue _fun0002 }
+case 4:
             var1 = var3.value;
- 57:
+case 2:
             var4 = 'number';
             var3 = typeof var1;
-            if(!(var4 !== var3)) { _fun0002_ip = 70; continue _fun0002 }
- 68:
+            if(!(var4 !== var3)) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
             return var2;
- 70:
+case 5:
             return var1;
         }
     };
@@ -106,7 +106,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = var7.bind(var8)(var6);
     var6 = function toChoiceBooleanValue(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var4 = arg1;
             var1 = var4.toLowerCase;
             var3 = var1.bind(var4)();
@@ -119,13 +119,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = _closure1_slot1;
             var2 = var4.toLowerCase;
             var2 = var2.bind(var4)();
-            if(var1) { _fun0003_ip = 69; continue _fun0003 }
- 61:
-            if(!(var3 !== var2)) { _fun0003_ip = 69; continue _fun0003 }
- 65:
+            if(var1) { _fun0003_ip = 7; continue _fun0003 }
+case 8:
+            if(!(var3 !== var2)) { _fun0003_ip = 7; continue _fun0003 }
+case 9:
             var2 = undefined;
             return var2;
- 69:
+case 7:
             return var1;
         }
     };

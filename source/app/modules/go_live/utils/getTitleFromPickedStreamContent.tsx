@@ -22,23 +22,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function getTitleFromPickedStreamContent(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var1 = var3.windows;
             var1 = var1.length;
             var9 = 0;
-            if(!(!(var1 > var9))) { _fun0001_ip = 162; continue _fun0001 }
- 25:
+            if(!(!(var1 > var9))) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var3.applications;
             var1 = var1.length;
-            if(!(!(var1 > var9))) { _fun0001_ip = 123; continue _fun0001 }
- 40:
+            if(!(!(var1 > var9))) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = var3.displays;
             var1 = var1.length;
             var4 = var1 > var9;
             var1 = null;
-            if(!var4) { _fun0001_ip = 121; continue _fun0001 }
- 62:
+            if(!var4) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var8 = _closure1_slot0;
             var4 = _closure1_slot1;
             var5 = var4[var9];
@@ -51,9 +51,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.t;
             var4 = var4.R4wpLC;
             var1 = var5.bind(var6)(var4);
- 121:
-            _fun0001_ip = 160; continue _fun0001;
- 123:
+case 6:
+            _fun0001_ip = 8; continue _fun0001;
+case 4:
             var6 = var3.applications;
             var5 = var6.map;
             var4 = function(arg1) {
@@ -65,9 +65,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var6.join;
             var4 = ', ';
             var1 = var5.bind(var6)(var4);
- 160:
-            _fun0001_ip = 199; continue _fun0001;
- 162:
+case 8:
+            _fun0001_ip = 9; continue _fun0001;
+case 2:
             var4 = var3.windows;
             var3 = var4.map;
             var2 = function(arg1) {
@@ -79,7 +79,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.join;
             var2 = ', ';
             var1 = var3.bind(var4)(var2);
- 199:
+case 9:
             return var1;
         }
     };

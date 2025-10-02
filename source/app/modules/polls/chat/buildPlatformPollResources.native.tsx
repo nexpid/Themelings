@@ -50,16 +50,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.pickBy;
             var1 = function(arg1) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     var1 = arg1;
                     var3 = typeof var1;
                     var1 = 'number';
                     var1 = var1 !== var3;
-                    if(!var1) { _fun0001_ip = 25; continue _fun0001 }
- 17:
+                    if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var2 = 'boolean';
                     var1 = var2 !== var3;
- 25:
+case 2:
                     return var1;
                 }
             };
@@ -84,16 +84,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4.pickBy;
             var1 = function(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var1 = arg1;
                     var3 = typeof var1;
                     var1 = 'number';
                     var1 = var1 === var3;
-                    if(var1) { _fun0002_ip = 25; continue _fun0002 }
- 17:
+                    if(var1) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var2 = 'boolean';
                     var1 = var2 === var3;
- 25:
+case 2:
                     return var1;
                 }
             };

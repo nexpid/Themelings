@@ -44,7 +44,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function getChannelIdForGuildTransition(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var7 = arg1;
             var2 = _closure1_slot5;
             var1 = var2.getChannelId;
@@ -56,25 +56,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var3 == var5;
             var8 = undefined;
             var2 = undefined;
-            if(var6) { _fun0001_ip = 54; continue _fun0001 }
- 49:
+            if(var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var5.id;
- 54:
+case 2:
             var5 = _closure1_slot6;
             var5 = var5.GUILD_ONBOARDING;
-            if(!(var1 === var5)) { _fun0001_ip = 88; continue _fun0001 }
- 68:
+            if(!(var1 === var5)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var6 = _closure1_slot2;
             var5 = var6.shouldShowOnboarding;
             var5 = var5.bind(var6)(var7);
-            if(var5) { _fun0001_ip = 88; continue _fun0001 }
- 86:
+            if(var5) { _fun0001_ip = 4; continue _fun0001 }
+case 6:
             return var2;
- 88:
+case 4:
             var5 = _closure1_slot6;
             var5 = var5.GUILD_HOME;
-            if(!(var1 === var5)) { _fun0001_ip = 138; continue _fun0001 }
- 102:
+            if(!(var1 === var5)) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var6 = _closure1_slot0;
             var9 = _closure1_slot1;
             var5 = 5;
@@ -82,21 +82,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.bind(var8)(var5);
             var5 = var6.canSeeOnboardingHome;
             var5 = var5.bind(var6)(var7);
-            if(var5) { _fun0001_ip = 138; continue _fun0001 }
- 136:
+            if(var5) { _fun0001_ip = 7; continue _fun0001 }
+case 9:
             return var2;
- 138:
+case 7:
             var5 = _closure1_slot3;
             var4 = var5.getChannel;
             var4 = var4.bind(var5)(var1);
-            if(!(var3 != var4)) { _fun0001_ip = 169; continue _fun0001 }
- 156:
+            if(!(var3 != var4)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var3 = var4.isGuildVocal;
             var3 = var3.bind(var4)();
-            if(!var3) { _fun0001_ip = 172; continue _fun0001 }
- 169:
+            if(!var3) { _fun0001_ip = 12; continue _fun0001 }
+case 10:
             var1 = var2;
- 172:
+case 12:
             return var1;
         }
     };

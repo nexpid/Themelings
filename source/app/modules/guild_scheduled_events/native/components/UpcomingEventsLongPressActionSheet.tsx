@@ -64,7 +64,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function UpcomingEventsLongPressActionSheet(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var1 = var1.guildId;
             var _closure2_slot0 = var1;
@@ -210,15 +210,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var16.bind(var4)(var10);
             var10 = {};
             var19 = _closure1_slot2;
-            if(var13) { _fun0001_ip = 518; continue _fun0001 }
- 509:
+            if(var13) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var12 = 18;
             var12 = var19[var12];
-            _fun0001_ip = 525; continue _fun0001;
- 518:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var17 = 17;
             var12 = var19[var17];
- 525:
+case 4:
             var12 = var16.bind(var4)(var12);
             var10['source'] = var12;
             var10 = var8.bind(var4)(var11, var10);
@@ -239,15 +239,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var14[var18];
             var14 = var17.bind(var4)(var14);
             var14 = var14.t;
-            if(var13) { _fun0001_ip = 631; continue _fun0001 }
- 618:
+            if(var13) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var13 = var14.ONG3Y2;
             var13 = var15.bind(var16)(var13);
-            _fun0001_ip = 644; continue _fun0001;
- 631:
+            _fun0001_ip = 7; continue _fun0001;
+case 5:
             var14 = var14.COiLo6;
             var13 = var15.bind(var16)(var14);
- 644:
+case 7:
             var10['text'] = var13;
             var10 = var12.bind(var4)(var11, var10);
             var6['label'] = var10;

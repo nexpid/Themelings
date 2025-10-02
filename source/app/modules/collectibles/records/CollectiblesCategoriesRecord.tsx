@@ -33,7 +33,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function() {
         var5 = function CollectiblesCategoriesRecord(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var2 = arg1;
                 var3 = this;
                 var6 = _closure1_slot0;
@@ -55,8 +55,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = null;
                 var5 = var2 == var6;
                 var2 = undefined;
-                if(var5) { _fun0001_ip = 89; continue _fun0001 }
- 74:
+                if(var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var5 = var6.map;
                 var4 = function(arg1) {
                     var3 = _closure1_slot3;
@@ -66,7 +66,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var2 = var5.bind(var6)(var4);
- 89:
+case 2:
                 var3['userDiscounts'] = var2;
                 return var1;
             }

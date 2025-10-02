@@ -7,7 +7,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var7;
     var4 = function mapColorToHighlightColor(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var5 = _closure1_slot0;
             var2 = _closure1_slot1;
@@ -18,8 +18,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var7.unsafe_getRawColor;
             var2 = 'PRIMARY_400';
             var2 = var5.bind(var7)(var2);
-            if(!(var2 !== var4)) { _fun0001_ip = 370; continue _fun0001 }
- 50:
+            if(!(var2 !== var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = _closure1_slot0;
             var2 = _closure1_slot1;
             var2 = var2[var6];
@@ -27,8 +27,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var7.unsafe_getRawColor;
             var2 = 'GREEN_360';
             var2 = var5.bind(var7)(var2);
-            if(!(var2 !== var4)) { _fun0001_ip = 336; continue _fun0001 }
- 89:
+            if(!(var2 !== var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = _closure1_slot0;
             var2 = _closure1_slot1;
             var2 = var2[var6];
@@ -36,8 +36,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var7.unsafe_getRawColor;
             var2 = 'YELLOW_360';
             var2 = var5.bind(var7)(var2);
-            if(!(var2 !== var4)) { _fun0001_ip = 302; continue _fun0001 }
- 128:
+            if(!(var2 !== var4)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var5 = _closure1_slot0;
             var2 = _closure1_slot1;
             var2 = var2[var6];
@@ -45,8 +45,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var7.unsafe_getRawColor;
             var2 = 'ORANGE_345';
             var2 = var5.bind(var7)(var2);
-            if(!(var2 !== var4)) { _fun0001_ip = 268; continue _fun0001 }
- 164:
+            if(!(var2 !== var4)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var5 = _closure1_slot0;
             var2 = _closure1_slot1;
             var2 = var2[var6];
@@ -54,8 +54,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var6.unsafe_getRawColor;
             var2 = 'RED_400';
             var2 = var5.bind(var6)(var2);
-            if(!(var2 !== var4)) { _fun0001_ip = 234; continue _fun0001 }
- 200:
+            if(!(var2 !== var4)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var4 = _closure1_slot0;
             var5 = _closure1_slot1;
             var2 = 3;
@@ -64,7 +64,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.HighlightColors;
             var2 = var2.NONE;
             return var2;
- 234:
+case 10:
             var4 = _closure1_slot0;
             var5 = _closure1_slot1;
             var2 = 3;
@@ -73,7 +73,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.HighlightColors;
             var2 = var2.RED;
             return var2;
- 268:
+case 8:
             var4 = _closure1_slot0;
             var5 = _closure1_slot1;
             var2 = 3;
@@ -82,7 +82,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.HighlightColors;
             var2 = var2.ORANGE;
             return var2;
- 302:
+case 6:
             var4 = _closure1_slot0;
             var5 = _closure1_slot1;
             var2 = 3;
@@ -91,7 +91,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.HighlightColors;
             var2 = var2.YELLOW;
             return var2;
- 336:
+case 4:
             var4 = _closure1_slot0;
             var5 = _closure1_slot1;
             var2 = 3;
@@ -100,7 +100,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.HighlightColors;
             var2 = var2.GREEN;
             return var2;
- 370:
+case 2:
             var2 = _closure1_slot0;
             var4 = _closure1_slot1;
             var1 = 3;
@@ -169,18 +169,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['mapOptionToHighlightedRowOptions'] = var4;
     var4 = function generateVerificationLevelOptions() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var3 = arguments[0];
             var5 = arguments[1];
             var6 = undefined;
-            if(!(var3 === var6)) { _fun0002_ip = 14; continue _fun0002 }
- 12:
+            if(!(var3 === var6)) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
             var3 = false;
- 14:
-            if(!(var5 === var6)) { _fun0002_ip = 20; continue _fun0002 }
- 18:
+case 12:
+            if(!(var5 === var6)) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
             var5 = false;
- 20:
+case 14:
             var2 = {};
             var9 = _closure1_slot0;
             var1 = _closure1_slot1;
@@ -210,8 +210,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['value'] = var1;
             var2['disabled'] = var3;
             var1 = null;
-            if(!var3) { _fun0002_ip = 212; continue _fun0002 }
- 160:
+            if(!var3) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
             var9 = _closure1_slot0;
             var3 = _closure1_slot1;
             var7 = var3[var10];
@@ -223,7 +223,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.t;
             var3 = var3.j9WtHx;
             var1 = var7.bind(var8)(var3);
- 212:
+case 16:
             var2['tooltipText'] = var1;
             var1 = new Array(5);
             var1[0] = var2;
@@ -254,8 +254,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.LOW;
             var2['value'] = var3;
             var3 = undefined;
-            if(var5) { _fun0002_ip = 390; continue _fun0002 }
- 355:
+            if(var5) { _fun0002_ip = 18; continue _fun0002 }
+case 19:
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
             var7 = 2;
@@ -264,7 +264,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var9.unsafe_getRawColor;
             var7 = 'GREEN_360';
             var3 = var8.bind(var9)(var7);
- 390:
+case 18:
             var2['color'] = var3;
             var1[1] = var2;
             var2 = {};
@@ -298,8 +298,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.MEDIUM;
             var2['value'] = var3;
             var3 = undefined;
-            if(var5) { _fun0002_ip = 580; continue _fun0002 }
- 545:
+            if(var5) { _fun0002_ip = 20; continue _fun0002 }
+case 21:
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
             var7 = 2;
@@ -308,7 +308,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var9.unsafe_getRawColor;
             var7 = 'YELLOW_360';
             var3 = var8.bind(var9)(var7);
- 580:
+case 20:
             var2['color'] = var3;
             var1[2] = var2;
             var2 = {};
@@ -342,8 +342,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.HIGH;
             var2['value'] = var3;
             var3 = undefined;
-            if(var5) { _fun0002_ip = 770; continue _fun0002 }
- 735:
+            if(var5) { _fun0002_ip = 22; continue _fun0002 }
+case 23:
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
             var7 = 2;
@@ -352,7 +352,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var9.unsafe_getRawColor;
             var7 = 'ORANGE_345';
             var3 = var8.bind(var9)(var7);
- 770:
+case 22:
             var2['color'] = var3;
             var1[3] = var2;
             var2 = {};
@@ -382,8 +382,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.VERY_HIGH;
             var2['value'] = var3;
             var3 = undefined;
-            if(var5) { _fun0002_ip = 943; continue _fun0002 }
- 908:
+            if(var5) { _fun0002_ip = 24; continue _fun0002 }
+case 25:
             var5 = _closure1_slot0;
             var7 = _closure1_slot1;
             var4 = 2;
@@ -392,7 +392,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var6.unsafe_getRawColor;
             var4 = 'RED_400';
             var3 = var5.bind(var6)(var4);
- 943:
+case 24:
             var2['color'] = var3;
             var1[4] = var2;
             return var1;
@@ -401,13 +401,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['generateVerificationLevelOptions'] = var4;
     var4 = function generateContentFilterHighlightedOptions() {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var7 = arguments[0];
             var5 = undefined;
-            if(!(var7 === var5)) { _fun0003_ip = 11; continue _fun0003 }
- 9:
+            if(!(var7 === var5)) { _fun0003_ip = 26; continue _fun0003 }
+case 27:
             var7 = false;
- 11:
+case 26:
             var2 = {};
             var12 = _closure1_slot0;
             var8 = _closure1_slot1;
@@ -469,8 +469,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['value'] = var4;
             var2['disabled'] = var7;
             var8 = null;
-            if(!var7) { _fun0003_ip = 347; continue _fun0003 }
- 295:
+            if(!var7) { _fun0003_ip = 28; continue _fun0003 }
+case 29:
             var13 = _closure1_slot0;
             var9 = _closure1_slot1;
             var10 = var9[var11];
@@ -482,7 +482,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var9.t;
             var9 = var9.j9WtHx;
             var8 = var10.bind(var12)(var9);
- 347:
+case 28:
             var2['tooltipText'] = var8;
             var12 = _closure1_slot0;
             var8 = _closure1_slot1;
@@ -519,8 +519,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['value'] = var8;
             var2['disabled'] = var7;
             var4 = null;
-            if(!var7) { _fun0003_ip = 566; continue _fun0003 }
- 514:
+            if(!var7) { _fun0003_ip = 30; continue _fun0003 }
+case 31:
             var10 = _closure1_slot0;
             var7 = _closure1_slot1;
             var8 = var7[var11];
@@ -532,7 +532,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7.t;
             var7 = var7.j9WtHx;
             var4 = var8.bind(var9)(var7);
- 566:
+case 30:
             var2['tooltipText'] = var4;
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
@@ -549,13 +549,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['generateContentFilterHighlightedOptions'] = var4;
     var4 = function generateContentFilterOptions() {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var5 = arguments[0];
             var8 = undefined;
-            if(!(var5 === var8)) { _fun0004_ip = 11; continue _fun0004 }
- 9:
+            if(!(var5 === var8)) { _fun0004_ip = 26; continue _fun0004 }
+case 27:
             var5 = false;
- 11:
+case 26:
             var2 = {};
             var11 = _closure1_slot0;
             var6 = _closure1_slot1;
@@ -610,8 +610,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['value'] = var3;
             var2['disabled'] = var5;
             var6 = null;
-            if(!var5) { _fun0004_ip = 316; continue _fun0004 }
- 264:
+            if(!var5) { _fun0004_ip = 32; continue _fun0004 }
+case 33:
             var12 = _closure1_slot0;
             var7 = _closure1_slot1;
             var10 = var7[var9];
@@ -623,7 +623,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7.t;
             var7 = var7.j9WtHx;
             var6 = var10.bind(var11)(var7);
- 316:
+case 32:
             var2['tooltipText'] = var6;
             var1[1] = var2;
             var2 = {};
@@ -654,8 +654,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['value'] = var6;
             var2['disabled'] = var5;
             var3 = null;
-            if(!var5) { _fun0004_ip = 507; continue _fun0004 }
- 455:
+            if(!var5) { _fun0004_ip = 34; continue _fun0004 }
+case 35:
             var7 = _closure1_slot0;
             var4 = _closure1_slot1;
             var5 = var4[var9];
@@ -667,7 +667,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.t;
             var4 = var4.j9WtHx;
             var3 = var5.bind(var6)(var4);
- 507:
+case 34:
             var2['tooltipText'] = var3;
             var1[2] = var2;
             return var1;

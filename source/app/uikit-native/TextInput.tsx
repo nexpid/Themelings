@@ -63,7 +63,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.forwardRef;
     var2 = function(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var9 = var3.style;
             var1 = null;
@@ -95,13 +95,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var8[var1];
             var1 = var3.bind(var4)(var1);
             var1 = var1.unsafe_rawColors;
-            if(var2) { _fun0001_ip = 136; continue _fun0001 }
- 128:
+            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var10 = var1.PRIMARY_500;
-            _fun0001_ip = 142; continue _fun0001;
- 136:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var10 = var1.PRIMARY_100;
- 142:
+case 4:
             var3 = _closure1_slot5;
             var2 = _closure1_slot3;
             var1 = {};
@@ -119,13 +119,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var9.isThemeDark;
             var8 = var8.bind(var9)(var11);
             var9 = _closure1_slot4;
-            if(var8) { _fun0001_ip = 224; continue _fun0001 }
- 216:
+            if(var8) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var8 = var9.LIGHT;
-            _fun0001_ip = 230; continue _fun0001;
- 224:
+            _fun0001_ip = 7; continue _fun0001;
+case 5:
             var8 = var9.DARK;
- 230:
+case 7:
             var1['keyboardAppearance'] = var8;
             var6 = var6.placeholderTextColor;
             var6 = var6.color;
@@ -138,8 +138,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var8.isAndroid;
             var8 = var6.bind(var8)();
             var6 = var10;
-            if(!var8) { _fun0001_ip = 328; continue _fun0001 }
- 286:
+            if(!var8) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
             var7 = 8;
@@ -148,7 +148,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var9.hexWithOpacity;
             var7 = 0.5;
             var6 = var8.bind(var9)(var10, var7);
- 328:
+case 8:
             var1['selectionColor'] = var6;
             var16 = var1;
             var15 = var5;

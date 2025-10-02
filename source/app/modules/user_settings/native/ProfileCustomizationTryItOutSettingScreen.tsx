@@ -78,7 +78,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function ProfileCustomizationTryItOutSettingScreen() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = _closure1_slot11;
             var6 = undefined;
             var8 = var2.bind(var6)();
@@ -136,11 +136,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16[0] = var13;
             var11 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = _closure2_slot1;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0002_ip = 78; continue _fun0002 }
- 13:
+                    if(!(var2 != var3)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var3 = _closure1_slot1;
                     var4 = _closure1_slot2;
                     var2 = 13;
@@ -156,7 +156,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = true;
                     var1['dispatchWait'] = var6;
                     var1 = var4.bind(var5)(var3, var2, var1);
- 78:
+case 2:
                     var1 = undefined;
                     return var1;
                 }
@@ -169,11 +169,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11[2] = var3;
             var10 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var3 = _closure2_slot3;
                     var1 = undefined;
-                    if(!(var1 === var3)) { _fun0003_ip = 108; continue _fun0003 }
- 13:
+                    if(!(var1 === var3)) { _fun0003_ip = 4; continue _fun0003 }
+case 3:
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot2;
                     var3 = 14;
@@ -194,7 +194,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var5.bind(var6)(var2);
                     var2 = var4[var2];
                     var2 = var3.bind(var1)(var2);
- 108:
+case 4:
                     return var1;
                 }
             };
@@ -229,16 +229,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var11.bind(var14)(var1, var10);
             var1 = null;
             var10 = var1 == var13;
-            if(var10) { _fun0001_ip = 488; continue _fun0001 }
- 309:
-            if(var9) { _fun0001_ip = 431; continue _fun0001 }
- 312:
-            if(!(var6 === var4)) { _fun0001_ip = 327; continue _fun0001 }
- 316:
+            if(var10) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
+            if(var9) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
+            if(!(var6 === var4)) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var4 = var3.size;
             var3 = 0;
-            if(!(!(var4 > var3))) { _fun0001_ip = 431; continue _fun0001 }
- 327:
+            if(!(!(var4 > var3))) { _fun0001_ip = 7; continue _fun0001 }
+case 9:
             var4 = _closure1_slot10;
             var3 = _closure1_slot0;
             var14 = _closure1_slot2;
@@ -263,8 +263,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var4.bind(var6)(var9, var5);
             var2['children'] = var5;
             var2 = var4.bind(var6)(var3, var2);
-            _fun0001_ip = 485; continue _fun0001;
- 431:
+            _fun0001_ip = 11; continue _fun0001;
+case 7:
             var5 = _closure1_slot10;
             var4 = _closure1_slot4;
             var3 = {};
@@ -275,9 +275,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var5.bind(var6)(var8, var7);
             var3['children'] = var7;
             var2 = var5.bind(var6)(var4, var3);
- 485:
+case 11:
             var1 = var2;
- 488:
+case 5:
             return var1;
         }
     };

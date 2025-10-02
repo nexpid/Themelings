@@ -44,23 +44,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function getSMSBackupDisabledMessage(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = var1.hasAnyStaffLevel;
             var2 = var2.bind(var1)();
-            if(var2) { _fun0001_ip = 119; continue _fun0001 }
- 16:
+            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = var1.hasFlag;
             var3 = _closure1_slot6;
             var3 = var3.PARTNER;
             var3 = var4.bind(var1)(var3);
-            if(var3) { _fun0001_ip = 119; continue _fun0001 }
- 43:
+            if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var3 = var1.email;
             var1 = null;
             var3 = var1 == var3;
-            if(!var3) { _fun0001_ip = 117; continue _fun0001 }
- 58:
+            if(!var3) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var2 = 4;
@@ -74,9 +74,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.t;
             var2 = var2.LfCBZG;
             var1 = var3.bind(var4)(var2);
- 117:
-            _fun0001_ip = 181; continue _fun0001;
- 119:
+case 5:
+            _fun0001_ip = 7; continue _fun0001;
+case 2:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var2 = 4;
@@ -90,7 +90,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.t;
             var2 = var2.Sq6Q1t;
             var1 = var3.bind(var4)(var2);
- 181:
+case 7:
             return var1;
         }
     };
@@ -112,45 +112,45 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[2] = var1;
         var1 = function() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var3 = _closure1_slot4;
                 var1 = var3.getCurrentUser;
                 var4 = var1.bind(var3)();
                 var1 = null;
-                if(!(var1 != var4)) { _fun0002_ip = 35; continue _fun0002 }
- 22:
+                if(!(var1 != var4)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                 var3 = var4.hasAnyStaffLevel;
                 var3 = var3.bind(var4)();
-                if(var3) { _fun0002_ip = 135; continue _fun0002 }
- 35:
+                if(var3) { _fun0002_ip = 10; continue _fun0002 }
+case 8:
                 var4 = _closure1_slot2;
                 var3 = var4.getGuildsArray;
                 var5 = var3.bind(var4)();
                 var4 = var5.some;
                 var3 = function(arg1) {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                         var5 = arg1;
                         var4 = var5.features;
                         var3 = var4.has;
                         var1 = _closure1_slot5;
                         var1 = var1.ROLE_SUBSCRIPTIONS_AVAILABLE_FOR_PURCHASE;
                         var1 = var3.bind(var4)(var1);
-                        if(!var1) { _fun0003_ip = 61; continue _fun0003 }
- 35:
+                        if(!var1) { _fun0003_ip = 11; continue _fun0003 }
+case 8:
                         var4 = _closure1_slot3;
                         var3 = var4.can;
                         var2 = _closure1_slot7;
                         var2 = var2.ADMINISTRATOR;
                         var1 = var3.bind(var4)(var2, var5);
- 61:
+case 11:
                         return var1;
                     }
                 };
                 var3 = var4.bind(var5)(var3);
                 var1 = null;
-                if(!var3) { _fun0002_ip = 133; continue _fun0002 }
- 74:
+                if(!var3) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
                 var7 = _closure1_slot0;
                 var8 = _closure1_slot1;
                 var3 = 4;
@@ -164,9 +164,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var3.t;
                 var3 = var3.HC8uSU;
                 var1 = var4.bind(var5)(var3);
- 133:
-                _fun0002_ip = 194; continue _fun0002;
- 135:
+case 12:
+                _fun0002_ip = 14; continue _fun0002;
+case 10:
                 var6 = _closure1_slot0;
                 var7 = _closure1_slot1;
                 var2 = 4;
@@ -180,7 +180,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var2.t;
                 var2 = var2.3iKih4;
                 var1 = var3.bind(var4)(var2);
- 194:
+case 14:
                 return var1;
             }
         };

@@ -62,7 +62,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function AppealIngestionConfirmSubmission(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var10 = var1.isDsaEligible;
             var1 = _closure1_slot8;
@@ -89,10 +89,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var3.bind(var4)(var1);
             var3 = var5.useSafetyHubClassification;
             var1 = null;
-            if(!(var1 == var2)) { _fun0001_ip = 102; continue _fun0001 }
- 98:
+            if(!(var1 == var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = _closure1_slot5;
- 102:
+case 2:
             var12 = var3.bind(var5)(var2);
             var5 = _closure1_slot0;
             var3 = _closure1_slot2;
@@ -124,14 +124,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var12.classification;
             var3 = var1 == var2;
             var15 = undefined;
-            if(var3) { _fun0001_ip = 210; continue _fun0001 }
- 204:
+            if(var3) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var15 = var2.flagged_content;
- 210:
-            if(!(var1 == var15)) { _fun0001_ip = 218; continue _fun0001 }
- 214:
+case 4:
+            if(!(var1 == var15)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var15 = new Array(0);
- 218:
+case 6:
             var19 = _closure1_slot0;
             var22 = _closure1_slot2;
             var21 = 8;
@@ -199,8 +199,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var13.bind(var4)(var11, var8);
             var8 = new Array(4);
             var8[0] = var11;
-            if(!var10) { _fun0001_ip = 689; continue _fun0001 }
- 498:
+            if(!var10) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var14 = _closure1_slot6;
             var13 = _closure1_slot0;
             var19 = _closure1_slot2;
@@ -271,8 +271,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11['onPress'] = var17;
             var17 = var16.length;
             var16 = 0;
-            if(!(!(var17 > var16))) { _fun0001_ip = 627; continue _fun0001 }
- 573:
+            if(!(!(var17 > var16))) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var19 = _closure1_slot0;
             var16 = _closure1_slot2;
             var17 = var16[var21];
@@ -284,8 +284,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = var16.t;
             var16 = var16.uoQFIi;
             var16 = var17.bind(var18)(var16);
-            _fun0001_ip = 679; continue _fun0001;
- 627:
+            _fun0001_ip = 12; continue _fun0001;
+case 10:
             var20 = _closure1_slot0;
             var17 = _closure1_slot2;
             var18 = var17[var21];
@@ -297,16 +297,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17 = var17.t;
             var17 = var17.tnE3bW;
             var16 = var18.bind(var19)(var17);
- 679:
+case 12:
             var11['children'] = var16;
             var10 = var14.bind(var4)(var13, var11);
- 689:
+case 8:
             var8[1] = var10;
             var11 = var15.length;
             var10 = 0;
             var10 = var11 > var10;
-            if(!var10) { _fun0001_ip = 744; continue _fun0001 }
- 707:
+            if(!var10) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var14 = _closure1_slot6;
             var13 = _closure1_slot1;
             var16 = _closure1_slot2;
@@ -316,7 +316,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = {};
             var11['flaggedContent'] = var15;
             var10 = var14.bind(var4)(var13, var11);
- 744:
+case 13:
             var8[2] = var10;
             var11 = _closure1_slot6;
             var10 = _closure1_slot1;

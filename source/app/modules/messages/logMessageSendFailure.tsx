@@ -10,16 +10,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var3.map;
         var1 = function(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var2 = var1.mimeType;
                 var1 = null;
                 var3 = var1 != var2;
                 var1 = 'unknown';
-                if(!var3) { _fun0001_ip = 25; continue _fun0001 }
- 22:
+                if(!var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var1 = var2;
- 25:
+case 2:
                 return var1;
             }
         };
@@ -49,35 +49,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var7)(var5);
     var4 = function logMessageSendFailure(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = var2.fileItems;
             var3 = null;
-            if(!(var3 == var1)) { _fun0002_ip = 21; continue _fun0002 }
- 15:
+            if(!(var3 == var1)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var6 = new Array(0);
-            _fun0002_ip = 41; continue _fun0002;
- 21:
+            _fun0002_ip = 6; continue _fun0002;
+case 4:
             var5 = _closure1_slot3;
             var4 = var2.fileItems;
             var1 = undefined;
             var6 = var5.bind(var1)(var4);
- 41:
+case 6:
             var4 = var2.errorMessage;
             var5 = var3 != var4;
             var1 = undefined;
             var7 = undefined;
-            if(!var5) { _fun0002_ip = 61; continue _fun0002 }
- 58:
+            if(!var5) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
             var7 = var4;
- 61:
+case 7:
             var2 = var2.failureCode;
             var3 = var3 != var2;
             var8 = undefined;
-            if(!var3) { _fun0002_ip = 79; continue _fun0002 }
- 76:
+            if(!var3) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
             var8 = var2;
- 79:
+case 9:
             var4 = _closure1_slot0;
             var5 = _closure1_slot1;
             var3 = 1;

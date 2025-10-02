@@ -100,16 +100,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['EmojiStudioV2SpeedrunExperiment'] = var4;
     var2 = function useEmojiStudioExperiment(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = var2.location;
             var11 = var2.autoTrackExposure;
             var10 = var2.disable;
             var5 = undefined;
-            if(!(var10 === var5)) { _fun0001_ip = 28; continue _fun0001 }
- 26:
+            if(!(var10 === var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var10 = false;
- 28:
+case 2:
             var4 = _closure1_slot0;
             var6 = _closure1_slot1;
             var3 = 1;
@@ -124,10 +124,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = {};
             var3['autoTrackExposure'] = var11;
             var7 = var9;
-            if(var9) { _fun0001_ip = 94; continue _fun0001 }
- 91:
+            if(var9) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var7 = var10;
- 94:
+case 4:
             var3['disable'] = var7;
             var3 = var5.bind(var6)(var4, var3);
             var7 = var3.enabled;
@@ -139,10 +139,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = {};
             var3['autoTrackExposure'] = var11;
             var12 = var9;
-            if(var9) { _fun0001_ip = 148; continue _fun0001 }
- 145:
+            if(var9) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var12 = var10;
- 148:
+case 6:
             var3['disable'] = var12;
             var3 = var6.bind(var8)(var4, var3);
             var6 = var3.enabled;
@@ -153,10 +153,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = {};
             var3['autoTrackExposure'] = var11;
             var13 = var9;
-            if(var9) { _fun0001_ip = 196; continue _fun0001 }
- 193:
+            if(var9) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var13 = var10;
- 196:
+case 8:
             var3['disable'] = var13;
             var3 = var8.bind(var12)(var4, var3);
             var4 = var3.enabled;
@@ -166,10 +166,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['location'] = var1;
             var1 = {};
             var1['autoTrackExposure'] = var11;
-            if(var9) { _fun0001_ip = 241; continue _fun0001 }
- 238:
+            if(var9) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var9 = var10;
- 241:
+case 10:
             var1['disable'] = var9;
             var1 = var3.bind(var8)(var2, var1);
             var3 = var1.isEmojiEditingExperimentEnabled;
@@ -178,27 +178,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['enabled'] = var7;
             var1['isMobileEnabled'] = var6;
             var6 = var5;
-            if(var5) { _fun0001_ip = 284; continue _fun0001 }
- 281:
+            if(var5) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var6 = var4;
- 284:
-            if(var6) { _fun0001_ip = 290; continue _fun0001 }
- 287:
+case 12:
+            if(var6) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var6 = var3;
- 290:
-            if(var6) { _fun0001_ip = 296; continue _fun0001 }
- 293:
+case 14:
+            if(var6) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var6 = var2;
- 296:
+case 16:
             var1['isEntrypointEnabled'] = var6;
-            if(var5) { _fun0001_ip = 309; continue _fun0001 }
- 306:
+            if(var5) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
             var5 = var3;
- 309:
-            if(var5) { _fun0001_ip = 315; continue _fun0001 }
- 312:
+case 18:
+            if(var5) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
             var5 = var2;
- 315:
+case 20:
             var1['isEntrypointEnabledInDMs'] = var5;
             var1['isEntrypointOnlyExperimentEnabled'] = var4;
             var1['isEmojiEditingExperimentEnabled'] = var3;

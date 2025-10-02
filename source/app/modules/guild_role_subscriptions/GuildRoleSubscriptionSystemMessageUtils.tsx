@@ -14,7 +14,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot10 = var1;
     var1 = function getRoleSubscriptionPurchaseContentCommonData(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg2;
             var3 = _closure1_slot3;
             var2 = var3.getGuild;
@@ -23,17 +23,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = null;
             var5 = var2 == var4;
             var1 = undefined;
-            if(var5) { _fun0001_ip = 40; continue _fun0001 }
- 34:
+            if(var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var4.total_months_subscribed;
- 40:
+case 2:
             var8 = var2 != var1;
             var6 = 0;
             var5 = 0;
-            if(!var8) { _fun0001_ip = 54; continue _fun0001 }
- 51:
+            if(!var8) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = var1;
- 54:
+case 4:
             var1 = {};
             var1['guild'] = var7;
             var1['totalMonthsSubscribed'] = var5;
@@ -41,15 +41,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['showWithDuration'] = var5;
             var5 = var2 == var4;
             var3 = undefined;
-            if(var5) { _fun0001_ip = 91; continue _fun0001 }
- 83:
+            if(var5) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var3 = var4.is_renewal;
- 91:
+case 6:
             var2 = var2 != var3;
-            if(!var2) { _fun0001_ip = 101; continue _fun0001 }
- 98:
+            if(!var2) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var2 = var3;
- 101:
+case 8:
             var1['isRenewal'] = var2;
             return var1;
         }
@@ -57,20 +57,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot11 = var1;
     var1 = function getRoleSubscriptionPurchaseSystemMessageContent(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var8 = var1.username;
             var6 = var1.usernameOnClickHandler;
             var4 = undefined;
-            if(!(var6 === var4)) { _fun0002_ip = 27; continue _fun0002 }
- 20:
+            if(!(var6 === var4)) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
             var6 = _closure1_slot10;
- 27:
+case 10:
             var7 = var1.roleSubscriptionOnClickHandler;
-            if(!(var7 === var4)) { _fun0002_ip = 44; continue _fun0002 }
- 37:
+            if(!(var7 === var4)) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
             var7 = _closure1_slot9;
- 44:
+case 12:
             var2 = var1.guildId;
             var5 = var1.roleSubscriptionData;
             var1 = _closure1_slot11;
@@ -86,26 +86,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var13[var11];
             var11 = var12.bind(var4)(var11);
             var11 = var11.t;
-            if(var2) { _fun0002_ip = 144; continue _fun0002 }
- 121:
-            if(var10) { _fun0002_ip = 134; continue _fun0002 }
- 124:
+            if(var2) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
+            if(var10) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
             var2 = var11.mYjFFx;
-            _fun0002_ip = 142; continue _fun0002;
- 134:
+            _fun0002_ip = 18; continue _fun0002;
+case 16:
             var2 = var11.mPTTdn;
- 142:
-            _fun0002_ip = 168; continue _fun0002;
- 144:
-            if(var10) { _fun0002_ip = 157; continue _fun0002 }
- 147:
+case 18:
+            _fun0002_ip = 19; continue _fun0002;
+case 14:
+            if(var10) { _fun0002_ip = 20; continue _fun0002 }
+case 21:
             var10 = var11.eCgb2d;
-            _fun0002_ip = 165; continue _fun0002;
- 157:
+            _fun0002_ip = 22; continue _fun0002;
+case 20:
             var10 = var11.Iy66Mz;
- 165:
+case 22:
             var2 = var10;
- 168:
+case 19:
             var1['content'] = var2;
             var2 = {};
             var2['username'] = var8;
@@ -113,18 +113,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = null;
             var10 = var6 == var9;
             var8 = undefined;
-            if(var10) { _fun0002_ip = 199; continue _fun0002 }
- 194:
+            if(var10) { _fun0002_ip = 23; continue _fun0002 }
+case 24:
             var8 = var9.name;
- 199:
+case 23:
             var2['guildName'] = var8;
             var2['handleGuildNameClick'] = var7;
             var6 = var6 == var5;
             var4 = undefined;
-            if(var6) { _fun0002_ip = 226; continue _fun0002 }
- 220:
+            if(var6) { _fun0002_ip = 25; continue _fun0002 }
+case 26:
             var4 = var5.tier_name;
- 226:
+case 25:
             var2['tierName'] = var4;
             var2['months'] = var3;
             var1['formatParams'] = var2;
@@ -173,7 +173,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function pickRoleSubscriptionPurchaseSticker(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var3 = _closure1_slot4;
             var2 = var3.getCurrentUser;
             var3 = var2.bind(var3)();
@@ -181,14 +181,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var2 == var3;
             var5 = undefined;
             var6 = undefined;
-            if(var4) { _fun0003_ip = 34; continue _fun0003 }
- 29:
+            if(var4) { _fun0003_ip = 3; continue _fun0003 }
+case 27:
             var6 = var3.id;
- 34:
+case 3:
             var2 = var2 != var6;
             var3 = 0;
-            if(!var2) { _fun0003_ip = 74; continue _fun0003 }
- 43:
+            if(!var2) { _fun0003_ip = 28; continue _fun0003 }
+case 29:
             var4 = _closure1_slot1;
             var7 = _closure1_slot2;
             var2 = 4;
@@ -196,7 +196,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.bind(var5)(var2);
             var2 = var4.extractTimestamp;
             var3 = var2.bind(var4)(var6);
- 74:
+case 28:
             var4 = _closure1_slot1;
             var6 = _closure1_slot2;
             var2 = 4;
@@ -216,19 +216,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['pickRoleSubscriptionPurchaseSticker'] = var4;
     var4 = function getRoleSubscriptionPurchaseStickerCTA(arg1, arg2) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var2 = arg2;
-            if(var2) { _fun0004_ip = 21; continue _fun0004 }
- 9:
+            if(var2) { _fun0004_ip = 30; continue _fun0004 }
+case 31:
             var3 = _closure1_slot5;
             var2 = undefined;
             var2 = var3.bind(var2)();
-            _fun0004_ip = 31; continue _fun0004;
- 21:
+            _fun0004_ip = 32; continue _fun0004;
+case 30:
             var4 = _closure1_slot6;
             var3 = undefined;
             var2 = var4.bind(var3)();
- 31:
+case 32:
             var4 = _closure1_slot1;
             var3 = _closure1_slot2;
             var1 = 4;
@@ -305,20 +305,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['getRoleSubscriptionPurchaseSystemMessageAstFormattedContent'] = var4;
     var4 = function getRoleSubscriptionPurchaseSystemMessageContentMobile(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
             var1 = arg1;
             var8 = var1.username;
             var7 = var1.usernameOnClickHandler;
             var9 = undefined;
-            if(!(var7 === var9)) { _fun0005_ip = 27; continue _fun0005 }
- 20:
+            if(!(var7 === var9)) { _fun0005_ip = 10; continue _fun0005 }
+case 11:
             var7 = _closure1_slot10;
- 27:
+case 10:
             var6 = var1.roleSubscriptionOnClickHandler;
-            if(!(var6 === var9)) { _fun0005_ip = 44; continue _fun0005 }
- 37:
+            if(!(var6 === var9)) { _fun0005_ip = 12; continue _fun0005 }
+case 13:
             var6 = _closure1_slot9;
- 44:
+case 12:
             var3 = var1.guildId;
             var10 = var1.roleSubscriptionData;
             var2 = _closure1_slot11;
@@ -333,26 +333,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var11[var3];
             var11 = var12.bind(var9)(var11);
             var11 = var11.t;
-            if(var4) { _fun0005_ip = 142; continue _fun0005 }
- 119:
-            if(var2) { _fun0005_ip = 132; continue _fun0005 }
- 122:
+            if(var4) { _fun0005_ip = 18; continue _fun0005 }
+case 33:
+            if(var2) { _fun0005_ip = 34; continue _fun0005 }
+case 35:
             var4 = var11.6Z1E+/;
-            _fun0005_ip = 140; continue _fun0005;
- 132:
+            _fun0005_ip = 36; continue _fun0005;
+case 34:
             var4 = var11.OxP1ND;
- 140:
-            _fun0005_ip = 166; continue _fun0005;
- 142:
-            if(var2) { _fun0005_ip = 155; continue _fun0005 }
- 145:
+case 36:
+            _fun0005_ip = 37; continue _fun0005;
+case 18:
+            if(var2) { _fun0005_ip = 38; continue _fun0005 }
+case 39:
             var2 = var11.+N9bxs;
-            _fun0005_ip = 163; continue _fun0005;
- 155:
+            _fun0005_ip = 40; continue _fun0005;
+case 38:
             var2 = var11.OQ0OU1;
- 163:
+case 40:
             var4 = var2;
- 166:
+case 37:
             var2 = _closure1_slot0;
             var1 = _closure1_slot2;
             var1 = var1[var3];
@@ -363,17 +363,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = null;
             var14 = var11 == var13;
             var12 = undefined;
-            if(var14) { _fun0005_ip = 212; continue _fun0005 }
- 207:
+            if(var14) { _fun0005_ip = 41; continue _fun0005 }
+case 42:
             var12 = var13.name;
- 212:
+case 41:
             var1['guildName'] = var12;
             var11 = var11 == var10;
             var9 = undefined;
-            if(var11) { _fun0005_ip = 232; continue _fun0005 }
- 226:
+            if(var11) { _fun0005_ip = 43; continue _fun0005 }
+case 25:
             var9 = var10.tier_name;
- 232:
+case 43:
             var1['tierName'] = var9;
             var1['username'] = var8;
             var1['usernameOnClick'] = var7;
@@ -399,7 +399,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['isEligibleForRoleSubscriptionPurchaseSystemMessageSettings'] = var4;
     var4 = function trackRoleSubscriptionPurchaseMessageTierClick(arg1, arg2, arg3, arg4) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
- 0:
+case 0:
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
             var1 = 7;
@@ -418,10 +418,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = null;
             var8 = var6 == var7;
             var6 = undefined;
-            if(var8) { _fun0006_ip = 79; continue _fun0006 }
- 74:
+            if(var8) { _fun0006_ip = 44; continue _fun0006 }
+case 28:
             var6 = var7.id;
- 79:
+case 44:
             var2['user_id'] = var6;
             var6 = arg2;
             var2['channel_id'] = var6;
@@ -436,7 +436,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['trackRoleSubscriptionPurchaseMessageTierClick'] = var4;
     var2 = function getRoleSubscriptionPurchaseSystemMessageEventProperties(arg1, arg2) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
- 0:
+case 0:
             var3 = arg1;
             var2 = arg2;
             var1 = {};
@@ -448,10 +448,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = null;
             var6 = var4 == var5;
             var4 = undefined;
-            if(var6) { _fun0007_ip = 49; continue _fun0007 }
- 44:
+            if(var6) { _fun0007_ip = 45; continue _fun0007 }
+case 12:
             var4 = var5.id;
- 49:
+case 45:
             var1['sender'] = var4;
             var4 = var2.author;
             var4 = var4.id;

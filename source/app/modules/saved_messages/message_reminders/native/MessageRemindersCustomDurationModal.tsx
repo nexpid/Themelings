@@ -87,7 +87,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var12 = var1.onClose;
             var _closure2_slot0 = var12;
@@ -120,7 +120,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot3 = var2;
             var2 = function handleOpenDatePicker(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var7 = arg1;
                     var4 = _closure1_slot2;
                     var2 = _closure1_slot3;
@@ -131,8 +131,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var4.dismissGlobalKeyboard;
                     var2 = var2.bind(var4)();
                     var2 = 'date';
-                    if(!(var2 !== var7)) { _fun0002_ip = 103; continue _fun0002 }
- 46:
+                    if(!(var2 !== var7)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var6 = _closure1_slot0;
                     var8 = _closure1_slot3;
                     var2 = 8;
@@ -145,8 +145,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var2.t;
                     var2 = var2.GOmEb2;
                     var2 = var4.bind(var5)(var2);
-                    _fun0002_ip = 158; continue _fun0002;
- 103:
+                    _fun0002_ip = 4; continue _fun0002;
+case 2:
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot3;
                     var4 = 8;
@@ -159,7 +159,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var4.t;
                     var4 = var4.pSZKvL;
                     var2 = var5.bind(var6)(var4);
- 158:
+case 4:
                     var9 = _closure1_slot1;
                     var10 = _closure1_slot3;
                     var4 = 9;
@@ -280,10 +280,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var13.isIOS;
             var13 = var9.bind(var13)();
             var9 = undefined;
-            if(!var13) { _fun0001_ip = 337; continue _fun0001 }
- 335:
+            if(!var13) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var9 = 0;
- 337:
+case 5:
             var7['headerStatusBarHeight'] = var9;
             var16 = _closure1_slot0;
             var19 = _closure1_slot3;

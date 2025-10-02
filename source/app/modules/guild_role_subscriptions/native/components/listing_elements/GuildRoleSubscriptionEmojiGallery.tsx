@@ -38,17 +38,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function EmojiGallery(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var3 = var1.emojiIds;
             var2 = var1.guildId;
             var _closure2_slot0 = var2;
             var2 = var1.maxPerRow;
             var4 = undefined;
-            if(!(var2 === var4)) { _fun0001_ip = 35; continue _fun0001 }
- 32:
+            if(!(var2 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = 9;
- 35:
+case 2:
             var6 = _closure1_slot1;
             var8 = _closure1_slot2;
             var1 = 3;

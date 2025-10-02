@@ -22,7 +22,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function isActivitySupportedOnClientPlatform(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arg1;
             var6 = _closure1_slot0;
             var2 = _closure1_slot1;
@@ -34,8 +34,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var3.bind(var6)();
             var3 = _closure1_slot0;
             var6 = _closure1_slot1;
-            if(var7) { _fun0001_ip = 111; continue _fun0001 }
- 48:
+            if(var7) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = var6[var4];
             var7 = var3.bind(var2)(var4);
             var4 = var7.isAndroid;
@@ -46,34 +46,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var8[var1];
             var1 = var7.bind(var2)(var1);
             var1 = var1.EmbeddedActivitySupportedPlatforms;
-            if(var4) { _fun0001_ip = 103; continue _fun0001 }
- 95:
+            if(var4) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var4 = var1.WEB;
-            _fun0001_ip = 109; continue _fun0001;
- 103:
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
             var4 = var1.ANDROID;
- 109:
-            _fun0001_ip = 135; continue _fun0001;
- 111:
+case 6:
+            _fun0001_ip = 7; continue _fun0001;
+case 2:
             var1 = 1;
             var1 = var6[var1];
             var1 = var3.bind(var2)(var1);
             var1 = var1.EmbeddedActivitySupportedPlatforms;
             var4 = var1.IOS;
- 135:
+case 7:
             var1 = null;
             var3 = var1 == var5;
             var2 = undefined;
-            if(var3) { _fun0001_ip = 156; continue _fun0001 }
- 146:
+            if(var3) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var3 = var5.includes;
             var2 = var3.bind(var5)(var4);
- 156:
+case 8:
             var1 = var1 != var2;
-            if(!var1) { _fun0001_ip = 166; continue _fun0001 }
- 163:
+            if(!var1) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var1 = var2;
- 166:
+case 10:
             return var1;
         }
     };

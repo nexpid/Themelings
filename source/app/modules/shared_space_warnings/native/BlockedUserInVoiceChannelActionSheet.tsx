@@ -133,7 +133,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function BlockedUserInVoiceChannelActionSheet(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = var1.channelId;
             var _closure2_slot0 = var2;
@@ -190,8 +190,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var7[var20];
             var6 = var11.bind(var4)(var6);
             var6 = var6.t;
-            if(var1) { _fun0001_ip = 290; continue _fun0001 }
- 202:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var6.xj3j4+;
             var13 = var8.bind(var10)(var1);
             var1 = new Array(3);
@@ -210,8 +210,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1[2] = var13;
             var5['children'] = var1;
             var1 = var5;
-            _fun0001_ip = 376; continue _fun0001;
- 290:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var6 = var6.cpgfFh;
             var8 = var8.bind(var10)(var6);
             var6 = new Array(3);
@@ -230,7 +230,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[2] = var7;
             var5['children'] = var6;
             var1 = var5;
- 376:
+case 4:
             var18 = var3.bind(var4)(var2, var1);
             var3 = _closure1_slot14;
             var15 = _closure1_slot0;
@@ -307,8 +307,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var13.TableRow;
             var13 = {};
             var22 = null;
-            if(!(var22 == var23)) { _fun0001_ip = 755; continue _fun0001 }
- 715:
+            if(!(var22 == var23)) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var19 = _closure1_slot14;
             var18 = _closure1_slot0;
             var21 = _closure1_slot2;
@@ -318,8 +318,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var18 = var16.UserIcon;
             var16 = {};
             var16 = var19.bind(var4)(var18, var16);
-            _fun0001_ip = 838; continue _fun0001;
- 755:
+            _fun0001_ip = 7; continue _fun0001;
+case 5:
             var21 = _closure1_slot14;
             var19 = _closure1_slot1;
             var27 = _closure1_slot2;
@@ -336,13 +336,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var18['user'] = var23;
             var26 = var22 == var25;
             var24 = undefined;
-            if(var26) { _fun0001_ip = 828; continue _fun0001 }
- 823:
+            if(var26) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var24 = var25.guild_id;
- 828:
+case 8:
             var18['guildId'] = var24;
             var16 = var21.bind(var4)(var19, var18);
- 838:
+case 7:
             var13['icon'] = var16;
             var18 = _closure1_slot0;
             var16 = _closure1_slot2;
@@ -357,10 +357,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = {};
             var24 = var22 == var23;
             var22 = undefined;
-            if(var24) { _fun0001_ip = 907; continue _fun0001 }
- 902:
+            if(var24) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var22 = var23.username;
- 907:
+case 10:
             var16['userName'] = var22;
             var16 = var19.bind(var21)(var18, var16);
             var13['label'] = var16;
@@ -410,7 +410,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12['size'] = var18;
             var18 = function onPress() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = _closure1_slot1;
                     var4 = _closure1_slot2;
                     var1 = 22;
@@ -437,27 +437,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = _closure2_slot0;
                     var2['channel_id'] = var8;
                     var8 = _closure2_slot2;
-                    if(var8) { _fun0002_ip = 124; continue _fun0002 }
- 118:
+                    if(var8) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
                     var8 = new Array(0);
-                    _fun0002_ip = 139; continue _fun0002;
- 124:
+                    _fun0002_ip = 14; continue _fun0002;
+case 12:
                     var10 = _closure2_slot1;
                     var9 = new Array(1);
                     var9[0] = var10;
                     var8 = var9;
- 139:
+case 14:
                     var2['blocked_user_ids'] = var8;
                     var8 = _closure2_slot2;
-                    if(var8) { _fun0002_ip = 165; continue _fun0002 }
- 151:
+                    if(var8) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
                     var8 = _closure2_slot1;
                     var7 = new Array(1);
                     var7[0] = var8;
-                    _fun0002_ip = 169; continue _fun0002;
- 165:
+                    _fun0002_ip = 17; continue _fun0002;
+case 15:
                     var7 = new Array(0);
- 169:
+case 17:
                     var2['ignored_user_ids'] = var7;
                     var6 = _closure1_slot10;
                     var6 = var6.POST_JOIN_SHEET;
@@ -486,7 +486,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = {'size': 'lg', 'variant': 'secondary'};
             var17 = function onPress() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var3 = _closure1_slot1;
                     var4 = _closure1_slot2;
                     var1 = 22;
@@ -511,27 +511,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = _closure2_slot0;
                     var2['channel_id'] = var8;
                     var8 = _closure2_slot2;
-                    if(var8) { _fun0003_ip = 115; continue _fun0003 }
- 109:
+                    if(var8) { _fun0003_ip = 18; continue _fun0003 }
+case 19:
                     var8 = new Array(0);
-                    _fun0003_ip = 130; continue _fun0003;
- 115:
+                    _fun0003_ip = 20; continue _fun0003;
+case 18:
                     var10 = _closure2_slot1;
                     var9 = new Array(1);
                     var9[0] = var10;
                     var8 = var9;
- 130:
+case 20:
                     var2['blocked_user_ids'] = var8;
                     var8 = _closure2_slot2;
-                    if(var8) { _fun0003_ip = 156; continue _fun0003 }
- 142:
+                    if(var8) { _fun0003_ip = 21; continue _fun0003 }
+case 22:
                     var8 = _closure2_slot1;
                     var7 = new Array(1);
                     var7[0] = var8;
-                    _fun0003_ip = 160; continue _fun0003;
- 156:
+                    _fun0003_ip = 23; continue _fun0003;
+case 21:
                     var7 = new Array(0);
- 160:
+case 23:
                     var2['ignored_user_ids'] = var7;
                     var6 = _closure1_slot10;
                     var6 = var6.POST_JOIN_SHEET;

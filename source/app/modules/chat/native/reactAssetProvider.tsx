@@ -34,7 +34,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = Object.create(var1, {constructor: {value: var3}});
         var4 = function(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var5 = arg1;
                 var _closure3_slot0 = var5;
                 var6 = _closure1_slot0;
@@ -45,12 +45,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var6.bind(var1)(var4);
                 var4 = var6.isAndroid;
                 var4 = var4.bind(var6)();
-                if(var4) { _fun0001_ip = 55; continue _fun0001 }
- 46:
+                if(var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var4 = true;
                 var4 = var5.bind(var1)(var4);
-                _fun0001_ip = 93; continue _fun0001;
- 55:
+                _fun0001_ip = 4; continue _fun0001;
+case 2:
                 var4 = _closure1_slot1;
                 var5 = _closure1_slot2;
                 var3 = 2;
@@ -71,22 +71,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var6.map;
                     var3 = function(arg1) {
                         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                             var5 = arg1;
                             var1 = _closure4_slot0;
                             var3 = var1[var5];
                             var1 = null;
                             var3 = var1 != var3;
                             var1 = '';
-                            if(!var3) { _fun0002_ip = 58; continue _fun0002 }
- 27:
+                            if(!var3) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
                             var4 = _closure1_slot3;
                             var3 = var4.resolveAssetSource;
                             var2 = _closure4_slot0;
                             var2 = var2[var5];
                             var2 = var3.bind(var4)(var2);
                             var1 = var2.uri;
- 58:
+case 5:
                             return var1;
                         }
                     };
@@ -103,7 +103,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var2 = var3.bind(var4)(var2);
- 93:
+case 4:
                 return var1;
             }
         };

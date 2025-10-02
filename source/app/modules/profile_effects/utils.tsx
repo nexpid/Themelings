@@ -30,24 +30,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var3.sort;
         var1 = function(arg1, arg2) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var3 = var1.zIndex;
                 var4 = null;
                 var5 = var4 != var3;
                 var1 = 0;
-                if(!var5) { _fun0001_ip = 23; continue _fun0001 }
- 20:
+                if(!var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var1 = var3;
- 23:
+case 2:
                 var3 = arg2;
                 var3 = var3.zIndex;
                 var4 = var4 != var3;
                 var2 = 0;
-                if(!var4) { _fun0001_ip = 44; continue _fun0001 }
- 41:
+                if(!var4) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var2 = var3;
- 44:
+case 4:
                 var1 = var1 - var2;
                 return var1;
             }
@@ -65,11 +65,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[0] = var5;
         var1 = function() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var4 = _closure2_slot0;
                 var2 = null;
-                if(!(var2 != var4)) { _fun0002_ip = 175; continue _fun0002 }
- 18:
+                if(!(var2 != var4)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                 var5 = _closure1_slot0;
                 var2 = _closure1_slot1;
                 var9 = 1;
@@ -83,31 +83,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var6.reduce;
                 var4 = function(arg1, arg2) {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                         var6 = arg1;
                         var1 = arg2;
                         var1 = var1.randomizedSources;
                         var2 = null;
                         var2 = var2 == var1;
                         var5 = undefined;
-                        if(var2) { _fun0003_ip = 28; continue _fun0003 }
- 23:
+                        if(var2) { _fun0003_ip = 8; continue _fun0003 }
+case 2:
                         var5 = var1.length;
- 28:
+case 8:
                         var3 = 0;
                         var1 = var6;
-                        if(!(var5 > var3)) { _fun0003_ip = 66; continue _fun0003 }
- 37:
+                        if(!(var5 > var3)) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
                         var2 = var5;
-                        if(!(var3 !== var6)) { _fun0003_ip = 63; continue _fun0003 }
- 44:
+                        if(!(var3 !== var6)) { _fun0003_ip = 11; continue _fun0003 }
+case 4:
                         var3 = global;
                         var4 = var3.Math;
                         var3 = var4.min;
                         var2 = var3.bind(var4)(var6, var5);
- 63:
+case 11:
                         var1 = var2;
- 66:
+case 9:
                         return var1;
                     }
                 };
@@ -130,32 +130,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var5.map;
                 var3 = function(arg1) {
                     _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                         var1 = arg1;
                         var2 = var1.randomizedSources;
                         var3 = null;
                         var4 = var3 == var2;
                         var3 = undefined;
-                        if(var4) { _fun0004_ip = 25; continue _fun0004 }
- 20:
+                        if(var4) { _fun0004_ip = 12; continue _fun0004 }
+case 3:
                         var3 = var2.length;
- 25:
+case 12:
                         var2 = 0;
-                        if(!(var3 > var2)) { _fun0004_ip = 60; continue _fun0004 }
- 31:
+                        if(!(var3 > var2)) { _fun0004_ip = 13; continue _fun0004 }
+case 14:
                         var3 = var1.randomizedSources;
                         var2 = _closure3_slot0;
                         var2 = var3[var2];
                         var2 = var2.src;
                         var1['src'] = var2;
- 60:
+case 13:
                         return var1;
                     }
                 };
                 var3 = var4.bind(var5)(var3);
                 var2['effects'] = var3;
                 return var2;
- 175:
+case 6:
                 var1 = _closure2_slot0;
                 return var1;
             }

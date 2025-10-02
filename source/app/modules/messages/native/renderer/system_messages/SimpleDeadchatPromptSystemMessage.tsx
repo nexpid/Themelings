@@ -29,7 +29,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function createSimpleDeadchatPromptSystemMessage(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var1 = {};
             var5 = _closure1_slot1;
@@ -44,13 +44,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var3.message;
             var5 = var4.content;
             var4 = null;
-            if(!(var4 != var5)) { _fun0001_ip = 76; continue _fun0001 }
- 58:
+            if(!(var4 != var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = var3.message;
             var6 = var5.content;
             var5 = '';
-            if(!(var5 === var6)) { _fun0001_ip = 135; continue _fun0001 }
- 76:
+            if(!(var5 === var6)) { _fun0001_ip = 4; continue _fun0001 }
+case 2:
             var9 = _closure1_slot0;
             var10 = _closure1_slot2;
             var5 = 2;
@@ -63,11 +63,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.t;
             var5 = var5.wnn1DQ;
             var5 = var6.bind(var8)(var5);
-            _fun0001_ip = 145; continue _fun0001;
- 135:
+            _fun0001_ip = 5; continue _fun0001;
+case 4:
             var3 = var3.message;
             var5 = var3.content;
- 145:
+case 5:
             var3 = 'content';
             var1[var3] = var5;
             var3 = {};
@@ -79,8 +79,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var6.isAndroid;
             var6 = var5.bind(var6)();
             var5 = null;
-            if(var6) { _fun0001_ip = 257; continue _fun0001 }
- 190:
+            if(var6) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var10 = _closure1_slot3;
             var9 = var10.resolveAssetSource;
             var11 = _closure1_slot0;
@@ -96,7 +96,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var11.bind(var12)(var6);
             var6 = var9.bind(var10)(var6);
             var5 = var6.uri;
- 257:
+case 6:
             var3['cameraButtonIcon'] = var5;
             var11 = _closure1_slot3;
             var10 = var11.resolveAssetSource;
@@ -119,8 +119,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var6.isAndroid;
             var5 = var5.bind(var6)();
             var4 = null;
-            if(var5) { _fun0001_ip = 418; continue _fun0001 }
- 361:
+            if(var5) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var9 = _closure1_slot0;
             var10 = _closure1_slot2;
             var5 = 2;
@@ -133,7 +133,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.t;
             var5 = var5.+j6eZW;
             var4 = var6.bind(var8)(var5);
- 418:
+case 8:
             var3['cameraButtonText'] = var4;
             var6 = _closure1_slot0;
             var8 = _closure1_slot2;

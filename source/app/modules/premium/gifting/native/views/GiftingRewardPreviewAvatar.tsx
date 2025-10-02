@@ -41,7 +41,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function GiftingRewardPreviewAvatar(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arg1;
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -76,13 +76,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = null;
             var2 = var2 != var3;
             var7 = undefined;
-            if(!var2) { _fun0001_ip = 132; continue _fun0001 }
- 116:
+            if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = {};
             var3 = var5.asset;
             var2['asset'] = var3;
             var7 = var2;
- 132:
+case 2:
             var3 = _closure1_slot5;
             var2 = _closure1_slot1;
             var9 = _closure1_slot2;

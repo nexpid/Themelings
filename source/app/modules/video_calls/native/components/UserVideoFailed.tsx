@@ -66,7 +66,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function UserVideoFailed(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var1 = var4.userId;
             var _closure2_slot0 = var1;
@@ -107,8 +107,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = _closure1_slot6;
             var6 = {};
             var5 = !var5;
-            if(!var5) { _fun0001_ip = 225; continue _fun0001 }
- 177:
+            if(!var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var14 = _closure1_slot5;
             var12 = _closure1_slot0;
             var15 = _closure1_slot2;
@@ -120,7 +120,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var11.placeholderImage;
             var8['style'] = var15;
             var5 = var14.bind(var4)(var12, var8);
- 225:
+case 2:
             var15 = new Array(2);
             var15[0] = var5;
             var8 = _closure1_slot5;
@@ -171,8 +171,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var11.button;
             var5['style'] = var11;
             var9 = !var9;
-            if(!var9) { _fun0001_ip = 580; continue _fun0001 }
- 473:
+            if(!var9) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var12 = _closure1_slot5;
             var17 = _closure1_slot0;
             var14 = _closure1_slot2;
@@ -254,7 +254,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var10['onPress'] = var13;
             var9 = var12.bind(var4)(var11, var10);
- 580:
+case 4:
             var5['children'] = var9;
             var5 = var8.bind(var4)(var7, var5);
             var6[2] = var5;

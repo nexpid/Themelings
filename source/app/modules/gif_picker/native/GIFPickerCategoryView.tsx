@@ -127,7 +127,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function GIFPickerCategoryView(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var6 = var2.onSelectCategory;
             var _closure2_slot0 = var6;
@@ -212,14 +212,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var12.type;
             var8 = _closure1_slot6;
             var8 = var8.TRENDING_GIFS;
-            if(!(var10 !== var8)) { _fun0001_ip = 444; continue _fun0001 }
- 334:
+            if(!(var10 !== var8)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var11 = var12.type;
             var8 = _closure1_slot6;
             var8 = var8.FAVORITES;
             var10 = null;
-            if(!(var11 === var8)) { _fun0001_ip = 442; continue _fun0001 }
- 355:
+            if(!(var11 === var8)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var13 = _closure1_slot7;
             var11 = _closure1_slot0;
             var17 = _closure1_slot2;
@@ -240,9 +240,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var15.WHITE;
             var8['color'] = var15;
             var10 = var13.bind(var4)(var11, var8);
- 442:
-            _fun0001_ip = 531; continue _fun0001;
- 444:
+case 4:
+            _fun0001_ip = 6; continue _fun0001;
+case 2:
             var13 = _closure1_slot7;
             var11 = _closure1_slot0;
             var16 = _closure1_slot2;
@@ -263,7 +263,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var14.WHITE;
             var8['color'] = var14;
             var10 = var13.bind(var4)(var11, var8);
- 531:
+case 6:
             var8 = new Array(2);
             var8[0] = var10;
             var11 = _closure1_slot7;

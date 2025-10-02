@@ -176,21 +176,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var13['contentTypes'] = var18;
         var17 = function children(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var4 = var1.visibleContent;
                 var2 = var1.markAsDismissed;
                 var3 = _closure2_slot0;
                 var1 = null;
-                if(!(var4 === var3)) { _fun0001_ip = 54; continue _fun0001 }
- 28:
+                if(!(var4 === var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var5 = _closure1_slot6;
                 var4 = _closure1_slot9;
                 var3 = {};
                 var3['markAsDismissed'] = var2;
                 var2 = undefined;
                 var1 = var5.bind(var2)(var4, var3);
- 54:
+case 2:
                 return var1;
             }
         };

@@ -20,13 +20,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var4.bind(var5)(var2);
     var2 = function windowSourceMatches(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var6 = arg2;
             var1 = null;
             var1 = var1 != var6;
-            if(!var1) { _fun0001_ip = 50; continue _fun0001 }
- 15:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = var4.startsWith;
             var2 = global;
             var2 = var2.HermesInternal;
@@ -34,7 +34,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = 'window:';
             var2 = var5.bind(var2)(var6);
             var1 = var3.bind(var4)(var2);
- 50:
+case 2:
             return var1;
         }
     };

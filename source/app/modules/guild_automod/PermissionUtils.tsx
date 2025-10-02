@@ -32,30 +32,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot5 = var4;
     var4 = function getHasAutomodAccess(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arguments[1];
             var5 = arguments[2];
             var1 = undefined;
-            if(!(var3 === var1)) { _fun0001_ip = 19; continue _fun0001 }
- 12:
+            if(!(var3 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = _closure1_slot2;
- 19:
-            if(!(var5 === var1)) { _fun0001_ip = 30; continue _fun0001 }
- 23:
+case 2:
+            if(!(var5 === var1)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = _closure1_slot3;
- 30:
+case 4:
             var2 = var3.getGuild;
             var1 = arg1;
             var4 = var2.bind(var3)(var1);
             var1 = null;
             var1 = var1 != var4;
-            if(!var1) { _fun0001_ip = 77; continue _fun0001 }
- 52:
+            if(!var1) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var3 = var5.can;
             var2 = _closure1_slot5;
             var2 = var2.MANAGE_GUILD;
             var1 = var3.bind(var5)(var2, var4);
- 77:
+case 6:
             return var1;
         }
     };
@@ -68,16 +68,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function canCurrentUserManageMessageFilters(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var4 = arg1;
             var1 = null;
             var1 = var1 != var4;
-            if(!var1) { _fun0002_ip = 26; continue _fun0002 }
- 12:
+            if(!var1) { _fun0002_ip = 8; continue _fun0002 }
+case 3:
             var3 = _closure1_slot6;
             var2 = undefined;
             var1 = var3.bind(var2)(var4);
- 26:
+case 8:
             return var1;
         }
     };
@@ -137,7 +137,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[0] = var6;
         var1 = function() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var4 = _closure1_slot2;
                 var3 = var4.getGuild;
                 var1 = _closure2_slot0;
@@ -145,18 +145,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = null;
                 var4 = var1 == var3;
                 var1 = undefined;
-                if(var4) { _fun0003_ip = 61; continue _fun0003 }
- 35:
+                if(var4) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
                 var4 = var3.features;
                 var3 = var4.has;
                 var2 = _closure1_slot4;
                 var2 = var2.COMMUNITY;
                 var1 = var3.bind(var4)(var2);
- 61:
-                if(var1) { _fun0003_ip = 66; continue _fun0003 }
- 64:
+case 9:
+                if(var1) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
                 var1 = false;
- 66:
+case 11:
                 return var1;
             }
         };

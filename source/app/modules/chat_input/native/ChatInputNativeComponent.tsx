@@ -1,7 +1,7 @@
 // app/modules/chat_input/native/ChatInputNativeComponent.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
         var5 = require;
         var13 = metroImportDefault;
         var3 = exports;
@@ -64,7 +64,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var9.forwardRef;
         var2 = function(arg1, arg2) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var23 = var1.accessibilityLabel;
                 var21 = var1.customKeyboard;
@@ -72,8 +72,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var25 = var1.editable;
                 var22 = var1.markAsSpoilerTitle;
                 var4 = undefined;
-                if(!(var22 === var4)) { _fun0002_ip = 98; continue _fun0002 }
- 40:
+                if(!(var22 === var4)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                 var6 = _closure1_slot0;
                 var7 = _closure1_slot2;
                 var2 = 6;
@@ -86,7 +86,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var2.t;
                 var2 = var2.gsI+xM;
                 var22 = var3.bind(var5)(var2);
- 98:
+case 2:
                 var8 = var1.setNoExtractUI;
                 var7 = var1.shouldShowCursor;
                 var20 = var1.onBeginFocus;
@@ -131,22 +131,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var9 = var30[var9];
                 var9 = var27.bind(var4)(var9);
                 var9 = var9.unsafe_rawColors;
-                if(var2) { _fun0002_ip = 329; continue _fun0002 }
- 321:
+                if(var2) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                 var27 = var9.PRIMARY_500;
-                _fun0002_ip = 335; continue _fun0002;
- 329:
+                _fun0002_ip = 6; continue _fun0002;
+case 4:
                 var27 = var9.WHITE_500;
- 335:
+case 6:
                 var9 = _closure1_slot4;
                 var30 = var9.gradientPreset;
                 var9 = null;
                 var30 = var9 != var30;
                 var9 = 0.6;
-                if(!var30) { _fun0002_ip = 374; continue _fun0002 }
- 364:
+                if(!var30) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
                 var9 = 0.8;
- 374:
+case 7:
                 var9 = var28.bind(var29)(var27, var9);
                 var28 = _closure1_slot3;
                 var27 = var28.useRef;
@@ -166,16 +166,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var27 = var28.useEffect;
                 var26 = function() {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                         var2 = _closure2_slot1;
                         var3 = var2.current;
                         var2 = null;
-                        if(!(var2 != var3)) { _fun0003_ip = 31; continue _fun0003 }
- 18:
+                        if(!(var2 != var3)) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
                         var2 = _closure2_slot1;
                         var1 = var2.current;
                         var1 = var1.bind(var2)();
- 31:
+case 9:
                         var1 = undefined;
                         return var1;
                     }
@@ -190,10 +190,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var26 = var27.isAndroid;
                 var26 = var26.bind(var27)();
                 var27 = undefined;
-                if(var26) { _fun0002_ip = 483; continue _fun0002 }
- 480:
+                if(var26) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
                 var27 = var23;
- 483:
+case 11:
                 var26 = _closure1_slot0;
                 var23 = _closure1_slot2;
                 var23 = var23[var24];
@@ -201,10 +201,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var23 = var26.isAndroid;
                 var23 = var23.bind(var26)();
                 var26 = undefined;
-                if(var23) { _fun0002_ip = 517; continue _fun0002 }
- 514:
+                if(var23) { _fun0002_ip = 13; continue _fun0002 }
+case 14:
                 var26 = var21;
- 517:
+case 13:
                 var23 = _closure1_slot0;
                 var21 = _closure1_slot2;
                 var21 = var21[var24];
@@ -212,15 +212,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var21 = var23.isAndroid;
                 var21 = var21.bind(var23)();
                 var23 = 'default';
-                if(!var21) { _fun0002_ip = 552; continue _fun0002 }
- 550:
+                if(!var21) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
                 var23 = undefined;
- 552:
+case 15:
                 var24 = 2;
-                if(!var2) { _fun0002_ip = 561; continue _fun0002 }
- 558:
+                if(!var2) { _fun0002_ip = 17; continue _fun0002 }
+case 18:
                 var24 = 1;
- 561:
+case 17:
                 var21 = _closure1_slot1;
                 var28 = _closure1_slot2;
                 var2 = 11;
@@ -265,17 +265,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = var5.bind(var1)(var4);
         var4 = var9.isAndroid;
         var4 = var4.bind(var9)();
-        if(var4) { _fun0001_ip = 291; continue _fun0001 }
- 278:
+        if(var4) { _fun0001_ip = 19; continue _fun0001 }
+case 20:
         var4 = 'DCDChatInput';
         var4 = var8.bind(var1)(var4);
-        _fun0001_ip = 308; continue _fun0001;
- 291:
+        _fun0001_ip = 21; continue _fun0001;
+case 19:
         var8 = 12;
         var8 = var6[var8];
         var8 = var5.bind(var1)(var8);
         var4 = var8.default;
- 308:
+case 21:
         var _closure1_slot7 = var4;
         var4 = 'ChatInputNativeComponent';
         var2['displayName'] = var4;

@@ -20,25 +20,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var4.bind(var5)(var2);
     var2 = function isActivityParticipantValidGuildMember(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = var2.member;
             var4 = null;
             var1 = var4 != var1;
-            if(!var1) { _fun0001_ip = 34; continue _fun0001 }
- 18:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = var2.member;
             var3 = var3.joined_at;
             var1 = var4 != var3;
- 34:
-            if(!var1) { _fun0001_ip = 61; continue _fun0001 }
- 37:
+case 2:
+            if(!var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = var2.member;
             var2 = var2.user;
             var3 = var2.username;
             var2 = '';
             var1 = var2 !== var3;
- 61:
+case 4:
             return var1;
         }
     };

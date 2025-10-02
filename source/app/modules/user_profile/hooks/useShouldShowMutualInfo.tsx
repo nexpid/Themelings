@@ -28,7 +28,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useShouldShowMutualInfo(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -61,23 +61,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['location'] = var8;
             var1 = var6.bind(var7)(var1);
             var1 = !var1;
-            if(var1) { _fun0001_ip = 156; continue _fun0001 }
- 122:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = null;
             var6 = var6 == var5;
             var4 = undefined;
-            if(var6) { _fun0001_ip = 138; continue _fun0001 }
- 133:
+            if(var6) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var4 = var5.id;
- 138:
+case 4:
             var2 = var2.id;
             var2 = var4 !== var2;
-            if(!var2) { _fun0001_ip = 153; continue _fun0001 }
- 150:
+            if(!var2) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var2 = !var3;
- 153:
+case 6:
             var1 = var2;
- 156:
+case 2:
             return var1;
         }
     };

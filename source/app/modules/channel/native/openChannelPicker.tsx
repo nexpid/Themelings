@@ -32,20 +32,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function openChannelPicker(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arg1;
             var7 = var5.selectedChannel;
             var12 = var5.guildId;
             var6 = var5.channelType;
             var11 = var5.filterFn;
             var1 = undefined;
-            if(!(var11 === var1)) { _fun0001_ip = 41; continue _fun0001 }
- 34:
+            if(!(var11 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var11 = function h() {
                 var1 = true;
                 return var1;
             };
- 41:
+case 2:
             var13 = var5.onClose;
             var3 = {'selectedChannel': 0, 'guildId': 0, 'channelType': 0, 'filterFn': 0, 'onClose': 0};
             var4 = null;
@@ -63,10 +63,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var10.getChannels;
             var5 = var5.bind(var10)(var12);
             var10 = var5[var6];
-            if(!(var4 == var10)) { _fun0001_ip = 128; continue _fun0001 }
- 124:
+            if(!(var4 == var10)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var10 = new Array(0);
- 128:
+case 4:
             var5 = _closure1_slot1;
             var18 = _closure1_slot2;
             var4 = 2;

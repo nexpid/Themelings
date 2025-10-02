@@ -72,16 +72,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[1] = var5;
         var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var3 = _closure2_slot2;
                 var2 = 0;
-                if(!(var3 > var2)) { _fun0001_ip = 28; continue _fun0001 }
- 13:
+                if(!(var3 > var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var3 = _closure2_slot3;
                 var2 = _closure2_slot2;
                 var1 = undefined;
                 var1 = var3.bind(var1)(var2);
- 28:
+case 2:
                 var1 = undefined;
                 return var1;
             }
@@ -137,7 +137,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8[0] = var7;
             var7 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = _closure1_slot4;
                     var2 = var3.getMemberCount;
                     var1 = _closure3_slot0;
@@ -145,10 +145,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = null;
                     var3 = var1 != var2;
                     var1 = 0;
-                    if(!var3) { _fun0002_ip = 39; continue _fun0002 }
- 36:
+                    if(!var3) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var1 = var2;
- 39:
+case 4:
                     return var1;
                 }
             };
@@ -189,7 +189,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8[0] = var7;
             var7 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var3 = _closure1_slot4;
                     var2 = var3.getOnlineCount;
                     var1 = _closure3_slot0;
@@ -197,10 +197,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = null;
                     var3 = var1 != var2;
                     var1 = 0;
-                    if(!var3) { _fun0003_ip = 39; continue _fun0003 }
- 36:
+                    if(!var3) { _fun0003_ip = 4; continue _fun0003 }
+case 5:
                     var1 = var2;
- 39:
+case 4:
                     return var1;
                 }
             };

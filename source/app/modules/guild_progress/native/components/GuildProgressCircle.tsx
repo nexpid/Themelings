@@ -55,16 +55,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function GuildProgressCircle(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var9 = var1.percent;
             var6 = var1.style;
             var13 = var1.size;
             var4 = undefined;
-            if(!(var13 === var4)) { _fun0001_ip = 28; continue _fun0001 }
- 25:
+            if(!(var13 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var13 = 32;
- 28:
+case 2:
             var1 = _closure1_slot6;
             var14 = var1.bind(var4)();
             var15 = {};

@@ -61,7 +61,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = _closure1_slot0;
             var4 = _closure1_slot2;
             var3 = 5;
@@ -71,11 +71,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var5.isEligibleForBlockUserFeedbackExperiment;
             var3 = 'block_user_feedback_utils';
             var3 = var4.bind(var5)(var3);
-            if(var3) { _fun0001_ip = 51; continue _fun0001 }
- 47:
+            if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = false;
             return var3;
- 51:
+case 2:
             var3 = _closure1_slot3;
             var2 = var3.getSinces;
             var4 = var2.bind(var3)();
@@ -87,7 +87,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.some;
             var1 = function(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var5 = arg1;
                     var1 = global;
                     var3 = var1.Date;
@@ -102,16 +102,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = _closure1_slot3;
                     var1 = var4.isBlocked;
                     var1 = var1.bind(var4)(var5);
-                    if(!var1) { _fun0002_ip = 81; continue _fun0002 }
- 73:
+                    if(!var1) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var4 = _closure1_slot9;
                     var1 = var3 > var4;
- 81:
-                    if(!var1) { _fun0002_ip = 92; continue _fun0002 }
- 84:
+case 4:
+                    if(!var1) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var2 = _closure1_slot10;
                     var1 = var3 < var2;
- 92:
+case 6:
                     return var1;
                 }
             };
@@ -145,7 +145,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['trackBlockUserFeedback'] = var4;
     var4 = function() {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var4 = _closure1_slot0;
             var5 = _closure1_slot2;
             var3 = 7;
@@ -157,11 +157,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.bind(var5)(var3);
             var4 = var3.enabled;
             var3 = var3.shouldGetShorterIgnoreDuration;
-            if(var4) { _fun0003_ip = 62; continue _fun0003 }
- 58:
+            if(var4) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
             var4 = false;
             return var4;
- 62:
+case 8:
             var5 = _closure1_slot0;
             var9 = _closure1_slot2;
             var4 = 8;
@@ -178,15 +178,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4['cooldownDurationMs'] = var8;
             var4 = var6.bind(var7)(var5, var4);
             var4 = var4.isDismissed;
-            if(var4) { _fun0003_ip = 213; continue _fun0003 }
- 138:
-            if(var3) { _fun0003_ip = 147; continue _fun0003 }
- 141:
+            if(var4) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
+            if(var3) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
             var3 = _closure1_slot9;
-            _fun0003_ip = 151; continue _fun0003;
- 147:
+            _fun0003_ip = 14; continue _fun0003;
+case 12:
             var3 = _closure1_slot8;
- 151:
+case 14:
             var _closure2_slot0 = var3;
             var3 = _closure1_slot4;
             var2 = var3.getIgnoreTimestamps;
@@ -199,7 +199,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.some;
             var1 = function(arg1) {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                     var6 = arg1;
                     var1 = global;
                     var3 = var1.Date;
@@ -214,22 +214,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = _closure1_slot3;
                     var1 = var5.isIgnored;
                     var1 = var1.bind(var5)(var6);
-                    if(!var1) { _fun0004_ip = 77; continue _fun0004 }
- 69:
+                    if(!var1) { _fun0004_ip = 15; continue _fun0004 }
+case 16:
                     var4 = _closure2_slot0;
                     var1 = var3 > var4;
- 77:
-                    if(!var1) { _fun0004_ip = 88; continue _fun0004 }
- 80:
+case 15:
+                    if(!var1) { _fun0004_ip = 17; continue _fun0004 }
+case 18:
                     var2 = _closure1_slot10;
                     var1 = var3 < var2;
- 88:
+case 17:
                     return var1;
                 }
             };
             var1 = var2.bind(var3)(var1);
             return var1;
- 213:
+case 10:
             var1 = false;
             return var1;
         }
@@ -260,7 +260,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['trackIgnoreUserFeedback'] = var4;
     var4 = function(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 9;
@@ -270,15 +270,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.DismissibleContent;
             var3 = var1.AGE_VERIFICATION_SURVEY_MODAL_CLOSE;
             var1 = arg1;
-            if(!(var1 !== var3)) { _fun0005_ip = 56; continue _fun0005 }
- 44:
+            if(!(var1 !== var3)) { _fun0005_ip = 19; continue _fun0005 }
+case 20:
             var1 = _closure1_slot5;
             var1 = var1.GET_STARTED;
-            _fun0005_ip = 66; continue _fun0005;
- 56:
+            _fun0005_ip = 21; continue _fun0005;
+case 19:
             var2 = _closure1_slot5;
             var1 = var2.KID_STARTED;
- 66:
+case 21:
             return var1;
         }
     };

@@ -63,7 +63,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['onValueChange'] = var7;
     var4 = function useHasDmSafetyAlertsSetting() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
             var1 = 2;
@@ -73,10 +73,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var1.bind(var5)();
             var1 = null;
             var1 = var1 == var3;
-            if(var1) { _fun0001_ip = 41; continue _fun0001 }
- 38:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var3;
- 41:
+case 2:
             var4 = _closure1_slot0;
             var7 = _closure1_slot2;
             var2 = 3;
@@ -95,14 +95,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['location'] = var6;
             var2 = var4.bind(var5)(var2);
             var1 = !var1;
-            if(!var1) { _fun0001_ip = 122; continue _fun0001 }
- 119:
+            if(!var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = var3;
- 122:
-            if(!var1) { _fun0001_ip = 128; continue _fun0001 }
- 125:
+case 4:
+            if(!var1) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var1 = !var2;
- 128:
+case 6:
             return var1;
         }
     };

@@ -41,7 +41,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['KeywordFilterExperiment'] = var4;
     var4 = function useIsEligibleForKeywordFiltering(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var1 = var1.location;
             var5 = _closure1_slot0;
@@ -63,17 +63,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['autoTrackExposure'] = var6;
             var1 = var4.bind(var5)(var3, var1);
             var1 = var1.enabled;
-            if(var1) { _fun0001_ip = 92; continue _fun0001 }
- 89:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var2;
- 92:
+case 2:
             return var1;
         }
     };
     var3['useIsEligibleForKeywordFiltering'] = var4;
     var2 = function isEligibleForKeywordFiltering(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var5 = var1.location;
             var4 = _closure1_slot0;
@@ -92,10 +92,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['location'] = var5;
             var1 = var3.bind(var4)(var1);
             var1 = var1.enabled;
-            if(var1) { _fun0002_ip = 82; continue _fun0002 }
- 79:
+            if(var1) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var1 = var2;
- 82:
+case 4:
             return var1;
         }
     };

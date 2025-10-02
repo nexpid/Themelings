@@ -72,7 +72,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var2;
         var2 = function value() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var4 = this;
                 var2 = {};
                 var10 = var4.nodes;
@@ -80,9 +80,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = 'children';
                 var1 = 'childrenIds';
                 for(var7 in var10)
- 31:
+case 2:
                 {
- 40:
+case 3:
                     var13 = var7;
                     var12 = var4.nodes;
                     var14 = var12[var13];
@@ -101,9 +101,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var14 = var15.bind(var16)(var14);
                     var12[var1] = var14;
                     var2[var13] = var12;
-                    _fun0001_ip = 31; continue _fun0001;
+                    _fun0001_ip = 2; continue _fun0001;
                 }
- 101:
+case 4:
                 var1 = {};
                 var4 = var4.root;
                 var5 = var4.children;
@@ -127,7 +127,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var6 = function value(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var4 = arg1;
                 var2 = this;
                 var _closure3_slot0 = var2;
@@ -135,9 +135,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2['nodes'] = var3;
                 var7 = var2.nodes;
                 for(var3 in var7)
- 38:
+case 5:
                 {
- 47:
+case 6:
                     var10 = var3;
                     var9 = var2.nodes;
                     var9 = var9[var10];
@@ -153,9 +153,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var10 = var11.bind(var12)(var10);
                     var9['children'] = var10;
                     var9 = delete var9.childrenIds;
-                    _fun0002_ip = 38; continue _fun0002;
+                    _fun0002_ip = 5; continue _fun0002;
                 }
- 94:
+case 7:
                 var3 = var2.root;
                 var5 = var4.rootChildrenIds;
                 var4 = var5.map;
@@ -182,29 +182,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var6 = function value(arg1, arg2) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var3 = arg1;
                 var11 = arg2;
                 var5 = arguments[2];
                 var1 = this;
                 var10 = undefined;
-                if(!(var5 === var10)) { _fun0003_ip = 20; continue _fun0003 }
- 18:
+                if(!(var5 === var10)) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
                 var5 = false;
- 20:
+case 8:
                 var2 = var1._pluckNode;
                 var2 = var2.bind(var1)(var3);
                 var4 = var11.parentId;
                 var2 = null;
-                if(!(var2 == var4)) { _fun0003_ip = 51; continue _fun0003 }
- 43:
+                if(!(var2 == var4)) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
                 var2 = var1.root;
-                _fun0003_ip = 67; continue _fun0003;
- 51:
+                _fun0003_ip = 12; continue _fun0003;
+case 10:
                 var6 = var1.nodes;
                 var4 = var11.parentId;
                 var2 = var6[var4];
- 67:
+case 12:
                 var6 = var2.children;
                 var4 = var6.indexOf;
                 var8 = var4.bind(var6)(var11);
@@ -217,13 +217,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = _closure1_slot5;
                 var4 = var4.FOLDER;
                 var7 = var7 === var4;
-                if(!var7) { _fun0003_ip = 147; continue _fun0003 }
- 128:
+                if(!var7) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
                 var12 = var2.type;
                 var4 = _closure1_slot5;
                 var4 = var4.FOLDER;
                 var7 = var12 === var4;
- 147:
+case 13:
                 var22 = var3.id;
                 var20 = var2.id;
                 var4 = global;
@@ -251,10 +251,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var23[var12](var22, var21, var20, var19, var18);
                 var4 = var9.bind(var10)(var6, var4);
                 var4 = 0;
-                if(!var5) { _fun0003_ip = 277; continue _fun0003 }
- 274:
+                if(!var5) { _fun0003_ip = 15; continue _fun0003 }
+case 16:
                 var4 = 1;
- 277:
+case 15:
                 var21 = var2.children;
                 var5 = new Array(0);
                 var22 = var5;
@@ -280,25 +280,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var6 = function value(arg1, arg2) {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                 var3 = arg1;
                 var2 = arg2;
                 var4 = arguments[2];
                 var1 = this;
                 var5 = undefined;
-                if(!(var4 === var5)) { _fun0004_ip = 20; continue _fun0004 }
- 18:
+                if(!(var4 === var5)) { _fun0004_ip = 8; continue _fun0004 }
+case 9:
                 var4 = true;
- 20:
+case 8:
                 var5 = var1._pluckNode;
                 var5 = var5.bind(var1)(var3);
                 var7 = 0;
                 var6 = 0;
-                if(!var4) { _fun0004_ip = 48; continue _fun0004 }
- 38:
+                if(!var4) { _fun0004_ip = 17; continue _fun0004 }
+case 5:
                 var4 = var2.children;
                 var6 = var4.length;
- 48:
+case 17:
                 var9 = var2.children;
                 var4 = new Array(0);
                 var10 = var4;
@@ -323,20 +323,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var6 = function value(arg1) {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
                 var5 = arg1;
                 var4 = arguments[1];
                 var3 = arguments[2];
                 var2 = this;
                 var8 = undefined;
-                if(!(var4 === var8)) { _fun0005_ip = 24; continue _fun0005 }
- 18:
+                if(!(var4 === var8)) { _fun0005_ip = 18; continue _fun0005 }
+case 9:
                 var4 = var2.root;
- 24:
-                if(!(var3 === var8)) { _fun0005_ip = 30; continue _fun0005 }
- 28:
+case 18:
+                if(!(var3 === var8)) { _fun0005_ip = 19; continue _fun0005 }
+case 20:
                 var3 = true;
- 30:
+case 19:
                 var7 = _closure1_slot1;
                 var9 = _closure1_slot2;
                 var1 = 2;
@@ -423,7 +423,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var6 = function value(arg1, arg2) {
             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
- 0:
+case 0:
                 var2 = arg1;
                 var4 = arg2;
                 var1 = this;
@@ -445,15 +445,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = '[GUILDS TREE] Tried replacing a node with one that does not have an id';
                 var5 = var10.bind(var3)(var9, var5);
                 var5 = var2.parentId;
-                if(!(var7 == var5)) { _fun0006_ip = 105; continue _fun0006 }
- 97:
+                if(!(var7 == var5)) { _fun0006_ip = 21; continue _fun0006 }
+case 22:
                 var5 = var1.root;
-                _fun0006_ip = 121; continue _fun0006;
- 105:
+                _fun0006_ip = 23; continue _fun0006;
+case 21:
                 var9 = var1.nodes;
                 var7 = var2.parentId;
                 var5 = var9[var7];
- 121:
+case 23:
                 var9 = var5.children;
                 var7 = var9.indexOf;
                 var9 = var7.bind(var9)(var2);
@@ -522,7 +522,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var6 = function value(arg1) {
             _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
- 0:
+case 0:
                 var5 = arg1;
                 var3 = this;
                 var1 = _closure1_slot6;
@@ -531,15 +531,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var3.getNode;
                 var1 = var1.bind(var3)(var2);
                 var6 = null;
-                if(!(var6 != var1)) { _fun0007_ip = 62; continue _fun0007 }
- 36:
+                if(!(var6 != var1)) { _fun0007_ip = 24; continue _fun0007 }
+case 25:
                 var1 = _closure1_slot6;
                 var8 = var1.bind(var7)();
                 var1 = var3.getNode;
                 var1 = var1.bind(var3)(var8);
                 var2 = var8;
-                if(var6 != var1) { _fun0007_ip = 36; continue _fun0007 }
- 62:
+                if(var6 != var1) { _fun0007_ip = 25; continue _fun0007 }
+case 24:
                 var1 = {};
                 var4 = _closure1_slot5;
                 var4 = var4.FOLDER;
@@ -618,17 +618,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = function value() {
             var3 = function collectChildren(arg1) {
                 _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
- 0:
+case 0:
                     var3 = arg1;
                     var2 = var3.type;
                     var1 = _closure1_slot5;
                     var1 = var1.GUILD;
-                    if(!(var2 !== var1)) { _fun0008_ip = 76; continue _fun0008 }
- 25:
+                    if(!(var2 !== var1)) { _fun0008_ip = 26; continue _fun0008 }
+case 27:
                     var2 = var3.children;
                     var1 = null;
-                    if(!(var1 != var2)) { _fun0008_ip = 70; continue _fun0008 }
- 36:
+                    if(!(var1 != var2)) { _fun0008_ip = 28; continue _fun0008 }
+case 25:
                     var4 = var3.children;
                     var2 = var4.map;
                     var1 = function(arg1) {
@@ -641,16 +641,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var2.bind(var4)(var1);
                     var1 = var2.flat;
                     var1 = var1.bind(var2)();
-                    _fun0008_ip = 74; continue _fun0008;
- 70:
+                    _fun0008_ip = 29; continue _fun0008;
+case 28:
                     var1 = new Array(0);
- 74:
-                    _fun0008_ip = 87; continue _fun0008;
- 76:
+case 29:
+                    _fun0008_ip = 30; continue _fun0008;
+case 26:
                     var2 = new Array(1);
                     var2[0] = var3;
                     var1 = var2;
- 87:
+case 30:
                     return var1;
                 }
             };
@@ -668,21 +668,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var5 = function value(arg1) {
             _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
- 0:
+case 0:
                 var2 = arg1;
                 var3 = this;
                 var _closure3_slot0 = var2;
                 var1 = var2.parentId;
                 var8 = null;
-                if(!(var8 == var1)) { _fun0009_ip = 32; continue _fun0009 }
- 24:
+                if(!(var8 == var1)) { _fun0009_ip = 31; continue _fun0009 }
+case 18:
                 var5 = var3.root;
-                _fun0009_ip = 48; continue _fun0009;
- 32:
+                _fun0009_ip = 17; continue _fun0009;
+case 31:
                 var6 = var3.nodes;
                 var1 = var2.parentId;
                 var5 = var6[var1];
- 48:
+case 17:
                 var10 = _closure1_slot1;
                 var11 = _closure1_slot2;
                 var9 = 2;
@@ -764,7 +764,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['createGuildNode'] = var4;
     var2 = function createFolderNode(arg1, arg2, arg3) {
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
- 0:
+case 0:
             var4 = arg1;
             var2 = arg3;
             var1 = {};
@@ -779,29 +779,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = null;
             var8 = var3 != var7;
             var6 = undefined;
-            if(!var8) { _fun0010_ip = 63; continue _fun0010 }
- 60:
+            if(!var8) { _fun0010_ip = 32; continue _fun0010 }
+case 33:
             var6 = var7;
- 63:
+case 32:
             var1['name'] = var6;
             var6 = var4.folderColor;
             var7 = var3 != var6;
             var5 = undefined;
-            if(!var7) { _fun0010_ip = 85; continue _fun0010 }
- 82:
+            if(!var7) { _fun0010_ip = 34; continue _fun0010 }
+case 35:
             var5 = var6;
- 85:
+case 34:
             var1['color'] = var5;
-            if(!(var3 == var2)) { _fun0010_ip = 112; continue _fun0010 }
- 93:
+            if(!(var3 == var2)) { _fun0010_ip = 36; continue _fun0010 }
+case 37:
             var4 = var4.expanded;
             var3 = var3 != var4;
-            if(!var3) { _fun0010_ip = 109; continue _fun0010 }
- 106:
+            if(!var3) { _fun0010_ip = 38; continue _fun0010 }
+case 39:
             var3 = var4;
- 109:
+case 38:
             var2 = var3;
- 112:
+case 36:
             var1['expanded'] = var2;
             var2 = new Array(0);
             var1['children'] = var2;

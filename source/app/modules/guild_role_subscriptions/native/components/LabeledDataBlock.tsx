@@ -83,7 +83,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function LabeledDataBlock(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var10 = var1.children;
             var12 = var1.title;
@@ -120,8 +120,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[0] = var8;
             var8 = null;
             var8 = var8 != var16;
-            if(!var8) { _fun0001_ip = 273; continue _fun0001 }
- 166:
+            if(!var8) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var13 = _closure1_slot4;
             var12 = _closure1_slot0;
             var19 = _closure1_slot2;
@@ -147,7 +147,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var13.bind(var4)(var15, var14);
             var9['children'] = var14;
             var8 = var13.bind(var4)(var12, var9);
- 273:
+case 2:
             var6[1] = var8;
             var5['children'] = var6;
             var6 = var3.bind(var4)(var2, var5);
@@ -156,8 +156,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = 'string';
             var8 = typeof var10;
             var6 = var10;
-            if(!(var9 === var8)) { _fun0001_ip = 360; continue _fun0001 }
- 309:
+            if(!(var9 === var8)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var9 = _closure1_slot4;
             var8 = _closure1_slot0;
             var12 = _closure1_slot2;
@@ -170,7 +170,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7['style'] = var11;
             var7['children'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 360:
+case 4:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

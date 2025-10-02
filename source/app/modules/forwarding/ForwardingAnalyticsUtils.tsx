@@ -83,7 +83,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['trackForwardCancel'] = var4;
     var4 = function trackForwardSent(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var5 = var1.channelId;
             var9 = var1.messageId;
@@ -114,8 +114,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['any_destination_has_slowmode'] = var11;
             var3 = var8.bind(var10)(var7, var3);
             var3 = 'message-shortcut';
-            if(!(var3 === var4)) { _fun0001_ip = 316; continue _fun0001 }
- 164:
+            if(!(var3 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = _closure1_slot4;
             var3 = var4.getChannel;
             var8 = var3.bind(var4)(var5);
@@ -138,10 +138,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = null;
             var12 = var7 == var8;
             var7 = undefined;
-            if(var12) { _fun0001_ip = 263; continue _fun0001 }
- 258:
+            if(var12) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var7 = var8.guild_id;
- 263:
+case 4:
             var18 = var10.bind(var11)(var7);
             var19 = var2;
             var7 = copyDataProperties(var19, var18);
@@ -154,7 +154,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var19 = var2;
             var6 = copyDataProperties(var19, var18);
             var2 = var4.bind(var5)(var3, var2);
- 316:
+case 2:
             return var1;
         }
     };

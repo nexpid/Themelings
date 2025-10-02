@@ -81,12 +81,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function GuildRoleSubscriptionMemberPreview(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var12 = var1.content;
             var5 = undefined;
-            if(!(var12 === var5)) { _fun0001_ip = 72; continue _fun0001 }
- 14:
+            if(!(var12 === var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = _closure1_slot0;
             var7 = _closure1_slot3;
             var2 = 6;
@@ -99,7 +99,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.t;
             var2 = var2.6OSasb;
             var12 = var3.bind(var4)(var2);
- 72:
+case 2:
             var15 = var1.guildId;
             var7 = var1.style;
             var13 = var1.textStyle;
@@ -129,8 +129,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.useName;
             var1 = null;
             var16 = var2.bind(var3)(var15, var1, var14);
-            if(!(var1 != var25)) { _fun0001_ip = 850; continue _fun0001 }
- 195:
+            if(!(var1 != var25)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = _closure1_slot1;
             var2 = _closure1_slot3;
             var11 = 9;
@@ -139,21 +139,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.makeSource;
             var6 = var1 == var14;
             var2 = undefined;
-            if(var6) { _fun0001_ip = 245; continue _fun0001 }
- 230:
+            if(var6) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var8 = var14.getAvatarURL;
             var6 = 40;
             var2 = var8.bind(var14)(var15, var6);
- 245:
-            if(!(var1 == var2)) { _fun0001_ip = 278; continue _fun0001 }
- 249:
+case 6:
+            if(!(var1 == var2)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var8 = _closure1_slot1;
             var6 = _closure1_slot3;
             var6 = var6[var11];
             var8 = var8.bind(var5)(var6);
             var6 = var8.getDefaultAvatarURL;
             var2 = var6.bind(var8)(var5, var5);
- 278:
+case 8:
             var8 = var3.bind(var4)(var2);
             var11 = _closure1_slot0;
             var22 = _closure1_slot3;
@@ -210,8 +210,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15[0] = var9;
             var11 = var1 != var24;
             var9 = null;
-            if(!var11) { _fun0001_ip = 674; continue _fun0001 }
- 525:
+            if(!var11) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var17 = _closure1_slot8;
             var16 = _closure1_slot7;
             var11 = {};
@@ -236,13 +236,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var25 = var24.customIconSrc;
             var26 = var1 != var25;
             var25 = undefined;
-            if(!var26) { _fun0001_ip = 635; continue _fun0001 }
- 620:
+            if(!var26) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var26 = {};
             var27 = var24.customIconSrc;
             var26['uri'] = var27;
             var25 = var26;
- 635:
+case 12:
             var20['source'] = var25;
             var24 = var24.unicodeEmoji;
             var20['unicodeEmoji'] = var24;
@@ -251,7 +251,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var19[1] = var20;
             var11['children'] = var19;
             var9 = var17.bind(var5)(var16, var11);
- 674:
+case 10:
             var15[1] = var9;
             var11 = _closure1_slot6;
             var17 = _closure1_slot1;
@@ -288,7 +288,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['children'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
- 850:
+case 4:
             return var1;
         }
     };

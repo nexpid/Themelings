@@ -25,24 +25,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function isActivityPermanentCustomStatus(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var3 = var2.type;
             var1 = _closure1_slot0;
             var1 = var1.CUSTOM_STATUS;
             var1 = var3 === var1;
-            if(!var1) { _fun0001_ip = 54; continue _fun0001 }
- 28:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = var2.timestamps;
             var3 = null;
             var5 = var3 == var4;
             var2 = undefined;
-            if(var5) { _fun0001_ip = 50; continue _fun0001 }
- 45:
+            if(var5) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = var4.end;
- 50:
+case 4:
             var1 = var3 == var2;
- 54:
+case 2:
             return var1;
         }
     };

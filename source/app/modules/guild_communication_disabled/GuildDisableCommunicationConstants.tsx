@@ -7,35 +7,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var9;
     var5 = function getFriendlyDurationString(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var2 = _closure1_slot2;
             var2 = var2.DURATION_60_SEC;
-            if(!(var2 !== var3)) { _fun0001_ip = 447; continue _fun0001 }
- 23:
+            if(!(var2 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = _closure1_slot2;
             var2 = var2.DURATION_5_MIN;
-            if(!(var2 !== var3)) { _fun0001_ip = 377; continue _fun0001 }
- 40:
+            if(!(var2 !== var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = _closure1_slot2;
             var2 = var2.DURATION_10_MIN;
-            if(!(var2 !== var3)) { _fun0001_ip = 307; continue _fun0001 }
- 57:
+            if(!(var2 !== var3)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var2 = _closure1_slot2;
             var2 = var2.DURATION_1_HOUR;
-            if(!(var2 !== var3)) { _fun0001_ip = 240; continue _fun0001 }
- 74:
+            if(!(var2 !== var3)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var2 = _closure1_slot2;
             var2 = var2.DURATION_1_DAY;
-            if(!(var2 !== var3)) { _fun0001_ip = 173; continue _fun0001 }
- 88:
+            if(!(var2 !== var3)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var2 = _closure1_slot2;
             var2 = var2.DURATION_1_WEEK;
-            if(!(var2 !== var3)) { _fun0001_ip = 106; continue _fun0001 }
- 102:
+            if(!(var2 !== var3)) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var2 = undefined;
             return var2;
- 106:
+case 12:
             var7 = _closure1_slot0;
             var2 = _closure1_slot1;
             var6 = 1;
@@ -52,7 +52,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['weeks'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
- 173:
+case 10:
             var7 = _closure1_slot0;
             var2 = _closure1_slot1;
             var6 = 1;
@@ -69,7 +69,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['days'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
- 240:
+case 8:
             var7 = _closure1_slot0;
             var2 = _closure1_slot1;
             var6 = 1;
@@ -86,7 +86,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['hours'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
- 307:
+case 6:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var2 = 1;
@@ -104,7 +104,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['mins'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
- 377:
+case 4:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var2 = 1;
@@ -122,7 +122,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['mins'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
- 447:
+case 2:
             var5 = _closure1_slot0;
             var6 = _closure1_slot1;
             var1 = 1;
@@ -218,7 +218,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var3.map;
         var1 = function(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var3 = arg1;
                 var1 = {};
                 var6 = _closure1_slot3;
@@ -229,10 +229,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = null;
                 var6 = var4 != var5;
                 var4 = '';
-                if(!var6) { _fun0002_ip = 43; continue _fun0002 }
- 40:
+                if(!var6) { _fun0002_ip = 14; continue _fun0002 }
+case 5:
                 var4 = var5;
- 43:
+case 14:
                 var1['label'] = var4;
                 var2 = _closure1_slot2;
                 var2 = var2[var3];

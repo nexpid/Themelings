@@ -42,7 +42,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function AppLauncherRoleOption(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var11 = var2.style;
             var10 = var2.option;
@@ -65,22 +65,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var13.useState;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var1 = _closure2_slot1;
                     var5 = null;
                     var3 = var5 != var1;
                     var1 = null;
-                    if(!var3) { _fun0002_ip = 47; continue _fun0002 }
- 18:
+                    if(!var3) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var3 = _closure2_slot1;
                     var4 = var3.type;
                     var3 = 'roleMention';
                     var1 = null;
-                    if(!(var3 === var4)) { _fun0002_ip = 47; continue _fun0002 }
- 37:
+                    if(!(var3 === var4)) { _fun0002_ip = 2; continue _fun0002 }
+case 4:
                     var2 = _closure2_slot1;
                     var1 = var2.roleId;
- 47:
+case 2:
                     return var1;
                 }
             };
@@ -106,25 +106,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[0] = var2;
             var2 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var1 = _closure2_slot7;
                     var3 = null;
-                    if(!(var3 == var1)) { _fun0003_ip = 17; continue _fun0003 }
- 13:
+                    if(!(var3 == var1)) { _fun0003_ip = 5; continue _fun0003 }
+case 6:
                     var1 = undefined;
                     return var1;
- 17:
+case 5:
                     var1 = _closure2_slot6;
                     var3 = var3 != var1;
                     var1 = undefined;
-                    if(!var3) { _fun0003_ip = 57; continue _fun0003 }
- 30:
+                    if(!var3) { _fun0003_ip = 7; continue _fun0003 }
+case 8:
                     var5 = _closure1_slot5;
                     var4 = var5.getRole;
                     var3 = _closure2_slot6;
                     var2 = _closure2_slot7;
                     var1 = var4.bind(var5)(var3, var2);
- 57:
+case 7:
                     return var1;
                 }
             };
@@ -139,23 +139,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[3] = var1;
             var1 = function() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                     var3 = _closure2_slot7;
                     var1 = null;
                     var3 = var1 != var3;
-                    if(!var3) { _fun0004_ip = 24; continue _fun0004 }
- 16:
+                    if(!var3) { _fun0004_ip = 9; continue _fun0004 }
+case 10:
                     var4 = _closure2_slot9;
                     var3 = var1 == var4;
- 24:
-                    if(!var3) { _fun0004_ip = 45; continue _fun0004 }
- 27:
+case 9:
+                    if(!var3) { _fun0004_ip = 11; continue _fun0004 }
+case 12:
                     var3 = _closure2_slot2;
                     var2 = {};
                     var2['role'] = var1;
                     var1 = undefined;
                     var1 = var3.bind(var1)(var2);
- 45:
+case 11:
                     var1 = undefined;
                     return var1;
                 }
@@ -175,22 +175,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['selected'] = var10;
             var10 = var8 != var9;
             var8 = undefined;
-            if(!var10) { _fun0001_ip = 307; continue _fun0001 }
- 302:
+            if(!var10) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var8 = var9.name;
- 307:
+case 13:
             var1['selectedItemName'] = var8;
             var7 = function onPress() {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
                     var2 = _closure2_slot5;
                     var1 = null;
-                    if(!(var1 != var2)) { _fun0005_ip = 23; continue _fun0005 }
- 13:
+                    if(!(var1 != var2)) { _fun0005_ip = 15; continue _fun0005 }
+case 6:
                     var2 = _closure2_slot5;
                     var1 = undefined;
                     var1 = var2.bind(var1)();
- 23:
+case 15:
                     var4 = _closure1_slot1;
                     var8 = _closure1_slot2;
                     var1 = 6;

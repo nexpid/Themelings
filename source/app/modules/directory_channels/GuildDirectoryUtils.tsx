@@ -70,7 +70,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = var7.bind(var8)(var6);
     var6 = function guildDirectoryEntryFromServer(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var5 = _closure1_slot0;
             var4 = _closure1_slot1;
@@ -103,36 +103,36 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = null;
             var7 = var4 == var6;
             var5 = undefined;
-            if(var7) { _fun0001_ip = 153; continue _fun0001 }
- 148:
+            if(var7) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = var6.name;
- 153:
+case 2:
             var1['name'] = var5;
             var6 = var3.guild;
             var7 = var4 == var6;
             var5 = undefined;
-            if(var7) { _fun0001_ip = 176; continue _fun0001 }
- 171:
+            if(var7) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = var6.icon;
- 176:
+case 4:
             var1['icon'] = var5;
             var6 = var3.guild;
             var7 = var4 == var6;
             var5 = undefined;
-            if(var7) { _fun0001_ip = 200; continue _fun0001 }
- 194:
+            if(var7) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var5 = var6.splash;
- 200:
+case 6:
             var1['splash'] = var5;
             var5 = global;
             var7 = var5.Set;
             var6 = var3.guild;
             var8 = var4 == var6;
             var5 = undefined;
-            if(var8) { _fun0001_ip = 233; continue _fun0001 }
- 227:
+            if(var8) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var5 = var6.features;
- 233:
+case 8:
             var6 = var7.prototype;
             var6 = Object.create(var6, {constructor: {value: var7}});
             var11 = var6;
@@ -143,26 +143,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var3.guild;
             var7 = var4 == var6;
             var5 = undefined;
-            if(var7) { _fun0001_ip = 281; continue _fun0001 }
- 275:
+            if(var7) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var5 = var6.approximate_member_count;
- 281:
+case 10:
             var1['approximateMemberCount'] = var5;
             var6 = var3.guild;
             var7 = var4 == var6;
             var5 = undefined;
-            if(var7) { _fun0001_ip = 306; continue _fun0001 }
- 300:
+            if(var7) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var5 = var6.approximate_presence_count;
- 306:
+case 12:
             var1['approximatePresenceCount'] = var5;
             var3 = var3.guild;
             var4 = var4 == var3;
             var2 = undefined;
-            if(var4) { _fun0001_ip = 333; continue _fun0001 }
- 325:
+            if(var4) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var2 = var3.featurable_in_directory;
- 333:
+case 14:
             var1['featurableInDirectory'] = var2;
             return var1;
         }

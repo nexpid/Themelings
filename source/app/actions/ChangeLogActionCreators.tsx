@@ -119,7 +119,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['markChangelogAsSeen'] = var7;
     var7 = function setChangelogOverride(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var3 = this;
             var5 = _closure1_slot1;
@@ -135,11 +135,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['id'] = var4;
             var2 = var5.bind(var6)(var2);
             var2 = null;
-            if(!(var2 != var4)) { _fun0001_ip = 74; continue _fun0001 }
- 63:
+            if(!(var2 != var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var3.sendChangelogMessage;
             var2 = var2.bind(var3)(var4);
- 74:
+case 2:
             return var1;
         }
     };
@@ -196,17 +196,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['fetchChangelogConfig'] = var7;
     var4 = function fetchChangelog(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var3 = arguments[2];
             var2 = arg1;
             var _closure2_slot0 = var2;
             var2 = arg2;
             var _closure2_slot1 = var2;
             var2 = undefined;
-            if(!(var3 === var2)) { _fun0002_ip = 27; continue _fun0002 }
- 25:
+            if(!(var3 === var2)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var3 = false;
- 27:
+case 4:
             var _closure2_slot2 = var3;
             var3 = this;
             var _closure2_slot3 = var3;
@@ -214,11 +214,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = function* () {
                 var1 = function* anon_0_() {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0003_ip = 380; continue _fun0003 }
- 10:
+                        if(var2) { _fun0003_ip = 6; continue _fun0003 }
+case 7:
                         var6 = undefined;
                         var9 = undefined;
                         var8 = _closure1_slot4;
@@ -227,19 +227,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = _closure2_slot1;
                         var5 = var7.bind(var8)(var5, var2);
                         var2 = null;
-                        if(!(var2 == var5)) { _fun0003_ip = 377; continue _fun0003 }
- 53:
+                        if(!(var2 == var5)) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
                         var5 = _closure2_slot2;
                         var7 = _closure1_slot6;
-                        if(var5) { _fun0003_ip = 72; continue _fun0003 }
- 64:
+                        if(var5) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
                         var5 = var7.MOBILE;
-                        _fun0003_ip = 78; continue _fun0003;
- 72:
+                        _fun0003_ip = 12; continue _fun0003;
+case 10:
                         var5 = var7.DESKTOP;
- 78:
+case 12:
                         var9 = var5;
- 81: // try_start_0
+case 13: // try_start_0
                         var7 = _closure1_slot0;
                         var8 = _closure1_slot2;
                         var5 = 6;
@@ -267,12 +267,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var5['rejectWithError'] = var9;
                         var5 = var7.bind(var8)(var5);
                         SaveGenerator(address=190);
- 188:
+case 14:
                         return var5;
- 190:
+case 15:
                         ResumeGenerator(result_out_reg=4, return_bool_out_reg=6);
-                        if(var7) { _fun0003_ip = 264; continue _fun0003 }
- 196:
+                        if(var7) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
                         var8 = _closure1_slot1;
                         var9 = _closure1_slot2;
                         var7 = 4;
@@ -288,11 +288,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var7['changelog'] = var10;
                         var7 = var8.bind(var9)(var7);
                         var7 = var5.body;
- 261: // try_end0
+case 18: // try_end0
                         return var7;
- 264:
+case 16:
                         return var5;
- 267: // catch_target0
+case 19: // catch_target0
                         CatchBlockStart(arg_register=4);
                         var5 = _closure1_slot1;
                         var7 = _closure1_slot2;
@@ -310,26 +310,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var4 = var6.bind(var7)(var4);
                         var7 = 'en-US';
                         var4 = null;
-                        if(!(var7 !== var5)) { _fun0003_ip = 371; continue _fun0003 }
- 338:
+                        if(!(var7 !== var5)) { _fun0003_ip = 20; continue _fun0003 }
+case 21:
                         var6 = _closure2_slot3;
                         var5 = var6.fetchChangelog;
                         var3 = _closure2_slot0;
                         var3 = var5.bind(var6)(var3, var7);
                         SaveGenerator(address=362);
- 360:
+case 22:
                         return var3;
- 362:
+case 23:
                         ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
                         var4 = var3;
-                        if(var5) { _fun0003_ip = 374; continue _fun0003 }
- 371:
+                        if(var5) { _fun0003_ip = 24; continue _fun0003 }
+case 20:
                         return var4;
- 374:
+case 24:
                         return var3;
- 377:
+case 8:
                         return var2;
- 380:
+case 6:
                         return var1;
                     }
                 };

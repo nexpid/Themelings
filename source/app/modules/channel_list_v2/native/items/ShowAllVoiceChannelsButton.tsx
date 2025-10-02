@@ -37,7 +37,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var12 = var2.guildId;
             var _closure2_slot0 = var12;
@@ -73,7 +73,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[3] = var10;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = _closure2_slot3;
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot1;
@@ -81,21 +81,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var4[var1];
                     var1 = undefined;
                     var4 = var5.bind(var1)(var4);
-                    if(var3) { _fun0002_ip = 80; continue _fun0002 }
- 35:
+                    if(var3) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var5 = var4.voiceCategoryCollapse;
                     var3 = _closure2_slot0;
                     var3 = var5.bind(var4)(var3);
                     var3 = _closure2_slot2;
                     var6 = var3.current;
                     var3 = null;
-                    if(!(var3 != var6)) { _fun0002_ip = 120; continue _fun0002 }
- 65:
+                    if(!(var3 != var6)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var5 = var6.scrollToTop;
                     var3 = false;
                     var3 = var5.bind(var6)(var3);
-                    _fun0002_ip = 120; continue _fun0002;
- 80:
+                    _fun0002_ip = 4; continue _fun0002;
+case 2:
                     var3 = var4.voiceCategoryExpand;
                     var2 = _closure2_slot0;
                     var2 = var3.bind(var4)(var2);
@@ -103,12 +103,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var2.setTimeout;
                     var3 = function() {
                         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                             var1 = _closure2_slot2;
                             var3 = var1.current;
                             var1 = null;
-                            if(!(var1 != var3)) { _fun0003_ip = 116; continue _fun0003 }
- 18:
+                            if(!(var1 != var3)) { _fun0003_ip = 6; continue _fun0003 }
+case 7:
                             var2 = var3.scrollToLocation;
                             var1 = {'animated': false, 'section': null, 'item': 0};
                             var4 = _closure2_slot1;
@@ -126,14 +126,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var4 = var5.bind(var6)(var4);
                             var1['paddingStart'] = var4;
                             var1 = var2.bind(var3)(var1);
- 116:
+case 6:
                             var1 = undefined;
                             return var1;
                         }
                     };
                     var2 = 0;
                     var2 = var4.bind(var1)(var3, var2);
- 120:
+case 4:
                     return var1;
                 }
             };
@@ -154,15 +154,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var12[var8];
             var8 = var11.bind(var4)(var8);
             var8 = var8.t;
-            if(var7) { _fun0001_ip = 220; continue _fun0001 }
- 205:
+            if(var7) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var7 = var8.Q2gPWl;
             var7 = var9.bind(var10)(var7);
-            _fun0001_ip = 233; continue _fun0001;
- 220:
+            _fun0001_ip = 10; continue _fun0001;
+case 8:
             var8 = var8./eB9Bg;
             var7 = var9.bind(var10)(var8);
- 233:
+case 10:
             var1['text'] = var7;
             var9 = _closure1_slot5;
             var7 = _closure1_slot0;

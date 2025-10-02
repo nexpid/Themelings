@@ -28,22 +28,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function AvatarLokyExample(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var7 = var1.accessible;
             var6 = var1.accessibilityLabel;
             var5 = var1.resizeMode;
             var10 = var1.width;
             var4 = undefined;
-            if(!(var10 === var4)) { _fun0001_ip = 34; continue _fun0001 }
- 31:
+            if(!(var10 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var10 = 100;
- 34:
+case 2:
             var8 = var1.height;
-            if(!(var8 === var4)) { _fun0001_ip = 46; continue _fun0001 }
- 43:
+            if(!(var8 === var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var8 = 100;
- 46:
+case 4:
             var3 = _closure1_slot2;
             var12 = _closure1_slot0;
             var13 = _closure1_slot1;

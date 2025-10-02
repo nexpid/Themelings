@@ -71,17 +71,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var5 = function value(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var2 = arg1;
                 var1 = _closure2_slot0;
                 var1 = var2 instanceof var1;
-                if(!var1) { _fun0001_ip = 34; continue _fun0001 }
- 17:
+                if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var3 = var2.applicationId;
                 var2 = this;
                 var2 = var2.applicationId;
                 var1 = var3 === var2;
- 34:
+case 2:
                 return var1;
             }
         };

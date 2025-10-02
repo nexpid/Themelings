@@ -74,7 +74,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['setIsOnStartStageScreen'] = var4;
     var2 = function useUpdateIsOnStartStageScreenEffect(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var _closure2_slot0 = var4;
             var6 = _closure1_slot0;
@@ -128,10 +128,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.id;
             var4 = var6.bind(var1)(var4);
             var6 = var5;
-            if(!var6) { _fun0001_ip = 147; continue _fun0001 }
- 144:
+            if(!var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = !var4;
- 147:
+case 2:
             var _closure2_slot2 = var6;
             var5 = _closure1_slot3;
             var4 = var5.useEffect;
@@ -140,24 +140,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[1] = var6;
             var2 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var2 = _closure2_slot1;
-                    if(var2) { _fun0002_ip = 30; continue _fun0002 }
- 10:
+                    if(var2) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var4 = _closure1_slot7;
                     var3 = _closure2_slot2;
                     var2 = undefined;
                     var2 = var4.bind(var2)(var3);
-                    _fun0002_ip = 53; continue _fun0002;
- 30:
+                    _fun0002_ip = 6; continue _fun0002;
+case 4:
                     var1 = _closure2_slot2;
-                    if(var1) { _fun0002_ip = 53; continue _fun0002 }
- 37:
+                    if(var1) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var3 = _closure1_slot7;
                     var2 = undefined;
                     var1 = false;
                     var1 = var3.bind(var2)(var1);
- 53:
+case 6:
                     var1 = undefined;
                     return var1;
                 }

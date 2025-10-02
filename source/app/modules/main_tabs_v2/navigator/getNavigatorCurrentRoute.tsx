@@ -22,11 +22,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function getNavigatorCurrentRoute() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arguments[0];
             var2 = undefined;
-            if(!(var4 === var2)) { _fun0001_ip = 41; continue _fun0001 }
- 9:
+            if(!(var4 === var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = _closure1_slot0;
             var5 = _closure1_slot1;
             var1 = 0;
@@ -34,28 +34,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var2)(var1);
             var1 = var3.getRootNavigationRef;
             var4 = var1.bind(var3)();
- 41:
+case 2:
             var3 = null;
             var1 = var3 == var4;
             var6 = undefined;
-            if(var1) { _fun0001_ip = 62; continue _fun0001 }
- 52:
+            if(var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = var4.isReady;
             var6 = var1.bind(var4)();
- 62:
+case 4:
             var5 = true;
             var1 = undefined;
-            if(!(var5 === var6)) { _fun0001_ip = 92; continue _fun0001 }
- 70:
+            if(!(var5 === var6)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var3 = var3 == var4;
             var2 = undefined;
-            if(var3) { _fun0001_ip = 89; continue _fun0001 }
- 79:
+            if(var3) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var3 = var4.getCurrentRoute;
             var2 = var3.bind(var4)();
- 89:
+case 8:
             var1 = var2;
- 92:
+case 6:
             return var1;
         }
     };

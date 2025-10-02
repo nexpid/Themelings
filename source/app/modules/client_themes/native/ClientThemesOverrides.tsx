@@ -59,18 +59,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[0] = var5;
         var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var2 = _closure2_slot0;
                 var1 = null;
                 var2 = var1 != var2;
                 var1 = undefined;
-                if(!var2) { _fun0001_ip = 31; continue _fun0001 }
- 18:
+                if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var2 = {};
                 var3 = _closure2_slot0;
                 var2['backgroundColor'] = var3;
                 var1 = var2;
- 31:
+case 2:
                 return var1;
             }
         };
@@ -98,18 +98,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[0] = var5;
         var1 = function() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var2 = _closure2_slot0;
                 var1 = null;
                 var2 = var1 != var2;
                 var1 = undefined;
-                if(!var2) { _fun0002_ip = 31; continue _fun0002 }
- 18:
+                if(!var2) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                 var2 = {};
                 var3 = _closure2_slot0;
                 var2['backgroundColor'] = var3;
                 var1 = var2;
- 31:
+case 2:
                 return var1;
             }
         };
@@ -137,18 +137,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[0] = var5;
         var1 = function() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var2 = _closure2_slot0;
                 var1 = null;
                 var2 = var1 != var2;
                 var1 = undefined;
-                if(!var2) { _fun0003_ip = 31; continue _fun0003 }
- 18:
+                if(!var2) { _fun0003_ip = 2; continue _fun0003 }
+case 3:
                 var2 = {};
                 var3 = _closure2_slot0;
                 var2['backgroundColor'] = var3;
                 var1 = var2;
- 31:
+case 2:
                 return var1;
             }
         };
@@ -158,7 +158,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['useGradientMidpoint'] = var4;
     var2 = function(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var2 = arg1;
             var5 = _closure1_slot1;
             var4 = _closure1_slot2;
@@ -167,16 +167,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = undefined;
             var4 = var5.bind(var1)(var4);
             var4 = var4.bind(var1)();
-            if(!var4) { _fun0004_ip = 54; continue _fun0004 }
- 35:
+            if(!var4) { _fun0004_ip = 4; continue _fun0004 }
+case 5:
             var4 = null;
-            if(!(var4 == var2)) { _fun0004_ip = 51; continue _fun0004 }
- 41:
+            if(!(var4 == var2)) { _fun0004_ip = 6; continue _fun0004 }
+case 7:
             var3 = _closure1_slot4;
             var2 = var3.none;
- 51:
+case 6:
             var1 = var2;
- 54:
+case 4:
             return var1;
         }
     };

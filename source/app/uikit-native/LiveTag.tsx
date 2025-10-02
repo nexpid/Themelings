@@ -1,7 +1,7 @@
 // app/uikit-native/LiveTag.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
         var5 = require;
         var12 = metroImportDefault;
         var3 = exports;
@@ -60,10 +60,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var12 = var5.bind(var1)(var11);
         var11 = var12.isAndroid;
         var11 = var11.bind(var12)();
-        if(!var11) { _fun0001_ip = 259; continue _fun0001 }
- 253:
+        if(!var11) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
         var10 = -2;
- 259:
+case 2:
         var9['marginTop'] = var10;
         var4['tagText'] = var9;
         var4 = var7.bind(var8)(var4);

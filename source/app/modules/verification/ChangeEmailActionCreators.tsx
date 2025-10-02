@@ -14,11 +14,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = function* (arg1) {
             var1 = function* anon_0_(arg1) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 142; continue _fun0001 }
- 10:
+                    if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var3 = _closure1_slot1;
                     var9 = _closure1_slot2;
                     var2 = 2;
@@ -47,17 +47,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2['rejectWithError'] = var5;
                     var2 = var3.bind(var4)(var2);
                     SaveGenerator(address=125);
- 123:
+case 4:
                     return var2;
- 125:
+case 5:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0001_ip = 139; continue _fun0001 }
- 131:
+                    if(var3) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                     var3 = var2.body;
                     return var3;
- 139:
+case 6:
                     return var2;
- 142:
+case 2:
                     return var1;
                 }
             };
@@ -99,13 +99,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function sendConfirmationCode() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var6 = arguments[0];
             var8 = undefined;
-            if(!(var6 === var8)) { _fun0002_ip = 11; continue _fun0002 }
- 9:
+            if(!(var6 === var8)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var6 = false;
- 11:
+case 8:
             var2 = _closure1_slot1;
             var9 = _closure1_slot2;
             var1 = 2;

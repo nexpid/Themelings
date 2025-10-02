@@ -79,7 +79,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function ResendEmail() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = _closure1_slot12;
             var4 = undefined;
             var17 = var1.bind(var4)();
@@ -158,17 +158,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[0] = var2;
             var2 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var1 = _closure2_slot1;
-                    if(!var1) { _fun0002_ip = 25; continue _fun0002 }
- 10:
+                    if(!var1) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var2 = _closure2_slot3;
                     var3 = var2.current;
                     var2 = false;
                     var1 = var2 === var3;
- 25:
-                    if(!var1) { _fun0002_ip = 63; continue _fun0002 }
- 28:
+case 2:
+                    if(!var1) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
                     var1 = 12;
@@ -177,7 +177,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var3.bind(var1)(var2);
                     var1 = var2.close;
                     var1 = var1.bind(var2)();
- 63:
+case 4:
                     var1 = undefined;
                     return var1;
                 }
@@ -253,16 +253,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var18 = var13[var15];
             var18 = var14.bind(var4)(var18);
             var19 = var18.intl;
-            if(var12) { _fun0001_ip = 577; continue _fun0001 }
- 543:
+            if(var12) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var18 = var19.string;
             var12 = var13[var15];
             var12 = var14.bind(var4)(var12);
             var12 = var12.t;
             var12 = var12.tSXg8P;
             var12 = var18.bind(var19)(var12);
-            _fun0001_ip = 617; continue _fun0001;
- 577:
+            _fun0001_ip = 8; continue _fun0001;
+case 6:
             var18 = var19.format;
             var13 = var13[var15];
             var13 = var14.bind(var4)(var13);
@@ -271,7 +271,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = {};
             var13['email'] = var20;
             var12 = var18.bind(var19)(var14, var13);
- 617:
+case 8:
             var7['children'] = var12;
             var7 = var9.bind(var4)(var8, var7);
             var5[2] = var7;
@@ -339,8 +339,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7['shrink'] = var10;
             var7 = var9.bind(var4)(var8, var7);
             var5[3] = var7;
-            if(!var6) { _fun0001_ip = 905; continue _fun0001 }
- 780:
+            if(!var6) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var9 = _closure1_slot10;
             var13 = _closure1_slot1;
             var12 = _closure1_slot2;
@@ -368,7 +368,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7['onPress'] = var11;
             var7['shrink'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 905:
+case 9:
             var5[4] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

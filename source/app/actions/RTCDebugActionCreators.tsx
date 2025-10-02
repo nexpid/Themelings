@@ -164,15 +164,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var4.then;
         var2 = function(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var2 = arg1;
                 var3 = var2.length;
                 var5 = '';
                 var1 = 0;
-                if(!(var1 !== var3)) { _fun0001_ip = 22; continue _fun0001 }
- 18:
+                if(!(var1 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var5 = var2[var1];
- 22:
+case 2:
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot1;
                 var1 = 1;

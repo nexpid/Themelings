@@ -29,13 +29,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function createPostPreviewEmbeds(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arguments[1];
             var4 = undefined;
-            if(!(var1 === var4)) { _fun0001_ip = 13; continue _fun0001 }
- 11:
+            if(!(var1 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = false;
- 13:
+case 2:
             var _closure2_slot0 = var1;
             var1 = new Array(0);
             var _closure2_slot1 = var1;
@@ -49,26 +49,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = false;
             var3 = var3 === var5;
             var4 = undefined;
-            if(var3) { _fun0001_ip = 87; continue _fun0001 }
- 69:
+            if(var3) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = arg1;
             var5 = var5.embeds;
             var6 = null;
             var3 = var6 == var5;
             var4 = var5;
- 87:
-            if(var3) { _fun0001_ip = 107; continue _fun0001 }
- 90:
+case 4:
+            if(var3) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var3 = var4.forEach;
             var2 = function(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var2 = arg1;
                     var4 = var2.type;
                     var3 = _closure1_slot3;
                     var3 = var3.POST_PREVIEW;
-                    if(!(var4 === var3)) { _fun0002_ip = 85; continue _fun0002 }
- 25:
+                    if(!(var4 === var3)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
                     var1 = 2;
@@ -79,20 +79,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = _closure2_slot0;
                     var4 = var5.bind(var1)(var4, var3);
                     var3 = null;
-                    if(!(var3 != var4)) { _fun0002_ip = 89; continue _fun0002 }
- 71:
+                    if(!(var3 != var4)) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
                     var3 = _closure2_slot1;
                     var2 = var3.push;
                     var2 = var2.bind(var3)(var4);
- 85:
+case 8:
                     var2 = undefined;
                     return var2;
- 89:
+case 10:
                     return var1;
                 }
             };
             var2 = var3.bind(var4)(var2);
- 107:
+case 6:
             return var1;
         }
     };

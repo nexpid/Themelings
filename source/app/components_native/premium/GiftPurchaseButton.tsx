@@ -41,7 +41,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function _default(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var12 = var1.style;
             var11 = var1.color;
@@ -49,10 +49,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot0 = var8;
             var2 = var1.analyticsLocation;
             var4 = undefined;
-            if(!(var2 === var4)) { _fun0001_ip = 39; continue _fun0001 }
- 37:
+            if(!(var2 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = {};
- 39:
+case 2:
             var _closure2_slot1 = var2;
             var1 = var1.recipientUserId;
             var _closure2_slot2 = var1;
@@ -117,11 +117,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             _closure2_slot4 = var2;
             var2 = null;
             var2 = var2 != var3;
-            if(!var2) { _fun0001_ip = 269; continue _fun0001 }
- 259:
+            if(!var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = var3.planId;
             var2 = var3 === var8;
- 269:
+case 4:
             _closure2_slot5 = var2;
             var9 = _closure1_slot1;
             var10 = _closure1_slot2;

@@ -135,7 +135,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function BannerBase(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var15 = var1.image;
             var11 = var1.text;
@@ -208,15 +208,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var9.useAnimatedStyle;
             var3 = function _() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var1 = {};
                     var4 = _closure2_slot1;
                     var3 = var4.get;
                     var4 = var3.bind(var4)();
                     var9 = 0;
                     var3 = 0;
-                    if(!var4) { _fun0002_ip = 95; continue _fun0002 }
- 25:
+                    if(!var4) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var10 = _closure1_slot0;
                     var11 = _closure1_slot2;
                     var5 = 8;
@@ -233,15 +233,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var8.bind(var10)(var4, var5);
                     var4 = 150;
                     var3 = var6.bind(var7)(var4, var5);
- 95:
+case 2:
                     var1['opacity'] = var3;
                     var3 = {};
                     var4 = _closure2_slot1;
                     var2 = var4.get;
                     var4 = var2.bind(var4)();
                     var2 = 30;
-                    if(!var4) { _fun0002_ip = 187; continue _fun0002 }
- 120:
+                    if(!var4) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var10 = _closure1_slot0;
                     var11 = _closure1_slot2;
                     var5 = 8;
@@ -257,7 +257,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var5.bind(var8)(var9, var4);
                     var4 = 150;
                     var2 = var6.bind(var7)(var4, var5);
- 187:
+case 4:
                     var3['translateY'] = var2;
                     var2 = new Array(1);
                     var2[0] = var3;
@@ -294,10 +294,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[0] = var9;
             var9 = {};
             var19 = var18 > var13;
-            if(!var19) { _fun0001_ip = 448; continue _fun0001 }
- 445:
+            if(!var19) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var13 = var16;
- 448:
+case 6:
             var9['opacity'] = var13;
             var9['width'] = var14;
             var6[1] = var9;
@@ -305,7 +305,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['style'] = var6;
             var5 = function onLayout(arg1) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var1 = arg1;
                     var1 = var1.nativeEvent;
                     var2 = var1.layout;
@@ -313,20 +313,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var1 == var2;
                     var1 = undefined;
                     var4 = undefined;
-                    if(var3) { _fun0003_ip = 33; continue _fun0003 }
- 28:
+                    if(var3) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
                     var4 = var2.height;
- 33:
+case 8:
                     var2 = 0;
-                    if(!(var4 > var2)) { _fun0003_ip = 67; continue _fun0003 }
- 39:
+                    if(!(var4 > var2)) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
                     var3 = _closure2_slot0;
                     var3 = var3.bind(var1)(var4);
                     var4 = _closure2_slot1;
                     var3 = var4.set;
                     var2 = true;
                     var2 = var3.bind(var4)(var2);
- 67:
+case 10:
                     return var1;
                 }
             };

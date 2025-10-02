@@ -51,19 +51,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[0] = var6;
         var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var3 = _closure2_slot0;
                 var1 = null;
                 var1 = var1 != var3;
-                if(!var1) { _fun0001_ip = 49; continue _fun0001 }
- 16:
+                if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var5 = _closure1_slot3;
                 var4 = var5.can;
                 var3 = _closure1_slot4;
                 var3 = var3.MENTION_EVERYONE;
                 var2 = _closure2_slot0;
                 var1 = var4.bind(var5)(var3, var2);
- 49:
+case 2:
                 return var1;
             }
         };
@@ -73,16 +73,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['useCanSendStageStartNotification'] = var4;
     var2 = function useDefaultSendStartStageNotificationToggle(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = null;
             var4 = var2 == var1;
             var7 = undefined;
             var8 = undefined;
-            if(var4) { _fun0002_ip = 23; continue _fun0002 }
- 18:
+            if(var4) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var8 = var1.guild_id;
- 23:
+case 4:
             var _closure2_slot0 = var8;
             var6 = _closure1_slot0;
             var9 = _closure1_slot1;
@@ -104,16 +104,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var4 = var6.bind(var7)(var5, var3, var4);
             var1 = var2 == var1;
-            if(var1) { _fun0002_ip = 116; continue _fun0002 }
- 96:
+            if(var1) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var2 = var2 == var4;
-            if(var2) { _fun0002_ip = 113; continue _fun0002 }
- 103:
+            if(var2) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var3 = 50000;
             var2 = var4 > var3;
- 113:
+case 8:
             var1 = !var2;
- 116:
+case 6:
             return var1;
         }
     };

@@ -28,7 +28,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useUserProfileColors(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var4 = var1.theme;
             var6 = var1.primaryColor;
@@ -108,12 +108,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var5.bind(var7)(var4, var8);
             var1['statusBackground'] = var4;
             var4 = null;
-            if(!(var4 != var6)) { _fun0001_ip = 602; continue _fun0001 }
- 366:
-            if(!(var4 != var15)) { _fun0001_ip = 602; continue _fun0001 }
- 373:
-            if(!(var4 != var2)) { _fun0001_ip = 602; continue _fun0001 }
- 380:
+            if(!(var4 != var6)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            if(!(var4 != var15)) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
+            if(!(var4 != var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 5:
             var8 = var2.sectionBox;
             var14 = var2.overlay;
             var7 = var2.overlaySyncedWithUserTheme;
@@ -124,10 +124,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var4.bind(var9)(var2);
             var4 = var5.calculateOverlayedColor;
             var2 = var14;
-            if(!var11) { _fun0001_ip = 433; continue _fun0001 }
- 430:
+            if(!var11) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var2 = var7;
- 433:
+case 6:
             var7 = var4.bind(var5)(var6, var2);
             var2 = {};
             var18 = var2;
@@ -165,7 +165,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = 'statusBackground';
             var2[var3] = var4;
             return var2;
- 602:
+case 2:
             return var1;
         }
     };

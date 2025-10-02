@@ -31,26 +31,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot6 = var5;
     var5 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var _closure2_slot0 = var2;
             var4 = _closure1_slot5;
             var3 = var4.getState;
             var4 = var3.bind(var4)();
             var3 = 'active';
-            if(!(var3 !== var4)) { _fun0001_ip = 154; continue _fun0001 }
- 34:
+            if(!(var3 !== var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = _closure1_slot3;
             var3 = var4.isConnected;
             var3 = var3.bind(var4)();
-            if(var3) { _fun0001_ip = 67; continue _fun0001 }
- 51:
+            if(var3) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = _closure1_slot3;
             var4 = var5.isTryingToConnect;
             var3 = var4.bind(var5)();
- 67:
-            if(var3) { _fun0001_ip = 117; continue _fun0001 }
- 70:
+case 4:
+            if(var3) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var5 = _closure1_slot1;
             var4 = _closure1_slot2;
             var3 = 4;
@@ -62,7 +62,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var5.getId;
             var2 = var2.bind(var5)();
             var2 = var3.bind(var4)(var2);
- 117:
+case 6:
             var2 = global;
             var3 = var2.Promise;
             var2 = var3.prototype;
@@ -90,13 +90,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var2;
             var1 = new var7[var3](var6, var5);
             var1 = var1 instanceof Object ? var1 : var2;
-            _fun0001_ip = 172; continue _fun0001;
- 154:
+            _fun0001_ip = 8; continue _fun0001;
+case 2:
             var2 = global;
             var3 = var2.Promise;
             var2 = var3.resolve;
             var1 = var2.bind(var3)();
- 172:
+case 8:
             return var1;
         }
     };

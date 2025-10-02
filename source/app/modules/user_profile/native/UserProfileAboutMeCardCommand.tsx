@@ -84,7 +84,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['variant'] = var8;
         var8 = function onPress() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var3 = _closure1_slot0;
                 var4 = _closure1_slot2;
                 var1 = 6;
@@ -105,17 +105,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = null;
                 var9 = var7 == var10;
                 var8 = undefined;
-                if(var9) { _fun0001_ip = 98; continue _fun0001 }
- 88:
+                if(var9) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var9 = var10.getText;
                 var8 = var9.bind(var10)();
- 98:
+case 2:
                 var9 = var7 != var8;
                 var7 = '';
-                if(!var9) { _fun0001_ip = 112; continue _fun0001 }
- 109:
+                if(!var9) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var7 = var8;
- 112:
+case 4:
                 var2['currentText'] = var7;
                 var6 = _closure2_slot1;
                 var7 = var6.id;
@@ -124,25 +124,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2['commandName'] = var6;
                 var6 = function onOpenCustomKeyboard(arg1) {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                         var3 = _closure3_slot0;
                         var1 = null;
                         var3 = var1 == var3;
                         var1 = undefined;
-                        if(var3) { _fun0002_ip = 36; continue _fun0002 }
- 18:
+                        if(var3) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                         var4 = _closure3_slot0;
                         var3 = var4.openCustomKeyboard;
                         var2 = arg1;
                         var1 = var3.bind(var4)(var2);
- 36:
+case 6:
                         return var1;
                     }
                 };
                 var2['onOpenCustomKeyboard'] = var6;
                 var5 = function onSetCommand() {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                         var3 = _closure1_slot1;
                         var2 = _closure1_slot2;
                         var1 = 8;
@@ -157,11 +157,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var6 = null;
                         var10 = var6 == var4;
                         var4 = undefined;
-                        if(var10) { _fun0003_ip = 69; continue _fun0003 }
- 60:
+                        if(var10) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
                         var10 = _closure2_slot0;
                         var4 = var10.id;
- 69:
+case 8:
                         var2['application_id'] = var4;
                         var4 = _closure2_slot1;
                         var4 = var4.id;
@@ -191,25 +191,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = var3.bind(var1)(var2);
                         var2 = var2.bind(var1)();
                         var2 = _closure3_slot0;
-                        if(!(var6 != var2)) { _fun0003_ip = 217; continue _fun0003 }
- 203:
+                        if(!(var6 != var2)) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
                         var4 = _closure3_slot0;
                         var2 = var4.openSystemKeyboard;
                         var2 = var2.bind(var4)();
- 217:
+case 10:
                         var2 = _closure3_slot0;
                         var2 = var6 == var2;
                         var4 = undefined;
-                        if(var2) { _fun0003_ip = 251; continue _fun0003 }
- 230:
+                        if(var2) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
                         var8 = _closure3_slot0;
                         var3 = var8.getApplicationCommandManager;
                         var3 = var3.bind(var8)();
                         var2 = var6 == var3;
                         var4 = var3;
- 251:
-                        if(var2) { _fun0003_ip = 380; continue _fun0003 }
- 257:
+case 12:
+                        if(var2) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
                         var3 = var4.setCommand;
                         var2 = {};
                         var8 = _closure2_slot2;
@@ -220,8 +220,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var8 = _closure2_slot0;
                         var8 = var6 != var8;
                         var6 = null;
-                        if(!var8) { _fun0003_ip = 335; continue _fun0003 }
- 300:
+                        if(!var8) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
                         var9 = _closure1_slot0;
                         var10 = _closure1_slot2;
                         var8 = 12;
@@ -230,7 +230,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var8 = var9.getApplicationCommandSection;
                         var7 = _closure2_slot0;
                         var6 = var8.bind(var9)(var7);
- 335:
+case 16:
                         var2['section'] = var6;
                         var6 = _closure1_slot0;
                         var7 = _closure1_slot2;
@@ -241,7 +241,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var5 = var5.POPULAR_COMMANDS;
                         var2['location'] = var5;
                         var2 = var3.bind(var4)(var2);
- 380:
+case 14:
                         return var1;
                     }
                 };

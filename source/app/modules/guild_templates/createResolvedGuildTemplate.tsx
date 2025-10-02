@@ -25,7 +25,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function createResolvedGuildTemplate(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = {};
             var3 = var2.code;
@@ -39,10 +39,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = null;
             var5 = var3 != var4;
             var3 = '';
-            if(!var5) { _fun0001_ip = 61; continue _fun0001 }
- 58:
+            if(!var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = var4;
- 61:
+case 2:
             var1['description'] = var3;
             var3 = var2.creator_id;
             var1['creatorId'] = var3;

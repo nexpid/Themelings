@@ -8,95 +8,95 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var7;
     var2 = function getMuteStates(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var9 = var1.channel;
             var12 = var1.authenticationStore;
             var3 = undefined;
-            if(!(var12 === var3)) { _fun0001_ip = 27; continue _fun0001 }
- 20:
+            if(!(var12 === var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var12 = _closure1_slot3;
- 27:
+case 2:
             var11 = var1.voiceStateStore;
-            if(!(var11 === var3)) { _fun0001_ip = 44; continue _fun0001 }
- 37:
+            if(!(var11 === var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var11 = _closure1_slot6;
- 44:
+case 4:
             var6 = var1.mediaEngineStore;
-            if(!(var6 === var3)) { _fun0001_ip = 61; continue _fun0001 }
- 54:
+            if(!(var6 === var3)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var6 = _closure1_slot4;
- 61:
+case 6:
             var8 = var1.permissionStore;
-            if(!(var8 === var3)) { _fun0001_ip = 78; continue _fun0001 }
- 71:
+            if(!(var8 === var3)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var8 = _closure1_slot5;
- 78:
+case 8:
             var7 = var1.impersonateStore;
-            if(!(var7 === var3)) { _fun0001_ip = 95; continue _fun0001 }
- 88:
+            if(!(var7 === var3)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var7 = _closure1_slot2;
- 95:
+case 10:
             var2 = null;
             var1 = var2 != var9;
             var4 = null;
-            if(!var1) { _fun0001_ip = 138; continue _fun0001 }
- 106:
+            if(!var1) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var10 = var11.getVoiceState;
             var1 = var9.getGuildId;
             var5 = var1.bind(var9)();
             var1 = var12.getId;
             var1 = var1.bind(var12)();
             var4 = var10.bind(var11)(var5, var1);
- 138:
+case 12:
             var1 = var6.isSelfMute;
             var5 = var1.bind(var6)();
-            if(var5) { _fun0001_ip = 161; continue _fun0001 }
- 151:
+            if(var5) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var1 = var6.isSelfMutedTemporarily;
             var5 = var1.bind(var6)();
- 161:
+case 14:
             var1 = var2 == var9;
             var6 = undefined;
-            if(var1) { _fun0001_ip = 180; continue _fun0001 }
- 170:
+            if(var1) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var1 = var9.getGuildId;
             var6 = var1.bind(var9)();
- 180:
+case 16:
             var1 = var7.isViewingRoles;
             var6 = var1.bind(var7)(var6);
-            if(!var6) { _fun0001_ip = 222; continue _fun0001 }
- 194:
+            if(!var6) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
             var7 = var8.can;
             var1 = _closure1_slot7;
             var1 = var1.SPEAK;
             var1 = var7.bind(var8)(var1, var9);
             var6 = !var1;
- 222:
+case 18:
             var1 = {};
             var1['selfMute'] = var5;
             var7 = var2 == var4;
             var5 = undefined;
-            if(var7) { _fun0001_ip = 244; continue _fun0001 }
- 238:
+            if(var7) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
             var5 = var4.suppress;
- 244:
-            if(var5) { _fun0001_ip = 250; continue _fun0001 }
- 247:
+case 20:
+            if(var5) { _fun0001_ip = 22; continue _fun0001 }
+case 23:
             var5 = var6;
- 250:
+case 22:
             var1['suppress'] = var5;
             var5 = var2 == var4;
             var3 = undefined;
-            if(var5) { _fun0001_ip = 270; continue _fun0001 }
- 264:
+            if(var5) { _fun0001_ip = 24; continue _fun0001 }
+case 25:
             var3 = var4.mute;
- 270:
+case 24:
             var2 = var2 != var3;
-            if(!var2) { _fun0001_ip = 280; continue _fun0001 }
- 277:
+            if(!var2) { _fun0001_ip = 26; continue _fun0001 }
+case 27:
             var2 = var3;
- 280:
+case 26:
             var1['mute'] = var2;
             return var1;
         }

@@ -4,20 +4,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = dependencyMap;
     var1 = function getFirstSkemaFieldError(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arg1;
             var6 = arg2;
             var2 = _closure1_slot1;
             var2 = var5[var2];
             var7 = null;
-            if(!(var7 != var2)) { _fun0001_ip = 44; continue _fun0001 }
- 23:
+            if(!(var7 != var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = global;
             var4 = var3.Array;
             var3 = var4.isArray;
             var3 = var3.bind(var4)(var2);
-            if(var3) { _fun0001_ip = 165; continue _fun0001 }
- 44:
+            if(var3) { _fun0001_ip = 4; continue _fun0001 }
+case 2:
             var3 = global;
             var4 = var3.Object;
             var3 = var4.entries;
@@ -30,35 +30,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = 2;
             var10 = 1;
             var9 = 0;
-            if(!var3) { _fun0001_ip = 144; continue _fun0001 }
- 91:
+            if(!var3) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var4 = var14[var9];
             var3 = _closure1_slot0;
             var3 = var3.bind(var5)(var4, var11);
             var4 = var3[var13];
             var3 = var3[var10];
             var8 = _closure1_slot1;
-            if(!(var4 !== var8)) { _fun0001_ip = 132; continue _fun0001 }
- 121:
-            if(!(var7 != var3)) { _fun0001_ip = 132; continue _fun0001 }
- 125:
+            if(!(var4 !== var8)) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
+            if(!(var7 != var3)) { _fun0001_ip = 7; continue _fun0001 }
+case 9:
             var8 = typeof var3;
-            if(!(var12 !== var8)) { _fun0001_ip = 146; continue _fun0001 }
- 132:
+            if(!(var12 !== var8)) { _fun0001_ip = 10; continue _fun0001 }
+case 7:
             var9 = var9 + 1;
             var8 = var14.length;
-            if(var9 < var8) { _fun0001_ip = 91; continue _fun0001 }
- 144:
+            if(var9 < var8) { _fun0001_ip = 6; continue _fun0001 }
+case 5:
             return var7;
- 146:
+case 10:
             var1 = _closure1_slot2;
-            if(!(var7 != var6)) { _fun0001_ip = 157; continue _fun0001 }
- 154:
+            if(!(var7 != var6)) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var4 = var6;
- 157:
+case 11:
             var1 = var1.bind(var5)(var3, var4);
             return var1;
- 165:
+case 4:
             var1 = 0;
             var1 = var2[var1];
             return var1;

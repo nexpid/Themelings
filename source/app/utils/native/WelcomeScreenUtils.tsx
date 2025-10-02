@@ -91,13 +91,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4[2] = var1;
         var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var2 = _closure2_slot3;
-                if(var2) { _fun0001_ip = 19; continue _fun0001 }
- 13:
+                if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var2 = _closure1_slot10;
                 return var2;
- 19:
+case 2:
                 var3 = _closure1_slot8;
                 var2 = var3.getGuild;
                 var4 = _closure2_slot0;
@@ -115,57 +115,57 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var8.isFetching;
                 var8 = var4.bind(var8)();
                 var4 = !var2;
-                if(!var4) { _fun0001_ip = 107; continue _fun0001 }
- 103:
+                if(!var4) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var4 = _closure2_slot3;
- 107:
-                if(!var4) { _fun0001_ip = 122; continue _fun0001 }
- 110:
+case 4:
+                if(!var4) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                 var2 = _closure2_slot2;
                 var1 = _closure2_slot1;
                 var4 = var2 === var1;
- 122:
+case 6:
                 var1 = {};
                 var2 = var4;
-                if(!var2) { _fun0001_ip = 136; continue _fun0001 }
- 130:
+                if(!var2) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
                 var10 = null;
                 var2 = var10 != var6;
- 136:
-                if(!var2) { _fun0001_ip = 147; continue _fun0001 }
- 139:
+case 8:
+                if(!var2) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
                 var9 = _closure1_slot6;
                 var2 = var6 !== var9;
- 147:
-                if(!var2) { _fun0001_ip = 153; continue _fun0001 }
- 150:
+case 10:
+                if(!var2) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
                 var2 = !var8;
- 153:
-                if(!var2) { _fun0001_ip = 159; continue _fun0001 }
- 156:
+case 12:
+                if(!var2) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
                 var2 = !var7;
- 159:
-                if(!var2) { _fun0001_ip = 173; continue _fun0001 }
- 162:
+case 14:
+                if(!var2) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
                 var7 = var5.length;
                 var5 = 0;
                 var2 = var7 > var5;
- 173:
+case 16:
                 var1['welcomeScreenModalVisible'] = var2;
                 var2 = undefined;
-                if(!var4) { _fun0001_ip = 208; continue _fun0001 }
- 183:
+                if(!var4) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
                 var4 = null;
                 var6 = var4 == var6;
                 var2 = undefined;
-                if(!var6) { _fun0001_ip = 208; continue _fun0001 }
- 194:
+                if(!var6) { _fun0001_ip = 18; continue _fun0001 }
+case 20:
                 var4 = var4 != var3;
                 var2 = undefined;
-                if(!var4) { _fun0001_ip = 208; continue _fun0001 }
- 203:
+                if(!var4) { _fun0001_ip = 18; continue _fun0001 }
+case 21:
                 var2 = var3.id;
- 208:
+case 18:
                 var1['shouldFetchGuildId'] = var2;
                 return var1;
             }
@@ -180,11 +180,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3[0] = var6;
         var2 = function() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var3 = _closure2_slot4;
                 var2 = null;
-                if(!(var2 != var3)) { _fun0002_ip = 53; continue _fun0002 }
- 13:
+                if(!(var2 != var3)) { _fun0002_ip = 22; continue _fun0002 }
+case 3:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
                 var2 = 9;
@@ -194,7 +194,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var3.fetchWelcomeScreen;
                 var1 = _closure2_slot4;
                 var1 = var2.bind(var3)(var1);
- 53:
+case 22:
                 var1 = undefined;
                 return var1;
             }
@@ -205,7 +205,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['useShowWelcomeModal'] = var4;
     var2 = function openWelcomeActionSheet(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var2 = arg1;
             var3 = var2.guildId;
             var _closure2_slot0 = var3;
@@ -247,22 +247,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var1 == var5;
             var1 = undefined;
             var3 = undefined;
-            if(var6) { _fun0003_ip = 66; continue _fun0003 }
- 61:
+            if(var6) { _fun0003_ip = 23; continue _fun0003 }
+case 24:
             var3 = var5.type;
- 66:
+case 23:
             var2 = _closure1_slot9;
             var2 = var2.MOBILE_GUILD_DISCOVERY;
-            if(!(var3 !== var2)) { _fun0003_ip = 86; continue _fun0003 }
- 80:
+            if(!(var3 !== var2)) { _fun0003_ip = 25; continue _fun0003 }
+case 26:
             var2 = var4.bind(var1)();
-            _fun0003_ip = 106; continue _fun0003;
- 86:
+            _fun0003_ip = 27; continue _fun0003;
+case 25:
             var2 = global;
             var3 = var2.setTimeout;
             var2 = 600;
             var2 = var3.bind(var1)(var4, var2);
- 106:
+case 27:
             return var1;
         }
     };

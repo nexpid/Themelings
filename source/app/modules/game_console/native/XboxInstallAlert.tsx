@@ -140,7 +140,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1[var6] = var7;
         var6 = function onConfirm() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
                 var1 = 9;
@@ -155,15 +155,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var6[var3];
                 var4 = var4.bind(var1)(var3);
                 var3 = var4.openURL;
-                if(var5) { _fun0001_ip = 74; continue _fun0001 }
- 63:
+                if(var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var5 = _closure1_slot4;
                 var5 = var3.bind(var4)(var5);
-                _fun0001_ip = 83; continue _fun0001;
- 74:
+                _fun0001_ip = 4; continue _fun0001;
+case 2:
                 var2 = _closure1_slot3;
                 var2 = var3.bind(var4)(var2);
- 83:
+case 4:
                 return var1;
             }
         };

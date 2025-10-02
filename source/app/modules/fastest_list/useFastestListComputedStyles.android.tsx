@@ -38,214 +38,214 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[0] = var5;
         var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var3 = _closure1_slot1;
                 var2 = var3.flatten;
                 var1 = _closure2_slot0;
                 var8 = null;
-                if(!(var8 == var1)) { _fun0001_ip = 37; continue _fun0001 }
- 26:
+                if(!(var8 == var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var1 = {};
                 var5 = 1;
                 var1['flex'] = var5;
-                _fun0001_ip = 71; continue _fun0001;
- 37:
+                _fun0001_ip = 4; continue _fun0001;
+case 2:
                 var5 = _closure2_slot0;
-                if(!(var8 == var5)) { _fun0001_ip = 56; continue _fun0001 }
- 45:
+                if(!(var8 == var5)) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
                 var5 = {};
                 var6 = 1;
                 var5['flex'] = var6;
-                _fun0001_ip = 60; continue _fun0001;
- 56:
+                _fun0001_ip = 7; continue _fun0001;
+case 5:
                 var5 = _closure2_slot0;
- 60:
+case 7:
                 var4 = new Array(1);
                 var4[0] = var5;
                 var1 = var4;
- 71:
+case 4:
                 var6 = var2.bind(var3)(var1);
                 var2 = var8 == var6;
                 var1 = undefined;
-                if(var2) { _fun0001_ip = 91; continue _fun0001 }
- 85:
+                if(var2) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
                 var1 = var6.marginStart;
- 91:
-                if(!(var8 == var1)) { _fun0001_ip = 113; continue _fun0001 }
- 95:
+case 8:
+                if(!(var8 == var1)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
                 var3 = var8 == var6;
                 var2 = undefined;
-                if(var3) { _fun0001_ip = 110; continue _fun0001 }
- 104:
+                if(var3) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
                 var2 = var6.marginLeft;
- 110:
+case 12:
                 var1 = var2;
- 113:
-                if(!(var8 == var1)) { _fun0001_ip = 135; continue _fun0001 }
- 117:
+case 10:
+                if(!(var8 == var1)) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
                 var3 = var8 == var6;
                 var2 = undefined;
-                if(var3) { _fun0001_ip = 132; continue _fun0001 }
- 126:
+                if(var3) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
                 var2 = var6.marginHorizontal;
- 132:
+case 16:
                 var1 = var2;
- 135:
-                if(!(var8 == var1)) { _fun0001_ip = 157; continue _fun0001 }
- 139:
+case 14:
+                if(!(var8 == var1)) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
                 var3 = var8 == var6;
                 var2 = undefined;
-                if(var3) { _fun0001_ip = 154; continue _fun0001 }
- 148:
+                if(var3) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
                 var2 = var6.margin;
- 154:
+case 20:
                 var1 = var2;
- 157:
+case 18:
                 var2 = var8 != var1;
                 var3 = 0;
-                if(!var2) { _fun0001_ip = 169; continue _fun0001 }
- 166:
+                if(!var2) { _fun0001_ip = 22; continue _fun0001 }
+case 23:
                 var3 = var1;
- 169:
+case 22:
                 var2 = var8 == var6;
                 var1 = undefined;
-                if(var2) { _fun0001_ip = 184; continue _fun0001 }
- 178:
+                if(var2) { _fun0001_ip = 24; continue _fun0001 }
+case 25:
                 var1 = var6.paddingStart;
- 184:
-                if(!(var8 == var1)) { _fun0001_ip = 206; continue _fun0001 }
- 188:
+case 24:
+                if(!(var8 == var1)) { _fun0001_ip = 26; continue _fun0001 }
+case 27:
                 var4 = var8 == var6;
                 var2 = undefined;
-                if(var4) { _fun0001_ip = 203; continue _fun0001 }
- 197:
+                if(var4) { _fun0001_ip = 28; continue _fun0001 }
+case 29:
                 var2 = var6.paddingLeft;
- 203:
+case 28:
                 var1 = var2;
- 206:
-                if(!(var8 == var1)) { _fun0001_ip = 227; continue _fun0001 }
- 210:
+case 26:
+                if(!(var8 == var1)) { _fun0001_ip = 30; continue _fun0001 }
+case 31:
                 var4 = var8 == var6;
                 var2 = undefined;
-                if(var4) { _fun0001_ip = 224; continue _fun0001 }
- 219:
+                if(var4) { _fun0001_ip = 32; continue _fun0001 }
+case 33:
                 var2 = var6.paddingHorizontal;
- 224:
+case 32:
                 var1 = var2;
- 227:
-                if(!(var8 == var1)) { _fun0001_ip = 248; continue _fun0001 }
- 231:
+case 30:
+                if(!(var8 == var1)) { _fun0001_ip = 34; continue _fun0001 }
+case 35:
                 var4 = var8 == var6;
                 var2 = undefined;
-                if(var4) { _fun0001_ip = 245; continue _fun0001 }
- 240:
+                if(var4) { _fun0001_ip = 36; continue _fun0001 }
+case 37:
                 var2 = var6.padding;
- 245:
+case 36:
                 var1 = var2;
- 248:
+case 34:
                 var4 = var8 != var1;
                 var2 = 0;
-                if(!var4) { _fun0001_ip = 260; continue _fun0001 }
- 257:
+                if(!var4) { _fun0001_ip = 38; continue _fun0001 }
+case 39:
                 var2 = var1;
- 260:
+case 38:
                 var7 = 'number';
                 var1 = typeof var3;
-                if(!(var7 === var1)) { _fun0001_ip = 544; continue _fun0001 }
- 274:
+                if(!(var7 === var1)) { _fun0001_ip = 40; continue _fun0001 }
+case 41:
                 var1 = typeof var2;
-                if(!(var7 === var1)) { _fun0001_ip = 544; continue _fun0001 }
- 284:
+                if(!(var7 === var1)) { _fun0001_ip = 40; continue _fun0001 }
+case 42:
                 var4 = var8 == var6;
                 var1 = undefined;
-                if(var4) { _fun0001_ip = 299; continue _fun0001 }
- 293:
+                if(var4) { _fun0001_ip = 43; continue _fun0001 }
+case 44:
                 var1 = var6.marginEnd;
- 299:
-                if(!(var8 == var1)) { _fun0001_ip = 321; continue _fun0001 }
- 303:
+case 43:
+                if(!(var8 == var1)) { _fun0001_ip = 45; continue _fun0001 }
+case 46:
                 var10 = var8 == var6;
                 var4 = undefined;
-                if(var10) { _fun0001_ip = 318; continue _fun0001 }
- 312:
+                if(var10) { _fun0001_ip = 47; continue _fun0001 }
+case 48:
                 var4 = var6.marginRight;
- 318:
+case 47:
                 var1 = var4;
- 321:
-                if(!(var8 == var1)) { _fun0001_ip = 343; continue _fun0001 }
- 325:
+case 45:
+                if(!(var8 == var1)) { _fun0001_ip = 49; continue _fun0001 }
+case 50:
                 var10 = var8 == var6;
                 var4 = undefined;
-                if(var10) { _fun0001_ip = 340; continue _fun0001 }
- 334:
+                if(var10) { _fun0001_ip = 51; continue _fun0001 }
+case 52:
                 var4 = var6.marginHorizontal;
- 340:
+case 51:
                 var1 = var4;
- 343:
-                if(!(var8 == var1)) { _fun0001_ip = 365; continue _fun0001 }
- 347:
+case 49:
+                if(!(var8 == var1)) { _fun0001_ip = 53; continue _fun0001 }
+case 54:
                 var10 = var8 == var6;
                 var4 = undefined;
-                if(var10) { _fun0001_ip = 362; continue _fun0001 }
- 356:
+                if(var10) { _fun0001_ip = 55; continue _fun0001 }
+case 56:
                 var4 = var6.margin;
- 362:
+case 55:
                 var1 = var4;
- 365:
+case 53:
                 var10 = var8 != var1;
                 var4 = 0;
-                if(!var10) { _fun0001_ip = 377; continue _fun0001 }
- 374:
+                if(!var10) { _fun0001_ip = 57; continue _fun0001 }
+case 58:
                 var4 = var1;
- 377:
+case 57:
                 var10 = var8 == var6;
                 var1 = undefined;
-                if(var10) { _fun0001_ip = 392; continue _fun0001 }
- 386:
+                if(var10) { _fun0001_ip = 59; continue _fun0001 }
+case 60:
                 var1 = var6.paddingEnd;
- 392:
-                if(!(var8 == var1)) { _fun0001_ip = 414; continue _fun0001 }
- 396:
+case 59:
+                if(!(var8 == var1)) { _fun0001_ip = 61; continue _fun0001 }
+case 62:
                 var11 = var8 == var6;
                 var10 = undefined;
-                if(var11) { _fun0001_ip = 411; continue _fun0001 }
- 405:
+                if(var11) { _fun0001_ip = 63; continue _fun0001 }
+case 64:
                 var10 = var6.paddingRight;
- 411:
+case 63:
                 var1 = var10;
- 414:
-                if(!(var8 == var1)) { _fun0001_ip = 435; continue _fun0001 }
- 418:
+case 61:
+                if(!(var8 == var1)) { _fun0001_ip = 65; continue _fun0001 }
+case 66:
                 var11 = var8 == var6;
                 var10 = undefined;
-                if(var11) { _fun0001_ip = 432; continue _fun0001 }
- 427:
+                if(var11) { _fun0001_ip = 67; continue _fun0001 }
+case 68:
                 var10 = var6.paddingHorizontal;
- 432:
+case 67:
                 var1 = var10;
- 435:
-                if(!(var8 == var1)) { _fun0001_ip = 456; continue _fun0001 }
- 439:
+case 65:
+                if(!(var8 == var1)) { _fun0001_ip = 69; continue _fun0001 }
+case 70:
                 var10 = var8 == var6;
                 var9 = undefined;
-                if(var10) { _fun0001_ip = 453; continue _fun0001 }
- 448:
+                if(var10) { _fun0001_ip = 71; continue _fun0001 }
+case 72:
                 var9 = var6.padding;
- 453:
+case 71:
                 var1 = var9;
- 456:
+case 69:
                 var8 = var8 != var1;
                 var5 = 0;
-                if(!var8) { _fun0001_ip = 468; continue _fun0001 }
- 465:
+                if(!var8) { _fun0001_ip = 73; continue _fun0001 }
+case 74:
                 var5 = var1;
- 468:
+case 73:
                 var1 = typeof var4;
-                if(!(var7 === var1)) { _fun0001_ip = 508; continue _fun0001 }
- 475:
+                if(!(var7 === var1)) { _fun0001_ip = 75; continue _fun0001 }
+case 76:
                 var1 = typeof var5;
-                if(!(var7 === var1)) { _fun0001_ip = 508; continue _fun0001 }
- 482:
+                if(!(var7 === var1)) { _fun0001_ip = 75; continue _fun0001 }
+case 77:
                 var1 = {};
                 var1['style'] = var6;
                 var4 = var4 + var5;
@@ -253,7 +253,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var3 + var2;
                 var1['marginStart'] = var2;
                 return var1;
- 508:
+case 75:
                 var1 = global;
                 var3 = var1.Error;
                 var1 = var3.prototype;
@@ -263,7 +263,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = new var13[var3](var12, var11);
                 var1 = var1 instanceof Object ? var1 : var2;
                 throw var1;
- 544:
+case 40:
                 var1 = global;
                 var3 = var1.Error;
                 var1 = var3.prototype;

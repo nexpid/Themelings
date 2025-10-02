@@ -1,7 +1,7 @@
 // app/modules/system_date_format/SystemDateFormatter.native.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
         var4 = global;
         var5 = require;
         var3 = exports;
@@ -21,49 +21,49 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var2.NativeModules;
         var7 = var4.__DiscordCreateDateFormatter;
         var8 = null;
-        if(!(var8 == var7)) { _fun0001_ip = 187; continue _fun0001 }
- 75:
+        if(!(var8 == var7)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
         var7 = 1;
         var7 = var6[var7];
         var10 = var5.bind(var1)(var7);
         var7 = var10.isAndroid;
         var7 = var7.bind(var10)();
-        if(var7) { _fun0001_ip = 109; continue _fun0001 }
- 99:
+        if(var7) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
         var10 = var2.DateFormatUtils;
-        _fun0001_ip = 124; continue _fun0001;
- 109:
+        _fun0001_ip = 6; continue _fun0001;
+case 4:
         var2 = 2;
         var7 = var6[var2];
         var2 = metroImportDefault;
         var10 = var2.bind(var1)(var7);
- 124:
+case 6:
         var2 = var8 == var10;
         var7 = undefined;
-        if(var2) { _fun0001_ip = 158; continue _fun0001 }
- 133:
+        if(var2) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
         var2 = var10.activate;
         var2 = var8 == var2;
         var7 = undefined;
-        if(var2) { _fun0001_ip = 158; continue _fun0001 }
- 148:
+        if(var2) { _fun0001_ip = 7; continue _fun0001 }
+case 9:
         var2 = var10.activate;
         var7 = var2.bind(var10)();
- 158:
+case 7:
         var2 = undefined;
-        if(!(var9 === var7)) { _fun0001_ip = 185; continue _fun0001 }
- 164:
+        if(!(var9 === var7)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
         var7 = var4.__DiscordCreateDateFormatter;
         var7 = var8 != var7;
         var2 = undefined;
-        if(!var7) { _fun0001_ip = 185; continue _fun0001 }
- 179:
+        if(!var7) { _fun0001_ip = 10; continue _fun0001 }
+case 12:
         var2 = var4.__DiscordCreateDateFormatter;
- 185:
-        _fun0001_ip = 193; continue _fun0001;
- 187:
+case 10:
+        _fun0001_ip = 13; continue _fun0001;
+case 2:
         var2 = var4.__DiscordCreateDateFormatter;
- 193:
+case 13:
         var4 = 3;
         var4 = var6[var4];
         var6 = var5.bind(var1)(var4);

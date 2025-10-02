@@ -27,16 +27,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useFocusRefOnNavigation(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var7 = var1.inputRef;
             var _closure2_slot0 = var7;
             var8 = var1.enabled;
             var1 = undefined;
-            if(!(var8 === var1)) { _fun0001_ip = 28; continue _fun0001 }
- 26:
+            if(!(var8 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var8 = true;
- 28:
+case 2:
             var _closure2_slot1 = var8;
             var _closure2_slot2 = var1;
             var5 = _closure1_slot0;
@@ -63,22 +63,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var4.runAfterInteractions;
                 var2 = function() {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                         var2 = _closure2_slot1;
-                        if(!var2) { _fun0002_ip = 14; continue _fun0002 }
- 10:
+                        if(!var2) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                         var2 = _closure2_slot2;
- 14:
-                        if(!var2) { _fun0002_ip = 42; continue _fun0002 }
- 17:
+case 4:
+                        if(!var2) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                         var1 = _closure2_slot0;
                         var2 = var1.current;
                         var1 = null;
-                        if(!(var1 != var2)) { _fun0002_ip = 42; continue _fun0002 }
- 32:
+                        if(!(var1 != var2)) { _fun0002_ip = 6; continue _fun0002 }
+case 8:
                         var1 = var2.focus;
                         var1 = var1.bind(var2)();
- 42:
+case 6:
                         var1 = undefined;
                         return var1;
                     }

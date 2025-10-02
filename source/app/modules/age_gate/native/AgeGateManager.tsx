@@ -9,8 +9,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function _isNativeReflectConstruct() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
- 2: // try_start_0
+case 0:
+case 2: // try_start_0
             var2 = global;
             var3 = var2.Boolean;
             var3 = var3.prototype;
@@ -28,11 +28,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var4)(var2);
             var2 = !var2;
             var _closure2_slot0 = var2;
- 72: // try_end0
-            _fun0001_ip = 76; continue _fun0001;
- 74: // catch_target0
+case 3: // try_end0
+            _fun0001_ip = 4; continue _fun0001;
+case 5: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+case 4:
             var2 = function _isNativeReflectConstruct() {
                 var1 = _closure2_slot0;
                 var1 = !var1;
@@ -111,7 +111,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function(arg1) {
         var4 = function AgeGateManager(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var4 = this;
                 var12 = 0;
                 var1 = copyRestArgs(var12);
@@ -129,12 +129,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = _closure1_slot6;
                 var1 = _closure1_slot16;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0002_ip = 84; continue _fun0002 }
- 71:
+                if(var1) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                 var1 = var8.apply;
                 var1 = var1.bind(var8)(var4, var9);
-                _fun0002_ip = 118; continue _fun0002;
- 84:
+                _fun0002_ip = 8; continue _fun0002;
+case 6:
                 var6 = global;
                 var7 = var6.Reflect;
                 var6 = var7.construct;
@@ -142,7 +142,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var5.bind(var3)(var4);
                 var5 = var5.constructor;
                 var1 = var6.bind(var7)(var8, var9, var5);
- 118:
+case 8:
                 var1 = var2.bind(var3)(var4, var1);
                 var2 = {};
                 var3 = var1.handlePostConnectionOpen;
@@ -193,7 +193,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5['key'] = var7;
         var7 = function value(arg1) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var4 = var1.guildId;
                 var3 = var1.channelId;
@@ -202,20 +202,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var2.bind(var5)(var3);
                 var6 = null;
                 var2 = var6 != var4;
-                if(!var2) { _fun0003_ip = 67; continue _fun0003 }
- 39:
+                if(!var2) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
                 var7 = var6 == var5;
                 var6 = undefined;
-                if(var7) { _fun0003_ip = 53; continue _fun0003 }
- 48:
+                if(var7) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
                 var6 = var5.type;
- 53:
+case 11:
                 var5 = _closure1_slot14;
                 var5 = var5.GUILD_VOICE;
                 var2 = var6 !== var5;
- 67:
-                if(!var2) { _fun0003_ip = 104; continue _fun0003 }
- 70:
+case 9:
+                if(!var2) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
                 var5 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var1 = 11;
@@ -224,7 +224,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var5.bind(var1)(var2);
                 var1 = var2.maybeShowAgeGate;
                 var1 = var1.bind(var2)(var4, var3);
- 104:
+case 13:
                 var1 = undefined;
                 return var1;
             }
@@ -249,11 +249,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = function* () {
                 var1 = function* anon_0_() {
                     _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0004_ip = 140; continue _fun0004 }
- 10:
+                        if(var2) { _fun0004_ip = 15; continue _fun0004 }
+case 16:
                         var4 = _closure1_slot0;
                         var2 = _closure1_slot2;
                         var3 = 14;
@@ -265,18 +265,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = var2.paths;
                         var2 = var4.bind(var7)(var3, var2);
                         SaveGenerator(address=57);
- 55:
+case 17:
                         return var2;
- 57:
+case 18:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                        if(var3) { _fun0004_ip = 137; continue _fun0004 }
- 63:
+                        if(var3) { _fun0004_ip = 19; continue _fun0004 }
+case 20:
                         var3 = var2.default;
                         var6 = _closure3_slot0;
                         var4 = _closure1_slot13;
                         var4 = var4.AUTH;
-                        if(!(var6 === var4)) { _fun0004_ip = 134; continue _fun0004 }
- 89:
+                        if(!(var6 === var4)) { _fun0004_ip = 21; continue _fun0004 }
+case 22:
                         var4 = {};
                         var6 = _closure1_slot0;
                         var8 = _closure1_slot2;
@@ -287,11 +287,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var5 = var5.SLIDE_IN_OUT;
                         var4['animation'] = var5;
                         var3['modalConfig'] = var4;
- 134:
+case 21:
                         return var3;
- 137:
+case 19:
                         return var2;
- 140:
+case 15:
                         return var1;
                     }
                 };
@@ -328,7 +328,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5['key'] = var7;
         var6 = function value(arg1) {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var1 = var1.guild;
                 var4 = _closure1_slot11;
@@ -336,20 +336,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var3.bind(var4)();
                 var4 = null;
                 var3 = var4 != var6;
-                if(!var3) { _fun0005_ip = 43; continue _fun0005 }
- 34:
+                if(!var3) { _fun0005_ip = 23; continue _fun0005 }
+case 24:
                 var5 = var1.id;
                 var3 = var5 === var6;
- 43:
-                if(!var3) { _fun0005_ip = 66; continue _fun0005 }
- 46:
+case 23:
+                if(!var3) { _fun0005_ip = 25; continue _fun0005 }
+case 26:
                 var6 = var1.owner_configured_content_level;
                 var5 = _closure1_slot15;
                 var5 = var5.AGE_RESTRICTED;
                 var3 = var6 === var5;
- 66:
-                if(!var3) { _fun0005_ip = 108; continue _fun0005 }
- 69:
+case 25:
+                if(!var3) { _fun0005_ip = 27; continue _fun0005 }
+case 28:
                 var5 = _closure1_slot0;
                 var3 = _closure1_slot2;
                 var2 = 11;
@@ -359,7 +359,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var3.maybeShowAgeGate;
                 var1 = var1.id;
                 var1 = var2.bind(var3)(var1, var4);
- 108:
+case 27:
                 var1 = undefined;
                 return var1;
             }

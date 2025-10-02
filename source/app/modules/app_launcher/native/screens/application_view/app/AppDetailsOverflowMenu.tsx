@@ -33,7 +33,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function AppDetailsOverflowMenu(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var8 = var1.application;
             var _closure2_slot0 = var8;
@@ -54,13 +54,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var5)(var1);
             var1 = var3.canInstallApplication;
             var1 = var1.bind(var3)(var8);
-            if(!var1) { _fun0001_ip = 100; continue _fun0001 }
- 94:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = null;
             var1 = var3 != var4;
- 100:
-            if(!var1) { _fun0001_ip = 207; continue _fun0001 }
- 103:
+case 2:
+            if(!var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = var7.push;
             var1 = {};
             var8 = _closure1_slot0;
@@ -92,7 +92,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.CirclePlusIcon;
             var1['IconComponent'] = var4;
             var1 = var3.bind(var7)(var1);
- 207:
+case 4:
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
             var1 = 6;
@@ -101,8 +101,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var1.DeveloperMode;
             var1 = var3.getSetting;
             var1 = var1.bind(var3)();
-            if(!var1) { _fun0001_ip = 352; continue _fun0001 }
- 246:
+            if(!var1) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var3 = var7.push;
             var1 = {};
             var8 = _closure1_slot0;
@@ -143,12 +143,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.IdIcon;
             var1['IconComponent'] = var4;
             var1 = var3.bind(var7)(var1);
- 352:
+case 6:
             var4 = var7.length;
             var3 = 0;
             var1 = null;
-            if(!(var3 !== var4)) { _fun0001_ip = 419; continue _fun0001 }
- 365:
+            if(!(var3 !== var4)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var4 = _closure1_slot3;
             var3 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -203,7 +203,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 419:
+case 8:
             return var1;
         }
     };

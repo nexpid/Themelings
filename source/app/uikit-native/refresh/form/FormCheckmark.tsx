@@ -33,12 +33,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function RowCheckmark(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = var1.selected;
             var1 = null;
-            if(!var2) { _fun0001_ip = 88; continue _fun0001 }
- 14:
+            if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = _closure1_slot3;
             var3 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -56,7 +56,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.BRAND_500;
             var2['color'] = var6;
             var1 = var5.bind(var4)(var3, var2);
- 88:
+case 2:
             return var1;
         }
     };

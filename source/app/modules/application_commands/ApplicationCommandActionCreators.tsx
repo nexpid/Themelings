@@ -56,7 +56,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var7)(var5);
     var5 = function setActiveCommand(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var16 = var1.channelId;
             var15 = var1.command;
@@ -71,8 +71,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var1.source;
             var5 = var1.commandOrigin;
             var1 = null;
-            if(!(var1 != var15)) { _fun0001_ip = 152; continue _fun0001 }
- 77:
+            if(!(var1 != var15)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = _closure1_slot1;
             var18 = _closure1_slot2;
             var2 = 3;
@@ -89,7 +89,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2 !== var1;
             var1 = 'command should not be placeholder';
             var1 = var3.bind(var4)(var2, var1);
- 152:
+case 2:
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
             var1 = 5;
@@ -149,7 +149,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var6.map;
         var1 = function(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var5 = arg1;
                 var1 = var5[Symbol.iterator];
                 var5 = var1().next;
@@ -158,27 +158,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = undefined;
                 var4 = var2 === var7;
                 var2 = undefined;
-                if(var4) { _fun0002_ip = 27; continue _fun0002 }
- 24:
+                if(var4) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                 var2 = var3;
- 27:
+case 4:
                 var3 = undefined;
-                if(var4) { _fun0002_ip = 57; continue _fun0002 }
- 32:
+                if(var4) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                 var6 = var5().value;
                 var5 = var1;
                 var5 = var5 === var7;
                 var3 = undefined;
                 var4 = var5;
-                if(var5) { _fun0002_ip = 57; continue _fun0002 }
- 51:
+                if(var5) { _fun0002_ip = 6; continue _fun0002 }
+case 8:
                 var3 = var6;
                 var4 = var5;
- 57:
-                if(var4) { _fun0002_ip = 63; continue _fun0002 }
- 60:
+case 6:
+                if(var4) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
                 var1.return();
- 63:
+case 9:
                 var1 = new Array(2);
                 var1[0] = var2;
                 var2 = {};
@@ -252,7 +252,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['updateApplicationGuildCommandPermissions'] = var4;
     var4 = function performAutocomplete(arg1, arg2, arg3) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var9 = arg2;
             var4 = _closure1_slot1;
             var5 = _closure1_slot2;
@@ -279,8 +279,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var4.bind(var5)(var3);
             var _closure2_slot0 = var7;
             var3 = var9.channel;
-            if(!(var10 != var3)) { _fun0003_ip = 431; continue _fun0003 }
- 127:
+            if(!(var10 != var3)) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
             var4 = _closure1_slot1;
             var5 = _closure1_slot2;
             var3 = 5;
@@ -302,8 +302,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var9.channel;
             var3 = var3.id;
             var3 = var4.bind(var5)(var3, var6, var11);
-            if(!(var10 == var3)) { _fun0003_ip = 431; continue _fun0003 }
- 231:
+            if(!(var10 == var3)) { _fun0003_ip = 11; continue _fun0003 }
+case 13:
             var12 = _closure1_slot0;
             var13 = _closure1_slot2;
             var3 = 6;
@@ -328,10 +328,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var9.guild;
             var12 = var10 == var11;
             var10 = undefined;
-            if(var12) { _fun0003_ip = 340; continue _fun0003 }
- 335:
+            if(var12) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
             var10 = var11.id;
- 340:
+case 14:
             var6['guild_id'] = var10;
             var9 = var9.channel;
             var9 = var9.id;
@@ -367,7 +367,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var2 = var3.bind(var4)(var2);
- 431:
+case 11:
             return var1;
         }
     };
@@ -459,11 +459,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['updateRegistry'] = var4;
     var2 = function setAppLauncherActiveCommand(arg1, arg2) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var5 = arg2;
             var1 = null;
-            if(!(var1 != var5)) { _fun0004_ip = 84; continue _fun0004 }
- 9:
+            if(!(var1 != var5)) { _fun0004_ip = 16; continue _fun0004 }
+case 17:
             var3 = _closure1_slot1;
             var7 = _closure1_slot2;
             var2 = 3;
@@ -480,7 +480,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2 !== var1;
             var1 = 'command should not be placeholder';
             var1 = var3.bind(var4)(var2, var1);
- 84:
+case 16:
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
             var1 = 5;

@@ -69,16 +69,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function HubProgressHeader(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var7 = var1.guild;
             var _closure2_slot0 = var7;
             var10 = var1.onDirectoryPage;
             var5 = undefined;
-            if(!(var10 === var5)) { _fun0001_ip = 28; continue _fun0001 }
- 26:
+            if(!(var10 === var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var10 = false;
- 28:
+case 2:
             var _closure2_slot1 = var10;
             var _closure2_slot2 = var5;
             var1 = _closure1_slot7;
@@ -96,11 +96,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var1.bind(var3)(var2);
             _closure2_slot2 = var4;
             var1 = null;
-            if(!(var1 != var4)) { _fun0001_ip = 494; continue _fun0001 }
- 111:
+            if(!(var1 != var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var15 = var2.size;
-            if(!var10) { _fun0001_ip = 155; continue _fun0001 }
- 119:
+            if(!var10) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var3 = _closure1_slot0;
             var7 = _closure1_slot2;
             var2 = 8;
@@ -109,7 +109,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.HubProgressStep;
             var2 = var2.JOIN_GUILD;
             var10 = var4 === var2;
- 155:
+case 6:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var6];
@@ -117,8 +117,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.getHubProgressTitleForStep;
             var11 = var2.bind(var3)(var4);
             var2 = _closure1_slot5;
-            if(!(!(var15 < var2))) { _fun0001_ip = 248; continue _fun0001 }
- 191:
+            if(!(!(var15 < var2))) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var2 = 9;
@@ -131,8 +131,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.t;
             var2 = var2.+Gyklp;
             var8 = var3.bind(var4)(var2);
-            _fun0001_ip = 342; continue _fun0001;
- 248:
+            _fun0001_ip = 10; continue _fun0001;
+case 8:
             var3 = _closure1_slot0;
             var7 = _closure1_slot2;
             var2 = 9;
@@ -154,7 +154,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = _closure1_slot5;
             var2['total'] = var7;
             var8 = var4.bind(var6)(var3, var2);
- 342:
+case 10:
             var4 = _closure1_slot6;
             var3 = _closure1_slot3;
             var2 = {};
@@ -173,10 +173,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6['iconStyle'] = var13;
             var12 = function onPress() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var1 = _closure2_slot1;
-                    if(!var1) { _fun0002_ip = 55; continue _fun0002 }
- 10:
+                    if(!var1) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
                     var3 = _closure2_slot2;
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot2;
@@ -187,9 +187,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var2.HubProgressStep;
                     var2 = var2.JOIN_GUILD;
                     var1 = var3 === var2;
- 55:
-                    if(var1) { _fun0002_ip = 155; continue _fun0002 }
- 58:
+case 11:
+                    if(var1) { _fun0002_ip = 6; continue _fun0002 }
+case 13:
                     var4 = _closure1_slot1;
                     var2 = _closure1_slot2;
                     var3 = 11;
@@ -212,7 +212,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = 'Directory Channel Header';
                     var1['analyticsSource'] = var6;
                     var1 = var4.bind(var5)(var3, var2, var1);
- 155:
+case 6:
                     var1 = undefined;
                     return var1;
                 }
@@ -226,19 +226,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6['title'] = var11;
             var6['subtitle'] = var8;
             var8 = undefined;
-            if(!var10) { _fun0001_ip = 471; continue _fun0001 }
- 455:
+            if(!var10) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var11 = _closure1_slot6;
             var10 = _closure1_slot3;
             var9 = {};
             var8 = var11.bind(var5)(var10, var9);
- 471:
+case 14:
             var6['trailing'] = var8;
             var6 = var4.bind(var5)(var7, var6);
             var2['children'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
- 494:
+case 4:
             return var1;
         }
     };

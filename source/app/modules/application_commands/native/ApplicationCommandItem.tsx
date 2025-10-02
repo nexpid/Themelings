@@ -74,7 +74,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function _default(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var19 = var2.command;
             var5 = var2.onPress;
@@ -82,15 +82,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot0 = var10;
             var7 = var2.showIcon;
             var4 = undefined;
-            if(!(var7 === var4)) { _fun0001_ip = 39; continue _fun0001 }
- 37:
+            if(!(var7 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var7 = true;
- 39:
+case 2:
             var12 = var2.highlighted;
-            if(!(var12 === var4)) { _fun0001_ip = 51; continue _fun0001 }
- 49:
+            if(!(var12 === var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var12 = false;
- 51:
+case 4:
             var2 = _closure1_slot7;
             var11 = var2.bind(var4)();
             var8 = _closure1_slot3;
@@ -131,10 +131,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = null;
             var18 = var9 == var10;
             var17 = undefined;
-            if(var18) { _fun0001_ip = 186; continue _fun0001 }
- 181:
+            if(var18) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var17 = var10.name;
- 186:
+case 6:
             var8['applicationName'] = var17;
             var17 = var19.displayDescription;
             var8['commandDescription'] = var17;
@@ -146,13 +146,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var21 = var11.applicationCommandItem;
             var22 = var8;
             var14 = copyDataProperties(var22, var21);
-            if(var12) { _fun0001_ip = 246; continue _fun0001 }
- 242:
+            if(var12) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var12 = {};
-            _fun0001_ip = 252; continue _fun0001;
- 246:
+            _fun0001_ip = 10; continue _fun0001;
+case 8:
             var12 = var11.highlightedApplicationCommandItem;
- 252:
+case 10:
             var22 = var8;
             var21 = var12;
             var12 = copyDataProperties(var22, var21);
@@ -160,12 +160,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = 'button';
             var1['accessibilityRole'] = var8;
             var1['onPress'] = var5;
-            if(!var7) { _fun0001_ip = 285; continue _fun0001 }
- 281:
+            if(!var7) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var7 = var9 != var13;
- 285:
-            if(!var7) { _fun0001_ip = 334; continue _fun0001 }
- 288:
+case 11:
+            if(!var7) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var12 = _closure1_slot5;
             var8 = _closure1_slot1;
             var14 = _closure1_slot2;
@@ -177,7 +177,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['style'] = var14;
             var5['source'] = var13;
             var7 = var12.bind(var4)(var8, var5);
- 334:
+case 13:
             var5 = new Array(3);
             var5[0] = var7;
             var15 = _closure1_slot6;
@@ -219,10 +219,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6['style'] = var11;
             var11 = var9 == var10;
             var9 = undefined;
-            if(var11) { _fun0001_ip = 554; continue _fun0001 }
- 549:
+            if(var11) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
             var9 = var10.name;
- 554:
+case 15:
             var6['children'] = var9;
             var6 = var8.bind(var4)(var7, var6);
             var5[2] = var6;

@@ -54,15 +54,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function usePinnedSearchBarBottomBorder(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var6 = var2.key;
             var12 = var2.triggerScrollHeight;
             var5 = undefined;
-            if(!(var12 === var5)) { _fun0001_ip = 25; continue _fun0001 }
- 22:
+            if(!(var12 === var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var12 = 1;
- 25:
+case 2:
             var _closure2_slot0 = var12;
             var _closure2_slot1 = var5;
             var2 = _closure1_slot5;
@@ -108,7 +108,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var10.useAnimatedStyle;
             var1 = function u() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var1 = {};
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot2;
@@ -123,10 +123,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = _closure2_slot0;
                     var6 = var6 > var3;
                     var3 = 0;
-                    if(!var6) { _fun0002_ip = 64; continue _fun0002 }
- 61:
+                    if(!var6) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var3 = 1;
- 64:
+case 4:
                     var6 = _closure1_slot0;
                     var8 = _closure1_slot2;
                     var2 = 6;

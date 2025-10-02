@@ -156,7 +156,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['getAutoArchiveDurations'] = var4;
     var4 = function getAutoArchiveDurationText(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arg1;
             var _closure2_slot0 = var5;
             var3 = _closure1_slot4;
@@ -174,12 +174,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = null;
             var7 = var3 == var6;
             var1 = undefined;
-            if(var7) { _fun0001_ip = 54; continue _fun0001 }
- 49:
+            if(var7) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var6.label;
- 54:
-            if(!(var3 == var1)) { _fun0001_ip = 103; continue _fun0001 }
- 58:
+case 2:
+            if(!(var3 == var1)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = _closure1_slot1;
             var6 = _closure1_slot2;
             var2 = 4;
@@ -190,31 +190,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var4)(var5, var2);
             var2 = var3.humanize;
             var1 = var2.bind(var3)();
- 103:
+case 4:
             return var1;
         }
     };
     var3['getAutoArchiveDurationText'] = var4;
     var2 = function getAutoArchiveDuration(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var4 = arg1;
             var1 = arg2;
             var2 = null;
-            if(!(var2 == var1)) { _fun0002_ip = 30; continue _fun0002 }
- 12:
+            if(!(var2 == var1)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var5 = var2 == var4;
             var3 = undefined;
-            if(var5) { _fun0002_ip = 27; continue _fun0002 }
- 21:
+            if(var5) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var3 = var4.defaultAutoArchiveDuration;
- 27:
+case 8:
             var1 = var3;
- 30:
-            if(!(var2 == var1)) { _fun0002_ip = 41; continue _fun0002 }
- 34:
+case 6:
+            if(!(var2 == var1)) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
             var1 = _closure1_slot3;
- 41:
+case 10:
             return var1;
         }
     };

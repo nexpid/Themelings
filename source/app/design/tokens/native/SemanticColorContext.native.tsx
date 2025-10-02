@@ -24,7 +24,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function getSemanticColorContextFromThemeContext(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
@@ -44,15 +44,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var1.gradient;
             var2 = var3.bind(var5)(var9, var2);
             var5 = null;
-            if(!(var5 != var6)) { _fun0001_ip = 321; continue _fun0001 }
- 96:
+            if(!(var5 != var6)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var13 = var1.theme;
             var3 = var1.primaryColor;
             var12 = var1.secondaryColor;
             var9 = var5 == var3;
             var1 = null;
-            if(var9) { _fun0001_ip = 318; continue _fun0001 }
- 126:
+            if(var9) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var11 = _closure1_slot0;
             var15 = _closure1_slot2;
             var9 = 0;
@@ -63,10 +63,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var15[var9];
             var11 = var11.bind(var14)(var9);
             var9 = var11.int2hex;
-            if(!(var5 != var12)) { _fun0001_ip = 178; continue _fun0001 }
- 175:
+            if(!(var5 != var12)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var3 = var12;
- 178:
+case 6:
             var9 = var9.bind(var11)(var3);
             var11 = _closure1_slot1;
             var15 = _closure1_slot2;
@@ -87,10 +87,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var12.isThemeLight;
             var12 = var7.bind(var12)(var13);
             var7 = 'dark';
-            if(!var12) { _fun0001_ip = 279; continue _fun0001 }
- 275:
+            if(!var12) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var7 = 'light';
- 279:
+case 8:
             var3['theme'] = var7;
             var7 = {};
             var7['gradient.start'] = var10;
@@ -100,23 +100,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7['gradient.secondary'] = var9;
             var3['colors'] = var7;
             var1 = var3;
- 318:
+case 4:
             var2 = var1;
- 321:
+case 2:
             var1 = {};
             var9 = var5 != var6;
             var3 = 1;
             var7 = var3;
-            if(var9) { _fun0001_ip = 339; continue _fun0001 }
- 336:
+            if(var9) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var7 = var8;
- 339:
+case 10:
             var1['contrast'] = var7;
             var5 = var5 != var6;
-            if(var5) { _fun0001_ip = 354; continue _fun0001 }
- 351:
+            if(var5) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var3 = var4;
- 354:
+case 12:
             var1['saturation'] = var3;
             var1['gradient'] = var2;
             return var1;

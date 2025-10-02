@@ -31,22 +31,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function FormLabel(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var5 = var1.text;
             var9 = var1.numberOfLines;
             var4 = undefined;
-            if(!(var9 === var4)) { _fun0001_ip = 22; continue _fun0001 }
- 20:
+            if(!(var9 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var9 = 0;
- 22:
+case 2:
             var8 = var1.style;
             var6 = var1.accessible;
             var10 = var1.color;
-            if(!(var10 === var4)) { _fun0001_ip = 48; continue _fun0001 }
- 42:
+            if(!(var10 === var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var10 = 'header-primary';
- 48:
+case 4:
             var3 = _closure1_slot2;
             var2 = _closure1_slot0;
             var1 = _closure1_slot1;

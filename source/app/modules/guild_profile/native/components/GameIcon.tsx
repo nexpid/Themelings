@@ -79,7 +79,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var7)(var5);
     var4 = function GameIcon(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var10 = var3.style;
             var8 = var3.game;
@@ -100,16 +100,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4[1] = var3;
             var2 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = _closure2_slot1;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0002_ip = 28; continue _fun0002 }
- 13:
+                    if(!(var2 != var3)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var3 = _closure2_slot1;
                     var2 = _closure2_slot0;
                     var1 = undefined;
                     var1 = var3.bind(var1)(var2);
- 28:
+case 2:
                     var1 = undefined;
                     return var1;
                 }
@@ -118,10 +118,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = null;
             var5 = var2 == var1;
             var4 = undefined;
-            if(var5) { _fun0001_ip = 111; continue _fun0001 }
- 105:
+            if(var5) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var4 = var1.level;
- 111:
+case 4:
             var5 = _closure1_slot0;
             var8 = _closure1_slot2;
             var1 = 5;
@@ -132,10 +132,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var4 === var1;
             var4 = var2 == var11;
             var1 = null;
-            if(var4) { _fun0001_ip = 587; continue _fun0001 }
- 159:
-            if(!(var2 == var3)) { _fun0001_ip = 366; continue _fun0001 }
- 166:
+            if(var4) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+            if(!(var2 == var3)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var4 = _closure1_slot7;
             var3 = _closure1_slot4;
             var2 = {};
@@ -154,8 +154,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = new Array(2);
             var5[0] = var9;
             var9 = var8;
-            if(!var8) { _fun0001_ip = 347; continue _fun0001 }
- 242:
+            if(!var8) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var16 = _closure1_slot6;
             var13 = _closure1_slot4;
             var12 = {};
@@ -180,12 +180,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17 = var16.bind(var6)(var18, var17);
             var12['children'] = var17;
             var9 = var16.bind(var6)(var13, var12);
- 347:
+case 10:
             var5[1] = var9;
             var2['children'] = var5;
             var2 = var4.bind(var6)(var3, var2);
-            _fun0001_ip = 584; continue _fun0001;
- 366:
+            _fun0001_ip = 12; continue _fun0001;
+case 8:
             var5 = _closure1_slot7;
             var4 = _closure1_slot0;
             var9 = _closure1_slot2;
@@ -209,8 +209,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var10.bind(var6)(var9, var7);
             var7 = new Array(2);
             var7[0] = var9;
-            if(!var8) { _fun0001_ip = 570; continue _fun0001 }
- 465:
+            if(!var8) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var11 = _closure1_slot6;
             var10 = _closure1_slot4;
             var9 = {};
@@ -235,13 +235,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var11.bind(var6)(var13, var12);
             var9['children'] = var12;
             var8 = var11.bind(var6)(var10, var9);
- 570:
+case 13:
             var7[1] = var8;
             var3['children'] = var7;
             var2 = var5.bind(var6)(var4, var3);
- 584:
+case 12:
             var1 = var2;
- 587:
+case 6:
             return var1;
         }
     };

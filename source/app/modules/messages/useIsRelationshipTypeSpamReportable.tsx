@@ -32,7 +32,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useIsRelationshipTypeSpamReportable(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var7 = arg1;
             var _closure2_slot0 = var7;
             var5 = _closure1_slot0;
@@ -58,18 +58,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = _closure1_slot3;
             var1 = var1.NONE;
             var1 = var3 === var1;
-            if(var1) { _fun0001_ip = 104; continue _fun0001 }
- 90:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = _closure1_slot3;
             var4 = var4.BLOCKED;
             var1 = var3 === var4;
- 104:
-            if(var1) { _fun0001_ip = 121; continue _fun0001 }
- 107:
+case 2:
+            if(var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = _closure1_slot3;
             var2 = var2.PENDING_INCOMING;
             var1 = var3 === var2;
- 121:
+case 4:
             return var1;
         }
     };

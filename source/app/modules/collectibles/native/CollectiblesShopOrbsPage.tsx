@@ -52,7 +52,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function _default(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var7 = var1.shopBlocks;
             var2 = var1.fetchShopHomeError;
@@ -62,12 +62,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = undefined;
             var6 = var1.bind(var5)();
             var1 = null;
-            if(!(var1 === var2)) { _fun0001_ip = 110; continue _fun0001 }
- 46:
+            if(!(var1 === var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var7.length;
             var1 = 0;
-            if(!(var1 !== var2)) { _fun0001_ip = 110; continue _fun0001 }
- 57:
+            if(!(var1 !== var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var3 = _closure1_slot5;
             var2 = _closure1_slot1;
             var9 = _closure1_slot2;
@@ -78,17 +78,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['data'] = var7;
             var4 = function renderItem(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var1 = arg1;
                     var6 = var1.item;
                     var2 = var1.index;
                     var1 = 0;
-                    if(!(var1 === var2)) { _fun0002_ip = 32; continue _fun0002 }
- 19:
+                    if(!(var1 === var2)) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
                     var2 = _closure2_slot0;
                     var1 = undefined;
                     var1 = var2.bind(var1)();
- 32:
+case 5:
                     var4 = _closure1_slot5;
                     var2 = _closure1_slot1;
                     var3 = _closure1_slot2;
@@ -109,8 +109,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var1['renderItem'] = var4;
             var1 = var3.bind(var5)(var2, var1);
-            _fun0001_ip = 258; continue _fun0001;
- 110:
+            _fun0001_ip = 7; continue _fun0001;
+case 2:
             var4 = _closure1_slot5;
             var3 = _closure1_slot3;
             var2 = {};
@@ -146,7 +146,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var4.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 258:
+case 7:
             return var1;
         }
     };

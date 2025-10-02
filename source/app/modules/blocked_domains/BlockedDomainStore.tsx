@@ -45,7 +45,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var3;
         var2 = function value(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var3 = _closure1_slot0;
                 var1 = _closure1_slot2;
                 var7 = 3;
@@ -56,8 +56,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var1.bind(var3)();
                 var4 = null;
                 var1 = null;
-                if(!var3) { _fun0001_ip = 73; continue _fun0001 }
- 42:
+                if(!var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var6 = _closure1_slot0;
                 var3 = _closure1_slot2;
                 var3 = var3[var7];
@@ -65,15 +65,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var7.isBlockedDomain;
                 var3 = arg1;
                 var1 = var6.bind(var7)(var3);
- 73:
+case 2:
                 var3 = '';
                 var3 = var3 !== var1;
-                if(!var3) { _fun0001_ip = 88; continue _fun0001 }
- 84:
+                if(!var3) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var3 = var4 !== var1;
- 88:
-                if(!var3) { _fun0001_ip = 141; continue _fun0001 }
- 91:
+case 4:
+                if(!var3) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                 var4 = _closure1_slot1;
                 var6 = _closure1_slot2;
                 var3 = 4;
@@ -85,7 +85,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = {};
                 var2['blocked_domain'] = var1;
                 var2 = var4.bind(var5)(var3, var2);
- 141:
+case 6:
                 return var1;
             }
         };

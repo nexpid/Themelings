@@ -74,7 +74,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function CommandListSortButton(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = var1.sortOrder;
             var _closure2_slot0 = var2;
@@ -85,13 +85,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var1.bind(var4)();
             var1 = _closure1_slot4;
             var1 = var1.POPULAR;
-            if(!(var1 !== var2)) { _fun0001_ip = 125; continue _fun0001 }
- 52:
+            if(!(var1 !== var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = _closure1_slot4;
             var1 = var1.ALPHABETICAL;
             var12 = undefined;
-            if(!(var1 === var2)) { _fun0001_ip = 180; continue _fun0001 }
- 68:
+            if(!(var1 === var2)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var1 = 7;
@@ -104,8 +104,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.t;
             var1 = var1.m8xstr;
             var12 = var2.bind(var3)(var1);
-            _fun0001_ip = 180; continue _fun0001;
- 125:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var1 = 7;
@@ -118,7 +118,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.t;
             var1 = var1.SzxiqK;
             var12 = var2.bind(var3)(var1);
- 180:
+case 4:
             var3 = _closure1_slot6;
             var10 = _closure1_slot0;
             var13 = _closure1_slot2;

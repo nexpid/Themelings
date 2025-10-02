@@ -159,7 +159,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['validation'] = var9;
     var8 = function handler(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var3 = var1.socket;
             var1 = var1.args;
@@ -168,8 +168,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var3.application;
             var4 = var1.id;
             var1 = null;
-            if(!(var1 != var4)) { _fun0001_ip = 109; continue _fun0001 }
- 43:
+            if(!(var1 != var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = _closure1_slot0;
             var4 = _closure1_slot2;
             var1 = 6;
@@ -223,7 +223,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var6.bind(var7)(var2);
             var2 = var4.bind(var5)(var3, var2);
             return var1;
- 109:
+case 2:
             var4 = _closure1_slot1;
             var3 = _closure1_slot2;
             var2 = 5;

@@ -34,17 +34,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[0] = var5;
         var1 = function(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var8 = var1.nativeEvent;
                 var1 = _closure2_slot0;
                 var9 = var1.current;
                 var1 = var8.isSectionHeader;
-                if(var1) { _fun0001_ip = 127; continue _fun0001 }
- 30:
+                if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var1 = var8.isSectionFooter;
-                if(var1) { _fun0001_ip = 77; continue _fun0001 }
- 39:
+                if(var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var4 = var9.renderItem;
                 var3 = var8.section;
                 var1 = var8.item;
@@ -52,100 +52,100 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = null;
                 var3 = var3 != var1;
                 var5 = undefined;
-                if(!var3) { _fun0001_ip = 75; continue _fun0001 }
- 72:
+                if(!var3) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                 var5 = var1;
- 75:
-                _fun0001_ip = 125; continue _fun0001;
- 77:
+case 6:
+                _fun0001_ip = 8; continue _fun0001;
+case 4:
                 var1 = var9.renderSectionFooter;
                 var4 = null;
                 var6 = var4 == var1;
                 var3 = undefined;
-                if(var6) { _fun0001_ip = 110; continue _fun0001 }
- 94:
+                if(var6) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
                 var7 = var9.renderSectionFooter;
                 var6 = var8.section;
                 var3 = var7.bind(var9)(var6);
- 110:
+case 9:
                 var4 = var4 != var3;
                 var1 = undefined;
-                if(!var4) { _fun0001_ip = 122; continue _fun0001 }
- 119:
+                if(!var4) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
                 var1 = var3;
- 122:
+case 11:
                 var5 = var1;
- 125:
-                _fun0001_ip = 175; continue _fun0001;
- 127:
+case 8:
+                _fun0001_ip = 13; continue _fun0001;
+case 2:
                 var1 = var9.renderSectionHeader;
                 var4 = null;
                 var6 = var4 == var1;
                 var3 = undefined;
-                if(var6) { _fun0001_ip = 160; continue _fun0001 }
- 144:
+                if(var6) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
                 var7 = var9.renderSectionHeader;
                 var6 = var8.section;
                 var3 = var7.bind(var9)(var6);
- 160:
+case 14:
                 var4 = var4 != var3;
                 var1 = undefined;
-                if(!var4) { _fun0001_ip = 172; continue _fun0001 }
- 169:
+                if(!var4) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
                 var1 = var3;
- 172:
+case 16:
                 var5 = var1;
- 175:
+case 13:
                 var4 = null;
                 var3 = var4 == var5;
                 var1 = undefined;
                 var9 = undefined;
-                if(var3) { _fun0001_ip = 193; continue _fun0001 }
- 188:
+                if(var3) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
                 var9 = var5.props;
- 193:
+case 18:
                 var6 = var4 == var5;
                 var3 = undefined;
-                if(var6) { _fun0001_ip = 207; continue _fun0001 }
- 202:
+                if(var6) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
                 var3 = var5.type;
- 207:
+case 20:
                 var10 = 'function';
                 var5 = typeof var3;
-                if(!(var10 === var5)) { _fun0001_ip = 234; continue _fun0001 }
- 218:
+                if(!(var10 === var5)) { _fun0001_ip = 22; continue _fun0001 }
+case 23:
                 var5 = var3.name;
                 var6 = var5.length;
                 var5 = 0;
-                if(!(!(var6 > var5))) { _fun0001_ip = 285; continue _fun0001 }
- 234:
+                if(!(!(var6 > var5))) { _fun0001_ip = 24; continue _fun0001 }
+case 22:
                 var6 = var4 == var3;
                 var5 = undefined;
-                if(var6) { _fun0001_ip = 248; continue _fun0001 }
- 243:
+                if(var6) { _fun0001_ip = 25; continue _fun0001 }
+case 26:
                 var5 = var3.type;
- 248:
+case 25:
                 var7 = typeof var5;
                 var6 = undefined;
-                if(!(var10 === var7)) { _fun0001_ip = 283; continue _fun0001 }
- 257:
+                if(!(var10 === var7)) { _fun0001_ip = 27; continue _fun0001 }
+case 28:
                 var7 = var5.name;
                 var10 = var7.length;
                 var7 = 0;
                 var7 = var10 > var7;
                 var6 = undefined;
-                if(!var7) { _fun0001_ip = 283; continue _fun0001 }
- 278:
+                if(!var7) { _fun0001_ip = 27; continue _fun0001 }
+case 29:
                 var6 = var5.name;
- 283:
-                _fun0001_ip = 290; continue _fun0001;
- 285:
+case 27:
+                _fun0001_ip = 30; continue _fun0001;
+case 24:
                 var6 = var3.name;
- 290:
+case 30:
                 var5 = var4 == var6;
                 var3 = undefined;
-                if(!var5) { _fun0001_ip = 331; continue _fun0001 }
- 299:
+                if(!var5) { _fun0001_ip = 31; continue _fun0001 }
+case 32:
                 var5 = global;
                 var7 = var5.Object;
                 var5 = var7.keys;
@@ -153,15 +153,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = var9.join;
                 var5 = ',';
                 var3 = var7.bind(var9)(var5);
- 331:
+case 31:
                 var5 = var8.isSectionHeader;
-                if(var5) { _fun0001_ip = 426; continue _fun0001 }
- 340:
+                if(var5) { _fun0001_ip = 33; continue _fun0001 }
+case 34:
                 var7 = var8.isSectionFooter;
                 var11 = var8.section;
                 var5 = global;
-                if(var7) { _fun0001_ip = 397; continue _fun0001 }
- 356:
+                if(var7) { _fun0001_ip = 35; continue _fun0001 }
+case 36:
                 var15 = var8.item;
                 var7 = var5.HermesInternal;
                 var12 = var7.concat;
@@ -170,16 +170,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var14 = '.';
                 var17 = var11;
                 var7 = var18[var12](var17, var16, var15, var14, var13);
-                _fun0001_ip = 424; continue _fun0001;
- 397:
+                _fun0001_ip = 37; continue _fun0001;
+case 35:
                 var5 = var5.HermesInternal;
                 var10 = var5.concat;
                 var9 = 'Section footer at section ';
                 var5 = '.';
                 var7 = var10.bind(var9)(var11, var5);
- 424:
-                _fun0001_ip = 460; continue _fun0001;
- 426:
+case 37:
+                _fun0001_ip = 38; continue _fun0001;
+case 33:
                 var11 = var8.section;
                 var5 = global;
                 var5 = var5.HermesInternal;
@@ -187,7 +187,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var9 = 'Section header at section ';
                 var5 = '.';
                 var7 = var10.bind(var9)(var11, var5);
- 460:
+case 38:
                 var5 = {};
                 var17 = var8.sizeExpected;
                 var15 = var8.size;
@@ -202,10 +202,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5['itemPosition'] = var7;
                 var7 = var4 != var6;
                 var4 = 'Unknown component.';
-                if(!var7) { _fun0001_ip = 538; continue _fun0001 }
- 535:
+                if(!var7) { _fun0001_ip = 39; continue _fun0001 }
+case 40:
                 var4 = var6;
- 538:
+case 39:
                 var5['itemName'] = var4;
                 var5['itemProps'] = var3;
                 var2 = _closure2_slot0;

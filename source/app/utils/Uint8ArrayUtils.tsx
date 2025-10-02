@@ -3,14 +3,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3 = exports;
     var4 = function hasBit(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arg1;
             var4 = arg2;
             var2 = var5.length;
             var1 = 0;
             var1 = var1 !== var2;
-            if(!var1) { _fun0001_ip = 71; continue _fun0001 }
- 20:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = global;
             var7 = var2.Math;
             var6 = var7.floor;
@@ -24,7 +24,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3 & var2;
             var2 = !var2;
             var1 = !var2;
- 71:
+case 2:
             return var1;
         }
     };
@@ -49,7 +49,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['hasBit'] = var4;
     var4 = function addBit(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var8 = arg1;
             var5 = arg2;
             var4 = global;
@@ -60,8 +60,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var6)(var1);
             var6 = var8.length;
             var1 = var8;
-            if(!(var6 <= var3)) { _fun0002_ip = 93; continue _fun0002 }
- 44:
+            if(!(var6 <= var3)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var7 = var4.Uint8Array;
             var4 = 1;
             var10 = var3 + var4;
@@ -74,7 +74,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = 0;
             var6 = var7.bind(var4)(var8, var6);
             var1 = var4;
- 93:
+case 4:
             var4 = var1[var3];
             var5 = var5 % var2;
             var2 = 1;
@@ -87,14 +87,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['addBit'] = var4;
     var4 = function removeBit(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var1 = arg1;
             var5 = arg2;
             var3 = _closure1_slot0;
             var2 = undefined;
             var2 = var3.bind(var2)(var1, var5);
-            if(!var2) { _fun0003_ip = 76; continue _fun0003 }
- 24:
+            if(!var2) { _fun0003_ip = 6; continue _fun0003 }
+case 7:
             var2 = global;
             var6 = var2.Math;
             var4 = var6.floor;
@@ -108,7 +108,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = ~var2;
             var2 = var4 & var2;
             var1[var3] = var2;
- 76:
+case 6:
             return var1;
         }
     };
@@ -123,22 +123,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['isUint8Array'] = var4;
     var2 = function isSerializedUint8Array(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = null;
             var1 = var1 != var2;
-            if(!var1) { _fun0004_ip = 23; continue _fun0004 }
- 12:
+            if(!var1) { _fun0004_ip = 8; continue _fun0004 }
+case 9:
             var4 = 'object';
             var3 = typeof var2;
             var1 = var4 === var3;
- 23:
-            if(!var1) { _fun0004_ip = 42; continue _fun0004 }
- 26:
+case 8:
+            if(!var1) { _fun0004_ip = 10; continue _fun0004 }
+case 11:
             var3 = var2.__tag__;
             var2 = 'uint8array';
             var1 = var2 === var3;
- 42:
+case 10:
             return var1;
         }
     };

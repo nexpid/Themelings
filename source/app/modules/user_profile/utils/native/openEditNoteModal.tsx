@@ -24,7 +24,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function openEditNoteModal(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = _closure1_slot1;
             var7 = _closure1_slot2;
             var1 = 0;
@@ -46,13 +46,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.isAndroid;
             var2 = var2.bind(var3)();
             var3 = undefined;
-            if(!var2) { _fun0001_ip = 104; continue _fun0001 }
- 90:
+            if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = {};
             var7 = 'modal';
             var2['presentation'] = var7;
             var3 = var2;
- 104:
+case 2:
             var11 = arg1;
             var13 = var6;
             var12 = var4;

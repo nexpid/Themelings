@@ -90,7 +90,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function _default(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var14 = var1.item;
             var13 = var1.size;
@@ -126,28 +126,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = new Array(3);
             var10[0] = var17;
             var17 = var11;
-            if(!var11) { _fun0001_ip = 166; continue _fun0001 }
- 160:
+            if(!var11) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var17 = var15.purchased;
- 166:
+case 2:
             var10[1] = var17;
-            if(!var16) { _fun0001_ip = 179; continue _fun0001 }
- 173:
+            if(!var16) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var16 = var15.threeTierBundle;
- 179:
+case 4:
             var10[2] = var16;
             var5['style'] = var10;
             var10 = 'contain';
             var5['resizeMode'] = var10;
             var10 = null;
-            if(!(var10 == var8)) { _fun0001_ip = 222; continue _fun0001 }
- 202:
+            if(!(var10 == var8)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var16 = _closure1_slot1;
             var17 = _closure1_slot2;
             var10 = 7;
             var10 = var17[var10];
             var8 = var16.bind(var4)(var10);
- 222:
+case 6:
             var5['source'] = var8;
             var6 = var7.bind(var4)(var6, var5);
             var5 = new Array(2);
@@ -158,10 +158,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = var15.avatarDecoration;
             var10 = new Array(2);
             var10[0] = var16;
-            if(!var11) { _fun0001_ip = 273; continue _fun0001 }
- 267:
+            if(!var11) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var11 = var15.purchased;
- 273:
+case 8:
             var10[1] = var11;
             var6['style'] = var10;
             var11 = _closure1_slot5;

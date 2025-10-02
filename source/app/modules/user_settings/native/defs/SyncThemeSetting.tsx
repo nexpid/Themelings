@@ -95,7 +95,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['useValue'] = var7;
     var7 = function onSyncThemeAcrossClientsValueChange(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var1 = _closure1_slot5;
             var11 = var1.theme;
@@ -105,30 +105,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var5 == var6;
             var1 = undefined;
             var3 = undefined;
-            if(var7) { _fun0001_ip = 44; continue _fun0001 }
- 39:
+            if(var7) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = var6.id;
- 44:
+case 2:
             var6 = var5 != var3;
             var10 = null;
-            if(!var6) { _fun0001_ip = 56; continue _fun0001 }
- 53:
+            if(!var6) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var10 = var3;
- 56:
+case 4:
             var3 = _closure1_slot6;
             var3 = var3.settings;
             var6 = var3.appearance;
             var7 = var5 == var6;
             var3 = undefined;
-            if(var7) { _fun0001_ip = 102; continue _fun0001 }
- 81:
+            if(var7) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var6 = var6.clientThemeSettings;
             var7 = var5 == var6;
             var3 = undefined;
-            if(var7) { _fun0001_ip = 102; continue _fun0001 }
- 96:
+            if(var7) { _fun0001_ip = 6; continue _fun0001 }
+case 8:
             var3 = var6.customUserThemeSettings;
- 102:
+case 6:
             var9 = var5 != var3;
             var6 = _closure1_slot0;
             var5 = _closure1_slot2;
@@ -175,7 +175,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['useDescription'] = var7;
     var4 = function useIsSyncThemeAcrossClientsDisabled() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
             var6 = 8;
@@ -212,32 +212,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = null;
             var5 = var1 != var7;
             var3 = null;
-            if(!var5) { _fun0002_ip = 160; continue _fun0002 }
- 129:
+            if(!var5) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
             var9 = var1 == var6;
             var5 = undefined;
-            if(var9) { _fun0002_ip = 157; continue _fun0002 }
- 138:
+            if(var9) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
             var6 = var6[var7];
             var7 = var1 == var6;
             var5 = undefined;
-            if(var7) { _fun0002_ip = 157; continue _fun0002 }
- 151:
+            if(var7) { _fun0002_ip = 11; continue _fun0002 }
+case 13:
             var5 = var6.theme;
- 157:
+case 11:
             var3 = var5;
- 160:
-            if(!(var1 == var3)) { _fun0002_ip = 180; continue _fun0002 }
- 164:
+case 9:
+            if(!(var1 == var3)) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
             var1 = _closure1_slot8;
             var1 = var1.MIDNIGHT;
             var1 = var4 === var1;
-            _fun0002_ip = 194; continue _fun0002;
- 180:
+            _fun0002_ip = 16; continue _fun0002;
+case 14:
             var2 = _closure1_slot8;
             var2 = var2.MIDNIGHT;
             var1 = var3 === var2;
- 194:
+case 16:
             return var1;
         }
     };

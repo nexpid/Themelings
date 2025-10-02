@@ -93,7 +93,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function ActivityShelfBadge(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var3 = var1.labelType;
             var9 = var1.replacementStyles;
@@ -101,10 +101,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = undefined;
             var8 = var1.bind(var5)();
             var1 = null;
-            if(!(var1 == var9)) { _fun0001_ip = 40; continue _fun0001 }
- 34:
+            if(!(var1 == var9)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var9 = var8.badge;
- 40:
+case 2:
             var4 = _closure1_slot0;
             var2 = _closure1_slot1;
             var7 = 7;
@@ -112,8 +112,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4.bind(var5)(var2);
             var2 = var2.EmbeddedActivityLabelTypes;
             var2 = var2.NEW;
-            if(!(var3 !== var2)) { _fun0001_ip = 284; continue _fun0001 }
- 79:
+            if(!(var3 !== var2)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var4 = _closure1_slot0;
             var2 = _closure1_slot1;
             var2 = var2[var7];
@@ -121,8 +121,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.EmbeddedActivityLabelTypes;
             var2 = var2.UPDATED;
             var1 = null;
-            if(!(var3 === var2)) { _fun0001_ip = 279; continue _fun0001 }
- 117:
+            if(!(var3 === var2)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var4 = _closure1_slot3;
             var3 = _closure1_slot2;
             var2 = {};
@@ -156,9 +156,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var4.bind(var5)(var10, var7);
             var2['children'] = var7;
             var1 = var4.bind(var5)(var3, var2);
- 279:
-            _fun0001_ip = 444; continue _fun0001;
- 284:
+case 6:
+            _fun0001_ip = 8; continue _fun0001;
+case 4:
             var4 = _closure1_slot3;
             var3 = _closure1_slot2;
             var2 = {};
@@ -192,7 +192,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var4.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 444:
+case 8:
             return var1;
         }
     };

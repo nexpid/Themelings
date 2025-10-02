@@ -43,7 +43,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function updateChannelUnreadSettings(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var8 = arg1;
             var7 = arg2;
             var11 = arg3;
@@ -72,15 +72,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var10.unreads;
             var2 = _closure1_slot6;
             var2 = var2.UNREADS_ALL_MESSAGES;
-            if(!(var11 !== var2)) { _fun0001_ip = 140; continue _fun0001 }
- 128:
+            if(!(var11 !== var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = _closure1_slot5;
             var2 = var2.ONLY_MENTIONS;
-            _fun0001_ip = 150; continue _fun0001;
- 140:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var11 = _closure1_slot5;
             var2 = var11.ALL_MESSAGES;
- 150:
+case 4:
             var16 = var3.bind(var10)(var2);
             var2 = {};
             var9 = _closure1_slot4;

@@ -92,7 +92,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function SearchBarActivityIcon(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var6 = var2.searchContext;
             var _closure2_slot0 = var6;
@@ -141,21 +141,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var5.useState;
             var2 = function(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var2 = arg1;
                     var1 = var2.isInitialSearchQuery;
                     var3 = var1.bind(var2)();
                     var1 = var2.isAutocompleteVisible;
                     var2 = var1.bind(var2)();
                     var1 = _closure2_slot2;
-                    if(!var1) { _fun0002_ip = 36; continue _fun0002 }
- 33:
+                    if(!var1) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var1 = !var3;
- 36:
-                    if(!var1) { _fun0002_ip = 42; continue _fun0002 }
- 39:
+case 2:
+                    if(!var1) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var1 = !var2;
- 42:
+case 4:
                     return var1;
                 }
             };
@@ -176,7 +176,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[1] = var8;
             var2 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var7 = _closure2_slot3;
                     var4 = _closure2_slot4;
                     var3 = var4.set;
@@ -188,17 +188,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = var6.bind(var1)(var5);
                     var5 = var6.withTiming;
                     var2 = _closure1_slot12;
-                    if(var7) { _fun0003_ip = 71; continue _fun0003 }
- 53:
+                    if(var7) { _fun0003_ip = 6; continue _fun0003 }
+case 7:
                     var7 = var2.START;
                     var7 = var5.bind(var6)(var7);
                     var7 = var3.bind(var4)(var7);
-                    _fun0003_ip = 87; continue _fun0003;
- 71:
+                    _fun0003_ip = 8; continue _fun0003;
+case 6:
                     var2 = var2.END;
                     var2 = var5.bind(var6)(var2);
                     var2 = var3.bind(var4)(var2);
- 87:
+case 8:
                     return var1;
                 }
             };
@@ -316,10 +316,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var12.isAndroid;
             var12 = var11.bind(var12)();
             var11 = 'xs';
-            if(!var12) { _fun0001_ip = 577; continue _fun0001 }
- 573:
+            if(!var12) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var11 = 'sm';
- 577:
+case 9:
             var9['size'] = var11;
             var11 = 'interactive-normal';
             var9['color'] = var11;

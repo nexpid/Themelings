@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function FamilyCenterActivityBannerButton() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = _closure1_slot8;
             var5 = undefined;
             var8 = var1.bind(var5)();
@@ -32,16 +32,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var3.useHasMaxConnections;
             var4 = var1.bind(var3)();
             var1 = null;
-            if(var4) { _fun0001_ip = 195; continue _fun0001 }
- 98:
-            if(!var7) { _fun0001_ip = 117; continue _fun0001 }
- 101:
+            if(var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            if(!var7) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var4 = var2.length;
             var2 = 0;
             var2 = var4 > var2;
             var1 = null;
-            if(var2) { _fun0001_ip = 195; continue _fun0001 }
- 117:
+            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var4 = _closure1_slot6;
             var3 = _closure1_slot3;
             var2 = {};
@@ -53,18 +53,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = 7;
             var6 = var10[var6];
             var6 = var9.bind(var5)(var6);
-            if(var7) { _fun0001_ip = 171; continue _fun0001 }
- 163:
+            if(var7) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var7 = var6.FamilyCenterTeenQRCodeButton;
-            _fun0001_ip = 177; continue _fun0001;
- 171:
+            _fun0001_ip = 8; continue _fun0001;
+case 6:
             var7 = var6.FamilyCenterParentQRCodeButton;
- 177:
+case 8:
             var6 = {};
             var6 = var8.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 195:
+case 2:
             return var1;
         }
     };
@@ -159,7 +159,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function FamilyCenterActivityBanner() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var13 = _closure1_slot1;
             var6 = _closure1_slot2;
             var1 = 6;
@@ -233,15 +233,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = _closure1_slot4;
             var5 = {};
             var16 = _closure1_slot2;
-            if(var10) { _fun0002_ip = 351; continue _fun0002 }
- 342:
+            if(var10) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
             var10 = 13;
             var10 = var16[var10];
-            _fun0002_ip = 358; continue _fun0002;
- 351:
+            _fun0002_ip = 11; continue _fun0002;
+case 9:
             var14 = 12;
             var10 = var16[var14];
- 358:
+case 11:
             var10 = var13.bind(var4)(var10);
             var5['source'] = var10;
             var10 = var12.art;
@@ -276,13 +276,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var10.bind(var4)(var9, var6);
             var5[2] = var6;
             var6 = null;
-            if(var8) { _fun0002_ip = 537; continue _fun0002 }
- 521:
+            if(var8) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
             var9 = _closure1_slot6;
             var8 = _closure1_slot10;
             var7 = {};
             var6 = var9.bind(var4)(var8, var7);
- 537:
+case 12:
             var5[3] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

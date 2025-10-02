@@ -28,7 +28,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function trackApplicationOpen(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var19 = var1.type;
             var18 = var1.source;
@@ -63,10 +63,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = null;
             var15 = var13 != var14;
             var13 = undefined;
-            if(!var15) { _fun0001_ip = 162; continue _fun0001 }
- 159:
+            if(!var15) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var13 = var14;
- 162:
+case 2:
             var2['party_id'] = var13;
             var2['other_user_id'] = var12;
             var2['message_id'] = var11;

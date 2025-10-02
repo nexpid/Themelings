@@ -61,7 +61,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var6 = var1.hideLeftSparkle;
             var5 = var1.hasExtraMargin;
@@ -71,18 +71,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = _closure1_slot4;
             var2 = _closure1_slot2;
             var1 = {};
-            if(var5) { _fun0001_ip = 49; continue _fun0001 }
- 41:
+            if(var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = var13.pillParent;
-            _fun0001_ip = 55; continue _fun0001;
- 49:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var5 = var13.pillParentExtraMargin;
- 55:
+case 4:
             var1['style'] = var5;
             var5 = true;
             var6 = var5 !== var6;
-            if(!var6) { _fun0001_ip = 106; continue _fun0001 }
- 68:
+            if(!var6) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var8 = _closure1_slot3;
             var7 = _closure1_slot0;
             var10 = _closure1_slot1;
@@ -92,7 +92,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var5.SparkleLeft;
             var5 = {};
             var6 = var8.bind(var4)(var7, var5);
- 106:
+case 5:
             var5 = new Array(3);
             var5[0] = var6;
             var8 = _closure1_slot3;

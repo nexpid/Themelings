@@ -8,8 +8,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var6;
     var1 = function _isNativeReflectConstruct() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
- 2: // try_start_0
+case 0:
+case 2: // try_start_0
             var2 = global;
             var3 = var2.Boolean;
             var3 = var3.prototype;
@@ -27,11 +27,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var4)(var2);
             var2 = !var2;
             var _closure2_slot0 = var2;
- 72: // try_end0
-            _fun0001_ip = 76; continue _fun0001;
- 74: // catch_target0
+case 3: // try_end0
+            _fun0001_ip = 4; continue _fun0001;
+case 5: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+case 4:
             var2 = function _isNativeReflectConstruct() {
                 var1 = _closure2_slot0;
                 var1 = !var1;
@@ -47,16 +47,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot14 = var1;
     var1 = function resolveFingerprint(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var4 = arg1;
             var1 = null;
-            if(!(var1 == var4)) { _fun0002_ip = 28; continue _fun0002 }
- 9:
+            if(!(var1 == var4)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var2 = _closure1_slot7;
             var1 = var2.getId;
             var1 = var1.bind(var2)();
-            _fun0002_ip = 64; continue _fun0002;
- 28:
+            _fun0002_ip = 8; continue _fun0002;
+case 6:
             var5 = _closure1_slot0;
             var3 = _closure1_slot1;
             var2 = 7;
@@ -65,7 +65,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var5.bind(var2)(var3);
             var2 = var3.extractId;
             var1 = var2.bind(var3)(var4);
- 64:
+case 8:
             return var1;
         }
     };
@@ -122,7 +122,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function(arg1) {
         var4 = function AnalyticsLogStore() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var4 = this;
                 var3 = undefined;
                 var5 = undefined;
@@ -134,14 +134,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = _closure1_slot4;
                 var1 = _closure1_slot14;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0003_ip = 69; continue _fun0003 }
- 51:
+                if(var1) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
                 var7 = var9.apply;
                 var5 = arguments;
                 var1 = var5;
                 var1 = var7.bind(var9)(var4, var1);
-                _fun0003_ip = 105; continue _fun0003;
- 69:
+                _fun0003_ip = 11; continue _fun0003;
+case 9:
                 var7 = global;
                 var8 = var7.Reflect;
                 var7 = var8.construct;
@@ -150,7 +150,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var6.constructor;
                 var5 = arguments;
                 var1 = var7.bind(var8)(var9, var5, var6);
- 105:
+case 11:
                 var1 = var2.bind(var3)(var4, var1);
                 return var1;
             }
@@ -223,15 +223,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = {};
     var9 = function handleTrack(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var2 = arg1;
             var6 = var2.event;
             var1 = var2.properties;
             var7 = var2.fingerprint;
             var3 = _closure1_slot8;
             var3 = var3.isDeveloper;
-            if(!var3) { _fun0004_ip = 213; continue _fun0004 }
- 40:
+            if(!var3) { _fun0004_ip = 12; continue _fun0004 }
+case 13:
             var5 = _closure1_slot10;
             var4 = var5.push;
             var3 = {};
@@ -263,8 +263,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = _closure1_slot10;
             var4 = var3.length;
             var3 = 500;
-            if(!(var4 > var3)) { _fun0004_ip = 213; continue _fun0004 }
- 172:
+            if(!(var4 > var3)) { _fun0004_ip = 12; continue _fun0004 }
+case 14:
             var4 = _closure1_slot10;
             var3 = var4.slice;
             var6 = var1.Math;
@@ -274,7 +274,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = -var1;
             var1 = var3.bind(var4)(var1);
             _closure1_slot10 = var1;
- 213:
+case 12:
             var1 = undefined;
             return var1;
         }
@@ -282,7 +282,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['TRACK'] = var9;
     var9 = function handleTrackTrigger(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
             var1 = arg1;
             var11 = var1.experimentId;
             var10 = var1.descriptor;
@@ -292,12 +292,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var1.previouslyTracked;
             var2 = _closure1_slot8;
             var2 = var2.isDeveloper;
-            if(!var2) { _fun0005_ip = 58; continue _fun0005 }
- 54:
+            if(!var2) { _fun0005_ip = 15; continue _fun0005 }
+case 16:
             var2 = _closure1_slot13;
- 58:
-            if(!var2) { _fun0005_ip = 212; continue _fun0005 }
- 64:
+case 15:
+            if(!var2) { _fun0005_ip = 17; continue _fun0005 }
+case 8:
             var16 = _closure1_slot12;
             var3 = new Array(1);
             var15 = 0;
@@ -334,13 +334,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var3.length;
             var3 = 500;
             var2 = var4 > var3;
- 212:
-            if(!var2) { _fun0005_ip = 229; continue _fun0005 }
- 215:
+case 17:
+            if(!var2) { _fun0005_ip = 18; continue _fun0005 }
+case 19:
             var2 = _closure1_slot12;
             var1 = var2.shift;
             var1 = var1.bind(var2)();
- 229:
+case 18:
             var1 = undefined;
             return var1;
         }

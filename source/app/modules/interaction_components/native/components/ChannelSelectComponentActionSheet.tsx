@@ -100,15 +100,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['onPressOptionItem'] = var13;
         var13 = function renderIcon(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var4 = _closure1_slot4;
                 var2 = var4.getChannel;
                 var1 = arg1;
                 var1 = var1.value;
                 var7 = var2.bind(var4)(var1);
                 var1 = null;
-                if(!(var1 != var7)) { _fun0001_ip = 131; continue _fun0001 }
- 31:
+                if(!(var1 != var7)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var5 = _closure1_slot5;
                 var4 = var5.getGuild;
                 var2 = _closure2_slot1;
@@ -122,8 +122,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var4.getChannelIconData;
                 var7 = var2.bind(var4)(var7, var5);
                 var2 = var1 != var7;
-                if(!var2) { _fun0001_ip = 129; continue _fun0001 }
- 93:
+                if(!var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var5 = _closure1_slot6;
                 var4 = _closure1_slot1;
                 var8 = _closure1_slot2;
@@ -133,9 +133,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = {};
                 var3['source'] = var7;
                 var2 = var5.bind(var6)(var4, var3);
- 129:
+case 4:
                 return var2;
- 131:
+case 2:
                 return var1;
             }
         };
@@ -157,18 +157,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['onQueryChange'] = var7;
         var6 = function itemAccessibilityLabel(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var4 = _closure1_slot4;
                 var3 = var4.getChannel;
                 var2 = arg1;
                 var2 = var2.value;
                 var4 = var3.bind(var4)(var2);
                 var2 = null;
-                if(!(var2 == var4)) { _fun0002_ip = 35; continue _fun0002 }
- 31:
+                if(!(var2 == var4)) { _fun0002_ip = 6; continue _fun0002 }
+case 3:
                 var2 = undefined;
                 return var2;
- 35:
+case 6:
                 var2 = _closure1_slot1;
                 var3 = _closure1_slot2;
                 var1 = 9;

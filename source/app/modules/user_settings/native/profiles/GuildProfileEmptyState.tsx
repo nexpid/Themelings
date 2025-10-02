@@ -155,11 +155,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var15 = function* () {
             var1 = function* anon_0_() {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 81; continue _fun0001 }
- 7:
+                    if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var5 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var3 = 10;
@@ -171,19 +171,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var2.paths;
                     var2 = var5.bind(var3)(var4, var2);
                     SaveGenerator(address=54);
- 52:
+case 4:
                     return var2;
- 54:
+case 5:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0001_ip = 78; continue _fun0001 }
- 60:
+                    if(var4) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                     var5 = var2.default;
                     var4 = var5.openCreateGuildModal;
                     var4 = var4.bind(var5)();
                     return var3;
- 78:
+case 6:
                     return var2;
- 81:
+case 2:
                     return var1;
                 }
             };
@@ -219,11 +219,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = function* () {
             var1 = function* anon_0_() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0002_ip = 81; continue _fun0002 }
- 7:
+                    if(var2) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var5 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var3 = 10;
@@ -235,19 +235,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var2.paths;
                     var2 = var5.bind(var3)(var4, var2);
                     SaveGenerator(address=54);
- 52:
+case 4:
                     return var2;
- 54:
+case 5:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0002_ip = 78; continue _fun0002 }
- 60:
+                    if(var4) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var5 = var2.default;
                     var4 = var5.openGuildJoinServerScreen;
                     var4 = var4.bind(var5)();
                     return var3;
- 78:
+case 6:
                     return var2;
- 81:
+case 2:
                     return var1;
                 }
             };

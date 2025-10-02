@@ -28,7 +28,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function trackStreamProblem(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var14 = var2.problem;
             var10 = var2.stream;
@@ -38,10 +38,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var2.location;
             var8 = var2.rating;
             var1 = undefined;
-            if(!(var8 === var1)) { _fun0001_ip = 52; continue _fun0001 }
- 50:
+            if(!(var8 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var8 = null;
- 52:
+case 2:
             var13 = var2.category;
             var12 = var2.variant;
             var4 = _closure1_slot0;
@@ -65,17 +65,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = null;
             var13 = var10 != var11;
             var12 = null;
-            if(!var13) { _fun0001_ip = 168; continue _fun0001 }
- 163:
+            if(!var13) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var12 = var11.id;
- 168:
+case 4:
             var2['application_id'] = var12;
             var12 = var10 != var11;
             var10 = null;
-            if(!var12) { _fun0001_ip = 187; continue _fun0001 }
- 182:
+            if(!var12) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var10 = var11.name;
- 187:
+case 6:
             var2['application_name'] = var10;
             var2['location'] = var9;
             var2['rating'] = var8;

@@ -32,7 +32,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function createGuildReportRaidSystemMessage(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var8 = arg1;
             var15 = var8.message;
             var12 = var8.roleStyle;
@@ -54,10 +54,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = null;
             var10 = var5 == var13;
             var1 = undefined;
-            if(var10) { _fun0001_ip = 100; continue _fun0001 }
- 95:
+            if(var10) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var13.guild_id;
- 100:
+case 2:
             var1 = var2.bind(var4)(var1);
             var14 = _closure1_slot0;
             var17 = _closure1_slot2;
@@ -92,24 +92,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['colorString'] = var11;
             var7 = 'username';
             var10 = null;
-            if(!(var7 === var12)) { _fun0001_ip = 263; continue _fun0001 }
- 260:
+            if(!(var7 === var12)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var10 = var11;
- 263:
+case 4:
             var2['linkColor'] = var10;
             var2['roleColor'] = var11;
             var10 = null;
-            if(!var17) { _fun0001_ip = 281; continue _fun0001 }
- 278:
+            if(!var17) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var10 = var16;
- 281:
+case 6:
             var2['roleColors'] = var10;
             var10 = 'dot';
             var10 = var10 === var12;
-            if(!var10) { _fun0001_ip = 301; continue _fun0001 }
- 297:
+            if(!var10) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var10 = var5 != var11;
- 301:
+case 8:
             var2['shouldShowRoleDot'] = var10;
             var10 = var15.channel_id;
             var2['messageChannelId'] = var10;
@@ -118,16 +118,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14['usernameOnClick'] = var2;
             var10 = var5 == var1;
             var2 = undefined;
-            if(var10) { _fun0001_ip = 342; continue _fun0001 }
- 337:
+            if(var10) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var2 = var1.name;
- 342:
+case 10:
             var10 = var5 != var2;
             var1 = '';
-            if(!var10) { _fun0001_ip = 356; continue _fun0001 }
- 353:
+            if(!var10) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var1 = var2;
- 356:
+case 12:
             var14['guildName'] = var1;
             var10 = _closure1_slot1;
             var12 = _closure1_slot2;
@@ -172,10 +172,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1[var7] = var6;
             var6 = var5 != var4;
             var5 = null;
-            if(!var6) { _fun0001_ip = 556; continue _fun0001 }
- 553:
+            if(!var6) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var5 = var4;
- 556:
+case 14:
             var4 = 'usernameColor';
             var1[var4] = var5;
             var8 = _closure1_slot0;

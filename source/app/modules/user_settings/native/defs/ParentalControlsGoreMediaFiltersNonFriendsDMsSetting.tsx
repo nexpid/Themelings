@@ -7,7 +7,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var8;
     var4 = function useGoreContentNonFriendsDmSettingValue() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
             var1 = 3;
@@ -19,14 +19,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = null;
             var6 = var1 == var4;
             var5 = undefined;
-            if(var6) { _fun0001_ip = 52; continue _fun0001 }
- 46:
+            if(var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = var4.goreContentNonFriendDm;
- 52:
+case 2:
             var4 = var1 == var5;
             var1 = null;
-            if(var4) { _fun0001_ip = 96; continue _fun0001 }
- 61:
+            if(var4) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var4 = _closure1_slot0;
             var6 = _closure1_slot1;
             var2 = 4;
@@ -35,20 +35,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4.redactionSettingToRenderedString;
             var2 = var2.bind(var4)(var5);
             var1 = var2.bind(var3)();
- 96:
+case 4:
             return var1;
         }
     };
     var2 = function onGoreContentNonFriendsDmOnPress() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var2 = _closure1_slot2;
             var1 = var2.getSelectedTeenId;
             var3 = var1.bind(var2)();
             var _closure2_slot0 = var3;
             var1 = null;
-            if(!(var1 != var3)) { _fun0002_ip = 214; continue _fun0002 }
- 32:
+            if(!(var1 != var3)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var1 = 5;
@@ -103,7 +103,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4[0] = var5;
             var1['excluded'] = var4;
             var1 = var2.bind(var3)(var1);
- 214:
+case 6:
             var1 = undefined;
             return var1;
         }

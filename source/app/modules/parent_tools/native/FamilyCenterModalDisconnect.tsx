@@ -255,7 +255,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[3] = var24;
         var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var4 = _closure1_slot8;
                 var3 = _closure1_slot7;
                 var2 = {};
@@ -269,10 +269,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = {};
                 var9 = _closure2_slot2;
                 var9 = !var9;
-                if(var9) { _fun0001_ip = 58; continue _fun0001 }
- 54:
+                if(var9) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var9 = _closure2_slot5;
- 58:
+case 2:
                 var5['disabled'] = var9;
                 var9 = _closure2_slot5;
                 var5['loading'] = var9;

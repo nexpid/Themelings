@@ -33,7 +33,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function GuildPicker(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var8 = var1.guildId;
             var _closure2_slot0 = var8;
@@ -61,10 +61,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = null;
             var9 = var7 == var8;
             var7 = undefined;
-            if(var9) { _fun0001_ip = 121; continue _fun0001 }
- 116:
+            if(var9) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var7 = var8.name;
- 121:
+case 2:
             var1['label'] = var7;
             var6 = function onPress() {
                 var4 = _closure1_slot1;
@@ -98,18 +98,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3['items'] = var7;
                 var7 = function onItemSelect(arg1) {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                         var3 = arg1;
                         var4 = null;
-                        if(!(var4 != var3)) { _fun0002_ip = 31; continue _fun0002 }
- 9:
+                        if(!(var4 != var3)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                         var2 = _closure2_slot1;
-                        if(!(var4 != var2)) { _fun0002_ip = 31; continue _fun0002 }
- 20:
+                        if(!(var4 != var2)) { _fun0002_ip = 4; continue _fun0002 }
+case 6:
                         var2 = _closure2_slot1;
                         var1 = undefined;
                         var1 = var2.bind(var1)(var3);
- 31:
+case 4:
                         var1 = global;
                         var3 = var1.setImmediate;
                         var1 = undefined;

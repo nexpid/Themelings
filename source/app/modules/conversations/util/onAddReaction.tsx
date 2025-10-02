@@ -22,11 +22,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function onAddReaction(arg1, arg2, arg3, arg4) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var6 = arg3;
             var1 = null;
-            if(!(var1 != var6)) { _fun0001_ip = 109; continue _fun0001 }
- 9:
+            if(!(var1 != var6)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = _closure1_slot0;
             var4 = _closure1_slot1;
             var1 = 0;
@@ -51,7 +51,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var6;
             var8 = var3;
             var1 = var13[var5](var12, var11, var10, var9, var8, var7);
- 109:
+case 2:
             var1 = undefined;
             return var1;
         }

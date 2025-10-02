@@ -41,19 +41,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var7)(var5);
     var4 = function trackVoicePanelTabOpened(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var3 = _closure1_slot2;
             var1 = var3.hasUnread;
             var6 = var1.bind(var3)(var4);
-            if(var6) { _fun0001_ip = 45; continue _fun0001 }
- 24:
+            if(var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = _closure1_slot2;
             var1 = var3.getMentionCount;
             var3 = var1.bind(var3)(var4);
             var1 = 0;
             var6 = var3 > var1;
- 45:
+case 2:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
             var1 = 2;

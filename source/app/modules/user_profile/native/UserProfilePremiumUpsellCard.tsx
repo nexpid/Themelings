@@ -59,7 +59,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function UserProfilePremiumUpsellCard(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var8 = var2.isTryItOut;
             var4 = undefined;
@@ -88,13 +88,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = 7;
             var3 = var10[var3];
             var3 = var6.bind(var4)(var3);
-            if(var8) { _fun0001_ip = 131; continue _fun0001 }
- 123:
+            if(var8) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = var3.USER_SETTINGS_USER_PROFILE;
-            _fun0001_ip = 137; continue _fun0001;
- 131:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var6 = var3.USER_SETTINGS_TRY_OUT_PREMIUM;
- 137:
+case 4:
             var3 = new Array(1);
             var3[0] = var6;
             var3 = var5.bind(var4)(var3);
@@ -184,22 +184,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7[var13];
             var7 = var10.bind(var4)(var7);
             var10 = var7.t;
-            if(var8) { _fun0001_ip = 313; continue _fun0001 }
- 298:
+            if(var8) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var7 = var10.PxUx8f;
             var7 = var11.bind(var12)(var7);
-            _fun0001_ip = 324; continue _fun0001;
- 313:
+            _fun0001_ip = 7; continue _fun0001;
+case 5:
             var10 = var10.pj0XBA;
             var7 = var11.bind(var12)(var10);
- 324:
+case 7:
             var1['ctaText'] = var7;
             var7 = true;
             var1['showLinearGradient'] = var7;
-            if(!var8) { _fun0001_ip = 342; continue _fun0001 }
- 339:
+            if(!var8) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var5 = var6;
- 342:
+case 8:
             var1['onPress'] = var5;
             var7 = _closure1_slot8;
             var6 = _closure1_slot0;
@@ -218,15 +218,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var9[var13];
             var9 = var12.bind(var4)(var9);
             var9 = var9.t;
-            if(var8) { _fun0001_ip = 448; continue _fun0001 }
- 433:
+            if(var8) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var8 = var9.Tii53d;
             var8 = var10.bind(var11)(var8);
-            _fun0001_ip = 461; continue _fun0001;
- 448:
+            _fun0001_ip = 12; continue _fun0001;
+case 10:
             var9 = var9.ZFR9LC;
             var8 = var10.bind(var11)(var9);
- 461:
+case 12:
             var5['children'] = var8;
             var5 = var7.bind(var4)(var6, var5);
             var1['children'] = var5;

@@ -47,7 +47,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['IconComponent'] = var7;
     var7 = function handleCreateBugReportSettingToggle(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = _closure1_slot0;
             var4 = _closure1_slot2;
             var1 = 2;
@@ -57,8 +57,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var6.setDeveloperOptionSettings;
             var3 = {};
             var7 = arg1;
-            if(var7) { _fun0001_ip = 82; continue _fun0001 }
- 39:
+            if(var7) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var7 = false;
             var3['bugReporterEnabled'] = var7;
             var7 = var5.bind(var6)(var3);
@@ -69,8 +69,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var9.terminate;
             var7 = true;
             var7 = var8.bind(var9)(var7);
-            _fun0001_ip = 120; continue _fun0001;
- 82:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var7 = true;
             var3['bugReporterEnabled'] = var7;
             var3 = var5.bind(var6)(var3);
@@ -80,7 +80,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var1)(var2);
             var2 = var3.initialize;
             var2 = var2.bind(var3)();
- 120:
+case 4:
             return var1;
         }
     };

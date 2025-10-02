@@ -46,7 +46,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3['guildId'] = var7;
         var2 = function onClose() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
                 var1 = 0;
@@ -58,11 +58,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var3.bind(var4)(var2);
                 var4 = _closure2_slot0;
                 var3 = null;
-                if(!(var3 != var4)) { _fun0001_ip = 62; continue _fun0001 }
- 54:
+                if(!(var3 != var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var2 = _closure2_slot0;
                 var2 = var2.bind(var1)();
- 62:
+case 2:
                 return var1;
             }
         };

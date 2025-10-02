@@ -45,11 +45,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = function* () {
             var1 = function* anon_0_() {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 241; continue _fun0001 }
- 10: // try_start_0
+                    if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3: // try_start_0
                     var3 = _closure1_slot1;
                     var4 = _closure1_slot2;
                     var2 = 2;
@@ -60,23 +60,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = _closure2_slot0;
                     var2 = var5.bind(var6)(var2);
                     SaveGenerator(address=57);
- 55:
+case 4:
                     return var2;
- 57:
+case 5:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0001_ip = 86; continue _fun0001 }
- 63:
+                    if(var5) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                     var6 = _closure2_slot2;
                     var5 = null;
-                    if(!(var5 != var6)) { _fun0001_ip = 81; continue _fun0001 }
- 73:
+                    if(!(var5 != var6)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
                     var3 = _closure2_slot2;
                     var3 = var3.bind(var4)();
- 81: // try_end0
-                    _fun0001_ip = 236; continue _fun0001;
- 86:
+case 8: // try_end0
+                    _fun0001_ip = 10; continue _fun0001;
+case 6:
                     return var2;
- 89: // catch_target0
+case 11: // catch_target0
                     CatchBlockStart(arg_register=1);
                     var3 = _closure1_slot1;
                     var10 = _closure1_slot2;
@@ -109,10 +109,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var6.bind(var7)(var5);
                     var2['body'] = var5;
                     var2 = var3.bind(var4)(var2);
- 236:
+case 10:
                     var2 = undefined;
                     return var2;
- 241:
+case 2:
                     return var1;
                 }
             };

@@ -48,7 +48,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['parent'] = var8;
     var8 = function useAccountAgeGroupNonAdultSettingTrailing() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
             var1 = 4;
@@ -67,15 +67,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var7[var2];
             var2 = var5.bind(var6)(var2);
             var2 = var2.t;
-            if(var1) { _fun0001_ip = 97; continue _fun0001 }
- 82:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var2.UX0OdX;
             var1 = var3.bind(var4)(var1);
-            _fun0001_ip = 110; continue _fun0001;
- 97:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var2 = var2.sK0dmJ;
             var1 = var3.bind(var4)(var2);
- 110:
+case 4:
             return var1;
         }
     };
@@ -103,7 +103,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['withArrow'] = var7;
     var4 = function AccountAgeGroupNonAdultSettingPredicate() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
             var1 = 4;
@@ -122,15 +122,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var5.useIsEligibleForSettingsDefaultsAggregate;
             var1 = 'explicit_media_redaction_utils';
             var1 = var4.bind(var5)(var1);
-            if(!var1) { _fun0002_ip = 98; continue _fun0002 }
- 86:
+            if(!var1) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
             var2 = !var2;
-            if(var2) { _fun0002_ip = 95; continue _fun0002 }
- 92:
+            if(var2) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
             var2 = var3;
- 95:
+case 7:
             var1 = var2;
- 98:
+case 5:
             return var1;
         }
     };

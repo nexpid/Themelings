@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function DemoActionSheet() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = _closure1_slot4;
             var1 = var2.useState;
             var7 = false;
@@ -72,14 +72,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['title'] = var28;
             var9 = '';
             var8 = undefined;
-            if(!(var9 !== var24)) { _fun0001_ip = 274; continue _fun0001 }
- 271:
+            if(!(var9 !== var24)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var8 = var24;
- 274:
+case 2:
             var5['subtitle'] = var8;
             var8 = var14;
-            if(!var8) { _fun0001_ip = 335; continue _fun0001 }
- 285:
+            if(!var8) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var17 = _closure1_slot7;
             var10 = _closure1_slot0;
             var18 = _closure1_slot2;
@@ -92,11 +92,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9['onPress'] = var18;
             var9['label'] = var16;
             var8 = var17.bind(var4)(var10, var9);
- 335:
+case 4:
             var5['trailing'] = var8;
             var8 = var27;
-            if(!var8) { _fun0001_ip = 392; continue _fun0001 }
- 346:
+            if(!var8) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var17 = _closure1_slot7;
             var10 = _closure1_slot0;
             var18 = _closure1_slot2;
@@ -108,7 +108,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var18 = _closure1_slot6;
             var9['onPress'] = var18;
             var8 = var17.bind(var4)(var10, var9);
- 392:
+case 6:
             var5['leading'] = var8;
             var5 = var7.bind(var4)(var6, var5);
             var1['header'] = var5;

@@ -37,7 +37,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useAuthorizedSlayerApplications(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var _closure2_slot0 = var2;
             var7 = _closure1_slot0;
@@ -64,18 +64,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5[0] = var2;
             var2 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var1 = _closure2_slot0;
                     var3 = _closure1_slot4;
-                    if(var1) { _fun0002_ip = 29; continue _fun0002 }
- 17:
+                    if(var1) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var1 = var3.getNewestTokens;
                     var1 = var1.bind(var3)();
-                    _fun0002_ip = 39; continue _fun0002;
- 29:
+                    _fun0002_ip = 4; continue _fun0002;
+case 2:
                     var2 = var3.getNewestTokensForNonChildrenApplications;
                     var1 = var2.bind(var3)();
- 39:
+case 4:
                     return var1;
                 }
             };
@@ -87,11 +87,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[0] = var5;
             var2 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var4 = _closure2_slot1;
                     var3 = null;
-                    if(!(var3 != var4)) { _fun0003_ip = 55; continue _fun0003 }
- 15:
+                    if(!(var3 != var4)) { _fun0003_ip = 5; continue _fun0003 }
+case 6:
                     var4 = _closure2_slot1;
                     var3 = var4.filter;
                     var2 = function(arg1) {
@@ -114,10 +114,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     };
                     var1 = var2.bind(var3)(var1);
-                    _fun0003_ip = 59; continue _fun0003;
- 55:
+                    _fun0003_ip = 7; continue _fun0003;
+case 5:
                     var1 = new Array(0);
- 59:
+case 7:
                     return var1;
                 }
             };
@@ -140,11 +140,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = _closure1_slot5;
             var3 = var3.FETCHING;
             var3 = var4 === var3;
-            if(!var3) { _fun0001_ip = 180; continue _fun0001 }
- 174:
+            if(!var3) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var4 = null;
             var3 = var4 == var5;
- 180:
+case 8:
             var1['showLoadingIndicator'] = var3;
             var1['slayerSdkApplications'] = var2;
             return var1;

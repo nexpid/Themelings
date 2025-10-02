@@ -7,23 +7,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var4;
     var1 = function getSpoilerDescriptionForType(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = 'image';
-            if(!(var1 !== var2)) { _fun0001_ip = 237; continue _fun0001 }
- 14:
+            if(!(var1 !== var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = 'video';
-            if(!(var1 !== var2)) { _fun0001_ip = 173; continue _fun0001 }
- 25:
+            if(!(var1 !== var2)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = 'file';
-            if(!(var1 !== var2)) { _fun0001_ip = 109; continue _fun0001 }
- 33:
+            if(!(var1 !== var2)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var1 = 'generic';
-            if(!(var1 !== var2)) { _fun0001_ip = 45; continue _fun0001 }
- 41:
+            if(!(var1 !== var2)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var1 = undefined;
             return var1;
- 45:
+case 8:
             var5 = _closure1_slot0;
             var6 = _closure1_slot1;
             var1 = 3;
@@ -38,7 +38,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.G71b7+;
             var1 = var2.bind(var3)(var1);
             return var1;
- 109:
+case 6:
             var5 = _closure1_slot0;
             var6 = _closure1_slot1;
             var1 = 3;
@@ -53,7 +53,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.3Gc2XF;
             var1 = var2.bind(var3)(var1);
             return var1;
- 173:
+case 4:
             var5 = _closure1_slot0;
             var6 = _closure1_slot1;
             var1 = 3;
@@ -68,7 +68,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.ehBaMT;
             var1 = var2.bind(var3)(var1);
             return var1;
- 237:
+case 2:
             var5 = _closure1_slot0;
             var6 = _closure1_slot1;
             var1 = 3;
@@ -96,20 +96,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = var7.bind(var8)(var3, var1, var6);
     var1 = function getContentScanVersionFromMedia(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var3 = var1.content_scan_version;
             var2 = undefined;
-            if(!(var2 === var3)) { _fun0002_ip = 35; continue _fun0002 }
- 15:
+            if(!(var2 === var3)) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
             var3 = var1.contentScanVersion;
             var2 = undefined;
-            if(!(var2 !== var3)) { _fun0002_ip = 33; continue _fun0002 }
- 27:
+            if(!(var2 !== var3)) { _fun0002_ip = 7; continue _fun0002 }
+case 12:
             var2 = var1.contentScanVersion;
- 33:
+case 7:
             return var2;
- 35:
+case 10:
             var1 = var1.content_scan_version;
             return var1;
         }
@@ -124,7 +124,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function getAttachmentObscurityProps(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var1 = arg1;
             var4 = var1.attachment;
             var9 = var1.shouldObscureSpoiler;
@@ -139,18 +139,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var2 != var7;
             var3 = 0;
             var5 = 0;
-            if(!var13) { _fun0003_ip = 65; continue _fun0003 }
- 62:
+            if(!var13) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
             var5 = var7;
- 65:
+case 13:
             var12['contentScanVersion'] = var5;
             var4 = var4.flags;
             var5 = var2 != var4;
             var2 = 0;
-            if(!var5) { _fun0003_ip = 87; continue _fun0003 }
- 84:
+            if(!var5) { _fun0003_ip = 15; continue _fun0003 }
+case 16:
             var2 = var4;
- 87:
+case 15:
             var12['flags'] = var2;
             var14 = _closure1_slot0;
             var15 = _closure1_slot1;
@@ -180,13 +180,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.length;
             var7 = var2 > var3;
             var2 = var7;
-            if(!var7) { _fun0003_ip = 226; continue _fun0003 }
- 223:
+            if(!var7) { _fun0003_ip = 17; continue _fun0003 }
+case 18:
             var2 = var1;
- 226:
+case 17:
             var3 = var7;
-            if(!var3) { _fun0003_ip = 262; continue _fun0003 }
- 232:
+            if(!var3) { _fun0003_ip = 19; continue _fun0003 }
+case 20:
             var5 = _closure1_slot0;
             var8 = _closure1_slot1;
             var1 = 2;
@@ -194,23 +194,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.bind(var10)(var1);
             var1 = var5.isVerifiedTeen;
             var3 = var1.bind(var5)();
- 262:
+case 19:
             var1 = {};
             var5 = var9;
-            if(!var5) { _fun0003_ip = 276; continue _fun0003 }
- 270:
+            if(!var5) { _fun0003_ip = 21; continue _fun0003 }
+case 22:
             var8 = true;
             var5 = var8 === var11;
- 276:
+case 21:
             var1['isSpoiler'] = var5;
             var5 = '';
             var8 = var5;
-            if(!var9) { _fun0003_ip = 365; continue _fun0003 }
- 291:
+            if(!var9) { _fun0003_ip = 23; continue _fun0003 }
+case 24:
             var9 = true;
             var8 = var5;
-            if(!(var9 === var11)) { _fun0003_ip = 365; continue _fun0003 }
- 300:
+            if(!(var9 === var11)) { _fun0003_ip = 23; continue _fun0003 }
+case 25:
             var13 = _closure1_slot0;
             var14 = _closure1_slot1;
             var9 = 3;
@@ -225,11 +225,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var11.bind(var12)(var9);
             var9 = var11.toUpperCase;
             var8 = var9.bind(var11)();
- 365:
+case 23:
             var1['spoiler'] = var8;
             var1['obscure'] = var7;
-            if(!var7) { _fun0003_ip = 433; continue _fun0003 }
- 378:
+            if(!var7) { _fun0003_ip = 26; continue _fun0003 }
+case 27:
             var9 = _closure1_slot0;
             var11 = _closure1_slot1;
             var6 = 3;
@@ -242,15 +242,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.t;
             var6 = var6.SpxcUV;
             var5 = var7.bind(var8)(var6);
- 433:
+case 26:
             var1['obscureDescription'] = var5;
             var1['obscureAwaitingScan'] = var4;
             var1['verifyAge'] = var2;
             var1['obscureHideControls'] = var3;
-            if(var2) { _fun0003_ip = 459; continue _fun0003 }
- 456:
+            if(var2) { _fun0003_ip = 28; continue _fun0003 }
+case 29:
             var2 = var3;
- 459:
+case 28:
             var1['obscureIsOpaque'] = var2;
             return var1;
         }
@@ -258,7 +258,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['getAttachmentObscurityProps'] = var4;
     var4 = function getUnfurledMediaItemObscurityProps(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var1 = arg1;
             var11 = var1.type;
             var14 = var1.mediaItem;
@@ -284,8 +284,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['media'] = var14;
             var2 = var7.bind(var8)(var2, var13);
             var4 = !var4;
-            if(!var4) { _fun0004_ip = 182; continue _fun0004 }
- 121:
+            if(!var4) { _fun0004_ip = 30; continue _fun0004 }
+case 31:
             var16 = _closure1_slot0;
             var15 = _closure1_slot1;
             var7 = var15[var3];
@@ -299,21 +299,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7['type'] = var15;
             var7['media'] = var14;
             var4 = var8.bind(var12)(var7, var13);
- 182:
-            if(!var9) { _fun0004_ip = 188; continue _fun0004 }
- 185:
+case 30:
+            if(!var9) { _fun0004_ip = 32; continue _fun0004 }
+case 33:
             var9 = var5;
- 188:
+case 32:
             var2 = var2.length;
             var7 = var2 > var3;
             var2 = var7;
-            if(!var7) { _fun0004_ip = 206; continue _fun0004 }
- 203:
+            if(!var7) { _fun0004_ip = 34; continue _fun0004 }
+case 35:
             var2 = var1;
- 206:
+case 34:
             var3 = var7;
-            if(!var3) { _fun0004_ip = 242; continue _fun0004 }
- 212:
+            if(!var3) { _fun0004_ip = 36; continue _fun0004 }
+case 37:
             var5 = _closure1_slot0;
             var8 = _closure1_slot1;
             var1 = 2;
@@ -321,20 +321,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.bind(var10)(var1);
             var1 = var5.isVerifiedTeen;
             var3 = var1.bind(var5)();
- 242:
+case 36:
             var1 = {};
             var1['isSpoiler'] = var9;
             var8 = null;
-            if(!var9) { _fun0004_ip = 263; continue _fun0004 }
- 254:
+            if(!var9) { _fun0004_ip = 38; continue _fun0004 }
+case 39:
             var9 = _closure1_slot3;
             var8 = var9.bind(var10)(var11);
- 263:
+case 38:
             var1['spoilerDescription'] = var8;
             var1['isObscured'] = var7;
             var5 = null;
-            if(!var7) { _fun0004_ip = 333; continue _fun0004 }
- 278:
+            if(!var7) { _fun0004_ip = 40; continue _fun0004 }
+case 41:
             var9 = _closure1_slot0;
             var11 = _closure1_slot1;
             var6 = 3;
@@ -347,15 +347,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.t;
             var6 = var6.SpxcUV;
             var5 = var7.bind(var8)(var6);
- 333:
+case 40:
             var1['obscureDescription'] = var5;
             var1['obscureAwaitingScan'] = var4;
             var1['verifyAge'] = var2;
             var1['obscureHideControls'] = var3;
-            if(var2) { _fun0004_ip = 359; continue _fun0004 }
- 356:
+            if(var2) { _fun0004_ip = 42; continue _fun0004 }
+case 43:
             var2 = var3;
- 359:
+case 42:
             var1['obscureIsOpaque'] = var2;
             return var1;
         }

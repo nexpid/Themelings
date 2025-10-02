@@ -50,7 +50,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3[2] = var1;
         var2 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var3 = _closure1_slot2;
                 var2 = var3.getId;
                 var4 = var2.bind(var3)();
@@ -63,10 +63,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = null;
                 var3 = var1 != var2;
                 var1 = undefined;
-                if(!var3) { _fun0001_ip = 61; continue _fun0001 }
- 58:
+                if(!var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var1 = var2;
- 61:
+case 2:
                 return var1;
             }
         };

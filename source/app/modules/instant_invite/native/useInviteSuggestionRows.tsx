@@ -107,10 +107,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5[4] = var4;
         var4 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var1 = _closure2_slot5;
-                if(var1) { _fun0001_ip = 158; continue _fun0001 }
- 13:
+                if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var3 = _closure1_slot7;
                 var2 = var3.getInitialCounts;
                 var6 = var2.bind(var3)();
@@ -141,7 +141,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = _closure2_slot3;
                 var1['application_id'] = var5;
                 var1 = var3.bind(var4)(var2, var1);
- 158:
+case 2:
                 var1 = undefined;
                 return var1;
             }
@@ -153,7 +153,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4[1] = var7;
         var1 = function() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var3 = _closure2_slot6;
                 var1 = undefined;
                 var2 = true;
@@ -161,17 +161,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = _closure2_slot2;
                 var3 = _closure1_slot8;
                 var3 = var3.EMBEDDED_APPLICATION;
-                if(!(var4 !== var3)) { _fun0002_ip = 63; continue _fun0002 }
- 37:
+                if(!(var4 !== var3)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                 var5 = _closure1_slot5;
                 var4 = var5.getMemberIds;
                 var3 = _closure2_slot0;
                 var3 = var3.guild_id;
                 var9 = var4.bind(var5)(var3);
-                _fun0002_ip = 67; continue _fun0002;
- 63:
+                _fun0002_ip = 6; continue _fun0002;
+case 4:
                 var9 = new Array(0);
- 67:
+case 6:
                 var4 = _closure1_slot0;
                 var5 = _closure1_slot2;
                 var3 = 10;

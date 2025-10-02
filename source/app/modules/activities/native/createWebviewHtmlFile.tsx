@@ -14,12 +14,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = function* (arg1) {
             var1 = function* anon_0_(arg1) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     StartGenerator();
                     var2 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=3);
-                    if(var4) { _fun0001_ip = 342; continue _fun0001 }
- 13:
+                    if(var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var11 = var2.iFrameUri;
                     var10 = var2.iFrameSandboxAttributes;
                     var9 = var2.referrerPolicy;
@@ -29,12 +29,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = undefined;
                     var5 = undefined;
                     SaveGenerator(address=53);
- 51:
+case 4:
                     return var6;
- 53:
+case 5:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0001_ip = 339; continue _fun0001 }
- 62:
+                    if(var4) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                     var7 = 'discord_activity_data/activity.html';
                     var4 = {};
                     var4['iFrameUri'] = var11;
@@ -44,7 +44,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4['messageForDisallowedNavigationError'] = var3;
                     var3 = function(arg1) {
                         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                             var1 = arg1;
                             var12 = var1.iFrameUri;
                             var11 = var1.iFrameSandboxAttributes;
@@ -61,8 +61,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var2 = var2.bind(var4)();
                             var9 = '';
                             var8 = var9;
-                            if(!var2) { _fun0002_ip = 167; continue _fun0002 }
- 77:
+                            if(!var2) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                             var4 = _closure1_slot5;
                             var2 = {'insets': null, 'iframeWindowVarName': 'iframeWindow', 'isIframeLoadedVarName': 'isIframeLoaded'};
                             var2['insets'] = var5;
@@ -78,11 +78,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var19 = '\n      </script>\n      ';
                             var22 = var6;
                             var8 = var23[var4](var22, var21, var20, var19, var18);
- 167:
+case 8:
                             var1 = null;
                             var1 = var1 != var7;
-                            if(!var1) { _fun0002_ip = 249; continue _fun0002 }
- 176:
+                            if(!var1) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
                             var1 = global;
                             var2 = var1.HermesInternal;
                             var6 = var2.concat;
@@ -97,7 +97,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var2 = '\n      <script type="text/javascript">\n        var iframe = document.getElementById("activityFrame");\n        var iframeWindow = iframe.contentWindow;\n        ';
                             var1 = '\n      </script>\n      ';
                             var9 = var3.bind(var2)(var4, var1);
- 249:
+case 10:
                             var1 = global;
                             var1 = var1.HermesInternal;
                             var7 = var1.concat;
@@ -117,7 +117,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         }
                     };
                     var5 = var3.bind(var6)(var4);
- 109: // try_start_0
+case 12: // try_start_0
                     var4 = _closure1_slot0;
                     var9 = _closure1_slot2;
                     var3 = 2;
@@ -125,8 +125,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var4.bind(var6)(var3);
                     var3 = var4.isAndroid;
                     var3 = var3.bind(var4)();
-                    if(var3) { _fun0001_ip = 202; continue _fun0001 }
- 144:
+                    if(var3) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
                     var3 = _closure1_slot4;
                     var12 = var3.DCDFileManager;
                     var11 = var12.writeFile;
@@ -137,16 +137,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var17 = var12;
                     var3 = var17[var11](var16, var15, var14, var13, var12);
                     SaveGenerator(address=187);
- 185:
+case 15:
                     return var3;
- 187:
+case 16:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
                     var9 = var4;
                     var4 = var3;
-                    if(!var9) { _fun0001_ip = 292; continue _fun0001 }
- 199: // try_end0
+                    if(!var9) { _fun0001_ip = 17; continue _fun0001 }
+case 18: // try_end0
                     return var3;
- 202: // try_start_1
+case 13: // try_start_1
                     var9 = _closure1_slot1;
                     var3 = _closure1_slot2;
                     var10 = 3;
@@ -155,8 +155,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = null;
                     var9 = var3 == var9;
                     var3 = undefined;
-                    if(var9) { _fun0001_ip = 279; continue _fun0001 }
- 233:
+                    if(var9) { _fun0001_ip = 19; continue _fun0001 }
+case 20:
                     var9 = _closure1_slot1;
                     var8 = _closure1_slot2;
                     var8 = var8[var10];
@@ -168,19 +168,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var13 = 'utf8';
                     var17 = var11;
                     var3 = var17[var10](var16, var15, var14, var13, var12);
- 279:
+case 19:
                     SaveGenerator(address=283);
- 281:
+case 21:
                     return var3;
- 283:
+case 22:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
                     var4 = var3;
-                    if(var5) { _fun0001_ip = 295; continue _fun0001 }
- 292: // try_end1
+                    if(var5) { _fun0001_ip = 23; continue _fun0001 }
+case 17: // try_end1
                     return var4;
- 295:
+case 23:
                     return var3;
- 298: // catch_target0 // catch_target1
+case 24: // catch_target0 // catch_target1
                     CatchBlockStart(arg_register=4);
                     var4 = _closure1_slot1;
                     var7 = _closure1_slot2;
@@ -191,9 +191,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var3.bind(var4)(var5);
                     var3 = null;
                     return var3;
- 339:
+case 6:
                     return var2;
- 342:
+case 2:
                     return var1;
                 }
             };
@@ -231,16 +231,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot4 = var4;
     var4 = function safeAreaInitJs(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = var2.insets;
             var15 = var2.iframeWindowVarName;
             var14 = var2.isIframeLoadedVarName;
             var2 = null;
-            if(!(var2 == var1)) { _fun0003_ip = 37; continue _fun0003 }
- 27:
+            if(!(var2 == var1)) { _fun0003_ip = 25; continue _fun0003 }
+case 26:
             var1 = {'top': 0, 'bottom': 0, 'left': 0, 'right': 0};
- 37:
+case 25:
             var25 = var1.left;
             var23 = var1.right;
             var21 = var1.top;

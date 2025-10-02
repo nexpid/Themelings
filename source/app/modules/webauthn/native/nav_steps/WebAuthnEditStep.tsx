@@ -62,7 +62,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function EditCredentialModal(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var9 = var1.credential;
             var _closure2_slot0 = var9;
@@ -272,10 +272,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var6['onPress'] = var12;
             var12 = var11;
-            if(var12) { _fun0001_ip = 478; continue _fun0001 }
- 474:
+            if(var12) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var12 = var15 === var13;
- 478:
+case 2:
             var6['disabled'] = var12;
             var6['loading'] = var11;
             var11 = 'lg';

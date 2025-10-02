@@ -87,18 +87,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9[0] = var5;
         var5 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var3 = _closure1_slot5;
                 var2 = var3.getNewestTokenForApplication;
                 var5 = _closure2_slot2;
                 var1 = null;
                 var5 = var1 == var5;
                 var1 = undefined;
-                if(var5) { _fun0001_ip = 40; continue _fun0001 }
- 31:
+                if(var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var4 = _closure2_slot2;
                 var1 = var4.id;
- 40:
+case 2:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             }
@@ -139,17 +139,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3[1] = var14;
         var2 = function() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var1 = _closure2_slot2;
                 var3 = null;
                 var1 = var3 != var1;
-                if(!var1) { _fun0002_ip = 24; continue _fun0002 }
- 16:
+                if(!var1) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                 var2 = _closure2_slot3;
                 var1 = var3 != var2;
- 24:
-                if(!var1) { _fun0002_ip = 122; continue _fun0002 }
- 27:
+case 4:
+                if(!var1) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
                 var2 = 10;
@@ -172,7 +172,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var2.bind(var3)(var1);
                 var1 = var2.hideActionSheet;
                 var1 = var1.bind(var2)();
- 122:
+case 6:
                 var1 = undefined;
                 return var1;
             }

@@ -53,7 +53,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function AppLauncherSelectOptionFormRow(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var14 = var3.style;
             var12 = var3.option;
@@ -97,16 +97,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var9.Text;
             var9 = {};
             var13 = 'text-md/medium';
-            if(!var8) { _fun0001_ip = 207; continue _fun0001 }
- 203:
+            if(!var8) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var13 = 'text-sm/medium';
- 207:
+case 2:
             var9['variant'] = var13;
             var13 = 'text-normal';
-            if(!var8) { _fun0001_ip = 226; continue _fun0001 }
- 220:
+            if(!var8) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var13 = 'interactive-normal';
- 226:
+case 4:
             var9['color'] = var13;
             var13 = 1;
             var9['lineClamp'] = var13;
@@ -115,8 +115,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var3.bind(var4)(var11, var9);
             var1['label'] = var9;
             var6 = null;
-            if(!var8) { _fun0001_ip = 269; continue _fun0001 }
- 262:
+            if(!var8) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var6 = function() {
                 var4 = _closure1_slot3;
                 var2 = _closure1_slot0;
@@ -132,7 +132,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var4.bind(var3)(var2, var1);
                 return var1;
             };
- 269:
+case 6:
             var1['subLabel'] = var6;
             var8 = _closure1_slot3;
             var13 = _closure1_slot1;

@@ -29,7 +29,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function GIFFavButton(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = var1.source;
             var _closure2_slot0 = var2;
@@ -37,18 +37,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot1 = var5;
             var _closure2_slot2 = var5;
             var1 = var2.isGIFV;
-            if(var1) { _fun0001_ip = 41; continue _fun0001 }
- 33:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var12 = var2.sourceURI;
-            _fun0001_ip = 47; continue _fun0001;
- 41:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var12 = var2.embedURI;
- 47:
+case 4:
             var1 = null;
-            if(!(var1 == var12)) { _fun0001_ip = 58; continue _fun0001 }
- 53:
+            if(!(var1 == var12)) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var12 = var2.uri;
- 58:
+case 5:
             _closure2_slot1 = var12;
             var4 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -78,7 +78,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7[5] = var12;
             var3 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var4 = _closure2_slot2;
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot2;
@@ -86,8 +86,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var7[var1];
                     var1 = undefined;
                     var5 = var6.bind(var1)(var5);
-                    if(var4) { _fun0002_ip = 269; continue _fun0002 }
- 38:
+                    if(var4) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
                     var8 = var5.addFavoriteGIF;
                     var4 = {};
                     var9 = _closure2_slot1;
@@ -106,13 +106,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var10 = var12[var10];
                     var10 = var11.bind(var1)(var10);
                     var10 = var10.GIFType;
-                    if(var9) { _fun0002_ip = 129; continue _fun0002 }
- 121:
+                    if(var9) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
                     var9 = var10.IMAGE;
-                    _fun0002_ip = 135; continue _fun0002;
- 129:
+                    _fun0002_ip = 11; continue _fun0002;
+case 9:
                     var9 = var10.VIDEO;
- 135:
+case 11:
                     var4['format'] = var9;
                     var4 = var8.bind(var5)(var4);
                     var8 = _closure1_slot1;
@@ -142,8 +142,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var10 = var10.GifIcon;
                     var4['IconComponent'] = var10;
                     var4 = var8.bind(var9)(var4);
-                    _fun0002_ip = 396; continue _fun0002;
- 269:
+                    _fun0002_ip = 12; continue _fun0002;
+case 7:
                     var4 = var5.removeFavoriteGIF;
                     var3 = _closure2_slot1;
                     var3 = var4.bind(var5)(var3);
@@ -172,7 +172,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var5.GifIcon;
                     var2['IconComponent'] = var5;
                     var2 = var3.bind(var4)(var2);
- 396:
+case 12:
                     return var1;
                 }
             };
@@ -182,12 +182,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.bind(var5)(var3);
             var3 = var4.isAnimatedImageSource;
             var3 = var3.bind(var4)(var2);
-            if(var3) { _fun0001_ip = 234; continue _fun0001 }
- 220:
+            if(var3) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var2 = var2.isGIFV;
             var1 = null;
-            if(!var2) { _fun0001_ip = 475; continue _fun0001 }
- 234:
+            if(!var2) { _fun0001_ip = 15; continue _fun0001 }
+case 13:
             var4 = _closure1_slot4;
             var3 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -206,30 +206,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var13[var8];
             var8 = var9.bind(var5)(var8);
             var9 = var8.t;
-            if(var6) { _fun0001_ip = 326; continue _fun0001 }
- 313:
+            if(var6) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var8 = var9.nIH0v7;
             var8 = var11.bind(var12)(var8);
-            _fun0001_ip = 337; continue _fun0001;
- 326:
+            _fun0001_ip = 18; continue _fun0001;
+case 16:
             var9 = var9.5/NS7+;
             var8 = var11.bind(var12)(var9);
- 337:
+case 18:
             var2['accessibilityLabel'] = var8;
             var2['onPress'] = var7;
             var9 = _closure1_slot4;
             var8 = _closure1_slot0;
             var12 = _closure1_slot2;
-            if(var6) { _fun0001_ip = 400; continue _fun0001 }
- 360:
+            if(var6) { _fun0001_ip = 19; continue _fun0001 }
+case 20:
             var6 = 12;
             var6 = var12[var6];
             var6 = var8.bind(var5)(var6);
             var7 = var6.StarOutlineIcon;
             var6 = {'color': 'interactive-normal', 'size': 'md'};
             var6 = var9.bind(var5)(var7, var6);
-            _fun0001_ip = 465; continue _fun0001;
- 400:
+            _fun0001_ip = 21; continue _fun0001;
+case 19:
             var7 = 10;
             var7 = var12[var7];
             var7 = var8.bind(var5)(var7);
@@ -245,10 +245,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = 'md';
             var7['size'] = var10;
             var6 = var9.bind(var5)(var8, var7);
- 465:
+case 21:
             var2['icon'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 475:
+case 15:
             return var1;
         }
     };

@@ -31,18 +31,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var8.createStyles;
     var4 = function() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var7 = arguments[0];
             var5 = arguments[1];
             var6 = undefined;
-            if(!(var7 === var6)) { _fun0001_ip = 16; continue _fun0001 }
- 12:
+            if(!(var7 === var6)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var7 = 'lg';
- 16:
-            if(!(var5 === var6)) { _fun0001_ip = 24; continue _fun0001 }
- 20:
+case 2:
+            if(!(var5 === var6)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = 'default';
- 24:
+case 4:
             var1 = {};
             var2 = {};
             var4 = {};
@@ -63,8 +63,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var2;
             var4 = copyDataProperties(var13, var12);
             var4 = 'error';
-            if(!(var4 !== var5)) { _fun0001_ip = 150; continue _fun0001 }
- 117:
+            if(!(var4 !== var5)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var5 = _closure1_slot1;
             var7 = _closure1_slot2;
             var4 = 4;
@@ -72,8 +72,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var5.bind(var6)(var4);
             var4 = var4.colors;
             var4 = var4.TEXT_NORMAL;
-            _fun0001_ip = 181; continue _fun0001;
- 150:
+            _fun0001_ip = 8; continue _fun0001;
+case 6:
             var5 = _closure1_slot1;
             var7 = _closure1_slot2;
             var3 = 4;
@@ -81,7 +81,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var5.bind(var6)(var3);
             var3 = var3.colors;
             var4 = var3.TEXT_DANGER;
- 181:
+case 8:
             var3 = 'color';
             var2[var3] = var4;
             var4 = 48;
@@ -105,7 +105,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function GhostInput(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var6 = arg1;
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
@@ -124,16 +124,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var3.bind(var4)(var2, var1);
             var1 = var6.isCentered;
             var13 = var4 === var1;
-            if(var13) { _fun0002_ip = 86; continue _fun0002 }
- 83:
+            if(var13) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
             var13 = var1;
- 86:
+case 9:
             var1 = var6.autoFocus;
             var9 = var4 === var1;
-            if(var9) { _fun0002_ip = 102; continue _fun0002 }
- 99:
+            if(var9) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
             var9 = var1;
- 102:
+case 11:
             var2 = _closure1_slot0;
             var7 = _closure1_slot2;
             var1 = 6;
@@ -156,10 +156,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = new Array(2);
             var7[0] = var6;
             var6 = undefined;
-            if(!var13) { _fun0002_ip = 205; continue _fun0002 }
- 199:
+            if(!var13) { _fun0002_ip = 13; continue _fun0002 }
+case 14:
             var6 = var10.centeredContainerStyle;
- 205:
+case 13:
             var7[1] = var6;
             var6 = 'containerStyle';
             var1[var6] = var7;

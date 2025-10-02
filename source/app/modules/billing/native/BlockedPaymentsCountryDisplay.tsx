@@ -81,7 +81,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function BlockedPaymentsCountryDisplay() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = _closure1_slot8;
             var4 = undefined;
             var9 = var1.bind(var4)();
@@ -155,17 +155,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var9.bind(var11)(var12);
             var11 = _closure1_slot1;
             var12 = _closure1_slot2;
-            if(var9) { _fun0001_ip = 342; continue _fun0001 }
- 328:
+            if(var9) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var9 = 12;
             var9 = var12[var9];
             var9 = var11.bind(var4)(var9);
-            _fun0001_ip = 354; continue _fun0001;
- 342:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var10 = 11;
             var10 = var12[var10];
             var9 = var11.bind(var4)(var10);
- 354:
+case 4:
             var6['source'] = var9;
             var6 = var8.bind(var4)(var7, var6);
             var5[2] = var6;

@@ -103,7 +103,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function UsernameSearchScreen(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var8 = var1.navigation;
             var _closure2_slot0 = var8;
@@ -151,20 +151,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = 'transitionEnd';
                 var1 = function(arg1) {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                         var1 = arg1;
                         var1 = var1.data;
                         var1 = var1.closing;
-                        if(var1) { _fun0002_ip = 45; continue _fun0002 }
- 17:
+                        if(var1) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                         var1 = _closure2_slot1;
                         var2 = var1.current;
                         var1 = null;
-                        if(!(var1 != var2)) { _fun0002_ip = 45; continue _fun0002 }
- 35:
+                        if(!(var1 != var2)) { _fun0002_ip = 2; continue _fun0002 }
+case 4:
                         var1 = var2.focus;
                         var1 = var1.bind(var2)();
- 45:
+case 2:
                         var1 = undefined;
                         return var1;
                     }
@@ -185,13 +185,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.isIOS;
             var2 = var2.bind(var3)();
             var17 = null;
-            if(!var2) { _fun0001_ip = 191; continue _fun0001 }
- 179:
+            if(!var2) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var17 = null;
-            if(!(var17 !== var10)) { _fun0001_ip = 191; continue _fun0001 }
- 185:
+            if(!(var17 !== var10)) { _fun0001_ip = 5; continue _fun0001 }
+case 7:
             var17 = var14.iosPaddingThemeAdjust;
- 191:
+case 5:
             var3 = _closure1_slot9;
             var2 = _closure1_slot8;
             var1 = {};

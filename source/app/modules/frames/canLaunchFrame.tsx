@@ -7,7 +7,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var6;
     var1 = function canApplicationLaunchAsFrame(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var4 = _closure1_slot0;
             var5 = _closure1_slot1;
@@ -17,19 +17,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.bind(var6)(var3);
             var3 = var4.isRealApplication;
             var3 = var3.bind(var4)(var1);
-            if(var3) { _fun0001_ip = 46; continue _fun0001 }
- 42:
+            if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = false;
             return var3;
- 46:
+case 2:
             var1 = var1.flags;
             var3 = null;
             var3 = var3 != var1;
             var5 = 0;
-            if(!var3) { _fun0001_ip = 65; continue _fun0001 }
- 62:
+            if(!var3) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = var1;
- 65:
+case 4:
             var4 = _closure1_slot0;
             var7 = _closure1_slot1;
             var3 = 3;
@@ -45,10 +45,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = _closure1_slot3;
             var2 = var2.CONTEXTLESS_ACTIVITY;
             var2 = var3.bind(var4)(var5, var2);
-            if(!var1) { _fun0001_ip = 144; continue _fun0001 }
- 141:
+            if(!var1) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var1 = var2;
- 144:
+case 6:
             return var1;
         }
     };
@@ -80,15 +80,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function canLaunchFrame(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var3 = _closure1_slot4;
             var4 = undefined;
             var1 = arg1;
             var1 = var3.bind(var4)(var1);
             var3 = !var1;
             var1 = !var3;
-            if(var3) { _fun0002_ip = 66; continue _fun0002 }
- 26:
+            if(var3) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var3 = _closure1_slot0;
             var5 = _closure1_slot1;
             var2 = 4;
@@ -98,7 +98,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = 'canLaunchFrame';
             var2 = var3.bind(var4)(var2);
             var1 = var2.enabled;
- 66:
+case 8:
             return var1;
         }
     };
@@ -124,22 +124,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[1] = var5;
         var1 = function() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var2 = _closure2_slot0;
                 var1 = null;
                 var1 = var1 != var2;
-                if(!var1) { _fun0003_ip = 44; continue _fun0003 }
- 16:
+                if(!var1) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
                 var5 = _closure1_slot4;
                 var4 = _closure2_slot0;
                 var2 = undefined;
                 var2 = var5.bind(var2)(var4);
-                if(!var2) { _fun0003_ip = 41; continue _fun0003 }
- 37:
+                if(!var2) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
                 var2 = _closure2_slot1;
- 41:
+case 12:
                 var1 = var2;
- 44:
+case 10:
                 return var1;
             }
         };

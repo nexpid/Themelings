@@ -7,7 +7,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var7;
     var4 = function removeExecutablePathPrefix(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = var2.toLowerCase;
             var6 = var1.bind(var2)();
@@ -15,13 +15,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = '/';
             var1 = var1.bind(var6)(var3);
             var2 = var6;
-            if(!var1) { _fun0001_ip = 53; continue _fun0001 }
- 34:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = var6.slice;
             var4 = 0;
             var1 = -1;
             var2 = var5.bind(var6)(var4, var1);
- 53:
+case 2:
             var1 = var2.split;
             var4 = var1.bind(var2)(var3);
             var2 = var4.slice;
@@ -56,80 +56,80 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['removeExecutablePathPrefix'] = var4;
     var4 = function getRunningGameAnalytics(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var5 = arg1;
             var2 = null;
-            if(!(var2 != var5)) { _fun0002_ip = 245; continue _fun0002 }
- 12:
+            if(!(var2 != var5)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var6 = _closure1_slot2;
             var4 = var6.getGameByName;
             var1 = var5.name;
             var9 = var4.bind(var6)(var1);
             var1 = 'exePath';
             var1 = var1 in var5;
-            if(var1) { _fun0002_ip = 54; continue _fun0002 }
- 46:
+            if(var1) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var8 = var5.exe;
-            _fun0002_ip = 60; continue _fun0002;
- 54:
+            _fun0002_ip = 8; continue _fun0002;
+case 6:
             var8 = var5.exePath;
- 60:
+case 8:
             var1 = {};
             var7 = var5.name;
             var10 = var2 != var7;
             var6 = undefined;
             var4 = undefined;
-            if(!var10) { _fun0002_ip = 81; continue _fun0002 }
- 78:
+            if(!var10) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
             var4 = var7;
- 81:
+case 9:
             var1['gameName'] = var4;
             var7 = var5.id;
-            if(!(var2 == var7)) { _fun0002_ip = 112; continue _fun0002 }
- 95:
+            if(!(var2 == var7)) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
             var10 = var2 == var9;
             var4 = undefined;
-            if(var10) { _fun0002_ip = 109; continue _fun0002 }
- 104:
+            if(var10) { _fun0002_ip = 13; continue _fun0002 }
+case 14:
             var4 = var9.id;
- 109:
+case 13:
             var7 = var4;
- 112:
+case 11:
             var9 = var2 != var7;
             var4 = undefined;
-            if(!var9) { _fun0002_ip = 124; continue _fun0002 }
- 121:
+            if(!var9) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
             var4 = var7;
- 124:
+case 15:
             var1['gameId'] = var4;
             var7 = var2 != var8;
             var4 = undefined;
-            if(!var7) { _fun0002_ip = 147; continue _fun0002 }
- 138:
+            if(!var7) { _fun0002_ip = 17; continue _fun0002 }
+case 18:
             var7 = _closure1_slot3;
             var4 = var7.bind(var6)(var8);
- 147:
+case 17:
             var1['exe'] = var4;
             var7 = var5.distributor;
             var8 = var2 != var7;
             var4 = undefined;
-            if(!var8) { _fun0002_ip = 170; continue _fun0002 }
- 167:
+            if(!var8) { _fun0002_ip = 19; continue _fun0002 }
+case 20:
             var4 = var7;
- 170:
+case 19:
             var1['distributor'] = var4;
             var7 = var5.sku;
             var8 = var2 != var7;
             var4 = undefined;
-            if(!var8) { _fun0002_ip = 193; continue _fun0002 }
- 190:
+            if(!var8) { _fun0002_ip = 21; continue _fun0002 }
+case 22:
             var4 = var7;
- 193:
+case 21:
             var1['sku'] = var4;
             var4 = var2 != var5;
             var2 = undefined;
-            if(!var4) { _fun0002_ip = 238; continue _fun0002 }
- 207:
+            if(!var4) { _fun0002_ip = 23; continue _fun0002 }
+case 24:
             var4 = _closure1_slot0;
             var7 = _closure1_slot1;
             var3 = 1;
@@ -137,10 +137,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.bind(var6)(var3);
             var3 = var4.getSubgameMetadata;
             var2 = var3.bind(var4)(var5);
- 238:
+case 23:
             var1['gameMetadata'] = var2;
             return var1;
- 245:
+case 4:
             var1 = {};
             var2 = undefined;
             var1['gameName'] = var2;
@@ -155,14 +155,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['getRunningGameAnalytics'] = var4;
     var2 = function isVerifiedGameExecutable(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var6 = arg1;
             var3 = arg2;
             var2 = null;
-            if(!(var2 != var6)) { _fun0003_ip = 88; continue _fun0003 }
- 14:
-            if(!(var2 != var3)) { _fun0003_ip = 88; continue _fun0003 }
- 18:
+            if(!(var2 != var6)) { _fun0003_ip = 25; continue _fun0003 }
+case 26:
+            if(!(var2 != var3)) { _fun0003_ip = 25; continue _fun0003 }
+case 27:
             var4 = _closure1_slot3;
             var5 = undefined;
             var4 = var4.bind(var5)(var6);
@@ -178,32 +178,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.some;
             var1 = function(arg1) {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                     var3 = arg1;
                     var2 = var3.os;
                     var1 = _closure2_slot1;
                     var1 = var2 === var1;
-                    if(!var1) { _fun0004_ip = 61; continue _fun0004 }
- 23:
+                    if(!var1) { _fun0004_ip = 28; continue _fun0004 }
+case 29:
                     var5 = _closure2_slot0;
                     var2 = null;
                     var5 = var2 == var5;
                     var2 = undefined;
-                    if(var5) { _fun0004_ip = 58; continue _fun0004 }
- 38:
+                    if(var5) { _fun0004_ip = 30; continue _fun0004 }
+case 31:
                     var5 = _closure2_slot0;
                     var4 = var5.endsWith;
                     var3 = var3.name;
                     var2 = var4.bind(var5)(var3);
- 58:
+case 30:
                     var1 = var2;
- 61:
+case 28:
                     return var1;
                 }
             };
             var1 = var2.bind(var3)(var1);
             return var1;
- 88:
+case 25:
             var1 = false;
             return var1;
         }

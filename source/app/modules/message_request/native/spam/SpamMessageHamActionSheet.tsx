@@ -86,7 +86,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function SpamMessageRequestHamActionSheet(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = var1.channel;
             var _closure2_slot0 = var2;
@@ -309,19 +309,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var14.button;
             var9['style'] = var14;
             var14 = var12;
-            if(var12) { _fun0001_ip = 710; continue _fun0001 }
- 707:
+            if(var12) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var14 = var15;
- 710:
-            if(var14) { _fun0001_ip = 716; continue _fun0001 }
- 713:
+case 2:
+            if(var14) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var14 = var13;
- 716:
+case 4:
             var9['disabled'] = var14;
-            if(var12) { _fun0001_ip = 726; continue _fun0001 }
- 723:
+            if(var12) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var12 = var13;
- 726:
+case 6:
             var9['loading'] = var12;
             var9 = var11.bind(var4)(var10, var9);
             var8[1] = var9;

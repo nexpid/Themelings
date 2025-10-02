@@ -35,21 +35,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function isVoicePanelEnabled(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var1 = null;
             var3 = var1 == var4;
             var2 = undefined;
-            if(var3) { _fun0001_ip = 24; continue _fun0001 }
- 14:
+            if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = var4.isGuildStageVoice;
             var2 = var3.bind(var4)();
- 24:
+case 2:
             var1 = var1 == var2;
-            if(var1) { _fun0001_ip = 34; continue _fun0001 }
- 31:
+            if(var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = !var2;
- 34:
+case 4:
             return var1;
         }
     };
@@ -69,30 +69,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[1] = var1;
         var1 = function() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var3 = _closure1_slot2;
                 var4 = _closure1_slot3;
                 var2 = undefined;
-                if(!(var3 === var2)) { _fun0002_ip = 21; continue _fun0002 }
- 17:
+                if(!(var3 === var2)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                 var3 = _closure1_slot2;
- 21:
-                if(!(var4 === var2)) { _fun0002_ip = 29; continue _fun0002 }
- 25:
+case 6:
+                if(!(var4 === var2)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                 var4 = _closure1_slot3;
- 29:
+case 8:
                 var2 = var3.getChannel;
                 var1 = var4.getChannelId;
                 var1 = var1.bind(var4)();
                 var3 = var2.bind(var3)(var1);
                 var1 = null;
                 var1 = var1 != var3;
-                if(!var1) { _fun0002_ip = 71; continue _fun0002 }
- 58:
+                if(!var1) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
                 var2 = var3.isGuildStageVoice;
                 var2 = var2.bind(var3)();
                 var1 = !var2;
- 71:
+case 10:
                 return var1;
             }
         };

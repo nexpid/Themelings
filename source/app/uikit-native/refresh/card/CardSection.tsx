@@ -81,7 +81,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function _default(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var15 = var1.title;
             var10 = var1.children;
@@ -107,8 +107,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = null;
             var5 = var6 != var15;
             var8 = null;
-            if(!var5) { _fun0001_ip = 180; continue _fun0001 }
- 109:
+            if(!var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var14 = _closure1_slot3;
             var13 = _closure1_slot0;
             var16 = _closure1_slot1;
@@ -126,20 +126,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['accessibilityRole'] = var16;
             var5['children'] = var15;
             var8 = var14.bind(var4)(var13, var5);
- 180:
+case 2:
             var5 = new Array(3);
             var5[0] = var8;
             var13 = var6 != var9;
             var8 = null;
-            if(!var13) { _fun0001_ip = 200; continue _fun0001 }
- 197:
+            if(!var13) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var8 = var9;
- 200:
+case 4:
             var5[1] = var8;
             var8 = var6 != var10;
             var6 = null;
-            if(!var8) { _fun0001_ip = 255; continue _fun0001 }
- 213:
+            if(!var8) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var9 = _closure1_slot3;
             var8 = _closure1_slot2;
             var7 = {};
@@ -150,7 +150,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7['style'] = var11;
             var7['children'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 255:
+case 6:
             var5[2] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

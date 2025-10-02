@@ -41,18 +41,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot3 = var6;
     var5 = function getOfficialAlternateIcons() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arguments[0];
             var9 = undefined;
-            if(!(var1 === var9)) { _fun0001_ip = 11; continue _fun0001 }
- 9:
+            if(!(var1 === var9)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = false;
- 11:
-            if(var1) { _fun0001_ip = 23; continue _fun0001 }
- 14:
+case 2:
+            if(var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = new Array(0);
-            _fun0001_ip = 254; continue _fun0001;
- 23:
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
             var3 = {};
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -105,7 +105,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['name'] = var4;
             var1[1] = var3;
             var2 = var1;
- 254:
+case 6:
             var1 = new Array(24);
             var7 = 0;
             var17 = var1;
@@ -675,13 +675,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot4 = var5;
     var4 = function getIcons() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var4 = arguments[0];
             var3 = undefined;
-            if(!(var4 === var3)) { _fun0002_ip = 11; continue _fun0002 }
- 9:
+            if(!(var4 === var3)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
             var4 = false;
- 11:
+case 2:
             var1 = _closure1_slot3;
             var5 = var1.bind(var3)();
             var1 = new Array(1);
@@ -720,7 +720,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['getIcons'] = var4;
     var2 = function getIconById(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var2 = arg1;
             var _closure2_slot0 = var2;
             var5 = _closure1_slot5;
@@ -737,11 +737,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var1 = var4.bind(var5)(var1);
             var4 = null;
-            if(!(var4 == var1)) { _fun0003_ip = 55; continue _fun0003 }
- 47:
+            if(!(var4 == var1)) { _fun0003_ip = 7; continue _fun0003 }
+case 8:
             var2 = _closure1_slot3;
             var1 = var2.bind(var3)();
- 55:
+case 7:
             return var1;
         }
     };

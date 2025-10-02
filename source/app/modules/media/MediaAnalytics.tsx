@@ -28,7 +28,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function logMediaAttachmentPlaybackStarted(arg1, arg2, arg3, arg4, arg5, arg6) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var7 = arg1;
             var6 = arg2;
             var10 = arg3;
@@ -63,10 +63,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var8.min;
             var11 = null;
             var6 = var9;
-            if(!(var11 != var10)) { _fun0001_ip = 147; continue _fun0001 }
- 144:
+            if(!(var11 != var10)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = var10;
- 147:
+case 2:
             var6 = var7.bind(var8)(var6, var9);
             var2['start_duration_secs'] = var6;
             var6 = arg6;
@@ -78,7 +78,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['logMediaAttachmentPlaybackStarted'] = var4;
     var2 = function logMediaAttachmentPlaybackEnded(arg1, arg2, arg3, arg4, arg5, arg6) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var10 = arg2;
             var9 = arg3;
             var4 = _closure1_slot0;
@@ -99,10 +99,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var8.min;
             var11 = null;
             var6 = var9;
-            if(!(var11 != var10)) { _fun0002_ip = 86; continue _fun0002 }
- 83:
+            if(!(var11 != var10)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var6 = var10;
- 86:
+case 4:
             var6 = var7.bind(var8)(var6, var9);
             var2['end_duration_secs'] = var6;
             var6 = arg4;

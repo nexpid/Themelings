@@ -32,7 +32,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var13 = var1.layerConfig;
             var10 = var1.animate;
@@ -59,21 +59,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[1] = var16;
             var2 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var1 = _closure2_slot0;
                     var2 = _closure2_slot1;
-                    if(var1) { _fun0002_ip = 26; continue _fun0002 }
- 14:
+                    if(var1) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var1 = var2.stop;
                     var1 = var1.bind(var2)();
-                    _fun0002_ip = 49; continue _fun0002;
- 26:
+                    _fun0002_ip = 4; continue _fun0002;
+case 2:
                     var3 = var2.seek;
                     var1 = 0;
                     var1 = var3.bind(var2)(var1);
                     var1 = var2.play;
                     var1 = var1.bind(var2)();
- 49:
+case 4:
                     var1 = undefined;
                     return var1;
                 }
@@ -104,10 +104,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var9.bind(var11)(var13, var12);
             var8['height'] = var9;
             var9 = 0;
-            if(!var10) { _fun0001_ip = 233; continue _fun0001 }
- 230:
+            if(!var10) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var9 = 1;
- 233:
+case 5:
             var8['opacity'] = var9;
             var7[1] = var8;
             var1['style'] = var7;

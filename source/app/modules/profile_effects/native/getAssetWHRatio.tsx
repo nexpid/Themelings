@@ -11,17 +11,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = var5.bind(var6)(var3, var1, var4);
     var1 = function getPositiveValue(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = arg2;
             var3 = null;
-            if(!(var3 != var1)) { _fun0001_ip = 18; continue _fun0001 }
- 12:
+            if(!(var3 != var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = 0;
-            if(!(var1 <= var3)) { _fun0001_ip = 21; continue _fun0001 }
- 18:
+            if(!(var1 <= var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 2:
             var1 = var2;
- 21:
+case 4:
             return var1;
         }
     };

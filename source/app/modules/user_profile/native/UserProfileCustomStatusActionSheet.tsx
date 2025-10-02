@@ -87,7 +87,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function UserProfileCustomStatusActionSheet(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var17 = var2.user;
             var _closure2_slot0 = var17;
@@ -111,17 +111,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[0] = var17;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var2 = _closure1_slot4;
                     var1 = var2.getCurrentUser;
                     var1 = var1.bind(var2)();
                     var2 = null;
                     var3 = var2 == var1;
                     var2 = undefined;
-                    if(var3) { _fun0002_ip = 32; continue _fun0002 }
- 27:
+                    if(var3) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var2 = var1.id;
- 32:
+case 2:
                     var1 = _closure2_slot0;
                     var1 = var1.id;
                     var1 = var2 === var1;
@@ -146,8 +146,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var8[var1];
             var3 = var7.bind(var4)(var3);
             var3 = var3.intl;
-            if(var2) { _fun0001_ip = 228; continue _fun0001 }
- 187:
+            if(var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var9 = var3.formatToPlainString;
             var2 = var8[var1];
             var2 = var7.bind(var4)(var2);
@@ -156,15 +156,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = {};
             var2['username'] = var10;
             var6 = var9.bind(var3)(var6, var2);
-            _fun0001_ip = 260; continue _fun0001;
- 228:
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
             var2 = var3.string;
             var1 = var8[var1];
             var1 = var7.bind(var4)(var1);
             var1 = var1.t;
             var1 = var1.AHoLf3;
             var6 = var2.bind(var3)(var1);
- 260:
+case 6:
             var3 = _closure1_slot5;
             var10 = _closure1_slot1;
             var15 = _closure1_slot2;

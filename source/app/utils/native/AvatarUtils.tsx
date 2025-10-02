@@ -8,23 +8,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var10;
     var4 = function ensureAvatarSource(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var2 = 'number';
             var1 = typeof var4;
-            if(!(var2 !== var1)) { _fun0001_ip = 38; continue _fun0001 }
- 14:
+            if(!(var2 !== var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = global;
             var2 = var1.Array;
             var1 = var2.isArray;
             var2 = var1.bind(var2)(var4);
             var1 = var4;
-            if(!var2) { _fun0001_ip = 56; continue _fun0001 }
- 38:
+            if(!var2) { _fun0001_ip = 4; continue _fun0001 }
+case 2:
             var3 = _closure1_slot2;
             var2 = var3.resolveAssetSource;
             var1 = var2.bind(var3)(var4);
- 56:
+case 4:
             return var1;
         }
     };

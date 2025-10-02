@@ -73,7 +73,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[0] = var5;
         var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot1;
                 var1 = 5;
@@ -92,10 +92,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var3.bind(var4)(var5);
                 var2 = !var2;
                 var4 = !var2;
-                if(var2) { _fun0001_ip = 91; continue _fun0001 }
- 88:
+                if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var4 = var3;
- 91:
+case 2:
                 var3 = global;
                 var6 = var3.Math;
                 var5 = var6.max;
@@ -107,13 +107,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = {};
                 var1['isFirstPageLoading'] = var2;
                 var1['isNextPageLoading'] = var4;
-                if(var2) { _fun0001_ip = 146; continue _fun0001 }
- 141:
+                if(var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var2 = 0;
-                if(!var4) { _fun0001_ip = 149; continue _fun0001 }
- 146:
+                if(!var4) { _fun0001_ip = 6; continue _fun0001 }
+case 4:
                 var2 = var3;
- 149:
+case 6:
                 var1['placeholderCount'] = var2;
                 return var1;
             }

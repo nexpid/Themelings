@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var4 = function useAccountSMSBackupSettingDescription() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
             var1 = 5;
@@ -29,8 +29,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.bind(var6)(var3, var1);
             var1 = null;
             var3 = var1 == var4;
-            if(var3) { _fun0001_ip = 97; continue _fun0001 }
- 66:
+            if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
             var2 = 6;
@@ -38,7 +38,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var5)(var2);
             var2 = var3.getSMSBackupDisabledMessage;
             var1 = var2.bind(var3)(var4);
- 97:
+case 2:
             return var1;
         }
     };
@@ -80,18 +80,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var12.debounce;
     var10 = function toggleSMS(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = var1.mfaSMSEnabled;
             var1 = var1.user;
-            if(var2) { _fun0002_ip = 277; continue _fun0002 }
- 20:
+            if(var2) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var2 = null;
-            if(!(var2 != var1)) { _fun0002_ip = 36; continue _fun0002 }
- 26:
+            if(!(var2 != var1)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var1 = var1.phone;
-            if(!(var2 == var1)) { _fun0002_ip = 148; continue _fun0002 }
- 36:
+            if(!(var2 == var1)) { _fun0002_ip = 8; continue _fun0002 }
+case 6:
             var3 = _closure1_slot1;
             var9 = _closure1_slot2;
             var2 = 11;
@@ -116,8 +116,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['reason'] = var6;
             var1 = _closure1_slot5;
             var1 = var4.bind(var5)(var3, var2, var1);
-            _fun0002_ip = 465; continue _fun0002;
- 148:
+            _fun0002_ip = 9; continue _fun0002;
+case 8:
             var7 = _closure1_slot0;
             var5 = _closure1_slot2;
             var2 = 7;
@@ -144,10 +144,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.then;
             var1 = function(arg1) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var1 = arg1;
-                    if(!var1) { _fun0003_ip = 41; continue _fun0003 }
- 6:
+                    if(!var1) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
                     var1 = 8;
@@ -156,14 +156,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var3.bind(var1)(var2);
                     var1 = var2.enableSMS;
                     var1 = var1.bind(var2)();
- 41:
+case 10:
                     var1 = undefined;
                     return var1;
                 }
             };
             var1 = var2.bind(var3)(var1);
-            _fun0002_ip = 465; continue _fun0002;
- 277:
+            _fun0002_ip = 9; continue _fun0002;
+case 4:
             var8 = _closure1_slot0;
             var5 = _closure1_slot2;
             var2 = 7;
@@ -205,7 +205,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var5[var1];
             var1 = var4.bind(var3)(var1);
             var1 = var1.bind(var3)(var2);
- 465:
+case 9:
             var1 = undefined;
             return var1;
         }
@@ -246,7 +246,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['useIsDisabled'] = var8;
     var8 = function useAccountSMSBackupSettingToggleValue() {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var4 = _closure1_slot0;
             var2 = _closure1_slot2;
             var1 = 5;
@@ -266,31 +266,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.bind(var6)(var4, var1);
             var1 = null;
             var4 = var1 == var5;
-            if(var4) { _fun0004_ip = 87; continue _fun0004 }
- 66:
+            if(var4) { _fun0004_ip = 12; continue _fun0004 }
+case 3:
             var4 = var5.hasFlag;
             var3 = _closure1_slot4;
             var3 = var3.MFA_SMS;
             var2 = var4.bind(var5)(var3);
- 87:
+case 12:
             var1 = var1 != var2;
-            if(!var1) { _fun0004_ip = 97; continue _fun0004 }
- 94:
+            if(!var1) { _fun0004_ip = 2; continue _fun0004 }
+case 13:
             var1 = var2;
- 97:
+case 2:
             return var1;
         }
     };
     var2['useValue'] = var8;
     var7 = function onAccountSMSBackupSettingTogglePress(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
             var3 = _closure1_slot3;
             var1 = var3.getCurrentUser;
             var1 = var1.bind(var3)();
             var3 = null;
-            if(!(var3 != var1)) { _fun0005_ip = 50; continue _fun0005 }
- 22:
+            if(!(var3 != var1)) { _fun0005_ip = 14; continue _fun0005 }
+case 15:
             var3 = _closure1_slot6;
             var2 = {};
             var4 = arg1;
@@ -299,7 +299,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['user'] = var1;
             var1 = undefined;
             var1 = var3.bind(var1)(var2);
- 50:
+case 14:
             var1 = undefined;
             return var1;
         }

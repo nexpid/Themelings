@@ -67,7 +67,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function ForLaterModal() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = _closure1_slot6;
             var4 = undefined;
             var8 = var1.bind(var4)();
@@ -131,10 +131,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var10.isIOS;
             var10 = var9.bind(var10)();
             var9 = undefined;
-            if(!var10) { _fun0001_ip = 180; continue _fun0001 }
- 178:
+            if(!var10) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var9 = 0;
- 180:
+case 2:
             var8['headerStatusBarHeight'] = var9;
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;

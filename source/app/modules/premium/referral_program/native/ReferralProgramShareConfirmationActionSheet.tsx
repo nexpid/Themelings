@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function SharedUser(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var8 = var1.user;
             var3 = var1.trialCreationResult;
@@ -26,8 +26,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var1.bind(var2)(var8);
             var1 = var8.username;
             var1 = var1 !== var13;
-            if(!var1) { _fun0001_ip = 111; continue _fun0001 }
- 75:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = _closure1_slot0;
             var7 = _closure1_slot2;
             var2 = 7;
@@ -36,7 +36,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.CreateReferralStatus;
             var2 = var2.SUCCESS;
             var1 = var3 === var2;
- 111:
+case 2:
             var5 = _closure1_slot0;
             var7 = _closure1_slot2;
             var2 = 7;
@@ -45,11 +45,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.CreateReferralStatus;
             var2 = var2.FAIL;
             var15 = var3 === var2;
-            if(var1) { _fun0001_ip = 270; continue _fun0001 }
- 150:
+            if(var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var10 = null;
-            if(!var15) { _fun0001_ip = 328; continue _fun0001 }
- 158:
+            if(!var15) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var3 = _closure1_slot6;
             var7 = _closure1_slot0;
             var16 = _closure1_slot2;
@@ -72,8 +72,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var11.bind(var14)(var7, var5);
             var1['children'] = var5;
             var10 = var3.bind(var4)(var2, var1);
-            _fun0001_ip = 328; continue _fun0001;
- 270:
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
             var3 = _closure1_slot6;
             var2 = _closure1_slot0;
             var5 = _closure1_slot2;
@@ -85,7 +85,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var8.username;
             var1['children'] = var5;
             var10 = var3.bind(var4)(var2, var1);
- 328:
+case 6:
             var3 = _closure1_slot7;
             var2 = _closure1_slot3;
             var1 = {};
@@ -129,10 +129,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = 'text-md/medium';
             var9['variant'] = var14;
             var14 = 'text-link';
-            if(!var15) { _fun0001_ip = 516; continue _fun0001 }
- 510:
+            if(!var15) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var14 = 'text-muted';
- 516:
+case 8:
             var9['color'] = var14;
             var9['children'] = var13;
             var11 = var12.bind(var4)(var11, var9);
@@ -254,7 +254,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function ReferralProgramShareConfirmationActionSheet(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var15 = var1.selectedUsers;
             var5 = var1.trialCreationResult;
@@ -292,8 +292,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2.bind(var3)(var1);
             var6 = var1.length;
             var1 = 0;
-            if(!(var1 !== var6)) { _fun0002_ip = 185; continue _fun0002 }
- 118:
+            if(!(var1 !== var6)) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
             var2 = _closure1_slot0;
             var7 = _closure1_slot2;
             var1 = 9;
@@ -308,8 +308,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = {};
             var1['numReferrals'] = var6;
             var17 = var3.bind(var5)(var2, var1);
-            _fun0002_ip = 242; continue _fun0002;
- 185:
+            _fun0002_ip = 12; continue _fun0002;
+case 10:
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
             var1 = 9;
@@ -322,7 +322,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.t;
             var1 = var1.7VBEub;
             var17 = var2.bind(var3)(var1);
- 242:
+case 12:
             var19 = _closure1_slot1;
             var10 = _closure1_slot2;
             var1 = 13;
@@ -393,15 +393,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8['resizeMode'] = var16;
             var16 = {};
             var21 = _closure1_slot2;
-            if(var18) { _fun0002_ip = 515; continue _fun0002 }
- 506:
+            if(var18) { _fun0002_ip = 13; continue _fun0002 }
+case 14:
             var18 = 22;
             var18 = var21[var18];
-            _fun0002_ip = 522; continue _fun0002;
- 515:
+            _fun0002_ip = 15; continue _fun0002;
+case 13:
             var20 = 21;
             var18 = var21[var20];
- 522:
+case 15:
             var18 = var19.bind(var4)(var18);
             var16['uri'] = var18;
             var8['source'] = var16;

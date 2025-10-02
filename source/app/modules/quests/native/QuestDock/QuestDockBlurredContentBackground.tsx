@@ -40,17 +40,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function QuestDockBlurredContentBackground(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var7 = var2.animatedStyle;
             var5 = var2.animatedLayout;
             var2 = var2.blurTheme;
             var10 = 'dark';
             var4 = undefined;
-            if(!(var4 !== var2)) { _fun0001_ip = 36; continue _fun0001 }
- 33:
+            if(!(var4 !== var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var10 = var2;
- 36:
+case 2:
             var _closure2_slot0 = var10;
             var9 = _closure1_slot0;
             var8 = var9.useMemo;
@@ -58,14 +58,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[0] = var10;
             var2 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = _closure2_slot0;
                     var1 = 'rgba(255, 255, 255, 0.1)';
                     var2 = 'dark';
-                    if(!(var2 === var3)) { _fun0002_ip = 27; continue _fun0002 }
- 21:
+                    if(!(var2 === var3)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var1 = 'rgba(38, 39, 50, 0.65)';
- 27:
+case 4:
                     return var1;
                 }
             };
@@ -75,14 +75,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[0] = var10;
             var1 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var3 = _closure2_slot0;
                     var1 = 'rgba(255, 255, 255, 0.1)';
                     var2 = 'dark';
-                    if(!(var2 === var3)) { _fun0003_ip = 27; continue _fun0003 }
- 21:
+                    if(!(var2 === var3)) { _fun0003_ip = 4; continue _fun0003 }
+case 5:
                     var1 = 'rgba(38, 39, 50, 0.1)';
- 27:
+case 4:
                     return var1;
                 }
             };

@@ -66,7 +66,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function FamilyCenterAvatarPair(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var10 = var1.otherUser;
             var15 = var1.iconSrc;
@@ -91,11 +91,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var14 = var3.bind(var4)(var2, var1);
             var1 = null;
-            if(!(var5 !== var14)) { _fun0001_ip = 361; continue _fun0001 }
- 95:
+            if(!(var5 !== var14)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = null;
-            if(!(var5 !== var10)) { _fun0001_ip = 361; continue _fun0001 }
- 104:
+            if(!(var5 !== var10)) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var4 = _closure1_slot6;
             var3 = _closure1_slot3;
             var2 = {};
@@ -154,7 +154,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[2] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 361:
+case 2:
             return var1;
         }
     };

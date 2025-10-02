@@ -65,16 +65,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function ShopProductPreviewActionSheet(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var18 = var1.product;
             var _closure2_slot0 = var18;
             var1 = var1.analyticsLocations;
             var4 = undefined;
-            if(!(var1 === var4)) { _fun0001_ip = 31; continue _fun0001 }
- 27:
+            if(!(var1 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = new Array(0);
- 31:
+case 2:
             var _closure2_slot1 = var1;
             var _closure2_slot2 = var4;
             var _closure2_slot3 = var4;
@@ -135,7 +135,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var25['setShouldReset'] = var2;
             var19 = function useHandlePreviewPress(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var2 = arg1;
                     var3 = var2.product;
                     var _closure3_slot0 = var3;
@@ -205,10 +205,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var5.bind(var2)(var3);
                     var3 = var3.CollectiblesItemType;
                     var3 = var3.NAMEPLATE;
-                    if(!(var4 === var3)) { _fun0002_ip = 156; continue _fun0002 }
- 154:
+                    if(!(var4 === var3)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     return var2;
- 156:
+case 4:
                     return var1;
                 }
             };
@@ -219,7 +219,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var19[1] = var2;
             var2 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var1 = _closure2_slot0;
                     var4 = var1.type;
                     var5 = _closure1_slot0;
@@ -230,12 +230,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var5.bind(var1)(var3);
                     var3 = var3.CollectiblesItemType;
                     var3 = var3.BUNDLE;
-                    if(!(var4 === var3)) { _fun0003_ip = 64; continue _fun0003 }
- 53:
+                    if(!(var4 === var3)) { _fun0003_ip = 6; continue _fun0003 }
+case 7:
                     var3 = _closure2_slot3;
                     var2 = false;
                     var2 = var3.bind(var1)(var2);
- 64:
+case 6:
                     return var1;
                 }
             };
@@ -253,21 +253,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[1] = var2;
             var2 = function(arg1) {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                     var1 = arg1;
                     var2 = var1.nativeEvent;
                     var2 = var2.layout;
                     var4 = var2.height;
                     var3 = _closure2_slot4;
-                    if(!(var4 !== var3)) { _fun0004_ip = 59; continue _fun0004 }
- 31:
+                    if(!(var4 !== var3)) { _fun0004_ip = 8; continue _fun0004 }
+case 2:
                     var3 = _closure2_slot5;
                     var1 = var1.nativeEvent;
                     var1 = var1.layout;
                     var2 = var1.height;
                     var1 = undefined;
                     var1 = var3.bind(var1)(var2);
- 59:
+case 8:
                     var1 = undefined;
                     return var1;
                 }
@@ -319,20 +319,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = {'scrollable': true, 'startExpanded': true};
             var11 = function onExpand() {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
                     var1 = _closure2_slot2;
                     var4 = var1.current;
                     var1 = null;
                     var2 = var1 == var4;
                     var1 = undefined;
-                    if(var2) { _fun0005_ip = 43; continue _fun0005 }
- 23:
+                    if(var2) { _fun0005_ip = 9; continue _fun0005 }
+case 10:
                     var3 = var4.scrollToEnd;
                     var2 = {};
                     var5 = true;
                     var2['animated'] = var5;
                     var1 = var3.bind(var4)(var2);
- 43:
+case 9:
                     return var1;
                 }
             };

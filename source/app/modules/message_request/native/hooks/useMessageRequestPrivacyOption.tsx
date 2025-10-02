@@ -56,7 +56,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3[0] = var9;
         var2 = function(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
                 var1 = 3;
@@ -66,17 +66,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var4.getSanitizedMessageRequestRestrictedGuilds;
                 var6 = var3.bind(var4)();
                 var3 = arg1;
-                if(var3) { _fun0001_ip = 60; continue _fun0001 }
- 41:
+                if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var4 = var6.add;
                 var3 = _closure2_slot0;
                 var3 = var4.bind(var6)(var3);
-                _fun0001_ip = 77; continue _fun0001;
- 60:
+                _fun0001_ip = 4; continue _fun0001;
+case 2:
                 var4 = var6.delete;
                 var3 = _closure2_slot0;
                 var3 = var4.bind(var6)(var3);
- 77:
+case 4:
                 var3 = _closure1_slot0;
                 var4 = _closure1_slot2;
                 var2 = 2;
@@ -136,7 +136,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useMessageRequestPrivacyOption(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var6 = var1.guild;
             var3 = _closure1_slot1;
@@ -147,14 +147,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var3.bind(var5)(var1);
             var3 = var1.bind(var5)();
             var1 = null;
-            if(var3) { _fun0002_ip = 62; continue _fun0002 }
- 42:
+            if(var3) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
             var4 = _closure1_slot4;
             var3 = _closure1_slot5;
             var2 = {};
             var2['guild'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 62:
+case 5:
             return var1;
         }
     };

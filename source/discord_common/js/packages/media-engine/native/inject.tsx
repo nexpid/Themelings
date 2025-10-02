@@ -3,14 +3,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3 = exports;
     var1 = function assertInjected() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = _closure1_slot0;
             var1 = null;
-            if(!(var1 != var2)) { _fun0001_ip = 17; continue _fun0001 }
- 13:
+            if(!(var1 != var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = undefined;
             return var1;
- 17:
+case 2:
             var1 = global;
             var3 = var1.Error;
             var1 = var3.prototype;
@@ -81,44 +81,44 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['setProcessPriority'] = var4;
     var4 = function getVoiceEngine() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var3 = _closure1_slot3;
             var1 = undefined;
             var1 = var3.bind(var1)();
             var3 = _closure1_slot1;
             var1 = null;
-            if(!(var1 == var3)) { _fun0002_ip = 43; continue _fun0002 }
- 23:
+            if(!(var1 == var3)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var3 = _closure1_slot0;
             var1 = var3.getVoiceEngine;
             var1 = var1.bind(var3)();
             var _closure1_slot1 = var1;
-            _fun0002_ip = 47; continue _fun0002;
- 43:
+            _fun0002_ip = 6; continue _fun0002;
+case 4:
             var1 = _closure1_slot1;
- 47:
+case 6:
             return var1;
         }
     };
     var3['getVoiceEngine'] = var4;
     var2 = function getVoiceFilters() {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var3 = _closure1_slot3;
             var1 = undefined;
             var1 = var3.bind(var1)();
             var3 = _closure1_slot2;
             var1 = null;
-            if(!(var1 == var3)) { _fun0003_ip = 43; continue _fun0003 }
- 23:
+            if(!(var1 == var3)) { _fun0003_ip = 4; continue _fun0003 }
+case 5:
             var3 = _closure1_slot0;
             var1 = var3.getVoiceFilters;
             var1 = var1.bind(var3)();
             var _closure1_slot2 = var1;
-            _fun0003_ip = 47; continue _fun0003;
- 43:
+            _fun0003_ip = 6; continue _fun0003;
+case 4:
             var1 = _closure1_slot2;
- 47:
+case 6:
             return var1;
         }
     };

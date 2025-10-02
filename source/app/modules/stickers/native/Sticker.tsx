@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var7;
     var2 = function getStickerAssetUrl(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var8 = arg2;
             var9 = arg3;
@@ -22,8 +22,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var6.bind(var5)(var2);
             var2 = var2.StickerFormat;
             var2 = var2.LOTTIE;
-            if(!(var3 !== var2)) { _fun0001_ip = 209; continue _fun0001 }
- 59:
+            if(!(var3 !== var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = var4.format_type;
             var6 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -31,8 +31,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var6.bind(var5)(var2);
             var2 = var2.StickerFormat;
             var2 = var2.APNG;
-            if(!(var3 !== var2)) { _fun0001_ip = 161; continue _fun0001 }
- 98:
+            if(!(var3 !== var2)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
             var2 = 5;
@@ -47,8 +47,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7.bind(var10)(var8);
             var2['size'] = var7;
             var2 = var3.bind(var6)(var4, var2);
-            _fun0001_ip = 207; continue _fun0001;
- 161:
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var3 = 5;
@@ -60,9 +60,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['isPreview'] = var9;
             var3['size'] = var8;
             var2 = var6.bind(var7)(var4, var3);
- 207:
-            _fun0001_ip = 240; continue _fun0001;
- 209:
+case 6:
+            _fun0001_ip = 7; continue _fun0001;
+case 2:
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
             var1 = 5;
@@ -70,14 +70,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var5)(var1);
             var1 = var3.getStickerAssetUrl;
             var2 = var1.bind(var3)(var4);
- 240:
+case 7:
             var1 = null;
             var3 = var1 != var2;
             var1 = '';
-            if(!var3) { _fun0001_ip = 256; continue _fun0001 }
- 253:
+            if(!var3) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var1 = var2;
- 256:
+case 8:
             return var1;
         }
     };
@@ -117,26 +117,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var7)(var5);
     var4 = function _default(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var11 = var1.sticker;
             var10 = var1.size;
             var6 = var1.animated;
             var4 = undefined;
-            if(!(var6 === var4)) { _fun0002_ip = 28; continue _fun0002 }
- 26:
+            if(!(var6 === var4)) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
             var6 = true;
- 28:
+case 10:
             var1 = var1.opaque;
-            if(!(var1 === var4)) { _fun0002_ip = 40; continue _fun0002 }
- 38:
+            if(!(var1 === var4)) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
             var1 = true;
- 40:
+case 12:
             var8 = 0.3;
-            if(!var1) { _fun0002_ip = 56; continue _fun0002 }
- 53:
+            if(!var1) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
             var8 = 1;
- 56:
+case 14:
             var1 = _closure1_slot6;
             var12 = var1.bind(var4)(var11, var10, var6);
             var3 = _closure1_slot0;
@@ -160,8 +160,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var3.bind(var4)(var1);
             var1 = var1.StickerFormat;
             var1 = var1.LOTTIE;
-            if(!(var2 !== var1)) { _fun0002_ip = 568; continue _fun0002 }
- 175:
+            if(!(var2 !== var1)) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
             var2 = var11.format_type;
             var3 = _closure1_slot0;
             var1 = _closure1_slot2;
@@ -169,12 +169,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var3.bind(var4)(var1);
             var1 = var1.StickerFormat;
             var1 = var1.APNG;
-            if(!(var2 === var1)) { _fun0002_ip = 407; continue _fun0002 }
- 217:
+            if(!(var2 === var1)) { _fun0002_ip = 18; continue _fun0002 }
+case 19:
             var1 = 'type';
             var1 = var1 in var11;
-            if(!var1) { _fun0002_ip = 265; continue _fun0002 }
- 228:
+            if(!var1) { _fun0002_ip = 20; continue _fun0002 }
+case 21:
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 5;
@@ -182,8 +182,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.bind(var4)(var1);
             var1 = var2.isGuildSticker;
             var1 = var1.bind(var2)(var11);
-            if(!var1) { _fun0002_ip = 407; continue _fun0002 }
- 265:
+            if(!var1) { _fun0002_ip = 18; continue _fun0002 }
+case 20:
             var9 = {};
             var1 = {};
             var1['height'] = var10;
@@ -219,7 +219,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = copyDataProperties(var18, var17);
             var1 = var3.bind(var4)(var2, var1);
             return var1;
- 407:
+case 18:
             var3 = _closure1_slot5;
             var2 = _closure1_slot1;
             var14 = _closure1_slot2;
@@ -244,17 +244,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var13.bind(var14)(var9);
             var14 = _closure1_slot1;
             var15 = _closure1_slot2;
-            if(var9) { _fun0002_ip = 522; continue _fun0002 }
- 508:
+            if(var9) { _fun0002_ip = 22; continue _fun0002 }
+case 23:
             var9 = 12;
             var9 = var15[var9];
             var9 = var14.bind(var4)(var9);
-            _fun0002_ip = 534; continue _fun0002;
- 522:
+            _fun0002_ip = 24; continue _fun0002;
+case 22:
             var13 = 11;
             var13 = var15[var13];
             var9 = var14.bind(var4)(var13);
- 534:
+case 24:
             var1['placeholder'] = var9;
             var9 = {};
             var9['uri'] = var12;
@@ -264,7 +264,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['accessibilityLabel'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
- 568:
+case 16:
             var3 = _closure1_slot5;
             var2 = _closure1_slot1;
             var1 = _closure1_slot2;
@@ -277,10 +277,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = null;
             var13 = var11 != var12;
             var11 = '';
-            if(!var13) { _fun0002_ip = 619; continue _fun0002 }
- 616:
+            if(!var13) { _fun0002_ip = 25; continue _fun0002 }
+case 26:
             var11 = var12;
- 619:
+case 25:
             var1['asset'] = var11;
             var1['width'] = var10;
             var1['height'] = var10;
@@ -290,13 +290,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7[var9];
             var7 = var8.bind(var4)(var7);
             var7 = var7.NativeLottieRenderMode;
-            if(var6) { _fun0002_ip = 670; continue _fun0002 }
- 662:
+            if(var6) { _fun0002_ip = 27; continue _fun0002 }
+case 28:
             var6 = var7.STILL;
-            _fun0002_ip = 676; continue _fun0002;
- 670:
+            _fun0002_ip = 29; continue _fun0002;
+case 27:
             var6 = var7.LOOP;
- 676:
+case 29:
             var1['renderMode'] = var6;
             var1['accessibilityLabel'] = var5;
             var1 = var3.bind(var4)(var2, var1);

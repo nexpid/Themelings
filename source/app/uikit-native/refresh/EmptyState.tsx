@@ -90,7 +90,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot7 = var4;
     var4 = function EmptyState(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var12 = var1.source;
             var16 = var1.title;
@@ -114,8 +114,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = null;
             var5 = var6 != var12;
             var8 = null;
-            if(!var5) { _fun0001_ip = 145; continue _fun0001 }
- 103:
+            if(!var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var10 = _closure1_slot5;
             var9 = _closure1_slot4;
             var5 = {};
@@ -126,13 +126,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12[1] = var17;
             var5['style'] = var12;
             var8 = var10.bind(var4)(var9, var5);
- 145:
+case 2:
             var5 = new Array(4);
             var5[0] = var8;
             var9 = var6 != var16;
             var8 = null;
-            if(!var9) { _fun0001_ip = 225; continue _fun0001 }
- 162:
+            if(!var9) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var12 = _closure1_slot5;
             var10 = _closure1_slot0;
             var17 = _closure1_slot2;
@@ -148,7 +148,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9['style'] = var17;
             var9['children'] = var16;
             var8 = var12.bind(var4)(var10, var9);
- 225:
+case 4:
             var5[1] = var8;
             var10 = _closure1_slot5;
             var9 = _closure1_slot0;
@@ -168,8 +168,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5[2] = var8;
             var8 = var6 != var13;
             var6 = null;
-            if(!var8) { _fun0001_ip = 422; continue _fun0001 }
- 305:
+            if(!var8) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var9 = _closure1_slot5;
             var11 = _closure1_slot1;
             var12 = _closure1_slot2;
@@ -196,7 +196,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var10.SMALL;
             var7['size'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 422:
+case 6:
             var5[3] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
@@ -213,7 +213,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['default'] = var4;
     var2 = function(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var4 = arg1;
             var2 = var4.lightSource;
             var6 = var4.darkSource;
@@ -239,10 +239,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7.bind(var4)(var3);
             var3 = var7.isThemeLight;
             var3 = var3.bind(var7)(var8);
-            if(!var3) { _fun0002_ip = 111; continue _fun0002 }
- 108:
+            if(!var3) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var6 = var2;
- 111:
+case 8:
             var3 = _closure1_slot5;
             var2 = _closure1_slot8;
             var1 = {};

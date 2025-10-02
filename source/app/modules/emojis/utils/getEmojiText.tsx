@@ -20,36 +20,36 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var4.bind(var5)(var2);
     var2 = function getEmojiText(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = var2.id;
             var3 = null;
-            if(!(var3 == var1)) { _fun0001_ip = 23; continue _fun0001 }
- 14:
+            if(!(var3 == var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var2.surrogates;
-            if(!(var3 == var1)) { _fun0001_ip = 85; continue _fun0001 }
- 23:
+            if(!(var3 == var1)) { _fun0001_ip = 4; continue _fun0001 }
+case 2:
             var1 = var2.uniqueName;
-            if(!(var3 != var1)) { _fun0001_ip = 47; continue _fun0001 }
- 33:
+            if(!(var3 != var1)) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var3 = var2.uniqueName;
             var1 = '';
-            if(!(var1 === var3)) { _fun0001_ip = 54; continue _fun0001 }
- 47:
+            if(!(var1 === var3)) { _fun0001_ip = 7; continue _fun0001 }
+case 5:
             var4 = var2.name;
-            _fun0001_ip = 60; continue _fun0001;
- 54:
+            _fun0001_ip = 8; continue _fun0001;
+case 7:
             var4 = var2.uniqueName;
- 60:
+case 8:
             var1 = global;
             var1 = var1.HermesInternal;
             var3 = var1.concat;
             var1 = ':';
             var1 = var3.bind(var1)(var4, var1);
-            _fun0001_ip = 90; continue _fun0001;
- 85:
+            _fun0001_ip = 9; continue _fun0001;
+case 4:
             var1 = var2.surrogates;
- 90:
+case 9:
             return var1;
         }
     };

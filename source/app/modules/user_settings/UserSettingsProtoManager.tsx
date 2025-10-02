@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function handleConnectionOpen() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = _closure1_slot3;
             var1 = var4.getFullState;
             var4 = var1.bind(var4)();
@@ -19,8 +19,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var4[var1];
             var4 = var1.editInfo;
             var4 = var4.triggeredMigrations;
-            if(!var4) { _fun0001_ip = 110; continue _fun0001 }
- 52:
+            if(!var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = _closure1_slot0;
             var5 = _closure1_slot2;
             var4 = 6;
@@ -33,7 +33,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.editInfo;
             var1 = var1.cleanupFuncs;
             var1 = var5.bind(var6)(var4, var1);
- 110:
+case 2:
             var5 = _closure1_slot1;
             var7 = _closure1_slot2;
             var1 = 7;
@@ -48,7 +48,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.UserSettingsActionCreatorsByType;
             var2 = function(arg1, arg2) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = arg1;
                     var4 = _closure2_slot0;
                     var1 = global;
@@ -61,17 +61,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var2.offlineEditDataVersion;
                     var5 = null;
                     var2 = var5 != var2;
-                    if(!var2) { _fun0002_ip = 69; continue _fun0002 }
- 53:
+                    if(!var2) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var4 = var4.editInfo;
                     var4 = var4.protoToSave;
                     var2 = var5 != var4;
- 69:
-                    if(!var2) { _fun0002_ip = 82; continue _fun0002 }
- 72:
+case 4:
+                    if(!var2) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var2 = var3.scheduleSaveFromOfflineEdit;
                     var2 = var2.bind(var3)();
- 82:
+case 6:
                     return var1;
                 }
             };
@@ -121,18 +121,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot7 = var1;
     var1 = function handleAppStateUpdate(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var1 = arg1;
             var3 = var1.state;
             var1 = 'inactive';
             var1 = var1 !== var3;
-            if(!var1) { _fun0003_ip = 27; continue _fun0003 }
- 19:
+            if(!var1) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
             var2 = 'background';
             var1 = var2 !== var3;
- 27:
-            if(var1) { _fun0003_ip = 97; continue _fun0003 }
- 30:
+case 8:
+            if(var1) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
             var3 = _closure1_slot1;
             var6 = _closure1_slot2;
             var2 = 7;
@@ -147,7 +147,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var1.UserSettingsActionCreatorsByType;
             var1 = function(arg1, arg2) {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                     var3 = arg1;
                     var2 = _closure1_slot3;
                     var1 = var2.getFullState;
@@ -161,20 +161,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var2.editInfo;
                     var4 = var2.timeout;
                     var2 = null;
-                    if(!(var2 != var4)) { _fun0004_ip = 92; continue _fun0004 }
- 60:
+                    if(!(var2 != var4)) { _fun0004_ip = 12; continue _fun0004 }
+case 13:
                     var5 = var3.logger;
                     var4 = var5.log;
                     var2 = 'Triggering persistChanges due to AppStateUpdate';
                     var2 = var4.bind(var5)(var2);
                     var2 = var3.persistChanges;
                     var2 = var2.bind(var3)();
- 92:
+case 12:
                     return var1;
                 }
             };
             var1 = var3.bind(var4)(var2, var1);
- 97:
+case 10:
             var1 = undefined;
             return var1;
         }

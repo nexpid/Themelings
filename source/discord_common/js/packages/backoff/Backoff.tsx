@@ -24,43 +24,43 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = _closure1_slot1;
         var3 = function Backoff() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var2 = arguments[0];
                 var5 = arguments[1];
                 var4 = arguments[2];
                 var1 = this;
                 var3 = undefined;
-                if(!(var2 === var3)) { _fun0001_ip = 24; continue _fun0001 }
- 18:
+                if(!(var2 === var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var2 = 500;
- 24:
-                if(!(var5 === var3)) { _fun0001_ip = 30; continue _fun0001 }
- 28:
+case 2:
+                if(!(var5 === var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var5 = null;
- 30:
-                if(!(var4 === var3)) { _fun0001_ip = 36; continue _fun0001 }
- 34:
+case 4:
+                if(!(var4 === var3)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                 var4 = true;
- 36:
+case 6:
                 var7 = _closure1_slot0;
                 var6 = _closure2_slot0;
                 var6 = var7.bind(var3)(var1, var6);
                 var6 = 0;
                 var1['_fails'] = var6;
-                if(!(!(var2 <= var6))) { _fun0001_ip = 107; continue _fun0001 }
- 68:
+                if(!(!(var2 <= var6))) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
                 var1['min'] = var2;
                 var6 = null;
-                if(!(var6 == var5)) { _fun0001_ip = 87; continue _fun0001 }
- 80:
+                if(!(var6 == var5)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
                 var6 = 10;
                 var5 = var6 * var2;
- 87:
+case 10:
                 var1['max'] = var5;
                 var1['jitter'] = var4;
                 var1['_current'] = var2;
                 return var3;
- 107:
+case 8:
                 var1 = global;
                 var2 = var1.Error;
                 var1 = 'Backoff min value must be greater than zero or backoff will never back-off.';
@@ -123,7 +123,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var6 = function value(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var4 = arg1;
                 var2 = this;
                 var _closure3_slot0 = var2;
@@ -137,14 +137,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var1 * var5;
                 var1 = var2.jitter;
                 var6 = var5;
-                if(!var1) { _fun0002_ip = 82; continue _fun0002 }
- 60:
+                if(!var1) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
                 var1 = global;
                 var7 = var1.Math;
                 var1 = var7.random;
                 var1 = var1.bind(var7)();
                 var6 = var5 * var1;
- 82:
+case 12:
                 var1 = global;
                 var8 = var1.Math;
                 var7 = var8.min;
@@ -154,38 +154,38 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var7.bind(var8)(var6, var5);
                 var2['_current'] = var5;
                 var6 = null;
-                if(!(var6 != var4)) { _fun0002_ip = 195; continue _fun0002 }
- 128:
+                if(!(var6 != var4)) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
                 var5 = var2._timeoutId;
-                if(!(var6 != var5)) { _fun0002_ip = 158; continue _fun0002 }
- 138:
+                if(!(var6 != var5)) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
                 var5 = var2._callback;
-                if(!(var5 === var4)) { _fun0002_ip = 203; continue _fun0002 }
- 148:
+                if(!(var5 === var4)) { _fun0002_ip = 18; continue _fun0002 }
+case 19:
                 var5 = var2.cancel;
                 var5 = var5.bind(var2)();
- 158:
+case 16:
                 var2['_callback'] = var4;
                 var6 = var1.setTimeout;
                 var5 = var2._current;
                 var4 = undefined;
                 var3 = function() {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0: // try_start_0
+case 0: // try_start_0
                         var3 = _closure3_slot1;
                         var2 = null;
-                        if(!(var2 != var3)) { _fun0003_ip = 23; continue _fun0003 }
- 13:
+                        if(!(var2 != var3)) { _fun0003_ip = 20; continue _fun0003 }
+case 21:
                         var3 = _closure3_slot1;
                         var2 = undefined;
                         var2 = var3.bind(var2)();
- 23: // try_end0
+case 20: // try_end0
                         var2 = _closure3_slot0;
                         var1 = var2.cancel;
                         var1 = var1.bind(var2)();
                         var1 = undefined;
                         return var1;
- 41: // catch_target0
+case 22: // catch_target0
                         CatchBlockStart(arg_register=0);
                         var3 = _closure3_slot0;
                         var2 = var3.cancel;
@@ -195,10 +195,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 };
                 var3 = var6.bind(var4)(var3, var5);
                 var2['_timeoutId'] = var3;
- 195:
+case 14:
                 var2 = var2._current;
                 return var2;
- 203:
+case 18:
                 var3 = var1.Error;
                 var1 = var3.prototype;
                 var2 = Object.create(var1, {constructor: {value: var3}});
@@ -216,20 +216,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var5 = function value() {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                 var2 = this;
                 var1 = null;
                 var2['_callback'] = var1;
                 var3 = var2._timeoutId;
-                if(!(var1 != var3)) { _fun0004_ip = 48; continue _fun0004 }
- 21:
+                if(!(var1 != var3)) { _fun0004_ip = 23; continue _fun0004 }
+case 24:
                 var3 = global;
                 var5 = var3.clearTimeout;
                 var4 = var2._timeoutId;
                 var3 = undefined;
                 var3 = var5.bind(var3)(var4);
                 var2['_timeoutId'] = var1;
- 48:
+case 23:
                 var1 = undefined;
                 return var1;
             }

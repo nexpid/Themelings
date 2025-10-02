@@ -29,7 +29,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useGuildRoleSubscriptionsWaitlistConfig(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var _closure2_slot0 = var4;
             var6 = _closure1_slot0;
@@ -44,18 +44,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var6.bind(var8)(var1);
             var1 = var1.GuildRoleSubscriptionSettingsVisibility;
             var1 = var1.NEEDS_COMMUNITY;
-            if(!(var1 !== var5)) { _fun0001_ip = 249; continue _fun0001 }
- 73:
+            if(!(var1 !== var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = _closure1_slot0;
             var1 = _closure1_slot2;
             var1 = var1[var7];
             var1 = var6.bind(var8)(var1);
             var1 = var1.GuildRoleSubscriptionSettingsVisibility;
             var1 = var1.WAITLIST_ONLY;
-            if(!(var1 !== var5)) { _fun0001_ip = 108; continue _fun0001 }
- 106:
+            if(!(var1 !== var5)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             return var8;
- 108:
+case 4:
             var1 = {};
             var1['visibility'] = var5;
             var10 = _closure1_slot0;
@@ -96,7 +96,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var1['onCtaClicked'] = var6;
             return var1;
- 249:
+case 2:
             var1 = {};
             var1['visibility'] = var5;
             var7 = _closure1_slot0;
@@ -127,7 +127,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['ctaClickable'] = var3;
             var2 = function onCtaClicked() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var5 = _closure1_slot1;
                     var8 = _closure1_slot2;
                     var1 = 3;
@@ -145,17 +145,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var5.open;
                     var8 = var3 == var6;
                     var6 = undefined;
-                    if(var8) { _fun0002_ip = 86; continue _fun0002 }
- 77:
+                    if(var8) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var7 = _closure2_slot0;
                     var6 = var7.id;
- 86:
+case 6:
                     var7 = var3 != var6;
                     var3 = '';
-                    if(!var7) { _fun0002_ip = 100; continue _fun0002 }
- 97:
+                    if(!var7) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                     var3 = var6;
- 100:
+case 8:
                     var2 = _closure1_slot3;
                     var2 = var2.COMMUNITY;
                     var2 = var4.bind(var5)(var3, var2);

@@ -76,7 +76,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5['key'] = var2;
         var2 = function value() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var1 = this;
                 var3 = var1.cpuHistogram;
                 var2 = var3.getReport;
@@ -96,12 +96,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var10 = null;
                 var4 = var10 == var3;
                 var3 = undefined;
-                if(var4) { _fun0001_ip = 161; continue _fun0001 }
- 87:
+                if(var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var4 = var10 == var5;
                 var3 = undefined;
-                if(var4) { _fun0001_ip = 161; continue _fun0001 }
- 96:
+                if(var4) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
                 var6 = var5.usage;
                 var4 = var1.startCPU;
                 var4 = var4.usage;
@@ -115,7 +115,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = 1000;
                 var1 = var5 / var1;
                 var3 = var4 / var1;
- 161:
+case 2:
                 var1 = {};
                 var4 = var9.percentiles;
                 var8 = 25;
@@ -137,10 +137,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = 95;
                 var11 = var11[var4];
                 var1['client_performance_cpu_percentile95'] = var11;
-                if(!(var10 == var3)) { _fun0001_ip = 273; continue _fun0001 }
- 267:
+                if(!(var10 == var3)) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
                 var3 = var9.mean;
- 273:
+case 5:
                 var1['client_performance_cpu_mean'] = var3;
                 var3 = var2.percentiles;
                 var3 = var3[var8];
@@ -174,7 +174,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5['key'] = var7;
         var7 = function value() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var2 = this;
                 var4 = _closure1_slot1;
                 var3 = _closure1_slot2;
@@ -189,34 +189,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var4.getCurrentMemoryUsageKB;
                 var4 = var3.bind(var4)();
                 var3 = null;
-                if(!(var3 == var5)) { _fun0002_ip = 116; continue _fun0002 }
- 63:
+                if(!(var3 == var5)) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
                 var7 = _closure1_slot1;
                 var6 = _closure1_slot2;
                 var6 = var6[var8];
                 var7 = var7.bind(var1)(var6);
                 var6 = var7.getCurrentCPUUsagePercent;
                 var8 = var6.bind(var7)();
-                if(!(var3 != var8)) { _fun0002_ip = 234; continue _fun0002 }
- 97:
+                if(!(var3 != var8)) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
                 var7 = var2.cpuHistogram;
                 var6 = var7.addSample;
                 var6 = var6.bind(var7)(var8);
-                _fun0002_ip = 234; continue _fun0002;
- 116:
+                _fun0002_ip = 9; continue _fun0002;
+case 7:
                 var6 = var2.lastCPU;
                 var8 = var3 != var6;
                 var6 = true;
-                if(!var8) { _fun0002_ip = 225; continue _fun0002 }
- 131:
+                if(!var8) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
                 var9 = var5.sampleTime;
                 var8 = var2.lastCPU;
                 var8 = var8.sampleTime;
                 var11 = var9 - var8;
                 var6 = false;
                 var8 = 1;
-                if(!(var11 >= var8)) { _fun0002_ip = 225; continue _fun0002 }
- 162:
+                if(!(var11 >= var8)) { _fun0002_ip = 11; continue _fun0002 }
+case 13:
                 var9 = var5.usage;
                 var8 = var2.lastCPU;
                 var8 = var8.usage;
@@ -230,17 +230,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = var12 * var8;
                 var8 = var9.bind(var10)(var8, var11);
                 var6 = true;
- 225:
-                if(!var6) { _fun0002_ip = 234; continue _fun0002 }
- 228:
+case 11:
+                if(!var6) { _fun0002_ip = 9; continue _fun0002 }
+case 14:
                 var2['lastCPU'] = var5;
- 234:
-                if(!(var3 != var4)) { _fun0002_ip = 255; continue _fun0002 }
- 238:
+case 9:
+                if(!(var3 != var4)) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
                 var3 = var2.memoryHistogram;
                 var2 = var3.addSample;
                 var2 = var2.bind(var3)(var4);
- 255:
+case 15:
                 return var1;
             }
         };
@@ -254,11 +254,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = function* () {
             var1 = function* anon_0_() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0003_ip = 81; continue _fun0003 }
- 7: // try_start_0
+                    if(var2) { _fun0003_ip = 17; continue _fun0003 }
+case 18: // try_start_0
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
                     var2 = 5;
@@ -271,22 +271,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2['fallback'] = var5;
                     var2 = var3.bind(var4)(var2);
                     SaveGenerator(address=56);
- 54:
+case 19:
                     return var2;
- 56:
+case 20:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0003_ip = 71; continue _fun0003 }
- 62:
+                    if(var3) { _fun0003_ip = 21; continue _fun0003 }
+case 22:
                     var3 = var2.batteryLevel;
- 68: // try_end0
+case 23: // try_end0
                     return var3;
- 71:
+case 21:
                     return var2;
- 74: // catch_target0
+case 24: // catch_target0
                     CatchBlockStart(arg_register=1);
                     var2 = null;
                     return var2;
- 81:
+case 17:
                     return var1;
                 }
             };
@@ -312,27 +312,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = function* () {
             var1 = function* anon_0_() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                     StartGenerator();
                     var3 = this;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0004_ip = 44; continue _fun0004 }
- 10:
+                    if(var2) { _fun0004_ip = 25; continue _fun0004 }
+case 26:
                     var2 = var3.getCurrentBattery;
                     var2 = var2.bind(var3)();
                     SaveGenerator(address=24);
- 22:
+case 27:
                     return var2;
- 24:
+case 28:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0004_ip = 41; continue _fun0004 }
- 30:
+                    if(var4) { _fun0004_ip = 29; continue _fun0004 }
+case 30:
                     var3['lastBattery'] = var2;
                     var3 = undefined;
                     return var3;
- 41:
+case 29:
                     return var2;
- 44:
+case 25:
                     return var1;
                 }
             };
@@ -358,27 +358,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = function* () {
             var1 = function* anon_0_() {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
                     StartGenerator();
                     var6 = this;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0005_ip = 148; continue _fun0005 }
- 13:
+                    if(var2) { _fun0005_ip = 31; continue _fun0005 }
+case 32:
                     var2 = var6.getCurrentBattery;
                     var2 = var2.bind(var6)();
                     SaveGenerator(address=27);
- 25:
+case 33:
                     return var2;
- 27:
+case 34:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0005_ip = 145; continue _fun0005 }
- 33:
+                    if(var3) { _fun0005_ip = 35; continue _fun0005 }
+case 36:
                     var3 = var6.lastBattery;
                     var5 = null;
-                    if(!(var5 != var3)) { _fun0005_ip = 116; continue _fun0005 }
- 45:
-                    if(!(var5 != var2)) { _fun0005_ip = 116; continue _fun0005 }
- 49:
+                    if(!(var5 != var3)) { _fun0005_ip = 7; continue _fun0005 }
+case 37:
+                    if(!(var5 != var2)) { _fun0005_ip = 7; continue _fun0005 }
+case 38:
                     var3 = {};
                     var4 = var6.lastBattery;
                     var3['startBattery'] = var4;
@@ -393,19 +393,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var8.bind(var9)(var4);
                     var4 = var4 / var7;
                     var3['batteryUsageRounded'] = var4;
-                    _fun0005_ip = 142; continue _fun0005;
- 116:
+                    _fun0005_ip = 39; continue _fun0005;
+case 7:
                     var4 = {};
                     var6 = var6.lastBattery;
                     var4['startBattery'] = var6;
                     var4['currentBattery'] = var2;
                     var4['batteryUsageRounded'] = var5;
                     var3 = var4;
- 142:
+case 39:
                     return var3;
- 145:
+case 35:
                     return var2;
- 148:
+case 31:
                     return var1;
                 }
             };

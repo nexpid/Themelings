@@ -23,7 +23,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function() {
         var5 = function CollectiblesUserDiscountRecord(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var4 = arg1;
                 var3 = this;
                 var5 = _closure1_slot0;
@@ -38,8 +38,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = null;
                 var5 = var2 != var5;
                 var2 = undefined;
-                if(!var5) { _fun0001_ip = 103; continue _fun0001 }
- 69:
+                if(!var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var5 = global;
                 var6 = var5.Date;
                 var8 = var4.expires_at;
@@ -48,7 +48,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var9 = var5;
                 var4 = new var9[var6](var8, var7);
                 var2 = var4 instanceof Object ? var4 : var5;
- 103:
+case 2:
                 var3['expiresAt'] = var2;
                 return var1;
             }

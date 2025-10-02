@@ -51,7 +51,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function PremiumUpsellGradientBackground(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var7 = var1.useTier0UpsellContent;
             var1 = _closure1_slot4;
@@ -79,23 +79,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.END;
             var1['end'] = var5;
             var5 = true;
-            if(!(var5 !== var7)) { _fun0001_ip = 152; continue _fun0001 }
- 121:
+            if(!(var5 !== var7)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var7 = _closure1_slot0;
             var5 = _closure1_slot2;
             var5 = var5[var8];
             var5 = var7.bind(var4)(var5);
             var5 = var5.Gradients;
             var5 = var5.PREMIUM_TIER_2_TRI_COLOR;
-            _fun0001_ip = 181; continue _fun0001;
- 152:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var7 = _closure1_slot0;
             var6 = _closure1_slot2;
             var6 = var6[var8];
             var6 = var7.bind(var4)(var6);
             var6 = var6.Gradients;
             var5 = var6.PREMIUM_TIER_0;
- 181:
+case 4:
             var1['colors'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

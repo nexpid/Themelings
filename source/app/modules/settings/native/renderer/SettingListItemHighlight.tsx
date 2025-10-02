@@ -76,13 +76,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3[1] = var1;
         var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var1 = {};
                 var4 = _closure2_slot0;
                 var5 = undefined;
                 var3 = undefined;
-                if(!var4) { _fun0001_ip = 50; continue _fun0001 }
- 16:
+                if(!var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var6 = _closure1_slot1;
                 var7 = _closure1_slot2;
                 var4 = 5;
@@ -90,12 +90,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var6.bind(var5)(var4);
                 var4 = var4.radii;
                 var3 = var4.lg;
- 50:
+case 2:
                 var1['borderTopStartRadius'] = var3;
                 var4 = _closure2_slot0;
                 var3 = undefined;
-                if(!var4) { _fun0001_ip = 98; continue _fun0001 }
- 64:
+                if(!var4) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var6 = _closure1_slot1;
                 var7 = _closure1_slot2;
                 var4 = 5;
@@ -103,12 +103,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var6.bind(var5)(var4);
                 var4 = var4.radii;
                 var3 = var4.lg;
- 98:
+case 4:
                 var1['borderTopEndRadius'] = var3;
                 var4 = _closure2_slot1;
                 var3 = undefined;
-                if(!var4) { _fun0001_ip = 146; continue _fun0001 }
- 112:
+                if(!var4) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                 var6 = _closure1_slot1;
                 var7 = _closure1_slot2;
                 var4 = 5;
@@ -116,12 +116,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var6.bind(var5)(var4);
                 var4 = var4.radii;
                 var3 = var4.lg;
- 146:
+case 6:
                 var1['borderBottomStartRadius'] = var3;
                 var3 = _closure2_slot1;
                 var2 = undefined;
-                if(!var3) { _fun0001_ip = 194; continue _fun0001 }
- 160:
+                if(!var3) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
                 var4 = _closure1_slot1;
                 var6 = _closure1_slot2;
                 var3 = 5;
@@ -129,7 +129,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var4.bind(var5)(var3);
                 var3 = var3.radii;
                 var2 = var3.lg;
- 194:
+case 8:
                 var1['borderBottomEndRadius'] = var2;
                 return var1;
             }
@@ -202,10 +202,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8['easing'] = var7;
             var7 = function t(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var1 = arg1;
-                    if(!var1) { _fun0002_ip = 48; continue _fun0002 }
- 6:
+                    if(!var1) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var1 = 6;
@@ -215,7 +215,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var3.runOnJS;
                     var1 = _closure2_slot2;
                     var1 = var2.bind(var3)(var1);
- 48:
+case 10:
                     var1 = undefined;
                     return var1;
                 }

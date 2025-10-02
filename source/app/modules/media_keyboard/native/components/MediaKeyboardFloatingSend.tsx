@@ -164,20 +164,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var5.useAnimatedReaction;
             var3 = function c() {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     var3 = _closure3_slot2;
                     var1 = var3.get;
                     var3 = var1.bind(var3)();
                     var1 = 0.7;
                     var1 = var3 > var1;
-                    if(var1) { _fun0001_ip = 37; continue _fun0001 }
- 33:
+                    if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var1 = _closure3_slot5;
- 37:
-                    if(!var1) { _fun0001_ip = 44; continue _fun0001 }
- 40:
+case 2:
+                    if(!var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                     var1 = _closure3_slot3;
- 44:
+case 4:
                     return var1;
                 }
             };
@@ -219,7 +219,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var8.useAnimatedStyle;
         var3 = function x() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var1 = {};
                 var9 = _closure2_slot1;
                 var8 = _closure1_slot1;
@@ -246,10 +246,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var5.get;
                 var5 = var2.bind(var5)();
                 var2 = 0;
-                if(!var5) { _fun0002_ip = 119; continue _fun0002 }
- 116:
+                if(!var5) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                 var2 = 1;
- 119:
+case 6:
                 var2 = var3.bind(var4)(var2);
                 var1['opacity'] = var2;
                 return var1;
@@ -277,16 +277,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var8.useAnimatedProps;
         var3 = function V() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var1 = {};
                 var3 = _closure2_slot2;
                 var2 = var3.get;
                 var3 = var2.bind(var3)();
                 var2 = 'none';
-                if(!var3) { _fun0003_ip = 31; continue _fun0003 }
- 25:
+                if(!var3) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
                 var2 = 'box-none';
- 31:
+case 8:
                 var1['pointerEvents'] = var2;
                 return var1;
             }

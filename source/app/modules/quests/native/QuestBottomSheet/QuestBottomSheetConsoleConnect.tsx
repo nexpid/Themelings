@@ -46,7 +46,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot7 = var1;
     var1 = function ConsoleRow(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var1 = var3.onPress;
             var _closure2_slot0 = var1;
@@ -62,14 +62,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var6.type;
             var1 = _closure1_slot4;
             var1 = var1.PLAYSTATION;
-            if(!(var1 !== var2)) { _fun0001_ip = 299; continue _fun0001 }
- 66:
+            if(!(var1 !== var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = _closure1_slot4;
             var1 = var1.XBOX;
-            if(!(var1 !== var2)) { _fun0001_ip = 82; continue _fun0001 }
- 80:
+            if(!(var1 !== var2)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             return var8;
- 82:
+case 4:
             var4 = _closure1_slot6;
             var12 = _closure1_slot0;
             var9 = _closure1_slot2;
@@ -103,8 +103,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var6.account;
             var10 = var8 != var9;
             var9 = undefined;
-            if(!var10) { _fun0001_ip = 275; continue _fun0001 }
- 223:
+            if(!var10) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var13 = _closure1_slot0;
             var10 = _closure1_slot2;
             var11 = var10[var14];
@@ -116,7 +116,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var10.t;
             var10 = var10.u30/ur;
             var9 = var11.bind(var12)(var10);
- 275:
+case 6:
             var1['subLabel'] = var9;
             var9 = function onPress() {
                 var3 = _closure2_slot0;
@@ -128,7 +128,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['onPress'] = var9;
             var1 = var4.bind(var3)(var2, var1);
             return var1;
- 299:
+case 2:
             var4 = _closure1_slot6;
             var13 = _closure1_slot0;
             var9 = _closure1_slot2;
@@ -162,8 +162,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.account;
             var8 = var8 != var6;
             var6 = undefined;
-            if(!var8) { _fun0001_ip = 494; continue _fun0001 }
- 442:
+            if(!var8) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var10 = _closure1_slot0;
             var7 = _closure1_slot2;
             var8 = var7[var11];
@@ -175,7 +175,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7.t;
             var7 = var7.u30/ur;
             var6 = var8.bind(var9)(var7);
- 494:
+case 8:
             var1['subLabel'] = var6;
             var5 = function onPress() {
                 var3 = _closure2_slot0;
@@ -349,12 +349,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['consoles'] = var6;
         var5 = function onConsoleSelect(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var5 = arg1;
                 var2 = var5.account;
                 var1 = null;
-                if(!(var1 == var2)) { _fun0002_ip = 178; continue _fun0002 }
- 18:
+                if(!(var1 == var2)) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
                 var7 = _closure2_slot4;
                 var3 = {};
                 var1 = _closure2_slot0;
@@ -391,7 +391,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2['onClose'] = var4;
                 var2 = var3.bind(var1)(var2);
                 return var1;
- 178:
+case 10:
                 var6 = _closure2_slot4;
                 var1 = {};
                 var2 = _closure2_slot0;

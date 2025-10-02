@@ -29,7 +29,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function openPrivacySettings() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 1;
@@ -38,14 +38,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.bind(var1)(var3);
             var3 = var4.isAndroid;
             var3 = var3.bind(var4)();
-            if(var3) { _fun0001_ip = 61; continue _fun0001 }
- 37:
+            if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = _closure1_slot3;
             var4 = var3.DeviceSettingsManager;
             var3 = var4.openPrivacySettings;
             var3 = var3.bind(var4)();
-            _fun0001_ip = 91; continue _fun0001;
- 61:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
             var2 = 2;
@@ -53,7 +53,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var1)(var2);
             var2 = var3.openPrivacySettings;
             var2 = var2.bind(var3)();
- 91:
+case 4:
             return var1;
         }
     };

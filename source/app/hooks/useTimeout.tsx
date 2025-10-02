@@ -50,14 +50,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3[1] = var5;
         var2 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var4 = _closure2_slot1;
                 var3 = null;
-                if(!(var3 === var4)) { _fun0001_ip = 19; continue _fun0001 }
- 15:
+                if(!(var3 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var3 = undefined;
                 return var3;
- 19:
+case 2:
                 var3 = global;
                 var5 = var3.setTimeout;
                 var4 = _closure2_slot1;

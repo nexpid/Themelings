@@ -91,7 +91,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot9 = var1;
     var1 = function HasCreatedListingsSection(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = var1.guild;
             var _closure2_slot0 = var2;
@@ -232,8 +232,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = 'guild-role-subscriptions-tiers';
             var8 = var15.bind(var4)(var11, var9, var8);
             var5[1] = var8;
-            if(!var7) { _fun0001_ip = 746; continue _fun0001 }
- 549:
+            if(!var7) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var15 = _closure1_slot7;
             var16 = _closure1_slot0;
             var20 = _closure1_slot2;
@@ -287,7 +287,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9['onPress'] = var8;
             var8 = 'guild-role-subscriptions-payments';
             var7 = var15.bind(var4)(var11, var9, var8);
- 746:
+case 2:
             var5[2] = var7;
             var9 = _closure1_slot7;
             var11 = _closure1_slot0;
@@ -389,7 +389,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function GuildSettingsRoleSubscriptionsSection(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var7 = var1.guild;
             var8 = var1.pushScreen;
@@ -408,35 +408,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var7.id;
             var4 = var2.bind(var4)(var1);
             var1 = null;
-            if(!var5) { _fun0002_ip = 168; continue _fun0002 }
- 83:
+            if(!var5) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var10 = var7.features;
             var9 = var10.has;
             var5 = _closure1_slot5;
             var5 = var5.ROLE_SUBSCRIPTIONS_ENABLED;
             var5 = var9.bind(var10)(var5);
-            if(var5) { _fun0002_ip = 140; continue _fun0002 }
- 112:
+            if(var5) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var2 = null;
-            if(var4) { _fun0002_ip = 138; continue _fun0002 }
- 117:
+            if(var4) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var9 = _closure1_slot7;
             var5 = _closure1_slot9;
             var4 = {};
             var4['pushScreen'] = var8;
             var2 = var9.bind(var6)(var5, var4);
- 138:
-            _fun0002_ip = 165; continue _fun0002;
- 140:
+case 8:
+            _fun0002_ip = 10; continue _fun0002;
+case 6:
             var5 = _closure1_slot7;
             var4 = _closure1_slot10;
             var3 = {};
             var3['pushScreen'] = var8;
             var3['guild'] = var7;
             var2 = var5.bind(var6)(var4, var3);
- 165:
+case 10:
             var1 = var2;
- 168:
+case 4:
             return var1;
         }
     };

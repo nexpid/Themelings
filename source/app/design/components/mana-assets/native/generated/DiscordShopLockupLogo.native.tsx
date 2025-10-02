@@ -34,15 +34,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function DiscordShopLockupLogo(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var7 = var1.accessible;
             var6 = var1.accessibilityLabel;
             var5 = var1.resizeMode;
             var3 = var1.color;
             var4 = undefined;
-            if(!(var3 === var4)) { _fun0001_ip = 65; continue _fun0001 }
- 31:
+            if(!(var3 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var8 = _closure1_slot1;
             var9 = _closure1_slot2;
             var2 = 2;
@@ -50,17 +50,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var8.bind(var4)(var2);
             var2 = var2.colors;
             var3 = var2.ICON_PRIMARY;
- 65:
+case 2:
             var11 = var1.width;
-            if(!(var11 === var4)) { _fun0001_ip = 80; continue _fun0001 }
- 74:
+            if(!(var11 === var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var11 = 256;
- 80:
+case 4:
             var8 = var1.height;
-            if(!(var8 === var4)) { _fun0001_ip = 92; continue _fun0001 }
- 89:
+            if(!(var8 === var4)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var8 = 30;
- 92:
+case 6:
             var2 = _closure1_slot0;
             var9 = _closure1_slot2;
             var1 = 3;
@@ -69,27 +69,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2.useToken;
             var2 = var1.bind(var2)(var3);
             var1 = null;
-            if(!(var1 == var2)) { _fun0001_ip = 167; continue _fun0001 }
- 132:
+            if(!(var1 == var2)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var1 = var1 != var3;
-            if(!var1) { _fun0001_ip = 150; continue _fun0001 }
- 139:
+            if(!var1) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var10 = 'string';
             var9 = typeof var3;
             var1 = var10 === var9;
- 150:
+case 10:
             var9 = undefined;
-            if(!var1) { _fun0001_ip = 177; continue _fun0001 }
- 155:
+            if(!var1) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var1 = {};
             var1['tintColor'] = var3;
             var9 = var1;
-            _fun0001_ip = 177; continue _fun0001;
- 167:
+            _fun0001_ip = 12; continue _fun0001;
+case 8:
             var1 = {};
             var1['tintColor'] = var2;
             var9 = var1;
- 177:
+case 12:
             var3 = _closure1_slot4;
             var2 = _closure1_slot3;
             var1 = {};

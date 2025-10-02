@@ -57,7 +57,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function TouchableBackground(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var6 = arg1;
             var11 = var6.activeBackgroundColor;
             var15 = var6.pressableStyle;
@@ -96,19 +96,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[0] = var2;
             var2 = function(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var4 = _closure2_slot2;
                     var1 = undefined;
                     var3 = true;
                     var3 = var4.bind(var1)(var3);
                     var4 = _closure2_slot0;
                     var3 = null;
-                    if(!(var3 != var4)) { _fun0002_ip = 38; continue _fun0002 }
- 26:
+                    if(!(var3 != var4)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var3 = _closure2_slot0;
                     var2 = arg1;
                     var2 = var3.bind(var1)(var2);
- 38:
+case 2:
                     return var1;
                 }
             };
@@ -118,16 +118,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[0] = var16;
             var1 = function(arg1) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var3 = _closure2_slot1;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0003_ip = 27; continue _fun0003 }
- 13:
+                    if(!(var2 != var3)) { _fun0003_ip = 4; continue _fun0003 }
+case 5:
                     var4 = _closure2_slot1;
                     var3 = undefined;
                     var2 = arg1;
                     var2 = var4.bind(var3)(var2);
- 27:
+case 4:
                     var3 = _closure2_slot2;
                     var1 = undefined;
                     var2 = false;
@@ -153,17 +153,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = {};
             var8 = new Array(2);
             var8[0] = var10;
-            if(!var9) { _fun0001_ip = 285; continue _fun0001 }
- 262:
+            if(!var9) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var10 = {};
-            if(!(var13 == var11)) { _fun0001_ip = 278; continue _fun0001 }
- 268:
+            if(!(var13 == var11)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var12 = var12.default;
             var11 = var12.backgroundColor;
- 278:
+case 8:
             var10['backgroundColor'] = var11;
             var9 = var10;
- 285:
+case 6:
             var8[1] = var9;
             var5['style'] = var8;
             var5['children'] = var7;

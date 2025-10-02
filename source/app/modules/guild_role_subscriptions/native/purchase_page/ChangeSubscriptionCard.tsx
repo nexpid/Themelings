@@ -83,7 +83,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function ChangeSubscriptionCard(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = var2.activeSubscription;
             var _closure2_slot0 = var1;
@@ -217,8 +217,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var7.bind(var4)(var12, var9);
             var8[2] = var9;
             var9 = null;
-            if(!(var11 !== var10)) { _fun0001_ip = 783; continue _fun0001 }
- 623:
+            if(!(var11 !== var10)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var12 = _closure1_slot8;
             var11 = _closure1_slot9;
             var10 = {};
@@ -282,7 +282,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13[1] = var14;
             var10['children'] = var13;
             var9 = var12.bind(var4)(var11, var10);
- 783:
+case 2:
             var8[3] = var9;
             var5['children'] = var8;
             var5 = var7.bind(var4)(var6, var5);

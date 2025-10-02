@@ -24,7 +24,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function getUpdatedOptions(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var1 = {};
             var12 = var1;
@@ -35,10 +35,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var7 == var4;
             var6 = undefined;
             var2 = undefined;
-            if(var5) { _fun0001_ip = 36; continue _fun0001 }
- 30:
+            if(var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var4.extra;
- 36:
+case 2:
             var12 = var3;
             var11 = var2;
             var2 = copyDataProperties(var12, var11);
@@ -49,11 +49,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5[var10];
             var5 = var8.bind(var6)(var5);
             var5 = var5._currentDispatchActionType;
-            if(!(var7 == var5)) { _fun0001_ip = 84; continue _fun0001 }
- 80:
+            if(!(var7 == var5)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = {};
-            _fun0001_ip = 119; continue _fun0001;
- 84:
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
             var7 = {};
             var9 = _closure1_slot1;
             var8 = _closure1_slot2;
@@ -62,7 +62,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var8._currentDispatchActionType;
             var7['currentAction'] = var8;
             var5 = var7;
- 119:
+case 6:
             var12 = var2;
             var11 = var5;
             var5 = copyDataProperties(var12, var11);

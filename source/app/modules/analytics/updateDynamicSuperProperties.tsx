@@ -24,7 +24,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function updateDynamicSuperProperties() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
             var6 = 0;
@@ -42,20 +42,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = null;
             var10 = var7 == var9;
             var3 = undefined;
-            if(var10) { _fun0001_ip = 75; continue _fun0001 }
- 69:
+            if(var10) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = var9.uuid;
- 75:
+case 2:
             var10 = var7 == var8;
             var9 = undefined;
-            if(var10) { _fun0001_ip = 90; continue _fun0001 }
- 84:
+            if(var10) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var9 = var8.client_heartbeat_session_id;
- 90:
-            if(!(var3 !== var9)) { _fun0001_ip = 100; continue _fun0001 }
- 94:
+case 4:
+            if(!(var3 !== var9)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var4['client_heartbeat_session_id'] = var3;
- 100:
+case 6:
             var9 = _closure1_slot1;
             var10 = _closure1_slot2;
             var3 = 2;
@@ -65,28 +65,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var9)();
             var9 = var7 == var8;
             var7 = undefined;
-            if(var9) { _fun0001_ip = 145; continue _fun0001 }
- 139:
+            if(var9) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var7 = var8.client_app_state;
- 145:
-            if(!(var3 !== var7)) { _fun0001_ip = 155; continue _fun0001 }
- 149:
+case 8:
+            if(!(var3 !== var7)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var4['client_app_state'] = var3;
- 155:
+case 10:
             var3 = global;
             var7 = var3.Object;
             var3 = var7.keys;
             var3 = var3.bind(var7)(var4);
             var3 = var3.length;
-            if(!(var3 > var6)) { _fun0001_ip = 210; continue _fun0001 }
- 182:
+            if(!(var3 > var6)) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var5];
             var3 = var3.bind(var1)(var2);
             var2 = var3.extendSuperProperties;
             var2 = var2.bind(var3)(var4);
- 210:
+case 12:
             return var1;
         }
     };

@@ -1,7 +1,7 @@
 // app/modules/user_settings/native/appearance/components/SettingsAppearanceGradientBackground.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
         var5 = require;
         var8 = metroImportDefault;
         var3 = exports;
@@ -45,10 +45,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10 = var11.bind(var12)(var10);
         var11 = null;
         var11 = var11 != var10;
-        if(!var11) { _fun0001_ip = 178; continue _fun0001 }
- 175:
+        if(!var11) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
         var9 = var10;
- 178:
+case 2:
         var4 = var6[var4];
         var10 = var8.bind(var1)(var4);
         var8 = var10.createAnimatedComponent;
@@ -91,7 +91,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[2] = var2;
             var2 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var1 = 6;
@@ -102,18 +102,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = _closure2_slot1;
                     var8 = _closure2_slot0;
                     var3 = undefined;
-                    if(!var8) { _fun0002_ip = 57; continue _fun0002 }
- 47:
+                    if(!var8) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var8 = _closure1_slot5;
                     var3 = var8.BACKGROUND_GRADIENT_DARK_OPACITY;
- 57:
+case 4:
                     var8 = _closure2_slot0;
                     var2 = undefined;
-                    if(!var8) { _fun0002_ip = 76; continue _fun0002 }
- 66:
+                    if(!var8) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var7 = _closure1_slot5;
                     var2 = var7.BACKGROUND_GRADIENT_LIGHT_OPACITY;
- 76:
+case 6:
                     var2 = var5.bind(var6)(var4, var3, var2);
                     var1 = _closure2_slot2;
                     var1 = var2[var1];
@@ -123,7 +123,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.bind(var7)(var2, var3);
             var2 = function useThemeStateTracker(arg1) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var8 = arg1;
                     var3 = _closure1_slot0;
                     var5 = _closure1_slot2;
@@ -135,10 +135,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = var2.bind(var3)();
                     var3 = var8.theme;
                     var2 = 'system';
-                    if(!(var2 === var3)) { _fun0003_ip = 57; continue _fun0003 }
- 54:
+                    if(!(var2 === var3)) { _fun0003_ip = 4; continue _fun0003 }
+case 8:
                     var8 = var7;
- 57:
+case 4:
                     var _closure3_slot0 = var8;
                     var5 = _closure1_slot0;
                     var9 = _closure1_slot2;
@@ -245,17 +245,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.useAnimatedProps;
             var1 = function P() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                     var3 = _closure2_slot5;
                     var1 = var3.get;
                     var1 = var1.bind(var3)();
                     var8 = var1.width;
                     var4 = var1.height;
                     var7 = 0;
-                    if(!(var7 !== var8)) { _fun0004_ip = 349; continue _fun0004 }
- 37:
-                    if(!(var7 !== var4)) { _fun0004_ip = 349; continue _fun0004 }
- 44:
+                    if(!(var7 !== var8)) { _fun0004_ip = 9; continue _fun0004 }
+case 10:
+                    if(!(var7 !== var4)) { _fun0004_ip = 9; continue _fun0004 }
+case 11:
                     var3 = _closure2_slot3;
                     var1 = var3.get;
                     var1 = var1.bind(var3)();
@@ -293,7 +293,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var9 = var5.map;
                     var3 = function(arg1, arg2) {
                         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
                             var8 = arg2;
                             var5 = _closure1_slot0;
                             var6 = _closure1_slot2;
@@ -323,10 +323,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var1 = null;
                             var3 = var1 != var2;
                             var1 = 0;
-                            if(!var3) { _fun0005_ip = 142; continue _fun0005 }
- 139:
+                            if(!var3) { _fun0005_ip = 12; continue _fun0005 }
+case 13:
                             var1 = var2;
- 142:
+case 12:
                             return var1;
                         }
                     };
@@ -390,7 +390,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2['y'] = var3;
                     var1['endPoint'] = var2;
                     return var1;
- 349:
+case 9:
                     var1 = _closure1_slot8;
                     return var1;
                 }

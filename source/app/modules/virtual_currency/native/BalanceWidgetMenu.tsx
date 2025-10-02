@@ -70,7 +70,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function BalanceWidgetMenu(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var6 = var2.style;
             var12 = _closure1_slot0;
@@ -269,10 +269,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var7.bind(var8)(var5);
             var1['accessibilityLabel'] = var5;
             var5 = var14;
-            if(!var9) { _fun0001_ip = 230; continue _fun0001 }
- 227:
+            if(!var9) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = var13;
- 230:
+case 2:
             var1['onPress'] = var5;
             var7 = var11.pressable;
             var5 = new Array(2);
@@ -307,8 +307,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var11.pill;
             var6['style'] = var11;
             var12 = _closure1_slot7;
-            if(var9) { _fun0001_ip = 440; continue _fun0001 }
- 395:
+            if(var9) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var11 = _closure1_slot0;
             var16 = _closure1_slot2;
             var9 = 19;
@@ -319,8 +319,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9['balance'] = var15;
             var9['onPress'] = var14;
             var9 = var12.bind(var4)(var11, var9);
-            _fun0001_ip = 472; continue _fun0001;
- 440:
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
             var11 = _closure1_slot1;
             var14 = _closure1_slot2;
             var10 = 18;
@@ -329,7 +329,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = {};
             var10['onPress'] = var13;
             var9 = var12.bind(var4)(var11, var10);
- 472:
+case 6:
             var6['children'] = var9;
             var6 = var8.bind(var4)(var7, var6);
             var5[1] = var6;

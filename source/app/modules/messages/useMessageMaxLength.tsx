@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function getMaxMessageLength_(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arg1;
             var4 = _closure1_slot1;
             var3 = _closure1_slot2;
@@ -21,13 +21,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var5.getCurrentUser;
             var1 = var1.bind(var5)();
             var1 = var3.bind(var4)(var1);
-            if(var1) { _fun0001_ip = 57; continue _fun0001 }
- 51:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = _closure1_slot5;
-            _fun0001_ip = 61; continue _fun0001;
- 57:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var1 = _closure1_slot4;
- 61:
+case 4:
             return var1;
         }
     };

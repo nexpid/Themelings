@@ -8,8 +8,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var6;
     var1 = function _isNativeReflectConstruct() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
- 2: // try_start_0
+case 0:
+case 2: // try_start_0
             var2 = global;
             var3 = var2.Boolean;
             var3 = var3.prototype;
@@ -27,11 +27,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var4)(var2);
             var2 = !var2;
             var _closure2_slot0 = var2;
- 70: // try_end0
-            _fun0001_ip = 74; continue _fun0001;
- 72: // catch_target0
+case 3: // try_end0
+            _fun0001_ip = 4; continue _fun0001;
+case 5: // catch_target0
             CatchBlockStart(arg_register=1);
- 74:
+case 4:
             var2 = function _isNativeReflectConstruct() {
                 var1 = _closure2_slot0;
                 var1 = !var1;
@@ -90,7 +90,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function(arg1) {
         var4 = function WindowProxySocket(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var12 = this;
                 var10 = var1.origin;
@@ -116,12 +116,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var11 = _closure1_slot4;
                 var2 = _closure1_slot9;
                 var2 = var2.bind(var4)();
-                if(var2) { _fun0002_ip = 138; continue _fun0002 }
- 125:
+                if(var2) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                 var2 = var16.apply;
                 var2 = var2.bind(var16)(var12, var17);
-                _fun0002_ip = 172; continue _fun0002;
- 138:
+                _fun0002_ip = 8; continue _fun0002;
+case 6:
                 var13 = global;
                 var15 = var13.Reflect;
                 var14 = var15.construct;
@@ -129,17 +129,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var13 = var13.bind(var4)(var12);
                 var13 = var13.constructor;
                 var2 = var14.bind(var15)(var16, var17, var13);
- 172:
+case 8:
                 var2 = var11.bind(var4)(var12, var2);
                 var12 = ['etf', 'json'];
                 var11 = var12.indexOf;
                 var12 = var11.bind(var12)(var5);
                 var11 = -1;
-                if(!(var11 !== var12)) { _fun0002_ip = 336; continue _fun0002 }
- 212:
+                if(!(var11 !== var12)) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
                 var11 = 'etf';
-                if(!(var11 !== var5)) { _fun0002_ip = 268; continue _fun0002 }
- 222:
+                if(!(var11 !== var5)) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
                 var2['origin'] = var10;
                 var2['postMessageToRPCClient'] = var9;
                 var2['frameId'] = var8;
@@ -149,7 +149,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = false;
                 var2['closed'] = var3;
                 return var2;
- 268:
+case 11:
                 var3 = _closure1_slot0;
                 var6 = _closure1_slot1;
                 var2 = 7;
@@ -167,7 +167,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = new var21[var7](var20, var19, var18);
                 var2 = var2 instanceof Object ? var2 : var3;
                 throw var2;
- 336:
+case 9:
                 var3 = _closure1_slot0;
                 var6 = _closure1_slot1;
                 var2 = 7;
@@ -202,17 +202,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5['key'] = var1;
         var1 = function value(arg1) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var2 = arg1;
                 var5 = this;
                 var4 = var5.onSendingToRPCClient;
                 var1 = null;
-                if(!(var1 != var4)) { _fun0003_ip = 35; continue _fun0003 }
- 18:
+                if(!(var1 != var4)) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
                 var3 = var4.call;
                 var1 = var5.id;
                 var1 = var3.bind(var4)(var5, var2, var1);
- 35:
+case 13:
                 var4 = var5.postMessageToRPCClient;
                 var6 = _closure1_slot0;
                 var3 = _closure1_slot1;
@@ -237,11 +237,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5['key'] = var7;
         var6 = function value(arg1, arg2) {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                 var2 = this;
                 var1 = var2.closed;
-                if(var1) { _fun0004_ip = 53; continue _fun0004 }
- 12:
+                if(var1) { _fun0004_ip = 15; continue _fun0004 }
+case 16:
                 var5 = var2.postClose;
                 var4 = var2.origin;
                 var3 = {};
@@ -251,7 +251,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3['message'] = var1;
                 var1 = var2.postMessageToRPCClient;
                 var1 = var5.bind(var2)(var4, var3, var1);
- 53:
+case 15:
                 var1 = true;
                 var2['closed'] = var1;
                 var1 = undefined;

@@ -24,7 +24,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function navigateToThreadCreation(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var5 = _closure1_slot1;
             var6 = _closure1_slot2;
@@ -43,8 +43,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var2.guild_id;
             var4 = var2.id;
             var4 = var6.bind(var7)(var5, var4);
-            if(var4) { _fun0001_ip = 120; continue _fun0001 }
- 84:
+            if(var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = _closure1_slot0;
             var5 = _closure1_slot2;
             var3 = 2;
@@ -53,7 +53,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.transitionToChannel;
             var2 = var2.id;
             var2 = var3.bind(var4)(var2);
- 120:
+case 2:
             return var1;
         }
     };

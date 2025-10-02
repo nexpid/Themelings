@@ -20,7 +20,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var4.bind(var5)(var2);
     var2 = function getTimeFormat(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg2;
             var1 = arg1;
             var1 = var1 | 0;
@@ -32,14 +32,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var2 == var3;
             var4 = undefined;
             var1 = undefined;
-            if(var6) { _fun0001_ip = 43; continue _fun0001 }
- 37:
+            if(var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var3.padMinutes;
- 43:
-            if(!(var2 != var1)) { _fun0001_ip = 50; continue _fun0001 }
- 47:
-            if(var1) { _fun0001_ip = 123; continue _fun0001 }
- 50:
+case 2:
+            if(!(var2 != var1)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            if(var1) { _fun0001_ip = 6; continue _fun0001 }
+case 4:
             var1 = global;
             var2 = var1.String;
             var7 = var2.bind(var4)(var5);
@@ -54,8 +54,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = '';
             var1 = ':';
             var1 = var3.bind(var2)(var7, var1, var6);
-            _fun0001_ip = 206; continue _fun0001;
- 123:
+            _fun0001_ip = 7; continue _fun0001;
+case 6:
             var2 = global;
             var3 = var2.String;
             var6 = var3.bind(var4)(var5);
@@ -72,7 +72,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = '';
             var2 = ':';
             var1 = var4.bind(var3)(var6, var2, var5);
- 206:
+case 7:
             return var1;
         }
     };

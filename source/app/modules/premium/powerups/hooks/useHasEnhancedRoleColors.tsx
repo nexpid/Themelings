@@ -45,21 +45,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[0] = var5;
         var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var4 = _closure1_slot2;
                 var3 = var4.getGuild;
                 var1 = _closure2_slot0;
                 var3 = var3.bind(var4)(var1);
                 var1 = null;
                 var1 = var1 != var3;
-                if(!var1) { _fun0001_ip = 59; continue _fun0001 }
- 33:
+                if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var4 = var3.features;
                 var3 = var4.has;
                 var2 = _closure1_slot3;
                 var2 = var2.ENHANCED_ROLE_COLORS;
                 var1 = var3.bind(var4)(var2);
- 59:
+case 2:
                 return var1;
             }
         };
@@ -69,25 +69,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['default'] = var4;
     var4 = function getHasEnhancedRoleColors(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var5 = arg1;
             var1 = null;
-            if(!(var1 != var5)) { _fun0002_ip = 61; continue _fun0002 }
- 9:
+            if(!(var1 != var5)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var4 = _closure1_slot2;
             var3 = var4.getGuild;
             var3 = var3.bind(var4)(var5);
             var1 = var1 != var3;
-            if(!var1) { _fun0002_ip = 59; continue _fun0002 }
- 33:
+            if(!var1) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
             var4 = var3.features;
             var3 = var4.has;
             var2 = _closure1_slot3;
             var2 = var2.ENHANCED_ROLE_COLORS;
             var1 = var3.bind(var4)(var2);
- 59:
+case 2:
             return var1;
- 61:
+case 4:
             var1 = false;
             return var1;
         }
@@ -108,21 +108,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[0] = var5;
         var1 = function() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var4 = _closure1_slot2;
                 var3 = var4.getGuild;
                 var1 = _closure2_slot0;
                 var3 = var3.bind(var4)(var1);
                 var1 = null;
                 var1 = var1 != var3;
-                if(!var1) { _fun0003_ip = 59; continue _fun0003 }
- 33:
+                if(!var1) { _fun0003_ip = 2; continue _fun0003 }
+case 3:
                 var4 = var3.features;
                 var3 = var4.has;
                 var2 = _closure1_slot3;
                 var2 = var2.ENHANCED_ROLE_COLORS;
                 var1 = var3.bind(var4)(var2);
- 59:
+case 2:
                 return var1;
             }
         };
@@ -132,21 +132,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['useHasEnhancedRoleColorsForRole'] = var4;
     var2 = function getHasEnhancedRoleColorsForRole(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var4 = _closure1_slot2;
             var3 = var4.getGuild;
             var1 = arg1;
             var3 = var3.bind(var4)(var1);
             var1 = null;
             var1 = var1 != var3;
-            if(!var1) { _fun0004_ip = 55; continue _fun0004 }
- 29:
+            if(!var1) { _fun0004_ip = 6; continue _fun0004 }
+case 7:
             var4 = var3.features;
             var3 = var4.has;
             var2 = _closure1_slot3;
             var2 = var2.ENHANCED_ROLE_COLORS;
             var1 = var3.bind(var4)(var2);
- 55:
+case 6:
             return var1;
         }
     };

@@ -59,7 +59,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function NewUserSettingsVoice() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = _closure1_slot7;
             var4 = undefined;
             var15 = var1.bind(var4)();
@@ -128,8 +128,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var11.bind(var4)(var10);
             var10 = var11.isAndroid;
             var10 = var10.bind(var11)();
-            if(!var10) { _fun0001_ip = 318; continue _fun0001 }
- 286:
+            if(!var10) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var13 = _closure1_slot5;
             var12 = _closure1_slot1;
             var14 = _closure1_slot2;
@@ -138,7 +138,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var12.bind(var4)(var11);
             var11 = {};
             var10 = var13.bind(var4)(var12, var11);
- 318:
+case 2:
             var8[4] = var10;
             var11 = _closure1_slot5;
             var13 = _closure1_slot1;

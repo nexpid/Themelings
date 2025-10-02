@@ -57,7 +57,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function UserProfileEditFormTextField(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var8 = var3.label;
             var16 = var3.description;
@@ -65,8 +65,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var3.containerStyle;
             var10 = var3.clearButtonVisibility;
             var4 = undefined;
-            if(!(var10 === var4)) { _fun0001_ip = 72; continue _fun0001 }
- 37:
+            if(!(var10 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = _closure1_slot0;
             var7 = _closure1_slot1;
             var1 = 4;
@@ -74,7 +74,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2.bind(var4)(var1);
             var1 = var1.ClearButtonVisibility;
             var10 = var1.WITH_CONTENT;
- 72:
+case 2:
             var7 = var3.multiline;
             var15 = var3.scrollTargetRef;
             var2 = {'label': 0, 'description': 0, 'errorMessage': 0, 'containerStyle': 0, 'clearButtonVisibility': 0, 'multiline': 0, 'scrollTargetRef': 0};
@@ -101,14 +101,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.ClearButtonVisibility;
             var12 = var2.NEVER;
             var2 = undefined;
-            if(!(var10 !== var12)) { _fun0001_ip = 210; continue _fun0001 }
- 196:
+            if(!(var10 !== var12)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var12 = true;
             var2 = undefined;
-            if(!(var12 !== var7)) { _fun0001_ip = 210; continue _fun0001 }
- 204:
+            if(!(var12 !== var7)) { _fun0001_ip = 4; continue _fun0001 }
+case 6:
             var2 = var3.withClearButton;
- 210:
+case 4:
             var9[1] = var2;
             var3 = _closure1_slot3;
             var12 = _closure1_slot0;
@@ -141,10 +141,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var12.isAndroid;
             var12 = var11.bind(var12)();
             var11 = undefined;
-            if(var12) { _fun0001_ip = 346; continue _fun0001 }
- 343:
+            if(var12) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var11 = var8;
- 346:
+case 7:
             var8 = 'accessibilityLabel';
             var5[var8] = var11;
             var8 = 'clearButtonVisibility';
@@ -159,17 +159,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = 'style';
             var5[var8] = var9;
             var9 = 'center';
-            if(!var7) { _fun0001_ip = 413; continue _fun0001 }
- 409:
+            if(!var7) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var9 = 'top';
- 413:
+case 9:
             var8 = 'textAlignVertical';
             var5[var8] = var9;
             var8 = 'done';
-            if(!var7) { _fun0001_ip = 433; continue _fun0001 }
- 429:
+            if(!var7) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var8 = 'default';
- 433:
+case 11:
             var7 = 'returnKeyType';
             var5[var7] = var8;
             var5 = var3.bind(var4)(var6, var5);

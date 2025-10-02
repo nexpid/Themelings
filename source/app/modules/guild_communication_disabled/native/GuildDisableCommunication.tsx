@@ -323,11 +323,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = function* () {
                 var1 = function* anon_0_() {
                     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0001_ip = 297; continue _fun0001 }
- 10:
+                        if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                         var4 = _closure1_slot1;
                         var3 = _closure1_slot2;
                         var2 = 14;
@@ -347,12 +347,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var22 = var10;
                         var2 = var22[var9](var21, var20, var19, var18, var17);
                         SaveGenerator(address=94);
- 92:
+case 4:
                         return var2;
- 94:
+case 5:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                        if(var5) { _fun0001_ip = 294; continue _fun0001 }
- 103:
+                        if(var5) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                         var14 = _closure1_slot1;
                         var15 = _closure1_slot2;
                         var5 = 15;
@@ -383,10 +383,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var14 = var16.bind(var17)(var15, var13, var14);
                         var15 = var13 != var14;
                         var13 = '';
-                        if(!var15) { _fun0001_ip = 240; continue _fun0001 }
- 237:
+                        if(!var15) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
                         var13 = var14;
- 240:
+case 8:
                         var9['user'] = var13;
                         var9 = var11.bind(var12)(var10, var9);
                         var5['content'] = var9;
@@ -400,9 +400,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var4 = _closure2_slot2;
                         var4 = var4.bind(var3)();
                         return var3;
- 294:
+case 6:
                         return var2;
- 297:
+case 2:
                         return var1;
                     }
                 };

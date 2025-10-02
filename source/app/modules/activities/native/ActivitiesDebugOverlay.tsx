@@ -63,7 +63,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function ActivitiesDebugOverlay() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = _closure1_slot1;
             var1 = _closure1_slot2;
             var6 = 5;
@@ -78,8 +78,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.UNHANDLED;
             var10 = '';
             var11 = 'always-white';
-            if(!(var1 !== var3)) { _fun0001_ip = 258; continue _fun0001 }
- 71:
+            if(!(var1 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = _closure1_slot0;
             var1 = _closure1_slot2;
             var1 = var1[var6];
@@ -88,8 +88,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.NOMINAL;
             var10 = 'nominal';
             var11 = 'text-positive';
-            if(!(var1 !== var3)) { _fun0001_ip = 258; continue _fun0001 }
- 119:
+            if(!(var1 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var2 = _closure1_slot0;
             var1 = _closure1_slot2;
             var1 = var1[var6];
@@ -98,8 +98,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.FAIR;
             var10 = 'fair';
             var11 = 'text-warning';
-            if(!(var1 !== var3)) { _fun0001_ip = 258; continue _fun0001 }
- 164:
+            if(!(var1 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 5:
             var2 = _closure1_slot0;
             var1 = _closure1_slot2;
             var1 = var1[var6];
@@ -109,8 +109,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = 'serious';
             var1 = 'text-danger';
             var11 = var1;
-            if(!(var2 !== var3)) { _fun0001_ip = 258; continue _fun0001 }
- 212:
+            if(!(var2 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 6:
             var5 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var6];
@@ -119,11 +119,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.CRITICAL;
             var10 = undefined;
             var11 = undefined;
-            if(!(var2 === var3)) { _fun0001_ip = 258; continue _fun0001 }
- 249:
+            if(!(var2 === var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 7:
             var10 = 'critical';
             var11 = var1;
- 258:
+case 2:
             var2 = _closure1_slot1;
             var13 = _closure1_slot2;
             var1 = 6;

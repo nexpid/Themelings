@@ -225,25 +225,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var3.useAnimatedStyle;
         var1 = function L() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var1 = {};
                 var4 = _closure2_slot5;
                 var2 = var4.get;
                 var2 = var2.bind(var4)();
-                if(var2) { _fun0001_ip = 43; continue _fun0001 }
- 21:
+                if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var4 = _closure2_slot6;
                 var2 = var4.get;
                 var4 = var2.bind(var4)();
                 var2 = '100%';
-                if(var4) { _fun0001_ip = 65; continue _fun0001 }
- 43:
+                if(var4) { _fun0001_ip = 4; continue _fun0001 }
+case 2:
                 var4 = _closure2_slot3;
                 var4 = var4.height;
                 var3 = _closure2_slot4;
                 var3 = var3.top;
                 var2 = var4 - var3;
- 65:
+case 4:
                 var1['height'] = var2;
                 return var1;
             }

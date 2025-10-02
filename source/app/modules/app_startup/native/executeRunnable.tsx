@@ -79,11 +79,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = function* () {
             var1 = function* anon_0_() {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 247; continue _fun0001 }
- 10:
+                    if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var3 = _closure1_slot0;
                     var5 = _closure1_slot3;
                     var2 = 5;
@@ -101,21 +101,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = _closure1_slot5;
                     var2 = var3.bind(var5)(var2);
                     SaveGenerator(address=86);
- 84:
+case 4:
                     return var2;
- 86:
+case 5:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0001_ip = 244; continue _fun0001 }
- 95:
+                    if(var3) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                     var3 = _closure1_slot6;
                     var3 = var3.promise;
                     SaveGenerator(address=109);
- 107:
+case 8:
                     return var3;
- 109:
+case 9:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(var5) { _fun0001_ip = 241; continue _fun0001 }
- 118:
+                    if(var5) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
                     var8 = _closure1_slot2;
                     var7 = _closure1_slot3;
                     var5 = 4;
@@ -153,11 +153,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     };
                     var4 = var7.bind(var8)(var6, var5, var4);
                     return var4;
- 241:
+case 10:
                     return var3;
- 244:
+case 6:
                     return var2;
- 247:
+case 2:
                     return var1;
                 }
             };

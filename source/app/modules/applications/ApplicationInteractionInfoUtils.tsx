@@ -30,17 +30,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['canViewInteractionInfo'] = var4;
     var2 = function isPrimaryEntryPointCommandMessage(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var1 = var4.interactionMetadata;
             var3 = null;
             var2 = var3 == var1;
             var5 = undefined;
             var7 = undefined;
-            if(var2) { _fun0001_ip = 27; continue _fun0001 }
- 22:
+            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var7 = var1.type;
- 27:
+case 2:
             var8 = _closure1_slot0;
             var1 = _closure1_slot1;
             var6 = 0;
@@ -49,15 +49,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.InteractionTypes;
             var1 = var1.APPLICATION_COMMAND;
             var1 = var7 === var1;
-            if(!var1) { _fun0001_ip = 122; continue _fun0001 }
- 68:
+            if(!var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var4 = var4.interactionMetadata;
             var7 = var3 == var4;
             var3 = undefined;
-            if(var7) { _fun0001_ip = 89; continue _fun0001 }
- 83:
+            if(var7) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var3 = var4.command_type;
- 89:
+case 6:
             var4 = _closure1_slot0;
             var2 = _closure1_slot1;
             var2 = var2[var6];
@@ -65,7 +65,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.ApplicationCommandType;
             var2 = var2.PRIMARY_ENTRY_POINT;
             var1 = var3 === var2;
- 122:
+case 4:
             return var1;
         }
     };

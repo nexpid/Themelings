@@ -25,38 +25,38 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function shouldShowActivityTimeBar(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var4 = var2.type;
             var1 = _closure1_slot0;
             var1 = var1.LISTENING;
             var1 = var4 === var1;
-            if(var1) { _fun0001_ip = 47; continue _fun0001 }
- 28:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = var2.type;
             var3 = _closure1_slot0;
             var3 = var3.WATCHING;
             var1 = var4 === var3;
- 47:
-            if(!var1) { _fun0001_ip = 76; continue _fun0001 }
- 50:
+case 2:
+            if(!var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = var2.timestamps;
             var4 = null;
             var6 = var4 == var5;
             var3 = undefined;
-            if(var6) { _fun0001_ip = 72; continue _fun0001 }
- 67:
+            if(var6) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var3 = var5.start;
- 72:
+case 6:
             var1 = var4 != var3;
- 76:
-            if(!var1) { _fun0001_ip = 96; continue _fun0001 }
- 79:
+case 4:
+            if(!var1) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var2 = var2.timestamps;
             var3 = var2.end;
             var2 = null;
             var1 = var2 != var3;
- 96:
+case 8:
             return var1;
         }
     };

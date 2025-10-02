@@ -91,7 +91,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function FamilyCenterParentalControlsSettings() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = _closure1_slot10;
             var4 = undefined;
             var14 = var1.bind(var4)();
@@ -126,11 +126,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.params;
             var2 = var2.selectedSubPage;
             var3 = null;
-            if(!(var3 == var2)) { _fun0001_ip = 162; continue _fun0001 }
- 152:
+            if(!(var3 == var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = _closure1_slot7;
             var2 = var3.CONTENT_AND_SOCIAL;
- 162:
+case 2:
             var _closure2_slot1 = var2;
             var7 = _closure1_slot4;
             var6 = var7.useCallback;

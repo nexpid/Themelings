@@ -22,15 +22,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function formatDurationFromDays(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var7 = arg1;
             var9 = 0;
-            if(!(var7 > var9)) { _fun0001_ip = 20; continue _fun0001 }
- 9:
+            if(!(var7 > var9)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = 7;
             var1 = var7 % var6;
-            if(!(var1 !== var9)) { _fun0001_ip = 87; continue _fun0001 }
- 20:
+            if(!(var1 !== var9)) { _fun0001_ip = 4; continue _fun0001 }
+case 2:
             var5 = _closure1_slot0;
             var1 = _closure1_slot1;
             var3 = var1[var9];
@@ -45,8 +45,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = {};
             var1['days'] = var7;
             var1 = var3.bind(var4)(var2, var1);
-            _fun0001_ip = 156; continue _fun0001;
- 87:
+            _fun0001_ip = 5; continue _fun0001;
+case 4:
             var8 = _closure1_slot0;
             var2 = _closure1_slot1;
             var4 = var2[var9];
@@ -62,7 +62,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var7 / var6;
             var2['weeks'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 156:
+case 5:
             return var1;
         }
     };

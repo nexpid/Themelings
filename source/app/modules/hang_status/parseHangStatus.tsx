@@ -33,11 +33,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function parseHangStatus(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg2;
             var5 = null;
-            if(!(var5 != var4)) { _fun0001_ip = 191; continue _fun0001 }
- 12:
+            if(!(var5 != var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var7 = _closure1_slot2;
             var6 = var7.getChannel;
             var8 = _closure1_slot3;
@@ -47,17 +47,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var5 == var8;
             var3 = undefined;
             var2 = undefined;
-            if(var9) { _fun0001_ip = 58; continue _fun0001 }
- 53:
+            if(var9) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = var8.channelId;
- 58:
+case 4:
             var2 = var6.bind(var7)(var2);
             var6 = var5 == var2;
             var5 = undefined;
-            if(var6) { _fun0001_ip = 77; continue _fun0001 }
- 72:
+            if(var6) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var5 = var2.guild_id;
- 77:
+case 6:
             var2 = _closure1_slot0;
             var6 = _closure1_slot1;
             var1 = 2;
@@ -76,21 +76,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var4.length;
             var2 = 1;
             var1 = var4;
-            if(!(var5 > var2)) { _fun0001_ip = 189; continue _fun0001 }
- 157:
+            if(!(var5 > var2)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var2 = var4[var2];
             var1 = var4;
-            if(!(var2 !== var3)) { _fun0001_ip = 189; continue _fun0001 }
- 168:
+            if(!(var2 !== var3)) { _fun0001_ip = 8; continue _fun0001 }
+case 10:
             var2 = 0;
             var4 = var4[var2];
             var2 = new Array(2);
             var2[0] = var4;
             var2[1] = var3;
             var1 = var2;
- 189:
+case 8:
             return var1;
- 191:
+case 2:
             var1 = _closure1_slot4;
             return var1;
         }

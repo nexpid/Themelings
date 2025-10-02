@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function useDismissibleContentTypes() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
             var1 = 6;
@@ -22,11 +22,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['location'] = var6;
             var1 = var3.bind(var5)(var1);
             var1 = var1.enabled;
-            if(var1) { _fun0001_ip = 62; continue _fun0001 }
- 56:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = new Array(0);
-            _fun0001_ip = 105; continue _fun0001;
- 62:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
             var2 = 7;
@@ -37,7 +37,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = new Array(1);
             var2[0] = var3;
             var1 = var2;
- 105:
+case 4:
             return var1;
         }
     };
@@ -107,7 +107,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['IconComponent'] = var4;
     var4 = function useTrailing() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = _closure1_slot7;
             var5 = undefined;
             var8 = var1.bind(var5)();
@@ -128,18 +128,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = null;
             var3 = var4 != var7;
             var1 = null;
-            if(!var3) { _fun0002_ip = 194; continue _fun0002 }
- 81:
+            if(!var3) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
             var6 = var4 == var8;
             var3 = undefined;
-            if(var6) { _fun0002_ip = 100; continue _fun0002 }
- 90:
+            if(var6) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
             var6 = var8.includes;
             var3 = var6.bind(var8)(var7);
- 100:
+case 7:
             var1 = null;
-            if(!var3) { _fun0002_ip = 194; continue _fun0002 }
- 105:
+            if(!var3) { _fun0002_ip = 5; continue _fun0002 }
+case 4:
             var4 = _closure1_slot6;
             var9 = _closure1_slot0;
             var10 = _closure1_slot2;
@@ -160,7 +160,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var7.bind(var8)(var6);
             var2['text'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 194:
+case 5:
             return var1;
         }
     };
@@ -194,30 +194,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[2] = var5;
         var1 = function() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var2 = _closure2_slot1;
                 var4 = null;
                 var2 = var4 != var2;
-                if(!var2) { _fun0003_ip = 24; continue _fun0003 }
- 16:
+                if(!var2) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
                 var3 = _closure2_slot0;
                 var2 = var4 != var3;
- 24:
-                if(!var2) { _fun0003_ip = 45; continue _fun0003 }
- 27:
+case 9:
+                if(!var2) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
                 var5 = _closure2_slot0;
                 var4 = var5.includes;
                 var3 = _closure2_slot1;
                 var2 = var4.bind(var5)(var3);
- 45:
-                if(!var2) { _fun0003_ip = 72; continue _fun0003 }
- 48:
+case 11:
+                if(!var2) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
                 var3 = _closure2_slot2;
                 var1 = _closure1_slot5;
                 var2 = var1.TAKE_ACTION;
                 var1 = undefined;
                 var1 = var3.bind(var1)(var2);
- 72:
+case 13:
                 var1 = true;
                 return var1;
             }

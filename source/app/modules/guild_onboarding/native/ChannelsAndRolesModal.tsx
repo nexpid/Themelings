@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function ChannelsAndRolesScreen(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var10 = var1.guildId;
             var _closure2_slot0 = var10;
@@ -42,15 +42,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = _closure1_slot4;
             var1 = var2.useState;
             var6 = null;
-            if(!(var6 == var3)) { _fun0001_ip = 130; continue _fun0001 }
- 119:
+            if(!(var6 == var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var8 = 1;
-            if(!var5) { _fun0001_ip = 127; continue _fun0001 }
- 125:
+            if(!var5) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var8 = 0;
- 127:
+case 4:
             var3 = var8;
- 130:
+case 2:
             var3 = var1.bind(var2)(var3);
             var2 = _closure1_slot3;
             var1 = 2;
@@ -110,8 +110,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var13.screen;
             var1['style'] = var9;
             var6 = null;
-            if(!var5) { _fun0001_ip = 435; continue _fun0001 }
- 363:
+            if(!var5) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var12 = _closure1_slot8;
             var9 = _closure1_slot5;
             var5 = {};
@@ -129,13 +129,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var15.bind(var4)(var14, var13);
             var5['children'] = var13;
             var6 = var12.bind(var4)(var9, var5);
- 435:
+case 6:
             var5 = new Array(2);
             var5[0] = var6;
             var6 = _closure1_slot7;
             var6 = var6.CUSTOMIZE;
-            if(!(var8 !== var6)) { _fun0001_ip = 495; continue _fun0001 }
- 457:
+            if(!(var8 !== var6)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var9 = _closure1_slot8;
             var8 = _closure1_slot1;
             var12 = _closure1_slot2;
@@ -145,8 +145,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = {};
             var6['guildId'] = var10;
             var6 = var9.bind(var4)(var8, var6);
-            _fun0001_ip = 536; continue _fun0001;
- 495:
+            _fun0001_ip = 10; continue _fun0001;
+case 8:
             var9 = _closure1_slot8;
             var8 = _closure1_slot1;
             var12 = _closure1_slot2;
@@ -157,7 +157,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7['setTab'] = var11;
             var7['guildId'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 536:
+case 10:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
@@ -240,7 +240,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function ChannelsAndRolesModal(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = var1.guildId;
             var _closure2_slot0 = var2;
@@ -286,15 +286,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var11[var7];
             var7 = var10.bind(var4)(var7);
             var7 = var7.t;
-            if(var6) { _fun0002_ip = 189; continue _fun0002 }
- 176:
+            if(var6) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
             var6 = var7.et6wam;
             var6 = var8.bind(var9)(var6);
-            _fun0002_ip = 200; continue _fun0002;
- 189:
+            _fun0002_ip = 13; continue _fun0002;
+case 11:
             var7 = var7.h9mGOD;
             var6 = var8.bind(var9)(var7);
- 200:
+case 13:
             var1['title'] = var6;
             var5 = function render() {
                 var4 = _closure1_slot8;

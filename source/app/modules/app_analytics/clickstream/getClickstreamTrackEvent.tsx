@@ -41,21 +41,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function getClickstreamTrackEvent(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var6 = arg1;
             var1 = arg2;
             var2 = _closure1_slot2;
             var2 = var2.CHANNEL_OPENED_CLICKSTREAM;
-            if(!(var2 !== var6)) { _fun0001_ip = 274; continue _fun0001 }
- 26:
+            if(!(var2 !== var6)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = _closure1_slot2;
             var2 = var2.GUILD_VIEWED_CLICKSTREAM;
-            if(!(var2 !== var6)) { _fun0001_ip = 209; continue _fun0001 }
- 43:
+            if(!(var2 !== var6)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = _closure1_slot2;
             var2 = var2.FRIENDS_LIST_VIEWED_CLICKSTREAM;
-            if(!(var2 !== var6)) { _fun0001_ip = 109; continue _fun0001 }
- 57:
+            if(!(var2 !== var6)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var2 = global;
             var5 = var2.Error;
             var2 = var2.HermesInternal;
@@ -68,7 +68,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = new var8[var5](var7, var6);
             var2 = var2 instanceof Object ? var2 : var3;
             throw var2;
- 109:
+case 6:
             var2 = {};
             var3 = global;
             var3 = var3.Date;
@@ -91,7 +91,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var1.now_playing_num_cards;
             var2['now_playing_num_cards'] = var3;
             return var2;
- 209:
+case 4:
             var3 = var1.guildId;
             var2 = {};
             var5 = global;
@@ -108,59 +108,59 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['rtc_state'] = var5;
             var2['guildId'] = var3;
             return var2;
- 274:
+case 2:
             var3 = var1.channelId;
             var1 = _closure1_slot4;
             var1 = var1.CHANNEL_BROWSER;
-            if(!(var1 !== var3)) { _fun0001_ip = 538; continue _fun0001 }
- 296:
+            if(!(var1 !== var3)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var1 = _closure1_slot4;
             var1 = var1.GUILD_HOME;
-            if(!(var1 !== var3)) { _fun0001_ip = 538; continue _fun0001 }
- 313:
+            if(!(var1 !== var3)) { _fun0001_ip = 8; continue _fun0001 }
+case 10:
             var1 = _closure1_slot4;
             var1 = var1.GUILD_SHOP;
-            if(!(var1 !== var3)) { _fun0001_ip = 538; continue _fun0001 }
- 330:
+            if(!(var1 !== var3)) { _fun0001_ip = 8; continue _fun0001 }
+case 11:
             var1 = _closure1_slot4;
             var1 = var1.MEMBER_APPLICATIONS;
-            if(!(var1 !== var3)) { _fun0001_ip = 538; continue _fun0001 }
- 347:
+            if(!(var1 !== var3)) { _fun0001_ip = 8; continue _fun0001 }
+case 12:
             var1 = _closure1_slot4;
             var1 = var1.ROLE_SUBSCRIPTIONS;
-            if(!(var1 !== var3)) { _fun0001_ip = 538; continue _fun0001 }
- 364:
+            if(!(var1 !== var3)) { _fun0001_ip = 8; continue _fun0001 }
+case 13:
             var1 = _closure1_slot4;
             var1 = var1.CUSTOMIZE_COMMUNITY;
-            if(!(var1 !== var3)) { _fun0001_ip = 538; continue _fun0001 }
- 381:
+            if(!(var1 !== var3)) { _fun0001_ip = 8; continue _fun0001 }
+case 14:
             var1 = _closure1_slot4;
             var1 = var1.MEMBER_SAFETY;
-            if(!(var1 !== var3)) { _fun0001_ip = 538; continue _fun0001 }
- 398:
+            if(!(var1 !== var3)) { _fun0001_ip = 8; continue _fun0001 }
+case 15:
             var1 = _closure1_slot4;
             var1 = var1.GUILD_ONBOARDING;
-            if(!(var1 !== var3)) { _fun0001_ip = 538; continue _fun0001 }
- 415:
+            if(!(var1 !== var3)) { _fun0001_ip = 8; continue _fun0001 }
+case 16:
             var1 = _closure1_slot4;
             var1 = var1.GUILD_BOOSTS;
-            if(!(var1 !== var3)) { _fun0001_ip = 538; continue _fun0001 }
- 429:
+            if(!(var1 !== var3)) { _fun0001_ip = 8; continue _fun0001 }
+case 17:
             var2 = _closure1_slot0;
             var1 = var2.getChannel;
             var5 = var1.bind(var2)(var3);
             var1 = null;
             var6 = var1 == var5;
             var2 = undefined;
-            if(var6) { _fun0001_ip = 459; continue _fun0001 }
- 454:
+            if(var6) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
             var2 = var5.type;
- 459:
-            if(!(var1 == var2)) { _fun0001_ip = 473; continue _fun0001 }
- 463:
+case 18:
+            if(!(var1 == var2)) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
             var1 = _closure1_slot3;
             var2 = var1.UNKNOWN;
- 473:
+case 20:
             var1 = {};
             var5 = global;
             var5 = var5.Date;
@@ -177,7 +177,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['channelId'] = var3;
             var1['channelType'] = var2;
             return var1;
- 538:
+case 8:
             var1 = undefined;
             return var1;
         }

@@ -143,15 +143,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['NotificationNudgeTimingVariant'] = var4;
     var4 = function getNotificationNudgeCooldownMs(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = _closure1_slot2;
             var3 = var1.AGGRESSIVE;
             var1 = 604800000;
             var2 = arg1;
-            if(!(var2 === var3)) { _fun0001_ip = 32; continue _fun0001 }
- 26:
+            if(!(var2 === var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = 259200000;
- 32:
+case 2:
             return var1;
         }
     };

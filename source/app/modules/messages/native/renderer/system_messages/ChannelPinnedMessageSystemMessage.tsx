@@ -24,7 +24,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function createChannelPinnedMessageSystemMessage(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var10 = var4.message;
             var14 = var4.roleStyle;
@@ -69,24 +69,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = null;
             var17 = 'username';
             var11 = null;
-            if(!(var17 === var14)) { _fun0001_ip = 208; continue _fun0001 }
- 205:
+            if(!(var17 === var14)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var11 = var13;
- 208:
+case 2:
             var9['linkColor'] = var11;
             var9['roleColor'] = var13;
             var11 = null;
-            if(!var16) { _fun0001_ip = 226; continue _fun0001 }
- 223:
+            if(!var16) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var11 = var15;
- 226:
+case 4:
             var9['roleColors'] = var11;
             var11 = 'dot';
             var11 = var11 === var14;
-            if(!var11) { _fun0001_ip = 246; continue _fun0001 }
- 242:
+            if(!var11) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var11 = var12 != var13;
- 246:
+case 6:
             var9['shouldShowRoleDot'] = var11;
             var11 = var10.channel_id;
             var9['messageChannelId'] = var11;

@@ -59,7 +59,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var2;
         var2 = function get() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var3 = _closure1_slot0;
                 var4 = _closure1_slot2;
                 var1 = 5;
@@ -72,17 +72,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var3.bind(var5)(var1);
                 var3 = _closure1_slot0;
                 var5 = _closure1_slot2;
-                if(var1) { _fun0001_ip = 70; continue _fun0001 }
- 56:
+                if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var1 = 7;
                 var1 = var5[var1];
                 var1 = var3.bind(var4)(var1);
-                _fun0001_ip = 82; continue _fun0001;
- 70:
+                _fun0001_ip = 4; continue _fun0001;
+case 2:
                 var2 = 6;
                 var2 = var5[var2];
                 var1 = var3.bind(var4)(var2);
- 82:
+case 4:
                 return var1;
             }
         };
@@ -112,7 +112,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var6 = function get() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var3 = _closure1_slot0;
                 var4 = _closure1_slot2;
                 var1 = 5;
@@ -125,17 +125,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var3.bind(var5)(var1);
                 var3 = _closure1_slot0;
                 var5 = _closure1_slot2;
-                if(var1) { _fun0002_ip = 70; continue _fun0002 }
- 56:
+                if(var1) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                 var1 = 10;
                 var1 = var5[var1];
                 var1 = var3.bind(var4)(var1);
-                _fun0002_ip = 82; continue _fun0002;
- 70:
+                _fun0002_ip = 4; continue _fun0002;
+case 2:
                 var2 = 9;
                 var2 = var5[var2];
                 var1 = var3.bind(var4)(var2);
- 82:
+case 4:
                 return var1;
             }
         };

@@ -7,7 +7,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var6;
     var1 = function TabLabel(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var10 = var1.focused;
             var8 = var1.color;
@@ -25,19 +25,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var1.Text;
             var1 = {'variant': 'text-xxs/semibold', 'lineClamp': 1, 'color': null, 'style': null, 'maxFontSizeMultiplier': 2};
             var7 = 'interactive-normal';
-            if(!var10) { _fun0001_ip = 95; continue _fun0001 }
- 89:
+            if(!var10) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var7 = 'interactive-active';
- 95:
+case 2:
             var1['color'] = var7;
             var7 = 'beside-icon';
-            if(!(var7 !== var9)) { _fun0001_ip = 119; continue _fun0001 }
- 111:
+            if(!(var7 !== var9)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var7 = var6.titleBelow;
-            _fun0001_ip = 125; continue _fun0001;
- 119:
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
             var7 = var6.titleBeside;
- 125:
+case 6:
             var6 = new Array(2);
             var6[0] = var7;
             var7 = {};

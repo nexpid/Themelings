@@ -89,31 +89,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6[2] = var5;
         var3 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var3 = _closure2_slot3;
                 var1 = null;
                 var1 = var1 != var3;
-                if(!var1) { _fun0001_ip = 43; continue _fun0001 }
- 16:
+                if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var3 = _closure2_slot0;
                 var4 = var3.mfaLevel;
                 var3 = _closure1_slot7;
                 var3 = var3.ELEVATED;
                 var1 = var4 === var3;
- 43:
-                if(!var1) { _fun0001_ip = 59; continue _fun0001 }
- 46:
+case 2:
+                if(!var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var3 = _closure2_slot3;
                 var3 = var3.mfaEnabled;
                 var1 = !var3;
- 59:
-                if(!var1) { _fun0001_ip = 84; continue _fun0001 }
- 62:
+case 4:
+                if(!var1) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                 var4 = _closure1_slot4;
                 var3 = var4.hasElevatedPermissions;
                 var2 = _closure2_slot1;
                 var1 = var3.bind(var4)(var2);
- 84:
+case 6:
                 return var1;
             }
         };
@@ -133,36 +133,36 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[2] = var5;
         var1 = function() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var1 = _closure1_slot6;
                 var3 = var1.SPACER;
                 var1 = new Array(1);
                 var1[0] = var3;
                 var4 = _closure2_slot2;
-                if(var4) { _fun0002_ip = 60; continue _fun0002 }
- 31:
+                if(var4) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                 var4 = _closure2_slot4;
-                if(!var4) { _fun0002_ip = 80; continue _fun0002 }
- 38:
+                if(!var4) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
                 var5 = var1.push;
                 var4 = _closure1_slot6;
                 var4 = var4.MFA_WARNING;
                 var4 = var5.bind(var1)(var4);
-                _fun0002_ip = 80; continue _fun0002;
- 60:
+                _fun0002_ip = 10; continue _fun0002;
+case 8:
                 var5 = var1.push;
                 var4 = _closure1_slot6;
                 var4 = var4.GUILD_PROGRESS;
                 var4 = var5.bind(var1)(var4);
- 80:
+case 10:
                 var3 = _closure2_slot5;
-                if(!var3) { _fun0002_ip = 107; continue _fun0002 }
- 87:
+                if(!var3) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
                 var3 = var1.push;
                 var2 = _closure1_slot6;
                 var2 = var2.LIVE_CHANNEL_NOTICE;
                 var2 = var3.bind(var1)(var2);
- 107:
+case 12:
                 return var1;
             }
         };

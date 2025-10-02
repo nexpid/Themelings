@@ -75,7 +75,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function ForLaterCardReminderHeader(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = var1.savedMessage;
             var8 = var1.throttledNow;
@@ -93,11 +93,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = null;
             var13 = var1 == var2;
             var11 = undefined;
-            if(var13) { _fun0001_ip = 85; continue _fun0001 }
- 73:
+            if(var13) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var13 = var2.saveData;
             var11 = var13.dueAt;
- 85:
+case 2:
             var3['dueAt'] = var11;
             var3['now'] = var8;
             var11 = _closure1_slot0;
@@ -112,26 +112,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.isOverdue;
             var2 = var2.saveData;
             var2 = var2.dueAt;
-            if(!(var1 != var2)) { _fun0001_ip = 401; continue _fun0001 }
- 163:
+            if(!(var1 != var2)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var13 = 'header-primary';
-            if(!var3) { _fun0001_ip = 178; continue _fun0001 }
- 172:
+            if(!var3) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var13 = 'text-danger';
- 178:
+case 6:
             var4 = _closure1_slot1;
             var6 = _closure1_slot2;
             var2 = 3;
             var2 = var6[var2];
             var2 = var4.bind(var5)(var2);
             var2 = var2.colors;
-            if(var3) { _fun0001_ip = 214; continue _fun0001 }
- 206:
+            if(var3) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var16 = var2.INTERACTIVE_NORMAL;
-            _fun0001_ip = 220; continue _fun0001;
- 214:
+            _fun0001_ip = 10; continue _fun0001;
+case 8:
             var16 = var2.TEXT_DANGER;
- 220:
+case 10:
             var4 = _closure1_slot5;
             var3 = _closure1_slot3;
             var2 = {};
@@ -176,7 +176,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['children'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
- 401:
+case 4:
             return var1;
         }
     };

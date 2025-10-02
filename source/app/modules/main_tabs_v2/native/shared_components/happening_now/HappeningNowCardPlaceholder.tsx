@@ -95,15 +95,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function HappeningNowCardPlaceholder(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var7 = var1.fullWidth;
             var5 = var1.panelVariant;
             var4 = undefined;
-            if(!(var5 === var4)) { _fun0001_ip = 23; continue _fun0001 }
- 21:
+            if(!(var5 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = false;
- 23:
+case 2:
             var1 = _closure1_slot7;
             var15 = var1.bind(var4)();
             var2 = function useBlinkStyle(arg1) {
@@ -227,10 +227,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.bind(var4)(var1);
             var1 = {};
             var6 = 'medium';
-            if(!var7) { _fun0001_ip = 99; continue _fun0001 }
- 95:
+            if(!var7) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var6 = 'full';
- 99:
+case 4:
             var1['width'] = var6;
             var1['panelVariant'] = var5;
             var7 = _closure1_slot6;

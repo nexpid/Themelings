@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function renderChatInputActionButtonGiftAndThread(arg1, arg2, arg3, arg4) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg2;
             var13 = var2.canStartThreads;
             var16 = var2.channel;
@@ -34,8 +34,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = _closure1_slot6;
             var7 = _closure1_slot1;
             var18 = _closure1_slot2;
-            if(var1) { _fun0001_ip = 155; continue _fun0001 }
- 109:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = 9;
             var1 = var18[var1];
             var6 = var7.bind(var4)(var1);
@@ -46,8 +46,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['style'] = var14;
             var1['styleButton'] = var9;
             var1 = var8.bind(var4)(var6, var1);
-            _fun0001_ip = 285; continue _fun0001;
- 155:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var6 = 6;
             var6 = var18[var6];
             var7 = var7.bind(var4)(var6);
@@ -64,10 +64,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var14.4WNcpq;
             var14 = var15.bind(var16)(var14);
             var6['accessibilityLabel'] = var14;
-            if(var12) { _fun0001_ip = 230; continue _fun0001 }
- 227:
+            if(var12) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var12 = !var13;
- 230:
+case 5:
             var6['disabled'] = var12;
             var12 = _closure1_slot0;
             var13 = _closure1_slot2;
@@ -88,7 +88,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6['onPress'] = var10;
             var6['style'] = var9;
             var1 = var8.bind(var4)(var7, var6);
- 285:
+case 4:
             var2['children'] = var1;
             var1 = arg1;
             var1 = var5.bind(var4)(var3, var2, var1);
@@ -98,14 +98,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot8 = var1;
     var1 = function getChatInputActionButtonGiftAndThreadKey(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = var1.shouldShowThread;
             var1 = 'gift';
-            if(!var2) { _fun0002_ip = 20; continue _fun0002 }
- 16:
+            if(!var2) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
             var1 = 'thread';
- 20:
+case 7:
             return var1;
         }
     };

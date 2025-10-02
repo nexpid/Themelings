@@ -59,28 +59,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['WCAGContrastRatios'] = var4;
     var4 = function getContrastingColor(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var6 = arg1;
             var2 = arguments[1];
             var3 = undefined;
-            if(!(var2 === var3)) { _fun0001_ip = 14; continue _fun0001 }
- 12:
+            if(!(var2 === var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = {};
- 14:
+case 2:
             var13 = var2.contrastRatio;
             var7 = null;
-            if(!(var7 == var13)) { _fun0001_ip = 39; continue _fun0001 }
- 26:
+            if(!(var7 == var13)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = _closure1_slot3;
             var13 = var1.NonText;
- 39:
+case 4:
             var1 = var2.tolerance;
             var4 = var7 != var1;
             var12 = 3;
-            if(!var4) { _fun0001_ip = 60; continue _fun0001 }
- 57:
+            if(!var4) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var12 = var1;
- 60:
+case 6:
             var5 = _closure1_slot0;
             var4 = _closure1_slot1;
             var11 = 1;
@@ -88,10 +88,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var5.bind(var3)(var4);
             var5 = var2.base;
             var2 = var6;
-            if(!(var7 != var5)) { _fun0001_ip = 99; continue _fun0001 }
- 96:
+            if(!(var7 != var5)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var2 = var5;
- 99:
+case 8:
             var10 = var4.bind(var3)(var2);
             var5 = _closure1_slot0;
             var2 = _closure1_slot1;
@@ -107,33 +107,33 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = 99;
             var7 = 0;
             var6 = var4;
- 165:
+case 10:
             var14 = var5 < var13;
             var2 = var13 + var12;
             var15 = var5 > var2;
-            if(var14) { _fun0001_ip = 186; continue _fun0001 }
- 180:
+            if(var14) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var2 = var6;
-            if(!var15) { _fun0001_ip = 279; continue _fun0001 }
- 186:
+            if(!var15) { _fun0001_ip = 13; continue _fun0001 }
+case 11:
             var4 = var6.luminance;
             var4 = var4.bind(var6)();
             var4 = var4 > var9;
-            if(!var15) { _fun0001_ip = 206; continue _fun0001 }
- 203:
-            if(var4) { _fun0001_ip = 224; continue _fun0001 }
- 206:
-            if(!var14) { _fun0001_ip = 212; continue _fun0001 }
- 209:
-            if(!var4) { _fun0001_ip = 224; continue _fun0001 }
- 212:
+            if(!var15) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
+            if(var4) { _fun0001_ip = 16; continue _fun0001 }
+case 14:
+            if(!var14) { _fun0001_ip = 17; continue _fun0001 }
+case 18:
+            if(!var4) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var4 = var6.brighten;
             var14 = var4.bind(var6)();
-            _fun0001_ip = 234; continue _fun0001;
- 224:
+            _fun0001_ip = 19; continue _fun0001;
+case 16:
             var4 = var6.darken;
             var14 = var4.bind(var6)();
- 234:
+case 19:
             var15 = _closure1_slot0;
             var4 = _closure1_slot1;
             var4 = var4[var11];
@@ -144,8 +144,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var4 - 1;
             var6 = var14;
             var2 = var6;
-            if(var4 > var7) { _fun0001_ip = 165; continue _fun0001 }
- 279:
+            if(var4 > var7) { _fun0001_ip = 10; continue _fun0001 }
+case 13:
             var1 = _closure1_slot4;
             var1 = var1.bind(var3)(var2);
             return var1;

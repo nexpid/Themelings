@@ -16,54 +16,54 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function() {
         var1 = function lerpVarWidthThumbnailScrollBounds(arg1, arg2) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var3 = arg1;
                 var2 = arg2;
                 var4 = var3.length;
                 var1 = 0;
-                if(!(var1 !== var4)) { _fun0001_ip = 156; continue _fun0001 }
- 20:
-                if(!(!(var2 < var1))) { _fun0001_ip = 154; continue _fun0001 }
- 27:
+                if(!(var1 !== var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+                if(!(!(var2 < var1))) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var4 = var3.length;
-                if(!(var2 >= var4)) { _fun0001_ip = 41; continue _fun0001 }
- 36:
+                if(!(var2 >= var4)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                 var2 = var3.length;
- 41:
+case 6:
                 var4 = global;
                 var5 = var4.Math;
                 var4 = var5.floor;
                 var7 = var4.bind(var5)(var2);
                 var5 = var2 - var7;
                 var2 = var3.length;
-                if(!(!(var7 >= var2))) { _fun0001_ip = 130; continue _fun0001 }
- 73:
+                if(!(!(var7 >= var2))) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
                 var2 = var3[var7];
                 var4 = var2.scrollStart;
                 var2 = var3.length;
                 var6 = 1;
                 var8 = var2 - var6;
                 var2 = var4;
-                if(!(var7 < var8)) { _fun0001_ip = 116; continue _fun0001 }
- 102:
+                if(!(var7 < var8)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
                 var6 = var7 + var6;
                 var6 = var3[var6];
                 var2 = var6.scrollStart;
- 116:
+case 10:
                 var2 = var2 - var4;
                 var2 = var5 * var2;
                 var2 = var4 + var2;
                 return var2;
- 130:
+case 8:
                 var4 = var3.length;
                 var2 = 1;
                 var2 = var4 - var2;
                 var2 = var3[var2];
                 var2 = var2.scrollStart;
                 return var2;
- 154:
+case 4:
                 return var1;
- 156:
+case 2:
                 return var1;
             }
         };

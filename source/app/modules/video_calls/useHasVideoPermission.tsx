@@ -48,17 +48,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[0] = var6;
         var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var2 = _closure2_slot0;
                 var1 = null;
                 var1 = var1 != var2;
-                if(!var1) { _fun0001_ip = 88; continue _fun0001 }
- 16:
+                if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var3 = _closure2_slot0;
                 var2 = var3.isPrivate;
                 var2 = var2.bind(var3)();
-                if(var2) { _fun0001_ip = 85; continue _fun0001 }
- 33:
+                if(var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var7 = _closure1_slot0;
                 var6 = _closure1_slot1;
                 var5 = 3;
@@ -72,9 +72,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var9 = false;
                 var13 = var8;
                 var2 = var13[var7](var12, var11, var10, var9, var8);
- 85:
+case 4:
                 var1 = var2;
- 88:
+case 2:
                 return var1;
             }
         };
@@ -84,12 +84,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['default'] = var4;
     var2 = function getVideoPermission(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var7 = arg1;
             var1 = var7.isPrivate;
             var1 = var1.bind(var7)();
-            if(var1) { _fun0002_ip = 67; continue _fun0002 }
- 16:
+            if(var1) { _fun0002_ip = 6; continue _fun0002 }
+case 3:
             var5 = _closure1_slot0;
             var4 = _closure1_slot1;
             var3 = 3;
@@ -103,7 +103,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var6;
             var11 = var7;
             var1 = var12[var5](var11, var10, var9, var8, var7);
- 67:
+case 6:
             return var1;
         }
     };

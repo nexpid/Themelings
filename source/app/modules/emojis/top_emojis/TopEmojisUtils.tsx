@@ -35,35 +35,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function maybeFetchTopEmojisByGuild(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var2 = null;
-            if(!(var2 != var3)) { _fun0001_ip = 135; continue _fun0001 }
- 12:
+            if(!(var2 != var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = _closure1_slot2;
             var4 = var5.getCurrentUser;
             var4 = var4.bind(var5)();
-            if(!(var2 != var4)) { _fun0001_ip = 135; continue _fun0001 }
- 32:
+            if(!(var2 != var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var5 = _closure1_slot3;
             var4 = var5.getTopEmojisMetadata;
             var4 = var4.bind(var5)(var3);
-            if(!(var2 != var4)) { _fun0001_ip = 84; continue _fun0001 }
- 53:
+            if(!(var2 != var4)) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var4 = var4.topEmojisTTL;
-            if(!(var2 != var4)) { _fun0001_ip = 139; continue _fun0001 }
- 63:
+            if(!(var2 != var4)) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var2 = global;
             var5 = var2.Date;
             var2 = var5.now;
             var2 = var2.bind(var5)();
-            if(!(!(var2 < var4))) { _fun0001_ip = 139; continue _fun0001 }
- 84:
+            if(!(!(var2 < var4))) { _fun0001_ip = 7; continue _fun0001 }
+case 5:
             var4 = _closure1_slot4;
             var2 = var4.getIsFetching;
             var2 = var2.bind(var4)(var3);
-            if(var2) { _fun0001_ip = 135; continue _fun0001 }
- 102:
+            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 9:
             var4 = _closure1_slot0;
             var2 = _closure1_slot1;
             var1 = 3;
@@ -72,10 +72,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4.bind(var1)(var2);
             var1 = var2.fetchTopEmojis;
             var1 = var1.bind(var2)(var3);
- 135:
+case 2:
             var1 = undefined;
             return var1;
- 139:
+case 7:
             var1 = undefined;
             return var1;
         }

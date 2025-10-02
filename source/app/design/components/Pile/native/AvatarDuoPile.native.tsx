@@ -31,7 +31,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function AvatarDuoPile(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var9 = var3.size;
             var5 = var3.children;
@@ -55,8 +55,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = {'aria-label': null, 'shape': null, 'size': null, 'gap': 4, 'depthX': 0.5, 'depthY': 0.5};
             var7 = 'aria-label';
             var7 = var7 in var8;
-            if(var7) { _fun0001_ip = 138; continue _fun0001 }
- 100:
+            if(var7) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var10 = _closure1_slot0;
             var11 = _closure1_slot1;
             var7 = 3;
@@ -65,10 +65,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var11.getListSummaryLabel;
             var7 = var8.names;
             var7 = var10.bind(var11)(var7);
-            _fun0001_ip = 144; continue _fun0001;
- 138:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var7 = var8.aria-label;
- 144:
+case 4:
             var1['aria-label'] = var7;
             var8 = _closure1_slot0;
             var10 = _closure1_slot1;
@@ -83,8 +83,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var8.bind(var3)(var7);
             var7 = var8.isArray;
             var7 = var7.bind(var8)(var9);
-            if(var7) { _fun0001_ip = 245; continue _fun0001 }
- 213:
+            if(var7) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var7 = _closure1_slot0;
             var8 = _closure1_slot1;
             var6 = 6;
@@ -92,8 +92,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var7.bind(var3)(var6);
             var6 = var6.AVATAR_SIZE_MAP;
             var6 = var6[var9];
-            _fun0001_ip = 264; continue _fun0001;
- 245:
+            _fun0001_ip = 7; continue _fun0001;
+case 5:
             var8 = var9.map;
             var7 = function(arg1) {
                 var3 = _closure1_slot0;
@@ -108,7 +108,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var6 = var8.bind(var9)(var7);
- 264:
+case 7:
             var1['size'] = var6;
             var1['children'] = var5;
             var1 = var4.bind(var3)(var2, var1);

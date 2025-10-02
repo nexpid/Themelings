@@ -56,7 +56,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function ChannelTitle(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var6 = var1.title;
             var12 = var1.muted;
@@ -89,33 +89,33 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5[4] = var11;
             var3 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var2 = _closure2_slot4;
                     var2 = var2.normal;
                     var3 = _closure2_slot0;
-                    if(var3) { _fun0002_ip = 70; continue _fun0002 }
- 20:
+                    if(var3) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var3 = _closure2_slot1;
-                    if(!var3) { _fun0002_ip = 48; continue _fun0002 }
- 27:
+                    if(!var3) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var5 = _closure2_slot2;
                     var4 = _closure1_slot3;
                     var4 = var4.ALL_MESSAGES;
                     var3 = var5 === var4;
- 48:
-                    if(var3) { _fun0002_ip = 55; continue _fun0002 }
- 51:
+case 4:
+                    if(var3) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var3 = _closure2_slot3;
- 55:
-                    if(!var3) { _fun0002_ip = 80; continue _fun0002 }
- 58:
+case 6:
+                    if(!var3) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                     var3 = _closure2_slot4;
                     var2 = var3.unreadOrConnected;
-                    _fun0002_ip = 80; continue _fun0002;
- 70:
+                    _fun0002_ip = 8; continue _fun0002;
+case 2:
                     var1 = _closure2_slot4;
                     var2 = var1.muted;
- 80:
+case 8:
                     var1 = {'color': null, 'paddingRight': 4, 'flexShrink': 1};
                     var1['color'] = var2;
                     return var1;
@@ -136,10 +136,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = null;
             var7 = var5 != var6;
             var5 = '';
-            if(!var7) { _fun0001_ip = 227; continue _fun0001 }
- 224:
+            if(!var7) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var5 = var6;
- 227:
+case 10:
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

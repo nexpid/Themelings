@@ -69,7 +69,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var10 = var3.style;
             var8 = var3.children;
@@ -97,10 +97,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = new Array(3);
             var7[0] = var11;
             var11 = var6.disabled;
-            if(!var11) { _fun0001_ip = 111; continue _fun0001 }
- 106:
+            if(!var11) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var11 = var9.disabled;
- 111:
+case 2:
             var7[1] = var11;
             var7[2] = var10;
             var1['style'] = var7;

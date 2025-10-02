@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function PriceOptionRow(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var19 = var1.price;
             var8 = var1.selected;
@@ -28,10 +28,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = new Array(2);
             var6[0] = var7;
             var7 = undefined;
-            if(!var8) { _fun0001_ip = 84; continue _fun0001 }
- 78:
+            if(!var8) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var7 = var10.containerSelected;
- 84:
+case 2:
             var6[1] = var7;
             var1['style'] = var6;
             var6 = 'radio';
@@ -50,15 +50,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var10.rowStatusIcon;
             var5['style'] = var10;
             var11 = _closure1_slot2;
-            if(var8) { _fun0001_ip = 168; continue _fun0001 }
- 159:
+            if(var8) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var8 = 11;
             var8 = var11[var8];
-            _fun0001_ip = 175; continue _fun0001;
- 168:
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
             var10 = 10;
             var8 = var11[var10];
- 175:
+case 6:
             var8 = var9.bind(var4)(var8);
             var5['source'] = var8;
             var6 = var7.bind(var4)(var6, var5);

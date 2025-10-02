@@ -78,32 +78,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.forEach;
             var2 = function(arg1) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     var1 = arg1;
                     var3 = var1.applicationId;
                     var4 = var1.type;
                     var2 = _closure1_slot3;
                     var1 = var2.has;
                     var1 = var1.bind(var2)(var4);
-                    if(!var1) { _fun0001_ip = 93; continue _fun0001 }
- 33:
+                    if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var1 = null;
                     var1 = var1 == var3;
-                    if(var1) { _fun0001_ip = 59; continue _fun0001 }
- 42:
+                    if(var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                     var4 = _closure3_slot0;
                     var2 = var4.has;
                     var1 = var2.bind(var4)(var3);
- 59:
-                    if(var1) { _fun0001_ip = 93; continue _fun0001 }
- 62:
+case 4:
+                    if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 6:
                     var4 = _closure3_slot0;
                     var2 = var4.add;
                     var2 = var2.bind(var4)(var3);
                     var2 = _closure3_slot1;
                     var1 = var2.push;
                     var1 = var1.bind(var2)(var3);
- 93:
+case 2:
                     var1 = undefined;
                     return var1;
                 }

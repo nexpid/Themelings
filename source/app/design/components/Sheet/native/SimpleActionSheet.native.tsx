@@ -7,7 +7,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var6;
     var2 = function SimpleActionSheet(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = var1.hideActionSheet;
             var _closure2_slot0 = var2;
@@ -24,8 +24,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = {};
             var12 = null;
             var7 = var12 != var16;
-            if(!var7) { _fun0001_ip = 210; continue _fun0001 }
- 74:
+            if(!var7) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var10 = _closure1_slot2;
             var8 = _closure1_slot0;
             var13 = _closure1_slot1;
@@ -43,8 +43,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var16.onClose;
             var13 = var12 != var13;
             var12 = null;
-            if(!var13) { _fun0001_ip = 199; continue _fun0001 }
- 151:
+            if(!var13) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var15 = _closure1_slot2;
             var14 = _closure1_slot0;
             var17 = _closure1_slot1;
@@ -56,10 +56,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = var16.onClose;
             var13['onPress'] = var16;
             var12 = var15.bind(var3)(var14, var13);
- 199:
+case 4:
             var5['trailing'] = var12;
             var7 = var10.bind(var3)(var8, var5);
- 210:
+case 2:
             var5 = new Array(2);
             var5[0] = var7;
             var8 = _closure1_slot2;
@@ -74,7 +74,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var11.map;
             var9 = function(arg1, arg2) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var2 = arg1;
                     var6 = var2.label;
                     var12 = var2.icon;
@@ -102,10 +102,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = var10.bind(var4)(var9, var7);
                     var2['icon'] = var7;
                     var7 = 'default';
-                    if(!var8) { _fun0002_ip = 128; continue _fun0002 }
- 124:
+                    if(!var8) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var7 = 'danger';
- 128:
+case 6:
                     var2['variant'] = var7;
                     var2['label'] = var6;
                     var1 = function onPress() {

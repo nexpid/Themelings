@@ -22,7 +22,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function useGetStageRTCPanelHeight(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arg1;
             var6 = _closure1_slot0;
             var1 = _closure1_slot1;
@@ -36,21 +36,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var6.bind(var4)(var1);
             var1 = var4.useStageIgnoredUsersCount;
             var1 = var1.bind(var4)(var5);
-            if(!(!(var3 > var2))) { _fun0001_ip = 72; continue _fun0001 }
- 62:
+            if(!(!(var3 > var2))) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var1 > var2;
             var1 = 68;
-            if(!var2) { _fun0001_ip = 75; continue _fun0001 }
- 72:
+            if(!var2) { _fun0001_ip = 4; continue _fun0001 }
+case 2:
             var1 = 88;
- 75:
+case 4:
             return var1;
         }
     };
     var3['useGetStageRTCPanelHeight'] = var4;
     var2 = function useGetActionBarHeight(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var5 = arg1;
             var6 = _closure1_slot0;
             var1 = _closure1_slot1;
@@ -64,14 +64,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var6.bind(var4)(var1);
             var1 = var4.useStageIgnoredUsersCount;
             var1 = var1.bind(var4)(var5);
-            if(!(!(var3 > var2))) { _fun0002_ip = 72; continue _fun0002 }
- 62:
+            if(!(!(var3 > var2))) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
             var2 = var1 > var2;
             var1 = 112;
-            if(!var2) { _fun0002_ip = 75; continue _fun0002 }
- 72:
+            if(!var2) { _fun0002_ip = 4; continue _fun0002 }
+case 2:
             var1 = 132;
- 75:
+case 4:
             return var1;
         }
     };

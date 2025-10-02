@@ -69,14 +69,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[3] = var5;
         var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var1 = _closure2_slot2;
                 var6 = null;
-                if(!(var6 != var1)) { _fun0001_ip = 181; continue _fun0001 }
- 18:
+                if(!(var6 != var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var1 = _closure2_slot3;
-                if(!(var6 != var1)) { _fun0001_ip = 181; continue _fun0001 }
- 29:
+                if(!(var6 != var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
                 var1 = {};
                 var2 = _closure2_slot2;
                 var1['initialProductSkuId'] = var2;
@@ -86,8 +86,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = _closure2_slot1;
                 var7 = var6 != var2;
                 var5 = undefined;
-                if(!var7) { _fun0001_ip = 113; continue _fun0001 }
- 70:
+                if(!var7) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
                 var7 = global;
                 var10 = var7.Math;
                 var9 = var10.max;
@@ -103,13 +103,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = var8.bind(var11)(var7);
                 var7 = 0;
                 var5 = var9.bind(var10)(var7, var8);
- 113:
+case 5:
                 var1['productIndex'] = var5;
                 var5 = _closure2_slot0;
                 var5 = var6 != var5;
                 var2 = undefined;
-                if(!var5) { _fun0001_ip = 174; continue _fun0001 }
- 131:
+                if(!var5) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
                 var5 = global;
                 var6 = var5.Math;
                 var5 = var6.max;
@@ -126,12 +126,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var4.bind(var7)(var3);
                 var3 = 0;
                 var2 = var5.bind(var6)(var3, var4);
- 174:
+case 7:
                 var1['categoryIndex'] = var2;
-                _fun0001_ip = 183; continue _fun0001;
- 181:
+                _fun0001_ip = 9; continue _fun0001;
+case 2:
                 var1 = {};
- 183:
+case 9:
                 return var1;
             }
         };

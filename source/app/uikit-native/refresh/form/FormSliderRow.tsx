@@ -54,7 +54,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function FormSliderRow(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var16 = var3.label;
             var14 = var3.trailing;
@@ -80,8 +80,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = _closure1_slot8;
             var10 = var2.bind(var5)();
             var4 = _closure1_slot6;
-            if(var1) { _fun0001_ip = 207; continue _fun0001 }
- 103:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = _closure1_slot7;
             var1 = {};
             var9 = _closure1_slot5;
@@ -107,8 +107,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[1] = var6;
             var1['children'] = var3;
             var1 = var4.bind(var5)(var2, var1);
-            _fun0001_ip = 389; continue _fun0001;
- 207:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var15 = _closure1_slot0;
             var12 = _closure1_slot2;
             var2 = 5;
@@ -150,7 +150,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[1] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 389:
+case 4:
             return var1;
         }
     };

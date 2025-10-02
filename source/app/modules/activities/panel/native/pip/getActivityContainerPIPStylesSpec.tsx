@@ -30,28 +30,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['code'] = var7;
     var2 = function t(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var12 = var1.pipWidth;
             var6 = var1.pipHeight;
             var4 = var1.pipOrientationLockState;
             var2 = var1.isLandscape;
             var1 = null;
-            if(!(var1 == var4)) { _fun0001_ip = 46; continue _fun0001 }
- 33:
+            if(!(var1 == var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = _closure1_slot2;
             var4 = var1.UNLOCKED;
- 46:
+case 2:
             var3 = _closure1_slot2;
             var3 = var3.PORTRAIT;
-            if(!(var4 !== var3)) { _fun0001_ip = 137; continue _fun0001 }
- 63:
+            if(!(var4 !== var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = _closure1_slot2;
             var3 = var3.UNLOCKED;
-            if(!(var4 === var3)) { _fun0001_ip = 80; continue _fun0001 }
- 77:
-            if(!var2) { _fun0001_ip = 137; continue _fun0001 }
- 80:
+            if(!(var4 === var3)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+            if(!var2) { _fun0001_ip = 4; continue _fun0001 }
+case 6:
             var2 = _closure1_slot3;
             var7 = var6 * var2;
             var5 = _closure1_slot0;
@@ -67,8 +67,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = true;
             var4 = false;
             var2 = 0;
-            _fun0001_ip = 198; continue _fun0001;
- 137:
+            _fun0001_ip = 8; continue _fun0001;
+case 4:
             var8 = _closure1_slot3;
             var11 = var12 * var8;
             var10 = _closure1_slot0;
@@ -86,7 +86,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = 0;
             var7 = var12;
             var6 = var11;
- 198:
+case 8:
             var1 = {};
             var1['width'] = var7;
             var1['height'] = var6;

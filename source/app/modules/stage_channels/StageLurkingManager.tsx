@@ -9,8 +9,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function _isNativeReflectConstruct() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
- 2: // try_start_0
+case 0:
+case 2: // try_start_0
             var2 = global;
             var3 = var2.Boolean;
             var3 = var3.prototype;
@@ -28,11 +28,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var4)(var2);
             var2 = !var2;
             var _closure2_slot0 = var2;
- 72: // try_end0
-            _fun0001_ip = 76; continue _fun0001;
- 74: // catch_target0
+case 3: // try_end0
+            _fun0001_ip = 4; continue _fun0001;
+case 5: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+case 4:
             var2 = function _isNativeReflectConstruct() {
                 var1 = _closure2_slot0;
                 var1 = !var1;
@@ -89,7 +89,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function(arg1) {
         var4 = function StageLurkingManager(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var5 = this;
                 var13 = 0;
                 var1 = copyRestArgs(var13);
@@ -107,12 +107,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = _closure1_slot5;
                 var1 = _closure1_slot10;
                 var1 = var1.bind(var4)();
-                if(var1) { _fun0002_ip = 86; continue _fun0002 }
- 73:
+                if(var1) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                 var1 = var9.apply;
                 var1 = var1.bind(var9)(var5, var10);
-                _fun0002_ip = 120; continue _fun0002;
- 86:
+                _fun0002_ip = 8; continue _fun0002;
+case 6:
                 var7 = global;
                 var8 = var7.Reflect;
                 var7 = var8.construct;
@@ -120,48 +120,48 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var6.bind(var4)(var5);
                 var6 = var6.constructor;
                 var1 = var7.bind(var8)(var9, var10, var6);
- 120:
+case 8:
                 var1 = var3.bind(var4)(var5, var1);
                 var _closure3_slot0 = var1;
                 var3 = function(arg1) {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                         var1 = arg1;
                         var3 = var1.channelId;
                         var4 = var1.guildId;
                         var2 = null;
-                        if(!(var2 != var3)) { _fun0003_ip = 53; continue _fun0003 }
- 19:
+                        if(!(var2 != var3)) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
                         var5 = _closure1_slot8;
                         var1 = var5.getChannel;
                         var5 = var1.bind(var5)(var3);
-                        if(!(var2 != var5)) { _fun0003_ip = 113; continue _fun0003 }
- 40:
+                        if(!(var2 != var5)) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
                         var1 = var5.isGuildStageVoice;
                         var1 = var1.bind(var5)();
-                        if(var1) { _fun0003_ip = 113; continue _fun0003 }
- 53:
+                        if(var1) { _fun0003_ip = 11; continue _fun0003 }
+case 9:
                         var6 = _closure3_slot0;
                         var5 = var6.terminate;
                         var5 = var5.bind(var6)();
                         var5 = var2 == var3;
                         var3 = null;
-                        if(var5) { _fun0003_ip = 94; continue _fun0003 }
- 79:
+                        if(var5) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
                         var5 = var2 != var4;
                         var2 = null;
-                        if(!var5) { _fun0003_ip = 91; continue _fun0003 }
- 88:
+                        if(!var5) { _fun0003_ip = 15; continue _fun0003 }
+case 16:
                         var2 = var4;
- 91:
+case 15:
                         var3 = var2;
- 94:
+case 13:
                         var2 = _closure3_slot0;
                         var1 = var2.handleDisconnectFromStageChannel;
                         var1 = var1.bind(var2)(var3);
                         var1 = undefined;
                         return var1;
- 113:
+case 11:
                         var1 = undefined;
                         return var1;
                     }

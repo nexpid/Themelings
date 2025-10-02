@@ -62,16 +62,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot4 = var5;
     var9 = function setLevels(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var10 = arg1;
             var9 = arg2;
             var7 = var10;
             var2 = ' ';
             var1 = undefined;
             for(var4 in var7)
- 26:
+case 2:
             {
- 35:
+case 3:
                 var11 = var4;
                 var12 = _closure1_slot4;
                 var12[var11] = var9;
@@ -79,9 +79,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var12 = var10[var11];
                 var11 = var9 + var2;
                 var11 = var13.bind(var1)(var12, var11);
-                _fun0001_ip = 26; continue _fun0001;
+                _fun0001_ip = 2; continue _fun0001;
             }
- 66:
+case 4:
             return var1;
         }
     };

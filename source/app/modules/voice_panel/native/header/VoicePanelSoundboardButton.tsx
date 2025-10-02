@@ -36,7 +36,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function VoicePanelSoundboardButton(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var3 = var1.channelId;
             var6 = var1.style;
@@ -57,8 +57,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var1.disabled;
             var7 = var1.showIndicator;
             var1 = null;
-            if(!var2) { _fun0001_ip = 308; continue _fun0001 }
- 100:
+            if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = _closure1_slot5;
             var3 = _closure1_slot3;
             var2 = {};
@@ -94,8 +94,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var10.bind(var5)(var9, var6);
             var6 = new Array(2);
             var6[0] = var9;
-            if(!var7) { _fun0001_ip = 294; continue _fun0001 }
- 262:
+            if(!var7) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var10 = _closure1_slot4;
             var9 = _closure1_slot1;
             var11 = _closure1_slot2;
@@ -104,11 +104,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var9.bind(var5)(var8);
             var8 = {};
             var7 = var10.bind(var5)(var9, var8);
- 294:
+case 4:
             var6[1] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 308:
+case 2:
             return var1;
         }
     };

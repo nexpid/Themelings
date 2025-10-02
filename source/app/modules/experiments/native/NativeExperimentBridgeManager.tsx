@@ -8,8 +8,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var6;
     var1 = function _isNativeReflectConstruct() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
- 2: // try_start_0
+case 0:
+case 2: // try_start_0
             var2 = global;
             var3 = var2.Boolean;
             var3 = var3.prototype;
@@ -27,11 +27,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var4)(var2);
             var2 = !var2;
             var _closure2_slot0 = var2;
- 72: // try_end0
-            _fun0001_ip = 76; continue _fun0001;
- 74: // catch_target0
+case 3: // try_end0
+            _fun0001_ip = 4; continue _fun0001;
+case 5: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+case 4:
             var2 = function _isNativeReflectConstruct() {
                 var1 = _closure2_slot0;
                 var1 = !var1;
@@ -47,12 +47,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot8 = var1;
     var1 = function updateIOSExperiments() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var2 = _closure1_slot7;
             var5 = var2.NSUserDefaultsBridge;
             var2 = null;
-            if(!(var2 != var5)) { _fun0002_ip = 77; continue _fun0002 }
- 19:
+            if(!(var2 != var5)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var4 = var5.setShouldEnableCustomEmojisInPushNotifications;
             var7 = _closure1_slot0;
             var6 = _closure1_slot1;
@@ -66,17 +66,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['location'] = var8;
             var3 = var6.bind(var7)(var3);
             var3 = var4.bind(var5)(var3);
- 77:
+case 6:
             var3 = _closure1_slot7;
             var5 = var3.NSUserDefaultsBridge;
             var3 = var2 == var5;
-            if(var3) { _fun0002_ip = 104; continue _fun0002 }
- 94:
+            if(var3) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var4 = var5.setShouldClearChannelNotificationsOnPushAck;
             var3 = var2 == var4;
- 104:
-            if(var3) { _fun0002_ip = 163; continue _fun0002 }
- 107:
+case 8:
+            if(var3) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
             var4 = var5.setShouldClearChannelNotificationsOnPushAck;
             var7 = _closure1_slot0;
             var6 = _closure1_slot1;
@@ -90,11 +90,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['location'] = var8;
             var3 = var6.bind(var7)(var3);
             var3 = var4.bind(var5)(var3);
- 163:
+case 10:
             var3 = _closure1_slot7;
             var3 = var3.NSUserDefaultsBridge;
-            if(!(var2 != var3)) { _fun0002_ip = 235; continue _fun0002 }
- 177:
+            if(!(var2 != var3)) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
             var2 = var3.setShouldEnableAnimatedReactionUpdates;
             var5 = _closure1_slot0;
             var4 = _closure1_slot1;
@@ -108,7 +108,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['location'] = var6;
             var1 = var4.bind(var5)(var1);
             var1 = var2.bind(var3)(var1);
- 235:
+case 12:
             var1 = undefined;
             return var1;
         }
@@ -159,7 +159,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function(arg1) {
         var3 = function NativeExperimentBridgeManager(arg1) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var4 = this;
                 var13 = 0;
                 var1 = copyRestArgs(var13);
@@ -177,12 +177,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = _closure1_slot4;
                 var1 = _closure1_slot8;
                 var1 = var1.bind(var5)();
-                if(var1) { _fun0003_ip = 84; continue _fun0003 }
- 71:
+                if(var1) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
                 var1 = var9.apply;
                 var1 = var1.bind(var9)(var4, var10);
-                _fun0003_ip = 118; continue _fun0003;
- 84:
+                _fun0003_ip = 16; continue _fun0003;
+case 14:
                 var6 = global;
                 var8 = var6.Reflect;
                 var7 = var8.construct;
@@ -190,7 +190,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var6.bind(var5)(var4);
                 var6 = var6.constructor;
                 var1 = var7.bind(var8)(var9, var10, var6);
- 118:
+case 16:
                 var1 = var2.bind(var5)(var4, var1);
                 var4 = _closure1_slot0;
                 var2 = _closure1_slot1;
@@ -199,28 +199,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var4.bind(var5)(var2);
                 var2 = var4.isIOS;
                 var2 = var2.bind(var4)();
-                if(var2) { _fun0003_ip = 203; continue _fun0003 }
- 157:
+                if(var2) { _fun0003_ip = 17; continue _fun0003 }
+case 18:
                 var4 = _closure1_slot0;
                 var2 = _closure1_slot1;
                 var2 = var2[var6];
                 var4 = var4.bind(var5)(var2);
                 var2 = var4.isAndroid;
                 var2 = var2.bind(var4)();
-                if(var2) { _fun0003_ip = 197; continue _fun0003 }
- 186:
+                if(var2) { _fun0003_ip = 19; continue _fun0003 }
+case 20:
                 var2 = function() {
                     var1 = undefined;
                     return var1;
                 };
-                _fun0003_ip = 201; continue _fun0003;
- 197:
+                _fun0003_ip = 21; continue _fun0003;
+case 19:
                 var2 = _closure1_slot10;
- 201:
-                _fun0003_ip = 207; continue _fun0003;
- 203:
+case 21:
+                _fun0003_ip = 22; continue _fun0003;
+case 17:
                 var2 = _closure1_slot9;
- 207:
+case 22:
                 var1['handleUpdate'] = var2;
                 var2 = {};
                 var3 = var1.handleUpdate;

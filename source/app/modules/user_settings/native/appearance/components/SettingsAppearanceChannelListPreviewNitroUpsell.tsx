@@ -22,16 +22,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var5.useAnimatedStyle;
         var2 = function l() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var1 = _closure2_slot0;
                 var3 = var1.theme;
                 var1 = _closure1_slot9;
                 var1 = var1.LIGHT;
                 var5 = 1;
-                if(!(var3 === var1)) { _fun0001_ip = 43; continue _fun0001 }
- 33:
+                if(!(var3 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var5 = 0.5;
- 43:
+case 2:
                 var1 = {};
                 var3 = _closure1_slot4;
                 var9 = var3.absoluteFillObject;
@@ -306,16 +306,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var4.springStandard;
             var4 = function s(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = _closure3_slot0;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0002_ip = 27; continue _fun0002 }
- 13:
+                    if(!(var2 != var3)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var3 = _closure3_slot0;
                     var2 = undefined;
                     var1 = arg1;
                     var1 = var3.bind(var2)(var1);
- 27:
+case 4:
                     var1 = undefined;
                     return var1;
                 }
@@ -423,7 +423,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function SettingsAppearanceChannelListPreviewNitroUpsell(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var8 = arg1;
             var3 = _closure1_slot0;
             var9 = _closure1_slot2;
@@ -445,7 +445,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var5.useCallback;
             var2 = function(arg1, arg2) {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                     var9 = arg1;
                     var4 = _closure1_slot10;
                     var2 = _closure1_slot1;
@@ -462,8 +462,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1['pointerEvents'] = var5;
                     var5 = null;
                     var7 = var5 != var9;
-                    if(!var7) { _fun0004_ip = 92; continue _fun0004 }
- 66:
+                    if(!var7) { _fun0004_ip = 6; continue _fun0004 }
+case 7:
                     var8 = _closure1_slot10;
                     var7 = _closure1_slot21;
                     var6 = {};
@@ -471,7 +471,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var10 = var9;
                     var9 = copyDataProperties(var11, var10);
                     var5 = var8.bind(var3)(var7, var6);
- 92:
+case 6:
                     var1['children'] = var5;
                     var1 = var4.bind(var3)(var2, var1);
                     return var1;
@@ -488,10 +488,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['useReducedMotion'] = var7;
             var9 = var8.visible;
             var7 = undefined;
-            if(!var9) { _fun0003_ip = 127; continue _fun0003 }
- 124:
+            if(!var9) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
             var7 = var8;
- 127:
+case 8:
             var1['item'] = var7;
             var7 = _closure1_slot15;
             var1['entering'] = var7;

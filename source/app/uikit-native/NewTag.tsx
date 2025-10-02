@@ -68,29 +68,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function NewTag(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var13 = var4.containerStyle;
             var10 = var4.textStyle;
             var16 = var4.variant;
             var5 = undefined;
-            if(!(var16 === var5)) { _fun0001_ip = 32; continue _fun0001 }
- 26:
+            if(!(var16 === var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var16 = 'heading-sm/semibold';
- 32:
+case 2:
             var15 = var4.color;
-            if(!(var15 === var5)) { _fun0001_ip = 47; continue _fun0001 }
- 41:
+            if(!(var15 === var5)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var15 = 'always-white';
- 47:
+case 4:
             var1 = var4.gradient;
-            if(!(var1 === var5)) { _fun0001_ip = 59; continue _fun0001 }
- 57:
+            if(!(var1 === var5)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var1 = false;
- 59:
+case 6:
             var9 = var4.borderRadius;
-            if(!(var9 === var5)) { _fun0001_ip = 102; continue _fun0001 }
- 68:
+            if(!(var9 === var5)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var3 = _closure1_slot1;
             var6 = _closure1_slot2;
             var2 = 5;
@@ -98,10 +98,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var5)(var2);
             var2 = var2.radii;
             var9 = var2.sm;
- 102:
+case 8:
             var6 = var4.colors;
-            if(!(var6 === var5)) { _fun0001_ip = 180; continue _fun0001 }
- 111:
+            if(!(var6 === var5)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var7 = _closure1_slot1;
             var8 = _closure1_slot2;
             var3 = 5;
@@ -117,7 +117,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.PREMIUM_TIER_2_PINK;
             var2[1] = var3;
             var6 = var2;
- 180:
+case 10:
             var3 = {'containerStyle': 0, 'textStyle': 0, 'variant': 0, 'color': 0, 'gradient': 0, 'borderRadius': 0, 'colors': 0};
             var22 = null;
             var23 = var3;
@@ -129,8 +129,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = _closure1_slot6;
             var11 = var2.bind(var5)();
             var4 = _closure1_slot5;
-            if(var1) { _fun0001_ip = 413; continue _fun0001 }
- 236:
+            if(var1) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var2 = _closure1_slot3;
             var1 = {};
             var7 = var11.tagContainer;
@@ -171,8 +171,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.bind(var5)(var7, var3);
             var1['children'] = var3;
             var1 = var4.bind(var5)(var2, var1);
-            _fun0001_ip = 679; continue _fun0001;
- 413:
+            _fun0001_ip = 14; continue _fun0001;
+case 12:
             var17 = _closure1_slot1;
             var14 = _closure1_slot2;
             var2 = 6;
@@ -235,7 +235,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var4.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 679:
+case 14:
             return var1;
         }
     };

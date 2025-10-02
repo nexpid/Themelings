@@ -93,7 +93,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function _default(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var3 = var2.feedBlock;
             var _closure2_slot0 = var3;
@@ -237,8 +237,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = new Array(2);
             var6[0] = var7;
             var7 = !var12;
-            if(var12) { _fun0001_ip = 481; continue _fun0001 }
- 373:
+            if(var12) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var20 = _closure1_slot10;
             var25 = _closure1_slot0;
             var21 = _closure1_slot2;
@@ -263,7 +263,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var21 = 'md';
             var16['size'] = var21;
             var7 = var20.bind(var4)(var18, var16);
- 481:
+case 2:
             var6[1] = var7;
             var5['children'] = var6;
             var6 = var3.bind(var4)(var2, var5);
@@ -329,14 +329,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var16.bind(var4)(var14, var13);
             var9[1] = var13;
             var14 = _closure1_slot10;
-            if(var12) { _fun0001_ip = 863; continue _fun0001 }
- 775:
+            if(var12) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var12 = _closure1_slot4;
             var13 = {};
             var18 = _closure1_slot0;
             var19 = _closure1_slot2;
-            if(var10) { _fun0001_ip = 823; continue _fun0001 }
- 792:
+            if(var10) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var10 = 22;
             var10 = var19[var10];
             var10 = var18.bind(var4)(var10);
@@ -344,8 +344,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var15.feedFooterImage;
             var13['style'] = var10;
             var10 = var13;
-            _fun0001_ip = 852; continue _fun0001;
- 823:
+            _fun0001_ip = 8; continue _fun0001;
+case 6:
             var16 = 21;
             var16 = var19[var16];
             var16 = var18.bind(var4)(var16);
@@ -353,12 +353,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = var15.feedFooterImage;
             var13['style'] = var16;
             var10 = var13;
- 852:
+case 8:
             var10 = var14.bind(var4)(var12, var10);
-            _fun0001_ip = 1026; continue _fun0001;
- 863:
-            if(var11) { _fun0001_ip = 971; continue _fun0001 }
- 866:
+            _fun0001_ip = 9; continue _fun0001;
+case 4:
+            if(var11) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var12 = _closure1_slot0;
             var18 = _closure1_slot2;
             var11 = 19;
@@ -380,8 +380,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var16.bind(var4)(var13);
             var11['poster'] = var13;
             var11 = var14.bind(var4)(var12, var11);
-            _fun0001_ip = 1023; continue _fun0001;
- 971:
+            _fun0001_ip = 12; continue _fun0001;
+case 10:
             var13 = _closure1_slot4;
             var12 = {};
             var16 = {};
@@ -395,9 +395,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var15.feedFooterOrbImage;
             var12['style'] = var15;
             var11 = var14.bind(var4)(var13, var12);
- 1023:
+case 12:
             var10 = var11;
- 1026:
+case 9:
             var9[2] = var10;
             var6['children'] = var9;
             var6 = var8.bind(var4)(var7, var6);

@@ -34,11 +34,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['CustomLinkType'] = var4;
     var2 = function decodeCustomActivityLink(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arg1;
             var1 = null;
-            if(!(var1 != var5)) { _fun0001_ip = 133; continue _fun0001 }
- 12:
+            if(!(var1 != var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = var5.split;
             var2 = '-';
             var7 = var3.bind(var5)(var2);
@@ -51,31 +51,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = 1;
             var4 = var4[var3];
             var3 = '0';
-            if(!(var3 !== var7)) { _fun0001_ip = 91; continue _fun0001 }
- 67:
+            if(!(var3 !== var7)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = '1';
             var6 = null;
-            if(!(var3 === var7)) { _fun0001_ip = 101; continue _fun0001 }
- 79:
+            if(!(var3 === var7)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var3 = _closure1_slot1;
             var6 = var3.QUICK;
-            _fun0001_ip = 101; continue _fun0001;
- 91:
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
             var2 = _closure1_slot1;
             var6 = var2.MANAGED;
- 101:
+case 6:
             var3 = var1 == var6;
             var2 = null;
-            if(var3) { _fun0001_ip = 131; continue _fun0001 }
- 110:
+            if(var3) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var3 = {};
             var3['type'] = var6;
             var3['encodedLinkId'] = var5;
             var3['decodedLinkId'] = var4;
             var2 = var3;
- 131:
+case 8:
             return var2;
- 133:
+case 2:
             return var1;
         }
     };

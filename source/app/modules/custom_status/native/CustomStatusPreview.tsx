@@ -46,16 +46,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var8.createStyles;
     var4 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arg1;
             var1 = {};
             var2 = {'flex': 1, 'position': 'relative', 'overflow': 'hidden', 'width': 323, 'maxHeight': 301, 'borderWidth': null, 'borderColor': null, 'borderRadius': 16};
             var3 = 1;
             var4 = var3;
-            if(!var5) { _fun0001_ip = 30; continue _fun0001 }
- 28:
+            if(!var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = undefined;
- 30:
+case 2:
             var2['borderWidth'] = var4;
             var9 = _closure1_slot1;
             var6 = _closure1_slot2;
@@ -64,13 +64,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = undefined;
             var8 = var9.bind(var6)(var8);
             var8 = var8.colors;
-            if(var5) { _fun0001_ip = 77; continue _fun0001 }
- 69:
+            if(var5) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = var8.BACKGROUND_FLOATING;
-            _fun0001_ip = 83; continue _fun0001;
- 77:
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
             var5 = var8.BORDER_FAINT;
- 83:
+case 6:
             var2['borderColor'] = var5;
             var5 = _closure1_slot1;
             var4 = _closure1_slot2;
@@ -99,7 +99,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function CustomStatusPreview(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var2 = arg1;
             var23 = var2.user;
             var _closure2_slot0 = var23;
@@ -245,22 +245,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17[0] = var18;
             var18 = '';
             var19 = var18 !== var26;
-            if(var19) { _fun0002_ip = 489; continue _fun0002 }
- 485:
+            if(var19) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
             var19 = var14 !== var27;
- 489:
-            if(var19) { _fun0002_ip = 496; continue _fun0002 }
- 492:
+case 7:
+            if(var19) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
             var19 = var18 !== var25;
- 496:
+case 9:
             var18 = !var19;
-            if(var19) { _fun0002_ip = 516; continue _fun0002 }
- 502:
+            if(var19) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
             var19 = {};
             var20 = _closure1_slot5;
             var19['paddingTop'] = var20;
             var18 = var19;
- 516:
+case 11:
             var17[1] = var18;
             var12['containerStyle'] = var17;
             var20 = _closure1_slot7;
@@ -292,10 +292,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var18['themeType'] = var23;
             var24 = var14 == var15;
             var23 = undefined;
-            if(var24) { _fun0002_ip = 659; continue _fun0002 }
- 653:
+            if(var24) { _fun0002_ip = 13; continue _fun0002 }
+case 14:
             var23 = var15.pronouns;
- 659:
+case 13:
             var18['pronouns'] = var23;
             var18['badges'] = var22;
             var18['badgeContainerBackground'] = var21;
@@ -311,13 +311,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8[1] = var9;
             var11 = var14 == var15;
             var9 = undefined;
-            if(var11) { _fun0002_ip = 734; continue _fun0002 }
- 728:
+            if(var11) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
             var9 = var15.profileEffect;
- 734:
+case 15:
             var9 = var14 != var9;
-            if(!var9) { _fun0002_ip = 809; continue _fun0002 }
- 741:
+            if(!var9) { _fun0002_ip = 17; continue _fun0002 }
+case 18:
             var12 = _closure1_slot7;
             var11 = _closure1_slot1;
             var16 = _closure1_slot2;
@@ -327,16 +327,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = {};
             var16 = var14 == var15;
             var14 = undefined;
-            if(var16) { _fun0002_ip = 788; continue _fun0002 }
- 776:
+            if(var16) { _fun0002_ip = 19; continue _fun0002 }
+case 20:
             var15 = var15.profileEffect;
             var14 = var15.skuId;
- 788:
+case 19:
             var10['skuId'] = var14;
             var13 = var13.profileEffect;
             var10['style'] = var13;
             var9 = var12.bind(var4)(var11, var10);
- 809:
+case 17:
             var8[2] = var9;
             var5['children'] = var8;
             var5 = var7.bind(var4)(var6, var5);

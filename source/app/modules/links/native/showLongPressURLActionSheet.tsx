@@ -24,7 +24,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function showLongPressURLActionSheet(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var7 = var1.urlString;
             var _closure2_slot0 = var7;
@@ -36,13 +36,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot3 = var2;
             var2 = var1.disableHapticFeedback;
             var1 = undefined;
-            if(!(var2 === var1)) { _fun0001_ip = 58; continue _fun0001 }
- 56:
+            if(!(var2 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = false;
- 58:
+case 2:
             var _closure2_slot4 = var1;
-            if(var2) { _fun0001_ip = 119; continue _fun0001 }
- 65:
+            if(var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
             var2 = 0;
@@ -54,15 +54,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.HapticFeedbackTypes;
             var2 = var2.IMPACT_LIGHT;
             var2 = var3.bind(var5)(var2);
- 119:
+case 4:
             var9 = new Array(0);
             var3 = var7.match;
             var2 = /^(tel|sms|mailto):([^?;]+)/;
             var2 = var3.bind(var7)(var2);
             _closure2_slot4 = var2;
             var3 = null;
-            if(!(var3 != var2)) { _fun0001_ip = 393; continue _fun0001 }
- 161:
+            if(!(var3 != var2)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var10 = var9.push;
             var5 = {};
             var12 = _closure1_slot0;
@@ -74,23 +74,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var14.string;
             var15 = var2[var13];
             var11 = 'mailto';
-            if(!(var11 !== var15)) { _fun0001_ip = 245; continue _fun0001 }
- 213:
+            if(!(var11 !== var15)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var15 = _closure1_slot0;
             var11 = _closure1_slot2;
             var11 = var11[var13];
             var11 = var15.bind(var1)(var11);
             var11 = var11.t;
             var11 = var11.3zozoa;
-            _fun0001_ip = 275; continue _fun0001;
- 245:
+            _fun0001_ip = 10; continue _fun0001;
+case 8:
             var16 = _closure1_slot0;
             var15 = _closure1_slot2;
             var15 = var15[var13];
             var15 = var16.bind(var1)(var15);
             var15 = var15.t;
             var11 = var15.ZYLVKi;
- 275:
+case 10:
             var11 = var12.bind(var14)(var11);
             var5['label'] = var11;
             var11 = function onPress() {
@@ -115,8 +115,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var10.bind(var9)(var5);
             var5 = var2[var13];
             var2 = 'tel';
-            if(!(var2 === var5)) { _fun0001_ip = 393; continue _fun0001 }
- 312:
+            if(!(var2 === var5)) { _fun0001_ip = 6; continue _fun0001 }
+case 11:
             var5 = var9.push;
             var2 = {};
             var12 = _closure1_slot0;
@@ -149,7 +149,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var2['onPress'] = var8;
             var2 = var5.bind(var9)(var2);
- 393:
+case 6:
             var8 = {};
             var14 = _closure1_slot0;
             var10 = _closure1_slot2;
@@ -242,8 +242,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9['onPress'] = var10;
             var5[var8] = var9;
             var8 = var8 + var12;
-            if(!(var3 != var4)) { _fun0001_ip = 708; continue _fun0001 }
- 628:
+            if(!(var3 != var4)) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var4 = var5.unshift;
             var3 = {};
             var11 = _closure1_slot0;
@@ -279,7 +279,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var3['onPress'] = var6;
             var3 = var4.bind(var5)(var3);
- 708:
+case 12:
             var11 = _closure1_slot0;
             var8 = _closure1_slot2;
             var2 = 7;

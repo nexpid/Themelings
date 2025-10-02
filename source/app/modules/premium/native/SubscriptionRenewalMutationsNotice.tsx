@@ -72,7 +72,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function SubscriptionRenewalMutationsNotice(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var13 = var1.subscription;
             var17 = var1.renewalMutations;
@@ -115,8 +115,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var9.ar1cPj;
             var9 = {};
             var14 = var13.hasExternalPlanChange;
-            if(var14) { _fun0001_ip = 221; continue _fun0001 }
- 182:
+            if(var14) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var16 = _closure1_slot1;
             var18 = _closure1_slot2;
             var14 = 9;
@@ -125,8 +125,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = var18.getDisplayName;
             var14 = var17.planId;
             var14 = var16.bind(var18)(var14);
-            _fun0001_ip = 252; continue _fun0001;
- 221:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var16 = _closure1_slot0;
             var18 = _closure1_slot2;
             var15 = 9;
@@ -134,7 +134,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = var16.bind(var4)(var15);
             var15 = var16.getExternalPlanDisplayName;
             var14 = var15.bind(var16)(var17);
- 252:
+case 4:
             var9['planName'] = var14;
             var13 = var13.currentPeriodEnd;
             var9['date'] = var13;

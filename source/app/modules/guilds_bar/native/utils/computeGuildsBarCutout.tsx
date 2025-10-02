@@ -39,30 +39,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function computeGuildsBarCutout(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var7 = var1.position;
             var4 = var1.containerSize;
             var10 = undefined;
-            if(!(var4 === var10)) { _fun0001_ip = 27; continue _fun0001 }
- 20:
+            if(!(var4 === var10)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = _closure1_slot3;
- 27:
+case 2:
             var5 = var1.width;
-            if(!(var5 === var10)) { _fun0001_ip = 43; continue _fun0001 }
- 36:
+            if(!(var5 === var10)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = _closure1_slot5;
- 43:
+case 4:
             var6 = var1.height;
-            if(!(var6 === var10)) { _fun0001_ip = 59; continue _fun0001 }
- 52:
+            if(!(var6 === var10)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var6 = _closure1_slot5;
- 59:
+case 6:
             var2 = var1.padding;
-            if(!(var2 === var10)) { _fun0001_ip = 75; continue _fun0001 }
- 68:
+            if(!(var2 === var10)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var2 = _closure1_slot4;
- 75:
+case 8:
             var9 = _closure1_slot2;
             var3 = var9.roundToNearestPixel;
             var11 = 2;
@@ -93,22 +93,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['height'] = var5;
             var1['cornerRadius'] = var6;
             var6 = 'top-right';
-            if(!(var6 !== var7)) { _fun0001_ip = 262; continue _fun0001 }
- 232:
+            if(!(var6 !== var7)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var6 = var4 - var3;
             var6 = var6 + var2;
             var1['x'] = var6;
             var5 = var4 - var5;
             var5 = var5 + var2;
             var1['y'] = var5;
-            _fun0001_ip = 285; continue _fun0001;
- 262:
+            _fun0001_ip = 12; continue _fun0001;
+case 10:
             var3 = var4 - var3;
             var3 = var3 + var2;
             var1['x'] = var3;
             var2 = -var2;
             var1['y'] = var2;
- 285:
+case 12:
             return var1;
         }
     };

@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function UserRow(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var10 = var1.userActivity;
             var3 = _closure1_slot3;
@@ -17,8 +17,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var10.user_id;
             var9 = var2.bind(var3)(var1);
             var1 = null;
-            if(!(var1 != var9)) { _fun0001_ip = 259; continue _fun0001 }
- 42:
+            if(!(var1 != var9)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var11 = _closure1_slot0;
             var12 = _closure1_slot2;
             var2 = 4;
@@ -67,7 +67,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['icon'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
- 259:
+case 2:
             return var1;
         }
     };

@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var2 = function StrangerDangerWarningBanner(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var13 = var1.channelId;
             var _closure2_slot0 = var13;
@@ -379,8 +379,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9['onpress'] = var5;
             var5 = new Array(1);
             var5[0] = var9;
-            if(var6) { _fun0001_ip = 638; continue _fun0001 }
- 524:
+            if(var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = {};
             var9 = _closure1_slot0;
             var10 = _closure1_slot2;
@@ -405,10 +405,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6['onpress'] = var7;
             var7 = new Array(1);
             var7[0] = var6;
-            _fun0001_ip = 642; continue _fun0001;
- 638:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var7 = new Array(0);
- 642:
+case 4:
             var16 = 1;
             var18 = var5;
             var17 = var7;

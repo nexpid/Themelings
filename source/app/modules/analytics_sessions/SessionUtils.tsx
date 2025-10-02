@@ -46,18 +46,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['isSessionExpired'] = var4;
     var2 = function timestampOrZero(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var1 = null;
             var2 = var1 != var4;
             var1 = 0;
-            if(!var2) { _fun0001_ip = 29; continue _fun0001 }
- 14:
+            if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = global;
             var3 = var2.Number;
             var2 = undefined;
             var1 = var3.bind(var2)(var4);
- 29:
+case 2:
             return var1;
         }
     };

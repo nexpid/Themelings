@@ -9,8 +9,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var7;
     var1 = function _isNativeReflectConstruct() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
- 2: // try_start_0
+case 0:
+case 2: // try_start_0
             var2 = global;
             var3 = var2.Boolean;
             var3 = var3.prototype;
@@ -28,11 +28,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var4)(var2);
             var2 = !var2;
             var _closure2_slot0 = var2;
- 70: // try_end0
-            _fun0001_ip = 74; continue _fun0001;
- 72: // catch_target0
+case 3: // try_end0
+            _fun0001_ip = 4; continue _fun0001;
+case 5: // catch_target0
             CatchBlockStart(arg_register=1);
- 74:
+case 4:
             var2 = function _isNativeReflectConstruct() {
                 var1 = _closure2_slot0;
                 var1 = !var1;
@@ -51,11 +51,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure2_slot0 = var2;
         var1 = function(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var4 = arg1;
                 var1 = null;
-                if(!(var1 == var4)) { _fun0002_ip = 59; continue _fun0002 }
- 9:
+                if(!(var1 == var4)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                 var6 = _closure1_slot1;
                 var5 = _closure1_slot2;
                 var3 = 7;
@@ -67,15 +67,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var6.getId;
                 var2 = var2.bind(var6)();
                 var4 = var3.bind(var5)(var2);
- 59:
+case 6:
                 var2 = var1 == var4;
                 var1 = null;
-                if(var2) { _fun0002_ip = 82; continue _fun0002 }
- 68:
+                if(var2) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                 var3 = _closure2_slot0;
                 var2 = undefined;
                 var1 = var3.bind(var2)(var4);
- 82:
+case 8:
                 return var1;
             }
         };
@@ -142,7 +142,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = function(arg1) {
         var4 = function DatabaseDaos(arg1) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var6 = this;
                 var14 = 0;
                 var1 = copyRestArgs(var14);
@@ -160,12 +160,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = _closure1_slot5;
                 var1 = _closure1_slot9;
                 var1 = var1.bind(var5)();
-                if(var1) { _fun0003_ip = 86; continue _fun0003 }
- 73:
+                if(var1) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
                 var1 = var10.apply;
                 var1 = var1.bind(var10)(var6, var11);
-                _fun0003_ip = 120; continue _fun0003;
- 86:
+                _fun0003_ip = 12; continue _fun0003;
+case 10:
                 var7 = global;
                 var9 = var7.Reflect;
                 var8 = var9.construct;
@@ -173,12 +173,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = var7.bind(var5)(var6);
                 var7 = var7.constructor;
                 var1 = var8.bind(var9)(var10, var11, var7);
- 120:
+case 12:
                 var1 = var4.bind(var5)(var6, var1);
                 var _closure3_slot0 = var1;
                 var4 = function(arg1) {
                     _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                         var3 = arg1;
                         var5 = _closure1_slot1;
                         var2 = _closure1_slot2;
@@ -188,12 +188,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = var5.bind(var1)(var2);
                         var1 = var2.database;
                         var5 = null;
-                        if(!(var5 == var3)) { _fun0004_ip = 54; continue _fun0004 }
- 40:
+                        if(!(var5 == var3)) { _fun0004_ip = 13; continue _fun0004 }
+case 14:
                         var5 = _closure1_slot8;
                         var4 = var5.getId;
                         var3 = var4.bind(var5)();
- 54:
+case 13:
                         var1 = var1.bind(var2)(var3);
                         return var1;
                     }

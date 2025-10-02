@@ -46,7 +46,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[0] = var5;
         var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var10 = _closure1_slot0;
                 var6 = _closure1_slot3;
                 var1 = 3;
@@ -102,8 +102,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var3.insertStaticUser;
                 var2 = var2.bind(var3)(var4);
                 var3 = null;
-                if(!(var3 != var2)) { _fun0001_ip = 285; continue _fun0001 }
- 258:
+                if(!(var3 != var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var1['author'] = var2;
                 var3 = var1.author;
                 var2 = function() {
@@ -116,7 +116,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var3['getAvatarURL'] = var2;
- 285:
+case 2:
                 return var1;
             }
         };

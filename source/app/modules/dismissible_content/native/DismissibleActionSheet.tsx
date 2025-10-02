@@ -83,18 +83,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = function() {
             var1 = function() {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     var2 = _closure2_slot0;
                     var3 = var2.hideSheetOnUnmount;
                     var2 = null;
                     var2 = var2 != var3;
-                    if(!var2) { _fun0001_ip = 32; continue _fun0001 }
- 22:
+                    if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var3 = _closure2_slot0;
                     var2 = var3.hideSheetOnUnmount;
- 32:
-                    if(!var2) { _fun0001_ip = 81; continue _fun0001 }
- 35:
+case 2:
+                    if(!var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot1;
                     var2 = 2;
@@ -105,7 +105,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = _closure2_slot0;
                     var1 = var1.actionSheetKey;
                     var1 = var2.bind(var3)(var1);
- 81:
+case 4:
                     var1 = undefined;
                     return var1;
                 }

@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var8;
     var5 = function isValidPalette(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var2 = var4.name;
             var3 = _closure1_slot0;
@@ -20,8 +20,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var3.bind(var6)(var1);
             var1 = var1.INVALID_PALETTE_KEY;
             var1 = var2 !== var1;
-            if(!var1) { _fun0001_ip = 120; continue _fun0001 }
- 46:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = var4.name;
             var7 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -29,21 +29,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var7.bind(var6)(var2);
             var2 = var2.CUSTOM_PALETTE_KEY;
             var2 = var3 !== var2;
-            if(var2) { _fun0001_ip = 117; continue _fun0001 }
- 81:
+            if(var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var7 = _closure1_slot6;
             var3 = var4.darkBackground;
             var3 = var7.bind(var6)(var3);
-            if(!var3) { _fun0001_ip = 114; continue _fun0001 }
- 99:
+            if(!var3) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var5 = _closure1_slot6;
             var4 = var4.lightBackground;
             var3 = var5.bind(var6)(var4);
- 114:
+case 6:
             var2 = var3;
- 117:
+case 4:
             var1 = var2;
- 120:
+case 2:
             return var1;
         }
     };
@@ -72,7 +72,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot3 = var4;
     var4 = function getNameplatePalette(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var3 = _closure1_slot0;
             var1 = _closure1_slot2;
             var5 = 1;
@@ -83,14 +83,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = arg1;
             var1 = var3[var1];
             var3 = null;
-            if(!(var3 == var1)) { _fun0002_ip = 67; continue _fun0002 }
- 44:
+            if(!(var3 == var1)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var5];
             var2 = var3.bind(var4)(var2);
             var1 = var2.INVALID_NAMEPLATE_PALETTE;
- 67:
+case 8:
             return var1;
         }
     };
@@ -103,25 +103,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = var7.bind(var8)(var6);
     var6 = function getBackgroundGradientColors(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var1 = arg1;
             var4 = _closure1_slot5;
             var3 = undefined;
             var4 = var4.bind(var3)(var1);
-            if(var4) { _fun0003_ip = 22; continue _fun0003 }
- 20:
+            if(var4) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
             return var3;
- 22:
+case 10:
             var2 = _closure1_slot3;
             var3 = var2.LIGHT;
             var2 = arg2;
-            if(!(var2 !== var3)) { _fun0003_ip = 47; continue _fun0003 }
- 39:
+            if(!(var2 !== var3)) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
             var5 = var1.darkBackground;
-            _fun0003_ip = 53; continue _fun0003;
- 47:
+            _fun0003_ip = 14; continue _fun0003;
+case 12:
             var5 = var1.lightBackground;
- 53:
+case 14:
             var1 = {};
             var2 = global;
             var3 = var2.HermesInternal;
@@ -273,12 +273,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['getNameplateSampleUsers'] = var4;
     var2 = function(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var3 = arg1;
             var1 = null;
             var2 = var1 == var3;
-            if(var2) { _fun0004_ip = 63; continue _fun0004 }
- 12:
+            if(var2) { _fun0004_ip = 15; continue _fun0004 }
+case 16:
             var2 = {};
             var4 = var3.asset;
             var2['src'] = var4;
@@ -290,7 +290,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.label;
             var2['imgAlt'] = var3;
             var1 = var2;
- 63:
+case 15:
             return var1;
         }
     };

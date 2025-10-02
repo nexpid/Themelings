@@ -47,7 +47,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var7)(var5);
     var5 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var7 = arg1;
             var4 = _closure1_slot0;
             var1 = _closure1_slot2;
@@ -66,8 +66,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var4.bind(var5)(var1);
             var6 = 24;
             var1 = var7 % var6;
-            if(!(var1 !== var3)) { _fun0001_ip = 133; continue _fun0001 }
- 66:
+            if(!(var1 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = _closure1_slot0;
             var9 = _closure1_slot2;
             var1 = 1;
@@ -82,8 +82,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = {};
             var1['hours'] = var7;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0001_ip = 200; continue _fun0001;
- 133:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var3 = _closure1_slot0;
             var9 = _closure1_slot2;
             var2 = 1;
@@ -99,7 +99,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var7 / var6;
             var2['days'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 200:
+case 4:
             return var1;
         }
     };

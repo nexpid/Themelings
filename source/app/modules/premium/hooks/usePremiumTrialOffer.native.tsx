@@ -7,7 +7,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var6;
     var1 = function useGetTrialOffer(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var6 = arg1;
             var2 = arg2;
             var _closure2_slot0 = var2;
@@ -38,10 +38,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var3 = var3.bind(var4)(var1);
             var1 = null;
-            if(!var3) { _fun0001_ip = 112; continue _fun0001 }
- 109:
+            if(!var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var2;
- 112:
+case 2:
             return var1;
         }
     };

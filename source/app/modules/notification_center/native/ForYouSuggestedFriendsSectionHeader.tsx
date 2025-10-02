@@ -61,7 +61,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function ForYouSuggestedFriendsSectionHeader(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var7 = var1.showDivider;
             var1 = _closure1_slot4;
@@ -74,10 +74,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = new Array(2);
             var6[0] = var9;
             var7 = !var7;
-            if(!var7) { _fun0001_ip = 57; continue _fun0001 }
- 51:
+            if(!var7) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var7 = var8.noDivider;
- 57:
+case 2:
             var6[1] = var7;
             var1['style'] = var6;
             var7 = _closure1_slot3;

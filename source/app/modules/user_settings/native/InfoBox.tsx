@@ -86,17 +86,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var7)(var5);
     var4 = function InfoBox(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var9 = var1.children;
             var14 = var1.style;
             var6 = var1.look;
             var4 = undefined;
-            if(!(var6 === var4)) { _fun0001_ip = 38; continue _fun0001 }
- 25:
+            if(!(var6 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = _closure1_slot7;
             var6 = var1.INFO;
- 38:
+case 2:
             var2 = _closure1_slot6;
             var10 = var2.bind(var4)();
             var13 = {};

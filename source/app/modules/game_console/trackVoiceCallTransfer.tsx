@@ -40,7 +40,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function trackVoiceCallTransfer(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var7 = arg1;
             var12 = arg3;
             var3 = _closure1_slot0;
@@ -56,30 +56,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = null;
             var10 = var8 != var12;
             var9 = 'discord_client';
-            if(!var10) { _fun0001_ip = 102; continue _fun0001 }
- 63:
+            if(!var10) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var11 = _closure1_slot4;
             var10 = var11.getSessionById;
             var11 = var10.bind(var11)(var12);
             var12 = var8 == var11;
             var10 = undefined;
-            if(var12) { _fun0001_ip = 99; continue _fun0001 }
- 87:
+            if(var12) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var11 = var11.clientInfo;
             var10 = var11.os;
- 99:
+case 4:
             var9 = var10;
- 102:
+case 2:
             var2['source_platform'] = var9;
             var10 = _closure1_slot2;
             var9 = var10.getChannel;
             var9 = var9.bind(var10)(var7);
             var10 = var8 == var9;
             var8 = undefined;
-            if(var10) { _fun0001_ip = 137; continue _fun0001 }
- 132:
+            if(var10) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var8 = var9.guild_id;
- 137:
+case 6:
             var2['guild_id'] = var8;
             var2['channel_id'] = var7;
             var7 = _closure1_slot3;

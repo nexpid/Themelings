@@ -42,13 +42,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useSuggestedFriends(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var4 = null;
-            if(!(var4 == var2)) { _fun0001_ip = 13; continue _fun0001 }
- 11:
+            if(!(var4 == var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = {};
- 13:
+case 2:
             var7 = var2.isConnected;
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
@@ -81,10 +81,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = 1;
             var5 = var8[var5];
             var4 = var4 == var7;
-            if(var4) { _fun0001_ip = 137; continue _fun0001 }
- 134:
+            if(var4) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var4 = var7;
- 137:
+case 4:
             var _closure2_slot2 = var4;
             var8 = _closure1_slot4;
             var7 = var8.useMemo;
@@ -94,13 +94,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[2] = var4;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = _closure2_slot2;
-                    if(var3) { _fun0002_ip = 18; continue _fun0002 }
- 12:
+                    if(var3) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var3 = new Array(0);
                     return var3;
- 18:
+case 6:
                     var5 = _closure2_slot1;
                     var4 = var5.filter;
                     var3 = function(arg1) {
@@ -116,7 +116,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var4.map;
                     var2 = function(arg1) {
                         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                             var2 = arg1;
                             var1 = {};
                             var3 = var2.user;
@@ -125,10 +125,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var3 = null;
                             var5 = var3 != var4;
                             var3 = undefined;
-                            if(!var5) { _fun0003_ip = 33; continue _fun0003 }
- 30:
+                            if(!var5) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
                             var3 = var4;
- 33:
+case 8:
                             var1['friendSuggestionName'] = var3;
                             var3 = _closure1_slot6;
                             var3 = var3.USER_SUGGESTIONS;
@@ -184,13 +184,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['added'] = var6;
             var1['setAdded'] = var5;
             var1['friendSuggestions'] = var3;
-            if(var4) { _fun0001_ip = 206; continue _fun0001 }
- 199:
+            if(var4) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var2 = var2.length;
-            _fun0001_ip = 211; continue _fun0001;
- 206:
+            _fun0001_ip = 12; continue _fun0001;
+case 10:
             var2 = var3.length;
- 211:
+case 12:
             var1['numFriendSuggestions'] = var2;
             return var1;
         }

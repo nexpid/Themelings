@@ -20,7 +20,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var4.bind(var5)(var2);
     var2 = function convertSkemaError(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var12 = arg1;
             var1 = {};
             var10 = var12;
@@ -30,15 +30,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = '_errors';
             var6 = undefined;
             for(var7 in var10)
- 33:
+case 2:
             {
- 45:
+case 3:
                 var16 = var7;
                 var18 = var12[var16];
-                if(var3 == var18) { _fun0001_ip = 33; continue _fun0001 }
- 56:
-                if(!(var16 === var2)) { _fun0001_ip = 85; continue _fun0001 }
- 60:
+                if(var3 == var18) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
+                if(!(var16 === var2)) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
                 var17 = var12[var16];
                 var15 = var17.map;
                 var14 = function(arg1) {
@@ -48,23 +48,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 };
                 var14 = var15.bind(var17)(var14);
                 var1['_misc'] = var14;
- 85:
+case 5:
                 var15 = var5.Array;
                 var14 = var15.isArray;
                 var14 = var14.bind(var15)(var18);
-                if(var14) { _fun0001_ip = 33; continue _fun0001 }
- 104:
+                if(var14) { _fun0001_ip = 2; continue _fun0001 }
+case 7:
                 var14 = var18._errors;
-                if(!(var3 == var14)) { _fun0001_ip = 144; continue _fun0001 }
- 114:
+                if(!(var3 == var14)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
                 var17 = var5.Object;
                 var15 = var17.keys;
                 var15 = var15.bind(var17)(var18);
                 var17 = var15[var4];
                 var15 = new Array(1);
                 var15[0] = var17;
-                _fun0001_ip = 159; continue _fun0001;
- 144:
+                _fun0001_ip = 10; continue _fun0001;
+case 8:
                 var18 = var14.map;
                 var17 = function(arg1) {
                     var1 = arg1;
@@ -72,12 +72,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var15 = var18.bind(var14)(var17);
- 159:
+case 10:
                 var1[var16] = var15;
                 var6 = var14;
-                _fun0001_ip = 33; continue _fun0001;
+                _fun0001_ip = 2; continue _fun0001;
             }
- 171:
+case 11:
             return var1;
         }
     };

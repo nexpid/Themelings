@@ -22,14 +22,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function getChannelDetailsFromRoute(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arg1;
             var3 = arguments[1];
             var4 = undefined;
-            if(!(var3 === var4)) { _fun0001_ip = 14; continue _fun0001 }
- 12:
+            if(!(var3 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = false;
- 14:
+case 2:
             var6 = _closure1_slot0;
             var2 = _closure1_slot1;
             var7 = 0;
@@ -38,49 +38,49 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var6.coerceChannelRoute;
             var2 = var2.bind(var6)(var5);
             var6 = null;
-            if(!(var6 == var2)) { _fun0001_ip = 173; continue _fun0001 }
- 53:
-            if(var3) { _fun0001_ip = 70; continue _fun0001 }
- 56:
+            if(!(var6 == var2)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            if(var3) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var3 = new Array(2);
             var3[0] = var4;
             var3[1] = var4;
             return var3;
- 70:
+case 6:
             var3 = _closure1_slot0;
             var1 = _closure1_slot1;
             var1 = var1[var7];
             var3 = var3.bind(var4)(var1);
             var1 = var3.coerceGuildsRoute;
             var5 = var1.bind(var3)(var5);
-            if(!(var6 == var5)) { _fun0001_ip = 116; continue _fun0001 }
- 102:
+            if(!(var6 == var5)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var1 = new Array(2);
             var1[0] = var4;
             var1[1] = var4;
-            _fun0001_ip = 171; continue _fun0001;
- 116:
+            _fun0001_ip = 10; continue _fun0001;
+case 8:
             var3 = var5.params;
             var8 = var6 == var3;
             var7 = undefined;
-            if(var8) { _fun0001_ip = 136; continue _fun0001 }
- 131:
+            if(var8) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var7 = var3.guildId;
- 136:
+case 11:
             var3 = new Array(2);
             var3[0] = var7;
             var5 = var5.params;
             var6 = var6 == var5;
             var4 = undefined;
-            if(var6) { _fun0001_ip = 164; continue _fun0001 }
- 159:
+            if(var6) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var4 = var5.channelId;
- 164:
+case 13:
             var3[1] = var4;
             var1 = var3;
- 171:
+case 10:
             return var1;
- 173:
+case 4:
             var1 = var2.params;
             var3 = var1.guildId;
             var1 = new Array(2);

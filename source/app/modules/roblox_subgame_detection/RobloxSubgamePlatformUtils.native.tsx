@@ -28,11 +28,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = function* () {
             var1 = function* anon_0_() {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 126; continue _fun0001 }
- 7:
+                    if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot1;
                     var2 = 1;
@@ -43,32 +43,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = 'roblox';
                     var2 = var4.bind(var6)(var2);
                     SaveGenerator(address=53);
- 51:
+case 4:
                     return var2;
- 53:
+case 5:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0001_ip = 123; continue _fun0001 }
- 59:
+                    if(var4) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                     var4 = _closure1_slot0;
                     var6 = _closure1_slot1;
                     var3 = 2;
                     var3 = var6[var3];
                     var6 = var4.bind(var5)(var3);
-                    if(var2) { _fun0001_ip = 102; continue _fun0001 }
- 82:
+                    if(var2) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
                     var4 = var6.ROBLOX_DEFERRED_WEB_URL;
                     var3 = _closure2_slot0;
                     var3 = var4.bind(var6)(var3);
-                    _fun0001_ip = 120; continue _fun0001;
- 102:
+                    _fun0001_ip = 10; continue _fun0001;
+case 8:
                     var5 = var6.ROBLOX_PROTOCOL_URL;
                     var4 = _closure2_slot0;
                     var3 = var5.bind(var6)(var4);
- 120:
+case 10:
                     return var3;
- 123:
+case 6:
                     return var2;
- 126:
+case 2:
                     return var1;
                 }
             };

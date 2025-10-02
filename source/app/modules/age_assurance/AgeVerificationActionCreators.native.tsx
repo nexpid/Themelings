@@ -39,17 +39,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = {};
     var7 = function showAgeVerification(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arg1;
             var2 = var5.onClose;
             var1 = undefined;
-            if(!(var2 === var1)) { _fun0001_ip = 22; continue _fun0001 }
- 17:
+            if(!(var2 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = function o() {
                 var1 = undefined;
                 return var1;
             };
- 22:
+case 2:
             var _closure2_slot0 = var2;
             var2 = var5.shouldShowExpressiveModal;
             var2 = null;
@@ -72,11 +72,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = function* () {
                 var1 = function* anon_0_() {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0002_ip = 86; continue _fun0002 }
- 9:
+                        if(var2) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                         var6 = undefined;
                         var _closure4_slot0 = var6;
                         var5 = _closure1_slot0;
@@ -89,12 +89,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = var2.paths;
                         var2 = var5.bind(var6)(var4, var2);
                         SaveGenerator(address=60);
- 58:
+case 6:
                         return var2;
- 60:
+case 7:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                        if(var4) { _fun0002_ip = 83; continue _fun0002 }
- 66:
+                        if(var4) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                         var4 = var2.default;
                         _closure4_slot0 = var4;
                         var3 = function() {
@@ -111,9 +111,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             return var1;
                         };
                         return var3;
- 83:
+case 8:
                         return var2;
- 86:
+case 4:
                         return var1;
                     }
                 };
@@ -129,7 +129,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['showAgeVerification'] = var7;
     var7 = function showAgeVerificationGetStartedModal(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var1 = arg1;
             var1 = var1.entryPoint;
             var _closure2_slot0 = var1;
@@ -142,8 +142,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.bind(var1)(var4);
             var4 = var5.isAgeVerified;
             var4 = var4.bind(var5)();
-            if(!var4) { _fun0003_ip = 94; continue _fun0003 }
- 57:
+            if(!var4) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var5 = 8;
@@ -152,7 +152,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var7.isEligibleForSettingsDefaultsAggregate;
             var5 = 'age_verification_utils';
             var4 = var6.bind(var7)(var5);
- 94:
+case 10:
             _closure2_slot1 = var4;
             var5 = _closure1_slot1;
             var6 = _closure1_slot2;
@@ -164,11 +164,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = function* () {
                 var1 = function* anon_0_() {
                     _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0004_ip = 86; continue _fun0004 }
- 9:
+                        if(var2) { _fun0004_ip = 4; continue _fun0004 }
+case 5:
                         var6 = undefined;
                         var _closure4_slot0 = var6;
                         var5 = _closure1_slot0;
@@ -181,12 +181,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = var2.paths;
                         var2 = var5.bind(var6)(var4, var2);
                         SaveGenerator(address=60);
- 58:
+case 6:
                         return var2;
- 60:
+case 7:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                        if(var4) { _fun0004_ip = 83; continue _fun0004 }
- 66:
+                        if(var4) { _fun0004_ip = 8; continue _fun0004 }
+case 9:
                         var4 = var2.default;
                         _closure4_slot0 = var4;
                         var3 = function() {
@@ -202,9 +202,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             return var1;
                         };
                         return var3;
- 83:
+case 8:
                         return var2;
- 86:
+case 4:
                         return var1;
                     }
                 };

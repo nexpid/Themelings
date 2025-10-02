@@ -8,51 +8,51 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var7;
     var2 = function getDeafStates(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arg1;
             var8 = arguments[1];
             var6 = arguments[2];
             var9 = arguments[3];
             var3 = undefined;
-            if(!(var8 === var3)) { _fun0001_ip = 25; continue _fun0001 }
- 18:
+            if(!(var8 === var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var8 = _closure1_slot4;
- 25:
-            if(!(var6 === var3)) { _fun0001_ip = 36; continue _fun0001 }
- 29:
+case 2:
+            if(!(var6 === var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var6 = _closure1_slot3;
- 36:
-            if(!(var9 === var3)) { _fun0001_ip = 47; continue _fun0001 }
- 40:
+case 4:
+            if(!(var9 === var3)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var9 = _closure1_slot2;
- 47:
+case 6:
             var2 = null;
             var1 = var2 != var5;
             var4 = null;
-            if(!var1) { _fun0001_ip = 90; continue _fun0001 }
- 58:
+            if(!var1) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var7 = var8.getVoiceState;
             var1 = var5.getGuildId;
             var5 = var1.bind(var5)();
             var1 = var9.getId;
             var1 = var1.bind(var9)();
             var4 = var7.bind(var8)(var5, var1);
- 90:
+case 8:
             var1 = {};
             var5 = var6.isSelfDeaf;
             var5 = var5.bind(var6)();
             var1['selfDeaf'] = var5;
             var5 = var2 == var4;
             var3 = undefined;
-            if(var5) { _fun0001_ip = 122; continue _fun0001 }
- 116:
+            if(var5) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var3 = var4.deaf;
- 122:
+case 10:
             var2 = var2 != var3;
-            if(!var2) { _fun0001_ip = 132; continue _fun0001 }
- 129:
+            if(!var2) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var2 = var3;
- 132:
+case 12:
             var1['deaf'] = var2;
             return var1;
         }

@@ -8,8 +8,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var6;
     var1 = function _isNativeReflectConstruct() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
- 2: // try_start_0
+case 0:
+case 2: // try_start_0
             var2 = global;
             var3 = var2.Boolean;
             var3 = var3.prototype;
@@ -27,11 +27,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var4)(var2);
             var2 = !var2;
             var _closure2_slot0 = var2;
- 72: // try_end0
-            _fun0001_ip = 76; continue _fun0001;
- 74: // catch_target0
+case 3: // try_end0
+            _fun0001_ip = 4; continue _fun0001;
+case 5: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+case 4:
             var2 = function _isNativeReflectConstruct() {
                 var1 = _closure2_slot0;
                 var1 = !var1;
@@ -95,7 +95,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function(arg1) {
         var4 = function HotspotStore() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var4 = this;
                 var3 = undefined;
                 var5 = undefined;
@@ -107,14 +107,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = _closure1_slot4;
                 var1 = _closure1_slot10;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0002_ip = 69; continue _fun0002 }
- 51:
+                if(var1) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                 var7 = var9.apply;
                 var5 = arguments;
                 var1 = var5;
                 var1 = var7.bind(var9)(var4, var1);
-                _fun0002_ip = 105; continue _fun0002;
- 69:
+                _fun0002_ip = 8; continue _fun0002;
+case 6:
                 var7 = global;
                 var8 = var7.Reflect;
                 var7 = var8.construct;
@@ -123,7 +123,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var6.constructor;
                 var5 = arguments;
                 var1 = var7.bind(var8)(var9, var5, var6);
- 105:
+case 8:
                 var1 = var2.bind(var3)(var4, var1);
                 return var1;
             }
@@ -139,18 +139,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5['key'] = var1;
         var1 = function value(arg1) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var3 = null;
-                if(!(var3 != var1)) { _fun0003_ip = 98; continue _fun0003 }
- 9:
+                if(!(var3 != var1)) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
                 var2 = global;
                 var6 = var2.Array;
                 var5 = var6.isArray;
                 var4 = var1.hiddenHotspots;
                 var4 = var5.bind(var6)(var4);
-                if(!var4) { _fun0003_ip = 75; continue _fun0003 }
- 36:
+                if(!var4) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
                 var5 = var2.Set;
                 var7 = var1.hiddenHotspots;
                 var4 = var5.prototype;
@@ -159,13 +159,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = new var8[var5](var7, var6);
                 var4 = var2 instanceof Object ? var2 : var4;
                 _closure1_slot8 = var4;
- 75:
+case 11:
                 var2 = var1.hotspotOverrides;
-                if(!(var3 != var2)) { _fun0003_ip = 98; continue _fun0003 }
- 85:
+                if(!(var3 != var2)) { _fun0003_ip = 9; continue _fun0003 }
+case 13:
                 var2 = var1.hotspotOverrides;
                 _closure1_slot9 = var2;
- 98:
+case 9:
                 var1 = undefined;
                 return var1;
             }
@@ -178,24 +178,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5['key'] = var7;
         var7 = function value(arg1) {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                 var6 = arg1;
                 var1 = arguments[1];
                 var7 = undefined;
                 if(!(var1 === var7)) { _fun0004_ip = 14; continue _fun0004 }
- 12:
+case 15:
                 var1 = false;
- 14:
+case 14:
                 var3 = !var1;
-                if(!var3) { _fun0004_ip = 31; continue _fun0004 }
- 20:
+                if(!var3) { _fun0004_ip = 16; continue _fun0004 }
+case 17:
                 var1 = _closure1_slot9;
                 var3 = var1[var6];
- 31:
+case 16:
                 var1 = _closure1_slot7;
                 var1 = !var1;
-                if(!var1) { _fun0004_ip = 112; continue _fun0004 }
- 44:
+                if(!var1) { _fun0004_ip = 18; continue _fun0004 }
+case 19:
                 var5 = _closure1_slot0;
                 var8 = _closure1_slot1;
                 var2 = 6;
@@ -205,19 +205,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var5.isDisallowPopupsSet;
                 var2 = var2.bind(var5)();
                 var2 = !var2;
-                if(!var2) { _fun0004_ip = 109; continue _fun0004 }
- 86:
-                if(var3) { _fun0004_ip = 106; continue _fun0004 }
- 89:
+                if(!var2) { _fun0004_ip = 20; continue _fun0004 }
+case 21:
+                if(var3) { _fun0004_ip = 22; continue _fun0004 }
+case 23:
                 var5 = _closure1_slot8;
                 var4 = var5.has;
                 var4 = var4.bind(var5)(var6);
                 var3 = !var4;
- 106:
+case 22:
                 var2 = var3;
- 109:
+case 20:
                 var1 = var2;
- 112:
+case 18:
                 return var1;
             }
         };
@@ -270,14 +270,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = new Array(1);
     var9 = function(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = {};
             var3 = null;
-            if(!(var3 == var2)) { _fun0005_ip = 15; continue _fun0005 }
- 11:
+            if(!(var3 == var2)) { _fun0005_ip = 24; continue _fun0005 }
+case 25:
             var2 = new Array(0);
- 15:
+case 24:
             var1['hiddenHotspots'] = var2;
             var2 = {};
             var1['hotspotOverrides'] = var2;
@@ -307,20 +307,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['OVERLAY_INITIALIZE'] = var9;
     var9 = function handleHotspotHide(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
- 0:
+case 0:
             var1 = arg1;
             var3 = var1.location;
             var4 = _closure1_slot8;
             var2 = var4.has;
             var2 = var2.bind(var4)(var3);
-            if(var2) { _fun0006_ip = 46; continue _fun0006 }
- 28:
+            if(var2) { _fun0006_ip = 26; continue _fun0006 }
+case 27:
             var2 = _closure1_slot8;
             var1 = var2.add;
             var1 = var1.bind(var2)(var3);
             var1 = undefined;
             return var1;
- 46:
+case 26:
             var1 = false;
             return var1;
         }
@@ -338,19 +338,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['HOTSPOT_OVERRIDE_SET'] = var9;
     var4 = function handleClearHotspotOverride(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = var1.location;
             var3 = _closure1_slot9;
             var4 = var3[var2];
             var3 = null;
-            if(!(var3 != var4)) { _fun0007_ip = 37; continue _fun0007 }
- 25:
+            if(!(var3 != var4)) { _fun0007_ip = 28; continue _fun0007 }
+case 29:
             var1 = _closure1_slot9;
             var1 = delete var1[var2];
             var1 = undefined;
             return var1;
- 37:
+case 28:
             var1 = false;
             return var1;
         }

@@ -28,18 +28,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function tooltipEnterExitAnimation(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = -8;
             var3 = 'top';
             var2 = arg1;
-            if(!(var3 === var2)) { _fun0001_ip = 22; continue _fun0001 }
- 19:
+            if(!(var3 === var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = 8;
- 22:
+case 2:
             var _closure2_slot0 = var4;
             var1 = function o(arg1, arg2) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var7 = arg1;
                     var6 = arg2;
                     var1 = {};
@@ -53,10 +53,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var11 = var12.withSpring;
                     var4 = 1;
                     var3 = 0;
-                    if(!(var4 !== var7)) { _fun0002_ip = 55; continue _fun0002 }
- 48:
+                    if(!(var4 !== var7)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var3 = _closure2_slot0;
- 55:
+case 4:
                     var5 = _closure1_slot2;
                     var4 = 'respect-motion-settings';
                     var17 = var12;

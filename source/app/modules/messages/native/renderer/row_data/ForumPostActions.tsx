@@ -29,7 +29,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function createDefaultReaction(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var4 = var1.defaultReactionEmoji;
             var5 = var1.customGuildEmoji;
@@ -37,18 +37,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var2 != var4;
             var1 = undefined;
             var3 = undefined;
-            if(!var6) { _fun0001_ip = 330; continue _fun0001 }
- 31:
+            if(!var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = var4.emojiId;
             var7 = var4.emojiName;
-            if(!(var2 != var6)) { _fun0001_ip = 54; continue _fun0001 }
- 47:
-            if(!(var2 == var5)) { _fun0001_ip = 180; continue _fun0001 }
- 54:
+            if(!(var2 != var6)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            if(!(var2 == var5)) { _fun0001_ip = 6; continue _fun0001 }
+case 4:
             var4 = var2 != var7;
             var3 = undefined;
-            if(!var4) { _fun0001_ip = 330; continue _fun0001 }
- 66:
+            if(!var4) { _fun0001_ip = 2; continue _fun0001 }
+case 7:
             var4 = {};
             var4['id'] = var1;
             var4['name'] = var7;
@@ -75,8 +75,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var9.bind(var10)(var11, var7, var8);
             var4['displayName'] = var7;
             var3 = var4;
-            _fun0001_ip = 330; continue _fun0001;
- 180:
+            _fun0001_ip = 2; continue _fun0001;
+case 6:
             var4 = {};
             var4['id'] = var6;
             var4['name'] = var1;
@@ -112,22 +112,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var8.bind(var9)(var6, var5, var7);
             var4['displayName'] = var5;
             var3 = var4;
- 330:
+case 2:
             var2 = var2 != var3;
             var1 = undefined;
-            if(!var2) { _fun0001_ip = 362; continue _fun0001 }
- 339:
+            if(!var2) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var2 = {'emoji': null, 'me': false, 'count': 0};
             var2['emoji'] = var3;
             var1 = var2;
- 362:
+case 8:
             return var1;
         }
     };
     var3['createDefaultReaction'] = var4;
     var2 = function createForumPostActions(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var7 = var1.isFollowing;
             var2 = var1.hasReactions;
@@ -141,22 +141,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var6.bind(var9)(var3);
             var6 = var11.getAssetUriForEmbed;
             var12 = _closure1_slot1;
-            if(var7) { _fun0002_ip = 84; continue _fun0002 }
- 65:
+            if(var7) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
             var3 = 3;
             var3 = var13[var3];
             var3 = var12.bind(var9)(var3);
             var8 = var6.bind(var11)(var3);
-            _fun0002_ip = 101; continue _fun0002;
- 84:
+            _fun0002_ip = 12; continue _fun0002;
+case 10:
             var3 = 2;
             var3 = var13[var3];
             var3 = var12.bind(var9)(var3);
             var8 = var6.bind(var11)(var3);
- 101:
+case 12:
             var11 = null;
-            if(!(var11 == var8)) { _fun0002_ip = 198; continue _fun0002 }
- 107:
+            if(!(var11 == var8)) { _fun0002_ip = 13; continue _fun0002 }
+case 14:
             var13 = _closure1_slot1;
             var6 = _closure1_slot2;
             var3 = 4;
@@ -164,15 +164,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var13.bind(var9)(var3);
             var6 = var12.captureMessage;
             var15 = _closure1_slot2;
-            if(var7) { _fun0002_ip = 149; continue _fun0002 }
- 140:
+            if(var7) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
             var3 = 3;
             var3 = var15[var3];
-            _fun0002_ip = 156; continue _fun0002;
- 149:
+            _fun0002_ip = 17; continue _fun0002;
+case 15:
             var14 = 2;
             var3 = var15[var14];
- 156:
+case 17:
             var15 = var13.bind(var9)(var3);
             var3 = global;
             var3 = var3.HermesInternal;
@@ -181,7 +181,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = ' icon: ';
             var3 = var14.bind(var13)(var7, var3, var15);
             var3 = var6.bind(var12)(var3);
- 198:
+case 13:
             var6 = _closure1_slot0;
             var14 = _closure1_slot2;
             var3 = var14[var10];
@@ -193,18 +193,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var13.bind(var9)(var3);
             var6 = var6.bind(var12)(var3);
             var3 = undefined;
-            if(var2) { _fun0002_ip = 327; continue _fun0002 }
- 247:
+            if(var2) { _fun0002_ip = 18; continue _fun0002 }
+case 19:
             var12 = var11 == var4;
             var2 = undefined;
-            if(var12) { _fun0002_ip = 261; continue _fun0002 }
- 256:
+            if(var12) { _fun0002_ip = 20; continue _fun0002 }
+case 21:
             var2 = var4.emoji;
- 261:
+case 20:
             var2 = var11 != var2;
             var3 = undefined;
-            if(var2) { _fun0002_ip = 327; continue _fun0002 }
- 270:
+            if(var2) { _fun0002_ip = 18; continue _fun0002 }
+case 22:
             var13 = _closure1_slot0;
             var14 = _closure1_slot2;
             var2 = 6;
@@ -217,10 +217,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.t;
             var2 = var2.xpOyTE;
             var3 = var11.bind(var12)(var2);
- 327:
+case 18:
             var2 = undefined;
-            if(!var1) { _fun0002_ip = 628; continue _fun0002 }
- 335:
+            if(!var1) { _fun0002_ip = 23; continue _fun0002 }
+case 24:
             var1 = {};
             var11 = _closure1_slot0;
             var14 = _closure1_slot2;
@@ -284,7 +284,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var11.bind(var12)(var10);
             var1['closeIcon'] = var10;
             var2 = var1;
- 628:
+case 23:
             var1 = {};
             var10 = 3;
             var1['numDisplayedReactions'] = var10;
@@ -300,15 +300,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var8[var10];
             var8 = var13.bind(var9)(var8);
             var8 = var8.t;
-            if(var7) { _fun0002_ip = 712; continue _fun0002 }
- 699:
+            if(var7) { _fun0002_ip = 25; continue _fun0002 }
+case 26:
             var7 = var8.0rQinJ;
             var7 = var11.bind(var12)(var7);
-            _fun0002_ip = 723; continue _fun0002;
- 712:
+            _fun0002_ip = 27; continue _fun0002;
+case 25:
             var8 = var8.OtF+lJ;
             var7 = var11.bind(var12)(var8);
- 723:
+case 27:
             var1['followLabel'] = var7;
             var1['shareIcon'] = var6;
             var8 = _closure1_slot0;

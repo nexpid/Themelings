@@ -82,7 +82,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useForLaterCoachmark(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
             var1 = 8;
@@ -95,16 +95,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['location'] = var7;
             var1 = var3.bind(var6)(var1);
             var1 = var1.enabled;
-            if(var1) { _fun0001_ip = 64; continue _fun0001 }
- 58:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var9 = new Array(0);
-            _fun0001_ip = 79; continue _fun0001;
- 64:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var3 = _closure1_slot8;
             var1 = new Array(1);
             var1[0] = var3;
             var9 = var1;
- 79:
+case 4:
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
             var1 = 9;

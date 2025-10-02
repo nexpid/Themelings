@@ -24,7 +24,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var10 = var1.location;
             var9 = var1.analyticsLocations;
@@ -54,13 +54,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var7.isAndroid;
             var7 = var2.bind(var7)();
             var2 = undefined;
-            if(!var7) { _fun0001_ip = 140; continue _fun0001 }
- 126:
+            if(!var7) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var7 = {};
             var8 = 'modal';
             var7['presentation'] = var8;
             var2 = var7;
- 140:
+case 2:
             var16 = var6;
             var15 = var4;
             var14 = var3;

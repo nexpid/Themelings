@@ -28,15 +28,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = {};
     var7 = function init(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg3;
             var5 = this;
             var4 = var2.location;
             var1 = undefined;
-            if(!(var4 === var1)) { _fun0001_ip = 21; continue _fun0001 }
- 17:
+            if(!(var4 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = '';
- 21:
+case 2:
             var9 = var2.targetType;
             var8 = var2.targetUserId;
             var7 = var2.targetApplicationId;
@@ -139,13 +139,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['resetSettings'] = var7;
     var7 = function createInvite(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var4 = _closure1_slot3;
             var2 = var4.getPendingSettings;
             var2 = var2.bind(var4)();
             var14 = null;
-            if(!(var14 != var2)) { _fun0002_ip = 289; continue _fun0002 }
- 28:
+            if(!(var14 != var2)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var5 = _closure1_slot1;
             var6 = _closure1_slot2;
             var4 = 2;
@@ -171,14 +171,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.bind(var5)();
             var5 = arg2;
             var10 = null;
-            if(!var5) { _fun0002_ip = 158; continue _fun0002 }
- 144:
+            if(!var5) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var5 = var14 != var4;
             var10 = null;
-            if(!var5) { _fun0002_ip = 158; continue _fun0002 }
- 153:
+            if(!var5) { _fun0002_ip = 6; continue _fun0002 }
+case 8:
             var10 = var4.code;
- 158:
+case 6:
             var4 = _closure1_slot1;
             var5 = _closure1_slot2;
             var3 = 4;
@@ -221,7 +221,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var1 = function(arg1) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var3 = arg1;
                     var7 = _closure1_slot0;
                     var8 = _closure1_slot2;
@@ -239,14 +239,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = null;
                     var7 = var6 == var3;
                     var4 = undefined;
-                    if(var7) { _fun0003_ip = 81; continue _fun0003 }
- 76:
+                    if(var7) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
                     var4 = var3.message;
- 81:
-                    if(!(var6 != var4)) { _fun0003_ip = 90; continue _fun0003 }
- 85:
+case 9:
+                    if(!(var6 != var4)) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
                     var5 = var3.message;
- 90:
+case 11:
                     var3 = _closure1_slot1;
                     var4 = _closure1_slot2;
                     var2 = 2;
@@ -262,7 +262,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 }
             };
             var1 = var3.bind(var4)(var2, var1);
- 289:
+case 4:
             var1 = undefined;
             return var1;
         }
@@ -270,7 +270,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['createInvite'] = var7;
     var4 = function close() {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var2 = _closure1_slot3;
             var2 = var2.onClose;
             var4 = _closure1_slot1;
@@ -285,10 +285,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['type'] = var6;
             var3 = var4.bind(var5)(var3);
             var3 = null;
-            if(!(var3 != var2)) { _fun0004_ip = 65; continue _fun0004 }
- 61:
+            if(!(var3 != var2)) { _fun0004_ip = 13; continue _fun0004 }
+case 14:
             var2 = var2.bind(var1)();
- 65:
+case 13:
             return var1;
         }
     };

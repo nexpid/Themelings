@@ -23,7 +23,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = var9.memoize;
     var2 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var6 = arg1;
             var1 = var6.length;
             var3 = 0;
@@ -31,8 +31,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = 5;
             var4 = 0;
             var2 = 0;
-            if(!var1) { _fun0001_ip = 62; continue _fun0001 }
- 24:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var6.charCodeAt;
             var7 = var1.bind(var6)(var2);
             var1 = var4 << var5;
@@ -41,8 +41,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2 + 1;
             var1 = var6.length;
             var3 = var4;
-            if(var2 < var1) { _fun0001_ip = 24; continue _fun0001 }
- 62:
+            if(var2 < var1) { _fun0001_ip = 3; continue _fun0001 }
+case 2:
             var1 = global;
             var2 = var1.Math;
             var1 = var2.abs;

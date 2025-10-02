@@ -38,7 +38,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function MemberVerificationAlertCancelPending(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var5 = var4.guildId;
             var _closure2_slot0 = var5;
@@ -62,15 +62,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[1] = var12;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = _closure2_slot1;
                     var1 = null;
-                    if(!(var1 != var3)) { _fun0002_ip = 23; continue _fun0002 }
- 13:
+                    if(!(var1 != var3)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var3 = _closure2_slot1;
                     var1 = undefined;
                     var1 = var3.bind(var1)();
- 23:
+case 2:
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
                     var1 = 2;
@@ -108,8 +108,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7.bind(var8)(var5);
             var5 = 'header';
             var1[var5] = var7;
-            if(!(var16 == var6)) { _fun0001_ip = 268; continue _fun0001 }
- 214:
+            if(!(var16 == var6)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var9 = _closure1_slot0;
             var5 = _closure1_slot2;
             var7 = var5[var17];
@@ -121,7 +121,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.t;
             var5 = var5.nQHxqq;
             var6 = var7.bind(var8)(var5);
- 268:
+case 4:
             var5 = 'subtitle';
             var1[var5] = var6;
             var7 = _closure1_slot6;
@@ -137,8 +137,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = {};
             var18 = 'destructive';
             var8['variant'] = var18;
-            if(!(var16 == var15)) { _fun0001_ip = 387; continue _fun0001 }
- 333:
+            if(!(var16 == var15)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var20 = _closure1_slot0;
             var16 = _closure1_slot2;
             var18 = var16[var17];
@@ -150,7 +150,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = var16.t;
             var16 = var16.OzHPdX;
             var15 = var18.bind(var19)(var16);
- 387:
+case 6:
             var8['text'] = var15;
             var8['onPress'] = var14;
             var11 = var13.bind(var3)(var11, var8);

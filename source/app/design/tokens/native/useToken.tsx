@@ -59,7 +59,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useToken(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var13 = arg1;
             var12 = arg2;
             var2 = _closure1_slot0;
@@ -71,13 +71,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2.useThemeContext;
             var14 = var1.bind(var2)();
             var5 = null;
-            if(!(var5 == var12)) { _fun0001_ip = 53; continue _fun0001 }
- 47:
+            if(!(var5 == var12)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var12 = var14.theme;
- 53:
+case 2:
             var1 = var13;
-            if(!(var5 != var1)) { _fun0001_ip = 475; continue _fun0001 }
- 63:
+            if(!(var5 != var1)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
             var8 = 0;
@@ -87,8 +87,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.isSemanticColor;
             var2 = var2.bind(var3)(var13);
             var10 = var13;
-            if(!var2) { _fun0001_ip = 139; continue _fun0001 }
- 105:
+            if(!var2) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
             var2 = var2[var8];
@@ -96,7 +96,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var2.internal;
             var2 = var3.getSemanticColorName;
             var10 = var2.bind(var3)(var13);
- 139:
+case 6:
             var19 = var14.key;
             var2 = global;
             var2 = var2.HermesInternal;
@@ -112,12 +112,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.get;
             var10 = var2.bind(var3)(var6);
             var3 = var10;
-            if(!(var5 == var10)) { _fun0001_ip = 445; continue _fun0001 }
- 205:
+            if(!(var5 == var10)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var9 = 'string';
             var2 = typeof var13;
-            if(!(var9 !== var2)) { _fun0001_ip = 324; continue _fun0001 }
- 216:
+            if(!(var9 !== var2)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var9 = _closure1_slot1;
             var2 = _closure1_slot2;
             var2 = var2[var8];
@@ -126,8 +126,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var9.isSemanticColor;
             var2 = var2.bind(var9)(var13);
             var3 = var10;
-            if(!var2) { _fun0001_ip = 445; continue _fun0001 }
- 259:
+            if(!var2) { _fun0001_ip = 8; continue _fun0001 }
+case 12:
             var9 = _closure1_slot1;
             var16 = _closure1_slot2;
             var2 = var16[var8];
@@ -141,18 +141,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var15.getSemanticColorContextFromThemeContext;
             var2 = var2.bind(var15)(var14);
             var3 = var9.bind(var11)(var12, var13, var2);
-            _fun0001_ip = 445; continue _fun0001;
- 324:
+            _fun0001_ip = 8; continue _fun0001;
+case 10:
             var11 = var13[var8];
             var9 = '#';
             var2 = var13;
-            if(!(var9 !== var11)) { _fun0001_ip = 472; continue _fun0001 }
- 342:
+            if(!(var9 !== var11)) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var9 = _closure1_slot4;
             var9 = var13 in var9;
             var3 = var10;
-            if(!var9) { _fun0001_ip = 445; continue _fun0001 }
- 356:
+            if(!var9) { _fun0001_ip = 8; continue _fun0001 }
+case 15:
             var9 = _closure1_slot1;
             var15 = _closure1_slot2;
             var10 = var15[var8];
@@ -172,18 +172,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var13.getSemanticColorContextFromThemeContext;
             var8 = var8.bind(var13)(var14);
             var3 = var10.bind(var11)(var12, var9, var8);
- 445:
+case 8:
             var5 = var5 != var3;
             var2 = undefined;
-            if(!var5) { _fun0001_ip = 472; continue _fun0001 }
- 454:
+            if(!var5) { _fun0001_ip = 13; continue _fun0001 }
+case 16:
             var5 = _closure1_slot3;
             var4 = var5.set;
             var4 = var4.bind(var5)(var6, var3);
             var2 = var3;
- 472:
+case 13:
             var1 = var2;
- 475:
+case 4:
             return var1;
         }
     };

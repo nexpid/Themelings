@@ -118,7 +118,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function PremiumPlanSelectYearlyUpsellModal(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var6 = var1.onClose;
             var7 = var1.productId;
@@ -184,37 +184,37 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = 1;
             var2 = var8[var2];
             var13 = var4;
-            if(var13) { _fun0001_ip = 222; continue _fun0001 }
- 219:
+            if(var13) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var13 = var2;
- 222:
+case 2:
             var30 = var1.premiumTier;
             var1 = null;
             var2 = var1 == var30;
-            if(var2) { _fun0001_ip = 241; continue _fun0001 }
- 237:
+            if(var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = var1 == var24;
- 241:
+case 4:
             _closure2_slot2 = var2;
             var8 = _closure1_slot4;
             var4 = var8.useEffect;
             var3 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var2 = _closure2_slot2;
-                    if(!var2) { _fun0002_ip = 20; continue _fun0002 }
- 10:
+                    if(!var2) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var2 = _closure2_slot1;
                     var1 = undefined;
                     var1 = var2.bind(var1)();
- 20:
+case 6:
                     var1 = undefined;
                     return var1;
                 }
             };
             var3 = var4.bind(var8)(var3);
-            if(var2) { _fun0001_ip = 928; continue _fun0001 }
- 272:
+            if(var2) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var20 = _closure1_slot0;
             var15 = _closure1_slot2;
             var2 = 14;
@@ -320,10 +320,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = {};
             var25 = var1 == var24;
             var23 = undefined;
-            if(var25) { _fun0001_ip = 743; continue _fun0001 }
- 737:
+            if(var25) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var23 = var24.priceString;
- 743:
+case 10:
             var15['price'] = var23;
             var15 = var21.bind(var22)(var20, var15);
             var10['text'] = var15;
@@ -364,7 +364,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['children'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
- 928:
+case 8:
             return var1;
         }
     };

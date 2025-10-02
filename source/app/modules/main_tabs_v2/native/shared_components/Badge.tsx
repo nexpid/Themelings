@@ -54,24 +54,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var8.memo;
     var4 = function Badge(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var10 = var1.size;
             var4 = undefined;
-            if(!(var10 === var4)) { _fun0001_ip = 17; continue _fun0001 }
- 14:
+            if(!(var10 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var10 = 12;
- 17:
+case 2:
             var2 = var1.maskSize;
-            if(!(var2 === var4)) { _fun0001_ip = 30; continue _fun0001 }
- 27:
+            if(!(var2 === var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = 4;
- 30:
+case 4:
             var8 = var1.classic;
-            if(!(var8 === var4)) { _fun0001_ip = 42; continue _fun0001 }
- 40:
+            if(!(var8 === var4)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var8 = false;
- 42:
+case 6:
             var5 = var1.maskColor;
             var11 = var1.style;
             var7 = var1.badgeStyle;
@@ -83,8 +83,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = null;
             var2 = var2 != var5;
             var12 = undefined;
-            if(!var2) { _fun0001_ip = 117; continue _fun0001 }
- 92:
+            if(!var2) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var2 = {};
             var2['backgroundColor'] = var5;
             var2['height'] = var3;
@@ -92,7 +92,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3 / var9;
             var2['borderRadius'] = var3;
             var12 = var2;
- 117:
+case 8:
             var3 = _closure1_slot1;
             var2 = _closure1_slot0;
             var1 = {};
@@ -103,13 +103,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5[2] = var11;
             var1['style'] = var5;
             var5 = {};
-            if(var8) { _fun0001_ip = 166; continue _fun0001 }
- 158:
+            if(var8) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var8 = var6.badge;
-            _fun0001_ip = 172; continue _fun0001;
- 166:
+            _fun0001_ip = 12; continue _fun0001;
+case 10:
             var8 = var6.badgeClassic;
- 172:
+case 12:
             var6 = new Array(3);
             var6[0] = var8;
             var8 = {};

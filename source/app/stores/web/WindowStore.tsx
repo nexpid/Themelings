@@ -9,8 +9,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function _isNativeReflectConstruct() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
- 2: // try_start_0
+case 0:
+case 2: // try_start_0
             var2 = global;
             var3 = var2.Boolean;
             var3 = var3.prototype;
@@ -28,11 +28,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var4)(var2);
             var2 = !var2;
             var _closure2_slot0 = var2;
- 70: // try_end0
-            _fun0001_ip = 74; continue _fun0001;
- 72: // catch_target0
+case 3: // try_end0
+            _fun0001_ip = 4; continue _fun0001;
+case 5: // catch_target0
             CatchBlockStart(arg_register=1);
- 74:
+case 4:
             var2 = function _isNativeReflectConstruct() {
                 var1 = _closure2_slot0;
                 var1 = !var1;
@@ -48,19 +48,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot10 = var1;
     var1 = function getWindowIdState(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var3 = _closure1_slot9;
             var2 = var3.get;
             var1 = arg1;
             var1 = var2.bind(var3)(var1);
             var2 = null;
-            if(!(var2 == var1)) { _fun0002_ip = 59; continue _fun0002 }
- 26:
+            if(!(var2 == var1)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var2 = {'isElementFullscreen': false, 'focused': false, 'windowSize': null, 'visible': false};
             var3 = {'width': 0, 'height': 0};
             var2['windowSize'] = var3;
             var1 = var2;
- 59:
+case 6:
             return var1;
         }
     };
@@ -110,7 +110,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function(arg1) {
         var4 = function WindowStore() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var4 = this;
                 var3 = undefined;
                 var5 = undefined;
@@ -122,14 +122,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = _closure1_slot5;
                 var1 = _closure1_slot10;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0003_ip = 69; continue _fun0003 }
- 51:
+                if(var1) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
                 var7 = var9.apply;
                 var5 = arguments;
                 var1 = var5;
                 var1 = var7.bind(var9)(var4, var1);
-                _fun0003_ip = 105; continue _fun0003;
- 69:
+                _fun0003_ip = 10; continue _fun0003;
+case 8:
                 var7 = global;
                 var8 = var7.Reflect;
                 var7 = var8.construct;
@@ -138,7 +138,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var6.constructor;
                 var5 = arguments;
                 var1 = var7.bind(var8)(var9, var5, var6);
- 105:
+case 10:
                 var1 = var2.bind(var3)(var4, var1);
                 return var1;
             }
@@ -154,11 +154,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5['key'] = var1;
         var1 = function value() {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                 var3 = arguments[0];
                 var2 = undefined;
-                if(!(var3 === var2)) { _fun0004_ip = 42; continue _fun0004 }
- 9:
+                if(!(var3 === var2)) { _fun0004_ip = 11; continue _fun0004 }
+case 12:
                 var4 = _closure1_slot0;
                 var5 = _closure1_slot2;
                 var1 = 6;
@@ -166,7 +166,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var4.bind(var2)(var1);
                 var1 = var4.getMainWindowId;
                 var3 = var1.bind(var4)();
- 42:
+case 11:
                 var1 = _closure1_slot11;
                 var1 = var1.bind(var2)(var3);
                 var1 = var1.focused;
@@ -194,11 +194,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5['key'] = var7;
         var7 = function value() {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
                 var3 = arguments[0];
                 var2 = undefined;
-                if(!(var3 === var2)) { _fun0005_ip = 42; continue _fun0005 }
- 9:
+                if(!(var3 === var2)) { _fun0005_ip = 11; continue _fun0005 }
+case 12:
                 var4 = _closure1_slot0;
                 var5 = _closure1_slot2;
                 var1 = 6;
@@ -206,7 +206,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var4.bind(var2)(var1);
                 var1 = var4.getMainWindowId;
                 var3 = var1.bind(var4)();
- 42:
+case 11:
                 var1 = _closure1_slot11;
                 var1 = var1.bind(var2)(var3);
                 var1 = var1.visible;
@@ -225,14 +225,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.forEach;
             var2 = function(arg1, arg2) {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
- 0:
+case 0:
                     var1 = arg1;
                     var1 = var1.focused;
-                    if(!var1) { _fun0006_ip = 22; continue _fun0006 }
- 12:
+                    if(!var1) { _fun0006_ip = 13; continue _fun0006 }
+case 14:
                     var1 = arg2;
                     _closure3_slot0 = var1;
- 22:
+case 13:
                     var1 = undefined;
                     return var1;
                 }
@@ -257,11 +257,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5['key'] = var7;
         var7 = function value() {
             _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
- 0:
+case 0:
                 var3 = arguments[0];
                 var2 = undefined;
-                if(!(var3 === var2)) { _fun0007_ip = 42; continue _fun0007 }
- 9:
+                if(!(var3 === var2)) { _fun0007_ip = 11; continue _fun0007 }
+case 12:
                 var4 = _closure1_slot0;
                 var5 = _closure1_slot2;
                 var1 = 6;
@@ -269,7 +269,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var4.bind(var2)(var1);
                 var1 = var4.getMainWindowId;
                 var3 = var1.bind(var4)();
- 42:
+case 11:
                 var1 = _closure1_slot11;
                 var1 = var1.bind(var2)(var3);
                 var1 = var1.isElementFullscreen;
@@ -283,11 +283,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5['key'] = var7;
         var6 = function value() {
             _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
- 0:
+case 0:
                 var3 = arguments[0];
                 var2 = undefined;
-                if(!(var3 === var2)) { _fun0008_ip = 42; continue _fun0008 }
- 9:
+                if(!(var3 === var2)) { _fun0008_ip = 11; continue _fun0008 }
+case 12:
                 var4 = _closure1_slot0;
                 var5 = _closure1_slot2;
                 var1 = 6;
@@ -295,7 +295,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var4.bind(var2)(var1);
                 var1 = var4.getMainWindowId;
                 var3 = var1.bind(var4)();
- 42:
+case 11:
                 var1 = _closure1_slot11;
                 var1 = var1.bind(var2)(var3);
                 var1 = var1.windowSize;
@@ -316,7 +316,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = {};
     var7 = function handleWindowInit(arg1) {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
- 0:
+case 0:
             var1 = arg1;
             var4 = _closure1_slot1;
             var5 = _closure1_slot2;
@@ -348,11 +348,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4['focused'] = var3;
             var4['visible'] = var8;
             var4 = var6.bind(var7)(var5, var4);
-            if(!var3) { _fun0009_ip = 157; continue _fun0009 }
- 147:
+            if(!var3) { _fun0009_ip = 15; continue _fun0009 }
+case 16:
             var1 = var1.windowId;
             _closure1_slot8 = var1;
- 157:
+case 15:
             var1 = true;
             return var1;
         }
@@ -360,7 +360,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['WINDOW_INIT'] = var7;
     var7 = function handleWindowFullscreenChange(arg1) {
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
- 0:
+case 0:
             var6 = arg1;
             var4 = _closure1_slot11;
             var3 = var6.windowId;
@@ -369,8 +369,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var7.isElementFullscreen;
             var1 = var6.isElementFullscreen;
             var1 = var3 !== var1;
-            if(!var1) { _fun0010_ip = 92; continue _fun0010 }
- 42:
+            if(!var1) { _fun0010_ip = 17; continue _fun0010 }
+case 11:
             var5 = _closure1_slot9;
             var4 = var5.set;
             var3 = var6.windowId;
@@ -383,14 +383,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[var6] = var7;
             var2 = var4.bind(var5)(var3, var2);
             var1 = true;
- 92:
+case 17:
             return var1;
         }
     };
     var2['WINDOW_FULLSCREEN_CHANGE'] = var7;
     var7 = function handleWindowFocus(arg1) {
         _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
- 0:
+case 0:
             var6 = arg1;
             var4 = _closure1_slot11;
             var3 = var6.windowId;
@@ -399,14 +399,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var7.focused;
             var1 = var6.focused;
             var1 = var3 !== var1;
-            if(!var1) { _fun0011_ip = 111; continue _fun0011 }
- 42:
+            if(!var1) { _fun0011_ip = 18; continue _fun0011 }
+case 11:
             var3 = var6.focused;
-            if(!var3) { _fun0011_ip = 61; continue _fun0011 }
- 51:
+            if(!var3) { _fun0011_ip = 19; continue _fun0011 }
+case 9:
             var3 = var6.windowId;
             _closure1_slot8 = var3;
- 61:
+case 19:
             var5 = _closure1_slot9;
             var4 = var5.set;
             var3 = var6.windowId;
@@ -419,14 +419,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[var6] = var7;
             var2 = var4.bind(var5)(var3, var2);
             var1 = true;
- 111:
+case 18:
             return var1;
         }
     };
     var2['WINDOW_FOCUS'] = var7;
     var7 = function handleWindowResize(arg1) {
         _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
- 0:
+case 0:
             var6 = arg1;
             var4 = _closure1_slot11;
             var3 = var6.windowId;
@@ -436,15 +436,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var1.width;
             var1 = var6.width;
             var1 = var3 !== var1;
-            if(var1) { _fun0012_ip = 66; continue _fun0012 }
- 46:
+            if(var1) { _fun0012_ip = 20; continue _fun0012 }
+case 21:
             var3 = var7.windowSize;
             var4 = var3.height;
             var3 = var6.height;
             var1 = var4 !== var3;
- 66:
-            if(!var1) { _fun0012_ip = 133; continue _fun0012 }
- 69:
+case 20:
+            if(!var1) { _fun0012_ip = 22; continue _fun0012 }
+case 8:
             var5 = _closure1_slot9;
             var4 = var5.set;
             var3 = var6.windowId;
@@ -461,14 +461,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[var6] = var7;
             var2 = var4.bind(var5)(var3, var2);
             var1 = true;
- 133:
+case 22:
             return var1;
         }
     };
     var2['WINDOW_RESIZED'] = var7;
     var7 = function handleWindowUnload(arg1) {
         _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
- 0:
+case 0:
             var1 = arg1;
             var5 = _closure1_slot9;
             var4 = var5.delete;
@@ -476,11 +476,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.bind(var5)(var3);
             var3 = _closure1_slot8;
             var1 = var1.windowId;
-            if(!(var3 === var1)) { _fun0013_ip = 46; continue _fun0013 }
- 40:
+            if(!(var3 === var1)) { _fun0013_ip = 21; continue _fun0013 }
+case 23:
             var1 = null;
             _closure1_slot8 = var1;
- 46:
+case 21:
             var1 = true;
             return var1;
         }
@@ -488,7 +488,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['WINDOW_UNLOAD'] = var7;
     var7 = function handleWindowVisibilityChange(arg1) {
         _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
- 0:
+case 0:
             var6 = arg1;
             var4 = _closure1_slot11;
             var3 = var6.windowId;
@@ -497,8 +497,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var7.visible;
             var1 = var6.visible;
             var1 = var3 !== var1;
-            if(!var1) { _fun0014_ip = 92; continue _fun0014 }
- 42:
+            if(!var1) { _fun0014_ip = 17; continue _fun0014 }
+case 11:
             var5 = _closure1_slot9;
             var4 = var5.set;
             var3 = var6.windowId;
@@ -511,7 +511,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[var6] = var7;
             var2 = var4.bind(var5)(var3, var2);
             var1 = true;
- 92:
+case 17:
             return var1;
         }
     };

@@ -135,16 +135,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3[0] = var6;
         var2 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var3 = _closure2_slot0;
                 var2 = null;
-                if(!(var2 != var3)) { _fun0001_ip = 42; continue _fun0001 }
- 13:
+                if(!(var2 != var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var3 = _closure2_slot0;
                 var2 = var3.scrollToLocation;
                 var1 = {'section': 0, 'item': 0, 'animated': true};
                 var1 = var2.bind(var3)(var1);
- 42:
+case 2:
                 var1 = undefined;
                 return var1;
             }

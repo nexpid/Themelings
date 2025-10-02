@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var7;
     var4 = function makeAutocompleterSearchParams(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
             var1 = 6;
@@ -24,20 +24,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = _closure1_slot8;
             var3 = null;
             var5 = var3 != var1;
-            if(!var5) { _fun0001_ip = 78; continue _fun0001 }
- 64:
+            if(!var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var7 = _closure1_slot8;
             var6 = var7.includes;
             var5 = var6.bind(var7)(var1);
- 78:
+case 2:
             var3 = null;
-            if(!var5) { _fun0001_ip = 97; continue _fun0001 }
- 83:
+            if(!var5) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = new Array(1);
             var5[0] = var1;
             var2 = var5;
             var3 = var1;
- 97:
+case 4:
             var1 = {};
             var1['query'] = var4;
             var1['queryMode'] = var3;
@@ -90,7 +90,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['makeAutocompleterSearchParams'] = var4;
     var2 = function useShareSearchResults(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var13 = var1.targetDestination;
             var _closure2_slot0 = var13;
@@ -100,10 +100,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot2 = var9;
             var8 = var1.includeMissingDMs;
             var17 = undefined;
-            if(!(var8 === var17)) { _fun0002_ip = 49; continue _fun0002 }
- 47:
+            if(!(var8 === var17)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var8 = false;
- 49:
+case 6:
             var _closure2_slot3 = var8;
             var _closure2_slot4 = var17;
             var _closure2_slot5 = var17;
@@ -211,10 +211,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             _closure2_slot12 = var6;
             var12 = var10.current;
             var10 = var11;
-            if(!(var4 === var12)) { _fun0002_ip = 383; continue _fun0002 }
- 378:
+            if(!(var4 === var12)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var10 = var6.current;
- 383:
+case 8:
             _closure2_slot13 = var10;
             var6 = _closure1_slot4;
             var20 = var6.useEffect;
@@ -223,16 +223,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15[1] = var11;
             var12 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var3 = _closure2_slot6;
                     var2 = _closure2_slot11;
                     var2 = var2.current;
-                    if(!(var3 !== var2)) { _fun0003_ip = 34; continue _fun0003 }
- 20:
+                    if(!(var3 !== var2)) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
                     var3 = _closure2_slot12;
                     var2 = _closure2_slot1;
                     var3['current'] = var2;
- 34:
+case 10:
                     var2 = _closure2_slot11;
                     var1 = _closure2_slot6;
                     var2['current'] = var1;

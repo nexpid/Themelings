@@ -38,29 +38,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function SafeAreaPaddingView(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var7 = arg1;
             var14 = var7.top;
             var4 = undefined;
-            if(!(var14 === var4)) { _fun0001_ip = 18; continue _fun0001 }
- 16:
+            if(!(var14 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var14 = false;
- 18:
+case 2:
             var12 = var7.bottom;
-            if(!(var12 === var4)) { _fun0001_ip = 29; continue _fun0001 }
- 27:
+            if(!(var12 === var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var12 = false;
- 29:
+case 4:
             var11 = var7.left;
-            if(!(var11 === var4)) { _fun0001_ip = 40; continue _fun0001 }
- 38:
+            if(!(var11 === var4)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var11 = false;
- 40:
+case 6:
             var8 = var7.right;
-            if(!(var8 === var4)) { _fun0001_ip = 51; continue _fun0001 }
- 49:
+            if(!(var8 === var4)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var8 = false;
- 51:
+case 8:
             var3 = var7.style;
             var5 = {'top': 0, 'bottom': 0, 'left': 0, 'right': 0, 'style': 0};
             var10 = null;
@@ -84,87 +84,87 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var13.useRef;
             var7 = var7.bind(var13)(var10);
             _closure2_slot0 = var7;
-            if(!(var10 == var3)) { _fun0001_ip = 156; continue _fun0001 }
- 154:
+            if(!(var10 == var3)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var3 = {};
- 156:
+case 10:
             var17 = var3.paddingTop;
-            if(var17) { _fun0001_ip = 171; continue _fun0001 }
- 165:
+            if(var17) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var17 = var3.paddingVertical;
- 171:
-            if(var17) { _fun0001_ip = 176; continue _fun0001 }
- 174:
+case 12:
+            if(var17) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var17 = 0;
- 176:
+case 14:
             var15 = var3.paddingBottom;
-            if(var15) { _fun0001_ip = 191; continue _fun0001 }
- 185:
+            if(var15) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var15 = var3.paddingVertical;
- 191:
-            if(var15) { _fun0001_ip = 196; continue _fun0001 }
- 194:
+case 16:
+            if(var15) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
             var15 = 0;
- 196:
+case 18:
             var13 = var3.paddingLeft;
-            if(var13) { _fun0001_ip = 210; continue _fun0001 }
- 205:
+            if(var13) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
             var13 = var3.paddingHorizontal;
- 210:
-            if(var13) { _fun0001_ip = 215; continue _fun0001 }
- 213:
+case 20:
+            if(var13) { _fun0001_ip = 22; continue _fun0001 }
+case 23:
             var13 = 0;
- 215:
+case 22:
             var10 = var3.paddingRight;
-            if(var10) { _fun0001_ip = 229; continue _fun0001 }
- 224:
+            if(var10) { _fun0001_ip = 24; continue _fun0001 }
+case 25:
             var10 = var3.paddingHorizontal;
- 229:
-            if(var10) { _fun0001_ip = 234; continue _fun0001 }
- 232:
+case 24:
+            if(var10) { _fun0001_ip = 26; continue _fun0001 }
+case 27:
             var10 = 0;
- 234:
+case 26:
             var6 = new Array(5);
             var6[0] = var3;
             var3 = undefined;
-            if(!var14) { _fun0001_ip = 266; continue _fun0001 }
- 247:
+            if(!var14) { _fun0001_ip = 28; continue _fun0001 }
+case 29:
             var14 = {};
             var16 = var9.top;
             var16 = var16 + var17;
             var14['paddingTop'] = var16;
             var3 = var14;
- 266:
+case 28:
             var6[1] = var3;
             var3 = undefined;
-            if(!var12) { _fun0001_ip = 294; continue _fun0001 }
- 275:
+            if(!var12) { _fun0001_ip = 30; continue _fun0001 }
+case 31:
             var12 = {};
             var14 = var9.bottom;
             var14 = var14 + var15;
             var12['paddingBottom'] = var14;
             var3 = var12;
- 294:
+case 30:
             var6[2] = var3;
             var3 = undefined;
-            if(!var11) { _fun0001_ip = 322; continue _fun0001 }
- 303:
+            if(!var11) { _fun0001_ip = 32; continue _fun0001 }
+case 33:
             var11 = {};
             var12 = var9.left;
             var12 = var12 + var13;
             var11['paddingLeft'] = var12;
             var3 = var11;
- 322:
+case 32:
             var6[3] = var3;
             var3 = undefined;
-            if(!var8) { _fun0001_ip = 350; continue _fun0001 }
- 331:
+            if(!var8) { _fun0001_ip = 34; continue _fun0001 }
+case 35:
             var8 = {};
             var9 = var9.right;
             var9 = var9 + var10;
             var8['paddingRight'] = var9;
             var3 = var8;
- 350:
+case 34:
             var6[4] = var3;
             _closure2_slot1 = var6;
             var8 = _closure1_slot0;
@@ -178,23 +178,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var8.bind(var4)(var7);
             var7 = var7.bind(var4)(var6, var3);
             _closure2_slot2 = var7;
-            if(!var7) { _fun0001_ip = 415; continue _fun0001 }
- 408:
+            if(!var7) { _fun0001_ip = 36; continue _fun0001 }
+case 37:
             _closure2_slot1 = var3;
             var6 = var3;
- 415:
+case 36:
             var7 = _closure1_slot2;
             var3 = var7.useInsertionEffect;
             var2 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var2 = _closure2_slot2;
-                    if(var2) { _fun0002_ip = 24; continue _fun0002 }
- 10:
+                    if(var2) { _fun0002_ip = 38; continue _fun0002 }
+case 39:
                     var2 = _closure2_slot0;
                     var1 = _closure2_slot1;
                     var2['current'] = var1;
- 24:
+case 38:
                     var1 = undefined;
                     return var1;
                 }

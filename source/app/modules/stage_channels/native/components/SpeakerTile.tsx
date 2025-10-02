@@ -123,7 +123,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot10 = var5;
     var4 = function getSizeStyle(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var1 = arg2;
             var7 = _closure1_slot0;
@@ -134,22 +134,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var7.bind(var5)(var4);
             var4 = var4.StageTileSize;
             var4 = var4.FULL;
-            if(!(var4 !== var3)) { _fun0001_ip = 96; continue _fun0001 }
- 47:
+            if(!(var4 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var6];
             var2 = var4.bind(var5)(var2);
             var2 = var2.StageTileSize;
             var2 = var2.HALF;
-            if(!(var2 !== var3)) { _fun0001_ip = 88; continue _fun0001 }
- 80:
+            if(!(var2 !== var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = var1.third;
             return var2;
- 88:
+case 4:
             var2 = var1.half;
             return var2;
- 96:
+case 2:
             var1 = var1.full;
             return var1;
         }
@@ -157,7 +157,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot11 = var4;
     var2 = function getTileWidthStyle(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
             var1 = 8;
@@ -167,13 +167,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.StageTileSize;
             var2 = var1.THIRD;
             var1 = arg1;
-            if(!(var1 !== var2)) { _fun0002_ip = 55; continue _fun0002 }
- 44:
+            if(!(var1 !== var2)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var1 = {};
             var2 = 1;
             var1['flex'] = var2;
-            _fun0002_ip = 82; continue _fun0002;
- 55:
+            _fun0002_ip = 8; continue _fun0002;
+case 6:
             var2 = {};
             var4 = arg2;
             var3 = 36;
@@ -182,14 +182,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4 / var3;
             var2['maxWidth'] = var3;
             var1 = var2;
- 82:
+case 8:
             return var1;
         }
     };
     var _closure1_slot12 = var2;
     var8 = function getImageBackgroundStyle(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var2 = arg2;
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
@@ -200,13 +200,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.StageTileSize;
             var3 = var1.THIRD;
             var1 = arg1;
-            if(!(var1 !== var3)) { _fun0003_ip = 63; continue _fun0003 }
- 47:
+            if(!(var1 !== var3)) { _fun0003_ip = 9; continue _fun0003 }
+case 3:
             var3 = var2.imageBackground;
             var1 = new Array(1);
             var1[0] = var3;
-            _fun0003_ip = 94; continue _fun0003;
- 63:
+            _fun0003_ip = 10; continue _fun0003;
+case 9:
             var3 = var2.imageBackground;
             var2 = new Array(2);
             var2[0] = var3;
@@ -215,7 +215,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['paddingBottom'] = var4;
             var2[1] = var3;
             var1 = var2;
- 94:
+case 10:
             return var1;
         }
     };
@@ -223,7 +223,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var11.memo;
     var7 = function(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var3 = arg1;
             var16 = var3.channel;
             var _closure2_slot0 = var16;
@@ -292,18 +292,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var6 = var3.bind(var4)(var1, var2);
             var1 = null;
-            if(!(var1 != var13)) { _fun0004_ip = 1067; continue _fun0004 }
- 202:
+            if(!(var1 != var13)) { _fun0004_ip = 11; continue _fun0004 }
+case 12:
             var3 = var13.type;
             var2 = _closure1_slot7;
             var2 = var2.USER;
-            if(!(var3 === var2)) { _fun0004_ip = 1067; continue _fun0004 }
- 224:
+            if(!(var3 === var2)) { _fun0004_ip = 11; continue _fun0004 }
+case 13:
             var12 = var19;
-            if(var19) { _fun0004_ip = 233; continue _fun0004 }
- 230:
+            if(var19) { _fun0004_ip = 14; continue _fun0004 }
+case 15:
             var12 = var18;
- 233:
+case 14:
             var9 = _closure1_slot1;
             var22 = _closure1_slot2;
             var2 = 11;
@@ -372,13 +372,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8['size'] = var20;
             var8['isStageCall'] = var13;
             var13 = var12;
-            if(!var12) { _fun0004_ip = 552; continue _fun0004 }
- 533:
+            if(!var12) { _fun0004_ip = 16; continue _fun0004 }
+case 17:
             var20 = {};
             var21 = 0.5;
             var20['opacity'] = var21;
             var13 = var20;
- 552:
+case 16:
             var8['avatarStyle'] = var13;
             var9 = var10.bind(var5)(var9, var8);
             var8 = new Array(3);
@@ -416,8 +416,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = {};
             var10 = var15.nameplateContainer;
             var7['style'] = var10;
-            if(!var12) { _fun0004_ip = 964; continue _fun0004 }
- 720:
+            if(!var12) { _fun0004_ip = 18; continue _fun0004 }
+case 19:
             var16 = _closure1_slot9;
             var13 = _closure1_slot5;
             var10 = {};
@@ -425,14 +425,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17 = new Array(2);
             var17[0] = var20;
             var20 = null;
-            if(!var19) { _fun0004_ip = 755; continue _fun0004 }
- 749:
+            if(!var19) { _fun0004_ip = 20; continue _fun0004 }
+case 21:
             var20 = var15.blocked;
- 755:
+case 20:
             var17[1] = var20;
             var10['style'] = var17;
-            if(!var19) { _fun0004_ip = 866; continue _fun0004 }
- 766:
+            if(!var19) { _fun0004_ip = 22; continue _fun0004 }
+case 23:
             var21 = _closure1_slot8;
             var23 = _closure1_slot1;
             var24 = _closure1_slot2;
@@ -456,11 +456,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var22 = var22.RED_400;
             var17['color'] = var22;
             var19 = var21.bind(var5)(var20, var17);
- 866:
+case 22:
             var17 = new Array(2);
             var17[0] = var19;
-            if(!var18) { _fun0004_ip = 950; continue _fun0004 }
- 877:
+            if(!var18) { _fun0004_ip = 24; continue _fun0004 }
+case 25:
             var21 = _closure1_slot8;
             var23 = _closure1_slot1;
             var24 = _closure1_slot2;
@@ -478,11 +478,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var22 = var22.EXTRA_SMALL;
             var19['size'] = var22;
             var18 = var21.bind(var5)(var20, var19);
- 950:
+case 24:
             var17[1] = var18;
             var10['children'] = var17;
             var12 = var16.bind(var5)(var13, var10);
- 964:
+case 18:
             var10 = new Array(2);
             var10[0] = var12;
             var13 = _closure1_slot8;
@@ -504,7 +504,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['children'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
- 1067:
+case 11:
             return var1;
         }
     };

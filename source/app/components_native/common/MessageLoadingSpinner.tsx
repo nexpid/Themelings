@@ -1,7 +1,7 @@
 // app/components_native/common/MessageLoadingSpinner.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
         var5 = require;
         var3 = exports;
         var6 = dependencyMap;
@@ -35,11 +35,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var7.isAndroid;
         var7 = var4.bind(var7)();
         var4 = null;
-        if(var7) { _fun0001_ip = 145; continue _fun0001 }
- 134:
+        if(var7) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
         var7 = 'DCDMessageLoadingSpinner';
         var4 = var8.bind(var1)(var7);
- 145:
+case 2:
         var _closure1_slot2 = var4;
         var4 = 4;
         var4 = var6[var4];
@@ -49,12 +49,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var5.bind(var6)(var4);
         var2 = function _default(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var2 = arg1;
                 var4 = _closure1_slot2;
                 var1 = null;
-                if(!(var1 == var4)) { _fun0002_ip = 65; continue _fun0002 }
- 16:
+                if(!(var1 == var4)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                 var6 = _closure1_slot1;
                 var5 = _closure1_slot0;
                 var4 = {};
@@ -67,8 +67,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = copyDataProperties(var8, var7);
                 var1 = undefined;
                 var1 = var6.bind(var1)(var5, var4);
-                _fun0002_ip = 93; continue _fun0002;
- 65:
+                _fun0002_ip = 6; continue _fun0002;
+case 4:
                 var5 = _closure1_slot1;
                 var4 = _closure1_slot2;
                 var3 = {};
@@ -77,7 +77,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = copyDataProperties(var8, var7);
                 var2 = undefined;
                 var1 = var5.bind(var2)(var4, var3);
- 93:
+case 6:
                 return var1;
             }
         };

@@ -20,7 +20,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var4.bind(var5)(var2);
     var2 = function getNumSubscriptionsPurchasedFromSystemMessage(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = global;
             var4 = var1.Number;
             var2 = arg1;
@@ -31,14 +31,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var1.bind(var3)(var2);
             var4 = 1;
             var1 = var4;
-            if(var3) { _fun0001_ip = 55; continue _fun0001 }
- 43:
+            if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = 0;
             var1 = var4;
-            if(!(var3 !== var2)) { _fun0001_ip = 55; continue _fun0001 }
- 52:
+            if(!(var3 !== var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var1 = var2;
- 55:
+case 2:
             return var1;
         }
     };

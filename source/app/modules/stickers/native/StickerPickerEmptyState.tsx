@@ -86,7 +86,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot13 = var4;
     var4 = function EmptyStateSticker(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var6 = var1.sticker;
             var4 = var1.isFocused;
@@ -111,10 +111,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = null;
             var7 = var1 == var6;
             var1 = undefined;
-            if(var7) { _fun0001_ip = 106; continue _fun0001 }
- 101:
+            if(var7) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var6.id;
- 106:
+case 2:
             var1 = var4.bind(var5)(var3, var2, var1);
             return var1;
         }
@@ -268,7 +268,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var11 = var15.map;
         var7 = function(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var6 = arg1;
                 var _closure3_slot0 = var6;
                 var5 = _closure1_slot11;
@@ -318,10 +318,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = null;
                 var7 = var1 == var6;
                 var1 = undefined;
-                if(var7) { _fun0002_ip = 137; continue _fun0002 }
- 132:
+                if(var7) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                 var1 = var6.id;
- 137:
+case 4:
                 var1 = var5.bind(var4)(var3, var2, var1);
                 return var1;
             }

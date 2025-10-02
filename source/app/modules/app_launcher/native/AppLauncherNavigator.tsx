@@ -68,7 +68,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function AppLauncherNavigator(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var13 = var1.bottomSheetExpandReasonRef;
             var26 = var1.context;
@@ -113,10 +113,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var21 = var6.bind(var10)();
             var10 = null;
             var15 = var3;
-            if(!(var10 != var5)) { _fun0001_ip = 216; continue _fun0001 }
- 213:
+            if(!(var10 != var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var15 = var5;
- 216:
+case 2:
             var29 = var15.initialRouteName;
             var6 = _closure1_slot4;
             var5 = _closure1_slot3;
@@ -189,10 +189,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var25 = var3.initialRouteName;
             var23 = var22.HOME;
             var22 = undefined;
-            if(!(var25 === var23)) { _fun0001_ip = 474; continue _fun0001 }
- 468:
+            if(!(var25 === var23)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var22 = var3.initialSearchQuery;
- 474:
+case 4:
             var21['initialSearchQuery'] = var22;
             var19['initialParams'] = var21;
             var20 = var6.bind(var4)(var20, var19);
@@ -215,10 +215,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var23['context'] = var26;
             var28 = var25.APPLICATION_VIEW;
             var25 = var24;
-            if(!(var29 !== var28)) { _fun0001_ip = 574; continue _fun0001 }
- 572:
+            if(!(var29 !== var28)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var25 = {};
- 574:
+case 6:
             var32 = var23;
             var31 = var25;
             var25 = copyDataProperties(var32, var31);
@@ -244,19 +244,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var30 = var26.type;
             var29 = 'channel';
             var28 = undefined;
-            if(!(var29 === var30)) { _fun0001_ip = 683; continue _fun0001 }
- 680:
+            if(!(var29 === var30)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var28 = var26;
- 683:
+case 8:
             var23['context'] = var28;
             var30 = var3.initialRouteName;
             var28 = _closure1_slot6;
             var29 = var28.COMMAND_VIEW;
             var28 = var24;
-            if(!(var30 !== var29)) { _fun0001_ip = 712; continue _fun0001 }
- 710:
+            if(!(var30 !== var29)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var28 = {};
- 712:
+case 10:
             var32 = var23;
             var31 = var28;
             var28 = copyDataProperties(var32, var31);
@@ -281,10 +281,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var23['context'] = var26;
             var26 = var3.initialRouteName;
             var25 = var25.APP_LIST_VIEW;
-            if(!(var26 !== var25)) { _fun0001_ip = 821; continue _fun0001 }
- 819:
+            if(!(var26 !== var25)) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var24 = {};
- 821:
+case 12:
             var32 = var23;
             var31 = var24;
             var24 = copyDataProperties(var32, var31);
@@ -299,21 +299,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var6.bind(var4)(var5, var2);
             var2 = 'customId';
             var2 = var2 in var3;
-            if(var2) { _fun0001_ip = 895; continue _fun0001 }
- 887:
+            if(var2) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var6 = 'referrerId';
             var2 = var6 in var3;
- 895:
+case 14:
             var10 = null;
-            if(!var2) { _fun0001_ip = 927; continue _fun0001 }
- 900:
+            if(!var2) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var2 = {};
             var6 = var3.customId;
             var2['customId'] = var6;
             var3 = var3.referrerId;
             var2['referrerId'] = var3;
             var10 = var2;
- 927:
+case 16:
             var3 = _closure1_slot8;
             var2 = _closure1_slot0;
             var6 = _closure1_slot2;

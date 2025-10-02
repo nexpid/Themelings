@@ -25,12 +25,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = function* (arg1) {
             var1 = function* anon_0_(arg1) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     StartGenerator();
                     var2 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(var3) { _fun0001_ip = 234; continue _fun0001 }
- 13:
+                    if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var6 = var2.guildId;
                     var16 = var2.roleId;
                     var14 = var2.name;
@@ -40,12 +40,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var10 = var2.mentionable;
                     var7 = undefined;
                     SaveGenerator(address=58);
- 56:
+case 4:
                     return var7;
- 58:
+case 5:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0001_ip = 231; continue _fun0001 }
- 67:
+                    if(var3) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                     var5 = _closure1_slot0;
                     var8 = _closure1_slot2;
                     var3 = 2;
@@ -64,10 +64,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var12 = null;
                     var14 = var12 != var13;
                     var12 = 0;
-                    if(!var14) { _fun0001_ip = 148; continue _fun0001 }
- 145:
+                    if(!var14) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
                     var12 = var13;
- 148:
+case 8:
                     var9['color'] = var12;
                     var9['hoist'] = var11;
                     var9['mentionable'] = var10;
@@ -78,12 +78,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3['rejectWithError'] = var9;
                     var3 = var5.bind(var8)(var3);
                     SaveGenerator(address=188);
- 186:
+case 10:
                     return var3;
- 188:
+case 11:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(var5) { _fun0001_ip = 228; continue _fun0001 }
- 194:
+                    if(var5) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
                     var5 = _closure1_slot1;
                     var8 = _closure1_slot2;
                     var4 = 3;
@@ -92,11 +92,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var5.checkGuildTemplateDirty;
                     var4 = var4.bind(var5)(var6);
                     return var3;
- 228:
+case 12:
                     return var3;
- 231:
+case 6:
                     return var2;
- 234:
+case 2:
                     return var1;
                 }
             };

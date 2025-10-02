@@ -42,7 +42,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function getImageAttachmentMezzanineV2Config(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var4 = var1.location;
             var5 = _closure1_slot0;
@@ -61,18 +61,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var5.bind(var6)(var3, var2);
             var3 = var2.isInHoldout;
             var2 = {};
-            if(var3) { _fun0001_ip = 98; continue _fun0001 }
- 77:
+            if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = _closure1_slot2;
             var1 = var3.getConfig;
             var2['location'] = var4;
             var1 = var1.bind(var3)(var2);
-            _fun0001_ip = 107; continue _fun0001;
- 98:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var3 = false;
             var2['enabled'] = var3;
             var1 = var2;
- 107:
+case 4:
             return var1;
         }
     };

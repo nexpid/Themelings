@@ -3,12 +3,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3 = exports;
     var4 = function isCommunicationDisabled(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arg1;
             var1 = null;
             var1 = var1 != var5;
-            if(!var1) { _fun0001_ip = 73; continue _fun0001 }
- 12:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = global;
             var3 = var2.Date;
             var4 = var3.prototype;
@@ -24,7 +24,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = new var7[var2](var6);
             var2 = var2 instanceof Object ? var2 : var4;
             var1 = var3 > var2;
- 73:
+case 2:
             return var1;
         }
     };
@@ -49,17 +49,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['isCommunicationDisabled'] = var4;
     var2 = function isMemberCommunicationDisabled(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var4 = arg1;
             var3 = _closure1_slot0;
             var1 = null;
             var5 = var1 == var4;
             var2 = undefined;
             var1 = undefined;
-            if(var5) { _fun0002_ip = 29; continue _fun0002 }
- 23:
+            if(var5) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var1 = var4.communicationDisabledUntil;
- 29:
+case 4:
             var1 = var3.bind(var2)(var1);
             return var1;
         }

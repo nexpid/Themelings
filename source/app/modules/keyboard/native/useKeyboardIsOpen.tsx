@@ -9,18 +9,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var7;
     var2 = function getKeyboardIsOpen() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arguments[0];
             var6 = undefined;
-            if(!(var1 === var6)) { _fun0001_ip = 16; continue _fun0001 }
- 9:
+            if(!(var1 === var6)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = _closure1_slot4;
- 16:
+case 2:
             var2 = var1.includeCustomKeyboard;
-            if(!(var2 === var6)) { _fun0001_ip = 28; continue _fun0001 }
- 26:
+            if(!(var2 === var6)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = false;
- 28:
+case 4:
             var5 = _closure1_slot1;
             var1 = _closure1_slot2;
             var4 = 2;
@@ -30,11 +30,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.bind(var5)();
             var5 = var1.systemKeyboardOpen;
             var1 = var5;
-            if(!var2) { _fun0001_ip = 147; continue _fun0001 }
- 73:
+            if(!var2) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var2 = var5;
-            if(var5) { _fun0001_ip = 144; continue _fun0001 }
- 79:
+            if(var5) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var5 = _closure1_slot1;
             var7 = _closure1_slot2;
             var4 = var7[var4];
@@ -49,9 +49,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.KeyboardTypes;
             var3 = var3.SYSTEM;
             var2 = var4 !== var3;
- 144:
+case 8:
             var1 = var2;
- 147:
+case 6:
             return var1;
         }
     };
@@ -79,11 +79,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot5 = var5;
     var5 = function KEYBOARD_OPEN_OR_CUSTOM_KEYBOARD_OPEN_GETTER(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = var2.systemKeyboardOpen;
-            if(var1) { _fun0002_ip = 59; continue _fun0002 }
- 12:
+            if(var1) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
             var3 = var2.keyboardType;
             var5 = _closure1_slot0;
             var4 = _closure1_slot2;
@@ -94,7 +94,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.KeyboardTypes;
             var2 = var2.SYSTEM;
             var1 = var3 !== var2;
- 59:
+case 10:
             return var1;
         }
     };
@@ -107,30 +107,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var7)(var5);
     var5 = function useKeyboardIsOpen() {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var1 = arguments[0];
             var3 = undefined;
-            if(!(var1 === var3)) { _fun0003_ip = 16; continue _fun0003 }
- 9:
+            if(!(var1 === var3)) { _fun0003_ip = 2; continue _fun0003 }
+case 3:
             var1 = _closure1_slot4;
- 16:
+case 2:
             var1 = var1.includeCustomKeyboard;
-            if(!(var1 === var3)) { _fun0003_ip = 28; continue _fun0003 }
- 26:
+            if(!(var1 === var3)) { _fun0003_ip = 4; continue _fun0003 }
+case 5:
             var1 = false;
- 28:
+case 4:
             var5 = _closure1_slot1;
             var6 = _closure1_slot2;
             var2 = 2;
             var2 = var6[var2];
             var2 = var5.bind(var3)(var2);
-            if(var1) { _fun0003_ip = 60; continue _fun0003 }
- 54:
+            if(var1) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
             var1 = _closure1_slot5;
-            _fun0003_ip = 64; continue _fun0003;
- 60:
+            _fun0003_ip = 14; continue _fun0003;
+case 12:
             var1 = _closure1_slot6;
- 64:
+case 14:
             var1 = var2.bind(var3)(var1);
             return var1;
         }
@@ -138,20 +138,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['default'] = var5;
     var4 = function subscribeToKeyboardIsOpen(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var2 = arguments[1];
             var3 = arg1;
             var _closure2_slot0 = var3;
             var3 = undefined;
-            if(!(var2 === var3)) { _fun0004_ip = 25; continue _fun0004 }
- 18:
+            if(!(var2 === var3)) { _fun0004_ip = 15; continue _fun0004 }
+case 16:
             var2 = _closure1_slot4;
- 25:
+case 15:
             var2 = var2.includeCustomKeyboard;
-            if(!(var2 === var3)) { _fun0004_ip = 37; continue _fun0004 }
- 35:
+            if(!(var2 === var3)) { _fun0004_ip = 17; continue _fun0004 }
+case 18:
             var2 = false;
- 37:
+case 17:
             var _closure2_slot1 = var2;
             var2 = _closure1_slot3;
             var1 = function() {

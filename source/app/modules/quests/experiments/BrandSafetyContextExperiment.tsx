@@ -45,7 +45,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
             var1 = 2;
@@ -55,15 +55,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.QuestContent;
             var3 = var1.QUEST_BAR_MOBILE;
             var1 = arg1;
-            if(!(var1 !== var3)) { _fun0001_ip = 56; continue _fun0001 }
- 44:
+            if(!(var1 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = _closure1_slot2;
             var1 = var1.QUESTS_BAR;
-            _fun0001_ip = 66; continue _fun0001;
- 56:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var3 = _closure1_slot2;
             var1 = var3.QUESTS_BAR_MOBILE;
- 66:
+case 4:
             var4 = _closure1_slot3;
             var3 = var4.getCurrentConfig;
             var2 = {};

@@ -63,7 +63,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.forEach;
             var1 = function(arg1) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     var1 = arg1;
                     var7 = var1.item;
                     var3 = var7.type;
@@ -76,19 +76,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var2.AppLauncherHomeListItemType;
                     var2 = var2.SHELF_ITEM;
                     var2 = var3 !== var2;
-                    if(var2) { _fun0001_ip = 73; continue _fun0001 }
- 57:
+                    if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var4 = _closure2_slot0;
                     var3 = var4.get;
                     var2 = var3.bind(var4)();
- 73:
-                    if(var2) { _fun0001_ip = 95; continue _fun0001 }
- 76:
+case 2:
+                    if(var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                     var4 = _closure2_slot0;
                     var3 = var4.set;
                     var2 = true;
                     var2 = var3.bind(var4)(var2);
- 95:
+case 4:
                     var3 = var7.type;
                     var4 = _closure1_slot0;
                     var2 = _closure1_slot1;
@@ -97,19 +97,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var2.AppLauncherHomeListItemType;
                     var2 = var2.LEARN_MORE;
                     var2 = var3 !== var2;
-                    if(var2) { _fun0001_ip = 152; continue _fun0001 }
- 136:
+                    if(var2) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                     var4 = _closure2_slot1;
                     var3 = var4.get;
                     var2 = var3.bind(var4)();
- 152:
-                    if(var2) { _fun0001_ip = 174; continue _fun0001 }
- 155:
+case 6:
+                    if(var2) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
                     var4 = _closure2_slot1;
                     var3 = var4.set;
                     var2 = true;
                     var2 = var3.bind(var4)(var2);
- 174:
+case 8:
                     var3 = var7.type;
                     var4 = _closure1_slot0;
                     var2 = _closure1_slot1;
@@ -118,8 +118,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var2.AppLauncherHomeListItemType;
                     var2 = var2.RECOMMENDATION_SECTION_HEADER;
                     var2 = var3 !== var2;
-                    if(!var2) { _fun0001_ip = 253; continue _fun0001 }
- 215:
+                    if(!var2) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
                     var4 = var7.type;
                     var5 = _closure1_slot0;
                     var3 = _closure1_slot1;
@@ -128,18 +128,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var3.AppLauncherHomeListItemType;
                     var3 = var3.SECTION_HEADER;
                     var2 = var4 !== var3;
- 253:
-                    if(var2) { _fun0001_ip = 284; continue _fun0001 }
- 256:
+case 10:
+                    if(var2) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
                     var3 = _closure2_slot2;
                     var4 = var3.current;
                     var3 = var7.sectionName;
                     var4 = var4[var3];
                     var3 = null;
                     var2 = var3 != var4;
- 284:
-                    if(var2) { _fun0001_ip = 458; continue _fun0001 }
- 290:
+case 12:
+                    if(var2) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
                     var2 = _closure2_slot2;
                     var4 = var2.current;
                     var3 = var7.sectionName;
@@ -176,7 +176,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5['source'] = var6;
                     var2['properties'] = var5;
                     var2 = var3.bind(var4)(var2);
- 458:
+case 14:
                     return var1;
                 }
             };

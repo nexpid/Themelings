@@ -135,7 +135,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['subscribeChannel'] = var4;
     var2 = function subscribeChannelDimensions(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var5 = var3.guildId;
             var4 = var3.channelId;
@@ -145,13 +145,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot0 = var3;
             var7 = function toIndex(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var2 = arguments[1];
                     var1 = undefined;
-                    if(!(var2 === var1)) { _fun0002_ip = 11; continue _fun0002 }
- 9:
+                    if(!(var2 === var1)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var2 = 0;
- 11:
+case 2:
                     var1 = global;
                     var4 = var1.Math;
                     var3 = var4.max;
@@ -202,14 +202,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7.bind(var1)(var2, var6);
             var2 = 0;
             var14 = var10;
-            if(!(var14 > var2)) { _fun0001_ip = 130; continue _fun0001 }
- 106:
+            if(!(var14 > var2)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var6 = global;
             var9 = var6.Math;
             var6 = var9.max;
             var2 = var8.bind(var1)(var2);
             var14 = var6.bind(var9)(var2, var10);
- 130:
+case 4:
             var2 = global;
             var13 = var2.Math;
             var12 = var13.floor;
@@ -225,11 +225,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var10.bind(var1)(var6);
             var6 = var6.MINIMUM_RANGE;
             var6 = var9 * var6;
-            if(!(var6 <= var7)) { _fun0001_ip = 214; continue _fun0001 }
- 205:
+            if(!(var6 <= var7)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var6 = var8.bind(var1)(var6);
-            if(var6 <= var7) { _fun0001_ip = 205; continue _fun0001 }
- 214:
+            if(var6 <= var7) { _fun0001_ip = 7; continue _fun0001 }
+case 6:
             var2 = _closure1_slot3;
             var2 = var2.bind(var1)(var5, var4, var3);
             return var1;

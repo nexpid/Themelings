@@ -59,36 +59,36 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['remove'] = var4;
             var2 = function(arg1) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     var3 = arg1;
                     var4 = arguments[1];
                     var _closure4_slot0 = var3;
                     var1 = undefined;
-                    if(!(var4 === var1)) { _fun0001_ip = 20; continue _fun0001 }
- 18:
+                    if(!(var4 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var4 = true;
- 20:
+case 2:
                     var _closure4_slot1 = var1;
-                    if(!var4) { _fun0001_ip = 37; continue _fun0001 }
- 27:
+                    if(!var4) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                     var4 = var3.bind(var1)();
                     var3 = false;
-                    if(!(var3 !== var4)) { _fun0001_ip = 63; continue _fun0001 }
- 37:
+                    if(!(var3 !== var4)) { _fun0001_ip = 6; continue _fun0001 }
+case 4:
                     var4 = function conditionalCallback() {
                         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                             var3 = _closure4_slot0;
                             var1 = undefined;
                             var4 = var3.bind(var1)();
                             var3 = false;
-                            if(!(var3 === var4)) { _fun0002_ip = 41; continue _fun0002 }
- 19:
+                            if(!(var3 === var4)) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
                             var4 = _closure3_slot0;
                             var3 = var4.remove;
                             var2 = _closure4_slot1;
                             var2 = var3.bind(var4)(var2);
- 41:
+case 7:
                             return var1;
                         }
                     };
@@ -96,7 +96,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = _closure3_slot0;
                     var2 = var3.add;
                     var2 = var2.bind(var3)(var4);
- 63:
+case 6:
                     return var1;
                 }
             };

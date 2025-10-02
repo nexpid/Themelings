@@ -10,32 +10,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = function* (arg1) {
             var1 = function* anon_0_(arg1) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 78; continue _fun0001 }
- 7:
+                    if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var2 = global;
                     var3 = var2.fetch;
                     var5 = undefined;
                     var2 = arg1;
                     var2 = var3.bind(var5)(var2);
                     SaveGenerator(address=29);
- 27:
+case 4:
                     return var2;
- 29:
+case 5:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0001_ip = 75; continue _fun0001 }
- 35:
+                    if(var3) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                     var3 = var2.blob;
                     var3 = var3.bind(var2)();
                     SaveGenerator(address=49);
- 47:
+case 8:
                     return var3;
- 49:
+case 9:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(var4) { _fun0001_ip = 72; continue _fun0001 }
- 55:
+                    if(var4) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
                     var4 = function convertBlobToBase64(arg1) {
                         var2 = arg1;
                         var _closure5_slot0 = var2;
@@ -83,11 +83,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     };
                     var4 = var4.bind(var5)(var3);
                     return var4;
- 72:
+case 10:
                     return var3;
- 75:
+case 6:
                     return var2;
- 78:
+case 2:
                     return var1;
                 }
             };
@@ -130,7 +130,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function getFileNameFromGifUrl(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = global;
             var4 = var1.decodeURIComponent;
             var3 = undefined;
@@ -144,10 +144,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = null;
             var3 = var3 != var2;
             var5 = 'temp.gif';
-            if(!var3) { _fun0002_ip = 60; continue _fun0002 }
- 57:
+            if(!var3) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
             var5 = var2;
- 60:
+case 12:
             var1 = var1.HermesInternal;
             var4 = var1.concat;
             var3 = '';

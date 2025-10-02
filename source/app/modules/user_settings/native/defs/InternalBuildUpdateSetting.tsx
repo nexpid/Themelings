@@ -36,7 +36,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['type'] = var8;
     var8 = function InstallNativeUpdateIcon() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = _closure1_slot0;
             var4 = _closure1_slot3;
             var1 = 4;
@@ -60,19 +60,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = _closure1_slot5;
             var5 = _closure1_slot0;
             var6 = _closure1_slot3;
-            if(var1) { _fun0001_ip = 92; continue _fun0001 }
- 72:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = 8;
             var1 = var6[var1];
             var1 = var5.bind(var4)(var1);
             var2 = var1.RefreshIcon;
-            _fun0001_ip = 110; continue _fun0001;
- 92:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var1 = 7;
             var1 = var6[var1];
             var1 = var5.bind(var4)(var1);
             var2 = var1.DownloadIcon;
- 110:
+case 4:
             var1 = {};
             var1 = var3.bind(var4)(var2, var1);
             return var1;
@@ -81,7 +81,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['IconComponent'] = var8;
     var8 = function useInternalBuildUpdateDescription() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var6 = _closure1_slot0;
             var7 = _closure1_slot3;
             var3 = 4;
@@ -94,7 +94,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9[0] = var8;
             var5 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var2 = _closure1_slot4;
                     var1 = var2.latestFetchedBuild;
                     var1 = var1.bind(var2)();
@@ -102,10 +102,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = null;
                     var3 = var1 == var2;
                     var1 = undefined;
-                    if(var3) { _fun0003_ip = 40; continue _fun0003 }
- 34:
+                    if(var3) { _fun0003_ip = 5; continue _fun0003 }
+case 6:
                     var1 = var2.build;
- 40:
+case 5:
                     return var1;
                 }
             };
@@ -124,12 +124,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var3 = var6.bind(var7)(var3, var1);
             var1 = null;
-            if(!(var1 == var5)) { _fun0002_ip = 172; continue _fun0002 }
- 98:
+            if(!(var1 == var5)) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
             var6 = var1 != var3;
             var1 = 'Never refreshed';
-            if(!var6) { _fun0002_ip = 170; continue _fun0002 }
- 111:
+            if(!var6) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
             var6 = _closure1_slot1;
             var7 = _closure1_slot3;
             var2 = 5;
@@ -143,23 +143,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var2.concat;
             var2 = 'Last refreshed ';
             var1 = var3.bind(var2)(var4);
- 170:
-            _fun0002_ip = 203; continue _fun0002;
- 172:
+case 9:
+            _fun0002_ip = 11; continue _fun0002;
+case 7:
             var2 = global;
             var2 = var2.HermesInternal;
             var4 = var2.concat;
             var3 = 'Open build ';
             var2 = ' installer in a browser';
             var1 = var4.bind(var3)(var5, var2);
- 203:
+case 11:
             return var1;
         }
     };
     var2['useDescription'] = var8;
     var8 = function useHasInternalBuildUpdateSetting() {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var4 = _closure1_slot0;
             var3 = _closure1_slot3;
             var2 = 6;
@@ -170,29 +170,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.bind(var3)();
             var1 = _closure1_slot4;
             var1 = var1.hasUpdatesConfigured;
-            if(!var1) { _fun0004_ip = 51; continue _fun0004 }
- 48:
+            if(!var1) { _fun0004_ip = 12; continue _fun0004 }
+case 13:
             var1 = var2;
- 51:
+case 12:
             return var1;
         }
     };
     var2['usePredicate'] = var8;
     var7 = function handleInstallNativeUpdateSettingPress() {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
             var3 = _closure1_slot4;
             var2 = var3.latestFetchedBuild;
             var2 = var2.bind(var3)();
             var3 = var2.newBuild;
             var2 = null;
-            if(!(var2 === var3)) { _fun0005_ip = 45; continue _fun0005 }
- 29:
+            if(!(var2 === var3)) { _fun0005_ip = 14; continue _fun0005 }
+case 15:
             var4 = _closure1_slot4;
             var2 = var4.checkForNewerBuild;
             var2 = var2.bind(var4)();
-            _fun0005_ip = 78; continue _fun0005;
- 45:
+            _fun0005_ip = 16; continue _fun0005;
+case 14:
             var4 = _closure1_slot2;
             var2 = _closure1_slot3;
             var1 = 3;
@@ -201,7 +201,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4.bind(var1)(var2);
             var1 = var2.openBuildInstaller;
             var1 = var1.bind(var2)(var3);
- 78:
+case 16:
             var1 = undefined;
             return var1;
         }

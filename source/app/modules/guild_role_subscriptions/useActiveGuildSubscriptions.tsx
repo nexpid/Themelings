@@ -41,18 +41,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useActiveGuildSubscriptions() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arguments[0];
             var5 = undefined;
-            if(!(var1 === var5)) { _fun0001_ip = 13; continue _fun0001 }
- 11:
+            if(!(var1 === var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = {};
- 13:
+case 2:
             var8 = var1.ensureFresh;
-            if(!(var8 === var5)) { _fun0001_ip = 25; continue _fun0001 }
- 23:
+            if(!(var8 === var5)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var8 = false;
- 25:
+case 4:
             var _closure2_slot0 = var8;
             var _closure2_slot1 = var5;
             var _closure2_slot2 = var5;
@@ -92,7 +92,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4[1] = var7;
             var3 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var1 = {};
                     var2 = _closure2_slot0;
                     var1['ensureFresh'] = var2;
@@ -111,46 +111,46 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var10 = var7 == var8;
                     var1 = undefined;
                     var9 = undefined;
-                    if(var10) { _fun0002_ip = 90; continue _fun0002 }
- 85:
+                    if(var10) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var9 = var8.length;
- 90:
+case 6:
                     var10 = var7 != var9;
                     var8 = 0;
                     var7 = 0;
-                    if(!var10) { _fun0002_ip = 104; continue _fun0002 }
- 101:
+                    if(!var10) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                     var7 = var9;
- 104:
+case 8:
                     var7 = var8 !== var7;
-                    if(var7) { _fun0002_ip = 114; continue _fun0002 }
- 111:
+                    if(var7) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
                     var7 = !var4;
- 114:
+case 10:
                     var4 = !var7;
-                    if(!var7) { _fun0002_ip = 132; continue _fun0002 }
- 120:
+                    if(!var7) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
                     var6 = !var6;
-                    if(var6) { _fun0002_ip = 129; continue _fun0002 }
- 126:
+                    if(var6) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
                     var6 = var5;
- 129:
+case 14:
                     var4 = !var6;
- 132:
-                    if(var4) { _fun0002_ip = 161; continue _fun0002 }
- 135:
+case 12:
+                    if(var4) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
                     var5 = !var5;
-                    if(!var5) { _fun0002_ip = 158; continue _fun0002 }
- 141:
+                    if(!var5) { _fun0002_ip = 18; continue _fun0002 }
+case 19:
                     var7 = _closure1_slot5;
                     var6 = var7.hasFetchedSubscriptions;
                     var6 = var6.bind(var7)();
                     var5 = !var6;
- 158:
+case 18:
                     var4 = var5;
- 161:
-                    if(!var4) { _fun0002_ip = 206; continue _fun0002 }
- 164:
+case 16:
+                    if(!var4) { _fun0002_ip = 20; continue _fun0002 }
+case 21:
                     var4 = _closure2_slot2;
                     var3 = true;
                     var4['current'] = var3;
@@ -161,16 +161,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var3.bind(var1)(var2);
                     var2 = var3.fetchSubscriptions;
                     var2 = var2.bind(var3)();
- 206:
+case 20:
                     return var1;
                 }
             };
             var3 = var5.bind(var6)(var3, var4);
             var3 = null;
-            if(!(var3 == var1)) { _fun0001_ip = 188; continue _fun0001 }
- 184:
+            if(!(var3 == var1)) { _fun0001_ip = 22; continue _fun0001 }
+case 23:
             var1 = _closure1_slot7;
- 188:
+case 22:
             return var1;
         }
     };

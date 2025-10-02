@@ -152,14 +152,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = function* () {
                     var1 = function* anon_0_() {
                         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(var2) { _fun0001_ip = 98; continue _fun0001 }
- 7:
+                            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                             var2 = _closure2_slot0;
-                            if(!var2) { _fun0001_ip = 90; continue _fun0001 }
- 17:
+                            if(!var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                             var4 = _closure1_slot0;
                             var5 = _closure1_slot2;
                             var2 = 10;
@@ -175,17 +175,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var2 = var3.maybeFetchSoundboardSounds;
                             var2 = var2.bind(var3)();
                             SaveGenerator(address=84);
- 82:
+case 6:
                             return var2;
- 84:
+case 7:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                            if(var3) { _fun0001_ip = 95; continue _fun0001 }
- 90:
+                            if(var3) { _fun0001_ip = 8; continue _fun0001 }
+case 4:
                             var3 = undefined;
                             return var3;
- 95:
+case 8:
                             return var2;
- 98:
+case 2:
                             return var1;
                         }
                     };

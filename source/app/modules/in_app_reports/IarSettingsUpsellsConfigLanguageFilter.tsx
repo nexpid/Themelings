@@ -100,7 +100,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['onApply'] = var7;
     var4 = function predicate() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = _closure1_slot0;
             var4 = _closure1_slot1;
             var1 = 3;
@@ -112,8 +112,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = 'iar_settings_upsells';
             var1['location'] = var6;
             var1 = var3.bind(var5)(var1);
-            if(!var1) { _fun0001_ip = 84; continue _fun0001 }
- 51:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = _closure1_slot0;
             var5 = _closure1_slot1;
             var2 = 4;
@@ -122,7 +122,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.getKeywordFilterSetting;
             var2 = var2.bind(var3)();
             var1 = !var2;
- 84:
+case 2:
             return var1;
         }
     };

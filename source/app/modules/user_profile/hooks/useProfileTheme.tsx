@@ -39,7 +39,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useProfileTheme(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var15 = var1.user;
             var14 = var1.displayProfile;
@@ -69,24 +69,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var5 = var6.bind(var7)(var5, var2);
             var7 = null;
-            if(!(var7 == var13)) { _fun0001_ip = 162; continue _fun0001 }
- 121:
+            if(!(var7 == var13)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = var7 == var15;
             var2 = undefined;
-            if(var6) { _fun0001_ip = 159; continue _fun0001 }
- 130:
+            if(var6) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var11 = var15.getAvatarURL;
             var6 = var7 == var14;
             var8 = undefined;
-            if(var6) { _fun0001_ip = 150; continue _fun0001 }
- 145:
+            if(var6) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var8 = var14.guildId;
- 150:
+case 6:
             var6 = 80;
             var2 = var11.bind(var15)(var8, var6);
- 159:
+case 4:
             var13 = var2;
- 162:
+case 2:
             var6 = _closure1_slot0;
             var8 = _closure1_slot2;
             var2 = 5;
@@ -110,32 +110,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var6[var2];
             var8 = 1;
             var11 = var6[var8];
-            if(!(var7 != var14)) { _fun0001_ip = 276; continue _fun0001 }
- 265:
+            if(!(var7 != var14)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var6 = var14.canEditThemes;
-            if(var6) { _fun0001_ip = 301; continue _fun0001 }
- 276:
-            if(var3) { _fun0001_ip = 301; continue _fun0001 }
- 279:
+            if(var6) { _fun0001_ip = 10; continue _fun0001 }
+case 8:
+            if(var3) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var3 = {'theme': null, 'primaryColor': null, 'secondaryColor': null};
             var3['theme'] = var9;
             return var3;
- 301:
+case 10:
             var3 = var7 == var14;
             var6 = undefined;
-            if(var3) { _fun0001_ip = 323; continue _fun0001 }
- 310:
+            if(var3) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var3 = var14.getPreviewThemeColors;
             var6 = var3.bind(var14)(var12);
- 323:
+case 12:
             var12 = var7 == var6;
             var3 = undefined;
-            if(var12) { _fun0001_ip = 336; continue _fun0001 }
- 332:
+            if(var12) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var3 = var6[var2];
- 336:
-            if(!(var7 == var3)) { _fun0001_ip = 371; continue _fun0001 }
- 340:
+case 14:
+            if(!(var7 == var3)) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var12 = _closure1_slot0;
             var14 = _closure1_slot2;
             var2 = 7;
@@ -143,15 +143,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var12.bind(var10)(var2);
             var2 = var12.hex2int;
             var3 = var2.bind(var12)(var13);
- 371:
+case 16:
             var12 = var7 == var6;
             var2 = undefined;
-            if(var12) { _fun0001_ip = 384; continue _fun0001 }
- 380:
+            if(var12) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
             var2 = var6[var8];
- 384:
-            if(!(var7 == var2)) { _fun0001_ip = 419; continue _fun0001 }
- 388:
+case 18:
+            if(!(var7 == var2)) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
             var8 = _closure1_slot0;
             var12 = _closure1_slot2;
             var6 = 7;
@@ -159,13 +159,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var8.bind(var10)(var6);
             var6 = var8.hex2int;
             var2 = var6.bind(var8)(var11);
- 419:
+case 20:
             var6 = var9;
-            if(var5) { _fun0001_ip = 475; continue _fun0001 }
- 425:
+            if(var5) { _fun0001_ip = 22; continue _fun0001 }
+case 23:
             var6 = var9;
-            if(var4) { _fun0001_ip = 475; continue _fun0001 }
- 431:
+            if(var4) { _fun0001_ip = 22; continue _fun0001 }
+case 24:
             var5 = _closure1_slot0;
             var8 = _closure1_slot2;
             var4 = 8;
@@ -174,16 +174,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var5.getProfileTheme;
             var5 = var4.bind(var5)(var3);
             var4 = var9;
-            if(!(var7 != var5)) { _fun0001_ip = 472; continue _fun0001 }
- 469:
+            if(!(var7 != var5)) { _fun0001_ip = 25; continue _fun0001 }
+case 26:
             var4 = var5;
- 472:
+case 25:
             var6 = var4;
- 475:
+case 22:
             var4 = _closure1_slot6;
             var4 = var4.DARK;
-            if(!(var6 === var4)) { _fun0001_ip = 526; continue _fun0001 }
- 489:
+            if(!(var6 === var4)) { _fun0001_ip = 27; continue _fun0001 }
+case 28:
             var5 = _closure1_slot0;
             var7 = _closure1_slot2;
             var4 = 9;
@@ -192,13 +192,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var5.isThemeDark;
             var5 = var4.bind(var5)(var9);
             var4 = var9;
-            if(var5) { _fun0001_ip = 590; continue _fun0001 }
- 526:
+            if(var5) { _fun0001_ip = 29; continue _fun0001 }
+case 27:
             var5 = _closure1_slot6;
             var5 = var5.DARK;
             var5 = var6 === var5;
-            if(!var5) { _fun0001_ip = 574; continue _fun0001 }
- 543:
+            if(!var5) { _fun0001_ip = 30; continue _fun0001 }
+case 31:
             var8 = _closure1_slot0;
             var11 = _closure1_slot2;
             var7 = 9;
@@ -206,13 +206,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var8.bind(var10)(var7);
             var7 = var8.isThemeLight;
             var5 = var7.bind(var8)(var9);
- 574:
+case 30:
             var4 = var6;
-            if(!var5) { _fun0001_ip = 590; continue _fun0001 }
- 580:
+            if(!var5) { _fun0001_ip = 29; continue _fun0001 }
+case 32:
             var1 = _closure1_slot6;
             var4 = var1.DARKER;
- 590:
+case 29:
             var1 = {};
             var1['theme'] = var4;
             var1['primaryColor'] = var3;

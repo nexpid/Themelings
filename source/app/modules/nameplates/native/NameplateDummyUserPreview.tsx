@@ -42,7 +42,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var8.createStyles;
     var4 = function(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var7 = arg1;
             var8 = arg2;
             var1 = {};
@@ -54,13 +54,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = undefined;
             var4 = var9.bind(var5)(var4);
             var9 = var4.spacing;
-            if(var7) { _fun0001_ip = 63; continue _fun0001 }
- 55:
+            if(var7) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = var9.PX_8;
-            _fun0001_ip = 69; continue _fun0001;
- 63:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var4 = var9.PX_4;
- 69:
+case 4:
             var2['padding'] = var4;
             var9 = _closure1_slot1;
             var4 = _closure1_slot2;
@@ -81,32 +81,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4[var6];
             var4 = var9.bind(var5)(var4);
             var9 = var4.spacing;
-            if(var7) { _fun0001_ip = 169; continue _fun0001 }
- 161:
+            if(var7) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var4 = var9.PX_8;
-            _fun0001_ip = 175; continue _fun0001;
- 169:
+            _fun0001_ip = 7; continue _fun0001;
+case 5:
             var4 = var9.PX_4;
- 175:
+case 7:
             var2['marginRight'] = var4;
             var4 = 'transparent';
-            if(!var8) { _fun0001_ip = 215; continue _fun0001 }
- 187:
+            if(!var8) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var10 = _closure1_slot1;
             var9 = _closure1_slot2;
             var9 = var9[var6];
             var9 = var10.bind(var5)(var9);
             var9 = var9.colors;
             var4 = var9.BORDER_STRONG;
- 215:
+case 8:
             var2['backgroundColor'] = var4;
             var1['avatarContainer'] = var2;
             var2 = {};
             var4 = 0.5;
-            if(!var8) { _fun0001_ip = 241; continue _fun0001 }
- 239:
+            if(!var8) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var4 = 0;
- 241:
+case 10:
             var2['opacity'] = var4;
             var1['avatar'] = var2;
             var2 = {};
@@ -118,10 +118,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.md;
             var2['borderRadius'] = var4;
             var4 = 14;
-            if(!var7) { _fun0001_ip = 293; continue _fun0001 }
- 290:
+            if(!var7) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var4 = 6;
- 293:
+case 12:
             var2['height'] = var4;
             var4 = _closure1_slot1;
             var3 = _closure1_slot2;
@@ -151,18 +151,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var11 = var1.width;
             var5 = var1.hideAvatar;
             var4 = undefined;
-            if(!(var5 === var4)) { _fun0002_ip = 22; continue _fun0002 }
- 20:
+            if(!(var5 === var4)) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
             var5 = false;
- 22:
+case 14:
             var14 = var1.avatarSize;
-            if(!(var14 === var4)) { _fun0002_ip = 67; continue _fun0002 }
- 32:
+            if(!(var14 === var4)) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
             var2 = 6;
@@ -170,7 +170,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var4)(var2);
             var2 = var2.AvatarSizes;
             var14 = var2.NORMAL;
- 67:
+case 16:
             var13 = var1.nameplate;
             var7 = var1.style;
             var2 = _closure1_slot0;
@@ -233,15 +233,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var16.bind(var4)(var10);
             var10 = {};
             var18 = _closure1_slot2;
-            if(var15) { _fun0002_ip = 299; continue _fun0002 }
- 290:
+            if(var15) { _fun0002_ip = 18; continue _fun0002 }
+case 13:
             var15 = 11;
             var15 = var18[var15];
-            _fun0002_ip = 306; continue _fun0002;
- 299:
+            _fun0002_ip = 19; continue _fun0002;
+case 18:
             var17 = 10;
             var15 = var18[var17];
- 306:
+case 19:
             var15 = var16.bind(var4)(var15);
             var10['source'] = var15;
             var10['size'] = var14;

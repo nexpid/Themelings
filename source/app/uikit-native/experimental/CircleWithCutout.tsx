@@ -68,7 +68,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = var7.bind(var8)(var6);
     var6 = function CircleWithCutout(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var11 = var1.circleRadius;
             var19 = var1.cutoutRadius;
@@ -139,10 +139,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6['r'] = var11;
             var6['fill'] = var9;
             var9 = undefined;
-            if(!var10) { _fun0001_ip = 319; continue _fun0001 }
- 313:
+            if(!var10) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var9 = 'url(#mask)';
- 319:
+case 2:
             var6['mask'] = var9;
             var6 = var8.bind(var4)(var7, var6);
             var5[1] = var6;

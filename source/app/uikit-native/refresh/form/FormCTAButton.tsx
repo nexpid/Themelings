@@ -8,30 +8,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var7;
     var1 = function getCTAButtonColor(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var1 = arg2;
             var4 = _closure1_slot10;
             var4 = var4.BRAND;
-            if(!(var4 !== var3)) { _fun0001_ip = 71; continue _fun0001 }
- 23:
+            if(!(var4 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = _closure1_slot10;
             var4 = var4.DANGER;
-            if(!(var4 !== var3)) { _fun0001_ip = 63; continue _fun0001 }
- 37:
+            if(!(var4 !== var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = _closure1_slot10;
             var2 = var2.WARNING;
-            if(!(var2 !== var3)) { _fun0001_ip = 55; continue _fun0001 }
- 51:
+            if(!(var2 !== var3)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var2 = undefined;
             return var2;
- 55:
+case 6:
             var2 = var1.textWarning;
             return var2;
- 63:
+case 4:
             var2 = var1.textDanger;
             return var2;
- 71:
+case 2:
             var1 = var1.textBrand;
             return var1;
         }
@@ -39,40 +39,40 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot11 = var1;
     var4 = function FormCTAButton(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var5 = var1.color;
             var4 = undefined;
-            if(!(var4 === var5)) { _fun0002_ip = 27; continue _fun0002 }
- 14:
+            if(!(var4 === var5)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var2 = _closure1_slot10;
             var5 = var2.BRAND;
- 27:
+case 8:
             var13 = var1.label;
             var2 = var1.fontSize;
             var17 = 16;
-            if(!(var4 !== var2)) { _fun0002_ip = 48; continue _fun0002 }
- 45:
+            if(!(var4 !== var2)) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
             var17 = var2;
- 48:
+case 10:
             var2 = var1.alignLeft;
             var15 = var4 !== var2;
-            if(!var15) { _fun0002_ip = 64; continue _fun0002 }
- 61:
+            if(!var15) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
             var15 = var2;
- 64:
+case 12:
             var2 = var1.disabled;
             var10 = var4 !== var2;
-            if(!var10) { _fun0002_ip = 79; continue _fun0002 }
- 76:
+            if(!var10) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
             var10 = var2;
- 79:
+case 14:
             var2 = var1.loading;
             var11 = var4 !== var2;
-            if(!var11) { _fun0002_ip = 95; continue _fun0002 }
- 92:
+            if(!var11) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
             var11 = var2;
- 95:
+case 16:
             var9 = var1.testID;
             var8 = var1.style;
             var12 = var1.onPress;
@@ -95,22 +95,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = {};
             var16['fontSize'] = var17;
             var14[2] = var16;
-            if(!var15) { _fun0002_ip = 201; continue _fun0002 }
- 195:
+            if(!var15) { _fun0002_ip = 18; continue _fun0002 }
+case 19:
             var15 = var7.alignLeft;
- 201:
+case 18:
             var14[3] = var15;
             var1['style'] = var14;
             var1['children'] = var13;
             var13 = var3.bind(var4)(var2, var1);
-            if(!var11) { _fun0002_ip = 242; continue _fun0002 }
- 222:
+            if(!var11) { _fun0002_ip = 20; continue _fun0002 }
+case 21:
             var3 = _closure1_slot8;
             var2 = _closure1_slot3;
             var1 = {};
             var1['color'] = var5;
             var13 = var3.bind(var4)(var2, var1);
- 242:
+case 20:
             var3 = _closure1_slot2;
             var2 = var3.useContext;
             var5 = _closure1_slot0;
@@ -123,16 +123,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = _closure1_slot8;
             var2 = _closure1_slot5;
             var5 = {};
-            if(var1) { _fun0002_ip = 423; continue _fun0002 }
- 299:
+            if(var1) { _fun0002_ip = 22; continue _fun0002 }
+case 23:
             var14 = var7.sectionBody;
             var1 = new Array(3);
             var1[0] = var14;
             var14 = var10;
-            if(!var10) { _fun0002_ip = 324; continue _fun0002 }
- 319:
+            if(!var10) { _fun0002_ip = 24; continue _fun0002 }
+case 25:
             var14 = var7.disabled;
- 324:
+case 24:
             var1[1] = var14;
             var1[2] = var8;
             var5['style'] = var1;
@@ -146,10 +146,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var7.button;
             var1['style'] = var15;
             var15 = var10;
-            if(var10) { _fun0002_ip = 382; continue _fun0002 }
- 379:
+            if(var10) { _fun0002_ip = 26; continue _fun0002 }
+case 27:
             var15 = var11;
- 382:
+case 26:
             var1['disabled'] = var15;
             var16 = _closure1_slot7;
             var15 = _closure1_slot6;
@@ -159,8 +159,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var14.bind(var4)(var8, var1);
             var5['children'] = var1;
             var1 = var5;
-            _fun0002_ip = 508; continue _fun0002;
- 423:
+            _fun0002_ip = 28; continue _fun0002;
+case 22:
             var7 = var7.rowButton;
             var5['style'] = var7;
             var8 = _closure1_slot8;
@@ -175,16 +175,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6['onPress'] = var12;
             var12 = false;
             var6['arrow'] = var12;
-            if(var10) { _fun0002_ip = 486; continue _fun0002 }
- 483:
+            if(var10) { _fun0002_ip = 29; continue _fun0002 }
+case 30:
             var10 = var11;
- 486:
+case 29:
             var6['disabled'] = var10;
             var6['testID'] = var9;
             var6 = var8.bind(var4)(var7, var6);
             var5['children'] = var6;
             var1 = var5;
- 508:
+case 28:
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

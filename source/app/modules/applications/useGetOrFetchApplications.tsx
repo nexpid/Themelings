@@ -9,15 +9,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var7;
     var4 = function useGetOrFetchApplications(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var8 = arg1;
             var3 = arguments[1];
             var _closure2_slot0 = var8;
             var5 = undefined;
-            if(!(var3 === var5)) { _fun0001_ip = 20; continue _fun0001 }
- 18:
+            if(!(var3 === var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = true;
- 20:
+case 2:
             var _closure2_slot1 = var3;
             var _closure2_slot2 = var5;
             var7 = _closure1_slot3;
@@ -32,10 +32,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4[1] = var3;
             var3 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var2 = _closure2_slot1;
-                    if(!var2) { _fun0002_ip = 63; continue _fun0002 }
- 10:
+                    if(!var2) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot2;
                     var3 = 2;
@@ -48,9 +48,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var3.current;
                     var3 = var5.bind(var6)(var4, var3);
                     var2 = !var3;
- 63:
-                    if(!var2) { _fun0002_ip = 187; continue _fun0002 }
- 66:
+case 4:
+                    if(!var2) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var4 = _closure1_slot1;
                     var10 = _closure1_slot2;
                     var2 = 3;
@@ -78,7 +78,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var5.bind(var6)(var4, var3);
                     var1 = _closure2_slot2;
                     var1['current'] = var2;
- 187:
+case 6:
                     var1 = undefined;
                     return var1;
                 }
@@ -98,17 +98,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var3.map;
                 var1 = function(arg1) {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                         var4 = arg1;
                         var1 = null;
                         var2 = var1 != var4;
                         var1 = undefined;
-                        if(!var2) { _fun0003_ip = 32; continue _fun0003 }
- 14:
+                        if(!var2) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
                         var3 = _closure1_slot4;
                         var2 = var3.getApplication;
                         var1 = var2.bind(var3)(var4);
- 32:
+case 8:
                         return var1;
                     }
                 };
@@ -147,25 +147,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['default'] = var4;
     var2 = function useGetOrFetchApplication(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var6 = arg1;
             var4 = arguments[1];
             var3 = undefined;
-            if(!(var4 === var3)) { _fun0004_ip = 14; continue _fun0004 }
- 12:
+            if(!(var4 === var3)) { _fun0004_ip = 9; continue _fun0004 }
+case 10:
             var4 = true;
- 14:
+case 9:
             var2 = _closure1_slot5;
             var1 = null;
-            if(!(var1 == var6)) { _fun0004_ip = 33; continue _fun0004 }
- 27:
+            if(!(var1 == var6)) { _fun0004_ip = 11; continue _fun0004 }
+case 12:
             var1 = new Array(0);
-            _fun0004_ip = 44; continue _fun0004;
- 33:
+            _fun0004_ip = 13; continue _fun0004;
+case 11:
             var5 = new Array(1);
             var5[0] = var6;
             var1 = var5;
- 44:
+case 13:
             var2 = var2.bind(var3)(var1, var4);
             var1 = 0;
             var1 = var2[var1];

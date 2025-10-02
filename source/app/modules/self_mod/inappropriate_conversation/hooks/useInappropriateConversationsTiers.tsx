@@ -32,7 +32,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var7 = arg1;
             var5 = _closure1_slot0;
             var6 = _closure1_slot1;
@@ -68,46 +68,46 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = null;
             var1 = var6 == var8;
             var9 = undefined;
-            if(var1) { _fun0001_ip = 145; continue _fun0001 }
- 135:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var8.isStaff;
             var9 = var1.bind(var8)();
- 145:
+case 2:
             var8 = true;
             var1 = null;
-            if(!(var8 === var9)) { _fun0001_ip = 244; continue _fun0001 }
- 153:
+            if(!(var8 === var9)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = null;
-            if(!var2) { _fun0001_ip = 244; continue _fun0001 }
- 158:
+            if(!var2) { _fun0001_ip = 4; continue _fun0001 }
+case 6:
             var2 = var7.isDM;
             var2 = var2.bind(var7)();
             var1 = null;
-            if(!var2) { _fun0001_ip = 244; continue _fun0001 }
- 173:
+            if(!var2) { _fun0001_ip = 4; continue _fun0001 }
+case 7:
             var2 = {};
             var7 = var6 == var5;
             var8 = undefined;
-            if(var7) { _fun0001_ip = 189; continue _fun0001 }
- 184:
+            if(var7) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var8 = var5.type;
- 189:
+case 8:
             var7 = _closure1_slot3;
             var7 = var7.INAPPROPRIATE_CONVERSATION_TIER_1;
             var7 = var8 === var7;
             var2['isTier1'] = var7;
             var6 = var6 == var5;
             var4 = undefined;
-            if(var6) { _fun0001_ip = 222; continue _fun0001 }
- 217:
+            if(var6) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var4 = var5.type;
- 222:
+case 10:
             var3 = _closure1_slot3;
             var3 = var3.INAPPROPRIATE_CONVERSATION_TIER_2;
             var3 = var4 === var3;
             var2['isTier2'] = var3;
             var1 = var2;
- 244:
+case 4:
             return var1;
         }
     };

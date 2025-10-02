@@ -64,7 +64,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function NotificationSettingsMockChannels(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = _closure1_slot7;
             var4 = undefined;
             var6 = var2.bind(var4)();
@@ -119,14 +119,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = arg1;
             var3 = var3.unreadSetting;
             var2 = var2.ALL_MESSAGES;
-            if(!(var3 === var2)) { _fun0001_ip = 317; continue _fun0001 }
- 294:
+            if(!(var3 === var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = 1;
             var3 = var7[var2];
             var2 = _closure1_slot4;
             var2 = var2.ALL_MESSAGES;
             var3['resolvedUnreadSetting'] = var2;
- 317:
+case 2:
             var3 = _closure1_slot5;
             var2 = _closure1_slot3;
             var1 = {};
@@ -135,7 +135,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var7.map;
             var5 = function(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var1 = arg1;
                     var5 = _closure1_slot6;
                     var4 = _closure1_slot3;
@@ -177,10 +177,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var12 = _closure1_slot4;
                     var13 = var12.ONLY_MENTIONS;
                     var12 = undefined;
-                    if(!(var14 === var13)) { _fun0002_ip = 182; continue _fun0002 }
- 176:
+                    if(!(var14 === var13)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var12 = 'text-muted';
- 182:
+case 4:
                     var9['color'] = var12;
                     var9 = var11.bind(var2)(var10, var9);
                     var8[1] = var9;
@@ -202,10 +202,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var12 = _closure1_slot4;
                     var13 = var12.ONLY_MENTIONS;
                     var12 = undefined;
-                    if(!(var14 === var13)) { _fun0002_ip = 277; continue _fun0002 }
- 271:
+                    if(!(var14 === var13)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var12 = 'text-muted';
- 277:
+case 6:
                     var9['color'] = var12;
                     var12 = var1.name;
                     var9['children'] = var12;
@@ -224,10 +224,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = {};
                     var11 = var1.badged;
                     var10 = 0;
-                    if(!var11) { _fun0002_ip = 358; continue _fun0002 }
- 355:
+                    if(!var11) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                     var10 = 1;
- 358:
+case 8:
                     var7['value'] = var10;
                     var7 = var9.bind(var2)(var8, var7);
                     var6[1] = var7;

@@ -76,7 +76,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function _default(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var3 = var1.item;
             var6 = var1.isPurchased;
@@ -109,10 +109,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var17.nameplatePreviewContainer;
             var5 = new Array(2);
             var5[0] = var8;
-            if(!var6) { _fun0001_ip = 152; continue _fun0001 }
- 146:
+            if(!var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = var17.purchased;
- 152:
+case 2:
             var5[1] = var6;
             var1['style'] = var5;
             var8 = _closure1_slot4;

@@ -70,7 +70,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot7 = var4;
     var4 = function IgnoredUsersList(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var19 = var1.userIds;
             var1 = _closure1_slot7;
@@ -89,8 +89,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var2.analyticsLocations;
             var3 = var19.length;
             var2 = 0;
-            if(!(var2 !== var3)) { _fun0001_ip = 422; continue _fun0001 }
- 85:
+            if(!(var2 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = _closure1_slot5;
             var17 = _closure1_slot0;
             var18 = _closure1_slot2;
@@ -175,8 +175,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var3.bind(var5)(var7, var4);
             var1['children'] = var4;
             var1 = var3.bind(var5)(var2, var1);
-            _fun0001_ip = 534; continue _fun0001;
- 422:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var4 = _closure1_slot5;
             var3 = _closure1_slot1;
             var10 = _closure1_slot2;
@@ -202,7 +202,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var7.bind(var8)(var6);
             var2['body'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 534:
+case 4:
             return var1;
         }
     };

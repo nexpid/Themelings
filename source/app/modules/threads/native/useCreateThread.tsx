@@ -98,7 +98,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['attachmentsToUpload'] = var8;
             var7 = function onAttachmentUploadError(arg1, arg2, arg3) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var1 = 8;
@@ -120,8 +120,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = arg3;
                     var2['reason'] = var7;
                     var2 = var3.bind(var4)(var2);
-                    if(!var2) { _fun0001_ip = 174; continue _fun0001 }
- 97:
+                    if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var3 = _closure1_slot1;
                     var4 = _closure1_slot2;
                     var2 = 9;
@@ -140,7 +140,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = true;
                     var2['resetState'] = var5;
                     var2 = var3.bind(var4)(var2);
- 174:
+case 2:
                     return var1;
                 }
             };
@@ -159,7 +159,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['default'] = var4;
     var2 = function useCreateForumPost(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var8 = var1.parentChannel;
             var _closure2_slot0 = var8;
@@ -183,12 +183,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = function* (arg1) {
                     var1 = function* anon_0_(arg1) {
                         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                             StartGenerator();
                             var3 = arg1;
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=3);
-                            if(var4) { _fun0003_ip = 192; continue _fun0003 }
- 15:
+                            if(var4) { _fun0003_ip = 4; continue _fun0003 }
+case 5:
                             var _closure5_slot0 = var3;
                             var7 = undefined;
                             var _closure5_slot1 = var7;
@@ -218,12 +218,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var5 = 'progress';
                             var2 = function(arg1) {
                                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                                     var6 = arg1;
                                     var2 = var6.currentSize;
                                     var1 = _closure5_slot2;
-                                    if(!(var2 > var1)) { _fun0004_ip = 164; continue _fun0004 }
- 23:
+                                    if(!(var2 > var1)) { _fun0004_ip = 6; continue _fun0004 }
+case 7:
                                     var2 = _closure5_slot1;
                                     var1 = var2.cancel;
                                     var1 = var1.bind(var2)();
@@ -256,7 +256,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                     var4 = _closure2_slot1;
                                     var1['analyticsLocations'] = var4;
                                     var1 = var2.bind(var3)(var1);
- 164:
+case 6:
                                     var1 = undefined;
                                     return var1;
                                 }
@@ -265,20 +265,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var2 = var4.uploadFiles;
                             var2 = var2.bind(var4)(var3);
                             SaveGenerator(address=162);
- 160:
+case 8:
                             return var2;
- 162:
+case 9:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                            if(var3) { _fun0003_ip = 189; continue _fun0003 }
- 168:
+                            if(var3) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
                             var3 = {};
                             var4 = var4._file;
                             var3['uploaderFile'] = var4;
                             var3['files'] = var2;
                             return var3;
- 189:
+case 10:
                             return var2;
- 192:
+case 4:
                             return var1;
                         }
                     };
@@ -312,16 +312,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['parentChannel'] = var8;
             var8 = null;
             var11 = var8 == var10;
-            if(var11) { _fun0002_ip = 153; continue _fun0002 }
- 148:
+            if(var11) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
             var9 = var10.name;
- 153:
+case 12:
             var10 = var8 != var9;
             var8 = '';
-            if(!var10) { _fun0002_ip = 167; continue _fun0002 }
- 164:
+            if(!var10) { _fun0002_ip = 14; continue _fun0002 }
+case 6:
             var8 = var9;
- 167:
+case 14:
             var1['name'] = var8;
             var1['appliedTags'] = var7;
             var1['analyticsLocations'] = var6;

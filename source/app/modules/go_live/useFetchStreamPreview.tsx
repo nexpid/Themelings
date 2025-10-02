@@ -49,7 +49,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useFetchStreamPreview(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var11 = arg1;
             var12 = arg2;
             var10 = arg3;
@@ -58,10 +58,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot2 = var10;
             var1 = null;
             var5 = var1 == var12;
-            if(var5) { _fun0001_ip = 36; continue _fun0001 }
- 32:
+            if(var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = var1 == var10;
- 36:
+case 2:
             var _closure2_slot3 = var5;
             var4 = _closure1_slot0;
             var9 = _closure1_slot1;
@@ -90,19 +90,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8[0] = var1;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = _closure2_slot4;
                     var1 = null;
                     var1 = var1 != var3;
-                    if(!var1) { _fun0002_ip = 49; continue _fun0002 }
- 16:
+                    if(!var1) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var5 = _closure1_slot5;
                     var4 = var5.canBasicChannel;
                     var3 = _closure1_slot7;
                     var3 = var3.CONNECT;
                     var2 = _closure2_slot4;
                     var1 = var4.bind(var5)(var3, var2);
- 49:
+case 4:
                     return var1;
                 }
             };
@@ -130,43 +130,43 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4[0] = var2;
             var2 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var1 = {};
                     var4 = _closure2_slot3;
                     var2 = !var4;
-                    if(var4) { _fun0003_ip = 47; continue _fun0003 }
- 15:
+                    if(var4) { _fun0003_ip = 6; continue _fun0003 }
+case 7:
                     var8 = _closure1_slot3;
                     var7 = var8.shouldFetchPreview;
                     var6 = _closure2_slot0;
                     var5 = _closure2_slot1;
                     var4 = _closure2_slot2;
                     var2 = var7.bind(var8)(var6, var5, var4);
- 47:
+case 6:
                     var1['shouldFetchPreview'] = var2;
                     var4 = _closure2_slot3;
                     var2 = null;
-                    if(var4) { _fun0003_ip = 93; continue _fun0003 }
- 61:
+                    if(var4) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
                     var8 = _closure1_slot3;
                     var7 = var8.getPreviewURL;
                     var6 = _closure2_slot0;
                     var5 = _closure2_slot1;
                     var4 = _closure2_slot2;
                     var2 = var7.bind(var8)(var6, var5, var4);
- 93:
+case 8:
                     var1['previewUrl'] = var2;
                     var4 = _closure2_slot3;
                     var2 = !var4;
-                    if(var4) { _fun0003_ip = 142; continue _fun0003 }
- 108:
+                    if(var4) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
                     var7 = _closure1_slot3;
                     var6 = var7.getIsPreviewLoading;
                     var5 = _closure2_slot0;
                     var4 = _closure2_slot1;
                     var3 = _closure2_slot2;
                     var2 = var6.bind(var7)(var5, var4, var3);
- 142:
+case 10:
                     var1['isLoading'] = var2;
                     return var1;
                 }
@@ -176,10 +176,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot5 = var13;
             var4 = var2.previewUrl;
             var2 = var2.isLoading;
-            if(var1) { _fun0001_ip = 245; continue _fun0001 }
- 242:
+            if(var1) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var1 = var8;
- 245:
+case 12:
             var _closure2_slot6 = var1;
             var9 = _closure1_slot2;
             var8 = var9.useEffect;
@@ -192,19 +192,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7[5] = var1;
             var6 = function() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                     var2 = _closure2_slot5;
-                    if(!var2) { _fun0004_ip = 17; continue _fun0004 }
- 10:
+                    if(!var2) { _fun0004_ip = 14; continue _fun0004 }
+case 15:
                     var3 = _closure2_slot3;
                     var2 = !var3;
- 17:
-                    if(!var2) { _fun0004_ip = 24; continue _fun0004 }
- 20:
+case 14:
+                    if(!var2) { _fun0004_ip = 16; continue _fun0004 }
+case 17:
                     var2 = _closure2_slot6;
- 24:
-                    if(!var2) { _fun0004_ip = 77; continue _fun0004 }
- 27:
+case 16:
+                    if(!var2) { _fun0004_ip = 18; continue _fun0004 }
+case 19:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot1;
                     var2 = 7;
@@ -216,27 +216,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = _closure2_slot1;
                     var1 = _closure2_slot2;
                     var1 = var4.bind(var5)(var3, var2, var1);
- 77:
+case 18:
                     var1 = undefined;
                     return var1;
                 }
             };
             var6 = var8.bind(var9)(var6, var7);
-            if(var5) { _fun0001_ip = 319; continue _fun0001 }
- 302:
-            if(!var1) { _fun0001_ip = 319; continue _fun0001 }
- 305:
+            if(var5) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
+            if(!var1) { _fun0001_ip = 20; continue _fun0001 }
+case 22:
             var1 = {};
             var1['previewUrl'] = var4;
             var1['isLoading'] = var2;
-            _fun0001_ip = 336; continue _fun0001;
- 319:
+            _fun0001_ip = 23; continue _fun0001;
+case 20:
             var2 = {};
             var2['previewUrl'] = var3;
             var3 = false;
             var2['isLoading'] = var3;
             var1 = var2;
- 336:
+case 23:
             return var1;
         }
     };

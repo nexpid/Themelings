@@ -71,7 +71,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['VideoAssetProperty'] = var4;
     var4 = function resolveVideoQuestAsset(arg1, arg2, arg3, arg4) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var9 = arg1;
             var1 = var9.config;
             var1 = var1.taskConfigV2;
@@ -79,17 +79,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = arg2;
             var2 = var2[var1];
             var1 = null;
-            if(!(var1 != var2)) { _fun0001_ip = 198; continue _fun0001 }
- 36:
+            if(!(var1 != var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = var2.assets;
             var2 = arg3;
             var3 = var3[var2];
-            if(!(var1 != var3)) { _fun0001_ip = 196; continue _fun0001 }
- 56:
+            if(!(var1 != var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = arg4;
             var12 = var3[var2];
-            if(!(var1 != var12)) { _fun0001_ip = 194; continue _fun0001 }
- 70:
+            if(!(var1 != var12)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var3 = _closure1_slot0;
             var2 = _closure1_slot1;
             var8 = 0;
@@ -100,8 +100,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var2.bind(var3)(var12);
             var3 = var1 == var6;
             var2 = null;
-            if(var3) { _fun0001_ip = 192; continue _fun0001 }
- 114:
+            if(var3) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var3 = {};
             var5 = _closure1_slot0;
             var4 = _closure1_slot1;
@@ -119,28 +119,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.bind(var5)(var6);
             var3['isAnimated'] = var4;
             var2 = var3;
- 192:
+case 8:
             return var2;
- 194:
+case 6:
             return var1;
- 196:
+case 4:
             return var1;
- 198:
+case 2:
             return var1;
         }
     };
     var3['resolveVideoQuestAsset'] = var4;
     var2 = function getVideoAssetId(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var3 = arg1;
             var1 = null;
             var2 = var1 == var3;
-            if(var2) { _fun0002_ip = 23; continue _fun0002 }
- 12:
+            if(var2) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
             var2 = _closure1_slot2;
             var1 = var2[var3];
- 23:
+case 10:
             return var1;
         }
     };

@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function CoachmarkImg(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = var1.badge;
             var1 = _closure1_slot9;
@@ -24,21 +24,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = null;
             var8 = var1 == var2;
             var3 = undefined;
-            if(var8) { _fun0001_ip = 64; continue _fun0001 }
- 59:
+            if(var8) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = var2.id;
- 64:
+case 2:
             var3 = var4.bind(var7)(var3);
             var4 = var1 == var3;
             var10 = undefined;
-            if(var4) { _fun0001_ip = 84; continue _fun0001 }
- 78:
+            if(var4) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var10 = var3.medium;
- 84:
+case 4:
             var2 = var1 == var2;
             var1 = null;
-            if(var2) { _fun0001_ip = 184; continue _fun0001 }
- 93:
+            if(var2) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var4 = _closure1_slot8;
             var3 = _closure1_slot5;
             var2 = {};
@@ -61,7 +61,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var8.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 184:
+case 6:
             return var1;
         }
     };
@@ -123,7 +123,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function TieredTenureBadgeCoachmark(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var5 = var1.targetRef;
             var7 = var1.badgeId;
@@ -141,21 +141,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = null;
             var3 = var1 != var8;
             var10 = null;
-            if(!var3) { _fun0002_ip = 104; continue _fun0002 }
- 76:
+            if(!var3) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var7 = _closure1_slot0;
             var3 = _closure1_slot2;
             var3 = var3[var9];
             var7 = var7.bind(var6)(var3);
             var3 = var7.getTieredTenureBadgeData;
             var10 = var3.bind(var7)(var8);
- 104:
+case 8:
             _closure2_slot0 = var10;
-            if(!(var1 == var10)) { _fun0002_ip = 118; continue _fun0002 }
- 112:
+            if(!(var1 == var10)) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
             var11 = new Array(0);
-            _fun0002_ip = 161; continue _fun0002;
- 118:
+            _fun0002_ip = 12; continue _fun0002;
+case 10:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var3 = 10;
@@ -166,7 +166,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = new Array(1);
             var3[0] = var7;
             var11 = var3;
- 161:
+case 12:
             var3 = _closure1_slot0;
             var7 = _closure1_slot2;
             var8 = 11;

@@ -27,7 +27,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function getInitialStringSelectOptions(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var7 = _closure1_slot2;
             var6 = var7.getInteractionComponentState;
@@ -38,10 +38,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var5 == var2;
             var7 = undefined;
             var5 = undefined;
-            if(var6) { _fun0001_ip = 50; continue _fun0001 }
- 45:
+            if(var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = var2.type;
- 50:
+case 2:
             var6 = _closure1_slot0;
             var8 = _closure1_slot1;
             var4 = 1;
@@ -49,8 +49,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var6.bind(var7)(var4);
             var4 = var4.ComponentType;
             var4 = var4.STRING_SELECT;
-            if(!(var5 !== var4)) { _fun0001_ip = 123; continue _fun0001 }
- 86:
+            if(!(var5 !== var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = var3.options;
             var4 = var5.filter;
             var3 = function(arg1) {
@@ -66,10 +66,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var1 = var3.bind(var4)(var1);
-            _fun0001_ip = 128; continue _fun0001;
- 123:
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
             var1 = var2.values;
- 128:
+case 6:
             return var1;
         }
     };

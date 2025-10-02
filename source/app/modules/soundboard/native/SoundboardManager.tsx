@@ -9,8 +9,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function _isNativeReflectConstruct() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
- 2: // try_start_0
+case 0:
+case 2: // try_start_0
             var2 = global;
             var3 = var2.Boolean;
             var3 = var3.prototype;
@@ -28,11 +28,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var4)(var2);
             var2 = !var2;
             var _closure2_slot0 = var2;
- 72: // try_end0
-            _fun0001_ip = 76; continue _fun0001;
- 74: // catch_target0
+case 3: // try_end0
+            _fun0001_ip = 4; continue _fun0001;
+case 5: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+case 4:
             var2 = function _isNativeReflectConstruct() {
                 var1 = _closure2_slot0;
                 var1 = !var1;
@@ -114,7 +114,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function(arg1) {
         var3 = function SoundboardManager(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var5 = this;
                 var13 = 0;
                 var1 = copyRestArgs(var13);
@@ -132,12 +132,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = _closure1_slot6;
                 var1 = _closure1_slot14;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0002_ip = 86; continue _fun0002 }
- 73:
+                if(var1) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                 var1 = var9.apply;
                 var1 = var1.bind(var9)(var5, var10);
-                _fun0002_ip = 120; continue _fun0002;
- 86:
+                _fun0002_ip = 8; continue _fun0002;
+case 6:
                 var7 = global;
                 var8 = var7.Reflect;
                 var7 = var8.construct;
@@ -145,7 +145,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var6.bind(var3)(var5);
                 var6 = var6.constructor;
                 var1 = var7.bind(var8)(var9, var10, var6);
- 120:
+case 8:
                 var1 = var4.bind(var3)(var5, var1);
                 var _closure3_slot0 = var1;
                 var4 = function() {
@@ -173,34 +173,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1['_stopAndClearSounds'] = var4;
                 var4 = function(arg1) {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                         var6 = arg1;
                         var4 = arguments[1];
                         var5 = arguments[2];
                         var7 = arguments[3];
                         var1 = undefined;
-                        if(!(var4 === var1)) { _fun0003_ip = 21; continue _fun0003 }
- 18:
+                        if(!(var4 === var1)) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
                         var4 = 1;
- 21:
+case 9:
                         var8 = _closure1_slot10;
                         var3 = var8.getVoiceChannelId;
                         var3 = var3.bind(var8)();
-                        if(!(var3 !== var7)) { _fun0003_ip = 51; continue _fun0003 }
- 42:
+                        if(!(var3 !== var7)) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
                         var3 = null;
-                        if(!(var3 == var7)) { _fun0003_ip = 319; continue _fun0003 }
- 51:
+                        if(!(var3 == var7)) { _fun0003_ip = 13; continue _fun0003 }
+case 11:
                         var7 = _closure1_slot9;
                         var3 = var7.isDeaf;
                         var3 = var3.bind(var7)();
-                        if(var3) { _fun0003_ip = 319; continue _fun0003 }
- 71:
+                        if(var3) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
                         var7 = _closure1_slot11;
                         var3 = var7.isLocalSoundboardMuted;
                         var3 = var3.bind(var7)(var5);
-                        if(var3) { _fun0003_ip = 319; continue _fun0003 }
- 92:
+                        if(var3) { _fun0003_ip = 13; continue _fun0003 }
+case 15:
                         var7 = _closure1_slot1;
                         var8 = _closure1_slot2;
                         var3 = 10;
@@ -217,11 +217,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var3 = var4.get;
                         var4 = var3.bind(var4)(var7);
                         var3 = null;
-                        if(!(var3 != var4)) { _fun0003_ip = 175; continue _fun0003 }
- 165:
+                        if(!(var3 != var4)) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
                         var3 = var4.stop;
                         var3 = var3.bind(var4)();
- 175:
+case 16:
                         var8 = _closure1_slot1;
                         var4 = _closure1_slot2;
                         var3 = 11;
@@ -252,7 +252,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2['soundId'] = var6;
                         var2['userId'] = var5;
                         var2 = var3.bind(var4)(var2);
- 319:
+case 13:
                         return var1;
                     }
                 };
@@ -263,12 +263,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = function* (arg1) {
                         var1 = function* anon_0_(arg1) {
                             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                                 StartGenerator();
                                 var2 = arg1;
                                 ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                                if(var3) { _fun0004_ip = 178; continue _fun0004 }
- 13:
+                                if(var3) { _fun0004_ip = 18; continue _fun0004 }
+case 19:
                                 var8 = var2.sound;
                                 var7 = var2.soundKey;
                                 var5 = var2.soundId;
@@ -276,30 +276,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 var3 = undefined;
                                 var6 = undefined;
                                 SaveGenerator(address=44);
- 42:
+case 12:
                                 return var3;
- 44:
+case 20:
                                 ResumeGenerator(result_out_reg=1, return_bool_out_reg=8);
-                                if(var9) { _fun0004_ip = 175; continue _fun0004 }
- 53:
+                                if(var9) { _fun0004_ip = 16; continue _fun0004 }
+case 21:
                                 var6 = false;
- 55: // try_start_0
+case 22: // try_start_0
                                 var9 = var8;
                                 var8 = var9.playWithListener;
                                 var8 = var8.bind(var9)();
                                 SaveGenerator(address=72);
- 70:
+case 23:
                                 return var8;
- 72:
+case 3:
                                 ResumeGenerator(result_out_reg=7, return_bool_out_reg=8);
-                                if(var9) { _fun0004_ip = 83; continue _fun0004 }
- 78:
+                                if(var9) { _fun0004_ip = 24; continue _fun0004 }
+case 25:
                                 var6 = var8;
- 81: // try_end0
-                                _fun0004_ip = 120; continue _fun0004;
- 83:
+case 26: // try_end0
+                                _fun0004_ip = 8; continue _fun0004;
+case 24:
                                 return var8;
- 86: // catch_target0
+case 6: // catch_target0
                                 CatchBlockStart(arg_register=7);
                                 var11 = _closure1_slot13;
                                 var10 = var11.error;
@@ -308,9 +308,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 var8 = 'Failed to play sound';
                                 var8 = var10.bind(var11)(var8, var9);
                                 var6 = true;
- 120:
-                                if(!var6) { _fun0004_ip = 172; continue _fun0004 }
- 123:
+case 8:
+                                if(!var6) { _fun0004_ip = 27; continue _fun0004 }
+case 28:
                                 var9 = _closure1_slot12;
                                 var8 = var9.delete;
                                 var7 = var8.bind(var9)(var7);
@@ -321,11 +321,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 var7 = var7.bind(var3)(var6);
                                 var6 = var7.reportSoundFinishedPlaying;
                                 var4 = var6.bind(var7)(var5, var4);
- 172:
+case 27:
                                 return var3;
- 175:
+case 16:
                                 return var2;
- 178:
+case 18:
                                 return var1;
                             }
                         };

@@ -29,7 +29,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function supportsZstd() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
             var1 = 1;
@@ -38,24 +38,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var4)(var1);
             var1 = var3.isAndroid;
             var1 = var1.bind(var3)();
-            if(var1) { _fun0001_ip = 76; continue _fun0001 }
- 37:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = _closure1_slot3;
             var5 = var1.DCDCompressionManager;
             var1 = null;
             var6 = var1 == var5;
             var3 = undefined;
-            if(var6) { _fun0001_ip = 64; continue _fun0001 }
- 58:
+            if(var6) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = var5.supportsZstd;
- 64:
+case 4:
             var1 = var1 != var3;
-            if(!var1) { _fun0001_ip = 74; continue _fun0001 }
- 71:
+            if(!var1) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var1 = var3;
- 74:
-            _fun0001_ip = 112; continue _fun0001;
- 76:
+case 6:
+            _fun0001_ip = 8; continue _fun0001;
+case 2:
             var3 = _closure1_slot1;
             var5 = _closure1_slot2;
             var2 = 2;
@@ -64,7 +64,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.getConstants;
             var2 = var2.bind(var3)();
             var1 = var2.supportsZstd;
- 112:
+case 8:
             return var1;
         }
     };

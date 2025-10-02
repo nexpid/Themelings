@@ -28,7 +28,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function _default(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var10 = arg1;
             var4 = arg2;
             var _closure2_slot0 = var10;
@@ -58,29 +58,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = null;
             var1 = var3 == var4;
             var12 = undefined;
-            if(var1) { _fun0001_ip = 103; continue _fun0001 }
- 98:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var12 = var4.width;
- 103:
+case 2:
             var13 = var3 != var12;
             var11 = 0;
-            if(!var13) { _fun0001_ip = 115; continue _fun0001 }
- 112:
+            if(!var13) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var11 = var12;
- 115:
+case 4:
             var2['width'] = var11;
             var12 = var3 == var4;
             var11 = undefined;
-            if(var12) { _fun0001_ip = 133; continue _fun0001 }
- 128:
+            if(var12) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var11 = var4.height;
- 133:
+case 6:
             var12 = var3 != var11;
             var1 = 0;
-            if(!var12) { _fun0001_ip = 145; continue _fun0001 }
- 142:
+            if(!var12) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var1 = var11;
- 145:
+case 8:
             var2['height'] = var1;
             var11 = _closure1_slot1;
             var12 = _closure1_slot2;
@@ -90,8 +90,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.CHAT_INPUT;
             var1 = var7.bind(var9)(var10, var2, var1);
             var2 = var3 != var4;
-            if(!var2) { _fun0001_ip = 239; continue _fun0001 }
- 189:
+            if(!var2) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var7 = _closure1_slot0;
             var9 = _closure1_slot2;
             var6 = 4;
@@ -102,21 +102,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var4.filename;
             var4 = var4.mimeType;
             var2 = var8.bind(var9)(var7, var6, var4);
- 239:
-            if(!var1) { _fun0001_ip = 262; continue _fun0001 }
- 242:
+case 10:
+            if(!var1) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var3 = var3 != var5;
-            if(!var3) { _fun0001_ip = 259; continue _fun0001 }
- 249:
+            if(!var3) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var4 = var5.isForumLikeChannel;
             var3 = var4.bind(var5)();
- 259:
+case 14:
             var1 = !var3;
- 262:
-            if(!var1) { _fun0001_ip = 268; continue _fun0001 }
- 265:
+case 12:
+            if(!var1) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var1 = var2;
- 268:
+case 16:
             return var1;
         }
     };

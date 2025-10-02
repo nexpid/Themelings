@@ -58,7 +58,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['default'] = var4;
     var2 = function useBlockedPaymentsConfig() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = _closure1_slot2;
             var4 = var5.useExperiment;
             var2 = {};
@@ -86,15 +86,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var5.bind(var4)(var3);
             var3 = var3.bind(var4)();
             var4 = var3.defaultBillingCountryCode;
-            if(var1) { _fun0001_ip = 136; continue _fun0001 }
- 122:
-            if(!var2) { _fun0001_ip = 133; continue _fun0001 }
- 125:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            if(!var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = 'RU';
             var2 = var3 === var4;
- 133:
+case 4:
             var1 = var2;
- 136:
+case 2:
             return var1;
         }
     };

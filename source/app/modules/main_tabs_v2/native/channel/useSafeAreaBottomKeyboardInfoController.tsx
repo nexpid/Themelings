@@ -35,7 +35,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useSafeAreaBottomKeyboardInfoController() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = _closure1_slot0;
             var2 = _closure1_slot1;
             var4 = 1;
@@ -52,17 +52,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = null;
             var9 = var3 == var2;
             var11 = undefined;
-            if(var9) { _fun0001_ip = 75; continue _fun0001 }
- 70:
+            if(var9) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var11 = var2.height;
- 75:
+case 2:
             var12 = var3 != var11;
             var9 = 0;
             var2 = 0;
-            if(!var12) { _fun0001_ip = 89; continue _fun0001 }
- 86:
+            if(!var12) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = var11;
- 89:
+case 4:
             var2 = var5.bind(var10)(var2);
             var _closure2_slot0 = var2;
             var11 = _closure1_slot0;
@@ -77,16 +77,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var10.bind(var11)();
             var12 = var3 == var11;
             var10 = undefined;
-            if(var12) { _fun0001_ip = 158; continue _fun0001 }
- 153:
+            if(var12) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var10 = var11.height;
- 158:
+case 6:
             var11 = var3 != var10;
             var3 = 0;
-            if(!var11) { _fun0001_ip = 170; continue _fun0001 }
- 167:
+            if(!var11) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var3 = var10;
- 170:
+case 8:
             var3 = var9 !== var3;
             var3 = var4.bind(var5)(var3);
             var _closure2_slot1 = var3;
@@ -197,17 +197,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = {};
             var8 = function b(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var1 = arg1;
                     var2 = var1.height;
                     var4 = 0;
-                    if(!(var4 !== var2)) { _fun0002_ip = 36; continue _fun0002 }
- 14:
+                    if(!(var4 !== var2)) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
                     var5 = _closure2_slot0;
                     var3 = var5.set;
                     var2 = var1.height;
                     var2 = var3.bind(var5)(var2);
- 36:
+case 10:
                     var3 = _closure2_slot1;
                     var2 = var3.set;
                     var1 = var1.height;

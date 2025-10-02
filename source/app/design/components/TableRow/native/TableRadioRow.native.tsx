@@ -32,7 +32,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function TableRadioRow(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arg1;
             var2 = var5.value;
             var _closure2_slot0 = var2;
@@ -40,10 +40,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var5.subLabel;
             var11 = var5.disabled;
             var4 = undefined;
-            if(!(var11 === var4)) { _fun0001_ip = 38; continue _fun0001 }
- 36:
+            if(!(var11 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var11 = false;
- 38:
+case 2:
             var9 = var5.accessibilityHint;
             var8 = var5.legacyCompat_selected;
             var1 = var5.legacyCompat_onPress;
@@ -70,10 +70,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var3.selectedValue;
             var3 = var3.onSelect;
             _closure2_slot2 = var3;
-            if(!(var10 == var8)) { _fun0001_ip = 169; continue _fun0001 }
- 165:
+            if(!(var10 == var8)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var8 = var1 === var2;
- 169:
+case 4:
             var2 = _closure1_slot0;
             var16 = _closure1_slot1;
             var1 = 3;
@@ -117,10 +117,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var10 != var7;
             var12 = '';
             var11 = var12;
-            if(!var10) { _fun0001_ip = 353; continue _fun0001 }
- 350:
+            if(!var10) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var11 = var7;
- 353:
+case 6:
             var7 = global;
             var7 = var7.HermesInternal;
             var10 = var7.concat;
@@ -132,16 +132,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1[var7] = var9;
             var7 = function onPress(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = _closure2_slot1;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0002_ip = 27; continue _fun0002 }
- 13:
+                    if(!(var2 != var3)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                     var4 = _closure2_slot1;
                     var3 = undefined;
                     var2 = arg1;
                     var2 = var4.bind(var3)(var2);
- 27:
+case 8:
                     var3 = _closure2_slot2;
                     var2 = _closure2_slot0;
                     var1 = undefined;

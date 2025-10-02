@@ -85,7 +85,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function VoiceControlsToggleActionSheet(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var1 = var1.markAsDismissed;
             var _closure2_slot0 = var1;
@@ -125,10 +125,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var12 = var5.bind(var6)(var3, var2);
             var18 = 1.5;
-            if(!var1) { _fun0001_ip = 171; continue _fun0001 }
- 161:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var18 = 2.0875;
- 171:
+case 2:
             var3 = _closure1_slot8;
             var15 = _closure1_slot0;
             var16 = _closure1_slot2;
@@ -158,7 +158,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7['style'] = var9;
             var9 = function onLayout(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var1 = arg1;
                     var1 = var1.nativeEvent;
                     var1 = var1.layout;
@@ -166,11 +166,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = _closure2_slot1;
                     var1 = _closure2_slot2;
                     var2 = var4;
-                    if(!var1) { _fun0002_ip = 44; continue _fun0002 }
- 37:
+                    if(!var1) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var1 = 2;
                     var2 = var4 / var1;
- 44:
+case 4:
                     var1 = undefined;
                     var1 = var3.bind(var1)(var2);
                     var1 = undefined;

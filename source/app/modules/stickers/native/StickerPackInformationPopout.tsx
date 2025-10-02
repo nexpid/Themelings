@@ -98,7 +98,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot6 = var4;
     var4 = function generateListData(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = new Array(0);
             var3 = _closure1_slot0;
             var5 = _closure1_slot1;
@@ -109,8 +109,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var5.isStickerPackAnimated;
             var2 = arg1;
             var2 = var3.bind(var5)(var2);
-            if(!var2) { _fun0001_ip = 127; continue _fun0001 }
- 46:
+            if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = var1.push;
             var2 = {};
             var5 = 'animated';
@@ -129,7 +129,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var5.bind(var6)(var4);
             var2['description'] = var4;
             var2 = var3.bind(var1)(var2);
- 127:
+case 2:
             return var1;
         }
     };

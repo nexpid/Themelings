@@ -69,7 +69,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot9 = var4;
     var4 = function Tab(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var7 = var2.children;
             var12 = var2.index;
@@ -146,30 +146,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8[0] = var12;
             var8[1] = var9;
             var12 = null;
-            if(!var14) { _fun0001_ip = 266; continue _fun0001 }
- 256:
+            if(!var14) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var16 = _closure1_slot9;
             var12 = var16.tabSelected;
- 266:
+case 2:
             var8[2] = var12;
             var12 = null;
-            if(!var11) { _fun0001_ip = 285; continue _fun0001 }
- 275:
+            if(!var11) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var15 = _closure1_slot9;
             var12 = var15.tabActive;
- 285:
+case 4:
             var8[3] = var12;
             var12 = null;
-            if(!var14) { _fun0001_ip = 297; continue _fun0001 }
- 294:
+            if(!var14) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var12 = var13;
- 297:
+case 6:
             var8[4] = var12;
             var9 = null;
-            if(!var11) { _fun0001_ip = 309; continue _fun0001 }
- 306:
+            if(!var11) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var9 = var10;
- 309:
+case 8:
             var8[5] = var9;
             var5['style'] = var8;
             var5['children'] = var7;
@@ -188,7 +188,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function _default(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var2 = arg1;
             var11 = var2.initialNumTabsToRender;
             var14 = var2.tabs;
@@ -205,15 +205,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17 = var2.containerStyle;
             var9 = var2.hideHorizontalScrollbar;
             var4 = undefined;
-            if(!(var9 === var4)) { _fun0002_ip = 89; continue _fun0002 }
- 87:
+            if(!(var9 === var4)) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
             var9 = false;
- 89:
+case 10:
             var8 = var2.scrollToSelectedIndex;
-            if(!(var8 === var4)) { _fun0002_ip = 103; continue _fun0002 }
- 101:
+            if(!(var8 === var4)) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
             var8 = false;
- 103:
+case 12:
             var _closure2_slot5 = var8;
             var _closure2_slot6 = var4;
             var _closure2_slot7 = var4;
@@ -243,7 +243,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[1] = var7;
             var2 = function(arg1) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var5 = arg1;
                     var3 = _closure2_slot4;
                     var1 = undefined;
@@ -251,13 +251,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = _closure2_slot6;
                     var4 = var2.current;
                     var2 = null;
-                    if(!(var2 != var4)) { _fun0003_ip = 49; continue _fun0003 }
- 32:
+                    if(!(var2 != var4)) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
                     var3 = var4.scrollToIndex;
                     var2 = {};
                     var2['index'] = var5;
                     var2 = var3.bind(var4)(var2);
- 49:
+case 14:
                     return var1;
                 }
             };
@@ -289,17 +289,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = undefined;
                     var3 = function() {
                         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                             var2 = _closure2_slot7;
                             var3 = var2.current;
                             var2 = _closure3_slot1;
-                            if(!(var3 === var2)) { _fun0004_ip = 67; continue _fun0004 }
- 23:
+                            if(!(var3 === var2)) { _fun0004_ip = 16; continue _fun0004 }
+case 17:
                             var1 = _closure2_slot6;
                             var3 = var1.current;
                             var1 = null;
-                            if(!(var1 != var3)) { _fun0004_ip = 67; continue _fun0004 }
- 38:
+                            if(!(var1 != var3)) { _fun0004_ip = 16; continue _fun0004 }
+case 18:
                             var2 = var3.scrollToIndex;
                             var1 = {};
                             var4 = _closure3_slot1;
@@ -307,7 +307,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var4 = 1;
                             var1['viewPosition'] = var4;
                             var1 = var2.bind(var3)(var1);
- 67:
+case 16:
                             var1 = undefined;
                             return var1;
                         }
@@ -353,7 +353,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[6] = var2;
             var2 = function(arg1) {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
                     var2 = arg1;
                     var1 = var2.item;
                     var7 = var2.index;
@@ -371,13 +371,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = _closure2_slot3;
                     var2['tabStyleSelected'] = var5;
                     var5 = _closure2_slot5;
-                    if(var5) { _fun0005_ip = 86; continue _fun0005 }
- 80:
+                    if(var5) { _fun0005_ip = 19; continue _fun0005 }
+case 20:
                     var5 = _closure2_slot4;
-                    _fun0005_ip = 90; continue _fun0005;
- 86:
+                    _fun0005_ip = 21; continue _fun0005;
+case 19:
                     var5 = _closure2_slot8;
- 90:
+case 21:
                     var2['onSelect'] = var5;
                     var2['children'] = var1;
                     var1 = undefined;

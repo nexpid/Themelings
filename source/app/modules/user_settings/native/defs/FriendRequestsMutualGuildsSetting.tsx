@@ -89,7 +89,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['useValue'] = var7;
     var7 = function onFriendRequestsMutualGuildsSettingValueChange(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
             var2 = 5;
@@ -109,20 +109,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var7[var2];
             var7 = var6.bind(var1)(var2);
             var2 = arg1;
-            if(var2) { _fun0001_ip = 119; continue _fun0001 }
- 88:
+            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var9 = var7.removeFlags;
             var2 = _closure1_slot4;
             var6 = var2.MUTUAL_GUILDS;
             var2 = var2.NO_RELATION;
             var2 = var9.bind(var7)(var8, var6, var2);
-            _fun0001_ip = 141; continue _fun0001;
- 119:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var6 = var7.addFlag;
             var5 = _closure1_slot4;
             var5 = var5.MUTUAL_GUILDS;
             var2 = var6.bind(var7)(var8, var5);
- 141:
+case 4:
             var2 = var3.bind(var4)(var2);
             return var1;
         }

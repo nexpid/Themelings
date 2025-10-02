@@ -22,7 +22,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var10.experimental_createToken;
     var7 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var5 = var1.theme;
             var3 = _closure1_slot0;
@@ -38,15 +38,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = 2;
             var2 = var5[var2];
             var2 = var3.bind(var4)(var2);
-            if(var1) { _fun0001_ip = 81; continue _fun0001 }
- 68:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var2.unsafe_rawColors;
             var1 = var1.PRIMARY_200;
-            _fun0001_ip = 92; continue _fun0001;
- 81:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var2 = var2.colors;
             var1 = var2.INTERACTIVE_NORMAL;
- 92:
+case 4:
             return var1;
         }
     };
@@ -56,7 +56,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var10.experimental_createToken;
     var7 = function(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var5 = var1.theme;
             var3 = _closure1_slot0;
@@ -73,13 +73,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var5[var2];
             var2 = var3.bind(var4)(var2);
             var2 = var2.unsafe_rawColors;
-            if(var1) { _fun0002_ip = 81; continue _fun0002 }
- 73:
+            if(var1) { _fun0002_ip = 2; continue _fun0002 }
+case 5:
             var1 = var2.PRIMARY_500;
-            _fun0002_ip = 87; continue _fun0002;
- 81:
+            _fun0002_ip = 6; continue _fun0002;
+case 2:
             var1 = var2.WHITE_500;
- 87:
+case 6:
             return var1;
         }
     };
@@ -89,7 +89,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var10.experimental_createToken;
     var7 = function(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var1 = arg1;
             var5 = var1.theme;
             var3 = _closure1_slot0;
@@ -105,15 +105,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = 2;
             var2 = var5[var2];
             var2 = var3.bind(var4)(var2);
-            if(var1) { _fun0003_ip = 81; continue _fun0003 }
- 68:
+            if(var1) { _fun0003_ip = 2; continue _fun0003 }
+case 3:
             var1 = var2.colors;
             var1 = var1.BACKGROUND_SECONDARY;
-            _fun0003_ip = 92; continue _fun0003;
- 81:
+            _fun0003_ip = 4; continue _fun0003;
+case 2:
             var2 = var2.unsafe_rawColors;
             var1 = var2.PRIMARY_700;
- 92:
+case 4:
             return var1;
         }
     };
@@ -123,7 +123,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var13.experimental_createToken;
     var7 = function(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var1 = arg1;
             var5 = var1.theme;
             var3 = _closure1_slot0;
@@ -140,13 +140,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var5[var2];
             var2 = var3.bind(var4)(var2);
             var2 = var2.unsafe_rawColors;
-            if(var1) { _fun0004_ip = 81; continue _fun0004 }
- 73:
+            if(var1) { _fun0004_ip = 2; continue _fun0004 }
+case 5:
             var1 = var2.PRIMARY_630;
-            _fun0004_ip = 87; continue _fun0004;
- 81:
+            _fun0004_ip = 6; continue _fun0004;
+case 2:
             var1 = var2.PRIMARY_300;
- 87:
+case 6:
             return var1;
         }
     };
@@ -156,7 +156,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var13.experimental_createToken;
     var7 = function(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
             var1 = arg1;
             var5 = var1.theme;
             var3 = _closure1_slot0;
@@ -173,13 +173,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var5[var2];
             var2 = var3.bind(var4)(var2);
             var2 = var2.unsafe_rawColors;
-            if(var1) { _fun0005_ip = 81; continue _fun0005 }
- 73:
+            if(var1) { _fun0005_ip = 2; continue _fun0005 }
+case 5:
             var1 = var2.BRAND_200;
-            _fun0005_ip = 87; continue _fun0005;
- 81:
+            _fun0005_ip = 6; continue _fun0005;
+case 2:
             var1 = var2.BRAND_260;
- 87:
+case 6:
             return var1;
         }
     };
@@ -307,7 +307,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var8.createNativeStyleProperties;
     var4 = function(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
- 0:
+case 0:
             var1 = {};
             var5 = _closure1_slot1;
             var4 = _closure1_slot2;
@@ -317,13 +317,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var5.bind(var3)(var4);
             var4 = var3.colors;
             var3 = arg1;
-            if(var3) { _fun0006_ip = 46; continue _fun0006 }
- 38:
+            if(var3) { _fun0006_ip = 7; continue _fun0006 }
+case 8:
             var3 = var4.EMBED_BACKGROUND;
-            _fun0006_ip = 52; continue _fun0006;
- 46:
+            _fun0006_ip = 9; continue _fun0006;
+case 7:
             var3 = var4.EMBED_BACKGROUND_ALTERNATE;
- 52:
+case 9:
             var1['embedBackgroundColor'] = var3;
             var6 = _closure1_slot3;
             var7 = var1;
@@ -341,13 +341,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function _default(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
- 0:
+case 0:
             var4 = arguments[1];
             var3 = undefined;
-            if(!(var4 === var3)) { _fun0007_ip = 11; continue _fun0007 }
- 9:
+            if(!(var4 === var3)) { _fun0007_ip = 10; continue _fun0007 }
+case 11:
             var4 = false;
- 11:
+case 10:
             var2 = _closure1_slot4;
             var1 = arg1;
             var1 = var2.bind(var3)(var1, var4);

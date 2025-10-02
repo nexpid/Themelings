@@ -46,7 +46,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5[0] = var2;
         var2 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var1 = global;
                 var3 = var1.Array;
                 var2 = var3.from;
@@ -54,15 +54,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = null;
                 var6 = var4 == var1;
                 var1 = undefined;
-                if(var6) { _fun0001_ip = 41; continue _fun0001 }
- 31:
+                if(var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var5 = _closure2_slot0;
                 var1 = var5.userIds;
- 41:
-                if(!(var4 == var1)) { _fun0001_ip = 49; continue _fun0001 }
- 45:
+case 2:
+                if(!(var4 == var1)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var1 = new Array(0);
- 49:
+case 4:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             }
@@ -134,7 +134,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['default'] = var4;
     var2 = function getEmbeddedActivityParticipantAvatarUris(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var2 = arg1;
             var4 = var2.channelId;
             var3 = var2.guildId;
@@ -143,8 +143,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot1 = var3;
             var7 = var2.activity;
             var6 = null;
-            if(!(var6 == var7)) { _fun0002_ip = 74; continue _fun0002 }
- 40:
+            if(!(var6 == var7)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var3 = _closure1_slot3;
             var2 = var3.getEmbeddedActivitiesForChannel;
             var4 = var2.bind(var3)(var4);
@@ -157,26 +157,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var7 = var3.bind(var4)(var2);
- 74:
+case 6:
             var2 = global;
             var4 = var2.Array;
             var3 = var4.from;
             var8 = var6 == var7;
             var5 = undefined;
             var2 = undefined;
-            if(var8) { _fun0002_ip = 104; continue _fun0002 }
- 98:
+            if(var8) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var2 = var7.userIds;
- 104:
-            if(!(var6 == var2)) { _fun0002_ip = 112; continue _fun0002 }
- 108:
+case 8:
+            if(!(var6 == var2)) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
             var2 = new Array(0);
- 112:
+case 10:
             var3 = var3.bind(var4)(var2);
             var2 = var3.map;
             var1 = function(arg1) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var3 = _closure1_slot4;
                     var2 = var3.getUser;
                     var1 = arg1;
@@ -184,13 +184,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = null;
                     var1 = var1 == var5;
                     var3 = undefined;
-                    if(var1) { _fun0003_ip = 54; continue _fun0003 }
- 32:
+                    if(var1) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
                     var4 = var5.getAvatarURL;
                     var2 = _closure2_slot0;
                     var1 = 64;
                     var3 = var4.bind(var5)(var2, var1);
- 54:
+case 12:
                     var1 = global;
                     var1 = var1.HermesInternal;
                     var2 = var1.concat;

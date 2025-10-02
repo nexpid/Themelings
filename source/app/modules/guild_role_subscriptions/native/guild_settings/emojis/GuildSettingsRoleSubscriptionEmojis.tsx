@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function GuildSettingsRoleSubscriptionEmojisInner(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var1 = var1.guildId;
             var _closure2_slot0 = var1;
@@ -38,8 +38,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var3.bind(var4)(var2, var1);
             var _closure2_slot1 = var10;
             var1 = null;
-            if(!(var1 != var10)) { _fun0001_ip = 258; continue _fun0001 }
- 104:
+            if(!(var1 != var10)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = _closure1_slot0;
             var11 = _closure1_slot2;
             var2 = 7;
@@ -157,7 +157,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['disabled'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
- 258:
+case 2:
             return var1;
         }
     };
@@ -190,7 +190,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var8.memoize;
     var4 = function(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var3 = arg1;
             var4 = arg2;
             var _closure2_slot0 = var4;
@@ -212,8 +212,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var2.bind(var3)(var1);
             var2 = var6.length;
             var1 = 0;
-            if(!(var1 !== var2)) { _fun0002_ip = 212; continue _fun0002 }
- 43:
+            if(!(var1 !== var2)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var5 = var6.map;
             var9 = _closure1_slot0;
             var10 = _closure1_slot2;
@@ -252,7 +252,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var3;
             var2 = arraySpread(var13, var12, var11);
             return var1;
- 212:
+case 4:
             var1 = new Array(0);
             return var1;
         }

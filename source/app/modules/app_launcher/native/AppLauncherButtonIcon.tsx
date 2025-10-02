@@ -38,7 +38,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var10 = var3.style;
             var1 = null;
@@ -72,19 +72,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.enabled;
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
-            if(var1) { _fun0001_ip = 149; continue _fun0001 }
- 129:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = 6;
             var1 = var3[var1];
             var1 = var2.bind(var4)(var1);
             var8 = var1.AppsIcon;
-            _fun0001_ip = 167; continue _fun0001;
- 149:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var1 = 5;
             var1 = var3[var1];
             var1 = var2.bind(var4)(var1);
             var8 = var1.GameControllerIcon;
- 167:
+case 4:
             var3 = _closure1_slot4;
             var2 = _closure1_slot3;
             var1 = {};
@@ -99,8 +99,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var11.bind(var4)(var5);
             var5 = var5.KeyboardTypes;
             var5 = var5.APP_LAUNCHER;
-            if(!(var7 !== var5)) { _fun0001_ip = 256; continue _fun0001 }
- 228:
+            if(!(var7 !== var5)) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var7 = _closure1_slot4;
             var5 = {};
             var5['style'] = var10;
@@ -108,8 +108,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var9;
             var9 = copyDataProperties(var15, var14);
             var5 = var7.bind(var4)(var8, var5);
-            _fun0001_ip = 337; continue _fun0001;
- 256:
+            _fun0001_ip = 7; continue _fun0001;
+case 5:
             var8 = _closure1_slot4;
             var7 = _closure1_slot0;
             var9 = _closure1_slot2;
@@ -130,7 +130,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9[1] = var10;
             var6['style'] = var9;
             var5 = var8.bind(var4)(var7, var6);
- 337:
+case 7:
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

@@ -22,34 +22,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5['code'] = var8;
     var4 = function _(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = 'panels';
-            if(!(var1 !== var2)) { _fun0001_ip = 75; continue _fun0001 }
- 13:
+            if(!(var1 !== var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = 'channel';
-            if(!(var1 !== var2)) { _fun0001_ip = 75; continue _fun0001 }
- 21:
+            if(!(var1 !== var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var1 = 'messages';
-            if(!(var1 !== var2)) { _fun0001_ip = 59; continue _fun0001 }
- 29:
+            if(!(var1 !== var2)) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var1 = 'notifications';
-            if(!(var1 !== var2)) { _fun0001_ip = 59; continue _fun0001 }
- 37:
+            if(!(var1 !== var2)) { _fun0001_ip = 5; continue _fun0001 }
+case 7:
             var1 = 'main_tab';
-            if(!(var1 !== var2)) { _fun0001_ip = 59; continue _fun0001 }
- 47:
+            if(!(var1 !== var2)) { _fun0001_ip = 5; continue _fun0001 }
+case 8:
             var1 = 'guilds';
-            if(!(var1 !== var2)) { _fun0001_ip = 59; continue _fun0001 }
- 55:
+            if(!(var1 !== var2)) { _fun0001_ip = 5; continue _fun0001 }
+case 9:
             var1 = 0;
             return var1;
- 59:
+case 5:
             var2 = _closure1_slot0;
             var1 = 46;
             var1 = var1 + var2;
             return var1;
- 75:
+case 2:
             var2 = _closure1_slot0;
             var1 = 60;
             var1 = var1 + var2;

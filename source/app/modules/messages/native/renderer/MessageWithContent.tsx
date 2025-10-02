@@ -33,7 +33,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function generateMessageRowData(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var9 = arg1;
             var3 = arg2;
             var14 = var9.changeType;
@@ -47,16 +47,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var9.isSystemDM;
             var6 = undefined;
             var23 = var6 !== var1;
-            if(!var23) { _fun0001_ip = 71; continue _fun0001 }
- 68:
+            if(!var23) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var23 = var1;
- 71:
+case 2:
             var1 = var9.canShowImages;
             var24 = var6 === var1;
-            if(var24) { _fun0001_ip = 87; continue _fun0001 }
- 84:
+            if(var24) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var24 = var1;
- 87:
+case 4:
             var12 = var9.messageFrame;
             var10 = var9.truncation;
             var16 = var9.renderContentOnly;
@@ -64,10 +64,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var22 = var9.pushFeedbackType;
             var1 = var9.alwaysShowAddReaction;
             var5 = var6 !== var1;
-            if(!var5) { _fun0001_ip = 133; continue _fun0001 }
- 130:
+            if(!var5) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var5 = var1;
- 133:
+case 6:
             var4 = var9.overrideBackgroundHighlight;
             var21 = var9.showContentInventoryEntryFallbackEmbed;
             var1 = {};
@@ -126,8 +126,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['addReactionLabel'] = var8;
             var1['alwaysShowAddReaction'] = var5;
             var12 = null;
-            if(!(var12 == var4)) { _fun0001_ip = 493; continue _fun0001 }
- 414:
+            if(!(var12 == var4)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var8 = _closure1_slot1;
             var10 = _closure1_slot2;
             var5 = 4;
@@ -146,7 +146,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var12 != var11;
             var5['isAutomodBlockedMessage'] = var11;
             var4 = var8.bind(var10)(var5);
- 493:
+case 8:
             var1['backgroundHighlight'] = var4;
             var5 = _closure1_slot1;
             var8 = _closure1_slot2;
@@ -155,15 +155,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var5.bind(var6)(var4);
             var5 = var8.createSwipeActions;
             var4 = var3.enableSwipeActions;
-            if(!var4) { _fun0001_ip = 541; continue _fun0001 }
- 535:
+            if(!var4) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var4 = var9.canReply;
- 541:
+case 10:
             var3 = var3.enableSwipeActions;
-            if(!var3) { _fun0001_ip = 556; continue _fun0001 }
- 550:
+            if(!var3) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var3 = var9.canEdit;
- 556:
+case 12:
             var3 = var5.bind(var8)(var4, var3);
             var1['swipeActions'] = var3;
             var5 = _closure1_slot0;

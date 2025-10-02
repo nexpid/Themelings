@@ -27,27 +27,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function activityPlatformToConnectedAccountType(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var2 = _closure1_slot0;
             var2 = var2.PS4;
-            if(!(var2 !== var3)) { _fun0001_ip = 64; continue _fun0001 }
- 20:
+            if(!(var2 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = _closure1_slot0;
             var2 = var2.PS5;
-            if(!(var2 !== var3)) { _fun0001_ip = 64; continue _fun0001 }
- 34:
+            if(!(var2 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var2 = _closure1_slot0;
             var2 = var2.XBOX;
-            if(!(var2 !== var3)) { _fun0001_ip = 52; continue _fun0001 }
- 48:
+            if(!(var2 !== var3)) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var2 = undefined;
             return var2;
- 52:
+case 5:
             var2 = _closure1_slot1;
             var2 = var2.XBOX;
             return var2;
- 64:
+case 2:
             var1 = _closure1_slot1;
             var1 = var1.PLAYSTATION;
             return var1;

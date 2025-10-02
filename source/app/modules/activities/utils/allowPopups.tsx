@@ -25,7 +25,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function allowPopups(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var4 = _closure1_slot0;
             var2 = var4.has;
@@ -33,42 +33,42 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2.bind(var4)(var1);
             var2 = !var1;
             var1 = !var2;
-            if(!var2) { _fun0001_ip = 119; continue _fun0001 }
- 34:
+            if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = 'embeddedActivityConfig';
             var2 = var2 in var3;
-            if(var2) { _fun0001_ip = 87; continue _fun0001 }
- 45:
+            if(var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = 'embedded_activity_config';
             var2 = var2 in var3;
-            if(!var2) { _fun0001_ip = 85; continue _fun0001 }
- 56:
+            if(!var2) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var4 = var3.embedded_activity_config;
             var5 = null;
             var6 = var5 == var4;
             var5 = undefined;
-            if(var6) { _fun0001_ip = 79; continue _fun0001 }
- 73:
+            if(var6) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var5 = var4.displays_advertisements;
- 79:
+case 8:
             var4 = true;
             var2 = var4 === var5;
- 85:
-            _fun0001_ip = 116; continue _fun0001;
- 87:
+case 6:
+            _fun0001_ip = 10; continue _fun0001;
+case 4:
             var3 = var3.embeddedActivityConfig;
             var4 = null;
             var5 = var4 == var3;
             var4 = undefined;
-            if(var5) { _fun0001_ip = 110; continue _fun0001 }
- 104:
+            if(var5) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var4 = var3.displays_advertisements;
- 110:
+case 11:
             var3 = true;
             var2 = var3 === var4;
- 116:
+case 10:
             var1 = var2;
- 119:
+case 2:
             return var1;
         }
     };

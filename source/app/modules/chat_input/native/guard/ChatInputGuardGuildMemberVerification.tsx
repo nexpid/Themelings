@@ -58,7 +58,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function ChatInputGuardGuildMemberVerification(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var5 = var2.guildId;
             var _closure2_slot0 = var5;
@@ -75,10 +75,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = null;
             var5 = var9 == var2;
             var3 = undefined;
-            if(var5) { _fun0001_ip = 75; continue _fun0001 }
- 69:
+            if(var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = var2.applicationStatus;
- 75:
+case 2:
             var5 = _closure1_slot0;
             var2 = _closure1_slot2;
             var7 = 8;
@@ -86,16 +86,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var5.bind(var4)(var2);
             var2 = var2.GuildJoinRequestApplicationStatuses;
             var2 = var2.REJECTED;
-            if(!(var2 !== var3)) { _fun0001_ip = 332; continue _fun0001 }
- 114:
+            if(!(var2 !== var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var7];
             var2 = var5.bind(var4)(var2);
             var2 = var2.GuildJoinRequestApplicationStatuses;
             var2 = var2.SUBMITTED;
-            if(!(var2 !== var3)) { _fun0001_ip = 220; continue _fun0001 }
- 147:
+            if(!(var2 !== var3)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var2 = 10;
@@ -134,8 +134,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var13 = undefined;
             var7 = undefined;
-            _fun0001_ip = 414; continue _fun0001;
- 220:
+            _fun0001_ip = 8; continue _fun0001;
+case 6:
             var3 = _closure1_slot1;
             var16 = _closure1_slot2;
             var2 = 13;
@@ -196,8 +196,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var3.bind(var4)(var2);
                 return var1;
             };
-            _fun0001_ip = 414; continue _fun0001;
- 332:
+            _fun0001_ip = 8; continue _fun0001;
+case 4:
             var3 = _closure1_slot1;
             var15 = _closure1_slot2;
             var2 = 9;
@@ -243,7 +243,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var7 = undefined;
- 414:
+case 8:
             var3 = _closure1_slot0;
             var10 = _closure1_slot2;
             var2 = 16;
@@ -267,8 +267,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = {};
             var10 = 'simple-action';
             var1['type'] = var10;
-            if(!(var9 == var13)) { _fun0001_ip = 572; continue _fun0001 }
- 500:
+            if(!(var9 == var13)) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var11 = _closure1_slot7;
             var10 = _closure1_slot1;
             var17 = _closure1_slot2;
@@ -286,8 +286,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = !var12;
             var9['autoPlay'] = var12;
             var9 = var11.bind(var4)(var10, var9);
-            _fun0001_ip = 602; continue _fun0001;
- 572:
+            _fun0001_ip = 11; continue _fun0001;
+case 9:
             var12 = _closure1_slot7;
             var11 = _closure1_slot3;
             var10 = {};
@@ -295,7 +295,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10['style'] = var14;
             var10['source'] = var13;
             var9 = var12.bind(var4)(var11, var10);
- 602:
+case 11:
             var1['icon'] = var9;
             var1['message'] = var8;
             var1['actionIcon'] = var7;

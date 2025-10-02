@@ -80,7 +80,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var8.memo;
     var4 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var11 = var1.users;
             var10 = var1.max;
@@ -99,10 +99,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2.bind(var4)(var1);
             var1 = var1.bind(var4)();
             var16 = null;
-            if(!var1) { _fun0001_ip = 91; continue _fun0001 }
- 85:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var16 = var15.transparentBorder;
- 91:
+case 2:
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 7;
@@ -113,37 +113,37 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = _closure1_slot5;
             var2 = _closure1_slot3;
             var1 = {};
-            if(var7) { _fun0001_ip = 141; continue _fun0001 }
- 134:
+            if(var7) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var12 = var15.container;
-            _fun0001_ip = 147; continue _fun0001;
- 141:
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
             var12 = var15.containerNoPadding;
- 147:
+case 6:
             var7 = new Array(2);
             var7[0] = var12;
             var7[1] = var8;
             var1['style'] = var7;
             var7 = _closure1_slot4;
-            if(!var6) { _fun0001_ip = 173; continue _fun0001 }
- 170:
-            if(var5) { _fun0001_ip = 201; continue _fun0001 }
- 173:
+            if(!var6) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
+            if(var5) { _fun0001_ip = 9; continue _fun0001 }
+case 7:
             var6 = _closure1_slot0;
             var8 = _closure1_slot2;
             var5 = 9;
             var5 = var8[var5];
             var5 = var6.bind(var4)(var5);
             var6 = var5.VoiceNormalIcon;
-            _fun0001_ip = 227; continue _fun0001;
- 201:
+            _fun0001_ip = 10; continue _fun0001;
+case 9:
             var8 = _closure1_slot0;
             var12 = _closure1_slot2;
             var5 = 8;
             var5 = var12[var5];
             var5 = var8.bind(var4)(var5);
             var6 = var5.StageIcon;
- 227:
+case 10:
             var5 = {'size': 'sm', 'color': 'channel-icon'};
             var8 = var15.redesignChannelIcon;
             var5['style'] = var8;

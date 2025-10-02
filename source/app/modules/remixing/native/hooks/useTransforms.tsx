@@ -22,7 +22,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function _default(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var3 = arg2;
             var5 = _closure1_slot0;
@@ -38,16 +38,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var1.Object;
             var5 = var6.isFrozen;
             var5 = var5.bind(var6)(var3);
-            if(var5) { _fun0001_ip = 81; continue _fun0001 }
- 65:
+            if(var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = var3[var4];
             var5 = null;
-            if(!(var5 == var6)) { _fun0001_ip = 79; continue _fun0001 }
- 75:
+            if(!(var5 == var6)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3[var4] = var2;
- 79:
+case 4:
             return var2;
- 81:
+case 2:
             var3 = var1.Error;
             var1 = var3.prototype;
             var2 = Object.create(var1, {constructor: {value: var3}});

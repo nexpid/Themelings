@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function getGreenTextStyle(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
@@ -20,20 +20,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.isThemeDark;
             var1 = arg2;
             var1 = var3.bind(var4)(var1);
-            if(var1) { _fun0001_ip = 53; continue _fun0001 }
- 45:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var2.greenTextLightMode;
-            _fun0001_ip = 59; continue _fun0001;
- 53:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var1 = var2.greenTextDarkMode;
- 59:
+case 4:
             return var1;
         }
     };
     var _closure1_slot8 = var1;
     var1 = function EarningPreview() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var2 = _closure1_slot1;
             var6 = _closure1_slot2;
             var1 = 7;
@@ -55,10 +55,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7.bind(var4)(var6);
             var6 = var7.isThemeDark;
             var6 = var6.bind(var7)(var20);
-            if(!var6) { _fun0002_ip = 97; continue _fun0002 }
- 91:
+            if(!var6) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
             var6 = var12.earningMetricsShadowContainerDarkMode;
- 97:
+case 5:
             var5[1] = var6;
             var1['style'] = var5;
             var7 = _closure1_slot6;
@@ -75,13 +75,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var11.bind(var4)(var10);
             var10 = var11.isThemeDark;
             var10 = var10.bind(var11)(var20);
-            if(var10) { _fun0002_ip = 178; continue _fun0002 }
- 170:
+            if(var10) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
             var10 = var12.earningMetricsLightMode;
-            _fun0002_ip = 184; continue _fun0002;
- 178:
+            _fun0002_ip = 9; continue _fun0002;
+case 7:
             var10 = var12.earningMetricsDarkMode;
- 184:
+case 9:
             var8[2] = var10;
             var5['style'] = var8;
             var11 = _closure1_slot6;
@@ -159,7 +159,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot9 = var1;
     var1 = function ConsistentEarningBenefit() {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var2 = _closure1_slot1;
             var16 = _closure1_slot2;
             var1 = 7;
@@ -221,17 +221,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var13.bind(var14)(var15);
             var15 = _closure1_slot1;
             var16 = _closure1_slot2;
-            if(var13) { _fun0003_ip = 291; continue _fun0003 }
- 277:
+            if(var13) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
             var13 = 13;
             var13 = var16[var13];
             var13 = var15.bind(var4)(var13);
-            _fun0003_ip = 303; continue _fun0003;
- 291:
+            _fun0003_ip = 12; continue _fun0003;
+case 10:
             var14 = 12;
             var14 = var16[var14];
             var13 = var15.bind(var4)(var14);
- 303:
+case 12:
             var9['avatarSource'] = var13;
             var11 = var12.bind(var4)(var11, var9);
             var9 = new Array(3);

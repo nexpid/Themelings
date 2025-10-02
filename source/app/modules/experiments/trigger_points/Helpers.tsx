@@ -70,14 +70,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var6 = function value() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var2 = arguments[0];
                 var5 = this;
                 var1 = undefined;
-                if(!(var2 === var1)) { _fun0001_ip = 14; continue _fun0001 }
- 12:
+                if(!(var2 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var2 = {};
- 14:
+case 2:
                 var6 = _closure1_slot2;
                 var4 = var6.trackCommonTriggerPointExposures;
                 var3 = var5.params;

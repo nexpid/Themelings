@@ -47,7 +47,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function VoiceActivityStatus(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var9 = var1.channel;
             var16 = var1.iconStyle;
@@ -55,28 +55,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var1.maxFontSizeMultiplier;
             var6 = var1.hideIcon;
             var5 = undefined;
-            if(!(var6 === var5)) { _fun0001_ip = 40; continue _fun0001 }
- 38:
+            if(!(var6 === var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = false;
- 40:
+case 2:
             var7 = var1.hideText;
-            if(!(var7 === var5)) { _fun0001_ip = 52; continue _fun0001 }
- 50:
+            if(!(var7 === var5)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var7 = false;
- 52:
+case 4:
             var1 = _closure1_slot6;
             var15 = var1.bind(var5)();
-            if(!var6) { _fun0001_ip = 74; continue _fun0001 }
- 66:
+            if(!var6) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var1 = null;
-            if(var7) { _fun0001_ip = 457; continue _fun0001 }
- 74:
+            if(var7) { _fun0001_ip = 8; continue _fun0001 }
+case 6:
             var4 = _closure1_slot5;
             var3 = _closure1_slot4;
             var2 = {};
             var8 = !var6;
-            if(!var8) { _fun0001_ip = 161; continue _fun0001 }
- 90:
+            if(!var8) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var11 = _closure1_slot3;
             var10 = _closure1_slot1;
             var17 = _closure1_slot2;
@@ -91,20 +91,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15[1] = var16;
             var6['style'] = var15;
             var8 = var11.bind(var5)(var10, var6);
- 161:
+case 9:
             var6 = new Array(2);
             var6[0] = var8;
             var7 = !var7;
-            if(!var7) { _fun0001_ip = 443; continue _fun0001 }
- 178:
+            if(!var7) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var8 = var9.isDM;
             var8 = var8.bind(var9)();
-            if(var8) { _fun0001_ip = 344; continue _fun0001 }
- 194:
+            if(var8) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var8 = var9.isGroupDM;
             var8 = var8.bind(var9)();
-            if(var8) { _fun0001_ip = 344; continue _fun0001 }
- 210:
+            if(var8) { _fun0001_ip = 13; continue _fun0001 }
+case 15:
             var8 = var9.isGuildStageVoice;
             var8 = var8.bind(var9)();
             var11 = _closure1_slot3;
@@ -125,21 +125,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var19[var15];
             var15 = var18.bind(var5)(var15);
             var15 = var15.t;
-            if(var8) { _fun0001_ip = 321; continue _fun0001 }
- 298:
+            if(var8) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var8 = var15.msxteH;
             var8 = var16.bind(var17)(var8);
             var9['children'] = var8;
             var8 = var11.bind(var5)(var10, var9);
-            _fun0001_ip = 342; continue _fun0001;
- 321:
+            _fun0001_ip = 18; continue _fun0001;
+case 16:
             var15 = var15.QygGCA;
             var15 = var16.bind(var17)(var15);
             var9['children'] = var15;
             var8 = var11.bind(var5)(var10, var9);
- 342:
-            _fun0001_ip = 440; continue _fun0001;
- 344:
+case 18:
+            _fun0001_ip = 19; continue _fun0001;
+case 13:
             var11 = _closure1_slot3;
             var10 = _closure1_slot1;
             var16 = _closure1_slot2;
@@ -162,13 +162,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var13.bind(var14)(var12);
             var9['children'] = var12;
             var8 = var11.bind(var5)(var10, var9);
- 440:
+case 19:
             var7 = var8;
- 443:
+case 11:
             var6[1] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 457:
+case 8:
             return var1;
         }
     };

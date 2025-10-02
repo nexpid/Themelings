@@ -183,7 +183,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['setSubmitting'] = var4;
     var2 = function doesRegistrationHaveIdentityType() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = _closure1_slot2;
             var1 = var2.getState;
             var1 = var1.bind(var2)();
@@ -191,11 +191,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2.email;
             var3 = null;
             var1 = var3 != var1;
-            if(var1) { _fun0001_ip = 48; continue _fun0001 }
- 38:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var2.phone;
             var1 = var3 != var2;
- 48:
+case 2:
             return var1;
         }
     };

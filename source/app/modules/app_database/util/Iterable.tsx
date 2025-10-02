@@ -52,32 +52,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var5 = function value() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var4 = this;
                 var2 = var4.index;
                 var1 = var4.items;
                 var1 = var1.length;
                 var3 = 1;
-                if(!(var2 < var1)) { _fun0001_ip = 95; continue _fun0001 }
- 26:
+                if(!(var2 < var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var2 = var4.items;
                 var1 = var4.index;
                 var2 = var2[var1];
                 var1 = var2.next;
                 var1 = var1.bind(var2)();
                 var2 = var1.done;
-                if(var2) { _fun0001_ip = 60; continue _fun0001 }
- 58:
+                if(var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 return var1;
- 60:
+case 4:
                 var1 = var4.index;
                 var1 = var1 + var3;
                 var4['index'] = var1;
                 var2 = var4.index;
                 var1 = var4.items;
                 var1 = var1.length;
-                if(var2 < var1) { _fun0001_ip = 26; continue _fun0001 }
- 95:
+                if(var2 < var1) { _fun0001_ip = 3; continue _fun0001 }
+case 2:
                 var1 = {};
                 var2 = true;
                 var1['done'] = var2;

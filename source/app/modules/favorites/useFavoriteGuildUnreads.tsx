@@ -75,7 +75,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.reduce;
             var2 = function(arg1, arg2) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     var1 = arg1;
                     var7 = arg2;
                     var3 = _closure1_slot3;
@@ -84,11 +84,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = null;
                     var2 = var8 == var9;
                     var3 = undefined;
-                    if(var2) { _fun0001_ip = 44; continue _fun0001 }
- 34:
+                    if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var2 = var9.isGuildVocal;
                     var3 = var2.bind(var9)();
- 44:
+case 2:
                     var5 = var1.badge;
                     var10 = _closure1_slot5;
                     var2 = var10.getMentionCount;
@@ -96,39 +96,39 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var5 + var2;
                     var1['badge'] = var2;
                     var2 = var1.unread;
-                    if(var2) { _fun0001_ip = 178; continue _fun0001 }
- 84:
+                    if(var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                     var3 = !var3;
-                    if(!var3) { _fun0001_ip = 116; continue _fun0001 }
- 90:
+                    if(!var3) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                     var11 = _closure1_slot4;
                     var10 = var11.can;
                     var5 = _closure1_slot7;
                     var5 = var5.VIEW_CHANNEL;
                     var3 = var10.bind(var11)(var5, var9);
- 116:
-                    if(!var3) { _fun0001_ip = 134; continue _fun0001 }
- 119:
+case 6:
+                    if(!var3) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
                     var10 = _closure1_slot5;
                     var5 = var10.hasUnread;
                     var3 = var5.bind(var10)(var7);
- 134:
-                    if(!var3) { _fun0001_ip = 175; continue _fun0001 }
- 137:
+case 8:
+                    if(!var3) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
                     var5 = _closure1_slot6;
                     var4 = var5.isChannelMuted;
                     var8 = var8 == var9;
                     var6 = undefined;
-                    if(var8) { _fun0001_ip = 166; continue _fun0001 }
- 156:
+                    if(var8) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
                     var8 = var9.getGuildId;
                     var6 = var8.bind(var9)();
- 166:
+case 12:
                     var4 = var4.bind(var5)(var6, var7);
                     var3 = !var4;
- 175:
+case 10:
                     var2 = var3;
- 178:
+case 4:
                     var1['unread'] = var2;
                     return var1;
                 }

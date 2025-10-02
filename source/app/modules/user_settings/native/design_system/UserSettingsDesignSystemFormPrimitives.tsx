@@ -194,13 +194,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = var1.label;
         var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var6 = undefined;
                 var5 = undefined;
-                if(!(var5 === var5)) { _fun0001_ip = 12; continue _fun0001 }
- 10:
+                if(!(var5 === var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var5 = true;
- 12:
+case 2:
                 var _closure3_slot0 = var6;
                 var4 = _closure1_slot3;
                 var1 = var4.useState;
@@ -498,13 +498,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot10 = var4;
     var4 = function useSwitchState() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var5 = arguments[0];
             var6 = undefined;
-            if(!(var5 === var6)) { _fun0002_ip = 13; continue _fun0002 }
- 11:
+            if(!(var5 === var6)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var5 = true;
- 13:
+case 4:
             var _closure2_slot0 = var6;
             var4 = _closure1_slot3;
             var3 = var4.useState;

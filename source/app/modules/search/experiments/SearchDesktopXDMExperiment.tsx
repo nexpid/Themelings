@@ -41,15 +41,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function getIsSearchDesktopXDMExperimentEnabled(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = var2.location;
             var6 = var2.autoTrackExposure;
             var5 = undefined;
-            if(!(var6 === var5)) { _fun0001_ip = 22; continue _fun0001 }
- 20:
+            if(!(var6 === var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = true;
- 22:
+case 2:
             var4 = _closure1_slot0;
             var7 = _closure1_slot1;
             var3 = 1;
@@ -75,15 +75,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['getIsSearchDesktopXDMExperimentEnabled'] = var4;
     var4 = function useIsSearchDesktopXDMExperimentEnabled(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = var2.location;
             var6 = var2.autoTrackExposure;
             var5 = undefined;
-            if(!(var6 === var5)) { _fun0002_ip = 22; continue _fun0002 }
- 20:
+            if(!(var6 === var5)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
             var6 = true;
- 22:
+case 2:
             var4 = _closure1_slot0;
             var7 = _closure1_slot1;
             var3 = 1;
@@ -109,15 +109,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['useIsSearchDesktopXDMExperimentEnabled'] = var4;
     var4 = function useIsInSearchDesktopXDMExperiment(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = var2.location;
             var6 = var2.autoTrackExposure;
             var5 = undefined;
-            if(!(var6 === var5)) { _fun0003_ip = 22; continue _fun0003 }
- 20:
+            if(!(var6 === var5)) { _fun0003_ip = 2; continue _fun0003 }
+case 3:
             var6 = true;
- 22:
+case 2:
             var4 = _closure1_slot0;
             var7 = _closure1_slot1;
             var3 = 1;
@@ -143,15 +143,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['useIsInSearchDesktopXDMExperiment'] = var4;
     var2 = function getIsInSearchDesktopXDMExperiment(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = var2.location;
             var6 = var2.autoTrackExposure;
             var5 = undefined;
-            if(!(var6 === var5)) { _fun0004_ip = 22; continue _fun0004 }
- 20:
+            if(!(var6 === var5)) { _fun0004_ip = 2; continue _fun0004 }
+case 3:
             var6 = true;
- 22:
+case 2:
             var4 = _closure1_slot0;
             var7 = _closure1_slot1;
             var3 = 1;

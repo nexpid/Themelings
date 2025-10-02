@@ -96,25 +96,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = function* () {
             var1 = function* anon_0_() {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 233; continue _fun0001 }
- 10:
+                    if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var2 = _closure2_slot2;
                     var4 = null;
-                    if(!(var4 == var2)) { _fun0001_ip = 213; continue _fun0001 }
- 26:
+                    if(!(var4 == var2)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                     var2 = _closure2_slot0;
-                    if(!(var4 != var2)) { _fun0001_ip = 213; continue _fun0001 }
- 37:
+                    if(!(var4 != var2)) { _fun0001_ip = 4; continue _fun0001 }
+case 6:
                     var2 = _closure2_slot6;
                     var5 = undefined;
                     var8 = true;
                     var2 = var2.bind(var5)(var8);
                     var2 = _closure2_slot3;
                     var2 = var2.bind(var5)(var8);
- 59: // try_start_0 // try_start_1
+case 7: // try_start_0 // try_start_1
                     var4 = _closure1_slot1;
                     var6 = _closure1_slot2;
                     var2 = 5;
@@ -128,19 +128,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2['includeTeam'] = var8;
                     var2 = var6.bind(var7)(var4, var2);
                     SaveGenerator(address=117);
- 115:
+case 8:
                     return var2;
- 117:
+case 9:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0001_ip = 125; continue _fun0001 }
- 123: // try_end0
-                    _fun0001_ip = 202; continue _fun0001;
- 125: // try_end1
+                    if(var4) { _fun0001_ip = 10; continue _fun0001 }
+case 11: // try_end0
+                    _fun0001_ip = 12; continue _fun0001;
+case 10: // try_end1
                     var6 = _closure2_slot3;
                     var4 = false;
                     var4 = var6.bind(var5)(var4);
                     return var2;
- 139: // try_start_2 // catch_target0
+case 13: // try_start_2 // catch_target0
                     CatchBlockStart(arg_register=6);
                     var4 = _closure2_slot4;
                     var6 = _closure1_slot0;
@@ -156,20 +156,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = new var12[var2](var11, var10);
                     var2 = var2 instanceof Object ? var2 : var6;
                     var2 = var4.bind(var5)(var2);
- 202: // try_end2
+case 12: // try_end2
                     var4 = _closure2_slot3;
                     var2 = false;
                     var2 = var4.bind(var5)(var2);
- 213:
+case 4:
                     var2 = undefined;
                     return var2;
- 218: // catch_target1 // catch_target2
+case 14: // catch_target1 // catch_target2
                     CatchBlockStart(arg_register=1);
                     var4 = _closure2_slot3;
                     var3 = false;
                     var3 = var4.bind(var5)(var3);
                     throw var2;
- 233:
+case 2:
                     return var1;
                 }
             };
@@ -188,14 +188,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5[1] = var8;
         var1 = function() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var2 = _closure2_slot5;
-                if(var2) { _fun0002_ip = 20; continue _fun0002 }
- 10:
+                if(var2) { _fun0002_ip = 15; continue _fun0002 }
+case 3:
                 var2 = _closure2_slot7;
                 var1 = undefined;
                 var1 = var2.bind(var1)();
- 20:
+case 15:
                 var1 = undefined;
                 return var1;
             }

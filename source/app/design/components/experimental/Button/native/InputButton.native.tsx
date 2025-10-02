@@ -62,43 +62,43 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.forwardRef;
     var2 = function(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var6 = arg1;
             var1 = var6.size;
             var18 = 'lg';
             var4 = undefined;
-            if(!(var4 !== var1)) { _fun0001_ip = 21; continue _fun0001 }
- 18:
+            if(!(var4 !== var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var18 = var1;
- 21:
+case 2:
             var1 = var6.isRound;
             var12 = var4 !== var1;
-            if(!var12) { _fun0001_ip = 37; continue _fun0001 }
- 34:
+            if(!var12) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var12 = var1;
- 37:
+case 4:
             var8 = var6.text;
             var9 = var6.value;
             var17 = var6.icon;
             var2 = var6.iconPosition;
             var1 = 'start';
             var16 = var1;
-            if(!(var4 !== var2)) { _fun0001_ip = 72; continue _fun0001 }
- 69:
+            if(!(var4 !== var2)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var16 = var2;
- 72:
+case 6:
             var14 = var6.accessibilityLabel;
             var7 = var6.accessibilityValue;
             var11 = var6.maxFontSizeMultiplier;
-            if(!(var4 === var11)) { _fun0001_ip = 122; continue _fun0001 }
- 93:
+            if(!(var4 === var11)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var3 = _closure1_slot0;
             var5 = _closure1_slot1;
             var2 = 6;
             var2 = var5[var2];
             var2 = var3.bind(var4)(var2);
             var11 = var2.BUTTON_DEFAULT_MAX_FONT_SIZE_MULTIPLIER;
- 122:
+case 8:
             var3 = _closure1_slot3;
             var2 = _closure1_slot2;
             var6 = var3.bind(var4)(var6, var2);
@@ -117,27 +117,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = _closure1_slot6;
             var15 = var2.bind(var4)();
             var10 = null;
-            if(!(var10 == var17)) { _fun0001_ip = 208; continue _fun0001 }
- 204:
+            if(!(var10 == var17)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var13 = {};
-            _fun0001_ip = 258; continue _fun0001;
- 208:
+            _fun0001_ip = 12; continue _fun0001;
+case 10:
             var2 = {};
-            if(var1) { _fun0001_ip = 235; continue _fun0001 }
- 213:
+            if(var1) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var1 = var12.trailingIcon;
             var1 = var1.paddingStart;
             var2['paddingEnd'] = var1;
             var1 = var2;
-            _fun0001_ip = 255; continue _fun0001;
- 235:
+            _fun0001_ip = 15; continue _fun0001;
+case 13:
             var3 = var12.leadingIcon;
             var3 = var3.paddingEnd;
             var2['paddingStart'] = var3;
             var1 = var2;
- 255:
+case 15:
             var13 = var1;
- 258:
+case 12:
             var3 = _closure1_slot5;
             var2 = _closure1_slot0;
             var19 = _closure1_slot1;
@@ -168,25 +168,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16[1] = var6;
             var6 = 'pillStyle';
             var1[var6] = var16;
-            if(!(var10 == var14)) { _fun0001_ip = 411; continue _fun0001 }
- 390:
+            if(!(var10 == var14)) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var16 = var10 == var8;
             var6 = undefined;
-            if(var16) { _fun0001_ip = 408; continue _fun0001 }
- 399:
+            if(var16) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
             var16 = var8.toString;
             var6 = var16.bind(var8)();
- 408:
+case 18:
             var14 = var6;
- 411:
+case 16:
             var6 = 'accessibilityLabel';
             var1[var6] = var14;
-            if(!(var10 == var7)) { _fun0001_ip = 433; continue _fun0001 }
- 424:
+            if(!(var10 == var7)) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
             var6 = {};
             var6['text'] = var9;
             var7 = var6;
- 433:
+case 20:
             var6 = 'accessibilityValue';
             var1[var6] = var7;
             var7 = _closure1_slot5;
@@ -197,23 +197,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12[0] = var14;
             var14 = var15.buttonText;
             var12[1] = var14;
-            if(!(var10 == var9)) { _fun0001_ip = 487; continue _fun0001 }
- 479:
+            if(!(var10 == var9)) { _fun0001_ip = 22; continue _fun0001 }
+case 23:
             var14 = var15.buttonTextPlaceholder;
-            _fun0001_ip = 493; continue _fun0001;
- 487:
+            _fun0001_ip = 24; continue _fun0001;
+case 22:
             var14 = var15.buttonTextValue;
- 493:
+case 24:
             var12[2] = var14;
             var12[3] = var13;
             var5['style'] = var12;
             var12 = 1;
             var5['numberOfLines'] = var12;
             var5['maxFontSizeMultiplier'] = var11;
-            if(!(var10 != var9)) { _fun0001_ip = 525; continue _fun0001 }
- 522:
+            if(!(var10 != var9)) { _fun0001_ip = 25; continue _fun0001 }
+case 26:
             var8 = var9;
- 525:
+case 25:
             var5['children'] = var8;
             var6 = var7.bind(var4)(var6, var5);
             var5 = 'textElement';

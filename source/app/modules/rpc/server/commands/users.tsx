@@ -46,7 +46,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['scope'] = var12;
     var11 = function handler(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var1 = var1.args;
             var4 = var1.id;
@@ -55,8 +55,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var1.bind(var3)(var4);
             var1 = null;
             var3 = var1 == var4;
-            if(var3) { _fun0001_ip = 68; continue _fun0001 }
- 41:
+            if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = _closure1_slot0;
             var3 = _closure1_slot1;
             var2 = 4;
@@ -64,7 +64,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = undefined;
             var2 = var5.bind(var3)(var2);
             var1 = var2.bind(var3)(var4);
- 68:
+case 2:
             return var1;
         }
     };

@@ -53,7 +53,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function SettingsItemAppIcon() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = _closure1_slot5;
             var5 = undefined;
             var7 = var1.bind(var5)();
@@ -71,11 +71,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var4.bind(var5)(var1);
             var1 = var1.FreemiumAppIconIds;
             var1 = var1.DEFAULT;
-            if(!(var6 !== var1)) { _fun0001_ip = 140; continue _fun0001 }
- 80:
+            if(!(var6 !== var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = null;
-            if(!(var1 != var3)) { _fun0001_ip = 140; continue _fun0001 }
- 86:
+            if(!(var1 != var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var4 = _closure1_slot4;
             var3 = _closure1_slot1;
             var8 = _closure1_slot2;
@@ -89,8 +89,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = 32;
             var1['size'] = var6;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0001_ip = 178; continue _fun0001;
- 140:
+            _fun0001_ip = 5; continue _fun0001;
+case 2:
             var4 = _closure1_slot4;
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
@@ -100,7 +100,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var2.ClydeIcon;
             var2 = {};
             var1 = var4.bind(var5)(var3, var2);
- 178:
+case 5:
             return var1;
         }
     };

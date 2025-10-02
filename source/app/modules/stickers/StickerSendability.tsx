@@ -42,13 +42,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot5 = var5;
     var4 = function getStickerSendability(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var9 = arg2;
             var8 = arg3;
             var6 = null;
-            if(!(var6 != var9)) { _fun0001_ip = 333; continue _fun0001 }
- 18:
+            if(!(var6 != var9)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = _closure1_slot1;
             var1 = _closure1_slot3;
             var3 = 1;
@@ -63,43 +63,43 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var7)(var1);
             var1 = var3.isStandardSticker;
             var1 = var1.bind(var3)(var4);
-            if(var1) { _fun0001_ip = 321; continue _fun0001 }
- 87:
+            if(var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = _closure1_slot0;
             var1 = _closure1_slot3;
             var1 = var1[var10];
             var3 = var3.bind(var7)(var1);
             var1 = var3.isGuildSticker;
             var1 = var1.bind(var3)(var4);
-            if(!var1) { _fun0001_ip = 122; continue _fun0001 }
- 118:
-            if(!(var6 == var8)) { _fun0001_ip = 137; continue _fun0001 }
- 122:
+            if(!var1) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+            if(!(var6 == var8)) { _fun0001_ip = 8; continue _fun0001 }
+case 6:
             var1 = _closure1_slot5;
             var1 = var1.NONSENDABLE;
-            _fun0001_ip = 319; continue _fun0001;
- 137:
+            _fun0001_ip = 9; continue _fun0001;
+case 8:
             var3 = var4.available;
-            if(var3) { _fun0001_ip = 161; continue _fun0001 }
- 146:
+            if(var3) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var3 = _closure1_slot5;
             var3 = var3.SENDABLE_WITH_BOOSTED_GUILD;
-            _fun0001_ip = 316; continue _fun0001;
- 161:
+            _fun0001_ip = 12; continue _fun0001;
+case 10:
             var10 = var8.guild_id;
-            if(!(var6 != var10)) { _fun0001_ip = 197; continue _fun0001 }
- 170:
+            if(!(var6 != var10)) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var11 = var8.guild_id;
             var10 = '';
-            if(!(var10 !== var11)) { _fun0001_ip = 197; continue _fun0001 }
- 183:
+            if(!(var10 !== var11)) { _fun0001_ip = 13; continue _fun0001 }
+case 15:
             var10 = var8.guild_id;
             var4 = var4.guild_id;
-            if(!(var10 !== var4)) { _fun0001_ip = 303; continue _fun0001 }
- 197:
+            if(!(var10 !== var4)) { _fun0001_ip = 16; continue _fun0001 }
+case 13:
             var4 = var8.guild_id;
-            if(!(var6 != var4)) { _fun0001_ip = 277; continue _fun0001 }
- 206:
+            if(!(var6 != var4)) { _fun0001_ip = 17; continue _fun0001 }
+case 18:
             var6 = _closure1_slot2;
             var10 = _closure1_slot3;
             var4 = 3;
@@ -113,38 +113,38 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4['user'] = var9;
             var4['context'] = var8;
             var4 = var6.bind(var7)(var4);
-            if(var4) { _fun0001_ip = 277; continue _fun0001 }
- 265:
+            if(var4) { _fun0001_ip = 17; continue _fun0001 }
+case 19:
             var4 = _closure1_slot5;
             var4 = var4.NONSENDABLE;
-            _fun0001_ip = 301; continue _fun0001;
- 277:
+            _fun0001_ip = 20; continue _fun0001;
+case 17:
             var6 = _closure1_slot5;
-            if(var5) { _fun0001_ip = 292; continue _fun0001 }
- 284:
+            if(var5) { _fun0001_ip = 21; continue _fun0001 }
+case 22:
             var5 = var6.SENDABLE_WITH_PREMIUM;
-            _fun0001_ip = 298; continue _fun0001;
- 292:
+            _fun0001_ip = 23; continue _fun0001;
+case 21:
             var5 = var6.SENDABLE;
- 298:
+case 23:
             var4 = var5;
- 301:
-            _fun0001_ip = 313; continue _fun0001;
- 303:
+case 20:
+            _fun0001_ip = 24; continue _fun0001;
+case 16:
             var5 = _closure1_slot5;
             var4 = var5.SENDABLE;
- 313:
+case 24:
             var3 = var4;
- 316:
+case 12:
             var1 = var3;
- 319:
-            _fun0001_ip = 331; continue _fun0001;
- 321:
+case 9:
+            _fun0001_ip = 25; continue _fun0001;
+case 4:
             var2 = _closure1_slot5;
             var1 = var2.SENDABLE;
- 331:
+case 25:
             return var1;
- 333:
+case 2:
             var1 = _closure1_slot5;
             var1 = var1.NONSENDABLE;
             return var1;

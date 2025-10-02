@@ -35,15 +35,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = {};
             var3 = function transitionStart(arg1) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     var1 = arg1;
                     var1 = var1.data;
                     var1 = var1.closing;
-                    if(var1) { _fun0001_ip = 64; continue _fun0001 }
- 17:
+                    if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var1 = _closure3_slot0;
-                    if(!var1) { _fun0001_ip = 93; continue _fun0001 }
- 27:
+                    if(!var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                     var1 = false;
                     _closure3_slot0 = var1;
                     var3 = _closure1_slot0;
@@ -53,8 +53,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = undefined;
                     var1 = var3.bind(var2)(var1);
                     var1 = var1.bind(var2)();
-                    _fun0001_ip = 93; continue _fun0001;
- 64:
+                    _fun0001_ip = 4; continue _fun0001;
+case 2:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot1;
                     var1 = 1;
@@ -62,7 +62,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = undefined;
                     var1 = var3.bind(var2)(var1);
                     var1 = var1.bind(var2)();
- 93:
+case 4:
                     var1 = undefined;
                     return var1;
                 }

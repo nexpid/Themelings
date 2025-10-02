@@ -20,46 +20,46 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var4.bind(var5)(var2);
     var2 = function getIsInParty(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var3 = arg2;
             var5 = null;
             var2 = var5 == var3;
             var1 = undefined;
-            if(var2) { _fun0001_ip = 37; continue _fun0001 }
- 17:
+            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var3.party;
             var6 = var5 == var2;
             var1 = undefined;
-            if(var6) { _fun0001_ip = 37; continue _fun0001 }
- 32:
+            if(var6) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var1 = var2.id;
- 37:
+case 2:
             var1 = var5 != var1;
-            if(!var1) { _fun0001_ip = 109; continue _fun0001 }
- 44:
+            if(!var1) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var6 = var5 == var4;
             var2 = undefined;
-            if(var6) { _fun0001_ip = 73; continue _fun0001 }
- 53:
+            if(var6) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var6 = var4.party;
             var7 = var5 == var6;
             var2 = undefined;
-            if(var7) { _fun0001_ip = 73; continue _fun0001 }
- 68:
+            if(var7) { _fun0001_ip = 7; continue _fun0001 }
+case 9:
             var2 = var6.id;
- 73:
+case 7:
             var2 = var5 != var2;
-            if(!var2) { _fun0001_ip = 106; continue _fun0001 }
- 80:
+            if(!var2) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var4 = var4.party;
             var4 = var4.id;
             var3 = var3.party;
             var3 = var3.id;
             var2 = var4 === var3;
- 106:
+case 10:
             var1 = var2;
- 109:
+case 5:
             return var1;
         }
     };

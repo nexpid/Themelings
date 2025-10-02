@@ -32,7 +32,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = function() {
         var1 = function inBoundingBox(arg1, arg2, arg3) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var3 = arg2;
                 var5 = arg3;
                 var1 = arg1;
@@ -41,33 +41,33 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var2[var1];
                 var1 = null;
                 var1 = var1 != var4;
-                if(!var1) { _fun0001_ip = 110; continue _fun0001 }
- 30:
+                if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var6 = var3.left;
                 var2 = var4.absoluteX;
                 var2 = var6 < var2;
-                if(!var2) { _fun0001_ip = 63; continue _fun0001 }
- 48:
+                if(!var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var7 = var4.absoluteX;
                 var6 = var3.right;
                 var2 = var7 < var6;
- 63:
-                if(!var2) { _fun0001_ip = 85; continue _fun0001 }
- 66:
+case 4:
+                if(!var2) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                 var7 = var3.top;
                 var6 = var4.absoluteY;
                 var6 = var6 + var5;
                 var2 = var7 < var6;
- 85:
-                if(!var2) { _fun0001_ip = 107; continue _fun0001 }
- 88:
+case 6:
+                if(!var2) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
                 var4 = var4.absoluteY;
                 var4 = var4 + var5;
                 var3 = var3.bottom;
                 var2 = var4 < var3;
- 107:
+case 8:
                 var1 = var2;
- 110:
+case 2:
                 return var1;
             }
         };
@@ -93,7 +93,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useSearchSuggestionsGesture(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var12 = arg1;
             var _closure2_slot0 = var12;
             var7 = _closure1_slot0;
@@ -118,16 +118,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5[0] = var8;
             var3 = function(arg1, arg2) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var2 = arg1;
                     var1 = arg2;
-                    if(!(var2 !== var1)) { _fun0003_ip = 29; continue _fun0003 }
- 10:
+                    if(!(var2 !== var1)) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
                     var3 = _closure2_slot1;
                     var2 = var3.set;
                     var1 = false;
                     var1 = var2.bind(var3)(var1);
- 29:
+case 10:
                     var1 = undefined;
                     return var1;
                 }
@@ -160,10 +160,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var6.isAndroid;
             var6 = var3.bind(var6)();
             var3 = 0;
-            if(!var6) { _fun0002_ip = 197; continue _fun0002 }
- 194:
+            if(!var6) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
             var3 = var5;
- 197:
+case 12:
             var _closure2_slot4 = var3;
             var4 = _closure1_slot3;
             var6 = var4.useMemo;
@@ -187,7 +187,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var3.onTouchesDown;
                 var1 = function e(arg1, arg2) {
                     _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                         var2 = arg2;
                         var1 = var2.fail;
                         var1 = var1.bind(var2)();
@@ -196,21 +196,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var7 = var2.bind(var3)();
                         var2 = null;
                         var2 = var2 == var7;
-                        if(var2) { _fun0004_ip = 61; continue _fun0004 }
- 38:
+                        if(var2) { _fun0004_ip = 14; continue _fun0004 }
+case 15:
                         var6 = _closure1_slot6;
                         var5 = _closure2_slot4;
                         var4 = undefined;
                         var3 = arg1;
                         var2 = var6.bind(var4)(var3, var7, var5);
- 61:
-                        if(var2) { _fun0004_ip = 80; continue _fun0004 }
- 64:
+case 14:
+                        if(var2) { _fun0004_ip = 16; continue _fun0004 }
+case 17:
                         var3 = _closure2_slot1;
                         var2 = var3.set;
                         var1 = true;
                         var1 = var2.bind(var3)(var1);
- 80:
+case 16:
                         var1 = undefined;
                         return var1;
                     }

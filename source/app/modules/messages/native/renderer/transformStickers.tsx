@@ -38,7 +38,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var3.map;
         var1 = function(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var10 = arg1;
                 var3 = _closure1_slot0;
                 var1 = _closure1_slot1;
@@ -59,10 +59,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var11 = var7 != var3;
                 var5 = '';
                 var8 = var5;
-                if(!var11) { _fun0001_ip = 86; continue _fun0001 }
- 83:
+                if(!var11) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var8 = var3;
- 86:
+case 2:
                 var3 = 'asset';
                 var1[var3] = var8;
                 var8 = _closure1_slot0;
@@ -75,10 +75,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3['isPreview'] = var11;
                 var3 = var8.bind(var9)(var10, var3);
                 var7 = var7 != var3;
-                if(!var7) { _fun0001_ip = 144; continue _fun0001 }
- 141:
+                if(!var7) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var5 = var3;
- 144:
+case 4:
                 var3 = 'url';
                 var1[var3] = var5;
                 var5 = 160;
@@ -92,13 +92,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var7[var3];
                 var3 = var5.bind(var6)(var3);
                 var3 = var3.NativeLottieRenderMode;
-                if(var4) { _fun0001_ip = 211; continue _fun0001 }
- 203:
+                if(var4) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                 var4 = var3.STILL;
-                _fun0001_ip = 217; continue _fun0001;
- 211:
+                _fun0001_ip = 8; continue _fun0001;
+case 6:
                 var4 = var3.LOOP;
- 217:
+case 8:
                 var3 = 'renderMode';
                 var1[var3] = var4;
                 var5 = _closure1_slot0;

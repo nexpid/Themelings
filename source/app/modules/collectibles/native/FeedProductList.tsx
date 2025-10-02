@@ -101,7 +101,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot7 = var5;
     var5 = function SkeletonGrid(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var8 = var1.loadingCardsNum;
             var _closure2_slot0 = var8;
@@ -179,12 +179,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var2 = 0;
             var9 = var2 < var8;
-            if(!var9) { _fun0001_ip = 81; continue _fun0001 }
- 68:
+            if(!var9) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var9 = var3.bind(var4)(var2);
             var2 = var2 + var7;
-            if(var2 < var8) { _fun0001_ip = 68; continue _fun0001 }
- 81:
+            if(var2 < var8) { _fun0001_ip = 3; continue _fun0001 }
+case 2:
             var3 = _closure1_slot4;
             var2 = _closure1_slot3;
             var1 = {};
@@ -204,7 +204,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var7)(var5);
     var4 = function FeedProductList(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var12 = var1.products;
             var10 = var1.loadingCardsNum;
@@ -220,8 +220,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = {};
             var5 = null;
             var6 = var5 != var16;
-            if(!var6) { _fun0002_ip = 143; continue _fun0002 }
- 66:
+            if(!var6) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var9 = _closure1_slot4;
             var8 = _closure1_slot3;
             var5 = {};
@@ -240,13 +240,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var9.bind(var4)(var15, var14);
             var5['children'] = var14;
             var6 = var9.bind(var4)(var8, var5);
- 143:
+case 4:
             var5 = new Array(2);
             var5[0] = var6;
             var8 = var12.length;
             var6 = 0;
-            if(!(var6 !== var8)) { _fun0002_ip = 224; continue _fun0002 }
- 162:
+            if(!(var6 !== var8)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var9 = _closure1_slot4;
             var8 = _closure1_slot1;
             var14 = _closure1_slot2;
@@ -257,21 +257,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6['products'] = var12;
             var12 = 1;
             var14 = var13 < var12;
-            if(var14) { _fun0002_ip = 206; continue _fun0002 }
- 203:
+            if(var14) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var12 = var13;
- 206:
+case 8:
             var6['column'] = var12;
             var6['preferVCPrice'] = var11;
             var6 = var9.bind(var4)(var8, var6);
-            _fun0002_ip = 245; continue _fun0002;
- 224:
+            _fun0002_ip = 10; continue _fun0002;
+case 6:
             var9 = _closure1_slot4;
             var8 = _closure1_slot8;
             var7 = {};
             var7['loadingCardsNum'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 245:
+case 10:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

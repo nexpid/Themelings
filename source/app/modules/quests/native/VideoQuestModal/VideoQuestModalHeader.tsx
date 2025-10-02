@@ -77,7 +77,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function VideoQuestModalHeader(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var10 = var2.closeButtonIconColor;
             var9 = var2.onClose;
@@ -85,16 +85,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var2.showCurrentVideoTime;
             var4 = undefined;
             var15 = var4 !== var3;
-            if(!var15) { _fun0001_ip = 40; continue _fun0001 }
- 37:
+            if(!var15) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var15 = var3;
- 40:
+case 2:
             var2 = var2.withTextShadow;
             var18 = var4 !== var2;
-            if(!var18) { _fun0001_ip = 56; continue _fun0001 }
- 53:
+            if(!var18) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var18 = var2;
- 56:
+case 4:
             var2 = _closure1_slot7;
             var19 = var2.bind(var4)();
             var5 = _closure1_slot0;
@@ -119,15 +119,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.shallow;
             var1 = function(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var1 = arg1;
                     var2 = var1.videoProgress;
                     var1 = _closure2_slot0;
                     var1 = var1.id;
                     var1 = var2[var1];
                     var2 = null;
-                    if(!(var2 == var1)) { _fun0002_ip = 65; continue _fun0002 }
- 31:
+                    if(!(var2 == var1)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var2 = {};
                     var4 = _closure2_slot1;
                     var4 = var4.progressSeconds;
@@ -136,7 +136,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var3.targetSeconds;
                     var2['duration'] = var3;
                     var1 = var2;
- 65:
+case 6:
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot2;
                     var2 = 8;
@@ -162,10 +162,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = null;
             var5 = var2 == var3;
             var1 = undefined;
-            if(var5) { _fun0001_ip = 192; continue _fun0001 }
- 186:
+            if(var5) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var1 = var3.completedAt;
- 192:
+case 8:
             var17 = var2 != var1;
             var3 = _closure1_slot6;
             var2 = _closure1_slot3;
@@ -187,10 +187,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var7.Text;
             var7 = {'variant': 'heading-md/semibold', 'color': 'white'};
             var8 = var18;
-            if(!var18) { _fun0001_ip = 295; continue _fun0001 }
- 289:
+            if(!var18) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var8 = var19.textShadow;
- 295:
+case 10:
             var7['style'] = var8;
             var11 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -221,22 +221,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var20 = var19.subheader;
             var13 = new Array(2);
             var13[0] = var20;
-            if(!var18) { _fun0001_ip = 452; continue _fun0001 }
- 446:
+            if(!var18) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var18 = var19.textShadow;
- 452:
+case 12:
             var13[1] = var18;
             var8['style'] = var13;
             var13 = var16;
-            if(!var17) { _fun0001_ip = 489; continue _fun0001 }
- 466:
+            if(!var17) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var13 = var16;
-            if(var15) { _fun0001_ip = 489; continue _fun0001 }
- 472:
+            if(var15) { _fun0001_ip = 14; continue _fun0001 }
+case 16:
             var14 = var14.config;
             var14 = var14.messages;
             var13 = var14.gamePublisher;
- 489:
+case 14:
             var8['children'] = var13;
             var8 = var12.bind(var4)(var11, var8);
             var7[1] = var8;

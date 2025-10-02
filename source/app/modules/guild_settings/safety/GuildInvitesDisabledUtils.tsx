@@ -23,19 +23,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[0] = var6;
         var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var3 = _closure2_slot0;
                 var1 = null;
                 var1 = var1 != var3;
-                if(!var1) { _fun0001_ip = 49; continue _fun0001 }
- 16:
+                if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var5 = _closure1_slot3;
                 var4 = var5.can;
                 var3 = _closure1_slot5;
                 var3 = var3.MANAGE_GUILD;
                 var2 = _closure2_slot0;
                 var1 = var4.bind(var5)(var3, var2);
- 49:
+case 2:
                 return var1;
             }
         };
@@ -45,7 +45,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot6 = var5;
     var4 = function useInvitesDisabled(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var6 = arg1;
             var _closure2_slot0 = var6;
             var4 = _closure1_slot0;
@@ -60,18 +60,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[0] = var8;
             var1 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var3 = _closure2_slot0;
                     var1 = null;
                     var3 = var1 != var3;
-                    if(!var3) { _fun0003_ip = 43; continue _fun0003 }
- 16:
+                    if(!var3) { _fun0003_ip = 4; continue _fun0003 }
+case 3:
                     var4 = _closure1_slot2;
                     var3 = var4.getGuildIncident;
                     var2 = _closure2_slot0;
                     var2 = var2.id;
                     var1 = var3.bind(var4)(var2);
- 43:
+case 4:
                     return var1;
                 }
             };
@@ -79,25 +79,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = null;
             var7 = var3 == var6;
             var1 = undefined;
-            if(var7) { _fun0002_ip = 101; continue _fun0002 }
- 75:
+            if(var7) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
             var7 = var6.features;
             var6 = var7.has;
             var5 = _closure1_slot4;
             var5 = var5.INVITES_DISABLED;
             var1 = var6.bind(var7)(var5);
- 101:
-            if(var1) { _fun0002_ip = 193; continue _fun0002 }
- 104:
+case 5:
+            if(var1) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
             var5 = var3 == var4;
             var2 = undefined;
-            if(var5) { _fun0002_ip = 119; continue _fun0002 }
- 113:
+            if(var5) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
             var2 = var4.invitesDisabledUntil;
- 119:
+case 9:
             var2 = var3 != var2;
-            if(!var2) { _fun0002_ip = 190; continue _fun0002 }
- 126:
+            if(!var2) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
             var3 = global;
             var6 = var3.Date;
             var10 = var4.invitesDisabledUntil;
@@ -113,9 +113,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = new var11[var3](var10);
             var3 = var3 instanceof Object ? var3 : var5;
             var2 = var4 > var3;
- 190:
+case 11:
             var1 = var2;
- 193:
+case 7:
             return var1;
         }
     };
@@ -154,17 +154,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['useInvitesDisabled'] = var4;
     var2 = function useShouldShowInvitesDisabledNotif(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var4 = arg1;
             var1 = _closure1_slot6;
             var3 = undefined;
             var1 = var1.bind(var3)(var4);
             var2 = _closure1_slot7;
             var2 = var2.bind(var3)(var4);
-            if(!var1) { _fun0004_ip = 32; continue _fun0004 }
- 29:
+            if(!var1) { _fun0004_ip = 13; continue _fun0004 }
+case 14:
             var1 = var2;
- 32:
+case 13:
             return var1;
         }
     };

@@ -147,7 +147,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function RoleGradientPickerActionSheet(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var5 = var1.colors;
             var1 = var1.onSelect;
@@ -162,13 +162,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = _closure1_slot4;
             var2 = var3.useState;
             var7 = null;
-            if(!(var7 != var5)) { _fun0001_ip = 74; continue _fun0001 }
- 64:
+            if(!(var7 != var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = var5.secondary_color;
-            if(!(var7 == var6)) { _fun0001_ip = 78; continue _fun0001 }
- 74:
+            if(!(var7 == var6)) { _fun0001_ip = 4; continue _fun0001 }
+case 2:
             var5 = _closure1_slot7;
- 78:
+case 4:
             var5 = var2.bind(var3)(var5);
             var3 = _closure1_slot3;
             var2 = 2;
@@ -233,7 +233,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[1] = var1;
             var2 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
                     var1 = 10;
@@ -245,17 +245,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = null;
                     var7 = var2 == var5;
                     var5 = undefined;
-                    if(var7) { _fun0002_ip = 55; continue _fun0002 }
- 45:
+                    if(var7) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
                     var6 = _closure2_slot2;
                     var5 = var6.primary_color;
- 55:
+case 5:
                     var6 = var2 != var5;
                     var2 = 0;
-                    if(!var6) { _fun0002_ip = 67; continue _fun0002 }
- 64:
+                    if(!var6) { _fun0002_ip = 7; continue _fun0002 }
+case 3:
                     var2 = var5;
- 67:
+case 7:
                     var3['color'] = var2;
                     var2 = function onSelect(arg1) {
                         var3 = _closure2_slot4;
@@ -283,7 +283,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[1] = var1;
             var1 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
                     var1 = 10;
@@ -295,17 +295,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = null;
                     var7 = var2 == var5;
                     var5 = undefined;
-                    if(var7) { _fun0003_ip = 55; continue _fun0003 }
- 45:
+                    if(var7) { _fun0003_ip = 5; continue _fun0003 }
+case 6:
                     var6 = _closure2_slot2;
                     var5 = var6.secondary_color;
- 55:
+case 5:
                     var6 = var2 != var5;
                     var2 = 0;
-                    if(!var6) { _fun0003_ip = 67; continue _fun0003 }
- 64:
+                    if(!var6) { _fun0003_ip = 7; continue _fun0003 }
+case 3:
                     var2 = var5;
- 67:
+case 7:
                     var3['color'] = var2;
                     var2 = function onSelect(arg1) {
                         var3 = _closure2_slot4;
@@ -436,7 +436,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var17.map;
             var13 = function(arg1) {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                     var1 = arg1;
                     var _closure3_slot0 = var1;
                     var5 = _closure1_slot9;
@@ -456,18 +456,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = _closure2_slot2;
                     var8 = var8.primary_color;
                     var8 = var11 === var8;
-                    if(!var8) { _fun0004_ip = 108; continue _fun0004 }
- 89:
+                    if(!var8) { _fun0004_ip = 8; continue _fun0004 }
+case 9:
                     var12 = var1.end;
                     var11 = _closure2_slot2;
                     var11 = var11.secondary_color;
                     var8 = var12 === var11;
- 108:
-                    if(!var8) { _fun0004_ip = 121; continue _fun0004 }
- 111:
+case 8:
+                    if(!var8) { _fun0004_ip = 10; continue _fun0004 }
+case 11:
                     var11 = _closure2_slot1;
                     var8 = var11.selected;
- 121:
+case 10:
                     var7[1] = var8;
                     var2['style'] = var7;
                     var6 = function onPress() {

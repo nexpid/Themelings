@@ -116,11 +116,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = {'pointerEvents': 'none', 'horizontalOffset': 0};
         var8 = function modifyRow(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var3 = _closure2_slot0;
                 var2 = null;
-                if(!(var2 != var3)) { _fun0001_ip = 125; continue _fun0001 }
- 13:
+                if(!(var2 != var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var2 = {};
                 var3 = _closure2_slot0;
                 var2['numberOfLines'] = var3;
@@ -138,17 +138,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var4.isIOS;
                 var4 = var3.bind(var4)();
                 var3 = '';
-                if(!var4) { _fun0001_ip = 96; continue _fun0001 }
- 90:
+                if(!var4) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var3 = '...';
- 96:
+case 4:
                 var2['seeMoreLabel'] = var3;
                 var1 = _closure2_slot1;
                 var1 = var1.seeMoreLabelColor;
                 var2['seeMoreLabelColor'] = var1;
                 var1 = arg1;
                 var1['truncation'] = var2;
- 125:
+case 2:
                 var1 = undefined;
                 return var1;
             }

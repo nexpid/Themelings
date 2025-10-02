@@ -49,17 +49,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useReactionPermissions(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var12 = arg1;
             var _closure2_slot0 = var12;
             var1 = null;
             var2 = var1 == var12;
             var6 = undefined;
             var14 = undefined;
-            if(var2) { _fun0001_ip = 27; continue _fun0001 }
- 22:
+            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var14 = var12.guild_id;
- 27:
+case 2:
             var _closure2_slot1 = var14;
             var8 = _closure1_slot0;
             var13 = _closure1_slot2;
@@ -74,17 +74,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4[0] = var14;
             var3 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = _closure2_slot1;
                     var1 = null;
                     var1 = var1 == var3;
-                    if(var1) { _fun0002_ip = 38; continue _fun0002 }
- 16:
+                    if(var1) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var4 = _closure1_slot6;
                     var3 = var4.canChatInGuild;
                     var2 = _closure2_slot1;
                     var1 = var3.bind(var4)(var2);
- 38:
+case 4:
                     return var1;
                 }
             };
@@ -100,17 +100,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4[0] = var14;
             var3 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var3 = _closure2_slot1;
                     var1 = null;
                     var1 = var1 != var3;
-                    if(!var1) { _fun0003_ip = 38; continue _fun0003 }
- 16:
+                    if(!var1) { _fun0003_ip = 4; continue _fun0003 }
+case 5:
                     var4 = _closure1_slot4;
                     var3 = var4.isLurking;
                     var2 = _closure2_slot1;
                     var1 = var3.bind(var4)(var2);
- 38:
+case 4:
                     return var1;
                 }
             };
@@ -125,17 +125,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9[0] = var14;
             var3 = function() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                     var3 = _closure2_slot1;
                     var1 = null;
                     var1 = var1 != var3;
-                    if(!var1) { _fun0004_ip = 38; continue _fun0004 }
- 16:
+                    if(!var1) { _fun0004_ip = 4; continue _fun0004 }
+case 5:
                     var4 = _closure1_slot5;
                     var3 = var4.isCurrentUserGuest;
                     var2 = _closure2_slot1;
                     var1 = var3.bind(var4)(var2);
- 38:
+case 4:
                     return var1;
                 }
             };
@@ -151,17 +151,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7[1] = var12;
             var5 = function() {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
                     var1 = _closure2_slot2;
-                    if(!var1) { _fun0005_ip = 43; continue _fun0005 }
- 10:
+                    if(!var1) { _fun0005_ip = 6; continue _fun0005 }
+case 7:
                     var5 = _closure1_slot7;
                     var4 = var5.can;
                     var3 = _closure1_slot8;
                     var3 = var3.ADD_REACTIONS;
                     var2 = _closure2_slot0;
                     var1 = var4.bind(var5)(var3, var2);
- 43:
+case 6:
                     return var1;
                 }
             };
@@ -186,8 +186,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var8.bind(var6)(var5);
             var5 = var8.useIsActiveChannelOrUnarchivableThread;
             var8 = var5.bind(var8)(var12);
-            if(!(var1 != var12)) { _fun0001_ip = 453; continue _fun0001 }
- 338:
+            if(!(var1 != var12)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var1 = {};
             var5 = _closure1_slot1;
             var13 = _closure1_slot2;
@@ -215,10 +215,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = false;
             var2 = 'isPendingMember';
             var1[var2] = var3;
-            _fun0001_ip = 467; continue _fun0001;
- 453:
+            _fun0001_ip = 10; continue _fun0001;
+case 8:
             var1 = {'disableReactionReads': true, 'disableReactionCreates': true, 'disableReactionUpdates': true, 'isLurking': false, 'isGuest': false, 'isPendingMember': false};
- 467:
+case 10:
             return var1;
         }
     };

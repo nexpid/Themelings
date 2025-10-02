@@ -91,14 +91,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function TruncatedText(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var10 = var3.lineClamp;
             var4 = undefined;
-            if(!(var10 === var4)) { _fun0001_ip = 20; continue _fun0001 }
- 17:
+            if(!(var10 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var10 = 8;
- 20:
+case 2:
             var _closure2_slot0 = var10;
             var1 = null;
             var2 = Object.create(var1);
@@ -136,8 +136,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.bind(var3)(var2);
             _closure2_slot4 = var1;
             var6 = var13;
-            if(!var6) { _fun0001_ip = 328; continue _fun0001 }
- 174:
+            if(!var6) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = _closure1_slot9;
             var2 = _closure1_slot7;
             var1 = {};
@@ -160,29 +160,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var19[var15];
             var15 = var16.bind(var4)(var15);
             var16 = var15.t;
-            if(var12) { _fun0001_ip = 295; continue _fun0001 }
- 280:
+            if(var12) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var15 = var16.Fbrd8P;
             var15 = var17.bind(var18)(var15);
-            _fun0001_ip = 308; continue _fun0001;
- 295:
+            _fun0001_ip = 8; continue _fun0001;
+case 6:
             var16 = var16.JQX/PT;
             var15 = var17.bind(var18)(var16);
- 308:
+case 8:
             var8['children'] = var15;
             var8 = var3.bind(var4)(var14, var8);
             var1['children'] = var8;
             var6 = var3.bind(var4)(var2, var1);
- 328:
+case 4:
             var3 = _closure1_slot10;
             var2 = _closure1_slot6;
             var1 = {};
             var8 = function onPress() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var1 = _closure2_slot2;
-                    if(!var1) { _fun0002_ip = 30; continue _fun0002 }
- 10:
+                    if(!var1) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
                     var4 = _closure2_slot1;
                     var3 = undefined;
                     var2 = function(arg1) {
@@ -191,17 +191,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     };
                     var1 = var4.bind(var3)(var2);
- 30:
+case 9:
                     return var1;
                 }
             };
             var1['onPress'] = var8;
             var8 = 'togglebutton';
             var1['accessibilityRole'] = var8;
-            if(!var13) { _fun0001_ip = 372; continue _fun0001 }
- 362:
+            if(!var13) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var7 = 0.8;
- 372:
+case 11:
             var1['activeOpacity'] = var7;
             var8 = _closure1_slot9;
             var7 = _closure1_slot0;
@@ -215,22 +215,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var21 = var11;
             var11 = copyDataProperties(var22, var21);
             var11 = undefined;
-            if(!var13) { _fun0001_ip = 431; continue _fun0001 }
- 423:
+            if(!var13) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var11 = undefined;
-            if(var12) { _fun0001_ip = 431; continue _fun0001 }
- 428:
+            if(var12) { _fun0001_ip = 13; continue _fun0001 }
+case 15:
             var11 = var10;
- 431:
+case 13:
             var10 = 'lineClamp';
             var5[var10] = var11;
             var10 = function onTextLayout(arg1) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var2 = _closure2_slot4;
                     var2 = var2.current;
-                    if(var2) { _fun0003_ip = 66; continue _fun0003 }
- 15:
+                    if(var2) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
                     var3 = _closure2_slot4;
                     var2 = true;
                     var3['current'] = var2;
@@ -243,7 +243,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var2 > var1;
                     var1 = undefined;
                     var1 = var3.bind(var1)(var2);
- 66:
+case 16:
                     var1 = undefined;
                     return var1;
                 }
@@ -310,7 +310,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['ArrowButton'] = var4;
     var2 = function useFormattedSubscriptionPlan(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var6 = _closure1_slot1;
             var7 = _closure1_slot3;
             var2 = 12;
@@ -358,8 +358,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = null;
             var4 = var1 == var2;
             var1 = 'No Price Available';
-            if(var4) { _fun0004_ip = 254; continue _fun0004 }
- 181:
+            if(var4) { _fun0004_ip = 18; continue _fun0004 }
+case 19:
             var4 = _closure1_slot0;
             var6 = _closure1_slot3;
             var3 = 16;
@@ -375,7 +375,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = '';
             var2 = '/mo.';
             var1 = var4.bind(var3)(var5, var2);
- 254:
+case 18:
             return var1;
         }
     };

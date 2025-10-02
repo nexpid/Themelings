@@ -196,7 +196,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['setVoiceMessageAnimationState'] = var4;
     var4 = function addVoiceMessageWave(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var7 = arg1;
             var4 = _closure1_slot5;
             var3 = var4.getState;
@@ -210,8 +210,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var4)();
             var8 = var3.currWaveHeight;
             var3 = null;
-            if(!(var3 != var8)) { _fun0001_ip = 120; continue _fun0001 }
- 70:
+            if(!(var3 != var8)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = var8.set;
             var10 = _closure1_slot0;
             var9 = _closure1_slot1;
@@ -224,7 +224,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var7 / var3;
             var3 = var9.bind(var10)(var3);
             var3 = var4.bind(var8)(var3);
- 120:
+case 2:
             var4 = var5.push;
             var3 = new Array(2);
             var3[0] = var7;
@@ -300,7 +300,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['hideVoiceMessagesTooltip'] = var4;
     var4 = function resetVoiceMessageState() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
             var1 = 3;
@@ -326,8 +326,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var4)();
             var4 = var3.currWaveHeight;
             var3 = null;
-            if(!(var3 != var4)) { _fun0002_ip = 113; continue _fun0002 }
- 71:
+            if(!(var3 != var4)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var3 = var4.set;
             var5 = _closure1_slot0;
             var6 = _closure1_slot1;
@@ -338,7 +338,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = 0;
             var2 = var5.bind(var6)(var2);
             var2 = var3.bind(var4)(var2);
- 113:
+case 4:
             return var1;
         }
     };

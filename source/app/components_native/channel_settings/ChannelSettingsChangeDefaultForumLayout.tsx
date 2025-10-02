@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var7;
     var2 = function ChannelSettingsChangeDefaultForumLayout(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var2 = var2.channel;
             var _closure2_slot0 = var2;
@@ -84,8 +84,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['title'] = var9;
             var12 = null;
             var9 = var11;
-            if(!(var12 == var9)) { _fun0001_ip = 255; continue _fun0001 }
- 223:
+            if(!(var12 == var9)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var13 = _closure1_slot0;
             var16 = _closure1_slot2;
             var12 = 10;
@@ -93,7 +93,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var13.bind(var4)(var12);
             var12 = var12.ForumLayout;
             var9 = var12.LIST;
- 255:
+case 2:
             var5['defaultValue'] = var9;
             var5['onChange'] = var8;
             var18 = _closure1_slot7;
@@ -215,21 +215,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var12.bind(var4)(var9);
             var9 = var9.ForumLayout;
             var9 = var9.GRID;
-            if(!(var11 !== var9)) { _fun0001_ip = 850; continue _fun0001 }
- 828:
+            if(!(var11 !== var9)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var11 = _closure1_slot1;
             var12 = _closure1_slot2;
             var9 = 18;
             var9 = var12[var9];
             var9 = var11.bind(var4)(var9);
-            _fun0001_ip = 870; continue _fun0001;
- 850:
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
             var11 = _closure1_slot1;
             var12 = _closure1_slot2;
             var10 = 17;
             var10 = var12[var10];
             var9 = var11.bind(var4)(var10);
- 870:
+case 6:
             var6['source'] = var9;
             var6 = var8.bind(var4)(var7, var6);
             var5[3] = var6;
@@ -323,7 +323,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var7)(var5);
     var4 = function ConnectedChannelSettingsChangeDefaultForumLayout(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var2 = arg1;
             var2 = var2.channelId;
             var _closure2_slot0 = var2;
@@ -347,14 +347,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var4.bind(var6)(var3, var1);
             var1 = null;
             var3 = var1 == var6;
-            if(var3) { _fun0002_ip = 98; continue _fun0002 }
- 78:
+            if(var3) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
             var4 = _closure1_slot7;
             var3 = _closure1_slot10;
             var2 = {};
             var2['channel'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 98:
+case 7:
             return var1;
         }
     };

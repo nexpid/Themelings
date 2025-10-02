@@ -14,11 +14,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = function* () {
             var1 = function* anon_0_() {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 138; continue _fun0001 }
- 10: // try_start_0
+                    if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3: // try_start_0
                     var4 = _closure1_slot1;
                     var2 = _closure1_slot2;
                     var6 = 3;
@@ -28,26 +28,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = null;
                     var4 = var2 == var4;
                     var2 = undefined;
-                    if(var4) { _fun0001_ip = 75; continue _fun0001 }
- 46:
+                    if(var4) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
                     var3 = var3[var6];
                     var4 = var4.bind(var5)(var3);
                     var3 = var4.requestRating;
                     var2 = var3.bind(var4)();
- 75:
+case 4:
                     SaveGenerator(address=79);
- 77:
+case 6:
                     return var2;
- 79:
+case 7:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0001_ip = 87; continue _fun0001 }
- 85: // try_end0
-                    _fun0001_ip = 133; continue _fun0001;
- 87:
+                    if(var3) { _fun0001_ip = 8; continue _fun0001 }
+case 9: // try_end0
+                    _fun0001_ip = 10; continue _fun0001;
+case 8:
                     return var2;
- 90: // catch_target0
+case 11: // catch_target0
                     CatchBlockStart(arg_register=5);
                     var4 = _closure1_slot5;
                     var3 = var4.error;
@@ -57,10 +57,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = 'Failed to show Android rating request: ';
                     var2 = var5.bind(var2)(var6);
                     var2 = var3.bind(var4)(var2);
- 133:
+case 10:
                     var2 = undefined;
                     return var2;
- 138:
+case 2:
                     return var1;
                 }
             };
@@ -112,7 +112,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function requestReviewModal() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 4;
@@ -121,14 +121,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.bind(var1)(var3);
             var3 = var4.isAndroid;
             var3 = var3.bind(var4)();
-            if(var3) { _fun0002_ip = 61; continue _fun0002 }
- 37:
+            if(var3) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
             var2 = _closure1_slot4;
             var3 = var2.AppStoreManager;
             var2 = var3.requestReview;
             var2 = var2.bind(var3)();
-            _fun0002_ip = 74; continue _fun0002;
- 61:
+            _fun0002_ip = 14; continue _fun0002;
+case 12:
             var2 = function showAndroidRatingRequest() {
                 var1 = undefined;
                 var4 = _closure1_slot6;
@@ -140,7 +140,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var2 = var2.bind(var1)();
- 74:
+case 14:
             return var1;
         }
     };

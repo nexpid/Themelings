@@ -183,7 +183,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot16 = var1;
     var1 = function AccountTwoFALabel() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
             var2 = 21;
@@ -229,17 +229,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[2] = var2;
             var2 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var1 = _closure2_slot2;
-                    if(!var1) { _fun0002_ip = 14; continue _fun0002 }
- 10:
+                    if(!var1) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var1 = _closure2_slot1;
- 14:
-                    if(!var1) { _fun0002_ip = 24; continue _fun0002 }
- 17:
+case 2:
+                    if(!var1) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var2 = _closure2_slot0;
                     var1 = !var2;
- 24:
+case 4:
                     return var1;
                 }
             };
@@ -250,10 +250,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[0] = var8;
             var1 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var1 = _closure2_slot1;
-                    if(var1) { _fun0003_ip = 45; continue _fun0003 }
- 10:
+                    if(var1) { _fun0003_ip = 6; continue _fun0003 }
+case 3:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var1 = 23;
@@ -262,7 +262,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var3.bind(var1)(var2);
                     var1 = var2.fetchWebAuthnCredentials;
                     var1 = var1.bind(var2)();
- 45:
+case 6:
                     var1 = undefined;
                     return var1;
                 }
@@ -272,13 +272,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = _closure1_slot13;
             var1 = {};
             var7 = var5;
-            if(!var7) { _fun0001_ip = 218; continue _fun0001 }
- 202:
+            if(!var7) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var9 = _closure1_slot11;
             var8 = _closure1_slot16;
             var5 = {};
             var7 = var9.bind(var4)(var8, var5);
- 218:
+case 7:
             var5 = new Array(2);
             var5[0] = var7;
             var8 = _closure1_slot11;
@@ -547,7 +547,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var8.memo;
     var4 = function() {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var1 = _closure1_slot15;
             var4 = undefined;
             var11 = var1.bind(var4)();
@@ -648,14 +648,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['items'] = var14;
             var1['pageWidth'] = var13;
             var10 = var10.STANDING;
-            if(!(var12 === var10)) { _fun0004_ip = 391; continue _fun0004 }
- 388:
+            if(!(var12 === var10)) { _fun0004_ip = 9; continue _fun0004 }
+case 10:
             var6 = var7;
- 391:
+case 9:
             var1['defaultIndex'] = var6;
             var5 = function onSetActiveIndex(arg1) {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
                     var1 = 29;
@@ -668,15 +668,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = {};
                     var8 = 0;
                     var6 = arg1;
-                    if(!(var8 !== var6)) { _fun0005_ip = 63; continue _fun0005 }
- 51:
+                    if(!(var8 !== var6)) { _fun0005_ip = 11; continue _fun0005 }
+case 12:
                     var6 = _closure1_slot14;
                     var6 = var6.STANDING;
-                    _fun0005_ip = 73; continue _fun0005;
- 63:
+                    _fun0005_ip = 13; continue _fun0005;
+case 11:
                     var7 = _closure1_slot14;
                     var6 = var7.SECURITY;
- 73:
+case 13:
                     var2['target_tab_name'] = var6;
                     var2 = var4.bind(var5)(var3, var2);
                     return var1;

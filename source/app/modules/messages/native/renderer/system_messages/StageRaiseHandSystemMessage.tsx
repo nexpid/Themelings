@@ -9,22 +9,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function createRequestToSpeakEphemeralIndication(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var12 = arg1;
             var2 = var12.hasFlag;
             var1 = _closure1_slot7;
             var1 = var1.EPHEMERAL;
             var1 = var2.bind(var12)(var1);
-            if(!var1) { _fun0001_ip = 49; continue _fun0001 }
- 30:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var12.type;
             var1 = _closure1_slot8;
             var1 = var1.STAGE_RAISE_HAND;
-            if(!(var2 !== var1)) { _fun0001_ip = 53; continue _fun0001 }
- 49:
+            if(!(var2 !== var1)) { _fun0001_ip = 4; continue _fun0001 }
+case 2:
             var1 = undefined;
             return var1;
- 53:
+case 4:
             var1 = {};
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -109,7 +109,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function createStageRaiseHandSystemMessage(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var4 = arg1;
             var7 = var4.message;
             var19 = var4.roleStyle;
@@ -161,21 +161,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = null;
             var1 = var13 == var5;
             var9 = undefined;
-            if(var1) { _fun0002_ip = 264; continue _fun0002 }
- 243:
+            if(var1) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
             var1 = var5.voiceState;
             var15 = var13 == var1;
             var9 = undefined;
-            if(var15) { _fun0002_ip = 264; continue _fun0002 }
- 258:
+            if(var15) { _fun0002_ip = 5; continue _fun0002 }
+case 7:
             var9 = var1.requestToSpeakTimestamp;
- 264:
+case 5:
             var15 = var13 != var9;
             var1 = 0;
-            if(!var15) { _fun0002_ip = 276; continue _fun0002 }
- 273:
+            if(!var15) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var1 = var9;
- 276:
+case 8:
             var9 = var10.prototype;
             var9 = Object.create(var9, {constructor: {value: var10}});
             var23 = var9;
@@ -185,14 +185,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var9.toISOString;
             var1 = var1.bind(var9)();
             var1 = var8 === var1;
-            if(!var6) { _fun0002_ip = 367; continue _fun0002 }
- 316:
+            if(!var6) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
             var9 = var13 == var5;
             var8 = undefined;
-            if(var9) { _fun0002_ip = 331; continue _fun0002 }
- 325:
+            if(var9) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
             var8 = var5.rtsState;
- 331:
+case 12:
             var9 = _closure1_slot0;
             var10 = _closure1_slot2;
             var5 = 8;
@@ -201,11 +201,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.RequestToSpeakStates;
             var5 = var5.REQUESTED_TO_SPEAK;
             var6 = var8 === var5;
- 367:
-            if(!var6) { _fun0002_ip = 373; continue _fun0002 }
- 370:
+case 10:
+            if(!var6) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
             var6 = var1;
- 373:
+case 14:
             var9 = _closure1_slot0;
             var8 = _closure1_slot2;
             var1 = 9;
@@ -233,16 +233,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12['userId'] = var16;
             var18 = 'username';
             var16 = null;
-            if(!(var18 === var19)) { _fun0002_ip = 498; continue _fun0002 }
- 495:
+            if(!(var18 === var19)) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
             var16 = var17;
- 498:
+case 16:
             var12['linkColor'] = var16;
             var13 = null;
-            if(!var15) { _fun0002_ip = 511; continue _fun0002 }
- 508:
+            if(!var15) { _fun0002_ip = 18; continue _fun0002 }
+case 19:
             var13 = var14;
- 511:
+case 18:
             var12['roleColors'] = var13;
             var13 = var7.channel_id;
             var12['messageChannelId'] = var13;

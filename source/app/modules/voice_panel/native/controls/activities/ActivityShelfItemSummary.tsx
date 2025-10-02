@@ -124,17 +124,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function ActivityShelfItemSummary(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var10 = var1.channelId;
             var9 = var1.applicationId;
             var12 = var1.applicationName;
             var13 = var1.submitting;
             var4 = undefined;
-            if(!(var13 === var4)) { _fun0001_ip = 33; continue _fun0001 }
- 31:
+            if(!(var13 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var13 = false;
- 33:
+case 2:
             var1 = _closure1_slot7;
             var14 = var1.bind(var4)();
             var8 = _closure1_slot0;
@@ -166,13 +166,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var8.bind(var4)(var7);
             var8 = var7.Text;
             var7 = {'variant': 'text-md/semibold', 'style': null, 'lineClamp': 2};
-            if(var13) { _fun0001_ip = 184; continue _fun0001 }
- 176:
+            if(var13) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var16 = var14.overlayActivityNameText;
-            _fun0001_ip = 190; continue _fun0001;
- 184:
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
             var16 = var14.loadingTextColor;
- 190:
+case 6:
             var7['style'] = var16;
             var7['children'] = var12;
             var8 = var11.bind(var4)(var8, var7);
@@ -191,8 +191,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14[0] = var16;
             var14[1] = var15;
             var8['style'] = var14;
-            if(!var13) { _fun0001_ip = 320; continue _fun0001 }
- 270:
+            if(!var13) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var16 = _closure1_slot5;
             var15 = _closure1_slot0;
             var17 = _closure1_slot2;
@@ -202,7 +202,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var14.Ellipsis;
             var14 = {'variant': 'active', 'size': 'md'};
             var13 = var16.bind(var4)(var15, var14);
- 320:
+case 7:
             var8['children'] = var13;
             var8 = var12.bind(var4)(var11, var8);
             var7[1] = var8;

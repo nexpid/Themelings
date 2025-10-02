@@ -70,22 +70,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function EntityBorderAppIcon(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var7 = var1.iconSource;
             var10 = var1.wrapperStyle;
             var9 = var1.iconStyle;
             var3 = var1.iconSize;
             var4 = undefined;
-            if(!(var3 === var4)) { _fun0001_ip = 36; continue _fun0001 }
- 33:
+            if(!(var3 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = 32;
- 36:
+case 2:
             var2 = var1.iconBorderRadius;
-            if(!(var2 === var4)) { _fun0001_ip = 53; continue _fun0001 }
- 46:
+            if(!(var2 === var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = _closure1_slot4;
- 53:
+case 4:
             var1 = _closure1_slot5;
             var8 = var1.bind(var4)(var3, var2);
             var3 = _closure1_slot3;

@@ -46,15 +46,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var2;
         var2 = function value(arg1, arg2) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var3 = arg1;
                 var4 = arg2;
                 var5 = this;
                 var2 = var5._report;
                 var6 = var4.type;
                 var1 = 'soundshare_state_transition';
-                if(!(var1 !== var6)) { _fun0001_ip = 64; continue _fun0001 }
- 30:
+                if(!(var1 !== var6)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var8 = var4.type;
                 var1 = global;
                 var1 = var1.HermesInternal;
@@ -62,8 +62,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = '';
                 var1 = '_count';
                 var7 = var7.bind(var6)(var8, var1);
-                _fun0001_ip = 113; continue _fun0001;
- 64:
+                _fun0001_ip = 4; continue _fun0001;
+case 2:
                 var6 = var4.newState;
                 var1 = ['detached', 'waiting', 'attached', 'started', 'playing', 'silence'];
                 var9 = var1[var6];
@@ -73,52 +73,52 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = 'soundshare_state_transition_';
                 var1 = '_count';
                 var7 = var8.bind(var6)(var9, var1);
- 113:
+case 4:
                 var6 = var2[var7];
                 var1 = undefined;
-                if(!(var1 === var6)) { _fun0001_ip = 140; continue _fun0001 }
- 123:
+                if(!(var1 === var6)) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
                 var6 = var2.soundshare_unknown_event_count;
                 var6 = var6 + 1;
                 var2['soundshare_unknown_event_count'] = var6;
-                _fun0001_ip = 165; continue _fun0001;
- 140:
+                _fun0001_ip = 7; continue _fun0001;
+case 5:
                 var8 = var2[var7];
                 var6 = 32767;
-                if(!(var8 < var6)) { _fun0001_ip = 165; continue _fun0001 }
- 154:
+                if(!(var8 < var6)) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
                 var6 = var2[var7];
                 var6 = var6 + 1;
                 var2[var7] = var6;
- 165:
+case 7:
                 var6 = 'pid';
                 var6 = var6 in var4;
-                if(!var6) { _fun0001_ip = 234; continue _fun0001 }
- 176:
+                if(!var6) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
                 var7 = var2.soundshare_first_pid;
                 var6 = 0;
-                if(!(var6 === var7)) { _fun0001_ip = 200; continue _fun0001 }
- 188:
+                if(!(var6 === var7)) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
                 var6 = var4.pid;
                 var2['soundshare_first_pid'] = var6;
- 200:
+case 11:
                 var6 = var4.pid;
                 var2['soundshare_last_pid'] = var6;
                 var6 = var5._pids;
                 var5 = var6.add;
                 var4 = var4.pid;
                 var4 = var5.bind(var6)(var4);
- 234:
+case 9:
                 var5 = null;
-                if(!(var5 != var3)) { _fun0001_ip = 262; continue _fun0001 }
- 240:
+                if(!(var5 != var3)) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
                 var4 = var2.soundshare_first_session;
-                if(!(var5 == var4)) { _fun0001_ip = 256; continue _fun0001 }
- 250:
+                if(!(var5 == var4)) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
                 var2['soundshare_first_session'] = var3;
- 256:
+case 15:
                 var2['soundshare_last_session'] = var3;
- 262:
+case 13:
                 return var1;
             }
         };

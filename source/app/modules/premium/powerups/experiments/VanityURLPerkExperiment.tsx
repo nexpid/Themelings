@@ -5,20 +5,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = dependencyMap;
     var1 = function eligibleForGuildExperiment(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var1 = null;
             var1 = var1 != var3;
-            if(!var1) { _fun0001_ip = 23; continue _fun0001 }
- 12:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = _closure1_slot1;
             var1 = var3 !== var2;
- 23:
-            if(!var1) { _fun0001_ip = 37; continue _fun0001 }
- 26:
+case 2:
+            if(!var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = _closure1_slot0;
             var1 = var3 !== var2;
- 37:
+case 4:
             return var1;
         }
     };
@@ -91,7 +91,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['useVanityURLPerkExperimentEnabled'] = var4;
     var4 = function useVanityURLPerkPurchaseEnabled(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var4 = _closure1_slot3;
             var3 = undefined;
@@ -109,11 +109,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['autoTrackExposure'] = var5;
             var2 = var3.bind(var4)(var2, var1);
             var1 = var2.enabled;
-            if(!var1) { _fun0002_ip = 80; continue _fun0002 }
- 71:
+            if(!var1) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var2 = var2.rollbackEnabled;
             var1 = !var2;
- 80:
+case 6:
             return var1;
         }
     };
@@ -141,15 +141,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['useVanityURLPerkRollbackEnabled'] = var4;
     var4 = function getVanityURLPerkRollbackEnabled(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var2 = arg1;
             var4 = _closure1_slot3;
             var1 = undefined;
             var4 = var4.bind(var1)(var2);
             var1 = !var4;
             var1 = !var1;
-            if(!var4) { _fun0003_ip = 70; continue _fun0003 }
- 26:
+            if(!var4) { _fun0003_ip = 8; continue _fun0003 }
+case 5:
             var5 = _closure1_slot2;
             var4 = var5.getCurrentConfig;
             var3 = {};
@@ -161,22 +161,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['autoTrackExposure'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             var1 = var2.rollbackEnabled;
- 70:
+case 8:
             return var1;
         }
     };
     var3['getVanityURLPerkRollbackEnabled'] = var4;
     var2 = function getVanityURLPerkExperimentEnabled(arg1, arg2) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var2 = arg1;
             var4 = _closure1_slot3;
             var1 = undefined;
             var4 = var4.bind(var1)(var2);
             var1 = !var4;
             var1 = !var1;
-            if(!var4) { _fun0004_ip = 69; continue _fun0004 }
- 26:
+            if(!var4) { _fun0004_ip = 9; continue _fun0004 }
+case 5:
             var5 = _closure1_slot2;
             var4 = var5.getCurrentConfig;
             var3 = {};
@@ -188,7 +188,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['autoTrackExposure'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             var1 = var2.enabled;
- 69:
+case 9:
             return var1;
         }
     };

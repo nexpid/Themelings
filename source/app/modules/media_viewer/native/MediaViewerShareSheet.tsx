@@ -31,21 +31,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function showShareActionSheetForSource(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var3 = var1.videoURI;
             var2 = null;
-            if(!(var2 == var3)) { _fun0001_ip = 32; continue _fun0001 }
- 15:
+            if(!(var2 == var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = var1.sourceURI;
-            if(!(var2 == var3)) { _fun0001_ip = 30; continue _fun0001 }
- 25:
+            if(!(var2 == var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = var1.uri;
- 30:
-            _fun0001_ip = 38; continue _fun0001;
- 32:
+case 4:
+            _fun0001_ip = 6; continue _fun0001;
+case 2:
             var3 = var1.videoURI;
- 38:
+case 6:
             var7 = _closure1_slot0;
             var5 = _closure1_slot2;
             var1 = 1;

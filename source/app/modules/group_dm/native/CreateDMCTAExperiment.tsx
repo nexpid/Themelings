@@ -41,7 +41,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['CreateDMCTAExperiment'] = var4;
     var2 = function useCreateDMCTAExperimentEnabled(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var5 = arg2;
             var6 = _closure1_slot0;
@@ -61,17 +61,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var5;
             var7 = copyDataProperties(var11, var10);
             var7 = var6;
-            if(var7) { _fun0001_ip = 97; continue _fun0001 }
- 76:
+            if(var7) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var8 = var5.disable;
             var6 = null;
             var6 = var6 != var8;
-            if(!var6) { _fun0001_ip = 94; continue _fun0001 }
- 91:
+            if(!var6) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var6 = var8;
- 94:
+case 4:
             var7 = var6;
- 97:
+case 2:
             var6 = 'disable';
             var1[var6] = var7;
             var6 = var5.autoTrackExposure;

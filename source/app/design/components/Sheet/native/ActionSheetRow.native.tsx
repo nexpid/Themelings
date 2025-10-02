@@ -7,15 +7,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var7;
     var4 = function ActionSheetRow(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var11 = var3.label;
             var12 = var3.variant;
             var4 = undefined;
-            if(!(var12 === var4)) { _fun0001_ip = 23; continue _fun0001 }
- 19:
+            if(!(var12 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var12 = 'default';
- 23:
+case 2:
             var10 = var3.arrow;
             var9 = var3.icon;
             var2 = {'label': 0, 'variant': 0, 'arrow': 0, 'icon': 0};
@@ -81,7 +81,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot5 = var5;
     var5 = function ActionSheetRowIcon(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var6 = var1.source;
             var7 = var1.IconComponent;
@@ -102,10 +102,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = null;
             var8 = var6 != var7;
             var6 = undefined;
-            if(!var8) { _fun0002_ip = 87; continue _fun0002 }
- 84:
+            if(!var8) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var6 = var7;
- 87:
+case 4:
             var1['IconComponent'] = var6;
             var1['variant'] = var5;
             var1 = var4.bind(var3)(var2, var1);

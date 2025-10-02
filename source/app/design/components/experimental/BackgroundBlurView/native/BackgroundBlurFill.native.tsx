@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function useBlurTheme(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
@@ -21,17 +21,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.bind(var3)();
             var1 = var1.theme;
             var3 = null;
-            if(!(var3 != var2)) { _fun0001_ip = 53; continue _fun0001 }
- 50:
+            if(!(var3 != var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var2;
- 53:
+case 2:
             return var1;
         }
     };
     var _closure1_slot12 = var1;
     var1 = function useBlurStyle(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var6 = arg1;
             var2 = arg2;
             var _closure2_slot0 = var6;
@@ -41,30 +41,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[0] = var6;
             var1 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var3 = _closure2_slot0;
                     var1 = 'ultra-thin';
                     var2 = 'light';
-                    if(!(var2 === var3)) { _fun0003_ip = 25; continue _fun0003 }
- 21:
+                    if(!(var2 === var3)) { _fun0003_ip = 4; continue _fun0003 }
+case 5:
                     var1 = 'default';
- 25:
+case 4:
                     return var1;
                 }
             };
             var1 = var4.bind(var5)(var1, var3);
             var3 = null;
-            if(!(var3 != var2)) { _fun0002_ip = 52; continue _fun0002 }
- 49:
+            if(!(var3 != var2)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var1 = var2;
- 52:
+case 6:
             return var1;
         }
     };
     var _closure1_slot13 = var1;
     var1 = function useBlurTintRgba(arg1, arg2) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var6 = arg1;
             var2 = arg2;
             var _closure2_slot0 = var6;
@@ -74,11 +74,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[0] = var6;
             var1 = function() {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
                     var2 = _closure2_slot0;
                     var1 = 'light';
-                    if(!(var1 !== var2)) { _fun0005_ip = 57; continue _fun0005 }
- 15:
+                    if(!(var1 !== var2)) { _fun0005_ip = 8; continue _fun0005 }
+case 9:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
                     var2 = 4;
@@ -88,8 +88,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var3.hexToRgbaString;
                     var1 = _closure1_slot8;
                     var1 = var2.bind(var3)(var1);
-                    _fun0005_ip = 97; continue _fun0005;
- 57:
+                    _fun0005_ip = 10; continue _fun0005;
+case 8:
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot2;
                     var3 = 4;
@@ -99,23 +99,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var4.hexToRgbaString;
                     var2 = _closure1_slot6;
                     var1 = var3.bind(var4)(var2);
- 97:
+case 10:
                     return var1;
                 }
             };
             var1 = var4.bind(var5)(var1, var3);
             var3 = null;
-            if(!(var3 != var2)) { _fun0004_ip = 52; continue _fun0004 }
- 49:
+            if(!(var3 != var2)) { _fun0004_ip = 6; continue _fun0004 }
+case 7:
             var1 = var2;
- 52:
+case 6:
             return var1;
         }
     };
     var _closure1_slot14 = var1;
     var1 = function useBlurFallback(arg1, arg2) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
- 0:
+case 0:
             var2 = arg2;
             var4 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -133,10 +133,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = arg1;
             var1 = var4.bind(var5)(var3, var1);
             var3 = null;
-            if(!(var3 != var2)) { _fun0006_ip = 79; continue _fun0006 }
- 76:
+            if(!(var3 != var2)) { _fun0006_ip = 11; continue _fun0006 }
+case 12:
             var1 = var2;
- 79:
+case 11:
             return var1;
         }
     };
@@ -260,7 +260,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['BackgroundBlurFill'] = var4;
     var4 = function BackgroundBlurFillAnimated(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
- 0:
+case 0:
             var1 = arg1;
             var6 = var1.style;
             var12 = var1.blurTheme;
@@ -300,12 +300,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['style'] = var5;
             var5 = null;
             var5 = var5 != var7;
-            if(!var5) { _fun0007_ip = 195; continue _fun0007 }
- 185:
+            if(!var5) { _fun0007_ip = 13; continue _fun0007 }
+case 14:
             var6 = {};
             var6['animatedProps'] = var7;
             var5 = var6;
- 195:
+case 13:
             var16 = var1;
             var15 = var5;
             var5 = copyDataProperties(var16, var15);
@@ -316,7 +316,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['BackgroundBlurFillAnimated'] = var4;
     var2 = function BackgroundBlurFillWithPress(arg1) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
- 0:
+case 0:
             var5 = arg1;
             var9 = var5.style;
             var3 = var5.blurTheme;
@@ -342,21 +342,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var2.bind(var4)(var11, var4);
             var2 = 'light';
             var2 = var2 === var11;
-            if(var2) { _fun0008_ip = 122; continue _fun0008 }
- 116:
+            if(var2) { _fun0008_ip = 15; continue _fun0008 }
+case 16:
             var17 = _closure1_slot8;
-            _fun0008_ip = 126; continue _fun0008;
- 122:
+            _fun0008_ip = 17; continue _fun0008;
+case 15:
             var17 = _closure1_slot6;
- 126:
+case 17:
             _closure2_slot1 = var17;
-            if(var2) { _fun0008_ip = 139; continue _fun0008 }
- 133:
+            if(var2) { _fun0008_ip = 18; continue _fun0008 }
+case 19:
             var16 = _closure1_slot9;
-            _fun0008_ip = 143; continue _fun0008;
- 139:
+            _fun0008_ip = 20; continue _fun0008;
+case 18:
             var16 = _closure1_slot7;
- 143:
+case 20:
             _closure2_slot2 = var16;
             var15 = _closure1_slot0;
             var12 = _closure1_slot2;
@@ -452,13 +452,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var7.useAnimatedProps;
             var1 = function T() {
                 _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
- 0:
+case 0:
                     var1 = {};
                     var4 = _closure2_slot5;
                     var8 = undefined;
                     var2 = undefined;
-                    if(var4) { _fun0009_ip = 146; continue _fun0009 }
- 19:
+                    if(var4) { _fun0009_ip = 21; continue _fun0009 }
+case 22:
                     var4 = _closure1_slot0;
                     var9 = _closure1_slot2;
                     var5 = 10;
@@ -485,7 +485,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var3.ON_PRESS_SPRING;
                     var3 = 'animate-always';
                     var2 = var6.bind(var7)(var5, var4, var3);
- 146:
+case 21:
                     var1['blurTintRgba'] = var2;
                     return var1;
                 }
@@ -525,19 +525,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = new Array(3);
             var6[0] = var10;
             var6[1] = var9;
-            if(var5) { _fun0008_ip = 625; continue _fun0008 }
- 623:
+            if(var5) { _fun0008_ip = 23; continue _fun0008 }
+case 24:
             var8 = {};
- 625:
+case 23:
             var6[2] = var8;
             var1['style'] = var6;
             var5 = !var5;
-            if(!var5) { _fun0008_ip = 649; continue _fun0008 }
- 639:
+            if(!var5) { _fun0008_ip = 25; continue _fun0008 }
+case 26:
             var6 = {};
             var6['animatedProps'] = var7;
             var5 = var6;
- 649:
+case 25:
             var25 = var1;
             var24 = var5;
             var5 = copyDataProperties(var25, var24);

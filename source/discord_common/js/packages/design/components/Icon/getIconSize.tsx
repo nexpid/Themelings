@@ -23,18 +23,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var7)(var5);
     var4 = function getIconSize(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = 'custom';
-            if(!(var1 !== var2)) { _fun0001_ip = 34; continue _fun0001 }
- 11:
+            if(!(var1 !== var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = _closure1_slot0;
             var2 = var1[var2];
             var1 = {};
             var1['width'] = var2;
             var1['height'] = var2;
             return var1;
- 34:
+case 2:
             var1 = null;
             return var1;
         }

@@ -9,8 +9,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function _isNativeReflectConstruct() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
- 2: // try_start_0
+case 0:
+case 2: // try_start_0
             var2 = global;
             var3 = var2.Boolean;
             var3 = var3.prototype;
@@ -28,11 +28,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var4)(var2);
             var2 = !var2;
             var _closure2_slot0 = var2;
- 72: // try_end0
-            _fun0001_ip = 76; continue _fun0001;
- 74: // catch_target0
+case 3: // try_end0
+            _fun0001_ip = 4; continue _fun0001;
+case 5: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+case 4:
             var2 = function _isNativeReflectConstruct() {
                 var1 = _closure2_slot0;
                 var1 = !var1;
@@ -64,12 +64,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = function* (arg1) {
             var1 = function* anon_0_(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     StartGenerator();
                     var5 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0002_ip = 214; continue _fun0002 }
- 13:
+                    if(var2) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var3 = _closure1_slot11;
                     var2 = var3.getChannelId;
                     var6 = var2.bind(var3)();
@@ -87,8 +87,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = _closure1_slot10;
                     var2 = var7.isSelfMute;
                     var2 = var2.bind(var7)();
-                    if(!(var6 !== var2)) { _fun0002_ip = 144; continue _fun0002 }
- 94:
+                    if(!(var6 !== var2)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                     var6 = _closure1_slot1;
                     var7 = _closure1_slot2;
                     var2 = 16;
@@ -100,18 +100,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2['syncRemote'] = var8;
                     var2 = var6.bind(var7)(var2);
                     SaveGenerator(address=138);
- 136:
+case 10:
                     return var2;
- 138:
+case 11:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                    if(var6) { _fun0002_ip = 211; continue _fun0002 }
- 144:
+                    if(var6) { _fun0002_ip = 12; continue _fun0002 }
+case 8:
                     var6 = var5.selfDeaf;
                     var7 = _closure1_slot10;
                     var5 = var7.isSelfDeaf;
                     var5 = var5.bind(var7)();
-                    if(!(var6 !== var5)) { _fun0002_ip = 208; continue _fun0002 }
- 168:
+                    if(!(var6 !== var5)) { _fun0002_ip = 13; continue _fun0002 }
+case 14:
                     var5 = _closure1_slot1;
                     var6 = _closure1_slot2;
                     var4 = 16;
@@ -122,11 +122,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = false;
                     var4['syncRemote'] = var7;
                     var4 = var5.bind(var6)(var4);
- 208:
+case 13:
                     return var3;
- 211:
+case 12:
                     return var2;
- 214:
+case 6:
                     return var1;
                 }
             };
@@ -227,7 +227,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function(arg1) {
         var3 = function GameConsoleManager(arg1) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var6 = this;
                 var14 = 0;
                 var1 = copyRestArgs(var14);
@@ -245,12 +245,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = _closure1_slot5;
                 var1 = _closure1_slot19;
                 var1 = var1.bind(var5)();
-                if(var1) { _fun0003_ip = 86; continue _fun0003 }
- 73:
+                if(var1) { _fun0003_ip = 15; continue _fun0003 }
+case 16:
                 var1 = var10.apply;
                 var1 = var1.bind(var10)(var6, var11);
-                _fun0003_ip = 120; continue _fun0003;
- 86:
+                _fun0003_ip = 17; continue _fun0003;
+case 15:
                 var7 = global;
                 var9 = var7.Reflect;
                 var8 = var9.construct;
@@ -258,7 +258,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = var7.bind(var5)(var6);
                 var7 = var7.constructor;
                 var1 = var8.bind(var9)(var10, var11, var7);
- 120:
+case 17:
                 var1 = var4.bind(var5)(var6, var1);
                 var _closure3_slot0 = var1;
                 var4 = _closure1_slot0;
@@ -354,7 +354,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1['actions'] = var3;
                 var3 = function(arg1) {
                     _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                         var3 = function findRemoteSession(arg1) {
                             var3 = arg1;
                             var4 = _closure1_slot14;
@@ -364,7 +364,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var2 = var3.find;
                             var1 = function(arg1) {
                                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
                                     var4 = arg1;
                                     var3 = _closure1_slot15;
                                     var2 = var3.has;
@@ -382,8 +382,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                     var2 = var7 != var2;
                                     var3 = _closure5_slot0;
                                     var3 = var7 == var3;
-                                    if(var3) { _fun0005_ip = 146; continue _fun0005 }
- 88:
+                                    if(var3) { _fun0005_ip = 18; continue _fun0005 }
+case 19:
                                     var8 = _closure1_slot0;
                                     var7 = _closure1_slot2;
                                     var6 = 17;
@@ -397,15 +397,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                     var4 = var4.clientInfo;
                                     var4 = var4.os;
                                     var3 = var5 === var4;
- 146:
-                                    if(!var1) { _fun0005_ip = 152; continue _fun0005 }
- 149:
+case 18:
+                                    if(!var1) { _fun0005_ip = 20; continue _fun0005 }
+case 21:
                                     var1 = var3;
- 152:
-                                    if(!var1) { _fun0005_ip = 158; continue _fun0005 }
- 155:
+case 20:
+                                    if(!var1) { _fun0005_ip = 22; continue _fun0005 }
+case 23:
                                     var1 = var2;
- 158:
+case 22:
                                     return var1;
                                 }
                             };
@@ -416,8 +416,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var1 = arg1;
                         var4 = var3.bind(var2)(var1);
                         var1 = null;
-                        if(!(var1 != var4)) { _fun0004_ip = 139; continue _fun0004 }
- 25:
+                        if(!(var1 != var4)) { _fun0004_ip = 24; continue _fun0004 }
+case 25:
                         var3 = _closure3_slot0;
                         var5 = var3.awaitRemoteTimeout;
                         var3 = var5.stop;
@@ -437,31 +437,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var5 = var5.bind(var8)();
                         var4 = var4.sessionId;
                         var4 = var6.bind(var7)(var5, var4);
-                        if(!(var1 != var4)) { _fun0004_ip = 137; continue _fun0004 }
- 128:
+                        if(!(var1 != var4)) { _fun0004_ip = 26; continue _fun0004 }
+case 27:
                         var3 = _closure1_slot20;
                         var3 = var3.bind(var2)(var4);
- 137:
+case 26:
                         return var2;
- 139:
+case 24:
                         return var1;
                     }
                 };
                 var1['maybeConnect'] = var3;
                 var3 = function(arg1) {
                     _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
- 0:
+case 0:
                         var1 = arg1;
                         var3 = var1.syncRemote;
                         var5 = var1.context;
                         var1 = undefined;
                         var _closure4_slot0 = var1;
-                        if(!var3) { _fun0006_ip = 244; continue _fun0006 }
- 28:
+                        if(!var3) { _fun0006_ip = 28; continue _fun0006 }
+case 29:
                         var4 = _closure1_slot17;
                         var4 = var4.DEFAULT;
-                        if(!(var5 === var4)) { _fun0006_ip = 244; continue _fun0006 }
- 48:
+                        if(!(var5 === var4)) { _fun0006_ip = 28; continue _fun0006 }
+case 30:
                         var5 = _closure1_slot10;
                         var4 = var5.isSelfDeaf;
                         var8 = var4.bind(var5)();
@@ -475,23 +475,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var4 = var5.getRemoteSessionId;
                         var6 = var4.bind(var5)();
                         var4 = null;
-                        if(!(var4 != var6)) { _fun0006_ip = 244; continue _fun0006 }
- 113:
+                        if(!(var4 != var6)) { _fun0006_ip = 28; continue _fun0006 }
+case 31:
                         var9 = _closure1_slot13;
                         var5 = var9.getVoiceStateForSession;
                         var5 = var5.bind(var9)(var10, var6);
                         _closure4_slot0 = var5;
-                        if(!(var4 != var5)) { _fun0006_ip = 244; continue _fun0006 }
- 137:
+                        if(!(var4 != var5)) { _fun0006_ip = 28; continue _fun0006 }
+case 26:
                         var4 = var5.selfDeaf;
                         var4 = var4 === var8;
-                        if(!var4) { _fun0006_ip = 160; continue _fun0006 }
- 150:
+                        if(!var4) { _fun0006_ip = 32; continue _fun0006 }
+case 33:
                         var5 = var5.selfMute;
                         var4 = var5 === var7;
- 160:
-                        if(var4) { _fun0006_ip = 244; continue _fun0006 }
- 163:
+case 32:
+                        if(var4) { _fun0006_ip = 28; continue _fun0006 }
+case 34:
                         var4 = _closure1_slot0;
                         var5 = _closure1_slot2;
                         var3 = 19;
@@ -514,14 +514,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             return var1;
                         };
                         var2 = var4.bind(var5)(var3, var2);
- 244:
+case 28:
                         return var1;
                     }
                 };
                 var1['handleAudioStateToggle'] = var3;
                 var3 = function(arg1) {
                     _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
- 0:
+case 0:
                         var1 = arg1;
                         var4 = var1.voiceStates;
                         var5 = _closure1_slot14;
@@ -529,8 +529,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var5 = var3.bind(var5)();
                         var _closure4_slot0 = var5;
                         var3 = null;
-                        if(!(var3 != var5)) { _fun0007_ip = 98; continue _fun0007 }
- 38:
+                        if(!(var3 != var5)) { _fun0007_ip = 35; continue _fun0007 }
+case 36:
                         var6 = var4.find;
                         var5 = function(arg1) {
                             var1 = arg1;
@@ -540,8 +540,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             return var1;
                         };
                         var6 = var6.bind(var4)(var5);
-                        if(!(var3 != var6)) { _fun0007_ip = 94; continue _fun0007 }
- 60:
+                        if(!(var3 != var6)) { _fun0007_ip = 9; continue _fun0007 }
+case 37:
                         var3 = _closure3_slot0;
                         var5 = var3.rollbackCommandTimeout;
                         var3 = var5.stop;
@@ -549,24 +549,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var5 = _closure1_slot20;
                         var3 = undefined;
                         var3 = var5.bind(var3)(var6);
- 94:
+case 9:
                         var3 = undefined;
                         return var3;
- 98:
+case 35:
                         var3 = var4.map;
                         var2 = function(arg1) {
                             _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
- 0:
+case 0:
                                 var1 = arg1;
                                 var4 = var1.sessionId;
                                 var1 = null;
                                 var2 = var1 != var4;
-                                if(!var2) { _fun0008_ip = 36; continue _fun0008 }
- 18:
+                                if(!var2) { _fun0008_ip = 38; continue _fun0008 }
+case 39:
                                 var3 = _closure1_slot12;
                                 var2 = var3.getSessionById;
                                 var1 = var2.bind(var3)(var4);
- 36:
+case 38:
                                 return var1;
                             }
                         };
@@ -589,21 +589,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1['handleVoiceStateUpdates'] = var3;
                 var3 = function() {
                     _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
- 0:
+case 0:
                         var3 = _closure1_slot14;
                         var2 = var3.getRemoteSessionId;
                         var3 = var2.bind(var3)();
                         var2 = null;
                         var4 = var2 != var3;
-                        if(!var4) { _fun0009_ip = 45; continue _fun0009 }
- 26:
+                        if(!var4) { _fun0009_ip = 40; continue _fun0009 }
+case 41:
                         var6 = _closure1_slot12;
                         var5 = var6.getSessionById;
                         var5 = var5.bind(var6)(var3);
                         var4 = var2 == var5;
- 45:
-                        if(!var4) { _fun0009_ip = 80; continue _fun0009 }
- 48:
+case 40:
+                        if(!var4) { _fun0009_ip = 42; continue _fun0009 }
+case 30:
                         var6 = _closure1_slot0;
                         var5 = _closure1_slot2;
                         var4 = 19;
@@ -612,9 +612,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var5 = var6.bind(var4)(var5);
                         var4 = var5.disconnectRemote;
                         var4 = var4.bind(var5)();
- 80:
-                        if(!(var2 == var3)) { _fun0009_ip = 134; continue _fun0009 }
- 84:
+case 42:
+                        if(!(var2 == var3)) { _fun0009_ip = 43; continue _fun0009 }
+case 44:
                         var3 = _closure3_slot0;
                         var2 = var3.maybeConnect;
                         var4 = global;
@@ -625,7 +625,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var1 = var1.bind(var6)();
                         var1 = var4.bind(var5)(var1);
                         var1 = var2.bind(var3)(var1);
- 134:
+case 43:
                         var1 = undefined;
                         return var1;
                     }
@@ -682,21 +682,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1['handleWaitForRemoteSession'] = var3;
                 var3 = function(arg1) {
                     _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
- 0:
+case 0:
                         var1 = arg1;
                         var7 = var1.id;
                         var8 = var1.result;
                         var1 = var1.error;
                         var2 = 'failed';
                         var3 = var2 === var8;
-                        if(var3) { _fun0010_ip = 45; continue _fun0010 }
- 32:
+                        if(var3) { _fun0010_ip = 40; continue _fun0010 }
+case 45:
                         var2 = 'n/a';
-                        if(!(var2 === var8)) { _fun0010_ip = 523; continue _fun0010 }
- 45:
+                        if(!(var2 === var8)) { _fun0010_ip = 46; continue _fun0010 }
+case 40:
                         var5 = null;
-                        if(!(var5 != var1)) { _fun0010_ip = 523; continue _fun0010 }
- 54:
+                        if(!(var5 != var1)) { _fun0010_ip = 46; continue _fun0010 }
+case 47:
                         var9 = _closure1_slot18;
                         var6 = var9.info;
                         var4 = 'Console command Error result:';
@@ -707,30 +707,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var10 = var5 == var9;
                         var4 = undefined;
                         var6 = undefined;
-                        if(var10) { _fun0010_ip = 111; continue _fun0010 }
- 105:
+                        if(var10) { _fun0010_ip = 48; continue _fun0010 }
+case 49:
                         var6 = var9.commandId;
- 111:
-                        if(!(var6 === var7)) { _fun0010_ip = 523; continue _fun0010 }
- 118:
+case 48:
+                        if(!(var6 === var7)) { _fun0010_ip = 46; continue _fun0010 }
+case 50:
                         var11 = _closure1_slot14;
                         var10 = var11.getDevice;
                         var7 = var9.type;
                         var12 = var9.deviceId;
                         var13 = var5 != var12;
                         var6 = '';
-                        if(!var13) { _fun0010_ip = 153; continue _fun0010 }
- 150:
+                        if(!var13) { _fun0010_ip = 51; continue _fun0010 }
+case 33:
                         var6 = var12;
- 153:
+case 51:
                         var6 = var10.bind(var11)(var7, var6);
                         var10 = _closure1_slot1;
                         var11 = _closure1_slot2;
                         var7 = 23;
                         var7 = var11[var7];
                         var7 = var10.bind(var4)(var7);
-                        if(!(var5 == var6)) { _fun0010_ip = 307; continue _fun0010 }
- 186:
+                        if(!(var5 == var6)) { _fun0010_ip = 52; continue _fun0010 }
+case 53:
                         var10 = {};
                         var11 = 'id';
                         var10['id'] = var11;
@@ -758,10 +758,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var11 = var12.bind(var13)(var11);
                         var10['name'] = var11;
                         var6 = var10;
- 307:
+case 52:
                         var8 = var7.bind(var4)(var6, var8, var1);
-                        if(!(var5 != var8)) { _fun0010_ip = 401; continue _fun0010 }
- 318:
+                        if(!(var5 != var8)) { _fun0010_ip = 54; continue _fun0010 }
+case 55:
                         var6 = _closure1_slot1;
                         var7 = _closure1_slot2;
                         var5 = 24;
@@ -777,27 +777,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var5['errorCodeMessage'] = var10;
                         var10 = var8.isAccountLinkError;
                         var8 = undefined;
-                        if(!var10) { _fun0010_ip = 391; continue _fun0010 }
- 386:
+                        if(!var10) { _fun0010_ip = 56; continue _fun0010 }
+case 57:
                         var8 = var9.type;
- 391:
+case 56:
                         var5['reconnectPlatformType'] = var8;
                         var5 = var6.bind(var7)(var5);
- 401:
+case 54:
                         var6 = _closure1_slot16;
                         var5 = var6.has;
                         var1 = var1.code;
                         var1 = var5.bind(var6)(var1);
-                        if(!var1) { _fun0010_ip = 449; continue _fun0010 }
- 423:
+                        if(!var1) { _fun0010_ip = 58; continue _fun0010 }
+case 59:
                         var5 = _closure3_slot0;
                         var6 = var5.awaitRemoteTimeout;
                         var5 = var6.isStarted;
                         var5 = var5.bind(var6)();
-                        if(var5) { _fun0010_ip = 484; continue _fun0010 }
- 449:
-                        if(!var3) { _fun0010_ip = 523; continue _fun0010 }
- 452:
+                        if(var5) { _fun0010_ip = 60; continue _fun0010 }
+case 58:
+                        if(!var3) { _fun0010_ip = 46; continue _fun0010 }
+case 61:
                         var3 = _closure1_slot0;
                         var5 = _closure1_slot2;
                         var2 = 19;
@@ -805,8 +805,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var3 = var3.bind(var4)(var2);
                         var2 = var3.disconnectRemote;
                         var2 = var2.bind(var3)();
-                        _fun0010_ip = 523; continue _fun0010;
- 484:
+                        _fun0010_ip = 46; continue _fun0010;
+case 60:
                         var1 = _closure3_slot0;
                         var5 = var1.awaitRemoteTimeout;
                         var4 = var5.start;
@@ -824,7 +824,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         };
                         var1 = true;
                         var1 = var4.bind(var5)(var3, var2, var1);
- 523:
+case 46:
                         var1 = undefined;
                         return var1;
                     }

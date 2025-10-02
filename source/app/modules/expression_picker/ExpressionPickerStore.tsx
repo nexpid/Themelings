@@ -91,7 +91,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot5 = var6;
     var5 = function closeExpressionPicker(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var7 = arg1;
             var4 = _closure1_slot4;
             var1 = var4.getState;
@@ -99,17 +99,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot0 = var4;
             var1 = undefined;
             var5 = var1 !== var7;
-            if(!var5) { _fun0001_ip = 45; continue _fun0001 }
- 35:
+            if(!var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = var4.activeViewType;
             var5 = var7 !== var6;
- 45:
-            if(var5) { _fun0001_ip = 98; continue _fun0001 }
- 48:
+case 2:
+            if(var5) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = var4.activeView;
             var4 = null;
-            if(!(var4 !== var5)) { _fun0001_ip = 98; continue _fun0001 }
- 60:
+            if(!(var4 !== var5)) { _fun0001_ip = 4; continue _fun0001 }
+case 6:
             var4 = _closure1_slot0;
             var5 = _closure1_slot1;
             var3 = 4;
@@ -127,7 +127,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var2 = var3.bind(var4)(var2);
- 98:
+case 4:
             return var1;
         }
     };
@@ -142,30 +142,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['closeExpressionPicker'] = var5;
     var5 = function(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var3 = _closure1_slot4;
             var2 = var3.getState;
             var3 = var2.bind(var3)();
             var4 = var3.activeView;
             var2 = null;
-            if(!(var2 != var4)) { _fun0002_ip = 41; continue _fun0002 }
- 29:
+            if(!(var2 != var4)) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
             var5 = _closure1_slot6;
             var4 = undefined;
             var4 = var5.bind(var4)();
-            _fun0002_ip = 76; continue _fun0002;
- 41:
+            _fun0002_ip = 9; continue _fun0002;
+case 7:
             var4 = _closure1_slot5;
             var3 = var3.lastActiveView;
-            if(!(var2 == var3)) { _fun0002_ip = 65; continue _fun0002 }
- 55:
+            if(!(var2 == var3)) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
             var1 = _closure1_slot2;
             var3 = var1.EMOJI;
- 65:
+case 10:
             var2 = undefined;
             var1 = arg1;
             var1 = var4.bind(var2)(var3, var1);
- 76:
+case 9:
             var1 = undefined;
             return var1;
         }
@@ -173,24 +173,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['toggleMultiExpressionPicker'] = var5;
     var5 = function(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var5 = arg1;
             var3 = _closure1_slot4;
             var2 = var3.getState;
             var2 = var2.bind(var3)();
             var2 = var2.activeView;
-            if(!(var2 !== var5)) { _fun0003_ip = 47; continue _fun0003 }
- 30:
+            if(!(var2 !== var5)) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
             var4 = _closure1_slot5;
             var3 = undefined;
             var2 = arg2;
             var2 = var4.bind(var3)(var5, var2);
-            _fun0003_ip = 57; continue _fun0003;
- 47:
+            _fun0003_ip = 14; continue _fun0003;
+case 12:
             var2 = _closure1_slot6;
             var1 = undefined;
             var1 = var2.bind(var1)();
- 57:
+case 14:
             var1 = undefined;
             return var1;
         }
@@ -225,15 +225,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['setExpressionPickerView'] = var5;
     var4 = function(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var3 = arguments[1];
             var1 = arg1;
             var _closure2_slot0 = var1;
             var1 = undefined;
-            if(!(var3 === var1)) { _fun0004_ip = 20; continue _fun0004 }
- 18:
+            if(!(var3 === var1)) { _fun0004_ip = 15; continue _fun0004 }
+case 16:
             var3 = false;
- 20:
+case 15:
             var _closure2_slot1 = var3;
             var4 = _closure1_slot0;
             var5 = _closure1_slot1;

@@ -44,7 +44,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function ForumPostMessageContent(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var10 = var1.messageContent;
             var14 = var1.message;
@@ -54,10 +54,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var1.textStyle;
             var6 = var1.lineClamp;
             var4 = undefined;
-            if(!(var6 === var4)) { _fun0001_ip = 53; continue _fun0001 }
- 50:
+            if(!(var6 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = 2;
- 53:
+case 2:
             var5 = var1.senderModifier;
             var2 = _closure1_slot4;
             var7 = var2.bind(var4)();
@@ -85,10 +85,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = {};
             var1['variant'] = var10;
             var10 = 'text-muted';
-            if(!var11) { _fun0001_ip = 182; continue _fun0001 }
- 176:
+            if(!var11) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var10 = 'text-normal';
- 182:
+case 4:
             var1['color'] = var10;
             var1['lineClamp'] = var6;
             var6 = 'tail';

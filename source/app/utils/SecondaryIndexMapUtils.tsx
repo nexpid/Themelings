@@ -20,7 +20,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var4.bind(var5)(var2);
     var2 = function isVersionEqual(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arg1;
             var2 = var5[Symbol.iterator];
             var5 = var2().next;
@@ -31,28 +31,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var2;
             var9 = var9 === var12;
             var3 = var9;
-            if(var9) { _fun0001_ip = 32; continue _fun0001 }
- 29:
+            if(var9) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = var6;
- 32:
+case 2:
             var4 = undefined;
             var6 = var3;
-            if(var6) { _fun0001_ip = 60; continue _fun0001 }
- 40:
+            if(var6) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = var5().value;
             var6 = var2;
             var6 = var6 === var12;
             var3 = var6;
-            if(var6) { _fun0001_ip = 60; continue _fun0001 }
- 57:
+            if(var6) { _fun0001_ip = 4; continue _fun0001 }
+case 6:
             var4 = var5;
- 60:
+case 4:
             var8 = var4;
             var4 = var3;
-            if(var4) { _fun0001_ip = 72; continue _fun0001 }
- 69:
+            if(var4) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var2.return();
- 72:
+case 7:
             var10 = arg2;
             var5 = var10[Symbol.iterator];
             var10 = var5().next;
@@ -62,43 +62,43 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var5;
             var13 = var13 === var12;
             var6 = var13;
-            if(var13) { _fun0001_ip = 102; continue _fun0001 }
- 99:
+            if(var13) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var9 = var11;
- 102:
+case 9:
             var9 = undefined;
             var11 = var6;
-            if(var11) { _fun0001_ip = 130; continue _fun0001 }
- 110:
+            if(var11) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var10 = var10().value;
             var11 = var5;
             var11 = var11 === var12;
             var6 = var11;
-            if(var11) { _fun0001_ip = 130; continue _fun0001 }
- 127:
+            if(var11) { _fun0001_ip = 11; continue _fun0001 }
+case 13:
             var9 = var10;
- 130:
+case 11:
             var7 = var9;
             var9 = var6;
-            if(var9) { _fun0001_ip = 142; continue _fun0001 }
- 139:
+            if(var9) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var5.return();
- 142:
+case 14:
             var7 = var8 === var7;
             return var7;
- 148:
+case 16:
             CatchBlockStart(arg_register=3);
-            if(var6) { _fun0001_ip = 156; continue _fun0001 }
- 153:
+            if(var6) { _fun0001_ip = 17; continue _fun0001 }
+case 18:
             var5.return();
- 156:
+case 17:
             throw var4;
- 158:
+case 19:
             CatchBlockStart(arg_register=0);
-            if(var3) { _fun0001_ip = 166; continue _fun0001 }
- 163:
+            if(var3) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
             var2.return();
- 166:
+case 20:
             throw var1;
         }
     };

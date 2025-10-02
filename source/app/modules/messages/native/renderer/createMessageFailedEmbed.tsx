@@ -34,14 +34,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function createMessageFailedEmbed(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var4 = var1.uploaderFile;
             var2 = var1.useAttachmentUploadPreview;
             var5 = var1.colors;
             var1 = null;
-            if(!(var1 == var4)) { _fun0001_ip = 145; continue _fun0001 }
- 26:
+            if(!(var1 == var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = {};
             var6 = _closure1_slot4;
             var6 = var6.TEXT;
@@ -67,10 +67,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['disableBackgroundColor'] = var3;
             var3 = var5.failedMessageBodyTextColor;
             var1['bodyTextColor'] = var3;
-            _fun0001_ip = 533; continue _fun0001;
- 145:
-            if(var2) { _fun0001_ip = 369; continue _fun0001 }
- 151:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
+            if(var2) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var2 = {};
             var3 = _closure1_slot4;
             var3 = var3.TEXT;
@@ -98,8 +98,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var4.currentSize;
             var3 = '';
             var7 = 0;
-            if(!(var7 !== var9)) { _fun0001_ip = 343; continue _fun0001 }
- 277:
+            if(!(var7 !== var9)) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var7 = _closure1_slot0;
             var9 = _closure1_slot2;
             var6 = 6;
@@ -114,13 +114,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = ' (';
             var4 = ')';
             var3 = var7.bind(var6)(var8, var4);
- 343:
+case 7:
             var3 = '' + var3;
             var2['attachmentsSize'] = var3;
             var3 = var5.embedBodyTextColor;
             var2['bodyTextColor'] = var3;
-            _fun0001_ip = 530; continue _fun0001;
- 369:
+            _fun0001_ip = 9; continue _fun0001;
+case 5:
             var3 = {};
             var6 = _closure1_slot4;
             var6 = var6.TEXT;
@@ -157,9 +157,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var5.bind(var6)(var4);
             var3['iconURL'] = var4;
             var2 = var3;
- 530:
+case 9:
             var1 = var2;
- 533:
+case 4:
             return var1;
         }
     };

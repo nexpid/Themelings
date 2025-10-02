@@ -1,7 +1,7 @@
 // app/modules/premium/sounds/soundmoji/native/views/SoundmojiActionSheet.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
         var5 = require;
         var11 = metroImportDefault;
         var3 = exports;
@@ -63,10 +63,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var12 = var14.isIOS;
         var14 = var12.bind(var14)();
         var12 = undefined;
-        if(!var14) { _fun0001_ip = 270; continue _fun0001 }
- 267:
+        if(!var14) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
         var12 = var13;
- 270:
+case 2:
         var9['fontSize'] = var12;
         var12 = var6[var10];
         var12 = var11.bind(var1)(var12);
@@ -91,7 +91,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var5.bind(var6)(var4);
         var2 = function SoundmojiActionSheet(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var2 = arg1;
                 var9 = var2.guildId;
                 var _closure2_slot0 = var9;
@@ -132,8 +132,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var15 = null;
                 var2 = var15 == var17;
                 var1 = null;
-                if(var2) { _fun0002_ip = 523; continue _fun0002 }
- 111:
+                if(var2) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                 var4 = _closure1_slot5;
                 var3 = _closure1_slot0;
                 var6 = _closure1_slot2;
@@ -153,13 +153,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6['style'] = var9;
                 var9 = var17.emojiId;
                 var10 = var15 != var9;
-                if(var10) { _fun0002_ip = 203; continue _fun0002 }
- 193:
+                if(var10) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                 var9 = var17.emojiName;
                 var10 = var15 != var9;
- 203:
-                if(!var10) { _fun0002_ip = 308; continue _fun0002 }
- 206:
+case 6:
+                if(!var10) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                 var12 = _closure1_slot5;
                 var18 = _closure1_slot1;
                 var19 = _closure1_slot2;
@@ -180,13 +180,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var16 = var17.emojiName;
                 var18 = var15 != var16;
                 var15 = '';
-                if(!var18) { _fun0002_ip = 298; continue _fun0002 }
- 295:
+                if(!var18) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
                 var15 = var16;
- 298:
+case 10:
                 var9['name'] = var15;
                 var10 = var12.bind(var5)(var11, var9);
- 308:
+case 8:
                 var9 = new Array(2);
                 var9[0] = var10;
                 var12 = _closure1_slot6;
@@ -235,7 +235,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var8.bind(var5)(var7, var6);
                 var2['children'] = var6;
                 var1 = var4.bind(var5)(var3, var2);
- 523:
+case 4:
                 return var1;
             }
         };

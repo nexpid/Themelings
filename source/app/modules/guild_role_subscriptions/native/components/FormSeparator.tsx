@@ -58,7 +58,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function FormSeparator(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var7 = var1.style;
             var10 = var1.withoutMargins;
@@ -72,10 +72,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = new Array(3);
             var6[0] = var9;
             var9 = undefined;
-            if(var10) { _fun0001_ip = 61; continue _fun0001 }
- 55:
+            if(var10) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var9 = var8.margins;
- 61:
+case 2:
             var6[1] = var9;
             var6[2] = var7;
             var1['style'] = var6;

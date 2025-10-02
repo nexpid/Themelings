@@ -55,27 +55,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var5;
         var2 = function value(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var4 = arg1;
                 var1 = this;
                 var3 = var1.session;
                 var2 = null;
-                if(!(var2 == var3)) { _fun0001_ip = 38; continue _fun0001 }
- 18:
+                if(!(var2 == var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var3 = _closure1_slot4;
                 var2 = undefined;
                 var2 = var3.bind(var2)(var4);
                 var1['session'] = var2;
- 38:
+case 2:
                 var2 = var1.session;
                 var2 = var2.channelId;
-                if(!(var2 !== var4)) { _fun0001_ip = 73; continue _fun0001 }
- 53:
+                if(!(var2 !== var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var3 = _closure1_slot4;
                 var2 = undefined;
                 var2 = var3.bind(var2)(var4);
                 var1['session'] = var2;
- 73:
+case 4:
                 var1 = var1.session;
                 var1 = var1.sessionId;
                 return var1;

@@ -47,16 +47,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure3_slot0 = var2;
             var1 = function() {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     var3 = _closure3_slot0;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0001_ip = 35; continue _fun0001 }
- 13:
+                    if(!(var2 != var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var4 = _closure2_slot5;
                     var3 = var4.remove;
                     var1 = _closure3_slot0;
                     var1 = var3.bind(var4)(var1);
- 35:
+case 2:
                     var1 = _closure2_slot0;
                     var1['current'] = var2;
                     var1 = undefined;
@@ -83,16 +83,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = function* (arg1) {
                     var1 = function* anon_0_(arg1) {
                         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(var2) { _fun0002_ip = 233; continue _fun0002 }
- 10:
+                            if(var2) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                             var8 = arg1;
                             var2 = undefined;
                             var4 = undefined;
                             var5 = undefined;
- 19: // try_start_0
+case 6: // try_start_0
                             var9 = _closure1_slot0;
                             var10 = _closure1_slot1;
                             var3 = 9;
@@ -116,12 +116,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var3[1] = var11;
                             var3 = var9.bind(var10)(var3);
                             SaveGenerator(address=134);
- 132:
+case 7:
                             return var3;
- 134:
+case 8:
                             ResumeGenerator(result_out_reg=2, return_bool_out_reg=8);
-                            if(var9) { _fun0002_ip = 225; continue _fun0002 }
- 140:
+                            if(var9) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
                             var9 = _closure1_slot2;
                             var7 = 2;
                             var9 = var9.bind(var2)(var3, var7);
@@ -134,27 +134,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var9 = null;
                             var9 = var9 != var10;
                             var7 = var9;
-                            if(!var9) { _fun0002_ip = 200; continue _fun0002 }
- 187:
+                            if(!var9) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
                             var9 = _closure2_slot6;
                             var9 = var9.current;
                             var7 = var9 === var8;
- 200:
-                            if(!var7) { _fun0002_ip = 223; continue _fun0002 }
- 203:
+case 11:
+                            if(!var7) { _fun0002_ip = 13; continue _fun0002 }
+case 14:
                             var7 = _closure2_slot2;
                             var6 = _closure2_slot0;
                             var6 = var6.current;
                             var4 = var7.bind(var2)(var6, var5, var4);
- 223: // try_end0
-                            _fun0002_ip = 230; continue _fun0002;
- 225:
+case 13: // try_end0
+                            _fun0002_ip = 15; continue _fun0002;
+case 9:
                             return var3;
- 228: // catch_target0
+case 16: // catch_target0
                             CatchBlockStart(arg_register=2);
- 230:
+case 15:
                             return var2;
- 233:
+case 4:
                             return var1;
                         }
                     };
@@ -200,28 +200,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3[3] = var6;
         var2 = function() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var2 = _closure2_slot4;
                 var3 = var2.current;
                 var2 = _closure2_slot3;
                 var3 = var3 !== var2;
-                if(!var3) { _fun0003_ip = 76; continue _fun0003 }
- 23:
+                if(!var3) { _fun0003_ip = 17; continue _fun0003 }
+case 18:
                 var2 = _closure2_slot0;
                 var4 = var2.current;
                 var2 = null;
-                if(!(var2 != var4)) { _fun0003_ip = 62; continue _fun0003 }
- 38:
+                if(!(var2 != var4)) { _fun0003_ip = 19; continue _fun0003 }
+case 20:
                 var5 = _closure2_slot5;
                 var4 = var5.remove;
                 var2 = _closure2_slot0;
                 var2 = var2.current;
                 var2 = var4.bind(var5)(var2);
- 62:
+case 19:
                 var4 = _closure2_slot4;
                 var2 = _closure2_slot3;
                 var4['current'] = var2;
- 76:
+case 17:
                 var2 = _closure2_slot7;
                 var1 = undefined;
                 var2 = var2.bind(var1)(var3);
@@ -294,7 +294,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var3.bind(var4)(var2);
         var3 = function useAddTooltip(arg1) {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                 var5 = arg1;
                 var _closure3_slot0 = var5;
                 var6 = _closure1_slot4;
@@ -309,13 +309,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var4.bind(var6)(var3);
                 var _closure3_slot1 = var6;
                 var3 = null;
-                if(!(var3 == var6)) { _fun0004_ip = 85; continue _fun0004 }
- 65:
+                if(!(var3 == var6)) { _fun0004_ip = 21; continue _fun0004 }
+case 22:
                 var7 = _closure1_slot7;
                 var4 = var7.warn;
                 var3 = 'Tooltip called with no layer context. It will not show without a LayerScope.';
                 var3 = var4.bind(var7)(var3);
- 85:
+case 21:
                 var4 = _closure1_slot4;
                 var3 = var4.useCallback;
                 var2 = new Array(2);

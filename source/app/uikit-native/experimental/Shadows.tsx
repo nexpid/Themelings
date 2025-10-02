@@ -22,7 +22,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var8 = var1.xOffset;
             var7 = var1.yOffset;
@@ -40,8 +40,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2.isAndroid;
             var1 = var1.bind(var2)();
             var2 = {};
-            if(var1) { _fun0001_ip = 115; continue _fun0001 }
- 83:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = {};
             var1['shadowColor'] = var9;
             var2['width'] = var8;
@@ -49,12 +49,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['shadowOffset'] = var2;
             var1['shadowOpacity'] = var6;
             var1['shadowRadius'] = var5;
-            _fun0001_ip = 128; continue _fun0001;
- 115:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var2['elevation'] = var4;
             var2['shadowColor'] = var3;
             var1 = var2;
- 128:
+case 4:
             return var1;
         }
     };

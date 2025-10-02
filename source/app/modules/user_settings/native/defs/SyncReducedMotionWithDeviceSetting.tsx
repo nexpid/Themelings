@@ -73,7 +73,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['useValue'] = var7;
     var4 = function onReducedMotionSyncSettingValueChange(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = _closure1_slot2;
             var5 = var2.systemPrefersReducedMotion;
             var3 = _closure1_slot0;
@@ -85,10 +85,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.setPrefersReducedMotion;
             var2 = 'auto';
             var6 = arg1;
-            if(var6) { _fun0001_ip = 54; continue _fun0001 }
- 51:
+            if(var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var5;
- 54:
+case 2:
             var2 = var3.bind(var4)(var2);
             return var1;
         }

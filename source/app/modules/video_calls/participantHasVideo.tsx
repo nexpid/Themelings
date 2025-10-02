@@ -8,94 +8,94 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var8;
     var5 = function participantHasVideo(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var4 = var3.type;
             var1 = _closure1_slot4;
             var1 = var1.ACTIVITY;
             var1 = var4 !== var1;
-            if(!var1) { _fun0001_ip = 92; continue _fun0001 }
- 28:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = _closure1_slot5;
             var4 = undefined;
             var2 = var2.bind(var4)(var3);
-            if(var2) { _fun0001_ip = 77; continue _fun0001 }
- 42:
+            if(var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = var3.voiceState;
             var2 = null;
             var6 = var2 == var5;
             var4 = undefined;
-            if(var6) { _fun0001_ip = 65; continue _fun0001 }
- 59:
+            if(var6) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var4 = var5.selfVideo;
- 65:
+case 6:
             var2 = var2 != var4;
-            if(!var2) { _fun0001_ip = 75; continue _fun0001 }
- 72:
+            if(!var2) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var2 = var4;
- 75:
-            _fun0001_ip = 89; continue _fun0001;
- 77:
+case 8:
+            _fun0001_ip = 10; continue _fun0001;
+case 4:
             var4 = var3.streamId;
             var3 = null;
             var2 = var3 != var4;
- 89:
+case 10:
             var1 = var2;
- 92:
+case 2:
             return var1;
         }
     };
     var _closure1_slot7 = var5;
     var4 = function canRenderParticipantVideo(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var5 = arg1;
             var7 = arguments[1];
             var6 = undefined;
-            if(!(var7 === var6)) { _fun0002_ip = 19; continue _fun0002 }
- 12:
+            if(!(var7 === var6)) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
             var7 = _closure1_slot3;
- 19:
+case 11:
             var1 = null;
             var1 = var1 != var5;
-            if(!var1) { _fun0002_ip = 138; continue _fun0002 }
- 28:
+            if(!var1) { _fun0002_ip = 13; continue _fun0002 }
+case 3:
             var2 = _closure1_slot7;
             var2 = var2.bind(var6)(var5);
             var3 = !var2;
             var2 = !var3;
-            if(var3) { _fun0002_ip = 135; continue _fun0002 }
- 49:
+            if(var3) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
             var3 = _closure1_slot5;
             var3 = var3.bind(var6)(var5);
             var3 = !var3;
-            if(var3) { _fun0002_ip = 92; continue _fun0002 }
- 64:
+            if(var3) { _fun0002_ip = 2; continue _fun0002 }
+case 16:
             var8 = var5.user;
             var9 = var8.id;
             var10 = _closure1_slot2;
             var8 = var10.getId;
             var8 = var8.bind(var10)();
             var3 = var9 !== var8;
- 92:
-            if(!var3) { _fun0002_ip = 132; continue _fun0002 }
- 95:
+case 2:
+            if(!var3) { _fun0002_ip = 17; continue _fun0002 }
+case 18:
             var4 = _closure1_slot6;
             var4 = var4.bind(var6)(var5);
             var4 = !var4;
-            if(var4) { _fun0002_ip = 129; continue _fun0002 }
- 110:
+            if(var4) { _fun0002_ip = 19; continue _fun0002 }
+case 20:
             var6 = var7.isLocalVideoDisabled;
             var5 = var5.id;
             var5 = var6.bind(var7)(var5);
             var4 = !var5;
- 129:
+case 19:
             var3 = var4;
- 132:
+case 17:
             var2 = var3;
- 135:
+case 14:
             var1 = var2;
- 138:
+case 13:
             return var1;
         }
     };

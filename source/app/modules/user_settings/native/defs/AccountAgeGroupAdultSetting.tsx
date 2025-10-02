@@ -63,7 +63,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['useTrailing'] = var7;
     var4 = function useAccountAgeGroupAdultSettingPredicate() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = _closure1_slot0;
             var6 = _closure1_slot1;
             var1 = 2;
@@ -82,14 +82,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var5.useIsEligibleForSettingsDefaultsAggregate;
             var1 = 'explicit_media_redaction_utils';
             var1 = var4.bind(var5)(var1);
-            if(!var1) { _fun0001_ip = 89; continue _fun0001 }
- 86:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var3;
- 89:
-            if(!var1) { _fun0001_ip = 95; continue _fun0001 }
- 92:
+case 2:
+            if(!var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = !var2;
- 95:
+case 4:
             return var1;
         }
     };

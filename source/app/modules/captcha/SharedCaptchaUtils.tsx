@@ -6,8 +6,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = dependencyMap;
     var1 = function _isNativeReflectConstruct() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
- 2: // try_start_0
+case 0:
+case 2: // try_start_0
             var2 = global;
             var3 = var2.Boolean;
             var3 = var3.prototype;
@@ -25,11 +25,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var4)(var2);
             var2 = !var2;
             var _closure2_slot0 = var2;
- 70: // try_end0
-            _fun0001_ip = 74; continue _fun0001;
- 72: // catch_target0
+case 3: // try_end0
+            _fun0001_ip = 4; continue _fun0001;
+case 5: // catch_target0
             CatchBlockStart(arg_register=1);
- 74:
+case 4:
             var2 = function _isNativeReflectConstruct() {
                 var1 = _closure2_slot0;
                 var1 = !var1;
@@ -101,7 +101,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function(arg1) {
         var3 = function CaptchaCancelError() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var4 = this;
                 var1 = _closure1_slot1;
                 var2 = _closure2_slot0;
@@ -113,12 +113,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = _closure1_slot2;
                 var1 = _closure1_slot9;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0002_ip = 72; continue _fun0002 }
- 59:
+                if(var1) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
                 var1 = var8.apply;
                 var1 = var1.bind(var8)(var4, var9);
-                _fun0002_ip = 106; continue _fun0002;
- 72:
+                _fun0002_ip = 7; continue _fun0002;
+case 5:
                 var6 = global;
                 var7 = var6.Reflect;
                 var6 = var7.construct;
@@ -126,7 +126,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var5.bind(var3)(var4);
                 var5 = var5.constructor;
                 var1 = var6.bind(var7)(var8, var9, var5);
- 106:
+case 7:
                 var1 = var2.bind(var3)(var4, var1);
                 return var1;
             }
@@ -150,7 +150,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['CaptchaError'] = var5;
     var5 = function extractCaptchaPropsFromResponse(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var3 = arg1;
             var1 = {};
             var2 = var3.captcha_service;
@@ -167,10 +167,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var3.should_serve_invisible;
             var4 = null;
             var4 = var4 != var5;
-            if(!var4) { _fun0003_ip = 86; continue _fun0003 }
- 83:
+            if(!var4) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
             var4 = var5;
- 86:
+case 8:
             var2['serveInvisible'] = var4;
             var3 = var3.user_flow;
             var2['userflow'] = var3;
@@ -181,12 +181,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['extractCaptchaPropsFromResponse'] = var5;
     var4 = function emitCaptchaDistributionMetric(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var3 = _closure1_slot7;
             var1 = undefined;
             var3 = var3.bind(var1)();
-            if(!var3) { _fun0004_ip = 41; continue _fun0004 }
- 16:
+            if(!var3) { _fun0004_ip = 10; continue _fun0004 }
+case 11:
             var3 = global;
             var5 = var3.setTimeout;
             var4 = _closure1_slot8;
@@ -197,7 +197,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var3 = var5.bind(var1)(var3, var4);
- 41:
+case 10:
             var3 = _closure1_slot5;
             var2 = arg1;
             var2 = var3.bind(var1)(var2);

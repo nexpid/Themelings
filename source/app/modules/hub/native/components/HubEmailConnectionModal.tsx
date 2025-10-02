@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function getScreens(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arg1;
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
@@ -18,15 +18,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = undefined;
             var3 = var3.bind(var10)(var1);
             var1 = arg2;
-            if(var1) { _fun0001_ip = 49; continue _fun0001 }
- 36:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var3.getHeaderCloseButton;
             var7 = var1.bind(var3)(var5);
-            _fun0001_ip = 60; continue _fun0001;
- 49:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var1 = var3.getHeaderBackButton;
             var7 = var1.bind(var3)(var5);
- 60:
+case 4:
             var1 = {};
             var3 = _closure1_slot4;
             var5 = var3.STUDENT_PROMPT;
@@ -314,28 +314,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var5.bind(var4)(var3);
         var2 = function() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var6 = function handleClose() {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                         var5 = arguments[0];
                         var1 = undefined;
-                        if(!(var5 === var1)) { _fun0003_ip = 11; continue _fun0003 }
- 9:
+                        if(!(var5 === var1)) { _fun0003_ip = 5; continue _fun0003 }
+case 6:
                         var5 = false;
- 11:
+case 5:
                         var4 = _closure2_slot1;
                         var3 = null;
-                        if(!(var3 != var4)) { _fun0003_ip = 39; continue _fun0003 }
- 24:
+                        if(!(var3 != var4)) { _fun0003_ip = 7; continue _fun0003 }
+case 8:
                         var4 = _closure2_slot1;
                         var3 = true;
                         var3 = var3 === var5;
                         var3 = var4.bind(var1)(var3);
- 39:
+case 7:
                         var3 = _closure2_slot0;
-                        if(var3) { _fun0003_ip = 81; continue _fun0003 }
- 46:
+                        if(var3) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
                         var4 = _closure1_slot1;
                         var5 = _closure1_slot2;
                         var3 = 18;
@@ -343,12 +343,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var4 = var4.bind(var1)(var3);
                         var3 = var4.close;
                         var3 = var3.bind(var4)();
-                        _fun0003_ip = 95; continue _fun0003;
- 81:
+                        _fun0003_ip = 11; continue _fun0003;
+case 9:
                         var3 = _closure2_slot4;
                         var2 = var3.goBack;
                         var2 = var2.bind(var3)();
- 95:
+case 11:
                         return var1;
                     }
                 };
@@ -357,8 +357,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var2.push;
                 var1 = {};
                 var7 = _closure1_slot4;
-                if(var8) { _fun0002_ip = 75; continue _fun0002 }
- 37:
+                if(var8) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
                 var8 = var7.VERIFY_EMAIL;
                 var1['name'] = var8;
                 var8 = {};
@@ -367,15 +367,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8['onClose'] = var6;
                 var1['params'] = var8;
                 var8 = var5.bind(var2)(var1);
-                _fun0002_ip = 102; continue _fun0002;
- 75:
+                _fun0002_ip = 14; continue _fun0002;
+case 12:
                 var7 = var7.STUDENT_PROMPT;
                 var1['name'] = var7;
                 var7 = {};
                 var7['onClose'] = var6;
                 var1['params'] = var7;
                 var1 = var5.bind(var2)(var1);
- 102:
+case 14:
                 var1 = {};
                 var5 = _closure1_slot7;
                 var4 = _closure2_slot0;

@@ -1,7 +1,7 @@
 // app/stores/billing/BraintreeStore.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
         var5 = require;
         var7 = metroImportDefault;
         var3 = exports;
@@ -10,8 +10,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure1_slot1 = var6;
         var1 = function _isNativeReflectConstruct() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
- 2: // try_start_0
+case 0:
+case 2: // try_start_0
                 var2 = global;
                 var3 = var2.Boolean;
                 var3 = var3.prototype;
@@ -29,11 +29,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var3.bind(var4)(var2);
                 var2 = !var2;
                 var _closure2_slot0 = var2;
- 70: // try_end0
-                _fun0002_ip = 74; continue _fun0002;
- 72: // catch_target0
+case 3: // try_end0
+                _fun0002_ip = 4; continue _fun0002;
+case 5: // catch_target0
                 CatchBlockStart(arg_register=1);
- 74:
+case 4:
                 var2 = function _isNativeReflectConstruct() {
                     var1 = _closure2_slot0;
                     var1 = !var1;
@@ -94,17 +94,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = var5.bind(var1)(var8);
         var8 = var9.isDesktop;
         var8 = var8.bind(var9)();
-        if(!var8) { _fun0001_ip = 259; continue _fun0001 }
- 225:
+        if(!var8) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
         var8 = var2.window;
         var2 = {};
         var9 = function getReturnUrlPrefix() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var3 = _closure1_slot10;
                 var2 = null;
-                if(!(var2 != var3)) { _fun0003_ip = 81; continue _fun0003 }
- 13:
+                if(!(var2 != var3)) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot1;
                 var2 = 7;
@@ -121,7 +121,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var4.bind(var5)(var3, var1);
                 var1 = var2 + var1;
                 return var1;
- 81:
+case 8:
                 var1 = global;
                 var3 = var1.Error;
                 var1 = var3.prototype;
@@ -149,7 +149,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         };
         var2['open'] = var9;
         var8['popupBridge'] = var2;
- 259:
+case 6:
         var2 = 8;
         var2 = var6[var2];
         var2 = var7.bind(var1)(var2);
@@ -157,7 +157,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = function(arg1) {
             var4 = function BraintreeStore() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                     var4 = this;
                     var3 = undefined;
                     var5 = undefined;
@@ -169,14 +169,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = _closure1_slot4;
                     var1 = _closure1_slot16;
                     var1 = var1.bind(var3)();
-                    if(var1) { _fun0004_ip = 69; continue _fun0004 }
- 51:
+                    if(var1) { _fun0004_ip = 10; continue _fun0004 }
+case 11:
                     var7 = var9.apply;
                     var5 = arguments;
                     var1 = var5;
                     var1 = var7.bind(var9)(var4, var1);
-                    _fun0004_ip = 105; continue _fun0004;
- 69:
+                    _fun0004_ip = 12; continue _fun0004;
+case 10:
                     var7 = global;
                     var8 = var7.Reflect;
                     var7 = var8.construct;
@@ -185,7 +185,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = var6.constructor;
                     var5 = arguments;
                     var1 = var7.bind(var8)(var9, var5, var6);
- 105:
+case 12:
                     var1 = var2.bind(var3)(var4, var1);
                     return var1;
                 }
@@ -261,7 +261,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2['BRAINTREE_CREATE_PAYPAL_CLIENT_SUCCESS'] = var7;
         var7 = function handleBillingPopupBridgeCallback(arg1) {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var6 = var1.paymentSourceType;
                 var4 = var1.state;
@@ -269,26 +269,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var1.query;
                 var5 = _closure1_slot9;
                 var5 = var5.PAYPAL;
-                if(!(var6 === var5)) { _fun0005_ip = 104; continue _fun0005 }
- 43:
+                if(!(var6 === var5)) { _fun0005_ip = 13; continue _fun0005 }
+case 14:
                 var3 = _closure1_slot10;
-                if(!(var4 === var3)) { _fun0005_ip = 104; continue _fun0005 }
- 51:
+                if(!(var4 === var3)) { _fun0005_ip = 13; continue _fun0005 }
+case 11:
                 var3 = global;
                 var3 = var3.window;
                 var3 = var3.popupBridge;
                 var4 = var3.onComplete;
                 var5 = 'function';
                 var3 = typeof var4;
-                if(!(var5 === var3)) { _fun0005_ip = 104; continue _fun0005 }
- 82:
+                if(!(var5 === var3)) { _fun0005_ip = 13; continue _fun0005 }
+case 15:
                 var3 = {};
                 var3['path'] = var2;
                 var3['queryItems'] = var1;
                 var2 = undefined;
                 var1 = null;
                 var1 = var4.bind(var2)(var1, var3);
- 104:
+case 13:
                 var1 = undefined;
                 return var1;
             }
@@ -296,16 +296,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2['BILLING_POPUP_BRIDGE_CALLBACK'] = var7;
         var7 = function handleBillingPopupBridgeStateUpdate(arg1) {
             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var4 = var1.paymentSourceType;
                 var2 = var1.state;
                 var3 = _closure1_slot9;
                 var3 = var3.PAYPAL;
-                if(!(var4 === var3)) { _fun0006_ip = 35; continue _fun0006 }
- 31:
+                if(!(var4 === var3)) { _fun0006_ip = 16; continue _fun0006 }
+case 17:
                 var _closure1_slot10 = var2;
- 35:
+case 16:
                 var1 = undefined;
                 return var1;
             }

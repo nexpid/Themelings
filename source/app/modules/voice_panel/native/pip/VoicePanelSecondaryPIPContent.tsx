@@ -66,7 +66,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function VoicePanelSecondaryPIPContent() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var16 = _closure1_slot3;
             var3 = var16.useContext;
             var17 = _closure1_slot1;
@@ -96,7 +96,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[0] = var1;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = _closure1_slot4;
                     var1 = var3.getConnectedActivityLocation;
                     var9 = var1.bind(var3)();
@@ -106,10 +106,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var4 == var5;
                     var3 = undefined;
                     var6 = undefined;
-                    if(var1) { _fun0002_ip = 46; continue _fun0002 }
- 41:
+                    if(var1) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var6 = var5.applicationId;
- 46:
+case 2:
                     var1 = {};
                     var8 = _closure1_slot0;
                     var10 = _closure1_slot2;
@@ -122,12 +122,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1['connectedEmbeddedActivity'] = var5;
                     var4 = var4 == var6;
                     var3 = undefined;
-                    if(var4) { _fun0002_ip = 113; continue _fun0002 }
- 98:
+                    if(var4) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var5 = _closure1_slot4;
                     var4 = var5.getPipOrientationLockStateForApp;
                     var3 = var4.bind(var5)(var6);
- 113:
+case 4:
                     var1['pipOrientationLockState'] = var3;
                     var3 = _closure1_slot4;
                     var2 = var3.getActivityPanelMode;
@@ -198,7 +198,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var9.useAnimatedStyle;
             var2 = function u() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var2 = _closure1_slot1;
                     var3 = _closure1_slot2;
                     var1 = 13;
@@ -228,15 +228,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = var2.shouldHorizontallyCenter;
                     var3 = '0%';
                     var5 = var3;
-                    if(!var6) { _fun0003_ip = 142; continue _fun0003 }
- 136:
+                    if(!var6) { _fun0003_ip = 6; continue _fun0003 }
+case 7:
                     var5 = '50%';
- 142:
+case 6:
                     var1['left'] = var5;
-                    if(!var4) { _fun0003_ip = 155; continue _fun0003 }
- 149:
+                    if(!var4) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
                     var3 = '50%';
- 155:
+case 8:
                     var1['top'] = var3;
                     var3 = var2.marginLeft;
                     var1['marginLeft'] = var3;
@@ -262,8 +262,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = null;
             var2 = var4 == var1;
             var1 = null;
-            if(var2) { _fun0001_ip = 550; continue _fun0001 }
- 364:
+            if(var2) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var9 = _closure1_slot1;
             var12 = _closure1_slot2;
             var2 = 14;
@@ -271,13 +271,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var9.bind(var5)(var2);
             var2 = var2.bind(var5)(var7);
             var1 = null;
-            if(var2) { _fun0001_ip = 550; continue _fun0001 }
- 397:
+            if(var2) { _fun0001_ip = 10; continue _fun0001 }
+case 12:
             var2 = _closure1_slot7;
             var2 = var2.PIP;
             var1 = null;
-            if(!(var3 === var2)) { _fun0001_ip = 550; continue _fun0001 }
- 416:
+            if(!(var3 === var2)) { _fun0001_ip = 10; continue _fun0001 }
+case 13:
             var4 = _closure1_slot8;
             var9 = _closure1_slot1;
             var12 = _closure1_slot2;
@@ -310,7 +310,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var4.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 550:
+case 10:
             return var1;
         }
     };

@@ -53,28 +53,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function renderChannelPressableWrapper(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arguments[1];
             var4 = undefined;
-            if(!(var1 === var4)) { _fun0001_ip = 11; continue _fun0001 }
- 9:
+            if(!(var1 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = {};
- 11:
+case 2:
             var5 = var1.isThread;
-            if(!(var5 === var4)) { _fun0001_ip = 23; continue _fun0001 }
- 21:
+            if(!(var5 === var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = false;
- 23:
+case 4:
             var3 = _closure1_slot1;
             var2 = _closure1_slot0;
             var1 = {};
-            if(var5) { _fun0001_ip = 45; continue _fun0001 }
- 39:
+            if(var5) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var5 = _closure1_slot2;
-            _fun0001_ip = 49; continue _fun0001;
- 45:
+            _fun0001_ip = 8; continue _fun0001;
+case 6:
             var5 = _closure1_slot3;
- 49:
+case 8:
             var1['style'] = var5;
             var5 = arg1;
             var1['children'] = var5;

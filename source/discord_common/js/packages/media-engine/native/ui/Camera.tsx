@@ -8,15 +8,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var6;
     var2 = function Camera(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = var1.disabled;
             var7 = var1.deviceId;
             var6 = var1.width;
             var3 = var1.height;
             var5 = _closure1_slot2;
-            if(var2) { _fun0001_ip = 85; continue _fun0001 }
- 34:
+            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = _closure1_slot0;
             var4 = _closure1_slot1;
             var1 = 2;
@@ -30,8 +30,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7['height'] = var3;
             var1['style'] = var7;
             var1 = var5.bind(var4)(var2, var1);
-            _fun0001_ip = 124; continue _fun0001;
- 85:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var4 = {};
             var2 = 'media-engine-video';
             var4['className'] = var2;
@@ -42,7 +42,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = undefined;
             var2 = 'div';
             var1 = var5.bind(var3)(var2, var4);
- 124:
+case 4:
             return var1;
         }
     };

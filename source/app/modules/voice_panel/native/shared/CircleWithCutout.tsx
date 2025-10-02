@@ -37,7 +37,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = var7.memo;
     var2 = function CircleWithCutout(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arg1;
             var9 = var5.fill;
             var1 = var5.circleRadius;
@@ -46,30 +46,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var5.cutoutPositionInDegrees;
             var3 = var5.alignBadgeEdgeWithCircleEdge;
             var4 = undefined;
-            if(!(var3 === var4)) { _fun0001_ip = 47; continue _fun0001 }
- 45:
+            if(!(var3 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = false;
- 47:
+case 2:
             var2 = var5.badgeRadius;
             var5 = var5.scaleToPixelDensity;
-            if(!(var5 === var4)) { _fun0001_ip = 65; continue _fun0001 }
- 63:
+            if(!(var5 === var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = true;
- 65:
+case 4:
             var8 = 1;
             var19 = var8;
-            if(!var5) { _fun0001_ip = 81; continue _fun0001 }
- 74:
+            if(!var5) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var19 = _closure1_slot5;
- 81:
+case 6:
             var11 = var1 * var19;
             var12 = null;
             var5 = var12 != var2;
             var1 = undefined;
-            if(!var5) { _fun0001_ip = 100; continue _fun0001 }
- 96:
+            if(!var5) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var1 = var2 * var19;
- 100:
+case 8:
             var2 = 2;
             var18 = var2 * var11;
             var13 = _closure1_slot0;
@@ -83,18 +83,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var13.bind(var4)(var6);
             var6 = var13.getCutoutCenterY;
             var6 = var6.bind(var13)(var11, var14);
-            if(!var3) { _fun0001_ip = 170; continue _fun0001 }
- 166:
+            if(!var3) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var3 = var12 != var1;
- 170:
+case 10:
             var22 = var7;
             var21 = var6;
-            if(!var3) { _fun0001_ip = 190; continue _fun0001 }
- 179:
+            if(!var3) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var2 = var2 * var11;
             var22 = var2 - var1;
             var21 = var1;
- 190:
+case 12:
             var3 = _closure1_slot4;
             var2 = _closure1_slot1;
             var12 = _closure1_slot2;
@@ -162,10 +162,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6['r'] = var11;
             var6['fill'] = var9;
             var9 = undefined;
-            if(!var10) { _fun0001_ip = 480; continue _fun0001 }
- 474:
+            if(!var10) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var9 = 'url(#mask)';
- 480:
+case 14:
             var6['mask'] = var9;
             var6 = var8.bind(var4)(var7, var6);
             var5[1] = var6;

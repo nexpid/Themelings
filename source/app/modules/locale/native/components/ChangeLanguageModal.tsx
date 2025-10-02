@@ -85,22 +85,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = function* () {
             var1 = function* anon_0_() {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 480; continue _fun0001 }
- 10:
+                    if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var2 = _closure1_slot4;
                     var3 = undefined;
                     var9 = 'es-ES';
                     var2 = var2.bind(var3)(var9);
                     SaveGenerator(address=32);
- 30:
+case 4:
                     return var2;
- 32:
+case 5:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0001_ip = 477; continue _fun0001 }
- 41:
+                    if(var5) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                     var6 = _closure1_slot1;
                     var7 = _closure1_slot2;
                     var5 = 7;
@@ -189,9 +189,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var4.CHANGE_LANGUAGE_MODAL_YES_CLICKED;
                     var4 = var5.bind(var6)(var4);
                     return var3;
- 477:
+case 6:
                     return var2;
- 480:
+case 2:
                     return var1;
                 }
             };

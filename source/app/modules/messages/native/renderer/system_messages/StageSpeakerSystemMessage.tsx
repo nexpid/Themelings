@@ -24,7 +24,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function createStageSpeakerSystemMessage(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var10 = var4.message;
             var17 = var4.roleStyle;
@@ -66,16 +66,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9['userId'] = var11;
             var16 = 'username';
             var14 = null;
-            if(!(var16 === var17)) { _fun0001_ip = 195; continue _fun0001 }
- 192:
+            if(!(var16 === var17)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var14 = var15;
- 195:
+case 2:
             var9['linkColor'] = var14;
             var11 = null;
-            if(!var13) { _fun0001_ip = 208; continue _fun0001 }
- 205:
+            if(!var13) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var11 = var12;
- 208:
+case 4:
             var9['roleColors'] = var11;
             var10 = var10.channel_id;
             var9['messageChannelId'] = var10;

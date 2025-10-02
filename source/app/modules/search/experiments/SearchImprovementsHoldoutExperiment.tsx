@@ -39,15 +39,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['SearchImprovementsHoldoutExperiment'] = var4;
     var4 = function getIsInSearchImprovementsHoldout(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = var2.location;
             var5 = var2.autoTrackExposure;
             var2 = undefined;
-            if(!(var5 === var2)) { _fun0001_ip = 22; continue _fun0001 }
- 20:
+            if(!(var5 === var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = true;
- 22:
+case 2:
             var4 = _closure1_slot0;
             var3 = var4.getCurrentConfig;
             var2 = {};
@@ -62,15 +62,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['getIsInSearchImprovementsHoldout'] = var4;
     var2 = function useIsInSearchImprovementsHoldout(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = var2.location;
             var5 = var2.autoTrackExposure;
             var2 = undefined;
-            if(!(var5 === var2)) { _fun0002_ip = 22; continue _fun0002 }
- 20:
+            if(!(var5 === var2)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
             var5 = true;
- 22:
+case 2:
             var4 = _closure1_slot0;
             var3 = var4.useExperiment;
             var2 = {};

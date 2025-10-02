@@ -11,8 +11,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot3 = var9;
     var1 = function _isNativeReflectConstruct() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
- 2: // try_start_0
+case 0:
+case 2: // try_start_0
             var2 = global;
             var3 = var2.Boolean;
             var3 = var3.prototype;
@@ -30,11 +30,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var4)(var2);
             var2 = !var2;
             var _closure2_slot0 = var2;
- 70: // try_end0
-            _fun0001_ip = 74; continue _fun0001;
- 72: // catch_target0
+case 3: // try_end0
+            _fun0001_ip = 4; continue _fun0001;
+case 5: // catch_target0
             CatchBlockStart(arg_register=1);
- 74:
+case 4:
             var2 = function _isNativeReflectConstruct() {
                 var1 = _closure2_slot0;
                 var1 = !var1;
@@ -99,7 +99,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = function(arg1) {
         var4 = function Upload(arg1, arg2) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var3 = arg1;
                 var6 = this;
                 var1 = _closure1_slot4;
@@ -111,12 +111,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = _closure1_slot6;
                 var1 = _closure1_slot10;
                 var1 = var1.bind(var4)();
-                if(var1) { _fun0002_ip = 65; continue _fun0002 }
- 52:
+                if(var1) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                 var1 = var11.apply;
                 var1 = var1.bind(var11)(var6, var4);
-                _fun0002_ip = 103; continue _fun0002;
- 65:
+                _fun0002_ip = 8; continue _fun0002;
+case 6:
                 var7 = global;
                 var10 = var7.Reflect;
                 var9 = var10.construct;
@@ -125,18 +125,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = var7.constructor;
                 var7 = new Array(0);
                 var1 = var9.bind(var10)(var11, var7, var8);
- 103:
+case 8:
                 var1 = var5.bind(var4)(var6, var1);
                 var1['item'] = var3;
                 var6 = var3.platform;
                 var5 = _closure1_slot9;
                 var5 = var5.REACT_NATIVE;
-                if(!(var6 !== var5)) { _fun0002_ip = 324; continue _fun0002 }
- 138:
+                if(!(var6 !== var5)) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
                 var5 = var3.id;
                 var6 = null;
-                if(!(var6 == var5)) { _fun0002_ip = 184; continue _fun0002 }
- 149:
+                if(!(var6 == var5)) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
                 var7 = _closure1_slot1;
                 var8 = _closure1_slot3;
                 var6 = 6;
@@ -145,7 +145,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = var8.uniqueId;
                 var6 = 'upload';
                 var5 = var7.bind(var8)(var6);
- 184:
+case 11:
                 var1['id'] = var5;
                 var6 = _closure1_slot2;
                 var7 = _closure1_slot3;
@@ -172,14 +172,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1['mimeType'] = var5;
                 var5 = var3.origin;
                 var1['origin'] = var5;
-                _fun0002_ip = 505; continue _fun0002;
- 324:
+                _fun0002_ip = 13; continue _fun0002;
+case 9:
                 var5 = var3.id;
                 var6 = null;
-                if(!(var6 == var5)) { _fun0002_ip = 340; continue _fun0002 }
- 335:
+                if(!(var6 == var5)) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
                 var5 = var3.uri;
- 340:
+case 14:
                 var1['id'] = var5;
                 var6 = _closure1_slot0;
                 var7 = _closure1_slot3;
@@ -211,7 +211,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1['waveform'] = var5;
                 var5 = var3.isRemix;
                 var1['isRemix'] = var5;
- 505:
+case 13:
                 var5 = var3.isThumbnail;
                 var1['isThumbnail'] = var5;
                 var3 = var3.clip;
@@ -272,16 +272,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['UploadPlatform'] = var5;
     var4 = function isResolvedUpload(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = var2.isVideo;
             var3 = undefined;
             var1 = var3 !== var1;
-            if(!var1) { _fun0003_ip = 28; continue _fun0003 }
- 18:
+            if(!var1) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
             var2 = var2.isImage;
             var1 = var3 !== var2;
- 28:
+case 16:
             return var1;
         }
     };

@@ -86,7 +86,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var5.useCallback;
         var2 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var1 = 5;
@@ -98,14 +98,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = null;
                 var2 = var4 == var3;
                 var5 = var3;
-                if(var2) { _fun0001_ip = 59; continue _fun0001 }
- 47:
+                if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var3 = var3.current;
                 var2 = var4 == var3;
                 var5 = var3;
- 59:
-                if(var2) { _fun0001_ip = 110; continue _fun0001 }
- 62:
+case 2:
+                if(var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var4 = var5.navigate;
                 var3 = {};
                 var2 = 'add-friends';
@@ -114,7 +114,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3['params'] = var2;
                 var2 = 'friends';
                 var2 = var4.bind(var5)(var2, var3);
- 110:
+case 4:
                 return var1;
             }
         };

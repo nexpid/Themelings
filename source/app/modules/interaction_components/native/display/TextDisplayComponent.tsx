@@ -1,7 +1,7 @@
 // app/modules/interaction_components/native/display/TextDisplayComponent.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
         var5 = require;
         var8 = metroImportDefault;
         var3 = exports;
@@ -54,16 +54,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = var5.bind(var1)(var4);
         var4 = var9.isAndroid;
         var4 = var4.bind(var9)();
-        if(var4) { _fun0001_ip = 224; continue _fun0001 }
- 211:
+        if(var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
         var4 = 'DCDTextDisplayComponentView';
         var4 = var7.bind(var1)(var4);
-        _fun0001_ip = 236; continue _fun0001;
- 224:
+        _fun0001_ip = 4; continue _fun0001;
+case 2:
         var7 = 8;
         var7 = var6[var7];
         var4 = var8.bind(var1)(var7);
- 236:
+case 4:
         var _closure1_slot9 = var4;
         var4 = 18;
         var4 = var6[var4];
@@ -73,7 +73,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var5.bind(var6)(var4);
         var2 = function TextDisplayComponent(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var16 = arg1;
                 var3 = _closure1_slot0;
                 var4 = _closure1_slot2;
@@ -244,8 +244,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var3.isAndroid;
                 var3 = var1.bind(var3)();
                 var1 = var6;
-                if(!var3) { _fun0002_ip = 685; continue _fun0002 }
- 644:
+                if(!var3) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
                 var4 = _closure1_slot8;
                 var3 = _closure1_slot1;
                 var8 = _closure1_slot2;
@@ -256,7 +256,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2['onLayout'] = var7;
                 var2['children'] = var6;
                 var1 = var4.bind(var5)(var3, var2);
- 685:
+case 5:
                 return var1;
             }
         };

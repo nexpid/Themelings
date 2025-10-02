@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var7;
     var1 = function ContentTimestamp(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var6 = var1.entry;
             var1 = _closure1_slot10;
@@ -36,8 +36,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var9 = var7.bind(var8)(var4, var3);
             var4 = _closure1_slot7;
-            if(var1) { _fun0001_ip = 181; continue _fun0001 }
- 104:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var8 = _closure1_slot0;
             var7 = _closure1_slot2;
             var1 = 10;
@@ -55,13 +55,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7.bind(var8)(var6, var9);
             var1['children'] = var7;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0001_ip = 198; continue _fun0001;
- 181:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var3 = _closure1_slot11;
             var2 = {};
             var2['entry'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 198:
+case 4:
             return var1;
         }
     };
@@ -289,7 +289,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['ActiveTimestamp'] = var4;
     var4 = function GameTimestampBadge(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var9 = var1.entry;
             var1 = _closure1_slot10;
@@ -308,13 +308,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var5[var1];
             var1 = var3.bind(var4)(var1);
             var1 = var1.colors;
-            if(var2) { _fun0002_ip = 89; continue _fun0002 }
- 81:
+            if(var2) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
             var10 = var1.CONTENT_INVENTORY_OVERLAY_TEXT_SECONDARY;
-            _fun0002_ip = 95; continue _fun0002;
- 89:
+            _fun0002_ip = 7; continue _fun0002;
+case 5:
             var10 = var1.STATUS_POSITIVE;
- 95:
+case 7:
             var3 = _closure1_slot8;
             var2 = _closure1_slot5;
             var1 = {};
@@ -348,7 +348,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['GameTimestampBadge'] = var4;
     var4 = function MarathonBadge(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var1 = arg1;
             var3 = var1.entry;
             var2 = _closure1_slot0;
@@ -359,11 +359,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.bind(var5)(var1);
             var1 = var2.isEntryMarathon;
             var1 = var1.bind(var2)(var3);
-            if(var1) { _fun0003_ip = 52; continue _fun0003 }
- 48:
+            if(var1) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
             var1 = null;
             return var1;
- 52:
+case 8:
             var2 = _closure1_slot0;
             var1 = _closure1_slot2;
             var1 = var1[var4];
@@ -376,13 +376,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var7[var1];
             var1 = var6.bind(var5)(var1);
             var1 = var1.colors;
-            if(var2) { _fun0003_ip = 116; continue _fun0003 }
- 108:
+            if(var2) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
             var7 = var1.CONTENT_INVENTORY_OVERLAY_TEXT_SECONDARY;
-            _fun0003_ip = 122; continue _fun0003;
- 116:
+            _fun0003_ip = 12; continue _fun0003;
+case 10:
             var7 = var1.STATUS_POSITIVE;
- 122:
+case 12:
             var2 = _closure1_slot0;
             var1 = _closure1_slot2;
             var1 = var1[var4];
@@ -392,8 +392,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var1.text;
             var1 = null;
             var2 = var1 == var6;
-            if(var2) { _fun0003_ip = 220; continue _fun0003 }
- 164:
+            if(var2) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
             var4 = _closure1_slot7;
             var3 = _closure1_slot13;
             var2 = {};
@@ -407,14 +407,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['iconColor'] = var7;
             var2['text'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 220:
+case 13:
             return var1;
         }
     };
     var3['MarathonBadge'] = var4;
     var4 = function NewGameBadge(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var1 = arg1;
             var3 = var1.entry;
             var2 = _closure1_slot0;
@@ -426,8 +426,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2.isEntryNew;
             var2 = var1.bind(var2)(var3);
             var1 = null;
-            if(!var2) { _fun0004_ip = 185; continue _fun0004 }
- 53:
+            if(!var2) { _fun0004_ip = 15; continue _fun0004 }
+case 16:
             var4 = _closure1_slot7;
             var3 = _closure1_slot13;
             var2 = {};
@@ -457,14 +457,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.STATUS_POSITIVE;
             var2['iconColor'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 185:
+case 15:
             return var1;
         }
     };
     var3['NewGameBadge'] = var4;
     var4 = function StreakBadge(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
             var1 = arg1;
             var3 = var1.entry;
             var2 = _closure1_slot0;
@@ -478,13 +478,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = null;
             var2 = var3 == var12;
             var1 = null;
-            if(var2) { _fun0005_ip = 214; continue _fun0005 }
- 59:
+            if(var2) { _fun0005_ip = 17; continue _fun0005 }
+case 18:
             var2 = 2;
             var2 = var12 < var2;
             var1 = null;
-            if(var2) { _fun0005_ip = 214; continue _fun0005 }
- 74:
+            if(var2) { _fun0005_ip = 17; continue _fun0005 }
+case 19:
             var4 = _closure1_slot7;
             var3 = _closure1_slot13;
             var2 = {};
@@ -516,14 +516,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.CONTENT_INVENTORY_OVERLAY_TEXT_SECONDARY;
             var2['iconColor'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 214:
+case 17:
             return var1;
         }
     };
     var3['StreakBadge'] = var4;
     var4 = function TrendingBadge(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
- 0:
+case 0:
             var1 = arg1;
             var3 = var1.entry;
             var2 = _closure1_slot0;
@@ -537,8 +537,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = null;
             var2 = var4 == var3;
             var1 = null;
-            if(var2) { _fun0006_ip = 230; continue _fun0006 }
- 59:
+            if(var2) { _fun0006_ip = 20; continue _fun0006 }
+case 18:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var2 = 17;
@@ -547,8 +547,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.TrendingType;
             var2 = var2.TRENDING_TYPE_UNSPECIFIED;
             var1 = null;
-            if(!(var3 !== var2)) { _fun0006_ip = 230; continue _fun0006 }
- 100:
+            if(!(var3 !== var2)) { _fun0006_ip = 20; continue _fun0006 }
+case 21:
             var4 = _closure1_slot7;
             var3 = _closure1_slot13;
             var2 = {};
@@ -578,14 +578,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.CONTENT_INVENTORY_OVERLAY_TEXT_SECONDARY;
             var2['iconColor'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 230:
+case 20:
             return var1;
         }
     };
     var3['TrendingBadge'] = var4;
     var4 = function ResurrectedBadge(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
- 0:
+case 0:
             var1 = arg1;
             var3 = var1.entry;
             var2 = _closure1_slot0;
@@ -598,8 +598,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var1.bind(var2)(var3);
             var1 = null;
             var2 = var1 == var2;
-            if(var2) { _fun0007_ip = 189; continue _fun0007 }
- 57:
+            if(var2) { _fun0007_ip = 22; continue _fun0007 }
+case 23:
             var4 = _closure1_slot7;
             var3 = _closure1_slot13;
             var2 = {};
@@ -629,14 +629,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.CONTENT_INVENTORY_OVERLAY_TEXT_SECONDARY;
             var2['iconColor'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 189:
+case 22:
             return var1;
         }
     };
     var3['ResurrectedBadge'] = var4;
     var4 = function TopGameBadge(arg1) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
- 0:
+case 0:
             var1 = arg1;
             var3 = var1.entry;
             var2 = _closure1_slot0;
@@ -648,8 +648,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2.getEntryDuration;
             var19 = var1.bind(var2)(var3);
             var1 = null;
-            if(!(var1 != var19)) { _fun0008_ip = 328; continue _fun0008 }
- 54:
+            if(!(var1 != var19)) { _fun0008_ip = 24; continue _fun0008 }
+case 25:
             var13 = _closure1_slot0;
             var8 = _closure1_slot2;
             var12 = 15;
@@ -711,7 +711,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['iconColor'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
- 328:
+case 24:
             return var1;
         }
     };

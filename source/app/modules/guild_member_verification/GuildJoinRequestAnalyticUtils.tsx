@@ -88,7 +88,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['trackMemberApplicationAction'] = var4;
     var4 = function trackMemberApplicationInterviewMessage(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var12 = var1.guildId;
             var10 = var1.messageId;
@@ -105,10 +105,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var4 == var5;
             var1 = undefined;
             var3 = undefined;
-            if(var8) { _fun0001_ip = 82; continue _fun0001 }
- 76:
+            if(var8) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = var5.joinedAt;
- 82:
+case 2:
             var8 = var4 != var3;
             var4 = _closure1_slot0;
             var5 = _closure1_slot1;

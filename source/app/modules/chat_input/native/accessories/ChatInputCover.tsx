@@ -36,7 +36,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.forwardRef;
     var2 = function(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var7 = var2.keyboardType;
             var _closure2_slot0 = var7;
@@ -63,10 +63,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = {};
                     var2 = function focused(arg1) {
                         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                             var1 = arg1;
-                            if(!var1) { _fun0002_ip = 54; continue _fun0002 }
- 6:
+                            if(!var1) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                             var3 = _closure2_slot0;
                             var5 = _closure1_slot0;
                             var4 = _closure1_slot1;
@@ -77,13 +77,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var2 = var2.KeyboardTypes;
                             var2 = var2.SYSTEM;
                             var1 = var3 !== var2;
- 54:
-                            if(!var1) { _fun0002_ip = 64; continue _fun0002 }
- 57:
+case 2:
+                            if(!var1) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                             var1 = _closure2_slot2;
- 64:
-                            if(!var1) { _fun0002_ip = 122; continue _fun0002 }
- 67:
+case 4:
+                            if(!var1) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                             var3 = _closure2_slot1;
                             var2 = {};
                             var5 = _closure1_slot0;
@@ -96,7 +96,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var4 = var4.SYSTEM;
                             var2['type'] = var4;
                             var1 = var3.bind(var1)(var2);
- 122:
+case 6:
                             var1 = undefined;
                             return var1;
                         }
@@ -135,11 +135,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.KeyboardTypes;
             var4 = var1.SYSTEM;
             var1 = null;
-            if(!(var7 !== var4)) { _fun0001_ip = 226; continue _fun0001 }
- 159:
+            if(!(var7 !== var4)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var1 = null;
-            if(var2) { _fun0001_ip = 226; continue _fun0001 }
- 164:
+            if(var2) { _fun0001_ip = 8; continue _fun0001 }
+case 10:
             var4 = _closure1_slot6;
             var3 = _closure1_slot4;
             var2 = {'accessible': false, 'accessibilityRole': 'none'};
@@ -152,7 +152,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var4.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 226:
+case 8:
             return var1;
         }
     };

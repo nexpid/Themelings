@@ -42,7 +42,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function NotificationSettingsChannelPost(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arg1;
             var _closure2_slot0 = var5;
             var1 = var5.channel;
@@ -120,10 +120,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var14.bind(var15)(var13);
             var7['label'] = var13;
             var7['checked'] = var12;
-            if(var10) { _fun0001_ip = 279; continue _fun0001 }
- 276:
+            if(var10) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var10 = var11;
- 279:
+case 2:
             var7['disabled'] = var10;
             var9 = function onPress() {
                 var3 = _closure1_slot1;

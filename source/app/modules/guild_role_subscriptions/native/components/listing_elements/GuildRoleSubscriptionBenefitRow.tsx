@@ -9,17 +9,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function getEmojiId(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = var2.emoji_id;
             var3 = null;
-            if(!(var3 == var1)) { _fun0001_ip = 79; continue _fun0001 }
- 15:
+            if(!(var3 == var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var2.emoji_name;
             var3 = var3 == var1;
             var1 = '';
-            if(var3) { _fun0001_ip = 77; continue _fun0001 }
- 32:
+            if(var3) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = _closure1_slot1;
             var4 = _closure1_slot2;
             var3 = 5;
@@ -30,18 +30,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var2.emoji_name;
             var3 = false;
             var1 = var5.bind(var6)(var4, var3);
- 77:
-            _fun0001_ip = 85; continue _fun0001;
- 79:
+case 4:
+            _fun0001_ip = 6; continue _fun0001;
+case 2:
             var1 = var2.emoji_id;
- 85:
+case 6:
             return var1;
         }
     };
     var _closure1_slot8 = var1;
     var1 = function BenefitRow(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var12 = var1.emojiId;
             var13 = var1.guildId;
@@ -89,8 +89,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9[0] = var10;
             var10 = null;
             var12 = var10 != var14;
-            if(!var12) { _fun0002_ip = 255; continue _fun0002 }
- 191:
+            if(!var12) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
             var13 = _closure1_slot5;
             var12 = _closure1_slot0;
             var16 = _closure1_slot2;
@@ -103,7 +103,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11['style'] = var15;
             var11['children'] = var14;
             var10 = var13.bind(var4)(var12, var11);
- 255:
+case 7:
             var9[1] = var10;
             var6['children'] = var9;
             var6 = var8.bind(var4)(var7, var6);
@@ -169,7 +169,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function ChannelBenefitRow(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var2 = arg1;
             var5 = var2.benefit;
             var _closure2_slot0 = var5;
@@ -223,8 +223,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['children'] = var6;
             var6 = var3.bind(var4)(var2, var1);
             var1 = null;
-            if(!(var1 != var13)) { _fun0003_ip = 413; continue _fun0003 }
- 226:
+            if(!(var1 != var13)) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
             var3 = _closure1_slot6;
             var2 = _closure1_slot3;
             var1 = {};
@@ -265,7 +265,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9[1] = var10;
             var1['children'] = var9;
             var6 = var3.bind(var4)(var2, var1);
- 413:
+case 9:
             var3 = _closure1_slot5;
             var2 = _closure1_slot9;
             var1 = {};

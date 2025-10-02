@@ -75,12 +75,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4[4] = var3;
         var3 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var3 = _closure2_slot0;
                 var2 = _closure2_slot4;
                 var2 = var2.current;
-                if(!(var3 !== var2)) { _fun0001_ip = 580; continue _fun0001 }
- 23:
+                if(!(var3 !== var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var2 = global;
                 var3 = var2.Date;
                 var2 = var3.now;
@@ -88,8 +88,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = _closure2_slot4;
                 var4 = var3.current;
                 var3 = null;
-                if(!(var3 == var4)) { _fun0001_ip = 186; continue _fun0001 }
- 58:
+                if(!(var3 == var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var9 = _closure1_slot0;
                 var11 = _closure1_slot2;
                 var4 = 6;
@@ -118,8 +118,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var18 = var3;
                 var7 = copyDataProperties(var18, var17);
                 var3 = var5.bind(var6)(var4, var3);
-                _fun0001_ip = 556; continue _fun0001;
- 186:
+                _fun0001_ip = 6; continue _fun0001;
+case 4:
                 var4 = _closure2_slot0;
                 var5 = _closure1_slot0;
                 var3 = _closure1_slot2;
@@ -129,8 +129,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var5.bind(var9)(var3);
                 var3 = var3.PaymentFlowStep;
                 var3 = var3.CONFIRM;
-                if(!(var4 === var3)) { _fun0001_ip = 403; continue _fun0001 }
- 234:
+                if(!(var4 === var3)) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
                 var4 = _closure1_slot1;
                 var15 = _closure1_slot2;
                 var3 = 4;
@@ -169,7 +169,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = 'is_custom_emoji_sound_available';
                 var3[var7] = var11;
                 var3 = var5.bind(var6)(var4, var3);
- 403:
+case 7:
                 var4 = _closure1_slot1;
                 var7 = _closure1_slot2;
                 var3 = 4;
@@ -204,13 +204,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var18 = var3;
                 var7 = copyDataProperties(var18, var17);
                 var3 = var5.bind(var6)(var4, var3);
- 556:
+case 6:
                 var4 = _closure2_slot4;
                 var3 = _closure2_slot0;
                 var4['current'] = var3;
                 var1 = _closure2_slot6;
                 var1['current'] = var2;
- 580:
+case 2:
                 var1 = undefined;
                 return var1;
             }
@@ -223,7 +223,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = function() {
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var1 = _closure2_slot4;
                     var5 = var1.current;
                     var6 = _closure1_slot0;
@@ -234,8 +234,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var6.bind(var1)(var4);
                     var4 = var4.PaymentFlowStep;
                     var4 = var4.CONFIRM;
-                    if(!(var5 !== var4)) { _fun0002_ip = 98; continue _fun0002 }
- 53:
+                    if(!(var5 !== var4)) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
                     var5 = _closure1_slot1;
                     var6 = _closure1_slot2;
                     var4 = 4;
@@ -246,7 +246,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var3.PAYMENT_FLOW_CANCELED;
                     var2 = _closure2_slot3;
                     var2 = var4.bind(var5)(var3, var2);
- 98:
+case 9:
                     return var1;
                 }
             };

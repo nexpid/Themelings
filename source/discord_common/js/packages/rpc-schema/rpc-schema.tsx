@@ -22,7 +22,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function createRPCCommand(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg2;
             var5 = var1.scope;
             var4 = var1.handler;
@@ -42,22 +42,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5[var4];
             var4 = null;
             var6 = var4 == var5;
-            if(var6) { _fun0001_ip = 89; continue _fun0001 }
- 83:
+            if(var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = var5.request;
- 89:
+case 2:
             _closure2_slot0 = var3;
             _closure2_slot1 = var4;
-            if(!(var4 != var3)) { _fun0001_ip = 114; continue _fun0001 }
- 101:
+            if(!(var4 != var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = function(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var6 = arg1;
                     var3 = _closure2_slot1;
                     var2 = null;
-                    if(!(var2 == var3)) { _fun0002_ip = 76; continue _fun0002 }
- 16:
+                    if(!(var2 == var3)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot1;
                     var2 = 1;
@@ -71,13 +71,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var5.bind(var6)(var2);
                     var2 = var3.bind(var4)(var2);
                     _closure2_slot1 = var2;
- 76:
+case 6:
                     var1 = _closure2_slot1;
                     return var1;
                 }
             };
             var1['validation'] = var2;
- 114:
+case 4:
             return var1;
         }
     };

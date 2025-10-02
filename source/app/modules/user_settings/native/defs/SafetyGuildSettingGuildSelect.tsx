@@ -70,7 +70,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3[0] = var6;
         var2 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var3 = _closure1_slot4;
                 var2 = var3.getFlattenedGuildIds;
                 var3 = var2.bind(var3)();
@@ -80,25 +80,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var5.includes;
                 var2 = _closure2_slot0;
                 var2 = var4.bind(var5)(var2);
-                if(!var2) { _fun0001_ip = 53; continue _fun0001 }
- 47:
+                if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var4 = null;
                 var2 = var4 != var3;
- 53:
-                if(!var2) { _fun0001_ip = 74; continue _fun0001 }
- 56:
+case 2:
+                if(!var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var5 = _closure1_slot6;
                 var4 = undefined;
                 var5 = var5.bind(var4)();
                 var4 = _closure1_slot7;
                 var2 = var5 === var4;
- 74:
-                if(!var2) { _fun0001_ip = 88; continue _fun0001 }
- 77:
+case 4:
+                if(!var2) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                 var2 = _closure1_slot8;
                 var1 = undefined;
                 var1 = var2.bind(var1)(var3);
- 88:
+case 6:
                 var1 = undefined;
                 return var1;
             }

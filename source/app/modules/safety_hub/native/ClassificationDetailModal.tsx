@@ -59,7 +59,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function ClassificationDetailModal(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var12 = var2.classificationId;
             var _closure2_slot0 = var12;
@@ -67,10 +67,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot1 = var7;
             var11 = var2.shouldRedirectToAccountStanding;
             var4 = undefined;
-            if(!(var11 === var4)) { _fun0001_ip = 38; continue _fun0001 }
- 36:
+            if(!(var11 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var11 = false;
- 38:
+case 2:
             var _closure2_slot2 = var11;
             var _closure2_slot3 = var4;
             var _closure2_slot4 = var4;
@@ -91,10 +91,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[0] = var2;
             var2 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var1 = _closure2_slot4;
-                    if(var1) { _fun0002_ip = 45; continue _fun0002 }
- 10:
+                    if(var1) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var3 = _closure1_slot2;
                     var2 = _closure1_slot3;
                     var1 = 11;
@@ -103,7 +103,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var3.bind(var1)(var2);
                     var1 = var2.getSafetyHubData;
                     var1 = var1.bind(var2)();
- 45:
+case 4:
                     var1 = undefined;
                     return var1;
                 }
@@ -180,13 +180,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var1['source'] = var6;
                         var6 = function onClose() {
                             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                                 var3 = _closure4_slot3;
                                 var1 = undefined;
                                 var3 = var3.bind(var1)();
                                 var2 = _closure4_slot1;
-                                if(!var2) { _fun0003_ip = 100; continue _fun0003 }
- 20:
+                                if(!var2) { _fun0003_ip = 6; continue _fun0003 }
+case 7:
                                 var6 = _closure1_slot0;
                                 var7 = _closure1_slot3;
                                 var2 = 8;
@@ -204,7 +204,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 var5 = var5.STANDING;
                                 var2['subsection'] = var5;
                                 var2 = var3.bind(var4)(var2);
- 100:
+case 6:
                                 return var1;
                             }
                         };

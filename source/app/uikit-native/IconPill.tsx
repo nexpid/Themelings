@@ -85,7 +85,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function IconPill(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var9 = var1.text;
             var17 = var1.source;
@@ -105,8 +105,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5[1] = var7;
             var1['style'] = var5;
             var5 = null;
-            if(!(var5 == var13)) { _fun0001_ip = 158; continue _fun0001 }
- 85:
+            if(!(var5 == var13)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var8 = _closure1_slot4;
             var15 = _closure1_slot1;
             var16 = _closure1_slot2;
@@ -123,8 +123,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var11.pillIcon;
             var5['style'] = var14;
             var7 = var8.bind(var4)(var7, var5);
-            _fun0001_ip = 188; continue _fun0001;
- 158:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var8 = _closure1_slot4;
             var5 = {};
             var14 = 'xxs';
@@ -132,7 +132,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var11.pillIcon;
             var5['style'] = var14;
             var7 = var8.bind(var4)(var13, var5);
- 188:
+case 4:
             var5 = new Array(2);
             var5[0] = var7;
             var8 = _closure1_slot4;

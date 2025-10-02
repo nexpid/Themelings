@@ -37,11 +37,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = function* () {
             var1 = function* anon_0_() {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 107; continue _fun0001 }
- 7:
+                    if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var7 = _closure1_slot3;
                     var6 = var7.canWithPartialContext;
                     var2 = _closure1_slot4;
@@ -50,8 +50,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = _closure2_slot0;
                     var4['guildId'] = var8;
                     var4 = var6.bind(var7)(var5, var4);
-                    if(!var4) { _fun0001_ip = 99; continue _fun0001 }
- 52:
+                    if(!var4) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot1;
                     var3 = 3;
@@ -62,17 +62,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = _closure2_slot0;
                     var2 = var3.bind(var4)(var2);
                     SaveGenerator(address=93);
- 91:
+case 6:
                     return var2;
- 93:
+case 7:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0001_ip = 104; continue _fun0001 }
- 99:
+                    if(var3) { _fun0001_ip = 8; continue _fun0001 }
+case 4:
                     var3 = undefined;
                     return var3;
- 104:
+case 8:
                     return var2;
- 107:
+case 2:
                     return var1;
                 }
             };

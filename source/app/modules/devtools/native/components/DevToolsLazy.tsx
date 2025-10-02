@@ -1,7 +1,7 @@
 // app/modules/devtools/native/components/DevToolsLazy.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
         var5 = require;
         var9 = metroImportDefault;
         var3 = exports;
@@ -50,19 +50,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10 = var5.bind(var1)(var8);
         var8 = var10.isAndroid;
         var8 = var8.bind(var10)();
-        if(var8) { _fun0001_ip = 217; continue _fun0001 }
- 203:
+        if(var8) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
         var4 = var4.KeyCommandsView;
         var4 = var4.keyModifierControl;
-        _fun0001_ip = 245; continue _fun0001;
- 217:
+        _fun0001_ip = 4; continue _fun0001;
+case 2:
         var8 = 7;
         var8 = var6[var8];
         var9 = var9.bind(var1)(var8);
         var8 = var9.getConstants;
         var8 = var8.bind(var9)();
         var4 = var8.keyModifierControl;
- 245:
+case 4:
         var7['modifierFlags'] = var4;
         var4 = function onKeyCommand() {
             var3 = _closure1_slot2;
@@ -70,11 +70,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = function* () {
                 var1 = function* anon_0_() {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0002_ip = 76; continue _fun0002 }
- 7:
+                        if(var2) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
                         var5 = _closure1_slot0;
                         var2 = _closure1_slot1;
                         var3 = 9;
@@ -86,18 +86,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = var2.paths;
                         var2 = var5.bind(var3)(var4, var2);
                         SaveGenerator(address=54);
- 52:
+case 7:
                         return var2;
- 54:
+case 8:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                        if(var4) { _fun0002_ip = 73; continue _fun0002 }
- 60:
+                        if(var4) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
                         var4 = var2.navigateToDevTools;
                         var4 = var4.bind(var3)();
                         return var3;
- 73:
+case 9:
                         return var2;
- 76:
+case 5:
                         return var1;
                     }
                 };
@@ -119,7 +119,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var5.bind(var6)(var4);
         var2 = function DevToolsLazy() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var6 = _closure1_slot0;
                 var7 = _closure1_slot1;
                 var2 = 10;
@@ -153,7 +153,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = var9.useEffect;
                 var5 = function() {
                     _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                         var4 = _closure1_slot0;
                         var3 = _closure1_slot1;
                         var1 = 6;
@@ -162,28 +162,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var4 = var4.bind(var1)(var3);
                         var3 = var4.isIOS;
                         var3 = var3.bind(var4)();
-                        if(!var3) { _fun0004_ip = 62; continue _fun0004 }
- 38:
+                        if(!var3) { _fun0004_ip = 11; continue _fun0004 }
+case 12:
                         var4 = _closure1_slot5;
                         var3 = var4.addChangeListener;
                         var2 = function() {
                             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
                                 var1 = _closure1_slot4;
                                 var3 = var1.NSUserDefaultsBridge;
                                 var1 = null;
-                                if(!(var1 != var3)) { _fun0005_ip = 39; continue _fun0005 }
- 19:
+                                if(!(var1 != var3)) { _fun0005_ip = 13; continue _fun0005 }
+case 14:
                                 var2 = var3.setIsDiscordDeveloper;
                                 var1 = _closure2_slot0;
                                 var1 = var2.bind(var3)(var1);
- 39:
+case 13:
                                 var1 = undefined;
                                 return var1;
                             }
                         };
                         var2 = var3.bind(var4)(var2);
- 62:
+case 11:
                         return var1;
                     }
                 };
@@ -192,21 +192,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var7[var5];
                 var7 = var6.bind(var4)(var5);
                 var6 = var7.useKeyCommands;
-                if(var3) { _fun0003_ip = 148; continue _fun0003 }
- 142:
+                if(var3) { _fun0003_ip = 15; continue _fun0003 }
+case 16:
                 var5 = new Array(0);
-                _fun0003_ip = 152; continue _fun0003;
- 148:
+                _fun0003_ip = 17; continue _fun0003;
+case 15:
                 var5 = _closure1_slot8;
- 152:
+case 17:
                 var5 = var6.bind(var7)(var5);
-                if(!var3) { _fun0003_ip = 163; continue _fun0003 }
- 160:
-                if(var2) { _fun0003_ip = 167; continue _fun0003 }
- 163:
+                if(!var3) { _fun0003_ip = 18; continue _fun0003 }
+case 19:
+                if(var2) { _fun0003_ip = 20; continue _fun0003 }
+case 18:
                 var2 = null;
                 return var2;
- 167:
+case 20:
                 var3 = _closure1_slot0;
                 var5 = _closure1_slot1;
                 var2 = 12;

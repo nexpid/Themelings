@@ -33,7 +33,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useTrackUserProfileActivityAction(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var3 = var2.user;
             var _closure2_slot0 = var3;
@@ -69,10 +69,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.bind(var4)();
             var5 = var5.analyticsLocations;
             var7 = null;
-            if(!(var7 != var3)) { _fun0001_ip = 166; continue _fun0001 }
- 163:
+            if(!(var7 != var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = var3;
- 166:
+case 2:
             _closure2_slot8 = var5;
             var7 = _closure1_slot0;
             var14 = _closure1_slot2;

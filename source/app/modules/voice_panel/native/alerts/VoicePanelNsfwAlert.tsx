@@ -44,7 +44,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function VoicePanelNsfwAlert(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var9 = var1.guildId;
             var _closure2_slot0 = var9;
@@ -80,15 +80,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7[var16];
             var7 = var9.bind(var4)(var7);
             var9 = var7.t;
-            if(var6) { _fun0001_ip = 169; continue _fun0001 }
- 156:
+            if(var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var7 = var9.ZmwvDQ;
             var7 = var11.bind(var12)(var7);
-            _fun0001_ip = 180; continue _fun0001;
- 169:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var9 = var9.xi46lp;
             var7 = var11.bind(var12)(var9);
- 180:
+case 4:
             var1['title'] = var7;
             var12 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -99,15 +99,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7[var16];
             var7 = var12.bind(var4)(var7);
             var7 = var7.t;
-            if(var6) { _fun0001_ip = 241; continue _fun0001 }
- 228:
+            if(var6) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var6 = var7.E4Cd5O;
             var6 = var9.bind(var11)(var6);
-            _fun0001_ip = 252; continue _fun0001;
- 241:
+            _fun0001_ip = 7; continue _fun0001;
+case 5:
             var7 = var7.ZtuRtr;
             var6 = var9.bind(var11)(var7);
- 252:
+case 7:
             var1['content'] = var6;
             var7 = _closure1_slot6;
             var15 = _closure1_slot0;

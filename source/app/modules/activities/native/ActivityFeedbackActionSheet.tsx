@@ -56,7 +56,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function ActivityFeedbackActionSheet(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var16 = var1.activityApplication;
             var _closure2_slot0 = var16;
@@ -71,10 +71,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var1 == var2;
             var4 = undefined;
             var1 = undefined;
-            if(var3) { _fun0001_ip = 69; continue _fun0001 }
- 63:
+            if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var2.displays_advertisements;
- 69:
+case 2:
             var2 = _closure1_slot1;
             var12 = _closure1_slot2;
             var3 = 6;
@@ -159,7 +159,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['trackOpen'] = var6;
             var5 = function trackReport(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var1 = arg1;
                     var4 = var1.rating;
                     var2 = var1.reason;
@@ -168,12 +168,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = null;
                     var3 = var6 != var2;
                     var5 = null;
-                    if(!var3) { _fun0002_ip = 43; continue _fun0002 }
- 38:
+                    if(!var3) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var5 = var2.value;
- 43:
-                    if(!var1) { _fun0002_ip = 173; continue _fun0002 }
- 49:
+case 4:
+                    if(!var1) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var2 = _closure1_slot1;
                     var9 = _closure1_slot2;
                     var1 = 5;
@@ -201,9 +201,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = 'ActivityFeedbackActionSheet';
                     var1['location'] = var8;
                     var1 = var2.bind(var3)(var1);
- 173:
-                    if(!(var6 != var4)) { _fun0002_ip = 315; continue _fun0002 }
- 180:
+case 6:
+                    if(!(var6 != var4)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                     var9 = _closure1_slot0;
                     var8 = _closure1_slot2;
                     var2 = 10;
@@ -224,10 +224,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1['embeddedActivityLocation'] = var8;
                     var8 = var6 != var7;
                     var6 = '';
-                    if(!var8) { _fun0002_ip = 272; continue _fun0002 }
- 269:
+                    if(!var8) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
                     var6 = var7;
- 272:
+case 10:
                     var1['feedback'] = var6;
                     var6 = _closure2_slot0;
                     var1['activityApplication'] = var6;
@@ -237,7 +237,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1['location'] = var5;
                     var1['rating'] = var4;
                     var1 = var2.bind(var3)(var1);
- 315:
+case 8:
                     var1 = undefined;
                     return var1;
                 }

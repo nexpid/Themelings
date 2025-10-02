@@ -13,64 +13,64 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = function* () {
             var1 = function* anon_0_() {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     StartGenerator();
                     var2 = arguments[0];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=3);
-                    if(var4) { _fun0001_ip = 154; continue _fun0001 }
- 13:
+                    if(var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var6 = undefined;
-                    if(!(var2 === var6)) { _fun0001_ip = 31; continue _fun0001 }
- 19:
+                    if(!(var2 === var6)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                     var7 = {};
                     var8 = true;
                     var7['fallback'] = var8;
                     var2 = var7;
- 31:
+case 4:
                     var5 = var2.fallback;
                     SaveGenerator(address=41);
- 39:
+case 6:
                     return var6;
- 41:
+case 7:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0001_ip = 151; continue _fun0001 }
- 47: // try_start_0
+                    if(var4) { _fun0001_ip = 8; continue _fun0001 }
+case 9: // try_start_0
                     var4 = _closure1_slot3;
                     var7 = var4.MediaManager;
                     var4 = var7.getDeviceStateInfo;
                     var4 = var4.bind(var7)();
                     SaveGenerator(address=76);
- 74:
+case 10:
                     return var4;
- 76:
+case 11:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
-                    if(var7) { _fun0001_ip = 85; continue _fun0001 }
- 82: // try_end0
+                    if(var7) { _fun0001_ip = 12; continue _fun0001 }
+case 13: // try_end0
                     return var4;
- 85:
+case 12:
                     return var4;
- 88: // catch_target0
+case 14: // catch_target0
                     CatchBlockStart(arg_register=9);
                     var3 = var10;
                     var9 = _closure1_slot4;
                     var8 = var9.warn;
                     var7 = 'Failed to get device state:';
                     var7 = var8.bind(var9)(var7, var10);
-                    if(var5) { _fun0001_ip = 122; continue _fun0001 }
- 120:
-                    _fun0001_ip = 148; continue _fun0001;
- 122:
+                    if(var5) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
+                    _fun0001_ip = 17; continue _fun0001;
+case 15:
                     var5 = _closure1_slot0;
                     var7 = _closure1_slot1;
                     var4 = 3;
                     var4 = var7[var4];
                     var4 = var5.bind(var6)(var4);
                     var3 = var4.DEFAULT_DEVICE_STATE;
- 148:
+case 17:
                     return var3;
- 151:
+case 8:
                     return var2;
- 154:
+case 2:
                     return var1;
                 }
             };

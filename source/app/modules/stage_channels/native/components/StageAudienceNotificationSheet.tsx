@@ -140,7 +140,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function StageAudienceNotificationSheet(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var2 = var2.channelId;
             var _closure2_slot0 = var2;
@@ -167,10 +167,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = null;
             var2 = var16 == var1;
             var19 = undefined;
-            if(var2) { _fun0001_ip = 92; continue _fun0001 }
- 86:
+            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var19 = var1.privacy_level;
- 92:
+case 2:
             var1 = _closure1_slot6;
             var18 = var1.PUBLIC;
             var3 = _closure1_slot7;
@@ -335,8 +335,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var22 = var24.bind(var4)(var23, var22);
             var14[2] = var22;
             var16 = null;
-            if(!(var19 === var18)) { _fun0001_ip = 1054; continue _fun0001 }
- 874:
+            if(!(var19 === var18)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var19 = _closure1_slot7;
             var27 = _closure1_slot0;
             var24 = _closure1_slot2;
@@ -374,7 +374,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var21 = var23.bind(var4)(var22, var21);
             var17['label'] = var21;
             var16 = var19.bind(var4)(var18, var17);
- 1054:
+case 4:
             var14[3] = var16;
             var11['children'] = var14;
             var11 = var7.bind(var4)(var13, var11);

@@ -85,7 +85,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var5.bind(var4)(var3);
         var2 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
                 var1 = 7;
@@ -97,8 +97,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var3.TrackOpenPopoutUsed;
                 var3 = var4.bind(var5)(var3);
                 var3 = _closure2_slot2;
-                if(var3) { _fun0001_ip = 164; continue _fun0001 }
- 56:
+                if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var4 = _closure1_slot1;
                 var5 = _closure1_slot2;
                 var3 = 8;
@@ -112,17 +112,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = null;
                 var9 = var7 == var8;
                 var8 = undefined;
-                if(var9) { _fun0001_ip = 118; continue _fun0001 }
- 108:
+                if(var9) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var9 = _closure2_slot0;
                 var8 = var9.analyticsType;
- 118:
+case 4:
                 var9 = var7 != var8;
                 var7 = 'Standard Emoji Popout';
-                if(!var9) { _fun0001_ip = 134; continue _fun0001 }
- 131:
+                if(!var9) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                 var7 = var8;
- 134:
+case 6:
                 var2['type'] = var7;
                 var7 = _closure2_slot1;
                 var2['nonce'] = var7;
@@ -130,7 +130,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var11 = var2;
                 var6 = copyDataProperties(var11, var10);
                 var2 = var4.bind(var5)(var3, var2);
- 164:
+case 2:
                 return var1;
             }
         };

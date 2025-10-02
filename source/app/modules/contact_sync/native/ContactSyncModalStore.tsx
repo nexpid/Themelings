@@ -79,7 +79,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['useContactSyncModalStore'] = var4;
     var4 = function initialize(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var _closure2_slot0 = var1;
             var5 = _closure1_slot2;
@@ -91,20 +91,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var4 == var6;
             var1 = undefined;
             var5 = undefined;
-            if(var7) { _fun0001_ip = 55; continue _fun0001 }
- 50:
+            if(var7) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = var6.name;
- 55:
+case 2:
             var _closure2_slot1 = var5;
             var6 = _closure1_slot3;
             var5 = var6.getCurrentUser;
             var5 = var5.bind(var6)();
             var6 = var4 == var5;
             var4 = undefined;
-            if(var6) { _fun0001_ip = 87; continue _fun0001 }
- 81:
+            if(var6) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var4 = var5.phone;
- 87:
+case 4:
             var _closure2_slot2 = var4;
             var4 = _closure1_slot0;
             var5 = _closure1_slot1;
@@ -336,15 +336,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['setPhoneToken'] = var4;
     var4 = function setName(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var3 = arguments[1];
             var1 = arg1;
             var _closure2_slot0 = var1;
             var1 = undefined;
-            if(!(var3 === var1)) { _fun0002_ip = 20; continue _fun0002 }
- 18:
+            if(!(var3 === var1)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var3 = false;
- 20:
+case 6:
             var _closure2_slot1 = var3;
             var4 = _closure1_slot0;
             var5 = _closure1_slot1;
@@ -441,7 +441,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['setError'] = var4;
     var4 = function useIsOnboarding() {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var3 = _closure1_slot7;
             var1 = undefined;
             var1 = var3.bind(var1)();
@@ -449,19 +449,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = _closure1_slot6;
             var1 = var1.ONBOARDING;
             var1 = var3 === var1;
-            if(var1) { _fun0003_ip = 49; continue _fun0003 }
- 35:
+            if(var1) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
             var2 = _closure1_slot6;
             var2 = var2.ONBOARDING_INVITE;
             var1 = var3 === var2;
- 49:
+case 8:
             return var1;
         }
     };
     var3['useIsOnboarding'] = var4;
     var2 = function getIsOnboarding() {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var3 = _closure1_slot7;
             var1 = var3.getState;
             var1 = var1.bind(var3)();
@@ -469,12 +469,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = _closure1_slot6;
             var1 = var1.ONBOARDING;
             var1 = var3 === var1;
-            if(var1) { _fun0004_ip = 53; continue _fun0004 }
- 39:
+            if(var1) { _fun0004_ip = 10; continue _fun0004 }
+case 11:
             var2 = _closure1_slot6;
             var2 = var2.ONBOARDING_INVITE;
             var1 = var3 === var2;
- 53:
+case 10:
             return var1;
         }
     };

@@ -30,19 +30,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function getAnalyticsDataForSKU(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var7 = arg1;
             var1 = arguments[1];
             var6 = arguments[2];
             var2 = undefined;
-            if(!(var1 === var2)) { _fun0001_ip = 17; continue _fun0001 }
- 15:
+            if(!(var1 === var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = false;
- 17:
-            if(!(var6 === var2)) { _fun0001_ip = 23; continue _fun0001 }
- 21:
+case 2:
+            if(!(var6 === var2)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var6 = true;
- 23:
+case 4:
             var4 = _closure1_slot0;
             var3 = var4.getApplication;
             var2 = var7.applicationId;
@@ -62,50 +62,50 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4['application_id'] = var3;
             var11 = var2 != var8;
             var3 = null;
-            if(!var11) { _fun0001_ip = 118; continue _fun0001 }
- 113:
+            if(!var11) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var3 = var8.name;
- 118:
+case 6:
             var4['application_name'] = var3;
             var3 = var7.name;
             var4['store_title'] = var3;
             var8 = var7.premium;
             var3 = 'distribution';
-            if(!var8) { _fun0001_ip = 150; continue _fun0001 }
- 146:
+            if(!var8) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var3 = 'premium';
- 150:
+case 8:
             var4['distribution_type'] = var3;
             var3 = null;
-            if(!var6) { _fun0001_ip = 227; continue _fun0001 }
- 162:
+            if(!var6) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var6 = {};
             var11 = var2 != var9;
             var8 = null;
-            if(!var11) { _fun0001_ip = 179; continue _fun0001 }
- 173:
+            if(!var11) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var8 = var9.amount;
- 179:
+case 12:
             var6['price'] = var8;
             var11 = var2 != var10;
             var8 = null;
-            if(!var11) { _fun0001_ip = 199; continue _fun0001 }
- 193:
+            if(!var11) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var8 = var10.amount;
- 199:
+case 14:
             var6['regular_price'] = var8;
             var10 = var2 != var9;
             var8 = null;
-            if(!var10) { _fun0001_ip = 219; continue _fun0001 }
- 213:
+            if(!var10) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var8 = var9.currency;
- 219:
+case 16:
             var6['currency'] = var8;
             var3 = var6;
- 227:
+case 10:
             var2 = null;
-            if(!var1) { _fun0001_ip = 556; continue _fun0001 }
- 235:
+            if(!var1) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
             var1 = {};
             var8 = var7.hasFeature;
             var5 = _closure1_slot1;
@@ -161,7 +161,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var6.bind(var7)(var5);
             var1['has_secure_networking'] = var5;
             var2 = var1;
- 556:
+case 18:
             var1 = {};
             var13 = var1;
             var12 = var4;

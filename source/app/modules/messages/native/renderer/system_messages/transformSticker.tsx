@@ -7,7 +7,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var6;
     var1 = function transform(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var10 = arg1;
             var4 = arg2;
             var1 = {};
@@ -19,10 +19,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var7 != var2;
             var5 = '';
             var3 = var5;
-            if(!var6) { _fun0001_ip = 42; continue _fun0001 }
- 39:
+            if(!var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = var2;
- 42:
+case 2:
             var2 = 'asset';
             var1[var2] = var3;
             var8 = _closure1_slot0;
@@ -37,10 +37,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['isPreview'] = var11;
             var3 = var8.bind(var9)(var10, var3);
             var7 = var7 != var3;
-            if(!var7) { _fun0001_ip = 108; continue _fun0001 }
- 105:
+            if(!var7) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = var3;
- 108:
+case 4:
             var3 = 'url';
             var1[var3] = var5;
             var5 = _closure1_slot0;
@@ -49,13 +49,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var7[var3];
             var3 = var5.bind(var6)(var3);
             var3 = var3.NativeLottieRenderMode;
-            if(var4) { _fun0001_ip = 154; continue _fun0001 }
- 146:
+            if(var4) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var4 = var3.STILL;
-            _fun0001_ip = 160; continue _fun0001;
- 154:
+            _fun0001_ip = 8; continue _fun0001;
+case 6:
             var4 = var3.LOOP;
- 160:
+case 8:
             var3 = 'renderMode';
             var1[var3] = var4;
             var5 = _closure1_slot0;
@@ -142,17 +142,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[2] = var5;
         var1 = function() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var3 = _closure2_slot1;
                 var5 = undefined;
                 var1 = undefined;
-                if(!var3) { _fun0002_ip = 35; continue _fun0002 }
- 14:
+                if(!var3) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
                 var4 = _closure1_slot4;
                 var3 = _closure2_slot0;
                 var2 = _closure2_slot2;
                 var1 = var4.bind(var5)(var3, var2);
- 35:
+case 9:
                 return var1;
             }
         };

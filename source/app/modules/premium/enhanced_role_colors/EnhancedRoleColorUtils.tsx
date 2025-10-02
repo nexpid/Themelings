@@ -27,13 +27,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function extractColorStringsFromServerColors(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var1 = {};
             var4 = var3.primary_color;
             var2 = 0;
-            if(!(var2 !== var4)) { _fun0001_ip = 61; continue _fun0001 }
- 17:
+            if(!(var2 !== var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = _closure1_slot0;
             var4 = _closure1_slot1;
             var2 = 1;
@@ -43,17 +43,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var5.int2hex;
             var2 = var3.primary_color;
             var2 = var4.bind(var5)(var2);
-            _fun0001_ip = 68; continue _fun0001;
- 61:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var2 = _closure1_slot2;
- 68:
+case 4:
             var1['primaryColor'] = var2;
             var4 = var3.secondary_color;
             var2 = null;
             var5 = var2 == var4;
             var4 = null;
-            if(var5) { _fun0001_ip = 132; continue _fun0001 }
- 90:
+            if(var5) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var7 = _closure1_slot0;
             var6 = _closure1_slot1;
             var5 = 1;
@@ -63,13 +63,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var7.int2hex;
             var5 = var3.secondary_color;
             var4 = var6.bind(var7)(var5);
- 132:
+case 5:
             var1['secondaryColor'] = var4;
             var4 = var3.tertiary_color;
             var4 = var2 == var4;
             var2 = null;
-            if(var4) { _fun0001_ip = 194; continue _fun0001 }
- 152:
+            if(var4) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var6 = _closure1_slot0;
             var5 = _closure1_slot1;
             var4 = 1;
@@ -79,7 +79,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var5.int2hex;
             var3 = var3.tertiary_color;
             var2 = var4.bind(var5)(var3);
- 194:
+case 7:
             var1['tertiaryColor'] = var2;
             return var1;
         }
@@ -87,35 +87,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['extractColorStringsFromServerColors'] = var4;
     var4 = function getAuthorHasGradientRole(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var3 = arg1;
             var4 = null;
             var1 = var4 != var3;
-            if(!var1) { _fun0002_ip = 63; continue _fun0002 }
- 12:
+            if(!var1) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
             var2 = var3.colorStrings;
             var2 = var4 != var2;
-            if(!var2) { _fun0002_ip = 41; continue _fun0002 }
- 25:
+            if(!var2) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
             var5 = var3.colorStrings;
             var5 = var5.primaryColor;
             var2 = var4 != var5;
- 41:
-            if(!var2) { _fun0002_ip = 60; continue _fun0002 }
- 44:
+case 11:
+            if(!var2) { _fun0002_ip = 13; continue _fun0002 }
+case 14:
             var3 = var3.colorStrings;
             var3 = var3.secondaryColor;
             var2 = var4 != var3;
- 60:
+case 13:
             var1 = var2;
- 63:
+case 9:
             return var1;
         }
     };
     var3['getAuthorHasGradientRole'] = var4;
     var2 = function getIsDefaultErc(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var3 = arg1;
             var1 = var3.color;
             var6 = 0;
@@ -123,28 +123,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.colors;
             var4 = null;
             var2 = var4 != var2;
-            if(!var2) { _fun0003_ip = 43; continue _fun0003 }
- 28:
+            if(!var2) { _fun0003_ip = 15; continue _fun0003 }
+case 16:
             var5 = var3.colors;
             var5 = var5.primary_color;
             var2 = var6 === var5;
- 43:
-            if(!var2) { _fun0003_ip = 61; continue _fun0003 }
- 46:
+case 15:
+            if(!var2) { _fun0003_ip = 2; continue _fun0003 }
+case 17:
             var5 = var3.colors;
             var5 = var5.secondary_color;
             var2 = var4 == var5;
- 61:
-            if(!var2) { _fun0003_ip = 79; continue _fun0003 }
- 64:
+case 2:
+            if(!var2) { _fun0003_ip = 18; continue _fun0003 }
+case 19:
             var3 = var3.colors;
             var3 = var3.tertiary_color;
             var2 = var4 == var3;
- 79:
-            if(var1) { _fun0003_ip = 85; continue _fun0003 }
- 82:
+case 18:
+            if(var1) { _fun0003_ip = 20; continue _fun0003 }
+case 21:
             var1 = var2;
- 85:
+case 20:
             return var1;
         }
     };

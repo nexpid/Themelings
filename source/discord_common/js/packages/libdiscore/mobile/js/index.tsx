@@ -1,7 +1,7 @@
 // discord_common/js/packages/libdiscore/mobile/js/index.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
         var7 = require;
         var6 = metroImportDefault;
         var3 = exports;
@@ -28,8 +28,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var7.bind(var1)(var4);
         var4 = var4.NativeModules;
         var6 = var4.LibDiscoreModule;
-        if(var6) { _fun0001_ip = 150; continue _fun0001 }
- 106:
+        if(var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
         var10 = var5.Proxy;
         var9 = {};
         var5 = function get() {
@@ -51,10 +51,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var12 = var9;
         var5 = new var14[var10](var13, var12, var11);
         var5 = var5 instanceof Object ? var5 : var6;
-        _fun0001_ip = 156; continue _fun0001;
- 150:
+        _fun0001_ip = 4; continue _fun0001;
+case 2:
         var5 = var4.LibDiscoreModule;
- 156:
+case 4:
         var4 = var5.bridgeJSIFunctions;
         var4 = var4.bind(var5)();
         var4 = 3;
@@ -141,16 +141,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = copyDataProperties(var5, var4);
             var3 = function dispatchAction(arg1, arg2) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var2 = arg1;
                     var1 = arg2;
- 6: // try_start_0
+case 5: // try_start_0
                     var5 = _closure2_slot0;
                     var4 = var5.dispatchAction;
                     var1 = var4.bind(var5)(var2, var1);
- 25: // try_end0
+case 6: // try_end0
                     return var1;
- 27: // catch_target0
+case 7: // catch_target0
                     CatchBlockStart(arg_register=4);
                     var3 = var5;
                     var1 = {};
@@ -159,16 +159,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = global;
                     var4 = var2.Error;
                     var4 = var5 instanceof var4;
-                    if(var4) { _fun0002_ip = 74; continue _fun0002 }
- 56:
+                    if(var4) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                     var5 = var2.String;
                     var4 = var3;
                     var2 = undefined;
                     var2 = var5.bind(var2)(var4);
-                    _fun0002_ip = 79; continue _fun0002;
- 74:
+                    _fun0002_ip = 10; continue _fun0002;
+case 8:
                     var2 = var3.message;
- 79:
+case 10:
                     var1['error'] = var2;
                     return var1;
                 }

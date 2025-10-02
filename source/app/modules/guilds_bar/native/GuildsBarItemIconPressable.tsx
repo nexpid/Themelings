@@ -108,15 +108,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function GuildsBarItemIconPresable(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var8 = var2.iconSource;
             var20 = var2.desaturated;
             var4 = undefined;
-            if(!(var20 === var4)) { _fun0001_ip = 25; continue _fun0001 }
- 23:
+            if(!(var20 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var20 = false;
- 25:
+case 2:
             var _closure2_slot0 = var20;
             var10 = var2.onPress;
             var11 = var2.onLayout;
@@ -172,23 +172,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var14.useAnimatedStyle;
             var3 = function b() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var2 = _closure2_slot2;
                     var1 = null;
                     var2 = var1 == var2;
                     var7 = undefined;
                     var5 = undefined;
-                    if(var2) { _fun0002_ip = 29; continue _fun0002 }
- 20:
+                    if(var2) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var2 = _closure2_slot2;
                     var5 = var2.backgroundColor;
- 29:
-                    if(!(var1 == var5)) { _fun0002_ip = 47; continue _fun0002 }
- 33:
+case 4:
+                    if(!(var1 == var5)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var1 = _closure2_slot1;
                     var1 = var1.icon;
                     var5 = var1.backgroundColor;
- 47:
+case 6:
                     var1 = {};
                     var4 = _closure1_slot0;
                     var6 = _closure1_slot1;
@@ -199,21 +199,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var9 = _closure2_slot3;
                     var6 = var9.get;
                     var6 = var6.bind(var9)();
-                    if(!var6) { _fun0002_ip = 131; continue _fun0002 }
- 93:
+                    if(!var6) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                     var6 = _closure2_slot0;
                     var8 = _closure2_slot1;
-                    if(var6) { _fun0002_ip = 117; continue _fun0002 }
- 104:
+                    if(var6) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
                     var6 = var8.iconColorActive;
                     var6 = var6.color;
-                    _fun0002_ip = 128; continue _fun0002;
- 117:
+                    _fun0002_ip = 12; continue _fun0002;
+case 10:
                     var8 = var8.iconColorDesaturated;
                     var6 = var8.color;
- 128:
+case 12:
                     var5 = var6;
- 131:
+case 8:
                     var6 = _closure1_slot0;
                     var8 = _closure1_slot1;
                     var2 = 9;
@@ -251,7 +251,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.useAnimatedStyle;
             var1 = function I() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var1 = {};
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot1;
@@ -263,25 +263,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = _closure2_slot3;
                     var3 = var7.get;
                     var3 = var3.bind(var7)();
-                    if(var3) { _fun0003_ip = 88; continue _fun0003 }
- 51:
+                    if(var3) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
                     var3 = _closure2_slot0;
                     var7 = _closure2_slot1;
-                    if(var3) { _fun0003_ip = 75; continue _fun0003 }
- 62:
+                    if(var3) { _fun0003_ip = 15; continue _fun0003 }
+case 16:
                     var3 = var7.iconColorActive;
                     var3 = var3.color;
-                    _fun0003_ip = 86; continue _fun0003;
- 75:
+                    _fun0003_ip = 17; continue _fun0003;
+case 15:
                     var7 = var7.iconColorDesaturated;
                     var3 = var7.color;
- 86:
-                    _fun0003_ip = 103; continue _fun0003;
- 88:
+case 17:
+                    _fun0003_ip = 18; continue _fun0003;
+case 13:
                     var7 = _closure2_slot1;
                     var7 = var7.iconColor;
                     var3 = var7.color;
- 103:
+case 18:
                     var7 = _closure2_slot3;
                     var2 = var7.get;
                     var2 = var2.bind(var7)();
@@ -290,13 +290,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = 9;
                     var6 = var9[var6];
                     var6 = var7.bind(var8)(var6);
-                    if(var2) { _fun0003_ip = 147; continue _fun0003 }
- 139:
+                    if(var2) { _fun0003_ip = 19; continue _fun0003 }
+case 20:
                     var2 = var6.timingStandard;
-                    _fun0003_ip = 153; continue _fun0003;
- 147:
+                    _fun0003_ip = 21; continue _fun0003;
+case 19:
                     var2 = var6.timingNone;
- 153:
+case 21:
                     var2 = var4.bind(var5)(var3, var2);
                     var1['tintColor'] = var2;
                     return var1;

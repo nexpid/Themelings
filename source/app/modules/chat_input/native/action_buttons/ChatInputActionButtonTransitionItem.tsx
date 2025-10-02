@@ -47,7 +47,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function ChatInputActionButtonTransitionItem(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var11 = var2.state;
             var _closure2_slot0 = var11;
@@ -68,10 +68,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.TransitionStates;
             var10 = var6.MOUNTED;
             var6 = 0;
-            if(!(var11 === var10)) { _fun0001_ip = 96; continue _fun0001 }
- 93:
+            if(!(var11 === var10)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = 1;
- 96:
+case 2:
             var10 = var8.bind(var9)(var6);
             _closure2_slot2 = var10;
             var9 = _closure1_slot3;
@@ -82,7 +82,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[2] = var1;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var5 = function withTimingExtended(arg1) {
                         var10 = _closure1_slot0;
                         var11 = _closure1_slot2;
@@ -94,10 +94,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var14 = _closure1_slot4;
                         var3 = function s(arg1) {
                             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                                 var1 = arg1;
-                                if(!var1) { _fun0003_ip = 54; continue _fun0003 }
- 6:
+                                if(!var1) { _fun0003_ip = 4; continue _fun0003 }
+case 5:
                                 var3 = _closure2_slot0;
                                 var5 = _closure1_slot0;
                                 var4 = _closure1_slot2;
@@ -108,9 +108,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 var2 = var2.TransitionStates;
                                 var2 = var2.YEETED;
                                 var1 = var3 === var2;
- 54:
-                                if(!var1) { _fun0003_ip = 103; continue _fun0003 }
- 57:
+case 4:
+                                if(!var1) { _fun0003_ip = 6; continue _fun0003 }
+case 7:
                                 var3 = _closure1_slot0;
                                 var2 = _closure1_slot2;
                                 var1 = 3;
@@ -121,7 +121,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 var1 = _closure2_slot1;
                                 var1 = var3.bind(var4)(var1);
                                 var1 = var1.bind(var2)();
- 103:
+case 6:
                                 var1 = undefined;
                                 return var1;
                             }
@@ -162,21 +162,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var6.bind(var1)(var3);
                     var3 = var3.TransitionStates;
                     var3 = var3.YEETED;
-                    if(!(var4 !== var3)) { _fun0002_ip = 81; continue _fun0002 }
- 57:
+                    if(!(var4 !== var3)) { _fun0002_ip = 8; continue _fun0002 }
+case 7:
                     var6 = _closure2_slot2;
                     var4 = var6.set;
                     var3 = 1;
                     var3 = var5.bind(var1)(var3);
                     var3 = var4.bind(var6)(var3);
-                    _fun0002_ip = 102; continue _fun0002;
- 81:
+                    _fun0002_ip = 9; continue _fun0002;
+case 8:
                     var4 = _closure2_slot2;
                     var3 = var4.set;
                     var2 = 0;
                     var2 = var5.bind(var1)(var2);
                     var2 = var3.bind(var4)(var2);
- 102:
+case 9:
                     return var1;
                 }
             };

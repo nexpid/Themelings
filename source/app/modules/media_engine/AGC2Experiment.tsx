@@ -49,15 +49,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function getAGC2ExperimentConfig(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var5 = var1.location;
             var1 = var1.disable;
             var6 = undefined;
-            if(!(var1 === var6)) { _fun0001_ip = 22; continue _fun0001 }
- 20:
+            if(!(var1 === var6)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = false;
- 22:
+case 2:
             var4 = _closure1_slot0;
             var7 = _closure1_slot1;
             var3 = 1;
@@ -73,21 +73,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['autoTrackExposure'] = var8;
             var3 = var6.bind(var7)(var4, var3);
             var3 = var3.isInHoldout;
-            if(var3) { _fun0001_ip = 118; continue _fun0001 }
- 92:
-            if(var1) { _fun0001_ip = 118; continue _fun0001 }
- 95:
+            if(var3) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            if(var1) { _fun0001_ip = 4; continue _fun0001 }
+case 6:
             var4 = _closure1_slot2;
             var3 = var4.getConfig;
             var1 = {};
             var1['location'] = var5;
             var1 = var3.bind(var4)(var1);
-            _fun0001_ip = 134; continue _fun0001;
- 118:
+            _fun0001_ip = 7; continue _fun0001;
+case 4:
             var2 = _closure1_slot2;
             var2 = var2.definition;
             var1 = var2.defaultConfig;
- 134:
+case 7:
             return var1;
         }
     };

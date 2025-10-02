@@ -183,7 +183,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function CollapsibleFloatingActionButton(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var14 = var4.icon;
             var12 = var4.positionBottom;
@@ -212,8 +212,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var7.isValidElement;
             var3 = var3.bind(var7)(var14);
             var7 = var14;
-            if(!var3) { _fun0001_ip = 178; continue _fun0001 }
- 125:
+            if(!var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var13 = _closure1_slot3;
             var8 = var13.cloneElement;
             var3 = {};
@@ -226,21 +226,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var15.WHITE;
             var3['color'] = var15;
             var7 = var8.bind(var13)(var14, var3);
- 178:
+case 2:
             var8 = var1 != var12;
             var3 = undefined;
-            if(!var8) { _fun0001_ip = 196; continue _fun0001 }
- 187:
+            if(!var8) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var8 = {};
             var8['bottom'] = var12;
             var3 = var8;
- 196:
+case 4:
             var4 = var4.button;
             var8 = new Array(2);
             var8[0] = var4;
             var8[1] = var3;
-            if(!(var1 == var10)) { _fun0001_ip = 352; continue _fun0001 }
- 221:
+            if(!(var1 == var10)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var4 = _closure1_slot4;
             var3 = _closure1_slot0;
             var12 = _closure1_slot2;
@@ -271,8 +271,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = 'pillStyle';
             var1[var11] = var12;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0001_ip = 414; continue _fun0001;
- 352:
+            _fun0001_ip = 8; continue _fun0001;
+case 6:
             var4 = _closure1_slot4;
             var3 = _closure1_slot8;
             var2 = {};
@@ -288,7 +288,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = 'icon';
             var2[var6] = var7;
             var1 = var4.bind(var5)(var3, var2);
- 414:
+case 8:
             return var1;
         }
     };

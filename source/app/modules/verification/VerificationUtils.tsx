@@ -79,150 +79,150 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = {};
     var7 = function isPhoneReverification(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var4 = arg2;
             var1 = undefined;
             var1 = var1 !== var3;
-            if(!var1) { _fun0001_ip = 25; continue _fun0001 }
- 15:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var3.isPhoneVerified;
             var1 = var2.bind(var3)();
- 25:
-            if(!var1) { _fun0001_ip = 82; continue _fun0001 }
- 28:
+case 2:
+            if(!var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = _closure1_slot3;
             var2 = var2.REQUIRE_REVERIFIED_PHONE;
             var2 = var4 === var2;
-            if(var2) { _fun0001_ip = 62; continue _fun0001 }
- 48:
+            if(var2) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var5 = _closure1_slot3;
             var5 = var5.REQUIRE_REVERIFIED_EMAIL_OR_REVERIFIED_PHONE;
             var2 = var4 === var5;
- 62:
-            if(var2) { _fun0001_ip = 79; continue _fun0001 }
- 65:
+case 6:
+            if(var2) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var3 = _closure1_slot3;
             var3 = var3.REQUIRE_VERIFIED_EMAIL_OR_REVERIFIED_PHONE;
             var2 = var4 === var3;
- 79:
+case 8:
             var1 = var2;
- 82:
+case 4:
             return var1;
         }
     };
     var2['isPhoneReverification'] = var7;
     var7 = function isEmailReverification(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var3 = arg1;
             var1 = _closure1_slot3;
             var1 = var1.REQUIRE_REVERIFIED_EMAIL;
             var1 = var3 === var1;
-            if(var1) { _fun0002_ip = 37; continue _fun0002 }
- 23:
+            if(var1) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
             var4 = _closure1_slot3;
             var4 = var4.REQUIRE_REVERIFIED_EMAIL_OR_REVERIFIED_PHONE;
             var1 = var3 === var4;
- 37:
-            if(var1) { _fun0002_ip = 54; continue _fun0002 }
- 40:
+case 10:
+            if(var1) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
             var2 = _closure1_slot3;
             var2 = var2.REQUIRE_REVERIFIED_EMAIL_OR_VERIFIED_PHONE;
             var1 = var3 === var2;
- 54:
+case 12:
             return var1;
         }
     };
     var2['isEmailReverification'] = var7;
     var7 = function isFullScreenVerification(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var4 = arg1;
             var3 = this;
             var1 = _closure1_slot3;
             var1 = var1.REQUIRE_CAPTCHA;
             var1 = var4 === var1;
-            if(var1) { _fun0003_ip = 40; continue _fun0003 }
- 26:
+            if(var1) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
             var5 = _closure1_slot3;
             var5 = var5.REQUIRE_VERIFIED_EMAIL;
             var1 = var4 === var5;
- 40:
-            if(var1) { _fun0003_ip = 57; continue _fun0003 }
- 43:
+case 13:
+            if(var1) { _fun0003_ip = 15; continue _fun0003 }
+case 16:
             var5 = _closure1_slot3;
             var5 = var5.REQUIRE_VERIFIED_PHONE;
             var1 = var4 === var5;
- 57:
-            if(var1) { _fun0003_ip = 74; continue _fun0003 }
- 60:
+case 15:
+            if(var1) { _fun0003_ip = 17; continue _fun0003 }
+case 18:
             var5 = _closure1_slot3;
             var5 = var5.REQUIRE_REVERIFIED_PHONE;
             var1 = var4 === var5;
- 74:
-            if(var1) { _fun0003_ip = 91; continue _fun0003 }
- 77:
+case 17:
+            if(var1) { _fun0003_ip = 19; continue _fun0003 }
+case 20:
             var5 = _closure1_slot3;
             var5 = var5.REQUIRE_REVERIFIED_EMAIL_OR_REVERIFIED_PHONE;
             var1 = var4 === var5;
- 91:
-            if(var1) { _fun0003_ip = 108; continue _fun0003 }
- 94:
+case 19:
+            if(var1) { _fun0003_ip = 21; continue _fun0003 }
+case 22:
             var2 = _closure1_slot3;
             var2 = var2.REQUIRE_VERIFIED_EMAIL_OR_REVERIFIED_PHONE;
             var1 = var4 === var2;
- 108:
-            if(var1) { _fun0003_ip = 122; continue _fun0003 }
- 111:
+case 21:
+            if(var1) { _fun0003_ip = 23; continue _fun0003 }
+case 24:
             var2 = var3.isEmailReverification;
             var1 = var2.bind(var3)(var4);
- 122:
+case 23:
             return var1;
         }
     };
     var2['isFullScreenVerification'] = var7;
     var7 = function getVerificationTypes(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = null;
-            if(!(var1 != var2)) { _fun0004_ip = 33; continue _fun0004 }
- 9:
+            if(!(var1 != var2)) { _fun0004_ip = 25; continue _fun0004 }
+case 26:
             var3 = 'symbol';
             var1 = typeof var2;
-            if(!(var3 !== var1)) { _fun0004_ip = 33; continue _fun0004 }
- 20:
+            if(!(var3 !== var1)) { _fun0004_ip = 25; continue _fun0004 }
+case 27:
             var1 = _closure1_slot5;
             var1 = var1[var2];
-            _fun0004_ip = 37; continue _fun0004;
- 33:
+            _fun0004_ip = 10; continue _fun0004;
+case 25:
             var1 = new Array(0);
- 37:
+case 10:
             return var1;
         }
     };
     var2['getVerificationTypes'] = var7;
     var7 = function getButtonTitle(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
             var3 = arg1;
             var2 = _closure1_slot4;
             var2 = var2.EMAIL;
-            if(!(var2 !== var3)) { _fun0005_ip = 315; continue _fun0005 }
- 23:
+            if(!(var2 !== var3)) { _fun0005_ip = 28; continue _fun0005 }
+case 11:
             var2 = _closure1_slot4;
             var2 = var2.PHONE;
-            if(!(var2 !== var3)) { _fun0005_ip = 254; continue _fun0005 }
- 40:
+            if(!(var2 !== var3)) { _fun0005_ip = 29; continue _fun0005 }
+case 13:
             var2 = _closure1_slot4;
             var2 = var2.REVERIFY_EMAIL;
-            if(!(var2 !== var3)) { _fun0005_ip = 193; continue _fun0005 }
- 57:
+            if(!(var2 !== var3)) { _fun0005_ip = 30; continue _fun0005 }
+case 15:
             var2 = _closure1_slot4;
             var2 = var2.REVERIFY_PHONE;
-            if(!(var2 !== var3)) { _fun0005_ip = 132; continue _fun0005 }
- 71:
+            if(!(var2 !== var3)) { _fun0005_ip = 31; continue _fun0005 }
+case 32:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var2 = 1;
@@ -237,7 +237,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.oF6+W1;
             var2 = var3.bind(var4)(var2);
             return var2;
- 132:
+case 31:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var2 = 1;
@@ -252,7 +252,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.of2129;
             var2 = var3.bind(var4)(var2);
             return var2;
- 193:
+case 30:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var2 = 1;
@@ -267,7 +267,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.nmdPFR;
             var2 = var3.bind(var4)(var2);
             return var2;
- 254:
+case 29:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var2 = 1;
@@ -282,7 +282,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.mjJecn;
             var2 = var3.bind(var4)(var2);
             return var2;
- 315:
+case 28:
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
             var1 = 1;

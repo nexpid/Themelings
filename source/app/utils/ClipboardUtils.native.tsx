@@ -12,12 +12,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = function* (arg1, arg2) {
             var1 = function* anon_0_(arg1, arg2) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     StartGenerator();
                     var2 = arg2;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(var3) { _fun0001_ip = 93; continue _fun0001 }
- 10:
+                    if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot1;
                     var3 = 1;
@@ -28,25 +28,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = arg1;
                     var4 = var5.bind(var6)(var4);
                     var4 = null;
-                    if(!(var4 != var2)) { _fun0001_ip = 59; continue _fun0001 }
- 55:
+                    if(!(var4 != var2)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                     var2 = var2.bind(var3)();
- 59:
+case 4:
                     var2 = global;
                     var4 = var2.Promise;
                     var2 = var4.resolve;
                     var2 = var2.bind(var4)();
                     SaveGenerator(address=81);
- 79:
+case 6:
                     return var2;
- 81:
+case 7:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0001_ip = 90; continue _fun0001 }
- 87:
+                    if(var4) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
                     return var3;
- 90:
+case 8:
                     return var2;
- 93:
+case 2:
                     return var1;
                 }
             };

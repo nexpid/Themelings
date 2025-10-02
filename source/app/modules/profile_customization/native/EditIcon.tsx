@@ -67,16 +67,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function EditIcon(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var8 = var2.style;
             var _closure2_slot0 = var8;
             var7 = var2.size;
             var4 = undefined;
-            if(!(var7 === var4)) { _fun0001_ip = 29; continue _fun0001 }
- 25:
+            if(!(var7 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var7 = 'xs';
- 29:
+case 2:
             var _closure2_slot1 = var7;
             var _closure2_slot2 = var4;
             var2 = _closure1_slot5;
@@ -90,7 +90,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[2] = var7;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var1 = {};
                     var2 = _closure2_slot2;
                     var4 = var2.editIcon;
@@ -98,15 +98,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2[0] = var4;
                     var5 = _closure2_slot1;
                     var4 = 'sm';
-                    if(!(var4 !== var5)) { _fun0002_ip = 47; continue _fun0002 }
- 35:
+                    if(!(var4 !== var5)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var4 = _closure2_slot2;
                     var4 = var4.xs;
-                    _fun0002_ip = 57; continue _fun0002;
- 47:
+                    _fun0002_ip = 6; continue _fun0002;
+case 4:
                     var5 = _closure2_slot2;
                     var4 = var5.sm;
- 57:
+case 6:
                     var2[1] = var4;
                     var3 = _closure2_slot0;
                     var2[2] = var3;

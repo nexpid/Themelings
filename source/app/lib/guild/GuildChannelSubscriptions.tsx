@@ -87,14 +87,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var6 = function value(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var1 = this;
                 var2 = var1._subscriptions;
                 var1 = arg1;
                 var1 = var2[var1];
                 var2 = null;
-                if(!(var2 == var1)) { _fun0001_ip = 79; continue _fun0001 }
- 22:
+                if(!(var2 == var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot1;
                 var2 = 2;
@@ -110,7 +110,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var2;
                 var2 = new var6[var4](var5, var4);
                 var1 = var2 instanceof Object ? var2 : var3;
- 79:
+case 2:
                 return var1;
             }
         };
@@ -134,7 +134,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var5 = function value(arg1, arg2, arg3) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var5 = arg1;
                 var9 = arg2;
                 var8 = arg3;
@@ -152,8 +152,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var1.bind(var7)(var9);
                 var1 = var3.bind(var10)(var1, var8);
                 var1 = !var1;
-                if(!var1) { _fun0002_ip = 120; continue _fun0002 }
- 76:
+                if(!var1) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                 var3 = var7.set;
                 var3 = var3.bind(var7)(var9, var8);
                 var3 = var4._subscriptions;
@@ -163,7 +163,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var2.bind(var6)(var7);
                 var2 = var3.bind(var4)(var5, var2);
                 var1 = true;
- 120:
+case 4:
                 return var1;
             }
         };

@@ -14,10 +14,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = {};
         var5 = function getApplicationCommandManager() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var1 = _closure2_slot0;
-                if(var1) { _fun0001_ip = 46; continue _fun0001 }
- 10:
+                if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var1 = global;
                 var3 = var1.Error;
                 var1 = var3.prototype;
@@ -27,7 +27,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = new var5[var3](var4, var3);
                 var1 = var1 instanceof Object ? var1 : var2;
                 throw var1;
- 46:
+case 2:
                 var1 = undefined;
                 return var1;
             }
@@ -35,10 +35,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['getApplicationCommandManager'] = var5;
         var5 = function openCustomKeyboard() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var1 = _closure2_slot0;
-                if(var1) { _fun0002_ip = 46; continue _fun0002 }
- 10:
+                if(var1) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                 var1 = global;
                 var3 = var1.Error;
                 var1 = var3.prototype;
@@ -48,7 +48,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = new var5[var3](var4, var3);
                 var1 = var1 instanceof Object ? var1 : var2;
                 throw var1;
- 46:
+case 2:
                 var1 = undefined;
                 return var1;
             }
@@ -56,10 +56,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['openCustomKeyboard'] = var5;
         var4 = function closeCustomKeyboard() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var1 = _closure2_slot0;
-                if(var1) { _fun0003_ip = 46; continue _fun0003 }
- 10:
+                if(var1) { _fun0003_ip = 2; continue _fun0003 }
+case 3:
                 var1 = global;
                 var3 = var1.Error;
                 var1 = var3.prototype;
@@ -69,7 +69,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = new var5[var3](var4, var3);
                 var1 = var1 instanceof Object ? var1 : var2;
                 throw var1;
- 46:
+case 2:
                 var1 = undefined;
                 return var1;
             }
@@ -144,16 +144,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['useAppLauncherChatInputRefDummy'] = var4;
     var4 = function useRequiredAppLauncherContext() {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var3 = _closure1_slot2;
             var2 = var3.useContext;
             var1 = _closure1_slot4;
             var1 = var2.bind(var3)(var1);
             var2 = null;
-            if(!(var2 != var1)) { _fun0004_ip = 30; continue _fun0004 }
- 28:
+            if(!(var2 != var1)) { _fun0004_ip = 4; continue _fun0004 }
+case 5:
             return var1;
- 30:
+case 4:
             var1 = global;
             var3 = var1.Error;
             var1 = var3.prototype;
@@ -168,7 +168,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['useRequiredAppLauncherContext'] = var4;
     var2 = function useAppLauncherContext() {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
             var5 = _closure1_slot2;
             var4 = var5.useRef;
             var3 = _closure1_slot3;
@@ -228,10 +228,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = _closure1_slot4;
             var2 = var3.bind(var4)(var2);
             var3 = null;
-            if(!(var3 != var2)) { _fun0005_ip = 204; continue _fun0005 }
- 201:
+            if(!(var3 != var2)) { _fun0005_ip = 6; continue _fun0005 }
+case 7:
             var1 = var2;
- 204:
+case 6:
             return var1;
         }
     };

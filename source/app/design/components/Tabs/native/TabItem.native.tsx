@@ -27,7 +27,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var3.useAnimatedStyle;
         var1 = function o() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var2 = _closure2_slot3;
                 var6 = var2.inactive;
                 var3 = _closure2_slot2;
@@ -45,23 +45,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var9.get;
                 var2 = var2.bind(var9)();
                 var2 = var7.bind(var8)(var2);
-                if(!(var5 !== var3)) { _fun0001_ip = 111; continue _fun0001 }
- 80:
-                if(var4) { _fun0001_ip = 99; continue _fun0001 }
- 83:
-                if(!(var2 === var3)) { _fun0001_ip = 121; continue _fun0001 }
- 87:
+                if(!(var5 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+                if(var4) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+                if(!(var2 === var3)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                 var2 = _closure2_slot3;
                 var6 = var2.active;
-                _fun0001_ip = 121; continue _fun0001;
- 99:
+                _fun0001_ip = 6; continue _fun0001;
+case 4:
                 var2 = _closure2_slot3;
                 var6 = var2.inactive;
-                _fun0001_ip = 121; continue _fun0001;
- 111:
+                _fun0001_ip = 6; continue _fun0001;
+case 2:
                 var1 = _closure2_slot3;
                 var6 = var1.pressed;
- 121:
+case 6:
                 var1 = {};
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
@@ -315,7 +315,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function TabItem(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var4 = arg1;
             var14 = var4.label;
             var13 = var4.count;
@@ -381,10 +381,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16[0] = var17;
             var17 = {};
             var18 = 0;
-            if(!var19) { _fun0002_ip = 251; continue _fun0002 }
- 248:
+            if(!var19) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var18 = 1;
- 251:
+case 8:
             var17['flexGrow'] = var18;
             var16[1] = var17;
             var1['style'] = var16;
@@ -430,8 +430,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[0] = var8;
             var8 = var5 != var13;
             var5 = null;
-            if(!var8) { _fun0002_ip = 423; continue _fun0002 }
- 388:
+            if(!var8) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
             var9 = _closure1_slot4;
             var8 = _closure1_slot15;
             var7 = {};
@@ -440,7 +440,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7['activeIndex'] = var11;
             var7['pressed'] = var10;
             var5 = var9.bind(var4)(var8, var7);
- 423:
+case 10:
             var6[1] = var5;
             var5 = 'children';
             var1[var5] = var6;

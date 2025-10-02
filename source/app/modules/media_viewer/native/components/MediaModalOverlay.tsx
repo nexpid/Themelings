@@ -9,19 +9,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function OverlayAltTextButton(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var12 = var1.description;
             var4 = null;
             var2 = var4 == var12;
             var1 = null;
-            if(var2) { _fun0001_ip = 161; continue _fun0001 }
- 22:
+            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = var12.length;
             var2 = 0;
             var1 = null;
-            if(!(var2 !== var3)) { _fun0001_ip = 161; continue _fun0001 }
- 38:
+            if(!(var2 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var5 = _closure1_slot7;
             var3 = _closure1_slot0;
             var13 = _closure1_slot2;
@@ -50,14 +50,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var8.bind(var4)(var7, var6);
             var2['children'] = var6;
             var1 = var5.bind(var4)(var3, var2);
- 161:
+case 2:
             return var1;
         }
     };
     var _closure1_slot12 = var1;
     var1 = function OverlayMuteButton(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var10 = var1.isMuted;
             var9 = var1.onToggleMute;
@@ -90,15 +90,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var13.bind(var14)(var12);
             var5['accessibilityLabel'] = var12;
             var13 = _closure1_slot2;
-            if(var10) { _fun0002_ip = 157; continue _fun0002 }
- 148:
+            if(var10) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
             var10 = 10;
             var10 = var13[var10];
-            _fun0002_ip = 164; continue _fun0002;
- 157:
+            _fun0002_ip = 7; continue _fun0002;
+case 5:
             var12 = 9;
             var10 = var13[var12];
- 164:
+case 7:
             var10 = var11.bind(var3)(var10);
             var5['source'] = var10;
             var11 = _closure1_slot1;
@@ -125,7 +125,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot13 = var1;
     var1 = function OverlayObscureToggleButton(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var1 = arg1;
             var10 = var1.spoilerActive;
             var9 = var1.onToggleObscure;
@@ -158,15 +158,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var13.bind(var14)(var12);
             var5['accessibilityLabel'] = var12;
             var13 = _closure1_slot2;
-            if(var10) { _fun0003_ip = 159; continue _fun0003 }
- 150:
+            if(var10) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
             var10 = 12;
             var10 = var13[var10];
-            _fun0003_ip = 166; continue _fun0003;
- 159:
+            _fun0003_ip = 10; continue _fun0003;
+case 8:
             var12 = 11;
             var10 = var13[var12];
- 166:
+case 10:
             var10 = var11.bind(var3)(var10);
             var5['source'] = var10;
             var11 = _closure1_slot1;
@@ -193,7 +193,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot14 = var1;
     var1 = function MediaModalOverlay(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var8 = arg1;
             var1 = var8.getVideoControls;
             var5 = var8.source;
@@ -266,10 +266,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.obscure;
             var8 = null;
             var8 = var8 != var5;
-            if(!var8) { _fun0004_ip = 229; continue _fun0004 }
- 226:
+            if(!var8) { _fun0004_ip = 11; continue _fun0004 }
+case 12:
             var8 = var5;
- 229:
+case 11:
             var5 = 'obscure';
             var1[var5] = var8;
             var5 = 'spoilerActive';
@@ -346,7 +346,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var8.memo;
     var4 = function(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
             var1 = arg1;
             var18 = var1.slider;
             var15 = var1.onClose;
@@ -407,14 +407,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.LANDSCAPE;
             var11 = var2 === var1;
             var23 = null;
-            if(!(var23 == var18)) { _fun0005_ip = 299; continue _fun0005 }
- 276:
+            if(!(var23 == var18)) { _fun0005_ip = 13; continue _fun0005 }
+case 14:
             var1 = var17.sources;
             var1 = var1.length;
             var1 = var1 > var7;
             var9 = null;
-            if(!var1) { _fun0005_ip = 520; continue _fun0005 }
- 299:
+            if(!var1) { _fun0005_ip = 15; continue _fun0005 }
+case 13:
             var3 = _closure1_slot8;
             var6 = _closure1_slot0;
             var12 = _closure1_slot2;
@@ -432,8 +432,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.bind(var4)(var5);
             var5 = var6.isIOS;
             var6 = var5.bind(var6)();
-            if(!var6) { _fun0005_ip = 437; continue _fun0005 }
- 382:
+            if(!var6) { _fun0005_ip = 16; continue _fun0005 }
+case 17:
             var33 = _closure1_slot7;
             var12 = _closure1_slot1;
             var34 = _closure1_slot2;
@@ -447,7 +447,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var34 = var34.absoluteFill;
             var5['style'] = var34;
             var6 = var33.bind(var4)(var12, var5);
- 437:
+case 16:
             var5 = new Array(3);
             var5[0] = var6;
             var5[1] = var18;
@@ -455,8 +455,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.length;
             var7 = var6 > var7;
             var6 = null;
-            if(!var7) { _fun0005_ip = 506; continue _fun0005 }
- 469:
+            if(!var7) { _fun0005_ip = 18; continue _fun0005 }
+case 19:
             var33 = _closure1_slot7;
             var12 = _closure1_slot1;
             var34 = _closure1_slot2;
@@ -466,11 +466,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = {};
             var7['syncer'] = var17;
             var6 = var33.bind(var4)(var12, var7);
- 506:
+case 18:
             var5[2] = var6;
             var1['children'] = var5;
             var9 = var3.bind(var4)(var2, var1);
- 520:
+case 15:
             var3 = _closure1_slot8;
             var2 = _closure1_slot9;
             var1 = {};
@@ -510,18 +510,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12[1] = var19;
             var19 = {};
             var20 = 'transparent';
-            if(!var11) { _fun0005_ip = 703; continue _fun0005 }
- 688:
+            if(!var11) { _fun0005_ip = 20; continue _fun0005 }
+case 21:
             var21 = _closure1_slot10;
             var21 = var21.portraitFooterButtons;
             var20 = var21.backgroundColor;
- 703:
+case 20:
             var19['backgroundColor'] = var20;
             var12[2] = var19;
             var6['style'] = var12;
             var12 = !var8;
-            if(!var12) { _fun0005_ip = 752; continue _fun0005 }
- 721:
+            if(!var12) { _fun0005_ip = 22; continue _fun0005 }
+case 23:
             var21 = _closure1_slot7;
             var20 = _closure1_slot12;
             var19 = {};
@@ -529,14 +529,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var19['description'] = var8;
             var8 = var16.uri;
             var12 = var21.bind(var4)(var20, var19, var8);
- 752:
+case 22:
             var8 = new Array(3);
             var8[0] = var12;
-            if(!(var23 == var18)) { _fun0005_ip = 772; continue _fun0005 }
- 764:
+            if(!(var23 == var18)) { _fun0005_ip = 24; continue _fun0005 }
+case 25:
             var12 = null;
-            if(!var24) { _fun0005_ip = 908; continue _fun0005 }
- 772:
+            if(!var24) { _fun0005_ip = 26; continue _fun0005 }
+case 24:
             var21 = _closure1_slot8;
             var20 = _closure1_slot6;
             var19 = {};
@@ -544,8 +544,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var22 = var22.overlayIcons;
             var19['style'] = var22;
             var25 = var23 != var18;
-            if(!var25) { _fun0005_ip = 855; continue _fun0005 }
- 803:
+            if(!var25) { _fun0005_ip = 27; continue _fun0005 }
+case 28:
             var29 = _closure1_slot7;
             var26 = _closure1_slot13;
             var22 = {};
@@ -558,26 +558,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var30 = var30.toggleMuted;
             var22['onToggleMute'] = var30;
             var25 = var29.bind(var4)(var26, var22);
- 855:
+case 27:
             var22 = new Array(2);
             var22[0] = var25;
             var23 = null;
-            if(!var24) { _fun0005_ip = 894; continue _fun0005 }
- 868:
+            if(!var24) { _fun0005_ip = 29; continue _fun0005 }
+case 30:
             var26 = _closure1_slot7;
             var25 = _closure1_slot14;
             var24 = {};
             var24['spoilerActive'] = var28;
             var24['onToggleObscure'] = var27;
             var23 = var26.bind(var4)(var25, var24);
- 894:
+case 29:
             var22[1] = var23;
             var19['children'] = var22;
             var12 = var21.bind(var4)(var20, var19);
- 908:
+case 26:
             var8[1] = var12;
-            if(var11) { _fun0005_ip = 999; continue _fun0005 }
- 915:
+            if(var11) { _fun0005_ip = 31; continue _fun0005 }
+case 32:
             var12 = _closure1_slot7;
             var11 = _closure1_slot1;
             var19 = _closure1_slot2;
@@ -597,7 +597,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10['onFullViewToggled'] = var14;
             var10['overlayEnabled'] = var13;
             var9 = var12.bind(var4)(var11, var10);
- 999:
+case 31:
             var8[2] = var9;
             var6['children'] = var8;
             var6 = var3.bind(var4)(var7, var6);
@@ -617,7 +617,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function MediaModalOverlayGuard(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
- 0:
+case 0:
             var6 = arg1;
             var4 = var6.syncer;
             var3 = _closure1_slot0;
@@ -637,8 +637,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var3[var1];
             var1 = null;
             var3 = var1 == var8;
-            if(var3) { _fun0006_ip = 124; continue _fun0006 }
- 80:
+            if(var3) { _fun0006_ip = 33; continue _fun0006 }
+case 34:
             var4 = _closure1_slot7;
             var3 = _closure1_slot15;
             var2 = {};
@@ -650,7 +650,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = 'index';
             var2[var6] = var7;
             var1 = var4.bind(var5)(var3, var2);
- 124:
+case 33:
             return var1;
         }
     };

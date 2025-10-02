@@ -56,7 +56,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function UserProfileMutualGuilds(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = var1.user;
             var _closure2_slot0 = var2;
@@ -82,15 +82,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var5[var1];
             var1 = var3.bind(var4)(var1);
             var1 = var1.bind(var4)(var2);
-            if(!var1) { _fun0001_ip = 457; continue _fun0001 }
- 117:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = null;
-            if(!(var1 != var11)) { _fun0001_ip = 457; continue _fun0001 }
- 126:
+            if(!(var1 != var11)) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var1 = var11.length;
             var3 = 0;
-            if(!(var3 !== var1)) { _fun0001_ip = 457; continue _fun0001 }
- 140:
+            if(!(var3 !== var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 5:
             var2 = var11.slice;
             var1 = 3;
             var3 = var2.bind(var11)(var3, var1);
@@ -249,7 +249,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
- 457:
+case 2:
             var1 = null;
             return var1;
         }

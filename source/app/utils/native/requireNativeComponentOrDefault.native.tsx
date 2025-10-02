@@ -47,29 +47,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function requireNativeComponentOrDefault(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var4 = var1.componentName;
             var6 = var1.componentFoundInstance;
             var3 = var1.componentMissingFallbackInstance;
             var8 = undefined;
-            if(!(var3 === var8)) { _fun0001_ip = 34; continue _fun0001 }
- 27:
+            if(!(var3 === var8)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = _closure1_slot2;
- 34:
+case 2:
             var5 = var1.warnWhenMissing;
-            if(!(var5 === var8)) { _fun0001_ip = 46; continue _fun0001 }
- 44:
+            if(!(var5 === var8)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = true;
- 46:
+case 4:
             var7 = _closure1_slot1;
             var1 = var7.hasViewManagerConfig;
             var1 = var1.bind(var7)(var4);
-            if(var1) { _fun0001_ip = 121; continue _fun0001 }
- 67:
+            if(var1) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var1 = var3;
-            if(!var5) { _fun0001_ip = 182; continue _fun0001 }
- 73:
+            if(!var5) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var9 = _closure1_slot3;
             var7 = var9.warn;
             var5 = global;
@@ -80,27 +80,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var11.bind(var10)(var4, var5);
             var5 = var7.bind(var9)(var5);
             var1 = var3;
-            _fun0001_ip = 182; continue _fun0001;
- 121:
+            _fun0001_ip = 8; continue _fun0001;
+case 6:
             var5 = _closure1_slot4;
             var3 = var5.has;
             var3 = var3.bind(var5)(var4);
-            if(var3) { _fun0001_ip = 168; continue _fun0001 }
- 138:
+            if(var3) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var5 = _closure1_slot4;
             var3 = var5.set;
             var7 = null;
-            if(!(var7 == var6)) { _fun0001_ip = 162; continue _fun0001 }
- 153:
+            if(!(var7 == var6)) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var7 = _closure1_slot0;
             var6 = var7.bind(var8)(var4);
- 162:
+case 12:
             var3 = var3.bind(var5)(var4, var6);
- 168:
+case 10:
             var3 = _closure1_slot4;
             var2 = var3.get;
             var1 = var2.bind(var3)(var4);
- 182:
+case 8:
             return var1;
         }
     };

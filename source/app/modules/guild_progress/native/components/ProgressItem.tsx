@@ -66,7 +66,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function ProgressItem(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var10 = var2.title;
             var11 = var2.source;
@@ -93,17 +93,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[3] = var7;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var2 = _closure2_slot3;
                     var4 = null;
                     var2 = var4 != var2;
-                    if(!var2) { _fun0002_ip = 24; continue _fun0002 }
- 16:
+                    if(!var2) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var3 = _closure2_slot2;
                     var2 = var4 != var3;
- 24:
-                    if(!var2) { _fun0002_ip = 104; continue _fun0002 }
- 27:
+case 2:
+                    if(!var2) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var5 = _closure1_slot1;
                     var4 = _closure1_slot2;
                     var3 = 6;
@@ -121,7 +121,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = _closure2_slot1;
                     var2['action_completed'] = var6;
                     var2 = var4.bind(var5)(var3, var2);
- 104:
+case 4:
                     var2 = _closure2_slot0;
                     var1 = undefined;
                     var2 = var2.bind(var1)();
@@ -147,10 +147,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = new Array(2);
             var13[0] = var14;
             var14 = undefined;
-            if(!var16) { _fun0001_ip = 209; continue _fun0001 }
- 203:
+            if(!var16) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var14 = var15.formCTAFullWidth;
- 209:
+case 6:
             var13[1] = var14;
             var5['style'] = var13;
             var5['onPress'] = var12;
@@ -161,16 +161,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = null;
             var10 = var7 == var9;
             var8 = undefined;
-            if(var10) { _fun0001_ip = 255; continue _fun0001 }
- 251:
+            if(var10) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var8 = var9.bind(var4)();
- 255:
+case 8:
             var9 = var7 != var8;
             var7 = null;
-            if(!var9) { _fun0001_ip = 267; continue _fun0001 }
- 264:
+            if(!var9) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var7 = var8;
- 267:
+case 10:
             var5['trailing'] = var7;
             var5 = var3.bind(var4)(var6, var5);
             var1['children'] = var5;

@@ -1,7 +1,7 @@
 // app/modules/main_tabs_v2/native/utils/getNavigationModalPresentation.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
         var5 = require;
         var3 = exports;
         var6 = dependencyMap;
@@ -22,32 +22,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = var5.bind(var1)(var8);
         var8 = var9.isAndroid;
         var8 = var8.bind(var9)();
-        if(var8) { _fun0001_ip = 115; continue _fun0001 }
- 78:
+        if(var8) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
         var8 = 2;
         var8 = var6[var8];
         var9 = var5.bind(var1)(var8);
         var8 = var9.isIpadOS;
         var9 = var8.bind(var9)();
         var8 = 'modal';
-        if(!var9) { _fun0001_ip = 113; continue _fun0001 }
- 107:
+        if(!var9) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
         var8 = 'fullScreenModal';
- 113:
-        _fun0001_ip = 153; continue _fun0001;
- 115:
+case 4:
+        _fun0001_ip = 6; continue _fun0001;
+case 2:
         var9 = 1;
         var9 = var6[var9];
         var10 = var5.bind(var1)(var9);
         var9 = var10.getIsWindowLarge;
         var10 = var9.bind(var10)();
         var9 = 'modal';
-        if(!var10) { _fun0001_ip = 150; continue _fun0001 }
- 144:
+        if(!var10) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
         var9 = 'fullScreenModal';
- 150:
+case 7:
         var8 = var9;
- 153:
+case 6:
         var4['presentation'] = var8;
         var7 = var6[var7];
         var8 = var5.bind(var1)(var7);
@@ -64,36 +64,36 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var5.bind(var6)(var4);
         var2 = function getNavigationModalPresentation() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var1 = arguments[0];
                 var6 = undefined;
-                if(!(var1 === var6)) { _fun0002_ip = 16; continue _fun0002 }
- 9:
+                if(!(var1 === var6)) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
                 var1 = _closure1_slot2;
- 16:
+case 9:
                 var2 = var1.presentation;
-                if(!(var2 === var6)) { _fun0002_ip = 39; continue _fun0002 }
- 26:
+                if(!(var2 === var6)) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
                 var3 = _closure1_slot2;
                 var2 = var3.presentation;
- 39:
+case 11:
                 var3 = var1.lockOrientation;
-                if(!(var3 === var6)) { _fun0002_ip = 78; continue _fun0002 }
- 49:
+                if(!(var3 === var6)) { _fun0002_ip = 3; continue _fun0002 }
+case 13:
                 var1 = _closure1_slot2;
                 var1 = var1.lockOrientation;
-                if(!var1) { _fun0002_ip = 75; continue _fun0002 }
- 65:
+                if(!var1) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
                 var4 = 'transparentModal';
                 var1 = var4 !== var2;
- 75:
+case 14:
                 var3 = var1;
- 78:
+case 3:
                 var1 = {};
                 var1['presentation'] = var2;
                 var2 = undefined;
-                if(!var3) { _fun0002_ip = 161; continue _fun0002 }
- 90:
+                if(!var3) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
                 var4 = _closure1_slot0;
                 var7 = _closure1_slot1;
                 var3 = 3;
@@ -106,12 +106,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var3.OrientationType;
                 var4 = var3.PORTRAIT;
                 var3 = 'landscape';
-                if(!(var5 === var4)) { _fun0002_ip = 158; continue _fun0002 }
- 152:
+                if(!(var5 === var4)) { _fun0002_ip = 18; continue _fun0002 }
+case 19:
                 var3 = 'portrait';
- 158:
+case 18:
                 var2 = var3;
- 161:
+case 16:
                 var1['orientation'] = var2;
                 return var1;
             }

@@ -143,7 +143,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[1] = var7;
         var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
                 var1 = 11;
@@ -160,11 +160,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var9 = null;
                 var10 = var9 == var7;
                 var7 = undefined;
-                if(var10) { _fun0001_ip = 77; continue _fun0001 }
- 68:
+                if(var10) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var10 = _closure2_slot1;
                 var7 = var10.id;
- 77:
+case 2:
                 var2['user_id'] = var7;
                 var12 = _closure1_slot6;
                 var11 = var12.isMember;
@@ -172,23 +172,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = _closure2_slot1;
                 var13 = var9 == var7;
                 var7 = undefined;
-                if(var13) { _fun0001_ip = 118; continue _fun0001 }
- 109:
+                if(var13) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var13 = _closure2_slot1;
                 var7 = var13.id;
- 118:
+case 4:
                 var7 = var11.bind(var12)(var10, var7);
                 var2['is_member'] = var7;
                 var7 = _closure2_slot1;
                 var9 = var9 == var7;
                 var7 = undefined;
-                if(var9) { _fun0001_ip = 152; continue _fun0001 }
- 142:
+                if(var9) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                 var8 = _closure2_slot1;
                 var7 = var8.nsfwAllowed;
- 152:
-                if(!var7) { _fun0001_ip = 191; continue _fun0001 }
- 155:
+case 6:
+                if(!var7) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
                 var9 = _closure1_slot0;
                 var10 = _closure1_slot2;
                 var8 = 12;
@@ -197,7 +197,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var9 = var8.ViewNsfwGuilds;
                 var8 = var9.getSetting;
                 var7 = var8.bind(var9)();
- 191:
+case 8:
                 var2['is_user_opted_in_to_age_restricted_servers'] = var7;
                 var6 = _closure1_slot8;
                 var6 = var6.MODAL;

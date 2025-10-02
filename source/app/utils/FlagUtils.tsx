@@ -72,42 +72,42 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['removeFlags'] = var4;
     var4 = function setFlag(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arg1;
             var4 = arg2;
             var1 = arg3;
-            if(var1) { _fun0001_ip = 29; continue _fun0001 }
- 15:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = _closure1_slot2;
             var1 = undefined;
             var1 = var3.bind(var1)(var5, var4);
-            _fun0001_ip = 41; continue _fun0001;
- 29:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var3 = _closure1_slot1;
             var2 = undefined;
             var1 = var3.bind(var2)(var5, var4);
- 41:
+case 4:
             return var1;
         }
     };
     var3['setFlag'] = var4;
     var2 = function toggleFlag(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var5 = arg1;
             var4 = arg2;
             var1 = _closure1_slot0;
             var3 = undefined;
             var1 = var1.bind(var3)(var5, var4);
-            if(var1) { _fun0002_ip = 36; continue _fun0002 }
- 24:
+            if(var1) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
             var1 = _closure1_slot1;
             var1 = var1.bind(var3)(var5, var4);
-            _fun0002_ip = 46; continue _fun0002;
- 36:
+            _fun0002_ip = 7; continue _fun0002;
+case 5:
             var2 = _closure1_slot2;
             var1 = var2.bind(var3)(var5, var4);
- 46:
+case 7:
             return var1;
         }
     };

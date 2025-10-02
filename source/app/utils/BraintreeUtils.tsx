@@ -104,18 +104,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['getBraintreeSDK'] = var4;
     var2 = function collectDeviceData() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = _closure1_slot2;
             var1 = var3.getClient;
             var4 = var1.bind(var3)();
             var1 = null;
-            if(!(var1 != var4)) { _fun0001_ip = 36; continue _fun0001 }
- 23:
+            if(!(var1 != var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = _closure1_slot5;
             var1 = undefined;
             var1 = var3.bind(var1)(var4);
-            _fun0001_ip = 63; continue _fun0001;
- 36:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var3 = _closure1_slot4;
             var2 = undefined;
             var4 = var3.bind(var2)();
@@ -148,7 +148,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var1 = var3.bind(var4)(var2);
- 63:
+case 4:
             return var1;
         }
     };

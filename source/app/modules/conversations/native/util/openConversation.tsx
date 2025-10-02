@@ -33,7 +33,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function openConversation(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var6 = arg1;
             var _closure2_slot0 = var6;
             var2 = {};
@@ -67,23 +67,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var6.messages;
             var2 = var2.length;
             var4 = 0;
-            if(!(var2 > var4)) { _fun0001_ip = 336; continue _fun0001 }
- 149:
+            if(!(var2 > var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var6.messages;
             var4 = var2[var4];
             var7 = var6.type;
             var2 = 'forum_thread';
-            if(!(var2 !== var7)) { _fun0001_ip = 203; continue _fun0001 }
- 174:
+            if(!(var2 !== var7)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var7 = var6.type;
             var2 = 'announcement';
-            if(!(var2 !== var7)) { _fun0001_ip = 203; continue _fun0001 }
- 187:
+            if(!(var2 !== var7)) { _fun0001_ip = 4; continue _fun0001 }
+case 6:
             var8 = var6.type;
             var7 = 'message';
             var2 = var4;
-            if(!(var7 === var8)) { _fun0001_ip = 239; continue _fun0001 }
- 203:
+            if(!(var7 === var8)) { _fun0001_ip = 7; continue _fun0001 }
+case 4:
             var7 = var6.messages;
             var6 = var7.find;
             var5 = function(arg1) {
@@ -96,12 +96,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var5 = var6.bind(var7)(var5);
             var6 = null;
-            if(!(var6 != var5)) { _fun0001_ip = 236; continue _fun0001 }
- 233:
+            if(!(var6 != var5)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var4 = var5;
- 236:
+case 8:
             var2 = var4;
- 239:
+case 7:
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
             var4 = 4;
@@ -125,7 +125,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = true;
             var12 = true;
             var2 = var16[var6](var15, var14, var13, var12, var11, var10);
- 336:
+case 2:
             return var1;
         }
     };

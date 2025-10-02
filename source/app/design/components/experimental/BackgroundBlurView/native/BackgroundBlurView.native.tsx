@@ -42,7 +42,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.forwardRef;
     var2 = function BackgroundBlurViewComponent(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var5 = var3.children;
             var8 = var3.style;
@@ -75,8 +75,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = arg2;
             var8 = 'ref';
             var1[var8] = var9;
-            if(!(var7 == var11)) { _fun0001_ip = 190; continue _fun0001 }
- 140:
+            if(!(var7 == var11)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var9 = _closure1_slot3;
             var8 = _closure1_slot0;
             var13 = _closure1_slot1;
@@ -88,8 +88,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7['blurTheme'] = var12;
             var7['android_blurTargetViewNativeId'] = var10;
             var7 = var9.bind(var4)(var8, var7);
-            _fun0001_ip = 243; continue _fun0001;
- 190:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var9 = _closure1_slot3;
             var8 = _closure1_slot0;
             var13 = _closure1_slot1;
@@ -102,7 +102,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6['pressed'] = var11;
             var6['android_blurTargetViewNativeId'] = var10;
             var7 = var9.bind(var4)(var8, var6);
- 243:
+case 4:
             var6 = new Array(2);
             var6[0] = var7;
             var6[1] = var5;

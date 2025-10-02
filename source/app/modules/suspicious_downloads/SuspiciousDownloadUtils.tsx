@@ -59,7 +59,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function isSuspiciousDownload(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = undefined;
             var5 = undefined;
             var13 = undefined;
@@ -80,41 +80,41 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = arg1;
             var14 = var14.bind(var15)(var1);
             var1 = null;
-            if(!(var1 == var14)) { _fun0001_ip = 67; continue _fun0001 }
- 65:
+            if(!(var1 == var14)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var14 = {};
- 67:
+case 2:
             var13 = var14.pathname;
             var15 = var14.hostname;
-            if(!(var1 != var15)) { _fun0001_ip = 397; continue _fun0001 }
- 86:
+            if(!(var1 != var15)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var14 = _closure1_slot3;
             var17 = var14[var15];
-            if(!(var1 != var17)) { _fun0001_ip = 123; continue _fun0001 }
- 98:
+            if(!(var1 != var17)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var14 = var13;
-            if(!(var1 != var14)) { _fun0001_ip = 123; continue _fun0001 }
- 105:
+            if(!(var1 != var14)) { _fun0001_ip = 6; continue _fun0001 }
+case 8:
             var15 = var17.test;
             var14 = var13;
             var14 = var15.bind(var17)(var14);
-            if(var14) { _fun0001_ip = 123; continue _fun0001 }
- 121:
+            if(var14) { _fun0001_ip = 6; continue _fun0001 }
+case 9:
             return var1;
- 123:
+case 6:
             var14 = var13;
-            if(!(var1 != var14)) { _fun0001_ip = 395; continue _fun0001 }
- 133:
+            if(!(var1 != var14)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var9 = var13;
- 136: // try_start_0
+case 12: // try_start_0
             var14 = global;
             var14 = var14.decodeURIComponent;
             var9 = var14.bind(var2)(var13);
- 149: // try_end0
-            _fun0001_ip = 153; continue _fun0001;
- 151: // catch_target0
+case 13: // try_end0
+            _fun0001_ip = 14; continue _fun0001;
+case 15: // catch_target0
             CatchBlockStart(arg_register=12);
- 153:
+case 14:
             var14 = var9;
             var13 = var14.split;
             var9 = '/';
@@ -129,82 +129,82 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = '..';
             var9 = '.';
             var13 = '';
-            if(!(var12 >= var15)) { _fun0001_ip = 279; continue _fun0001 }
- 209:
+            if(!(var12 >= var15)) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var17 = var10;
             var12 = var11;
             var12 = var17[var12];
             var16 = var12;
-            if(!(var13 !== var12)) { _fun0001_ip = 246; continue _fun0001 }
- 226:
+            if(!(var13 !== var12)) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
             var12 = var16;
-            if(!(var9 !== var12)) { _fun0001_ip = 246; continue _fun0001 }
- 233:
+            if(!(var9 !== var12)) { _fun0001_ip = 18; continue _fun0001 }
+case 20:
             var12 = var16;
-            if(!(var14 === var12)) { _fun0001_ip = 261; continue _fun0001 }
- 240:
+            if(!(var14 === var12)) { _fun0001_ip = 21; continue _fun0001 }
+case 22:
             var12 = var8;
             var8 = var12 + 1;
- 246:
+case 18:
             var12 = var11;
             var12 = var12 - 1;
             var11 = var12;
-            if(var12 >= var15) { _fun0001_ip = 209; continue _fun0001 }
- 259:
-            _fun0001_ip = 279; continue _fun0001;
- 261:
+            if(var12 >= var15) { _fun0001_ip = 17; continue _fun0001 }
+case 23:
+            _fun0001_ip = 16; continue _fun0001;
+case 21:
             var13 = var8;
             var12 = var11;
-            if(!(!(var13 > var12))) { _fun0001_ip = 279; continue _fun0001 }
- 271:
+            if(!(!(var13 > var12))) { _fun0001_ip = 16; continue _fun0001 }
+case 24:
             var8 = var11 - var8;
             var7 = var10[var8];
- 279:
+case 16:
             var8 = var7;
-            if(!(var1 != var8)) { _fun0001_ip = 393; continue _fun0001 }
- 286:
+            if(!(var1 != var8)) { _fun0001_ip = 25; continue _fun0001 }
+case 26:
             var8 = var7;
             var7 = var8.split;
             var7 = var7.bind(var8)(var9);
             var6 = var7;
             var8 = var7.length;
             var7 = 2;
-            if(!(!(var8 < var7))) { _fun0001_ip = 391; continue _fun0001 }
- 314:
+            if(!(!(var8 < var7))) { _fun0001_ip = 27; continue _fun0001 }
+case 28:
             var7 = var6;
             var6 = var7.pop;
             var6 = var6.bind(var7)();
             var5 = var6;
             var6 = var1 == var6;
             var2 = undefined;
-            if(var6) { _fun0001_ip = 352; continue _fun0001 }
- 339:
+            if(var6) { _fun0001_ip = 29; continue _fun0001 }
+case 30:
             var6 = var5;
             var5 = var6.toLowerCase;
             var2 = var5.bind(var6)();
- 352:
+case 29:
             var3 = var2;
             var5 = var1 != var2;
             var2 = null;
-            if(!var5) { _fun0001_ip = 389; continue _fun0001 }
- 364:
+            if(!var5) { _fun0001_ip = 31; continue _fun0001 }
+case 32:
             var6 = _closure1_slot2;
             var5 = var6.has;
             var4 = var3;
             var4 = var5.bind(var6)(var4);
             var2 = null;
-            if(!var4) { _fun0001_ip = 389; continue _fun0001 }
- 386:
+            if(!var4) { _fun0001_ip = 31; continue _fun0001 }
+case 33:
             var2 = var3;
- 389:
+case 31:
             return var2;
- 391:
+case 27:
             return var1;
- 393:
+case 25:
             return var1;
- 395:
+case 10:
             return var1;
- 397:
+case 4:
             return var1;
         }
     };

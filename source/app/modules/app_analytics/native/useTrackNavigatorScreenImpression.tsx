@@ -24,20 +24,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useTrackNavigatorScreenImpression(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var5 = var1.impressionName;
             var3 = var1.impressionProperties;
             var2 = 'function';
             var1 = typeof var3;
             var4 = var3;
-            if(!(var2 === var1)) { _fun0001_ip = 45; continue _fun0001 }
- 29:
+            if(!(var2 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = arg2;
             var2 = var1.params;
             var1 = undefined;
             var4 = var3.bind(var1)(var2);
- 45:
+case 2:
             var3 = _closure1_slot1;
             var8 = _closure1_slot2;
             var1 = 0;

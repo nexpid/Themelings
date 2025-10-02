@@ -31,21 +31,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['requiredFirstCharacters'] = var7;
     var7 = function match(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var6 = arg3;
             var1 = null;
-            if(!(var1 != var6)) { _fun0001_ip = 44; continue _fun0001 }
- 9:
+            if(!(var1 != var6)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = '';
-            if(!(var2 !== var6)) { _fun0001_ip = 44; continue _fun0001 }
- 17:
+            if(!(var2 !== var6)) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var3 = var6.match;
             var2 = _closure1_slot2;
             var2 = var3.bind(var6)(var2);
             var2 = var1 != var2;
             var1 = null;
-            if(!var2) { _fun0001_ip = 96; continue _fun0001 }
- 44:
+            if(!var2) { _fun0001_ip = 5; continue _fun0001 }
+case 2:
             var4 = _closure1_slot0;
             var5 = _closure1_slot1;
             var3 = 0;
@@ -58,7 +58,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = arg1;
             var2 = arg2;
             var1 = var4.bind(var5)(var3, var2, var6);
- 96:
+case 5:
             return var1;
         }
     };

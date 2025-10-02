@@ -64,7 +64,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = var7.bind(var8)(var6);
     var6 = function getSanitizedRestrictedGuilds() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
             var2 = 3;
@@ -78,8 +78,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var1.totalUnavailableGuilds;
             var1 = 0;
             var3 = var4;
-            if(!(var1 === var2)) { _fun0001_ip = 77; continue _fun0001 }
- 60:
+            if(!(var1 === var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var4.filter;
             var1 = function(arg1) {
                 var3 = _closure1_slot4;
@@ -91,7 +91,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var3 = var2.bind(var4)(var1);
- 77:
+case 2:
             var1 = global;
             var1 = var1.Set;
             var2 = var1.prototype;
@@ -106,7 +106,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['getSanitizedRestrictedGuilds'] = var6;
     var6 = function getSanitizedMessageRequestRestrictedGuilds() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
             var2 = 3;
@@ -120,8 +120,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var1.totalUnavailableGuilds;
             var1 = 0;
             var3 = var4;
-            if(!(var1 === var2)) { _fun0002_ip = 77; continue _fun0002 }
- 60:
+            if(!(var1 === var2)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
             var2 = var4.filter;
             var1 = function(arg1) {
                 var3 = _closure1_slot4;
@@ -133,7 +133,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var3 = var2.bind(var4)(var1);
- 77:
+case 2:
             var1 = global;
             var1 = var1.Set;
             var2 = var1.prototype;
@@ -148,7 +148,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['getSanitizedMessageRequestRestrictedGuilds'] = var6;
     var6 = function getSanitizedActivityRestrictedGuilds() {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
             var2 = 3;
@@ -162,8 +162,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var1.totalUnavailableGuilds;
             var1 = 0;
             var3 = var4;
-            if(!(var1 === var2)) { _fun0003_ip = 77; continue _fun0003 }
- 60:
+            if(!(var1 === var2)) { _fun0003_ip = 2; continue _fun0003 }
+case 3:
             var2 = var4.filter;
             var1 = function(arg1) {
                 var3 = _closure1_slot4;
@@ -175,7 +175,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var3 = var2.bind(var4)(var1);
- 77:
+case 2:
             var1 = global;
             var1 = var1.Set;
             var2 = var1.prototype;
@@ -190,7 +190,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['getSanitizedActivityRestrictedGuilds'] = var6;
     var6 = function getSanitizedActivityJoiningRestrictedGuilds() {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
             var2 = 3;
@@ -204,8 +204,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var1.totalUnavailableGuilds;
             var1 = 0;
             var3 = var4;
-            if(!(var1 === var2)) { _fun0004_ip = 77; continue _fun0004 }
- 60:
+            if(!(var1 === var2)) { _fun0004_ip = 2; continue _fun0004 }
+case 3:
             var2 = var4.filter;
             var1 = function(arg1) {
                 var3 = _closure1_slot4;
@@ -217,7 +217,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var3 = var2.bind(var4)(var1);
- 77:
+case 2:
             var1 = global;
             var1 = var1.Set;
             var2 = var1.prototype;
@@ -232,12 +232,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['getSanitizedActivityJoiningRestrictedGuilds'] = var6;
     var6 = function computeFlags(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
             var4 = arg1;
             var3 = _closure1_slot7;
             var1 = var4 & var3;
-            if(!(var1 !== var3)) { _fun0005_ip = 83; continue _fun0005 }
- 18:
+            if(!(var1 !== var3)) { _fun0005_ip = 4; continue _fun0005 }
+case 5:
             var1 = {};
             var3 = false;
             var1['all'] = var3;
@@ -252,33 +252,33 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.MUTUAL_GUILDS;
             var2 = var3 === var2;
             var1['mutualGuilds'] = var2;
-            _fun0005_ip = 97; continue _fun0005;
- 83:
+            _fun0005_ip = 6; continue _fun0005;
+case 4:
             var1 = {'all': true, 'mutualFriends': true, 'mutualGuilds': true};
- 97:
+case 6:
             return var1;
         }
     };
     var3['computeFlags'] = var6;
     var6 = function harvestDisabled(arg1, arg2) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
- 0:
+case 0:
             var4 = arg1;
             var3 = arg2;
             var1 = var3.verified;
             var1 = !var1;
-            if(var1) { _fun0006_ip = 126; continue _fun0006 }
- 18:
+            if(var1) { _fun0006_ip = 7; continue _fun0006 }
+case 5:
             var2 = var3.isStaff;
             var2 = var2.bind(var3)();
             var3 = !var2;
             var2 = !var3;
-            if(!var3) { _fun0006_ip = 123; continue _fun0006 }
- 37:
+            if(!var3) { _fun0006_ip = 8; continue _fun0006 }
+case 9:
             var3 = null;
             var3 = var3 != var4;
-            if(!var3) { _fun0006_ip = 120; continue _fun0006 }
- 46:
+            if(!var3) { _fun0006_ip = 10; continue _fun0006 }
+case 11:
             var5 = _closure1_slot8;
             var7 = global;
             var8 = var7.Date;
@@ -295,11 +295,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.bind(var7)();
             var4 = var6 - var4;
             var3 = var5 > var4;
- 120:
+case 10:
             var2 = var3;
- 123:
+case 8:
             var1 = var2;
- 126:
+case 7:
             return var1;
         }
     };

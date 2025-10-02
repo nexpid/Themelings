@@ -77,46 +77,46 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = function* () {
                 var1 = function* anon_0_() {
                     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0001_ip = 99; continue _fun0001 }
- 7:
+                        if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                         var5 = _closure2_slot2;
                         var2 = undefined;
                         var4 = true;
                         var4 = var5.bind(var2)(var4);
- 23: // try_start_0
+case 4: // try_start_0
                         var4 = _closure2_slot0;
                         var4 = var4.bind(var2)();
                         SaveGenerator(address=35);
- 33:
+case 5:
                         return var4;
- 35:
+case 6:
                         ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                        if(var5) { _fun0001_ip = 66; continue _fun0001 }
- 41:
+                        if(var5) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
                         var5 = var4.shouldShowError;
-                        if(!var5) { _fun0001_ip = 64; continue _fun0001 }
- 50:
+                        if(!var5) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
                         var6 = _closure2_slot1;
                         var5 = var6.pop;
                         var5 = var5.bind(var6)();
- 64: // try_end0
-                        _fun0001_ip = 85; continue _fun0001;
- 66:
+case 9: // try_end0
+                        _fun0001_ip = 11; continue _fun0001;
+case 7:
                         return var4;
- 69: // catch_target0
+case 12: // catch_target0
                         CatchBlockStart(arg_register=3);
                         var5 = _closure2_slot1;
                         var4 = var5.pop;
                         var4 = var4.bind(var5)();
- 85:
+case 11:
                         var4 = _closure2_slot2;
                         var3 = false;
                         var3 = var4.bind(var2)(var3);
                         return var2;
- 99:
+case 2:
                         return var1;
                     }
                 };

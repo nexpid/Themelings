@@ -10,12 +10,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var8 = function flushDelayLogs() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = _closure1_slot5;
             var3 = var1.length;
             var1 = 0;
-            if(!(var1 !== var3)) { _fun0001_ip = 161; continue _fun0001 }
- 21:
+            if(!(var1 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = _closure1_slot4;
             var4 = var5.warn;
             var1 = _closure1_slot5;
@@ -46,7 +46,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var4.bind(var5)(var3, var1);
             var1 = new Array(0);
             _closure1_slot5 = var1;
- 161:
+case 2:
             var1 = undefined;
             return var1;
         }
@@ -54,7 +54,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot7 = var8;
     var1 = function onTimersDelayCallback(arg1, arg2, arg3, arg4) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var4 = _closure1_slot5;
             var3 = var4.push;
             var2 = {};
@@ -70,17 +70,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = _closure1_slot5;
             var3 = var2.length;
             var2 = 10;
-            if(!(!(var3 >= var2))) { _fun0002_ip = 87; continue _fun0002 }
- 75:
+            if(!(!(var3 >= var2))) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var3 = _closure1_slot6;
             var2 = undefined;
             var2 = var3.bind(var2)();
-            _fun0002_ip = 97; continue _fun0002;
- 87:
+            _fun0002_ip = 6; continue _fun0002;
+case 4:
             var2 = _closure1_slot7;
             var1 = undefined;
             var1 = var2.bind(var1)();
- 97:
+case 6:
             var1 = undefined;
             return var1;
         }

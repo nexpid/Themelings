@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function SearchFreezeContainer(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var9 = var1.visible;
             var8 = var1.children;
@@ -32,13 +32,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = {};
             var10 = new Array(2);
             var10[0] = var11;
-            if(var9) { _fun0001_ip = 102; continue _fun0001 }
- 94:
+            if(var9) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var11 = var12.hidden;
-            _fun0001_ip = 108; continue _fun0001;
- 102:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var11 = var12.visible;
- 108:
+case 4:
             var10[1] = var11;
             var5['style'] = var10;
             var9 = !var9;

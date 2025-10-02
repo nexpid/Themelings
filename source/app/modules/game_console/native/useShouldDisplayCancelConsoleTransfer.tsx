@@ -4,12 +4,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = dependencyMap;
     var1 = function shouldDisplayCancel(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = null;
             var1 = var1 != var2;
-            if(!var1) { _fun0001_ip = 49; continue _fun0001 }
- 12:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = global;
             var4 = var3.Date;
             var3 = var4.now;
@@ -18,7 +18,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3 - var2;
             var2 = 6000;
             var1 = var3 > var2;
- 49:
+case 2:
             return var1;
         }
     };
@@ -76,7 +76,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3[0] = var6;
         var2 = function() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var4 = _closure1_slot2;
                 var6 = _closure2_slot0;
                 var1 = undefined;
@@ -84,10 +84,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = _closure2_slot1;
                 var5 = var5.bind(var1)(var4);
                 var5 = null;
-                if(!(var5 != var6)) { _fun0002_ip = 114; continue _fun0002 }
- 38:
-                if(var4) { _fun0002_ip = 114; continue _fun0002 }
- 41:
+                if(!(var5 != var6)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
+                if(var4) { _fun0002_ip = 4; continue _fun0002 }
+case 6:
                 var4 = global;
                 var5 = var4.setTimeout;
                 var6 = var4.Date;
@@ -118,7 +118,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 return var2;
- 114:
+case 4:
                 return var1;
             }
         };

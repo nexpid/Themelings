@@ -9,27 +9,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var5;
     var2 = function getDurationString(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var11 = var1.seconds;
             var1 = var1.getFormatter;
             var5 = undefined;
             var2 = var1.bind(var5)();
             var8 = 60;
-            if(!(!(var11 < var8))) { _fun0001_ip = 458; continue _fun0001 }
- 31:
+            if(!(!(var11 < var8))) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var9 = 3600;
-            if(!(!(var11 < var9))) { _fun0001_ip = 382; continue _fun0001 }
- 44:
+            if(!(!(var11 < var9))) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var10 = 86400;
-            if(!(!(var11 < var10))) { _fun0001_ip = 306; continue _fun0001 }
- 57:
+            if(!(!(var11 < var10))) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var1 = _closure1_slot3;
-            if(!(!(var11 < var1))) { _fun0001_ip = 233; continue _fun0001 }
- 71:
+            if(!(!(var11 < var1))) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var1 = _closure1_slot4;
-            if(!(!(var11 < var1))) { _fun0001_ip = 156; continue _fun0001 }
- 79:
+            if(!(!(var11 < var1))) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var4 = _closure1_slot0;
             var6 = _closure1_slot2;
             var1 = 0;
@@ -47,8 +47,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var13.bind(var14)(var12);
             var1['years'] = var12;
             var1 = var6.bind(var7)(var4, var1);
-            _fun0001_ip = 231; continue _fun0001;
- 156:
+            _fun0001_ip = 12; continue _fun0001;
+case 10:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var4 = 0;
@@ -66,9 +66,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var14.bind(var15)(var13);
             var4['months'] = var13;
             var1 = var7.bind(var12)(var6, var4);
- 231:
-            _fun0001_ip = 304; continue _fun0001;
- 233:
+case 12:
+            _fun0001_ip = 13; continue _fun0001;
+case 8:
             var4 = _closure1_slot0;
             var6 = _closure1_slot2;
             var3 = 0;
@@ -85,9 +85,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var12.bind(var13)(var10);
             var3['days'] = var10;
             var1 = var6.bind(var7)(var4, var3);
- 304:
-            _fun0001_ip = 380; continue _fun0001;
- 306:
+case 13:
+            _fun0001_ip = 14; continue _fun0001;
+case 6:
             var4 = _closure1_slot0;
             var6 = _closure1_slot2;
             var3 = 0;
@@ -104,9 +104,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var10.bind(var12)(var9);
             var3['hours'] = var9;
             var1 = var6.bind(var7)(var4, var3);
- 380:
-            _fun0001_ip = 456; continue _fun0001;
- 382:
+case 14:
+            _fun0001_ip = 15; continue _fun0001;
+case 4:
             var4 = _closure1_slot0;
             var6 = _closure1_slot2;
             var3 = 0;
@@ -123,9 +123,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var9.bind(var10)(var8);
             var3['minutes'] = var8;
             var1 = var6.bind(var7)(var4, var3);
- 456:
-            _fun0001_ip = 512; continue _fun0001;
- 458:
+case 15:
+            _fun0001_ip = 16; continue _fun0001;
+case 2:
             var4 = _closure1_slot0;
             var6 = _closure1_slot2;
             var3 = 0;
@@ -138,7 +138,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = 1;
             var2['minutes'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 512:
+case 16:
             return var1;
         }
     };

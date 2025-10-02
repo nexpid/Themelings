@@ -11,27 +11,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot3 = var7;
     var2 = function getClientInfoString(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = null;
             var3 = var1 == var2;
             var4 = 'N/A';
             var1 = var4;
-            if(var3) { _fun0001_ip = 35; continue _fun0001 }
- 21:
+            if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = '';
             var1 = var4;
-            if(!(var3 !== var2)) { _fun0001_ip = 35; continue _fun0001 }
- 32:
+            if(!(var3 !== var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var1 = var2;
- 35:
+case 2:
             return var1;
         }
     };
     var _closure1_slot9 = var2;
     var1 = function getClientInfo() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var3 = _closure1_slot4;
             var1 = var3.getCurrentBuildOverride;
             var1 = var1.bind(var3)();
@@ -40,8 +40,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var8 == var3;
             var4 = undefined;
             var6 = undefined;
-            if(var1) { _fun0002_ip = 66; continue _fun0002 }
- 36:
+            if(var1) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
             var5 = _closure1_slot1;
             var7 = _closure1_slot3;
             var1 = 5;
@@ -49,7 +49,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var5.bind(var4)(var1);
             var1 = var1.DEVICE_FIELD;
             var6 = var3[var1];
- 66:
+case 5:
             var1 = _closure1_slot8;
             var3 = var1.Manifest;
             var1 = var3.trim;
@@ -59,20 +59,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var3 > var1;
             var3 = 'N/A';
             var5 = var3;
-            if(!var1) { _fun0002_ip = 119; continue _fun0002 }
- 109:
+            if(!var1) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
             var1 = _closure1_slot8;
             var5 = var1.Manifest;
- 119:
+case 7:
             var1 = _closure1_slot9;
             var7 = _closure1_slot8;
             var7 = var7.Build;
             var7 = var1.bind(var4)(var7);
             var8 = var8 != var6;
-            if(!var8) { _fun0002_ip = 150; continue _fun0002 }
- 145:
+            if(!var8) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
             var3 = var6.id;
- 150:
+case 9:
             var6 = var1.bind(var4)(var3);
             var1 = {};
             var3 = _closure1_slot9;
@@ -111,7 +111,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot11 = var1;
     var1 = function ClientClientInfoActionSheet() {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var4 = _closure1_slot7;
             var11 = _closure1_slot1;
             var13 = _closure1_slot3;
@@ -305,8 +305,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var11.isFabric;
             var11 = var10.bind(var11)();
             var10 = null;
-            if(!var11) { _fun0003_ip = 890; continue _fun0003 }
- 723:
+            if(!var11) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
             var15 = _closure1_slot7;
             var13 = _closure1_slot6;
             var11 = {};
@@ -339,22 +339,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var21 = _closure1_slot0;
             var23 = var21._IS_BRIDGELESS;
             var21 = 'Disabled';
-            if(!var23) { _fun0003_ip = 854; continue _fun0003 }
- 851:
+            if(!var23) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
             var21 = var22;
- 854:
+case 13:
             var18['subLabel'] = var21;
             var21 = function onPress() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                     var3 = _closure1_slot11;
                     var1 = _closure1_slot0;
                     var1 = var1._IS_BRIDGELESS;
                     var5 = 'disabled';
-                    if(!var1) { _fun0004_ip = 28; continue _fun0004 }
- 24:
+                    if(!var1) { _fun0004_ip = 15; continue _fun0004 }
+case 16:
                     var5 = 'enabled';
- 28:
+case 15:
                     var1 = global;
                     var1 = var1.HermesInternal;
                     var4 = var1.concat;
@@ -371,7 +371,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16[1] = var18;
             var11['children'] = var16;
             var10 = var15.bind(var3)(var13, var11);
- 890:
+case 11:
             var8[5] = var10;
             var5['children'] = var8;
             var6 = var7.bind(var3)(var6, var5);

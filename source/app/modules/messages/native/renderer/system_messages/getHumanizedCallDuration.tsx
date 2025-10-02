@@ -20,24 +20,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var4.bind(var5)(var2);
     var2 = function getHumanizedCallDuration(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var3 = var2.call;
             var1 = null;
             var4 = var1 != var3;
             var3 = null;
-            if(!var4) { _fun0001_ip = 29; continue _fun0001 }
- 19:
+            if(!var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var2.call;
             var3 = var2.duration;
- 29:
+case 2:
             var2 = var1 != var3;
             var1 = null;
-            if(!var2) { _fun0001_ip = 48; continue _fun0001 }
- 38:
+            if(!var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = var3.humanize;
             var1 = var2.bind(var3)();
- 48:
+case 4:
             return var1;
         }
     };

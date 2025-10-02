@@ -66,7 +66,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var4.useCallback;
         var2 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var2 = _closure1_slot1;
                 var4 = _closure1_slot2;
                 var1 = 4;
@@ -83,8 +83,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var6.bind(var7)(var5, var1);
                 var1 = var1.paymentsBlocked;
                 var1 = !var1;
-                if(var1) { _fun0001_ip = 96; continue _fun0001 }
- 70:
+                if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var5 = _closure1_slot1;
                 var6 = _closure1_slot2;
                 var3 = 5;
@@ -92,7 +92,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var5.bind(var4)(var3);
                 var3 = var3.bind(var4)();
                 var1 = false;
- 96:
+case 2:
                 return var1;
             }
         };

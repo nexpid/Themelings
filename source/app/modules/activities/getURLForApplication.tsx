@@ -5,45 +5,45 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = dependencyMap;
     var4 = function getNonTestModeUrlForApplication(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = global;
             var1 = var2.window;
             var1 = var1.GLOBAL_ENV;
             var6 = var1.ACTIVITY_APPLICATION_HOST;
             var1 = null;
             var3 = var1 == var6;
-            if(var3) { _fun0001_ip = 60; continue _fun0001 }
- 29:
+            if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var2.HermesInternal;
             var5 = var2.concat;
             var4 = 'https://';
             var3 = arg1;
             var2 = '.';
             var1 = var5.bind(var4)(var3, var2, var6);
- 60:
+case 2:
             return var1;
         }
     };
     var _closure1_slot2 = var4;
     var2 = function isUsingDevShelfActivityUrlOverride() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var2 = _closure1_slot1;
             var1 = var2.getState;
             var2 = var1.bind(var2)();
             var1 = var2.useActivityUrlOverride;
-            if(!var1) { _fun0002_ip = 38; continue _fun0002 }
- 26:
+            if(!var1) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var4 = var2.activityUrlOverride;
             var3 = null;
             var1 = var3 != var4;
- 38:
-            if(!var1) { _fun0002_ip = 55; continue _fun0002 }
- 41:
+case 4:
+            if(!var1) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var3 = var2.activityUrlOverride;
             var2 = '';
             var1 = var2 !== var3;
- 55:
+case 6:
             return var1;
         }
     };
@@ -74,32 +74,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = var7.bind(var8)(var6);
     var5 = function getURLForApplication(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var4 = arg1;
             var1 = _closure1_slot3;
             var3 = undefined;
             var1 = var1.bind(var3)();
-            if(var1) { _fun0003_ip = 64; continue _fun0003 }
- 19:
+            if(var1) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
             var5 = _closure1_slot0;
             var1 = var5.inTestModeForEmbeddedApplication;
             var1 = var1.bind(var5)(var4);
-            if(var1) { _fun0003_ip = 50; continue _fun0003 }
- 39:
+            if(var1) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
             var1 = _closure1_slot2;
             var1 = var1.bind(var3)(var4);
-            _fun0003_ip = 62; continue _fun0003;
- 50:
+            _fun0003_ip = 12; continue _fun0003;
+case 10:
             var3 = _closure1_slot0;
             var1 = var3.testModeOriginURL;
- 62:
-            _fun0003_ip = 84; continue _fun0003;
- 64:
+case 12:
+            _fun0003_ip = 13; continue _fun0003;
+case 8:
             var3 = _closure1_slot1;
             var2 = var3.getState;
             var2 = var2.bind(var3)();
             var1 = var2.activityUrlOverride;
- 84:
+case 13:
             return var1;
         }
     };

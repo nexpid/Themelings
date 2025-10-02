@@ -22,15 +22,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function getIsSearchAuthorTypeFilterEnabled(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var5 = var1.location;
             var4 = var1.autoTrackExposure;
             var3 = undefined;
-            if(!(var4 === var3)) { _fun0001_ip = 22; continue _fun0001 }
- 20:
+            if(!(var4 === var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = true;
- 22:
+case 2:
             var2 = _closure1_slot0;
             var6 = _closure1_slot1;
             var1 = 0;
@@ -48,15 +48,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['getIsSearchAuthorTypeFilterEnabled'] = var4;
     var2 = function useIsSearchAuthorTypeFilterEnabled(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var5 = var1.location;
             var4 = var1.autoTrackExposure;
             var3 = undefined;
-            if(!(var4 === var3)) { _fun0002_ip = 22; continue _fun0002 }
- 20:
+            if(!(var4 === var3)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
             var4 = true;
- 22:
+case 2:
             var2 = _closure1_slot0;
             var6 = _closure1_slot1;
             var1 = 0;

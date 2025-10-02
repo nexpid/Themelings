@@ -89,7 +89,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['useValue'] = var7;
     var4 = function onValueChange(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = _closure1_slot2;
             var1 = undefined;
             var4 = var3.bind(var1)();
@@ -101,15 +101,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var5.getSanitizedActivityJoiningRestrictedGuilds;
             var6 = var3.bind(var5)();
             var3 = arg1;
-            if(var3) { _fun0001_ip = 61; continue _fun0001 }
- 49:
+            if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = var6.add;
             var3 = var3.bind(var6)(var4);
-            _fun0001_ip = 71; continue _fun0001;
- 61:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var3 = var6.delete;
             var3 = var3.bind(var6)(var4);
- 71:
+case 4:
             var3 = _closure1_slot0;
             var4 = _closure1_slot1;
             var2 = 3;

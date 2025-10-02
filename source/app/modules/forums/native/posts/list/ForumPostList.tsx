@@ -62,7 +62,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function ForumPostList(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var22 = var1.messageContent;
             var11 = var1.firstMessage;
@@ -104,21 +104,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var24.content;
             var5['style'] = var7;
             var7 = var16;
-            if(var16) { _fun0001_ip = 201; continue _fun0001 }
- 192:
+            if(var16) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var8 = var29.length;
             var7 = var25 !== var8;
- 201:
-            if(!var7) { _fun0001_ip = 351; continue _fun0001 }
- 207:
+case 2:
+            if(!var7) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var15 = _closure1_slot7;
             var14 = _closure1_slot4;
             var8 = {};
             var24 = var24.header;
             var8['style'] = var24;
             var24 = var16;
-            if(!var24) { _fun0001_ip = 264; continue _fun0001 }
- 232:
+            if(!var24) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var27 = _closure1_slot6;
             var26 = _closure1_slot1;
             var30 = _closure1_slot2;
@@ -127,13 +127,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var26 = var26.bind(var4)(var16);
             var16 = {};
             var24 = var27.bind(var4)(var26, var16);
- 264:
+case 6:
             var16 = new Array(2);
             var16[0] = var24;
             var24 = var29.length;
             var24 = var25 !== var24;
-            if(!var24) { _fun0001_ip = 337; continue _fun0001 }
- 284:
+            if(!var24) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var27 = _closure1_slot6;
             var26 = _closure1_slot0;
             var30 = _closure1_slot2;
@@ -146,11 +146,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var25['additionalTagsCount'] = var28;
             var25['hasUnreads'] = var10;
             var24 = var27.bind(var4)(var26, var25);
- 337:
+case 8:
             var16[1] = var24;
             var8['children'] = var16;
             var7 = var15.bind(var4)(var14, var8);
- 351:
+case 4:
             var14 = new Array(2);
             var14[0] = var7;
             var8 = _closure1_slot6;

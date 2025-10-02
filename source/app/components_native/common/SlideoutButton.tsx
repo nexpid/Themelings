@@ -61,7 +61,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot6 = var4;
     var2 = function SlideoutButton(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var5 = var1.onPress;
             var17 = var1.color;
@@ -69,10 +69,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var1.title;
             var16 = var1.height;
             var4 = undefined;
-            if(!(var16 === var4)) { _fun0001_ip = 37; continue _fun0001 }
- 34:
+            if(!(var16 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var16 = 60;
- 37:
+case 2:
             var3 = _closure1_slot4;
             var10 = _closure1_slot0;
             var13 = _closure1_slot2;

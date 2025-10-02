@@ -69,7 +69,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function GiftCodeRedeemError(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var15 = var1.message;
             var1 = _closure1_slot8;
@@ -104,17 +104,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var12.dark;
             var14 = _closure1_slot1;
             var16 = _closure1_slot2;
-            if(var12) { _fun0001_ip = 154; continue _fun0001 }
- 140:
+            if(var12) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var12 = 8;
             var12 = var16[var12];
             var12 = var14.bind(var4)(var12);
-            _fun0001_ip = 166; continue _fun0001;
- 154:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var13 = 7;
             var13 = var16[var13];
             var12 = var14.bind(var4)(var13);
- 166:
+case 4:
             var7['source'] = var12;
             var8 = var11.bind(var4)(var8, var7);
             var7 = new Array(3);

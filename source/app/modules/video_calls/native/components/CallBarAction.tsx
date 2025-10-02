@@ -112,14 +112,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot13 = var4;
     var4 = function ActionButton(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var19 = var2.appearsDisabled;
             var4 = undefined;
-            if(!(var19 === var4)) { _fun0001_ip = 19; continue _fun0001 }
- 17:
+            if(!(var19 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var19 = false;
- 19:
+case 2:
             var15 = var2.backgroundColor;
             var27 = var2.imageStyle;
             var1 = var2.onPress;
@@ -128,15 +128,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var2.accessibilityState;
             var28 = var2.source;
             var11 = var2.showBadge;
-            if(!(var11 === var4)) { _fun0001_ip = 67; continue _fun0001 }
- 65:
+            if(!(var11 === var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var11 = false;
- 67:
+case 4:
             var1 = var2.isSmallSize;
-            if(!(var1 === var4)) { _fun0001_ip = 79; continue _fun0001 }
- 77:
+            if(!(var1 === var4)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var1 = false;
- 79:
+case 6:
             var9 = var2.children;
             var25 = var2.lottieComponent;
             var26 = var2.lottieComponentColor;
@@ -151,22 +151,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var2.bind(var4)();
             var3 = 12;
             var6 = var3;
-            if(!var1) { _fun0001_ip = 164; continue _fun0001 }
- 147:
+            if(!var1) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var2 = _closure1_slot12;
             var2 = var10 < var2;
             var6 = var3;
-            if(!var2) { _fun0001_ip = 164; continue _fun0001 }
- 161:
+            if(!var2) { _fun0001_ip = 8; continue _fun0001 }
+case 10:
             var6 = 6;
- 164:
-            if(var1) { _fun0001_ip = 173; continue _fun0001 }
- 167:
+case 8:
+            if(var1) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var16 = _closure1_slot10;
-            _fun0001_ip = 177; continue _fun0001;
- 173:
+            _fun0001_ip = 13; continue _fun0001;
+case 11:
             var16 = _closure1_slot11;
- 177:
+case 13:
             var1 = var16.buttonRadius;
             var2 = 2;
             var23 = var2 * var1;
@@ -219,10 +219,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8[1] = var12;
             var12 = {};
             var13 = 1;
-            if(!var19) { _fun0001_ip = 375; continue _fun0001 }
- 365:
+            if(!var19) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var13 = 0.25;
- 375:
+case 14:
             var12['opacity'] = var13;
             var8[2] = var12;
             var5['style'] = var8;
@@ -240,10 +240,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var20 = 45;
             var8['cutoutPositionInDegrees'] = var20;
             var10 = null;
-            if(!(var10 == var15)) { _fun0001_ip = 452; continue _fun0001 }
- 448:
+            if(!(var10 == var15)) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var15 = _closure1_slot9;
- 452:
+case 16:
             var8['circleFillColor'] = var15;
             var12 = var13.bind(var4)(var12, var8);
             var8 = new Array(4);
@@ -259,37 +259,37 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var22['height'] = var23;
             var21[1] = var22;
             var12['style'] = var21;
-            if(!(var10 == var25)) { _fun0001_ip = 565; continue _fun0001 }
- 517:
-            if(!(var10 == var24)) { _fun0001_ip = 547; continue _fun0001 }
- 521:
+            if(!(var10 == var25)) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
+            if(!(var10 == var24)) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
             var23 = _closure1_slot7;
             var22 = _closure1_slot4;
             var21 = {};
             var21['source'] = var28;
             var21['style'] = var27;
             var21 = var23.bind(var4)(var22, var21);
-            _fun0001_ip = 563; continue _fun0001;
- 547:
+            _fun0001_ip = 22; continue _fun0001;
+case 20:
             var23 = _closure1_slot7;
             var22 = {};
             var22['style'] = var27;
             var21 = var23.bind(var4)(var24, var22);
- 563:
-            _fun0001_ip = 587; continue _fun0001;
- 565:
+case 22:
+            _fun0001_ip = 23; continue _fun0001;
+case 18:
             var24 = _closure1_slot3;
             var23 = var24.cloneElement;
             var22 = {};
             var22['color'] = var26;
             var21 = var23.bind(var24)(var25, var22);
- 587:
+case 23:
             var12['children'] = var21;
             var12 = var15.bind(var4)(var13, var12);
             var8[1] = var12;
             var10 = null;
-            if(!var11) { _fun0001_ip = 751; continue _fun0001 }
- 609:
+            if(!var11) { _fun0001_ip = 24; continue _fun0001 }
+case 25:
             var13 = _closure1_slot7;
             var12 = _closure1_slot5;
             var11 = {};
@@ -320,7 +320,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14[1] = var15;
             var11['style'] = var14;
             var10 = var13.bind(var4)(var12, var11);
- 751:
+case 24:
             var8[2] = var10;
             var8[3] = var9;
             var5['children'] = var8;
@@ -341,25 +341,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['ActionButton'] = var4;
     var4 = function(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var6 = arg1;
             var12 = var6.isActive;
             var3 = var6.disableTint;
             var4 = undefined;
-            if(!(var3 === var4)) { _fun0002_ip = 23; continue _fun0002 }
- 21:
+            if(!(var3 === var4)) { _fun0002_ip = 26; continue _fun0002 }
+case 27:
             var3 = false;
- 23:
+case 26:
             var9 = var6.showBadge;
-            if(!(var9 === var4)) { _fun0002_ip = 35; continue _fun0002 }
- 33:
+            if(!(var9 === var4)) { _fun0002_ip = 28; continue _fun0002 }
+case 29:
             var9 = false;
- 35:
+case 28:
             var10 = var6.isSmallSize;
-            if(!(var10 === var4)) { _fun0002_ip = 47; continue _fun0002 }
- 45:
+            if(!(var10 === var4)) { _fun0002_ip = 30; continue _fun0002 }
+case 31:
             var10 = false;
- 47:
+case 30:
             var13 = var6.backgroundColor;
             var5 = var6.tintColor;
             var2 = {'isActive': 0, 'disableTint': 0, 'showBadge': 0, 'isSmallSize': 0, 'backgroundColor': 0, 'tintColor': 0};
@@ -372,8 +372,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var2;
             var8 = copyDataProperties(var17, var16, var15);
             var11 = null;
-            if(!var12) { _fun0002_ip = 134; continue _fun0002 }
- 100:
+            if(!var12) { _fun0002_ip = 32; continue _fun0002 }
+case 33:
             var2 = _closure1_slot1;
             var6 = _closure1_slot2;
             var1 = 5;
@@ -381,39 +381,39 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2.bind(var4)(var1);
             var1 = var1.unsafe_rawColors;
             var11 = var1.WHITE_500;
- 134:
+case 32:
             var6 = _closure1_slot1;
             var14 = _closure1_slot2;
             var2 = 5;
             var2 = var14[var2];
             var2 = var6.bind(var4)(var2);
             var6 = var2.unsafe_rawColors;
-            if(var12) { _fun0002_ip = 173; continue _fun0002 }
- 165:
+            if(var12) { _fun0002_ip = 11; continue _fun0002 }
+case 34:
             var2 = var6.WHITE_500;
-            _fun0002_ip = 179; continue _fun0002;
- 173:
+            _fun0002_ip = 35; continue _fun0002;
+case 11:
             var2 = var6.PRIMARY_900;
- 179:
+case 35:
             var6 = undefined;
-            if(var3) { _fun0002_ip = 187; continue _fun0002 }
- 184:
+            if(var3) { _fun0002_ip = 36; continue _fun0002 }
+case 37:
             var6 = var2;
- 187:
+case 36:
             var3 = _closure1_slot7;
             var2 = _closure1_slot14;
             var1 = {};
-            if(!(var7 != var13)) { _fun0002_ip = 204; continue _fun0002 }
- 201:
+            if(!(var7 != var13)) { _fun0002_ip = 38; continue _fun0002 }
+case 39:
             var11 = var13;
- 204:
+case 38:
             var1['backgroundColor'] = var11;
             var11 = {};
             var13 = var6;
-            if(!(var7 != var5)) { _fun0002_ip = 220; continue _fun0002 }
- 217:
+            if(!(var7 != var5)) { _fun0002_ip = 40; continue _fun0002 }
+case 41:
             var13 = var5;
- 220:
+case 40:
             var11['tintColor'] = var13;
             var1['imageStyle'] = var11;
             var11 = {};
@@ -425,10 +425,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = copyDataProperties(var17, var16);
             var8 = 'showBadge';
             var1[var8] = var9;
-            if(!(var7 != var5)) { _fun0002_ip = 273; continue _fun0002 }
- 270:
+            if(!(var7 != var5)) { _fun0002_ip = 42; continue _fun0002 }
+case 43:
             var6 = var5;
- 273:
+case 42:
             var5 = 'lottieComponentColor';
             var1[var5] = var6;
             var1 = var3.bind(var4)(var2, var1);
@@ -438,14 +438,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['ToggledActionButton'] = var4;
     var4 = function(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var3 = arg1;
             var6 = var3.isSmallSize;
             var4 = undefined;
-            if(!(var6 === var4)) { _fun0003_ip = 17; continue _fun0003 }
- 15:
+            if(!(var6 === var4)) { _fun0003_ip = 3; continue _fun0003 }
+case 44:
             var6 = false;
- 17:
+case 3:
             var1 = null;
             var2 = Object.create(var1);
             var1 = 0;
@@ -482,7 +482,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['PrimaryActionButton'] = var4;
     var2 = function(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var3 = arg1;
             var11 = var3.notifications;
             var10 = var3.isMentioned;
@@ -510,15 +510,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = new Array(2);
             var9[0] = var13;
             var13 = true;
-            if(!(var13 !== var10)) { _fun0004_ip = 114; continue _fun0004 }
- 102:
-            if(!(var4 !== var10)) { _fun0004_ip = 114; continue _fun0004 }
- 106:
+            if(!(var13 !== var10)) { _fun0004_ip = 45; continue _fun0004 }
+case 46:
+            if(!(var4 !== var10)) { _fun0004_ip = 45; continue _fun0004 }
+case 47:
             var10 = var12.notificationAreaUnread;
-            _fun0004_ip = 120; continue _fun0004;
- 114:
+            _fun0004_ip = 48; continue _fun0004;
+case 45:
             var10 = var12.notificationAreaMentioned;
- 120:
+case 48:
             var9[1] = var10;
             var7['style'] = var9;
             var10 = _closure1_slot7;

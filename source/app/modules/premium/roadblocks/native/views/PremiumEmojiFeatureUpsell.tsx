@@ -66,7 +66,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function PremiumEmojiFeatureUpsell(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var9 = var2.inActionSheet;
             var _closure2_slot0 = var9;
@@ -107,24 +107,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.useDerivedValue;
             var1 = function c() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var2 = _closure2_slot1;
                     var1 = var2.get;
                     var1 = var1.bind(var2)();
-                    if(!var1) { _fun0002_ip = 96; continue _fun0002 }
- 19:
+                    if(!var1) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var4 = _closure2_slot2;
                     var2 = var4.get;
                     var4 = var2.bind(var4)();
                     var2 = 1;
                     var2 = var2 === var4;
-                    if(var2) { _fun0002_ip = 49; continue _fun0002 }
- 42:
+                    if(var2) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var4 = _closure2_slot0;
                     var2 = !var4;
- 49:
-                    if(var2) { _fun0002_ip = 93; continue _fun0002 }
- 52:
+case 4:
+                    if(var2) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var4 = global;
                     var5 = var4.Math;
                     var4 = var5.round;
@@ -134,9 +134,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var4.bind(var5)(var3);
                     var3 = -1;
                     var2 = var3 === var4;
- 93:
+case 6:
                     var1 = var2;
- 96:
+case 2:
                     return var1;
                 }
             };
@@ -151,8 +151,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['__initData'] = var7;
             var9 = var3.bind(var4)(var1);
             var1 = null;
-            if(var2) { _fun0001_ip = 332; continue _fun0001 }
- 237:
+            if(var2) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var4 = _closure1_slot5;
             var3 = _closure1_slot4;
             var2 = {};
@@ -175,7 +175,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var4.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 332:
+case 8:
             return var1;
         }
     };

@@ -7,8 +7,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var5;
     var1 = function _isNativeReflectConstruct() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
- 2: // try_start_0
+case 0:
+case 2: // try_start_0
             var2 = global;
             var3 = var2.Boolean;
             var3 = var3.prototype;
@@ -26,11 +26,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var4)(var2);
             var2 = !var2;
             var _closure2_slot0 = var2;
- 72: // try_end0
-            _fun0001_ip = 76; continue _fun0001;
- 74: // catch_target0
+case 3: // try_end0
+            _fun0001_ip = 4; continue _fun0001;
+case 5: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+case 4:
             var2 = function _isNativeReflectConstruct() {
                 var1 = _closure2_slot0;
                 var1 = !var1;
@@ -83,7 +83,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function(arg1) {
         var4 = function LocalPresenceStateManager(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var5 = this;
                 var1 = _closure1_slot2;
                 var4 = _closure2_slot0;
@@ -97,12 +97,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = _closure1_slot4;
                 var1 = _closure1_slot8;
                 var1 = var1.bind(var6)();
-                if(var1) { _fun0002_ip = 72; continue _fun0002 }
- 59:
+                if(var1) { _fun0002_ip = 3; continue _fun0002 }
+case 6:
                 var1 = var10.apply;
                 var1 = var1.bind(var10)(var5, var11);
-                _fun0002_ip = 106; continue _fun0002;
- 72:
+                _fun0002_ip = 7; continue _fun0002;
+case 3:
                 var7 = global;
                 var9 = var7.Reflect;
                 var8 = var9.construct;
@@ -110,7 +110,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = var7.bind(var6)(var5);
                 var7 = var7.constructor;
                 var1 = var8.bind(var9)(var10, var11, var7);
- 106:
+case 7:
                 var1 = var4.bind(var6)(var5, var1);
                 var4 = arg1;
                 var1['socket'] = var4;

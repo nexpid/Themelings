@@ -63,7 +63,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['useStyles'] = var4;
     var2 = function FloatingActionButton(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var11 = var4.icon;
             var10 = var4.positionBottom;
@@ -91,7 +91,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[2] = var7;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var1 = _closure2_slot2;
                     var2 = var1.button;
                     var1 = new Array(3);
@@ -100,24 +100,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = null;
                     var6 = var5 != var2;
                     var3 = undefined;
-                    if(!var6) { _fun0002_ip = 49; continue _fun0002 }
- 36:
+                    if(!var6) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var6 = {};
                     var7 = _closure2_slot0;
                     var6['bottom'] = var7;
                     var3 = var6;
- 49:
+case 2:
                     var1[1] = var3;
                     var3 = _closure2_slot1;
                     var3 = var5 != var3;
                     var2 = undefined;
-                    if(!var3) { _fun0002_ip = 79; continue _fun0002 }
- 66:
+                    if(!var3) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var3 = {};
                     var4 = _closure2_slot1;
                     var3['right'] = var4;
                     var2 = var3;
- 79:
+case 4:
                     var1[2] = var2;
                     return var1;
                 }
@@ -145,8 +145,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var8.isValidElement;
             var6 = var6.bind(var8)(var11);
             var8 = var11;
-            if(!var6) { _fun0001_ip = 270; continue _fun0001 }
- 217:
+            if(!var6) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var10 = _closure1_slot3;
             var9 = var10.cloneElement;
             var6 = {};
@@ -159,7 +159,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var12.WHITE;
             var6['color'] = var12;
             var8 = var9.bind(var10)(var11, var6);
- 270:
+case 6:
             var6 = 'icon';
             var1[var6] = var8;
             var6 = 'style';

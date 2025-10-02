@@ -1,7 +1,7 @@
 // discord_common/js/packages/performance-utils/index.js
 module.exports = (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
         var1 = global;
         var12 = require;
         var17 = exports;
@@ -26,12 +26,12 @@ module.exports = (function(global, require, metroImportDefault, metroImportAll, 
         var10 = 0;
         var10 = var13[var10];
         var10 = var12.bind(var1)(var10);
- 78: // try_start_0
+case 2: // try_start_0
         var10 = var9.Date;
         var12 = var10.now;
         var10 = null;
-        if(!(var10 == var12)) { _fun0001_ip = 114; continue _fun0001 }
- 95:
+        if(!(var10 == var12)) { _fun0001_ip = 3; continue _fun0001 }
+case 4:
         var12 = var9.Date;
         var10 = function() {
             var1 = global;
@@ -46,89 +46,89 @@ module.exports = (function(global, require, metroImportDefault, metroImportAll, 
             return var1;
         };
         var12['now'] = var10;
- 114: // try_end0
-        _fun0001_ip = 118; continue _fun0001;
- 116: // catch_target0
+case 3: // try_end0
+        _fun0001_ip = 5; continue _fun0001;
+case 6: // catch_target0
         CatchBlockStart(arg_register=9);
- 118:
+case 5:
         var12 = undefined;
- 120: // try_start_1
+case 7: // try_start_1
         var10 = var11;
         var10 = var10.performance;
         var10 = var10.timing;
         var13 = var10.navigationStart;
         var12 = var13;
         var10 = null;
-        if(!(var10 == var13)) { _fun0001_ip = 170; continue _fun0001 }
- 150:
+        if(!(var10 == var13)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
         var10 = var11;
         var13 = var10.performance;
         var10 = var13.now;
         var10 = var10.bind(var13)();
-        _fun0001_ip = 173; continue _fun0001;
- 170:
+        _fun0001_ip = 10; continue _fun0001;
+case 8:
         var10 = var12;
- 173: // try_end1
-        _fun0001_ip = 192; continue _fun0001;
- 175: // catch_target1
+case 10: // try_end1
+        _fun0001_ip = 11; continue _fun0001;
+case 12: // catch_target1
         CatchBlockStart(arg_register=11);
         var13 = var9.Date;
         var12 = var13.now;
         var10 = var12.bind(var13)();
- 192:
+case 11:
         var5 = var10;
         var8 = var10;
         var10 = undefined;
- 200: // try_start_2
+case 13: // try_start_2
         var11 = var11.performance;
         var12 = var11.timeOrigin;
         var10 = var12;
         var11 = null;
-        if(!(var11 == var12)) { _fun0001_ip = 223; continue _fun0001 }
- 221:
-        _fun0001_ip = 226; continue _fun0001;
- 223:
+        if(!(var11 == var12)) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
+        _fun0001_ip = 16; continue _fun0001;
+case 14:
         var8 = var10;
- 226: // try_end2
-        _fun0001_ip = 245; continue _fun0001;
- 228: // catch_target2
+case 16: // try_end2
+        _fun0001_ip = 17; continue _fun0001;
+case 18: // catch_target2
         CatchBlockStart(arg_register=9);
         var10 = var9.Date;
         var9 = var10.now;
         var8 = var9.bind(var10)();
- 245:
+case 17:
         var4 = var8;
         var8 = var3;
         var8 = var8.performance;
         var8 = var8.timing;
         var9 = null;
-        if(!(var9 == var8)) { _fun0001_ip = 298; continue _fun0001 }
- 269: // try_start_3
+        if(!(var9 == var8)) { _fun0001_ip = 19; continue _fun0001 }
+case 20: // try_start_3
         var8 = var3;
         var10 = var8.performance;
         var8 = {};
         var11 = var5;
         var8['navigationStart'] = var11;
         var10['timing'] = var8;
- 294: // try_end3
-        _fun0001_ip = 298; continue _fun0001;
- 296: // catch_target3
+case 21: // try_end3
+        _fun0001_ip = 19; continue _fun0001;
+case 22: // catch_target3
         CatchBlockStart(arg_register=7);
- 298:
+case 19:
         var8 = var3;
         var8 = var8.performance;
         var8 = var8.timeOrigin;
-        if(!(var9 == var8)) { _fun0001_ip = 339; continue _fun0001 }
- 317: // try_start_4
+        if(!(var9 == var8)) { _fun0001_ip = 23; continue _fun0001 }
+case 24: // try_start_4
         var8 = var3;
         var9 = var8.performance;
         var8 = var4;
         var9['timeOrigin'] = var8;
- 335: // try_end4
-        _fun0001_ip = 339; continue _fun0001;
- 337: // catch_target4
+case 25: // try_end4
+        _fun0001_ip = 23; continue _fun0001;
+case 26: // catch_target4
         CatchBlockStart(arg_register=7);
- 339:
+case 23:
         var3 = var3.performance;
         var8 = var6;
         var6 = 1;

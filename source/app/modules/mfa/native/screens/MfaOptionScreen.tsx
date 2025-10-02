@@ -38,7 +38,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function MFAOptionScreen(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var21 = var1.headerText;
             var9 = var1.headerImage;
@@ -64,10 +64,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = null;
             var6 = var13 == var3;
             var1 = undefined;
-            if(var6) { _fun0001_ip = 124; continue _fun0001 }
- 119:
+            if(var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var3.type;
- 124:
+case 2:
             var11 = var1 === var2;
             var3 = _closure1_slot5;
             var2 = _closure1_slot0;
@@ -84,10 +84,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var15.mfaContainerHeader;
             var6['style'] = var14;
             var14 = var13 != var9;
-            if(!var14) { _fun0001_ip = 208; continue _fun0001 }
- 205:
+            if(!var14) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var14 = var9;
- 208:
+case 4:
             var9 = new Array(5);
             var9[0] = var14;
             var18 = _closure1_slot4;
@@ -106,8 +106,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var18.bind(var4)(var16, var14);
             var9[1] = var14;
             var14 = var13 != var22;
-            if(!var14) { _fun0001_ip = 338; continue _fun0001 }
- 288:
+            if(!var14) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var21 = _closure1_slot4;
             var18 = _closure1_slot0;
             var16 = _closure1_slot2;
@@ -117,11 +117,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = {'variant': 'text-sm/normal', 'color': 'header-secondary'};
             var16['children'] = var22;
             var14 = var21.bind(var4)(var18, var16);
- 338:
+case 6:
             var9[2] = var14;
             var13 = var13 != var19;
-            if(!var13) { _fun0001_ip = 399; continue _fun0001 }
- 349:
+            if(!var13) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var18 = _closure1_slot4;
             var16 = _closure1_slot0;
             var14 = _closure1_slot2;
@@ -131,7 +131,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = {'variant': 'text-sm/normal', 'color': 'text-danger'};
             var14['children'] = var19;
             var13 = var18.bind(var4)(var16, var14);
- 399:
+case 8:
             var9[3] = var13;
             var9[4] = var10;
             var6['children'] = var9;
@@ -144,8 +144,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = {};
             var10 = new Array(2);
             var10[0] = var12;
-            if(!var11) { _fun0001_ip = 512; continue _fun0001 }
- 450:
+            if(!var11) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var14 = _closure1_slot4;
             var13 = _closure1_slot3;
             var12 = {};
@@ -161,7 +161,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var14.bind(var4)(var16, var15);
             var12['children'] = var15;
             var11 = var14.bind(var4)(var13, var12);
- 512:
+case 10:
             var10[1] = var11;
             var7['children'] = var10;
             var7 = var9.bind(var4)(var8, var7);

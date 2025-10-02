@@ -157,7 +157,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function ICYMIInfoScreen(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var12 = var1.extendedOnboarding;
             var _closure2_slot0 = var12;
@@ -190,14 +190,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = function* () {
                 var1 = function* anon_0_() {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0002_ip = 183; continue _fun0002 }
- 10:
+                        if(var2) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                         var3 = _closure2_slot0;
-                        if(var3) { _fun0002_ip = 57; continue _fun0002 }
- 23:
+                        if(var3) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                         var6 = _closure1_slot1;
                         var5 = _closure1_slot2;
                         var3 = 14;
@@ -206,8 +206,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var5 = var6.bind(var3)(var5);
                         var3 = var5.pop;
                         var3 = var3.bind(var5)();
-                        _fun0002_ip = 175; continue _fun0002;
- 57:
+                        _fun0002_ip = 6; continue _fun0002;
+case 4:
                         var3 = _closure1_slot0;
                         var4 = _closure1_slot2;
                         var5 = 12;
@@ -229,12 +229,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = var3.maybeFetchGuildDiscoveryCategories;
                         var2 = var2.bind(var3)();
                         SaveGenerator(address=143);
- 141:
+case 7:
                         return var2;
- 143:
+case 8:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                        if(var3) { _fun0002_ip = 180; continue _fun0002 }
- 149:
+                        if(var3) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
                         var3 = global;
                         var5 = var3.setTimeout;
                         var4 = function() {
@@ -258,12 +258,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         };
                         var3 = 100;
                         var3 = var5.bind(var6)(var4, var3);
- 175:
+case 6:
                         var3 = undefined;
                         return var3;
- 180:
+case 9:
                         return var2;
- 183:
+case 2:
                         return var1;
                     }
                 };
@@ -402,21 +402,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var23 = {};
             var24 = _closure1_slot8;
             var24 = var24.LIGHT;
-            if(!(var25 !== var24)) { _fun0001_ip = 619; continue _fun0001 }
- 597:
+            if(!(var25 !== var24)) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var25 = _closure1_slot1;
             var26 = _closure1_slot2;
             var24 = 21;
             var24 = var26[var24];
             var24 = var25.bind(var4)(var24);
-            _fun0001_ip = 639; continue _fun0001;
- 619:
+            _fun0001_ip = 13; continue _fun0001;
+case 11:
             var26 = _closure1_slot1;
             var27 = _closure1_slot2;
             var25 = 20;
             var25 = var27[var25];
             var24 = var26.bind(var4)(var25);
- 639:
+case 13:
             var23['uri'] = var24;
             var8['source'] = var23;
             var23 = var16.headerImg;
@@ -702,15 +702,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var13[var17];
             var13 = var16.bind(var4)(var13);
             var13 = var13.t;
-            if(var12) { _fun0001_ip = 1879; continue _fun0001 }
- 1866:
+            if(var12) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var12 = var13.+IrDzM;
             var12 = var14.bind(var15)(var12);
-            _fun0001_ip = 1890; continue _fun0001;
- 1879:
+            _fun0001_ip = 16; continue _fun0001;
+case 14:
             var13 = var13.LhlgY2;
             var12 = var14.bind(var15)(var13);
- 1890:
+case 16:
             var9['text'] = var12;
             var9['onPress'] = var11;
             var9 = var8.bind(var4)(var10, var9);

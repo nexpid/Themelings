@@ -105,14 +105,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var14.map;
     var12 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arg1;
             var3 = var5.name;
             var8 = null;
             var2 = 'code';
             var1 = null;
-            if(!(var2 !== var3)) { _fun0001_ip = 206; continue _fun0001 }
- 23:
+            if(!(var2 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = var5.name;
             var2 = new Array(2);
             var2[0] = var3;
@@ -123,10 +123,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['lineHeight'] = var4;
             var6 = var5.uppercase;
             var4 = 'none';
-            if(!var6) { _fun0001_ip = 76; continue _fun0001 }
- 72:
+            if(!var6) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var4 = 'uppercase';
- 76:
+case 4:
             var3['textTransform'] = var4;
             var7 = var5.fontStack;
             var6 = var5.weight;
@@ -147,21 +147,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = 'letterSpacing';
             var6 = var4 in var5;
             var4 = undefined;
-            if(!var6) { _fun0001_ip = 194; continue _fun0001 }
- 166:
+            if(!var6) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var6 = var5.letterSpacing;
             var6 = var8 != var6;
             var4 = undefined;
-            if(!var6) { _fun0001_ip = 194; continue _fun0001 }
- 181:
+            if(!var6) { _fun0001_ip = 6; continue _fun0001 }
+case 8:
             var6 = var5.letterSpacing;
             var5 = 10;
             var4 = var6 / var5;
- 194:
+case 6:
             var3['letterSpacing'] = var4;
             var2[1] = var3;
             var1 = var2;
- 206:
+case 2:
             return var1;
         }
     };
@@ -178,18 +178,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var10.createStyles;
     var5 = function(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var7 = arg1;
             var1 = {};
             var2 = {};
             var3 = undefined;
             var5 = 'none';
             var4 = undefined;
-            if(!(var5 !== var7)) { _fun0002_ip = 108; continue _fun0002 }
- 19:
+            if(!(var5 !== var7)) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
             var5 = 'always-white';
-            if(!(var5 !== var7)) { _fun0002_ip = 71; continue _fun0002 }
- 29:
+            if(!(var5 !== var7)) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
             var8 = _closure1_slot1;
             var9 = _closure1_slot2;
             var6 = 5;
@@ -199,8 +199,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = _closure1_slot6;
             var5 = var5[var7];
             var5 = var6[var5];
-            _fun0002_ip = 105; continue _fun0002;
- 71:
+            _fun0002_ip = 13; continue _fun0002;
+case 11:
             var7 = _closure1_slot1;
             var8 = _closure1_slot2;
             var6 = 5;
@@ -208,16 +208,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var7.bind(var3)(var6);
             var6 = var6.unsafe_rawColors;
             var5 = var6.WHITE_500;
- 105:
+case 13:
             var4 = var5;
- 108:
+case 9:
             var2['color'] = var4;
             var4 = arg2;
             var3 = undefined;
-            if(!var4) { _fun0002_ip = 130; continue _fun0002 }
- 120:
+            if(!var4) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
             var3 = ['tabular-nums'];
- 130:
+case 14:
             var2['fontVariant'] = var3;
             var1['text'] = var2;
             return var1;
@@ -228,7 +228,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var8.forwardRef;
     var2 = function(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var9 = arg1;
             var12 = var9.variant;
             var14 = var9.color;
@@ -237,20 +237,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var9.ellipsizeMode;
             var13 = var9.tabularNumbers;
             var4 = undefined;
-            if(!(var13 === var4)) { _fun0003_ip = 44; continue _fun0003 }
- 42:
+            if(!(var13 === var4)) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
             var13 = false;
- 44:
+case 16:
             var1 = var9.animated;
-            if(!(var1 === var4)) { _fun0003_ip = 56; continue _fun0003 }
- 54:
+            if(!(var1 === var4)) { _fun0003_ip = 18; continue _fun0003 }
+case 19:
             var1 = false;
- 56:
+case 18:
             var2 = var9.experimental_useNativeText;
-            if(!(var2 === var4)) { _fun0003_ip = 68; continue _fun0003 }
- 66:
+            if(!(var2 === var4)) { _fun0003_ip = 20; continue _fun0003 }
+case 21:
             var2 = false;
- 68:
+case 20:
             var5 = {'variant': 0, 'color': 0, 'style': 0, 'lineClamp': 0, 'ellipsizeMode': 0, 'tabularNumbers': 0, 'animated': 0, 'experimental_useNativeText': 0};
             var6 = null;
             var18 = var5;
@@ -263,29 +263,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = _closure1_slot11;
             var15 = var6 != var14;
             var3 = 'text-normal';
-            if(!var15) { _fun0003_ip = 128; continue _fun0003 }
- 125:
+            if(!var15) { _fun0003_ip = 22; continue _fun0003 }
+case 23:
             var3 = var14;
- 128:
+case 22:
             var11 = var11.bind(var4)(var3, var13);
-            if(var2) { _fun0003_ip = 152; continue _fun0003 }
- 137:
-            if(var1) { _fun0003_ip = 146; continue _fun0003 }
- 140:
+            if(var2) { _fun0003_ip = 24; continue _fun0003 }
+case 25:
+            if(var1) { _fun0003_ip = 26; continue _fun0003 }
+case 27:
             var3 = _closure1_slot3;
-            _fun0003_ip = 150; continue _fun0003;
- 146:
+            _fun0003_ip = 28; continue _fun0003;
+case 26:
             var3 = _closure1_slot5;
- 150:
-            _fun0003_ip = 178; continue _fun0003;
- 152:
+case 28:
+            _fun0003_ip = 29; continue _fun0003;
+case 24:
             var2 = _closure1_slot0;
             var13 = _closure1_slot2;
             var1 = 9;
             var1 = var13[var1];
             var1 = var2.bind(var4)(var1);
             var3 = var1.NativeText;
- 178:
+case 29:
             var2 = _closure1_slot4;
             var1 = {};
             var9 = _closure1_slot10;
@@ -299,10 +299,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['numberOfLines'] = var8;
             var8 = var6 != var7;
             var6 = 'tail';
-            if(!var8) { _fun0003_ip = 236; continue _fun0003 }
- 233:
+            if(!var8) { _fun0003_ip = 30; continue _fun0003 }
+case 31:
             var6 = var7;
- 236:
+case 30:
             var1['ellipsizeMode'] = var6;
             var6 = true;
             var1['allowFontScaling'] = var6;

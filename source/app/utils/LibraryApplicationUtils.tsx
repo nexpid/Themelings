@@ -8,33 +8,33 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var7;
     var4 = function convertToTransitionState(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var2 = null;
             var4 = var2 == var3;
             var1 = null;
-            if(var4) { _fun0001_ip = 82; continue _fun0001 }
- 14:
+            if(var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = var3.type;
             var5 = _closure1_slot6;
             var5 = var5.INSTALLING;
-            if(!(var6 !== var5)) { _fun0001_ip = 76; continue _fun0001 }
- 36:
+            if(!(var6 !== var5)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var6 = var3.type;
             var5 = _closure1_slot6;
             var5 = var5.UPDATING;
-            if(!(var6 !== var5)) { _fun0001_ip = 76; continue _fun0001 }
- 55:
+            if(!(var6 !== var5)) { _fun0001_ip = 4; continue _fun0001 }
+case 6:
             var5 = var3.type;
             var4 = _closure1_slot6;
             var4 = var4.UNINSTALLING;
             var2 = null;
-            if(!(var5 === var4)) { _fun0001_ip = 79; continue _fun0001 }
- 76:
+            if(!(var5 === var4)) { _fun0001_ip = 7; continue _fun0001 }
+case 4:
             var2 = var3;
- 79:
+case 7:
             var1 = var2;
- 82:
+case 2:
             return var1;
         }
     };
@@ -108,7 +108,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['convertComboId'] = var5;
     var5 = function shouldShareApplicationActivity(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var4 = arg2;
             var3 = _closure1_slot0;
             var1 = _closure1_slot1;
@@ -119,8 +119,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var1.ShowCurrentGame;
             var1 = var3.getSetting;
             var1 = var1.bind(var3)();
-            if(!var1) { _fun0002_ip = 143; continue _fun0002 }
- 47:
+            if(!var1) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var3 = _closure1_slot0;
             var1 = _closure1_slot1;
             var1 = var1[var6];
@@ -130,23 +130,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var1.bind(var3)();
             var1 = _closure1_slot7;
             var1 = var1.INVISIBLE;
-            if(!(var3 !== var1)) { _fun0002_ip = 143; continue _fun0002 }
- 94:
+            if(!(var3 !== var1)) { _fun0002_ip = 8; continue _fun0002 }
+case 10:
             var3 = var4.getActiveLibraryApplication;
             var1 = arg1;
             var4 = var3.bind(var4)(var1);
             var1 = null;
             var1 = var1 == var4;
-            if(var1) { _fun0002_ip = 141; continue _fun0002 }
- 117:
+            if(var1) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
             var3 = var4.hasFlag;
             var2 = _closure1_slot5;
             var2 = var2.PRIVATE;
             var2 = var3.bind(var4)(var2);
             var1 = !var2;
- 141:
+case 11:
             return var1;
- 143:
+case 8:
             var1 = false;
             return var1;
         }
@@ -154,48 +154,48 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['shouldShareApplicationActivity'] = var5;
     var5 = function calculateProgressPercentage(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var4 = arg2;
             var3 = 100;
             var2 = 0;
             var1 = var3;
-            if(!(var2 !== var4)) { _fun0003_ip = 26; continue _fun0003 }
- 15:
+            if(!(var2 !== var4)) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
             var2 = arg1;
             var2 = var2 / var4;
             var1 = var2 * var3;
- 26:
+case 13:
             return var1;
         }
     };
     var3['calculateProgressPercentage'] = var5;
     var5 = function shouldShowGameInLibrary(arg1, arg2, arg3) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var4 = arg2;
             var1 = null;
             var1 = var1 != var4;
-            if(!var1) { _fun0004_ip = 72; continue _fun0004 }
- 12:
+            if(!var1) { _fun0004_ip = 15; continue _fun0004 }
+case 16:
             var2 = arg3;
             var2 = var2.enabled;
             var2 = !var2;
-            if(var2) { _fun0004_ip = 53; continue _fun0004 }
- 26:
+            if(var2) { _fun0004_ip = 17; continue _fun0004 }
+case 13:
             var5 = var4.hasFlag;
             var3 = _closure1_slot5;
             var3 = var3.PRIVATE;
             var3 = var5.bind(var4)(var3);
             var2 = !var3;
- 53:
-            if(!var2) { _fun0004_ip = 69; continue _fun0004 }
- 56:
+case 17:
+            if(!var2) { _fun0004_ip = 18; continue _fun0004 }
+case 19:
             var3 = var4.isHidden;
             var3 = var3.bind(var4)();
             var2 = !var3;
- 69:
+case 18:
             var1 = var2;
- 72:
+case 15:
             return var1;
         }
     };
@@ -206,7 +206,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var4.reduce;
         var2 = function(arg1, arg2) {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
                 var4 = arg1;
                 var5 = arg2;
                 var1 = _closure1_slot8;
@@ -214,14 +214,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var1.bind(var6)(var5);
                 var7 = null;
                 var1 = var4;
-                if(!(var7 != var3)) { _fun0005_ip = 122; continue _fun0005 }
- 29:
+                if(!(var7 != var3)) { _fun0005_ip = 20; continue _fun0005 }
+case 21:
                 var5 = var5.type;
                 var2 = _closure1_slot6;
                 var2 = var2.UP_TO_DATE;
                 var1 = var4;
-                if(!(var5 !== var2)) { _fun0005_ip = 122; continue _fun0005 }
- 51:
+                if(!(var5 !== var2)) { _fun0005_ip = 20; continue _fun0005 }
+case 22:
                 var2 = {};
                 var8 = var4.total;
                 var5 = global;
@@ -237,7 +237,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var4 + var3;
                 var2['progress'] = var3;
                 var1 = var2;
- 122:
+case 20:
                 return var1;
             }
         };
@@ -248,21 +248,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['getCombinedProgress'] = var4;
     var2 = function isUserEntitledToLibraryApplication(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
- 0:
+case 0:
             var5 = arg1;
             var1 = var5.isDiscordApplication;
             var1 = var1.bind(var5)();
             var2 = !var1;
             var1 = !var2;
-            if(var2) { _fun0006_ip = 56; continue _fun0006 }
- 22:
+            if(var2) { _fun0006_ip = 19; continue _fun0006 }
+case 23:
             var4 = var5.isEntitled;
             var6 = _closure1_slot3;
             var3 = var6.getCurrentUser;
             var3 = var3.bind(var6)();
             var2 = _closure1_slot4;
             var1 = var4.bind(var5)(var3, var2);
- 56:
+case 19:
             return var1;
         }
     };

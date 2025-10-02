@@ -83,7 +83,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['SEARCH_BAR_HEIGHT'] = var4;
     var2 = function SearchButtonContent(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var8 = var3.panelVariant;
             var1 = null;
@@ -106,13 +106,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var9.searchButton;
             var7 = new Array(3);
             var7[0] = var10;
-            if(var8) { _fun0001_ip = 91; continue _fun0001 }
- 83:
+            if(var8) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var8 = var9.roundedCorners;
-            _fun0001_ip = 97; continue _fun0001;
- 91:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var8 = var9.roundedCornersAlt;
- 97:
+case 4:
             var7[1] = var8;
             var6 = var6.style;
             var7[2] = var6;

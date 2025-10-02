@@ -87,7 +87,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['updatePendingSettings'] = var4;
     var2 = function drainPendingAudioSettings(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var11 = arg1;
             var9 = _closure1_slot1;
             var1 = undefined;
@@ -95,9 +95,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = 0;
             var2 = 1;
             for(var6 in var9)
- 28:
+case 2:
             {
- 37:
+case 3:
                 var15 = var6;
                 var12 = _closure1_slot3;
                 var13 = var12.bind(var1)(var15);
@@ -108,9 +108,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var12 = _closure1_slot1;
                 var12 = var12[var15];
                 var12 = var11.bind(var1)(var14, var13, var12);
-                _fun0001_ip = 28; continue _fun0001;
+                _fun0001_ip = 2; continue _fun0001;
             }
- 84:
+case 4:
             var2 = {};
             _closure1_slot1 = var2;
             return var1;

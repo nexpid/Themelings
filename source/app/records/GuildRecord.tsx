@@ -9,21 +9,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var9;
     var4 = function isGuildOwner(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg2;
             var4 = 'string';
             var1 = typeof var3;
             var2 = var3;
-            if(!(var4 !== var1)) { _fun0001_ip = 34; continue _fun0001 }
- 17:
+            if(!(var4 !== var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = null;
             var4 = var1 != var3;
-            if(!var4) { _fun0001_ip = 31; continue _fun0001 }
- 26:
+            if(!var4) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = var3.id;
- 31:
+case 4:
             var2 = var1;
- 34:
+case 2:
             var1 = arg1;
             var1 = var1.ownerId;
             var1 = var1 === var2;
@@ -135,19 +135,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['GUILD_DEFAULT_PROPERTY_VALUES'] = var5;
     var5 = function getGuildIconURL(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var6 = arg1;
             var5 = arguments[2];
             var4 = arguments[3];
             var3 = undefined;
-            if(!(var5 === var3)) { _fun0002_ip = 17; continue _fun0002 }
- 15:
+            if(!(var5 === var3)) { _fun0002_ip = 3; continue _fun0002 }
+case 6:
             var5 = false;
- 17:
-            if(!(var4 === var3)) { _fun0002_ip = 23; continue _fun0002 }
- 21:
+case 3:
+            if(!(var4 === var3)) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
             var4 = false;
- 23:
+case 7:
             var2 = _closure1_slot1;
             var7 = _closure1_slot2;
             var1 = 2;
@@ -170,17 +170,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['getGuildIconURL'] = var5;
     var5 = function getGuildIconSource(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var4 = arguments[2];
             var2 = arg1;
             var _closure2_slot0 = var2;
             var2 = arg2;
             var _closure2_slot1 = var2;
             var5 = undefined;
-            if(!(var4 === var5)) { _fun0003_ip = 27; continue _fun0003 }
- 25:
+            if(!(var4 === var5)) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
             var4 = false;
- 27:
+case 9:
             var3 = _closure1_slot1;
             var6 = _closure1_slot2;
             var2 = 2;
@@ -230,25 +230,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['isGuildOwner'] = var4;
     var4 = function isGuildOwnerWithRequiredMfaLevel(arg1, arg2) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var5 = arg1;
             var4 = arg2;
             var1 = var4.mfaEnabled;
             var2 = !var1;
-            if(!var2) { _fun0004_ip = 41; continue _fun0004 }
- 18:
+            if(!var2) { _fun0004_ip = 11; continue _fun0004 }
+case 12:
             var3 = var5.mfaLevel;
             var1 = _closure1_slot5;
             var1 = var1.ELEVATED;
             var2 = var3 === var1;
- 41:
+case 11:
             var1 = !var2;
-            if(var2) { _fun0004_ip = 62; continue _fun0004 }
- 47:
+            if(var2) { _fun0004_ip = 13; continue _fun0004 }
+case 14:
             var3 = _closure1_slot7;
             var2 = undefined;
             var1 = var3.bind(var2)(var5, var4);
- 62:
+case 13:
             return var1;
         }
     };
@@ -277,14 +277,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['getGuildEveryoneRoleId'] = var4;
     var4 = function updateJoinedAt(arg1, arg2) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
             var3 = arg2;
             var5 = _closure1_slot3;
             var2 = 'string';
             var1 = typeof var3;
             var4 = var3;
-            if(!(var2 === var1)) { _fun0005_ip = 55; continue _fun0005 }
- 24:
+            if(!(var2 === var1)) { _fun0005_ip = 15; continue _fun0005 }
+case 16:
             var1 = global;
             var1 = var1.Date;
             var2 = var1.prototype;
@@ -293,7 +293,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var3;
             var1 = new var9[var1](var8, var7);
             var4 = var1 instanceof Object ? var1 : var2;
- 55:
+case 15:
             var3 = undefined;
             var2 = arg1;
             var1 = 'joinedAt';
@@ -304,12 +304,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['updateJoinedAt'] = var4;
     var2 = function isGuildNSFW(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
- 0:
+case 0:
             var3 = arg1;
             var7 = null;
             var1 = var7 != var3;
-            if(!var1) { _fun0006_ip = 107; continue _fun0006 }
- 12:
+            if(!var1) { _fun0006_ip = 17; continue _fun0006 }
+case 18:
             var5 = _closure1_slot0;
             var4 = _closure1_slot2;
             var2 = 5;
@@ -321,22 +321,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4.bind(var5)(var2);
             var5 = _closure1_slot6;
             var4 = var5.has;
-            if(var2) { _fun0006_ip = 93; continue _fun0006 }
- 66:
+            if(var2) { _fun0006_ip = 19; continue _fun0006 }
+case 20:
             var2 = var3.ownerConfiguredContentLevel;
-            if(!(var7 == var2)) { _fun0006_ip = 86; continue _fun0006 }
- 76:
+            if(!(var7 == var2)) { _fun0006_ip = 21; continue _fun0006 }
+case 22:
             var6 = _closure1_slot4;
             var2 = var6.DEFAULT;
- 86:
+case 21:
             var2 = var4.bind(var5)(var2);
-            _fun0006_ip = 104; continue _fun0006;
- 93:
+            _fun0006_ip = 23; continue _fun0006;
+case 19:
             var3 = var3.nsfwLevel;
             var2 = var4.bind(var5)(var3);
- 104:
+case 23:
             var1 = var2;
- 107:
+case 17:
             return var1;
         }
     };

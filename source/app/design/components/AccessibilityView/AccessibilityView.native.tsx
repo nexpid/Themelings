@@ -32,14 +32,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var8.forwardRef;
     var2 = function(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var10 = var3.accessibilityViewIsModal;
             var4 = undefined;
-            if(!(var10 === var4)) { _fun0001_ip = 17; continue _fun0001 }
- 15:
+            if(!(var10 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var10 = false;
- 17:
+case 2:
             var9 = var3.nativeID;
             var8 = var3.collapsable;
             var6 = var3.onAccessibilityEscape;
@@ -52,10 +52,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var3;
             var12 = var2;
             var5 = copyDataProperties(var14, var13, var12);
-            if(!var10) { _fun0001_ip = 79; continue _fun0001 }
- 75:
-            if(!(var7 != var6)) { _fun0001_ip = 179; continue _fun0001 }
- 79:
+            if(!var10) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            if(!(var7 != var6)) { _fun0001_ip = 6; continue _fun0001 }
+case 4:
             var3 = _closure1_slot0;
             var11 = _closure1_slot1;
             var2 = 3;
@@ -72,10 +72,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['ref'] = var10;
             var1['nativeID'] = var9;
             var7 = var7 == var9;
-            if(!var7) { _fun0001_ip = 151; continue _fun0001 }
- 148:
+            if(!var7) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var7 = var8;
- 151:
+case 7:
             var1['collapsable'] = var7;
             var1['onAccessibilityEscape'] = var6;
             var14 = var1;
@@ -83,7 +83,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = copyDataProperties(var14, var13);
             var1 = var3.bind(var4)(var2, var1);
             return var1;
- 179:
+case 6:
             var1 = global;
             var3 = var1.Error;
             var1 = var3.prototype;

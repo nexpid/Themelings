@@ -9,13 +9,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var7;
     var2 = function useHeroMediaDimensions() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arguments[0];
             var5 = undefined;
-            if(!(var1 === var5)) { _fun0001_ip = 11; continue _fun0001 }
- 9:
+            if(!(var1 === var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = {};
- 11:
+case 2:
             var2 = var1.width;
             var4 = _closure1_slot0;
             var6 = _closure1_slot2;
@@ -25,18 +25,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.useDefaultAppLauncherWidth;
             var6 = var3.bind(var4)();
             var3 = null;
-            if(!(var3 != var2)) { _fun0001_ip = 58; continue _fun0001 }
- 55:
+            if(!(var3 != var2)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var6 = var2;
- 58:
-            if(!(var3 == var2)) { _fun0001_ip = 85; continue _fun0001 }
- 62:
+case 4:
+            if(!(var3 == var2)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var3 = global;
             var5 = var3.Math;
             var4 = var5.min;
             var3 = _closure1_slot5;
             var2 = var4.bind(var5)(var6, var3);
- 85:
+case 6:
             var3 = _closure1_slot4;
             var1 = 2;
             var1 = var1 * var3;
@@ -107,7 +107,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var7)(var5);
     var4 = function HeroMedia(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var4 = var1.applicationId;
             var12 = var1.containerHeight;
@@ -154,20 +154,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = null;
             var11 = var8 == var3;
             var1 = undefined;
-            if(var11) { _fun0002_ip = 194; continue _fun0002 }
- 188:
+            if(var11) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var1 = var3.embeddedActivityConfig;
- 194:
+case 8:
             var11 = var8 == var1;
             var3 = undefined;
-            if(var11) { _fun0002_ip = 209; continue _fun0002 }
- 203:
+            if(var11) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
             var3 = var1.activity_preview_video_asset_id;
- 209:
+case 10:
             var3 = var8 != var3;
             var13 = null;
-            if(!var3) { _fun0002_ip = 250; continue _fun0002 }
- 218:
+            if(!var3) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
             var11 = _closure1_slot1;
             var14 = _closure1_slot2;
             var3 = 10;
@@ -175,15 +175,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var11.bind(var5)(var3);
             var1 = var1.activity_preview_video_asset_id;
             var13 = var3.bind(var5)(var4, var1);
- 250:
+case 12:
             var3 = var8 == var13;
             var1 = null;
-            if(var3) { _fun0002_ip = 498; continue _fun0002 }
- 262:
+            if(var3) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
             var11 = '';
             var1 = null;
-            if(!(var11 !== var13)) { _fun0002_ip = 498; continue _fun0002 }
- 275:
+            if(!(var11 !== var13)) { _fun0002_ip = 14; continue _fun0002 }
+case 16:
             var4 = _closure1_slot6;
             var3 = _closure1_slot1;
             var14 = _closure1_slot2;
@@ -192,24 +192,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var5)(var2);
             var2 = {};
             var2['paused'] = var9;
-            if(!(var8 != var13)) { _fun0002_ip = 314; continue _fun0002 }
- 310:
-            if(!(var11 === var13)) { _fun0002_ip = 337; continue _fun0002 }
- 314:
+            if(!(var8 != var13)) { _fun0002_ip = 17; continue _fun0002 }
+case 18:
+            if(!(var11 === var13)) { _fun0002_ip = 19; continue _fun0002 }
+case 17:
             var9 = {};
             var14 = var7.url;
             var15 = var8 != var14;
-            if(!var15) { _fun0002_ip = 331; continue _fun0002 }
- 328:
+            if(!var15) { _fun0002_ip = 20; continue _fun0002 }
+case 21:
             var11 = var14;
- 331:
+case 20:
             var9['uri'] = var11;
-            _fun0002_ip = 347; continue _fun0002;
- 337:
+            _fun0002_ip = 22; continue _fun0002;
+case 19:
             var11 = {};
             var11['videoURI'] = var13;
             var9 = var11;
- 347:
+case 22:
             var2['src'] = var9;
             var9 = var10.height;
             var2['height'] = var9;
@@ -227,8 +227,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9['maxHeight'] = var11;
             var7[1] = var9;
             var8 = var8 != var12;
-            if(!var8) { _fun0002_ip = 466; continue _fun0002 }
- 426:
+            if(!var8) { _fun0002_ip = 23; continue _fun0002 }
+case 24:
             var9 = {};
             var11 = {};
             var10 = var10.height;
@@ -240,7 +240,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10[0] = var11;
             var9['transform'] = var10;
             var8 = var9;
- 466:
+case 23:
             var7[2] = var8;
             var2['style'] = var7;
             var6 = var6.mediaBackground;
@@ -248,7 +248,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = false;
             var2['postponeRender'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 498:
+case 14:
             return var1;
         }
     };

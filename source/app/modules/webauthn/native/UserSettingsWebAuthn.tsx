@@ -39,22 +39,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function UserSettingsWebAuthn(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var3 = var1.navigation;
             var _closure2_slot0 = var3;
             var6 = var1.initialRouteName;
             var4 = undefined;
-            if(!(var6 === var4)) { _fun0001_ip = 40; continue _fun0001 }
- 27:
+            if(!(var6 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = _closure1_slot4;
             var6 = var3.INIT;
- 40:
+case 2:
             var1 = var1.showNav;
-            if(!(var1 === var4)) { _fun0001_ip = 52; continue _fun0001 }
- 50:
+            if(!(var1 === var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = false;
- 52:
+case 4:
             var _closure2_slot1 = var1;
             var5 = _closure1_slot1;
             var8 = _closure1_slot2;

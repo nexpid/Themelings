@@ -9,27 +9,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var7;
     var1 = function getIcon(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = _closure1_slot7;
             var1 = var1.WARNING;
-            if(!(var1 !== var2)) { _fun0001_ip = 291; continue _fun0001 }
- 23:
+            if(!(var1 !== var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = _closure1_slot7;
             var1 = var1.INFO;
-            if(!(var1 !== var2)) { _fun0001_ip = 218; continue _fun0001 }
- 40:
+            if(!(var1 !== var2)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = _closure1_slot7;
             var1 = var1.ERROR;
-            if(!(var1 !== var2)) { _fun0001_ip = 145; continue _fun0001 }
- 54:
+            if(!(var1 !== var2)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var1 = _closure1_slot7;
             var1 = var1.SUCCESS;
-            if(!(var1 !== var2)) { _fun0001_ip = 72; continue _fun0001 }
- 68:
+            if(!(var1 !== var2)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var1 = undefined;
             return var1;
- 72:
+case 8:
             var4 = _closure1_slot4;
             var2 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -48,7 +48,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['color'] = var6;
             var1 = var4.bind(var3)(var2, var1);
             return var1;
- 145:
+case 6:
             var4 = _closure1_slot4;
             var2 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -67,7 +67,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['color'] = var6;
             var1 = var4.bind(var3)(var2, var1);
             return var1;
- 218:
+case 4:
             var4 = _closure1_slot4;
             var2 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -86,7 +86,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['color'] = var6;
             var1 = var4.bind(var3)(var2, var1);
             return var1;
- 291:
+case 2:
             var4 = _closure1_slot4;
             var2 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -110,37 +110,37 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot8 = var1;
     var1 = function useContainerStyle(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var3 = arg1;
             var1 = arg2;
             var4 = _closure1_slot7;
             var4 = var4.WARNING;
-            if(!(var4 !== var3)) { _fun0002_ip = 93; continue _fun0002 }
- 23:
+            if(!(var4 !== var3)) { _fun0002_ip = 10; continue _fun0002 }
+case 3:
             var4 = _closure1_slot7;
             var4 = var4.INFO;
-            if(!(var4 !== var3)) { _fun0002_ip = 85; continue _fun0002 }
- 37:
+            if(!(var4 !== var3)) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
             var4 = _closure1_slot7;
             var4 = var4.ERROR;
-            if(!(var4 !== var3)) { _fun0002_ip = 77; continue _fun0002 }
- 51:
+            if(!(var4 !== var3)) { _fun0002_ip = 13; continue _fun0002 }
+case 14:
             var2 = _closure1_slot7;
             var2 = var2.SUCCESS;
-            if(!(var2 !== var3)) { _fun0002_ip = 69; continue _fun0002 }
- 65:
+            if(!(var2 !== var3)) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
             var2 = undefined;
             return var2;
- 69:
+case 15:
             var2 = var1.successContainer;
             return var2;
- 77:
+case 13:
             var2 = var1.errorContainer;
             return var2;
- 85:
+case 11:
             var2 = var1.infoContainer;
             return var2;
- 93:
+case 10:
             var1 = var1.warningContainer;
             return var1;
         }
@@ -292,21 +292,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var7)(var5);
     var4 = function HelpMessage(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var1 = arg1;
             var9 = var1.children;
             var7 = var1.messageType;
             var10 = var1.textVariant;
             var4 = undefined;
-            if(!(var10 === var4)) { _fun0003_ip = 30; continue _fun0003 }
- 26:
+            if(!(var10 === var4)) { _fun0003_ip = 17; continue _fun0003 }
+case 18:
             var10 = 'text-sm/medium';
- 30:
+case 17:
             var11 = var1.textColor;
-            if(!(var11 === var4)) { _fun0003_ip = 46; continue _fun0003 }
- 40:
+            if(!(var11 === var4)) { _fun0003_ip = 19; continue _fun0003 }
+case 5:
             var11 = 'text-normal';
- 46:
+case 19:
             var1 = _closure1_slot6;
             var12 = var1.bind(var4)();
             var3 = _closure1_slot5;

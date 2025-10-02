@@ -60,23 +60,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[0] = var5;
         var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var1 = _closure2_slot0;
                 var3 = null;
                 var1 = var3 != var1;
-                if(!var1) { _fun0001_ip = 49; continue _fun0001 }
- 16:
+                if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var4 = _closure1_slot2;
                 var4 = var4.balance;
                 var5 = var3 != var4;
                 var3 = 0;
-                if(!var5) { _fun0001_ip = 41; continue _fun0001 }
- 38:
+                if(!var5) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var3 = var4;
- 41:
+case 4:
                 var2 = _closure2_slot0;
                 var1 = var3 >= var2;
- 49:
+case 2:
                 return var1;
             }
         };

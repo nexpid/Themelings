@@ -59,7 +59,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot30 = var1;
     var1 = function handleCancelSubscription(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var9 = _closure1_slot0;
             var10 = _closure1_slot2;
@@ -85,18 +85,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4['toStep'] = var7;
             var4 = var5.bind(var6)(var4);
             var4 = null;
-            if(!(var4 != var3)) { _fun0001_ip = 122; continue _fun0001 }
- 113:
+            if(!(var4 != var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = var3.isPurchasedViaApple;
-            if(var5) { _fun0001_ip = 197; continue _fun0001 }
- 122:
+            if(var5) { _fun0001_ip = 4; continue _fun0001 }
+case 2:
             var4 = var4 != var3;
-            if(!var4) { _fun0001_ip = 135; continue _fun0001 }
- 129:
+            if(!var4) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var4 = var3.isPurchasedViaGoogle;
- 135:
-            if(!var4) { _fun0001_ip = 216; continue _fun0001 }
- 138:
+case 5:
+            if(!var4) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var5 = _closure1_slot6;
             var4 = var5.openURL;
             var7 = _closure1_slot0;
@@ -109,20 +109,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = 'SUBSCRIPTION_MANAGEMENT';
             var3 = var7.bind(var8)(var6, var3);
             var3 = var4.bind(var5)(var3);
-            _fun0001_ip = 216; continue _fun0001;
- 197:
+            _fun0001_ip = 7; continue _fun0001;
+case 4:
             var4 = _closure1_slot6;
             var3 = var4.openURL;
             var2 = _closure1_slot12;
             var2 = var3.bind(var4)(var2);
- 216:
+case 7:
             return var1;
         }
     };
     var _closure1_slot31 = var1;
     var6 = function onCancelClick(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var5 = arg1;
             var4 = arg2;
             var _closure2_slot0 = var5;
@@ -141,8 +141,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.bind(var2)(var1);
             var1 = var6.isBoostOnlySubscription;
             var1 = var1.bind(var6)(var5);
-            if(var1) { _fun0002_ip = 159; continue _fun0002 }
- 83:
+            if(var1) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
             var6 = _closure1_slot1;
             var10 = _closure1_slot2;
             var1 = 44;
@@ -168,25 +168,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var1['onContinue'] = var7;
             var1 = var6.bind(var2)(var1);
-            _fun0002_ip = 171; continue _fun0002;
- 159:
+            _fun0002_ip = 11; continue _fun0002;
+case 9:
             var3 = _closure1_slot31;
             var3 = var3.bind(var2)(var5, var4);
             var1 = undefined;
- 171:
+case 11:
             return var1;
         }
     };
     var _closure1_slot32 = var6;
     var5 = function handleManageSubscription(arg1, arg2, arg3) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var1 = arg1;
             var3 = var1.status;
             var2 = _closure1_slot13;
             var2 = var2.ACCOUNT_HOLD;
-            if(!(var3 !== var2)) { _fun0003_ip = 114; continue _fun0003 }
- 25:
+            if(!(var3 !== var2)) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
             var5 = _closure1_slot0;
             var3 = _closure1_slot2;
             var2 = 46;
@@ -208,8 +208,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = arg3;
             var2['analyticsLocations'] = var6;
             var2 = var3.bind(var5)(var2);
-            _fun0003_ip = 173; continue _fun0003;
- 114:
+            _fun0003_ip = 14; continue _fun0003;
+case 12:
             var3 = _closure1_slot6;
             var2 = var3.openURL;
             var6 = _closure1_slot0;
@@ -223,7 +223,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = 'PAYMENT_SOURCE_MANAGEMENT';
             var1 = var5.bind(var6)(var4, var1);
             var1 = var2.bind(var3)(var1);
- 173:
+case 14:
             var1 = undefined;
             return var1;
         }
@@ -231,14 +231,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot33 = var5;
     var4 = function onResubscribeClick(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = var1.isPurchasedViaApple;
-            if(var2) { _fun0004_ip = 85; continue _fun0004 }
- 12:
+            if(var2) { _fun0004_ip = 15; continue _fun0004 }
+case 16:
             var2 = var1.isPurchasedViaGoogle;
-            if(!var2) { _fun0004_ip = 107; continue _fun0004 }
- 21:
+            if(!var2) { _fun0004_ip = 17; continue _fun0004 }
+case 18:
             var3 = _closure1_slot6;
             var2 = var3.openURL;
             var6 = _closure1_slot0;
@@ -252,13 +252,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = 'SUBSCRIPTION_MANAGEMENT';
             var1 = var5.bind(var6)(var4, var1);
             var1 = var2.bind(var3)(var1);
-            _fun0004_ip = 107; continue _fun0004;
- 85:
+            _fun0004_ip = 17; continue _fun0004;
+case 15:
             var3 = _closure1_slot6;
             var2 = var3.openURL;
             var1 = _closure1_slot12;
             var1 = var2.bind(var3)(var1);
- 107:
+case 17:
             var1 = undefined;
             return var1;
         }
@@ -266,7 +266,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot34 = var4;
     var2 = function PremiumSubscriptionHeader(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
             var1 = arg1;
             var20 = var1.subscription;
             var _closure2_slot0 = var20;
@@ -316,30 +316,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5[0] = var3;
             var3 = function() {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
- 0:
+case 0:
                     var2 = _closure2_slot0;
                     var2 = var2.isOnPlatformMatchingExternalPaymentGateway;
                     var3 = null;
-                    if(var2) { _fun0006_ip = 20; continue _fun0006 }
- 18:
+                    if(var2) { _fun0006_ip = 19; continue _fun0006 }
+case 20:
                     return var3;
- 20:
+case 19:
                     var2 = _closure2_slot0;
                     var2 = var2.paymentGatewayPlanId;
-                    if(!(var3 != var2)) { _fun0006_ip = 82; continue _fun0006 }
- 34:
+                    if(!(var3 != var2)) { _fun0006_ip = 21; continue _fun0006 }
+case 22:
                     var2 = _closure2_slot0;
                     var3 = var2.paymentGatewayPlanId;
                     var2 = '';
-                    if(!(var2 !== var3)) { _fun0006_ip = 82; continue _fun0006 }
- 52:
+                    if(!(var2 !== var3)) { _fun0006_ip = 21; continue _fun0006 }
+case 23:
                     var3 = _closure1_slot9;
                     var2 = var3.getProduct;
                     var1 = _closure2_slot0;
                     var1 = var1.paymentGatewayPlanId;
                     var1 = var2.bind(var3)(var1);
                     return var1;
- 82:
+case 21:
                     var1 = global;
                     var3 = var1.Error;
                     var1 = var3.prototype;
@@ -372,8 +372,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2.bind(var4)(var1);
             var1 = var1.Branding;
             var1 = var1.PREMIUM_GUILD;
-            if(!(var27 !== var1)) { _fun0005_ip = 429; continue _fun0005 }
- 258:
+            if(!(var27 !== var1)) { _fun0005_ip = 24; continue _fun0005 }
+case 25:
             var3 = _closure1_slot1;
             var1 = _closure1_slot2;
             var2 = var1[var21];
@@ -396,8 +396,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['subscription'] = var20;
             var1['planId'] = var12;
             var12 = var7 != var10;
-            if(!var12) { _fun0005_ip = 410; continue _fun0005 }
- 359:
+            if(!var12) { _fun0005_ip = 26; continue _fun0005 }
+case 27:
             var13 = _closure1_slot0;
             var15 = _closure1_slot2;
             var12 = 51;
@@ -408,13 +408,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var11.interval;
             var11 = var11.intervalCount;
             var7 = var15.bind(var16)(var13, var12, var11);
- 410:
+case 26:
             var1['price'] = var7;
             var7 = true;
             var1['includePremiumGuilds'] = var7;
             var13 = var3.bind(var5)(var1);
-            _fun0005_ip = 518; continue _fun0005;
- 429:
+            _fun0005_ip = 28; continue _fun0005;
+case 24:
             var5 = _closure1_slot0;
             var1 = _closure1_slot2;
             var3 = var1[var21];
@@ -430,44 +430,44 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = null;
             var11 = var9 == var10;
             var9 = undefined;
-            if(var11) { _fun0005_ip = 500; continue _fun0005 }
- 494:
+            if(var11) { _fun0005_ip = 29; continue _fun0005 }
+case 30:
             var9 = var10.priceString;
- 500:
+case 29:
             var1['price'] = var9;
             var1['renewalInvoicePreview'] = var8;
             var13 = var5.bind(var7)(var1);
             var2 = var3;
- 518:
+case 28:
             var1 = _closure1_slot13;
             var1 = var1.CANCELED;
             var12 = var2 === var1;
             var1 = _closure1_slot13;
             var1 = var1.ACTIVE;
-            if(!(var2 !== var1)) { _fun0005_ip = 569; continue _fun0005 }
- 546:
+            if(!(var2 !== var1)) { _fun0005_ip = 31; continue _fun0005 }
+case 32:
             var1 = _closure1_slot18;
-            if(var12) { _fun0005_ip = 561; continue _fun0005 }
- 553:
+            if(var12) { _fun0005_ip = 33; continue _fun0005 }
+case 34:
             var22 = var1.ERROR;
-            _fun0005_ip = 567; continue _fun0005;
- 561:
+            _fun0005_ip = 35; continue _fun0005;
+case 33:
             var22 = var1.RESUB;
- 567:
-            _fun0005_ip = 579; continue _fun0005;
- 569:
+case 35:
+            _fun0005_ip = 36; continue _fun0005;
+case 31:
             var1 = _closure1_slot18;
             var22 = var1.ACTIVE;
- 579:
+case 36:
             var1 = var12;
-            if(var1) { _fun0005_ip = 594; continue _fun0005 }
- 585:
+            if(var1) { _fun0005_ip = 37; continue _fun0005 }
+case 38:
             var2 = var20.isOnPlatformMatchingExternalPaymentGateway;
             var1 = !var2;
- 594:
+case 37:
             var19 = !var1;
-            if(var1) { _fun0005_ip = 650; continue _fun0005 }
- 600:
+            if(var1) { _fun0005_ip = 39; continue _fun0005 }
+case 40:
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 52;
@@ -476,19 +476,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2.isAndroid;
             var1 = var1.bind(var2)();
             var1 = !var1;
-            if(var1) { _fun0005_ip = 647; continue _fun0005 }
- 635:
+            if(var1) { _fun0005_ip = 41; continue _fun0005 }
+case 42:
             var3 = var20.renewalMutations;
             var2 = null;
             var1 = var2 == var3;
- 647:
+case 41:
             var19 = var1;
- 650:
+case 39:
             var15 = !var12;
-            if(var12) { _fun0005_ip = 662; continue _fun0005 }
- 656:
+            if(var12) { _fun0005_ip = 43; continue _fun0005 }
+case 44:
             var15 = var20.isOnPlatformMatchingExternalPaymentGateway;
- 662:
+case 43:
             var3 = _closure1_slot15;
             var2 = _closure1_slot7;
             var1 = {};
@@ -562,16 +562,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9['style'] = var13;
             var13 = null;
             var16 = null;
-            if(!var12) { _fun0005_ip = 1138; continue _fun0005 }
- 970:
+            if(!var12) { _fun0005_ip = 45; continue _fun0005 }
+case 46:
             var12 = var13 != var20;
             var16 = null;
-            if(!var12) { _fun0005_ip = 1138; continue _fun0005 }
- 982:
+            if(!var12) { _fun0005_ip = 45; continue _fun0005 }
+case 47:
             var12 = var20.isOnPlatformMatchingExternalPaymentGateway;
             var16 = null;
-            if(!var12) { _fun0005_ip = 1138; continue _fun0005 }
- 996:
+            if(!var12) { _fun0005_ip = 45; continue _fun0005 }
+case 48:
             var23 = _closure1_slot15;
             var26 = _closure1_slot1;
             var29 = _closure1_slot2;
@@ -609,12 +609,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var24 = var18.buttonText;
             var12['textStyle'] = var24;
             var16 = var23.bind(var4)(var22, var12);
- 1138:
+case 45:
             var12 = new Array(4);
             var12[0] = var16;
             var16 = null;
-            if(!var19) { _fun0005_ip = 1413; continue _fun0005 }
- 1154:
+            if(!var19) { _fun0005_ip = 49; continue _fun0005 }
+case 50:
             var23 = _closure1_slot15;
             var26 = _closure1_slot1;
             var24 = _closure1_slot2;
@@ -640,8 +640,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var26 = var20.status;
             var24 = _closure1_slot13;
             var24 = var24.ACCOUNT_HOLD;
-            if(!(var26 !== var24)) { _fun0005_ip = 1292; continue _fun0005 }
- 1233:
+            if(!(var26 !== var24)) { _fun0005_ip = 51; continue _fun0005 }
+case 52:
             var29 = _closure1_slot0;
             var30 = _closure1_slot2;
             var24 = 55;
@@ -654,8 +654,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var24 = var24.t;
             var24 = var24.gmVtgI;
             var24 = var26.bind(var28)(var24);
-            _fun0005_ip = 1349; continue _fun0005;
- 1292:
+            _fun0005_ip = 53; continue _fun0005;
+case 51:
             var30 = _closure1_slot0;
             var31 = _closure1_slot2;
             var26 = 55;
@@ -668,7 +668,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var26 = var26.t;
             var26 = var26.SgX7RU;
             var24 = var28.bind(var29)(var26);
- 1349:
+case 53:
             var19['text'] = var24;
             var24 = var18.button;
             var19['style'] = var24;
@@ -682,7 +682,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var24 = var18.buttonText;
             var19['textStyle'] = var24;
             var16 = var23.bind(var4)(var22, var19);
- 1413:
+case 49:
             var12[1] = var16;
             var19 = _closure1_slot0;
             var16 = _closure1_slot2;
@@ -691,12 +691,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = var19.subscriptionHasPremiumGuildPlan;
             var19 = var16.bind(var19)(var20);
             var16 = null;
-            if(!var19) { _fun0005_ip = 1629; continue _fun0005 }
- 1453:
+            if(!var19) { _fun0005_ip = 54; continue _fun0005 }
+case 55:
             var19 = var13 != var25;
             var16 = null;
-            if(!var19) { _fun0005_ip = 1629; continue _fun0005 }
- 1465:
+            if(!var19) { _fun0005_ip = 54; continue _fun0005 }
+case 56:
             var21 = _closure1_slot15;
             var23 = _closure1_slot1;
             var24 = _closure1_slot2;
@@ -732,11 +732,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var22 = var18.buttonText;
             var19['textStyle'] = var22;
             var16 = var21.bind(var4)(var20, var19);
- 1629:
+case 54:
             var12[2] = var16;
             var13 = null;
-            if(!var15) { _fun0005_ip = 1764; continue _fun0005 }
- 1641:
+            if(!var15) { _fun0005_ip = 57; continue _fun0005 }
+case 58:
             var16 = _closure1_slot15;
             var20 = _closure1_slot0;
             var21 = _closure1_slot2;
@@ -768,7 +768,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17 = var18.bind(var19)(var17);
             var14['children'] = var17;
             var13 = var16.bind(var4)(var15, var14);
- 1764:
+case 57:
             var12[3] = var13;
             var9['children'] = var12;
             var9 = var11.bind(var4)(var10, var9);
@@ -1374,7 +1374,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var9.bind(var10)(var8);
     var7 = function PremiumSubscriptionDetails(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
- 0:
+case 0:
             var1 = arg1;
             var6 = var1.style;
             var13 = var1.onClickManagePremiumGuild;
@@ -1414,8 +1414,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = null;
             var2 = var10 == var15;
             var1 = null;
-            if(var2) { _fun0007_ip = 602; continue _fun0007 }
- 170:
+            if(var2) { _fun0007_ip = 59; continue _fun0007 }
+case 60:
             var4 = _closure1_slot16;
             var3 = _closure1_slot7;
             var2 = {};
@@ -1446,15 +1446,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[0] = var9;
             var9 = var16.renewalMutations;
             var9 = var10 != var9;
-            if(!var9) { _fun0007_ip = 335; continue _fun0007 }
- 316:
+            if(!var9) { _fun0007_ip = 61; continue _fun0007 }
+case 62:
             var12 = var16.status;
             var10 = _closure1_slot13;
             var10 = var10.CANCELED;
             var9 = var12 !== var10;
- 335:
-            if(!var9) { _fun0007_ip = 386; continue _fun0007 }
- 338:
+case 61:
+            if(!var9) { _fun0007_ip = 63; continue _fun0007 }
+case 64:
             var17 = _closure1_slot15;
             var12 = _closure1_slot1;
             var18 = _closure1_slot2;
@@ -1466,14 +1466,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var18 = var16.renewalMutations;
             var10['renewalMutations'] = var18;
             var9 = var17.bind(var5)(var12, var10);
- 386:
+case 63:
             var6[1] = var9;
             var10 = var16.status;
             var9 = _closure1_slot13;
             var9 = var9.ACCOUNT_HOLD;
             var9 = var10 === var9;
-            if(!var9) { _fun0007_ip = 449; continue _fun0007 }
- 412:
+            if(!var9) { _fun0007_ip = 65; continue _fun0007 }
+case 66:
             var17 = _closure1_slot15;
             var12 = _closure1_slot1;
             var18 = _closure1_slot2;
@@ -1483,7 +1483,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = {};
             var10['subscription'] = var16;
             var9 = var17.bind(var5)(var12, var10);
- 449:
+case 65:
             var6[2] = var9;
             var12 = _closure1_slot15;
             var10 = _closure1_slot35;
@@ -1518,7 +1518,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[4] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 602:
+case 59:
             return var1;
         }
     };

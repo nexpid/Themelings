@@ -30,7 +30,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = {};
     var7 = function getActiveErrors(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var4 = var1.voiceChannelId;
             var7 = var1.voiceState;
@@ -41,21 +41,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var5 == var6;
             var1 = undefined;
             var3 = undefined;
-            if(var4) { _fun0001_ip = 55; continue _fun0001 }
- 45:
+            if(var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = var6.isGuildStageVoice;
             var3 = var4.bind(var6)();
- 55:
-            if(!var3) { _fun0001_ip = 76; continue _fun0001 }
- 58:
+case 2:
+            if(!var3) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var8 = var5 == var7;
             var4 = undefined;
-            if(var8) { _fun0001_ip = 73; continue _fun0001 }
- 67:
+            if(var8) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var4 = var7.suppress;
- 73:
+case 6:
             var3 = var4;
- 76:
+case 4:
             var4 = global;
             var8 = var4.Object;
             var7 = var8.keys;
@@ -68,14 +68,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var7.getMediaSessionId;
             var4 = var4.bind(var7)();
             var7 = 0;
-            if(!(var7 === var8)) { _fun0001_ip = 221; continue _fun0001 }
- 133:
-            if(!(var5 != var6)) { _fun0001_ip = 221; continue _fun0001 }
- 137:
-            if(!(var5 != var4)) { _fun0001_ip = 221; continue _fun0001 }
- 141:
-            if(var3) { _fun0001_ip = 221; continue _fun0001 }
- 144:
+            if(!(var7 === var8)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
+            if(!(var5 != var6)) { _fun0001_ip = 8; continue _fun0001 }
+case 10:
+            if(!(var5 != var4)) { _fun0001_ip = 8; continue _fun0001 }
+case 11:
+            if(var3) { _fun0001_ip = 8; continue _fun0001 }
+case 12:
             var3 = {};
             var4 = _closure1_slot0;
             var5 = _closure1_slot1;
@@ -95,7 +95,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = new Array(1);
             var2[0] = var3;
             return var2;
- 221:
+case 8:
             return var1;
         }
     };

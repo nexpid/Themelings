@@ -44,22 +44,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['dangerouslyCast'] = var4;
     var4 = function assertUnreachable(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arguments[1];
             var1 = undefined;
-            if(!(var2 === var1)) { _fun0001_ip = 11; continue _fun0001 }
- 9:
+            if(!(var2 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = {};
- 11:
+case 2:
             var2 = var2.andFail;
-            if(!(var2 === var1)) { _fun0001_ip = 23; continue _fun0001 }
- 21:
+            if(!(var2 === var1)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = true;
- 23:
-            if(var2) { _fun0001_ip = 28; continue _fun0001 }
- 26:
+case 4:
+            if(var2) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             return var1;
- 28:
+case 6:
             var1 = global;
             var1 = var1.Error;
             var2 = var1.prototype;

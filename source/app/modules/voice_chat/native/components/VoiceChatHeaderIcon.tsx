@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function VoiceChatCallScreenHeaderIconInner(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var8 = var1.children;
             var11 = var1.source;
@@ -35,15 +35,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['accessibilityLabel'] = var12;
             var5['source'] = var11;
             var11 = null;
-            if(!(var11 == var9)) { _fun0001_ip = 133; continue _fun0001 }
- 107:
+            if(!(var11 == var9)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var11 = _closure1_slot1;
             var12 = _closure1_slot2;
             var10 = 10;
             var10 = var12[var10];
             var10 = var11.bind(var4)(var10);
             var9 = var10.noop;
- 133:
+case 2:
             var5['onPress'] = var9;
             var5['children'] = var8;
             var5 = var7.bind(var4)(var6, var5);
@@ -138,7 +138,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function VoiceChatHeaderIcon(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var9 = var1.accessibilityLabel;
             var7 = var1.onPress;
@@ -162,10 +162,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var12.headerButton;
             var7 = new Array(2);
             var7[0] = var9;
-            if(!var8) { _fun0002_ip = 122; continue _fun0002 }
- 116:
+            if(!var8) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var8 = var12.disabledOpacity;
- 122:
+case 4:
             var7[1] = var8;
             var1['style'] = var7;
             var8 = _closure1_slot6;

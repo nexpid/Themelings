@@ -32,7 +32,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function getRequestToStreamCTAAndIsDisabled(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var12 = _closure1_slot0;
             var11 = _closure1_slot2;
@@ -79,40 +79,40 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var15.bind(var8)(var11);
             var11 = var11.5+172d;
             var11 = var12.bind(var14)(var11);
-            if(var10) { _fun0001_ip = 676; continue _fun0001 }
- 207:
+            if(var10) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var2.author;
             var2 = var2.id;
-            if(!(var2 !== var3)) { _fun0001_ip = 619; continue _fun0001 }
- 225:
+            if(!(var2 !== var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = var11;
             var2 = false;
-            if(var4) { _fun0001_ip = 731; continue _fun0001 }
- 236:
+            if(var4) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var12 = _closure1_slot0;
             var4 = _closure1_slot2;
             var4 = var4[var13];
             var4 = var12.bind(var8)(var4);
             var4 = var4.StreamRequestUnfulfillableReason;
             var4 = var4.ALREADY_STREAMING;
-            if(!(var4 !== var6)) { _fun0001_ip = 562; continue _fun0001 }
- 272:
+            if(!(var4 !== var6)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var12 = _closure1_slot0;
             var4 = _closure1_slot2;
             var4 = var4[var13];
             var4 = var12.bind(var8)(var4);
             var4 = var4.StreamRequestUnfulfillableReason;
             var4 = var4.NOT_RUNNING_GAME;
-            if(!(var4 !== var6)) { _fun0001_ip = 502; continue _fun0001 }
- 308:
+            if(!(var4 !== var6)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var12 = _closure1_slot0;
             var4 = _closure1_slot2;
             var4 = var4[var13];
             var4 = var12.bind(var8)(var4);
             var4 = var4.StreamRequestUnfulfillableReason;
             var4 = var4.NOT_IN_VOICE_CHANNEL;
-            if(!(var4 !== var6)) { _fun0001_ip = 442; continue _fun0001 }
- 341:
+            if(!(var4 !== var6)) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var12 = _closure1_slot0;
             var4 = _closure1_slot2;
             var4 = var4[var13];
@@ -121,8 +121,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.NO_PERMISSION;
             var3 = var11;
             var2 = false;
-            if(!(var4 === var6)) { _fun0001_ip = 731; continue _fun0001 }
- 382:
+            if(!(var4 === var6)) { _fun0001_ip = 6; continue _fun0001 }
+case 14:
             var10 = _closure1_slot0;
             var4 = _closure1_slot2;
             var6 = var4[var5];
@@ -135,8 +135,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.fac+eH;
             var3 = var6.bind(var10)(var4);
             var2 = true;
-            _fun0001_ip = 731; continue _fun0001;
- 442:
+            _fun0001_ip = 6; continue _fun0001;
+case 12:
             var10 = _closure1_slot0;
             var4 = _closure1_slot2;
             var6 = var4[var5];
@@ -149,8 +149,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.qRXatr;
             var3 = var6.bind(var10)(var4);
             var2 = true;
-            _fun0001_ip = 731; continue _fun0001;
- 502:
+            _fun0001_ip = 6; continue _fun0001;
+case 10:
             var10 = _closure1_slot0;
             var4 = _closure1_slot2;
             var6 = var4[var5];
@@ -163,8 +163,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.43zohI;
             var3 = var6.bind(var10)(var4);
             var2 = true;
-            _fun0001_ip = 731; continue _fun0001;
- 562:
+            _fun0001_ip = 6; continue _fun0001;
+case 8:
             var10 = _closure1_slot0;
             var4 = _closure1_slot2;
             var6 = var4[var5];
@@ -177,8 +177,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.P0wwmJ;
             var3 = var6.bind(var10)(var4);
             var2 = true;
-            _fun0001_ip = 731; continue _fun0001;
- 619:
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
             var10 = _closure1_slot0;
             var4 = _closure1_slot2;
             var6 = var4[var5];
@@ -191,8 +191,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.8HU1Mz;
             var3 = var6.bind(var10)(var4);
             var2 = true;
-            _fun0001_ip = 731; continue _fun0001;
- 676:
+            _fun0001_ip = 6; continue _fun0001;
+case 2:
             var6 = _closure1_slot0;
             var4 = _closure1_slot2;
             var5 = var4[var5];
@@ -205,7 +205,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.u4QmWl;
             var3 = var5.bind(var6)(var4);
             var2 = true;
- 731:
+case 6:
             var1 = {};
             var1['text'] = var3;
             var1['isDisabled'] = var2;

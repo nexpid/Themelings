@@ -20,7 +20,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var4.bind(var5)(var2);
     var2 = function gameServerResponseToInstance(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = {};
             var3 = var2.id;
@@ -39,10 +39,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = null;
             var5 = var3 != var4;
             var3 = 0;
-            if(!var5) { _fun0001_ip = 99; continue _fun0001 }
- 96:
+            if(!var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = var4;
- 99:
+case 2:
             var1['onlineConnectionsCount'] = var3;
             var3 = var2.max_players_count;
             var1['maxConnectionsCount'] = var3;

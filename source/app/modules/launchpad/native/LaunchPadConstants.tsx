@@ -1,7 +1,7 @@
 // app/modules/launchpad/native/LaunchPadConstants.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
         var6 = require;
         var3 = exports;
         var7 = dependencyMap;
@@ -27,16 +27,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var4.isAndroid;
         var2 = var2.bind(var4)();
         var4 = 24;
-        if(var2) { _fun0001_ip = 173; continue _fun0001 }
- 101:
+        if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
         var2 = 2;
         var2 = var7[var2];
         var9 = var6.bind(var1)(var2);
         var2 = var9.isIpadOS;
         var9 = var2.bind(var9)();
         var2 = 13;
-        if(var9) { _fun0001_ip = 170; continue _fun0001 }
- 129:
+        if(var9) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
         var10 = var8.Math;
         var9 = var10.min;
         var8 = var5.width;
@@ -44,9 +44,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = var9.bind(var10)(var8, var5);
         var5 = 0.09;
         var2 = var5 * var8;
- 170:
+case 4:
         var4 = var2;
- 173:
+case 2:
         var2 = {};
         var5 = 'gesture-full';
         var2['GESTURE_FULL'] = var5;

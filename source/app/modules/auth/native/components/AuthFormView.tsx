@@ -64,7 +64,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function AuthFormView(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var9 = var1.children;
             var17 = var1.headerText;
@@ -120,8 +120,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = null;
             var8 = var10 != var17;
             var12 = null;
-            if(!var8) { _fun0001_ip = 280; continue _fun0001 }
- 244:
+            if(!var8) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var16 = _closure1_slot4;
             var13 = _closure1_slot0;
             var18 = _closure1_slot1;
@@ -131,13 +131,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = {};
             var8['children'] = var17;
             var12 = var16.bind(var4)(var13, var8);
- 280:
+case 2:
             var8 = new Array(3);
             var8[0] = var12;
             var12 = var10 != var14;
             var10 = null;
-            if(!var12) { _fun0001_ip = 327; continue _fun0001 }
- 297:
+            if(!var12) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var13 = _closure1_slot4;
             var12 = _closure1_slot2;
             var11 = {};
@@ -145,7 +145,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11['style'] = var15;
             var11['children'] = var14;
             var10 = var13.bind(var4)(var12, var11);
- 327:
+case 4:
             var8[1] = var10;
             var8[2] = var9;
             var6['children'] = var8;

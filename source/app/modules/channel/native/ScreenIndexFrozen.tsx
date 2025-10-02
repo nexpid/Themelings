@@ -74,19 +74,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var8.bind(var9)(var7);
     var7 = function freezeScreenIndex(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg2;
             var3 = _closure1_slot3;
             var2 = arg1;
-            if(var2) { _fun0001_ip = 28; continue _fun0001 }
- 16:
+            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var3.delete;
             var2 = var2.bind(var3)(var4);
-            _fun0001_ip = 38; continue _fun0001;
- 28:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var2 = var3.add;
             var2 = var2.bind(var3)(var4);
- 38:
+case 4:
             var3 = _closure1_slot4;
             var2 = var3.forEach;
             var1 = function(arg1) {

@@ -42,7 +42,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function ChatInputGuardAutomodUserProfileQuarantine(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var10 = var2.guildId;
             var _closure2_slot0 = var10;
@@ -62,11 +62,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7[0] = var10;
             var3 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = _closure2_slot0;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0002_ip = 85; continue _fun0002 }
- 13:
+                    if(!(var2 != var3)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var3 = _closure1_slot4;
                     var2 = var3.getId;
                     var6 = var2.bind(var3)();
@@ -83,7 +83,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var4.bind(var5)(var1, var6);
                     var1 = var2.bind(var3)(var1);
                     return var1;
- 85:
+case 2:
                     var1 = global;
                     var1 = var1.Set;
                     var2 = var1.prototype;
@@ -119,8 +119,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var1.bind(var2)(var3);
             var1 = _closure1_slot6;
             var1 = var1.AUTOMOD_QUARANTINED_SERVER_TAG;
-            if(!(var2 !== var1)) { _fun0001_ip = 210; continue _fun0001 }
- 153:
+            if(!(var2 !== var1)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var1 = 8;
@@ -133,8 +133,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.t;
             var1 = var1./PGQf3;
             var7 = var3.bind(var5)(var1);
-            _fun0001_ip = 265; continue _fun0001;
- 210:
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
             var8 = _closure1_slot0;
             var10 = _closure1_slot2;
             var1 = 8;
@@ -147,11 +147,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.t;
             var1 = var1.Viksoq;
             var7 = var3.bind(var5)(var1);
- 265:
+case 6:
             var1 = _closure1_slot6;
             var1 = var1.AUTOMOD_QUARANTINED_SERVER_TAG;
-            if(!(var2 !== var1)) { _fun0001_ip = 338; continue _fun0001 }
- 279:
+            if(!(var2 !== var1)) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var5 = _closure1_slot0;
             var8 = _closure1_slot2;
             var1 = 8;
@@ -164,8 +164,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.t;
             var1 = var1.8HW7r6;
             var5 = var2.bind(var3)(var1);
-            _fun0001_ip = 395; continue _fun0001;
- 338:
+            _fun0001_ip = 9; continue _fun0001;
+case 7:
             var8 = _closure1_slot0;
             var10 = _closure1_slot2;
             var1 = 8;
@@ -178,7 +178,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.t;
             var1 = var1.ml72ZW;
             var5 = var2.bind(var3)(var1);
- 395:
+case 9:
             var3 = _closure1_slot7;
             var2 = _closure1_slot1;
             var8 = _closure1_slot2;

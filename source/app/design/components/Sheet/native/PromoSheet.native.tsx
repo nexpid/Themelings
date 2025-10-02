@@ -58,7 +58,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function PromoSheet(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var21 = var3.title;
             var18 = var3.description;
@@ -102,8 +102,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['spacing'] = var8;
             var8 = var14 != var16;
             var11 = null;
-            if(!var8) { _fun0001_ip = 205; continue _fun0001 }
- 175:
+            if(!var8) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var13 = _closure1_slot3;
             var12 = _closure1_slot2;
             var8 = {};
@@ -111,7 +111,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8['style'] = var17;
             var8['children'] = var16;
             var11 = var13.bind(var4)(var12, var8);
- 205:
+case 2:
             var8 = new Array(3);
             var8[0] = var11;
             var12 = _closure1_slot4;
@@ -135,8 +135,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13[0] = var16;
             var16 = var14 != var18;
             var14 = null;
-            if(!var16) { _fun0001_ip = 368; continue _fun0001 }
- 313:
+            if(!var16) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var17 = _closure1_slot3;
             var16 = _closure1_slot0;
             var15 = _closure1_slot1;
@@ -150,7 +150,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15['style'] = var19;
             var15['children'] = var18;
             var14 = var17.bind(var4)(var16, var15);
- 368:
+case 4:
             var13[1] = var14;
             var10['children'] = var13;
             var10 = var12.bind(var4)(var11, var10);

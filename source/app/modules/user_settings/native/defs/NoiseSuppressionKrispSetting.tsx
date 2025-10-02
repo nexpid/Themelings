@@ -51,7 +51,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['parent'] = var7;
     var7 = function useNoiseSuppressionKrispSettingValue() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var4 = 3;
@@ -87,19 +87,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var6[var2];
             var2 = var4.bind(var5)(var2);
             var2 = var2.NoiseSuppressionOpt;
-            if(var3) { _fun0001_ip = 140; continue _fun0001 }
- 121:
-            if(var1) { _fun0001_ip = 132; continue _fun0001 }
- 124:
+            if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            if(var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = var2.NONE;
-            _fun0001_ip = 138; continue _fun0001;
- 132:
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
             var1 = var2.STANDARD;
- 138:
-            _fun0001_ip = 146; continue _fun0001;
- 140:
+case 6:
+            _fun0001_ip = 7; continue _fun0001;
+case 2:
             var1 = var2.KRISP;
- 146:
+case 7:
             return var1;
         }
     };

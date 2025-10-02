@@ -60,14 +60,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function FormHint(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var9 = var1.inset;
             var5 = undefined;
-            if(!(var9 === var5)) { _fun0001_ip = 17; continue _fun0001 }
- 15:
+            if(!(var9 === var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var9 = false;
- 17:
+case 2:
             var8 = var1.style;
             var6 = var1.children;
             var1 = _closure1_slot4;
@@ -84,8 +84,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = _closure1_slot3;
             var3 = _closure1_slot0;
             var10 = _closure1_slot1;
-            if(var1) { _fun0001_ip = 164; continue _fun0001 }
- 94:
+            if(var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = 7;
             var1 = var10[var1];
             var1 = var3.bind(var5)(var1);
@@ -95,34 +95,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = new Array(3);
             var11[0] = var12;
             var12 = !var9;
-            if(!var12) { _fun0001_ip = 140; continue _fun0001 }
- 134:
+            if(!var12) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var12 = var7.horizonatalPadding;
- 140:
+case 6:
             var11[1] = var12;
             var11[2] = var8;
             var1['style'] = var11;
             var1['children'] = var6;
             var1 = var4.bind(var5)(var2, var1);
-            _fun0001_ip = 233; continue _fun0001;
- 164:
+            _fun0001_ip = 8; continue _fun0001;
+case 4:
             var2 = 6;
             var2 = var10[var2];
             var2 = var3.bind(var5)(var2);
             var3 = var2.Text;
             var2 = {'variant': 'text-sm/medium', 'color': 'text-muted'};
             var9 = !var9;
-            if(!var9) { _fun0001_ip = 207; continue _fun0001 }
- 201:
+            if(!var9) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var9 = var7.redesignHorizontalPadding;
- 207:
+case 9:
             var7 = new Array(2);
             var7[0] = var9;
             var7[1] = var8;
             var2['style'] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 233:
+case 8:
             return var1;
         }
     };

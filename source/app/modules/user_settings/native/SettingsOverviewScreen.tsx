@@ -21,7 +21,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[0] = var5;
         var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var1 = {};
                 var2 = _closure2_slot0;
                 var1['isPremiumUser'] = var2;
@@ -42,11 +42,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var3.bind(var5)(var1);
                 var2['label'] = var1;
                 var1 = null;
-                if(var6) { _fun0001_ip = 101; continue _fun0001 }
- 91:
+                if(var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var5 = _closure1_slot3;
                 var1 = var5.PREMIUM;
- 101:
+case 2:
                 var11 = new Array(10);
                 var11[0] = var1;
                 var1 = _closure1_slot3;
@@ -106,11 +106,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = var7.QUEST_HOME;
                 var11[1] = var7;
                 var3 = null;
-                if(!var6) { _fun0001_ip = 383; continue _fun0001 }
- 373:
+                if(!var6) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var6 = _closure1_slot3;
                 var3 = var6.PREMIUM;
- 383:
+case 4:
                 var11[2] = var3;
                 var3 = _closure1_slot3;
                 var3 = var3.PREMIUM_GUILD_BOOSTING;

@@ -114,21 +114,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[1] = var1;
         var1 = function(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var3 = arg1;
                 var2 = _closure2_slot2;
-                if(!(var3 !== var2)) { _fun0001_ip = 44; continue _fun0001 }
- 14:
+                if(!(var3 !== var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var4 = _closure2_slot3;
                 var2 = undefined;
                 var4 = var4.bind(var2)(var3);
                 var5 = _closure2_slot0;
                 var4 = null;
-                if(!(var4 != var5)) { _fun0001_ip = 44; continue _fun0001 }
- 35:
+                if(!(var4 != var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
                 var1 = _closure2_slot0;
                 var1 = var1.bind(var2)(var3);
- 44:
+case 2:
                 var1 = undefined;
                 return var1;
             }
@@ -185,7 +185,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var16 = var10.map;
         var15 = function(arg1, arg2) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var5 = arg2;
                 var1 = _closure2_slot1;
                 var1 = var1.carouselCard;
@@ -195,11 +195,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = 1;
                 var3 = var3 - var1;
                 var1 = null;
-                if(!(var3 === var5)) { _fun0002_ip = 51; continue _fun0002 }
- 41:
+                if(!(var3 === var5)) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
                 var2 = _closure2_slot1;
                 var1 = var2.lastCarouselCard;
- 51:
+case 5:
                 var7[1] = var1;
                 var4 = _closure1_slot6;
                 var2 = _closure1_slot1;

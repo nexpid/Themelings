@@ -55,7 +55,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot6 = var5;
     var5 = function stylesFor(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = _closure1_slot6;
             var1 = arg1;
             var2 = var2[var1];
@@ -67,40 +67,40 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = undefined;
             var2 = var2 === var7;
             var11 = undefined;
-            if(var2) { _fun0001_ip = 41; continue _fun0001 }
- 38:
+            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var11 = var3;
- 41:
+case 2:
             var4 = undefined;
-            if(var2) { _fun0001_ip = 71; continue _fun0001 }
- 46:
+            if(var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var8 = var6().value;
             var3 = var1;
             var3 = var3 === var7;
             var4 = undefined;
             var2 = var3;
-            if(var3) { _fun0001_ip = 71; continue _fun0001 }
- 65:
+            if(var3) { _fun0001_ip = 4; continue _fun0001 }
+case 6:
             var4 = var8;
             var2 = var3;
- 71:
+case 4:
             var3 = undefined;
-            if(var2) { _fun0001_ip = 101; continue _fun0001 }
- 76:
+            if(var2) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var8 = var6().value;
             var6 = var1;
             var6 = var6 === var7;
             var3 = undefined;
             var2 = var6;
-            if(var6) { _fun0001_ip = 101; continue _fun0001 }
- 95:
+            if(var6) { _fun0001_ip = 7; continue _fun0001 }
+case 9:
             var3 = var8;
             var2 = var6;
- 101:
-            if(var2) { _fun0001_ip = 107; continue _fun0001 }
- 104:
+case 7:
+            if(var2) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var1.return();
- 107:
+case 10:
             var1 = {};
             var2 = {};
             var6 = _closure1_slot0;

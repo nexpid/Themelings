@@ -8,7 +8,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var7;
     var2 = function useActiveThemeType() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
             var3 = 4;
@@ -60,31 +60,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var8.useIsCustomThemeMobileRenderingEnabled;
             var5 = 'useActiveTheme';
             var5 = var7.bind(var8)(var5);
-            if(!var6) { _fun0001_ip = 174; continue _fun0001 }
- 171:
-            if(var5) { _fun0001_ip = 217; continue _fun0001 }
- 174:
-            if(var4) { _fun0001_ip = 205; continue _fun0001 }
- 177:
-            if(!(var3 !== var1)) { _fun0001_ip = 193; continue _fun0001 }
- 181:
+            if(!var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            if(var5) { _fun0001_ip = 4; continue _fun0001 }
+case 2:
+            if(var4) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
+            if(!(var3 !== var1)) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var1 = _closure1_slot6;
             var1 = var1.DEFAULT;
-            _fun0001_ip = 203; continue _fun0001;
- 193:
+            _fun0001_ip = 9; continue _fun0001;
+case 7:
             var3 = _closure1_slot6;
             var1 = var3.SYSTEM;
- 203:
-            _fun0001_ip = 215; continue _fun0001;
- 205:
+case 9:
+            _fun0001_ip = 10; continue _fun0001;
+case 5:
             var3 = _closure1_slot6;
             var1 = var3.CLIENT;
- 215:
-            _fun0001_ip = 227; continue _fun0001;
- 217:
+case 10:
+            _fun0001_ip = 11; continue _fun0001;
+case 4:
             var2 = _closure1_slot6;
             var1 = var2.CUSTOM;
- 227:
+case 11:
             return var1;
         }
     };
@@ -135,19 +135,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['useIsCustomThemeActive'] = var5;
     var4 = function useIsClientThemeOrCustomThemeActive() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var3 = _closure1_slot7;
             var1 = undefined;
             var3 = var3.bind(var1)();
             var1 = _closure1_slot6;
             var1 = var1.CLIENT;
             var1 = var3 === var1;
-            if(var1) { _fun0002_ip = 44; continue _fun0002 }
- 30:
+            if(var1) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
             var2 = _closure1_slot6;
             var2 = var2.CUSTOM;
             var1 = var3 === var2;
- 44:
+case 12:
             return var1;
         }
     };

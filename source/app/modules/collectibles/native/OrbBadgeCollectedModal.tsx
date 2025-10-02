@@ -39,7 +39,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot11 = var1;
     var1 = function OrbBadgeCollectedRootScreen(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var7 = var2.modalKey;
             var _closure2_slot0 = var7;
@@ -97,8 +97,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var20.root;
             var1['style'] = var6;
             var8 = _closure1_slot6;
-            if(var5) { _fun0001_ip = 281; continue _fun0001 }
- 175:
+            if(var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = _closure1_slot0;
             var10 = _closure1_slot2;
             var5 = 14;
@@ -120,8 +120,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var20.background;
             var5['style'] = var7;
             var6 = var8.bind(var4)(var6, var5);
-            _fun0001_ip = 341; continue _fun0001;
- 281:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var11 = _closure1_slot1;
             var12 = _closure1_slot2;
             var5 = 12;
@@ -137,7 +137,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var20.background;
             var5['style'] = var9;
             var6 = var8.bind(var4)(var7, var5);
- 341:
+case 4:
             var5 = new Array(2);
             var5[0] = var6;
             var8 = _closure1_slot6;

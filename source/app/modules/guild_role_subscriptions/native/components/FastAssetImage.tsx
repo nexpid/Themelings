@@ -77,37 +77,37 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3[2] = var9;
         var2 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var1 = _closure2_slot1;
                 var8 = null;
                 var1 = var8 == var1;
                 var6 = undefined;
                 var7 = undefined;
-                if(var1) { _fun0001_ip = 30; continue _fun0001 }
- 20:
+                if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var1 = _closure2_slot1;
                 var7 = var1.application_id;
- 30:
-                if(!(var8 == var7)) { _fun0001_ip = 38; continue _fun0001 }
- 34:
+case 2:
+                if(!(var8 == var7)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var7 = _closure2_slot0;
- 38:
+case 4:
                 var1 = {};
                 var2 = _closure2_slot1;
                 var4 = var8 != var2;
                 var5 = '';
                 var2 = var5;
-                if(!var4) { _fun0001_ip = 126; continue _fun0001 }
- 58:
+                if(!var4) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                 var4 = var8 != var7;
                 var2 = var5;
-                if(!var4) { _fun0001_ip = 126; continue _fun0001 }
- 68:
+                if(!var4) { _fun0001_ip = 6; continue _fun0001 }
+case 8:
                 var4 = _closure2_slot2;
                 var4 = var8 != var4;
                 var2 = var5;
-                if(!var4) { _fun0001_ip = 126; continue _fun0001 }
- 82:
+                if(!var4) { _fun0001_ip = 6; continue _fun0001 }
+case 9:
                 var5 = _closure1_slot0;
                 var8 = _closure1_slot2;
                 var4 = 3;
@@ -117,7 +117,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = _closure2_slot1;
                 var3 = _closure2_slot2;
                 var2 = var5.bind(var6)(var7, var4, var3);
- 126:
+case 6:
                 var1['uri'] = var2;
                 return var1;
             }

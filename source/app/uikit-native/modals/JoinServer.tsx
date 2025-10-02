@@ -170,7 +170,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var7)(var5);
     var4 = function JoinServer(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var22 = var1.error;
             var21 = var1.inviteString;
@@ -238,8 +238,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = _closure1_slot6;
             var8 = var9 <= var8;
             var9 = null;
-            if(var8) { _fun0001_ip = 505; continue _fun0001 }
- 263:
+            if(var8) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var12 = _closure1_slot9;
             var10 = _closure1_slot10;
             var8 = {};
@@ -288,7 +288,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14[1] = var17;
             var8['children'] = var14;
             var9 = var12.bind(var4)(var10, var8);
- 505:
+case 2:
             var8 = new Array(3);
             var8[0] = var9;
             var12 = _closure1_slot8;

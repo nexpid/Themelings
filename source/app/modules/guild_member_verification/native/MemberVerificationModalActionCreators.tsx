@@ -73,15 +73,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['openMemberVerificationModal'] = var7;
     var4 = function closeMemberVerificationModal() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arguments[0];
             var1 = undefined;
-            if(!(var2 === var1)) { _fun0001_ip = 11; continue _fun0001 }
- 9:
+            if(!(var2 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = false;
- 11:
-            if(var2) { _fun0001_ip = 68; continue _fun0001 }
- 14:
+case 2:
+            if(var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
             var2 = 2;
@@ -94,7 +94,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = _closure1_slot3;
             var2['type'] = var6;
             var2 = var4.bind(var5)(var3, var2);
- 68:
+case 4:
             var4 = _closure1_slot1;
             var5 = _closure1_slot2;
             var3 = 4;

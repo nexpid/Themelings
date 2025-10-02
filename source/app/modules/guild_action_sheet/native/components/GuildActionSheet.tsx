@@ -53,15 +53,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var21 = var1.guild;
             var7 = var1.expanded;
             var4 = undefined;
-            if(!(var7 === var4)) { _fun0001_ip = 22; continue _fun0001 }
- 20:
+            if(!(var7 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var7 = false;
- 22:
+case 2:
             var1 = _closure1_slot6;
             var18 = var1.bind(var4)();
             var2 = _closure1_slot1;
@@ -109,10 +109,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var13.isAndroid;
             var13 = var11.bind(var13)();
             var11 = 0;
-            if(!var13) { _fun0001_ip = 238; continue _fun0001 }
- 235:
+            if(!var13) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var11 = 16;
- 238:
+case 4:
             var11 = var12 + var11;
             var10['paddingBottom'] = var11;
             var7['contentContainerStyle'] = var10;

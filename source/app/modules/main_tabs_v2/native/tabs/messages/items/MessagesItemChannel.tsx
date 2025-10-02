@@ -32,7 +32,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var8.memo;
     var4 = function MessagesItemChannel(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var3 = var2.channelId;
             var _closure2_slot0 = var3;
@@ -59,14 +59,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = null;
             var1 = var1 == var7;
             var3 = undefined;
-            if(var1) { _fun0001_ip = 102; continue _fun0001 }
- 92:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var7.isPrivate;
             var3 = var1.bind(var7)();
- 102:
+case 2:
             var1 = true;
-            if(!(var1 !== var3)) { _fun0001_ip = 151; continue _fun0001 }
- 108:
+            if(!(var1 !== var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var4 = _closure1_slot4;
             var3 = _closure1_slot1;
             var9 = _closure1_slot2;
@@ -77,8 +77,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['height'] = var6;
             var1['row'] = var8;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0001_ip = 191; continue _fun0001;
- 151:
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
             var4 = _closure1_slot4;
             var3 = _closure1_slot1;
             var8 = _closure1_slot2;
@@ -89,7 +89,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['channel'] = var7;
             var2['height'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 191:
+case 6:
             return var1;
         }
     };

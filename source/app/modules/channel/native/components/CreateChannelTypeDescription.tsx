@@ -47,7 +47,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function CreateChannelTypeDescription(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var10 = var1.guildId;
             var7 = var1.channelType;
@@ -68,8 +68,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var4 !== var1;
             var1 = null;
             var4 = var1 != var2;
-            if(!var4) { _fun0001_ip = 145; continue _fun0001 }
- 97:
+            if(!var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var12 = _closure1_slot0;
             var13 = _closure1_slot1;
             var11 = 6;
@@ -80,18 +80,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var12.has;
             var2 = var2.visibility;
             var4 = var11.bind(var12)(var2);
- 145:
+case 2:
             var2 = !var8;
-            if(var8) { _fun0001_ip = 154; continue _fun0001 }
- 151:
+            if(var8) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = !var4;
- 154:
-            if(!var2) { _fun0001_ip = 171; continue _fun0001 }
- 157:
+case 4:
+            if(!var2) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var4 = _closure1_slot5;
             var4 = var4.GUILD_ANNOUNCEMENT;
             var2 = var7 === var4;
- 171:
+case 6:
             var8 = _closure1_slot2;
             var7 = var8.useEffect;
             var4 = new Array(2);
@@ -105,8 +105,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var3 = var7.bind(var8)(var3, var4);
             var1 = null;
-            if(!var2) { _fun0001_ip = 324; continue _fun0001 }
- 208:
+            if(!var2) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var4 = _closure1_slot6;
             var3 = _closure1_slot3;
             var2 = {};
@@ -131,7 +131,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var4.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 324:
+case 8:
             return var1;
         }
     };

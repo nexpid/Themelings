@@ -43,7 +43,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function LeaveGuildElement(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var13 = var1.guild;
             var _closure2_slot0 = var13;
@@ -86,11 +86,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[2] = var13;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = _closure2_slot0;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0002_ip = 113; continue _fun0002 }
- 13:
+                    if(!(var2 != var3)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var4 = _closure2_slot1;
                     var3 = undefined;
                     var2 = function() {
@@ -125,7 +125,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = _closure2_slot3;
                     var1 = true;
                     var1 = var2.bind(var3)(var1);
- 113:
+case 2:
                     var1 = undefined;
                     return var1;
                 }
@@ -172,10 +172,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = {};
             var14 = var12 == var13;
             var12 = undefined;
-            if(var14) { _fun0001_ip = 350; continue _fun0001 }
- 345:
+            if(var14) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var12 = var13.name;
- 350:
+case 4:
             var8['guildName'] = var12;
             var8 = var10.bind(var11)(var9, var8);
             var1['description'] = var8;
@@ -184,7 +184,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['variant'] = var7;
             var6 = function onPress() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var3 = _closure1_slot1;
                     var6 = _closure1_slot2;
                     var1 = 8;
@@ -218,11 +218,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var12 = null;
                     var13 = var12 == var13;
                     var12 = undefined;
-                    if(var13) { _fun0003_ip = 156; continue _fun0003 }
- 147:
+                    if(var13) { _fun0003_ip = 6; continue _fun0003 }
+case 7:
                     var13 = _closure2_slot0;
                     var12 = var13.name;
- 156:
+case 6:
                     var7['name'] = var12;
                     var7 = var10.bind(var11)(var9, var7);
                     var2['body'] = var7;

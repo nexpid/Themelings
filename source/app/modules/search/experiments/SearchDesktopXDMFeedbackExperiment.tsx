@@ -40,7 +40,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function useIsSearchDesktopXDMFeedbackEnabled(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var5 = var1.location;
             var6 = _closure1_slot2;
@@ -62,17 +62,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = {};
             var1['location'] = var5;
             var1 = var3.bind(var4)(var1);
-            if(!var1) { _fun0001_ip = 92; continue _fun0001 }
- 89:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var2;
- 92:
+case 2:
             return var1;
         }
     };
     var3['useIsSearchDesktopXDMFeedbackEnabled'] = var4;
     var2 = function getIsSearchDesktopXDMFeedbackEnabled(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var5 = var1.location;
             var6 = _closure1_slot2;
@@ -94,10 +94,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = {};
             var1['location'] = var5;
             var1 = var3.bind(var4)(var1);
-            if(!var1) { _fun0002_ip = 92; continue _fun0002 }
- 89:
+            if(!var1) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
             var1 = var2;
- 92:
+case 2:
             return var1;
         }
     };

@@ -7,12 +7,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var8;
     var4 = function isPremiumGuild(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arg1;
             var3 = null;
             var1 = var3 != var5;
-            if(!var1) { _fun0001_ip = 119; continue _fun0001 }
- 12:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var7 = _closure1_slot0;
             var6 = _closure1_slot1;
             var2 = 1;
@@ -21,32 +21,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var7.bind(var2)(var6);
             var2 = var6.isGuildRecord;
             var2 = var2.bind(var6)(var5);
-            if(var2) { _fun0001_ip = 78; continue _fun0001 }
- 51:
+            if(var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = var5.premiumSubscriptionCount;
             var2 = var3 != var2;
-            if(!var2) { _fun0001_ip = 76; continue _fun0001 }
- 64:
+            if(!var2) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var6 = var5.premiumSubscriptionCount;
             var3 = 0;
             var2 = var6 > var3;
- 76:
-            _fun0001_ip = 116; continue _fun0001;
- 78:
+case 6:
+            _fun0001_ip = 8; continue _fun0001;
+case 4:
             var6 = var5.premiumSubscriberCount;
             var3 = 0;
             var3 = var6 > var3;
-            if(var3) { _fun0001_ip = 113; continue _fun0001 }
- 93:
+            if(var3) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var5 = var5.premiumTier;
             var4 = _closure1_slot3;
             var4 = var4.NONE;
             var3 = var5 > var4;
- 113:
+case 9:
             var2 = var3;
- 116:
+case 8:
             var1 = var2;
- 119:
+case 2:
             return var1;
         }
     };
@@ -84,7 +84,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['GuildVisibility'] = var5;
     var5 = function getGuildTraits(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = global;
             var4 = var2.Set;
@@ -100,40 +100,40 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = _closure1_slot2;
             var2 = var2.COMMUNITY;
             var2 = var3.bind(var8)(var2);
-            if(!var2) { _fun0002_ip = 96; continue _fun0002 }
- 73:
+            if(!var2) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
             var3 = var8.has;
             var2 = _closure1_slot2;
             var2 = var2.DISCOVERABLE;
             var2 = var3.bind(var8)(var2);
-            if(var2) { _fun0002_ip = 154; continue _fun0002 }
- 96:
+            if(var2) { _fun0002_ip = 13; continue _fun0002 }
+case 11:
             var3 = var8.has;
             var2 = _closure1_slot2;
             var2 = var2.MEMBER_VERIFICATION_MANUAL_APPROVAL;
             var2 = var3.bind(var8)(var2);
-            if(!var2) { _fun0002_ip = 139; continue _fun0002 }
- 119:
+            if(!var2) { _fun0002_ip = 14; continue _fun0002 }
+case 2:
             var4 = var8.has;
             var3 = _closure1_slot2;
             var3 = var3.MEMBER_VERIFICATION_GATE_ENABLED;
             var2 = var4.bind(var8)(var3);
- 139:
-            if(!var2) { _fun0002_ip = 164; continue _fun0002 }
- 142:
+case 14:
+            if(!var2) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
             var2 = _closure1_slot4;
             var5 = var2.APPLY_TO_JOIN;
-            _fun0002_ip = 164; continue _fun0002;
- 154:
+            _fun0002_ip = 15; continue _fun0002;
+case 13:
             var2 = _closure1_slot4;
             var5 = var2.PUBLIC;
- 164:
+case 15:
             var2 = _closure1_slot5;
             var9 = undefined;
             var4 = var2.bind(var9)(var1);
             var3 = 0;
-            if(!var4) { _fun0002_ip = 245; continue _fun0002 }
- 180:
+            if(!var4) { _fun0002_ip = 17; continue _fun0002 }
+case 18:
             var10 = _closure1_slot0;
             var11 = _closure1_slot1;
             var7 = 1;
@@ -141,22 +141,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var10.bind(var9)(var7);
             var7 = var10.isGuildRecord;
             var7 = var7.bind(var10)(var1);
-            if(var7) { _fun0002_ip = 222; continue _fun0002 }
- 214:
+            if(var7) { _fun0002_ip = 19; continue _fun0002 }
+case 20:
             var7 = var1.premiumSubscriptionCount;
-            _fun0002_ip = 228; continue _fun0002;
- 222:
+            _fun0002_ip = 21; continue _fun0002;
+case 19:
             var7 = var1.premiumSubscriberCount;
- 228:
+case 21:
             var10 = null;
             var10 = var10 != var7;
             var2 = 0;
-            if(!var10) { _fun0002_ip = 242; continue _fun0002 }
- 239:
+            if(!var10) { _fun0002_ip = 22; continue _fun0002 }
+case 23:
             var2 = var7;
- 242:
+case 22:
             var3 = var2;
- 245:
+case 17:
             var7 = _closure1_slot0;
             var10 = _closure1_slot1;
             var2 = 1;
@@ -164,14 +164,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7.bind(var9)(var2);
             var2 = var7.isGuildRecord;
             var2 = var2.bind(var7)(var1);
-            if(var2) { _fun0002_ip = 291; continue _fun0002 }
- 279:
+            if(var2) { _fun0002_ip = 24; continue _fun0002 }
+case 25:
             var2 = _closure1_slot3;
             var2 = var2.NONE;
-            _fun0002_ip = 297; continue _fun0002;
- 291:
+            _fun0002_ip = 26; continue _fun0002;
+case 24:
             var2 = var1.premiumTier;
- 297:
+case 26:
             var1 = {};
             var9 = var8.has;
             var6 = _closure1_slot2;
@@ -201,12 +201,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['isPremiumGuild'] = var4;
     var2 = function isDiscoverableGuild(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = null;
             var1 = var1 != var2;
-            if(!var1) { _fun0003_ip = 69; continue _fun0003 }
- 12:
+            if(!var1) { _fun0003_ip = 27; continue _fun0003 }
+case 3:
             var3 = global;
             var4 = var3.Set;
             var5 = var2.features;
@@ -219,7 +219,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = _closure1_slot2;
             var2 = var2.DISCOVERABLE;
             var1 = var3.bind(var4)(var2);
- 69:
+case 27:
             return var1;
         }
     };

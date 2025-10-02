@@ -62,43 +62,43 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function SimpleLoadingModal(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var10 = var3.operation;
             var _closure2_slot0 = var10;
             var2 = var3.onResolved;
             var4 = undefined;
-            if(!(var2 === var4)) { _fun0001_ip = 32; continue _fun0001 }
- 27:
+            if(!(var2 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = function f() {
                 var1 = undefined;
                 return var1;
             };
- 32:
+case 2:
             var _closure2_slot1 = var2;
             var1 = var3.onRejected;
-            if(!(var1 === var4)) { _fun0001_ip = 51; continue _fun0001 }
- 46:
+            if(!(var1 === var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = function I() {
                 var1 = undefined;
                 return var1;
             };
- 51:
+case 4:
             var _closure2_slot2 = var1;
             var6 = var3.cancelable;
-            if(!(var6 === var4)) { _fun0001_ip = 67; continue _fun0001 }
- 65:
+            if(!(var6 === var4)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var6 = false;
- 67:
+case 6:
             var _closure2_slot3 = var6;
             var3 = var3.onDismissed;
-            if(!(var3 === var4)) { _fun0001_ip = 86; continue _fun0001 }
- 81:
+            if(!(var3 === var4)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var3 = function N() {
                 var1 = undefined;
                 return var1;
             };
- 86:
+case 8:
             var _closure2_slot4 = var3;
             var _closure2_slot5 = var4;
             var _closure2_slot6 = var4;
@@ -117,17 +117,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8[0] = var3;
             var3 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var1 = _closure2_slot5;
                     var4 = var1.current;
                     var3 = _closure1_slot8;
                     var3 = var3.SHOWN;
-                    if(!(var4 === var3)) { _fun0002_ip = 39; continue _fun0002 }
- 29:
+                    if(!(var4 === var3)) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
                     var4 = _closure2_slot4;
                     var3 = undefined;
                     var3 = var4.bind(var3)();
- 39:
+case 10:
                     var2 = _closure2_slot5;
                     var1 = _closure1_slot8;
                     var1 = var1.DISMISSED;
@@ -203,23 +203,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = {'transparent': true, 'animationType': 'none'};
             var6 = function onShow() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var2 = _closure2_slot5;
                     var4 = var2.current;
                     var3 = _closure1_slot8;
                     var3 = var3.DISMISSED;
-                    if(!(var4 !== var3)) { _fun0003_ip = 51; continue _fun0003 }
- 29:
+                    if(!(var4 !== var3)) { _fun0003_ip = 4; continue _fun0003 }
+case 11:
                     var3 = _closure2_slot5;
                     var2 = _closure1_slot8;
                     var2 = var2.SHOWN;
                     var3['current'] = var2;
-                    _fun0003_ip = 61; continue _fun0003;
- 51:
+                    _fun0003_ip = 12; continue _fun0003;
+case 4:
                     var2 = _closure2_slot4;
                     var1 = undefined;
                     var1 = var2.bind(var1)();
- 61:
+case 12:
                     var1 = undefined;
                     return var1;
                 }
@@ -227,14 +227,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['onShow'] = var6;
             var5 = function onRequestClose() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                     var2 = _closure2_slot3;
-                    if(!var2) { _fun0004_ip = 20; continue _fun0004 }
- 10:
+                    if(!var2) { _fun0004_ip = 13; continue _fun0004 }
+case 14:
                     var2 = _closure2_slot6;
                     var1 = undefined;
                     var1 = var2.bind(var1)();
- 20:
+case 13:
                     var1 = undefined;
                     return var1;
                 }

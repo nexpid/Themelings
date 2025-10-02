@@ -52,7 +52,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['LibDiscordCriticalFlowExperiment'] = var4;
     var2 = function useShouldBlockBrowser() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = _closure1_slot2;
             var3 = var4.useExperiment;
             var1 = {};
@@ -60,8 +60,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['location'] = var5;
             var1 = var3.bind(var4)(var1);
             var1 = var1.enabled;
-            if(!var1) { _fun0001_ip = 68; continue _fun0001 }
- 36:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
             var2 = 2;
@@ -70,11 +70,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.bind(var2)(var3);
             var2 = var3.isUnsupportedBrowser;
             var1 = var2.bind(var3)();
- 68:
-            if(!var1) { _fun0001_ip = 73; continue _fun0001 }
- 71:
+case 2:
+            if(!var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = true;
- 73:
+case 4:
             return var1;
         }
     };

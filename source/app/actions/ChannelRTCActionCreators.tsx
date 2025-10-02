@@ -62,16 +62,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['selectParticipant'] = var7;
     var7 = function updateLayout(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var7 = arg1;
             var6 = arg2;
             var5 = arguments[2];
             var1 = undefined;
-            if(!(var5 === var1)) { _fun0001_ip = 28; continue _fun0001 }
- 15:
+            if(!(var5 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = _closure1_slot3;
             var5 = var2.APP;
- 28:
+case 2:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
             var2 = 2;
@@ -203,7 +203,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['updateStageVideoLimitBoostUpsellDismissed'] = var7;
     var7 = function updateChatOpen(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var8 = arg1;
             var4 = arg2;
             var _closure2_slot0 = var8;
@@ -220,8 +220,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['channelId'] = var8;
             var5['chatOpen'] = var4;
             var5 = var6.bind(var7)(var5);
-            if(var4) { _fun0002_ip = 117; continue _fun0002 }
- 69:
+            if(var4) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
             var4 = 4;
@@ -232,8 +232,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = _closure1_slot5;
             var3 = var3.FOCUS_CHAT_BUTTON;
             var3 = var4.bind(var5)(var3);
-            _fun0002_ip = 138; continue _fun0002;
- 117:
+            _fun0002_ip = 6; continue _fun0002;
+case 4:
             var3 = global;
             var4 = var3.setTimeout;
             var3 = function() {
@@ -255,7 +255,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var2 = 0;
             var2 = var4.bind(var1)(var3, var2);
- 138:
+case 6:
             return var1;
         }
     };

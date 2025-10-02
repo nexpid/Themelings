@@ -22,7 +22,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var9.experimental_createToken;
     var7 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var4 = var1.theme;
             var3 = _closure1_slot0;
@@ -34,8 +34,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var3.isThemeDark;
             var3 = var1.bind(var3)(var4);
             var1 = 'rgba(201,210,240,0.6)';
-            if(!var3) { _fun0001_ip = 123; continue _fun0001 }
- 54:
+            if(!var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = _closure1_slot0;
             var7 = _closure1_slot2;
             var3 = 2;
@@ -50,7 +50,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var2.WHITE_500;
             var2 = 0.1;
             var1 = var4.bind(var5)(var3, var2);
- 123:
+case 2:
             return var1;
         }
     };

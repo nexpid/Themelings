@@ -45,7 +45,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function ForumPostTimestamp(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var8 = var1.textStyle;
             var10 = var1.thread;
@@ -66,10 +66,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var5.useLastActiveTimestamp;
             var5 = var3.bind(var5)(var10, var6, var9);
             var6 = 'text-muted';
-            if(!var2) { _fun0001_ip = 108; continue _fun0001 }
- 102:
+            if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = 'header-secondary';
- 108:
+case 2:
             var3 = _closure1_slot3;
             var2 = _closure1_slot0;
             var9 = _closure1_slot1;

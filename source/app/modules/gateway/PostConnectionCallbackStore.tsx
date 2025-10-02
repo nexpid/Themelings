@@ -14,12 +14,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot3 = var1;
     var8 = function processCallbacks() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = _closure1_slot3;
             var1 = undefined;
             var2 = var2.bind(var1)();
-            if(var2) { _fun0001_ip = 45; continue _fun0001 }
- 16:
+            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = _closure1_slot2;
             var4 = var5.forEach;
             var2 = function(arg1) {
@@ -32,7 +32,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4.bind(var5)(var2);
             var2 = new Array(0);
             _closure1_slot2 = var2;
- 45:
+case 2:
             return var1;
         }
     };
@@ -96,26 +96,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function addPostConnectionCallback(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var3 = arg1;
             var4 = _closure1_slot1;
             var2 = var4.isConnectedOrOverlay;
             var2 = var2.bind(var4)();
-            if(!var2) { _fun0002_ip = 47; continue _fun0002 }
- 23:
+            if(!var2) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var2 = _closure1_slot3;
             var4 = undefined;
             var2 = var2.bind(var4)();
-            if(var2) { _fun0002_ip = 47; continue _fun0002 }
- 36:
+            if(var2) { _fun0002_ip = 4; continue _fun0002 }
+case 6:
             var2 = _closure1_slot4;
             var2 = var2.bind(var4)(var3);
-            _fun0002_ip = 61; continue _fun0002;
- 47:
+            _fun0002_ip = 7; continue _fun0002;
+case 4:
             var2 = _closure1_slot2;
             var1 = var2.push;
             var1 = var1.bind(var2)(var3);
- 61:
+case 7:
             var1 = undefined;
             return var1;
         }

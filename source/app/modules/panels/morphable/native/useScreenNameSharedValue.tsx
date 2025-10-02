@@ -27,7 +27,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useScreenNameSharedValue() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = _closure1_slot0;
             var5 = _closure1_slot1;
             var1 = 1;
@@ -43,30 +43,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = null;
             var1 = var7 == var10;
             var11 = undefined;
-            if(var1) { _fun0001_ip = 75; continue _fun0001 }
- 65:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var10.isReady;
             var11 = var1.bind(var10)();
- 75:
+case 2:
             var8 = 'unknown';
             var9 = true;
             var1 = var8;
-            if(!(var9 === var11)) { _fun0001_ip = 125; continue _fun0001 }
- 88:
+            if(!(var9 === var11)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var9 = var10.getCurrentRoute;
             var9 = var9.bind(var10)();
             var10 = var7 == var9;
             var6 = undefined;
-            if(var10) { _fun0001_ip = 112; continue _fun0001 }
- 107:
+            if(var10) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var6 = var9.name;
- 112:
+case 6:
             var7 = var7 != var6;
             var1 = var8;
-            if(!var7) { _fun0001_ip = 125; continue _fun0001 }
- 122:
+            if(!var7) { _fun0001_ip = 4; continue _fun0001 }
+case 8:
             var1 = var6;
- 125:
+case 4:
             var1 = var4.bind(var5)(var1);
             var _closure2_slot0 = var1;
             var5 = _closure1_slot2;
@@ -75,19 +75,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[0] = var1;
             var2 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var5 = function handleStateChange() {
                         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                             var3 = _closure3_slot0;
                             var1 = null;
-                            if(!(var1 != var3)) { _fun0003_ip = 89; continue _fun0003 }
- 13:
+                            if(!(var1 != var3)) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
                             var4 = _closure3_slot0;
                             var3 = var4.isReady;
                             var3 = var3.bind(var4)();
-                            if(!var3) { _fun0003_ip = 89; continue _fun0003 }
- 30:
+                            if(!var3) { _fun0003_ip = 9; continue _fun0003 }
+case 11:
                             var3 = _closure3_slot0;
                             var2 = var3.getCurrentRoute;
                             var5 = var2.bind(var3)();
@@ -95,18 +95,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var2 = var3.set;
                             var6 = var1 == var5;
                             var4 = undefined;
-                            if(var6) { _fun0003_ip = 70; continue _fun0003 }
- 65:
+                            if(var6) { _fun0003_ip = 12; continue _fun0003 }
+case 3:
                             var4 = var5.name;
- 70:
+case 12:
                             var5 = var1 != var4;
                             var1 = 'unknown';
-                            if(!var5) { _fun0003_ip = 84; continue _fun0003 }
- 81:
+                            if(!var5) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
                             var1 = var4;
- 84:
+case 13:
                             var1 = var2.bind(var3)(var1);
- 89:
+case 9:
                             var1 = undefined;
                             return var1;
                         }
@@ -122,10 +122,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var3.bind(var4)();
                     var _closure3_slot0 = var4;
                     var3 = null;
-                    if(!(var3 == var4)) { _fun0002_ip = 60; continue _fun0002 }
- 58:
+                    if(!(var3 == var4)) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
                     return var2;
- 60:
+case 15:
                     var3 = var4.addListener;
                     var2 = 'state';
                     var2 = var3.bind(var4)(var2, var5);

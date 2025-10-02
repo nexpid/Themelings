@@ -53,7 +53,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function EditGuildEventStepHeader(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var9 = var1.title;
             var10 = var1.subtitle;
@@ -82,12 +82,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = null;
             var8 = var9 != var10;
             var6 = null;
-            if(!var8) { _fun0001_ip = 202; continue _fun0001 }
- 130:
+            if(!var8) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var8 = '';
             var6 = null;
-            if(!(var8 !== var10)) { _fun0001_ip = 202; continue _fun0001 }
- 140:
+            if(!(var8 !== var10)) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var9 = _closure1_slot3;
             var8 = _closure1_slot0;
             var7 = _closure1_slot1;
@@ -99,7 +99,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7['style'] = var11;
             var7['children'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 202:
+case 2:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

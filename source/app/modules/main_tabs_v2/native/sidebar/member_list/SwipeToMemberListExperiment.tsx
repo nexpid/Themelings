@@ -74,7 +74,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['SwipeToMemberList2Experiment'] = var4;
     var4 = function useSwipeActionDefaultValue() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = _closure1_slot2;
             var3 = var4.useExperiment;
             var1 = {};
@@ -89,12 +89,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var3.bind(var5)(var1);
             var1 = var1.defaultValue;
             var3 = null;
-            if(!(var3 != var4)) { _fun0001_ip = 70; continue _fun0001 }
- 67:
+            if(!(var3 != var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var4;
- 70:
-            if(!(var3 == var1)) { _fun0001_ip = 108; continue _fun0001 }
- 74:
+case 2:
+            if(!(var3 == var1)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
             var2 = 2;
@@ -103,14 +103,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4.bind(var2)(var3);
             var2 = var2.SwipeRightToLeftMode;
             var1 = var2.SWIPE_RIGHT_TO_LEFT_REPLY;
- 108:
+case 4:
             return var1;
         }
     };
     var3['useSwipeActionDefaultValue'] = var4;
     var2 = function getSwipeActionDefaultValue() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var4 = _closure1_slot2;
             var3 = var4.getCurrentConfig;
             var1 = {};
@@ -119,17 +119,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var3.bind(var4)(var1);
             var1 = var1.defaultValue;
             var3 = null;
-            if(!(var3 == var1)) { _fun0002_ip = 67; continue _fun0002 }
- 40:
+            if(!(var3 == var1)) { _fun0002_ip = 3; continue _fun0002 }
+case 6:
             var6 = _closure1_slot3;
             var5 = var6.getCurrentConfig;
             var4 = {};
             var4['location'] = var7;
             var4 = var5.bind(var6)(var4);
             var1 = var4.defaultValue;
- 67:
-            if(!(var3 == var1)) { _fun0002_ip = 105; continue _fun0002 }
- 71:
+case 3:
+            if(!(var3 == var1)) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
             var2 = 2;
@@ -138,7 +138,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4.bind(var2)(var3);
             var2 = var2.SwipeRightToLeftMode;
             var1 = var2.SWIPE_RIGHT_TO_LEFT_REPLY;
- 105:
+case 7:
             return var1;
         }
     };

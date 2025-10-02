@@ -78,14 +78,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var11 = function() {
             var1 = function(arg1, arg2) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     var5 = arg1;
                     var3 = _closure1_slot3;
                     var8 = undefined;
                     var1 = arg2;
                     var1 = var3.bind(var8)(var5, var1);
-                    if(!var1) { _fun0001_ip = 222; continue _fun0001 }
- 27:
+                    if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var7 = _closure1_slot0;
                     var9 = _closure1_slot1;
                     var2 = 4;
@@ -126,7 +126,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var6.bind(var7)(var5);
                     var2['shouldRestrictUpdatingRoleSubscriptionSettings'] = var5;
                     var1 = var3.bind(var4)(var2);
- 222:
+case 2:
                     return var1;
                 }
             };

@@ -294,7 +294,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['sendMFABackupCodesVerificationKeyEmail'] = var7;
     var7 = function confirmViewBackupCodes(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var8 = arg1;
             var6 = arg2;
             var _closure2_slot0 = var8;
@@ -303,10 +303,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.bind(var3)();
             var7 = var2.viewNonce;
             var2 = var2.regenerateNonce;
-            if(!var6) { _fun0001_ip = 49; continue _fun0001 }
- 46:
+            if(!var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var7 = var2;
- 49:
+case 2:
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
             var2 = 2;

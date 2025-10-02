@@ -64,15 +64,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function AppIcon(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = var1.id;
             var12 = var1.size;
             var4 = undefined;
-            if(!(var12 === var4)) { _fun0001_ip = 22; continue _fun0001 }
- 19:
+            if(!(var12 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var12 = 56;
- 22:
+case 2:
             var9 = var1.style;
             var1 = _closure1_slot7;
             var8 = var1.bind(var4)();
@@ -91,10 +91,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2.isThemeDark;
             var1 = var1.bind(var2)(var3);
             var11 = 1;
-            if(!var1) { _fun0001_ip = 106; continue _fun0001 }
- 104:
+            if(!var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var11 = 0;
- 106:
+case 4:
             var3 = _closure1_slot6;
             var2 = _closure1_slot4;
             var1 = {};

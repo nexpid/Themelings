@@ -47,7 +47,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function PasswordScreen(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var8 = var2.mfaChallenge;
             var7 = var2.finish;
@@ -98,11 +98,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = function* () {
                     var1 = function* anon_0_() {
                         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(var2) { _fun0002_ip = 160; continue _fun0002 }
- 10:
+                            if(var2) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                             var2 = undefined;
                             var6 = undefined;
                             var9 = undefined;
@@ -112,7 +112,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var5 = _closure2_slot3;
                             var10 = true;
                             var5 = var5.bind(var2)(var10);
- 41: // try_start_0
+case 4: // try_start_0
                             var7 = _closure2_slot0;
                             var5 = {};
                             var11 = 'password';
@@ -121,19 +121,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var5['data'] = var11;
                             var5 = var7.bind(var2)(var5);
                             SaveGenerator(address=73);
- 71:
+case 5:
                             return var5;
- 73:
+case 6:
                             ResumeGenerator(result_out_reg=4, return_bool_out_reg=6);
-                            if(var7) { _fun0002_ip = 90; continue _fun0002 }
- 79:
+                            if(var7) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
                             var7 = _closure2_slot4;
                             var7 = var7.bind(var2)(var10);
- 88: // try_end0
-                            _fun0002_ip = 146; continue _fun0002;
- 90:
+case 9: // try_end0
+                            _fun0002_ip = 10; continue _fun0002;
+case 7:
                             return var5;
- 93: // catch_target0
+case 11: // catch_target0
                             CatchBlockStart(arg_register=6);
                             var4 = var7;
                             var5 = _closure2_slot1;
@@ -141,25 +141,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var9 = var7;
                             var10 = var8 == var7;
                             var7 = undefined;
-                            if(var10) { _fun0002_ip = 124; continue _fun0002 }
- 119:
+                            if(var10) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
                             var7 = var9.message;
- 124:
+case 12:
                             var6 = var7;
-                            if(!(var8 == var7)) { _fun0002_ip = 138; continue _fun0002 }
- 131:
+                            if(!(var8 == var7)) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
                             var4 = var4.message;
-                            _fun0002_ip = 141; continue _fun0002;
- 138:
+                            _fun0002_ip = 16; continue _fun0002;
+case 14:
                             var4 = var6;
- 141:
+case 16:
                             var4 = var5.bind(var2)(var4);
- 146:
+case 10:
                             var4 = _closure2_slot3;
                             var3 = false;
                             var3 = var4.bind(var2)(var3);
                             return var2;
- 160:
+case 2:
                             return var1;
                         }
                     };
@@ -232,10 +232,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10['onChange'] = var19;
             var10['onSubmitEditing'] = var11;
             var19 = var12;
-            if(var12) { _fun0001_ip = 458; continue _fun0001 }
- 455:
+            if(var12) { _fun0001_ip = 17; continue _fun0001 }
+case 18:
             var19 = var13;
- 458:
+case 17:
             var10['isDisabled'] = var19;
             var10['isClearable'] = var18;
             var10['secureTextEntry'] = var18;
@@ -262,20 +262,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var17.bind(var18)(var14);
             var6['text'] = var14;
             var14 = var12;
-            if(var12) { _fun0001_ip = 581; continue _fun0001 }
- 578:
+            if(var12) { _fun0001_ip = 19; continue _fun0001 }
+case 20:
             var14 = var13;
- 581:
-            if(var14) { _fun0001_ip = 593; continue _fun0001 }
- 584:
+case 19:
+            if(var14) { _fun0001_ip = 21; continue _fun0001 }
+case 22:
             var15 = var15.length;
             var14 = var16 === var15;
- 593:
+case 21:
             var6['disabled'] = var14;
-            if(var12) { _fun0001_ip = 603; continue _fun0001 }
- 600:
+            if(var12) { _fun0001_ip = 23; continue _fun0001 }
+case 24:
             var12 = var13;
- 603:
+case 23:
             var6['loading'] = var12;
             var6['onPress'] = var11;
             var6 = var10.bind(var4)(var9, var6);

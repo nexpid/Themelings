@@ -92,7 +92,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useReferralProgramCoachmark(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var2 = var2.disabled;
             var7 = undefined;
@@ -114,10 +114,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var9[var5];
             var6 = var6.bind(var7)(var5);
             var5 = var6.useIsEligibleSenderForReferralProgram;
-            if(var4) { _fun0001_ip = 102; continue _fun0001 }
- 99:
+            if(var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = var2;
- 102:
+case 2:
             var6 = var5.bind(var6)(var4);
             var5 = _closure1_slot0;
             var9 = _closure1_slot2;
@@ -125,10 +125,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var9[var4];
             var5 = var5.bind(var7)(var4);
             var4 = var5.useSelectedDismissibleContent;
-            if(!var6) { _fun0001_ip = 178; continue _fun0001 }
- 136:
-            if(var2) { _fun0001_ip = 178; continue _fun0001 }
- 139:
+            if(!var6) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            if(var2) { _fun0001_ip = 4; continue _fun0001 }
+case 6:
             var6 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var8];
@@ -137,10 +137,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var2.REFERRAL_TRIAL_MOBILE_SENDER_COACHMARK;
             var2 = new Array(1);
             var2[0] = var6;
-            _fun0001_ip = 182; continue _fun0001;
- 178:
+            _fun0001_ip = 7; continue _fun0001;
+case 4:
             var2 = new Array(0);
- 182:
+case 7:
             var5 = var4.bind(var5)(var2);
             var4 = _closure1_slot3;
             var2 = 2;
@@ -247,12 +247,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var3 = var4.bind(var5)(var1, var3);
             var1 = null;
-            if(!var2) { _fun0001_ip = 302; continue _fun0001 }
- 293:
+            if(!var2) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var2 = {};
             var2['props'] = var3;
             var1 = var2;
- 302:
+case 8:
             return var1;
         }
     };

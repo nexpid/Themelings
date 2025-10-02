@@ -43,92 +43,92 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function getInitialSubscriptionPayload(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var4 = arg2;
             var2 = _closure1_slot4;
             var2 = var2.ACTIVITY_PIP_MODE_UPDATE;
-            if(!(var2 !== var4)) { _fun0001_ip = 505; continue _fun0001 }
- 26:
+            if(!(var2 !== var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = _closure1_slot4;
             var2 = var2.ACTIVITY_LAYOUT_MODE_UPDATE;
-            if(!(var2 !== var4)) { _fun0001_ip = 439; continue _fun0001 }
- 43:
+            if(!(var2 !== var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = _closure1_slot4;
             var2 = var2.THERMAL_STATE_UPDATE;
-            if(!(var2 !== var4)) { _fun0001_ip = 368; continue _fun0001 }
- 60:
+            if(!(var2 !== var4)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var2 = _closure1_slot4;
             var2 = var2.ORIENTATION_UPDATE;
-            if(!(var2 !== var4)) { _fun0001_ip = 306; continue _fun0001 }
- 77:
+            if(!(var2 !== var4)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var2 = _closure1_slot4;
             var2 = var2.ACTIVITY_INSTANCE_PARTICIPANTS_UPDATE;
-            if(!(var2 !== var4)) { _fun0001_ip = 272; continue _fun0001 }
- 94:
+            if(!(var2 !== var4)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var2 = _closure1_slot4;
             var2 = var2.QUEST_ENROLLMENT_STATUS_UPDATE;
-            if(!(var2 !== var4)) { _fun0001_ip = 112; continue _fun0001 }
- 108:
+            if(!(var2 !== var4)) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var2 = null;
             return var2;
- 112:
+case 12:
             var2 = arg3;
             var8 = var2.quest_id;
             var5 = null;
-            if(var8) { _fun0001_ip = 128; continue _fun0001 }
- 126:
+            if(var8) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             return var5;
- 128:
+case 14:
             var4 = _closure1_slot3;
             var2 = var4.getQuest;
             var7 = var2.bind(var4)(var8);
             var4 = var5 == var7;
             var2 = null;
-            if(var4) { _fun0001_ip = 270; continue _fun0001 }
- 152:
+            if(var4) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var4 = var7.config;
             var4 = var4.application;
             var9 = var4.id;
             var10 = var1.application;
             var11 = var5 == var10;
             var4 = undefined;
-            if(var11) { _fun0001_ip = 186; continue _fun0001 }
- 181:
+            if(var11) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
             var4 = var10.id;
- 186:
+case 18:
             var2 = null;
-            if(!(var9 === var4)) { _fun0001_ip = 270; continue _fun0001 }
- 192:
+            if(!(var9 === var4)) { _fun0001_ip = 16; continue _fun0001 }
+case 20:
             var4 = {};
             var4['quest_id'] = var8;
             var9 = var7.userStatus;
             var10 = var5 == var9;
             var8 = undefined;
-            if(var10) { _fun0001_ip = 220; continue _fun0001 }
- 214:
+            if(var10) { _fun0001_ip = 21; continue _fun0001 }
+case 22:
             var8 = var9.enrolledAt;
- 220:
+case 21:
             var8 = var5 != var8;
             var4['is_enrolled'] = var8;
             var7 = var7.userStatus;
             var8 = var5 == var7;
             var6 = undefined;
-            if(var8) { _fun0001_ip = 250; continue _fun0001 }
- 244:
+            if(var8) { _fun0001_ip = 23; continue _fun0001 }
+case 24:
             var6 = var7.enrolledAt;
- 250:
+case 23:
             var7 = var5 != var6;
             var5 = null;
-            if(!var7) { _fun0001_ip = 262; continue _fun0001 }
- 259:
+            if(!var7) { _fun0001_ip = 25; continue _fun0001 }
+case 26:
             var5 = var6;
- 262:
+case 25:
             var4['enrolled_at'] = var5;
             var2 = var4;
- 270:
+case 16:
             return var2;
- 272:
+case 10:
             var5 = _closure1_slot0;
             var4 = _closure1_slot1;
             var2 = 6;
@@ -138,7 +138,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4.activityInstanceConnectedParticipants;
             var2 = var2.bind(var4)();
             return var2;
- 306:
+case 8:
             var2 = {};
             var6 = _closure1_slot0;
             var5 = _closure1_slot1;
@@ -149,16 +149,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var5.getIsScreenLandscape;
             var4 = var4.bind(var5)();
             var5 = _closure1_slot6;
-            if(var4) { _fun0001_ip = 355; continue _fun0001 }
- 347:
+            if(var4) { _fun0001_ip = 27; continue _fun0001 }
+case 28:
             var4 = var5.PORTRAIT;
-            _fun0001_ip = 361; continue _fun0001;
- 355:
+            _fun0001_ip = 29; continue _fun0001;
+case 27:
             var4 = var5.LANDSCAPE;
- 361:
+case 29:
             var2['screen_orientation'] = var4;
             return var2;
- 368:
+case 6:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var2 = 4;
@@ -172,67 +172,67 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.ThermalStates;
             var4 = var2.UNHANDLED;
             var2 = null;
-            if(!(var5 !== var4)) { _fun0001_ip = 437; continue _fun0001 }
- 427:
+            if(!(var5 !== var4)) { _fun0001_ip = 30; continue _fun0001 }
+case 31:
             var4 = {};
             var4['thermal_state'] = var5;
             var2 = var4;
- 437:
+case 30:
             return var2;
- 439:
+case 4:
             var4 = var1.application;
             var2 = null;
             var5 = var2 == var4;
             var7 = undefined;
-            if(var5) { _fun0001_ip = 460; continue _fun0001 }
- 455:
+            if(var5) { _fun0001_ip = 32; continue _fun0001 }
+case 33:
             var7 = var4.id;
- 460:
+case 32:
             var4 = var2 != var7;
             var5 = null;
-            if(!var4) { _fun0001_ip = 484; continue _fun0001 }
- 469:
+            if(!var4) { _fun0001_ip = 34; continue _fun0001 }
+case 35:
             var6 = _closure1_slot2;
             var4 = var6.getLayoutModeForApp;
             var5 = var4.bind(var6)(var7);
- 484:
+case 34:
             var4 = var2 != var5;
             var2 = null;
-            if(!var4) { _fun0001_ip = 503; continue _fun0001 }
- 493:
+            if(!var4) { _fun0001_ip = 36; continue _fun0001 }
+case 37:
             var4 = {};
             var4['layout_mode'] = var5;
             var2 = var4;
- 503:
+case 36:
             return var2;
- 505:
+case 2:
             var2 = var1.application;
             var1 = null;
             var4 = var1 == var2;
             var6 = undefined;
-            if(var4) { _fun0001_ip = 526; continue _fun0001 }
- 521:
+            if(var4) { _fun0001_ip = 38; continue _fun0001 }
+case 39:
             var6 = var2.id;
- 526:
+case 38:
             var2 = var1 != var6;
             var4 = null;
-            if(!var2) { _fun0001_ip = 550; continue _fun0001 }
- 535:
+            if(!var2) { _fun0001_ip = 40; continue _fun0001 }
+case 41:
             var5 = _closure1_slot2;
             var2 = var5.getLayoutModeForApp;
             var4 = var2.bind(var5)(var6);
- 550:
+case 40:
             var2 = var1 != var4;
             var1 = null;
-            if(!var2) { _fun0001_ip = 583; continue _fun0001 }
- 559:
+            if(!var2) { _fun0001_ip = 42; continue _fun0001 }
+case 43:
             var2 = {};
             var3 = _closure1_slot5;
             var3 = var3.FOCUSED;
             var3 = var4 !== var3;
             var2['is_pip_mode'] = var3;
             var1 = var2;
- 583:
+case 42:
             return var1;
         }
     };

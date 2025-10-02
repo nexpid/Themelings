@@ -69,7 +69,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function AgeVerificationScreen() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var7 = _closure1_slot3;
             var3 = var7.useMemo;
             var2 = function() {
@@ -140,17 +140,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[1] = var1;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = _closure2_slot2;
                     var1 = null;
                     var3 = var1 == var3;
                     var1 = undefined;
                     var5 = undefined;
-                    if(var3) { _fun0002_ip = 30; continue _fun0002 }
- 20:
+                    if(var3) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var3 = _closure2_slot2;
                     var5 = var3.ageVerificationStatus;
- 30:
+case 2:
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot2;
                     var3 = 12;
@@ -158,8 +158,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var6.bind(var1)(var3);
                     var3 = var3.AgeVerificationStatusUkAndAusOnly;
                     var3 = var3.UNVERIFIED;
-                    if(!(var5 !== var3)) { _fun0002_ip = 116; continue _fun0002 }
- 69:
+                    if(!(var5 !== var3)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var3 = _closure2_slot1;
                     var2 = {};
                     var5 = _closure1_slot0;
@@ -171,7 +171,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var4.Empty;
                     var2['type'] = var4;
                     var2 = var3.bind(var1)(var2);
- 116:
+case 4:
                     return var1;
                 }
             };
@@ -314,8 +314,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = null;
             var13 = var11 == var14;
             var11 = undefined;
-            if(var13) { _fun0001_ip = 729; continue _fun0001 }
- 712:
+            if(var13) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var13 = var14.map;
             var12 = function(arg1) {
                 var1 = arg1;
@@ -348,7 +348,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var11 = var13.bind(var14)(var12);
- 729:
+case 6:
             var9['children'] = var11;
             var9 = var3.bind(var4)(var10, var9);
             var8[1] = var9;

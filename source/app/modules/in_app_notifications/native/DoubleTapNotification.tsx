@@ -1,7 +1,7 @@
 // app/modules/in_app_notifications/native/DoubleTapNotification.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
         var5 = require;
         var12 = metroImportDefault;
         var3 = exports;
@@ -129,20 +129,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var16 = var18.isIOS;
         var18 = var16.bind(var18)();
         var16 = 20;
-        if(!var18) { _fun0001_ip = 587; continue _fun0001 }
- 584:
+        if(!var18) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
         var16 = var17;
- 587:
+case 2:
         var10['fontSize'] = var16;
         var15 = var6[var15];
         var16 = var5.bind(var1)(var15);
         var15 = var16.isIOS;
         var16 = var15.bind(var16)();
         var15 = undefined;
-        if(!var16) { _fun0001_ip = 619; continue _fun0001 }
- 616:
+        if(!var16) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
         var15 = 32;
- 619:
+case 4:
         var10['lineHeight'] = var15;
         var10['textAlign'] = var14;
         var14 = var6[var11];
@@ -166,7 +166,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var7.memo;
         var2 = function(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var1 = var1.notification;
                 var21 = var1.emoji;
@@ -231,17 +231,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var12 = null;
                 var13 = var12 == var11;
                 var11 = '';
-                if(!var13) { _fun0002_ip = 271; continue _fun0002 }
- 266:
+                if(!var13) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                 var11 = var21.surrogates;
- 271:
+case 6:
                 var9['name'] = var11;
                 var11 = var21.id;
-                if(!(var12 == var11)) { _fun0002_ip = 291; continue _fun0002 }
- 284:
+                if(!(var12 == var11)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                 var11 = var21.url;
-                _fun0002_ip = 358; continue _fun0002;
- 291:
+                _fun0002_ip = 10; continue _fun0002;
+case 8:
                 var13 = _closure1_slot1;
                 var14 = _closure1_slot2;
                 var12 = 12;
@@ -252,15 +252,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var17 = var21.id;
                 var12['id'] = var17;
                 var15 = !var15;
-                if(!var15) { _fun0002_ip = 340; continue _fun0002 }
- 334:
+                if(!var15) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
                 var15 = var21.animated;
- 340:
+case 11:
                 var12['animated'] = var15;
                 var15 = _closure1_slot5;
                 var12['size'] = var15;
                 var11 = var13.bind(var14)(var12);
- 358:
+case 10:
                 var9['src'] = var11;
                 var9 = var3.bind(var4)(var10, var9);
                 var12 = new Array(2);

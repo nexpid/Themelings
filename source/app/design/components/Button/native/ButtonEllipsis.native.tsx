@@ -158,33 +158,33 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var8.createStyles;
     var4 = function(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = 'lg';
-            if(!(var1 !== var2)) { _fun0001_ip = 56; continue _fun0001 }
- 11:
+            if(!(var1 !== var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = 'md';
-            if(!(var1 !== var2)) { _fun0001_ip = 48; continue _fun0001 }
- 19:
+            if(!(var1 !== var2)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = 'sm';
-            if(!(var1 !== var2)) { _fun0001_ip = 48; continue _fun0001 }
- 27:
+            if(!(var1 !== var2)) { _fun0001_ip = 4; continue _fun0001 }
+case 6:
             var4 = 4;
             var1 = 'xs';
             var3 = undefined;
-            if(!(var1 === var2)) { _fun0001_ip = 62; continue _fun0001 }
- 40:
+            if(!(var1 === var2)) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var3 = 5;
             var4 = 3;
-            _fun0001_ip = 62; continue _fun0001;
- 48:
+            _fun0001_ip = 7; continue _fun0001;
+case 4:
             var3 = 6;
             var4 = 4;
-            _fun0001_ip = 62; continue _fun0001;
- 56:
+            _fun0001_ip = 7; continue _fun0001;
+case 2:
             var3 = 8;
             var4 = 4;
- 62:
+case 7:
             var1 = {};
             var2 = {};
             var2['width'] = var3;
@@ -201,10 +201,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = 2;
             var5 = arg2;
             var3 = 0;
-            if(!(var6 !== var5)) { _fun0001_ip = 128; continue _fun0001 }
- 125:
+            if(!(var6 !== var5)) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var3 = var4;
- 128:
+case 9:
             var2['marginEnd'] = var3;
             var3 = arg3;
             var2['backgroundColor'] = var3;

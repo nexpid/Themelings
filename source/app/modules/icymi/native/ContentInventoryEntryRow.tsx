@@ -37,16 +37,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function ContentInventoryEntryRow(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var6 = var1.content;
             var _closure2_slot0 = var6;
             var5 = var1.renderForScreenshot;
             var4 = undefined;
-            if(!(var5 === var4)) { _fun0001_ip = 28; continue _fun0001 }
- 26:
+            if(!(var5 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = false;
- 28:
+case 2:
             var9 = var1.visible;
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -66,8 +66,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var2 = var7.bind(var8)(var3, var2);
-            if(var2) { _fun0001_ip = 311; continue _fun0001 }
- 93:
+            if(var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = var6.content_type;
             var7 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -76,27 +76,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var7.bind(var4)(var2);
             var2 = var2.ContentInventoryEntryType;
             var2 = var2.TOP_GAME;
-            if(!(var2 !== var3)) { _fun0001_ip = 268; continue _fun0001 }
- 138:
+            if(!(var2 !== var3)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var7 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var8];
             var2 = var7.bind(var4)(var2);
             var2 = var2.ContentInventoryEntryType;
             var2 = var2.PLAYED_GAME;
-            if(!(var2 !== var3)) { _fun0001_ip = 268; continue _fun0001 }
- 171:
+            if(!(var2 !== var3)) { _fun0001_ip = 6; continue _fun0001 }
+case 8:
             var7 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var8];
             var2 = var7.bind(var4)(var2);
             var2 = var2.ContentInventoryEntryType;
             var2 = var2.CUSTOM_STATUS;
-            if(!(var2 !== var3)) { _fun0001_ip = 208; continue _fun0001 }
- 204:
+            if(!(var2 !== var3)) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var2 = null;
             return var2;
- 208:
+case 9:
             var7 = _closure1_slot4;
             var3 = _closure1_slot1;
             var8 = _closure1_slot2;
@@ -108,14 +108,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['renderForScreenshot'] = var5;
             var8 = null;
             var8 = var8 != var9;
-            if(!var8) { _fun0001_ip = 255; continue _fun0001 }
- 252:
+            if(!var8) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var8 = var9;
- 255:
+case 11:
             var2['visible'] = var8;
             var2 = var7.bind(var4)(var3, var2);
             return var2;
- 268:
+case 6:
             var3 = _closure1_slot4;
             var2 = _closure1_slot1;
             var7 = _closure1_slot2;
@@ -127,7 +127,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['renderForScreenshot'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
- 311:
+case 4:
             var1 = null;
             return var1;
         }

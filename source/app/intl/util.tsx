@@ -78,7 +78,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var3.sort;
         var1 = function(arg1, arg2) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var3 = var1.name;
                 var1 = arg2;
@@ -89,16 +89,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var1.bind(var2)();
                 var4 = var3 < var2;
                 var1 = -1;
-                if(var4) { _fun0001_ip = 64; continue _fun0001 }
- 49:
+                if(var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var3 = var3 > var2;
                 var2 = 0;
-                if(!var3) { _fun0001_ip = 61; continue _fun0001 }
- 58:
+                if(!var3) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var2 = 1;
- 61:
+case 4:
                 var1 = var2;
- 64:
+case 2:
                 return var1;
             }
         };
@@ -109,7 +109,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['getLanguages'] = var4;
     var4 = function getNormalizedLocale(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var4 = arg2;
             var3 = _closure1_slot3;
@@ -131,8 +131,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var3.bind(var6)(var2);
             var2 = var7.includes;
             var2 = var2.bind(var7)(var1);
-            if(var2) { _fun0002_ip = 207; continue _fun0002 }
- 67:
+            if(var2) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var3 = var1.split;
             var2 = '-';
             var6 = var3.bind(var1)(var2);
@@ -142,19 +142,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var6[var3];
             var2 = var8.bind(var7)(var2);
             var3 = var6[var3];
-            if(var2) { _fun0002_ip = 202; continue _fun0002 }
- 108:
+            if(var2) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var2 = 'zh';
-            if(!(var2 === var3)) { _fun0002_ip = 142; continue _fun0002 }
- 116:
+            if(!(var2 === var3)) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
             var8 = var6.length;
             var2 = 1;
-            if(!(var8 > var2)) { _fun0002_ip = 142; continue _fun0002 }
- 128:
+            if(!(var8 > var2)) { _fun0002_ip = 10; continue _fun0002 }
+case 12:
             var6 = var6[var2];
             var2 = 'Hant';
-            if(!(var2 !== var6)) { _fun0002_ip = 172; continue _fun0002 }
- 142:
+            if(!(var2 !== var6)) { _fun0002_ip = 13; continue _fun0002 }
+case 10:
             var6 = var7.find;
             var2 = function(arg1) {
                 var3 = arg1;
@@ -171,12 +171,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.bind(var7)(var2);
             var8 = null;
             var2 = var4;
-            if(!(var8 != var6)) { _fun0002_ip = 170; continue _fun0002 }
- 167:
+            if(!(var8 != var6)) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
             var2 = var6;
- 170:
-            _fun0002_ip = 200; continue _fun0002;
- 172:
+case 14:
+            _fun0002_ip = 16; continue _fun0002;
+case 13:
             var6 = var7.find;
             var5 = function(arg1) {
                 var2 = 'zh-TW';
@@ -186,18 +186,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var5 = var6.bind(var7)(var5);
             var6 = null;
-            if(!(var6 != var5)) { _fun0002_ip = 197; continue _fun0002 }
- 194:
+            if(!(var6 != var5)) { _fun0002_ip = 17; continue _fun0002 }
+case 18:
             var4 = var5;
- 197:
+case 17:
             var2 = var4;
- 200:
-            _fun0002_ip = 205; continue _fun0002;
- 202:
+case 16:
+            _fun0002_ip = 19; continue _fun0002;
+case 8:
             var2 = var3;
- 205:
+case 19:
             return var2;
- 207:
+case 6:
             return var1;
         }
     };

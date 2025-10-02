@@ -22,19 +22,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = undefined;
         var1 = function(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var4 = var1.states;
                 var3 = var4.get;
                 var2 = _closure2_slot0;
                 var3 = var3.bind(var4)(var2);
                 var2 = null;
-                if(!(var2 == var3)) { _fun0001_ip = 45; continue _fun0001 }
- 32:
+                if(!(var2 == var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var4 = _closure1_slot4;
                 var2 = undefined;
                 var3 = var4.bind(var2)();
- 45:
+case 2:
                 var2 = _closure2_slot1;
                 var1 = undefined;
                 var1 = var2.bind(var1)(var3);
@@ -142,7 +142,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4['searchActiveSource'] = var1;
         var3 = function upsertChannelState(arg1, arg2) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var6 = arg1;
                 var4 = _closure1_slot3;
                 var3 = var4.getState;
@@ -152,12 +152,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var3.bind(var7)(var6);
                 var5 = {};
                 var4 = null;
-                if(!(var4 == var3)) { _fun0002_ip = 56; continue _fun0002 }
- 46:
+                if(!(var4 == var3)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                 var8 = _closure1_slot4;
                 var4 = undefined;
                 var3 = var8.bind(var4)();
- 56:
+case 4:
                 var10 = var5;
                 var9 = var3;
                 var3 = copyDataProperties(var10, var9);
@@ -203,7 +203,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['setIsChannelDetailsSearchActive'] = var4;
     var4 = function getIsChannelDetailsSearchActive(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var3 = _closure1_slot3;
             var1 = var3.getState;
             var1 = var1.bind(var3)();
@@ -212,12 +212,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = arg1;
             var1 = var3.bind(var4)(var1);
             var3 = null;
-            if(!(var3 == var1)) { _fun0003_ip = 52; continue _fun0003 }
- 42:
+            if(!(var3 == var1)) { _fun0003_ip = 6; continue _fun0003 }
+case 7:
             var3 = _closure1_slot4;
             var2 = undefined;
             var1 = var3.bind(var2)();
- 52:
+case 6:
             var1 = var1.isSearchActive;
             return var1;
         }

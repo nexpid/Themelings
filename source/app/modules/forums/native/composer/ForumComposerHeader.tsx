@@ -93,7 +93,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function ForumComposerHeader(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = var1.height;
             var19 = var1.title;
@@ -179,8 +179,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17 = var14.Text;
             var14 = {'lineClamp': 1, 'ellipsizeMode': 'tail', 'variant': 'text-md/semibold', 'color': 'header-primary'};
             var22 = '';
-            if(!(var22 === var19)) { _fun0001_ip = 416; continue _fun0001 }
- 362:
+            if(!(var22 === var19)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var25 = _closure1_slot0;
             var22 = _closure1_slot2;
             var23 = var22[var15];
@@ -192,7 +192,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var22 = var22.t;
             var22 = var22.7EjFCg;
             var19 = var23.bind(var24)(var22);
- 416:
+case 2:
             var14['children'] = var19;
             var17 = var18.bind(var4)(var17, var14);
             var14 = new Array(2);
@@ -216,16 +216,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = null;
             var13 = var7 == var10;
             var11 = undefined;
-            if(var13) { _fun0001_ip = 534; continue _fun0001 }
- 523:
+            if(var13) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var10 = var10.topic;
             var11 = var10.length;
- 534:
+case 4:
             var10 = 0;
             var10 = var11 > var10;
             var7 = null;
-            if(!var10) { _fun0001_ip = 679; continue _fun0001 }
- 548:
+            if(!var10) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var11 = _closure1_slot5;
             var13 = _closure1_slot0;
             var14 = _closure1_slot2;
@@ -255,7 +255,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var11.bind(var4)(var13, var12);
             var8['children'] = var12;
             var7 = var11.bind(var4)(var10, var8);
- 679:
+case 6:
             var5[2] = var7;
             var8 = _closure1_slot5;
             var7 = _closure1_slot4;

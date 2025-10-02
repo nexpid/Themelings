@@ -9,29 +9,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var9;
     var1 = function getBaseAnalyticsFields(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var1 = {};
             var4 = null;
             var6 = var4 == var3;
             var2 = undefined;
             var5 = undefined;
-            if(var6) { _fun0001_ip = 23; continue _fun0001 }
- 18:
+            if(var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = var3.id;
- 23:
+case 2:
             var1['subscription_id'] = var5;
             var6 = var4 == var3;
             var5 = undefined;
-            if(var6) { _fun0001_ip = 42; continue _fun0001 }
- 37:
+            if(var6) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = var3.type;
- 42:
+case 4:
             var1['subscription_type'] = var5;
             var6 = var4 != var3;
             var5 = undefined;
-            if(!var6) { _fun0001_ip = 107; continue _fun0001 }
- 56:
+            if(!var6) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var6 = 2;
@@ -41,26 +41,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var6.bind(var7)(var3);
             var8 = var4 == var7;
             var6 = undefined;
-            if(var8) { _fun0001_ip = 104; continue _fun0001 }
- 99:
+            if(var8) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var6 = var7.id;
- 104:
+case 8:
             var5 = var6;
- 107:
+case 6:
             var1['subscription_plan_id'] = var5;
             var6 = var4 == var3;
             var5 = undefined;
-            if(var6) { _fun0001_ip = 127; continue _fun0001 }
- 121:
+            if(var6) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var5 = var3.paymentGatewayPlanId;
- 127:
+case 10:
             var1['subscription_plan_gateway_plan_id'] = var5;
             var4 = var4 == var3;
             var2 = undefined;
-            if(var4) { _fun0001_ip = 146; continue _fun0001 }
- 141:
+            if(var4) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var2 = var3.status;
- 146:
+case 12:
             var1['subscription_status'] = var2;
             return var1;
         }
@@ -150,15 +150,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['PaymentFlowStep'] = var6;
     var6 = function getBasePurchaseFlowAnalyticsFields(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var6 = var1.analyticsLoadId;
             var5 = var1.isGift;
             var2 = undefined;
-            if(!(var5 === var2)) { _fun0002_ip = 23; continue _fun0002 }
- 21:
+            if(!(var5 === var2)) { _fun0002_ip = 2; continue _fun0002 }
+case 14:
             var5 = false;
- 23:
+case 2:
             var3 = var1.analyticsLocation;
             var4 = var1.analyticsLocations;
             var1 = {};
@@ -177,10 +177,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = null;
             var4 = var4 == var3;
             var2 = undefined;
-            if(var4) { _fun0002_ip = 113; continue _fun0002 }
- 108:
+            if(var4) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
             var2 = var3.section;
- 113:
+case 15:
             var1['location_section'] = var2;
             return var1;
         }

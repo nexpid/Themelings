@@ -35,7 +35,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var8.memo;
     var4 = function GuildsOnly() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var6 = _closure1_slot0;
             var12 = _closure1_slot2;
             var1 = 3;
@@ -78,8 +78,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = new Array(3);
             var8[0] = var10;
             var10 = null;
-            if(!var11) { _fun0001_ip = 219; continue _fun0001 }
- 181:
+            if(!var11) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var13 = _closure1_slot4;
             var12 = _closure1_slot0;
             var14 = _closure1_slot2;
@@ -89,7 +89,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var11.ThemedYouBar;
             var11 = {};
             var10 = var13.bind(var4)(var12, var11);
- 219:
+case 2:
             var8[1] = var10;
             var11 = _closure1_slot4;
             var10 = _closure1_slot1;

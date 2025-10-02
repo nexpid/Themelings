@@ -27,15 +27,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = {};
     var7 = function updateEstimate(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arguments[1];
             var2 = arg1;
             var _closure2_slot0 = var2;
             var2 = undefined;
-            if(!(var3 === var2)) { _fun0001_ip = 21; continue _fun0001 }
- 18:
+            if(!(var3 === var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = 7;
- 21:
+case 2:
             var _closure2_slot1 = var3;
             var3 = arguments[2];
             var _closure2_slot2 = var3;
@@ -43,11 +43,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = function* () {
                 var1 = function* anon_0_() {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0002_ip = 145; continue _fun0002 }
- 10:
+                        if(var2) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                         var4 = _closure1_slot0;
                         var3 = _closure1_slot1;
                         var2 = 2;
@@ -74,18 +74,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2['rejectWithError'] = var5;
                         var2 = var3.bind(var4)(var2);
                         SaveGenerator(address=120);
- 118:
+case 6:
                         return var2;
- 120:
+case 7:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                        if(var3) { _fun0002_ip = 142; continue _fun0002 }
- 126:
+                        if(var3) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                         var3 = var2.body;
                         var3 = var3.pruned;
                         return var3;
- 142:
+case 8:
                         return var2;
- 145:
+case 4:
                         return var1;
                     }
                 };

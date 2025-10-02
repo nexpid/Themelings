@@ -48,7 +48,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function SubmittingOverlay(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var5 = var1.submitting;
             var _closure2_slot0 = var5;
@@ -64,7 +64,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var8.useAnimatedStyle;
             var2 = function o() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var1 = {};
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot2;
@@ -75,10 +75,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var6.withSpring;
                     var3 = _closure2_slot0;
                     var4 = 0;
-                    if(!var3) { _fun0002_ip = 47; continue _fun0002 }
- 44:
+                    if(!var3) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var4 = 1;
- 47:
+case 2:
                     var3 = _closure1_slot0;
                     var8 = _closure1_slot2;
                     var2 = 5;
@@ -121,8 +121,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7[1] = var9;
             var7[2] = var8;
             var1['style'] = var7;
-            if(!var5) { _fun0001_ip = 257; continue _fun0001 }
- 207:
+            if(!var5) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var8 = _closure1_slot3;
             var7 = _closure1_slot0;
             var9 = _closure1_slot2;
@@ -132,7 +132,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var6.Ellipsis;
             var6 = {'variant': 'active', 'size': 'md'};
             var5 = var8.bind(var4)(var7, var6);
- 257:
+case 4:
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

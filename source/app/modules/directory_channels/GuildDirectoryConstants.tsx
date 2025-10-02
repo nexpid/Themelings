@@ -96,11 +96,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['HQ_CHANNEL_ID'] = var4;
     var4 = function getHubCategories(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = '883060064561299456';
-            if(!(var2 !== var1)) { _fun0001_ip = 325; continue _fun0001 }
- 16:
+            if(!(var2 !== var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = {};
             var4 = _closure1_slot6;
             var3 = var4.SCHOOL_CLUB;
@@ -167,8 +167,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.bind(var5)(var3);
             var2['label'] = var3;
             var1[3] = var2;
-            _fun0001_ip = 616; continue _fun0001;
- 325:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var3 = {};
             var5 = _closure1_slot6;
             var4 = var5.SCHOOL_CLUB;
@@ -232,7 +232,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['label'] = var4;
             var2[3] = var3;
             var1 = var2;
- 616:
+case 4:
             return var1;
         }
     };

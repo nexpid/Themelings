@@ -42,7 +42,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = {};
     var7 = function init(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var3 = var1.hasModalOpen;
             var _closure2_slot0 = var3;
@@ -57,12 +57,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var4.ProcessArgs;
             var4 = var5.isDisallowPopupsSet;
             var4 = var4.bind(var5)();
-            if(var4) { _fun0001_ip = 85; continue _fun0001 }
- 69:
+            if(var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = _closure1_slot3;
             var2 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var4 = _closure1_slot1;
                     var2 = _closure1_slot2;
                     var1 = 6;
@@ -70,15 +70,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = undefined;
                     var2 = var4.bind(var1)(var2);
                     var2 = var2.bind(var1)();
-                    if(var2) { _fun0002_ip = 406; continue _fun0002 }
- 35:
+                    if(var2) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var4 = _closure1_slot5;
                     var2 = var4.getCurrentUser;
                     var4 = var2.bind(var4)();
                     var5 = null;
                     var2 = var5 != var4;
-                    if(!var2) { _fun0002_ip = 143; continue _fun0002 }
- 57:
+                    if(!var2) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var11 = _closure1_slot1;
                     var12 = _closure1_slot2;
                     var6 = 7;
@@ -98,7 +98,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = 'days';
                     var4 = var8.bind(var9)(var7, var4);
                     var2 = var4 < var6;
- 143:
+case 6:
                     var6 = _closure1_slot4;
                     var4 = var6.getGuildsArray;
                     var7 = var4.bind(var6)();
@@ -127,22 +127,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var4.HUB_BACK_TO_SCHOOL_UPSELL;
                     var4 = var7.bind(var8)(var4);
                     var4 = !var4;
-                    if(var2) { _fun0002_ip = 253; continue _fun0002 }
- 242:
+                    if(var2) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                     var7 = _closure2_slot0;
                     var2 = var7.bind(var1)();
- 253:
-                    if(var2) { _fun0002_ip = 259; continue _fun0002 }
- 256:
+case 8:
+                    if(var2) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
                     var2 = var5;
- 259:
-                    if(var2) { _fun0002_ip = 265; continue _fun0002 }
- 262:
+case 10:
+                    if(var2) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
                     var2 = !var4;
- 265:
+case 12:
                     var2 = !var2;
-                    if(!var2) { _fun0002_ip = 301; continue _fun0002 }
- 271:
+                    if(!var2) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
                     var5 = _closure1_slot0;
                     var7 = _closure1_slot2;
                     var4 = 11;
@@ -150,9 +150,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var5.bind(var1)(var4);
                     var4 = var5.backToSchoolEnabled;
                     var2 = var4.bind(var5)();
- 301:
-                    if(!var2) { _fun0002_ip = 406; continue _fun0002 }
- 304:
+case 14:
+                    if(!var2) { _fun0002_ip = 4; continue _fun0002 }
+case 16:
                     var5 = _closure1_slot1;
                     var2 = _closure1_slot2;
                     var4 = 11;
@@ -175,12 +175,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var2.DismissibleContent;
                     var2 = var2.HUB_BACK_TO_SCHOOL_UPSELL;
                     var2 = var3.bind(var4)(var2);
- 406:
+case 4:
                     return var1;
                 }
             };
             var2 = var3.bind(var1)(var2);
- 85:
+case 2:
             return var1;
         }
     };

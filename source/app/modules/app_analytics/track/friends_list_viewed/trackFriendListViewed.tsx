@@ -29,7 +29,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function trackFriendsListViewed(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var9 = var1.tab_opened;
             var11 = var1.source;
@@ -63,33 +63,33 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = null;
             var10 = var8 != var9;
             var6 = 'tabless';
-            if(!var10) { _fun0001_ip = 145; continue _fun0001 }
- 142:
+            if(!var10) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = var9;
- 145:
+case 2:
             var2['tab_opened'] = var6;
             var10 = var7.num_friends;
             var11 = var8 != var10;
             var9 = 0;
-            if(!var11) { _fun0001_ip = 168; continue _fun0001 }
- 165:
+            if(!var11) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var9 = var10;
- 168:
+case 4:
             var2['num_friends'] = var9;
             var10 = var7.now_playing_visible;
             var9 = var8 != var10;
-            if(!var9) { _fun0001_ip = 189; continue _fun0001 }
- 186:
+            if(!var9) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var9 = var10;
- 189:
+case 6:
             var2['now_playing_visible'] = var9;
             var7 = var7.now_playing_num_cards;
             var8 = var8 != var7;
             var6 = 0;
-            if(!var8) { _fun0001_ip = 212; continue _fun0001 }
- 209:
+            if(!var8) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var6 = var7;
- 212:
+case 8:
             var2['now_playing_num_cards'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var1;

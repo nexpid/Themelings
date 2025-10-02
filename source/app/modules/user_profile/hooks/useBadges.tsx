@@ -31,7 +31,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useBadges(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arg1;
             var3 = arg2;
             var7 = _closure1_slot0;
@@ -43,10 +43,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var4.LegacyUsernameDisabled;
             var4 = var7.useSetting;
             var4 = var4.bind(var7)();
-            if(!(var6 !== var3)) { _fun0001_ip = 56; continue _fun0001 }
- 53:
+            if(!(var6 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = var3;
- 56:
+case 2:
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
             var3 = 3;
@@ -76,33 +76,33 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var3 = var8.bind(var9)(var3, var1);
             var1 = null;
-            if(!(var1 != var5)) { _fun0001_ip = 245; continue _fun0001 }
- 147:
+            if(!(var1 != var5)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var8 = var1 == var5;
             var6 = undefined;
-            if(var8) { _fun0001_ip = 166; continue _fun0001 }
- 156:
+            if(var8) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var8 = var5.getBadges;
             var6 = var8.bind(var5)();
- 166:
-            if(!(var1 == var6)) { _fun0001_ip = 174; continue _fun0001 }
- 170:
+case 6:
+            if(!(var1 == var6)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var6 = new Array(0);
- 174:
+case 8:
             var1 = var1 != var7;
-            if(!var1) { _fun0001_ip = 195; continue _fun0001 }
- 181:
+            if(!var1) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var7 = var7.id;
             var5 = var5.userId;
             var1 = var7 === var5;
- 195:
-            if(!var1) { _fun0001_ip = 201; continue _fun0001 }
- 198:
+case 10:
+            if(!var1) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var1 = var4;
- 201:
+case 12:
             var4 = var6;
-            if(!var1) { _fun0001_ip = 222; continue _fun0001 }
- 207:
+            if(!var1) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var5 = var6.filter;
             var1 = function(arg1) {
                 var1 = arg1;
@@ -112,14 +112,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var4 = var5.bind(var6)(var1);
- 222:
+case 14:
             var1 = var4;
-            if(!var3) { _fun0001_ip = 243; continue _fun0001 }
- 228:
+            if(!var3) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var3 = var4.map;
             var2 = function(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var2 = arg1;
                     var1 = {};
                     var10 = var1;
@@ -127,11 +127,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = copyDataProperties(var10, var9);
                     var4 = var2.id;
                     var3 = 'legacy_username';
-                    if(!(var4 !== var3)) { _fun0002_ip = 35; continue _fun0002 }
- 28:
+                    if(!(var4 !== var3)) { _fun0002_ip = 18; continue _fun0002 }
+case 19:
                     var3 = var2.description;
-                    _fun0002_ip = 97; continue _fun0002;
- 35:
+                    _fun0002_ip = 20; continue _fun0002;
+case 18:
                     var7 = _closure1_slot0;
                     var8 = _closure1_slot1;
                     var2 = 4;
@@ -145,16 +145,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var2.t;
                     var2 = var2.Br1ls7;
                     var3 = var4.bind(var5)(var2);
- 97:
+case 20:
                     var2 = 'description';
                     var1[var2] = var3;
                     return var1;
                 }
             };
             var1 = var3.bind(var4)(var2);
- 243:
+case 16:
             return var1;
- 245:
+case 4:
             var1 = new Array(0);
             return var1;
         }

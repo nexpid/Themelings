@@ -1,7 +1,7 @@
 // app/modules/visual_effect_view/native/overrides/VEVOOSlider.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
         var5 = require;
         var13 = metroImportDefault;
         var3 = exports;
@@ -38,14 +38,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var14 = var5.bind(var1)(var12);
         var12 = var14.isAndroid;
         var12 = var12.bind(var14)();
-        if(!var12) { _fun0001_ip = 163; continue _fun0001 }
- 140:
+        if(!var12) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
         var12 = 4;
         var12 = var6[var12];
         var12 = var13.bind(var1)(var12);
         var12 = var12.spacing;
         var11 = var12.PX_8;
- 163:
+case 2:
         var10['marginTop'] = var11;
         var4['slider'] = var10;
         var4 = var8.bind(var9)(var4);
@@ -53,15 +53,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var7.memo;
         var2 = function VEVOOSlider(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var9 = var1.disabled;
                 var13 = var1.disabledOpacity;
                 var4 = undefined;
-                if(!(var13 === var4)) { _fun0002_ip = 22; continue _fun0002 }
- 20:
+                if(!(var13 === var4)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                 var13 = false;
- 22:
+case 4:
                 var8 = var1.initialValue;
                 var6 = var1.onValueChange;
                 var1 = _closure1_slot4;
@@ -79,10 +79,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var11 = {};
                 var7 = 1;
                 var12 = var7;
-                if(!var13) { _fun0002_ip = 106; continue _fun0002 }
- 96:
+                if(!var13) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                 var12 = 0.5;
- 106:
+case 6:
                 var11['opacity'] = var12;
                 var10[1] = var11;
                 var1['style'] = var10;
@@ -91,10 +91,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = null;
                 var10 = var8 != var9;
                 var8 = undefined;
-                if(!var10) { _fun0002_ip = 141; continue _fun0002 }
- 138:
+                if(!var10) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                 var8 = var9;
- 141:
+case 8:
                 var1['value'] = var8;
                 var8 = 0;
                 var1['minimumValue'] = var8;
@@ -120,13 +120,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var6.isAndroid;
                 var6 = var5.bind(var6)();
                 var5 = undefined;
-                if(!var6) { _fun0002_ip = 262; continue _fun0002 }
- 253:
+                if(!var6) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
                 var5 = function() {
                     var1 = true;
                     return var1;
                 };
- 262:
+case 10:
                 var1['onResponderGrant'] = var5;
                 var1 = var3.bind(var4)(var2, var1);
                 return var1;

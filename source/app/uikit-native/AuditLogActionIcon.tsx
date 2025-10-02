@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function AuditIcons(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var3 = var1.action;
             var1 = _closure1_slot10;
@@ -19,79 +19,79 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var1.bind(var4)(var3);
             var1 = _closure1_slot6;
             var1 = var1.CREATE;
-            if(!(var1 !== var2)) { _fun0001_ip = 118; continue _fun0001 }
- 44:
+            if(!(var1 !== var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = _closure1_slot6;
             var1 = var1.UPDATE;
-            if(!(var1 !== var2)) { _fun0001_ip = 96; continue _fun0001 }
- 58:
+            if(!(var1 !== var2)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = _closure1_slot6;
             var1 = var1.DELETE;
             var9 = null;
-            if(!(var1 === var2)) { _fun0001_ip = 138; continue _fun0001 }
- 74:
+            if(!(var1 === var2)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var2 = _closure1_slot1;
             var5 = _closure1_slot2;
             var1 = 28;
             var1 = var5[var1];
             var9 = var2.bind(var4)(var1);
-            _fun0001_ip = 138; continue _fun0001;
- 96:
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
             var2 = _closure1_slot1;
             var5 = _closure1_slot2;
             var1 = 27;
             var1 = var5[var1];
             var9 = var2.bind(var4)(var1);
-            _fun0001_ip = 138; continue _fun0001;
- 118:
+            _fun0001_ip = 6; continue _fun0001;
+case 2:
             var2 = _closure1_slot1;
             var5 = _closure1_slot2;
             var1 = 26;
             var1 = var5[var1];
             var9 = var2.bind(var4)(var1);
- 138:
+case 6:
             var1 = _closure1_slot4;
             var2 = var1.bind(var4)(var3);
             var1 = _closure1_slot7;
             var1 = var1.MESSAGE_DELETE;
-            if(!(var3 !== var1)) { _fun0001_ip = 255; continue _fun0001 }
- 161:
+            if(!(var3 !== var1)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var1 = _closure1_slot7;
             var1 = var1.AUTO_MODERATION_BLOCK_MESSAGE;
-            if(!(var3 !== var1)) { _fun0001_ip = 227; continue _fun0001 }
- 175:
+            if(!(var3 !== var1)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var1 = _closure1_slot7;
             var1 = var1.AUTO_MODERATION_FLAG_TO_CHANNEL;
-            if(!(var3 !== var1)) { _fun0001_ip = 227; continue _fun0001 }
- 189:
+            if(!(var3 !== var1)) { _fun0001_ip = 10; continue _fun0001 }
+case 12:
             var1 = _closure1_slot7;
             var1 = var1.AUTO_MODERATION_USER_COMMUNICATION_DISABLED;
-            if(!(var3 !== var1)) { _fun0001_ip = 227; continue _fun0001 }
- 203:
+            if(!(var3 !== var1)) { _fun0001_ip = 10; continue _fun0001 }
+case 13:
             var1 = _closure1_slot7;
             var1 = var1.AUTO_MODERATION_QUARANTINE_USER;
-            if(!(var3 !== var1)) { _fun0001_ip = 227; continue _fun0001 }
- 217:
+            if(!(var3 !== var1)) { _fun0001_ip = 10; continue _fun0001 }
+case 14:
             var1 = _closure1_slot11;
             var8 = var1[var2];
-            _fun0001_ip = 253; continue _fun0001;
- 227:
+            _fun0001_ip = 15; continue _fun0001;
+case 10:
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 25;
             var1 = var3[var1];
             var1 = var2.bind(var4)(var1);
             var8 = var1.RobotIcon;
- 253:
-            _fun0001_ip = 281; continue _fun0001;
- 255:
+case 15:
+            _fun0001_ip = 16; continue _fun0001;
+case 8:
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 24;
             var1 = var3[var1];
             var1 = var2.bind(var4)(var1);
             var8 = var1.ChatIcon;
- 281:
+case 16:
             var3 = _closure1_slot9;
             var2 = _closure1_slot3;
             var1 = {};

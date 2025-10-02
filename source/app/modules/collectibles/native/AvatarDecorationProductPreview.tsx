@@ -109,7 +109,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function _default() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = _closure1_slot7;
             var4 = undefined;
             var15 = var2.bind(var4)();
@@ -141,10 +141,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = null;
             var5 = var9 == var13;
             var2 = undefined;
-            if(var5) { _fun0001_ip = 120; continue _fun0001 }
- 114:
+            if(var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var13.skuId;
- 120:
+case 2:
             var2 = var3.bind(var4)(var2);
             var10 = var2.product;
             var3 = _closure1_slot1;
@@ -191,10 +191,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = {};
             var11 = var9 == var10;
             var9 = undefined;
-            if(var11) { _fun0001_ip = 257; continue _fun0001 }
- 252:
+            if(var11) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var9 = var10.name;
- 257:
+case 4:
             var5['avatarDecoration'] = var9;
             var5 = var7.bind(var8)(var6, var5);
             var1['accessibilityLabel'] = var5;

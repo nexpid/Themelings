@@ -9,25 +9,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var8;
     var4 = function isFirstMessageInMediaPost(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = null;
             var1 = var1 != var2;
-            if(!var1) { _fun0001_ip = 37; continue _fun0001 }
- 12:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = _closure1_slot5;
             var4 = var2.id;
             var3 = var2.channel_id;
             var2 = undefined;
             var1 = var5.bind(var2)(var4, var3);
- 37:
+case 2:
             return var1;
         }
     };
     var _closure1_slot4 = var4;
     var2 = function isFirstMessageIdInMediaPost(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var5 = arg2;
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
@@ -38,36 +38,36 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var3.castChannelIdAsMessageId;
             var3 = var1.bind(var3)(var5);
             var1 = arg1;
-            if(!(var1 === var3)) { _fun0002_ip = 130; continue _fun0002 }
- 46:
+            if(!(var1 === var3)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var3 = _closure1_slot3;
             var1 = var3.getChannel;
             var3 = var1.bind(var3)(var5);
             var1 = null;
-            if(!(var1 != var3)) { _fun0002_ip = 126; continue _fun0002 }
- 66:
+            if(!(var1 != var3)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var5 = var3.isForumPost;
             var5 = var5.bind(var3)();
-            if(!var5) { _fun0002_ip = 126; continue _fun0002 }
- 79:
+            if(!var5) { _fun0002_ip = 6; continue _fun0002 }
+case 8:
             var5 = _closure1_slot3;
             var4 = var5.getChannel;
             var3 = var3.parent_id;
             var3 = var4.bind(var5)(var3);
             var1 = var1 == var3;
             var2 = undefined;
-            if(var1) { _fun0002_ip = 118; continue _fun0002 }
- 108:
+            if(var1) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
             var1 = var3.isMediaChannel;
             var2 = var1.bind(var3)();
- 118:
+case 9:
             var1 = true;
             var1 = var1 === var2;
             return var1;
- 126:
+case 6:
             var1 = false;
             return var1;
- 130:
+case 4:
             var1 = false;
             return var1;
         }

@@ -28,7 +28,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var5 = var1.guildId;
             var2 = _closure1_slot0;
@@ -42,15 +42,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = _closure1_slot3;
             var2 = _closure1_slot1;
             var7 = _closure1_slot2;
-            if(var1) { _fun0001_ip = 68; continue _fun0001 }
- 59:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = 4;
             var1 = var7[var1];
-            _fun0001_ip = 75; continue _fun0001;
- 68:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var6 = 3;
             var1 = var7[var6];
- 75:
+case 4:
             var2 = var2.bind(var4)(var1);
             var1 = {};
             var1['guildId'] = var5;

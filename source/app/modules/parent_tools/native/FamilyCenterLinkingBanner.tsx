@@ -130,7 +130,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot11 = var1;
     var1 = function FamilyCenterLinkingInstructionsRow(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var17 = var1.header;
             var13 = var1.description;
@@ -170,10 +170,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = new Array(2);
             var9[0] = var10;
             var10 = null;
-            if(var15) { _fun0001_ip = 182; continue _fun0001 }
- 177:
+            if(var15) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var10 = var11.gap;
- 182:
+case 2:
             var9[1] = var10;
             var6['style'] = var9;
             var16 = _closure1_slot5;
@@ -333,7 +333,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function FamilyCenterLinkingBanner() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = _closure1_slot7;
             var4 = undefined;
             var18 = var1.bind(var4)();
@@ -441,13 +441,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var10.bind(var4)(var9, var8);
             var5[1] = var8;
             var8 = _closure1_slot5;
-            if(var7) { _fun0002_ip = 506; continue _fun0002 }
- 500:
+            if(var7) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var7 = _closure1_slot11;
-            _fun0002_ip = 510; continue _fun0002;
- 506:
+            _fun0002_ip = 6; continue _fun0002;
+case 4:
             var7 = _closure1_slot10;
- 510:
+case 6:
             var6 = {};
             var6 = var8.bind(var4)(var7, var6);
             var5[2] = var6;

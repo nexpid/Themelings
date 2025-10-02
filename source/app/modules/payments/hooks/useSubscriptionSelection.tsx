@@ -70,17 +70,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7[0] = var10;
         var6 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var3 = _closure2_slot0;
                 var1 = null;
                 var3 = var1 != var3;
-                if(!var3) { _fun0001_ip = 37; continue _fun0001 }
- 16:
+                if(!var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var4 = _closure1_slot4;
                 var3 = var4.get;
                 var2 = _closure2_slot0;
                 var1 = var3.bind(var4)(var2);
- 37:
+case 2:
                 return var1;
             }
         };

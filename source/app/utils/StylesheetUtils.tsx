@@ -22,7 +22,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function getClass(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var6 = 2;
             var3 = copyRestArgs(var6);
             var2 = var3.reduce;
@@ -50,11 +50,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = arg1;
             var1 = var1[var2];
             var2 = null;
-            if(!(var2 == var1)) { _fun0001_ip = 69; continue _fun0001 }
- 65:
+            if(!(var2 == var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = undefined;
             return var2;
- 69:
+case 2:
             return var1;
         }
     };

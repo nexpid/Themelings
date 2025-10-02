@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function getSafeAreaInsets(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var4 = _closure1_slot0;
             var5 = _closure1_slot2;
@@ -19,10 +19,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.bind(var5)(var2);
             var2 = var4.isAndroid;
             var2 = var2.bind(var4)();
-            if(var2) { _fun0001_ip = 42; continue _fun0001 }
- 40:
+            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             return var3;
- 42:
+case 2:
             var4 = _closure1_slot1;
             var6 = _closure1_slot2;
             var1 = 3;
@@ -38,20 +38,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var2.bind(var4)();
             var5 = var1.bottom;
             var2 = var4.bottom;
-            if(!(var5 === var2)) { _fun0001_ip = 156; continue _fun0001 }
- 114:
+            if(!(var5 === var2)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = var1.top;
             var2 = var4.top;
-            if(!(var5 === var2)) { _fun0001_ip = 156; continue _fun0001 }
- 128:
+            if(!(var5 === var2)) { _fun0001_ip = 4; continue _fun0001 }
+case 6:
             var5 = var1.left;
             var2 = var3.left;
-            if(!(var5 === var2)) { _fun0001_ip = 156; continue _fun0001 }
- 142:
+            if(!(var5 === var2)) { _fun0001_ip = 4; continue _fun0001 }
+case 7:
             var5 = var1.right;
             var2 = var3.right;
-            if(!(var5 !== var2)) { _fun0001_ip = 197; continue _fun0001 }
- 156:
+            if(!(var5 !== var2)) { _fun0001_ip = 8; continue _fun0001 }
+case 4:
             var2 = {};
             var5 = var4.bottom;
             var2['bottom'] = var5;
@@ -62,7 +62,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.right;
             var2['right'] = var3;
             var1 = var2;
- 197:
+case 8:
             return var1;
         }
     };

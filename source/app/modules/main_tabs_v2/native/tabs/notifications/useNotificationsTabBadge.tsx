@@ -70,12 +70,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.filter;
             var1 = function(arg1) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     var2 = arg1;
                     var1 = _closure2_slot1;
                     var1 = !var1;
-                    if(!var1) { _fun0001_ip = 62; continue _fun0001 }
- 16:
+                    if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var5 = var2.type;
                     var7 = _closure1_slot0;
                     var6 = _closure1_slot2;
@@ -86,13 +86,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var4.NotificationCenterLocalItems;
                     var4 = var4.INCOMING_FRIEND_REQUESTS;
                     var1 = var5 === var4;
- 62:
-                    if(var1) { _fun0001_ip = 124; continue _fun0001 }
- 65:
+case 2:
+                    if(var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                     var3 = _closure2_slot1;
                     var3 = !var3;
-                    if(!var3) { _fun0001_ip = 121; continue _fun0001 }
- 75:
+                    if(!var3) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                     var5 = var2.type;
                     var7 = _closure1_slot0;
                     var6 = _closure1_slot2;
@@ -103,11 +103,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var4.NotificationCenterLocalItems;
                     var4 = var4.INCOMING_GAME_FRIEND_REQUESTS;
                     var3 = var5 === var4;
- 121:
+case 6:
                     var1 = var3;
- 124:
-                    if(var1) { _fun0001_ip = 173; continue _fun0001 }
- 127:
+case 4:
+                    if(var1) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
                     var3 = var2.type;
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot2;
@@ -118,7 +118,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var2.NotificationCenterLocalItems;
                     var2 = var2.MOBILE_NATIVE_UPDATE_AVAILABLE;
                     var1 = var3 === var2;
- 173:
+case 8:
                     return var1;
                 }
             };

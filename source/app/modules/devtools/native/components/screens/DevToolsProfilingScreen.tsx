@@ -137,7 +137,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function DevToolsProfilingScreen() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = _closure1_slot4;
             var2 = var3.useState;
             var1 = false;
@@ -199,8 +199,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = {};
             var9 = 16;
             var5['spacing'] = var9;
-            if(var8) { _fun0001_ip = 429; continue _fun0001 }
- 208:
+            if(var8) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var11 = _closure1_slot6;
             var23 = _closure1_slot0;
             var26 = _closure1_slot2;
@@ -243,8 +243,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var16.bind(var4)(var13, var12);
             var8['children'] = var12;
             var9 = var11.bind(var4)(var9, var8);
-            _fun0001_ip = 592; continue _fun0001;
- 429:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var12 = _closure1_slot8;
             var11 = _closure1_slot7;
             var8 = {};
@@ -381,7 +381,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13[1] = var14;
             var8['children'] = var13;
             var9 = var12.bind(var4)(var11, var8);
- 592:
+case 4:
             var8 = new Array(3);
             var8[0] = var9;
             var14 = _closure1_slot6;
@@ -400,13 +400,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var11.isAndroid;
             var11 = var9.bind(var11)();
             var9 = null;
-            if(!var11) { _fun0001_ip = 684; continue _fun0001 }
- 668:
+            if(!var11) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var12 = _closure1_slot6;
             var11 = _closure1_slot10;
             var10 = {};
             var9 = var12.bind(var4)(var11, var10);
- 684:
+case 5:
             var8[2] = var9;
             var5['children'] = var8;
             var5 = var7.bind(var4)(var6, var5);

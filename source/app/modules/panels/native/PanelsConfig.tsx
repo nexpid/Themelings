@@ -18,15 +18,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function() {
         var1 = function isTimingConfig(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var2 = arg1;
                 var3 = null;
                 var1 = var3 != var2;
-                if(!var1) { _fun0001_ip = 21; continue _fun0001 }
- 12:
+                if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var2 = var2.duration;
                 var1 = var3 != var2;
- 21:
+case 2:
                 return var1;
             }
         };

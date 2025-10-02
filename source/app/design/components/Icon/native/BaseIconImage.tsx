@@ -54,15 +54,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var12 = var1.source;
             var10 = var1.size;
             var4 = undefined;
-            if(!(var10 === var4)) { _fun0001_ip = 23; continue _fun0001 }
- 19:
+            if(!(var10 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var10 = 'md';
- 23:
+case 2:
             var3 = var1.color;
             var11 = var1.resizeMode;
             var8 = var1.style;
@@ -76,27 +76,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2.useToken;
             var2 = var1.bind(var2)(var3);
             var1 = null;
-            if(!(var1 == var2)) { _fun0001_ip = 125; continue _fun0001 }
- 90:
+            if(!(var1 == var2)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = var1 != var3;
-            if(!var1) { _fun0001_ip = 108; continue _fun0001 }
- 97:
+            if(!var1) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var13 = 'string';
             var9 = typeof var3;
             var1 = var13 === var9;
- 108:
+case 6:
             var9 = undefined;
-            if(!var1) { _fun0001_ip = 135; continue _fun0001 }
- 113:
+            if(!var1) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var1 = {};
             var1['tintColor'] = var3;
             var9 = var1;
-            _fun0001_ip = 135; continue _fun0001;
- 125:
+            _fun0001_ip = 8; continue _fun0001;
+case 4:
             var1 = {};
             var1['tintColor'] = var2;
             var9 = var1;
- 135:
+case 8:
             var3 = _closure1_slot3;
             var2 = _closure1_slot2;
             var1 = {};

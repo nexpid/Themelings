@@ -1,7 +1,7 @@
 // app/Dispatcher.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
         var6 = require;
         var3 = exports;
         var7 = dependencyMap;
@@ -41,10 +41,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = var5.bind(var9)(var10);
         var5 = null;
         var5 = var5 != var9;
-        if(!var5) { _fun0001_ip = 164; continue _fun0001 }
- 161:
+        if(!var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
         var5 = var9;
- 164:
+case 2:
         var4['persist'] = var5;
         var5 = var8.prototype;
         var5 = Object.create(var5, {constructor: {value: var8}});

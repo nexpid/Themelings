@@ -31,7 +31,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function getVersionedDismissibleContentCurrentVersion(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var6 = arg1;
             var4 = _closure1_slot0;
             var2 = _closure1_slot1;
@@ -41,56 +41,56 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.bind(var2)(var3);
             var3 = var3.DismissibleContent;
             var3 = var3.COLLECTIBLES_SHOP_ENTRY_MARKETING;
-            if(!(var3 !== var6)) { _fun0001_ip = 417; continue _fun0001 }
- 47:
+            if(!(var3 !== var6)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
             var3 = var3[var5];
             var3 = var4.bind(var2)(var3);
             var3 = var3.DismissibleContent;
             var3 = var3.GIFTING_PROMOTION_ICON;
-            if(!(var3 !== var6)) { _fun0001_ip = 389; continue _fun0001 }
- 83:
+            if(!(var3 !== var6)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
             var3 = var3[var5];
             var3 = var4.bind(var2)(var3);
             var3 = var3.DismissibleContent;
             var3 = var3.GIFTING_PROMOTION_DESKTOP_FIRST_TIME_COACHMARK;
-            if(!(var3 !== var6)) { _fun0001_ip = 389; continue _fun0001 }
- 119:
+            if(!(var3 !== var6)) { _fun0001_ip = 4; continue _fun0001 }
+case 6:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
             var3 = var3[var5];
             var3 = var4.bind(var2)(var3);
             var3 = var3.DismissibleContent;
             var3 = var3.GIFTING_PROMOTION_MOBILE_FIRST_TIME_HALFSHEET;
-            if(!(var3 !== var6)) { _fun0001_ip = 389; continue _fun0001 }
- 155:
+            if(!(var3 !== var6)) { _fun0001_ip = 4; continue _fun0001 }
+case 7:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
             var3 = var3[var5];
             var3 = var4.bind(var2)(var3);
             var3 = var3.DismissibleContent;
             var3 = var3.GIFTING_PROMOTION_REMINDER;
-            if(!(var3 !== var6)) { _fun0001_ip = 389; continue _fun0001 }
- 191:
+            if(!(var3 !== var6)) { _fun0001_ip = 4; continue _fun0001 }
+case 8:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
             var3 = var3[var5];
             var3 = var4.bind(var2)(var3);
             var3 = var3.DismissibleContent;
             var3 = var3.ACTIVITIES_VOICE_LAUNCHER_BADGE;
-            if(!(var3 !== var6)) { _fun0001_ip = 306; continue _fun0001 }
- 224:
+            if(!(var3 !== var6)) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
             var3 = var3[var5];
             var3 = var4.bind(var2)(var3);
             var3 = var3.DismissibleContent;
             var3 = var3.GUILD_POWERUP_NEW_PERK_AVAILABLE_COACHMARK;
-            if(!(var3 !== var6)) { _fun0001_ip = 302; continue _fun0001 }
- 257:
+            if(!(var3 !== var6)) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var4 = _closure1_slot0;
             var5 = _closure1_slot1;
             var3 = 7;
@@ -103,10 +103,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.bind(var5)(var6, var3);
             var3 = 0;
             return var3;
- 302:
+case 11:
             var3 = 0;
             return var3;
- 306:
+case 9:
             var7 = _closure1_slot0;
             var8 = _closure1_slot1;
             var3 = 5;
@@ -126,7 +126,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['surface'] = var6;
             var3 = var4.bind(var5)(var3);
             return var3;
- 389:
+case 4:
             var4 = _closure1_slot0;
             var5 = _closure1_slot1;
             var3 = 4;
@@ -134,7 +134,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.bind(var2)(var3);
             var3 = var3.SUMMER_2025_GIFTING_PROMOTION_VERSION;
             return var3;
- 417:
+case 2:
             var4 = _closure1_slot3;
             var3 = var4.getMarketingBySurface;
             var5 = _closure1_slot0;
@@ -148,16 +148,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = null;
             var4 = var1 == var3;
             var2 = undefined;
-            if(var4) { _fun0001_ip = 481; continue _fun0001 }
- 475:
+            if(var4) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var2 = var3.version;
- 481:
+case 13:
             var3 = var1 != var2;
             var1 = 0;
-            if(!var3) { _fun0001_ip = 493; continue _fun0001 }
- 490:
+            if(!var3) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
             var1 = var2;
- 493:
+case 15:
             return var1;
         }
     };

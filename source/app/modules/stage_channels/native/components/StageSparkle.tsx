@@ -9,20 +9,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function StageSparkleInner(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var7 = var1.style;
             var13 = var1.IconComponent;
             var14 = var1.icon;
             var4 = undefined;
-            if(!(var14 === var4)) { _fun0001_ip = 47; continue _fun0001 }
- 24:
+            if(!(var14 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
             var1 = 5;
             var1 = var3[var1];
             var14 = var2.bind(var4)(var1);
- 47:
+case 2:
             var1 = _closure1_slot6;
             var9 = var1.bind(var4)();
             var3 = _closure1_slot5;
@@ -39,8 +39,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var9.iconContainer;
             var5['style'] = var10;
             var10 = null;
-            if(!(var10 == var13)) { _fun0001_ip = 163; continue _fun0001 }
- 115:
+            if(!(var10 == var13)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var12 = _closure1_slot4;
             var11 = _closure1_slot1;
             var15 = _closure1_slot2;
@@ -52,8 +52,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var9.iconStyle;
             var10['style'] = var14;
             var10 = var12.bind(var4)(var11, var10);
-            _fun0001_ip = 218; continue _fun0001;
- 163:
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
             var12 = _closure1_slot4;
             var11 = {};
             var14 = 'lg';
@@ -67,7 +67,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var14.HEADER_PRIMARY;
             var11['color'] = var14;
             var10 = var12.bind(var4)(var13, var11);
- 218:
+case 6:
             var5['children'] = var10;
             var7 = var8.bind(var4)(var7, var5);
             var5 = new Array(2);
@@ -152,7 +152,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function StageSparkle(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var4 = arg1;
             var7 = var4.theme;
             var1 = null;
@@ -163,8 +163,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var4;
             var10 = var3;
             var9 = copyDataProperties(var12, var11, var10);
-            if(!(var1 == var7)) { _fun0002_ip = 70; continue _fun0002 }
- 37:
+            if(!(var1 == var7)) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
             var4 = _closure1_slot4;
             var3 = _closure1_slot7;
             var2 = {};
@@ -173,8 +173,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = copyDataProperties(var12, var11);
             var1 = undefined;
             var1 = var4.bind(var1)(var3, var2);
-            _fun0002_ip = 148; continue _fun0002;
- 70:
+            _fun0002_ip = 9; continue _fun0002;
+case 7:
             var5 = _closure1_slot4;
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
@@ -194,7 +194,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var8.bind(var4)(var7, var6);
             var2['children'] = var6;
             var1 = var5.bind(var4)(var3, var2);
- 148:
+case 9:
             return var1;
         }
     };

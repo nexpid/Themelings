@@ -26,7 +26,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useFastestListPropsScrollReporting(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var9 = arg2;
             var _closure2_slot0 = var9;
@@ -34,10 +34,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = undefined;
             var1 = 'animatedScrollPosition';
             var10 = undefined;
-            if(!(var1 === var2)) { _fun0001_ip = 38; continue _fun0001 }
- 32:
+            if(!(var1 === var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var10 = var3.scrollPosition;
- 38:
+case 2:
             var _closure2_slot1 = var10;
             var4 = _closure1_slot0;
             var8 = _closure1_slot1;
@@ -48,25 +48,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = {};
             var6 = function n(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = _closure2_slot1;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0002_ip = 55; continue _fun0002 }
- 13:
+                    if(!(var2 != var3)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var3 = _closure2_slot1;
                     var2 = var3.set;
                     var1 = _closure2_slot0;
                     var4 = arg1;
                     var4 = var4.contentOffset;
-                    if(var1) { _fun0002_ip = 45; continue _fun0002 }
- 38:
+                    if(var1) { _fun0002_ip = 6; continue _fun0002 }
+case 2:
                     var1 = var4.y;
-                    _fun0002_ip = 50; continue _fun0002;
- 45:
+                    _fun0002_ip = 7; continue _fun0002;
+case 6:
                     var1 = var4.x;
- 50:
+case 7:
                     var1 = var2.bind(var3)(var1);
- 55:
+case 4:
                     var1 = undefined;
                     return var1;
                 }
@@ -82,11 +82,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['onScroll'] = var6;
             var2 = var4.bind(var5)(var2);
             var4 = var3.scrollReporting;
-            if(!(var1 !== var4)) { _fun0001_ip = 205; continue _fun0001 }
- 143:
+            if(!(var1 !== var4)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var1 = 'animatedCallbacks';
-            if(!(var1 !== var4)) { _fun0001_ip = 190; continue _fun0001 }
- 153:
+            if(!(var1 !== var4)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var1 = {};
             var4 = var3.onScroll;
             var1['onScroll'] = var4;
@@ -95,12 +95,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var3.onScrollEndDrag;
             var1['onScrollEndDrag'] = var4;
             return var1;
- 190:
+case 10:
             var1 = {};
             var3 = var3.scrollHandlerAnimated;
             var1['onScroll'] = var3;
             return var1;
- 205:
+case 8:
             var1 = {};
             var1['onScroll'] = var2;
             return var1;

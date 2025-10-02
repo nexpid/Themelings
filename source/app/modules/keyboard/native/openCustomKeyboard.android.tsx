@@ -48,7 +48,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var4.runAfterInteractions;
         var2 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var1 = _closure2_slot1;
                 var3 = var1.current;
                 var1 = var3.blur;
@@ -58,18 +58,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var6 == var1;
                 var1 = undefined;
                 var4 = undefined;
-                if(var3) { _fun0001_ip = 55; continue _fun0001 }
- 39:
+                if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var5 = _closure2_slot4;
                 var5 = var5.current;
                 var3 = var6 == var5;
                 var4 = var5;
- 55:
-                if(var3) { _fun0001_ip = 68; continue _fun0001 }
- 58:
+case 2:
+                if(var3) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var3 = var4.blur;
                 var3 = var3.bind(var4)();
- 68:
+case 4:
                 var6 = _closure1_slot0;
                 var5 = _closure1_slot2;
                 var4 = 2;

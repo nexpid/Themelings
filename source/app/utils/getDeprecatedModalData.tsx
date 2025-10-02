@@ -30,93 +30,93 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function getDeprecatedModalData(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg2;
             var5 = arguments[3];
             var1 = undefined;
-            if(!(var5 === var1)) { _fun0001_ip = 14; continue _fun0001 }
- 12:
+            if(!(var5 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = null;
- 14:
+case 2:
             var1 = {};
             var4 = var3.key;
             var2 = null;
-            if(!(var2 != var4)) { _fun0001_ip = 30; continue _fun0001 }
- 27:
+            if(!(var2 != var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = var4;
- 30:
+case 4:
             var6 = var2 != var5;
             var4 = 'modal';
-            if(!var6) { _fun0001_ip = 44; continue _fun0001 }
- 41:
+            if(!var6) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var4 = var5;
- 44:
+case 6:
             var1['key'] = var4;
             var4 = arg1;
             var1['modal'] = var4;
             var4 = var3.animation;
-            if(!(var2 == var4)) { _fun0001_ip = 103; continue _fun0001 }
- 66:
+            if(!(var2 == var4)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var5 = _closure1_slot0;
             var5 = var5.useReducedMotion;
             var6 = _closure1_slot1;
-            if(var5) { _fun0001_ip = 94; continue _fun0001 }
- 86:
+            if(var5) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var5 = var6.SLIDE_UP;
-            _fun0001_ip = 100; continue _fun0001;
- 94:
+            _fun0001_ip = 12; continue _fun0001;
+case 10:
             var5 = var6.FADE;
- 100:
+case 12:
             var4 = var5;
- 103:
+case 8:
             var1['animation'] = var4;
             var5 = var3.shouldPersistUnderModals;
             var4 = var2 != var5;
-            if(!var4) { _fun0001_ip = 124; continue _fun0001 }
- 121:
+            if(!var4) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var4 = var5;
- 124:
+case 13:
             var1['shouldPersistUnderModals'] = var4;
             var4 = arg3;
             var1['props'] = var4;
             var5 = var3.backdropStyle;
             var6 = var2 != var5;
             var4 = null;
-            if(!var6) { _fun0001_ip = 154; continue _fun0001 }
- 151:
+            if(!var6) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
             var4 = var5;
- 154:
+case 15:
             var1['backdropStyle'] = var4;
             var5 = var3.backdropInstant;
             var4 = var2 != var5;
-            if(!var4) { _fun0001_ip = 175; continue _fun0001 }
- 172:
+            if(!var4) { _fun0001_ip = 17; continue _fun0001 }
+case 18:
             var4 = var5;
- 175:
+case 17:
             var1['backdropInstant'] = var4;
             var5 = var3.disableAnimation;
             var4 = var2 != var5;
-            if(!var4) { _fun0001_ip = 196; continue _fun0001 }
- 193:
+            if(!var4) { _fun0001_ip = 19; continue _fun0001 }
+case 20:
             var4 = var5;
- 196:
+case 19:
             var1['disableAnimation'] = var4;
             var4 = var3.closable;
             var5 = 'boolean';
             var4 = typeof var4;
             var4 = var5 !== var4;
-            if(var4) { _fun0001_ip = 227; continue _fun0001 }
- 221:
+            if(var4) { _fun0001_ip = 21; continue _fun0001 }
+case 22:
             var4 = var3.closable;
- 227:
+case 21:
             var1['closable'] = var4;
             var3 = var3.label;
             var4 = var2 != var3;
             var2 = '';
-            if(!var4) { _fun0001_ip = 251; continue _fun0001 }
- 248:
+            if(!var4) { _fun0001_ip = 23; continue _fun0001 }
+case 24:
             var2 = var3;
- 251:
+case 23:
             var1['label'] = var2;
             var2 = {};
             var1['callbacks'] = var2;

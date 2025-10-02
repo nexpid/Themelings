@@ -122,17 +122,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var8.memo;
     var4 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var9 = var1.text;
             var7 = var1.onPress;
             var13 = var1.imageSource;
             var5 = var1.panelVariant;
             var4 = undefined;
-            if(!(var5 === var4)) { _fun0001_ip = 33; continue _fun0001 }
- 31:
+            if(!(var5 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = false;
- 33:
+case 2:
             var1 = _closure1_slot14;
             var11 = var1.bind(var4)();
             var3 = _closure1_slot13;
@@ -185,16 +185,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function HappeningNowCardCreateChannel(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var2 = arg1;
             var8 = var2.guildId;
             var _closure2_slot0 = var8;
             var5 = var2.panelVariant;
             var4 = undefined;
-            if(!(var5 === var4)) { _fun0002_ip = 28; continue _fun0002 }
- 26:
+            if(!(var5 === var4)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var5 = false;
- 28:
+case 4:
             var7 = _closure1_slot3;
             var3 = var7.useCallback;
             var2 = new Array(1);
@@ -251,16 +251,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['HappeningNowCardCreateChannel'] = var4;
     var4 = function HappeningNowCardCustomizeGuild(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var2 = arg1;
             var8 = var2.guildId;
             var _closure2_slot0 = var8;
             var5 = var2.panelVariant;
             var4 = undefined;
-            if(!(var5 === var4)) { _fun0003_ip = 28; continue _fun0003 }
- 26:
+            if(!(var5 === var4)) { _fun0003_ip = 4; continue _fun0003 }
+case 5:
             var5 = false;
- 28:
+case 4:
             var6 = _closure1_slot3;
             var3 = var6.useCallback;
             var2 = new Array(1);
@@ -302,23 +302,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['HappeningNowCardCustomizeGuild'] = var4;
     var4 = function HappeningNowCardInvite(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var2 = arg1;
             var8 = var2.guildId;
             var _closure2_slot0 = var8;
             var5 = var2.panelVariant;
             var4 = undefined;
-            if(!(var5 === var4)) { _fun0004_ip = 28; continue _fun0004 }
- 26:
+            if(!(var5 === var4)) { _fun0004_ip = 4; continue _fun0004 }
+case 5:
             var5 = false;
- 28:
+case 4:
             var7 = _closure1_slot3;
             var3 = var7.useCallback;
             var2 = new Array(1);
             var2[0] = var8;
             var1 = function() {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
                     var4 = _closure1_slot7;
                     var3 = var4.getGuild;
                     var7 = _closure2_slot0;
@@ -330,8 +330,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var4.getChannelId;
                     var4 = var3.bind(var4)(var7);
                     var3 = null;
-                    if(!(var3 != var6)) { _fun0005_ip = 138; continue _fun0005 }
- 60:
+                    if(!(var3 != var6)) { _fun0005_ip = 6; continue _fun0005 }
+case 7:
                     var8 = _closure1_slot16;
                     var3 = _closure1_slot9;
                     var3 = var3.GUILD_ACTION_INVITE_CARD;
@@ -351,7 +351,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var11 = var4;
                     var10 = var5;
                     var1 = var13[var2](var12, var11, var10, var9, var8);
- 138:
+case 6:
                     var1 = undefined;
                     return var1;
                 }
@@ -387,23 +387,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['HappeningNowCardInvite'] = var4;
     var2 = function HappeningNowStudentHubAddServer(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
- 0:
+case 0:
             var2 = arg1;
             var8 = var2.guildId;
             var _closure2_slot0 = var8;
             var5 = var2.panelVariant;
             var4 = undefined;
-            if(!(var5 === var4)) { _fun0006_ip = 28; continue _fun0006 }
- 26:
+            if(!(var5 === var4)) { _fun0006_ip = 4; continue _fun0006 }
+case 5:
             var5 = false;
- 28:
+case 4:
             var7 = _closure1_slot3;
             var3 = var7.useCallback;
             var2 = new Array(1);
             var2[0] = var8;
             var1 = function() {
                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
- 0:
+case 0:
                     var4 = _closure1_slot7;
                     var3 = var4.getGuild;
                     var6 = _closure2_slot0;
@@ -413,12 +413,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var3.bind(var4)(var6);
                     var6 = null;
                     var3 = var6 != var5;
-                    if(!var3) { _fun0007_ip = 52; continue _fun0007 }
- 48:
+                    if(!var3) { _fun0007_ip = 8; continue _fun0007 }
+case 9:
                     var3 = var6 != var4;
- 52:
-                    if(!var3) { _fun0007_ip = 144; continue _fun0007 }
- 55:
+case 8:
+                    if(!var3) { _fun0007_ip = 10; continue _fun0007 }
+case 11:
                     var7 = _closure1_slot16;
                     var3 = _closure1_slot9;
                     var6 = var3.GUILD_ACTION_STUDENT_HUB_ADD_SERVER;
@@ -439,7 +439,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var4.id;
                     var1['directoryChannelId'] = var4;
                     var1 = var2.bind(var3)(var1);
- 144:
+case 10:
                     var1 = undefined;
                     return var1;
                 }

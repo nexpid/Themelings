@@ -28,7 +28,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function trackAgeGateSubmitted(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var7 = arg1;
             var9 = _closure1_slot0;
             var10 = _closure1_slot1;
@@ -50,12 +50,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = 18;
             var9 = var9 < var6;
             var6 = null;
-            if(!var9) { _fun0001_ip = 105; continue _fun0001 }
- 89:
+            if(!var9) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var10 = var7.format;
             var9 = 'YYYY-MM-DD';
             var6 = var10.bind(var7)(var9);
- 105:
+case 2:
             var2['dob'] = var6;
             var6 = var7.date;
             var6 = var6.bind(var7)();

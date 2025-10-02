@@ -39,7 +39,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function createPollResultSystemMessage(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var6 = arg1;
             var2 = _closure1_slot1;
             var4 = _closure1_slot2;
@@ -53,12 +53,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1[var4];
             var7 = var2.bind(var5)(var1);
             var1 = null;
-            if(!(var1 != var7)) { _fun0001_ip = 1116; continue _fun0001 }
- 59:
+            if(!(var1 != var7)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var6.message;
             var2 = var2.messageReference;
-            if(!(var1 != var2)) { _fun0001_ip = 1114; continue _fun0001 }
- 77:
+            if(!(var1 != var2)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var9 = var6.message;
             var12 = var6.roleStyle;
             var10 = _closure1_slot0;
@@ -90,24 +90,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['colorString'] = var11;
             var15 = 'username';
             var8 = null;
-            if(!(var15 === var12)) { _fun0001_ip = 229; continue _fun0001 }
- 226:
+            if(!(var15 === var12)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var8 = var11;
- 229:
+case 6:
             var2['linkColor'] = var8;
             var2['roleColor'] = var11;
             var8 = null;
-            if(!var14) { _fun0001_ip = 247; continue _fun0001 }
- 244:
+            if(!var14) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var8 = var13;
- 247:
+case 8:
             var2['roleColors'] = var8;
             var8 = 'dot';
             var8 = var8 === var12;
-            if(!var8) { _fun0001_ip = 267; continue _fun0001 }
- 263:
+            if(!var8) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var8 = var1 != var11;
- 267:
+case 10:
             var2['shouldShowRoleDot'] = var8;
             var8 = var9.channel_id;
             var2['messageChannelId'] = var8;
@@ -128,8 +128,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['medium'] = var8;
             var10['titleOnClick'] = var2;
             var2 = var7.totalVotes;
-            if(!(var4 !== var2)) { _fun0001_ip = 964; continue _fun0001 }
- 374:
+            if(!(var4 !== var2)) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var2 = global;
             var9 = var2.Math;
             var8 = var9.round;
@@ -145,15 +145,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = '%';
             var12 = var8.bind(var4)(var9, var2);
             var2 = var7.victorAnswerId;
-            if(!(var1 != var2)) { _fun0001_ip = 882; continue _fun0001 }
- 453:
+            if(!(var1 != var2)) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var13 = new Array(0);
             var15 = var7.victorEmoji;
-            if(!(var1 != var15)) { _fun0001_ip = 733; continue _fun0001 }
- 470:
+            if(!(var1 != var15)) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var2 = var15.id;
-            if(!(var1 == var2)) { _fun0001_ip = 557; continue _fun0001 }
- 479:
+            if(!(var1 == var2)) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
             var4 = var13.push;
             var2 = {};
             var8 = 'emoji';
@@ -171,8 +171,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var15.name;
             var2['surrogate'] = var8;
             var2 = var4.bind(var13)(var2);
-            _fun0001_ip = 709; continue _fun0001;
- 557:
+            _fun0001_ip = 20; continue _fun0001;
+case 18:
             var4 = var13.push;
             var2 = {};
             var8 = var15.id;
@@ -208,11 +208,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var9.bind(var11)(var8);
             var2['frozenSrc'] = var8;
             var2 = var4.bind(var13)(var2);
- 709:
+case 20:
             var4 = var13.push;
             var2 = {'type': 'text', 'content': ' '};
             var2 = var4.bind(var13)(var2);
- 733:
+case 16:
             var4 = var13.push;
             var2 = {};
             var8 = 'text';
@@ -246,8 +246,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = 'percentage';
             var2[var9] = var12;
             var4 = var7.bind(var8)(var4, var2);
-            _fun0001_ip = 1069; continue _fun0001;
- 882:
+            _fun0001_ip = 21; continue _fun0001;
+case 14:
             var7 = _closure1_slot0;
             var11 = _closure1_slot2;
             var2 = 3;
@@ -266,8 +266,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = 'percentage';
             var2[var11] = var12;
             var4 = var8.bind(var9)(var7, var2);
-            _fun0001_ip = 1069; continue _fun0001;
- 964:
+            _fun0001_ip = 21; continue _fun0001;
+case 12:
             var7 = _closure1_slot0;
             var11 = _closure1_slot2;
             var2 = 3;
@@ -289,7 +289,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = 'sadEmojiHook';
             var2[var10] = var11;
             var4 = var8.bind(var9)(var7, var2);
- 1069:
+case 21:
             var2 = {};
             var7 = _closure1_slot1;
             var8 = _closure1_slot2;
@@ -302,9 +302,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = 'content';
             var2[var3] = var4;
             return var2;
- 1114:
+case 4:
             return var1;
- 1116:
+case 2:
             return var1;
         }
     };

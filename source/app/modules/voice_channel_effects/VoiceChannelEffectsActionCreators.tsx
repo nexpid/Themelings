@@ -27,17 +27,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var5.throttle;
         var2 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var2 = _closure1_slot4;
                 var1 = var2.getVoiceChannelId;
                 var3 = var1.bind(var2)();
                 var2 = _closure2_slot0;
-                if(!(var3 !== var2)) { _fun0001_ip = 42; continue _fun0001 }
- 28:
+                if(!(var3 !== var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var2 = _closure2_slot1;
                 var1 = var2.abort;
                 var1 = var1.bind(var2)();
- 42:
+case 2:
                 var1 = undefined;
                 return var1;
             }
@@ -102,7 +102,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['VoiceChannelEffectSentLocation'] = var4;
     var4 = function sendVoiceChannelCustomCallSoundEffect(arg1, arg2, arg3) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var14 = arg1;
             var3 = _closure1_slot10;
             var1 = undefined;
@@ -115,11 +115,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var4)();
             var12 = var3.animationType;
             var3 = null;
-            if(!(var3 == var12)) { _fun0002_ip = 71; continue _fun0002 }
- 61:
+            if(!(var3 == var12)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var3 = _closure1_slot6;
             var12 = var3.BASIC;
- 71:
+case 4:
             var11 = {};
             var11['animation_type'] = var12;
             var3 = _closure1_slot0;
@@ -186,7 +186,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['sendVoiceChannelCustomCallSoundEffect'] = var4;
     var2 = function sendVoiceChannelSoundboardEffect(arg1, arg2, arg3, arg4) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var16 = arg1;
             var6 = arg2;
             var5 = arg4;
@@ -194,13 +194,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = null;
             var1 = var3 != var1;
             var9 = null;
-            if(!var1) { _fun0003_ip = 52; continue _fun0003 }
- 28:
+            if(!var1) { _fun0003_ip = 6; continue _fun0003 }
+case 3:
             var7 = _closure1_slot3;
             var2 = var7.getCustomEmojiById;
             var1 = var6.emojiId;
             var9 = var2.bind(var7)(var1);
- 52:
+case 6:
             var7 = _closure1_slot10;
             var1 = undefined;
             var7 = var7.bind(var1)(var16);
@@ -213,24 +213,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var6.emojiId;
             var13['emoji_id'] = var7;
             var7 = var6.emojiName;
-            if(!(var3 == var7)) { _fun0003_ip = 133; continue _fun0003 }
- 116:
+            if(!(var3 == var7)) { _fun0003_ip = 7; continue _fun0003 }
+case 8:
             var10 = var3 == var9;
             var8 = undefined;
-            if(var10) { _fun0003_ip = 130; continue _fun0003 }
- 125:
+            if(var10) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
             var8 = var9.name;
- 130:
+case 9:
             var7 = var8;
- 133:
+case 7:
             var13['emoji_name'] = var7;
             var8 = var6.guildId;
             var7 = _closure1_slot9;
-            if(!(var8 !== var7)) { _fun0003_ip = 162; continue _fun0003 }
- 151:
+            if(!(var8 !== var7)) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
             var7 = var6.guildId;
             var13['source_guild_id'] = var7;
- 162:
+case 11:
             var9 = _closure1_slot0;
             var8 = _closure1_slot2;
             var7 = 8;
@@ -264,10 +264,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = 9;
             var4 = var8[var4];
             var4 = var7.bind(var1)(var4);
-            if(!(var3 == var5)) { _fun0003_ip = 289; continue _fun0003 }
- 285:
+            if(!(var3 == var5)) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
             var5 = new Array(0);
- 289:
+case 13:
             var3 = _closure1_slot0;
             var7 = _closure1_slot2;
             var2 = 11;

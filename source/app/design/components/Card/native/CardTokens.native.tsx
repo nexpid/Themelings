@@ -21,17 +21,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var3.experimental_createToken;
         var1 = function(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var2 = var1.primaryColor;
                 var1 = null;
-                if(!(var1 == var2)) { _fun0001_ip = 24; continue _fun0001 }
- 15:
+                if(!(var1 == var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var1 = _closure2_slot0;
-                _fun0001_ip = 31; continue _fun0001;
- 24:
+                _fun0001_ip = 4; continue _fun0001;
+case 2:
                 var1 = _closure2_slot1;
- 31:
+case 4:
                 return var1;
             }
         };
@@ -106,35 +106,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var3.experimental_createToken;
         var1 = function(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var2 = var1.gradient;
                 var1 = null;
-                if(!(var1 == var2)) { _fun0002_ip = 287; continue _fun0002 }
- 18:
+                if(!(var1 == var2)) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
                 var3 = _closure2_slot0;
                 var2 = 'none';
-                if(!(var2 !== var3)) { _fun0002_ip = 287; continue _fun0002 }
- 36:
+                if(!(var2 !== var3)) { _fun0002_ip = 5; continue _fun0002 }
+case 7:
                 var2 = _closure2_slot0;
                 var1 = 'border';
-                if(!(var1 !== var2)) { _fun0002_ip = 248; continue _fun0002 }
- 51:
+                if(!(var1 !== var2)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                 var1 = 'high';
-                if(!(var1 !== var2)) { _fun0002_ip = 209; continue _fun0002 }
- 62:
+                if(!(var1 !== var2)) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
                 var1 = 'ledge';
-                if(!(var1 !== var2)) { _fun0002_ip = 170; continue _fun0002 }
- 72:
+                if(!(var1 !== var2)) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
                 var1 = 'low';
-                if(!(var1 !== var2)) { _fun0002_ip = 131; continue _fun0002 }
- 80:
+                if(!(var1 !== var2)) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
                 var1 = 'medium';
-                if(!(var1 !== var2)) { _fun0002_ip = 92; continue _fun0002 }
- 88:
+                if(!(var1 !== var2)) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
                 var1 = undefined;
                 return var1;
- 92:
+case 16:
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
                 var1 = 1;
@@ -144,7 +144,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var1.shadows;
                 var1 = var1.SHADOW_MEDIUM;
                 return var1;
- 131:
+case 14:
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
                 var1 = 1;
@@ -154,7 +154,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var1.shadows;
                 var1 = var1.SHADOW_LOW;
                 return var1;
- 170:
+case 12:
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
                 var1 = 1;
@@ -164,7 +164,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var1.shadows;
                 var1 = var1.SHADOW_LEDGE;
                 return var1;
- 209:
+case 10:
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
                 var1 = 1;
@@ -174,7 +174,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var1.shadows;
                 var1 = var1.SHADOW_HIGH;
                 return var1;
- 248:
+case 8:
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
                 var1 = 1;
@@ -184,7 +184,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var1.shadows;
                 var1 = var1.SHADOW_BORDER;
                 return var1;
- 287:
+case 5:
                 var1 = {};
                 return var1;
             }

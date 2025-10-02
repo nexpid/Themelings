@@ -36,15 +36,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['SPRING_CONFIG'] = var4;
     var2 = function useIOSPressEffects(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var9 = arguments[1];
             var _closure2_slot0 = var2;
             var13 = undefined;
-            if(!(var9 === var13)) { _fun0001_ip = 20; continue _fun0001 }
- 18:
+            if(!(var9 === var13)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var9 = false;
- 20:
+case 2:
             var _closure2_slot1 = var9;
             var _closure2_slot2 = var13;
             var _closure2_slot3 = var13;
@@ -96,7 +96,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[0] = var5;
             var2 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var1 = 3;
@@ -105,13 +105,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var3.bind(var1)(var2);
                     var1 = var2.isIOS;
                     var1 = var1.bind(var2)();
-                    if(!var1) { _fun0002_ip = 58; continue _fun0002 }
- 38:
+                    if(!var1) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var4 = _closure2_slot4;
                     var3 = var4.set;
                     var2 = 1;
                     var1 = var3.bind(var4)(var2);
- 58:
+case 4:
                     return var1;
                 }
             };
@@ -121,7 +121,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4[0] = var5;
             var2 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var1 = 3;
@@ -130,13 +130,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var3.bind(var1)(var2);
                     var1 = var2.isIOS;
                     var1 = var1.bind(var2)();
-                    if(!var1) { _fun0003_ip = 57; continue _fun0003 }
- 38:
+                    if(!var1) { _fun0003_ip = 6; continue _fun0003 }
+case 5:
                     var4 = _closure2_slot4;
                     var3 = var4.set;
                     var2 = 0;
                     var1 = var3.bind(var4)(var2);
- 57:
+case 6:
                     return var1;
                 }
             };
@@ -146,7 +146,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var6.useAnimatedStyle;
             var1 = function S() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                     var2 = _closure1_slot0;
                     var1 = _closure1_slot2;
                     var5 = 4;
@@ -172,16 +172,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = var6.bind(var7)(var2, var1);
                     var1 = _closure2_slot1;
                     var7 = {};
-                    if(var1) { _fun0004_ip = 151; continue _fun0004 }
- 127:
+                    if(var1) { _fun0004_ip = 7; continue _fun0004 }
+case 8:
                     var2 = {};
                     var2['scale'] = var6;
                     var1 = new Array(1);
                     var1[0] = var2;
                     var7['transform'] = var1;
                     var1 = var7;
-                    _fun0004_ip = 264; continue _fun0004;
- 151:
+                    _fun0004_ip = 9; continue _fun0004;
+case 7:
                     var2 = {};
                     var7['scale'] = var6;
                     var6 = new Array(1);
@@ -205,7 +205,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var5.bind(var6)(var4, var3);
                     var2['opacity'] = var3;
                     var1 = var2;
- 264:
+case 9:
                     return var1;
                 }
             };

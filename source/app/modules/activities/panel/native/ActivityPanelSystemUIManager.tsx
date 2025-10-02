@@ -38,7 +38,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = _closure1_slot3;
             var2 = var3.useContext;
             var5 = _closure1_slot1;
@@ -55,10 +55,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var8 === var2;
             var1 = var1.isWindowLandscape;
             var12 = !var1;
-            if(var12) { _fun0001_ip = 80; continue _fun0001 }
- 77:
+            if(var12) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var12 = !var10;
- 80:
+case 2:
             var1 = _closure1_slot4;
             var5 = var1.PIP;
             var2 = _closure1_slot0;
@@ -70,16 +70,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.bind(var2)();
             var1 = !var1;
             var9 = !var1;
-            if(var1) { _fun0001_ip = 132; continue _fun0001 }
- 129:
+            if(var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var9 = var10;
- 132:
+case 4:
             var3 = _closure1_slot7;
             var2 = _closure1_slot6;
             var1 = {};
             var7 = null;
-            if(!(var8 !== var5)) { _fun0001_ip = 199; continue _fun0001 }
- 148:
+            if(!(var8 !== var5)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var11 = _closure1_slot5;
             var8 = _closure1_slot1;
             var13 = _closure1_slot2;
@@ -92,7 +92,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = 'light-content';
             var5['barStyle'] = var12;
             var7 = var11.bind(var4)(var8, var5);
- 199:
+case 6:
             var5 = new Array(2);
             var5[0] = var7;
             var8 = _closure1_slot5;
@@ -102,10 +102,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var11[var6];
             var7 = var7.bind(var4)(var6);
             var6 = {};
-            if(!var10) { _fun0001_ip = 239; continue _fun0001 }
- 236:
+            if(!var10) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var10 = !var9;
- 239:
+case 8:
             var6['prefersHidden'] = var10;
             var6['prefersDeferringSystemGestures'] = var9;
             var6 = var8.bind(var4)(var7, var6);

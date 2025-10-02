@@ -86,7 +86,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function MediaKeyboardBottomSheet(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var15 = var2.children;
             var13 = var2.channel;
@@ -178,17 +178,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var26 = var7.useCallback;
             var17 = function(arg1, arg2) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = arg1;
                     var1 = arg2;
                     var1 = var3 !== var1;
-                    if(!var1) { _fun0002_ip = 19; continue _fun0002 }
- 13:
+                    if(!var1) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var2 = 0;
                     var1 = var2 === var3;
- 19:
-                    if(!var1) { _fun0002_ip = 129; continue _fun0002 }
- 22:
+case 2:
+                    if(!var1) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var2 = _closure1_slot0;
                     var4 = _closure1_slot2;
                     var1 = 14;
@@ -213,7 +213,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var5.FULLY_EXPANDED;
                     var1['action'] = var5;
                     var1 = var3.bind(var4)(var2, var1);
- 129:
+case 4:
                     var1 = undefined;
                     return var1;
                 }
@@ -231,15 +231,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = function() {
                 var1 = function() {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                         var3 = _closure2_slot0;
                         var2 = null;
-                        if(!(var2 != var3)) { _fun0003_ip = 23; continue _fun0003 }
- 13:
+                        if(!(var2 != var3)) { _fun0003_ip = 6; continue _fun0003 }
+case 3:
                         var2 = _closure2_slot0;
                         var1 = undefined;
                         var1 = var2.bind(var1)();
- 23:
+case 6:
                         var1 = undefined;
                         return var1;
                     }
@@ -253,7 +253,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[1] = var19;
             var2 = function() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var1 = 19;
@@ -263,8 +263,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var2.isAndroid;
                     var1 = var1.bind(var2)();
                     var2 = _closure2_slot3;
-                    if(var1) { _fun0004_ip = 74; continue _fun0004 }
- 44:
+                    if(var1) { _fun0004_ip = 7; continue _fun0004 }
+case 8:
                     var1 = {};
                     var5 = var2.iosContainer;
                     var6 = var1;
@@ -272,10 +272,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = _closure2_slot4;
                     var3 = 'height';
                     var1[var3] = var4;
-                    _fun0004_ip = 80; continue _fun0004;
- 74:
+                    _fun0004_ip = 9; continue _fun0004;
+case 7:
                     var1 = var2.androidContainer;
- 80:
+case 9:
                     return var1;
                 }
             };
@@ -287,7 +287,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[2] = var9;
             var1 = function() {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
                     var4 = _closure2_slot1;
                     var5 = _closure1_slot0;
                     var3 = _closure1_slot2;
@@ -297,25 +297,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var5.bind(var1)(var3);
                     var3 = var3.TransitionStates;
                     var3 = var3.YEETED;
-                    if(!(var4 === var3)) { _fun0005_ip = 100; continue _fun0005 }
- 48:
+                    if(!(var4 === var3)) { _fun0005_ip = 10; continue _fun0005 }
+case 11:
                     var3 = _closure2_slot2;
                     var3 = var3.current;
                     var4 = null;
-                    if(!(var4 != var3)) { _fun0005_ip = 84; continue _fun0005 }
- 63:
+                    if(!(var4 != var3)) { _fun0005_ip = 12; continue _fun0005 }
+case 13:
                     var3 = _closure2_slot2;
                     var5 = var3.current;
                     var3 = var5.forceClose;
                     var3 = var3.bind(var5)();
-                    _fun0005_ip = 100; continue _fun0005;
- 84:
+                    _fun0005_ip = 10; continue _fun0005;
+case 12:
                     var3 = _closure2_slot0;
-                    if(!(var4 != var3)) { _fun0005_ip = 100; continue _fun0005 }
- 92:
+                    if(!(var4 != var3)) { _fun0005_ip = 10; continue _fun0005 }
+case 14:
                     var2 = _closure2_slot0;
                     var2 = var2.bind(var1)();
- 100:
+case 10:
                     return var1;
                 }
             };
@@ -324,10 +324,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = _closure1_slot4;
             var1 = {};
             var7 = undefined;
-            if(!var8) { _fun0001_ip = 427; continue _fun0001 }
- 421:
+            if(!var8) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
             var7 = 'no-hide-descendants';
- 427:
+case 15:
             var1['importantForAccessibility'] = var7;
             var1['style'] = var5;
             var5 = 'box-none';

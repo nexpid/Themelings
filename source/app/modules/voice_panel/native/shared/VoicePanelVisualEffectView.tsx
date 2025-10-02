@@ -28,19 +28,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function VoicePanelVisualEffectViewInner(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var7 = var1.matchAppTheme;
             var4 = undefined;
-            if(!(var7 === var4)) { _fun0001_ip = 17; continue _fun0001 }
- 15:
+            if(!(var7 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var7 = false;
- 17:
+case 2:
             var5 = 'dark';
-            if(!var7) { _fun0001_ip = 26; continue _fun0001 }
- 24:
+            if(!var7) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = undefined;
- 26:
+case 4:
             var2 = _closure1_slot0;
             var8 = _closure1_slot2;
             var3 = 2;
@@ -62,10 +62,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = {};
             var1['blurTheme'] = var5;
             var5 = undefined;
-            if(var7) { _fun0001_ip = 124; continue _fun0001 }
- 121:
+            if(var7) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var5 = var6;
- 124:
+case 6:
             var1['android_fallbackColor'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

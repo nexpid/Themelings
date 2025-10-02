@@ -78,7 +78,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var6 = function value(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var4 = _closure1_slot6;
                 var3 = var4.getBasicChannel;
                 var2 = arg1;
@@ -92,10 +92,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var3.maxFileSize;
                 var5 = null;
                 var5 = var5 == var4;
-                if(var5) { _fun0001_ip = 63; continue _fun0001 }
- 58:
+                if(var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var1 = var4.guild_id;
- 63:
+case 2:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             }
@@ -161,16 +161,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['UploadTargets'] = var4;
     var2 = function getUploadTarget(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var3 = arg1;
             var2 = _closure1_slot10;
             var2 = var2.GUILD_PRODUCT_ATTACHMENT;
-            if(!(var2 !== var3)) { _fun0002_ip = 114; continue _fun0002 }
- 20:
+            if(!(var2 !== var3)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var2 = _closure1_slot10;
             var2 = var2.GRAVITY_ATTACHMENT;
-            if(!(var2 !== var3)) { _fun0002_ip = 70; continue _fun0002 }
- 34:
+            if(!(var2 !== var3)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var2 = _closure1_slot10;
             var2 = var2.MESSAGE_ATTACHMENT;
             var2 = _closure1_slot9;
@@ -180,7 +180,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = new var6[var2](var5);
             var2 = var2 instanceof Object ? var2 : var3;
             return var2;
- 70:
+case 6:
             var4 = _closure1_slot1;
             var3 = _closure1_slot3;
             var2 = 7;
@@ -193,7 +193,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = new var6[var2](var5);
             var2 = var2 instanceof Object ? var2 : var3;
             return var2;
- 114:
+case 4:
             var3 = _closure1_slot1;
             var2 = _closure1_slot3;
             var1 = 6;

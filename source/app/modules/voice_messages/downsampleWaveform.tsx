@@ -23,7 +23,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function downsampleWaveform(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var9 = arg2;
             var3 = _closure1_slot0;
@@ -37,8 +37,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = 'Waveform smaller than samples';
             var2 = var4.bind(var5)(var3, var2);
             var2 = var1.length;
-            if(!(var2 !== var9)) { _fun0001_ip = 230; continue _fun0001 }
- 63:
+            if(!(var2 !== var9)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var1.length;
             var7 = var2 / var9;
             var2 = new Array(0);
@@ -47,8 +47,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = global;
             var5 = 1;
             var4 = 0;
-            if(!var3) { _fun0001_ip = 228; continue _fun0001 }
- 98:
+            if(!var3) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var11 = var6.Math;
             var10 = var11.round;
             var3 = var2.length;
@@ -58,40 +58,40 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var4 < var10;
             var12 = 0;
             var3 = 0;
-            if(!var11) { _fun0001_ip = 203; continue _fun0001 }
- 138:
+            if(!var11) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var11 = var1.length;
             var11 = var4 < var11;
             var14 = 0;
             var13 = 0;
             var12 = 0;
             var3 = 0;
-            if(!var11) { _fun0001_ip = 203; continue _fun0001 }
- 158:
+            if(!var11) { _fun0001_ip = 6; continue _fun0001 }
+case 8:
             var11 = var1[var4];
             var16 = var14 + var11;
             var15 = var13 + 1;
             var4 = var4 + 1;
             var12 = var16;
             var3 = var15;
-            if(!(var4 < var10)) { _fun0001_ip = 203; continue _fun0001 }
- 182:
+            if(!(var4 < var10)) { _fun0001_ip = 6; continue _fun0001 }
+case 9:
             var11 = var1.length;
             var14 = var16;
             var13 = var15;
             var12 = var14;
             var3 = var13;
-            if(var4 < var11) { _fun0001_ip = 158; continue _fun0001 }
- 203:
+            if(var4 < var11) { _fun0001_ip = 8; continue _fun0001 }
+case 6:
             var11 = var2.length;
             var3 = var12 / var3;
             var2[var11] = var3;
             var3 = var2.length;
             var4 = var10;
-            if(var3 < var9) { _fun0001_ip = 98; continue _fun0001 }
- 228:
+            if(var3 < var9) { _fun0001_ip = 5; continue _fun0001 }
+case 4:
             return var2;
- 230:
+case 2:
             return var1;
         }
     };

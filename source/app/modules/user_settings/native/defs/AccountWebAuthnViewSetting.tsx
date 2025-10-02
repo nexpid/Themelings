@@ -68,7 +68,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var4.useCallback;
         var2 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var2 = _closure1_slot5;
                 var1 = var2.getCurrentUser;
                 var3 = var1.bind(var2)();
@@ -76,17 +76,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var1 == var3;
                 var9 = undefined;
                 var2 = undefined;
-                if(var4) { _fun0001_ip = 35; continue _fun0001 }
- 29:
+                if(var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var2 = var3.verified;
- 35:
+case 2:
                 var1 = var1 != var2;
-                if(!var1) { _fun0001_ip = 45; continue _fun0001 }
- 42:
+                if(!var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var1 = var2;
- 45:
-                if(var1) { _fun0001_ip = 187; continue _fun0001 }
- 51:
+case 4:
+                if(var1) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                 var3 = _closure1_slot1;
                 var10 = _closure1_slot2;
                 var2 = 6;
@@ -117,7 +117,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var6.bind(var7)(var5);
                 var2['body'] = var5;
                 var2 = var3.bind(var4)(var2);
- 187:
+case 6:
                 return var1;
             }
         };
@@ -128,12 +128,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['usePreNavigationAction'] = var4;
     var4 = function useAccountSecurityKeysSettingTrailing() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var3 = _closure1_slot4;
             var2 = var3.hasFetchedCredentials;
             var2 = var2.bind(var3)();
-            if(var2) { _fun0002_ip = 52; continue _fun0002 }
- 20:
+            if(var2) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
             var2 = 8;
@@ -142,7 +142,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.bind(var2)(var3);
             var2 = var3.fetchWebAuthnCredentials;
             var2 = var2.bind(var3)();
- 52:
+case 8:
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
             var2 = 9;

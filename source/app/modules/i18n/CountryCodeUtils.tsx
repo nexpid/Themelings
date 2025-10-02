@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var5;
     var4 = function getCountryCodeByCountryName(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var _closure2_slot0 = var1;
             var4 = _closure1_slot1;
@@ -28,10 +28,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var2 = var3.bind(var4)(var2);
             var3 = null;
-            if(!(var3 == var2)) { _fun0001_ip = 57; continue _fun0001 }
- 55:
+            if(!(var3 == var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             return var1;
- 57:
+case 2:
             var1 = {};
             var3 = var2.name;
             var1['name'] = var3;
@@ -4400,7 +4400,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['getCountryCodeByCountryName'] = var4;
     var4 = function getCountryCodeByAlpha2(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var _closure2_slot0 = var1;
             var4 = _closure1_slot1;
@@ -4419,10 +4419,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var2 = var3.bind(var4)(var2);
             var3 = null;
-            if(!(var3 == var2)) { _fun0002_ip = 57; continue _fun0002 }
- 55:
+            if(!(var3 == var2)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
             return var1;
- 57:
+case 2:
             var1 = {};
             var3 = var2.name;
             var1['name'] = var3;
@@ -4459,16 +4459,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['getI18NCountryName'] = var4;
     var2 = function convertToAlpha2(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var4 = arg1;
             var2 = var4.length;
             var1 = 2;
-            if(!(var1 !== var2)) { _fun0003_ip = 197; continue _fun0003 }
- 18:
+            if(!(var1 !== var2)) { _fun0003_ip = 4; continue _fun0003 }
+case 5:
             var2 = var4.length;
             var1 = 3;
-            if(!(var1 === var2)) { _fun0003_ip = 132; continue _fun0003 }
- 30:
+            if(!(var1 === var2)) { _fun0003_ip = 6; continue _fun0003 }
+case 7:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
             var1 = 4;
@@ -4478,10 +4478,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.CountryCodesISO3to2;
             var1 = var1[var4];
             var2 = null;
-            if(!(var2 != var1)) { _fun0003_ip = 73; continue _fun0003 }
- 71:
+            if(!(var2 != var1)) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
             return var1;
- 73:
+case 8:
             var1 = global;
             var3 = var1.Error;
             var1 = var1.HermesInternal;
@@ -4495,7 +4495,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = new var10[var3](var9, var8);
             var1 = var1 instanceof Object ? var1 : var2;
             throw var1;
- 132:
+case 6:
             var1 = global;
             var3 = var1.Error;
             var6 = var4.length;
@@ -4510,7 +4510,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = new var10[var3](var9, var8);
             var1 = var1 instanceof Object ? var1 : var2;
             throw var1;
- 197:
+case 4:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
             var1 = 3;
@@ -4520,10 +4520,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.CountryCodes;
             var1 = var1[var4];
             var2 = null;
-            if(!(var2 != var1)) { _fun0003_ip = 240; continue _fun0003 }
- 238:
+            if(!(var2 != var1)) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
             return var1;
- 240:
+case 10:
             var1 = global;
             var3 = var1.Error;
             var1 = var1.HermesInternal;

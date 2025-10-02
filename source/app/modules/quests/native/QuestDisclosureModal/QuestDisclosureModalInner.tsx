@@ -140,7 +140,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function QuestDisclosureModalInner(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var7 = var1.isTargetedDisclosure;
             var21 = var1.gamePublisher;
@@ -253,8 +253,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8['children'] = var14;
             var8 = var12.bind(var4)(var10, var8);
             var5[1] = var8;
-            if(!var7) { _fun0001_ip = 580; continue _fun0001 }
- 511:
+            if(!var7) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var12 = _closure1_slot6;
             var10 = _closure1_slot0;
             var14 = _closure1_slot2;
@@ -268,7 +268,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var15.map;
             var13 = function(arg1, arg2) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var1 = arg1;
                     var5 = arg2;
                     var7 = var1.icon;
@@ -291,11 +291,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var10 = 1;
                     var10 = var13 - var10;
                     var10 = var5 === var10;
-                    if(!var10) { _fun0002_ip = 107; continue _fun0002 }
- 97:
+                    if(!var10) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var11 = _closure2_slot0;
                     var10 = var11.lastTargetItem;
- 107:
+case 4:
                     var9[1] = var10;
                     var7['style'] = var9;
                     var11 = _closure1_slot6;
@@ -322,7 +322,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var14.bind(var15)(var13);
             var8['children'] = var13;
             var7 = var12.bind(var4)(var10, var8);
- 580:
+case 2:
             var5[2] = var7;
             var8 = _closure1_slot6;
             var15 = _closure1_slot0;

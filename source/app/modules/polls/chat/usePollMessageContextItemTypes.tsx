@@ -34,7 +34,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var7)(var5);
     var4 = function usePollMessageContextItemTypes(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var5 = _closure1_slot0;
             var3 = _closure1_slot1;
@@ -56,11 +56,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.poll;
             var2 = var4.isPoll;
             var2 = var2.bind(var4)();
-            if(!var2) { _fun0001_ip = 169; continue _fun0001 }
- 79:
+            if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = null;
-            if(!(var2 != var3)) { _fun0001_ip = 169; continue _fun0001 }
- 85:
+            if(!(var2 != var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var2 = new Array(0);
             var7 = var3.expiry;
             var6 = var7.isSameOrBefore;
@@ -70,21 +70,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var8)();
             var3 = var6.bind(var7)(var3);
             var3 = !var3;
-            if(!var3) { _fun0001_ip = 144; continue _fun0001 }
- 129:
+            if(!var3) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var4 = var4.author;
             var4 = var4.id;
             var3 = var4 === var5;
- 144:
-            if(!var3) { _fun0001_ip = 167; continue _fun0001 }
- 147:
+case 5:
+            if(!var3) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var4 = var2.push;
             var3 = _closure1_slot3;
             var3 = var3.END_EARLY;
             var3 = var4.bind(var2)(var3);
- 167:
+case 7:
             return var2;
- 169:
+case 2:
             var1 = _closure1_slot4;
             return var1;
         }

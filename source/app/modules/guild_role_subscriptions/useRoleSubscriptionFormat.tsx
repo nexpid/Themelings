@@ -66,7 +66,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4[1] = var3;
         var3 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var4 = _closure1_slot5;
                 var3 = var4.getGuild;
                 var1 = _closure2_slot0;
@@ -74,12 +74,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = null;
                 var3 = var1 != var4;
                 var1 = undefined;
-                if(!var3) { _fun0001_ip = 50; continue _fun0001 }
- 35:
+                if(!var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var3 = _closure1_slot4;
                 var2 = var3.getEveryoneRole;
                 var1 = var2.bind(var3)(var4);
- 50:
+case 2:
                 return var1;
             }
         };
@@ -91,26 +91,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3[0] = var6;
         var1 = function() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var3 = _closure2_slot1;
                 var1 = null;
-                if(!(var1 != var3)) { _fun0002_ip = 57; continue _fun0002 }
- 13:
+                if(!(var1 != var3)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                 var5 = _closure1_slot3;
                 var4 = _closure2_slot1;
                 var2 = _closure1_slot7;
                 var3 = var2.VIEW_CHANNEL;
                 var2 = undefined;
                 var2 = var5.bind(var2)(var4, var3);
-                if(var2) { _fun0002_ip = 57; continue _fun0002 }
- 45:
+                if(var2) { _fun0002_ip = 4; continue _fun0002 }
+case 6:
                 var1 = _closure1_slot6;
                 var1 = var1.ALL_CHANNELS;
-                _fun0002_ip = 70; continue _fun0002;
- 57:
+                _fun0002_ip = 7; continue _fun0002;
+case 4:
                 var2 = _closure1_slot6;
                 var1 = var2.SOME_CHANNELS;
- 70:
+case 7:
                 return var1;
             }
         };

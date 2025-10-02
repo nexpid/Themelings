@@ -12,48 +12,48 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = {};
     var1 = function getStyleProp(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var8 = arg1;
             var7 = arg2;
             var6 = null;
-            if(!(var6 != var7)) { _fun0001_ip = 110; continue _fun0001 }
- 12:
+            if(!(var6 != var7)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = '';
-            if(!(var1 !== var7)) { _fun0001_ip = 110; continue _fun0001 }
- 20:
+            if(!(var1 !== var7)) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var1 = global;
             var2 = var1.Array;
             var1 = var2.isArray;
             var1 = var1.bind(var2)(var8);
-            if(var1) { _fun0001_ip = 62; continue _fun0001 }
- 41:
-            if(!(var6 != var8)) { _fun0001_ip = 110; continue _fun0001 }
- 45:
+            if(var1) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
+            if(!(var6 != var8)) { _fun0001_ip = 2; continue _fun0001 }
+case 7:
             var2 = 'object';
             var1 = typeof var8;
-            if(!(var2 === var1)) { _fun0001_ip = 110; continue _fun0001 }
- 56:
+            if(!(var2 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 8:
             var1 = var8[var7];
             return var1;
- 62:
+case 5:
             var2 = var8.length;
             var1 = 1;
             var5 = var2 - var1;
             var4 = 0;
             var2 = undefined;
-            if(!(var5 >= var4)) { _fun0001_ip = 110; continue _fun0001 }
- 85:
+            if(!(var5 >= var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 9:
             var9 = _closure1_slot0;
             var1 = var8[var5];
             var1 = var9.bind(var2)(var1, var7);
-            if(!(var6 == var1)) { _fun0001_ip = 114; continue _fun0001 }
- 103:
+            if(!(var6 == var1)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var5 = var5 - 1;
-            if(var5 >= var4) { _fun0001_ip = 85; continue _fun0001 }
- 110:
+            if(var5 >= var4) { _fun0001_ip = 9; continue _fun0001 }
+case 2:
             var2 = undefined;
             return var2;
- 114:
+case 10:
             return var1;
         }
     };

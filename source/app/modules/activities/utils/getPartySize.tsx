@@ -25,24 +25,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function getPartySize(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var3 = null;
-            if(!(var3 != var1)) { _fun0001_ip = 110; continue _fun0001 }
- 9:
+            if(!(var3 != var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var1.party;
-            if(!(var3 != var2)) { _fun0001_ip = 110; continue _fun0001 }
- 19:
+            if(!(var3 != var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var2 = var1.party;
             var2 = var2.size;
-            if(!(var3 != var2)) { _fun0001_ip = 110; continue _fun0001 }
- 34:
+            if(!(var3 != var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 5:
             var2 = var1.party;
             var2 = var2.size;
             var2 = var2.length;
             var4 = 2;
-            if(!(!(var2 < var4))) { _fun0001_ip = 110; continue _fun0001 }
- 57:
+            if(!(!(var2 < var4))) { _fun0001_ip = 2; continue _fun0001 }
+case 6:
             var3 = _closure1_slot0;
             var1 = var1.party;
             var2 = var1.size;
@@ -56,7 +56,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3[var2];
             var1['maxPartySize'] = var2;
             return var1;
- 110:
+case 2:
             var1 = {'partySize': 4294967295, 'maxPartySize': 4294967295};
             return var1;
         }

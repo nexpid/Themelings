@@ -52,7 +52,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function NotificationSettingsMessageNotificationChannelActionSheet(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var _closure2_slot0 = var1;
             var3 = _closure1_slot0;
@@ -79,13 +79,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = _closure1_slot4;
             var8 = var6.ALL_MESSAGES;
             var6 = undefined;
-            if(!(var10 !== var8)) { _fun0001_ip = 187; continue _fun0001 }
- 116:
+            if(!(var10 !== var8)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var8 = _closure1_slot5;
             var8 = var8.ALL_MESSAGES;
             var6 = undefined;
-            if(!(var9 !== var8)) { _fun0001_ip = 187; continue _fun0001 }
- 132:
+            if(!(var9 !== var8)) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
             var7 = 8;
@@ -98,26 +98,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7.t;
             var7 = var7.eP8yWV;
             var6 = var8.bind(var9)(var7);
- 187:
+case 2:
             var1['allMessagesSubLabel'] = var6;
             var5 = function onChange(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var9 = arg1;
                     var7 = {};
                     var7['message_notifications'] = var9;
                     var1 = _closure1_slot4;
                     var1 = var1.ALL_MESSAGES;
                     var1 = var9 === var1;
-                    if(!var1) { _fun0002_ip = 51; continue _fun0002 }
- 30:
+                    if(!var1) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
                     var4 = _closure2_slot1;
                     var3 = _closure1_slot5;
                     var3 = var3.ALL_MESSAGES;
                     var1 = var4 !== var3;
- 51:
-                    if(!var1) { _fun0002_ip = 147; continue _fun0002 }
- 54:
+case 5:
+                    if(!var1) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
                     var1 = 9;
@@ -137,7 +137,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var1.UNREADS_ALL_MESSAGES;
                     var1 = var4.bind(var5)(var3, var1);
                     var7['flags'] = var1;
- 147:
+case 7:
                     var4 = _closure1_slot1;
                     var10 = _closure1_slot2;
                     var1 = 10;

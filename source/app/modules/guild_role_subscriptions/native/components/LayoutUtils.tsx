@@ -37,15 +37,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function GappedList(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var7 = var1.children;
             var2 = var1.gap;
             var4 = undefined;
-            if(!(var2 === var4)) { _fun0001_ip = 24; continue _fun0001 }
- 21:
+            if(!(var2 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = 4;
- 24:
+case 2:
             var _closure2_slot0 = var2;
             var1 = var1.renderGap;
             var _closure2_slot1 = var1;
@@ -70,7 +70,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var7.map;
             var5 = function(arg1, arg2) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var4 = _closure1_slot5;
                     var3 = _closure1_slot4;
                     var2 = {};
@@ -83,12 +83,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = var8 - var5;
                     var5 = arg2;
                     var5 = var5 !== var8;
-                    if(!var5) { _fun0002_ip = 120; continue _fun0002 }
- 53:
+                    if(!var5) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var9 = _closure2_slot1;
                     var8 = null;
-                    if(!(var8 == var9)) { _fun0002_ip = 107; continue _fun0002 }
- 63:
+                    if(!(var8 == var9)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var10 = _closure1_slot3;
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot1;
@@ -100,14 +100,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var11 = _closure2_slot0;
                     var6['size'] = var11;
                     var6 = var10.bind(var9)(var8, var6);
-                    _fun0002_ip = 117; continue _fun0002;
- 107:
+                    _fun0002_ip = 8; continue _fun0002;
+case 6:
                     var8 = _closure2_slot1;
                     var7 = undefined;
                     var6 = var8.bind(var7)();
- 117:
+case 8:
                     var5 = var6;
- 120:
+case 4:
                     var1[1] = var5;
                     var2['children'] = var1;
                     var1 = undefined;

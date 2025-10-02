@@ -153,15 +153,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['OrbCheckoutErrorCard'] = var4;
     var4 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var6 = var1.product;
             var1 = _closure1_slot8;
             var4 = undefined;
             var9 = var1.bind(var4)();
             var1 = null;
-            if(!(var1 != var6)) { _fun0001_ip = 74; continue _fun0001 }
- 28:
+            if(!(var1 != var6)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = _closure1_slot6;
             var2 = _closure1_slot1;
             var7 = _closure1_slot2;
@@ -173,8 +173,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = true;
             var1['useOrbPrice'] = var6;
             var6 = var3.bind(var4)(var2, var1);
-            _fun0001_ip = 142; continue _fun0001;
- 74:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var3 = _closure1_slot6;
             var2 = _closure1_slot4;
             var1 = {};
@@ -191,7 +191,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var3.bind(var4)(var8, var7);
             var1['children'] = var7;
             var6 = var3.bind(var4)(var2, var1);
- 142:
+case 4:
             var3 = _closure1_slot7;
             var2 = _closure1_slot4;
             var1 = {};
@@ -348,7 +348,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['OrbCheckoutLegalFinePrint'] = var4;
     var2 = function(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var9 = var1.onPress;
             var2 = _closure1_slot1;
@@ -374,10 +374,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = null;
             var2 = var8 == var1;
             var6 = undefined;
-            if(var2) { _fun0002_ip = 114; continue _fun0002 }
- 108:
+            if(var2) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
             var6 = var1.orbPriceAmount;
- 114:
+case 5:
             var3 = _closure1_slot6;
             var12 = _closure1_slot0;
             var11 = _closure1_slot2;
@@ -392,10 +392,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var12.isThemeDark;
             var12 = var11.bind(var12)(var15);
             var11 = 'primary';
-            if(!var12) { _fun0002_ip = 182; continue _fun0002 }
- 176:
+            if(!var12) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
             var11 = 'primary-overlay';
- 182:
+case 7:
             var1['variant'] = var11;
             var11 = 'lg';
             var1['size'] = var11;
@@ -425,10 +425,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var14.isThemeDark;
             var14 = var13.bind(var14)(var15);
             var13 = 'redesign-button-primary-text';
-            if(!var14) { _fun0002_ip = 320; continue _fun0002 }
- 314:
+            if(!var14) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
             var13 = 'redesign-button-primary-overlay-text';
- 320:
+case 9:
             var10['color'] = var13;
             var10 = var12.bind(var4)(var11, var10);
             var1['icon'] = var10;
@@ -436,18 +436,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['iconPosition'] = var10;
             var1['loading'] = var5;
             var1['onPress'] = var9;
-            if(var5) { _fun0002_ip = 359; continue _fun0002 }
- 355:
+            if(var5) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
             var5 = var8 == var6;
- 359:
-            if(var5) { _fun0002_ip = 366; continue _fun0002 }
- 362:
+case 11:
+            if(var5) { _fun0002_ip = 13; continue _fun0002 }
+case 14:
             var5 = var8 == var7;
- 366:
-            if(var5) { _fun0002_ip = 373; continue _fun0002 }
- 369:
+case 13:
+            if(var5) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
             var5 = var7 < var6;
- 373:
+case 15:
             var1['disabled'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

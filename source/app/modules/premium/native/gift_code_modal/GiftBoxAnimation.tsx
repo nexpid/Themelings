@@ -42,7 +42,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function GiftBoxAnimation(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var9 = var1.giftStyle;
             var4 = _closure1_slot0;
@@ -62,8 +62,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var6 = var6.bind(var7)(var4, var1);
             var1 = null;
-            if(!(var1 != var9)) { _fun0001_ip = 463; continue _fun0001 }
- 75:
+            if(!(var1 != var9)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var4 = 5;
@@ -228,7 +228,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['style'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
- 463:
+case 2:
             return var1;
         }
     };

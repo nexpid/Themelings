@@ -29,25 +29,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function getErrorMessageForCommandResult(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var5 = arg2;
             var6 = arg3;
             var1 = 'failed';
-            if(!(var1 !== var5)) { _fun0001_ip = 217; continue _fun0001 }
- 22:
+            if(!(var1 !== var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = 'n/a';
             var1 = null;
-            if(!(var4 === var5)) { _fun0001_ip = 971; continue _fun0001 }
- 37:
+            if(!(var4 === var5)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var7 = var6.code;
             var15 = var2.platform;
             var10 = var2.name;
             var4 = _closure1_slot3;
             var4 = var4.CONSOLE_DEVICE_PASSCODE_UNLOCK_REQUIRED;
             var3 = null;
-            if(!(var7 === var4)) { _fun0001_ip = 209; continue _fun0001 }
- 75:
+            if(!(var7 === var4)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var4 = {};
             var11 = _closure1_slot0;
             var12 = _closure1_slot2;
@@ -78,29 +78,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var8.bind(var9)(var7, var5);
             var4['body'] = var5;
             var3 = var4;
- 209:
+case 6:
             var1 = var3;
-            _fun0001_ip = 971; continue _fun0001;
- 217:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var3 = var6.code;
             var9 = var2.platform;
             var11 = var2.name;
             var2 = _closure1_slot3;
             var2 = var2.CONSOLE_DEVICE_COMMUNICATION_RESTRICTED;
-            if(!(var2 !== var3)) { _fun0001_ip = 842; continue _fun0001 }
- 253:
+            if(!(var2 !== var3)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var2 = _closure1_slot3;
             var2 = var2.CONSOLE_DEVICE_INVALID_POWER_MODE;
-            if(!(var2 !== var3)) { _fun0001_ip = 703; continue _fun0001 }
- 270:
+            if(!(var2 !== var3)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var2 = _closure1_slot3;
             var2 = var2.CONSOLE_DEVICE_UNVAILABLE_FROM_OTHER_USERS;
-            if(!(var2 !== var3)) { _fun0001_ip = 564; continue _fun0001 }
- 287:
+            if(!(var2 !== var3)) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var2 = _closure1_slot3;
             var2 = var2.CONSOLE_DEVICE_ACCOUNT_LINK_ERROR;
-            if(!(var2 !== var3)) { _fun0001_ip = 428; continue _fun0001 }
- 304:
+            if(!(var2 !== var3)) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var2 = {};
             var10 = _closure1_slot0;
             var12 = _closure1_slot2;
@@ -128,8 +128,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['deviceName'] = var11;
             var3 = var7.bind(var8)(var5, var3);
             var2['body'] = var3;
-            _fun0001_ip = 968; continue _fun0001;
- 428:
+            _fun0001_ip = 16; continue _fun0001;
+case 14:
             var3 = {};
             var12 = _closure1_slot0;
             var13 = _closure1_slot2;
@@ -160,8 +160,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = true;
             var3['isAccountLinkError'] = var5;
             var2 = var3;
-            _fun0001_ip = 968; continue _fun0001;
- 564:
+            _fun0001_ip = 16; continue _fun0001;
+case 12:
             var3 = {};
             var12 = _closure1_slot0;
             var13 = _closure1_slot2;
@@ -192,8 +192,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var8.bind(var10)(var7, var5);
             var3['body'] = var5;
             var2 = var3;
-            _fun0001_ip = 968; continue _fun0001;
- 703:
+            _fun0001_ip = 16; continue _fun0001;
+case 10:
             var3 = {};
             var12 = _closure1_slot0;
             var13 = _closure1_slot2;
@@ -224,8 +224,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var8.bind(var10)(var7, var5);
             var3['body'] = var5;
             var2 = var3;
-            _fun0001_ip = 968; continue _fun0001;
- 842:
+            _fun0001_ip = 16; continue _fun0001;
+case 8:
             var3 = {};
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
@@ -254,12 +254,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var7.bind(var8)(var5, var4);
             var3['body'] = var4;
             var2 = var3;
- 968:
+case 16:
             var1 = var2;
- 971:
+case 4:
             var2 = null;
-            if(!(var2 != var1)) { _fun0001_ip = 1089; continue _fun0001 }
- 977:
+            if(!(var2 != var1)) { _fun0001_ip = 17; continue _fun0001 }
+case 18:
             var3 = _closure1_slot0;
             var10 = _closure1_slot2;
             var2 = 1;
@@ -284,7 +284,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['errorCode'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             var1['errorCodeMessage'] = var2;
- 1089:
+case 17:
             return var1;
         }
     };

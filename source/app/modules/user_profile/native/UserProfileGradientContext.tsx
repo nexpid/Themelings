@@ -57,16 +57,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['UserProfileGradientContextProvider'] = var4;
     var2 = function useUserProfileGradientContext() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = _closure1_slot0;
             var2 = var3.useContext;
             var1 = _closure1_slot2;
             var1 = var2.bind(var3)(var1);
             var2 = undefined;
-            if(!(var2 !== var1)) { _fun0001_ip = 30; continue _fun0001 }
- 28:
+            if(!(var2 !== var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             return var1;
- 30:
+case 2:
             var1 = global;
             var3 = var1.Error;
             var1 = var3.prototype;

@@ -76,7 +76,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = var9.useDerivedValue;
         var2 = function o() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var3 = _closure1_slot0;
                 var4 = _closure1_slot2;
                 var2 = 6;
@@ -86,10 +86,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var5.withTiming;
                 var2 = _closure2_slot0;
                 var3 = 0;
-                if(!var2) { _fun0001_ip = 45; continue _fun0001 }
- 42:
+                if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var3 = 1;
- 45:
+case 2:
                 var2 = {};
                 var6 = 250;
                 var2['duration'] = var6;

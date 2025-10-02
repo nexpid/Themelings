@@ -94,7 +94,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot6 = var6;
     var2 = function getOrParseMessagePreviewMarkupAST(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var5 = var1.content;
             var11 = var1.layout;
@@ -107,8 +107,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2.get;
             var1 = var1.bind(var2)(var5);
             var2 = null;
-            if(!(var2 == var1)) { _fun0001_ip = 202; continue _fun0001 }
- 69:
+            if(!(var2 == var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = _closure1_slot6;
             var2 = {};
             var2['layout'] = var11;
@@ -121,8 +121,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = '```';
             var2 = var4.bind(var5)(var2);
             var4 = undefined;
-            if(var2) { _fun0001_ip = 162; continue _fun0001 }
- 123:
+            if(var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var11 = var5.split;
             var10 = '\n';
             var11 = var11.bind(var5)(var10);
@@ -132,11 +132,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = '||';
             var2 = var12.bind(var10)(var11);
             var4 = var10;
- 162:
-            if(!var2) { _fun0001_ip = 168; continue _fun0001 }
- 165:
+case 4:
+            if(!var2) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var4 = var5;
- 168:
+case 6:
             var15 = true;
             var17 = undefined;
             var16 = var4;
@@ -147,7 +147,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.set;
             var3 = var3.bind(var4)(var5, var2);
             return var2;
- 202:
+case 2:
             return var1;
         }
     };
@@ -184,7 +184,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['getMessagePreviewASTParser'] = var6;
     var5 = function renderMessagePreviewMarkup(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var4 = arg1;
             var12 = var4.content;
             var2 = var4.muted;
@@ -192,8 +192,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var4.channelId;
             var7 = var4.layout;
             var3 = undefined;
-            if(!(var7 === var3)) { _fun0002_ip = 71; continue _fun0002 }
- 36:
+            if(!(var7 === var3)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var6 = _closure1_slot0;
             var8 = _closure1_slot2;
             var5 = 5;
@@ -201,23 +201,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var6.bind(var3)(var5);
             var5 = var5.ChannelListLayoutTypes;
             var7 = var5.COMPACT;
- 71:
+case 8:
             var6 = var4.color;
             var11 = var4.postProcessor;
             var14 = var4.disableAnimatedEmoji;
-            if(!(var14 === var3)) { _fun0002_ip = 94; continue _fun0002 }
- 92:
+            if(!(var14 === var3)) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
             var14 = true;
- 94:
+case 10:
             var5 = var4.fontScale;
-            if(!(var5 === var3)) { _fun0002_ip = 107; continue _fun0002 }
- 104:
+            if(!(var5 === var3)) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
             var5 = 1;
- 107:
+case 12:
             var4 = var4.maxFontSizeMultiplier;
             var8 = '';
-            if(!(var8 !== var12)) { _fun0002_ip = 344; continue _fun0002 }
- 124:
+            if(!(var8 !== var12)) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
             var8 = {'allowLinks': true, 'allowDevLinks': false, 'allowEmojiLinks': false, 'mentionChannels': null, 'soundboardSounds': null, 'isInteracting': false, 'formatInline': true, 'noStyleAndInteraction': true, 'allowHeading': true, 'allowList': true, 'allowGameMentions': null, 'disableAutoBlockNewlines': true, 'previewLinkTarget': false};
             var13 = true;
             var9 = new Array(0);
@@ -243,10 +243,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8['channelId'] = var1;
             var1 = null;
             var1 = var1 != var2;
-            if(!var1) { _fun0002_ip = 253; continue _fun0002 }
- 250:
+            if(!var1) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
             var1 = var2;
- 253:
+case 16:
             var8['muted'] = var1;
             var2 = _closure1_slot5;
             var1 = {};
@@ -268,7 +268,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['maxFontSizeMultiplier'] = var4;
             var1 = var2.bind(var3)(var1);
             return var1;
- 344:
+case 14:
             var1 = null;
             return var1;
         }

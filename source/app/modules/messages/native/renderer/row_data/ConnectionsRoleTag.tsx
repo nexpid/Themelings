@@ -34,14 +34,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function createConnectionsRoleTag(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var6 = arg1;
             var5 = var6.colorString;
             var1 = null;
-            if(!(var1 == var5)) { _fun0001_ip = 22; continue _fun0001 }
- 15:
+            if(!(var1 == var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = _closure1_slot4;
- 22:
+case 2:
             var3 = _closure1_slot1;
             var10 = _closure1_slot2;
             var8 = 2;
@@ -61,15 +61,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var7.getDarkness;
             var7 = var1.bind(var7)(var9);
             var1 = 0.3;
-            if(!(var7 < var1)) { _fun0001_ip = 147; continue _fun0001 }
- 119:
+            if(!(var7 < var1)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var7 = _closure1_slot1;
             var1 = _closure1_slot2;
             var1 = var1[var8];
             var1 = var7.bind(var4)(var1);
             var1 = var1.unsafe_rawColors;
             var3 = var1.PRIMARY_630;
- 147:
+case 4:
             var1 = {};
             var7 = var6.id;
             var1['id'] = var7;

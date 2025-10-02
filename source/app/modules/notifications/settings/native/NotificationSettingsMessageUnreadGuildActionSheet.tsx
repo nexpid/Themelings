@@ -52,7 +52,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function NotificationSettingsMessageUnreadGuildActionSheet(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var _closure2_slot0 = var1;
             var3 = _closure1_slot0;
@@ -75,8 +75,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = _closure1_slot4;
             var9 = var7.ALL_MESSAGES;
             var7 = undefined;
-            if(!(var10 === var9)) { _fun0001_ip = 155; continue _fun0001 }
- 100:
+            if(!(var10 === var9)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var11 = _closure1_slot0;
             var12 = _closure1_slot2;
             var8 = 8;
@@ -89,12 +89,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var8.t;
             var8 = var8.eP8yWV;
             var7 = var9.bind(var10)(var8);
- 155:
+case 2:
             var1['disabledMentionOnlyWithReason'] = var7;
             var1['value'] = var6;
             var5 = function onChange(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var8 = arg1;
                     var5 = _closure1_slot3;
                     var4 = var5.getGuildFlags;
@@ -117,15 +117,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var9 = var10.withGuildUnreadFlags;
                     var7 = _closure1_slot5;
                     var7 = var7.ALL_MESSAGES;
-                    if(!(var8 !== var7)) { _fun0002_ip = 116; continue _fun0002 }
- 104:
+                    if(!(var8 !== var7)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var7 = _closure1_slot6;
                     var7 = var7.UNREADS_ONLY_MENTIONS;
-                    _fun0002_ip = 126; continue _fun0002;
- 116:
+                    _fun0002_ip = 6; continue _fun0002;
+case 4:
                     var12 = _closure1_slot6;
                     var7 = var12.UNREADS_ALL_MESSAGES;
- 126:
+case 6:
                     var7 = var9.bind(var10)(var11, var7);
                     var3['flags'] = var7;
                     var7 = _closure1_slot0;

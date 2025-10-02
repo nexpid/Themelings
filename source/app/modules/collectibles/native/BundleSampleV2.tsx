@@ -34,24 +34,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var8.createStyles;
     var4 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = {};
             var2 = {};
             var4 = 'large';
             var3 = arg1;
             var9 = var4 === var3;
             var3 = 140;
-            if(!var9) { _fun0001_ip = 27; continue _fun0001 }
- 21:
+            if(!var9) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = 300;
- 27:
+case 2:
             var2['width'] = var3;
             var4 = 280;
             var3 = var4;
-            if(!var9) { _fun0001_ip = 49; continue _fun0001 }
- 43:
+            if(!var9) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = 340;
- 49:
+case 4:
             var2['height'] = var3;
             var6 = _closure1_slot1;
             var3 = _closure1_slot2;
@@ -68,28 +68,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['position'] = var3;
             var10 = 70;
             var3 = var10;
-            if(!var9) { _fun0001_ip = 120; continue _fun0001 }
- 117:
+            if(!var9) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var3 = 10;
- 120:
+case 6:
             var2['top'] = var3;
             var3 = 18;
-            if(!var9) { _fun0001_ip = 133; continue _fun0001 }
- 130:
+            if(!var9) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var3 = 25;
- 133:
+case 8:
             var2['left'] = var3;
             var3 = 80;
-            if(!var9) { _fun0001_ip = 146; continue _fun0001 }
- 143:
+            if(!var9) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var3 = 160;
- 146:
+case 10:
             var2['width'] = var3;
             var3 = 160;
-            if(!var9) { _fun0001_ip = 159; continue _fun0001 }
- 156:
+            if(!var9) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var3 = var4;
- 159:
+case 12:
             var2['height'] = var3;
             var4 = {};
             var3 = '-8deg';
@@ -128,15 +128,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = {'position': 'absolute', 'top': null, 'right': null, 'transform': null, 'zIndex': 1, 'alignItems': 'center', 'justifyContent': 'center'};
             var6 = 110;
             var11 = var6;
-            if(!var9) { _fun0001_ip = 358; continue _fun0001 }
- 355:
+            if(!var9) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var11 = 120;
- 358:
+case 14:
             var2['top'] = var11;
-            if(!var9) { _fun0001_ip = 370; continue _fun0001 }
- 367:
+            if(!var9) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var4 = var10;
- 370:
+case 16:
             var2['right'] = var4;
             var4 = {};
             var4['rotate'] = var3;
@@ -158,10 +158,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['shadowRadius'] = var3;
             var1['avatarWithNameplate'] = var2;
             var2 = {'position': 'absolute', 'bottom': null, 'marginHorizontal': 10, 'width': '90%', 'backgroundColor': null, 'zIndex': 2};
-            if(!var9) { _fun0001_ip = 493; continue _fun0001 }
- 490:
+            if(!var9) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
             var6 = 90;
- 493:
+case 18:
             var2['bottom'] = var6;
             var6 = _closure1_slot1;
             var5 = _closure1_slot2;
@@ -198,7 +198,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function _default(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var18 = var1.isPurchased;
             var17 = var1.deco;
@@ -207,17 +207,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var1.isDarkTheme;
             var2 = var1.size;
             var4 = undefined;
-            if(!(var2 === var4)) { _fun0002_ip = 48; continue _fun0002 }
- 44:
+            if(!(var2 === var4)) { _fun0002_ip = 20; continue _fun0002 }
+case 21:
             var2 = 'small';
- 48:
+case 20:
             var1 = _closure1_slot6;
             var10 = var1.bind(var4)(var2);
             var6 = null;
             var1 = var6 != var5;
             var12 = undefined;
-            if(!var1) { _fun0002_ip = 163; continue _fun0002 }
- 71:
+            if(!var1) { _fun0002_ip = 22; continue _fun0002 }
+case 23:
             var3 = _closure1_slot1;
             var7 = _closure1_slot2;
             var1 = 4;
@@ -238,20 +238,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var4)(var1);
             var1 = var3.getNameplateDataFromRecord;
             var12 = var1.bind(var3)(var5);
- 163:
+case 22:
             var1 = 'large';
             var13 = var1 === var2;
             var16 = 140;
-            if(var13) { _fun0002_ip = 193; continue _fun0002 }
- 177:
+            if(var13) { _fun0002_ip = 24; continue _fun0002 }
+case 25:
             var2 = var6 != var12;
             var1 = 80;
-            if(!var2) { _fun0002_ip = 190; continue _fun0002 }
- 187:
+            if(!var2) { _fun0002_ip = 26; continue _fun0002 }
+case 27:
             var1 = 60;
- 190:
+case 26:
             var16 = var1;
- 193:
+case 24:
             var3 = _closure1_slot5;
             var2 = _closure1_slot3;
             var1 = {};
@@ -278,13 +278,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = new Array(3);
             var5[0] = var7;
             var7 = {};
-            if(!(var6 == var12)) { _fun0002_ip = 310; continue _fun0002 }
- 302:
+            if(!(var6 == var12)) { _fun0002_ip = 28; continue _fun0002 }
+case 29:
             var11 = var10.avatar;
-            _fun0002_ip = 316; continue _fun0002;
- 310:
+            _fun0002_ip = 30; continue _fun0002;
+case 28:
             var11 = var10.avatarWithNameplate;
- 316:
+case 30:
             var9 = new Array(1);
             var9[0] = var11;
             var7['style'] = var9;
@@ -306,8 +306,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5[1] = var7;
             var7 = var6 != var12;
             var6 = null;
-            if(!var7) { _fun0002_ip = 538; continue _fun0002 }
- 408:
+            if(!var7) { _fun0002_ip = 31; continue _fun0002 }
+case 32:
             var9 = _closure1_slot4;
             var8 = _closure1_slot3;
             var7 = {};
@@ -321,10 +321,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var10.NameplateDummyUserPreview;
             var10 = {};
             var15 = 80;
-            if(!var13) { _fun0002_ip = 465; continue _fun0002 }
- 462:
+            if(!var13) { _fun0002_ip = 33; continue _fun0002 }
+case 34:
             var15 = 130;
- 465:
+case 33:
             var10['width'] = var15;
             var15 = _closure1_slot0;
             var16 = _closure1_slot2;
@@ -332,19 +332,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var16[var14];
             var14 = var15.bind(var4)(var14);
             var14 = var14.AvatarSizes;
-            if(var13) { _fun0002_ip = 506; continue _fun0002 }
- 498:
+            if(var13) { _fun0002_ip = 35; continue _fun0002 }
+case 36:
             var13 = var14.XSMALL_20;
-            _fun0002_ip = 512; continue _fun0002;
- 506:
+            _fun0002_ip = 37; continue _fun0002;
+case 35:
             var13 = var14.NORMAL;
- 512:
+case 37:
             var10['avatarSize'] = var13;
             var10['nameplate'] = var12;
             var10 = var9.bind(var4)(var11, var10);
             var7['children'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 538:
+case 31:
             var5[2] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

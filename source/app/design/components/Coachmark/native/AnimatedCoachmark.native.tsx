@@ -37,7 +37,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot6 = var4;
     var4 = function renderTooltipItem(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var9 = arg1;
             var10 = arg2;
             var4 = _closure1_slot6;
@@ -59,8 +59,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['pointerEvents'] = var5;
             var5 = null;
             var7 = var5 != var9;
-            if(!var7) { _fun0001_ip = 147; continue _fun0001 }
- 88:
+            if(!var7) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var8 = _closure1_slot6;
             var7 = _closure1_slot0;
             var11 = _closure1_slot2;
@@ -75,7 +75,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = 'enterExitAnimatedStyles';
             var6[var9] = var10;
             var5 = var8.bind(var3)(var7, var6);
- 147:
+case 2:
             var1['children'] = var5;
             var1 = var4.bind(var3)(var2, var1);
             return var1;
@@ -90,7 +90,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var5 = arg1;
             var12 = var5.visible;
             var _closure2_slot0 = var12;
@@ -148,10 +148,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = {};
             var1['useReducedMotion'] = var7;
             var7 = undefined;
-            if(!var9) { _fun0002_ip = 221; continue _fun0002 }
- 218:
+            if(!var9) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var7 = var8;
- 221:
+case 4:
             var1['item'] = var7;
             var1['entering'] = var6;
             var1['exiting'] = var6;

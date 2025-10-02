@@ -1,7 +1,7 @@
 // app/modules/user_settings/native/appearance/components/SettingsAppearanceChannelRowItem.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
         var5 = require;
         var14 = metroImportDefault;
         var3 = exports;
@@ -140,10 +140,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var11 = var12.bind(var13)(var11);
         var12 = null;
         var12 = var12 != var11;
-        if(!var12) { _fun0001_ip = 669; continue _fun0001 }
- 666:
+        if(!var12) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
         var10 = var11;
- 669:
+case 2:
         var8 = var10 / var8;
         var8 = var8 + var9;
         var4['radius'] = var8;
@@ -163,7 +163,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var5.bind(var6)(var4);
         var2 = function ChannelRowItem(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var16 = var1.animatedStyles;
                 var19 = var1.title;
@@ -173,16 +173,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var24 = var1.avatar2;
                 var18 = var1.status;
                 var4 = undefined;
-                if(!(var18 === var4)) { _fun0002_ip = 62; continue _fun0002 }
- 49:
+                if(!(var18 === var4)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                 var2 = _closure1_slot4;
                 var18 = var2.ONLINE;
- 62:
+case 4:
                 var15 = var1.isUnread;
-                if(!(var15 === var4)) { _fun0002_ip = 74; continue _fun0002 }
- 72:
+                if(!(var15 === var4)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                 var15 = false;
- 74:
+case 6:
                 var1 = _closure1_slot7;
                 var12 = var1.bind(var4)();
                 var3 = _closure1_slot6;
@@ -200,10 +200,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8[0] = var9;
                 var9 = {};
                 var10 = 0;
-                if(!var15) { _fun0002_ip = 147; continue _fun0002 }
- 144:
+                if(!var15) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                 var10 = 1;
- 147:
+case 8:
                 var9['opacity'] = var10;
                 var8[1] = var9;
                 var7['style'] = var8;
@@ -218,8 +218,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var9 = var12.channelItemAvatar;
                 var6['style'] = var9;
                 var10 = null;
-                if(!(var10 == var24)) { _fun0002_ip = 292; continue _fun0002 }
- 209:
+                if(!(var10 == var24)) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
                 var17 = _closure1_slot5;
                 var13 = _closure1_slot1;
                 var22 = _closure1_slot2;
@@ -239,8 +239,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var18 = var18.LARGE_48;
                 var9['size'] = var18;
                 var9 = var17.bind(var4)(var13, var9);
-                _fun0002_ip = 375; continue _fun0002;
- 292:
+                _fun0002_ip = 12; continue _fun0002;
+case 10:
                 var18 = _closure1_slot5;
                 var22 = _closure1_slot0;
                 var23 = _closure1_slot2;
@@ -260,7 +260,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var21 = var21.LARGE_48;
                 var13['size'] = var21;
                 var9 = var18.bind(var4)(var17, var13);
- 375:
+case 12:
                 var6['children'] = var9;
                 var6 = var8.bind(var4)(var7, var6);
                 var5[1] = var6;
@@ -280,13 +280,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var12 = var13.bind(var4)(var12);
                 var13 = var12.Text;
                 var12 = {'animated': true, 'style': null, 'variant': 'redesign/channel-title/semibold'};
-                if(var15) { _fun0002_ip = 475; continue _fun0002 }
- 467:
+                if(var15) { _fun0002_ip = 13; continue _fun0002 }
+case 14:
                 var21 = var16.textMuted;
-                _fun0002_ip = 481; continue _fun0002;
- 475:
+                _fun0002_ip = 15; continue _fun0002;
+case 13:
                 var21 = var16.textNormal;
- 481:
+case 15:
                 var12['style'] = var21;
                 var12['children'] = var19;
                 var13 = var18.bind(var4)(var13, var12);
@@ -310,8 +310,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var9[0] = var12;
                 var12 = var10 != var14;
                 var10 = null;
-                if(!var12) { _fun0002_ip = 671; continue _fun0002 }
- 598:
+                if(!var12) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
                 var13 = _closure1_slot5;
                 var12 = _closure1_slot0;
                 var11 = _closure1_slot2;
@@ -319,17 +319,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var11 = var12.bind(var4)(var11);
                 var12 = var11.Text;
                 var11 = {'animated': true, 'style': null, 'variant': 'redesign/message-preview/medium', 'lineClamp': 1};
-                if(var15) { _fun0002_ip = 649; continue _fun0002 }
- 641:
+                if(var15) { _fun0002_ip = 18; continue _fun0002 }
+case 19:
                 var15 = var16.textMuted;
-                _fun0002_ip = 655; continue _fun0002;
- 649:
+                _fun0002_ip = 20; continue _fun0002;
+case 18:
                 var15 = var16.textNormal;
- 655:
+case 20:
                 var11['style'] = var15;
                 var11['children'] = var14;
                 var10 = var13.bind(var4)(var12, var11);
- 671:
+case 16:
                 var9[1] = var10;
                 var6['children'] = var9;
                 var6 = var8.bind(var4)(var7, var6);

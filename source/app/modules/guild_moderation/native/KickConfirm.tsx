@@ -138,7 +138,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function KickConfirm(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = var1.guildId;
             var _closure2_slot0 = var2;
@@ -238,17 +238,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[2] = var20;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var2 = _closure2_slot3;
                     var7 = null;
                     var2 = var7 != var2;
-                    if(!var2) { _fun0002_ip = 24; continue _fun0002 }
- 16:
+                    if(!var2) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var3 = _closure2_slot4;
                     var2 = var7 != var3;
- 24:
-                    if(!var2) { _fun0002_ip = 178; continue _fun0002 }
- 30:
+case 2:
+                    if(!var2) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var4 = _closure2_slot6;
                     var3 = undefined;
                     var2 = {'kicking': true, 'kickError': false};
@@ -262,19 +262,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = _closure2_slot3;
                     var2 = var7 == var2;
                     var4 = undefined;
-                    if(var2) { _fun0002_ip = 106; continue _fun0002 }
- 97:
+                    if(var2) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var2 = _closure2_slot3;
                     var4 = var2.id;
- 106:
+case 6:
                     var2 = _closure2_slot4;
                     var2 = var7 == var2;
                     var3 = undefined;
-                    if(var2) { _fun0002_ip = 128; continue _fun0002 }
- 119:
+                    if(var2) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                     var2 = _closure2_slot4;
                     var3 = var2.id;
- 128:
+case 8:
                     var2 = _closure2_slot5;
                     var2 = var2.current;
                     var3 = var5.bind(var6)(var4, var3, var2);
@@ -290,7 +290,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     };
                     var1 = var2.bind(var3)(var1);
- 178:
+case 4:
                     var1 = undefined;
                     return var1;
                 }
@@ -298,12 +298,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var22 = var3.bind(var4)(var1, var2);
             var2 = var10 != var20;
             var1 = null;
-            if(!var2) { _fun0001_ip = 1332; continue _fun0001 }
- 381:
+            if(!var2) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var2 = var10 != var29;
             var1 = null;
-            if(!var2) { _fun0001_ip = 1332; continue _fun0001 }
- 393:
+            if(!var2) { _fun0001_ip = 10; continue _fun0001 }
+case 12:
             var4 = _closure1_slot10;
             var3 = _closure1_slot7;
             var2 = {};
@@ -477,8 +477,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9[3] = var13;
             var12 = var12.kickError;
             var10 = null;
-            if(!var12) { _fun0001_ip = 1308; continue _fun0001 }
- 1169:
+            if(!var12) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var13 = _closure1_slot10;
             var15 = _closure1_slot0;
             var18 = _closure1_slot2;
@@ -506,13 +506,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var16.bind(var17)(var15, var14);
             var11['children'] = var14;
             var10 = var13.bind(var5)(var12, var11);
- 1308:
+case 13:
             var9[4] = var10;
             var6['children'] = var9;
             var6 = var8.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 1332:
+case 10:
             return var1;
         }
     };

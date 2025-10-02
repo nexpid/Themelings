@@ -21,44 +21,44 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var2;
     var2 = function getTenureBadgeRequirementString(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var5 = arg2;
             var2 = _closure1_slot2;
             var2 = var2.PREMIUM_TENURE_1_MONTH;
-            if(!(var2 !== var3)) { _fun0001_ip = 284; continue _fun0001 }
- 26:
+            if(!(var2 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = _closure1_slot2;
             var2 = var2.PREMIUM_TENURE_3_MONTH;
-            if(!(var2 !== var3)) { _fun0001_ip = 284; continue _fun0001 }
- 43:
+            if(!(var2 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var2 = _closure1_slot2;
             var2 = var2.PREMIUM_TENURE_6_MONTH;
-            if(!(var2 !== var3)) { _fun0001_ip = 284; continue _fun0001 }
- 60:
+            if(!(var2 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 5:
             var2 = _closure1_slot2;
             var2 = var2.PREMIUM_TENURE_12_MONTH;
-            if(!(var2 !== var3)) { _fun0001_ip = 210; continue _fun0001 }
- 77:
+            if(!(var2 !== var3)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var2 = _closure1_slot2;
             var2 = var2.PREMIUM_TENURE_24_MONTH;
-            if(!(var2 !== var3)) { _fun0001_ip = 210; continue _fun0001 }
- 91:
+            if(!(var2 !== var3)) { _fun0001_ip = 6; continue _fun0001 }
+case 8:
             var2 = _closure1_slot2;
             var2 = var2.PREMIUM_TENURE_36_MONTH;
-            if(!(var2 !== var3)) { _fun0001_ip = 210; continue _fun0001 }
- 105:
+            if(!(var2 !== var3)) { _fun0001_ip = 6; continue _fun0001 }
+case 9:
             var2 = _closure1_slot2;
             var2 = var2.PREMIUM_TENURE_60_MONTH;
-            if(!(var2 !== var3)) { _fun0001_ip = 210; continue _fun0001 }
- 119:
+            if(!(var2 !== var3)) { _fun0001_ip = 6; continue _fun0001 }
+case 10:
             var2 = _closure1_slot2;
             var2 = var2.PREMIUM_TENURE_72_MONTH;
-            if(!(var2 !== var3)) { _fun0001_ip = 137; continue _fun0001 }
- 133:
+            if(!(var2 !== var3)) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var2 = null;
             return var2;
- 137:
+case 11:
             var7 = _closure1_slot0;
             var8 = _closure1_slot1;
             var2 = 3;
@@ -76,7 +76,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['years'] = var7;
             var2 = var4.bind(var6)(var3, var2);
             return var2;
- 210:
+case 6:
             var7 = _closure1_slot0;
             var8 = _closure1_slot1;
             var2 = 3;
@@ -95,7 +95,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['years'] = var7;
             var2 = var4.bind(var6)(var3, var2);
             return var2;
- 284:
+case 2:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var1 = 3;
@@ -123,7 +123,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var7)(var5);
     var4 = function() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var3 = _closure1_slot0;
             var4 = _closure1_slot1;
             var1 = 1;
@@ -133,8 +133,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var3.useTieredTenureBadge;
             var6 = var1.bind(var3)();
             var1 = null;
-            if(!(var1 != var6)) { _fun0002_ip = 95; continue _fun0002 }
- 41:
+            if(!(var1 != var6)) { _fun0002_ip = 13; continue _fun0002 }
+case 14:
             var4 = _closure1_slot0;
             var7 = _closure1_slot1;
             var3 = 2;
@@ -147,7 +147,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = _closure1_slot3;
             var2 = var2.bind(var5)(var4, var3);
             return var2;
- 95:
+case 13:
             return var1;
         }
     };

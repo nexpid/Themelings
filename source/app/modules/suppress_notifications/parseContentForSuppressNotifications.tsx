@@ -33,16 +33,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var7)(var5);
     var4 = function parseContentForSuppressNotifications(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var2 = null;
-            if(!(var2 != var3)) { _fun0001_ip = 90; continue _fun0001 }
- 9:
+            if(!(var2 != var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = var3.match;
             var1 = _closure1_slot0;
             var1 = var4.bind(var3)(var1);
-            if(!(var2 != var1)) { _fun0001_ip = 71; continue _fun0001 }
- 31:
+            if(!(var2 != var1)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = new Array(2);
             var2 = true;
             var1[0] = var2;
@@ -52,23 +52,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4.trim;
             var2 = var2.bind(var4)();
             var1[1] = var2;
-            _fun0001_ip = 88; continue _fun0001;
- 71:
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
             var2 = new Array(2);
             var4 = false;
             var2[0] = var4;
             var2[1] = var3;
             var1 = var2;
- 88:
-            _fun0001_ip = 111; continue _fun0001;
- 90:
+case 6:
+            _fun0001_ip = 7; continue _fun0001;
+case 2:
             var2 = new Array(2);
             var3 = false;
             var2[0] = var3;
             var3 = '';
             var2[1] = var3;
             var1 = var2;
- 111:
+case 7:
             return var1;
         }
     };

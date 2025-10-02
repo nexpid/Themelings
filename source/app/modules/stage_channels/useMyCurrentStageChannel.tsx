@@ -44,24 +44,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[1] = var1;
         var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var3 = _closure1_slot3;
                 var2 = var3.getVoiceChannelId;
                 var4 = var2.bind(var3)();
                 var2 = null;
-                if(!(var2 != var4)) { _fun0001_ip = 54; continue _fun0001 }
- 23:
+                if(!(var2 != var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var3 = _closure1_slot2;
                 var1 = var3.getChannel;
                 var1 = var1.bind(var3)(var4);
-                if(!(var2 != var1)) { _fun0001_ip = 54; continue _fun0001 }
- 41:
+                if(!(var2 != var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
                 var3 = var1.isGuildStageVoice;
                 var3 = var3.bind(var1)();
-                if(var3) { _fun0001_ip = 56; continue _fun0001 }
- 54:
+                if(var3) { _fun0001_ip = 5; continue _fun0001 }
+case 2:
                 return var2;
- 56:
+case 5:
                 return var1;
             }
         };

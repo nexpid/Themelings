@@ -75,7 +75,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot7 = var1;
     var1 = function ViewDebugLogsActionSheet() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = _closure1_slot4;
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
@@ -193,8 +193,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var10.isAndroid;
             var10 = var9.bind(var10)();
             var9 = null;
-            if(!var10) { _fun0001_ip = 563; continue _fun0001 }
- 436:
+            if(!var10) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var12 = _closure1_slot4;
             var11 = _closure1_slot7;
             var10 = {};
@@ -233,7 +233,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var10['render'] = var13;
             var9 = var12.bind(var3)(var11, var10);
- 563:
+case 2:
             var8[2] = var9;
             var5['children'] = var8;
             var5 = var7.bind(var3)(var6, var5);

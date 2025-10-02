@@ -88,7 +88,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var3.map;
         var1 = function(arg1, arg2) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var5 = _closure1_slot1;
                 var4 = _closure1_slot0;
                 var3 = {};
@@ -100,11 +100,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = arg2;
                 var2 = var2 + 1;
                 var6 = var6 === var2;
-                if(!var6) { _fun0001_ip = 61; continue _fun0001 }
- 51:
+                if(!var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var7 = _closure2_slot1;
                 var6 = var7.filledCircle;
- 61:
+case 2:
                 var1[1] = var6;
                 var3['style'] = var1;
                 var1 = undefined;

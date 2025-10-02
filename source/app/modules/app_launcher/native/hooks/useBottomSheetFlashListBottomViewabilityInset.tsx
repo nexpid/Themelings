@@ -83,18 +83,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.debounce;
             var2 = function(arg1) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     var3 = _closure2_slot3;
                     var2 = arg1;
                     var3['current'] = var2;
                     var1 = _closure2_slot1;
                     var2 = var1.current;
                     var1 = null;
-                    if(!(var1 != var2)) { _fun0001_ip = 41; continue _fun0001 }
- 31:
+                    if(!(var1 != var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var1 = var2.updateViewableItems;
                     var1 = var1.bind(var2)();
- 41:
+case 2:
                     var1 = undefined;
                     return var1;
                 }
@@ -125,15 +125,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4['__initData'] = var8;
         var1 = function u(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var2 = null;
                 var2 = var2 != var1;
                 var3 = 0;
-                if(!var2) { _fun0002_ip = 17; continue _fun0002 }
- 14:
+                if(!var2) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                 var3 = var1;
- 17:
+case 4:
                 var1 = _closure2_slot2;
                 var3 = var3 - var1;
                 var5 = _closure1_slot0;

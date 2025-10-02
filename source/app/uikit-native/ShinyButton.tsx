@@ -74,7 +74,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function ShinyButton(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var6 = arg1;
             var9 = var6.style;
             var7 = var6.disabled;
@@ -83,10 +83,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot1 = var1;
             var1 = var6.shineDisabled;
             var4 = undefined;
-            if(!(var1 === var4)) { _fun0001_ip = 43; continue _fun0001 }
- 41:
+            if(!(var1 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = false;
- 43:
+case 2:
             var _closure2_slot2 = var1;
             var1 = var6.shineStyle;
             var _closure2_slot3 = var1;
@@ -195,11 +195,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var11.useAnimatedStyle;
             var2 = function p() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = _closure2_slot6;
                     var1 = null;
-                    if(!(var1 != var3)) { _fun0002_ip = 218; continue _fun0002 }
- 16:
+                    if(!(var1 != var3)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var1 = {};
                     var3 = {};
                     var13 = _closure1_slot0;
@@ -244,8 +244,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = new Array(1);
                     var2[0] = var3;
                     var1['transform'] = var2;
-                    _fun0002_ip = 248; continue _fun0002;
- 218:
+                    _fun0002_ip = 6; continue _fun0002;
+case 4:
                     var2 = {};
                     var4 = {};
                     var3 = -100;
@@ -254,7 +254,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3[0] = var4;
                     var2['transform'] = var3;
                     var1 = var2;
- 248:
+case 6:
                     return var1;
                 }
             };
@@ -309,27 +309,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1[var6] = var7;
             var6 = function renderShine() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var2 = _closure2_slot0;
                     var1 = null;
-                    if(var2) { _fun0003_ip = 256; continue _fun0003 }
- 15:
+                    if(var2) { _fun0003_ip = 7; continue _fun0003 }
+case 8:
                     var2 = _closure2_slot1;
                     var1 = null;
-                    if(var2) { _fun0003_ip = 256; continue _fun0003 }
- 27:
+                    if(var2) { _fun0003_ip = 7; continue _fun0003 }
+case 9:
                     var2 = _closure2_slot8;
                     var1 = null;
-                    if(var2) { _fun0003_ip = 256; continue _fun0003 }
- 39:
+                    if(var2) { _fun0003_ip = 7; continue _fun0003 }
+case 10:
                     var2 = _closure2_slot2;
                     var1 = null;
-                    if(var2) { _fun0003_ip = 256; continue _fun0003 }
- 51:
+                    if(var2) { _fun0003_ip = 7; continue _fun0003 }
+case 11:
                     var2 = _closure2_slot9;
                     var1 = null;
-                    if(!var2) { _fun0003_ip = 256; continue _fun0003 }
- 63:
+                    if(!var2) { _fun0003_ip = 7; continue _fun0003 }
+case 12:
                     var5 = _closure1_slot7;
                     var9 = _closure1_slot1;
                     var10 = _closure1_slot2;
@@ -375,7 +375,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = var5.bind(var4)(var7, var6);
                     var2['children'] = var6;
                     var1 = var5.bind(var4)(var3, var2);
- 256:
+case 7:
                     return var1;
                 }
             };

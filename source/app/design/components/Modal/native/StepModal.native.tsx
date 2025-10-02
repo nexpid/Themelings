@@ -63,7 +63,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function StepModal(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var13 = var4.steps;
             var _closure2_slot0 = var13;
@@ -103,7 +103,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[1] = var13;
             var1 = function(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = arg1;
                     var4 = var3.route;
                     var6 = _closure2_slot2;
@@ -112,26 +112,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = var5 == var1;
                     var1 = undefined;
                     var7 = undefined;
-                    if(var8) { _fun0002_ip = 53; continue _fun0002 }
- 33:
+                    if(var8) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var9 = _closure2_slot0;
                     var8 = var9.indexOf;
                     var4 = var4.name;
                     var7 = var8.bind(var9)(var4);
- 53:
+case 2:
                     var8 = var5 != var7;
                     var4 = 0;
-                    if(!var8) { _fun0002_ip = 65; continue _fun0002 }
- 62:
+                    if(!var8) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var4 = var7;
- 65:
+case 4:
                     var4 = var6.bind(var1)(var4);
                     var4 = _closure2_slot1;
-                    if(!(var5 != var4)) { _fun0002_ip = 87; continue _fun0002 }
- 78:
+                    if(!(var5 != var4)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var2 = _closure2_slot1;
                     var2 = var2.bind(var1)(var3);
- 87:
+case 6:
                     return var1;
                 }
             };
@@ -188,16 +188,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8['currentStep'] = var11;
             var14 = var12 == var13;
             var11 = undefined;
-            if(var14) { _fun0001_ip = 381; continue _fun0001 }
- 376:
+            if(var14) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var11 = var13.length;
- 381:
+case 8:
             var12 = var12 != var11;
             var10 = 0;
-            if(!var12) { _fun0001_ip = 393; continue _fun0001 }
- 390:
+            if(!var12) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var10 = var11;
- 393:
+case 10:
             var8['totalSteps'] = var10;
             var8 = var7.bind(var4)(var9, var8);
             var6['children'] = var8;

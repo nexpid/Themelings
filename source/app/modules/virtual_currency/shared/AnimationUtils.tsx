@@ -25,26 +25,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['ORB_LOTTIE_COUNTER_ANIMATION_FACTORS'] = var4;
     var2 = function(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg2;
             var1 = arg1;
             var2 = 0;
             var5 = var1 > var2;
             var3 = _closure1_slot0;
             var1 = 'SPEND';
-            if(!var5) { _fun0001_ip = 34; continue _fun0001 }
- 28:
+            if(!var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = 'EARN';
- 34:
+case 2:
             var1 = var3[var1];
             var3 = var4 * var1;
             var1 = {};
             var1['duration'] = var3;
             var2 = 0;
-            if(!var5) { _fun0001_ip = 57; continue _fun0001 }
- 53:
+            if(!var5) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = var4 - var3;
- 57:
+case 4:
             var1['delay'] = var2;
             return var1;
         }

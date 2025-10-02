@@ -9,23 +9,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function validateSize(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = var2.width;
             var3 = var2.height;
             var2 = 0;
             var1 = var1 > var2;
-            if(!var1) { _fun0001_ip = 26; continue _fun0001 }
- 22:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var3 > var2;
- 26:
+case 2:
             return var1;
         }
     };
     var _closure1_slot13 = var1;
     var1 = function sanitizeMedia(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var10 = var1.url;
             var9 = var1.proxy_url;
@@ -54,27 +54,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = null;
             var11 = var4 != var6;
             var8 = 0;
-            if(!var11) { _fun0002_ip = 130; continue _fun0002 }
- 127:
+            if(!var11) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var8 = var6;
- 130:
+case 4:
             var7 = _closure1_slot3;
             var7 = var7.IS_ANIMATED;
             var7 = var9.bind(var10)(var8, var7);
             var1['srcIsAnimated'] = var7;
             var7 = var4 != var6;
             var5 = 0;
-            if(!var7) { _fun0002_ip = 163; continue _fun0002 }
- 160:
+            if(!var7) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var5 = var6;
- 163:
+case 6:
             var1['flags'] = var5;
             var4 = var4 != var3;
             var2 = undefined;
-            if(!var4) { _fun0002_ip = 179; continue _fun0002 }
- 176:
+            if(!var4) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var2 = var3;
- 179:
+case 8:
             var1['contentType'] = var2;
             return var1;
         }
@@ -162,7 +162,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function sanitizeEmbed(arg1, arg2, arg3) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var13 = arg2;
             var3 = arg3;
             var1 = {};
@@ -192,8 +192,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['contentScanVersion'] = var2;
             var5 = var3.footer;
             var2 = null;
-            if(!(var2 != var5)) { _fun0003_ip = 194; continue _fun0003 }
- 137:
+            if(!(var2 != var5)) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
             var5 = {};
             var6 = var3.footer;
             var6 = var6.text;
@@ -205,17 +205,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.proxy_icon_url;
             var5['iconProxyURL'] = var6;
             var1['footer'] = var5;
- 194:
+case 10:
             var5 = var3.author;
             var5 = var2 != var5;
-            if(!var5) { _fun0003_ip = 222; continue _fun0003 }
- 207:
+            if(!var5) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
             var6 = var3.author;
             var6 = var6.name;
             var5 = var2 != var6;
- 222:
-            if(!var5) { _fun0003_ip = 297; continue _fun0003 }
- 225:
+case 12:
+            if(!var5) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
             var5 = {};
             var6 = var3.author;
             var6 = var6.name;
@@ -230,17 +230,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.proxy_icon_url;
             var5['iconProxyURL'] = var6;
             var1['author'] = var5;
- 297:
+case 14:
             var5 = var3.provider;
             var5 = var2 != var5;
-            if(!var5) { _fun0003_ip = 325; continue _fun0003 }
- 310:
+            if(!var5) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
             var6 = var3.provider;
             var6 = var6.name;
             var5 = var2 != var6;
- 325:
-            if(!var5) { _fun0003_ip = 366; continue _fun0003 }
- 328:
+case 16:
+            if(!var5) { _fun0003_ip = 18; continue _fun0003 }
+case 19:
             var5 = {};
             var6 = var3.provider;
             var6 = var6.name;
@@ -249,10 +249,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.url;
             var5['url'] = var6;
             var1['provider'] = var5;
- 366:
+case 18:
             var5 = var3.timestamp;
-            if(!(var2 != var5)) { _fun0003_ip = 441; continue _fun0003 }
- 376:
+            if(!(var2 != var5)) { _fun0003_ip = 20; continue _fun0003 }
+case 21:
             var6 = _closure1_slot1;
             var8 = _closure1_slot2;
             var5 = 5;
@@ -268,10 +268,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5 instanceof Object ? var5 : var8;
             var5 = var6.bind(var7)(var5);
             var1['timestamp'] = var5;
- 441:
+case 20:
             var5 = var3.color;
-            if(!(var2 != var5)) { _fun0003_ip = 495; continue _fun0003 }
- 450:
+            if(!(var2 != var5)) { _fun0003_ip = 22; continue _fun0003 }
+case 23:
             var6 = _closure1_slot0;
             var8 = _closure1_slot2;
             var5 = 6;
@@ -282,69 +282,69 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = false;
             var5 = var8.bind(var9)(var6, var5);
             var1['color'] = var5;
- 495:
+case 22:
             var5 = var3.thumbnail;
-            if(!(var2 != var5)) { _fun0003_ip = 600; continue _fun0003 }
- 505:
+            if(!(var2 != var5)) { _fun0003_ip = 24; continue _fun0003 }
+case 25:
             var6 = _closure1_slot13;
             var5 = var3.thumbnail;
             var5 = var6.bind(var7)(var5);
-            if(!var5) { _fun0003_ip = 600; continue _fun0003 }
- 523:
+            if(!var5) { _fun0003_ip = 24; continue _fun0003 }
+case 26:
             var6 = var1.type;
             var5 = _closure1_slot4;
             var5 = var5.ARTICLE;
-            if(!(var5 !== var6)) { _fun0003_ip = 579; continue _fun0003 }
- 542:
+            if(!(var5 !== var6)) { _fun0003_ip = 27; continue _fun0003 }
+case 28:
             var5 = _closure1_slot4;
             var5 = var5.IMAGE;
-            if(!(var5 !== var6)) { _fun0003_ip = 579; continue _fun0003 }
- 556:
+            if(!(var5 !== var6)) { _fun0003_ip = 27; continue _fun0003 }
+case 29:
             var6 = _closure1_slot14;
             var5 = var3.thumbnail;
             var5 = var6.bind(var7)(var5);
             var1['thumbnail'] = var5;
-            _fun0003_ip = 600; continue _fun0003;
- 579:
+            _fun0003_ip = 24; continue _fun0003;
+case 27:
             var6 = _closure1_slot14;
             var5 = var3.thumbnail;
             var5 = var6.bind(var7)(var5);
             var1['image'] = var5;
- 600:
+case 24:
             var5 = var3.image;
             var5 = var2 != var5;
-            if(!var5) { _fun0003_ip = 628; continue _fun0003 }
- 613:
+            if(!var5) { _fun0003_ip = 30; continue _fun0003 }
+case 31:
             var8 = _closure1_slot13;
             var6 = var3.image;
             var5 = var8.bind(var7)(var6);
- 628:
-            if(!var5) { _fun0003_ip = 652; continue _fun0003 }
- 631:
+case 30:
+            if(!var5) { _fun0003_ip = 32; continue _fun0003 }
+case 33:
             var6 = _closure1_slot14;
             var5 = var3.image;
             var5 = var6.bind(var7)(var5);
             var1['image'] = var5;
- 652:
+case 32:
             var5 = var3.video;
-            if(!(var2 != var5)) { _fun0003_ip = 1060; continue _fun0003 }
- 665:
+            if(!(var2 != var5)) { _fun0003_ip = 34; continue _fun0003 }
+case 35:
             var5 = var1.thumbnail;
             var5 = var2 == var5;
-            if(!var5) { _fun0003_ip = 694; continue _fun0003 }
- 678:
+            if(!var5) { _fun0003_ip = 36; continue _fun0003 }
+case 37:
             var6 = var3.video;
             var6 = var6.proxy_url;
             var5 = var2 != var6;
- 694:
-            if(!var5) { _fun0003_ip = 712; continue _fun0003 }
- 697:
+case 36:
+            if(!var5) { _fun0003_ip = 38; continue _fun0003 }
+case 39:
             var8 = _closure1_slot13;
             var6 = var3.video;
             var5 = var8.bind(var7)(var6);
- 712:
-            if(!var5) { _fun0003_ip = 791; continue _fun0003 }
- 715:
+case 38:
+            if(!var5) { _fun0003_ip = 40; continue _fun0003 }
+case 41:
             var5 = {};
             var6 = var3.video;
             var6 = var6.width;
@@ -361,47 +361,47 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var9.bind(var7)(var8, var6);
             var5['url'] = var6;
             var1['thumbnail'] = var5;
- 791:
+case 40:
             var5 = var1.thumbnail;
             var5 = var2 != var5;
-            if(!var5) { _fun0003_ip = 819; continue _fun0003 }
- 804:
+            if(!var5) { _fun0003_ip = 42; continue _fun0003 }
+case 43:
             var8 = _closure1_slot13;
             var6 = var3.video;
             var5 = var8.bind(var7)(var6);
- 819:
-            if(!var5) { _fun0003_ip = 1036; continue _fun0003 }
- 825:
+case 42:
+            if(!var5) { _fun0003_ip = 44; continue _fun0003 }
+case 45:
             var10 = var3.provider;
             var8 = var3.video;
-            if(!(var2 != var10)) { _fun0003_ip = 868; continue _fun0003 }
- 841:
+            if(!(var2 != var10)) { _fun0003_ip = 46; continue _fun0003 }
+case 47:
             var11 = _closure1_slot7;
             var9 = var11.test;
             var6 = var10.name;
             var9 = var9.bind(var11)(var6);
             var6 = false;
-            if(var9) { _fun0003_ip = 1033; continue _fun0003 }
- 868:
+            if(var9) { _fun0003_ip = 48; continue _fun0003 }
+case 46:
             var12 = _closure1_slot8;
             var11 = var12.test;
             var9 = var8.url;
             var9 = var11.bind(var12)(var9);
             var6 = false;
-            if(var9) { _fun0003_ip = 1033; continue _fun0003 }
- 895:
+            if(var9) { _fun0003_ip = 48; continue _fun0003 }
+case 49:
             var9 = var8.proxy_url;
             var11 = var2 != var9;
-            if(var11) { _fun0003_ip = 937; continue _fun0003 }
- 908:
+            if(var11) { _fun0003_ip = 50; continue _fun0003 }
+case 51:
             var12 = /^https:/i;
             var9 = var12.test;
             var8 = var8.url;
             var11 = var9.bind(var12)(var8);
- 937:
+case 50:
             var9 = var2 != var13;
-            if(!var9) { _fun0003_ip = 989; continue _fun0003 }
- 944:
+            if(!var9) { _fun0003_ip = 52; continue _fun0003 }
+case 53:
             var12 = _closure1_slot1;
             var14 = _closure1_slot2;
             var8 = 2;
@@ -411,50 +411,50 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var8.bind(var12)(var13);
             var8 = 1492472454139.0;
             var9 = var12 < var8;
- 989:
+case 52:
             var8 = var11;
-            if(!var9) { _fun0003_ip = 1030; continue _fun0003 }
- 995:
+            if(!var9) { _fun0003_ip = 54; continue _fun0003 }
+case 55:
             var9 = var11;
-            if(!var11) { _fun0003_ip = 1005; continue _fun0003 }
- 1001:
+            if(!var11) { _fun0003_ip = 56; continue _fun0003 }
+case 57:
             var9 = var2 != var10;
- 1005:
-            if(!var9) { _fun0003_ip = 1027; continue _fun0003 }
- 1008:
+case 56:
+            if(!var9) { _fun0003_ip = 58; continue _fun0003 }
+case 59:
             var12 = _closure1_slot9;
             var11 = var12.test;
             var10 = var10.name;
             var9 = var11.bind(var12)(var10);
- 1027:
+case 58:
             var8 = var9;
- 1030:
+case 54:
             var6 = var8;
- 1033:
+case 48:
             var5 = var6;
- 1036:
-            if(!var5) { _fun0003_ip = 1060; continue _fun0003 }
- 1039:
+case 44:
+            if(!var5) { _fun0003_ip = 34; continue _fun0003 }
+case 60:
             var6 = _closure1_slot14;
             var5 = var3.video;
             var5 = var6.bind(var7)(var5);
             var1['video'] = var5;
- 1060:
+case 34:
             var6 = _closure1_slot6;
             var5 = var6.has;
             var4 = var1.type;
             var4 = var5.bind(var6)(var4);
-            if(var4) { _fun0003_ip = 1094; continue _fun0003 }
- 1082:
+            if(var4) { _fun0003_ip = 61; continue _fun0003 }
+case 62:
             var4 = new Array(0);
             var1['fields'] = var4;
-            _fun0003_ip = 1131; continue _fun0003;
- 1094:
+            _fun0003_ip = 63; continue _fun0003;
+case 61:
             var4 = var3.fields;
-            if(!(var2 == var4)) { _fun0003_ip = 1108; continue _fun0003 }
- 1104:
+            if(!(var2 == var4)) { _fun0003_ip = 64; continue _fun0003 }
+case 65:
             var4 = new Array(0);
- 1108:
+case 64:
             var3 = var4.map;
             var2 = function(arg1) {
                 var1 = arg1;
@@ -469,7 +469,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var2 = var3.bind(var4)(var2);
             var1['fields'] = var2;
- 1131:
+case 63:
             return var1;
         }
     };
@@ -489,47 +489,47 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var4.forEach;
         var2 = function(arg1) {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                 var4 = arg1;
                 var1 = var4.url;
                 var5 = null;
-                if(!(var5 == var1)) { _fun0004_ip = 33; continue _fun0004 }
- 14:
+                if(!(var5 == var1)) { _fun0004_ip = 66; continue _fun0004 }
+case 67:
                 var2 = _closure2_slot1;
                 var1 = var2.push;
                 var1 = var1.bind(var2)(var4);
-                _fun0004_ip = 143; continue _fun0004;
- 33:
+                _fun0004_ip = 68; continue _fun0004;
+case 66:
                 var6 = _closure2_slot0;
                 var3 = var6.get;
                 var2 = var4.url;
                 var2 = var3.bind(var6)(var2);
-                if(!(var5 != var2)) { _fun0004_ip = 147; continue _fun0004 }
- 59:
+                if(!(var5 != var2)) { _fun0004_ip = 69; continue _fun0004 }
+case 70:
                 var3 = var4.image;
-                if(!(var5 != var3)) { _fun0004_ip = 143; continue _fun0004 }
- 69:
+                if(!(var5 != var3)) { _fun0004_ip = 68; continue _fun0004 }
+case 71:
                 var3 = var2.images;
-                if(!(var5 == var3)) { _fun0004_ip = 121; continue _fun0004 }
- 79:
+                if(!(var5 == var3)) { _fun0004_ip = 72; continue _fun0004 }
+case 73:
                 var3 = new Array(0);
                 var2['images'] = var3;
                 var3 = var2.image;
-                if(!(var5 != var3)) { _fun0004_ip = 121; continue _fun0004 }
- 99:
+                if(!(var5 != var3)) { _fun0004_ip = 72; continue _fun0004 }
+case 74:
                 var6 = var2.images;
                 var5 = var6.push;
                 var3 = var2.image;
                 var3 = var5.bind(var6)(var3);
- 121:
+case 72:
                 var5 = var2.images;
                 var3 = var5.push;
                 var2 = var4.image;
                 var2 = var3.bind(var5)(var2);
- 143:
+case 68:
                 var2 = undefined;
                 return var2;
- 147:
+case 69:
                 var3 = _closure2_slot1;
                 var2 = var3.push;
                 var2 = var2.bind(var3)(var4);
@@ -547,7 +547,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['mergeEmbedsOnURL'] = var4;
     var4 = function isEmbedInline(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
             var3 = arg1;
             var1 = var3.image;
             var2 = var3.video;
@@ -556,186 +556,186 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var3.rawTitle;
             var4 = null;
             var1 = var4 != var1;
-            if(var1) { _fun0005_ip = 45; continue _fun0005 }
- 41:
+            if(var1) { _fun0005_ip = 75; continue _fun0005 }
+case 76:
             var1 = var4 != var2;
- 45:
-            if(!var1) { _fun0005_ip = 102; continue _fun0005 }
- 48:
+case 75:
+            if(!var1) { _fun0005_ip = 77; continue _fun0005 }
+case 78:
             var2 = _closure1_slot4;
             var2 = var2.GIFV;
             var2 = var7 === var2;
-            if(var2) { _fun0005_ip = 99; continue _fun0005 }
- 68:
+            if(var2) { _fun0005_ip = 74; continue _fun0005 }
+case 79:
             var3 = _closure1_slot4;
             var3 = var3.RICH;
             var3 = var7 !== var3;
-            if(!var3) { _fun0005_ip = 89; continue _fun0005 }
- 85:
+            if(!var3) { _fun0005_ip = 80; continue _fun0005 }
+case 81:
             var3 = var4 == var6;
- 89:
-            if(!var3) { _fun0005_ip = 96; continue _fun0005 }
- 92:
+case 80:
+            if(!var3) { _fun0005_ip = 82; continue _fun0005 }
+case 83:
             var3 = var4 == var5;
- 96:
+case 82:
             var2 = var3;
- 99:
+case 74:
             var1 = var2;
- 102:
+case 77:
             return var1;
         }
     };
     var3['isEmbedInline'] = var4;
     var4 = function isServerShopArticleEmbed(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
- 0:
+case 0:
             var3 = arg1;
             var2 = var3.type;
             var1 = _closure1_slot4;
             var1 = var1.ARTICLE;
             var1 = var2 === var1;
-            if(!var1) { _fun0006_ip = 39; continue _fun0006 }
- 28:
+            if(!var1) { _fun0006_ip = 84; continue _fun0006 }
+case 85:
             var5 = var3.url;
             var2 = null;
             var1 = var2 != var5;
- 39:
+case 84:
             if(!var1) { _fun0006_ip = 86; continue _fun0006 }
- 42:
+case 87:
             var6 = _closure1_slot11;
             var5 = var6.test;
             var2 = var3.url;
             var2 = var5.bind(var6)(var2);
-            if(var2) { _fun0006_ip = 83; continue _fun0006 }
- 64:
+            if(var2) { _fun0006_ip = 88; continue _fun0006 }
+case 89:
             var5 = _closure1_slot10;
             var4 = var5.test;
             var3 = var3.url;
             var2 = var4.bind(var5)(var3);
- 83:
+case 88:
             var1 = var2;
- 86:
+case 86:
             return var1;
         }
     };
     var3['isServerShopArticleEmbed'] = var4;
     var4 = function isCollectiblesShopArticleEmbed(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
- 0:
+case 0:
             var2 = arg1;
             var4 = var2.type;
             var1 = _closure1_slot4;
             var1 = var1.ARTICLE;
             var1 = var4 === var1;
-            if(!var1) { _fun0007_ip = 39; continue _fun0007 }
- 28:
+            if(!var1) { _fun0007_ip = 84; continue _fun0007 }
+case 85:
             var5 = var2.url;
             var4 = null;
             var1 = var4 != var5;
- 39:
-            if(!var1) { _fun0007_ip = 61; continue _fun0007 }
- 42:
+case 84:
+            if(!var1) { _fun0007_ip = 90; continue _fun0007 }
+case 87:
             var4 = _closure1_slot12;
             var3 = var4.test;
             var2 = var2.url;
             var1 = var3.bind(var4)(var2);
- 61:
+case 90:
             return var1;
         }
     };
     var3['isCollectiblesShopArticleEmbed'] = var4;
     var4 = function getMaxEmbedMediaSize(arg1, arg2, arg3) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
- 0:
+case 0:
             var4 = arg2;
             var3 = arg3;
             var2 = null;
-            if(!(var2 != var4)) { _fun0008_ip = 16; continue _fun0008 }
- 12:
-            if(!(var2 == var3)) { _fun0008_ip = 81; continue _fun0008 }
- 16:
+            if(!(var2 != var4)) { _fun0008_ip = 91; continue _fun0008 }
+case 92:
+            if(!(var2 == var3)) { _fun0008_ip = 93; continue _fun0008 }
+case 91:
             var1 = arg1;
             var1 = var1.provider;
             var5 = var2 == var1;
             var2 = undefined;
-            if(var5) { _fun0008_ip = 39; continue _fun0008 }
- 34:
+            if(var5) { _fun0008_ip = 84; continue _fun0008 }
+case 94:
             var2 = var1.name;
- 39:
+case 84:
             var1 = 'TikTok';
-            if(!(var1 !== var2)) { _fun0008_ip = 65; continue _fun0008 }
- 49:
+            if(!(var1 !== var2)) { _fun0008_ip = 95; continue _fun0008 }
+case 96:
             var1 = {'maxMediaWidth': 400, 'maxMediaHeight': 300};
-            _fun0008_ip = 79; continue _fun0008;
- 65:
+            _fun0008_ip = 73; continue _fun0008;
+case 95:
             var1 = {'maxMediaWidth': 400, 'maxMediaHeight': 450};
- 79:
-            _fun0008_ip = 96; continue _fun0008;
- 81:
+case 73:
+            _fun0008_ip = 82; continue _fun0008;
+case 93:
             var2 = {};
             var2['maxMediaWidth'] = var4;
             var2['maxMediaHeight'] = var3;
             var1 = var2;
- 96:
+case 82:
             return var1;
         }
     };
     var3['getMaxEmbedMediaSize'] = var4;
     var4 = function canEmbedLinks(arg1, arg2) {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
- 0:
+case 0:
             var3 = arg1;
             var4 = arg2;
             var1 = var3.isPrivate;
             var1 = var1.bind(var3)();
-            if(var1) { _fun0009_ip = 46; continue _fun0009 }
- 19:
+            if(var1) { _fun0009_ip = 97; continue _fun0009 }
+case 98:
             var2 = var4.can;
             var1 = _closure1_slot5;
             var1 = var1.EMBED_LINKS;
             var1 = var2.bind(var4)(var1, var3);
-            _fun0009_ip = 59; continue _fun0009;
- 46:
+            _fun0009_ip = 70; continue _fun0009;
+case 97:
             var2 = var3.isManaged;
             var2 = var2.bind(var3)();
             var1 = !var2;
- 59:
+case 70:
             return var1;
         }
     };
     var3['canEmbedLinks'] = var4;
     var2 = function shouldStripEmbeds(arg1) {
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
- 0:
+case 0:
             var2 = arg1;
             var3 = var2.content;
             var1 = '';
             var1 = var1 !== var3;
-            if(var1) { _fun0010_ip = 43; continue _fun0010 }
- 19:
+            if(var1) { _fun0010_ip = 99; continue _fun0010 }
+case 98:
             var4 = var2.messageSnapshots;
             var3 = var4.some;
             var2 = function(arg1) {
                 _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
- 0:
+case 0:
                     var2 = arg1;
                     var1 = var2.message;
                     var3 = var1.content;
                     var1 = '';
                     var1 = var1 !== var3;
-                    if(var1) { _fun0011_ip = 46; continue _fun0011 }
- 24:
+                    if(var1) { _fun0011_ip = 97; continue _fun0011 }
+case 100:
                     var2 = var2.message;
                     var2 = var2.attachments;
                     var3 = var2.length;
                     var2 = 0;
                     var1 = var3 > var2;
- 46:
+case 97:
                     return var1;
                 }
             };
             var1 = var3.bind(var4)(var2);
- 43:
+case 99:
             return var1;
         }
     };

@@ -36,16 +36,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['FORWARD_MODAL_KEY'] = var4;
     var4 = function openForwardModal(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var10 = var2.message;
             var3 = var2.source;
             var9 = var2.initialSelectedDestinations;
             var1 = undefined;
-            if(!(var9 === var1)) { _fun0001_ip = 29; continue _fun0001 }
- 25:
+            if(!(var9 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var9 = new Array(0);
- 29:
+case 2:
             var8 = var2.forwardOptions;
             var4 = _closure1_slot0;
             var6 = _closure1_slot2;
@@ -66,8 +66,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.bind(var1)(var2);
             var2 = var4.getIsWindowLarge;
             var2 = var2.bind(var4)();
-            if(!var2) { _fun0001_ip = 158; continue _fun0001 }
- 128:
+            if(!var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var4 = 5;
@@ -75,7 +75,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.bind(var1)(var4);
             var4 = var6.isIOS;
             var2 = var4.bind(var6)();
- 158:
+case 4:
             var7 = _closure1_slot1;
             var4 = _closure1_slot2;
             var6 = 6;
@@ -96,13 +96,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4['forwardOptions'] = var8;
             var4['source'] = var3;
             var3 = undefined;
-            if(var2) { _fun0001_ip = 257; continue _fun0001 }
- 243:
+            if(var2) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var2 = {};
             var8 = 'modal';
             var2['presentation'] = var8;
             var3 = var2;
- 257:
+case 6:
             var14 = 'forward-modal';
             var17 = var7;
             var16 = var5;

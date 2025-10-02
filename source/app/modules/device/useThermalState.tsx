@@ -9,11 +9,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function _getThermalState(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = null;
-            if(!(var2 != var1)) { _fun0001_ip = 256; continue _fun0001 }
- 12:
+            if(!(var2 != var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
             var6 = 0;
@@ -22,70 +22,70 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.bind(var5)(var3);
             var3 = var4.isIOS;
             var3 = var3.bind(var4)();
-            if(var3) { _fun0001_ip = 254; continue _fun0001 }
- 52:
+            if(var3) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
             var3 = var3[var6];
             var4 = var4.bind(var5)(var3);
             var3 = var4.isAndroid;
             var3 = var3.bind(var4)();
-            if(var3) { _fun0001_ip = 93; continue _fun0001 }
- 81:
+            if(var3) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var3 = _closure1_slot3;
             var3 = var3.UNHANDLED;
             return var3;
- 93:
+case 6:
             var3 = _closure1_slot4;
             var3 = var3.NONE;
-            if(!(var3 !== var1)) { _fun0001_ip = 242; continue _fun0001 }
- 110:
+            if(!(var3 !== var1)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var3 = _closure1_slot4;
             var3 = var3.LIGHT;
-            if(!(var3 !== var1)) { _fun0001_ip = 230; continue _fun0001 }
- 124:
+            if(!(var3 !== var1)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var3 = _closure1_slot4;
             var3 = var3.MODERATE;
-            if(!(var3 !== var1)) { _fun0001_ip = 230; continue _fun0001 }
- 138:
+            if(!(var3 !== var1)) { _fun0001_ip = 10; continue _fun0001 }
+case 12:
             var3 = _closure1_slot4;
             var3 = var3.SEVERE;
-            if(!(var3 !== var1)) { _fun0001_ip = 218; continue _fun0001 }
- 152:
+            if(!(var3 !== var1)) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var3 = _closure1_slot4;
             var3 = var3.CRITICAL;
-            if(!(var3 !== var1)) { _fun0001_ip = 206; continue _fun0001 }
- 166:
+            if(!(var3 !== var1)) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
             var3 = _closure1_slot4;
             var3 = var3.EMERGENCY;
-            if(!(var3 !== var1)) { _fun0001_ip = 206; continue _fun0001 }
- 180:
+            if(!(var3 !== var1)) { _fun0001_ip = 15; continue _fun0001 }
+case 17:
             var3 = _closure1_slot4;
             var3 = var3.SHUTDOWN;
-            if(!(var3 !== var1)) { _fun0001_ip = 206; continue _fun0001 }
- 194:
+            if(!(var3 !== var1)) { _fun0001_ip = 15; continue _fun0001 }
+case 18:
             var3 = _closure1_slot3;
             var3 = var3.UNHANDLED;
             return var3;
- 206:
+case 15:
             var3 = _closure1_slot3;
             var3 = var3.CRITICAL;
             return var3;
- 218:
+case 13:
             var3 = _closure1_slot3;
             var3 = var3.SERIOUS;
             return var3;
- 230:
+case 10:
             var3 = _closure1_slot3;
             var3 = var3.FAIR;
             return var3;
- 242:
+case 8:
             var2 = _closure1_slot3;
             var2 = var2.NOMINAL;
             return var2;
- 254:
+case 4:
             return var1;
- 256:
+case 2:
             var1 = _closure1_slot3;
             var1 = var1.UNHANDLED;
             return var1;

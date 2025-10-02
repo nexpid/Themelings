@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function FeedbackForm(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = var2.result;
             var _closure2_slot0 = var1;
@@ -55,13 +55,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = null;
             var24 = var16 == var23;
             var22 = undefined;
-            if(var24) { _fun0001_ip = 202; continue _fun0001 }
- 197:
+            if(var24) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var22 = var23.label;
- 202:
+case 2:
             var10['value'] = var22;
-            if(!(var16 == var8)) { _fun0001_ip = 267; continue _fun0001 }
- 210:
+            if(!(var16 == var8)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var25 = _closure1_slot0;
             var26 = _closure1_slot2;
             var22 = 6;
@@ -74,7 +74,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var22 = var22.t;
             var22 = var22.vcqwCg;
             var8 = var23.bind(var24)(var22);
- 267:
+case 4:
             var10['title'] = var8;
             var8 = true;
             var10['disabled'] = var8;
@@ -97,8 +97,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var10.FormInput;
             var10 = {'value': null, 'title': null, 'onChange': null, 'multiline': true, 'numberOfLines': 4, 'autoCorrect': true};
             var10['value'] = var17;
-            if(!(var16 == var20)) { _fun0001_ip = 437; continue _fun0001 }
- 380:
+            if(!(var16 == var20)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var24 = _closure1_slot0;
             var25 = _closure1_slot2;
             var21 = 6;
@@ -111,7 +111,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var21 = var21.t;
             var21 = var21.h95hcn;
             var20 = var22.bind(var23)(var21);
- 437:
+case 6:
             var10['title'] = var20;
             var10['onChange'] = var19;
             var10 = var12.bind(var4)(var11, var10);
@@ -126,8 +126,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var15.bottomContainer;
             var6['style'] = var10;
             var10 = !var9;
-            if(!var10) { _fun0001_ip = 657; continue _fun0001 }
- 506:
+            if(!var10) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var12 = _closure1_slot7;
             var20 = _closure1_slot0;
             var25 = _closure1_slot2;
@@ -158,7 +158,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var19 = var21.bind(var22)(var20, var19);
             var9['children'] = var19;
             var10 = var12.bind(var4)(var11, var9);
- 657:
+case 8:
             var9 = new Array(2);
             var9[0] = var10;
             var12 = _closure1_slot7;
@@ -169,10 +169,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var11.bind(var4)(var10);
             var10 = {};
             var16 = var16 == var17;
-            if(var16) { _fun0001_ip = 702; continue _fun0001 }
- 698:
+            if(var16) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var16 = var18 === var17;
- 702:
+case 10:
             var10['disabled'] = var16;
             var15 = var15.submitButton;
             var10['style'] = var15;

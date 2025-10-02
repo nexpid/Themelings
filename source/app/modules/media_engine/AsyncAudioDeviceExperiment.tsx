@@ -22,15 +22,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function getAsyncAudioDeviceExperimentConfig(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = var1.location;
             var6 = var1.autoTrackExposure;
             var5 = undefined;
-            if(!(var6 === var5)) { _fun0001_ip = 22; continue _fun0001 }
- 20:
+            if(!(var6 === var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = true;
- 22:
+case 2:
             var1 = {};
             var4 = _closure1_slot0;
             var7 = _closure1_slot1;

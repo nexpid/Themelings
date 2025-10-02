@@ -97,7 +97,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function UserProfileUpsellCard(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var10 = var1.style;
             var9 = var1.children;
@@ -148,8 +148,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['contentContainerStyle'] = var8;
             var10 = null;
             var8 = var10 != var23;
-            if(!var8) { _fun0001_ip = 383; continue _fun0001 }
- 228:
+            if(!var8) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var16 = _closure1_slot8;
             var11 = _closure1_slot3;
             var8 = {};
@@ -186,7 +186,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var19[1] = var20;
             var8['children'] = var19;
             var10 = var16.bind(var4)(var11, var8);
- 383:
+case 2:
             var8 = new Array(3);
             var8[0] = var10;
             var8[1] = var9;
@@ -223,8 +223,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var9['renderIcon'] = var12;
             var12 = undefined;
-            if(!var14) { _fun0001_ip = 495; continue _fun0001 }
- 488:
+            if(!var14) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var12 = function() {
                 var4 = _closure1_slot7;
                 var2 = _closure1_slot1;
@@ -250,7 +250,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var4.bind(var3)(var2, var1);
                 return var1;
             };
- 495:
+case 4:
             var9['renderLinearGradient'] = var12;
             var9 = var11.bind(var4)(var10, var9);
             var8[2] = var9;

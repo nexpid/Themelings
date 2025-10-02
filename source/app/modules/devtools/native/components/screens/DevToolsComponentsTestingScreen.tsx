@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function Select(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = var1.type;
             var19 = var1.title;
@@ -30,10 +30,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var21 = _closure1_slot11;
             var22 = var7;
             var1 = copyDataProperties(var22, var21);
-            if(!var11) { _fun0001_ip = 85; continue _fun0001 }
- 82:
+            if(!var11) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = 4;
- 85:
+case 2:
             var1 = 'maxValues';
             var7[var1] = var3;
             var17 = 'type';
@@ -78,8 +78,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var13.bind(var4)(var8);
             var8 = var8.ComponentType;
             var8 = var8.STRING_SELECT;
-            if(!(var12 !== var8)) { _fun0001_ip = 333; continue _fun0001 }
- 279:
+            if(!(var12 !== var8)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var13 = _closure1_slot7;
             var12 = _closure1_slot1;
             var16 = _closure1_slot2;
@@ -93,8 +93,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = var7.type;
             var8[var17] = var16;
             var8 = var13.bind(var4)(var12, var8);
-            _fun0001_ip = 375; continue _fun0001;
- 333:
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
             var16 = _closure1_slot7;
             var13 = _closure1_slot1;
             var17 = _closure1_slot2;
@@ -106,18 +106,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var21 = var7;
             var17 = copyDataProperties(var22, var21);
             var8 = var16.bind(var4)(var13, var12);
- 375:
+case 6:
             var5[1] = var8;
             var8 = null;
             var12 = var8 == var14;
             var8 = undefined;
-            if(var12) { _fun0001_ip = 395; continue _fun0001 }
- 390:
+            if(var12) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var8 = var14.type;
- 395:
+case 7:
             var7 = var7.type;
-            if(!(var8 !== var7)) { _fun0001_ip = 452; continue _fun0001 }
- 404:
+            if(!(var8 !== var7)) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var12 = _closure1_slot7;
             var8 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -126,8 +126,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var7.Text;
             var7 = {'variant': 'text-md/normal', 'children': 'Nothing selected'};
             var7 = var12.bind(var4)(var8, var7);
-            _fun0001_ip = 571; continue _fun0001;
- 452:
+            _fun0001_ip = 11; continue _fun0001;
+case 9:
             var13 = _closure1_slot8;
             var12 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -139,8 +139,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8['variant'] = var15;
             var15 = 'values';
             var15 = var15 in var14;
-            if(var15) { _fun0001_ip = 526; continue _fun0001 }
- 501:
+            if(var15) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var17 = var14.selectedOptions;
             var16 = var17.map;
             var15 = function(arg1) {
@@ -149,10 +149,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var16 = var16.bind(var17)(var15);
-            _fun0001_ip = 531; continue _fun0001;
- 526:
+            _fun0001_ip = 14; continue _fun0001;
+case 12:
             var16 = var14.values;
- 531:
+case 14:
             var15 = var16.join;
             var14 = ', ';
             var15 = var15.bind(var16)(var14);
@@ -160,7 +160,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14[1] = var15;
             var8['children'] = var14;
             var7 = var13.bind(var4)(var12, var8);
- 571:
+case 11:
             var5[2] = var7;
             var8 = _closure1_slot7;
             var7 = _closure1_slot0;
@@ -171,10 +171,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var6.Button;
             var6 = {};
             var13 = 'off';
-            if(!var11) { _fun0001_ip = 618; continue _fun0001 }
- 614:
+            if(!var11) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
             var13 = 'on';
- 618:
+case 15:
             var10 = var10.HermesInternal;
             var12 = var10.concat;
             var11 = 'Toggle Multi Select (';

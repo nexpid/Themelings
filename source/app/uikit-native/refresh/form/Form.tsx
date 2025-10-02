@@ -54,21 +54,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var8.forwardRef;
     var4 = function(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var16 = var1.style;
             var7 = var1.children;
             var10 = var1.keyboardShouldPersistTaps;
             var4 = undefined;
-            if(!(var10 === var4)) { _fun0001_ip = 31; continue _fun0001 }
- 25:
+            if(!(var10 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var10 = 'never';
- 31:
+case 2:
             var9 = var1.alwaysBounceVertical;
-            if(!(var9 === var4)) { _fun0001_ip = 43; continue _fun0001 }
- 41:
+            if(!(var9 === var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var9 = true;
- 43:
+case 4:
             var12 = var1.contentContainerStyle;
             var8 = var1.onScroll;
             var13 = var1.scrollsToTop;
@@ -108,10 +108,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = new Array(3);
             var13[0] = var17;
             var13[1] = var16;
-            if(!var14) { _fun0001_ip = 224; continue _fun0001 }
- 218:
+            if(!var14) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var14 = var15.redesign;
- 224:
+case 6:
             var13[2] = var14;
             var5['style'] = var13;
             var13 = {};

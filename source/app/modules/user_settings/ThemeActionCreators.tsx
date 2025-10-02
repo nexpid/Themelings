@@ -50,13 +50,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['setSystemTheme'] = var4;
     var4 = function setSystemThemeIfNeeded() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = _closure1_slot2;
             var3 = var2.useSystemTheme;
             var2 = _closure1_slot3;
             var2 = var2.OFF;
-            if(!(var3 !== var2)) { _fun0001_ip = 62; continue _fun0001 }
- 27:
+            if(!(var3 !== var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = _closure1_slot4;
             var4 = _closure1_slot0;
             var2 = _closure1_slot1;
@@ -66,7 +66,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var4.bind(var2)(var1);
             var1 = var1.bind(var2)();
             var1 = var3.bind(var2)(var1);
- 62:
+case 2:
             var1 = undefined;
             return var1;
         }

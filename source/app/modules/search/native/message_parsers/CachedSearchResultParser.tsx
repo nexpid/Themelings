@@ -36,7 +36,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3['resultsCache'] = var4;
         var2 = function(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var3 = arg1;
                 var1 = _closure2_slot0;
                 var5 = var1.resultsCache;
@@ -44,8 +44,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var3.id;
                 var1 = var4.bind(var5)(var1);
                 var4 = null;
-                if(!(var4 == var1)) { _fun0001_ip = 76; continue _fun0001 }
- 37:
+                if(!(var4 == var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var4 = _closure2_slot0;
                 var2 = var4.getSearchResults;
                 var2 = var2.bind(var4)(var3);
@@ -54,7 +54,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var3.id;
                 var3 = var4.bind(var5)(var3, var2);
                 return var2;
- 76:
+case 2:
                 return var1;
             }
         };

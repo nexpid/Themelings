@@ -78,7 +78,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function VoiceChannelUserLimit(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var14 = var1.users;
             var12 = var1.total;
@@ -95,8 +95,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var15.left;
             var5['style'] = var8;
             var8 = null;
-            if(!var7) { _fun0001_ip = 153; continue _fun0001 }
- 70:
+            if(!var7) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var10 = _closure1_slot4;
             var13 = _closure1_slot1;
             var16 = _closure1_slot2;
@@ -116,7 +116,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var15.videoIcon;
             var7['style'] = var11;
             var8 = var10.bind(var4)(var9, var7);
- 153:
+case 2:
             var7 = new Array(2);
             var7[0] = var8;
             var8 = _closure1_slot4;

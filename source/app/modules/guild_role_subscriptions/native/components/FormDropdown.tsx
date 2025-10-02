@@ -129,7 +129,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var7)(var5);
     var4 = function FormDropdown(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var12 = var1.disabled;
             var11 = var1.label;
@@ -146,13 +146,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2.bind(var4)(var1);
             var13 = var1.bind(var4)();
             var3 = _closure1_slot3;
-            if(var12) { _fun0001_ip = 80; continue _fun0001 }
- 74:
+            if(var12) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = _closure1_slot7;
-            _fun0001_ip = 84; continue _fun0001;
- 80:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var2 = _closure1_slot6;
- 84:
+case 4:
             var1 = {};
             var6 = var3.bind(var4)(var2, var1);
             var3 = _closure1_slot4;
@@ -172,10 +172,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['accessibilityRole'] = var5;
             var1['disabled'] = var12;
             var5 = undefined;
-            if(var12) { _fun0001_ip = 167; continue _fun0001 }
- 164:
+            if(var12) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var5 = var9;
- 167:
+case 5:
             var1['onPress'] = var5;
             var5 = new Array(3);
             var5[0] = var8;
@@ -191,19 +191,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = new Array(2);
             var13[0] = var12;
             var12 = null;
-            if(!(var12 == var11)) { _fun0001_ip = 238; continue _fun0001 }
- 230:
+            if(!(var12 == var11)) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var14 = var15.placeholder;
-            _fun0001_ip = 243; continue _fun0001;
- 238:
+            _fun0001_ip = 9; continue _fun0001;
+case 7:
             var14 = var15.text;
- 243:
+case 9:
             var13[1] = var14;
             var7['style'] = var13;
-            if(!(var12 != var11)) { _fun0001_ip = 258; continue _fun0001 }
- 255:
+            if(!(var12 != var11)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var10 = var11;
- 258:
+case 10:
             var7['children'] = var10;
             var7 = var9.bind(var4)(var8, var7);
             var5[1] = var7;

@@ -29,7 +29,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function trackVideoToggle(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
             var1 = 1;
@@ -59,46 +59,46 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = null;
             var14 = var6 == var9;
             var9 = undefined;
-            if(var14) { _fun0001_ip = 143; continue _fun0001 }
- 135:
+            if(var14) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var14 = _closure1_slot3;
             var9 = var14.bind(var1)();
- 143:
+case 2:
             var2['rtc_connection_id'] = var9;
             var9 = _closure1_slot4;
             var14 = var6 == var9;
             var9 = undefined;
-            if(var14) { _fun0001_ip = 169; continue _fun0001 }
- 161:
+            if(var14) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var13 = _closure1_slot4;
             var9 = var13.bind(var1)();
- 169:
+case 4:
             var2['media_session_id'] = var9;
             var9 = null;
-            if(!var8) { _fun0001_ip = 182; continue _fun0001 }
- 179:
+            if(!var8) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var9 = var12;
- 182:
+case 6:
             var2['video_health_manager_window_length'] = var9;
             var9 = null;
-            if(!var8) { _fun0001_ip = 197; continue _fun0001 }
- 194:
+            if(!var8) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var9 = var11;
- 197:
+case 8:
             var2['video_health_manager_poor_fps_ratio'] = var9;
             var9 = null;
-            if(!var8) { _fun0001_ip = 212; continue _fun0001 }
- 209:
+            if(!var8) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var9 = var10;
- 212:
+case 10:
             var2['video_health_manager_fps_threshold'] = var9;
             var9 = arg3;
             var2['is_video_shown'] = var9;
             var6 = null;
-            if(!var8) { _fun0001_ip = 237; continue _fun0001 }
- 234:
+            if(!var8) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var6 = var7;
- 237:
+case 12:
             var2['video_health_manager_backoff_time_seconds'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var1;

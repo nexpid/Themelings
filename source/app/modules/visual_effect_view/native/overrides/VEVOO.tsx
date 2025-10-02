@@ -322,7 +322,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var8.memo;
     var4 = function VisualEffectViewOverrideOverlay(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
             var1 = 16;
@@ -342,8 +342,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var3 = var4.bind(var7)(var3, var1);
             var1 = null;
-            if(!var3) { _fun0001_ip = 100; continue _fun0001 }
- 62:
+            if(!var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = _closure1_slot6;
             var3 = _closure1_slot10;
             var2 = {};
@@ -365,7 +365,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var2;
             var6 = copyDataProperties(var9, var8);
             var1 = var4.bind(var5)(var3, var2);
- 100:
+case 2:
             return var1;
         }
     };

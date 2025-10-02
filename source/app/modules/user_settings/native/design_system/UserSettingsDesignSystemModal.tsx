@@ -430,7 +430,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot13 = var1;
     var1 = function DemoScreen(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var21 = var1.title;
             var26 = var1.emoji;
@@ -460,8 +460,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = {};
             var11 = null;
             var13 = var11 != var26;
-            if(!var13) { _fun0001_ip = 221; continue _fun0001 }
- 131:
+            if(!var13) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var17 = _closure1_slot7;
             var14 = _closure1_slot5;
             var9 = {};
@@ -483,7 +483,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var23 = var25.bind(var4)(var24, var23);
             var9['children'] = var23;
             var13 = var17.bind(var4)(var14, var9);
- 221:
+case 2:
             var9 = new Array(3);
             var9[0] = var13;
             var17 = _closure1_slot7;
@@ -504,8 +504,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var8.bind(var4)(var7, var5);
             var5 = new Array(2);
             var5[0] = var7;
-            if(!(var11 == var6)) { _fun0001_ip = 553; continue _fun0001 }
- 324:
+            if(!(var11 == var6)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var9 = _closure1_slot8;
             var8 = _closure1_slot0;
             var10 = _closure1_slot2;
@@ -515,8 +515,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var7.ModalFooter;
             var7 = {};
             var13 = var11 != var18;
-            if(!var13) { _fun0001_ip = 405; continue _fun0001 }
- 363:
+            if(!var13) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var17 = _closure1_slot7;
             var14 = _closure1_slot0;
             var21 = _closure1_slot2;
@@ -527,12 +527,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = {};
             var10['children'] = var18;
             var13 = var17.bind(var4)(var14, var10);
- 405:
+case 6:
             var10 = new Array(3);
             var10[0] = var13;
             var13 = var11 != var20;
-            if(!var13) { _fun0001_ip = 474; continue _fun0001 }
- 420:
+            if(!var13) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var18 = _closure1_slot7;
             var17 = _closure1_slot0;
             var21 = _closure1_slot2;
@@ -546,11 +546,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14['text'] = var20;
             var14['onPress'] = var19;
             var13 = var18.bind(var4)(var17, var14);
- 474:
+case 8:
             var10[1] = var13;
             var11 = var11 != var16;
-            if(!var11) { _fun0001_ip = 539; continue _fun0001 }
- 485:
+            if(!var11) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var14 = _closure1_slot7;
             var13 = _closure1_slot0;
             var17 = _closure1_slot2;
@@ -564,11 +564,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12['text'] = var16;
             var12['onPress'] = var15;
             var11 = var14.bind(var4)(var13, var12);
- 539:
+case 10:
             var10[2] = var11;
             var7['children'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 553:
+case 4:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
@@ -671,14 +671,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var3.map;
                     var1 = function(arg1, arg2) {
                         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                             var1 = arg1;
                             var3 = _closure3_slot0;
                             var2 = arg2;
-                            if(!(var2 === var3)) { _fun0002_ip = 24; continue _fun0002 }
- 17:
+                            if(!(var2 === var3)) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
                             var1 = _closure4_slot0;
- 24:
+case 12:
                             return var1;
                         }
                     };

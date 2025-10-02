@@ -108,7 +108,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['useDescription'] = var8;
     var8 = function useHasExperimentOverrideActive() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
             var2 = 7;
@@ -121,10 +121,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var1.bind(var3)();
             var1 = 0;
             var1 = var3 > var1;
-            if(!var1) { _fun0001_ip = 55; continue _fun0001 }
- 52:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var2;
- 55:
+case 2:
             return var1;
         }
     };

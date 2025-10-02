@@ -153,25 +153,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var14[1] = var11;
         var11 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var3 = _closure2_slot3;
                 var2 = null;
                 var4 = var2 != var3;
                 var3 = null;
-                if(!var4) { _fun0001_ip = 45; continue _fun0001 }
- 18:
+                if(!var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var6 = _closure1_slot5;
                 var5 = var6.getMember;
                 var4 = _closure2_slot3;
                 var1 = _closure2_slot5;
                 var3 = var5.bind(var6)(var4, var1);
- 45:
+case 2:
                 var4 = var2 == var3;
                 var1 = undefined;
-                if(var4) { _fun0001_ip = 60; continue _fun0001 }
- 54:
+                if(var4) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var1 = var3.joinedAt;
- 60:
+case 4:
                 var1 = var2 != var1;
                 return var1;
             }
@@ -189,39 +189,39 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5[1] = var2;
         var2 = function() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var2 = _closure2_slot2;
                 var4 = null;
-                if(!(var4 == var2)) { _fun0002_ip = 37; continue _fun0002 }
- 13:
+                if(!(var4 == var2)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                 var5 = _closure1_slot7;
                 var3 = var5.getInviteKeyForGuildId;
                 var2 = _closure2_slot3;
                 var5 = var3.bind(var5)(var2);
-                _fun0002_ip = 41; continue _fun0002;
- 37:
+                _fun0002_ip = 8; continue _fun0002;
+case 6:
                 var5 = _closure2_slot2;
- 41:
+case 8:
                 var1 = var4 != var5;
                 var2 = null;
-                if(!var1) { _fun0002_ip = 68; continue _fun0002 }
- 50:
+                if(!var1) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
                 var3 = _closure1_slot7;
                 var1 = var3.getInvite;
                 var2 = var1.bind(var3)(var5);
- 68:
-                if(!(var4 != var2)) { _fun0002_ip = 227; continue _fun0002 }
- 75:
+case 9:
+                if(!(var4 != var2)) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
                 var6 = var2.state;
                 var1 = _closure1_slot9;
                 var1 = var1.BANNED;
-                if(!(var6 !== var1)) { _fun0002_ip = 227; continue _fun0002 }
- 100:
+                if(!(var6 !== var1)) { _fun0002_ip = 11; continue _fun0002 }
+case 13:
                 var6 = var2.state;
                 var1 = _closure1_slot9;
                 var1 = var1.EXPIRED;
-                if(!(var6 !== var1)) { _fun0002_ip = 227; continue _fun0002 }
- 119:
+                if(!(var6 !== var1)) { _fun0002_ip = 11; continue _fun0002 }
+case 14:
                 var1 = {};
                 var1['validInviteKey'] = var5;
                 var6 = _closure1_slot0;
@@ -234,10 +234,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = var2.flags;
                 var9 = var4 != var7;
                 var4 = 0;
-                if(!var9) { _fun0002_ip = 171; continue _fun0002 }
- 168:
+                if(!var9) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
                 var4 = var7;
- 171:
+case 15:
                 var7 = _closure1_slot0;
                 var9 = _closure1_slot2;
                 var3 = 9;
@@ -249,10 +249,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1['isBypassInvite'] = var3;
                 var2 = var2.roles;
                 var1['inviteRoles'] = var2;
-                _fun0002_ip = 241; continue _fun0002;
- 227:
+                _fun0002_ip = 17; continue _fun0002;
+case 11:
                 var1 = {'validInviteKey': null, 'isBypassInvite': false, 'inviteRoles': null};
- 241:
+case 17:
                 return var1;
             }
         };
@@ -288,40 +288,40 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3[11] = var7;
         var1 = function() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var1 = _closure2_slot8;
-                if(var1) { _fun0003_ip = 290; continue _fun0003 }
- 15:
+                if(var1) { _fun0003_ip = 18; continue _fun0003 }
+case 19:
                 var5 = _closure2_slot12;
                 var4 = var5.includes;
                 var1 = _closure2_slot3;
                 var1 = var4.bind(var5)(var1);
-                if(var1) { _fun0003_ip = 275; continue _fun0003 }
- 39:
+                if(var1) { _fun0003_ip = 20; continue _fun0003 }
+case 21:
                 var1 = _closure2_slot4;
                 var7 = null;
-                if(!(var7 != var1)) { _fun0003_ip = 192; continue _fun0003 }
- 52:
+                if(!(var7 != var1)) { _fun0003_ip = 22; continue _fun0003 }
+case 23:
                 var6 = _closure2_slot4;
                 var5 = var6.includes;
                 var4 = _closure1_slot10;
                 var4 = var4.MEMBER_VERIFICATION_GATE_ENABLED;
                 var4 = var5.bind(var6)(var4);
-                if(!var4) { _fun0003_ip = 192; continue _fun0003 }
- 82:
+                if(!var4) { _fun0003_ip = 22; continue _fun0003 }
+case 24:
                 var4 = _closure2_slot4;
-                if(!(var7 != var4)) { _fun0003_ip = 192; continue _fun0003 }
- 90:
+                if(!(var7 != var4)) { _fun0003_ip = 22; continue _fun0003 }
+case 25:
                 var6 = _closure2_slot4;
                 var5 = var6.includes;
                 var4 = _closure1_slot10;
                 var4 = var4.MEMBER_VERIFICATION_MANUAL_APPROVAL;
                 var4 = var5.bind(var6)(var4);
-                if(!var4) { _fun0003_ip = 192; continue _fun0003 }
- 117:
+                if(!var4) { _fun0003_ip = 22; continue _fun0003 }
+case 26:
                 var4 = _closure2_slot9;
-                if(!(var7 == var4)) { _fun0003_ip = 173; continue _fun0003 }
- 125:
+                if(!(var7 == var4)) { _fun0003_ip = 27; continue _fun0003 }
+case 28:
                 var4 = _closure2_slot0;
                 var5 = var4.visibility;
                 var8 = _closure1_slot0;
@@ -332,65 +332,65 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var8.bind(var4)(var6);
                 var4 = var4.GuildProfileVisibility;
                 var4 = var4.PUBLIC_WITH_RECRUITMENT;
-                if(!(var5 === var4)) { _fun0003_ip = 192; continue _fun0003 }
- 173:
+                if(!(var5 === var4)) { _fun0003_ip = 22; continue _fun0003 }
+case 27:
                 var4 = _closure2_slot10;
-                if(var4) { _fun0003_ip = 192; continue _fun0003 }
- 180:
+                if(var4) { _fun0003_ip = 22; continue _fun0003 }
+case 29:
                 var1 = _closure1_slot11;
                 var1 = var1.APPLY_TO_JOIN;
-                _fun0003_ip = 273; continue _fun0003;
- 192:
+                _fun0003_ip = 30; continue _fun0003;
+case 22:
                 var4 = _closure2_slot9;
-                if(!(var7 == var4)) { _fun0003_ip = 257; continue _fun0003 }
- 200:
+                if(!(var7 == var4)) { _fun0003_ip = 31; continue _fun0003 }
+case 32:
                 var4 = _closure2_slot4;
                 var5 = var7 != var4;
                 var4 = null;
-                if(!var5) { _fun0003_ip = 255; continue _fun0003 }
- 213:
+                if(!var5) { _fun0003_ip = 33; continue _fun0003 }
+case 34:
                 var9 = _closure2_slot4;
                 var8 = var9.includes;
                 var6 = _closure1_slot10;
                 var6 = var6.DISCOVERABLE;
                 var6 = var8.bind(var9)(var6);
                 var4 = null;
-                if(!var6) { _fun0003_ip = 255; continue _fun0003 }
- 245:
+                if(!var6) { _fun0003_ip = 33; continue _fun0003 }
+case 35:
                 var5 = _closure1_slot11;
                 var4 = var5.LURK_DISCOVERABLE;
- 255:
-                _fun0003_ip = 270; continue _fun0003;
- 257:
+case 33:
+                _fun0003_ip = 36; continue _fun0003;
+case 31:
                 var5 = _closure1_slot11;
                 var4 = var5.JOIN_VIA_INVITE;
- 270:
+case 36:
                 var1 = var4;
- 273:
-                _fun0003_ip = 288; continue _fun0003;
- 275:
+case 30:
+                _fun0003_ip = 37; continue _fun0003;
+case 20:
                 var4 = _closure1_slot11;
                 var1 = var4.HAS_APPLICATION;
- 288:
+case 37:
                 return var1;
- 290:
+case 18:
                 var5 = _closure2_slot1;
                 var4 = _closure1_slot12;
                 var4 = var4.INVITE;
-                if(!(var5 === var4)) { _fun0003_ip = 466; continue _fun0003 }
- 314:
+                if(!(var5 === var4)) { _fun0003_ip = 38; continue _fun0003 }
+case 39:
                 var4 = _closure2_slot11;
                 var5 = null;
-                if(!(var5 != var4)) { _fun0003_ip = 466; continue _fun0003 }
- 327:
+                if(!(var5 != var4)) { _fun0003_ip = 38; continue _fun0003 }
+case 40:
                 var4 = _closure2_slot11;
                 var6 = var4.length;
                 var4 = 0;
-                if(!(var6 > var4)) { _fun0003_ip = 466; continue _fun0003 }
- 345:
+                if(!(var6 > var4)) { _fun0003_ip = 38; continue _fun0003 }
+case 41:
                 var4 = _closure2_slot7;
-                if(!(var5 != var4)) { _fun0003_ip = 466; continue _fun0003 }
- 353:
+                if(!(var5 != var4)) { _fun0003_ip = 38; continue _fun0003 }
+case 42:
                 var8 = _closure1_slot5;
                 var7 = var8.getMember;
                 var6 = _closure2_slot3;
@@ -401,14 +401,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var4.Set;
                 var8 = var5 == var7;
                 var4 = undefined;
-                if(var8) { _fun0003_ip = 405; continue _fun0003 }
- 399:
+                if(var8) { _fun0003_ip = 43; continue _fun0003 }
+case 44:
                 var4 = var7.roles;
- 405:
-                if(!(var5 == var4)) { _fun0003_ip = 413; continue _fun0003 }
- 409:
+case 43:
+                if(!(var5 == var4)) { _fun0003_ip = 45; continue _fun0003 }
+case 46:
                 var4 = new Array(0);
- 413:
+case 45:
                 var5 = var6.prototype;
                 var5 = Object.create(var5, {constructor: {value: var6}});
                 var12 = var5;
@@ -428,51 +428,51 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var3 = var4.bind(var5)(var3);
-                if(var3) { _fun0003_ip = 644; continue _fun0003 }
- 466:
+                if(var3) { _fun0003_ip = 47; continue _fun0003 }
+case 38:
                 var3 = _closure2_slot7;
                 var4 = null;
                 var3 = var4 == var3;
                 var5 = undefined;
                 var6 = undefined;
-                if(var3) { _fun0003_ip = 493; continue _fun0003 }
- 483:
+                if(var3) { _fun0003_ip = 48; continue _fun0003 }
+case 49:
                 var3 = _closure2_slot7;
                 var6 = var3.primaryGuild;
- 493:
+case 48:
                 var3 = var4 == var6;
                 var7 = undefined;
-                if(var3) { _fun0003_ip = 508; continue _fun0003 }
- 502:
+                if(var3) { _fun0003_ip = 50; continue _fun0003 }
+case 51:
                 var7 = var6.identityGuildId;
- 508:
+case 50:
                 var3 = _closure2_slot3;
                 var3 = var7 === var3;
-                if(!var3) { _fun0003_ip = 540; continue _fun0003 }
- 519:
+                if(!var3) { _fun0003_ip = 52; continue _fun0003 }
+case 53:
                 var8 = var4 == var6;
                 var7 = undefined;
-                if(var8) { _fun0003_ip = 534; continue _fun0003 }
- 528:
+                if(var8) { _fun0003_ip = 54; continue _fun0003 }
+case 55:
                 var7 = var6.identityEnabled;
- 534:
+case 54:
                 var6 = true;
                 var3 = var6 === var7;
- 540:
+case 52:
                 var7 = _closure2_slot1;
                 var6 = _closure1_slot12;
                 var6 = var6.INVITE;
-                if(!(var7 !== var6)) { _fun0003_ip = 632; continue _fun0003 }
- 558:
+                if(!(var7 !== var6)) { _fun0003_ip = 56; continue _fun0003 }
+case 57:
                 var6 = _closure2_slot0;
                 var6 = var6.tag;
-                if(!(var4 != var6)) { _fun0003_ip = 632; continue _fun0003 }
- 571:
-                if(var3) { _fun0003_ip = 632; continue _fun0003 }
- 574:
+                if(!(var4 != var6)) { _fun0003_ip = 56; continue _fun0003 }
+case 58:
+                if(var3) { _fun0003_ip = 56; continue _fun0003 }
+case 59:
                 var3 = _closure2_slot6;
-                if(!(var4 != var3)) { _fun0003_ip = 632; continue _fun0003 }
- 582:
+                if(!(var4 != var3)) { _fun0003_ip = 56; continue _fun0003 }
+case 60:
                 var4 = _closure1_slot0;
                 var6 = _closure1_slot2;
                 var3 = 11;
@@ -481,17 +481,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var4.guildSupportsTags;
                 var2 = _closure2_slot6;
                 var2 = var3.bind(var4)(var2);
-                if(!var2) { _fun0003_ip = 632; continue _fun0003 }
- 620:
+                if(!var2) { _fun0003_ip = 56; continue _fun0003 }
+case 61:
                 var2 = _closure1_slot11;
                 var2 = var2.ADOPT_TAG;
-                _fun0003_ip = 642; continue _fun0003;
- 632:
+                _fun0003_ip = 62; continue _fun0003;
+case 56:
                 var3 = _closure1_slot11;
                 var2 = var3.IS_MEMBER;
- 642:
+case 62:
                 return var2;
- 644:
+case 47:
                 var1 = _closure1_slot11;
                 var1 = var1.ACCEPT_ROLES;
                 return var1;
@@ -509,7 +509,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['GuildProfileCTAContext'] = var4;
     var2 = function getGuildProfileCTAType(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var4 = arg1;
             var10 = var4.id;
             var7 = var4.features;
@@ -519,50 +519,50 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = null;
             var1 = var5 != var10;
             var3 = null;
-            if(!var1) { _fun0004_ip = 58; continue _fun0004 }
- 42:
+            if(!var1) { _fun0004_ip = 63; continue _fun0004 }
+case 64:
             var6 = _closure1_slot5;
             var1 = var6.getMember;
             var3 = var1.bind(var6)(var10, var8);
- 58:
+case 63:
             var6 = var5 == var3;
             var9 = undefined;
             var1 = undefined;
-            if(var6) { _fun0004_ip = 75; continue _fun0004 }
- 69:
+            if(var6) { _fun0004_ip = 12; continue _fun0004 }
+case 65:
             var1 = var3.joinedAt;
- 75:
+case 12:
             var6 = var5 != var1;
             var3 = _closure1_slot7;
             var1 = var3.getInviteKeyForGuildId;
             var11 = var1.bind(var3)(var10);
             var1 = var5 != var11;
             var8 = null;
-            if(!var1) { _fun0004_ip = 118; continue _fun0004 }
- 103:
+            if(!var1) { _fun0004_ip = 66; continue _fun0004 }
+case 67:
             var3 = _closure1_slot7;
             var1 = var3.getInvite;
             var8 = var1.bind(var3)(var11);
- 118:
+case 66:
             var12 = var5 == var8;
             var3 = null;
             var1 = false;
-            if(var12) { _fun0004_ip = 262; continue _fun0004 }
- 132:
+            if(var12) { _fun0004_ip = 68; continue _fun0004 }
+case 69:
             var13 = var8.state;
             var12 = _closure1_slot9;
             var12 = var12.BANNED;
             var3 = null;
             var1 = false;
-            if(!(var13 !== var12)) { _fun0004_ip = 262; continue _fun0004 }
- 155:
+            if(!(var13 !== var12)) { _fun0004_ip = 68; continue _fun0004 }
+case 70:
             var13 = var8.state;
             var12 = _closure1_slot9;
             var12 = var12.EXPIRED;
             var3 = null;
             var1 = false;
-            if(!(var13 !== var12)) { _fun0004_ip = 262; continue _fun0004 }
- 178:
+            if(!(var13 !== var12)) { _fun0004_ip = 68; continue _fun0004 }
+case 71:
             var13 = _closure1_slot0;
             var14 = _closure1_slot2;
             var12 = 8;
@@ -572,10 +572,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var8.flags;
             var15 = var5 != var8;
             var12 = 0;
-            if(!var15) { _fun0004_ip = 221; continue _fun0004 }
- 218:
+            if(!var15) { _fun0004_ip = 72; continue _fun0004 }
+case 73:
             var12 = var8;
- 221:
+case 72:
             var15 = _closure1_slot0;
             var16 = _closure1_slot2;
             var8 = 9;
@@ -585,7 +585,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var8.IS_APPLICATION_BYPASS;
             var1 = var13.bind(var14)(var12, var8);
             var3 = var11;
- 262:
+case 68:
             var11 = _closure1_slot0;
             var12 = _closure1_slot2;
             var8 = 10;
@@ -593,30 +593,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var11.bind(var9)(var8);
             var8 = var11.getPendingFolderGuildIds;
             var8 = var8.bind(var11)();
-            if(var6) { _fun0004_ip = 506; continue _fun0004 }
- 298:
+            if(var6) { _fun0004_ip = 74; continue _fun0004 }
+case 75:
             var6 = var8.includes;
             var6 = var6.bind(var8)(var10);
-            if(var6) { _fun0004_ip = 494; continue _fun0004 }
- 314:
-            if(!(var5 != var7)) { _fun0004_ip = 429; continue _fun0004 }
- 318:
+            if(var6) { _fun0004_ip = 76; continue _fun0004 }
+case 39:
+            if(!(var5 != var7)) { _fun0004_ip = 77; continue _fun0004 }
+case 78:
             var8 = var7.includes;
             var6 = _closure1_slot10;
             var6 = var6.MEMBER_VERIFICATION_GATE_ENABLED;
             var6 = var8.bind(var7)(var6);
-            if(!var6) { _fun0004_ip = 429; continue _fun0004 }
- 341:
-            if(!(var5 != var7)) { _fun0004_ip = 429; continue _fun0004 }
- 345:
+            if(!var6) { _fun0004_ip = 77; continue _fun0004 }
+case 79:
+            if(!(var5 != var7)) { _fun0004_ip = 77; continue _fun0004 }
+case 41:
             var8 = var7.includes;
             var6 = _closure1_slot10;
             var6 = var6.MEMBER_VERIFICATION_MANUAL_APPROVAL;
             var6 = var8.bind(var7)(var6);
-            if(!var6) { _fun0004_ip = 429; continue _fun0004 }
- 368:
-            if(!(var5 == var3)) { _fun0004_ip = 414; continue _fun0004 }
- 372:
+            if(!var6) { _fun0004_ip = 77; continue _fun0004 }
+case 80:
+            if(!(var5 == var3)) { _fun0004_ip = 81; continue _fun0004 }
+case 82:
             var6 = var4.visibility;
             var8 = _closure1_slot0;
             var10 = _closure1_slot2;
@@ -625,47 +625,47 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var8.bind(var9)(var4);
             var4 = var4.GuildProfileVisibility;
             var4 = var4.PUBLIC_WITH_RECRUITMENT;
-            if(!(var6 === var4)) { _fun0004_ip = 429; continue _fun0004 }
- 414:
-            if(var1) { _fun0004_ip = 429; continue _fun0004 }
- 417:
+            if(!(var6 === var4)) { _fun0004_ip = 77; continue _fun0004 }
+case 81:
+            if(var1) { _fun0004_ip = 77; continue _fun0004 }
+case 83:
             var1 = _closure1_slot11;
             var1 = var1.APPLY_TO_JOIN;
-            _fun0004_ip = 492; continue _fun0004;
- 429:
-            if(!(var5 == var3)) { _fun0004_ip = 479; continue _fun0004 }
- 433:
+            _fun0004_ip = 84; continue _fun0004;
+case 77:
+            if(!(var5 == var3)) { _fun0004_ip = 85; continue _fun0004 }
+case 86:
             var4 = var5 != var7;
             var3 = null;
-            if(!var4) { _fun0004_ip = 477; continue _fun0004 }
- 442:
+            if(!var4) { _fun0004_ip = 87; continue _fun0004 }
+case 88:
             var6 = var7.includes;
             var4 = _closure1_slot10;
             var4 = var4.DISCOVERABLE;
             var4 = var6.bind(var7)(var4);
             var3 = null;
-            if(!var4) { _fun0004_ip = 477; continue _fun0004 }
- 467:
+            if(!var4) { _fun0004_ip = 87; continue _fun0004 }
+case 89:
             var4 = _closure1_slot11;
             var3 = var4.LURK_DISCOVERABLE;
- 477:
-            _fun0004_ip = 489; continue _fun0004;
- 479:
+case 87:
+            _fun0004_ip = 90; continue _fun0004;
+case 85:
             var4 = _closure1_slot11;
             var3 = var4.JOIN_VIA_INVITE;
- 489:
+case 90:
             var1 = var3;
- 492:
-            _fun0004_ip = 504; continue _fun0004;
- 494:
+case 84:
+            _fun0004_ip = 91; continue _fun0004;
+case 76:
             var3 = _closure1_slot11;
             var1 = var3.HAS_APPLICATION;
- 504:
-            _fun0004_ip = 516; continue _fun0004;
- 506:
+case 91:
+            _fun0004_ip = 92; continue _fun0004;
+case 74:
             var2 = _closure1_slot11;
             var1 = var2.IS_MEMBER;
- 516:
+case 92:
             return var1;
         }
     };

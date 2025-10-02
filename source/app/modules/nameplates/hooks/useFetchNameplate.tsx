@@ -22,7 +22,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useFetchNameplate(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = _closure1_slot0;
             var1 = _closure1_slot1;
             var8 = 0;
@@ -37,12 +37,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = null;
             var1 = var3 == var5;
             var9 = undefined;
-            if(var1) { _fun0001_ip = 76; continue _fun0001 }
- 61:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var5.items;
             var1 = var1[var8];
             var9 = var1.type;
- 76:
+case 2:
             var6 = _closure1_slot0;
             var10 = _closure1_slot1;
             var1 = 1;
@@ -51,18 +51,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.CollectiblesItemType;
             var1 = var1.NAMEPLATE;
             var6 = undefined;
-            if(!(var9 === var1)) { _fun0001_ip = 124; continue _fun0001 }
- 114:
+            if(!(var9 === var1)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = var5.items;
             var6 = var1[var8];
- 124:
+case 4:
             var1 = {};
             var1['nameplateProduct'] = var5;
             var1['nameplateRecord'] = var6;
             var5 = var3 != var6;
             var3 = undefined;
-            if(!var5) { _fun0001_ip = 176; continue _fun0001 }
- 145:
+            if(!var5) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var5 = _closure1_slot0;
             var8 = _closure1_slot1;
             var4 = 2;
@@ -70,7 +70,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.bind(var7)(var4);
             var4 = var5.getNameplateDataFromRecord;
             var3 = var4.bind(var5)(var6);
- 176:
+case 6:
             var1['nameplateData'] = var3;
             var1['isFetching'] = var2;
             return var1;

@@ -29,7 +29,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function getConstants() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
             var2 = 1;
@@ -38,22 +38,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.bind(var3)(var2);
             var2 = var4.isAndroid;
             var2 = var2.bind(var4)();
-            if(var2) { _fun0001_ip = 59; continue _fun0001 }
- 37:
+            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = _closure1_slot3;
             var4 = var2.InfoDictionaryManager;
             var2 = var4.getConstants;
             var2 = var2.bind(var4)();
             return var2;
- 59:
+case 2:
             var5 = _closure1_slot1;
             var2 = _closure1_slot2;
             var4 = 2;
             var2 = var2[var4];
             var5 = var5.bind(var3)(var2);
             var2 = null;
-            if(!(var2 !== var5)) { _fun0001_ip = 114; continue _fun0001 }
- 85:
+            if(!(var2 !== var5)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = _closure1_slot1;
             var1 = _closure1_slot2;
             var1 = var1[var4];
@@ -61,7 +61,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2.getConstants;
             var1 = var1.bind(var2)();
             return var1;
- 114:
+case 4:
             var1 = global;
             var3 = var1.Error;
             var1 = var3.prototype;
@@ -76,21 +76,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['getConstants'] = var4;
     var2 = function getBuildNumberLabel() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var2 = ['0', '123456', '1234567890'];
             var1 = var2.includes;
             var5 = '4723';
             var2 = var1.bind(var2)(var5);
             var1 = var5;
-            if(!var2) { _fun0002_ip = 61; continue _fun0002 }
- 32:
+            if(!var2) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var2 = global;
             var2 = var2.HermesInternal;
             var4 = var2.concat;
             var3 = 'dev (';
             var2 = ')';
             var1 = var4.bind(var3)(var5, var2);
- 61:
+case 6:
             return var1;
         }
     };

@@ -122,7 +122,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function AppLauncherAttachmentOption(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var9 = var3.option;
             var _closure2_slot0 = var9;
@@ -204,37 +204,37 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = null;
             var2 = var7 == var11;
             var15 = undefined;
-            if(var2) { _fun0001_ip = 220; continue _fun0001 }
- 214:
+            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var15 = var11.filename;
- 220:
+case 2:
             var2 = new Array(1);
             var2[0] = var15;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var1 = _closure2_slot3;
                     var4 = null;
                     var5 = var4 == var1;
                     var1 = undefined;
                     var3 = undefined;
-                    if(var5) { _fun0002_ip = 30; continue _fun0002 }
- 20:
+                    if(var5) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var5 = _closure2_slot3;
                     var3 = var5.filename;
- 30:
-                    if(!(var4 != var3)) { _fun0002_ip = 71; continue _fun0002 }
- 34:
+case 4:
+                    if(!(var4 != var3)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var3 = _closure2_slot4;
                     var3 = var3.current;
-                    if(!(var4 != var3)) { _fun0002_ip = 71; continue _fun0002 }
- 47:
+                    if(!(var4 != var3)) { _fun0002_ip = 6; continue _fun0002 }
+case 8:
                     var4 = _closure2_slot4;
                     var3 = var4.current;
                     var2 = _closure2_slot3;
                     var2 = var2.filename;
                     var2 = var3.bind(var4)(var2);
- 71:
+case 6:
                     return var1;
                 }
             };
@@ -253,13 +253,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['selected'] = var9;
             var10 = var7 != var11;
             var9 = undefined;
-            if(!var10) { _fun0001_ip = 305; continue _fun0001 }
- 299:
+            if(!var10) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var9 = var11.filename;
- 305:
+case 9:
             var1['selectedItemName'] = var9;
-            if(!(var7 != var11)) { _fun0001_ip = 361; continue _fun0001 }
- 314:
+            if(!(var7 != var11)) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var7 = var11.item;
             var9 = var7.platform;
             var10 = _closure1_slot0;
@@ -269,8 +269,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var10.bind(var4)(var7);
             var7 = var7.UploadPlatform;
             var7 = var7.REACT_NATIVE;
-            if(!(var9 !== var7)) { _fun0001_ip = 443; continue _fun0001 }
- 361:
+            if(!(var9 !== var7)) { _fun0001_ip = 13; continue _fun0001 }
+case 11:
             var10 = _closure1_slot7;
             var9 = _closure1_slot4;
             var7 = {};
@@ -287,8 +287,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var14.bind(var4)(var13, var12);
             var7['children'] = var12;
             var7 = var10.bind(var4)(var9, var7);
-            _fun0001_ip = 495; continue _fun0001;
- 443:
+            _fun0001_ip = 14; continue _fun0001;
+case 13:
             var10 = _closure1_slot7;
             var9 = _closure1_slot9;
             var8 = {};
@@ -300,7 +300,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var11.isVideo;
             var8['isVideo'] = var11;
             var7 = var10.bind(var4)(var9, var8);
- 495:
+case 14:
             var1['leading'] = var7;
             var1['onPress'] = var6;
             var1['autoFocus'] = var5;

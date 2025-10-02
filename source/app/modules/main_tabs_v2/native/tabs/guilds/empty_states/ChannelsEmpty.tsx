@@ -96,7 +96,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var8.memo;
     var2 = function ChannelsEmpty(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var2 = var2.guild;
             var _closure2_slot0 = var2;
@@ -186,8 +186,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7['paddingBottom'] = var8;
             var5[1] = var7;
             var1['style'] = var5;
-            if(!var6) { _fun0001_ip = 392; continue _fun0001 }
- 222:
+            if(!var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var8 = _closure1_slot9;
             var7 = _closure1_slot4;
             var5 = {};
@@ -228,7 +228,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var8.bind(var4)(var11, var9);
             var5['children'] = var9;
             var6 = var8.bind(var4)(var7, var5);
- 392:
+case 2:
             var5 = new Array(2);
             var5[0] = var6;
             var8 = _closure1_slot10;
@@ -290,8 +290,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11['children'] = var14;
             var11 = var13.bind(var4)(var12, var11);
             var9[2] = var11;
-            if(!var10) { _fun0001_ip = 840; continue _fun0001 }
- 692:
+            if(!var10) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var13 = _closure1_slot9;
             var12 = _closure1_slot4;
             var11 = {};
@@ -325,7 +325,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var13.bind(var4)(var15, var14);
             var11['children'] = var14;
             var10 = var13.bind(var4)(var12, var11);
- 840:
+case 4:
             var9[3] = var10;
             var6['children'] = var9;
             var6 = var8.bind(var4)(var7, var6);

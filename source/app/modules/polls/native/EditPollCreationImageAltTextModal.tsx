@@ -103,7 +103,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function EditPollCreationImageAltTextModal(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var8 = var3.channelId;
             var2 = var3.answer;
@@ -133,16 +133,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = null;
             var10 = var2 == var8;
             var7 = undefined;
-            if(var10) { _fun0001_ip = 133; continue _fun0001 }
- 128:
+            if(var10) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var7 = var8.description;
- 133:
+case 2:
             var8 = var2 != var7;
             var2 = '';
-            if(!var8) { _fun0001_ip = 147; continue _fun0001 }
- 144:
+            if(!var8) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = var7;
- 147:
+case 4:
             var5 = var3.bind(var5)(var2);
             var3 = _closure1_slot3;
             var2 = 2;
@@ -159,16 +159,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[1] = var25;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = _closure2_slot1;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0002_ip = 28; continue _fun0002 }
- 13:
+                    if(!(var2 != var3)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var3 = _closure2_slot0;
                     var2 = _closure2_slot1;
                     var1 = undefined;
                     var1 = var3.bind(var1)(var2);
- 28:
+case 6:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var1 = 8;

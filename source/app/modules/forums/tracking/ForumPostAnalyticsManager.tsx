@@ -9,8 +9,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function _isNativeReflectConstruct() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
- 2: // try_start_0
+case 0:
+case 2: // try_start_0
             var2 = global;
             var3 = var2.Boolean;
             var3 = var3.prototype;
@@ -28,11 +28,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var4)(var2);
             var2 = !var2;
             var _closure2_slot0 = var2;
- 70: // try_end0
-            _fun0001_ip = 74; continue _fun0001;
- 72: // catch_target0
+case 3: // try_end0
+            _fun0001_ip = 4; continue _fun0001;
+case 5: // catch_target0
             CatchBlockStart(arg_register=1);
- 74:
+case 4:
             var2 = function _isNativeReflectConstruct() {
                 var1 = _closure2_slot0;
                 var1 = !var1;
@@ -93,7 +93,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function(arg1) {
         var4 = function ForumPostAnalyticsManager(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var5 = this;
                 var13 = 0;
                 var1 = copyRestArgs(var13);
@@ -111,12 +111,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = _closure1_slot5;
                 var1 = _closure1_slot11;
                 var1 = var1.bind(var4)();
-                if(var1) { _fun0002_ip = 86; continue _fun0002 }
- 73:
+                if(var1) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                 var1 = var9.apply;
                 var1 = var1.bind(var9)(var5, var10);
-                _fun0002_ip = 120; continue _fun0002;
- 86:
+                _fun0002_ip = 8; continue _fun0002;
+case 6:
                 var7 = global;
                 var8 = var7.Reflect;
                 var7 = var8.construct;
@@ -124,7 +124,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var6.bind(var4)(var5);
                 var6 = var6.constructor;
                 var1 = var7.bind(var8)(var9, var10, var6);
- 120:
+case 8:
                 var1 = var3.bind(var4)(var5, var1);
                 var _closure3_slot0 = var1;
                 var3 = {};
@@ -149,30 +149,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1['actions'] = var3;
                 var3 = function(arg1) {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                         var1 = arg1;
                         var4 = var1.channelId;
                         var2 = null;
-                        if(!(var2 != var4)) { _fun0003_ip = 83; continue _fun0003 }
- 14:
+                        if(!(var2 != var4)) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
                         var3 = _closure1_slot10;
                         var1 = var3.getChannel;
                         var1 = var1.bind(var3)(var4);
                         var2 = var2 != var1;
-                        if(!var2) { _fun0003_ip = 48; continue _fun0003 }
- 38:
+                        if(!var2) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
                         var3 = var1.isForumLikeChannel;
                         var2 = var3.bind(var1)();
- 48:
-                        if(!var2) { _fun0003_ip = 83; continue _fun0003 }
- 51:
+case 11:
+                        if(!var2) { _fun0003_ip = 9; continue _fun0003 }
+case 13:
                         var3 = _closure3_slot0;
                         var2 = {};
                         var3['readStateSnapshots'] = var2;
                         var2 = var3.processForumChannel;
                         var1 = var1.guild_id;
                         var1 = var2.bind(var3)(var1, var4);
- 83:
+case 9:
                         var1 = undefined;
                         return var1;
                     }
@@ -195,7 +195,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var4.forEach;
                     var2 = function(arg1) {
                         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                             var4 = arg1;
                             var3 = _closure1_slot0;
                             var2 = _closure1_slot2;
@@ -206,12 +206,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var2 = var3.getForumPostReadStatesById;
                             var3 = var2.bind(var3)(var4);
                             var2 = null;
-                            if(!(var2 != var3)) { _fun0004_ip = 62; continue _fun0004 }
- 45:
+                            if(!(var2 != var3)) { _fun0004_ip = 14; continue _fun0004 }
+case 15:
                             var2 = _closure3_slot0;
                             var2 = var2.readStateSnapshots;
                             var2[var4] = var3;
- 62:
+case 14:
                             return var1;
                         }
                     };
@@ -241,13 +241,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5['key'] = var6;
         var1 = function value(arg1) {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var1 = var1.channel;
                 var2 = var1.isForumPost;
                 var2 = var2.bind(var1)();
-                if(!var2) { _fun0005_ip = 81; continue _fun0005 }
- 21:
+                if(!var2) { _fun0005_ip = 16; continue _fun0005 }
+case 17:
                 var5 = var1.ownerId;
                 var3 = _closure1_slot9;
                 var2 = var3.getId;
@@ -261,7 +261,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1['isNew'] = var4;
                 var1['hasUnreads'] = var4;
                 var3[var2] = var1;
- 81:
+case 16:
                 var1 = undefined;
                 return var1;
             }

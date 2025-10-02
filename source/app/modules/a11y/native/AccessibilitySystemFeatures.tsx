@@ -9,20 +9,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function toggleFeature(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var6 = arg2;
             var1 = _closure1_slot8;
-            if(var6) { _fun0001_ip = 29; continue _fun0001 }
- 16:
+            if(var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = ~var4;
             var2 = var1 & var2;
             _closure1_slot8 = var2;
-            _fun0001_ip = 37; continue _fun0001;
- 29:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var1 = var1 | var4;
             _closure1_slot8 = var1;
- 37:
+case 4:
             var5 = _closure1_slot0;
             var1 = _closure1_slot2;
             var7 = 3;
@@ -32,8 +32,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.A11Y_FEATURE_MAP;
             var5 = var2[var4];
             var2 = null;
-            if(!(var2 != var5)) { _fun0001_ip = 127; continue _fun0001 }
- 75:
+            if(!(var2 != var5)) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var8 = _closure1_slot1;
             var2 = _closure1_slot2;
             var4 = 4;
@@ -46,7 +46,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = {};
             var2[var5] = var6;
             var2 = var4.bind(var1)(var3, var2);
- 127:
+case 5:
             return var1;
         }
     };
@@ -167,7 +167,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['getActiveFeatures'] = var7;
     var7 = function handleReduceMotionChanged(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var5 = arg1;
             var4 = _closure1_slot9;
             var1 = _closure1_slot7;
@@ -181,10 +181,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var3.bind(var1)(var2);
             var3 = var4.systemPrefersReducedMotionChanged;
             var2 = 'no-preference';
-            if(!var5) { _fun0002_ip = 67; continue _fun0002 }
- 63:
+            if(!var5) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
             var2 = 'reduce';
- 67:
+case 7:
             var2 = var3.bind(var4)(var2);
             return var1;
         }
@@ -232,15 +232,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['handleInvertColorsChanged'] = var7;
     var7 = function handlePreferredColorSchemeChanged(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = var1.colorScheme;
             var1 = 'dark';
-            if(!(var1 !== var2)) { _fun0003_ip = 109; continue _fun0003 }
- 17:
+            if(!(var1 !== var2)) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
             var1 = 'light';
-            if(!(var1 !== var2)) { _fun0003_ip = 66; continue _fun0003 }
- 25:
+            if(!(var1 !== var2)) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
             var4 = _closure1_slot9;
             var1 = _closure1_slot7;
             var5 = var1.PREFERS_COLOR_SCHEME_DARK;
@@ -249,8 +249,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var4.bind(var3)(var5, var2);
             var1 = var1.PREFERS_COLOR_SCHEME_LIGHT;
             var1 = var4.bind(var3)(var1, var2);
-            _fun0003_ip = 150; continue _fun0003;
- 66:
+            _fun0003_ip = 13; continue _fun0003;
+case 11:
             var4 = _closure1_slot9;
             var1 = _closure1_slot7;
             var5 = var1.PREFERS_COLOR_SCHEME_DARK;
@@ -260,8 +260,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var1.PREFERS_COLOR_SCHEME_LIGHT;
             var1 = true;
             var1 = var4.bind(var3)(var2, var1);
-            _fun0003_ip = 150; continue _fun0003;
- 109:
+            _fun0003_ip = 13; continue _fun0003;
+case 9:
             var4 = _closure1_slot9;
             var1 = _closure1_slot7;
             var5 = var1.PREFERS_COLOR_SCHEME_LIGHT;
@@ -271,7 +271,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var1.PREFERS_COLOR_SCHEME_DARK;
             var1 = true;
             var1 = var4.bind(var3)(var2, var1);
- 150:
+case 13:
             var1 = undefined;
             return var1;
         }
@@ -308,18 +308,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['handleAccessibilityStoreChanged'] = var7;
     var4 = function handleAppStateChange(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var3 = 'active';
             var2 = arg1;
-            if(!(var3 === var2)) { _fun0004_ip = 74; continue _fun0004 }
- 13:
+            if(!(var3 === var2)) { _fun0004_ip = 14; continue _fun0004 }
+case 15:
             var3 = _closure1_slot3;
             var2 = var3.isReduceMotionEnabled;
             var5 = var2.bind(var3)();
             var4 = var5.then;
             var2 = function(arg1) {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
                     var5 = arg1;
                     var4 = _closure1_slot9;
                     var1 = _closure1_slot7;
@@ -333,10 +333,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var3.bind(var1)(var2);
                     var3 = var4.systemPrefersReducedMotionChanged;
                     var2 = 'no-preference';
-                    if(!var5) { _fun0005_ip = 67; continue _fun0005 }
- 63:
+                    if(!var5) { _fun0005_ip = 7; continue _fun0005 }
+case 8:
                     var2 = 'reduce';
- 67:
+case 7:
                     var2 = var3.bind(var4)(var2);
                     return var1;
                 }
@@ -362,7 +362,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var1 = var2.bind(var3)(var1);
- 74:
+case 14:
             var1 = undefined;
             return var1;
         }

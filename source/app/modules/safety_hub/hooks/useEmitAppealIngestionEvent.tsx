@@ -45,7 +45,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = _closure1_slot0;
             var5 = _closure1_slot2;
             var9 = 4;
@@ -70,10 +70,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var5.useSafetyHubClassification;
             var6 = null;
             var2 = var7;
-            if(!(var6 == var2)) { _fun0001_ip = 92; continue _fun0001 }
- 88:
+            if(!(var6 == var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = _closure1_slot6;
- 92:
+case 2:
             var6 = var4.bind(var5)(var2);
             var _closure2_slot1 = var6;
             var5 = _closure1_slot0;
@@ -108,7 +108,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[3] = var5;
             var1 = function(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
                     var1 = 7;
@@ -127,8 +127,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var9 = _closure2_slot0;
                     var8 = null;
                     var9 = var8 != var9;
-                    if(!var9) { _fun0002_ip = 107; continue _fun0002 }
- 79:
+                    if(!var9) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var9 = global;
                     var10 = var9.Number;
                     var9 = _closure2_slot0;
@@ -136,7 +136,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var9 = new Array(1);
                     var9[0] = var10;
                     var8 = var9;
- 107:
+case 4:
                     var2['classification_ids'] = var8;
                     var7 = _closure1_slot5;
                     var7 = var7.AppealIngestion;

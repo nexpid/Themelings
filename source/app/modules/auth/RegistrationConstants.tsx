@@ -71,7 +71,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['RegisterTransitionSteps'] = var4;
     var2 = function authStateToRegisterTransitionStep(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var5 = _closure1_slot0;
             var2 = _closure1_slot1;
@@ -81,58 +81,58 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var5.bind(var2)(var3);
             var3 = var3.AuthStates;
             var3 = var3.REGISTER_IDENTITY;
-            if(!(var3 !== var4)) { _fun0001_ip = 231; continue _fun0001 }
- 46:
+            if(!(var3 !== var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = _closure1_slot0;
             var3 = _closure1_slot1;
             var3 = var3[var6];
             var3 = var5.bind(var2)(var3);
             var3 = var3.AuthStates;
             var3 = var3.REGISTER_DISPLAY_NAME;
-            if(!(var3 !== var4)) { _fun0001_ip = 219; continue _fun0001 }
- 82:
+            if(!(var3 !== var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = _closure1_slot0;
             var3 = _closure1_slot1;
             var3 = var3[var6];
             var3 = var5.bind(var2)(var3);
             var3 = var3.AuthStates;
             var3 = var3.REGISTER_ACCOUNT_INFORMATION;
-            if(!(var3 !== var4)) { _fun0001_ip = 207; continue _fun0001 }
- 115:
+            if(!(var3 !== var4)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var5 = _closure1_slot0;
             var3 = _closure1_slot1;
             var3 = var3[var6];
             var3 = var5.bind(var2)(var3);
             var3 = var3.AuthStates;
             var3 = var3.AGE_GATE;
-            if(!(var3 !== var4)) { _fun0001_ip = 195; continue _fun0001 }
- 148:
+            if(!(var3 !== var4)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var5 = _closure1_slot0;
             var3 = _closure1_slot1;
             var3 = var3[var6];
             var3 = var5.bind(var2)(var3);
             var3 = var3.AuthStates;
             var3 = var3.VERIFY_PHONE;
-            if(!(var3 !== var4)) { _fun0001_ip = 183; continue _fun0001 }
- 181:
+            if(!(var3 !== var4)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             return var2;
- 183:
+case 10:
             var2 = _closure1_slot2;
             var2 = var2.PHONE_VERIFICATION;
             return var2;
- 195:
+case 8:
             var2 = _closure1_slot2;
             var2 = var2.AGE_GATE;
             return var2;
- 207:
+case 6:
             var2 = _closure1_slot2;
             var2 = var2.ACCOUNT_INFORMATION;
             return var2;
- 219:
+case 4:
             var2 = _closure1_slot2;
             var2 = var2.ACCOUNT_DISPLAY_NAME;
             return var2;
- 231:
+case 2:
             var1 = _closure1_slot2;
             var1 = var1.ACCOUNT_IDENTITY;
             return var1;

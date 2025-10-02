@@ -11,73 +11,73 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = function* (arg1) {
             var1 = function* anon_0_(arg1) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     StartGenerator();
                     var2 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=3);
-                    if(var4) { _fun0001_ip = 209; continue _fun0001 }
- 13:
+                    if(var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var12 = var2.createPromise;
                     var13 = var2.webpackId;
                     var11 = undefined;
                     var14 = undefined;
                     var15 = undefined;
                     SaveGenerator(address=35);
- 33:
+case 4:
                     return var11;
- 35:
+case 5:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0001_ip = 206; continue _fun0001 }
- 44:
+                    if(var4) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                     var14 = 500;
                     var15 = 0;
                     var10 = global;
                     var9 = 2;
                     var8 = 5000;
                     var6 = 50;
- 69: // try_start_0
+case 8: // try_start_0
                     var4 = var12;
                     var4 = var4.bind(var11)();
                     SaveGenerator(address=80);
- 78:
+case 9:
                     return var4;
- 80:
+case 10:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                    if(var5) { _fun0001_ip = 89; continue _fun0001 }
- 86: // try_end0
+                    if(var5) { _fun0001_ip = 11; continue _fun0001 }
+case 12: // try_end0
                     return var4;
- 89:
+case 11:
                     return var4;
- 92: // catch_target0
+case 13: // catch_target0
                     CatchBlockStart(arg_register=2);
                     var5 = var13;
                     var4 = _closure1_slot0;
                     var4 = var4.cache;
                     var4 = var5 in var4;
-                    if(var4) { _fun0001_ip = 204; continue _fun0001 }
- 114:
+                    if(var4) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
                     var4 = var15;
-                    if(!(!(var4 >= var6))) { _fun0001_ip = 199; continue _fun0001 }
- 121:
+                    if(!(!(var4 >= var6))) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
                     var5 = _closure1_slot2;
                     var4 = var14;
                     var4 = var5.bind(var11)(var4);
                     SaveGenerator(address=137);
- 135:
+case 18:
                     return var4;
- 137:
+case 19:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                    if(var5) { _fun0001_ip = 196; continue _fun0001 }
- 143:
+                    if(var5) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
                     var5 = _closure1_slot3;
                     var5 = var5.bind(var11)();
                     SaveGenerator(address=155);
- 153:
+case 22:
                     return var5;
- 155:
+case 23:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=15);
-                    if(var16) { _fun0001_ip = 193; continue _fun0001 }
- 161:
+                    if(var16) { _fun0001_ip = 24; continue _fun0001 }
+case 25:
                     var18 = var10.Math;
                     var17 = var18.min;
                     var16 = var14;
@@ -85,19 +85,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var14 = var17.bind(var18)(var8, var16);
                     var16 = var15;
                     var15 = var16 + 1;
-                    _fun0001_ip = 69; continue _fun0001;
- 193:
+                    _fun0001_ip = 8; continue _fun0001;
+case 24:
                     return var5;
- 196:
+case 20:
                     return var4;
- 199:
+case 16:
                     var4 = var3;
                     throw var4;
- 204:
+case 14:
                     throw var3;
- 206:
+case 6:
                     return var2;
- 209:
+case 2:
                     return var1;
                 }
             };

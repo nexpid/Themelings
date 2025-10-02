@@ -44,13 +44,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var6 = arguments[0];
             var1 = undefined;
-            if(!(var6 === var1)) { _fun0001_ip = 13; continue _fun0001 }
- 11:
+            if(!(var6 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = false;
- 13:
+case 2:
             var _closure2_slot0 = var6;
             var _closure2_slot1 = var1;
             var7 = _closure1_slot0;
@@ -87,14 +87,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = null;
             var7 = var7 == var12;
             var9 = undefined;
-            if(var7) { _fun0001_ip = 153; continue _fun0001 }
- 147:
+            if(var7) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var9 = var12.verified;
- 153:
+case 4:
             var7 = true;
             var7 = var7 === var9;
-            if(!var7) { _fun0001_ip = 204; continue _fun0001 }
- 162:
+            if(!var7) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
             var9 = 8;
@@ -104,26 +104,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = _closure1_slot6;
             var9 = var9.TIER_2;
             var7 = var10.bind(var11)(var12, var9);
- 204:
-            if(!var7) { _fun0001_ip = 213; continue _fun0001 }
- 207:
+case 6:
+            if(!var7) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var7 = var8.fetched;
- 213:
-            if(!var7) { _fun0001_ip = 236; continue _fun0001 }
- 216:
+case 8:
+            if(!var7) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var9 = var8.fractionalState;
             var8 = _closure1_slot7;
             var8 = var8.FP_ONLY;
             var7 = var9 !== var8;
- 236:
-            if(!var7) { _fun0001_ip = 242; continue _fun0001 }
- 239:
+case 10:
+            if(!var7) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var7 = !var5;
- 242:
-            if(!var7) { _fun0001_ip = 248; continue _fun0001 }
- 245:
+case 12:
+            if(!var7) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var7 = !var4;
- 248:
+case 14:
             _closure2_slot1 = var7;
             var5 = _closure1_slot3;
             var4 = var5.useEffect;
@@ -132,19 +132,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[1] = var6;
             var2 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var1 = _closure2_slot1;
-                    if(!var1) { _fun0002_ip = 17; continue _fun0002 }
- 10:
+                    if(!var1) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
                     var2 = _closure2_slot0;
                     var1 = !var2;
- 17:
-                    if(!var1) { _fun0002_ip = 37; continue _fun0002 }
- 20:
+case 16:
+                    if(!var1) { _fun0002_ip = 18; continue _fun0002 }
+case 19:
                     var2 = _closure1_slot5;
                     var1 = var2.checkAndFetchReferralsRemaining;
                     var1 = var1.bind(var2)();
- 37:
+case 18:
                     var1 = undefined;
                     return var1;
                 }

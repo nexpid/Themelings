@@ -20,18 +20,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var4.bind(var5)(var2);
     var2 = function getAdjustedPlaceholderCount(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var4 = var1.numColumns;
             var2 = var1.numResults;
             var3 = var1.placeholderCount;
             var1 = 0;
-            if(!(var1 !== var3)) { _fun0001_ip = 39; continue _fun0001 }
- 27:
+            if(!(var1 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var2 % var4;
             var2 = var4 - var2;
             var1 = var3 + var2;
- 39:
+case 2:
             return var1;
         }
     };

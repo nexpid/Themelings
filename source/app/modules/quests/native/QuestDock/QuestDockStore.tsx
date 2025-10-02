@@ -8,8 +8,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var6;
     var1 = function _isNativeReflectConstruct() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
- 2: // try_start_0
+case 0:
+case 2: // try_start_0
             var2 = global;
             var3 = var2.Boolean;
             var3 = var3.prototype;
@@ -27,11 +27,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var4)(var2);
             var2 = !var2;
             var _closure2_slot0 = var2;
- 72: // try_end0
-            _fun0001_ip = 76; continue _fun0001;
- 74: // catch_target0
+case 3: // try_end0
+            _fun0001_ip = 4; continue _fun0001;
+case 5: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+case 4:
             var2 = function _isNativeReflectConstruct() {
                 var1 = _closure2_slot0;
                 var1 = !var1;
@@ -92,7 +92,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function(arg1) {
         var4 = function QuestDockStore() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var4 = this;
                 var3 = undefined;
                 var5 = undefined;
@@ -104,14 +104,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = _closure1_slot6;
                 var1 = _closure1_slot11;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0002_ip = 69; continue _fun0002 }
- 51:
+                if(var1) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                 var7 = var9.apply;
                 var5 = arguments;
                 var1 = var5;
                 var1 = var7.bind(var9)(var4, var1);
-                _fun0002_ip = 105; continue _fun0002;
- 69:
+                _fun0002_ip = 8; continue _fun0002;
+case 6:
                 var7 = global;
                 var8 = var7.Reflect;
                 var7 = var8.construct;
@@ -120,7 +120,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var6.constructor;
                 var5 = arguments;
                 var1 = var7.bind(var8)(var9, var5, var6);
- 105:
+case 8:
                 var1 = var2.bind(var3)(var4, var1);
                 return var1;
             }
@@ -136,11 +136,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5['key'] = var1;
         var1 = function value(arg1) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var2 = null;
-                if(!(var2 != var1)) { _fun0003_ip = 84; continue _fun0003 }
- 9:
+                if(!(var2 != var1)) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
                 var1 = var1.questDockSoftDismissedAt;
                 _closure1_slot3 = var1;
                 var4 = _closure1_slot0;
@@ -153,15 +153,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = _closure1_slot3;
                 var1 = var3.bind(var4)(var1);
                 var3 = _closure1_slot9;
-                if(var1) { _fun0003_ip = 74; continue _fun0003 }
- 66:
+                if(var1) { _fun0003_ip = 5; continue _fun0003 }
+case 11:
                 var1 = var3.COLLAPSED;
-                _fun0003_ip = 80; continue _fun0003;
- 74:
+                _fun0003_ip = 12; continue _fun0003;
+case 5:
                 var1 = var3.SOFT_DISMISSED;
- 80:
+case 12:
                 _closure1_slot2 = var1;
- 84:
+case 9:
                 var1 = undefined;
                 return var1;
             }
@@ -222,28 +222,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = {};
     var9 = function handlePrevRestingQuestDockModeUpdate(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var2 = arg1;
             var4 = var2.mode;
             var1 = _closure1_slot2;
             var1 = var4 !== var1;
             var4 = var2.mode;
             _closure1_slot2 = var4;
-            if(!var1) { _fun0004_ip = 73; continue _fun0004 }
- 31:
+            if(!var1) { _fun0004_ip = 13; continue _fun0004 }
+case 14:
             var5 = var2.mode;
             var2 = _closure1_slot9;
             var4 = var2.SOFT_DISMISSED;
             var2 = null;
-            if(!(var5 === var4)) { _fun0004_ip = 69; continue _fun0004 }
- 52:
+            if(!(var5 === var4)) { _fun0004_ip = 6; continue _fun0004 }
+case 15:
             var4 = global;
             var5 = var4.Date;
             var4 = var5.now;
             var2 = var4.bind(var5)();
- 69:
+case 6:
             _closure1_slot3 = var2;
- 73:
+case 13:
             return var1;
         }
     };

@@ -59,7 +59,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var13 = var1.skuId;
             var _closure2_slot0 = var13;
@@ -108,11 +108,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8[1] = var3;
             var3 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var2 = _closure2_slot4;
                     var1 = null;
-                    if(!(var1 != var2)) { _fun0002_ip = 104; continue _fun0002 }
- 13:
+                    if(!(var1 != var2)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot2;
                     var2 = 7;
@@ -129,15 +129,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = {};
                     var2['orbPrice'] = var5;
                     var4 = null;
-                    if(!(var4 !== var5)) { _fun0002_ip = 88; continue _fun0002 }
- 82:
+                    if(!(var4 !== var5)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var4 = var5.amount;
- 88:
+case 4:
                     var2['orbPriceAmount'] = var4;
                     var3 = _closure2_slot4;
                     var2['product'] = var3;
                     return var2;
- 104:
+case 2:
                     return var1;
                 }
             };
@@ -189,10 +189,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6['skuId'] = var13;
             var6['loadId'] = var12;
             var12 = null;
-            if(!(var12 == var11)) { _fun0001_ip = 285; continue _fun0001 }
- 281:
+            if(!(var12 == var11)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var11 = new Array(0);
- 285:
+case 6:
             var6['analyticsLocations'] = var11;
             var6['orbProductContext'] = var10;
             var6['onRedeemVirtualCurrency'] = var9;

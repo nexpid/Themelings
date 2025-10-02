@@ -40,23 +40,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.forwardRef;
     var2 = function(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var11 = var1.label;
             var3 = var1.IconComponent;
             var6 = var1.iconSource;
             var9 = var1.showIconFirst;
             var4 = undefined;
-            if(!(var9 === var4)) { _fun0001_ip = 35; continue _fun0001 }
- 33:
+            if(!(var9 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var9 = false;
- 35:
+case 2:
             var14 = var1.style;
             var13 = var1.disabled;
-            if(!(var13 === var4)) { _fun0001_ip = 51; continue _fun0001 }
- 49:
+            if(!(var13 === var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var13 = false;
- 51:
+case 4:
             var1 = var1.action;
             var _closure2_slot0 = var1;
             var _closure2_slot1 = var4;
@@ -74,12 +74,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.menuClose;
             _closure2_slot1 = var1;
             var12 = null;
-            if(!(var12 == var3)) { _fun0001_ip = 189; continue _fun0001 }
- 132:
+            if(!(var12 == var3)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var1 = var12 != var6;
             var8 = null;
-            if(!var1) { _fun0001_ip = 187; continue _fun0001 }
- 141:
+            if(!var1) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var15 = _closure1_slot4;
             var2 = _closure1_slot1;
             var16 = _closure1_slot2;
@@ -91,15 +91,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = var10.formIcon;
             var1['style'] = var16;
             var8 = var15.bind(var4)(var2, var1);
- 187:
-            _fun0001_ip = 209; continue _fun0001;
- 189:
+case 8:
+            _fun0001_ip = 10; continue _fun0001;
+case 6:
             var2 = _closure1_slot4;
             var1 = {};
             var15 = 'sm';
             var1['size'] = var15;
             var8 = var2.bind(var4)(var3, var1);
- 209:
+case 10:
             var3 = _closure1_slot4;
             var2 = _closure1_slot1;
             var15 = _closure1_slot2;
@@ -115,29 +115,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['disabled'] = var13;
             var14 = var12 != var6;
             var13 = null;
-            if(!var14) { _fun0001_ip = 277; continue _fun0001 }
- 269:
+            if(!var14) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var13 = null;
-            if(!var9) { _fun0001_ip = 277; continue _fun0001 }
- 274:
+            if(!var9) { _fun0001_ip = 11; continue _fun0001 }
+case 13:
             var13 = var8;
- 277:
+case 11:
             var1['leading'] = var13;
             var13 = var12 == var6;
             var6 = null;
-            if(var13) { _fun0001_ip = 299; continue _fun0001 }
- 291:
+            if(var13) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var6 = null;
-            if(var9) { _fun0001_ip = 299; continue _fun0001 }
- 296:
+            if(var9) { _fun0001_ip = 14; continue _fun0001 }
+case 16:
             var6 = var8;
- 299:
+case 14:
             var1['trailing'] = var6;
             var9 = 'string';
             var8 = typeof var11;
             var6 = var11;
-            if(!(var9 === var8)) { _fun0001_ip = 364; continue _fun0001 }
- 318:
+            if(!(var9 === var8)) { _fun0001_ip = 17; continue _fun0001 }
+case 18:
             var9 = _closure1_slot4;
             var8 = _closure1_slot1;
             var12 = _closure1_slot2;
@@ -149,7 +149,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var10.formLabel;
             var7['style'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 364:
+case 17:
             var1['label'] = var6;
             var5 = function onPress() {
                 var3 = _closure2_slot0;

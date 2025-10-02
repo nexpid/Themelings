@@ -34,7 +34,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function StringSelectActionComponent(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var7 = arg1;
             var _closure2_slot0 = var7;
             var14 = var7.type;
@@ -85,10 +85,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = null;
             var8 = var2 == var6;
             var3 = undefined;
-            if(var8) { _fun0001_ip = 152; continue _fun0001 }
- 146:
+            if(var8) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = var6.modal;
- 152:
+case 2:
             var8 = var2 != var3;
             var3 = 'StringSelectActionComponent must be rendered inside a modal ComponentStateContext';
             var3 = var9.bind(var4)(var8, var3);
@@ -97,13 +97,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = 0;
             var9 = var3 > var11;
             var3 = undefined;
-            if(!var9) { _fun0001_ip = 203; continue _fun0001 }
- 190:
+            if(!var9) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var9 = {};
             var9['type'] = var14;
             var9['values'] = var12;
             var3 = var9;
- 203:
+case 4:
             var8 = var8.bind(var6)(var7, var3);
             var3 = var8.state;
             var _closure2_slot4 = var3;
@@ -118,25 +118,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8[2] = var3;
             var3 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var4 = _closure2_slot4;
                     var3 = null;
                     var3 = var3 == var4;
                     var4 = undefined;
-                    if(var3) { _fun0002_ip = 29; continue _fun0002 }
- 20:
+                    if(var3) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var3 = _closure2_slot4;
                     var4 = var3.type;
- 29:
+case 6:
                     var3 = _closure2_slot1;
-                    if(!(var4 !== var3)) { _fun0002_ip = 43; continue _fun0002 }
- 37:
+                    if(!(var4 !== var3)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                     var4 = new Array(0);
-                    _fun0002_ip = 52; continue _fun0002;
- 43:
+                    _fun0002_ip = 10; continue _fun0002;
+case 8:
                     var2 = _closure2_slot4;
                     var4 = var2.values;
- 52:
+case 10:
                     var3 = var4.map;
                     var2 = function(arg1) {
                         var2 = arg1;
@@ -173,16 +173,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var3.bind(var6)(var7);
             var12 = var2 == var6;
             var3 = undefined;
-            if(var12) { _fun0001_ip = 312; continue _fun0001 }
- 308:
+            if(var12) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var3 = var6[var11];
- 312:
+case 11:
             var2 = var2 == var3;
             var11 = undefined;
-            if(var2) { _fun0001_ip = 326; continue _fun0001 }
- 321:
+            if(var2) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var11 = var3.type;
- 326:
+case 13:
             var6 = _closure1_slot0;
             var12 = _closure1_slot2;
             var2 = 5;
@@ -191,10 +191,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.ComponentType;
             var6 = var2.LABEL;
             var2 = undefined;
-            if(!(var11 === var6)) { _fun0001_ip = 367; continue _fun0001 }
- 364:
+            if(!(var11 === var6)) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
             var2 = var3;
- 367:
+case 15:
             var _closure2_slot7 = var2;
             var3 = _closure1_slot4;
             var2 = _closure1_slot1;

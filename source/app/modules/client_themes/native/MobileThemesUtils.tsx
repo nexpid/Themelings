@@ -27,7 +27,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot7 = var1;
     var4 = function useCustomBackgroundGradient() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 5;
@@ -37,8 +37,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2.useCustomThemeDisplaySettings;
             var3 = var1.bind(var2)();
             var1 = null;
-            if(!(var7 !== var3)) { _fun0001_ip = 113; continue _fun0001 }
- 41:
+            if(!(var7 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = {};
             var6 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -55,24 +55,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.customTheme;
             var2['customThemeSettings'] = var3;
             var1 = var2;
- 113:
+case 2:
             return var1;
         }
     };
     var _closure1_slot8 = var4;
     var1 = function getMobileThemesArrayWithMaybeCustomTheme(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var4 = arg1;
             var1 = arg2;
-            if(!var1) { _fun0002_ip = 15; continue _fun0002 }
- 9:
+            if(!var1) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var1 = null;
-            if(!(var1 == var4)) { _fun0002_ip = 24; continue _fun0002 }
- 15:
+            if(!(var1 == var4)) { _fun0002_ip = 6; continue _fun0002 }
+case 4:
             var1 = _closure1_slot6;
-            _fun0002_ip = 70; continue _fun0002;
- 24:
+            _fun0002_ip = 7; continue _fun0002;
+case 6:
             var8 = _closure1_slot5;
             var2 = new Array(1);
             var7 = 0;
@@ -85,7 +85,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var2;
             var3 = arraySpread(var9, var8, var7);
             var1 = var2;
- 70:
+case 7:
             return var1;
         }
     };
@@ -128,7 +128,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['useCustomBackgroundGradient'] = var4;
     var4 = function getAllMobileThemes() {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 6;
@@ -143,8 +143,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var5.getCustomThemeDisplaySettings;
             var6 = var1.bind(var5)();
             var1 = null;
-            if(!(var4 !== var6)) { _fun0003_ip = 138; continue _fun0003 }
- 66:
+            if(!(var4 !== var6)) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
             var5 = {};
             var9 = _closure1_slot0;
             var10 = _closure1_slot2;
@@ -161,7 +161,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.customTheme;
             var5['customThemeSettings'] = var6;
             var1 = var5;
- 138:
+case 8:
             var1 = var2.bind(var4)(var1, var3);
             return var1;
         }

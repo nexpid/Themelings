@@ -123,14 +123,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.useCallback;
             var2 = function(arg1) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     var4 = arg1;
                     var1 = _closure3_slot0;
                     var1 = var1.current;
                     var1 = var1[var4];
                     var2 = null;
-                    if(!(var2 == var1)) { _fun0001_ip = 90; continue _fun0001 }
- 25:
+                    if(!(var2 == var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var2 = global;
                     var6 = var2.Math;
                     var5 = var6.floor;
@@ -146,7 +146,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var3.current;
                     var3[var4] = var2;
                     var1 = var2;
- 90:
+case 2:
                     return var1;
                 }
             };
@@ -169,14 +169,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5[3] = var12;
         var3 = function() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var1 = new Array(0);
                 var4 = 0;
                 var8 = undefined;
                 var6 = 10;
                 var5 = 11;
                 var3 = 0;
- 22:
+case 4:
                 var2 = _closure2_slot4;
                 var2 = var2.bind(var8)(var3);
                 var12 = _closure1_slot0;
@@ -200,8 +200,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var10 = var10 - var2;
                 var2 = _closure2_slot3;
                 var2 = var10 - var2;
-                if(var4 < var2) { _fun0002_ip = 22; continue _fun0002 }
- 124:
+                if(var4 < var2) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                 return var1;
             }
         };

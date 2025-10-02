@@ -9,8 +9,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function _isNativeReflectConstruct() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
- 2: // try_start_0
+case 0:
+case 2: // try_start_0
             var2 = global;
             var3 = var2.Boolean;
             var3 = var3.prototype;
@@ -28,11 +28,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var4)(var2);
             var2 = !var2;
             var _closure2_slot0 = var2;
- 72: // try_end0
-            _fun0001_ip = 76; continue _fun0001;
- 74: // catch_target0
+case 3: // try_end0
+            _fun0001_ip = 4; continue _fun0001;
+case 5: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+case 4:
             var2 = function _isNativeReflectConstruct() {
                 var1 = _closure2_slot0;
                 var1 = !var1;
@@ -95,7 +95,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function(arg1) {
         var4 = function MidjourneyOnboardingManager(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var4 = this;
                 var12 = 0;
                 var1 = copyRestArgs(var12);
@@ -113,12 +113,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = _closure1_slot6;
                 var1 = _closure1_slot11;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0002_ip = 84; continue _fun0002 }
- 71:
+                if(var1) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                 var1 = var8.apply;
                 var1 = var1.bind(var8)(var4, var9);
-                _fun0002_ip = 118; continue _fun0002;
- 84:
+                _fun0002_ip = 8; continue _fun0002;
+case 6:
                 var6 = global;
                 var7 = var6.Reflect;
                 var6 = var7.construct;
@@ -126,7 +126,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var5.bind(var3)(var4);
                 var5 = var5.constructor;
                 var1 = var6.bind(var7)(var8, var9, var5);
- 118:
+case 8:
                 var1 = var2.bind(var3)(var4, var1);
                 var2 = {};
                 var3 = var1.handleChannelCreate;
@@ -148,21 +148,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = function* (arg1) {
             var1 = function* anon_0_(arg1) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0003_ip = 169; continue _fun0003 }
- 10:
+                    if(var2) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
                     var2 = arg1;
                     var5 = var2.channel;
                     var4 = undefined;
                     SaveGenerator(address=24);
- 22:
+case 11:
                     return var4;
- 24:
+case 12:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0003_ip = 166; continue _fun0003 }
- 33:
+                    if(var3) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
                     var6 = _closure1_slot0;
                     var3 = _closure1_slot2;
                     var8 = 8;
@@ -170,8 +170,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = var6.bind(var4)(var3);
                     var3 = var6.isEligibleForMidjourneyRedirect;
                     var3 = var3.bind(var6)(var5);
-                    if(!var3) { _fun0003_ip = 160; continue _fun0003 }
- 70:
+                    if(!var3) { _fun0003_ip = 15; continue _fun0003 }
+case 16:
                     var6 = _closure1_slot0;
                     var3 = _closure1_slot2;
                     var3 = var3[var8];
@@ -180,12 +180,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = _closure1_slot9;
                     var3 = var6.bind(var8)(var3);
                     SaveGenerator(address=106);
- 104:
+case 17:
                     return var3;
- 106:
+case 18:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
-                    if(var6) { _fun0003_ip = 163; continue _fun0003 }
- 112:
+                    if(var6) { _fun0003_ip = 19; continue _fun0003 }
+case 20:
                     var8 = _closure1_slot1;
                     var9 = _closure1_slot2;
                     var6 = 9;
@@ -197,13 +197,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = null;
                     var5 = var8.bind(var9)(var5, var7);
                     var5 = var6.bind(var4)(var5);
- 160:
+case 15:
                     return var4;
- 163:
+case 19:
                     return var3;
- 166:
+case 13:
                     return var2;
- 169:
+case 9:
                     return var1;
                 }
             };

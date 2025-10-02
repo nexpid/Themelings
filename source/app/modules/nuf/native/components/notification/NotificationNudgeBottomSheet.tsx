@@ -128,7 +128,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure2_slot1 = var1;
         var14 = function onDismiss() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var4 = _closure1_slot1;
                 var9 = _closure1_slot2;
                 var1 = 10;
@@ -155,11 +155,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = null;
                 var9 = var8 == var9;
                 var8 = undefined;
-                if(var9) { _fun0001_ip = 128; continue _fun0001 }
- 118:
+                if(var9) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var9 = _closure2_slot1;
                 var8 = var9.timing;
- 128:
+case 2:
                 var4['dismiss_logic'] = var8;
                 var4 = var6.bind(var7)(var5, var4);
                 var4 = _closure2_slot0;

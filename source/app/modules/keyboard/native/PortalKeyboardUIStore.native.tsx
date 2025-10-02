@@ -70,7 +70,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['PortalKeyboardUIStore'] = var5;
     var5 = function openPortalKeyboard(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var10 = arg1;
             var9 = arg2;
             var2 = _closure1_slot2;
@@ -82,21 +82,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var3 == var4;
             var1 = undefined;
             var2 = undefined;
-            if(var7) { _fun0001_ip = 52; continue _fun0001 }
- 47:
+            if(var7) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var4.type;
- 52:
+case 2:
             var2 = var2 === var10;
-            if(!var2) { _fun0001_ip = 77; continue _fun0001 }
- 59:
+            if(!var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var7 = var3 == var4;
             var3 = undefined;
-            if(var7) { _fun0001_ip = 73; continue _fun0001 }
- 68:
+            if(var7) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var3 = var4.channelId;
- 73:
+case 6:
             var2 = var3 === var9;
- 77:
+case 4:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
             var7 = 1;
@@ -105,8 +105,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.PortalKeyboardState;
             var3 = var3.REQUEST_OPEN;
             var3 = var6 === var3;
-            if(var3) { _fun0001_ip = 149; continue _fun0001 }
- 116:
+            if(var3) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var8 = _closure1_slot0;
             var4 = _closure1_slot1;
             var4 = var4[var7];
@@ -114,9 +114,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.PortalKeyboardState;
             var4 = var4.OPENING;
             var3 = var6 === var4;
- 149:
-            if(var3) { _fun0001_ip = 185; continue _fun0001 }
- 152:
+case 8:
+            if(var3) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var8 = _closure1_slot0;
             var4 = _closure1_slot1;
             var4 = var4[var7];
@@ -124,13 +124,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.PortalKeyboardState;
             var4 = var4.OPEN;
             var3 = var6 === var4;
- 185:
-            if(!var2) { _fun0001_ip = 191; continue _fun0001 }
- 188:
+case 10:
+            if(!var2) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var2 = var3;
- 191:
-            if(var2) { _fun0001_ip = 293; continue _fun0001 }
- 194:
+case 12:
+            if(var2) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var4 = _closure1_slot2;
             var3 = var4.setState;
             var2 = {};
@@ -154,7 +154,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.REQUEST_OPEN;
             var2['state'] = var5;
             var2 = var3.bind(var4)(var2);
- 293:
+case 14:
             return var1;
         }
     };
@@ -166,15 +166,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var4.setState;
         var2 = function(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var3 = arg1;
                 var5 = var3.renderers;
                 var2 = var5.includes;
                 var1 = _closure2_slot0;
                 var2 = var2.bind(var5)(var1);
                 var1 = var3;
-                if(var2) { _fun0002_ip = 77; continue _fun0002 }
- 32:
+                if(var2) { _fun0002_ip = 4; continue _fun0002 }
+case 16:
                 var2 = {};
                 var8 = var3.renderers;
                 var3 = new Array(1);
@@ -187,7 +187,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var5 + var4;
                 var2['renderers'] = var3;
                 var1 = var2;
- 77:
+case 4:
                 return var1;
             }
         };
@@ -224,19 +224,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var3.setState;
         var1 = function(arg1) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var5 = arg1;
                 var3 = var5.keyboard;
                 var2 = null;
                 var1 = var5;
-                if(!(var2 != var3)) { _fun0003_ip = 123; continue _fun0003 }
- 18:
+                if(!(var2 != var3)) { _fun0003_ip = 17; continue _fun0003 }
+case 18:
                 var2 = var5.keyboard;
                 var3 = var2.handlerId;
                 var2 = _closure2_slot0;
                 var1 = var5;
-                if(!(var3 !== var2)) { _fun0003_ip = 123; continue _fun0003 }
- 44:
+                if(!(var3 !== var2)) { _fun0003_ip = 17; continue _fun0003 }
+case 19:
                 var2 = {};
                 var3 = {};
                 var6 = var5.keyboard;
@@ -256,7 +256,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var3.OPEN;
                 var2['state'] = var3;
                 var1 = var2;
- 123:
+case 17:
                 return var1;
             }
         };
@@ -268,7 +268,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['closePortalKeyboard'] = var4;
     var4 = function closePortalKeyboardIfUnhandled() {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var3 = _closure1_slot2;
             var2 = var3.getState;
             var2 = var2.bind(var3)();
@@ -276,8 +276,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var2.state;
             var4 = null;
             var2 = var4 == var5;
-            if(!var2) { _fun0004_ip = 75; continue _fun0004 }
- 37:
+            if(!var2) { _fun0004_ip = 20; continue _fun0004 }
+case 21:
             var8 = _closure1_slot0;
             var7 = _closure1_slot1;
             var3 = 1;
@@ -287,21 +287,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.PortalKeyboardState;
             var3 = var3.CLOSED;
             var2 = var6 === var3;
- 75:
-            if(var2) { _fun0004_ip = 107; continue _fun0004 }
- 78:
+case 20:
+            if(var2) { _fun0004_ip = 22; continue _fun0004 }
+case 23:
             var6 = var4 == var5;
             var2 = undefined;
             var3 = undefined;
-            if(var6) { _fun0004_ip = 95; continue _fun0004 }
- 89:
+            if(var6) { _fun0004_ip = 24; continue _fun0004 }
+case 25:
             var3 = var5.handlerId;
- 95:
-            if(!(var4 == var3)) { _fun0004_ip = 107; continue _fun0004 }
- 99:
+case 24:
+            if(!(var4 == var3)) { _fun0004_ip = 22; continue _fun0004 }
+case 26:
             var1 = _closure1_slot3;
             var1 = var1.bind(var2)();
- 107:
+case 22:
             var1 = undefined;
             return var1;
         }
@@ -309,7 +309,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['closePortalKeyboardIfUnhandled'] = var4;
     var2 = function closePortalKeyboardRequest() {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
             var3 = _closure1_slot2;
             var2 = var3.getField;
             var1 = 'state';
@@ -323,8 +323,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.PortalKeyboardState;
             var2 = var2.CLOSED;
             var2 = var4 !== var2;
-            if(!var2) { _fun0005_ip = 96; continue _fun0005 }
- 63:
+            if(!var2) { _fun0005_ip = 27; continue _fun0005 }
+case 28:
             var6 = _closure1_slot0;
             var3 = _closure1_slot1;
             var3 = var3[var7];
@@ -332,9 +332,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.PortalKeyboardState;
             var3 = var3.REQUEST_CLOSE;
             var2 = var4 !== var3;
- 96:
-            if(!var2) { _fun0005_ip = 149; continue _fun0005 }
- 99:
+case 27:
+            if(!var2) { _fun0005_ip = 8; continue _fun0005 }
+case 26:
             var4 = _closure1_slot2;
             var3 = var4.setState;
             var2 = {};
@@ -346,7 +346,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.REQUEST_CLOSE;
             var2['state'] = var5;
             var2 = var3.bind(var4)(var2);
- 149:
+case 8:
             return var1;
         }
     };

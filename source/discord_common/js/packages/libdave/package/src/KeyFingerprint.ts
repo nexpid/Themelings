@@ -9,35 +9,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = function* (arg1, arg2, arg3) {
             var1 = function* anon_0_(arg1, arg2, arg3) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     StartGenerator();
                     var10 = arg1;
                     var4 = arg2;
                     var6 = arg3;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 368; continue _fun0001 }
- 19:
+                    if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var9 = 0;
-                    if(!(var9 === var10)) { _fun0001_ip = 332; continue _fun0001 }
- 28:
+                    if(!(var9 === var10)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                     var2 = var4.byteLength;
-                    if(!(var9 !== var2)) { _fun0001_ip = 296; continue _fun0001 }
- 41:
+                    if(!(var9 !== var2)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                     var2 = var6.length;
-                    if(!(var9 !== var2)) { _fun0001_ip = 260; continue _fun0001 }
- 53:
+                    if(!(var9 !== var2)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
                     var2 = global;
                     var5 = var2.BigInt;
                     var3 = undefined;
                     var7 = var5.bind(var3)(var6);
                     var3 = 0n;
-                    if(!(!(var7 < var3))) { _fun0001_ip = 226; continue _fun0001 }
- 79:
+                    if(!(!(var7 < var3))) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
                     var13 = 2n;
                     var12 = 64n;
                     var3 = exponentiationOperator(var13, var12);
-                    if(!(!(var7 >= var3))) { _fun0001_ip = 226; continue _fun0001 }
- 98:
+                    if(!(!(var7 >= var3))) { _fun0001_ip = 10; continue _fun0001 }
+case 12:
                     var6 = var2.Uint8Array;
                     var3 = var4.byteLength;
                     var8 = 2;
@@ -65,7 +65,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var8 + var4;
                     var4 = var5.bind(var6)(var4, var7);
                     return var3;
- 226:
+case 10:
                     var4 = var2.Error;
                     var2 = var4.prototype;
                     var3 = Object.create(var2, {constructor: {value: var4}});
@@ -74,7 +74,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = new var14[var4](var13, var12);
                     var2 = var2 instanceof Object ? var2 : var3;
                     throw var2;
- 260:
+case 8:
                     var2 = global;
                     var4 = var2.Error;
                     var2 = var4.prototype;
@@ -84,7 +84,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = new var14[var4](var13, var12);
                     var2 = var2 instanceof Object ? var2 : var3;
                     throw var2;
- 296:
+case 6:
                     var2 = global;
                     var4 = var2.Error;
                     var2 = var4.prototype;
@@ -94,7 +94,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = new var14[var4](var13, var12);
                     var2 = var2 instanceof Object ? var2 : var3;
                     throw var2;
- 332:
+case 4:
                     var2 = global;
                     var4 = var2.Error;
                     var2 = var4.prototype;
@@ -104,7 +104,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = new var14[var4](var13, var12);
                     var2 = var2 instanceof Object ? var2 : var3;
                     throw var2;
- 368:
+case 2:
                     return var1;
                 }
             };

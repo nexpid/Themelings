@@ -31,20 +31,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useTextareaPlaceholderAndLabels(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var1 = var3.channel;
             var2 = var3.isReadonly;
             var7 = undefined;
-            if(!(var2 === var7)) { _fun0001_ip = 22; continue _fun0001 }
- 20:
+            if(!(var2 === var7)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = false;
- 22:
+case 2:
             var4 = var3.isCreatingThread;
-            if(!(var4 === var7)) { _fun0001_ip = 34; continue _fun0001 }
- 32:
+            if(!(var4 === var7)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var4 = false;
- 34:
+case 4:
             var6 = _closure1_slot1;
             var8 = _closure1_slot2;
             var5 = 1;
@@ -57,30 +57,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = false;
             var9 = var6.bind(var7)(var1, var5);
             var5 = null;
-            if(!(var5 != var1)) { _fun0001_ip = 943; continue _fun0001 }
- 91:
-            if(!(var5 != var13)) { _fun0001_ip = 943; continue _fun0001 }
- 98:
-            if(var4) { _fun0001_ip = 828; continue _fun0001 }
- 104:
-            if(var2) { _fun0001_ip = 713; continue _fun0001 }
- 110:
+            if(!(var5 != var1)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+            if(!(var5 != var13)) { _fun0001_ip = 6; continue _fun0001 }
+case 8:
+            if(var4) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
+            if(var2) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var2 = var1.isForumPost;
             var2 = var2.bind(var1)();
-            if(var2) { _fun0001_ip = 580; continue _fun0001 }
- 126:
+            if(var2) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var2 = _closure1_slot4;
             var5 = var2.THREADS;
             var4 = var5.has;
             var2 = var1.type;
             var2 = var4.bind(var5)(var2);
-            if(var2) { _fun0001_ip = 446; continue _fun0001 }
- 157:
+            if(var2) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
             var2 = var1.type;
             var1 = _closure1_slot3;
             var1 = var1.DM;
-            if(!(var2 !== var1)) { _fun0001_ip = 310; continue _fun0001 }
- 179:
+            if(!(var2 !== var1)) { _fun0001_ip = 17; continue _fun0001 }
+case 18:
             var1 = {};
             var4 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -109,8 +109,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['channel'] = var9;
             var2 = var5.bind(var6)(var4, var2);
             var1['accessibilityLabel'] = var2;
-            _fun0001_ip = 441; continue _fun0001;
- 310:
+            _fun0001_ip = 19; continue _fun0001;
+case 17:
             var2 = {};
             var5 = _closure1_slot0;
             var10 = _closure1_slot2;
@@ -140,9 +140,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var6.bind(var8)(var5, var4);
             var2['accessibilityLabel'] = var4;
             var1 = var2;
- 441:
-            _fun0001_ip = 575; continue _fun0001;
- 446:
+case 19:
+            _fun0001_ip = 20; continue _fun0001;
+case 15:
             var2 = {};
             var5 = _closure1_slot0;
             var10 = _closure1_slot2;
@@ -172,9 +172,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var6.bind(var8)(var5, var4);
             var2['accessibilityLabel'] = var4;
             var1 = var2;
- 575:
-            _fun0001_ip = 711; continue _fun0001;
- 580:
+case 20:
+            _fun0001_ip = 21; continue _fun0001;
+case 13:
             var2 = {};
             var5 = _closure1_slot0;
             var10 = _closure1_slot2;
@@ -204,9 +204,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var6.bind(var8)(var5, var4);
             var2['accessibilityLabel'] = var4;
             var1 = var2;
- 711:
-            _fun0001_ip = 826; continue _fun0001;
- 713:
+case 21:
+            _fun0001_ip = 22; continue _fun0001;
+case 11:
             var2 = {};
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
@@ -232,9 +232,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var5.bind(var6)(var4);
             var2['accessibilityLabel'] = var4;
             var1 = var2;
- 826:
-            _fun0001_ip = 941; continue _fun0001;
- 828:
+case 22:
+            _fun0001_ip = 23; continue _fun0001;
+case 9:
             var2 = {};
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
@@ -260,9 +260,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var5.bind(var6)(var4);
             var2['accessibilityLabel'] = var4;
             var1 = var2;
- 941:
-            _fun0001_ip = 1056; continue _fun0001;
- 943:
+case 23:
+            _fun0001_ip = 24; continue _fun0001;
+case 6:
             var2 = {};
             var6 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -288,7 +288,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.bind(var5)(var3);
             var2['accessibilityLabel'] = var3;
             var1 = var2;
- 1056:
+case 24:
             return var1;
         }
     };

@@ -49,7 +49,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function fillChunk(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg2;
             var3 = arg3;
             var6 = _closure1_slot0;
@@ -62,21 +62,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = arg1;
             var4 = var5.bind(var6)(var4, var2);
             var5 = null;
-            if(!(var5 != var3)) { _fun0001_ip = 57; continue _fun0001 }
- 54:
+            if(!(var5 != var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var3;
- 57:
+case 2:
             var _closure2_slot0 = var2;
             var3 = var4.reduce;
             var2 = function(arg1, arg2) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var4 = arg1;
                     var2 = arg2;
                     var5 = _closure2_slot0;
                     var3 = var2.length;
-                    if(!(!(var5 <= var3))) { _fun0002_ip = 129; continue _fun0002 }
- 22:
+                    if(!(!(var5 <= var3))) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var3 = new Array(0);
                     var11 = var3;
                     var10 = var2;
@@ -106,7 +106,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = 1;
                     var3 = var5 + var3;
                     return var1;
- 129:
+case 4:
                     var1 = new Array(1);
                     var9 = 0;
                     var11 = var1;
@@ -126,7 +126,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['fillChunk'] = var4;
     var4 = function summarizeUsernamesParticipating(arg1, arg2, arg3, arg4) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var1 = arg2;
             var7 = arg4;
             var2 = 0;
@@ -142,18 +142,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = arg3;
             var10 = var6.bind(var9)(var5, var2, var4);
             var2 = null;
-            if(!(var2 == var7)) { _fun0003_ip = 67; continue _fun0003 }
- 62:
+            if(!(var2 == var7)) { _fun0003_ip = 6; continue _fun0003 }
+case 7:
             var7 = var1.length;
- 67:
+case 6:
             var9 = 1;
-            if(!(var9 === var7)) { _fun0003_ip = 84; continue _fun0003 }
- 74:
+            if(!(var9 === var7)) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
             var1 = var10;
-            if(!(var2 == var4)) { _fun0003_ip = 227; continue _fun0003 }
- 84:
-            if(!(var2 != var4)) { _fun0003_ip = 161; continue _fun0003 }
- 88:
+            if(!(var2 == var4)) { _fun0003_ip = 10; continue _fun0003 }
+case 8:
+            if(!(var2 != var4)) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
             var4 = _closure1_slot0;
             var11 = _closure1_slot3;
             var2 = 7;
@@ -170,8 +170,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var7 - var9;
             var2['count'] = var9;
             var2 = var5.bind(var6)(var4, var2);
-            _fun0003_ip = 224; continue _fun0003;
- 161:
+            _fun0003_ip = 13; continue _fun0003;
+case 11:
             var4 = _closure1_slot0;
             var9 = _closure1_slot3;
             var3 = 7;
@@ -186,32 +186,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = {};
             var3['count'] = var7;
             var2 = var5.bind(var6)(var4, var3);
- 224:
+case 13:
             var1 = var2;
- 227:
+case 10:
             return var1;
         }
     };
     var3['summarizeUsernamesParticipating'] = var4;
     var4 = function summarizeUsernamesParticipatingWithSpeakerNickname(arg1, arg2, arg3) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var8 = arg2;
             var7 = arg3;
             var2 = null;
-            if(!(var2 == var7)) { _fun0004_ip = 20; continue _fun0004 }
- 12:
+            if(!(var2 == var7)) { _fun0004_ip = 14; continue _fun0004 }
+case 15:
             var1 = arg1;
             var7 = var1.length;
- 20:
+case 14:
             var6 = 1;
-            if(!(var6 === var7)) { _fun0004_ip = 37; continue _fun0004 }
- 27:
+            if(!(var6 === var7)) { _fun0004_ip = 16; continue _fun0004 }
+case 17:
             var1 = var8;
-            if(!(var2 == var1)) { _fun0004_ip = 190; continue _fun0004 }
- 37:
-            if(!(var2 != var8)) { _fun0004_ip = 119; continue _fun0004 }
- 41:
+            if(!(var2 == var1)) { _fun0004_ip = 18; continue _fun0004 }
+case 16:
+            if(!(var2 != var8)) { _fun0004_ip = 19; continue _fun0004 }
+case 20:
             var9 = _closure1_slot0;
             var10 = _closure1_slot3;
             var2 = 7;
@@ -229,8 +229,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var7 - var6;
             var2['count'] = var6;
             var2 = var4.bind(var5)(var3, var2);
-            _fun0004_ip = 187; continue _fun0004;
- 119:
+            _fun0004_ip = 21; continue _fun0004;
+case 19:
             var8 = _closure1_slot0;
             var9 = _closure1_slot3;
             var3 = 7;
@@ -246,43 +246,43 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = {};
             var3['count'] = var7;
             var2 = var5.bind(var6)(var4, var3);
- 187:
+case 21:
             var1 = var2;
- 190:
+case 18:
             return var1;
         }
     };
     var3['summarizeUsernamesParticipatingWithSpeakerNickname'] = var4;
     var4 = function getRemoveModeratorTooltipHint(arg1, arg2) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
             var3 = arg1;
             var2 = _closure1_slot8;
             var2 = var2.OWNER;
-            if(!(var2 !== var3)) { _fun0005_ip = 231; continue _fun0005 }
- 23:
+            if(!(var2 !== var3)) { _fun0005_ip = 22; continue _fun0005 }
+case 23:
             var2 = _closure1_slot8;
             var2 = var2.ADMINISTRATOR;
-            if(!(var2 !== var3)) { _fun0005_ip = 172; continue _fun0005 }
- 40:
+            if(!(var2 !== var3)) { _fun0005_ip = 24; continue _fun0005 }
+case 25:
             var2 = _closure1_slot8;
             var2 = var2.MEMBER;
-            if(!(var2 !== var3)) { _fun0005_ip = 90; continue _fun0005 }
- 54:
+            if(!(var2 !== var3)) { _fun0005_ip = 26; continue _fun0005 }
+case 3:
             var2 = _closure1_slot8;
             var2 = var2.ROLE;
-            if(!(var2 !== var3)) { _fun0005_ip = 90; continue _fun0005 }
- 68:
+            if(!(var2 !== var3)) { _fun0005_ip = 26; continue _fun0005 }
+case 27:
             var2 = _closure1_slot8;
             var2 = var2.EMPTY_STATE;
-            if(!(var2 !== var3)) { _fun0005_ip = 86; continue _fun0005 }
- 82:
+            if(!(var2 !== var3)) { _fun0005_ip = 28; continue _fun0005 }
+case 29:
             var2 = null;
             return var2;
- 86:
+case 28:
             var2 = null;
             return var2;
- 90:
+case 26:
             var6 = _closure1_slot0;
             var7 = _closure1_slot3;
             var2 = 7;
@@ -295,17 +295,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var6.bind(var3)(var2);
             var3 = var2.t;
             var2 = arg2;
-            if(var2) { _fun0005_ip = 157; continue _fun0005 }
- 142:
+            if(var2) { _fun0005_ip = 30; continue _fun0005 }
+case 31:
             var2 = var3.YieyPj;
             var2 = var4.bind(var5)(var2);
-            _fun0005_ip = 170; continue _fun0005;
- 157:
+            _fun0005_ip = 32; continue _fun0005;
+case 30:
             var3 = var3.Hw3XW1;
             var2 = var4.bind(var5)(var3);
- 170:
+case 32:
             return var2;
- 172:
+case 24:
             var6 = _closure1_slot0;
             var7 = _closure1_slot3;
             var2 = 7;
@@ -320,7 +320,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.eTmN5e;
             var2 = var3.bind(var4)(var2);
             return var2;
- 231:
+case 22:
             var5 = _closure1_slot0;
             var6 = _closure1_slot3;
             var1 = 7;
@@ -340,7 +340,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['getRemoveModeratorTooltipHint'] = var4;
     var2 = function getStageChannelMetadata(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
- 0:
+case 0:
             var9 = arg1;
             var3 = _closure1_slot5;
             var2 = var3.getStageInstanceByChannel;
@@ -355,10 +355,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var4 == var3;
             var2 = undefined;
             var5 = undefined;
-            if(var7) { _fun0006_ip = 65; continue _fun0006 }
- 59:
+            if(var7) { _fun0006_ip = 33; continue _fun0006 }
+case 34:
             var5 = var3.topic;
- 65:
+case 33:
             var1['topic'] = var5;
             var7 = _closure1_slot4;
             var5 = var7.getMediaSessionId;
@@ -374,20 +374,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.REQUEST_TO_SPEAK;
             var5 = var7.bind(var8)(var5, var9);
             var6 = _closure1_slot6;
-            if(var5) { _fun0006_ip = 146; continue _fun0006 }
- 138:
+            if(var5) { _fun0006_ip = 35; continue _fun0006 }
+case 36:
             var5 = var6.NO_ONE;
-            _fun0006_ip = 152; continue _fun0006;
- 146:
+            _fun0006_ip = 37; continue _fun0006;
+case 35:
             var5 = var6.EVERYONE;
- 152:
+case 37:
             var1['request_to_speak_state'] = var5;
             var4 = var4 == var3;
             var2 = undefined;
-            if(var4) { _fun0006_ip = 173; continue _fun0006 }
- 168:
+            if(var4) { _fun0006_ip = 38; continue _fun0006 }
+case 39:
             var2 = var3.id;
- 173:
+case 38:
             var1['stage_instance_id'] = var2;
             return var1;
         }

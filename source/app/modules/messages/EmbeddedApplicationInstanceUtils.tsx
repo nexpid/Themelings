@@ -7,7 +7,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var8;
     var2 = function getJoinOrStartButtonState(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var10 = var1.embeddedActivity;
             var6 = var1.joinability;
@@ -31,15 +31,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5[var7];
             var5 = var11.bind(var3)(var5);
             var11 = var5.t;
-            if(var8) { _fun0001_ip = 117; continue _fun0001 }
- 102:
+            if(var8) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = var11.sqe0ho;
             var5 = var13.bind(var14)(var5);
-            _fun0001_ip = 128; continue _fun0001;
- 117:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var11 = var11.RscU7O;
             var5 = var13.bind(var14)(var11);
- 128:
+case 4:
             var4['text'] = var5;
             var4['tooltip'] = var3;
             var11 = _closure1_slot0;
@@ -49,18 +49,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var11.bind(var3)(var5);
             var5 = var11.isActivitiesInTextEnabled;
             var5 = var5.bind(var11)(var12);
-            if(!(var1 != var10)) { _fun0001_ip = 195; continue _fun0001 }
- 172:
-            if(!(var1 != var9)) { _fun0001_ip = 195; continue _fun0001 }
- 176:
+            if(!(var1 != var10)) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
+            if(!(var1 != var9)) { _fun0001_ip = 5; continue _fun0001 }
+case 7:
             var10 = var10.launchId;
             var9 = var9.launchId;
-            if(!(var10 !== var9)) { _fun0001_ip = 1114; continue _fun0001 }
- 195:
-            if(var8) { _fun0001_ip = 1022; continue _fun0001 }
- 201:
-            if(!(var1 != var6)) { _fun0001_ip = 241; continue _fun0001 }
- 205:
+            if(!(var10 !== var9)) { _fun0001_ip = 8; continue _fun0001 }
+case 5:
+            if(var8) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
+            if(!(var1 != var6)) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var8 = _closure1_slot0;
             var1 = _closure1_slot1;
             var9 = 3;
@@ -68,82 +68,82 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var8.bind(var3)(var1);
             var1 = var1.EmbeddedActivityJoinability;
             var1 = var1.CAN_JOIN;
-            if(!(var6 === var1)) { _fun0001_ip = 243; continue _fun0001 }
- 241:
+            if(!(var6 === var1)) { _fun0001_ip = 13; continue _fun0001 }
+case 11:
             return var4;
- 243:
+case 13:
             var8 = _closure1_slot0;
             var1 = _closure1_slot1;
             var1 = var1[var9];
             var1 = var8.bind(var3)(var1);
             var1 = var1.EmbeddedActivityJoinability;
             var1 = var1.NO_USE_EMBEDDED_ACTIVITIES_PERMISSION;
-            if(!(var1 !== var6)) { _fun0001_ip = 936; continue _fun0001 }
- 279:
+            if(!(var1 !== var6)) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var8 = _closure1_slot0;
             var1 = _closure1_slot1;
             var1 = var1[var9];
             var1 = var8.bind(var3)(var1);
             var1 = var1.EmbeddedActivityJoinability;
             var1 = var1.ACTIVITY_AGE_GATED;
-            if(!(var1 !== var6)) { _fun0001_ip = 882; continue _fun0001 }
- 315:
+            if(!(var1 !== var6)) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var8 = _closure1_slot0;
             var1 = _closure1_slot1;
             var1 = var1[var9];
             var1 = var8.bind(var3)(var1);
             var1 = var1.EmbeddedActivityJoinability;
             var1 = var1.ACTIVITIES_FEATURE_NOT_ENABLED_FOR_OS;
-            if(!(var1 !== var6)) { _fun0001_ip = 828; continue _fun0001 }
- 351:
+            if(!(var1 !== var6)) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
             var8 = _closure1_slot0;
             var1 = _closure1_slot1;
             var1 = var1[var9];
             var1 = var8.bind(var3)(var1);
             var1 = var1.EmbeddedActivityJoinability;
             var1 = var1.ACTIVITY_NOT_SUPPORTED_ON_OS;
-            if(!(var1 !== var6)) { _fun0001_ip = 771; continue _fun0001 }
- 387:
+            if(!(var1 !== var6)) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
             var8 = _closure1_slot0;
             var1 = _closure1_slot1;
             var1 = var1[var9];
             var1 = var8.bind(var3)(var1);
             var1 = var1.EmbeddedActivityJoinability;
             var1 = var1.CHANNEL_FULL;
-            if(!(var1 !== var6)) { _fun0001_ip = 714; continue _fun0001 }
- 423:
+            if(!(var1 !== var6)) { _fun0001_ip = 22; continue _fun0001 }
+case 23:
             var8 = _closure1_slot0;
             var1 = _closure1_slot1;
             var1 = var1[var9];
             var1 = var8.bind(var3)(var1);
             var1 = var1.EmbeddedActivityJoinability;
             var1 = var1.NO_CHANNEL_CONNECT_PERMISSION;
-            if(!(var1 !== var6)) { _fun0001_ip = 655; continue _fun0001 }
- 459:
+            if(!(var1 !== var6)) { _fun0001_ip = 24; continue _fun0001 }
+case 25:
             var8 = _closure1_slot0;
             var1 = _closure1_slot1;
             var1 = var1[var9];
             var1 = var8.bind(var3)(var1);
             var1 = var1.EmbeddedActivityJoinability;
             var1 = var1.NO_CHANNEL;
-            if(!(var1 !== var6)) { _fun0001_ip = 596; continue _fun0001 }
- 492:
+            if(!(var1 !== var6)) { _fun0001_ip = 26; continue _fun0001 }
+case 27:
             var8 = _closure1_slot0;
             var1 = _closure1_slot1;
             var1 = var1[var9];
             var1 = var8.bind(var3)(var1);
             var1 = var1.EmbeddedActivityJoinability;
             var1 = var1.NO_GUILD;
-            if(!(var1 !== var6)) { _fun0001_ip = 596; continue _fun0001 }
- 525:
+            if(!(var1 !== var6)) { _fun0001_ip = 26; continue _fun0001 }
+case 28:
             var8 = _closure1_slot0;
             var1 = _closure1_slot1;
             var1 = var1[var9];
             var1 = var8.bind(var3)(var1);
             var1 = var1.EmbeddedActivityJoinability;
             var1 = var1.NO_USER;
-            if(!(var1 !== var6)) { _fun0001_ip = 596; continue _fun0001 }
- 558:
+            if(!(var1 !== var6)) { _fun0001_ip = 26; continue _fun0001 }
+case 29:
             var8 = _closure1_slot0;
             var1 = _closure1_slot1;
             var1 = var1[var9];
@@ -151,8 +151,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.EmbeddedActivityJoinability;
             var1 = var1.IS_AFK_CHANNEL;
             var8 = undefined;
-            if(!(var1 === var6)) { _fun0001_ip = 988; continue _fun0001 }
- 596:
+            if(!(var1 === var6)) { _fun0001_ip = 30; continue _fun0001 }
+case 26:
             var10 = _closure1_slot0;
             var1 = _closure1_slot1;
             var6 = var1[var7];
@@ -164,8 +164,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.t;
             var1 = var1.Etp6uL;
             var8 = var6.bind(var9)(var1);
-            _fun0001_ip = 988; continue _fun0001;
- 655:
+            _fun0001_ip = 30; continue _fun0001;
+case 24:
             var10 = _closure1_slot0;
             var1 = _closure1_slot1;
             var6 = var1[var7];
@@ -177,8 +177,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.t;
             var1 = var1.w5SApq;
             var8 = var6.bind(var9)(var1);
-            _fun0001_ip = 988; continue _fun0001;
- 714:
+            _fun0001_ip = 30; continue _fun0001;
+case 22:
             var10 = _closure1_slot0;
             var1 = _closure1_slot1;
             var6 = var1[var7];
@@ -190,8 +190,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.t;
             var1 = var1.rZfiNj;
             var8 = var6.bind(var9)(var1);
-            _fun0001_ip = 988; continue _fun0001;
- 771:
+            _fun0001_ip = 30; continue _fun0001;
+case 20:
             var10 = _closure1_slot0;
             var1 = _closure1_slot1;
             var6 = var1[var7];
@@ -203,8 +203,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.t;
             var1 = var1.UXoQTk;
             var8 = var6.bind(var9)(var1);
-            _fun0001_ip = 988; continue _fun0001;
- 828:
+            _fun0001_ip = 30; continue _fun0001;
+case 18:
             var10 = _closure1_slot0;
             var1 = _closure1_slot1;
             var6 = var1[var7];
@@ -216,8 +216,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.t;
             var1 = var1.uGDCc3;
             var8 = var6.bind(var9)(var1);
-            _fun0001_ip = 988; continue _fun0001;
- 882:
+            _fun0001_ip = 30; continue _fun0001;
+case 16:
             var10 = _closure1_slot0;
             var1 = _closure1_slot1;
             var6 = var1[var7];
@@ -229,8 +229,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.t;
             var1 = var1.4WuFRE;
             var8 = var6.bind(var9)(var1);
-            _fun0001_ip = 988; continue _fun0001;
- 936:
+            _fun0001_ip = 30; continue _fun0001;
+case 14:
             var10 = _closure1_slot0;
             var1 = _closure1_slot1;
             var6 = var1[var7];
@@ -242,7 +242,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.t;
             var1 = var1.hHGrW1;
             var8 = var6.bind(var9)(var1);
- 988:
+case 30:
             var1 = {};
             var17 = var1;
             var16 = var4;
@@ -253,7 +253,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = 'tooltip';
             var1[var6] = var8;
             return var1;
- 1022:
+case 9:
             var1 = {};
             var17 = var1;
             var16 = var4;
@@ -262,8 +262,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = 'disabled';
             var1[var6] = var8;
             var6 = undefined;
-            if(var5) { _fun0001_ip = 1103; continue _fun0001 }
- 1051:
+            if(var5) { _fun0001_ip = 31; continue _fun0001 }
+case 32:
             var10 = _closure1_slot0;
             var5 = _closure1_slot1;
             var8 = var5[var7];
@@ -275,11 +275,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.t;
             var5 = var5.f41E1t;
             var6 = var8.bind(var9)(var5);
- 1103:
+case 31:
             var5 = 'tooltip';
             var1[var5] = var6;
             return var1;
- 1114:
+case 8:
             var1 = {};
             var17 = var1;
             var16 = var4;

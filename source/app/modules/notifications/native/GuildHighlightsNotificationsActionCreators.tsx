@@ -166,7 +166,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2['onFeedbackShown'] = var8;
         var7 = function onFeedbackCompleted(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var7 = var1.rating;
                 var8 = var1.reason;
@@ -188,10 +188,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = null;
                 var9 = var7 == var8;
                 var7 = undefined;
-                if(var9) { _fun0001_ip = 97; continue _fun0001 }
- 92:
+                if(var9) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var7 = var8.value;
- 97:
+case 2:
                 var2['reason'] = var7;
                 var7 = _closure2_slot0;
                 var2['guild_id'] = var7;

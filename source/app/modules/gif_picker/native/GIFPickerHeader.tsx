@@ -79,7 +79,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function GIFPickerHeader(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var17 = var1.categoryType;
             var10 = var1.onQueryClear;
@@ -95,8 +95,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['style'] = var5;
             var5 = _closure1_slot4;
             var5 = var5.SEARCH;
-            if(!(var17 !== var5)) { _fun0001_ip = 559; continue _fun0001 }
- 76:
+            if(!(var17 !== var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var8 = _closure1_slot6;
             var14 = _closure1_slot0;
             var16 = _closure1_slot2;
@@ -157,12 +157,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = {'variant': 'text-sm/semibold', 'color': 'text-normal', 'maxFontSizeMultiplier': 2};
             var16 = _closure1_slot4;
             var16 = var16.TRENDING_GIFS;
-            if(!(var17 !== var16)) { _fun0001_ip = 481; continue _fun0001 }
- 359:
+            if(!(var17 !== var16)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var16 = _closure1_slot4;
             var16 = var16.FAVORITES;
-            if(!(var17 !== var16)) { _fun0001_ip = 427; continue _fun0001 }
- 373:
+            if(!(var17 !== var16)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var19 = _closure1_slot0;
             var16 = _closure1_slot2;
             var17 = var16[var21];
@@ -174,8 +174,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = var16.t;
             var16 = var16.5h0QOD;
             var16 = var17.bind(var18)(var16);
-            _fun0001_ip = 479; continue _fun0001;
- 427:
+            _fun0001_ip = 8; continue _fun0001;
+case 6:
             var20 = _closure1_slot0;
             var17 = _closure1_slot2;
             var18 = var17[var21];
@@ -187,9 +187,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17 = var17.t;
             var17 = var17.k8fFjo;
             var16 = var18.bind(var19)(var17);
- 479:
-            _fun0001_ip = 533; continue _fun0001;
- 481:
+case 8:
+            _fun0001_ip = 9; continue _fun0001;
+case 4:
             var20 = _closure1_slot0;
             var17 = _closure1_slot2;
             var18 = var17[var21];
@@ -201,14 +201,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17 = var17.t;
             var17 = var17.TsWCdX;
             var16 = var18.bind(var19)(var17);
- 533:
+case 9:
             var13['children'] = var16;
             var13 = var15.bind(var4)(var14, var13);
             var12[1] = var13;
             var5['children'] = var12;
             var5 = var8.bind(var4)(var7, var5);
-            _fun0001_ip = 680; continue _fun0001;
- 559:
+            _fun0001_ip = 10; continue _fun0001;
+case 2:
             var8 = _closure1_slot5;
             var14 = _closure1_slot0;
             var15 = _closure1_slot2;
@@ -236,7 +236,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = true;
             var6['isRound'] = var9;
             var5 = var8.bind(var4)(var7, var6);
- 680:
+case 10:
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

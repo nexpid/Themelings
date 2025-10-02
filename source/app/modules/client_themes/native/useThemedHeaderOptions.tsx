@@ -71,13 +71,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[1] = var5;
         var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var1 = _closure2_slot0;
-                if(var1) { _fun0001_ip = 19; continue _fun0001 }
- 13:
+                if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var1 = _closure1_slot5;
                 return var1;
- 19:
+case 2:
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
                 var1 = 5;
@@ -86,8 +86,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var5.bind(var6)(var4);
                 var4 = var5.isIOS;
                 var4 = var4.bind(var5)();
-                if(var4) { _fun0001_ip = 82; continue _fun0001 }
- 54:
+                if(var4) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var4 = {};
                 var5 = _closure1_slot6;
                 var4['headerBackground'] = var5;
@@ -95,15 +95,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var5.contentStyle;
                 var4['contentStyle'] = var5;
                 return var4;
- 82:
+case 4:
                 var5 = _closure2_slot1;
                 var4 = 50;
                 var5 = var5 > var4;
                 var4 = 0;
-                if(!var5) { _fun0001_ip = 101; continue _fun0001 }
- 98:
+                if(!var5) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                 var4 = var1;
- 101:
+case 6:
                 var5 = _closure1_slot0;
                 var7 = _closure1_slot2;
                 var1 = 6;
@@ -112,10 +112,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var5.isIpadOS;
                 var1 = var1.bind(var5)();
                 var5 = 44;
-                if(!var1) { _fun0001_ip = 140; continue _fun0001 }
- 137:
+                if(!var1) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
                 var5 = 46;
- 140:
+case 8:
                 var1 = {};
                 var2 = _closure1_slot6;
                 var1['headerBackground'] = var2;

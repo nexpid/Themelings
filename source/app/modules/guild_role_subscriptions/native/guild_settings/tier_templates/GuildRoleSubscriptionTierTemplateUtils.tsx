@@ -22,7 +22,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function getPrivateChannelIconComponent(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var5 = _closure1_slot0;
             var2 = _closure1_slot1;
@@ -32,48 +32,48 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var5.bind(var3)(var2);
             var2 = var2.ChannelTypes;
             var2 = var2.GUILD_TEXT;
-            if(!(var2 !== var4)) { _fun0001_ip = 388; continue _fun0001 }
- 46:
+            if(!(var2 !== var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = _closure1_slot0;
             var2 = _closure1_slot1;
             var2 = var2[var6];
             var2 = var5.bind(var3)(var2);
             var2 = var2.ChannelTypes;
             var2 = var2.GUILD_VOICE;
-            if(!(var2 !== var4)) { _fun0001_ip = 360; continue _fun0001 }
- 82:
+            if(!(var2 !== var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = _closure1_slot0;
             var2 = _closure1_slot1;
             var2 = var2[var6];
             var2 = var5.bind(var3)(var2);
             var2 = var2.ChannelTypes;
             var2 = var2.GUILD_STAGE_VOICE;
-            if(!(var2 !== var4)) { _fun0001_ip = 332; continue _fun0001 }
- 118:
+            if(!(var2 !== var4)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var5 = _closure1_slot0;
             var2 = _closure1_slot1;
             var2 = var2[var6];
             var2 = var5.bind(var3)(var2);
             var2 = var2.ChannelTypes;
             var2 = var2.GUILD_FORUM;
-            if(!(var2 !== var4)) { _fun0001_ip = 304; continue _fun0001 }
- 154:
+            if(!(var2 !== var4)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var5 = _closure1_slot0;
             var2 = _closure1_slot1;
             var2 = var2[var6];
             var2 = var5.bind(var3)(var2);
             var2 = var2.ChannelTypes;
             var2 = var2.GUILD_MEDIA;
-            if(!(var2 !== var4)) { _fun0001_ip = 276; continue _fun0001 }
- 187:
+            if(!(var2 !== var4)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var5 = _closure1_slot0;
             var2 = _closure1_slot1;
             var2 = var2[var6];
             var2 = var5.bind(var3)(var2);
             var2 = var2.ChannelTypes;
             var2 = var2.GUILD_ANNOUNCEMENT;
-            if(!(var2 !== var4)) { _fun0001_ip = 248; continue _fun0001 }
- 220:
+            if(!(var2 !== var4)) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var4 = _closure1_slot0;
             var5 = _closure1_slot1;
             var2 = 1;
@@ -81,7 +81,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4.bind(var3)(var2);
             var2 = var2.TextLockIcon;
             return var2;
- 248:
+case 12:
             var4 = _closure1_slot0;
             var5 = _closure1_slot1;
             var2 = 6;
@@ -89,7 +89,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4.bind(var3)(var2);
             var2 = var2.AnnouncementsLockIcon;
             return var2;
- 276:
+case 10:
             var4 = _closure1_slot0;
             var5 = _closure1_slot1;
             var2 = 5;
@@ -97,7 +97,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4.bind(var3)(var2);
             var2 = var2.ImageLockIcon;
             return var2;
- 304:
+case 8:
             var4 = _closure1_slot0;
             var5 = _closure1_slot1;
             var2 = 4;
@@ -105,7 +105,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4.bind(var3)(var2);
             var2 = var2.ForumLockIcon;
             return var2;
- 332:
+case 6:
             var4 = _closure1_slot0;
             var5 = _closure1_slot1;
             var2 = 3;
@@ -113,7 +113,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4.bind(var3)(var2);
             var2 = var2.StageLockIcon;
             return var2;
- 360:
+case 4:
             var4 = _closure1_slot0;
             var5 = _closure1_slot1;
             var2 = 2;
@@ -121,7 +121,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4.bind(var3)(var2);
             var2 = var2.VoiceLockIcon;
             return var2;
- 388:
+case 2:
             var2 = _closure1_slot0;
             var4 = _closure1_slot1;
             var1 = 1;

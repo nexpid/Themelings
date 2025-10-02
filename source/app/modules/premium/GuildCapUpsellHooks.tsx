@@ -37,7 +37,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function useShouldShowInlineGuildCapUpsell() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var5 = 3;
@@ -105,14 +105,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var2 = var5.bind(var6)(var4, var2);
-            if(!var1) { _fun0001_ip = 156; continue _fun0001 }
- 153:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var3;
- 156:
-            if(!var1) { _fun0001_ip = 162; continue _fun0001 }
- 159:
+case 2:
+            if(!var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = var2;
- 162:
+case 4:
             return var1;
         }
     };
@@ -135,7 +135,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['hideInlineGuildCapUpsell'] = var4;
     var2 = function isAtGuildCapAndNonPremium() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var3 = _closure1_slot3;
             var1 = var3.getGuildCount;
             var3 = var1.bind(var3)();
@@ -152,10 +152,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var5.getCurrentUser;
             var2 = var2.bind(var5)();
             var2 = var3.bind(var4)(var2);
-            if(!var1) { _fun0002_ip = 77; continue _fun0002 }
- 74:
+            if(!var1) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var1 = !var2;
- 77:
+case 6:
             return var1;
         }
     };

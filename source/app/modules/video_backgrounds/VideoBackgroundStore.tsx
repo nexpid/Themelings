@@ -8,8 +8,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var6;
     var1 = function _isNativeReflectConstruct() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
- 2: // try_start_0
+case 0:
+case 2: // try_start_0
             var2 = global;
             var3 = var2.Boolean;
             var3 = var3.prototype;
@@ -27,11 +27,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var4)(var2);
             var2 = !var2;
             var _closure2_slot0 = var2;
- 70: // try_end0
-            _fun0001_ip = 74; continue _fun0001;
- 72: // catch_target0
+case 3: // try_end0
+            _fun0001_ip = 4; continue _fun0001;
+case 5: // catch_target0
             CatchBlockStart(arg_register=1);
- 74:
+case 4:
             var2 = function _isNativeReflectConstruct() {
                 var1 = _closure2_slot0;
                 var1 = !var1;
@@ -47,16 +47,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot15 = var1;
     var1 = function hasVideoBackgroundLive(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var3 = arg1;
             var2 = _closure1_slot10;
             var1 = var2.getCurrentUser;
             var1 = var1.bind(var2)();
             var2 = null;
-            if(!(var2 != var1)) { _fun0002_ip = 141; continue _fun0002 }
- 25:
-            if(!(var2 == var3)) { _fun0002_ip = 97; continue _fun0002 }
- 29:
+            if(!(var2 != var1)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
+            if(!(var2 == var3)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var7 = _closure1_slot0;
             var6 = _closure1_slot1;
             var5 = 9;
@@ -68,29 +68,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var8.settings;
             var8 = var8.voiceAndVideo;
             var9 = var2 == var8;
-            if(var9) { _fun0002_ip = 86; continue _fun0002 }
- 80:
+            if(var9) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
             var5 = var8.videoBackgroundFilterDesktop;
- 86:
+case 10:
             var1 = var1.id;
             var3 = var6.bind(var7)(var5, var1);
- 97:
+case 8:
             var5 = _closure1_slot9;
             var1 = var5.getVoiceChannelId;
             var1 = var1.bind(var5)();
             var1 = var2 != var1;
-            if(!var1) { _fun0002_ip = 132; continue _fun0002 }
- 118:
+            if(!var1) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
             var5 = _closure1_slot8;
             var4 = var5.isVideoEnabled;
             var1 = var4.bind(var5)();
- 132:
-            if(!var1) { _fun0002_ip = 139; continue _fun0002 }
- 135:
+case 12:
+            if(!var1) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
             var1 = var2 != var3;
- 139:
+case 14:
             return var1;
- 141:
+case 6:
             var1 = false;
             return var1;
         }
@@ -98,24 +98,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot16 = var1;
     var1 = function handleSyncedStoresUpdate() {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var2 = _closure1_slot12;
             var4 = _closure1_slot9;
             var1 = var4.getVoiceChannelId;
             var1 = var1.bind(var4)();
-            if(!(var2 !== var1)) { _fun0003_ip = 31; continue _fun0003 }
- 25:
+            if(!(var2 !== var1)) { _fun0003_ip = 16; continue _fun0003 }
+case 7:
             var1 = false;
             _closure1_slot13 = var1;
- 31:
+case 16:
             var2 = _closure1_slot16;
             var1 = undefined;
             var2 = var2.bind(var1)();
-            if(!var2) { _fun0003_ip = 50; continue _fun0003 }
- 44:
+            if(!var2) { _fun0003_ip = 17; continue _fun0003 }
+case 18:
             var2 = true;
             _closure1_slot13 = var2;
- 50:
+case 17:
             var4 = _closure1_slot9;
             var2 = var4.getVoiceChannelId;
             var2 = var2.bind(var4)();
@@ -183,7 +183,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function(arg1) {
         var4 = function VideoBackgroundStore() {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                 var4 = this;
                 var3 = undefined;
                 var5 = undefined;
@@ -195,14 +195,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = _closure1_slot4;
                 var1 = _closure1_slot15;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0004_ip = 69; continue _fun0004 }
- 51:
+                if(var1) { _fun0004_ip = 19; continue _fun0004 }
+case 20:
                 var7 = var9.apply;
                 var5 = arguments;
                 var1 = var5;
                 var1 = var7.bind(var9)(var4, var1);
-                _fun0004_ip = 105; continue _fun0004;
- 69:
+                _fun0004_ip = 21; continue _fun0004;
+case 19:
                 var7 = global;
                 var8 = var7.Reflect;
                 var7 = var8.construct;
@@ -211,7 +211,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var6.constructor;
                 var5 = arguments;
                 var1 = var7.bind(var8)(var9, var5, var6);
- 105:
+case 21:
                 var1 = var2.bind(var3)(var4, var1);
                 return var1;
             }
@@ -332,24 +332,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['VIDEO_FILTER_ASSET_DELETE_SUCCESS'] = var9;
     var9 = function handleSaveLastUsedBackgroundOption(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
             var1 = arg1;
             var4 = var1.backgroundOption;
             var2 = _closure1_slot16;
             var1 = undefined;
             var2 = var2.bind(var1)(var4);
-            if(!var2) { _fun0005_ip = 32; continue _fun0005 }
- 26:
+            if(!var2) { _fun0005_ip = 22; continue _fun0005 }
+case 23:
             var2 = true;
             _closure1_slot13 = var2;
- 32:
+case 22:
             return var1;
         }
     };
     var2['VIDEO_SAVE_LAST_USED_BACKGROUND_OPTION'] = var9;
     var9 = function handleApplyMediaFilterSettings(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
- 0:
+case 0:
             var1 = arg1;
             var4 = var1.settings;
             var5 = _closure1_slot0;
@@ -361,11 +361,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.FilterSettingsKey;
             var2 = var2.CAMERA_BACKGROUND_LIVE;
             var2 = var2 in var4;
-            if(!var2) { _fun0006_ip = 59; continue _fun0006 }
- 53:
+            if(!var2) { _fun0006_ip = 24; continue _fun0006 }
+case 25:
             var2 = true;
             _closure1_slot11 = var2;
- 59:
+case 24:
             return var1;
         }
     };

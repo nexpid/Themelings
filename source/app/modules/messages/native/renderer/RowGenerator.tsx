@@ -87,50 +87,50 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var5 = function value(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var5 = arg1;
                 var4 = this;
                 var8 = var5.rowType;
                 var1 = var4.options;
                 var3 = var1.forcedTheme;
                 var1 = null;
-                if(!(var1 == var3)) { _fun0001_ip = 42; continue _fun0001 }
- 29:
+                if(!(var1 == var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var1 = _closure1_slot5;
                 var3 = var1.theme;
- 42:
+case 2:
                 var2 = _closure1_slot6;
                 var2 = var2.BLOCKED_GROUP;
-                if(!(var2 !== var8)) { _fun0001_ip = 318; continue _fun0001 }
- 62:
+                if(!(var2 !== var8)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var2 = _closure1_slot6;
                 var2 = var2.IGNORED_GROUP;
-                if(!(var2 !== var8)) { _fun0001_ip = 318; continue _fun0001 }
- 79:
+                if(!(var2 !== var8)) { _fun0001_ip = 4; continue _fun0001 }
+case 6:
                 var2 = _closure1_slot6;
                 var2 = var2.MESSAGE;
-                if(!(var2 !== var8)) { _fun0001_ip = 276; continue _fun0001 }
- 96:
+                if(!(var2 !== var8)) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
                 var2 = _closure1_slot7;
                 var2 = var2.DAY;
-                if(!(var2 !== var8)) { _fun0001_ip = 240; continue _fun0001 }
- 113:
+                if(!(var2 !== var8)) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
                 var2 = _closure1_slot7;
                 var2 = var2.UNREAD;
-                if(!(var2 !== var8)) { _fun0001_ip = 240; continue _fun0001 }
- 127:
+                if(!(var2 !== var8)) { _fun0001_ip = 9; continue _fun0001 }
+case 11:
                 var2 = _closure1_slot7;
                 var2 = var2.SUMMARY;
-                if(!(var2 !== var8)) { _fun0001_ip = 240; continue _fun0001 }
- 141:
+                if(!(var2 !== var8)) { _fun0001_ip = 9; continue _fun0001 }
+case 12:
                 var2 = _closure1_slot8;
                 var2 = var2.LOAD_BEFORE;
-                if(!(var2 !== var8)) { _fun0001_ip = 204; continue _fun0001 }
- 155:
+                if(!(var2 !== var8)) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
                 var2 = _closure1_slot8;
                 var2 = var2.LOAD_AFTER;
-                if(!(var2 !== var8)) { _fun0001_ip = 204; continue _fun0001 }
- 169:
+                if(!(var2 !== var8)) { _fun0001_ip = 13; continue _fun0001 }
+case 15:
                 var7 = _closure1_slot0;
                 var6 = _closure1_slot2;
                 var2 = 10;
@@ -140,7 +140,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var7.assertNever;
                 var6 = var6.bind(var7)(var8);
                 return var2;
- 204:
+case 13:
                 var7 = _closure1_slot0;
                 var6 = _closure1_slot2;
                 var2 = 9;
@@ -150,7 +150,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var6.generateLoadingRowData;
                 var2 = var2.bind(var6)(var5, var3);
                 return var2;
- 240:
+case 9:
                 var7 = _closure1_slot0;
                 var6 = _closure1_slot2;
                 var2 = 8;
@@ -160,7 +160,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var6.generateSeparatorRowData;
                 var2 = var2.bind(var6)(var5, var3);
                 return var2;
- 276:
+case 7:
                 var7 = _closure1_slot0;
                 var6 = _closure1_slot2;
                 var2 = 7;
@@ -171,7 +171,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var4.options;
                 var2 = var6.bind(var7)(var5, var2, var3);
                 return var2;
- 318:
+case 4:
                 var6 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var1 = 6;

@@ -114,7 +114,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var7.useAnimatedStyle;
         var3 = function P() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var2 = _closure2_slot0;
                 var1 = var2.get;
                 var2 = var1.bind(var2)();
@@ -131,24 +131,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var2 > var1;
                 var8 = 1;
                 var10 = var8;
-                if(!var1) { _fun0001_ip = 82; continue _fun0001 }
- 80:
+                if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var10 = 0;
- 82:
+case 2:
                 var11 = 0;
-                if(!var1) { _fun0001_ip = 90; continue _fun0001 }
- 87:
+                if(!var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var11 = 30;
- 90:
-                if(!var1) { _fun0001_ip = 103; continue _fun0001 }
- 93:
+case 4:
+                if(!var1) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                 var8 = 0.9;
- 103:
+case 6:
                 var1 = {};
                 var3 = _closure2_slot1;
                 var2 = var10;
-                if(var3) { _fun0001_ip = 150; continue _fun0001 }
- 115:
+                if(var3) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
                 var6 = _closure1_slot0;
                 var7 = _closure1_slot2;
                 var3 = 11;
@@ -157,13 +157,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var7.withSpring;
                 var3 = _closure1_slot7;
                 var2 = var6.bind(var7)(var10, var3);
- 150:
+case 8:
                 var1['opacity'] = var2;
                 var3 = {};
                 var6 = _closure2_slot1;
                 var2 = var11;
-                if(var6) { _fun0001_ip = 201; continue _fun0001 }
- 166:
+                if(var6) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
                 var7 = _closure1_slot0;
                 var10 = _closure1_slot2;
                 var6 = 11;
@@ -172,15 +172,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = var10.withSpring;
                 var6 = _closure1_slot7;
                 var2 = var7.bind(var10)(var11, var6);
- 201:
+case 10:
                 var3['translateY'] = var2;
                 var2 = new Array(2);
                 var2[0] = var3;
                 var3 = {};
                 var6 = _closure2_slot1;
                 var4 = var8;
-                if(var6) { _fun0001_ip = 261; continue _fun0001 }
- 226:
+                if(var6) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
                 var7 = _closure1_slot0;
                 var10 = _closure1_slot2;
                 var6 = 11;
@@ -189,7 +189,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var7.withSpring;
                 var5 = _closure1_slot7;
                 var4 = var6.bind(var7)(var8, var5);
- 261:
+case 12:
                 var3['scale'] = var4;
                 var2[1] = var3;
                 var1['transform'] = var2;
@@ -223,7 +223,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var6.useAnimatedProps;
         var1 = function T() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var1 = {};
                 var4 = _closure2_slot0;
                 var3 = var4.get;
@@ -240,10 +240,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var5.bind(var6)(var4, var2);
                 var3 = var3 < var2;
                 var2 = 'none';
-                if(!var3) { _fun0002_ip = 84; continue _fun0002 }
- 80:
+                if(!var3) { _fun0002_ip = 14; continue _fun0002 }
+case 3:
                 var2 = 'auto';
- 84:
+case 14:
                 var1['pointerEvents'] = var2;
                 return var1;
             }

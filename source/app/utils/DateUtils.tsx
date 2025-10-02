@@ -9,31 +9,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var8;
     var1 = function startOfDay(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = arguments[1];
             var3 = undefined;
-            if(!(var2 === var3)) { _fun0001_ip = 14; continue _fun0001 }
- 12:
+            if(!(var2 === var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = true;
- 14:
+case 2:
             var5 = typeof var1;
             var3 = 'string';
             var3 = var3 === var5;
-            if(var3) { _fun0001_ip = 36; continue _fun0001 }
- 28:
+            if(var3) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var4 = 'number';
             var3 = var4 === var5;
- 36:
-            if(var3) { _fun0001_ip = 51; continue _fun0001 }
- 39:
+case 4:
+            if(var3) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var4 = global;
             var4 = var4.Date;
             var3 = var1 instanceof var4;
- 51:
+case 6:
             var5 = var1;
-            if(var3) { _fun0001_ip = 115; continue _fun0001 }
- 57:
+            if(var3) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var6 = _closure1_slot3;
             var4 = var6.error;
             var3 = {};
@@ -47,7 +47,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var3;
             var1 = new var9[var1](var8);
             var5 = var1 instanceof Object ? var1 : var3;
- 115:
+case 8:
             var1 = global;
             var3 = var1.Date;
             var4 = var3.prototype;
@@ -59,14 +59,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.getTime;
             var3 = var3.bind(var4)();
             var5 = var3;
-            if(var2) { _fun0001_ip = 186; continue _fun0001 }
- 162:
+            if(var2) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var2 = var4.getTimezoneOffset;
             var4 = var2.bind(var4)();
             var2 = 60000;
             var2 = var2 * var4;
             var5 = var3 - var2;
- 186:
+case 10:
             var4 = var1.Math;
             var3 = var4.floor;
             var2 = _closure1_slot4;
@@ -98,7 +98,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot8 = var5;
     var4 = function dateFormat(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var4 = arg1;
             var8 = arg2;
             var2 = _closure1_slot10;
@@ -127,8 +127,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = _closure1_slot5;
             var2 = var2[var7];
             var5 = null;
-            if(!(var5 == var2)) { _fun0002_ip = 153; continue _fun0002 }
- 117:
+            if(!(var5 == var2)) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
             var6 = _closure1_slot5;
             var9 = _closure1_slot1;
             var10 = _closure1_slot2;
@@ -138,7 +138,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.bind(var3)(var8);
             var6[var7] = var5;
             var2 = var5;
- 153:
+case 12:
             var1 = _closure1_slot11;
             var1 = var1.bind(var3)(var4);
             var1 = var2.bind(var3)(var1);
@@ -148,7 +148,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot9 = var4;
     var1 = function toMoment(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var4 = arg1;
             var5 = _closure1_slot1;
             var1 = _closure1_slot2;
@@ -159,21 +159,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var5.isMoment;
             var5 = var1.bind(var5)(var4);
             var1 = var4;
-            if(var5) { _fun0003_ip = 67; continue _fun0003 }
- 45:
+            if(var5) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
             var5 = _closure1_slot1;
             var2 = _closure1_slot2;
             var2 = var2[var6];
             var2 = var5.bind(var3)(var2);
             var1 = var2.bind(var3)(var4);
- 67:
+case 14:
             return var1;
         }
     };
     var _closure1_slot10 = var1;
     var1 = function toDate(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var3 = arg1;
             var4 = _closure1_slot1;
             var2 = _closure1_slot2;
@@ -184,11 +184,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2.isMoment;
             var2 = var1.bind(var2)(var3);
             var1 = var3;
-            if(!var2) { _fun0004_ip = 55; continue _fun0004 }
- 45:
+            if(!var2) { _fun0004_ip = 16; continue _fun0004 }
+case 15:
             var2 = var3.toDate;
             var1 = var2.bind(var3)();
- 55:
+case 16:
             return var1;
         }
     };
@@ -253,7 +253,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['differenceInCalendarDays'] = var5;
     var5 = function isSameHourMoment(arg1, arg2) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
             var3 = arg1;
             var2 = arg2;
             var1 = var3.toDate;
@@ -269,21 +269,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.bind(var5)(var1);
             var1 = 3600000;
             var1 = var2 <= var1;
-            if(!var1) { _fun0005_ip = 92; continue _fun0005 }
- 68:
+            if(!var1) { _fun0005_ip = 17; continue _fun0005 }
+case 18:
             var2 = var3.getHours;
             var3 = var2.bind(var3)();
             var2 = var4.getHours;
             var2 = var2.bind(var4)();
             var1 = var3 === var2;
- 92:
+case 17:
             return var1;
         }
     };
     var3['isSameHourMoment'] = var5;
     var5 = function isSameDay(arg1, arg2) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
- 0:
+case 0:
             var3 = arg1;
             var4 = arg2;
             var1 = global;
@@ -295,14 +295,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.bind(var5)(var1);
             var1 = _closure1_slot4;
             var1 = var2 <= var1;
-            if(!var1) { _fun0006_ip = 73; continue _fun0006 }
- 49:
+            if(!var1) { _fun0006_ip = 19; continue _fun0006 }
+case 20:
             var2 = var3.getDate;
             var3 = var2.bind(var3)();
             var2 = var4.getDate;
             var2 = var2.bind(var4)();
             var1 = var3 === var2;
- 73:
+case 19:
             return var1;
         }
     };
@@ -327,14 +327,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['dateFormat'] = var4;
     var4 = function calendarFormat(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
- 0:
+case 0:
             var4 = arg1;
             var2 = arguments[1];
             var3 = undefined;
-            if(!(var2 === var3)) { _fun0007_ip = 14; continue _fun0007 }
- 12:
+            if(!(var2 === var3)) { _fun0007_ip = 2; continue _fun0007 }
+case 3:
             var2 = false;
- 14:
+case 2:
             var6 = _closure1_slot1;
             var7 = _closure1_slot2;
             var5 = 4;
@@ -352,34 +352,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.bind(var8)();
             var6 = var7.bind(var3)(var6, var5);
             var5 = -1;
-            if(!(!(var6 < var5))) { _fun0007_ip = 199; continue _fun0007 }
- 99:
+            if(!(!(var6 < var5))) { _fun0007_ip = 21; continue _fun0007 }
+case 22:
             var5 = 0;
             var5 = var6 < var5;
             var7 = 'lastDay';
-            if(var5) { _fun0007_ip = 165; continue _fun0007 }
- 112:
+            if(var5) { _fun0007_ip = 23; continue _fun0007 }
+case 24:
             var5 = 1;
-            if(!(!(var6 < var5))) { _fun0007_ip = 142; continue _fun0007 }
- 119:
+            if(!(!(var6 < var5))) { _fun0007_ip = 25; continue _fun0007 }
+case 26:
             var5 = 2;
             var6 = var6 < var5;
             var5 = 'sameElse';
-            if(!var6) { _fun0007_ip = 137; continue _fun0007 }
- 133:
+            if(!var6) { _fun0007_ip = 27; continue _fun0007 }
+case 28:
             var5 = 'nextDay';
- 137:
+case 27:
             var7 = var5;
-            _fun0007_ip = 165; continue _fun0007;
- 142:
+            _fun0007_ip = 23; continue _fun0007;
+case 25:
             var7 = 'sameDay';
-            if(!var2) { _fun0007_ip = 165; continue _fun0007 }
- 149:
+            if(!var2) { _fun0007_ip = 23; continue _fun0007 }
+case 29:
             var5 = _closure1_slot9;
             var2 = 'LT';
             var2 = var5.bind(var3)(var4, var2);
             return var2;
- 165:
+case 23:
             var5 = _closure1_slot9;
             var6 = var9.calendar;
             var2 = _closure1_slot10;
@@ -387,7 +387,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var6.bind(var9)(var7, var2, var8);
             var2 = var5.bind(var3)(var4, var2);
             return var2;
- 199:
+case 21:
             var2 = _closure1_slot9;
             var1 = 'L LT';
             var1 = var2.bind(var3)(var4, var1);
@@ -397,7 +397,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['calendarFormat'] = var4;
     var4 = function calendarFormatCompact(arg1) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
- 0:
+case 0:
             var4 = arg1;
             var2 = _closure1_slot1;
             var5 = _closure1_slot2;
@@ -419,28 +419,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = _closure1_slot9;
             var1 = 'LT';
             var5 = 0;
-            if(!(var5 !== var7)) { _fun0008_ip = 158; continue _fun0008 }
- 94:
+            if(!(var5 !== var7)) { _fun0008_ip = 30; continue _fun0008 }
+case 31:
             var5 = -1;
-            if(!(var5 !== var7)) { _fun0008_ip = 129; continue _fun0008 }
- 104:
+            if(!(var5 !== var7)) { _fun0008_ip = 32; continue _fun0008 }
+case 33:
             var5 = -7;
             var7 = var7 > var5;
             var5 = 'L';
-            if(!var7) { _fun0008_ip = 127; continue _fun0008 }
- 121:
+            if(!var7) { _fun0008_ip = 34; continue _fun0008 }
+case 35:
             var5 = 'dddd';
- 127:
-            _fun0008_ip = 155; continue _fun0008;
- 129:
+case 34:
+            _fun0008_ip = 36; continue _fun0008;
+case 32:
             var8 = var10.calendar;
             var6 = _closure1_slot10;
             var7 = var6.bind(var3)(var4);
             var6 = 'lastDay';
             var5 = var8.bind(var10)(var6, var7, var9);
- 155:
+case 36:
             var1 = var5;
- 158:
+case 30:
             var1 = var2.bind(var3)(var4, var1);
             return var1;
         }
@@ -448,7 +448,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['calendarFormatCompact'] = var4;
     var4 = function accessibilityLabelCalendarFormat(arg1) {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
- 0:
+case 0:
             var4 = arg1;
             var2 = _closure1_slot1;
             var1 = _closure1_slot2;
@@ -472,34 +472,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var13 < var1;
             var6 = 'sameElse';
             var8 = var6;
-            if(var1) { _fun0009_ip = 153; continue _fun0009 }
- 100:
+            if(var1) { _fun0009_ip = 12; continue _fun0009 }
+case 37:
             var1 = 0;
             var7 = var13 < var1;
             var1 = 'lastDay';
-            if(var7) { _fun0009_ip = 150; continue _fun0009 }
- 113:
+            if(var7) { _fun0009_ip = 38; continue _fun0009 }
+case 39:
             var7 = 1;
             var11 = var13 < var7;
             var7 = 'sameDay';
-            if(var11) { _fun0009_ip = 147; continue _fun0009 }
- 127:
+            if(var11) { _fun0009_ip = 40; continue _fun0009 }
+case 34:
             var11 = 2;
             var13 = var13 < var11;
             var11 = var6;
-            if(!var13) { _fun0009_ip = 144; continue _fun0009 }
- 140:
+            if(!var13) { _fun0009_ip = 41; continue _fun0009 }
+case 42:
             var11 = 'nextDay';
- 144:
+case 41:
             var7 = var11;
- 147:
+case 40:
             var1 = var7;
- 150:
+case 38:
             var8 = var1;
- 153:
+case 12:
             var1 = 'LLL';
-            if(!(var6 !== var8)) { _fun0009_ip = 210; continue _fun0009 }
- 161:
+            if(!(var6 !== var8)) { _fun0009_ip = 43; continue _fun0009 }
+case 44:
             var7 = var9.calendar;
             var11 = _closure1_slot1;
             var5 = _closure1_slot2;
@@ -510,7 +510,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var11.bind(var3)(var5);
             var5 = var5.bind(var3)(var10);
             var1 = var7.bind(var9)(var8, var6, var5);
- 210:
+case 43:
             var1 = var2.bind(var3)(var4, var1);
             return var1;
         }
@@ -518,29 +518,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['accessibilityLabelCalendarFormat'] = var4;
     var4 = function diffAsUnits(arg1, arg2) {
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
- 0:
+case 0:
             var6 = arg1;
             var7 = arg2;
             var3 = arguments[2];
             var5 = undefined;
-            if(!(var3 === var5)) { _fun0010_ip = 19; continue _fun0010 }
- 17:
+            if(!(var3 === var5)) { _fun0010_ip = 45; continue _fun0010 }
+case 46:
             var3 = false;
- 19:
+case 45:
             var _closure2_slot0 = var5;
             var _closure2_slot1 = var5;
             var1 = {'days': 0, 'hours': 0, 'minutes': 0};
             var4 = 0;
-            if(!var3) { _fun0010_ip = 49; continue _fun0010 }
- 46:
+            if(!var3) { _fun0010_ip = 20; continue _fun0010 }
+case 47:
             var4 = 1;
- 49:
+case 20:
             var1['seconds'] = var4;
             _closure2_slot0 = var1;
-            if(!(!(var6 > var7))) { _fun0010_ip = 161; continue _fun0010 }
- 62:
-            if(!var3) { _fun0010_ip = 103; continue _fun0010 }
- 65:
+            if(!(!(var6 > var7))) { _fun0010_ip = 44; continue _fun0010 }
+case 48:
+            if(!var3) { _fun0010_ip = 49; continue _fun0010 }
+case 50:
             var3 = global;
             var4 = var3.Number;
             var8 = var4.bind(var5)(var6);
@@ -548,8 +548,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var8 + var4;
             var3 = var3.Number;
             var3 = var3.bind(var5)(var7);
-            if(!(!(var4 > var3))) { _fun0010_ip = 159; continue _fun0010 }
- 103:
+            if(!(!(var4 > var3))) { _fun0010_ip = 51; continue _fun0010 }
+case 49:
             var3 = global;
             var4 = var3.Number;
             var4 = var4.bind(var5)(var7);
@@ -582,25 +582,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var2 = var3.bind(var4)(var2);
             return var1;
- 159:
+case 51:
             return var1;
- 161:
+case 44:
             return var1;
         }
     };
     var3['diffAsUnits'] = var4;
     var2 = function unitsAsStrings(arg1, arg2) {
         _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
- 0:
+case 0:
             var6 = arg1;
             var2 = arg2;
             var1 = var6.days;
             var3 = 0;
-            if(!(!(var1 > var3))) { _fun0011_ip = 188; continue _fun0011 }
- 21:
+            if(!(!(var1 > var3))) { _fun0011_ip = 52; continue _fun0011 }
+case 53:
             var1 = var6.hours;
-            if(!(!(var1 > var3))) { _fun0011_ip = 115; continue _fun0011 }
- 31:
+            if(!(!(var1 > var3))) { _fun0011_ip = 8; continue _fun0011 }
+case 54:
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 5;
@@ -619,8 +619,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var9.bind(var10)(var7, var8);
             var1['minutes'] = var7;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0011_ip = 186; continue _fun0011;
- 115:
+            _fun0011_ip = 10; continue _fun0011;
+case 8:
             var5 = _closure1_slot0;
             var4 = _closure1_slot2;
             var3 = 5;
@@ -636,9 +636,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var6.minutes;
             var3['minutes'] = var8;
             var1 = var5.bind(var7)(var4, var3);
- 186:
-            _fun0011_ip = 259; continue _fun0011;
- 188:
+case 10:
+            _fun0011_ip = 55; continue _fun0011;
+case 52:
             var5 = _closure1_slot0;
             var4 = _closure1_slot2;
             var3 = 5;
@@ -654,7 +654,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.hours;
             var2['hours'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 259:
+case 55:
             return var1;
         }
     };

@@ -41,7 +41,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function getIsRemoteJoinGameInviteEnabled() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = _closure1_slot2;
             var3 = var4.getConfig;
             var1 = {};
@@ -61,10 +61,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['location'] = var5;
             var2 = var3.bind(var4)(var2);
             var2 = var2.enabled;
-            if(!var1) { _fun0001_ip = 92; continue _fun0001 }
- 89:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var2;
- 92:
+case 2:
             return var1;
         }
     };

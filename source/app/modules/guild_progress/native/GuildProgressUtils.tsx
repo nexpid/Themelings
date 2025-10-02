@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var8;
     var4 = function useIOSCompletionStates(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var12 = arg1;
             var _closure2_slot0 = var12;
             var5 = _closure1_slot0;
@@ -60,15 +60,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var5.bind(var4)(var3);
             var7 = var8.useChannelsMessaged;
             var5 = null;
-            if(!(var5 == var13)) { _fun0001_ip = 173; continue _fun0001 }
- 167:
+            if(!(var5 == var13)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = new Array(0);
-            _fun0001_ip = 184; continue _fun0001;
- 173:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var12 = new Array(1);
             var12[0] = var13;
             var3 = var12;
- 184:
+case 4:
             var7 = var7.bind(var8)(var3);
             var8 = _closure1_slot0;
             var3 = _closure1_slot2;
@@ -80,7 +80,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8[0] = var3;
             var3 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var4 = _closure1_slot6;
                     var2 = var4.getProgress;
                     var1 = _closure2_slot0;
@@ -89,26 +89,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = null;
                     var4 = var1 == var5;
                     var2 = undefined;
-                    if(var4) { _fun0002_ip = 61; continue _fun0002 }
- 41:
+                    if(var4) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
                     var4 = var5.has;
                     var3 = _closure1_slot7;
                     var3 = var3.MESSAGE;
                     var2 = var4.bind(var5)(var3);
- 61:
+case 5:
                     var1 = var1 != var2;
-                    if(!var1) { _fun0002_ip = 71; continue _fun0002 }
- 68:
+                    if(!var1) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
                     var1 = var2;
- 71:
+case 7:
                     return var1;
                 }
             };
             var3 = var12.bind(var13)(var8, var3);
-            if(var7) { _fun0001_ip = 242; continue _fun0001 }
- 239:
+            if(var7) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var7 = var3;
- 242:
+case 9:
             var8 = _closure1_slot0;
             var3 = _closure1_slot2;
             var3 = var3[var11];
@@ -126,11 +126,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var8 = var11.bind(var12)(var8, var3);
-            if(var1) { _fun0001_ip = 308; continue _fun0001 }
- 292:
+            if(var1) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var1 = {'guildPopulated': false, 'guildPersonalized': false, 'guildMessaged': false, 'guildChannelCreated': false, 'completed': true, 'dismissed': true, 'numFinished': 0, 'totalSteps': 0};
             return var1;
- 308:
+case 11:
             var1 = new Array(3);
             var1[0] = var10;
             var1[1] = var9;
@@ -145,35 +145,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var1.length;
             var1 = var5 == var8;
             var4 = undefined;
-            if(var1) { _fun0001_ip = 380; continue _fun0001 }
- 360:
+            if(var1) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var11 = var8.has;
             var1 = _closure1_slot7;
             var1 = var1.COMPLETED;
             var4 = var11.bind(var8)(var1);
- 380:
-            if(var4) { _fun0001_ip = 387; continue _fun0001 }
- 383:
+case 13:
+            if(var4) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
             var4 = var3 === var2;
- 387:
+case 15:
             var1 = {};
             var1['guildPopulated'] = var10;
             var1['guildPersonalized'] = var9;
             var1['guildMessaged'] = var7;
             var1['completed'] = var4;
             var5 = var5 == var8;
-            if(var5) { _fun0001_ip = 436; continue _fun0001 }
- 416:
+            if(var5) { _fun0001_ip = 17; continue _fun0001 }
+case 18:
             var7 = var8.has;
             var6 = _closure1_slot7;
             var6 = var6.DISMISSED;
             var5 = var7.bind(var8)(var6);
- 436:
+case 17:
             var1['dismissed'] = var5;
-            if(!var4) { _fun0001_ip = 447; continue _fun0001 }
- 444:
+            if(!var4) { _fun0001_ip = 19; continue _fun0001 }
+case 20:
             var3 = var2;
- 447:
+case 19:
             var1['numFinished'] = var3;
             var1['totalSteps'] = var2;
             return var1;
@@ -275,14 +275,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['hideActionSheet'] = var5;
     var5 = function createGuildProgress(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var3 = arg1;
             var4 = _closure1_slot4;
             var2 = var4.getGuild;
             var4 = var2.bind(var4)(var3);
             var2 = null;
-            if(!(var2 != var4)) { _fun0003_ip = 59; continue _fun0003 }
- 26:
+            if(!(var2 != var4)) { _fun0003_ip = 21; continue _fun0003 }
+case 22:
             var4 = _closure1_slot1;
             var2 = _closure1_slot2;
             var1 = 9;
@@ -291,7 +291,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4.bind(var1)(var2);
             var1 = var2.createProgress;
             var1 = var1.bind(var2)(var3);
- 59:
+case 21:
             var1 = undefined;
             return var1;
         }
@@ -300,7 +300,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['useIOSCompletionStates'] = var4;
     var4 = function useGuildProgressStep(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var2 = _closure1_slot10;
             var10 = undefined;
             var1 = arg1;
@@ -346,28 +346,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5[2] = var6;
             var8 = 0;
             var6 = 0;
-            if(!var1) { _fun0004_ip = 222; continue _fun0004 }
- 213:
+            if(!var1) { _fun0004_ip = 23; continue _fun0004 }
+case 24:
             var1 = null;
             var5[var8] = var1;
             var6 = 1;
- 222:
+case 23:
             var1 = var6;
-            if(!var7) { _fun0004_ip = 240; continue _fun0004 }
- 228:
+            if(!var7) { _fun0004_ip = 25; continue _fun0004 }
+case 26:
             var1 = var6 + 1;
             var8 = null;
             var7 = 1;
             var5[var7] = var8;
- 240:
+case 25:
             var11 = var1;
-            if(!var3) { _fun0004_ip = 258; continue _fun0004 }
- 246:
+            if(!var3) { _fun0004_ip = 27; continue _fun0004 }
+case 28:
             var11 = var1 + 1;
             var6 = null;
             var3 = 3;
             var5[var3] = var6;
- 258:
+case 27:
             var3 = var5.find;
             var1 = function(arg1) {
                 var2 = null;
@@ -377,8 +377,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var8 = var3.bind(var5)(var1);
             var1 = null;
-            if(!(var1 == var8)) { _fun0004_ip = 336; continue _fun0004 }
- 284:
+            if(!(var1 == var8)) { _fun0004_ip = 29; continue _fun0004 }
+case 30:
             var6 = _closure1_slot0;
             var1 = _closure1_slot2;
             var3 = var1[var12];
@@ -390,7 +390,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.t;
             var1 = var1.+Gyklp;
             var8 = var3.bind(var5)(var1);
- 336:
+case 29:
             var1 = {};
             var3 = global;
             var7 = var3.Math;
@@ -401,8 +401,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = 3;
             var3 = var6.bind(var7)(var3, var5);
             var1['percentComplete'] = var3;
-            if(!(!(var11 < var9))) { _fun0004_ip = 434; continue _fun0004 }
- 380:
+            if(!(!(var11 < var9))) { _fun0004_ip = 31; continue _fun0004 }
+case 13:
             var7 = _closure1_slot0;
             var3 = _closure1_slot2;
             var5 = var3[var12];
@@ -414,8 +414,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.t;
             var3 = var3.+Gyklp;
             var3 = var5.bind(var6)(var3);
-            _fun0004_ip = 515; continue _fun0004;
- 434:
+            _fun0004_ip = 32; continue _fun0004;
+case 31:
             var5 = _closure1_slot0;
             var4 = _closure1_slot2;
             var6 = var4[var12];
@@ -433,7 +433,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4['total'] = var9;
             var4['step'] = var8;
             var3 = var6.bind(var7)(var5, var4);
- 515:
+case 32:
             var1['subtitle'] = var3;
             var1['completed'] = var2;
             return var1;
@@ -442,7 +442,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['useGuildProgressStep'] = var4;
     var2 = function useIsEligibleForGuildProgress(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
             var3 = arg1;
             var _closure2_slot0 = var3;
             var5 = _closure1_slot0;
@@ -479,10 +479,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = _closure1_slot8;
             var2 = var4 - var2;
             var2 = var3 < var2;
-            if(!var1) { _fun0005_ip = 131; continue _fun0005 }
- 128:
+            if(!var1) { _fun0005_ip = 33; continue _fun0005 }
+case 34:
             var1 = !var2;
- 131:
+case 33:
             return var1;
         }
     };

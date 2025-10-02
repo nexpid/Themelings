@@ -9,20 +9,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var7;
     var4 = function getReactionEmojiName(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var3 = var2.id;
             var1 = null;
-            if(!(var1 != var3)) { _fun0001_ip = 44; continue _fun0001 }
- 14:
+            if(!(var1 != var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = var2.name;
             var1 = global;
             var1 = var1.HermesInternal;
             var3 = var1.concat;
             var1 = ':';
             var1 = var3.bind(var1)(var4, var1);
-            _fun0001_ip = 85; continue _fun0001;
- 44:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var5 = _closure1_slot1;
             var4 = _closure1_slot2;
             var3 = 3;
@@ -32,7 +32,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.convertSurrogateToName;
             var2 = var2.name;
             var1 = var3.bind(var4)(var2);
- 85:
+case 4:
             return var1;
         }
     };
@@ -73,7 +73,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['getReactionEmojiName'] = var4;
     var4 = function getAccessibleEmojiDisplayName(arg1, arg2, arg3, arg4) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var4 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -83,26 +83,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4.bind(var9)(var2);
             var2 = var2.t;
             var4 = arg4;
-            if(var4) { _fun0002_ip = 62; continue _fun0002 }
- 39:
-            if(var1) { _fun0002_ip = 52; continue _fun0002 }
- 42:
+            if(var4) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
+            if(var1) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
             var4 = var2.PirBBA;
-            _fun0002_ip = 60; continue _fun0002;
- 52:
+            _fun0002_ip = 9; continue _fun0002;
+case 7:
             var4 = var2.CLuzw8;
- 60:
-            _fun0002_ip = 86; continue _fun0002;
- 62:
-            if(var1) { _fun0002_ip = 75; continue _fun0002 }
- 65:
+case 9:
+            _fun0002_ip = 10; continue _fun0002;
+case 5:
+            if(var1) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
             var1 = var2.Z/l+qq;
-            _fun0002_ip = 83; continue _fun0002;
- 75:
+            _fun0002_ip = 13; continue _fun0002;
+case 11:
             var1 = var2.i9DXqK;
- 83:
+case 13:
             var4 = var1;
- 86:
+case 10:
             var2 = _closure1_slot0;
             var1 = _closure1_slot2;
             var1 = var1[var3];
@@ -118,25 +118,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = null;
             var7 = var5 == var11;
             var6 = undefined;
-            if(var7) { _fun0002_ip = 194; continue _fun0002 }
- 146:
+            if(var7) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
             var10 = var11.replace;
             var8 = /[:_]/g;
             var7 = ' ';
             var8 = var10.bind(var11)(var8, var7);
             var7 = var5 == var8;
             var6 = undefined;
-            if(var7) { _fun0002_ip = 194; continue _fun0002 }
- 184:
+            if(var7) { _fun0002_ip = 14; continue _fun0002 }
+case 16:
             var7 = var8.trim;
             var6 = var7.bind(var8)();
- 194:
+case 14:
             var7 = var5 != var6;
             var5 = '';
-            if(!var7) { _fun0002_ip = 208; continue _fun0002 }
- 205:
+            if(!var7) { _fun0002_ip = 17; continue _fun0002 }
+case 18:
             var5 = var6;
- 208:
+case 17:
             var1['emojiName'] = var5;
             var1 = var2.bind(var3)(var4, var1);
             return var1;
@@ -145,36 +145,36 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['getAccessibleEmojiDisplayName'] = var4;
     var4 = function toReactionEmoji(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = {};
             var5 = var2.id;
             var3 = null;
             var6 = var3 != var5;
             var4 = null;
-            if(!var6) { _fun0003_ip = 24; continue _fun0003 }
- 21:
+            if(!var6) { _fun0003_ip = 19; continue _fun0003 }
+case 20:
             var4 = var5;
- 24:
+case 19:
             var1['id'] = var4;
             var4 = var2.id;
-            if(!(var3 == var4)) { _fun0003_ip = 45; continue _fun0003 }
- 37:
+            if(!(var3 == var4)) { _fun0003_ip = 21; continue _fun0003 }
+case 22:
             var4 = var2.optionallyDiverseSequence;
-            _fun0003_ip = 50; continue _fun0003;
- 45:
+            _fun0003_ip = 23; continue _fun0003;
+case 21:
             var4 = var2.name;
- 50:
-            if(!(var3 == var4)) { _fun0003_ip = 59; continue _fun0003 }
- 54:
+case 23:
+            if(!(var3 == var4)) { _fun0003_ip = 24; continue _fun0003 }
+case 25:
             var4 = var2.name;
- 59:
+case 24:
             var5 = var3 != var4;
             var3 = '';
-            if(!var5) { _fun0003_ip = 73; continue _fun0003 }
- 70:
+            if(!var5) { _fun0003_ip = 26; continue _fun0003 }
+case 27:
             var3 = var4;
- 73:
+case 26:
             var1['name'] = var3;
             var3 = global;
             var4 = var3.Boolean;
@@ -188,36 +188,36 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['toReactionEmoji'] = var4;
     var4 = function emojiEquals(arg1, arg2) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var3 = arg1;
             var1 = arg2;
             var2 = var1.id;
             var4 = null;
-            if(!(var4 == var2)) { _fun0004_ip = 45; continue _fun0004 }
- 17:
+            if(!(var4 == var2)) { _fun0004_ip = 21; continue _fun0004 }
+case 28:
             var2 = var3.id;
             var2 = var4 == var2;
-            if(!var2) { _fun0004_ip = 43; continue _fun0004 }
- 29:
+            if(!var2) { _fun0004_ip = 29; continue _fun0004 }
+case 30:
             var6 = var1.name;
             var5 = var3.name;
             var2 = var6 === var5;
- 43:
+case 29:
             return var2;
- 45:
+case 21:
             var2 = var3.id;
-            if(!(var4 == var2)) { _fun0004_ip = 61; continue _fun0004 }
- 54:
+            if(!(var4 == var2)) { _fun0004_ip = 31; continue _fun0004 }
+case 25:
             var2 = var3.id;
-            _fun0004_ip = 88; continue _fun0004;
- 61:
+            _fun0004_ip = 32; continue _fun0004;
+case 31:
             var5 = var3.id;
             var3 = global;
             var3 = var3.HermesInternal;
             var4 = var3.concat;
             var3 = '';
             var2 = var4.bind(var3)(var5);
- 88:
+case 32:
             var4 = var1.id;
             var1 = global;
             var1 = var1.HermesInternal;
@@ -231,54 +231,54 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['emojiEquals'] = var4;
     var4 = function getBurstAnalyticsSection(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
             var3 = arg1;
             var1 = var3.isThread;
             var1 = var1.bind(var3)();
-            if(var1) { _fun0005_ip = 77; continue _fun0005 }
- 19:
+            if(var1) { _fun0005_ip = 33; continue _fun0005 }
+case 34:
             var1 = var3.isForumPost;
             var1 = var1.bind(var3)();
-            if(var1) { _fun0005_ip = 65; continue _fun0005 }
- 32:
+            if(var1) { _fun0005_ip = 12; continue _fun0005 }
+case 35:
             var1 = var3.isGuildVocal;
             var1 = var1.bind(var3)();
             var3 = _closure1_slot4;
-            if(var1) { _fun0005_ip = 57; continue _fun0005 }
- 49:
+            if(var1) { _fun0005_ip = 36; continue _fun0005 }
+case 37:
             var1 = var3.CHANNEL_TEXT_AREA;
-            _fun0005_ip = 63; continue _fun0005;
- 57:
+            _fun0005_ip = 38; continue _fun0005;
+case 36:
             var1 = var3.TEXT_IN_VOICE;
- 63:
-            _fun0005_ip = 75; continue _fun0005;
- 65:
+case 38:
+            _fun0005_ip = 11; continue _fun0005;
+case 12:
             var3 = _closure1_slot4;
             var1 = var3.FORUM_CHANNEL_TEXT_AREA;
- 75:
-            _fun0005_ip = 87; continue _fun0005;
- 77:
+case 11:
+            _fun0005_ip = 39; continue _fun0005;
+case 33:
             var2 = _closure1_slot4;
             var1 = var2.THREAD_TEXT_AREA;
- 87:
+case 39:
             return var1;
         }
     };
     var3['getBurstAnalyticsSection'] = var4;
     var4 = function shouldApplyReaction(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
- 0:
+case 0:
             var1 = arg1;
             var3 = var1.userId;
             var1 = var1.optimistic;
             var4 = _closure1_slot3;
             var2 = var4.getId;
             var2 = var2.bind(var4)();
-            if(!var1) { _fun0006_ip = 41; continue _fun0006 }
- 34:
+            if(!var1) { _fun0006_ip = 40; continue _fun0006 }
+case 41:
             var2 = var2 === var3;
             var1 = !var2;
- 41:
+case 40:
             var1 = !var1;
             return var1;
         }

@@ -38,7 +38,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useTrackRoleSubscriptionUpsellAnalytics(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var12 = var1.guildId;
             var _closure2_slot0 = var12;
@@ -80,20 +80,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8[0] = var4;
             var4 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = _closure2_slot3;
                     var2 = null;
-                    if(!(var2 == var3)) { _fun0002_ip = 19; continue _fun0002 }
- 13:
+                    if(!(var2 == var3)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var3 = new Array(0);
-                    _fun0002_ip = 23; continue _fun0002;
- 19:
+                    _fun0002_ip = 4; continue _fun0002;
+case 2:
                     var3 = _closure2_slot3;
- 23:
+case 4:
                     var2 = var3.filter;
                     var1 = function(arg1) {
                         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                             var3 = _closure1_slot4;
                             var2 = var3.getSubscriptionListing;
                             var1 = arg1;
@@ -101,10 +101,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var2 = null;
                             var3 = var2 == var1;
                             var2 = undefined;
-                            if(var3) { _fun0003_ip = 38; continue _fun0003 }
- 32:
+                            if(var3) { _fun0003_ip = 5; continue _fun0003 }
+case 6:
                             var2 = var1.published;
- 38:
+case 5:
                             var1 = true;
                             var1 = var1 === var2;
                             return var1;
@@ -124,10 +124,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var13.bind(var1)(var4);
             var4 = var13.getLastRouteChangeSourceLocationStack;
             var4 = var4.bind(var13)();
-            if(!(var6 == var4)) { _fun0001_ip = 232; continue _fun0001 }
- 228:
+            if(!(var6 == var4)) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var4 = new Array(0);
- 232:
+case 7:
             var4 = var5.bind(var1)(var4);
             var6 = var4.analyticsLocations;
             _closure2_slot7 = var6;
@@ -147,28 +147,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[6] = var6;
             var2 = function() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                     var1 = _closure2_slot4;
-                    if(!var1) { _fun0004_ip = 20; continue _fun0004 }
- 10:
+                    if(!var1) { _fun0004_ip = 9; continue _fun0004 }
+case 10:
                     var3 = _closure2_slot1;
                     var2 = null;
                     var1 = var2 != var3;
- 20:
-                    if(!var1) { _fun0004_ip = 33; continue _fun0004 }
- 23:
+case 9:
+                    if(!var1) { _fun0004_ip = 11; continue _fun0004 }
+case 4:
                     var3 = _closure2_slot6;
                     var2 = null;
                     var1 = var2 != var3;
- 33:
-                    if(!var1) { _fun0004_ip = 48; continue _fun0004 }
- 36:
+case 11:
+                    if(!var1) { _fun0004_ip = 12; continue _fun0004 }
+case 13:
                     var2 = _closure2_slot8;
                     var2 = var2.current;
                     var1 = !var2;
- 48:
-                    if(!var1) { _fun0004_ip = 200; continue _fun0004 }
- 54:
+case 12:
+                    if(!var1) { _fun0004_ip = 14; continue _fun0004 }
+case 15:
                     var2 = _closure2_slot8;
                     var1 = true;
                     var2['current'] = var1;
@@ -202,7 +202,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var11 = var1;
                     var5 = copyDataProperties(var11, var10);
                     var1 = var3.bind(var4)(var2, var1);
- 200:
+case 14:
                     var1 = undefined;
                     return var1;
                 }

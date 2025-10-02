@@ -30,7 +30,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['CREATE_CHANNEL_MODAL_KEY'] = var7;
     var7 = function open(arg1, arg2, arg3, arg4) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var12 = arg1;
             var9 = arg2;
             var10 = arg3;
@@ -38,8 +38,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = this;
             var _closure2_slot0 = var2;
             var8 = null;
-            if(!(var8 != var9)) { _fun0001_ip = 173; continue _fun0001 }
- 30:
+            if(!(var8 != var9)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = _closure1_slot1;
             var2 = _closure1_slot2;
             var4 = 3;
@@ -58,29 +58,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = {};
             var13 = var8 != var12;
             var11 = undefined;
-            if(!var13) { _fun0001_ip = 109; continue _fun0001 }
- 106:
+            if(!var13) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var11 = var12;
- 109:
+case 4:
             var2['channelType'] = var11;
             var2['guildId'] = var9;
             var11 = var8 != var10;
             var9 = undefined;
-            if(!var11) { _fun0001_ip = 130; continue _fun0001 }
- 127:
+            if(!var11) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var9 = var10;
- 130:
+case 6:
             var2['categoryId'] = var9;
             var8 = var8 != var7;
             var6 = undefined;
-            if(!var8) { _fun0001_ip = 147; continue _fun0001 }
- 144:
+            if(!var8) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var6 = var7;
- 147:
+case 8:
             var2['cloneChannelId'] = var6;
             var1 = function onChannelCreated(arg1, arg2) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = arg1;
                     var2 = _closure2_slot0;
                     var1 = var2.close;
@@ -91,19 +91,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = null;
                     var2 = arg2;
                     var2 = var5 != var2;
-                    if(!var2) { _fun0002_ip = 53; continue _fun0002 }
- 49:
+                    if(!var2) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
                     var2 = var5 != var4;
- 53:
-                    if(!var2) { _fun0002_ip = 75; continue _fun0002 }
- 56:
+case 10:
+                    if(!var2) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
                     var6 = _closure1_slot3;
                     var5 = var6.has;
                     var4 = var4.type;
                     var2 = var5.bind(var6)(var4);
- 75:
-                    if(!var2) { _fun0002_ip = 111; continue _fun0002 }
- 78:
+case 12:
+                    if(!var2) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
                     var4 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var1 = 2;
@@ -112,7 +112,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var4.bind(var1)(var2);
                     var1 = var2.transitionToChannel;
                     var1 = var1.bind(var2)(var3);
- 111:
+case 14:
                     var1 = undefined;
                     return var1;
                 }
@@ -120,7 +120,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['onChannelCreated'] = var1;
             var1 = 'CREATE_CHANNEL_MODAL_KEY';
             var1 = var4.bind(var5)(var3, var2, var1);
- 173:
+case 2:
             var1 = undefined;
             return var1;
         }

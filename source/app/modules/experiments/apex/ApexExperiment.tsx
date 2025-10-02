@@ -9,14 +9,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var5;
     var1 = function getUnitId(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var1 = 'guild';
-            if(!(var1 !== var4)) { _fun0001_ip = 76; continue _fun0001 }
- 11:
+            if(!(var1 !== var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = 'user';
-            if(!(var1 !== var4)) { _fun0001_ip = 57; continue _fun0001 }
- 19:
+            if(!(var1 !== var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
             var1 = 3;
@@ -26,12 +26,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.assertNever;
             var2 = var2.bind(var3)(var4);
             return var1;
- 57:
+case 4:
             var2 = _closure1_slot3;
             var1 = var2.getId;
             var1 = var1.bind(var2)();
             return var1;
- 76:
+case 2:
             var1 = arg2;
             var1 = var1.guildId;
             return var1;

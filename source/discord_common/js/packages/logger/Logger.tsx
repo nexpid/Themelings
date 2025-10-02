@@ -37,21 +37,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = _closure1_slot3;
         var3 = function Logger() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var2 = arguments[0];
                 var3 = this;
                 var _closure3_slot0 = var3;
                 var1 = undefined;
-                if(!(var2 === var1)) { _fun0001_ip = 22; continue _fun0001 }
- 18:
+                if(!(var2 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var2 = 'default';
- 22:
+case 2:
                 var6 = _closure1_slot2;
                 var5 = _closure2_slot0;
                 var5 = var6.bind(var1)(var3, var5);
                 var5 = function(arg1, arg2) {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                         var6 = arg1;
                         var13 = 1;
                         var5 = copyRestArgs(var13);
@@ -74,12 +74,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var11 = undefined;
                         var9 = apply(var13, var12, var11);
                         var8 = var8.nativeLoggerEnabled;
-                        if(!var8) { _fun0002_ip = 152; continue _fun0002 }
- 88:
+                        if(!var8) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                         var9 = _closure1_slot5;
                         var8 = null;
-                        if(!(var8 != var9)) { _fun0002_ip = 152; continue _fun0002 }
- 98:
+                        if(!(var8 != var9)) { _fun0002_ip = 4; continue _fun0002 }
+case 6:
                         var3 = _closure1_slot5;
                         var2 = _closure3_slot0;
                         var8 = var2.name;
@@ -95,14 +95,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var12 = var2;
                         var11 = undefined;
                         var2 = apply(var13, var12, var11);
- 152:
+case 4:
                         return var1;
                     }
                 };
                 var3['logDangerously'] = var5;
                 var5 = function(arg1, arg2) {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                         var6 = arg1;
                         var8 = 1;
                         var14 = var8;
@@ -142,12 +142,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var12 = undefined;
                         var9 = apply(var14, var13, var12);
                         var8 = var8.nativeLoggerEnabled;
-                        if(!var8) { _fun0003_ip = 215; continue _fun0003 }
- 151:
+                        if(!var8) { _fun0003_ip = 7; continue _fun0003 }
+case 8:
                         var9 = _closure1_slot5;
                         var8 = null;
-                        if(!(var8 != var9)) { _fun0003_ip = 215; continue _fun0003 }
- 161:
+                        if(!(var8 != var9)) { _fun0003_ip = 7; continue _fun0003 }
+case 9:
                         var3 = _closure1_slot5;
                         var2 = _closure3_slot0;
                         var8 = var2.name;
@@ -163,14 +163,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var13 = var2;
                         var12 = undefined;
                         var2 = apply(var14, var13, var12);
- 215:
+case 7:
                         return var1;
                     }
                 };
                 var3['log'] = var5;
                 var5 = function(arg1, arg2) {
                     _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                         var6 = arg1;
                         var13 = 1;
                         var5 = copyRestArgs(var13);
@@ -193,12 +193,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var11 = undefined;
                         var9 = apply(var13, var12, var11);
                         var8 = var8.nativeLoggerEnabled;
-                        if(!var8) { _fun0004_ip = 152; continue _fun0004 }
- 88:
+                        if(!var8) { _fun0004_ip = 4; continue _fun0004 }
+case 5:
                         var9 = _closure1_slot5;
                         var8 = null;
-                        if(!(var8 != var9)) { _fun0004_ip = 152; continue _fun0004 }
- 98:
+                        if(!(var8 != var9)) { _fun0004_ip = 4; continue _fun0004 }
+case 6:
                         var3 = _closure1_slot5;
                         var2 = _closure3_slot0;
                         var8 = var2.name;
@@ -214,14 +214,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var12 = var2;
                         var11 = undefined;
                         var2 = apply(var13, var12, var11);
- 152:
+case 4:
                         return var1;
                     }
                 };
                 var3['verboseDangerously'] = var5;
                 var5 = function(arg1, arg2) {
                     _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
                         var6 = arg1;
                         var8 = 1;
                         var14 = var8;
@@ -261,12 +261,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var12 = undefined;
                         var9 = apply(var14, var13, var12);
                         var8 = var8.nativeLoggerEnabled;
-                        if(!var8) { _fun0005_ip = 215; continue _fun0005 }
- 151:
+                        if(!var8) { _fun0005_ip = 7; continue _fun0005 }
+case 8:
                         var9 = _closure1_slot5;
                         var8 = null;
-                        if(!(var8 != var9)) { _fun0005_ip = 215; continue _fun0005 }
- 161:
+                        if(!(var8 != var9)) { _fun0005_ip = 7; continue _fun0005 }
+case 9:
                         var3 = _closure1_slot5;
                         var2 = _closure3_slot0;
                         var8 = var2.name;
@@ -282,14 +282,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var13 = var2;
                         var12 = undefined;
                         var2 = apply(var14, var13, var12);
- 215:
+case 7:
                         return var1;
                     }
                 };
                 var3['verbose'] = var5;
                 var5 = function(arg1, arg2) {
                     _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
- 0:
+case 0:
                         var6 = arg1;
                         var8 = 1;
                         var14 = var8;
@@ -329,12 +329,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var12 = undefined;
                         var9 = apply(var14, var13, var12);
                         var8 = var8.nativeLoggerEnabled;
-                        if(!var8) { _fun0006_ip = 215; continue _fun0006 }
- 151:
+                        if(!var8) { _fun0006_ip = 7; continue _fun0006 }
+case 8:
                         var9 = _closure1_slot5;
                         var8 = null;
-                        if(!(var8 != var9)) { _fun0006_ip = 215; continue _fun0006 }
- 161:
+                        if(!(var8 != var9)) { _fun0006_ip = 7; continue _fun0006 }
+case 9:
                         var3 = _closure1_slot5;
                         var2 = _closure3_slot0;
                         var8 = var2.name;
@@ -350,14 +350,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var13 = var2;
                         var12 = undefined;
                         var2 = apply(var14, var13, var12);
- 215:
+case 7:
                         return var1;
                     }
                 };
                 var3['info'] = var5;
                 var5 = function(arg1, arg2) {
                     _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
- 0:
+case 0:
                         var6 = arg1;
                         var8 = 1;
                         var14 = var8;
@@ -397,12 +397,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var12 = undefined;
                         var9 = apply(var14, var13, var12);
                         var8 = var8.nativeLoggerEnabled;
-                        if(!var8) { _fun0007_ip = 215; continue _fun0007 }
- 151:
+                        if(!var8) { _fun0007_ip = 7; continue _fun0007 }
+case 8:
                         var9 = _closure1_slot5;
                         var8 = null;
-                        if(!(var8 != var9)) { _fun0007_ip = 215; continue _fun0007 }
- 161:
+                        if(!(var8 != var9)) { _fun0007_ip = 7; continue _fun0007 }
+case 9:
                         var3 = _closure1_slot5;
                         var2 = _closure3_slot0;
                         var8 = var2.name;
@@ -418,14 +418,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var13 = var2;
                         var12 = undefined;
                         var2 = apply(var14, var13, var12);
- 215:
+case 7:
                         return var1;
                     }
                 };
                 var3['warn'] = var5;
                 var5 = function(arg1, arg2) {
                     _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
- 0:
+case 0:
                         var6 = arg1;
                         var8 = 1;
                         var14 = var8;
@@ -465,12 +465,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var12 = undefined;
                         var9 = apply(var14, var13, var12);
                         var8 = var8.nativeLoggerEnabled;
-                        if(!var8) { _fun0008_ip = 215; continue _fun0008 }
- 151:
+                        if(!var8) { _fun0008_ip = 7; continue _fun0008 }
+case 8:
                         var9 = _closure1_slot5;
                         var8 = null;
-                        if(!(var8 != var9)) { _fun0008_ip = 215; continue _fun0008 }
- 161:
+                        if(!(var8 != var9)) { _fun0008_ip = 7; continue _fun0008 }
+case 9:
                         var3 = _closure1_slot5;
                         var2 = _closure3_slot0;
                         var8 = var2.name;
@@ -486,14 +486,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var13 = var2;
                         var12 = undefined;
                         var2 = apply(var14, var13, var12);
- 215:
+case 7:
                         return var1;
                     }
                 };
                 var3['error'] = var5;
                 var5 = function(arg1, arg2) {
                     _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
- 0:
+case 0:
                         var6 = arg1;
                         var13 = 1;
                         var5 = copyRestArgs(var13);
@@ -516,12 +516,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var11 = undefined;
                         var9 = apply(var13, var12, var11);
                         var8 = var8.nativeLoggerEnabled;
-                        if(!var8) { _fun0009_ip = 152; continue _fun0009 }
- 88:
+                        if(!var8) { _fun0009_ip = 4; continue _fun0009 }
+case 5:
                         var9 = _closure1_slot5;
                         var8 = null;
-                        if(!(var8 != var9)) { _fun0009_ip = 152; continue _fun0009 }
- 98:
+                        if(!(var8 != var9)) { _fun0009_ip = 4; continue _fun0009 }
+case 6:
                         var3 = _closure1_slot5;
                         var2 = _closure3_slot0;
                         var8 = var2.name;
@@ -537,7 +537,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var12 = var2;
                         var11 = undefined;
                         var2 = apply(var13, var12, var11);
- 152:
+case 4:
                         return var1;
                     }
                 };
@@ -563,7 +563,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3['time'] = var5;
                 var4 = function(arg1, arg2) {
                     _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
- 0:
+case 0:
                         var6 = arg1;
                         var13 = 1;
                         var5 = copyRestArgs(var13);
@@ -586,12 +586,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var11 = undefined;
                         var9 = apply(var13, var12, var11);
                         var8 = var8.nativeLoggerEnabled;
-                        if(!var8) { _fun0010_ip = 154; continue _fun0010 }
- 90:
+                        if(!var8) { _fun0010_ip = 10; continue _fun0010 }
+case 11:
                         var9 = _closure1_slot5;
                         var8 = null;
-                        if(!(var8 != var9)) { _fun0010_ip = 154; continue _fun0010 }
- 100:
+                        if(!(var8 != var9)) { _fun0010_ip = 10; continue _fun0010 }
+case 12:
                         var3 = _closure1_slot5;
                         var2 = _closure3_slot0;
                         var8 = var2.name;
@@ -607,7 +607,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var12 = var2;
                         var11 = undefined;
                         var2 = apply(var13, var12, var11);
- 154:
+case 10:
                         return var1;
                     }
                 };

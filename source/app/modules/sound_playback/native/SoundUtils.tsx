@@ -79,31 +79,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = arg2;
             var7 = function(arg1, arg2) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     var3 = arg1;
                     var1 = arg2;
-                    if(!var1) { _fun0001_ip = 39; continue _fun0001 }
- 9:
+                    if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var2 = _closure3_slot0;
                     var4 = var1.duration;
                     var2['_duration'] = var4;
                     var1 = var1.numberOfChannels;
                     var2['_numberOfChannels'] = var1;
- 39:
+case 2:
                     var4 = null;
-                    if(!(var4 == var3)) { _fun0001_ip = 60; continue _fun0001 }
- 45:
+                    if(!(var4 == var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                     var2 = _closure3_slot0;
                     var1 = true;
                     var2['_loaded'] = var1;
- 60:
+case 4:
                     var2 = _closure3_slot1;
-                    if(!(var4 != var2)) { _fun0001_ip = 82; continue _fun0001 }
- 71:
+                    if(!(var4 != var2)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                     var2 = _closure3_slot1;
                     var1 = undefined;
                     var1 = var2.bind(var1)(var3);
- 82:
+case 6:
                     var1 = undefined;
                     return var1;
                 }
@@ -121,17 +121,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var6 = function value() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var1 = this;
                 var2 = var1._loaded;
-                if(!var2) { _fun0002_ip = 42; continue _fun0002 }
- 12:
+                if(!var2) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                 var2 = _closure1_slot4;
                 var3 = var2.DCDSoundManager;
                 var2 = var3.play;
                 var1 = var1._key;
                 var1 = var2.bind(var3)(var1);
- 42:
+case 8:
                 var1 = undefined;
                 return var1;
             }
@@ -143,17 +143,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var6 = function value() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var1 = this;
                 var2 = var1._loaded;
-                if(!var2) { _fun0003_ip = 42; continue _fun0003 }
- 12:
+                if(!var2) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
                 var2 = _closure1_slot4;
                 var3 = var2.DCDSoundManager;
                 var2 = var3.pause;
                 var1 = var1._key;
                 var1 = var2.bind(var3)(var1);
- 42:
+case 8:
                 var1 = undefined;
                 return var1;
             }
@@ -165,17 +165,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var6 = function value() {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                 var1 = this;
                 var2 = var1._loaded;
-                if(!var2) { _fun0004_ip = 42; continue _fun0004 }
- 12:
+                if(!var2) { _fun0004_ip = 8; continue _fun0004 }
+case 9:
                 var2 = _closure1_slot4;
                 var3 = var2.DCDSoundManager;
                 var2 = var3.stop;
                 var1 = var1._key;
                 var1 = var2.bind(var3)(var1);
- 42:
+case 8:
                 var1 = undefined;
                 return var1;
             }
@@ -187,17 +187,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var6 = function value() {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
                 var2 = this;
                 var1 = var2._loaded;
-                if(!var1) { _fun0005_ip = 42; continue _fun0005 }
- 12:
+                if(!var1) { _fun0005_ip = 8; continue _fun0005 }
+case 9:
                 var1 = _closure1_slot4;
                 var4 = var1.DCDSoundManager;
                 var3 = var4.release;
                 var1 = var2._key;
                 var1 = var3.bind(var4)(var1);
- 42:
+case 8:
                 var1 = false;
                 var2['_loaded'] = var1;
                 var1 = undefined;
@@ -217,19 +217,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['get'] = var6;
         var6 = function set(arg1) {
             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
- 0:
+case 0:
                 var4 = arg1;
                 var1 = this;
                 var1['_volume'] = var4;
                 var2 = var1._loaded;
-                if(!var2) { _fun0006_ip = 52; continue _fun0006 }
- 21:
+                if(!var2) { _fun0006_ip = 10; continue _fun0006 }
+case 11:
                 var2 = _closure1_slot4;
                 var3 = var2.DCDSoundManager;
                 var2 = var3.setVolume;
                 var1 = var1._key;
                 var1 = var2.bind(var3)(var1, var4);
- 52:
+case 10:
                 var1 = undefined;
                 return var1;
             }
@@ -257,19 +257,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['get'] = var6;
         var5 = function set(arg1) {
             _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
- 0:
+case 0:
                 var4 = arg1;
                 var1 = this;
                 var1['_numberOfLoops'] = var4;
                 var2 = var1._loaded;
-                if(!var2) { _fun0007_ip = 54; continue _fun0007 }
- 21:
+                if(!var2) { _fun0007_ip = 12; continue _fun0007 }
+case 11:
                 var2 = _closure1_slot4;
                 var3 = var2.DCDSoundManager;
                 var2 = var3.setNumberOfLoops;
                 var1 = var1._key;
                 var1 = var2.bind(var3)(var1, var4);
- 54:
+case 12:
                 var1 = undefined;
                 return var1;
             }
@@ -478,24 +478,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var4.then;
                 var2 = function(arg1) {
                     _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
- 0:
+case 0:
                         var2 = arg1;
                         var3 = var2.duration;
                         var1 = null;
                         var1 = var1 != var3;
-                        if(!var1) { _fun0008_ip = 28; continue _fun0008 }
- 17:
+                        if(!var1) { _fun0008_ip = 13; continue _fun0008 }
+case 14:
                         var4 = var2.duration;
                         var3 = 0;
                         var1 = var3 !== var4;
- 28:
-                        if(var1) { _fun0008_ip = 51; continue _fun0008 }
- 31:
+case 13:
+                        if(var1) { _fun0008_ip = 15; continue _fun0008 }
+case 16:
                         var4 = _closure4_slot1;
                         var3 = undefined;
                         var1 = 'sound has no duration';
                         var1 = var4.bind(var3)(var1);
- 51:
+case 15:
                         var1 = var2.play;
                         var1 = var1.bind(var2)();
                         var4 = _closure1_slot0;
@@ -507,10 +507,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var3 = var4.isIOS;
                         var4 = var3.bind(var4)();
                         var3 = 1;
-                        if(!var4) { _fun0008_ip = 108; continue _fun0008 }
- 102:
+                        if(!var4) { _fun0008_ip = 17; continue _fun0008 }
+case 18:
                         var3 = 1000;
- 108:
+case 17:
                         var4 = global;
                         var4 = var4.setTimeout;
                         var2 = var2.duration;
@@ -551,12 +551,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var6 = function value() {
             _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
- 0:
+case 0:
                 var1 = this;
                 var3 = var1.soundPromise;
                 var2 = null;
-                if(!(var2 != var3)) { _fun0009_ip = 40; continue _fun0009 }
- 15:
+                if(!(var2 != var3)) { _fun0009_ip = 19; continue _fun0009 }
+case 20:
                 var3 = var1.soundPromise;
                 var2 = var3.then;
                 var1 = function(arg1) {
@@ -566,7 +566,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var1 = var2.bind(var3)(var1);
- 40:
+case 19:
                 var1 = undefined;
                 return var1;
             }
@@ -590,13 +590,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var6 = function value() {
             _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
- 0:
+case 0:
                 var2 = this;
                 var _closure3_slot0 = var2;
                 var4 = var2.soundPromise;
                 var3 = null;
-                if(!(var3 != var4)) { _fun0010_ip = 44; continue _fun0010 }
- 21:
+                if(!(var3 != var4)) { _fun0010_ip = 21; continue _fun0010 }
+case 11:
                 var3 = var2.soundPromise;
                 var2 = var3.then;
                 var1 = function(arg1) {
@@ -612,7 +612,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var1 = var2.bind(var3)(var1);
- 44:
+case 21:
                 var1 = undefined;
                 return var1;
             }
@@ -624,13 +624,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var5 = function value() {
             _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
- 0:
+case 0:
                 var1 = this;
                 var _closure3_slot0 = var1;
                 var2 = var1.soundPromise;
                 var4 = null;
-                if(!(var4 == var2)) { _fun0011_ip = 56; continue _fun0011 }
- 21:
+                if(!(var4 == var2)) { _fun0011_ip = 22; continue _fun0011 }
+case 11:
                 var4 = global;
                 var5 = var4.Promise;
                 var4 = var5.prototype;
@@ -649,24 +649,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = Object.create(var1, {constructor: {value: var7}});
                     var8 = function(arg1) {
                         _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
- 0:
+case 0:
                             var3 = arg1;
                             var1 = null;
-                            if(!(var1 != var3)) { _fun0012_ip = 17; continue _fun0012 }
- 9:
+                            if(!(var1 != var3)) { _fun0012_ip = 14; continue _fun0012 }
+case 3:
                             var1 = '';
-                            if(!(var1 === var3)) { _fun0012_ip = 37; continue _fun0012 }
- 17:
+                            if(!(var1 === var3)) { _fun0012_ip = 23; continue _fun0012 }
+case 14:
                             var4 = _closure4_slot0;
                             var2 = _closure4_slot2;
                             var1 = undefined;
                             var1 = var4.bind(var1)(var2);
-                            _fun0012_ip = 51; continue _fun0012;
- 37:
+                            _fun0012_ip = 15; continue _fun0012;
+case 23:
                             var2 = _closure4_slot1;
                             var1 = undefined;
                             var1 = var2.bind(var1)(var3);
- 51:
+case 15:
                             var1 = undefined;
                             return var1;
                         }
@@ -681,7 +681,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = var4;
                 var3 = new var7[var5](var6, var5);
                 var2 = var3 instanceof Object ? var3 : var4;
- 56:
+case 22:
                 var1['soundPromise'] = var2;
                 var1 = var1.soundPromise;
                 return var1;

@@ -51,7 +51,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function QuestDockContextMenuActionSheet(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var6 = var1.quest;
             var _closure2_slot0 = var6;
@@ -122,8 +122,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var17.bind(var4)(var13);
             var17 = var13.FormLabel;
             var13 = {};
-            if(var18) { _fun0001_ip = 422; continue _fun0001 }
- 318:
+            if(var18) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var18 = var6.config;
             var20 = var18.features;
             var19 = var20.includes;
@@ -140,17 +140,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var19 = var24[var19];
             var19 = var23.bind(var4)(var19);
             var19 = var19.t;
-            if(var18) { _fun0001_ip = 409; continue _fun0001 }
- 396:
+            if(var18) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var18 = var19.lwQdjI;
             var18 = var20.bind(var22)(var18);
-            _fun0001_ip = 420; continue _fun0001;
- 409:
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
             var19 = var19.LLLLPD;
             var18 = var20.bind(var22)(var19);
- 420:
-            _fun0001_ip = 455; continue _fun0001;
- 422:
+case 6:
+            _fun0001_ip = 7; continue _fun0001;
+case 2:
             var20 = _closure1_slot0;
             var19 = _closure1_slot2;
             var19 = var19[var21];
@@ -158,7 +158,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var20 = var21.getVideoQuestEndCardCtaText;
             var19 = var6.config;
             var18 = var20.bind(var21)(var19);
- 455:
+case 7:
             var13['text'] = var18;
             var13 = var12.bind(var4)(var17, var13);
             var8['label'] = var13;
@@ -202,8 +202,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var12.bind(var4)(var10, var8);
             var8 = new Array(2);
             var8[0] = var10;
-            if(!var9) { _fun0001_ip = 679; continue _fun0001 }
- 500:
+            if(!var9) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var13 = _closure1_slot7;
             var22 = _closure1_slot0;
             var23 = _closure1_slot2;
@@ -279,7 +279,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var10['onPress'] = var17;
             var9 = var13.bind(var4)(var12, var10);
- 679:
+case 8:
             var8[1] = var9;
             var5['children'] = var8;
             var7 = var3.bind(var4)(var7, var5);
@@ -498,11 +498,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var18 = function* () {
                 var1 = function* anon_0_() {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0002_ip = 268; continue _fun0002 }
- 10:
+                        if(var2) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
                         var9 = _closure1_slot0;
                         var10 = _closure1_slot2;
                         var2 = 22;
@@ -548,12 +548,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var5['sourceQuestContent'] = var8;
                         var5 = var6.bind(var7)(var5);
                         SaveGenerator(address=226);
- 224:
+case 12:
                         return var2;
- 226:
+case 13:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                        if(var5) { _fun0002_ip = 265; continue _fun0002 }
- 232:
+                        if(var5) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
                         var5 = _closure1_slot0;
                         var6 = _closure1_slot2;
                         var4 = 23;
@@ -562,9 +562,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var4 = var5.displayQuestDismissalToast;
                         var4 = var4.bind(var5)();
                         return var3;
- 265:
+case 14:
                         return var2;
- 268:
+case 10:
                         return var1;
                     }
                 };
@@ -578,8 +578,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var9.bind(var4)(var8, var7);
             var5[1] = var7;
             var6 = var6.preview;
-            if(!var6) { _fun0001_ip = 2523; continue _fun0001 }
- 1337:
+            if(!var6) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var9 = _closure1_slot8;
             var13 = _closure1_slot0;
             var17 = _closure1_slot2;
@@ -809,8 +809,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var18 = var18.QUEST_PREVIEW_TOOL_2;
             var12['location'] = var18;
             var12 = var13.bind(var17)(var12);
-            if(!var12) { _fun0001_ip = 2327; continue _fun0001 }
- 2149:
+            if(!var12) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
             var18 = _closure1_slot7;
             var25 = _closure1_slot0;
             var22 = _closure1_slot2;
@@ -874,7 +874,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var13['onPress'] = var19;
             var12 = var18.bind(var4)(var17, var13);
- 2327:
+case 18:
             var10[4] = var12;
             var13 = _closure1_slot7;
             var20 = _closure1_slot0;
@@ -935,7 +935,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10[5] = var11;
             var7['children'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 2523:
+case 16:
             var5[2] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

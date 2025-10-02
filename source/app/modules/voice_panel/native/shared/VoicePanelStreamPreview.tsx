@@ -92,7 +92,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function VoicePanelStreamPreview(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var7 = var2.mode;
             var _closure2_slot0 = var7;
@@ -111,22 +111,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = null;
             var2 = var10 == var8;
             var5 = undefined;
-            if(var2) { _fun0001_ip = 85; continue _fun0001 }
- 80:
+            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = var8.guildId;
- 85:
+case 2:
             var2 = var10 == var8;
             var3 = undefined;
-            if(var2) { _fun0001_ip = 99; continue _fun0001 }
- 94:
+            if(var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = var8.channelId;
- 99:
+case 4:
             var9 = var10 == var8;
             var2 = undefined;
-            if(var9) { _fun0001_ip = 114; continue _fun0001 }
- 108:
+            if(var9) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var2 = var8.ownerId;
- 114:
+case 6:
             var2 = var6.bind(var4)(var5, var3, var2);
             var8 = var2.previewUrl;
             var9 = _closure1_slot0;
@@ -137,11 +137,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.useAnimatedStyle;
             var1 = function p() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var2 = _closure2_slot0;
                     var1 = null;
-                    if(!(var1 != var2)) { _fun0002_ip = 87; continue _fun0002 }
- 13:
+                    if(!(var1 != var2)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                     var1 = {};
                     var6 = _closure1_slot0;
                     var5 = _closure1_slot2;
@@ -155,20 +155,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = var3.bind(var6)();
                     var3 = 1;
                     var6 = 'pip';
-                    if(!(var6 === var7)) { _fun0002_ip = 71; continue _fun0002 }
- 69:
+                    if(!(var6 === var7)) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
                     var3 = 0;
- 71:
+case 10:
                     var2 = _closure1_slot7;
                     var2 = var4.bind(var5)(var3, var2);
                     var1['opacity'] = var2;
-                    _fun0002_ip = 99; continue _fun0002;
- 87:
+                    _fun0002_ip = 4; continue _fun0002;
+case 8:
                     var2 = {};
                     var3 = 1;
                     var2['opacity'] = var3;
                     var1 = var2;
- 99:
+case 4:
                     return var1;
                 }
             };
@@ -204,34 +204,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var5.Image;
             var5 = {};
             var5['layout'] = var14;
-            if(!(var10 == var8)) { _fun0001_ip = 329; continue _fun0001 }
- 307:
+            if(!(var10 == var8)) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var17 = _closure1_slot1;
             var18 = _closure1_slot2;
             var15 = 9;
             var15 = var18[var15];
             var15 = var17.bind(var4)(var15);
-            _fun0001_ip = 338; continue _fun0001;
- 329:
+            _fun0001_ip = 14; continue _fun0001;
+case 12:
             var17 = {};
             var17['uri'] = var8;
             var15 = var17;
- 338:
+case 14:
             var5['source'] = var15;
-            if(!(var10 == var8)) { _fun0001_ip = 354; continue _fun0001 }
- 346:
+            if(!(var10 == var8)) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
             var15 = var16.streamPreviewImagePlaceholder;
-            _fun0001_ip = 360; continue _fun0001;
- 354:
+            _fun0001_ip = 17; continue _fun0001;
+case 15:
             var15 = var16.streamPreviewImage;
- 360:
+case 17:
             var5['style'] = var15;
             var10 = var10 != var8;
             var8 = 'contain';
-            if(!var10) { _fun0001_ip = 379; continue _fun0001 }
- 375:
+            if(!var10) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
             var8 = 'cover';
- 379:
+case 18:
             var5['resizeMode'] = var8;
             var6 = var7.bind(var4)(var6, var5);
             var5 = new Array(2);

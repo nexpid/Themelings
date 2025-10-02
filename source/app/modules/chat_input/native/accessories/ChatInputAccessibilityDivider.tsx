@@ -33,7 +33,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = _closure1_slot0;
             var3 = _closure1_slot1;
             var1 = 3;
@@ -43,8 +43,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2.useIsScreenReaderEnabled;
             var2 = var1.bind(var2)();
             var1 = null;
-            if(!var2) { _fun0001_ip = 206; continue _fun0001 }
- 43:
+            if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = _closure1_slot0;
             var7 = _closure1_slot1;
             var2 = 4;
@@ -53,8 +53,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4.isAndroid;
             var2 = var2.bind(var4)();
             var1 = null;
-            if(var2) { _fun0001_ip = 206; continue _fun0001 }
- 80:
+            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var4 = _closure1_slot4;
             var3 = _closure1_slot3;
             var2 = {'nativeID': 'chat-input-accessibility-divider', 'accessible': true, 'accessibilityLabel': null, 'accessibilityRole': 'header'};
@@ -81,7 +81,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[1] = var7;
             var2['style'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 206:
+case 2:
             return var1;
         }
     };

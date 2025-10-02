@@ -24,15 +24,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = {};
     var7 = function open() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arguments[0];
             var1 = undefined;
-            if(!(var2 === var1)) { _fun0001_ip = 11; continue _fun0001 }
- 9:
+            if(!(var2 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = false;
- 11:
-            if(!var2) { _fun0001_ip = 57; continue _fun0001 }
- 14:
+case 2:
+            if(!var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = _closure1_slot1;
             var6 = _closure1_slot2;
             var4 = 1;
@@ -42,7 +42,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = _closure1_slot3;
             var3 = var3.USER_ACCOUNT_EMAIL_CHANGE_ATTEMPTED;
             var3 = var4.bind(var5)(var3);
- 57:
+case 4:
             var6 = _closure1_slot1;
             var3 = _closure1_slot2;
             var5 = 2;

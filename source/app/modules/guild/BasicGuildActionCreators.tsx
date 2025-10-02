@@ -14,31 +14,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = function* (arg1) {
             var1 = function* anon_0_(arg1) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     StartGenerator();
                     var6 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 400; continue _fun0001 }
- 13:
+                    if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var3 = var6;
                     var5 = _closure1_slot4;
                     var2 = var5.getGuild;
                     var2 = var2.bind(var5)(var6);
                     var5 = null;
-                    if(!(var5 == var2)) { _fun0001_ip = 395; continue _fun0001 }
- 42:
+                    if(!(var5 == var2)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                     var7 = _closure1_slot5;
                     var6 = var7.getGuildOrStatus;
                     var2 = var3;
                     var2 = var6.bind(var7)(var2);
-                    if(!(var5 == var2)) { _fun0001_ip = 395; continue _fun0001 }
- 69:
+                    if(!(var5 == var2)) { _fun0001_ip = 4; continue _fun0001 }
+case 6:
                     var6 = _closure1_slot7;
                     var5 = var6.has;
                     var2 = var3;
                     var2 = var5.bind(var6)(var2);
-                    if(var2) { _fun0001_ip = 395; continue _fun0001 }
- 92:
+                    if(var2) { _fun0001_ip = 4; continue _fun0001 }
+case 7:
                     var5 = _closure1_slot1;
                     var2 = _closure1_slot2;
                     var7 = 4;
@@ -55,7 +55,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = _closure1_slot7;
                     var2 = var5.add;
                     var2 = var2.bind(var5)(var8);
- 157: // try_start_0 // try_start_1
+case 8: // try_start_0 // try_start_1
                     var5 = _closure1_slot0;
                     var8 = _closure1_slot2;
                     var2 = 5;
@@ -73,12 +73,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2['rejectWithError'] = var9;
                     var2 = var5.bind(var8)(var2);
                     SaveGenerator(address=226);
- 224:
+case 9:
                     return var2;
- 226:
+case 10:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0001_ip = 290; continue _fun0001 }
- 232:
+                    if(var5) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
                     var10 = var2.body;
                     var8 = _closure1_slot1;
                     var5 = _closure1_slot2;
@@ -92,15 +92,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5['guildId'] = var11;
                     var5['guildInfo'] = var10;
                     var5 = var8.bind(var9)(var5);
- 288: // try_end0
-                    _fun0001_ip = 358; continue _fun0001;
- 290: // try_end1
+case 13: // try_end0
+                    _fun0001_ip = 14; continue _fun0001;
+case 11: // try_end1
                     var9 = _closure1_slot7;
                     var8 = var9.delete;
                     var5 = var3;
                     var5 = var8.bind(var9)(var5);
                     return var2;
- 310: // try_start_2 // catch_target0
+case 15: // try_start_2 // catch_target0
                     CatchBlockStart(arg_register=1);
                     var5 = _closure1_slot1;
                     var2 = _closure1_slot2;
@@ -113,22 +113,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = var3;
                     var2['guildId'] = var7;
                     var2 = var5.bind(var6)(var2);
- 358: // try_end2
+case 14: // try_end2
                     var6 = _closure1_slot7;
                     var5 = var6.delete;
                     var2 = var3;
                     var2 = var5.bind(var6)(var2);
-                    _fun0001_ip = 395; continue _fun0001;
- 377: // catch_target1 // catch_target2
+                    _fun0001_ip = 4; continue _fun0001;
+case 16: // catch_target1 // catch_target2
                     CatchBlockStart(arg_register=1);
                     var5 = _closure1_slot7;
                     var4 = var5.delete;
                     var3 = var4.bind(var5)(var3);
                     throw var2;
- 395:
+case 4:
                     var2 = undefined;
                     return var2;
- 400:
+case 2:
                     return var1;
                 }
             };

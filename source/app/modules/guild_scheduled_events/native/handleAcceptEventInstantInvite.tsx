@@ -28,7 +28,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function handleAcceptEventInstantInvite(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var6 = arg1;
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
@@ -38,8 +38,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.bind(var1)(var3);
             var3 = var4.handleNSFWGuildInvite;
             var3 = var3.bind(var4)(var6);
-            if(var3) { _fun0001_ip = 209; continue _fun0001 }
- 47:
+            if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = _closure1_slot0;
             var7 = _closure1_slot2;
             var3 = 2;
@@ -47,25 +47,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.bind(var1)(var3);
             var3 = var4.isGuildScheduledEventInviteEmbed;
             var3 = var3.bind(var4)(var6);
-            if(!var3) { _fun0001_ip = 209; continue _fun0001 }
- 84:
+            if(!var3) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var3 = var6.code;
             var4 = null;
-            if(!(var4 != var3)) { _fun0001_ip = 209; continue _fun0001 }
- 95:
+            if(!(var4 != var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 5:
             var8 = _closure1_slot3;
             var7 = var8.getGuildScheduledEvent;
             var9 = var6.guild_scheduled_event;
             var10 = var4 == var9;
             var3 = undefined;
-            if(var10) { _fun0001_ip = 125; continue _fun0001 }
- 120:
+            if(var10) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var3 = var9.id;
- 125:
+case 6:
             var3 = var7.bind(var8)(var3);
             var _closure2_slot0 = var3;
-            if(!(var4 != var3)) { _fun0001_ip = 209; continue _fun0001 }
- 138:
+            if(!(var4 != var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 8:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
             var2 = 3;
@@ -93,7 +93,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var2['callback'] = var5;
             var2 = var3.bind(var4)(var2);
- 209:
+case 2:
             return var1;
         }
     };

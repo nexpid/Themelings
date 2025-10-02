@@ -56,7 +56,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function trackSoundPlayed(arg1, arg2, arg3, arg4) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var6 = arg3;
             var3 = _closure1_slot3;
             var2 = var3.getChannel;
@@ -68,11 +68,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var9 == var3;
             var1 = undefined;
             var12 = undefined;
-            if(var2) { _fun0001_ip = 57; continue _fun0001 }
- 47:
+            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var3.getGuildId;
             var12 = var2.bind(var3)();
- 57:
+case 2:
             var3 = _closure1_slot4;
             var2 = var3.getMediaSessionId;
             var10 = var2.bind(var3)();
@@ -83,30 +83,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.bind(var3)();
             var3 = var9 == var2;
             var8 = undefined;
-            if(var3) { _fun0001_ip = 109; continue _fun0001 }
- 104:
+            if(var3) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var8 = var2.name;
- 109:
+case 4:
             var2 = var6.guildId;
             var13 = var12 !== var2;
-            if(!var13) { _fun0001_ip = 134; continue _fun0001 }
- 121:
+            if(!var13) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var3 = var6.guildId;
             var2 = _closure1_slot6;
             var13 = var3 !== var2;
- 134:
+case 6:
             var3 = var6.guildId;
             var2 = _closure1_slot6;
             var7 = 'default';
-            if(!(var3 !== var2)) { _fun0001_ip = 167; continue _fun0001 }
- 151:
+            if(!(var3 !== var2)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var2 = 'custom';
-            if(!var13) { _fun0001_ip = 164; continue _fun0001 }
- 158:
+            if(!var13) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var2 = 'custom-external';
- 164:
+case 10:
             var7 = var2;
- 167:
+case 8:
             var3 = _closure1_slot0;
             var4 = _closure1_slot1;
             var2 = 7;
@@ -120,13 +120,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var15.SOUNDBOARD_PLAY;
             var2['feature_name'] = var15;
             var14 = _closure1_slot9;
-            if(var13) { _fun0001_ip = 234; continue _fun0001 }
- 226:
+            if(var13) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var13 = var14.FREE;
-            _fun0001_ip = 240; continue _fun0001;
- 234:
+            _fun0001_ip = 14; continue _fun0001;
+case 12:
             var13 = var14.PREMIUM_STANDARD;
- 240:
+case 14:
             var2['feature_tier'] = var13;
             var2['guild_id'] = var12;
             var12 = var6.guildId;
@@ -139,15 +139,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['in_overlay'] = var10;
             var2['application_name'] = var8;
             var8 = var6.emojiId;
-            if(!(var9 == var8)) { _fun0001_ip = 319; continue _fun0001 }
- 304:
+            if(!(var9 == var8)) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
             var8 = var6.emojiName;
             var9 = var9 != var8;
             var8 = 0;
-            if(!var9) { _fun0001_ip = 322; continue _fun0001 }
- 319:
+            if(!var9) { _fun0001_ip = 17; continue _fun0001 }
+case 15:
             var8 = 1;
- 322:
+case 17:
             var2['emoji_count'] = var8;
             var2['feature_selection'] = var7;
             var6 = var6.soundId;

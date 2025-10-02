@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function computeWindowDimensions(arg1, arg2, arg3, arg4) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var3 = arg3;
             var2 = arg4;
@@ -27,11 +27,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var6)();
             var11 = var4;
             var7 = var5;
-            if(!(var7 === var12)) { _fun0001_ip = 80; continue _fun0001 }
- 74:
+            if(!(var7 === var12)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var11 = var5;
             var7 = var4;
- 80:
+case 2:
             var5 = global;
             var8 = var5.Math;
             var6 = var8.min;
@@ -48,8 +48,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var8 + var3;
             var10 = arg2;
             var3 = 0;
-            if(var10) { _fun0001_ip = 184; continue _fun0001 }
- 154:
+            if(var10) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
             var9 = 4;
@@ -57,33 +57,33 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var10.bind(var2)(var9);
             var9 = var10.getSystemKeyboardHeight;
             var3 = var9.bind(var10)();
- 184:
+case 4:
             var3 = var8 - var3;
             var3 = var5.bind(var6)(var3, var7);
             var5 = null;
             var5 = var5 == var1;
             var2 = undefined;
-            if(var5) { _fun0001_ip = 210; continue _fun0001 }
- 205:
+            if(var5) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var2 = var1.width;
- 210:
-            if(!(var2 === var4)) { _fun0001_ip = 223; continue _fun0001 }
- 214:
+case 6:
+            if(!(var2 === var4)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var2 = var1.height;
-            if(!(var2 !== var3)) { _fun0001_ip = 236; continue _fun0001 }
- 223:
+            if(!(var2 !== var3)) { _fun0001_ip = 10; continue _fun0001 }
+case 8:
             var2 = {};
             var2['width'] = var4;
             var2['height'] = var3;
             var1 = var2;
- 236:
+case 10:
             return var1;
         }
     };
     var _closure1_slot5 = var1;
     var1 = function getDimensionsStoreState(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var11 = {};
             var5 = _closure1_slot3;
@@ -101,15 +101,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = null;
             var5 = var7 == var4;
             var4 = undefined;
-            if(var5) { _fun0002_ip = 93; continue _fun0002 }
- 66:
+            if(var5) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
             var8 = _closure1_slot1;
             var5 = _closure1_slot2;
             var5 = var5[var6];
             var8 = var8.bind(var2)(var5);
             var5 = var8.getWindowSize;
             var4 = var5.bind(var8)();
- 93:
+case 11:
             var15 = var11;
             var14 = var4;
             var4 = copyDataProperties(var15, var14);
@@ -119,38 +119,38 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var5.bind(var2)(var4);
             var4 = var7 == var4;
             var10 = undefined;
-            if(var4) { _fun0002_ip = 156; continue _fun0002 }
- 129:
+            if(var4) { _fun0002_ip = 13; continue _fun0002 }
+case 14:
             var5 = _closure1_slot1;
             var4 = _closure1_slot2;
             var4 = var4[var6];
             var5 = var5.bind(var2)(var4);
             var4 = var5.getScreenSize;
             var10 = var4.bind(var5)();
- 156:
-            if(!(var7 == var10)) { _fun0002_ip = 178; continue _fun0002 }
- 160:
+case 13:
+            if(!(var7 == var10)) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
             var6 = _closure1_slot3;
             var5 = var6.get;
             var4 = 'screen';
             var10 = var5.bind(var6)(var4);
- 178:
+case 15:
             var6 = var11.fontScale;
             var5 = var10.width;
             var4 = var10.height;
             var5 = var5 > var4;
             var8 = var7 == var1;
             var4 = undefined;
-            if(var8) { _fun0002_ip = 213; continue _fun0002 }
- 207:
+            if(var8) { _fun0002_ip = 17; continue _fun0002 }
+case 18:
             var4 = var1.windowDimensions;
- 213:
+case 17:
             var8 = var7 == var1;
             var9 = undefined;
-            if(var8) { _fun0002_ip = 228; continue _fun0002 }
- 222:
+            if(var8) { _fun0002_ip = 19; continue _fun0002 }
+case 20:
             var9 = var1.windowDimensionsIgnoringKeyboard;
- 228:
+case 19:
             var8 = _closure1_slot5;
             var14 = false;
             var16 = undefined;
@@ -165,25 +165,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var16[var8](var15, var14, var13, var12, var11);
             var7 = var7 == var1;
             var2 = undefined;
-            if(var7) { _fun0002_ip = 279; continue _fun0002 }
- 273:
+            if(var7) { _fun0002_ip = 21; continue _fun0002 }
+case 22:
             var2 = var1.windowDimensions;
- 279:
-            if(!(var2 === var4)) { _fun0002_ip = 303; continue _fun0002 }
- 283:
+case 21:
+            if(!(var2 === var4)) { _fun0002_ip = 23; continue _fun0002 }
+case 24:
             var2 = var1.fontScale;
-            if(!(var2 === var6)) { _fun0002_ip = 303; continue _fun0002 }
- 293:
+            if(!(var2 === var6)) { _fun0002_ip = 23; continue _fun0002 }
+case 25:
             var2 = var1.screenIsLandscape;
-            if(!(var2 !== var5)) { _fun0002_ip = 328; continue _fun0002 }
- 303:
+            if(!(var2 !== var5)) { _fun0002_ip = 26; continue _fun0002 }
+case 23:
             var2 = {};
             var2['fontScale'] = var6;
             var2['screenIsLandscape'] = var5;
             var2['windowDimensions'] = var4;
             var2['windowDimensionsIgnoringKeyboard'] = var3;
             var1 = var2;
- 328:
+case 26:
             return var1;
         }
     };

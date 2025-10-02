@@ -27,20 +27,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot4 = var2;
     var2 = function getHighestHoistedRole(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var6 = arg1;
             var5 = arg2;
             var2 = arguments[2];
             var7 = undefined;
-            if(!(var2 === var7)) { _fun0001_ip = 41; continue _fun0001 }
- 15:
+            if(!(var2 === var7)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = _closure1_slot4;
             var1 = new Array(2);
             var1[0] = var4;
             var3 = _closure1_slot3;
             var1[1] = var3;
             var2 = var1;
- 41:
+case 2:
             var8 = var2;
             var1 = var8[Symbol.iterator];
             var8 = var1().next;
@@ -48,43 +48,43 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var1;
             var2 = var2 === var7;
             var3 = undefined;
-            if(var2) { _fun0001_ip = 66; continue _fun0001 }
- 63:
+            if(var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = var4;
- 66:
+case 4:
             var4 = undefined;
-            if(var2) { _fun0001_ip = 96; continue _fun0001 }
- 71:
+            if(var2) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var9 = var8().value;
             var8 = var1;
             var8 = var8 === var7;
             var4 = undefined;
             var2 = var8;
-            if(var8) { _fun0001_ip = 96; continue _fun0001 }
- 90:
+            if(var8) { _fun0001_ip = 6; continue _fun0001 }
+case 8:
             var4 = var9;
             var2 = var8;
- 96:
-            if(var2) { _fun0001_ip = 102; continue _fun0001 }
- 99:
+case 6:
+            if(var2) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var1.return();
- 102:
+case 9:
             var1 = null;
-            if(!(var1 != var6)) { _fun0001_ip = 191; continue _fun0001 }
- 108:
-            if(!(var1 != var5)) { _fun0001_ip = 191; continue _fun0001 }
- 112:
+            if(!(var1 != var6)) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
+            if(!(var1 != var5)) { _fun0001_ip = 11; continue _fun0001 }
+case 13:
             var2 = var3.getGuild;
             var6 = var2.bind(var3)(var6);
-            if(!(var1 != var6)) { _fun0001_ip = 189; continue _fun0001 }
- 126:
+            if(!(var1 != var6)) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var3 = var4.getMember;
             var2 = var6.id;
             var5 = var3.bind(var4)(var2, var5);
             var3 = var1 == var5;
             var2 = null;
-            if(var3) { _fun0001_ip = 187; continue _fun0001 }
- 152:
+            if(var3) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var4 = _closure1_slot1;
             var8 = _closure1_slot2;
             var3 = 2;
@@ -92,11 +92,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.bind(var7)(var3);
             var3 = var4.getHighestHoistedRole;
             var2 = var3.bind(var4)(var6, var5);
- 187:
+case 16:
             return var2;
- 189:
+case 14:
             return var1;
- 191:
+case 11:
             return var1;
         }
     };

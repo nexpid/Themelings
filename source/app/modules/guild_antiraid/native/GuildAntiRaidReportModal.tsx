@@ -347,13 +347,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = undefined;
                 var2 = function(arg1) {
                     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                         var4 = arg1;
                         var3 = var4.includes;
                         var1 = _closure4_slot0;
                         var1 = var3.bind(var4)(var1);
-                        if(var1) { _fun0001_ip = 57; continue _fun0001 }
- 23:
+                        if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                         var1 = new Array(1);
                         var5 = 0;
                         var7 = var1;
@@ -363,8 +363,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var1[var3] = var2;
                         var2 = 1;
                         var2 = var3 + var2;
-                        _fun0001_ip = 76; continue _fun0001;
- 57:
+                        _fun0001_ip = 4; continue _fun0001;
+case 2:
                         var3 = var4.filter;
                         var2 = function(arg1) {
                             var2 = _closure4_slot0;
@@ -373,7 +373,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             return var1;
                         };
                         var1 = var3.bind(var4)(var2);
- 76:
+case 4:
                         return var1;
                     }
                 };

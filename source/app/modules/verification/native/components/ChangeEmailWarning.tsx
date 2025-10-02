@@ -106,7 +106,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function ChangeEmailWarning(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var1 = var1.changeEmailReason;
             var _closure2_slot0 = var1;
@@ -168,8 +168,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var18 = var4.bind(var6)(var1, var3);
             var1 = null;
             var2 = var1 == var2;
-            if(var2) { _fun0001_ip = 821; continue _fun0001 }
- 150:
+            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = _closure1_slot10;
             var20 = _closure1_slot0;
             var21 = _closure1_slot2;
@@ -312,7 +312,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var4.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 821:
+case 2:
             return var1;
         }
     };

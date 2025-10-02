@@ -121,19 +121,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6[0] = var9;
         var3 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var1 = _closure2_slot4;
                 var4 = var1.target;
                 var1 = _closure1_slot4;
                 var1 = var1.CHAT;
-                if(!(var4 !== var1)) { _fun0001_ip = 199; continue _fun0001 }
- 33:
+                if(!(var4 !== var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var1 = _closure2_slot4;
                 var4 = var1.target;
                 var1 = _closure1_slot4;
                 var1 = var1.COMMAND;
-                if(!(var4 !== var1)) { _fun0001_ip = 119; continue _fun0001 }
- 57:
+                if(!(var4 !== var1)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var1 = global;
                 var5 = var1.Error;
                 var4 = _closure2_slot4;
@@ -148,7 +148,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = new var8[var5](var7, var6);
                 var1 = var1 instanceof Object ? var1 : var4;
                 throw var1;
- 119:
+case 4:
                 var1 = {'title': null, 'subtitle': null, 'uploadLimit': 1, 'disableWhenReachedLimit': false, 'includedUploadIds': null, 'showRemixButton': false};
                 var3 = _closure2_slot4;
                 var4 = var3.option;
@@ -163,7 +163,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3[0] = var4;
                 var1['includedUploadIds'] = var3;
                 return var1;
- 199:
+case 2:
                 var1 = {};
                 var3 = undefined;
                 var1['title'] = var3;
@@ -211,13 +211,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1['onDismissKeyboard'] = var3;
                 var3 = function onRestoreKeyboard() {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                         var1 = _closure2_slot4;
                         var2 = var1.target;
                         var1 = _closure1_slot4;
                         var1 = var1.APP_LAUNCHER;
-                        if(!(var2 !== var1)) { _fun0002_ip = 98; continue _fun0002 }
- 30:
+                        if(!(var2 !== var1)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                         var1 = _closure2_slot1;
                         var3 = var1.current;
                         var2 = var3.openCustomKeyboard;
@@ -234,7 +234,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var4 = _closure2_slot4;
                         var1['context'] = var4;
                         var1 = var2.bind(var3)(var1);
- 98:
+case 6:
                         var1 = undefined;
                         return var1;
                     }
@@ -242,20 +242,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1['onRestoreKeyboard'] = var3;
                 var2 = function onSelectFiles(arg1) {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                         var5 = arg1;
                         var2 = _closure2_slot4;
                         var4 = var2.target;
                         var3 = _closure1_slot4;
                         var3 = var3.CHAT;
-                        if(!(var4 !== var3)) { _fun0003_ip = 124; continue _fun0003 }
- 33:
+                        if(!(var4 !== var3)) { _fun0003_ip = 8; continue _fun0003 }
+case 3:
                         var3 = _closure2_slot4;
                         var4 = var3.target;
                         var3 = _closure1_slot4;
                         var3 = var3.COMMAND;
-                        if(!(var4 === var3)) { _fun0003_ip = 175; continue _fun0003 }
- 57:
+                        if(!(var4 === var3)) { _fun0003_ip = 9; continue _fun0003 }
+case 5:
                         var6 = _closure1_slot0;
                         var4 = _closure1_slot2;
                         var3 = 9;
@@ -272,8 +272,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var11 = _closure4_slot0;
                         var16 = var10;
                         var3 = var16[var9](var15, var14, var13, var12, var11, var10);
-                        _fun0003_ip = 175; continue _fun0003;
- 124:
+                        _fun0003_ip = 9; continue _fun0003;
+case 8:
                         var4 = _closure1_slot0;
                         var3 = _closure1_slot2;
                         var2 = 9;
@@ -285,7 +285,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = var1.id;
                         var1 = _closure4_slot0;
                         var1 = var3.bind(var4)(var2, var5, var1);
- 175:
+case 9:
                         var1 = undefined;
                         return var1;
                     }
@@ -344,7 +344,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['onPressCamera'] = var3;
             var3 = function onViewAll() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot2;
                     var1 = 9;
@@ -371,37 +371,37 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var4.bind(var1)(var3);
                     var3 = var4.isAndroid;
                     var3 = var3.bind(var4)();
-                    if(!var3) { _fun0004_ip = 146; continue _fun0004 }
- 121:
+                    if(!var3) { _fun0004_ip = 10; continue _fun0004 }
+case 11:
                     var2 = _closure2_slot3;
                     var3 = var2.current;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0004_ip = 146; continue _fun0004 }
- 136:
+                    if(!(var2 != var3)) { _fun0004_ip = 10; continue _fun0004 }
+case 12:
                     var2 = var3.collapse;
                     var2 = var2.bind(var3)();
- 146:
+case 10:
                     return var1;
                 }
             };
             var1['onViewAll'] = var3;
             var3 = function onSelectItem(arg1, arg2, arg3, arg4) {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
                     var6 = arg1;
                     var5 = arg2;
                     var1 = _closure2_slot4;
                     var4 = var1.target;
                     var3 = _closure1_slot4;
                     var3 = var3.CHAT;
-                    if(!(var4 !== var3)) { _fun0005_ip = 155; continue _fun0005 }
- 36:
+                    if(!(var4 !== var3)) { _fun0005_ip = 13; continue _fun0005 }
+case 14:
                     var3 = _closure2_slot4;
                     var4 = var3.target;
                     var3 = _closure1_slot4;
                     var3 = var3.COMMAND;
-                    if(!(var4 === var3)) { _fun0005_ip = 202; continue _fun0005 }
- 63:
+                    if(!(var4 === var3)) { _fun0005_ip = 15; continue _fun0005 }
+case 16:
                     var11 = _closure1_slot0;
                     var12 = _closure1_slot2;
                     var3 = 9;
@@ -423,8 +423,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var18 = var8;
                     var17 = var6;
                     var2 = var18[var7](var17, var16, var15, var14, var13, var12);
-                    _fun0005_ip = 202; continue _fun0005;
- 155:
+                    _fun0005_ip = 15; continue _fun0005;
+case 13:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var1 = 9;
@@ -438,7 +438,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var17 = var6;
                     var16 = var5;
                     var1 = var18[var3](var17, var16, var15, var14, var13);
- 202:
+case 15:
                     var1 = undefined;
                     return var1;
                 }
@@ -465,15 +465,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['onPollsPress'] = var3;
             var2 = function onSend() {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
- 0:
+case 0:
                     var2 = _closure2_slot3;
                     var3 = var2.current;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0006_ip = 28; continue _fun0006 }
- 18:
+                    if(!(var2 != var3)) { _fun0006_ip = 17; continue _fun0006 }
+case 18:
                     var2 = var3.collapse;
                     var2 = var2.bind(var3)();
- 28:
+case 17:
                     var1 = _closure2_slot1;
                     var2 = var1.current;
                     var1 = var2.handleSend;
@@ -559,17 +559,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1[var7] = var8;
             var8 = function onBack() {
                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
- 0:
+case 0:
                     var1 = _closure2_slot3;
                     var3 = var1.current;
                     var1 = null;
                     var2 = var1 == var3;
                     var1 = undefined;
-                    if(var2) { _fun0007_ip = 33; continue _fun0007 }
- 23:
+                    if(var2) { _fun0007_ip = 3; continue _fun0007 }
+case 19:
                     var2 = var3.collapse;
                     var1 = var2.bind(var3)();
- 33:
+case 3:
                     return var1;
                 }
             };
@@ -577,37 +577,37 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1[var7] = var8;
             var7 = function onPress() {
                 _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
- 0:
+case 0:
                     var3 = _closure2_slot2;
                     var1 = var3.get;
                     var3 = var1.bind(var3)();
                     var1 = 0;
-                    if(!(var1 !== var3)) { _fun0008_ip = 54; continue _fun0008 }
- 22:
+                    if(!(var1 !== var3)) { _fun0008_ip = 20; continue _fun0008 }
+case 21:
                     var1 = _closure2_slot3;
                     var4 = var1.current;
                     var1 = null;
                     var3 = var1 == var4;
                     var1 = undefined;
-                    if(var3) { _fun0008_ip = 52; continue _fun0008 }
- 42:
+                    if(var3) { _fun0008_ip = 22; continue _fun0008 }
+case 23:
                     var3 = var4.collapse;
                     var1 = var3.bind(var4)();
- 52:
-                    _fun0008_ip = 87; continue _fun0008;
- 54:
+case 22:
+                    _fun0008_ip = 24; continue _fun0008;
+case 20:
                     var2 = _closure2_slot3;
                     var4 = var2.current;
                     var2 = null;
                     var3 = var2 == var4;
                     var2 = undefined;
-                    if(var3) { _fun0008_ip = 84; continue _fun0008 }
- 74:
+                    if(var3) { _fun0008_ip = 25; continue _fun0008 }
+case 26:
                     var3 = var4.expand;
                     var2 = var3.bind(var4)();
- 84:
+case 25:
                     var1 = var2;
- 87:
+case 24:
                     return var1;
                 }
             };

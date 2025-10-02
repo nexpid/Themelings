@@ -33,16 +33,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useRelativeTimestamp(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var7 = var1.timestamp;
             var _closure2_slot0 = var7;
             var6 = var1.abbreviated;
             var8 = undefined;
-            if(!(var6 === var8)) { _fun0001_ip = 29; continue _fun0001 }
- 27:
+            if(!(var6 === var8)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = true;
- 29:
+case 2:
             var _closure2_slot1 = var6;
             var _closure2_slot2 = var8;
             var5 = _closure1_slot4;
@@ -75,7 +75,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[1] = var6;
             var2 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var4 = _closure2_slot2;
                     var8 = _closure1_slot0;
                     var6 = _closure1_slot2;
@@ -99,31 +99,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = var7.bind(var1)(var6);
                     var6 = var6.Millis;
                     var6 = var6.DAY;
-                    if(!(!(var3 > var6))) { _fun0002_ip = 249; continue _fun0002 }
- 115:
+                    if(!(!(var3 > var6))) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var7 = _closure1_slot1;
                     var6 = _closure1_slot2;
                     var6 = var6[var8];
                     var6 = var7.bind(var1)(var6);
                     var6 = var6.Millis;
                     var6 = var6.HOUR;
-                    if(!(!(var3 >= var6))) { _fun0002_ip = 179; continue _fun0002 }
- 148:
+                    if(!(!(var3 >= var6))) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var7 = _closure1_slot1;
                     var6 = _closure1_slot2;
                     var6 = var6[var8];
                     var6 = var7.bind(var1)(var6);
                     var6 = var6.Millis;
                     var6 = var6.MINUTE;
-                    _fun0002_ip = 208; continue _fun0002;
- 179:
+                    _fun0002_ip = 8; continue _fun0002;
+case 6:
                     var7 = _closure1_slot1;
                     var5 = _closure1_slot2;
                     var5 = var5[var8];
                     var5 = var7.bind(var1)(var5);
                     var5 = var5.Millis;
                     var6 = var5.HOUR;
- 208:
+case 8:
                     var5 = var4.setInterval;
                     var3 = var3 % var6;
                     var4 = var6 - var3;
@@ -153,7 +153,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     };
                     return var2;
- 249:
+case 4:
                     return var1;
                 }
             };

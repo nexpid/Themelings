@@ -43,7 +43,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot7 = var4;
     var4 = function createVerticalDottedLine() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = _closure1_slot4;
             var2 = var3.get;
             var1 = 'screen';
@@ -57,8 +57,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = 2;
             var3 = 4;
             var2 = 8;
-            if(!(var7 < var8)) { _fun0001_ip = 146; continue _fun0001 }
- 56:
+            if(!(var7 < var8)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var14 = var1.push;
             var13 = _closure1_slot0;
             var11 = _closure1_slot1;
@@ -77,15 +77,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var14.bind(var15)(var13, var11);
             var11 = var12.bind(var1)(var11);
             var7 = var7 + var2;
-            if(var7 < var8) { _fun0001_ip = 56; continue _fun0001 }
- 146:
+            if(var7 < var8) { _fun0001_ip = 3; continue _fun0001 }
+case 2:
             return var1;
         }
     };
     var _closure1_slot8 = var4;
     var4 = function createHorizontalDottedLine() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var3 = _closure1_slot4;
             var2 = var3.get;
             var1 = 'screen';
@@ -99,8 +99,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = 2;
             var3 = 4;
             var2 = 8;
-            if(!(var7 < var9)) { _fun0002_ip = 146; continue _fun0002 }
- 56:
+            if(!(var7 < var9)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
             var14 = var1.push;
             var13 = _closure1_slot0;
             var11 = _closure1_slot1;
@@ -119,8 +119,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var14.bind(var15)(var13, var11);
             var11 = var12.bind(var1)(var11);
             var7 = var7 + var2;
-            if(var7 < var9) { _fun0002_ip = 56; continue _fun0002 }
- 146:
+            if(var7 < var9) { _fun0002_ip = 3; continue _fun0002 }
+case 2:
             return var1;
         }
     };
@@ -133,7 +133,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function _default(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var1 = arg1;
             var9 = var1.gesturing;
             var7 = _closure1_slot5;
@@ -176,10 +176,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2.bind(var4)(var1);
             var2 = var1.Group;
             var1 = {};
-            if(!var9) { _fun0003_ip = 157; continue _fun0003 }
- 154:
+            if(!var9) { _fun0003_ip = 4; continue _fun0003 }
+case 5:
             var6 = var8;
- 157:
+case 4:
             var1['opacity'] = var6;
             var8 = _closure1_slot6;
             var10 = _closure1_slot0;

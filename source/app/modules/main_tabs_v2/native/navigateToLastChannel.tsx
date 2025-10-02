@@ -24,7 +24,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function navigateToLastChannel() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = _closure1_slot0;
             var7 = _closure1_slot2;
             var1 = 0;
@@ -40,19 +40,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var4.bind(var5)(var2);
             var2 = null;
             var4 = var2 != var5;
-            if(!var4) { _fun0001_ip = 88; continue _fun0001 }
- 64:
+            if(!var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var7 = var5.params;
             var8 = var2 == var7;
             var6 = undefined;
-            if(var8) { _fun0001_ip = 84; continue _fun0001 }
- 79:
+            if(var8) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var6 = var7.channelId;
- 84:
+case 4:
             var4 = var2 != var6;
- 88:
-            if(!var4) { _fun0001_ip = 142; continue _fun0001 }
- 91:
+case 2:
+            if(!var4) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var4 = _closure1_slot0;
             var6 = _closure1_slot2;
             var3 = 2;
@@ -62,12 +62,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.params;
             var6 = var2 == var5;
             var2 = undefined;
-            if(var6) { _fun0001_ip = 137; continue _fun0001 }
- 132:
+            if(var6) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var2 = var5.channelId;
- 137:
+case 8:
             var2 = var3.bind(var4)(var2);
- 142:
+case 6:
             return var1;
         }
     };

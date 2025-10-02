@@ -56,12 +56,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function handlePressNext(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var6 = arg1;
             var2 = arg3;
             var1 = null;
-            if(!(var1 != var6)) { _fun0001_ip = 147; continue _fun0001 }
- 15:
+            if(!(var1 != var6)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var8 = _closure1_slot1;
             var7 = _closure1_slot2;
             var4 = 2;
@@ -92,18 +92,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.description;
             var3['avatar_description'] = var6;
             var3 = var4.bind(var5)(var3);
- 147:
-            if(!(var1 == var2)) { _fun0001_ip = 169; continue _fun0001 }
- 151:
+case 2:
+            if(!(var1 == var2)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var4 = _closure1_slot5;
             var3 = undefined;
             var1 = false;
             var1 = var4.bind(var3)(var1);
-            _fun0001_ip = 175; continue _fun0001;
- 169:
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
             var1 = undefined;
             var1 = var2.bind(var1)();
- 175:
+case 6:
             var1 = undefined;
             return var1;
         }
@@ -172,7 +172,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2['confirmText'] = var6;
         var5 = function onConfirm() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var4 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var1 = 3;
@@ -183,17 +183,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = null;
                 var2 = var2.bind(var4)(var5);
                 var4 = _closure2_slot0;
-                if(!(var5 == var4)) { _fun0002_ip = 62; continue _fun0002 }
- 49:
+                if(!(var5 == var4)) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
                 var4 = _closure1_slot5;
                 var3 = true;
                 var3 = var4.bind(var1)(var3);
-                _fun0002_ip = 73; continue _fun0002;
- 62:
+                _fun0002_ip = 9; continue _fun0002;
+case 7:
                 var3 = _closure2_slot0;
                 var2 = true;
                 var2 = var3.bind(var1)(var2);
- 73:
+case 9:
                 return var1;
             }
         };

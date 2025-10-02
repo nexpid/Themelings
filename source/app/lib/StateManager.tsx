@@ -26,14 +26,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = _closure1_slot3;
         var3 = function StateManager() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var2 = arguments[0];
                 var3 = this;
                 var1 = undefined;
-                if(!(var2 === var1)) { _fun0001_ip = 14; continue _fun0001 }
- 12:
+                if(!(var2 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var2 = true;
- 14:
+case 2:
                 var5 = _closure1_slot2;
                 var4 = _closure2_slot0;
                 var4 = var5.bind(var1)(var3, var4);
@@ -105,19 +105,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var6 = function value() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var6 = arguments[0];
                 var1 = arguments[1];
                 var4 = this;
                 var5 = undefined;
-                if(!(var6 === var5)) { _fun0002_ip = 17; continue _fun0002 }
- 15:
+                if(!(var6 === var5)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                 var6 = {};
- 17:
-                if(!(var1 === var5)) { _fun0002_ip = 23; continue _fun0002 }
- 21:
+case 4:
+                if(!(var1 === var5)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                 var1 = false;
- 23:
+case 6:
                 var3 = var4.getNextState;
                 var2 = {};
                 var12 = var4.state;
@@ -127,8 +127,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var12 = var6;
                 var6 = copyDataProperties(var13, var12);
                 var2 = var3.bind(var4)(var2);
-                if(var1) { _fun0002_ip = 173; continue _fun0002 }
- 63:
+                if(var1) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                 var1 = global;
                 var3 = var1.Object;
                 var1 = var3.keys;
@@ -137,12 +137,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = 0;
                 var1 = var7 < var1;
                 var3 = 2;
-                if(!var1) { _fun0002_ip = 221; continue _fun0002 }
- 101:
+                if(!var1) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
                 var9 = var8[var7];
                 var1 = var4.dirty;
-                if(var1) { _fun0002_ip = 153; continue _fun0002 }
- 114:
+                if(var1) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
                 var11 = _closure1_slot0;
                 var10 = _closure1_slot1;
                 var10 = var10[var3];
@@ -152,14 +152,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var9 = var2[var9];
                 var9 = var11.bind(var5)(var10, var9);
                 var1 = !var9;
- 153:
+case 12:
                 var4['dirty'] = var1;
                 var7 = var7 + 1;
                 var1 = var8.length;
-                if(var7 < var1) { _fun0002_ip = 101; continue _fun0002 }
- 171:
-                _fun0002_ip = 221; continue _fun0002;
- 173:
+                if(var7 < var1) { _fun0002_ip = 11; continue _fun0002 }
+case 14:
+                _fun0002_ip = 10; continue _fun0002;
+case 8:
                 var3 = _closure1_slot0;
                 var6 = _closure1_slot1;
                 var1 = 2;
@@ -170,33 +170,33 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var3.bind(var5)(var2, var1);
                 var1 = !var1;
                 var4['dirty'] = var1;
- 221:
+case 10:
                 var1 = var4.dirty;
-                if(!var1) { _fun0002_ip = 242; continue _fun0002 }
- 230:
+                if(!var1) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
                 var3 = var4.shouldCommit;
                 var1 = var3.bind(var4)();
- 242:
+case 15:
                 var3 = var1;
-                if(var3) { _fun0002_ip = 254; continue _fun0002 }
- 248:
+                if(var3) { _fun0002_ip = 17; continue _fun0002 }
+case 18:
                 var3 = var4.alwaysUpdateState;
- 254:
-                if(!var3) { _fun0002_ip = 263; continue _fun0002 }
- 257:
+case 17:
+                if(!var3) { _fun0002_ip = 19; continue _fun0002 }
+case 20:
                 var4['state'] = var2;
- 263:
+case 19:
                 var2 = !var1;
                 var1 = !var2;
-                if(var2) { _fun0002_ip = 298; continue _fun0002 }
- 272:
+                if(var2) { _fun0002_ip = 21; continue _fun0002 }
+case 22:
                 var2 = false;
                 var4['dirty'] = var2;
                 var3 = var4.didCommit;
                 var2 = var4.state;
                 var2 = var3.bind(var4)(var2);
                 var1 = true;
- 298:
+case 21:
                 return var1;
             }
         };

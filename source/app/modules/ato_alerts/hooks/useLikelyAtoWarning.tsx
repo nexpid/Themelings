@@ -27,7 +27,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useLikelyAtoWarning(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var8 = arg1;
             var7 = _closure1_slot0;
             var9 = _closure1_slot1;
@@ -64,16 +64,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var3.bind(var7)(var8);
             var3 = null;
             var3 = var3 != var7;
-            if(var6) { _fun0001_ip = 173; continue _fun0001 }
- 162:
-            if(var5) { _fun0001_ip = 173; continue _fun0001 }
- 165:
-            if(var4) { _fun0001_ip = 173; continue _fun0001 }
- 168:
-            if(var3) { _fun0001_ip = 173; continue _fun0001 }
- 171:
+            if(var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            if(var5) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
+            if(var4) { _fun0001_ip = 2; continue _fun0001 }
+case 5:
+            if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 6:
             return var2;
- 173:
+case 2:
             return var1;
         }
     };

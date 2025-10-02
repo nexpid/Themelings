@@ -53,29 +53,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[0] = var6;
         var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var4 = _closure1_slot2;
                 var3 = var4.getChannel;
                 var1 = _closure2_slot0;
                 var5 = var3.bind(var4)(var1);
                 var1 = null;
                 var1 = var1 != var5;
-                if(!var1) { _fun0001_ip = 59; continue _fun0001 }
- 33:
+                if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var6 = _closure1_slot3;
                 var4 = var6.can;
                 var3 = _closure1_slot4;
                 var3 = var3.CONNECT;
                 var1 = var4.bind(var6)(var3, var5);
- 59:
-                if(!var1) { _fun0001_ip = 88; continue _fun0001 }
- 62:
+case 2:
+                if(!var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var4 = _closure1_slot3;
                 var3 = var4.can;
                 var2 = _closure1_slot4;
                 var2 = var2.CREATE_INSTANT_INVITE;
                 var1 = var3.bind(var4)(var2, var5);
- 88:
+case 4:
                 return var1;
             }
         };

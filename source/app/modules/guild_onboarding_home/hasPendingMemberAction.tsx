@@ -55,7 +55,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function hasPendingMemberAction(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = _closure1_slot5;
             var2 = var3.getGuild;
             var1 = arg1;
@@ -66,12 +66,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.bind(var5)(var1);
             var6 = null;
             var1 = var6 != var3;
-            if(!var1) { _fun0001_ip = 50; continue _fun0001 }
- 46:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var6 != var2;
- 50:
-            if(!var1) { _fun0001_ip = 80; continue _fun0001 }
- 53:
+case 2:
+            if(!var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var8 = _closure1_slot0;
             var7 = _closure1_slot2;
             var5 = 7;
@@ -79,17 +79,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = undefined;
             var5 = var8.bind(var7)(var5);
             var1 = var5.bind(var7)(var3);
- 80:
-            if(!var1) { _fun0001_ip = 109; continue _fun0001 }
- 83:
+case 4:
+            if(!var1) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var8 = var3.features;
             var7 = var8.has;
             var5 = _closure1_slot8;
             var5 = var5.GUILD_SERVER_GUIDE;
             var1 = var7.bind(var8)(var5);
- 109:
-            if(!var1) { _fun0001_ip = 203; continue _fun0001 }
- 112:
+case 6:
+            if(!var1) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var8 = _closure1_slot1;
             var7 = _closure1_slot2;
             var5 = 8;
@@ -102,38 +102,38 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var3.id;
             var9 = var10.bind(var11)(var9);
             var10 = var6 == var9;
-            if(var10) { _fun0001_ip = 172; continue _fun0001 }
- 167:
+            if(var10) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var5 = var9.flags;
- 172:
+case 10:
             var9 = var6 != var5;
             var6 = 0;
-            if(!var9) { _fun0001_ip = 184; continue _fun0001 }
- 181:
+            if(!var9) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var6 = var5;
- 184:
+case 12:
             var5 = _closure1_slot9;
             var5 = var5.COMPLETED_HOME_ACTIONS;
             var5 = var7.bind(var8)(var6, var5);
             var1 = !var5;
- 203:
-            if(!var1) { _fun0001_ip = 234; continue _fun0001 }
- 206:
+case 8:
+            if(!var1) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var8 = _closure1_slot6;
             var7 = var8.hasMemberAction;
             var6 = var3.id;
             var5 = var2.id;
             var1 = var7.bind(var8)(var6, var5);
- 234:
-            if(!var1) { _fun0001_ip = 268; continue _fun0001 }
- 237:
+case 14:
+            if(!var1) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var5 = _closure1_slot7;
             var4 = var5.hasCompletedActionForChannel;
             var3 = var3.id;
             var2 = var2.id;
             var2 = var4.bind(var5)(var3, var2);
             var1 = !var2;
- 268:
+case 16:
             return var1;
         }
     };

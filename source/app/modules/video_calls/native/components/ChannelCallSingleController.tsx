@@ -52,7 +52,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var7 = var2.selectedParticipant;
             var _closure2_slot0 = var7;
@@ -112,22 +112,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var7.type;
             var1 = _closure1_slot7;
             var1 = var1.STREAM;
-            if(!(var1 !== var2)) { _fun0001_ip = 263; continue _fun0001 }
- 136:
+            if(!(var1 !== var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = _closure1_slot7;
             var1 = var1.USER;
-            if(!(var1 !== var2)) { _fun0001_ip = 220; continue _fun0001 }
- 150:
+            if(!(var1 !== var2)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = _closure1_slot7;
             var1 = var1.HIDDEN_STREAM;
-            if(!(var1 !== var2)) { _fun0001_ip = 216; continue _fun0001 }
- 164:
+            if(!(var1 !== var2)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var1 = _closure1_slot7;
             var1 = var1.ACTIVITY;
-            if(!(var1 !== var2)) { _fun0001_ip = 180; continue _fun0001 }
- 178:
+            if(!(var1 !== var2)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             return var5;
- 180:
+case 8:
             var1 = global;
             var4 = var1.Error;
             var1 = var4.prototype;
@@ -137,10 +137,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = new var12[var4](var11, var10);
             var1 = var1 instanceof Object ? var1 : var2;
             throw var1;
- 216:
+case 6:
             var1 = null;
             return var1;
- 220:
+case 4:
             var4 = _closure1_slot8;
             var2 = _closure1_slot1;
             var9 = _closure1_slot2;
@@ -152,7 +152,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['channel'] = var6;
             var1 = var4.bind(var5)(var2, var1);
             return var1;
- 263:
+case 2:
             var1 = var7.user;
             var9 = var1.id;
             var2 = _closure1_slot5;
@@ -160,27 +160,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var1.bind(var2)();
             var1 = null;
             var3 = var1 != var3;
-            if(!var3) { _fun0001_ip = 354; continue _fun0001 }
- 296:
+            if(!var3) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var4 = _closure1_slot8;
             var3 = _closure1_slot1;
-            if(!(var9 !== var2)) { _fun0001_ip = 321; continue _fun0001 }
- 308:
+            if(!(var9 !== var2)) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var9 = _closure1_slot2;
             var2 = 10;
             var2 = var9[var2];
-            _fun0001_ip = 332; continue _fun0001;
- 321:
+            _fun0001_ip = 14; continue _fun0001;
+case 12:
             var9 = _closure1_slot2;
             var8 = 9;
             var2 = var9[var8];
- 332:
+case 14:
             var3 = var3.bind(var5)(var2);
             var2 = {};
             var2['participant'] = var7;
             var2['channel'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 354:
+case 10:
             return var1;
         }
     };

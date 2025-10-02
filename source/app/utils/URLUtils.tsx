@@ -11,80 +11,80 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot3 = var6;
     var13 = function isOriginalContentTypeDifferent(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var2 = arg2;
             var4 = null;
             var1 = var4 != var3;
-            if(!var1) { _fun0001_ip = 19; continue _fun0001 }
- 15:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var4 != var2;
- 19:
-            if(!var1) { _fun0001_ip = 26; continue _fun0001 }
- 22:
+case 2:
+            if(!var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = var3 !== var2;
- 26:
+case 4:
             return var1;
         }
     };
     var _closure1_slot9 = var13;
     var12 = function isDiscordHostname(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var7 = arg1;
             var3 = arguments[1];
             var1 = undefined;
-            if(!(var3 === var1)) { _fun0002_ip = 14; continue _fun0002 }
- 12:
+            if(!(var3 === var1)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var3 = false;
- 14:
+case 6:
             var1 = null;
             var1 = var1 != var7;
-            if(!var1) { _fun0002_ip = 76; continue _fun0002 }
- 23:
+            if(!var1) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var5 = _closure1_slot5;
             var2 = var5.test;
             var2 = var2.bind(var5)(var7);
-            if(var2) { _fun0002_ip = 73; continue _fun0002 }
- 43:
-            if(!var3) { _fun0002_ip = 70; continue _fun0002 }
- 46:
+            if(var2) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
+            if(!var3) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
             var6 = _closure1_slot8;
             var5 = var6.has;
             var4 = var7.toLowerCase;
             var4 = var4.bind(var7)();
             var3 = var5.bind(var6)(var4);
- 70:
+case 12:
             var2 = var3;
- 73:
+case 10:
             var1 = var2;
- 76:
+case 8:
             return var1;
         }
     };
     var _closure1_slot10 = var12;
     var11 = function isDiscordProtocol(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var3 = arg1;
             var1 = null;
             var1 = var1 != var3;
-            if(!var1) { _fun0003_ip = 22; continue _fun0003 }
- 12:
+            if(!var1) { _fun0003_ip = 5; continue _fun0003 }
+case 7:
             var2 = 'discord:';
             var1 = var2 === var3;
- 22:
+case 5:
             return var1;
         }
     };
     var _closure1_slot11 = var11;
     var8 = function isDiscordDirectAssetUrl(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var4 = arg1;
             var1 = null;
-            if(!(var1 != var4)) { _fun0004_ip = 199; continue _fun0004 }
- 12:
+            if(!(var1 != var4)) { _fun0004_ip = 14; continue _fun0004 }
+case 7:
             var3 = _closure1_slot1;
             var6 = _closure1_slot3;
             var2 = 3;
@@ -94,8 +94,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.toURLSafe;
             var4 = var2.bind(var3)(var4);
             var1 = var1 != var4;
-            if(!var1) { _fun0004_ip = 197; continue _fun0004 }
- 58:
+            if(!var1) { _fun0004_ip = 15; continue _fun0004 }
+case 16:
             var3 = _closure1_slot0;
             var7 = _closure1_slot3;
             var2 = 4;
@@ -104,41 +104,41 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.isDiscordBackendDevelopment;
             var2 = var2.bind(var3)();
             var3 = !var2;
-            if(var3) { _fun0004_ip = 132; continue _fun0004 }
- 94:
+            if(var3) { _fun0004_ip = 17; continue _fun0004 }
+case 18:
             var6 = var4.hostname;
             var2 = 'localhost';
             var2 = var2 !== var6;
-            if(!var2) { _fun0004_ip = 129; continue _fun0004 }
- 113:
+            if(!var2) { _fun0004_ip = 19; continue _fun0004 }
+case 20:
             var7 = var4.hostname;
             var6 = '127.0.0.1';
             var2 = var6 !== var7;
- 129:
+case 19:
             var3 = var2;
- 132:
+case 17:
             var2 = !var3;
-            if(!var3) { _fun0004_ip = 194; continue _fun0004 }
- 138:
+            if(!var3) { _fun0004_ip = 21; continue _fun0004 }
+case 22:
             var6 = var4.hostname;
             var3 = global;
             var3 = var3.window;
             var3 = var3.GLOBAL_ENV;
             var3 = var3.CDN_HOST;
             var3 = var6 === var3;
-            if(var3) { _fun0004_ip = 191; continue _fun0004 }
- 171:
+            if(var3) { _fun0004_ip = 23; continue _fun0004 }
+case 24:
             var6 = _closure1_slot6;
             var5 = var6.test;
             var4 = var4.hostname;
             var3 = var5.bind(var6)(var4);
- 191:
+case 23:
             var2 = var3;
- 194:
+case 21:
             var1 = var2;
- 197:
+case 15:
             return var1;
- 199:
+case 14:
             var1 = false;
             return var1;
         }
@@ -146,21 +146,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot12 = var8;
     var7 = function isDiscordProxiedAssetUrl(arg1, arg2, arg3) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
             var5 = arg1;
             var3 = _closure1_slot9;
             var6 = undefined;
             var2 = arg2;
             var1 = arg3;
             var1 = var3.bind(var6)(var2, var1);
-            if(var1) { _fun0005_ip = 31; continue _fun0005 }
- 27:
+            if(var1) { _fun0005_ip = 25; continue _fun0005 }
+case 26:
             var1 = false;
             return var1;
- 31:
+case 25:
             var1 = null;
-            if(!(var1 != var5)) { _fun0005_ip = 205; continue _fun0005 }
- 40:
+            if(!(var1 != var5)) { _fun0005_ip = 27; continue _fun0005 }
+case 28:
             var3 = _closure1_slot1;
             var7 = _closure1_slot3;
             var2 = 3;
@@ -169,8 +169,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.toURLSafe;
             var3 = var2.bind(var3)(var5);
             var1 = var1 != var3;
-            if(!var1) { _fun0005_ip = 203; continue _fun0005 }
- 81:
+            if(!var1) { _fun0005_ip = 29; continue _fun0005 }
+case 30:
             var5 = _closure1_slot0;
             var7 = _closure1_slot3;
             var2 = 4;
@@ -179,37 +179,37 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var5.isDiscordBackendDevelopment;
             var2 = var2.bind(var5)();
             var5 = !var2;
-            if(var5) { _fun0005_ip = 155; continue _fun0005 }
- 117:
+            if(var5) { _fun0005_ip = 31; continue _fun0005 }
+case 32:
             var6 = var3.hostname;
             var2 = 'localhost';
             var2 = var2 !== var6;
-            if(!var2) { _fun0005_ip = 152; continue _fun0005 }
- 136:
+            if(!var2) { _fun0005_ip = 33; continue _fun0005 }
+case 34:
             var7 = var3.hostname;
             var6 = '127.0.0.1';
             var2 = var6 !== var7;
- 152:
+case 33:
             var5 = var2;
- 155:
-            if(var5) { _fun0005_ip = 174; continue _fun0005 }
- 158:
+case 31:
+            if(var5) { _fun0005_ip = 35; continue _fun0005 }
+case 36:
             var6 = var3.port;
             var2 = '4000';
             var5 = var2 !== var6;
- 174:
+case 35:
             var2 = !var5;
-            if(!var5) { _fun0005_ip = 200; continue _fun0005 }
- 180:
+            if(!var5) { _fun0005_ip = 37; continue _fun0005 }
+case 38:
             var5 = _closure1_slot7;
             var4 = var5.test;
             var3 = var3.hostname;
             var2 = var4.bind(var5)(var3);
- 200:
+case 37:
             var1 = var2;
- 203:
+case 29:
             return var1;
- 205:
+case 27:
             var1 = false;
             return var1;
         }
@@ -217,17 +217,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot13 = var7;
     var10 = function isDiscordUrl(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
- 0:
+case 0:
             var7 = arg1;
             var4 = arguments[1];
             var3 = undefined;
-            if(!(var4 === var3)) { _fun0006_ip = 14; continue _fun0006 }
- 12:
+            if(!(var4 === var3)) { _fun0006_ip = 6; continue _fun0006 }
+case 7:
             var4 = false;
- 14:
+case 6:
             var5 = null;
-            if(!(var5 != var7)) { _fun0006_ip = 86; continue _fun0006 }
- 20:
+            if(!(var5 != var7)) { _fun0006_ip = 39; continue _fun0006 }
+case 40:
             var6 = _closure1_slot1;
             var8 = _closure1_slot3;
             var2 = 3;
@@ -237,19 +237,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var2.bind(var6)(var7);
             var7 = var5 == var6;
             var2 = undefined;
-            if(var7) { _fun0006_ip = 69; continue _fun0006 }
- 63:
+            if(var7) { _fun0006_ip = 41; continue _fun0006 }
+case 42:
             var2 = var6.hostname;
- 69:
-            if(!(var5 != var2)) { _fun0006_ip = 86; continue _fun0006 }
- 73:
+case 41:
+            if(!(var5 != var2)) { _fun0006_ip = 39; continue _fun0006 }
+case 10:
             var1 = _closure1_slot10;
             var1 = var1.bind(var3)(var2, var4);
-            if(var1) { _fun0006_ip = 90; continue _fun0006 }
- 86:
+            if(var1) { _fun0006_ip = 43; continue _fun0006 }
+case 39:
             var1 = false;
             return var1;
- 90:
+case 43:
             var1 = true;
             return var1;
         }
@@ -257,12 +257,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot14 = var10;
     var9 = function isDiscordUri(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
- 0:
+case 0:
             var6 = arg1;
             var1 = null;
             var1 = var1 != var6;
-            if(!var1) { _fun0007_ip = 63; continue _fun0007 }
- 12:
+            if(!var1) { _fun0007_ip = 42; continue _fun0007 }
+case 7:
             var4 = _closure1_slot11;
             var5 = _closure1_slot2;
             var3 = _closure1_slot3;
@@ -274,7 +274,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.bind(var5)(var6);
             var2 = var2.protocol;
             var1 = var4.bind(var3)(var2);
- 63:
+case 42:
             return var1;
         }
     };
@@ -346,11 +346,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['URL_REGEX'] = var14;
     var14 = function makeUrl(arg1, arg2) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
- 0:
+case 0:
             var2 = arg2;
             var1 = null;
             if(!(var1 == var2)) { _fun0008_ip = 44; continue _fun0008 }
- 9:
+case 45:
             var4 = _closure1_slot0;
             var3 = _closure1_slot3;
             var1 = 4;
@@ -359,18 +359,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.bind(var1)(var3);
             var1 = var3.isDiscordFrontendDevelopment;
             var2 = var1.bind(var3)();
- 44:
+case 44:
             var1 = global;
-            if(var2) { _fun0008_ip = 63; continue _fun0008 }
- 49:
+            if(var2) { _fun0008_ip = 42; continue _fun0008 }
+case 46:
             var2 = var1.location;
             var6 = var2.host;
-            _fun0008_ip = 81; continue _fun0008;
- 63:
+            _fun0008_ip = 30; continue _fun0008;
+case 42:
             var2 = var1.window;
             var2 = var2.GLOBAL_ENV;
             var6 = var2.INVITE_HOST;
- 81:
+case 30:
             var2 = var1.location;
             var10 = var2.protocol;
             var1 = var1.HermesInternal;
@@ -388,23 +388,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['isDiscordHostname'] = var12;
     var12 = function isDiscordLocalhost(arg1, arg2) {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
- 0:
+case 0:
             var3 = arg1;
             var4 = null;
             var1 = var4 != var3;
-            if(!var1) { _fun0009_ip = 19; continue _fun0009 }
- 12:
+            if(!var1) { _fun0009_ip = 2; continue _fun0009 }
+case 7:
             var2 = arg2;
             var1 = var4 != var2;
- 19:
-            if(!var1) { _fun0009_ip = 45; continue _fun0009 }
- 22:
+case 2:
+            if(!var1) { _fun0009_ip = 47; continue _fun0009 }
+case 5:
             var2 = global;
             var2 = var2.window;
             var2 = var2.location;
             var2 = var2.host;
             var1 = var2 === var3;
- 45:
+case 47:
             return var1;
         }
     };
@@ -414,12 +414,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['isDiscordUri'] = var9;
     var9 = function isDiscordCdnUrl(arg1) {
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
- 0:
+case 0:
             var4 = arg1;
             var1 = null;
             var1 = var1 != var4;
-            if(!var1) { _fun0010_ip = 78; continue _fun0010 }
- 12:
+            if(!var1) { _fun0010_ip = 48; continue _fun0010 }
+case 7:
             var5 = _closure1_slot2;
             var3 = _closure1_slot3;
             var2 = 2;
@@ -434,7 +434,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.GLOBAL_ENV;
             var2 = var2.CDN_HOST;
             var1 = var3 === var2;
- 78:
+case 48:
             return var1;
         }
     };
@@ -443,58 +443,58 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['isDiscordProxiedAssetUrl'] = var7;
     var7 = function isDiscordAssetUrl(arg1, arg2, arg3) {
         _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
- 0:
+case 0:
             var6 = arg1;
             var1 = _closure1_slot12;
             var5 = undefined;
             var1 = var1.bind(var5)(var6);
             var3 = !var1;
             var1 = !var3;
-            if(!var3) { _fun0011_ip = 49; continue _fun0011 }
- 26:
+            if(!var3) { _fun0011_ip = 46; continue _fun0011 }
+case 4:
             var4 = _closure1_slot13;
             var3 = arg2;
             var2 = arg3;
             var2 = var4.bind(var5)(var6, var3, var2);
             var2 = !var2;
             var1 = !var2;
- 49:
+case 46:
             return var1;
         }
     };
     var2['isDiscordAssetUrl'] = var7;
     var7 = function isDiscordUrlOrUri(arg1) {
         _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
- 0:
+case 0:
             var4 = arg1;
             var1 = _closure1_slot14;
             var3 = undefined;
             var1 = var1.bind(var3)(var4);
-            if(var1) { _fun0012_ip = 29; continue _fun0012 }
- 20:
+            if(var1) { _fun0012_ip = 49; continue _fun0012 }
+case 40:
             var2 = _closure1_slot15;
             var1 = var2.bind(var3)(var4);
- 29:
+case 49:
             return var1;
         }
     };
     var2['isDiscordUrlOrUri'] = var7;
     var7 = function isAppRoute(arg1) {
         _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = var2.toLowerCase;
             var4 = var1.bind(var2)();
             var2 = var4.startsWith;
             var1 = '/channels/';
             var1 = var2.bind(var4)(var1);
-            if(var1) { _fun0013_ip = 57; continue _fun0013 }
- 33:
+            if(var1) { _fun0013_ip = 50; continue _fun0013 }
+case 51:
             var3 = var4.startsWith;
             var2 = _closure1_slot4;
             var2 = var2.ACTIVITY;
             var1 = var3.bind(var4)(var2);
- 57:
+case 50:
             return var1;
         }
     };
@@ -558,9 +558,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['formatSearch'] = var7;
     var7 = function safeParseWithQuery(arg1) {
         _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
- 0:
+case 0:
             var1 = arg1;
- 3: // try_start_0
+case 52: // try_start_0
             var4 = _closure1_slot2;
             var3 = _closure1_slot3;
             var2 = 2;
@@ -571,9 +571,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var1;
             var1 = true;
             var1 = var3.bind(var4)(var2, var1);
- 45: // try_end0
+case 47: // try_end0
             return var1;
- 47: // catch_target0
+case 53: // catch_target0
             CatchBlockStart(arg_register=0);
             var1 = null;
             return var1;
@@ -582,10 +582,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['safeParseWithQuery'] = var7;
     var7 = function toURLSafe(arg1, arg2) {
         _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = arg2;
- 6: // try_start_0
+case 54: // try_start_0
             var3 = global;
             var4 = var3.URL;
             var6 = var2;
@@ -595,9 +595,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var2;
             var1 = new var7[var4](var6, var5, var4);
             var1 = var1 instanceof Object ? var1 : var2;
- 40: // try_end0
+case 28: // try_end0
             return var1;
- 42: // catch_target0
+case 55: // catch_target0
             CatchBlockStart(arg_register=0);
             var1 = null;
             return var1;
@@ -606,17 +606,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['toURLSafe'] = var7;
     var4 = function safeDecodeURIComponent(arg1) {
         _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
- 0:
+case 0:
             var1 = arg1;
- 3: // try_start_0
+case 52: // try_start_0
             var2 = global;
             var3 = var2.decodeURIComponent;
             var2 = var1;
             var1 = undefined;
             var1 = var3.bind(var1)(var2);
- 21: // try_end0
+case 56: // try_end0
             return var1;
- 23: // catch_target0
+case 9: // catch_target0
             CatchBlockStart(arg_register=0);
             var1 = null;
             return var1;

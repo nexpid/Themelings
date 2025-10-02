@@ -90,7 +90,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['useValue'] = var7;
     var7 = function onFriendRequestsEveryoneSettingValueChange(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
             var1 = 4;
@@ -101,16 +101,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.updateSetting;
             var5 = _closure1_slot3;
             var6 = arg1;
-            if(var6) { _fun0001_ip = 66; continue _fun0001 }
- 47:
+            if(var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = _closure1_slot4;
             var2 = var2.NO_RELATION;
             var2 = ~var2;
             var2 = var5 & var2;
-            _fun0001_ip = 69; continue _fun0001;
- 66:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var2 = var5;
- 69:
+case 4:
             var2 = var3.bind(var4)(var2);
             return var1;
         }

@@ -27,15 +27,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function getGuildProductPurchaseSystemMessageContentMobile(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var7 = var1.username;
             var6 = var1.usernameOnClickHandler;
             var8 = undefined;
-            if(!(var6 === var8)) { _fun0001_ip = 27; continue _fun0001 }
- 20:
+            if(!(var6 === var8)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = _closure1_slot2;
- 27:
+case 2:
             var5 = var1.productName;
             var2 = _closure1_slot0;
             var9 = _closure1_slot1;

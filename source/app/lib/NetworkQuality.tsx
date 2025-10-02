@@ -8,22 +8,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var6;
     var1 = function round(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var1 = arguments[1];
             var2 = undefined;
-            if(!(var1 === var2)) { _fun0001_ip = 14; continue _fun0001 }
- 12:
+            if(!(var1 === var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = 0;
- 14:
+case 2:
             var2 = null;
-            if(!(var2 != var4)) { _fun0001_ip = 38; continue _fun0001 }
- 20:
+            if(!(var2 != var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = global;
             var3 = var2.Math;
             var2 = var3.round;
             var1 = var2.bind(var3)(var4);
- 38:
+case 4:
             return var1;
         }
     };
@@ -204,7 +204,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var5 = function value(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var2 = arg1;
                 var1 = this;
                 var3 = var1._lastSampleTimestamp;
@@ -216,21 +216,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = var4.bind(var5)();
                 var4 = _closure1_slot6;
                 var4 = var4.SLOW_TWO_G;
-                if(!(var7 === var4)) { _fun0002_ip = 67; continue _fun0002 }
- 57:
+                if(!(var7 === var4)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                 var4 = _closure1_slot6;
                 var7 = var4.TWO_G;
- 67:
+case 6:
                 var5 = _closure1_slot4;
                 var4 = var5.getType;
                 var5 = var4.bind(var5)();
                 var4 = _closure1_slot5;
                 var4 = var4.WIMAX;
-                if(!(var5 === var4)) { _fun0002_ip = 105; continue _fun0002 }
- 95:
+                if(!(var5 === var4)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                 var3 = _closure1_slot5;
                 var5 = var3.WIFI;
- 105:
+case 8:
                 var3 = var1._networkStats;
                 var4 = var3.effectiveConnectionSpeedBuckets;
                 var3 = var4[var7];

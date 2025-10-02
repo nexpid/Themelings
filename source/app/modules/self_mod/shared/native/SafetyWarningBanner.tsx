@@ -58,15 +58,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[4] = var1;
         var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var2 = _closure2_slot4;
                 var1 = null;
-                if(!(var1 != var2)) { _fun0001_ip = 23; continue _fun0001 }
- 13:
+                if(!(var1 != var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var2 = _closure2_slot4;
                 var1 = undefined;
                 var1 = var2.bind(var1)();
- 23:
+case 2:
                 var6 = _closure1_slot0;
                 var7 = _closure1_slot2;
                 var5 = 7;
@@ -210,7 +210,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10 = var11.map;
         var9 = function(arg1, arg2) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var5 = _closure1_slot7;
                 var3 = _closure1_slot0;
@@ -227,10 +227,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = null;
                 var8 = var6 != var7;
                 var6 = 'primary';
-                if(!var8) { _fun0002_ip = 69; continue _fun0002 }
- 66:
+                if(!var8) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                 var6 = var7;
- 69:
+case 4:
                 var2['variant'] = var6;
                 var6 = var1.text;
                 var2['text'] = var6;

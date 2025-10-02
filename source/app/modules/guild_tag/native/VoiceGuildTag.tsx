@@ -1,7 +1,7 @@
 // app/modules/guild_tag/native/VoiceGuildTag.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
         var5 = require;
         var15 = metroImportDefault;
         var3 = exports;
@@ -58,10 +58,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var14 = var16.isAndroid;
         var16 = var14.bind(var16)();
         var14 = 10;
-        if(!var16) { _fun0001_ip = 228; continue _fun0001 }
- 225:
+        if(!var16) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
         var14 = 14;
- 228:
+case 2:
         var9['height'] = var14;
         var4['gapContainer'] = var9;
         var9 = {'alignItems': 'center', 'justifyContent': 'center', 'flexDirection': 'row', 'backgroundColor': null, 'borderRadius': 4, 'paddingHorizontal': 4, 'paddingVertical': null, 'height': 16};
@@ -76,10 +76,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var14 = var15.isAndroid;
         var14 = var14.bind(var15)();
         var10 = 0;
-        if(!var14) { _fun0001_ip = 306; continue _fun0001 }
- 303:
+        if(!var14) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
         var10 = var13;
- 306:
+case 4:
         var9['paddingVertical'] = var10;
         var10 = 16;
         var4['tagContainer'] = var9;
@@ -89,10 +89,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var12 = var5.bind(var1)(var11);
         var11 = var12.isAndroid;
         var11 = var11.bind(var12)();
-        if(!var11) { _fun0001_ip = 351; continue _fun0001 }
- 348:
+        if(!var11) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
         var10 = 13;
- 351:
+case 6:
         var9['lineHeight'] = var10;
         var4['tag'] = var9;
         var9 = {'width': 4, 'height': 4};
@@ -107,28 +107,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var5.bind(var6)(var4);
         var2 = function VoiceGuildTagChiplet(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var2 = arg1;
                 var7 = var2.primaryGuild;
                 var9 = var2.userId;
                 var _closure2_slot0 = var9;
                 var22 = var2.badgeSize;
                 var5 = undefined;
-                if(!(var22 === var5)) { _fun0002_ip = 45; continue _fun0002 }
- 32:
+                if(!(var22 === var5)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                 var3 = _closure1_slot5;
                 var22 = var3.SIZE_12;
- 45:
+case 8:
                 var20 = var2.textVariant;
-                if(!(var20 === var5)) { _fun0002_ip = 61; continue _fun0002 }
- 55:
+                if(!(var20 === var5)) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
                 var20 = 'text-xs/semibold';
- 61:
+case 10:
                 var19 = var2.textColor;
-                if(!(var19 === var5)) { _fun0002_ip = 77; continue _fun0002 }
- 71:
+                if(!(var19 === var5)) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
                 var19 = 'text-normal';
- 77:
+case 12:
                 var18 = var2.textStyle;
                 var12 = var2.containerStyles;
                 var2 = _closure1_slot8;
@@ -155,14 +155,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = null;
                 var4 = var1 == var3;
                 var2 = undefined;
-                if(var4) { _fun0002_ip = 176; continue _fun0002 }
- 170:
+                if(var4) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
                 var2 = var3.primaryGuild;
- 176:
-                if(!(var1 != var2)) { _fun0002_ip = 183; continue _fun0002 }
- 180:
+case 14:
+                if(!(var1 != var2)) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
                 var7 = var2;
- 183:
+case 16:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot1;
                 var2 = 9;
@@ -173,10 +173,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var16 = var3.tag;
                 var7 = var3.badge;
                 var4 = var3.guildId;
-                if(!(var1 != var4)) { _fun0002_ip = 524; continue _fun0002 }
- 237:
-                if(!(var1 != var16)) { _fun0002_ip = 524; continue _fun0002 }
- 244:
+                if(!(var1 != var4)) { _fun0002_ip = 18; continue _fun0002 }
+case 19:
+                if(!(var1 != var16)) { _fun0002_ip = 18; continue _fun0002 }
+case 20:
                 var15 = _closure1_slot0;
                 var21 = _closure1_slot1;
                 var2 = var21[var2];
@@ -244,7 +244,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2['children'] = var6;
                 var2 = var4.bind(var5)(var3, var2);
                 return var2;
- 524:
+case 18:
                 return var1;
             }
         };

@@ -49,31 +49,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['REPORT_RAID_OPTIONS'] = var4;
     var2 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var2 = _closure1_slot2;
             var2 = var2.DM_SPAM;
-            if(!(var2 !== var3)) { _fun0001_ip = 329; continue _fun0001 }
- 23:
+            if(!(var2 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = _closure1_slot2;
             var2 = var2.MENTION_SPAM;
-            if(!(var2 !== var3)) { _fun0001_ip = 269; continue _fun0001 }
- 40:
+            if(!(var2 !== var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = _closure1_slot2;
             var2 = var2.MESSAGE_SPAM;
-            if(!(var2 !== var3)) { _fun0001_ip = 209; continue _fun0001 }
- 57:
+            if(!(var2 !== var3)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var2 = _closure1_slot2;
             var2 = var2.SETTINGS_SPAM;
-            if(!(var2 !== var3)) { _fun0001_ip = 149; continue _fun0001 }
- 71:
+            if(!(var2 !== var3)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var2 = _closure1_slot2;
             var2 = var2.SUSPICIOUS_USERS;
-            if(!(var2 !== var3)) { _fun0001_ip = 89; continue _fun0001 }
- 85:
+            if(!(var2 !== var3)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var2 = null;
             return var2;
- 89:
+case 10:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var2 = 0;
@@ -88,7 +88,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.lKXu+v;
             var2 = var3.bind(var4)(var2);
             return var2;
- 149:
+case 8:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var2 = 0;
@@ -103,7 +103,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.ETFVFx;
             var2 = var3.bind(var4)(var2);
             return var2;
- 209:
+case 6:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var2 = 0;
@@ -118,7 +118,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.fwloj4;
             var2 = var3.bind(var4)(var2);
             return var2;
- 269:
+case 4:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var2 = 0;
@@ -133,7 +133,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.hR/IdH;
             var2 = var3.bind(var4)(var2);
             return var2;
- 329:
+case 2:
             var5 = _closure1_slot0;
             var6 = _closure1_slot1;
             var1 = 0;

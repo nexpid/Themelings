@@ -69,7 +69,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function EmojiPickerCategoriesBackdrop() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = _closure1_slot5;
             var5 = undefined;
             var7 = var1.bind(var5)();
@@ -82,8 +82,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.bind(var3)();
             var4 = _closure1_slot4;
             var3 = _closure1_slot3;
-            if(var1) { _fun0001_ip = 115; continue _fun0001 }
- 53:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = {};
             var6 = var7.backdrop;
             var1['style'] = var6;
@@ -98,8 +98,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4.bind(var5)(var6, var2);
             var1['children'] = var2;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0001_ip = 151; continue _fun0001;
- 115:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var2 = {};
             var8 = var7.backdrop;
             var6 = new Array(2);
@@ -108,7 +108,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[1] = var7;
             var2['style'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 151:
+case 4:
             return var1;
         }
     };

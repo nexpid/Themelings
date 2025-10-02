@@ -37,7 +37,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function usePreviewDisabledGuild(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var9 = arg1;
             var _closure2_slot0 = var9;
             var5 = _closure1_slot0;
@@ -66,7 +66,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5[0] = var4;
             var4 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = _closure1_slot5;
                     var2 = var3.get;
                     var1 = _closure2_slot0;
@@ -74,10 +74,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = null;
                     var3 = var1 == var2;
                     var1 = undefined;
-                    if(var3) { _fun0002_ip = 40; continue _fun0002 }
- 35:
+                    if(var3) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var1 = var2.guild;
- 40:
+case 2:
                     return var1;
                 }
             };
@@ -88,11 +88,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4[0] = var9;
             var2 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var3 = _closure2_slot0;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0003_ip = 53; continue _fun0003 }
- 13:
+                    if(!(var2 != var3)) { _fun0003_ip = 4; continue _fun0003 }
+case 5:
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
                     var2 = 4;
@@ -102,19 +102,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var3.fetchVerificationForm;
                     var1 = _closure2_slot0;
                     var1 = var2.bind(var3)(var1);
- 53:
+case 4:
                     var1 = undefined;
                     return var1;
                 }
             };
             var2 = var7.bind(var8)(var2, var4);
             var2 = null;
-            if(!(var2 == var1)) { _fun0001_ip = 182; continue _fun0001 }
- 139:
+            if(!(var2 == var1)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var4 = var2 != var5;
             var2 = null;
-            if(!var4) { _fun0001_ip = 179; continue _fun0001 }
- 148:
+            if(!var4) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var4 = _closure1_slot0;
             var7 = _closure1_slot2;
             var3 = 5;
@@ -122,9 +122,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.bind(var6)(var3);
             var3 = var4.fromVerificationGateGuild;
             var2 = var3.bind(var4)(var5);
- 179:
+case 8:
             var1 = var2;
- 182:
+case 6:
             return var1;
         }
     };

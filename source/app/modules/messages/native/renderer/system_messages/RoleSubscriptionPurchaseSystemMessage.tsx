@@ -37,13 +37,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function createRoleSubscriptionPurchaseSystemMessage(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arg1;
             var6 = var5.message;
             var11 = var6.roleSubscriptionData;
             var1 = null;
-            if(!(var1 != var11)) { _fun0001_ip = 733; continue _fun0001 }
- 23:
+            if(!(var1 != var11)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var6.author;
             var8 = _closure1_slot3;
             var7 = var8.getChannel;
@@ -53,11 +53,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var1 == var12;
             var4 = undefined;
             var7 = undefined;
-            if(var8) { _fun0001_ip = 77; continue _fun0001 }
- 67:
+            if(var8) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var8 = var12.getGuildId;
             var7 = var8.bind(var12)();
- 77:
+case 4:
             var9 = _closure1_slot4;
             var8 = var9.getGuild;
             var8 = var8.bind(var9)(var7);
@@ -73,21 +73,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var1 != var7;
             var18 = var7;
             var7 = undefined;
-            if(!var9) { _fun0001_ip = 300; continue _fun0001 }
- 149:
+            if(!var9) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var9 = var1 != var12;
             var7 = undefined;
-            if(!var9) { _fun0001_ip = 300; continue _fun0001 }
- 161:
+            if(!var9) { _fun0001_ip = 6; continue _fun0001 }
+case 8:
             var13 = var1 != var8;
-            if(!var13) { _fun0001_ip = 191; continue _fun0001 }
- 168:
+            if(!var13) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var9 = var8.systemChannelFlags;
             var8 = _closure1_slot5;
             var8 = var8.SUPPRESS_ROLE_SUBSCRIPTION_PURCHASE_NOTIFICATION_REPLIES;
             var8 = var9 & var8;
             var13 = !var8;
- 191:
+case 9:
             var9 = _closure1_slot0;
             var14 = _closure1_slot2;
             var8 = 4;
@@ -101,8 +101,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var20 = var13;
             var8 = var24[var8](var23, var22, var21, var20, var19);
             var7 = undefined;
-            if(!var8) { _fun0001_ip = 300; continue _fun0001 }
- 241:
+            if(!var8) { _fun0001_ip = 6; continue _fun0001 }
+case 11:
             var14 = _closure1_slot0;
             var15 = _closure1_slot2;
             var8 = 5;
@@ -116,21 +116,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var6.id;
             var8 = var14.bind(var15)(var8);
             var7 = var9.bind(var13)(var8);
- 300:
+case 6:
             var9 = _closure1_slot0;
             var13 = _closure1_slot2;
             var8 = 7;
             var8 = var13[var8];
             var13 = var9.bind(var4)(var8);
             var9 = var13.ensureAvatarSource;
-            if(!(var1 != var17)) { _fun0001_ip = 334; continue _fun0001 }
- 330:
-            if(!(var1 == var18)) { _fun0001_ip = 347; continue _fun0001 }
- 334:
+            if(!(var1 != var17)) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
+            if(!(var1 == var18)) { _fun0001_ip = 14; continue _fun0001 }
+case 12:
             var8 = var2.getAvatarSource;
             var8 = var8.bind(var2)(var4);
-            _fun0001_ip = 399; continue _fun0001;
- 347:
+            _fun0001_ip = 15; continue _fun0001;
+case 14:
             var15 = _closure1_slot0;
             var16 = _closure1_slot2;
             var14 = 8;
@@ -143,7 +143,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14['avatar'] = var17;
             var14['guildId'] = var18;
             var8 = var15.bind(var16)(var14, var2);
- 399:
+case 15:
             var9 = var9.bind(var13)(var8);
             var15 = {};
             var8 = 'bindOpenRoleSubscriptionOverview';
@@ -153,18 +153,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15['messageId'] = var8;
             var13 = var1 == var12;
             var8 = undefined;
-            if(var13) { _fun0001_ip = 443; continue _fun0001 }
- 438:
+            if(var13) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var8 = var12.id;
- 443:
+case 16:
             var15['channelId'] = var8;
             var12 = var6.roleSubscriptionData;
             var13 = var1 == var12;
             var8 = undefined;
-            if(var13) { _fun0001_ip = 468; continue _fun0001 }
- 462:
+            if(var13) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
             var8 = var12.role_subscription_listing_id;
- 468:
+case 18:
             var15['roleSubscriptionListingId'] = var8;
             var16 = {};
             var8 = 'bindUserMenu';
@@ -184,10 +184,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12['username'] = var10;
             var19 = var1 != var18;
             var17 = undefined;
-            if(!var19) { _fun0001_ip = 550; continue _fun0001 }
- 547:
+            if(!var19) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
             var17 = var18;
- 550:
+case 20:
             var12['guildId'] = var17;
             var12['usernameOnClickHandler'] = var16;
             var12['roleSubscriptionOnClickHandler'] = var15;
@@ -228,7 +228,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var23 = var2;
             var3 = copyDataProperties(var23, var22);
             return var2;
- 733:
+case 2:
             return var1;
         }
     };

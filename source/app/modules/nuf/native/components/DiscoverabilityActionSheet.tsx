@@ -99,7 +99,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function DiscoverabilityActionSheet() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = _closure1_slot10;
             var4 = undefined;
             var19 = var1.bind(var4)();
@@ -110,10 +110,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var1.allowEmail;
             var _closure2_slot1 = var14;
             var15 = var20;
-            if(var15) { _fun0001_ip = 52; continue _fun0001 }
- 49:
+            if(var15) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var15 = var14;
- 52:
+case 2:
             var _closure2_slot2 = var15;
             var5 = _closure1_slot2;
             var3 = var5.useCallback;

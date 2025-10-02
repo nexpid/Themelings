@@ -3,7 +3,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3 = exports;
     var4 = function insertionIndex(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var9 = arg1;
             var8 = arg2;
             var7 = arg3;
@@ -14,22 +14,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = undefined;
             var2 = 0;
             var1 = 0;
-            if(!var10) { _fun0001_ip = 74; continue _fun0001 }
- 32:
+            if(!var10) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var10 = var2 + var6;
             var11 = var10 >>> var4;
             var10 = var9[var11];
             var12 = var7.bind(var3)(var10, var8);
             var10 = var11;
-            if(!(var12 < var5)) { _fun0001_ip = 64; continue _fun0001 }
- 57:
+            if(!(var12 < var5)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = var11 + var4;
             var10 = var6;
- 64:
+case 4:
             var6 = var10;
             var1 = var2;
-            if(var1 < var6) { _fun0001_ip = 32; continue _fun0001 }
- 74:
+            if(var1 < var6) { _fun0001_ip = 3; continue _fun0001 }
+case 2:
             return var1;
         }
     };

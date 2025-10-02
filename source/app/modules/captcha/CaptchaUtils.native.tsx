@@ -28,16 +28,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = {};
     var7 = function showCaptcha(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var8 = arguments[2];
             var1 = arg2;
             var _closure2_slot0 = var1;
             var1 = undefined;
-            if(!(var8 === var1)) { _fun0001_ip = 23; continue _fun0001 }
- 21:
+            if(!(var8 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var8 = {};
- 23:
+case 2:
             var11 = var2.sitekey;
             var10 = var2.captchaService;
             var7 = var2.options;
@@ -97,14 +97,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['showCaptcha'] = var7;
     var7 = function showCaptchaAsync(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var2 = arg1;
             var4 = arguments[1];
             var3 = undefined;
-            if(!(var4 === var3)) { _fun0002_ip = 16; continue _fun0002 }
- 14:
+            if(!(var4 === var3)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var4 = {};
- 16:
+case 4:
             var _closure2_slot0 = var4;
             var _closure2_slot1 = var3;
             var _closure2_slot2 = var3;
@@ -164,7 +164,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3['onCaptchaVerify'] = var9;
                 var9 = function onReject(arg1) {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                         var4 = _closure1_slot0;
                         var1 = _closure1_slot2;
                         var5 = 6;
@@ -174,8 +174,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var3 = var3.CaptchaError;
                         var4 = var3.CANCEL;
                         var3 = arg1;
-                        if(!(var3 !== var4)) { _fun0003_ip = 120; continue _fun0003 }
- 44:
+                        if(!(var3 !== var4)) { _fun0003_ip = 6; continue _fun0003 }
+case 7:
                         var4 = _closure3_slot1;
                         var3 = global;
                         var7 = var3.Error;
@@ -191,8 +191,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var3 = new var12[var7](var11, var10);
                         var3 = var3 instanceof Object ? var3 : var6;
                         var3 = var4.bind(var1)(var3);
-                        _fun0003_ip = 175; continue _fun0003;
- 120:
+                        _fun0003_ip = 8; continue _fun0003;
+case 6:
                         var3 = _closure3_slot1;
                         var4 = _closure1_slot0;
                         var2 = _closure1_slot2;
@@ -205,7 +205,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = new var12[var2](var11);
                         var2 = var2 instanceof Object ? var2 : var4;
                         var2 = var3.bind(var1)(var2);
- 175:
+case 8:
                         return var1;
                     }
                 };

@@ -24,7 +24,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function openInstantInviteActionSheet(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var5 = _closure1_slot1;
             var3 = _closure1_slot2;
@@ -43,11 +43,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.bind(var1)(var4, var3);
             var9 = var2.vanityURLCode;
             var3 = null;
-            if(!(var3 == var9)) { _fun0001_ip = 89; continue _fun0001 }
- 79:
+            if(!(var3 == var9)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = var2.channel;
             var9 = var3.id;
- 89:
+case 2:
             var3 = global;
             var3 = var3.HermesInternal;
             var4 = var3.concat;

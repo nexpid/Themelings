@@ -194,7 +194,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['showSuccessToast'] = var7;
     var4 = function showFailedToast(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var6 = arg1;
             var5 = _closure1_slot0;
             var8 = _closure1_slot1;
@@ -208,11 +208,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.bind(var1)(var2);
             var2 = var5.getSafetyToastTypeContent;
             var8 = null;
-            if(!(var8 == var6)) { _fun0001_ip = 68; continue _fun0001 }
- 58:
+            if(!(var8 == var6)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var7 = _closure1_slot2;
             var6 = var7.GENERIC_ERROR;
- 68:
+case 2:
             var2 = var2.bind(var5)(var6);
             var2 = var3.bind(var4)(var2);
             return var1;

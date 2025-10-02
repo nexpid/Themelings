@@ -9,25 +9,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function trackRoundtrip(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arg1;
             var1 = global;
             var2 = var1.Math;
             var1 = var2.random;
             var2 = var1.bind(var2)();
             var1 = 0.1;
-            if(!(!(var2 > var1))) { _fun0001_ip = 295; continue _fun0001 }
- 38:
+            if(!(!(var2 > var1))) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var5.apiResponseTimestamp;
             var6 = null;
             var1 = var6 == var1;
             var10 = null;
-            if(var1) { _fun0001_ip = 71; continue _fun0001 }
- 55:
+            if(var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = var5.apiResponseTimestamp;
             var1 = var5.initialSendTimestamp;
             var10 = var2 - var1;
- 71:
+case 4:
             var2 = _closure1_slot0;
             var13 = _closure1_slot2;
             var1 = 4;
@@ -64,12 +64,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = 'mobile_network_type';
             var1[var7] = var9;
             var6 = var6 != var8;
-            if(!var6) { _fun0001_ip = 245; continue _fun0001 }
- 235:
+            if(!var6) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var7 = {};
             var7['mobile_signal_strength_level'] = var8;
             var6 = var7;
- 245:
+case 6:
             var15 = var1;
             var14 = var6;
             var6 = copyDataProperties(var15, var14);
@@ -80,7 +80,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = 'ad_request_id';
             var1[var5] = var6;
             var1 = var3.bind(var4)(var2, var1);
- 295:
+case 2:
             var1 = undefined;
             return var1;
         }
@@ -155,15 +155,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = undefined;
             var3 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var2 = _closure3_slot0;
                     var4 = var2.pendingRequests;
                     var3 = var4.get;
                     var2 = _closure3_slot1;
                     var4 = var3.bind(var4)(var2);
                     var2 = null;
-                    if(!(var2 != var4)) { _fun0002_ip = 71; continue _fun0002 }
- 33:
+                    if(!(var2 != var4)) { _fun0002_ip = 4; continue _fun0002 }
+case 8:
                     var3 = _closure1_slot7;
                     var2 = undefined;
                     var2 = var3.bind(var2)(var4);
@@ -172,7 +172,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var3.delete;
                     var1 = _closure3_slot1;
                     var1 = var2.bind(var3)(var1);
- 71:
+case 4:
                     var1 = undefined;
                     return var1;
                 }
@@ -189,23 +189,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var5 = function value(arg1, arg2) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var4 = arg1;
                 var1 = arg2;
                 var2 = this;
                 var8 = var1.wasSuccessful;
                 var7 = var1.adRequestId;
                 var1 = undefined;
-                if(!(var7 === var1)) { _fun0003_ip = 29; continue _fun0003 }
- 27:
+                if(!(var7 === var1)) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
                 var7 = null;
- 29:
+case 9:
                 var5 = var2.pendingRequests;
                 var3 = var5.get;
                 var6 = var3.bind(var5)(var4);
                 var3 = null;
-                if(!(var3 != var6)) { _fun0003_ip = 135; continue _fun0003 }
- 51:
+                if(!(var3 != var6)) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
                 var5 = _closure1_slot7;
                 var3 = {};
                 var11 = var3;
@@ -225,7 +225,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var2.pendingRequests;
                 var2 = var3.delete;
                 var2 = var2.bind(var3)(var4);
- 135:
+case 11:
                 return var1;
             }
         };

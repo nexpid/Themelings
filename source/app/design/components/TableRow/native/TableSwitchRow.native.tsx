@@ -37,7 +37,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function TableSwitchRow(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arg1;
             var10 = var5.value;
             var _closure2_slot0 = var10;
@@ -47,10 +47,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = var5.subLabel;
             var8 = var5.disabled;
             var4 = undefined;
-            if(!(var8 === var4)) { _fun0001_ip = 48; continue _fun0001 }
- 46:
+            if(!(var8 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var8 = false;
- 48:
+case 2:
             var13 = var5.accessibilityHint;
             var3 = {'value': 0, 'onValueChange': 0, 'label': 0, 'subLabel': 0, 'disabled': 0, 'accessibilityHint': 0};
             var14 = null;
@@ -72,19 +72,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var3.bind(var7)();
             var9 = function handleOnPress() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = _closure2_slot1;
                     var1 = null;
                     var3 = var1 == var3;
                     var4 = undefined;
                     var1 = undefined;
-                    if(var3) { _fun0002_ip = 36; continue _fun0002 }
- 20:
+                    if(var3) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var3 = _closure2_slot1;
                     var2 = _closure2_slot0;
                     var2 = !var2;
                     var1 = var3.bind(var4)(var2);
- 36:
+case 4:
                     return var1;
                 }
             };
@@ -150,10 +150,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var14 != var12;
             var16 = '';
             var15 = var16;
-            if(!var14) { _fun0001_ip = 376; continue _fun0001 }
- 373:
+            if(!var14) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var15 = var12;
- 376:
+case 6:
             var12 = global;
             var12 = var12.HermesInternal;
             var14 = var12.concat;
@@ -164,10 +164,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = 'accessibilityHint';
             var1[var12] = var13;
             var12 = undefined;
-            if(!var7) { _fun0001_ip = 428; continue _fun0001 }
- 425:
+            if(!var7) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var12 = var9;
- 428:
+case 8:
             var7 = 'onPress';
             var1[var7] = var12;
             var7 = function onAccessibilityTap() {
@@ -180,17 +180,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var2.setTimeout;
                 var2 = function() {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                         var3 = _closure2_slot1;
                         var2 = null;
-                        if(!(var2 != var3)) { _fun0003_ip = 31; continue _fun0003 }
- 13:
+                        if(!(var2 != var3)) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
                         var3 = _closure2_slot1;
                         var1 = _closure2_slot0;
                         var2 = !var1;
                         var1 = undefined;
                         var1 = var3.bind(var1)(var2);
- 31:
+case 10:
                         var1 = undefined;
                         return var1;
                     }

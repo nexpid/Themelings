@@ -182,7 +182,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function FocusModeOptionsActionSheet(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var1 = var1.onSelect;
             var _closure2_slot0 = var1;
@@ -219,8 +219,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['title'] = var11;
             var15 = null;
             var11 = null;
-            if(!var8) { _fun0001_ip = 360; continue _fun0001 }
- 161:
+            if(!var8) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var13 = _closure1_slot2;
             var17 = _closure1_slot0;
             var14 = _closure1_slot1;
@@ -269,7 +269,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var15.bind(var16)(var14);
             var8['label'] = var14;
             var11 = var13.bind(var4)(var12, var8);
- 360:
+case 2:
             var8 = new Array(2);
             var8[0] = var11;
             var11 = _closure1_slot4;

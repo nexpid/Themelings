@@ -32,7 +32,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arg1;
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -44,13 +44,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var2.bind(var3)();
             var7 = null;
             var2 = var7 != var4;
-            if(!var2) { _fun0001_ip = 57; continue _fun0001 }
- 47:
+            if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = var4.isReady;
             var2 = var3.bind(var4)();
- 57:
-            if(!var2) { _fun0001_ip = 188; continue _fun0001 }
- 63:
+case 2:
+            if(!var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = _closure1_slot1;
             var6 = _closure1_slot2;
             var2 = 3;
@@ -61,19 +61,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = 'USER_SETTINGS_MODAL_INIT';
             var2['type'] = var8;
             var8 = var5.screen;
-            if(!(var7 == var8)) { _fun0001_ip = 118; continue _fun0001 }
- 108:
+            if(!(var7 == var8)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var9 = _closure1_slot3;
             var8 = var9.OVERVIEW;
- 118:
+case 6:
             var2['section'] = var8;
             var8 = var5.subsection;
             var9 = var7 != var8;
             var7 = null;
-            if(!var9) { _fun0001_ip = 140; continue _fun0001 }
- 137:
+            if(!var9) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var7 = var8;
- 140:
+case 8:
             var2['subsection'] = var7;
             var7 = var5.analyticsLocation;
             var2['analyticsLocation'] = var7;
@@ -83,7 +83,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.navigate;
             var2 = 'settings';
             var2 = var3.bind(var4)(var2, var5);
- 188:
+case 4:
             return var1;
         }
     };

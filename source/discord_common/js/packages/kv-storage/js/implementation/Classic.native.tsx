@@ -1,7 +1,7 @@
 // discord_common/js/packages/kv-storage/js/implementation/Classic.native.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
         var4 = global;
         var5 = require;
         var3 = exports;
@@ -21,17 +21,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var2.NativeModules;
         var9 = var4.__KvStorage;
         var8 = null;
-        if(!(var8 == var9)) { _fun0001_ip = 289; continue _fun0001 }
- 78:
+        if(!(var8 == var9)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
         var9 = var2.KvStorage;
-        if(!(var8 != var9)) { _fun0001_ip = 255; continue _fun0001 }
- 91:
+        if(!(var8 != var9)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
         var9 = var2.KvStorage;
         var10 = var9.activate;
         var9 = var7.Function;
         var9 = var10 instanceof var9;
-        if(var9) { _fun0001_ip = 150; continue _fun0001 }
- 116:
+        if(var9) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
         var11 = var7.Error;
         var9 = var11.prototype;
         var10 = Object.create(var9, {constructor: {value: var11}});
@@ -40,12 +40,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = new var15[var11](var14, var13);
         var9 = var9 instanceof Object ? var9 : var10;
         throw var9;
- 150:
+case 6:
         var9 = var2.KvStorage;
         var2 = var9.activate;
         var2 = var2.bind(var9)();
-        if(var2) { _fun0001_ip = 203; continue _fun0001 }
- 169:
+        if(var2) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
         var10 = var7.Error;
         var2 = var10.prototype;
         var9 = Object.create(var2, {constructor: {value: var10}});
@@ -54,13 +54,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = new var15[var10](var14, var13);
         var2 = var2 instanceof Object ? var2 : var9;
         throw var2;
- 203:
+case 8:
         var2 = var4.__KvStorage;
-        if(!(var8 != var2)) { _fun0001_ip = 221; continue _fun0001 }
- 213:
+        if(!(var8 != var2)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
         var2 = var4.__KvStorage;
-        _fun0001_ip = 295; continue _fun0001;
- 221:
+        _fun0001_ip = 12; continue _fun0001;
+case 10:
         var10 = var7.Error;
         var8 = var10.prototype;
         var9 = Object.create(var8, {constructor: {value: var10}});
@@ -69,7 +69,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = new var15[var10](var14, var13);
         var8 = var8 instanceof Object ? var8 : var9;
         throw var8;
- 255:
+case 4:
         var9 = var7.Error;
         var7 = var9.prototype;
         var8 = Object.create(var7, {constructor: {value: var9}});
@@ -78,9 +78,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = new var15[var9](var14, var13);
         var7 = var7 instanceof Object ? var7 : var8;
         throw var7;
- 289:
+case 2:
         var2 = var4.__KvStorage;
- 295:
+case 12:
         var4 = 1;
         var4 = var6[var4];
         var6 = var5.bind(var1)(var4);

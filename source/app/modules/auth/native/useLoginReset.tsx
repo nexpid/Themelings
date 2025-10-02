@@ -36,12 +36,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = function() {
             var1 = function() {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     var3 = _closure1_slot3;
                     var2 = var3.isAuthenticated;
                     var2 = var2.bind(var3)();
-                    if(var2) { _fun0001_ip = 52; continue _fun0001 }
- 20:
+                    if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot1;
                     var1 = 2;
@@ -50,7 +50,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var3.bind(var1)(var2);
                     var1 = var2.loginReset;
                     var1 = var1.bind(var2)();
- 52:
+case 2:
                     var1 = undefined;
                     return var1;
                 }

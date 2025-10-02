@@ -61,19 +61,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = undefined;
                 var2 = function(arg1) {
                     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                         var4 = arg1;
                         var1 = _closure3_slot1;
                         var6 = var4.lockKeys;
                         var5 = var6.has;
                         var2 = _closure3_slot0;
                         var2 = var5.bind(var6)(var2);
-                        if(var1) { _fun0001_ip = 106; continue _fun0001 }
- 33:
-                        if(var2) { _fun0001_ip = 38; continue _fun0001 }
- 36:
+                        if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+                        if(var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                         return var4;
- 38:
+case 4:
                         var1 = global;
                         var1 = var1.Set;
                         var5 = var1.prototype;
@@ -92,10 +92,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var5 = 'lockKeys';
                         var1[var5] = var6;
                         return var1;
- 106:
+case 2:
                         var1 = var4;
-                        if(var2) { _fun0001_ip = 211; continue _fun0001 }
- 112:
+                        if(var2) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                         var2 = {};
                         var10 = var2;
                         var9 = var4;
@@ -121,7 +121,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var3 = 'lockKeys';
                         var2[var3] = var4;
                         var1 = var2;
- 211:
+case 6:
                         return var1;
                     }
                 };

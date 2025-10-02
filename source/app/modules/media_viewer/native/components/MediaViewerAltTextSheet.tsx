@@ -60,16 +60,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function _default(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var12 = var1.description;
             var5 = var1.onClose;
             var6 = var1.showBackdrop;
             var4 = undefined;
-            if(!(var6 === var4)) { _fun0001_ip = 28; continue _fun0001 }
- 26:
+            if(!(var6 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = false;
- 28:
+case 2:
             var1 = _closure1_slot5;
             var15 = var1.bind(var4)();
             var3 = _closure1_slot0;
@@ -85,13 +85,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var3.useIsScreenLandscape;
             var1 = var1.bind(var3)();
             var11 = 70;
-            if(var1) { _fun0001_ip = 111; continue _fun0001 }
- 97:
+            if(var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = 20;
             var2 = var2 + var1;
             var1 = 50;
             var11 = var2 + var1;
- 111:
+case 4:
             var3 = _closure1_slot3;
             var2 = _closure1_slot0;
             var7 = _closure1_slot1;
@@ -102,10 +102,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = {};
             var1['onDismiss'] = var5;
             var5 = 0;
-            if(!var6) { _fun0001_ip = 155; continue _fun0001 }
- 153:
+            if(!var6) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var5 = undefined;
- 155:
+case 6:
             var1['backdropOpacity'] = var5;
             var7 = _closure1_slot4;
             var6 = _closure1_slot2;

@@ -55,15 +55,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function EmptyState(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var5 = var1.query;
             var10 = var1.showsGenericMessage;
             var4 = undefined;
-            if(!(var10 === var4)) { _fun0001_ip = 23; continue _fun0001 }
- 21:
+            if(!(var10 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var10 = false;
- 23:
+case 2:
             var1 = _closure1_slot7;
             var12 = var1.bind(var4)();
             var2 = _closure1_slot0;
@@ -79,15 +79,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.bind(var4)();
             var1 = var3.bind(var6)(var1);
             var6 = _closure1_slot2;
-            if(var1) { _fun0001_ip = 101; continue _fun0001 }
- 92:
+            if(var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = 7;
             var1 = var6[var1];
-            _fun0001_ip = 108; continue _fun0001;
- 101:
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
             var3 = 6;
             var1 = var6[var3];
- 108:
+case 6:
             var8 = var2.bind(var4)(var1);
             var9 = _closure1_slot0;
             var13 = _closure1_slot2;
@@ -135,15 +135,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var15[var11];
             var11 = var14.bind(var4)(var11);
             var11 = var11.t;
-            if(var10) { _fun0001_ip = 341; continue _fun0001 }
- 326:
+            if(var10) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var10 = var11.LSNOYW;
             var10 = var12.bind(var13)(var10);
-            _fun0001_ip = 354; continue _fun0001;
- 341:
+            _fun0001_ip = 9; continue _fun0001;
+case 7:
             var11 = var11.aOkFv7;
             var10 = var12.bind(var13)(var11);
- 354:
+case 9:
             var8['children'] = var10;
             var8 = var7.bind(var4)(var9, var8);
             var6['children'] = var8;

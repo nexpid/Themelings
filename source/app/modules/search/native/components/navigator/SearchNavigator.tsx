@@ -65,13 +65,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[0] = var12;
         var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var1 = _closure2_slot0;
                 var3 = var1.type;
                 var2 = _closure1_slot5;
                 var2 = var2.GUILD;
-                if(!(var3 !== var2)) { _fun0001_ip = 65; continue _fun0001 }
- 29:
+                if(!(var3 !== var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
                 var2 = 6;
@@ -80,8 +80,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var4.bind(var2)(var3);
                 var2 = var2.SearchEntrypointAnalyticsLocations;
                 var4 = var2.DM_LIST;
-                _fun0001_ip = 99; continue _fun0001;
- 65:
+                _fun0001_ip = 4; continue _fun0001;
+case 2:
                 var6 = _closure1_slot0;
                 var3 = _closure1_slot2;
                 var2 = 6;
@@ -90,7 +90,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var6.bind(var2)(var3);
                 var2 = var2.SearchEntrypointAnalyticsLocations;
                 var4 = var2.GUILD;
- 99:
+case 4:
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
                 var1 = 7;

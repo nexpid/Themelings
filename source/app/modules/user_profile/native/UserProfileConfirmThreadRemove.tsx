@@ -35,7 +35,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function UserProfileConfirmThreadRemove(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var6 = var1.isForumPost;
             var3 = var1.user;
@@ -65,13 +65,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5[var16];
             var5 = var13.bind(var4)(var5);
             var13 = var5.t;
-            if(var6) { _fun0001_ip = 141; continue _fun0001 }
- 131:
+            if(var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = var13.ZPm8jI;
-            _fun0001_ip = 149; continue _fun0001;
- 141:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var5 = var13.8sKSjo;
- 149:
+case 4:
             var5 = var7.bind(var9)(var5);
             var1['title'] = var5;
             var7 = _closure1_slot0;
@@ -85,13 +85,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5[var16];
             var5 = var13.bind(var4)(var5);
             var5 = var5.t;
-            if(var6) { _fun0001_ip = 220; continue _fun0001 }
- 210:
+            if(var6) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var6 = var5.hL+ZnZ;
-            _fun0001_ip = 228; continue _fun0001;
- 220:
+            _fun0001_ip = 7; continue _fun0001;
+case 5:
             var6 = var5.6UGfn5;
- 228:
+case 7:
             var5 = {};
             var5['user'] = var12;
             var5 = var7.bind(var9)(var6, var5);

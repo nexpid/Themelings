@@ -26,23 +26,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = {'isRecording': false, 'microphoneEnabled': false, 'isICYMIScrolled': false, 'isUploading': false, 'currentStep': 0, 'stepStartedTime': null, 'isCompleted': false, 'currentSurveyId': null, 'currentSurveyConfig': null};
         var3 = function startRecording() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var6 = arguments[0];
                 var5 = arguments[1];
                 var4 = arguments[2];
                 var3 = undefined;
-                if(!(var6 === var3)) { _fun0001_ip = 17; continue _fun0001 }
- 15:
+                if(!(var6 === var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var6 = false;
- 17:
-                if(!(var5 === var3)) { _fun0001_ip = 23; continue _fun0001 }
- 21:
+case 2:
+                if(!(var5 === var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var5 = null;
- 23:
-                if(!(var4 === var3)) { _fun0001_ip = 29; continue _fun0001 }
- 27:
+case 4:
+                if(!(var4 === var3)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                 var4 = null;
- 29:
+case 6:
                 var2 = _closure2_slot0;
                 var1 = {};
                 var7 = true;
@@ -90,7 +90,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['setIsUploading'] = var3;
         var3 = function nextStep() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var2 = _closure2_slot1;
                 var1 = undefined;
                 var2 = var2.bind(var1)();
@@ -101,19 +101,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = null;
                 var7 = var5 == var6;
                 var2 = undefined;
-                if(var7) { _fun0002_ip = 49; continue _fun0002 }
- 43:
+                if(var7) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                 var2 = var6.steps;
- 49:
-                if(!(var5 == var2)) { _fun0002_ip = 57; continue _fun0002 }
- 53:
+case 8:
+                if(!(var5 == var2)) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
                 var2 = new Array(0);
- 57:
+case 10:
                 var2 = var2.length;
                 var2 = var4 >= var2;
                 var3 = _closure2_slot0;
-                if(var2) { _fun0002_ip = 104; continue _fun0002 }
- 73:
+                if(var2) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
                 var2 = {};
                 var2['currentStep'] = var4;
                 var4 = global;
@@ -121,13 +121,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var5.now;
                 var4 = var4.bind(var5)();
                 var2['stepStartedTime'] = var4;
-                _fun0002_ip = 116; continue _fun0002;
- 104:
+                _fun0002_ip = 14; continue _fun0002;
+case 12:
                 var4 = {};
                 var5 = true;
                 var4['isCompleted'] = var5;
                 var2 = var4;
- 116:
+case 14:
                 var2 = var3.bind(var1)(var2);
                 return var1;
             }

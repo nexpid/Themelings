@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function SyncingToGamesItem(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var4 = var1.applicationId;
             var8 = var1.channels;
@@ -34,8 +34,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = null;
             var3 = 0;
             var1 = null;
-            if(!(var3 !== var4)) { _fun0001_ip = 184; continue _fun0001 }
- 107:
+            if(!(var3 !== var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = _closure1_slot4;
             var3 = _closure1_slot0;
             var10 = _closure1_slot2;
@@ -46,10 +46,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = {};
             var10 = var7 == var9;
             var7 = undefined;
-            if(var10) { _fun0001_ip = 153; continue _fun0001 }
- 148:
+            if(var10) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var7 = var9.name;
- 153:
+case 4:
             var2['title'] = var7;
             var7 = var8.map;
             var6 = function(arg1) {
@@ -82,7 +82,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2['trailing'] = var7;
                 var6 = function onPress() {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                         var4 = _closure2_slot2;
                         var3 = var4.push;
                         var1 = _closure1_slot3;
@@ -93,15 +93,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var8 = _closure2_slot1;
                         var7 = 1;
                         var5 = var7;
-                        if(!var8) { _fun0002_ip = 70; continue _fun0002 }
- 51:
+                        if(!var8) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                         var6 = _closure2_slot0;
                         var6 = var6.length;
                         var5 = var7;
-                        if(!(var5 === var6)) { _fun0002_ip = 70; continue _fun0002 }
- 67:
+                        if(!(var5 === var6)) { _fun0002_ip = 6; continue _fun0002 }
+case 8:
                         var5 = 2;
- 70:
+case 6:
                         var1['numScreensToPop'] = var5;
                         var1 = var3.bind(var4)(var2, var1);
                         var1 = undefined;
@@ -116,7 +116,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var7.bind(var8)(var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 184:
+case 2:
             return var1;
         }
     };
@@ -171,16 +171,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var3.groupBy;
         var1 = function(arg1) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var2 = var1.linkedLobby;
                 var1 = null;
                 var3 = var1 == var2;
                 var1 = undefined;
-                if(var3) { _fun0003_ip = 26; continue _fun0003 }
- 20:
+                if(var3) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
                 var1 = var2.application_id;
- 26:
+case 9:
                 return var1;
             }
         };

@@ -14,26 +14,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = function* () {
             var1 = function* anon_0_() {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     StartGenerator();
                     var7 = arguments[0];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 142; continue _fun0001 }
- 13:
+                    if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var6 = undefined;
-                    if(!(var7 === var6)) { _fun0001_ip = 38; continue _fun0001 }
- 19:
+                    if(!(var7 === var6)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                     var2 = _closure1_slot4;
                     var2 = var2.DCDSecurityKeyManager;
                     var7 = var2.register;
- 38:
+case 4:
                     SaveGenerator(address=42);
- 40:
+case 6:
                     return var6;
- 42:
+case 7:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0001_ip = 139; continue _fun0001 }
- 48:
+                    if(var3) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot2;
                     var3 = 5;
@@ -42,33 +42,33 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var4.startRegisterWebAuthnCredential;
                     var3 = var3.bind(var4)();
                     SaveGenerator(address=85);
- 83:
+case 10:
                     return var3;
- 85:
+case 11:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(var4) { _fun0001_ip = 136; continue _fun0001 }
- 91:
+                    if(var4) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
                     var8 = var3.ticket;
                     var4 = var3.challenge;
                     var5 = {};
                     var5['ticket'] = var8;
                     var4 = var7.bind(var6)(var4);
                     SaveGenerator(address=119);
- 117:
+case 14:
                     return var4;
- 119:
+case 15:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=5);
-                    if(var6) { _fun0001_ip = 133; continue _fun0001 }
- 125:
+                    if(var6) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
                     var5['credential'] = var4;
                     return var5;
- 133:
+case 16:
                     return var4;
- 136:
+case 12:
                     return var3;
- 139:
+case 8:
                     return var2;
- 142:
+case 2:
                     return var1;
                 }
             };
@@ -88,16 +88,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot7 = var1;
     var4 = function registerSecurityKey(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var2 = arg1;
             var5 = arguments[1];
             var3 = undefined;
-            if(!(var5 === var3)) { _fun0002_ip = 33; continue _fun0002 }
- 14:
+            if(!(var5 === var3)) { _fun0002_ip = 18; continue _fun0002 }
+case 19:
             var4 = _closure1_slot4;
             var4 = var4.DCDSecurityKeyManager;
             var5 = var4.register;
- 33:
+case 18:
             var _closure2_slot0 = var3;
             var _closure2_slot1 = var3;
             var4 = var2.onRegisterSuccess;
@@ -105,11 +105,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             _closure2_slot0 = var7;
             var6 = var2.setRegistering;
             _closure2_slot1 = var6;
-            if(!(var3 !== var7)) { _fun0002_ip = 80; continue _fun0002 }
- 71:
+            if(!(var3 !== var7)) { _fun0002_ip = 20; continue _fun0002 }
+case 21:
             var2 = '';
             var2 = var7.bind(var3)(var2);
- 80:
+case 20:
             var2 = true;
             var2 = var6.bind(var3)(var2);
             var2 = function promptForRegisterCredential() {
@@ -128,12 +128,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.catch;
             var2 = function(arg1) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var1 = arg1;
                     var3 = _closure2_slot0;
                     var4 = undefined;
-                    if(!(var4 !== var3)) { _fun0003_ip = 85; continue _fun0003 }
- 16:
+                    if(!(var4 !== var3)) { _fun0003_ip = 11; continue _fun0003 }
+case 22:
                     var3 = _closure2_slot0;
                     var7 = _closure1_slot0;
                     var8 = _closure1_slot2;
@@ -149,7 +149,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var5.bind(var6)(var2);
                     var2 = var3.bind(var4)(var2);
                     throw var1;
- 85:
+case 11:
                     throw var1;
                 }
             };
@@ -239,7 +239,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = {};
     var10 = function get hasAndroidPasskeySupport() {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 7;
@@ -248,24 +248,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.bind(var6)(var1);
             var1 = var2.isAndroid;
             var1 = var1.bind(var2)();
-            if(!var1) { _fun0004_ip = 81; continue _fun0004 }
- 37:
+            if(!var1) { _fun0004_ip = 23; continue _fun0004 }
+case 24:
             var2 = _closure1_slot4;
             var3 = null;
             var5 = var3 == var2;
             var2 = undefined;
-            if(var5) { _fun0004_ip = 77; continue _fun0004 }
- 52:
+            if(var5) { _fun0004_ip = 25; continue _fun0004 }
+case 26:
             var4 = _closure1_slot4;
             var4 = var4.DCDSecurityKeyManager;
             var5 = var3 == var4;
             var2 = undefined;
-            if(var5) { _fun0004_ip = 77; continue _fun0004 }
- 71:
+            if(var5) { _fun0004_ip = 25; continue _fun0004 }
+case 21:
             var2 = var4.registerPasskey;
- 77:
+case 25:
             var1 = var3 != var2;
- 81:
+case 23:
             return var1;
         }
     };
@@ -273,7 +273,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     Object.defineProperty(var2, var9, {get: var10, set: var1, enumerable: true});
     var9 = function getScreens(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
             var1 = arg1;
             var7 = var1.isModal;
             var1 = {};
@@ -326,8 +326,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var2['render'] = var6;
             var6 = undefined;
-            if(!var7) { _fun0005_ip = 194; continue _fun0005 }
- 141:
+            if(!var7) { _fun0005_ip = 27; continue _fun0005 }
+case 28:
             var11 = _closure1_slot0;
             var14 = _closure1_slot2;
             var10 = 10;
@@ -340,7 +340,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var13.bind(var8)(var10);
             var10 = var10.closePasskeyUpsellModal;
             var6 = var11.bind(var12)(var10);
- 194:
+case 27:
             var2['headerLeft'] = var6;
             var1[var3] = var2;
             var2 = _closure1_slot5;
@@ -430,8 +430,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var10.bind(var11)(var6);
             var2['title'] = var6;
             var6 = undefined;
-            if(!var7) { _fun0005_ip = 494; continue _fun0005 }
- 441:
+            if(!var7) { _fun0005_ip = 29; continue _fun0005 }
+case 30:
             var10 = _closure1_slot0;
             var13 = _closure1_slot2;
             var7 = 10;
@@ -444,7 +444,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var12.bind(var8)(var7);
             var7 = var7.closePasskeyUpsellModal;
             var6 = var10.bind(var11)(var7);
- 494:
+case 29:
             var2['headerLeft'] = var6;
             var1[var3] = var2;
             var2 = _closure1_slot5;
@@ -496,7 +496,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['registerAndroidDevicePasskey'] = var8;
     var7 = function registerPasskey(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
- 0:
+case 0:
             var4 = arg1;
             var5 = _closure1_slot0;
             var3 = _closure1_slot2;
@@ -506,15 +506,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.bind(var3)(var1);
             var1 = var5.isAndroid;
             var1 = var1.bind(var5)();
-            if(var1) { _fun0006_ip = 51; continue _fun0006 }
- 40:
+            if(var1) { _fun0006_ip = 31; continue _fun0006 }
+case 6:
             var1 = _closure1_slot8;
             var1 = var1.bind(var3)(var4);
-            _fun0006_ip = 60; continue _fun0006;
- 51:
+            _fun0006_ip = 32; continue _fun0006;
+case 31:
             var2 = _closure1_slot10;
             var1 = var2.bind(var3)(var4);
- 60:
+case 32:
             return var1;
         }
     };

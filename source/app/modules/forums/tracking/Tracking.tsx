@@ -266,7 +266,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['trackForumCreateNewPostKeybindUsed'] = var4;
     var4 = function maybeTrackForumNewPostDraftCreated(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var11 = var1.guildId;
             var7 = var1.channelId;
@@ -274,8 +274,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2.getChannel;
             var1 = var1.bind(var2)(var7);
             var9 = null;
-            if(!(var9 != var1)) { _fun0001_ip = 462; continue _fun0001 }
- 39:
+            if(!(var9 != var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = _closure1_slot4;
             var2 = var3.getThreadSettings;
             var4 = var2.bind(var3)(var7);
@@ -283,96 +283,96 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var9 == var2;
             var8 = undefined;
             var3 = undefined;
-            if(var1) { _fun0001_ip = 81; continue _fun0001 }
- 71:
+            if(var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = var2.trim;
             var3 = var1.bind(var2)();
- 81:
+case 4:
             var6 = _closure1_slot4;
             var2 = var6.getDraft;
             var1 = _closure1_slot5;
             var1 = var1.FirstThreadMessage;
             var10 = var2.bind(var6)(var7, var1);
             var1 = var9 == var10;
-            if(var1) { _fun0001_ip = 125; continue _fun0001 }
- 114:
+            if(var1) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var6 = var10.length;
             var2 = 0;
             var1 = var2 === var6;
- 125:
-            if(var1) { _fun0001_ip = 151; continue _fun0001 }
- 128:
+case 6:
+            if(var1) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var6 = var9 == var10;
             var2 = undefined;
-            if(var6) { _fun0001_ip = 147; continue _fun0001 }
- 137:
+            if(var6) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var6 = var10.trim;
             var2 = var6.bind(var10)();
- 147:
+case 10:
             var1 = var2 === var3;
- 151:
+case 8:
             var3 = var9 == var4;
             var2 = undefined;
-            if(var3) { _fun0001_ip = 166; continue _fun0001 }
- 160:
+            if(var3) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var2 = var4.appliedTags;
- 166:
+case 12:
             var3 = var9 == var2;
-            if(var3) { _fun0001_ip = 208; continue _fun0001 }
- 173:
+            if(var3) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var2 = var9 == var4;
             var6 = undefined;
-            if(var2) { _fun0001_ip = 202; continue _fun0001 }
- 182:
+            if(var2) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var2 = var4.appliedTags;
             var10 = var9 == var2;
             var6 = undefined;
-            if(var10) { _fun0001_ip = 202; continue _fun0001 }
- 197:
+            if(var10) { _fun0001_ip = 16; continue _fun0001 }
+case 18:
             var6 = var2.size;
- 202:
+case 16:
             var2 = 0;
             var3 = var2 === var6;
- 208:
+case 14:
             var6 = var9 == var4;
             var2 = undefined;
-            if(var6) { _fun0001_ip = 222; continue _fun0001 }
- 217:
+            if(var6) { _fun0001_ip = 19; continue _fun0001 }
+case 20:
             var2 = var4.name;
- 222:
+case 19:
             var2 = var9 == var2;
-            if(var2) { _fun0001_ip = 282; continue _fun0001 }
- 229:
+            if(var2) { _fun0001_ip = 21; continue _fun0001 }
+case 22:
             var10 = var9 == var4;
             var6 = undefined;
-            if(var10) { _fun0001_ip = 276; continue _fun0001 }
- 238:
+            if(var10) { _fun0001_ip = 23; continue _fun0001 }
+case 24:
             var10 = var4.name;
             var4 = var9 == var10;
             var6 = undefined;
-            if(var4) { _fun0001_ip = 276; continue _fun0001 }
- 252:
+            if(var4) { _fun0001_ip = 23; continue _fun0001 }
+case 25:
             var4 = var10.trim;
             var4 = var4.bind(var10)();
             var9 = var9 == var4;
             var6 = undefined;
-            if(var9) { _fun0001_ip = 276; continue _fun0001 }
- 271:
+            if(var9) { _fun0001_ip = 23; continue _fun0001 }
+case 26:
             var6 = var4.length;
- 276:
+case 23:
             var4 = 0;
             var2 = var4 === var6;
- 282:
-            if(!var1) { _fun0001_ip = 288; continue _fun0001 }
- 285:
+case 21:
+            if(!var1) { _fun0001_ip = 27; continue _fun0001 }
+case 28:
             var1 = var3;
- 288:
-            if(!var1) { _fun0001_ip = 294; continue _fun0001 }
- 291:
+case 27:
+            if(!var1) { _fun0001_ip = 29; continue _fun0001 }
+case 30:
             var1 = var2;
- 294:
-            if(var1) { _fun0001_ip = 462; continue _fun0001 }
- 300:
+case 29:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 31:
             var2 = _closure1_slot1;
             var9 = _closure1_slot2;
             var1 = 5;
@@ -409,7 +409,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = 'num_attachments';
             var1[var5] = var6;
             var1 = var3.bind(var4)(var2, var1);
- 462:
+case 2:
             var1 = undefined;
             return var1;
         }
@@ -449,7 +449,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['trackForumNewPostCleared'] = var4;
     var4 = function trackForumPostCreated(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var2 = arg1;
             var3 = var2.guildId;
             var _closure2_slot0 = var3;
@@ -492,35 +492,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = _closure1_slot6;
             var3 = var5.isLoading;
             var3 = var3.bind(var5)(var6);
-            if(var3) { _fun0002_ip = 71; continue _fun0002 }
- 63:
+            if(var3) { _fun0002_ip = 5; continue _fun0002 }
+case 32:
             var3 = undefined;
             var3 = var4.bind(var3)();
-            _fun0002_ip = 91; continue _fun0002;
- 71:
+            _fun0002_ip = 33; continue _fun0002;
+case 5:
             var3 = _closure1_slot6;
             var2 = var3.addConditionalChangeListener;
             var1 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var4 = _closure1_slot6;
                     var3 = var4.isLoading;
                     var1 = _closure2_slot2;
                     var1 = var3.bind(var4)(var1);
                     var3 = !var1;
                     var1 = !var3;
-                    if(!var3) { _fun0003_ip = 46; continue _fun0003 }
- 34:
+                    if(!var3) { _fun0003_ip = 34; continue _fun0003 }
+case 35:
                     var3 = _closure2_slot3;
                     var2 = undefined;
                     var2 = var3.bind(var2)();
                     var1 = false;
- 46:
+case 34:
                     return var1;
                 }
             };
             var1 = var2.bind(var3)(var1);
- 91:
+case 33:
             var1 = undefined;
             return var1;
         }

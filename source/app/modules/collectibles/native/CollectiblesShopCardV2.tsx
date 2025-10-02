@@ -1,7 +1,7 @@
 // app/modules/collectibles/native/CollectiblesShopCardV2.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
         var7 = require;
         var14 = metroImportDefault;
         var3 = exports;
@@ -43,10 +43,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = 1.78;
         var2 = var4 >= var2;
         var4 = 170;
-        if(!var2) { _fun0001_ip = 178; continue _fun0001 }
- 172:
+        if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
         var4 = 302;
- 178:
+case 2:
         var2 = 4;
         var2 = var8[var2];
         var11 = var7.bind(var1)(var2);
@@ -80,7 +80,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure1_slot7 = var6;
         var6 = function CollectiblesShopCardInternalV2(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var12 = var1.product;
                 var5 = var1.onPress;
@@ -90,10 +90,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var10 = var1.preferVCPrice;
                 var9 = var1.isDisabled;
                 var4 = undefined;
-                if(!(var9 === var4)) { _fun0002_ip = 52; continue _fun0002 }
- 50:
+                if(!(var9 === var4)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                 var9 = false;
- 52:
+case 4:
                 var1 = _closure1_slot7;
                 var17 = var1.bind(var4)();
                 var2 = _closure1_slot0;
@@ -131,10 +131,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = null;
                 var13 = var7 == var12;
                 var18 = undefined;
-                if(var13) { _fun0002_ip = 169; continue _fun0002 }
- 164:
+                if(var13) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                 var18 = var12.type;
- 169:
+case 6:
                 var19 = _closure1_slot0;
                 var20 = _closure1_slot2;
                 var13 = 9;
@@ -143,10 +143,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var13 = var13.CollectiblesItemType;
                 var13 = var13.PROFILE_EFFECT;
                 var13 = var18 === var13;
-                if(!var13) { _fun0002_ip = 214; continue _fun0002 }
- 208:
+                if(!var13) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                 var13 = var17.cardProfileEffectBorder;
- 214:
+case 8:
                 var8[1] = var13;
                 var1['style'] = var8;
                 var1['onPress'] = var5;
@@ -154,12 +154,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1['activeOpacity'] = var5;
                 var5 = 'button';
                 var1['accessibilityRole'] = var5;
-                if(!(var7 == var16)) { _fun0002_ip = 325; continue _fun0002 }
- 253:
+                if(!(var7 == var16)) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
                 var5 = 'nitroClaim';
                 var7 = null;
-                if(!(var5 === var11)) { _fun0002_ip = 323; continue _fun0002 }
- 265:
+                if(!(var5 === var11)) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
                 var13 = _closure1_slot5;
                 var8 = _closure1_slot0;
                 var18 = _closure1_slot2;
@@ -173,9 +173,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var17 = 'header-primary';
                 var5['color'] = var17;
                 var7 = var13.bind(var4)(var8, var5);
- 323:
-                _fun0002_ip = 362; continue _fun0002;
- 325:
+case 12:
+                _fun0002_ip = 14; continue _fun0002;
+case 10:
                 var13 = _closure1_slot5;
                 var8 = _closure1_slot1;
                 var17 = _closure1_slot2;
@@ -185,7 +185,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = {};
                 var5['unpublishedAt'] = var16;
                 var7 = var13.bind(var4)(var8, var5);
- 362:
+case 14:
                 var5 = new Array(3);
                 var5[0] = var7;
                 var13 = _closure1_slot5;
@@ -200,11 +200,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7['isDarkTheme'] = var14;
                 var14 = 'purchased';
                 var14 = var14 === var11;
-                if(var14) { _fun0002_ip = 432; continue _fun0002 }
- 422:
+                if(var14) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
                 var15 = 'partiallyOwnedBundle';
                 var14 = var15 === var11;
- 432:
+case 15:
                 var7['isPurchased'] = var14;
                 var7['isDisabled'] = var9;
                 var7 = var13.bind(var4)(var8, var7);
@@ -231,7 +231,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var9.memo;
         var5 = function(arg1) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var2 = arg1;
                 var13 = var2.product;
                 var _closure2_slot0 = var13;
@@ -321,24 +321,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var11 = var14.isFreeCollectiblesProduct;
                 var11 = var11.bind(var14)(var13);
                 var14 = var2;
-                if(!var2) { _fun0003_ip = 328; continue _fun0003 }
- 325:
+                if(!var2) { _fun0003_ip = 17; continue _fun0003 }
+case 10:
                 var14 = !var3;
- 328:
-                if(!var14) { _fun0003_ip = 334; continue _fun0003 }
- 331:
+case 17:
+                if(!var14) { _fun0003_ip = 18; continue _fun0003 }
+case 19:
                 var14 = !var11;
- 334:
+case 18:
                 _closure2_slot4 = var14;
                 var17 = var11;
-                if(var17) { _fun0003_ip = 353; continue _fun0003 }
- 344:
-                if(!var2) { _fun0003_ip = 350; continue _fun0003 }
- 347:
+                if(var17) { _fun0003_ip = 20; continue _fun0003 }
+case 21:
+                if(!var2) { _fun0003_ip = 22; continue _fun0003 }
+case 23:
                 var2 = var3;
- 350:
+case 22:
                 var17 = var2;
- 353:
+case 20:
                 _closure2_slot5 = var17;
                 var11 = _closure1_slot3;
                 var3 = var11.useMemo;
@@ -349,32 +349,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2[3] = var14;
                 var1 = function() {
                     _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                         var3 = _closure2_slot2;
                         var2 = true;
-                        if(!(var3 !== var2)) { _fun0004_ip = 63; continue _fun0004 }
- 13:
+                        if(!(var3 !== var2)) { _fun0004_ip = 24; continue _fun0004 }
+case 25:
                         var3 = _closure2_slot3;
-                        if(!(var3 !== var2)) { _fun0004_ip = 55; continue _fun0004 }
- 21:
+                        if(!(var3 !== var2)) { _fun0004_ip = 26; continue _fun0004 }
+case 27:
                         var3 = _closure2_slot4;
-                        if(!(var3 !== var2)) { _fun0004_ip = 49; continue _fun0004 }
- 29:
+                        if(!(var3 !== var2)) { _fun0004_ip = 28; continue _fun0004 }
+case 29:
                         var1 = _closure2_slot5;
-                        if(!(var1 !== var2)) { _fun0004_ip = 41; continue _fun0004 }
- 37:
+                        if(!(var1 !== var2)) { _fun0004_ip = 30; continue _fun0004 }
+case 31:
                         var1 = null;
                         return var1;
- 41:
+case 30:
                         var1 = 'nitroClaim';
                         return var1;
- 49:
+case 28:
                         var1 = 'nitroUpsell';
                         return var1;
- 55:
+case 26:
                         var1 = 'partiallyOwnedBundle';
                         return var1;
- 63:
+case 24:
                         var1 = 'purchased';
                         return var1;
                     }

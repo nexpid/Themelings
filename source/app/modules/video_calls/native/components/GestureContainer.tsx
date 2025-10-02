@@ -188,7 +188,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10['onActive'] = var3;
         var3 = function L(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var2 = var1.velocityY;
                 var8 = {'damping': 15, 'mass': 1, 'stiffness': 250, 'overshootClamping': true, 'restSpeedThreshold': 0.001, 'restDisplacementThreshold': 0.001};
@@ -197,11 +197,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var3.get;
                 var3 = var1.bind(var3)();
                 var1 = _closure2_slot2;
-                if(!(!(var3 >= var1))) { _fun0001_ip = 119; continue _fun0001 }
- 52:
+                if(!(!(var3 >= var1))) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var1 = 500;
-                if(!(!(var2 >= var1))) { _fun0001_ip = 119; continue _fun0001 }
- 62:
+                if(!(!(var2 >= var1))) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
                 var3 = _closure2_slot0;
                 var2 = var3.set;
                 var6 = _closure1_slot0;
@@ -214,8 +214,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = 0;
                 var1 = var5.bind(var6)(var1, var8);
                 var1 = var2.bind(var3)(var1);
-                _fun0001_ip = 274; continue _fun0001;
- 119:
+                _fun0001_ip = 5; continue _fun0001;
+case 2:
                 var3 = _closure2_slot0;
                 var2 = var3.set;
                 var11 = _closure1_slot0;
@@ -266,7 +266,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var14 = var4;
                 var1 = var18[var6](var17, var16, var15, var14, var13);
                 var1 = var2.bind(var3)(var1);
- 274:
+case 5:
                 var1 = undefined;
                 return var1;
             }
@@ -485,18 +485,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10['onActive'] = var3;
         var3 = function T(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var3 = var1.velocityY;
                 var4 = _closure2_slot1;
                 var2 = var4.get;
                 var4 = var2.bind(var4)();
                 var2 = 1;
-                if(!(var2 !== var4)) { _fun0002_ip = 131; continue _fun0002 }
- 32:
+                if(!(var2 !== var4)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                 var2 = 500;
-                if(!(!(var3 > var2))) { _fun0002_ip = 131; continue _fun0002 }
- 42:
+                if(!(!(var3 > var2))) { _fun0002_ip = 6; continue _fun0002 }
+case 8:
                 var3 = _closure2_slot1;
                 var2 = var3.set;
                 var8 = _closure1_slot0;
@@ -517,8 +517,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = 0;
                 var1 = var5.bind(var6)(var1, var4);
                 var1 = var2.bind(var3)(var1);
-                _fun0002_ip = 192; continue _fun0002;
- 131:
+                _fun0002_ip = 9; continue _fun0002;
+case 6:
                 var4 = _closure1_slot0;
                 var6 = _closure1_slot2;
                 var2 = 6;
@@ -533,7 +533,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var1.pop;
                 var1 = var3.bind(var4)(var1);
                 var1 = var1.bind(var2)();
- 192:
+case 9:
                 var1 = undefined;
                 return var1;
             }

@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function QuestEnrollmentBlockedBottomSheet(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = var1.questEnrollmentBlockedUntil;
             var1 = _closure1_slot6;
@@ -22,8 +22,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var3.bind(var5)(var1);
             var1 = null;
             var3 = var2;
-            if(!(var1 == var3)) { _fun0001_ip = 79; continue _fun0001 }
- 51:
+            if(!(var1 == var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = global;
             var6 = var6.Date;
             var7 = var6.prototype;
@@ -31,7 +31,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var30 = var7;
             var6 = new var30[var6](var29);
             var3 = var6 instanceof Object ? var6 : var7;
- 79:
+case 2:
             var3 = var4.bind(var5)(var3);
             var6 = var3.hours;
             var8 = var3.minutes;
@@ -53,8 +53,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var19 = var3.bind(var4)(var7, var6);
             var2 = var1 == var2;
             var1 = null;
-            if(var2) { _fun0001_ip = 539; continue _fun0001 }
- 194:
+            if(var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var4 = _closure1_slot5;
             var13 = _closure1_slot0;
             var17 = _closure1_slot2;
@@ -130,7 +130,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var8.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 539:
+case 4:
             return var1;
         }
     };
@@ -207,7 +207,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function QuestEnrollmentBlockedBottomSheetConnected(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = var1.questId;
             var _closure2_slot0 = var2;
@@ -236,8 +236,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var4.bind(var9)(var3, var1);
             var1 = null;
             var3 = var1 == var9;
-            if(var3) { _fun0002_ip = 205; continue _fun0002 }
- 105:
+            if(var3) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var4 = _closure1_slot5;
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
@@ -273,7 +273,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 205:
+case 6:
             return var1;
         }
     };

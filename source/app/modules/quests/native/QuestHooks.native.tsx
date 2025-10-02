@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var7;
     var4 = function useIsMobileQuestDockVisible() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
             var16 = 7;
@@ -22,12 +22,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5[0] = var4;
             var4 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var1 = _closure1_slot5;
                     var2 = var1.questDeliveryOverride;
                     var1 = null;
-                    if(!(var1 == var2)) { _fun0002_ip = 98; continue _fun0002 }
- 19:
+                    if(!(var1 == var2)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var9 = _closure1_slot0;
                     var10 = _closure1_slot2;
                     var4 = 8;
@@ -45,13 +45,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var3.QuestPlacement;
                     var3 = var3.MOBILE_HOME_DOCK_AREA;
                     var2 = var6.bind(var7)(var5, var4, var3);
- 98:
+case 2:
                     var3 = var1 != var2;
                     var1 = null;
-                    if(!var3) { _fun0002_ip = 110; continue _fun0002 }
- 107:
+                    if(!var3) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var1 = var2;
- 110:
+case 4:
                     return var1;
                 }
             };
@@ -77,19 +77,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var2 = var5.bind(var6)(var3, var2);
             var9 = !var2;
-            if(!var9) { _fun0001_ip = 143; continue _fun0001 }
- 122:
+            if(!var9) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var3 = null;
             var5 = var3 == var13;
             var2 = undefined;
-            if(var5) { _fun0001_ip = 139; continue _fun0001 }
- 133:
+            if(var5) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var2 = var13.userStatus;
- 139:
+case 8:
             var9 = var3 != var2;
- 143:
-            if(!var9) { _fun0001_ip = 208; continue _fun0001 }
- 146:
+case 6:
+            if(!var9) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var7 = _closure1_slot0;
             var10 = _closure1_slot2;
             var2 = 8;
@@ -103,19 +103,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.QuestContent;
             var2 = var2.QUEST_BAR_MOBILE;
             var9 = var5.bind(var6)(var3, var2);
- 208:
+case 10:
             var2 = null;
             var5 = var2 == var13;
             var3 = undefined;
-            if(var5) { _fun0001_ip = 240; continue _fun0001 }
- 219:
+            if(var5) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var5 = var13.userStatus;
             var6 = var2 == var5;
             var3 = undefined;
-            if(var6) { _fun0001_ip = 240; continue _fun0001 }
- 234:
+            if(var6) { _fun0001_ip = 12; continue _fun0001 }
+case 14:
             var3 = var5.claimedAt;
- 240:
+case 12:
             var10 = var2 != var3;
             var3 = _closure1_slot0;
             var15 = _closure1_slot2;
@@ -158,18 +158,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17[0] = var7;
             var7 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var3 = _closure2_slot0;
                     var1 = null;
                     var1 = var1 != var3;
-                    if(!var1) { _fun0003_ip = 43; continue _fun0003 }
- 16:
+                    if(!var1) { _fun0003_ip = 15; continue _fun0003 }
+case 16:
                     var4 = _closure1_slot5;
                     var3 = var4.isClaimingReward;
                     var2 = _closure2_slot0;
                     var2 = var2.id;
                     var1 = var3.bind(var4)(var2);
- 43:
+case 15:
                     return var1;
                 }
             };
@@ -182,17 +182,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8[0] = var18;
             var1 = function() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                     var3 = _closure1_slot4;
                     var1 = var3.getKey;
                     var3 = var1.bind(var3)();
                     var1 = _closure1_slot8;
                     var1 = var3 === var1;
-                    if(var1) { _fun0004_ip = 36; continue _fun0004 }
- 28:
+                    if(var1) { _fun0004_ip = 17; continue _fun0004 }
+case 18:
                     var2 = _closure1_slot6;
                     var1 = var3 === var2;
- 36:
+case 17:
                     return var1;
                 }
             };
@@ -206,46 +206,46 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = {};
             var1['quest'] = var13;
             var2 = var2 != var13;
-            if(!var2) { _fun0001_ip = 506; continue _fun0001 }
- 503:
+            if(!var2) { _fun0001_ip = 19; continue _fun0001 }
+case 20:
             var2 = var12;
- 506:
-            if(!var2) { _fun0001_ip = 512; continue _fun0001 }
- 509:
+case 19:
+            if(!var2) { _fun0001_ip = 21; continue _fun0001 }
+case 22:
             var2 = !var11;
- 512:
-            if(!var2) { _fun0001_ip = 518; continue _fun0001 }
- 515:
+case 21:
+            if(!var2) { _fun0001_ip = 23; continue _fun0001 }
+case 24:
             var2 = !var10;
- 518:
-            if(!var2) { _fun0001_ip = 524; continue _fun0001 }
- 521:
+case 23:
+            if(!var2) { _fun0001_ip = 25; continue _fun0001 }
+case 26:
             var2 = !var9;
- 524:
-            if(!var2) { _fun0001_ip = 542; continue _fun0001 }
- 527:
-            if(var6) { _fun0001_ip = 539; continue _fun0001 }
- 530:
-            if(!var7) { _fun0001_ip = 536; continue _fun0001 }
- 533:
+case 25:
+            if(!var2) { _fun0001_ip = 27; continue _fun0001 }
+case 28:
+            if(var6) { _fun0001_ip = 29; continue _fun0001 }
+case 30:
+            if(!var7) { _fun0001_ip = 31; continue _fun0001 }
+case 32:
             var7 = var8;
- 536:
+case 31:
             var6 = var7;
- 539:
+case 29:
             var2 = var6;
- 542:
-            if(!var2) { _fun0001_ip = 548; continue _fun0001 }
- 545:
+case 27:
+            if(!var2) { _fun0001_ip = 33; continue _fun0001 }
+case 34:
             var2 = !var5;
- 548:
-            if(!var2) { _fun0001_ip = 554; continue _fun0001 }
- 551:
+case 33:
+            if(!var2) { _fun0001_ip = 35; continue _fun0001 }
+case 36:
             var2 = !var4;
- 554:
-            if(!var2) { _fun0001_ip = 560; continue _fun0001 }
- 557:
+case 35:
+            if(!var2) { _fun0001_ip = 37; continue _fun0001 }
+case 38:
             var2 = !var3;
- 560:
+case 37:
             var1['isVisible'] = var2;
             return var1;
         }
@@ -298,7 +298,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var7)(var5);
     var5 = function useMobileQuestDockHeight() {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
             var2 = _closure1_slot10;
             var4 = undefined;
             var2 = var2.bind(var4)();
@@ -311,10 +311,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2.useQuestDockExternalOffset;
             var2 = var1.bind(var2)();
             var1 = 0;
-            if(!var3) { _fun0005_ip = 57; continue _fun0005 }
- 54:
+            if(!var3) { _fun0005_ip = 39; continue _fun0005 }
+case 40:
             var1 = var2;
- 57:
+case 39:
             return var1;
         }
     };
@@ -338,7 +338,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[1] = var5;
         var1 = function() {
             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
- 0:
+case 0:
                 var3 = _closure1_slot0;
                 var4 = _closure1_slot2;
                 var2 = 17;
@@ -349,13 +349,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = _closure2_slot1;
                 var4 = var4.bind(var5)(var3);
                 var3 = _closure1_slot9;
-                if(var4) { _fun0006_ip = 58; continue _fun0006 }
- 50:
+                if(var4) { _fun0006_ip = 41; continue _fun0006 }
+case 42:
                 var5 = var3.LIGHT;
-                _fun0006_ip = 64; continue _fun0006;
- 58:
+                _fun0006_ip = 43; continue _fun0006;
+case 41:
                 var5 = var3.DARK;
- 64:
+case 43:
                 var6 = _closure1_slot0;
                 var8 = _closure1_slot2;
                 var1 = 18;
@@ -385,7 +385,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[0] = var5;
         var1 = function() {
             _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
- 0:
+case 0:
                 var7 = _closure1_slot0;
                 var3 = _closure1_slot2;
                 var9 = 18;
@@ -404,8 +404,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var2.questBarHeroVideo;
                 var2 = null;
                 var3 = var2 != var3;
-                if(!var3) { _fun0007_ip = 146; continue _fun0007 }
- 91:
+                if(!var3) { _fun0007_ip = 11; continue _fun0007 }
+case 44:
                 var6 = _closure1_slot0;
                 var3 = _closure1_slot2;
                 var3 = var3[var9];
@@ -417,15 +417,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var1.assets;
                 var1 = var1.questBarHeroVideo;
                 var2 = var6.bind(var7)(var3, var1);
- 146:
+case 11:
                 var1 = {};
                 var3 = var5.isAnimated;
                 var7 = var5.url;
-                if(var3) { _fun0007_ip = 167; continue _fun0007 }
- 162:
+                if(var3) { _fun0007_ip = 45; continue _fun0007 }
+case 46:
                 var3 = var7;
-                _fun0007_ip = 207; continue _fun0007;
- 167:
+                _fun0007_ip = 47; continue _fun0007;
+case 45:
                 var6 = var7.replace;
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
@@ -434,7 +434,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var4.EXTENSION_RE;
                 var4 = '.png';
                 var3 = var6.bind(var7)(var5, var4);
- 207:
+case 47:
                 var1['staticUrl'] = var3;
                 var1['videoAsset'] = var2;
                 return var1;
@@ -446,7 +446,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['useQuestDockHeroAsset'] = var4;
     var2 = function useShouldAllowMobileVideoTask(arg1, arg2) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
- 0:
+case 0:
             var8 = arg1;
             var1 = arg2;
             var _closure2_slot0 = var8;
@@ -482,10 +482,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['location'] = var6;
             var1['autoTrackExposure'] = var5;
             var1 = var3.bind(var4)(var1);
-            if(!var1) { _fun0008_ip = 104; continue _fun0008 }
- 101:
+            if(!var1) { _fun0008_ip = 48; continue _fun0008 }
+case 49:
             var1 = var2;
- 104:
+case 48:
             return var1;
         }
     };

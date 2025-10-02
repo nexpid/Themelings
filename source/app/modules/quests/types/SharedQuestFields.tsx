@@ -85,7 +85,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var6 = function get() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var2 = this;
                 var4 = _closure1_slot0;
                 var5 = _closure1_slot1;
@@ -96,13 +96,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var6.hasFractionalPremiumQuestReward;
                 var1 = var2.quest;
                 var1 = var4.bind(var6)(var1);
-                if(var1) { _fun0001_ip = 68; continue _fun0001 }
- 48:
+                if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var1 = var2.defaultReward;
                 var1 = var1.messages;
                 var1 = var1.nameWithArticle;
-                _fun0001_ip = 105; continue _fun0001;
- 68:
+                _fun0001_ip = 4; continue _fun0001;
+case 2:
                 var4 = _closure1_slot0;
                 var6 = _closure1_slot1;
                 var3 = 3;
@@ -111,7 +111,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var4.getFractionalPremiumQuestRewardName;
                 var2 = var2.quest;
                 var1 = var3.bind(var4)(var2);
- 105:
+case 4:
                 return var1;
             }
         };
@@ -122,7 +122,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var6 = function get() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var2 = this;
                 var4 = _closure1_slot0;
                 var5 = _closure1_slot1;
@@ -133,13 +133,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var6.hasFractionalPremiumQuestReward;
                 var1 = var2.quest;
                 var1 = var4.bind(var6)(var1);
-                if(var1) { _fun0002_ip = 67; continue _fun0002 }
- 48:
+                if(var1) { _fun0002_ip = 5; continue _fun0002 }
+case 3:
                 var1 = var2.defaultReward;
                 var1 = var1.messages;
                 var1 = var1.name;
-                _fun0002_ip = 104; continue _fun0002;
- 67:
+                _fun0002_ip = 6; continue _fun0002;
+case 5:
                 var4 = _closure1_slot0;
                 var6 = _closure1_slot1;
                 var3 = 3;
@@ -148,7 +148,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var4.getFractionalPremiumQuestRewardName;
                 var2 = var2.quest;
                 var1 = var3.bind(var4)(var2);
- 104:
+case 6:
                 return var1;
             }
         };
@@ -206,7 +206,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var6 = function get() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var1 = this;
                 var1 = var1.quest;
                 var1 = var1.taskConfigV2;
@@ -222,16 +222,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var3[var1];
                 var1 = null;
                 var4 = var1 == var3;
-                if(var4) { _fun0003_ip = 77; continue _fun0003 }
- 71:
+                if(var4) { _fun0003_ip = 7; continue _fun0003 }
+case 8:
                 var2 = var3.applications;
- 77:
+case 7:
                 var3 = var1 != var2;
                 var1 = null;
-                if(!var3) { _fun0003_ip = 89; continue _fun0003 }
- 86:
+                if(!var3) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
                 var1 = var2;
- 89:
+case 9:
                 return var1;
             }
         };
@@ -254,7 +254,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var6 = function get() {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                 var3 = _closure1_slot0;
                 var4 = _closure1_slot1;
                 var1 = 2;
@@ -273,13 +273,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var5[var2];
                 var2 = var3.bind(var4)(var2);
                 var2 = var2.QuestType;
-                if(var1) { _fun0004_ip = 88; continue _fun0004 }
- 80:
+                if(var1) { _fun0004_ip = 11; continue _fun0004 }
+case 12:
                 var1 = var2.GAMEPLAY;
-                _fun0004_ip = 94; continue _fun0004;
- 88:
+                _fun0004_ip = 13; continue _fun0004;
+case 11:
                 var1 = var2.VIDEO;
- 94:
+case 13:
                 return var1;
             }
         };
@@ -290,7 +290,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var6 = function get() {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
                 var1 = this;
                 var1 = var1.quest;
                 var1 = var1.taskConfigV2;
@@ -310,16 +310,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var1.ACHIEVEMENT_IN_GAME;
                 var2 = var2[var1];
                 var1 = null;
-                if(!(var1 != var3)) { _fun0005_ip = 96; continue _fun0005 }
- 93:
+                if(!(var1 != var3)) { _fun0005_ip = 14; continue _fun0005 }
+case 15:
                 var2 = var3;
- 96:
+case 14:
                 var3 = var1 != var2;
                 var1 = null;
-                if(!var3) { _fun0005_ip = 108; continue _fun0005 }
- 105:
+                if(!var3) { _fun0005_ip = 16; continue _fun0005 }
+case 4:
                 var1 = var2;
- 108:
+case 16:
                 return var1;
             }
         };
@@ -330,7 +330,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var6 = function get() {
             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
- 0:
+case 0:
                 var2 = this;
                 var1 = var2.quest;
                 var1 = var1.taskConfigV2;
@@ -353,23 +353,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var1.WATCH_VIDEO_ON_MOBILE;
                 var4 = var2[var1];
                 var2 = null;
-                if(!(var2 != var3)) { _fun0006_ip = 118; continue _fun0006 }
- 111:
+                if(!(var2 != var3)) { _fun0006_ip = 17; continue _fun0006 }
+case 18:
                 var1 = var4;
-                if(!(var2 == var1)) { _fun0006_ip = 140; continue _fun0006 }
- 118:
-                if(!(var2 != var4)) { _fun0006_ip = 125; continue _fun0006 }
- 122:
+                if(!(var2 == var1)) { _fun0006_ip = 19; continue _fun0006 }
+case 17:
+                if(!(var2 != var4)) { _fun0006_ip = 20; continue _fun0006 }
+case 21:
                 var3 = var4;
- 125:
+case 20:
                 var4 = var2 != var3;
                 var2 = null;
-                if(!var4) { _fun0006_ip = 137; continue _fun0006 }
- 134:
+                if(!var4) { _fun0006_ip = 22; continue _fun0006 }
+case 23:
                 var2 = var3;
- 137:
+case 22:
                 var1 = var2;
- 140:
+case 19:
                 return var1;
             }
         };
@@ -380,12 +380,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var2 = function value(arg1) {
             _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
- 0:
+case 0:
                 var3 = arg1;
                 var2 = var3.configVersion;
                 var1 = 2;
-                if(!(var1 === var2)) { _fun0007_ip = 48; continue _fun0007 }
- 16:
+                if(!(var1 === var2)) { _fun0007_ip = 3; continue _fun0007 }
+case 24:
                 var1 = _closure2_slot0;
                 var2 = var1.prototype;
                 var2 = Object.create(var2, {constructor: {value: var1}});
@@ -394,7 +394,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = new var5[var1](var4, var3);
                 var1 = var1 instanceof Object ? var1 : var2;
                 return var1;
- 48:
+case 3:
                 var1 = global;
                 var3 = var1.Error;
                 var1 = var3.prototype;

@@ -4,12 +4,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = dependencyMap;
     var4 = function getCommandContext(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var3 = var2.type;
             var1 = 'contextless';
-            if(!(var1 !== var3)) { _fun0001_ip = 62; continue _fun0001 }
- 18:
+            if(!(var1 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = {};
             var3 = var2.channel;
             var1['channel'] = var3;
@@ -19,14 +19,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.guild_id;
             var2 = var3.bind(var4)(var2);
             var1['guild'] = var2;
-            _fun0001_ip = 77; continue _fun0001;
- 62:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var2 = {};
             var3 = undefined;
             var2['channel'] = var3;
             var2['guild'] = var3;
             var1 = var2;
- 77:
+case 4:
             return var1;
         }
     };

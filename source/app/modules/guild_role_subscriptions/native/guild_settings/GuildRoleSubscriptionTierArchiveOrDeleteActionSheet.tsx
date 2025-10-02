@@ -70,7 +70,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function GuildRoleSubscriptionTierArchiveOrDeleteActionSheet(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var5 = var1.editStateId;
             var3 = var1.guildId;
@@ -167,10 +167,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var21 = var21.RED;
             var12['color'] = var21;
             var12['onPress'] = var20;
-            if(var18) { _fun0001_ip = 451; continue _fun0001 }
- 448:
+            if(var18) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var18 = var19;
- 451:
+case 2:
             var12['disabled'] = var18;
             var12 = var3.bind(var4)(var13, var12);
             var10[4] = var12;

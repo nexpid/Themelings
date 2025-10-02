@@ -27,7 +27,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function getConsoleConnectingText(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arg1;
             var3 = arg2;
             var2 = arg3;
@@ -35,40 +35,40 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var1 == var3;
             var7 = undefined;
             var6 = undefined;
-            if(var4) { _fun0001_ip = 27; continue _fun0001 }
- 22:
+            if(var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = var3.type;
- 27:
-            if(!(var1 == var6)) { _fun0001_ip = 55; continue _fun0001 }
- 31:
+case 2:
+            if(!(var1 == var6)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var8 = var1 == var5;
             var4 = undefined;
-            if(var8) { _fun0001_ip = 52; continue _fun0001 }
- 40:
+            if(var8) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var5 = var5.clientInfo;
             var4 = var5.os;
- 52:
+case 6:
             var6 = var4;
- 55:
+case 4:
             var4 = var1 != var3;
             var1 = _closure1_slot2;
             var1 = var1.XBOX;
-            if(!(var6 !== var1)) { _fun0001_ip = 249; continue _fun0001 }
- 79:
+            if(!(var6 !== var1)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var1 = _closure1_slot2;
             var1 = var1.PLAYSTATION;
-            if(!(var6 !== var1)) { _fun0001_ip = 112; continue _fun0001 }
- 93:
+            if(!(var6 !== var1)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var1 = _closure1_slot2;
             var5 = var1.PLAYSTATION_STAGING;
             var1 = undefined;
-            if(!(var6 === var5)) { _fun0001_ip = 244; continue _fun0001 }
- 112:
-            if(var2) { _fun0001_ip = 181; continue _fun0001 }
- 115:
+            if(!(var6 === var5)) { _fun0001_ip = 12; continue _fun0001 }
+case 10:
+            if(var2) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var5 = 'PS5';
-            if(!var4) { _fun0001_ip = 179; continue _fun0001 }
- 122:
+            if(!var4) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
             var10 = _closure1_slot0;
             var11 = _closure1_slot1;
             var6 = 1;
@@ -81,9 +81,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.t;
             var6 = var6.QCw1oa;
             var5 = var8.bind(var9)(var6);
- 179:
-            _fun0001_ip = 241; continue _fun0001;
- 181:
+case 15:
+            _fun0001_ip = 17; continue _fun0001;
+case 13:
             var8 = _closure1_slot0;
             var11 = _closure1_slot1;
             var6 = 1;
@@ -97,16 +97,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var6.TZ17Bg;
             var6 = {};
             var5 = var9.bind(var10)(var8, var6);
- 241:
+case 17:
             var1 = var5;
- 244:
-            _fun0001_ip = 381; continue _fun0001;
- 249:
-            if(var2) { _fun0001_ip = 318; continue _fun0001 }
- 252:
+case 12:
+            _fun0001_ip = 18; continue _fun0001;
+case 8:
+            if(var2) { _fun0001_ip = 19; continue _fun0001 }
+case 20:
             var2 = 'Xbox';
-            if(!var4) { _fun0001_ip = 316; continue _fun0001 }
- 259:
+            if(!var4) { _fun0001_ip = 21; continue _fun0001 }
+case 22:
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
             var4 = 1;
@@ -119,9 +119,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.t;
             var4 = var4.UjA4HR;
             var2 = var5.bind(var6)(var4);
- 316:
-            _fun0001_ip = 378; continue _fun0001;
- 318:
+case 21:
+            _fun0001_ip = 23; continue _fun0001;
+case 19:
             var4 = _closure1_slot0;
             var8 = _closure1_slot1;
             var3 = 1;
@@ -135,9 +135,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var3.ynEs/f;
             var3 = {};
             var2 = var5.bind(var6)(var4, var3);
- 378:
+case 23:
             var1 = var2;
- 381:
+case 18:
             return var1;
         }
     };

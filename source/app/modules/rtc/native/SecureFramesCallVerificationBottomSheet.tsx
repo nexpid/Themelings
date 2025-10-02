@@ -57,17 +57,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5[0] = var3;
         var3 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var2 = _closure1_slot4;
                 var1 = var2.getSecureFramesState;
                 var2 = var1.bind(var2)();
                 var1 = null;
                 var3 = var1 == var2;
                 var1 = undefined;
-                if(var3) { _fun0001_ip = 34; continue _fun0001 }
- 28:
+                if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var1 = var2.epochAuthenticator;
- 34:
+case 2:
                 return var1;
             }
         };

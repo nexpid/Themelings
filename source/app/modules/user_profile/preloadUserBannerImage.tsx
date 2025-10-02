@@ -22,44 +22,44 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function preloadUserBannerImage(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var7 = arg1;
             var8 = arg2;
             var1 = global;
             var2 = var1.Image;
             var3 = 'undefined';
             var2 = typeof var2;
-            if(!(var3 !== var2)) { _fun0001_ip = 378; continue _fun0001 }
- 28:
+            if(!(var3 !== var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var7.user;
             var3 = null;
             var4 = var3 == var2;
             var9 = undefined;
             var11 = undefined;
-            if(var4) { _fun0001_ip = 51; continue _fun0001 }
- 46:
+            if(var4) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var11 = var2.id;
- 51:
-            if(!(var3 != var11)) { _fun0001_ip = 378; continue _fun0001 }
- 58:
+case 4:
+            if(!(var3 != var11)) { _fun0001_ip = 2; continue _fun0001 }
+case 6:
             var2 = '';
-            if(!(var2 !== var11)) { _fun0001_ip = 378; continue _fun0001 }
- 69:
+            if(!(var2 !== var11)) { _fun0001_ip = 2; continue _fun0001 }
+case 7:
             var4 = var3 != var8;
-            if(!var4) { _fun0001_ip = 101; continue _fun0001 }
- 76:
+            if(!var4) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var5 = var7.guild_member_profile;
             var6 = var3 == var5;
             var2 = undefined;
-            if(var6) { _fun0001_ip = 97; continue _fun0001 }
- 91:
+            if(var6) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var2 = var5.banner;
- 97:
+case 10:
             var4 = var3 != var2;
- 101:
+case 8:
             var2 = undefined;
-            if(!var4) { _fun0001_ip = 209; continue _fun0001 }
- 106:
+            if(!var4) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var10 = _closure1_slot0;
             var12 = _closure1_slot1;
             var4 = 0;
@@ -82,20 +82,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = 600;
             var4['size'] = var8;
             var2 = var5.bind(var6)(var4);
- 209:
+case 12:
             var5 = var3 == var7;
             var4 = undefined;
-            if(var5) { _fun0001_ip = 239; continue _fun0001 }
- 218:
+            if(var5) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var5 = var7.user_profile;
             var6 = var3 == var5;
             var4 = undefined;
-            if(var6) { _fun0001_ip = 239; continue _fun0001 }
- 233:
+            if(var6) { _fun0001_ip = 14; continue _fun0001 }
+case 16:
             var4 = var5.banner;
- 239:
-            if(!(var3 != var4)) { _fun0001_ip = 342; continue _fun0001 }
- 243:
+case 14:
+            if(!(var3 != var4)) { _fun0001_ip = 17; continue _fun0001 }
+case 18:
             var8 = _closure1_slot0;
             var10 = _closure1_slot1;
             var4 = 0;
@@ -117,9 +117,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = 600;
             var4['size'] = var7;
             var2 = var5.bind(var6)(var4);
- 342:
-            if(!(var3 != var2)) { _fun0001_ip = 378; continue _fun0001 }
- 346:
+case 17:
+            if(!(var3 != var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 19:
             var1 = var1.Image;
             var3 = var1.prototype;
             var3 = Object.create(var3, {constructor: {value: var1}});
@@ -127,7 +127,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = new var15[var1](var14);
             var1 = var1 instanceof Object ? var1 : var3;
             var1['src'] = var2;
- 378:
+case 2:
             var1 = undefined;
             return var1;
         }

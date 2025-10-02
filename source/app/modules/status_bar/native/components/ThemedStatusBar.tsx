@@ -41,7 +41,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function _default() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
             var7 = 4;
@@ -91,34 +91,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.bind(var5)();
             var6 = 'light-content';
             var5 = var6;
-            if(!var8) { _fun0001_ip = 208; continue _fun0001 }
- 152:
-            if(!var8) { _fun0001_ip = 190; continue _fun0001 }
- 155:
-            if(var3) { _fun0001_ip = 190; continue _fun0001 }
- 158:
+            if(!var8) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            if(!var8) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            if(var3) { _fun0001_ip = 4; continue _fun0001 }
+case 6:
             var3 = var2.isVisible;
-            if(!var3) { _fun0001_ip = 176; continue _fun0001 }
- 167:
+            if(!var3) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var2 = var2.isCustomBackground;
-            if(var2) { _fun0001_ip = 185; continue _fun0001 }
- 176:
+            if(var2) { _fun0001_ip = 9; continue _fun0001 }
+case 7:
             var2 = 'dark-content';
-            if(!var7) { _fun0001_ip = 188; continue _fun0001 }
- 185:
+            if(!var7) { _fun0001_ip = 10; continue _fun0001 }
+case 9:
             var2 = var6;
- 188:
-            _fun0001_ip = 205; continue _fun0001;
- 190:
+case 10:
+            _fun0001_ip = 11; continue _fun0001;
+case 4:
             var3 = 'dark-content';
-            if(!var7) { _fun0001_ip = 202; continue _fun0001 }
- 199:
+            if(!var7) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var3 = var6;
- 202:
+case 12:
             var2 = var3;
- 205:
+case 11:
             var5 = var2;
- 208:
+case 2:
             var3 = _closure1_slot5;
             var2 = _closure1_slot1;
             var6 = _closure1_slot2;

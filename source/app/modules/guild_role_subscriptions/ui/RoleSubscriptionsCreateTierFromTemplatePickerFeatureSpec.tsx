@@ -83,32 +83,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = function() {
             var1 = function(arg1) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     var2 = arg1;
                     var5 = var2.features;
                     var4 = var5.has;
                     var1 = _closure1_slot4;
                     var1 = var1.ROLE_SUBSCRIPTIONS_ENABLED;
                     var1 = var4.bind(var5)(var1);
-                    if(!var1) { _fun0001_ip = 64; continue _fun0001 }
- 35:
+                    if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var6 = var2.features;
                     var5 = var6.has;
                     var4 = _closure1_slot4;
                     var4 = var4.CREATOR_MONETIZABLE_RESTRICTED;
                     var4 = var5.bind(var6)(var4);
                     var1 = !var4;
- 64:
-                    if(!var1) { _fun0001_ip = 93; continue _fun0001 }
- 67:
+case 2:
+                    if(!var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                     var6 = _closure1_slot3;
                     var5 = var6.can;
                     var4 = _closure1_slot5;
                     var4 = var4.ADMINISTRATOR;
                     var1 = var5.bind(var6)(var4, var2);
- 93:
-                    if(!var1) { _fun0001_ip = 128; continue _fun0001 }
- 96:
+case 4:
+                    if(!var1) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                     var6 = _closure1_slot0;
                     var5 = _closure1_slot1;
                     var4 = 5;
@@ -117,9 +117,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var6.bind(var4)(var5);
                     var4 = var5.isUserEligibleForTierTemplates;
                     var1 = var4.bind(var5)();
- 128:
-                    if(!var1) { _fun0001_ip = 169; continue _fun0001 }
- 131:
+case 6:
+                    if(!var1) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot1;
                     var3 = 5;
@@ -129,7 +129,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var4.isGuildEligibleForTierTemplates;
                     var2 = var2.id;
                     var1 = var3.bind(var4)(var2);
- 169:
+case 8:
                     return var1;
                 }
             };

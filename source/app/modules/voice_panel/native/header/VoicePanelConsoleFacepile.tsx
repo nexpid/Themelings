@@ -9,20 +9,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var7;
     var2 = function getConsoleInfo(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var4 = var3.type;
             var1 = _closure1_slot4;
             var1 = var1.XBOX;
-            if(!(var1 !== var4)) { _fun0001_ip = 222; continue _fun0001 }
- 28:
+            if(!(var1 !== var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = _closure1_slot4;
             var1 = var1.PLAYSTATION;
-            if(!(var1 !== var4)) { _fun0001_ip = 46; continue _fun0001 }
- 42:
+            if(!(var1 !== var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = null;
             return var1;
- 46:
+case 4:
             var1 = {};
             var5 = _closure1_slot1;
             var9 = _closure1_slot2;
@@ -62,7 +62,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var5.bind(var6)(var4);
             var1['connectSublabel'] = var4;
             return var1;
- 222:
+case 2:
             var1 = {};
             var4 = _closure1_slot1;
             var7 = _closure1_slot2;

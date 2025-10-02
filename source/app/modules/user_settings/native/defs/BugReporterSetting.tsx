@@ -47,13 +47,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['IconComponent'] = var8;
     var7 = function handleBugReporterSettingPress() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = _closure1_slot3;
             var2 = var3.getField;
             var1 = 'isReportOpen';
             var1 = var2.bind(var3)(var1);
-            if(var1) { _fun0001_ip = 116; continue _fun0001 }
- 25:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = _closure1_slot3;
             var2 = var3.setState;
             var1 = {};
@@ -76,7 +76,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.paths;
             var1 = var5.bind(var6)(var4, var1);
             var1 = var2.bind(var3)(var1);
- 116:
+case 2:
             var1 = undefined;
             return var1;
         }

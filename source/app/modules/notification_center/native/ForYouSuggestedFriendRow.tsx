@@ -56,7 +56,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var8.createStyles;
     var4 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
             var1 = 7;
@@ -103,10 +103,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var10.isAndroid;
             var10 = var6.bind(var10)();
             var6 = 0;
-            if(!var10) { _fun0001_ip = 212; continue _fun0001 }
- 209:
+            if(!var10) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = var9;
- 212:
+case 2:
             var2['marginBottom'] = var6;
             var1['nameText'] = var2;
             var2 = {'position': 'relative', 'borderRadius': null, 'justifyContent': 'center', 'alignItems': 'center', 'flexShrink': 0, 'flexGrow': 0};
@@ -145,7 +145,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function ForYouSuggestedFriendRow(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var25 = var1.suggestedFriend;
             var _closure2_slot0 = var25;
@@ -155,10 +155,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot2 = var2;
             var4 = var1.panelVariant;
             var8 = undefined;
-            if(!(var4 === var8)) { _fun0002_ip = 49; continue _fun0002 }
- 47:
+            if(!(var4 === var8)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var4 = false;
- 49:
+case 4:
             var _closure2_slot3 = var8;
             var _closure2_slot4 = var8;
             var _closure2_slot5 = var8;
@@ -242,13 +242,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var25.friendSuggestionName;
             var3 = null;
             var5 = var4;
-            if(!(var3 != var2)) { _fun0002_ip = 285; continue _fun0002 }
- 268:
+            if(!(var3 != var2)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var2 = var25.friendSuggestionName;
             var4 = var2.length;
             var2 = 0;
-            if(!(!(var4 > var2))) { _fun0002_ip = 323; continue _fun0002 }
- 285:
+            if(!(!(var4 > var2))) { _fun0002_ip = 8; continue _fun0002 }
+case 6:
             var4 = _closure1_slot1;
             var7 = _closure1_slot2;
             var2 = 15;
@@ -257,10 +257,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var7.getName;
             var2 = var25.user;
             var4 = var4.bind(var7)(var2);
-            _fun0002_ip = 329; continue _fun0002;
- 323:
+            _fun0002_ip = 9; continue _fun0002;
+case 8:
             var4 = var25.friendSuggestionName;
- 329:
+case 9:
             var7 = _closure1_slot0;
             var10 = _closure1_slot2;
             var2 = 16;
@@ -272,21 +272,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var32 = '';
             var28 = var4;
             var31 = var32;
-            if(!var2) { _fun0002_ip = 402; continue _fun0002 }
- 378:
+            if(!var2) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
             var2 = global;
             var2 = var2.HermesInternal;
             var4 = var2.concat;
             var2 = ' · ';
             var31 = var4.bind(var2)(var7);
- 402:
+case 10:
             var2 = var25.mutualFriendsCount;
-            if(!(var3 != var2)) { _fun0002_ip = 424; continue _fun0002 }
- 412:
+            if(!(var3 != var2)) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
             var3 = var25.mutualFriendsCount;
             var2 = 0;
-            if(!(!(var3 > var2))) { _fun0002_ip = 462; continue _fun0002 }
- 424:
+            if(!(!(var3 > var2))) { _fun0002_ip = 14; continue _fun0002 }
+case 12:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
             var2 = 15;
@@ -295,8 +295,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.getName;
             var2 = var25.user;
             var22 = var3.bind(var4)(var2);
-            _fun0002_ip = 531; continue _fun0002;
- 462:
+            _fun0002_ip = 15; continue _fun0002;
+case 14:
             var3 = _closure1_slot0;
             var10 = _closure1_slot2;
             var2 = 17;
@@ -312,7 +312,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var25.mutualFriendsCount;
             var2['count'] = var10;
             var22 = var4.bind(var7)(var3, var2);
- 531:
+case 15:
             var30 = _closure1_slot0;
             var29 = _closure1_slot2;
             var2 = 18;
@@ -349,15 +349,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[1] = var1;
             var1 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var2 = _closure2_slot5;
-                    if(var2) { _fun0003_ip = 26; continue _fun0003 }
- 10:
+                    if(var2) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
                     var3 = _closure2_slot4;
                     var2 = var3.set;
                     var1 = false;
                     var1 = var2.bind(var3)(var1);
- 26:
+case 16:
                     var1 = undefined;
                     return var1;
                 }
@@ -443,10 +443,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var29 = var30.isAndroid;
             var30 = var29.bind(var30)();
             var29 = 0;
-            if(!var30) { _fun0002_ip = 1003; continue _fun0002 }
- 997:
+            if(!var30) { _fun0002_ip = 18; continue _fun0002 }
+case 19:
             var29 = -2;
- 1003:
+case 18:
             var28['marginTop'] = var29;
             var27['style'] = var28;
             var30 = _closure1_slot9;
@@ -464,10 +464,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var35 = var36.isAndroid;
             var35 = var35.bind(var36)();
             var34 = 0;
-            if(!var35) { _fun0002_ip = 1080; continue _fun0002 }
- 1077:
+            if(!var35) { _fun0002_ip = 20; continue _fun0002 }
+case 21:
             var34 = 2;
- 1080:
+case 20:
             var33 = var33 + var34;
             var28['lineHeight'] = var33;
             var21 = var21.messagePreview;
@@ -518,10 +518,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var21 = var22.isLayoutCozy;
             var22 = var21.bind(var22)(var6);
             var21 = 'sm';
-            if(!var22) { _fun0002_ip = 1324; continue _fun0002 }
- 1320:
+            if(!var22) { _fun0002_ip = 22; continue _fun0002 }
+case 23:
             var21 = 'md';
- 1324:
+case 22:
             var16['size'] = var21;
             var21 = function onAddSuggestion(arg1) {
                 var4 = _closure1_slot1;

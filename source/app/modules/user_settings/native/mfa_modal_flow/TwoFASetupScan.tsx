@@ -58,7 +58,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function TwoFASetupScan(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var21 = var2.totpSecret;
             var _closure2_slot0 = var21;
@@ -210,15 +210,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var14[var18];
             var14 = var17.bind(var4)(var14);
             var14 = var14.t;
-            if(var13) { _fun0001_ip = 604; continue _fun0001 }
- 591:
+            if(var13) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var13 = var14.OpuAlJ;
             var13 = var15.bind(var16)(var13);
-            _fun0001_ip = 615; continue _fun0001;
- 604:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var14 = var14.mGZ66O;
             var13 = var15.bind(var16)(var14);
- 615:
+case 4:
             var11['children'] = var13;
             var11 = var3.bind(var4)(var12, var11);
             var9['children'] = var11;

@@ -62,7 +62,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function EditGuildEventModalNavbar(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var3 = var1.screen;
             var13 = var1.onClose;
@@ -76,24 +76,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2.bind(var4)(var1);
             var1 = var1.EditGuildEventScreens;
             var1 = var1.CHANNEL_SELECTOR;
-            if(!(var1 !== var3)) { _fun0001_ip = 192; continue _fun0001 }
- 67:
+            if(!(var1 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = _closure1_slot0;
             var1 = _closure1_slot2;
             var1 = var1[var5];
             var1 = var2.bind(var4)(var1);
             var1 = var1.EditGuildEventScreens;
             var1 = var1.DETAILS;
-            if(!(var1 !== var3)) { _fun0001_ip = 180; continue _fun0001 }
- 100:
+            if(!(var1 !== var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = _closure1_slot0;
             var1 = _closure1_slot2;
             var1 = var1[var5];
             var1 = var2.bind(var4)(var1);
             var1 = var1.EditGuildEventScreens;
             var1 = var1.PREVIEW;
-            if(!(var1 !== var3)) { _fun0001_ip = 168; continue _fun0001 }
- 133:
+            if(!(var1 !== var3)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var2 = _closure1_slot0;
             var5 = _closure1_slot2;
             var1 = 6;
@@ -102,16 +102,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2.assertNever;
             var1 = var1.bind(var2)(var3);
             var3 = undefined;
-            _fun0001_ip = 202; continue _fun0001;
- 168:
+            _fun0001_ip = 8; continue _fun0001;
+case 6:
             var3 = [3, 3];
-            _fun0001_ip = 202; continue _fun0001;
- 180:
+            _fun0001_ip = 8; continue _fun0001;
+case 4:
             var3 = [2, 3];
-            _fun0001_ip = 202; continue _fun0001;
- 192:
+            _fun0001_ip = 8; continue _fun0001;
+case 2:
             var3 = [1, 3];
- 202:
+case 8:
             var2 = _closure1_slot3;
             var1 = 2;
             var2 = var2.bind(var4)(var3, var1);

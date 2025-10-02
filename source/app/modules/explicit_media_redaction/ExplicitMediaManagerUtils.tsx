@@ -3,44 +3,44 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3 = exports;
     var1 = function hasAttachmentsEmbedsOrComponents(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var1 = var3.attachments;
             var4 = null;
             var1 = var4 != var1;
-            if(!var1) { _fun0001_ip = 35; continue _fun0001 }
- 18:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var3.attachments;
             var5 = var2.length;
             var2 = 0;
             var1 = var5 > var2;
- 35:
-            if(var1) { _fun0001_ip = 71; continue _fun0001 }
- 38:
+case 2:
+            if(var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = var3.embeds;
             var2 = var4 != var2;
-            if(!var2) { _fun0001_ip = 68; continue _fun0001 }
- 51:
+            if(!var2) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var5 = var3.embeds;
             var6 = var5.length;
             var5 = 0;
             var2 = var6 > var5;
- 68:
+case 6:
             var1 = var2;
- 71:
-            if(var1) { _fun0001_ip = 107; continue _fun0001 }
- 74:
+case 4:
+            if(var1) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var2 = var3.components;
             var2 = var4 != var2;
-            if(!var2) { _fun0001_ip = 104; continue _fun0001 }
- 87:
+            if(!var2) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var3 = var3.components;
             var4 = var3.length;
             var3 = 0;
             var2 = var4 > var3;
- 104:
+case 10:
             var1 = var2;
- 107:
+case 8:
             return var1;
         }
     };
@@ -64,32 +64,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function hasAttachmentsEmbedsComponentsOrSnapshots(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var2 = arg1;
             var4 = null;
-            if(!(var4 != var2)) { _fun0002_ip = 93; continue _fun0002 }
- 9:
+            if(!(var4 != var2)) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
             var1 = 'messageSnapshots';
             var1 = var1 in var2;
-            if(var1) { _fun0002_ip = 28; continue _fun0002 }
- 20:
+            if(var1) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
             var6 = var2.message_snapshots;
-            _fun0002_ip = 34; continue _fun0002;
- 28:
+            _fun0002_ip = 16; continue _fun0002;
+case 14:
             var6 = var2.messageSnapshots;
- 34:
+case 16:
             var1 = _closure1_slot0;
             var3 = undefined;
             var1 = var1.bind(var3)(var2);
-            if(var1) { _fun0002_ip = 91; continue _fun0002 }
- 51:
+            if(var1) { _fun0002_ip = 17; continue _fun0002 }
+case 7:
             var2 = var4 != var6;
-            if(!var2) { _fun0002_ip = 88; continue _fun0002 }
- 58:
+            if(!var2) { _fun0002_ip = 18; continue _fun0002 }
+case 19:
             var4 = var4 == var6;
             var3 = undefined;
-            if(var4) { _fun0002_ip = 85; continue _fun0002 }
- 67:
+            if(var4) { _fun0002_ip = 20; continue _fun0002 }
+case 21:
             var5 = var6.some;
             var4 = function(arg1) {
                 var3 = _closure1_slot0;
@@ -100,13 +100,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var3 = var5.bind(var6)(var4);
- 85:
+case 20:
             var2 = var3;
- 88:
+case 18:
             var1 = var2;
- 91:
+case 17:
             return var1;
- 93:
+case 12:
             var1 = false;
             return var1;
         }

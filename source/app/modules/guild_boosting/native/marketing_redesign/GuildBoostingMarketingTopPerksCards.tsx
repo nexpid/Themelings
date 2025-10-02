@@ -313,7 +313,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10 = var11.map;
         var9 = function(arg1, arg2) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var11 = arg1;
                 var5 = arg2;
                 var4 = _closure1_slot8;
@@ -328,11 +328,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = 1;
                 var8 = var9 - var8;
                 var8 = var5 === var8;
-                if(!var8) { _fun0001_ip = 73; continue _fun0001 }
- 63:
+                if(!var8) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var9 = _closure2_slot0;
                 var8 = var9.cardLast;
- 73:
+case 2:
                 var7[1] = var8;
                 var2['style'] = var7;
                 var7 = var11.getGraphic;

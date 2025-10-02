@@ -7,7 +7,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var5;
     var4 = function isAuthorizedAppTwoWay(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var3 = _closure1_slot0;
             var1 = _closure1_slot1;
@@ -18,8 +18,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.ConsoleOAuthApplications;
             var1 = var1.XBOX_APPLICATION_ID;
             var1 = var1 === var4;
-            if(var1) { _fun0001_ip = 85; continue _fun0001 }
- 46:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = _closure1_slot0;
             var2 = _closure1_slot1;
             var2 = var2[var6];
@@ -28,7 +28,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var2.PLAYSTATION_APPLICATION_IDS;
             var2 = var3.has;
             var1 = var2.bind(var3)(var4);
- 85:
+case 2:
             return var1;
         }
     };

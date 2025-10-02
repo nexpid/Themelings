@@ -31,7 +31,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function FormSubLabel(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var5 = var1.text;
             var8 = var1.numberOfLines;
@@ -39,10 +39,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var1.accessible;
             var9 = var1.color;
             var4 = undefined;
-            if(!(var9 === var4)) { _fun0001_ip = 42; continue _fun0001 }
- 36:
+            if(!(var9 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var9 = 'text-secondary';
- 42:
+case 2:
             var3 = _closure1_slot2;
             var2 = _closure1_slot0;
             var10 = _closure1_slot1;

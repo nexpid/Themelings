@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function TestView() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = _closure1_slot9;
             var4 = undefined;
             var22 = var1.bind(var4)();
@@ -47,10 +47,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = null;
             var9 = var16 == var8;
             var1 = undefined;
-            if(var9) { _fun0001_ip = 144; continue _fun0001 }
- 139:
+            if(var9) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var8.id;
- 144:
+case 2:
             var5 = var5.bind(var7)(var1);
             var1 = _closure1_slot3;
             var1 = var1.bind(var4)(var5, var6);
@@ -150,26 +150,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var10.Button;
             var10 = {};
             var14 = var16 === var14;
-            if(var14) { _fun0001_ip = 631; continue _fun0001 }
- 627:
+            if(var14) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var14 = var16 === var15;
- 631:
+case 4:
             var10['disabled'] = var14;
             var14 = 'Send Gift';
             var10['text'] = var14;
             var13 = function onPress() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var2 = _closure2_slot0;
                     var4 = null;
                     var2 = var4 != var2;
-                    if(!var2) { _fun0002_ip = 24; continue _fun0002 }
- 16:
+                    if(!var2) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var3 = _closure2_slot2;
                     var2 = var4 != var3;
- 24:
-                    if(!var2) { _fun0002_ip = 81; continue _fun0002 }
- 27:
+case 6:
+                    if(!var2) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                     var3 = _closure1_slot10;
                     var2 = {};
                     var4 = _closure2_slot0;
@@ -182,7 +182,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2['giftMessage'] = var1;
                     var1 = undefined;
                     var1 = var3.bind(var1)(var2);
- 81:
+case 8:
                     var1 = undefined;
                     return var1;
                 }

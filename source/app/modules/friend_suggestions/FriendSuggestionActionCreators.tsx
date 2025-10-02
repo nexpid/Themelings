@@ -32,11 +32,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = function* () {
             var1 = function* anon_0_() {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 191; continue _fun0001 }
- 10: // try_start_0
+                    if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3: // try_start_0
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot2;
                     var2 = 2;
@@ -53,12 +53,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2['rejectWithError'] = var7;
                     var2 = var4.bind(var6)(var2);
                     SaveGenerator(address=76);
- 74:
+case 4:
                     return var2;
- 76:
+case 5:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0001_ip = 134; continue _fun0001 }
- 82:
+                    if(var4) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                     var4 = _closure1_slot1;
                     var6 = _closure1_slot2;
                     var3 = 3;
@@ -71,11 +71,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = var2.body;
                     var3['suggestions'] = var6;
                     var3 = var4.bind(var5)(var3);
- 132: // try_end0
-                    _fun0001_ip = 186; continue _fun0001;
- 134:
+case 8: // try_end0
+                    _fun0001_ip = 9; continue _fun0001;
+case 6:
                     return var2;
- 137: // catch_target0
+case 10: // catch_target0
                     CatchBlockStart(arg_register=1);
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
@@ -88,10 +88,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = 'LOAD_FRIEND_SUGGESTIONS_FAILURE';
                     var2['type'] = var5;
                     var2 = var3.bind(var4)(var2);
- 186:
+case 9:
                     var2 = undefined;
                     return var2;
- 191:
+case 2:
                     return var1;
                 }
             };

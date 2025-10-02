@@ -29,17 +29,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function createGuildStreamSystemMessage(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var9 = var4.message;
             var15 = var4.roleStyle;
             var7 = var9.author;
             var1 = var9.messageReference;
             var14 = null;
-            if(!(var14 == var1)) { _fun0001_ip = 34; continue _fun0001 }
- 32:
+            if(!(var14 == var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = {};
- 34:
+case 2:
             var8 = var1.channel_id;
             var6 = var1.guild_id;
             var5 = _closure1_slot1;
@@ -76,24 +76,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['colorString'] = var13;
             var18 = 'username';
             var12 = null;
-            if(!(var18 === var15)) { _fun0001_ip = 203; continue _fun0001 }
- 200:
+            if(!(var18 === var15)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var12 = var13;
- 203:
+case 4:
             var1['linkColor'] = var12;
             var1['roleColor'] = var13;
             var12 = null;
-            if(!var17) { _fun0001_ip = 221; continue _fun0001 }
- 218:
+            if(!var17) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var12 = var16;
- 221:
+case 6:
             var1['roleColors'] = var12;
             var12 = 'dot';
             var12 = var12 === var15;
-            if(!var12) { _fun0001_ip = 241; continue _fun0001 }
- 237:
+            if(!var12) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var12 = var14 != var13;
- 241:
+case 8:
             var1['shouldShowRoleDot'] = var12;
             var9 = var9.channel_id;
             var1['messageChannelId'] = var9;
@@ -124,8 +124,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var12[var6];
             var6 = var7.bind(var3)(var6);
             var6 = var6.t;
-            if(var5) { _fun0001_ip = 414; continue _fun0001 }
- 375:
+            if(var5) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var7 = var6.dMmbGh;
             var5 = {};
             var21 = var5;
@@ -134,8 +134,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = 'onJoinStream';
             var5[var12] = var13;
             var5 = var8.bind(var9)(var7, var5);
-            _fun0001_ip = 449; continue _fun0001;
- 414:
+            _fun0001_ip = 12; continue _fun0001;
+case 10:
             var7 = var6.FP7rUF;
             var6 = {};
             var21 = var6;
@@ -144,7 +144,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = 'duration';
             var6[var10] = var11;
             var5 = var8.bind(var9)(var7, var6);
- 449:
+case 12:
             var1['content'] = var5;
             var5 = _closure1_slot1;
             var6 = _closure1_slot2;

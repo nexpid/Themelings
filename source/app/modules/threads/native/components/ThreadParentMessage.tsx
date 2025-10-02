@@ -57,7 +57,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function ThreadChannelStarterMessage(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = var1.guildId;
             var _closure2_slot0 = var2;
@@ -87,15 +87,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = null;
             var2 = var1 == var8;
             var3 = undefined;
-            if(var2) { _fun0001_ip = 103; continue _fun0001 }
- 98:
+            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = var8.state;
- 103:
+case 2:
             var2 = _closure1_slot4;
             var2 = var2.LOADED;
             var1 = null;
-            if(!(var3 === var2)) { _fun0001_ip = 229; continue _fun0001 }
- 119:
+            if(!(var3 === var2)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var4 = _closure1_slot6;
             var3 = _closure1_slot0;
             var10 = _closure1_slot2;
@@ -135,14 +135,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var4.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 229:
+case 4:
             return var1;
         }
     };
     var3['ThreadChannelStarterMessage'] = var4;
     var2 = function ThreadCreationStarterMessage(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var2 = arg1;
             var3 = var2.messageId;
             var _closure2_slot0 = var3;
@@ -169,8 +169,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var3.bind(var4)(var2, var1);
             var1 = null;
             var2 = var1 == var6;
-            if(var2) { _fun0002_ip = 132; continue _fun0002 }
- 87:
+            if(var2) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var4 = _closure1_slot6;
             var3 = _closure1_slot1;
             var8 = _closure1_slot2;
@@ -182,7 +182,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['rowGenerator'] = var7;
             var2['message'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 132:
+case 6:
             return var1;
         }
     };

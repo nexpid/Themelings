@@ -24,13 +24,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arguments[1];
             var3 = undefined;
-            if(!(var4 === var3)) { _fun0001_ip = 11; continue _fun0001 }
- 9:
+            if(!(var4 === var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = true;
- 11:
+case 2:
             var2 = _closure1_slot1;
             var1 = _closure1_slot2;
             var7 = 0;
@@ -43,13 +43,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = _closure1_slot2;
             var5 = var5[var7];
             var5 = var6.bind(var3)(var5);
-            if(var4) { _fun0001_ip = 71; continue _fun0001 }
- 63:
+            if(var4) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var4 = var5.getFullFormatter;
-            _fun0001_ip = 77; continue _fun0001;
- 71:
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
             var4 = var5.getAbbreviatedFormatter;
- 77:
+case 6:
             var1['getFormatter'] = var4;
             var1 = var2.bind(var3)(var1);
             return var1;
@@ -58,12 +58,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['getRelativeTimestamp'] = var4;
     var4 = function(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var3 = arg1;
             var6 = arg2;
             var1 = var3.acked;
-            if(var1) { _fun0002_ip = 99; continue _fun0002 }
- 15:
+            if(var1) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
             var5 = _closure1_slot0;
             var7 = _closure1_slot2;
             var2 = 1;
@@ -72,8 +72,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var5.bind(var7)(var2);
             var2 = var2.NOTIFICATION_CENTER_ACKED_BEFORE_ID_UNSET;
             var2 = var6 !== var2;
-            if(!var2) { _fun0002_ip = 96; continue _fun0002 }
- 53:
+            if(!var2) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
             var5 = _closure1_slot1;
             var8 = _closure1_slot2;
             var4 = 2;
@@ -84,9 +84,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.bind(var5)(var6, var3);
             var3 = 0;
             var2 = var4 >= var3;
- 96:
+case 9:
             var1 = var2;
- 99:
+case 7:
             return var1;
         }
     };
@@ -231,7 +231,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['mobileNativeUpdateAvailableLocalItem'] = var4;
     var2 = function(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var3 = arg1;
             var4 = var3.type;
             var7 = _closure1_slot0;
@@ -243,8 +243,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.NotificationCenterItems;
             var1 = var1.RECENT_MENTION;
             var1 = var4 === var1;
-            if(var1) { _fun0003_ip = 90; continue _fun0003 }
- 52:
+            if(var1) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
             var3 = var3.type;
             var4 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -253,7 +253,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.NotificationCenterItems;
             var2 = var2.REPLY_MENTION;
             var1 = var3 === var2;
- 90:
+case 11:
             return var1;
         }
     };

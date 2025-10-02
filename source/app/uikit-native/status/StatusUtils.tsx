@@ -53,25 +53,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['getMobileStatusContainerRect'] = var4;
     var2 = function getStatusTypingDimensions(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var2 = _closure1_slot1;
             var2 = var2.SMALL;
-            if(!(var2 !== var3)) { _fun0001_ip = 54; continue _fun0001 }
- 20:
+            if(!(var2 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = _closure1_slot1;
             var2 = var2.XSMALL;
-            if(!(var2 !== var3)) { _fun0001_ip = 54; continue _fun0001 }
- 34:
+            if(!(var2 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var1 = _closure1_slot1;
             var1 = var1.REFRESH_MEDIUM_10;
             var6 = 28;
             var2 = 6;
-            if(!(var1 === var3)) { _fun0001_ip = 60; continue _fun0001 }
- 54:
+            if(!(var1 === var3)) { _fun0001_ip = 5; continue _fun0001 }
+case 2:
             var6 = 22;
             var2 = 4;
- 60:
+case 5:
             var1 = {};
             var1['width'] = var6;
             var3 = global;

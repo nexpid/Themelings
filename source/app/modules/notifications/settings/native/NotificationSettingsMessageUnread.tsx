@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function NotificationSettingsMessageUnread(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var18 = arg1;
             var _closure2_slot0 = var18;
             var2 = _closure1_slot6;
@@ -123,16 +123,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var21 = null;
             var25 = var21 == var24;
             var22 = undefined;
-            if(var25) { _fun0001_ip = 495; continue _fun0001 }
- 490:
+            if(var25) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var22 = var24.label;
- 495:
+case 2:
             var24 = var21 != var22;
             var21 = 'unset';
-            if(!var24) { _fun0001_ip = 509; continue _fun0001 }
- 506:
+            if(!var24) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var21 = var22;
- 509:
+case 4:
             var14['children'] = var21;
             var14 = var19.bind(var4)(var15, var14);
             var12[1] = var14;

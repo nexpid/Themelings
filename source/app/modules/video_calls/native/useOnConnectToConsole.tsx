@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var7;
     var4 = function onConnectToConsole(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg2;
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -25,11 +25,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.DONUT_MOBILE_NUX;
             var3 = var5.bind(var6)(var3);
             var3 = var2.twoWayLink;
-            if(!var3) { _fun0001_ip = 123; continue _fun0001 }
- 72:
+            if(!var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = var2.revoked;
-            if(var3) { _fun0001_ip = 123; continue _fun0001 }
- 81:
+            if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
             var3 = 6;
@@ -40,22 +40,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = arg1;
             var3 = var6.bind(var7)(var3, var5);
             return var4;
- 123:
+case 2:
             var5 = var2.type;
             var3 = _closure1_slot5;
             var3 = var3.XBOX;
-            if(!(var3 !== var5)) { _fun0001_ip = 229; continue _fun0001 }
- 142:
+            if(!(var3 !== var5)) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var3 = _closure1_slot5;
             var3 = var3.PLAYSTATION;
-            if(!(var3 !== var5)) { _fun0001_ip = 172; continue _fun0001 }
- 156:
+            if(!(var3 !== var5)) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var3 = _closure1_slot5;
             var3 = var3.PLAYSTATION_STAGING;
-            if(!(var3 !== var5)) { _fun0001_ip = 172; continue _fun0001 }
- 170:
+            if(!(var3 !== var5)) { _fun0001_ip = 7; continue _fun0001 }
+case 9:
             return var4;
- 172:
+case 7:
             var5 = _closure1_slot1;
             var6 = _closure1_slot2;
             var3 = 5;
@@ -69,7 +69,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.type;
             var2 = var5.bind(var6)(var3, var2);
             return var2;
- 229:
+case 5:
             var3 = _closure1_slot1;
             var5 = _closure1_slot2;
             var2 = 4;

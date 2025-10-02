@@ -102,7 +102,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['Separator'] = var4;
     var2 = function Content(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var3 = var1.listingId;
             var22 = var1.guildId;
@@ -199,8 +199,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5[0] = var8;
             var9 = var6 > var7;
             var8 = null;
-            if(!var9) { _fun0001_ip = 608; continue _fun0001 }
- 404:
+            if(!var9) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var11 = _closure1_slot8;
             var10 = _closure1_slot7;
             var9 = {};
@@ -250,12 +250,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12[2] = var18;
             var9['children'] = var12;
             var8 = var11.bind(var4)(var10, var9);
- 608:
+case 2:
             var5[1] = var8;
             var9 = var29 > var7;
             var8 = null;
-            if(!var9) { _fun0001_ip = 826; continue _fun0001 }
- 624:
+            if(!var9) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var11 = _closure1_slot8;
             var10 = _closure1_slot7;
             var9 = {};
@@ -319,12 +319,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12[2] = var18;
             var9['children'] = var12;
             var8 = var11.bind(var4)(var10, var9);
- 826:
+case 4:
             var5[2] = var8;
             var7 = var24 > var7;
             var6 = null;
-            if(!var7) { _fun0001_ip = 1044; continue _fun0001 }
- 842:
+            if(!var7) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var9 = _closure1_slot8;
             var8 = _closure1_slot7;
             var7 = {};
@@ -388,7 +388,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10[2] = var11;
             var7['children'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 1044:
+case 6:
             var5[3] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

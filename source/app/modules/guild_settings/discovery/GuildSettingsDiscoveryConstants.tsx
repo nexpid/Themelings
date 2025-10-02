@@ -2580,20 +2580,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var4.map;
         var2 = function(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var3 = var1.value;
                 var2 = var1.name;
                 var1 = 'en-US';
-                if(!(var1 !== var3)) { _fun0001_ip = 40; continue _fun0001 }
- 21:
+                if(!(var1 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var1 = {};
                 var1['value'] = var3;
                 var1['label'] = var2;
                 var2 = undefined;
                 var1['image'] = var2;
-                _fun0001_ip = 119; continue _fun0001;
- 40:
+                _fun0001_ip = 4; continue _fun0001;
+case 2:
                 var2 = {};
                 var2['value'] = var3;
                 var7 = _closure1_slot0;
@@ -2612,7 +2612,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2['label'] = var4;
                 var2['image'] = var3;
                 var1 = var2;
- 119:
+case 4:
                 return var1;
             }
         };

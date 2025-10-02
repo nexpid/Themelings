@@ -19,7 +19,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot3 = var4;
     var1 = function commandPermissions(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var10 = arg2;
             var1 = {};
             var2 = global;
@@ -34,8 +34,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = 2;
             var4 = 1;
             var3 = 0;
-            if(!var2) { _fun0001_ip = 110; continue _fun0001 }
- 54:
+            if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var11 = var9[var3];
             var2 = _closure1_slot2;
             var2 = var2.bind(var6)(var11, var5);
@@ -44,14 +44,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var10.includes;
             var12 = var2.type;
             var12 = var13.bind(var10)(var12);
-            if(!var12) { _fun0001_ip = 98; continue _fun0001 }
- 94:
+            if(!var12) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1[var11] = var2;
- 98:
+case 4:
             var3 = var3 + 1;
             var2 = var9.length;
-            if(var3 < var2) { _fun0001_ip = 54; continue _fun0001 }
- 110:
+            if(var3 < var2) { _fun0001_ip = 3; continue _fun0001 }
+case 2:
             return var1;
         }
     };
@@ -78,7 +78,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var7)(var5);
     var5 = function commandName(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var3 = arg2;
             var4 = _closure1_slot0;
             var2 = _closure1_slot1;
@@ -90,11 +90,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var1.CHAT;
             var2 = arg1;
             var1 = var3;
-            if(!(var2 === var4)) { _fun0002_ip = 58; continue _fun0002 }
- 50:
+            if(!(var2 === var4)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var2 = '/';
             var1 = var2 + var3;
- 58:
+case 6:
             return var1;
         }
     };

@@ -198,7 +198,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['resetImperatively'] = var4;
     var4 = function initializeImperatively(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var3 = _closure1_slot3;
             var1 = var3.getState;
@@ -213,11 +213,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.bind(var1)();
             var4 = var2.description;
             var5 = null;
-            if(!(var5 != var4)) { _fun0001_ip = 83; continue _fun0001 }
- 73:
+            if(!(var5 != var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = var2.description;
             var4 = var9.bind(var1)(var4);
- 83:
+case 2:
             var4 = var2.emoji_id;
             var4 = var8.bind(var1)(var4);
             var4 = var2.emoji_name;
@@ -225,11 +225,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var2.name;
             var4 = var6.bind(var1)(var4);
             var4 = var2.ref_id;
-            if(!(var5 != var4)) { _fun0001_ip = 136; continue _fun0001 }
- 125:
+            if(!(var5 != var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = var2.ref_id;
             var2 = var3.bind(var1)(var2);
- 136:
+case 4:
             return var1;
         }
     };

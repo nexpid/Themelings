@@ -20,7 +20,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var4.bind(var5)(var2);
     var2 = function createFavoritesChannelRecord(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg2;
             var3 = arg3;
             var4 = var3.constructor;
@@ -35,24 +35,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['position_'] = var3;
             var3 = var2.nickname;
             var4 = null;
-            if(!(var4 != var3)) { _fun0001_ip = 77; continue _fun0001 }
- 65:
+            if(!(var4 != var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = var2.nickname;
             var1['name'] = var3;
- 77:
+case 2:
             var3 = var2.parentId;
             var3 = var4 != var3;
-            if(!var3) { _fun0001_ip = 103; continue _fun0001 }
- 90:
+            if(!var3) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = var2.parentId;
             var4 = arg1;
             var3 = var5 in var4;
- 103:
-            if(!var3) { _fun0001_ip = 118; continue _fun0001 }
- 106:
+case 4:
+            if(!var3) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var2 = var2.parentId;
             var1['parent_id'] = var2;
- 118:
+case 6:
             return var1;
         }
     };

@@ -158,7 +158,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var4.forEach;
         var2 = function(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var2 = arg1;
                 var4 = var2.type;
                 var5 = _closure1_slot0;
@@ -169,17 +169,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var5.bind(var1)(var3);
                 var3 = var3.ImpressionTypes;
                 var3 = var3.PAGE;
-                if(!(var4 !== var3)) { _fun0001_ip = 69; continue _fun0001 }
- 49:
+                if(!(var4 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var4 = _closure2_slot0;
                 var3 = var2.name;
                 var4['section'] = var3;
-                _fun0001_ip = 87; continue _fun0001;
- 69:
+                _fun0001_ip = 4; continue _fun0001;
+case 2:
                 var3 = _closure2_slot0;
                 var2 = var2.name;
                 var3['page'] = var2;
- 87:
+case 4:
                 return var1;
             }
         };

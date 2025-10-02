@@ -36,7 +36,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useIsMFAEnabled() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var3 = 3;
@@ -71,10 +71,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = {};
             var6 = null;
             var6 = var6 == var4;
-            if(var6) { _fun0001_ip = 113; continue _fun0001 }
- 107:
+            if(var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = var4.mfaEnabled;
- 113:
+case 2:
             var4 = true;
             var4 = var4 === var5;
             var1['isUserMFAEnabled'] = var4;

@@ -38,7 +38,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function getApplicationIdForActivity(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var5 = _closure1_slot0;
             var4 = _closure1_slot1;
@@ -47,60 +47,60 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = undefined;
             var1 = var5.bind(var4)(var1);
             var1 = var1.bind(var4)(var2);
-            if(var1) { _fun0001_ip = 182; continue _fun0001 }
- 39:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = _closure1_slot0;
             var6 = _closure1_slot1;
             var1 = 4;
             var1 = var6[var1];
             var1 = var5.bind(var4)(var1);
             var1 = var1.bind(var4)(var2);
-            if(!var1) { _fun0001_ip = 94; continue _fun0001 }
- 67:
+            if(!var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = var2.party;
             var5 = null;
-            if(!(var5 != var1)) { _fun0001_ip = 94; continue _fun0001 }
- 79:
+            if(!(var5 != var1)) { _fun0001_ip = 4; continue _fun0001 }
+case 6:
             var1 = var2.party;
             var1 = var1.id;
-            if(!(var5 == var1)) { _fun0001_ip = 171; continue _fun0001 }
- 94:
+            if(!(var5 == var1)) { _fun0001_ip = 7; continue _fun0001 }
+case 4:
             var5 = _closure1_slot0;
             var6 = _closure1_slot1;
             var1 = 5;
             var1 = var6[var1];
             var1 = var5.bind(var4)(var1);
             var1 = var1.bind(var4)(var2);
-            if(!var1) { _fun0001_ip = 133; continue _fun0001 }
- 122:
+            if(!var1) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var4 = var2.url;
             var1 = null;
-            if(!(var1 == var4)) { _fun0001_ip = 156; continue _fun0001 }
- 133:
+            if(!(var1 == var4)) { _fun0001_ip = 10; continue _fun0001 }
+case 8:
             var4 = var2.application_id;
             var1 = null;
             var4 = var1 != var4;
-            if(!var4) { _fun0001_ip = 154; continue _fun0001 }
- 148:
+            if(!var4) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var1 = var2.application_id;
- 154:
-            _fun0001_ip = 169; continue _fun0001;
- 156:
+case 11:
+            _fun0001_ip = 13; continue _fun0001;
+case 10:
             var5 = _closure1_slot3;
             var4 = var2.url;
             var1 = var5 + var4;
- 169:
-            _fun0001_ip = 180; continue _fun0001;
- 171:
+case 13:
+            _fun0001_ip = 14; continue _fun0001;
+case 7:
             var4 = _closure1_slot2;
             var1 = var4.id;
- 180:
-            _fun0001_ip = 195; continue _fun0001;
- 182:
+case 14:
+            _fun0001_ip = 15; continue _fun0001;
+case 2:
             var3 = _closure1_slot4;
             var2 = var2.name;
             var1 = var3 + var2;
- 195:
+case 15:
             return var1;
         }
     };

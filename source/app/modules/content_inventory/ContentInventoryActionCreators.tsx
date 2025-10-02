@@ -99,7 +99,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['onGameProfileOpen'] = var4;
     var4 = function onTapContentInventoryEntryEmbed(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var6 = var1.message;
             var3 = var1.authorId;
@@ -110,17 +110,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var4.bind(var7)(var1);
             var1 = 'avatar';
             var4 = var1 === var2;
-            if(var4) { _fun0001_ip = 64; continue _fun0001 }
- 53:
+            if(var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = 'username';
-            if(!(var1 === var2)) { _fun0001_ip = 220; continue _fun0001 }
- 64:
+            if(!(var1 === var2)) { _fun0001_ip = 4; continue _fun0001 }
+case 2:
             var2 = _closure1_slot6;
             var1 = var2.getUser;
             var10 = var1.bind(var2)(var3);
             var8 = null;
-            if(!(var8 != var10)) { _fun0001_ip = 220; continue _fun0001 }
- 88:
+            if(!(var8 != var10)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
             var1 = 8;
@@ -133,10 +133,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['userId'] = var10;
             var10 = var8 == var9;
             var8 = undefined;
-            if(var10) { _fun0001_ip = 141; continue _fun0001 }
- 136:
+            if(var10) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var8 = var9.id;
- 141:
+case 6:
             var1['channelId'] = var8;
             var6 = var6.id;
             var1['messageId'] = var6;
@@ -145,21 +145,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = 9;
             var5 = var8[var5];
             var5 = var6.bind(var7)(var5);
-            if(var4) { _fun0001_ip = 193; continue _fun0001 }
- 177:
+            if(var4) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var6 = var5.USERNAME;
             var4 = new Array(1);
             var4[0] = var6;
-            _fun0001_ip = 210; continue _fun0001;
- 193:
+            _fun0001_ip = 10; continue _fun0001;
+case 8:
             var6 = var5.AVATAR;
             var5 = new Array(1);
             var5[0] = var6;
             var4 = var5;
- 210:
+case 10:
             var1['sourceAnalyticsLocations'] = var4;
             var1 = var2.bind(var3)(var1);
- 220:
+case 4:
             var1 = undefined;
             return var1;
         }

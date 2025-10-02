@@ -82,7 +82,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['useOptions'] = var7;
     var7 = function useDmSpamFilterSettingValue() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = _closure1_slot0;
             var2 = _closure1_slot1;
             var6 = 4;
@@ -102,23 +102,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4.bind(var5)(var2);
             var2 = var2.DmSpamFilterV2;
             var2 = var2.DEFAULT_UNSET;
-            if(!(var1 === var2)) { _fun0001_ip = 146; continue _fun0001 }
- 94:
+            if(!(var1 === var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = _closure1_slot3;
             var2 = var4.get;
             var2 = var2.bind(var4)(var7);
             var4 = null;
-            if(!(var4 == var2)) { _fun0001_ip = 143; continue _fun0001 }
- 114:
+            if(!(var4 == var2)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
             var3 = var3[var6];
             var3 = var4.bind(var5)(var3);
             var3 = var3.DmSpamFilterV2;
             var2 = var3.NON_FRIENDS;
- 143:
+case 4:
             var1 = var2;
- 146:
+case 2:
             return var1;
         }
     };

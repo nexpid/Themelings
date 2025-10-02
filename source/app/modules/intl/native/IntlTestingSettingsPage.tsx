@@ -29,22 +29,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = function* (arg1) {
                 var1 = function* anon_0_(arg1) {
                     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                         StartGenerator();
                         var6 = arg1;
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0001_ip = 71; continue _fun0001 }
- 10:
+                        if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                         var2 = _closure1_slot8;
                         var3 = undefined;
                         var2 = var2.bind(var3)(var6);
                         SaveGenerator(address=28);
- 26:
+case 4:
                         return var2;
- 28:
+case 5:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                        if(var5) { _fun0001_ip = 68; continue _fun0001 }
- 34:
+                        if(var5) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                         var5 = _closure1_slot1;
                         var7 = _closure1_slot2;
                         var4 = 11;
@@ -53,9 +53,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var4 = var5.updateLocale;
                         var4 = var4.bind(var5)(var6);
                         return var3;
- 68:
+case 6:
                         return var2;
- 71:
+case 2:
                         return var1;
                     }
                 };
@@ -100,7 +100,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot13 = var1;
     var1 = function LocaleInfo() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var12 = _closure1_slot0;
             var14 = _closure1_slot2;
             var1 = 13;
@@ -276,10 +276,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var13.bind(var4)(var12, var9);
             var6['trailing'] = var9;
             var9 = 'Locale data does not match';
-            if(!(var11 === var10)) { _fun0002_ip = 678; continue _fun0002 }
- 672:
+            if(!(var11 === var10)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var9 = 'Locale data matches current locale';
- 678:
+case 8:
             var6['subLabel'] = var9;
             var6 = var8.bind(var4)(var7, var6);
             var5[4] = var6;

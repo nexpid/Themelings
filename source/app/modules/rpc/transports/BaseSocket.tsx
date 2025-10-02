@@ -84,20 +84,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var5;
         var2 = function value(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var5 = arg1;
                 var1 = null;
-                if(!(var1 != var5)) { _fun0001_ip = 31; continue _fun0001 }
- 9:
+                if(!(var1 != var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var1 = _closure1_slot4;
-                if(!(!(var5 > var1))) { _fun0001_ip = 31; continue _fun0001 }
- 20:
+                if(!(!(var5 > var1))) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
                 var1 = 1;
-                if(!(!(var5 < var1))) { _fun0001_ip = 31; continue _fun0001 }
- 27:
+                if(!(!(var5 < var1))) { _fun0001_ip = 2; continue _fun0001 }
+case 5:
                 var1 = undefined;
                 return var1;
- 31:
+case 2:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot1;
                 var2 = 4;

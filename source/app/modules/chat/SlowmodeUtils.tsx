@@ -7,7 +7,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var6;
     var1 = function canBypassSlowmodeHelper(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arg1;
             var7 = arg2;
             var4 = arg3;
@@ -15,16 +15,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = _closure1_slot4;
             var1 = var1.BYPASS_SLOWMODE;
             var1 = var3.bind(var4)(var1, var5);
-            if(var1) { _fun0001_ip = 176; continue _fun0001 }
- 40:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = _closure1_slot3;
             var1 = var1.SendMessage;
-            if(!(var1 !== var7)) { _fun0001_ip = 127; continue _fun0001 }
- 54:
+            if(!(var1 !== var7)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = _closure1_slot3;
             var1 = var1.CreateThread;
-            if(!(var1 !== var7)) { _fun0001_ip = 103; continue _fun0001 }
- 68:
+            if(!(var1 !== var7)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var6 = _closure1_slot0;
             var3 = _closure1_slot1;
             var1 = 3;
@@ -34,26 +34,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var6.assertNever;
             var3 = var3.bind(var6)(var7);
             return var1;
- 103:
+case 6:
             var3 = var4.can;
             var1 = _closure1_slot4;
             var1 = var1.MANAGE_THREADS;
             var1 = var3.bind(var4)(var1, var5);
             return var1;
- 127:
+case 4:
             var3 = var4.can;
             var1 = _closure1_slot4;
             var1 = var1.MANAGE_CHANNELS;
             var1 = var3.bind(var4)(var1, var5);
-            if(var1) { _fun0001_ip = 174; continue _fun0001 }
- 152:
+            if(var1) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var3 = var4.can;
             var2 = _closure1_slot4;
             var2 = var2.MANAGE_MESSAGES;
             var1 = var3.bind(var4)(var2, var5);
- 174:
+case 8:
             return var1;
- 176:
+case 2:
             var1 = true;
             return var1;
         }

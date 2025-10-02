@@ -42,7 +42,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useEventsButtonProps(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arg1;
             var _closure2_slot0 = var5;
             var4 = _closure1_slot0;
@@ -105,7 +105,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[0] = var5;
             var3 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var2 = _closure1_slot0;
                     var4 = _closure1_slot2;
                     var1 = 6;
@@ -118,16 +118,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var4.bind(var6)(var1);
                     var4 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    if(var1) { _fun0002_ip = 88; continue _fun0002 }
- 59:
+                    if(var1) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var1 = 8;
                     var1 = var6[var1];
                     var7 = var4.bind(var5)(var1);
                     var3 = var7.openGuildEventListActionSheet;
                     var1 = _closure2_slot0;
                     var1 = var3.bind(var7)(var1);
-                    _fun0002_ip = 120; continue _fun0002;
- 88:
+                    _fun0002_ip = 4; continue _fun0002;
+case 2:
                     var3 = 7;
                     var3 = var6[var3];
                     var4 = var4.bind(var5)(var3);
@@ -135,7 +135,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = _closure2_slot0;
                     var2 = var2.id;
                     var1 = var3.bind(var4)(var2);
- 120:
+case 4:
                     return var1;
                 }
             };
@@ -176,8 +176,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var6.bind(var9)(var2, var5);
             var6 = var13.length;
             var5 = 0;
-            if(!(!(var6 > var5))) { _fun0001_ip = 285; continue _fun0001 }
- 228:
+            if(!(!(var6 > var5))) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var11 = _closure1_slot0;
             var12 = _closure1_slot2;
             var5 = 12;
@@ -190,8 +190,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.t;
             var5 = var5.tlopTE;
             var5 = var6.bind(var9)(var5);
-            _fun0001_ip = 353; continue _fun0001;
- 285:
+            _fun0001_ip = 7; continue _fun0001;
+case 5:
             var9 = _closure1_slot0;
             var14 = _closure1_slot2;
             var6 = 12;
@@ -207,7 +207,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var13.length;
             var6['number'] = var13;
             var5 = var11.bind(var12)(var9, var6);
- 353:
+case 7:
             var9 = _closure1_slot0;
             var6 = _closure1_slot2;
             var11 = 13;
@@ -216,19 +216,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.ChannelModes;
             var6 = var6.DEFAULT;
             var9 = var8;
-            if(!var9) { _fun0001_ip = 394; continue _fun0001 }
- 391:
+            if(!var9) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var9 = !var4;
- 394:
-            if(!var9) { _fun0001_ip = 426; continue _fun0001 }
- 397:
+case 8:
+            if(!var9) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var9 = _closure1_slot0;
             var1 = _closure1_slot2;
             var1 = var1[var11];
             var1 = var9.bind(var10)(var1);
             var1 = var1.ChannelModes;
             var6 = var1.UNREAD_IMPORTANT;
- 426:
+case 10:
             var1 = {};
             var1['hasUnread'] = var8;
             var1['mentionCount'] = var7;

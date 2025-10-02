@@ -42,25 +42,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5['steps'] = var8;
     var8 = function isStepCompleted(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = 0;
-            if(!(var1 !== var2)) { _fun0001_ip = 85; continue _fun0001 }
- 9:
+            if(!(var1 !== var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = 1;
-            if(!(var1 !== var2)) { _fun0001_ip = 20; continue _fun0001 }
- 16:
+            if(!(var1 !== var2)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = false;
             return var1;
- 20:
+case 4:
             var2 = _closure1_slot2;
             var1 = var2.getState;
             var1 = var1.bind(var2)();
             var3 = var1.stepStartedTime;
             var1 = null;
             var1 = var1 != var3;
-            if(!var1) { _fun0001_ip = 83; continue _fun0001 }
- 52:
+            if(!var1) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var2 = global;
             var4 = var2.Date;
             var2 = var4.now;
@@ -68,9 +68,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var2 - var3;
             var2 = 3000;
             var1 = var3 >= var2;
- 83:
+case 6:
             return var1;
- 85:
+case 2:
             var2 = _closure1_slot2;
             var1 = var2.getState;
             var1 = var1.bind(var2)();
@@ -81,7 +81,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5['isStepCompleted'] = var8;
     var8 = function useIsStepCompleted(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var3 = arg1;
             var5 = _closure1_slot2;
             var6 = undefined;
@@ -99,13 +99,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.bind(var6)(var4);
             var4 = function useTimer() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var6 = 100;
                     var1 = undefined;
-                    if(!(var6 === var1)) { _fun0003_ip = 17; continue _fun0003 }
- 11:
+                    if(!(var6 === var1)) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
                     var6 = 1000;
- 17:
+case 8:
                     var _closure3_slot0 = var6;
                     var _closure3_slot1 = var1;
                     var5 = _closure1_slot1;
@@ -152,16 +152,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = 100;
             var2 = var4.bind(var6)(var2);
             var2 = 0;
-            if(!(var2 !== var3)) { _fun0002_ip = 115; continue _fun0002 }
- 59:
+            if(!(var2 !== var3)) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
             var2 = 1;
             var2 = var2 === var3;
-            if(!var2) { _fun0002_ip = 112; continue _fun0002 }
- 69:
+            if(!var2) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
             var3 = null;
             var3 = var3 != var5;
-            if(!var3) { _fun0002_ip = 109; continue _fun0002 }
- 78:
+            if(!var3) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
             var4 = global;
             var6 = var4.Date;
             var4 = var6.now;
@@ -169,11 +169,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var4 - var5;
             var4 = 3000;
             var3 = var5 >= var4;
- 109:
+case 14:
             var2 = var3;
- 112:
+case 12:
             var1 = var2;
- 115:
+case 10:
             return var1;
         }
     };
@@ -195,43 +195,43 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['SURVEY_CONFIGS'] = var4;
     var4 = function getSurveyConfig(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var2 = _closure1_slot3;
             var1 = arg1;
             var2 = var2[var1];
             var1 = null;
             var3 = var1 != var2;
-            if(!var3) { _fun0004_ip = 26; continue _fun0004 }
- 23:
+            if(!var3) { _fun0004_ip = 16; continue _fun0004 }
+case 17:
             var1 = var2;
- 26:
+case 16:
             return var1;
         }
     };
     var3['getSurveyConfig'] = var4;
     var4 = function getSurveyConfigSafe(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
             var4 = arg1;
             var2 = null;
             var3 = var2 == var4;
             var1 = null;
-            if(var3) { _fun0005_ip = 50; continue _fun0005 }
- 14:
+            if(var3) { _fun0005_ip = 18; continue _fun0005 }
+case 19:
             var3 = '';
             var1 = null;
-            if(!(var3 !== var4)) { _fun0005_ip = 50; continue _fun0005 }
- 24:
+            if(!(var3 !== var4)) { _fun0005_ip = 18; continue _fun0005 }
+case 20:
             var3 = _closure1_slot3;
             var3 = var3[var4];
             var4 = var2 != var3;
             var2 = null;
-            if(!var4) { _fun0005_ip = 47; continue _fun0005 }
- 44:
+            if(!var4) { _fun0005_ip = 21; continue _fun0005 }
+case 22:
             var2 = var3;
- 47:
+case 21:
             var1 = var2;
- 50:
+case 18:
             return var1;
         }
     };

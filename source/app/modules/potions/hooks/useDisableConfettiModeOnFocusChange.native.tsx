@@ -58,10 +58,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3[0] = var6;
         var2 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var1 = _closure2_slot0;
-                if(var1) { _fun0001_ip = 59; continue _fun0001 }
- 10:
+                if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
                 var1 = 3;
@@ -71,7 +71,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var3.dispatch;
                 var1 = {'type': 'POTIONS_SET_CONFETTI_MODE', 'enabled': false};
                 var1 = var2.bind(var3)(var1);
- 59:
+case 2:
                 var1 = undefined;
                 return var1;
             }

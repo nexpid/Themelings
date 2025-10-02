@@ -44,16 +44,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = var1.channel;
             var8 = var1.isSmallSize;
             var9 = var1.disableTint;
             var4 = undefined;
-            if(!(var9 === var4)) { _fun0001_ip = 30; continue _fun0001 }
- 28:
+            if(!(var9 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var9 = false;
- 30:
+case 2:
             var _closure2_slot0 = var4;
             var _closure2_slot1 = var4;
             var _closure2_slot2 = var4;
@@ -100,7 +100,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[1] = var1;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var4 = _closure1_slot7;
                     var2 = _closure1_slot0;
                     var3 = _closure1_slot3;
@@ -116,10 +116,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1['size'] = var6;
                     var6 = _closure2_slot0;
                     var5 = 'mute';
-                    if(!var6) { _fun0002_ip = 71; continue _fun0002 }
- 67:
+                    if(!var6) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var5 = 'unmute';
- 71:
+case 4:
                     var1['animation'] = var5;
                     var1 = var4.bind(var3)(var2, var1);
                     return var1;
@@ -147,7 +147,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['accessibilityLabel'] = var12;
             var10 = function onPress() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var2 = _closure2_slot1;
                     var1 = undefined;
                     var2 = var2.bind(var1)();
@@ -155,47 +155,47 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = null;
                     var2 = var5 == var2;
                     var3 = undefined;
-                    if(var2) { _fun0003_ip = 44; continue _fun0003 }
- 28:
+                    if(var2) { _fun0003_ip = 6; continue _fun0003 }
+case 3:
                     var4 = _closure2_slot2;
                     var4 = var4.current;
                     var2 = var5 == var4;
                     var3 = var4;
- 44:
-                    if(var2) { _fun0003_ip = 57; continue _fun0003 }
- 47:
+case 6:
+                    if(var2) { _fun0003_ip = 7; continue _fun0003 }
+case 8:
                     var2 = var3.play;
                     var2 = var2.bind(var3)();
- 57:
+case 7:
                     return var1;
                 }
             };
             var1['onPress'] = var10;
             var13 = _closure1_slot3;
-            if(var7) { _fun0001_ip = 322; continue _fun0001 }
- 313:
+            if(var7) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var10 = 11;
             var10 = var13[var10];
-            _fun0001_ip = 329; continue _fun0001;
- 322:
+            _fun0001_ip = 11; continue _fun0001;
+case 9:
             var12 = 10;
             var10 = var13[var12];
- 329:
+case 11:
             var10 = var11.bind(var4)(var10);
             var1['source'] = var10;
-            if(var9) { _fun0001_ip = 344; continue _fun0001 }
- 341:
+            if(var9) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var9 = var7;
- 344:
+case 12:
             var1['isActive'] = var9;
             var1['isSmallSize'] = var8;
             var1['lottieComponent'] = var5;
             var5 = undefined;
-            if(!var7) { _fun0001_ip = 374; continue _fun0001 }
- 364:
+            if(!var7) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var6 = _closure1_slot6;
             var5 = var6.RED_400;
- 374:
+case 14:
             var1['tintColor'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

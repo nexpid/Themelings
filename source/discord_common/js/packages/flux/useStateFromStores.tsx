@@ -16,7 +16,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot7 = var1;
     var4 = function useStateFromStores(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var8 = arg1;
             var4 = arg2;
             var11 = arg3;
@@ -25,10 +25,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot1 = var4;
             var _closure2_slot2 = var11;
             var5 = undefined;
-            if(!(var9 === var5)) { _fun0001_ip = 39; continue _fun0001 }
- 32:
+            if(!(var9 === var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var9 = _closure1_slot7;
- 39:
+case 2:
             var _closure2_slot3 = var9;
             var _closure2_slot4 = var5;
             var _closure2_slot5 = var5;
@@ -37,8 +37,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = null;
             var1 = var1.bind(var5)(var6);
             var7 = var1.current;
-            if(!(var6 == var7)) { _fun0001_ip = 110; continue _fun0001 }
- 78:
+            if(!(var6 == var7)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var7 = {};
             var7['stores'] = var8;
             var7['areStatesEqual'] = var9;
@@ -46,13 +46,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7['prevDeps'] = var5;
             var7['state'] = var5;
             var1['current'] = var7;
- 110:
+case 4:
             var1 = var1.current;
             _closure2_slot4 = var1;
             var8 = var1.state;
             _closure2_slot5 = var8;
-            if(!(var6 != var11)) { _fun0001_ip = 176; continue _fun0001 }
- 132:
+            if(!(var6 != var11)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var10 = _closure1_slot0;
             var12 = _closure1_slot2;
             var7 = 2;
@@ -62,20 +62,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.prevDeps;
             var7 = var7.bind(var10)(var11, var1);
             var1 = var8;
-            if(var7) { _fun0001_ip = 206; continue _fun0001 }
- 176:
+            if(var7) { _fun0001_ip = 8; continue _fun0001 }
+case 6:
             var4 = var4.bind(var5)();
             var7 = var6 != var8;
-            if(!var7) { _fun0001_ip = 193; continue _fun0001 }
- 187:
+            if(!var7) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var7 = var9.bind(var5)(var8, var4);
- 193:
+case 9:
             var1 = var8;
-            if(var7) { _fun0001_ip = 206; continue _fun0001 }
- 199:
+            if(var7) { _fun0001_ip = 8; continue _fun0001 }
+case 11:
             _closure2_slot5 = var4;
             var1 = var4;
- 206:
+case 8:
             var7 = _closure1_slot6;
             var4 = function() {
                 var3 = _closure2_slot4;
@@ -113,7 +113,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = Object.create(var2, {constructor: {value: var5}});
                 var6 = function() {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                         var3 = _closure2_slot4;
                         var1 = var3.getStateFromStores;
                         var4 = var1.bind(var3)();
@@ -122,14 +122,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var3 = var1.state;
                         var1 = undefined;
                         var3 = var5.bind(var1)(var3, var4);
-                        if(var3) { _fun0002_ip = 62; continue _fun0002 }
- 41:
+                        if(var3) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
                         var3 = _closure2_slot4;
                         var3['state'] = var4;
                         var3 = _closure2_slot6;
                         var2 = {};
                         var2 = var3.bind(var1)(var2);
- 62:
+case 12:
                         return var1;
                     }
                 };

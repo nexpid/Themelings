@@ -42,7 +42,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot9 = var1;
     var1 = function InputUsername(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var7 = arg1;
             var10 = var7.defaultValue;
             var3 = _closure1_slot4;
@@ -51,16 +51,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var1 != var10;
             var8 = 'default';
             var1 = var8;
-            if(!var4) { _fun0001_ip = 63; continue _fun0001 }
- 39:
+            if(!var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var9 = var10.includes;
             var4 = ' ';
             var4 = var9.bind(var10)(var4);
             var1 = var8;
-            if(!var4) { _fun0001_ip = 63; continue _fun0001 }
- 59:
+            if(!var4) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var1 = 'error';
- 63:
+case 2:
             var3 = var2.bind(var3)(var1);
             var2 = _closure1_slot3;
             var4 = undefined;
@@ -86,10 +86,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1[var7] = var9;
             var7 = 'error';
             var8 = undefined;
-            if(!(var7 === var9)) { _fun0001_ip = 167; continue _fun0001 }
- 161:
+            if(!(var7 === var9)) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var8 = "Username can't contain spaces";
- 167:
+case 5:
             var7 = 'errorMessage';
             var1[var7] = var8;
             var8 = 'Username';
@@ -105,17 +105,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1[var6] = var7;
             var6 = function onChange(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var4 = arg1;
                     var3 = _closure2_slot0;
                     var2 = var4.includes;
                     var1 = ' ';
                     var1 = var2.bind(var4)(var1);
                     var2 = 'default';
-                    if(!var1) { _fun0002_ip = 35; continue _fun0002 }
- 31:
+                    if(!var1) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
                     var2 = 'error';
- 35:
+case 7:
                     var1 = undefined;
                     var2 = var3.bind(var1)(var2);
                     return var1;
@@ -130,7 +130,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot10 = var1;
     var1 = function GhostInputUsername(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var6 = arg1;
             var10 = var6.defaultValue;
             var4 = _closure1_slot4;
@@ -139,16 +139,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var2 != var10;
             var8 = 'default';
             var2 = var8;
-            if(!var7) { _fun0003_ip = 63; continue _fun0003 }
- 39:
+            if(!var7) { _fun0003_ip = 2; continue _fun0003 }
+case 3:
             var9 = var10.includes;
             var7 = ' ';
             var7 = var9.bind(var10)(var7);
             var2 = var8;
-            if(!var7) { _fun0003_ip = 63; continue _fun0003 }
- 59:
+            if(!var7) { _fun0003_ip = 2; continue _fun0003 }
+case 4:
             var2 = 'error';
- 63:
+case 2:
             var7 = var3.bind(var4)(var2);
             var3 = _closure1_slot3;
             var4 = undefined;
@@ -174,25 +174,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1[var6] = var8;
             var6 = 'error';
             var7 = undefined;
-            if(!(var6 === var8)) { _fun0003_ip = 167; continue _fun0003 }
- 161:
+            if(!(var6 === var8)) { _fun0003_ip = 5; continue _fun0003 }
+case 6:
             var7 = "Username can't contain spaces";
- 167:
+case 5:
             var6 = 'errorMessage';
             var1[var6] = var7;
             var6 = function onChange(arg1) {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                     var4 = arg1;
                     var3 = _closure2_slot0;
                     var2 = var4.includes;
                     var1 = ' ';
                     var1 = var2.bind(var4)(var1);
                     var2 = 'default';
-                    if(!var1) { _fun0004_ip = 35; continue _fun0004 }
- 31:
+                    if(!var1) { _fun0004_ip = 7; continue _fun0004 }
+case 8:
                     var2 = 'error';
- 35:
+case 7:
                     var1 = undefined;
                     var2 = var3.bind(var1)(var2);
                     return var1;
@@ -299,7 +299,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot13 = var1;
     var1 = function CustomAttachmentExample() {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
             var3 = _closure1_slot4;
             var2 = var3.useState;
             var1 = 'default';
@@ -333,10 +333,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['status'] = var10;
             var9 = 'error';
             var8 = undefined;
-            if(!(var9 === var10)) { _fun0005_ip = 147; continue _fun0005 }
- 141:
+            if(!(var9 === var10)) { _fun0005_ip = 9; continue _fun0005 }
+case 10:
             var8 = "Username can't contain spaces";
- 147:
+case 9:
             var1['errorMessage'] = var8;
             var8 = 'Pressable Attachment';
             var1['label'] = var8;
@@ -362,7 +362,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['trailingIcon'] = var6;
             var5 = function onChange(arg1) {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
- 0:
+case 0:
                     var5 = arg1;
                     var3 = _closure2_slot1;
                     var1 = undefined;
@@ -372,10 +372,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = ' ';
                     var4 = var4.bind(var5)(var2);
                     var2 = 'default';
-                    if(!var4) { _fun0006_ip = 46; continue _fun0006 }
- 42:
+                    if(!var4) { _fun0006_ip = 11; continue _fun0006 }
+case 12:
                     var2 = 'error';
- 46:
+case 11:
                     var2 = var3.bind(var1)(var2);
                     return var1;
                 }

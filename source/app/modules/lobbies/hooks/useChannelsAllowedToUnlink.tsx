@@ -8,23 +8,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var7;
     var4 = function getChannelsAllowedToUnlink(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var3 = arguments[1];
             var2 = arguments[2];
             var5 = undefined;
-            if(!(var3 === var5)) { _fun0001_ip = 24; continue _fun0001 }
- 17:
+            if(!(var3 === var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = _closure1_slot2;
- 24:
-            if(!(var2 === var5)) { _fun0001_ip = 35; continue _fun0001 }
- 28:
+case 2:
+            if(!(var2 === var5)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = _closure1_slot4;
- 35:
+case 4:
             var _closure2_slot0 = var2;
             var2 = null;
-            if(!(var2 != var4)) { _fun0001_ip = 103; continue _fun0001 }
- 45:
+            if(!(var2 != var4)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var2 = var3.getChannels;
             var3 = var2.bind(var3)(var4);
             var2 = _closure1_slot3;
@@ -52,10 +52,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var1 = var2.bind(var3)(var1);
-            _fun0001_ip = 107; continue _fun0001;
- 103:
+            _fun0001_ip = 8; continue _fun0001;
+case 6:
             var1 = new Array(0);
- 107:
+case 8:
             return var1;
         }
     };

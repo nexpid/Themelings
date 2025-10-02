@@ -1,13 +1,13 @@
 // app/utils/web/ProtocolUtils.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
         var10 = metroImportDefault;
         var3 = exports;
         var5 = dependencyMap;
         var7 = function launchFirefox(arg1, arg2) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var8 = arg1;
                 var4 = var8;
                 var2 = arg2;
@@ -19,8 +19,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = 'discord:';
                 var7 = var7.bind(var8)(var2);
                 var2 = global;
-                if(var7) { _fun0002_ip = 84; continue _fun0002 }
- 43:
+                if(var7) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                 var8 = var2.location;
                 var7 = var4;
                 var8['href'] = var7;
@@ -35,14 +35,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 };
                 var7 = var8.bind(var9)(var7);
                 return var7;
- 84:
+case 2:
                 var7 = var2.document;
                 var8 = var7.body;
                 var6 = var8;
                 var _closure2_slot1 = var8;
                 var7 = null;
-                if(!(var7 != var8)) { _fun0002_ip = 282; continue _fun0002 }
- 111:
+                if(!(var7 != var8)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                 var10 = var2.document;
                 var9 = var10.createElement;
                 var8 = 'iframe';
@@ -52,15 +52,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = var6;
                 var6 = var8.appendChild;
                 var6 = var6.bind(var8)(var9);
- 153: // try_start_0
+case 6: // try_start_0
                 var6 = var5;
                 var6 = var6.contentWindow;
-                if(!(var7 != var6)) { _fun0002_ip = 183; continue _fun0002 }
- 166:
+                if(!(var7 != var6)) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
                 var5 = var5.contentWindow;
                 var5 = var5.location;
                 var5['href'] = var4;
- 183:
+case 7:
                 var6 = var2.process;
                 var5 = var6.nextTick;
                 var4 = function() {
@@ -71,14 +71,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var4 = var5.bind(var6)(var4);
- 207: // try_end0
-                _fun0002_ip = 250; continue _fun0002;
- 209: // catch_target0
+case 9: // try_end0
+                _fun0002_ip = 10; continue _fun0002;
+case 11: // catch_target0
                 CatchBlockStart(arg_register=3);
                 var5 = var4.name;
                 var4 = 'NS_ERROR_UNKNOWN_PROTOCOL';
-                if(!(var4 === var5)) { _fun0002_ip = 250; continue _fun0002 }
- 226:
+                if(!(var4 === var5)) { _fun0002_ip = 10; continue _fun0002 }
+case 12:
                 var6 = var2.process;
                 var5 = var6.nextTick;
                 var4 = function() {
@@ -89,42 +89,42 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var4 = var5.bind(var6)(var4);
- 250:
+case 10:
                 var7 = var2.window;
                 var6 = var7.setTimeout;
                 var5 = function() {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                         var1 = _closure2_slot2;
                         var4 = null;
                         var3 = var4 == var1;
                         var1 = undefined;
                         var5 = undefined;
-                        if(var3) { _fun0003_ip = 30; continue _fun0003 }
- 20:
+                        if(var3) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
                         var3 = _closure2_slot2;
                         var5 = var3.parentElement;
- 30:
+case 13:
                         var6 = var4 != var5;
                         var3 = null;
-                        if(!var6) { _fun0003_ip = 42; continue _fun0003 }
- 39:
+                        if(!var6) { _fun0003_ip = 15; continue _fun0003 }
+case 16:
                         var3 = var5;
- 42:
-                        if(!(var4 !== var3)) { _fun0003_ip = 65; continue _fun0003 }
- 46:
+case 15:
+                        if(!(var4 !== var3)) { _fun0003_ip = 17; continue _fun0003 }
+case 18:
                         var4 = _closure2_slot1;
                         var3 = var4.removeChild;
                         var2 = _closure2_slot2;
                         var2 = var3.bind(var4)(var2);
- 65:
+case 17:
                         return var1;
                     }
                 };
                 var4 = 1000;
                 var4 = var6.bind(var7)(var5, var4);
                 return var3;
- 282:
+case 4:
                 var3 = var2.process;
                 var2 = var3.nextTick;
                 var1 = function() {
@@ -221,36 +221,36 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var12 = null;
         var14 = var12 == var11;
         var13 = undefined;
-        if(var14) { _fun0001_ip = 109; continue _fun0001 }
- 103:
+        if(var14) { _fun0001_ip = 19; continue _fun0001 }
+case 20:
         var13 = var11.family;
- 109:
+case 19:
         var11 = 'Android';
-        if(!(var11 !== var13)) { _fun0001_ip = 260; continue _fun0001 }
- 122:
+        if(!(var11 !== var13)) { _fun0001_ip = 21; continue _fun0001 }
+case 22:
         var11 = var5[var9];
         var11 = var10.bind(var1)(var11);
         var11 = var11.os;
         var14 = var12 == var11;
         var13 = undefined;
-        if(var14) { _fun0001_ip = 152; continue _fun0001 }
- 146:
+        if(var14) { _fun0001_ip = 23; continue _fun0001 }
+case 24:
         var13 = var11.family;
- 152:
+case 23:
         var11 = 'iOS';
-        if(!(var11 !== var13)) { _fun0001_ip = 260; continue _fun0001 }
- 162:
+        if(!(var11 !== var13)) { _fun0001_ip = 21; continue _fun0001 }
+case 25:
         var11 = var5[var9];
         var11 = var10.bind(var1)(var11);
         var13 = var11.layout;
         var11 = 'Gecko';
-        if(!(var11 !== var13)) { _fun0001_ip = 255; continue _fun0001 }
- 187:
+        if(!(var11 !== var13)) { _fun0001_ip = 26; continue _fun0001 }
+case 27:
         var11 = var5[var9];
         var11 = var10.bind(var1)(var11);
         var11 = var11.ua;
-        if(!(var12 != var11)) { _fun0001_ip = 248; continue _fun0001 }
- 206:
+        if(!(var12 != var11)) { _fun0001_ip = 28; continue _fun0001 }
+case 29:
         var9 = var5[var9];
         var9 = var10.bind(var1)(var9);
         var11 = var9.ua;
@@ -258,20 +258,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = 'Valve Steam GameOverlay';
         var10 = var10.bind(var11)(var9);
         var9 = -1;
-        if(!(var9 === var10)) { _fun0001_ip = 250; continue _fun0001 }
- 248:
-        _fun0001_ip = 253; continue _fun0001;
- 250:
+        if(!(var9 === var10)) { _fun0001_ip = 10; continue _fun0001 }
+case 28:
+        _fun0001_ip = 30; continue _fun0001;
+case 10:
         var4 = var8;
- 253:
-        _fun0001_ip = 258; continue _fun0001;
- 255:
+case 30:
+        _fun0001_ip = 31; continue _fun0001;
+case 26:
         var4 = var7;
- 258:
-        _fun0001_ip = 263; continue _fun0001;
- 260:
+case 31:
+        _fun0001_ip = 32; continue _fun0001;
+case 21:
         var4 = var6;
- 263:
+case 32:
         var2['launch'] = var4;
         var4 = 1;
         var5 = var5[var4];

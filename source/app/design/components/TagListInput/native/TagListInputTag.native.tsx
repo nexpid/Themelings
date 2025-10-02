@@ -102,7 +102,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function TagListInputTagComponent(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var9 = var1.tag;
             var11 = var1.selected;
@@ -110,15 +110,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot0 = var2;
             var16 = var1.start;
             var4 = undefined;
-            if(!(var16 === var4)) { _fun0001_ip = 38; continue _fun0001 }
- 36:
+            if(!(var16 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var16 = false;
- 38:
+case 2:
             var15 = var1.end;
-            if(!(var15 === var4)) { _fun0001_ip = 49; continue _fun0001 }
- 47:
+            if(!(var15 === var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var15 = false;
- 49:
+case 4:
             var1 = _closure1_slot6;
             var12 = var1.bind(var4)();
             var2 = _closure1_slot0;
@@ -160,22 +160,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = new Array(4);
             var13[0] = var14;
             var14 = undefined;
-            if(!var11) { _fun0001_ip = 217; continue _fun0001 }
- 211:
+            if(!var11) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var14 = var12.highlightedTagWrapper;
- 217:
+case 6:
             var13[1] = var14;
             var14 = undefined;
-            if(!var16) { _fun0001_ip = 231; continue _fun0001 }
- 226:
+            if(!var16) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var14 = var12.start;
- 231:
+case 8:
             var13[2] = var14;
             var14 = undefined;
-            if(!var15) { _fun0001_ip = 245; continue _fun0001 }
- 240:
+            if(!var15) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var14 = var12.end;
- 245:
+case 10:
             var13[3] = var14;
             var1['style'] = var13;
             var10 = function onPress() {
@@ -194,8 +194,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var9.icon;
             var7 = null;
             var5 = var7 != var5;
-            if(!var5) { _fun0001_ip = 333; continue _fun0001 }
- 298:
+            if(!var5) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var10 = _closure1_slot4;
             var8 = _closure1_slot3;
             var5 = {};
@@ -204,7 +204,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var9.icon;
             var5['children'] = var12;
             var7 = var10.bind(var4)(var8, var5);
- 333:
+case 12:
             var5 = new Array(2);
             var5[0] = var7;
             var8 = _closure1_slot4;
@@ -216,10 +216,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var6.Text;
             var6 = {'lineClamp': 1, 'variant': 'text-sm/medium'};
             var10 = 'text-normal';
-            if(!var11) { _fun0001_ip = 399; continue _fun0001 }
- 393:
+            if(!var11) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var10 = 'always-white';
- 399:
+case 14:
             var6['color'] = var10;
             var9 = var9.text;
             var6['children'] = var9;

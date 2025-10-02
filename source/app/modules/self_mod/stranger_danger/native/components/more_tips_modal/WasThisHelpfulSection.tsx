@@ -137,7 +137,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function WasThisHelpfulSection(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var9 = var1.channelId;
             var _closure2_slot0 = var9;
@@ -174,16 +174,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[0] = var1;
             var2 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = _closure2_slot4;
                     var2 = null;
                     var3 = var2 == var3;
                     var2 = undefined;
-                    if(var3) { _fun0002_ip = 28; continue _fun0002 }
- 18:
+                    if(var3) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var1 = _closure2_slot4;
                     var2 = var1.feedback_type;
- 28:
+case 2:
                     var1 = _closure1_slot7;
                     var1 = var1.UPVOTE;
                     var1 = var2 === var1;
@@ -196,16 +196,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[0] = var1;
             var2 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var3 = _closure2_slot4;
                     var2 = null;
                     var3 = var2 == var3;
                     var2 = undefined;
-                    if(var3) { _fun0003_ip = 28; continue _fun0003 }
- 18:
+                    if(var3) { _fun0003_ip = 2; continue _fun0003 }
+case 3:
                     var1 = _closure2_slot4;
                     var2 = var1.feedback_type;
- 28:
+case 2:
                     var1 = _closure1_slot7;
                     var1 = var1.DOWNVOTE;
                     var1 = var2 === var1;
@@ -223,7 +223,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[4] = var1;
             var1 = function(arg1, arg2) {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                     var4 = arg1;
                     var3 = _closure1_slot0;
                     var5 = _closure1_slot2;
@@ -243,13 +243,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = {};
                     var3 = _closure1_slot7;
                     var3 = var3.UPVOTE;
-                    if(!(var4 !== var3)) { _fun0004_ip = 96; continue _fun0004 }
- 90:
+                    if(!(var4 !== var3)) { _fun0004_ip = 4; continue _fun0004 }
+case 5:
                     var3 = _closure1_slot8;
-                    _fun0004_ip = 100; continue _fun0004;
- 96:
+                    _fun0004_ip = 6; continue _fun0004;
+case 4:
                     var3 = _closure1_slot10;
- 100:
+case 6:
                     var2['key'] = var3;
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
@@ -297,11 +297,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = null;
                     var7 = var5 == var7;
                     var5 = undefined;
-                    if(var7) { _fun0004_ip = 313; continue _fun0004 }
- 304:
+                    if(var7) { _fun0004_ip = 7; continue _fun0004 }
+case 8:
                     var6 = _closure2_slot4;
                     var5 = var6.type;
- 313:
+case 7:
                     var2['warningType'] = var5;
                     var5 = arg2;
                     var2['cta'] = var5;
@@ -344,13 +344,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = var15.buttonsBackground;
             var10 = new Array(2);
             var10[0] = var16;
-            if(var19) { _fun0001_ip = 377; continue _fun0001 }
- 369:
+            if(var19) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var16 = var15.buttonsBackgroundInactive;
-            _fun0001_ip = 383; continue _fun0001;
- 377:
+            _fun0001_ip = 11; continue _fun0001;
+case 9:
             var16 = var15.buttonsBackgroundActive;
- 383:
+case 11:
             var10[1] = var16;
             var7['style'] = var10;
             var7['disabled'] = var19;
@@ -397,15 +397,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var20 = var22[var20];
             var20 = var21.bind(var4)(var20);
             var10['source'] = var20;
-            if(var19) { _fun0001_ip = 543; continue _fun0001 }
- 530:
+            if(var19) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var19 = var15.buttonIconInactive;
             var19 = var19.color;
-            _fun0001_ip = 554; continue _fun0001;
- 543:
+            _fun0001_ip = 14; continue _fun0001;
+case 12:
             var20 = var15.buttonIconActive;
             var19 = var20.color;
- 554:
+case 14:
             var10['color'] = var19;
             var10 = var18.bind(var4)(var17, var10);
             var7['children'] = var10;
@@ -418,13 +418,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var18 = var15.buttonsBackground;
             var17 = new Array(2);
             var17[0] = var18;
-            if(var14) { _fun0001_ip = 617; continue _fun0001 }
- 609:
+            if(var14) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
             var18 = var15.buttonsBackgroundInactive;
-            _fun0001_ip = 623; continue _fun0001;
- 617:
+            _fun0001_ip = 17; continue _fun0001;
+case 15:
             var18 = var15.buttonsBackgroundActive;
- 623:
+case 17:
             var17[1] = var18;
             var8['style'] = var17;
             var8['disabled'] = var14;
@@ -470,15 +470,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = var18[var16];
             var16 = var17.bind(var4)(var16);
             var11['source'] = var16;
-            if(var14) { _fun0001_ip = 780; continue _fun0001 }
- 767:
+            if(var14) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
             var14 = var15.buttonIconInactive;
             var14 = var14.color;
-            _fun0001_ip = 791; continue _fun0001;
- 780:
+            _fun0001_ip = 20; continue _fun0001;
+case 18:
             var15 = var15.buttonIconActive;
             var14 = var15.color;
- 791:
+case 20:
             var11['color'] = var14;
             var11 = var13.bind(var4)(var12, var11);
             var8['children'] = var11;

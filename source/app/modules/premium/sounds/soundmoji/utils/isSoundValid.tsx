@@ -45,7 +45,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function isSoundValid(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var5 = _closure1_slot2;
             var4 = var5.getChannel;
@@ -55,36 +55,36 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var5 == var1;
             var4 = undefined;
             var7 = undefined;
-            if(var2) { _fun0001_ip = 41; continue _fun0001 }
- 36:
+            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var7 = var1.guildId;
- 41:
+case 2:
             var2 = _closure1_slot5;
-            if(!(var7 !== var2)) { _fun0001_ip = 206; continue _fun0001 }
- 52:
+            if(!(var7 !== var2)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = var5 == var1;
             var7 = undefined;
-            if(var2) { _fun0001_ip = 66; continue _fun0001 }
- 61:
+            if(var2) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var7 = var1.guildId;
- 66:
+case 6:
             var8 = var5 == var6;
             var2 = undefined;
-            if(var8) { _fun0001_ip = 80; continue _fun0001 }
- 75:
+            if(var8) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var2 = var6.guild_id;
- 80:
-            if(!(var7 !== var2)) { _fun0001_ip = 202; continue _fun0001 }
- 84:
+case 8:
+            if(!(var7 !== var2)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var7 = var5 == var1;
             var2 = undefined;
-            if(var7) { _fun0001_ip = 98; continue _fun0001 }
- 93:
+            if(var7) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var2 = var1.guildId;
- 98:
+case 12:
             var1 = arg2;
-            if(!(var2 !== var1)) { _fun0001_ip = 202; continue _fun0001 }
- 105:
+            if(!(var2 !== var1)) { _fun0001_ip = 10; continue _fun0001 }
+case 14:
             var2 = _closure1_slot0;
             var7 = _closure1_slot1;
             var1 = 5;
@@ -96,28 +96,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.bind(var7)();
             var2 = var2.bind(var4)(var1);
             var1 = var5 == var6;
-            if(var1) { _fun0001_ip = 165; continue _fun0001 }
- 156:
+            if(var1) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
             var4 = var6.guild_id;
             var1 = var5 == var4;
- 165:
-            if(var1) { _fun0001_ip = 194; continue _fun0001 }
- 168:
+case 15:
+            if(var1) { _fun0001_ip = 17; continue _fun0001 }
+case 18:
             var5 = _closure1_slot3;
             var4 = var5.can;
             var3 = _closure1_slot6;
             var3 = var3.USE_EXTERNAL_SOUNDS;
             var1 = var4.bind(var5)(var3, var6);
- 194:
-            if(!var1) { _fun0001_ip = 200; continue _fun0001 }
- 197:
+case 17:
+            if(!var1) { _fun0001_ip = 19; continue _fun0001 }
+case 20:
             var1 = var2;
- 200:
+case 19:
             return var1;
- 202:
+case 10:
             var1 = true;
             return var1;
- 206:
+case 4:
             var1 = true;
             return var1;
         }

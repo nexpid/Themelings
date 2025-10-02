@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function GridAvatar(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var12 = var2.user;
             var _closure2_slot0 = var12;
@@ -52,16 +52,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var9 = var13.bind(var14)(var9, var6);
             var6 = {};
-            if(!(var4 === var3)) { _fun0001_ip = 152; continue _fun0001 }
- 146:
+            if(!(var4 === var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = var12.avatarDecoration;
- 152:
+case 2:
             var6['avatarDecoration'] = var3;
             var3 = undefined;
-            if(!var8) { _fun0001_ip = 165; continue _fun0001 }
- 162:
+            if(!var8) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = var5;
- 165:
+case 4:
             var6['status'] = var3;
             var2 = var2.avatarStatusStyle;
             var6['statusStyle'] = var2;
@@ -72,16 +72,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = 8;
             var1 = var5[var1];
             var2 = var2.bind(var4)(var1);
-            if(!(var4 === var10)) { _fun0001_ip = 234; continue _fun0001 }
- 212:
+            if(!(var4 === var10)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var1 = {};
             var1['user'] = var12;
             var1['guildId'] = var11;
             var21 = var1;
             var20 = var6;
             var5 = copyDataProperties(var21, var20);
-            _fun0001_ip = 298; continue _fun0001;
- 234:
+            _fun0001_ip = 8; continue _fun0001;
+case 6:
             var5 = {};
             var8 = _closure1_slot0;
             var13 = _closure1_slot2;
@@ -100,7 +100,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var20 = var6;
             var6 = copyDataProperties(var21, var20);
             var1 = var5;
- 298:
+case 8:
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

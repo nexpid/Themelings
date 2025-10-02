@@ -73,17 +73,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[4] = var5;
         var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var1 = _closure2_slot3;
-                if(var1) { _fun0001_ip = 36; continue _fun0001 }
- 13:
+                if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var4 = _closure2_slot2;
                 var1 = _closure1_slot4;
                 var3 = var1.COLLAPSED;
                 var1 = undefined;
                 var1 = var4.bind(var1)(var3);
-                _fun0001_ip = 75; continue _fun0001;
- 36:
+                _fun0001_ip = 4; continue _fun0001;
+case 2:
                 var4 = _closure1_slot1;
                 var3 = _closure1_slot2;
                 var1 = 5;
@@ -93,7 +93,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var4.hideActionSheet;
                 var1 = 'QuestBottomSheet';
                 var1 = var3.bind(var4)(var1);
- 75:
+case 4:
                 var4 = _closure1_slot1;
                 var3 = _closure1_slot2;
                 var1 = 6;
@@ -107,12 +107,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = null;
                 var8 = var7 == var6;
                 var6 = undefined;
-                if(var8) { _fun0001_ip = 137; continue _fun0001 }
- 123:
+                if(var8) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
                 var9 = _closure2_slot4;
                 var8 = var9.getQuestContentPosition;
                 var6 = var8.bind(var9)();
- 137:
+case 5:
                 var3['questContentPosition'] = var6;
                 var6 = _closure2_slot1;
                 var3['sourceQuestContent'] = var6;
@@ -140,22 +140,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = _closure2_slot4;
                 var8 = var7 == var6;
                 var6 = undefined;
-                if(var8) { _fun0001_ip = 275; continue _fun0001 }
- 261:
+                if(var8) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
                 var9 = _closure2_slot4;
                 var8 = var9.getQuestContentPosition;
                 var6 = var8.bind(var9)();
- 275:
+case 7:
                 var2['questContentPosition'] = var6;
                 var6 = _closure2_slot4;
                 var7 = var7 == var6;
                 var6 = undefined;
-                if(var7) { _fun0001_ip = 307; continue _fun0001 }
- 293:
+                if(var7) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
                 var8 = _closure2_slot4;
                 var7 = var8.getId;
                 var6 = var7.bind(var8)();
- 307:
+case 9:
                 var2['impressionId'] = var6;
                 var5 = _closure2_slot1;
                 var2['sourceQuestContent'] = var5;

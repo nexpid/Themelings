@@ -6,8 +6,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = dependencyMap;
     var1 = function _isNativeReflectConstruct() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
- 2: // try_start_0
+case 0:
+case 2: // try_start_0
             var2 = global;
             var3 = var2.Boolean;
             var3 = var3.prototype;
@@ -25,11 +25,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var4)(var2);
             var2 = !var2;
             var _closure2_slot0 = var2;
- 72: // try_end0
-            _fun0001_ip = 76; continue _fun0001;
- 74: // catch_target0
+case 3: // try_end0
+            _fun0001_ip = 4; continue _fun0001;
+case 5: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+case 4:
             var2 = function _isNativeReflectConstruct() {
                 var1 = _closure2_slot0;
                 var1 = !var1;
@@ -45,22 +45,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot9 = var1;
     var9 = function handleUserStoreUpdates() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var3 = _closure1_slot6;
             var1 = var3.getCurrentUser;
             var1 = var1.bind(var3)();
             var3 = null;
-            if(!(var3 != var1)) { _fun0002_ip = 50; continue _fun0002 }
- 22:
+            if(!(var3 != var1)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var4 = var1.mfaEnabled;
             var3 = _closure1_slot8;
-            if(!(var4 !== var3)) { _fun0002_ip = 50; continue _fun0002 }
- 36:
+            if(!(var4 !== var3)) { _fun0002_ip = 6; continue _fun0002 }
+case 8:
             var1 = var1.mfaEnabled;
             _closure1_slot8 = var1;
             var1 = undefined;
             return var1;
- 50:
+case 6:
             var1 = false;
             return var1;
         }
@@ -117,7 +117,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function(arg1) {
         var4 = function GuildMFAWarningStore() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var4 = this;
                 var3 = undefined;
                 var5 = undefined;
@@ -129,14 +129,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = _closure1_slot2;
                 var1 = _closure1_slot9;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0003_ip = 69; continue _fun0003 }
- 51:
+                if(var1) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
                 var7 = var9.apply;
                 var5 = arguments;
                 var1 = var5;
                 var1 = var7.bind(var9)(var4, var1);
-                _fun0003_ip = 105; continue _fun0003;
- 69:
+                _fun0003_ip = 11; continue _fun0003;
+case 9:
                 var7 = global;
                 var8 = var7.Reflect;
                 var7 = var8.construct;
@@ -145,7 +145,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var6.constructor;
                 var5 = arguments;
                 var1 = var7.bind(var8)(var9, var5, var6);
- 105:
+case 11:
                 var1 = var2.bind(var3)(var4, var1);
                 return var1;
             }
@@ -183,30 +183,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5['key'] = var7;
         var6 = function value(arg1) {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                 var2 = arg1;
                 var1 = null;
                 var1 = var1 != var2;
-                if(!var1) { _fun0004_ip = 35; continue _fun0004 }
- 12:
+                if(!var1) { _fun0004_ip = 12; continue _fun0004 }
+case 13:
                 var4 = var2.mfaLevel;
                 var3 = _closure1_slot7;
                 var3 = var3.ELEVATED;
                 var1 = var4 === var3;
- 35:
-                if(!var1) { _fun0004_ip = 51; continue _fun0004 }
- 38:
+case 12:
+                if(!var1) { _fun0004_ip = 10; continue _fun0004 }
+case 14:
                 var4 = _closure1_slot8;
                 var3 = false;
                 var1 = var3 === var4;
- 51:
-                if(!var1) { _fun0004_ip = 77; continue _fun0004 }
- 54:
+case 10:
+                if(!var1) { _fun0004_ip = 15; continue _fun0004 }
+case 16:
                 var4 = _closure1_slot5;
                 var3 = var4.hasElevatedPermissions;
                 var2 = var2.id;
                 var1 = var3.bind(var4)(var2);
- 77:
+case 15:
                 return var1;
             }
         };

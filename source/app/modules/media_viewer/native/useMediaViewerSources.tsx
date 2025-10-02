@@ -43,15 +43,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['MediaViewerSourcesStore'] = var4;
     var4 = function setMediaViewerSources(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var4 = var1.sources;
             var3 = var1.initialIndex;
             var1 = undefined;
-            if(!(var3 === var1)) { _fun0001_ip = 25; continue _fun0001 }
- 23:
+            if(!(var3 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = null;
- 25:
+case 2:
             var _closure2_slot0 = var3;
             var _closure2_slot2 = var1;
             var6 = new Array(0);
@@ -67,7 +67,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.forEach;
             var2 = function(arg1, arg2) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var4 = arg1;
                     var5 = arg2;
                     var3 = _closure1_slot0;
@@ -80,26 +80,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = var2.bind(var3)(var4);
                     var2 = null;
                     var2 = var2 != var6;
-                    if(!var2) { _fun0002_ip = 69; continue _fun0002 }
- 51:
+                    if(!var2) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var3 = var6.spoiler;
-                    if(var3) { _fun0002_ip = 66; continue _fun0002 }
- 60:
+                    if(var3) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var3 = var6.obscure;
- 66:
+case 6:
                     var2 = var3;
- 69:
-                    if(!var2) { _fun0002_ip = 83; continue _fun0002 }
- 72:
+case 4:
+                    if(!var2) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                     var3 = _closure2_slot0;
                     var2 = var3 !== var5;
- 83:
-                    if(!var2) { _fun0002_ip = 103; continue _fun0002 }
- 86:
+case 8:
+                    if(!var2) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
                     var3 = _closure2_slot2;
                     var2 = var3.add;
                     var2 = var2.bind(var3)(var5);
- 103:
+case 10:
                     var3 = _closure2_slot1;
                     var2 = var3.push;
                     var2 = var2.bind(var3)(var4);
@@ -119,7 +119,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['setMediaViewerSources'] = var4;
     var4 = function removeSpoiler(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var3 = arg1;
             var5 = _closure1_slot2;
             var4 = var5.getField;
@@ -127,8 +127,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var4.bind(var5)(var2);
             var2 = var5.has;
             var2 = var2.bind(var5)(var3);
-            if(!var2) { _fun0003_ip = 101; continue _fun0003 }
- 38:
+            if(!var2) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
             var2 = global;
             var2 = var2.Set;
             var4 = var2.prototype;
@@ -144,7 +144,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = {};
             var1['spoilerIndexes'] = var4;
             var1 = var2.bind(var3)(var1);
- 101:
+case 12:
             var1 = undefined;
             return var1;
         }
@@ -152,7 +152,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['removeSpoiler'] = var4;
     var2 = function toggleSpoiler(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var3 = arg1;
             var5 = _closure1_slot2;
             var4 = var5.getField;
@@ -167,15 +167,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var2 instanceof Object ? var2 : var4;
             var2 = var4.has;
             var2 = var2.bind(var4)(var3);
-            if(var2) { _fun0004_ip = 78; continue _fun0004 }
- 66:
+            if(var2) { _fun0004_ip = 14; continue _fun0004 }
+case 6:
             var2 = var4.add;
             var2 = var2.bind(var4)(var3);
-            _fun0004_ip = 88; continue _fun0004;
- 78:
+            _fun0004_ip = 15; continue _fun0004;
+case 14:
             var2 = var4.delete;
             var2 = var2.bind(var4)(var3);
- 88:
+case 15:
             var3 = _closure1_slot2;
             var2 = var3.setState;
             var1 = {};

@@ -8,21 +8,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var9;
     var4 = function getFavoriteStickerIds() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = _closure1_slot2;
             var1 = var1.frecencyWithoutFetchingLatest;
             var4 = var1.favoriteStickers;
             var3 = null;
             var5 = var3 == var4;
             var1 = undefined;
-            if(var5) { _fun0001_ip = 36; continue _fun0001 }
- 30:
+            if(var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var4.stickerIds;
- 36:
-            if(!(var3 == var1)) { _fun0001_ip = 44; continue _fun0001 }
- 40:
+case 2:
+            if(!(var3 == var1)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = _closure1_slot19;
- 44:
+case 4:
             return var1;
         }
     };
@@ -141,13 +141,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot16 = var5;
     var6 = function getStickerPackPreviewSticker(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var2 = arg1;
             var _closure2_slot0 = var2;
             var4 = var2.cover_sticker_id;
             var3 = null;
-            if(!(var3 != var4)) { _fun0002_ip = 47; continue _fun0002 }
- 21:
+            if(!(var3 != var4)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var5 = var2.stickers;
             var4 = var5.find;
             var1 = function(arg1) {
@@ -159,20 +159,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var1 = var4.bind(var5)(var1);
-            if(!(var3 == var1)) { _fun0002_ip = 61; continue _fun0002 }
- 47:
+            if(!(var3 == var1)) { _fun0002_ip = 8; continue _fun0002 }
+case 6:
             var3 = var2.stickers;
             var2 = 0;
             var2 = var3[var2];
             return var2;
- 61:
+case 8:
             return var1;
         }
     };
     var _closure1_slot17 = var6;
     var5 = function getStickerExtensionFromFormatType(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var7 = arg1;
             var3 = _closure1_slot0;
             var1 = _closure1_slot1;
@@ -182,32 +182,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var3.bind(var4)(var1);
             var1 = var1.StickerFormat;
             var1 = var1.PNG;
-            if(!(var1 !== var7)) { _fun0003_ip = 294; continue _fun0003 }
- 47:
+            if(!(var1 !== var7)) { _fun0003_ip = 9; continue _fun0003 }
+case 6:
             var3 = _closure1_slot0;
             var1 = _closure1_slot1;
             var1 = var1[var5];
             var1 = var3.bind(var4)(var1);
             var1 = var1.StickerFormat;
             var1 = var1.APNG;
-            if(!(var1 !== var7)) { _fun0003_ip = 263; continue _fun0003 }
- 83:
+            if(!(var1 !== var7)) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
             var3 = _closure1_slot0;
             var1 = _closure1_slot1;
             var1 = var1[var5];
             var1 = var3.bind(var4)(var1);
             var1 = var1.StickerFormat;
             var1 = var1.LOTTIE;
-            if(!(var1 !== var7)) { _fun0003_ip = 232; continue _fun0003 }
- 116:
+            if(!(var1 !== var7)) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
             var3 = _closure1_slot0;
             var1 = _closure1_slot1;
             var1 = var1[var5];
             var1 = var3.bind(var4)(var1);
             var1 = var1.StickerFormat;
             var1 = var1.GIF;
-            if(!(var1 !== var7)) { _fun0003_ip = 201; continue _fun0003 }
- 149:
+            if(!(var1 !== var7)) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
             var1 = global;
             var6 = var1.Error;
             var1 = var1.HermesInternal;
@@ -220,7 +220,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = new var9[var6](var8, var7);
             var1 = var1 instanceof Object ? var1 : var3;
             throw var1;
- 201:
+case 14:
             var3 = _closure1_slot0;
             var1 = _closure1_slot1;
             var1 = var1[var5];
@@ -228,7 +228,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.StickerExtensions;
             var1 = var1.GIF;
             return var1;
- 232:
+case 12:
             var3 = _closure1_slot0;
             var1 = _closure1_slot1;
             var1 = var1[var5];
@@ -236,7 +236,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.StickerExtensions;
             var1 = var1.LOTTIE;
             return var1;
- 263:
+case 10:
             var3 = _closure1_slot0;
             var1 = _closure1_slot1;
             var1 = var1[var5];
@@ -244,7 +244,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.StickerExtensions;
             var1 = var1.APNG;
             return var1;
- 294:
+case 9:
             var3 = _closure1_slot0;
             var6 = _closure1_slot1;
             var1 = 7;
@@ -256,13 +256,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2[var5];
             var2 = var3.bind(var4)(var2);
             var2 = var2.StickerExtensions;
-            if(var1) { _fun0003_ip = 354; continue _fun0003 }
- 346:
+            if(var1) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
             var1 = var2.PNG;
-            _fun0003_ip = 360; continue _fun0003;
- 354:
+            _fun0003_ip = 18; continue _fun0003;
+case 16:
             var1 = var2.WEBP;
- 360:
+case 18:
             return var1;
         }
     };
@@ -279,23 +279,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['getStickerExtensionFromFormatType'] = var5;
     var5 = function(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var4 = arg1;
             var1 = 'application/json';
-            if(!(var1 !== var4)) { _fun0004_ip = 226; continue _fun0004 }
- 14:
+            if(!(var1 !== var4)) { _fun0004_ip = 19; continue _fun0004 }
+case 20:
             var1 = 'image/apng';
-            if(!(var1 !== var4)) { _fun0004_ip = 187; continue _fun0004 }
- 27:
+            if(!(var1 !== var4)) { _fun0004_ip = 21; continue _fun0004 }
+case 22:
             var1 = 'image/png';
-            if(!(var1 !== var4)) { _fun0004_ip = 148; continue _fun0004 }
- 37:
+            if(!(var1 !== var4)) { _fun0004_ip = 23; continue _fun0004 }
+case 24:
             var1 = 'image/webp';
-            if(!(var1 !== var4)) { _fun0004_ip = 148; continue _fun0004 }
- 47:
+            if(!(var1 !== var4)) { _fun0004_ip = 23; continue _fun0004 }
+case 6:
             var1 = 'image/gif';
-            if(!(var1 !== var4)) { _fun0004_ip = 109; continue _fun0004 }
- 57:
+            if(!(var1 !== var4)) { _fun0004_ip = 25; continue _fun0004 }
+case 26:
             var1 = global;
             var3 = var1.Error;
             var1 = var1.HermesInternal;
@@ -308,7 +308,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = new var6[var3](var5, var4);
             var1 = var1 instanceof Object ? var1 : var2;
             throw var1;
- 109:
+case 25:
             var3 = _closure1_slot0;
             var2 = _closure1_slot1;
             var1 = 6;
@@ -318,7 +318,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.StickerFormat;
             var1 = var1.GIF;
             return var1;
- 148:
+case 23:
             var3 = _closure1_slot0;
             var2 = _closure1_slot1;
             var1 = 6;
@@ -328,7 +328,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.StickerFormat;
             var1 = var1.PNG;
             return var1;
- 187:
+case 21:
             var3 = _closure1_slot0;
             var2 = _closure1_slot1;
             var1 = 6;
@@ -338,7 +338,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.StickerFormat;
             var1 = var1.APNG;
             return var1;
- 226:
+case 19:
             var3 = _closure1_slot0;
             var2 = _closure1_slot1;
             var1 = 6;
@@ -353,12 +353,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['getStickerFormatTypeFromFileType'] = var5;
     var5 = function(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = null;
             var3 = var1 == var2;
-            if(var3) { _fun0005_ip = 65; continue _fun0005 }
- 12:
+            if(var3) { _fun0005_ip = 27; continue _fun0005 }
+case 28:
             var6 = var2.name;
             var4 = _closure1_slot18;
             var3 = var2.format_type;
@@ -370,35 +370,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = '';
             var2 = '.';
             var1 = var4.bind(var3)(var6, var2, var5);
- 65:
+case 27:
             return var1;
         }
     };
     var3['getFilenameForSticker'] = var5;
     var5 = function(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
- 0:
+case 0:
             var4 = arg1;
             var1 = arguments[1];
             var14 = undefined;
-            if(!(var1 === var14)) { _fun0006_ip = 14; continue _fun0006 }
- 12:
+            if(!(var1 === var14)) { _fun0006_ip = 20; continue _fun0006 }
+case 28:
             var1 = {};
- 14:
+case 20:
             var2 = var1.isPreview;
-            if(!(var2 === var14)) { _fun0006_ip = 26; continue _fun0006 }
- 24:
+            if(!(var2 === var14)) { _fun0006_ip = 29; continue _fun0006 }
+case 30:
             var2 = false;
- 26:
+case 29:
             var13 = var1.size;
-            if(!(var13 === var14)) { _fun0006_ip = 42; continue _fun0006 }
- 35:
+            if(!(var13 === var14)) { _fun0006_ip = 31; continue _fun0006 }
+case 32:
             var13 = _closure1_slot6;
- 42:
+case 31:
             var3 = var4.format_type;
             var1 = null;
-            if(!(var1 != var3)) { _fun0006_ip = 571; continue _fun0006 }
- 57:
+            if(!(var1 != var3)) { _fun0006_ip = 33; continue _fun0006 }
+case 26:
             var6 = var4.format_type;
             var7 = var4.format_type;
             var8 = _closure1_slot0;
@@ -409,19 +409,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.StickerFormat;
             var5 = var5.GIF;
             var5 = var7 === var5;
-            if(!var5) { _fun0006_ip = 114; continue _fun0006 }
- 111:
+            if(!var5) { _fun0006_ip = 34; continue _fun0006 }
+case 35:
             var5 = var2;
- 114:
-            if(!var5) { _fun0006_ip = 146; continue _fun0006 }
- 117:
+case 34:
+            if(!var5) { _fun0006_ip = 36; continue _fun0006 }
+case 37:
             var7 = _closure1_slot0;
             var5 = _closure1_slot1;
             var5 = var5[var9];
             var5 = var7.bind(var14)(var5);
             var5 = var5.StickerFormat;
             var6 = var5.PNG;
- 146:
+case 36:
             var5 = _closure1_slot18;
             var8 = var5.bind(var14)(var6);
             var7 = _closure1_slot9;
@@ -436,14 +436,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var5.WEBP;
             var5 = '';
             var11 = var5;
-            if(!(var8 === var7)) { _fun0006_ip = 222; continue _fun0006 }
- 216:
+            if(!(var8 === var7)) { _fun0006_ip = 38; continue _fun0006 }
+case 39:
             var11 = '&quality=lossless';
- 222:
+case 38:
             var8 = _closure1_slot12;
             var7 = 'development';
-            if(!(var7 === var8)) { _fun0006_ip = 272; continue _fun0006 }
- 234:
+            if(!(var7 === var8)) { _fun0006_ip = 40; continue _fun0006 }
+case 41:
             var7 = global;
             var8 = var7.location;
             var10 = var8.protocol;
@@ -452,7 +452,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7.concat;
             var7 = var7.bind(var5)(var10, var8, var6);
             return var7;
- 272:
+case 40:
             var8 = var4.format_type;
             var10 = _closure1_slot0;
             var7 = _closure1_slot1;
@@ -460,8 +460,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var10.bind(var14)(var7);
             var7 = var7.StickerFormat;
             var7 = var7.LOTTIE;
-            if(!(var8 !== var7)) { _fun0006_ip = 533; continue _fun0006 }
- 314:
+            if(!(var8 !== var7)) { _fun0006_ip = 42; continue _fun0006 }
+case 43:
             var7 = var4.format_type;
             var8 = _closure1_slot0;
             var4 = _closure1_slot1;
@@ -470,11 +470,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.StickerFormat;
             var4 = var4.APNG;
             var10 = var5;
-            if(!(var7 === var4)) { _fun0006_ip = 403; continue _fun0006 }
- 356:
+            if(!(var7 === var4)) { _fun0006_ip = 44; continue _fun0006 }
+case 45:
             var10 = var5;
-            if(!var2) { _fun0006_ip = 403; continue _fun0006 }
- 362:
+            if(!var2) { _fun0006_ip = 44; continue _fun0006 }
+case 46:
             var4 = _closure1_slot0;
             var7 = _closure1_slot1;
             var2 = 8;
@@ -483,10 +483,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4.isAndroid;
             var2 = var2.bind(var4)();
             var10 = var5;
-            if(var2) { _fun0006_ip = 403; continue _fun0006 }
- 397:
+            if(var2) { _fun0006_ip = 44; continue _fun0006 }
+case 47:
             var10 = '&passthrough=false';
- 403:
+case 44:
             var2 = global;
             var16 = var2.Math;
             var9 = var16.min;
@@ -517,7 +517,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17 = var11;
             var2 = var24[var4](var23, var22, var21, var20, var19, var18, var17, var16);
             return var2;
- 533:
+case 42:
             var2 = global;
             var4 = var2.location;
             var4 = var4.protocol;
@@ -526,20 +526,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.concat;
             var2 = var2.bind(var5)(var4, var3, var6);
             return var2;
- 571:
+case 33:
             return var1;
         }
     };
     var3['getStickerAssetUrl'] = var5;
     var5 = function(arg1, arg2) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
- 0:
+case 0:
             var6 = arg2;
             var1 = arg1;
             var14 = var1.banner_asset_id;
             var1 = null;
-            if(!(var1 != var14)) { _fun0007_ip = 259; continue _fun0007 }
- 23:
+            if(!(var1 != var14)) { _fun0007_ip = 48; continue _fun0007 }
+case 49:
             var4 = _closure1_slot0;
             var5 = _closure1_slot1;
             var2 = 7;
@@ -548,13 +548,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4.bind(var7)(var2);
             var2 = var2.SUPPORTS_WEBP;
             var13 = 'png';
-            if(!var2) { _fun0007_ip = 67; continue _fun0007 }
- 61:
+            if(!var2) { _fun0007_ip = 50; continue _fun0007 }
+case 8:
             var13 = 'webp';
- 67:
+case 50:
             var2 = _closure1_slot14;
-            if(!(var1 == var2)) { _fun0007_ip = 138; continue _fun0007 }
- 75:
+            if(!(var1 == var2)) { _fun0007_ip = 51; continue _fun0007 }
+case 52:
             var2 = global;
             var4 = var2.location;
             var9 = var4.protocol;
@@ -567,8 +567,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var2.concat;
             var2 = '';
             var4 = var4.bind(var2)(var9, var8, var5);
-            _fun0007_ip = 191; continue _fun0007;
- 138:
+            _fun0007_ip = 53; continue _fun0007;
+case 51:
             var21 = _closure1_slot14;
             var19 = _closure1_slot7;
             var2 = global;
@@ -581,10 +581,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17 = var14;
             var15 = var13;
             var4 = var22[var10](var21, var20, var19, var18, var17, var16, var15, var14);
- 191:
+case 53:
             var2 = var4;
-            if(!(var1 != var6)) { _fun0007_ip = 257; continue _fun0007 }
- 198:
+            if(!(var1 != var6)) { _fun0007_ip = 54; continue _fun0007 }
+case 55:
             var5 = _closure1_slot0;
             var8 = _closure1_slot1;
             var3 = 9;
@@ -598,27 +598,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = '?size=';
             var3 = var5.bind(var3)(var6);
             var2 = var4 + var3;
- 257:
+case 54:
             return var2;
- 259:
+case 48:
             return var1;
         }
     };
     var3['getStickerPackBannerAssetUrl'] = var5;
     var5 = function(arg1) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
- 0:
+case 0:
             var3 = arg1;
             var2 = var3.match;
             var5 = _closure1_slot12;
             var1 = 'development';
-            if(!(var1 === var5)) { _fun0008_ip = 30; continue _fun0008 }
- 24:
+            if(!(var1 === var5)) { _fun0008_ip = 3; continue _fun0008 }
+case 30:
             var1 = _closure1_slot16;
-            _fun0008_ip = 34; continue _fun0008;
- 30:
+            _fun0008_ip = 56; continue _fun0008;
+case 3:
             var1 = _closure1_slot15;
- 34:
+case 56:
             var2 = var2.bind(var3)(var1);
             var1 = null;
             var1 = var1 != var2;
@@ -632,7 +632,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var3.some;
         var1 = function(arg1) {
             _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var3 = var1.format_type;
                 var4 = _closure1_slot0;
@@ -644,8 +644,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var1.StickerFormat;
                 var1 = var1.APNG;
                 var1 = var3 === var1;
-                if(var1) { _fun0009_ip = 86; continue _fun0009 }
- 53:
+                if(var1) { _fun0009_ip = 57; continue _fun0009 }
+case 58:
                 var7 = _closure1_slot0;
                 var4 = _closure1_slot1;
                 var4 = var4[var6];
@@ -653,9 +653,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var4.StickerFormat;
                 var4 = var4.LOTTIE;
                 var1 = var3 === var4;
- 86:
-                if(var1) { _fun0009_ip = 122; continue _fun0009 }
- 89:
+case 57:
+                if(var1) { _fun0009_ip = 59; continue _fun0009 }
+case 60:
                 var4 = _closure1_slot0;
                 var2 = _closure1_slot1;
                 var2 = var2[var6];
@@ -663,7 +663,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var2.StickerFormat;
                 var2 = var2.GIF;
                 var1 = var3 === var2;
- 122:
+case 59:
                 return var1;
             }
         };
@@ -697,24 +697,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['createStickerPackCategory'] = var5;
     var5 = function(arg1, arg2) {
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
- 0:
+case 0:
             var3 = arg1;
             var1 = arg2;
             var4 = _closure1_slot8;
             var4 = var4.ANIMATE_ON_INTERACTION;
-            if(!(var3 !== var4)) { _fun0010_ip = 37; continue _fun0010 }
- 23:
+            if(!(var3 !== var4)) { _fun0010_ip = 24; continue _fun0010 }
+case 49:
             var2 = _closure1_slot8;
             var2 = var2.NEVER_ANIMATE;
             var1 = var3 !== var2;
- 37:
+case 24:
             return var1;
         }
     };
     var3['shouldAnimateSticker'] = var5;
     var5 = function(arg1, arg2, arg3, arg4) {
         _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
- 0:
+case 0:
             var5 = arg1;
             var2 = arg2;
             var8 = arg3;
@@ -723,17 +723,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.getUploadCount;
             var3 = var3.bind(var4)(var8, var7);
             var4 = 0;
-            if(!(!(var3 > var4))) { _fun0011_ip = 249; continue _fun0011 }
- 40:
+            if(!(!(var3 > var4))) { _fun0011_ip = 61; continue _fun0011 }
+case 5:
             var6 = _closure1_slot5;
             var3 = var6.getStickerPreview;
             var3 = var3.bind(var6)(var8, var7);
             var6 = null;
-            if(!(var6 != var3)) { _fun0011_ip = 76; continue _fun0011 }
- 64:
+            if(!(var6 != var3)) { _fun0011_ip = 62; continue _fun0011 }
+case 63:
             var3 = var3.length;
-            if(!(!(var3 > var4))) { _fun0011_ip = 245; continue _fun0011 }
- 76:
+            if(!(!(var3 > var4))) { _fun0011_ip = 64; continue _fun0011 }
+case 62:
             var7 = _closure1_slot0;
             var3 = _closure1_slot1;
             var6 = 6;
@@ -742,16 +742,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var7.bind(var4)(var3);
             var3 = var3.StickerSelectLocation;
             var3 = var3.STICKER_PICKER;
-            if(!(var3 !== var5)) { _fun0011_ip = 225; continue _fun0011 }
- 114:
+            if(!(var3 !== var5)) { _fun0011_ip = 65; continue _fun0011 }
+case 34:
             var7 = _closure1_slot0;
             var3 = _closure1_slot1;
             var3 = var3[var6];
             var3 = var7.bind(var4)(var3);
             var3 = var3.StickerSelectLocation;
             var3 = var3.AUTOCOMPLETE;
-            if(!(var3 !== var5)) { _fun0011_ip = 180; continue _fun0011 }
- 147:
+            if(!(var3 !== var5)) { _fun0011_ip = 66; continue _fun0011 }
+case 67:
             var5 = _closure1_slot0;
             var3 = _closure1_slot1;
             var3 = var3[var6];
@@ -760,7 +760,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.BUILT_IN_INTEGRATION;
             var3 = false;
             return var3;
- 180:
+case 66:
             var3 = _closure1_slot0;
             var5 = _closure1_slot1;
             var1 = 10;
@@ -772,16 +772,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = 1;
             var1 = var3 > var1;
             return var1;
- 225:
+case 65:
             var1 = var2.trim;
             var2 = var1.bind(var2)();
             var1 = '';
             var1 = var1 !== var2;
             return var1;
- 245:
+case 64:
             var1 = true;
             return var1;
- 249:
+case 61:
             var1 = true;
             return var1;
         }
@@ -819,37 +819,37 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['isStandardSticker'] = var5;
     var5 = function(arg1) {
         _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = var2.stickerItems;
             var1 = var1.length;
             var3 = 0;
-            if(!(!(var1 > var3))) { _fun0012_ip = 49; continue _fun0012 }
- 20:
+            if(!(!(var1 > var3))) { _fun0012_ip = 68; continue _fun0012 }
+case 69:
             var1 = var2.stickers;
             var1 = var1.length;
-            if(!(!(var1 > var3))) { _fun0012_ip = 41; continue _fun0012 }
- 35:
+            if(!(!(var1 > var3))) { _fun0012_ip = 70; continue _fun0012 }
+case 32:
             var1 = new Array(0);
-            _fun0012_ip = 47; continue _fun0012;
- 41:
+            _fun0012_ip = 6; continue _fun0012;
+case 70:
             var1 = var2.stickers;
- 47:
-            _fun0012_ip = 55; continue _fun0012;
- 49:
+case 6:
+            _fun0012_ip = 71; continue _fun0012;
+case 68:
             var1 = var2.stickerItems;
- 55:
+case 71:
             return var1;
         }
     };
     var3['getMessageStickers'] = var5;
     var5 = function(arg1) {
         _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = null;
-            if(!(var2 !== var1)) { _fun0013_ip = 39; continue _fun0013 }
- 9:
+            if(!(var2 !== var1)) { _fun0013_ip = 72; continue _fun0013 }
+case 73:
             var3 = var1.guild_id;
             var2 = _closure1_slot3;
             var1 = var2.getGuild;
@@ -857,7 +857,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = undefined;
             var1 = var1 !== var2;
             return var1;
- 39:
+case 72:
             var1 = false;
             return var1;
         }

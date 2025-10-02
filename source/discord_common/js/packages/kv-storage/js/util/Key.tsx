@@ -22,15 +22,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function combineKey(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var6 = arg1;
             var5 = arg2;
             var2 = global;
             var3 = var2.Array;
             var1 = var3.isArray;
             var1 = var1.bind(var3)(var5);
-            if(var1) { _fun0001_ip = 57; continue _fun0001 }
- 27:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = new Array(1);
             var8 = 0;
             var10 = var1;
@@ -39,8 +39,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1[var4] = var5;
             var3 = 1;
             var3 = var4 + var3;
-            _fun0001_ip = 86; continue _fun0001;
- 57:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var3 = new Array(0);
             var8 = 0;
             var10 = var3;
@@ -50,11 +50,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var5;
             var4 = arraySpread(var10, var9, var8);
             var1 = var3;
- 86:
+case 4:
             var4 = var1.length;
             var3 = 1;
-            if(!(var4 >= var3)) { _fun0001_ip = 137; continue _fun0001 }
- 98:
+            if(!(var4 >= var3)) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var4 = var1.length;
             var6 = _closure1_slot0;
             var5 = _closure1_slot1;
@@ -63,8 +63,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = undefined;
             var3 = var6.bind(var3)(var5);
             var3 = var3.MAXIMUM_KEY_BITS;
-            if(!(!(var4 <= var3))) { _fun0001_ip = 217; continue _fun0001 }
- 137:
+            if(!(!(var4 <= var3))) { _fun0001_ip = 7; continue _fun0001 }
+case 5:
             var4 = var2.Error;
             var7 = var1.length;
             var5 = var2.JSON;
@@ -81,22 +81,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = new var11[var4](var10, var9);
             var2 = var2 instanceof Object ? var2 : var3;
             throw var2;
- 217:
+case 7:
             return var1;
         }
     };
     var3['combineKey'] = var4;
     var2 = function combineKeyPrefix(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var6 = arg1;
             var5 = arg2;
             var2 = global;
             var3 = var2.Array;
             var1 = var3.isArray;
             var1 = var1.bind(var3)(var5);
-            if(var1) { _fun0002_ip = 57; continue _fun0002 }
- 27:
+            if(var1) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
             var1 = new Array(1);
             var8 = 0;
             var10 = var1;
@@ -105,8 +105,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1[var4] = var5;
             var3 = 1;
             var3 = var4 + var3;
-            _fun0002_ip = 86; continue _fun0002;
- 57:
+            _fun0002_ip = 4; continue _fun0002;
+case 2:
             var3 = new Array(0);
             var8 = 0;
             var10 = var3;
@@ -116,7 +116,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var5;
             var4 = arraySpread(var10, var9, var8);
             var1 = var3;
- 86:
+case 4:
             var4 = var1.length;
             var6 = _closure1_slot0;
             var5 = _closure1_slot1;
@@ -125,8 +125,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = undefined;
             var3 = var6.bind(var3)(var5);
             var3 = var3.MAXIMUM_KEY_BITS;
-            if(!(!(var4 <= var3))) { _fun0002_ip = 205; continue _fun0002 }
- 125:
+            if(!(!(var4 <= var3))) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var4 = var2.Error;
             var7 = var1.length;
             var5 = var2.JSON;
@@ -143,7 +143,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = new var11[var4](var10, var9);
             var2 = var2 instanceof Object ? var2 : var3;
             throw var2;
- 205:
+case 8:
             return var1;
         }
     };

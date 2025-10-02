@@ -50,7 +50,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function MessagesScreen(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var14 = var2.searchContext;
             var _closure2_slot0 = var14;
@@ -129,13 +129,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var3[var13];
             var3 = _closure1_slot6;
             var3 = var3.Pins;
-            if(!(var6 !== var3)) { _fun0001_ip = 236; continue _fun0001 }
- 230:
+            if(!(var6 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var18 = _closure1_slot8;
-            _fun0001_ip = 240; continue _fun0001;
- 236:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var18 = _closure1_slot7;
- 240:
+case 4:
             _closure2_slot7 = var18;
             var8 = _closure1_slot3;
             var6 = var8.useMemo;
@@ -187,13 +187,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[4] = var15;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var1 = new Array(0);
                     var _closure3_slot0 = var1;
                     var4 = _closure2_slot2;
                     var3 = null;
-                    if(!(var3 != var4)) { _fun0002_ip = 44; continue _fun0002 }
- 23:
+                    if(!(var3 != var4)) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
                     var4 = _closure2_slot2;
                     var3 = var4.forEach;
                     var2 = function(arg1, arg2) {
@@ -230,7 +230,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     };
                     var2 = var3.bind(var4)(var2);
- 44:
+case 5:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
                     var2 = 9;
@@ -250,8 +250,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = var4 < var5;
                     var3 = global;
                     var2 = 'message-placeholder-';
-                    if(!var7) { _fun0002_ip = 179; continue _fun0002 }
- 126:
+                    if(!var7) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
                     var8 = var1.push;
                     var7 = {};
                     var9 = _closure1_slot10;
@@ -263,8 +263,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7['key'] = var9;
                     var7 = var8.bind(var1)(var7);
                     var4 = var4 + 1;
-                    if(var4 < var5) { _fun0002_ip = 126; continue _fun0002 }
- 179:
+                    if(var4 < var5) { _fun0002_ip = 8; continue _fun0002 }
+case 7:
                     return var1;
                 }
             };

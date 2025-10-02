@@ -45,7 +45,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function _default() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var7 = _closure1_slot0;
             var6 = _closure1_slot2;
             var1 = 4;
@@ -109,7 +109,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var5.useCallback;
             var2 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var4 = _closure1_slot1;
                     var5 = _closure1_slot2;
                     var1 = 7;
@@ -124,8 +124,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var2.bind(var1)();
                     var5 = _closure1_slot1;
                     var2 = _closure1_slot2;
-                    if(var4) { _fun0002_ip = 109; continue _fun0002 }
- 62:
+                    if(var4) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var4 = 9;
                     var4 = var2[var4];
                     var6 = var5.bind(var1)(var4);
@@ -136,8 +136,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var4.EntitlementFeatureNames;
                     var4 = var4.SAVED_MESSAGES;
                     var4 = var6.bind(var1)(var4);
-                    _fun0002_ip = 190; continue _fun0002;
- 109:
+                    _fun0002_ip = 4; continue _fun0002;
+case 2:
                     var4 = 11;
                     var4 = var2[var4];
                     var7 = var5.bind(var1)(var4);
@@ -158,7 +158,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var12 = var7;
                     var8 = var4;
                     var2 = var12[var6](var11, var10, var9, var8, var7);
- 190:
+case 4:
                     return var1;
                 }
             };
@@ -330,8 +330,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var6.Group;
             var6 = {};
             var10 = null;
-            if(!var11) { _fun0001_ip = 952; continue _fun0001 }
- 778:
+            if(!var11) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var14 = _closure1_slot6;
             var21 = _closure1_slot0;
             var16 = _closure1_slot2;
@@ -370,7 +370,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11['arrow'] = var9;
             var8 = 'for-later';
             var10 = var14.bind(var4)(var12, var11, var8);
- 952:
+case 5:
             var8 = new Array(2);
             var8[0] = var10;
             var12 = _closure1_slot6;

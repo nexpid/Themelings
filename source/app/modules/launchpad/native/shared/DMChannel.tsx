@@ -105,20 +105,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function DMChannel(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var10 = var1.channel;
             var16 = var1.muted;
             var3 = undefined;
-            if(!(var16 === var3)) { _fun0001_ip = 22; continue _fun0001 }
- 20:
+            if(!(var16 === var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var16 = false;
- 22:
+case 2:
             var7 = var1.navigationReplace;
-            if(!(var7 === var3)) { _fun0001_ip = 34; continue _fun0001 }
- 32:
+            if(!(var7 === var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var7 = false;
- 34:
+case 4:
             var1 = _closure1_slot6;
             var6 = var1.bind(var3)();
             var2 = _closure1_slot1;
@@ -142,8 +142,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = null;
             var1 = var12 != var20;
             var11 = undefined;
-            if(!var1) { _fun0001_ip = 174; continue _fun0001 }
- 138:
+            if(!var1) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var2 = _closure1_slot1;
             var4 = _closure1_slot2;
             var1 = 10;
@@ -152,16 +152,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4.extractTimestamp;
             var1 = var20.id;
             var11 = var2.bind(var4)(var1);
- 174:
+case 6:
             var1 = 'text-muted';
             var19 = var1;
-            if(!var17) { _fun0001_ip = 198; continue _fun0001 }
- 186:
+            if(!var17) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var19 = var1;
-            if(var16) { _fun0001_ip = 198; continue _fun0001 }
- 192:
+            if(var16) { _fun0001_ip = 8; continue _fun0001 }
+case 10:
             var19 = 'text-normal';
- 198:
+case 8:
             var4 = _closure1_slot0;
             var18 = _closure1_slot2;
             var1 = 11;
@@ -217,8 +217,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var5.bind(var3)(var14, var13);
             var6['unreadBadge'] = var13;
             var12 = var12 != var20;
-            if(!var12) { _fun0001_ip = 524; continue _fun0001 }
- 440:
+            if(!var12) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var15 = _closure1_slot5;
             var17 = _closure1_slot0;
             var18 = _closure1_slot2;
@@ -238,7 +238,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = var16.COMPACT;
             var13['layout'] = var16;
             var12 = var15.bind(var3)(var14, var13);
- 524:
+case 11:
             var6['subtitle'] = var12;
             var6['latestMessageTimestamp'] = var11;
             var11 = _closure1_slot1;

@@ -98,11 +98,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['disabled'] = var7;
         var6 = function renderIcon() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var2 = _closure2_slot0;
                 var1 = null;
-                if(var2) { _fun0001_ip = 132; continue _fun0001 }
- 12:
+                if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var5 = _closure1_slot2;
                 var7 = _closure1_slot0;
                 var9 = _closure1_slot1;
@@ -125,15 +125,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = new Array(2);
                 var6[0] = var7;
                 var7 = _closure2_slot1;
-                if(!var7) { _fun0001_ip = 118; continue _fun0001 }
- 109:
+                if(!var7) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var8 = _closure2_slot2;
                 var7 = var8.disabled;
- 118:
+case 4:
                 var6[1] = var7;
                 var2['style'] = var6;
                 var1 = var5.bind(var4)(var3, var2);
- 132:
+case 2:
                 return var1;
             }
         };

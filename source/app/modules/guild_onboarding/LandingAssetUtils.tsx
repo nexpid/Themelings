@@ -47,7 +47,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var4.forEach;
         var2 = function(arg1, arg2) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var4 = arg2;
                 var2 = _closure2_slot0;
                 var5 = var2.layers;
@@ -60,8 +60,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var2[var4];
                 var6 = var2.ty;
                 var2 = 'gr';
-                if(!(var2 === var6)) { _fun0001_ip = 225; continue _fun0001 }
- 64:
+                if(!(var2 === var6)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var2 = _closure2_slot0;
                 var6 = var2.layers;
                 var2 = _closure2_slot2;
@@ -80,8 +80,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var2 = var6.bind(var7)(var2);
-                if(!(var2 >= var5)) { _fun0001_ip = 225; continue _fun0001 }
- 125:
+                if(!(var2 >= var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
                 var2 = _closure2_slot0;
                 var6 = var2.layers;
                 var2 = _closure2_slot2;
@@ -110,7 +110,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1[var3] = var4;
                 var3 = var3 + var4;
                 var2['k'] = var1;
- 225:
+case 2:
                 var1 = undefined;
                 return var1;
             }

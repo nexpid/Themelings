@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function MoreTipsModalScreen(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var14 = var1.channelId;
             var13 = var1.warningId;
@@ -54,8 +54,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15[0] = var16;
             var16 = null;
             var17 = var16 != var22;
-            if(!var17) { _fun0001_ip = 220; continue _fun0001 }
- 190:
+            if(!var17) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var20 = _closure1_slot8;
             var19 = _closure1_slot4;
             var17 = {};
@@ -63,7 +63,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17['style'] = var23;
             var17['children'] = var22;
             var16 = var20.bind(var4)(var19, var17);
- 220:
+case 2:
             var15[1] = var16;
             var8['children'] = var15;
             var10 = var11.bind(var4)(var10, var8);
@@ -368,7 +368,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3[3] = var11;
         var1 = function() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var1 = 17;
@@ -389,11 +389,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = null;
                 var9 = var7 == var9;
                 var7 = undefined;
-                if(var9) { _fun0002_ip = 96; continue _fun0002 }
- 87:
+                if(var9) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                 var8 = _closure2_slot3;
                 var7 = var8.type;
- 96:
+case 4:
                 var2['warningType'] = var7;
                 var2 = var4.bind(var6)(var3, var2);
                 var3 = _closure1_slot1;

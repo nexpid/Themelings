@@ -31,14 +31,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.awaitStorage;
             var2 = function() {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     var1 = _closure2_slot0;
                     var2 = var1.muteTime;
                     var6 = null;
                     var1 = -1;
                     var11 = null;
-                    if(!(var1 !== var2)) { _fun0001_ip = 105; continue _fun0001 }
- 27:
+                    if(!(var1 !== var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var5 = _closure1_slot1;
                     var4 = _closure1_slot2;
                     var2 = 2;
@@ -49,16 +49,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var5.add;
                     var2 = _closure2_slot0;
                     var2 = var2.muteTime;
-                    if(!(var6 == var2)) { _fun0001_ip = 85; continue _fun0001 }
- 75:
+                    if(!(var6 == var2)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                     var1 = _closure1_slot3;
                     var2 = var1.HOURS_1;
- 85:
+case 4:
                     var1 = 'second';
                     var2 = var4.bind(var5)(var2, var1);
                     var1 = var2.toISOString;
                     var11 = var1.bind(var2)();
- 105:
+case 2:
                     var5 = _closure1_slot1;
                     var10 = _closure1_slot2;
                     var1 = 3;

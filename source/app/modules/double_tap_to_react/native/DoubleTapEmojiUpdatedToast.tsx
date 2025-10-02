@@ -1,7 +1,7 @@
 // app/modules/double_tap_to_react/native/DoubleTapEmojiUpdatedToast.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
         var6 = require;
         var12 = metroImportDefault;
         var3 = exports;
@@ -11,7 +11,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure1_slot2 = var7;
         var4 = function ToastEmoji(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var7 = var1.emoji;
                 var _closure2_slot0 = var7;
@@ -41,16 +41,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3[1] = var10;
                 var2 = function() {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                         var1 = _closure2_slot0;
                         var2 = var1.id;
                         var1 = null;
-                        if(!(var1 == var2)) { _fun0003_ip = 29; continue _fun0003 }
- 18:
+                        if(!(var1 == var2)) { _fun0003_ip = 2; continue _fun0003 }
+case 3:
                         var1 = _closure2_slot0;
                         var1 = var1.url;
-                        _fun0003_ip = 113; continue _fun0003;
- 29:
+                        _fun0003_ip = 4; continue _fun0003;
+case 2:
                         var4 = _closure1_slot1;
                         var3 = _closure1_slot2;
                         var2 = 8;
@@ -64,16 +64,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2['id'] = var6;
                         var6 = _closure2_slot1;
                         var6 = !var6;
-                        if(!var6) { _fun0003_ip = 95; continue _fun0003 }
- 85:
+                        if(!var6) { _fun0003_ip = 5; continue _fun0003 }
+case 6:
                         var7 = _closure2_slot0;
                         var6 = var7.animated;
- 95:
+case 5:
                         var2['animated'] = var6;
                         var5 = _closure1_slot5;
                         var2['size'] = var5;
                         var1 = var3.bind(var4)(var2);
- 113:
+case 4:
                         return var1;
                     }
                 };
@@ -94,10 +94,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = null;
                 var8 = var6 == var8;
                 var6 = '';
-                if(!var8) { _fun0002_ip = 192; continue _fun0002 }
- 187:
+                if(!var8) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
                 var6 = var7.surrogates;
- 192:
+case 7:
                 var1['name'] = var6;
                 var1['src'] = var5;
                 var1 = var3.bind(var4)(var2, var1);
@@ -197,20 +197,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var14 = var16.isIOS;
         var16 = var14.bind(var16)();
         var14 = 16;
-        if(!var16) { _fun0001_ip = 293; continue _fun0001 }
- 290:
+        if(!var16) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
         var14 = var15;
- 293:
+case 9:
         var10['fontSize'] = var14;
         var13 = var7[var13];
         var14 = var6.bind(var1)(var13);
         var13 = var14.isIOS;
         var14 = var13.bind(var14)();
         var13 = undefined;
-        if(!var14) { _fun0001_ip = 325; continue _fun0001 }
- 322:
+        if(!var14) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
         var13 = 32;
- 325:
+case 11:
         var10['lineHeight'] = var13;
         var13 = 'center';
         var10['textAlign'] = var13;

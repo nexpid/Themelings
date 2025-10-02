@@ -22,7 +22,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function getEmojiPickerDataRowItemNativeSection(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var6 = var1.label;
             var5 = var1.guildId;
@@ -30,20 +30,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var1.emojisDisabled;
             var2 = var1.isSectionNitroLocked;
             var9 = undefined;
-            if(!(var2 === var9)) { _fun0001_ip = 39; continue _fun0001 }
- 37:
+            if(!(var2 === var9)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = false;
- 39:
-            if(var2) { _fun0001_ip = 62; continue _fun0001 }
- 42:
+case 2:
+            if(var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = global;
             var3 = var1.Array;
             var1 = var3.from;
             var3 = var1.bind(var3)(var7);
-            _fun0001_ip = 66; continue _fun0001;
- 62:
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
             var3 = new Array(0);
- 66:
+case 6:
             var1 = {};
             var8 = _closure1_slot0;
             var10 = _closure1_slot1;

@@ -61,7 +61,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.forwardRef;
     var2 = function(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var2 = var3.channelId;
             var _closure2_slot0 = var2;
@@ -73,10 +73,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var3.setSuggestionsDismissed;
             var7 = var3.showBackButton;
             var4 = undefined;
-            if(!(var7 === var4)) { _fun0001_ip = 61; continue _fun0001 }
- 59:
+            if(!(var7 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var7 = true;
- 61:
+case 2:
             var _closure2_slot2 = var4;
             var _closure2_slot3 = var4;
             var3 = _closure1_slot7;
@@ -144,7 +144,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[2] = var11;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var5 = _closure1_slot4;
                     var4 = var5.setState;
                     var3 = _closure2_slot2;
@@ -157,15 +157,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var4.bind(var5)(var3, var1);
                     var3 = _closure2_slot1;
                     var1 = undefined;
-                    if(!(var1 === var3)) { _fun0002_ip = 55; continue _fun0002 }
- 45:
+                    if(!(var1 === var3)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var3 = _closure2_slot3;
                     var3 = var3.bind(var1)();
-                    _fun0002_ip = 63; continue _fun0002;
- 55:
+                    _fun0002_ip = 6; continue _fun0002;
+case 4:
                     var2 = _closure2_slot1;
                     var2 = var2.bind(var1)();
- 63:
+case 6:
                     return var1;
                 }
             };
@@ -183,8 +183,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['suggestionsDismissed'] = var8;
             var1['setSuggestionsDismissed'] = var5;
             var5 = null;
-            if(!var7) { _fun0001_ip = 428; continue _fun0001 }
- 275:
+            if(!var7) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var8 = _closure1_slot6;
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
@@ -217,7 +217,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var8.bind(var4)(var10, var9);
             var6['children'] = var9;
             var5 = var8.bind(var4)(var7, var6);
- 428:
+case 7:
             var1['backButton'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

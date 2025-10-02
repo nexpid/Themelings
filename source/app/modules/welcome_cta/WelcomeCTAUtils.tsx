@@ -37,7 +37,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function pickHelloSticker() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = _closure1_slot2;
             var2 = var3.getCurrentUser;
             var3 = var2.bind(var3)();
@@ -45,14 +45,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var2 == var3;
             var6 = undefined;
             var5 = undefined;
-            if(var4) { _fun0001_ip = 34; continue _fun0001 }
- 29:
+            if(var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = var3.id;
- 34:
+case 2:
             var2 = var2 != var5;
             var3 = 0;
-            if(!var2) { _fun0001_ip = 74; continue _fun0001 }
- 43:
+            if(!var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var4 = _closure1_slot0;
             var7 = _closure1_slot1;
             var2 = 3;
@@ -60,7 +60,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.bind(var6)(var2);
             var2 = var4.extractTimestamp;
             var3 = var2.bind(var4)(var5);
- 74:
+case 4:
             var2 = _closure1_slot3;
             var1 = var2.length;
             var1 = var3 % var1;
@@ -71,7 +71,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['pickHelloSticker'] = var4;
     var4 = function(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var3 = _closure1_slot2;
             var2 = var3.getCurrentUser;
             var3 = var2.bind(var3)();
@@ -79,14 +79,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var2 == var3;
             var5 = undefined;
             var6 = undefined;
-            if(var4) { _fun0002_ip = 34; continue _fun0002 }
- 29:
+            if(var4) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
             var6 = var3.id;
- 34:
+case 2:
             var2 = var2 != var6;
             var3 = 0;
-            if(!var2) { _fun0002_ip = 74; continue _fun0002 }
- 43:
+            if(!var2) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var4 = _closure1_slot0;
             var7 = _closure1_slot1;
             var2 = 3;
@@ -94,7 +94,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.bind(var5)(var2);
             var2 = var4.extractTimestamp;
             var3 = var2.bind(var4)(var6);
- 74:
+case 4:
             var4 = _closure1_slot0;
             var6 = _closure1_slot1;
             var2 = 3;
@@ -114,7 +114,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['pickWelcomeSticker'] = var4;
     var2 = function(arg1, arg2, arg3) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var9 = arg1;
             var7 = arg2;
             var8 = arg3;
@@ -155,10 +155,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = null;
             var8 = var6 == var7;
             var6 = undefined;
-            if(var8) { _fun0003_ip = 180; continue _fun0003 }
- 175:
+            if(var8) { _fun0003_ip = 6; continue _fun0003 }
+case 7:
             var6 = var7.id;
- 180:
+case 6:
             var2['sender'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var1;

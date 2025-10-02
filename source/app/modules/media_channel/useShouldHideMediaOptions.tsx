@@ -32,7 +32,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useShouldHideMediaOptions(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var _closure2_slot0 = var1;
             var5 = _closure1_slot0;
@@ -47,7 +47,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4[0] = var7;
             var3 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var4 = _closure1_slot2;
                     var3 = var4.getChannel;
                     var1 = _closure2_slot0;
@@ -55,42 +55,42 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = null;
                     var3 = var6 == var5;
                     var1 = undefined;
-                    if(var3) { _fun0002_ip = 41; continue _fun0002 }
- 35:
+                    if(var3) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var1 = var5.parent_id;
- 41:
+case 2:
                     var3 = var6 != var1;
                     var1 = null;
-                    if(!var3) { _fun0002_ip = 94; continue _fun0002 }
- 50:
+                    if(!var3) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var3 = var5.isForumPost;
                     var3 = var3.bind(var5)();
                     var1 = null;
-                    if(!var3) { _fun0002_ip = 94; continue _fun0002 }
- 65:
+                    if(!var3) { _fun0002_ip = 4; continue _fun0002 }
+case 6:
                     var3 = _closure1_slot2;
                     var2 = var3.getChannel;
                     var6 = var6 == var5;
                     var4 = undefined;
-                    if(var6) { _fun0002_ip = 89; continue _fun0002 }
- 83:
+                    if(var6) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
                     var4 = var5.parent_id;
- 89:
+case 7:
                     var1 = var2.bind(var3)(var4);
- 94:
+case 4:
                     return var1;
                 }
             };
             var4 = var5.bind(var6)(var4, var3);
             var3 = null;
             var3 = var3 == var4;
-            if(var3) { _fun0001_ip = 94; continue _fun0001 }
- 73:
+            if(var3) { _fun0001_ip = 4; continue _fun0001 }
+case 9:
             var3 = var4.hasFlag;
             var1 = _closure1_slot3;
             var1 = var1.HIDE_MEDIA_DOWNLOAD_OPTIONS;
             var2 = var3.bind(var4)(var1);
- 94:
+case 4:
             var1 = true;
             var1 = var1 === var2;
             return var1;

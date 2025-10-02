@@ -15,17 +15,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var5.prototype;
     var2 = function toLocaleLowerCase() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = this;
             var3 = var4.length;
             var1 = '';
             var2 = 0;
-            if(!(var2 !== var3)) { _fun0001_ip = 35; continue _fun0001 }
- 18:
+            if(!(var2 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = _closure1_slot0;
             var2 = var3.call;
             var1 = var2.bind(var3)(var4);
- 35:
+case 2:
             return var1;
         }
     };

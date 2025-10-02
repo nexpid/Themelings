@@ -141,15 +141,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['getMuteTimeOptions'] = var4;
     var4 = function filterOverrides(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var2 = arguments[1];
             var _closure2_slot0 = var4;
             var5 = undefined;
-            if(!(var2 === var5)) { _fun0001_ip = 25; continue _fun0001 }
- 18:
+            if(!(var2 === var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = _closure1_slot8;
- 25:
+case 2:
             var _closure2_slot1 = var2;
             var3 = _closure1_slot1;
             var6 = _closure1_slot3;
@@ -161,7 +161,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.filter;
             var1 = function(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var6 = arg1;
                     var1 = _closure2_slot0;
                     var2 = var1[var6];
@@ -181,15 +181,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var11 = null;
                     var13 = var11 != var1;
                     var2 = 0;
-                    if(!var13) { _fun0002_ip = 88; continue _fun0002 }
- 85:
+                    if(!var13) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var2 = var1;
- 88:
+case 4:
                     var1 = _closure1_slot7;
                     var1 = var1.UNREADS_ALL_MESSAGES;
                     var2 = var8.bind(var12)(var2, var1);
-                    if(var2) { _fun0002_ip = 171; continue _fun0002 }
- 107:
+                    if(var2) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var8 = _closure1_slot2;
                     var1 = _closure1_slot3;
                     var1 = var1[var9];
@@ -200,39 +200,39 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var1.flags;
                     var11 = var11 != var1;
                     var10 = 0;
-                    if(!var11) { _fun0002_ip = 155; continue _fun0002 }
- 152:
+                    if(!var11) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                     var10 = var1;
- 155:
+case 8:
                     var1 = _closure1_slot7;
                     var1 = var1.UNREADS_ONLY_MENTIONS;
                     var2 = var8.bind(var9)(var10, var1);
- 171:
+case 6:
                     var1 = _closure2_slot1;
                     var1 = var1.ignoreUnreadSetting;
                     var1 = !var1;
-                    if(!var1) { _fun0002_ip = 190; continue _fun0002 }
- 187:
+                    if(!var1) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
                     var1 = var2;
- 190:
-                    if(var1) { _fun0002_ip = 215; continue _fun0002 }
- 193:
+case 10:
+                    if(var1) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
                     var2 = _closure2_slot1;
                     var2 = var2.ignoreNotificationSetting;
                     var2 = !var2;
-                    if(!var2) { _fun0002_ip = 212; continue _fun0002 }
- 209:
+                    if(!var2) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
                     var2 = var5;
- 212:
+case 14:
                     var1 = var2;
- 215:
-                    if(var1) { _fun0002_ip = 276; continue _fun0002 }
- 218:
+case 12:
+                    if(var1) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
                     var2 = _closure2_slot1;
                     var2 = var2.ignoreMute;
                     var2 = !var2;
-                    if(!var2) { _fun0002_ip = 273; continue _fun0002 }
- 234:
+                    if(!var2) { _fun0002_ip = 18; continue _fun0002 }
+case 19:
                     var5 = _closure1_slot0;
                     var8 = _closure1_slot3;
                     var4 = 7;
@@ -242,9 +242,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = _closure2_slot0;
                     var3 = var3[var6];
                     var2 = var4.bind(var5)(var3);
- 273:
+case 18:
                     var1 = var2;
- 276:
+case 16:
                     return var1;
                 }
             };
@@ -255,7 +255,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['filterOverrides'] = var4;
     var4 = function useShouldUseNewNotificationSystem(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var4 = _closure1_slot0;
             var5 = _closure1_slot3;
             var2 = 8;
@@ -285,21 +285,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['autoTrackExposure'] = var6;
             var1 = var4.bind(var5)(var3, var1);
             var1 = var1.enabled;
-            if(!var1) { _fun0003_ip = 116; continue _fun0003 }
- 113:
+            if(!var1) { _fun0003_ip = 20; continue _fun0003 }
+case 21:
             var1 = var2;
- 116:
+case 20:
             return var1;
         }
     };
     var3['useShouldUseNewNotificationSystem'] = var4;
     var2 = function shouldShowUseNewNotificationSystem(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var1 = _closure1_slot4;
             var1 = var1.useNewNotifications;
-            if(!var1) { _fun0004_ip = 79; continue _fun0004 }
- 16:
+            if(!var1) { _fun0004_ip = 22; continue _fun0004 }
+case 23:
             var4 = _closure1_slot0;
             var3 = _closure1_slot3;
             var2 = 9;
@@ -316,7 +316,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['autoTrackExposure'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             var1 = var2.enabled;
- 79:
+case 22:
             return var1;
         }
     };

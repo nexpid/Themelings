@@ -83,7 +83,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3['__initData'] = var7;
         var2 = function n(arg1, arg2) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var3 = arg1;
                 var7 = arg2;
                 var5 = _closure1_slot0;
@@ -96,13 +96,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = null;
                 var8 = var4 != var7;
                 var4 = undefined;
-                if(!var8) { _fun0001_ip = 51; continue _fun0001 }
- 48:
+                if(!var8) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var4 = var7;
- 51:
+case 2:
                 var4 = var5.bind(var6)(var3, var4);
-                if(var4) { _fun0001_ip = 180; continue _fun0001 }
- 60:
+                if(var4) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var6 = var3.keyboardHeight;
                 var7 = var3.safeAreaBottom;
                 var5 = var3.screenName;
@@ -130,7 +130,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2['top'] = var6;
                 var2['bottom'] = var5;
                 var2 = var4.bind(var1)(var3, var2);
- 180:
+case 4:
                 return var1;
             }
         };

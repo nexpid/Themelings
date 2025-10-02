@@ -38,7 +38,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function GuildsBarPendingGuildFolder(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var11 = var1.id;
             var _closure2_slot0 = var11;
@@ -69,17 +69,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9[0] = var6;
             var6 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = _closure2_slot1;
                     var2 = var3.includes;
                     var5 = _closure1_slot4;
                     var1 = var5.getGuildId;
                     var1 = var1.bind(var5)();
                     var5 = null;
-                    if(!(var5 == var1)) { _fun0002_ip = 39; continue _fun0002 }
- 35:
+                    if(!(var5 == var1)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var1 = _closure1_slot5;
- 39:
+case 2:
                     var1 = var2.bind(var3)(var1);
                     return var1;
                 }
@@ -115,7 +115,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1['accessibilityActions'] = var3;
                 var2 = function onAccessibilityAction(arg1) {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                         var2 = arg1;
                         var _closure4_slot0 = var2;
                         var3 = _closure3_slot0;
@@ -132,16 +132,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = var2.bind(var3)(var1);
                         var4 = null;
                         var1 = var4 == var2;
-                        if(var1) { _fun0003_ip = 52; continue _fun0003 }
- 43:
+                        if(var1) { _fun0003_ip = 4; continue _fun0003 }
+case 5:
                         var3 = var2.action;
                         var1 = var4 == var3;
- 52:
-                        if(var1) { _fun0003_ip = 64; continue _fun0003 }
- 55:
+case 4:
+                        if(var1) { _fun0003_ip = 6; continue _fun0003 }
+case 7:
                         var1 = var2.action;
                         var1 = var1.bind(var2)();
- 64:
+case 6:
                         var1 = undefined;
                         return var1;
                     }
@@ -224,8 +224,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['preventClipping'] = var8;
             var1['config'] = var6;
             var6 = null;
-            if(!var7) { _fun0001_ip = 443; continue _fun0001 }
- 390:
+            if(!var7) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var9 = _closure1_slot6;
             var8 = _closure1_slot0;
             var12 = _closure1_slot2;
@@ -238,7 +238,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var10.length;
             var7['totalItems'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 443:
+case 8:
             var1['externalChildren'] = var6;
             var7 = _closure1_slot6;
             var6 = _closure1_slot0;

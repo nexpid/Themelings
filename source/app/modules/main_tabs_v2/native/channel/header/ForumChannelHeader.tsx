@@ -47,7 +47,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var10 = var1.channelId;
             var3 = var1.screenIndex;
@@ -67,8 +67,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2.useIsForumChannelSearchActive;
             var1 = var1.bind(var2)(var10);
             var4 = _closure1_slot4;
-            if(var1) { _fun0001_ip = 152; continue _fun0001 }
- 94:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = _closure1_slot1;
             var14 = _closure1_slot2;
             var1 = 7;
@@ -82,8 +82,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['isNavigationScreen'] = var11;
             var1['screenIndex'] = var3;
             var1 = var4.bind(var5)(var2, var1);
-            _fun0001_ip = 225; continue _fun0001;
- 152:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var3 = _closure1_slot3;
             var2 = {};
             var7 = var7.search;
@@ -101,7 +101,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var4.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 225:
+case 4:
             return var1;
         }
     };

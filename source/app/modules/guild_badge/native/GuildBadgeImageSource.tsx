@@ -8,16 +8,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var8;
     var4 = function resolveImageSource(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = arg2;
             var1 = var1.premium;
-            if(!var1) { _fun0001_ip = 27; continue _fun0001 }
- 15:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = var2.premiumImageSource;
             var1 = null;
-            if(!(var1 == var3)) { _fun0001_ip = 97; continue _fun0001 }
- 27:
+            if(!(var1 == var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 2:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
             var1 = 9;
@@ -27,21 +27,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.isThemeLight;
             var1 = arg3;
             var1 = var3.bind(var4)(var1);
-            if(!var1) { _fun0001_ip = 81; continue _fun0001 }
- 69:
+            if(!var1) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var3 = var2.imageSourceLight;
             var1 = null;
-            if(!(var1 == var3)) { _fun0001_ip = 89; continue _fun0001 }
- 81:
+            if(!(var1 == var3)) { _fun0001_ip = 7; continue _fun0001 }
+case 5:
             var1 = var2.imageSource;
-            _fun0001_ip = 95; continue _fun0001;
- 89:
+            _fun0001_ip = 8; continue _fun0001;
+case 7:
             var1 = var2.imageSourceLight;
- 95:
-            _fun0001_ip = 103; continue _fun0001;
- 97:
+case 8:
+            _fun0001_ip = 9; continue _fun0001;
+case 4:
             var1 = var2.premiumImageSource;
- 103:
+case 9:
             return var1;
         }
     };
@@ -148,7 +148,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['resolveImageSource'] = var4;
     var2 = function getGuildBadgeImageSource(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var3 = _closure1_slot0;
             var4 = _closure1_slot1;
             var1 = 10;
@@ -167,12 +167,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var1[var3];
             var1 = null;
             var3 = var1 == var4;
-            if(var3) { _fun0002_ip = 92; continue _fun0002 }
- 78:
+            if(var3) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
             var3 = _closure1_slot3;
             var2 = arg2;
             var1 = var3.bind(var6)(var4, var5, var2);
- 92:
+case 10:
             return var1;
         }
     };

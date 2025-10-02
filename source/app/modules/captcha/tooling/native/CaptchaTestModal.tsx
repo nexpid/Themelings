@@ -162,11 +162,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot13 = var7;
     var7 = function CaptchaTestScreen(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var10 = null;
-            if(!(var2 != var10)) { _fun0001_ip = 656; continue _fun0001 }
- 14:
+            if(!(var2 != var10)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = undefined;
             var _closure2_slot0 = var5;
             var _closure2_slot1 = var5;
@@ -199,14 +199,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = function* () {
                     var1 = function* anon_0_() {
                         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(var2) { _fun0002_ip = 216; continue _fun0002 }
- 10:
+                            if(var2) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                             var2 = _closure2_slot0;
-                            if(!var2) { _fun0002_ip = 211; continue _fun0002 }
- 23: // try_start_0
+                            if(!var2) { _fun0002_ip = 6; continue _fun0002 }
+case 7: // try_start_0
                             var4 = _closure1_slot0;
                             var5 = _closure1_slot2;
                             var2 = 8;
@@ -220,19 +220,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var8 = null;
                             var10 = var8 != var10;
                             var8 = undefined;
-                            if(!var10) { _fun0002_ip = 79; continue _fun0002 }
- 75:
+                            if(!var10) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                             var8 = _closure2_slot2;
- 79:
+case 8:
                             var2['difficulty'] = var8;
                             var2 = var6.bind(var7)(var4, var2);
                             SaveGenerator(address=96);
- 94:
+case 10:
                             return var2;
- 96:
+case 11:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                            if(var4) { _fun0002_ip = 149; continue _fun0002 }
- 102:
+                            if(var4) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
                             var4 = _closure1_slot1;
                             var6 = _closure1_slot2;
                             var3 = 9;
@@ -241,11 +241,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var4 = var5.open;
                             var3 = {'key': 'captcha-test-modal-success', 'content': 'Captcha completed!'};
                             var3 = var4.bind(var5)(var3);
- 147: // try_end0
-                            _fun0002_ip = 211; continue _fun0002;
- 149:
+case 14: // try_end0
+                            _fun0002_ip = 6; continue _fun0002;
+case 12:
                             return var2;
- 152: // catch_target0
+case 15: // catch_target0
                             CatchBlockStart(arg_register=4);
                             var4 = _closure1_slot1;
                             var3 = _closure1_slot2;
@@ -260,10 +260,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var5 = var5.message;
                             var2['content'] = var5;
                             var2 = var3.bind(var4)(var2);
- 211:
+case 6:
                             var2 = undefined;
                             return var2;
- 216:
+case 4:
                             return var1;
                         }
                     };
@@ -316,7 +316,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15['options'] = var23;
             var23 = function onChange(arg1) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var1 = arg1;
                     var3 = var1.value;
                     var4 = _closure1_slot0;
@@ -327,12 +327,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var4.bind(var2)(var1);
                     var1 = var1.CaptchaDeciderType;
                     var1 = var1.HCAPTCHA_RQDATA;
-                    if(!(var3 !== var1)) { _fun0003_ip = 63; continue _fun0003 }
- 49:
+                    if(!(var3 !== var1)) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
                     var4 = _closure2_slot3;
                     var1 = null;
                     var1 = var4.bind(var2)(var1);
- 63:
+case 16:
                     var1 = _closure2_slot1;
                     var1 = var1.bind(var2)(var3);
                     var1 = undefined;
@@ -352,8 +352,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var8.CaptchaDeciderType;
             var8 = var8.HCAPTCHA_RQDATA;
             var8 = var9 === var8;
-            if(!var8) { _fun0001_ip = 462; continue _fun0001 }
- 334:
+            if(!var8) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
             var12 = _closure1_slot8;
             var10 = _closure1_slot6;
             var9 = {};
@@ -377,7 +377,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15['options'] = var21;
             var20 = function onChange(arg1) {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                     var1 = arg1;
                     var4 = var1.value;
                     var5 = _closure2_slot0;
@@ -390,11 +390,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var1.CaptchaDeciderType;
                     var1 = var1.HCAPTCHA_RQDATA;
                     var1 = var5 === var1;
-                    if(!var1) { _fun0004_ip = 68; continue _fun0004 }
- 59:
+                    if(!var1) { _fun0004_ip = 20; continue _fun0004 }
+case 21:
                     var2 = _closure2_slot3;
                     var1 = var2.bind(var3)(var4);
- 68:
+case 20:
                     var1 = undefined;
                     return var1;
                 }
@@ -404,7 +404,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13[1] = var15;
             var9['children'] = var13;
             var8 = var12.bind(var5)(var10, var9);
- 462:
+case 18:
             var7[1] = var8;
             var6['children'] = var7;
             var7 = var4.bind(var5)(var3, var6);
@@ -450,7 +450,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['children'] = var6;
             var1 = var4.bind(var5)(var3, var1);
             return var1;
- 656:
+case 2:
             var24 = "Cannot destructure 'undefined' or 'null'.";
             var25 = var2;
             var1 = throwTypeError(var25, var24);

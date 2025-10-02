@@ -20,21 +20,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var4.bind(var5)(var2);
     var2 = function isPartyFull(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var3 = var1.partySize;
             var2 = var1.maxPartySize;
             var1 = -1;
             var1 = var3 > var1;
-            if(!var1) { _fun0001_ip = 34; continue _fun0001 }
- 28:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = 0;
             var1 = var2 > var4;
- 34:
-            if(!var1) { _fun0001_ip = 41; continue _fun0001 }
- 37:
+case 2:
+            if(!var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = var3 >= var2;
- 41:
+case 4:
             return var1;
         }
     };

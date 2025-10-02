@@ -28,7 +28,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function trackActivityProblem(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var11 = var2.problem;
             var14 = var2.channel;
@@ -37,16 +37,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var2.activityApplication;
             var6 = var2.analyticsData;
             var1 = undefined;
-            if(!(var6 === var1)) { _fun0001_ip = 46; continue _fun0001 }
- 44:
+            if(!(var6 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = {};
- 46:
+case 2:
             var10 = var2.location;
             var9 = var2.rating;
-            if(!(var9 === var1)) { _fun0001_ip = 63; continue _fun0001 }
- 61:
+            if(!(var9 === var1)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var9 = null;
- 63:
+case 4:
             var4 = _closure1_slot0;
             var5 = _closure1_slot1;
             var3 = 1;
@@ -60,32 +60,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = null;
             var15 = var11 == var14;
             var13 = undefined;
-            if(var15) { _fun0001_ip = 129; continue _fun0001 }
- 119:
+            if(var15) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var15 = var14.getGuildId;
             var13 = var15.bind(var14)();
- 129:
+case 6:
             var2['guild_id'] = var13;
             var15 = var11 == var14;
             var13 = undefined;
-            if(var15) { _fun0001_ip = 147; continue _fun0001 }
- 142:
+            if(var15) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var13 = var14.id;
- 147:
+case 8:
             var2['channel_id'] = var13;
             var14 = var11 == var12;
             var13 = undefined;
-            if(var14) { _fun0001_ip = 165; continue _fun0001 }
- 160:
+            if(var14) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var13 = var12.id;
- 165:
+case 10:
             var2['application_id'] = var13;
             var13 = var11 == var12;
             var11 = undefined;
-            if(var13) { _fun0001_ip = 184; continue _fun0001 }
- 179:
+            if(var13) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var11 = var12.name;
- 184:
+case 12:
             var2['application_name'] = var11;
             var2['location'] = var10;
             var2['rating'] = var9;

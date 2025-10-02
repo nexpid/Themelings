@@ -32,7 +32,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function showMediaMessagePreviewActionSheet(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var5 = var2.channelId;
             var1 = var2.closeMediaModal;
@@ -41,17 +41,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4.getChannel;
             var8 = var2.bind(var4)(var5);
             var2 = null;
-            if(!(var2 != var8)) { _fun0001_ip = 176; continue _fun0001 }
- 45:
-            if(!(var2 != var7)) { _fun0001_ip = 176; continue _fun0001 }
- 52:
+            if(!(var2 != var8)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            if(!(var2 != var7)) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var6 = _closure1_slot4;
             var5 = var6.getUser;
             var4 = var7.author;
             var4 = var4.id;
             var6 = var5.bind(var6)(var4);
-            if(!(var2 != var6)) { _fun0001_ip = 176; continue _fun0001 }
- 82:
+            if(!(var2 != var6)) { _fun0001_ip = 2; continue _fun0001 }
+case 5:
             var5 = _closure1_slot1;
             var2 = _closure1_slot2;
             var4 = 2;
@@ -74,7 +74,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['closeMediaModal'] = var1;
             var1 = 'MediaMessagePreviewActionSheet';
             var1 = var4.bind(var5)(var3, var1, var2);
- 176:
+case 2:
             var1 = undefined;
             return var1;
         }

@@ -68,7 +68,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['VoiceActivityNotificationGuildExperiment'] = var4;
     var4 = function useVoiceActivityNotificationSettingsExperiment(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arg1;
             var9 = _closure1_slot3;
             var8 = var9.useExperiment;
@@ -78,23 +78,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = null;
             var10 = var6 == var5;
             var3 = undefined;
-            if(var10) { _fun0001_ip = 47; continue _fun0001 }
- 37:
+            if(var10) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var10 = var5.getGuildId;
             var3 = var10.bind(var5)();
- 47:
-            if(!(var6 == var3)) { _fun0001_ip = 55; continue _fun0001 }
- 51:
+case 2:
+            if(!(var6 == var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = _closure1_slot1;
- 55:
+case 4:
             var7['guildId'] = var3;
             var3 = {};
             var10 = var6 == var5;
             var11 = undefined;
-            if(var10) { _fun0001_ip = 75; continue _fun0001 }
- 70:
+            if(var10) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var11 = var5.type;
- 75:
+case 6:
             var10 = _closure1_slot0;
             var10 = var10.GUILD_VOICE;
             var10 = var11 !== var10;
@@ -110,17 +110,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = {};
             var10 = var6 == var5;
             var11 = undefined;
-            if(var10) { _fun0001_ip = 145; continue _fun0001 }
- 140:
+            if(var10) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var11 = var5.type;
- 145:
+case 8:
             var10 = _closure1_slot0;
             var10 = var10.GUILD_VOICE;
             var10 = var11 !== var10;
-            if(var10) { _fun0001_ip = 165; continue _fun0001 }
- 162:
+            if(var10) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var10 = !var3;
- 165:
+case 10:
             var2['disable'] = var10;
             var10 = true;
             var2['autoTrackExposure'] = var10;
@@ -128,28 +128,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.enabled;
             var6 = var6 == var5;
             var4 = undefined;
-            if(var6) { _fun0001_ip = 202; continue _fun0001 }
- 197:
+            if(var6) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var4 = var5.type;
- 202:
+case 12:
             var1 = _closure1_slot0;
             var1 = var1.GUILD_VOICE;
             var1 = var4 === var1;
-            if(!var1) { _fun0001_ip = 222; continue _fun0001 }
- 219:
+            if(!var1) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var1 = var3;
- 222:
-            if(!var1) { _fun0001_ip = 228; continue _fun0001 }
- 225:
+case 14:
+            if(!var1) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var1 = var2;
- 228:
+case 16:
             return var1;
         }
     };
     var3['useVoiceActivityNotificationSettingsExperiment'] = var4;
     var2 = function hasVoiceChannelActivityNotifsEnabled(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var8 = arg1;
             var3 = _closure1_slot3;
             var2 = var3.getCurrentConfig;
@@ -157,15 +157,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = null;
             var7 = var6 == var8;
             var4 = undefined;
-            if(var7) { _fun0002_ip = 39; continue _fun0002 }
- 29:
+            if(var7) { _fun0002_ip = 18; continue _fun0002 }
+case 19:
             var7 = var8.getGuildId;
             var4 = var7.bind(var8)();
- 39:
-            if(!(var6 == var4)) { _fun0002_ip = 47; continue _fun0002 }
- 43:
+case 18:
+            if(!(var6 == var4)) { _fun0002_ip = 2; continue _fun0002 }
+case 20:
             var4 = _closure1_slot1;
- 47:
+case 2:
             var1['guildId'] = var4;
             var4 = 'hasVoiceChannelActivityNotifsEnabled';
             var1['location'] = var4;

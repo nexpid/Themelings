@@ -38,37 +38,37 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['AutomodAlertActionType'] = var2;
     var2 = function parseAlertActionsExecution(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var1 = null;
-            if(!(var1 != var3)) { _fun0001_ip = 123; continue _fun0001 }
- 11:
+            if(!(var1 != var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var3;
             var5 = var1 == var3;
             var3 = null;
-            if(var5) { _fun0001_ip = 51; continue _fun0001 }
- 23: // try_start_0
+            if(var5) { _fun0001_ip = 4; continue _fun0001 }
+case 5: // try_start_0
             var5 = global;
             var6 = var5.JSON;
             var5 = var6.parse;
             var2 = var5.bind(var6)(var2);
- 42: // try_end0
+case 6: // try_end0
             var3 = var2;
-            _fun0001_ip = 51; continue _fun0001;
- 47: // catch_target0
+            _fun0001_ip = 4; continue _fun0001;
+case 7: // catch_target0
             CatchBlockStart(arg_register=1);
             var3 = null;
- 51:
+case 4:
             var _closure2_slot0 = var3;
             var5 = var1 == var3;
             var2 = null;
-            if(var5) { _fun0001_ip = 121; continue _fun0001 }
- 64:
+            if(var5) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var5 = var3.actions;
             var5 = var1 == var5;
             var2 = null;
-            if(var5) { _fun0001_ip = 121; continue _fun0001 }
- 79:
+            if(var5) { _fun0001_ip = 8; continue _fun0001 }
+case 10:
             var5 = global;
             var7 = var5.Object;
             var6 = var7.keys;
@@ -86,9 +86,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var4 = var5.bind(var6)(var4);
             var2 = var3;
- 121:
+case 8:
             return var2;
- 123:
+case 2:
             return var1;
         }
     };

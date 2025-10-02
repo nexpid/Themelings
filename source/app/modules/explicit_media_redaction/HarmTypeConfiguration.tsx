@@ -65,21 +65,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6['devSettingKey'] = var15;
     var15 = function getProtoUserSettings(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var5 = null;
             var3 = var5 == var1;
             var2 = undefined;
             var4 = undefined;
-            if(var3) { _fun0001_ip = 37; continue _fun0001 }
- 16:
+            if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var1.textAndImages;
             var3 = var5 == var1;
             var4 = undefined;
-            if(var3) { _fun0001_ip = 37; continue _fun0001 }
- 31:
+            if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var4 = var1.explicitContentSettings;
- 37:
+case 2:
             var1 = {};
             var8 = _closure1_slot0;
             var6 = _closure1_slot1;
@@ -90,10 +90,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var6.GUILD;
             var9 = var5 == var4;
             var6 = undefined;
-            if(var9) { _fun0001_ip = 89; continue _fun0001 }
- 83:
+            if(var9) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var6 = var4.explicitContentGuilds;
- 89:
+case 5:
             var1[var8] = var6;
             var8 = _closure1_slot0;
             var6 = _closure1_slot1;
@@ -103,10 +103,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var6.FRIEND_DM;
             var9 = var5 == var4;
             var6 = undefined;
-            if(var9) { _fun0001_ip = 138; continue _fun0001 }
- 132:
+            if(var9) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var6 = var4.explicitContentFriendDm;
- 138:
+case 7:
             var1[var8] = var6;
             var6 = _closure1_slot0;
             var3 = _closure1_slot1;
@@ -116,10 +116,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.NON_FRIEND_DM;
             var5 = var5 == var4;
             var2 = undefined;
-            if(var5) { _fun0001_ip = 187; continue _fun0001 }
- 181:
+            if(var5) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var2 = var4.explicitContentNonFriendDm;
- 187:
+case 9:
             var1[var3] = var2;
             return var1;
         }
@@ -127,11 +127,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6['getProtoUserSettings'] = var15;
     var15 = function getUserSettingsWithDefaults(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var9 = arg1;
             var7 = null;
-            if(!(var7 == var9)) { _fun0002_ip = 250; continue _fun0002 }
- 12:
+            if(!(var7 == var9)) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
             var1 = {};
             var10 = _closure1_slot0;
             var5 = _closure1_slot1;
@@ -149,10 +149,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var5.bind(var10)();
             var11 = var7 == var10;
             var5 = undefined;
-            if(var11) { _fun0002_ip = 94; continue _fun0002 }
- 88:
+            if(var11) { _fun0002_ip = 13; continue _fun0002 }
+case 14:
             var5 = var10.explicitContentGuilds;
- 94:
+case 13:
             var1[var8] = var5;
             var10 = _closure1_slot0;
             var5 = _closure1_slot1;
@@ -167,10 +167,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var5.bind(var10)();
             var11 = var7 == var10;
             var5 = undefined;
-            if(var11) { _fun0002_ip = 168; continue _fun0002 }
- 162:
+            if(var11) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
             var5 = var10.explicitContentFriendDm;
- 168:
+case 15:
             var1[var8] = var5;
             var5 = _closure1_slot0;
             var4 = _closure1_slot1;
@@ -185,13 +185,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.bind(var5)();
             var5 = var7 == var4;
             var2 = undefined;
-            if(var5) { _fun0002_ip = 242; continue _fun0002 }
- 236:
+            if(var5) { _fun0002_ip = 17; continue _fun0002 }
+case 18:
             var2 = var4.explicitContentNonFriendDm;
- 242:
+case 17:
             var1[var3] = var2;
             var9 = var1;
- 250:
+case 11:
             var1 = {};
             var4 = _closure1_slot0;
             var2 = _closure1_slot1;
@@ -208,8 +208,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = {};
             var13 = var7 == var9;
             var10 = undefined;
-            if(var13) { _fun0002_ip = 351; continue _fun0002 }
- 318:
+            if(var13) { _fun0002_ip = 19; continue _fun0002 }
+case 20:
             var14 = _closure1_slot0;
             var13 = _closure1_slot1;
             var13 = var13[var12];
@@ -217,7 +217,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var13.ContentHarmTypeChannel;
             var13 = var13.GUILD;
             var10 = var9[var13];
- 351:
+case 19:
             var2['setting'] = var10;
             var2 = var4.bind(var6)(var2);
             var1[var3] = var2;
@@ -233,8 +233,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = {'setting': null, 'isDm': true, 'isFriend': true};
             var13 = var7 == var9;
             var6 = undefined;
-            if(var13) { _fun0002_ip = 466; continue _fun0002 }
- 433:
+            if(var13) { _fun0002_ip = 21; continue _fun0002 }
+case 22:
             var14 = _closure1_slot0;
             var13 = _closure1_slot1;
             var13 = var13[var12];
@@ -242,7 +242,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var13.ContentHarmTypeChannel;
             var13 = var13.FRIEND_DM;
             var6 = var9[var13];
- 466:
+case 21:
             var2['setting'] = var6;
             var6 = true;
             var2 = var4.bind(var10)(var2);
@@ -259,8 +259,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = {};
             var10 = var7 == var9;
             var7 = undefined;
-            if(var10) { _fun0002_ip = 572; continue _fun0002 }
- 539:
+            if(var10) { _fun0002_ip = 23; continue _fun0002 }
+case 24:
             var10 = _closure1_slot0;
             var8 = _closure1_slot1;
             var8 = var8[var12];
@@ -268,7 +268,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var8.ContentHarmTypeChannel;
             var8 = var8.NON_FRIEND_DM;
             var7 = var9[var8];
- 572:
+case 23:
             var2['setting'] = var7;
             var2['isDm'] = var6;
             var2 = var4.bind(var5)(var2);
@@ -302,21 +302,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6['devSettingKey'] = var11;
     var11 = function getProtoUserSettings(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var1 = arg1;
             var5 = null;
             var3 = var5 == var1;
             var2 = undefined;
             var4 = undefined;
-            if(var3) { _fun0003_ip = 37; continue _fun0003 }
- 16:
+            if(var3) { _fun0003_ip = 2; continue _fun0003 }
+case 3:
             var1 = var1.textAndImages;
             var3 = var5 == var1;
             var4 = undefined;
-            if(var3) { _fun0003_ip = 37; continue _fun0003 }
- 31:
+            if(var3) { _fun0003_ip = 2; continue _fun0003 }
+case 4:
             var4 = var1.goreContentSettings;
- 37:
+case 2:
             var1 = {};
             var8 = _closure1_slot0;
             var6 = _closure1_slot1;
@@ -327,10 +327,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var6.GUILD;
             var9 = var5 == var4;
             var6 = undefined;
-            if(var9) { _fun0003_ip = 89; continue _fun0003 }
- 83:
+            if(var9) { _fun0003_ip = 5; continue _fun0003 }
+case 6:
             var6 = var4.goreContentGuilds;
- 89:
+case 5:
             var1[var8] = var6;
             var8 = _closure1_slot0;
             var6 = _closure1_slot1;
@@ -340,10 +340,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var6.FRIEND_DM;
             var9 = var5 == var4;
             var6 = undefined;
-            if(var9) { _fun0003_ip = 138; continue _fun0003 }
- 132:
+            if(var9) { _fun0003_ip = 7; continue _fun0003 }
+case 8:
             var6 = var4.goreContentFriendDm;
- 138:
+case 7:
             var1[var8] = var6;
             var6 = _closure1_slot0;
             var3 = _closure1_slot1;
@@ -353,10 +353,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.NON_FRIEND_DM;
             var5 = var5 == var4;
             var2 = undefined;
-            if(var5) { _fun0003_ip = 187; continue _fun0003 }
- 181:
+            if(var5) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
             var2 = var4.goreContentNonFriendDm;
- 187:
+case 9:
             var1[var3] = var2;
             return var1;
         }
@@ -364,11 +364,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6['getProtoUserSettings'] = var11;
     var10 = function getUserSettingsWithDefaults(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var9 = arg1;
             var7 = null;
-            if(!(var7 == var9)) { _fun0004_ip = 250; continue _fun0004 }
- 12:
+            if(!(var7 == var9)) { _fun0004_ip = 11; continue _fun0004 }
+case 12:
             var1 = {};
             var10 = _closure1_slot0;
             var5 = _closure1_slot1;
@@ -386,10 +386,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var5.bind(var10)();
             var11 = var7 == var10;
             var5 = undefined;
-            if(var11) { _fun0004_ip = 94; continue _fun0004 }
- 88:
+            if(var11) { _fun0004_ip = 13; continue _fun0004 }
+case 14:
             var5 = var10.goreContentGuilds;
- 94:
+case 13:
             var1[var8] = var5;
             var10 = _closure1_slot0;
             var5 = _closure1_slot1;
@@ -404,10 +404,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var5.bind(var10)();
             var11 = var7 == var10;
             var5 = undefined;
-            if(var11) { _fun0004_ip = 168; continue _fun0004 }
- 162:
+            if(var11) { _fun0004_ip = 15; continue _fun0004 }
+case 16:
             var5 = var10.goreContentFriendDm;
- 168:
+case 15:
             var1[var8] = var5;
             var5 = _closure1_slot0;
             var4 = _closure1_slot1;
@@ -422,13 +422,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.bind(var5)();
             var5 = var7 == var4;
             var2 = undefined;
-            if(var5) { _fun0004_ip = 242; continue _fun0004 }
- 236:
+            if(var5) { _fun0004_ip = 17; continue _fun0004 }
+case 18:
             var2 = var4.goreContentNonFriendDm;
- 242:
+case 17:
             var1[var3] = var2;
             var9 = var1;
- 250:
+case 11:
             var1 = {};
             var4 = _closure1_slot0;
             var2 = _closure1_slot1;
@@ -445,8 +445,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = {};
             var13 = var7 == var9;
             var10 = undefined;
-            if(var13) { _fun0004_ip = 351; continue _fun0004 }
- 318:
+            if(var13) { _fun0004_ip = 19; continue _fun0004 }
+case 20:
             var14 = _closure1_slot0;
             var13 = _closure1_slot1;
             var13 = var13[var12];
@@ -454,7 +454,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var13.ContentHarmTypeChannel;
             var13 = var13.GUILD;
             var10 = var9[var13];
- 351:
+case 19:
             var2['setting'] = var10;
             var2 = var4.bind(var6)(var2);
             var1[var3] = var2;
@@ -470,8 +470,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = {'setting': null, 'isDm': true, 'isFriend': true};
             var13 = var7 == var9;
             var6 = undefined;
-            if(var13) { _fun0004_ip = 466; continue _fun0004 }
- 433:
+            if(var13) { _fun0004_ip = 21; continue _fun0004 }
+case 22:
             var14 = _closure1_slot0;
             var13 = _closure1_slot1;
             var13 = var13[var12];
@@ -479,7 +479,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var13.ContentHarmTypeChannel;
             var13 = var13.FRIEND_DM;
             var6 = var9[var13];
- 466:
+case 21:
             var2['setting'] = var6;
             var6 = true;
             var2 = var4.bind(var10)(var2);
@@ -496,8 +496,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = {};
             var10 = var7 == var9;
             var7 = undefined;
-            if(var10) { _fun0004_ip = 572; continue _fun0004 }
- 539:
+            if(var10) { _fun0004_ip = 23; continue _fun0004 }
+case 24:
             var10 = _closure1_slot0;
             var8 = _closure1_slot1;
             var8 = var8[var12];
@@ -505,7 +505,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var8.ContentHarmTypeChannel;
             var8 = var8.NON_FRIEND_DM;
             var7 = var9[var8];
- 572:
+case 23:
             var2['setting'] = var7;
             var2['isDm'] = var6;
             var2 = var4.bind(var5)(var2);

@@ -28,7 +28,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function createGuildReportFalseAlarmSystemMessage(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var8 = arg1;
             var15 = var8.message;
             var11 = var8.roleStyle;
@@ -78,24 +78,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = null;
             var7 = 'username';
             var2 = null;
-            if(!(var7 === var11)) { _fun0001_ip = 231; continue _fun0001 }
- 228:
+            if(!(var7 === var11)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var10;
- 231:
+case 2:
             var1['linkColor'] = var2;
             var1['roleColor'] = var10;
             var2 = null;
-            if(!var16) { _fun0001_ip = 249; continue _fun0001 }
- 246:
+            if(!var16) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = var12;
- 249:
+case 4:
             var1['roleColors'] = var2;
             var2 = 'dot';
             var2 = var2 === var11;
-            if(!var2) { _fun0001_ip = 269; continue _fun0001 }
- 265:
+            if(!var2) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var2 = var5 != var10;
- 269:
+case 6:
             var1['shouldShowRoleDot'] = var2;
             var2 = var15.channel_id;
             var1['messageChannelId'] = var2;
@@ -145,10 +145,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1[var7] = var6;
             var6 = var5 != var4;
             var5 = null;
-            if(!var6) { _fun0001_ip = 491; continue _fun0001 }
- 488:
+            if(!var6) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var5 = var4;
- 491:
+case 8:
             var4 = 'usernameColor';
             var1[var4] = var5;
             var8 = _closure1_slot0;

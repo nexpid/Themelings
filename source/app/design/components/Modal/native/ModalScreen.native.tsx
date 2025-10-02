@@ -52,7 +52,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function ModalScreen(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var9 = var1.backgroundColor;
             var5 = var1.children;
@@ -74,11 +74,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[0] = var7;
             var7 = {};
             var11 = null;
-            if(!(var11 == var9)) { _fun0001_ip = 97; continue _fun0001 }
- 87:
+            if(!(var11 == var9)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var10 = var10.container;
             var9 = var10.backgroundColor;
- 97:
+case 2:
             var7['backgroundColor'] = var9;
             var9 = var8.left;
             var7['paddingLeft'] = var9;

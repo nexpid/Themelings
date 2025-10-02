@@ -70,7 +70,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function QuestDockContentExpanded() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var6 = _closure1_slot3;
             var3 = var6.useContext;
             var5 = _closure1_slot1;
@@ -100,10 +100,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = null;
             var8 = var3 == var6;
             var2 = undefined;
-            if(var8) { _fun0001_ip = 142; continue _fun0001 }
- 136:
+            if(var8) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var6.enrolledAt;
- 142:
+case 2:
             var6 = var3 != var2;
             var _closure2_slot3 = var6;
             var14 = _closure1_slot0;
@@ -114,15 +114,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.useAnimatedStyle;
             var1 = function n() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var1 = {};
                     var4 = _closure2_slot3;
                     var7 = undefined;
                     var3 = undefined;
-                    if(var4) { _fun0002_ip = 23; continue _fun0002 }
- 16:
+                    if(var4) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var3 = _closure1_slot6;
- 23:
+case 4:
                     var1['height'] = var3;
                     var4 = _closure2_slot2;
                     var3 = var4.get;
@@ -141,10 +141,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = _closure1_slot4;
                     var6 = var3.EXPANDED;
                     var3 = 0;
-                    if(!(var10 === var6)) { _fun0002_ip = 109; continue _fun0002 }
- 106:
+                    if(!(var10 === var6)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var3 = 1;
- 109:
+case 6:
                     var6 = _closure1_slot5;
                     var3 = var5.bind(var9)(var3, var6);
                     var1['opacity'] = var3;
@@ -207,8 +207,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5[1] = var8;
             var1['style'] = var5;
             var8 = !var6;
-            if(var6) { _fun0001_ip = 372; continue _fun0001 }
- 340:
+            if(var6) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var11 = _closure1_slot7;
             var9 = _closure1_slot1;
             var12 = _closure1_slot2;
@@ -217,11 +217,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var9.bind(var4)(var5);
             var5 = {};
             var8 = var11.bind(var4)(var9, var5);
- 372:
+case 8:
             var5 = new Array(2);
             var5[0] = var8;
-            if(!var6) { _fun0001_ip = 425; continue _fun0001 }
- 383:
+            if(!var6) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var9 = _closure1_slot7;
             var8 = _closure1_slot1;
             var11 = _closure1_slot2;
@@ -232,7 +232,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var10.id;
             var7['questId'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 425:
+case 10:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

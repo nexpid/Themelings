@@ -7,13 +7,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var9;
     var6 = function estimateAttachmentWidth(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = null;
             var1 = arg1;
             var2 = var2 != var1;
             var1 = 0;
-            if(!var2) { _fun0001_ip = 58; continue _fun0001 }
- 14:
+            if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
             var2 = 4;
@@ -24,23 +24,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var2.xs;
             var2 = arg2;
             var1 = var3 + var2;
- 58:
+case 2:
             return var1;
         }
     };
     var _closure1_slot7 = var6;
     var5 = function renderInputAttachment(arg1, arg2, arg3) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var5 = arg1;
             var7 = arg2;
             var1 = null;
-            if(!(var1 == var5)) { _fun0002_ip = 86; continue _fun0002 }
- 12:
+            if(!(var1 == var5)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var2 = var1 != var7;
             var1 = null;
-            if(!var2) { _fun0002_ip = 84; continue _fun0002 }
- 21:
+            if(!var2) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var6 = _closure1_slot6;
             var3 = _closure1_slot0;
             var4 = _closure1_slot1;
@@ -56,21 +56,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['style'] = var8;
             var2['children'] = var7;
             var1 = var6.bind(var4)(var3, var2);
- 84:
-            _fun0002_ip = 115; continue _fun0002;
- 86:
+case 6:
+            _fun0002_ip = 8; continue _fun0002;
+case 4:
             var4 = _closure1_slot6;
             var3 = undefined;
             var2 = {'size': 'xs', 'color': 'text-normal'};
             var1 = var4.bind(var3)(var5, var2);
- 115:
+case 8:
             return var1;
         }
     };
     var _closure1_slot8 = var5;
     var4 = function InputAttachmentContainer(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var1 = arg1;
             var7 = var1.content;
             var2 = var1.style;
@@ -81,10 +81,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = null;
             var5 = var4 == var7;
             var1 = null;
-            if(var5) { _fun0003_ip = 174; continue _fun0003 }
- 49:
-            if(!(var4 == var8)) { _fun0003_ip = 94; continue _fun0003 }
- 53:
+            if(var5) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
+            if(!(var4 == var8)) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
             var6 = _closure1_slot6;
             var5 = _closure1_slot5;
             var4 = {};
@@ -103,8 +103,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4['children'] = var7;
             var2 = undefined;
             var2 = var6.bind(var2)(var5, var4);
-            _fun0003_ip = 171; continue _fun0003;
- 94:
+            _fun0003_ip = 13; continue _fun0003;
+case 11:
             var6 = _closure1_slot6;
             var5 = _closure1_slot4;
             var4 = {};
@@ -115,7 +115,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = copyDataProperties(var11, var10);
             var9 = function style(arg1) {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                     var1 = arg1;
                     var3 = var1.pressed;
                     var2 = _closure2_slot0;
@@ -126,13 +126,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2['pointerEvents'] = var4;
                     var1[1] = var2;
                     var2 = undefined;
-                    if(!var3) { _fun0004_ip = 63; continue _fun0004 }
- 44:
+                    if(!var3) { _fun0004_ip = 14; continue _fun0004 }
+case 15:
                     var3 = {};
                     var4 = 0.2;
                     var3['opacity'] = var4;
                     var2 = var3;
- 63:
+case 14:
                     var1[2] = var2;
                     return var1;
                 }
@@ -155,9 +155,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4[var3] = var7;
             var3 = undefined;
             var2 = var6.bind(var3)(var5, var4);
- 171:
+case 13:
             var1 = var2;
- 174:
+case 9:
             return var1;
         }
     };
@@ -205,7 +205,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['InputAttachmentContainer'] = var4;
     var2 = function useInputAttachments(arg1, arg2) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
             var7 = arg1;
             var14 = arg2;
             var5 = _closure1_slot0;
@@ -234,58 +234,58 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var7.trailingPressableProps;
             var7 = var13 == var14;
             var20 = undefined;
-            if(var7) { _fun0005_ip = 135; continue _fun0005 }
- 129:
+            if(var7) { _fun0005_ip = 16; continue _fun0005 }
+case 17:
             var20 = var14.leading;
- 135:
-            if(!(var13 == var20)) { _fun0005_ip = 155; continue _fun0005 }
- 139:
+case 16:
+            if(!(var13 == var20)) { _fun0005_ip = 18; continue _fun0005 }
+case 19:
             var8 = _closure1_slot8;
             var7 = var4.text;
             var20 = var8.bind(var3)(var6, var10, var7);
- 155:
+case 18:
             var7 = var13 == var14;
             var15 = undefined;
-            if(var7) { _fun0005_ip = 170; continue _fun0005 }
- 164:
+            if(var7) { _fun0005_ip = 20; continue _fun0005 }
+case 21:
             var15 = var14.trailing;
- 170:
-            if(!(var13 == var15)) { _fun0005_ip = 190; continue _fun0005 }
- 174:
+case 20:
+            if(!(var13 == var15)) { _fun0005_ip = 22; continue _fun0005 }
+case 9:
             var8 = _closure1_slot8;
             var7 = var4.text;
             var15 = var8.bind(var3)(var5, var9, var7);
- 190:
-            if(!(var13 == var6)) { _fun0005_ip = 213; continue _fun0005 }
- 194:
+case 22:
+            if(!(var13 == var6)) { _fun0005_ip = 23; continue _fun0005 }
+case 24:
             var7 = var13 == var14;
             var6 = undefined;
-            if(var7) { _fun0005_ip = 209; continue _fun0005 }
- 203:
+            if(var7) { _fun0005_ip = 25; continue _fun0005 }
+case 26:
             var6 = var14.leading;
- 209:
-            if(!(var13 != var6)) { _fun0005_ip = 221; continue _fun0005 }
- 213:
+case 25:
+            if(!(var13 != var6)) { _fun0005_ip = 27; continue _fun0005 }
+case 23:
             var17 = var4.leadingIcon;
-            _fun0005_ip = 227; continue _fun0005;
- 221:
+            _fun0005_ip = 28; continue _fun0005;
+case 27:
             var17 = var4.leadingText;
- 227:
-            if(!(var13 == var5)) { _fun0005_ip = 250; continue _fun0005 }
- 231:
+case 28:
+            if(!(var13 == var5)) { _fun0005_ip = 29; continue _fun0005 }
+case 30:
             var6 = var13 == var14;
             var5 = undefined;
-            if(var6) { _fun0005_ip = 246; continue _fun0005 }
- 240:
+            if(var6) { _fun0005_ip = 31; continue _fun0005 }
+case 32:
             var5 = var14.trailing;
- 246:
-            if(!(var13 != var5)) { _fun0005_ip = 258; continue _fun0005 }
- 250:
+case 31:
+            if(!(var13 != var5)) { _fun0005_ip = 33; continue _fun0005 }
+case 29:
             var10 = var4.trailingIcon;
-            _fun0005_ip = 264; continue _fun0005;
- 258:
+            _fun0005_ip = 34; continue _fun0005;
+case 33:
             var10 = var4.trailingText;
- 264:
+case 34:
             var16 = _closure1_slot3;
             var6 = var16.useState;
             var5 = function() {
@@ -335,14 +335,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7['setWidth'] = var19;
             var20 = var13 == var14;
             var19 = undefined;
-            if(var20) { _fun0005_ip = 374; continue _fun0005 }
- 368:
+            if(var20) { _fun0005_ip = 35; continue _fun0005 }
+case 36:
             var19 = var14.leadingPressableProps;
- 374:
-            if(!(var13 != var19)) { _fun0005_ip = 381; continue _fun0005 }
- 378:
+case 35:
+            if(!(var13 != var19)) { _fun0005_ip = 37; continue _fun0005 }
+case 38:
             var18 = var19;
- 381:
+case 37:
             var7['pressableProps'] = var18;
             var7['style'] = var17;
             var7 = var16.bind(var3)(var8, var7);
@@ -354,34 +354,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['setWidth'] = var12;
             var15 = var13 == var14;
             var12 = undefined;
-            if(var15) { _fun0005_ip = 435; continue _fun0005 }
- 429:
+            if(var15) { _fun0005_ip = 39; continue _fun0005 }
+case 40:
             var12 = var14.trailingPressableProps;
- 435:
-            if(!(var13 != var12)) { _fun0005_ip = 442; continue _fun0005 }
- 439:
+case 39:
+            if(!(var13 != var12)) { _fun0005_ip = 41; continue _fun0005 }
+case 42:
             var11 = var12;
- 442:
+case 41:
             var2['pressableProps'] = var11;
             var2['style'] = var10;
             var2 = var8.bind(var3)(var7, var2);
             var1['trailing'] = var2;
             var2 = {};
             var7 = undefined;
-            if(!(var6 !== var9)) { _fun0005_ip = 484; continue _fun0005 }
- 470:
+            if(!(var6 !== var9)) { _fun0005_ip = 43; continue _fun0005 }
+case 44:
             var8 = var4.padding;
             var8 = var8.paddingHorizontal;
             var7 = var9 - var8;
- 484:
+case 43:
             var2['marginStart'] = var7;
             var3 = undefined;
-            if(!(var6 !== var5)) { _fun0005_ip = 509; continue _fun0005 }
- 495:
+            if(!(var6 !== var5)) { _fun0005_ip = 45; continue _fun0005 }
+case 46:
             var4 = var4.padding;
             var4 = var4.paddingHorizontal;
             var3 = var5 - var4;
- 509:
+case 45:
             var2['marginEnd'] = var3;
             var1['inputStyle'] = var2;
             return var1;

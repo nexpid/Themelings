@@ -22,7 +22,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot3 = var4;
     var4 = function getProductPurchaseState(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var7 = arg2;
             var _closure2_slot0 = var4;
@@ -32,10 +32,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = null;
             var2 = var5 != var2;
             var3 = var7.items;
-            if(!(var5 == var3)) { _fun0001_ip = 49; continue _fun0001 }
- 45:
+            if(!(var5 == var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = new Array(0);
- 49:
+case 2:
             var9 = _closure1_slot1;
             var6 = _closure1_slot2;
             var4 = 1;
@@ -55,10 +55,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var9.bind(var6)(var4);
             var10 = var5 == var7;
             var9 = undefined;
-            if(var10) { _fun0001_ip = 110; continue _fun0001 }
- 105:
+            if(var10) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var9 = var7.type;
- 110:
+case 4:
             var12 = _closure1_slot0;
             var10 = _closure1_slot2;
             var11 = 2;
@@ -66,25 +66,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var12.bind(var6)(var10);
             var10 = var10.CollectiblesItemType;
             var10 = var10.BUNDLE;
-            if(!(var10 !== var9)) { _fun0001_ip = 317; continue _fun0001 }
- 149:
+            if(!(var10 !== var9)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var10 = _closure1_slot0;
             var8 = _closure1_slot2;
             var8 = var8[var11];
             var8 = var10.bind(var6)(var8);
             var8 = var8.CollectiblesItemType;
             var8 = var8.VARIANTS_GROUP;
-            if(!(var8 !== var9)) { _fun0001_ip = 204; continue _fun0001 }
- 182:
+            if(!(var8 !== var9)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var8 = {'isPurchased': null, 'isPartiallyOwnedBundle': false, 'isPartiallyOwnedVariantsGroup': false};
             var8['isPurchased'] = var2;
             return var8;
- 204:
+case 8:
             var11 = var7.variants;
             var9 = var5 == var11;
             var8 = undefined;
-            if(var9) { _fun0001_ip = 237; continue _fun0001 }
- 219:
+            if(var9) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var10 = var11.every;
             var9 = function(arg1) {
                 var3 = _closure2_slot0;
@@ -97,12 +97,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var8 = var10.bind(var11)(var9);
- 237:
+case 10:
             var9 = var7.variants;
             var7 = var5 == var9;
             var6 = undefined;
-            if(var7) { _fun0001_ip = 270; continue _fun0001 }
- 252:
+            if(var7) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var7 = var9.some;
             var1 = function(arg1) {
                 var3 = _closure2_slot0;
@@ -115,52 +115,52 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var6 = var7.bind(var9)(var1);
- 270:
-            if(!var6) { _fun0001_ip = 276; continue _fun0001 }
- 273:
+case 12:
+            if(!var6) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var6 = !var8;
- 276:
+case 14:
             var1 = {};
             var7 = var5 != var8;
-            if(!var7) { _fun0001_ip = 288; continue _fun0001 }
- 285:
+            if(!var7) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var7 = var8;
- 288:
+case 16:
             var1['isPurchased'] = var7;
             var7 = false;
             var1['isPartiallyOwnedBundle'] = var7;
             var5 = var5 != var6;
-            if(!var5) { _fun0001_ip = 310; continue _fun0001 }
- 307:
+            if(!var5) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
             var5 = var6;
- 310:
+case 18:
             var1['isPartiallyOwnedVariantsGroup'] = var5;
             return var1;
- 317:
+case 6:
             var1 = {};
-            if(var2) { _fun0001_ip = 353; continue _fun0001 }
- 322:
+            if(var2) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
             var6 = var3.length;
             var5 = 0;
             var5 = var6 > var5;
-            if(!var5) { _fun0001_ip = 350; continue _fun0001 }
- 336:
+            if(!var5) { _fun0001_ip = 22; continue _fun0001 }
+case 23:
             var7 = var4.length;
             var6 = var3.length;
             var5 = var7 === var6;
- 350:
+case 22:
             var2 = var5;
- 353:
+case 20:
             var1['isPurchased'] = var2;
             var5 = var4.length;
             var2 = 0;
             var2 = var5 > var2;
-            if(!var2) { _fun0001_ip = 386; continue _fun0001 }
- 372:
+            if(!var2) { _fun0001_ip = 24; continue _fun0001 }
+case 25:
             var4 = var4.length;
             var3 = var3.length;
             var2 = var4 < var3;
- 386:
+case 24:
             var1['isPartiallyOwnedBundle'] = var2;
             var2 = false;
             var1['isPartiallyOwnedVariantsGroup'] = var2;

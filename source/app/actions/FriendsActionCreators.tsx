@@ -41,19 +41,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = {};
     var8 = function transitionToSection(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var2 = arguments[1];
             var1 = undefined;
-            if(!(var2 === var1)) { _fun0001_ip = 14; continue _fun0001 }
- 12:
+            if(!(var2 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = {};
- 14:
+case 2:
             var3 = var2.explicit;
-            if(!(var3 === var1)) { _fun0001_ip = 26; continue _fun0001 }
- 24:
+            if(!(var3 === var1)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = false;
- 26:
+case 4:
             var6 = _closure1_slot0;
             var5 = _closure1_slot2;
             var7 = 2;
@@ -65,8 +65,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var5.pathname;
             var5 = _closure1_slot3;
             var5 = var5.FRIENDS;
-            if(!(var6 !== var5)) { _fun0001_ip = 122; continue _fun0001 }
- 84:
+            if(!(var6 !== var5)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var6 = _closure1_slot0;
             var5 = _closure1_slot2;
             var5 = var5[var7];
@@ -75,11 +75,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = _closure1_slot3;
             var5 = var5.FRIENDS;
             var5 = var6.bind(var7)(var5);
- 122:
+case 6:
             var5 = _closure1_slot4;
             var5 = var5.bind(var1)(var4);
-            if(!var3) { _fun0001_ip = 166; continue _fun0001 }
- 134:
+            if(!var3) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var3 = _closure1_slot1;
             var5 = _closure1_slot2;
             var2 = 3;
@@ -88,7 +88,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = {};
             var2['tab_opened'] = var4;
             var2 = var3.bind(var1)(var2);
- 166:
+case 8:
             return var1;
         }
     };

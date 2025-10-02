@@ -84,7 +84,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.forwardRef;
     var2 = function(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var10 = var3.onClose;
             var6 = null;
@@ -130,8 +130,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = _closure1_slot3;
             var11 = _closure1_slot0;
             var13 = _closure1_slot1;
-            if(var5) { _fun0001_ip = 295; continue _fun0001 }
- 196:
+            if(var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = 10;
             var5 = var13[var5];
             var5 = var11.bind(var4)(var5);
@@ -150,8 +150,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var15.bind(var16)(var14);
             var5['children'] = var14;
             var5 = var12.bind(var4)(var7, var5);
-            _fun0001_ip = 331; continue _fun0001;
- 295:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var7 = 9;
             var7 = var13[var7];
             var7 = var11.bind(var4)(var7);
@@ -160,7 +160,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var9.cancelIcon;
             var7['style'] = var13;
             var5 = var12.bind(var4)(var11, var7);
- 331:
+case 4:
             var1['children'] = var5;
             var7 = var3.bind(var4)(var2, var1);
             var3 = _closure1_slot4;
@@ -175,10 +175,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var11.isAndroid;
             var5 = var5.bind(var11)();
             var11 = null;
-            if(!var5) { _fun0001_ip = 394; continue _fun0001 }
- 391:
+            if(!var5) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var11 = var7;
- 394:
+case 5:
             var5 = new Array(3);
             var5[0] = var11;
             var13 = _closure1_slot3;
@@ -210,10 +210,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var9.isAndroid;
             var8 = var8.bind(var9)();
             var6 = null;
-            if(var8) { _fun0001_ip = 536; continue _fun0001 }
- 533:
+            if(var8) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var6 = var7;
- 536:
+case 7:
             var5[2] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

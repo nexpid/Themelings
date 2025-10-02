@@ -16,12 +16,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = function* (arg1) {
             var1 = function* anon_0_(arg1) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     StartGenerator();
                     var8 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 403; continue _fun0001 }
- 13:
+                    if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var3 = _closure1_slot1;
                     var4 = _closure1_slot3;
                     var2 = 5;
@@ -33,12 +33,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var2.XBOX;
                     var2 = var3.bind(var4)(var2);
                     SaveGenerator(address=63);
- 61:
+case 4:
                     return var2;
- 63:
+case 5:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0001_ip = 400; continue _fun0001 }
- 72:
+                    if(var3) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                     var4 = _closure1_slot2;
                     var3 = _closure1_slot3;
                     var13 = 6;
@@ -47,12 +47,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var4.disconnectRemote;
                     var3 = var3.bind(var4)();
                     SaveGenerator(address=106);
- 104:
+case 8:
                     return var3;
- 106:
+case 9:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(var4) { _fun0001_ip = 397; continue _fun0001 }
- 115:
+                    if(var4) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
                     var5 = _closure1_slot2;
                     var4 = _closure1_slot3;
                     var4 = var4[var13];
@@ -60,12 +60,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var5.getConnectNonce;
                     var4 = var4.bind(var5)();
                     SaveGenerator(address=146);
- 144:
+case 12:
                     return var4;
- 146:
+case 13:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                    if(var5) { _fun0001_ip = 394; continue _fun0001 }
- 155:
+                    if(var5) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
                     var9 = _closure1_slot1;
                     var10 = _closure1_slot3;
                     var5 = 7;
@@ -80,16 +80,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var10.canOpenURL;
                     var5 = var5.bind(var10)(var9);
                     SaveGenerator(address=214);
- 212:
+case 16:
                     return var5;
- 214:
+case 17:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=9);
-                    if(var10) { _fun0001_ip = 391; continue _fun0001 }
- 223:
+                    if(var10) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
                     var14 = _closure1_slot1;
                     var12 = _closure1_slot3;
-                    if(var5) { _fun0001_ip = 276; continue _fun0001 }
- 234:
+                    if(var5) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
                     var10 = 8;
                     var10 = var12[var10];
                     var16 = var14.bind(var6)(var10);
@@ -130,7 +130,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var10['importer'] = var17;
                     var10 = var15.bind(var16)(var10);
                     return var10;
- 276:
+case 20:
                     var10 = 11;
                     var10 = var12[var10];
                     var15 = var14.bind(var6)(var10);
@@ -155,15 +155,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = var8.openURL;
                     var7 = var7.bind(var8)(var9);
                     return var6;
- 391:
+case 18:
                     return var5;
- 394:
+case 14:
                     return var4;
- 397:
+case 10:
                     return var3;
- 400:
+case 6:
                     return var2;
- 403:
+case 2:
                     return var1;
                 }
             };

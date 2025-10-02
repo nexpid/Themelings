@@ -38,19 +38,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var5.then;
             var3 = function(arg1) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     var3 = arg1;
                     var1 = _closure2_slot1;
                     var7 = var1.properties;
                     var1 = var1.properties;
                     var2 = 'function';
                     var1 = typeof var1;
-                    if(!(var2 === var1)) { _fun0001_ip = 48; continue _fun0001 }
- 33:
+                    if(!(var2 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var2 = _closure2_slot1;
                     var1 = var2.properties;
                     var7 = var1.bind(var2)(var3);
- 48:
+case 2:
                     var4 = _closure1_slot0;
                     var2 = _closure1_slot1;
                     var1 = 1;
@@ -79,19 +79,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.catch;
             var2 = function(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = arg1;
                     var1 = _closure2_slot1;
                     var7 = var1.properties;
                     var1 = var1.properties;
                     var2 = 'function';
                     var1 = typeof var1;
-                    if(!(var2 === var1)) { _fun0002_ip = 48; continue _fun0002 }
- 33:
+                    if(!(var2 === var1)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var2 = _closure2_slot1;
                     var1 = var2.properties;
                     var7 = var1.bind(var2)(var3);
- 48:
+case 2:
                     var4 = _closure1_slot0;
                     var2 = _closure1_slot1;
                     var1 = 1;
@@ -108,18 +108,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var9 = null;
                     var12 = var9 == var11;
                     var10 = undefined;
-                    if(var12) { _fun0002_ip = 122; continue _fun0002 }
- 117:
+                    if(var12) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var10 = var11.code;
- 122:
+case 4:
                     var2['error_code'] = var10;
                     var10 = var3.body;
                     var11 = var9 == var10;
                     var9 = undefined;
-                    if(var11) { _fun0002_ip = 146; continue _fun0002 }
- 141:
+                    if(var11) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var9 = var10.message;
- 146:
+case 6:
                     var2['error_message'] = var9;
                     var13 = _closure2_slot3;
                     var14 = var2;

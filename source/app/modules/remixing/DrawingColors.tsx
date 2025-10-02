@@ -583,17 +583,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['DRAWING_TOOL_COLOR_PRESETS'] = var5;
     var4 = function hexToDrawingColor(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = _closure1_slot2;
             var1 = arg1;
             var3 = var3[var1];
             var1 = null;
-            if(!(var1 != var3)) { _fun0001_ip = 28; continue _fun0001 }
- 20:
+            if(!(var1 != var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = undefined;
             var1 = var3.bind(var1)();
-            _fun0001_ip = 86; continue _fun0001;
- 28:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var2 = 0;
@@ -607,7 +607,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.t;
             var2 = var2.FHBa//;
             var1 = var3.bind(var4)(var2);
- 86:
+case 4:
             return var1;
         }
     };

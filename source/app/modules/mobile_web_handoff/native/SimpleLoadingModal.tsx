@@ -48,7 +48,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = copyDataProperties(var13, var12);
         var8 = function onDismissed() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
                 var1 = 0;
@@ -61,12 +61,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = _closure2_slot1;
                 var4 = var3.onDismissed;
                 var3 = null;
-                if(!(var3 != var4)) { _fun0001_ip = 72; continue _fun0001 }
- 58:
+                if(!(var3 != var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var3 = _closure2_slot1;
                 var2 = var3.onDismissed;
                 var2 = var2.bind(var3)();
- 72:
+case 2:
                 return var1;
             }
         };

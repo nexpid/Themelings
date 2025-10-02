@@ -46,15 +46,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function UserProfileAvatar(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var15 = var3.backgroundColor;
             var10 = var3.size;
             var4 = undefined;
-            if(!(var10 === var4)) { _fun0001_ip = 26; continue _fun0001 }
- 19:
+            if(!(var10 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var10 = _closure1_slot3;
- 26:
+case 2:
             var1 = null;
             var2 = Object.create(var1);
             var1 = 0;

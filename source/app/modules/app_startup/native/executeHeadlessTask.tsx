@@ -16,12 +16,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = function* (arg1, arg2, arg3) {
             var1 = function* anon_0_(arg1, arg2, arg3) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     StartGenerator();
                     var18 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 2285; continue _fun0001 }
- 13:
+                    if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var14 = var18;
                     var12 = arg2;
                     var11 = arg3;
@@ -73,15 +73,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var2.bind(var10)();
                     var15 = false;
                     var13 = false;
- 215: // try_start_0
+case 4: // try_start_0
                     var10 = _closure1_slot1;
                     var2 = _closure1_slot3;
                     var16 = 9;
                     var2 = var2[var16];
                     var2 = var10.bind(var9)(var2);
                     var2 = var2.wasEverActive;
-                    if(var2) { _fun0001_ip = 275; continue _fun0001 }
- 244:
+                    if(var2) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
                     var10 = _closure1_slot1;
                     var2 = _closure1_slot3;
                     var2 = var2[var16];
@@ -89,12 +89,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var10 = var2.extraProperties;
                     var2 = true;
                     var10['headless_task_ran'] = var2;
- 275:
+case 5:
                     var2 = _closure1_slot5;
                     var10 = var2.currentState;
                     var2 = 'active';
-                    if(!(var2 !== var10)) { _fun0001_ip = 346; continue _fun0001 }
- 293:
+                    if(!(var2 !== var10)) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
                     var16 = var3;
                     var10 = var16.log;
                     var2 = 'Pausing socket in headless task because app state is not active';
@@ -107,7 +107,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var10 = var16.setIsPaused;
                     var2 = true;
                     var2 = var10.bind(var16)(var2);
- 346:
+case 7:
                     var10 = _closure1_slot1;
                     var2 = _closure1_slot3;
                     var16 = 11;
@@ -126,12 +126,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = _closure1_slot7;
                     var2 = var2.bind(var9)();
                     SaveGenerator(address=423);
- 421:
+case 9:
                     return var2;
- 423:
+case 10:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=9);
-                    if(var10) { _fun0001_ip = 1646; continue _fun0001 }
- 432:
+                    if(var10) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
                     var18 = var3;
                     var17 = var18.log;
                     var10 = 'initHeadlessTask completed';
@@ -139,12 +139,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var10 = _closure1_slot8;
                     var10 = var10.promise;
                     SaveGenerator(address=466);
- 464:
+case 13:
                     return var10;
- 466:
+case 14:
                     ResumeGenerator(result_out_reg=9, return_bool_out_reg=16);
-                    if(var17) { _fun0001_ip = 1324; continue _fun0001 }
- 475:
+                    if(var17) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
                     var19 = var3;
                     var18 = var19.log;
                     var17 = 'Flux Initialized';
@@ -152,14 +152,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var18 = _closure1_slot6;
                     var17 = var18.isAuthenticated;
                     var17 = var17.bind(var18)();
-                    if(var17) { _fun0001_ip = 534; continue _fun0001 }
- 512:
+                    if(var17) { _fun0001_ip = 17; continue _fun0001 }
+case 18:
                     var19 = var3;
                     var18 = var19.log;
                     var17 = 'Analytics Init skipped; not authenticated';
                     var17 = var18.bind(var19)(var17);
-                    _fun0001_ip = 636; continue _fun0001;
- 534:
+                    _fun0001_ip = 19; continue _fun0001;
+case 17:
                     var18 = _closure1_slot0;
                     var19 = _closure1_slot3;
                     var17 = 12;
@@ -183,23 +183,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var18 = var19.log;
                     var17 = 'Analytics Initialized';
                     var17 = var18.bind(var19)(var17);
- 636:
+case 19:
                     var12 = var12.bind(var9)();
                     var11 = var12.bind(var9)(var11);
                     SaveGenerator(address=649);
- 647:
+case 20:
                     return var11;
- 649:
+case 21:
                     ResumeGenerator(result_out_reg=10, return_bool_out_reg=11);
-                    if(var12) { _fun0001_ip = 1002; continue _fun0001 }
- 658:
+                    if(var12) { _fun0001_ip = 22; continue _fun0001 }
+case 23:
                     var21 = true;
                     var13 = true;
                     var18 = var3;
                     var17 = var18.log;
                     var12 = 'Task completed successfully';
                     var12 = var17.bind(var18)(var12);
- 682: // try_end0
+case 24: // try_end0
                     var17 = var5.Date;
                     var12 = var17.now;
                     var17 = var12.bind(var17)();
@@ -248,7 +248,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var12 = {};
                     var12['flush'] = var21;
                     var4 = var19.bind(var20)(var18, var17, var12);
- 893: // try_start_1
+case 25: // try_start_1
                     var18 = var5.Promise;
                     var17 = var18.race;
                     var19 = var4;
@@ -265,24 +265,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var12[1] = var19;
                     var12 = var17.bind(var18)(var12);
                     SaveGenerator(address=966);
- 964:
+case 26:
                     return var12;
- 966:
+case 27:
                     ResumeGenerator(result_out_reg=11, return_bool_out_reg=16);
-                    if(var17) { _fun0001_ip = 974; continue _fun0001 }
- 972: // try_end1
-                    _fun0001_ip = 999; continue _fun0001;
- 974:
+                    if(var17) { _fun0001_ip = 28; continue _fun0001 }
+case 29: // try_end1
+                    _fun0001_ip = 30; continue _fun0001;
+case 28:
                     return var12;
- 977: // catch_target1
+case 31: // catch_target1
                     CatchBlockStart(arg_register=18);
                     var18 = var3;
                     var17 = var18.warn;
                     var12 = 'Failed to submit analytics';
                     var12 = var17.bind(var18)(var12, var19);
- 999:
+case 30:
                     return var9;
- 1002:
+case 22:
                     var17 = var5.Date;
                     var12 = var17.now;
                     var17 = var12.bind(var17)();
@@ -332,7 +332,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var21 = true;
                     var12['flush'] = var21;
                     var4 = var19.bind(var20)(var18, var17, var12);
- 1215: // try_start_2
+case 32: // try_start_2
                     var18 = var5.Promise;
                     var17 = var18.race;
                     var19 = var4;
@@ -349,24 +349,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var12[1] = var19;
                     var12 = var17.bind(var18)(var12);
                     SaveGenerator(address=1288);
- 1286:
+case 33:
                     return var12;
- 1288:
+case 34:
                     ResumeGenerator(result_out_reg=11, return_bool_out_reg=16);
-                    if(var17) { _fun0001_ip = 1296; continue _fun0001 }
- 1294: // try_end2
-                    _fun0001_ip = 1321; continue _fun0001;
- 1296:
+                    if(var17) { _fun0001_ip = 35; continue _fun0001 }
+case 36: // try_end2
+                    _fun0001_ip = 37; continue _fun0001;
+case 35:
                     return var12;
- 1299: // catch_target2
+case 38: // catch_target2
                     CatchBlockStart(arg_register=18);
                     var18 = var3;
                     var17 = var18.warn;
                     var12 = 'Failed to submit analytics';
                     var12 = var17.bind(var18)(var12, var19);
- 1321:
+case 37:
                     return var11;
- 1324:
+case 15:
                     var12 = var5.Date;
                     var11 = var12.now;
                     var12 = var11.bind(var12)();
@@ -416,7 +416,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var20 = true;
                     var11['flush'] = var20;
                     var4 = var18.bind(var19)(var17, var12, var11);
- 1537: // try_start_3
+case 39: // try_start_3
                     var17 = var5.Promise;
                     var12 = var17.race;
                     var18 = var4;
@@ -433,24 +433,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var11[1] = var18;
                     var11 = var12.bind(var17)(var11);
                     SaveGenerator(address=1610);
- 1608:
+case 40:
                     return var11;
- 1610:
+case 41:
                     ResumeGenerator(result_out_reg=10, return_bool_out_reg=11);
-                    if(var12) { _fun0001_ip = 1618; continue _fun0001 }
- 1616: // try_end3
-                    _fun0001_ip = 1643; continue _fun0001;
- 1618:
+                    if(var12) { _fun0001_ip = 42; continue _fun0001 }
+case 43: // try_end3
+                    _fun0001_ip = 44; continue _fun0001;
+case 42:
                     return var11;
- 1621: // catch_target3
+case 45: // catch_target3
                     CatchBlockStart(arg_register=17);
                     var17 = var3;
                     var12 = var17.warn;
                     var11 = 'Failed to submit analytics';
                     var11 = var12.bind(var17)(var11, var18);
- 1643:
+case 44:
                     return var10;
- 1646:
+case 11:
                     var11 = var5.Date;
                     var10 = var11.now;
                     var11 = var10.bind(var11)();
@@ -500,7 +500,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var18 = true;
                     var10['flush'] = var18;
                     var4 = var16.bind(var17)(var12, var11, var10);
- 1859: // try_start_4
+case 46: // try_start_4
                     var12 = var5.Promise;
                     var11 = var12.race;
                     var16 = var4;
@@ -517,24 +517,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var10[1] = var16;
                     var10 = var11.bind(var12)(var10);
                     SaveGenerator(address=1932);
- 1930:
+case 47:
                     return var10;
- 1932:
+case 48:
                     ResumeGenerator(result_out_reg=9, return_bool_out_reg=10);
-                    if(var11) { _fun0001_ip = 1940; continue _fun0001 }
- 1938: // try_end4
-                    _fun0001_ip = 1965; continue _fun0001;
- 1940:
+                    if(var11) { _fun0001_ip = 49; continue _fun0001 }
+case 50: // try_end4
+                    _fun0001_ip = 51; continue _fun0001;
+case 49:
                     return var10;
- 1943: // catch_target4
+case 52: // catch_target4
                     CatchBlockStart(arg_register=15);
                     var12 = var3;
                     var11 = var12.warn;
                     var10 = 'Failed to submit analytics';
                     var10 = var11.bind(var12)(var10, var16);
- 1965:
+case 51:
                     return var2;
- 1968: // catch_target0
+case 53: // catch_target0
                     CatchBlockStart(arg_register=1);
                     var11 = var5.Date;
                     var10 = var11.now;
@@ -583,7 +583,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var13 = true;
                     var6['flush'] = var13;
                     var4 = var11.bind(var12)(var10, var8, var6);
- 2177: // try_start_5
+case 54: // try_start_5
                     var6 = var5.Promise;
                     var5 = var6.race;
                     var8 = var4;
@@ -600,24 +600,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4[1] = var7;
                     var4 = var5.bind(var6)(var4);
                     SaveGenerator(address=2250);
- 2248:
+case 55:
                     return var4;
- 2250:
+case 56:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                    if(var5) { _fun0001_ip = 2258; continue _fun0001 }
- 2256: // try_end5
-                    _fun0001_ip = 2283; continue _fun0001;
- 2258:
+                    if(var5) { _fun0001_ip = 57; continue _fun0001 }
+case 58: // try_end5
+                    _fun0001_ip = 59; continue _fun0001;
+case 57:
                     return var4;
- 2261: // catch_target5
+case 60: // catch_target5
                     CatchBlockStart(arg_register=5);
                     var5 = var3;
                     var4 = var5.warn;
                     var3 = 'Failed to submit analytics';
                     var3 = var4.bind(var5)(var3, var6);
- 2283:
+case 59:
                     throw var2;
- 2285:
+case 2:
                     return var1;
                 }
             };

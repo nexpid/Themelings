@@ -71,32 +71,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function() {
         var1 = function getWindowDimensionsWorklet() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var1 = arguments[0];
                 var2 = undefined;
-                if(!(var1 === var2)) { _fun0001_ip = 11; continue _fun0001 }
- 9:
+                if(!(var1 === var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var1 = undefined;
- 11:
+case 2:
                 var3 = null;
                 var3 = var3 == var1;
                 var2 = undefined;
-                if(var3) { _fun0001_ip = 28; continue _fun0001 }
- 22:
+                if(var3) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var2 = var1.ignoreKeyboard;
- 28:
+case 4:
                 var1 = true;
-                if(!(var1 !== var2)) { _fun0001_ip = 52; continue _fun0001 }
- 34:
+                if(!(var1 !== var2)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                 var2 = _closure1_slot2;
                 var1 = var2.get;
                 var1 = var1.bind(var2)();
-                _fun0001_ip = 68; continue _fun0001;
- 52:
+                _fun0001_ip = 8; continue _fun0001;
+case 6:
                 var3 = _closure1_slot3;
                 var2 = var3.get;
                 var1 = var2.bind(var3)();
- 68:
+case 8:
                 return var1;
             }
         };
@@ -121,28 +121,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var7)(var5);
     var4 = function useWindowDimensionsSharedValue() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arguments[0];
             var2 = undefined;
-            if(!(var1 === var2)) { _fun0002_ip = 11; continue _fun0002 }
- 9:
+            if(!(var1 === var2)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
             var1 = undefined;
- 11:
+case 2:
             var3 = null;
             var3 = var3 == var1;
             var2 = undefined;
-            if(var3) { _fun0002_ip = 28; continue _fun0002 }
- 22:
+            if(var3) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var2 = var1.ignoreKeyboard;
- 28:
+case 4:
             var1 = true;
-            if(!(var1 !== var2)) { _fun0002_ip = 43; continue _fun0002 }
- 34:
+            if(!(var1 !== var2)) { _fun0002_ip = 9; continue _fun0002 }
+case 7:
             var1 = _closure1_slot2;
-            _fun0002_ip = 50; continue _fun0002;
- 43:
+            _fun0002_ip = 10; continue _fun0002;
+case 9:
             var1 = _closure1_slot3;
- 50:
+case 10:
             return var1;
         }
     };

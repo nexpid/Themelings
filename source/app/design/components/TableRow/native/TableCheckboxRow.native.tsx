@@ -36,7 +36,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function TableCheckboxRow(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arg1;
             var8 = var5.checked;
             var _closure2_slot0 = var8;
@@ -44,10 +44,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var5.subLabel;
             var12 = var5.disabled;
             var4 = undefined;
-            if(!(var12 === var4)) { _fun0001_ip = 39; continue _fun0001 }
- 37:
+            if(!(var12 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var12 = false;
- 39:
+case 2:
             var18 = var5.onPress;
             var _closure2_slot1 = var18;
             var10 = var5.accessibilityHint;
@@ -142,10 +142,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var11 != var6;
             var13 = '';
             var12 = var13;
-            if(!var11) { _fun0001_ip = 374; continue _fun0001 }
- 371:
+            if(!var11) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var12 = var6;
- 374:
+case 4:
             var6 = global;
             var6 = var6.HermesInternal;
             var11 = var6.concat;

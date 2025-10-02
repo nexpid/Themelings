@@ -1,7 +1,7 @@
 // app/modules/main_tabs_v2/native/shared_components/user_list/NewMessagesTagListInput.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
         var5 = require;
         var12 = metroImportDefault;
         var3 = exports;
@@ -71,10 +71,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var16 = var5.bind(var1)(var15);
         var15 = var16.isAndroid;
         var15 = var15.bind(var16)();
-        if(!var15) { _fun0001_ip = 291; continue _fun0001 }
- 288:
+        if(!var15) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
         var13 = var14;
- 291:
+case 2:
         var10['marginBottom'] = var13;
         var4['header'] = var10;
         var10 = {};
@@ -89,7 +89,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var7.memo;
         var2 = function NewMessagesTagListInput(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var2 = arg1;
                 var12 = var2.autoFocus;
                 var14 = var2.onChangeText;
@@ -111,16 +111,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2[0] = var1;
                 var1 = function() {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                         var3 = _closure2_slot1;
                         var2 = null;
-                        if(!(var2 == var3)) { _fun0003_ip = 19; continue _fun0003 }
- 13:
+                        if(!(var2 == var3)) { _fun0003_ip = 4; continue _fun0003 }
+case 5:
                         var4 = new Array(0);
-                        _fun0003_ip = 23; continue _fun0003;
- 19:
+                        _fun0003_ip = 6; continue _fun0003;
+case 4:
                         var4 = _closure2_slot1;
- 23:
+case 6:
                         var3 = var4.map;
                         var2 = _closure1_slot5;
                         var2 = var2.getUser;
@@ -160,14 +160,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var12 = true;
                 var5['focusOnAdd'] = var12;
                 var12 = null;
-                if(var15) { _fun0002_ip = 407; continue _fun0002 }
- 176:
+                if(var15) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
                 var17 = var8.length;
                 var15 = 0;
                 var15 = var17 > var15;
                 var12 = null;
-                if(!var15) { _fun0002_ip = 407; continue _fun0002 }
- 195:
+                if(!var15) { _fun0002_ip = 7; continue _fun0002 }
+case 9:
                 var17 = _closure1_slot6;
                 var16 = _closure1_slot0;
                 var20 = _closure1_slot2;
@@ -188,15 +188,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var20 = var24[var20];
                 var20 = var21.bind(var4)(var20);
                 var21 = var20.t;
-                if(var18) { _fun0002_ip = 297; continue _fun0002 }
- 282:
+                if(var18) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
                 var20 = var21.fTcQm5;
                 var20 = var22.bind(var23)(var20);
-                _fun0002_ip = 310; continue _fun0002;
- 297:
+                _fun0002_ip = 12; continue _fun0002;
+case 10:
                 var21 = var21.4wv+DA;
                 var20 = var22.bind(var23)(var21);
- 310:
+case 12:
                 var15['accessibilityLabel'] = var20;
                 var15['onPress'] = var19;
                 var19 = var9.showSearchButton;
@@ -204,26 +204,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var20 = _closure1_slot6;
                 var21 = _closure1_slot0;
                 var22 = _closure1_slot2;
-                if(var18) { _fun0002_ip = 363; continue _fun0002 }
- 343:
+                if(var18) { _fun0002_ip = 13; continue _fun0002 }
+case 14:
                 var18 = 13;
                 var18 = var22[var18];
                 var18 = var21.bind(var4)(var18);
                 var19 = var18.CirclePlusIcon;
-                _fun0002_ip = 381; continue _fun0002;
- 363:
+                _fun0002_ip = 15; continue _fun0002;
+case 13:
                 var18 = 12;
                 var18 = var22[var18];
                 var18 = var21.bind(var4)(var18);
                 var19 = var18.ChevronLargeRightIcon;
- 381:
+case 15:
                 var18 = {};
                 var21 = 'xs';
                 var18['size'] = var21;
                 var18 = var20.bind(var4)(var19, var18);
                 var15['children'] = var18;
                 var12 = var17.bind(var4)(var16, var15);
- 407:
+case 7:
                 var5['footer'] = var12;
                 var17 = _closure1_slot6;
                 var12 = _closure1_slot0;
@@ -252,7 +252,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5['onFocus'] = var11;
                 var10 = function onRemove(arg1) {
                     _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                         var3 = _closure2_slot2;
                         var1 = arg1;
                         var7 = var3[var1];
@@ -261,8 +261,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var3 = var7.id;
                         var3 = var4.bind(var5)(var3);
                         var4 = null;
-                        if(!(var4 != var3)) { _fun0004_ip = 150; continue _fun0004 }
- 43:
+                        if(!(var4 != var3)) { _fun0004_ip = 16; continue _fun0004 }
+case 17:
                         var2 = _closure2_slot0;
                         var8 = undefined;
                         var2 = var2.bind(var8)(var3);
@@ -287,7 +287,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var1['text'] = var7;
                         var1 = var5.bind(var6)(var4, var1);
                         var1 = var2.bind(var3)(var1);
- 150:
+case 16:
                         var1 = undefined;
                         return var1;
                     }

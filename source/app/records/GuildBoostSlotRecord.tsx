@@ -5,8 +5,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = dependencyMap;
     var1 = function _isNativeReflectConstruct() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
- 2: // try_start_0
+case 0:
+case 2: // try_start_0
             var2 = global;
             var3 = var2.Boolean;
             var3 = var3.prototype;
@@ -24,11 +24,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var4)(var2);
             var2 = !var2;
             var _closure2_slot0 = var2;
- 70: // try_end0
-            _fun0001_ip = 74; continue _fun0001;
- 72: // catch_target0
+case 3: // try_end0
+            _fun0001_ip = 4; continue _fun0001;
+case 5: // catch_target0
             CatchBlockStart(arg_register=1);
- 74:
+case 4:
             var2 = function _isNativeReflectConstruct() {
                 var1 = _closure2_slot0;
                 var1 = !var1;
@@ -77,7 +77,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function(arg1) {
         var5 = function GuildBoostSlotRecord(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var2 = arg1;
                 var5 = this;
                 var1 = _closure1_slot0;
@@ -89,12 +89,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = _closure1_slot2;
                 var1 = _closure1_slot5;
                 var1 = var1.bind(var4)();
-                if(var1) { _fun0002_ip = 65; continue _fun0002 }
- 52:
+                if(var1) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                 var1 = var10.apply;
                 var1 = var1.bind(var10)(var5, var4);
-                _fun0002_ip = 103; continue _fun0002;
- 65:
+                _fun0002_ip = 8; continue _fun0002;
+case 6:
                 var7 = global;
                 var9 = var7.Reflect;
                 var8 = var9.construct;
@@ -103,7 +103,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = var6.constructor;
                 var6 = new Array(0);
                 var1 = var8.bind(var9)(var10, var6, var7);
- 103:
+case 8:
                 var1 = var3.bind(var4)(var5, var1);
                 var3 = var2.id;
                 var1['id'] = var3;
@@ -131,13 +131,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6['key'] = var2;
         var2 = function value() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var3 = this;
                 var2 = var3.cooldownEndsAt;
                 var1 = null;
                 var1 = var1 != var2;
-                if(!var1) { _fun0003_ip = 81; continue _fun0003 }
- 18:
+                if(!var1) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
                 var2 = global;
                 var5 = var2.Date;
                 var6 = var3.cooldownEndsAt;
@@ -152,7 +152,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var4.now;
                 var2 = var2.bind(var4)();
                 var1 = var3 >= var2;
- 81:
+case 9:
                 return var1;
             }
         };
@@ -164,17 +164,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6['key'] = var7;
         var7 = function value() {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                 var3 = this;
                 var2 = var3.premiumGuildSubscription;
                 var1 = null;
                 var1 = var1 == var2;
-                if(!var1) { _fun0004_ip = 31; continue _fun0004 }
- 18:
+                if(!var1) { _fun0004_ip = 11; continue _fun0004 }
+case 10:
                 var2 = var3.isOnCooldown;
                 var2 = var2.bind(var3)();
                 var1 = !var2;
- 31:
+case 11:
                 return var1;
             }
         };
@@ -185,7 +185,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6['key'] = var7;
         var1 = function value(arg1, arg2) {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
                 var2 = arg1;
                 var3 = _closure2_slot0;
                 var1 = {};
@@ -196,8 +196,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var2.premium_guild_subscription;
                 var4 = null;
                 var5 = var4 != var5;
-                if(!var5) { _fun0005_ip = 82; continue _fun0005 }
- 47:
+                if(!var5) { _fun0005_ip = 12; continue _fun0005 }
+case 13:
                 var5 = {};
                 var6 = var2.premium_guild_subscription;
                 var6 = var6.id;
@@ -206,7 +206,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var6.guild_id;
                 var5['guildId'] = var6;
                 var4 = var5;
- 82:
+case 12:
                 var1['premiumGuildSubscription'] = var4;
                 var4 = var2.canceled;
                 var1['canceled'] = var4;

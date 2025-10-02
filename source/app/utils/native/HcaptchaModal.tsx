@@ -59,7 +59,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot10 = var4;
     var2 = function HcaptchaModal(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = _closure1_slot10;
             var4 = undefined;
             var6 = var1.bind(var4)();
@@ -90,22 +90,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var3.length;
             var2 = 0;
             var5 = var5 > var2;
-            if(!var5) { _fun0001_ip = 134; continue _fun0001 }
- 117:
+            if(!var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var3[var2];
             var3 = var2.name;
             var2 = 'auth';
             var5 = var2 === var3;
- 134:
-            if(var5) { _fun0001_ip = 190; continue _fun0001 }
- 137:
+case 2:
+            if(var5) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = null;
             var3 = var2 == var1;
             var2 = undefined;
-            if(var3) { _fun0001_ip = 154; continue _fun0001 }
- 148:
+            if(var3) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var2 = var1.ageVerificationStatus;
- 154:
+case 6:
             var3 = _closure1_slot0;
             var7 = _closure1_slot2;
             var1 = 9;
@@ -114,15 +114,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.AgeVerificationStatusUkAndAusOnly;
             var1 = var1.CLIENT_ONLY_PENDING;
             var5 = var2 === var1;
- 190:
+case 4:
             var3 = _closure1_slot9;
             var2 = _closure1_slot3;
             var1 = {};
             var6 = var6.container;
             var1['style'] = var6;
             var6 = !var5;
-            if(var5) { _fun0001_ip = 308; continue _fun0001 }
- 215:
+            if(var5) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var8 = _closure1_slot8;
             var7 = _closure1_slot4;
             var5 = {};
@@ -136,8 +136,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var10.isAndroid;
             var10 = var9.bind(var10)();
             var9 = undefined;
-            if(!var10) { _fun0001_ip = 298; continue _fun0001 }
- 267:
+            if(!var10) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var12 = _closure1_slot1;
             var13 = _closure1_slot2;
             var10 = 11;
@@ -145,10 +145,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var12.bind(var4)(var10);
             var10 = var10.unsafe_rawColors;
             var9 = var10.WHITE_500;
- 298:
+case 10:
             var5['color'] = var9;
             var6 = var8.bind(var4)(var7, var5);
- 308:
+case 8:
             var5 = new Array(2);
             var5[0] = var6;
             var8 = _closure1_slot8;

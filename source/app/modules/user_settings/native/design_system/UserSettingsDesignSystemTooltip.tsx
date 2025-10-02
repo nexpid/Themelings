@@ -23,7 +23,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var7.useEffect;
         var5 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var2 = _closure2_slot0;
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot1;
@@ -31,18 +31,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var3[var1];
                 var1 = undefined;
                 var4 = var4.bind(var1)(var3);
-                if(var2) { _fun0001_ip = 47; continue _fun0001 }
- 35:
+                if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var2 = var4.lockOrientationForiOS;
                 var2 = var2.bind(var4)();
-                _fun0001_ip = 67; continue _fun0001;
- 47:
+                _fun0001_ip = 4; continue _fun0001;
+case 2:
                 var3 = var4.unlockOrientation;
                 var2 = {};
                 var5 = false;
                 var2['unlockAfterRotatingToPreviousLock'] = var5;
                 var2 = var3.bind(var4)(var2);
- 67:
+case 4:
                 return var1;
             }
         };
@@ -73,7 +73,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot10 = var4;
     var1 = function Content() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = _closure1_slot8;
             var4 = undefined;
             var13 = var1.bind(var4)();
@@ -105,10 +105,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot2 = var11;
             var10 = var2[var3];
             var18 = 'Show tooltip';
-            if(!var1) { _fun0002_ip = 142; continue _fun0002 }
- 136:
+            if(!var1) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
             var18 = 'Hide tooltip';
- 142:
+case 5:
             var5 = _closure1_slot3;
             var3 = var5.useRef;
             var2 = null;
@@ -120,16 +120,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[1] = var1;
             var1 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var1 = {};
                     var2 = 'NEW';
                     var1['label'] = var2;
                     var4 = _closure2_slot2;
                     var3 = 'top';
-                    if(!var4) { _fun0003_ip = 28; continue _fun0003 }
- 24:
+                    if(!var4) { _fun0003_ip = 7; continue _fun0003 }
+case 8:
                     var3 = 'bottom';
- 28:
+case 7:
                     var1['position'] = var3;
                     var2 = _closure2_slot0;
                     var1['visible'] = var2;

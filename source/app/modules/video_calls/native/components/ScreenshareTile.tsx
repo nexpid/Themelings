@@ -68,19 +68,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function _default(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var5 = var1.onSingleTap;
             var4 = undefined;
-            if(!(var5 === var4)) { _fun0001_ip = 22; continue _fun0001 }
- 15:
+            if(!(var5 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = _closure1_slot5;
- 22:
+case 2:
             var3 = var1.onDoubleTap;
-            if(!(var3 === var4)) { _fun0001_ip = 39; continue _fun0001 }
- 32:
+            if(!(var3 === var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = _closure1_slot5;
- 39:
+case 4:
             var1 = _closure1_slot8;
             var11 = var1.bind(var4)();
             var13 = _closure1_slot1;

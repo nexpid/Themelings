@@ -8,8 +8,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var6;
     var1 = function _isNativeReflectConstruct() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
- 2: // try_start_0
+case 0:
+case 2: // try_start_0
             var2 = global;
             var3 = var2.Boolean;
             var3 = var3.prototype;
@@ -27,11 +27,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var4)(var2);
             var2 = !var2;
             var _closure2_slot0 = var2;
- 72: // try_end0
-            _fun0001_ip = 76; continue _fun0001;
- 74: // catch_target0
+case 3: // try_end0
+            _fun0001_ip = 4; continue _fun0001;
+case 5: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+case 4:
             var2 = function _isNativeReflectConstruct() {
                 var1 = _closure2_slot0;
                 var1 = !var1;
@@ -89,7 +89,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function(arg1) {
         var3 = function UserSettingsNativeBridgeManager(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var6 = this;
                 var14 = 0;
                 var1 = copyRestArgs(var14);
@@ -107,12 +107,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = _closure1_slot4;
                 var1 = _closure1_slot9;
                 var1 = var1.bind(var5)();
-                if(var1) { _fun0002_ip = 86; continue _fun0002 }
- 73:
+                if(var1) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                 var1 = var10.apply;
                 var1 = var1.bind(var10)(var6, var11);
-                _fun0002_ip = 120; continue _fun0002;
- 86:
+                _fun0002_ip = 8; continue _fun0002;
+case 6:
                 var7 = global;
                 var9 = var7.Reflect;
                 var8 = var9.construct;
@@ -120,7 +120,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = var7.bind(var5)(var6);
                 var7 = var7.constructor;
                 var1 = var8.bind(var9)(var10, var11, var7);
- 120:
+case 8:
                 var1 = var4.bind(var5)(var6, var1);
                 var4 = _closure1_slot0;
                 var6 = _closure1_slot1;
@@ -129,47 +129,47 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var4.bind(var5)(var2);
                 var2 = var4.isIOS;
                 var2 = var2.bind(var4)();
-                if(var2) { _fun0002_ip = 168; continue _fun0002 }
- 159:
+                if(var2) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
                 var2 = function() {
                     var1 = undefined;
                     return var1;
                 };
-                _fun0002_ip = 175; continue _fun0002;
- 168:
+                _fun0002_ip = 11; continue _fun0002;
+case 9:
                 var2 = function() {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                         var1 = _closure1_slot8;
                         var4 = var1.settings;
                         var2 = null;
                         var5 = var2 == var4;
                         var1 = undefined;
                         var6 = undefined;
-                        if(var5) { _fun0003_ip = 47; continue _fun0003 }
- 26:
+                        if(var5) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
                         var4 = var4.textAndImages;
                         var5 = var2 == var4;
                         var6 = undefined;
-                        if(var5) { _fun0003_ip = 47; continue _fun0003 }
- 41:
+                        if(var5) { _fun0003_ip = 12; continue _fun0003 }
+case 14:
                         var6 = var4.explicitContentSettings;
- 47:
+case 12:
                         var3 = _closure1_slot7;
                         var4 = var3.NSUserDefaultsBridge;
-                        if(!(var2 != var4)) { _fun0003_ip = 93; continue _fun0003 }
- 61:
+                        if(!(var2 != var4)) { _fun0003_ip = 15; continue _fun0003 }
+case 16:
                         var3 = var4.setExplicitContentSettingsJSONString;
                         var2 = global;
                         var5 = var2.JSON;
                         var2 = var5.stringify;
                         var2 = var2.bind(var5)(var6);
                         var2 = var3.bind(var4)(var2);
- 93:
+case 15:
                         return var1;
                     }
                 };
- 175:
+case 11:
                 var1['saveExplicitContentSettingsToDisk'] = var2;
                 var2 = {};
                 var3 = var1.saveExplicitContentSettingsToDisk;

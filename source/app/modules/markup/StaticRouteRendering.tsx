@@ -27,26 +27,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = 'home';
-            if(!(var1 !== var2)) { _fun0001_ip = 250; continue _fun0001 }
- 14:
+            if(!(var1 !== var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = 'guide';
-            if(!(var1 !== var2)) { _fun0001_ip = 250; continue _fun0001 }
- 27:
+            if(!(var1 !== var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var1 = 'browse';
-            if(!(var1 !== var2)) { _fun0001_ip = 188; continue _fun0001 }
- 40:
+            if(!(var1 !== var2)) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var1 = 'customize';
-            if(!(var1 !== var2)) { _fun0001_ip = 126; continue _fun0001 }
- 50:
+            if(!(var1 !== var2)) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var1 = 'linked-roles';
-            if(!(var1 !== var2)) { _fun0001_ip = 64; continue _fun0001 }
- 60:
+            if(!(var1 !== var2)) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var1 = null;
             return var1;
- 64:
+case 9:
             var5 = _closure1_slot0;
             var6 = _closure1_slot1;
             var1 = 1;
@@ -61,7 +61,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.ghtnsr;
             var1 = var2.bind(var3)(var1);
             return var1;
- 126:
+case 7:
             var5 = _closure1_slot0;
             var6 = _closure1_slot1;
             var1 = 1;
@@ -76,7 +76,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.h9mGOD;
             var1 = var2.bind(var3)(var1);
             return var1;
- 188:
+case 5:
             var5 = _closure1_slot0;
             var6 = _closure1_slot1;
             var1 = 1;
@@ -91,7 +91,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.et6wam;
             var1 = var2.bind(var3)(var1);
             return var1;
- 250:
+case 2:
             var5 = _closure1_slot0;
             var6 = _closure1_slot1;
             var1 = 1;
@@ -111,40 +111,40 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['staticRouteToTranslation'] = var4;
     var2 = function(arg1, arg2, arg3) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var5 = arg3;
             var2 = 'linked-roles';
             var1 = arg1;
-            if(!(var2 !== var1)) { _fun0002_ip = 20; continue _fun0002 }
- 16:
+            if(!(var2 !== var1)) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
             var1 = null;
             return var1;
- 20:
+case 11:
             var1 = null;
-            if(!(var1 != var5)) { _fun0002_ip = 91; continue _fun0002 }
- 26:
+            if(!(var1 != var5)) { _fun0002_ip = 13; continue _fun0002 }
+case 14:
             var4 = _closure1_slot2;
             var3 = var4.getRole;
             var2 = arg2;
             var3 = var3.bind(var4)(var5, var2);
             var4 = var1 == var3;
             var2 = null;
-            if(var4) { _fun0002_ip = 89; continue _fun0002 }
- 57:
+            if(var4) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
             var5 = var3.tags;
             var6 = var1 == var5;
             var4 = undefined;
-            if(var6) { _fun0002_ip = 78; continue _fun0002 }
- 72:
+            if(var6) { _fun0002_ip = 17; continue _fun0002 }
+case 18:
             var4 = var5.guild_connections;
- 78:
+case 17:
             var2 = null;
-            if(!(var2 === var4)) { _fun0002_ip = 89; continue _fun0002 }
- 84:
+            if(!(var2 === var4)) { _fun0002_ip = 15; continue _fun0002 }
+case 19:
             var2 = var3.name;
- 89:
+case 15:
             return var2;
- 91:
+case 13:
             return var1;
         }
     };

@@ -83,7 +83,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function UserProfileStackedActionSheet(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var17 = var4.title;
             var6 = var4.children;
@@ -119,16 +119,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7[0] = var10;
             var10 = {};
             var13 = 'center';
-            if(!var11) { _fun0001_ip = 150; continue _fun0001 }
- 144:
+            if(!var11) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var13 = 'space-between';
- 150:
+case 2:
             var10['justifyContent'] = var13;
             var7[1] = var10;
             var5['style'] = var7;
             var7 = var11;
-            if(!var11) { _fun0001_ip = 310; continue _fun0001 }
- 171:
+            if(!var11) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var14 = _closure1_slot4;
             var18 = _closure1_slot0;
             var19 = _closure1_slot2;
@@ -161,7 +161,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = var14.bind(var4)(var18, var16);
             var10['children'] = var16;
             var7 = var14.bind(var4)(var13, var10);
- 310:
+case 4:
             var10 = new Array(3);
             var10[0] = var7;
             var16 = _closure1_slot4;
@@ -176,15 +176,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13['children'] = var17;
             var13 = var16.bind(var4)(var14, var13);
             var10[1] = var13;
-            if(!var11) { _fun0001_ip = 408; continue _fun0001 }
- 382:
+            if(!var11) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var14 = _closure1_slot4;
             var13 = _closure1_slot3;
             var12 = {};
             var15 = var15.headerSpacer;
             var12['style'] = var15;
             var11 = var14.bind(var4)(var13, var12);
- 408:
+case 6:
             var10[2] = var11;
             var5['children'] = var10;
             var5 = var9.bind(var4)(var8, var5);
@@ -198,7 +198,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['default'] = var4;
     var4 = function UserProfileStackedActionSheetList(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var3 = arg1;
             var12 = var3.data;
             var _closure2_slot0 = var12;
@@ -266,8 +266,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var13.isAndroid;
             var12 = var12.bind(var13)();
             var10 = 0;
-            if(!var12) { _fun0002_ip = 258; continue _fun0002 }
- 228:
+            if(!var12) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var12 = _closure1_slot1;
             var13 = _closure1_slot2;
             var11 = 4;
@@ -275,7 +275,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var12.bind(var4)(var11);
             var11 = var11.spacing;
             var10 = var11.PX_16;
- 258:
+case 8:
             var9 = var9 + var10;
             var8['paddingBottom'] = var9;
             var7[1] = var8;

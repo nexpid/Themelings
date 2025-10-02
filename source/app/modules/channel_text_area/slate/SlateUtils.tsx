@@ -3,14 +3,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3 = exports;
     var4 = function toRichValue(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var1 = '';
-            if(!(var1 === var4)) { _fun0001_ip = 20; continue _fun0001 }
- 11:
+            if(!(var1 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = _closure1_slot0;
-            _fun0001_ip = 51; continue _fun0001;
- 20:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var3 = var4.split;
             var2 = '\n';
             var4 = var3.bind(var4)(var2);
@@ -28,7 +28,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var1 = var3.bind(var4)(var2);
- 51:
+case 4:
             return var1;
         }
     };
@@ -106,36 +106,36 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['toRichValue'] = var4;
     var2 = function voidToOptionValue(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var2 = arg1;
             var10 = var2.type;
             var3 = 'userMention';
-            if(!(var3 !== var10)) { _fun0002_ip = 306; continue _fun0002 }
- 21:
+            if(!(var3 !== var10)) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
             var4 = 'channelMention';
-            if(!(var4 !== var10)) { _fun0002_ip = 289; continue _fun0002 }
- 32:
+            if(!(var4 !== var10)) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
             var5 = 'soundboard';
-            if(!(var5 !== var10)) { _fun0002_ip = 261; continue _fun0002 }
- 43:
+            if(!(var5 !== var10)) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
             var6 = 'roleMention';
-            if(!(var6 !== var10)) { _fun0002_ip = 242; continue _fun0002 }
- 54:
+            if(!(var6 !== var10)) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
             var7 = 'textMention';
-            if(!(var7 !== var10)) { _fun0002_ip = 225; continue _fun0002 }
- 67:
+            if(!(var7 !== var10)) { _fun0002_ip = 13; continue _fun0002 }
+case 14:
             var8 = 'emoji';
-            if(!(var8 !== var10)) { _fun0002_ip = 187; continue _fun0002 }
- 75:
+            if(!(var8 !== var10)) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
             var9 = 'customEmoji';
-            if(!(var9 !== var10)) { _fun0002_ip = 133; continue _fun0002 }
- 83:
+            if(!(var9 !== var10)) { _fun0002_ip = 17; continue _fun0002 }
+case 18:
             var1 = 'testInlineVoid';
-            if(!(var1 !== var10)) { _fun0002_ip = 97; continue _fun0002 }
- 93:
+            if(!(var1 !== var10)) { _fun0002_ip = 19; continue _fun0002 }
+case 20:
             var1 = null;
             return var1;
- 97:
+case 19:
             var1 = global;
             var11 = var1.Error;
             var1 = var11.prototype;
@@ -145,7 +145,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = new var13[var11](var12, var11);
             var1 = var1 instanceof Object ? var1 : var10;
             throw var1;
- 133:
+case 17:
             var1 = {};
             var1['type'] = var9;
             var9 = var2.emoji;
@@ -158,7 +158,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var9.animated;
             var1['animated'] = var9;
             return var1;
- 187:
+case 15:
             var1 = {};
             var1['type'] = var8;
             var8 = var2.emoji;
@@ -168,19 +168,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var8.surrogate;
             var1['surrogate'] = var8;
             return var1;
- 225:
+case 13:
             var1 = {};
             var1['type'] = var7;
             var7 = var2.name;
             var1['text'] = var7;
             return var1;
- 242:
+case 11:
             var1 = {};
             var1['type'] = var6;
             var6 = var2.roleId;
             var1['roleId'] = var6;
             return var1;
- 261:
+case 9:
             var1 = {};
             var1['type'] = var5;
             var5 = var2.guildId;
@@ -188,13 +188,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var2.soundId;
             var1['soundId'] = var5;
             return var1;
- 289:
+case 7:
             var1 = {};
             var1['type'] = var4;
             var4 = var2.channelId;
             var1['channelId'] = var4;
             return var1;
- 306:
+case 5:
             var1 = {};
             var1['type'] = var3;
             var2 = var2.userId;

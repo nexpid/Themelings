@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var4;
     var1 = function computeKeyboardActionSheetHeight(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = arg2;
             var4 = var2.height;
@@ -28,16 +28,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var6.bind(var5)(var4);
             var4 = var5.isAndroid;
             var4 = var4.bind(var5)();
-            if(!var4) { _fun0001_ip = 83; continue _fun0001 }
- 78:
+            if(!var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = var1.bottom;
- 83:
+case 2:
             var1 = arg3;
             var3 = var1 + var3;
-            if(!(var3 >= var2)) { _fun0001_ip = 97; continue _fun0001 }
- 94:
+            if(!(var3 >= var2)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = var3;
- 97:
+case 4:
             var1 = {};
             var1['minimum'] = var3;
             var1['maximum'] = var2;

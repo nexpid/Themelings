@@ -94,27 +94,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var6 = function value(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var1 = this;
                 var _closure3_slot0 = var1;
                 var3 = var1._pendingRequests;
                 var4 = var3.size;
                 var3 = 0;
-                if(!(var3 !== var4)) { _fun0001_ip = 97; continue _fun0001 }
- 26:
+                if(!(var3 !== var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var5 = new Array(0);
                 var _closure3_slot1 = var5;
                 var6 = var1._pendingRequests;
                 var4 = var6.forEach;
                 var2 = function(arg1) {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                         var3 = arg1;
                         var4 = _closure3_slot0;
                         var2 = var4._guildMemberExists;
                         var2 = var2.bind(var4)(var3);
-                        if(var2) { _fun0002_ip = 74; continue _fun0002 }
- 24:
+                        if(var2) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                         var2 = _closure3_slot0;
                         var5 = var2._unacknowledgedRequests;
                         var4 = var5.add;
@@ -125,24 +125,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = _closure3_slot1;
                         var1 = var2.push;
                         var1 = var1.bind(var2)(var3);
- 74:
+case 4:
                         var1 = undefined;
                         return var1;
                     }
                 };
                 var2 = var4.bind(var6)(var2);
                 var2 = var5.length;
-                if(!(var2 > var3)) { _fun0001_ip = 81; continue _fun0001 }
- 64:
+                if(!(var2 > var3)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                 var4 = var1._guildId;
                 var3 = arg1;
                 var2 = undefined;
                 var2 = var3.bind(var2)(var4, var5);
- 81:
+case 6:
                 var2 = var1._pendingRequests;
                 var1 = var2.clear;
                 var1 = var1.bind(var2)();
- 97:
+case 2:
                 var1 = undefined;
                 return var1;
             }
@@ -154,36 +154,36 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var6 = function value() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var2 = this;
                 var _closure3_slot0 = var2;
                 var1 = var2._unacknowledgedRequests;
                 var1 = var1.size;
                 var3 = 0;
                 var1 = var3 !== var1;
-                if(!var1) { _fun0003_ip = 73; continue _fun0003 }
- 29:
+                if(!var1) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
                 var6 = var2._unacknowledgedRequests;
                 var5 = var6.forEach;
                 var4 = function(arg1) {
                     _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                         var3 = arg1;
                         var4 = _closure3_slot0;
                         var2 = var4._guildMemberExists;
                         var2 = var2.bind(var4)(var3);
                         var1 = _closure3_slot0;
-                        if(var2) { _fun0004_ip = 46; continue _fun0004 }
- 28:
+                        if(var2) { _fun0004_ip = 10; continue _fun0004 }
+case 11:
                         var4 = var1._pendingRequests;
                         var2 = var4.add;
                         var2 = var2.bind(var4)(var3);
-                        _fun0004_ip = 62; continue _fun0004;
- 46:
+                        _fun0004_ip = 12; continue _fun0004;
+case 10:
                         var2 = var1._unacknowledgedRequests;
                         var1 = var2.delete;
                         var1 = var1.bind(var2)(var3);
- 62:
+case 12:
                         var1 = undefined;
                         return var1;
                     }
@@ -192,12 +192,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var2._pendingRequests;
                 var2 = var2.size;
                 var2 = var3 !== var2;
-                if(!var2) { _fun0003_ip = 70; continue _fun0003 }
- 68:
+                if(!var2) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
                 var2 = undefined;
- 70:
+case 13:
                 var1 = var2;
- 73:
+case 8:
                 return var1;
             }
         };
@@ -208,29 +208,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var5 = function value(arg1) {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
                 var3 = arg1;
                 var1 = this;
                 var2 = var1._guildMemberExists;
                 var2 = var2.bind(var1)(var3);
-                if(var2) { _fun0005_ip = 78; continue _fun0005 }
- 20:
+                if(var2) { _fun0005_ip = 15; continue _fun0005 }
+case 16:
                 var4 = var1._sentRequests;
                 var2 = var4.has;
                 var2 = var2.bind(var4)(var3);
-                if(var2) { _fun0005_ip = 78; continue _fun0005 }
- 39:
+                if(var2) { _fun0005_ip = 15; continue _fun0005 }
+case 17:
                 var4 = var1._pendingRequests;
                 var2 = var4.has;
                 var2 = var2.bind(var4)(var3);
-                if(var2) { _fun0005_ip = 78; continue _fun0005 }
- 58:
+                if(var2) { _fun0005_ip = 15; continue _fun0005 }
+case 18:
                 var2 = var1._pendingRequests;
                 var1 = var2.add;
                 var1 = var1.bind(var2)(var3);
                 var1 = undefined;
                 return var1;
- 78:
+case 15:
                 var1 = false;
                 return var1;
             }
@@ -301,7 +301,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var6 = function value(arg1, arg2) {
             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
- 0:
+case 0:
                 var1 = this;
                 var3 = var1._getGuildState;
                 var2 = arg1;
@@ -310,12 +310,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = arg2;
                 var2 = var3.bind(var4)(var2);
                 var3 = false;
-                if(!(var3 !== var2)) { _fun0006_ip = 54; continue _fun0006 }
- 37:
+                if(!(var3 !== var2)) { _fun0006_ip = 19; continue _fun0006 }
+case 20:
                 var2 = var1._flush;
                 var1 = var2.delay;
                 var1 = var1.bind(var2)(var3);
- 54:
+case 19:
                 var1 = undefined;
                 return var1;
             }
@@ -370,7 +370,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var6 = function value() {
             _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
- 0:
+case 0:
                 var2 = this;
                 var4 = _closure1_slot1;
                 var3 = _closure1_slot2;
@@ -382,27 +382,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var2._guildStates;
                 var4 = function(arg1, arg2) {
                     _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
- 0:
+case 0:
                         var2 = arg2;
                         var1 = var2.requestUnacknowledged;
                         var3 = var1.bind(var2)();
                         var1 = false;
                         var1 = var1 !== var3;
-                        if(var1) { _fun0008_ip = 25; continue _fun0008 }
- 22:
+                        if(var1) { _fun0008_ip = 21; continue _fun0008 }
+case 22:
                         var1 = var2;
- 25:
+case 21:
                         return var1;
                     }
                 };
                 var3 = false;
                 var3 = var6.bind(var7)(var5, var4, var3);
-                if(!var3) { _fun0007_ip = 75; continue _fun0007 }
- 59:
+                if(!var3) { _fun0007_ip = 23; continue _fun0007 }
+case 24:
                 var3 = var2._flush;
                 var2 = var3.delay;
                 var2 = var2.bind(var3)();
- 75:
+case 23:
                 return var1;
             }
         };
@@ -413,14 +413,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var6 = function value(arg1) {
             _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
- 0:
+case 0:
                 var4 = arg1;
                 var2 = this;
                 var1 = var2._guildStates;
                 var1 = var1[var4];
                 var3 = null;
-                if(!(var3 == var1)) { _fun0009_ip = 71; continue _fun0009 }
- 22:
+                if(!(var3 == var1)) { _fun0009_ip = 25; continue _fun0009 }
+case 22:
                 var3 = var2._guildStates;
                 var6 = _closure1_slot5;
                 var7 = var2._guildMemberExists;
@@ -432,7 +432,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var2 instanceof Object ? var2 : var5;
                 var3[var4] = var2;
                 var1 = var2;
- 71:
+case 25:
                 return var1;
             }
         };
@@ -461,41 +461,41 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5._guildStates;
             var1 = function(arg1) {
                 _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
- 0:
+case 0:
                     var1 = arg1;
                     var5 = var1._pendingRequests;
                     var4 = var5.has;
                     var3 = _closure3_slot0;
                     var3 = var4.bind(var5)(var3);
-                    if(!var3) { _fun0010_ip = 49; continue _fun0010 }
- 29:
+                    if(!var3) { _fun0010_ip = 26; continue _fun0010 }
+case 9:
                     var5 = _closure3_slot1;
                     var4 = var5.push;
                     var3 = var1._guildId;
                     var3 = var4.bind(var5)(var3);
- 49:
+case 26:
                     var5 = var1._unacknowledgedRequests;
                     var4 = var5.has;
                     var3 = _closure3_slot0;
                     var3 = var4.bind(var5)(var3);
-                    if(!var3) { _fun0010_ip = 92; continue _fun0010 }
- 72:
+                    if(!var3) { _fun0010_ip = 27; continue _fun0010 }
+case 28:
                     var5 = _closure3_slot2;
                     var4 = var5.push;
                     var3 = var1._guildId;
                     var3 = var4.bind(var5)(var3);
- 92:
+case 27:
                     var5 = var1._sentRequests;
                     var4 = var5.has;
                     var3 = _closure3_slot0;
                     var3 = var4.bind(var5)(var3);
-                    if(!var3) { _fun0010_ip = 135; continue _fun0010 }
- 115:
+                    if(!var3) { _fun0010_ip = 29; continue _fun0010 }
+case 30:
                     var3 = _closure3_slot3;
                     var2 = var3.push;
                     var1 = var1._guildId;
                     var1 = var2.bind(var3)(var1);
- 135:
+case 29:
                     var1 = undefined;
                     return var1;
                 }

@@ -1,7 +1,7 @@
 // app/components_native/common/VolumeSlider.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
         var5 = require;
         var3 = exports;
         var6 = dependencyMap;
@@ -41,10 +41,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var9.isAndroid;
         var7 = var7.bind(var9)();
         var10 = 16;
-        if(!var7) { _fun0001_ip = 160; continue _fun0001 }
- 158:
+        if(!var7) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
         var10 = 0;
- 160:
+case 2:
         var7 = var8.create;
         var4 = {};
         var9 = {'flexDirection': 'row', 'alignItems': 'center'};
@@ -67,13 +67,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var5.bind(var6)(var4);
         var2 = function _default(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var6 = var1.style;
                 var13 = var1.minTrackColor;
                 var4 = undefined;
-                if(!(var13 === var4)) { _fun0002_ip = 58; continue _fun0002 }
- 24:
+                if(!(var13 === var4)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                 var3 = _closure1_slot1;
                 var5 = _closure1_slot2;
                 var2 = 4;
@@ -81,10 +81,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var3.bind(var4)(var2);
                 var2 = var2.unsafe_rawColors;
                 var13 = var2.BRAND_500;
- 58:
+case 4:
                 var11 = var1.maxTrackTintColor;
-                if(!(var11 === var4)) { _fun0002_ip = 102; continue _fun0002 }
- 68:
+                if(!(var11 === var4)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                 var3 = _closure1_slot1;
                 var5 = _closure1_slot2;
                 var2 = 4;
@@ -92,13 +92,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var3.bind(var4)(var2);
                 var2 = var2.unsafe_rawColors;
                 var11 = var2.PRIMARY_400;
- 102:
+case 6:
                 var19 = var1.value;
                 var14 = var1.maxVolume;
-                if(!(var14 === var4)) { _fun0002_ip = 120; continue _fun0002 }
- 117:
+                if(!(var14 === var4)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                 var14 = 200;
- 120:
+case 8:
                 var2 = var1.onValueChange;
                 var _closure2_slot0 = var2;
                 var10 = var1.onResponderGrant;
@@ -171,8 +171,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 };
                 var6['onValueChange'] = var11;
                 var11 = null;
-                if(!(var11 == var10)) { _fun0002_ip = 429; continue _fun0002 }
- 385:
+                if(!(var11 == var10)) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
                 var13 = _closure1_slot0;
                 var14 = _closure1_slot2;
                 var11 = 3;
@@ -181,15 +181,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var11 = var13.isAndroid;
                 var13 = var11.bind(var13)();
                 var11 = undefined;
-                if(!var13) { _fun0002_ip = 426; continue _fun0002 }
- 419:
+                if(!var13) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
                 var11 = function() {
                     var1 = true;
                     return var1;
                 };
- 426:
+case 12:
                 var10 = var11;
- 429:
+case 10:
                 var6['onResponderGrant'] = var10;
                 var6 = var8.bind(var4)(var7, var6);
                 var5[1] = var6;

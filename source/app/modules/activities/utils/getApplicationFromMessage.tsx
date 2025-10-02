@@ -35,40 +35,40 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function getApplicationFromMessage(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = var2.application;
             var4 = null;
-            if(!(var4 == var1)) { _fun0001_ip = 87; continue _fun0001 }
- 14:
+            if(!(var4 == var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var2.activity;
             var3 = var4 != var1;
             var5 = undefined;
             var1 = undefined;
-            if(!var3) { _fun0001_ip = 85; continue _fun0001 }
- 31:
+            if(!var3) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = var2.activity;
             var3 = var3.party_id;
             var3 = var4 != var3;
             var1 = undefined;
-            if(!var3) { _fun0001_ip = 85; continue _fun0001 }
- 52:
+            if(!var3) { _fun0001_ip = 4; continue _fun0001 }
+case 6:
             var6 = _closure1_slot2;
             var4 = var2.activity;
             var4 = var4.party_id;
             var4 = var6.bind(var5)(var4);
             var1 = undefined;
-            if(!var4) { _fun0001_ip = 85; continue _fun0001 }
- 81:
+            if(!var4) { _fun0001_ip = 4; continue _fun0001 }
+case 7:
             var1 = _closure1_slot1;
- 85:
-            _fun0001_ip = 110; continue _fun0001;
- 87:
+case 4:
+            _fun0001_ip = 8; continue _fun0001;
+case 2:
             var4 = _closure1_slot0;
             var3 = var4.createFromServer;
             var2 = var2.application;
             var1 = var3.bind(var4)(var2);
- 110:
+case 8:
             return var1;
         }
     };

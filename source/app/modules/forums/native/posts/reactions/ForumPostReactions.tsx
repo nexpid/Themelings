@@ -63,7 +63,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function MaxForumPostReactions(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var11 = var1.thread;
             var _closure2_slot0 = var11;
@@ -85,10 +85,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.bind(var5)(var11);
             var7 = var1.disableReactionCreates;
             var13 = 28;
-            if(!var7) { _fun0001_ip = 105; continue _fun0001 }
- 103:
+            if(!var7) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var13 = 0;
- 105:
+case 2:
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 5;
@@ -105,11 +105,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var1.additionalReactionCount;
             var1 = var13.length;
             var9 = 0;
-            if(!(var9 === var1)) { _fun0001_ip = 200; continue _fun0001 }
- 192:
+            if(!(var9 === var1)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = null;
-            if(var7) { _fun0001_ip = 398; continue _fun0001 }
- 200:
+            if(var7) { _fun0001_ip = 6; continue _fun0001 }
+case 4:
             var4 = _closure1_slot5;
             var3 = _closure1_slot3;
             var2 = {};
@@ -121,7 +121,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var13.map;
             var6 = function(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var6 = arg1;
                     var5 = _closure1_slot4;
                     var2 = _closure1_slot0;
@@ -147,11 +147,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var6.emoji;
                     var1 = var1.id;
                     var7 = null;
-                    if(!(var7 == var1)) { _fun0002_ip = 121; continue _fun0002 }
- 111:
+                    if(!(var7 == var1)) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
                     var6 = var6.emoji;
                     var1 = var6.name;
- 121:
+case 7:
                     var1 = var5.bind(var4)(var3, var2, var1);
                     return var1;
                 }
@@ -160,8 +160,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = new Array(3);
             var6[0] = var10;
             var9 = var15 > var9;
-            if(!var9) { _fun0001_ip = 321; continue _fun0001 }
- 263:
+            if(!var9) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var14 = _closure1_slot4;
             var13 = _closure1_slot0;
             var16 = _closure1_slot2;
@@ -175,11 +175,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var11.id;
             var10['threadId'] = var15;
             var9 = var14.bind(var5)(var13, var10);
- 321:
+case 9:
             var6[1] = var9;
             var7 = !var7;
-            if(!var7) { _fun0001_ip = 384; continue _fun0001 }
- 331:
+            if(!var7) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var10 = _closure1_slot4;
             var9 = _closure1_slot0;
             var13 = _closure1_slot2;
@@ -192,18 +192,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var11.id;
             var8['threadId'] = var11;
             var7 = var10.bind(var5)(var9, var8);
- 384:
+case 11:
             var6[2] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 398:
+case 6:
             return var1;
         }
     };
     var3['MaxForumPostReactions'] = var4;
     var4 = function ForumPostActionBarReactions(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var1 = arg1;
             var11 = var1.thread;
             var _closure2_slot0 = var11;
@@ -234,21 +234,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = false;
             var1['sorted'] = var4;
             var4 = 2;
-            if(!var7) { _fun0003_ip = 140; continue _fun0003 }
- 137:
+            if(!var7) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
             var4 = 3;
- 140:
+case 13:
             var1['count'] = var4;
             var1 = var2.bind(var3)(var1);
             var14 = var1.reactions;
             var16 = var1.additionalNonUniqueReactionCount;
             var1 = var14.length;
             var9 = 0;
-            if(!(var9 === var1)) { _fun0003_ip = 181; continue _fun0003 }
- 173:
+            if(!(var9 === var1)) { _fun0003_ip = 15; continue _fun0003 }
+case 16:
             var1 = null;
-            if(var7) { _fun0003_ip = 415; continue _fun0003 }
- 181:
+            if(var7) { _fun0003_ip = 17; continue _fun0003 }
+case 15:
             var4 = _closure1_slot5;
             var3 = _closure1_slot3;
             var2 = {};
@@ -260,7 +260,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var14.map;
             var6 = function(arg1) {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                     var6 = arg1;
                     var5 = _closure1_slot4;
                     var2 = _closure1_slot0;
@@ -286,11 +286,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var6.emoji;
                     var1 = var1.id;
                     var7 = null;
-                    if(!(var7 == var1)) { _fun0004_ip = 121; continue _fun0004 }
- 111:
+                    if(!(var7 == var1)) { _fun0004_ip = 7; continue _fun0004 }
+case 8:
                     var6 = var6.emoji;
                     var1 = var6.name;
- 121:
+case 7:
                     var1 = var5.bind(var4)(var3, var2, var1);
                     return var1;
                 }
@@ -299,8 +299,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = new Array(3);
             var6[0] = var10;
             var9 = var16 > var9;
-            if(!var9) { _fun0003_ip = 320; continue _fun0003 }
- 244:
+            if(!var9) { _fun0003_ip = 18; continue _fun0003 }
+case 19:
             var15 = _closure1_slot4;
             var14 = _closure1_slot0;
             var17 = _closure1_slot2;
@@ -318,11 +318,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = var11.id;
             var10['threadId'] = var16;
             var9 = var15.bind(var5)(var14, var10);
- 320:
+case 18:
             var6[1] = var9;
             var7 = !var7;
-            if(!var7) { _fun0003_ip = 401; continue _fun0003 }
- 330:
+            if(!var7) { _fun0003_ip = 20; continue _fun0003 }
+case 21:
             var10 = _closure1_slot4;
             var9 = _closure1_slot0;
             var14 = _closure1_slot2;
@@ -339,18 +339,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var11.id;
             var8['threadId'] = var11;
             var7 = var10.bind(var5)(var9, var8);
- 401:
+case 20:
             var6[2] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 415:
+case 17:
             return var1;
         }
     };
     var3['ForumPostActionBarReactions'] = var4;
     var2 = function MostCommonForumPostReaction(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
             var1 = arg1;
             var9 = var1.thread;
             var12 = var1.parentChannel;
@@ -380,20 +380,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = 0;
             var8 = var5[var1];
             var1 = null;
-            if(!(var1 != var8)) { _fun0005_ip = 232; continue _fun0005 }
- 133:
-            if(var4) { _fun0005_ip = 232; continue _fun0005 }
- 136:
+            if(!(var1 != var8)) { _fun0005_ip = 22; continue _fun0005 }
+case 23:
+            if(var4) { _fun0005_ip = 22; continue _fun0005 }
+case 24:
             var4 = var8.me;
-            if(var4) { _fun0005_ip = 151; continue _fun0005 }
- 145:
+            if(var4) { _fun0005_ip = 25; continue _fun0005 }
+case 26:
             var4 = var8.me_burst;
- 151:
-            if(!var2) { _fun0005_ip = 159; continue _fun0005 }
- 154:
+case 25:
+            if(!var2) { _fun0005_ip = 27; continue _fun0005 }
+case 28:
             var2 = null;
-            if(!var4) { _fun0005_ip = 230; continue _fun0005 }
- 159:
+            if(!var4) { _fun0005_ip = 29; continue _fun0005 }
+case 27:
             var5 = _closure1_slot4;
             var4 = _closure1_slot0;
             var11 = _closure1_slot2;
@@ -410,9 +410,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = false;
             var3['animateCount'] = var7;
             var2 = var5.bind(var6)(var4, var3);
- 230:
+case 29:
             return var2;
- 232:
+case 22:
             return var1;
         }
     };

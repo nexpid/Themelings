@@ -126,7 +126,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var8.memo;
     var2 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var10 = var1.label;
             var6 = var1.isSectionNitroLocked;
@@ -139,8 +139,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = {};
             var5 = var5.section;
             var1['style'] = var5;
-            if(!var6) { _fun0001_ip = 98; continue _fun0001 }
- 55:
+            if(!var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var9 = _closure1_slot4;
             var8 = _closure1_slot0;
             var12 = _closure1_slot2;
@@ -151,13 +151,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = {};
             var5['useTier0UpsellContent'] = var11;
             var6 = var9.bind(var4)(var8, var5);
- 98:
+case 2:
             var5 = new Array(2);
             var5[0] = var6;
             var8 = '';
             var6 = null;
-            if(!(var8 !== var10)) { _fun0001_ip = 169; continue _fun0001 }
- 116:
+            if(!(var8 !== var10)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var9 = _closure1_slot4;
             var8 = _closure1_slot0;
             var11 = _closure1_slot2;
@@ -168,7 +168,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = {'lineClamp': 1, 'color': 'interactive-normal', 'variant': 'heading-sm/semibold'};
             var7['children'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 169:
+case 4:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

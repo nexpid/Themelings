@@ -62,7 +62,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function FrecencyCommandsSection(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var6 = var1.context;
             var _closure2_slot0 = var6;
@@ -100,12 +100,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[1] = var1;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var1 = _closure2_slot6;
                     var2 = var1.length;
                     var1 = 0;
-                    if(!(var1 !== var2)) { _fun0002_ip = 118; continue _fun0002 }
- 18:
+                    if(!(var1 !== var2)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var7 = _closure1_slot0;
                     var8 = _closure1_slot2;
                     var2 = 7;
@@ -128,7 +128,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var5.APP_DETAIL;
                     var1['location'] = var5;
                     var1 = var3.bind(var4)(var2, var1);
- 118:
+case 2:
                     var1 = undefined;
                     return var1;
                 }
@@ -137,8 +137,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var9.length;
             var2 = 0;
             var1 = null;
-            if(!(var2 !== var3)) { _fun0001_ip = 363; continue _fun0001 }
- 184:
+            if(!(var2 !== var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var4 = _closure1_slot7;
             var3 = _closure1_slot4;
             var2 = {};
@@ -220,7 +220,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[1] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 363:
+case 4:
             return var1;
         }
     };

@@ -144,7 +144,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['feedbackReasons'] = var5;
         var5 = function trackReport(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var5 = arg1;
                 var6 = _closure1_slot1;
                 var4 = _closure1_slot2;
@@ -165,22 +165,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = null;
                 var8 = var6 != var7;
                 var7 = undefined;
-                if(!var8) { _fun0001_ip = 107; continue _fun0001 }
- 85:
+                if(!var8) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var8 = var5.reason;
                 var9 = var8.value;
                 var8 = new Array(1);
                 var8[0] = var9;
                 var7 = var8;
- 107:
+case 2:
                 var2['reason_descriptions'] = var7;
                 var7 = var5.rating;
                 var8 = var6 != var7;
                 var6 = undefined;
-                if(!var8) { _fun0001_ip = 132; continue _fun0001 }
- 129:
+                if(!var8) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var6 = var7;
- 132:
+case 4:
                 var2['rating'] = var6;
                 var5 = var5.feedback;
                 var2['user_feedback'] = var5;

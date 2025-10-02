@@ -96,7 +96,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function GooglePlayPriceChangeActionSheet(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var1 = var1.markAsDismissed;
             var _closure2_slot0 = var1;
@@ -135,16 +135,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = null;
             var5 = var2 == var3;
             var1 = undefined;
-            if(var5) { _fun0001_ip = 136; continue _fun0001 }
- 128:
+            if(var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var3.premiumPlanIdFromItems;
- 136:
+case 2:
             var2 = var2 != var1;
             var5 = '';
-            if(!var2) { _fun0001_ip = 150; continue _fun0001 }
- 147:
+            if(!var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = var1;
- 150:
+case 4:
             var15 = _closure1_slot0;
             var16 = _closure1_slot2;
             var1 = 10;

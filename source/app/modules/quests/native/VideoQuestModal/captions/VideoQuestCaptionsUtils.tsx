@@ -20,7 +20,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var4.bind(var5)(var2);
     var2 = function(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var8 = arg1;
             var7 = arg2;
             var1 = var8.length;
@@ -29,8 +29,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = global;
             var2 = 2;
             var4 = 0;
-            if(!(var4 <= var5)) { _fun0001_ip = 105; continue _fun0001 }
- 29:
+            if(!(var4 <= var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var10 = var3.Math;
             var9 = var10.floor;
             var1 = var4 + var5;
@@ -38,26 +38,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var9.bind(var10)(var1);
             var1 = var8[var10];
             var9 = var1.start;
-            if(!(var7 >= var9)) { _fun0001_ip = 76; continue _fun0001 }
- 67:
+            if(!(var7 >= var9)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var9 = var1.end;
-            if(!(!(var7 <= var9))) { _fun0001_ip = 109; continue _fun0001 }
- 76:
+            if(!(!(var7 <= var9))) { _fun0001_ip = 6; continue _fun0001 }
+case 4:
             var9 = var1.start;
-            if(!(!(var7 < var9))) { _fun0001_ip = 91; continue _fun0001 }
- 85:
+            if(!(!(var7 < var9))) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var9 = var10 + var6;
-            _fun0001_ip = 98; continue _fun0001;
- 91:
+            _fun0001_ip = 9; continue _fun0001;
+case 7:
             var5 = var10 - var6;
             var9 = var4;
- 98:
+case 9:
             var4 = var9;
-            if(var4 <= var5) { _fun0001_ip = 29; continue _fun0001 }
- 105:
+            if(var4 <= var5) { _fun0001_ip = 3; continue _fun0001 }
+case 2:
             var2 = null;
             return var2;
- 109:
+case 6:
             return var1;
         }
     };

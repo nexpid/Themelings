@@ -97,16 +97,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = var9.forwardRef;
     var5 = function(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var5 = var1.children;
             var10 = var1.size;
             var4 = undefined;
-            if(!(var10 === var4)) { _fun0001_ip = 32; continue _fun0001 }
- 19:
+            if(!(var10 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = _closure1_slot4;
             var10 = var2.MEDIUM;
- 32:
+case 2:
             var8 = var1.color;
             var7 = var1.style;
             var2 = _closure1_slot3;
@@ -124,10 +124,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = new Array(3);
             var6[0] = var10;
             var10 = null;
-            if(!(var10 == var8)) { _fun0001_ip = 112; continue _fun0001 }
- 106:
+            if(!(var10 == var8)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var8 = var9.primary;
- 112:
+case 4:
             var6[1] = var8;
             var6[2] = var7;
             var1['style'] = var6;

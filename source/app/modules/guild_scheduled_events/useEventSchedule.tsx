@@ -9,15 +9,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function _getEventSchedule(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var9 = arg3;
             var1 = var3.recurrence_rule;
             var2 = null;
-            if(!(var2 != var1)) { _fun0001_ip = 136; continue _fun0001 }
- 18:
-            if(!(var2 != var9)) { _fun0001_ip = 136; continue _fun0001 }
- 22:
+            if(!(var2 != var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            if(!(var2 != var9)) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
             var1 = 1;
@@ -38,14 +38,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.bind(var7)();
             var1['startTime'] = var5;
             var5 = var2 == var6;
-            if(var5) { _fun0001_ip = 129; continue _fun0001 }
- 119:
+            if(var5) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var5 = var6.toDate;
             var4 = var5.bind(var6)();
- 129:
+case 5:
             var1['endTime'] = var4;
             return var1;
- 136:
+case 2:
             var1 = {};
             var4 = global;
             var7 = var4.Date;
@@ -59,8 +59,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var3.scheduled_end_time;
             var5 = var2 != var5;
             var2 = null;
-            if(!var5) { _fun0001_ip = 224; continue _fun0001 }
- 192:
+            if(!var5) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var5 = var4.Date;
             var11 = var3.scheduled_end_time;
             var4 = var5.prototype;
@@ -68,7 +68,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var4;
             var3 = new var12[var5](var11, var10);
             var2 = var3 instanceof Object ? var3 : var4;
- 224:
+case 7:
             var1['endTime'] = var2;
             return var1;
         }
@@ -95,12 +95,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function useEventSchedule(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var5 = arg1;
             var4 = arg2;
             var1 = null;
-            if(!(var1 == var4)) { _fun0002_ip = 48; continue _fun0002 }
- 12:
+            if(!(var1 == var4)) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
             var1 = 1;
@@ -109,7 +109,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var1)(var2);
             var1 = var2.getNextRecurrenceIdInEvent;
             var4 = var1.bind(var2)(var5);
- 48:
+case 9:
             var3 = _closure1_slot4;
             var6 = _closure1_slot1;
             var2 = _closure1_slot2;
@@ -126,7 +126,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['default'] = var4;
     var4 = function useEventScheduleById(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var6 = arg2;
             var2 = arg1;
             var _closure2_slot0 = var2;
@@ -149,8 +149,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var4 = var4.bind(var7)(var3, var1);
             var1 = null;
-            if(!(var1 == var6)) { _fun0003_ip = 102; continue _fun0003 }
- 71:
+            if(!(var1 == var6)) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var3 = 1;
@@ -158,7 +158,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7.bind(var5)(var3);
             var3 = var7.getNextRecurrenceIdInEvent;
             var6 = var3.bind(var7)(var4);
- 102:
+case 11:
             var7 = _closure1_slot1;
             var8 = _closure1_slot2;
             var3 = 2;
@@ -166,18 +166,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7.bind(var5)(var3);
             var8 = var1 == var4;
             var3 = undefined;
-            if(var8) { _fun0003_ip = 136; continue _fun0003 }
- 131:
+            if(var8) { _fun0003_ip = 2; continue _fun0003 }
+case 13:
             var3 = var4.id;
- 136:
+case 2:
             var3 = var7.bind(var5)(var6, var3);
             var7 = var1 == var4;
             var1 = null;
-            if(var7) { _fun0003_ip = 162; continue _fun0003 }
- 151:
+            if(var7) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
             var2 = _closure1_slot4;
             var1 = var2.bind(var5)(var4, var3, var6);
- 162:
+case 14:
             return var1;
         }
     };

@@ -48,7 +48,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function StreamFullAlert(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var1 = 3;
@@ -64,10 +64,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = null;
             var2 = var2 == var1;
             var7 = undefined;
-            if(var2) { _fun0001_ip = 74; continue _fun0001 }
- 68:
+            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var7 = var1.errorCode;
- 74:
+case 2:
             var10 = _closure1_slot0;
             var12 = _closure1_slot2;
             var15 = 4;

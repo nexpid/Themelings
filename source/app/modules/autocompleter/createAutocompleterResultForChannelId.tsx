@@ -45,29 +45,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function createAutocompleterResultForChannelId(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arguments[1];
             var5 = arguments[2];
             var4 = arguments[3];
             var8 = undefined;
-            if(!(var3 === var8)) { _fun0001_ip = 22; continue _fun0001 }
- 15:
+            if(!(var3 === var8)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = _closure1_slot2;
- 22:
-            if(!(var5 === var8)) { _fun0001_ip = 33; continue _fun0001 }
- 26:
+case 2:
+            if(!(var5 === var8)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = _closure1_slot4;
- 33:
-            if(!(var4 === var8)) { _fun0001_ip = 44; continue _fun0001 }
- 37:
+case 4:
+            if(!(var4 === var8)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var4 = _closure1_slot3;
- 44:
+case 6:
             var2 = var3.getChannel;
             var1 = arg1;
             var7 = var2.bind(var3)(var1);
             var1 = null;
-            if(!(var1 != var7)) { _fun0001_ip = 339; continue _fun0001 }
- 66:
+            if(!(var1 != var7)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var3 = _closure1_slot0;
             var9 = _closure1_slot1;
             var2 = 5;
@@ -78,20 +78,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var7.type;
             var2 = _closure1_slot6;
             var2 = var2.DM;
-            if(!(var2 !== var3)) { _fun0001_ip = 271; continue _fun0001 }
- 124:
+            if(!(var2 !== var3)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var2 = _closure1_slot6;
             var2 = var2.GROUP_DM;
-            if(!(var2 !== var3)) { _fun0001_ip = 236; continue _fun0001 }
- 138:
+            if(!(var2 !== var3)) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var2 = _closure1_slot6;
             var2 = var2.GUILD_VOICE;
-            if(!(var2 !== var3)) { _fun0001_ip = 201; continue _fun0001 }
- 152:
+            if(!(var2 !== var3)) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var2 = _closure1_slot6;
             var2 = var2.GUILD_STAGE_VOICE;
-            if(!(var2 !== var3)) { _fun0001_ip = 201; continue _fun0001 }
- 166:
+            if(!(var2 !== var3)) { _fun0001_ip = 14; continue _fun0001 }
+case 16:
             var2 = {};
             var3 = _closure1_slot5;
             var3 = var3.TEXT_CHANNEL;
@@ -101,7 +101,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['score'] = var3;
             var2['comparator'] = var4;
             return var2;
- 201:
+case 14:
             var2 = {};
             var3 = _closure1_slot5;
             var3 = var3.VOICE_CHANNEL;
@@ -111,7 +111,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['score'] = var3;
             var2['comparator'] = var4;
             return var2;
- 236:
+case 12:
             var2 = {};
             var3 = _closure1_slot5;
             var3 = var3.GROUP_DM;
@@ -121,15 +121,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['score'] = var3;
             var2['comparator'] = var4;
             return var2;
- 271:
+case 10:
             var3 = var5.getUser;
             var2 = var7.getRecipientId;
             var2 = var2.bind(var7)();
             var5 = var3.bind(var5)(var2);
             var3 = var1 == var5;
             var2 = null;
-            if(var3) { _fun0001_ip = 337; continue _fun0001 }
- 301:
+            if(var3) { _fun0001_ip = 17; continue _fun0001 }
+case 18:
             var3 = {};
             var6 = _closure1_slot5;
             var6 = var6.USER;
@@ -139,9 +139,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['score'] = var5;
             var3['comparator'] = var4;
             var2 = var3;
- 337:
+case 17:
             return var2;
- 339:
+case 8:
             return var1;
         }
     };

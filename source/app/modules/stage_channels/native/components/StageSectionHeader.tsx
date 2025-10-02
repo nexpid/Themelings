@@ -83,7 +83,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function StageSectionHeader(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var15 = var2.label;
             var11 = var2.count;
@@ -102,7 +102,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.useAnimatedStyle;
             var1 = function y() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var1 = {};
                     var3 = {};
                     var5 = _closure1_slot0;
@@ -114,10 +114,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var6.withTiming;
                     var2 = _closure2_slot0;
                     var4 = '0deg';
-                    if(!var2) { _fun0002_ip = 56; continue _fun0002 }
- 50:
+                    if(!var2) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var4 = '180deg';
- 56:
+case 2:
                     var2 = {};
                     var7 = 150;
                     var2['duration'] = var7;
@@ -169,8 +169,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8[0] = var9;
             var9 = null;
             var9 = var9 != var17;
-            if(!var9) { _fun0001_ip = 300; continue _fun0001 }
- 271:
+            if(!var9) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var15 = _closure1_slot6;
             var11 = _closure1_slot4;
             var10 = {};
@@ -178,7 +178,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10['style'] = var18;
             var10['children'] = var17;
             var9 = var15.bind(var4)(var11, var10);
- 300:
+case 4:
             var8[1] = var9;
             var11 = _closure1_slot6;
             var10 = _closure1_slot4;

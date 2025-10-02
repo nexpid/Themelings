@@ -181,13 +181,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var6.map;
             var1 = function(arg1) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     var5 = arg1;
                     var _closure4_slot0 = var5;
                     var1 = _closure1_slot10;
                     var1 = var1.CAPTCHA;
-                    if(!(var5 !== var1)) { _fun0001_ip = 118; continue _fun0001 }
- 26:
+                    if(!(var5 !== var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var4 = _closure1_slot11;
                     var9 = _closure1_slot1;
                     var10 = _closure1_slot2;
@@ -207,29 +207,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1['text'] = var8;
                     var8 = function onPress() {
                         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                             var1 = _closure1_slot9;
                             var3 = var1.ADD_PHONE;
                             var5 = _closure4_slot0;
                             var1 = _closure1_slot10;
                             var1 = var1.EMAIL_OR_PHONE;
                             var1 = var5 !== var1;
-                            if(!var1) { _fun0002_ip = 55; continue _fun0002 }
- 37:
+                            if(!var1) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                             var6 = _closure4_slot0;
                             var5 = _closure1_slot10;
                             var5 = var5.EMAIL;
                             var1 = var6 !== var5;
- 55:
-                            if(!var1) { _fun0002_ip = 76; continue _fun0002 }
- 58:
+case 4:
+                            if(!var1) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                             var5 = _closure4_slot0;
                             var4 = _closure1_slot10;
                             var4 = var4.REVERIFY_EMAIL;
                             var1 = var5 !== var4;
- 76:
-                            if(var1) { _fun0002_ip = 168; continue _fun0002 }
- 79:
+case 6:
+                            if(var1) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                             var5 = _closure1_slot0;
                             var4 = _closure1_slot2;
                             var1 = 18;
@@ -243,21 +243,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var5 = var4.bind(var5)();
                             var4 = null;
                             var6 = var4 == var5;
-                            if(var6) { _fun0002_ip = 139; continue _fun0002 }
- 133:
+                            if(var6) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
                             var1 = var5.email;
- 139:
-                            if(!(var4 == var1)) { _fun0002_ip = 155; continue _fun0002 }
- 143:
+case 10:
+                            if(!(var4 == var1)) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
                             var1 = _closure1_slot9;
                             var1 = var1.ENTER_EMAIL;
-                            _fun0002_ip = 165; continue _fun0002;
- 155:
+                            _fun0002_ip = 14; continue _fun0002;
+case 12:
                             var2 = _closure1_slot9;
                             var1 = var2.RESEND_EMAIL;
- 165:
+case 14:
                             var3 = var1;
- 168:
+case 8:
                             var2 = _closure2_slot2;
                             var1 = var2.push;
                             var1 = var1.bind(var2)(var3);
@@ -267,8 +267,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     };
                     var1['onPress'] = var8;
                     var1 = var4.bind(var3)(var2, var1, var5);
-                    _fun0001_ip = 220; continue _fun0001;
- 118:
+                    _fun0001_ip = 15; continue _fun0001;
+case 2:
                     var5 = _closure1_slot11;
                     var3 = _closure1_slot1;
                     var11 = _closure1_slot2;
@@ -327,7 +327,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     };
                     var2['onPress'] = var6;
                     var1 = var5.bind(var4)(var3, var2);
- 220:
+case 15:
                     return var1;
                 }
             };

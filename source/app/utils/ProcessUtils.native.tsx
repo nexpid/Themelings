@@ -6,8 +6,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = dependencyMap;
     var1 = function _isNativeReflectConstruct() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
- 2: // try_start_0
+case 0:
+case 2: // try_start_0
             var2 = global;
             var3 = var2.Boolean;
             var3 = var3.prototype;
@@ -25,11 +25,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var4)(var2);
             var2 = !var2;
             var _closure2_slot0 = var2;
- 70: // try_end0
-            _fun0001_ip = 74; continue _fun0001;
- 72: // catch_target0
+case 3: // try_end0
+            _fun0001_ip = 4; continue _fun0001;
+case 5: // catch_target0
             CatchBlockStart(arg_register=1);
- 74:
+case 4:
             var2 = function _isNativeReflectConstruct() {
                 var1 = _closure2_slot0;
                 var1 = !var1;
@@ -84,7 +84,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function(arg1) {
         var4 = function ProcessUtilsIOS() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var6 = this;
                 var1 = _closure1_slot0;
                 var4 = _closure2_slot0;
@@ -95,12 +95,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = _closure1_slot2;
                 var1 = _closure1_slot6;
                 var1 = var1.bind(var5)();
-                if(var1) { _fun0002_ip = 64; continue _fun0002 }
- 51:
+                if(var1) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                 var1 = var11.apply;
                 var1 = var1.bind(var11)(var6, var5);
-                _fun0002_ip = 102; continue _fun0002;
- 64:
+                _fun0002_ip = 8; continue _fun0002;
+case 6:
                 var7 = global;
                 var10 = var7.Reflect;
                 var9 = var10.construct;
@@ -109,27 +109,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = var7.constructor;
                 var7 = new Array(0);
                 var1 = var9.bind(var10)(var11, var7, var8);
- 102:
+case 8:
                 var1 = var4.bind(var5)(var6, var1);
                 var _closure3_slot0 = var1;
                 var4 = _closure1_slot5;
                 var7 = null;
                 var4 = var7 == var4;
                 var6 = undefined;
-                if(var4) { _fun0002_ip = 137; continue _fun0002 }
- 127:
+                if(var4) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
                 var3 = _closure1_slot5;
                 var6 = var3.SystemResourceManager;
- 137:
+case 9:
                 var _closure3_slot1 = var6;
                 var3 = var7 == var6;
-                if(var3) { _fun0002_ip = 158; continue _fun0002 }
- 148:
+                if(var3) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
                 var4 = var6.getCpuCoreCount;
                 var3 = var7 == var4;
- 158:
-                if(var3) { _fun0002_ip = 177; continue _fun0002 }
- 161:
+case 11:
+                if(var3) { _fun0002_ip = 13; continue _fun0002 }
+case 14:
                 var4 = var6.getCpuCoreCount;
                 var3 = function(arg1) {
                     var2 = _closure3_slot0;
@@ -139,63 +139,63 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var3 = var4.bind(var6)(var3);
- 177:
+case 13:
                 var3 = global;
                 var4 = var3.setInterval;
                 var3 = function() {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                         var3 = _closure3_slot1;
                         var5 = null;
                         var3 = var5 == var3;
-                        if(var3) { _fun0003_ip = 32; continue _fun0003 }
- 18:
+                        if(var3) { _fun0003_ip = 15; continue _fun0003 }
+case 16:
                         var4 = _closure3_slot1;
                         var4 = var4.getCurrentCpuUsagePercent;
                         var3 = var5 == var4;
- 32:
-                        if(var3) { _fun0003_ip = 55; continue _fun0003 }
- 35:
+case 15:
+                        if(var3) { _fun0003_ip = 17; continue _fun0003 }
+case 18:
                         var6 = _closure3_slot1;
                         var4 = var6.getCurrentCpuUsagePercent;
                         var3 = function(arg1) {
                             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                                 var4 = arg1;
                                 var3 = _closure3_slot0;
                                 var1 = 0;
                                 var5 = var4 >= var1;
                                 var1 = undefined;
                                 var2 = undefined;
-                                if(!var5) { _fun0004_ip = 26; continue _fun0004 }
- 23:
+                                if(!var5) { _fun0004_ip = 19; continue _fun0004 }
+case 20:
                                 var2 = var4;
- 26:
+case 19:
                                 var3['cpuPercentage'] = var2;
                                 return var1;
                             }
                         };
                         var3 = var4.bind(var6)(var3);
- 55:
+case 17:
                         var3 = _closure3_slot1;
                         var3 = var5 == var3;
-                        if(var3) { _fun0003_ip = 80; continue _fun0003 }
- 66:
+                        if(var3) { _fun0003_ip = 21; continue _fun0003 }
+case 22:
                         var4 = _closure3_slot1;
                         var4 = var4.getCumulativeCpuUsage;
                         var3 = var5 == var4;
- 80:
-                        if(var3) { _fun0003_ip = 103; continue _fun0003 }
- 83:
+case 21:
+                        if(var3) { _fun0003_ip = 23; continue _fun0003 }
+case 24:
                         var6 = _closure3_slot1;
                         var4 = var6.getCumulativeCpuUsage;
                         var3 = function(arg1) {
                             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
                                 var3 = arg1;
                                 var1 = 0;
-                                if(!(var3 >= var1)) { _fun0005_ip = 51; continue _fun0005 }
- 9:
+                                if(!(var3 >= var1)) { _fun0005_ip = 7; continue _fun0005 }
+case 25:
                                 var2 = _closure3_slot0;
                                 var1 = {};
                                 var1['usage'] = var3;
@@ -205,44 +205,44 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 var3 = var3.bind(var4)();
                                 var1['sampleTime'] = var3;
                                 var2['cumulativeCpuUsage'] = var1;
- 51:
+case 7:
                                 var1 = undefined;
                                 return var1;
                             }
                         };
                         var3 = var4.bind(var6)(var3);
- 103:
+case 23:
                         var3 = _closure3_slot1;
                         var3 = var5 == var3;
-                        if(var3) { _fun0003_ip = 128; continue _fun0003 }
- 114:
+                        if(var3) { _fun0003_ip = 26; continue _fun0003 }
+case 27:
                         var4 = _closure3_slot1;
                         var4 = var4.getCurrentMemoryUsageKb;
                         var3 = var5 == var4;
- 128:
-                        if(var3) { _fun0003_ip = 151; continue _fun0003 }
- 131:
+case 26:
+                        if(var3) { _fun0003_ip = 28; continue _fun0003 }
+case 29:
                         var3 = _closure3_slot1;
                         var2 = var3.getCurrentMemoryUsageKb;
                         var1 = function(arg1) {
                             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
- 0:
+case 0:
                                 var4 = arg1;
                                 var3 = _closure3_slot0;
                                 var1 = 0;
                                 var5 = var4 >= var1;
                                 var1 = undefined;
                                 var2 = undefined;
-                                if(!var5) { _fun0006_ip = 26; continue _fun0006 }
- 23:
+                                if(!var5) { _fun0006_ip = 19; continue _fun0006 }
+case 20:
                                 var2 = var4;
- 26:
+case 19:
                                 var3['memory'] = var2;
                                 return var1;
                             }
                         };
                         var1 = var2.bind(var3)(var1);
- 151:
+case 28:
                         var1 = undefined;
                         return var1;
                     }

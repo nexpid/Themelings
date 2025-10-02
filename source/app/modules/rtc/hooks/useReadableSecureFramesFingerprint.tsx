@@ -29,7 +29,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useReadableSecureFramesFingerprint(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var4 = var2.fingerprintBase64;
             var _closure2_slot0 = var4;
@@ -45,15 +45,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[2] = var6;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = _closure2_slot0;
                     var1 = null;
-                    if(!(var1 != var3)) { _fun0002_ip = 217; continue _fun0002 }
- 16:
+                    if(!(var1 != var3)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var4 = _closure2_slot0;
                     var3 = '';
-                    if(!(var3 !== var4)) { _fun0002_ip = 217; continue _fun0002 }
- 31:
+                    if(!(var3 !== var4)) { _fun0002_ip = 2; continue _fun0002 }
+case 4:
                     var7 = _closure1_slot1;
                     var6 = _closure1_slot2;
                     var4 = 1;
@@ -71,8 +71,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = _closure2_slot2;
                     var3 = _closure2_slot1;
                     var5 = var5.bind(var6)(var7, var4, var3);
-                    if(!(var1 != var5)) { _fun0002_ip = 215; continue _fun0002 }
- 112:
+                    if(!(var1 != var5)) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
                     var3 = global;
                     var7 = var3.RegExp;
                     var8 = _closure2_slot1;
@@ -91,30 +91,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var2.bind(var5)(var4);
                     var4 = var1 == var5;
                     var2 = null;
-                    if(var4) { _fun0002_ip = 213; continue _fun0002 }
- 197:
+                    if(var4) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
                     var4 = var3.Array;
                     var3 = var4.from;
                     var2 = var3.bind(var4)(var5);
- 213:
+case 7:
                     return var2;
- 215:
+case 5:
                     return var1;
- 217:
+case 2:
                     return var1;
                 }
             };
             var1 = var3.bind(var5)(var1, var2);
             var2 = null;
-            if(!(var2 != var4)) { _fun0001_ip = 94; continue _fun0001 }
- 82:
+            if(!(var2 != var4)) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var3 = '';
-            if(!(var3 !== var4)) { _fun0001_ip = 94; continue _fun0001 }
- 90:
-            if(!(var2 != var1)) { _fun0001_ip = 96; continue _fun0001 }
- 94:
+            if(!(var3 !== var4)) { _fun0001_ip = 9; continue _fun0001 }
+case 11:
+            if(!(var2 != var1)) { _fun0001_ip = 12; continue _fun0001 }
+case 9:
             return var1;
- 96:
+case 12:
             var1 = global;
             var3 = var1.Error;
             var1 = var3.prototype;

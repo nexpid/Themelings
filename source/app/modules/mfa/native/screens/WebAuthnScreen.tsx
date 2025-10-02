@@ -149,7 +149,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var7)(var5);
     var4 = function WebAuthnScreen(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var8 = var2.mfaChallenge;
             var7 = var2.finish;
@@ -186,13 +186,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var16.isAndroid;
             var2 = var2.bind(var16)();
             var16 = _closure1_slot7;
-            if(var2) { _fun0001_ip = 165; continue _fun0001 }
- 157:
+            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var16.AUTHENTICATE;
-            _fun0001_ip = 171; continue _fun0001;
- 165:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var2 = var16.ANDROID_PASSKEY;
- 171:
+case 4:
             var2 = var6.bind(var11)(var2);
             var11 = _closure1_slot3;
             var2 = var11.bind(var4)(var2, var13);
@@ -269,7 +269,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var5.catch;
                 var3 = function(arg1) {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                         var4 = arg1;
                         var5 = _closure1_slot0;
                         var3 = _closure1_slot2;
@@ -280,12 +280,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var3 = var3.HTTPResponseError;
                         var5 = var4 instanceof var3;
                         var3 = _closure2_slot2;
-                        if(var5) { _fun0002_ip = 60; continue _fun0002 }
- 48:
+                        if(var5) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
                         var4 = var4.message;
                         var4 = var3.bind(var1)(var4);
-                        _fun0002_ip = 120; continue _fun0002;
- 60:
+                        _fun0002_ip = 7; continue _fun0002;
+case 5:
                         var6 = _closure1_slot0;
                         var7 = _closure1_slot2;
                         var2 = 6;
@@ -299,7 +299,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = var2.xSCvBQ;
                         var2 = var4.bind(var5)(var2);
                         var2 = var3.bind(var1)(var2);
- 120:
+case 7:
                         return var1;
                     }
                 };
@@ -357,21 +357,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var9.bind(var4)(var6);
             var6 = var9.isAndroid;
             var6 = var6.bind(var9)();
-            if(!var6) { _fun0001_ip = 559; continue _fun0001 }
- 519:
+            if(!var6) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var14 = _closure1_slot5;
             var10 = _closure1_slot9;
             var9 = {};
             var9['authenticatorSelection'] = var17;
             var9['setAuthenticator'] = var16;
             var16 = var12;
-            if(var12) { _fun0001_ip = 548; continue _fun0001 }
- 545:
+            if(var12) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var16 = var13;
- 548:
+case 10:
             var9['inProgress'] = var16;
             var6 = var14.bind(var4)(var10, var9);
- 559:
+case 8:
             var1['content'] = var6;
             var10 = _closure1_slot5;
             var9 = _closure1_slot1;
@@ -394,15 +394,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var15.bind(var16)(var14);
             var6['text'] = var14;
             var14 = var12;
-            if(var12) { _fun0001_ip = 660; continue _fun0001 }
- 657:
+            if(var12) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var14 = var13;
- 660:
+case 12:
             var6['loading'] = var14;
-            if(var12) { _fun0001_ip = 671; continue _fun0001 }
- 668:
+            if(var12) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var12 = var13;
- 671:
+case 14:
             var6['disabled'] = var12;
             var6['onPress'] = var11;
             var6 = var10.bind(var4)(var9, var6);

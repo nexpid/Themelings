@@ -20,7 +20,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var4.bind(var5)(var2);
     var2 = function getFastestListVisibleItemsDefault(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var14 = var1.estimatedListSize;
             var1 = var1.sectionsVersioned;
@@ -36,84 +36,84 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = {'sectionsId': null, 'sectionStart': 0, 'sectionEnd': 0, 'itemStart': 0, 'itemEnd': 4294967295};
             var1['sectionsId'] = var2;
             var5 = 0;
-            if(!(!(var11 >= var14))) { _fun0001_ip = 302; continue _fun0001 }
- 98:
+            if(!(!(var11 >= var14))) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var10.length;
             var2 = var5 < var2;
             var3 = 0;
             var4 = undefined;
-            if(!var2) { _fun0001_ip = 300; continue _fun0001 }
- 117:
+            if(!var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = var10[var3];
             var15 = var11;
-            if(!(var5 !== var2)) { _fun0001_ip = 282; continue _fun0001 }
- 131:
+            if(!(var5 !== var2)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var1['sectionEnd'] = var3;
             var1['itemEnd'] = var5;
-            if(var7) { _fun0001_ip = 152; continue _fun0001 }
- 146:
+            if(var7) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var2 = var6[var3];
-            _fun0001_ip = 156; continue _fun0001;
- 152:
+            _fun0001_ip = 10; continue _fun0001;
+case 8:
             var2 = var6[var5];
- 156:
+case 10:
             var16 = var11 + var2;
-            if(!(!(var16 >= var14))) { _fun0001_ip = 280; continue _fun0001 }
- 164:
+            if(!(!(var16 >= var14))) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var2 = var10[var3];
             var2 = var5 < var2;
             var19 = var16;
             var18 = 0;
             var17 = var19;
             var16 = 0;
-            if(!var2) { _fun0001_ip = 252; continue _fun0001 }
- 185:
+            if(!var2) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var1['itemEnd'] = var18;
-            if(var13) { _fun0001_ip = 210; continue _fun0001 }
- 194:
+            if(var13) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
             var2 = var12[var3];
             var2 = var2.sizes;
             var2 = var2[var18];
-            _fun0001_ip = 224; continue _fun0001;
- 210:
+            _fun0001_ip = 17; continue _fun0001;
+case 15:
             var20 = var12[var5];
             var20 = var20.sizes;
             var2 = var20[var5];
- 224:
+case 17:
             var21 = var19 + var2;
-            if(!(!(var21 >= var14))) { _fun0001_ip = 278; continue _fun0001 }
- 232:
+            if(!(!(var21 >= var14))) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
             var18 = var18 + 1;
             var2 = var10[var3];
             var19 = var21;
             var17 = var19;
             var16 = var18;
-            if(var16 < var2) { _fun0001_ip = 185; continue _fun0001 }
- 252:
-            if(var9) { _fun0001_ip = 261; continue _fun0001 }
- 255:
+            if(var16 < var2) { _fun0001_ip = 14; continue _fun0001 }
+case 13:
+            if(var9) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
             var2 = var8[var3];
-            _fun0001_ip = 265; continue _fun0001;
- 261:
+            _fun0001_ip = 22; continue _fun0001;
+case 20:
             var2 = var8[var5];
- 265:
+case 22:
             var15 = var17 + var2;
             var4 = var16;
-            if(!(var15 >= var14)) { _fun0001_ip = 282; continue _fun0001 }
- 276:
+            if(!(var15 >= var14)) { _fun0001_ip = 6; continue _fun0001 }
+case 23:
             return var1;
- 278:
+case 18:
             return var1;
- 280:
+case 11:
             return var1;
- 282:
+case 6:
             var3 = var3 + 1;
             var2 = var10.length;
             var11 = var15;
-            if(var3 < var2) { _fun0001_ip = 117; continue _fun0001 }
- 300:
+            if(var3 < var2) { _fun0001_ip = 5; continue _fun0001 }
+case 4:
             return var1;
- 302:
+case 2:
             return var1;
         }
     };

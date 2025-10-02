@@ -67,7 +67,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function ChannelIndicator(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var3 = var1.unread;
             var9 = var1.resolvedUnreadSetting;
@@ -83,8 +83,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var6.useToken;
             var1 = _closure1_slot4;
             var1 = var1.ALL_MESSAGES;
-            if(!(var9 !== var1)) { _fun0001_ip = 106; continue _fun0001 }
- 73:
+            if(!(var9 !== var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var9 = _closure1_slot1;
             var10 = _closure1_slot2;
             var1 = 4;
@@ -92,8 +92,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var9.bind(var5)(var1);
             var1 = var1.colors;
             var1 = var1.CHANNELS_DEFAULT;
-            _fun0001_ip = 137; continue _fun0001;
- 106:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var10 = _closure1_slot1;
             var11 = _closure1_slot2;
             var9 = 4;
@@ -101,11 +101,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var10.bind(var5)(var9);
             var9 = var9.colors;
             var1 = var9.INTERACTIVE_ACTIVE;
- 137:
+case 4:
             var10 = var4.bind(var6)(var1);
             var1 = null;
-            if(!var3) { _fun0001_ip = 217; continue _fun0001 }
- 147:
+            if(!var3) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var4 = _closure1_slot5;
             var3 = _closure1_slot3;
             var2 = {};
@@ -123,7 +123,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var4.bind(var5)(var3, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 217:
+case 5:
             return var1;
         }
     };

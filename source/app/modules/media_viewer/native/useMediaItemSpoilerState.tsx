@@ -40,7 +40,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useMediaItemSpoilerState(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var _closure2_slot0 = var1;
             var7 = _closure1_slot0;
@@ -75,10 +75,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4[var8];
             var7 = var7.bind(var6)(var4);
             var4 = var7.useSharedValue;
-            if(!var1) { _fun0001_ip = 125; continue _fun0001 }
- 122:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var9 = var10;
- 125:
+case 2:
             var7 = var4.bind(var7)(var9);
             var _closure2_slot3 = var7;
             var10 = _closure1_slot3;
@@ -88,7 +88,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4[1] = var7;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var4 = _closure2_slot3;
                     var3 = var4.set;
                     var6 = _closure1_slot0;
@@ -100,10 +100,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = var9.withTiming;
                     var5 = _closure2_slot1;
                     var7 = 0;
-                    if(!var5) { _fun0002_ip = 54; continue _fun0002 }
- 51:
+                    if(!var5) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var7 = 1;
- 54:
+case 4:
                     var6 = {};
                     var5 = 200;
                     var6['duration'] = var5;

@@ -60,7 +60,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['GuildMediaExperiment'] = var5;
     var5 = function useGuildEligibleForMediaChannels(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var7 = _closure1_slot1;
             var6 = var7.useExperiment;
@@ -68,14 +68,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = null;
             var9 = var3 == var4;
             var2 = undefined;
-            if(var9) { _fun0001_ip = 34; continue _fun0001 }
- 29:
+            if(var9) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var4.id;
- 34:
-            if(!(var3 == var2)) { _fun0001_ip = 42; continue _fun0001 }
- 38:
+case 2:
+            if(!(var3 == var2)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = _closure1_slot0;
- 42:
+case 4:
             var5['guildId'] = var2;
             var2 = '96e84c_1';
             var5['location'] = var2;
@@ -86,15 +86,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.enabled;
             var5 = var3 == var4;
             var1 = undefined;
-            if(var5) { _fun0001_ip = 90; continue _fun0001 }
- 85:
+            if(var5) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var1 = var4.id;
- 90:
+case 6:
             var1 = var3 != var1;
-            if(!var1) { _fun0001_ip = 100; continue _fun0001 }
- 97:
+            if(!var1) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var1 = var2;
- 100:
+case 8:
             return var1;
         }
     };

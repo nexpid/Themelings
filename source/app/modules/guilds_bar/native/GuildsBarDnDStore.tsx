@@ -73,7 +73,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['windowSize'] = var3;
         var3 = function setStateShallow(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var11 = arg1;
                 var _closure3_slot0 = var11;
                 var3 = _closure2_slot1;
@@ -82,14 +82,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var _closure3_slot1 = var10;
                 var8 = var11;
                 for(var5 in var8)
- 37:
+case 2:
                 {
- 46:
+case 3:
                     var3 = var5;
                     var4 = var10[var3];
                     var3 = var11[var3];
-                    if(var4 === var3) { _fun0001_ip = 37; continue _fun0001 }
- 61:
+                    if(var4 === var3) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot1;
                     var3 = 3;
@@ -113,14 +113,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = undefined;
                     return var2;
                 }
- 106:
+case 5:
                 return var1;
             }
         };
         var1['setStateShallow'] = var3;
         var3 = function dropStart(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var _closure3_slot0 = var1;
                 var3 = _closure2_slot1;
@@ -130,8 +130,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var3.gestureState;
                 var _closure3_slot1 = var3;
                 var3 = null;
-                if(!(var3 == var4)) { _fun0002_ip = 129; continue _fun0002 }
- 44:
+                if(!(var3 == var4)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot1;
                 var4 = 3;
@@ -157,14 +157,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var4.setTimeout;
                 var4 = function() {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                         var3 = _closure3_slot1;
                         var2 = var3.get;
                         var4 = var2.bind(var3)();
                         var3 = var4.mode;
                         var2 = 'drag';
-                        if(!(var2 === var3)) { _fun0003_ip = 66; continue _fun0003 }
- 29:
+                        if(!(var2 === var3)) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
                         var3 = _closure3_slot1;
                         var2 = var3.set;
                         var1 = {};
@@ -175,7 +175,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var4 = 'mode';
                         var1[var4] = var5;
                         var1 = var2.bind(var3)(var1);
- 66:
+case 8:
                         var1 = undefined;
                         return var1;
                     }
@@ -184,7 +184,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var5.bind(var1)(var4, var2);
                 _closure1_slot4 = var2;
                 return var1;
- 129:
+case 6:
                 var1 = global;
                 var3 = var1.Error;
                 var1 = var3.prototype;
@@ -199,7 +199,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['dropStart'] = var3;
         var2 = function dropComplete() {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                 var2 = _closure2_slot1;
                 var1 = undefined;
                 var2 = var2.bind(var1)();
@@ -208,8 +208,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var2.dropSpecs;
                 var2 = var2.dragSpecs;
                 var6 = null;
-                if(!(var6 != var3)) { _fun0004_ip = 175; continue _fun0004 }
- 46:
+                if(!(var6 != var3)) { _fun0004_ip = 10; continue _fun0004 }
+case 3:
                 var8 = _closure1_slot0;
                 var9 = _closure1_slot1;
                 var7 = 3;
@@ -229,18 +229,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = var7.clearTimeout;
                 var3 = _closure1_slot4;
                 var3 = var7.bind(var1)(var3);
-                if(!(var6 == var2)) { _fun0004_ip = 122; continue _fun0004 }
- 110:
+                if(!(var6 == var2)) { _fun0004_ip = 11; continue _fun0004 }
+case 12:
                 var3 = var5.set;
                 var2 = false;
                 var2 = var3.bind(var5)(var2);
- 122:
+case 11:
                 var2 = var4.get;
                 var5 = var2.bind(var4)();
                 var3 = var5.mode;
                 var2 = 'drag';
-                if(!(var2 === var3)) { _fun0004_ip = 175; continue _fun0004 }
- 144:
+                if(!(var2 === var3)) { _fun0004_ip = 10; continue _fun0004 }
+case 13:
                 var3 = var4.set;
                 var2 = {};
                 var11 = var2;
@@ -249,7 +249,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = 'mode';
                 var2[var5] = var6;
                 var2 = var3.bind(var4)(var2);
- 175:
+case 10:
                 return var1;
             }
         };
@@ -281,148 +281,148 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var2.shallow;
         var1 = function(arg1) {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var8 = var1.dragSpecs;
                 var11 = var1.overSpecs;
                 var9 = var1.dropSpecs;
                 var2 = var1.dragDropInProgress;
                 var5 = null;
-                if(!(var5 == var8)) { _fun0005_ip = 40; continue _fun0005 }
- 33:
-                if(!(var5 != var9)) { _fun0005_ip = 364; continue _fun0005 }
- 40:
+                if(!(var5 == var8)) { _fun0005_ip = 14; continue _fun0005 }
+case 15:
+                if(!(var5 != var9)) { _fun0005_ip = 16; continue _fun0005 }
+case 14:
                 var1 = _closure2_slot1;
                 var3 = !var1;
-                if(!var3) { _fun0005_ip = 137; continue _fun0005 }
- 53:
+                if(!var3) { _fun0005_ip = 17; continue _fun0005 }
+case 18:
                 var1 = var5 == var8;
                 var4 = undefined;
-                if(var1) { _fun0005_ip = 73; continue _fun0005 }
- 62:
+                if(var1) { _fun0005_ip = 19; continue _fun0005 }
+case 20:
                 var1 = var8.node;
                 var4 = var1.id;
- 73:
+case 19:
                 var1 = _closure2_slot0;
                 var1 = var4 === var1;
-                if(!var1) { _fun0005_ip = 103; continue _fun0005 }
- 84:
+                if(!var1) { _fun0005_ip = 21; continue _fun0005 }
+case 22:
                 var10 = var5 == var11;
                 var4 = undefined;
-                if(var10) { _fun0005_ip = 99; continue _fun0005 }
- 93:
+                if(var10) { _fun0005_ip = 23; continue _fun0005 }
+case 24:
                 var4 = var11.node;
- 99:
+case 23:
                 var1 = var5 != var4;
- 103:
-                if(var1) { _fun0005_ip = 134; continue _fun0005 }
- 106:
+case 21:
+                if(var1) { _fun0005_ip = 25; continue _fun0005 }
+case 5:
                 var4 = var5 == var9;
                 var7 = undefined;
-                if(var4) { _fun0005_ip = 126; continue _fun0005 }
- 115:
+                if(var4) { _fun0005_ip = 26; continue _fun0005 }
+case 27:
                 var4 = var9.dragNode;
                 var7 = var4.id;
- 126:
+case 26:
                 var4 = _closure2_slot0;
                 var1 = var7 === var4;
- 134:
+case 25:
                 var3 = var1;
- 137:
+case 17:
                 var1 = _closure2_slot1;
                 var4 = !var1;
-                if(!var4) { _fun0005_ip = 209; continue _fun0005 }
- 147:
+                if(!var4) { _fun0005_ip = 28; continue _fun0005 }
+case 29:
                 var1 = var5 == var11;
                 var10 = undefined;
-                if(var1) { _fun0005_ip = 167; continue _fun0005 }
- 156:
+                if(var1) { _fun0005_ip = 30; continue _fun0005 }
+case 31:
                 var1 = var11.node;
                 var10 = var1.id;
- 167:
+case 30:
                 var1 = _closure2_slot0;
                 var1 = var10 === var1;
-                if(var1) { _fun0005_ip = 206; continue _fun0005 }
- 178:
+                if(var1) { _fun0005_ip = 32; continue _fun0005 }
+case 33:
                 var10 = var5 == var9;
                 var7 = undefined;
-                if(var10) { _fun0005_ip = 198; continue _fun0005 }
- 187:
+                if(var10) { _fun0005_ip = 34; continue _fun0005 }
+case 35:
                 var10 = var9.overNode;
                 var7 = var10.id;
- 198:
+case 34:
                 var6 = _closure2_slot0;
                 var1 = var7 === var6;
- 206:
+case 32:
                 var4 = var1;
- 209:
+case 28:
                 var1 = {};
                 var1['isDragTarget'] = var3;
-                if(var3) { _fun0005_ip = 224; continue _fun0005 }
- 219:
+                if(var3) { _fun0005_ip = 36; continue _fun0005 }
+case 37:
                 var3 = undefined;
-                if(!var4) { _fun0005_ip = 244; continue _fun0005 }
- 224:
+                if(!var4) { _fun0005_ip = 38; continue _fun0005 }
+case 36:
                 var7 = var5 == var9;
                 var6 = 'dropping';
-                if(!var7) { _fun0005_ip = 241; continue _fun0005 }
- 237:
+                if(!var7) { _fun0005_ip = 39; continue _fun0005 }
+case 40:
                 var6 = 'dragging';
- 241:
+case 39:
                 var3 = var6;
- 244:
+case 38:
                 var1['dragState'] = var3;
                 var3 = undefined;
-                if(!var4) { _fun0005_ip = 293; continue _fun0005 }
- 254:
+                if(!var4) { _fun0005_ip = 41; continue _fun0005 }
+case 42:
                 var10 = var5 == var9;
                 var6 = undefined;
-                if(var10) { _fun0005_ip = 269; continue _fun0005 }
- 263:
+                if(var10) { _fun0005_ip = 43; continue _fun0005 }
+case 44:
                 var6 = var9.overState;
- 269:
-                if(!(var5 == var6)) { _fun0005_ip = 290; continue _fun0005 }
- 273:
+case 43:
+                if(!(var5 == var6)) { _fun0005_ip = 45; continue _fun0005 }
+case 46:
                 var12 = var5 == var11;
                 var10 = undefined;
-                if(var12) { _fun0005_ip = 287; continue _fun0005 }
- 282:
+                if(var12) { _fun0005_ip = 47; continue _fun0005 }
+case 48:
                 var10 = var11.state;
- 287:
+case 47:
                 var6 = var10;
- 290:
+case 45:
                 var3 = var6;
- 293:
+case 41:
                 var1['overState'] = var3;
                 var3 = 0;
-                if(!var4) { _fun0005_ip = 352; continue _fun0005 }
- 303:
+                if(!var4) { _fun0005_ip = 49; continue _fun0005 }
+case 50:
                 var10 = var5 == var9;
                 var4 = undefined;
-                if(var10) { _fun0005_ip = 318; continue _fun0005 }
- 312:
+                if(var10) { _fun0005_ip = 51; continue _fun0005 }
+case 52:
                 var4 = var9.itemSize;
- 318:
-                if(!(var5 == var4)) { _fun0005_ip = 340; continue _fun0005 }
- 322:
+case 51:
+                if(!(var5 == var4)) { _fun0005_ip = 53; continue _fun0005 }
+case 54:
                 var9 = var5 == var8;
                 var7 = undefined;
-                if(var9) { _fun0005_ip = 337; continue _fun0005 }
- 331:
+                if(var9) { _fun0005_ip = 55; continue _fun0005 }
+case 56:
                 var7 = var8.itemSize;
- 337:
+case 55:
                 var4 = var7;
- 340:
+case 53:
                 var5 = var5 != var4;
                 var3 = 0;
-                if(!var5) { _fun0005_ip = 352; continue _fun0005 }
- 349:
+                if(!var5) { _fun0005_ip = 49; continue _fun0005 }
+case 57:
                 var3 = var4;
- 352:
+case 49:
                 var1['itemSize'] = var3;
                 var1['dragDropInProgress'] = var2;
                 return var1;
- 364:
+case 16:
                 var1 = {};
                 var3 = false;
                 var1['isDragTarget'] = var3;
@@ -446,7 +446,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = undefined;
         var1 = function(arg1) {
             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var4 = var1.dragSpecs;
                 var5 = var1.overSpecs;
@@ -454,77 +454,77 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = null;
                 var3 = var2 != var1;
                 var1 = 0;
-                if(var3) { _fun0006_ip = 275; continue _fun0006 }
- 35:
+                if(var3) { _fun0006_ip = 58; continue _fun0006 }
+case 59:
                 var3 = var2 == var5;
                 var1 = 0;
-                if(var3) { _fun0006_ip = 275; continue _fun0006 }
- 47:
+                if(var3) { _fun0006_ip = 58; continue _fun0006 }
+case 60:
                 var2 = var2 == var4;
                 var1 = 0;
-                if(var2) { _fun0006_ip = 275; continue _fun0006 }
- 59:
+                if(var2) { _fun0006_ip = 58; continue _fun0006 }
+case 61:
                 var3 = var5.state;
                 var2 = 'self';
                 var1 = 0;
-                if(!(var2 !== var3)) { _fun0006_ip = 275; continue _fun0006 }
- 77:
+                if(!(var2 !== var3)) { _fun0006_ip = 58; continue _fun0006 }
+case 62:
                 var2 = var4.node;
                 var3 = var2.type;
                 var2 = _closure1_slot2;
                 var2 = var2.GUILD;
                 var1 = 0;
-                if(!(var3 === var2)) { _fun0006_ip = 275; continue _fun0006 }
- 110:
+                if(!(var3 === var2)) { _fun0006_ip = 58; continue _fun0006 }
+case 12:
                 var2 = var4.node;
                 var3 = var2.parentId;
                 var2 = _closure2_slot0;
-                if(!(var3 !== var2)) { _fun0006_ip = 197; continue _fun0006 }
- 133:
+                if(!(var3 !== var2)) { _fun0006_ip = 63; continue _fun0006 }
+case 64:
                 var2 = var5.node;
                 var3 = var2.parentId;
                 var2 = _closure2_slot0;
-                if(!(var3 !== var2)) { _fun0006_ip = 189; continue _fun0006 }
- 153:
+                if(!(var3 !== var2)) { _fun0006_ip = 65; continue _fun0006 }
+case 66:
                 var2 = var5.node;
                 var8 = var2.id;
                 var3 = _closure2_slot0;
                 var2 = 0;
-                if(!(var8 === var3)) { _fun0006_ip = 195; continue _fun0006 }
- 174:
+                if(!(var8 === var3)) { _fun0006_ip = 67; continue _fun0006 }
+case 68:
                 var8 = var5.state;
                 var3 = 'after';
                 var2 = 0;
-                if(!(var3 === var8)) { _fun0006_ip = 195; continue _fun0006 }
- 189:
+                if(!(var3 === var8)) { _fun0006_ip = 67; continue _fun0006 }
+case 65:
                 var2 = var4.itemSize;
- 195:
-                _fun0006_ip = 272; continue _fun0006;
- 197:
+case 67:
+                _fun0006_ip = 69; continue _fun0006;
+case 63:
                 var3 = var5.node;
                 var9 = var3.parentId;
                 var8 = _closure2_slot0;
                 var3 = 0;
-                if(!(var9 !== var8)) { _fun0006_ip = 269; continue _fun0006 }
- 219:
+                if(!(var9 !== var8)) { _fun0006_ip = 43; continue _fun0006 }
+case 37:
                 var8 = var5.node;
                 var8 = var8.id;
                 var6 = _closure2_slot0;
-                if(!(var8 === var6)) { _fun0006_ip = 253; continue _fun0006 }
- 238:
+                if(!(var8 === var6)) { _fun0006_ip = 70; continue _fun0006 }
+case 71:
                 var6 = var5.state;
                 var5 = 'after';
                 var3 = 0;
-                if(!(var5 !== var6)) { _fun0006_ip = 269; continue _fun0006 }
- 253:
+                if(!(var5 !== var6)) { _fun0006_ip = 43; continue _fun0006 }
+case 70:
                 var5 = var4.itemSize;
                 var4 = -1;
                 var3 = var4 * var5;
- 269:
+case 43:
                 var2 = var3;
- 272:
+case 69:
                 var1 = var2;
- 275:
+case 58:
                 return var1;
             }
         };

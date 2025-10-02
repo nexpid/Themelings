@@ -61,17 +61,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function ApplicationIconAndName(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var10 = var1.application;
             var11 = var1.textVariant;
             var14 = var1.iconSize;
             var9 = var1.useComma;
             var4 = undefined;
-            if(!(var9 === var4)) { _fun0001_ip = 34; continue _fun0001 }
- 32:
+            if(!(var9 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var9 = false;
- 34:
+case 2:
             var1 = _closure1_slot6;
             var5 = var1.bind(var4)(var14);
             var3 = _closure1_slot5;
@@ -95,10 +95,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = var12 != var15;
             var12 = '';
             var14 = var12;
-            if(!var16) { _fun0001_ip = 133; continue _fun0001 }
- 130:
+            if(!var16) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var14 = var15;
- 133:
+case 4:
             var5['uri'] = var14;
             var7['source'] = var5;
             var5 = true;
@@ -118,10 +118,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6['variant'] = var11;
             var11 = var10.name;
             var10 = var12;
-            if(!var9) { _fun0001_ip = 220; continue _fun0001 }
- 214:
+            if(!var9) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var10 = ', ';
- 220:
+case 6:
             var9 = global;
             var9 = var9.HermesInternal;
             var9 = var9.concat;

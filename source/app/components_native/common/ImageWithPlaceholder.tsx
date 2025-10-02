@@ -1,7 +1,7 @@
 // app/components_native/common/ImageWithPlaceholder.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
         var6 = require;
         var9 = metroImportDefault;
         var3 = exports;
@@ -41,16 +41,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10 = var6.bind(var1)(var5);
         var5 = var10.isAndroid;
         var5 = var5.bind(var10)();
-        if(var5) { _fun0001_ip = 170; continue _fun0001 }
- 157:
+        if(var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
         var5 = 'DCDImageWithThumbhashPlaceholderView';
         var5 = var8.bind(var1)(var5);
-        _fun0001_ip = 182; continue _fun0001;
- 170:
+        _fun0001_ip = 4; continue _fun0001;
+case 2:
         var8 = 3;
         var8 = var7[var8];
         var5 = var9.bind(var1)(var8);
- 182:
+case 4:
         var _closure1_slot6 = var5;
         var5 = 5;
         var5 = var7[var5];
@@ -61,7 +61,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3['ImagePlaceholderVersions'] = var4;
         var2 = function ImageWithPlaceholder(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var4 = arg1;
                 var9 = var4.uri;
                 var8 = var4.placeholder;
@@ -77,12 +77,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var17 = var4;
                 var16 = var3;
                 var2 = copyDataProperties(var18, var17, var16);
-                if(!(var1 != var8)) { _fun0002_ip = 89; continue _fun0002 }
- 72:
+                if(!(var1 != var8)) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
                 var1 = _closure1_slot5;
                 var1 = var1.THUMBHASH;
-                if(!(var7 !== var1)) { _fun0002_ip = 195; continue _fun0002 }
- 89:
+                if(!(var7 !== var1)) { _fun0002_ip = 7; continue _fun0002 }
+case 5:
                 var11 = _closure1_slot3;
                 var5 = _closure1_slot2;
                 var4 = {};
@@ -109,8 +109,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var12 = 'children';
                 var4[var12] = var13;
                 var1 = var11.bind(var1)(var5, var4);
-                _fun0002_ip = 268; continue _fun0002;
- 195:
+                _fun0002_ip = 8; continue _fun0002;
+case 7:
                 var5 = _closure1_slot3;
                 var4 = _closure1_slot6;
                 var3 = {};
@@ -129,7 +129,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3[var2] = var6;
                 var2 = undefined;
                 var1 = var5.bind(var2)(var4, var3);
- 268:
+case 8:
                 return var1;
             }
         };

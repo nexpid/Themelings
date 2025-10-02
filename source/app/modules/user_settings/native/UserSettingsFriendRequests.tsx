@@ -112,7 +112,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8['value'] = var14;
         var14 = function onValueChange(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
                 var2 = 4;
@@ -123,16 +123,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var3.updateSetting;
                 var4 = _closure1_slot5;
                 var5 = arg1;
-                if(var5) { _fun0001_ip = 66; continue _fun0001 }
- 47:
+                if(var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var1 = _closure1_slot6;
                 var1 = var1.NO_RELATION;
                 var1 = ~var1;
                 var1 = var4 & var1;
-                _fun0001_ip = 69; continue _fun0001;
- 66:
+                _fun0001_ip = 4; continue _fun0001;
+case 2:
                 var1 = var4;
- 69:
+case 4:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             }
@@ -159,7 +159,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10['value'] = var15;
         var15 = function onValueChange(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var2 = _closure1_slot0;
                 var3 = _closure1_slot2;
                 var1 = 4;
@@ -174,22 +174,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var7[var1];
                 var7 = var5.bind(var6)(var1);
                 var1 = arg1;
-                if(var1) { _fun0002_ip = 101; continue _fun0002 }
- 63:
+                if(var1) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
                 var8 = var7.removeFlags;
                 var6 = _closure2_slot0;
                 var1 = _closure1_slot6;
                 var5 = var1.MUTUAL_FRIENDS;
                 var1 = var1.NO_RELATION;
                 var1 = var8.bind(var7)(var6, var5, var1);
-                _fun0002_ip = 130; continue _fun0002;
- 101:
+                _fun0002_ip = 7; continue _fun0002;
+case 5:
                 var6 = var7.addFlag;
                 var5 = _closure2_slot0;
                 var4 = _closure1_slot6;
                 var4 = var4.MUTUAL_FRIENDS;
                 var1 = var6.bind(var7)(var5, var4);
- 130:
+case 7:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             }
@@ -215,7 +215,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9['value'] = var12;
         var11 = function onValueChange(arg1) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var2 = _closure1_slot0;
                 var3 = _closure1_slot2;
                 var1 = 4;
@@ -230,22 +230,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var7[var1];
                 var7 = var5.bind(var6)(var1);
                 var1 = arg1;
-                if(var1) { _fun0003_ip = 101; continue _fun0003 }
- 63:
+                if(var1) { _fun0003_ip = 5; continue _fun0003 }
+case 6:
                 var8 = var7.removeFlags;
                 var6 = _closure2_slot0;
                 var1 = _closure1_slot6;
                 var5 = var1.MUTUAL_GUILDS;
                 var1 = var1.NO_RELATION;
                 var1 = var8.bind(var7)(var6, var5, var1);
-                _fun0003_ip = 130; continue _fun0003;
- 101:
+                _fun0003_ip = 7; continue _fun0003;
+case 5:
                 var6 = var7.addFlag;
                 var5 = _closure2_slot0;
                 var4 = _closure1_slot6;
                 var4 = var4.MUTUAL_GUILDS;
                 var1 = var6.bind(var7)(var5, var4);
- 130:
+case 7:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             }

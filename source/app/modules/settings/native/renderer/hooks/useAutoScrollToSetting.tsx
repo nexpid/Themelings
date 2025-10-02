@@ -37,7 +37,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useAutoScrollToSearchResultSetting(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var8 = arg1;
             var10 = arg2;
             var _closure2_slot0 = var8;
@@ -61,15 +61,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.bind(var9)(var4);
             var _closure2_slot3 = var5;
             var4 = null;
-            if(!(var4 == var6)) { _fun0001_ip = 106; continue _fun0001 }
- 101:
+            if(!(var4 == var6)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = var5.current;
- 106:
+case 2:
             var _closure2_slot4 = var6;
             var4 = var4 == var6;
             var9 = false;
-            if(var4) { _fun0001_ip = 221; continue _fun0001 }
- 119:
+            if(var4) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = _closure1_slot0;
             var12 = _closure1_slot1;
             var4 = 3;
@@ -81,8 +81,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = _closure1_slot4;
             var4 = var4.ROUTE;
             var9 = false;
-            if(!(var5 !== var4)) { _fun0001_ip = 221; continue _fun0001 }
- 170:
+            if(!(var5 !== var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 6:
             var5 = _closure1_slot0;
             var11 = _closure1_slot1;
             var4 = 4;
@@ -92,13 +92,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var4.bind(var5)(var6, var10);
             var4 = 0;
             var4 = var4 !== var11;
-            if(!var4) { _fun0001_ip = 218; continue _fun0001 }
- 211:
+            if(!var4) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var5 = 1;
             var4 = var5 !== var11;
- 218:
+case 7:
             var9 = var4;
- 221:
+case 4:
             var _closure2_slot5 = var9;
             var5 = _closure1_slot2;
             var4 = var5.useEffect;
@@ -114,10 +114,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = 'transitionEnd';
                 var2 = function() {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                         var1 = _closure2_slot5;
-                        if(!var1) { _fun0002_ip = 124; continue _fun0002 }
- 10:
+                        if(!var1) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
                         var4 = _closure1_slot0;
                         var3 = _closure1_slot1;
                         var1 = 4;
@@ -129,30 +129,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var3 = _closure2_slot1;
                         var6 = var5.bind(var6)(var4, var3);
                         var7 = null;
-                        if(!(var7 != var6)) { _fun0002_ip = 138; continue _fun0002 }
- 61:
+                        if(!(var7 != var6)) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
                         var3 = _closure2_slot0;
                         var3 = var7 == var3;
                         var5 = undefined;
-                        if(var3) { _fun0002_ip = 90; continue _fun0002 }
- 74:
+                        if(var3) { _fun0002_ip = 13; continue _fun0002 }
+case 14:
                         var4 = _closure2_slot0;
                         var4 = var4.current;
                         var3 = var7 == var4;
                         var5 = var4;
- 90:
-                        if(var3) { _fun0002_ip = 124; continue _fun0002 }
- 93:
+case 13:
+                        if(var3) { _fun0002_ip = 9; continue _fun0002 }
+case 15:
                         var4 = var5.scrollToIndex;
                         var3 = {'index': null, 'animated': false, 'viewOffset': 300};
                         var3['index'] = var6;
                         var3 = var4.bind(var5)(var3);
- 124:
+case 9:
                         var3 = _closure2_slot3;
                         var2 = undefined;
                         var3['current'] = var2;
                         return var2;
- 138:
+case 11:
                         return var1;
                     }
                 };

@@ -45,37 +45,37 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['DominantMuteState'] = var4;
     var4 = function createMuteHandler(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arg1;
             var1 = arguments[1];
             var7 = undefined;
-            if(!(var1 === var7)) { _fun0001_ip = 14; continue _fun0001 }
- 12:
+            if(!(var1 === var7)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = false;
- 14:
+case 2:
             var2 = _closure1_slot2;
             var2 = var2.NONE;
             var3 = var5.selfMute;
-            if(!var3) { _fun0001_ip = 46; continue _fun0001 }
- 36:
+            if(!var3) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = _closure1_slot2;
             var2 = var3.SELF_MUTE;
- 46:
-            if(var1) { _fun0001_ip = 76; continue _fun0001 }
- 49:
+case 4:
+            if(var1) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var3 = _closure1_slot0;
             var6 = _closure1_slot1;
             var1 = 0;
             var1 = var6[var1];
             var1 = var3.bind(var7)(var1);
             var3 = var1.handleToggleSelfMute;
-            _fun0001_ip = 80; continue _fun0001;
- 76:
+            _fun0001_ip = 8; continue _fun0001;
+case 6:
             var3 = _closure1_slot3;
- 80:
+case 8:
             var1 = var5.suppress;
-            if(!var1) { _fun0001_ip = 124; continue _fun0001 }
- 89:
+            if(!var1) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var6 = _closure1_slot0;
             var8 = _closure1_slot1;
             var1 = 0;
@@ -84,10 +84,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var1.showSuppressedAlert;
             var6 = _closure1_slot2;
             var2 = var6.SUPPRESS;
- 124:
+case 9:
             var1 = var5.mute;
-            if(!var1) { _fun0001_ip = 168; continue _fun0001 }
- 133:
+            if(!var1) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var6 = _closure1_slot0;
             var8 = _closure1_slot1;
             var1 = 0;
@@ -96,17 +96,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var1.showServerMuteAlert;
             var4 = _closure1_slot2;
             var2 = var4.SERVER_MUTE;
- 168:
+case 11:
             var1 = {};
             var4 = var5.selfMute;
-            if(var4) { _fun0001_ip = 185; continue _fun0001 }
- 179:
+            if(var4) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var4 = var5.mute;
- 185:
-            if(var4) { _fun0001_ip = 194; continue _fun0001 }
- 188:
+case 13:
+            if(var4) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
             var4 = var5.suppress;
- 194:
+case 15:
             var1['mute'] = var4;
             var1['onPress'] = var3;
             var1['dominantMuteState'] = var2;
@@ -116,7 +116,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['createMuteHandler'] = var4;
     var2 = function createDeafHandler(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var4 = arg1;
             var3 = _closure1_slot0;
             var2 = _closure1_slot1;
@@ -126,20 +126,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var5)(var2);
             var2 = var2.handleToggleSelfDeaf;
             var3 = var4.deaf;
-            if(!var3) { _fun0002_ip = 65; continue _fun0002 }
- 42:
+            if(!var3) { _fun0002_ip = 17; continue _fun0002 }
+case 18:
             var3 = _closure1_slot0;
             var1 = _closure1_slot1;
             var1 = var1[var6];
             var1 = var3.bind(var5)(var1);
             var2 = var1.showServerDeafenAlert;
- 65:
+case 17:
             var1 = {};
             var3 = var4.selfDeaf;
-            if(var3) { _fun0002_ip = 82; continue _fun0002 }
- 76:
+            if(var3) { _fun0002_ip = 19; continue _fun0002 }
+case 6:
             var3 = var4.deaf;
- 82:
+case 19:
             var1['deaf'] = var3;
             var1['onPress'] = var2;
             return var1;

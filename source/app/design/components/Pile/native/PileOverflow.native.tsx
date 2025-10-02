@@ -79,7 +79,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function PileOverflow(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var13 = var1.size;
             var7 = var1.borderRadius;
@@ -115,10 +115,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = 32;
             var9 = var13 >= var7;
             var7 = 4;
-            if(!var9) { _fun0001_ip = 137; continue _fun0001 }
- 134:
+            if(!var9) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var7 = 8;
- 137:
+case 2:
             var6['paddingHorizontal'] = var7;
             var5[1] = var6;
             var1['style'] = var5;
@@ -136,10 +136,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = null;
             var13 = var9 != var12;
             var9 = 'text-md/semibold';
-            if(!var13) { _fun0001_ip = 218; continue _fun0001 }
- 215:
+            if(!var13) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var9 = var12;
- 218:
+case 4:
             var5['variant'] = var9;
             var9 = _closure1_slot0;
             var12 = _closure1_slot1;

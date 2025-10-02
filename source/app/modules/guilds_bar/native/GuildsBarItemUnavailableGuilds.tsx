@@ -58,7 +58,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function GuildsBarItemUnavailableGuilds() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = _closure1_slot7;
             var5 = undefined;
             var9 = var1.bind(var5)();
@@ -81,8 +81,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = 0;
             var2 = var14 <= var1;
             var1 = null;
-            if(var2) { _fun0001_ip = 243; continue _fun0001 }
- 83:
+            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = _closure1_slot6;
             var3 = _closure1_slot4;
             var2 = {};
@@ -155,7 +155,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var4.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 243:
+case 2:
             return var1;
         }
     };

@@ -58,7 +58,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function TimestampBadge(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var3 = var1.activity;
             var1 = _closure1_slot7;
@@ -83,89 +83,89 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = null;
             var6 = var1 == var4;
             var12 = undefined;
-            if(var6) { _fun0001_ip = 108; continue _fun0001 }
- 103:
+            if(var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var12 = var4.start;
- 108:
-            if(!(var1 == var12)) { _fun0001_ip = 118; continue _fun0001 }
- 112:
+case 2:
+            if(!(var1 == var12)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var12 = var3.created_at;
- 118:
-            if(!(var1 != var12)) { _fun0001_ip = 516; continue _fun0001 }
- 125:
+case 4:
+            if(!(var1 != var12)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var6 = _closure1_slot1;
             var8 = _closure1_slot2;
             var4 = 11;
             var4 = var8[var4];
             var4 = var6.bind(var5)(var4);
             var4 = var4.bind(var5)(var3);
-            if(var4) { _fun0001_ip = 516; continue _fun0001 }
- 156:
-            if(!(var2 === var5)) { _fun0001_ip = 162; continue _fun0001 }
- 160:
+            if(var4) { _fun0001_ip = 6; continue _fun0001 }
+case 8:
+            if(!(var2 === var5)) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var2 = false;
- 162:
+case 9:
             var6 = _closure1_slot1;
             var8 = _closure1_slot2;
             var4 = 5;
             var4 = var8[var4];
             var4 = var6.bind(var5)(var4);
             var4 = var4.bind(var5)(var3);
-            if(var4) { _fun0001_ip = 315; continue _fun0001 }
- 193:
+            if(var4) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var6 = var3.type;
             var4 = _closure1_slot4;
             var4 = var4.WATCHING;
-            if(!(var6 !== var4)) { _fun0001_ip = 287; continue _fun0001 }
- 212:
+            if(!(var6 !== var4)) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var4 = var3.type;
             var3 = _closure1_slot4;
             var3 = var3.LISTENING;
-            if(!(var4 !== var3)) { _fun0001_ip = 259; continue _fun0001 }
- 231:
+            if(!(var4 !== var3)) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
             var4 = _closure1_slot0;
             var6 = _closure1_slot2;
             var3 = 6;
             var3 = var6[var3];
             var3 = var4.bind(var5)(var3);
             var8 = var3.GameControllerIcon;
-            _fun0001_ip = 285; continue _fun0001;
- 259:
+            _fun0001_ip = 17; continue _fun0001;
+case 15:
             var4 = _closure1_slot0;
             var6 = _closure1_slot2;
             var3 = 9;
             var3 = var6[var3];
             var3 = var4.bind(var5)(var3);
             var8 = var3.MusicIcon;
- 285:
-            _fun0001_ip = 313; continue _fun0001;
- 287:
+case 17:
+            _fun0001_ip = 18; continue _fun0001;
+case 13:
             var4 = _closure1_slot0;
             var6 = _closure1_slot2;
             var3 = 8;
             var3 = var6[var3];
             var3 = var4.bind(var5)(var3);
             var8 = var3.TvIcon;
- 313:
-            _fun0001_ip = 367; continue _fun0001;
- 315:
+case 18:
+            _fun0001_ip = 19; continue _fun0001;
+case 11:
             var4 = _closure1_slot0;
             var6 = _closure1_slot2;
-            if(var2) { _fun0001_ip = 346; continue _fun0001 }
- 326:
+            if(var2) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
             var2 = 7;
             var2 = var6[var2];
             var2 = var4.bind(var5)(var2);
             var2 = var2.ActivitiesIcon;
-            _fun0001_ip = 364; continue _fun0001;
- 346:
+            _fun0001_ip = 22; continue _fun0001;
+case 20:
             var3 = 6;
             var3 = var6[var3];
             var3 = var4.bind(var5)(var3);
             var2 = var3.GameControllerIcon;
- 364:
+case 22:
             var8 = var2;
- 367:
+case 19:
             var4 = _closure1_slot6;
             var3 = _closure1_slot3;
             var2 = {};
@@ -202,14 +202,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['children'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
- 516:
+case 6:
             return var1;
         }
     };
     var3['TimestampBadge'] = var4;
     var4 = function PartyBadge(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = var1.activity;
             var1 = _closure1_slot7;
@@ -221,12 +221,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var4[var1];
             var1 = var3.bind(var5)(var1);
             var1 = var1.bind(var5)(var2);
-            if(var1) { _fun0002_ip = 284; continue _fun0002 }
- 53:
+            if(var1) { _fun0002_ip = 23; continue _fun0002 }
+case 24:
             var3 = var2.party;
             var1 = null;
-            if(!(var1 != var3)) { _fun0002_ip = 284; continue _fun0002 }
- 68:
+            if(!(var1 != var3)) { _fun0002_ip = 23; continue _fun0002 }
+case 25:
             var4 = _closure1_slot0;
             var7 = _closure1_slot2;
             var3 = 14;
@@ -238,8 +238,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var4.bind(var7)(var3, var2);
             var2 = var1 == var10;
             var1 = null;
-            if(var2) { _fun0002_ip = 282; continue _fun0002 }
- 123:
+            if(var2) { _fun0002_ip = 26; continue _fun0002 }
+case 27:
             var4 = _closure1_slot6;
             var3 = _closure1_slot3;
             var2 = {};
@@ -275,9 +275,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[1] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 282:
+case 26:
             return var1;
- 284:
+case 23:
             var1 = null;
             return var1;
         }
@@ -285,7 +285,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['PartyBadge'] = var4;
     var2 = function EpisodeBadge(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var1 = arg1;
             var1 = var1.activity;
             var2 = _closure1_slot7;
@@ -301,15 +301,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = null;
             var8 = var1 == var7;
             var2 = undefined;
-            if(var8) { _fun0003_ip = 71; continue _fun0003 }
- 65:
+            if(var8) { _fun0003_ip = 28; continue _fun0003 }
+case 29:
             var2 = var7.large_text;
- 71:
+case 28:
             var10 = var3.bind(var4)(var2);
             var2 = var1 == var10;
             var1 = null;
-            if(var2) { _fun0003_ip = 247; continue _fun0003 }
- 88:
+            if(var2) { _fun0003_ip = 30; continue _fun0003 }
+case 31:
             var4 = _closure1_slot6;
             var3 = _closure1_slot3;
             var2 = {};
@@ -345,7 +345,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[1] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 247:
+case 30:
             return var1;
         }
     };

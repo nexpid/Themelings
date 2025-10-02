@@ -1,7 +1,7 @@
 // app/modules/gif_picker/native/GIFPickerItemActionSheet.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
         var5 = require;
         var11 = metroImportDefault;
         var3 = exports;
@@ -52,13 +52,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var14 = var5.bind(var1)(var13);
         var13 = var14.isAndroid;
         var13 = var13.bind(var14)();
-        if(!var13) { _fun0001_ip = 219; continue _fun0001 }
- 200:
+        if(!var13) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
         var13 = var6[var10];
         var13 = var11.bind(var1)(var13);
         var13 = var13.spacing;
         var12 = var13.PX_16;
- 219:
+case 2:
         var9['paddingBottom'] = var12;
         var4['contentWrapper'] = var9;
         var9 = {'flexDirection': 'column', 'alignItems': 'center'};
@@ -191,7 +191,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5[2] = var14;
             var3 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var2 = _closure2_slot4;
                     var1 = undefined;
                     var2 = var2.bind(var1)();
@@ -201,8 +201,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = 7;
                     var5 = var7[var5];
                     var5 = var6.bind(var1)(var5);
-                    if(var4) { _fun0002_ip = 178; continue _fun0002 }
- 46:
+                    if(var4) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var8 = var5.addFavoriteGIF;
                     var4 = _closure2_slot0;
                     var4 = var8.bind(var5)(var4);
@@ -231,8 +231,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var10 = var10.GifIcon;
                     var4['IconComponent'] = var10;
                     var4 = var8.bind(var9)(var4);
-                    _fun0002_ip = 310; continue _fun0002;
- 178:
+                    _fun0002_ip = 6; continue _fun0002;
+case 4:
                     var4 = var5.removeFavoriteGIF;
                     var3 = _closure2_slot0;
                     var3 = var3.url;
@@ -262,7 +262,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var5.GifIcon;
                     var2['IconComponent'] = var5;
                     var2 = var3.bind(var4)(var2);
- 310:
+case 6:
                     return var1;
                 }
             };
@@ -274,7 +274,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[1] = var8;
             var1 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var4 = _closure1_slot5;
                     var2 = _closure1_slot0;
                     var3 = _closure1_slot2;
@@ -286,10 +286,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = {};
                     var8 = _closure2_slot1;
                     var7 = 'primary';
-                    if(!var8) { _fun0003_ip = 57; continue _fun0003 }
- 51:
+                    if(!var8) { _fun0003_ip = 7; continue _fun0003 }
+case 8:
                     var7 = 'destructive';
- 57:
+case 7:
                     var1['variant'] = var7;
                     var7 = _closure2_slot5;
                     var1['onPress'] = var7;
@@ -304,15 +304,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = var10[var6];
                     var6 = var9.bind(var3)(var6);
                     var6 = var6.t;
-                    if(var5) { _fun0003_ip = 133; continue _fun0003 }
- 120:
+                    if(var5) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
                     var5 = var6.nIH0v7;
                     var5 = var7.bind(var8)(var5);
-                    _fun0003_ip = 144; continue _fun0003;
- 133:
+                    _fun0003_ip = 11; continue _fun0003;
+case 9:
                     var6 = var6.5/NS7+;
                     var5 = var7.bind(var8)(var6);
- 144:
+case 11:
                     var1['text'] = var5;
                     var5 = true;
                     var1['grow'] = var5;

@@ -81,26 +81,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var18 = var2.channel;
             var _closure2_slot0 = var18;
             var12 = var2.expressionType;
             var21 = var2.hideGifFavorites;
             var4 = undefined;
-            if(!(var21 === var4)) { _fun0001_ip = 34; continue _fun0001 }
- 32:
+            if(!(var21 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var21 = false;
- 34:
+case 2:
             var17 = var2.onPressEmoji;
             var23 = var2.onPressSticker;
             var20 = var2.onPressGIF;
             var16 = var2.onBackspace;
             var9 = var2.visibleTabs;
-            if(!(var9 === var4)) { _fun0001_ip = 75; continue _fun0001 }
- 68:
+            if(!(var9 === var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var9 = _closure1_slot6;
- 75:
+case 4:
             var22 = var2.stickerFormats;
             var15 = var2.disableLongPress;
             var8 = var2.height;
@@ -206,16 +206,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5[0] = var12;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var1 = _closure2_slot1;
                     var2 = var1.current;
-                    if(var2) { _fun0002_ip = 173; continue _fun0002 }
- 21:
+                    if(var2) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var3 = _closure2_slot2;
                     var2 = _closure1_slot5;
                     var2 = var2.EMOJI;
-                    if(!(var3 !== var2)) { _fun0002_ip = 115; continue _fun0002 }
- 39:
+                    if(!(var3 !== var2)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
                     var2 = 13;
@@ -234,8 +234,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = _closure2_slot1;
                     var2 = true;
                     var3['current'] = var2;
-                    _fun0002_ip = 235; continue _fun0002;
- 115:
+                    _fun0002_ip = 10; continue _fun0002;
+case 8:
                     var3 = _closure1_slot1;
                     var4 = _closure1_slot2;
                     var2 = 14;
@@ -250,8 +250,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = _closure2_slot1;
                     var2 = true;
                     var3['current'] = var2;
-                    _fun0002_ip = 235; continue _fun0002;
- 173:
+                    _fun0002_ip = 10; continue _fun0002;
+case 6:
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
                     var2 = 13;
@@ -267,7 +267,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = false;
                     var1['badged'] = var5;
                     var1 = var3.bind(var4)(var2, var1);
- 235:
+case 10:
                     var1 = undefined;
                     return var1;
                 }
@@ -280,12 +280,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = _closure1_slot5;
             var3 = var3.EMOJI;
             var3 = var12 === var3;
-            if(var3) { _fun0001_ip = 408; continue _fun0001 }
- 394:
+            if(var3) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var5 = _closure1_slot5;
             var5 = var5.STICKER;
             var3 = var12 === var5;
- 408:
+case 11:
             var1['hasCategories'] = var3;
             var2 = var2.bind(var4)(var1);
             var3 = _closure1_slot0;
@@ -295,16 +295,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var4)(var1);
             var1 = var3.useIsScreenReaderEnabled;
             var1 = var1.bind(var3)();
-            if(var1) { _fun0001_ip = 455; continue _fun0001 }
- 451:
+            if(var1) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var19 = {};
-            _fun0001_ip = 470; continue _fun0001;
- 455:
+            _fun0001_ip = 15; continue _fun0001;
+case 13:
             var1 = {};
             var2 = var2.safeAreaBottomKeyboardAware;
             var1['marginBottom'] = var2;
             var19 = var1;
- 470:
+case 15:
             var3 = _closure1_slot10;
             var2 = _closure1_slot4;
             var1 = {};
@@ -313,26 +313,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5[0] = var6;
             var9 = null;
             var6 = var9 != var8;
-            if(!var6) { _fun0001_ip = 512; continue _fun0001 }
- 503:
+            if(!var6) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var7 = {};
             var7['height'] = var8;
             var6 = var7;
- 512:
+case 16:
             var5[1] = var6;
             var1['style'] = var5;
             var7 = _closure1_slot9;
             var6 = _closure1_slot4;
             var5 = {};
-            if(!var14) { _fun0001_ip = 544; continue _fun0001 }
- 533:
-            if(var13) { _fun0001_ip = 544; continue _fun0001 }
- 536:
+            if(!var14) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
+            if(var13) { _fun0001_ip = 18; continue _fun0001 }
+case 20:
             var8 = var11.segmentedControlUnpadded;
-            _fun0001_ip = 550; continue _fun0001;
- 544:
+            _fun0001_ip = 21; continue _fun0001;
+case 18:
             var8 = var11.segmentedControl;
- 550:
+case 21:
             var5['style'] = var8;
             var8 = _closure1_slot9;
             var25 = _closure1_slot0;
@@ -357,17 +357,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6['style'] = var11;
             var11 = _closure1_slot5;
             var11 = var11.EMOJI;
-            if(!(var12 !== var11)) { _fun0001_ip = 814; continue _fun0001 }
- 659:
+            if(!(var12 !== var11)) { _fun0001_ip = 22; continue _fun0001 }
+case 23:
             var11 = _closure1_slot5;
             var11 = var11.GIF;
-            if(!(var12 !== var11)) { _fun0001_ip = 747; continue _fun0001 }
- 673:
+            if(!(var12 !== var11)) { _fun0001_ip = 24; continue _fun0001 }
+case 25:
             var11 = _closure1_slot5;
             var11 = var11.STICKER;
             var9 = null;
-            if(!(var12 === var11)) { _fun0001_ip = 745; continue _fun0001 }
- 689:
+            if(!(var12 === var11)) { _fun0001_ip = 26; continue _fun0001 }
+case 27:
             var19 = _closure1_slot9;
             var12 = _closure1_slot1;
             var24 = _closure1_slot2;
@@ -381,9 +381,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11['inActionSheet'] = var14;
             var11['inPortalKeyboard'] = var13;
             var9 = var19.bind(var4)(var12, var11);
- 745:
-            _fun0001_ip = 812; continue _fun0001;
- 747:
+case 26:
+            _fun0001_ip = 28; continue _fun0001;
+case 24:
             var19 = _closure1_slot9;
             var12 = _closure1_slot1;
             var22 = _closure1_slot2;
@@ -399,9 +399,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11['onPressGIF'] = var20;
             var11['inActionSheet'] = var14;
             var9 = var19.bind(var4)(var12, var11);
- 812:
-            _fun0001_ip = 875; continue _fun0001;
- 814:
+case 28:
+            _fun0001_ip = 29; continue _fun0001;
+case 22:
             var12 = _closure1_slot9;
             var11 = _closure1_slot1;
             var19 = _closure1_slot2;
@@ -416,7 +416,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10['inActionSheet'] = var14;
             var10['inPortalKeyboard'] = var13;
             var9 = var12.bind(var4)(var11, var10);
- 875:
+case 29:
             var6['children'] = var9;
             var6 = var8.bind(var4)(var7, var6);
             var5[1] = var6;

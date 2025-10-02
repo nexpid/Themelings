@@ -7,13 +7,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var7;
     var2 = function useThrottledActionHandler() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arguments[0];
             var2 = undefined;
-            if(!(var3 === var2)) { _fun0001_ip = 17; continue _fun0001 }
- 11:
+            if(!(var3 === var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = 500;
- 17:
+case 2:
             var _closure2_slot0 = var3;
             var _closure2_slot1 = var2;
             var5 = _closure1_slot2;
@@ -42,18 +42,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var _closure3_slot0 = var2;
                 var1 = function(arg1) {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                         var2 = _closure3_slot0;
                         var4 = null;
                         var2 = var4 != var2;
-                        if(!var2) { _fun0002_ip = 32; continue _fun0002 }
- 16:
+                        if(!var2) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                         var3 = _closure2_slot1;
                         var3 = var3.current;
                         var2 = var4 === var3;
- 32:
-                        if(!var2) { _fun0002_ip = 87; continue _fun0002 }
- 35:
+case 4:
+                        if(!var2) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                         var2 = _closure3_slot0;
                         var5 = undefined;
                         var1 = arg1;
@@ -71,7 +71,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         };
                         var1 = var4.bind(var5)(var1, var3);
                         var2['current'] = var1;
- 87:
+case 6:
                         var1 = undefined;
                         return var1;
                     }
@@ -109,17 +109,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var7)(var5);
     var4 = function ThrottledButton(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var5 = arg1;
             var8 = var5.onPress;
             var7 = var5.onPressIn;
             var6 = var5.onPressOut;
             var3 = var5.throttleMs;
             var4 = undefined;
-            if(!(var3 === var4)) { _fun0003_ip = 38; continue _fun0003 }
- 32:
+            if(!(var3 === var4)) { _fun0003_ip = 8; continue _fun0003 }
+case 4:
             var3 = 500;
- 38:
+case 8:
             var2 = {'onPress': 0, 'onPressIn': 0, 'onPressOut': 0, 'throttleMs': 0};
             var12 = null;
             var13 = var2;

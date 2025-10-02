@@ -36,7 +36,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function renderChannelWrapper(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg2;
             var9 = var1.channel;
             var7 = var1.layout;
@@ -44,10 +44,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var1.launchpad;
             var6 = var1.panelVariant;
             var4 = undefined;
-            if(!(var6 === var4)) { _fun0001_ip = 40; continue _fun0001 }
- 38:
+            if(!(var6 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = false;
- 40:
+case 2:
             var3 = _closure1_slot0;
             var2 = _closure1_slot1;
             var10 = 3;
@@ -57,15 +57,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = null;
             var13 = var8 == var9;
             var2 = undefined;
-            if(var13) { _fun0001_ip = 90; continue _fun0001 }
- 80:
+            if(var13) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var13 = var9.isThread;
             var2 = var13.bind(var9)();
- 90:
-            if(!var2) { _fun0001_ip = 96; continue _fun0001 }
- 93:
+case 4:
+            if(!var2) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var2 = !var5;
- 96:
+case 6:
             var12 = var3.bind(var11)(var12, var7, var2);
             var3 = _closure1_slot0;
             var2 = _closure1_slot1;
@@ -80,47 +80,47 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = {'flex': 1, 'flexDirection': 'row', 'alignItems': 'center', 'position': 'relative'};
             var5[0] = var10;
             var10 = {};
-            if(!(var8 != var9)) { _fun0001_ip = 183; continue _fun0001 }
- 170:
+            if(!(var8 != var9)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var11 = var9.isThread;
             var11 = var11.bind(var9)();
-            if(var11) { _fun0001_ip = 210; continue _fun0001 }
- 183:
+            if(var11) { _fun0001_ip = 10; continue _fun0001 }
+case 8:
             var11 = var7.layout;
             var11 = var11.margin;
             var13 = var11.marginVertical;
             var11 = 2;
             var11 = var11 * var13;
-            _fun0001_ip = 235; continue _fun0001;
- 210:
+            _fun0001_ip = 11; continue _fun0001;
+case 10:
             var13 = var7.layout;
             var13 = var13.marginThread;
             var14 = var13.marginVertical;
             var13 = 2;
             var11 = var13 * var14;
- 235:
+case 11:
             var11 = var12 - var11;
             var10['minHeight'] = var11;
             var5[1] = var10;
-            if(!(var8 != var9)) { _fun0001_ip = 265; continue _fun0001 }
- 252:
+            if(!(var8 != var9)) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var8 = var9.isThread;
             var8 = var8.bind(var9)();
-            if(var8) { _fun0001_ip = 288; continue _fun0001 }
- 265:
+            if(var8) { _fun0001_ip = 14; continue _fun0001 }
+case 12:
             var8 = var7.container;
-            if(var6) { _fun0001_ip = 280; continue _fun0001 }
- 273:
+            if(var6) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
             var6 = var8.padding;
-            _fun0001_ip = 286; continue _fun0001;
- 280:
+            _fun0001_ip = 17; continue _fun0001;
+case 15:
             var6 = var8.paddingPanels;
- 286:
-            _fun0001_ip = 299; continue _fun0001;
- 288:
+case 17:
+            _fun0001_ip = 18; continue _fun0001;
+case 14:
             var7 = var7.container;
             var6 = var7.paddingThread;
- 299:
+case 18:
             var5[2] = var6;
             var1['style'] = var5;
             var5 = arg1;

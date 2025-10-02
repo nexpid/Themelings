@@ -133,14 +133,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var5.useAnimatedStyle;
         var2 = function _() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var1 = {};
                 var4 = {};
                 var5 = _closure2_slot1;
                 var9 = -120;
                 var2 = var9;
-                if(var5) { _fun0001_ip = 76; continue _fun0001 }
- 23:
+                if(var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var8 = _closure1_slot0;
                 var7 = _closure1_slot2;
                 var6 = 9;
@@ -150,13 +150,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = var8.withSpring;
                 var10 = _closure2_slot0;
                 var6 = 120;
-                if(!var10) { _fun0001_ip = 66; continue _fun0001 }
- 63:
+                if(!var10) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var6 = var9;
- 66:
+case 4:
                 var5 = _closure1_slot8;
                 var2 = var7.bind(var8)(var6, var5);
- 76:
+case 2:
                 var4['translateY'] = var2;
                 var2 = new Array(1);
                 var2[0] = var4;
@@ -170,10 +170,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var5.withSpring;
                 var6 = _closure2_slot0;
                 var3 = 0;
-                if(!var6) { _fun0001_ip = 135; continue _fun0001 }
- 132:
+                if(!var6) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                 var3 = 1;
- 135:
+case 6:
                 var2 = _closure1_slot8;
                 var2 = var4.bind(var5)(var3, var2);
                 var1['opacity'] = var2;

@@ -160,7 +160,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var14 = var19.map;
         var11 = function(arg1, arg2) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var13 = var1.name;
                 var5 = var1.value;
@@ -212,8 +212,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var9 = var9 - var7;
                 var7 = arg2;
                 var7 = var7 < var9;
-                if(!var7) { _fun0001_ip = 236; continue _fun0001 }
- 201:
+                if(!var7) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var10 = _closure1_slot7;
                 var9 = _closure1_slot0;
                 var8 = _closure1_slot2;
@@ -222,7 +222,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var9 = var8.FormDivider;
                 var8 = {};
                 var7 = var10.bind(var1)(var9, var8);
- 236:
+case 2:
                 var6[1] = var7;
                 var2['children'] = var6;
                 var1 = var4.bind(var1)(var3, var2, var5);

@@ -79,7 +79,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function ScheduleEventPrompt(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = var1.guild;
             var _closure2_slot0 = var2;
@@ -98,8 +98,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.bind(var2)(var3);
             var2 = var1.canCreateGuildEvent;
             var1 = null;
-            if(!var2) { _fun0001_ip = 296; continue _fun0001 }
- 87:
+            if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = _closure1_slot3;
             var9 = _closure1_slot0;
             var10 = _closure1_slot2;
@@ -158,14 +158,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var7.bind(var8)(var6);
             var2['subtitle'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 296:
+case 2:
             return var1;
         }
     };
     var3['ScheduleEventPrompt'] = var4;
     var2 = function StartEventPrompt(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = var1.event;
             var _closure2_slot0 = var2;
@@ -188,8 +188,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.canManageGuildEvent;
             var2 = var1.bind(var5)(var2);
             var1 = null;
-            if(!var2) { _fun0002_ip = 395; continue _fun0002 }
- 110:
+            if(!var2) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var4 = _closure1_slot3;
             var11 = _closure1_slot0;
             var15 = _closure1_slot2;
@@ -263,7 +263,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var8.bind(var9)(var7, var6);
             var2['subtitle'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 395:
+case 4:
             return var1;
         }
     };

@@ -9,26 +9,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function getBlurAmount(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = 'none';
-            if(!(var1 !== var2)) { _fun0001_ip = 57; continue _fun0001 }
- 11:
+            if(!(var1 !== var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = 'subtle';
-            if(!(var1 !== var2)) { _fun0001_ip = 45; continue _fun0001 }
- 21:
+            if(!(var1 !== var2)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = 'strong';
-            if(!(var1 !== var2)) { _fun0001_ip = 33; continue _fun0001 }
- 29:
+            if(!(var1 !== var2)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var1 = undefined;
             return var1;
- 33:
+case 6:
             var1 = 0.25;
             return var1;
- 45:
+case 4:
             var1 = 0.05;
             return var1;
- 57:
+case 2:
             var1 = 0;
             return var1;
         }
@@ -97,30 +97,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function Backdrop(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var2 = arg1;
             var7 = var2.style;
             var20 = var2.accessibleDismissStyle;
             var5 = var2.animatedProps;
             var4 = undefined;
-            if(!(var5 === var4)) { _fun0002_ip = 35; continue _fun0002 }
- 28:
+            if(!(var5 === var4)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var5 = _closure1_slot7;
- 35:
+case 8:
             var9 = var2.opaque;
-            if(!(var9 === var4)) { _fun0002_ip = 47; continue _fun0002 }
- 45:
+            if(!(var9 === var4)) { _fun0002_ip = 10; continue _fun0002 }
+case 4:
             var9 = false;
- 47:
+case 10:
             var17 = var2.blur;
-            if(!(var17 === var4)) { _fun0002_ip = 61; continue _fun0002 }
- 57:
+            if(!(var17 === var4)) { _fun0002_ip = 11; continue _fun0002 }
+case 2:
             var17 = 'none';
- 61:
+case 11:
             var18 = var2.onDismiss;
             var12 = var2.accessibilityLabel;
-            if(!(var12 === var4)) { _fun0002_ip = 134; continue _fun0002 }
- 76:
+            if(!(var12 === var4)) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
             var3 = 5;
@@ -133,7 +133,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.t;
             var3 = var3.WAI6xs;
             var12 = var6.bind(var8)(var3);
- 134:
+case 12:
             var11 = var2.aria-hidden;
             var _closure2_slot0 = var4;
             var2 = _closure1_slot8;
@@ -192,8 +192,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['animatedProps'] = var5;
             var5 = null;
             var6 = var5 != var18;
-            if(!var6) { _fun0002_ip = 411; continue _fun0002 }
- 342:
+            if(!var6) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
             var8 = _closure1_slot5;
             var7 = _closure1_slot4;
             var5 = {};
@@ -211,14 +211,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['accessibilityLabel'] = var12;
             var5['aria-hidden'] = var11;
             var6 = var8.bind(var4)(var7, var5);
- 411:
+case 14:
             var5 = new Array(2);
             var5[0] = var6;
             var8 = _closure1_slot5;
             var7 = _closure1_slot4;
             var6 = 'none';
-            if(!(var6 === var17)) { _fun0002_ip = 493; continue _fun0002 }
- 435:
+            if(!(var6 === var17)) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
             var6 = {};
             var24 = var6;
             var23 = var10;
@@ -226,18 +226,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var13.fill;
             var11 = new Array(2);
             var11[0] = var12;
-            if(var9) { _fun0002_ip = 472; continue _fun0002 }
- 464:
+            if(var9) { _fun0002_ip = 18; continue _fun0002 }
+case 19:
             var9 = var13.backdrop;
-            _fun0002_ip = 478; continue _fun0002;
- 472:
+            _fun0002_ip = 20; continue _fun0002;
+case 18:
             var9 = var13.backdropOpaque;
- 478:
+case 20:
             var11[1] = var9;
             var9 = 'style';
             var6[var9] = var11;
-            _fun0002_ip = 614; continue _fun0002;
- 493:
+            _fun0002_ip = 21; continue _fun0002;
+case 16:
             var9 = {};
             var24 = var9;
             var23 = var10;
@@ -266,7 +266,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = 'children';
             var9[var10] = var11;
             var6 = var9;
- 614:
+case 21:
             var6 = var8.bind(var4)(var7, var6);
             var5[1] = var6;
             var1['children'] = var5;

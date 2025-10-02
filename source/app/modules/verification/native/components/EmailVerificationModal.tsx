@@ -66,7 +66,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function EmailVerificationModal(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var5 = var1.isChangeEmail;
             var _closure2_slot0 = var5;
@@ -99,15 +99,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = null;
             var7 = var3 == var2;
             var9 = undefined;
-            if(var7) { _fun0001_ip = 123; continue _fun0001 }
- 117:
+            if(var7) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var9 = var2.verified;
- 123:
+case 2:
             var7 = var3 != var9;
-            if(!var7) { _fun0001_ip = 133; continue _fun0001 }
- 130:
+            if(!var7) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var7 = var9;
- 133:
+case 4:
             var10 = var8.bind(var4)(var7);
             _closure2_slot1 = var10;
             var9 = _closure1_slot4;
@@ -470,34 +470,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var6 = var8.bind(var9)(var6, var7);
-            if(var5) { _fun0001_ip = 297; continue _fun0001 }
- 266:
+            if(var5) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var7 = var3 == var2;
             var5 = undefined;
-            if(var7) { _fun0001_ip = 281; continue _fun0001 }
- 275:
+            if(var7) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var5 = var2.email;
- 281:
-            if(!(var3 != var5)) { _fun0001_ip = 297; continue _fun0001 }
- 285:
+case 8:
+            if(!(var3 != var5)) { _fun0001_ip = 6; continue _fun0001 }
+case 10:
             var5 = _closure1_slot7;
             var5 = var5.RESEND_EMAIL;
-            _fun0001_ip = 335; continue _fun0001;
- 297:
-            if(!(var3 != var2)) { _fun0001_ip = 310; continue _fun0001 }
- 301:
+            _fun0001_ip = 11; continue _fun0001;
+case 6:
+            if(!(var3 != var2)) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var2 = var2.verified;
-            if(var2) { _fun0001_ip = 322; continue _fun0001 }
- 310:
+            if(var2) { _fun0001_ip = 14; continue _fun0001 }
+case 12:
             var2 = _closure1_slot7;
             var2 = var2.ENTER_EMAIL;
-            _fun0001_ip = 332; continue _fun0001;
- 322:
+            _fun0001_ip = 15; continue _fun0001;
+case 14:
             var3 = _closure1_slot7;
             var2 = var3.CONFIRM_EMAIL_CHANGE_START;
- 332:
+case 15:
             var5 = var2;
- 335:
+case 11:
             var3 = _closure1_slot8;
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;

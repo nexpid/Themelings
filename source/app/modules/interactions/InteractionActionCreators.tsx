@@ -14,13 +14,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = function* (arg1, arg2) {
             var1 = function* anon_0_(arg1, arg2) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     StartGenerator();
                     var8 = arg1;
                     var7 = arg2;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 178; continue _fun0001 }
- 16:
+                    if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var3 = _closure1_slot0;
                     var5 = _closure1_slot2;
                     var2 = 3;
@@ -36,18 +36,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2['url'] = var9;
                     var2 = var3.bind(var5)(var2);
                     SaveGenerator(address=92);
- 90:
+case 4:
                     return var2;
- 92:
+case 5:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0001_ip = 175; continue _fun0001 }
- 98:
+                    if(var3) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                     var3 = var2.ok;
-                    if(var3) { _fun0001_ip = 112; continue _fun0001 }
- 107:
+                    if(var3) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
                     var3 = null;
                     return var3;
- 112:
+case 8:
                     var3 = var2.body;
                     var5 = _closure1_slot1;
                     var9 = _closure1_slot2;
@@ -63,9 +63,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4['interactionData'] = var3;
                     var4 = var5.bind(var6)(var4);
                     return var3;
- 175:
+case 6:
                     return var2;
- 178:
+case 2:
                     return var1;
                 }
             };

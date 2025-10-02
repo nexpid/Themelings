@@ -29,32 +29,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function getErrorMessageFromErrorCode(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var2 = _closure1_slot2;
             var2 = var2.UNKNOWN_CHANNEL;
-            if(!(var2 !== var3)) { _fun0001_ip = 471; continue _fun0001 }
- 23:
+            if(!(var2 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = _closure1_slot2;
             var2 = var2.INVALID_PERMISSIONS;
-            if(!(var2 !== var3)) { _fun0001_ip = 410; continue _fun0001 }
- 40:
+            if(!(var2 !== var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = _closure1_slot2;
             var2 = var2.INVALID_ACCESS;
-            if(!(var2 !== var3)) { _fun0001_ip = 349; continue _fun0001 }
- 57:
+            if(!(var2 !== var3)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var2 = _closure1_slot2;
             var2 = var2.VANITY_URL_REQUIRED_FOR_PUBLISHED_GUILDS;
-            if(!(var2 !== var3)) { _fun0001_ip = 288; continue _fun0001 }
- 74:
+            if(!(var2 !== var3)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var2 = _closure1_slot2;
             var2 = var2.VANITY_URL_EMPLOYEE_ONLY_GUILD_DISABLED;
-            if(!(var2 !== var3)) { _fun0001_ip = 227; continue _fun0001 }
- 91:
+            if(!(var2 !== var3)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var2 = _closure1_slot2;
             var2 = var2.VANITY_URL_REQUIREMENTS_NOT_MET;
-            if(!(var2 !== var3)) { _fun0001_ip = 166; continue _fun0001 }
- 105:
+            if(!(var2 !== var3)) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var2 = 1;
@@ -69,7 +69,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.ckQidX;
             var2 = var3.bind(var4)(var2);
             return var2;
- 166:
+case 12:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var2 = 1;
@@ -84,7 +84,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.w+yGQU;
             var2 = var3.bind(var4)(var2);
             return var2;
- 227:
+case 10:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var2 = 1;
@@ -99,7 +99,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.tSBmIi;
             var2 = var3.bind(var4)(var2);
             return var2;
- 288:
+case 8:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var2 = 1;
@@ -114,7 +114,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.ZpuxVl;
             var2 = var3.bind(var4)(var2);
             return var2;
- 349:
+case 6:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var2 = 1;
@@ -129,7 +129,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.TAXOKy;
             var2 = var3.bind(var4)(var2);
             return var2;
- 410:
+case 4:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var2 = 1;
@@ -144,7 +144,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.lXtut7;
             var2 = var3.bind(var4)(var2);
             return var2;
- 471:
+case 2:
             var5 = _closure1_slot0;
             var6 = _closure1_slot1;
             var1 = 1;
@@ -164,28 +164,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['getErrorMessageFromErrorCode'] = var4;
     var2 = function canSeeVanityUrlSettings(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var3 = arg1;
             var5 = var3.features;
             var4 = var5.has;
             var1 = _closure1_slot3;
             var1 = var1.VANITY_URL;
             var1 = var4.bind(var5)(var1);
-            if(var1) { _fun0002_ip = 79; continue _fun0002 }
- 35:
+            if(var1) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
             var5 = var3.features;
             var4 = var5.has;
             var2 = _closure1_slot3;
             var2 = var2.GUILD_WEB_PAGE_VANITY_URL;
             var2 = var4.bind(var5)(var2);
-            if(!var2) { _fun0002_ip = 76; continue _fun0002 }
- 64:
+            if(!var2) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
             var4 = var3.vanityURLCode;
             var3 = null;
             var2 = var3 != var4;
- 76:
+case 16:
             var1 = var2;
- 79:
+case 14:
             return var1;
         }
     };

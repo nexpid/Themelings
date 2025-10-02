@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var5;
     var2 = function formatExpirationLabel(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var8 = arg1;
             var4 = _closure1_slot1;
             var3 = _closure1_slot2;
@@ -18,19 +18,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = undefined;
             var3 = var4.bind(var1)(var3);
             var5 = var3.bind(var1)();
-            if(!(!(var8 <= var5))) { _fun0001_ip = 292; continue _fun0001 }
- 38:
+            if(!(!(var8 <= var5))) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = var8.diff;
             var3 = 'days';
             var6 = var4.bind(var8)(var5, var3);
             var7 = 1;
-            if(!(!(var6 > var7))) { _fun0001_ip = 228; continue _fun0001 }
- 64:
+            if(!(!(var6 > var7))) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var4 = var8.diff;
             var3 = 'hours';
             var9 = var4.bind(var8)(var5, var3);
-            if(!(!(var9 > var7))) { _fun0001_ip = 164; continue _fun0001 }
- 84:
+            if(!(!(var9 > var7))) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var4 = var8.diff;
             var3 = 'minutes';
             var10 = var4.bind(var8)(var5, var3);
@@ -48,7 +48,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['minutes'] = var10;
             var3 = var5.bind(var8)(var4, var3);
             return var3;
- 164:
+case 6:
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
             var5 = var3[var7];
@@ -63,7 +63,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['hours'] = var9;
             var3 = var5.bind(var8)(var4, var3);
             return var3;
- 228:
+case 4:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
             var4 = var2[var7];
@@ -78,7 +78,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['days'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
- 292:
+case 2:
             return var1;
         }
     };
@@ -100,14 +100,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var7)(var5);
     var4 = function useFormattedExpirationLabel(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var3 = arg1;
             var1 = null;
-            if(!(var1 == var3)) { _fun0002_ip = 13; continue _fun0002 }
- 9:
+            if(!(var1 == var3)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var1 = undefined;
             return var1;
- 13:
+case 8:
             var2 = _closure1_slot3;
             var1 = undefined;
             var1 = var2.bind(var1)(var3);

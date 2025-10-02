@@ -48,7 +48,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['scrollToTopTimeout'] = var2;
             var2 = function scrollToTop() {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     var3 = this;
                     var5 = _closure1_slot0;
                     var7 = _closure1_slot2;
@@ -64,38 +64,38 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var2.bind(var1)();
                     var4 = var4.bind(var5)(var2);
                     var2 = null;
-                    if(!(var2 != var4)) { _fun0001_ip = 143; continue _fun0001 }
- 65:
+                    if(!(var2 != var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var4 = var3.scrollToTopTimeout;
                     var2 = -1;
-                    if(!(var2 !== var4)) { _fun0001_ip = 108; continue _fun0001 }
- 81:
+                    if(!(var2 !== var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                     var4 = global;
                     var5 = var4.clearTimeout;
                     var4 = var3.scrollToTopTimeout;
                     var4 = var5.bind(var1)(var4);
                     var3['scrollToTopTimeout'] = var2;
-                    _fun0001_ip = 143; continue _fun0001;
- 108:
+                    _fun0001_ip = 2; continue _fun0001;
+case 4:
                     var2 = global;
                     var5 = var2.setTimeout;
                     var4 = function() {
                         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                             var1 = _closure2_slot0;
                             var2 = null;
                             var4 = var2 == var1;
                             var1 = undefined;
                             var6 = undefined;
-                            if(var4) { _fun0002_ip = 36; continue _fun0002 }
- 20:
+                            if(var4) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                             var5 = _closure2_slot0;
                             var5 = var5.current;
                             var4 = var2 == var5;
                             var6 = var5;
- 36:
-                            if(var4) { _fun0002_ip = 85; continue _fun0002 }
- 39:
+case 6:
+                            if(var4) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                             var5 = var6.scrollToLocation;
                             var4 = {'section': 0, 'item': 0};
                             var7 = _closure1_slot4;
@@ -103,11 +103,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var7 = !var7;
                             var4['animated'] = var7;
                             var4 = var5.bind(var6)(var4);
- 85:
+case 8:
                             var3 = _closure2_slot1;
                             var4 = var3.current;
-                            if(!(var2 != var4)) { _fun0002_ip = 139; continue _fun0002 }
- 98:
+                            if(!(var2 != var4)) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
                             var3 = var4.scrollToOffset;
                             var2 = {};
                             var5 = 0;
@@ -117,14 +117,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var5 = !var5;
                             var2['animated'] = var5;
                             var2 = var3.bind(var4)(var2);
- 139:
+case 10:
                             return var1;
                         }
                     };
                     var2 = 300;
                     var2 = var5.bind(var1)(var4, var2);
                     var3['scrollToTopTimeout'] = var2;
- 143:
+case 2:
                     return var1;
                 }
             };

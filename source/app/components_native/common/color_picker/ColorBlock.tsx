@@ -46,17 +46,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var8.memo;
     var4 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var14 = var1.color;
             var _closure2_slot0 = var14;
             var9 = var1.style;
             var7 = var1.selected;
             var5 = undefined;
-            if(!(var7 === var5)) { _fun0001_ip = 33; continue _fun0001 }
- 31:
+            if(!(var7 === var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var7 = false;
- 33:
+case 2:
             var1 = var1.onSelect;
             var _closure2_slot1 = var1;
             var3 = _closure1_slot0;
@@ -68,8 +68,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.bind(var3)(var14);
             var12 = var2.v;
             var6 = null;
-            if(!(var6 == var1)) { _fun0001_ip = 318; continue _fun0001 }
- 91:
+            if(!(var6 == var1)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = _closure1_slot4;
             var2 = _closure1_slot3;
             var1 = {};
@@ -89,8 +89,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4[2] = var10;
             var1['style'] = var4;
             var4 = null;
-            if(!var7) { _fun0001_ip = 303; continue _fun0001 }
- 173:
+            if(!var7) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var16 = _closure1_slot4;
             var18 = _closure1_slot1;
             var19 = _closure1_slot2;
@@ -103,8 +103,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17 = var18.bind(var5)(var17);
             var10['source'] = var17;
             var17 = 0.5;
-            if(!(!(var12 < var17))) { _fun0001_ip = 262; continue _fun0001 }
- 229:
+            if(!(!(var12 < var17))) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var18 = _closure1_slot1;
             var19 = _closure1_slot2;
             var17 = 3;
@@ -112,8 +112,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17 = var18.bind(var5)(var17);
             var17 = var17.unsafe_rawColors;
             var17 = var17.BLACK_500;
-            _fun0001_ip = 293; continue _fun0001;
- 262:
+            _fun0001_ip = 10; continue _fun0001;
+case 8:
             var19 = _closure1_slot1;
             var20 = _closure1_slot2;
             var18 = 3;
@@ -121,14 +121,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var18 = var19.bind(var5)(var18);
             var18 = var18.unsafe_rawColors;
             var17 = var18.WHITE_500;
- 293:
+case 10:
             var10['color'] = var17;
             var4 = var16.bind(var5)(var13, var10);
- 303:
+case 6:
             var1['children'] = var4;
             var1 = var3.bind(var5)(var2, var1);
-            _fun0001_ip = 635; continue _fun0001;
- 318:
+            _fun0001_ip = 11; continue _fun0001;
+case 4:
             var4 = _closure1_slot4;
             var13 = _closure1_slot0;
             var10 = _closure1_slot2;
@@ -175,8 +175,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8[2] = var9;
             var2['style'] = var8;
             var6 = null;
-            if(!var7) { _fun0001_ip = 625; continue _fun0001 }
- 495:
+            if(!var7) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var9 = _closure1_slot4;
             var13 = _closure1_slot1;
             var14 = _closure1_slot2;
@@ -189,8 +189,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var13.bind(var5)(var10);
             var7['source'] = var10;
             var10 = 0.5;
-            if(!(!(var12 < var10))) { _fun0001_ip = 584; continue _fun0001 }
- 551:
+            if(!(!(var12 < var10))) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var12 = _closure1_slot1;
             var13 = _closure1_slot2;
             var10 = 3;
@@ -198,8 +198,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var12.bind(var5)(var10);
             var10 = var10.unsafe_rawColors;
             var10 = var10.BLACK_500;
-            _fun0001_ip = 615; continue _fun0001;
- 584:
+            _fun0001_ip = 16; continue _fun0001;
+case 14:
             var12 = _closure1_slot1;
             var13 = _closure1_slot2;
             var11 = 3;
@@ -207,13 +207,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var12.bind(var5)(var11);
             var11 = var11.unsafe_rawColors;
             var10 = var11.WHITE_500;
- 615:
+case 16:
             var7['color'] = var10;
             var6 = var9.bind(var5)(var8, var7);
- 625:
+case 12:
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 635:
+case 11:
             return var1;
         }
     };

@@ -69,12 +69,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['openSecureFramesStreamVerification'] = var7;
     var7 = function openSecureFramesUserVerificationModal(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg3;
             var1 = undefined;
             var2 = var2.bind(var1)();
-            if(!var2) { _fun0001_ip = 102; continue _fun0001 }
- 12:
+            if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = _closure1_slot1;
             var3 = _closure1_slot2;
             var4 = 4;
@@ -96,21 +96,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['channelId'] = var7;
             var2 = _closure1_slot7;
             var2 = var5.bind(var6)(var4, var3, var2);
- 102:
+case 2:
             return var1;
         }
     };
     var2['openSecureFramesUserVerificationModal'] = var7;
     var7 = function openSecureFramesUpdateConfirmation(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var3 = arg1;
             var10 = var3.title;
             var9 = var3.subtitle;
             var7 = var3.confirmText;
             var1 = undefined;
-            if(!(var7 === var1)) { _fun0002_ip = 86; continue _fun0002 }
- 28:
+            if(!(var7 === var1)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var8 = _closure1_slot0;
             var11 = _closure1_slot2;
             var4 = 9;
@@ -123,7 +123,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.t;
             var4 = var4.cY+Ooa;
             var7 = var5.bind(var6)(var4);
- 86:
+case 4:
             var3 = var3.onConfirm;
             var _closure2_slot0 = var3;
             var4 = _closure1_slot1;
@@ -158,14 +158,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.then;
             var2 = function(arg1) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var1 = arg1;
-                    if(!var1) { _fun0003_ip = 19; continue _fun0003 }
- 6:
+                    if(!var1) { _fun0003_ip = 6; continue _fun0003 }
+case 7:
                     var2 = _closure2_slot0;
                     var1 = undefined;
                     var1 = var2.bind(var1)();
- 19:
+case 6:
                     var1 = undefined;
                     return var1;
                 }
@@ -177,7 +177,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['openSecureFramesUpdateConfirmation'] = var7;
     var4 = function handleSecureFramesUserVerificationLink(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var1 = arg1;
             var10 = var1.userId;
             var7 = var1.fingerprint;
@@ -191,19 +191,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var3 == var4;
             var1 = undefined;
             var8 = undefined;
-            if(var5) { _fun0004_ip = 68; continue _fun0004 }
- 58:
+            if(var5) { _fun0004_ip = 8; continue _fun0004 }
+case 9:
             var5 = var4.getGuildId;
             var8 = var5.bind(var4)();
- 68:
-            if(!(var3 == var8)) { _fun0004_ip = 76; continue _fun0004 }
- 72:
+case 8:
+            if(!(var3 == var8)) { _fun0004_ip = 10; continue _fun0004 }
+case 11:
             var8 = _closure1_slot8;
- 76:
-            if(!(var3 != var9)) { _fun0004_ip = 87; continue _fun0004 }
- 80:
-            if(!(var3 == var4)) { _fun0004_ip = 228; continue _fun0004 }
- 87:
+case 10:
+            if(!(var3 != var9)) { _fun0004_ip = 12; continue _fun0004 }
+case 13:
+            if(!(var3 == var4)) { _fun0004_ip = 14; continue _fun0004 }
+case 12:
             var4 = _closure1_slot1;
             var14 = _closure1_slot2;
             var3 = 10;
@@ -234,8 +234,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var11.bind(var12)(var6);
             var3['body'] = var6;
             var3 = var4.bind(var5)(var3);
-            _fun0004_ip = 351; continue _fun0004;
- 228:
+            _fun0004_ip = 15; continue _fun0004;
+case 14:
             var5 = _closure1_slot1;
             var3 = _closure1_slot2;
             var4 = 12;
@@ -264,7 +264,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['guildId'] = var8;
             var2['fingerprint'] = var7;
             var2 = var5.bind(var6)(var4, var3, var2);
- 351:
+case 15:
             return var1;
         }
     };

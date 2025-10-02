@@ -54,7 +54,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[0] = var6;
         var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var9 = _closure2_slot0;
                 var1 = _closure1_slot3;
                 var2 = new Array(2);
@@ -62,15 +62,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = _closure1_slot2;
                 var2[1] = var1;
                 var4 = undefined;
-                if(!(var2 === var4)) { _fun0001_ip = 59; continue _fun0001 }
- 36:
+                if(!(var2 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var5 = _closure1_slot3;
                 var1 = new Array(2);
                 var1[0] = var5;
                 var5 = _closure1_slot2;
                 var1[1] = var5;
                 var2 = var1;
- 59:
+case 2:
                 var5 = var2;
                 var1 = var5[Symbol.iterator];
                 var5 = var1().next;
@@ -78,64 +78,64 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var1;
                 var2 = var2 === var4;
                 var6 = undefined;
-                if(var2) { _fun0001_ip = 84; continue _fun0001 }
- 81:
+                if(var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var6 = var7;
- 84:
+case 4:
                 var8 = undefined;
-                if(var2) { _fun0001_ip = 114; continue _fun0001 }
- 89:
+                if(var2) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                 var7 = var5().value;
                 var5 = var1;
                 var5 = var5 === var4;
                 var8 = undefined;
                 var2 = var5;
-                if(var5) { _fun0001_ip = 114; continue _fun0001 }
- 108:
+                if(var5) { _fun0001_ip = 6; continue _fun0001 }
+case 8:
                 var8 = var7;
                 var2 = var5;
- 114:
-                if(var2) { _fun0001_ip = 120; continue _fun0001 }
- 117:
+case 6:
+                if(var2) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
                 var1.return();
- 120:
+case 9:
                 var2 = null;
                 var5 = var2 == var9;
                 var1 = false;
-                if(var5) { _fun0001_ip = 224; continue _fun0001 }
- 131:
+                if(var5) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
                 var5 = var6.getChannelId;
                 var5 = var5.bind(var6)();
                 var1 = false;
-                if(!(var5 === var9)) { _fun0001_ip = 224; continue _fun0001 }
- 147:
+                if(!(var5 === var9)) { _fun0001_ip = 11; continue _fun0001 }
+case 13:
                 var5 = var8.getChannel;
                 var8 = var5.bind(var8)(var9);
                 var5 = var2 == var8;
                 var1 = false;
-                if(var5) { _fun0001_ip = 224; continue _fun0001 }
- 166:
+                if(var5) { _fun0001_ip = 11; continue _fun0001 }
+case 14:
                 var5 = var8.isGuildStageVoice;
                 var5 = var5.bind(var8)();
                 var1 = false;
-                if(var5) { _fun0001_ip = 224; continue _fun0001 }
- 181:
+                if(var5) { _fun0001_ip = 11; continue _fun0001 }
+case 15:
                 var5 = var6.getSecureFramesState;
                 var5 = var5.bind(var6)();
                 var6 = var2 == var5;
                 var4 = undefined;
-                if(var6) { _fun0001_ip = 206; continue _fun0001 }
- 200:
+                if(var6) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
                 var4 = var5.version;
- 206:
+case 16:
                 var2 = var2 != var4;
-                if(!var2) { _fun0001_ip = 221; continue _fun0001 }
- 213:
+                if(!var2) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
                 var3 = _closure1_slot4;
                 var2 = var4 !== var3;
- 221:
+case 18:
                 var1 = var2;
- 224:
+case 11:
                 return var1;
             }
         };

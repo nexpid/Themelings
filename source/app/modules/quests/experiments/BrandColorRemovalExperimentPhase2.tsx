@@ -75,7 +75,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot3 = var4;
     var4 = function getSidebarWidth() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = global;
             var1 = var2.document;
             var1 = var1.body;
@@ -90,10 +90,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var2.parseInt;
             var2 = '375';
             var4 = '';
-            if(!(var4 !== var1)) { _fun0001_ip = 77; continue _fun0001 }
- 74:
+            if(!(var4 !== var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var1;
- 77:
+case 2:
             var1 = undefined;
             var1 = var3.bind(var1)(var2);
             return var1;
@@ -108,7 +108,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function useQuestBrandColorRemovalPhase2ExperimentConfig(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var3 = arg1;
             var2 = var3.questConfig;
             var _closure2_slot0 = var2;
@@ -143,10 +143,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var5.useConfig;
             var2 = {};
             var7 = 'NONE';
-            if(!var6) { _fun0002_ip = 111; continue _fun0002 }
- 108:
+            if(!var6) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var7 = var8;
- 111:
+case 4:
             var2['location'] = var7;
             var7 = var4.bind(var5)(var2);
             _closure2_slot2 = var7;
@@ -155,14 +155,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var2 != var4;
             var5 = 270;
             var2 = var5;
-            if(!var8) { _fun0002_ip = 165; continue _fun0002 }
- 147:
+            if(!var8) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var4 = var4.label1;
             var2 = var5;
-            if(!var4) { _fun0002_ip = 165; continue _fun0002 }
- 159:
+            if(!var4) { _fun0002_ip = 6; continue _fun0002 }
+case 8:
             var2 = 300;
- 165:
+case 6:
             _closure2_slot3 = var2;
             var4 = _closure1_slot1;
             var8 = var4.useState;
@@ -231,21 +231,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[2] = var5;
             var1 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var1 = _closure2_slot2;
                     var1 = var1.enabled;
-                    if(!var1) { _fun0003_ip = 22; continue _fun0003 }
- 15:
+                    if(!var1) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
                     var1 = _closure2_slot1;
-                    if(var1) { _fun0003_ip = 41; continue _fun0003 }
- 22:
+                    if(var1) { _fun0003_ip = 11; continue _fun0003 }
+case 9:
                     var1 = {};
                     var2 = false;
                     var1['enabled'] = var2;
                     var2 = undefined;
                     var1['status'] = var2;
-                    _fun0003_ip = 212; continue _fun0003;
- 41:
+                    _fun0003_ip = 12; continue _fun0003;
+case 11:
                     var2 = {};
                     var10 = _closure2_slot2;
                     var11 = var2;
@@ -260,50 +260,50 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = null;
                     var9 = var7 == var6;
                     var8 = undefined;
-                    if(var9) { _fun0003_ip = 98; continue _fun0003 }
- 92:
+                    if(var9) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
                     var8 = var6.label1;
- 98:
-                    if(!var8) { _fun0003_ip = 108; continue _fun0003 }
- 101:
+case 13:
+                    if(!var8) { _fun0003_ip = 5; continue _fun0003 }
+case 15:
                     var6 = _closure2_slot4;
                     var8 = !var6;
- 108:
+case 5:
                     var6 = 'label1';
                     var4[var6] = var8;
                     var6 = _closure2_slot2;
                     var6 = var6.status;
                     var9 = var7 == var6;
                     var8 = undefined;
-                    if(var9) { _fun0003_ip = 141; continue _fun0003 }
- 135:
+                    if(var9) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
                     var8 = var6.label2;
- 141:
-                    if(!var8) { _fun0003_ip = 151; continue _fun0003 }
- 144:
+case 16:
+                    if(!var8) { _fun0003_ip = 18; continue _fun0003 }
+case 19:
                     var6 = _closure2_slot4;
                     var8 = !var6;
- 151:
+case 18:
                     var6 = 'label2';
                     var4[var6] = var8;
                     var6 = _closure2_slot2;
                     var6 = var6.status;
                     var7 = var7 == var6;
                     var5 = undefined;
-                    if(var7) { _fun0003_ip = 184; continue _fun0003 }
- 178:
+                    if(var7) { _fun0003_ip = 20; continue _fun0003 }
+case 21:
                     var5 = var6.shineWipe;
- 184:
-                    if(var5) { _fun0003_ip = 191; continue _fun0003 }
- 187:
+case 20:
+                    if(var5) { _fun0003_ip = 22; continue _fun0003 }
+case 23:
                     var5 = _closure2_slot4;
- 191:
+case 22:
                     var3 = 'shineWipe';
                     var4[var3] = var5;
                     var3 = 'status';
                     var2[var3] = var4;
                     var1 = var2;
- 212:
+case 12:
                     return var1;
                 }
             };
@@ -314,7 +314,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['useQuestBrandColorRemovalPhase2ExperimentConfig'] = var4;
     var2 = function getIsQuestBrandColorRemovalPhase2ExperimentEnabled(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = var2.questConfig;
             var6 = var2.location;
@@ -332,17 +332,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.getConfig;
             var1 = {};
             var5 = 'NONE';
-            if(!var2) { _fun0004_ip = 81; continue _fun0004 }
- 78:
+            if(!var2) { _fun0004_ip = 24; continue _fun0004 }
+case 25:
             var5 = var6;
- 81:
+case 24:
             var1['location'] = var5;
             var1 = var3.bind(var4)(var1);
             var1 = var1.enabled;
-            if(!var1) { _fun0004_ip = 101; continue _fun0004 }
- 98:
+            if(!var1) { _fun0004_ip = 15; continue _fun0004 }
+case 13:
             var1 = var2;
- 101:
+case 15:
             return var1;
         }
     };

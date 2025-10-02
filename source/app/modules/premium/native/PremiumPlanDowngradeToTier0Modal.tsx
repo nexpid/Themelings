@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function PremiumPlanDowngradeToTier0(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = var1.analyticsLocations;
             var _closure2_slot0 = var2;
@@ -38,13 +38,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var6[var1];
             var1 = var5.bind(var4)(var1);
             var1 = var1.unsafe_rawColors;
-            if(var3) { _fun0001_ip = 135; continue _fun0001 }
- 127:
+            if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var10 = var1.PRIMARY_100;
-            _fun0001_ip = 141; continue _fun0001;
- 135:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var10 = var1.PRIMARY_600;
- 141:
+case 4:
             var3 = _closure1_slot15;
             var1 = _closure1_slot9;
             var1 = var1.TIER_0;
@@ -185,10 +185,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3 * var7;
             var19 = var5.bind(var6)(var3);
             var13 = var2;
-            if(var13) { _fun0001_ip = 669; continue _fun0001 }
- 666:
+            if(var13) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var13 = var1;
- 669:
+case 5:
             var3 = _closure1_slot14;
             var2 = _closure1_slot5;
             var1 = {};

@@ -9,8 +9,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function _isNativeReflectConstruct() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
- 2: // try_start_0
+case 0:
+case 2: // try_start_0
             var2 = global;
             var3 = var2.Boolean;
             var3 = var3.prototype;
@@ -28,11 +28,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var4)(var2);
             var2 = !var2;
             var _closure2_slot0 = var2;
- 72: // try_end0
-            _fun0001_ip = 76; continue _fun0001;
- 74: // catch_target0
+case 3: // try_end0
+            _fun0001_ip = 4; continue _fun0001;
+case 5: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+case 4:
             var2 = function _isNativeReflectConstruct() {
                 var1 = _closure2_slot0;
                 var1 = !var1;
@@ -48,11 +48,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot32 = var1;
     var9 = function handleSafetyHubRequestAgeVerificationResetModalAction(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = null;
-            if(!(var2 != var1)) { _fun0002_ip = 34; continue _fun0002 }
- 9:
+            if(!(var2 != var1)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var4 = '';
             _closure1_slot26 = var4;
             _closure1_slot28 = var1;
@@ -60,7 +60,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             _closure1_slot29 = var1;
             var1 = undefined;
             return var1;
- 34:
+case 6:
             var5 = "Cannot destructure 'undefined' or 'null'.";
             var6 = var2;
             var1 = throwTypeError(var6, var5);
@@ -149,7 +149,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function(arg1) {
         var4 = function SafetyHubStore() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var4 = this;
                 var3 = undefined;
                 var5 = undefined;
@@ -161,14 +161,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = _closure1_slot5;
                 var1 = _closure1_slot32;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0003_ip = 69; continue _fun0003 }
- 51:
+                if(var1) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
                 var7 = var9.apply;
                 var5 = arguments;
                 var1 = var5;
                 var1 = var7.bind(var9)(var4, var1);
-                _fun0003_ip = 105; continue _fun0003;
- 69:
+                _fun0003_ip = 10; continue _fun0003;
+case 8:
                 var7 = global;
                 var8 = var7.Reflect;
                 var7 = var8.construct;
@@ -177,7 +177,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var6.constructor;
                 var5 = arguments;
                 var1 = var7.bind(var8)(var9, var5, var6);
- 105:
+case 10:
                 var1 = var2.bind(var3)(var4, var1);
                 return var1;
             }
@@ -565,17 +565,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['SAFETY_HUB_APPEAL_SIGNAL_CUSTOM_INPUT_CHANGE'] = var10;
     var10 = function handleSafetyHubRequestReviewStart(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var2 = arg1;
             var3 = null;
-            if(!(var2 != var3)) { _fun0004_ip = 26; continue _fun0004 }
- 9:
+            if(!(var2 != var3)) { _fun0004_ip = 11; continue _fun0004 }
+case 7:
             var4 = true;
             _closure1_slot21 = var4;
             _closure1_slot22 = var3;
             var1 = undefined;
             return var1;
- 26:
+case 11:
             var5 = "Cannot destructure 'undefined' or 'null'.";
             var6 = var2;
             var1 = throwTypeError(var6, var5);
@@ -619,11 +619,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['SAFETY_HUB_REQUEST_REVIEW_FAILURE'] = var10;
     var10 = function handleSafetyHubRequestAgeVerificationStart(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = null;
-            if(!(var2 != var1)) { _fun0005_ip = 34; continue _fun0005 }
- 9:
+            if(!(var2 != var1)) { _fun0005_ip = 6; continue _fun0005 }
+case 7:
             var4 = '';
             _closure1_slot26 = var4;
             _closure1_slot28 = var1;
@@ -631,7 +631,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             _closure1_slot29 = var1;
             var1 = undefined;
             return var1;
- 34:
+case 6:
             var5 = "Cannot destructure 'undefined' or 'null'.";
             var6 = var2;
             var1 = throwTypeError(var6, var5);
@@ -668,11 +668,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['SAFETY_HUB_AUTOMATED_UNDERAGE_APPEAL_MODAL_CLOSE'] = var9;
     var9 = function handleSafetyHubAutomatedUnderageAppealSubmitSuccessAction(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = null;
-            if(!(var2 != var1)) { _fun0006_ip = 125; continue _fun0006 }
- 9:
+            if(!(var2 != var1)) { _fun0006_ip = 12; continue _fun0006 }
+case 7:
             var1 = _closure1_slot8;
             var1 = var1.LOADING;
             _closure1_slot30 = var1;
@@ -680,15 +680,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = 6;
             var1 = undefined;
             for(var4 in var8)
- 43:
+case 13:
             {
- 52:
+case 14:
                 var11 = var4;
                 var10 = _closure1_slot11;
                 var10 = var10[var11];
                 var10 = var10.is_coppa;
-                if(!var10) { _fun0006_ip = 43; continue _fun0006 }
- 72:
+                if(!var10) { _fun0006_ip = 13; continue _fun0006 }
+case 3:
                 var10 = _closure1_slot11;
                 var11 = var10[var11];
                 var10 = {};
@@ -700,11 +700,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var12 = var12.REVIEW_PENDING;
                 var10['status'] = var12;
                 var11['appeal_status'] = var10;
-                _fun0006_ip = 43; continue _fun0006;
+                _fun0006_ip = 13; continue _fun0006;
             }
- 123:
+case 15:
             return var1;
- 125:
+case 12:
             var14 = "Cannot destructure 'undefined' or 'null'.";
             var15 = var2;
             var1 = throwTypeError(var15, var14);
@@ -715,18 +715,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['SAFETY_HUB_AUTOMATED_UNDERAGE_APPEAL_SUBMIT_SUCCESS'] = var9;
     var9 = function handleSafetyHubAgeVerificationStartPoll(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
- 0:
+case 0:
             var2 = arg1;
             var3 = null;
-            if(!(var2 != var3)) { _fun0007_ip = 34; continue _fun0007 }
- 9:
+            if(!(var2 != var3)) { _fun0007_ip = 6; continue _fun0007 }
+case 7:
             var4 = _closure1_slot8;
             var4 = var4.LOADING;
             _closure1_slot30 = var4;
             _closure1_slot31 = var3;
             var1 = undefined;
             return var1;
- 34:
+case 6:
             var5 = "Cannot destructure 'undefined' or 'null'.";
             var6 = var2;
             var1 = throwTypeError(var6, var5);
@@ -737,11 +737,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['SAFETY_HUB_AUTOMATED_UNDERAGE_APPEAL_START_POLL'] = var9;
     var9 = function handleSafetyHubCheckAgeVerificationStart(arg1) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = null;
-            if(!(var2 != var1)) { _fun0008_ip = 49; continue _fun0008 }
- 9:
+            if(!(var2 != var1)) { _fun0008_ip = 16; continue _fun0008 }
+case 7:
             var4 = _closure1_slot8;
             var4 = var4.LOADING;
             _closure1_slot30 = var4;
@@ -752,7 +752,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             _closure1_slot27 = var1;
             var1 = undefined;
             return var1;
- 49:
+case 16:
             var5 = "Cannot destructure 'undefined' or 'null'.";
             var6 = var2;
             var1 = throwTypeError(var6, var5);
@@ -763,27 +763,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['SAFETY_HUB_CHECK_AUTOMATED_UNDERAGE_APPEAL_START'] = var9;
     var9 = function handleSafetyHubCheckAgeVerificationCheckSuccess(arg1) {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
- 0:
+case 0:
             var1 = arg1;
             var1 = var1.success;
-            if(var1) { _fun0009_ip = 51; continue _fun0009 }
- 15:
+            if(var1) { _fun0009_ip = 9; continue _fun0009 }
+case 17:
             var3 = _closure1_slot27;
             var1 = _closure1_slot10;
-            if(!(!(var3 < var1))) { _fun0009_ip = 39; continue _fun0009 }
- 27:
+            if(!(!(var3 < var1))) { _fun0009_ip = 18; continue _fun0009 }
+case 19:
             var1 = _closure1_slot8;
             var1 = var1.FAILURE;
-            _fun0009_ip = 49; continue _fun0009;
- 39:
+            _fun0009_ip = 16; continue _fun0009;
+case 18:
             var3 = _closure1_slot8;
             var1 = var3.LOADING;
- 49:
-            _fun0009_ip = 61; continue _fun0009;
- 51:
+case 16:
+            _fun0009_ip = 20; continue _fun0009;
+case 9:
             var3 = _closure1_slot8;
             var1 = var3.SUCCESS;
- 61:
+case 20:
             _closure1_slot30 = var1;
             var1 = null;
             _closure1_slot31 = var1;

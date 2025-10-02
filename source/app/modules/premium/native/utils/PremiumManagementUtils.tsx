@@ -44,36 +44,36 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot5 = var5;
     var4 = function getPremiumManagementMethod(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var3 = null;
             var4 = var3 == var2;
             var1 = null;
-            if(var4) { _fun0001_ip = 88; continue _fun0001 }
- 14:
+            if(var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = var2.isOnPlatformMatchingExternalPaymentGateway;
-            if(var4) { _fun0001_ip = 72; continue _fun0001 }
- 23:
+            if(var4) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var4 = var2.isPurchasedExternally;
-            if(!var4) { _fun0001_ip = 42; continue _fun0001 }
- 32:
+            if(!var4) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var2 = var2.paymentGateway;
-            if(!(var3 == var2)) { _fun0001_ip = 57; continue _fun0001 }
- 42:
+            if(!(var3 == var2)) { _fun0001_ip = 8; continue _fun0001 }
+case 6:
             var2 = _closure1_slot5;
             var2 = var2.IN_WEB;
-            _fun0001_ip = 70; continue _fun0001;
- 57:
+            _fun0001_ip = 9; continue _fun0001;
+case 8:
             var3 = _closure1_slot5;
             var2 = var3.IN_EXTERNAL_MOBILE_PAYMENT_GATEWAY;
- 70:
-            _fun0001_ip = 85; continue _fun0001;
- 72:
+case 9:
+            _fun0001_ip = 10; continue _fun0001;
+case 4:
             var3 = _closure1_slot5;
             var2 = var3.IN_APP;
- 85:
+case 10:
             var1 = var2;
- 88:
+case 2:
             return var1;
         }
     };
@@ -139,24 +139,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['getPremiumManagementMethod'] = var4;
     var2 = function getExternalManagementMessage(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var7 = arg1;
             var6 = arguments[1];
             var10 = undefined;
-            if(!(var6 === var10)) { _fun0002_ip = 16; continue _fun0002 }
- 14:
+            if(!(var6 === var10)) { _fun0002_ip = 11; continue _fun0002 }
+case 3:
             var6 = null;
- 16:
+case 11:
             var _closure2_slot0 = var6;
             var1 = _closure1_slot6;
             var4 = var1.bind(var10)(var7);
             var1 = null;
-            if(!(var1 != var4)) { _fun0002_ip = 448; continue _fun0002 }
- 41:
+            if(!(var1 != var4)) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
             var2 = _closure1_slot5;
             var2 = var2.IN_APP;
-            if(!(var4 !== var2)) { _fun0002_ip = 448; continue _fun0002 }
- 58:
+            if(!(var4 !== var2)) { _fun0002_ip = 12; continue _fun0002 }
+case 14:
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
             var2 = 4;
@@ -165,29 +165,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.isIOS;
             var2 = var2.bind(var3)();
             var9 = 'Android';
-            if(!var2) { _fun0002_ip = 103; continue _fun0002 }
- 97:
+            if(!var2) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
             var9 = 'iOS';
- 103:
+case 15:
             var2 = _closure1_slot5;
             var2 = var2.IN_EXTERNAL_MOBILE_PAYMENT_GATEWAY;
-            if(!(var4 === var2)) { _fun0002_ip = 134; continue _fun0002 }
- 117:
-            if(!(var1 != var7)) { _fun0002_ip = 134; continue _fun0002 }
- 121:
+            if(!(var4 === var2)) { _fun0002_ip = 17; continue _fun0002 }
+case 18:
+            if(!(var1 != var7)) { _fun0002_ip = 17; continue _fun0002 }
+case 19:
             var2 = var7.paymentGateway;
-            if(!(var1 == var2)) { _fun0002_ip = 360; continue _fun0002 }
- 134:
+            if(!(var1 == var2)) { _fun0002_ip = 20; continue _fun0002 }
+case 17:
             var2 = _closure1_slot5;
             var3 = var2.IN_WEB;
             var2 = null;
-            if(!(var4 === var3)) { _fun0002_ip = 358; continue _fun0002 }
- 153:
-            if(!(var1 != var6)) { _fun0002_ip = 216; continue _fun0002 }
- 157:
+            if(!(var4 === var3)) { _fun0002_ip = 21; continue _fun0002 }
+case 22:
+            if(!(var1 != var6)) { _fun0002_ip = 23; continue _fun0002 }
+case 24:
             var3 = var6.shouldAllowIfApplePaymentLinksEnabled;
-            if(!var3) { _fun0002_ip = 216; continue _fun0002 }
- 166:
+            if(!var3) { _fun0002_ip = 23; continue _fun0002 }
+case 25:
             var4 = _closure1_slot0;
             var5 = _closure1_slot2;
             var3 = 5;
@@ -199,8 +199,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['location'] = var6;
             var3 = var4.bind(var5)(var3);
             var3 = var3.enabled;
-            if(var3) { _fun0002_ip = 283; continue _fun0002 }
- 216:
+            if(var3) { _fun0002_ip = 26; continue _fun0002 }
+case 23:
             var4 = _closure1_slot0;
             var11 = _closure1_slot2;
             var3 = 3;
@@ -215,8 +215,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = {};
             var3['mobilePlatform'] = var9;
             var3 = var5.bind(var6)(var4, var3);
-            _fun0002_ip = 355; continue _fun0002;
- 283:
+            _fun0002_ip = 27; continue _fun0002;
+case 26:
             var5 = _closure1_slot0;
             var13 = _closure1_slot2;
             var4 = 3;
@@ -231,7 +231,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = {};
             var12 = function manageExternalNitroSubscription() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
                     var1 = 6;
@@ -245,24 +245,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4['loadId'] = var7;
                     var3 = var3.onSuccessCallback;
                     var8 = null;
-                    if(!(var8 == var3)) { _fun0003_ip = 69; continue _fun0003 }
- 63:
+                    if(!(var8 == var3)) { _fun0003_ip = 28; continue _fun0003 }
+case 29:
                     var3 = _closure1_slot7;
-                    _fun0003_ip = 79; continue _fun0003;
- 69:
+                    _fun0003_ip = 30; continue _fun0003;
+case 28:
                     var7 = _closure2_slot0;
                     var3 = var7.onSuccessCallback;
- 79:
+case 30:
                     var7 = _closure2_slot0;
                     var7 = var7.onFailureCallback;
-                    if(!(var8 == var7)) { _fun0003_ip = 99; continue _fun0003 }
- 93:
+                    if(!(var8 == var7)) { _fun0003_ip = 31; continue _fun0003 }
+case 32:
                     var2 = _closure1_slot8;
-                    _fun0003_ip = 109; continue _fun0003;
- 99:
+                    _fun0003_ip = 33; continue _fun0003;
+case 31:
                     var1 = _closure2_slot0;
                     var2 = var1.onFailureCallback;
- 109:
+case 33:
                     var12 = 'premium_external_management';
                     var13 = var6;
                     var11 = var4;
@@ -274,11 +274,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var4['manageExternalNitroSubscription'] = var12;
             var3 = var6.bind(var11)(var5, var4);
- 355:
+case 27:
             var2 = var3;
- 358:
-            _fun0002_ip = 446; continue _fun0002;
- 360:
+case 21:
+            _fun0002_ip = 34; continue _fun0002;
+case 20:
             var4 = _closure1_slot0;
             var11 = _closure1_slot2;
             var3 = 3;
@@ -297,9 +297,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var8[var7];
             var3['externalPaymentGateway'] = var7;
             var2 = var5.bind(var6)(var4, var3);
- 446:
+case 34:
             return var2;
- 448:
+case 12:
             return var1;
         }
     };

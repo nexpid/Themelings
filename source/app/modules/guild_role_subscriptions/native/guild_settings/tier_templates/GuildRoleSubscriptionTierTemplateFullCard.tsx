@@ -47,7 +47,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot8 = var1;
     var1 = function BenefitRow(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var10 = var1.title;
             var14 = var1.description;
@@ -82,8 +82,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9[0] = var10;
             var10 = null;
             var12 = var10 != var14;
-            if(!var12) { _fun0001_ip = 204; continue _fun0001 }
- 139:
+            if(!var12) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var13 = _closure1_slot4;
             var12 = _closure1_slot0;
             var16 = _closure1_slot2;
@@ -96,7 +96,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11['style'] = var15;
             var11['children'] = var14;
             var10 = var13.bind(var4)(var12, var11);
- 204:
+case 2:
             var9[1] = var10;
             var6['children'] = var9;
             var6 = var8.bind(var4)(var7, var6);

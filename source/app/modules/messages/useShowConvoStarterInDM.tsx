@@ -48,19 +48,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['MAX_MESSAGES_ALLOWED_FOR_GREETING'] = var4;
     var2 = function useShowConvoStarterInDM(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var7 = arg1;
             var _closure2_slot0 = var7;
             var2 = var7.isDM;
             var8 = var2.bind(var7)();
-            if(!var8) { _fun0001_ip = 35; continue _fun0001 }
- 22:
+            if(!var8) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var7.isSystemDM;
             var2 = var2.bind(var7)();
             var8 = !var2;
- 35:
-            if(!var8) { _fun0001_ip = 65; continue _fun0001 }
- 38:
+case 2:
+            if(!var8) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var4 = var7.rawRecipients;
             var3 = var4.some;
             var2 = function(arg1) {
@@ -70,14 +70,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var2 = var3.bind(var4)(var2);
             var8 = !var2;
- 65:
+case 4:
             var _closure2_slot1 = var8;
             var6 = null;
-            if(!var8) { _fun0001_ip = 84; continue _fun0001 }
- 74:
+            if(!var8) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var2 = var7.getRecipientId;
             var6 = var2.bind(var7)();
- 84:
+case 6:
             var _closure2_slot2 = var6;
             var5 = _closure1_slot0;
             var10 = _closure1_slot1;
@@ -110,92 +110,92 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[3] = var6;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = _closure2_slot3;
                     var1 = null;
-                    if(!(var1 == var3)) { _fun0002_ip = 274; continue _fun0002 }
- 16:
+                    if(!(var1 == var3)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                     var3 = _closure2_slot1;
-                    if(var3) { _fun0002_ip = 27; continue _fun0002 }
- 23:
+                    if(var3) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
                     var3 = false;
                     return var3;
- 27:
+case 10:
                     var6 = _closure1_slot2;
                     var5 = var6.isMessageRequest;
                     var4 = _closure2_slot0;
                     var4 = var4.id;
                     var4 = var5.bind(var6)(var4);
-                    if(var4) { _fun0002_ip = 270; continue _fun0002 }
- 60:
+                    if(var4) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
                     var4 = _closure2_slot2;
-                    if(!(var1 != var4)) { _fun0002_ip = 104; continue _fun0002 }
- 68:
+                    if(!(var1 != var4)) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
                     var6 = _closure1_slot4;
                     var5 = var6.getRelationshipType;
                     var4 = _closure2_slot2;
                     var5 = var5.bind(var6)(var4);
                     var4 = _closure1_slot6;
                     var4 = var4.BLOCKED;
-                    if(!(var5 !== var4)) { _fun0002_ip = 266; continue _fun0002 }
- 104:
+                    if(!(var5 !== var4)) { _fun0002_ip = 16; continue _fun0002 }
+case 14:
                     var4 = _closure2_slot2;
-                    if(!(var1 != var4)) { _fun0002_ip = 159; continue _fun0002 }
- 112:
+                    if(!(var1 != var4)) { _fun0002_ip = 17; continue _fun0002 }
+case 18:
                     var6 = _closure1_slot5;
                     var5 = var6.getUser;
                     var4 = _closure2_slot2;
                     var5 = var5.bind(var6)(var4);
-                    if(!(var1 != var5)) { _fun0002_ip = 159; continue _fun0002 }
- 135:
+                    if(!(var1 != var5)) { _fun0002_ip = 17; continue _fun0002 }
+case 19:
                     var4 = var5.hasFlag;
                     var1 = _closure1_slot7;
                     var1 = var1.PROVISIONAL_ACCOUNT;
                     var1 = var4.bind(var5)(var1);
-                    if(var1) { _fun0002_ip = 262; continue _fun0002 }
- 159:
+                    if(var1) { _fun0002_ip = 20; continue _fun0002 }
+case 17:
                     var5 = _closure1_slot3;
                     var4 = var5.getMessages;
                     var1 = _closure2_slot0;
                     var1 = var1.id;
                     var4 = var4.bind(var5)(var1);
                     var1 = var4.ready;
-                    if(!var1) { _fun0002_ip = 201; continue _fun0002 }
- 192:
+                    if(!var1) { _fun0002_ip = 21; continue _fun0002 }
+case 22:
                     var5 = var4.hasMoreBefore;
                     var1 = !var5;
- 201:
-                    if(!var1) { _fun0002_ip = 213; continue _fun0002 }
- 204:
+case 21:
+                    if(!var1) { _fun0002_ip = 23; continue _fun0002 }
+case 24:
                     var5 = var4.hasMoreAfter;
                     var1 = !var5;
- 213:
-                    if(!var1) { _fun0002_ip = 228; continue _fun0002 }
- 216:
+case 23:
+                    if(!var1) { _fun0002_ip = 25; continue _fun0002 }
+case 26:
                     var5 = var4.length;
                     var4 = 25;
                     var1 = var5 < var4;
- 228:
-                    if(!var1) { _fun0002_ip = 260; continue _fun0002 }
- 231:
+case 25:
+                    if(!var1) { _fun0002_ip = 27; continue _fun0002 }
+case 28:
                     var4 = _closure1_slot3;
                     var3 = var4.hasCurrentUserSentMessage;
                     var2 = _closure2_slot0;
                     var2 = var2.id;
                     var2 = var3.bind(var4)(var2);
                     var1 = !var2;
- 260:
+case 27:
                     return var1;
- 262:
+case 20:
                     var1 = false;
                     return var1;
- 266:
+case 16:
                     var1 = false;
                     return var1;
- 270:
+case 12:
                     var1 = false;
                     return var1;
- 274:
+case 8:
                     var1 = false;
                     return var1;
                 }

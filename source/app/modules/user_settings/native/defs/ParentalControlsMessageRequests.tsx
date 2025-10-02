@@ -82,7 +82,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['parent'] = var9;
     var9 = function useValue() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = _closure1_slot4;
             var2 = undefined;
             var1 = var1.bind(var2)();
@@ -100,17 +100,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.useControlledSetting;
             var6 = null;
             var6 = var6 != var5;
-            if(!var6) { _fun0001_ip = 79; continue _fun0001 }
- 76:
+            if(!var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var5;
- 79:
+case 2:
             var2 = var3.bind(var4)(var2);
             var2 = !var2;
             var1 = !var1;
-            if(!var1) { _fun0001_ip = 96; continue _fun0001 }
- 93:
+            if(!var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = var2;
- 96:
+case 4:
             return var1;
         }
     };
@@ -118,13 +118,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['useIsDisabled'] = var8;
     var7 = function onAllowMessageRequestsFromServerMembersValueChange(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var3 = _closure1_slot3;
             var2 = var3.getSelectedTeenId;
             var4 = var2.bind(var3)();
             var2 = null;
-            if(!(var2 != var4)) { _fun0002_ip = 69; continue _fun0002 }
- 23:
+            if(!(var2 != var4)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
             var1 = 4;
@@ -136,7 +136,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = arg1;
             var1 = !var1;
             var1 = var2.bind(var3)(var4, var1);
- 69:
+case 6:
             var1 = undefined;
             return var1;
         }

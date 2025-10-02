@@ -20,17 +20,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var4.bind(var5)(var2);
     var2 = function getDevicePixelRatio() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = global;
             var1 = var1.window;
             var2 = var1.devicePixelRatio;
             var1 = null;
             var3 = var1 != var2;
             var1 = 1;
-            if(!var3) { _fun0001_ip = 29; continue _fun0001 }
- 26:
+            if(!var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var2;
- 29:
+case 2:
             return var1;
         }
     };

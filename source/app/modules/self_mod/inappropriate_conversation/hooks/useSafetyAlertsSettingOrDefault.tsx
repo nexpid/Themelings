@@ -31,7 +31,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = _closure1_slot3;
             var2 = var3.getCurrentUser;
             var6 = var2.bind(var3)();
@@ -47,27 +47,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[0] = var1;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var1 = _closure1_slot2;
                     var1 = var1.settings;
                     var3 = var1.privacy;
                     var1 = null;
                     var4 = var1 == var3;
                     var2 = undefined;
-                    if(var4) { _fun0002_ip = 50; continue _fun0002 }
- 30:
+                    if(var4) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var3 = var3.inappropriateConversationWarnings;
                     var4 = var1 == var3;
                     var2 = undefined;
-                    if(var4) { _fun0002_ip = 50; continue _fun0002 }
- 45:
+                    if(var4) { _fun0002_ip = 2; continue _fun0002 }
+case 4:
                     var2 = var3.value;
- 50:
+case 2:
                     var1 = var1 == var2;
-                    if(var1) { _fun0002_ip = 60; continue _fun0002 }
- 57:
+                    if(var1) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
                     var1 = var2;
- 60:
+case 5:
                     return var1;
                 }
             };
@@ -86,32 +86,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['location'] = var8;
             var1 = var4.bind(var7)(var1);
             var4 = !var2;
-            if(var4) { _fun0001_ip = 132; continue _fun0001 }
- 129:
+            if(var4) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var4 = !var1;
- 132:
+case 7:
             var1 = !var4;
-            if(!var4) { _fun0001_ip = 177; continue _fun0001 }
- 138:
-            if(var2) { _fun0001_ip = 168; continue _fun0001 }
- 141:
+            if(!var4) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
+            if(var2) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var4 = null;
             var4 = var4 == var6;
             var5 = undefined;
-            if(var4) { _fun0001_ip = 162; continue _fun0001 }
- 152:
+            if(var4) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var4 = var6.isStaff;
             var5 = var4.bind(var6)();
- 162:
+case 13:
             var4 = true;
             var2 = var4 === var5;
- 168:
-            if(!var2) { _fun0001_ip = 174; continue _fun0001 }
- 171:
+case 11:
+            if(!var2) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
             var2 = var3;
- 174:
+case 15:
             var1 = var2;
- 177:
+case 9:
             return var1;
         }
     };

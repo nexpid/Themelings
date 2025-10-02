@@ -9,19 +9,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var7;
     var1 = function getContainerStyles(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var1 = _closure1_slot5;
             var1 = var1.RED;
-            if(!(var1 !== var3)) { _fun0001_ip = 104; continue _fun0001 }
- 20:
+            if(!(var1 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = _closure1_slot5;
             var1 = var1.YELLOW;
-            if(!(var1 !== var3)) { _fun0001_ip = 38; continue _fun0001 }
- 34:
+            if(!(var1 !== var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = undefined;
             return var1;
- 38:
+case 4:
             var1 = {};
             var5 = _closure1_slot1;
             var6 = _closure1_slot2;
@@ -38,7 +38,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.STATUS_WARNING;
             var1['borderColor'] = var3;
             return var1;
- 104:
+case 2:
             var1 = {};
             var4 = _closure1_slot1;
             var5 = _closure1_slot2;
@@ -60,19 +60,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot7 = var1;
     var1 = function getTextColor(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var3 = arg1;
             var2 = _closure1_slot5;
             var2 = var2.RED;
-            if(!(var2 !== var3)) { _fun0002_ip = 73; continue _fun0002 }
- 20:
+            if(!(var2 !== var3)) { _fun0002_ip = 6; continue _fun0002 }
+case 3:
             var2 = _closure1_slot5;
             var2 = var2.YELLOW;
-            if(!(var2 !== var3)) { _fun0002_ip = 38; continue _fun0002 }
- 34:
+            if(!(var2 !== var3)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var2 = undefined;
             return var2;
- 38:
+case 4:
             var4 = _closure1_slot1;
             var3 = _closure1_slot2;
             var2 = 3;
@@ -82,7 +82,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.colors;
             var2 = var2.INFO_WARNING_TEXT;
             return var2;
- 73:
+case 6:
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
             var1 = 3;

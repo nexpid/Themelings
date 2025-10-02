@@ -28,22 +28,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function trackInAppReportsFeedback(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var11 = var2.problem;
             var7 = var2.feedback;
             var10 = var2.reportType;
             var9 = var2.reportId;
             var1 = undefined;
-            if(!(var9 === var1)) { _fun0001_ip = 35; continue _fun0001 }
- 33:
+            if(!(var9 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var9 = null;
- 35:
+case 2:
             var8 = var2.rating;
-            if(!(var8 === var1)) { _fun0001_ip = 47; continue _fun0001 }
- 45:
+            if(!(var8 === var1)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var8 = null;
- 47:
+case 4:
             var6 = var2.dontShowAgain;
             var4 = _closure1_slot0;
             var5 = _closure1_slot1;

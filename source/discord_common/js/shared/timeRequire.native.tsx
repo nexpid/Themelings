@@ -24,7 +24,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function timeRequire(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var10 = arg1;
             var2 = global;
             var3 = var2.Date;
@@ -38,14 +38,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var7)();
             var6 = var3 - var6;
             var3 = 5;
-            if(!(var6 >= var3)) { _fun0001_ip = 273; continue _fun0001 }
- 60:
+            if(!(var6 >= var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var7 = _closure1_slot0;
             var7 = var7.getModules;
             var8 = 'function';
             var7 = typeof var7;
-            if(!(var8 !== var7)) { _fun0001_ip = 147; continue _fun0001 }
- 84:
+            if(!(var8 !== var7)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var8 = _closure1_slot1;
             var9 = _closure1_slot2;
             var7 = 0;
@@ -58,8 +58,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var8.bind(var7)(var10);
             var7 = '🏃';
             var7 = var9.bind(var11)(var7, var8, var6);
-            _fun0001_ip = 273; continue _fun0001;
- 147:
+            _fun0001_ip = 2; continue _fun0001;
+case 4:
             var8 = _closure1_slot0;
             var7 = var8.getModules;
             var9 = var7.bind(var8)();
@@ -92,7 +92,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var16[var8](var15, var14, var13, var12, var11);
             var2 = '🏃';
             var2 = var4.bind(var5)(var2, var3, var6);
- 273:
+case 2:
             return var1;
         }
     };

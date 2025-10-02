@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var9;
     var6 = function getLaunchPadPullTabPositionCached() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 1;
@@ -21,10 +21,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = _closure1_slot6;
             var1 = var3.bind(var4)(var1);
             var3 = null;
-            if(!(var3 == var1)) { _fun0001_ip = 55; continue _fun0001 }
- 51:
+            if(!(var3 == var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = _closure1_slot4;
- 55:
+case 2:
             return var1;
         }
     };
@@ -46,14 +46,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot10 = var5;
     var2 = function setLaunchPadPullTabExclusionRect() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var5 = arguments[0];
             var1 = undefined;
-            if(!(var5 === var1)) { _fun0002_ip = 20; continue _fun0002 }
- 9:
+            if(!(var5 === var1)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var2 = _closure1_slot9;
             var5 = var2.bind(var1)();
- 20:
+case 4:
             var4 = _closure1_slot0;
             var6 = _closure1_slot2;
             var3 = 2;
@@ -61,8 +61,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.bind(var1)(var3);
             var3 = var4.isAndroid;
             var3 = var3.bind(var4)();
-            if(!var3) { _fun0002_ip = 300; continue _fun0002 }
- 58:
+            if(!var3) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var4 = _closure1_slot0;
             var6 = _closure1_slot2;
             var3 = 4;
@@ -84,46 +84,46 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = null;
             var10 = var8 == var9;
             var3 = undefined;
-            if(var10) { _fun0002_ip = 153; continue _fun0002 }
- 148:
+            if(var10) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var3 = var9.left;
- 153:
+case 8:
             var3 = var3 === var7;
-            if(!var3) { _fun0002_ip = 182; continue _fun0002 }
- 160:
+            if(!var3) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
             var10 = _closure1_slot8;
             var11 = var8 == var10;
             var9 = undefined;
-            if(var11) { _fun0002_ip = 178; continue _fun0002 }
- 173:
+            if(var11) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
             var9 = var10.right;
- 178:
+case 12:
             var3 = var9 === var6;
- 182:
-            if(!var3) { _fun0002_ip = 207; continue _fun0002 }
- 185:
+case 10:
+            if(!var3) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
             var10 = _closure1_slot8;
             var11 = var8 == var10;
             var9 = undefined;
-            if(var11) { _fun0002_ip = 203; continue _fun0002 }
- 198:
+            if(var11) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
             var9 = var10.top;
- 203:
+case 16:
             var3 = var9 === var5;
- 207:
-            if(!var3) { _fun0002_ip = 232; continue _fun0002 }
- 210:
+case 14:
+            if(!var3) { _fun0002_ip = 18; continue _fun0002 }
+case 19:
             var9 = _closure1_slot8;
             var10 = var8 == var9;
             var8 = undefined;
-            if(var10) { _fun0002_ip = 228; continue _fun0002 }
- 223:
+            if(var10) { _fun0002_ip = 20; continue _fun0002 }
+case 21:
             var8 = var9.bottom;
- 228:
+case 20:
             var3 = var8 === var4;
- 232:
-            if(var3) { _fun0002_ip = 300; continue _fun0002 }
- 235:
+case 18:
+            if(var3) { _fun0002_ip = 6; continue _fun0002 }
+case 22:
             var3 = {};
             var3['left'] = var7;
             var3['right'] = var6;
@@ -140,7 +140,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = new Array(1);
             var2[0] = var5;
             var2 = var3.bind(var4)(var2);
- 300:
+case 6:
             return var1;
         }
     };
@@ -201,7 +201,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['persistLaunchPadPullTabPosition'] = var5;
     var4 = function clearLaunchPadPullTabExclusionRect() {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 2;
@@ -210,14 +210,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.bind(var1)(var3);
             var3 = var4.isAndroid;
             var3 = var3.bind(var4)();
-            if(!var3) { _fun0003_ip = 47; continue _fun0003 }
- 37:
+            if(!var3) { _fun0003_ip = 23; continue _fun0003 }
+case 24:
             var5 = _closure1_slot8;
             var4 = null;
             var3 = var4 != var5;
- 47:
-            if(!var3) { _fun0003_ip = 89; continue _fun0003 }
- 50:
+case 23:
+            if(!var3) { _fun0003_ip = 25; continue _fun0003 }
+case 26:
             _closure1_slot8 = var1;
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
@@ -227,7 +227,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.setSystemGestureExclusionRects;
             var2 = new Array(0);
             var2 = var3.bind(var4)(var2);
- 89:
+case 25:
             return var1;
         }
     };

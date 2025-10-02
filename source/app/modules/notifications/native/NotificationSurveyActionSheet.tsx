@@ -153,13 +153,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['trackOpen'] = var6;
         var5 = function trackReport(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var5 = var1.rating;
                 var7 = var1.reason;
                 var6 = null;
-                if(!(var6 != var5)) { _fun0001_ip = 122; continue _fun0001 }
- 21:
+                if(!(var6 != var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var4 = _closure1_slot1;
                 var3 = _closure1_slot2;
                 var2 = 5;
@@ -172,10 +172,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = {};
                 var8 = var6 != var7;
                 var6 = null;
-                if(!var8) { _fun0001_ip = 77; continue _fun0001 }
- 72:
+                if(!var8) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var6 = var7.value;
- 77:
+case 4:
                 var1['reason'] = var6;
                 var1['rating'] = var5;
                 var6 = _closure2_slot0;
@@ -185,7 +185,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = _closure2_slot2;
                 var1['message_id'] = var5;
                 var1 = var3.bind(var4)(var2, var1);
- 122:
+case 2:
                 var9 = _closure1_slot0;
                 var10 = _closure1_slot2;
                 var1 = 7;

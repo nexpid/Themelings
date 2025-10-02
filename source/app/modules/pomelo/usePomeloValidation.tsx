@@ -36,17 +36,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot6 = var4;
     var4 = function usePomeloFormValidation(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arguments[3];
             var3 = arg2;
             var _closure2_slot0 = var3;
             var3 = arg3;
             var _closure2_slot1 = var3;
             var5 = undefined;
-            if(!(var1 === var5)) { _fun0001_ip = 28; continue _fun0001 }
- 25:
+            if(!(var1 === var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = 2;
- 28:
+case 2:
             var _closure2_slot2 = var1;
             var _closure2_slot3 = var5;
             var _closure2_slot4 = var5;
@@ -89,42 +89,42 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = function* (arg1) {
                 var1 = function* anon_0_(arg1) {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                         StartGenerator();
                         var2 = arg1;
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                        if(var3) { _fun0002_ip = 528; continue _fun0002 }
- 13:
+                        if(var3) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                         var7 = var2;
                         var3 = undefined;
                         var5 = undefined;
                         var6 = undefined;
                         var9 = var2.length;
                         var8 = _closure2_slot2;
-                        if(!(!(var9 < var8))) { _fun0002_ip = 365; continue _fun0002 }
- 41: // try_start_0 // try_start_1
+                        if(!(!(var9 < var8))) { _fun0002_ip = 6; continue _fun0002 }
+case 7: // try_start_0 // try_start_1
                         var9 = _closure2_slot4;
                         var8 = true;
                         var8 = var9.bind(var3)(var8);
                         var8 = _closure2_slot1;
                         var7 = var8.bind(var3)(var7);
                         SaveGenerator(address=65);
- 63:
+case 8:
                         return var7;
- 65:
+case 9:
                         ResumeGenerator(result_out_reg=6, return_bool_out_reg=7);
-                        if(var8) { _fun0002_ip = 85; continue _fun0002 }
- 71: // try_end0 // try_end1
+                        if(var8) { _fun0002_ip = 10; continue _fun0002 }
+case 11: // try_end0 // try_end1
                         var9 = _closure2_slot4;
                         var8 = false;
                         var8 = var9.bind(var3)(var8);
                         return var3;
- 85:
+case 10:
                         var9 = _closure2_slot4;
                         var8 = false;
                         var8 = var9.bind(var3)(var8);
                         return var7;
- 99: // try_start_2 // catch_target0
+case 12: // try_start_2 // catch_target0
                         CatchBlockStart(arg_register=9);
                         var4 = var10;
                         var9 = _closure1_slot0;
@@ -142,24 +142,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var6 = var7;
                         var9 = var7.status;
                         var7 = null;
-                        if(!(var7 != var9)) { _fun0002_ip = 226; continue _fun0002 }
- 170:
+                        if(!(var7 != var9)) { _fun0002_ip = 13; continue _fun0002 }
+case 14:
                         var9 = var6;
                         var10 = var9.status;
                         var9 = 400;
-                        if(!(var10 >= var9)) { _fun0002_ip = 226; continue _fun0002 }
- 188:
+                        if(!(var10 >= var9)) { _fun0002_ip = 13; continue _fun0002 }
+case 15:
                         var9 = var6;
                         var10 = var9.status;
                         var9 = 500;
-                        if(!(var10 < var9)) { _fun0002_ip = 226; continue _fun0002 }
- 206:
+                        if(!(var10 < var9)) { _fun0002_ip = 13; continue _fun0002 }
+case 16:
                         var9 = var6;
                         var6 = var9.getAnyErrorMessage;
                         var6 = var6.bind(var9)();
                         var5 = var6;
-                        if(!(var7 == var6)) { _fun0002_ip = 285; continue _fun0002 }
- 226:
+                        if(!(var7 == var6)) { _fun0002_ip = 17; continue _fun0002 }
+case 13:
                         var10 = _closure1_slot0;
                         var11 = _closure1_slot2;
                         var6 = 4;
@@ -172,10 +172,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var6 = var6.t;
                         var6 = var6.ye0Rzs;
                         var6 = var7.bind(var9)(var6);
-                        _fun0002_ip = 288; continue _fun0002;
- 285:
+                        _fun0002_ip = 18; continue _fun0002;
+case 17:
                         var6 = var5;
- 288:
+case 18:
                         var7 = _closure2_slot5;
                         var5 = {};
                         var9 = _closure1_slot0;
@@ -191,13 +191,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var5 = _closure2_slot0;
                         var5 = var5.bind(var3)(var6);
                         throw var4;
- 350: // try_end2 // catch_target1 // catch_target2
+case 19: // try_end2 // catch_target1 // catch_target2
                         CatchBlockStart(arg_register=3);
                         var6 = _closure2_slot4;
                         var5 = false;
                         var5 = var6.bind(var3)(var5);
                         throw var4;
- 365:
+case 6:
                         var8 = _closure1_slot0;
                         var9 = _closure1_slot2;
                         var4 = 4;
@@ -236,7 +236,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = new var14[var2](var13, var12);
                         var2 = var2 instanceof Object ? var2 : var3;
                         throw var2;
- 528:
+case 4:
                         return var1;
                     }
                 };

@@ -22,34 +22,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function getChannelSubtitleData(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var1 = null;
-            if(!(var1 != var3)) { _fun0001_ip = 188; continue _fun0001 }
- 12:
+            if(!(var1 != var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = var3.type;
             var2 = 'embedded-activities';
-            if(!(var2 !== var4)) { _fun0001_ip = 165; continue _fun0001 }
- 30:
+            if(!(var2 !== var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = 'event';
-            if(!(var2 !== var4)) { _fun0001_ip = 165; continue _fun0001 }
- 41:
+            if(!(var2 !== var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 6:
             var2 = 'go-live';
-            if(!(var2 !== var4)) { _fun0001_ip = 86; continue _fun0001 }
- 51:
+            if(!(var2 !== var4)) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var2 = 'voice';
-            if(!(var2 !== var4)) { _fun0001_ip = 63; continue _fun0001 }
- 59:
+            if(!(var2 !== var4)) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var2 = undefined;
             return var2;
- 63:
+case 9:
             var2 = {};
             var4 = var3.text;
             var2['subtitle'] = var4;
             var4 = var3.type;
             var2['type'] = var4;
             return var2;
- 86:
+case 7:
             var2 = {};
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
@@ -68,14 +68,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var3.type;
             var2['type'] = var4;
             return var2;
- 165:
+case 4:
             var2 = {};
             var4 = var3.name;
             var2['subtitle'] = var4;
             var3 = var3.type;
             var2['type'] = var3;
             return var2;
- 188:
+case 2:
             return var1;
         }
     };

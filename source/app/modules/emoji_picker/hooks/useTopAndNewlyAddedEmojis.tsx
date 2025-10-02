@@ -7,38 +7,38 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var7;
     var2 = function getTopAndNewlyAddedEmojis(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var5 = var1.emojiStoreInstance;
             var2 = undefined;
-            if(!(var5 === var2)) { _fun0001_ip = 22; continue _fun0001 }
- 15:
+            if(!(var5 === var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = _closure1_slot2;
- 22:
+case 2:
             var4 = var1.guildId;
             var6 = var1.pickerIntention;
             var1 = {};
             var3 = _closure1_slot3;
             var3 = var3.REACTION;
-            if(!(var6 === var3)) { _fun0001_ip = 58; continue _fun0001 }
- 52:
+            if(!(var6 === var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = _closure1_slot4;
-            _fun0001_ip = 71; continue _fun0001;
- 58:
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
             var7 = var5.getTopEmoji;
             var3 = var7.bind(var5)(var4);
- 71:
+case 6:
             var1['topEmojis'] = var3;
             var3 = _closure1_slot3;
             var3 = var3.REACTION;
-            if(!(var6 === var3)) { _fun0001_ip = 96; continue _fun0001 }
- 90:
+            if(!(var6 === var3)) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var2 = _closure1_slot4;
-            _fun0001_ip = 109; continue _fun0001;
- 96:
+            _fun0001_ip = 9; continue _fun0001;
+case 7:
             var3 = var5.getNewlyAddedEmoji;
             var2 = var3.bind(var5)(var4);
- 109:
+case 9:
             var1['newlyAddedEmojis'] = var2;
             return var1;
         }

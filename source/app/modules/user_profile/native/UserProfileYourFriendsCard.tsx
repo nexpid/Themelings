@@ -185,7 +185,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3[2] = var2;
         var2 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var4 = _closure1_slot1;
                 var3 = _closure1_slot2;
                 var6 = 14;
@@ -221,8 +221,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var4.value;
                 var3 = var3.bind(var4)();
                 var4 = var3.length;
-                if(!(!(var4 >= var10))) { _fun0001_ip = 323; continue _fun0001 }
- 149:
+                if(!(!(var4 >= var10))) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var9 = _closure1_slot1;
                 var4 = _closure1_slot2;
                 var6 = var4[var6];
@@ -265,11 +265,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var13 = var7;
                 var6 = arraySpread(var14, var13, var12);
                 var4 = var5.bind(var1)(var4);
-                _fun0001_ip = 332; continue _fun0001;
- 323:
+                _fun0001_ip = 4; continue _fun0001;
+case 2:
                 var2 = _closure2_slot2;
                 var2 = var2.bind(var1)(var3);
- 332:
+case 4:
                 return var1;
             }
         };
@@ -295,7 +295,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var7.map;
             var1 = function(arg1, arg2) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var1 = arg1;
                     var10 = arg2;
                     var5 = _closure1_slot10;
@@ -334,10 +334,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = var8 - var11;
                     var10 = var10 < var8;
                     var8 = undefined;
-                    if(!var10) { _fun0002_ip = 157; continue _fun0002 }
- 153:
+                    if(!var10) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
                     var8 = _closure1_slot12;
- 157:
+case 5:
                     var6['cutout'] = var8;
                     var6 = var5.bind(var2)(var7, var6);
                     var3['children'] = var6;

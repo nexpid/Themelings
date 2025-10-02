@@ -30,29 +30,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function isOnXbox(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var5 = null;
             var1 = var5 == var4;
             var6 = undefined;
-            if(var1) { _fun0001_ip = 20; continue _fun0001 }
- 14:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = var4.application_id;
- 20:
+case 2:
             var1 = _closure1_slot0;
             var1 = var6 === var1;
-            if(var1) { _fun0001_ip = 63; continue _fun0001 }
- 34:
+            if(var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = var5 == var4;
             var3 = undefined;
-            if(var5) { _fun0001_ip = 49; continue _fun0001 }
- 43:
+            if(var5) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var3 = var4.platform;
- 49:
+case 6:
             var2 = _closure1_slot1;
             var2 = var2.XBOX;
             var1 = var3 === var2;
- 63:
+case 4:
             return var1;
         }
     };

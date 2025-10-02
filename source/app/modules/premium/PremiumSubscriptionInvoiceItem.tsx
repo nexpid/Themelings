@@ -36,7 +36,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var5.map;
         var2 = function(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var9 = _closure2_slot0;
                 var2 = var9.length;
@@ -44,21 +44,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var8 < var2;
                 var4 = undefined;
                 var6 = 0;
-                if(!var2) { _fun0001_ip = 139; continue _fun0001 }
- 31:
+                if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var2 = var9[var6];
                 var10 = var2.subscriptionPlanId;
                 var5 = var1.subscriptionPlanId;
-                if(!(var10 === var5)) { _fun0001_ip = 127; continue _fun0001 }
- 51:
+                if(!(var10 === var5)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var10 = var2.subscriptionPlanPrice;
                 var5 = var1.subscriptionPlanPrice;
-                if(!(var10 === var5)) { _fun0001_ip = 127; continue _fun0001 }
- 67:
+                if(!(var10 === var5)) { _fun0001_ip = 4; continue _fun0001 }
+case 6:
                 var10 = var2.amount;
                 var5 = var1.amount;
-                if(!(var10 === var5)) { _fun0001_ip = 127; continue _fun0001 }
- 83:
+                if(!(var10 === var5)) { _fun0001_ip = 4; continue _fun0001 }
+case 7:
                 var10 = _closure1_slot0;
                 var5 = _closure1_slot1;
                 var5 = var5[var8];
@@ -67,12 +67,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var10 = var2.discounts;
                 var5 = var1.discounts;
                 var5 = var11.bind(var12)(var10, var5);
-                if(var5) { _fun0001_ip = 167; continue _fun0001 }
- 127:
+                if(var5) { _fun0001_ip = 8; continue _fun0001 }
+case 4:
                 var6 = var6 + 1;
                 var5 = var9.length;
-                if(var6 < var5) { _fun0001_ip = 31; continue _fun0001 }
- 139:
+                if(var6 < var5) { _fun0001_ip = 3; continue _fun0001 }
+case 2:
                 var7 = _closure2_slot0;
                 var6 = var7.push;
                 var5 = {};
@@ -81,7 +81,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = copyDataProperties(var14, var13);
                 var5 = var6.bind(var7)(var5);
                 return var4;
- 167:
+case 8:
                 var5 = _closure2_slot1;
                 var4 = var5.add;
                 var3 = var2.subscriptionPlanId;
@@ -98,7 +98,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var3.map;
         var1 = function(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var3 = arg1;
                 var1 = {};
                 var7 = var1;
@@ -109,8 +109,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var5.has;
                 var3 = var3.subscriptionPlanId;
                 var3 = var4.bind(var5)(var3);
-                if(!var3) { _fun0002_ip = 96; continue _fun0002 }
- 47:
+                if(!var3) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
                 var4 = var1.amount;
                 var3 = var1.quantity;
                 var3 = var4 * var3;
@@ -133,7 +133,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 };
                 var2 = var3.bind(var4)(var2);
                 var1['discounts'] = var2;
- 96:
+case 9:
                 return var1;
             }
         };

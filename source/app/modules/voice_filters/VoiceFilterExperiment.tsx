@@ -60,7 +60,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot5 = var4;
     var6 = function platformSupportsVoiceFilters() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = _closure1_slot0;
             var1 = _closure1_slot1;
             var5 = 3;
@@ -69,15 +69,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var4)(var1);
             var1 = var3.isWindows;
             var1 = var1.bind(var3)();
-            if(var1) { _fun0001_ip = 65; continue _fun0001 }
- 38:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = _closure1_slot0;
             var2 = _closure1_slot1;
             var2 = var2[var5];
             var3 = var3.bind(var4)(var2);
             var2 = var3.isMac;
             var1 = var2.bind(var3)();
- 65:
+case 2:
             return var1;
         }
     };
@@ -92,7 +92,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['VoiceFilterExperiment'] = var4;
     var4 = function isVoiceFiltersEnabled(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = var1.location;
             var6 = var1.autoTrackExposure;
@@ -101,8 +101,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var4.bind(var1)();
             var4 = !var1;
             var1 = !var4;
-            if(var4) { _fun0002_ip = 70; continue _fun0002 }
- 36:
+            if(var4) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var5 = _closure1_slot5;
             var4 = var5.getCurrentConfig;
             var3 = {};
@@ -111,14 +111,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['autoTrackExposure'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             var1 = var2.enabled;
- 70:
+case 4:
             return var1;
         }
     };
     var3['isVoiceFiltersEnabled'] = var4;
     var4 = function isVoiceFiltersTestingDisabled(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = var2.location;
             var5 = var2.guildId;
@@ -131,26 +131,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['autoTrackExposure'] = var7;
             var1 = var4.bind(var6)(var2, var1);
             var1 = var1.isTester;
-            if(!var1) { _fun0003_ip = 85; continue _fun0003 }
- 56:
+            if(!var1) { _fun0003_ip = 6; continue _fun0003 }
+case 7:
             var2 = null;
             var2 = var2 == var5;
-            if(var2) { _fun0003_ip = 82; continue _fun0003 }
- 65:
+            if(var2) { _fun0003_ip = 8; continue _fun0003 }
+case 2:
             var4 = _closure1_slot4;
             var3 = var4.has;
             var3 = var3.bind(var4)(var5);
             var2 = !var3;
- 82:
+case 8:
             var1 = var2;
- 85:
+case 6:
             return var1;
         }
     };
     var3['isVoiceFiltersTestingDisabled'] = var4;
     var2 = function useAreVoiceFiltersEnabled(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = var2.location;
             var6 = var2.autoTrackExposure;
@@ -186,28 +186,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var6 = var7.bind(var8)(var6, var5);
             var2 = !var2;
-            if(var2) { _fun0004_ip = 156; continue _fun0004 }
- 125:
+            if(var2) { _fun0004_ip = 9; continue _fun0004 }
+case 10:
             var5 = null;
             var5 = var5 != var6;
-            if(!var5) { _fun0004_ip = 153; continue _fun0004 }
- 134:
+            if(!var5) { _fun0004_ip = 11; continue _fun0004 }
+case 12:
             var8 = _closure1_slot4;
             var7 = var8.has;
             var6 = var6.guild_id;
             var5 = var7.bind(var8)(var6);
- 153:
+case 11:
             var2 = var5;
- 156:
-            if(!var1) { _fun0004_ip = 167; continue _fun0004 }
- 159:
+case 9:
+            if(!var1) { _fun0004_ip = 13; continue _fun0004 }
+case 14:
             var3 = _closure1_slot6;
             var1 = var3.bind(var4)();
- 167:
-            if(!var1) { _fun0004_ip = 173; continue _fun0004 }
- 170:
+case 13:
+            if(!var1) { _fun0004_ip = 15; continue _fun0004 }
+case 16:
             var1 = var2;
- 173:
+case 15:
             return var1;
         }
     };

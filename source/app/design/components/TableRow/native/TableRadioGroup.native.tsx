@@ -49,7 +49,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['TableRadioGroupContext'] = var4;
     var2 = function TableRadioGroup(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var10 = var1.children;
             var5 = var1.defaultValue;
@@ -58,10 +58,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var1.title;
             var9 = var1.hasIcons;
             var4 = undefined;
-            if(!(var9 === var4)) { _fun0001_ip = 45; continue _fun0001 }
- 43:
+            if(!(var9 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var9 = true;
- 45:
+case 2:
             var12 = var1.groupRef;
             var _closure2_slot1 = var4;
             var _closure2_slot2 = var4;
@@ -87,18 +87,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = {};
                 var3 = function setValue(arg1) {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                         var3 = arg1;
                         var4 = _closure2_slot2;
                         var1 = undefined;
                         var4 = var4.bind(var1)(var3);
                         var5 = _closure2_slot0;
                         var4 = null;
-                        if(!(var4 != var5)) { _fun0002_ip = 36; continue _fun0002 }
- 27:
+                        if(!(var4 != var5)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                         var2 = _closure2_slot0;
                         var2 = var2.bind(var1)(var3);
- 36:
+case 4:
                         return var1;
                     }
                 };
@@ -125,18 +125,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[0] = var2;
             var2 = function(arg1) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var3 = arg1;
                     var4 = _closure2_slot2;
                     var1 = undefined;
                     var4 = var4.bind(var1)(var3);
                     var5 = _closure2_slot0;
                     var4 = null;
-                    if(!(var4 != var5)) { _fun0003_ip = 36; continue _fun0003 }
- 27:
+                    if(!(var4 != var5)) { _fun0003_ip = 4; continue _fun0003 }
+case 5:
                     var2 = _closure2_slot0;
                     var2 = var2.bind(var1)(var3);
- 36:
+case 4:
                     return var1;
                 }
             };
@@ -173,13 +173,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var9.map;
             var7 = function(arg1) {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                     var2 = arg1;
                     var4 = _closure1_slot3;
                     var3 = var4.isValidElement;
                     var3 = var3.bind(var4)(var2);
-                    if(!var3) { _fun0004_ip = 61; continue _fun0004 }
- 24:
+                    if(!var3) { _fun0004_ip = 6; continue _fun0004 }
+case 7:
                     var3 = var2.type;
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot1;
@@ -188,14 +188,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = undefined;
                     var1 = var5.bind(var1)(var4);
                     var1 = var1.TableRadioRow;
-                    if(!(var3 !== var1)) { _fun0004_ip = 73; continue _fun0004 }
- 61:
+                    if(!(var3 !== var1)) { _fun0004_ip = 8; continue _fun0004 }
+case 6:
                     var3 = _closure2_slot3;
                     var1 = null;
-                    if(!var3) { _fun0004_ip = 76; continue _fun0004 }
- 73:
+                    if(!var3) { _fun0004_ip = 9; continue _fun0004 }
+case 8:
                     var1 = var2;
- 76:
+case 9:
                     return var1;
                 }
             };

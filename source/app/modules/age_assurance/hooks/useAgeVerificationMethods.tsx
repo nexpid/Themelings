@@ -41,7 +41,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useAgeVerificationMethods(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg2;
             var _closure2_slot0 = var2;
             var7 = _closure1_slot0;
@@ -86,11 +86,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7[0] = var6;
             var5 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var2 = _closure2_slot1;
                     var1 = null;
-                    if(!(var1 == var2)) { _fun0002_ip = 48; continue _fun0002 }
- 13:
+                    if(!(var1 == var2)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot1;
                     var1 = 6;
@@ -99,26 +99,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var3.bind(var1)(var2);
                     var1 = var2.getAgeVerificationMethods;
                     var1 = var1.bind(var2)();
- 48:
+case 2:
                     var1 = undefined;
                     return var1;
                 }
             };
             var5 = var8.bind(var9)(var5, var7);
             var4 = var4 == var6;
-            if(var4) { _fun0001_ip = 198; continue _fun0001 }
- 164:
+            if(var4) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = var6.map;
             var4 = function(arg1) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var5 = arg1;
                     var _closure3_slot0 = var5;
                     var1 = _closure1_slot5;
                     var2 = var1[var5];
                     var1 = null;
-                    if(!(var1 != var2)) { _fun0003_ip = 145; continue _fun0003 }
- 26:
+                    if(!(var1 != var2)) { _fun0003_ip = 6; continue _fun0003 }
+case 7:
                     var12 = var2.title;
                     var8 = var2.description;
                     var2 = {};
@@ -143,11 +143,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = function* (arg1) {
                         var1 = function* anon_0_(arg1) {
                             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                                 StartGenerator();
                                 ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                                if(var2) { _fun0004_ip = 180; continue _fun0004 }
- 10:
+                                if(var2) { _fun0004_ip = 8; continue _fun0004 }
+case 9:
                                 var5 = _closure1_slot0;
                                 var2 = _closure1_slot1;
                                 var7 = 8;
@@ -169,11 +169,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 var5 = var16[var10](var15, var14, var13, var12, var11);
                                 var8 = _closure2_slot0;
                                 var6 = null;
-                                if(!(var6 != var8)) { _fun0004_ip = 121; continue _fun0004 }
- 113:
+                                if(!(var6 != var8)) { _fun0004_ip = 10; continue _fun0004 }
+case 11:
                                 var6 = _closure2_slot0;
                                 var6 = var6.bind(var3)();
- 121:
+case 10:
                                 var5 = _closure2_slot2;
                                 var6 = _closure1_slot0;
                                 var4 = _closure1_slot1;
@@ -184,16 +184,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 var2 = _closure3_slot0;
                                 var2 = var5.bind(var3)(var4, var2);
                                 SaveGenerator(address=168);
- 166:
+case 12:
                                 return var2;
- 168:
+case 13:
                                 ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                                if(var4) { _fun0004_ip = 177; continue _fun0004 }
- 174:
+                                if(var4) { _fun0004_ip = 14; continue _fun0004 }
+case 15:
                                 return var3;
- 177:
+case 14:
                                 return var2;
- 180:
+case 8:
                                 return var1;
                             }
                         };
@@ -213,7 +213,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     };
                     var2['onClick'] = var3;
                     return var2;
- 145:
+case 6:
                     return var1;
                 }
             };
@@ -226,7 +226,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var3 = var4.bind(var5)(var1);
- 198:
+case 4:
             var1 = {};
             var1['ageVerificationMethods'] = var3;
             var1['loading'] = var2;

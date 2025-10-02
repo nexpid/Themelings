@@ -1,7 +1,7 @@
 // app/modules/main_tabs_v2/native/AppComponents.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
         var8 = require;
         var13 = metroImportDefault;
         var3 = exports;
@@ -34,17 +34,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var8.bind(var1)(var5);
         var5 = var6.isIOS;
         var5 = var5.bind(var6)();
-        if(var5) { _fun0001_ip = 141; continue _fun0001 }
- 132:
+        if(var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
         var15 = function() {
             var1 = _closure1_slot2;
             return var1;
         };
-        _fun0001_ip = 148; continue _fun0001;
- 141:
+        _fun0001_ip = 4; continue _fun0001;
+case 2:
         var15 = function() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot1;
                 var1 = 3;
@@ -54,14 +54,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var3.useIsModalOpen;
                 var3 = var1.bind(var3)();
                 var1 = null;
-                if(var3) { _fun0002_ip = 44; continue _fun0002 }
- 40:
+                if(var3) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
                 var1 = _closure1_slot2;
- 44:
+case 5:
                 return var1;
             }
         };
- 148:
+case 4:
         var2 = 4;
         var5 = var9[var2];
         var6 = var13.bind(var1)(var5);
@@ -142,15 +142,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var5.isAndroid;
         var4 = var4.bind(var5)();
         var5 = null;
-        if(!var4) { _fun0001_ip = 528; continue _fun0001 }
- 502:
+        if(!var4) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
         var4 = 9;
         var4 = var9[var4];
         var4 = var8.bind(var1)(var4);
         var7 = var4.AccessibilityAnnouncerLiveRegion;
         var4 = {};
         var5 = var14.bind(var1)(var7, var4);
- 528:
+case 7:
         var4 = 10;
         var4 = var9[var4];
         var7 = var13.bind(var1)(var4);

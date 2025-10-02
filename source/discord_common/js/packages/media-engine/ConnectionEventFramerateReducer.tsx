@@ -56,13 +56,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['sinkWants'] = var5;
             var5 = function(arg1, arg2) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     var2 = _closure3_slot0;
                     var2 = var2.connection;
                     var3 = var2.userId;
                     var2 = arg1;
-                    if(!(var2 === var3)) { _fun0001_ip = 60; continue _fun0001 }
- 25:
+                    if(!(var2 === var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var3 = _closure3_slot0;
                     var2 = var3.userSpeakingChange;
                     var1 = _closure1_slot4;
@@ -70,7 +70,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = arg2;
                     var1 = var1 === var4;
                     var1 = var2.bind(var3)(var1);
- 60:
+case 2:
                     var1 = undefined;
                     return var1;
                 }
@@ -78,13 +78,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['handleSpeaking'] = var5;
             var4 = function(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var2 = _closure3_slot0;
                     var3 = var2.connection;
                     var2 = var3.hasDesktopSource;
                     var2 = var2.bind(var3)();
-                    if(var2) { _fun0002_ip = 65; continue _fun0002 }
- 26:
+                    if(var2) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var2 = _closure3_slot0;
                     var1 = var2.destroyFramerateScaleFactorTimers;
                     var1 = var1.bind(var2)();
@@ -93,7 +93,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3['isMuted'] = var1;
                     var1 = var2.updateRemoteWantsFramerate;
                     var1 = var1.bind(var2)();
- 65:
+case 4:
                     var1 = undefined;
                     return var1;
                 }
@@ -144,42 +144,42 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var6 = function value(arg1) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var2 = this;
                 var _closure3_slot0 = var2;
                 var4 = var2.connection;
                 var3 = var4.hasDesktopSource;
                 var3 = var3.bind(var4)();
-                if(var3) { _fun0003_ip = 119; continue _fun0003 }
- 28:
+                if(var3) { _fun0003_ip = 6; continue _fun0003 }
+case 7:
                 var3 = var2.destroyFramerateScaleFactorTimers;
                 var3 = var3.bind(var2)();
                 var3 = arg1;
-                if(var3) { _fun0003_ip = 85; continue _fun0003 }
- 44:
+                if(var3) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
                 var3 = var2.sinkWants;
                 var3 = var3.isMuted;
-                if(!var3) { _fun0003_ip = 119; continue _fun0003 }
- 59:
+                if(!var3) { _fun0003_ip = 6; continue _fun0003 }
+case 10:
                 var4 = var2.sinkWants;
                 var3 = false;
                 var4['isMuted'] = var3;
                 var3 = var2.updateRemoteWantsFramerate;
                 var3 = var3.bind(var2)();
-                _fun0003_ip = 119; continue _fun0003;
- 85:
+                _fun0003_ip = 6; continue _fun0003;
+case 8:
                 var3 = global;
                 var5 = var3.setTimeout;
                 var4 = _closure1_slot5;
                 var3 = undefined;
                 var1 = function() {
                     _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                         var2 = _closure3_slot0;
                         var2 = var2.connection;
                         var2 = var2.destroyed;
-                        if(var2) { _fun0004_ip = 111; continue _fun0004 }
- 22:
+                        if(var2) { _fun0004_ip = 11; continue _fun0004 }
+case 12:
                         var4 = _closure1_slot6;
                         var3 = var4.info;
                         var7 = _closure1_slot5;
@@ -198,14 +198,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var3['isMuted'] = var1;
                         var1 = var2.updateRemoteWantsFramerate;
                         var1 = var1.bind(var2)();
- 111:
+case 11:
                         var1 = undefined;
                         return var1;
                     }
                 };
                 var1 = var5.bind(var3)(var1, var4);
                 var2['framerateReductionTimeout'] = var1;
- 119:
+case 6:
                 var1 = undefined;
                 return var1;
             }
@@ -217,20 +217,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var6 = function value() {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
                 var2 = this;
                 var1 = var2.framerateReductionTimeout;
                 var3 = 'number';
                 var1 = typeof var1;
-                if(!(var3 === var1)) { _fun0005_ip = 47; continue _fun0005 }
- 20:
+                if(!(var3 === var1)) { _fun0005_ip = 13; continue _fun0005 }
+case 14:
                 var1 = global;
                 var4 = var1.clearTimeout;
                 var3 = var2.framerateReductionTimeout;
                 var1 = undefined;
                 var3 = var4.bind(var1)(var3);
                 var2['framerateReductionTimeout'] = var1;
- 47:
+case 13:
                 var1 = undefined;
                 return var1;
             }

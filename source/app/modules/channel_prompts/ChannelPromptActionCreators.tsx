@@ -14,12 +14,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = function* (arg1, arg2, arg3) {
             var1 = function* anon_0_(arg1, arg2, arg3) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     StartGenerator();
                     var7 = arg2;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 237; continue _fun0001 }
- 13:
+                    if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var5 = _closure1_slot0;
                     var3 = _closure1_slot2;
                     var2 = 5;
@@ -46,18 +46,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2['rejectWithError'] = var8;
                     var2 = var5.bind(var6)(var2);
                     SaveGenerator(address=117);
- 115:
+case 4:
                     return var2;
- 117:
+case 5:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0001_ip = 234; continue _fun0001 }
- 123:
+                    if(var5) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                     var6 = _closure1_slot4;
                     var5 = var6.getMessages;
                     var5 = var5.bind(var6)(var7);
                     var5 = var5.hasMoreAfter;
-                    if(var5) { _fun0001_ip = 195; continue _fun0001 }
- 147:
+                    if(var5) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
                     var6 = _closure1_slot0;
                     var8 = _closure1_slot2;
                     var5 = 7;
@@ -68,8 +68,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = _closure1_slot8;
                     var5 = var5.SCROLLTO_PRESENT;
                     var5 = var6.bind(var8)(var5);
-                    _fun0001_ip = 231; continue _fun0001;
- 195:
+                    _fun0001_ip = 10; continue _fun0001;
+case 8:
                     var6 = _closure1_slot1;
                     var8 = _closure1_slot2;
                     var5 = 6;
@@ -78,11 +78,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var6.jumpToPresent;
                     var4 = _closure1_slot7;
                     var4 = var5.bind(var6)(var7, var4);
- 231:
+case 10:
                     return var3;
- 234:
+case 6:
                     return var2;
- 237:
+case 2:
                     return var1;
                 }
             };
@@ -105,12 +105,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = function* (arg1) {
             var1 = function* anon_0_(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     StartGenerator();
                     var6 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0002_ip = 105; continue _fun0002 }
- 10:
+                    if(var2) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
                     var2 = 5;
@@ -130,16 +130,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2['rejectWithError'] = var6;
                     var2 = var4.bind(var5)(var2);
                     SaveGenerator(address=93);
- 91:
+case 13:
                     return var2;
- 93:
+case 14:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0002_ip = 102; continue _fun0002 }
- 99:
+                    if(var4) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
                     return var3;
- 102:
+case 15:
                     return var2;
- 105:
+case 11:
                     return var1;
                 }
             };
@@ -221,14 +221,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['initiateChannelPrompts'] = var4;
     var4 = function forcePrompt(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var6 = arguments[1];
             var1 = undefined;
-            if(!(var6 === var1)) { _fun0003_ip = 22; continue _fun0003 }
- 9:
+            if(!(var6 === var1)) { _fun0003_ip = 17; continue _fun0003 }
+case 18:
             var2 = _closure1_slot6;
             var6 = var2.GUILD_DEADCHAT_REVIVE_PROMPT;
- 22:
+case 17:
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
             var2 = 5;

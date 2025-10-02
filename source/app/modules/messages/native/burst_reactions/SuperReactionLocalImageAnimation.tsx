@@ -33,7 +33,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function SuperReactionLocalImageAnimation(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var8 = var4.localImageSource;
             var9 = var4.animationSource;
@@ -58,8 +58,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['localImageSource'] = var8;
             var7 = var4.bind(var7)(var3);
             var3 = var1 == var7;
-            if(var3) { _fun0001_ip = 152; continue _fun0001 }
- 99:
+            if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = _closure1_slot3;
             var3 = _closure1_slot1;
             var8 = _closure1_slot2;
@@ -74,7 +74,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var6;
             var6 = copyDataProperties(var12, var11);
             var1 = var4.bind(var5)(var3, var2);
- 152:
+case 2:
             return var1;
         }
     };

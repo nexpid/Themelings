@@ -16,36 +16,36 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = function() {
         var1 = function cheapWorkletShallowEqual(arg1, arg2) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var9 = arg1;
                 var8 = arg2;
-                if(!(var9 !== var8)) { _fun0001_ip = 67; continue _fun0001 }
- 10:
+                if(!(var9 !== var8)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var1 = null;
-                if(!(var1 != var9)) { _fun0001_ip = 63; continue _fun0001 }
- 16:
-                if(!(var1 != var8)) { _fun0001_ip = 63; continue _fun0001 }
- 20:
+                if(!(var1 != var9)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+                if(!(var1 != var8)) { _fun0001_ip = 4; continue _fun0001 }
+case 6:
                 var6 = var9;
                 for(var3 in var6)
- 31:
+case 7:
                 {
- 40:
+case 8:
                     var1 = var3;
                     var2 = var9[var1];
                     var1 = var8[var1];
-                    if(var2 === var1) { _fun0001_ip = 31; continue _fun0001 }
- 55:
+                    if(var2 === var1) { _fun0001_ip = 7; continue _fun0001 }
+case 9:
                     var1 = false;
                     return var1;
                 }
- 59:
+case 10:
                 var1 = true;
                 return var1;
- 63:
+case 4:
                 var1 = false;
                 return var1;
- 67:
+case 2:
                 var1 = true;
                 return var1;
             }
@@ -67,45 +67,45 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function() {
         var1 = function cheapWorkletArrayShallowEqual(arg1, arg2) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var4 = arg1;
                 var3 = arg2;
-                if(!(var4 !== var3)) { _fun0002_ip = 88; continue _fun0002 }
- 10:
+                if(!(var4 !== var3)) { _fun0002_ip = 11; continue _fun0002 }
+case 3:
                 var1 = null;
-                if(!(var1 != var4)) { _fun0002_ip = 84; continue _fun0002 }
- 16:
-                if(!(var1 != var3)) { _fun0002_ip = 84; continue _fun0002 }
- 20:
+                if(!(var1 != var4)) { _fun0002_ip = 12; continue _fun0002 }
+case 5:
+                if(!(var1 != var3)) { _fun0002_ip = 12; continue _fun0002 }
+case 6:
                 var2 = var4.length;
                 var1 = var3.length;
-                if(!(var2 === var1)) { _fun0002_ip = 80; continue _fun0002 }
- 34:
+                if(!(var2 === var1)) { _fun0002_ip = 13; continue _fun0002 }
+case 14:
                 var1 = var4.length;
                 var2 = 0;
                 var1 = var2 < var1;
-                if(!var1) { _fun0002_ip = 72; continue _fun0002 }
- 48:
+                if(!var1) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
                 var5 = var4[var2];
                 var1 = var3[var2];
-                if(!(var5 === var1)) { _fun0002_ip = 76; continue _fun0002 }
- 60:
+                if(!(var5 === var1)) { _fun0002_ip = 17; continue _fun0002 }
+case 18:
                 var2 = var2 + 1;
                 var1 = var4.length;
-                if(var2 < var1) { _fun0002_ip = 48; continue _fun0002 }
- 72:
+                if(var2 < var1) { _fun0002_ip = 16; continue _fun0002 }
+case 15:
                 var1 = true;
                 return var1;
- 76:
+case 17:
                 var1 = false;
                 return var1;
- 80:
+case 13:
                 var1 = false;
                 return var1;
- 84:
+case 12:
                 var1 = false;
                 return var1;
- 88:
+case 11:
                 var1 = true;
                 return var1;
             }

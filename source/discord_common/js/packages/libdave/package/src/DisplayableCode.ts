@@ -20,20 +20,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var4.bind(var5)(var2);
     var2 = function generateDisplayableCode(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var13 = arg1;
             var12 = arg2;
             var11 = arg3;
             var1 = var13.byteLength;
-            if(!(!(var1 < var12))) { _fun0001_ip = 315; continue _fun0001 }
- 22:
+            if(!(!(var1 < var12))) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var12 % var11;
             var10 = 0;
-            if(!(var1 == var10)) { _fun0001_ip = 279; continue _fun0001 }
- 35:
+            if(!(var1 == var10)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = 8;
-            if(!(!(var11 > var1))) { _fun0001_ip = 243; continue _fun0001 }
- 45:
+            if(!(!(var11 > var1))) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var1 = global;
             var3 = var1.BigInt;
             var21 = 10;
@@ -48,19 +48,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = 0;
             var3 = undefined;
             var2 = var5;
-            if(!var14) { _fun0001_ip = 207; continue _fun0001 }
- 98:
+            if(!var14) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var14 = var1.BigInt;
             var16 = var14.bind(var9)(var10);
             var14 = var16;
             var15 = var11;
-            if(!(var15 > var10)) { _fun0001_ip = 167; continue _fun0001 }
- 119:
+            if(!(var15 > var10)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var17 = var11 - var15;
             var17 = var4 + var17;
             var17 = var13[var17];
-            if(!(var9 !== var17)) { _fun0001_ip = 209; continue _fun0001 }
- 135:
+            if(!(var9 !== var17)) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var19 = var16 << var6;
             var18 = var1.BigInt;
             var18 = var18.bind(var9)(var17);
@@ -68,8 +68,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var15 - 1;
             var14 = var16;
             var3 = var17;
-            if(var15 > var10) { _fun0001_ip = 119; continue _fun0001 }
- 167:
+            if(var15 > var10) { _fun0001_ip = 11; continue _fun0001 }
+case 10:
             var15 = var14 % var8;
             var14 = var15.toString;
             var15 = var14.bind(var15)();
@@ -78,10 +78,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5 + var14;
             var4 = var4 + var11;
             var2 = var5;
-            if(var4 < var12) { _fun0001_ip = 98; continue _fun0001 }
- 207:
+            if(var4 < var12) { _fun0001_ip = 9; continue _fun0001 }
+case 8:
             return var2;
- 209:
+case 12:
             var3 = var1.Error;
             var1 = var3.prototype;
             var2 = Object.create(var1, {constructor: {value: var3}});
@@ -90,7 +90,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = new var22[var3](var21, var20);
             var1 = var1 instanceof Object ? var1 : var2;
             throw var1;
- 243:
+case 6:
             var1 = global;
             var3 = var1.Error;
             var1 = var3.prototype;
@@ -100,7 +100,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = new var22[var3](var21, var20);
             var1 = var1 instanceof Object ? var1 : var2;
             throw var1;
- 279:
+case 4:
             var1 = global;
             var3 = var1.Error;
             var1 = var3.prototype;
@@ -110,7 +110,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = new var22[var3](var21, var20);
             var1 = var1 instanceof Object ? var1 : var2;
             throw var1;
- 315:
+case 2:
             var1 = global;
             var3 = var1.Error;
             var1 = var3.prototype;

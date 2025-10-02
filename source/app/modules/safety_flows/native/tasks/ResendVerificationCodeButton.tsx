@@ -47,7 +47,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function _default(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var6 = var2.flowId;
             var _closure2_slot0 = var6;
@@ -71,14 +71,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[0] = var12;
             var2 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = _closure2_slot2;
                     var2 = 0;
-                    if(!(!(var3 > var2))) { _fun0002_ip = 19; continue _fun0002 }
- 15:
+                    if(!(!(var3 > var2))) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var2 = undefined;
                     return var2;
- 19:
+case 2:
                     var2 = global;
                     var5 = var2.setInterval;
                     var4 = undefined;
@@ -114,20 +114,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = function* () {
                 var1 = function* anon_0_() {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0003_ip = 333; continue _fun0003 }
- 10:
+                        if(var2) { _fun0003_ip = 4; continue _fun0003 }
+case 5:
                         var4 = _closure2_slot2;
                         var2 = 0;
-                        if(!(!(var4 > var2))) { _fun0003_ip = 328; continue _fun0003 }
- 26:
+                        if(!(!(var4 > var2))) { _fun0003_ip = 6; continue _fun0003 }
+case 7:
                         var4 = _closure2_slot1;
                         var5 = undefined;
                         var2 = true;
                         var2 = var4.bind(var5)(var2);
- 39: // try_start_0 // try_start_1
+case 8: // try_start_0 // try_start_1
                         var6 = _closure1_slot0;
                         var7 = _closure1_slot2;
                         var2 = 5;
@@ -137,12 +137,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = _closure2_slot0;
                         var2 = var6.bind(var7)(var2);
                         SaveGenerator(address=81);
- 79:
+case 9:
                         return var2;
- 81:
+case 10:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                        if(var6) { _fun0003_ip = 134; continue _fun0003 }
- 87:
+                        if(var6) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
                         var6 = _closure1_slot0;
                         var7 = _closure1_slot2;
                         var4 = 6;
@@ -153,14 +153,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var6 = _closure2_slot3;
                         var4 = 30;
                         var4 = var6.bind(var5)(var4);
- 129: // try_end0
-                        _fun0003_ip = 300; continue _fun0003;
- 134: // try_end1
+case 13: // try_end0
+                        _fun0003_ip = 14; continue _fun0003;
+case 11: // try_end1
                         var6 = _closure2_slot1;
                         var4 = false;
                         var4 = var6.bind(var5)(var4);
                         return var2;
- 148: // try_start_2 // catch_target0
+case 15: // try_start_2 // catch_target0
                         CatchBlockStart(arg_register=1);
                         var10 = _closure1_slot1;
                         var9 = _closure1_slot2;
@@ -195,21 +195,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var7 = 'status-danger';
                         var2['iconColor'] = var7;
                         var2 = var4.bind(var6)(var2);
- 300: // try_end2
+case 14: // try_end2
                         var4 = _closure2_slot1;
                         var2 = false;
                         var2 = var4.bind(var5)(var2);
-                        _fun0003_ip = 328; continue _fun0003;
- 313: // catch_target1 // catch_target2
+                        _fun0003_ip = 6; continue _fun0003;
+case 16: // catch_target1 // catch_target2
                         CatchBlockStart(arg_register=1);
                         var4 = _closure2_slot1;
                         var3 = false;
                         var3 = var4.bind(var5)(var3);
                         throw var2;
- 328:
+case 6:
                         var2 = undefined;
                         return var2;
- 333:
+case 4:
                         return var1;
                     }
                 };
@@ -257,8 +257,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var8.ah0EUl;
             var8 = var11.bind(var14)(var8);
             var5['accessibilityLabel'] = var8;
-            if(!(!(var12 > var7))) { _fun0001_ip = 371; continue _fun0001 }
- 318:
+            if(!(!(var12 > var7))) { _fun0001_ip = 17; continue _fun0001 }
+case 18:
             var11 = _closure1_slot0;
             var7 = _closure1_slot2;
             var8 = var7[var10];
@@ -270,8 +270,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var14.bind(var4)(var7);
             var7 = var7.ah0EUl;
             var7 = var8.bind(var11)(var7);
-            _fun0001_ip = 432; continue _fun0001;
- 371:
+            _fun0001_ip = 19; continue _fun0001;
+case 17:
             var11 = _closure1_slot0;
             var8 = _closure1_slot2;
             var10 = var8[var10];
@@ -285,7 +285,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = {};
             var8['countdown'] = var12;
             var7 = var10.bind(var11)(var9, var8);
- 432:
+case 19:
             var5['children'] = var7;
             var5 = var3.bind(var4)(var6, var5);
             var1['children'] = var5;

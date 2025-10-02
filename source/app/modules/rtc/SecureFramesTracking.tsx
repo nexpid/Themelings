@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function getGuildId(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = _closure1_slot3;
             var2 = var3.getChannel;
             var1 = arg1;
@@ -17,10 +17,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = null;
             var3 = var1 == var2;
             var1 = undefined;
-            if(var3) { _fun0001_ip = 36; continue _fun0001 }
- 31:
+            if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var2.guild_id;
- 36:
+case 2:
             return var1;
         }
     };

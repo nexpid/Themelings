@@ -185,7 +185,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = var9.map;
         var7 = function(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var _closure3_slot0 = var1;
                 var5 = _closure1_slot8;
@@ -222,8 +222,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = null;
                 var9 = var6 != var9;
                 var6 = undefined;
-                if(!var9) { _fun0001_ip = 291; continue _fun0001 }
- 128:
+                if(!var9) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var11 = _closure1_slot0;
                 var12 = _closure1_slot2;
                 var9 = 13;
@@ -239,8 +239,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var9 = var9.ICYMICustomScore;
                 var9 = var9.MUTED;
                 var6 = undefined;
-                if(!(var10 === var9)) { _fun0001_ip = 291; continue _fun0001 }
- 199:
+                if(!(var10 === var9)) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
                 var9 = _closure1_slot8;
                 var13 = _closure1_slot0;
                 var14 = _closure1_slot2;
@@ -261,7 +261,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var10 = var11.bind(var12)(var10);
                 var7['text'] = var10;
                 var6 = var9.bind(var4)(var8, var7);
- 291:
+case 2:
                 var2['trailing'] = var6;
                 var6 = true;
                 var2['arrow'] = var6;

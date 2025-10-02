@@ -67,7 +67,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function GuildEventRecurrences(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var5 = var1.guildId;
             var3 = var1.recurrenceRule;
@@ -162,12 +162,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9['children'] = var13;
             var9 = var12.bind(var4)(var11, var9);
             var5[1] = var9;
-            if(!var6) { _fun0001_ip = 314; continue _fun0001 }
- 311:
+            if(!var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = !var8;
- 314:
-            if(!var6) { _fun0001_ip = 422; continue _fun0001 }
- 317:
+case 2:
+            if(!var6) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var9 = _closure1_slot6;
             var14 = _closure1_slot0;
             var11 = _closure1_slot2;
@@ -188,7 +188,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7['text'] = var11;
             var10 = function onPress(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var2 = arg1;
                     var1 = var2.stopPropagation;
                     var1 = var1.bind(var2)();
@@ -198,11 +198,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = _closure2_slot3;
                     var3 = var2.current;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0002_ip = 51; continue _fun0002 }
- 41:
+                    if(!(var2 != var3)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var2 = var3.scrollToEnd;
                     var2 = var2.bind(var3)();
- 51:
+case 6:
                     return var1;
                 }
             };
@@ -210,7 +210,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = 'sm';
             var7['size'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 422:
+case 4:
             var5[2] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

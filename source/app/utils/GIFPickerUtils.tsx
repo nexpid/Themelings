@@ -25,24 +25,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function calculateAnalyticsMetadata(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var6 = arg2;
             var1 = arg3;
             var3 = null;
-            if(!(var3 == var6)) { _fun0001_ip = 16; continue _fun0001 }
- 12:
+            if(!(var3 == var6)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = {};
-            _fun0001_ip = 29; continue _fun0001;
- 16:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var4 = {};
             var5 = 1;
             var4[var6] = var5;
             var2 = var4;
- 29:
-            if(!(var3 == var1)) { _fun0001_ip = 35; continue _fun0001 }
- 33:
+case 4:
+            if(!(var3 == var1)) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var1 = {};
- 35:
+case 5:
             var11 = var1.offset;
             var7 = var1.limit;
             var4 = var1.results;
@@ -58,27 +58,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var3 != var7;
             var8 = 1;
             var6 = var8;
-            if(!var9) { _fun0001_ip = 145; continue _fun0001 }
- 108:
+            if(!var9) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var9 = var3 != var11;
             var6 = var8;
-            if(!var9) { _fun0001_ip = 145; continue _fun0001 }
- 118:
+            if(!var9) { _fun0001_ip = 7; continue _fun0001 }
+case 9:
             var9 = global;
             var10 = var9.Math;
             var9 = var10.floor;
             var7 = var11 / var7;
             var7 = var9.bind(var10)(var7);
             var6 = var7 + var8;
- 145:
+case 7:
             var1['page'] = var6;
             var1['total_results'] = var5;
             var5 = var3 != var4;
             var3 = null;
-            if(!var5) { _fun0001_ip = 167; continue _fun0001 }
- 164:
+            if(!var5) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var3 = var4;
- 167:
+case 10:
             var1['page_results'] = var3;
             var3 = global;
             var4 = var3.Object;

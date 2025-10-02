@@ -38,7 +38,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function CollectiblesShopScreen() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 3;
@@ -56,15 +56,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = null;
             var2 = var8 == var1;
             var5 = undefined;
-            if(var2) { _fun0001_ip = 80; continue _fun0001 }
- 74:
+            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = var1.screen;
- 80:
-            if(!(var8 == var5)) { _fun0001_ip = 94; continue _fun0001 }
- 84:
+case 2:
+            if(!(var8 == var5)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = _closure1_slot3;
             var5 = var1.FEATURED_PAGE;
- 94:
+case 4:
             var3 = _closure1_slot4;
             var2 = _closure1_slot0;
             var9 = _closure1_slot2;
@@ -76,19 +76,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var6.params;
             var10 = var8 == var9;
             var6 = undefined;
-            if(var10) { _fun0001_ip = 147; continue _fun0001 }
- 141:
+            if(var10) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var6 = var9.analyticsSource;
- 147:
-            if(!(var8 == var6)) { _fun0001_ip = 177; continue _fun0001 }
- 151:
+case 6:
+            if(!(var8 == var6)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var8 = _closure1_slot1;
             var9 = _closure1_slot2;
             var7 = 6;
             var7 = var9[var7];
             var7 = var8.bind(var4)(var7);
             var6 = var7.COLLECTIBLES_SHOP;
- 177:
+case 8:
             var1['analyticsSource'] = var6;
             var1['screen'] = var5;
             var1 = var3.bind(var4)(var2, var1);

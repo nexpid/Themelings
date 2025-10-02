@@ -1,7 +1,7 @@
 // app/modules/native_permissions/NativePermissionUtils.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
         var4 = require;
         var3 = exports;
         var5 = dependencyMap;
@@ -26,19 +26,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var2.ProcessArgs;
         var2 = var6.isDiscordTestSet;
         var2 = var2.bind(var6)();
-        if(var2) { _fun0001_ip = 117; continue _fun0001 }
- 98:
+        if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
         var2 = 3;
         var2 = var5[var2];
         var2 = var4.bind(var1)(var2);
         var2 = var2.default;
-        _fun0001_ip = 134; continue _fun0001;
- 117:
+        _fun0001_ip = 4; continue _fun0001;
+case 2:
         var6 = 2;
         var6 = var5[var6];
         var6 = var4.bind(var1)(var6);
         var2 = var6.default;
- 134:
+case 4:
         var6 = 4;
         var6 = var5[var6];
         var8 = var4.bind(var1)(var6);

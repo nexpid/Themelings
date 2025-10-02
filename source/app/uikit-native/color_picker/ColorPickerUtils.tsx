@@ -16,20 +16,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = function() {
         var1 = function normalizeValue(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var3 = arg1;
                 var1 = 0;
                 var2 = var3 < var1;
-                if(var2) { _fun0001_ip = 28; continue _fun0001 }
- 12:
+                if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var2 = 1;
                 var4 = var3 > var2;
-                if(var4) { _fun0001_ip = 25; continue _fun0001 }
- 22:
+                if(var4) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var2 = var3;
- 25:
+case 4:
                 var1 = var2;
- 28:
+case 2:
                 return var1;
             }
         };
@@ -50,7 +50,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = function() {
         var1 = function hsvToRgbWorklet(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var2 = var1.h;
                 var9 = var1.s;
@@ -76,54 +76,54 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var7 * var6;
                 var10 = var4 % var5;
                 var5 = 0;
-                if(!(var5 !== var10)) { _fun0002_ip = 200; continue _fun0002 }
- 107:
-                if(!(var1 !== var10)) { _fun0002_ip = 189; continue _fun0002 }
- 111:
+                if(!(var5 !== var10)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
+                if(!(var1 !== var10)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                 var1 = 2;
-                if(!(var1 !== var10)) { _fun0002_ip = 178; continue _fun0002 }
- 118:
+                if(!(var1 !== var10)) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
                 var1 = 3;
-                if(!(var1 !== var10)) { _fun0002_ip = 167; continue _fun0002 }
- 125:
+                if(!(var1 !== var10)) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
                 var1 = 4;
-                if(!(var1 !== var10)) { _fun0002_ip = 156; continue _fun0002 }
- 132:
+                if(!(var1 !== var10)) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
                 var9 = 5;
                 var1 = 0;
                 var4 = 0;
                 var5 = 0;
-                if(!(var9 === var10)) { _fun0002_ip = 209; continue _fun0002 }
- 145:
+                if(!(var9 === var10)) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
                 var1 = var7;
                 var4 = var2;
                 var5 = var8;
-                _fun0002_ip = 209; continue _fun0002;
- 156:
+                _fun0002_ip = 16; continue _fun0002;
+case 14:
                 var1 = var6;
                 var4 = var2;
                 var5 = var7;
-                _fun0002_ip = 209; continue _fun0002;
- 167:
+                _fun0002_ip = 16; continue _fun0002;
+case 12:
                 var1 = var2;
                 var4 = var8;
                 var5 = var7;
-                _fun0002_ip = 209; continue _fun0002;
- 178:
+                _fun0002_ip = 16; continue _fun0002;
+case 10:
                 var1 = var2;
                 var4 = var7;
                 var5 = var6;
-                _fun0002_ip = 209; continue _fun0002;
- 189:
+                _fun0002_ip = 16; continue _fun0002;
+case 8:
                 var1 = var8;
                 var4 = var7;
                 var5 = var2;
-                _fun0002_ip = 209; continue _fun0002;
- 200:
+                _fun0002_ip = 16; continue _fun0002;
+case 6:
                 var1 = var7;
                 var4 = var6;
                 var5 = var2;
- 209:
+case 16:
                 var7 = var3.Math;
                 var6 = var7.round;
                 var2 = 255;
@@ -160,7 +160,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function() {
         var1 = function hslToRgbWorklet(arg1) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var11 = var1.h;
                 var6 = var1.s;
@@ -191,70 +191,70 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var8;
                 var4 = var5;
                 var2 = 0;
-                if(!(var10 !== var11)) { _fun0003_ip = 286; continue _fun0003 }
- 130:
-                if(!(var7 <= var11)) { _fun0003_ip = 152; continue _fun0003 }
- 134:
+                if(!(var10 !== var11)) { _fun0003_ip = 18; continue _fun0003 }
+case 19:
+                if(!(var7 <= var11)) { _fun0003_ip = 20; continue _fun0003 }
+case 21:
                 var12 = var11 < var9;
                 var1 = var8;
                 var4 = var5;
                 var2 = 0;
-                if(var12) { _fun0003_ip = 286; continue _fun0003 }
- 152:
-                if(!(var9 <= var11)) { _fun0003_ip = 174; continue _fun0003 }
- 156:
+                if(var12) { _fun0003_ip = 18; continue _fun0003 }
+case 20:
+                if(!(var9 <= var11)) { _fun0003_ip = 22; continue _fun0003 }
+case 14:
                 var9 = 120;
                 var9 = var11 < var9;
                 var1 = var5;
                 var4 = var8;
                 var2 = 0;
-                if(var9) { _fun0003_ip = 286; continue _fun0003 }
- 174:
+                if(var9) { _fun0003_ip = 18; continue _fun0003 }
+case 22:
                 var9 = 120;
-                if(!(var9 <= var11)) { _fun0003_ip = 199; continue _fun0003 }
- 181:
+                if(!(var9 <= var11)) { _fun0003_ip = 23; continue _fun0003 }
+case 24:
                 var9 = 180;
                 var9 = var11 < var9;
                 var1 = 0;
                 var4 = var8;
                 var2 = var5;
-                if(var9) { _fun0003_ip = 286; continue _fun0003 }
- 199:
+                if(var9) { _fun0003_ip = 18; continue _fun0003 }
+case 23:
                 var9 = 180;
-                if(!(var9 <= var11)) { _fun0003_ip = 224; continue _fun0003 }
- 206:
+                if(!(var9 <= var11)) { _fun0003_ip = 25; continue _fun0003 }
+case 26:
                 var9 = 240;
                 var9 = var11 < var9;
                 var1 = 0;
                 var4 = var5;
                 var2 = var8;
-                if(var9) { _fun0003_ip = 286; continue _fun0003 }
- 224:
+                if(var9) { _fun0003_ip = 18; continue _fun0003 }
+case 25:
                 var9 = 240;
-                if(!(var9 <= var11)) { _fun0003_ip = 252; continue _fun0003 }
- 231:
+                if(!(var9 <= var11)) { _fun0003_ip = 27; continue _fun0003 }
+case 28:
                 var9 = 300;
                 var9 = var11 < var9;
                 var1 = var5;
                 var4 = 0;
                 var2 = var8;
-                if(var9) { _fun0003_ip = 286; continue _fun0003 }
- 252:
+                if(var9) { _fun0003_ip = 18; continue _fun0003 }
+case 27:
                 var9 = 300;
                 var9 = var9 <= var11;
-                if(!var9) { _fun0003_ip = 269; continue _fun0003 }
- 265:
+                if(!var9) { _fun0003_ip = 29; continue _fun0003 }
+case 30:
                 var9 = var11 < var10;
- 269:
+case 29:
                 var1 = 0;
                 var4 = 0;
                 var2 = 0;
-                if(!var9) { _fun0003_ip = 286; continue _fun0003 }
- 278:
+                if(!var9) { _fun0003_ip = 18; continue _fun0003 }
+case 31:
                 var1 = var8;
                 var4 = 0;
                 var2 = var5;
- 286:
+case 18:
                 var8 = var3.Math;
                 var7 = var8.round;
                 var5 = 255;

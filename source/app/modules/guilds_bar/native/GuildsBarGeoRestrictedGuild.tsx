@@ -60,7 +60,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function GuildsBarGeoRestrictedGuild(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var11 = var1.restrictedGuild;
             var _closure2_slot0 = var11;
@@ -77,8 +77,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = null;
             var3 = var5 != var3;
             var10 = null;
-            if(!var3) { _fun0001_ip = 111; continue _fun0001 }
- 70:
+            if(!var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = _closure1_slot1;
             var7 = _closure1_slot2;
             var3 = 6;
@@ -117,7 +117,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var10 = var7.bind(var8)(var6, var3);
- 111:
+case 2:
             var7 = _closure1_slot3;
             var6 = var7.useMemo;
             var8 = var11.id;
@@ -215,8 +215,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6['style'] = var8;
             var6 = var3.bind(var4)(var7, var6);
             var1['externalChildren'] = var6;
-            if(!(var5 == var10)) { _fun0001_ip = 354; continue _fun0001 }
- 268:
+            if(!(var5 == var10)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var7 = _closure1_slot4;
             var6 = _closure1_slot1;
             var12 = _closure1_slot2;
@@ -233,8 +233,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var8.LARGE;
             var5['size'] = var8;
             var5 = var7.bind(var4)(var6, var5);
-            _fun0001_ip = 411; continue _fun0001;
- 354:
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
             var8 = _closure1_slot4;
             var7 = _closure1_slot1;
             var11 = _closure1_slot2;
@@ -249,7 +249,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = 0;
             var6['fadeDuration'] = var9;
             var5 = var8.bind(var4)(var7, var6);
- 411:
+case 6:
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

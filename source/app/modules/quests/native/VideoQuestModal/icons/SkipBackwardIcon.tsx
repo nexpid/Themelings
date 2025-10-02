@@ -35,24 +35,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var11 = var3.width;
             var4 = undefined;
-            if(!(var11 === var4)) { _fun0001_ip = 17; continue _fun0001 }
- 14:
+            if(!(var11 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var11 = 24;
- 17:
+case 2:
             var8 = var3.height;
-            if(!(var8 === var4)) { _fun0001_ip = 29; continue _fun0001 }
- 26:
+            if(!(var8 === var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var8 = 24;
- 29:
+case 4:
             var9 = var3.color;
-            if(!(var9 === var4)) { _fun0001_ip = 44; continue _fun0001 }
- 38:
+            if(!(var9 === var4)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var9 = 'currentColor';
- 44:
+case 6:
             var2 = {'width': 0, 'height': 0, 'color': 0};
             var15 = null;
             var16 = var2;

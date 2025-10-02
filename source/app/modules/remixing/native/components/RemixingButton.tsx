@@ -47,7 +47,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function _default(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var15 = var1.accessibilityLabel;
             var2 = var1.onPress;
@@ -60,10 +60,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var1.onLongPress;
             var1 = var1.withHaptics;
             var4 = undefined;
-            if(!(var1 === var4)) { _fun0001_ip = 68; continue _fun0001 }
- 66:
+            if(!(var1 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = true;
- 68:
+case 2:
             var _closure2_slot1 = var1;
             var3 = _closure1_slot3;
             var9 = _closure1_slot1;
@@ -77,10 +77,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['accessibilityLabel'] = var15;
             var14 = function onPress() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var2 = _closure2_slot1;
-                    if(!var2) { _fun0002_ip = 67; continue _fun0002 }
- 10:
+                    if(!var2) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot2;
                     var2 = 4;
@@ -93,7 +93,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var2.HapticFeedbackTypes;
                     var2 = var2.IMPACT_LIGHT;
                     var2 = var3.bind(var4)(var2);
- 67:
+case 4:
                     var2 = _closure2_slot0;
                     var1 = undefined;
                     var2 = var2.bind(var1)();

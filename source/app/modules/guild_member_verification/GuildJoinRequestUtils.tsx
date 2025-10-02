@@ -7,7 +7,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var5;
     var4 = function isActionedApplicationStatus(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var4 = _closure1_slot0;
             var1 = _closure1_slot1;
@@ -18,8 +18,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.GuildJoinRequestApplicationStatuses;
             var1 = var1.APPROVED;
             var1 = var3 === var1;
-            if(var1) { _fun0001_ip = 79; continue _fun0001 }
- 46:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = _closure1_slot0;
             var2 = _closure1_slot1;
             var2 = var2[var6];
@@ -27,7 +27,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.GuildJoinRequestApplicationStatuses;
             var2 = var2.REJECTED;
             var1 = var3 === var2;
- 79:
+case 2:
             return var1;
         }
     };
@@ -64,7 +64,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['isSubmittedApplicationStatus'] = var4;
     var4 = function isApprovedAndAcked(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var2 = arg1;
             var3 = var2.applicationStatus;
             var5 = _closure1_slot0;
@@ -76,30 +76,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.GuildJoinRequestApplicationStatuses;
             var1 = var1.APPROVED;
             var1 = var3 === var1;
-            if(!var1) { _fun0002_ip = 64; continue _fun0002 }
- 52:
+            if(!var1) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var3 = var2.lastSeen;
             var2 = null;
             var1 = var2 != var3;
- 64:
+case 4:
             return var1;
         }
     };
     var3['isApprovedAndAcked'] = var4;
     var2 = function isActionedAndNotAcked(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var2 = arg1;
             var4 = _closure1_slot2;
             var3 = var2.applicationStatus;
             var1 = undefined;
             var1 = var4.bind(var1)(var3);
-            if(!var1) { _fun0003_ip = 38; continue _fun0003 }
- 26:
+            if(!var1) { _fun0003_ip = 6; continue _fun0003 }
+case 7:
             var3 = var2.lastSeen;
             var2 = null;
             var1 = var2 == var3;
- 38:
+case 6:
             return var1;
         }
     };

@@ -1,7 +1,7 @@
 // app/uikit-native/refresh/form/FormTitle.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
         var7 = require;
         var13 = metroImportDefault;
         var3 = exports;
@@ -44,19 +44,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var6.isAndroid;
         var6 = var4.bind(var6)();
         var4 = 58;
-        if(!var6) { _fun0001_ip = 175; continue _fun0001 }
- 172:
+        if(!var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
         var4 = 48;
- 175:
+case 2:
         var2 = var8[var2];
         var6 = var7.bind(var1)(var2);
         var2 = var6.isAndroid;
         var6 = var2.bind(var6)();
         var2 = 48;
-        if(!var6) { _fun0001_ip = 202; continue _fun0001 }
- 199:
+        if(!var6) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
         var2 = 56;
- 202:
+case 4:
         var6 = 5;
         var6 = var8[var6];
         var10 = var7.bind(var1)(var6);
@@ -101,32 +101,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var7.bind(var8)(var6);
         var5 = function FormTitle(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var11 = var1.title;
                 var6 = var1.icon;
                 var9 = var1.numberOfLines;
                 var10 = var1.uppercaseTitle;
                 var4 = undefined;
-                if(!(var10 === var4)) { _fun0002_ip = 33; continue _fun0002 }
- 31:
+                if(!(var10 === var4)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                 var10 = true;
- 33:
+case 6:
                 var16 = var1.thinTitle;
-                if(!(var16 === var4)) { _fun0002_ip = 45; continue _fun0002 }
- 43:
+                if(!(var16 === var4)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                 var16 = false;
- 45:
+case 8:
                 var13 = var1.error;
-                if(!(var13 === var4)) { _fun0002_ip = 56; continue _fun0002 }
- 54:
+                if(!(var13 === var4)) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
                 var13 = false;
- 56:
+case 10:
                 var12 = var1.inset;
-                if(!(var12 === var4)) { _fun0002_ip = 68; continue _fun0002 }
- 66:
+                if(!(var12 === var4)) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
                 var12 = false;
- 68:
+case 12:
                 var8 = var1.viewStyle;
                 var15 = var1.textStyle;
                 var1 = _closure1_slot5;
@@ -137,16 +137,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var17 = var14.titleWrapper;
                 var7 = new Array(4);
                 var7[0] = var17;
-                if(!var16) { _fun0002_ip = 124; continue _fun0002 }
- 118:
+                if(!var16) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
                 var16 = var14.thinTitle;
- 124:
+case 14:
                 var7[1] = var16;
                 var12 = !var12;
-                if(!var12) { _fun0002_ip = 140; continue _fun0002 }
- 134:
+                if(!var12) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
                 var12 = var14.horizontalPadding;
- 140:
+case 16:
                 var7[2] = var12;
                 var7[3] = var8;
                 var1['style'] = var7;
@@ -162,21 +162,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var12 = new Array(3);
                 var12[0] = var16;
                 var12[1] = var15;
-                if(!var13) { _fun0002_ip = 210; continue _fun0002 }
- 205:
+                if(!var13) { _fun0002_ip = 18; continue _fun0002 }
+case 19:
                 var13 = var14.error;
- 210:
+case 18:
                 var12[2] = var13;
                 var5['style'] = var12;
                 var5['numberOfLines'] = var9;
                 var9 = 'header';
                 var5['accessibilityRole'] = var9;
                 var9 = var11;
-                if(!var10) { _fun0002_ip = 247; continue _fun0002 }
- 237:
+                if(!var10) { _fun0002_ip = 20; continue _fun0002 }
+case 21:
                 var10 = var11.toUpperCase;
                 var9 = var10.bind(var11)();
- 247:
+case 20:
                 var5['children'] = var9;
                 var7 = var8.bind(var4)(var7, var5);
                 var5 = new Array(2);

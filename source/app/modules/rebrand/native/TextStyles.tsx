@@ -29,7 +29,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function createTextStyle(arg1, arg2, arg3, arg4) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var8 = arg1;
             var3 = arg2;
             var5 = arg3;
@@ -43,52 +43,52 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4[var5];
             var1['lineHeight'] = var4;
             var4 = null;
-            if(!(var4 != var3)) { _fun0001_ip = 60; continue _fun0001 }
- 54:
+            if(!(var4 != var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1['color'] = var3;
- 60:
+case 2:
             var5 = var4 == var2;
             var9 = undefined;
-            if(var5) { _fun0001_ip = 75; continue _fun0001 }
- 69:
+            if(var5) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var9 = var2.uppercase;
- 75:
+case 4:
             var5 = true;
-            if(!(var5 === var9)) { _fun0001_ip = 154; continue _fun0001 }
- 81:
+            if(!(var5 === var9)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var5 = 'uppercase';
             var1['textTransform'] = var5;
             var5 = 14;
             var5 = var6 <= var5;
-            if(!var5) { _fun0001_ip = 135; continue _fun0001 }
- 101:
+            if(!var5) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var6 = _closure1_slot0;
             var6 = var6.DISPLAY_EXTRABOLD;
             var6 = var8 === var6;
-            if(var6) { _fun0001_ip = 132; continue _fun0001 }
- 118:
+            if(var6) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var7 = _closure1_slot0;
             var7 = var7.DISPLAY_SEMIBOLD;
             var6 = var8 === var7;
- 132:
+case 10:
             var5 = var6;
- 135:
-            if(!var5) { _fun0001_ip = 154; continue _fun0001 }
- 138:
+case 8:
+            if(!var5) { _fun0001_ip = 6; continue _fun0001 }
+case 12:
             var5 = 0.2;
             var1['letterSpacing'] = var5;
- 154:
+case 6:
             var5 = var4 == var2;
             var3 = undefined;
-            if(var5) { _fun0001_ip = 168; continue _fun0001 }
- 163:
+            if(var5) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var3 = var2.marginBottom;
- 168:
-            if(!(var4 != var3)) { _fun0001_ip = 183; continue _fun0001 }
- 172:
+case 13:
+            if(!(var4 != var3)) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
             var2 = var2.marginBottom;
             var1['marginBottom'] = var2;
- 183:
+case 15:
             return var1;
         }
     };

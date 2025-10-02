@@ -64,7 +64,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function StickerPickerListEmptyState(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var1 = var3.inActionSheet;
             var8 = var3.insetTop;
@@ -92,18 +92,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var5 = var5.bind(var6)(var2, var3);
-            if(var1) { _fun0001_ip = 87; continue _fun0001 }
- 81:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = _closure1_slot4;
-            _fun0001_ip = 113; continue _fun0001;
- 87:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var2 = _closure1_slot0;
             var6 = _closure1_slot2;
             var1 = 6;
             var1 = var6[var1];
             var1 = var2.bind(var4)(var1);
             var3 = var1.BottomSheetScrollView;
- 113:
+case 4:
             var2 = _closure1_slot6;
             var1 = {};
             var1['contentContainerStyle'] = var5;

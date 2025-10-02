@@ -59,7 +59,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function SafetyToolsActionSheetHeader(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var9 = var3.title;
             var13 = var3.channelId;
@@ -131,10 +131,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['style'] = var7;
             var7 = null;
             var7 = var7 != var8;
-            if(!var7) { _fun0001_ip = 186; continue _fun0001 }
- 183:
+            if(!var7) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var7 = var5;
- 186:
+case 2:
             var5 = new Array(2);
             var5[0] = var7;
             var8 = _closure1_slot4;

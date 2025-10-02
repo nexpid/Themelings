@@ -35,7 +35,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var4.filter;
         var2 = function(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var2 = var1.userId;
                 var3 = var1.videoStreamId;
@@ -43,11 +43,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var4.getId;
                 var1 = var1.bind(var4)();
                 var1 = var1 !== var2;
-                if(!var1) { _fun0001_ip = 44; continue _fun0001 }
- 38:
+                if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var2 = null;
                 var1 = var2 != var3;
- 44:
+case 2:
                 return var1;
             }
         };

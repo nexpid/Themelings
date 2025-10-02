@@ -49,7 +49,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[3] = var7;
         var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot1;
                 var1 = 1;
@@ -62,10 +62,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2['userId'] = var6;
                 var7 = _closure2_slot2;
                 var6 = null;
-                if(!var7) { _fun0001_ip = 57; continue _fun0001 }
- 53:
+                if(!var7) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var6 = _closure2_slot1;
- 57:
+case 2:
                 var2['applicationId'] = var6;
                 var5 = _closure2_slot3;
                 var2['location'] = var5;
@@ -85,7 +85,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4[5] = var7;
         var3 = function() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot1;
                 var1 = 1;
@@ -98,10 +98,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2['userId'] = var6;
                 var7 = _closure2_slot2;
                 var6 = null;
-                if(!var7) { _fun0002_ip = 57; continue _fun0002 }
- 53:
+                if(!var7) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                 var6 = _closure2_slot1;
- 57:
+case 2:
                 var2['applicationId'] = var6;
                 var6 = _closure2_slot3;
                 var2['location'] = var6;

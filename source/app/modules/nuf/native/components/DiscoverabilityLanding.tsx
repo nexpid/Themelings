@@ -123,7 +123,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function DiscoverabilityLanding(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = _closure1_slot9;
             var4 = undefined;
             var18 = var1.bind(var4)();
@@ -294,10 +294,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = var19.bind(var4)(var16);
             var16 = var16.toggleDiscoverabilityForUser;
             var8['onPress'] = var16;
-            if(var14) { _fun0001_ip = 667; continue _fun0001 }
- 664:
+            if(var14) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var14 = var15;
- 667:
+case 2:
             var8['selected'] = var14;
             var11 = var13.bind(var4)(var11, var8);
             var8 = new Array(3);

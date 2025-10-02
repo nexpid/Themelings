@@ -63,7 +63,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var7)(var5);
     var4 = function _default(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var9 = var1.section;
             var1 = _closure1_slot6;
@@ -97,8 +97,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['accessibilityLabel'] = var5;
             var5 = null;
             var7 = var5 != var11;
-            if(!var7) { _fun0001_ip = 193; continue _fun0001 }
- 147:
+            if(!var7) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var10 = _closure1_slot4;
             var8 = _closure1_slot1;
             var13 = _closure1_slot2;
@@ -110,7 +110,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['style'] = var12;
             var5['source'] = var11;
             var7 = var10.bind(var4)(var8, var5);
- 193:
+case 2:
             var5 = new Array(2);
             var5[0] = var7;
             var8 = _closure1_slot4;

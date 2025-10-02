@@ -32,14 +32,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useIsPremiumSubscriber() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arguments[0];
             var5 = undefined;
-            if(!(var2 === var5)) { _fun0001_ip = 24; continue _fun0001 }
- 11:
+            if(!(var2 === var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = _closure1_slot3;
             var2 = var3.TIER_2;
- 24:
+case 2:
             var _closure2_slot0 = var2;
             var4 = _closure1_slot0;
             var6 = _closure1_slot1;

@@ -7,53 +7,53 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var9;
     var6 = function formatPrice(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg3;
             var7 = null;
             var6 = var1;
-            if(!(var7 == var6)) { _fun0001_ip = 14; continue _fun0001 }
- 12:
+            if(!(var7 == var6)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = {};
- 14:
+case 2:
             var2 = var7 == var1;
             var3 = undefined;
             var5 = undefined;
-            if(var2) { _fun0001_ip = 33; continue _fun0001 }
- 25:
+            if(var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = var1.localeOverride;
- 33:
-            if(!(var7 == var5)) { _fun0001_ip = 50; continue _fun0001 }
- 37:
+case 4:
+            if(!(var7 == var5)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var1 = _closure1_slot2;
             var5 = var1.locale;
- 50:
+case 6:
             var1 = 'en-US';
             var1 = var1 === var5;
-            if(!var1) { _fun0001_ip = 88; continue _fun0001 }
- 61:
+            if(!var1) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var8 = _closure1_slot4;
             var4 = var8.includes;
             var2 = _closure1_slot2;
             var2 = var2.systemLocale;
             var1 = var4.bind(var8)(var2);
- 88:
-            if(!var1) { _fun0001_ip = 101; continue _fun0001 }
- 91:
+case 8:
+            if(!var1) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var1 = 'code';
             var6['currencyDisplay'] = var1;
- 101:
+case 10:
             var2 = var6.maximumFractionDigits;
             var4 = var6.minimumFractionDigits;
             var1 = 0;
             var2 = var1 === var2;
-            if(!var2) { _fun0001_ip = 126; continue _fun0001 }
- 122:
+            if(!var2) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var2 = var7 == var4;
- 126:
-            if(!var2) { _fun0001_ip = 135; continue _fun0001 }
- 129:
+case 12:
+            if(!var2) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var6['minimumFractionDigits'] = var1;
- 135:
+case 14:
             var2 = _closure1_slot0;
             var4 = _closure1_slot1;
             var1 = 2;
@@ -72,28 +72,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot5 = var6;
     var5 = function formatRate(arg1, arg2, arg3) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var5 = arg1;
             var8 = arg2;
             var7 = arg3;
             var2 = _closure1_slot3;
             var2 = var2.YEAR;
-            if(!(var8 !== var2)) { _fun0002_ip = 275; continue _fun0002 }
- 29:
+            if(!(var8 !== var2)) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
             var2 = _closure1_slot3;
             var2 = var2.MONTH;
-            if(!(var8 === var2)) { _fun0002_ip = 53; continue _fun0002 }
- 43:
+            if(!(var8 === var2)) { _fun0002_ip = 18; continue _fun0002 }
+case 19:
             var2 = 1;
-            if(!(var2 !== var7)) { _fun0002_ip = 208; continue _fun0002 }
- 53:
+            if(!(var2 !== var7)) { _fun0002_ip = 20; continue _fun0002 }
+case 18:
             var2 = _closure1_slot3;
             var2 = var2.MONTH;
-            if(!(var8 === var2)) { _fun0002_ip = 74; continue _fun0002 }
- 67:
+            if(!(var8 === var2)) { _fun0002_ip = 21; continue _fun0002 }
+case 22:
             var2 = 1;
-            if(!(!(var7 > var2))) { _fun0002_ip = 134; continue _fun0002 }
- 74:
+            if(!(!(var7 > var2))) { _fun0002_ip = 23; continue _fun0002 }
+case 21:
             var2 = global;
             var4 = var2.Error;
             var2 = var2.HermesInternal;
@@ -107,7 +107,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = new var13[var4](var12, var11);
             var2 = var2 instanceof Object ? var2 : var3;
             throw var2;
- 134:
+case 23:
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
             var2 = 3;
@@ -125,7 +125,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['intervalCount'] = var7;
             var2 = var4.bind(var6)(var3, var2);
             return var2;
- 208:
+case 20:
             var7 = _closure1_slot0;
             var8 = _closure1_slot1;
             var2 = 3;
@@ -142,7 +142,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['price'] = var5;
             var2 = var4.bind(var6)(var3, var2);
             return var2;
- 275:
+case 16:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var1 = 3;
@@ -164,18 +164,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot6 = var5;
     var4 = function maybeShortenPrice(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var5 = arg1;
             var3 = var5.length;
             var2 = 5;
             var1 = var5;
-            if(!(var3 > var2)) { _fun0003_ip = 47; continue _fun0003 }
- 18:
+            if(!(var3 > var2)) { _fun0003_ip = 24; continue _fun0003 }
+case 25:
             var4 = var5.replace;
             var3 = /\.00$/;
             var2 = '';
             var1 = var4.bind(var5)(var3, var2);
- 47:
+case 24:
             return var1;
         }
     };
@@ -227,17 +227,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['formatPercent'] = var5;
     var5 = function formatSubscriptionPlanRate(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = 'interval_count';
             var2 = var2 in var1;
-            if(var2) { _fun0004_ip = 22; continue _fun0004 }
- 14:
+            if(var2) { _fun0004_ip = 26; continue _fun0004 }
+case 2:
             var5 = var1.intervalCount;
-            _fun0004_ip = 28; continue _fun0004;
- 22:
+            _fun0004_ip = 27; continue _fun0004;
+case 26:
             var5 = var1.interval_count;
- 28:
+case 27:
             var3 = _closure1_slot0;
             var4 = _closure1_slot1;
             var2 = 4;

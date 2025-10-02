@@ -93,7 +93,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function TextInputField(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = var2.field;
             var9 = var2.onChange;
@@ -133,10 +133,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = null;
             var13 = var11 != var12;
             var11 = '';
-            if(!var13) { _fun0001_ip = 200; continue _fun0001 }
- 197:
+            if(!var13) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var11 = var12;
- 200:
+case 2:
             var6['value'] = var11;
             var13 = _closure1_slot0;
             var14 = _closure1_slot1;

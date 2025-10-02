@@ -9,15 +9,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var7;
     var2 = function isAdSessionExpired(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arg1;
             var4 = global;
             var2 = var4.Date;
             var1 = var2.now;
             var8 = var1.bind(var2)();
             var1 = var5.createdAtTimestamp;
-            if(!(!(var8 < var1))) { _fun0001_ip = 101; continue _fun0001 }
- 30:
+            if(!(!(var8 < var1))) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var5.lastUsedTimestamp;
             var3 = var8 - var1;
             var7 = _closure1_slot0;
@@ -32,12 +32,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var8 - var3;
             var2 = _closure1_slot3;
             var2 = var3 > var2;
-            if(var1) { _fun0001_ip = 99; continue _fun0001 }
- 96:
+            if(var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = var2;
- 99:
+case 4:
             return var1;
- 101:
+case 2:
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
             var1 = 3;
@@ -88,34 +88,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var7)(var5);
     var5 = function getOrRefreshAdSession() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arguments[0];
             var6 = undefined;
-            if(!(var1 === var6)) { _fun0002_ip = 11; continue _fun0002 }
- 9:
+            if(!(var1 === var6)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var1 = false;
- 11:
+case 6:
             var2 = global;
             var3 = var2.Date;
             var2 = var3.now;
             var4 = var2.bind(var3)();
             var5 = _closure1_slot4;
             var2 = null;
-            if(!(var2 != var5)) { _fun0002_ip = 76; continue _fun0002 }
- 41:
+            if(!(var2 != var5)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var5 = _closure1_slot5;
             var2 = _closure1_slot4;
             var2 = var5.bind(var6)(var2);
-            if(var2) { _fun0002_ip = 76; continue _fun0002 }
- 57:
-            if(!var1) { _fun0002_ip = 70; continue _fun0002 }
- 60:
+            if(var2) { _fun0002_ip = 8; continue _fun0002 }
+case 10:
+            if(!var1) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
             var1 = _closure1_slot4;
             var1['lastUsedTimestamp'] = var4;
- 70:
+case 11:
             var1 = _closure1_slot4;
-            _fun0002_ip = 153; continue _fun0002;
- 76:
+            _fun0002_ip = 13; continue _fun0002;
+case 8:
             var2 = {};
             var5 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -134,7 +134,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['version'] = var4;
             _closure1_slot4 = var2;
             var1 = var2;
- 153:
+case 13:
             return var1;
         }
     };

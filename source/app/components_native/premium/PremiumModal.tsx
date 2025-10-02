@@ -163,7 +163,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3['title'] = var12;
         var12 = function headerLeft(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var4 = arg1;
                 var1 = var4.canGoBack;
                 var5 = _closure1_slot0;
@@ -172,19 +172,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var3[var2];
                 var3 = undefined;
                 var6 = var5.bind(var3)(var2);
-                if(var1) { _fun0001_ip = 62; continue _fun0001 }
- 37:
+                if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var2 = var6.getHeaderCloseButton;
                 var1 = _closure2_slot1;
                 var1 = var2.bind(var6)(var1);
                 var1 = var1.bind(var3)(var4);
-                _fun0001_ip = 85; continue _fun0001;
- 62:
+                _fun0001_ip = 4; continue _fun0001;
+case 2:
                 var5 = var6.getHeaderBackButton;
                 var2 = _closure2_slot2;
                 var2 = var5.bind(var6)(var2);
                 var1 = var2.bind(var3)(var4);
- 85:
+case 4:
                 return var1;
             }
         };
@@ -288,7 +288,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function PremiumModal(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var17 = var1.applicationId;
             var24 = var1.analyticsLocation;
@@ -315,11 +315,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.bind(var4)(var3);
             var5 = var2.analyticsLocations;
             var2 = null;
-            if(!(var2 == var8)) { _fun0002_ip = 148; continue _fun0002 }
- 138:
+            if(!(var2 == var8)) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
             var2 = _closure1_slot3;
             var8 = var2.PREMIUM;
- 148:
+case 5:
             var3 = _closure1_slot4;
             var6 = _closure1_slot0;
             var10 = _closure1_slot2;

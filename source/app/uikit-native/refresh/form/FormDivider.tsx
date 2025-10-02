@@ -98,19 +98,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var7)(var5);
     var4 = function Divider(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var6 = var1.outer;
             var5 = undefined;
-            if(!(var6 === var5)) { _fun0001_ip = 17; continue _fun0001 }
- 15:
+            if(!(var6 === var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = false;
- 17:
+case 2:
             var9 = var1.iconPush;
-            if(!(var9 === var5)) { _fun0001_ip = 29; continue _fun0001 }
- 27:
+            if(!(var9 === var5)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var9 = false;
- 29:
+case 4:
             var8 = var1.style;
             var1 = _closure1_slot5;
             var10 = var1.bind(var5)();
@@ -128,27 +128,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var5)(var1);
             var1 = var3.useProfileThemeValues;
             var4 = var1.bind(var3)(var14);
-            if(var6) { _fun0001_ip = 121; continue _fun0001 }
- 113:
+            if(var6) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var1 = var10.divider;
-            _fun0001_ip = 127; continue _fun0001;
- 121:
+            _fun0001_ip = 8; continue _fun0001;
+case 6:
             var1 = var10.dividerOuter;
- 127:
+case 8:
             var3 = var1.backgroundColor;
             var1 = null;
             var3 = var1 != var3;
-            if(!var3) { _fun0001_ip = 145; continue _fun0001 }
- 141:
+            if(!var3) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var3 = var1 != var7;
- 145:
-            if(!var3) { _fun0001_ip = 152; continue _fun0001 }
- 148:
+case 9:
+            if(!var3) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var3 = var1 != var4;
- 152:
+case 11:
             var7 = null;
-            if(!var3) { _fun0001_ip = 212; continue _fun0001 }
- 157:
+            if(!var3) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var3 = {};
             var12 = _closure1_slot0;
             var13 = _closure1_slot1;
@@ -162,7 +162,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var12.bind(var13)(var11, var4);
             var3['backgroundColor'] = var4;
             var7 = var3;
- 212:
+case 13:
             var11 = _closure1_slot2;
             var4 = var11.useContext;
             var12 = _closure1_slot0;
@@ -173,30 +173,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.RedesignCompatContext;
             var3 = var4.bind(var11)(var3);
             var1 = null;
-            if(var3) { _fun0001_ip = 324; continue _fun0001 }
- 258:
+            if(var3) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
             var4 = _closure1_slot4;
             var3 = _closure1_slot3;
             var2 = {};
-            if(var6) { _fun0001_ip = 279; continue _fun0001 }
- 271:
+            if(var6) { _fun0001_ip = 17; continue _fun0001 }
+case 18:
             var11 = var10.divider;
-            _fun0001_ip = 285; continue _fun0001;
- 279:
+            _fun0001_ip = 19; continue _fun0001;
+case 17:
             var11 = var10.dividerOuter;
- 285:
+case 19:
             var6 = new Array(4);
             var6[0] = var11;
-            if(!var9) { _fun0001_ip = 302; continue _fun0001 }
- 296:
+            if(!var9) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
             var9 = var10.dividerHasIcon;
- 302:
+case 20:
             var6[1] = var9;
             var6[2] = var8;
             var6[3] = var7;
             var2['style'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 324:
+case 15:
             return var1;
         }
     };

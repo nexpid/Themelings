@@ -62,7 +62,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function GuildActionSheetProgress(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var10 = var1.guild;
             var1 = _closure1_slot5;
@@ -89,17 +89,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.RedesignCompatContext;
             var2 = var2.bind(var4)(var1);
             var1 = null;
-            if(!var8) { _fun0001_ip = 329; continue _fun0001 }
- 125:
+            if(!var8) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = null;
-            if(var5) { _fun0001_ip = 329; continue _fun0001 }
- 133:
+            if(var5) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var1 = null;
-            if(!var3) { _fun0001_ip = 329; continue _fun0001 }
- 141:
+            if(!var3) { _fun0001_ip = 2; continue _fun0001 }
+case 5:
             var5 = _closure1_slot4;
-            if(var2) { _fun0001_ip = 228; continue _fun0001 }
- 148:
+            if(var2) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var8 = _closure1_slot1;
             var11 = _closure1_slot2;
             var2 = 8;
@@ -119,8 +119,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var5.bind(var6)(var8, var4);
             var2['children'] = var4;
             var2 = var5.bind(var6)(var3, var2);
-            _fun0001_ip = 326; continue _fun0001;
- 228:
+            _fun0001_ip = 8; continue _fun0001;
+case 6:
             var4 = _closure1_slot0;
             var11 = _closure1_slot2;
             var3 = 6;
@@ -144,9 +144,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var5.bind(var6)(var8, var7);
             var3['children'] = var7;
             var2 = var5.bind(var6)(var4, var3);
- 326:
+case 8:
             var1 = var2;
- 329:
+case 2:
             return var1;
         }
     };

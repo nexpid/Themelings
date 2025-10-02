@@ -25,7 +25,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function shouldDisableUserPresenceInChannel(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arg1;
             var _closure2_slot0 = var5;
             var4 = _closure1_slot0;
@@ -34,17 +34,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var3.bind(var4)(var1);
             var3 = null;
             var1 = var3 != var4;
-            if(!var1) { _fun0001_ip = 44; continue _fun0001 }
- 38:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var5.bot;
- 44:
-            if(!var1) { _fun0001_ip = 57; continue _fun0001 }
- 47:
+case 2:
+            if(!var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = var4.isPrivate;
             var1 = var5.bind(var4)();
- 57:
-            if(!var1) { _fun0001_ip = 86; continue _fun0001 }
- 60:
+case 4:
+            if(!var1) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var5 = var4.rawRecipients;
             var4 = var5.find;
             var2 = function(arg1) {
@@ -57,7 +57,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var2 = var4.bind(var5)(var2);
             var1 = var3 == var2;
- 86:
+case 6:
             return var1;
         }
     };

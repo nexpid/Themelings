@@ -58,7 +58,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[0] = var5;
         var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var6 = new Array(0);
                 var5 = new Array(0);
                 var4 = new Array(0);
@@ -69,29 +69,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var2 < var1;
                 var9 = 0;
                 var8 = 0;
-                if(!var1) { _fun0001_ip = 194; continue _fun0001 }
- 46:
+                if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var1 = _closure2_slot1;
                 var12 = var1[var8];
                 var1 = var12.isNew;
-                if(var1) { _fun0001_ip = 156; continue _fun0001 }
- 63:
+                if(var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var1 = var12.hasNewAnswers;
-                if(var1) { _fun0001_ip = 113; continue _fun0001 }
- 74:
+                if(var1) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                 var1 = var12.inOnboarding;
-                if(var1) { _fun0001_ip = 98; continue _fun0001 }
- 83:
+                if(var1) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
                 var1 = var4.push;
                 var1 = var1.bind(var4)(var12);
                 var11 = var9;
-                _fun0001_ip = 169; continue _fun0001;
- 98:
+                _fun0001_ip = 10; continue _fun0001;
+case 8:
                 var1 = var3.push;
                 var1 = var1.bind(var3)(var12);
                 var11 = var9;
-                _fun0001_ip = 169; continue _fun0001;
- 113:
+                _fun0001_ip = 10; continue _fun0001;
+case 6:
                 var1 = var5.push;
                 var1 = var1.bind(var5)(var12);
                 var14 = var12.options;
@@ -104,19 +104,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var13.bind(var14)(var1);
                 var1 = var1.length;
                 var11 = var9 + var1;
-                _fun0001_ip = 169; continue _fun0001;
- 156:
+                _fun0001_ip = 10; continue _fun0001;
+case 4:
                 var1 = var6.push;
                 var1 = var1.bind(var6)(var12);
                 var11 = var9;
- 169:
+case 10:
                 var8 = var8 + 1;
                 var1 = _closure2_slot1;
                 var1 = var1.length;
                 var9 = var11;
                 var2 = var9;
-                if(var8 < var1) { _fun0001_ip = 46; continue _fun0001 }
- 194:
+                if(var8 < var1) { _fun0001_ip = 3; continue _fun0001 }
+case 2:
                 var1 = {};
                 var7 = _closure2_slot1;
                 var1['onboardingPromptsRaw'] = var7;

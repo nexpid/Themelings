@@ -31,7 +31,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = {};
     var7 = function getActiveErrors() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = _closure1_slot2;
             var1 = var3.getCurrentUserActiveStream;
             var7 = var1.bind(var3)();
@@ -39,8 +39,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4 != var7;
             var8 = undefined;
             var1 = undefined;
-            if(!var3) { _fun0001_ip = 169; continue _fun0001 }
- 33:
+            if(!var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = _closure1_slot3;
             var5 = var6.getHookError;
             var3 = _closure1_slot4;
@@ -48,8 +48,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var5.bind(var6)(var3);
             var3 = var4 != var3;
             var1 = undefined;
-            if(!var3) { _fun0001_ip = 169; continue _fun0001 }
- 67:
+            if(!var3) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var3 = {};
             var6 = _closure1_slot0;
             var9 = _closure1_slot1;
@@ -74,7 +74,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = new Array(1);
             var2[0] = var3;
             var1 = var2;
- 169:
+case 2:
             return var1;
         }
     };

@@ -44,12 +44,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function ThemedHeaderBackgroundGradient(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var10 = var1.baseColor;
             var4 = undefined;
-            if(!(var10 === var4)) { _fun0001_ip = 49; continue _fun0001 }
- 15:
+            if(!(var10 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = _closure1_slot1;
             var5 = _closure1_slot2;
             var2 = 4;
@@ -57,12 +57,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var4)(var2);
             var2 = var2.colors;
             var10 = var2.BG_BASE_TERTIARY;
- 49:
+case 2:
             var6 = var1.minHeight;
-            if(!(var6 === var4)) { _fun0001_ip = 62; continue _fun0001 }
- 59:
+            if(!(var6 === var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var6 = 16;
- 62:
+case 4:
             var1 = _closure1_slot6;
             var5 = var1.bind(var4)();
             var2 = _closure1_slot1;
@@ -86,10 +86,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = null;
             var3 = var3 != var2;
             var8 = 'transparent';
-            if(!var3) { _fun0001_ip = 166; continue _fun0001 }
- 163:
+            if(!var3) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var8 = var2;
- 166:
+case 6:
             var2 = global;
             var3 = var2.Math;
             var2 = var3.max;

@@ -23,15 +23,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function getSoundboardEmojiUrl(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var5 = var1.emojiId;
             var1 = null;
             var2 = var1 == var5;
             var4 = undefined;
             var1 = undefined;
-            if(var2) { _fun0001_ip = 75; continue _fun0001 }
- 22:
+            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = _closure1_slot0;
             var6 = _closure1_slot1;
             var2 = 0;
@@ -45,7 +45,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = arg2;
             var2['size'] = var5;
             var1 = var3.bind(var4)(var2);
- 75:
+case 2:
             return var1;
         }
     };

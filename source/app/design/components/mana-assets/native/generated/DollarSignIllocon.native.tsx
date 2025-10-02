@@ -28,17 +28,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function DollarSignIllocon(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var7 = var1.accessible;
             var6 = var1.accessibilityLabel;
             var5 = var1.resizeMode;
             var8 = var1.size;
             var4 = undefined;
-            if(!(var8 === var4)) { _fun0001_ip = 34; continue _fun0001 }
- 31:
+            if(!(var8 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var8 = 64;
- 34:
+case 2:
             var3 = _closure1_slot2;
             var11 = _closure1_slot0;
             var12 = _closure1_slot1;

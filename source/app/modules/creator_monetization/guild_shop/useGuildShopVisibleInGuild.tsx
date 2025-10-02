@@ -26,7 +26,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function useGuildShopVisibleInGuild(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var5 = _closure1_slot0;
             var3 = _closure1_slot1;
@@ -38,10 +38,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = null;
             var8 = var5 == var4;
             var3 = undefined;
-            if(var8) { _fun0001_ip = 50; continue _fun0001 }
- 45:
+            if(var8) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = var4.id;
- 50:
+case 2:
             var8 = 'channel_list';
             var3 = var6.bind(var7)(var3, var8);
             var6 = _closure1_slot0;
@@ -52,10 +52,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var7.useRoleSubscriptionsVisibleInGuild;
             var9 = var5 == var4;
             var3 = undefined;
-            if(var9) { _fun0001_ip = 102; continue _fun0001 }
- 97:
+            if(var9) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = var4.id;
- 102:
+case 4:
             var3 = var6.bind(var7)(var3);
             var3 = _closure1_slot0;
             var6 = _closure1_slot1;
@@ -70,10 +70,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.useShouldHideGuildPurchaseEntryPoints;
             var5 = var5 == var4;
             var1 = undefined;
-            if(var5) { _fun0001_ip = 171; continue _fun0001 }
- 166:
+            if(var5) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var1 = var4.id;
- 171:
+case 6:
             var1 = var2.bind(var3)(var1);
             var1 = var1.shouldHideGuildPurchaseEntryPoints;
             var1 = false;
@@ -83,7 +83,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['useGuildShopVisibleInGuild'] = var4;
     var2 = function isGuildShopVisibleInGuild(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var5 = _closure1_slot0;
             var4 = _closure1_slot1;
@@ -95,10 +95,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = null;
             var4 = var5 == var1;
             var6 = undefined;
-            if(var4) { _fun0002_ip = 50; continue _fun0002 }
- 45:
+            if(var4) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
             var6 = var1.id;
- 50:
+case 2:
             var4 = 'channel_list';
             var4 = var7.bind(var8)(var6, var4);
             var4 = _closure1_slot0;
@@ -109,10 +109,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.areRoleSubscriptionsVisibleInGuild;
             var5 = var5 == var1;
             var2 = undefined;
-            if(var5) { _fun0002_ip = 102; continue _fun0002 }
- 97:
+            if(var5) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var2 = var1.id;
- 102:
+case 4:
             var1 = arg2;
             var1 = var3.bind(var4)(var2, var1);
             var1 = false;

@@ -32,14 +32,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function getEstablishedDate(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arg1;
             var1 = null;
-            if(!(var1 != var5)) { _fun0001_ip = 122; continue _fun0001 }
- 9:
+            if(!(var1 != var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = '';
-            if(!(var2 !== var5)) { _fun0001_ip = 122; continue _fun0001 }
- 17:
+            if(!(var2 !== var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var3 = global;
             var2 = var3.Date;
             var4 = var2.prototype;
@@ -51,35 +51,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.Date;
             var4 = var6 instanceof var2;
             var2 = null;
-            if(!var4) { _fun0001_ip = 120; continue _fun0001 }
- 63:
+            if(!var4) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var5 = var3.isNaN;
             var3 = var6.getTime;
             var4 = var3.bind(var6)();
             var3 = undefined;
             var3 = var5.bind(var3)(var4);
             var2 = null;
-            if(var3) { _fun0001_ip = 120; continue _fun0001 }
- 91:
+            if(var3) { _fun0001_ip = 5; continue _fun0001 }
+case 7:
             var5 = var6.toLocaleDateString;
             var4 = arg2;
             var3 = {'year': 'numeric', 'month': 'short'};
             var2 = var5.bind(var6)(var4, var3);
- 120:
+case 5:
             return var2;
- 122:
+case 2:
             return var1;
         }
     };
     var3['getEstablishedDate'] = var4;
     var2 = function guildInviteCanEmbedProfile(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var2 = arg1;
             var3 = var2.guild;
             var1 = null;
-            if(!(var1 != var3)) { _fun0002_ip = 150; continue _fun0002 }
- 17:
+            if(!(var1 != var3)) { _fun0002_ip = 8; continue _fun0002 }
+case 4:
             var6 = _closure1_slot0;
             var5 = _closure1_slot1;
             var3 = 2;
@@ -94,34 +94,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = _closure1_slot3;
             var3 = var3.HUB;
             var3 = var6.bind(var7)(var3);
-            if(var3) { _fun0002_ip = 146; continue _fun0002 }
- 87:
+            if(var3) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
             var6 = var1 == var2;
             var3 = undefined;
-            if(var6) { _fun0002_ip = 101; continue _fun0002 }
- 96:
+            if(var6) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
             var3 = var2.channel;
- 101:
+case 11:
             var6 = var1 != var3;
             var3 = null;
-            if(!var6) { _fun0002_ip = 124; continue _fun0002 }
- 110:
+            if(!var6) { _fun0002_ip = 13; continue _fun0002 }
+case 14:
             var4 = _closure1_slot2;
             var2 = var2.channel;
             var3 = var4.bind(var5)(var2);
- 124:
+case 13:
             var1 = var1 == var3;
-            if(var1) { _fun0002_ip = 144; continue _fun0002 }
- 131:
+            if(var1) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
             var2 = var3.isGuildVocal;
             var2 = var2.bind(var3)();
             var1 = !var2;
- 144:
+case 15:
             return var1;
- 146:
+case 9:
             var1 = false;
             return var1;
- 150:
+case 8:
             var1 = false;
             return var1;
         }

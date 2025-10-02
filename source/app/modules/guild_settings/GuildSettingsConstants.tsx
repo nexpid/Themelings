@@ -116,7 +116,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['ERROR_KEY_TO_LABEL_FUNC'] = var4;
     var2 = function getSettingsErrorMessage(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var2 = global;
             var3 = var2.Object;
@@ -124,8 +124,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.bind(var3)(var4);
             var1 = var1.length;
             var3 = 0;
-            if(!(var3 !== var1)) { _fun0001_ip = 132; continue _fun0001 }
- 32:
+            if(!(var3 !== var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = var2.Object;
             var1 = var5.keys;
             var1 = var1.bind(var5)(var4);
@@ -135,26 +135,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = null;
             var7 = var1 == var8;
             var6 = undefined;
-            if(var7) { _fun0001_ip = 88; continue _fun0001 }
- 74:
+            if(var7) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var7 = var8.call;
             var5 = _closure1_slot2;
             var6 = var7.bind(var8)(var5);
- 88:
-            if(!(var1 == var6)) { _fun0001_ip = 98; continue _fun0001 }
- 92:
+case 4:
+            if(!(var1 == var6)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var1 = var4[var3];
-            _fun0001_ip = 130; continue _fun0001;
- 98:
+            _fun0001_ip = 8; continue _fun0001;
+case 6:
             var5 = var4[var3];
             var2 = var2.HermesInternal;
             var4 = var2.concat;
             var3 = '(';
             var2 = ') ';
             var1 = var4.bind(var3)(var6, var2, var5);
- 130:
+case 8:
             return var1;
- 132:
+case 2:
             var1 = null;
             return var1;
         }

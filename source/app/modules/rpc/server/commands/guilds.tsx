@@ -70,7 +70,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7['validation'] = var11;
     var11 = function handler(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var6 = var2.socket;
             var5 = var2.server;
@@ -79,10 +79,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot0 = var3;
             var4 = var2.timeout;
             var2 = undefined;
-            if(!(var4 === var2)) { _fun0001_ip = 46; continue _fun0001 }
- 44:
+            if(!(var4 === var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = 0;
- 46:
+case 2:
             var3 = var5.storeWait;
             var2 = function() {
                 var3 = _closure1_slot3;
@@ -117,11 +117,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.then;
             var1 = function(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var2 = arg1;
                     var3 = null;
-                    if(!(var3 != var2)) { _fun0002_ip = 86; continue _fun0002 }
- 9:
+                    if(!(var3 != var2)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var1 = {};
                     var4 = var2.id;
                     var1['id'] = var4;
@@ -133,17 +133,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var6.bind(var5)(var2, var4);
                     var5 = var3 != var4;
                     var3 = null;
-                    if(!var5) { _fun0002_ip = 59; continue _fun0002 }
- 56:
+                    if(!var5) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var3 = var4;
- 59:
+case 6:
                     var1['icon_url'] = var3;
                     var3 = new Array(0);
                     var1['members'] = var3;
                     var2 = var2.vanityURLCode;
                     var1['vanity_url_code'] = var2;
                     return var1;
- 86:
+case 4:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot1;
                     var2 = 5;
@@ -190,7 +190,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var4.map;
         var2 = function(arg1) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var5 = arg1;
                 var1 = {};
                 var2 = var5.id;
@@ -203,10 +203,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var4.bind(var3)(var5, var2);
                 var2 = null;
                 var4 = var2 != var3;
-                if(!var4) { _fun0003_ip = 53; continue _fun0003 }
- 50:
+                if(!var4) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
                 var2 = var3;
- 53:
+case 8:
                 var1['icon_url'] = var2;
                 return var1;
             }

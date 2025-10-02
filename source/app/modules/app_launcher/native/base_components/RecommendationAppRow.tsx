@@ -33,26 +33,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function RecommendationAppRow(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var10 = var1.application;
             var8 = var1.onPress;
             var7 = var1.isFirstRow;
             var4 = undefined;
-            if(!(var7 === var4)) { _fun0001_ip = 27; continue _fun0001 }
- 25:
+            if(!(var7 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var7 = false;
- 27:
+case 2:
             var6 = var1.isLastRow;
-            if(!(var6 === var4)) { _fun0001_ip = 39; continue _fun0001 }
- 37:
+            if(!(var6 === var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var6 = false;
- 39:
+case 4:
             var5 = var1.showsPromoted;
-            if(!(var5 === var4)) { _fun0001_ip = 51; continue _fun0001 }
- 49:
+            if(!(var5 === var4)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var5 = false;
- 51:
+case 6:
             var3 = _closure1_slot1;
             var11 = _closure1_slot2;
             var2 = 2;

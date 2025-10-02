@@ -18,7 +18,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var3.flatMap;
         var1 = function(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var2 = arg1;
                 var3 = var2.type;
                 var6 = _closure1_slot0;
@@ -28,22 +28,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = undefined;
                 var1 = var6.bind(var5)(var1);
                 var1 = var1.I18nLinkComponent;
-                if(!(var3 !== var1)) { _fun0001_ip = 81; continue _fun0001 }
- 43:
+                if(!(var3 !== var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var3 = var2.props;
                 var6 = var3.children;
                 var1 = null;
-                if(!(var1 == var6)) { _fun0001_ip = 65; continue _fun0001 }
- 59:
+                if(!(var1 == var6)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var1 = new Array(0);
-                _fun0001_ip = 79; continue _fun0001;
- 65:
+                _fun0001_ip = 6; continue _fun0001;
+case 4:
                 var4 = _closure1_slot7;
                 var3 = var3.children;
                 var1 = var4.bind(var5)(var3);
- 79:
+case 6:
                 return var1;
- 81:
+case 2:
                 var1 = new Array(1);
                 var1[0] = var2;
                 return var1;
@@ -96,7 +96,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function TextWithIOSLinkWorkaround(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var4 = arg1;
             var3 = var4.children;
             var1 = null;
@@ -133,12 +133,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var8.bind(var4)(var6);
             var6 = var8.isIOS;
             var6 = var6.bind(var8)();
-            if(!var6) { _fun0002_ip = 147; continue _fun0002 }
- 144:
-            if(var2) { _fun0002_ip = 149; continue _fun0002 }
- 147:
+            if(!var6) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
+            if(var2) { _fun0002_ip = 9; continue _fun0002 }
+case 7:
             return var7;
- 149:
+case 9:
             var2 = _closure1_slot7;
             var6 = var2.bind(var4)(var3);
             var3 = _closure1_slot5;

@@ -24,7 +24,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = {};
     var7 = function tryOpenUrlAsUniversalLink(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
@@ -34,14 +34,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var5)(var1);
             var1 = var3.isAndroid;
             var1 = var1.bind(var3)();
-            if(var1) { _fun0001_ip = 63; continue _fun0001 }
- 40:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = _closure1_slot3;
             var3 = var1.DCDLinkingManager;
             var1 = var3.tryOpenUrlAsUniversalLink;
             var1 = var1.bind(var3)(var4);
-            _fun0001_ip = 133; continue _fun0001;
- 63:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var3 = _closure1_slot1;
             var6 = _closure1_slot2;
             var2 = 2;
@@ -51,25 +51,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.bind(var3)(var4);
             var3 = global;
             var5 = var3.Promise;
-            if(var2) { _fun0001_ip = 117; continue _fun0001 }
- 105:
+            if(var2) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var2 = var5.reject;
             var2 = var2.bind(var5)();
-            _fun0001_ip = 130; continue _fun0001;
- 117:
+            _fun0001_ip = 7; continue _fun0001;
+case 5:
             var4 = var5.resolve;
             var3 = true;
             var2 = var4.bind(var5)(var3);
- 130:
+case 7:
             var1 = var2;
- 133:
+case 4:
             return var1;
         }
     };
     var2['tryOpenUrlAsUniversalLink'] = var7;
     var4 = function tryOpenScheme(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var4 = arg1;
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
@@ -79,14 +79,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var5)(var1);
             var1 = var3.isAndroid;
             var1 = var1.bind(var3)();
-            if(var1) { _fun0002_ip = 63; continue _fun0002 }
- 40:
+            if(var1) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
             var1 = _closure1_slot3;
             var3 = var1.DCDLinkingManager;
             var1 = var3.tryOpenScheme;
             var1 = var1.bind(var3)(var4);
-            _fun0002_ip = 133; continue _fun0002;
- 63:
+            _fun0002_ip = 4; continue _fun0002;
+case 2:
             var3 = _closure1_slot1;
             var6 = _closure1_slot2;
             var2 = 2;
@@ -96,18 +96,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.bind(var3)(var4);
             var3 = global;
             var5 = var3.Promise;
-            if(var2) { _fun0002_ip = 117; continue _fun0002 }
- 105:
+            if(var2) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
             var2 = var5.reject;
             var2 = var2.bind(var5)();
-            _fun0002_ip = 130; continue _fun0002;
- 117:
+            _fun0002_ip = 7; continue _fun0002;
+case 5:
             var4 = var5.resolve;
             var3 = true;
             var2 = var4.bind(var5)(var3);
- 130:
+case 7:
             var1 = var2;
- 133:
+case 4:
             return var1;
         }
     };

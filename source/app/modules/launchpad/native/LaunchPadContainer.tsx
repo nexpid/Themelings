@@ -75,7 +75,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function LaunchPadContainer(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var13 = var2.children;
             var2 = _closure1_slot8;
@@ -240,8 +240,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = _closure1_slot5;
             var13 = var11.DISABLED;
             var11 = undefined;
-            if(!(var20 !== var13)) { _fun0001_ip = 512; continue _fun0001 }
- 450:
+            if(!(var20 !== var13)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var14 = _closure1_slot6;
             var13 = _closure1_slot1;
             var21 = _closure1_slot2;
@@ -256,7 +256,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12['launchPadPullTabState'] = var16;
             var12['updaters'] = var15;
             var11 = var14.bind(var4)(var13, var12);
- 512:
+case 2:
             var10[1] = var11;
             var7['children'] = var10;
             var7 = var9.bind(var4)(var8, var7);

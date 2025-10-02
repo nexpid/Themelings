@@ -49,7 +49,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function ActionSheetIconHeader(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var11 = var1.title;
             var12 = var1.subtitle;
@@ -84,8 +84,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7[0] = var8;
             var8 = null;
             var10 = var8 != var12;
-            if(!var10) { _fun0001_ip = 199; continue _fun0001 }
- 153:
+            if(!var10) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var11 = _closure1_slot3;
             var10 = _closure1_slot0;
             var9 = _closure1_slot1;
@@ -95,7 +95,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = {'variant': 'text-xs/medium', 'color': 'header-secondary'};
             var9['children'] = var12;
             var8 = var11.bind(var4)(var10, var9);
- 199:
+case 2:
             var7[1] = var8;
             var6['children'] = var7;
             var6 = var3.bind(var4)(var2, var6);

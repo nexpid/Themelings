@@ -43,7 +43,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var17 = var1.row;
             var3 = var1.recipientId;
@@ -58,19 +58,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = undefined;
             var3 = function(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = _closure2_slot0;
                     var1 = arg1;
                     var3 = var1[var3];
                     var1 = null;
                     var4 = var1 == var3;
                     var1 = undefined;
-                    if(var4) { _fun0002_ip = 38; continue _fun0002 }
- 25:
+                    if(var4) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var2 = _closure2_slot2;
                     var2 = var2.id;
                     var1 = var3[var2];
- 38:
+case 2:
                     return var1;
                 }
             };
@@ -139,12 +139,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = _closure1_slot5;
             var2 = var2.SENDING;
             var8 = var3 === var2;
-            if(var8) { _fun0001_ip = 329; continue _fun0001 }
- 315:
+            if(var8) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = _closure1_slot5;
             var2 = var2.SENT;
             var8 = var3 === var2;
- 329:
+case 4:
             var3 = _closure1_slot6;
             var2 = _closure1_slot0;
             var13 = _closure1_slot2;

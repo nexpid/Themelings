@@ -44,27 +44,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var7.map;
         var5 = function(arg1, arg2) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var11 = arg1;
                 var3 = _closure1_slot6;
                 var2 = var3.getCategoryForProduct;
                 var1 = var11.skuId;
                 var10 = var2.bind(var3)(var1);
                 var5 = undefined;
-                if(!(var5 !== var10)) { _fun0001_ip = 201; continue _fun0001 }
- 36:
+                if(!(var5 !== var10)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var1 = var11.items;
                 var1 = var1.length;
                 var2 = 0;
-                if(!(!(var1 > var2))) { _fun0001_ip = 61; continue _fun0001 }
- 53:
+                if(!(!(var1 > var2))) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var4 = var11.skuId;
-                _fun0001_ip = 76; continue _fun0001;
- 61:
+                _fun0001_ip = 6; continue _fun0001;
+case 4:
                 var1 = var11.items;
                 var1 = var1[var2];
                 var4 = var1.id;
- 76:
+case 6:
                 var3 = _closure1_slot7;
                 var2 = _closure1_slot0;
                 var12 = _closure1_slot2;
@@ -94,7 +94,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1['children'] = var6;
                 var1 = var3.bind(var5)(var2, var1, var4);
                 return var1;
- 201:
+case 2:
                 var1 = null;
                 return var1;
             }
@@ -141,13 +141,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var8.createStyles;
     var4 = function() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var8 = arguments[0];
             var5 = undefined;
-            if(!(var8 === var5)) { _fun0002_ip = 12; continue _fun0002 }
- 9:
+            if(!(var8 === var5)) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
             var8 = 2;
- 12:
+case 7:
             var1 = {};
             var4 = 1;
             var2 = {'flex': 1, 'alignItems': 'center'};

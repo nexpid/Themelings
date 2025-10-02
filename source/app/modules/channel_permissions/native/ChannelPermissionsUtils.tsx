@@ -29,14 +29,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function openAddMembersActionSheet(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var8 = arg1;
             var7 = arguments[1];
             var1 = undefined;
-            if(!(var7 === var1)) { _fun0001_ip = 14; continue _fun0001 }
- 12:
+            if(!(var7 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var7 = false;
- 14:
+case 2:
             var5 = _closure1_slot1;
             var2 = _closure1_slot2;
             var4 = 1;

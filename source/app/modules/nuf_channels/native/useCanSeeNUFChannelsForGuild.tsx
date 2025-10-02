@@ -64,13 +64,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[0] = var6;
         var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var3 = _closure1_slot4;
                 var1 = var3.getCurrentUser;
                 var5 = var1.bind(var3)();
                 var3 = null;
-                if(!(var3 != var5)) { _fun0001_ip = 312; continue _fun0001 }
- 25:
+                if(!(var3 != var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var4 = _closure1_slot0;
                 var6 = _closure1_slot1;
                 var1 = 6;
@@ -79,21 +79,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var4.bind(var7)(var1);
                 var1 = var4.isNewUser;
                 var1 = var1.bind(var4)(var5);
-                if(!var1) { _fun0001_ip = 312; continue _fun0001 }
- 64:
+                if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
                 var6 = _closure1_slot3;
                 var5 = var6.getGuild;
                 var1 = _closure2_slot0;
                 var1 = var5.bind(var6)(var1);
-                if(!(var3 != var1)) { _fun0001_ip = 308; continue _fun0001 }
- 92:
+                if(!(var3 != var1)) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
                 var8 = var1.features;
                 var6 = var8.has;
                 var5 = _closure1_slot5;
                 var5 = var5.HUB;
                 var5 = var6.bind(var8)(var5);
-                if(var5) { _fun0001_ip = 308; continue _fun0001 }
- 124:
+                if(var5) { _fun0001_ip = 5; continue _fun0001 }
+case 7:
                 var6 = _closure1_slot2;
                 var5 = var6.getSelfMember;
                 var4 = _closure2_slot0;
@@ -103,12 +103,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = _closure1_slot5;
                 var1 = var1.GUILD_ONBOARDING;
                 var1 = var4.bind(var5)(var1);
-                if(!var1) { _fun0001_ip = 176; continue _fun0001 }
- 172:
+                if(!var1) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
                 var1 = var3 != var6;
- 176:
-                if(!var1) { _fun0001_ip = 238; continue _fun0001 }
- 179:
+case 8:
+                if(!var1) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
                 var5 = _closure1_slot0;
                 var8 = _closure1_slot1;
                 var4 = 7;
@@ -118,16 +118,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var6.flags;
                 var10 = var3 != var4;
                 var5 = 0;
-                if(!var10) { _fun0001_ip = 222; continue _fun0001 }
- 219:
+                if(!var10) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
                 var5 = var4;
- 222:
+case 12:
                 var4 = _closure1_slot6;
                 var4 = var4.STARTED_ONBOARDING;
                 var1 = var8.bind(var9)(var5, var4);
- 238:
-                if(!var1) { _fun0001_ip = 303; continue _fun0001 }
- 241:
+case 10:
+                if(!var1) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
                 var5 = _closure1_slot0;
                 var8 = _closure1_slot1;
                 var4 = 7;
@@ -137,21 +137,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var6.flags;
                 var7 = var3 != var6;
                 var3 = 0;
-                if(!var7) { _fun0001_ip = 284; continue _fun0001 }
- 281:
+                if(!var7) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
                 var3 = var6;
- 284:
+case 16:
                 var2 = _closure1_slot6;
                 var2 = var2.COMPLETED_ONBOARDING;
                 var2 = var4.bind(var5)(var3, var2);
                 var1 = !var2;
- 303:
+case 14:
                 var1 = !var1;
                 return var1;
- 308:
+case 5:
                 var1 = false;
                 return var1;
- 312:
+case 2:
                 var1 = false;
                 return var1;
             }

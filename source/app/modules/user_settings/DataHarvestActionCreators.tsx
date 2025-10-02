@@ -103,17 +103,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var3.then;
         var1 = function(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var4 = null;
                 var2 = var4 != var1;
-                if(!var2) { _fun0001_ip = 21; continue _fun0001 }
- 12:
+                if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var3 = var1.body;
                 var2 = var4 != var3;
- 21:
-                if(!var2) { _fun0001_ip = 81; continue _fun0001 }
- 24:
+case 2:
+                if(!var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var4 = _closure1_slot1;
                 var3 = _closure1_slot2;
                 var2 = 1;
@@ -127,7 +127,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var1.body;
                 var2['harvestType'] = var5;
                 var2 = var3.bind(var4)(var2);
- 81:
+case 4:
                 return var1;
             }
         };

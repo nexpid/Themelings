@@ -36,7 +36,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function createInteractionStatus(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var8 = arg1;
             var4 = _closure1_slot0;
             var1 = _closure1_slot1;
@@ -51,42 +51,42 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var4.bind(var7)(var1);
             var1 = var1.InteractionStatusViewState;
             var1 = var1.SENDING;
-            if(!(var1 !== var3)) { _fun0001_ip = 502; continue _fun0001 }
- 70:
+            if(!(var1 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = _closure1_slot0;
             var1 = _closure1_slot1;
             var1 = var1[var5];
             var1 = var4.bind(var7)(var1);
             var1 = var1.InteractionStatusViewState;
             var1 = var1.CREATED;
-            if(!(var1 !== var3)) { _fun0001_ip = 404; continue _fun0001 }
- 106:
+            if(!(var1 !== var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var4 = _closure1_slot0;
             var1 = _closure1_slot1;
             var1 = var1[var5];
             var1 = var4.bind(var7)(var1);
             var1 = var1.InteractionStatusViewState;
             var1 = var1.TIMED_OUT;
-            if(!(var1 !== var3)) { _fun0001_ip = 325; continue _fun0001 }
- 142:
+            if(!(var1 !== var3)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var4 = _closure1_slot0;
             var1 = _closure1_slot1;
             var1 = var1[var5];
             var1 = var4.bind(var7)(var1);
             var1 = var1.InteractionStatusViewState;
             var1 = var1.FAILED;
-            if(!(var1 !== var3)) { _fun0001_ip = 236; continue _fun0001 }
- 175:
+            if(!(var1 !== var3)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var4 = _closure1_slot0;
             var1 = _closure1_slot1;
             var1 = var1[var5];
             var1 = var4.bind(var7)(var1);
             var1 = var1.InteractionStatusViewState;
             var1 = var1.EPHEMERAL_SUCCESS;
-            if(!(var1 !== var3)) { _fun0001_ip = 210; continue _fun0001 }
- 208:
+            if(!(var1 !== var3)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             return var7;
- 210:
+case 10:
             var1 = {};
             var3 = '';
             var1['text'] = var3;
@@ -94,12 +94,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.EPHEMERAL_SUCCESS;
             var1['state'] = var3;
             return var1;
- 236:
+case 8:
             var1 = {};
             var3 = var8.interactionError;
             var4 = null;
-            if(!(var4 == var3)) { _fun0001_ip = 305; continue _fun0001 }
- 250:
+            if(!(var4 == var3)) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var9 = _closure1_slot0;
             var10 = _closure1_slot1;
             var4 = 1;
@@ -112,13 +112,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.t;
             var4 = var4.VCsUJi;
             var3 = var5.bind(var6)(var4);
- 305:
+case 12:
             var1['text'] = var3;
             var3 = _closure1_slot2;
             var3 = var3.FAILED;
             var1['state'] = var3;
             return var1;
- 325:
+case 6:
             var1 = {};
             var6 = _closure1_slot0;
             var9 = _closure1_slot1;
@@ -137,7 +137,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.FAILED;
             var1['state'] = var3;
             return var1;
- 404:
+case 4:
             var1 = {};
             var4 = _closure1_slot0;
             var9 = _closure1_slot1;
@@ -160,7 +160,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.LOADING;
             var1['state'] = var3;
             return var1;
- 502:
+case 2:
             var1 = {};
             var6 = _closure1_slot0;
             var8 = _closure1_slot1;

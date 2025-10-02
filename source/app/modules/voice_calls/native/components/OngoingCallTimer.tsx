@@ -37,7 +37,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function _default(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var6 = var1.style;
             var9 = var1.channelId;
@@ -56,7 +56,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[0] = var9;
             var2 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = _closure1_slot3;
                     var2 = var3.getCall;
                     var1 = _closure2_slot0;
@@ -64,10 +64,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = null;
                     var3 = var1 == var2;
                     var1 = undefined;
-                    if(var3) { _fun0002_ip = 41; continue _fun0002 }
- 36:
+                    if(var3) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var1 = var2.messageId;
- 41:
+case 2:
                     return var1;
                 }
             };
@@ -75,8 +75,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = null;
             var2 = var2 != var7;
             var5 = 0;
-            if(!var2) { _fun0001_ip = 125; continue _fun0001 }
- 94:
+            if(!var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = _closure1_slot1;
             var8 = _closure1_slot2;
             var2 = 4;
@@ -84,7 +84,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var4)(var2);
             var2 = var3.extractTimestamp;
             var5 = var2.bind(var3)(var7);
- 125:
+case 4:
             var3 = _closure1_slot4;
             var2 = _closure1_slot1;
             var7 = _closure1_slot2;

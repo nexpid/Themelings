@@ -81,29 +81,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     Object.defineProperty(var4, var7, {get: var8, set: var1, enumerable: true});
     var7 = function predicate(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var3 = var1.channel;
             var1 = null;
             var1 = var1 != var3;
-            if(!var1) { _fun0001_ip = 27; continue _fun0001 }
- 17:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var3.isGroupDM;
             var1 = var2.bind(var3)();
- 27:
+case 2:
             return var1;
         }
     };
     var4['predicate'] = var7;
     var2 = function execute(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg2;
             var5 = var1.channel;
             var _closure2_slot0 = var5;
             var1 = null;
-            if(!(var1 != var5)) { _fun0002_ip = 453; continue _fun0002 }
- 23:
+            if(!(var1 != var5)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var2 = _closure1_slot0;
             var1 = _closure1_slot2;
             var3 = 6;
@@ -140,8 +140,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var5.isManaged;
             var1 = var1.bind(var5)();
             var8 = var3;
-            if(!var1) { _fun0002_ip = 300; continue _fun0002 }
- 190:
+            if(!var1) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var3 = _closure1_slot0;
             var1 = _closure1_slot2;
             var2 = var1[var10];
@@ -166,7 +166,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = {};
             var1['name'] = var12;
             var7 = var5.bind(var11)(var3, var1);
- 300:
+case 6:
             var2 = _closure1_slot1;
             var5 = _closure1_slot2;
             var1 = 7;
@@ -199,7 +199,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['cancelText'] = var5;
             var4 = function onConfirm() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0: // try_start_0
+case 0: // try_start_0
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
                     var1 = 8;
@@ -210,9 +210,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = _closure2_slot0;
                     var1 = var1.id;
                     var1 = var2.bind(var3)(var1);
- 48: // try_end0
-                    _fun0003_ip = 154; continue _fun0003;
- 50: // catch_target0
+case 8: // try_end0
+                    _fun0003_ip = 9; continue _fun0003;
+case 10: // catch_target0
                     CatchBlockStart(arg_register=0);
                     var3 = _closure1_slot1;
                     var9 = _closure1_slot2;
@@ -235,14 +235,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var1.YOsuT0;
                     var1 = var5.bind(var6)(var1);
                     var1 = var3.bind(var4)(var2, var1);
- 154:
+case 9:
                     var1 = undefined;
                     return var1;
                 }
             };
             var1['onConfirm'] = var4;
             var1 = var2.bind(var3)(var1);
- 453:
+case 4:
             var1 = undefined;
             return var1;
         }

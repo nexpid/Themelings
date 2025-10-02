@@ -76,7 +76,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['useValue'] = var7;
     var4 = function onContactSyncSettingValueChange(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = _closure1_slot2;
             var3 = var4.getLocalAccount;
             var1 = _closure1_slot4;
@@ -89,10 +89,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var1 == var3;
             var1 = undefined;
             var5 = undefined;
-            if(var4) { _fun0001_ip = 60; continue _fun0001 }
- 54:
+            if(var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = var3.phone;
- 60:
+case 2:
             var3 = _closure1_slot0;
             var4 = _closure1_slot1;
             var2 = 6;

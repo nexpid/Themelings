@@ -104,7 +104,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function YouBarStackNavigator() {
         var1 = function useInitialGuildParams() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var2 = _closure1_slot3;
                 var1 = var2.useRef;
                 var3 = undefined;
@@ -128,12 +128,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var1.current;
                 var5 = null;
                 var2 = var5 == var2;
-                if(!var2) { _fun0001_ip = 89; continue _fun0001 }
- 85:
+                if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var2 = var5 != var7;
- 89:
-                if(!var2) { _fun0001_ip = 135; continue _fun0001 }
- 92:
+case 2:
+                if(!var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var2 = {};
                 var2['guildId'] = var7;
                 var6 = _closure1_slot6;
@@ -141,13 +141,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var4.bind(var6)(var7);
                 var5 = var5 != var4;
                 var3 = undefined;
-                if(!var5) { _fun0001_ip = 125; continue _fun0001 }
- 122:
+                if(!var5) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                 var3 = var4;
- 125:
+case 6:
                 var2['channelId'] = var3;
                 var1['current'] = var2;
- 135:
+case 4:
                 var1 = var1.current;
                 return var1;
             }
@@ -214,7 +214,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8[2] = var11;
         var7 = function() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var4 = _closure1_slot11;
                 var3 = _closure1_slot10;
                 var2 = {};
@@ -243,8 +243,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5[0] = var7;
                 var7 = _closure2_slot1;
                 var6 = null;
-                if(!var7) { _fun0002_ip = 158; continue _fun0002 }
- 102:
+                if(!var7) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                 var11 = _closure1_slot9;
                 var7 = _closure1_slot12;
                 var8 = var7.Screen;
@@ -263,7 +263,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 };
                 var7['options'] = var12;
                 var6 = var11.bind(var1)(var8, var7);
- 158:
+case 8:
                 var5[1] = var6;
                 var8 = _closure1_slot9;
                 var6 = _closure1_slot12;

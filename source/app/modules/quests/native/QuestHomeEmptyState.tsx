@@ -73,7 +73,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function QuestHomeEmptyState(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var10 = var1.action;
             var1 = _closure1_slot9;
@@ -154,8 +154,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = new Array(2);
             var7[0] = var8;
             var8 = null;
-            if(var9) { _fun0001_ip = 547; continue _fun0001 }
- 384:
+            if(var9) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var11 = _closure1_slot7;
             var10 = _closure1_slot8;
             var9 = {};
@@ -193,7 +193,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12[1] = var13;
             var9['children'] = var12;
             var8 = var11.bind(var4)(var10, var9);
- 547:
+case 2:
             var7[1] = var8;
             var5['children'] = var7;
             var5 = var6.bind(var4)(var2, var5);

@@ -113,7 +113,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var9.createStyles;
     var5 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = {};
             var2 = {'width': 78, 'height': 44, 'justifyContent': 'center'};
             var7 = _closure1_slot1;
@@ -127,10 +127,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['marginEnd'] = var4;
             var7 = arg1;
             var4 = 0;
-            if(!(var4 === var7)) { _fun0001_ip = 69; continue _fun0001 }
- 66:
+            if(!(var4 === var7)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = 20;
- 69:
+case 2:
             var2['marginStart'] = var4;
             var1['container'] = var2;
             var2 = {'position': 'absolute', 'borderColor': null, 'borderRadius': null, 'borderWidth': 2, 'flex': 1, 'width': 78, 'height': 44};
@@ -162,7 +162,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var7)(var5);
     var4 = function GiftBackgroundSelectTile(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = var1.index;
             var8 = var1.selected;
@@ -175,8 +175,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var1[var18];
             var1 = null;
             var2 = var1 == var10;
-            if(var2) { _fun0002_ip = 297; continue _fun0002 }
- 59:
+            if(var2) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var4 = _closure1_slot7;
             var3 = _closure1_slot4;
             var2 = {};
@@ -207,15 +207,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var11.container;
             var2['style'] = var9;
             var2['onPress'] = var6;
-            if(!var8) { _fun0002_ip = 220; continue _fun0002 }
- 194:
+            if(!var8) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var12 = _closure1_slot6;
             var9 = _closure1_slot3;
             var6 = {};
             var13 = var11.selected;
             var6['style'] = var13;
             var8 = var12.bind(var5)(var9, var6);
- 220:
+case 6:
             var6 = new Array(2);
             var6[0] = var8;
             var9 = _closure1_slot6;
@@ -234,7 +234,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[1] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 297:
+case 4:
             return var1;
         }
     };

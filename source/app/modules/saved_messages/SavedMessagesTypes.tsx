@@ -7,7 +7,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var6;
     var4 = function savedMessageDataToClient(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var1 = {};
             var2 = var3.channel_id;
@@ -32,17 +32,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var3.guild_id;
             var7 = 0;
             var5 = undefined;
-            if(!(var7 !== var6)) { _fun0001_ip = 128; continue _fun0001 }
- 123:
+            if(!(var7 !== var6)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = var3.guild_id;
- 128:
+case 2:
             var1['guildId'] = var5;
             var6 = var3.author_id;
             var5 = undefined;
-            if(!(var7 !== var6)) { _fun0001_ip = 150; continue _fun0001 }
- 144:
+            if(!(var7 !== var6)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = var3.author_id;
- 150:
+case 4:
             var1['authorId'] = var5;
             var5 = var3.notes;
             var1['notes'] = var5;
@@ -50,8 +50,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = null;
             var5 = var5 != var6;
             var2 = undefined;
-            if(!var5) { _fun0001_ip = 215; continue _fun0001 }
- 183:
+            if(!var5) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var5 = var4.Date;
             var8 = var3.due_at;
             var4 = var5.prototype;
@@ -59,7 +59,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var4;
             var3 = new var9[var5](var8, var7);
             var2 = var3 instanceof Object ? var3 : var4;
- 215:
+case 6:
             var1['dueAt'] = var2;
             return var1;
         }
@@ -91,14 +91,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['savedMessageDataToClient'] = var4;
     var4 = function savedMessageCreateObjectToClient(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = {};
             var4 = var2.message;
             var3 = null;
             var4 = var3 != var4;
-            if(!var4) { _fun0002_ip = 59; continue _fun0002 }
- 19:
+            if(!var4) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var6 = _closure1_slot0;
             var5 = _closure1_slot1;
             var4 = 0;
@@ -108,7 +108,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var6.createMessageRecord;
             var4 = var2.message;
             var3 = var5.bind(var6)(var4);
- 59:
+case 8:
             var1['message'] = var3;
             var4 = _closure1_slot2;
             var3 = var2.save_data;

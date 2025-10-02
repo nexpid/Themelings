@@ -38,7 +38,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function _default(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var19 = var2.id;
             var14 = var2.source;
@@ -77,15 +77,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = function() {
                 var1 = function() {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                         var3 = _closure2_slot0;
                         var2 = null;
-                        if(!(var2 != var3)) { _fun0002_ip = 27; continue _fun0002 }
- 13:
+                        if(!(var2 != var3)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                         var2 = _closure2_slot0;
                         var1 = var2.dispose;
                         var1 = var1.bind(var2)();
- 27:
+case 2:
                         var1 = undefined;
                         return var1;
                     }
@@ -103,14 +103,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var1[var3];
             var1 = null;
             var7 = var1 == var10;
-            if(var7) { _fun0001_ip = 403; continue _fun0001 }
- 212:
-            if(var6) { _fun0001_ip = 226; continue _fun0001 }
- 215:
+            if(var7) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            if(var6) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var3 = var3.bind(var5)();
             var3 = true;
             var3 = var4.bind(var5)(var3);
- 226:
+case 6:
             var4 = _closure1_slot5;
             var7 = _closure1_slot0;
             var6 = _closure1_slot2;
@@ -150,7 +150,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var4.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 403:
+case 4:
             return var1;
         }
     };

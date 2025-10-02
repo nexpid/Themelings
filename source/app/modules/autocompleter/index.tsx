@@ -1,7 +1,7 @@
 // app/modules/autocompleter/index.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
         var6 = require;
         var4 = metroImportDefault;
         var3 = exports;
@@ -30,15 +30,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var11 = var6.bind(var1)(var2);
         var9 = var11;
         for(var2 in var9)
- 114:
+case 2:
         {
- 123:
+case 3:
             var13 = var2;
             var12 = var11[var13];
             var3[var13] = var12;
-            _fun0001_ip = 114; continue _fun0001;
+            _fun0001_ip = 2; continue _fun0001;
         }
- 136:
+case 4:
         var2 = 3;
         var2 = var5[var2];
         var2 = var6.bind(var1)(var2);

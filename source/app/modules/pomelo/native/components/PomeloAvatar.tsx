@@ -42,7 +42,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function PomeloAvatar(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var10 = var1.user;
             var5 = _closure1_slot0;
@@ -80,8 +80,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var11[var5];
             var6 = var6.bind(var4)(var5);
             var5 = null;
-            if(!(var5 != var7)) { _fun0001_ip = 199; continue _fun0001 }
- 147:
+            if(!(var5 != var7)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = {};
             var5['source'] = var7;
             var11 = _closure1_slot0;
@@ -94,8 +94,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['size'] = var7;
             var7 = !var8;
             var5['animate'] = var7;
-            _fun0001_ip = 256; continue _fun0001;
- 199:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var7 = {};
             var7['user'] = var10;
             var7['guildId'] = var4;
@@ -110,7 +110,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = !var8;
             var7['animate'] = var8;
             var5 = var7;
- 256:
+case 4:
             var5 = var3.bind(var4)(var6, var5);
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

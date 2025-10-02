@@ -80,7 +80,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function ChannelScreenAnimatedFrame(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var16 = var1.translateX;
             var _closure2_slot0 = var16;
@@ -106,16 +106,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var10.useAnimatedStyle;
             var3 = function S() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = _closure2_slot0;
                     var2 = var3.get;
                     var3 = var2.bind(var3)();
                     var2 = _closure2_slot1;
                     var6 = var3 === var2;
-                    if(var6) { _fun0002_ip = 31; continue _fun0002 }
- 27:
+                    if(var6) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var6 = _closure2_slot2;
- 31:
+case 2:
                     var1 = {};
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
@@ -125,10 +125,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var3.bind(var9)(var2);
                     var4 = var5.withTiming;
                     var3 = 1;
-                    if(!var6) { _fun0002_ip = 71; continue _fun0002 }
- 69:
+                    if(!var6) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var3 = 0;
- 71:
+case 4:
                     var2 = {};
                     var10 = _closure1_slot0;
                     var11 = _closure1_slot2;
@@ -142,13 +142,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = 11;
                     var7 = var10[var7];
                     var7 = var8.bind(var9)(var7);
-                    if(var6) { _fun0002_ip = 135; continue _fun0002 }
- 127:
+                    if(var6) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var6 = var7.SIDE_PANEL_OPEN_DURATION_MS;
-                    _fun0002_ip = 141; continue _fun0002;
- 135:
+                    _fun0002_ip = 8; continue _fun0002;
+case 6:
                     var6 = var7.SIDE_PANEL_CLOSE_DURATION_MS;
- 141:
+case 8:
                     var2['duration'] = var6;
                     var2 = var4.bind(var5)(var3, var2);
                     var1['opacity'] = var2;
@@ -200,10 +200,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = new Array(4);
             var5[0] = var10;
             var10 = undefined;
-            if(!(var12 === var11)) { _fun0001_ip = 328; continue _fun0001 }
- 322:
+            if(!(var12 === var11)) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var10 = var9.midnightContainer;
- 328:
+case 9:
             var5[1] = var10;
             var5[2] = var8;
             var5[3] = var7;

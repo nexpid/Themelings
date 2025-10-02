@@ -63,7 +63,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['parent'] = var7;
     var4 = function useValue() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = _closure1_slot0;
             var2 = _closure1_slot1;
             var1 = 2;
@@ -75,10 +75,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var1.bind(var2)();
             var1 = null;
             var1 = var1 != var2;
-            if(!var1) { _fun0001_ip = 53; continue _fun0001 }
- 50:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var2;
- 53:
+case 2:
             return var1;
         }
     };

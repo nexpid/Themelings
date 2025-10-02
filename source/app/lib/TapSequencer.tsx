@@ -92,7 +92,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var6 = function value(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var1 = this;
                 var2 = global;
                 var3 = var2.Date;
@@ -104,21 +104,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var1._state;
                 var2 = null;
                 var2 = var2 === var4;
-                if(var2) { _fun0001_ip = 69; continue _fun0001 }
- 49:
+                if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var4 = var1._state;
                 var4 = var4.timestamp;
                 var4 = var4 + var5;
                 var2 = var4 < var3;
- 69:
-                if(!var2) { _fun0001_ip = 96; continue _fun0001 }
- 72:
+case 2:
+                if(!var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var2 = {};
                 var4 = var1.tapSequenceHandlers;
                 var2['handlers'] = var4;
                 var2['timestamp'] = var3;
                 var1['_state'] = var2;
- 96:
+case 4:
                 var1 = var1._state;
                 var1 = var1.handlers;
                 return var1;
@@ -131,12 +131,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var6 = function value(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var3 = arg1;
                 var2 = null;
                 var1 = var2 == var3;
-                if(var1) { _fun0002_ip = 44; continue _fun0002 }
- 12:
+                if(var1) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                 var1 = {};
                 var1['handlers'] = var3;
                 var3 = global;
@@ -145,7 +145,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var3.bind(var4)();
                 var1['timestamp'] = var3;
                 var2 = var1;
- 44:
+case 6:
                 var1 = this;
                 var1['_state'] = var2;
                 var1 = undefined;
@@ -159,7 +159,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var5 = function value(arg1) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var1 = arg1;
                 var4 = this;
                 var2 = var4.getState;
@@ -170,17 +170,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var2 == var7;
                 var1 = undefined;
                 var5 = undefined;
-                if(var6) { _fun0003_ip = 52; continue _fun0003 }
- 42:
+                if(var6) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
                 var6 = var7.call;
                 var5 = var6.bind(var7)(var8);
- 52:
+case 8:
                 var6 = var2 != var5;
                 var2 = undefined;
-                if(!var6) { _fun0003_ip = 64; continue _fun0003 }
- 61:
+                if(!var6) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
                 var2 = var5;
- 64:
+case 10:
                 var2 = var3.bind(var4)(var2);
                 return var1;
             }
@@ -208,20 +208,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = undefined;
         var1 = function() {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                 var3 = _closure1_slot7;
                 var1 = _closure2_slot0;
                 var4 = 'function';
                 var1 = typeof var1;
-                if(!(var4 !== var1)) { _fun0004_ip = 31; continue _fun0004 }
- 25:
+                if(!(var4 !== var1)) { _fun0004_ip = 12; continue _fun0004 }
+case 13:
                 var1 = _closure2_slot0;
-                _fun0004_ip = 41; continue _fun0004;
- 31:
+                _fun0004_ip = 14; continue _fun0004;
+case 12:
                 var4 = _closure2_slot0;
                 var2 = undefined;
                 var1 = var4.bind(var2)();
- 41:
+case 14:
                 var2 = var3.prototype;
                 var2 = Object.create(var2, {constructor: {value: var3}});
                 var6 = var2;
@@ -241,21 +241,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = _closure1_slot4;
         var2 = function() {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
                 var3 = _closure2_slot1;
                 var2 = var3.setTapSequenceHandlers;
                 var1 = _closure2_slot0;
                 var5 = 'function';
                 var1 = typeof var1;
-                if(!(var5 !== var1)) { _fun0005_ip = 36; continue _fun0005 }
- 30:
+                if(!(var5 !== var1)) { _fun0005_ip = 15; continue _fun0005 }
+case 16:
                 var1 = _closure2_slot0;
-                _fun0005_ip = 46; continue _fun0005;
- 36:
+                _fun0005_ip = 17; continue _fun0005;
+case 15:
                 var5 = _closure2_slot0;
                 var4 = undefined;
                 var1 = var5.bind(var4)();
- 46:
+case 17:
                 var1 = var2.bind(var3)(var1);
                 var1 = undefined;
                 return var1;

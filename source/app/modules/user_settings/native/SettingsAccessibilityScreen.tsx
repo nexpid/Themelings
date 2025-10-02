@@ -139,7 +139,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['enableMobileLinkUnderlineAccessibilitySetting'] = var1;
             var2 = function getAccessibilitySettingScreen(arg1) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     var2 = arg1;
                     var3 = var2.navigation;
                     var _closure4_slot0 = var3;
@@ -182,8 +182,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3[0] = var2;
                     var4 = null;
                     var2 = null;
-                    if(!var12) { _fun0001_ip = 284; continue _fun0001 }
- 197:
+                    if(!var12) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var13 = {};
                     var14 = _closure1_slot5;
                     var15 = var14.CONTRAST_MODE;
@@ -203,11 +203,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var14 = var15.bind(var16)(var14);
                     var13['subLabel'] = var14;
                     var2 = var13;
- 284:
+case 2:
                     var3[1] = var2;
                     var2 = null;
-                    if(!var12) { _fun0001_ip = 380; continue _fun0001 }
- 293:
+                    if(!var12) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                     var12 = {};
                     var13 = _closure1_slot5;
                     var14 = var13.REDUCE_SATURATION;
@@ -227,11 +227,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var13 = var14.bind(var15)(var13);
                     var12['subLabel'] = var13;
                     var2 = var12;
- 380:
+case 4:
                     var3[2] = var2;
                     var2 = null;
-                    if(!var8) { _fun0001_ip = 476; continue _fun0001 }
- 389:
+                    if(!var8) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                     var8 = {};
                     var12 = _closure1_slot5;
                     var13 = var12.SHOW_LINK_DECORATIONS;
@@ -251,7 +251,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var12 = var13.bind(var14)(var12);
                     var8['subLabel'] = var12;
                     var2 = var8;
- 476:
+case 6:
                     var3[3] = var2;
                     var2 = {};
                     var12 = _closure1_slot0;
@@ -336,15 +336,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8[0] = var9;
                     var2['settings'] = var8;
                     var8 = var4 != var11;
-                    if(!var8) { _fun0001_ip = 864; continue _fun0001 }
- 839:
+                    if(!var8) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
                     var12 = _closure1_slot1;
                     var13 = _closure1_slot2;
                     var9 = 7;
                     var9 = var13[var9];
                     var9 = var12.bind(var6)(var9);
                     var8 = var9.bind(var6)(var11);
- 864:
+case 8:
                     var2['subLabel'] = var8;
                     var3[6] = var2;
                     var2 = {};
@@ -354,15 +354,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8[0] = var9;
                     var2['settings'] = var8;
                     var8 = var4 != var10;
-                    if(!var8) { _fun0001_ip = 930; continue _fun0001 }
- 905:
+                    if(!var8) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
                     var11 = _closure1_slot1;
                     var12 = _closure1_slot2;
                     var9 = 7;
                     var9 = var12[var9];
                     var9 = var11.bind(var6)(var9);
                     var8 = var9.bind(var6)(var10);
- 930:
+case 10:
                     var2['subLabel'] = var8;
                     var3[7] = var2;
                     var2 = {};
@@ -372,15 +372,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8[0] = var9;
                     var2['settings'] = var8;
                     var4 = var4 != var7;
-                    if(!var4) { _fun0001_ip = 996; continue _fun0001 }
- 971:
+                    if(!var4) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
                     var8 = _closure1_slot1;
                     var9 = _closure1_slot2;
                     var5 = 7;
                     var5 = var9[var5];
                     var5 = var8.bind(var6)(var5);
                     var4 = var5.bind(var6)(var7);
- 996:
+case 12:
                     var2['subLabel'] = var4;
                     var3[8] = var2;
                     var2 = var3.filter;

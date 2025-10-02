@@ -67,7 +67,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function MemberVerificationAlertSuccess(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arg1;
             var9 = var5.guildId;
             var _closure2_slot0 = var9;
@@ -117,23 +117,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var15 = var8.bind(var9)(var4, var3);
-            if(!(var1 != var19)) { _fun0001_ip = 635; continue _fun0001 }
- 174:
+            if(!(var1 != var19)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var8 = function onConfirm() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = _closure2_slot1;
                     var1 = undefined;
                     var3 = var3.bind(var1)();
                     var3 = _closure2_slot2;
                     var4 = var3.onClose;
                     var3 = null;
-                    if(!(var3 != var4)) { _fun0002_ip = 43; continue _fun0002 }
- 29:
+                    if(!(var3 != var4)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var3 = _closure2_slot2;
                     var2 = var3.onClose;
                     var2 = var2.bind(var3)();
- 43:
+case 4:
                     return var1;
                 }
             };
@@ -233,7 +233,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[var6] = var7;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
- 635:
+case 2:
             return var1;
         }
     };

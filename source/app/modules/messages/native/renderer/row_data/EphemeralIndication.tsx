@@ -35,27 +35,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function createEphemeralIndication(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var13 = arg1;
             var2 = var13.hasFlag;
             var1 = _closure1_slot5;
             var1 = var1.EPHEMERAL;
             var1 = var2.bind(var13)(var1);
             var6 = undefined;
-            if(var1) { _fun0001_ip = 34; continue _fun0001 }
- 32:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             return var6;
- 34:
+case 2:
             var4 = var13.interactionMetadata;
             var1 = null;
             var5 = var1 == var4;
             var2 = undefined;
-            if(var5) { _fun0001_ip = 57; continue _fun0001 }
- 51:
+            if(var5) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = var4.ephemerality_reason;
- 57:
-            if(!(var1 == var2)) { _fun0001_ip = 381; continue _fun0001 }
- 64:
+case 4:
+            if(!(var1 == var2)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var2 = {};
             var10 = _closure1_slot0;
             var4 = _closure1_slot2;
@@ -99,8 +99,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var8.getMessage;
             var4 = var13.id;
             var4 = var7.bind(var8)(var4);
-            if(!(var1 != var4)) { _fun0001_ip = 379; continue _fun0001 }
- 279:
+            if(!(var1 != var4)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var7 = _closure1_slot1;
             var4 = _closure1_slot2;
             var5 = var4[var5];
@@ -121,9 +121,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.OiCBhI;
             var4 = var5.bind(var7)(var4);
             var2['helpButtonAccessibilityLabel'] = var4;
- 379:
+case 8:
             return var2;
- 381:
+case 6:
             var4 = _closure1_slot0;
             var5 = _closure1_slot2;
             var2 = 2;
@@ -133,10 +133,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var13.interactionMetadata;
             var7 = var1 == var5;
             var1 = undefined;
-            if(var7) { _fun0001_ip = 428; continue _fun0001 }
- 422:
+            if(var7) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var1 = var5.ephemerality_reason;
- 428:
+case 10:
             var11 = var2.bind(var4)(var1);
             var1 = {};
             var5 = _closure1_slot0;

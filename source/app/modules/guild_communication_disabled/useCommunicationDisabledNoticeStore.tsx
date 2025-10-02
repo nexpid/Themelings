@@ -30,7 +30,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var8.createStore;
     var4 = function(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var _closure2_slot0 = var1;
             var1 = arg2;
@@ -47,10 +47,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = _closure1_slot3;
             var5 = var4.bind(var5)(var3);
             var3 = null;
-            if(!(var3 == var5)) { _fun0001_ip = 73; continue _fun0001 }
- 69:
+            if(!(var3 == var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = new Array(0);
- 73:
+case 2:
             var3 = global;
             var3 = var3.Set;
             var4 = var3.prototype;
@@ -97,7 +97,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['dismissNotification'] = var3;
             var2 = function resetNotification(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var4 = arg1;
                     var3 = _closure2_slot1;
                     var1 = undefined;
@@ -106,8 +106,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var _closure3_slot0 = var8;
                     var3 = var8.has;
                     var3 = var3.bind(var8)(var4);
-                    if(!var3) { _fun0002_ip = 123; continue _fun0002 }
- 41:
+                    if(!var3) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var3 = var8.delete;
                     var3 = var3.bind(var8)(var4);
                     var4 = _closure1_slot0;
@@ -133,7 +133,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     };
                     var2 = var3.bind(var4)(var2);
- 123:
+case 4:
                     return var1;
                 }
             };

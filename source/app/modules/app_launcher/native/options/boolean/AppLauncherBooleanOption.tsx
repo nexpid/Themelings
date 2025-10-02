@@ -71,24 +71,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var6.useState;
         var2 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var3 = _closure2_slot0;
                 var1 = null;
                 var1 = var1 != var3;
-                if(!var1) { _fun0001_ip = 33; continue _fun0001 }
- 16:
+                if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var3 = _closure2_slot0;
                 var4 = var3.type;
                 var3 = 'text';
                 var1 = var3 === var4;
- 33:
-                if(!var1) { _fun0001_ip = 53; continue _fun0001 }
- 36:
+case 2:
+                if(!var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var2 = _closure2_slot0;
                 var3 = var2.text;
                 var2 = 'true';
                 var1 = var2 === var3;
- 53:
+case 4:
                 return var1;
             }
         };

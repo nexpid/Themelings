@@ -28,7 +28,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.forwardRef;
     var2 = function(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arg1;
             var3 = _closure1_slot0;
             var6 = _closure1_slot1;
@@ -55,19 +55,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var2.focusProps;
             var8 = var2.isFocused;
             var2 = var5.enableAndroidSanitizedInputWorkaround;
-            if(!var2) { _fun0001_ip = 291; continue _fun0001 }
- 124:
+            if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var9 = var5.secureTextEntry;
             var6 = var5.keyboardType;
             var14 = var5.autoComplete;
-            if(!(var9 === var4)) { _fun0001_ip = 148; continue _fun0001 }
- 146:
+            if(!(var9 === var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var9 = false;
- 148:
-            if(!(var6 === var4)) { _fun0001_ip = 156; continue _fun0001 }
- 152:
+case 4:
+            if(!(var6 === var4)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var6 = 'default';
- 156:
+case 6:
             var2 = {};
             var15 = _closure1_slot0;
             var3 = _closure1_slot1;
@@ -77,10 +77,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var15.isAndroid;
             var15 = var3.bind(var15)();
             var3 = 'off';
-            if(var15) { _fun0001_ip = 197; continue _fun0001 }
- 194:
+            if(var15) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var3 = var14;
- 197:
+case 8:
             var2['autoComplete'] = var3;
             var14 = _closure1_slot0;
             var3 = _closure1_slot1;
@@ -90,10 +90,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var14)();
             var14 = !var3;
             var3 = !var14;
-            if(!var14) { _fun0001_ip = 240; continue _fun0001 }
- 237:
+            if(!var14) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var3 = var9;
- 240:
+case 10:
             var2['secureTextEntry'] = var3;
             var9 = _closure1_slot0;
             var3 = _closure1_slot1;
@@ -102,13 +102,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var9.isAndroid;
             var9 = var3.bind(var9)();
             var3 = 'visible-password';
-            if(var9) { _fun0001_ip = 283; continue _fun0001 }
- 280:
+            if(var9) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var3 = var6;
- 283:
+case 12:
             var2['keyboardType'] = var3;
             var11 = var2;
- 291:
+case 2:
             var3 = _closure1_slot3;
             var12 = _closure1_slot0;
             var14 = _closure1_slot1;

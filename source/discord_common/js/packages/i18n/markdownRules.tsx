@@ -133,7 +133,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7['match'] = var9;
     var9 = function parse(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg3;
             var2 = var1.unsafeContext;
             var3 = arg1;
@@ -143,18 +143,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = 'string';
             var1 = typeof var4;
             var2 = var4;
-            if(!(var3 !== var1)) { _fun0001_ip = 62; continue _fun0001 }
- 37:
+            if(!(var3 !== var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = null;
             var3 = var1 != var4;
             var1 = '';
-            if(!var3) { _fun0001_ip = 59; continue _fun0001 }
- 50:
+            if(!var3) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = var4.toString;
             var1 = var3.bind(var4)();
- 59:
+case 4:
             var2 = var1;
- 62:
+case 2:
             var1 = {};
             var3 = 'text';
             var1['type'] = var3;

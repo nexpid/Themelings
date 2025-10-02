@@ -95,7 +95,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function QuestRewardTile(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var2 = var3.quest;
             var _closure2_slot0 = var2;
@@ -106,13 +106,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var3.style;
             var12 = var3.paused;
             var4 = undefined;
-            if(!(var12 === var4)) { _fun0001_ip = 52; continue _fun0001 }
- 50:
+            if(!(var12 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var12 = false;
- 52:
+case 2:
             var5 = var3.withAnimation;
-            if(!(var5 === var4)) { _fun0001_ip = 95; continue _fun0001 }
- 62:
+            if(!(var5 === var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var3 = 8;
@@ -120,7 +120,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.bind(var4)(var3);
             var3 = var6.isIOS;
             var5 = var3.bind(var6)();
- 95:
+case 4:
             var _closure2_slot3 = var4;
             var _closure2_slot4 = var4;
             var7 = _closure1_slot0;
@@ -156,14 +156,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var8.bind(var4)(var3, var7);
             var8 = var3.name;
             var7 = null;
-            if(!(var7 == var8)) { _fun0001_ip = 201; continue _fun0001 }
- 188:
+            if(!(var7 == var8)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var7 = var3.messages;
             var8 = var7.name;
-            _fun0001_ip = 206; continue _fun0001;
- 201:
+            _fun0001_ip = 8; continue _fun0001;
+case 6:
             var8 = var3.name;
- 206:
+case 8:
             var7 = _closure1_slot5;
             var3 = new Array(1);
             var3[0] = var2;
@@ -212,14 +212,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[0] = var2;
             var2 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var2 = _closure2_slot3;
                     var2 = var2.isAnimated;
-                    if(var2) { _fun0002_ip = 22; continue _fun0002 }
- 18:
+                    if(var2) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
                     var2 = undefined;
                     return var2;
- 22:
+case 9:
                     var5 = _closure1_slot6;
                     var4 = var5.addEventListener;
                     var3 = 'change';
@@ -317,13 +317,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8[1] = var16;
             var8[2] = var15;
             var1['style'] = var8;
-            if(!var7) { _fun0001_ip = 498; continue _fun0001 }
- 486:
+            if(!var7) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var7 = var14.isAnimated;
-            if(!var7) { _fun0001_ip = 498; continue _fun0001 }
- 495:
-            if(var5) { _fun0001_ip = 552; continue _fun0001 }
- 498:
+            if(!var7) { _fun0001_ip = 11; continue _fun0001 }
+case 13:
+            if(var5) { _fun0001_ip = 14; continue _fun0001 }
+case 11:
             var8 = _closure1_slot11;
             var7 = _closure1_slot1;
             var15 = _closure1_slot2;
@@ -337,8 +337,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var9.image;
             var5['style'] = var15;
             var5 = var8.bind(var4)(var7, var5);
-            _fun0001_ip = 673; continue _fun0001;
- 552:
+            _fun0001_ip = 15; continue _fun0001;
+case 14:
             var8 = _closure1_slot11;
             var7 = _closure1_slot0;
             var15 = _closure1_slot2;
@@ -356,20 +356,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = true;
             var6['poster'] = var13;
             var10 = !var10;
-            if(var10) { _fun0001_ip = 642; continue _fun0001 }
- 639:
+            if(var10) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var10 = var12;
- 642:
-            if(var10) { _fun0001_ip = 648; continue _fun0001 }
- 645:
+case 16:
+            if(var10) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
             var10 = var11;
- 648:
+case 18:
             var6['paused'] = var10;
             var10 = 'mix';
             var6['mixWithOthers'] = var10;
             var6['muted'] = var9;
             var5 = var8.bind(var4)(var7, var6);
- 673:
+case 15:
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

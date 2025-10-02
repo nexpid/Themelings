@@ -25,11 +25,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = function* () {
             var1 = function* anon_0_() {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 321; continue _fun0001 }
- 10:
+                    if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var6 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var5 = 7;
@@ -41,12 +41,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var2.paths;
                     var2 = var6.bind(var4)(var3, var2);
                     SaveGenerator(address=57);
- 55:
+case 4:
                     return var2;
- 57:
+case 5:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0001_ip = 318; continue _fun0001 }
- 66:
+                    if(var3) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                     var8 = var2.default;
                     var6 = _closure1_slot0;
                     var3 = _closure1_slot2;
@@ -57,12 +57,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var3.paths;
                     var3 = var6.bind(var4)(var5, var3);
                     SaveGenerator(address=110);
- 108:
+case 8:
                     return var3;
- 110:
+case 9:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(var5) { _fun0001_ip = 315; continue _fun0001 }
- 119:
+                    if(var5) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
                     var6 = var3.default;
                     var7 = var8.acknowledgeTooltip;
                     var5 = _closure1_slot5;
@@ -75,12 +75,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = var7.bind(var4)(var5);
                     var5 = var7.isAtGuildCapAndNonPremium;
                     var5 = var5.bind(var7)();
-                    if(var5) { _fun0001_ip = 190; continue _fun0001 }
- 178:
+                    if(var5) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
                     var5 = var6.openCreateGuildModal;
                     var5 = var5.bind(var6)();
-                    _fun0001_ip = 312; continue _fun0001;
- 190:
+                    _fun0001_ip = 14; continue _fun0001;
+case 12:
                     var10 = _closure1_slot1;
                     var11 = _closure1_slot2;
                     var5 = 10;
@@ -109,13 +109,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8['type'] = var9;
                     var5['analyticsProperties'] = var8;
                     var5 = var6.bind(var7)(var5);
- 312:
+case 14:
                     return var4;
- 315:
+case 10:
                     return var3;
- 318:
+case 6:
                     return var2;
- 321:
+case 2:
                     return var1;
                 }
             };

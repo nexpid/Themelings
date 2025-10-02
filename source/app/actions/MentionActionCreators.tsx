@@ -80,31 +80,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['truncateMentions'] = var7;
     var7 = function fetchRecentMentions(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var11 = var2.before;
             var _closure2_slot0 = var11;
             var10 = var2.limit;
             var4 = undefined;
-            if(!(var10 === var4)) { _fun0001_ip = 33; continue _fun0001 }
- 26:
+            if(!(var10 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var10 = _closure1_slot4;
- 33:
+case 2:
             var9 = var2.guildId;
-            if(!(var9 === var4)) { _fun0001_ip = 44; continue _fun0001 }
- 42:
+            if(!(var9 === var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var9 = null;
- 44:
+case 4:
             var8 = var2.roles;
-            if(!(var8 === var4)) { _fun0001_ip = 56; continue _fun0001 }
- 54:
+            if(!(var8 === var4)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var8 = true;
- 56:
+case 6:
             var7 = var2.everyone;
-            if(!(var7 === var4)) { _fun0001_ip = 68; continue _fun0001 }
- 66:
+            if(!(var7 === var4)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var7 = true;
- 68:
+case 8:
             var6 = var2.feature;
             var3 = _closure1_slot1;
             var12 = _closure1_slot2;

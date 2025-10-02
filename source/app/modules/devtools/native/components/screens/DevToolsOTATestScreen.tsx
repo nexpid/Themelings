@@ -76,7 +76,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function DevToolsOTATestScreen() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = _closure1_slot8;
             var4 = undefined;
             var5 = var1.bind(var4)();
@@ -199,16 +199,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13['label'] = var16;
             var16 = var23 == var19;
             var17 = undefined;
-            if(var16) { _fun0001_ip = 372; continue _fun0001 }
- 367:
+            if(var16) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var17 = var19.source;
- 372:
+case 2:
             var18 = var23 != var17;
             var16 = 'Unknown';
-            if(!var18) { _fun0001_ip = 386; continue _fun0001 }
- 383:
+            if(!var18) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var16 = var17;
- 386:
+case 4:
             var13['subLabel'] = var16;
             var17 = _closure1_slot6;
             var20 = _closure1_slot0;
@@ -236,18 +236,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15['icon'] = var18;
             var20 = var23 != var19;
             var18 = '{}';
-            if(!var20) { _fun0001_ip = 540; continue _fun0001 }
- 507:
+            if(!var20) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var20 = global;
             var21 = var20.JSON;
             var20 = var21.stringify;
             var19 = var19.metadata;
-            if(!(var23 == var19)) { _fun0001_ip = 533; continue _fun0001 }
- 531:
+            if(!(var23 == var19)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var19 = {};
- 533:
+case 8:
             var18 = var20.bind(var21)(var19, var23, var24);
- 540:
+case 6:
             var15['label'] = var18;
             var15 = var17.bind(var4)(var16, var15);
             var13[1] = var15;
@@ -278,17 +278,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15['label'] = var18;
             var19 = var23 == var22;
             var18 = 'Yes';
-            if(!var19) { _fun0001_ip = 684; continue _fun0001 }
- 678:
+            if(!var19) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var18 = 'No';
- 684:
+case 10:
             var15['subLabel'] = var18;
             var16 = var17.bind(var4)(var16, var15);
             var15 = new Array(2);
             var15[0] = var16;
             var16 = var23 != var22;
-            if(!var16) { _fun0001_ip = 797; continue _fun0001 }
- 710:
+            if(!var16) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var19 = _closure1_slot6;
             var21 = _closure1_slot0;
             var20 = _closure1_slot2;
@@ -308,7 +308,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var20 = var20.bind(var21)(var22, var23, var24);
             var17['label'] = var20;
             var16 = var19.bind(var4)(var18, var17);
- 797:
+case 12:
             var15[1] = var16;
             var10['children'] = var15;
             var10 = var13.bind(var4)(var11, var10);

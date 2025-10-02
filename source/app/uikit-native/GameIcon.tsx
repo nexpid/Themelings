@@ -8,17 +8,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var8;
     var5 = function GameIcon(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var12 = var1.game;
             var6 = var1.skuId;
             var10 = var1.size;
             var4 = undefined;
-            if(!(var10 === var4)) { _fun0001_ip = 39; continue _fun0001 }
- 26:
+            if(!(var10 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = _closure1_slot6;
             var10 = var2.NORMAL;
- 39:
+case 2:
             var1 = var1.style;
             var2 = _closure1_slot8;
             var7 = var2.bind(var4)();
@@ -48,54 +48,54 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = null;
             var2 = var1 != var6;
             var8 = undefined;
-            if(!var2) { _fun0001_ip = 306; continue _fun0001 }
- 181:
+            if(!var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = _closure1_slot4;
             var2 = var2.TIER_0;
-            if(!(var2 !== var6)) { _fun0001_ip = 283; continue _fun0001 }
- 195:
+            if(!(var2 !== var6)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var2 = _closure1_slot4;
             var2 = var2.TIER_1;
-            if(!(var2 !== var6)) { _fun0001_ip = 261; continue _fun0001 }
- 209:
+            if(!(var2 !== var6)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var2 = _closure1_slot4;
             var2 = var2.TIER_2;
-            if(!(var2 !== var6)) { _fun0001_ip = 239; continue _fun0001 }
- 223:
+            if(!(var2 !== var6)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var2 = _closure1_slot4;
             var3 = var2.LEGACY;
             var2 = null;
-            if(!(var3 === var6)) { _fun0001_ip = 303; continue _fun0001 }
- 239:
+            if(!(var3 === var6)) { _fun0001_ip = 12; continue _fun0001 }
+case 10:
             var6 = _closure1_slot0;
             var13 = _closure1_slot1;
             var3 = 8;
             var3 = var13[var3];
             var2 = var6.bind(var4)(var3);
-            _fun0001_ip = 303; continue _fun0001;
- 261:
+            _fun0001_ip = 12; continue _fun0001;
+case 8:
             var6 = _closure1_slot0;
             var13 = _closure1_slot1;
             var3 = 7;
             var3 = var13[var3];
             var2 = var6.bind(var4)(var3);
-            _fun0001_ip = 303; continue _fun0001;
- 283:
+            _fun0001_ip = 12; continue _fun0001;
+case 6:
             var6 = _closure1_slot0;
             var13 = _closure1_slot1;
             var3 = 6;
             var3 = var13[var3];
             var2 = var6.bind(var4)(var3);
- 303:
+case 12:
             var8 = var2;
- 306:
+case 4:
             var2 = var1 != var12;
-            if(!var2) { _fun0001_ip = 317; continue _fun0001 }
- 313:
+            if(!var2) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var2 = var1 == var8;
- 317:
-            if(!var2) { _fun0001_ip = 348; continue _fun0001 }
- 320:
+case 13:
+            if(!var2) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
             var2 = {};
             var6 = var12.getIconURL;
             var3 = _closure1_slot7;
@@ -103,9 +103,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var6.bind(var12)(var3);
             var2['uri'] = var3;
             var8 = var2;
- 348:
-            if(!(var1 == var8)) { _fun0001_ip = 388; continue _fun0001 }
- 352:
+case 15:
+            if(!(var1 == var8)) { _fun0001_ip = 17; continue _fun0001 }
+case 18:
             var2 = _closure1_slot0;
             var3 = _closure1_slot1;
             var1 = 9;
@@ -114,7 +114,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var11.push;
             var2 = var7.placeholder;
             var2 = var3.bind(var11)(var2);
- 388:
+case 17:
             var3 = _closure1_slot5;
             var2 = _closure1_slot3;
             var1 = {};

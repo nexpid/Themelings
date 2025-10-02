@@ -31,7 +31,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function usePlayInContext(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var _closure2_slot0 = var2;
             var4 = _closure1_slot0;
@@ -60,11 +60,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4[0] = var2;
             var2 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = _closure2_slot1;
                     var1 = null;
-                    if(!(var1 != var3)) { _fun0002_ip = 74; continue _fun0002 }
- 13:
+                    if(!(var1 != var3)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var4 = _closure1_slot2;
                     var3 = var4.getEmbeddedActivitiesForChannel;
                     var2 = _closure2_slot1;
@@ -82,12 +82,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = 0;
                     var5 = var2 > var3;
                     var2 = undefined;
-                    if(!var5) { _fun0002_ip = 72; continue _fun0002 }
- 68:
+                    if(!var5) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var2 = var4[var3];
- 72:
+case 4:
                     return var2;
- 74:
+case 2:
                     return var1;
                 }
             };
@@ -95,16 +95,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = null;
             var4 = var8 == var2;
             var6 = undefined;
-            if(var4) { _fun0001_ip = 120; continue _fun0001 }
- 114:
+            if(var4) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var6 = var2.compositeInstanceId;
- 120:
+case 6:
             var10 = var8 == var2;
             var4 = undefined;
-            if(var10) { _fun0001_ip = 134; continue _fun0001 }
- 129:
+            if(var10) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var4 = var2.location;
- 134:
+case 8:
             var2 = _closure1_slot0;
             var10 = _closure1_slot1;
             var7 = var10[var7];
@@ -134,16 +134,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['instanceId'] = var6;
             var1['instanceLocation'] = var4;
             var4 = var8 != var6;
-            if(!var4) { _fun0001_ip = 266; continue _fun0001 }
- 247:
+            if(!var4) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var8 = var8 == var7;
             var5 = undefined;
-            if(var8) { _fun0001_ip = 262; continue _fun0001 }
- 256:
+            if(var8) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var5 = var7.compositeInstanceId;
- 262:
+case 12:
             var4 = var5 === var6;
- 266:
+case 10:
             var1['isCurrentlyInInstance'] = var4;
             var2 = var3 === var2;
             var1['canLaunchInChannel'] = var2;
@@ -153,21 +153,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['usePlayInContext'] = var4;
     var2 = function getPlayInContext(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var9 = arg2;
             var1 = arg1;
             var _closure2_slot0 = var1;
             var8 = null;
-            if(!(var8 == var9)) { _fun0003_ip = 35; continue _fun0003 }
- 18:
+            if(!(var8 == var9)) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
             var2 = _closure1_slot3;
             var1 = var2.getChannelId;
             var9 = var1.bind(var2)();
- 35:
-            if(!(var8 != var9)) { _fun0003_ip = 310; continue _fun0003 }
- 42:
-            if(!(var8 == var9)) { _fun0003_ip = 85; continue _fun0003 }
- 46:
+case 14:
+            if(!(var8 != var9)) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
+            if(!(var8 == var9)) { _fun0003_ip = 18; continue _fun0003 }
+case 19:
             var3 = _closure1_slot0;
             var2 = _closure1_slot1;
             var1 = 3;
@@ -176,8 +176,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var3.bind(var1)(var2);
             var1 = var1.EmbeddedActivityLaunchability;
             var3 = var1.NO_CHANNEL;
-            _fun0003_ip = 121; continue _fun0003;
- 85:
+            _fun0003_ip = 20; continue _fun0003;
+case 18:
             var5 = _closure1_slot0;
             var2 = _closure1_slot1;
             var1 = 3;
@@ -186,7 +186,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var5.bind(var1)(var2);
             var1 = var2.getEmbeddedActivityLaunchabilityForChannel;
             var3 = var1.bind(var2)(var9);
- 121:
+case 20:
             var6 = _closure1_slot0;
             var5 = _closure1_slot1;
             var2 = 3;
@@ -211,22 +211,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = 0;
             var10 = var7 > var4;
             var7 = undefined;
-            if(!var10) { _fun0003_ip = 208; continue _fun0003 }
- 204:
+            if(!var10) { _fun0003_ip = 21; continue _fun0003 }
+case 22:
             var7 = var6[var4];
- 208:
+case 21:
             var4 = var8 == var7;
             var6 = undefined;
-            if(var4) { _fun0003_ip = 223; continue _fun0003 }
- 217:
+            if(var4) { _fun0003_ip = 23; continue _fun0003 }
+case 24:
             var6 = var7.compositeInstanceId;
- 223:
+case 23:
             var10 = var8 == var7;
             var4 = undefined;
-            if(var10) { _fun0003_ip = 237; continue _fun0003 }
- 232:
+            if(var10) { _fun0003_ip = 25; continue _fun0003 }
+case 26:
             var4 = var7.location;
- 237:
+case 25:
             var7 = _closure1_slot2;
             var1 = var7.getCurrentEmbeddedActivity;
             var7 = var1.bind(var7)();
@@ -235,21 +235,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['instanceId'] = var6;
             var1['instanceLocation'] = var4;
             var4 = var8 != var6;
-            if(!var4) { _fun0003_ip = 294; continue _fun0003 }
- 275:
+            if(!var4) { _fun0003_ip = 27; continue _fun0003 }
+case 28:
             var8 = var8 == var7;
             var5 = undefined;
-            if(var8) { _fun0003_ip = 290; continue _fun0003 }
- 284:
+            if(var8) { _fun0003_ip = 29; continue _fun0003 }
+case 30:
             var5 = var7.compositeInstanceId;
- 290:
+case 29:
             var4 = var5 === var6;
- 294:
+case 27:
             var1['isCurrentlyInInstance'] = var4;
             var2 = var3 === var2;
             var1['canLaunchInChannel'] = var2;
             return var1;
- 310:
+case 16:
             var1 = {'currentChannelId': null, 'instanceId': null, 'instanceLocation': null, 'isCurrentlyInInstance': false, 'canLaunchInChannel': false};
             return var1;
         }

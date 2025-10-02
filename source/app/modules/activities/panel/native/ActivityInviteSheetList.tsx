@@ -68,7 +68,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = {};
         var10 = function onPress() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var5 = _closure1_slot1;
                 var4 = _closure1_slot2;
                 var1 = 10;
@@ -84,8 +84,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var3.getRootNavigationRef;
                 var5 = var2.bind(var3)();
                 var2 = null;
-                if(!(var2 != var5)) { _fun0001_ip = 114; continue _fun0001 }
- 67:
+                if(!(var2 != var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var4 = var5.navigate;
                 var3 = {};
                 var2 = 'add-friends';
@@ -96,7 +96,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3['params'] = var2;
                 var2 = 'friends';
                 var2 = var4.bind(var5)(var2, var3);
- 114:
+case 2:
                 return var1;
             }
         };

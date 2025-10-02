@@ -29,7 +29,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function isClientClipsCapable(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arg1;
             var2 = _closure1_slot0;
             var4 = _closure1_slot2;
@@ -47,8 +47,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['autoTrackExposure'] = var8;
             var1 = var4.bind(var7)(var2, var1);
             var1 = var1.ignorePlatformRestriction;
-            if(var1) { _fun0001_ip = 143; continue _fun0001 }
- 76:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = _closure1_slot1;
             var7 = _closure1_slot2;
             var2 = 2;
@@ -56,17 +56,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.bind(var6)(var2);
             var2 = var4.isDesktop;
             var2 = var2.bind(var4)();
-            if(!var2) { _fun0001_ip = 140; continue _fun0001 }
- 109:
+            if(!var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var4 = var5.getMediaEngine;
             var5 = var4.bind(var5)();
             var4 = var5.supports;
             var3 = _closure1_slot3;
             var3 = var3.CLIPS;
             var2 = var4.bind(var5)(var3);
- 140:
+case 4:
             var1 = var2;
- 143:
+case 2:
             return var1;
         }
     };

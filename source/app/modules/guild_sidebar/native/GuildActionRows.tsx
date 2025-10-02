@@ -81,7 +81,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function GuildRolesAndChannelsRow(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = var2.guild;
             var _closure2_slot0 = var1;
@@ -183,27 +183,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var9.bind(var4)(var5);
             var5 = var5.ChannelModes;
             var9 = var5.DEFAULT;
-            if(!var10) { _fun0001_ip = 285; continue _fun0001 }
- 256:
+            if(!var10) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var13 = _closure1_slot0;
             var5 = _closure1_slot2;
             var5 = var5[var6];
             var5 = var13.bind(var4)(var5);
             var5 = var5.ChannelModes;
             var9 = var5.SELECTED;
- 285:
+case 2:
             var1 = !var1;
-            if(var1) { _fun0001_ip = 294; continue _fun0001 }
- 291:
+            if(var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = var3;
- 294:
-            if(var1) { _fun0001_ip = 300; continue _fun0001 }
- 297:
+case 4:
+            if(var1) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var1 = var2;
- 300:
+case 6:
             var5 = null;
-            if(!var1) { _fun0001_ip = 369; continue _fun0001 }
- 305:
+            if(!var1) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var3 = _closure1_slot9;
             var2 = _closure1_slot4;
             var1 = {};
@@ -219,7 +219,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var3.bind(var4)(var14, var13);
             var1['children'] = var13;
             var5 = var3.bind(var4)(var2, var1);
- 369:
+case 8:
             var3 = _closure1_slot9;
             var2 = _closure1_slot1;
             var1 = _closure1_slot2;
@@ -241,15 +241,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var8[var17];
             var8 = var11.bind(var4)(var8);
             var11 = var8.t;
-            if(var12) { _fun0001_ip = 472; continue _fun0001 }
- 459:
+            if(var12) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var8 = var11.et6wam;
             var8 = var13.bind(var14)(var8);
-            _fun0001_ip = 483; continue _fun0001;
- 472:
+            _fun0001_ip = 12; continue _fun0001;
+case 10:
             var11 = var11.h9mGOD;
             var8 = var13.bind(var14)(var11);
- 483:
+case 12:
             var1['accessibilityLabel'] = var8;
             var8 = {};
             var8['selected'] = var10;
@@ -271,15 +271,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var13[var17];
             var13 = var16.bind(var4)(var13);
             var13 = var13.t;
-            if(var12) { _fun0001_ip = 589; continue _fun0001 }
- 576:
+            if(var12) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var12 = var13.et6wam;
             var12 = var14.bind(var15)(var12);
-            _fun0001_ip = 600; continue _fun0001;
- 589:
+            _fun0001_ip = 15; continue _fun0001;
+case 13:
             var13 = var13.h9mGOD;
             var12 = var14.bind(var15)(var13);
- 600:
+case 15:
             var8['name'] = var12;
             var8['mode'] = var9;
             var8 = var11.bind(var4)(var10, var8);

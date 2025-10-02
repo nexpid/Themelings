@@ -43,15 +43,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function VoicePanelAccessibilityView(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var12 = var3.style;
             var11 = var3.pointerEvents;
             var4 = undefined;
-            if(!(var11 === var4)) { _fun0001_ip = 26; continue _fun0001 }
- 20:
+            if(!(var11 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var11 = 'box-none';
- 26:
+case 2:
             var10 = var3.nativeID;
             var7 = var3.accessibilityViewIsModal;
             var6 = var3.onAccessibilityEscape;
@@ -76,13 +76,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['style'] = var12;
             var1['pointerEvents'] = var11;
             var1['nativeID'] = var10;
-            if(!var7) { _fun0001_ip = 158; continue _fun0001 }
- 139:
+            if(!var7) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var9 = var9.mode;
             var8 = _closure1_slot2;
             var8 = var8.IN_APP;
             var7 = var9 !== var8;
- 158:
+case 4:
             var1['accessibilityViewIsModal'] = var7;
             var1['onAccessibilityEscape'] = var6;
             var15 = var1;

@@ -53,7 +53,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['validation'] = var9;
     var8 = function handler(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = var2.socket;
             var2 = var2.args;
@@ -61,13 +61,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var1.transport;
             var3 = _closure1_slot2;
             var3 = var3.POST_MESSAGE;
-            if(!(var4 === var3)) { _fun0001_ip = 230; continue _fun0001 }
- 47:
+            if(!(var4 === var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = var1.application;
             var4 = var3.id;
             var3 = null;
-            if(!(var3 != var4)) { _fun0001_ip = 160; continue _fun0001 }
- 63:
+            if(!(var3 != var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = _closure1_slot0;
             var4 = _closure1_slot1;
             var3 = 4;
@@ -92,7 +92,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['use_interactive_pip'] = var6;
             var3 = var4.bind(var5)(var3);
             return var3;
- 160:
+case 4:
             var5 = _closure1_slot0;
             var4 = _closure1_slot1;
             var3 = 3;
@@ -111,7 +111,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = new var11[var6](var10, var9, var8);
             var3 = var3 instanceof Object ? var3 : var4;
             throw var3;
- 230:
+case 2:
             var5 = _closure1_slot0;
             var4 = _closure1_slot1;
             var3 = 3;

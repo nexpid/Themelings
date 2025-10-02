@@ -8,7 +8,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var7;
     var2 = function isActivityFocused(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var4 = var1.channelId;
             var2 = var1.ChannelRTCStore;
@@ -19,12 +19,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var1.bind(var3)();
             var8 = null;
             var1 = var8 != var2;
-            if(!var1) { _fun0001_ip = 54; continue _fun0001 }
- 50:
+            if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var8 != var7;
- 54:
-            if(!var1) { _fun0001_ip = 131; continue _fun0001 }
- 57:
+case 2:
+            if(!var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = var2.id;
             var4 = _closure1_slot0;
             var5 = _closure1_slot1;
@@ -37,14 +37,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var7.applicationId;
             var2['applicationId'] = var9;
             var8 = var8 == var7;
-            if(var8) { _fun0001_ip = 117; continue _fun0001 }
- 111:
+            if(var8) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var6 = var7.compositeInstanceId;
- 117:
+case 6:
             var2['instanceId'] = var6;
             var2 = var4.bind(var5)(var2);
             var1 = var3 === var2;
- 131:
+case 4:
             return var1;
         }
     };

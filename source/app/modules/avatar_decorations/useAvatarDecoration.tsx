@@ -8,18 +8,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var7;
     var2 = function getAvatarDecoration(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var8 = arg2;
             var5 = arguments[2];
             var2 = undefined;
-            if(!(var5 === var2)) { _fun0001_ip = 33; continue _fun0001 }
- 15:
+            if(!(var5 === var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = _closure1_slot3;
             var1 = new Array(1);
             var1[0] = var4;
             var5 = var1;
- 33:
+case 2:
             var4 = _closure1_slot2;
             var1 = 1;
             var4 = var4.bind(var2)(var5, var1);
@@ -28,32 +28,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = null;
             var1 = var4 != var8;
             var5 = null;
-            if(!var1) { _fun0001_ip = 92; continue _fun0001 }
- 66:
+            if(!var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = var4 != var3;
             var5 = null;
-            if(!var1) { _fun0001_ip = 92; continue _fun0001 }
- 75:
+            if(!var1) { _fun0001_ip = 4; continue _fun0001 }
+case 6:
             var6 = var7.getMember;
             var1 = var3.id;
             var5 = var6.bind(var7)(var8, var1);
- 92:
+case 4:
             var6 = var4 == var5;
             var1 = undefined;
-            if(var6) { _fun0001_ip = 107; continue _fun0001 }
- 101:
+            if(var6) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var1 = var5.avatarDecoration;
- 107:
-            if(!(var4 == var1)) { _fun0001_ip = 129; continue _fun0001 }
- 111:
+case 7:
+            if(!(var4 == var1)) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var4 = var4 == var3;
             var2 = undefined;
-            if(var4) { _fun0001_ip = 126; continue _fun0001 }
- 120:
+            if(var4) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var2 = var3.avatarDecoration;
- 126:
+case 11:
             var1 = var2;
- 129:
+case 9:
             return var1;
         }
     };

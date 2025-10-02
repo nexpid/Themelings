@@ -66,7 +66,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function MemberVerificationAlert(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var15 = var3.header;
             var16 = var3.icon;
@@ -98,8 +98,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1[var6] = var8;
             var6 = var7 != var16;
             var8 = null;
-            if(!var6) { _fun0001_ip = 170; continue _fun0001 }
- 124:
+            if(!var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var12 = _closure1_slot4;
             var11 = _closure1_slot3;
             var6 = {};
@@ -111,7 +111,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var12.bind(var4)(var16, var14);
             var6['children'] = var14;
             var8 = var12.bind(var4)(var11, var6);
- 170:
+case 2:
             var6 = new Array(4);
             var6[0] = var8;
             var12 = _closure1_slot4;
@@ -129,8 +129,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[1] = var8;
             var8 = var7 != var13;
             var7 = null;
-            if(!var8) { _fun0001_ip = 317; continue _fun0001 }
- 255:
+            if(!var8) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var12 = _closure1_slot4;
             var11 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -142,7 +142,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8['style'] = var14;
             var8['children'] = var13;
             var7 = var12.bind(var4)(var11, var8);
- 317:
+case 4:
             var6[2] = var7;
             var8 = _closure1_slot4;
             var7 = _closure1_slot3;

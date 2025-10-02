@@ -34,20 +34,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function ActionRowLayoutComponent(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var7 = var1.components;
             var6 = var1.renderComponents;
             var4 = null;
             var2 = var4 == var7;
             var1 = null;
-            if(var2) { _fun0001_ip = 69; continue _fun0001 }
- 26:
+            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = var7.length;
             var2 = 0;
             var1 = null;
-            if(!(var2 !== var3)) { _fun0001_ip = 69; continue _fun0001 }
- 39:
+            if(!(var2 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var5 = _closure1_slot1;
             var4 = _closure1_slot0;
             var3 = {};
@@ -55,7 +55,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.bind(var2)(var7);
             var3['children'] = var6;
             var1 = var5.bind(var2)(var4, var3);
- 69:
+case 2:
             return var1;
         }
     };

@@ -21,44 +21,44 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var4;
     var4 = function getAllProductPrices(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = var1.product;
             var1 = var1.isPremiumUser;
             var2 = var2.prices;
             var3 = _closure1_slot1;
-            if(var1) { _fun0001_ip = 39; continue _fun0001 }
- 31:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var3.DEFAULT;
-            _fun0001_ip = 45; continue _fun0001;
- 39:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var1 = var3.PREMIUM_TIER_2;
- 45:
+case 4:
             var3 = var2[var1];
             var2 = null;
             var5 = var2 == var3;
             var1 = undefined;
-            if(var5) { _fun0001_ip = 106; continue _fun0001 }
- 60:
+            if(var5) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var3 = var3.countryPrices;
             var5 = var2 == var3;
             var1 = undefined;
-            if(var5) { _fun0001_ip = 106; continue _fun0001 }
- 75:
+            if(var5) { _fun0001_ip = 5; continue _fun0001 }
+case 7:
             var6 = var3.prices;
             var3 = var2 == var6;
             var1 = undefined;
-            if(var3) { _fun0001_ip = 106; continue _fun0001 }
- 90:
+            if(var3) { _fun0001_ip = 5; continue _fun0001 }
+case 8:
             var5 = var6.slice;
             var4 = 0;
             var3 = 2;
             var1 = var5.bind(var6)(var4, var3);
- 106:
-            if(!(var2 == var1)) { _fun0001_ip = 114; continue _fun0001 }
- 110:
+case 5:
+            if(!(var2 == var1)) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var1 = new Array(0);
- 114:
+case 9:
             return var1;
         }
     };
@@ -72,7 +72,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['getAllProductPrices'] = var4;
     var2 = function(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var4 = var1.product;
             var1 = var1.isPremiumUser;
@@ -94,10 +94,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.bind(var3)(var1);
             var1 = null;
             var3 = var1 != var2;
-            if(!var3) { _fun0002_ip = 73; continue _fun0002 }
- 70:
+            if(!var3) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
             var1 = var2;
- 73:
+case 11:
             return var1;
         }
     };

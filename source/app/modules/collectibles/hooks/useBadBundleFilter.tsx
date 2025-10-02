@@ -37,7 +37,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = _closure1_slot0;
             var4 = _closure1_slot2;
             var3 = 3;
@@ -57,8 +57,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var6.bind(var7)(var5, var3);
             var3 = null;
             var5 = var3 != var7;
-            if(!var5) { _fun0001_ip = 97; continue _fun0001 }
- 66:
+            if(!var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = _closure1_slot1;
             var8 = _closure1_slot2;
             var3 = 4;
@@ -66,28 +66,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.bind(var4)(var3);
             var3 = var6.canUseCollectibles;
             var5 = var3.bind(var6)(var7);
- 97:
+case 2:
             var _closure2_slot0 = var5;
             var3 = _closure1_slot3;
             var2 = new Array(1);
             var2[0] = var5;
             var1 = function(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var4 = arg1;
                     var2 = null;
                     var1 = var4;
-                    if(!(var2 != var4)) { _fun0002_ip = 45; continue _fun0002 }
- 12:
+                    if(!(var2 != var4)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var3 = var4.length;
                     var2 = 0;
                     var1 = var4;
-                    if(!(var2 !== var3)) { _fun0002_ip = 45; continue _fun0002 }
- 26:
+                    if(!(var2 !== var3)) { _fun0002_ip = 4; continue _fun0002 }
+case 6:
                     var3 = var4.filter;
                     var2 = function(arg1) {
                         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                             var4 = arg1;
                             var8 = _closure1_slot0;
                             var7 = _closure1_slot2;
@@ -104,18 +104,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var8 = var8.bind(var6)(var7);
                             var7 = var8.isBundleProduct;
                             var7 = var7.bind(var8)(var4);
-                            if(!var7) { _fun0003_ip = 285; continue _fun0003 }
- 81:
+                            if(!var7) { _fun0003_ip = 7; continue _fun0003 }
+case 8:
                             var8 = _closure1_slot0;
                             var7 = _closure1_slot2;
                             var7 = var7[var1];
                             var8 = var8.bind(var6)(var7);
                             var7 = var8.isFreeCollectiblesProduct;
                             var7 = var7.bind(var8)(var4);
-                            if(var7) { _fun0003_ip = 285; continue _fun0003 }
- 115:
-                            if(var5) { _fun0003_ip = 285; continue _fun0003 }
- 121:
+                            if(var7) { _fun0003_ip = 7; continue _fun0003 }
+case 9:
+                            if(var5) { _fun0003_ip = 7; continue _fun0003 }
+case 10:
                             var5 = _closure1_slot0;
                             var7 = _closure1_slot2;
                             var2 = var7[var1];
@@ -133,28 +133,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var5 = var5.bind(var6)(var2);
                             var2 = var5.isValidCollectiblesBundle;
                             var2 = var2.bind(var5)(var4);
-                            if(var2) { _fun0003_ip = 211; continue _fun0003 }
- 207:
+                            if(var2) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
                             var2 = false;
                             return var2;
- 211:
+case 11:
                             var5 = null;
-                            if(!(var5 != var1)) { _fun0003_ip = 281; continue _fun0003 }
- 217:
+                            if(!(var5 != var1)) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
                             var2 = var1.amount;
                             var6 = 0;
-                            if(!(var6 !== var2)) { _fun0003_ip = 281; continue _fun0003 }
- 229:
+                            if(!(var6 !== var2)) { _fun0003_ip = 13; continue _fun0003 }
+case 15:
                             var2 = var4.bundledProducts;
                             var5 = var5 != var2;
                             var2 = 0;
-                            if(!var5) { _fun0003_ip = 269; continue _fun0003 }
- 244:
+                            if(!var5) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
                             var5 = var4.bundledProducts;
                             var4 = var5.reduce;
                             var3 = function(arg1, arg2) {
                                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                                     var3 = _closure1_slot0;
                                     var2 = _closure1_slot2;
                                     var1 = 6;
@@ -167,36 +167,36 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                     var3 = var4.bind(var5)(var2, var3);
                                     var2 = null;
                                     var4 = var2 == var3;
-                                    if(var4) { _fun0004_ip = 62; continue _fun0004 }
- 56:
+                                    if(var4) { _fun0004_ip = 18; continue _fun0004 }
+case 19:
                                     var1 = var3.amount;
- 62:
+case 18:
                                     var3 = var2 != var1;
                                     var2 = 0;
-                                    if(!var3) { _fun0004_ip = 74; continue _fun0004 }
- 71:
+                                    if(!var3) { _fun0004_ip = 20; continue _fun0004 }
+case 21:
                                     var2 = var1;
- 74:
+case 20:
                                     var1 = arg1;
                                     var1 = var1 + var2;
                                     return var1;
                                 }
                             };
                             var2 = var4.bind(var5)(var3, var6);
- 269:
+case 16:
                             var1 = var1.amount;
                             var1 = var1 < var2;
                             return var1;
- 281:
+case 13:
                             var1 = true;
                             return var1;
- 285:
+case 7:
                             var1 = true;
                             return var1;
                         }
                     };
                     var1 = var3.bind(var4)(var2);
- 45:
+case 4:
                     return var1;
                 }
             };

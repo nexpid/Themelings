@@ -1,7 +1,7 @@
 // app/modules/device/ThermalUtils.native.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
         var5 = require;
         var9 = metroImportDefault;
         var3 = exports;
@@ -29,15 +29,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10 = var5.bind(var1)(var7);
         var7 = var10.isAndroid;
         var7 = var7.bind(var10)();
-        if(var7) { _fun0001_ip = 119; continue _fun0001 }
- 111:
+        if(var7) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
         var2 = var2.DCDDeviceThermalStateManager;
-        _fun0001_ip = 131; continue _fun0001;
- 119:
+        _fun0001_ip = 4; continue _fun0001;
+case 2:
         var7 = 2;
         var7 = var6[var7];
         var2 = var9.bind(var1)(var7);
- 131:
+case 4:
         var7 = var8.prototype;
         var7 = Object.create(var7, {constructor: {value: var8}});
         var14 = var7;
@@ -51,7 +51,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var8.create;
         var2 = function(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var2 = arg1;
                 var _closure2_slot0 = var2;
                 var6 = function updateThermalState(arg1) {
@@ -69,17 +69,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = undefined;
                         var1 = function(arg1) {
                             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                                 var1 = arg1;
                                 var4 = var1.rawThermalState;
                                 var2 = _closure3_slot0;
-                                if(!(var4 !== var2)) { _fun0003_ip = 34; continue _fun0003 }
- 20:
+                                if(!(var4 !== var2)) { _fun0003_ip = 5; continue _fun0003 }
+case 6:
                                 var2 = {};
                                 var3 = _closure3_slot0;
                                 var2['rawThermalState'] = var3;
                                 var1 = var2;
- 34:
+case 5:
                                 return var1;
                             }
                         };
@@ -98,14 +98,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var5.bind(var2)(var4);
                 var4 = var5.isAndroid;
                 var4 = var4.bind(var5)();
-                if(var4) { _fun0002_ip = 77; continue _fun0002 }
- 55:
+                if(var4) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
                 var4 = _closure1_slot3;
                 var5 = var4.DCDDeviceThermalStateManager;
                 var4 = var5.getThermalState;
                 var5 = var4.bind(var5)();
-                _fun0002_ip = 196; continue _fun0002;
- 77:
+                _fun0002_ip = 9; continue _fun0002;
+case 7:
                 var7 = global;
                 var8 = var7.parseInt;
                 var9 = _closure1_slot0;
@@ -117,13 +117,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var4.bind(var9)();
                 var8 = var8.bind(var2)(var4);
                 var4 = 29;
-                if(!(!(var8 >= var4))) { _fun0002_ip = 146; continue _fun0002 }
- 127:
+                if(!(!(var8 >= var4))) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
                 var8 = var7.Promise;
                 var4 = var8.resolve;
                 var4 = var4.bind(var8)(var2);
-                _fun0002_ip = 193; continue _fun0002;
- 146:
+                _fun0002_ip = 12; continue _fun0002;
+case 10:
                 var9 = var7.Promise;
                 var8 = var9.resolve;
                 var10 = _closure1_slot1;
@@ -134,9 +134,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = var10.getThermalState;
                 var7 = var7.bind(var10)();
                 var4 = var8.bind(var9)(var7);
- 193:
+case 12:
                 var5 = var4;
- 196:
+case 9:
                 var4 = var5.then;
                 var4 = var4.bind(var5)(var6);
                 var5 = _closure1_slot4;

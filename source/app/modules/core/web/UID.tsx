@@ -15,13 +15,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = var5.bind(var7)(var3, var1, var4);
     var5 = function uid() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arguments[0];
             var2 = undefined;
-            if(!(var3 === var2)) { _fun0001_ip = 15; continue _fun0001 }
- 9:
+            if(!(var3 === var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = 'uid_';
- 15:
+case 2:
             var4 = _closure1_slot0;
             var5 = _closure1_slot1;
             var1 = 0;

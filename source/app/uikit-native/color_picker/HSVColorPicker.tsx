@@ -55,7 +55,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function HSVColorPicker(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var11 = var1.hue;
             var16 = var1.saturation;
@@ -94,20 +94,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = {};
             var12 = null;
             var17 = var10;
-            if(!(var12 != var11)) { _fun0001_ip = 166; continue _fun0001 }
- 163:
+            if(!(var12 != var11)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var17 = var11;
- 166:
+case 2:
             var5['hue'] = var17;
-            if(!(var12 != var16)) { _fun0001_ip = 178; continue _fun0001 }
- 175:
+            if(!(var12 != var16)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var15 = var16;
- 178:
+case 4:
             var5['saturation'] = var15;
-            if(!(var12 != var14)) { _fun0001_ip = 190; continue _fun0001 }
- 187:
+            if(!(var12 != var14)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var13 = var14;
- 190:
+case 6:
             var5['value'] = var13;
             var5['onPanFinalize'] = var9;
             var7 = var8.bind(var4)(var7, var5);
@@ -120,10 +120,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var13[var6];
             var7 = var7.bind(var4)(var6);
             var6 = {};
-            if(!(var12 != var11)) { _fun0001_ip = 246; continue _fun0001 }
- 243:
+            if(!(var12 != var11)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var10 = var11;
- 246:
+case 8:
             var6['hue'] = var10;
             var6['onPanFinalize'] = var9;
             var6 = var8.bind(var4)(var7, var6);

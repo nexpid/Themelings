@@ -64,7 +64,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function ForumPostListFooter(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var13 = var1.thread;
             var12 = var1.firstMessage;
@@ -100,8 +100,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var8.bind(var4)(var7, var5);
             var5 = new Array(3);
             var5[0] = var7;
-            if(!var6) { _fun0001_ip = 257; continue _fun0001 }
- 156:
+            if(!var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var9 = _closure1_slot7;
             var8 = _closure1_slot6;
             var7 = {};
@@ -126,12 +126,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14[1] = var15;
             var7['children'] = var14;
             var6 = var9.bind(var4)(var8, var7);
- 257:
+case 2:
             var5[1] = var6;
             var6 = null;
             var6 = var6 != var12;
-            if(!var6) { _fun0001_ip = 338; continue _fun0001 }
- 270:
+            if(!var6) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var9 = _closure1_slot5;
             var8 = _closure1_slot0;
             var14 = _closure1_slot2;
@@ -147,7 +147,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var10.FORUM_LIST_ITEM_FOOTER;
             var7['locationAnalyticsObject'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 338:
+case 4:
             var5[2] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

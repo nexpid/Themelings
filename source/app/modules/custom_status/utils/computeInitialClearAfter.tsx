@@ -35,7 +35,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function computeInitialClearAfter() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = _closure1_slot0;
             var5 = _closure1_slot1;
             var3 = 1;
@@ -46,23 +46,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.getSetting;
             var5 = var3.bind(var4)();
             var3 = null;
-            if(!(var3 != var5)) { _fun0001_ip = 358; continue _fun0001 }
- 52:
+            if(!(var3 != var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = var5.expiresAtMs;
             var4 = '';
-            if(!(var4 !== var6)) { _fun0001_ip = 358; continue _fun0001 }
- 69:
+            if(!(var4 !== var6)) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var4 = global;
             var6 = var4.Number;
             var5 = var5.expiresAtMs;
             var6 = var6.bind(var7)(var5);
             var5 = var4.isNaN;
             var5 = var5.bind(var7)(var6);
-            if(var5) { _fun0001_ip = 346; continue _fun0001 }
- 105:
+            if(var5) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var5 = 0;
-            if(!(var5 !== var6)) { _fun0001_ip = 334; continue _fun0001 }
- 114:
+            if(!(var5 !== var6)) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var5 = var4.Date;
             var8 = var5.prototype;
             var8 = Object.create(var8, {constructor: {value: var5}});
@@ -81,28 +81,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var10.getFullYear;
             var5 = var5.bind(var10)();
             var5 = var8 === var5;
-            if(!var5) { _fun0001_ip = 220; continue _fun0001 }
- 196:
+            if(!var5) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var8 = var9.getMonth;
             var11 = var8.bind(var9)();
             var8 = var10.getMonth;
             var8 = var8.bind(var10)();
             var5 = var11 === var8;
- 220:
-            if(!var5) { _fun0001_ip = 247; continue _fun0001 }
- 223:
+case 9:
+            if(!var5) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var8 = var9.getDate;
             var9 = var8.bind(var9)();
             var8 = var10.getDate;
             var8 = var8.bind(var10)();
             var5 = var9 === var8;
- 247:
-            if(var5) { _fun0001_ip = 262; continue _fun0001 }
- 250:
+case 11:
+            if(var5) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var5 = _closure1_slot2;
             var5 = var5.TODAY;
             return var5;
- 262:
+case 13:
             var5 = var4.Number;
             var5 = var5.bind(var7)(var6);
             var6 = var4.Date;
@@ -119,21 +119,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var2 = var4.bind(var5)(var2);
-            if(!(var3 == var2)) { _fun0001_ip = 332; continue _fun0001 }
- 322:
+            if(!(var3 == var2)) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
             var3 = _closure1_slot2;
             var2 = var3.TODAY;
- 332:
+case 15:
             return var2;
- 334:
+case 7:
             var2 = _closure1_slot2;
             var2 = var2.DONT_CLEAR;
             return var2;
- 346:
+case 5:
             var2 = _closure1_slot2;
             var2 = var2.TODAY;
             return var2;
- 358:
+case 2:
             var1 = _closure1_slot2;
             var1 = var1.TODAY;
             return var1;

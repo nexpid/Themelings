@@ -29,22 +29,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function toggleLabFeature(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var6 = arg1;
             var2 = arguments[1];
             var1 = undefined;
-            if(!(var2 === var1)) { _fun0001_ip = 19; continue _fun0001 }
- 12:
+            if(!(var2 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = _closure1_slot3;
- 19:
+case 2:
             var5 = var2.enabled;
-            if(!(var5 === var1)) { _fun0001_ip = 48; continue _fun0001 }
- 28:
+            if(!(var5 === var1)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = _closure1_slot2;
             var2 = var3.get;
             var2 = var2.bind(var3)(var6);
             var5 = !var2;
- 48:
+case 4:
             var3 = _closure1_slot0;
             var4 = _closure1_slot1;
             var2 = 1;

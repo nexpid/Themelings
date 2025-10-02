@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var7;
     var2 = function useAppearanceSettingTrailing() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = _closure1_slot1;
             var8 = _closure1_slot2;
             var2 = 5;
@@ -88,25 +88,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var3.bind(var7)();
             var3 = _closure1_slot4;
             var3 = var3.CUSTOM;
-            if(!(var3 !== var7)) { _fun0001_ip = 509; continue _fun0001 }
- 357:
+            if(!(var3 !== var7)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = _closure1_slot4;
             var3 = var3.CLIENT;
-            if(!(var3 !== var7)) { _fun0001_ip = 463; continue _fun0001 }
- 371:
+            if(!(var3 !== var7)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = _closure1_slot4;
             var3 = var3.SYSTEM;
-            if(!(var3 !== var7)) { _fun0001_ip = 407; continue _fun0001 }
- 385:
+            if(!(var3 !== var7)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var3 = _closure1_slot4;
             var3 = var3.DEFAULT;
-            if(!(var3 !== var7)) { _fun0001_ip = 401; continue _fun0001 }
- 399:
+            if(!(var3 !== var7)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             return var5;
- 401:
+case 8:
             var3 = var4[var6];
             return var3;
- 407:
+case 6:
             var10 = _closure1_slot0;
             var3 = _closure1_slot2;
             var7 = var3[var2];
@@ -119,26 +119,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.wFpwSk;
             var3 = var7.bind(var8)(var3);
             return var3;
- 463:
+case 4:
             var7 = null;
             var8 = var7 == var9;
             var3 = undefined;
-            if(var8) { _fun0001_ip = 499; continue _fun0001 }
- 474:
+            if(var8) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var8 = var9.getName;
             var8 = var7 == var8;
             var3 = undefined;
-            if(var8) { _fun0001_ip = 499; continue _fun0001 }
- 489:
+            if(var8) { _fun0001_ip = 10; continue _fun0001 }
+case 12:
             var8 = var9.getName;
             var3 = var8.bind(var9)();
- 499:
-            if(!(var7 == var3)) { _fun0001_ip = 507; continue _fun0001 }
- 503:
+case 10:
+            if(!(var7 == var3)) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var3 = var4[var6];
- 507:
+case 13:
             return var3;
- 509:
+case 2:
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
             var2 = var6[var2];

@@ -9,19 +9,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var7;
     var4 = function createSound(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var6 = arguments[2];
             var5 = arguments[3];
             var3 = undefined;
-            if(!(var6 === var3)) { _fun0001_ip = 15; continue _fun0001 }
- 12:
+            if(!(var6 === var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = 1;
- 15:
-            if(!(var5 === var3)) { _fun0001_ip = 32; continue _fun0001 }
- 19:
+case 2:
+            if(!(var5 === var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = _closure1_slot5;
             var5 = var1.DEFAULT;
- 32:
+case 4:
             var2 = _closure1_slot0;
             var4 = _closure1_slot2;
             var1 = 5;
@@ -81,20 +81,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var7)(var5);
     var5 = function createSoundForPack(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var6 = arg1;
             var5 = arguments[2];
             var4 = arguments[3];
             var3 = undefined;
-            if(!(var5 === var3)) { _fun0002_ip = 18; continue _fun0002 }
- 15:
+            if(!(var5 === var3)) { _fun0002_ip = 6; continue _fun0002 }
+case 2:
             var5 = 1;
- 18:
-            if(!(var4 === var3)) { _fun0002_ip = 35; continue _fun0002 }
- 22:
+case 6:
+            if(!(var4 === var3)) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
             var1 = _closure1_slot5;
             var4 = var1.DEFAULT;
- 35:
+case 7:
             var2 = _closure1_slot7;
             var7 = _closure1_slot1;
             var8 = _closure1_slot2;
@@ -106,10 +106,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var1[var6];
             var8 = null;
             var1 = var6;
-            if(!(var8 != var7)) { _fun0002_ip = 86; continue _fun0002 }
- 83:
+            if(!(var8 != var7)) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
             var1 = var7;
- 86:
+case 9:
             var13 = undefined;
             var12 = var1;
             var11 = var6;
@@ -123,27 +123,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['createSound'] = var4;
     var2 = function playSound(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var9 = arg1;
             var8 = arguments[1];
             var5 = arguments[2];
             var14 = arguments[3];
             var7 = arguments[4];
             var1 = undefined;
-            if(!(var8 === var1)) { _fun0003_ip = 26; continue _fun0003 }
- 23:
+            if(!(var8 === var1)) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
             var8 = 1;
- 26:
+case 11:
             var _closure2_slot0 = var5;
-            if(!(var7 === var1)) { _fun0003_ip = 47; continue _fun0003 }
- 34:
+            if(!(var7 === var1)) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
             var2 = _closure1_slot5;
             var7 = var2.DEFAULT;
- 47:
+case 13:
             var2 = _closure1_slot4;
             var2 = var2.disableSounds;
-            if(var2) { _fun0003_ip = 238; continue _fun0003 }
- 66:
+            if(var2) { _fun0003_ip = 15; continue _fun0003 }
+case 16:
             var4 = _closure1_slot1;
             var10 = _closure1_slot2;
             var2 = 4;
@@ -151,15 +151,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var4.bind(var1)(var2);
             var4 = null;
             var2 = var14;
-            if(!(var4 == var2)) { _fun0003_ip = 109; continue _fun0003 }
- 95:
+            if(!(var4 == var2)) { _fun0003_ip = 17; continue _fun0003 }
+case 18:
             var12 = _closure1_slot3;
             var11 = var12.getSoundpack;
             var2 = var11.bind(var12)();
- 109:
+case 17:
             var2 = var10.bind(var1)(var2);
-            if(!(var4 == var2)) { _fun0003_ip = 157; continue _fun0003 }
- 118:
+            if(!(var4 == var2)) { _fun0003_ip = 19; continue _fun0003 }
+case 20:
             var12 = _closure1_slot6;
             var11 = var12.log;
             var10 = global;
@@ -168,47 +168,47 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = 'Unable to find sound for pack name: ';
             var10 = var13.bind(var10)(var14);
             var10 = var11.bind(var12)(var10);
- 157:
+case 19:
             var6 = _closure1_slot7;
             var10 = var2[var9];
             var2 = var9;
-            if(!(var4 != var10)) { _fun0003_ip = 175; continue _fun0003 }
- 172:
+            if(!(var4 != var10)) { _fun0003_ip = 21; continue _fun0003 }
+case 22:
             var2 = var10;
- 175:
+case 21:
             var19 = undefined;
             var18 = var2;
             var17 = var9;
             var16 = var8;
             var15 = var7;
             var2 = var19[var6](var18, var17, var16, var15, var14);
-            if(!(var4 == var5)) { _fun0003_ip = 209; continue _fun0003 }
- 197:
+            if(!(var4 == var5)) { _fun0003_ip = 23; continue _fun0003 }
+case 24:
             var4 = var2.play;
             var4 = var4.bind(var2)();
-            _fun0003_ip = 236; continue _fun0003;
- 209:
+            _fun0003_ip = 25; continue _fun0003;
+case 23:
             var4 = var2.playWithListener;
             var5 = var4.bind(var2)();
             var4 = var5.then;
             var3 = function(arg1) {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                     var1 = arg1;
-                    if(!var1) { _fun0004_ip = 19; continue _fun0004 }
- 6:
+                    if(!var1) { _fun0004_ip = 5; continue _fun0004 }
+case 26:
                     var2 = _closure2_slot0;
                     var1 = undefined;
                     var1 = var2.bind(var1)();
- 19:
+case 5:
                     var1 = undefined;
                     return var1;
                 }
             };
             var3 = var4.bind(var5)(var3);
- 236:
+case 25:
             return var2;
- 238:
+case 15:
             return var1;
         }
     };

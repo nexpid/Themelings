@@ -27,18 +27,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useCurrentEmbeddedApplication() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arguments[0];
             var1 = undefined;
-            if(!(var2 === var1)) { _fun0001_ip = 11; continue _fun0001 }
- 9:
+            if(!(var2 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = {};
- 11:
+case 2:
             var7 = var2.fetchesApplication;
-            if(!(var7 === var1)) { _fun0001_ip = 23; continue _fun0001 }
- 21:
+            if(!(var7 === var1)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var7 = true;
- 23:
+case 4:
             var6 = _closure1_slot0;
             var8 = _closure1_slot1;
             var5 = 1;
@@ -49,15 +49,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var8[var3];
             var6 = var6.bind(var1)(var3);
             var3 = null;
-            if(!(var3 != var4)) { _fun0001_ip = 83; continue _fun0001 }
- 68:
+            if(!(var3 != var4)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var8 = var4.applicationId;
             var4 = new Array(1);
             var4[0] = var8;
-            _fun0001_ip = 87; continue _fun0001;
- 83:
+            _fun0001_ip = 8; continue _fun0001;
+case 6:
             var4 = new Array(0);
- 87:
+case 8:
             var4 = var6.bind(var1)(var4, var7);
             var2 = _closure1_slot2;
             var4 = var2.bind(var1)(var4, var5);
@@ -65,10 +65,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4[var2];
             var3 = var3 != var2;
             var1 = undefined;
-            if(!var3) { _fun0001_ip = 121; continue _fun0001 }
- 118:
+            if(!var3) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var1 = var2;
- 121:
+case 9:
             return var1;
         }
     };

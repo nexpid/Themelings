@@ -113,15 +113,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['BadgeColors'] = var4;
     var2 = function TextBadge(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var10 = var1.color;
             var4 = undefined;
-            if(!(var10 === var4)) { _fun0001_ip = 27; continue _fun0001 }
- 14:
+            if(!(var10 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = _closure1_slot6;
             var10 = var2.DANGER;
- 27:
+case 2:
             var11 = var1.style;
             var7 = var1.text;
             var9 = var1.textStyle;

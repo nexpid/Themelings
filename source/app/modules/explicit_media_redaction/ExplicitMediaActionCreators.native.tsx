@@ -33,7 +33,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function handleSenderFalsePositiveFlow(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var8 = arg1;
             var7 = arg2;
             var9 = _closure1_slot0;
@@ -57,8 +57,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var3.bind(var4)(var7);
             var5 = _closure1_slot1;
             var3 = _closure1_slot2;
-            if(var4) { _fun0001_ip = 315; continue _fun0001 }
- 106:
+            if(var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = 3;
             var4 = var3[var4];
             var9 = var5.bind(var1)(var4);
@@ -104,7 +104,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.bind(var6)(var8, var7);
             var4 = undefined;
             return var4;
- 315:
+case 2:
             var4 = 6;
             var4 = var3[var4];
             var6 = var5.bind(var1)(var4);

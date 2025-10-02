@@ -56,7 +56,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var8.forwardRef;
     var4 = function(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var6 = arg1;
             var7 = arg2;
             var11 = _closure1_slot0;
@@ -104,10 +104,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['estimatedItemSize'] = var8;
             var8 = var5.scrollerRef;
             var9 = null;
-            if(!(var9 != var8)) { _fun0001_ip = 200; continue _fun0001 }
- 197:
+            if(!(var9 != var8)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var7 = var8;
- 200:
+case 2:
             var1['ref'] = var7;
             var13 = var1;
             var12 = var6;

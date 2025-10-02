@@ -106,7 +106,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function MessageItemNotificationNudge(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var1 = var1.height;
             var _closure2_slot0 = var1;
@@ -154,10 +154,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = null;
             var14 = var7 == var13;
             var7 = undefined;
-            if(var14) { _fun0001_ip = 185; continue _fun0001 }
- 179:
+            if(var14) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var7 = var13.timing;
- 185:
+case 2:
             var7 = var8.bind(var11)(var7);
             var1['cooldownDurationMs'] = var7;
             var3 = var3.bind(var6)(var2, var1);
@@ -342,7 +342,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = {};
             var10 = function onPress() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot2;
                     var1 = 21;
@@ -380,11 +380,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = null;
                     var8 = var6 == var8;
                     var6 = undefined;
-                    if(var8) { _fun0002_ip = 180; continue _fun0002 }
- 170:
+                    if(var8) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var7 = _closure2_slot1;
                     var6 = var7.timing;
- 180:
+case 4:
                     var2['dismiss_logic'] = var6;
                     var2 = var4.bind(var5)(var3, var2);
                     return var1;

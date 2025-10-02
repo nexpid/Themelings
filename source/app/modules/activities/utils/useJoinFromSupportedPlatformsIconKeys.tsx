@@ -5,7 +5,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = dependencyMap;
     var4 = function getJoinFromSupportedPlatformsIconKeys(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var4 = var1.platforms;
             var3 = var1.currentPlatform;
@@ -19,104 +19,104 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var1 instanceof Object ? var1 : var2;
             var2 = new Array(0);
             var1 = null;
-            if(!(var1 != var4)) { _fun0001_ip = 412; continue _fun0001 }
- 59:
+            if(!(var1 != var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = var4.length;
             var4 = 0;
-            if(!(var4 !== var6)) { _fun0001_ip = 412; continue _fun0001 }
- 73:
-            if(!(var1 != var3)) { _fun0001_ip = 93; continue _fun0001 }
- 77:
+            if(!(var4 !== var6)) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
+            if(!(var1 != var3)) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var1 = var5.has;
             var1 = var1.bind(var5)(var3);
-            if(var1) { _fun0001_ip = 412; continue _fun0001 }
- 93:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 5:
             var4 = var5.has;
             var1 = _closure1_slot1;
             var1 = var1.ANDROID;
             var1 = var4.bind(var5)(var1);
-            if(!var1) { _fun0001_ip = 142; continue _fun0001 }
- 119:
+            if(!var1) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var4 = var5.has;
             var1 = _closure1_slot1;
             var1 = var1.IOS;
             var1 = var4.bind(var5)(var1);
-            if(var1) { _fun0001_ip = 232; continue _fun0001 }
- 142:
+            if(var1) { _fun0001_ip = 9; continue _fun0001 }
+case 7:
             var4 = var5.has;
             var1 = _closure1_slot1;
             var1 = var1.ANDROID;
             var1 = var4.bind(var5)(var1);
-            if(var1) { _fun0001_ip = 210; continue _fun0001 }
- 165:
+            if(var1) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var4 = var5.has;
             var1 = _closure1_slot1;
             var1 = var1.IOS;
             var1 = var4.bind(var5)(var1);
-            if(!var1) { _fun0001_ip = 252; continue _fun0001 }
- 188:
+            if(!var1) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var4 = var2.push;
             var1 = _closure1_slot2;
             var1 = var1.IOS;
             var1 = var4.bind(var2)(var1);
-            _fun0001_ip = 252; continue _fun0001;
- 210:
+            _fun0001_ip = 12; continue _fun0001;
+case 10:
             var4 = var2.push;
             var1 = _closure1_slot2;
             var1 = var1.ANDROID;
             var1 = var4.bind(var2)(var1);
-            _fun0001_ip = 252; continue _fun0001;
- 232:
+            _fun0001_ip = 12; continue _fun0001;
+case 9:
             var4 = var2.push;
             var1 = _closure1_slot2;
             var1 = var1.MOBILE;
             var1 = var4.bind(var2)(var1);
- 252:
+case 12:
             var4 = var5.has;
             var1 = _closure1_slot1;
             var1 = var1.PS4;
             var1 = var4.bind(var5)(var1);
-            if(var1) { _fun0001_ip = 295; continue _fun0001 }
- 275:
+            if(var1) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var6 = var5.has;
             var4 = _closure1_slot1;
             var4 = var4.PS5;
             var1 = var6.bind(var5)(var4);
- 295:
-            if(!var1) { _fun0001_ip = 318; continue _fun0001 }
- 298:
+case 14:
+            if(!var1) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var4 = var2.push;
             var1 = _closure1_slot2;
             var1 = var1.PLAYSTATION;
             var1 = var4.bind(var2)(var1);
- 318:
+case 16:
             var4 = var5.has;
             var1 = _closure1_slot1;
             var1 = var1.XBOX;
             var1 = var4.bind(var5)(var1);
-            if(!var1) { _fun0001_ip = 361; continue _fun0001 }
- 341:
+            if(!var1) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
             var4 = var2.push;
             var1 = _closure1_slot2;
             var1 = var1.XBOX;
             var1 = var4.bind(var2)(var1);
- 361:
+case 18:
             var4 = var5.has;
             var1 = _closure1_slot1;
             var1 = var1.DESKTOP;
             var4 = var4.bind(var5)(var1);
             var1 = var2;
-            if(!var4) { _fun0001_ip = 419; continue _fun0001 }
- 387:
+            if(!var4) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
             var4 = var2.push;
             var3 = _closure1_slot2;
             var3 = var3.DESKTOP;
             var3 = var4.bind(var2)(var3);
             var1 = var2;
-            _fun0001_ip = 419; continue _fun0001;
- 412:
+            _fun0001_ip = 20; continue _fun0001;
+case 2:
             var1 = _closure1_slot3;
- 419:
+case 20:
             return var1;
         }
     };

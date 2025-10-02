@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function LinkedLobbyFormSection(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var1 = var1.channel;
             var _closure2_slot0 = var1;
@@ -30,15 +30,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = null;
             var7 = var1 == var6;
             var2 = undefined;
-            if(var7) { _fun0001_ip = 94; continue _fun0001 }
- 88:
+            if(var7) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var6.application_id;
- 94:
+case 2:
             var21 = var3.bind(var4)(var2);
             var2 = var1 == var21;
             var1 = null;
-            if(var2) { _fun0001_ip = 396; continue _fun0001 }
- 111:
+            if(var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var4 = _closure1_slot5;
             var11 = _closure1_slot0;
             var13 = _closure1_slot2;
@@ -115,7 +115,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var8.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 396:
+case 4:
             return var1;
         }
     };
@@ -173,7 +173,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function ConnectedChannelSettingsIntegrationsOverview(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = var1.channelId;
             var _closure2_slot0 = var2;
@@ -208,8 +208,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = null;
             var2 = var13 == var14;
             var1 = null;
-            if(var2) { _fun0002_ip = 715; continue _fun0002 }
- 129:
+            if(var2) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var4 = _closure1_slot5;
             var7 = _closure1_slot0;
             var6 = _closure1_slot2;
@@ -226,8 +226,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = {};
             var9 = var9.screenContainer;
             var6['style'] = var9;
-            if(!var12) { _fun0002_ip = 647; continue _fun0002 }
- 201:
+            if(!var12) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var16 = _closure1_slot6;
             var23 = _closure1_slot0;
             var22 = _closure1_slot2;
@@ -337,28 +337,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17[1] = var18;
             var9['children'] = var17;
             var12 = var16.bind(var5)(var15, var9);
- 647:
+case 8:
             var9 = new Array(2);
             var9[0] = var12;
-            if(!var10) { _fun0002_ip = 668; continue _fun0002 }
- 658:
+            if(!var10) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
             var12 = var14.linkedLobby;
             var10 = var13 != var12;
- 668:
-            if(!var10) { _fun0002_ip = 691; continue _fun0002 }
- 671:
+case 10:
+            if(!var10) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
             var13 = _closure1_slot5;
             var12 = _closure1_slot8;
             var11 = {};
             var11['channel'] = var14;
             var10 = var13.bind(var5)(var12, var11);
- 691:
+case 12:
             var9[1] = var10;
             var6['children'] = var9;
             var6 = var8.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 715:
+case 6:
             return var1;
         }
     };

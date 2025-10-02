@@ -41,7 +41,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function UserProfileActivityCardBadges(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var1 = var3.activity;
             var _closure2_slot0 = var1;
@@ -49,21 +49,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var1.type;
             var4 = _closure1_slot3;
             var4 = var4.PLAYING;
-            if(!(var5 !== var4)) { _fun0001_ip = 190; continue _fun0001 }
- 45:
+            if(!(var5 !== var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = var1.type;
             var4 = _closure1_slot3;
             var4 = var4.LISTENING;
-            if(!(var5 !== var4)) { _fun0001_ip = 149; continue _fun0001 }
- 64:
+            if(!(var5 !== var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var4 = var1.type;
             var1 = _closure1_slot3;
             var1 = var1.WATCHING;
-            if(!(var4 !== var1)) { _fun0001_ip = 89; continue _fun0001 }
- 83:
+            if(!(var4 !== var1)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var7 = new Array(0);
-            _fun0001_ip = 147; continue _fun0001;
- 89:
+            _fun0001_ip = 8; continue _fun0001;
+case 6:
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
             var4 = 4;
@@ -78,9 +78,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.EpisodeBadge;
             var1[1] = var4;
             var7 = var1;
- 147:
-            _fun0001_ip = 188; continue _fun0001;
- 149:
+case 8:
+            _fun0001_ip = 9; continue _fun0001;
+case 4:
             var5 = _closure1_slot0;
             var4 = _closure1_slot1;
             var1 = 4;
@@ -91,9 +91,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = new Array(1);
             var1[0] = var4;
             var7 = var1;
- 188:
-            _fun0001_ip = 248; continue _fun0001;
- 190:
+case 9:
+            _fun0001_ip = 10; continue _fun0001;
+case 2:
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
             var4 = 4;
@@ -108,12 +108,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.PartyBadge;
             var1[1] = var4;
             var7 = var1;
- 248:
+case 10:
             var5 = var7.length;
             var4 = 0;
             var1 = null;
-            if(!(var4 !== var5)) { _fun0001_ip = 304; continue _fun0001 }
- 261:
+            if(!(var4 !== var5)) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var5 = _closure1_slot4;
             var4 = _closure1_slot2;
             var3 = {};
@@ -134,7 +134,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['children'] = var2;
             var2 = undefined;
             var1 = var5.bind(var2)(var4, var3);
- 304:
+case 11:
             return var1;
         }
     };

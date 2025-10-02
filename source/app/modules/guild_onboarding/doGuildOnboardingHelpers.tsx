@@ -45,7 +45,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.addConditionalChangeListener;
             var1 = function() {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     var5 = _closure1_slot3;
                     var3 = var5.getSelfMember;
                     var1 = _closure2_slot0;
@@ -60,22 +60,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = null;
                     var9 = var5 == var8;
                     var1 = undefined;
-                    if(var9) { _fun0001_ip = 69; continue _fun0001 }
- 64:
+                    if(var9) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var1 = var8.flags;
- 69:
+case 2:
                     var8 = var5 != var1;
                     var5 = 0;
-                    if(!var8) { _fun0001_ip = 81; continue _fun0001 }
- 78:
+                    if(!var8) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                     var5 = var1;
- 81:
+case 4:
                     var1 = _closure1_slot4;
                     var1 = var1.COMPLETED_ONBOARDING;
                     var1 = var6.bind(var7)(var5, var1);
                     var1 = !var1;
-                    if(var1) { _fun0001_ip = 151; continue _fun0001 }
- 103:
+                    if(var1) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                     var5 = _closure1_slot1;
                     var6 = _closure1_slot2;
                     var4 = 3;
@@ -87,7 +87,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = _closure3_slot0;
                     var2 = var2.bind(var3)();
                     var1 = false;
- 151:
+case 6:
                     return var1;
                 }
             };

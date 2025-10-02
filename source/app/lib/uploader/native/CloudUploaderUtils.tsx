@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var8;
     var1 = function _prepareMessageRequestBodyCloud(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var2 = arg2;
             var6 = arg3;
@@ -37,18 +37,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var1 = var3.bind(var4)(var1);
             var1 = null;
-            if(!(var1 != var6)) { _fun0001_ip = 44; continue _fun0001 }
- 40:
-            if(!(var1 == var2)) { _fun0001_ip = 67; continue _fun0001 }
- 44:
+            if(!(var1 != var6)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            if(!(var1 == var2)) { _fun0001_ip = 4; continue _fun0001 }
+case 2:
             var1 = {};
             var14 = var1;
             var13 = var2;
             var3 = copyDataProperties(var14, var13);
             var3 = 'attachments';
             var1[var3] = var10;
-            _fun0001_ip = 164; continue _fun0001;
- 67:
+            _fun0001_ip = 5; continue _fun0001;
+case 4:
             var5 = {};
             var14 = var5;
             var13 = var2;
@@ -73,14 +73,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var7.bind(var3)(var2);
             var2 = var3.set;
             var1 = var2.bind(var3)(var5, var6, var4);
- 164:
+case 5:
             return var1;
         }
     };
     var _closure1_slot6 = var1;
     var6 = function prepareMessageRequestHeaders(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = {};
             var2 = arg1;
             var1['Authorization'] = var2;
@@ -100,17 +100,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.getSuperPropertiesBase64;
             var4 = var3.bind(var4)();
             var3 = null;
-            if(!(var3 != var4)) { _fun0002_ip = 95; continue _fun0002 }
- 89:
+            if(!(var3 != var4)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var1['X-Super-Properties'] = var4;
- 95:
+case 6:
             var4 = _closure1_slot4;
             var2 = var4.getFingerprint;
             var2 = var2.bind(var4)();
-            if(!(var3 != var2)) { _fun0002_ip = 119; continue _fun0002 }
- 113:
+            if(!(var3 != var2)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var1['X-Fingerprint'] = var2;
- 119:
+case 8:
             return var1;
         }
     };

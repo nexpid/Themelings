@@ -27,7 +27,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useInappropriateConversationBannerForChannel(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var8 = arg1;
             var7 = _closure1_slot0;
             var9 = _closure1_slot1;
@@ -57,45 +57,45 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = _closure1_slot2;
             var2 = var2.INAPPROPRIATE_CONVERSATION_TIER_2;
             var2 = var6.bind(var7)(var8, var2);
-            if(!var4) { _fun0001_ip = 169; continue _fun0001 }
- 130:
-            if(!var3) { _fun0001_ip = 169; continue _fun0001 }
- 133:
+            if(!var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            if(!var3) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var4 = var5.length;
             var3 = 0;
-            if(!(var3 !== var4)) { _fun0001_ip = 169; continue _fun0001 }
- 144:
+            if(!(var3 !== var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 5:
             var4 = var5.some;
             var3 = function(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = arg1;
                     var4 = var3.type;
                     var1 = _closure1_slot2;
                     var1 = var1.INAPPROPRIATE_CONVERSATION_TIER_1;
                     var1 = var4 === var1;
-                    if(var1) { _fun0002_ip = 65; continue _fun0002 }
- 28:
+                    if(var1) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var4 = var3.type;
                     var2 = _closure1_slot2;
                     var2 = var2.INAPPROPRIATE_CONVERSATION_TIER_2;
                     var2 = var4 === var2;
-                    if(!var2) { _fun0002_ip = 62; continue _fun0002 }
- 50:
+                    if(!var2) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                     var4 = var3.dismiss_timestamp;
                     var3 = null;
                     var2 = var3 != var4;
- 62:
+case 8:
                     var1 = var2;
- 65:
+case 6:
                     return var1;
                 }
             };
             var3 = var4.bind(var5)(var3);
-            if(var3) { _fun0001_ip = 169; continue _fun0001 }
- 167:
+            if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 10:
             return var2;
- 169:
+case 2:
             return var1;
         }
     };

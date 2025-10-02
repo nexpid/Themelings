@@ -22,7 +22,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function getApplicationDetailsText(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arg1;
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
@@ -34,30 +34,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var2.bind(var4)(var5);
             var2 = var5.privacy_policy_url;
             var6 = null;
-            if(!(var6 != var2)) { _fun0001_ip = 63; continue _fun0001 }
- 50:
+            if(!(var6 != var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var5.terms_of_service_url;
-            if(!(var6 == var2)) { _fun0001_ip = 384; continue _fun0001 }
- 63:
+            if(!(var6 == var2)) { _fun0001_ip = 4; continue _fun0001 }
+case 2:
             var2 = var5.privacy_policy_url;
-            if(!(var6 == var2)) { _fun0001_ip = 281; continue _fun0001 }
- 76:
+            if(!(var6 == var2)) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var2 = var5.terms_of_service_url;
-            if(!(var6 == var2)) { _fun0001_ip = 178; continue _fun0001 }
- 86:
+            if(!(var6 == var2)) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var6 = _closure1_slot0;
             var2 = _closure1_slot1;
             var7 = 1;
             var2 = var2[var7];
             var2 = var6.bind(var3)(var2);
             var2 = var2.t;
-            if(var4) { _fun0001_ip = 124; continue _fun0001 }
- 114:
+            if(var4) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var8 = var2.3Ywek5;
-            _fun0001_ip = 132; continue _fun0001;
- 124:
+            _fun0001_ip = 11; continue _fun0001;
+case 9:
             var8 = var2.8LemYm;
- 132:
+case 11:
             var6 = _closure1_slot0;
             var2 = _closure1_slot1;
             var2 = var2[var7];
@@ -69,20 +69,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['application'] = var9;
             var2 = var6.bind(var7)(var8, var2);
             return var2;
- 178:
+case 7:
             var6 = _closure1_slot0;
             var2 = _closure1_slot1;
             var7 = 1;
             var2 = var2[var7];
             var2 = var6.bind(var3)(var2);
             var2 = var2.t;
-            if(var4) { _fun0001_ip = 216; continue _fun0001 }
- 206:
+            if(var4) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var8 = var2.q0T/Q0;
-            _fun0001_ip = 224; continue _fun0001;
- 216:
+            _fun0001_ip = 14; continue _fun0001;
+case 12:
             var8 = var2.nBLOp6;
- 224:
+case 14:
             var6 = _closure1_slot0;
             var2 = _closure1_slot1;
             var2 = var2[var7];
@@ -96,20 +96,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['termsOfServiceURL'] = var9;
             var2 = var6.bind(var7)(var8, var2);
             return var2;
- 281:
+case 5:
             var6 = _closure1_slot0;
             var2 = _closure1_slot1;
             var7 = 1;
             var2 = var2[var7];
             var2 = var6.bind(var3)(var2);
             var2 = var2.t;
-            if(var4) { _fun0001_ip = 319; continue _fun0001 }
- 309:
+            if(var4) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
             var8 = var2.TBvmMz;
-            _fun0001_ip = 327; continue _fun0001;
- 319:
+            _fun0001_ip = 17; continue _fun0001;
+case 15:
             var8 = var2.pYVSam;
- 327:
+case 17:
             var6 = _closure1_slot0;
             var2 = _closure1_slot1;
             var2 = var2[var7];
@@ -123,20 +123,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['privacyPolicyURL'] = var9;
             var2 = var6.bind(var7)(var8, var2);
             return var2;
- 384:
+case 4:
             var7 = _closure1_slot0;
             var2 = _closure1_slot1;
             var6 = 1;
             var2 = var2[var6];
             var2 = var7.bind(var3)(var2);
             var2 = var2.t;
-            if(var4) { _fun0001_ip = 422; continue _fun0001 }
- 412:
+            if(var4) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
             var4 = var2.rxlyKC;
-            _fun0001_ip = 430; continue _fun0001;
- 422:
+            _fun0001_ip = 20; continue _fun0001;
+case 18:
             var4 = var2.yVfotr;
- 430:
+case 20:
             var2 = _closure1_slot0;
             var1 = _closure1_slot1;
             var1 = var1[var6];

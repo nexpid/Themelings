@@ -25,11 +25,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = function* () {
             var1 = function* anon_0_() {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 153; continue _fun0001 }
- 10:
+                    if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var7 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var5 = 7;
@@ -41,12 +41,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var2.paths;
                     var2 = var7.bind(var4)(var3, var2);
                     SaveGenerator(address=57);
- 55:
+case 4:
                     return var2;
- 57:
+case 5:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0001_ip = 150; continue _fun0001 }
- 63:
+                    if(var3) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                     var8 = var2.default;
                     var7 = _closure1_slot0;
                     var3 = _closure1_slot2;
@@ -57,12 +57,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var3.paths;
                     var3 = var7.bind(var4)(var5, var3);
                     SaveGenerator(address=107);
- 105:
+case 8:
                     return var3;
- 107:
+case 9:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(var5) { _fun0001_ip = 147; continue _fun0001 }
- 113:
+                    if(var5) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
                     var5 = var3.openInAppEducationActionSheet;
                     var7 = var8.acknowledgeTooltip;
                     var6 = _closure1_slot4;
@@ -70,11 +70,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = var7.bind(var8)(var6);
                     var5 = var5.bind(var4)();
                     return var4;
- 147:
+case 10:
                     return var3;
- 150:
+case 6:
                     return var2;
- 153:
+case 2:
                     return var1;
                 }
             };

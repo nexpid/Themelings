@@ -130,35 +130,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var4.map;
                 var1 = function(arg1) {
                     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                         var2 = arg1;
                         var1 = _closure4_slot0;
                         var1 = var1.deleteNodeOnBackspace;
                         var3 = 'function';
                         var1 = typeof var1;
-                        if(!(var3 !== var1)) { _fun0001_ip = 39; continue _fun0001 }
- 27:
+                        if(!(var3 !== var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                         var1 = _closure4_slot0;
                         var4 = var1.deleteNodeOnBackspace;
-                        _fun0001_ip = 54; continue _fun0001;
- 39:
+                        _fun0001_ip = 4; continue _fun0001;
+case 2:
                         var5 = _closure4_slot0;
                         var1 = var5.deleteNodeOnBackspace;
                         var4 = var1.bind(var5)(var2);
- 54:
+case 4:
                         var1 = _closure4_slot0;
                         var1 = var1.editDisabled;
                         var1 = typeof var1;
-                        if(!(var3 !== var1)) { _fun0001_ip = 83; continue _fun0001 }
- 71:
+                        if(!(var3 !== var1)) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
                         var1 = _closure4_slot0;
                         var3 = var1.editDisabled;
-                        _fun0001_ip = 98; continue _fun0001;
- 83:
+                        _fun0001_ip = 7; continue _fun0001;
+case 5:
                         var5 = _closure4_slot0;
                         var1 = var5.editDisabled;
                         var3 = var1.bind(var5)(var2);
- 98:
+case 7:
                         var1 = {};
                         var5 = _closure4_slot0;
                         var7 = var5.type;
@@ -167,12 +167,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var5 = null;
                         var7 = var5 == var7;
                         var5 = undefined;
-                        if(var7) { _fun0001_ip = 143; continue _fun0001 }
- 129:
+                        if(var7) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
                         var7 = _closure4_slot0;
                         var6 = var7.style;
                         var5 = var6.bind(var7)(var2);
- 143:
+case 8:
                         var1['style'] = var5;
                         var1['deleteNodeOnBackspace'] = var4;
                         var1['editDisabled'] = var3;
@@ -206,7 +206,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['default'] = var6;
     var5 = function(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var3 = arg1;
             var8 = var3.backgroundColor;
             var6 = var3.color;
@@ -222,12 +222,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = copyDataProperties(var11, var10, var9);
             var1 = var5 != var8;
             var3 = null;
-            if(!var1) { _fun0002_ip = 97; continue _fun0002 }
- 60:
+            if(!var1) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
             var1 = var5 != var4;
             var3 = null;
-            if(!var1) { _fun0002_ip = 97; continue _fun0002 }
- 69:
+            if(!var1) { _fun0002_ip = 10; continue _fun0002 }
+case 12:
             var1 = {};
             var7 = _closure1_slot4;
             var5 = undefined;
@@ -235,7 +235,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['backgroundColor'] = var5;
             var1['cornerRadius'] = var4;
             var3 = var1;
- 97:
+case 10:
             var1 = {};
             var5 = _closure1_slot4;
             var4 = undefined;

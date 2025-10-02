@@ -68,12 +68,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var6 = function value() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var2 = this;
                 var1 = var2.scheduled;
                 var1 = var1.bind(var2)();
-                if(!var1) { _fun0001_ip = 45; continue _fun0001 }
- 16:
+                if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var1 = global;
                 var4 = var1.clearTimeout;
                 var3 = var2.timeoutId;
@@ -81,7 +81,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var4.bind(var1)(var3);
                 var1 = null;
                 var2['timeoutId'] = var1;
- 45:
+case 2:
                 var1 = undefined;
                 return var1;
             }

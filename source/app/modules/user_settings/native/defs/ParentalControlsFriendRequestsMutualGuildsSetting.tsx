@@ -62,7 +62,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['parent'] = var8;
     var8 = function useFriendRequestsMutualGuildsSettingValue() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = _closure1_slot0;
             var5 = _closure1_slot2;
             var3 = 5;
@@ -74,10 +74,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = null;
             var4 = var4 != var3;
             var5 = undefined;
-            if(!var4) { _fun0001_ip = 51; continue _fun0001 }
- 48:
+            if(!var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = var3;
- 51:
+case 2:
             var4 = _closure1_slot0;
             var7 = _closure1_slot2;
             var3 = 6;
@@ -111,13 +111,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['useValue'] = var8;
     var7 = function onFriendRequestsMutualGuildsSettingValueChange(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var2 = _closure1_slot4;
             var1 = var2.getSelectedTeenId;
             var4 = var1.bind(var2)();
             var1 = null;
-            if(!(var1 != var4)) { _fun0002_ip = 171; continue _fun0002 }
- 26:
+            if(!(var1 != var4)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 6;
@@ -137,22 +137,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var9[var1];
             var7 = var6.bind(var7)(var1);
             var1 = arg1;
-            if(var1) { _fun0002_ip = 143; continue _fun0002 }
- 112:
+            if(var1) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var9 = var7.removeFlags;
             var1 = _closure1_slot5;
             var6 = var1.MUTUAL_GUILDS;
             var1 = var1.NO_RELATION;
             var1 = var9.bind(var7)(var8, var6, var1);
-            _fun0002_ip = 165; continue _fun0002;
- 143:
+            _fun0002_ip = 8; continue _fun0002;
+case 6:
             var6 = var7.addFlag;
             var5 = _closure1_slot5;
             var5 = var5.MUTUAL_GUILDS;
             var1 = var6.bind(var7)(var8, var5);
- 165:
+case 8:
             var1 = var2.bind(var3)(var4, var1);
- 171:
+case 4:
             var1 = undefined;
             return var1;
         }

@@ -22,7 +22,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function getBadgeTooltip(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var3 = arg2;
             var5 = _closure1_slot0;
@@ -33,16 +33,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var5.bind(var6)(var1);
             var1 = var1.GuildVisibility;
             var1 = var1.PUBLIC;
-            if(!(var3 !== var1)) { _fun0001_ip = 198; continue _fun0001 }
- 49:
+            if(!(var3 !== var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = _closure1_slot0;
             var1 = _closure1_slot1;
             var1 = var1[var7];
             var1 = var5.bind(var6)(var1);
             var1 = var1.GuildVisibility;
             var1 = var1.APPLY_TO_JOIN;
-            if(!(var3 !== var1)) { _fun0001_ip = 139; continue _fun0001 }
- 82:
+            if(!(var3 !== var1)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var7 = _closure1_slot0;
             var8 = _closure1_slot1;
             var1 = 1;
@@ -55,8 +55,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.t;
             var1 = var1.TME4LC;
             var3 = var3.bind(var5)(var1);
-            _fun0001_ip = 196; continue _fun0001;
- 139:
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
             var1 = 1;
@@ -69,9 +69,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.t;
             var1 = var1.YwZfbm;
             var3 = var5.bind(var7)(var1);
- 196:
-            _fun0001_ip = 253; continue _fun0001;
- 198:
+case 6:
+            _fun0001_ip = 7; continue _fun0001;
+case 2:
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
             var1 = 1;
@@ -84,7 +84,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.t;
             var1 = var1.op2cJy;
             var3 = var5.bind(var7)(var1);
- 253:
+case 7:
             var5 = _closure1_slot0;
             var1 = _closure1_slot1;
             var7 = 2;
@@ -92,48 +92,48 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var5.bind(var6)(var1);
             var1 = var1.BadgeCategory;
             var1 = var1.STAFF;
-            if(!(var1 !== var4)) { _fun0001_ip = 1077; continue _fun0001 }
- 292:
+            if(!(var1 !== var4)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var5 = _closure1_slot0;
             var1 = _closure1_slot1;
             var1 = var1[var7];
             var1 = var5.bind(var6)(var1);
             var1 = var1.BadgeCategory;
             var1 = var1.VERIFIED;
-            if(!(var1 !== var4)) { _fun0001_ip = 957; continue _fun0001 }
- 328:
+            if(!(var1 !== var4)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var5 = _closure1_slot0;
             var1 = _closure1_slot1;
             var1 = var1[var7];
             var1 = var5.bind(var6)(var1);
             var1 = var1.BadgeCategory;
             var1 = var1.PARTNERED;
-            if(!(var1 !== var4)) { _fun0001_ip = 837; continue _fun0001 }
- 364:
+            if(!(var1 !== var4)) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var5 = _closure1_slot0;
             var1 = _closure1_slot1;
             var1 = var1[var7];
             var1 = var5.bind(var6)(var1);
             var1 = var1.BadgeCategory;
             var1 = var1.VERIFIED_AND_PARTNERED;
-            if(!(var1 !== var4)) { _fun0001_ip = 717; continue _fun0001 }
- 400:
+            if(!(var1 !== var4)) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var5 = _closure1_slot0;
             var1 = _closure1_slot1;
             var1 = var1[var7];
             var1 = var5.bind(var6)(var1);
             var1 = var1.BadgeCategory;
             var1 = var1.COMMUNITY;
-            if(!(var1 !== var4)) { _fun0001_ip = 648; continue _fun0001 }
- 436:
+            if(!(var1 !== var4)) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var5 = _closure1_slot0;
             var1 = _closure1_slot1;
             var1 = var1[var7];
             var1 = var5.bind(var6)(var1);
             var1 = var1.BadgeCategory;
             var1 = var1.DISCOVERABLE;
-            if(!(var1 !== var4)) { _fun0001_ip = 535; continue _fun0001 }
- 469:
+            if(!(var1 !== var4)) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
             var1 = {};
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
@@ -149,7 +149,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var5.bind(var7)(var4);
             var1['tooltipTitle'] = var4;
             return var1;
- 535:
+case 18:
             var1 = {};
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
@@ -175,7 +175,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var5.bind(var7)(var4);
             var1['tooltipDescription'] = var4;
             return var1;
- 648:
+case 16:
             var1 = {};
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
@@ -192,7 +192,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['tooltipTitle'] = var4;
             var1['tooltipDescription'] = var3;
             return var1;
- 717:
+case 14:
             var1 = {};
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
@@ -219,7 +219,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['tooltipSubtitle'] = var4;
             var1['tooltipDescription'] = var3;
             return var1;
- 837:
+case 12:
             var1 = {};
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
@@ -246,7 +246,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['tooltipSubtitle'] = var4;
             var1['tooltipDescription'] = var3;
             return var1;
- 957:
+case 10:
             var1 = {};
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
@@ -273,7 +273,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['tooltipSubtitle'] = var4;
             var1['tooltipDescription'] = var3;
             return var1;
- 1077:
+case 8:
             var1 = {};
             var5 = _closure1_slot0;
             var7 = _closure1_slot1;

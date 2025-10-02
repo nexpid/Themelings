@@ -76,7 +76,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function MessagesEmptyState() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = _closure1_slot10;
             var4 = undefined;
             var12 = var2.bind(var4)();
@@ -141,10 +141,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var5.useYouBarEnabled;
             var2 = 'messages-empty';
             var7 = var3.bind(var5)(var2);
-            if(!var7) { _fun0001_ip = 247; continue _fun0001 }
- 244:
+            if(!var7) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var7 = var1;
- 247:
+case 2:
             var1 = _closure1_slot7;
             var8 = var1.bind(var4)();
             var3 = _closure1_slot8;
@@ -154,12 +154,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = new Array(2);
             var5[0] = var6;
             var6 = undefined;
-            if(!var7) { _fun0001_ip = 306; continue _fun0001 }
- 296:
+            if(!var7) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var7 = {};
             var7['paddingBottom'] = var8;
             var6 = var7;
- 306:
+case 4:
             var5[1] = var6;
             var1['contentContainerStyle'] = var5;
             var7 = _closure1_slot9;
@@ -188,11 +188,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var21 = 350;
             var19 = 622;
             var17 = var21;
-            if(!(var20 < var19)) { _fun0001_ip = 430; continue _fun0001 }
- 422:
+            if(!(var20 < var19)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var18 = var20 / var19;
             var17 = var18 * var21;
- 430:
+case 6:
             var16['height'] = var17;
             var17 = global;
             var18 = var17.Math;

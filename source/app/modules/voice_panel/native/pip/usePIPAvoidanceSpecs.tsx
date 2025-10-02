@@ -114,7 +114,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3['__initData'] = var7;
         var2 = function p(arg1, arg2) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var3 = arg1;
                 var6 = arg2;
                 var4 = _closure1_slot0;
@@ -127,13 +127,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = null;
                 var7 = var2 != var6;
                 var2 = undefined;
-                if(!var7) { _fun0001_ip = 51; continue _fun0001 }
- 48:
+                if(!var7) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var2 = var6;
- 51:
+case 2:
                 var2 = var4.bind(var5)(var3, var2);
-                if(var2) { _fun0001_ip = 410; continue _fun0001 }
- 63:
+                if(var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var12 = var3.mode;
                 var9 = var3.controlsSpecs;
                 var2 = var3.keyboardHeight;
@@ -141,33 +141,33 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var3.screenName;
                 var3 = _closure1_slot3;
                 var3 = var3.PIP;
-                if(!(var12 === var3)) { _fun0001_ip = 133; continue _fun0001 }
- 106:
+                if(!(var12 === var3)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                 var5 = _closure1_slot1;
                 var7 = _closure1_slot2;
                 var3 = 7;
                 var3 = var7[var3];
                 var3 = var5.bind(var1)(var3);
                 var5 = var3.bind(var1)(var4);
-                _fun0001_ip = 184; continue _fun0001;
- 133:
+                _fun0001_ip = 8; continue _fun0001;
+case 6:
                 var3 = _closure1_slot3;
                 var4 = var3.PANEL;
                 var3 = 0;
-                if(!(var12 === var4)) { _fun0001_ip = 181; continue _fun0001 }
- 149:
+                if(!(var12 === var4)) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
                 var7 = var9.mode;
                 var4 = _closure1_slot4;
                 var4 = var4.DRAWER;
                 var3 = 0;
-                if(!(var7 === var4)) { _fun0001_ip = 181; continue _fun0001 }
- 170:
+                if(!(var7 === var4)) { _fun0001_ip = 9; continue _fun0001 }
+case 11:
                 var7 = _closure1_slot5;
                 var4 = 60;
                 var3 = var4 + var7;
- 181:
+case 9:
                 var5 = var3;
- 184:
+case 8:
                 var4 = _closure1_slot1;
                 var7 = _closure1_slot2;
                 var3 = 8;
@@ -182,27 +182,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var3.bottomOffset;
                 var10 = 0;
                 var2 = var2 <= var10;
-                if(!var2) { _fun0001_ip = 260; continue _fun0001 }
- 246:
+                if(!var2) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
                 var4 = _closure1_slot3;
                 var4 = var4.PANEL;
                 var2 = var12 === var4;
- 260:
-                if(!var2) { _fun0001_ip = 282; continue _fun0001 }
- 263:
+case 12:
+                if(!var2) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
                 var5 = var9.mode;
                 var4 = _closure1_slot4;
                 var4 = var4.FLOATING_DEFAULT;
                 var2 = var5 === var4;
- 282:
+case 14:
                 var5 = var3;
-                if(!var2) { _fun0001_ip = 305; continue _fun0001 }
- 288:
+                if(!var2) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
                 var4 = var9.height;
                 var2 = _closure1_slot5;
                 var2 = var4 + var2;
                 var5 = var3 + var2;
- 305:
+case 16:
                 var3 = _closure1_slot1;
                 var4 = _closure1_slot2;
                 var2 = 9;
@@ -218,20 +218,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = _closure1_slot3;
                 var11 = var6.PANEL;
                 var6 = 0;
-                if(!(var12 === var11)) { _fun0001_ip = 396; continue _fun0001 }
- 372:
+                if(!(var12 === var11)) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
                 var9 = var9.mode;
                 var8 = _closure1_slot4;
                 var8 = var8.FLOATING_DEFAULT;
                 var6 = 0;
-                if(!(var9 === var8)) { _fun0001_ip = 396; continue _fun0001 }
- 393:
+                if(!(var9 === var8)) { _fun0001_ip = 18; continue _fun0001 }
+case 20:
                 var6 = var7;
- 396:
+case 18:
                 var2['top'] = var6;
                 var2['bottom'] = var5;
                 var2 = var4.bind(var1)(var3, var2);
- 410:
+case 4:
                 return var1;
             }
         };

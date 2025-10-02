@@ -36,7 +36,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = Object.create(var2, {constructor: {value: var3}});
             var4 = function(arg1) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     var4 = _closure2_slot0;
                     var3 = var4.dispatch;
                     var2 = {};
@@ -51,25 +51,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var7 == var1;
                     var1 = undefined;
                     var8 = undefined;
-                    if(var5) { _fun0001_ip = 70; continue _fun0001 }
- 60:
+                    if(var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var5 = _closure3_slot2;
                     var8 = var5.flush;
- 70:
+case 2:
                     var5 = var7 != var8;
-                    if(!var5) { _fun0001_ip = 80; continue _fun0001 }
- 77:
+                    if(!var5) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                     var5 = var8;
- 80:
+case 4:
                     var2['flush'] = var5;
                     var5 = _closure3_slot2;
                     var7 = var7 == var5;
                     var5 = undefined;
-                    if(var7) { _fun0001_ip = 108; continue _fun0001 }
- 98:
+                    if(var7) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                     var6 = _closure3_slot2;
                     var5 = var6.fingerprint;
- 108:
+case 6:
                     var2['fingerprint'] = var5;
                     var5 = arg1;
                     var2['resolve'] = var5;

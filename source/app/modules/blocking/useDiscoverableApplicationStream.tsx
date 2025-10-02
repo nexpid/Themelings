@@ -36,7 +36,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useDiscoverableApplicationStream(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var8 = arg1;
             var _closure2_slot0 = var8;
             var6 = _closure1_slot0;
@@ -51,20 +51,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9[0] = var4;
             var4 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = _closure2_slot0;
                     var1 = null;
-                    if(!(var1 == var3)) { _fun0002_ip = 28; continue _fun0002 }
- 13:
+                    if(!(var1 == var3)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var1 = _closure1_slot4;
                     var1 = var1.NONE;
-                    _fun0002_ip = 50; continue _fun0002;
- 28:
+                    _fun0002_ip = 4; continue _fun0002;
+case 2:
                     var4 = _closure1_slot3;
                     var3 = var4.getRelationshipType;
                     var2 = _closure2_slot0;
                     var1 = var3.bind(var4)(var2);
- 50:
+case 4:
                     return var1;
                 }
             };
@@ -79,17 +79,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[0] = var8;
             var2 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var3 = _closure2_slot0;
                     var1 = null;
                     var3 = var1 == var3;
-                    if(var3) { _fun0003_ip = 40; continue _fun0003 }
- 16:
+                    if(var3) { _fun0003_ip = 5; continue _fun0003 }
+case 6:
                     var4 = _closure1_slot2;
                     var3 = var4.getAnyDiscoverableStreamForUser;
                     var2 = _closure2_slot0;
                     var1 = var3.bind(var4)(var2);
- 40:
+case 5:
                     return var1;
                 }
             };
@@ -97,10 +97,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = _closure1_slot4;
             var3 = var1.BLOCKED;
             var1 = null;
-            if(!(var4 !== var3)) { _fun0001_ip = 131; continue _fun0001 }
- 128:
+            if(!(var4 !== var3)) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var1 = var2;
- 131:
+case 7:
             return var1;
         }
     };

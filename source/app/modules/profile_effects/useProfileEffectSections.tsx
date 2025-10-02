@@ -123,7 +123,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['preview'] = var2;
             var2 = function(arg1, arg2) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     var1 = arg1;
                     var4 = arg2;
                     var5 = _closure2_slot0;
@@ -139,32 +139,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = var7.isPremiumCollectiblesProduct;
                     var2 = null;
                     var5 = var3;
-                    if(!(var2 == var5)) { _fun0001_ip = 89; continue _fun0001 }
- 69:
+                    if(!(var2 == var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var10 = _closure2_slot2;
                     var9 = var10.get;
                     var8 = var4.skuId;
                     var5 = var9.bind(var10)(var8);
- 89:
+case 2:
                     var5 = var6.bind(var7)(var5);
-                    if(var5) { _fun0001_ip = 137; continue _fun0001 }
- 97:
-                    if(!(var2 == var3)) { _fun0001_ip = 119; continue _fun0001 }
- 101:
+                    if(var5) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+                    if(!(var2 == var3)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                     var3 = var1.preview;
                     var2 = var3.push;
                     var2 = var2.bind(var3)(var4);
-                    _fun0001_ip = 153; continue _fun0001;
- 119:
+                    _fun0001_ip = 8; continue _fun0001;
+case 6:
                     var3 = var1.purchase;
                     var2 = var3.push;
                     var2 = var2.bind(var3)(var4);
-                    _fun0001_ip = 153; continue _fun0001;
- 137:
+                    _fun0001_ip = 8; continue _fun0001;
+case 4:
                     var3 = var1.premium_purchase;
                     var2 = var3.push;
                     var2 = var2.bind(var3)(var4);
- 153:
+case 8:
                     return var1;
                 }
             };

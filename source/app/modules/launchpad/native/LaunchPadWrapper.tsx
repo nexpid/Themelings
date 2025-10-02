@@ -85,7 +85,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function LaunchPadWrapper(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var8 = var2.launchPadType;
             var _closure2_slot0 = var8;
@@ -134,10 +134,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11[0] = var20;
             var7 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = _closure2_slot2;
-                    if(var3) { _fun0002_ip = 54; continue _fun0002 }
- 12:
+                    if(var3) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var3 = global;
                     var6 = var3.setTimeout;
                     var5 = undefined;
@@ -163,7 +163,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     };
                     return var2;
- 54:
+case 2:
                     var2 = _closure2_slot3;
                     var1 = false;
                     var2['current'] = var1;
@@ -189,10 +189,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11[0] = var20;
             var7 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var1 = _closure2_slot2;
-                    if(!var1) { _fun0003_ip = 55; continue _fun0003 }
- 10:
+                    if(!var1) { _fun0003_ip = 4; continue _fun0003 }
+case 5:
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
                     var2 = 12;
@@ -203,7 +203,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = _closure1_slot10;
                     var1 = var1.LAUNCHPAD_OPENED;
                     var1 = var2.bind(var3)(var1);
- 55:
+case 4:
                     var1 = undefined;
                     return var1;
                 }
@@ -215,12 +215,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11[1] = var20;
             var7 = function() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                     var4 = _closure2_slot0;
                     var3 = _closure1_slot9;
                     var3 = var3.PULL_TAB;
-                    if(!(var4 === var3)) { _fun0004_ip = 117; continue _fun0004 }
- 24:
+                    if(!(var4 === var3)) { _fun0004_ip = 6; continue _fun0004 }
+case 7:
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot2;
                     var3 = 13;
@@ -230,8 +230,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var4.setLaunchPadPullTabExclusionRect;
                     var3 = var3.bind(var4)();
                     var2 = _closure2_slot2;
-                    if(!var2) { _fun0004_ip = 149; continue _fun0004 }
- 63:
+                    if(!var2) { _fun0004_ip = 8; continue _fun0004 }
+case 9:
                     var5 = _closure1_slot0;
                     var7 = _closure1_slot2;
                     var2 = 14;
@@ -243,8 +243,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var2.HapticFeedbackTypes;
                     var2 = var2.IMPACT_LIGHT;
                     var2 = var3.bind(var4)(var2);
-                    _fun0004_ip = 149; continue _fun0004;
- 117:
+                    _fun0004_ip = 8; continue _fun0004;
+case 6:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var1 = 13;
@@ -253,7 +253,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var3.bind(var1)(var2);
                     var1 = var2.clearLaunchPadPullTabExclusionRect;
                     var1 = var1.bind(var2)();
- 149:
+case 8:
                     var1 = undefined;
                     return var1;
                 }
@@ -282,14 +282,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var6.bind(var4)(var3);
             var3 = function() {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
                     var2 = _closure2_slot2;
-                    if(!var2) { _fun0005_ip = 20; continue _fun0005 }
- 10:
+                    if(!var2) { _fun0005_ip = 10; continue _fun0005 }
+case 5:
                     var3 = _closure2_slot5;
                     var2 = undefined;
                     var2 = var3.bind(var2)();
- 20:
+case 10:
                     var1 = _closure2_slot2;
                     return var1;
                 }
@@ -416,8 +416,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = _closure1_slot9;
             var7 = var6.PULL_TAB;
             var6 = null;
-            if(!(var8 === var7)) { _fun0001_ip = 538; continue _fun0001 }
- 486:
+            if(!(var8 === var7)) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var12 = _closure1_slot12;
             var8 = _closure1_slot1;
             var17 = _closure1_slot2;
@@ -430,7 +430,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7['launchPadPullTabState'] = var14;
             var7['updaters'] = var13;
             var6 = var12.bind(var4)(var8, var7);
- 538:
+case 11:
             var5[1] = var6;
             var8 = _closure1_slot12;
             var7 = _closure1_slot1;
@@ -440,10 +440,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var6.View;
             var6 = {};
             var6['style'] = var10;
-            if(!var20) { _fun0001_ip = 579; continue _fun0001 }
- 577:
+            if(!var20) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var9 = undefined;
- 579:
+case 13:
             var6['pointerEvents'] = var9;
             var11 = _closure1_slot13;
             var10 = _closure1_slot0;
@@ -463,10 +463,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = _closure1_slot6;
             var12 = {};
             var14 = 'no';
-            if(!var20) { _fun0001_ip = 670; continue _fun0001 }
- 664:
+            if(!var20) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
             var14 = 'yes';
- 670:
+case 15:
             var12['importantForAccessibility'] = var14;
             var14 = 'button';
             var12['accessibilityRole'] = var14;
@@ -504,10 +504,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var13.Freeze;
             var13 = {};
             var17 = !var20;
-            if(!var17) { _fun0001_ip = 849; continue _fun0001 }
- 846:
+            if(!var17) { _fun0001_ip = 17; continue _fun0001 }
+case 18:
             var17 = var18;
- 849:
+case 17:
             var13['freeze'] = var17;
             var18 = _closure1_slot12;
             var17 = _closure1_slot1;

@@ -28,17 +28,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function handoffRemote(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var5 = arg2;
             var1 = var3.sessionId;
             var4 = null;
             var2 = var4 != var1;
             var6 = '';
-            if(!var2) { _fun0001_ip = 28; continue _fun0001 }
- 25:
+            if(!var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = var1;
- 28:
+case 2:
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
             var7 = 1;
@@ -52,10 +52,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var8.disconnectRemote;
             var7 = var7.bind(var8)();
             var7 = var6;
-            if(!(var4 == var5)) { _fun0001_ip = 95; continue _fun0001 }
- 90:
+            if(!(var4 == var5)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = var3.channelId;
- 95:
+case 4:
             var8 = _closure1_slot1;
             var9 = _closure1_slot2;
             var6 = 2;
@@ -68,8 +68,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = _closure1_slot3;
             var4 = var8.isSelfMute;
             var4 = var4.bind(var8)();
-            if(!(var6 !== var4)) { _fun0001_ip = 185; continue _fun0001 }
- 155:
+            if(!(var6 !== var4)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var6 = _closure1_slot1;
             var8 = _closure1_slot2;
             var4 = 3;
@@ -77,13 +77,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.bind(var1)(var4);
             var4 = var6.toggleSelfMute;
             var4 = var4.bind(var6)();
- 185:
+case 6:
             var4 = var3.selfDeaf;
             var6 = _closure1_slot3;
             var3 = var6.isSelfDeaf;
             var3 = var3.bind(var6)();
-            if(!(var4 !== var3)) { _fun0001_ip = 239; continue _fun0001 }
- 209:
+            if(!(var4 !== var3)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var4 = _closure1_slot1;
             var6 = _closure1_slot2;
             var3 = 3;
@@ -91,7 +91,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.bind(var1)(var3);
             var3 = var4.toggleSelfDeaf;
             var3 = var3.bind(var4)();
- 239:
+case 8:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
             var2 = 4;

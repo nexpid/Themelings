@@ -37,7 +37,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function AlertNotification(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var2 = var2.notification;
             var3 = var2.key;
@@ -69,12 +69,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = null;
             var4 = var1 == var3;
             var2 = undefined;
-            if(var4) { _fun0001_ip = 121; continue _fun0001 }
- 115:
+            if(var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var3.raidDetectedAt;
- 121:
-            if(!(var1 == var2)) { _fun0001_ip = 184; continue _fun0001 }
- 125:
+case 2:
+            if(!(var1 == var2)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var6 = _closure1_slot0;
             var9 = _closure1_slot2;
             var2 = 5;
@@ -87,8 +87,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.t;
             var2 = var2.evRhws;
             var6 = var3.bind(var4)(var2);
-            _fun0001_ip = 241; continue _fun0001;
- 184:
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
             var9 = _closure1_slot0;
             var10 = _closure1_slot2;
             var2 = 5;
@@ -101,11 +101,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.t;
             var2 = var2.Mn3elp;
             var6 = var3.bind(var4)(var2);
- 241:
+case 6:
             var2 = var1 == var7;
             var1 = null;
-            if(var2) { _fun0001_ip = 398; continue _fun0001 }
- 253:
+            if(var2) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var4 = _closure1_slot4;
             var13 = _closure1_slot0;
             var10 = _closure1_slot2;
@@ -139,7 +139,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['label'] = var7;
             var2['textChildren'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 398:
+case 7:
             return var1;
         }
     };

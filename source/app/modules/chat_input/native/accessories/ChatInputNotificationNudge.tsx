@@ -187,7 +187,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = {};
         var13 = function onPress() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var7 = _closure1_slot0;
                 var8 = _closure1_slot2;
                 var1 = 19;
@@ -221,11 +221,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = null;
                 var8 = var7 == var8;
                 var7 = undefined;
-                if(var8) { _fun0001_ip = 161; continue _fun0001 }
- 151:
+                if(var8) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var8 = _closure2_slot1;
                 var7 = var8.timing;
- 161:
+case 2:
                 var3['dismiss_logic'] = var7;
                 var3 = var5.bind(var6)(var4, var3);
                 var2 = _closure2_slot0;
@@ -375,7 +375,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function ChatInputNotificationNudge(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var4 = var1.channel;
             var _closure2_slot0 = var4;
@@ -394,27 +394,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[1] = var1;
             var1 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var3 = _closure2_slot0;
                     var1 = var3.getGuildId;
                     var6 = var1.bind(var3)();
                     var1 = var3.isThread;
                     var1 = var1.bind(var3)();
-                    if(var1) { _fun0003_ip = 60; continue _fun0003 }
- 33:
+                    if(var1) { _fun0003_ip = 4; continue _fun0003 }
+case 5:
                     var5 = _closure1_slot7;
                     var4 = var5.isChannelMuted;
                     var1 = _closure2_slot0;
                     var1 = var1.id;
                     var1 = var4.bind(var5)(var6, var1);
-                    _fun0003_ip = 84; continue _fun0003;
- 60:
+                    _fun0003_ip = 6; continue _fun0003;
+case 4:
                     var4 = _closure1_slot6;
                     var3 = var4.isMuted;
                     var2 = _closure2_slot0;
                     var2 = var2.id;
                     var1 = var3.bind(var4)(var2);
- 84:
+case 6:
                     return var1;
                 }
             };
@@ -425,10 +425,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var7.bind(var5)(var1);
             var1 = var1.bind(var5)(var4);
             var3 = !var3;
-            if(!var3) { _fun0002_ip = 111; continue _fun0002 }
- 108:
+            if(!var3) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
             var3 = !var1;
- 111:
+case 7:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var1 = 12;
@@ -450,11 +450,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var9.useSelectedTimeRecurringDismissibleContent;
             var1 = null;
             var7 = null;
-            if(!var4) { _fun0002_ip = 245; continue _fun0002 }
- 208:
+            if(!var4) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
             var7 = null;
-            if(!var3) { _fun0002_ip = 245; continue _fun0002 }
- 213:
+            if(!var3) { _fun0002_ip = 9; continue _fun0002 }
+case 11:
             var4 = _closure1_slot0;
             var10 = _closure1_slot2;
             var3 = 24;
@@ -462,7 +462,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.bind(var5)(var3);
             var3 = var3.DismissibleContent;
             var7 = var3.NOTIFICATION_NUDGE_CHAT_BOTTOM_BANNER;
- 245:
+case 9:
             var4 = {};
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
@@ -472,10 +472,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var11.getNotificationNudgeCooldownMs;
             var13 = var1 == var12;
             var3 = undefined;
-            if(var13) { _fun0002_ip = 288; continue _fun0002 }
- 282:
+            if(var13) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
             var3 = var12.timing;
- 288:
+case 12:
             var3 = var10.bind(var11)(var3);
             var4['cooldownDurationMs'] = var3;
             var14 = true;
@@ -500,8 +500,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.DismissibleContent;
             var3 = var3.NOTIFICATION_NUDGE_CHAT_BOTTOM_BANNER;
             var1 = null;
-            if(!(var4 === var3)) { _fun0002_ip = 411; continue _fun0002 }
- 383:
+            if(!(var4 === var3)) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
             var4 = _closure1_slot13;
             var3 = _closure1_slot16;
             var2 = {};
@@ -515,7 +515,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var2['onDismiss'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 411:
+case 14:
             return var1;
         }
     };

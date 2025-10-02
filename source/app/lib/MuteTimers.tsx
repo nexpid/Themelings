@@ -66,19 +66,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var6 = function value(arg1, arg2, arg3) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var5 = arg1;
                 var3 = arg2;
                 var1 = null;
-                if(!(var1 != var5)) { _fun0001_ip = 176; continue _fun0001 }
- 15:
-                if(!(var1 != var3)) { _fun0001_ip = 172; continue _fun0001 }
- 22:
+                if(!(var1 != var5)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+                if(!(var1 != var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var2 = var3.end_time;
                 var2 = var1 == var2;
                 var9 = null;
-                if(var2) { _fun0001_ip = 100; continue _fun0001 }
- 37:
+                if(var2) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                 var2 = global;
                 var6 = var2.Date;
                 var11 = var3.end_time;
@@ -93,14 +93,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var4.now;
                 var2 = var2.bind(var4)();
                 var9 = var3 - var2;
- 100:
+case 6:
                 var1 = var1 != var9;
-                if(!var1) { _fun0001_ip = 170; continue _fun0001 }
- 107:
+                if(!var1) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
                 var7 = 0;
                 var2 = var9 <= var7;
-                if(var2) { _fun0001_ip = 167; continue _fun0001 }
- 116:
+                if(var2) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
                 var3 = this;
                 var4 = var3.timers;
                 var3 = global;
@@ -113,14 +113,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var8.bind(var6)(var3, var7);
                 var4[var5] = var3;
                 var2 = false;
- 167:
+case 10:
                 var1 = var2;
- 170:
+case 8:
                 return var1;
- 172:
+case 4:
                 var1 = false;
                 return var1;
- 176:
+case 2:
                 var1 = false;
                 return var1;
             }
@@ -132,18 +132,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['key'] = var6;
         var5 = function value(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var2 = arg1;
                 var1 = this;
                 var3 = null;
                 var3 = var3 != var2;
-                if(!var3) { _fun0002_ip = 25; continue _fun0002 }
- 15:
+                if(!var3) { _fun0002_ip = 12; continue _fun0002 }
+case 3:
                 var4 = var1.timers;
                 var3 = var2 in var4;
- 25:
-                if(!var3) { _fun0002_ip = 63; continue _fun0002 }
- 28:
+case 12:
+                if(!var3) { _fun0002_ip = 13; continue _fun0002 }
+case 14:
                 var3 = global;
                 var5 = var3.clearTimeout;
                 var3 = var1.timers;
@@ -152,7 +152,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var5.bind(var3)(var4);
                 var1 = var1.timers;
                 var1 = delete var1[var2];
- 63:
+case 13:
                 var1 = undefined;
                 return var1;
             }
@@ -174,23 +174,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['default'] = var4;
     var4 = function computeIsMuted(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = var2.muted;
             var4 = var2.mute_config;
             var2 = !var1;
             var1 = !var2;
-            if(var2) { _fun0003_ip = 113; continue _fun0003 }
- 24:
+            if(var2) { _fun0003_ip = 15; continue _fun0003 }
+case 16:
             var5 = null;
             var2 = var5 == var4;
-            if(var2) { _fun0003_ip = 43; continue _fun0003 }
- 33:
+            if(var2) { _fun0003_ip = 17; continue _fun0003 }
+case 18:
             var3 = var4.end_time;
             var2 = var5 == var3;
- 43:
-            if(var2) { _fun0003_ip = 110; continue _fun0003 }
- 46:
+case 17:
+            if(var2) { _fun0003_ip = 19; continue _fun0003 }
+case 20:
             var3 = global;
             var6 = var3.Date;
             var7 = var4.end_time;
@@ -206,34 +206,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = new var8[var3](var7);
             var3 = var3 instanceof Object ? var3 : var5;
             var2 = var4 >= var3;
- 110:
+case 19:
             var1 = var2;
- 113:
+case 15:
             return var1;
         }
     };
     var3['computeIsMuted'] = var4;
     var2 = function isTemporarilyMuted(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = var2.muted;
             var3 = var2.mute_config;
             var2 = !var1;
             var1 = !var2;
-            if(var2) { _fun0004_ip = 30; continue _fun0004 }
- 24:
+            if(var2) { _fun0004_ip = 21; continue _fun0004 }
+case 16:
             var2 = null;
             var1 = var2 != var3;
- 30:
-            if(!var1) { _fun0004_ip = 45; continue _fun0004 }
- 33:
+case 21:
+            if(!var1) { _fun0004_ip = 22; continue _fun0004 }
+case 18:
             var4 = var3.end_time;
             var2 = null;
             var1 = var2 != var4;
- 45:
-            if(!var1) { _fun0004_ip = 112; continue _fun0004 }
- 48:
+case 22:
+            if(!var1) { _fun0004_ip = 23; continue _fun0004 }
+case 24:
             var2 = global;
             var5 = var2.Date;
             var6 = var3.end_time;
@@ -249,7 +249,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = new var7[var2](var6);
             var2 = var2 instanceof Object ? var2 : var4;
             var1 = var3 >= var2;
- 112:
+case 23:
             return var1;
         }
     };

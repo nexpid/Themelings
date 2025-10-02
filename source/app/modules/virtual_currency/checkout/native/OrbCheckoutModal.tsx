@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function OrbCheckoutModalContent(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var9 = var1.orbBalance;
             var2 = _closure1_slot0;
@@ -30,8 +30,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = {};
             var12 = null;
             var7 = var12 != var11;
-            if(!var7) { _fun0001_ip = 136; continue _fun0001 }
- 89:
+            if(!var7) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var10 = _closure1_slot6;
             var8 = _closure1_slot0;
             var13 = _closure1_slot2;
@@ -43,7 +43,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var11.message;
             var5['error'] = var11;
             var7 = var10.bind(var4)(var8, var5);
- 136:
+case 2:
             var5 = new Array(3);
             var5[0] = var7;
             var11 = _closure1_slot6;
@@ -56,16 +56,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = {};
             var15 = var12 == var14;
             var13 = undefined;
-            if(var15) { _fun0001_ip = 191; continue _fun0001 }
- 185:
+            if(var15) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var13 = var14.product;
- 191:
+case 4:
             var14 = var12 != var13;
             var12 = null;
-            if(!var14) { _fun0001_ip = 203; continue _fun0001 }
- 200:
+            if(!var14) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var12 = var13;
- 203:
+case 6:
             var7['product'] = var12;
             var7 = var11.bind(var4)(var8, var7);
             var5[1] = var7;
@@ -152,7 +152,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot9 = var4;
     var4 = function OrbCheckoutModalScreen() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
             var1 = 2;
@@ -180,21 +180,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5[0] = var2;
             var2 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var3 = _closure2_slot1;
                     var2 = null;
                     var3 = var2 != var3;
-                    if(!var3) { _fun0003_ip = 29; continue _fun0003 }
- 16:
+                    if(!var3) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
                     var4 = _closure2_slot3;
                     var4 = var4.current;
                     var3 = var2 !== var4;
- 29:
-                    if(!var3) { _fun0003_ip = 42; continue _fun0003 }
- 32:
+case 8:
+                    if(!var3) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
                     var1 = _closure2_slot3;
                     var1['current'] = var2;
- 42:
+case 10:
                     var1 = undefined;
                     return var1;
                 }
@@ -203,10 +203,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.current;
             var2 = null;
             var15 = var3;
-            if(!(var2 != var1)) { _fun0002_ip = 144; continue _fun0002 }
- 141:
+            if(!(var2 != var1)) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
             var15 = var1;
- 144:
+case 12:
             var3 = _closure1_slot7;
             var7 = _closure1_slot0;
             var10 = _closure1_slot2;

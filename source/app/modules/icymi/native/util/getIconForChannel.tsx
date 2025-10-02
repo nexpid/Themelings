@@ -27,33 +27,33 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function getIconForChannel(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var3 = var1.type;
             var2 = _closure1_slot2;
             var2 = var2.GUILD_ANNOUNCEMENT;
-            if(!(var2 !== var3)) { _fun0001_ip = 284; continue _fun0001 }
- 28:
+            if(!(var2 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = _closure1_slot2;
             var2 = var2.GUILD_VOICE;
-            if(!(var2 !== var3)) { _fun0001_ip = 254; continue _fun0001 }
- 45:
+            if(!(var2 !== var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = _closure1_slot2;
             var2 = var2.GUILD_STAGE_VOICE;
-            if(!(var2 !== var3)) { _fun0001_ip = 224; continue _fun0001 }
- 62:
+            if(!(var2 !== var3)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var2 = _closure1_slot2;
             var2 = var2.GUILD_TEXT;
-            if(!(var2 !== var3)) { _fun0001_ip = 194; continue _fun0001 }
- 76:
+            if(!(var2 !== var3)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var2 = _closure1_slot2;
             var2 = var2.GUILD_FORUM;
-            if(!(var2 !== var3)) { _fun0001_ip = 164; continue _fun0001 }
- 90:
+            if(!(var2 !== var3)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var2 = _closure1_slot2;
             var2 = var2.GUILD_MEDIA;
-            if(!(var2 !== var3)) { _fun0001_ip = 134; continue _fun0001 }
- 104:
+            if(!(var2 !== var3)) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
             var2 = 4;
@@ -62,7 +62,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4.bind(var2)(var3);
             var2 = var2.TextIcon;
             return var2;
- 134:
+case 12:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
             var2 = 6;
@@ -71,7 +71,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4.bind(var2)(var3);
             var2 = var2.ImageIcon;
             return var2;
- 164:
+case 10:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
             var2 = 5;
@@ -80,7 +80,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4.bind(var2)(var3);
             var2 = var2.ForumIcon;
             return var2;
- 194:
+case 8:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
             var2 = 4;
@@ -89,7 +89,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4.bind(var2)(var3);
             var2 = var2.TextIcon;
             return var2;
- 224:
+case 6:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
             var2 = 3;
@@ -98,7 +98,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4.bind(var2)(var3);
             var2 = var2.StageIcon;
             return var2;
- 254:
+case 4:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
             var2 = 2;
@@ -107,7 +107,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4.bind(var2)(var3);
             var2 = var2.VoiceNormalIcon;
             return var2;
- 284:
+case 2:
             var3 = _closure1_slot0;
             var2 = _closure1_slot1;
             var1 = 1;

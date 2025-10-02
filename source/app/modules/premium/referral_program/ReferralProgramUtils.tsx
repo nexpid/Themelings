@@ -45,7 +45,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var7)(var5);
     var5 = function getReferralTrialOfferExpirationCopy(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var7 = global;
             var2 = var7.Date;
             var1 = var2.now;
@@ -62,10 +62,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.HOUR;
             var9 = var4 / var3;
             var6 = 24;
-            if(!(!(var9 > var6))) { _fun0001_ip = 254; continue _fun0001 }
- 75:
-            if(!(!(var9 >= var1))) { _fun0001_ip = 170; continue _fun0001 }
- 79:
+            if(!(!(var9 > var6))) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            if(!(!(var9 >= var1))) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = _closure1_slot0;
             var10 = _closure1_slot2;
             var1 = 2;
@@ -85,8 +85,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var11.bind(var12)(var10);
             var1['numMinutes'] = var10;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0001_ip = 252; continue _fun0001;
- 170:
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
             var4 = _closure1_slot0;
             var11 = _closure1_slot2;
             var3 = 2;
@@ -104,9 +104,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var11.bind(var12)(var9);
             var3['numHours'] = var11;
             var1 = var5.bind(var10)(var4, var3);
- 252:
-            _fun0001_ip = 340; continue _fun0001;
- 254:
+case 6:
+            _fun0001_ip = 7; continue _fun0001;
+case 2:
             var3 = _closure1_slot0;
             var10 = _closure1_slot2;
             var2 = 2;
@@ -125,7 +125,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var7.bind(var8)(var6);
             var2['numDays'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 340:
+case 7:
             return var1;
         }
     };
@@ -166,12 +166,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['markReferralProgramBadgeAcknowledged'] = var5;
     var5 = function(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var3 = var1.trialOffer;
             var1 = null;
-            if(!(var1 != var3)) { _fun0002_ip = 148; continue _fun0002 }
- 18:
+            if(!(var1 != var3)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var1 = var3.referrer_id;
             var8 = undefined;
             var1 = var8 !== var1;
@@ -198,16 +198,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var5;
             var2 = new var11[var2](var10);
             var2 = var2 instanceof Object ? var2 : var5;
-            if(!var1) { _fun0002_ip = 139; continue _fun0002 }
- 136:
+            if(!var1) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
             var1 = var4;
- 139:
-            if(!var1) { _fun0002_ip = 146; continue _fun0002 }
- 142:
+case 10:
+            if(!var1) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
             var1 = var2 >= var3;
- 146:
+case 12:
             return var1;
- 148:
+case 8:
             var1 = false;
             return var1;
         }
@@ -233,7 +233,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['isReferralProgramPopoverSeen'] = var4;
     var2 = function() {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var1 = 6;
@@ -259,20 +259,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var3 = var6.bind(var7)(var5, var3);
-            if(!var1) { _fun0003_ip = 95; continue _fun0003 }
- 91:
+            if(!var1) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
             var1 = var4 === var2;
- 95:
-            if(!var1) { _fun0003_ip = 104; continue _fun0003 }
- 98:
+case 14:
+            if(!var1) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
             var2 = null;
             var1 = var2 !== var3;
- 104:
-            if(!var1) { _fun0003_ip = 113; continue _fun0003 }
- 107:
+case 16:
+            if(!var1) { _fun0003_ip = 18; continue _fun0003 }
+case 19:
             var2 = 0;
             var1 = var3 > var2;
- 113:
+case 18:
             return var1;
         }
     };

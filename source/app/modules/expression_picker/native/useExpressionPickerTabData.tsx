@@ -34,7 +34,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useExpressionPickerTabData(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var8 = var2.expressionType;
             var7 = var2.expressionPickerTabs;
@@ -45,12 +45,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = 0;
             var4 = var4 >= var3;
             var5 = 0;
-            if(!var4) { _fun0001_ip = 65; continue _fun0001 }
- 50:
+            if(!var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = _closure1_slot3;
             var4 = var6.indexOf;
             var5 = var4.bind(var6)(var8);
- 65:
+case 2:
             var6 = _closure1_slot2;
             var4 = var6.useMemo;
             var2 = new Array(1);
@@ -166,13 +166,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = {};
             var1['expressionPickerSelectedIndex'] = var5;
             var6 = var4.length;
-            if(!(!(var5 < var6))) { _fun0001_ip = 129; continue _fun0001 }
- 123:
+            if(!(!(var5 < var6))) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var3 = var4[var3];
-            _fun0001_ip = 133; continue _fun0001;
- 129:
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
             var3 = var4[var5];
- 133:
+case 6:
             var3 = var3.viewType;
             var1['expressionPickerViewType'] = var3;
             var1['expressionPickerTabStrings'] = var2;

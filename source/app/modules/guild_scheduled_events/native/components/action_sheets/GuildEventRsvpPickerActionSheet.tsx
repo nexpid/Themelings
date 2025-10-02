@@ -72,7 +72,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function GuildEventRsvpPickerActionSheet(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = var2.event;
             var _closure2_slot0 = var1;
@@ -112,26 +112,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var3.bind(var5)(var1, var2);
             var3 = var2 == var1;
             var2 = undefined;
-            if(var3) { _fun0001_ip = 180; continue _fun0001 }
- 174:
+            if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var1.response;
- 180:
+case 2:
             var1 = _closure1_slot6;
             var1 = var1.INTERESTED;
-            if(!(var2 !== var1)) { _fun0001_ip = 206; continue _fun0001 }
- 194:
+            if(!(var2 !== var1)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = _closure1_slot6;
             var2 = var1.INTERESTED;
-            _fun0001_ip = 216; continue _fun0001;
- 206:
+            _fun0001_ip = 6; continue _fun0001;
+case 4:
             var1 = _closure1_slot6;
             var2 = var1.UNINTERESTED;
- 216:
+case 6:
             _closure2_slot5 = var2;
             var1 = _closure1_slot6;
             var1 = var1.INTERESTED;
-            if(!(var2 !== var1)) { _fun0001_ip = 293; continue _fun0001 }
- 234:
+            if(!(var2 !== var1)) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
             var1 = 8;
@@ -144,8 +144,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.t;
             var1 = var1.8MPCVl;
             var7 = var2.bind(var3)(var1);
-            _fun0001_ip = 350; continue _fun0001;
- 293:
+            _fun0001_ip = 9; continue _fun0001;
+case 7:
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
             var1 = 8;
@@ -158,7 +158,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.t;
             var1 = var1.WtOReX;
             var7 = var2.bind(var3)(var1);
- 350:
+case 9:
             var3 = _closure1_slot7;
             var16 = _closure1_slot0;
             var17 = _closure1_slot2;
@@ -232,7 +232,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = {};
             var13 = function onPress() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var6 = _closure2_slot4;
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot2;
@@ -244,10 +244,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var4.SERIES;
                     var5 = null;
                     var10 = null;
-                    if(!(var6 !== var4)) { _fun0002_ip = 56; continue _fun0002 }
- 52:
+                    if(!(var6 !== var4)) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
                     var10 = _closure2_slot1;
- 56:
+case 10:
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot2;
                     var4 = 15;
@@ -262,11 +262,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var13 = var10;
                     var4 = var15[var8](var14, var13, var12, var11, var10);
                     var4 = _closure2_slot3;
-                    if(!(var5 != var4)) { _fun0002_ip = 125; continue _fun0002 }
- 117:
+                    if(!(var5 != var4)) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
                     var3 = _closure2_slot3;
                     var3 = var3.bind(var1)();
- 125:
+case 12:
                     var3 = _closure1_slot1;
                     var4 = _closure1_slot2;
                     var2 = 16;

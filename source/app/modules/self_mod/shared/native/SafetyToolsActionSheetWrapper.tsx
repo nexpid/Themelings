@@ -38,7 +38,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function SafetyToolsActionSheetWrapper(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var10 = var2.headerTitle;
             var11 = var2.hasHeaderBack;
@@ -76,15 +76,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[1] = var15;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var3 = _closure2_slot2;
                     var2 = null;
-                    if(!(var2 == var3)) { _fun0002_ip = 23; continue _fun0002 }
- 13:
+                    if(!(var2 == var3)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var2 = _closure2_slot1;
                     var1 = undefined;
                     var1 = var2.bind(var1)();
- 23:
+case 2:
                     var1 = undefined;
                     return var1;
                 }
@@ -92,8 +92,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var4.bind(var8)(var1, var3);
             var1 = null;
             var2 = var1 != var2;
-            if(!var2) { _fun0001_ip = 271; continue _fun0001 }
- 161:
+            if(!var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var4 = _closure1_slot5;
             var3 = _closure1_slot0;
             var15 = _closure1_slot2;
@@ -117,7 +117,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['header'] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 271:
+case 4:
             return var1;
         }
     };

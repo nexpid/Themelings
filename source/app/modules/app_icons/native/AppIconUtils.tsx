@@ -1,7 +1,7 @@
 // app/modules/app_icons/native/AppIconUtils.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
         var6 = require;
         var9 = metroImportDefault;
         var3 = exports;
@@ -35,37 +35,37 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = function* () {
                 var1 = function* anon_0_() {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0002_ip = 123; continue _fun0002 }
- 7: // try_start_0
+                        if(var2) { _fun0002_ip = 2; continue _fun0002 }
+case 3: // try_start_0
                         var4 = _closure1_slot13;
                         var2 = null;
                         var4 = var2 == var4;
                         var5 = undefined;
                         var2 = undefined;
-                        if(var4) { _fun0002_ip = 43; continue _fun0002 }
- 27:
+                        if(var4) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                         var4 = _closure1_slot13;
                         var3 = var4.getCurrentIcon;
                         var2 = var3.bind(var4)();
- 43:
+case 4:
                         SaveGenerator(address=47);
- 45:
+case 6:
                         return var2;
- 47:
+case 7:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                        if(var3) { _fun0002_ip = 72; continue _fun0002 }
- 53:
+                        if(var3) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                         var4 = _closure2_slot0;
                         var3 = var2.id;
                         var3 = var4.bind(var5)(var3);
- 70: // try_end0
-                        _fun0002_ip = 118; continue _fun0002;
- 72:
+case 10: // try_end0
+                        _fun0002_ip = 11; continue _fun0002;
+case 8:
                         return var2;
- 75: // catch_target0
+case 12: // catch_target0
                         CatchBlockStart(arg_register=5);
                         var4 = _closure1_slot12;
                         var3 = var4.warn;
@@ -75,10 +75,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = 'Error fetching current app icon: ';
                         var2 = var5.bind(var2)(var6);
                         var2 = var3.bind(var4)(var2);
- 118:
+case 11:
                         var2 = undefined;
                         return var2;
- 123:
+case 2:
                         return var1;
                     }
                 };
@@ -130,33 +130,33 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = function* (arg1, arg2) {
                 var1 = function* anon_0_(arg1, arg2) {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0003_ip = 361; continue _fun0003 }
- 10:
+                        if(var2) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
                         var10 = arg1;
                         var9 = arg2;
- 16: // try_start_0
+case 15: // try_start_0
                         var2 = _closure1_slot13;
                         var7 = null;
                         var3 = var7 == var2;
                         var12 = undefined;
                         var2 = undefined;
-                        if(var3) { _fun0003_ip = 54; continue _fun0003 }
- 36:
+                        if(var3) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
                         var5 = _closure1_slot13;
                         var4 = var5.setIcon;
                         var3 = var10;
                         var2 = var4.bind(var5)(var3);
- 54:
+case 16:
                         SaveGenerator(address=58);
- 56:
+case 18:
                         return var2;
- 58:
+case 19:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                        if(var3) { _fun0003_ip = 210; continue _fun0003 }
- 67:
+                        if(var3) { _fun0003_ip = 20; continue _fun0003 }
+case 21:
                         var4 = _closure1_slot1;
                         var13 = _closure1_slot2;
                         var3 = 12;
@@ -183,18 +183,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var9 = var9.FreemiumAppIconIds;
                         var9 = var9.DEFAULT;
                         var7 = null;
-                        if(!(var10 !== var9)) { _fun0003_ip = 192; continue _fun0003 }
- 182:
+                        if(!(var10 !== var9)) { _fun0003_ip = 22; continue _fun0003 }
+case 23:
                         var8 = _closure1_slot11;
                         var7 = var8.TIER_2;
- 192:
+case 22:
                         var3['icon_premium_tier'] = var7;
                         var3 = var5.bind(var6)(var4, var3);
- 205: // try_end0
-                        _fun0003_ip = 356; continue _fun0003;
- 210:
+case 24: // try_end0
+                        _fun0003_ip = 25; continue _fun0003;
+case 20:
                         return var2;
- 213: // catch_target0
+case 26: // catch_target0
                         CatchBlockStart(arg_register=5);
                         var4 = _closure1_slot1;
                         var12 = _closure1_slot2;
@@ -227,10 +227,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = 'Error changing users app icon: ';
                         var2 = var5.bind(var2)(var6);
                         var2 = var3.bind(var4)(var2);
- 356:
+case 25:
                         var2 = undefined;
                         return var2;
- 361:
+case 13:
                         return var1;
                     }
                 };
@@ -308,16 +308,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = var6.bind(var1)(var8);
         var8 = var9.isAndroid;
         var8 = var8.bind(var9)();
-        if(var8) { _fun0001_ip = 321; continue _fun0001 }
- 311:
+        if(var8) { _fun0001_ip = 27; continue _fun0001 }
+case 28:
         var5 = var5.DCDIconManager;
-        _fun0001_ip = 338; continue _fun0001;
- 321:
+        _fun0001_ip = 29; continue _fun0001;
+case 27:
         var8 = 9;
         var8 = var7[var8];
         var8 = var6.bind(var1)(var8);
         var5 = var8.default;
- 338:
+case 29:
         var _closure1_slot13 = var5;
         var5 = 18;
         var5 = var7[var5];
@@ -381,31 +381,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = function* () {
                     var1 = function* anon_0_() {
                         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(var2) { _fun0004_ip = 340; continue _fun0004 }
- 12:
+                            if(var2) { _fun0004_ip = 30; continue _fun0004 }
+case 31:
                             var2 = undefined;
                             var _closure5_slot0 = var2;
- 18: // try_start_0
+case 32: // try_start_0
                             var5 = _closure1_slot13;
                             var3 = null;
                             var5 = var3 == var5;
                             var3 = undefined;
-                            if(var5) { _fun0004_ip = 52; continue _fun0004 }
- 36:
+                            if(var5) { _fun0004_ip = 33; continue _fun0004 }
+case 17:
                             var7 = _closure1_slot13;
                             var5 = var7.getAvailableIcons;
                             var3 = var5.bind(var7)();
- 52:
+case 33:
                             SaveGenerator(address=56);
- 54:
+case 16:
                             return var3;
- 56:
+case 18:
                             ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                            if(var5) { _fun0004_ip = 193; continue _fun0004 }
- 65:
+                            if(var5) { _fun0004_ip = 34; continue _fun0004 }
+case 35:
                             var7 = var3.map;
                             var5 = function(arg1) {
                                 var1 = arg1;
@@ -450,11 +450,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var15 = var4;
                             var6 = arraySpread(var15, var14, var13);
                             var4 = var5.bind(var2)(var4);
- 188: // try_end0
-                            _fun0004_ip = 337; continue _fun0004;
- 193:
+case 36: // try_end0
+                            _fun0004_ip = 37; continue _fun0004;
+case 34:
                             return var3;
- 196: // catch_target0
+case 38: // catch_target0
                             CatchBlockStart(arg_register=6);
                             var5 = _closure1_slot1;
                             var12 = _closure1_slot2;
@@ -486,9 +486,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var3 = 'Error fetching available app icons: ';
                             var3 = var6.bind(var3)(var7);
                             var3 = var4.bind(var5)(var3);
- 337:
+case 37:
                             return var2;
- 340:
+case 30:
                             return var1;
                         }
                     };

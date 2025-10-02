@@ -133,7 +133,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['preview'] = var2;
             var2 = function(arg1, arg2) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     var1 = arg1;
                     var4 = arg2;
                     var5 = _closure2_slot0;
@@ -149,34 +149,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = var7.isPremiumCollectiblesProduct;
                     var3 = null;
                     var2 = var5;
-                    if(!(var3 == var2)) { _fun0001_ip = 89; continue _fun0001 }
- 69:
+                    if(!(var3 == var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var10 = _closure2_slot2;
                     var9 = var10.get;
                     var8 = var4.skuId;
                     var2 = var9.bind(var10)(var8);
- 89:
+case 2:
                     var2 = var6.bind(var7)(var2);
-                    if(var2) { _fun0001_ip = 140; continue _fun0001 }
- 97:
-                    if(!(var3 == var5)) { _fun0001_ip = 122; continue _fun0001 }
- 101:
-                    if(var2) { _fun0001_ip = 156; continue _fun0001 }
- 104:
+                    if(var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+                    if(!(var3 == var5)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+                    if(var2) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
                     var3 = var1.preview;
                     var2 = var3.push;
                     var2 = var2.bind(var3)(var4);
-                    _fun0001_ip = 156; continue _fun0001;
- 122:
+                    _fun0001_ip = 8; continue _fun0001;
+case 6:
                     var3 = var1.purchase;
                     var2 = var3.push;
                     var2 = var2.bind(var3)(var4);
-                    _fun0001_ip = 156; continue _fun0001;
- 140:
+                    _fun0001_ip = 8; continue _fun0001;
+case 4:
                     var3 = var1.premium_purchase;
                     var2 = var3.push;
                     var2 = var2.bind(var3)(var4);
- 156:
+case 8:
                     return var1;
                 }
             };

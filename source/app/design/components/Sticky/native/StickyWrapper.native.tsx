@@ -65,14 +65,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['StickyContext'] = var4;
     var2 = function StickyWrapper(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var12 = var2.initiallyShowHeader;
             var4 = undefined;
-            if(!(var12 === var4)) { _fun0001_ip = 19; continue _fun0001 }
- 17:
+            if(!(var12 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var12 = true;
- 19:
+case 2:
             var7 = var2.children;
             var8 = var2.pointerEvents;
             var11 = var2.style;
@@ -125,18 +125,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var13.useAnimatedStyle;
             var3 = function H() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var1 = {'position': 'relative', 'height': '100%', 'width': '100%'};
                     var4 = _closure2_slot0;
                     var2 = var4.get;
                     var4 = var2.bind(var4)();
                     var2 = 0;
-                    if(!var4) { _fun0002_ip = 48; continue _fun0002 }
- 35:
+                    if(!var4) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var4 = _closure2_slot2;
                     var3 = var4.get;
                     var2 = var3.bind(var4)();
- 48:
+case 4:
                     var1['paddingTop'] = var2;
                     return var1;
                 }

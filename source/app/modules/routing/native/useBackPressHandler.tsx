@@ -44,15 +44,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var7)(var5);
     var4 = function useBackPressHandler(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var6 = arguments[1];
             var _closure2_slot0 = var4;
             var1 = undefined;
-            if(!(var6 === var1)) { _fun0001_ip = 20; continue _fun0001 }
- 18:
+            if(!(var6 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var6 = true;
- 20:
+case 2:
             var _closure2_slot1 = var6;
             var _closure2_slot2 = var1;
             var5 = _closure1_slot2;
@@ -73,7 +73,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[0] = var6;
             var2 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot1;
                     var1 = 2;
@@ -82,11 +82,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var5.bind(var1)(var4);
                     var4 = var5.isIOS;
                     var4 = var4.bind(var5)();
-                    if(var4) { _fun0002_ip = 88; continue _fun0002 }
- 40:
+                    if(var4) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var4 = _closure2_slot1;
-                    if(!var4) { _fun0002_ip = 88; continue _fun0002 }
- 50:
+                    if(!var4) { _fun0002_ip = 4; continue _fun0002 }
+case 6:
                     var6 = _closure1_slot3;
                     var5 = var6.addEventListener;
                     var4 = 'hardwareBackPress';
@@ -105,7 +105,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     };
                     return var2;
- 88:
+case 4:
                     return var1;
                 }
             };

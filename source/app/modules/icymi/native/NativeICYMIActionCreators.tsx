@@ -39,11 +39,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = function* () {
             var1 = function* anon_0_() {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 468; continue _fun0001 }
- 10:
+                    if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
                     var2 = 2;
@@ -53,8 +53,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var5.icymiEnabled;
                     var3 = 'customScores';
                     var3 = var4.bind(var5)(var3);
-                    if(!var3) { _fun0001_ip = 465; continue _fun0001 }
- 58: // try_start_0
+                    if(!var3) { _fun0001_ip = 4; continue _fun0001 }
+case 5: // try_start_0
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot2;
                     var3 = 3;
@@ -73,8 +73,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = null;
                     var10 = var8 == var10;
                     var8 = undefined;
-                    if(var10) { _fun0001_ip = 156; continue _fun0001 }
- 133:
+                    if(var10) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                     var12 = _closure2_slot1;
                     var11 = var12.map;
                     var10 = function(arg1) {
@@ -87,7 +87,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     };
                     var8 = var11.bind(var12)(var10);
- 156:
+case 6:
                     var7['channel_scores'] = var8;
                     var8 = _closure2_slot2;
                     var7['guild_score'] = var8;
@@ -96,12 +96,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3['rejectWithError'] = var7;
                     var3 = var4.bind(var5)(var3);
                     SaveGenerator(address=191);
- 189:
+case 8:
                     return var3;
- 191:
+case 9:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(var4) { _fun0001_ip = 362; continue _fun0001 }
- 200:
+                    if(var4) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
                     var5 = _closure1_slot1;
                     var12 = _closure1_slot2;
                     var4 = 4;
@@ -138,11 +138,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = var9.bind(var10)(var8);
                     var4['content'] = var8;
                     var4 = var5.bind(var7)(var4);
- 360: // try_end0
-                    _fun0001_ip = 465; continue _fun0001;
- 362:
+case 12: // try_end0
+                    _fun0001_ip = 4; continue _fun0001;
+case 10:
                     return var3;
- 365: // catch_target0
+case 13: // catch_target0
                     CatchBlockStart(arg_register=2);
                     var4 = _closure1_slot1;
                     var10 = _closure1_slot2;
@@ -166,9 +166,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = var7.bind(var8)(var6);
                     var3['content'] = var6;
                     var3 = var4.bind(var5)(var3);
- 465:
+case 4:
                     return var2;
- 468:
+case 2:
                     return var1;
                 }
             };

@@ -142,7 +142,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var7)(var5);
     var4 = function GiftCodeRedeemModal(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var6 = arg1;
             var5 = var6.code;
             var _closure2_slot0 = var5;
@@ -190,8 +190,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var9[var4];
             var4 = var7.bind(var6)(var4);
             var11 = var4.bind(var6)(var5, var3);
-            if(!(var1 != var3)) { _fun0001_ip = 334; continue _fun0001 }
- 160:
+            if(!(var1 != var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = function getScreens(arg1) {
                 var1 = arg1;
                 var _closure3_slot0 = var1;
@@ -441,8 +441,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var2.bind(var6)(var3);
             var3 = var1 == var12;
             var2 = null;
-            if(var3) { _fun0001_ip = 332; continue _fun0001 }
- 184:
+            if(var3) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = _closure1_slot5;
             var4 = _closure1_slot0;
             var9 = _closure1_slot2;
@@ -452,8 +452,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var3.Navigator;
             var3 = {};
             var3['screens'] = var7;
-            if(!(var1 == var11)) { _fun0001_ip = 273; continue _fun0001 }
- 225:
+            if(!(var1 == var11)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var9 = {};
             var7 = _closure1_slot6;
             var7 = var7.START;
@@ -466,8 +466,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9['params'] = var7;
             var7 = new Array(1);
             var7[0] = var9;
-            _fun0001_ip = 321; continue _fun0001;
- 273:
+            _fun0001_ip = 8; continue _fun0001;
+case 6:
             var9 = {};
             var8 = _closure1_slot6;
             var8 = var8.ERROR;
@@ -481,12 +481,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = new Array(1);
             var8[0] = var9;
             var7 = var8;
- 321:
+case 8:
             var3['initialRouteStack'] = var7;
             var2 = var5.bind(var6)(var4, var3);
- 332:
+case 4:
             return var2;
- 334:
+case 2:
             return var1;
         }
     };

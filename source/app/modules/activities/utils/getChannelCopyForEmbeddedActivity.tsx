@@ -22,14 +22,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function getChannelCopyForEmbeddedActivity(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var2 = null;
-            if(!(var2 != var1)) { _fun0001_ip = 17; continue _fun0001 }
- 9:
+            if(!(var2 != var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = '';
-            if(!(var2 === var1)) { _fun0001_ip = 78; continue _fun0001 }
- 17:
+            if(!(var2 === var1)) { _fun0001_ip = 4; continue _fun0001 }
+case 2:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var2 = 0;
@@ -43,7 +43,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.t;
             var2 = var2.2YCamp;
             var1 = var3.bind(var4)(var2);
- 78:
+case 4:
             return var1;
         }
     };

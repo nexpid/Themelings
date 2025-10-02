@@ -20,18 +20,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var4.bind(var5)(var2);
     var2 = function getInviteURL() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arguments[0];
             var6 = arguments[1];
             var1 = undefined;
-            if(!(var4 === var1)) { _fun0001_ip = 16; continue _fun0001 }
- 12:
+            if(!(var4 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = '';
- 16:
-            if(!(var6 === var1)) { _fun0001_ip = 22; continue _fun0001 }
- 20:
+case 2:
+            if(!(var6 === var1)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var6 = true;
- 22:
+case 4:
             var1 = global;
             var2 = var1.window;
             var2 = var2.GLOBAL_ENV;
@@ -42,15 +42,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var3.bind(var2)(var4);
             var3 = '';
             var2 = var3;
-            if(!var6) { _fun0001_ip = 107; continue _fun0001 }
- 72:
+            if(!var6) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var6 = var1.location;
             var8 = var6.protocol;
             var6 = var1.HermesInternal;
             var7 = var6.concat;
             var6 = '//';
             var2 = var7.bind(var3)(var8, var6);
- 107:
+case 6:
             var1 = var1.HermesInternal;
             var1 = var1.concat;
             var1 = var1.bind(var3)(var2, var5, var4);

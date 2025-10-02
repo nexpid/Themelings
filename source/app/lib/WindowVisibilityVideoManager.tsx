@@ -9,8 +9,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var7;
     var1 = function _isNativeReflectConstruct() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
- 2: // try_start_0
+case 0:
+case 2: // try_start_0
             var2 = global;
             var3 = var2.Boolean;
             var3 = var3.prototype;
@@ -28,11 +28,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var4)(var2);
             var2 = !var2;
             var _closure2_slot0 = var2;
- 72: // try_end0
-            _fun0001_ip = 76; continue _fun0001;
- 74: // catch_target0
+case 3: // try_end0
+            _fun0001_ip = 4; continue _fun0001;
+case 5: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+case 4:
             var2 = function _isNativeReflectConstruct() {
                 var1 = _closure2_slot0;
                 var1 = !var1;
@@ -87,7 +87,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function(arg1) {
         var4 = function WindowVisibilityVideoManager() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var6 = this;
                 var1 = _closure1_slot3;
                 var5 = _closure2_slot0;
@@ -98,12 +98,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = _closure1_slot5;
                 var1 = _closure1_slot9;
                 var1 = var1.bind(var4)();
-                if(var1) { _fun0002_ip = 64; continue _fun0002 }
- 51:
+                if(var1) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                 var1 = var11.apply;
                 var1 = var1.bind(var11)(var6, var4);
-                _fun0002_ip = 102; continue _fun0002;
- 64:
+                _fun0002_ip = 8; continue _fun0002;
+case 6:
                 var7 = global;
                 var10 = var7.Reflect;
                 var9 = var10.construct;
@@ -112,7 +112,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = var7.constructor;
                 var7 = new Array(0);
                 var1 = var9.bind(var10)(var11, var7, var8);
- 102:
+case 8:
                 var1 = var5.bind(var4)(var6, var1);
                 var _closure3_slot0 = var1;
                 var7 = _closure1_slot0;
@@ -156,7 +156,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1['HIDDEN_WINDOW_DISABLE_VIDEO_DURATION_MS'] = var6;
                 var2 = function() {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                         var1 = _closure3_slot0;
                         var5 = var1.discordVisible;
                         var6 = _closure1_slot1;
@@ -166,8 +166,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var1 = undefined;
                         var2 = var6.bind(var1)(var2);
                         var2 = var2.bind(var1)();
-                        if(!(var5 !== var2)) { _fun0003_ip = 178; continue _fun0003 }
- 49:
+                        if(!(var5 !== var2)) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
                         var2 = _closure3_slot0;
                         var6 = _closure1_slot1;
                         var5 = _closure1_slot2;
@@ -183,8 +183,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = var2.discordVisible;
                         var4 = _closure3_slot0;
                         var3 = var4.disableVideoTimer;
-                        if(var2) { _fun0003_ip = 155; continue _fun0003 }
- 127:
+                        if(var2) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
                         var6 = var3.start;
                         var5 = var4.HIDDEN_WINDOW_DISABLE_VIDEO_DURATION_MS;
                         var2 = function() {
@@ -196,14 +196,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             return var1;
                         };
                         var2 = var6.bind(var3)(var5, var2);
-                        _fun0003_ip = 178; continue _fun0003;
- 155:
+                        _fun0003_ip = 9; continue _fun0003;
+case 11:
                         var2 = var3.stop;
                         var2 = var2.bind(var3)();
                         var3 = var4.setIncomingVideoEnabled;
                         var2 = true;
                         var2 = var3.bind(var4)(var2);
- 178:
+case 9:
                         return var1;
                     }
                 };
@@ -262,13 +262,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5['key'] = var7;
         var6 = function value(arg1) {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                 var2 = arg1;
                 var4 = this;
                 var1 = var4.incomingVideoEnabled;
                 var4['incomingVideoEnabled'] = var2;
-                if(!(var1 !== var2)) { _fun0004_ip = 120; continue _fun0004 }
- 22:
+                if(!(var1 !== var2)) { _fun0004_ip = 13; continue _fun0004 }
+case 14:
                 var5 = var4.logger;
                 var3 = var5.info;
                 var7 = var4.incomingVideoEnabled;
@@ -287,7 +287,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var1.IncomingVideoEnabledChanged;
                 var1 = var4.incomingVideoEnabled;
                 var1 = var3.bind(var4)(var2, var1);
- 120:
+case 13:
                 var1 = undefined;
                 return var1;
             }

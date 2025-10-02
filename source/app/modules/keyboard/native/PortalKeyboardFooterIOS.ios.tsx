@@ -53,16 +53,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function PortalKeyboardFooterIOS(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var15 = var1.animatedSheetIndex;
             var _closure2_slot0 = var15;
             var7 = var1.portalHostName;
             var4 = undefined;
-            if(!(var7 === var4)) { _fun0001_ip = 33; continue _fun0001 }
- 27:
+            if(!(var7 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var7 = 'expression-footer';
- 33:
+case 2:
             var _closure2_slot1 = var4;
             var _closure2_slot2 = var4;
             var _closure2_slot3 = var4;
@@ -95,7 +95,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var11.useAnimatedStyle;
             var9 = function _() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var2 = _closure1_slot0;
                     var1 = _closure1_slot2;
                     var6 = 6;
@@ -115,8 +115,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var2.get;
                     var1 = var1.bind(var2)();
                     var2 = 0;
-                    if(!(!(var1 >= var2))) { _fun0002_ip = 239; continue _fun0002 }
- 104:
+                    if(!(!(var1 >= var2))) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var1 = {};
                     var4 = {};
                     var11 = _closure1_slot0;
@@ -150,8 +150,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = new Array(1);
                     var2[0] = var4;
                     var1['transform'] = var2;
-                    _fun0002_ip = 280; continue _fun0002;
- 239:
+                    _fun0002_ip = 6; continue _fun0002;
+case 4:
                     var2 = {};
                     var4 = {};
                     var6 = _closure2_slot3;
@@ -163,7 +163,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3[0] = var4;
                     var2['transform'] = var3;
                     var1 = var2;
- 280:
+case 6:
                     return var1;
                 }
             };

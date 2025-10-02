@@ -90,7 +90,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function GuildEnableCommunicationAlert(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var24 = var4.guildId;
             var _closure2_slot0 = var24;
@@ -152,11 +152,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = function* () {
                     var1 = function* anon_0_() {
                         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(var2) { _fun0002_ip = 190; continue _fun0002 }
- 10:
+                            if(var2) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                             var4 = _closure1_slot1;
                             var3 = _closure1_slot2;
                             var2 = 12;
@@ -168,12 +168,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var2 = _closure2_slot1;
                             var2 = var5.bind(var6)(var4, var2);
                             SaveGenerator(address=62);
- 60:
+case 4:
                             return var2;
- 62:
+case 5:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                            if(var4) { _fun0002_ip = 187; continue _fun0002 }
- 68:
+                            if(var4) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                             var8 = _closure1_slot1;
                             var9 = _closure1_slot2;
                             var4 = 13;
@@ -201,9 +201,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var4['icon'] = var7;
                             var4 = var5.bind(var6)(var4);
                             return var3;
- 187:
+case 6:
                             return var2;
- 190:
+case 2:
                             return var1;
                         }
                     };
@@ -261,10 +261,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1[var8] = var9;
             var9 = var20 == var5;
             var8 = undefined;
-            if(var9) { _fun0001_ip = 340; continue _fun0001 }
- 334:
+            if(var9) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var8 = var5.onClose;
- 340:
+case 8:
             var5 = 'onClose';
             var1[var5] = var8;
             var5 = 'onCancel';
@@ -319,20 +319,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var21 = var21.bind(var22)(var24, var20, var23);
             var22 = var20 != var21;
             var20 = '';
-            if(!var22) { _fun0001_ip = 588; continue _fun0001 }
- 585:
+            if(!var22) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var20 = var21;
- 588:
+case 10:
             var11['username'] = var20;
             var19 = function countdown() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                     var2 = _closure2_slot3;
                     var1 = null;
                     var1 = var1 != var2;
                     var5 = 0;
-                    if(!var1) { _fun0003_ip = 50; continue _fun0003 }
- 18:
+                    if(!var1) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
                     var1 = global;
                     var3 = var1.Date;
                     var8 = _closure2_slot3;
@@ -341,7 +341,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var9 = var2;
                     var1 = new var9[var3](var8, var7);
                     var5 = var1 instanceof Object ? var1 : var2;
- 50:
+case 12:
                     var4 = _closure1_slot10;
                     var2 = _closure1_slot1;
                     var3 = _closure1_slot2;

@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var7;
     var4 = function openGuildEventDetails(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var10 = var1.eventId;
             var11 = var1.event;
@@ -36,8 +36,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['event'] = var11;
             var3['onCloseActionSheet'] = var2;
             var2 = null;
-            if(!(var2 == var8)) { _fun0001_ip = 150; continue _fun0001 }
- 119:
+            if(!(var2 == var8)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var10 = _closure1_slot0;
             var12 = _closure1_slot2;
             var9 = 6;
@@ -45,13 +45,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var10.bind(var1)(var9);
             var9 = var10.getNextRecurrenceIdInEvent;
             var8 = var9.bind(var10)(var11);
- 150:
+case 2:
             var9 = var2 != var8;
             var2 = undefined;
-            if(!var9) { _fun0001_ip = 162; continue _fun0001 }
- 159:
+            if(!var9) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = var8;
- 162:
+case 4:
             var3['recurrenceId'] = var2;
             var13 = 'stack';
             var17 = var7;
@@ -70,24 +70,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = function* (arg1, arg2) {
             var1 = function* anon_0_(arg1, arg2) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     StartGenerator();
                     var3 = arg1;
                     var7 = arg2;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0002_ip = 100; continue _fun0002 }
- 13:
+                    if(var2) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var2 = global;
                     var4 = var2.Promise;
                     var2 = var4.resolve;
                     var2 = var2.bind(var4)();
                     SaveGenerator(address=35);
- 33:
+case 8:
                     return var2;
- 35:
+case 9:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0002_ip = 97; continue _fun0002 }
- 41:
+                    if(var4) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
                     var5 = _closure1_slot6;
                     var4 = {};
                     var6 = var3.id;
@@ -97,16 +97,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = var3 == var7;
                     var3 = undefined;
                     var6 = undefined;
-                    if(var8) { _fun0002_ip = 84; continue _fun0002 }
- 78:
+                    if(var8) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
                     var6 = var7.recurrenceId;
- 84:
+case 12:
                     var4['recurrenceId'] = var6;
                     var4 = var5.bind(var3)(var4);
                     return var3;
- 97:
+case 10:
                     return var2;
- 100:
+case 6:
                     return var1;
                 }
             };

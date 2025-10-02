@@ -7,24 +7,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var7;
     var4 = function computeGlobalSpoilerDisplay(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var2 = _closure1_slot4;
             var2 = var2.ALWAYS;
-            if(!(var2 !== var3)) { _fun0001_ip = 53; continue _fun0001 }
- 20:
+            if(!(var2 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = _closure1_slot4;
             var2 = var2.IF_MODERATOR;
-            if(!(var2 !== var3)) { _fun0001_ip = 48; continue _fun0001 }
- 34:
+            if(!(var2 !== var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = _closure1_slot4;
             var1 = var1.ON_CLICK;
             var1 = false;
             return var1;
- 48:
+case 4:
             var1 = arg2;
             return var1;
- 53:
+case 2:
             var1 = true;
             return var1;
         }

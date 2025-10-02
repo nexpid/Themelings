@@ -27,7 +27,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useCanSetThumbnail(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg2;
             var3 = arg1;
             var _closure2_slot0 = var3;
@@ -52,22 +52,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = null;
             var5 = var4 == var6;
             var1 = undefined;
-            if(var5) { _fun0001_ip = 88; continue _fun0001 }
- 78:
+            if(var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = var6.isMediaChannel;
             var1 = var5.bind(var6)();
- 88:
-            if(!var1) { _fun0001_ip = 112; continue _fun0001 }
- 91:
+case 2:
+            if(!var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var4 = var4 == var2;
             var3 = undefined;
-            if(var4) { _fun0001_ip = 106; continue _fun0001 }
- 100:
+            if(var4) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var3 = var2.isImage;
- 106:
+case 6:
             var2 = true;
             var1 = var2 === var3;
- 112:
+case 4:
             return var1;
         }
     };

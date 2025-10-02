@@ -20,37 +20,37 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var4.bind(var5)(var2);
     var2 = function getSuggestedContactNameForSuggestion(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg1;
             var6 = arg2;
             var3 = null;
             var5 = var3 == var6;
             var2 = undefined;
             var1 = undefined;
-            if(var5) { _fun0001_ip = 25; continue _fun0001 }
- 19:
+            if(var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var6.contactNames;
- 25:
+case 2:
             var5 = var3 != var1;
             var1 = undefined;
-            if(!var5) { _fun0001_ip = 121; continue _fun0001 }
- 34:
+            if(!var5) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var7 = var3 == var6;
             var5 = undefined;
-            if(var7) { _fun0001_ip = 54; continue _fun0001 }
- 43:
+            if(var7) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var7 = var6.contactNames;
             var5 = var7.length;
- 54:
+case 6:
             var9 = 2;
             var5 = var5 >= var9;
             var1 = undefined;
-            if(!var5) { _fun0001_ip = 121; continue _fun0001 }
- 66:
+            if(!var5) { _fun0001_ip = 4; continue _fun0001 }
+case 8:
             var7 = var3 == var6;
             var5 = undefined;
-            if(var7) { _fun0001_ip = 118; continue _fun0001 }
- 75:
+            if(var7) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var8 = var6.contactNames;
             var7 = var8.slice;
             var6 = 0;
@@ -60,19 +60,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7.bind(var8)(var6);
             var6 = var7.trim;
             var5 = var6.bind(var7)();
- 118:
+case 9:
             var1 = var5;
- 121:
-            if(!(var3 != var1)) { _fun0001_ip = 179; continue _fun0001 }
- 125:
-            if(!(var3 == var4)) { _fun0001_ip = 133; continue _fun0001 }
- 129:
-            if(!(var3 == var1)) { _fun0001_ip = 183; continue _fun0001 }
- 133:
-            if(!(var3 != var4)) { _fun0001_ip = 179; continue _fun0001 }
- 137:
-            if(!(var4 !== var1)) { _fun0001_ip = 179; continue _fun0001 }
- 141:
+case 4:
+            if(!(var3 != var1)) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
+            if(!(var3 == var4)) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
+            if(!(var3 == var1)) { _fun0001_ip = 15; continue _fun0001 }
+case 13:
+            if(!(var3 != var4)) { _fun0001_ip = 11; continue _fun0001 }
+case 16:
+            if(!(var4 !== var1)) { _fun0001_ip = 11; continue _fun0001 }
+case 17:
             var3 = var4.split;
             var6 = ' ';
             var3 = var3.bind(var4)(var6);
@@ -81,12 +81,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var1.split;
             var3 = var3.bind(var1)(var6);
             var3 = var3[var5];
-            if(!(var4 === var3)) { _fun0001_ip = 181; continue _fun0001 }
- 179:
+            if(!(var4 === var3)) { _fun0001_ip = 18; continue _fun0001 }
+case 11:
             return var2;
- 181:
+case 18:
             return var1;
- 183:
+case 15:
             return var1;
         }
     };

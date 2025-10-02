@@ -121,7 +121,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = var7.bind(var8)(var6);
     var6 = function useStageHasMedia(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var7 = arg1;
             var _closure2_slot0 = var7;
             var2 = _closure1_slot5;
@@ -146,10 +146,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var1 = var5.bind(var6)(var4, var1, var3);
-            if(var1) { _fun0001_ip = 86; continue _fun0001 }
- 83:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var2;
- 86:
+case 2:
             return var1;
         }
     };
@@ -157,17 +157,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['useStageHasStream'] = var5;
     var5 = function getStageHasMedia(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var4 = arg1;
             var3 = _closure1_slot6;
             var1 = undefined;
             var1 = var3.bind(var1)(var4);
-            if(var1) { _fun0002_ip = 35; continue _fun0002 }
- 20:
+            if(var1) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var3 = _closure1_slot3;
             var2 = var3.hasVideo;
             var1 = var2.bind(var3)(var4);
- 35:
+case 4:
             return var1;
         }
     };
@@ -175,7 +175,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['getStageHasStream'] = var4;
     var4 = function useIsStageVideoEnabled(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var2 = arg1;
             var _closure2_slot0 = var2;
             var5 = _closure1_slot0;
@@ -198,53 +198,53 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var5)(var2, var1);
             var2 = null;
             var1 = var2 != var3;
-            if(!var1) { _fun0003_ip = 104; continue _fun0003 }
- 71:
+            if(!var1) { _fun0003_ip = 6; continue _fun0003 }
+case 7:
             var5 = var2 == var3;
             var4 = undefined;
-            if(var5) { _fun0003_ip = 86; continue _fun0003 }
- 80:
+            if(var5) { _fun0003_ip = 2; continue _fun0003 }
+case 8:
             var4 = var3.maxStageVideoChannelUsers;
- 86:
+case 2:
             var5 = var2 != var4;
             var3 = 0;
             var2 = 0;
-            if(!var5) { _fun0003_ip = 100; continue _fun0003 }
- 97:
+            if(!var5) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
             var2 = var4;
- 100:
+case 9:
             var1 = var2 > var3;
- 104:
+case 6:
             return var1;
         }
     };
     var3['useIsStageVideoEnabled'] = var4;
     var2 = function isStageVideoEnabled(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var3 = _closure1_slot2;
             var2 = var3.getGuild;
             var1 = arg1;
             var3 = var2.bind(var3)(var1);
             var2 = null;
             var1 = var2 != var3;
-            if(!var1) { _fun0004_ip = 62; continue _fun0004 }
- 29:
+            if(!var1) { _fun0004_ip = 11; continue _fun0004 }
+case 12:
             var5 = var2 == var3;
             var4 = undefined;
-            if(var5) { _fun0004_ip = 44; continue _fun0004 }
- 38:
+            if(var5) { _fun0004_ip = 13; continue _fun0004 }
+case 14:
             var4 = var3.maxStageVideoChannelUsers;
- 44:
+case 13:
             var5 = var2 != var4;
             var3 = 0;
             var2 = 0;
-            if(!var5) { _fun0004_ip = 58; continue _fun0004 }
- 55:
+            if(!var5) { _fun0004_ip = 15; continue _fun0004 }
+case 16:
             var2 = var4;
- 58:
+case 15:
             var1 = var2 > var3;
- 62:
+case 11:
             return var1;
         }
     };

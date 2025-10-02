@@ -49,20 +49,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function FormRoleColorPicker(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var9 = var2.color;
             var4 = undefined;
-            if(!(var9 === var4)) { _fun0001_ip = 23; continue _fun0001 }
- 16:
+            if(!(var9 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var9 = _closure1_slot4;
- 23:
+case 2:
             var _closure2_slot0 = var9;
             var6 = var2.disabled;
-            if(!(var6 === var4)) { _fun0001_ip = 38; continue _fun0001 }
- 36:
+            if(!(var6 === var4)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var6 = false;
- 38:
+case 4:
             var8 = var2.onChange;
             var _closure2_slot1 = var8;
             var5 = _closure1_slot3;

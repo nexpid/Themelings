@@ -14,26 +14,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = function* () {
             var1 = function* anon_0_() {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 224; continue _fun0001 }
- 10:
+                    if(var2) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var2 = _closure1_slot4;
                     var4 = var2.NativePermissionManager;
                     var2 = var4.getNotificationAuthorizationStatus;
                     var2 = var2.bind(var4)();
                     SaveGenerator(address=37);
- 35:
+case 4:
                     return var2;
- 37:
+case 5:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0001_ip = 221; continue _fun0001 }
- 46:
+                    if(var4) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
                     var4 = _closure1_slot6;
                     var4 = var4.UNDETERMINED;
-                    if(!(var2 !== var4)) { _fun0001_ip = 174; continue _fun0001 }
- 60:
+                    if(!(var2 !== var4)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
                     var5 = _closure1_slot1;
                     var6 = _closure1_slot2;
                     var4 = 8;
@@ -49,10 +49,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var9 = _closure1_slot6;
                     var10 = var9.AUTHORIZED;
                     var9 = 0;
-                    if(!(var2 === var10)) { _fun0001_ip = 129; continue _fun0001 }
- 126:
+                    if(!(var2 === var10)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
                     var9 = 1;
- 129:
+case 10:
                     var4['current_status'] = var9;
                     var4 = var7.bind(var8)(var5, var4);
                     var5 = _closure1_slot1;
@@ -62,8 +62,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var5.bind(var6)(var4);
                     var4 = var5.openNotificationSettings;
                     var4 = var4.bind(var5)();
-                    _fun0001_ip = 216; continue _fun0001;
- 174:
+                    _fun0001_ip = 12; continue _fun0001;
+case 8:
                     var5 = _closure1_slot1;
                     var4 = _closure1_slot2;
                     var3 = 7;
@@ -73,7 +73,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var5.requestPermission;
                     var3 = function(arg1) {
                         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                             var3 = arg1;
                             var5 = _closure1_slot1;
                             var4 = _closure1_slot2;
@@ -93,8 +93,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var4['action_location'] = var8;
                             var4['permission_granted'] = var3;
                             var4 = var6.bind(var7)(var5, var4);
-                            if(var3) { _fun0002_ip = 119; continue _fun0002 }
- 89:
+                            if(var3) { _fun0002_ip = 13; continue _fun0002 }
+case 14:
                             var3 = _closure1_slot1;
                             var4 = _closure1_slot2;
                             var2 = 9;
@@ -102,17 +102,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var3 = var3.bind(var1)(var2);
                             var2 = var3.openNotificationSettings;
                             var2 = var2.bind(var3)();
- 119:
+case 13:
                             return var1;
                         }
                     };
                     var3 = var4.bind(var5)(var3);
- 216:
+case 12:
                     var3 = undefined;
                     return var3;
- 221:
+case 6:
                     return var2;
- 224:
+case 2:
                     return var1;
                 }
             };

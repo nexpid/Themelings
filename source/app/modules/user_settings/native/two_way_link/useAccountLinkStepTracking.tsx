@@ -8,12 +8,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var6;
     var1 = function _handleStateChange(arg1, arg2, arg3, arg4) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var7 = arg1;
             var2 = arg2;
             var10 = null;
-            if(!(var10 != var7)) { _fun0001_ip = 137; continue _fun0001 }
- 15:
+            if(!(var10 != var7)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var7.index;
             var5 = _closure1_slot0;
             var6 = _closure1_slot1;
@@ -29,12 +29,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['location_stack'] = var9;
             var9 = var2.current;
             var9 = var10 != var9;
-            if(!var9) { _fun0001_ip = 97; continue _fun0001 }
- 82:
+            if(!var9) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var10 = var7.routeNames;
             var9 = var2.current;
             var8 = var10[var9];
- 97:
+case 4:
             var3['previous_step'] = var8;
             var7 = var7.routeNames;
             var7 = var7[var1];
@@ -43,7 +43,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['platform_type'] = var7;
             var3 = var5.bind(var6)(var4, var3);
             var2['current'] = var1;
- 137:
+case 2:
             var1 = undefined;
             return var1;
         }

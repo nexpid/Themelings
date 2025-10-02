@@ -8,8 +8,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var6;
     var1 = function _isNativeReflectConstruct() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
- 2: // try_start_0
+case 0:
+case 2: // try_start_0
             var2 = global;
             var3 = var2.Boolean;
             var3 = var3.prototype;
@@ -27,11 +27,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var4)(var2);
             var2 = !var2;
             var _closure2_slot0 = var2;
- 70: // try_end0
-            _fun0001_ip = 74; continue _fun0001;
- 72: // catch_target0
+case 3: // try_end0
+            _fun0001_ip = 4; continue _fun0001;
+case 5: // catch_target0
             CatchBlockStart(arg_register=1);
- 74:
+case 4:
             var2 = function _isNativeReflectConstruct() {
                 var1 = _closure2_slot0;
                 var1 = !var1;
@@ -129,7 +129,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function(arg1) {
         var4 = function ChannelCallLifecycleStore() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var4 = this;
                 var3 = undefined;
                 var5 = undefined;
@@ -141,14 +141,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = _closure1_slot4;
                 var1 = _closure1_slot16;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0002_ip = 69; continue _fun0002 }
- 51:
+                if(var1) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                 var7 = var9.apply;
                 var5 = arguments;
                 var1 = var5;
                 var1 = var7.bind(var9)(var4, var1);
-                _fun0002_ip = 105; continue _fun0002;
- 69:
+                _fun0002_ip = 8; continue _fun0002;
+case 6:
                 var7 = global;
                 var8 = var7.Reflect;
                 var7 = var8.construct;
@@ -157,7 +157,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var6.constructor;
                 var5 = arguments;
                 var1 = var7.bind(var8)(var9, var5, var6);
- 105:
+case 8:
                 var1 = var2.bind(var3)(var4, var1);
                 return var1;
             }
@@ -214,13 +214,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5['key'] = var7;
         var7 = function value() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var1 = _closure1_slot10;
-                if(!var1) { _fun0003_ip = 17; continue _fun0003 }
- 10:
+                if(!var1) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
                 var2 = _closure1_slot11;
                 var1 = !var2;
- 17:
+case 9:
                 return var1;
             }
         };
@@ -265,17 +265,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = {};
     var9 = function handleVoiceChannelSelect(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = null;
-            if(!(var2 != var1)) { _fun0004_ip = 68; continue _fun0004 }
- 9:
+            if(!(var2 != var1)) { _fun0004_ip = 11; continue _fun0004 }
+case 12:
             var4 = _closure1_slot7;
             var1 = var4.getVoiceChannelId;
             var1 = var1.bind(var4)();
             var4 = _closure1_slot8;
-            if(!(var1 !== var4)) { _fun0004_ip = 60; continue _fun0004 }
- 34:
+            if(!(var1 !== var4)) { _fun0004_ip = 13; continue _fun0004 }
+case 14:
             var4 = false;
             _closure1_slot9 = var4;
             _closure1_slot10 = var4;
@@ -283,11 +283,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             _closure1_slot11 = var4;
             var4 = _closure1_slot13;
             _closure1_slot14 = var4;
- 60:
+case 13:
             var _closure1_slot8 = var1;
             var1 = undefined;
             return var1;
- 68:
+case 11:
             var6 = "Cannot destructure 'undefined' or 'null'.";
             var7 = var2;
             var1 = throwTypeError(var7, var6);
@@ -298,16 +298,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['VOICE_CHANNEL_SELECT'] = var9;
     var9 = function handleRequestRespondToSeriousThermalState(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = null;
-            if(!(var2 != var1)) { _fun0005_ip = 22; continue _fun0005 }
- 9:
+            if(!(var2 != var1)) { _fun0005_ip = 15; continue _fun0005 }
+case 12:
             var1 = true;
             _closure1_slot9 = var1;
             var1 = undefined;
             return var1;
- 22:
+case 15:
             var4 = "Cannot destructure 'undefined' or 'null'.";
             var5 = var2;
             var1 = throwTypeError(var5, var4);
@@ -318,16 +318,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['EMBEDDED_ACTIVITY_REQUEST_RESPOND_TO_SERIOUS_THERMAL_STATE'] = var9;
     var9 = function handleConsumeReactToSeriousThermalStateRequest(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = null;
-            if(!(var2 != var1)) { _fun0006_ip = 22; continue _fun0006 }
- 9:
+            if(!(var2 != var1)) { _fun0006_ip = 15; continue _fun0006 }
+case 12:
             var1 = true;
             _closure1_slot10 = var1;
             var1 = undefined;
             return var1;
- 22:
+case 15:
             var4 = "Cannot destructure 'undefined' or 'null'.";
             var5 = var2;
             var1 = throwTypeError(var5, var4);
@@ -338,16 +338,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['EMBEDDED_ACTIVITY_CONSUME_RESPOND_TO_SERIOUS_THERMAL_STATE_REQUEST'] = var9;
     var9 = function handleDisregardSeriousThermalState(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = null;
-            if(!(var2 != var1)) { _fun0007_ip = 22; continue _fun0007 }
- 9:
+            if(!(var2 != var1)) { _fun0007_ip = 15; continue _fun0007 }
+case 12:
             var1 = true;
             _closure1_slot11 = var1;
             var1 = undefined;
             return var1;
- 22:
+case 15:
             var4 = "Cannot destructure 'undefined' or 'null'.";
             var5 = var2;
             var1 = throwTypeError(var5, var4);
@@ -366,7 +366,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['EMBEDDED_ACTIVITY_SET_DEBUG_OVERLAY_VISIBILITY'] = var9;
     var9 = function handleVoiceCallOverlayLayoutStateUpdate(arg1) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
- 0:
+case 0:
             var1 = arg1;
             var4 = var1.voiceCallOverlayType;
             var1 = var1.voiceCallOverlayLayoutState;
@@ -383,10 +383,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = undefined;
             var4 = var6.bind(var1)(var4);
             var4 = var4.bind(var1)(var2, var5);
-            if(var4) { _fun0008_ip = 74; continue _fun0008 }
- 70:
+            if(var4) { _fun0008_ip = 4; continue _fun0008 }
+case 3:
             _closure1_slot14 = var2;
- 74:
+case 4:
             return var1;
         }
     };
@@ -401,16 +401,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['VOICE_CALL_SET_PIP_ENABLED_FOR_ACTIVITY_OR_STREAM'] = var9;
     var9 = function handleEmbeddedActivityOpen(arg1) {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = null;
-            if(!(var2 != var1)) { _fun0009_ip = 22; continue _fun0009 }
- 9:
+            if(!(var2 != var1)) { _fun0009_ip = 15; continue _fun0009 }
+case 12:
             var1 = true;
             _closure1_slot15 = var1;
             var1 = undefined;
             return var1;
- 22:
+case 15:
             var4 = "Cannot destructure 'undefined' or 'null'.";
             var5 = var2;
             var1 = throwTypeError(var5, var4);
@@ -421,16 +421,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['EMBEDDED_ACTIVITY_OPEN'] = var9;
     var4 = function handleStreamWatch(arg1) {
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = null;
-            if(!(var2 != var1)) { _fun0010_ip = 22; continue _fun0010 }
- 9:
+            if(!(var2 != var1)) { _fun0010_ip = 15; continue _fun0010 }
+case 12:
             var1 = true;
             _closure1_slot15 = var1;
             var1 = undefined;
             return var1;
- 22:
+case 15:
             var4 = "Cannot destructure 'undefined' or 'null'.";
             var5 = var2;
             var1 = throwTypeError(var5, var4);

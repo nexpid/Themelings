@@ -1,7 +1,7 @@
 // discord_common/js/shared/lib/PlatformUtils.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
         var10 = metroImportDefault;
         var3 = exports;
         var8 = dependencyMap;
@@ -32,50 +32,50 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var9 == var2;
         var1 = undefined;
         var5 = undefined;
-        if(var6) { _fun0001_ip = 153; continue _fun0001 }
- 132:
+        if(var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
         var2 = var2.navigator;
         var6 = var9 == var2;
         var5 = undefined;
-        if(var6) { _fun0001_ip = 153; continue _fun0001 }
- 147:
+        if(var6) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
         var5 = var2.platform;
- 153:
+case 2:
         var2 = 'MacIntel';
         var2 = var2 === var5;
-        if(!var2) { _fun0001_ip = 206; continue _fun0001 }
- 166:
+        if(!var2) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
         var6 = var4.window;
         var7 = var9 == var6;
         var5 = undefined;
-        if(var7) { _fun0001_ip = 202; continue _fun0001 }
- 181:
+        if(var7) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
         var6 = var6.navigator;
         var7 = var9 == var6;
         var5 = undefined;
-        if(var7) { _fun0001_ip = 202; continue _fun0001 }
- 196:
+        if(var7) { _fun0001_ip = 7; continue _fun0001 }
+case 9:
         var5 = var6.standalone;
- 202:
+case 7:
         var2 = var1 !== var5;
- 206:
-        if(!var2) { _fun0001_ip = 254; continue _fun0001 }
- 209:
+case 5:
+        if(!var2) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
         var4 = var4.window;
         var6 = var9 == var4;
         var5 = undefined;
-        if(var6) { _fun0001_ip = 247; continue _fun0001 }
- 224:
+        if(var6) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
         var4 = var4.navigator;
         var6 = var9 == var4;
         var5 = undefined;
-        if(var6) { _fun0001_ip = 247; continue _fun0001 }
- 239:
+        if(var6) { _fun0001_ip = 12; continue _fun0001 }
+case 14:
         var5 = var4.maxTouchPoints;
- 247:
+case 12:
         var4 = 1;
         var2 = var5 > var4;
- 254:
+case 10:
         var6 = var12.has;
         var7 = 0;
         var4 = var8[var7];
@@ -84,71 +84,71 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var14 = var9 != var13;
         var5 = '';
         var4 = var5;
-        if(!var14) { _fun0001_ip = 293; continue _fun0001 }
- 290:
+        if(!var14) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
         var4 = var13;
- 293:
+case 15:
         var6 = var6.bind(var12)(var4);
-        if(var6) { _fun0001_ip = 304; continue _fun0001 }
- 301:
+        if(var6) { _fun0001_ip = 17; continue _fun0001 }
+case 18:
         var6 = var2;
- 304:
+case 17:
         var2 = !var6;
-        if(!var2) { _fun0001_ip = 378; continue _fun0001 }
- 310:
+        if(!var2) { _fun0001_ip = 19; continue _fun0001 }
+case 20:
         var4 = var11.has;
         var12 = var8[var7];
         var12 = var10.bind(var1)(var12);
         var13 = var9 == var12;
         var12 = undefined;
-        if(var13) { _fun0001_ip = 363; continue _fun0001 }
- 333:
+        if(var13) { _fun0001_ip = 21; continue _fun0001 }
+case 22:
         var13 = var8[var7];
         var13 = var10.bind(var1)(var13);
         var13 = var13.os;
         var14 = var9 == var13;
         var12 = undefined;
-        if(var14) { _fun0001_ip = 363; continue _fun0001 }
- 357:
+        if(var14) { _fun0001_ip = 21; continue _fun0001 }
+case 23:
         var12 = var13.family;
- 363:
+case 21:
         var13 = var9 != var12;
-        if(!var13) { _fun0001_ip = 373; continue _fun0001 }
- 370:
+        if(!var13) { _fun0001_ip = 24; continue _fun0001 }
+case 25:
         var5 = var12;
- 373:
+case 24:
         var2 = var4.bind(var11)(var5);
- 378:
+case 19:
         var4 = var8[var7];
         var4 = var10.bind(var1)(var4);
         var4 = var9 == var4;
         var5 = undefined;
-        if(var4) { _fun0001_ip = 426; continue _fun0001 }
- 396:
+        if(var4) { _fun0001_ip = 26; continue _fun0001 }
+case 27:
         var4 = var8[var7];
         var4 = var10.bind(var1)(var4);
         var4 = var4.os;
         var11 = var9 == var4;
         var5 = undefined;
-        if(var11) { _fun0001_ip = 426; continue _fun0001 }
- 420:
+        if(var11) { _fun0001_ip = 26; continue _fun0001 }
+case 28:
         var5 = var4.family;
- 426:
+case 26:
         var4 = var8[var7];
         var4 = var10.bind(var1)(var4);
         var11 = var9 == var4;
         var4 = undefined;
-        if(var11) { _fun0001_ip = 474; continue _fun0001 }
- 444:
+        if(var11) { _fun0001_ip = 29; continue _fun0001 }
+case 30:
         var7 = var8[var7];
         var7 = var10.bind(var1)(var7);
         var7 = var7.os;
         var9 = var9 == var7;
         var4 = undefined;
-        if(var9) { _fun0001_ip = 474; continue _fun0001 }
- 468:
+        if(var9) { _fun0001_ip = 29; continue _fun0001 }
+case 31:
         var4 = var7.family;
- 474:
+case 29:
         var7 = 1;
         var8 = var8[var7];
         var7 = require;

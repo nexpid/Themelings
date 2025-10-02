@@ -55,15 +55,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var7)(var5);
     var4 = function AppLauncherOptionIcon(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var7 = var1.wrapperStyle;
             var8 = var1.wrapperSize;
             var4 = undefined;
-            if(!(var8 === var4)) { _fun0001_ip = 24; continue _fun0001 }
- 21:
+            if(!(var8 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var8 = 32;
- 24:
+case 2:
             var5 = var1.icon;
             var2 = _closure1_slot2;
             var6 = var2.bind(var4)();

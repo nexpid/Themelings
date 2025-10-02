@@ -20,31 +20,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var4.bind(var5)(var2);
     var2 = function hasStream(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var1 = null;
-            if(!(var1 != var3)) { _fun0001_ip = 62; continue _fun0001 }
- 9:
+            if(!(var1 != var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var3.length;
             var2 = 0;
             var1 = var2 < var1;
-            if(!var1) { _fun0001_ip = 54; continue _fun0001 }
- 23:
+            if(!var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = var3[var2];
             var1 = var1.voiceState;
             var1 = var1.selfStream;
-            if(var1) { _fun0001_ip = 58; continue _fun0001 }
- 42:
+            if(var1) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var2 = var2 + 1;
             var1 = var3.length;
-            if(var2 < var1) { _fun0001_ip = 23; continue _fun0001 }
- 54:
+            if(var2 < var1) { _fun0001_ip = 5; continue _fun0001 }
+case 4:
             var1 = false;
             return var1;
- 58:
+case 6:
             var1 = true;
             return var1;
- 62:
+case 2:
             var1 = false;
             return var1;
         }

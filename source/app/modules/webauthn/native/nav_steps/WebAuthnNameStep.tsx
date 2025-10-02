@@ -60,7 +60,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function WebAuthnNameStep(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var3 = var2.ticket;
             var _closure2_slot0 = var3;
@@ -102,10 +102,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var2 != var10;
             var13 = '';
             var2 = var13;
-            if(!var11) { _fun0001_ip = 179; continue _fun0001 }
- 176:
+            if(!var11) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var10;
- 179:
+case 2:
             var7 = var7.bind(var9)(var2);
             var2 = _closure1_slot4;
             var2 = var2.bind(var4)(var7, var8);
@@ -118,11 +118,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = function* () {
                     var1 = function* anon_0_() {
                         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(var2) { _fun0002_ip = 353; continue _fun0002 }
- 10: // try_start_0 // try_start_1
+                            if(var2) { _fun0002_ip = 4; continue _fun0002 }
+case 5: // try_start_0 // try_start_1
                             var4 = _closure2_slot3;
                             var5 = undefined;
                             var2 = true;
@@ -138,12 +138,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var2 = _closure2_slot1;
                             var2 = var8.bind(var9)(var7, var6, var2);
                             SaveGenerator(address=78);
- 76:
+case 6:
                             return var2;
- 78:
+case 7:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                            if(var6) { _fun0002_ip = 277; continue _fun0002 }
- 87: // try_end0 // try_end1
+                            if(var6) { _fun0002_ip = 8; continue _fun0002 }
+case 9: // try_end0 // try_end1
                             var7 = _closure2_slot3;
                             var6 = false;
                             var6 = var7.bind(var5)(var6);
@@ -187,32 +187,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var4 = {};
                             var4 = var7.bind(var8)(var6, var4);
                             return var5;
- 277:
+case 8:
                             var4 = _closure2_slot3;
                             var3 = false;
                             var3 = var4.bind(var5)(var3);
                             return var2;
- 291: // try_start_2 // catch_target0
+case 10: // try_start_2 // catch_target0
                             CatchBlockStart(arg_register=1);
                             var4 = _closure2_slot4;
                             var2 = var2.body;
                             var2 = var2.message;
                             var5 = undefined;
                             var2 = var4.bind(var5)(var2);
- 317: // try_end2
+case 11: // try_end2
                             var4 = _closure2_slot3;
                             var3 = false;
                             var3 = var4.bind(var5)(var3);
                             var2 = undefined;
                             return var2;
- 333: // catch_target1 // catch_target2
+case 12: // catch_target1 // catch_target2
                             CatchBlockStart(arg_register=1);
                             var5 = _closure2_slot3;
                             var4 = undefined;
                             var3 = false;
                             var3 = var5.bind(var4)(var3);
                             throw var2;
- 353:
+case 4:
                             return var1;
                         }
                     };

@@ -117,7 +117,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5['children'] = var8;
         var7 = function options() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var1 = {};
                 var2 = _closure2_slot0;
                 var1['title'] = var2;
@@ -129,10 +129,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var4.bind(var2)(var3);
                 var3 = var4.isIOS;
                 var3 = var3.bind(var4)();
-                if(!var3) { _fun0001_ip = 57; continue _fun0001 }
- 51:
+                if(!var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var2 = 'portrait';
- 57:
+case 2:
                 var1['orientation'] = var2;
                 return var1;
             }

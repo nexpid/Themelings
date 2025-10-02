@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function GuildRow(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var13 = var2.guildActivity;
             var _closure2_slot0 = var13;
@@ -35,8 +35,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var10 = var3.bind(var4)(var2, var1);
             var1 = null;
-            if(!(var1 != var10)) { _fun0001_ip = 250; continue _fun0001 }
- 87:
+            if(!(var1 != var10)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var3 = _closure1_slot0;
             var11 = _closure1_slot2;
             var2 = 5;
@@ -74,7 +74,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['icon'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
- 250:
+case 2:
             return var1;
         }
     };

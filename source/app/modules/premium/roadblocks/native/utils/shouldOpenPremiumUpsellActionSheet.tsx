@@ -9,15 +9,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function _maybeOpenPremiumUpsellActionSheet(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var6 = arg2;
             var2 = null;
             var1 = var2 == var6;
-            if(var1) { _fun0001_ip = 60; continue _fun0001 }
- 12:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var2 != var6;
-            if(!var2) { _fun0001_ip = 57; continue _fun0001 }
- 19:
+            if(!var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var5 = var6.getCurrentConfig;
             var4 = {};
             var3 = 'isUpsellEnabled';
@@ -27,20 +27,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['autoTrackExposure'] = var7;
             var3 = var5.bind(var6)(var4, var3);
             var2 = var3.enabled;
- 57:
+case 4:
             var1 = var2;
- 60:
-            if(var1) { _fun0001_ip = 86; continue _fun0001 }
- 63:
+case 2:
+            if(var1) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var4 = _closure1_slot3;
             var3 = var4.get;
             var2 = 'premium_roadblocks';
             var1 = var3.bind(var4)(var2);
- 86:
+case 6:
             var2 = !var1;
             var1 = !var2;
-            if(var2) { _fun0001_ip = 130; continue _fun0001 }
- 95:
+            if(var2) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
             var2 = 1;
@@ -50,7 +50,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = arg1;
             var2 = var3.bind(var4)(var2);
             var1 = true;
- 130:
+case 8:
             return var1;
         }
     };
@@ -76,7 +76,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function maybeOpenPremiumUpsellActionSheet(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var4 = var1.initialUpsellKey;
             var5 = _closure1_slot0;
@@ -87,43 +87,43 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var5.bind(var3)(var2);
             var2 = var2.UpsellTypes;
             var2 = var2.UPLOAD;
-            if(!(var2 !== var4)) { _fun0002_ip = 386; continue _fun0002 }
- 53:
+            if(!(var2 !== var4)) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
             var5 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var6];
             var2 = var5.bind(var3)(var2);
             var2 = var2.UpsellTypes;
             var2 = var2.GLOBAL_EMOJI;
-            if(!(var2 !== var4)) { _fun0002_ip = 343; continue _fun0002 }
- 89:
+            if(!(var2 !== var4)) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
             var5 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var6];
             var2 = var5.bind(var3)(var2);
             var2 = var2.UpsellTypes;
             var2 = var2.ANIMATED_EMOJI;
-            if(!(var2 !== var4)) { _fun0002_ip = 300; continue _fun0002 }
- 125:
+            if(!(var2 !== var4)) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
             var5 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var6];
             var2 = var5.bind(var3)(var2);
             var2 = var2.UpsellTypes;
             var2 = var2.SOUNDBOARD;
-            if(!(var2 !== var4)) { _fun0002_ip = 257; continue _fun0002 }
- 158:
+            if(!(var2 !== var4)) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
             var5 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var6];
             var2 = var5.bind(var3)(var2);
             var2 = var2.UpsellTypes;
             var2 = var2.APP_ICONS;
-            if(!(var2 !== var4)) { _fun0002_ip = 195; continue _fun0002 }
- 191:
+            if(!(var2 !== var4)) { _fun0002_ip = 18; continue _fun0002 }
+case 19:
             var2 = false;
             return var2;
- 195:
+case 18:
             var5 = _closure1_slot4;
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -138,7 +138,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.PremiumAppIconsUpsellExperiment;
             var2 = var5.bind(var3)(var4, var2);
             return var2;
- 257:
+case 16:
             var4 = _closure1_slot4;
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
@@ -149,7 +149,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.SOUNDBOARD_EVERYWHERE;
             var2 = var4.bind(var3)(var2);
             return var2;
- 300:
+case 14:
             var4 = _closure1_slot4;
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
@@ -160,7 +160,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.ANIMATED_EMOJIS;
             var2 = var4.bind(var3)(var2);
             return var2;
- 343:
+case 12:
             var4 = _closure1_slot4;
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
@@ -171,7 +171,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.EMOJIS_EVERYWHERE;
             var2 = var4.bind(var3)(var2);
             return var2;
- 386:
+case 10:
             var2 = _closure1_slot4;
             var4 = _closure1_slot0;
             var5 = _closure1_slot2;

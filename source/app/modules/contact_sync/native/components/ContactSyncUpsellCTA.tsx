@@ -81,7 +81,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = {};
         var11 = function onPress() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var4 = _closure1_slot1;
                 var2 = _closure1_slot2;
                 var1 = 7;
@@ -101,10 +101,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var12 = var8 != var2;
                 var2 = 'Friends List Upsell';
                 var11 = var2;
-                if(!var12) { _fun0001_ip = 87; continue _fun0001 }
- 83:
+                if(!var12) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var11 = _closure2_slot0;
- 87:
+case 2:
                 var10['page'] = var11;
                 var4['location'] = var10;
                 var4 = var7.bind(var9)(var5, var4);
@@ -117,10 +117,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = {};
                 var7 = _closure2_slot0;
                 var7 = var8 != var7;
-                if(!var7) { _fun0001_ip = 145; continue _fun0001 }
- 141:
+                if(!var7) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var2 = _closure2_slot0;
- 145:
+case 4:
                 var3['page'] = var2;
                 var2 = {};
                 var2 = var4.bind(var5)(var2, var3);

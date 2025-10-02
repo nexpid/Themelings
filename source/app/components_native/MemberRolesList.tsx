@@ -49,7 +49,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function MemberRolesList(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var3 = var1.userRoles;
             var _closure2_slot0 = var3;
@@ -81,13 +81,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var9.bind(var5)(var4, var1);
             var4 = null;
             var1 = var9;
-            if(!(var4 != var3)) { _fun0001_ip = 221; continue _fun0001 }
- 109:
+            if(!(var4 != var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var4 = var3.length;
             var3 = 0;
             var1 = var9;
-            if(!(var4 > var3)) { _fun0001_ip = 221; continue _fun0001 }
- 123:
+            if(!(var4 > var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 4:
             var4 = var6.filter;
             var3 = function(arg1) {
                 var3 = _closure2_slot0;
@@ -101,41 +101,41 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var6.sort;
             var3 = function(arg1, arg2) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var1 = arg1;
                     var4 = var1.tags;
                     var2 = null;
                     var5 = var2 == var4;
                     var3 = undefined;
-                    if(var5) { _fun0002_ip = 26; continue _fun0002 }
- 20:
+                    if(var5) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
                     var3 = var4.guild_connections;
- 26:
+case 5:
                     var5 = var2 !== var3;
                     var3 = arg2;
                     var3 = var3.tags;
                     var4 = var2 == var3;
                     var1 = undefined;
-                    if(var4) { _fun0002_ip = 54; continue _fun0002 }
- 48:
+                    if(var4) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
                     var1 = var3.guild_connections;
- 54:
+case 7:
                     var3 = var2 !== var1;
-                    if(!var5) { _fun0002_ip = 67; continue _fun0002 }
- 61:
+                    if(!var5) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
                     var1 = 1;
-                    if(!var3) { _fun0002_ip = 86; continue _fun0002 }
- 67:
+                    if(!var3) { _fun0002_ip = 11; continue _fun0002 }
+case 9:
                     var2 = 0;
-                    if(var5) { _fun0002_ip = 83; continue _fun0002 }
- 72:
+                    if(var5) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
                     var2 = 0;
-                    if(!var3) { _fun0002_ip = 83; continue _fun0002 }
- 77:
+                    if(!var3) { _fun0002_ip = 12; continue _fun0002 }
+case 14:
                     var2 = -1;
- 83:
+case 12:
                     var1 = var2;
- 86:
+case 11:
                     return var1;
                 }
             };
@@ -171,7 +171,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['style'] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 221:
+case 2:
             return var1;
         }
     };

@@ -7,35 +7,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var7;
     var2 = function findMessageRowIndex(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var2 = arg2;
             var _closure2_slot0 = var2;
             var2 = var3.findIndex;
             var1 = function(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var2 = arg1;
                     var3 = var2.message;
                     var1 = null;
                     var1 = var1 != var3;
-                    if(!var1) { _fun0002_ip = 38; continue _fun0002 }
- 17:
+                    if(!var1) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var2 = var2.message;
                     var3 = var2.id;
                     var2 = _closure2_slot0;
                     var1 = var3 === var2;
- 38:
+case 2:
                     return var1;
                 }
             };
             var1 = var2.bind(var3)(var1);
             var2 = -1;
-            if(!(var2 === var1)) { _fun0001_ip = 44; continue _fun0001 }
- 40:
+            if(!(var2 === var1)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var2 = undefined;
             return var2;
- 44:
+case 4:
             return var1;
         }
     };
@@ -69,7 +69,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var7)(var5);
     var4 = function computeScrollData(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var2 = arg1;
             var11 = var2.rows;
             var14 = var2.scrollToMessageId;
@@ -79,60 +79,60 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var2.animated;
             var7 = var2.scrollPosition;
             var9 = var2.focusTargetId;
-            if(!var1) { _fun0003_ip = 83; continue _fun0003 }
- 54:
+            if(!var1) { _fun0003_ip = 6; continue _fun0003 }
+case 7:
             var1 = null;
-            if(!(var1 == var12)) { _fun0003_ip = 83; continue _fun0003 }
- 60:
+            if(!(var1 == var12)) { _fun0003_ip = 6; continue _fun0003 }
+case 8:
             var2 = function findUnreadSeperatorRowIndex(arg1) {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
                     var3 = arg1;
                     var2 = var3.findIndex;
                     var1 = function(arg1) {
                         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
                             var3 = arg1;
                             var4 = var3.type;
                             var1 = _closure1_slot3;
                             var1 = var1.SEPARATOR;
                             var1 = var4 === var1;
-                            if(!var1) { _fun0005_ip = 47; continue _fun0005 }
- 28:
+                            if(!var1) { _fun0005_ip = 9; continue _fun0005 }
+case 10:
                             var3 = var3.id;
                             var2 = _closure1_slot4;
                             var2 = var2.UNREAD;
                             var1 = var3 === var2;
- 47:
+case 9:
                             return var1;
                         }
                     };
                     var1 = var2.bind(var3)(var1);
                     var2 = -1;
-                    if(!(var2 === var1)) { _fun0004_ip = 37; continue _fun0004 }
- 33:
+                    if(!(var2 === var1)) { _fun0004_ip = 11; continue _fun0004 }
+case 12:
                     var2 = undefined;
                     return var2;
- 37:
+case 11:
                     return var1;
                 }
             };
             var4 = undefined;
             var6 = var2.bind(var4)(var11);
-            if(!(var1 == var6)) { _fun0003_ip = 357; continue _fun0003 }
- 83:
+            if(!(var1 == var6)) { _fun0003_ip = 13; continue _fun0003 }
+case 6:
             var5 = null;
             var2 = var5 != var14;
             var10 = undefined;
             var1 = undefined;
-            if(!var2) { _fun0003_ip = 272; continue _fun0003 }
- 99:
+            if(!var2) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
             var2 = _closure1_slot5;
             var15 = var2.bind(var10)(var11, var14);
             var2 = var5 != var15;
             var1 = undefined;
-            if(!var2) { _fun0003_ip = 272; continue _fun0003 }
- 124:
+            if(!var2) { _fun0003_ip = 14; continue _fun0003 }
+case 16:
             var2 = {};
             var18 = _closure1_slot0;
             var16 = _closure1_slot1;
@@ -146,8 +146,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = _closure1_slot2;
             var15 = var15.useReducedMotion;
             var15 = !var15;
-            if(!var15) { _fun0003_ip = 218; continue _fun0003 }
- 182:
+            if(!var15) { _fun0003_ip = 17; continue _fun0003 }
+case 18:
             var18 = _closure1_slot0;
             var19 = _closure1_slot1;
             var16 = 3;
@@ -156,34 +156,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = var16.JumpTypes;
             var16 = var16.INSTANT;
             var15 = var17 !== var16;
- 218:
+case 17:
             var2['animate'] = var15;
             var12 = var14 === var12;
             var2['highlight'] = var12;
-            if(!(var5 == var7)) { _fun0003_ip = 265; continue _fun0003 }
- 236:
+            if(!(var5 == var7)) { _fun0003_ip = 19; continue _fun0003 }
+case 20:
             var12 = _closure1_slot0;
             var8 = _closure1_slot1;
             var8 = var8[var13];
             var8 = var12.bind(var10)(var8);
             var8 = var8.ChatScrollPosition;
             var7 = var8.TOP;
- 265:
+case 19:
             var2['position'] = var7;
             var1 = var2;
- 272:
-            if(!(var5 == var1)) { _fun0003_ip = 355; continue _fun0003 }
- 276:
+case 14:
+            if(!(var5 == var1)) { _fun0003_ip = 21; continue _fun0003 }
+case 22:
             var7 = var5 != var9;
             var2 = undefined;
-            if(!var7) { _fun0003_ip = 352; continue _fun0003 }
- 285:
+            if(!var7) { _fun0003_ip = 23; continue _fun0003 }
+case 24:
             var7 = _closure1_slot5;
             var7 = var7.bind(var10)(var11, var9);
             var5 = var5 != var7;
             var2 = undefined;
-            if(!var5) { _fun0003_ip = 352; continue _fun0003 }
- 307:
+            if(!var5) { _fun0003_ip = 23; continue _fun0003 }
+case 25:
             var5 = {};
             var9 = _closure1_slot0;
             var11 = _closure1_slot1;
@@ -195,11 +195,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['type'] = var8;
             var5['index'] = var7;
             var2 = var5;
- 352:
+case 23:
             var1 = var2;
- 355:
+case 21:
             return var1;
- 357:
+case 13:
             var1 = {};
             var8 = _closure1_slot0;
             var7 = _closure1_slot1;
@@ -210,12 +210,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7.SCROLL;
             var1['type'] = var7;
             var1['index'] = var6;
-            if(!var3) { _fun0003_ip = 418; continue _fun0003 }
- 405:
+            if(!var3) { _fun0003_ip = 26; continue _fun0003 }
+case 27:
             var6 = _closure1_slot2;
             var6 = var6.useReducedMotion;
             var3 = !var6;
- 418:
+case 26:
             var1['animate'] = var3;
             var3 = false;
             var1['highlight'] = var3;

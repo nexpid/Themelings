@@ -50,24 +50,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['DOMAIN_MIGRATION_FAILED_KEY'] = var4;
     var4 = function sendPostMessage(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var4 = arg2;
             var1 = _closure1_slot0;
             var2 = var1.MIGRATION_SOURCE_DOMAIN;
             var1 = arg3;
-            if(!(var1 !== var2)) { _fun0001_ip = 45; continue _fun0001 }
- 23:
+            if(!(var1 !== var2)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = global;
             var1 = var1.window;
             var1 = var1.GLOBAL_ENV;
             var3 = var1.MIGRATION_SOURCE_ORIGIN;
-            _fun0001_ip = 65; continue _fun0001;
- 45:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var1 = global;
             var1 = var1.window;
             var1 = var1.GLOBAL_ENV;
             var3 = var1.MIGRATION_DESTINATION_ORIGIN;
- 65:
+case 4:
             var2 = var4.postMessage;
             var1 = {};
             var5 = arg1;
@@ -80,46 +80,46 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['sendPostMessage'] = var4;
     var2 = function extractMessage(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var3 = arg1;
             var1 = _closure1_slot0;
             var2 = var1.MIGRATION_SOURCE_DOMAIN;
             var1 = arg2;
-            if(!(var1 !== var2)) { _fun0002_ip = 45; continue _fun0002 }
- 23:
+            if(!(var1 !== var2)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
             var1 = global;
             var1 = var1.window;
             var1 = var1.GLOBAL_ENV;
             var2 = var1.MIGRATION_SOURCE_ORIGIN;
-            _fun0002_ip = 65; continue _fun0002;
- 45:
+            _fun0002_ip = 4; continue _fun0002;
+case 2:
             var1 = global;
             var1 = var1.window;
             var1 = var1.GLOBAL_ENV;
             var2 = var1.MIGRATION_DESTINATION_ORIGIN;
- 65:
+case 4:
             var1 = var3.origin;
             var4 = var1 === var2;
-            if(!var4) { _fun0002_ip = 95; continue _fun0002 }
- 78:
+            if(!var4) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
             var1 = var3.data;
             var2 = var1.domainMigrationEvent;
             var1 = null;
             var4 = var1 != var2;
- 95:
+case 5:
             var2 = null;
             var1 = null;
-            if(!var4) { _fun0002_ip = 125; continue _fun0002 }
- 102:
+            if(!var4) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
             var3 = var3.data;
             var4 = var2 == var3;
             var2 = undefined;
-            if(var4) { _fun0002_ip = 122; continue _fun0002 }
- 116:
+            if(var4) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
             var2 = var3.domainMigrationEvent;
- 122:
+case 9:
             var1 = var2;
- 125:
+case 7:
             return var1;
         }
     };

@@ -7,7 +7,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var4;
     var1 = function interpolate(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var6 = arg3;
             var4 = arg1;
             var1 = var4[Symbol.iterator];
@@ -17,27 +17,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = undefined;
             var3 = var3 === var10;
             var5 = undefined;
-            if(var3) { _fun0001_ip = 30; continue _fun0001 }
- 27:
+            if(var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = var2;
- 30:
+case 2:
             var2 = undefined;
-            if(var3) { _fun0001_ip = 60; continue _fun0001 }
- 35:
+            if(var3) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var7 = var4().value;
             var4 = var1;
             var4 = var4 === var10;
             var2 = undefined;
             var3 = var4;
-            if(var4) { _fun0001_ip = 60; continue _fun0001 }
- 54:
+            if(var4) { _fun0001_ip = 4; continue _fun0001 }
+case 6:
             var2 = var7;
             var3 = var4;
- 60:
-            if(var3) { _fun0001_ip = 66; continue _fun0001 }
- 63:
+case 4:
+            if(var3) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var1.return();
- 66:
+case 7:
             var8 = arg2;
             var1 = var8[Symbol.iterator];
             var8 = var1().next;
@@ -45,52 +45,52 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var1;
             var3 = var3 === var10;
             var4 = undefined;
-            if(var3) { _fun0001_ip = 91; continue _fun0001 }
- 88:
+            if(var3) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
             var4 = var7;
- 91:
+case 9:
             var7 = undefined;
-            if(var3) { _fun0001_ip = 121; continue _fun0001 }
- 96:
+            if(var3) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var9 = var8().value;
             var8 = var1;
             var8 = var8 === var10;
             var7 = undefined;
             var3 = var8;
-            if(var8) { _fun0001_ip = 121; continue _fun0001 }
- 115:
+            if(var8) { _fun0001_ip = 11; continue _fun0001 }
+case 13:
             var7 = var9;
             var3 = var8;
- 121:
-            if(var3) { _fun0001_ip = 127; continue _fun0001 }
- 124:
+case 11:
+            if(var3) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var1.return();
- 127:
+case 14:
             var3 = var5 + var2;
             var1 = 2;
             var3 = var3 / var1;
             var1 = var3;
-            if(!(var6 !== var1)) { _fun0001_ip = 202; continue _fun0001 }
- 145:
-            if(!(!(var6 < var3))) { _fun0001_ip = 175; continue _fun0001 }
- 149:
+            if(!(var6 !== var1)) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
+            if(!(!(var6 < var3))) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
             var8 = var6 - var3;
             var2 = var2 - var3;
             var7 = var7 - var3;
             var2 = var8 / var2;
             var2 = var2 * var7;
             var2 = var3 + var2;
-            _fun0001_ip = 199; continue _fun0001;
- 175:
+            _fun0001_ip = 20; continue _fun0001;
+case 18:
             var6 = var6 - var5;
             var5 = var3 - var5;
             var5 = var6 / var5;
             var3 = var3 - var4;
             var3 = var5 * var3;
             var2 = var4 + var3;
- 199:
+case 20:
             var1 = var2;
- 202:
+case 16:
             return var1;
         }
     };
@@ -155,21 +155,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function transformColorForReducedContrast(arg1, arg2, arg3) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var5 = arg1;
             var2 = arg2;
             var3 = arg3;
             var1 = 'background';
-            if(!(var1 !== var2)) { _fun0002_ip = 167; continue _fun0002 }
- 20:
+            if(!(var1 !== var2)) { _fun0002_ip = 21; continue _fun0002 }
+case 22:
             var1 = 'border';
-            if(!(var1 !== var2)) { _fun0002_ip = 167; continue _fun0002 }
- 31:
+            if(!(var1 !== var2)) { _fun0002_ip = 21; continue _fun0002 }
+case 23:
             var1 = 'text';
-            if(!(var1 !== var2)) { _fun0002_ip = 41; continue _fun0002 }
- 39:
+            if(!(var1 !== var2)) { _fun0002_ip = 24; continue _fun0002 }
+case 25:
             return var5;
- 41:
+case 24:
             var4 = _closure1_slot0;
             var2 = _closure1_slot1;
             var1 = 0;
@@ -182,8 +182,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var1.bind(var6)(var4);
             var2 = var6.set;
             var1 = 'light';
-            if(!(var1 !== var3)) { _fun0002_ip = 140; continue _fun0002 }
- 99:
+            if(!(var1 !== var3)) { _fun0002_ip = 26; continue _fun0002 }
+case 27:
             var1 = global;
             var10 = var1.Math;
             var9 = var10.max;
@@ -192,16 +192,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var11 * var8;
             var1 = var1.TEXT_LIGHTNESS_MAX_DARK_THEME;
             var1 = var9.bind(var10)(var8, var1);
-            _fun0002_ip = 150; continue _fun0002;
- 140:
+            _fun0002_ip = 28; continue _fun0002;
+case 26:
             var7 = _closure1_slot2;
             var1 = var7.TEXT_LIGHTNESS_LIGHT_THEME;
- 150:
+case 28:
             var2 = var2.bind(var6)(var4, var1);
             var1 = var2.hex;
             var1 = var1.bind(var2)();
             return var1;
- 167:
+case 21:
             var6 = _closure1_slot0;
             var4 = _closure1_slot1;
             var2 = 0;
@@ -211,15 +211,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var2.bind(var4)(var5);
             var4 = var5.set;
             var2 = 'light';
-            if(!(var2 !== var3)) { _fun0002_ip = 221; continue _fun0002 }
- 209:
+            if(!(var2 !== var3)) { _fun0002_ip = 29; continue _fun0002 }
+case 30:
             var2 = _closure1_slot2;
             var3 = var2.BACKGROUND_LIGHTNESS_LIGHT_THEME;
-            _fun0002_ip = 231; continue _fun0002;
- 221:
+            _fun0002_ip = 31; continue _fun0002;
+case 29:
             var2 = _closure1_slot2;
             var3 = var2.BACKGROUND_LIGHTNESS_DARK_THEME;
- 231:
+case 31:
             var2 = 'hsl.l';
             var4 = var4.bind(var5)(var2, var3);
             var3 = var4.set;
@@ -235,28 +235,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['transformColorForReducedContrast'] = var4;
     var4 = function transformColorForIncreasedContrast(arg1, arg2, arg3, arg4) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var3 = arg1;
             var4 = arg2;
             var2 = arg3;
             var6 = arg4;
             var1 = 'border';
-            if(!(var1 !== var2)) { _fun0003_ip = 275; continue _fun0003 }
- 23:
+            if(!(var1 !== var2)) { _fun0003_ip = 32; continue _fun0003 }
+case 33:
             var1 = 'text';
-            if(!(var1 !== var2)) { _fun0003_ip = 146; continue _fun0003 }
- 31:
+            if(!(var1 !== var2)) { _fun0003_ip = 34; continue _fun0003 }
+case 23:
             var1 = 'background';
-            if(!(var1 === var2)) { _fun0003_ip = 47; continue _fun0003 }
- 39:
+            if(!(var1 === var2)) { _fun0003_ip = 35; continue _fun0003 }
+case 25:
             var1 = 'light';
-            if(!(var1 === var6)) { _fun0003_ip = 61; continue _fun0003 }
- 47:
+            if(!(var1 === var6)) { _fun0003_ip = 36; continue _fun0003 }
+case 35:
             var1 = new Array(2);
             var1[0] = var3;
             var1[1] = var4;
-            _fun0003_ip = 141; continue _fun0003;
- 61:
+            _fun0003_ip = 37; continue _fun0003;
+case 36:
             var8 = _closure1_slot0;
             var7 = _closure1_slot1;
             var5 = 0;
@@ -275,9 +275,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[0] = var5;
             var2[1] = var4;
             var1 = var2;
- 141:
-            _fun0003_ip = 273; continue _fun0003;
- 146:
+case 37:
+            _fun0003_ip = 38; continue _fun0003;
+case 34:
             var8 = _closure1_slot0;
             var7 = _closure1_slot1;
             var5 = 0;
@@ -287,15 +287,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var5.bind(var7)(var3);
             var7 = var8.set;
             var5 = 'light';
-            if(!(var5 !== var6)) { _fun0003_ip = 200; continue _fun0003 }
- 188:
+            if(!(var5 !== var6)) { _fun0003_ip = 39; continue _fun0003 }
+case 40:
             var5 = _closure1_slot3;
             var6 = var5.TEXT_LIGHTNESS_DARK_THEME;
-            _fun0003_ip = 210; continue _fun0003;
- 200:
+            _fun0003_ip = 41; continue _fun0003;
+case 39:
             var5 = _closure1_slot3;
             var6 = var5.TEXT_LIGHTNESS_LIGHT_THEME;
- 210:
+case 41:
             var5 = 'hsl.l';
             var7 = var7.bind(var8)(var5, var6);
             var6 = var7.set;
@@ -309,9 +309,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[0] = var5;
             var2[1] = var4;
             var1 = var2;
- 273:
-            _fun0003_ip = 307; continue _fun0003;
- 275:
+case 38:
+            _fun0003_ip = 42; continue _fun0003;
+case 32:
             var2 = new Array(2);
             var2[0] = var3;
             var3 = _closure1_slot3;
@@ -319,14 +319,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3 + var4;
             var2[1] = var3;
             var1 = var2;
- 307:
+case 42:
             return var1;
         }
     };
     var3['transformColorForIncreasedContrast'] = var4;
     var4 = function transformColorForReducedSaturation(arg1, arg2, arg3) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var5 = arg3;
             var2 = _closure1_slot0;
             var3 = _closure1_slot1;
@@ -338,8 +338,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var2.bind(var11)(var1);
             var2 = 'background';
             var1 = arg2;
-            if(!(var2 !== var1)) { _fun0004_ip = 96; continue _fun0004 }
- 46:
+            if(!(var2 !== var1)) { _fun0004_ip = 12; continue _fun0004 }
+case 43:
             var3 = var4.set;
             var1 = global;
             var1 = var1.HermesInternal;
@@ -351,7 +351,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2.hex;
             var1 = var1.bind(var2)();
             return var1;
- 96:
+case 12:
             var7 = [0, 1];
             var1 = var7[Symbol.iterator];
             var7 = var1().next;
@@ -359,27 +359,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var1;
             var2 = var2 === var11;
             var6 = undefined;
-            if(var2) { _fun0004_ip = 128; continue _fun0004 }
- 125:
+            if(var2) { _fun0004_ip = 44; continue _fun0004 }
+case 45:
             var6 = var3;
- 128:
+case 44:
             var3 = undefined;
-            if(var2) { _fun0004_ip = 158; continue _fun0004 }
- 133:
+            if(var2) { _fun0004_ip = 46; continue _fun0004 }
+case 47:
             var8 = var7().value;
             var7 = var1;
             var7 = var7 === var11;
             var3 = undefined;
             var2 = var7;
-            if(var7) { _fun0004_ip = 158; continue _fun0004 }
- 152:
+            if(var7) { _fun0004_ip = 46; continue _fun0004 }
+case 48:
             var3 = var8;
             var2 = var7;
- 158:
-            if(var2) { _fun0004_ip = 164; continue _fun0004 }
- 161:
+case 46:
+            if(var2) { _fun0004_ip = 49; continue _fun0004 }
+case 50:
             var1.return();
- 164:
+case 49:
             var9 = [0.25, 1];
             var7 = var9[Symbol.iterator];
             var9 = var7().next;
@@ -387,27 +387,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var7;
             var8 = var2 === var11;
             var2 = undefined;
-            if(var8) { _fun0004_ip = 196; continue _fun0004 }
- 193:
+            if(var8) { _fun0004_ip = 51; continue _fun0004 }
+case 52:
             var2 = var1;
- 196:
+case 51:
             var1 = undefined;
-            if(var8) { _fun0004_ip = 226; continue _fun0004 }
- 201:
+            if(var8) { _fun0004_ip = 53; continue _fun0004 }
+case 54:
             var10 = var9().value;
             var9 = var7;
             var9 = var9 === var11;
             var1 = undefined;
             var8 = var9;
-            if(var9) { _fun0004_ip = 226; continue _fun0004 }
- 220:
+            if(var9) { _fun0004_ip = 53; continue _fun0004 }
+case 55:
             var1 = var10;
             var8 = var9;
- 226:
-            if(var8) { _fun0004_ip = 232; continue _fun0004 }
- 229:
+case 53:
+            if(var8) { _fun0004_ip = 56; continue _fun0004 }
+case 57:
             var7.return();
- 232:
+case 56:
             var5 = var5 - var6;
             var3 = var3 - var6;
             var3 = var5 / var3;
@@ -430,22 +430,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['transformColorForReducedSaturation'] = var4;
     var2 = function transformColorContrast(arg1, arg2, arg3, arg4) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
+case 0:
             var2 = arg1;
             var3 = arg2;
             var9 = arg3;
             var7 = arg4;
             var1 = 'background';
-            if(!(var1 !== var3)) { _fun0005_ip = 156; continue _fun0005 }
- 23:
+            if(!(var1 !== var3)) { _fun0005_ip = 58; continue _fun0005 }
+case 33:
             var1 = 'border';
-            if(!(var1 !== var3)) { _fun0005_ip = 156; continue _fun0005 }
- 34:
+            if(!(var1 !== var3)) { _fun0005_ip = 58; continue _fun0005 }
+case 59:
             var1 = 'text';
-            if(!(var1 !== var3)) { _fun0005_ip = 44; continue _fun0005 }
- 42:
+            if(!(var1 !== var3)) { _fun0005_ip = 60; continue _fun0005 }
+case 61:
             return var2;
- 44:
+case 60:
             var3 = _closure1_slot0;
             var4 = _closure1_slot1;
             var1 = 0;
@@ -457,13 +457,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = _closure1_slot9;
             var3 = _closure1_slot4;
             var1 = 'light';
-            if(!(var1 !== var9)) { _fun0005_ip = 100; continue _fun0005 }
- 94:
+            if(!(var1 !== var9)) { _fun0005_ip = 62; continue _fun0005 }
+case 63:
             var1 = _closure1_slot7;
-            _fun0005_ip = 104; continue _fun0005;
- 100:
+            _fun0005_ip = 64; continue _fun0005;
+case 62:
             var1 = _closure1_slot8;
- 104:
+case 64:
             var6 = var6.bind(var8)(var3, var1, var7);
             var1 = global;
             var1 = var1.HermesInternal;
@@ -475,7 +475,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var3.hex;
             var1 = var1.bind(var3)();
             return var1;
- 156:
+case 58:
             var3 = _closure1_slot0;
             var4 = _closure1_slot1;
             var1 = 0;
@@ -487,13 +487,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = _closure1_slot9;
             var2 = _closure1_slot4;
             var1 = 'light';
-            if(!(var1 !== var9)) { _fun0005_ip = 212; continue _fun0005 }
- 206:
+            if(!(var1 !== var9)) { _fun0005_ip = 65; continue _fun0005 }
+case 66:
             var1 = _closure1_slot5;
-            _fun0005_ip = 216; continue _fun0005;
- 212:
+            _fun0005_ip = 67; continue _fun0005;
+case 65:
             var1 = _closure1_slot6;
- 216:
+case 67:
             var5 = var5.bind(var6)(var2, var1, var7);
             var1 = global;
             var1 = var1.HermesInternal;

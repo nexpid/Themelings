@@ -41,16 +41,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function ActivityStatusText(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var6 = var3.children;
             var8 = var3.style;
             var9 = var3.variant;
             var4 = undefined;
-            if(!(var9 === var4)) { _fun0001_ip = 28; continue _fun0001 }
- 24:
+            if(!(var9 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var9 = 'text-xs/medium';
- 28:
+case 2:
             var2 = {'children': 0, 'style': 0, 'variant': 0};
             var12 = null;
             var13 = var2;

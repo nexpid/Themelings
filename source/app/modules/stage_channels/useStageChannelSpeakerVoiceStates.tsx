@@ -89,17 +89,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var11 = var3.isVersionEqual;
         var13 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var5 = _closure2_slot0;
                 var4 = _closure1_slot8;
-                if(!(var5 !== var4)) { _fun0001_ip = 41; continue _fun0001 }
- 20:
+                if(!(var5 !== var4)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                 var5 = _closure1_slot7;
                 var4 = var5.getChannels;
                 var3 = _closure2_slot0;
                 var5 = var4.bind(var5)(var3);
-                _fun0001_ip = 153; continue _fun0001;
- 41:
+                _fun0001_ip = 4; continue _fun0001;
+case 2:
                 var4 = _closure1_slot1;
                 var8 = _closure1_slot2;
                 var3 = 7;
@@ -135,7 +135,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var5 = var3.bind(var4)(var1);
- 153:
+case 4:
                 var4 = var5.reduce;
                 var3 = function(arg1, arg2) {
                     var1 = arg1;

@@ -30,7 +30,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.memo;
     var2 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var8 = var2.id;
             var13 = var2.avatar;
@@ -65,16 +65,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var21 = var1;
             var10 = var25[var2](var24, var23, var22, var21, var20);
             var2 = 30;
-            if(!(!(var1 < var2))) { _fun0001_ip = 165; continue _fun0001 }
- 156:
+            if(!(!(var1 < var2))) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = 10;
             var19 = var1 / var2;
-            _fun0001_ip = 175; continue _fun0001;
- 165:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var2 = -var1;
             var1 = 10;
             var19 = var2 / var1;
- 175:
+case 4:
             var3 = _closure1_slot4;
             var7 = _closure1_slot0;
             var15 = _closure1_slot2;

@@ -32,7 +32,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useStrangerDangerWarning(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var9 = arg1;
             var7 = _closure1_slot0;
             var8 = _closure1_slot1;
@@ -76,11 +76,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = null;
             var8 = var7 == var10;
             var7 = undefined;
-            if(var8) { _fun0001_ip = 183; continue _fun0001 }
- 173:
+            if(var8) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var8 = var10.isStaff;
             var7 = var8.bind(var10)();
- 183:
+case 2:
             var8 = _closure1_slot0;
             var10 = _closure1_slot1;
             var3 = 7;
@@ -91,19 +91,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var3.length;
             var3 = 0;
             var3 = var8 > var3;
-            if(var6) { _fun0001_ip = 234; continue _fun0001 }
- 228:
+            if(var6) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var6 = true;
-            if(!(var6 === var7)) { _fun0001_ip = 245; continue _fun0001 }
- 234:
-            if(var5) { _fun0001_ip = 245; continue _fun0001 }
- 237:
-            if(var4) { _fun0001_ip = 245; continue _fun0001 }
- 240:
-            if(var3) { _fun0001_ip = 245; continue _fun0001 }
- 243:
+            if(!(var6 === var7)) { _fun0001_ip = 6; continue _fun0001 }
+case 4:
+            if(var5) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+            if(var4) { _fun0001_ip = 6; continue _fun0001 }
+case 8:
+            if(var3) { _fun0001_ip = 6; continue _fun0001 }
+case 9:
             return var2;
- 245:
+case 6:
             return var1;
         }
     };

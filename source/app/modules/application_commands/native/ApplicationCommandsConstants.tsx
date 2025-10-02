@@ -1,7 +1,7 @@
 // app/modules/application_commands/native/ApplicationCommandsConstants.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
         var5 = require;
         var3 = exports;
         var6 = dependencyMap;
@@ -20,10 +20,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var4.isAndroid;
         var4 = var2.bind(var4)();
         var2 = 56;
-        if(!var4) { _fun0001_ip = 72; continue _fun0001 }
- 69:
+        if(!var4) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
         var2 = 64;
- 72:
+case 2:
         var4 = 1;
         var4 = var6[var4];
         var6 = var5.bind(var1)(var4);

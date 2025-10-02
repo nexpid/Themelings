@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function buildBaseEmbedProps(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = arg1;
             var7 = var2.titleText;
             var4 = var2.bodyText;
@@ -54,8 +54,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.bind(var6)(var1);
             var1 = var2.isAndroid;
             var1 = var1.bind(var2)();
-            if(var1) { _fun0001_ip = 252; continue _fun0001 }
- 211:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = {};
             var10 = var1;
             var9 = var3;
@@ -66,8 +66,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1[var2] = var4;
             var2 = 'subtitle';
             var1[var2] = var5;
-            _fun0001_ip = 287; continue _fun0001;
- 252:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var2 = {};
             var10 = var2;
             var9 = var3;
@@ -78,14 +78,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = 'subtitle';
             var2[var3] = var4;
             var1 = var2;
- 287:
+case 4:
             return var1;
         }
     };
     var _closure1_slot10 = var1;
     var1 = function buildSupportedOnMobileEmbedBodyText(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arg1;
             var5 = var1.quest;
             var1 = var5.config;
@@ -99,8 +99,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var1 instanceof Object ? var1 : var3;
             var1 = var3.toISOString;
             var1 = var1.bind(var3)();
-            if(!(!(var2 < var1))) { _fun0002_ip = 267; continue _fun0002 }
- 65:
+            if(!(!(var2 < var1))) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
             var1 = 8;
@@ -141,16 +141,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['connectedConsoleLinkOnClick'] = var7;
             var7 = null;
             var7 = var7 != var6;
-            if(!var7) { _fun0002_ip = 248; continue _fun0002 }
- 245:
+            if(!var7) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
             var4 = var6;
- 248:
+case 7:
             var1['thirdPartyTaskDetails'] = var4;
             var4 = true;
             var1['withoutMarkdown'] = var4;
             var1 = var2.bind(var3)(var1);
             return var1;
- 267:
+case 5:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var1 = 7;
@@ -175,13 +175,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot11 = var1;
     var1 = function buildQuestsEmbedProps(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var2 = arg1;
             var8 = var2.questId;
             var1 = var2.isEligibleForQuests;
             var2 = var2.themeColors;
-            if(var1) { _fun0003_ip = 204; continue _fun0003 }
- 30:
+            if(var1) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
             var5 = _closure1_slot10;
             var4 = {};
             var10 = _closure1_slot0;
@@ -220,7 +220,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4['thumbnailUrl'] = var6;
             var1 = var5.bind(var1)(var4);
             return var1;
- 204:
+case 9:
             var1 = _closure1_slot5;
             var4 = var1.quests;
             var1 = var4.get;
@@ -230,16 +230,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var4.get;
             var1 = var1.bind(var4)(var8);
             var10 = null;
-            if(!(var10 == var5)) { _fun0003_ip = 266; continue _fun0003 }
- 250:
+            if(!(var10 == var5)) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
             var4 = _closure1_slot5;
             var4 = var4.isFetchingCurrentQuests;
-            if(var4) { _fun0003_ip = 1562; continue _fun0003 }
- 266:
-            if(!(var10 == var1)) { _fun0003_ip = 1356; continue _fun0003 }
- 273:
-            if(!(var10 != var5)) { _fun0003_ip = 1145; continue _fun0003 }
- 280:
+            if(var4) { _fun0003_ip = 13; continue _fun0003 }
+case 11:
+            if(!(var10 == var1)) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
+            if(!(var10 != var5)) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
             var4 = _closure1_slot0;
             var1 = _closure1_slot2;
             var6 = 8;
@@ -249,8 +249,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var7.isShareableQuest;
             var1 = var5.config;
             var1 = var4.bind(var7)(var1);
-            if(var1) { _fun0003_ip = 531; continue _fun0003 }
- 324:
+            if(var1) { _fun0003_ip = 18; continue _fun0003 }
+case 19:
             var12 = _closure1_slot0;
             var13 = _closure1_slot2;
             var1 = 14;
@@ -294,8 +294,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7.uri;
             var1['thumbnailUrl'] = var7;
             var1 = var4.bind(var15)(var1);
-            _fun0003_ip = 1140; continue _fun0003;
- 531:
+            _fun0003_ip = 20; continue _fun0003;
+case 18:
             var4 = {};
             var4['themeColors'] = var2;
             var4['quest'] = var5;
@@ -305,10 +305,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var20.userStatus;
             var11 = var10 == var9;
             var4 = undefined;
-            if(var11) { _fun0003_ip = 581; continue _fun0003 }
- 575:
+            if(var11) { _fun0003_ip = 21; continue _fun0003 }
+case 22:
             var4 = var9.enrolledAt;
- 581:
+case 21:
             var11 = var10 != var4;
             var4 = var20.config;
             var9 = var4.expiresAt;
@@ -334,13 +334,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var12.isThemeDark;
             var12 = var4.bind(var12)(var13);
             var4 = _closure1_slot8;
-            if(var12) { _fun0003_ip = 704; continue _fun0003 }
- 696:
+            if(var12) { _fun0003_ip = 23; continue _fun0003 }
+case 24:
             var19 = var4.LIGHT;
-            _fun0003_ip = 710; continue _fun0003;
- 704:
+            _fun0003_ip = 25; continue _fun0003;
+case 23:
             var19 = var4.DARK;
- 710:
+case 25:
             var4 = _closure1_slot5;
             var4 = var4.questEnrollmentBlockedUntil;
             var10 = var10 != var4;
@@ -389,10 +389,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var26 = var13.bind(var15)(var12);
             var27 = var4;
             var12 = copyDataProperties(var27, var26);
-            if(var11) { _fun0003_ip = 1009; continue _fun0003 }
- 936:
-            if(var9) { _fun0003_ip = 1009; continue _fun0003 }
- 939:
+            if(var11) { _fun0003_ip = 26; continue _fun0003 }
+case 27:
+            if(var9) { _fun0003_ip = 26; continue _fun0003 }
+case 28:
             var14 = _closure1_slot0;
             var11 = _closure1_slot2;
             var12 = var11[var16];
@@ -402,17 +402,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var11[var16];
             var11 = var14.bind(var15)(var11);
             var11 = var11.t;
-            if(var10) { _fun0003_ip = 996; continue _fun0003 }
- 983:
+            if(var10) { _fun0003_ip = 29; continue _fun0003 }
+case 30:
             var10 = var11.kUQLMD;
             var10 = var12.bind(var13)(var10);
-            _fun0003_ip = 1007; continue _fun0003;
- 996:
+            _fun0003_ip = 31; continue _fun0003;
+case 29:
             var11 = var11.th2+0t;
             var10 = var12.bind(var13)(var11);
- 1007:
-            _fun0003_ip = 1080; continue _fun0003;
- 1009:
+case 31:
+            _fun0003_ip = 32; continue _fun0003;
+case 26:
             var14 = _closure1_slot0;
             var11 = _closure1_slot2;
             var12 = var11[var16];
@@ -422,17 +422,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var11[var16];
             var11 = var14.bind(var15)(var11);
             var11 = var11.t;
-            if(var9) { _fun0003_ip = 1066; continue _fun0003 }
- 1053:
+            if(var9) { _fun0003_ip = 33; continue _fun0003 }
+case 34:
             var9 = var11.th2+0t;
             var9 = var12.bind(var13)(var9);
-            _fun0003_ip = 1077; continue _fun0003;
- 1066:
+            _fun0003_ip = 35; continue _fun0003;
+case 33:
             var11 = var11.hvVgAQ;
             var9 = var12.bind(var13)(var11);
- 1077:
+case 35:
             var10 = var9;
- 1080:
+case 32:
             var9 = 'acceptLabelText';
             var4[var9] = var10;
             var9 = var7.acceptBlurpleLabelBackgroundColor;
@@ -445,9 +445,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = 'thumbnailCornerRadius';
             var4[var5] = var6;
             var1 = var4;
- 1140:
-            _fun0003_ip = 1351; continue _fun0003;
- 1145:
+case 20:
+            _fun0003_ip = 36; continue _fun0003;
+case 16:
             var11 = _closure1_slot0;
             var12 = _closure1_slot2;
             var4 = 14;
@@ -492,9 +492,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7.uri;
             var4['thumbnailUrl'] = var7;
             var1 = var5.bind(var6)(var4);
- 1351:
-            _fun0003_ip = 1560; continue _fun0003;
- 1356:
+case 36:
+            _fun0003_ip = 37; continue _fun0003;
+case 14:
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
             var4 = 14;
@@ -539,15 +539,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7.uri;
             var4['thumbnailUrl'] = var7;
             var1 = var5.bind(var6)(var4);
- 1560:
-            _fun0003_ip = 1580; continue _fun0003;
- 1562:
+case 37:
+            _fun0003_ip = 38; continue _fun0003;
+case 13:
             var4 = _closure1_slot10;
             var3 = {};
             var3['themeColors'] = var2;
             var2 = undefined;
             var1 = var4.bind(var2)(var3);
- 1580:
+case 38:
             return var1;
         }
     };

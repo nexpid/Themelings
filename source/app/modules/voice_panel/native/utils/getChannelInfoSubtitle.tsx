@@ -24,26 +24,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function getChannelInfoSubtitle(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arg1;
             var4 = arg2;
             var6 = arg3;
             var12 = arguments[3];
             var7 = undefined;
-            if(!(var12 === var7)) { _fun0001_ip = 20; continue _fun0001 }
- 18:
+            if(!(var12 === var7)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var12 = 0;
- 20:
+case 2:
             var2 = var6.length;
             var1 = 0;
-            if(!(var1 !== var2)) { _fun0001_ip = 369; continue _fun0001 }
- 34:
+            if(!(var1 !== var2)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var10 = 1;
-            if(!(var10 !== var2)) { _fun0001_ip = 330; continue _fun0001 }
- 44:
+            if(!(var10 !== var2)) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var13 = 2;
-            if(!(var13 !== var2)) { _fun0001_ip = 202; continue _fun0001 }
- 54:
+            if(!(var13 !== var2)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var3 = _closure1_slot0;
             var11 = _closure1_slot2;
             var2 = var11[var10];
@@ -74,7 +74,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['numPeople'] = var11;
             var2 = var8.bind(var9)(var3, var2);
             return var2;
- 202:
+case 8:
             var3 = _closure1_slot0;
             var11 = _closure1_slot2;
             var2 = var11[var10];
@@ -101,7 +101,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['user2'] = var10;
             var2 = var8.bind(var9)(var3, var2);
             return var2;
- 330:
+case 6:
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
             var2 = var2[var1];
@@ -110,7 +110,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var6[var1];
             var1 = var2.bind(var3)(var5, var4, var1);
             return var1;
- 369:
+case 4:
             var1 = null;
             return var1;
         }

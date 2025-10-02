@@ -47,7 +47,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['type'] = var4;
     var4 = function getPremiumSettingTitle() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
             var1 = 6;
@@ -72,15 +72,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var7[var2];
             var2 = var5.bind(var6)(var2);
             var2 = var2.t;
-            if(var1) { _fun0001_ip = 124; continue _fun0001 }
- 111:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = var2.8x0jKS;
             var1 = var3.bind(var4)(var1);
-            _fun0001_ip = 135; continue _fun0001;
- 124:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var2 = var2.8jmdOD;
             var1 = var3.bind(var4)(var2);
- 135:
+case 4:
             return var1;
         }
     };
@@ -97,7 +97,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var4.useCallback;
         var2 = function() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                 var2 = _closure1_slot1;
                 var4 = _closure1_slot2;
                 var1 = 8;
@@ -114,8 +114,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var6.bind(var7)(var5, var1);
                 var1 = var1.paymentsBlocked;
                 var1 = !var1;
-                if(var1) { _fun0002_ip = 96; continue _fun0002 }
- 70:
+                if(var1) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
                 var5 = _closure1_slot1;
                 var6 = _closure1_slot2;
                 var3 = 9;
@@ -123,7 +123,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var5.bind(var4)(var3);
                 var3 = var3.bind(var4)();
                 var1 = false;
- 96:
+case 5:
                 return var1;
             }
         };

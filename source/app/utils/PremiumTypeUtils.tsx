@@ -5,62 +5,62 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = dependencyMap;
     var6 = function isPremiumAtLeast(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var6 = arg1;
             var5 = arg2;
             var2 = null;
             var1 = var2 == var5;
-            if(var1) { _fun0001_ip = 48; continue _fun0001 }
- 15:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var2 != var6;
-            if(!var2) { _fun0001_ip = 45; continue _fun0001 }
- 22:
+            if(!var2) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var4 = _closure1_slot0;
             var4 = var4[var6];
             var3 = _closure1_slot0;
             var3 = var3[var5];
             var2 = var4 >= var3;
- 45:
+case 4:
             var1 = var2;
- 48:
+case 2:
             return var1;
         }
     };
     var _closure1_slot1 = var6;
     var4 = function isPremium(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var2 = arg1;
             var4 = null;
             var1 = var4 != var2;
-            if(!var1) { _fun0002_ip = 22; continue _fun0002 }
- 12:
+            if(!var1) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
             var3 = var2.premiumType;
             var1 = var4 != var3;
- 22:
-            if(!var1) { _fun0002_ip = 49; continue _fun0002 }
- 25:
+case 5:
+            if(!var1) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
             var5 = _closure1_slot1;
             var4 = var2.premiumType;
             var3 = undefined;
             var2 = arg2;
             var1 = var5.bind(var3)(var4, var2);
- 49:
+case 7:
             return var1;
         }
     };
     var2 = function isPremiumExactly(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
             var2 = arg1;
             var1 = null;
             var1 = var1 != var2;
-            if(!var1) { _fun0003_ip = 25; continue _fun0003 }
- 12:
+            if(!var1) { _fun0003_ip = 8; continue _fun0003 }
+case 6:
             var3 = var2.premiumType;
             var2 = arg2;
             var1 = var3 === var2;
- 25:
+case 8:
             return var1;
         }
     };
@@ -92,19 +92,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['isPremiumAtLeast'] = var6;
     var5 = function isPremiumAtMost(arg1, arg2) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
+case 0:
             var4 = arg1;
             var1 = null;
             var1 = var1 == var4;
-            if(var1) { _fun0004_ip = 38; continue _fun0004 }
- 12:
+            if(var1) { _fun0004_ip = 9; continue _fun0004 }
+case 6:
             var3 = _closure1_slot0;
             var3 = var3[var4];
             var4 = _closure1_slot0;
             var2 = arg2;
             var2 = var4[var2];
             var1 = var3 <= var2;
- 38:
+case 9:
             return var1;
         }
     };

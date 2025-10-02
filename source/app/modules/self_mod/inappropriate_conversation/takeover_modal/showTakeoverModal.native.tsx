@@ -29,7 +29,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function showTakeoverModal(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var10 = var1.warningId;
             var9 = var1.warningType;
@@ -46,8 +46,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = 'takeover-modal';
             var3['location'] = var6;
             var3 = var4.bind(var5)(var3);
-            if(!var3) { _fun0001_ip = 169; continue _fun0001 }
- 77:
+            if(!var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = _closure1_slot1;
             var3 = _closure1_slot2;
             var4 = 2;
@@ -69,7 +69,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['channelId'] = var7;
             var2 = _closure1_slot3;
             var2 = var5.bind(var6)(var4, var3, var2);
- 169:
+case 2:
             return var1;
         }
     };

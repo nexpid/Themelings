@@ -55,7 +55,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['IconComponent'] = var7;
     var4 = function useAppVersionSettingTrailing() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var2 = _closure1_slot0;
             var9 = _closure1_slot2;
             var8 = 3;
@@ -92,8 +92,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var3.concat;
             var4 = '';
             var3 = ' (';
-            if(var1) { _fun0001_ip = 199; continue _fun0001 }
- 172:
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var11 = ') - ';
             var15 = var4;
             var14 = var6;
@@ -101,15 +101,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var2;
             var10 = var7;
             var1 = var15[var5](var14, var13, var12, var11, var10, var9);
-            _fun0001_ip = 219; continue _fun0001;
- 199:
+            _fun0001_ip = 4; continue _fun0001;
+case 2:
             var11 = ')';
             var15 = var4;
             var14 = var6;
             var13 = var3;
             var12 = var7;
             var1 = var15[var5](var14, var13, var12, var11, var10);
- 219:
+case 4:
             return var1;
         }
     };

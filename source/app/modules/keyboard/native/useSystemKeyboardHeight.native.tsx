@@ -39,30 +39,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = function useSystemKeyboardHeight() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arguments[0];
             var3 = undefined;
-            if(!(var1 === var3)) { _fun0001_ip = 16; continue _fun0001 }
- 9:
+            if(!(var1 === var3)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var1 = _closure1_slot4;
- 16:
+case 2:
             var1 = var1.excludeSafeAreaInsets;
-            if(!(var1 === var3)) { _fun0001_ip = 28; continue _fun0001 }
- 26:
+            if(!(var1 === var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var1 = false;
- 28:
+case 4:
             var5 = _closure1_slot0;
             var6 = _closure1_slot1;
             var2 = 0;
             var2 = var6[var2];
             var2 = var5.bind(var3)(var2);
-            if(var1) { _fun0001_ip = 59; continue _fun0001 }
- 53:
+            if(var1) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var1 = _closure1_slot2;
-            _fun0001_ip = 63; continue _fun0001;
- 59:
+            _fun0001_ip = 8; continue _fun0001;
+case 6:
             var1 = _closure1_slot3;
- 63:
+case 8:
             var1 = var2.bind(var3)(var1);
             return var1;
         }
@@ -70,13 +70,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['default'] = var4;
     var2 = function getSystemKeyboardHeight() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
             var1 = arguments[0];
             var4 = undefined;
-            if(!(var1 === var4)) { _fun0002_ip = 16; continue _fun0002 }
- 9:
+            if(!(var1 === var4)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
             var1 = _closure1_slot4;
- 16:
+case 2:
             var1 = var1.excludeSafeAreaInsets;
             var3 = _closure1_slot0;
             var5 = _closure1_slot1;
@@ -85,13 +85,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var4)(var2);
             var2 = var3.getState;
             var2 = var2.bind(var3)();
-            if(var1) { _fun0002_ip = 65; continue _fun0002 }
- 57:
+            if(var1) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
             var1 = var2.keyboardHeight;
-            _fun0002_ip = 71; continue _fun0002;
- 65:
+            _fun0002_ip = 11; continue _fun0002;
+case 9:
             var1 = var2.keyboardHeightExcludingSafeAreaInsets;
- 71:
+case 11:
             return var1;
         }
     };

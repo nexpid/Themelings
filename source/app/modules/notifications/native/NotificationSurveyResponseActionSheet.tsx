@@ -97,7 +97,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function NotificationSurveyResponseActionSheet(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var9 = var1.header;
             var1 = _closure1_slot8;
@@ -113,8 +113,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = {};
             var5 = null;
             var6 = var5 != var9;
-            if(!var6) { _fun0001_ip = 143; continue _fun0001 }
- 62:
+            if(!var6) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var8 = _closure1_slot6;
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
@@ -134,7 +134,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var8.bind(var4)(var10, var9);
             var5['trailing'] = var9;
             var6 = var8.bind(var4)(var7, var5);
- 143:
+case 2:
             var5 = new Array(2);
             var5[0] = var6;
             var8 = _closure1_slot7;

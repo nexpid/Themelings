@@ -33,7 +33,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function createInGameMessageNuxSystemMessage(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var5 = arg1;
             var3 = var5.message;
             var2 = var5.theme;
@@ -51,13 +51,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = null;
             var11 = var1 != var10;
             var2 = '';
-            if(!var11) { _fun0001_ip = 81; continue _fun0001 }
- 78:
+            if(!var11) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var2 = var10;
- 81:
+case 2:
             var2 = var6.bind(var7)(var2);
-            if(!(var1 != var2)) { _fun0001_ip = 357; continue _fun0001 }
- 93:
+            if(!(var1 != var2)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
             var10 = {};
             var11 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -117,7 +117,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var2;
             var3 = copyDataProperties(var15, var14);
             return var2;
- 357:
+case 4:
             return var1;
         }
     };

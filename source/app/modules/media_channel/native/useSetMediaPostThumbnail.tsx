@@ -53,7 +53,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4[0] = var3;
         var3 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                 var4 = _closure1_slot5;
                 var3 = var4.getUploads;
                 var2 = _closure2_slot0;
@@ -63,21 +63,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var3.find;
                 var1 = function(arg1) {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                         var2 = arg1;
                         var4 = null;
                         var1 = var4 == var2;
                         var5 = undefined;
                         var3 = undefined;
-                        if(var1) { _fun0002_ip = 36; continue _fun0002 }
- 16:
+                        if(var1) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                         var1 = var2.item;
                         var4 = var4 == var1;
                         var3 = undefined;
-                        if(var4) { _fun0002_ip = 36; continue _fun0002 }
- 30:
+                        if(var4) { _fun0002_ip = 2; continue _fun0002 }
+case 4:
                         var3 = var1.platform;
- 36:
+case 2:
                         var4 = _closure1_slot0;
                         var6 = _closure1_slot2;
                         var1 = 4;
@@ -86,22 +86,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var1 = var1.UploadPlatform;
                         var1 = var1.REACT_NATIVE;
                         var1 = var3 === var1;
-                        if(!var1) { _fun0002_ip = 90; continue _fun0002 }
- 78:
+                        if(!var1) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
                         var3 = var2.isThumbnail;
                         var2 = true;
                         var1 = var2 === var3;
- 90:
+case 5:
                         return var1;
                     }
                 };
                 var2 = var2.bind(var3)(var1);
                 var1 = null;
                 var3 = var1 != var2;
-                if(!var3) { _fun0001_ip = 68; continue _fun0001 }
- 65:
+                if(!var3) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
                 var1 = var2;
- 68:
+case 7:
                 return var1;
             }
         };
@@ -115,37 +115,37 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[2] = var5;
         var1 = function() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
+case 0:
                 var1 = _closure2_slot1;
                 var5 = null;
                 var4 = var5 == var1;
                 var1 = undefined;
                 var2 = undefined;
-                if(var4) { _fun0003_ip = 29; continue _fun0003 }
- 20:
+                if(var4) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
                 var4 = _closure2_slot1;
                 var2 = var4.id;
- 29:
-                if(!(var5 != var2)) { _fun0003_ip = 317; continue _fun0003 }
- 36:
+case 9:
+                if(!(var5 != var2)) { _fun0003_ip = 11; continue _fun0003 }
+case 2:
                 var2 = _closure2_slot2;
                 var2 = var5 != var2;
-                if(!var2) { _fun0003_ip = 82; continue _fun0003 }
- 47:
+                if(!var2) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
                 var4 = _closure2_slot2;
                 var6 = var4.id;
                 var4 = _closure2_slot1;
                 var7 = var5 == var4;
                 var4 = undefined;
-                if(var7) { _fun0003_ip = 78; continue _fun0003 }
- 69:
+                if(var7) { _fun0003_ip = 6; continue _fun0003 }
+case 14:
                 var7 = _closure2_slot1;
                 var4 = var7.id;
- 78:
+case 6:
                 var2 = var6 !== var4;
- 82:
-                if(!var2) { _fun0003_ip = 156; continue _fun0003 }
- 85:
+case 12:
+                if(!var2) { _fun0003_ip = 15; continue _fun0003 }
+case 16:
                 var6 = _closure1_slot1;
                 var7 = _closure1_slot2;
                 var4 = 5;
@@ -163,20 +163,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var15 = var9;
                 var11 = var2;
                 var2 = var15[var8](var14, var13, var12, var11, var10);
- 156:
+case 15:
                 var2 = _closure2_slot1;
                 var4 = var5 == var2;
                 var2 = undefined;
-                if(var4) { _fun0003_ip = 179; continue _fun0003 }
- 169:
+                if(var4) { _fun0003_ip = 17; continue _fun0003 }
+case 18:
                 var4 = _closure2_slot1;
                 var2 = var4.isThumbnail;
- 179:
+case 17:
                 var9 = var5 != var2;
-                if(!var9) { _fun0003_ip = 189; continue _fun0003 }
- 186:
+                if(!var9) { _fun0003_ip = 19; continue _fun0003 }
+case 20:
                 var9 = var2;
- 189:
+case 19:
                 var6 = _closure1_slot1;
                 var7 = _closure1_slot2;
                 var4 = 5;
@@ -187,11 +187,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = _closure2_slot1;
                 var4 = var5 == var4;
                 var5 = undefined;
-                if(var4) { _fun0003_ip = 244; continue _fun0003 }
- 235:
+                if(var4) { _fun0003_ip = 21; continue _fun0003 }
+case 22:
                 var3 = _closure2_slot1;
                 var5 = var3.id;
- 244:
+case 21:
                 var3 = _closure1_slot4;
                 var12 = var3.ChannelMessage;
                 var3 = {};
@@ -211,7 +211,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var3.bind(var1)(var2);
                 var2 = var3.hideActionSheet;
                 var2 = var2.bind(var3)();
- 317:
+case 11:
                 return var1;
             }
         };

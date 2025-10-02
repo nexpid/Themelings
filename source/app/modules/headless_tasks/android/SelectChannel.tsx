@@ -28,10 +28,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.awaitStorage;
             var2 = function() {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
                     var1 = _closure2_slot1;
-                    if(!var1) { _fun0001_ip = 50; continue _fun0001 }
- 10:
+                    if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
                     var1 = 1;
@@ -41,7 +41,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var4.selectVoiceChannel;
                     var1 = _closure2_slot0;
                     var1 = var3.bind(var4)(var1);
- 50:
+case 2:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
                     var1 = 2;

@@ -32,17 +32,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function useFilterAndSortToOnlyFrecentCommands(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var3 = arg1;
             var10 = var3.context;
             var2 = var3.commands;
             var _closure2_slot0 = var2;
             var5 = var3.limit;
             var8 = undefined;
-            if(!(var5 === var8)) { _fun0001_ip = 36; continue _fun0001 }
- 31:
+            if(!(var5 === var8)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
             var5 = var2.length;
- 36:
+case 2:
             var _closure2_slot1 = var5;
             var _closure2_slot2 = var8;
             var _closure2_slot3 = var8;

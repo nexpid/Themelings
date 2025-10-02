@@ -84,7 +84,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function GameConsoleConnecting(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
+case 0:
             var1 = arg1;
             var1 = var1.awaitingRemoteSessionInfo;
             var3 = _closure1_slot10;
@@ -116,18 +116,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[0] = var8;
             var2 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
+case 0:
                     var2 = _closure2_slot1;
-                    if(!var2) { _fun0002_ip = 35; continue _fun0002 }
- 10:
+                    if(!var2) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var1 = _closure2_slot0;
                     var2 = var1.current;
                     var1 = null;
-                    if(!(var1 != var2)) { _fun0002_ip = 35; continue _fun0002 }
- 25:
+                    if(!(var1 != var2)) { _fun0002_ip = 2; continue _fun0002 }
+case 4:
                     var1 = var2.reset;
                     var1 = var1.bind(var2)();
- 35:
+case 2:
                     var1 = undefined;
                     return var1;
                 }
@@ -136,16 +136,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var1.type;
             var1 = _closure1_slot8;
             var1 = var1.XBOX;
-            if(!(var1 !== var2)) { _fun0001_ip = 318; continue _fun0001 }
- 146:
+            if(!(var1 !== var2)) { _fun0001_ip = 5; continue _fun0001 }
+case 6:
             var1 = _closure1_slot8;
             var1 = var1.PLAYSTATION;
-            if(!(var1 !== var2)) { _fun0001_ip = 242; continue _fun0001 }
- 160:
+            if(!(var1 !== var2)) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
             var1 = _closure1_slot8;
             var1 = var1.PLAYSTATION_STAGING;
-            if(!(var1 !== var2)) { _fun0001_ip = 242; continue _fun0001 }
- 174:
+            if(!(var1 !== var2)) { _fun0001_ip = 7; continue _fun0001 }
+case 9:
             var3 = _closure1_slot9;
             var2 = _closure1_slot5;
             var1 = {'animating': true, 'size': 'large'};
@@ -158,8 +158,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.WHITE_500;
             var1['color'] = var5;
             var5 = var3.bind(var4)(var2, var1);
-            _fun0001_ip = 392; continue _fun0001;
- 242:
+            _fun0001_ip = 10; continue _fun0001;
+case 7:
             var3 = _closure1_slot9;
             var2 = _closure1_slot1;
             var12 = _closure1_slot2;
@@ -178,8 +178,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = !var8;
             var1['autoPlay'] = var10;
             var5 = var3.bind(var4)(var2, var1);
-            _fun0001_ip = 392; continue _fun0001;
- 318:
+            _fun0001_ip = 10; continue _fun0001;
+case 5:
             var3 = _closure1_slot9;
             var2 = _closure1_slot1;
             var11 = _closure1_slot2;
@@ -198,7 +198,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = !var8;
             var1['autoPlay'] = var8;
             var5 = var3.bind(var4)(var2, var1);
- 392:
+case 10:
             var3 = _closure1_slot9;
             var2 = _closure1_slot4;
             var1 = {};
