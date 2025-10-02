@@ -1,4 +1,4 @@
-// app/modules/people/AcceptFriendRequestModalActionCreators.native.tsx
+// app/modules/people/strangers/AcceptFriendRequestModalActionCreators.native.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var3 = exports;
@@ -35,7 +35,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/people/AcceptFriendRequestModalActionCreators.native.tsx';
+    var4 = 'modules/people/strangers/AcceptFriendRequestModalActionCreators.native.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function openAcceptFriendRequestConfirmModal(arg1) {
         var1 = arg1;

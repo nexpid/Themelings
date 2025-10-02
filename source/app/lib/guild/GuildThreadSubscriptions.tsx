@@ -298,7 +298,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = arg1;
                 var1 = var2[var1];
                 var2 = null;
-                if(!(var2 == var1)) { _fun0005_ip = 77; continue _fun0005 }
+                if(!(var2 == var1)) { _fun0005_ip = 81; continue _fun0005 }
  22:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot1;
@@ -312,7 +312,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var3;
                 var2 = new var6[var4](var5, var4);
                 var1 = var2 instanceof Object ? var2 : var3;
- 77:
+ 81:
                 return var1;
             }
         };

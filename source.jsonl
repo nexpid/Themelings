@@ -117,7 +117,7 @@
 { "file": "app/modules/user_settings/SelectivelySyncedUserSettingsStore.tsx", "size": 14373 }
 { "file": "app/modules/user_settings/UserSettingsProtoUtils.tsx", "size": 3166 }
 { "file": "app/utils/Uint8ArrayUtils.tsx", "size": 4258 }
-{ "file": "discord_common/js/packages/protos/discord_protos/discord_users/v1/dismissible_content.tsx", "size": 62080 }
+{ "file": "discord_common/js/packages/protos/discord_protos/discord_users/v1/dismissible_content.tsx", "size": 62201 }
 { "file": "app/modules/dismissible_content/DCFEventStore.tsx", "size": 6075 }
 { "file": "app/modules/dismissible_content/DismissibleContentFrameworkStore.tsx", "size": 23376 }
 { "file": "app/modules/dismissible_content/DismissibleContentFatigueConfig.tsx", "size": 21779 }
@@ -2642,7 +2642,7 @@
 { "file": "app/modules/action_sheet/native/ShowShareActionSheetUtils.tsx", "size": 1463 }
 { "file": "app/modules/forwarding/native/ForwardModalUtils.tsx", "size": 5312 }
 { "file": "app/modules/forwarding/ForwardingAnalyticsUtils.tsx", "size": 9826 }
-{ "file": "app/modules/forwarding/native/ForwardModal.tsx", "size": 47959 }
+{ "file": "app/modules/forwarding/native/ForwardModal.tsx", "size": 47957 }
 { "file": "app/modules/forwarding/ForwardConstants.tsx", "size": 666 }
 { "file": "app/modules/main_tabs_v2/native/shared_components/user_list/UserRowConstants.tsx", "size": 837 }
 { "file": "app/modules/share/formatResults.tsx", "size": 32284 }
@@ -3157,9 +3157,9 @@
 { "file": "app/modules/main_tabs_v2/native/shared_components/user_list/UserRow.tsx", "size": 69321 }
 { "file": "app/modules/people/PeopleUtils.tsx", "size": 15259 }
 { "file": "app/modules/game_relationships/GameRelationshipActionCreators.tsx", "size": 15377 }
-{ "file": "app/modules/people/AcceptFriendRequestModalActionCreators.native.tsx", "size": 4226 }
+{ "file": "app/modules/people/strangers/AcceptFriendRequestModalActionCreators.native.tsx", "size": 4236 }
 { "file": "app/modules/people/Constants.tsx", "size": 992 }
-{ "file": "app/modules/people/native/AcceptRequestConfirmationModal.tsx", "size": 4966 }
+{ "file": "app/modules/people/strangers/native/AcceptRequestConfirmationModal.tsx", "size": 4976 }
 { "file": "app/components_native/common/ActionButton.tsx", "size": 4912 }
 { "file": "app/modules/nameplates/hooks/useNameplate.tsx", "size": 5093 }
 { "file": "app/modules/nameplates/experiments/NameplatesPerServerExperiment.tsx", "size": 1148 }
@@ -6800,7 +6800,7 @@
 { "file": "app/modules/notification_center/useGetOrFetchNotificationCenterItemApplications.tsx", "size": 4214 }
 { "file": "app/modules/notification_center/NotificationCenterStoreActions.tsx", "size": 2133 }
 { "file": "app/modules/notification_center/native/ForYouMentionPlaceholder.tsx", "size": 7940 }
-{ "file": "app/modules/notification_center/native/ForYouItems.tsx", "size": 87337 }
+{ "file": "app/modules/notification_center/native/ForYouItems.tsx", "size": 87335 }
 { "file": "app/modules/notification_center/useNotificationCenterItemAcked.tsx", "size": 2245 }
 { "file": "app/design/components/Icon/native/redesign/generated/LightbulbIcon.tsx", "size": 2491 }
 { "file": "app/modules/notification_center/native/ForYouItemActionButtons.tsx", "size": 76422 }

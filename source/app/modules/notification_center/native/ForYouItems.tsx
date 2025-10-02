@@ -1121,7 +1121,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = _closure2_slot0;
                     var3 = var2.deeplink;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0008_ip = 102; continue _fun0008 }
+                    if(!(var2 != var3)) { _fun0008_ip = 98; continue _fun0008 }
  19:
                     var2 = _closure1_slot1;
                     var5 = _closure1_slot3;
@@ -1139,7 +1139,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = {'payload': null, 'safe': true, 'navigationReplace': false};
                     var1['payload'] = var4;
                     var1 = var2.bind(var3)(var1);
- 102:
+ 98:
                     var1 = undefined;
                     return var1;
                 }

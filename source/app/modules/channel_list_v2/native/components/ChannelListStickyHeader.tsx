@@ -313,7 +313,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = new Array(2);
             var5[0] = var9;
             var6 = null;
-            if(!var8) { _fun0001_ip = 842; continue _fun0001 }
+            if(!var8) { _fun0001_ip = 846; continue _fun0001 }
  796:
             var9 = _closure1_slot5;
             var8 = _closure1_slot1;
@@ -324,7 +324,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = {'guild': null, 'useButtonComponent': true, 'useEventsButton': true};
             var7['guild'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 842:
+ 846:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

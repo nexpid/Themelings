@@ -1,4 +1,4 @@
-// app/modules/people/native/AcceptRequestConfirmationModal.tsx
+// app/modules/people/strangers/native/AcceptRequestConfirmationModal.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var12 = metroImportDefault;
@@ -55,7 +55,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/people/native/AcceptRequestConfirmationModal.tsx';
+    var4 = 'modules/people/strangers/native/AcceptRequestConfirmationModal.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function AcceptRequestConfirmationModal(arg1) {
         var1 = arg1;
