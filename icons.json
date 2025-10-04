@@ -1863,6 +1863,16 @@
         "width": 552,
         "height": 336
     },
+    "ClipboardCheckIcon": {
+        "file": "app/design/components/Icon/native/redesign/generated/images/ClipboardCheckIcon.png",
+        "hash": "aa4818ece5bb8e53f0c4982e0a8de4df",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "ClipboardListIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ClipboardListIcon.png",
         "hash": "abe513d3e06dcc767b3bf67635e8823c",
@@ -2045,7 +2055,7 @@
     },
     "ConnectionBadIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ConnectionBadIcon.png",
-        "hash": "74ba790517fcf9e9c8af80d8a1a2cd02",
+        "hash": "a107d4ca1ffc740ad769b9821279d478",
         "scales": [
             2,
             3
@@ -10033,7 +10043,7 @@
     },
     "MagicWandIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/MagicWandIcon.png",
-        "hash": "9122c15876f65ed5997d8dad09d5af40",
+        "hash": "051985e634394e59375413eba7827968",
         "scales": [
             2,
             3
@@ -10609,7 +10619,7 @@
     },
     "NitroWheelIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/NitroWheelIcon.png",
-        "hash": "f4dfcf53a5124f22ea02574792f5e3f2",
+        "hash": "160522c3ca5f61b133b684d600afa4ad",
         "scales": [
             2,
             3
