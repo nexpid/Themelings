@@ -53,6 +53,7 @@ jobs:
                   code_webhook: ${{ secrets.CODE_WEBHOOK }}
                   color_webhook: ${{ secrets.COLOR_WEBHOOK }}
                   icons_webhook: ${{ secrets.ICONS_WEBHOOK }}
+                  bot_token: ${{ secrets.BOT_TOKEN }}
               working-directory: main
               run: bun run update:prod
 
