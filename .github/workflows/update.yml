@@ -57,7 +57,12 @@ jobs:
               working-directory: main
               run: bun run update:prod
 
+            - name: Tag changes
+              if: ${{ steps.versioner.outputs.version != 'false' }}
+              working-directory: data
+              run: git tag ${{ steps.versioner.outputs.version }}
+
             - name: Publish changes
               if: ${{ steps.versioner.outputs.version != 'false' }}
               working-directory: data
-              run: git push
+              run: git push --tags
