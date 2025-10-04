@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var9;
     var5 = function fetchApplication() {
         var1 = undefined;
-        var4 = _closure1_slot13;
+        var4 = _closure1_slot12;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -17,7 +17,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot12 = var5;
+    var _closure1_slot11 = var5;
     var1 = function _fetchApplication() {
         var5 = undefined;
         var1 = undefined;
@@ -128,7 +128,7 @@ case 2:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot13 = var4;
+        _closure1_slot12 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -136,7 +136,7 @@ case 2:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot13 = var1;
+    var _closure1_slot12 = var1;
     var1 = global;
     var10 = var1.Object;
     var7 = var10.defineProperty;
@@ -171,8 +171,7 @@ case 2:
     var _closure1_slot8 = var6;
     var6 = var4.NOOP;
     var _closure1_slot9 = var6;
-    var4 = var4.QueryIds;
-    var _closure1_slot10 = var4;
+    var12 = var4.QueryIds;
     var6 = {};
     var4 = function createApplication(arg1) {
         var2 = arg1;
@@ -677,67 +676,78 @@ case 38:
     };
     var6['fetchApplications'] = var4;
     var6['fetchApplication'] = var5;
-    var12 = 8;
-    var4 = var9[var12];
+    var4 = 8;
+    var4 = var9[var4];
     var10 = var8.bind(var1)(var4);
     var7 = var10.createFetchStore;
     var4 = {};
-    var13 = function queryId(arg1) {
-        var3 = _closure1_slot10;
-        var2 = var3.APPLICATIONS;
-        var1 = arg1;
-        var1 = var2.bind(var3)(var1);
-        return var1;
-    };
-    var4['queryId'] = var13;
-    var13 = function get(arg1) {
+    var12 = var12.APPLICATIONS;
+    var4['getQueryId'] = var12;
+    var12 = function get(arg1) {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
-            var4 = arg1;
+            var5 = arg1;
+            var4 = null;
+            var2 = var4 != var5;
             var1 = null;
-            var2 = var1 != var4;
             if(!var2) { _fun0009_ip = 70; continue _fun0009 }
-case 39:
+case 71:
             var3 = _closure1_slot6;
             var2 = var3.getApplication;
-            var1 = var2.bind(var3)(var4);
+            var2 = var2.bind(var3)(var5);
+            var3 = var4 != var2;
+            var1 = null;
+            if(!var3) { _fun0009_ip = 70; continue _fun0009 }
+case 72:
+            var1 = var2;
 case 70:
             return var1;
         }
     };
-    var4['get'] = var13;
-    var13 = function load(arg1, arg2) {
+    var4['get'] = var12;
+    var12 = function load(arg1) {
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
-            var7 = arg2;
+            var6 = arg1;
             var1 = null;
-            if(!(var1 == var7)) { _fun0010_ip = 71; continue _fun0010 }
-case 72:
+            if(!(var1 == var6)) { _fun0010_ip = 73; continue _fun0010 }
+case 74:
             var1 = global;
             var2 = var1.Promise;
             var1 = var2.resolve;
             var1 = var1.bind(var2)();
-            _fun0010_ip = 73; continue _fun0010;
-case 71:
-            var6 = _closure1_slot12;
-            var5 = undefined;
-            var4 = false;
-            var3 = arg1;
-            var4 = var6.bind(var5)(var7, var4, var3);
+            _fun0010_ip = 42; continue _fun0010;
+case 73:
+            var5 = _closure1_slot11;
+            var4 = undefined;
+            var3 = false;
+            var4 = var5.bind(var4)(var6, var3);
             var3 = var4.then;
             var2 = _closure1_slot9;
             var1 = var3.bind(var4)(var2);
-case 73:
+case 42:
             return var1;
         }
     };
-    var4['load'] = var13;
-    var12 = var9[var12];
-    var12 = var8.bind(var1)(var12);
-    var12 = var12.useStateFromStores;
-    var4['useStateHook'] = var12;
+    var4['load'] = var12;
+    var12 = function getIsLoading(arg1) {
+        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+case 0:
+            var4 = arg1;
+            var1 = null;
+            var1 = var1 != var4;
+            if(!var1) { _fun0011_ip = 75; continue _fun0011 }
+case 39:
+            var3 = _closure1_slot6;
+            var2 = var3.isFetchingApplication;
+            var1 = var2.bind(var3)(var4);
+case 75:
+            return var1;
+        }
+    };
+    var4['getIsLoading'] = var12;
     var4 = var7.bind(var10)(var11, var4);
-    var _closure1_slot11 = var4;
+    var _closure1_slot10 = var4;
     var7 = 9;
     var7 = var9[var7];
     var9 = var8.bind(var1)(var7);
@@ -748,55 +758,64 @@ case 73:
     var3['fetchApplication'] = var5;
     var3['useApplication'] = var4;
     var2 = function useApplicationWithLoggedOutContext(arg1) {
-        var10 = arg1;
-        var _closure2_slot0 = var10;
-        var1 = _closure1_slot11;
-        var8 = undefined;
-        var1 = var1.bind(var8)(var10);
-        var9 = var1.data;
-        var _closure2_slot1 = var9;
-        var3 = var1.isLoading;
-        var2 = var1.error;
-        var1 = {};
-        var7 = _closure1_slot0;
-        var11 = _closure1_slot2;
-        var6 = 8;
-        var6 = var11[var6];
-        var8 = var7.bind(var8)(var6);
-        var7 = var8.useStateFromStores;
-        var5 = _closure1_slot4;
-        var6 = new Array(1);
-        var6[0] = var5;
-        var5 = new Array(2);
-        var5[0] = var10;
-        var5[1] = var9;
-        var4 = function() {
-            _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
-                var1 = _closure2_slot1;
-                var4 = null;
-                if(!(var4 == var1)) { _fun0011_ip = 74; continue _fun0011 }
+            var11 = arg1;
+            var _closure2_slot0 = var11;
+            var1 = _closure1_slot10;
+            var2 = undefined;
+            var1 = var1.bind(var2)(var11);
+            var10 = var1.data;
+            var _closure2_slot1 = var10;
+            var4 = var1.isLoading;
+            var3 = var1.error;
+            var1 = {};
+            var8 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var7 = 8;
+            var7 = var9[var7];
+            var9 = var8.bind(var2)(var7);
+            var8 = var9.useStateFromStores;
+            var6 = _closure1_slot4;
+            var7 = new Array(1);
+            var7[0] = var6;
+            var6 = new Array(2);
+            var6[0] = var11;
+            var6[1] = var10;
+            var5 = function() {
+                _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+case 0:
+                    var1 = _closure2_slot1;
+                    var4 = null;
+                    if(!(var4 == var1)) { _fun0013_ip = 76; continue _fun0013 }
 case 3:
-                var6 = _closure1_slot4;
-                var5 = var6.getApplication;
-                var3 = _closure2_slot0;
-                var3 = var5.bind(var6)(var3);
-                if(!(var4 == var3)) { _fun0011_ip = 75; continue _fun0011 }
-case 74:
-                var2 = _closure2_slot1;
-                return var2;
-case 75:
-                var2 = _closure1_slot5;
-                var1 = var2.createFromServer;
-                var1 = var1.bind(var2)(var3);
-                return var1;
-            }
-        };
-        var4 = var7.bind(var8)(var6, var4, var5);
-        var1['app'] = var4;
-        var1['isLoading'] = var3;
-        var1['error'] = var2;
-        return var1;
+                    var6 = _closure1_slot4;
+                    var5 = var6.getApplication;
+                    var3 = _closure2_slot0;
+                    var3 = var5.bind(var6)(var3);
+                    if(!(var4 == var3)) { _fun0013_ip = 77; continue _fun0013 }
+case 76:
+                    var2 = _closure2_slot1;
+                    return var2;
+case 77:
+                    var2 = _closure1_slot5;
+                    var1 = var2.createFromServer;
+                    var1 = var1.bind(var2)(var3);
+                    return var1;
+                }
+            };
+            var5 = var8.bind(var9)(var7, var5, var6);
+            var1['app'] = var5;
+            var1['isLoading'] = var4;
+            var4 = null;
+            var4 = var4 != var3;
+            if(!var4) { _fun0012_ip = 47; continue _fun0012 }
+case 22:
+            var2 = var3;
+case 47:
+            var1['error'] = var2;
+            return var1;
+        }
     };
     var3['useApplicationWithLoggedOutContext'] = var2;
     return var1;

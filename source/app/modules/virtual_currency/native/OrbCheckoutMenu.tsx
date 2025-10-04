@@ -98,6 +98,8 @@ case 3:
                 var1 = {};
                 var5 = _closure2_slot0;
                 var1['skuId'] = var5;
+                var5 = new Array(0);
+                var1['analyticsLocations'] = var5;
                 var5 = function onCheckoutSuccess() {
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;

@@ -17,11 +17,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['PREMIUM_CHECKOUT_SUCCESS'] = var1;
     var1 = 'premium_subscription_update';
     var4['PREMIUM_SUBSCRIPTION_UPDATE'] = var1;
+    var1 = 'guild_boost_checkout_success';
+    var4['GUILD_BOOST_CHECKOUT_SUCCESS'] = var1;
     var1 = 'default';
     var4['DEFAULT'] = var1;
     var2 = {};
     var1 = 'deep_link_action';
     var2['DEEP_LINK_ACTION'] = var1;
+    var1 = 'guild_id';
+    var2['GUILD_ID'] = var1;
     var6 = dependencyMap;
     var1 = 0;
     var7 = var6[var1];

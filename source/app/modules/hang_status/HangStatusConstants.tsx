@@ -46,6 +46,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['STATUS_MAX_LENGTH'] = var5;
     var5 = 'HangStatusActionSheet';
     var3['HANG_STATUS_ACTION_SHEET_KEY'] = var5;
+    var5 = 'HangStatusFavoriteActionSheet';
+    var3['HANG_STATUS_FAVORITE_ACTION_SHEET_KEY'] = var5;
     var3['HangStatusTypes'] = var4;
     var3['SYSTEM_HANG_STATUS_TYPES'] = var2;
     return var1;

@@ -38,13 +38,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot9 = var2;
+            _closure1_slot10 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot9 = var1;
+    var _closure1_slot10 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -76,8 +76,9 @@ case 4:
     var _closure1_slot6 = var2;
     var2 = false;
     var _closure1_slot7 = var2;
-    var2 = new Array(0);
-    var _closure1_slot8 = var2;
+    var8 = new Array(0);
+    var _closure1_slot8 = var8;
+    var _closure1_slot9 = var2;
     var2 = 5;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
@@ -95,7 +96,7 @@ case 0:
                 var1 = _closure1_slot5;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot4;
-                var1 = _closure1_slot9;
+                var1 = _closure1_slot10;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
@@ -132,7 +133,7 @@ case 8:
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(3);
+        var1 = new Array(4);
         var1[0] = var5;
         var5 = {};
         var7 = 'hasCredentials';
@@ -149,12 +150,21 @@ case 8:
         var5 = {};
         var7 = 'getCredentials';
         var5['key'] = var7;
-        var6 = function value() {
+        var7 = function value() {
             var1 = _closure1_slot8;
             return var1;
         };
-        var5['value'] = var6;
+        var5['value'] = var7;
         var1[2] = var5;
+        var5 = {};
+        var7 = 'hasPendingRegisterTrigger';
+        var5['key'] = var7;
+        var6 = function value() {
+            var1 = _closure1_slot9;
+            return var1;
+        };
+        var5['value'] = var6;
+        var1[3] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -170,6 +180,7 @@ case 8:
         _closure1_slot8 = var1;
         var1 = false;
         _closure1_slot7 = var1;
+        _closure1_slot9 = var1;
         var1 = undefined;
         return var1;
     };
@@ -271,7 +282,7 @@ case 13:
         }
     };
     var2['AUTHENTICATOR_UPDATE'] = var9;
-    var4 = function AUTHENTICATOR_DELETE(arg1) {
+    var9 = function AUTHENTICATOR_DELETE(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var1 = arg1;
@@ -304,7 +315,21 @@ case 13:
             return var1;
         }
     };
-    var2['AUTHENTICATOR_DELETE'] = var4;
+    var2['AUTHENTICATOR_DELETE'] = var9;
+    var9 = function handleTriggerRegister() {
+        var1 = true;
+        _closure1_slot9 = var1;
+        var1 = undefined;
+        return var1;
+    };
+    var2['WEBAUTHN_TRIGGER_REGISTER'] = var9;
+    var4 = function handleClearRegisterTrigger() {
+        var1 = false;
+        _closure1_slot9 = var1;
+        var1 = undefined;
+        return var1;
+    };
+    var2['WEBAUTHN_CLEAR_REGISTER_TRIGGER'] = var4;
     var4 = var8.prototype;
     var4 = Object.create(var4, {constructor: {value: var8}});
     var13 = var4;

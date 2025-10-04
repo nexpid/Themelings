@@ -5630,7 +5630,7 @@ case 76:
 case 0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0037_ip = 130; continue _fun0037 }
+                        if(var2) { _fun0037_ip = 428; continue _fun0037 }
 case 46:
                         var3 = function dispatchDelete() {
                             var3 = _closure1_slot1;
@@ -5676,7 +5676,7 @@ case 46:
                         };
                         var _closure4_slot0 = var3;
                         var2 = _closure2_slot2;
-                        if(var2) { _fun0037_ip = 167; continue _fun0037 }
+                        if(var2) { _fun0037_ip = 143; continue _fun0037 }
 case 69:
                         var5 = _closure1_slot1;
                         var6 = _closure1_slot2;
@@ -5688,12 +5688,12 @@ case 69:
                         var2 = _closure2_slot0;
                         var2 = var5.bind(var6)(var2);
                         SaveGenerator(address=78);
-case 428:
-                        return var2;
 case 429:
+                        return var2;
+case 430:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                        if(var5) { _fun0037_ip = 430; continue _fun0037 }
-case 431:
+                        if(var5) { _fun0037_ip = 431; continue _fun0037 }
+case 432:
                         var6 = _closure1_slot0;
                         var10 = _closure1_slot2;
                         var5 = 51;
@@ -5717,16 +5717,16 @@ case 431:
                             return var1;
                         };
                         var4 = var5.bind(var6)(var4);
-                        _fun0037_ip = 9; continue _fun0037;
-case 430:
+                        _fun0037_ip = 433; continue _fun0037;
+case 431:
                         return var2;
-case 167:
+case 143:
                         var2 = undefined;
                         var2 = var3.bind(var2)();
-case 9:
+case 433:
                         var2 = undefined;
                         return var2;
-case 130:
+case 428:
                         return var1;
                     }
                 };
@@ -5745,7 +5745,7 @@ case 0:
             var5 = this;
             var3 = var1.loggingName;
             var2 = null;
-            if(!(var2 != var3)) { _fun0038_ip = 432; continue _fun0038 }
+            if(!(var2 != var3)) { _fun0038_ip = 434; continue _fun0038 }
 case 48:
             var6 = _closure1_slot1;
             var4 = _closure1_slot2;
@@ -5763,7 +5763,7 @@ case 48:
             var7 = var7.username;
             var2['message_author'] = var7;
             var2 = var4.bind(var6)(var3, var2);
-case 432:
+case 434:
             var4 = var5.deleteMessage;
             var3 = var1.channel_id;
             var2 = var1.id;

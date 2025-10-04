@@ -107,7 +107,7 @@ case 4:
     var8 = null;
     var _closure1_slot12 = var8;
     var _closure1_slot13 = var8;
-    var8 = 10;
+    var8 = 11;
     var8 = var6[var8];
     var8 = var7.bind(var1)(var8);
     var9 = var8.Store;
@@ -251,9 +251,25 @@ case 21:
                                 return var2;
 case 25: // try_start_2 // catch_target0
                                 CatchBlockStart(arg_register=1);
+                                var6 = _closure1_slot0;
+                                var5 = _closure1_slot1;
+                                var4 = 10;
+                                var5 = var5[var4];
+                                var4 = undefined;
+                                var6 = var6.bind(var4)(var5);
+                                var5 = var6.captureBillingException;
+                                var4 = {};
+                                var7 = {};
+                                var8 = 'OrderStore_startOrderSigningSafely';
+                                var7['source'] = var8;
+                                var4['tags'] = var7;
+                                var8 = {};
+                                var7 = _closure4_slot0;
+                                var8['orderId'] = var7;
+                                var4['extra'] = var8;
+                                var4 = var5.bind(var6)(var2, var4);
                                 var5 = _closure1_slot9;
                                 var4 = var5.error;
-                                var7 = _closure4_slot0;
                                 var3 = global;
                                 var3 = var3.HermesInternal;
                                 var6 = var3.concat;
@@ -320,7 +336,7 @@ case 9:
     };
     var9 = var8.bind(var1)(var9);
     var9['displayName'] = var2;
-    var2 = 11;
+    var2 = 12;
     var2 = var6[var2];
     var12 = var7.bind(var1)(var2);
     var2 = {};
@@ -565,7 +581,7 @@ case 34:
     var2 = new var13[var9](var12, var11, var10);
     var2 = var2 instanceof Object ? var2 : var7;
     var _closure1_slot14 = var2;
-    var4 = 12;
+    var4 = 13;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

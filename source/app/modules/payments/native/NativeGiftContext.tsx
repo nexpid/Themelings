@@ -519,18 +519,33 @@ case 33: // try_start_0
                             var6 = var7.startOrderSigningSafely;
                             var5 = var3;
                             var5 = var6.bind(var7)(var5);
-                            SaveGenerator(address=141);
-case 16:
-                            return var5;
+                            SaveGenerator(address=150);
 case 34:
-                            ResumeGenerator(result_out_reg=4, return_bool_out_reg=5);
-                            if(var6) { _fun0005_ip = 35; continue _fun0005 }
-case 36: // try_end0
-                            _fun0005_ip = 30; continue _fun0005;
-case 35:
                             return var5;
-case 37: // catch_target0
+case 35:
+                            ResumeGenerator(result_out_reg=4, return_bool_out_reg=5);
+                            if(var6) { _fun0005_ip = 36; continue _fun0005 }
+case 37: // try_end0
+                            _fun0005_ip = 30; continue _fun0005;
+case 36:
+                            return var5;
+case 38: // catch_target0
                             CatchBlockStart(arg_register=6);
+                            var6 = _closure1_slot0;
+                            var8 = _closure1_slot2;
+                            var5 = 22;
+                            var5 = var8[var5];
+                            var8 = var6.bind(var2)(var5);
+                            var6 = var8.captureBillingException;
+                            var5 = {};
+                            var9 = {};
+                            var10 = 'NativeGiftContext_handlePurchaseComplete_sign';
+                            var9['source'] = var10;
+                            var5['tags'] = var9;
+                            var9 = {};
+                            var9['orderId'] = var3;
+                            var5['extra'] = var9;
+                            var5 = var6.bind(var8)(var7, var5);
                             var6 = _closure1_slot15;
                             var5 = var6.error;
                             var4 = {};
@@ -581,7 +596,7 @@ case 28:
                 var2 = var5.bind(var7)(var4, var2);
                 var4 = _closure2_slot3;
                 var5 = _closure1_slot0;
-                var3 = 22;
+                var3 = 23;
                 var3 = var6[var3];
                 var3 = var5.bind(var1)(var3);
                 var3 = var3.PaymentFlowStep;
@@ -604,8 +619,8 @@ case 28:
 case 0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(var2) { _fun0006_ip = 38; continue _fun0006 }
-case 39:
+                            if(var2) { _fun0006_ip = 39; continue _fun0006 }
+case 40:
                             var2 = undefined;
                             var _closure5_slot0 = var2;
                             var _closure5_slot1 = var2;
@@ -618,11 +633,11 @@ case 39:
                             var3 = var4.bind(var2)(var3);
                             _closure5_slot1 = var3;
                             var3 = _closure2_slot16;
-                            if(!var3) { _fun0006_ip = 40; continue _fun0006 }
-case 41: // try_start_0
+                            if(!var3) { _fun0006_ip = 41; continue _fun0006 }
+case 42: // try_start_0
                             var12 = _closure1_slot0;
                             var13 = _closure1_slot2;
-                            var11 = 23;
+                            var11 = 24;
                             var3 = var13[var11];
                             var6 = var12.bind(var2)(var3);
                             var4 = var6.createOrder;
@@ -635,13 +650,13 @@ case 41: // try_start_0
                             var10 = var12.isAndroid;
                             var10 = var10.bind(var12)();
                             var12 = _closure1_slot13;
-                            if(var10) { _fun0006_ip = 42; continue _fun0006 }
-case 43:
-                            var10 = var12.APPLE;
-                            _fun0006_ip = 44; continue _fun0006;
-case 42:
-                            var10 = var12.GOOGLE;
+                            if(var10) { _fun0006_ip = 43; continue _fun0006 }
 case 44:
+                            var10 = var12.APPLE;
+                            _fun0006_ip = 34; continue _fun0006;
+case 43:
+                            var10 = var12.GOOGLE;
+case 34:
                             var3['paymentGateway'] = var10;
                             var10 = _closure2_slot1;
                             var3['recipientUserId'] = var10;
@@ -681,7 +696,7 @@ case 46:
                             ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
                             if(var4) { _fun0006_ip = 47; continue _fun0006 }
 case 48: // try_end0
-                            _fun0006_ip = 40; continue _fun0006;
+                            _fun0006_ip = 41; continue _fun0006;
 case 47:
                             return var3;
 case 49: // catch_target0
@@ -696,7 +711,7 @@ case 49: // catch_target0
                             var4 = var10.bind(var11)(var4, var6);
                             var4 = _closure1_slot0;
                             var6 = _closure1_slot2;
-                            var3 = 24;
+                            var3 = 22;
                             var3 = var6[var3];
                             var6 = var4.bind(var2)(var3);
                             var4 = var6.captureBillingException;
@@ -708,7 +723,7 @@ case 49: // catch_target0
                             var10['source'] = var11;
                             var3['tags'] = var10;
                             var3 = var4.bind(var6)(var9, var3);
-case 40:
+case 41:
                             var4 = _closure1_slot0;
                             var9 = _closure1_slot2;
                             var3 = 21;
@@ -725,8 +740,8 @@ case 0:
                                     var3 = var1.billingResult;
                                     var2 = _closure1_slot9;
                                     var2 = var2.OK;
-                                    if(!(var3 !== var2)) { _fun0007_ip = 52; continue _fun0007 }
-case 53:
+                                    if(!(var3 !== var2)) { _fun0007_ip = 31; continue _fun0007 }
+case 52:
                                     var2 = _closure1_slot1;
                                     var3 = _closure1_slot2;
                                     var1 = 20;
@@ -740,7 +755,7 @@ case 53:
                                     var2 = _closure2_slot33;
                                     var1 = _closure5_slot1;
                                     var1 = var2.bind(var3)(var1);
-case 52:
+case 31:
                                     var1 = undefined;
                                     return var1;
                                 }
@@ -758,7 +773,7 @@ case 50:
                             var4 = _closure2_slot3;
                             var9 = _closure1_slot0;
                             var10 = _closure1_slot2;
-                            var3 = 22;
+                            var3 = 23;
                             var3 = var10[var3];
                             var3 = var9.bind(var2)(var3);
                             var3 = var3.PaymentFlowStep;
@@ -788,20 +803,20 @@ case 0:
                                         StartGenerator();
                                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                                         if(var2) { _fun0008_ip = 25; continue _fun0008 }
-case 54:
+case 53:
                                         var4 = _closure2_slot32;
                                         var3 = _closure5_slot1;
                                         var2 = undefined;
                                         var2 = var4.bind(var2)(var3);
                                         SaveGenerator(address=32);
+case 54:
+                                        return var2;
 case 55:
+                                        ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
+                                        if(var3) { _fun0008_ip = 56; continue _fun0008 }
+case 57:
                                         return var2;
 case 56:
-                                        ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                                        if(var3) { _fun0008_ip = 57; continue _fun0008 }
-case 58:
-                                        return var2;
-case 57:
                                         return var2;
 case 25:
                                         return var1;
@@ -832,7 +847,7 @@ case 25:
                             var3['onPurchaseError'] = var5;
                             var3 = var4.bind(var2)(var3);
                             return var2;
-case 38:
+case 39:
                             return var1;
                         }
                     };

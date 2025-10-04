@@ -260,8 +260,10 @@ case 42:
             var2['icymi_session_id'] = var7;
             var7 = var6.impressionId;
             var2['impression_id'] = var7;
-            var6 = var6.uxVariation;
-            var2['ux_variation'] = var6;
+            var7 = var6.uxVariation;
+            var2['ux_variation'] = var7;
+            var6 = var6.sessionInteractionIndex;
+            var2['session_interaction_index'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var1;
         }
@@ -822,8 +824,10 @@ case 50:
         var2['session_start_time_ms'] = var7;
         var7 = var6.icymiSessionId;
         var2['icymi_session_id'] = var7;
-        var6 = var6.previousIcymiSessionCount;
-        var2['previous_icymi_session_count'] = var6;
+        var7 = var6.previousIcymiSessionCount;
+        var2['previous_icymi_session_count'] = var7;
+        var6 = var6.uxVariation;
+        var2['ux_variation'] = var6;
         var2 = var4.bind(var5)(var3, var2);
         return var1;
     };
@@ -873,8 +877,12 @@ case 50:
         var2['previous_icymi_session_count'] = var7;
         var7 = var6.uxVariation;
         var2['ux_variation'] = var7;
-        var6 = var6.interactionCount;
-        var2['interaction_count'] = var6;
+        var7 = var6.interactionCount;
+        var2['interaction_count'] = var7;
+        var7 = var6.dwelledCount;
+        var2['dwelled_count'] = var7;
+        var6 = var6.uniqueDwelledCount;
+        var2['unique_dwelled_count'] = var6;
         var2 = var4.bind(var5)(var3, var2);
         return var1;
     };
@@ -934,8 +942,12 @@ case 52:
             var2['is_dwelling'] = var7;
             var7 = var6.interactionActionTypes;
             var2['interaction_action_types'] = var7;
-            var6 = var6.interactionCount;
-            var2['interaction_count'] = var6;
+            var7 = var6.interactionCount;
+            var2['interaction_count'] = var7;
+            var7 = var6.uxVariation;
+            var2['ux_variation'] = var7;
+            var6 = var6.sessionImpressionIndex;
+            var2['session_impression_index'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var1;
         }
@@ -1000,8 +1012,10 @@ case 46:
             var2['ux_variation'] = var7;
             var7 = var6.interactionActionTypes;
             var2['interaction_action_types'] = var7;
-            var6 = var6.interactionCount;
-            var2['interaction_count'] = var6;
+            var7 = var6.interactionCount;
+            var2['interaction_count'] = var7;
+            var6 = var6.sessionImpressionIndex;
+            var2['session_impression_index'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var1;
         }

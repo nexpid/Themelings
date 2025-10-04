@@ -38,30 +38,28 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot8 = var2;
+            _closure1_slot7 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot8 = var1;
+    var _closure1_slot7 = var1;
     var1 = function handleUserApplicationIdentityGatewayEvent(arg1) {
-        var4 = _closure1_slot0;
-        var3 = _closure1_slot1;
-        var1 = 6;
-        var3 = var3[var1];
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 5;
+        var2 = var2[var1];
         var1 = undefined;
-        var4 = var4.bind(var1)(var3);
-        var3 = var4.revalidateFetchStoreData;
-        var6 = _closure1_slot7;
-        var5 = var6.USER_APPLICATION_IDENTITIES;
+        var2 = var3.bind(var1)(var2);
+        var4 = var2.useUserApplicationIdentities;
+        var3 = var4.refetch;
         var2 = arg1;
         var2 = var2.user_id;
-        var2 = var5.bind(var6)(var2);
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var _closure1_slot9 = var1;
+    var _closure1_slot8 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -91,12 +89,7 @@ case 4:
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var _closure1_slot6 = var4;
-    var4 = 5;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.QueryIds;
-    var _closure1_slot7 = var4;
-    var4 = 7;
+    var4 = 6;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var2 = function(arg1) {
@@ -118,7 +111,7 @@ case 0:
                 var1 = _closure1_slot5;
                 var9 = var1.bind(var4)(var2);
                 var2 = _closure1_slot4;
-                var1 = _closure1_slot8;
+                var1 = _closure1_slot7;
                 var1 = var1.bind(var4)();
                 if(var1) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
@@ -136,7 +129,7 @@ case 6:
 case 8:
                 var1 = var2.bind(var4)(var5, var1);
                 var2 = {};
-                var3 = _closure1_slot9;
+                var3 = _closure1_slot8;
                 var2['USER_APPLICATION_IDENTITY_UPDATE'] = var3;
                 var2['USER_APPLICATION_IDENTITY_REMOVE'] = var3;
                 var1['actions'] = var2;
@@ -158,7 +151,7 @@ case 8:
     var13 = var4;
     var2 = new var13[var2](var12);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 8;
+    var4 = 7;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

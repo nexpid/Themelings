@@ -638,36 +638,57 @@ case 0:
                     return var1;
                 };
                 var4 = var7.bind(var8)(var6, var4);
-                var7 = var4[var5];
+                var8 = var4[var5];
                 var4 = null;
-                if(!(var4 != var7)) { _fun0012_ip = 34; continue _fun0012 }
+                if(!(var4 != var8)) { _fun0012_ip = 34; continue _fun0012 }
 case 35:
-                var5 = var7.type;
+                var9 = _closure1_slot0;
+                var12 = _closure1_slot2;
+                var4 = 18;
+                var4 = var12[var4];
+                var5 = undefined;
+                var4 = var9.bind(var5)(var4);
+                var7 = var4.AccessibilityAnnouncer;
+                var6 = var7.announce;
+                var4 = 13;
+                var10 = var12[var4];
+                var10 = var9.bind(var5)(var10);
+                var11 = var10.intl;
+                var10 = var11.formatToPlainString;
+                var4 = var12[var4];
+                var4 = var9.bind(var5)(var4);
+                var4 = var4.t;
+                var9 = var4.srlxBw;
+                var4 = {};
+                var12 = var8.text;
+                var4['text'] = var12;
+                var4 = var10.bind(var11)(var9, var4);
+                var4 = var6.bind(var7)(var4);
+                var6 = var8.type;
                 var4 = _closure1_slot11;
                 var4 = var4.COMPLETE;
-                if(!(var5 === var4)) { _fun0012_ip = 36; continue _fun0012 }
+                if(!(var6 === var4)) { _fun0012_ip = 36; continue _fun0012 }
 case 37:
                 var6 = _closure1_slot0;
-                var5 = _closure1_slot2;
-                var4 = 18;
-                var5 = var5[var4];
-                var4 = undefined;
-                var6 = var6.bind(var4)(var5);
-                var5 = var6.trackSearchFilterRemove;
+                var7 = _closure1_slot2;
+                var4 = 19;
+                var4 = var7[var4];
+                var7 = var6.bind(var5)(var4);
+                var6 = var7.trackSearchFilterRemove;
                 var4 = {};
-                var8 = _closure2_slot0;
-                var4['searchContext'] = var8;
-                var8 = var7.searchTokenType;
-                var4['searchTokenType'] = var8;
-                var8 = var7.location;
-                var7 = _closure1_slot12;
-                var7 = var7.CLIENT_AUTO_ADD;
-                var7 = var8 === var7;
-                var4['isDefault'] = var7;
-                var4 = var5.bind(var6)(var4);
+                var9 = _closure2_slot0;
+                var4['searchContext'] = var9;
+                var9 = var8.searchTokenType;
+                var4['searchTokenType'] = var9;
+                var9 = var8.location;
+                var8 = _closure1_slot12;
+                var8 = var8.CLIENT_AUTO_ADD;
+                var8 = var9 === var8;
+                var4['isDefault'] = var8;
+                var4 = var6.bind(var7)(var4);
 case 36:
-                var6 = _closure1_slot9;
-                var5 = var6.setState;
+                var7 = _closure1_slot9;
+                var6 = var7.setState;
                 var8 = _closure2_slot0;
                 var4 = function(arg1) {
                     var3 = arg1;
@@ -676,12 +697,11 @@ case 36:
                     var1 = var2.bind(var3)(var1);
                     return var1;
                 };
-                var4 = var5.bind(var6)(var8, var4);
+                var4 = var6.bind(var7)(var8, var4);
                 var7 = _closure1_slot1;
                 var4 = _closure1_slot2;
                 var6 = 17;
                 var4 = var4[var6];
-                var5 = undefined;
                 var7 = var7.bind(var5)(var4);
                 var4 = var7.syncAutocompleteDebounced;
                 var4 = var4.bind(var7)(var8);
@@ -784,7 +804,7 @@ case 44:
                     var3 = var5.bind(var6)(var4, var3);
                     var6 = _closure1_slot0;
                     var5 = _closure1_slot2;
-                    var3 = 18;
+                    var3 = 19;
                     var3 = var5[var3];
                     var7 = var6.bind(var1)(var3);
                     var6 = var7.trackSearchFilterAdd;
@@ -822,13 +842,13 @@ case 43:
         var6 = var17[var6];
         var15 = var3.bind(var4)(var6);
         var12 = var15.useAnimatedStyle;
-        var6 = function A() {
+        var6 = function E() {
             _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
                 var1 = {};
                 var4 = _closure1_slot0;
                 var5 = _closure1_slot2;
-                var3 = 19;
+                var3 = 20;
                 var3 = var5[var3];
                 var7 = undefined;
                 var5 = var4.bind(var7)(var3);
@@ -843,7 +863,7 @@ case 46:
 case 45:
                 var6 = _closure1_slot0;
                 var8 = _closure1_slot2;
-                var2 = 20;
+                var2 = 21;
                 var2 = var8[var2];
                 var2 = var6.bind(var7)(var2);
                 var2 = var2.springStandard;
@@ -853,13 +873,13 @@ case 45:
             }
         };
         var19 = {};
-        var20 = 19;
+        var20 = 20;
         var20 = var17[var20];
         var20 = var3.bind(var4)(var20);
         var20 = var20.withSpring;
         var19['withSpring'] = var20;
         var19['gradientVisible'] = var2;
-        var20 = 20;
+        var20 = 21;
         var20 = var17[var20];
         var20 = var3.bind(var4)(var20);
         var20 = var20.springStandard;
@@ -891,7 +911,7 @@ case 45:
             return var1;
         };
         var6 = var12.bind(var14)(var2, var6);
-        var2 = 21;
+        var2 = 22;
         var2 = var17[var2];
         var12 = var3.bind(var4)(var2);
         var3 = var12.useToken;
@@ -912,7 +932,7 @@ case 45:
             var1[0] = var4;
             var5 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var2 = 22;
+            var2 = 23;
             var2 = var3[var2];
             var3 = undefined;
             var2 = var5.bind(var3)(var2);
@@ -936,7 +956,7 @@ case 45:
         };
         var12 = var2.bind(var3)(var16, var1);
         var3 = _closure1_slot15;
-        var1 = 23;
+        var1 = 24;
         var1 = var17[var1];
         var2 = var15.bind(var4)(var1);
         var1 = {};
@@ -950,7 +970,7 @@ case 45:
         var11 = {};
         var14 = var18.icon;
         var11['style'] = var14;
-        var14 = 24;
+        var14 = 25;
         var14 = var17[var14];
         var15 = var15.bind(var4)(var14);
         var14 = {};
@@ -997,7 +1017,7 @@ case 45:
     var4 = var4.bind(var7)(var2);
     var2 = var7.memo;
     var2 = var2.bind(var7)(var4);
-    var4 = 25;
+    var4 = 26;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

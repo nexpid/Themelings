@@ -605,12 +605,12 @@ case 0:
                     var2 = _closure2_slot6;
                     var4 = var2.current;
                     var2 = null;
-                    if(!(var2 != var4)) { _fun0006_ip = 4; continue _fun0006 }
-case 22:
+                    if(!(var2 != var4)) { _fun0006_ip = 22; continue _fun0006 }
+case 23:
                     var3 = var4.scrollToOffset;
                     var2 = {'offset': 0, 'animated': false};
                     var2 = var3.bind(var4)(var2);
-case 4:
+case 22:
                     return var1;
                 }
             };
@@ -648,12 +648,12 @@ case 4:
 case 0:
                     var3 = _closure2_slot5;
                     var2 = '';
-                    if(!(var2 !== var3)) { _fun0007_ip = 23; continue _fun0007 }
-case 24:
+                    if(!(var2 !== var3)) { _fun0007_ip = 24; continue _fun0007 }
+case 25:
                     var3 = _closure2_slot1;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0007_ip = 25; continue _fun0007 }
-case 26:
+                    if(!(var2 != var3)) { _fun0007_ip = 26; continue _fun0007 }
+case 27:
                     var3 = _closure2_slot1;
                     var2 = {};
                     var4 = _closure2_slot5;
@@ -664,7 +664,7 @@ case 26:
                     var2['displayName'] = var1;
                     var1 = undefined;
                     var1 = var3.bind(var1)(var2);
-case 25:
+case 26:
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
                     var1 = 13;
@@ -673,7 +673,7 @@ case 25:
                     var2 = var3.bind(var1)(var2);
                     var1 = var2.hideActionSheet;
                     var1 = var1.bind(var2)();
-case 23:
+case 24:
                     var1 = undefined;
                     return var1;
                 }
@@ -715,8 +715,8 @@ case 23:
             var9 = var10.bind(var4)(var9, var5);
             var5 = new Array(4);
             var5[0] = var9;
-            if(!var8) { _fun0004_ip = 27; continue _fun0004 }
-case 28:
+            if(!var8) { _fun0004_ip = 28; continue _fun0004 }
+case 29:
             var17 = _closure1_slot9;
             var10 = _closure1_slot0;
             var9 = _closure1_slot2;
@@ -725,7 +725,7 @@ case 28:
             var10 = var9.AppLauncherListEmptyState;
             var9 = {};
             var8 = var17.bind(var4)(var10, var9);
-case 27:
+case 28:
             var5[1] = var8;
             var10 = _closure1_slot9;
             var9 = _closure1_slot0;
@@ -743,11 +743,11 @@ case 0:
                     var2 = _closure1_slot8;
                     var2 = var2.CHOICE;
                     var5 = 'placeholder';
-                    if(!(var3 === var2)) { _fun0008_ip = 29; continue _fun0008 }
-case 30:
+                    if(!(var3 === var2)) { _fun0008_ip = 30; continue _fun0008 }
+case 31:
                     var1 = var1.choice;
                     var5 = var1.name;
-case 29:
+case 30:
                     var1 = global;
                     var1 = var1.HermesInternal;
                     var4 = var1.concat;
@@ -764,13 +764,13 @@ case 29:
             var8['scrollEnabled'] = var11;
             var8 = var10.bind(var4)(var9, var8);
             var5[2] = var8;
-            if(!var6) { _fun0004_ip = 31; continue _fun0004 }
-case 32:
+            if(!var6) { _fun0004_ip = 32; continue _fun0004 }
+case 33:
             var9 = _closure1_slot9;
             var8 = _closure1_slot14;
             var7 = {};
             var6 = var9.bind(var4)(var8, var7);
-case 31:
+case 32:
             var5[3] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

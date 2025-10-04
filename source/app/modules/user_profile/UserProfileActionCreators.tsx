@@ -20,13 +20,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = {};
         var7 = arg1;
         var2['feature_name'] = var7;
-        var6 = _closure1_slot10;
+        var6 = _closure1_slot9;
         var6 = var6.PREMIUM_STANDARD;
         var2['feature_tier'] = var6;
         var2 = var4.bind(var5)(var3, var2);
         return var1;
     };
-    var _closure1_slot12 = var1;
+    var _closure1_slot11 = var1;
     var1 = function _saveProfileChanges() {
         var5 = undefined;
         var1 = undefined;
@@ -242,7 +242,7 @@ case 2:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot13 = var4;
+        _closure1_slot12 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -250,7 +250,7 @@ case 2:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot13 = var1;
+    var _closure1_slot12 = var1;
     var6 = function setPendingBanner(arg1) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
@@ -267,10 +267,10 @@ case 2:
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var _closure1_slot14 = var6;
+    var _closure1_slot13 = var6;
     var4 = function fetchApplicationWidgetApplicationConfigs() {
         var1 = undefined;
-        var4 = _closure1_slot16;
+        var4 = _closure1_slot15;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -278,7 +278,7 @@ case 2:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot15 = var4;
+    var _closure1_slot14 = var4;
     var1 = function _fetchApplicationWidgetApplicationConfigs() {
         var5 = undefined;
         var1 = undefined;
@@ -378,7 +378,7 @@ case 27:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot16 = var4;
+        _closure1_slot15 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -386,7 +386,7 @@ case 27:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot16 = var1;
+    var _closure1_slot15 = var1;
     var1 = global;
     var11 = var1.Object;
     var10 = var11.defineProperty;
@@ -417,43 +417,34 @@ case 27:
     var _closure1_slot7 = var7;
     var7 = var2.ME;
     var _closure1_slot8 = var7;
-    var2 = var2.QueryIds;
-    var _closure1_slot9 = var2;
+    var12 = var2.QueryIds;
     var2 = 4;
     var2 = var9[var2];
     var2 = var8.bind(var1)(var2);
     var7 = var2.AnalyticsPremiumFeatureTiers;
-    var _closure1_slot10 = var7;
+    var _closure1_slot9 = var7;
     var2 = var2.AnalyticsPremiumFeatureNames;
-    var _closure1_slot11 = var2;
-    var12 = 13;
-    var2 = var9[var12];
+    var _closure1_slot10 = var2;
+    var2 = 13;
+    var2 = var9[var2];
     var10 = var8.bind(var1)(var2);
     var7 = var10.createFetchStore;
     var2 = {};
-    var13 = function queryId() {
-        var1 = _closure1_slot9;
-        var1 = var1.APPLICATION_WIDGET_APPLICATION_CONFIGS;
-        return var1;
-    };
-    var2['queryId'] = var13;
-    var13 = function get() {
+    var12 = var12.APPLICATION_WIDGET_APPLICATION_CONFIGS;
+    var2['getQueryId'] = var12;
+    var12 = function get() {
         var1 = _closure1_slot5;
         var1 = var1.applicationWidgetApplicationConfigs;
         return var1;
     };
-    var2['get'] = var13;
-    var13 = function load() {
-        var2 = _closure1_slot15;
+    var2['get'] = var12;
+    var12 = function load() {
+        var2 = _closure1_slot14;
         var1 = undefined;
         var1 = var2.bind(var1)();
         return var1;
     };
-    var2['load'] = var13;
-    var12 = var9[var12];
-    var12 = var8.bind(var1)(var12);
-    var12 = var12.useStateFromStores;
-    var2['useStateHook'] = var12;
+    var2['load'] = var12;
     var2 = var7.bind(var10)(var11, var2);
     var7 = 14;
     var7 = var9[var7];
@@ -463,7 +454,7 @@ case 27:
     var7 = var8.bind(var9)(var7);
     var7 = function saveProfileChanges() {
         var1 = undefined;
-        var4 = _closure1_slot13;
+        var4 = _closure1_slot12;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -542,7 +533,7 @@ case 41:
 case 44:
             if(!(var3 != var4)) { _fun0004_ip = 45; continue _fun0004 }
 case 46:
-            var3 = _closure1_slot14;
+            var3 = _closure1_slot13;
             var3 = var3.bind(var1)(var4);
             _fun0004_ip = 45; continue _fun0004;
 case 43:
@@ -573,7 +564,7 @@ case 43:
             var4 = var4.bind(var5)(var3);
             var3 = var4.then;
             var2 = function(arg1) {
-                var3 = _closure1_slot14;
+                var3 = _closure1_slot13;
                 var1 = undefined;
                 var2 = arg1;
                 var2 = var3.bind(var1)(var2);
@@ -668,8 +659,8 @@ case 45:
         var6 = arg1;
         var3['avatar'] = var6;
         var3 = var4.bind(var5)(var3);
-        var3 = _closure1_slot12;
-        var2 = _closure1_slot11;
+        var3 = _closure1_slot11;
+        var2 = _closure1_slot10;
         var2 = var2.ANIMATED_AVATAR;
         var2 = var3.bind(var1)(var2);
         return var1;
@@ -689,8 +680,8 @@ case 45:
         var6 = arg1;
         var3['avatarDecoration'] = var6;
         var3 = var4.bind(var5)(var3);
-        var3 = _closure1_slot12;
-        var2 = _closure1_slot11;
+        var3 = _closure1_slot11;
+        var2 = _closure1_slot10;
         var2 = var2.AVATAR_DECORATION;
         var2 = var3.bind(var1)(var2);
         return var1;
@@ -710,8 +701,8 @@ case 45:
         var6 = arg1;
         var3['profileEffect'] = var6;
         var3 = var4.bind(var5)(var3);
-        var3 = _closure1_slot12;
-        var2 = _closure1_slot11;
+        var3 = _closure1_slot11;
+        var2 = _closure1_slot10;
         var2 = var2.PROFILE_EFFECT;
         var2 = var3.bind(var1)(var2);
         return var1;
@@ -731,8 +722,8 @@ case 45:
         var6 = arg1;
         var3['banner'] = var6;
         var3 = var4.bind(var5)(var3);
-        var3 = _closure1_slot12;
-        var2 = _closure1_slot11;
+        var3 = _closure1_slot11;
+        var2 = _closure1_slot10;
         var2 = var2.PROFILE_BANNER;
         var2 = var3.bind(var1)(var2);
         return var1;
@@ -752,8 +743,8 @@ case 45:
         var6 = arg1;
         var3['themeColors'] = var6;
         var3 = var4.bind(var5)(var3);
-        var3 = _closure1_slot12;
-        var2 = _closure1_slot11;
+        var3 = _closure1_slot11;
+        var2 = _closure1_slot10;
         var2 = var2.PROFILE_THEME_COLOR;
         var2 = var3.bind(var1)(var2);
         return var1;
@@ -774,8 +765,8 @@ case 45:
         var8 = var3;
         var6 = copyDataProperties(var8, var7);
         var3 = var4.bind(var5)(var3);
-        var3 = _closure1_slot12;
-        var2 = _closure1_slot11;
+        var3 = _closure1_slot11;
+        var2 = _closure1_slot10;
         var2 = var2.PRESET;
         var2 = var3.bind(var1)(var2);
         return var1;

@@ -832,7 +832,7 @@ case 0:
                                 StartGenerator();
                                 var7 = arg1;
                                 ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                                if(var2) { _fun0010_ip = 88; continue _fun0010 }
+                                if(var2) { _fun0010_ip = 46; continue _fun0010 }
 case 82:
                                 var5 = _closure1_slot16;
                                 var2 = var5.getNewMemberActions;
@@ -840,10 +840,10 @@ case 82:
                                 var4 = var5.getIsLoading;
                                 var4 = var4.bind(var5)(var7);
                                 var5 = null;
-                                if(!(var5 == var2)) { _fun0010_ip = 89; continue _fun0010 }
+                                if(!(var5 == var2)) { _fun0010_ip = 88; continue _fun0010 }
+case 89:
+                                if(var4) { _fun0010_ip = 88; continue _fun0010 }
 case 90:
-                                if(var4) { _fun0010_ip = 89; continue _fun0010 }
-case 35:
                                 var8 = _closure1_slot0;
                                 var6 = _closure1_slot2;
                                 var4 = 24;
@@ -852,7 +852,7 @@ case 35:
                                 var8 = var8.bind(var4)(var6);
                                 var6 = var8.getIsNewMember;
                                 var6 = var6.bind(var8)(var7);
-                                if(var6) { _fun0010_ip = 89; continue _fun0010 }
+                                if(var6) { _fun0010_ip = 88; continue _fun0010 }
 case 91:
                                 var6 = _closure1_slot0;
                                 var8 = _closure1_slot2;
@@ -861,25 +861,25 @@ case 91:
                                 var6 = var6.bind(var4)(var3);
                                 var3 = var6.fetchGuildHomeSettings;
                                 var3 = var3.bind(var6)(var7);
-                                SaveGenerator(address=124);
-case 77:
+                                SaveGenerator(address=122);
+case 8:
                                 return var3;
-case 60:
+case 77:
                                 ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
                                 if(var6) { _fun0010_ip = 92; continue _fun0010 }
-case 41:
+case 58:
                                 var5 = var5 == var3;
                                 var4 = undefined;
-                                if(var5) { _fun0010_ip = 93; continue _fun0010 }
-case 44:
-                                var4 = var3.newMemberActions;
+                                if(var5) { _fun0010_ip = 43; continue _fun0010 }
 case 93:
+                                var4 = var3.newMemberActions;
+case 43:
                                 return var4;
 case 92:
                                 return var3;
-case 89:
-                                return var2;
 case 88:
+                                return var2;
+case 46:
                                 return var1;
                             }
                         };

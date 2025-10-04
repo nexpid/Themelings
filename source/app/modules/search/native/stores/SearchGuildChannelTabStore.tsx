@@ -39,13 +39,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot15 = var2;
+            _closure1_slot16 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot15 = var1;
+    var _closure1_slot16 = var1;
     var2 = global;
     var10 = var2.Object;
     var9 = var10.defineProperty;
@@ -86,10 +86,15 @@ case 4:
     var8 = var6[var8];
     var8 = var7.bind(var1)(var8);
     var _closure1_slot10 = var8;
-    var8 = new Array(0);
+    var8 = 7;
+    var8 = var6[var8];
+    var8 = var5.bind(var1)(var8);
+    var8 = var8.AutocompleterResultTypes;
     var _closure1_slot11 = var8;
     var8 = new Array(0);
     var _closure1_slot12 = var8;
+    var8 = new Array(0);
+    var _closure1_slot13 = var8;
     var8 = function() {
         var4 = _closure1_slot7;
         var3 = function GuildChannelSearchManager() {
@@ -115,52 +120,66 @@ case 4:
 case 0:
                 var2 = arg1;
                 var3 = this;
-                var11 = {'query': null, 'guildId': null, 'limit': 1000, 'allowEmptyQueries': true, 'fuzzy': false};
-                var11['query'] = var2;
-                var1 = arg2;
-                var11['guildId'] = var1;
-                var1 = function filter() {
+                var6 = _closure1_slot0;
+                var8 = _closure1_slot2;
+                var5 = 8;
+                var7 = var8[var5];
+                var1 = undefined;
+                var11 = var6.bind(var1)(var7);
+                var10 = var11.getBoosterMap;
+                var7 = _closure1_slot11;
+                var9 = var7.TEXT_CHANNEL;
+                var17 = var10.bind(var11)(var9);
+                var9 = var8[var5];
+                var10 = var6.bind(var1)(var9);
+                var9 = var10.getBoosterMap;
+                var7 = var7.VOICE_CHANNEL;
+                var12 = var9.bind(var10)(var7);
+                var15 = {'query': null, 'guildId': null, 'limit': 1000, 'allowEmptyQueries': true, 'allowSnowflake': true, 'fuzzy': false};
+                var15['query'] = var2;
+                var7 = arg2;
+                var15['guildId'] = var7;
+                var7 = function filter() {
                     var1 = true;
                     return var1;
                 };
-                var11['filter'] = var1;
+                var15['filter'] = var7;
                 var9 = _closure1_slot1;
-                var8 = _closure1_slot2;
-                var6 = 7;
-                var7 = var8[var6];
-                var1 = undefined;
-                var13 = var9.bind(var1)(var7);
-                var10 = var13.queryChannels;
+                var7 = var8[var5];
+                var16 = var9.bind(var1)(var7);
+                var10 = var16.queryChannels;
                 var7 = {};
-                var16 = var7;
-                var15 = var11;
-                var12 = copyDataProperties(var16, var15);
-                var14 = _closure1_slot9;
-                var12 = 'type';
-                var7[var12] = var14;
-                var7 = var10.bind(var13)(var7);
-                var6 = var8[var6];
-                var10 = var9.bind(var1)(var6);
+                var19 = var7;
+                var18 = var15;
+                var11 = copyDataProperties(var19, var18);
+                var11 = _closure1_slot9;
+                var14 = 'type';
+                var7[var14] = var11;
+                var11 = 'boosters';
+                var7[var11] = var17;
+                var7 = var10.bind(var16)(var7);
+                var5 = var8[var5];
+                var10 = var9.bind(var1)(var5);
                 var9 = var10.queryChannels;
-                var6 = {};
-                var16 = var6;
-                var15 = var11;
-                var11 = copyDataProperties(var16, var15);
-                var11 = _closure1_slot8;
-                var6[var12] = var11;
-                var10 = var9.bind(var10)(var6);
+                var5 = {};
+                var19 = var5;
+                var18 = var15;
+                var15 = copyDataProperties(var19, var18);
+                var13 = _closure1_slot8;
+                var5[var14] = var13;
+                var5[var11] = var12;
+                var10 = var9.bind(var10)(var5);
                 var9 = var10.map;
-                var6 = function(arg1) {
+                var5 = function(arg1) {
                     var1 = {};
                     var2 = arg1;
                     var2 = var2.record;
                     var1['channel'] = var2;
                     return var1;
                 };
-                var6 = var9.bind(var10)(var6);
-                var3['voiceChannels'] = var6;
-                var6 = _closure1_slot0;
-                var5 = 8;
+                var5 = var9.bind(var10)(var5);
+                var3['voiceChannels'] = var5;
+                var5 = 9;
                 var5 = var8[var5];
                 var6 = var6.bind(var1)(var5);
                 var5 = var6.chain;
@@ -193,7 +212,7 @@ case 6:
                 var4 = function(arg1, arg2) {
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
-                    var1 = 9;
+                    var1 = 10;
                     var2 = var2[var1];
                     var1 = undefined;
                     var4 = var3.bind(var1)(var2);
@@ -265,15 +284,15 @@ case 10:
         return var1;
     };
     var8 = var8.bind(var1)();
-    var _closure1_slot13 = var8;
+    var _closure1_slot14 = var8;
     var2 = var2.Map;
     var8 = var2.prototype;
     var8 = Object.create(var8, {constructor: {value: var2}});
     var14 = var8;
     var2 = new var14[var2](var13);
     var2 = var2 instanceof Object ? var2 : var8;
-    var _closure1_slot14 = var2;
-    var2 = 10;
+    var _closure1_slot15 = var2;
+    var2 = 11;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
     var8 = var2.Store;
@@ -290,7 +309,7 @@ case 0:
                 var1 = _closure1_slot4;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot3;
-                var1 = _closure1_slot15;
+                var1 = _closure1_slot16;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0004_ip = 11; continue _fun0004 }
 case 12:
@@ -325,7 +344,7 @@ case 13:
         var1 = function value(arg1) {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
-                var4 = _closure1_slot14;
+                var4 = _closure1_slot15;
                 var3 = var4.get;
                 var1 = arg1;
                 var5 = var3.bind(var4)(var1);
@@ -339,7 +358,7 @@ case 15:
 case 14:
                 if(!(var3 == var1)) { _fun0005_ip = 16; continue _fun0005 }
 case 17:
-                var1 = _closure1_slot11;
+                var1 = _closure1_slot12;
 case 16:
                 return var1;
             }
@@ -353,7 +372,7 @@ case 16:
         var7 = function value(arg1) {
             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
-                var4 = _closure1_slot14;
+                var4 = _closure1_slot15;
                 var3 = var4.get;
                 var1 = arg1;
                 var5 = var3.bind(var4)(var1);
@@ -367,7 +386,7 @@ case 15:
 case 14:
                 if(!(var3 == var1)) { _fun0006_ip = 16; continue _fun0006 }
 case 17:
-                var1 = _closure1_slot12;
+                var1 = _closure1_slot13;
 case 16:
                 return var1;
             }
@@ -380,7 +399,7 @@ case 16:
         var6 = function value(arg1) {
             _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
-                var3 = _closure1_slot14;
+                var3 = _closure1_slot15;
                 var2 = var3.get;
                 var1 = arg1;
                 var4 = var2.bind(var3)(var1);
@@ -409,7 +428,7 @@ case 18:
     var8 = var2.bind(var1)(var8);
     var2 = 'SearchGuildChannelTabStore';
     var8['displayName'] = var2;
-    var2 = 11;
+    var2 = 12;
     var2 = var6[var2];
     var13 = var7.bind(var1)(var2);
     var2 = {};
@@ -420,20 +439,20 @@ case 0:
             var6 = var1.id;
             var4 = var1.guildId;
             var3 = var1.searchQueryString;
-            var5 = _closure1_slot14;
+            var5 = _closure1_slot15;
             var2 = var5.get;
             var2 = var2.bind(var5)(var6);
             var5 = null;
             if(!(var5 == var2)) { _fun0008_ip = 19; continue _fun0008 }
 case 20:
-            var5 = _closure1_slot13;
+            var5 = _closure1_slot14;
             var7 = var5.prototype;
             var7 = Object.create(var7, {constructor: {value: var5}});
             var10 = var7;
             var5 = new var10[var5](var9);
             var2 = var5 instanceof Object ? var5 : var7;
 case 19:
-            var5 = _closure1_slot14;
+            var5 = _closure1_slot15;
             var1 = var5.set;
             var1 = var1.bind(var5)(var6, var2);
             var1 = var2.search;
@@ -446,7 +465,7 @@ case 19:
     var4 = function handleSearchGuildChannelTabCleanup(arg1) {
         var1 = arg1;
         var3 = var1.id;
-        var2 = _closure1_slot14;
+        var2 = _closure1_slot15;
         var1 = var2.delete;
         var1 = var1.bind(var2)(var3);
         return var1;
@@ -458,7 +477,7 @@ case 19:
     var12 = var2;
     var2 = new var14[var8](var13, var12, var11);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 12;
+    var4 = 13;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

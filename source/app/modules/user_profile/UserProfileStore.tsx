@@ -2206,7 +2206,7 @@ case 186:
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(15);
+        var1 = new Array(16);
         var1[0] = var5;
         var5 = {};
         var7 = 'isFetchingProfile';
@@ -2419,10 +2419,44 @@ case 200:
         var5['value'] = var7;
         var1[11] = var5;
         var5 = {};
+        var7 = 'getWishlistSettings';
+        var5['key'] = var7;
+        var7 = function value(arg1, arg2) {
+            _fun0029: for(var _fun0029_ip = 0; ; ) switch(_fun0029_ip) {
+case 0:
+                var3 = _closure1_slot19;
+                var2 = var3.get;
+                var1 = arg1;
+                var3 = var2.bind(var3)(var1);
+                var1 = null;
+                var4 = var1 == var3;
+                var2 = undefined;
+                if(var4) { _fun0029_ip = 64; continue _fun0029 }
+case 197:
+                var4 = var3.wishlistSettings;
+                var3 = var1 == var4;
+                var2 = undefined;
+                if(var3) { _fun0029_ip = 64; continue _fun0029 }
+case 6:
+                var3 = arg2;
+                var2 = var4[var3];
+case 64:
+                var3 = var1 != var2;
+                var1 = null;
+                if(!var3) { _fun0029_ip = 196; continue _fun0029 }
+case 49:
+                var1 = var2;
+case 196:
+                return var1;
+            }
+        };
+        var5['value'] = var7;
+        var1[12] = var5;
+        var5 = {};
         var7 = 'takeSnapshot';
         var5['key'] = var7;
         var7 = function value() {
-            _fun0029: for(var _fun0029_ip = 0; ; ) switch(_fun0029_ip) {
+            _fun0030: for(var _fun0030_ip = 0; ; ) switch(_fun0030_ip) {
 case 0:
                 var3 = _closure1_slot10;
                 var2 = var3.getId;
@@ -2431,7 +2465,7 @@ case 0:
                 var1 = var2.get;
                 var3 = var1.bind(var2)(var5);
                 var1 = null;
-                if(!(var1 == var3)) { _fun0029_ip = 34; continue _fun0029 }
+                if(!(var1 == var3)) { _fun0030_ip = 34; continue _fun0030 }
 case 71:
                 var1 = {};
                 var2 = _closure2_slot0;
@@ -2439,7 +2473,7 @@ case 71:
                 var1['version'] = var2;
                 var2 = new Array(0);
                 var1['data'] = var2;
-                _fun0029_ip = 51; continue _fun0029;
+                _fun0030_ip = 51; continue _fun0030;
 case 34:
                 var2 = {};
                 var4 = _closure2_slot0;
@@ -2457,7 +2491,7 @@ case 51:
             }
         };
         var5['value'] = var7;
-        var1[12] = var5;
+        var1[13] = var5;
         var5 = {};
         var7 = 'applicationWidgetApplicationConfigs';
         var5['key'] = var7;
@@ -2466,7 +2500,7 @@ case 51:
             return var1;
         };
         var5['get'] = var7;
-        var1[13] = var5;
+        var1[14] = var5;
         var5 = {};
         var7 = 'getApplicationWidgetApplicationConfig';
         var5['key'] = var7;
@@ -2478,7 +2512,7 @@ case 51:
             return var1;
         };
         var5['value'] = var6;
-        var1[14] = var5;
+        var1[15] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

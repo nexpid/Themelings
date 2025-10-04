@@ -344,66 +344,85 @@ case 37:
                 var5 = _closure1_slot5;
                 var3 = _closure2_slot0;
                 var3 = var5.bind(var1)(var4, var3);
-                var7 = _closure1_slot0;
-                var8 = _closure1_slot1;
+                var10 = _closure1_slot0;
+                var11 = _closure1_slot1;
                 var3 = 5;
-                var3 = var8[var3];
-                var5 = var7.bind(var1)(var3);
+                var3 = var11[var3];
+                var5 = var10.bind(var1)(var3);
                 var3 = var5.v4;
                 var3 = var3.bind(var5)();
                 var4['_sessionId'] = var3;
                 var3 = global;
-                var10 = var3.Date;
-                var5 = var10.now;
-                var5 = var5.bind(var10)();
+                var7 = var3.Date;
+                var5 = var7.now;
+                var5 = var5.bind(var7)();
                 var4['_startTimestamp'] = var5;
                 var5 = null;
                 var4['_endTimestamp'] = var5;
                 var5 = new Array(0);
                 var4['_activeItems'] = var5;
                 var5 = 0;
+                var4['_dwellCount'] = var5;
                 var4['_impressionCount'] = var5;
-                var10 = var3.Map;
-                var11 = var10.prototype;
-                var11 = Object.create(var11, {constructor: {value: var10}});
-                var14 = var11;
-                var10 = new var14[var10](var13);
-                var10 = var10 instanceof Object ? var10 : var11;
-                var4['_viewedItemIdMap'] = var10;
-                var10 = var3.Set;
-                var11 = var10.prototype;
-                var11 = Object.create(var11, {constructor: {value: var10}});
-                var14 = var11;
-                var10 = new var14[var10](var13);
-                var10 = var10 instanceof Object ? var10 : var11;
-                var4['_impressionItemTypes'] = var10;
+                var7 = var3.Map;
+                var8 = var7.prototype;
+                var8 = Object.create(var8, {constructor: {value: var7}});
+                var15 = var8;
+                var7 = new var15[var7](var14);
+                var7 = var7 instanceof Object ? var7 : var8;
+                var4['_dwelledItemIdMap'] = var7;
+                var7 = var3.Map;
+                var8 = var7.prototype;
+                var8 = Object.create(var8, {constructor: {value: var7}});
+                var15 = var8;
+                var7 = new var15[var7](var14);
+                var7 = var7 instanceof Object ? var7 : var8;
+                var4['_impressionItemIdMap'] = var7;
+                var7 = var3.Set;
+                var8 = var7.prototype;
+                var8 = Object.create(var8, {constructor: {value: var7}});
+                var15 = var8;
+                var7 = new var15[var7](var14);
+                var7 = var7 instanceof Object ? var7 : var8;
+                var4['_impressionItemTypes'] = var7;
                 var4['_reloadCount'] = var5;
                 var4['_feedFetchCount'] = var5;
                 var4['_dwelledItemsChangedCount'] = var5;
                 var4['_interactionCount'] = var5;
                 var4['_latestDwellStartTimeMs'] = var5;
-                var11 = var3.setTimeout;
-                var10 = function() {
+                var8 = var3.setTimeout;
+                var7 = function() {
                     var2 = _closure3_slot0;
                     var1 = var2.endSession;
                     var1 = var1.bind(var2)();
                     return var1;
                 };
                 var3 = 300000;
-                var3 = var11.bind(var1)(var10, var3);
+                var3 = var8.bind(var1)(var7, var3);
                 var4['_timeout'] = var3;
                 var3 = 6;
-                var3 = var8[var3];
-                var3 = var7.bind(var1)(var3);
+                var3 = var11[var3];
+                var3 = var10.bind(var1)(var3);
                 var8 = var3.ICYMIAnalytics;
                 var7 = var8.trackFeedSessionStarted;
                 var3 = {};
-                var10 = var4._sessionId;
-                var3['icymiSessionId'] = var10;
-                var10 = var4._startTimestamp;
-                var3['sessionStartTimeMs'] = var10;
+                var12 = var4._sessionId;
+                var3['icymiSessionId'] = var12;
+                var12 = var4._startTimestamp;
+                var3['sessionStartTimeMs'] = var12;
                 var9 = _closure1_slot9;
                 var3['previousIcymiSessionCount'] = var9;
+                var9 = 7;
+                var9 = var11[var9];
+                var9 = var10.bind(var1)(var9);
+                var11 = var9.DestinationICYMIExperiment;
+                var10 = var11.getConfig;
+                var9 = {};
+                var12 = 'ICYMISessionStore.constructor';
+                var9['location'] = var12;
+                var9 = var10.bind(var11)(var9);
+                var9 = var9.uxVariation;
+                var3['uxVariation'] = var9;
                 var3 = var7.bind(var8)(var3);
                 var3 = var6.length;
                 if(!(var3 > var5)) { _fun0008_ip = 45; continue _fun0008 }
@@ -439,7 +458,7 @@ case 45:
             return var1;
         };
         var1['get'] = var2;
-        var2 = new Array(22);
+        var2 = new Array(24);
         var2[0] = var1;
         var1 = {};
         var6 = 'startTimestamp';
@@ -462,6 +481,27 @@ case 45:
         var1['get'] = var6;
         var2[2] = var1;
         var1 = {};
+        var6 = 'dwellCount';
+        var1['key'] = var6;
+        var6 = function get() {
+            var1 = this;
+            var1 = var1._dwellCount;
+            return var1;
+        };
+        var1['get'] = var6;
+        var2[3] = var1;
+        var1 = {};
+        var6 = 'uniqueDwellCount';
+        var1['key'] = var6;
+        var6 = function get() {
+            var1 = this;
+            var1 = var1._dwelledItemIdMap;
+            var1 = var1.size;
+            return var1;
+        };
+        var1['get'] = var6;
+        var2[4] = var1;
+        var1 = {};
         var6 = 'impressionCount';
         var1['key'] = var6;
         var6 = function get() {
@@ -470,7 +510,18 @@ case 45:
             return var1;
         };
         var1['get'] = var6;
-        var2[3] = var1;
+        var2[5] = var1;
+        var1 = {};
+        var6 = 'uniqueImpressionCount';
+        var1['key'] = var6;
+        var6 = function get() {
+            var1 = this;
+            var1 = var1._impressionItemIdMap;
+            var1 = var1.size;
+            return var1;
+        };
+        var1['get'] = var6;
+        var2[6] = var1;
         var1 = {};
         var6 = 'interactionCount';
         var1['key'] = var6;
@@ -480,18 +531,7 @@ case 45:
             return var1;
         };
         var1['get'] = var6;
-        var2[4] = var1;
-        var1 = {};
-        var6 = 'uniqueImpressionCount';
-        var1['key'] = var6;
-        var6 = function get() {
-            var1 = this;
-            var1 = var1._viewedItemIdMap;
-            var1 = var1.size;
-            return var1;
-        };
-        var1['get'] = var6;
-        var2[5] = var1;
+        var2[7] = var1;
         var1 = {};
         var6 = 'reloadCount';
         var1['key'] = var6;
@@ -501,7 +541,7 @@ case 45:
             return var1;
         };
         var1['get'] = var6;
-        var2[6] = var1;
+        var2[8] = var1;
         var1 = {};
         var6 = 'feedFetchCount';
         var1['key'] = var6;
@@ -511,7 +551,7 @@ case 45:
             return var1;
         };
         var1['get'] = var6;
-        var2[7] = var1;
+        var2[9] = var1;
         var1 = {};
         var6 = 'dwelledItemsChangedCount';
         var1['key'] = var6;
@@ -521,7 +561,7 @@ case 45:
             return var1;
         };
         var1['get'] = var6;
-        var2[8] = var1;
+        var2[10] = var1;
         var1 = {};
         var6 = 'impressionItemTypes';
         var1['key'] = var6;
@@ -531,7 +571,7 @@ case 45:
             return var1;
         };
         var1['get'] = var6;
-        var2[9] = var1;
+        var2[11] = var1;
         var1 = {};
         var6 = 'getImpression';
         var1['key'] = var6;
@@ -552,7 +592,7 @@ case 45:
             return var1;
         };
         var1['value'] = var6;
-        var2[10] = var1;
+        var2[12] = var1;
         var1 = {};
         var6 = 'startItemsDwell';
         var1['key'] = var6;
@@ -653,104 +693,128 @@ case 48:
             }
         };
         var1['value'] = var6;
-        var2[11] = var1;
+        var2[13] = var1;
         var1 = {};
         var6 = 'trackItemsLongImpression';
         var1['key'] = var6;
         var6 = function value(arg1) {
             _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
-                var9 = this;
+                var10 = this;
                 var3 = _closure1_slot13;
                 var1 = undefined;
                 var2 = arg1;
-                var7 = var3.bind(var1)(var2);
-                var3 = var7.bind(var1)();
+                var8 = var3.bind(var1)(var2);
+                var3 = var8.bind(var1)();
                 var2 = var3.done;
-                var6 = null;
+                var7 = null;
+                var6 = 1;
                 var5 = 6;
                 if(var2) { _fun0010_ip = 54; continue _fun0010 }
 case 55:
-                var10 = var3.value;
-                var11 = var9.getImpression;
-                var2 = var10.itemId;
-                var13 = var11.bind(var9)(var2);
-                var12 = var13;
-                if(!(var6 == var12)) { _fun0010_ip = 56; continue _fun0010 }
-case 57:
-                var2 = var9._constructImpressionFromInput;
-                var12 = var2.bind(var9)(var10);
+                var2 = var3.value;
+                var12 = var10.getImpression;
+                var11 = var2.itemId;
+                var14 = var12.bind(var10)(var11);
+                var13 = var14;
+                if(!(var7 == var13)) { _fun0010_ip = 56; continue _fun0010 }
+case 5:
+                var11 = var10._constructImpressionFromInput;
+                var13 = var11.bind(var10)(var2);
 case 56:
-                var10 = _closure1_slot0;
+                var11 = var10._impressionCount;
+                var11 = var11 + 1;
+                var10['_impressionCount'] = var11;
+                var13['sessionImpressionIndex'] = var11;
+                var15 = var10._impressionItemIdMap;
+                var12 = var15.set;
+                var11 = var2.itemId;
+                var17 = var10._impressionItemIdMap;
+                var16 = var17.get;
+                var2 = var2.itemId;
+                var16 = var16.bind(var17)(var2);
+                var17 = var7 != var16;
+                var2 = 0;
+                if(!var17) { _fun0010_ip = 57; continue _fun0010 }
+case 58:
+                var2 = var16;
+case 57:
+                var2 = var2 + var6;
+                var2 = var12.bind(var15)(var11, var2);
+                var11 = _closure1_slot0;
                 var2 = _closure1_slot1;
                 var2 = var2[var5];
-                var2 = var10.bind(var1)(var2);
-                var11 = var2.ICYMIAnalytics;
-                var10 = var11.trackFeedItemDwell1s;
+                var2 = var11.bind(var1)(var2);
+                var12 = var2.ICYMIAnalytics;
+                var11 = var12.trackFeedItemDwell1s;
                 var2 = {};
-                var14 = var9._sessionId;
-                var2['icymiSessionId'] = var14;
-                var14 = var12.impressionId;
-                var2['impressionId'] = var14;
-                var14 = var12.itemId;
-                var2['itemId'] = var14;
-                var14 = var12.itemType;
-                var2['itemType'] = var14;
-                var14 = var12.impressionStartTimestamp;
-                var2['dwellStartTimeMs'] = var14;
-                var14 = var12.triggerType;
-                var2['triggerType'] = var14;
-                var16 = var9._viewedItemIdMap;
-                var15 = var16.get;
-                var14 = var12.itemId;
-                var15 = var15.bind(var16)(var14);
-                var16 = var6 != var15;
-                var14 = 0;
-                if(!var16) { _fun0010_ip = 58; continue _fun0010 }
-case 59:
-                var14 = var15;
-case 58:
-                var2['itemOccurenceCountInSession'] = var14;
-                var14 = var12.itemFeedIndex;
-                var2['itemFeedIndex'] = var14;
-                var14 = var12.itemScore;
-                var2['itemScore'] = var14;
-                var14 = var12.isInitiallyVisible;
-                var2['isInitiallyVisible'] = var14;
-                var14 = var12.itemChannelType;
-                var2['itemChannelType'] = var14;
-                var16 = _closure1_slot10;
-                var15 = var16.get;
-                var14 = var12.itemId;
-                var15 = var15.bind(var16)(var14);
-                if(!(var6 == var15)) { _fun0010_ip = 60; continue _fun0010 }
-case 61:
-                var15 = var12.itemCardHeight;
+                var15 = var10._sessionId;
+                var2['icymiSessionId'] = var15;
+                var15 = var13.impressionId;
+                var2['impressionId'] = var15;
+                var15 = var13.itemId;
+                var2['itemId'] = var15;
+                var15 = var13.itemType;
+                var2['itemType'] = var15;
+                var15 = var13.impressionStartTimestamp;
+                var2['dwellStartTimeMs'] = var15;
+                var15 = var13.triggerType;
+                var2['triggerType'] = var15;
+                var17 = var10._dwelledItemIdMap;
+                var16 = var17.get;
+                var15 = var13.itemId;
+                var16 = var16.bind(var17)(var15);
+                var17 = var7 != var16;
+                var15 = 0;
+                if(!var17) { _fun0010_ip = 59; continue _fun0010 }
 case 60:
-                var16 = var6 != var15;
-                var14 = null;
-                if(!var16) { _fun0010_ip = 62; continue _fun0010 }
-case 63:
-                var14 = var15;
+                var15 = var16;
+case 59:
+                var2['itemOccurenceCountInSession'] = var15;
+                var15 = var13.itemFeedIndex;
+                var2['itemFeedIndex'] = var15;
+                var15 = var13.itemScore;
+                var2['itemScore'] = var15;
+                var15 = var13.isInitiallyVisible;
+                var2['isInitiallyVisible'] = var15;
+                var15 = var13.itemChannelType;
+                var2['itemChannelType'] = var15;
+                var17 = _closure1_slot10;
+                var16 = var17.get;
+                var15 = var13.itemId;
+                var16 = var16.bind(var17)(var15);
+                if(!(var7 == var16)) { _fun0010_ip = 61; continue _fun0010 }
 case 62:
-                var2['itemCardHeight'] = var14;
-                var13 = var6 != var13;
-                var2['isDwelling'] = var13;
-                var13 = var12.interactionActionTypes;
-                var2['interactionActionTypes'] = var13;
-                var12 = var12.interactionCount;
-                var2['interactionCount'] = var12;
-                var2 = var10.bind(var11)(var2);
-                var10 = var7.bind(var1)();
-                var2 = var10.done;
-                var3 = var10;
+                var16 = var13.itemCardHeight;
+case 61:
+                var17 = var7 != var16;
+                var15 = null;
+                if(!var17) { _fun0010_ip = 63; continue _fun0010 }
+case 64:
+                var15 = var16;
+case 63:
+                var2['itemCardHeight'] = var15;
+                var14 = var7 != var14;
+                var2['isDwelling'] = var14;
+                var14 = var13.interactionActionTypes;
+                var2['interactionActionTypes'] = var14;
+                var14 = var13.interactionCount;
+                var2['interactionCount'] = var14;
+                var14 = var13.uxVariation;
+                var2['uxVariation'] = var14;
+                var13 = var13.sessionImpressionIndex;
+                var2['sessionImpressionIndex'] = var13;
+                var2 = var11.bind(var12)(var2);
+                var11 = var8.bind(var1)();
+                var2 = var11.done;
+                var3 = var11;
                 if(!var2) { _fun0010_ip = 55; continue _fun0010 }
 case 54:
                 return var1;
             }
         };
         var1['value'] = var6;
-        var2[12] = var1;
+        var2[14] = var1;
         var1 = {};
         var6 = 'trackItemInteraction';
         var1['key'] = var6;
@@ -759,12 +823,9 @@ case 54:
 case 0:
                 var2 = arg1;
                 var5 = arg3;
-                var3 = this;
-                var1 = var3._interactionCount;
-                var1 = var1 + 1;
-                var3['_interactionCount'] = var1;
-                var1 = var3.getImpression;
-                var3 = var1.bind(var3)(var2);
+                var9 = this;
+                var1 = var9.getImpression;
+                var3 = var1.bind(var9)(var2);
                 var6 = _closure1_slot0;
                 var4 = _closure1_slot1;
                 var1 = 6;
@@ -779,20 +840,24 @@ case 0:
                 var4['type'] = var2;
                 var4['actionType'] = var5;
                 var2 = null;
-                var9 = var2 == var3;
+                var10 = var2 == var3;
                 var8 = undefined;
-                if(var9) { _fun0011_ip = 64; continue _fun0011 }
-case 65:
+                if(var10) { _fun0011_ip = 65; continue _fun0011 }
+case 13:
                 var8 = var3.impressionId;
-case 64:
+case 65:
                 var4['impressionId'] = var8;
-                var9 = var2 == var3;
+                var10 = var2 == var3;
                 var8 = undefined;
-                if(var9) { _fun0011_ip = 66; continue _fun0011 }
+                if(var10) { _fun0011_ip = 66; continue _fun0011 }
 case 67:
                 var8 = var3.uxVariation;
 case 66:
                 var4['uxVariation'] = var8;
+                var8 = var9._interactionCount;
+                var8 = var8 + 1;
+                var9['_interactionCount'] = var8;
+                var4['sessionInteractionIndex'] = var8;
                 var4 = var6.bind(var7)(var4);
                 if(!(var2 != var3)) { _fun0011_ip = 68; continue _fun0011 }
 case 69:
@@ -807,7 +872,7 @@ case 68:
             }
         };
         var1['value'] = var6;
-        var2[13] = var1;
+        var2[15] = var1;
         var1 = {};
         var6 = 'incrementReloadCount';
         var1['key'] = var6;
@@ -822,7 +887,7 @@ case 68:
             return var1;
         };
         var1['value'] = var6;
-        var2[14] = var1;
+        var2[16] = var1;
         var1 = {};
         var6 = 'incrementFeedFetchCount';
         var1['key'] = var6;
@@ -835,7 +900,7 @@ case 68:
             return var1;
         };
         var1['value'] = var6;
-        var2[15] = var1;
+        var2[17] = var1;
         var1 = {};
         var6 = 'endAllImpressions';
         var1['key'] = var6;
@@ -861,7 +926,7 @@ case 68:
             return var1;
         };
         var1['value'] = var6;
-        var2[16] = var1;
+        var2[18] = var1;
         var1 = {};
         var6 = 'endSession';
         var1['key'] = var6;
@@ -895,7 +960,7 @@ case 68:
             var4['sessionEndTimeMs'] = var8;
             var8 = var1._impressionCount;
             var4['impressionCount'] = var8;
-            var8 = var1._viewedItemIdMap;
+            var8 = var1._impressionItemIdMap;
             var8 = var8.size;
             var4['uniqueImpressionCount'] = var8;
             var12 = var3.Array;
@@ -926,6 +991,11 @@ case 68:
             var4['uxVariation'] = var8;
             var8 = var1._interactionCount;
             var4['interactionCount'] = var8;
+            var8 = var1._dwellCount;
+            var4['dwelledCount'] = var8;
+            var8 = var1._dwelledItemIdMap;
+            var8 = var8.size;
+            var4['uniqueDwelledCount'] = var8;
             var4 = var6.bind(var7)(var4);
             var4 = var3.clearTimeout;
             var3 = var1._timeout;
@@ -941,7 +1011,7 @@ case 68:
             return var1;
         };
         var1['value'] = var6;
-        var2[17] = var1;
+        var2[19] = var1;
         var1 = {};
         var6 = '_resetTimeout';
         var1['key'] = var6;
@@ -966,7 +1036,7 @@ case 68:
             return var1;
         };
         var1['value'] = var6;
-        var2[18] = var1;
+        var2[20] = var1;
         var1 = {};
         var6 = '_createImpression';
         var1['key'] = var6;
@@ -977,13 +1047,13 @@ case 0:
                 var3 = this;
                 var1 = var3._constructImpressionFromInput;
                 var1 = var1.bind(var3)(var2);
-                var4 = var3._impressionCount;
+                var4 = var3._dwellCount;
                 var4 = var4 + 1;
-                var3['_impressionCount'] = var4;
-                var7 = var3._viewedItemIdMap;
+                var3['_dwellCount'] = var4;
+                var7 = var3._dwelledItemIdMap;
                 var6 = var7.set;
                 var5 = var2.itemId;
-                var9 = var3._viewedItemIdMap;
+                var9 = var3._dwelledItemIdMap;
                 var8 = var9.get;
                 var4 = var2.itemId;
                 var4 = var8.bind(var9)(var4);
@@ -1007,78 +1077,80 @@ case 70:
             }
         };
         var1['value'] = var6;
-        var2[19] = var1;
+        var2[21] = var1;
         var1 = {};
         var6 = '_constructImpressionFromInput';
         var1['key'] = var6;
         var6 = function value(arg1) {
             _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
-                var3 = arg1;
-                var5 = _closure1_slot0;
-                var4 = _closure1_slot1;
-                var1 = 5;
-                var1 = var4[var1];
-                var4 = undefined;
-                var5 = var5.bind(var4)(var1);
-                var1 = var5.v4;
-                var5 = var1.bind(var5)();
-                var1 = {};
-                var6 = var3.itemId;
-                var1['itemId'] = var6;
-                var6 = var3.itemType;
-                var1['itemType'] = var6;
-                var1['impressionId'] = var5;
-                var5 = global;
-                var6 = var5.Date;
-                var5 = var6.now;
-                var5 = var5.bind(var6)();
-                var1['impressionStartTimestamp'] = var5;
-                var5 = false;
-                var1['impressionComplete'] = var5;
-                var5 = var3.triggerType;
-                var1['triggerType'] = var5;
-                var5 = var3.itemFeedIndex;
-                var1['itemFeedIndex'] = var5;
-                var5 = var3.itemScore;
-                var1['itemScore'] = var5;
-                var5 = var3.isInitiallyVisible;
-                var1['isInitiallyVisible'] = var5;
-                var5 = var3.itemChannelType;
-                var1['itemChannelType'] = var5;
-                var6 = _closure1_slot10;
-                var5 = var6.get;
-                var3 = var3.itemId;
-                var5 = var5.bind(var6)(var3);
-                var3 = null;
-                var6 = var3 != var5;
-                if(!var6) { _fun0013_ip = 72; continue _fun0013 }
-case 73:
-                var3 = var5;
-case 72:
-                var1['itemCardHeight'] = var3;
-                var3 = _closure1_slot0;
+                var2 = arg1;
+                var4 = _closure1_slot0;
                 var5 = _closure1_slot1;
-                var2 = 7;
-                var2 = var5[var2];
-                var2 = var3.bind(var4)(var2);
-                var4 = var2.DestinationICYMIExperiment;
-                var3 = var4.getConfig;
-                var2 = {};
-                var5 = 'ICYMISessionStore._constructImpressionFromInput';
-                var2['location'] = var5;
-                var2 = var3.bind(var4)(var2);
-                var2 = var2.uxVariation;
-                var1['uxVariation'] = var2;
-                var2 = new Array(0);
-                var1['interactionActionTypes'] = var2;
-                var2 = 0;
-                var1['interactionCount'] = var2;
+                var1 = 5;
+                var1 = var5[var1];
+                var5 = undefined;
+                var4 = var4.bind(var5)(var1);
+                var1 = var4.v4;
+                var4 = var1.bind(var4)();
+                var1 = {};
+                var6 = var2.itemId;
+                var1['itemId'] = var6;
+                var6 = var2.itemType;
+                var1['itemType'] = var6;
+                var1['impressionId'] = var4;
+                var4 = global;
+                var6 = var4.Date;
+                var4 = var6.now;
+                var4 = var4.bind(var6)();
+                var1['impressionStartTimestamp'] = var4;
+                var4 = false;
+                var1['impressionComplete'] = var4;
+                var4 = var2.triggerType;
+                var1['triggerType'] = var4;
+                var4 = var2.itemFeedIndex;
+                var1['itemFeedIndex'] = var4;
+                var4 = var2.itemScore;
+                var1['itemScore'] = var4;
+                var4 = var2.isInitiallyVisible;
+                var1['isInitiallyVisible'] = var4;
+                var4 = var2.itemChannelType;
+                var1['itemChannelType'] = var4;
+                var6 = _closure1_slot10;
+                var4 = var6.get;
+                var2 = var2.itemId;
+                var6 = var4.bind(var6)(var2);
+                var2 = null;
+                var7 = var2 != var6;
+                var4 = null;
+                if(!var7) { _fun0013_ip = 72; continue _fun0013 }
+case 73:
+                var4 = var6;
+case 72:
+                var1['itemCardHeight'] = var4;
+                var4 = _closure1_slot0;
+                var6 = _closure1_slot1;
+                var3 = 7;
+                var3 = var6[var3];
+                var3 = var4.bind(var5)(var3);
+                var5 = var3.DestinationICYMIExperiment;
+                var4 = var5.getConfig;
+                var3 = {};
+                var6 = 'ICYMISessionStore._constructImpressionFromInput';
+                var3['location'] = var6;
+                var3 = var4.bind(var5)(var3);
+                var3 = var3.uxVariation;
+                var1['uxVariation'] = var3;
+                var3 = new Array(0);
+                var1['interactionActionTypes'] = var3;
+                var3 = 0;
+                var1['interactionCount'] = var3;
+                var1['sessionImpressionIndex'] = var2;
                 return var1;
             }
         };
         var1['value'] = var6;
-        var2[20] = var1;
+        var2[22] = var1;
         var1 = {};
         var6 = '_endImpression';
         var1['key'] = var6;
@@ -1139,7 +1211,7 @@ case 75:
                 var4['dwellEndTimeMs'] = var10;
                 var10 = var2.triggerType;
                 var4['triggerType'] = var10;
-                var12 = var3._viewedItemIdMap;
+                var12 = var3._dwelledItemIdMap;
                 var11 = var12.get;
                 var10 = var2.itemId;
                 var11 = var11.bind(var12)(var10);
@@ -1179,6 +1251,8 @@ case 80:
                 var4['interactionActionTypes'] = var8;
                 var8 = var2.interactionCount;
                 var4['interactionCount'] = var8;
+                var8 = var2.sessionImpressionIndex;
+                var4['sessionImpressionIndex'] = var8;
                 var4 = var5.bind(var7)(var4);
                 var5 = var3._activeItems;
                 var4 = var5.splice;
@@ -1190,7 +1264,7 @@ case 74:
             }
         };
         var1['value'] = var5;
-        var2[21] = var1;
+        var2[23] = var1;
         var1 = undefined;
         var1 = var4.bind(var1)(var3, var2);
         return var1;
@@ -1216,14 +1290,14 @@ case 0:
                 var2 = _closure1_slot2;
                 var1 = _closure1_slot12;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0015_ip = 57; continue _fun0015 }
-case 82:
+                if(var1) { _fun0015_ip = 82; continue _fun0015 }
+case 83:
                 var7 = var9.apply;
                 var5 = arguments;
                 var1 = var5;
                 var1 = var7.bind(var9)(var4, var1);
-                _fun0015_ip = 83; continue _fun0015;
-case 57:
+                _fun0015_ip = 84; continue _fun0015;
+case 82:
                 var7 = global;
                 var8 = var7.Reflect;
                 var7 = var8.construct;
@@ -1232,7 +1306,7 @@ case 57:
                 var6 = var6.constructor;
                 var5 = arguments;
                 var1 = var7.bind(var8)(var9, var5, var6);
-case 83:
+case 84:
                 var1 = var2.bind(var3)(var4, var1);
                 return var1;
             }
@@ -1283,17 +1357,17 @@ case 83:
 case 0:
             var1 = arg1;
             var2 = var1.focused;
-            if(var2) { _fun0016_ip = 84; continue _fun0016 }
-case 85:
+            if(var2) { _fun0016_ip = 85; continue _fun0016 }
+case 86:
             var3 = _closure1_slot16;
             var2 = undefined;
             var2 = var3.bind(var2)();
             return var2;
-case 84:
+case 85:
             var3 = _closure1_slot7;
             var2 = null;
             if(!(var2 == var3)) { _fun0016_ip = 9; continue _fun0016 }
-case 86:
+case 87:
             var3 = _closure1_slot17;
             var2 = undefined;
             var2 = var3.bind(var2)();
@@ -1302,11 +1376,11 @@ case 9:
             var2 = _closure1_slot8;
             var3 = var2.length;
             var2 = 0;
-            if(!(!(var3 > var2))) { _fun0016_ip = 87; continue _fun0016 }
-case 88:
+            if(!(!(var3 > var2))) { _fun0016_ip = 88; continue _fun0016 }
+case 89:
             var2 = false;
             return var2;
-case 87:
+case 88:
             var4 = _closure1_slot8;
             var3 = var4.map;
             var2 = function(arg1) {
@@ -1337,14 +1411,14 @@ case 0:
             var1 = arg1;
             var4 = _closure1_slot7;
             var3 = null;
-            if(!(var3 != var4)) { _fun0017_ip = 89; continue _fun0017 }
+            if(!(var3 != var4)) { _fun0017_ip = 90; continue _fun0017 }
 case 40:
             var5 = _closure1_slot7;
             var4 = var5.startItemsDwell;
             var3 = var1.items;
             var3 = var4.bind(var5)(var3);
-            _fun0017_ip = 90; continue _fun0017;
-case 89:
+            _fun0017_ip = 91; continue _fun0017;
+case 90:
             var5 = _closure1_slot11;
             var7 = var1.items;
             var1 = var5.prototype;
@@ -1354,7 +1428,7 @@ case 89:
             var1 = new var8[var5](var7, var6, var5);
             var1 = var1 instanceof Object ? var1 : var3;
             _closure1_slot7 = var1;
-case 90:
+case 91:
             var1 = true;
             return var1;
         }
@@ -1366,7 +1440,7 @@ case 0:
             var1 = arg1;
             var4 = _closure1_slot7;
             var3 = null;
-            if(!(var3 == var4)) { _fun0018_ip = 91; continue _fun0018 }
+            if(!(var3 == var4)) { _fun0018_ip = 92; continue _fun0018 }
 case 40:
             var6 = _closure1_slot11;
             var8 = var1.items;
@@ -1377,7 +1451,7 @@ case 40:
             var3 = new var9[var6](var8, var7, var6);
             var3 = var3 instanceof Object ? var3 : var4;
             _closure1_slot7 = var3;
-case 91:
+case 92:
             var3 = _closure1_slot7;
             var2 = var3.trackItemsLongImpression;
             var1 = var1.items;
@@ -1393,13 +1467,13 @@ case 0:
             var3 = _closure1_slot7;
             var1 = null;
             var1 = var1 != var3;
-            if(!var1) { _fun0019_ip = 92; continue _fun0019 }
+            if(!var1) { _fun0019_ip = 93; continue _fun0019 }
 case 40:
             var3 = _closure1_slot7;
             var2 = var3.incrementReloadCount;
             var2 = var2.bind(var3)();
             var1 = true;
-case 92:
+case 93:
             return var1;
         }
     };
@@ -1410,7 +1484,7 @@ case 0:
             var3 = _closure1_slot7;
             var1 = null;
             var1 = var1 != var3;
-            if(!var1) { _fun0020_ip = 93; continue _fun0020 }
+            if(!var1) { _fun0020_ip = 94; continue _fun0020 }
 case 40:
             var4 = _closure1_slot7;
             var3 = var4.incrementFeedFetchCount;
@@ -1419,7 +1493,7 @@ case 40:
             var2 = undefined;
             var2 = var3.bind(var2)();
             var1 = true;
-case 93:
+case 94:
             return var1;
         }
     };
@@ -1432,17 +1506,17 @@ case 0:
             var1 = 'active';
             var1 = var1 !== var2;
             if(!var1) { _fun0021_ip = 39; continue _fun0021 }
-case 94:
+case 95:
             var3 = _closure1_slot7;
             var2 = null;
             var1 = var2 != var3;
 case 39:
-            if(!var1) { _fun0021_ip = 95; continue _fun0021 }
-case 96:
+            if(!var1) { _fun0021_ip = 96; continue _fun0021 }
+case 97:
             var3 = _closure1_slot15;
             var2 = undefined;
             var1 = var3.bind(var2)();
-case 95:
+case 96:
             return var1;
         }
     };
@@ -1455,21 +1529,21 @@ case 0:
             var1 = null;
             var1 = var1 != var4;
             if(!var1) { _fun0022_ip = 38; continue _fun0022 }
-case 94:
+case 95:
             var4 = var3.isInitialSetup;
             var1 = !var4;
 case 38:
-            if(!var1) { _fun0022_ip = 55; continue _fun0022 }
-case 97:
-            var3 = var3.preserveDrawerState;
-            var1 = !var3;
-case 55:
             if(!var1) { _fun0022_ip = 98; continue _fun0022 }
 case 99:
+            var3 = var3.preserveDrawerState;
+            var1 = !var3;
+case 98:
+            if(!var1) { _fun0022_ip = 100; continue _fun0022 }
+case 55:
             var3 = _closure1_slot16;
             var2 = undefined;
             var1 = var3.bind(var2)();
-case 98:
+case 100:
             return var1;
         }
     };
@@ -1491,7 +1565,7 @@ case 0:
             var1 = arg1;
             var4 = _closure1_slot7;
             var3 = null;
-            if(!(var3 == var4)) { _fun0023_ip = 100; continue _fun0023 }
+            if(!(var3 == var4)) { _fun0023_ip = 101; continue _fun0023 }
 case 40:
             var6 = _closure1_slot11;
             var9 = _closure1_slot8;
@@ -1502,7 +1576,7 @@ case 40:
             var3 = new var10[var6](var9, var8, var7);
             var3 = var3 instanceof Object ? var3 : var4;
             _closure1_slot7 = var3;
-case 100:
+case 101:
             var5 = _closure1_slot7;
             var4 = var5.trackItemInteraction;
             var3 = var1.itemId;
@@ -1532,15 +1606,15 @@ case 100:
 case 0:
             var3 = _closure1_slot7;
             var2 = null;
-            if(!(var2 != var3)) { _fun0024_ip = 101; continue _fun0024 }
-case 102:
+            if(!(var2 != var3)) { _fun0024_ip = 102; continue _fun0024 }
+case 103:
             var3 = global;
             var5 = var3.clearTimeout;
             var3 = _closure1_slot7;
             var4 = var3._timeout;
             var3 = undefined;
             var3 = var5.bind(var3)(var4);
-case 101:
+case 102:
             _closure1_slot7 = var2;
             var2 = new Array(0);
             _closure1_slot8 = var2;

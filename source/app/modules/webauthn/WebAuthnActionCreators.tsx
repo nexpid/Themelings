@@ -580,7 +580,7 @@ case 27:
         return var1;
     };
     var3['startRegisterWebAuthnCredential'] = var4;
-    var2 = function finishRegisterWebAuthnCredential() {
+    var4 = function finishRegisterWebAuthnCredential() {
         var1 = undefined;
         var4 = _closure1_slot10;
         var3 = var4.apply;
@@ -590,6 +590,36 @@ case 27:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var3['finishRegisterWebAuthnCredential'] = var2;
+    var3['finishRegisterWebAuthnCredential'] = var4;
+    var4 = function triggerWebAuthnRegister() {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 3;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'WEBAUTHN_TRIGGER_REGISTER';
+        var2['type'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var3['triggerWebAuthnRegister'] = var4;
+    var2 = function clearWebAuthnRegisterTrigger() {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 3;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'WEBAUTHN_CLEAR_REGISTER_TRIGGER';
+        var2['type'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var3['clearWebAuthnRegisterTrigger'] = var2;
     return var1;
 })();

@@ -104,6 +104,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['DISCORD_WAGONS_APPLICATION_ID'] = var7;
     var3['DISCORD_WAGONS_QA_APPLICATION_ID'] = var6;
     var3['DISCORD_WAGONS_DEV_APPLICATION_ID'] = var5;
+    var5 = '1420804330419912840';
+    var3['FORNITE_DEMO_PROD_APPLICATION_ID'] = var5;
     var3['INSTALL_LESS_APP_IDS'] = var4;
     var3['OBEY_SILENT_HARDWARE_SWITCH_APP_IDS'] = var2;
     return var1;

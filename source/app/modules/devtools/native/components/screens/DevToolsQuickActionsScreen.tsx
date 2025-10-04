@@ -30,7 +30,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var _closure1_slot28 = var1;
+    var _closure1_slot29 = var1;
     var1 = function handleThemeChange(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -54,7 +54,7 @@ case 4:
             return var1;
         }
     };
-    var _closure1_slot29 = var1;
+    var _closure1_slot30 = var1;
     var1 = function handleReducedMotionChange(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -75,7 +75,7 @@ case 5:
             return var1;
         }
     };
-    var _closure1_slot30 = var1;
+    var _closure1_slot31 = var1;
     var1 = function handleLaunchWelcomeReset() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
@@ -101,7 +101,7 @@ case 5:
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var _closure1_slot31 = var1;
+    var _closure1_slot32 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -442,26 +442,121 @@ case 7:
         return var1;
     };
     var _closure1_slot27 = var4;
-    var4 = 63;
+    var4 = function launchTotpSetupSuccess() {
+        var4 = _closure1_slot1;
+        var5 = _closure1_slot2;
+        var1 = 28;
+        var3 = var5[var1];
+        var1 = undefined;
+        var4 = var4.bind(var1)(var3);
+        var3 = var4.pop;
+        var3 = var3.bind(var4)();
+        var3 = global;
+        var4 = var3.Promise;
+        var3 = var4.all;
+        var7 = _closure1_slot0;
+        var6 = 30;
+        var2 = var5[var6];
+        var9 = var7.bind(var1)(var2);
+        var2 = 36;
+        var8 = var5[var2];
+        var2 = var5.paths;
+        var8 = var9.bind(var1)(var8, var2);
+        var2 = new Array(2);
+        var2[0] = var8;
+        var6 = var5[var6];
+        var7 = var7.bind(var1)(var6);
+        var6 = 37;
+        var6 = var5[var6];
+        var5 = var5.paths;
+        var5 = var7.bind(var1)(var6, var5);
+        var2[1] = var5;
+        var4 = var3.bind(var4)(var2);
+        var3 = var4.then;
+        var2 = function(arg1) {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+                var8 = arg1;
+                var2 = var8[Symbol.iterator];
+                var8 = var2().next;
+                var4 = undefined;
+                var3 = undefined;
+                var7 = undefined;
+                var9 = var8().value;
+                var10 = var2;
+                var10 = var10 === var4;
+                var3 = var10;
+                if(var10) { _fun0004_ip = 16; continue _fun0004 }
+case 17:
+                var7 = var9;
+case 16: // try_start_0
+                var9 = var7;
+                var6 = var9.default;
+case 18: // try_end0
+                var7 = undefined;
+                var9 = var3;
+                if(var9) { _fun0004_ip = 19; continue _fun0004 }
+case 20:
+                var8 = var8().value;
+                var9 = var2;
+                var9 = var9 === var4;
+                var3 = var9;
+                if(var9) { _fun0004_ip = 19; continue _fun0004 }
+case 21:
+                var7 = var8;
+case 19: // try_start_1
+                var5 = var7.TwoFAModalSetupSections;
+case 22: // try_end1
+                var7 = var3;
+                if(var7) { _fun0004_ip = 23; continue _fun0004 }
+case 24:
+                var2.return();
+case 23:
+                var7 = var6;
+                var6 = var7.open;
+                var5 = var5.SUCCESS;
+                var5 = var6.bind(var7)(var5);
+                return var4;
+case 25: // catch_target1
+                CatchBlockStart(arg_register=0);
+                _fun0004_ip = 26; continue _fun0004;
+case 27: // catch_target0
+                CatchBlockStart(arg_register=0);
+                _fun0004_ip = 26; continue _fun0004;
+case 28:
+                CatchBlockStart(arg_register=0);
+case 26:
+                if(var3) { _fun0004_ip = 29; continue _fun0004 }
+case 30:
+                var2.return();
+case 29:
+                throw var1;
+            }
+        };
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var _closure1_slot28 = var4;
+    var4 = 65;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/devtools/native/components/screens/DevToolsQuickActionsScreen.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function DevToolsQuickActionsScreen() {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var2 = _closure1_slot23;
             var4 = undefined;
             var9 = var2.bind(var4)();
             var3 = _closure1_slot1;
             var6 = _closure1_slot2;
-            var2 = 36;
+            var2 = 38;
             var2 = var6[var2];
             var2 = var3.bind(var4)(var2);
             var8 = var2.bind(var4)();
             var5 = _closure1_slot0;
-            var3 = 37;
+            var3 = 39;
             var2 = var6[var3];
             var11 = var5.bind(var4)(var2);
             var10 = var11.useStateFromStoresObject;
@@ -541,7 +636,7 @@ case 0:
             var10 = var10[var13];
             var _closure2_slot4 = var10;
             var18 = var7.useState;
-            var10 = 38;
+            var10 = 40;
             var10 = var6[var10];
             var19 = var5.bind(var4)(var10);
             var10 = var19.isJSITraceEnabled;
@@ -552,7 +647,7 @@ case 0:
             var _closure2_slot5 = var21;
             var10 = var10[var13];
             var _closure2_slot6 = var10;
-            var10 = 39;
+            var10 = 41;
             var10 = var6[var10];
             var10 = var5.bind(var4)(var10);
             var13 = var10.IgnoreProfileSpeedbumpDisabled;
@@ -565,7 +660,7 @@ case 0:
             var10 = function() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 38;
+                var1 = 40;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -591,12 +686,12 @@ case 0:
             var5 = new Array(1);
             var5[0] = var25;
             var3 = function() {
-                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                     var1 = _closure2_slot0;
                     var3 = 'en-US';
-                    if(!(var3 === var1)) { _fun0005_ip = 16; continue _fun0005 }
-case 17:
+                    if(!(var3 === var1)) { _fun0006_ip = 31; continue _fun0006 }
+case 32:
                     var4 = _closure1_slot1;
                     var2 = _closure1_slot2;
                     var1 = 23;
@@ -606,8 +701,8 @@ case 17:
                     var2 = var4.updateLocale;
                     var1 = 'pt-BR';
                     var1 = var2.bind(var4)(var1);
-                    _fun0005_ip = 18; continue _fun0005;
-case 16:
+                    _fun0006_ip = 33; continue _fun0006;
+case 31:
                     var4 = _closure1_slot1;
                     var2 = _closure1_slot2;
                     var1 = 23;
@@ -616,14 +711,14 @@ case 16:
                     var2 = var4.bind(var1)(var2);
                     var1 = var2.updateLocale;
                     var1 = var1.bind(var2)(var3);
-case 18:
+case 33:
                     var1 = undefined;
                     return var1;
                 }
             };
             var15 = var6.bind(var7)(var3, var5);
-            if(var2) { _fun0004_ip = 19; continue _fun0004 }
-case 20:
+            if(var2) { _fun0005_ip = 34; continue _fun0005 }
+case 35:
             var5 = _closure1_slot22;
             var3 = _closure1_slot6;
             var2 = {};
@@ -643,14 +738,14 @@ case 20:
             var19 = _closure1_slot21;
             var17 = _closure1_slot0;
             var16 = _closure1_slot2;
-            var7 = 41;
+            var7 = 43;
             var6 = var16[var7];
             var6 = var17.bind(var4)(var6);
             var8 = var6.TableRowGroup;
             var6 = {};
             var9 = 'General';
             var6['title'] = var9;
-            var13 = 42;
+            var13 = 44;
             var9 = var16[var13];
             var9 = var17.bind(var4)(var9);
             var10 = var9.TableSwitchRow;
@@ -661,7 +756,7 @@ case 20:
             var11 = function onValueChange() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 43;
+                var1 = 45;
                 var2 = var2[var1];
                 var1 = undefined;
                 var3 = var3.bind(var1)(var2);
@@ -680,7 +775,7 @@ case 20:
             var6 = new Array(9);
             var6[0] = var8;
             var22 = _closure1_slot1;
-            var8 = 44;
+            var8 = 46;
             var9 = var16[var8];
             var11 = var22.bind(var4)(var9);
             var9 = {};
@@ -703,29 +798,29 @@ case 20:
             var18 = var16.TableSwitchRow;
             var17 = {};
             var16 = 'Light Theme';
-            if(!var12) { _fun0004_ip = 21; continue _fun0004 }
-case 22:
+            if(!var12) { _fun0005_ip = 36; continue _fun0005 }
+case 37:
             var16 = '(using system theme)';
-case 21:
+case 36:
             var17['label'] = var16;
             var17['disabled'] = var12;
             var22 = _closure1_slot21;
             var16 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var23 = 45;
+            var23 = 47;
             var23 = var12[var23];
             var23 = var16.bind(var4)(var23);
             var26 = var23.ThemeLightIcon;
             var23 = {};
             var23 = var22.bind(var4)(var26, var23);
             var17['icon'] = var23;
-            var23 = 46;
+            var23 = 48;
             var23 = var12[var23];
             var26 = var16.bind(var4)(var23);
             var23 = var26.isThemeLight;
             var23 = var23.bind(var26)(var27);
             var17['value'] = var23;
-            var23 = _closure1_slot29;
+            var23 = _closure1_slot30;
             var17['onValueChange'] = var23;
             var18 = var19.bind(var4)(var18, var17);
             var17 = new Array(2);
@@ -736,7 +831,7 @@ case 21:
             var18 = {};
             var23 = 'Reduced Motion';
             var18['label'] = var23;
-            var23 = 47;
+            var23 = 49;
             var23 = var12[var23];
             var23 = var16.bind(var4)(var23);
             var26 = var23.AccessibilityIcon;
@@ -744,7 +839,7 @@ case 21:
             var23 = var22.bind(var4)(var26, var23);
             var18['icon'] = var23;
             var18['value'] = var20;
-            var20 = _closure1_slot30;
+            var20 = _closure1_slot31;
             var18['onValueChange'] = var20;
             var18 = var22.bind(var4)(var19, var18);
             var17[1] = var18;
@@ -778,30 +873,30 @@ case 21:
                 var4 = _closure1_slot21;
                 var8 = _closure1_slot0;
                 var9 = _closure1_slot2;
-                var1 = 42;
+                var1 = 44;
                 var1 = var9[var1];
                 var3 = undefined;
                 var1 = var8.bind(var3)(var1);
                 var2 = var1.TableSwitchRow;
                 var1 = {};
                 var6 = function onValueChange(arg1) {
-                    _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+                    _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                         var4 = _closure1_slot0;
                         var3 = _closure1_slot2;
-                        var1 = 48;
+                        var1 = 50;
                         var3 = var3[var1];
                         var1 = undefined;
                         var5 = var4.bind(var1)(var3);
                         var4 = var5.updateClientPremiumTypeOverride;
                         var3 = arg1;
-                        if(var3) { _fun0006_ip = 6; continue _fun0006 }
-case 23:
+                        if(var3) { _fun0007_ip = 6; continue _fun0007 }
+case 38:
                         var3 = _closure1_slot18;
-                        _fun0006_ip = 24; continue _fun0006;
+                        _fun0007_ip = 39; continue _fun0007;
 case 6:
                         var3 = _closure3_slot0;
-case 24:
+case 39:
                         var2 = _closure2_slot2;
                         var2 = var4.bind(var5)(var3, var2);
                         return var1;
@@ -809,7 +904,7 @@ case 24:
                 };
                 var1['onValueChange'] = var6;
                 var1['label'] = var5;
-                var6 = 49;
+                var6 = 51;
                 var6 = var9[var6];
                 var6 = var8.bind(var3)(var6);
                 var8 = var6.PencilIcon;
@@ -841,7 +936,7 @@ case 24:
             var9 = var16.bind(var4)(var9);
             var18 = var9.TableRowGroup;
             var9 = {};
-            var17 = 50;
+            var17 = 52;
             var11 = var12[var17];
             var11 = var16.bind(var4)(var11);
             var23 = var11.intl;
@@ -852,17 +947,17 @@ case 24:
             var11 = var11.Aojq+P;
             var11 = var20.bind(var23)(var11);
             var9['title'] = var11;
-            var11 = 51;
+            var11 = 53;
             var12 = var12[var11];
             var12 = var16.bind(var4)(var12);
             var20 = var12.TableRow;
             var12 = {};
             var16 = 'Change to en-US';
             var23 = 'en-US';
-            if(!(var23 === var25)) { _fun0004_ip = 25; continue _fun0004 }
-case 26:
+            if(!(var23 === var25)) { _fun0005_ip = 40; continue _fun0005 }
+case 41:
             var16 = 'Change to pt-BR';
-case 25:
+case 40:
             var12['label'] = var16;
             var16 = 'Toggle to a non-english locale for change log testing, etc.';
             var12['subLabel'] = var16;
@@ -870,14 +965,14 @@ case 25:
             var23 = _closure1_slot21;
             var15 = _closure1_slot0;
             var16 = _closure1_slot2;
-            var25 = 52;
+            var25 = 54;
             var25 = var16[var25];
             var25 = var15.bind(var4)(var25);
             var26 = var25.LanguageIcon;
             var25 = {};
             var25 = var23.bind(var4)(var26, var25);
             var12['icon'] = var25;
-            var25 = 53;
+            var25 = 55;
             var26 = var16[var25];
             var26 = var15.bind(var4)(var26);
             var27 = var26.TableRowArrow;
@@ -885,7 +980,7 @@ case 25:
             var26 = var23.bind(var4)(var27, var26);
             var12['trailing'] = var26;
             var12 = var22.bind(var4)(var20, var12);
-            var20 = new Array(12);
+            var20 = new Array(13);
             var20[0] = var12;
             var12 = var16[var11];
             var12 = var15.bind(var4)(var12);
@@ -893,7 +988,7 @@ case 25:
             var12 = {'label': 'Reset Double Tap Emoji State', 'subLabel': 'Clears double tap emoji and resets dismissible content.'};
             var26 = _closure1_slot27;
             var12['onPress'] = var26;
-            var26 = 54;
+            var26 = 56;
             var27 = var16[var26];
             var27 = var15.bind(var4)(var27);
             var28 = var27.KeyIcon;
@@ -922,11 +1017,11 @@ case 25:
             var17 = var17.yoWDXV;
             var17 = var27.bind(var28)(var17);
             var12['label'] = var17;
-            var17 = 'Dismiss dev tools after launching.';
+            var17 = 'Dismisses dev tools when launching.';
             var12['subLabel'] = var17;
-            var17 = _closure1_slot28;
+            var17 = _closure1_slot29;
             var12['onPress'] = var17;
-            var17 = 55;
+            var17 = 57;
             var27 = var16[var17];
             var27 = var15.bind(var4)(var27);
             var28 = var27.WrenchIcon;
@@ -944,7 +1039,7 @@ case 25:
             var12 = var16[var11];
             var12 = var15.bind(var4)(var12);
             var22 = var12.TableRow;
-            var12 = {'label': 'Launch MFA', 'subLabel': 'Dismiss dev tools after launching.'};
+            var12 = {'label': 'Launch MFA Challenge Modal', 'subLabel': 'Dismisses dev tools when launching.'};
             var27 = _closure1_slot24;
             var12['onPress'] = var27;
             var27 = var16[var26];
@@ -964,8 +1059,8 @@ case 25:
             var12 = var16[var11];
             var12 = var15.bind(var4)(var12);
             var22 = var12.TableRow;
-            var12 = {'label': 'Reset Launch Welcome', 'subLabel': 'Resets launch welcome NUX flag, requires an app restart to take effect.'};
-            var27 = _closure1_slot31;
+            var12 = {'label': 'Show TOTP Setup Success', 'subLabel': 'Dismisses dev tools when launching.'};
+            var27 = _closure1_slot28;
             var12['onPress'] = var27;
             var27 = var16[var26];
             var27 = var15.bind(var4)(var27);
@@ -981,6 +1076,26 @@ case 25:
             var12['trailing'] = var27;
             var12 = var23.bind(var4)(var22, var12);
             var20[4] = var12;
+            var12 = var16[var11];
+            var12 = var15.bind(var4)(var12);
+            var22 = var12.TableRow;
+            var12 = {'label': 'Reset Launch Welcome', 'subLabel': 'Resets launch welcome NUX flag, requires an app restart to take effect.'};
+            var27 = _closure1_slot32;
+            var12['onPress'] = var27;
+            var27 = var16[var26];
+            var27 = var15.bind(var4)(var27);
+            var28 = var27.KeyIcon;
+            var27 = {};
+            var27 = var23.bind(var4)(var28, var27);
+            var12['icon'] = var27;
+            var27 = var16[var25];
+            var27 = var15.bind(var4)(var27);
+            var28 = var27.TableRowArrow;
+            var27 = {};
+            var27 = var23.bind(var4)(var28, var27);
+            var12['trailing'] = var27;
+            var12 = var23.bind(var4)(var22, var12);
+            var20[5] = var12;
             var12 = var16[var11];
             var12 = var15.bind(var4)(var12);
             var22 = var12.TableRow;
@@ -1000,7 +1115,7 @@ case 25:
             var27 = var23.bind(var4)(var28, var27);
             var12['trailing'] = var27;
             var12 = var23.bind(var4)(var22, var12);
-            var20[5] = var12;
+            var20[6] = var12;
             var12 = var16[var11];
             var12 = var15.bind(var4)(var12);
             var22 = var12.TableRow;
@@ -1022,7 +1137,7 @@ case 25:
             var27 = var23.bind(var4)(var28, var27);
             var12['trailing'] = var27;
             var12 = var23.bind(var4)(var22, var12);
-            var20[6] = var12;
+            var20[7] = var12;
             var12 = var16[var11];
             var12 = var15.bind(var4)(var12);
             var22 = var12.TableRow;
@@ -1062,14 +1177,14 @@ case 25:
             var27 = var23.bind(var4)(var28, var27);
             var12['trailing'] = var27;
             var12 = var23.bind(var4)(var22, var12);
-            var20[7] = var12;
+            var20[8] = var12;
             var12 = var16[var11];
             var12 = var15.bind(var4)(var12);
             var22 = var12.TableRow;
             var12 = {};
             var27 = 'Test captcha';
             var12['label'] = var27;
-            var27 = 56;
+            var27 = 58;
             var27 = var16[var27];
             var27 = var15.bind(var4)(var27);
             var27 = var27.showCaptchaTestModal;
@@ -1087,12 +1202,12 @@ case 25:
             var25 = var23.bind(var4)(var26, var25);
             var12['trailing'] = var25;
             var12 = var23.bind(var4)(var22, var12);
-            var20[8] = var12;
+            var20[9] = var12;
             var12 = var16[var13];
             var12 = var15.bind(var4)(var12);
             var22 = var12.TableSwitchRow;
             var12 = {'label': 'Ignored Profile Speedbump Suppression', 'subLabel': 'Suppresses the speedbump for ignored profiles.'};
-            var25 = 57;
+            var25 = 59;
             var25 = var16[var25];
             var25 = var15.bind(var4)(var25);
             var26 = var25.EyeSlashIcon;
@@ -1103,7 +1218,7 @@ case 25:
             var24 = function onValueChange() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 39;
+                var1 = 41;
                 var2 = var2[var1];
                 var1 = undefined;
                 var1 = var3.bind(var1)(var2);
@@ -1116,15 +1231,15 @@ case 25:
             };
             var12['onValueChange'] = var24;
             var12 = var23.bind(var4)(var22, var12);
-            var20[9] = var12;
-            var12 = 58;
+            var20[10] = var12;
+            var12 = 60;
             var12 = var16[var12];
             var15 = var15.bind(var4)(var12);
             var12 = var15.isAndroid;
             var15 = var12.bind(var15)();
             var12 = null;
-            if(!var15) { _fun0004_ip = 27; continue _fun0004 }
-case 28:
+            if(!var15) { _fun0005_ip = 42; continue _fun0005 }
+case 43:
             var16 = _closure1_slot21;
             var23 = _closure1_slot0;
             var24 = _closure1_slot2;
@@ -1132,7 +1247,7 @@ case 28:
             var13 = var23.bind(var4)(var13);
             var15 = var13.TableSwitchRow;
             var13 = {'label': 'Enable Systrace', 'subLabel': 'Toggling requires an app restart to take effect.'};
-            var22 = 59;
+            var22 = 61;
             var22 = var24[var22];
             var22 = var23.bind(var4)(var22);
             var23 = var22.BrowserIcon;
@@ -1150,8 +1265,8 @@ case 28:
             };
             var13['onValueChange'] = var21;
             var12 = var16.bind(var4)(var15, var13);
-case 27:
-            var20[10] = var12;
+case 42:
+            var20[11] = var12;
             var13 = _closure1_slot21;
             var16 = _closure1_slot0;
             var15 = _closure1_slot2;
@@ -1160,7 +1275,7 @@ case 27:
             var22 = var12.TableRow;
             var21 = {'label': 'Show App Rating Modal', 'subLabel': 'Attempts to show the app rating modal -- this may not visually show anything on debug builds or if your device has already been shown the modal recently.'};
             var12 = _closure1_slot1;
-            var23 = 60;
+            var23 = 62;
             var23 = var15[var23];
             var23 = var12.bind(var4)(var23);
             var21['onPress'] = var23;
@@ -1171,7 +1286,7 @@ case 27:
             var23 = var13.bind(var4)(var24, var23);
             var21['icon'] = var23;
             var21 = var13.bind(var4)(var22, var21);
-            var20[11] = var21;
+            var20[12] = var21;
             var9['children'] = var20;
             var9 = var19.bind(var4)(var18, var9);
             var6[6] = var9;
@@ -1207,7 +1322,7 @@ case 27:
             var18 = function onPress() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 61;
+                var1 = 63;
                 var2 = var2[var1];
                 var1 = undefined;
                 var2 = var3.bind(var1)(var2);
@@ -1282,7 +1397,7 @@ case 27:
             var14 = function onPress() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 62;
+                var1 = 64;
                 var2 = var2[var1];
                 var1 = undefined;
                 var3 = var3.bind(var1)(var2);
@@ -1299,10 +1414,10 @@ case 27:
             var2['children'] = var6;
             var2 = var5.bind(var4)(var3, var2);
             return var2;
-case 19:
+case 34:
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var2 = 40;
+            var2 = 42;
             var2 = var5[var2];
             var2 = var3.bind(var4)(var2);
             var3 = var2.default;

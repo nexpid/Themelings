@@ -725,7 +725,7 @@ case 18:
             var1 = var1.props;
             var3 = var1.artists;
             var2 = var3.split;
-            var1 = ';';
+            var1 = '; ';
             var7 = var2.bind(var3)(var1);
             var2 = var7.length;
             var1 = 1;

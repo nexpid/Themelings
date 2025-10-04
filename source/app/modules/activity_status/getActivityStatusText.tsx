@@ -512,7 +512,7 @@ case 94:
             return var5;
 case 51:
             var7 = var8.split;
-            var5 = ';';
+            var5 = '; ';
             var7 = var7.bind(var8)(var5);
             var4 = var4 == var7;
             var11 = undefined;

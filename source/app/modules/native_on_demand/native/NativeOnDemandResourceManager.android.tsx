@@ -38,13 +38,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot11 = var2;
+            _closure1_slot10 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot11 = var1;
+    var _closure1_slot10 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -85,10 +85,8 @@ case 4:
     var4 = 7;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var8 = var4.AppStates;
-    var _closure1_slot9 = var8;
-    var4 = var4.InputModes;
-    var _closure1_slot10 = var4;
+    var4 = var4.AppStates;
+    var _closure1_slot9 = var4;
     var4 = 10;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
@@ -111,7 +109,7 @@ case 0:
                 var1 = _closure1_slot5;
                 var9 = var1.bind(var4)(var3);
                 var3 = _closure1_slot4;
-                var1 = _closure1_slot11;
+                var1 = _closure1_slot10;
                 var1 = var1.bind(var4)();
                 if(var1) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
@@ -130,6 +128,13 @@ case 8:
                 var1 = var3.bind(var4)(var5, var1);
                 var _closure3_slot0 = var1;
                 var3 = {};
+                var4 = function POST_CONNECTION_OPEN() {
+                    var2 = _closure3_slot0;
+                    var1 = var2.handlePostConnectionOpen;
+                    var1 = var1.bind(var2)();
+                    return var1;
+                };
+                var3['POST_CONNECTION_OPEN'] = var4;
                 var4 = function APP_STATE_UPDATE() {
                     var2 = _closure3_slot0;
                     var1 = var2.handleAppStateUpdate;
@@ -139,65 +144,89 @@ case 8:
                 var3['APP_STATE_UPDATE'] = var4;
                 var1['actions'] = var3;
                 var3 = false;
+                var1['isPastConnectionOpen'] = var3;
                 var1['hasFetchedKrisp'] = var3;
+                var3 = function() {
+                    var2 = _closure3_slot0;
+                    var1 = true;
+                    var2['isPastConnectionOpen'] = var1;
+                    var1 = var2.maybeLoadKrisp;
+                    var1 = var1.bind(var2)();
+                    var1 = undefined;
+                    return var1;
+                };
+                var1['handlePostConnectionOpen'] = var3;
+                var3 = function() {
+                    var2 = _closure3_slot0;
+                    var1 = var2.maybeLoadKrisp;
+                    var1 = var1.bind(var2)();
+                    var1 = undefined;
+                    return var1;
+                };
+                var1['handleAppStateUpdate'] = var3;
                 var2 = function() {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-                        var3 = _closure1_slot8;
-                        var2 = var3.getState;
-                        var3 = var2.bind(var3)();
-                        var2 = _closure1_slot9;
-                        var2 = var2.ACTIVE;
-                        if(!(var3 === var2)) { _fun0003_ip = 9; continue _fun0003 }
+                        var3 = _closure3_slot0;
+                        var3 = var3.isPastConnectionOpen;
+                        if(!var3) { _fun0003_ip = 9; continue _fun0003 }
 case 10:
-                        var3 = _closure1_slot0;
-                        var2 = _closure1_slot1;
-                        var8 = 8;
-                        var2 = var2[var8];
-                        var7 = undefined;
-                        var2 = var3.bind(var7)(var2);
-                        var5 = null;
-                        if(!(var5 != var2)) { _fun0003_ip = 11; continue _fun0003 }
-case 12:
-                        var3 = _closure1_slot0;
-                        var2 = _closure1_slot1;
-                        var2 = var2[var8];
-                        var6 = var3.bind(var7)(var2);
-                        var3 = var6.hasOnDemandResource;
-                        var2 = 'krisp';
-                        var2 = var3.bind(var6)(var2);
-                        if(var2) { _fun0003_ip = 9; continue _fun0003 }
+                        var5 = _closure1_slot8;
+                        var3 = var5.getState;
+                        var5 = var3.bind(var5)();
+                        var3 = _closure1_slot9;
+                        var3 = var3.ACTIVE;
+                        if(!(var5 === var3)) { _fun0003_ip = 9; continue _fun0003 }
 case 11:
+                        var5 = _closure1_slot0;
+                        var3 = _closure1_slot1;
+                        var8 = 8;
+                        var3 = var3[var8];
+                        var7 = undefined;
+                        var3 = var5.bind(var7)(var3);
+                        var5 = null;
+                        if(!(var5 != var3)) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
+                        var6 = _closure1_slot0;
+                        var3 = _closure1_slot1;
+                        var3 = var3[var8];
+                        var9 = var6.bind(var7)(var3);
+                        var6 = var9.hasOnDemandResource;
+                        var3 = 'krisp';
+                        var3 = var6.bind(var9)(var3);
+                        if(var3) { _fun0003_ip = 9; continue _fun0003 }
+case 12:
                         var3 = _closure3_slot0;
                         var3 = var3.hasFetchedKrisp;
                         if(var3) { _fun0003_ip = 9; continue _fun0003 }
-case 13:
+case 14:
                         var3 = _closure3_slot0;
                         var2 = true;
                         var3['hasFetchedKrisp'] = var2;
                         var3 = _closure1_slot7;
+                        var2 = var3.getMode;
+                        var11 = var2.bind(var3)();
+                        var _closure4_slot0 = var11;
                         var2 = var3.getModeOptions;
                         var2 = var2.bind(var3)();
                         var2 = var2.autoThreshold;
-                        var _closure4_slot0 = var2;
+                        var _closure4_slot1 = var2;
                         var3 = _closure1_slot0;
                         var2 = _closure1_slot1;
                         var6 = 9;
                         var6 = var2[var6];
-                        var11 = var3.bind(var7)(var6);
-                        var10 = var11.setMode;
-                        var6 = _closure1_slot10;
-                        var9 = var6.VOICE_ACTIVITY;
+                        var10 = var3.bind(var7)(var6);
+                        var9 = var10.setMode;
                         var6 = {};
                         var12 = false;
                         var6['autoThreshold'] = var12;
-                        var6 = var10.bind(var11)(var9, var6);
+                        var6 = var9.bind(var10)(var11, var6);
                         var2 = var2[var8];
                         var2 = var3.bind(var7)(var2);
                         var2 = var5 == var2;
                         var3 = undefined;
-                        if(var2) { _fun0003_ip = 14; continue _fun0003 }
-case 15:
+                        if(var2) { _fun0003_ip = 15; continue _fun0003 }
+case 16:
                         var6 = _closure1_slot0;
                         var4 = _closure1_slot1;
                         var4 = var4[var8];
@@ -207,9 +236,9 @@ case 15:
                         var4 = var6.bind(var7)(var4);
                         var2 = var5 == var4;
                         var3 = var4;
-case 14:
+case 15:
                         if(var2) { _fun0003_ip = 9; continue _fun0003 }
-case 16:
+case 17:
                         var2 = var3.then;
                         var1 = function(arg1) {
                             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
@@ -223,36 +252,35 @@ case 0:
                                 var3 = null;
                                 var3 = var3 == var4;
                                 var4 = undefined;
-                                if(var3) { _fun0004_ip = 17; continue _fun0004 }
-case 10:
+                                if(var3) { _fun0004_ip = 18; continue _fun0004 }
+case 19:
                                 var5 = _closure1_slot0;
                                 var3 = _closure1_slot1;
                                 var3 = var3[var6];
                                 var5 = var5.bind(var1)(var3);
                                 var3 = var5.isOnDemandResourcingAvailable;
                                 var4 = var3.bind(var5)();
-case 17:
+case 18:
                                 var3 = arg1;
                                 var3 = !var3;
-                                if(!var3) { _fun0004_ip = 18; continue _fun0004 }
+                                if(!var3) { _fun0004_ip = 20; continue _fun0004 }
 case 5:
                                 var3 = var4;
-case 18:
-                                if(var3) { _fun0004_ip = 19; continue _fun0004 }
 case 20:
-                                var4 = _closure1_slot0;
-                                var5 = _closure1_slot1;
-                                var3 = 9;
-                                var3 = var5[var3];
-                                var5 = var4.bind(var1)(var3);
+                                if(var3) { _fun0004_ip = 21; continue _fun0004 }
+case 22:
+                                var3 = _closure1_slot0;
+                                var4 = _closure1_slot1;
+                                var2 = 9;
+                                var2 = var4[var2];
+                                var5 = var3.bind(var1)(var2);
                                 var4 = var5.setMode;
-                                var2 = _closure1_slot10;
-                                var3 = var2.VOICE_ACTIVITY;
+                                var3 = _closure4_slot0;
                                 var2 = {};
-                                var6 = _closure4_slot0;
+                                var6 = _closure4_slot1;
                                 var2['autoThreshold'] = var6;
                                 var2 = var4.bind(var5)(var3, var2);
-case 19:
+case 21:
                                 return var1;
                             }
                         };
@@ -262,7 +290,7 @@ case 9:
                         return var1;
                     }
                 };
-                var1['handleAppStateUpdate'] = var2;
+                var1['maybeLoadKrisp'] = var2;
                 return var1;
             }
         };

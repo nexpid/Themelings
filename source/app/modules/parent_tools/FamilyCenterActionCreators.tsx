@@ -1040,8 +1040,7 @@ case 81:
         var2 = var3.then;
         var1 = function(arg1) {
             var1 = arg1;
-            var1 = var1.body;
-            var5 = var1.consents;
+            var5 = var1.body;
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
             var1 = 4;

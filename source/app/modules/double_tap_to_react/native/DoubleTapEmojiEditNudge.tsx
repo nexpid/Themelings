@@ -347,7 +347,7 @@ case 12:
                     return var1;
                 };
                 var3['onPressEmoji'] = var2;
-                var2 = false;
+                var2 = true;
                 var3['startExpanded'] = var2;
                 var2 = 'stack';
                 var2 = var4.bind(var5)(var3, var2);

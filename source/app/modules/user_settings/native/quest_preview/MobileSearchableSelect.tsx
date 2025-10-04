@@ -385,7 +385,7 @@ case 28:
             var7['style'] = var11;
             var12 = _closure1_slot7;
             var11 = _closure1_slot5;
-            var10 = {'nestedScrollEnabled': true, 'showsVerticalScrollIndicator': false};
+            var10 = {'nestedScrollEnabled': true, 'showsVerticalScrollIndicator': false, 'keyboardShouldPersistTaps': 'handled'};
             var14 = var15.map;
             var13 = function(arg1, arg2) {
                 _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
@@ -412,12 +412,14 @@ case 30:
 case 29:
                     var7[1] = var8;
                     var3['style'] = var7;
+                    var7 = 0.7;
+                    var3['activeOpacity'] = var7;
                     var6 = function onPress() {
                         var3 = _closure2_slot12;
                         var1 = _closure3_slot0;
                         var2 = var1.value;
                         var1 = undefined;
-                        var1 = var3.bind(var1)(var2);
+                        var2 = var3.bind(var1)(var2);
                         return var1;
                     };
                     var3['onPress'] = var6;
@@ -527,10 +529,6 @@ case 27:
     var15 = var15.colors;
     var15 = var15.BORDER_SUBTLE;
     var10['borderColor'] = var15;
-    var15 = 'absolute';
-    var10['position'] = var15;
-    var15 = '100%';
-    var10['top'] = var15;
     var10['left'] = var11;
     var10['right'] = var11;
     var15 = 999999;

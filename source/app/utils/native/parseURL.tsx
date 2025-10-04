@@ -792,33 +792,36 @@ case 99:
 case 142:
             var27 = var13;
 case 141:
-            var30 = var30.bind(var11)(var27);
+            var31 = var30.bind(var11)(var27);
             var27 = _closure1_slot10;
-            var27 = var27.DEEP_LINK_ACTION;
-            var27 = var30[var27];
+            var30 = var27.DEEP_LINK_ACTION;
+            var30 = var31[var30];
+            var27 = var27.GUILD_ID;
+            var27 = var31[var27];
             if(!var23) { _fun0003_ip = 143; continue _fun0003 }
 case 144:
-            var31 = _closure1_slot0;
-            var32 = _closure1_slot2;
-            var30 = 15;
-            var30 = var32[var30];
-            var31 = var31.bind(var11)(var30);
-            var30 = var31.isIOS;
-            var23 = var30.bind(var31)();
+            var32 = _closure1_slot0;
+            var33 = _closure1_slot2;
+            var31 = 15;
+            var31 = var33[var31];
+            var32 = var32.bind(var11)(var31);
+            var31 = var32.isIOS;
+            var23 = var31.bind(var32)();
 case 143:
             var26 = null;
             if(!var23) { _fun0003_ip = 117; continue _fun0003 }
 case 145:
             var23 = {};
-            var30 = _closure1_slot7;
-            var30 = var30.APPLE_PAYMENT_LINK;
-            var23['type'] = var30;
-            if(!(var14 == var27)) { _fun0003_ip = 146; continue _fun0003 }
+            var31 = _closure1_slot7;
+            var31 = var31.APPLE_PAYMENT_LINK;
+            var23['type'] = var31;
+            if(!(var14 == var30)) { _fun0003_ip = 146; continue _fun0003 }
 case 147:
-            var30 = _closure1_slot9;
-            var27 = var30.DEFAULT;
+            var31 = _closure1_slot9;
+            var30 = var31.DEFAULT;
 case 146:
-            var23['deepLinkAction'] = var27;
+            var23['deepLinkAction'] = var30;
+            var23['guildId'] = var27;
             var26 = var23;
             _fun0003_ip = 117; continue _fun0003;
 case 97:

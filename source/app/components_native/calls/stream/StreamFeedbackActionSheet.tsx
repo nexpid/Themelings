@@ -32,23 +32,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.FeedbackType;
-    var _closure1_slot5 = var4;
+    var7 = var4.AudioFeedbackOption;
+    var _closure1_slot5 = var7;
+    var7 = var4.ConnectionFeedbackOption;
+    var _closure1_slot6 = var7;
+    var7 = var4.FeedbackCategory;
+    var _closure1_slot7 = var7;
+    var7 = var4.FeedbackType;
+    var _closure1_slot8 = var7;
+    var7 = var4.PeopleFeedbackOption;
+    var _closure1_slot9 = var7;
+    var7 = var4.StreamFeedbackOption;
+    var _closure1_slot10 = var7;
+    var4 = var4.VideoFeedbackOption;
+    var _closure1_slot11 = var4;
     var4 = 4;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.StreamIssueReportReasons;
-    var _closure1_slot6 = var4;
+    var _closure1_slot12 = var4;
     var7 = 5;
     var7 = var6[var7];
     var7 = var5.bind(var1)(var7);
     var7 = var7.jsx;
-    var _closure1_slot7 = var7;
+    var _closure1_slot13 = var7;
     var7 = var4.OTHER;
     var4 = new Array(1);
     var4[0] = var7;
-    var _closure1_slot8 = var4;
-    var4 = 15;
+    var _closure1_slot14 = var4;
+    var4 = 18;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -62,19 +74,19 @@ case 0:
             var _closure2_slot0 = var3;
             var1 = var1.analyticsData;
             var _closure2_slot1 = var1;
-            var7 = _closure1_slot0;
-            var14 = _closure1_slot2;
+            var9 = _closure1_slot0;
+            var8 = _closure1_slot2;
             var1 = 6;
-            var1 = var14[var1];
+            var1 = var8[var1];
             var4 = undefined;
-            var2 = var7.bind(var4)(var1);
+            var2 = var9.bind(var4)(var1);
             var1 = var2.useGetStreamApplication;
             var1 = var1.bind(var2)(var3);
             var _closure2_slot2 = var1;
             var1 = 7;
-            var1 = var14[var1];
-            var8 = var7.bind(var4)(var1);
-            var3 = var8.useStateFromStores;
+            var1 = var8[var1];
+            var6 = var9.bind(var4)(var1);
+            var3 = var6.useStateFromStores;
             var1 = _closure1_slot3;
             var2 = new Array(1);
             var2[0] = var1;
@@ -87,75 +99,22 @@ case 0:
                 var1 = var2 === var1;
                 return var1;
             };
-            var10 = var3.bind(var8)(var2, var1);
-            var12 = 8;
-            var1 = var14[var12];
-            var1 = var7.bind(var4)(var1);
-            var3 = var1.intl;
-            var2 = var3.string;
-            var1 = var14[var12];
-            var1 = var7.bind(var4)(var1);
-            var1 = var1.t;
-            var1 = var1.5smP3d;
-            var13 = var2.bind(var3)(var1);
-            var1 = var14[var12];
-            var1 = var7.bind(var4)(var1);
-            var3 = var1.intl;
-            var2 = var3.string;
-            var1 = var14[var12];
-            var1 = var7.bind(var4)(var1);
-            var1 = var1.t;
-            var1 = var1.0uxA2d;
-            var9 = var2.bind(var3)(var1);
-            var1 = var14[var12];
-            var1 = var7.bind(var4)(var1);
-            var3 = var1.intl;
-            var2 = var3.string;
-            var1 = var14[var12];
-            var1 = var7.bind(var4)(var1);
-            var1 = var1.t;
-            var1 = var1.CqjnLC;
-            var8 = var2.bind(var3)(var1);
-            var2 = _closure1_slot1;
-            var1 = 9;
-            var1 = var14[var1];
-            var3 = var2.bind(var4)(var1);
-            var11 = true;
-            var1 = {'isStreamer': false, 'isEndStream': true};
-            var7 = var3.bind(var4)(var1);
-            var3 = _closure1_slot7;
-            var1 = 10;
-            var1 = var14[var1];
-            var2 = var2.bind(var4)(var1);
+            var17 = var3.bind(var6)(var2, var1);
+            var1 = 8;
+            var1 = var8[var1];
+            var3 = var9.bind(var4)(var1);
+            var2 = var3.useStreamSurveyTaxonomyRefreshExperiment;
             var1 = {};
-            var1['headerLabel'] = var13;
-            var1['showHeaderCloseButton'] = var11;
-            if(!var10) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-            var8 = var9;
-case 2:
-            var1['ratingsBodyLabel'] = var8;
-            var11 = _closure1_slot0;
-            var8 = _closure1_slot2;
-            var9 = var8[var12];
-            var9 = var11.bind(var4)(var9);
-            var10 = var9.intl;
-            var9 = var10.string;
-            var8 = var8[var12];
-            var8 = var11.bind(var4)(var8);
-            var8 = var8.t;
-            var8 = var8.XuqqwM;
-            var8 = var9.bind(var10)(var8);
-            var1['reasonsHeaderLabel'] = var8;
-            var1['reasons'] = var7;
-            var7 = _closure1_slot8;
-            var1['feedbackReasons'] = var7;
-            var7 = function trackOpen() {
+            var6 = 'StreamFeedbackActionSheet';
+            var1['location'] = var6;
+            var1 = var2.bind(var3)(var1);
+            var1 = var1.showRefreshedStreamTaxonomy;
+            var6 = function trackOpen() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
-                    var1 = 11;
+                    var1 = 9;
                     var3 = var3[var1];
                     var1 = undefined;
                     var5 = var4.bind(var1)(var3);
@@ -172,109 +131,551 @@ case 0:
                     var6 = null;
                     var9 = var6 != var8;
                     var8 = null;
-                    if(!var9) { _fun0002_ip = 4; continue _fun0002 }
-case 5:
+                    if(!var9) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                     var9 = _closure2_slot2;
                     var8 = var9.id;
-case 4:
+case 2:
                     var2['application_id'] = var8;
                     var8 = _closure2_slot2;
                     var9 = var6 != var8;
                     var8 = null;
-                    if(!var9) { _fun0002_ip = 6; continue _fun0002 }
-case 7:
+                    if(!var9) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                     var9 = _closure2_slot2;
                     var8 = var9.name;
-case 6:
+case 4:
                     var2['application_name'] = var8;
                     var8 = _closure2_slot2;
                     var8 = var6 != var8;
                     var6 = null;
-                    if(!var8) { _fun0002_ip = 8; continue _fun0002 }
-case 9:
+                    if(!var8) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var7 = _closure2_slot2;
                     var6 = var7.id;
-case 8:
+case 6:
                     var2['game_id'] = var6;
                     var2 = var4.bind(var5)(var3, var2);
                     return var1;
                 }
             };
-            var1['trackOpen'] = var7;
-            var6 = function trackReport(arg1) {
+            var13 = 10;
+            var2 = var8[var13];
+            var2 = var9.bind(var4)(var2);
+            var7 = var2.intl;
+            var3 = var7.string;
+            var2 = var8[var13];
+            var2 = var9.bind(var4)(var2);
+            var2 = var2.t;
+            var2 = var2.5smP3d;
+            var19 = var3.bind(var7)(var2);
+            var2 = var8[var13];
+            var2 = var9.bind(var4)(var2);
+            var7 = var2.intl;
+            var3 = var7.string;
+            var2 = var8[var13];
+            var2 = var9.bind(var4)(var2);
+            var2 = var2.t;
+            var2 = var2.0uxA2d;
+            var14 = var3.bind(var7)(var2);
+            var2 = var8[var13];
+            var2 = var9.bind(var4)(var2);
+            var7 = var2.intl;
+            var3 = var7.string;
+            var2 = var8[var13];
+            var2 = var9.bind(var4)(var2);
+            var2 = var2.t;
+            var2 = var2.CqjnLC;
+            var7 = var3.bind(var7)(var2);
+            var3 = _closure1_slot1;
+            var2 = 11;
+            var2 = var8[var2];
+            var3 = var3.bind(var4)(var2);
+            var18 = true;
+            var2 = {'isStreamer': false, 'isEndStream': true};
+            var8 = var3.bind(var4)(var2);
+            if(var1) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
+            var3 = _closure1_slot13;
+            var2 = _closure1_slot1;
+            var9 = _closure1_slot2;
+            var1 = 17;
+            var1 = var9[var1];
+            var2 = var2.bind(var4)(var1);
+            var1 = {};
+            var1['headerLabel'] = var19;
+            var1['showHeaderCloseButton'] = var18;
+            var9 = var7;
+            if(!var17) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
+            var9 = var14;
+case 10:
+            var1['ratingsBodyLabel'] = var9;
+            var12 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var10 = var9[var13];
+            var10 = var12.bind(var4)(var10);
+            var11 = var10.intl;
+            var10 = var11.string;
+            var9 = var9[var13];
+            var9 = var12.bind(var4)(var9);
+            var9 = var9.t;
+            var9 = var9.XuqqwM;
+            var9 = var10.bind(var11)(var9);
+            var1['reasonsHeaderLabel'] = var9;
+            var1['reasons'] = var8;
+            var8 = _closure1_slot14;
+            var1['feedbackReasons'] = var8;
+            var1['trackOpen'] = var6;
+            var8 = function trackReport(arg1) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-                    var3 = arg1;
-                    var5 = var3.rating;
-                    var2 = var3.reason;
-                    var1 = var3.dontShowAgain;
-                    var8 = var3.feedback;
-                    var7 = null;
-                    var3 = var7 != var2;
-                    var6 = null;
-                    if(!var3) { _fun0003_ip = 10; continue _fun0003 }
-case 11:
-                    var6 = var2.value;
-case 10:
-                    if(!(var7 != var5)) { _fun0003_ip = 12; continue _fun0003 }
+                    var2 = arg1;
+                    var1 = var2.dontShowAgain;
+                    var5 = var2.rating;
+                    var6 = var2.reason;
+                    var8 = var2.feedback;
+                    if(!var1) { _fun0003_ip = 12; continue _fun0003 }
 case 13:
-                    var10 = _closure1_slot0;
-                    var9 = _closure1_slot2;
-                    var3 = 12;
-                    var3 = var9[var3];
-                    var4 = undefined;
-                    var10 = var10.bind(var4)(var3);
-                    var3 = var10.presentFeedbackSent;
-                    var3 = var3.bind(var10)();
-                    var3 = _closure1_slot1;
-                    var2 = 13;
-                    var2 = var9[var2];
-                    var3 = var3.bind(var4)(var2);
-                    var2 = {};
-                    var2['problem'] = var6;
-                    var9 = _closure2_slot0;
-                    var2['stream'] = var9;
-                    var9 = var7 != var8;
-                    var7 = '';
-                    if(!var9) { _fun0003_ip = 14; continue _fun0003 }
-case 15:
-                    var7 = var8;
-case 14:
-                    var2['feedback'] = var7;
-                    var7 = _closure2_slot2;
-                    var2['streamApplication'] = var7;
-                    var6 = _closure2_slot1;
-                    var2['analyticsData'] = var6;
-                    var6 = 'Stream';
-                    var2['location'] = var6;
-                    var2['rating'] = var5;
-                    var2 = var3.bind(var4)(var2);
-case 12:
-                    if(!var1) { _fun0003_ip = 16; continue _fun0003 }
-case 17:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var1 = 14;
+                    var1 = 13;
                     var2 = var2[var1];
                     var1 = undefined;
                     var3 = var3.bind(var1)(var2);
                     var2 = var3.processOptOut;
                     var1 = {};
-                    var4 = _closure1_slot5;
+                    var4 = _closure1_slot8;
                     var4 = var4.STREAM;
                     var1['feedbackType'] = var4;
                     var4 = 'StreamFeedbackActionSheet';
                     var1['location'] = var4;
                     var1 = var2.bind(var3)(var1);
+case 12:
+                    var7 = null;
+                    if(!(var7 != var5)) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
+                    var4 = _closure1_slot1;
+                    var3 = _closure1_slot2;
+                    var2 = 15;
+                    var2 = var3[var2];
+                    var3 = undefined;
+                    var4 = var4.bind(var3)(var2);
+                    var2 = {};
+                    var10 = var7 == var6;
+                    var9 = undefined;
+                    if(var10) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
+                    var9 = var6.value;
 case 16:
+                    var10 = var7 != var9;
+                    var6 = null;
+                    if(!var10) { _fun0003_ip = 18; continue _fun0003 }
+case 19:
+                    var6 = var9;
+case 18:
+                    var2['problem'] = var6;
+                    var9 = _closure2_slot0;
+                    var2['stream'] = var9;
+                    var9 = var7 != var8;
+                    var7 = '';
+                    if(!var9) { _fun0003_ip = 20; continue _fun0003 }
+case 21:
+                    var7 = var8;
+case 20:
+                    var2['feedback'] = var7;
+                    var7 = _closure2_slot2;
+                    var2['streamApplication'] = var7;
+                    var6 = _closure2_slot1;
+                    var2['analyticsData'] = var6;
+                    var6 = 'Stream End';
+                    var2['location'] = var6;
+                    var2['rating'] = var5;
+                    var2 = var4.bind(var3)(var2);
+                    var2 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var1 = 16;
+                    var1 = var4[var1];
+                    var2 = var2.bind(var3)(var1);
+                    var1 = var2.presentFeedbackSent;
+                    var1 = var1.bind(var2)();
+case 14:
                     var1 = undefined;
                     return var1;
                 }
             };
-            var1['trackReport'] = var6;
-            var5 = _closure1_slot6;
-            var5 = var5.OTHER;
-            var1['otherKey'] = var5;
+            var1['trackReport'] = var8;
+            var8 = _closure1_slot12;
+            var8 = var8.OTHER;
+            var1['otherKey'] = var8;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
+case 8:
+            var12 = {};
+            var2 = _closure1_slot7;
+            var1 = var2.CONNECTION;
+            var12['value'] = var1;
+            var21 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var1 = var3[var13];
+            var1 = var21.bind(var4)(var1);
+            var9 = var1.intl;
+            var8 = var9.string;
+            var22 = _closure1_slot1;
+            var16 = 12;
+            var1 = var3[var16];
+            var1 = var22.bind(var4)(var1);
+            var1 = var1.FVhMw8;
+            var1 = var8.bind(var9)(var1);
+            var12['label'] = var1;
+            var1 = var3[var13];
+            var1 = var21.bind(var4)(var1);
+            var9 = var1.intl;
+            var8 = var9.string;
+            var1 = var3[var13];
+            var1 = var21.bind(var4)(var1);
+            var1 = var1.t;
+            var1 = var1.6Y1t5O;
+            var1 = var8.bind(var9)(var1);
+            var12['problemsHeader'] = var1;
+            var1 = 13;
+            var8 = var3[var1];
+            var9 = var21.bind(var4)(var8);
+            var8 = var9.getConnectionFeedbackOptions;
+            var8 = var8.bind(var9)();
+            var12['problemOptions'] = var8;
+            var8 = {};
+            var9 = _closure1_slot6;
+            var9 = var9.FREEFORM;
+            var8['value'] = var9;
+            var9 = var3[var13];
+            var9 = var21.bind(var4)(var9);
+            var11 = var9.intl;
+            var10 = var11.string;
+            var9 = var3[var13];
+            var9 = var21.bind(var4)(var9);
+            var9 = var9.t;
+            var9 = var9.emlT9/;
+            var9 = var10.bind(var11)(var9);
+            var8['label'] = var9;
+            var12['freeformConfig'] = var8;
+            var11 = {};
+            var8 = var2.AUDIO;
+            var11['value'] = var8;
+            var8 = var3[var13];
+            var8 = var21.bind(var4)(var8);
+            var10 = var8.intl;
+            var9 = var10.string;
+            var8 = var3[var16];
+            var8 = var22.bind(var4)(var8);
+            var8 = var8.PL2l6O;
+            var8 = var9.bind(var10)(var8);
+            var11['label'] = var8;
+            var8 = var3[var13];
+            var8 = var21.bind(var4)(var8);
+            var10 = var8.intl;
+            var9 = var10.string;
+            var8 = var3[var13];
+            var8 = var21.bind(var4)(var8);
+            var8 = var8.t;
+            var8 = var8.6Y1t5O;
+            var8 = var9.bind(var10)(var8);
+            var11['problemsHeader'] = var8;
+            var8 = var3[var1];
+            var10 = var21.bind(var4)(var8);
+            var9 = var10.getAudioFeedbackOptions;
+            var8 = {};
+            var8['isMobile'] = var18;
+            var8 = var9.bind(var10)(var8);
+            var11['problemOptions'] = var8;
+            var8 = {};
+            var9 = _closure1_slot5;
+            var9 = var9.FREEFORM;
+            var8['value'] = var9;
+            var9 = var3[var13];
+            var9 = var21.bind(var4)(var9);
+            var20 = var9.intl;
+            var10 = var20.string;
+            var9 = var3[var13];
+            var9 = var21.bind(var4)(var9);
+            var9 = var9.t;
+            var9 = var9.emlT9/;
+            var9 = var10.bind(var20)(var9);
+            var8['label'] = var9;
+            var11['freeformConfig'] = var8;
+            var10 = {};
+            var8 = var2.VIDEO;
+            var10['value'] = var8;
+            var8 = var3[var13];
+            var8 = var21.bind(var4)(var8);
+            var20 = var8.intl;
+            var9 = var20.string;
+            var8 = var3[var16];
+            var8 = var22.bind(var4)(var8);
+            var8 = var8.0WFzPj;
+            var8 = var9.bind(var20)(var8);
+            var10['label'] = var8;
+            var8 = var3[var13];
+            var8 = var21.bind(var4)(var8);
+            var20 = var8.intl;
+            var9 = var20.string;
+            var8 = var3[var13];
+            var8 = var21.bind(var4)(var8);
+            var8 = var8.t;
+            var8 = var8.6Y1t5O;
+            var8 = var9.bind(var20)(var8);
+            var10['problemsHeader'] = var8;
+            var8 = var3[var1];
+            var9 = var21.bind(var4)(var8);
+            var8 = var9.getVideoFeedbackOptions;
+            var8 = var8.bind(var9)();
+            var10['problemOptions'] = var8;
+            var8 = {};
+            var9 = _closure1_slot11;
+            var9 = var9.FREEFORM;
+            var8['value'] = var9;
+            var9 = var3[var13];
+            var9 = var21.bind(var4)(var9);
+            var23 = var9.intl;
+            var20 = var23.string;
+            var9 = var3[var13];
+            var9 = var21.bind(var4)(var9);
+            var9 = var9.t;
+            var9 = var9.emlT9/;
+            var9 = var20.bind(var23)(var9);
+            var8['label'] = var9;
+            var10['freeformConfig'] = var8;
+            var8 = {};
+            var2 = var2.PEOPLE;
+            var8['value'] = var2;
+            var2 = var3[var13];
+            var2 = var21.bind(var4)(var2);
+            var20 = var2.intl;
+            var9 = var20.string;
+            var2 = var3[var16];
+            var2 = var22.bind(var4)(var2);
+            var2 = var2.Moa3W1;
+            var2 = var9.bind(var20)(var2);
+            var8['label'] = var2;
+            var2 = var3[var13];
+            var2 = var21.bind(var4)(var2);
+            var20 = var2.intl;
+            var9 = var20.string;
+            var2 = var3[var13];
+            var2 = var21.bind(var4)(var2);
+            var2 = var2.t;
+            var2 = var2.6Y1t5O;
+            var2 = var9.bind(var20)(var2);
+            var8['problemsHeader'] = var2;
+            var2 = var3[var1];
+            var9 = var21.bind(var4)(var2);
+            var2 = var9.getPeopleFeedbackOptions;
+            var2 = var2.bind(var9)();
+            var8['problemOptions'] = var2;
+            var2 = {};
+            var9 = _closure1_slot9;
+            var9 = var9.FREEFORM;
+            var2['value'] = var9;
+            var9 = var3[var13];
+            var9 = var21.bind(var4)(var9);
+            var20 = var9.intl;
+            var9 = var20.string;
+            var3 = var3[var13];
+            var3 = var21.bind(var4)(var3);
+            var3 = var3.t;
+            var3 = var3.emlT9/;
+            var3 = var9.bind(var20)(var3);
+            var2['label'] = var3;
+            var8['freeformConfig'] = var2;
+            var9 = {};
+            var3 = _closure1_slot7;
+            if(var17) { _fun0001_ip = 22; continue _fun0001 }
+case 23:
+            var2 = var3.STREAM_WATCHING;
+            _fun0001_ip = 24; continue _fun0001;
+case 22:
+            var2 = var3.STREAMING;
+case 24:
+            var9['value'] = var2;
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var2 = var2[var13];
+            var2 = var3.bind(var4)(var2);
+            var20 = var2.intl;
+            var3 = var20.string;
+            var21 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var2 = var2[var16];
+            var21 = var21.bind(var4)(var2);
+            if(var17) { _fun0001_ip = 25; continue _fun0001 }
+case 26:
+            var2 = var21.TVTIT0;
+            _fun0001_ip = 27; continue _fun0001;
+case 25:
+            var2 = var21.0ZBLiY;
+case 27:
+            var2 = var3.bind(var20)(var2);
+            var9['label'] = var2;
+            var22 = _closure1_slot0;
+            var20 = _closure1_slot2;
+            var2 = var20[var13];
+            var2 = var22.bind(var4)(var2);
+            var21 = var2.intl;
+            var3 = var21.string;
+            var2 = var20[var13];
+            var2 = var22.bind(var4)(var2);
+            var2 = var2.t;
+            var2 = var2.6Y1t5O;
+            var2 = var3.bind(var21)(var2);
+            var9['problemsHeader'] = var2;
+            var1 = var20[var1];
+            var3 = var22.bind(var4)(var1);
+            var2 = var3.getStreamFeedbackOptions;
+            var1 = {};
+            var1['isStreamer'] = var17;
+            var1 = var2.bind(var3)(var1);
+            var9['problemOptions'] = var1;
+            var1 = {};
+            var2 = _closure1_slot10;
+            var2 = var2.FREEFORM;
+            var1['value'] = var2;
+            var2 = var20[var13];
+            var2 = var22.bind(var4)(var2);
+            var21 = var2.intl;
+            var3 = var21.string;
+            var2 = var20[var13];
+            var2 = var22.bind(var4)(var2);
+            var2 = var2.t;
+            var2 = var2.emlT9/;
+            var2 = var3.bind(var21)(var2);
+            var1['label'] = var2;
+            var9['freeformConfig'] = var1;
+            var3 = _closure1_slot13;
+            var2 = _closure1_slot1;
+            var1 = 14;
+            var1 = var20[var1];
+            var2 = var2.bind(var4)(var1);
+            var1 = {};
+            var1['headerLabel'] = var19;
+            var1['showHeaderCloseButton'] = var18;
+            if(!var17) { _fun0001_ip = 28; continue _fun0001 }
+case 29:
+            var7 = var14;
+case 28:
+            var1['ratingBody'] = var7;
+            var14 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var13 = var7[var13];
+            var13 = var14.bind(var4)(var13);
+            var14 = var13.intl;
+            var13 = var14.string;
+            var15 = _closure1_slot1;
+            var7 = var7[var16];
+            var7 = var15.bind(var4)(var7);
+            var7 = var7.tq859/;
+            var7 = var13.bind(var14)(var7);
+            var1['categoriesHeader'] = var7;
+            var7 = new Array(5);
+            var7[0] = var12;
+            var7[1] = var11;
+            var7[2] = var10;
+            var7[3] = var9;
+            var7[4] = var8;
+            var1['optionsTree'] = var7;
+            var1['trackOpen'] = var6;
+            var5 = function trackReport(arg1) {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+                    var2 = arg1;
+                    var1 = var2.dontShowAgain;
+                    var5 = var2.rating;
+                    var9 = var2.category;
+                    var6 = var2.reason;
+                    var8 = var2.feedback;
+                    if(!var1) { _fun0004_ip = 30; continue _fun0004 }
+case 31:
+                    var3 = _closure1_slot0;
+                    var2 = _closure1_slot2;
+                    var1 = 13;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var3 = var3.bind(var1)(var2);
+                    var2 = var3.processOptOut;
+                    var1 = {};
+                    var4 = _closure1_slot8;
+                    var4 = var4.STREAM;
+                    var1['feedbackType'] = var4;
+                    var4 = 'StreamFeedbackActionSheet';
+                    var1['location'] = var4;
+                    var1 = var2.bind(var3)(var1);
+case 30:
+                    var7 = null;
+                    if(!(var7 != var5)) { _fun0004_ip = 32; continue _fun0004 }
+case 33:
+                    var4 = _closure1_slot1;
+                    var3 = _closure1_slot2;
+                    var2 = 15;
+                    var2 = var3[var2];
+                    var3 = undefined;
+                    var4 = var4.bind(var3)(var2);
+                    var2 = {};
+                    var2['category'] = var9;
+                    var9 = var7 == var6;
+                    var10 = undefined;
+                    if(var9) { _fun0004_ip = 34; continue _fun0004 }
+case 35:
+                    var10 = var6.value;
+case 34:
+                    var11 = var7 != var10;
+                    var9 = null;
+                    if(!var11) { _fun0004_ip = 36; continue _fun0004 }
+case 37:
+                    var9 = var10;
+case 36:
+                    var2['problem'] = var9;
+                    var10 = var7 == var6;
+                    var9 = undefined;
+                    if(var10) { _fun0004_ip = 38; continue _fun0004 }
+case 39:
+                    var9 = var6.variant;
+case 38:
+                    var10 = var7 != var9;
+                    var6 = null;
+                    if(!var10) { _fun0004_ip = 40; continue _fun0004 }
+case 41:
+                    var6 = var9;
+case 40:
+                    var2['variant'] = var6;
+                    var9 = _closure2_slot0;
+                    var2['stream'] = var9;
+                    var9 = var7 != var8;
+                    var7 = '';
+                    if(!var9) { _fun0004_ip = 42; continue _fun0004 }
+case 43:
+                    var7 = var8;
+case 42:
+                    var2['feedback'] = var7;
+                    var7 = _closure2_slot2;
+                    var2['streamApplication'] = var7;
+                    var6 = _closure2_slot1;
+                    var2['analyticsData'] = var6;
+                    var6 = 'Stream End';
+                    var2['location'] = var6;
+                    var2['rating'] = var5;
+                    var2 = var4.bind(var3)(var2);
+                    var2 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var1 = 16;
+                    var1 = var4[var1];
+                    var2 = var2.bind(var3)(var1);
+                    var1 = var2.presentFeedbackSent;
+                    var1 = var1.bind(var2)();
+case 32:
+                    var1 = undefined;
+                    return var1;
+                }
+            };
+            var1['trackReport'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

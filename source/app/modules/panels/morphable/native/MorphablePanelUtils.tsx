@@ -454,15 +454,15 @@ case 39:
                 var1 = 2;
                 var11 = var12 / var1;
                 var11 = var15 - var11;
-                if(var6) { _fun0004_ip = 2; continue _fun0004 }
-case 41:
+                if(var6) { _fun0004_ip = 41; continue _fun0004 }
+case 42:
                 var1 = var8 / var1;
                 var6 = var14 - var1;
-                _fun0004_ip = 42; continue _fun0004;
-case 2:
+                _fun0004_ip = 43; continue _fun0004;
+case 41:
                 var1 = 72;
                 var6 = var14 + var1;
-case 42:
+case 43:
                 var1 = _closure1_slot6;
                 var1 = var1.bind(var7)(var13, var5, var4);
                 var4 = _closure1_slot3;

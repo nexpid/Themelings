@@ -212,11 +212,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var1.Set;
     var5 = var7.prototype;
     var6 = Object.create(var5, {constructor: {value: var7}});
-    var11 = ['activities.invites.write', 'activities.read', 'activities.write', 'dm_channels.messages.read', 'dm_channels.messages.write', 'dm_channels.read', 'gateway.connect', 'guilds', 'guilds.channels.read', 'identify', 'lobbies.write', 'relationships.read', 'relationships.write'];
+    var11 = ['activities.invites.write', 'activities.read', 'activities.write', 'application_identities.write', 'dm_channels.messages.read', 'dm_channels.messages.write', 'dm_channels.read', 'gateway.connect', 'guilds', 'guilds.channels.read', 'identify', 'lobbies.write', 'relationships.read', 'relationships.write'];
     var12 = var6;
     var5 = new var12[var7](var11, var10);
     var5 = var5 instanceof Object ? var5 : var6;
-    var2['DEFAULT_SLAYER_INTEGRATION'] = var5;
+    var2['SLAYER_UMBRELLA_PERMISSIBLE_SCOPES_MASK'] = var5;
     var7 = var1.Set;
     var5 = var7.prototype;
     var6 = Object.create(var5, {constructor: {value: var7}});
@@ -237,7 +237,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var1.Set;
     var6 = var8.prototype;
     var7 = Object.create(var6, {constructor: {value: var8}});
-    var11 = ['activities.invites.write', 'activities.read', 'activities.write', 'gateway.connect', 'identify', 'relationships.read', 'relationships.write'];
+    var11 = ['activities.invites.write', 'activities.read', 'activities.write', 'application_identities.write', 'gateway.connect', 'identify', 'relationships.read', 'relationships.write'];
     var12 = var7;
     var6 = new var12[var8](var11, var10);
     var6 = var6 instanceof Object ? var6 : var7;
@@ -245,7 +245,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var1.Set;
     var6 = var8.prototype;
     var7 = Object.create(var6, {constructor: {value: var8}});
-    var11 = ['activities.invites.write', 'activities.read', 'activities.write', 'dm_channels.messages.read', 'dm_channels.messages.write', 'dm_channels.read', 'gateway.connect', 'guilds', 'guilds.channels.read', 'identify', 'lobbies.write', 'relationships.read', 'relationships.write'];
+    var11 = ['activities.invites.write', 'activities.read', 'activities.write', 'application_identities.write', 'dm_channels.messages.read', 'dm_channels.messages.write', 'dm_channels.read', 'gateway.connect', 'guilds', 'guilds.channels.read', 'identify', 'lobbies.write', 'relationships.read', 'relationships.write'];
     var12 = var7;
     var6 = new var12[var8](var11, var10);
     var6 = var6 instanceof Object ? var6 : var7;
@@ -262,7 +262,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var1.Set;
     var5 = var7.prototype;
     var6 = Object.create(var5, {constructor: {value: var7}});
-    var11 = ['activities.invites.write', 'activities.read', 'activities.write', 'dm_channels.messages.read', 'dm_channels.messages.write', 'dm_channels.read', 'gateway.connect', 'guilds', 'guilds.channels.read', 'identify', 'lobbies.write', 'relationships.read', 'relationships.write'];
+    var11 = ['activities.invites.write', 'activities.read', 'activities.write', 'application_identities.write', 'dm_channels.messages.read', 'dm_channels.messages.write', 'dm_channels.read', 'gateway.connect', 'guilds', 'guilds.channels.read', 'identify', 'lobbies.write', 'relationships.read', 'relationships.write'];
     var12 = var6;
     var5 = new var12[var7](var11, var10);
     var5 = var5 instanceof Object ? var5 : var6;

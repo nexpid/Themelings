@@ -494,18 +494,18 @@ case 25:
             var2 = var7.set;
             var2 = var2.bind(var7)(var8, var3);
             var7 = var3.setAutocompleteOptions;
-            var2 = {};
+            var2 = {'frecencyBoosters': true, 'allowSnowflake': true};
+            var9 = true;
             var8 = {};
             var8['guild'] = var6;
-            var9 = true;
             var8['strict'] = var9;
             var11 = var1 != var10;
             var1 = undefined;
             var9 = undefined;
-            if(!var11) { _fun0008_ip = 13; continue _fun0008 }
-case 26:
+            if(!var11) { _fun0008_ip = 26; continue _fun0008 }
+case 27:
             var9 = var10;
-case 13:
+case 26:
             var8['thread'] = var9;
             var2['userFilters'] = var8;
             var2 = var7.bind(var3)(var2);

@@ -491,6 +491,8 @@ case 17:
                     var2 = var2.ReactionTypes;
                     var2 = var2.NORMAL;
                     var3['reactionType'] = var2;
+                    var2 = true;
+                    var3['startExpanded'] = var2;
                     var2 = 'stack';
                     var2 = var4.bind(var5)(var3, var2);
                     return var1;

@@ -157,6 +157,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['ENABLE_CREATOR_MONETIZATION_WAITLIST_LANDING'] = var2;
     var2 = 'impression_for_later_list_viewed';
     var4['FOR_LATER_LIST_VIEWED'] = var2;
+    var2 = 'impression_fortnite_get_game_modal';
+    var4['FORTNITE_GET_GAME_MODAL'] = var2;
     var2 = 'impression_friend_requests_spam_inbox';
     var4['FRIEND_REQUESTS_SPAM_INBOX'] = var2;
     var2 = 'impression_friends';

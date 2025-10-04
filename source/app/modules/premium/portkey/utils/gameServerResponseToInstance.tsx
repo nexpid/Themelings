@@ -52,6 +52,8 @@ case 2:
             var1['port'] = var3;
             var3 = var2.entitlement_id;
             var1['entitlementId'] = var3;
+            var3 = var2.provider_type;
+            var1['providerType'] = var3;
             var3 = var2.provider_url;
             var1['gameServerPanelUrl'] = var3;
             var3 = var2.status;

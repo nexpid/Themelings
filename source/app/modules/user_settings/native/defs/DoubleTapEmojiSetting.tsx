@@ -276,7 +276,7 @@ case 13:
             return var1;
         };
         var2['onPressEmoji'] = var5;
-        var5 = false;
+        var5 = true;
         var2['startExpanded'] = var5;
         var2 = var3.bind(var4)(var2);
         return var1;

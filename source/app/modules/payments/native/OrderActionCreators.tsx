@@ -296,47 +296,47 @@ case 0:
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0002_ip = 49; continue _fun0002 }
 case 3:
-                    var4 = var9;
+                    var6 = var9;
                     var7 = _closure1_slot1;
-                    var3 = _closure1_slot2;
+                    var2 = _closure1_slot2;
                     var5 = 3;
-                    var6 = var3[var5];
+                    var2 = var2[var5];
                     var3 = undefined;
-                    var8 = var7.bind(var3)(var6);
+                    var8 = var7.bind(var3)(var2);
                     var7 = var8.dispatch;
-                    var6 = {};
+                    var2 = {};
                     var10 = 'ORDER_MARK_SIGNING_START';
-                    var6['type'] = var10;
-                    var6['orderId'] = var9;
-                    var6 = var7.bind(var8)(var6);
+                    var2['type'] = var10;
+                    var2['orderId'] = var9;
+                    var2 = var7.bind(var8)(var2);
 case 50: // try_start_0
                     var7 = _closure1_slot0;
                     var8 = _closure1_slot2;
-                    var6 = 4;
-                    var6 = var8[var6];
-                    var6 = var7.bind(var3)(var6);
-                    var8 = var6.HTTP;
+                    var2 = 4;
+                    var2 = var8[var2];
+                    var2 = var7.bind(var3)(var2);
+                    var8 = var2.HTTP;
                     var7 = var8.post;
-                    var6 = {};
+                    var2 = {};
                     var11 = _closure1_slot4;
                     var10 = var11.ORDER_SIGN;
-                    var9 = var4;
+                    var9 = var6;
                     var9 = var10.bind(var11)(var9);
-                    var6['url'] = var9;
+                    var2['url'] = var9;
                     var9 = true;
-                    var6['rejectWithError'] = var9;
-                    var6 = var7.bind(var8)(var6);
+                    var2['rejectWithError'] = var9;
+                    var2 = var7.bind(var8)(var2);
                     SaveGenerator(address=138);
 case 51:
-                    return var6;
+                    return var2;
 case 52:
-                    ResumeGenerator(result_out_reg=5, return_bool_out_reg=6);
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=6);
                     if(var7) { _fun0002_ip = 53; continue _fun0002 }
 case 54:
                     var11 = _closure1_slot5;
                     var9 = var11.info;
                     var8 = {};
-                    var10 = var4;
+                    var10 = var6;
                     var8['orderId'] = var10;
                     var7 = 'marked order as signing in progress';
                     var7 = var9.bind(var11)(var7, var8);
@@ -361,19 +361,41 @@ case 57: // try_end0
 case 56:
                     return var7;
 case 53:
-                    return var6;
+                    return var2;
 case 59: // catch_target0
-                    CatchBlockStart(arg_register=5);
+                    CatchBlockStart(arg_register=10);
+                    var8 = _closure1_slot0;
+                    var2 = _closure1_slot2;
+                    var7 = 5;
+                    var7 = var2[var7];
+                    var12 = var8.bind(var3)(var7);
+                    var9 = var12.captureBillingException;
+                    var7 = global;
+                    var7 = var7.Error;
+                    var8 = var7.prototype;
+                    var8 = Object.create(var8, {constructor: {value: var7}});
+                    var10 = 'failed to mark order as signing in progress';
+                    var17 = var8;
+                    var16 = var10;
+                    var7 = new var17[var7](var16, var15);
+                    var8 = var7 instanceof Object ? var7 : var8;
+                    var7 = {};
+                    var13 = {};
+                    var14 = 'OrderActionCreators_markOrderAsSigningInProgress';
+                    var13['source'] = var14;
+                    var7['tags'] = var13;
+                    var13 = {};
+                    var13['orderId'] = var6;
+                    var13['response'] = var11;
+                    var7['extra'] = var13;
+                    var7 = var9.bind(var12)(var8, var7);
                     var9 = _closure1_slot5;
                     var8 = var9.error;
                     var7 = {};
-                    var7['response'] = var6;
-                    var6 = var4;
+                    var7['response'] = var11;
                     var7['orderId'] = var6;
-                    var4 = 'failed to mark order as signing in progress';
-                    var4 = var8.bind(var9)(var4, var7);
+                    var7 = var8.bind(var9)(var10, var7);
                     var4 = _closure1_slot1;
-                    var2 = _closure1_slot2;
                     var2 = var2[var5];
                     var5 = var4.bind(var3)(var2);
                     var4 = var5.dispatch;
@@ -382,15 +404,15 @@ case 59: // catch_target0
                     var2['type'] = var7;
                     var2['orderId'] = var6;
                     var2 = var4.bind(var5)(var2);
-                    SaveGenerator(address=324);
+                    SaveGenerator(address=419);
 case 60:
                     return var2;
 case 61:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0002_ip = 30; continue _fun0002 }
+                    if(var4) { _fun0002_ip = 62; continue _fun0002 }
 case 58:
                     return var3;
-case 30:
+case 62:
                     return var2;
 case 49:
                     return var1;
@@ -446,7 +468,7 @@ case 49:
     var4['SUBSCRIPTION'] = var8;
     var5 = 'SUBSCRIPTION';
     var4[var8] = var5;
-    var5 = 5;
+    var5 = 6;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

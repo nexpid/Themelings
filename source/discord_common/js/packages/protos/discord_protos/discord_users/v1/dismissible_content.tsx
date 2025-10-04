@@ -1750,6 +1750,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['HANG_STATUS_POPOVER_NUX'] = var2;
     var1 = 'HANG_STATUS_POPOVER_NUX';
     var4[var2] = var1;
+    var2 = 623;
+    var4['REPORT_TO_MOD_EXIT_SURVEY_NOTICE'] = var2;
+    var1 = 'REPORT_TO_MOD_EXIT_SURVEY_NOTICE';
+    var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;
     var1 = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

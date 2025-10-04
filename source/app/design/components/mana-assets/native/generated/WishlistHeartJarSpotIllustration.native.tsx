@@ -42,7 +42,7 @@ case 2:
             var8 = var1.height;
             if(!(var8 === var4)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var8 = 162;
+            var8 = 192;
 case 4:
             var3 = _closure1_slot2;
             var12 = _closure1_slot0;

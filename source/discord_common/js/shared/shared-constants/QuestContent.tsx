@@ -170,6 +170,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['MOBILE_ORBS_ONBOARDING_DC'] = var6;
     var2 = 'MOBILE_ORBS_ONBOARDING_DC';
     var4[var6] = var2;
+    var6 = 40;
+    var4['RUNNING_ACTIVITY'] = var6;
+    var2 = 'RUNNING_ACTIVITY';
+    var4[var6] = var2;
     var2 = {};
     var8 = var1.Set;
     var6 = var8.prototype;

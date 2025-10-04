@@ -425,6 +425,34 @@ case 19:
         return var1;
     };
     var2['PORTKEY_FETCH_GAME_INSTRUCTIONS_SUCCESS'] = var9;
+    var9 = function handleUpdateInstanceSuccess(arg1) {
+        var1 = arg1;
+        var5 = var1.guildId;
+        var8 = var1.instance;
+        var2 = _closure1_slot9;
+        var1 = undefined;
+        var6 = var2.bind(var1)(var5);
+        var2 = {};
+        var9 = _closure1_slot7;
+        var10 = var2;
+        var4 = copyDataProperties(var10, var9);
+        var4 = {};
+        var10 = var4;
+        var9 = var6;
+        var7 = copyDataProperties(var10, var9);
+        var7 = {};
+        var9 = var6.instances;
+        var10 = var7;
+        var6 = copyDataProperties(var10, var9);
+        var6 = var8.id;
+        var7[var6] = var8;
+        var6 = 'instances';
+        var4[var6] = var7;
+        var2[var5] = var4;
+        _closure1_slot7 = var2;
+        return var1;
+    };
+    var2['PORTKEY_UPDATE_INSTANCE_SUCCESS'] = var9;
     var9 = function handleFetchBoostEntitlementsSuccess(arg1) {
         var1 = arg1;
         var5 = var1.guildId;

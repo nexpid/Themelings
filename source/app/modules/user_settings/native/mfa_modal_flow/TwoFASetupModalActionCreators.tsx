@@ -16,7 +16,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = '__esModule';
     var2 = var7.bind(var8)(var3, var2, var6);
     var2 = {};
-    var6 = function open() {
+    var6 = function open(arg1) {
         var5 = _closure1_slot1;
         var2 = _closure1_slot2;
         var1 = 0;
@@ -33,6 +33,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var2.paths;
         var4 = var4.bind(var1)(var3, var2);
         var3 = {};
+        var2 = arg1;
+        var3['initialRouteName'] = var2;
         var2 = 'TWO_FA_SETUP_MODAL_KEY';
         var2 = var5.bind(var6)(var4, var3, var2);
         return var1;

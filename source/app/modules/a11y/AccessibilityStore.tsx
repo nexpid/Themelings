@@ -105,7 +105,7 @@ case 4:
     var4 = 'high';
     var2['HIGH'] = var4;
     var _closure1_slot15 = var2;
-    var4 = {'fontSize': null, 'zoom': null, 'keyboardModeEnabled': false, 'contrastMode': null, 'colorblindMode': false, 'lowContrastMode': false, 'saturation': 1, 'contrast': 1, 'desaturateUserColors': false, 'forcedColorsModalSeen': false, 'keyboardNavigationExplainerModalSeen': false, 'messageGroupSpacing': null, 'systemPrefersReducedMotion': 'no-preference', 'systemPrefersCrossfades': false, 'prefersReducedMotion': 'auto', 'systemForcedColors': 'none', 'syncForcedColors': true, 'systemPrefersContrast': 'no-preference', 'alwaysShowLinkDecorations': false, 'roleStyle': 'username', 'displayNameStylesEnabled': true, 'submitButtonEnabled': false, 'syncProfileThemeWithUserTheme': false, 'enableCustomCursor': true};
+    var4 = {'fontSize': null, 'zoom': null, 'keyboardModeEnabled': false, 'contrastMode': null, 'colorblindMode': false, 'lowContrastMode': false, 'saturation': 1, 'contrast': 1, 'desaturateUserColors': false, 'forcedColorsModalSeen': false, 'keyboardNavigationExplainerModalSeen': false, 'messageGroupSpacing': null, 'systemPrefersReducedMotion': 'no-preference', 'systemPrefersCrossfades': false, 'prefersReducedMotion': 'auto', 'systemForcedColors': 'none', 'syncForcedColors': true, 'systemPrefersContrast': 'no-preference', 'alwaysShowLinkDecorations': false, 'roleStyle': 'username', 'displayNameStylesEnabled': true, 'submitButtonEnabled': false, 'syncProfileThemeWithUserTheme': false, 'enableCustomCursor': true, 'switchIconsEnabled': false};
     var10 = var9.FONT_SIZE_DEFAULT;
     var4['fontSize'] = var10;
     var9 = var9.ZOOM_DEFAULT;
@@ -223,7 +223,7 @@ case 14:
             }
         };
         var5['value'] = var1;
-        var1 = new Array(36);
+        var1 = new Array(37);
         var1[0] = var5;
         var5 = {};
         var7 = 'fontScale';
@@ -718,6 +718,16 @@ case 32:
         var5['get'] = var7;
         var1[34] = var5;
         var5 = {};
+        var7 = 'isSwitchIconsEnabled';
+        var5['key'] = var7;
+        var7 = function get() {
+            var1 = _closure1_slot17;
+            var1 = var1.switchIconsEnabled;
+            return var1;
+        };
+        var5['get'] = var7;
+        var1[35] = var5;
+        var5 = {};
         var7 = 'getUserAgnosticState';
         var5['key'] = var7;
         var6 = function value() {
@@ -725,7 +735,7 @@ case 32:
             return var1;
         };
         var5['value'] = var6;
-        var1[35] = var5;
+        var1[36] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -1464,7 +1474,7 @@ case 44:
         return var1;
     };
     var4['ACCESSIBILITY_SET_CONTRAST'] = var10;
-    var5 = function handleSetContrastMode(arg1) {
+    var10 = function handleSetContrastMode(arg1) {
         var1 = arg1;
         var4 = var1.contrastMode;
         var2 = {};
@@ -1477,7 +1487,21 @@ case 44:
         var1 = undefined;
         return var1;
     };
-    var4['ACCESSIBILITY_SET_CONTRAST_MODE'] = var5;
+    var4['ACCESSIBILITY_SET_CONTRAST_MODE'] = var10;
+    var5 = function handleSetSwitchIconsEnabled(arg1) {
+        var2 = {};
+        var5 = _closure1_slot17;
+        var6 = var2;
+        var3 = copyDataProperties(var6, var5);
+        var3 = arg1;
+        var4 = var3.switchIconsEnabled;
+        var3 = 'switchIconsEnabled';
+        var2[var3] = var4;
+        _closure1_slot17 = var2;
+        var1 = undefined;
+        return var1;
+    };
+    var4['ACCESSIBILITY_SET_SWITCH_ICONS_ENABLED'] = var5;
     var5 = var9.prototype;
     var5 = Object.create(var5, {constructor: {value: var9}});
     var14 = var5;

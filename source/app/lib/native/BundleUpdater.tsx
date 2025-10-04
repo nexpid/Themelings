@@ -76,7 +76,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['value'] = var3;
-        var3 = new Array(10);
+        var3 = new Array(11);
         var3[0] = var1;
         var1 = {};
         var6 = 'getInitialOtaUpdateChecked';
@@ -118,6 +118,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['value'] = var6;
         var3[3] = var1;
         var1 = {};
+        var6 = 'verifyOtaFiles';
+        var1['key'] = var6;
+        var6 = function value() {
+            var2 = _closure1_slot7;
+            var1 = var2.verifyOtaFiles;
+            var1 = var1.bind(var2)();
+            return var1;
+        };
+        var1['value'] = var6;
+        var3[4] = var1;
+        var1 = {};
         var6 = 'getBuildOverrideCookieContents';
         var1['key'] = var6;
         var6 = function value() {
@@ -127,7 +138,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['value'] = var6;
-        var3[4] = var1;
+        var3[5] = var1;
         var1 = {};
         var6 = 'setBuildOverrideCookieHeader';
         var1['key'] = var6;
@@ -139,7 +150,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['value'] = var6;
-        var3[5] = var1;
+        var3[6] = var1;
         var1 = {};
         var6 = 'getOtaRootPath';
         var1['key'] = var6;
@@ -150,7 +161,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['value'] = var6;
-        var3[6] = var1;
+        var3[7] = var1;
         var1 = {};
         var6 = 'getManifestInfo';
         var1['key'] = var6;
@@ -161,7 +172,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['value'] = var6;
-        var3[7] = var1;
+        var3[8] = var1;
         var1 = {};
         var6 = 'emitOtaMetric';
         var1['key'] = var6;
@@ -266,7 +277,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['value'] = var6;
-        var3[8] = var1;
+        var3[9] = var1;
         var1 = {};
         var6 = 'prepareOtaMetricForDatadog';
         var1['key'] = var6;
@@ -303,7 +314,7 @@ case 2:
             }
         };
         var1['value'] = var2;
-        var3[9] = var1;
+        var3[10] = var1;
         var2 = undefined;
         var1 = null;
         var1 = var4.bind(var2)(var5, var1, var3);

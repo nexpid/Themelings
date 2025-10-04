@@ -1073,7 +1073,16 @@ case 35:
         };
         var15['throttleKeys'] = var18;
         var9[var17] = var15;
-        var15 = var12.LIBDISCORE_SLOW_TIMERS;
+        var17 = var12.LIBDISCORE_SLOW_TIMERS;
+        var15 = {};
+        var15['throttlePeriod'] = var16;
+        var18 = function throttleKeys() {
+            var1 = new Array(0);
+            return var1;
+        };
+        var15['throttleKeys'] = var18;
+        var9[var17] = var15;
+        var15 = var12.DEBUG_MISSING_STRING;
         var12 = {};
         var12['throttlePeriod'] = var16;
         var16 = function throttleKeys() {

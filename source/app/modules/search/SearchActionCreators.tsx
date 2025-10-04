@@ -619,33 +619,18 @@ case 0:
             var1 = var1.bind(var2)();
             var2 = var1.length;
             var1 = 0;
-            var1 = var2 > var1;
-            if(!var1) { _fun0008_ip = 39; continue _fun0008 }
-case 16:
-            var4 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var2 = 7;
-            var3 = var3[var2];
-            var2 = undefined;
-            var4 = var4.bind(var2)(var3);
-            var3 = var4.getIsSearchAutocompleteFetchFrecencyExperimentEnabled;
-            var2 = {};
-            var8 = 'updateAutocompleteQuery';
-            var2['location'] = var8;
-            var1 = var3.bind(var4)(var2);
-case 39:
-            if(!var1) { _fun0008_ip = 40; continue _fun0008 }
-case 41:
+            if(!(var2 > var1)) { _fun0008_ip = 39; continue _fun0008 }
+case 40:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var1 = 8;
+            var1 = 7;
             var2 = var2[var1];
             var1 = undefined;
             var1 = var3.bind(var1)(var2);
             var2 = var1.FrecencyUserSettingsActionCreators;
             var1 = var2.loadIfNecessary;
             var1 = var1.bind(var2)();
-case 40:
+case 39:
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
             var1 = 3;
@@ -679,7 +664,7 @@ case 40:
         return var1;
     };
     var2['markSearchTokensRefreshed'] = var4;
-    var4 = 9;
+    var4 = 8;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

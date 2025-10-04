@@ -554,7 +554,7 @@ case 0:
                 var1 = var1.activeParticles;
                 var1 = var1.current;
                 if(!(var5 !== var1)) { _fun0008_ip = 33; continue _fun0008 }
-case 34:
+case 28:
                 var1 = _closure2_slot7;
                 var2 = var1.particleStates;
                 var2 = var2.current;
@@ -575,20 +575,20 @@ case 0:
                         var6 = var3[var5];
                         var3 = _closure1_slot5;
                         var3 = var3.FREE;
-                        if(!(var6 !== var3)) { _fun0009_ip = 35; continue _fun0009 }
-case 36:
+                        if(!(var6 !== var3)) { _fun0009_ip = 34; continue _fun0009 }
+case 35:
                         var3 = _closure3_slot2;
                         var3 = var3[var5];
                         var _closure4_slot0 = var3;
                         var12 = null;
-                        if(!(var12 != var3)) { _fun0009_ip = 37; continue _fun0009 }
-case 38:
+                        if(!(var12 != var3)) { _fun0009_ip = 36; continue _fun0009 }
+case 37:
                         var5 = var3.position;
                         var9 = var5.x;
                         var5 = var5.y;
                         var8 = var3.scale;
                         var6 = 1.3;
-                        if(!(var8 >= var6)) { _fun0009_ip = 39; continue _fun0009 }
+                        if(!(var8 >= var6)) { _fun0009_ip = 38; continue _fun0009 }
 case 30:
                         var11 = _closure3_slot0;
                         var10 = var11.setFilter;
@@ -607,23 +607,23 @@ case 30:
                         var13 = var13 / var14;
                         var7['blur'] = var13;
                         var7 = var10.bind(var11)(var7);
-case 39:
+case 38:
                         var7 = var8;
-                        if(!(var7 >= var6)) { _fun0009_ip = 40; continue _fun0009 }
-case 41:
+                        if(!(var7 >= var6)) { _fun0009_ip = 39; continue _fun0009 }
+case 40:
                         var19 = 2;
                         var20 = var8;
                         var7 = exponentiationOperator(var20, var19);
-case 40:
+case 39:
                         var6 = _closure3_slot0;
                         var10 = var6.assetMap;
-                        if(!(var12 != var10)) { _fun0009_ip = 42; continue _fun0009 }
-case 43:
+                        if(!(var12 != var10)) { _fun0009_ip = 41; continue _fun0009 }
+case 42:
                         var8 = var10.has;
                         var6 = var3.key;
                         var6 = var8.bind(var10)(var6);
-                        if(var6) { _fun0009_ip = 44; continue _fun0009 }
-case 42:
+                        if(var6) { _fun0009_ip = 43; continue _fun0009 }
+case 41:
                         var8 = _closure1_slot1;
                         var10 = _closure1_slot2;
                         var6 = 3;
@@ -643,8 +643,8 @@ case 42:
                         var11['x'] = var14;
                         var13 = var5 + var13;
                         var11['y'] = var13;
-                        if(!(var12 == var6)) { _fun0009_ip = 45; continue _fun0009 }
-case 46:
+                        if(!(var12 == var6)) { _fun0009_ip = 44; continue _fun0009 }
+case 45:
                         var14 = _closure3_slot0;
                         var12 = var14.setFont;
                         var6 = {};
@@ -675,8 +675,8 @@ case 46:
                         var4 = ".  It doesn't have an image and seemingly isn't a valid unicode emoji.";
                         var4 = var13.bind(var12)(var14, var4);
                         var4 = var6.bind(var10)(var4);
-                        _fun0009_ip = 47; continue _fun0009;
-case 45:
+                        _fun0009_ip = 46; continue _fun0009;
+case 44:
                         var10 = _closure3_slot0;
                         var6 = var10.setFont;
                         var4 = {};
@@ -694,8 +694,8 @@ case 45:
                             return var1;
                         };
                         var4 = var8.bind(var10)(var11, var6, var4);
-                        _fun0009_ip = 47; continue _fun0009;
-case 44:
+                        _fun0009_ip = 46; continue _fun0009;
+case 43:
                         var4 = {};
                         var6 = 32;
                         var8 = var6 * var7;
@@ -740,7 +740,7 @@ case 44:
                             return var1;
                         };
                         var2 = var4.bind(var5)(var6, var3, var2);
-case 47:
+case 46:
                         var3 = _closure3_slot0;
                         var2 = var3.setFilter;
                         var1 = {};
@@ -749,10 +749,10 @@ case 47:
                         var1 = var2.bind(var3)(var1);
                         var1 = undefined;
                         return var1;
-case 37:
+case 36:
                         var1 = 0;
                         return var1;
-case 35:
+case 34:
                         var1 = 0;
                         return var1;
                     }
@@ -763,12 +763,12 @@ case 35:
                 var2 = undefined;
                 var5 = 0;
                 if(!var1) { _fun0008_ip = 33; continue _fun0008 }
-case 48:
+case 47:
                 var1 = var3.bind(var2)();
                 var5 = var5 + 1;
                 _closure3_slot4 = var5;
                 var1 = _closure2_slot6;
-                if(var5 < var1) { _fun0008_ip = 48; continue _fun0008 }
+                if(var5 < var1) { _fun0008_ip = 47; continue _fun0008 }
 case 33:
                 var1 = undefined;
                 return var1;
@@ -791,8 +791,8 @@ case 0:
                 var4 = _closure2_slot5;
                 var5 = false;
                 var14 = var4;
-                if(!(var5 === var6)) { _fun0010_ip = 49; continue _fun0010 }
-case 50:
+                if(!(var5 === var6)) { _fun0010_ip = 48; continue _fun0010 }
+case 49:
                 var5 = global;
                 var7 = var5.Math;
                 var6 = var7.max;
@@ -803,31 +803,31 @@ case 50:
                 var4 = 10;
                 var4 = var9.bind(var10)(var8, var4);
                 var14 = var6.bind(var7)(var4, var5);
-case 49:
+case 48:
                 var4 = _closure2_slot7;
                 var4 = var4.freeParticles;
                 var5 = var4.current;
                 var13 = 2;
                 var4 = var14 / var13;
-                if(!(!(var5 < var4))) { _fun0010_ip = 51; continue _fun0010 }
-case 52:
+                if(!(!(var5 < var4))) { _fun0010_ip = 50; continue _fun0010 }
+case 51:
                 var4 = var3.x;
                 var12 = 0;
                 var4 = var12 === var4;
-                if(!var4) { _fun0010_ip = 53; continue _fun0010 }
-case 54:
+                if(!var4) { _fun0010_ip = 52; continue _fun0010 }
+case 53:
                 var5 = var3.y;
                 var4 = var12 === var5;
-case 53:
-                if(!var4) { _fun0010_ip = 55; continue _fun0010 }
-case 56:
+case 52:
+                if(!var4) { _fun0010_ip = 54; continue _fun0010 }
+case 55:
                 var5 = var3.w;
                 var4 = var12 === var5;
-case 55:
-                if(!var4) { _fun0010_ip = 57; continue _fun0010 }
-case 58:
-                var4 = var3.h;
+case 54:
+                if(!var4) { _fun0010_ip = 56; continue _fun0010 }
 case 57:
+                var4 = var3.h;
+case 56:
                 var11 = {};
                 var4 = _closure2_slot0;
                 var6 = var4.h;
@@ -842,8 +842,8 @@ case 57:
                 var4 = var4.h;
                 var7 = 0.66;
                 var4 = var7 * var4;
-                if(!(var5 < var4)) { _fun0010_ip = 59; continue _fun0010 }
-case 60:
+                if(!(var5 < var4)) { _fun0010_ip = 58; continue _fun0010 }
+case 59:
                 var4 = global;
                 var6 = var4.Math;
                 var5 = var6.max;
@@ -854,7 +854,7 @@ case 60:
                 var4 = var4 / var3;
                 var3 = 0.2;
                 var3 = var5.bind(var6)(var3, var4);
-case 59:
+case 58:
                 var17 = var12 < var14;
                 var10 = 1;
                 var9 = 6;
@@ -864,8 +864,8 @@ case 59:
                 var6 = -50;
                 var5 = 50;
                 var4 = 0;
-                if(!var17) { _fun0010_ip = 61; continue _fun0010 }
-case 62:
+                if(!var17) { _fun0010_ip = 60; continue _fun0010 }
+case 61:
                 var23 = {};
                 var19 = _closure1_slot0;
                 var17 = _closure1_slot2;
@@ -939,8 +939,8 @@ case 62:
                 var17 = _closure2_slot6;
                 var17 = var12 < var17;
                 var18 = 0;
-                if(!var17) { _fun0010_ip = 63; continue _fun0010 }
-case 64:
+                if(!var17) { _fun0010_ip = 62; continue _fun0010 }
+case 63:
                 var17 = _closure2_slot7;
                 var17 = var17.particleStates;
                 var17 = var17.current;
@@ -948,14 +948,14 @@ case 64:
                 var17 = _closure1_slot5;
                 var17 = var17.FREE;
                 var20 = var18;
-                if(!(var19 !== var17)) { _fun0010_ip = 65; continue _fun0010 }
-case 66:
+                if(!(var19 !== var17)) { _fun0010_ip = 64; continue _fun0010 }
+case 65:
                 var18 = var20 + var10;
                 var17 = _closure2_slot6;
-                if(var18 < var17) { _fun0010_ip = 64; continue _fun0010 }
-case 67:
-                _fun0010_ip = 63; continue _fun0010;
-case 65:
+                if(var18 < var17) { _fun0010_ip = 63; continue _fun0010 }
+case 66:
+                _fun0010_ip = 62; continue _fun0010;
+case 64:
                 var17 = _closure2_slot7;
                 var18 = var17.particles;
                 var19 = var18.current;
@@ -982,16 +982,16 @@ case 65:
                 var17 = var18.current;
                 var17 = var17 + var10;
                 var18['current'] = var17;
-case 63:
+case 62:
                 var18 = _closure1_slot8;
                 var17 = _closure2_slot7;
                 var17 = var18.bind(var1)(var17);
                 var4 = var4 + 1;
-                if(var4 < var14) { _fun0010_ip = 62; continue _fun0010 }
-case 61:
+                if(var4 < var14) { _fun0010_ip = 61; continue _fun0010 }
+case 60:
                 var2 = _closure2_slot8;
                 var2['current'] = var3;
-case 51:
+case 50:
                 return var1;
             }
         };
