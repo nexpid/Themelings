@@ -3,7 +3,7 @@ import { RouteBases, Routes } from "discord-api-types/v10";
 import type { Canvas } from "skia-canvas";
 import draw, { convertDiffs } from "../../canvas";
 import { type CodeDiff, type Diff, DiffEnum, type OutDiffs } from "../../types";
-import { cuteVersion, version } from "../shared";
+import { cuteVersion, isQuiet, version } from "../shared";
 import { maxChangesThreshold, maxCodeChangesThreshold } from "../util";
 
 function basename(path: string) {
@@ -171,6 +171,8 @@ async function triggerWebhook(
 }
 
 export async function webhook(diffs: OutDiffs) {
+	if (isQuiet) return;
+
 	if (diffs.raw?.size || diffs.semantic?.size)
 		await triggerWebhook(process.env.color_webhook!, {
 			role: "1227327297795657850",

@@ -8,6 +8,11 @@ on:
                 default: false
                 required: false
                 type: boolean
+            quiet:
+                description: Disable sending any messages
+                default: false
+                required: false
+                type: boolean
     schedule:
         - cron: "30 * * * *"
 
@@ -55,14 +60,16 @@ jobs:
                   icons_webhook: ${{ secrets.ICONS_WEBHOOK }}
                   bot_token: ${{ secrets.BOT_TOKEN }}
               working-directory: main
-              run: bun run update:prod
+              run: bun run update:prod ${{ github.event.inputs.quiet && '--quiet' || '' }}
+              
+            - name: Publish changes
+              if: ${{ steps.versioner.outputs.version != 'false' }}
+              working-directory: data
+              run: git push
 
             - name: Tag changes
               if: ${{ steps.versioner.outputs.version != 'false' }}
               working-directory: data
-              run: git tag ${{ steps.versioner.outputs.version }}
-
-            - name: Publish changes
-              if: ${{ steps.versioner.outputs.version != 'false' }}
-              working-directory: data
-              run: git push --tags
+              run: |
+                git tag ${{ steps.versioner.outputs.version }}
+                git push --tags

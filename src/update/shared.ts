@@ -8,3 +8,4 @@ export const cuteVersion = `${["stable", "beta", "alpha"][Number(version[3])] ??
 export const isMock = process.argv.includes("--mock");
 export const diffAnyway = process.argv.includes("--diff-anyway");
 export const commitAnyway = process.argv.includes("--commit-anyway");
+export const isQuiet = process.argv.includes("--quiet");
