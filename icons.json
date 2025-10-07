@@ -9000,38 +9000,6 @@
         "width": 288,
         "height": 128
     },
-    "img_spotify_error_dark": {
-        "file": "app/images/native/img_spotify_error_dark.png",
-        "hash": "3f4dfe4315de830b40caf5804aba53d1",
-        "scales": [
-            1,
-            2,
-            3
-        ],
-        "width": 156,
-        "height": 156
-    },
-    "img_spotify_error_darker": {
-        "file": "app/design/components/Illustration/native/redesign/generated/images/img_spotify_error_darker.png",
-        "hash": "7f1f540bdc3ed6c16cbc60dddbe9b12b",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 156,
-        "height": 135
-    },
-    "img_spotify_error_light": {
-        "file": "app/images/native/img_spotify_error_light.png",
-        "hash": "ff0d8467988eddb2e0a42f7e641805ed",
-        "scales": [
-            1,
-            2,
-            3
-        ],
-        "width": 156,
-        "height": 156
-    },
     "img_stream_ended_dark": {
         "file": "app/images/native/application_streaming/img_stream_ended_dark.png",
         "hash": "a3a7de10a959d0177fccd05afcb73752",
