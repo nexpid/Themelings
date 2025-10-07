@@ -996,8 +996,8 @@ case 123:
             var4 = var2;
 case 114:
             var2 = null;
-            if(!(var2 != var13)) { _fun0006_ip = 125; continue _fun0006 }
-case 126:
+            if(!(var2 != var13)) { _fun0006_ip = 53; continue _fun0006 }
+case 125:
             var14 = {'userId': null, 'nick': '', 'guildId': null, 'guildMemberAvatar': null, 'roles': null, 'colorString': null, 'colorStrings': null, 'hoistRoleId': null, 'premiumSince': null, 'isPending': false};
             var15 = _closure1_slot22;
             var14['userId'] = var15;
@@ -1034,7 +1034,7 @@ case 126:
             var2['lurkerPermissionsMask'] = var4;
             var2 = var3.bind(var5)(var2);
             return var2;
-case 125:
+case 53:
             var2 = _closure1_slot23;
             return var2;
 case 117:
@@ -1043,8 +1043,8 @@ case 117:
             var2 = var6.parent_id;
             var11 = var3.bind(var4)(var2);
             var2 = null;
-            if(!(var2 != var11)) { _fun0006_ip = 127; continue _fun0006 }
-case 128:
+            if(!(var2 != var11)) { _fun0006_ip = 126; continue _fun0006 }
+case 127:
             var4 = _closure1_slot34;
             var3 = _closure1_slot37;
             var2 = {};
@@ -1057,10 +1057,10 @@ case 128:
             var3 = var3.bind(var5)(var2);
             var2 = false;
             var2 = var4.bind(var5)(var6, var3, var2);
-            _fun0006_ip = 95; continue _fun0006;
-case 127:
+            _fun0006_ip = 128; continue _fun0006;
+case 126:
             var2 = _closure1_slot23;
-case 95:
+case 128:
             return var2;
 case 115:
             var1 = _closure1_slot23;

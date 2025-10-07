@@ -410,7 +410,7 @@ case 0:
             var1 = 6;
             var1 = var12[var1];
             var3 = var10.bind(var5)(var1);
-            var2 = var3.useUserForLinkStatus;
+            var2 = var3.useUsersForLinkStatus;
             var1 = _closure1_slot4;
             var1 = var1.PENDING;
             var11 = var2.bind(var3)(var1);

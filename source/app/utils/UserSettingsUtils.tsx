@@ -26,17 +26,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot4 = var4;
     var6 = 2;
     var4 = var8[var6];
+    var4 = var5.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var8[var4];
     var4 = var7.bind(var1)(var4);
     var5 = var4.REQUEST_DATA_LIMIT_DAYS;
     var12 = var4.AnalyticEvents;
-    var _closure1_slot5 = var12;
-    var12 = var4.FriendSourceFlags;
     var _closure1_slot6 = var12;
-    var4 = var4.AllFriendSourceFlags;
-    var _closure1_slot7 = var4;
+    var12 = var4.FriendSourceFlags;
+    var _closure1_slot7 = var12;
+    var12 = var4.AllFriendSourceFlags;
+    var _closure1_slot8 = var12;
+    var12 = var4.ComponentActions;
+    var _closure1_slot9 = var12;
+    var4 = var4.Layers;
+    var _closure1_slot10 = var4;
     var4 = 86400000;
     var4 = var4 * var5;
-    var _closure1_slot8 = var4;
+    var _closure1_slot11 = var4;
     var5 = {};
     var5['UNDECIDED'] = var11;
     var4 = 'UNDECIDED';
@@ -47,7 +55,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5['OPTOUT'] = var6;
     var4 = 'OPTOUT';
     var5[var6] = var4;
-    var _closure1_slot9 = var5;
+    var _closure1_slot12 = var5;
     var4 = {};
     var6 = var5.UNDECIDED;
     var4[var6] = var1;
@@ -56,7 +64,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var5.OPTOUT;
     var6 = false;
     var4[var9] = var6;
-    var6 = 6;
+    var6 = 9;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;
@@ -67,7 +75,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var2 = 3;
+            var2 = 4;
             var3 = var3[var2];
             var2 = undefined;
             var2 = var4.bind(var2)(var3);
@@ -109,7 +117,7 @@ case 2:
 case 0:
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var2 = 3;
+            var2 = 4;
             var3 = var3[var2];
             var2 = undefined;
             var2 = var4.bind(var2)(var3);
@@ -151,7 +159,7 @@ case 2:
 case 0:
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var2 = 3;
+            var2 = 4;
             var3 = var3[var2];
             var2 = undefined;
             var2 = var4.bind(var2)(var3);
@@ -193,7 +201,7 @@ case 2:
 case 0:
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var2 = 3;
+            var2 = 4;
             var3 = var3[var2];
             var2 = undefined;
             var2 = var4.bind(var2)(var3);
@@ -234,14 +242,14 @@ case 2:
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var4 = arg1;
-            var3 = _closure1_slot7;
+            var3 = _closure1_slot8;
             var1 = var4 & var3;
             if(!(var1 !== var3)) { _fun0005_ip = 4; continue _fun0005 }
 case 5:
             var1 = {};
             var3 = false;
             var1['all'] = var3;
-            var2 = _closure1_slot6;
+            var2 = _closure1_slot7;
             var3 = var2.MUTUAL_FRIENDS;
             var5 = var4 & var3;
             var3 = var2.MUTUAL_FRIENDS;
@@ -279,7 +287,7 @@ case 9:
             var3 = var3 != var4;
             if(!var3) { _fun0006_ip = 10; continue _fun0006 }
 case 11:
-            var5 = _closure1_slot8;
+            var5 = _closure1_slot11;
             var7 = global;
             var8 = var7.Date;
             var6 = var8.now;
@@ -314,12 +322,12 @@ case 7:
         var6 = var1.applicationId;
         var4 = _closure1_slot1;
         var3 = _closure1_slot2;
-        var1 = 4;
+        var1 = 5;
         var3 = var3[var1];
         var1 = undefined;
         var5 = var4.bind(var1)(var3);
         var4 = var5.trackWithMetadata;
-        var2 = _closure1_slot5;
+        var2 = _closure1_slot6;
         var3 = var2.SETTINGS_PANE_VIEWED;
         var2 = {};
         var12 = 'user';
@@ -336,11 +344,11 @@ case 7:
     var3['trackUserSettingsPaneViewed'] = var6;
     var3['NonSpamRetrainingOptInOptions'] = var5;
     var3['NonSpamRetrainingOptInOptionsToValue'] = var4;
-    var2 = function generateNonSpamRetrainingOptInSettingOptions() {
+    var4 = function generateNonSpamRetrainingOptInSettingOptions() {
         var2 = {};
         var8 = _closure1_slot0;
         var9 = _closure1_slot2;
-        var4 = 5;
+        var4 = 6;
         var3 = var9[var4];
         var7 = undefined;
         var3 = var8.bind(var7)(var3);
@@ -362,7 +370,7 @@ case 7:
         var3 = var3.3fzkPj;
         var3 = var5.bind(var6)(var3);
         var2['desc'] = var3;
-        var3 = _closure1_slot9;
+        var3 = _closure1_slot12;
         var1 = var3.OPTIN;
         var2['value'] = var1;
         var1 = new Array(3);
@@ -417,6 +425,50 @@ case 7:
         var1[2] = var2;
         return var1;
     };
-    var3['generateNonSpamRetrainingOptInSettingOptions'] = var2;
+    var3['generateNonSpamRetrainingOptInSettingOptions'] = var4;
+    var2 = function shakeUserSettings(arg1) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+case 0:
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var1 = 7;
+            var3 = var3[var1];
+            var1 = undefined;
+            var5 = var4.bind(var1)(var3);
+            var4 = var5.isEligibleForUserSettingsRedesignExperiment;
+            var3 = 'shakeUserSettings';
+            var5 = var4.bind(var5)(var3);
+            var4 = _closure1_slot5;
+            var3 = var4.getLayers;
+            var6 = var3.bind(var4)();
+            var4 = var6.at;
+            var3 = -1;
+            var4 = var4.bind(var6)(var3);
+            var3 = _closure1_slot10;
+            var3 = var3.USER_SETTINGS;
+            if(!var5) { _fun0007_ip = 12; continue _fun0007 }
+case 13:
+            if(!(var4 !== var3)) { _fun0007_ip = 12; continue _fun0007 }
+case 14:
+            var3 = _closure1_slot9;
+            var5 = var3.SHAKE_SETTINGS_MODAL;
+            _fun0007_ip = 15; continue _fun0007;
+case 12:
+            var3 = _closure1_slot9;
+            var5 = var3.SHAKE_APP;
+case 15:
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 8;
+            var2 = var4[var2];
+            var2 = var3.bind(var1)(var2);
+            var4 = var2.ComponentDispatch;
+            var3 = var4.dispatch;
+            var2 = arg1;
+            var2 = var3.bind(var4)(var5, var2);
+            return var1;
+        }
+    };
+    var3['shakeUserSettings'] = var2;
     return var1;
 })();

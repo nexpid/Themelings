@@ -597,7 +597,7 @@ case 41:
             var6['loading'] = var23;
             var21 = 'sm';
             var6['size'] = var21;
-            var21 = 'primary';
+            var21 = 'secondary';
             var6['variant'] = var21;
             var6 = var20.bind(var4)(var17, var6);
             var17 = new Array(2);

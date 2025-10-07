@@ -69,7 +69,7 @@ case 10:
                     var10 = var6;
                     var6 = copyDataProperties(var11, var10);
                     var3 = var4.bind(var5)(var3);
-                    SaveGenerator(address=153);
+                    SaveGenerator(address=149);
 case 12:
                     return var3;
 case 13:
@@ -152,13 +152,13 @@ case 18:
             var3 = var5.getUserIsStaff;
             var3 = var3.bind(var5)();
             var9 = null;
-            if(!(var9 == var6)) { _fun0002_ip = 20; continue _fun0002 }
-case 21:
-            if(var3) { _fun0002_ip = 22; continue _fun0002 }
-case 23:
-            var3 = new Array(0);
-            _fun0002_ip = 24; continue _fun0002;
+            if(!(var9 == var6)) { _fun0002_ip = 13; continue _fun0002 }
+case 20:
+            if(var3) { _fun0002_ip = 21; continue _fun0002 }
 case 22:
+            var3 = new Array(0);
+            _fun0002_ip = 23; continue _fun0002;
+case 21:
             var7 = _closure1_slot0;
             var8 = _closure1_slot1;
             var5 = 5;
@@ -170,18 +170,18 @@ case 22:
             var10 = var10.ipCountryCode;
             var11 = var9 != var10;
             var9 = 'ALL';
-            if(!var11) { _fun0002_ip = 25; continue _fun0002 }
-case 26:
-            var9 = var10;
+            if(!var11) { _fun0002_ip = 24; continue _fun0002 }
 case 25:
+            var9 = var10;
+case 24:
             var5['ipCountryCode'] = var9;
             var9 = 'create_setup_intent_for_payment_elements';
             var5['location'] = var9;
             var5 = var7.bind(var8)(var5);
             var3 = var5.countryPaymentMethods;
-case 24:
+case 23:
             var6 = var3;
-case 20:
+case 13:
             var3 = _closure1_slot5;
             var2 = {};
             var5 = true;
@@ -193,12 +193,12 @@ case 20:
             var1 = 0;
             var5 = var5 > var1;
             var1 = undefined;
-            if(!var5) { _fun0002_ip = 27; continue _fun0002 }
-case 28:
+            if(!var5) { _fun0002_ip = 26; continue _fun0002 }
+case 27:
             var5 = {};
             var5['regionalPaymentMethods'] = var6;
             var1 = var5;
-case 27:
+case 26:
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

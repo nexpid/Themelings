@@ -163,12 +163,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var22 = var22.bind(var17)(var3, var16);
         var _closure2_slot8 = var22;
         var16 = var17.useMemo;
-        var3 = new Array(5);
+        var3 = new Array(6);
         var3[0] = var22;
         var3[1] = var21;
         var3[2] = var20;
         var3[3] = var19;
         var3[4] = var18;
+        var3[5] = var15;
         var2 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -188,10 +189,11 @@ case 3:
                     var1 = 9;
                     var2 = var2[var1];
                     var1 = undefined;
-                    var4 = var3.bind(var1)(var2);
-                    var3 = var4.getLinks;
+                    var5 = var3.bind(var1)(var2);
+                    var4 = var5.getLinks;
+                    var3 = _closure2_slot0;
                     var2 = arg1;
-                    var2 = var3.bind(var4)(var2);
+                    var2 = var4.bind(var5)(var3, var2);
                     var4 = var2.forEach;
                     var3 = function(arg1, arg2) {
                         var4 = _closure3_slot1;
@@ -229,7 +231,7 @@ case 3:
                         var5['imageStyle'] = var1;
                         var7 = _closure1_slot0;
                         var6 = _closure1_slot2;
-                        var1 = 10;
+                        var1 = 9;
                         var6 = var6[var1];
                         var1 = undefined;
                         var8 = var7.bind(var1)(var6);
@@ -261,7 +263,7 @@ case 5:
                 var8 = var1.length;
                 var3 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var2 = 11;
+                var2 = 10;
                 var2 = var4[var2];
                 var6 = undefined;
                 var4 = var3.bind(var6)(var2);
@@ -276,7 +278,7 @@ case 5:
                 var11 = var10 < var5;
                 var4 = global;
                 var3 = 'file-or-link-placeholder-';
-                var2 = 10;
+                var2 = 9;
                 var10 = 0;
                 if(!var11) { _fun0001_ip = 4; continue _fun0001 }
 case 6:
@@ -328,7 +330,7 @@ case 4:
         var1['estimatedItemSize'] = var12;
         var9 = var9.filesOrLinksContentContainer;
         var1['contentContainerStyle'] = var9;
-        var9 = 12;
+        var9 = 11;
         var9 = var11[var9];
         var9 = var10.bind(var4)(var9);
         var9 = var9.CardVerticalSeparator;
@@ -341,7 +343,7 @@ case 4:
         return var1;
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 13;
+    var4 = 12;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

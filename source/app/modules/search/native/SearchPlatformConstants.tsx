@@ -87,6 +87,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = 500;
     var3['SEARCH_TEXT_INPUT_DEBOUNCE_TIME'] = var4;
+    var4 = new Array(0);
+    var3['EMPTY_MEDIA_RESULTS'] = var4;
     var3['PLATFORM_REGEX_ICON_PAIRS'] = var2;
     return var1;
 })();

@@ -207,53 +207,58 @@ case 9:
 case 0:
             var1 = arg1;
             var2 = var1.settings;
-            var5 = null;
-            var3 = var5 == var2;
-            var1 = undefined;
+            var4 = null;
+            var3 = var4 == var2;
             var6 = undefined;
             if(var3) { _fun0004_ip = 14; continue _fun0004 }
 case 15:
             var6 = var2.context;
 case 14:
-            var4 = _closure1_slot6;
-            var4 = var4.STREAM;
-            if(!(var6 === var4)) { _fun0004_ip = 16; continue _fun0004 }
+            var5 = _closure1_slot6;
+            var5 = var5.STREAM;
+            if(!(var6 === var5)) { _fun0004_ip = 16; continue _fun0004 }
 case 17:
-            var6 = var5 == var2;
-            var4 = undefined;
-            if(var6) { _fun0004_ip = 18; continue _fun0004 }
+            var5 = var4 == var2;
+            var1 = undefined;
+            if(var5) { _fun0004_ip = 18; continue _fun0004 }
 case 19:
-            var4 = var2.qualityOptions;
+            var1 = var2.qualityOptions;
 case 18:
-            if(!(var5 != var4)) { _fun0004_ip = 20; continue _fun0004 }
-case 21:
-            var6 = var5 == var2;
-            var4 = undefined;
-            if(var6) { _fun0004_ip = 22; continue _fun0004 }
-case 5:
-            var6 = var2.qualityOptions;
-            var4 = var6.resolution;
+            if(!(var4 != var1)) { _fun0004_ip = 16; continue _fun0004 }
+case 20:
+            var5 = _closure1_slot7;
+            var1 = var2.qualityOptions;
+            var4 = var1.preset;
+            var1 = false;
+            if(!(var5 !== var4)) { _fun0004_ip = 21; continue _fun0004 }
 case 22:
-            if(!(var5 != var4)) { _fun0004_ip = 20; continue _fun0004 }
-case 23:
-            var6 = var5 == var2;
-            var4 = undefined;
-            if(var6) { _fun0004_ip = 24; continue _fun0004 }
-case 25:
-            var6 = var2.qualityOptions;
-            var4 = var6.frameRate;
+            var4 = var2.qualityOptions;
+            var4 = var4.preset;
+            _closure1_slot7 = var4;
+            var1 = true;
+case 21:
+            var5 = _closure1_slot8;
+            var4 = var2.qualityOptions;
+            var4 = var4.resolution;
+            if(!(var5 !== var4)) { _fun0004_ip = 23; continue _fun0004 }
 case 24:
-            if(!(var5 != var4)) { _fun0004_ip = 20; continue _fun0004 }
-case 26:
             var4 = var2.qualityOptions;
             var4 = var4.resolution;
             _closure1_slot8 = var4;
+            var1 = true;
+case 23:
+            var5 = _closure1_slot9;
+            var4 = var2.qualityOptions;
+            var4 = var4.frameRate;
+            if(!(var5 !== var4)) { _fun0004_ip = 25; continue _fun0004 }
+case 26:
             var2 = var2.qualityOptions;
             var2 = var2.frameRate;
             _closure1_slot9 = var2;
-case 16:
+            var1 = true;
+case 25:
             return var1;
-case 20:
+case 16:
             var1 = false;
             return var1;
         }
@@ -269,27 +274,50 @@ case 0:
             var3 = var1.soundshareEnabled;
             var2 = null;
             var4 = var2 != var7;
-            var1 = false;
             if(!var4) { _fun0005_ip = 27; continue _fun0005 }
 case 28:
+            var1 = _closure1_slot7;
+            var4 = var7 !== var1;
+case 27:
+            var1 = false;
+            if(!var4) { _fun0005_ip = 29; continue _fun0005 }
+case 30:
             _closure1_slot7 = var7;
             var1 = true;
-case 27:
-            if(!(var2 != var6)) { _fun0005_ip = 29; continue _fun0005 }
-case 7:
+case 29:
+            var4 = var2 != var6;
+            if(!var4) { _fun0005_ip = 9; continue _fun0005 }
+case 31:
+            var7 = _closure1_slot8;
+            var4 = var6 !== var7;
+case 9:
+            if(!var4) { _fun0005_ip = 32; continue _fun0005 }
+case 33:
             _closure1_slot8 = var6;
             var1 = true;
-case 29:
-            if(!(var2 != var5)) { _fun0005_ip = 30; continue _fun0005 }
-case 31:
+case 32:
+            var4 = var2 != var5;
+            if(!var4) { _fun0005_ip = 34; continue _fun0005 }
+case 35:
+            var6 = _closure1_slot9;
+            var4 = var5 !== var6;
+case 34:
+            if(!var4) { _fun0005_ip = 36; continue _fun0005 }
+case 37:
             _closure1_slot9 = var5;
             var1 = true;
-case 30:
-            if(!(var2 != var3)) { _fun0005_ip = 32; continue _fun0005 }
-case 33:
+case 36:
+            var2 = var2 != var3;
+            if(!var2) { _fun0005_ip = 38; continue _fun0005 }
+case 39:
+            var4 = _closure1_slot10;
+            var2 = var3 !== var4;
+case 38:
+            if(!var2) { _fun0005_ip = 40; continue _fun0005 }
+case 23:
             _closure1_slot10 = var3;
             var1 = true;
-case 32:
+case 40:
             return var1;
         }
     };

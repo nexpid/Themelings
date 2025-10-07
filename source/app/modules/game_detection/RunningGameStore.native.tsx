@@ -136,7 +136,7 @@ case 8:
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(26);
+        var1 = new Array(27);
         var1[0] = var5;
         var5 = {};
         var7 = 'getVisibleGame';
@@ -355,6 +355,17 @@ case 8:
         var5['value'] = var7;
         var1[24] = var5;
         var5 = {};
+        var7 = 'getInputServiceStatus';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = {};
+            var2 = 'unknown';
+            var1['state'] = var2;
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[25] = var5;
+        var5 = {};
         var7 = 'isInputServiceInitialized';
         var5['key'] = var7;
         var6 = function value() {
@@ -362,7 +373,7 @@ case 8:
             return var1;
         };
         var5['value'] = var6;
-        var1[25] = var5;
+        var1[26] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

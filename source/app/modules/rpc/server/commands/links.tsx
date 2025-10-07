@@ -77,7 +77,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var10.Set;
     var7 = var12.prototype;
     var8 = Object.create(var7, {constructor: {value: var12}});
-    var24 = ['p-ty8do4dje6.exmggames.com', 'fortnitetrial.fortnite.com', 'www.nvidia.com'];
+    var24 = ['p-ty8do4dje6.exmggames.com', 'fortnitetrial.fortnite.com', 'fn.gg', 'www.fortnite.com', 'www.nvidia.com'];
     var25 = var8;
     var7 = new var25[var12](var24, var23);
     var12 = var7 instanceof Object ? var7 : var8;

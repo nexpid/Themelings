@@ -465,7 +465,7 @@ case 43:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0006_ip = 22; continue _fun0006 }
+                    if(var2) { _fun0006_ip = 54; continue _fun0006 }
 case 36:
                     var6 = _closure1_slot1;
                     var2 = _closure1_slot2;
@@ -480,7 +480,7 @@ case 36:
                     var9 = _closure2_slot0;
                     var4['code'] = var9;
                     var4 = var7.bind(var8)(var4);
-case 54: // try_start_0
+case 55: // try_start_0
                     var7 = _closure1_slot0;
                     var8 = _closure1_slot2;
                     var4 = 8;
@@ -495,13 +495,13 @@ case 54: // try_start_0
                     var9 = var10.bind(var11)(var9);
                     var4['url'] = var9;
                     var4 = var7.bind(var8)(var4);
-                    SaveGenerator(address=147);
-case 55:
-                    return var4;
+                    SaveGenerator(address=143);
 case 56:
+                    return var4;
+case 57:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
-                    if(var7) { _fun0006_ip = 57; continue _fun0006 }
-case 16:
+                    if(var7) { _fun0006_ip = 58; continue _fun0006 }
+case 59:
                     var8 = _closure1_slot1;
                     var7 = _closure1_slot2;
                     var7 = var7[var5];
@@ -513,11 +513,11 @@ case 16:
                     var10 = _closure2_slot0;
                     var7['code'] = var10;
                     var7 = var8.bind(var9)(var7);
-case 58: // try_end0
-                    _fun0006_ip = 59; continue _fun0006;
-case 57:
+case 60: // try_end0
+                    _fun0006_ip = 61; continue _fun0006;
+case 58:
                     return var4;
-case 60: // catch_target0
+case 62: // catch_target0
                     CatchBlockStart(arg_register=3);
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
@@ -530,9 +530,9 @@ case 60: // catch_target0
                     var6 = _closure2_slot0;
                     var3['code'] = var6;
                     var3 = var4.bind(var5)(var3);
-case 59:
+case 61:
                     return var2;
-case 22:
+case 54:
                     return var1;
                 }
             };

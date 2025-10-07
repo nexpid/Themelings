@@ -973,6 +973,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['OVERLAY_VOICE_WIDGET'] = var1;
     var1 = 'request to stream invite embed';
     var2['REQUEST_TO_STREAM_INVITE_EMBED'] = var1;
+    var1 = 'member list activity content popout';
+    var2['MEMBER_LIST_ACTIVITY_CONTENT_POPOUT'] = var1;
     var1 = 'member list gaming content popout';
     var2['MEMBER_LIST_GAMING_CONTENT_POPOUT'] = var1;
     var1 = 'cloud play popover';

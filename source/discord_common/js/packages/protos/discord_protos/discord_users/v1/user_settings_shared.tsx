@@ -210,30 +210,30 @@ case 14:
                 var27 = var2[var5];
                 var26 = var2[var6];
                 if(!(var6 !== var27)) { _fun0004_ip = 15; continue _fun0004 }
-case 7:
-                if(!(var7 !== var27)) { _fun0004_ip = 16; continue _fun0004 }
-case 17:
-                if(!(var8 !== var27)) { _fun0004_ip = 18; continue _fun0004 }
-case 19:
+case 16:
+                if(!(var7 !== var27)) { _fun0004_ip = 17; continue _fun0004 }
+case 18:
+                if(!(var8 !== var27)) { _fun0004_ip = 19; continue _fun0004 }
+case 20:
                 var21 = var17.readUnknownField;
-                if(!(var9 !== var21)) { _fun0004_ip = 20; continue _fun0004 }
-case 21:
+                if(!(var9 !== var21)) { _fun0004_ip = 21; continue _fun0004 }
+case 22:
                 var2 = var18.skip;
                 var2 = var2.bind(var18)(var26);
                 var20 = var21;
                 var19 = var2;
-                if(!(var10 !== var21)) { _fun0004_ip = 22; continue _fun0004 }
-case 23:
+                if(!(var10 !== var21)) { _fun0004_ip = 23; continue _fun0004 }
+case 24:
                 var23 = var21;
-                if(!(var11 === var21)) { _fun0004_ip = 24; continue _fun0004 }
-case 25:
+                if(!(var11 === var21)) { _fun0004_ip = 25; continue _fun0004 }
+case 26:
                 var24 = _closure1_slot0;
                 var22 = _closure1_slot1;
                 var22 = var22[var12];
                 var22 = var24.bind(var14)(var22);
                 var22 = var22.UnknownFieldHandler;
                 var23 = var22.onRead;
-case 24:
+case 25:
                 var32 = var16.typeName;
                 var33 = undefined;
                 var31 = var1;
@@ -243,8 +243,8 @@ case 24:
                 var22 = var33[var23](var32, var31, var30, var29, var28, var27);
                 var20 = var21;
                 var19 = var2;
-                _fun0004_ip = 22; continue _fun0004;
-case 20:
+                _fun0004_ip = 23; continue _fun0004;
+case 21:
                 var2 = global;
                 var21 = var2.globalThis;
                 var22 = var21.Error;
@@ -263,27 +263,27 @@ case 20:
                 var2 = new var33[var22](var32, var31);
                 var2 = var2 instanceof Object ? var2 : var21;
                 throw var2;
-case 18:
+case 19:
                 var2 = var18.uint32;
                 var2 = var2.bind(var18)();
                 var1['dataVersion'] = var2;
                 var20 = var4;
                 var19 = var3;
-                _fun0004_ip = 22; continue _fun0004;
-case 16:
+                _fun0004_ip = 23; continue _fun0004;
+case 17:
                 var2 = var18.uint32;
                 var2 = var2.bind(var18)();
                 var1['serverVersion'] = var2;
                 var20 = var4;
                 var19 = var3;
-                _fun0004_ip = 22; continue _fun0004;
+                _fun0004_ip = 23; continue _fun0004;
 case 15:
                 var2 = var18.uint32;
                 var2 = var2.bind(var18)();
                 var1['clientVersion'] = var2;
                 var20 = var4;
                 var19 = var3;
-case 22:
+case 23:
                 var2 = var18.pos;
                 var4 = var20;
                 var3 = var19;
@@ -304,7 +304,7 @@ case 0:
                 var1 = arg2;
                 var2 = var5.clientVersion;
                 var3 = 0;
-                if(!(var3 !== var2)) { _fun0005_ip = 26; continue _fun0005 }
+                if(!(var3 !== var2)) { _fun0005_ip = 27; continue _fun0005 }
 case 12:
                 var6 = var1.tag;
                 var7 = _closure1_slot0;
@@ -320,9 +320,9 @@ case 12:
                 var4 = var6.uint32;
                 var2 = var5.clientVersion;
                 var2 = var4.bind(var6)(var2);
-case 26:
+case 27:
                 var2 = var5.serverVersion;
-                if(!(var3 !== var2)) { _fun0005_ip = 27; continue _fun0005 }
+                if(!(var3 !== var2)) { _fun0005_ip = 8; continue _fun0005 }
 case 28:
                 var6 = var1.tag;
                 var7 = _closure1_slot0;
@@ -338,7 +338,7 @@ case 28:
                 var4 = var6.uint32;
                 var2 = var5.serverVersion;
                 var2 = var4.bind(var6)(var2);
-case 27:
+case 8:
                 var2 = var5.dataVersion;
                 if(!(var3 !== var2)) { _fun0005_ip = 29; continue _fun0005 }
 case 30:

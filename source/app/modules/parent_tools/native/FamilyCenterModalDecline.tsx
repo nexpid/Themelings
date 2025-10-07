@@ -175,10 +175,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = var6.useCallback;
         var5 = new Array(2);
         var5[0] = var3;
-        var5[1] = var20;
+        var3 = var20.id;
+        var5[1] = var3;
         var3 = function() {
             var3 = _closure2_slot2;
-            var2 = _closure2_slot0;
+            var1 = _closure2_slot0;
+            var2 = var1.id;
             var1 = undefined;
             var2 = var3.bind(var1)(var2);
             return var1;

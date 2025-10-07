@@ -623,281 +623,284 @@ case 36:
                 _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
                     var5 = arg1;
-                    var7 = var5.source;
-                    var6 = var5.index;
-                    var10 = var5.key;
-                    var9 = var5.visible;
-                    var2 = var5.hasSpoiler;
-                    var14 = var5.pointerEvents;
+                    var6 = var5.source;
+                    var8 = var5.index;
+                    var11 = var5.key;
+                    var13 = var5.visible;
+                    var1 = var5.hasSpoiler;
+                    var10 = var5.pointerEvents;
                     var4 = {'source': 0, 'index': 0, 'key': 0, 'visible': 0, 'hasSpoiler': 0, 'pointerEvents': 0};
-                    var1 = null;
-                    var19 = var4;
-                    var18 = null;
-                    var3 = silentSetPrototypeOf(var19, var18);
-                    var19 = {};
-                    var18 = var5;
+                    var2 = null;
                     var17 = var4;
-                    var5 = copyDataProperties(var19, var18, var17);
-                    var13 = !var9;
-                    if(var13) { _fun0008_ip = 38; continue _fun0008 }
+                    var16 = null;
+                    var3 = silentSetPrototypeOf(var17, var16);
+                    var17 = {};
+                    var16 = var5;
+                    var15 = var4;
+                    var7 = copyDataProperties(var17, var16, var15);
+                    var9 = !var13;
+                    if(var9) { _fun0008_ip = 38; continue _fun0008 }
 case 39:
-                    var13 = var2;
+                    var9 = var1;
 case 38:
-                    if(var13) { _fun0008_ip = 40; continue _fun0008 }
+                    if(var9) { _fun0008_ip = 40; continue _fun0008 }
 case 11:
-                    var13 = _closure2_slot8;
+                    var9 = _closure2_slot8;
 case 40:
-                    var2 = var7.portal;
-                    if(!(var1 != var2)) { _fun0008_ip = 41; continue _fun0008 }
+                    var1 = var6.portal;
+                    if(!(var2 != var1)) { _fun0008_ip = 41; continue _fun0008 }
 case 42:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot3;
-                    var11 = 14;
-                    var3 = var3[var11];
-                    var8 = undefined;
-                    var12 = var4.bind(var8)(var3);
-                    var4 = var12.isPortalExpired;
-                    var3 = var7.portal;
-                    var3 = var4.bind(var12)(var3);
+                    var12 = 14;
+                    var3 = var3[var12];
+                    var5 = undefined;
+                    var14 = var4.bind(var5)(var3);
+                    var4 = var14.isPortalExpired;
+                    var3 = var6.portal;
+                    var3 = var4.bind(var14)(var3);
                     if(var3) { _fun0008_ip = 41; continue _fun0008 }
 case 43:
                     var4 = _closure1_slot14;
                     var3 = _closure1_slot1;
-                    var2 = _closure1_slot3;
-                    var2 = var2[var11];
-                    var3 = var3.bind(var8)(var2);
-                    var2 = {};
-                    var19 = var2;
-                    var18 = var5;
-                    var11 = copyDataProperties(var19, var18);
-                    var11 = 'key';
-                    var2[var11] = var10;
-                    var11 = 'pointerEvents';
-                    var2[var11] = var14;
-                    var12 = var7.portal;
-                    var11 = 'portal';
-                    var2[var11] = var12;
-                    var11 = 'paused';
-                    var2[var11] = var13;
-                    var12 = _closure2_slot17;
-                    var11 = 'muted';
-                    var2[var11] = var12;
-                    var2 = var4.bind(var8)(var3, var2);
-                    return var2;
-case 41:
-                    var2 = var7.embedURI;
-                    if(!(var1 == var2)) { _fun0008_ip = 44; continue _fun0008 }
-case 45:
-                    var2 = var7.videoURI;
-                    if(!(var1 == var2)) { _fun0008_ip = 46; continue _fun0008 }
-case 47:
-                    var4 = var7.uri;
-                    var3 = var4.startsWith;
-                    var2 = 'assets-library://';
-                    var2 = var3.bind(var4)(var2);
-                    if(var2) { _fun0008_ip = 48; continue _fun0008 }
-case 49:
-                    var8 = var7.uri;
-                    var4 = var8.startsWith;
-                    var3 = _closure1_slot10;
-                    var3 = var4.bind(var8)(var3);
-                    if(var3) { _fun0008_ip = 48; continue _fun0008 }
-case 50:
-                    var8 = var7.uri;
-                    var4 = var8.startsWith;
-                    var3 = _closure1_slot11;
-                    var3 = var4.bind(var8)(var3);
-                    if(var3) { _fun0008_ip = 48; continue _fun0008 }
-case 51:
-                    var8 = _closure1_slot14;
-                    var12 = _closure1_slot1;
-                    var15 = _closure1_slot3;
-                    var2 = 29;
-                    var2 = var15[var2];
-                    var4 = undefined;
-                    var3 = var12.bind(var4)(var2);
-                    var2 = {};
-                    var11 = 30;
-                    var11 = var15[var11];
-                    var11 = var12.bind(var4)(var11);
-                    var2['Component'] = var11;
-                    var19 = var2;
-                    var18 = var5;
-                    var11 = copyDataProperties(var19, var18);
-                    var11 = 'key';
-                    var2[var11] = var10;
-                    var11 = 'source';
-                    var2[var11] = var7;
-                    var11 = 'index';
-                    var2[var11] = var6;
-                    var11 = 'pointerEvents';
-                    var2[var11] = var14;
-                    var2 = var8.bind(var4)(var3, var2);
-                    _fun0008_ip = 52; continue _fun0008;
-case 48:
-                    var11 = _closure1_slot14;
-                    var4 = _closure1_slot1;
-                    var8 = _closure1_slot3;
-                    var3 = 29;
-                    var3 = var8[var3];
-                    var8 = undefined;
-                    var4 = var4.bind(var8)(var3);
-                    var3 = {};
-                    var12 = _closure1_slot6;
-                    var3['Component'] = var12;
-                    var19 = var3;
-                    var18 = var5;
-                    var12 = copyDataProperties(var19, var18);
-                    var12 = 'key';
-                    var3[var12] = var10;
-                    var12 = 'source';
-                    var3[var12] = var7;
-                    var12 = 'index';
-                    var3[var12] = var6;
-                    var12 = 'pointerEvents';
-                    var3[var12] = var14;
-                    var2 = var11.bind(var8)(var4, var3);
-case 52:
-                    _fun0008_ip = 53; continue _fun0008;
-case 46:
-                    var11 = _closure1_slot14;
-                    var4 = _closure1_slot1;
-                    var16 = _closure1_slot3;
-                    var3 = 29;
-                    var3 = var16[var3];
-                    var8 = undefined;
-                    var4 = var4.bind(var8)(var3);
-                    var3 = {};
-                    var15 = _closure1_slot0;
-                    var12 = 16;
-                    var12 = var16[var12];
-                    var12 = var15.bind(var8)(var12);
-                    var12 = var12.VideoComponent;
-                    var3['Component'] = var12;
-                    var19 = var3;
-                    var18 = var5;
-                    var12 = copyDataProperties(var19, var18);
-                    var12 = 'key';
-                    var3[var12] = var10;
-                    var12 = 'pointerEvents';
-                    var3[var12] = var14;
-                    var12 = 'paused';
-                    var3[var12] = var13;
-                    var13 = _closure2_slot16;
-                    var14 = var13.bind(var8)(var6, var7);
-                    var13 = 'controls';
-                    var3[var13] = var14;
-                    var13 = _closure2_slot17;
-                    if(var13) { _fun0008_ip = 54; continue _fun0008 }
-case 55:
-                    var14 = var7.isGIFV;
-                    var12 = true;
-                    var13 = var12 === var14;
-case 54:
-                    var12 = 'muted';
-                    var3[var12] = var13;
-                    var12 = 'index';
-                    var3[var12] = var6;
-                    var13 = {};
-                    var12 = var7.videoURI;
-                    var13['uri'] = var12;
-                    var12 = var7.width;
-                    var13['width'] = var12;
-                    var12 = var7.height;
-                    var13['height'] = var12;
-                    var12 = var7.videoURI;
-                    var13['videoURI'] = var12;
-                    var12 = var7.messageId;
-                    var13['messageId'] = var12;
-                    var12 = var7.channelId;
-                    var13['channelId'] = var12;
-                    var12 = var7.mediaIndex;
-                    var13['mediaIndex'] = var12;
-                    var12 = var7.description;
-                    var13['description'] = var12;
-                    var12 = var7.obscure;
-                    var13['obscure'] = var12;
-                    var12 = var7.accessoryType;
-                    var13['accessoryType'] = var12;
-                    var12 = var7.attachmentId;
-                    var13['attachmentId'] = var12;
-                    var12 = 'source';
-                    var3[var12] = var13;
-                    var2 = var11.bind(var8)(var4, var3);
-case 53:
-                    return var2;
-case 44:
-                    var3 = var7.embedProviderName;
-                    var2 = 'TikTok';
-                    if(!(var2 !== var3)) { _fun0008_ip = 56; continue _fun0008 }
-case 57:
-                    var2 = 'YouTube';
-                    if(!(var2 !== var3)) { _fun0008_ip = 58; continue _fun0008 }
-case 59:
-                    return var1;
-case 58:
-                    var4 = _closure1_slot14;
-                    var2 = _closure1_slot1;
-                    var3 = _closure1_slot3;
-                    var1 = 28;
-                    var1 = var3[var1];
-                    var3 = undefined;
-                    var2 = var2.bind(var3)(var1);
+                    var1 = _closure1_slot3;
+                    var1 = var1[var12];
+                    var3 = var3.bind(var5)(var1);
                     var1 = {};
-                    var19 = var1;
-                    var18 = var5;
-                    var8 = copyDataProperties(var19, var18);
-                    var8 = 'key';
-                    var1[var8] = var10;
-                    var8 = 'visible';
-                    var1[var8] = var9;
-                    var11 = var5.style;
-                    var8 = 'style';
-                    var1[var8] = var11;
-                    var11 = {};
-                    var8 = var7.embedURI;
-                    var11['uri'] = var8;
-                    var8 = var7.width;
-                    var11['width'] = var8;
-                    var8 = var7.height;
-                    var11['height'] = var8;
-                    var8 = 'source';
-                    var1[var8] = var11;
-                    var1 = var4.bind(var3)(var2, var1);
+                    var17 = var1;
+                    var16 = var7;
+                    var12 = copyDataProperties(var17, var16);
+                    var12 = 'key';
+                    var1[var12] = var11;
+                    var12 = 'pointerEvents';
+                    var1[var12] = var10;
+                    var14 = var6.portal;
+                    var12 = 'portal';
+                    var1[var12] = var14;
+                    var12 = 'paused';
+                    var1[var12] = var9;
+                    var14 = _closure2_slot17;
+                    var12 = 'muted';
+                    var1[var12] = var14;
+                    var1 = var4.bind(var5)(var3, var1);
                     return var1;
+case 41:
+                    var1 = var6.embedURI;
+                    if(!(var2 != var1)) { _fun0008_ip = 44; continue _fun0008 }
+case 45:
+                    var1 = var6.isGIFV;
+                    if(var1) { _fun0008_ip = 44; continue _fun0008 }
+case 46:
+                    var3 = var6.embedProviderName;
+                    var1 = 'TikTok';
+                    if(!(var1 !== var3)) { _fun0008_ip = 47; continue _fun0008 }
+case 48:
+                    var1 = 'YouTube';
+                    if(!(var1 !== var3)) { _fun0008_ip = 49; continue _fun0008 }
+case 50:
+                    return var2;
+case 49:
+                    var5 = _closure1_slot14;
+                    var3 = _closure1_slot1;
+                    var4 = _closure1_slot3;
+                    var1 = 28;
+                    var1 = var4[var1];
+                    var4 = undefined;
+                    var3 = var3.bind(var4)(var1);
+                    var1 = {};
+                    var17 = var1;
+                    var16 = var7;
+                    var12 = copyDataProperties(var17, var16);
+                    var12 = 'key';
+                    var1[var12] = var11;
+                    var12 = 'visible';
+                    var1[var12] = var13;
+                    var14 = var7.style;
+                    var12 = 'style';
+                    var1[var12] = var14;
+                    var14 = {};
+                    var12 = var6.embedURI;
+                    var14['uri'] = var12;
+                    var12 = var6.width;
+                    var14['width'] = var12;
+                    var12 = var6.height;
+                    var14['height'] = var12;
+                    var12 = 'source';
+                    var1[var12] = var14;
+                    var1 = var5.bind(var4)(var3, var1);
+                    return var1;
+case 47:
+                    var5 = _closure1_slot14;
+                    var3 = _closure1_slot1;
+                    var4 = _closure1_slot3;
+                    var1 = 15;
+                    var1 = var4[var1];
+                    var4 = undefined;
+                    var3 = var3.bind(var4)(var1);
+                    var1 = {};
+                    var17 = var1;
+                    var16 = var7;
+                    var12 = copyDataProperties(var17, var16);
+                    var12 = 'key';
+                    var1[var12] = var11;
+                    var12 = 'visible';
+                    var1[var12] = var13;
+                    var13 = var7.style;
+                    var12 = 'style';
+                    var1[var12] = var13;
+                    var13 = {};
+                    var12 = var6.embedURI;
+                    var13['uri'] = var12;
+                    var12 = var6.width;
+                    var13['width'] = var12;
+                    var12 = var6.height;
+                    var13['height'] = var12;
+                    var12 = 'source';
+                    var1[var12] = var13;
+                    var12 = _closure2_slot16;
+                    var13 = var12.bind(var4)(var8, var6);
+                    var12 = 'controls';
+                    var1[var12] = var13;
+                    var1 = var5.bind(var4)(var3, var1);
+                    return var1;
+case 44:
+                    var1 = var6.videoURI;
+                    if(!(var2 == var1)) { _fun0008_ip = 51; continue _fun0008 }
+case 52:
+                    var3 = var6.uri;
+                    var2 = var3.startsWith;
+                    var1 = 'assets-library://';
+                    var1 = var2.bind(var3)(var1);
+                    if(var1) { _fun0008_ip = 53; continue _fun0008 }
+case 54:
+                    var4 = var6.uri;
+                    var3 = var4.startsWith;
+                    var2 = _closure1_slot10;
+                    var2 = var3.bind(var4)(var2);
+                    if(var2) { _fun0008_ip = 53; continue _fun0008 }
+case 55:
+                    var4 = var6.uri;
+                    var3 = var4.startsWith;
+                    var2 = _closure1_slot11;
+                    var2 = var3.bind(var4)(var2);
+                    if(var2) { _fun0008_ip = 53; continue _fun0008 }
 case 56:
                     var4 = _closure1_slot14;
-                    var2 = _closure1_slot1;
-                    var3 = _closure1_slot3;
-                    var1 = 15;
-                    var1 = var3[var1];
+                    var12 = _closure1_slot1;
+                    var13 = _closure1_slot3;
+                    var1 = 29;
+                    var1 = var13[var1];
                     var3 = undefined;
-                    var2 = var2.bind(var3)(var1);
+                    var2 = var12.bind(var3)(var1);
                     var1 = {};
-                    var19 = var1;
-                    var18 = var5;
-                    var8 = copyDataProperties(var19, var18);
-                    var8 = 'key';
-                    var1[var8] = var10;
-                    var8 = 'visible';
-                    var1[var8] = var9;
-                    var8 = var5.style;
-                    var5 = 'style';
-                    var1[var5] = var8;
-                    var8 = {};
-                    var5 = var7.embedURI;
-                    var8['uri'] = var5;
-                    var5 = var7.width;
-                    var8['width'] = var5;
-                    var5 = var7.height;
-                    var8['height'] = var5;
+                    var5 = 30;
+                    var5 = var13[var5];
+                    var5 = var12.bind(var3)(var5);
+                    var1['Component'] = var5;
+                    var17 = var1;
+                    var16 = var7;
+                    var5 = copyDataProperties(var17, var16);
+                    var5 = 'key';
+                    var1[var5] = var11;
                     var5 = 'source';
-                    var1[var5] = var8;
-                    var5 = _closure2_slot16;
-                    var6 = var5.bind(var3)(var6, var7);
-                    var5 = 'controls';
                     var1[var5] = var6;
+                    var5 = 'index';
+                    var1[var5] = var8;
+                    var5 = 'pointerEvents';
+                    var1[var5] = var10;
                     var1 = var4.bind(var3)(var2, var1);
+                    _fun0008_ip = 57; continue _fun0008;
+case 53:
+                    var5 = _closure1_slot14;
+                    var3 = _closure1_slot1;
+                    var4 = _closure1_slot3;
+                    var2 = 29;
+                    var2 = var4[var2];
+                    var4 = undefined;
+                    var3 = var3.bind(var4)(var2);
+                    var2 = {};
+                    var12 = _closure1_slot6;
+                    var2['Component'] = var12;
+                    var17 = var2;
+                    var16 = var7;
+                    var12 = copyDataProperties(var17, var16);
+                    var12 = 'key';
+                    var2[var12] = var11;
+                    var12 = 'source';
+                    var2[var12] = var6;
+                    var12 = 'index';
+                    var2[var12] = var8;
+                    var12 = 'pointerEvents';
+                    var2[var12] = var10;
+                    var1 = var5.bind(var4)(var3, var2);
+case 57:
+                    _fun0008_ip = 58; continue _fun0008;
+case 51:
+                    var5 = _closure1_slot14;
+                    var3 = _closure1_slot1;
+                    var14 = _closure1_slot3;
+                    var2 = 29;
+                    var2 = var14[var2];
+                    var4 = undefined;
+                    var3 = var3.bind(var4)(var2);
+                    var2 = {};
+                    var13 = _closure1_slot0;
+                    var12 = 16;
+                    var12 = var14[var12];
+                    var12 = var13.bind(var4)(var12);
+                    var12 = var12.VideoComponent;
+                    var2['Component'] = var12;
+                    var17 = var2;
+                    var16 = var7;
+                    var7 = copyDataProperties(var17, var16);
+                    var7 = 'key';
+                    var2[var7] = var11;
+                    var7 = 'pointerEvents';
+                    var2[var7] = var10;
+                    var7 = 'paused';
+                    var2[var7] = var9;
+                    var9 = _closure2_slot16;
+                    var10 = var9.bind(var4)(var8, var6);
+                    var9 = 'controls';
+                    var2[var9] = var10;
+                    var9 = _closure2_slot17;
+                    if(var9) { _fun0008_ip = 59; continue _fun0008 }
+case 60:
+                    var10 = var6.isGIFV;
+                    var7 = true;
+                    var9 = var7 === var10;
+case 59:
+                    var7 = 'muted';
+                    var2[var7] = var9;
+                    var7 = 'index';
+                    var2[var7] = var8;
+                    var7 = {};
+                    var8 = var6.videoURI;
+                    var7['uri'] = var8;
+                    var8 = var6.width;
+                    var7['width'] = var8;
+                    var8 = var6.height;
+                    var7['height'] = var8;
+                    var8 = var6.videoURI;
+                    var7['videoURI'] = var8;
+                    var8 = var6.messageId;
+                    var7['messageId'] = var8;
+                    var8 = var6.channelId;
+                    var7['channelId'] = var8;
+                    var8 = var6.mediaIndex;
+                    var7['mediaIndex'] = var8;
+                    var8 = var6.description;
+                    var7['description'] = var8;
+                    var8 = var6.obscure;
+                    var7['obscure'] = var8;
+                    var8 = var6.accessoryType;
+                    var7['accessoryType'] = var8;
+                    var6 = var6.attachmentId;
+                    var7['attachmentId'] = var6;
+                    var6 = 'source';
+                    var2[var6] = var7;
+                    var1 = var5.bind(var4)(var3, var2);
+case 58:
                     return var1;
                 }
             };

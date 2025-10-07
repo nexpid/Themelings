@@ -180,7 +180,7 @@ case 3:
                         var5['imageStyle'] = var1;
                         var7 = _closure1_slot0;
                         var6 = _closure1_slot2;
-                        var1 = 10;
+                        var1 = 9;
                         var6 = var6[var1];
                         var1 = undefined;
                         var8 = var7.bind(var1)(var6);
@@ -212,7 +212,7 @@ case 5:
                 var8 = var1.length;
                 var3 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var2 = 11;
+                var2 = 10;
                 var2 = var4[var2];
                 var6 = undefined;
                 var4 = var3.bind(var6)(var2);
@@ -227,7 +227,7 @@ case 5:
                 var11 = var10 < var5;
                 var4 = global;
                 var3 = 'file-or-link-placeholder-';
-                var2 = 10;
+                var2 = 9;
                 var10 = 0;
                 if(!var11) { _fun0001_ip = 4; continue _fun0001 }
 case 6:
@@ -279,7 +279,7 @@ case 4:
         var1['estimatedItemSize'] = var12;
         var9 = var9.filesOrLinksContentContainer;
         var1['contentContainerStyle'] = var9;
-        var9 = 12;
+        var9 = 11;
         var9 = var11[var9];
         var9 = var10.bind(var4)(var9);
         var9 = var9.CardVerticalSeparator;
@@ -292,7 +292,7 @@ case 4:
         return var1;
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 13;
+    var4 = 12;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

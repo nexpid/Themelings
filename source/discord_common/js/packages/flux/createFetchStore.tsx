@@ -673,7 +673,7 @@ case 69:
                             var20 = var5;
                             var4 = new var20[var6](var19, var18);
                             var4 = var4 instanceof Object ? var4 : var5;
-                            SaveGenerator(address=477);
+                            SaveGenerator(address=473);
 case 70:
                             return var4;
 case 71:

@@ -937,7 +937,7 @@ case 13:
         var1 = 3;
         var1 = var6[var1];
         var1 = var4.bind(var5)(var1);
-        var1 = var1.aOLJDw;
+        var1 = var1.NMYKsr;
         var1 = var2.bind(var3)(var1);
         return var1;
     };
@@ -962,11 +962,11 @@ case 0:
 case 12:
             var1 = var2.85PtWl;
             var1 = var3.bind(var4)(var1);
-            _fun0012_ip = 13; continue _fun0012;
+            _fun0012_ip = 14; continue _fun0012;
 case 11:
             var2 = var2.c9BHsr;
             var1 = var3.bind(var4)(var2);
-case 13:
+case 14:
             return var1;
         }
     };
@@ -984,10 +984,10 @@ case 13:
         var1 = 3;
         var1 = var6[var1];
         var1 = var2.bind(var5)(var1);
-        var2 = var1.SIgpS0;
+        var2 = var1.FPViWF;
         var1 = {};
         var5 = arg1;
-        var1['count'] = var5;
+        var1['amount'] = var5;
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
@@ -1012,11 +1012,11 @@ case 0:
 case 12:
             var1 = var2.85PtWl;
             var1 = var3.bind(var4)(var1);
-            _fun0013_ip = 13; continue _fun0013;
+            _fun0013_ip = 14; continue _fun0013;
 case 11:
-            var2 = var2.c9BHsr;
+            var2 = var2.cqIdqa;
             var1 = var3.bind(var4)(var2);
-case 13:
+case 14:
             return var1;
         }
     };
@@ -1125,7 +1125,7 @@ case 0:
             var6 = var1.email;
             var1 = null;
             if(!(var1 == var6)) { _fun0014_ip = 13; continue _fun0014 }
-case 14:
+case 15:
             var3 = _closure1_slot0;
             var7 = _closure1_slot2;
             var2 = 2;
@@ -1140,7 +1140,7 @@ case 14:
             var1 = var4.bind(var5)(var1);
             var1 = var1.Xyjnws;
             var1 = var2.bind(var3)(var1);
-            _fun0014_ip = 15; continue _fun0014;
+            _fun0014_ip = 16; continue _fun0014;
 case 13:
             var4 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -1158,7 +1158,7 @@ case 13:
             var2 = {};
             var2['email'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 15:
+case 16:
             return var1;
         }
     };
@@ -1215,21 +1215,21 @@ case 0:
             var2 = 3;
             var2 = var7[var2];
             var2 = var3.bind(var6)(var2);
-            if(var1) { _fun0016_ip = 16; continue _fun0016 }
+            if(var1) { _fun0016_ip = 17; continue _fun0016 }
 case 5:
             var3 = var2.69F+eX;
             var1 = {};
             var6 = 'https://support.discord.com/hc/articles/14155060633623';
             var1['link'] = var6;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0016_ip = 17; continue _fun0016;
-case 16:
+            _fun0016_ip = 18; continue _fun0016;
+case 17:
             var3 = var2.GKzqWl;
             var2 = {};
             var6 = 'https://support.discord.com/hc/articles/14155043715735';
             var2['link'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 17:
+case 18:
             return var1;
         }
     };

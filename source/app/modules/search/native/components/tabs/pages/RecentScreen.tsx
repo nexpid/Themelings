@@ -224,24 +224,27 @@ case 35:
     var4 = 7;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var8 = var4.EMPTY_MEDIA_RESULTS;
-    var _closure1_slot10 = var8;
     var8 = var4.EMPTY_SEARCH_QUERY_STRING;
-    var _closure1_slot11 = var8;
+    var _closure1_slot10 = var8;
     var8 = var4.MESSAGE_PLACEHOLDER_ITEM_SIZE;
-    var _closure1_slot12 = var8;
+    var _closure1_slot11 = var8;
     var8 = var4.RECENTS_ESTIMATED_ITEM_SIZE;
-    var _closure1_slot13 = var8;
+    var _closure1_slot12 = var8;
     var8 = var4.SearchListItemTypes;
-    var _closure1_slot14 = var8;
+    var _closure1_slot13 = var8;
     var4 = var4.SearchTabs;
-    var _closure1_slot15 = var4;
+    var _closure1_slot14 = var4;
     var4 = 8;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.EMPTY_MEDIA_RESULTS;
+    var _closure1_slot15 = var4;
+    var4 = 9;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.SearchTypes;
     var _closure1_slot16 = var4;
-    var4 = 9;
+    var4 = 10;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
@@ -253,7 +256,7 @@ case 35:
         var4 = _closure1_slot17;
         var10 = _closure1_slot0;
         var11 = _closure1_slot2;
-        var1 = 10;
+        var1 = 11;
         var1 = var11[var1];
         var3 = undefined;
         var1 = var10.bind(var3)(var1);
@@ -262,7 +265,7 @@ case 35:
         var5 = function onPress() {
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 11;
+            var1 = 12;
             var2 = var2[var1];
             var1 = undefined;
             var3 = var3.bind(var1)(var2);
@@ -272,7 +275,7 @@ case 35:
             return var1;
         };
         var1['onPress'] = var5;
-        var7 = 12;
+        var7 = 13;
         var5 = var11[var7];
         var5 = var10.bind(var3)(var5);
         var8 = var5.intl;
@@ -283,7 +286,7 @@ case 35:
         var5 = var5.LFTAUl;
         var5 = var6.bind(var8)(var5);
         var1['accessibilityLabel'] = var5;
-        var5 = 13;
+        var5 = 14;
         var5 = var11[var5];
         var5 = var10.bind(var3)(var5);
         var6 = var5.Text;
@@ -310,14 +313,14 @@ case 35:
         var4 = _closure1_slot17;
         var10 = _closure1_slot0;
         var11 = _closure1_slot2;
-        var1 = 10;
+        var1 = 11;
         var1 = var11[var1];
         var3 = undefined;
         var1 = var10.bind(var3)(var1);
         var2 = var1.PressableHighlight;
         var1 = {'onPress': null, 'accessibilityRole': 'button', 'unstable_pressDelay': 130};
         var1['onPress'] = var5;
-        var7 = 12;
+        var7 = 13;
         var5 = var11[var7];
         var5 = var10.bind(var3)(var5);
         var8 = var5.intl;
@@ -328,7 +331,7 @@ case 35:
         var5 = var5.Ofpgws;
         var5 = var6.bind(var8)(var5);
         var1['accessibilityLabel'] = var5;
-        var5 = 13;
+        var5 = 14;
         var5 = var11[var5];
         var5 = var10.bind(var3)(var5);
         var6 = var5.Text;
@@ -369,16 +372,16 @@ case 35:
         var11 = var4.bind(var17)(var13, var2);
         var6 = _closure1_slot0;
         var8 = _closure1_slot2;
-        var2 = 18;
+        var2 = 19;
         var5 = var8[var2];
         var4 = undefined;
         var10 = var6.bind(var4)(var5);
         var9 = var10.getSearchTabFetchId;
-        var5 = _closure1_slot15;
+        var5 = _closure1_slot14;
         var5 = var5.MEDIA;
         var5 = var9.bind(var10)(var13, var5, var11);
         var _closure2_slot3 = var5;
-        var9 = 19;
+        var9 = 20;
         var5 = var8[var9];
         var14 = var6.bind(var4)(var5);
         var12 = var14.useStateFromStores;
@@ -437,7 +440,7 @@ case 35:
             var _closure3_slot1 = var4;
             var4 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var3 = 20;
+            var3 = 21;
             var3 = var6[var3];
             var4 = var4.bind(var5)(var3);
             var3 = var4.useFocusEffect;
@@ -478,27 +481,28 @@ case 35:
         var12 = var2.bind(var4)(var5);
         var _closure2_slot6 = var12;
         var2 = _closure1_slot1;
-        var5 = 21;
+        var5 = 22;
         var5 = var8[var5];
         var5 = var2.bind(var4)(var5);
         var10 = var5.bind(var4)();
         var _closure2_slot7 = var10;
         var9 = _closure1_slot5;
         var16 = var9.useMemo;
-        var14 = new Array(1);
+        var14 = new Array(2);
         var14[0] = var19;
+        var14[1] = var13;
         var5 = function() {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-                var3 = _closure2_slot4;
+                var2 = _closure2_slot4;
                 var1 = null;
-                if(!(var1 != var3)) { _fun0004_ip = 36; continue _fun0004 }
-case 37:
+                if(!(var1 != var2)) { _fun0004_ip = 17; continue _fun0004 }
+case 36:
                 var1 = _closure2_slot4;
-                var3 = var1.length;
+                var2 = var1.length;
                 var1 = 0;
-                if(!(var1 !== var3)) { _fun0004_ip = 36; continue _fun0004 }
-case 33:
+                if(!(var1 !== var2)) { _fun0004_ip = 17; continue _fun0004 }
+case 37:
                 var1 = new Array(0);
                 var _closure3_slot0 = var1;
                 var3 = _closure1_slot23;
@@ -507,18 +511,21 @@ case 33:
                 var6 = var3.bind(var7)(var2);
                 var3 = var6.bind(var7)();
                 var2 = var3.done;
-                var5 = 18;
+                var5 = 23;
                 var4 = 9;
                 if(var2) { _fun0004_ip = 38; continue _fun0004 }
 case 39:
-                var11 = var3.value;
-                var10 = _closure1_slot0;
+                var14 = var3.value;
+                var11 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var2 = var2[var5];
-                var10 = var10.bind(var7)(var2);
-                var2 = var10.getMedia;
-                var11 = var2.bind(var10)(var11);
-                var10 = var11.forEach;
+                var13 = var11.bind(var7)(var2);
+                var12 = var13.getMedia;
+                var11 = _closure2_slot0;
+                var2 = new Array(1);
+                var2[0] = var14;
+                var12 = var12.bind(var13)(var11, var2);
+                var11 = var12.forEach;
                 var2 = function(arg1) {
                     var3 = _closure3_slot0;
                     var2 = var3.push;
@@ -526,30 +533,30 @@ case 39:
                     var1 = var2.bind(var3)(var1);
                     return var1;
                 };
-                var2 = var10.bind(var11)(var2);
+                var2 = var11.bind(var12)(var2);
                 var2 = var1.length;
                 if(!(!(var2 >= var4))) { _fun0004_ip = 38; continue _fun0004 }
 case 40:
-                var10 = var6.bind(var7)();
-                var2 = var10.done;
-                var3 = var10;
+                var11 = var6.bind(var7)();
+                var2 = var11.done;
+                var3 = var11;
                 if(!var2) { _fun0004_ip = 39; continue _fun0004 }
 case 38:
                 return var1;
-case 36:
-                var1 = _closure1_slot10;
+case 17:
+                var1 = _closure1_slot15;
                 return var1;
             }
         };
         var16 = var16.bind(var9)(var5, var14);
         var _closure2_slot8 = var16;
-        var5 = 15;
+        var5 = 16;
         var5 = var8[var5];
         var18 = var6.bind(var4)(var5);
         var14 = var18.useOnPressMediaItem;
         var5 = {};
         var5['searchContext'] = var13;
-        var5['mediaResults'] = var16;
+        var5['allMediaResults'] = var16;
         var5 = var14.bind(var18)(var5);
         var _closure2_slot9 = var5;
         var18 = var9.useCallback;
@@ -586,7 +593,7 @@ case 42:
 case 41:
                 var7 = _closure1_slot0;
                 var9 = _closure1_slot2;
-                var6 = 22;
+                var6 = 24;
                 var6 = var9[var6];
                 var7 = var7.bind(var1)(var6);
                 var6 = var7.shouldAgeVerifyForSearchMedia;
@@ -605,17 +612,17 @@ case 44:
                 var13 = var7.bind(var8)(var11, var6);
                 var7 = _closure1_slot0;
                 var8 = _closure1_slot2;
-                var6 = 18;
+                var6 = 19;
                 var6 = var8[var6];
                 var12 = var7.bind(var1)(var6);
                 var9 = var12.getSearchTabFetchId;
-                var6 = _closure1_slot15;
+                var6 = _closure1_slot14;
                 var6 = var6.MEDIA;
                 var12 = var9.bind(var12)(var11, var6, var13);
                 var9 = _closure1_slot6;
                 var6 = var9.getTotalCount;
                 var9 = var6.bind(var9)(var12);
-                var6 = 17;
+                var6 = 18;
                 var6 = var8[var6];
                 var8 = var7.bind(var1)(var6);
                 var7 = var8.trackSearchResultClicked;
@@ -645,13 +652,13 @@ case 44:
 case 43:
                 var3 = _closure1_slot1;
                 var7 = _closure1_slot2;
-                var2 = 23;
+                var2 = 25;
                 var2 = var7[var2];
                 var4 = var3.bind(var1)(var2);
                 var3 = var4.showAgeVerificationGetStartedModal;
                 var2 = {};
                 var6 = _closure1_slot0;
-                var5 = 24;
+                var5 = 26;
                 var5 = var7[var5];
                 var5 = var6.bind(var1)(var5);
                 var5 = var5.AgeVerificationModalEntryPoint;
@@ -673,12 +680,12 @@ case 45:
         };
         var17 = var14.bind(var17)(var13, var5);
         var _closure2_slot11 = var17;
-        var5 = 25;
+        var5 = 27;
         var5 = var8[var5];
         var14 = var6.bind(var4)(var5);
         var6 = var14.useFullscreenPlaceholderCount;
         var5 = {};
-        var19 = _closure1_slot12;
+        var19 = _closure1_slot11;
         var5['placeholderHeight'] = var19;
         var19 = 1;
         var5['numColumns'] = var19;
@@ -716,7 +723,7 @@ case 47:
 case 4:
                 var9 = var1.push;
                 var3 = {};
-                var10 = _closure1_slot14;
+                var10 = _closure1_slot13;
                 var10 = var10.MESSAGE_PLACEHOLDER;
                 var3['type'] = var10;
                 var10 = var6.HermesInternal;
@@ -737,13 +744,13 @@ case 46:
 case 50:
                 var4 = var1.push;
                 var3 = {};
-                var6 = _closure1_slot14;
+                var6 = _closure1_slot13;
                 var6 = var6.SECTION;
                 var3['type'] = var6;
                 var6 = {};
                 var13 = _closure1_slot0;
                 var14 = _closure1_slot2;
-                var8 = 12;
+                var8 = 13;
                 var10 = var14[var8];
                 var11 = undefined;
                 var10 = var13.bind(var11)(var10);
@@ -770,7 +777,7 @@ case 50:
                     var3 = _closure3_slot0;
                     var2 = var3.push;
                     var1 = {};
-                    var4 = _closure1_slot14;
+                    var4 = _closure1_slot13;
                     var4 = var4.SEARCH_HISTORY_ITEM;
                     var1['type'] = var4;
                     var4 = {};
@@ -806,13 +813,13 @@ case 51:
 case 54:
                 var3 = var1.push;
                 var2 = {};
-                var4 = _closure1_slot14;
+                var4 = _closure1_slot13;
                 var6 = var4.SECTION;
                 var2['type'] = var6;
                 var6 = {};
                 var13 = _closure1_slot0;
                 var14 = _closure1_slot2;
-                var8 = 12;
+                var8 = 13;
                 var10 = var14[var8];
                 var11 = undefined;
                 var10 = var13.bind(var11)(var10);
@@ -871,7 +878,7 @@ case 56:
                     var4 = _closure1_slot17;
                     var2 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var1 = 26;
+                    var1 = 28;
                     var1 = var3[var1];
                     var3 = undefined;
                     var1 = var2.bind(var3)(var1);
@@ -888,11 +895,11 @@ case 55:
         };
         var5 = var5.bind(var9)(var1, var3);
         var3 = _closure1_slot17;
-        var1 = 27;
+        var1 = 29;
         var1 = var8[var1];
         var2 = var2.bind(var4)(var1);
         var1 = {};
-        var7 = _closure1_slot13;
+        var7 = _closure1_slot12;
         var1['estimatedItemSize'] = var7;
         var1['data'] = var6;
         var1['ListFooterComponent'] = var5;
@@ -913,17 +920,17 @@ case 55:
             var _closure3_slot0 = var7;
             var5 = _closure1_slot1;
             var8 = _closure1_slot2;
-            var3 = 14;
+            var3 = 15;
             var4 = var8[var3];
             var3 = undefined;
             var5 = var5.bind(var3)(var4);
             var4 = {'query': null, 'withGuildMembers': false, 'withAffinitySuggestions': true, 'affinitySuggestionsLimit': 3, 'withFriends': false, 'withFriendSuggestions': false, 'withFriendRequests': false, 'withFriendRequestsIncoming': false, 'withFriendRequestsOutgoing': false, 'excludeCurrentUser': true};
-            var6 = _closure1_slot11;
+            var6 = _closure1_slot10;
             var4['query'] = var6;
             var5 = var5.bind(var3)(var4);
             var _closure3_slot1 = var5;
             var6 = _closure1_slot0;
-            var4 = 15;
+            var4 = 16;
             var4 = var8[var4];
             var8 = var6.bind(var3)(var4);
             var6 = var8.useOnPressDMItem;
@@ -947,7 +954,7 @@ case 0:
 case 58:
                             var6 = _closure1_slot1;
                             var3 = _closure1_slot2;
-                            var2 = 16;
+                            var2 = 17;
                             var2 = var3[var2];
                             var3 = undefined;
                             var6 = var6.bind(var3)(var2);
@@ -962,7 +969,7 @@ case 60:
 case 28:
                             var6 = _closure1_slot0;
                             var7 = _closure1_slot2;
-                            var4 = 17;
+                            var4 = 18;
                             var4 = var7[var4];
                             var8 = var6.bind(var3)(var4);
                             var7 = var8.trackSuggestedSearchClicked;
@@ -1037,7 +1044,7 @@ case 64:
                             var4 = _closure4_slot0;
                             var2 = var4.push;
                             var1 = {};
-                            var5 = _closure1_slot14;
+                            var5 = _closure1_slot13;
                             var5 = var5.SECTION;
                             var1['type'] = var5;
                             var5 = {};
@@ -1049,7 +1056,7 @@ case 64:
                                 var3 = _closure4_slot0;
                                 var2 = var3.push;
                                 var1 = {};
-                                var4 = _closure1_slot14;
+                                var4 = _closure1_slot13;
                                 var4 = var4.DM;
                                 var1['type'] = var4;
                                 var4 = {};
@@ -1104,14 +1111,14 @@ case 5:
             var _closure3_slot0 = var2;
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var3 = 18;
+            var3 = 19;
             var3 = var8[var3];
             var6 = undefined;
             var5 = var7.bind(var6)(var3);
             var3 = var5.getSearchContextId;
             var3 = var3.bind(var5)(var2);
             var _closure3_slot1 = var3;
-            var3 = 19;
+            var3 = 20;
             var3 = var8[var3];
             var10 = var7.bind(var6)(var3);
             var9 = var10.useStateFromStores;
@@ -1127,7 +1134,7 @@ case 5:
             };
             var3 = var9.bind(var10)(var5, var3);
             var _closure3_slot2 = var3;
-            var5 = 15;
+            var5 = 16;
             var5 = var8[var5];
             var7 = var7.bind(var6)(var5);
             var6 = var7.useOnPressGuildTextChannel;
@@ -1157,7 +1164,7 @@ case 5:
                 var3 = arg1;
                 var4 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 17;
+                var1 = 18;
                 var2 = var2[var1];
                 var1 = undefined;
                 var6 = var4.bind(var1)(var2);
@@ -1189,13 +1196,13 @@ case 0:
 case 34:
                     var5 = var1.push;
                     var4 = {};
-                    var6 = _closure1_slot14;
+                    var6 = _closure1_slot13;
                     var6 = var6.SECTION;
                     var4['type'] = var6;
                     var6 = {};
                     var11 = _closure1_slot0;
                     var12 = _closure1_slot2;
-                    var7 = 12;
+                    var7 = 13;
                     var8 = var12[var7];
                     var10 = undefined;
                     var8 = var11.bind(var10)(var8);
@@ -1216,7 +1223,7 @@ case 34:
                         var3 = _closure4_slot0;
                         var2 = var3.push;
                         var1 = {};
-                        var4 = _closure1_slot14;
+                        var4 = _closure1_slot13;
                         var4 = var4.GUILD_TEXT_CHANNEL;
                         var1['type'] = var4;
                         var4 = {};
@@ -1310,7 +1317,7 @@ case 66:
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 28;
+    var4 = 30;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

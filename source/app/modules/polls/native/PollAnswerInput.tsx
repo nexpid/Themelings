@@ -30,7 +30,7 @@ case 2:
             var1 = var1.openImageInputActionSheet;
             var _closure2_slot2 = var4;
             var _closure2_slot3 = var4;
-            var8 = _closure1_slot14;
+            var8 = _closure1_slot15;
             var11 = var8.bind(var4)();
             var15 = _closure1_slot1;
             var17 = _closure1_slot2;
@@ -187,7 +187,7 @@ case 16:
 case 19:
             var15 = var1;
 case 18:
-            var3 = _closure1_slot11;
+            var3 = _closure1_slot12;
             var2 = _closure1_slot0;
             var18 = _closure1_slot2;
             var1 = 12;
@@ -216,7 +216,7 @@ case 23:
 case 22:
             var7[1] = var8;
             var1['style'] = var7;
-            var8 = _closure1_slot11;
+            var8 = _closure1_slot12;
             if(var5) { _fun0001_ip = 24; continue _fun0001 }
 case 25:
             var7 = _closure1_slot1;
@@ -229,7 +229,7 @@ case 25:
             var5 = var8.bind(var4)(var7, var5);
             _fun0001_ip = 26; continue _fun0001;
 case 24:
-            var7 = _closure1_slot5;
+            var7 = _closure1_slot6;
             var6 = {};
             var6['children'] = var9;
             var5 = var8.bind(var4)(var7, var6);
@@ -239,7 +239,7 @@ case 26:
             return var1;
         }
     };
-    var _closure1_slot15 = var1;
+    var _closure1_slot16 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -257,40 +257,42 @@ case 26:
     var4 = 1;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var7 = var4.TouchableOpacity;
+    var7 = var4.Keyboard;
     var _closure1_slot4 = var7;
+    var7 = var4.TouchableOpacity;
+    var _closure1_slot5 = var7;
     var4 = var4.View;
-    var _closure1_slot5 = var4;
+    var _closure1_slot6 = var4;
     var10 = 2;
     var4 = var6[var10];
     var4 = var12.bind(var1)(var4);
-    var _closure1_slot6 = var4;
+    var _closure1_slot7 = var4;
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.DraftType;
-    var _closure1_slot7 = var4;
+    var _closure1_slot8 = var4;
     var4 = 4;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var7 = var4.MAX_POLL_ANSWER_LENGTH;
-    var _closure1_slot8 = var7;
+    var _closure1_slot9 = var7;
     var4 = var4.POLL_CREATION_IMAGE_INPUT_ACTION_SHEET_KEY;
-    var _closure1_slot9 = var4;
+    var _closure1_slot10 = var4;
     var4 = 5;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.EmojiIntention;
-    var _closure1_slot10 = var4;
+    var _closure1_slot11 = var4;
     var4 = 6;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var7 = var4.jsx;
-    var _closure1_slot11 = var7;
-    var7 = var4.jsxs;
     var _closure1_slot12 = var7;
+    var7 = var4.jsxs;
+    var _closure1_slot13 = var7;
     var4 = var4.Fragment;
-    var _closure1_slot13 = var4;
+    var _closure1_slot14 = var4;
     var4 = 7;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
@@ -339,7 +341,7 @@ case 26:
     var9['borderWidth'] = var10;
     var4['errorInput'] = var9;
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot14 = var4;
+    var _closure1_slot15 = var4;
     var4 = 23;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -368,7 +370,7 @@ case 0:
             var _closure2_slot6 = var3;
             var25 = var2.onSubmitEditing;
             var10 = var2.error;
-            var2 = _closure1_slot14;
+            var2 = _closure1_slot15;
             var4 = undefined;
             var18 = var2.bind(var4)();
             var21 = var1.image;
@@ -377,13 +379,16 @@ case 0:
             var20 = function openExpressionPicker() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-                    var3 = _closure1_slot6;
+                    var3 = _closure1_slot7;
                     var2 = var3.getChannel;
                     var1 = _closure2_slot2;
                     var5 = var2.bind(var3)(var1);
                     var1 = null;
                     if(!(var1 != var5)) { _fun0004_ip = 27; continue _fun0004 }
 case 28:
+                    var2 = _closure1_slot4;
+                    var1 = var2.dismiss;
+                    var1 = var1.bind(var2)();
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var1 = 14;
@@ -402,7 +407,7 @@ case 28:
                         return var1;
                     };
                     var1['onPressEmoji'] = var5;
-                    var4 = _closure1_slot10;
+                    var4 = _closure1_slot11;
                     var4 = var4.POLLS;
                     var1['pickerIntention'] = var4;
                     var4 = false;
@@ -426,7 +431,7 @@ case 27:
                 var12 = _closure2_slot2;
                 var3 = _closure2_slot0;
                 var11 = var3.localCreationAnswerId;
-                var2 = _closure1_slot7;
+                var2 = _closure1_slot8;
                 var10 = var2.Poll;
                 var2 = {};
                 var8 = arg1;
@@ -445,10 +450,10 @@ case 30:
             var1 = 0;
             var6 = var2 > var1;
 case 29:
-            var3 = _closure1_slot12;
-            var2 = _closure1_slot13;
+            var3 = _closure1_slot13;
+            var2 = _closure1_slot14;
             var1 = {};
-            var8 = _closure1_slot5;
+            var8 = _closure1_slot6;
             var5 = {};
             var12 = var18.defaultContainer;
             var9 = new Array(2);
@@ -460,8 +465,8 @@ case 32:
 case 31:
             var9[1] = var12;
             var5['style'] = var9;
-            var13 = _closure1_slot12;
-            var12 = _closure1_slot5;
+            var13 = _closure1_slot13;
+            var12 = _closure1_slot6;
             var9 = {};
             var17 = var18.defaultImageAndTextContainer;
             var14 = new Array(2);
@@ -473,8 +478,8 @@ case 33:
 case 15:
             var14[1] = var17;
             var9['style'] = var14;
-            var19 = _closure1_slot11;
-            var17 = _closure1_slot15;
+            var19 = _closure1_slot12;
+            var17 = _closure1_slot16;
             var14 = {};
             var14['channelId'] = var24;
             var14['localCreationAnswerId'] = var23;
@@ -496,7 +501,7 @@ case 15:
                 var4 = var3[var4];
                 var3 = var3.paths;
                 var4 = var7.bind(var1)(var4, var3);
-                var3 = _closure1_slot9;
+                var3 = _closure1_slot10;
                 var2 = {};
                 var8 = _closure2_slot2;
                 var2['channelId'] = var8;
@@ -528,7 +533,7 @@ case 15:
             var17 = var19.bind(var4)(var17, var14);
             var14 = new Array(2);
             var14[0] = var17;
-            var21 = _closure1_slot11;
+            var21 = _closure1_slot12;
             var23 = _closure1_slot0;
             var17 = 20;
             var17 = var20[var17];
@@ -600,7 +605,7 @@ case 35:
             var23 = var26.bind(var27)(var25, var24);
 case 34:
             var17['accessibilityHint'] = var23;
-            var23 = _closure1_slot8;
+            var23 = _closure1_slot9;
             var17['maxLength'] = var23;
             var23 = 'next';
             var17['returnKeyType'] = var23;
@@ -616,8 +621,8 @@ case 34:
             var9[0] = var12;
             if(!var11) { _fun0003_ip = 36; continue _fun0003 }
 case 37:
-            var14 = _closure1_slot11;
-            var13 = _closure1_slot4;
+            var14 = _closure1_slot12;
+            var13 = _closure1_slot5;
             var12 = {};
             var16 = function onPress() {
                 var3 = _closure2_slot5;
@@ -646,7 +651,7 @@ case 37:
             var15['answerNumber'] = var20;
             var15 = var17.bind(var19)(var16, var15);
             var12['accessibilityLabel'] = var15;
-            var17 = _closure1_slot11;
+            var17 = _closure1_slot12;
             var20 = _closure1_slot1;
             var19 = 13;
             var15 = var21[var19];
@@ -675,7 +680,7 @@ case 36:
             var5[0] = var8;
             if(!var6) { _fun0003_ip = 38; continue _fun0003 }
 case 39:
-            var9 = _closure1_slot11;
+            var9 = _closure1_slot12;
             var8 = _closure1_slot1;
             var11 = _closure1_slot2;
             var7 = 22;

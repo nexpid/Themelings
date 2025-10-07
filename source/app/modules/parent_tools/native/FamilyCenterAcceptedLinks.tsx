@@ -13,14 +13,14 @@ case 0:
             var1 = arg1;
             var18 = var1.otherUser;
             var _closure2_slot0 = var18;
-            var1 = _closure1_slot10;
+            var1 = _closure1_slot9;
             var5 = undefined;
             var10 = var1.bind(var5)();
             var16 = null;
             var1 = null;
             if(!(var5 !== var18)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var4 = _closure1_slot7;
+            var4 = _closure1_slot6;
             var13 = _closure1_slot1;
             var17 = _closure1_slot2;
             var2 = 13;
@@ -28,7 +28,7 @@ case 3:
             var3 = var13.bind(var5)(var2);
             var2 = {};
             var2['otherUser'] = var18;
-            var8 = _closure1_slot7;
+            var8 = _closure1_slot6;
             var14 = _closure1_slot0;
             var6 = 14;
             var6 = var17[var6];
@@ -82,7 +82,7 @@ case 4:
             var6['onPress'] = var11;
             var10 = var10.actionButton;
             var6['style'] = var10;
-            var11 = _closure1_slot7;
+            var11 = _closure1_slot6;
             var13 = _closure1_slot1;
             var14 = _closure1_slot2;
             var12 = 18;
@@ -109,7 +109,7 @@ case 2:
             return var1;
         }
     };
-    var _closure1_slot11 = var1;
+    var _closure1_slot10 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -133,17 +133,15 @@ case 2:
     var4 = var5.bind(var1)(var4);
     var7 = var4.MAX_PARENT_TO_TEEN_ACTIVE_CONNECTIONS;
     var _closure1_slot4 = var7;
-    var7 = var4.MAX_TEEN_TO_PARENT_ACTIVE_CONNECTIONS;
-    var _closure1_slot5 = var7;
-    var4 = var4.UserLinkStatus;
-    var _closure1_slot6 = var4;
+    var4 = var4.MAX_TEEN_TO_PARENT_ACTIVE_CONNECTIONS;
+    var _closure1_slot5 = var4;
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var7 = var4.jsx;
-    var _closure1_slot7 = var7;
+    var _closure1_slot6 = var7;
     var4 = var4.jsxs;
-    var _closure1_slot8 = var4;
+    var _closure1_slot7 = var4;
     var7 = 4;
     var4 = var6[var7];
     var10 = var5.bind(var1)(var4);
@@ -174,7 +172,7 @@ case 2:
     var13['marginBottom'] = var14;
     var8['header'] = var13;
     var8 = var9.bind(var10)(var8);
-    var _closure1_slot9 = var8;
+    var _closure1_slot8 = var8;
     var7 = var6[var7];
     var9 = var5.bind(var1)(var7);
     var8 = var9.createStyles;
@@ -197,7 +195,7 @@ case 2:
     var10['borderRadius'] = var11;
     var7['actionButton'] = var10;
     var7 = var8.bind(var9)(var7);
-    var _closure1_slot10 = var7;
+    var _closure1_slot9 = var7;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -206,7 +204,7 @@ case 2:
     var2 = function FamilyCenterAcceptedLinks() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-            var1 = _closure1_slot9;
+            var1 = _closure1_slot8;
             var4 = undefined;
             var12 = var1.bind(var4)();
             var2 = _closure1_slot1;
@@ -218,11 +216,9 @@ case 0:
             var3 = _closure1_slot0;
             var2 = 7;
             var2 = var5[var2];
-            var5 = var3.bind(var4)(var2);
-            var3 = var5.useUserForLinkStatus;
-            var2 = _closure1_slot6;
-            var2 = var2.ACTIVE;
-            var10 = var3.bind(var5)(var2);
+            var3 = var3.bind(var4)(var2);
+            var2 = var3.useActiveLinkUsers;
+            var10 = var2.bind(var3)();
             if(var1) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
             var1 = _closure1_slot5;
@@ -260,12 +256,12 @@ case 8:
             var1 = var1.pu6/U1;
             var1 = var7.bind(var8)(var1, var11);
             var8 = var3.bind(var5)(var2, var1);
-            var3 = _closure1_slot8;
+            var3 = _closure1_slot7;
             var2 = _closure1_slot3;
             var1 = {};
             var5 = var12.container;
             var1['style'] = var5;
-            var7 = _closure1_slot7;
+            var7 = _closure1_slot6;
             var5 = 11;
             var5 = var9[var5];
             var5 = var6.bind(var4)(var5);
@@ -277,7 +273,7 @@ case 8:
             var6 = var7.bind(var4)(var6, var5);
             var5 = new Array(2);
             var5[0] = var6;
-            var7 = _closure1_slot7;
+            var7 = _closure1_slot6;
             var6 = {};
             var8 = var12.content;
             var6['style'] = var8;
@@ -288,8 +284,8 @@ case 10:
             var9 = var10.map;
             var8 = function(arg1) {
                 var1 = arg1;
-                var5 = _closure1_slot7;
-                var4 = _closure1_slot11;
+                var5 = _closure1_slot6;
+                var4 = _closure1_slot10;
                 var3 = {};
                 var3['otherUser'] = var1;
                 var6 = var1.id;
@@ -305,12 +301,12 @@ case 10:
             var8 = var9.bind(var10)(var8);
             _fun0002_ip = 11; continue _fun0002;
 case 9:
-            var11 = _closure1_slot7;
+            var11 = _closure1_slot6;
             var10 = _closure1_slot3;
             var9 = {};
             var12 = var12.empty;
             var9['style'] = var12;
-            var14 = _closure1_slot7;
+            var14 = _closure1_slot6;
             var18 = _closure1_slot1;
             var15 = _closure1_slot2;
             var12 = 12;

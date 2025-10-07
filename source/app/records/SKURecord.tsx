@@ -222,8 +222,12 @@ case 12:
                 var1['deleted'] = var3;
                 var3 = var2.bundledSkuIds;
                 var1['bundledSkuIds'] = var3;
-                var2 = var2.tenantMetadata;
-                var1['tenantMetadata'] = var2;
+                var3 = var2.tenantMetadata;
+                var1['tenantMetadata'] = var3;
+                var3 = var2.thumbnailAssetId;
+                var1['thumbnailAssetId'] = var3;
+                var2 = var2.description;
+                var1['description'] = var2;
                 return var1;
             }
         };
@@ -832,11 +836,15 @@ case 78:
                 var4 = new Array(0);
 case 77:
                 var1['bundledSkuIds'] = var4;
-                var5 = _closure1_slot15;
-                var4 = var2.tenant_metadata;
-                var2 = undefined;
-                var2 = var5.bind(var2)(var4);
-                var1['tenantMetadata'] = var2;
+                var6 = _closure1_slot15;
+                var5 = var2.tenant_metadata;
+                var4 = undefined;
+                var4 = var6.bind(var4)(var5);
+                var1['tenantMetadata'] = var4;
+                var4 = var2.thumbnail_asset_id;
+                var1['thumbnailAssetId'] = var4;
+                var2 = var2.description;
+                var1['description'] = var2;
                 var2 = var3.prototype;
                 var2 = Object.create(var2, {constructor: {value: var3}});
                 var12 = var2;
