@@ -8,3 +8,7 @@
 A repo that tracks the [Discord](https://github.com/discord) Android app's code, color and icon changes!
 
 For a closer look at what's scraped, take a look at the [data](https://github.com/nexpid/Themelings/tree/data) branch
+
+## Credits
+
+- [hermes-dec](https://github.com/P1sec/hermes-dec) — tool for decompiling hermes React Native bytecode

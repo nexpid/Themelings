@@ -2,7 +2,7 @@ import { exists, rm } from "node:fs/promises";
 import mock from "../mock";
 import type { OutDiffs } from "../types";
 import { commit } from "./commit";
-import { apksToDownload, cuteVersion, isMock, oprevFiles, prevFiles, version } from "./shared";
+import { apksToDownload, cuteVersion, isMock, isQuiet, oprevFiles, prevFiles, version } from "./shared";
 import codeTask from "./tasks/code";
 import colors from "./tasks/colors";
 import decompile from "./tasks/decompile";
@@ -120,7 +120,7 @@ export async function runTasks(tempFolder: string) {
 		outDiffs = mock;
 	}
 
-	if (outDiffs) {
+	if (outDiffs && !isQuiet) {
 		try {
 			taskProgress.start("webhook");
 			await webhook(outDiffs);
