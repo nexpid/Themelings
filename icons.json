@@ -881,9 +881,9 @@
         "width": 24,
         "height": 24
     },
-    "BoostSlashIcon": {
-        "file": "app/design/components/Icon/native/redesign/generated/images/BoostSlashIcon.png",
-        "hash": "220d3bbbdb6da856027259c4fcb34e0f",
+    "BoostGemIcon": {
+        "file": "app/design/components/Icon/native/redesign/generated/images/BoostGemIcon.png",
+        "hash": "5e7fbec24c6dd1c41cd6bd07ddf637e0",
         "scales": [
             2,
             3
@@ -891,9 +891,9 @@
         "width": 24,
         "height": 24
     },
-    "BoostTier1Icon": {
-        "file": "app/design/components/Icon/native/redesign/generated/images/BoostTier1Icon.png",
-        "hash": "702300c9ecb22278989a87dfe793b02a",
+    "BoostGemOutlineIcon": {
+        "file": "app/design/components/Icon/native/redesign/generated/images/BoostGemOutlineIcon.png",
+        "hash": "18bb58b6ae8393445a195b2f824f9d60",
         "scales": [
             2,
             3
@@ -901,9 +901,19 @@
         "width": 24,
         "height": 24
     },
-    "BoostTier2Icon": {
-        "file": "app/design/components/Icon/native/redesign/generated/images/BoostTier2Icon.png",
-        "hash": "76a2a5f225fb13b578cca85e148337ef",
+    "BoostGemSlashIcon-primary": {
+        "file": "app/design/components/Icon/native/redesign/generated/images/BoostGemSlashIcon-primary.png",
+        "hash": "0861f37541caa8f1894c4a49fdaf5ef8",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
+    "BoostGemSlashIcon-secondary": {
+        "file": "app/design/components/Icon/native/redesign/generated/images/BoostGemSlashIcon-secondary.png",
+        "hash": "b83ca5f6daf290e9034a599f402044e4",
         "scales": [
             2,
             3
@@ -2165,6 +2175,16 @@
     "CopyIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/CopyIcon.png",
         "hash": "e18471b93655d54106c5bf2cc5538095",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
+    "CreditCardIcon": {
+        "file": "app/design/components/Icon/native/redesign/generated/images/CreditCardIcon.png",
+        "hash": "55c52ca0b22801b000332ac3461ceb51",
         "scales": [
             2,
             3
@@ -5344,17 +5364,6 @@
         "scales": [
             2,
             3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "ic_messages": {
-        "file": "app/images/native/icons/ic_messages.png",
-        "hash": "b7b46e78f0f75aa0cf74e1bb8b900590",
-        "scales": [
-            2,
-            3,
-            4
         ],
         "width": 24,
         "height": 24
