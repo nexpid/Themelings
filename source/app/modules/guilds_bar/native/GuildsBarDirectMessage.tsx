@@ -294,6 +294,16 @@ case 15:
             var1['config'] = var8;
             var1['cutouts'] = var7;
             var1['externalChildren'] = var6;
+            var8 = _closure1_slot9;
+            var7 = _closure1_slot1;
+            var14 = _closure1_slot2;
+            var6 = 16;
+            var6 = var14[var6];
+            var7 = var7.bind(var4)(var6);
+            var6 = {};
+            var6['channel'] = var11;
+            var6 = var8.bind(var4)(var7, var6);
+            var1['expandedChildren'] = var6;
             if(!(var5 != var11)) { _fun0001_ip = 17; continue _fun0001 }
 case 18:
             var6 = var11.isMultiUserDM;
@@ -307,7 +317,7 @@ case 21:
             var8 = _closure1_slot9;
             var7 = _closure1_slot1;
             var14 = _closure1_slot2;
-            var6 = 18;
+            var6 = 19;
             var6 = var14[var6];
             var7 = var7.bind(var4)(var6);
             var6 = {};
@@ -321,13 +331,13 @@ case 19:
             var8 = _closure1_slot9;
             var7 = _closure1_slot1;
             var12 = _closure1_slot2;
-            var6 = 16;
+            var6 = 17;
             var6 = var12[var6];
             var7 = var7.bind(var4)(var6);
             var6 = {};
             var6['channel'] = var11;
             var11 = _closure1_slot0;
-            var10 = 17;
+            var10 = 18;
             var13 = var12[var10];
             var13 = var11.bind(var4)(var13);
             var13 = var13.AvatarSizes;
@@ -347,7 +357,7 @@ case 22:
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 19;
+    var4 = 20;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

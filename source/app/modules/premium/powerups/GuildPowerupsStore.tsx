@@ -736,7 +736,7 @@ case 42:
         return var1;
     };
     var2['GUILD_UPDATE'] = var9;
-    var4 = function handlePortkeyInstanceFetched(arg1) {
+    var4 = function handleGameServerInstanceFetched(arg1) {
         var1 = arg1;
         var4 = var1.guildId;
         var3 = _closure1_slot11;
@@ -753,7 +753,7 @@ case 42:
         var3[var4] = var2;
         return var1;
     };
-    var2['PORTKEY_FETCH_INSTANCES_SUCCESS'] = var4;
+    var2['GAME_SERVER_FETCH_INSTANCES_SUCCESS'] = var4;
     var4 = var8.prototype;
     var4 = Object.create(var4, {constructor: {value: var8}});
     var13 = var4;

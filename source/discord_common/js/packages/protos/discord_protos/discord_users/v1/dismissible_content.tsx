@@ -1754,6 +1754,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['REPORT_TO_MOD_EXIT_SURVEY_NOTICE'] = var2;
     var1 = 'REPORT_TO_MOD_EXIT_SURVEY_NOTICE';
     var4[var2] = var1;
+    var2 = 624;
+    var4['NAGBAR_NOTICE_PASSKEY_BACKUP'] = var2;
+    var1 = 'NAGBAR_NOTICE_PASSKEY_BACKUP';
+    var4[var2] = var1;
+    var2 = 625;
+    var4['DISPLAY_NAME_STYLES_NITRO_HOME_TILE'] = var2;
+    var1 = 'DISPLAY_NAME_STYLES_NITRO_HOME_TILE';
+    var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;
     var1 = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

@@ -178,8 +178,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['PREMIUM_TIER_2_DISCOUNT_ENDING_NOTICE'] = var1;
     var1 = 'boosted guild perks modal';
     var2['BOOSTED_GUILD_PERKS_MODAL'] = var1;
-    var1 = 'portkey overview';
-    var2['PORTKEY_OVERVIEW'] = var1;
+    var1 = 'game server overview';
+    var2['GAME_SERVER_OVERVIEW'] = var1;
     var1 = 'guild powerups - overview';
     var2['GUILD_POWERUPS_OVERVIEW'] = var1;
     var1 = 'guild powerups - guild settings role edit';

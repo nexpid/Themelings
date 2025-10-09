@@ -38,13 +38,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot11 = var2;
+            _closure1_slot9 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot11 = var1;
+    var _closure1_slot9 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -85,16 +85,6 @@ case 4:
     var4 = 7;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
-    var7 = 8;
-    var7 = var6[var7];
-    var7 = var5.bind(var1)(var7);
-    var7 = var7.HeroBannerConfigRecord;
-    var _closure1_slot9 = var7;
-    var7 = 9;
-    var7 = var6[var7];
-    var7 = var5.bind(var1)(var7);
-    var7 = var7.AssetDisplayConfigRecord;
-    var _closure1_slot10 = var7;
     var2 = function(arg1) {
         var5 = function CollectiblesCategoryRecord(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
@@ -110,7 +100,7 @@ case 0:
                 var1 = _closure1_slot5;
                 var9 = var1.bind(var4)(var3);
                 var3 = _closure1_slot4;
-                var1 = _closure1_slot11;
+                var1 = _closure1_slot9;
                 var1 = var1.bind(var4)();
                 if(var1) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
@@ -141,22 +131,36 @@ case 8:
                 var1['mobileBanner'] = var3;
                 var3 = var2.catalogBannerAsset;
                 var1['catalogBannerAsset'] = var3;
-                var3 = var2.heroBanner;
-                var1['heroBanner'] = var3;
                 var3 = var2.featuredBlock;
                 var1['featuredBlock'] = var3;
                 var3 = var2.heroLogo;
                 var1['heroLogo'] = var3;
                 var3 = var2.heroBannerAsset;
                 var1['heroBannerAsset'] = var3;
-                var3 = var2.heroBannerConfig;
-                var1['heroBannerConfig'] = var3;
                 var3 = var2.heroLogoDisplayConfig;
                 var1['heroLogoDisplayConfig'] = var3;
-                var3 = var2.mobileHeroPath;
-                var1['mobileHeroPath'] = var3;
-                var2 = var2.mobileHeroAnimatedPath;
-                var1['mobileHeroAnimatedPath'] = var2;
+                var3 = var2.heroBannerDisplayConfig;
+                var1['heroBannerDisplayConfig'] = var3;
+                var3 = var2.heroBannerUrl;
+                var1['heroBannerUrl'] = var3;
+                var3 = var2.heroBannerAnimatedUrl;
+                var1['heroBannerAnimatedUrl'] = var3;
+                var3 = var2.heroLogoUrl;
+                var1['heroLogoUrl'] = var3;
+                var3 = var2.catalogBannerUrl;
+                var1['catalogBannerUrl'] = var3;
+                var3 = var2.catalogBannerAnimatedUrl;
+                var1['catalogBannerAnimatedUrl'] = var3;
+                var3 = var2.featuredBlockUrl;
+                var1['featuredBlockUrl'] = var3;
+                var3 = var2.logoUrl;
+                var1['logoUrl'] = var3;
+                var3 = var2.pdpBgUrl;
+                var1['pdpBgUrl'] = var3;
+                var3 = var2.mobileBannerUrl;
+                var1['mobileBannerUrl'] = var3;
+                var2 = var2.mobileBgUrl;
+                var1['mobileBgUrl'] = var2;
                 return var1;
             }
         };
@@ -173,46 +177,52 @@ case 8:
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                 var3 = arg1;
-                var26 = this;
-                var23 = var3.products;
-                var20 = var3.logo;
-                var19 = var3.hero_ranking;
-                var18 = var3.pdp_bg;
-                var17 = var3.mobile_bg;
-                var16 = var3.mobile_banner;
-                var15 = var3.catalog_banner_asset;
-                var14 = var3.hero_banner;
-                var13 = var3.hero_banner_asset;
-                var11 = var3.featured_block;
-                var10 = var3.hero_logo;
-                var12 = var3.hero_banner_config;
-                var8 = var3.hero_logo_display_config;
-                var5 = var3.mobile_hero_path;
-                var4 = var3.mobile_hero_animated_path;
-                var2 = {'products': 0, 'logo': 0, 'hero_ranking': 0, 'pdp_bg': 0, 'mobile_bg': 0, 'mobile_banner': 0, 'catalog_banner_asset': 0, 'hero_banner': 0, 'hero_banner_asset': 0, 'featured_block': 0, 'hero_logo': 0, 'hero_banner_config': 0, 'hero_logo_display_config': 0, 'mobile_hero_path': 0, 'mobile_hero_animated_path': 0};
-                var7 = null;
-                var29 = var2;
-                var28 = null;
-                var1 = silentSetPrototypeOf(var29, var28);
-                var29 = {};
-                var28 = var3;
-                var27 = var2;
-                var24 = copyDataProperties(var29, var28, var27);
+                var32 = this;
+                var29 = var3.products;
+                var26 = var3.logo;
+                var25 = var3.hero_ranking;
+                var24 = var3.pdp_bg;
+                var23 = var3.mobile_bg;
+                var22 = var3.mobile_banner;
+                var21 = var3.catalog_banner_asset;
+                var19 = var3.hero_banner_asset;
+                var18 = var3.featured_block;
+                var17 = var3.hero_logo;
+                var20 = var3.hero_logo_display_config;
+                var15 = var3.hero_banner_display_config;
+                var13 = var3.hero_banner_url;
+                var12 = var3.hero_banner_animated_url;
+                var11 = var3.hero_logo_url;
+                var10 = var3.catalog_banner_url;
+                var9 = var3.catalog_banner_animated_url;
+                var8 = var3.featured_block_url;
+                var7 = var3.logo_url;
+                var6 = var3.pdp_bg_url;
+                var5 = var3.mobile_banner_url;
+                var4 = var3.mobile_bg_url;
+                var2 = {'products': 0, 'logo': 0, 'hero_ranking': 0, 'pdp_bg': 0, 'mobile_bg': 0, 'mobile_banner': 0, 'catalog_banner_asset': 0, 'hero_banner_asset': 0, 'featured_block': 0, 'hero_logo': 0, 'hero_logo_display_config': 0, 'hero_banner_display_config': 0, 'hero_banner_url': 0, 'hero_banner_animated_url': 0, 'hero_logo_url': 0, 'catalog_banner_url': 0, 'catalog_banner_animated_url': 0, 'featured_block_url': 0, 'logo_url': 0, 'pdp_bg_url': 0, 'mobile_banner_url': 0, 'mobile_bg_url': 0};
+                var34 = null;
+                var35 = var2;
+                var1 = silentSetPrototypeOf(var35, var34);
+                var35 = {};
+                var34 = var3;
+                var33 = var2;
+                var30 = copyDataProperties(var35, var34, var33);
                 var3 = _closure2_slot0;
                 var1 = {};
-                var _closure3_slot0 = var26;
-                var25 = _closure1_slot6;
-                var21 = _closure1_slot5;
-                var6 = undefined;
-                var22 = var21.bind(var6)(var3);
-                var21 = 'fromServer';
-                var22 = var25.bind(var6)(var22, var21, var26);
-                var _closure3_slot1 = var22;
-                var25 = 'function';
-                var21 = typeof var22;
-                if(!(var25 === var21)) { _fun0003_ip = 9; continue _fun0003 }
+                var _closure3_slot0 = var32;
+                var31 = _closure1_slot6;
+                var27 = _closure1_slot5;
+                var16 = undefined;
+                var28 = var27.bind(var16)(var3);
+                var27 = 'fromServer';
+                var28 = var31.bind(var16)(var28, var27, var32);
+                var _closure3_slot1 = var28;
+                var31 = 'function';
+                var27 = typeof var28;
+                if(!(var31 === var27)) { _fun0003_ip = 9; continue _fun0003 }
 case 10:
-                var22 = function(arg1) {
+                var28 = function(arg1) {
                     var4 = _closure3_slot1;
                     var3 = var4.apply;
                     var2 = _closure3_slot0;
@@ -221,13 +231,13 @@ case 10:
                     return var1;
                 };
 case 9:
-                var21 = new Array(1);
-                var21[0] = var24;
-                var28 = var22.bind(var6)(var21);
-                var29 = var1;
-                var21 = copyDataProperties(var29, var28);
-                var22 = var23.reduce;
-                var21 = function(arg1, arg2) {
+                var27 = new Array(1);
+                var27[0] = var30;
+                var34 = var28.bind(var16)(var27);
+                var35 = var1;
+                var27 = copyDataProperties(var35, var34);
+                var28 = var29.reduce;
+                var27 = function(arg1, arg2) {
                     _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                         var1 = arg1;
@@ -238,7 +248,7 @@ case 0:
                         var5 = var3.type;
                         var6 = _closure1_slot0;
                         var2 = _closure1_slot1;
-                        var8 = 10;
+                        var8 = 8;
                         var2 = var2[var8];
                         var7 = undefined;
                         var2 = var6.bind(var7)(var2);
@@ -270,59 +280,68 @@ case 14:
                         return var1;
                     }
                 };
-                var9 = new Array(0);
-                var21 = var22.bind(var23)(var21, var9);
-                var9 = 'products';
-                var1[var9] = var21;
-                var9 = 'logo';
-                var1[var9] = var20;
-                var9 = 'heroRanking';
-                var1[var9] = var19;
-                var9 = 'pdpBg';
-                var1[var9] = var18;
-                var9 = 'mobileBg';
-                var1[var9] = var17;
-                var9 = 'mobileBanner';
-                var1[var9] = var16;
-                var9 = 'catalogBannerAsset';
-                var1[var9] = var15;
-                var9 = 'heroBanner';
-                var1[var9] = var14;
-                var9 = 'heroBannerAsset';
-                var1[var9] = var13;
-                var9 = 'featuredBlock';
-                var1[var9] = var11;
-                var9 = 'heroLogo';
-                var1[var9] = var10;
-                var9 = var7 != var12;
-                var10 = undefined;
-                if(!var9) { _fun0003_ip = 16; continue _fun0003 }
-case 17:
-                var11 = _closure1_slot9;
-                var9 = var11.fromServer;
-                var10 = var9.bind(var11)(var12);
-case 16:
-                var9 = 'heroBannerConfig';
-                var1[var9] = var10;
-                var7 = var7 != var8;
-                var6 = undefined;
-                if(!var7) { _fun0003_ip = 18; continue _fun0003 }
-case 19:
-                var7 = _closure1_slot10;
-                var2 = var7.fromServer;
-                var6 = var2.bind(var7)(var8);
-case 18:
-                var2 = 'heroLogoDisplayConfig';
+                var14 = new Array(0);
+                var27 = var28.bind(var29)(var27, var14);
+                var14 = 'products';
+                var1[var14] = var27;
+                var14 = 'logo';
+                var1[var14] = var26;
+                var14 = 'heroRanking';
+                var1[var14] = var25;
+                var14 = 'pdpBg';
+                var1[var14] = var24;
+                var14 = 'mobileBg';
+                var1[var14] = var23;
+                var14 = 'mobileBanner';
+                var1[var14] = var22;
+                var14 = 'catalogBannerAsset';
+                var1[var14] = var21;
+                var14 = 'heroBannerAsset';
+                var1[var14] = var19;
+                var14 = 'featuredBlock';
+                var1[var14] = var18;
+                var14 = 'heroLogo';
+                var1[var14] = var17;
+                var14 = _closure1_slot0;
+                var17 = _closure1_slot1;
+                var2 = 9;
+                var18 = var17[var2];
+                var19 = var14.bind(var16)(var18);
+                var18 = var19.getAssetDisplayConfig;
+                var19 = var18.bind(var19)(var20);
+                var18 = 'heroLogoDisplayConfig';
+                var1[var18] = var19;
+                var2 = var17[var2];
+                var14 = var14.bind(var16)(var2);
+                var2 = var14.getAssetDisplayConfig;
+                var14 = var2.bind(var14)(var15);
+                var2 = 'heroBannerDisplayConfig';
+                var1[var2] = var14;
+                var2 = 'heroBannerUrl';
+                var1[var2] = var13;
+                var2 = 'heroBannerAnimatedUrl';
+                var1[var2] = var12;
+                var2 = 'heroLogoUrl';
+                var1[var2] = var11;
+                var2 = 'catalogBannerUrl';
+                var1[var2] = var10;
+                var2 = 'catalogBannerAnimatedUrl';
+                var1[var2] = var9;
+                var2 = 'featuredBlockUrl';
+                var1[var2] = var8;
+                var2 = 'logoUrl';
+                var1[var2] = var7;
+                var2 = 'pdpBgUrl';
                 var1[var2] = var6;
-                var2 = 'mobileHeroPath';
+                var2 = 'mobileBannerUrl';
                 var1[var2] = var5;
-                var2 = 'mobileHeroAnimatedPath';
+                var2 = 'mobileBgUrl';
                 var1[var2] = var4;
                 var2 = var3.prototype;
                 var2 = Object.create(var2, {constructor: {value: var3}});
-                var30 = var2;
-                var29 = var1;
-                var1 = new var30[var3](var29, var28);
+                var36 = var2;
+                var35 = var1;
+                var1 = new var36[var3](var35, var34);
                 var1 = var1 instanceof Object ? var1 : var2;
                 return var1;
             }
@@ -335,7 +354,7 @@ case 18:
         return var1;
     };
     var2 = var2.bind(var1)(var4);
-    var4 = 11;
+    var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

@@ -335,30 +335,30 @@ case 2:
             var5 = var6.getChannel;
             var6 = var5.bind(var6)(var8);
             if(!(var3 != var6)) { _fun0004_ip = 28; continue _fun0004 }
-case 29:
+case 20:
             var5 = var6.isPrivate;
             var5 = var5.bind(var6)();
-            if(var5) { _fun0004_ip = 30; continue _fun0004 }
+            if(var5) { _fun0004_ip = 29; continue _fun0004 }
 case 28:
             var5 = _closure1_slot8;
             var16 = var5.GUILD_CHANNEL;
-            _fun0004_ip = 31; continue _fun0004;
-case 30:
+            _fun0004_ip = 30; continue _fun0004;
+case 29:
             var5 = _closure1_slot8;
             var16 = var5.DM_CHANNEL;
-case 31:
-            if(!(var3 != var6)) { _fun0004_ip = 4; continue _fun0004 }
+case 30:
+            if(!(var3 != var6)) { _fun0004_ip = 31; continue _fun0004 }
 case 32:
             var5 = var6.isForumLikeChannel;
             var5 = var5.bind(var6)();
             if(var5) { _fun0004_ip = 33; continue _fun0004 }
+case 31:
+            if(!(var3 != var6)) { _fun0004_ip = 34; continue _fun0004 }
 case 4:
-            if(!(var3 != var6)) { _fun0004_ip = 14; continue _fun0004 }
-case 34:
             var5 = var6.isForumPost;
             var5 = var5.bind(var6)();
             if(var5) { _fun0004_ip = 33; continue _fun0004 }
-case 14:
+case 34:
             var5 = _closure1_slot9;
             var15 = var5.CHANNEL;
             _fun0004_ip = 35; continue _fun0004;

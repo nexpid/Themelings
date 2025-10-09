@@ -519,7 +519,7 @@ case 33: // try_start_0
                             var6 = var7.startOrderSigningSafely;
                             var5 = var3;
                             var5 = var6.bind(var7)(var5);
-                            SaveGenerator(address=150);
+                            SaveGenerator(address=148);
 case 34:
                             return var5;
 case 35:
@@ -653,10 +653,10 @@ case 42: // try_start_0
                             if(var10) { _fun0006_ip = 43; continue _fun0006 }
 case 44:
                             var10 = var12.APPLE;
-                            _fun0006_ip = 34; continue _fun0006;
+                            _fun0006_ip = 35; continue _fun0006;
 case 43:
                             var10 = var12.GOOGLE;
-case 34:
+case 35:
                             var3['paymentGateway'] = var10;
                             var10 = _closure2_slot1;
                             var3['recipientUserId'] = var10;
@@ -740,8 +740,8 @@ case 0:
                                     var3 = var1.billingResult;
                                     var2 = _closure1_slot9;
                                     var2 = var2.OK;
-                                    if(!(var3 !== var2)) { _fun0007_ip = 31; continue _fun0007 }
-case 52:
+                                    if(!(var3 !== var2)) { _fun0007_ip = 52; continue _fun0007 }
+case 53:
                                     var2 = _closure1_slot1;
                                     var3 = _closure1_slot2;
                                     var1 = 20;
@@ -755,7 +755,7 @@ case 52:
                                     var2 = _closure2_slot33;
                                     var1 = _closure5_slot1;
                                     var1 = var2.bind(var3)(var1);
-case 31:
+case 52:
                                     var1 = undefined;
                                     return var1;
                                 }
@@ -803,20 +803,20 @@ case 0:
                                         StartGenerator();
                                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                                         if(var2) { _fun0008_ip = 25; continue _fun0008 }
-case 53:
+case 54:
                                         var4 = _closure2_slot32;
                                         var3 = _closure5_slot1;
                                         var2 = undefined;
                                         var2 = var4.bind(var2)(var3);
                                         SaveGenerator(address=32);
-case 54:
-                                        return var2;
 case 55:
-                                        ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                                        if(var3) { _fun0008_ip = 56; continue _fun0008 }
-case 57:
                                         return var2;
 case 56:
+                                        ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
+                                        if(var3) { _fun0008_ip = 57; continue _fun0008 }
+case 58:
+                                        return var2;
+case 57:
                                         return var2;
 case 25:
                                         return var1;

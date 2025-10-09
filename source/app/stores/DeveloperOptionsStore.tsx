@@ -316,7 +316,7 @@ case 12:
     var _closure1_slot14 = var2;
     var2 = 'DeveloperOptionsStore';
     var _closure1_slot15 = var2;
-    var9 = {'trace': false, 'canary': false, 'logGatewayEvents': false, 'logOverlayEvents': false, 'logAnalyticsEvents': false, 'sourceMapsEnabled': false, 'axeEnabled': false, 'cssDebuggingEnabled': false, 'layoutDebuggingEnabled': false, 'analyticsDebuggerEnabled': false, 'bugReporterEnabled': true, 'idleStatusIndicatorEnabled': false, 'onlyShowPreviewAppCollections': false, 'disableAppCollectionsCache': false, 'isStreamInfoOverlayEnabled': false, 'preventPopoutClose': false, 'logKeyboardMismatches': false};
+    var9 = {'trace': false, 'canary': false, 'logGatewayEvents': false, 'logOverlayEvents': false, 'logAnalyticsEvents': false, 'sourceMapsEnabled': false, 'axeEnabled': false, 'cssDebuggingEnabled': false, 'layoutDebuggingEnabled': false, 'analyticsDebuggerEnabled': false, 'bugReporterEnabled': true, 'idleStatusIndicatorEnabled': false, 'onlyShowPreviewAppCollections': false, 'disableAppCollectionsCache': false, 'isStreamInfoOverlayEnabled': false, 'preventPopoutClose': false, 'logKeyboardMismatches': false, 'alertStartupMetrics': false};
     var _closure1_slot16 = var9;
     var8 = {};
     var19 = var8;
@@ -401,7 +401,7 @@ case 18:
             }
         };
         var5['value'] = var1;
-        var1 = new Array(19);
+        var1 = new Array(20);
         var1[0] = var5;
         var5 = {};
         var7 = 'isTracingRequests';
@@ -574,6 +574,16 @@ case 18:
         var5['get'] = var7;
         var1[17] = var5;
         var5 = {};
+        var7 = 'alertStartupMetrics';
+        var5['key'] = var7;
+        var7 = function get() {
+            var1 = _closure1_slot17;
+            var1 = var1.alertStartupMetrics;
+            return var1;
+        };
+        var5['get'] = var7;
+        var1[18] = var5;
+        var5 = {};
         var7 = 'getDebugOptionsHeaderValue';
         var5['key'] = var7;
         var6 = function getDebugOptionsHeaderValue() {
@@ -608,7 +618,7 @@ case 18:
             return var1;
         };
         var5['value'] = var6;
-        var1[18] = var5;
+        var1[19] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

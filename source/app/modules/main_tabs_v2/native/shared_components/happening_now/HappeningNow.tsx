@@ -670,41 +670,41 @@ case 34:
 case 35:
             var2 = var6.kind;
             var1 = 'live-guild-stage';
-            if(!(var1 !== var2)) { _fun0007_ip = 27; continue _fun0007 }
-case 36:
+            if(!(var1 !== var2)) { _fun0007_ip = 36; continue _fun0007 }
+case 37:
             var1 = 'guild-event';
-            if(!(var1 !== var2)) { _fun0007_ip = 37; continue _fun0007 }
-case 38:
+            if(!(var1 !== var2)) { _fun0007_ip = 38; continue _fun0007 }
+case 39:
             var1 = 'active-channel';
-            if(!(var1 !== var2)) { _fun0007_ip = 39; continue _fun0007 }
+            if(!(var1 !== var2)) { _fun0007_ip = 40; continue _fun0007 }
 case 8:
             var1 = 'user';
-            if(!(var1 !== var2)) { _fun0007_ip = 40; continue _fun0007 }
-case 41:
+            if(!(var1 !== var2)) { _fun0007_ip = 41; continue _fun0007 }
+case 42:
             var1 = 'activity';
-            if(!(var1 !== var2)) { _fun0007_ip = 42; continue _fun0007 }
-case 43:
+            if(!(var1 !== var2)) { _fun0007_ip = 43; continue _fun0007 }
+case 44:
             var1 = 'voice';
-            if(!(var1 !== var2)) { _fun0007_ip = 44; continue _fun0007 }
-case 45:
+            if(!(var1 !== var2)) { _fun0007_ip = 45; continue _fun0007 }
+case 46:
             var1 = 'invite';
-            if(!(var1 !== var2)) { _fun0007_ip = 46; continue _fun0007 }
-case 47:
+            if(!(var1 !== var2)) { _fun0007_ip = 47; continue _fun0007 }
+case 48:
             var1 = 'customize-guild';
-            if(!(var1 !== var2)) { _fun0007_ip = 48; continue _fun0007 }
-case 49:
+            if(!(var1 !== var2)) { _fun0007_ip = 49; continue _fun0007 }
+case 50:
             var1 = 'create-channel';
-            if(!(var1 !== var2)) { _fun0007_ip = 50; continue _fun0007 }
-case 51:
+            if(!(var1 !== var2)) { _fun0007_ip = 51; continue _fun0007 }
+case 52:
             var1 = 'student-hub-add-channel';
-            if(!(var1 !== var2)) { _fun0007_ip = 52; continue _fun0007 }
-case 53:
+            if(!(var1 !== var2)) { _fun0007_ip = 53; continue _fun0007 }
+case 54:
             var1 = 'embedded-activity';
-            if(!(var1 !== var2)) { _fun0007_ip = 54; continue _fun0007 }
-case 55:
+            if(!(var1 !== var2)) { _fun0007_ip = 55; continue _fun0007 }
+case 56:
             var1 = 'unified-vc';
-            if(!(var1 !== var2)) { _fun0007_ip = 56; continue _fun0007 }
-case 57:
+            if(!(var1 !== var2)) { _fun0007_ip = 57; continue _fun0007 }
+case 58:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
             var1 = 36;
@@ -714,7 +714,7 @@ case 57:
             var2 = var3.assertNever;
             var2 = var2.bind(var3)(var6);
             return var1;
-case 56:
+case 57:
             var4 = _closure1_slot12;
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
@@ -735,7 +735,7 @@ case 56:
             var1[var7] = var8;
             var1 = var4.bind(var3)(var2, var1);
             return var1;
-case 54:
+case 55:
             var4 = _closure1_slot12;
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
@@ -756,7 +756,7 @@ case 54:
             var1[var7] = var8;
             var1 = var4.bind(var3)(var2, var1);
             return var1;
-case 52:
+case 53:
             var4 = _closure1_slot12;
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
@@ -774,7 +774,7 @@ case 52:
             var7 = copyDataProperties(var10, var9);
             var1 = var4.bind(var3)(var2, var1);
             return var1;
-case 50:
+case 51:
             var4 = _closure1_slot12;
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
@@ -792,7 +792,7 @@ case 50:
             var7 = copyDataProperties(var10, var9);
             var1 = var4.bind(var3)(var2, var1);
             return var1;
-case 48:
+case 49:
             var4 = _closure1_slot12;
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
@@ -810,7 +810,7 @@ case 48:
             var7 = copyDataProperties(var10, var9);
             var1 = var4.bind(var3)(var2, var1);
             return var1;
-case 46:
+case 47:
             var4 = _closure1_slot12;
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
@@ -828,7 +828,7 @@ case 46:
             var7 = copyDataProperties(var10, var9);
             var1 = var4.bind(var3)(var2, var1);
             return var1;
-case 44:
+case 45:
             var4 = _closure1_slot12;
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
@@ -845,7 +845,7 @@ case 44:
             var7 = copyDataProperties(var10, var9);
             var1 = var4.bind(var3)(var2, var1);
             return var1;
-case 42:
+case 43:
             var4 = _closure1_slot12;
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
@@ -862,7 +862,7 @@ case 42:
             var7 = copyDataProperties(var10, var9);
             var1 = var4.bind(var3)(var2, var1);
             return var1;
-case 40:
+case 41:
             var4 = _closure1_slot12;
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
@@ -879,7 +879,7 @@ case 40:
             var7 = copyDataProperties(var10, var9);
             var1 = var4.bind(var3)(var2, var1);
             return var1;
-case 39:
+case 40:
             var4 = _closure1_slot12;
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
@@ -896,7 +896,7 @@ case 39:
             var7 = copyDataProperties(var10, var9);
             var1 = var4.bind(var3)(var2, var1);
             return var1;
-case 37:
+case 38:
             var4 = _closure1_slot12;
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
@@ -913,7 +913,7 @@ case 37:
             var7 = copyDataProperties(var10, var9);
             var1 = var4.bind(var3)(var2, var1);
             return var1;
-case 27:
+case 36:
             var4 = _closure1_slot12;
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
@@ -955,44 +955,44 @@ case 0:
             var1 = arg1;
             var3 = var1.kind;
             var2 = 'placeholder';
-            if(!(var2 !== var3)) { _fun0008_ip = 58; continue _fun0008 }
-case 59:
+            if(!(var2 !== var3)) { _fun0008_ip = 59; continue _fun0008 }
+case 60:
             var2 = 'live-guild-stage';
-            if(!(var2 !== var3)) { _fun0008_ip = 60; continue _fun0008 }
-case 61:
+            if(!(var2 !== var3)) { _fun0008_ip = 61; continue _fun0008 }
+case 62:
             var2 = 'guild-event';
-            if(!(var2 !== var3)) { _fun0008_ip = 62; continue _fun0008 }
-case 63:
+            if(!(var2 !== var3)) { _fun0008_ip = 63; continue _fun0008 }
+case 64:
             var2 = 'active-channel';
-            if(!(var2 !== var3)) { _fun0008_ip = 64; continue _fun0008 }
+            if(!(var2 !== var3)) { _fun0008_ip = 65; continue _fun0008 }
 case 10:
             var2 = 'user';
-            if(!(var2 !== var3)) { _fun0008_ip = 65; continue _fun0008 }
-case 66:
+            if(!(var2 !== var3)) { _fun0008_ip = 66; continue _fun0008 }
+case 67:
             var2 = 'activity';
-            if(!(var2 !== var3)) { _fun0008_ip = 65; continue _fun0008 }
+            if(!(var2 !== var3)) { _fun0008_ip = 66; continue _fun0008 }
 case 20:
             var2 = 'voice';
-            if(!(var2 !== var3)) { _fun0008_ip = 67; continue _fun0008 }
-case 68:
+            if(!(var2 !== var3)) { _fun0008_ip = 68; continue _fun0008 }
+case 69:
             var2 = 'invite';
-            if(!(var2 !== var3)) { _fun0008_ip = 69; continue _fun0008 }
-case 70:
-            var2 = 'customize-guild';
-            if(!(var2 !== var3)) { _fun0008_ip = 69; continue _fun0008 }
+            if(!(var2 !== var3)) { _fun0008_ip = 70; continue _fun0008 }
 case 71:
-            var2 = 'create-channel';
-            if(!(var2 !== var3)) { _fun0008_ip = 69; continue _fun0008 }
+            var2 = 'customize-guild';
+            if(!(var2 !== var3)) { _fun0008_ip = 70; continue _fun0008 }
 case 72:
-            var2 = 'student-hub-add-channel';
-            if(!(var2 !== var3)) { _fun0008_ip = 69; continue _fun0008 }
+            var2 = 'create-channel';
+            if(!(var2 !== var3)) { _fun0008_ip = 70; continue _fun0008 }
 case 73:
+            var2 = 'student-hub-add-channel';
+            if(!(var2 !== var3)) { _fun0008_ip = 70; continue _fun0008 }
+case 74:
             var2 = 'embedded-activity';
-            if(!(var2 !== var3)) { _fun0008_ip = 74; continue _fun0008 }
-case 75:
+            if(!(var2 !== var3)) { _fun0008_ip = 75; continue _fun0008 }
+case 76:
             var2 = 'unified-vc';
-            if(!(var2 !== var3)) { _fun0008_ip = 76; continue _fun0008 }
-case 53:
+            if(!(var2 !== var3)) { _fun0008_ip = 77; continue _fun0008 }
+case 54:
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
             var2 = 36;
@@ -1002,15 +1002,15 @@ case 53:
             var3 = var4.assertNever;
             var3 = var3.bind(var4)(var1);
             return var2;
-case 76:
+case 77:
             var6 = var1.kind;
             var2 = var1.voiceState;
             var5 = var2.channelId;
             var2 = null;
-            if(!(var2 == var5)) { _fun0008_ip = 77; continue _fun0008 }
-case 78:
+            if(!(var2 == var5)) { _fun0008_ip = 78; continue _fun0008 }
+case 79:
             var5 = var1.userId;
-case 77:
+case 78:
             var2 = global;
             var2 = var2.HermesInternal;
             var4 = var2.concat;
@@ -1018,15 +1018,15 @@ case 77:
             var2 = '-';
             var2 = var4.bind(var3)(var6, var2, var5);
             return var2;
-case 74:
+case 75:
             var7 = var1.kind;
             var2 = var1.voiceState;
             var6 = var2.channelId;
             var2 = null;
-            if(!(var2 == var6)) { _fun0008_ip = 79; continue _fun0008 }
-case 80:
+            if(!(var2 == var6)) { _fun0008_ip = 80; continue _fun0008 }
+case 81:
             var6 = var1.userId;
-case 79:
+case 80:
             var2 = var1.activity;
             var8 = var2.applicationId;
             var2 = global;
@@ -1040,18 +1040,28 @@ case 79:
             var9 = var2;
             var2 = var13[var4](var12, var11, var10, var9, var8, var7);
             return var2;
-case 69:
+case 70:
             var2 = var1.kind;
             return var2;
-case 67:
+case 68:
             var6 = var1.kind;
             var2 = var1.voiceState;
             var5 = var2.channelId;
             var2 = null;
-            if(!(var2 == var5)) { _fun0008_ip = 81; continue _fun0008 }
-case 82:
+            if(!(var2 == var5)) { _fun0008_ip = 82; continue _fun0008 }
+case 83:
             var5 = var1.userId;
-case 81:
+case 82:
+            var2 = global;
+            var2 = var2.HermesInternal;
+            var4 = var2.concat;
+            var3 = '';
+            var2 = '-';
+            var2 = var4.bind(var3)(var6, var2, var5);
+            return var2;
+case 66:
+            var6 = var1.kind;
+            var5 = var1.userId;
             var2 = global;
             var2 = var2.HermesInternal;
             var4 = var2.concat;
@@ -1061,16 +1071,6 @@ case 81:
             return var2;
 case 65:
             var6 = var1.kind;
-            var5 = var1.userId;
-            var2 = global;
-            var2 = var2.HermesInternal;
-            var4 = var2.concat;
-            var3 = '';
-            var2 = '-';
-            var2 = var4.bind(var3)(var6, var2, var5);
-            return var2;
-case 64:
-            var6 = var1.kind;
             var5 = var1.channelId;
             var2 = global;
             var2 = var2.HermesInternal;
@@ -1079,7 +1079,7 @@ case 64:
             var2 = '-';
             var2 = var4.bind(var3)(var6, var2, var5);
             return var2;
-case 62:
+case 63:
             var6 = var1.kind;
             var2 = var1.event;
             var5 = var2.id;
@@ -1090,7 +1090,7 @@ case 62:
             var2 = '-';
             var2 = var4.bind(var3)(var6, var2, var5);
             return var2;
-case 60:
+case 61:
             var6 = var1.kind;
             var2 = var1.stage;
             var5 = var2.id;
@@ -1101,7 +1101,7 @@ case 60:
             var2 = '-';
             var2 = var4.bind(var3)(var6, var2, var5);
             return var2;
-case 58:
+case 59:
             var5 = var1.kind;
             var4 = var1.index;
             var1 = global;

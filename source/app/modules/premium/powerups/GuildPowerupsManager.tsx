@@ -214,7 +214,7 @@ case 13:
                 var2 = 12;
                 var2 = var6[var2];
                 var2 = var5.bind(var4)(var2);
-                var9 = var2.PortkeyExperiment;
+                var9 = var2.GameServerExperiment;
                 var8 = var9.trackExposure;
                 var2 = {};
                 var11 = var7.id;

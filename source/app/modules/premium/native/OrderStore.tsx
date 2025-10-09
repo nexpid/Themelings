@@ -38,20 +38,20 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot15 = var2;
+            _closure1_slot16 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot15 = var1;
+    var _closure1_slot16 = var1;
     var1 = function clearOrder() {
         var1 = null;
-        _closure1_slot12 = var1;
+        _closure1_slot13 = var1;
         var1 = undefined;
         return var1;
     };
-    var _closure1_slot16 = var1;
+    var _closure1_slot17 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -88,8 +88,10 @@ case 4:
     var2 = 6;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
-    var2 = var2.GPlayBillingResult;
-    var _closure1_slot8 = var2;
+    var8 = var2.GPlayBillingResult;
+    var _closure1_slot8 = var8;
+    var2 = var2.isTransientGPlayBillingResult;
+    var _closure1_slot9 = var2;
     var2 = 7;
     var2 = var6[var2];
     var8 = var7.bind(var1)(var2);
@@ -100,13 +102,13 @@ case 4:
     var12 = var2;
     var8 = new var13[var8](var12, var11);
     var8 = var8 instanceof Object ? var8 : var9;
-    var _closure1_slot9 = var8;
-    var8 = false;
     var _closure1_slot10 = var8;
+    var8 = false;
     var _closure1_slot11 = var8;
-    var8 = null;
     var _closure1_slot12 = var8;
+    var8 = null;
     var _closure1_slot13 = var8;
+    var _closure1_slot14 = var8;
     var8 = 11;
     var8 = var6[var8];
     var8 = var7.bind(var1)(var8);
@@ -124,7 +126,7 @@ case 0:
                 var1 = _closure1_slot6;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot5;
-                var1 = _closure1_slot15;
+                var1 = _closure1_slot16;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
@@ -157,7 +159,7 @@ case 8:
         var1 = 'isCreatingOrder';
         var5['key'] = var1;
         var1 = function get() {
-            var1 = _closure1_slot10;
+            var1 = _closure1_slot11;
             return var1;
         };
         var5['get'] = var1;
@@ -167,7 +169,7 @@ case 8:
         var8 = 'isUpdatingOrder';
         var5['key'] = var8;
         var8 = function get() {
-            var1 = _closure1_slot11;
+            var1 = _closure1_slot12;
             return var1;
         };
         var5['get'] = var8;
@@ -176,7 +178,7 @@ case 8:
         var8 = 'currentOrderId';
         var5['key'] = var8;
         var8 = function get() {
-            var1 = _closure1_slot12;
+            var1 = _closure1_slot13;
             return var1;
         };
         var5['get'] = var8;
@@ -195,11 +197,11 @@ case 0:
 case 10:
                     var3 = arg1;
                     var _closure4_slot0 = var3;
-                    var5 = _closure1_slot13;
+                    var5 = _closure1_slot14;
                     var4 = null;
                     if(!(var4 != var5)) { _fun0003_ip = 11; continue _fun0003 }
 case 12:
-                    var4 = _closure1_slot13;
+                    var4 = _closure1_slot14;
                     SaveGenerator(address=37);
 case 13:
                     return var4;
@@ -235,19 +237,19 @@ case 20:
                                 ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
                                 if(var6) { _fun0004_ip = 21; continue _fun0004 }
 case 22:
-                                var6 = _closure1_slot12;
+                                var6 = _closure1_slot13;
                                 var5 = _closure4_slot0;
                                 if(!(var6 === var5)) { _fun0004_ip = 23; continue _fun0004 }
 case 24:
                                 var5 = null;
-                                _closure1_slot12 = var5;
+                                _closure1_slot13 = var5;
 case 23: // try_end0 // try_end1
                                 var5 = null;
-                                _closure1_slot13 = var5;
+                                _closure1_slot14 = var5;
                                 return var3;
 case 21:
                                 var3 = null;
-                                _closure1_slot13 = var3;
+                                _closure1_slot14 = var3;
                                 return var2;
 case 25: // try_start_2 // catch_target0
                                 CatchBlockStart(arg_register=1);
@@ -268,7 +270,7 @@ case 25: // try_start_2 // catch_target0
                                 var8['orderId'] = var7;
                                 var4['extra'] = var8;
                                 var4 = var5.bind(var6)(var2, var4);
-                                var5 = _closure1_slot9;
+                                var5 = _closure1_slot10;
                                 var4 = var5.error;
                                 var3 = global;
                                 var3 = var3.HermesInternal;
@@ -280,7 +282,7 @@ case 25: // try_start_2 // catch_target0
 case 26: // try_end2 // catch_target1 // catch_target2
                                 CatchBlockStart(arg_register=1);
                                 var3 = null;
-                                _closure1_slot13 = var3;
+                                _closure1_slot14 = var3;
                                 throw var2;
 case 17:
                                 return var1;
@@ -290,7 +292,7 @@ case 17:
                     };
                     var2 = var5.bind(var4)(var2);
                     var2 = var2.bind(var4)();
-                    _closure1_slot13 = var2;
+                    _closure1_slot14 = var2;
                     SaveGenerator(address=74);
 case 5:
                     return var2;
@@ -326,7 +328,7 @@ case 9:
         var7 = 'shouldSignOrder';
         var5['key'] = var7;
         var6 = function value() {
-            var1 = _closure1_slot12;
+            var1 = _closure1_slot13;
             return var1;
         };
         var5['value'] = var6;
@@ -348,7 +350,7 @@ case 0:
             if(!(var2 != var1)) { _fun0005_ip = 28; continue _fun0005 }
 case 10:
             var1 = true;
-            _closure1_slot10 = var1;
+            _closure1_slot11 = var1;
             var1 = undefined;
             return var1;
 case 28:
@@ -364,8 +366,8 @@ case 28:
         var1 = arg1;
         var2 = var1.orderId;
         var3 = false;
-        _closure1_slot10 = var3;
-        _closure1_slot12 = var2;
+        _closure1_slot11 = var3;
+        _closure1_slot13 = var2;
         var1 = undefined;
         return var1;
     };
@@ -378,8 +380,8 @@ case 0:
             if(!(var2 != var3)) { _fun0006_ip = 29; continue _fun0006 }
 case 10:
             var4 = false;
-            _closure1_slot10 = var4;
-            _closure1_slot12 = var3;
+            _closure1_slot11 = var4;
+            _closure1_slot13 = var3;
             var1 = undefined;
             return var1;
 case 29:
@@ -399,7 +401,7 @@ case 0:
             if(!(var2 != var1)) { _fun0007_ip = 28; continue _fun0007 }
 case 10:
             var1 = true;
-            _closure1_slot11 = var1;
+            _closure1_slot12 = var1;
             var1 = undefined;
             return var1;
 case 28:
@@ -419,7 +421,7 @@ case 0:
             if(!(var2 != var1)) { _fun0008_ip = 28; continue _fun0008 }
 case 10:
             var1 = false;
-            _closure1_slot11 = var1;
+            _closure1_slot12 = var1;
             var1 = undefined;
             return var1;
 case 28:
@@ -439,7 +441,7 @@ case 0:
             if(!(var2 != var1)) { _fun0009_ip = 28; continue _fun0009 }
 case 10:
             var1 = false;
-            _closure1_slot11 = var1;
+            _closure1_slot12 = var1;
             var1 = undefined;
             return var1;
 case 28:
@@ -459,7 +461,7 @@ case 0:
             if(!(var2 != var1)) { _fun0010_ip = 28; continue _fun0010 }
 case 10:
             var1 = true;
-            _closure1_slot11 = var1;
+            _closure1_slot12 = var1;
             var1 = undefined;
             return var1;
 case 28:
@@ -477,12 +479,12 @@ case 0:
             var1 = arg1;
             var3 = var1.orderId;
             var1 = false;
-            _closure1_slot11 = var1;
-            var1 = _closure1_slot12;
+            _closure1_slot12 = var1;
+            var1 = _closure1_slot13;
             if(!(var1 === var3)) { _fun0011_ip = 30; continue _fun0011 }
 case 29:
             var1 = null;
-            _closure1_slot12 = var1;
+            _closure1_slot13 = var1;
 case 30:
             var1 = undefined;
             return var1;
@@ -495,12 +497,12 @@ case 0:
             var1 = arg1;
             var3 = var1.orderId;
             var1 = false;
-            _closure1_slot11 = var1;
-            var1 = _closure1_slot12;
+            _closure1_slot12 = var1;
+            var1 = _closure1_slot13;
             if(!(var1 === var3)) { _fun0012_ip = 30; continue _fun0012 }
 case 29:
             var1 = null;
-            _closure1_slot12 = var1;
+            _closure1_slot13 = var1;
 case 30:
             var1 = undefined;
             return var1;
@@ -514,7 +516,7 @@ case 0:
             var1 = null;
             if(!(var2 != var1)) { _fun0013_ip = 31; continue _fun0013 }
 case 10:
-            var3 = _closure1_slot16;
+            var3 = _closure1_slot17;
             var1 = undefined;
             var3 = var3.bind(var1)();
             return var1;
@@ -531,45 +533,61 @@ case 31:
         _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
             var1 = arg1;
-            var3 = var1.billingResult;
-            var2 = _closure1_slot8;
-            var2 = var2.OK;
-            if(!(var3 !== var2)) { _fun0014_ip = 32; continue _fun0014 }
-case 29:
-            var3 = _closure1_slot16;
-            var2 = undefined;
-            var2 = var3.bind(var2)();
-            _fun0014_ip = 33; continue _fun0014;
-case 32:
-            var4 = _closure1_slot0;
+            var4 = var1.billingResult;
+            var5 = _closure1_slot0;
             var3 = _closure1_slot1;
-            var2 = 8;
-            var3 = var3[var2];
-            var2 = undefined;
-            var3 = var4.bind(var2)(var3);
-            var2 = var3.isAndroid;
-            var2 = var2.bind(var3)();
-            if(!var2) { _fun0014_ip = 34; continue _fun0014 }
-case 5:
-            var3 = _closure1_slot12;
-            var2 = null;
-            if(!(var2 != var3)) { _fun0014_ip = 34; continue _fun0014 }
+            var1 = 8;
+            var1 = var3[var1];
+            var3 = undefined;
+            var5 = var5.bind(var3)(var1);
+            var1 = var5.isAndroid;
+            var1 = var1.bind(var5)();
+            if(var1) { _fun0014_ip = 32; continue _fun0014 }
+case 11:
+            var1 = false;
+            return var1;
+case 32:
+            var1 = _closure1_slot8;
+            var1 = var1.OK;
+            if(!(var1 !== var4)) { _fun0014_ip = 33; continue _fun0014 }
+case 34:
+            var1 = _closure1_slot8;
+            var1 = var1.USER_CANCELED;
+            if(!(var1 !== var4)) { _fun0014_ip = 8; continue _fun0014 }
 case 35:
-            var3 = _closure1_slot14;
-            var2 = var3.startOrderSigningSafely;
-            var1 = _closure1_slot12;
-            var3 = var2.bind(var3)(var1);
-            var2 = var3.catch;
-            var1 = function() {
+            var1 = _closure1_slot9;
+            var1 = var1.bind(var3)(var4);
+            var1 = !var1;
+            if(!var1) { _fun0014_ip = 36; continue _fun0014 }
+case 37:
+            var4 = _closure1_slot17;
+            var4 = var4.bind(var3)();
+            var1 = true;
+case 36:
+            return var1;
+case 8:
+            var1 = _closure1_slot17;
+            var1 = var1.bind(var3)();
+            var1 = true;
+            return var1;
+case 33:
+            var3 = _closure1_slot13;
+            var1 = null;
+            var1 = var1 != var3;
+            if(!var1) { _fun0014_ip = 38; continue _fun0014 }
+case 39:
+            var4 = _closure1_slot15;
+            var3 = var4.startOrderSigningSafely;
+            var2 = _closure1_slot13;
+            var4 = var3.bind(var4)(var2);
+            var3 = var4.catch;
+            var2 = function() {
                 var1 = undefined;
                 return var1;
             };
-            var1 = var2.bind(var3)(var1);
-case 33:
-            var1 = undefined;
-            return var1;
-case 34:
-            var1 = false;
+            var2 = var3.bind(var4)(var2);
+            var1 = true;
+case 38:
             return var1;
         }
     };
@@ -580,7 +598,7 @@ case 34:
     var11 = var2;
     var2 = new var13[var9](var12, var11, var10);
     var2 = var2 instanceof Object ? var2 : var7;
-    var _closure1_slot14 = var2;
+    var _closure1_slot15 = var2;
     var4 = 13;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

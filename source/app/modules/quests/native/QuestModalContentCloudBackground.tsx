@@ -163,7 +163,7 @@ case 11:
             var2 = var2.resizeMode;
             var9 = 'cover';
             if(!(var4 !== var2)) { _fun0002_ip = 13; continue _fun0002 }
-case 4:
+case 14:
             var9 = var2;
 case 13:
             var2 = _closure1_slot7;
@@ -190,15 +190,15 @@ case 13:
             var5[1] = var6;
             var1['style'] = var5;
             var8 = _closure1_slot5;
-            if(var10) { _fun0002_ip = 14; continue _fun0002 }
-case 15:
+            if(var10) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
             var6 = _closure1_slot3;
             var5 = {};
             var7 = var11.solidBackground;
             var5['style'] = var7;
             var6 = var8.bind(var4)(var6, var5);
-            _fun0002_ip = 16; continue _fun0002;
-case 14:
+            _fun0002_ip = 17; continue _fun0002;
+case 15:
             var7 = _closure1_slot1;
             var14 = _closure1_slot2;
             var5 = 6;
@@ -206,18 +206,18 @@ case 14:
             var7 = var7.bind(var4)(var5);
             var5 = {};
             var14 = 'top';
-            if(!(var14 !== var15)) { _fun0002_ip = 17; continue _fun0002 }
-case 18:
-            var14 = _closure1_slot9;
-            _fun0002_ip = 19; continue _fun0002;
-case 17:
-            var14 = _closure1_slot8;
+            if(!(var14 !== var15)) { _fun0002_ip = 18; continue _fun0002 }
 case 19:
+            var14 = _closure1_slot9;
+            _fun0002_ip = 20; continue _fun0002;
+case 18:
+            var14 = _closure1_slot8;
+case 20:
             var5['colors'] = var14;
             var14 = var11.gradient;
             var5['style'] = var14;
             var6 = var8.bind(var4)(var7, var5);
-case 16:
+case 17:
             var5 = new Array(2);
             var5[0] = var6;
             var8 = _closure1_slot5;
@@ -227,28 +227,28 @@ case 16:
             var6 = var14[var6];
             var7 = var7.bind(var4)(var6);
             var6 = {};
-            if(var10) { _fun0002_ip = 20; continue _fun0002 }
-case 21:
-            var14 = var11.cloudsImageLight;
-            _fun0002_ip = 22; continue _fun0002;
-case 20:
-            var14 = var11.cloudsImage;
+            if(var10) { _fun0002_ip = 21; continue _fun0002 }
 case 22:
+            var14 = var11.cloudsImageLight;
+            _fun0002_ip = 23; continue _fun0002;
+case 21:
+            var14 = var11.cloudsImage;
+case 23:
             var11 = new Array(2);
             var11[0] = var14;
             var11[1] = var13;
             var6['style'] = var11;
             var11 = _closure1_slot1;
             var13 = _closure1_slot2;
-            if(var10) { _fun0002_ip = 23; continue _fun0002 }
-case 24:
+            if(var10) { _fun0002_ip = 24; continue _fun0002 }
+case 25:
             var10 = 9;
             var10 = var13[var10];
-            _fun0002_ip = 25; continue _fun0002;
-case 23:
+            _fun0002_ip = 26; continue _fun0002;
+case 24:
             var12 = 8;
             var10 = var13[var12];
-case 25:
+case 26:
             var10 = var11.bind(var4)(var10);
             var6['source'] = var10;
             var6['resizeMode'] = var9;

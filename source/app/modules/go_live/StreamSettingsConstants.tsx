@@ -102,6 +102,10 @@ case 4:
     var12['PRESET_CUSTOM'] = var15;
     var2 = 'PRESET_CUSTOM';
     var12[var15] = var2;
+    var6 = 4;
+    var12['PRESET_AUTO'] = var6;
+    var2 = 'PRESET_AUTO';
+    var12[var6] = var2;
     var10 = {};
     var6 = var12.PRESET_DOCUMENTS;
     var7 = {};
@@ -144,6 +148,9 @@ case 4:
     var8 = var13.FPS_30;
     var7['fps'] = var8;
     var2[3] = var7;
+    var10[var6] = var2;
+    var6 = var12.PRESET_AUTO;
+    var2 = new Array(0);
     var10[var6] = var2;
     var6 = var12.PRESET_CUSTOM;
     var2 = new Array(0);

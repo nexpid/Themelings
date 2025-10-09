@@ -47,11 +47,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = var4.bind(var1)(var6);
     var6 = var6.RoleStyle;
     var3['RoleStyle'] = var6;
-    var2 = var5[var2];
-    var2 = var4.bind(var1)(var2);
-    var2 = var2.AccessibilityPreferences;
-    var3['AccessibilityPreferences'] = var2;
-    var2 = 2;
+    var6 = var5[var2];
+    var6 = var4.bind(var1)(var6);
+    var6 = var6.AccessibilityPreferences;
+    var3['AccessibilityPreferences'] = var6;
     var6 = var5[var2];
     var6 = var4.bind(var1)(var6);
     var6 = var6.useThemeContext;
@@ -60,7 +59,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var4.bind(var1)(var2);
     var2 = var2.ThemeContextType;
     var3['ThemeContextType'] = var2;
-    var2 = 3;
+    var2 = 2;
     var6 = var5[var2];
     var6 = var4.bind(var1)(var6);
     var6 = var6.isThemeDark;
@@ -69,7 +68,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var4.bind(var1)(var2);
     var2 = var2.isThemeLight;
     var3['isThemeLight'] = var2;
-    var2 = 4;
+    var2 = 3;
     var6 = var5[var2];
     var6 = var4.bind(var1)(var6);
     var6 = var6.getContrastingColor;

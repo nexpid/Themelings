@@ -30,8 +30,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['MEMBER_SAFETY'] = var2;
     var2 = 'boosts';
     var9['GUILD_BOOSTS'] = var2;
-    var2 = 'portkey';
-    var9['PORTKEY'] = var2;
+    var2 = 'game-servers';
+    var9['GAME_SERVERS'] = var2;
     var2 = 'report-to-mod';
     var9['REPORT_TO_MOD'] = var2;
     var _closure1_slot0 = var9;

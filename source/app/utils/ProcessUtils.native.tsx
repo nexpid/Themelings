@@ -266,7 +266,7 @@ case 28:
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(13);
+        var1 = new Array(16);
         var1[0] = var5;
         var5 = {};
         var7 = 'getCumulativeCPUUsage';
@@ -365,7 +365,7 @@ case 28:
         var5['value'] = var7;
         var1[10] = var5;
         var5 = {};
-        var7 = 'getMemoryUsageElectronRendererUsedHeapSize';
+        var7 = 'getMemoryPrivateUsageElectronRenderer';
         var5['key'] = var7;
         var7 = function value() {
             var1 = null;
@@ -374,6 +374,33 @@ case 28:
         var5['value'] = var7;
         var1[11] = var5;
         var5 = {};
+        var7 = 'getMemoryUsageElectronRendererUsedHeapSize';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = null;
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[12] = var5;
+        var5 = {};
+        var7 = 'getMemoryHeapStats';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = null;
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[13] = var5;
+        var5 = {};
+        var7 = 'getBlinkMemoryInfo';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = null;
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[14] = var5;
+        var5 = {};
         var7 = 'getMemoryUsageElectronProcessTypeDetails';
         var5['key'] = var7;
         var6 = function value() {
@@ -381,7 +408,7 @@ case 28:
             return var1;
         };
         var5['value'] = var6;
-        var1[12] = var5;
+        var1[15] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

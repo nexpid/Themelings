@@ -19,7 +19,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = _closure1_slot7;
         var10 = _closure1_slot1;
         var11 = _closure1_slot2;
-        var9 = 17;
+        var9 = 18;
         var1 = var11[var9];
         var2 = var10.bind(var4)(var1);
         var1 = {'shrink': true, 'style': null, 'cornerRadius': 4};
@@ -37,7 +37,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = _closure1_slot7;
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 18;
+            var1 = 19;
             var1 = var3[var1];
             var3 = undefined;
             var1 = var2.bind(var3)(var1);
@@ -89,7 +89,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var1)(var5);
     var5 = var5.jsx;
     var _closure1_slot7 = var5;
-    var5 = 16;
+    var5 = 17;
     var5 = var7[var5];
     var9 = var6.bind(var1)(var5);
     var8 = var9.createStyles;
@@ -100,7 +100,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5['art'] = var10;
     var5 = var8.bind(var9)(var5);
     var _closure1_slot8 = var5;
-    var5 = 19;
+    var5 = 20;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -110,52 +110,63 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = function FamilyCenterTeenQRCodeButton() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var2 = _closure1_slot0;
-            var3 = _closure1_slot2;
+            var9 = _closure1_slot0;
+            var11 = _closure1_slot2;
             var1 = 5;
-            var1 = var3[var1];
+            var1 = var11[var1];
             var5 = undefined;
-            var2 = var2.bind(var5)(var1);
-            var1 = var2.useHasMaxConnections;
-            var2 = var1.bind(var2)();
+            var3 = var9.bind(var5)(var1);
+            var1 = var3.useHasMaxConnections;
+            var3 = var1.bind(var3)();
+            var1 = 6;
+            var1 = var11[var1];
+            var7 = var9.bind(var5)(var1);
+            var6 = var7.useFamilyCenterV2String;
+            var8 = 7;
+            var1 = var11[var8];
+            var1 = var9.bind(var5)(var1);
+            var13 = var1.intl;
+            var12 = var13.string;
+            var10 = _closure1_slot1;
+            var1 = 8;
+            var4 = var11[var1];
+            var4 = var10.bind(var5)(var4);
+            var4 = var4.Ta9byc;
+            var4 = var12.bind(var13)(var4);
+            var8 = var11[var8];
+            var8 = var9.bind(var5)(var8);
+            var9 = var8.intl;
+            var8 = var9.string;
+            var1 = var11[var1];
+            var1 = var10.bind(var5)(var1);
+            var1 = var1.8SLtqa;
+            var1 = var8.bind(var9)(var1);
+            var6 = var6.bind(var7)(var4, var1);
             var1 = null;
-            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+            if(var3) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var4 = _closure1_slot7;
             var3 = _closure1_slot9;
             var2 = {};
-            var8 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var7 = 6;
-            var7 = var10[var7];
-            var7 = var8.bind(var5)(var7);
-            var8 = var7.intl;
-            var7 = var8.string;
-            var9 = _closure1_slot1;
-            var6 = 7;
-            var6 = var10[var6];
-            var6 = var9.bind(var5)(var6);
-            var6 = var6.Ta9byc;
-            var6 = var7.bind(var8)(var6);
             var2['text'] = var6;
             var6 = function onPress() {
                 var3 = _closure1_slot1;
                 var4 = _closure1_slot2;
-                var1 = 8;
+                var1 = 9;
                 var2 = var4[var1];
                 var1 = undefined;
                 var7 = var3.bind(var1)(var2);
                 var5 = var7.pushLazy;
                 var8 = _closure1_slot0;
-                var2 = 10;
+                var2 = 11;
                 var2 = var4[var2];
                 var9 = var8.bind(var1)(var2);
-                var2 = 9;
+                var2 = 10;
                 var8 = var4[var2];
                 var2 = var4.paths;
                 var2 = var9.bind(var1)(var8, var2);
                 var2 = var5.bind(var7)(var2);
-                var2 = 11;
+                var2 = 12;
                 var2 = var4[var2];
                 var5 = var3.bind(var1)(var2);
                 var4 = var5.track;
@@ -187,39 +198,39 @@ case 0:
             var1 = var2.useHasMaxConnections;
             var1 = var1.bind(var2)();
             if(var1) { _fun0002_ip = 4; continue _fun0002 }
-case 3:
+case 5:
             var1 = function handleQrCodeScanSucess(arg1) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var2 = _closure1_slot1;
                     var1 = _closure1_slot2;
-                    var4 = 8;
+                    var4 = 9;
                     var4 = var1[var4];
                     var5 = undefined;
                     var6 = var2.bind(var5)(var4);
                     var4 = var6.pop;
                     var4 = var4.bind(var6)();
-                    var9 = 12;
+                    var9 = 13;
                     var1 = var1[var9];
                     var4 = var2.bind(var5)(var1);
                     var2 = var4.toURLSafe;
                     var1 = arg1;
                     var1 = var2.bind(var4)(var1);
                     var7 = null;
-                    if(!(var7 == var1)) { _fun0003_ip = 5; continue _fun0003 }
-case 6:
+                    if(!(var7 == var1)) { _fun0003_ip = 6; continue _fun0003 }
+case 7:
                     var1 = {};
-case 5:
+case 6:
                     var8 = var1.hostname;
                     var6 = var1.pathname;
                     var2 = var7 != var8;
                     var1 = null;
-                    if(!var2) { _fun0003_ip = 7; continue _fun0003 }
-case 8:
+                    if(!var2) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
                     var2 = var7 != var6;
                     var1 = null;
-                    if(!var2) { _fun0003_ip = 7; continue _fun0003 }
-case 9:
+                    if(!var2) { _fun0003_ip = 8; continue _fun0003 }
+case 10:
                     var4 = _closure1_slot1;
                     var2 = _closure1_slot2;
                     var2 = var2[var9];
@@ -227,26 +238,26 @@ case 9:
                     var2 = var4.isDiscordHostname;
                     var2 = var2.bind(var4)(var8);
                     var1 = null;
-                    if(!var2) { _fun0003_ip = 7; continue _fun0003 }
-case 2:
+                    if(!var2) { _fun0003_ip = 8; continue _fun0003 }
+case 11:
                     var4 = var6.match;
                     var2 = _closure1_slot3;
                     var4 = var4.bind(var6)(var2);
                     var2 = null;
-                    if(!(var7 !== var4)) { _fun0003_ip = 10; continue _fun0003 }
-case 11:
+                    if(!(var7 !== var4)) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
                     var4 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var3 = 13;
+                    var3 = 14;
                     var3 = var7[var3];
                     var5 = var4.bind(var5)(var3);
                     var4 = var5.handleFamilyCenterQRCodeScan;
                     var3 = 'FamilyCenterQRCodeScan';
                     var3 = var4.bind(var5)(var6, var3);
                     var2 = undefined;
-case 10:
+case 12:
                     var1 = var2;
-case 7:
+case 8:
                     return var1;
                 }
             };
@@ -256,13 +267,13 @@ case 7:
             var1 = {};
             var8 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var7 = 6;
+            var7 = 7;
             var7 = var10[var7];
             var7 = var8.bind(var4)(var7);
             var8 = var7.intl;
             var7 = var8.string;
             var9 = _closure1_slot1;
-            var6 = 7;
+            var6 = 8;
             var6 = var10[var6];
             var6 = var9.bind(var4)(var6);
             var6 = var6.z4a9HB;
@@ -271,7 +282,7 @@ case 7:
             var5 = function onPress() {
                 var4 = _closure1_slot1;
                 var5 = _closure1_slot2;
-                var1 = 11;
+                var1 = 12;
                 var3 = var5[var1];
                 var1 = undefined;
                 var8 = var4.bind(var1)(var3);
@@ -283,7 +294,7 @@ case 7:
                 var9 = var9.ScanQRCodeButton;
                 var3['action'] = var9;
                 var3 = var7.bind(var8)(var6, var3);
-                var3 = 14;
+                var3 = 15;
                 var3 = var5[var3];
                 var4 = var4.bind(var1)(var3);
                 var3 = var4.requestPermission;
@@ -295,20 +306,20 @@ case 7:
                     _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                         var1 = arg1;
-                        if(!var1) { _fun0004_ip = 12; continue _fun0004 }
-case 13:
+                        if(!var1) { _fun0004_ip = 14; continue _fun0004 }
+case 15:
                         var4 = _closure1_slot1;
                         var1 = _closure1_slot2;
-                        var3 = 8;
+                        var3 = 9;
                         var3 = var1[var3];
                         var6 = undefined;
                         var4 = var4.bind(var6)(var3);
                         var3 = var4.pushLazy;
                         var5 = _closure1_slot0;
-                        var2 = 10;
+                        var2 = 11;
                         var2 = var1[var2];
                         var5 = var5.bind(var6)(var2);
-                        var2 = 15;
+                        var2 = 16;
                         var2 = var1[var2];
                         var1 = var1.paths;
                         var2 = var5.bind(var6)(var2, var1);
@@ -318,7 +329,7 @@ case 13:
                         var5 = _closure2_slot0;
                         var1['onScanSuccess'] = var5;
                         var1 = var3.bind(var4)(var2, var1);
-case 12:
+case 14:
                         var1 = undefined;
                         return var1;
                     }

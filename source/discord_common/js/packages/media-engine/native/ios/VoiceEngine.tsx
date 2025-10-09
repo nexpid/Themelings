@@ -2,10 +2,12 @@
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-        var5 = require;
+        var4 = require;
         var7 = metroImportDefault;
         var3 = exports;
-        var6 = dependencyMap;
+        var5 = dependencyMap;
+        var _closure1_slot0 = var4;
+        var _closure1_slot1 = var5;
         var1 = function base64Decode(arg1) {
             var1 = global;
             var4 = var1.Buffer;
@@ -29,12 +31,18 @@ case 0:
             return var1;
         };
         var _closure1_slot12 = var1;
-        var8 = function callbackSetter(arg1, arg2) {
+        var9 = function callbackSetter(arg1, arg2) {
             var2 = arg2;
             var _closure2_slot0 = var2;
             var2 = null;
             var _closure2_slot1 = var2;
-            var5 = _closure1_slot4;
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var2 = 4;
+            var3 = var3[var2];
+            var2 = undefined;
+            var2 = var4.bind(var2)(var3);
+            var5 = var2.VoiceEngineEmitter;
             var4 = var5.addListener;
             var3 = arg1;
             var2 = function(arg1) {
@@ -73,51 +81,47 @@ case 2:
         };
         var1 = global;
         var10 = var1.Object;
-        var9 = var10.defineProperty;
+        var8 = var10.defineProperty;
         var2 = {};
         var1 = true;
         var2['value'] = var1;
         var1 = '__esModule';
-        var1 = var9.bind(var10)(var3, var1, var2);
-        var9 = 0;
-        var2 = var6[var9];
+        var1 = var8.bind(var10)(var3, var1, var2);
+        var8 = 0;
+        var2 = var5[var8];
         var1 = undefined;
         var2 = var7.bind(var1)(var2);
-        var _closure1_slot0 = var2;
+        var _closure1_slot2 = var2;
         var2 = 1;
-        var2 = var6[var2];
+        var2 = var5[var2];
         var2 = var7.bind(var1)(var2);
-        var _closure1_slot1 = var2;
-        var2 = 2;
-        var2 = var6[var2];
-        var7 = var5.bind(var1)(var2);
-        var2 = var7.NativeModules;
-        var10 = var7.NativeEventEmitter;
-        var7 = var7.Platform;
-        var7 = 3;
-        var11 = var6[var7];
-        var11 = var5.bind(var1)(var11);
-        var13 = var11.Logger;
-        var11 = var13.prototype;
-        var12 = Object.create(var11, {constructor: {value: var13}});
-        var16 = 'VoiceEngine';
-        var17 = var12;
-        var11 = new var17[var13](var16, var15);
-        var11 = var11 instanceof Object ? var11 : var12;
-        var _closure1_slot2 = var11;
-        var2 = var2.VoiceEngine;
         var _closure1_slot3 = var2;
-        var11 = var10.prototype;
-        var11 = Object.create(var11, {constructor: {value: var10}});
-        var17 = var11;
-        var16 = var2;
-        var10 = new var17[var10](var16, var15);
-        var10 = var10 instanceof Object ? var10 : var11;
-        var _closure1_slot4 = var10;
+        var2 = 2;
+        var2 = var5[var2];
+        var2 = var4.bind(var1)(var2);
+        var2 = var2.Platform;
+        var7 = 3;
+        var2 = var5[var7];
+        var2 = var4.bind(var1)(var2);
+        var11 = var2.Logger;
+        var2 = var11.prototype;
+        var10 = Object.create(var2, {constructor: {value: var11}});
+        var16 = 'VoiceEngine';
+        var17 = var10;
+        var2 = new var17[var11](var16, var15);
+        var2 = var2 instanceof Object ? var2 : var10;
+        var _closure1_slot4 = var2;
+        var2 = 4;
+        var10 = var5[var2];
+        var10 = var4.bind(var1)(var10);
+        var11 = var10.VoiceEngine;
         var10 = 'android';
-        var2['platform'] = var10;
-        var10 = var2.getConstants;
-        var12 = var10.bind(var2)();
+        var11['platform'] = var10;
+        var10 = var5[var2];
+        var10 = var4.bind(var1)(var10);
+        var11 = var10.VoiceEngine;
+        var10 = var11.getConstants;
+        var12 = var10.bind(var11)();
         var10 = null;
         var13 = var10 == var12;
         var11 = undefined;
@@ -130,6 +134,9 @@ case 7:
         var11 = ['voice_sound_stop_loop', 'voice_relative_sounds', 'voice_legacy_subsystem', 'voice_experimental_subsystem', 'elevated_hook', 'soundshare', 'soundshare_loopback', 'set_audio_device_by_id', 'set_video_device_by_id', 'loopback', 'wumpus_video', 'hybrid_video', 'experimental_encoders', 'experiment_config', 'remote_locus_network_control', 'screen_previews', 'window_previews', 'audio_debug_state', 'connection_replay', 'simulcast_bugfix', 'RTC_REGION_RANKING', 'video_effects', 'electron_video', 'mediapipe', 'fixed_keyframe_interval'];
 case 6:
         var _closure1_slot5 = var11;
+        var11 = var5[var2];
+        var11 = var4.bind(var1)(var11);
+        var12 = var11.VoiceEngine;
         var11 = function(arg1) {
             var3 = _closure1_slot5;
             var2 = var3.includes;
@@ -137,40 +144,60 @@ case 6:
             var1 = var2.bind(var3)(var1);
             return var1;
         };
-        var2['supportsFeature'] = var11;
+        var12['supportsFeature'] = var11;
         var11 = ['configureConnectionRetries', 'getEncryptionModes', 'setTransportOptions', 'mergeUsers', 'destroyUser', 'setLocalPan', 'setLocalVolume', 'setLocalMute', 'fastUdpReconnect', 'wasRemoteDisconnected', 'setMinimumOutputDelay', 'setSelfMute', 'setSelfDeafen', 'setNoInputThreshold', 'setPTTActive', 'setVideoBroadcast', 'triggerOnVideoCallback', 'getStats', 'getFilteredStats', 'setPingInterval', 'setDesktopSource', 'prepareSecureFramesTransition', 'executeSecureFramesTransition', 'prepareSecureFramesEpoch', 'triggerOnSpeakingCallback'];
         var _closure1_slot6 = var11;
-        var11 = var2.consoleLog;
+        var11 = var5[var2];
+        var11 = var4.bind(var1)(var11);
+        var11 = var11.VoiceEngine;
+        var11 = var11.consoleLog;
         if(!(var10 != var11)) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-        var7 = var6[var7];
-        var12 = var5.bind(var1)(var7);
+        var7 = var5[var7];
+        var12 = var4.bind(var1)(var7);
         var11 = var12.setNativeLogFn;
         var7 = function(arg1, arg2, arg3) {
-            var4 = _closure1_slot3;
-            var3 = var4.consoleLog;
-            var1 = global;
-            var1 = var1.HermesInternal;
-            var7 = var1.concat;
-            var6 = '[';
-            var5 = arg1;
-            var2 = '] ';
-            var1 = arg3;
-            var2 = var7.bind(var6)(var5, var2, var1);
-            var1 = arg2;
-            var1 = var3.bind(var4)(var1, var2);
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var1 = 4;
+            var2 = var2[var1];
             var1 = undefined;
+            var2 = var3.bind(var1)(var2);
+            var5 = var2.VoiceEngine;
+            var4 = var5.consoleLog;
+            var2 = global;
+            var2 = var2.HermesInternal;
+            var8 = var2.concat;
+            var7 = '[';
+            var6 = arg1;
+            var3 = '] ';
+            var2 = arg3;
+            var3 = var8.bind(var7)(var6, var3, var2);
+            var2 = arg2;
+            var2 = var4.bind(var5)(var2, var3);
             return var1;
         };
         var7 = var11.bind(var12)(var7);
 case 8:
-        var7 = var2.getMLSSigningKeyB64;
+        var7 = var5[var2];
+        var7 = var4.bind(var1)(var7);
+        var7 = var7.VoiceEngine;
+        var7 = var7.getMLSSigningKeyB64;
         if(!(var10 != var7)) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
+        var7 = var5[var2];
+        var7 = var4.bind(var1)(var7);
+        var10 = var7.VoiceEngine;
         var7 = function(arg1, arg2, arg3) {
             var2 = arg3;
             var _closure2_slot0 = var2;
-            var5 = _closure1_slot3;
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var2 = 4;
+            var3 = var3[var2];
+            var2 = undefined;
+            var2 = var4.bind(var2)(var3);
+            var5 = var2.VoiceEngine;
             var4 = var5.getMLSSigningKeyB64;
             var3 = arg1;
             var2 = arg2;
@@ -198,14 +225,14 @@ case 12:
             var1 = var4.bind(var5)(var3, var2, var1);
             return var1;
         };
-        var2['getMLSSigningKey'] = var7;
+        var10['getMLSSigningKey'] = var7;
 case 10:
         var7 = function() {
-            var4 = _closure1_slot1;
+            var4 = _closure1_slot3;
             var3 = function VoiceConnection() {
                 var5 = this;
                 var _closure3_slot0 = var5;
-                var4 = _closure1_slot0;
+                var4 = _closure1_slot2;
                 var7 = _closure2_slot0;
                 var1 = undefined;
                 var4 = var4.bind(var1)(var5, var7);
@@ -414,7 +441,7 @@ case 18:
                     var1 = undefined;
                     var3 = arg1;
                     var3 = var4.bind(var1)(var3);
-                    var5 = _closure1_slot2;
+                    var5 = _closure1_slot4;
                     var4 = var5.info;
                     var2 = global;
                     var2 = var2.HermesInternal;
@@ -611,24 +638,29 @@ case 21:
             var6 = 'destroy';
             var1['key'] = var6;
             var6 = function value() {
-                var1 = this;
-                var4 = var1.subscriptions;
+                var2 = this;
+                var4 = var2.subscriptions;
                 var3 = var4.forEach;
-                var2 = function(arg1) {
+                var1 = function(arg1) {
                     var2 = arg1;
                     var1 = var2.remove;
                     var1 = var1.bind(var2)();
                     return var1;
                 };
-                var2 = var3.bind(var4)(var2);
-                var3 = var1.subscriptions;
-                var2 = 0;
-                var3['length'] = var2;
-                var3 = _closure1_slot3;
-                var2 = var3.connectionInstanceDestroy;
-                var1 = var1.id;
-                var1 = var2.bind(var3)(var1);
+                var1 = var3.bind(var4)(var1);
+                var3 = var2.subscriptions;
+                var1 = 0;
+                var3['length'] = var1;
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot1;
+                var1 = 4;
+                var3 = var3[var1];
                 var1 = undefined;
+                var3 = var4.bind(var1)(var3);
+                var4 = var3.VoiceEngine;
+                var3 = var4.connectionInstanceDestroy;
+                var2 = var2.id;
+                var2 = var3.bind(var4)(var2);
                 return var1;
             };
             var1['value'] = var6;
@@ -651,30 +683,39 @@ case 21:
 case 0:
                     var1 = arg1;
 case 25: // try_start_0
-                    var5 = _closure1_slot3;
-                    var4 = var1;
-                    var2 = 0;
-                    var3 = var4[var2];
-                    var2 = var3.toUpperCase;
-                    var6 = var2.bind(var3)();
-                    var3 = var4.slice;
-                    var2 = 1;
-                    var4 = var3.bind(var4)(var2);
-                    var2 = global;
-                    var2 = var2.HermesInternal;
-                    var3 = var2.concat;
-                    var2 = 'connectionInstance';
-                    var2 = var3.bind(var2)(var6, var4);
-                    var4 = var5[var2];
-                    var3 = var4.bind;
+                    var6 = _closure1_slot0;
+                    var7 = _closure1_slot1;
+                    var2 = 4;
+                    var4 = var7[var2];
+                    var3 = undefined;
+                    var4 = var6.bind(var3)(var4);
+                    var5 = var4.VoiceEngine;
+                    var9 = var1;
+                    var4 = 0;
+                    var8 = var9[var4];
+                    var4 = var8.toUpperCase;
+                    var10 = var4.bind(var8)();
+                    var8 = var9.slice;
+                    var4 = 1;
+                    var9 = var8.bind(var9)(var4);
+                    var4 = global;
+                    var4 = var4.HermesInternal;
+                    var8 = var4.concat;
+                    var4 = 'connectionInstance';
+                    var4 = var8.bind(var4)(var10, var9);
+                    var5 = var5[var4];
+                    var4 = var5.bind;
+                    var2 = var7[var2];
+                    var2 = var6.bind(var3)(var2);
+                    var3 = var2.VoiceEngine;
                     var2 = this;
                     var2 = var2.id;
-                    var2 = var3.bind(var4)(var5, var2);
+                    var2 = var4.bind(var5)(var3, var2);
 case 26: // try_end0
                     return var2;
 case 27: // catch_target0
                     CatchBlockStart(arg_register=1);
-                    var3 = _closure1_slot2;
+                    var3 = _closure1_slot4;
                     var2 = var3.warn;
                     var6 = var1;
                     var1 = global;
@@ -705,7 +746,13 @@ case 27: // catch_target0
                 var _closure3_slot2 = var3;
                 var4 = var2.subscriptions;
                 var3 = var4.push;
-                var7 = _closure1_slot4;
+                var6 = _closure1_slot0;
+                var5 = _closure1_slot1;
+                var2 = 4;
+                var5 = var5[var2];
+                var2 = undefined;
+                var2 = var6.bind(var2)(var5);
+                var7 = var2.VoiceEngineEmitter;
                 var6 = var7.addListener;
                 var5 = arg1;
                 var2 = function(arg1) {
@@ -756,9 +803,15 @@ case 30:
         };
         var7 = var7.bind(var1)();
         var _closure1_slot7 = var7;
-        var7['nextId'] = var9;
-        var7 = var2.createVoiceConnectionWithOptions;
+        var7['nextId'] = var8;
+        var7 = var5[var2];
+        var7 = var4.bind(var1)(var7);
+        var7 = var7.VoiceEngine;
+        var7 = var7.createVoiceConnectionWithOptions;
         var _closure1_slot8 = var7;
+        var7 = var5[var2];
+        var7 = var4.bind(var1)(var7);
+        var8 = var7.VoiceEngine;
         var7 = function(arg1, arg2, arg3) {
             var1 = _closure1_slot7;
             var3 = var1.prototype;
@@ -776,9 +829,15 @@ case 30:
             var2 = var12[var7](var11, var10, var9, var8, var7);
             return var1;
         };
-        var2['createVoiceConnectionWithOptions'] = var7;
-        var7 = var2.createOwnStreamConnectionWithOptions;
+        var8['createVoiceConnectionWithOptions'] = var7;
+        var7 = var5[var2];
+        var7 = var4.bind(var1)(var7);
+        var7 = var7.VoiceEngine;
+        var7 = var7.createOwnStreamConnectionWithOptions;
         var _closure1_slot9 = var7;
+        var7 = var5[var2];
+        var7 = var4.bind(var1)(var7);
+        var8 = var7.VoiceEngine;
         var7 = function(arg1, arg2, arg3) {
             var1 = _closure1_slot7;
             var3 = var1.prototype;
@@ -796,8 +855,11 @@ case 30:
             var2 = var12[var7](var11, var10, var9, var8, var7);
             return var1;
         };
-        var2['createOwnStreamConnectionWithOptions'] = var7;
-        var9 = 'no-input-callback';
+        var8['createOwnStreamConnectionWithOptions'] = var7;
+        var7 = var5[var2];
+        var7 = var4.bind(var1)(var7);
+        var8 = var7.VoiceEngine;
+        var10 = 'no-input-callback';
         var7 = function(arg1) {
             var1 = arg1;
             var2 = var1.input;
@@ -805,9 +867,12 @@ case 30:
             var1[0] = var2;
             return var1;
         };
-        var7 = var8.bind(var1)(var9, var7);
-        var2['setNoInputCallback'] = var7;
-        var9 = 'on-voice';
+        var7 = var9.bind(var1)(var10, var7);
+        var8['setNoInputCallback'] = var7;
+        var7 = var5[var2];
+        var7 = var4.bind(var1)(var7);
+        var8 = var7.VoiceEngine;
+        var10 = 'on-voice';
         var7 = function(arg1) {
             var1 = arg1;
             var3 = var1.level;
@@ -817,16 +882,22 @@ case 30:
             var1[1] = var2;
             return var1;
         };
-        var7 = var8.bind(var1)(var9, var7);
-        var2['setOnVoiceCallback'] = var7;
-        var9 = 'native-mute-toggle';
+        var7 = var9.bind(var1)(var10, var7);
+        var8['setOnVoiceCallback'] = var7;
+        var7 = var5[var2];
+        var7 = var4.bind(var1)(var7);
+        var8 = var7.VoiceEngine;
+        var10 = 'native-mute-toggle';
         var7 = function() {
             var1 = new Array(0);
             return var1;
         };
-        var7 = var8.bind(var1)(var9, var7);
-        var2['setOnNativeMuteToggleCallback'] = var7;
-        var9 = 'native-mute-state-changed';
+        var7 = var9.bind(var1)(var10, var7);
+        var8['setOnNativeMuteToggleCallback'] = var7;
+        var7 = var5[var2];
+        var7 = var4.bind(var1)(var7);
+        var8 = var7.VoiceEngine;
+        var10 = 'native-mute-state-changed';
         var7 = function(arg1) {
             var1 = arg1;
             var2 = var1.muted;
@@ -834,9 +905,12 @@ case 30:
             var1[0] = var2;
             return var1;
         };
-        var7 = var8.bind(var1)(var9, var7);
-        var2['setOnNativeMuteChangedCallback'] = var7;
-        var9 = 'device-changed';
+        var7 = var9.bind(var1)(var10, var7);
+        var8['setOnNativeMuteChangedCallback'] = var7;
+        var7 = var5[var2];
+        var7 = var4.bind(var1)(var7);
+        var8 = var7.VoiceEngine;
+        var10 = 'device-changed';
         var7 = function(arg1) {
             var1 = arg1;
             var4 = var1.inputDevices;
@@ -848,9 +922,12 @@ case 30:
             var1[2] = var2;
             return var1;
         };
-        var7 = var8.bind(var1)(var9, var7);
-        var2['setDeviceChangeCallback'] = var7;
-        var9 = 'volume-changed';
+        var7 = var9.bind(var1)(var10, var7);
+        var8['setDeviceChangeCallback'] = var7;
+        var7 = var5[var2];
+        var7 = var4.bind(var1)(var7);
+        var8 = var7.VoiceEngine;
+        var10 = 'volume-changed';
         var7 = function(arg1) {
             var1 = arg1;
             var3 = var1.inputVolume;
@@ -860,9 +937,12 @@ case 30:
             var1[1] = var2;
             return var1;
         };
-        var7 = var8.bind(var1)(var9, var7);
-        var2['setVolumeChangeCallback'] = var7;
-        var9 = 'active-sinks-change';
+        var7 = var9.bind(var1)(var10, var7);
+        var8['setVolumeChangeCallback'] = var7;
+        var7 = var5[var2];
+        var7 = var4.bind(var1)(var7);
+        var8 = var7.VoiceEngine;
+        var10 = 'active-sinks-change';
         var7 = function(arg1) {
             var1 = arg1;
             var3 = var1.streamId;
@@ -872,23 +952,32 @@ case 30:
             var1[1] = var2;
             return var1;
         };
-        var7 = var8.bind(var1)(var9, var7);
-        var2['setActiveSinksChangeCallback'] = var7;
-        var9 = 'on-broadcast-requested';
+        var7 = var9.bind(var1)(var10, var7);
+        var8['setActiveSinksChangeCallback'] = var7;
+        var7 = var5[var2];
+        var7 = var4.bind(var1)(var7);
+        var8 = var7.VoiceEngine;
+        var10 = 'on-broadcast-requested';
         var7 = function() {
             var1 = new Array(0);
             return var1;
         };
-        var7 = var8.bind(var1)(var9, var7);
-        var2['setBroadcastRequestCallback'] = var7;
-        var9 = 'on-broadcast-finished';
+        var7 = var9.bind(var1)(var10, var7);
+        var8['setBroadcastRequestCallback'] = var7;
+        var7 = var5[var2];
+        var7 = var4.bind(var1)(var7);
+        var8 = var7.VoiceEngine;
+        var10 = 'on-broadcast-finished';
         var7 = function() {
             var1 = new Array(0);
             return var1;
         };
-        var7 = var8.bind(var1)(var9, var7);
-        var2['setBroadcastFinishedCallback'] = var7;
-        var9 = 'on-broadcast-annotated';
+        var7 = var9.bind(var1)(var10, var7);
+        var8['setBroadcastFinishedCallback'] = var7;
+        var7 = var5[var2];
+        var7 = var4.bind(var1)(var7);
+        var8 = var7.VoiceEngine;
+        var10 = 'on-broadcast-annotated';
         var7 = function(arg1) {
             var1 = arg1;
             var2 = var1.appBundleIdentifier;
@@ -896,16 +985,22 @@ case 30:
             var1[0] = var2;
             return var1;
         };
-        var7 = var8.bind(var1)(var9, var7);
-        var2['setBroadcastAnnotatedCallback'] = var7;
-        var9 = 'on-broadcast-blocked';
+        var7 = var9.bind(var1)(var10, var7);
+        var8['setBroadcastAnnotatedCallback'] = var7;
+        var7 = var5[var2];
+        var7 = var4.bind(var1)(var7);
+        var8 = var7.VoiceEngine;
+        var10 = 'on-broadcast-blocked';
         var7 = function() {
             var1 = new Array(0);
             return var1;
         };
-        var7 = var8.bind(var1)(var9, var7);
-        var2['setBroadcastBlockedCallback'] = var7;
-        var9 = 'system-microphone-mode-change';
+        var7 = var9.bind(var1)(var10, var7);
+        var8['setBroadcastBlockedCallback'] = var7;
+        var7 = var5[var2];
+        var7 = var4.bind(var1)(var7);
+        var8 = var7.VoiceEngine;
+        var10 = 'system-microphone-mode-change';
         var7 = function(arg1) {
             var1 = arg1;
             var2 = var1.mode;
@@ -913,9 +1008,9 @@ case 30:
             var1[0] = var2;
             return var1;
         };
-        var7 = var8.bind(var1)(var9, var7);
-        var2['setSystemMicrophoneModeChangeCallback'] = var7;
-        var9 = 'on-broadcast-thumbnail';
+        var7 = var9.bind(var1)(var10, var7);
+        var8['setSystemMicrophoneModeChangeCallback'] = var7;
+        var8 = 'on-broadcast-thumbnail';
         var7 = function(arg1) {
             var1 = arg1;
             var2 = var1.imgdata;
@@ -923,14 +1018,22 @@ case 30:
             var1[0] = var2;
             return var1;
         };
-        var7 = var8.bind(var1)(var9, var7);
+        var7 = var9.bind(var1)(var8, var7);
         var _closure1_slot10 = var7;
+        var7 = var5[var2];
+        var7 = var4.bind(var1)(var7);
+        var8 = var7.VoiceEngine;
         var7 = function(arg1, arg2, arg3, arg4) {
             var4 = _closure1_slot10;
             var1 = undefined;
             var3 = arg4;
             var3 = var4.bind(var1)(var3);
-            var6 = _closure1_slot3;
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var2 = 4;
+            var2 = var4[var2];
+            var2 = var3.bind(var1)(var2);
+            var6 = var2.VoiceEngine;
             var5 = var6.setBroadcastThumbnailParams;
             var4 = arg1;
             var3 = arg2;
@@ -938,24 +1041,33 @@ case 30:
             var2 = var5.bind(var6)(var4, var3, var2);
             return var1;
         };
-        var2['setBroadcastThumbnailCallback'] = var7;
-        var7 = 'audio-input-initialized';
-        var4 = function(arg1) {
+        var8['setBroadcastThumbnailCallback'] = var7;
+        var7 = var5[var2];
+        var7 = var4.bind(var1)(var7);
+        var7 = var7.VoiceEngine;
+        var8 = 'audio-input-initialized';
+        var6 = function(arg1) {
             var1 = new Array(1);
             var2 = arg1;
             var1[0] = var2;
             return var1;
         };
-        var4 = var8.bind(var1)(var7, var4);
-        var2['setAudioInputInitializationCallback'] = var4;
-        var4 = var2.initializeEngine;
-        var4 = var4.bind(var2)();
-        var4 = 4;
-        var4 = var6[var4];
-        var6 = var5.bind(var1)(var4);
-        var5 = var6.fileFinishedImporting;
-        var4 = '../discord_common/js/packages/media-engine/native/ios/VoiceEngine.tsx';
-        var4 = var5.bind(var6)(var4);
+        var6 = var9.bind(var1)(var8, var6);
+        var7['setAudioInputInitializationCallback'] = var6;
+        var6 = var5[var2];
+        var6 = var4.bind(var1)(var6);
+        var7 = var6.VoiceEngine;
+        var6 = var7.initializeEngine;
+        var6 = var6.bind(var7)();
+        var6 = 5;
+        var6 = var5[var6];
+        var8 = var4.bind(var1)(var6);
+        var7 = var8.fileFinishedImporting;
+        var6 = '../discord_common/js/packages/media-engine/native/ios/VoiceEngine.tsx';
+        var6 = var7.bind(var8)(var6);
+        var2 = var5[var2];
+        var2 = var4.bind(var1)(var2);
+        var2 = var2.VoiceEngine;
         var3['default'] = var2;
         return var1;
     }

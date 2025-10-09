@@ -235,7 +235,7 @@ case 9:
         }
     };
     var6['fromCompressionQuality'] = var5;
-    var5 = {'bitrateFloor': 300000, 'createHDR': false, 'frameRate': 30, 'keyFrameIntervalSeconds': 3, 'rotationDegrees': 0, 'skipVideoTranscode': false, 'targetBitrate': null, 'targetHeight': 480, 'targetWidth': 640, 'useHEVC': false, 'videoQuality': null, 'hevcIsSupported': false, 'useTranscodedVideoForMovSources': false, 'transmuxLivePhotos': false, 'progressUpdateGranularity': 10};
+    var5 = {'bitrateFloor': 300000, 'createHDR': false, 'frameRate': 30, 'keyFrameIntervalSeconds': 3, 'rotationDegrees': 0, 'skipVideoTranscode': false, 'targetBitrate': null, 'targetHeight': 480, 'targetWidth': 640, 'useHEVC': false, 'videoQuality': null, 'hevcIsSupported': false, 'useTranscodedVideoForMovSources': true, 'transmuxLivePhotos': true, 'progressUpdateGranularity': 10};
     var7 = var6.MEDIUM;
     var7 = var7.targetBitrate;
     var5['targetBitrate'] = var7;

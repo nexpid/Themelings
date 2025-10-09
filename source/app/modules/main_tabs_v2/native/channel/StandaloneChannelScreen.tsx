@@ -195,15 +195,11 @@ case 13:
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
                 var3 = var4.navigateToRootTab;
-                var2 = {};
-                var5 = 'guilds';
-                var2['screen'] = var5;
+                var2 = {'screen': 'guilds', 'guildId': null, 'channelId': null, 'resetRoot': false, 'drawerOpen': false};
                 var6 = _closure2_slot1;
                 var2['guildId'] = var6;
                 var5 = _closure2_slot0;
                 var2['channelId'] = var5;
-                var5 = false;
-                var2['resetRoot'] = var5;
                 var2 = var3.bind(var4)(var2);
                 return var1;
             };

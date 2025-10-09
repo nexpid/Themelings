@@ -99,7 +99,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = 10;
     var11 = var6[var11];
     var11 = var5.bind(var1)(var11);
-    var11 = var11.BoostTier1Icon;
+    var11 = var11.BoostGemOutlineIcon;
     var8['IconComponent'] = var11;
     var4[1] = var8;
     var8 = {};
@@ -118,7 +118,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = 11;
     var11 = var6[var11];
     var11 = var5.bind(var1)(var11);
-    var11 = var11.BoostTier2Icon;
+    var11 = var11.BoostGemIcon;
     var8['IconComponent'] = var11;
     var4[2] = var8;
     var8 = {};

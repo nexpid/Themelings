@@ -180,7 +180,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var14 = 8;
         var14 = var17[var14];
         var14 = var16.bind(var4)(var14);
-        var14 = var14.BoostTier2Icon;
+        var14 = var14.BoostGemIcon;
         var9['IconComponent'] = var14;
         var14 = var17[var13];
         var14 = var16.bind(var4)(var14);

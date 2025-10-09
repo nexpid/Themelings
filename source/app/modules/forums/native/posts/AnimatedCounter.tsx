@@ -698,7 +698,7 @@ case 32:
             var1['textVariant'] = var7;
             var1['textStyle'] = var6;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0007_ip = 33; continue _fun0007;
+            _fun0007_ip = 9; continue _fun0007;
 case 31:
             var3 = _closure1_slot18;
             var2 = {};
@@ -709,7 +709,7 @@ case 31:
             var2['textVariant'] = var7;
             var2['textStyle'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 33:
+case 9:
             return var1;
         }
     };

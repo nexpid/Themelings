@@ -260,7 +260,7 @@ case 13:
             var3 = var2.DEBUG_MISSING_STRING;
             var2 = {};
             var6 = 'format';
-            var2['formatMethod'] = var6;
+            var2['intl_format_method'] = var6;
             var2 = var4.bind(var5)(var3, var2);
 case 5:
             return var1;
@@ -309,7 +309,7 @@ case 17:
             var3 = var2.DEBUG_MISSING_STRING;
             var2 = {};
             var6 = 'formatToPlainString';
-            var2['formatMethod'] = var6;
+            var2['intl_format_method'] = var6;
             var2 = var4.bind(var5)(var3, var2);
 case 16:
             return var1;
@@ -357,7 +357,7 @@ case 17:
             var3 = var2.DEBUG_MISSING_STRING;
             var2 = {};
             var6 = 'formatToMarkdownString';
-            var2['formatMethod'] = var6;
+            var2['intl_format_method'] = var6;
             var2 = var4.bind(var5)(var3, var2);
 case 16:
             return var1;
@@ -406,7 +406,7 @@ case 20:
             var3 = var2.DEBUG_MISSING_STRING;
             var2 = {};
             var6 = 'formatToParts';
-            var2['formatMethod'] = var6;
+            var2['intl_format_method'] = var6;
             var2 = var4.bind(var5)(var3, var2);
 case 19:
             return var1;
@@ -463,7 +463,7 @@ case 24:
             var3 = var2.DEBUG_MISSING_STRING;
             var2 = {};
             var6 = 'string';
-            var2['formatMethod'] = var6;
+            var2['intl_format_method'] = var6;
             var2 = var4.bind(var5)(var3, var2);
 case 23:
             return var1;

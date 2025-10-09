@@ -148,16 +148,23 @@ case 6:
             var1['label'] = var6;
             var1['externalChildren'] = var5;
             var7 = _closure1_slot5;
-            var6 = _closure1_slot0;
+            var6 = _closure1_slot1;
             var10 = _closure1_slot2;
             var5 = 10;
+            var5 = var10[var5];
+            var6 = var6.bind(var4)(var5);
+            var5 = {};
+            var5 = var7.bind(var4)(var6, var5);
+            var1['expandedChildren'] = var5;
+            var6 = _closure1_slot0;
+            var5 = 11;
             var5 = var10[var5];
             var5 = var6.bind(var4)(var5);
             var6 = var5.ChatIcon;
             var5 = {};
             var10 = _closure1_slot1;
             var11 = _closure1_slot2;
-            var9 = 11;
+            var9 = 12;
             var9 = var11[var9];
             var9 = var10.bind(var4)(var9);
             var9 = var9.colors;
@@ -176,7 +183,7 @@ case 9:
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 12;
+    var4 = 13;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

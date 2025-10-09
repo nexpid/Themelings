@@ -28,7 +28,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = metroImportAll;
     var4 = var4.bind(var1)(var7);
     var _closure1_slot4 = var4;
-    var4 = 9;
+    var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -182,18 +182,22 @@ case 14:
                         var4 = _closure2_slot4;
                         if(!(var8 != var4)) { _fun0002_ip = 16; continue _fun0002 }
 case 17:
-                        var9 = {};
-                        var4 = _closure2_slot4;
-                        var4 = var4.id;
-                        var9['profile_effect_id'] = var4;
                         var7 = _closure1_slot0;
                         var10 = _closure1_slot1;
                         var4 = 7;
                         var4 = var10[var4];
+                        var11 = var7.bind(var5)(var4);
+                        var9 = var11.getProfileChangesForUpdateRequest;
+                        var4 = {};
+                        var12 = _closure2_slot4;
+                        var4['pendingProfileEffect'] = var12;
+                        var9 = var9.bind(var11)(var4);
+                        var4 = 8;
+                        var4 = var10[var4];
                         var7 = var7.bind(var5)(var4);
                         var4 = var7.saveProfileChanges;
                         var4 = var4.bind(var7)(var9);
-                        SaveGenerator(address=115);
+                        SaveGenerator(address=133);
 case 18:
                         return var4;
 case 19:
@@ -218,12 +222,12 @@ case 21:
 case 24:
                         var9 = _closure1_slot0;
                         var10 = _closure1_slot1;
-                        var7 = 8;
+                        var7 = 9;
                         var7 = var10[var7];
                         var9 = var9.bind(var5)(var7);
                         var7 = var9.saveAccountChanges;
                         var6 = var7.bind(var9)(var6);
-                        SaveGenerator(address=215);
+                        SaveGenerator(address=233);
 case 25:
                         return var6;
 case 26:

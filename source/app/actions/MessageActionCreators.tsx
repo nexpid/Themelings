@@ -548,6 +548,28 @@ case 19:
     };
     var9['messageGetter'] = var11;
     var2[var10] = var9;
+    var10 = var8.GUILD_MESSAGE_UPDATE_RATE_LIMIT_EXCEEDED;
+    var9 = {};
+    var11 = 'GUILD_MESSAGE_UPDATE_RATE_LIMIT_EXCEEDED';
+    var9['messageName'] = var11;
+    var11 = function messageGetter() {
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot2;
+        var1 = 44;
+        var2 = var6[var1];
+        var4 = undefined;
+        var2 = var5.bind(var4)(var2);
+        var3 = var2.intl;
+        var2 = var3.string;
+        var1 = var6[var1];
+        var1 = var5.bind(var4)(var1);
+        var1 = var1.t;
+        var1 = var1.Z5SUur;
+        var1 = var2.bind(var3)(var1);
+        return var1;
+    };
+    var9['messageGetter'] = var11;
+    var2[var10] = var9;
     var10 = var8.INVALID_MESSAGE_SEND_USER;
     var9 = {};
     var11 = 'BOT_DM_SEND_FAILED_WITH_HELP_LINK';

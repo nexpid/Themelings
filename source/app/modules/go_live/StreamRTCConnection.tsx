@@ -1017,7 +1017,7 @@ case 88:
                     var6 = var7.bind(var1)(var6);
                     var6 = var6.BaseConnectionEvent;
                     var7 = var6.ScreenshareFinish;
-                    var6 = function(arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11, arg12, arg13, arg14, arg15, arg16) {
+                    var6 = function(arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11, arg12, arg13, arg14) {
                         var1 = arg1;
                         var _closure5_slot0 = var1;
                         var1 = arg2;
@@ -1046,20 +1046,16 @@ case 88:
                         var _closure5_slot12 = var1;
                         var1 = arg14;
                         var _closure5_slot13 = var1;
-                        var1 = arg15;
-                        var _closure5_slot14 = var1;
-                        var1 = arg16;
-                        var _closure5_slot15 = var1;
                         var3 = _closure3_slot0;
                         var1 = var3.getMediaSessionId;
                         var1 = var1.bind(var3)();
-                        var _closure5_slot16 = var1;
+                        var _closure5_slot14 = var1;
                         var1 = var3.getRTCConnectionId;
                         var1 = var1.bind(var3)();
-                        var _closure5_slot17 = var1;
+                        var _closure5_slot15 = var1;
                         var1 = var3.getGoLiveSource;
                         var1 = var1.bind(var3)();
-                        var _closure5_slot18 = var1;
+                        var _closure5_slot16 = var1;
                         var3 = _closure1_slot18;
                         var1 = undefined;
                         var4 = var3.bind(var1)();
@@ -1141,29 +1137,29 @@ case 101:
                                 var1 = _closure5_slot9;
 case 100:
                                 var3 = var3 + var1;
-                                var1 = _closure5_slot15;
+                                var1 = _closure5_slot13;
                                 var4 = var9 != var1;
                                 var1 = 0;
                                 if(!var4) { _fun0012_ip = 102; continue _fun0012 }
 case 103:
-                                var1 = _closure5_slot15;
+                                var1 = _closure5_slot13;
 case 102:
                                 var1 = var3 + var1;
-                                var3 = _closure5_slot14;
+                                var3 = _closure5_slot12;
                                 var3 = var9 != var3;
                                 var2 = 0;
                                 if(!var3) { _fun0012_ip = 104; continue _fun0012 }
 case 105:
-                                var2 = _closure5_slot14;
+                                var2 = _closure5_slot12;
 case 104:
                                 var14 = var1 + var2;
-                                var1 = _closure5_slot18;
+                                var1 = _closure5_slot16;
                                 var3 = var9 == var1;
                                 var1 = undefined;
                                 var2 = undefined;
                                 if(var3) { _fun0012_ip = 106; continue _fun0012 }
 case 107:
-                                var3 = _closure5_slot18;
+                                var3 = _closure5_slot16;
                                 var3 = var3.desktopSource;
                                 var4 = var9 == var3;
                                 var2 = undefined;
@@ -1177,7 +1173,7 @@ case 106:
 case 110:
                                 var4 = _closure1_slot10;
                                 var3 = var4.getGameForPID;
-                                var2 = _closure5_slot18;
+                                var2 = _closure5_slot16;
                                 var2 = var2.desktopSource;
                                 var2 = var2.sourcePid;
                                 var5 = var3.bind(var4)(var2);
@@ -1221,32 +1217,28 @@ case 109:
                                 var2['hybrid_gdi_printwindow_frames'] = var15;
                                 var15 = _closure5_slot9;
                                 var2['quartz_frames'] = var15;
-                                var15 = _closure5_slot15;
+                                var15 = _closure5_slot13;
                                 var2['screencapturekit_frames'] = var15;
-                                var15 = _closure5_slot14;
+                                var15 = _closure5_slot12;
                                 var2['go_live_camera_frames'] = var15;
                                 var2['total_frames'] = var14;
                                 var14 = _closure5_slot10;
                                 var2['desktop_capturer_type'] = var14;
-                                var14 = _closure5_slot16;
+                                var14 = _closure5_slot14;
                                 var2['media_session_id'] = var14;
-                                var14 = _closure5_slot17;
+                                var14 = _closure5_slot15;
                                 var2['rtc_connection_id'] = var14;
                                 var13 = _closure1_slot22;
                                 var13 = var13.STREAM;
                                 var2['context'] = var13;
                                 var13 = _closure5_slot11;
-                                var2['screens'] = var13;
-                                var13 = _closure5_slot12;
-                                var2['windows'] = var13;
-                                var13 = _closure5_slot13;
                                 var2['activity'] = var13;
-                                var13 = _closure5_slot18;
+                                var13 = _closure5_slot16;
                                 var14 = var9 == var13;
                                 var13 = undefined;
                                 if(var14) { _fun0012_ip = 111; continue _fun0012 }
 case 112:
-                                var12 = _closure5_slot18;
+                                var12 = _closure5_slot16;
                                 var12 = var12.desktopSource;
                                 var14 = var9 == var12;
                                 var13 = undefined;

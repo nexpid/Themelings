@@ -936,13 +936,13 @@ case 0:
                 var8 = this;
                 var _closure3_slot0 = var8;
                 var14 = var1.applicationId;
-                var12 = var1.guildId;
-                var _closure3_slot1 = var12;
-                var9 = var1.channelId;
-                var6 = var1.data;
+                var13 = var1.guildId;
+                var _closure3_slot1 = var13;
+                var12 = var1.channelId;
+                var11 = var1.data;
                 var7 = var1.nonce;
                 var _closure3_slot2 = var7;
-                var10 = var1.attachments;
+                var6 = var1.attachments;
                 var3 = var1.maxSizeCallback;
                 var _closure3_slot3 = var3;
                 var5 = var1.analytics_location;
@@ -950,7 +950,7 @@ case 0:
                 var3 = var1.source;
                 var1 = undefined;
                 var _closure3_slot4 = var1;
-                var13 = {};
+                var9 = {};
                 var16 = _closure1_slot0;
                 var17 = _closure1_slot2;
                 var15 = 17;
@@ -958,31 +958,25 @@ case 0:
                 var15 = var16.bind(var1)(var15);
                 var15 = var15.InteractionTypes;
                 var15 = var15.APPLICATION_COMMAND;
-                var13['type'] = var15;
-                var13['application_id'] = var14;
-                var13['guild_id'] = var12;
-                var13['channel_id'] = var9;
-                var12 = _closure1_slot12;
-                var9 = var12.getSessionId;
-                var9 = var9.bind(var12)();
-                var13['session_id'] = var9;
-                var13['data'] = var6;
-                var13['nonce'] = var7;
-                var13['analytics_location'] = var5;
-                var13['section_name'] = var4;
-                var13['source'] = var3;
+                var9['type'] = var15;
+                var9['application_id'] = var14;
+                var9['guild_id'] = var13;
+                var9['channel_id'] = var12;
+                var13 = _closure1_slot12;
+                var12 = var13.getSessionId;
+                var12 = var12.bind(var13)();
+                var9['session_id'] = var12;
+                var9['data'] = var11;
+                var9['nonce'] = var7;
+                var9['analytics_location'] = var5;
+                var9['section_name'] = var4;
+                var9['source'] = var3;
                 var3 = null;
-                var3 = var3 != var10;
-                var9 = undefined;
-                if(!var3) { _fun0014_ip = 50; continue _fun0014 }
-case 13:
-                var4 = var13.data;
-                var3 = new Array(0);
-                var4['attachments'] = var3;
-                var9 = new Array(0);
-                var5 = var13.data;
-                var6 = var10.map;
-                var4 = function(arg1, arg2) {
+                if(!(var3 != var6)) { _fun0014_ip = 50; continue _fun0014 }
+case 51:
+                var4 = var9.data;
+                var5 = var6.map;
+                var3 = function(arg1, arg2) {
                     var4 = arg1;
                     var6 = _closure1_slot1;
                     var5 = _closure1_slot2;
@@ -1008,11 +1002,11 @@ case 13:
                     var1 = var2.bind(var3)(var4, var1);
                     return var1;
                 };
-                var4 = var6.bind(var10)(var4);
-                var5['attachments'] = var4;
+                var3 = var5.bind(var6)(var3);
+                var4['attachments'] = var3;
 case 50:
-                var10 = global;
-                var3 = var10.AbortController;
+                var3 = global;
+                var3 = var3.AbortController;
                 var4 = var3.prototype;
                 var4 = Object.create(var4, {constructor: {value: var3}});
                 var20 = var4;
@@ -1027,20 +1021,10 @@ case 50:
                 var5 = var3.HTTP;
                 var4 = var5.post;
                 var3 = {};
-                var11 = _closure1_slot15;
-                var11 = var11.INTERACTIONS;
-                var3['url'] = var11;
-                var11 = {};
-                var12 = 'payload_json';
-                var11['name'] = var12;
-                var12 = var10.JSON;
-                var10 = var12.stringify;
-                var10 = var10.bind(var12)(var13);
-                var11['value'] = var10;
-                var10 = new Array(1);
-                var10[0] = var11;
-                var3['fields'] = var10;
-                var3['attachments'] = var9;
+                var10 = _closure1_slot15;
+                var10 = var10.INTERACTIONS;
+                var3['url'] = var10;
+                var3['body'] = var9;
                 var6 = var6.signal;
                 var3['signal'] = var6;
                 var6 = true;
@@ -1071,22 +1055,22 @@ case 0:
                             var3 = var4.bind(var5)(var3);
                             var5 = null;
                             var4 = var5 != var6;
-                            if(!var4) { _fun0015_ip = 51; continue _fun0015 }
+                            if(!var4) { _fun0015_ip = 52; continue _fun0015 }
 case 23:
                             var4 = var6 > var3;
-case 51:
-                            if(!var4) { _fun0015_ip = 52; continue _fun0015 }
-case 53:
+case 52:
+                            if(!var4) { _fun0015_ip = 53; continue _fun0015 }
+case 54:
                             var7 = _closure3_slot0;
                             var6 = var7.cancelRequest;
                             var4 = _closure3_slot2;
                             var4 = var6.bind(var7)(var4);
                             var4 = _closure3_slot3;
-                            if(!(var5 != var4)) { _fun0015_ip = 52; continue _fun0015 }
-case 54:
+                            if(!(var5 != var4)) { _fun0015_ip = 53; continue _fun0015 }
+case 55:
                             var2 = _closure3_slot3;
                             var2 = var2.bind(var1)(var3);
-case 52:
+case 53:
                             return var1;
                         }
                     };
@@ -1139,24 +1123,24 @@ case 0:
             var4 = _closure1_slot19;
             var3 = undefined;
             var4 = var4.bind(var3)(var2);
-            if(var4) { _fun0016_ip = 55; continue _fun0016 }
-case 56:
+            if(var4) { _fun0016_ip = 56; continue _fun0016 }
+case 57:
             var1 = _closure1_slot20;
             var1 = var1.bind(var3)(var2);
             var3 = var2.message;
-            if(var1) { _fun0016_ip = 57; continue _fun0016 }
-case 58:
+            if(var1) { _fun0016_ip = 58; continue _fun0016 }
+case 59:
             var1 = var3.data;
             var1 = var1.id;
             _fun0016_ip = 48; continue _fun0016;
-case 57:
+case 58:
             var1 = var3.messageId;
 case 48:
-            _fun0016_ip = 59; continue _fun0016;
-case 55:
+            _fun0016_ip = 60; continue _fun0016;
+case 56:
             var2 = var2.message;
             var1 = var2.nonce;
-case 59:
+case 60:
             return var1;
         }
     };

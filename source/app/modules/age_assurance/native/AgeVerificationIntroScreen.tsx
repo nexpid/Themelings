@@ -181,8 +181,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var18[var1];
         var3 = var15.bind(var4)(var1);
         var2 = var3.useInitiateAgeVerification;
-        var1 = false;
-        var1 = var2.bind(var3)(var6, var1, var5);
+        var1 = {};
+        var1['onComplete'] = var6;
+        var1['visibleContent'] = var5;
+        var1 = var2.bind(var3)(var1);
         var13 = var1.loading;
         var1 = var1.initiateAgeVerification;
         var _closure2_slot1 = var1;

@@ -318,15 +318,9 @@ case 21:
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var1 = arg1;
-            var6 = arg3;
-            var7 = arg4;
-            var3 = arg5;
-            var2 = null;
-            if(!(var2 == var1)) { _fun0003_ip = 22; continue _fun0003 }
-case 23:
-            if(!var3) { _fun0003_ip = 24; continue _fun0003 }
-case 25:
-            var5 = var6.findIndex;
+            var7 = arg3;
+            var8 = arg4;
+            var3 = var7.findIndex;
             var2 = function(arg1) {
                 var1 = arg1;
                 var2 = var1.type;
@@ -341,45 +335,68 @@ case 25:
                 var1 = var2 === var1;
                 return var1;
             };
-            var2 = var5.bind(var6)(var2);
-            var5 = 0;
-            if(!(!(var2 >= var5))) { _fun0003_ip = 26; continue _fun0003 }
-case 24:
-            var5 = 'system';
-            var8 = arg2;
-            if(var8) { _fun0003_ip = 27; continue _fun0003 }
-case 28:
-            var5 = var7;
-case 27:
-            var _closure2_slot0 = var5;
-            var5 = var6.findIndex;
+            var3 = var3.bind(var7)(var2);
+            var2 = 0;
+            var3 = var3 >= var2;
+            var4 = null;
+            if(!(var4 == var1)) { _fun0003_ip = 22; continue _fun0003 }
+case 23:
+            var4 = arg5;
+            if(!var4) { _fun0003_ip = 24; continue _fun0003 }
+case 25:
+            var6 = var7.findIndex;
             var4 = function(arg1) {
+                var1 = arg1;
+                var2 = var1.type;
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var1 = 3;
+                var3 = var3[var1];
+                var1 = undefined;
+                var1 = var4.bind(var1)(var3);
+                var1 = var1.ClientThemeType;
+                var1 = var1.CUSTOM_BACKGROUND_GRADIENT;
+                var1 = var2 === var1;
+                return var1;
+            };
+            var4 = var6.bind(var7)(var4);
+            if(var3) { _fun0003_ip = 26; continue _fun0003 }
+case 24:
+            var6 = 'system';
+            var9 = arg2;
+            if(var9) { _fun0003_ip = 27; continue _fun0003 }
+case 28:
+            var6 = var8;
+case 27:
+            var _closure2_slot0 = var6;
+            var6 = var7.findIndex;
+            var5 = function(arg1) {
                 var1 = arg1;
                 var2 = var1.theme;
                 var1 = _closure2_slot0;
                 var1 = var2 === var1;
                 return var1;
             };
-            var5 = var5.bind(var6)(var4);
-            var4 = 0;
-            var6 = var5 >= var4;
-            if(!var6) { _fun0003_ip = 29; continue _fun0003 }
+            var6 = var6.bind(var7)(var5);
+            var7 = var6 >= var2;
+            var5 = 0;
+            if(!var7) { _fun0003_ip = 29; continue _fun0003 }
 case 30:
-            var4 = var5;
+            var5 = var6;
 case 29:
-            return var4;
+            return var5;
 case 26:
-            return var2;
+            return var4;
 case 22:
-            var2 = _closure1_slot8;
+            var4 = _closure1_slot8;
             var1 = var1.id;
-            var2 = var2[var1];
-            var1 = 0;
+            var1 = var4[var1];
+            var2 = 0;
             if(!var3) { _fun0003_ip = 31; continue _fun0003 }
 case 32:
-            var1 = 1;
+            var2 = 1;
 case 31:
-            var1 = var2 + var1;
+            var1 = var1 + var2;
             return var1;
         }
     };

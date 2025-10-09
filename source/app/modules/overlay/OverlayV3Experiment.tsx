@@ -500,16 +500,6 @@ case 2:
     var3['getOverlayDefaultKeybind'] = var6;
     var3['OverlayNegativeWidgetExperiment'] = var5;
     var3['getOverlayNegativeWidgetConfig'] = var4;
-    var4 = function useOverlayNegativeWidget(arg1) {
-        var3 = _closure1_slot8;
-        var2 = var3.useExperiment;
-        var1 = {};
-        var4 = arg1;
-        var1['location'] = var4;
-        var1 = var2.bind(var3)(var1);
-        return var1;
-    };
-    var3['useOverlayNegativeWidget'] = var4;
     var2 = function trackOverlayInitializedExperiments() {
         var4 = _closure1_slot11;
         var1 = undefined;

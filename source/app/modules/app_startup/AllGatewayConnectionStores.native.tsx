@@ -590,9 +590,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var4.bind(var1)(var2);
     var2 = 192;
     var2 = var5[var2];
-    var2 = var4.bind(var1)(var2);
-    var2 = 193;
-    var2 = var5[var2];
     var5 = var4.bind(var1)(var2);
     var4 = var5.fileFinishedImporting;
     var2 = 'modules/app_startup/AllGatewayConnectionStores.native.tsx';

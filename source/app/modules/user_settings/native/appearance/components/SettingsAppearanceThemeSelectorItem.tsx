@@ -375,13 +375,15 @@ case 5:
             var5[1] = var8;
             var1['style'] = var5;
             var9 = _closure1_slot6;
-            var15 = _closure1_slot1;
+            var8 = _closure1_slot0;
             var16 = _closure1_slot2;
             var5 = 10;
             var5 = var16[var5];
-            var8 = var15.bind(var4)(var5);
+            var5 = var8.bind(var4)(var5);
+            var8 = var5.CustomThemedGradient;
             var5 = {};
             var13 = {};
+            var15 = _closure1_slot1;
             var14 = 7;
             var14 = var16[var14];
             var14 = var15.bind(var4)(var14);
@@ -399,12 +401,12 @@ case 17:
             var12 = _closure1_slot10;
 case 19:
             var5['mixColorOverride'] = var12;
-            var5['gradientOverride'] = var11;
+            var5['customTheme'] = var11;
             var8 = var9.bind(var4)(var8, var5);
             var5 = new Array(2);
             var5[0] = var8;
-            if(!var6) { _fun0004_ip = 10; continue _fun0004 }
-case 11:
+            if(!var6) { _fun0004_ip = 20; continue _fun0004 }
+case 21:
             var9 = _closure1_slot6;
             var12 = _closure1_slot1;
             var13 = _closure1_slot2;
@@ -419,7 +421,7 @@ case 11:
             var10 = var10.lock;
             var7['style'] = var10;
             var6 = var9.bind(var4)(var8, var7);
-case 10:
+case 20:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
@@ -453,8 +455,8 @@ case 0:
             var1 = var3.bind(var4)(var1);
             var1 = var1.ClientThemeType;
             var1 = var1.STANDARD_BACKGROUND_THEME;
-            if(!(var2 !== var1)) { _fun0005_ip = 20; continue _fun0005 }
-case 21:
+            if(!(var2 !== var1)) { _fun0005_ip = 22; continue _fun0005 }
+case 23:
             var2 = var7.type;
             var3 = _closure1_slot0;
             var1 = _closure1_slot2;
@@ -462,31 +464,31 @@ case 21:
             var1 = var3.bind(var4)(var1);
             var1 = var1.ClientThemeType;
             var1 = var1.CUSTOM_BACKGROUND_GRADIENT;
-            if(!(var2 !== var1)) { _fun0005_ip = 22; continue _fun0005 }
-case 23:
+            if(!(var2 !== var1)) { _fun0005_ip = 24; continue _fun0005 }
+case 25:
             var3 = _closure1_slot6;
             var2 = _closure1_slot12;
             var1 = {};
             var1['isPreview'] = var6;
             var1['item'] = var7;
             var12 = var3.bind(var4)(var2, var1);
-            _fun0005_ip = 24; continue _fun0005;
-case 22:
+            _fun0005_ip = 26; continue _fun0005;
+case 24:
             var3 = _closure1_slot6;
             var2 = _closure1_slot14;
             var1 = {};
             var1['item'] = var7;
             var1['isPreview'] = var6;
             var12 = var3.bind(var4)(var2, var1);
-case 24:
-            _fun0005_ip = 17; continue _fun0005;
-case 20:
+case 26:
+            _fun0005_ip = 27; continue _fun0005;
+case 22:
             var3 = _closure1_slot6;
             var2 = _closure1_slot13;
             var1 = {};
             var1['item'] = var7;
             var12 = var3.bind(var4)(var2, var1);
-case 17:
+case 27:
             var3 = _closure1_slot6;
             var2 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -516,19 +518,19 @@ case 17:
             var5['style'] = var8;
             var8 = new Array(2);
             var8[0] = var12;
-            if(!var9) { _fun0005_ip = 25; continue _fun0005 }
-case 26:
+            if(!var9) { _fun0005_ip = 28; continue _fun0005 }
+case 29:
             var9 = !var11;
-case 25:
-            if(!var9) { _fun0005_ip = 27; continue _fun0005 }
 case 28:
+            if(!var9) { _fun0005_ip = 30; continue _fun0005 }
+case 31:
             var12 = _closure1_slot6;
             var11 = _closure1_slot3;
             var10 = {};
             var13 = var13.newRedCircle;
             var10['style'] = var13;
             var9 = var12.bind(var4)(var11, var10);
-case 27:
+case 30:
             var8[1] = var9;
             var5['children'] = var8;
             var5 = var7.bind(var4)(var6, var5);

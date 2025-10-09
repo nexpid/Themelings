@@ -93,7 +93,7 @@ case 34:
                     if(!(var8 !== var13)) { _fun0001_ip = 35; continue _fun0001 }
 case 36:
                     var8 = _closure1_slot12;
-                    var8 = var8.PORTKEY;
+                    var8 = var8.GAME_SERVERS;
                     if(!(var8 !== var13)) { _fun0001_ip = 37; continue _fun0001 }
 case 38:
                     var9 = _closure1_slot0;
@@ -158,7 +158,7 @@ case 37:
                     var8 = 15;
                     var8 = var11[var8];
                     var11 = var9.bind(var7)(var8);
-                    var9 = var11.getPortkeyEnabled;
+                    var9 = var11.getGameServerEnabled;
                     var8 = 'isAccessibleChannelOrThreadPath';
                     var8 = var9.bind(var11)(var6, var8);
                     if(!var8) { _fun0001_ip = 49; continue _fun0001 }

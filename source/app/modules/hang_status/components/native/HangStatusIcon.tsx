@@ -137,6 +137,10 @@ case 7:
     var9 = {};
     var9['flexShrink'] = var10;
     var4['emoji'] = var9;
+    var9 = {};
+    var10 = 'contain';
+    var9['resizeMode'] = var10;
+    var4['baseImageEmojiStyle'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot10 = var4;
     var4 = {};
@@ -282,7 +286,7 @@ case 27:
             var12 = var5[var15];
             var16 = var4.bind(var6)(var12);
             var14 = var16.useAnimatedStyle;
-            var12 = function O() {
+            var12 = function z() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var1 = {};
@@ -318,7 +322,7 @@ case 36:
             var12 = var5[var15];
             var14 = var4.bind(var6)(var12);
             var12 = var14.useAnimatedStyle;
-            var2 = function z() {
+            var2 = function O() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var1 = {};
@@ -419,7 +423,11 @@ case 55:
             var10 = var13;
 case 54:
             var5['size'] = var10;
-            var5['style'] = var17;
+            var13 = var8.baseImageEmojiStyle;
+            var10 = new Array(2);
+            var10[0] = var13;
+            var10[1] = var17;
+            var5['style'] = var10;
             var4 = var7.bind(var6)(var12, var5);
 case 53:
             return var4;
@@ -434,7 +442,11 @@ case 57:
             var5['source'] = var12;
             var12 = '';
             var5['alt'] = var12;
-            var5['style'] = var17;
+            var13 = var8.baseImageEmojiStyle;
+            var12 = new Array(2);
+            var12[0] = var13;
+            var12[1] = var17;
+            var5['style'] = var12;
             var4 = var10.bind(var6)(var7, var5);
 case 56:
             return var4;
@@ -475,9 +487,11 @@ case 67:
             var19 = {};
             var19['uri'] = var21;
             var10['source'] = var19;
-            var19 = new Array(2);
-            var19[0] = var17;
-            var19[1] = var20;
+            var21 = var8.baseImageEmojiStyle;
+            var19 = new Array(3);
+            var19[0] = var21;
+            var19[1] = var17;
+            var19[2] = var20;
             var10['style'] = var19;
             var12 = var14.bind(var6)(var13, var10);
 case 66:
@@ -497,9 +511,11 @@ case 69:
             var15 = {};
             var15['uri'] = var18;
             var12['source'] = var15;
-            var15 = new Array(2);
-            var15[0] = var17;
-            var15[1] = var16;
+            var18 = var8.baseImageEmojiStyle;
+            var15 = new Array(3);
+            var15[0] = var18;
+            var15[1] = var17;
+            var15[2] = var16;
             var12['style'] = var15;
             var11 = var14.bind(var6)(var13, var12);
 case 68:

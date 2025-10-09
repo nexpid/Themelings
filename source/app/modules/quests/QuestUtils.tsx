@@ -1489,6 +1489,7 @@ case 69:
     var _closure1_slot15 = var16;
     var16 = var15.EMPTY_AD_DECISION_DATA;
     var _closure1_slot16 = var16;
+    var16 = var15.QuestsExperimentLocations;
     var16 = var15.QuestTaskPlatform;
     var _closure1_slot17 = var16;
     var15 = var15.QuestVariants;
@@ -3966,7 +3967,7 @@ case 3:
             var1 = var9[var1];
             var1 = var8.bind(var2)(var1);
             var1 = var1.t;
-            var2 = var1.tOWwxM;
+            var2 = var1.5bQWND;
             var1 = {};
             var1['gamePublisher'] = var7;
             var1['gameTitle'] = var5;

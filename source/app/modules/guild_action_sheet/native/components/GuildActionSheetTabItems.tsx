@@ -230,7 +230,7 @@ case 8:
             var17 = 16;
             var17 = var23[var17];
             var17 = var19.bind(var4)(var17);
-            var19 = var17.BoostTier2Icon;
+            var19 = var17.BoostGemIcon;
             var17 = {};
             var22 = _closure1_slot1;
             var21 = 17;

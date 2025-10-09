@@ -38,8 +38,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['GUILD_MOD_DASH_MEMBER_SAFETY'] = var1;
     var1 = 'guild-boosts';
     var4['GUILD_BOOSTS'] = var1;
-    var1 = 'portkey';
-    var4['PORTKEY'] = var1;
+    var1 = 'game-servers';
+    var4['GAME_SERVERS'] = var1;
     var2 = {};
     var1 = 'spacer';
     var2['SPACER'] = var1;

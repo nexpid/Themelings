@@ -22,23 +22,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot3 = var4;
     var4 = 1;
     var4 = var7[var4];
+    var4 = var5.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var7[var4];
     var4 = var6.bind(var1)(var4);
     var5 = var4.ACTION_TO_TEXT;
-    var _closure1_slot4 = var5;
-    var5 = var4.ACTION_TO_TEXT_V2;
     var _closure1_slot5 = var5;
-    var5 = var4.FAMILY_CENTER_ERROR_CODE_TO_FAILURE;
+    var5 = var4.ACTION_TO_TEXT_V2;
     var _closure1_slot6 = var5;
-    var5 = var4.FamilyCenterFailureCode;
+    var5 = var4.FAMILY_CENTER_ERROR_CODE_TO_FAILURE;
     var _closure1_slot7 = var5;
-    var4 = var4.TeenActionDisplayType;
-    var _closure1_slot8 = var4;
+    var5 = var4.FamilyCenterFailureCode;
+    var _closure1_slot8 = var5;
+    var5 = var4.TeenActionDisplayType;
+    var _closure1_slot9 = var5;
+    var4 = var4.UserLinkStatus;
+    var _closure1_slot10 = var4;
     var4 = function getActivityTypeTextConfigs(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = global;
             var5 = var2.Map;
-            var9 = _closure1_slot4;
+            var9 = _closure1_slot5;
             var4 = var5.prototype;
             var4 = Object.create(var4, {constructor: {value: var5}});
             var10 = var4;
@@ -54,7 +60,7 @@ case 3:
             var9 = var2;
             var8 = var6;
             var7 = arraySpread(var9, var8, var7);
-            var8 = _closure1_slot5;
+            var8 = _closure1_slot6;
             var9 = var2;
             var3 = arraySpread(var9, var8, var7);
             var3 = var4.prototype;
@@ -67,8 +73,8 @@ case 2:
             return var1;
         }
     };
-    var _closure1_slot9 = var4;
-    var5 = 6;
+    var _closure1_slot11 = var4;
+    var5 = 8;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -78,14 +84,14 @@ case 2:
         var1 = {};
         var7 = _closure1_slot0;
         var5 = _closure1_slot2;
-        var6 = 2;
+        var6 = 3;
         var3 = var5[var6];
         var4 = undefined;
         var3 = var7.bind(var4)(var3);
         var10 = var3.intl;
         var9 = var10.string;
         var3 = _closure1_slot1;
-        var2 = 3;
+        var2 = 4;
         var8 = var5[var2];
         var8 = var3.bind(var4)(var8);
         var8 = var8.VjIAQU;
@@ -113,14 +119,14 @@ case 0:
             var2 = {};
             var8 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var7 = 2;
+            var7 = 3;
             var3 = var6[var7];
             var5 = undefined;
             var3 = var8.bind(var5)(var3);
             var11 = var3.intl;
             var10 = var11.string;
             var4 = _closure1_slot1;
-            var3 = 3;
+            var3 = 4;
             var1 = var6[var3];
             var9 = var4.bind(var5)(var1);
             var1 = arg1;
@@ -174,7 +180,7 @@ case 0:
             var10 = arg3;
             var6 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var3 = 4;
+            var3 = 5;
             var2 = var7[var3];
             var4 = undefined;
             var2 = var6.bind(var4)(var2);
@@ -201,7 +207,7 @@ case 8:
 case 10:
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var1 = 2;
+            var1 = 3;
             var1 = var5[var1];
             var1 = var3.bind(var4)(var1);
             var5 = var1.intl;
@@ -243,7 +249,7 @@ case 0:
             var4 = arg1;
             var6 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var1 = 4;
+            var1 = 5;
             var2 = var7[var1];
             var5 = undefined;
             var2 = var6.bind(var5)(var2);
@@ -279,7 +285,7 @@ case 22:
 case 24:
             var4 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var1 = 2;
+            var1 = 3;
             var1 = var6[var1];
             var1 = var4.bind(var5)(var1);
             var8 = var1.intl;
@@ -292,7 +298,7 @@ case 24:
 case 23:
             var6 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var4 = 2;
+            var4 = 3;
             var4 = var8[var4];
             var4 = var6.bind(var5)(var4);
             var9 = var4.intl;
@@ -315,7 +321,7 @@ case 26:
 case 19:
             var6 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var4 = 2;
+            var4 = 3;
             var4 = var8[var4];
             var4 = var6.bind(var5)(var4);
             var9 = var4.intl;
@@ -334,7 +340,7 @@ case 27:
 case 17:
             var4 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var3 = 2;
+            var3 = 3;
             var3 = var6[var3];
             var3 = var4.bind(var5)(var3);
             var6 = var3.intl;
@@ -362,20 +368,20 @@ case 29:
 case 0:
             var3 = arg1;
             var4 = var3.display_type;
-            var1 = _closure1_slot8;
+            var1 = _closure1_slot9;
             var1 = var1.USER_ADD;
             var1 = var4 === var1;
             if(var1) { _fun0005_ip = 30; continue _fun0005 }
 case 31:
             var5 = var3.display_type;
-            var4 = _closure1_slot8;
+            var4 = _closure1_slot9;
             var4 = var4.USER_INTERACTION;
             var1 = var5 === var4;
 case 30:
             if(var1) { _fun0005_ip = 32; continue _fun0005 }
 case 33:
             var3 = var3.display_type;
-            var2 = _closure1_slot8;
+            var2 = _closure1_slot9;
             var2 = var2.USER_CALLED;
             var1 = var3 === var2;
 case 32:
@@ -388,13 +394,13 @@ case 32:
 case 0:
             var3 = arg1;
             var4 = var3.display_type;
-            var1 = _closure1_slot8;
+            var1 = _closure1_slot9;
             var1 = var1.GUILD_ADD;
             var1 = var4 === var1;
             if(var1) { _fun0006_ip = 30; continue _fun0006 }
 case 31:
             var3 = var3.display_type;
-            var2 = _closure1_slot8;
+            var2 = _closure1_slot9;
             var2 = var2.GUILD_INTERACTION;
             var1 = var3 === var2;
 case 30:
@@ -405,7 +411,7 @@ case 30:
     var5 = function(arg1) {
         var1 = arg1;
         var2 = var1.display_type;
-        var1 = _closure1_slot8;
+        var1 = _closure1_slot9;
         var1 = var1.PURCHASES;
         var1 = var2 === var1;
         return var1;
@@ -418,7 +424,7 @@ case 0:
             var1 = global;
             var3 = var1.Object;
             var2 = var3.values;
-            var1 = _closure1_slot8;
+            var1 = _closure1_slot9;
             var4 = var2.bind(var3)(var1);
             var1 = var4.length;
             var3 = 0;
@@ -444,14 +450,14 @@ case 36:
     var5 = function(arg1) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
-            var3 = _closure1_slot6;
+            var3 = _closure1_slot7;
             var1 = arg1;
             var1 = var1.code;
             var1 = var3[var1];
             var3 = null;
             if(!(var3 == var1)) { _fun0008_ip = 37; continue _fun0008 }
 case 38:
-            var2 = _closure1_slot7;
+            var2 = _closure1_slot8;
             var1 = var2.GENERIC_ERROR;
 case 37:
             return var1;
@@ -461,7 +467,7 @@ case 37:
     var5 = function(arg1) {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
-            var3 = _closure1_slot9;
+            var3 = _closure1_slot11;
             var2 = undefined;
             var1 = arg1;
             var4 = var3.bind(var2)(var1);
@@ -531,17 +537,17 @@ case 44:
         }
     };
     var3['formatTotalTime'] = var4;
-    var2 = function() {
+    var4 = function() {
         _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
-            var3 = _closure1_slot3;
+            var3 = _closure1_slot4;
             var2 = var3.getAreLinkedUsersProcessed;
             var2 = var2.bind(var3)();
             if(var2) { _fun0011_ip = 45; continue _fun0011 }
 case 46:
             var4 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var2 = 5;
+            var2 = 6;
             var3 = var3[var2];
             var2 = undefined;
             var4 = var4.bind(var2)(var3);
@@ -549,12 +555,108 @@ case 46:
             var3 = var3.bind(var4)();
             return var2;
 case 45:
-            var2 = _closure1_slot3;
+            var2 = _closure1_slot4;
             var1 = var2.getLinkedUsers;
             var1 = var1.bind(var2)();
             return var1;
         }
     };
-    var3['getOrFetchLinkedUsers'] = var2;
+    var3['getOrFetchLinkedUsers'] = var4;
+    var4 = function(arg1, arg2) {
+        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+case 0:
+            var1 = arg1;
+            var2 = arg2;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var3 = 7;
+            var4 = var4[var3];
+            var3 = undefined;
+            var5 = var5.bind(var3)(var4);
+            var4 = var5.useIsFamilyCenterV2Enabled;
+            var3 = 'family_center_activity_card';
+            var3 = var4.bind(var5)(var3);
+            if(!var3) { _fun0012_ip = 47; continue _fun0012 }
+case 48:
+            var1 = var2;
+case 47:
+            return var1;
+        }
+    };
+    var3['useFamilyCenterV2String'] = var4;
+    var4 = function(arg1, arg2) {
+        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+case 0:
+            var1 = arg1;
+            var2 = arg2;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var3 = 7;
+            var4 = var4[var3];
+            var3 = undefined;
+            var5 = var5.bind(var3)(var4);
+            var4 = var5.isFamilyCenterV2Enabled;
+            var3 = 'family_center_activity_card';
+            var3 = var4.bind(var5)(var3);
+            if(!var3) { _fun0013_ip = 47; continue _fun0013 }
+case 48:
+            var1 = var2;
+case 47:
+            return var1;
+        }
+    };
+    var3['getFamilyCenterV2String'] = var4;
+    var2 = function() {
+        _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
+case 0:
+            var3 = _closure1_slot3;
+            var1 = var3.getCurrentUser;
+            var1 = var1.bind(var3)();
+            var3 = global;
+            var5 = var3.Object;
+            var4 = var5.values;
+            var6 = _closure1_slot4;
+            var3 = var6.getLinkedUsers;
+            var3 = var3.bind(var6)();
+            var5 = var4.bind(var5)(var3);
+            var4 = var5.some;
+            var3 = function(arg1) {
+                var1 = arg1;
+                var2 = var1.link_status;
+                var1 = _closure1_slot10;
+                var1 = var1.ACTIVE;
+                var1 = var2 === var1;
+                return var1;
+            };
+            var3 = var4.bind(var5)(var3);
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 7;
+            var2 = var4[var2];
+            var4 = undefined;
+            var6 = var5.bind(var4)(var2);
+            var5 = var6.isFamilyCenterV2Enabled;
+            var2 = 'settings-controls';
+            var2 = var5.bind(var6)(var2);
+            var5 = null;
+            var5 = var5 == var1;
+            if(var5) { _fun0014_ip = 18; continue _fun0014 }
+case 49:
+            var4 = var1.nsfwAllowed;
+case 18:
+            var1 = false;
+            var1 = var1 === var4;
+            if(!var1) { _fun0014_ip = 50; continue _fun0014 }
+case 51:
+            var1 = var3;
+case 50:
+            if(!var1) { _fun0014_ip = 52; continue _fun0014 }
+case 53:
+            var1 = var2;
+case 52:
+            return var1;
+        }
+    };
+    var3['isParentallyControlled'] = var2;
     return var1;
 })();

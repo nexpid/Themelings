@@ -1547,7 +1547,7 @@ case 83:
                     var10 = 43;
                     var10 = var15[var10];
                     var10 = var11.bind(var4)(var10);
-                    var11 = var10.BoostTier2Icon;
+                    var11 = var10.BoostGemIcon;
                     var10 = {};
                     var14 = 'xs';
                     var10['size'] = var14;

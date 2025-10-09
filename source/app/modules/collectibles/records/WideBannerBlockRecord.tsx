@@ -39,8 +39,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.ShopBlockType;
             var4 = var4.WIDE_BANNER;
             var3['type'] = var4;
-            var4 = var2.banner_url;
-            var3['bannerUrl'] = var4;
             var4 = var2.title;
             var3['title'] = var4;
             var4 = var2.body;
@@ -49,8 +47,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['categoryStoreListingId'] = var4;
             var4 = var2.banner_text_color;
             var3['bannerTextColor'] = var4;
-            var2 = var2.disable_cta;
-            var3['disableCta'] = var2;
+            var4 = var2.disable_cta;
+            var3['disableCta'] = var4;
+            var4 = var2.banner_url;
+            var3['oldBannerURL'] = var4;
+            var4 = var2.wide_banner_url;
+            var3['bannerURL'] = var4;
+            var2 = var2.wide_banner_animated_url;
+            var3['bannerAnimatedURL'] = var2;
             return var1;
         };
         var _closure2_slot0 = var5;

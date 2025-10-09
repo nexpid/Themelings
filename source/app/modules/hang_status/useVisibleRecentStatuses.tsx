@@ -26,7 +26,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/hang_status/useVisibleRecentStatuses.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function useVisibleRecentStatuses() {
+    var4 = function useVisibleRecentStatuses() {
         var5 = _closure1_slot0;
         var4 = _closure1_slot2;
         var3 = 1;
@@ -107,6 +107,65 @@ case 5:
         var1 = var2.bind(var3)(var1, var4);
         return var1;
     };
-    var3['default'] = var2;
+    var3['default'] = var4;
+    var2 = function getVisibleRecentStatuses() {
+        var4 = _closure1_slot3;
+        var2 = var4.getRecentStatuses;
+        var3 = var2.bind(var4)();
+        var2 = var4.getCurrentHangStatus;
+        var2 = var2.bind(var4)();
+        var _closure2_slot0 = var2;
+        var2 = var4.getCustomHangStatus;
+        var2 = var2.bind(var4)();
+        var _closure2_slot1 = var2;
+        var2 = var4.getFavoritedStatuses;
+        var2 = var2.bind(var4)();
+        var4 = var2.length;
+        var2 = 6;
+        var4 = var2 - var4;
+        var2 = var3.filter;
+        var1 = function(arg1) {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+                var4 = arg1;
+                var3 = _closure1_slot1;
+                var5 = _closure1_slot2;
+                var2 = 2;
+                var2 = var5[var2];
+                var5 = undefined;
+                var2 = var3.bind(var5)(var2);
+                var2 = var2.bind(var5)(var4);
+                if(var2) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
+                var3 = _closure1_slot1;
+                var6 = _closure1_slot2;
+                var2 = 3;
+                var2 = var6[var2];
+                var3 = var3.bind(var5)(var2);
+                var2 = _closure2_slot1;
+                var2 = var3.bind(var5)(var4, var2);
+                _fun0002_ip = 4; continue _fun0002;
+case 2:
+                var3 = _closure2_slot0;
+                var2 = var4 === var3;
+case 4:
+                var3 = _closure1_slot3;
+                var1 = var3.isFavorited;
+                var1 = var1.bind(var3)(var4);
+                var1 = !var1;
+                if(!var1) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
+                var1 = !var2;
+case 5:
+                return var1;
+            }
+        };
+        var3 = var2.bind(var3)(var1);
+        var2 = var3.slice;
+        var1 = 0;
+        var1 = var2.bind(var3)(var1, var4);
+        return var1;
+    };
+    var3['getVisibleRecentStatuses'] = var2;
     return var1;
 })();

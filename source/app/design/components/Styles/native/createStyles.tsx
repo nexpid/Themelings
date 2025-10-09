@@ -250,7 +250,7 @@ case 30:
     var8 = 'function createStylesTsx1(){const{resolved,withTiming,interpolateColor,themeIndex,timingStandard}=this.__closure;const styles={};for(const propertyName in resolved){const value=resolved[propertyName];if(Array.isArray(value)){styles[propertyName]=withTiming(interpolateColor(themeIndex.get(),[0,1,2],value),timingStandard);}else{styles[propertyName]=value;}}return styles;}';
     var5['code'] = var8;
     var _closure1_slot7 = var5;
-    var5 = 11;
+    var5 = 10;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -625,7 +625,7 @@ case 46:
 case 38:
                 var3 = _closure1_slot0;
                 var1 = _closure1_slot2;
-                var15 = 10;
+                var15 = 3;
                 var1 = var1[var15];
                 var14 = undefined;
                 var8 = var3.bind(var14)(var1);

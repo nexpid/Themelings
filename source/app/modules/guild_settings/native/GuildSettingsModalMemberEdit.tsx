@@ -173,9 +173,20 @@ case 0:
                 var1 = 22;
                 var2 = var2[var1];
                 var1 = undefined;
-                var3 = var3.bind(var1)(var2);
-                var2 = var3.startEditingNickname;
-                var2 = var2.bind(var3)();
+                var2 = var3.bind(var1)(var2);
+                var1 = var2.startEditingNickname;
+                var1 = var1.bind(var2)();
+                var1 = function() {
+                    var3 = _closure1_slot1;
+                    var2 = _closure1_slot3;
+                    var1 = 22;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var3 = var3.bind(var1)(var2);
+                    var2 = var3.stopEditingRoles;
+                    var2 = var2.bind(var3)();
+                    return var1;
+                };
                 return var1;
             };
             var6 = new Array(0);

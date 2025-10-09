@@ -660,7 +660,7 @@ case 36:
         }
     };
     var _closure1_slot15 = var5;
-    var5 = 19;
+    var5 = 18;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -672,9 +672,9 @@ case 36:
 case 0:
             var8 = arg1;
             var2 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var1 = 17;
-            var1 = var3[var1];
+            var1 = _closure1_slot2;
+            var7 = 17;
+            var1 = var1[var7];
             var4 = undefined;
             var2 = var2.bind(var4)(var1);
             var1 = var2.useThemeContext;
@@ -688,9 +688,8 @@ case 38:
 case 37:
             var3 = _closure1_slot10;
             var2 = _closure1_slot0;
-            var7 = _closure1_slot2;
-            var1 = 18;
-            var1 = var7[var1];
+            var1 = _closure1_slot2;
+            var1 = var1[var7];
             var1 = var2.bind(var4)(var1);
             var2 = var1.ThemeContextProvider;
             var1 = {};

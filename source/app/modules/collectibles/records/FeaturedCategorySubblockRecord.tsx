@@ -45,8 +45,6 @@ case 0:
                 var3['categoryStoreListingId'] = var4;
                 var4 = var2.name;
                 var3['name'] = var4;
-                var4 = var2.banner_url;
-                var3['bannerUrl'] = var4;
                 var5 = var2.unpublished_at;
                 var4 = null;
                 var5 = var4 != var5;
@@ -64,8 +62,12 @@ case 2:
                 var3['unpublishedAt'] = var4;
                 var4 = var2.body_text;
                 var3['bodyText'] = var4;
-                var2 = var2.banner_text_color;
-                var3['bannerTextColor'] = var2;
+                var4 = var2.banner_text_color;
+                var3['bannerTextColor'] = var4;
+                var4 = var2.banner_url;
+                var3['bannerUrl'] = var4;
+                var2 = var2.asset_url;
+                var3['assetUrl'] = var2;
                 return var1;
             }
         };

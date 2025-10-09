@@ -291,7 +291,7 @@ case 6:
                     var11 = 11;
                     var11 = var9[var11];
                     var11 = var12.bind(var13)(var11);
-                    var11 = var11.BoostTier2Icon;
+                    var11 = var11.BoostGemIcon;
                     var3['IconComponent'] = var11;
                     var11 = var9[var14];
                     var11 = var12.bind(var13)(var11);

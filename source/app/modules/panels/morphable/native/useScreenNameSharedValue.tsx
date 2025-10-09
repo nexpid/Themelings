@@ -81,13 +81,13 @@ case 0:
 case 0:
                             var3 = _closure3_slot0;
                             var1 = null;
-                            if(!(var1 != var3)) { _fun0003_ip = 9; continue _fun0003 }
-case 10:
+                            if(!(var1 != var3)) { _fun0003_ip = 5; continue _fun0003 }
+case 9:
                             var4 = _closure3_slot0;
                             var3 = var4.isReady;
                             var3 = var3.bind(var4)();
-                            if(!var3) { _fun0003_ip = 9; continue _fun0003 }
-case 11:
+                            if(!var3) { _fun0003_ip = 5; continue _fun0003 }
+case 10:
                             var3 = _closure3_slot0;
                             var2 = var3.getCurrentRoute;
                             var5 = var2.bind(var3)();
@@ -95,10 +95,10 @@ case 11:
                             var2 = var3.set;
                             var6 = var1 == var5;
                             var4 = undefined;
-                            if(var6) { _fun0003_ip = 12; continue _fun0003 }
-case 3:
-                            var4 = var5.name;
+                            if(var6) { _fun0003_ip = 11; continue _fun0003 }
 case 12:
+                            var4 = var5.name;
+case 11:
                             var5 = var1 != var4;
                             var1 = 'unknown';
                             if(!var5) { _fun0003_ip = 13; continue _fun0003 }
@@ -106,7 +106,7 @@ case 14:
                             var1 = var4;
 case 13:
                             var1 = var2.bind(var3)(var1);
-case 9:
+case 5:
                             var1 = undefined;
                             return var1;
                         }

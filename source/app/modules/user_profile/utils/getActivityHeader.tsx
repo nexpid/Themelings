@@ -186,7 +186,7 @@ case 45:
             var5 = var10[var5];
             var5 = var8.bind(var12)(var5);
             var5 = var5.t;
-            var5 = var5.04B8fH;
+            var5 = var5.Hi4toa;
             var5 = var6.bind(var7)(var5);
             var2['text'] = var5;
             var2['platformIcon'] = var3;

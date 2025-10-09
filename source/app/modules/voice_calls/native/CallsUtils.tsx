@@ -1088,7 +1088,7 @@ case 41:
                 var11 = var1;
 case 40:
                 if(var11) { _fun0011_ip = 42; continue _fun0011 }
-case 37:
+case 43:
                 var11 = var10;
 case 42:
                 var _closure2_slot1 = var11;
@@ -1151,15 +1151,15 @@ case 22:
                 var2 = var8.bind(var9)(var2, var7);
                 var2 = _closure1_slot1;
                 var7 = _closure1_slot3;
-                if(var1) { _fun0011_ip = 43; continue _fun0011 }
-case 44:
+                if(var1) { _fun0011_ip = 44; continue _fun0011 }
+case 45:
                 var1 = 24;
                 var1 = var7[var1];
-                _fun0011_ip = 45; continue _fun0011;
-case 43:
+                _fun0011_ip = 46; continue _fun0011;
+case 44:
                 var6 = 23;
                 var1 = var7[var6];
-case 45:
+case 46:
                 var2 = var2.bind(var5)(var1);
                 var1 = {};
                 var1['isAudioRouteEnabled'] = var4;

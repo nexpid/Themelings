@@ -1631,78 +1631,15 @@ case 123:
         _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
 case 0:
             var3 = _closure1_slot19;
-            var2 = null;
-            if(!(var2 != var3)) { _fun0025_ip = 155; continue _fun0025 }
+            var1 = null;
+            var1 = var1 != var3;
+            if(!var1) { _fun0025_ip = 123; continue _fun0025 }
 case 154:
-            var5 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var6 = 13;
-            var4 = var3[var6];
-            var3 = undefined;
-            var7 = var5.bind(var3)(var4);
-            var5 = var7.isChannelFilterSupported;
-            var4 = _closure1_slot19;
-            var4 = var5.bind(var7)(var4);
-            if(!var4) { _fun0025_ip = 58; continue _fun0025 }
-case 40:
-            var5 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var4 = var4[var6];
-            var6 = var5.bind(var3)(var4);
-            var5 = var6.getSearchContextId;
-            var4 = _closure1_slot19;
-            var6 = var5.bind(var6)(var4);
-            var5 = _closure1_slot20;
-            var4 = var5.get;
-            var4 = var4.bind(var5)(var6);
-            if(!(var2 != var4)) { _fun0025_ip = 156; continue _fun0025 }
-case 49:
-            var4 = var4.mode;
-            var6 = var4.type;
-            var5 = var4.filter;
-            var8 = var4.token;
-            var7 = var2 == var8;
-            var4 = undefined;
-            if(var7) { _fun0025_ip = 94; continue _fun0025 }
-case 50:
-            var7 = var8.getFullMatch;
-            var8 = var7.bind(var8)();
-            var7 = var2 == var8;
-            var4 = undefined;
-            if(var7) { _fun0025_ip = 94; continue _fun0025 }
-case 157:
-            var7 = var8.trim;
-            var4 = var7.bind(var8)();
-case 94:
-            var2 = var2 == var4;
-            if(var2) { _fun0025_ip = 158; continue _fun0025 }
-case 159:
-            var7 = var4.length;
-            var4 = 0;
-            var2 = var4 === var7;
-case 158:
-            var4 = _closure1_slot14;
-            var4 = var4.FILTER;
-            if(!(var6 === var4)) { _fun0025_ip = 58; continue _fun0025 }
-case 160:
-            var4 = _closure1_slot16;
-            var4 = var4.FILTER_IN;
-            if(!(var5 === var4)) { _fun0025_ip = 58; continue _fun0025 }
-case 161:
-            if(var2) { _fun0025_ip = 75; continue _fun0025 }
-case 58:
-            var2 = false;
-            return var2;
-case 75:
-            var2 = _closure1_slot38;
-            var1 = _closure1_slot19;
-            var1 = var2.bind(var3)(var1);
-            return var1;
-case 156:
-            var1 = false;
-            return var1;
-case 155:
-            var1 = false;
+            var4 = _closure1_slot38;
+            var3 = _closure1_slot19;
+            var2 = undefined;
+            var1 = var4.bind(var2)(var3);
+case 123:
             return var1;
         }
     };
@@ -1718,16 +1655,16 @@ case 0:
             var4 = var3.bind(var1)(var2);
             var3 = var4.bind(var1)();
             var2 = var3.done;
-            if(var2) { _fun0026_ip = 162; continue _fun0026 }
-case 163:
+            if(var2) { _fun0026_ip = 155; continue _fun0026 }
+case 156:
             var6 = _closure1_slot37;
             var2 = var3.value;
             var2 = var6.bind(var1)(var2);
             var6 = var4.bind(var1)();
             var2 = var6.done;
             var3 = var6;
-            if(!var2) { _fun0026_ip = 163; continue _fun0026 }
-case 162:
+            if(!var2) { _fun0026_ip = 156; continue _fun0026 }
+case 155:
             return var1;
         }
     };

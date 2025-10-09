@@ -84,7 +84,7 @@ case 4:
             var5 = 4;
             var5 = var3[var5];
             var10 = var4.bind(var6)(var5);
-            var7 = var10.usePortkeyEnabled;
+            var7 = var10.useGameServerEnabled;
             var5 = 'GuildPowerupsBoostCount';
             var5 = var7.bind(var10)(var11, var5);
             var _closure2_slot2 = var5;
@@ -219,7 +219,7 @@ case 16:
             var3 = 4;
             var3 = var8[var3];
             var8 = var5.bind(var4)(var3);
-            var5 = var8.getPortkeyEnabled;
+            var5 = var8.getGameServerEnabled;
             var3 = 'GuildPowerupsBoostCount';
             var5 = var5.bind(var8)(var9, var3);
             var8 = _closure1_slot5;

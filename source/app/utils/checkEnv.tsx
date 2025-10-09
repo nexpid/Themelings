@@ -270,7 +270,7 @@ case 52:
         var4['PROJECT_ENV'] = var3;
         var3 = var1.window;
         var4 = var3.GLOBAL_ENV;
-        var3 = '//remote-auth-gateway.discord.gg';
+        var3 = 'wss://remote-auth-gateway.discord.gg';
         var4['REMOTE_AUTH_ENDPOINT'] = var3;
         var3 = var1.window;
         var4 = var3.GLOBAL_ENV;

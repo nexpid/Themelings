@@ -23,16 +23,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var _closure1_slot3 = var4;
-    var4 = 2;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.HeroBannerConfigRecord;
-    var _closure1_slot4 = var4;
-    var4 = 3;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.AssetDisplayConfigRecord;
-    var _closure1_slot5 = var4;
     var2 = function() {
         var5 = function HeroBlockRecord(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -40,87 +30,83 @@ case 0:
                 var2 = arg1;
                 var3 = this;
                 var6 = _closure1_slot2;
-                var4 = _closure2_slot0;
+                var5 = _closure2_slot0;
                 var1 = undefined;
-                var4 = var6.bind(var1)(var3, var4);
+                var5 = var6.bind(var1)(var3, var5);
                 var6 = _closure1_slot0;
                 var7 = _closure1_slot1;
-                var4 = 4;
-                var4 = var7[var4];
-                var4 = var6.bind(var1)(var4);
-                var4 = var4.ShopBlockType;
-                var4 = var4.HERO;
-                var3['type'] = var4;
-                var4 = var2.category_sku_id;
-                var3['categorySkuId'] = var4;
-                var4 = var2.name;
-                var3['name'] = var4;
+                var5 = 2;
+                var5 = var7[var5];
+                var5 = var6.bind(var1)(var5);
+                var5 = var5.ShopBlockType;
+                var5 = var5.HERO;
+                var3['type'] = var5;
+                var5 = var2.category_sku_id;
+                var3['categorySkuId'] = var5;
+                var5 = var2.name;
+                var3['name'] = var5;
                 var6 = var2.summary;
-                var4 = var6.trim;
-                var4 = var4.bind(var6)();
-                var3['summary'] = var4;
-                var4 = var2.category_store_listing_id;
-                var3['categoryStoreListingId'] = var4;
-                var4 = var2.fallback_banner_url;
-                var3['fallbackBannerUrl'] = var4;
-                var4 = var2.banner_asset;
-                var3['bannerAsset'] = var4;
-                var4 = var2.logo_url;
-                var3['logoUrl'] = var4;
-                var4 = var2.title;
-                var3['title'] = var4;
-                var4 = var2.ranked_sku_ids;
-                var3['rankedSkuIds'] = var4;
-                var4 = var2.unpublished_at;
-                var6 = null;
-                var7 = var6 != var4;
-                var4 = null;
-                if(!var7) { _fun0001_ip = 2; continue _fun0001 }
+                var5 = var6.trim;
+                var5 = var5.bind(var6)();
+                var3['summary'] = var5;
+                var5 = var2.category_store_listing_id;
+                var3['categoryStoreListingId'] = var5;
+                var5 = var2.banner_asset;
+                var3['bannerAsset'] = var5;
+                var5 = var2.logo_url;
+                var3['logoUrl'] = var5;
+                var5 = var2.title;
+                var3['title'] = var5;
+                var5 = var2.ranked_sku_ids;
+                var3['rankedSkuIds'] = var5;
+                var6 = var2.unpublished_at;
+                var5 = null;
+                var6 = var5 != var6;
+                if(!var6) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-                var7 = global;
-                var9 = var7.Date;
+                var6 = global;
+                var8 = var6.Date;
                 var11 = var2.unpublished_at;
-                var8 = var9.prototype;
-                var8 = Object.create(var8, {constructor: {value: var9}});
-                var12 = var8;
-                var7 = new var12[var9](var11, var10);
-                var4 = var7 instanceof Object ? var7 : var8;
+                var7 = var8.prototype;
+                var7 = Object.create(var7, {constructor: {value: var8}});
+                var12 = var7;
+                var6 = new var12[var8](var11, var10);
+                var5 = var6 instanceof Object ? var6 : var7;
 case 2:
-                var3['unpublishedAt'] = var4;
-                var4 = var2.banner_text_color;
-                var3['bannerTextColor'] = var4;
-                var4 = var2.config;
-                var7 = var6 != var4;
-                var4 = undefined;
-                if(!var7) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
-                var9 = _closure1_slot4;
-                var8 = var9.fromServer;
-                var7 = var2.config;
-                var4 = var8.bind(var9)(var7);
-case 4:
-                var3['bannerConfig'] = var4;
-                var4 = var2.logo_display_config;
-                var6 = var6 != var4;
-                var4 = undefined;
-                if(!var6) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
-                var7 = _closure1_slot5;
-                var6 = var7.fromServer;
-                var5 = var2.logo_display_config;
-                var4 = var6.bind(var7)(var5);
-case 6:
-                var3['logoConfig'] = var4;
+                var3['unpublishedAt'] = var5;
+                var5 = var2.banner_text_color;
+                var3['bannerTextColor'] = var5;
+                var5 = _closure1_slot0;
+                var6 = _closure1_slot1;
+                var4 = 3;
+                var7 = var6[var4];
+                var9 = var5.bind(var1)(var7);
+                var8 = var9.getAssetDisplayConfig;
+                var7 = var2.logo_display_config;
+                var7 = var8.bind(var9)(var7);
+                var3['logoDisplayConfig'] = var7;
+                var4 = var6[var4];
+                var6 = var5.bind(var1)(var4);
+                var5 = var6.getAssetDisplayConfig;
+                var4 = var2.banner_display_config;
+                var4 = var5.bind(var6)(var4);
+                var3['bannerDisplayConfig'] = var4;
                 var4 = var2.mobile_title;
                 var3['mobileTitle'] = var4;
                 var4 = var2.mobile_summary;
                 var3['mobileSummary'] = var4;
                 var4 = var2.mobile_products_title;
                 var3['mobileProductsTitle'] = var4;
-                var4 = var2.mobile_hero_path;
-                var3['mobileHeroPath'] = var4;
-                var2 = var2.mobile_hero_animated_path;
-                var3['mobileHeroAnimatedPath'] = var2;
+                var4 = var2.hero_banner_url;
+                var3['heroBannerUrl'] = var4;
+                var4 = var2.hero_banner_animated_url;
+                var3['heroBannerAnimatedUrl'] = var4;
+                var4 = var2.hero_logo_url;
+                var3['heroLogoUrl'] = var4;
+                var4 = var2.mobile_hero_url;
+                var3['mobileHeroUrl'] = var4;
+                var2 = var2.mobile_hero_animated_url;
+                var3['mobileHeroAnimatedUrl'] = var2;
                 return var1;
             }
         };
@@ -148,7 +134,7 @@ case 6:
         return var1;
     };
     var2 = var2.bind(var1)();
-    var4 = 5;
+    var4 = 4;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

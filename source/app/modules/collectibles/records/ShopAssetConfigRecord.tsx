@@ -30,8 +30,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var5.bind(var1)(var3, var4);
             var4 = var2.desktop_max_height;
             var3['desktopMaxHeight'] = var4;
-            var2 = var2.mobile_max_height;
-            var3['mobileMaxHeight'] = var2;
+            var4 = var2.mobile_max_height;
+            var3['mobileMaxHeight'] = var4;
+            var4 = var2.responsive;
+            var3['responsive'] = var4;
+            var2 = var2.background_style;
+            var3['backgroundStyle'] = var2;
             return var1;
         };
         var _closure2_slot0 = var5;
@@ -42,17 +46,33 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = function value() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-                var2 = this;
-                var3 = var2.desktopMaxHeight;
-                var1 = null;
-                if(!(var1 == var3)) { _fun0001_ip = 2; continue _fun0001 }
+                var1 = this;
+                var2 = {};
+                var3 = var1.desktopMaxHeight;
+                var4 = null;
+                if(!(var4 != var3)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-                var1 = undefined;
-                return var1;
+                var3 = var1.desktopMaxHeight;
+                var2['maxHeight'] = var3;
 case 2:
-                var1 = {};
-                var2 = var2.desktopMaxHeight;
-                var1['maxHeight'] = var2;
+                var3 = var1.backgroundStyle;
+                if(!(var4 != var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+                var1 = var1.backgroundStyle;
+                var2['background'] = var1;
+case 4:
+                var1 = global;
+                var3 = var1.Object;
+                var1 = var3.keys;
+                var1 = var1.bind(var3)(var2);
+                var3 = var1.length;
+                var1 = 0;
+                var3 = var3 > var1;
+                var1 = undefined;
+                if(!var3) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+                var1 = var2;
+case 6:
                 return var1;
             }
         };
@@ -65,17 +85,33 @@ case 2:
         var6 = function value() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-                var2 = this;
-                var3 = var2.mobileMaxHeight;
-                var1 = null;
-                if(!(var1 == var3)) { _fun0002_ip = 2; continue _fun0002 }
+                var1 = this;
+                var2 = {};
+                var3 = var1.mobileMaxHeight;
+                var4 = null;
+                if(!(var4 != var3)) { _fun0002_ip = 2; continue _fun0002 }
 case 3:
-                var1 = undefined;
-                return var1;
+                var3 = var1.mobileMaxHeight;
+                var2['maxHeight'] = var3;
 case 2:
-                var1 = {};
-                var2 = var2.mobileMaxHeight;
-                var1['maxHeight'] = var2;
+                var3 = var1.backgroundStyle;
+                if(!(var4 != var3)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
+                var1 = var1.backgroundStyle;
+                var2['background'] = var1;
+case 4:
+                var1 = global;
+                var3 = var1.Object;
+                var1 = var3.keys;
+                var1 = var1.bind(var3)(var2);
+                var3 = var1.length;
+                var1 = 0;
+                var3 = var3 > var1;
+                var1 = undefined;
+                if(!var3) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
+                var1 = var2;
+case 6:
                 return var1;
             }
         };

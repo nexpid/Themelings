@@ -143,7 +143,7 @@ case 0:
             var3 = 15;
             var3 = var20[var3];
             var20 = var18.bind(var19)(var3);
-            var19 = var20.usePortkeyEnabled;
+            var19 = var20.useGameServerEnabled;
             var18 = var7.id;
             var3 = 'useGuildActionRows';
             var3 = var19.bind(var20)(var18, var3);
@@ -258,7 +258,7 @@ case 33:
 case 36:
             var3 = var1.push;
             var2 = _closure1_slot4;
-            var2 = var2.PORTKEY;
+            var2 = var2.GAME_SERVERS;
             var2 = var3.bind(var1)(var2);
 case 35:
             return var1;

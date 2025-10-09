@@ -208,13 +208,21 @@ case 2:
             var1['overState'] = var4;
             var6 = 11;
             var6 = var8[var6];
+            var12 = var7.bind(var4)(var6);
+            var6 = {};
+            var13 = _closure1_slot5;
+            var13 = var13.geoRestrictedBadge;
+            var6['style'] = var13;
+            var6 = var3.bind(var4)(var12, var6);
+            var1['externalChildren'] = var6;
+            var6 = 12;
+            var6 = var8[var6];
             var7 = var7.bind(var4)(var6);
             var6 = {};
-            var8 = _closure1_slot5;
-            var8 = var8.geoRestrictedBadge;
-            var6['style'] = var8;
+            var8 = var11.id;
+            var6['guildId'] = var8;
             var6 = var3.bind(var4)(var7, var6);
-            var1['externalChildren'] = var6;
+            var1['expandedChildren'] = var6;
             if(!(var5 == var10)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
             var7 = _closure1_slot4;
@@ -238,7 +246,7 @@ case 4:
             var8 = _closure1_slot4;
             var7 = _closure1_slot1;
             var11 = _closure1_slot2;
-            var6 = 12;
+            var6 = 13;
             var6 = var11[var6];
             var7 = var7.bind(var4)(var6);
             var6 = {};
@@ -256,7 +264,7 @@ case 6:
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 13;
+    var4 = 14;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

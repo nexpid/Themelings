@@ -86,41 +86,61 @@ case 9:
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var2 = this;
-            var3 = _closure1_slot2;
-            var3 = var3.TTIManager;
-            var3 = var3.ApplicationStartedTimestamp;
-            var5 = _closure1_slot0;
-            var4 = _closure1_slot1;
-            var1 = 1;
-            var4 = var4[var1];
-            var1 = undefined;
-            var5 = var5.bind(var1)(var4);
+            var1 = _closure1_slot2;
+            var1 = var1.TTIManager;
+            var3 = var1.ApplicationStartedTimestamp;
+            var1 = null;
+            if(!(var1 != var3)) { _fun0003_ip = 11; continue _fun0003 }
+case 6:
+            var5 = 0;
+            if(!(!(var3 <= var5))) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
+            var6 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var4 = 1;
+            var5 = var5[var4];
+            var4 = undefined;
+            var5 = var6.bind(var4)(var5);
             var4 = var5.getMainActivityCreationTime;
             var4 = var4.bind(var5)();
-            var5 = null;
-            if(!(var5 == var4)) { _fun0003_ip = 11; continue _fun0003 }
-case 12:
-            return var1;
-case 11:
+            if(!(var1 != var4)) { _fun0003_ip = 13; continue _fun0003 }
+case 2:
             var1 = var2.getAppStartType;
             var6 = var1.bind(var2)(var4);
             var2 = {};
             var2['app_start_type'] = var6;
-            var1 = 'COLD';
-            if(!(var1 === var6)) { _fun0003_ip = 13; continue _fun0003 }
-case 14:
             var1 = var4 - var3;
             var2['android_time_creation_to_create_main_activity'] = var1;
-case 13:
             var1 = {};
+            var1['appCreatedTime'] = var3;
             var5 = 'WARM';
-            if(!(var5 === var6)) { _fun0003_ip = 15; continue _fun0003 }
-case 16:
-            var3 = var4;
+            if(!(var5 === var6)) { _fun0003_ip = 14; continue _fun0003 }
 case 15:
-            var1['appStartedTime'] = var3;
+            var3 = var4;
+case 14:
+            var1['appOpenedTime'] = var3;
             var1['extraProperties'] = var2;
             return var1;
+case 13:
+            var1 = global;
+            var3 = var1.Error;
+            var1 = var3.prototype;
+            var2 = Object.create(var1, {constructor: {value: var3}});
+            var7 = "NativeTTIModule.getMainActivityCreationTime() is not defined. That's unexpected!";
+            var8 = var2;
+            var1 = new var8[var3](var7, var6);
+            var1 = var1 instanceof Object ? var1 : var2;
+            throw var1;
+case 11:
+            var1 = global;
+            var3 = var1.Error;
+            var1 = var3.prototype;
+            var2 = Object.create(var1, {constructor: {value: var3}});
+            var7 = "NativeModules.TTIManager.ApplicationStartedTimestamp is not defined. That's unexpected!";
+            var8 = var2;
+            var1 = new var8[var3](var7, var6);
+            var1 = var1 instanceof Object ? var1 : var2;
+            throw var1;
         }
     };
     var2['getAppStartInfo'] = var4;

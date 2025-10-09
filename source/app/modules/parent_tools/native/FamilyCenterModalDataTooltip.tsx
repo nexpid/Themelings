@@ -241,7 +241,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['button'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot10 = var4;
-    var4 = 23;
+    var4 = 22;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -294,15 +294,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var10.bind(var4)(var1);
         var1 = var3.getSortedActivityTypeConfigs;
         var11 = var1.bind(var3)(var6);
-        var1 = 19;
-        var1 = var14[var1];
-        var6 = var10.bind(var4)(var1);
-        var3 = var6.useIsEligibleForFamilyCenterVCJoin;
-        var1 = {};
-        var7 = 'family_center_tooltip_modal_native';
-        var1['location'] = var7;
-        var1 = var3.bind(var6)(var1);
-        var _closure2_slot2 = var1;
         var7 = _closure1_slot3;
         var6 = var7.useCallback;
         var3 = new Array(1);
@@ -311,7 +302,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = _closure1_slot5;
             var6 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var8 = 20;
+            var8 = 19;
             var1 = var7[var8];
             var3 = undefined;
             var2 = var6.bind(var3)(var1);
@@ -347,7 +338,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.NX+WJC;
             var5 = var8.bind(var9)(var5);
             var1['text'] = var5;
-            var5 = 21;
+            var5 = 20;
             var5 = var7[var5];
             var5 = var6.bind(var3)(var5);
             var5 = var5.pop;
@@ -357,7 +348,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         };
         var6 = var6.bind(var7)(var1, var3);
         var3 = _closure1_slot5;
-        var1 = 22;
+        var1 = 21;
         var1 = var14[var1];
         var2 = var2.bind(var4)(var1);
         var1 = {};
@@ -395,17 +386,17 @@ case 0:
 case 3:
                 var4 = var6;
 case 2:
-                var9 = undefined;
+                var8 = undefined;
                 if(var2) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
                 var6 = var3().value;
                 var3 = var1;
                 var3 = var3 === var5;
-                var9 = undefined;
+                var8 = undefined;
                 var2 = var3;
                 if(var3) { _fun0001_ip = 4; continue _fun0001 }
 case 6:
-                var9 = var6;
+                var8 = var6;
                 var2 = var3;
 case 4:
                 if(var2) { _fun0001_ip = 7; continue _fun0001 }
@@ -418,26 +409,19 @@ case 7:
                 var6 = _closure1_slot7;
                 var6 = var6[var4];
                 var1['IconComponent'] = var6;
-                var6 = var9.tooltipHeader;
-                var6 = var6.bind(var9)();
+                var6 = var8.tooltipHeader;
+                var6 = var6.bind(var8)();
                 var1['header'] = var6;
-                var8 = var9.tooltipDescription;
-                var6 = _closure2_slot1;
-                var11 = null;
-                var6 = var11 != var6;
-                var7 = undefined;
-                if(!var6) { _fun0001_ip = 9; continue _fun0001 }
-case 10:
-                var7 = _closure2_slot1;
-case 9:
-                var6 = _closure2_slot2;
-                var11 = var11 != var6;
+                var7 = var8.tooltipDescription;
+                var10 = _closure2_slot1;
+                var6 = null;
+                var10 = var6 != var10;
                 var6 = undefined;
-                if(!var11) { _fun0001_ip = 11; continue _fun0001 }
-case 12:
-                var6 = _closure2_slot2;
-case 11:
-                var6 = var8.bind(var9)(var7, var6);
+                if(!var10) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
+                var6 = _closure2_slot1;
+case 9:
+                var6 = var7.bind(var8)(var6);
                 var1['description'] = var6;
                 var1 = var3.bind(var5)(var2, var1, var4);
                 return var1;

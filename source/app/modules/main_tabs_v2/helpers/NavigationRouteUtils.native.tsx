@@ -829,6 +829,7 @@ case 108:
             var14 = {};
             var14['guildId'] = var15;
             var14['channelId'] = var13;
+            var14['drawerOpen'] = var1;
             var13 = 'params';
             var3[var13] = var14;
             var5[var8] = var3;
@@ -938,33 +939,33 @@ case 0:
             var4 = undefined;
             var3 = var3.bind(var4)(var2);
             var2 = var3.getRootNavigationRef;
-            var9 = var2.bind(var3)();
+            var10 = var2.bind(var3)();
             var5 = var6.screen;
             var3 = var6.resetRoot;
             var2 = var6.forceNavigate;
             var11 = null;
-            if(!(var11 != var9)) { _fun0016_ip = 111; continue _fun0016 }
+            if(!(var11 != var10)) { _fun0016_ip = 111; continue _fun0016 }
 case 40:
-            var7 = var9.isReady;
-            var7 = var7.bind(var9)();
+            var7 = var10.isReady;
+            var7 = var7.bind(var10)();
             if(!var7) { _fun0016_ip = 111; continue _fun0016 }
 case 112:
             if(!(var11 != var5)) { _fun0016_ip = 111; continue _fun0016 }
 case 67:
             if(var2) { _fun0016_ip = 113; continue _fun0016 }
 case 114:
-            var7 = var9.getCurrentRoute;
-            var10 = var7.bind(var9)();
-            var12 = var11 == var10;
+            var7 = var10.getCurrentRoute;
+            var9 = var7.bind(var10)();
+            var12 = var11 == var9;
             var7 = undefined;
             if(var12) { _fun0016_ip = 115; continue _fun0016 }
 case 116:
-            var7 = var10.name;
+            var7 = var9.name;
 case 115:
             var2 = var7 !== var5;
 case 113:
-            var10 = 'guilds';
-            if(!(var10 !== var5)) { _fun0016_ip = 117; continue _fun0016 }
+            var9 = 'guilds';
+            if(!(var9 !== var5)) { _fun0016_ip = 117; continue _fun0016 }
 case 118:
             var7 = 'messages';
             if(!(var7 !== var5)) { _fun0016_ip = 119; continue _fun0016 }
@@ -977,11 +978,11 @@ case 122:
 case 124:
             if(!var2) { _fun0016_ip = 123; continue _fun0016 }
 case 125:
-            var14 = var9.navigate;
+            var14 = var10.navigate;
             var13 = {};
             var13['screen'] = var12;
             var12 = 'tabs';
-            var12 = var14.bind(var9)(var12, var13);
+            var12 = var14.bind(var10)(var12, var13);
             var13 = var6.icymiScreen;
             var _closure2_slot0 = var13;
             var11 = var11 != var13;
@@ -992,7 +993,7 @@ case 127:
 case 126:
             if(!var11) { _fun0016_ip = 123; continue _fun0016 }
 case 128:
-            var11 = var9.dispatch;
+            var11 = var10.dispatch;
             var8 = function() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot1;
@@ -1013,47 +1014,51 @@ case 128:
                 var1 = var3.bind(var4)(var1, var2);
                 return var1;
             };
-            var8 = var11.bind(var9)(var8);
+            var8 = var11.bind(var10)(var8);
             _fun0016_ip = 123; continue _fun0016;
 case 121:
             if(!var2) { _fun0016_ip = 123; continue _fun0016 }
 case 129:
-            var11 = var9.navigate;
+            var11 = var10.navigate;
             var8 = {};
             var8['screen'] = var7;
             var7 = 'tabs';
-            var7 = var11.bind(var9)(var7, var8);
+            var7 = var11.bind(var10)(var7, var8);
             _fun0016_ip = 123; continue _fun0016;
 case 119:
             if(!var2) { _fun0016_ip = 123; continue _fun0016 }
 case 130:
             var8 = _closure1_slot10;
             var7 = {};
-            var7['screen'] = var10;
-            var10 = {};
+            var7['screen'] = var9;
+            var9 = {};
             var11 = _closure1_slot6;
-            var10['guildId'] = var11;
-            var7['params'] = var10;
+            var9['guildId'] = var11;
+            var7['params'] = var9;
             var7 = var8.bind(var4)(var7, var3);
             _fun0016_ip = 123; continue _fun0016;
 case 117:
-            var7 = var6.guildId;
-            var6 = var6.channelId;
+            var8 = var6.guildId;
+            var7 = var6.channelId;
             if(var2) { _fun0016_ip = 131; continue _fun0016 }
 case 132:
-            var8 = var9.setParams;
+            var9 = var10.setParams;
             var2 = {};
-            var2['guildId'] = var7;
-            var2['channelId'] = var6;
-            var2 = var8.bind(var9)(var2);
+            var2['guildId'] = var8;
+            var2['channelId'] = var7;
+            var11 = var6.drawerOpen;
+            var2['drawerOpen'] = var11;
+            var2 = var9.bind(var10)(var2);
             _fun0016_ip = 123; continue _fun0016;
 case 131:
             var2 = _closure1_slot10;
             var1 = {};
             var1['screen'] = var5;
             var5 = {};
-            var5['guildId'] = var7;
-            var5['channelId'] = var6;
+            var5['guildId'] = var8;
+            var5['channelId'] = var7;
+            var6 = var6.drawerOpen;
+            var5['drawerOpen'] = var6;
             var1['params'] = var5;
             var1 = var2.bind(var4)(var1, var3);
 case 123:
@@ -2160,7 +2165,7 @@ case 188:
         }
     };
     var3['getTabsRouteIfActive'] = var4;
-    var2 = function getICYMIRouteIfActive(arg1) {
+    var4 = function getICYMIRouteIfActive(arg1) {
         _fun0035: for(var _fun0035_ip = 0; ; ) switch(_fun0035_ip) {
 case 0:
             var8 = arg1;
@@ -2215,6 +2220,46 @@ case 52:
             return var1;
         }
     };
-    var3['getICYMIRouteIfActive'] = var2;
+    var3['getICYMIRouteIfActive'] = var4;
+    var2 = function setHomeDrawerState(arg1) {
+        _fun0036: for(var _fun0036_ip = 0; ; ) switch(_fun0036_ip) {
+case 0:
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var1 = 4;
+            var2 = var2[var1];
+            var1 = undefined;
+            var4 = var4.bind(var1)(var2);
+            var2 = var4.getRootNavigationRef;
+            var4 = var2.bind(var4)();
+            var5 = null;
+            if(!(var5 != var4)) { _fun0036_ip = 191; continue _fun0036 }
+case 46:
+            var2 = var5 == var4;
+            var6 = undefined;
+            if(var2) { _fun0036_ip = 135; continue _fun0036 }
+case 173:
+            var2 = var4.getCurrentRoute;
+            var6 = var2.bind(var4)();
+case 135:
+            var2 = var5 != var6;
+            if(!var2) { _fun0036_ip = 65; continue _fun0036 }
+case 30:
+            var3 = _closure1_slot14;
+            var3 = var3.bind(var1)(var6);
+            var2 = var5 != var3;
+case 65:
+            if(!var2) { _fun0036_ip = 191; continue _fun0036 }
+case 192:
+            var3 = var4.setParams;
+            var2 = {};
+            var5 = arg1;
+            var2['drawerOpen'] = var5;
+            var2 = var3.bind(var4)(var2);
+case 191:
+            return var1;
+        }
+    };
+    var3['setHomeDrawerState'] = var2;
     return var1;
 })();

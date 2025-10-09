@@ -1,12 +1,12 @@
 // app/modules/libdiscore/libdiscoreExperiments.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var10 = require;
+    var12 = require;
     var6 = metroImportDefault;
     var3 = exports;
-    var11 = dependencyMap;
-    var _closure1_slot0 = var10;
+    var13 = dependencyMap;
+    var _closure1_slot0 = var12;
     var _closure1_slot1 = var6;
-    var _closure1_slot2 = var11;
+    var _closure1_slot2 = var13;
     var1 = function _callSuper(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -90,33 +90,33 @@ case 9:
     var1 = '__esModule';
     var1 = var7.bind(var8)(var3, var1, var5);
     var1 = 0;
-    var5 = var11[var1];
+    var5 = var13[var1];
     var1 = undefined;
     var5 = var6.bind(var1)(var5);
     var _closure1_slot3 = var5;
     var5 = 1;
-    var5 = var11[var5];
+    var5 = var13[var5];
     var5 = var6.bind(var1)(var5);
     var _closure1_slot4 = var5;
     var5 = 2;
-    var5 = var11[var5];
+    var5 = var13[var5];
     var5 = var6.bind(var1)(var5);
     var _closure1_slot5 = var5;
     var5 = 3;
-    var5 = var11[var5];
+    var5 = var13[var5];
     var5 = var6.bind(var1)(var5);
     var _closure1_slot6 = var5;
     var5 = 4;
-    var5 = var11[var5];
+    var5 = var13[var5];
     var5 = var6.bind(var1)(var5);
     var _closure1_slot7 = var5;
     var5 = 5;
-    var5 = var11[var5];
-    var5 = var10.bind(var1)(var5);
+    var5 = var13[var5];
+    var5 = var12.bind(var1)(var5);
     var5 = var5.ensureValidMode;
     var _closure1_slot8 = var5;
-    var8 = new Array(0);
-    var _closure1_slot9 = var8;
+    var10 = new Array(0);
+    var _closure1_slot9 = var10;
     var5 = var4.Symbol;
     var4 = 'unknown';
     var4 = var5.bind(var1)(var4);
@@ -274,7 +274,83 @@ case 19:
         var1 = var4.bind(var1)(var3, var2);
         return var1;
     };
-    var7 = var4.bind(var1)();
+    var9 = var4.bind(var1)();
+    var4 = function(arg1) {
+        var4 = function LibdiscoreWrapperSimpleExperiment(arg1, arg2) {
+            var5 = this;
+            var2 = _closure1_slot6;
+            var4 = _closure2_slot0;
+            var3 = undefined;
+            var2 = var2.bind(var3)(var5, var4);
+            var2 = _closure1_slot11;
+            var1 = new Array(1);
+            var6 = arg1;
+            var1[0] = var6;
+            var1 = var2.bind(var3)(var5, var4, var1);
+            var2 = arg2;
+            var1['label'] = var2;
+            return var1;
+        };
+        var _closure2_slot0 = var4;
+        var5 = _closure1_slot5;
+        var3 = undefined;
+        var2 = arg1;
+        var2 = var5.bind(var3)(var4, var2);
+        var2 = _closure1_slot7;
+        var5 = {};
+        var1 = 'getLabel';
+        var5['key'] = var1;
+        var1 = function value() {
+            var1 = this;
+            var1 = var1.label;
+            return var1;
+        };
+        var5['value'] = var1;
+        var1 = new Array(3);
+        var1[0] = var5;
+        var5 = {};
+        var7 = 'getTreatments';
+        var5['key'] = var7;
+        var7 = function value() {
+            var2 = {};
+            var1 = 0;
+            var2['treatmentId'] = var1;
+            var1 = new Array(2);
+            var1[0] = var2;
+            var2 = {};
+            var3 = 1;
+            var2['treatmentId'] = var3;
+            var1[1] = var2;
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[1] = var5;
+        var5 = {};
+        var7 = 'getCachedEnabled';
+        var5['key'] = var7;
+        var6 = function value() {
+            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+case 0:
+                var2 = this;
+                var1 = var2.getCachedConfig;
+                var2 = var1.bind(var2)();
+                var1 = null;
+                var1 = var1 != var2;
+                if(!var1) { _fun0006_ip = 20; continue _fun0006 }
+case 21:
+                var3 = var2.treatmentId;
+                var2 = 1;
+                var1 = var2 === var3;
+case 20:
+                return var1;
+            }
+        };
+        var5['value'] = var6;
+        var1[2] = var5;
+        var1 = var2.bind(var3)(var4, var1);
+        return var1;
+    };
+    var8 = var4.bind(var1)(var9);
     var4 = function(arg1) {
         var4 = function LibdiscoreBridgedStoreExperiment(arg1, arg2, arg3, arg4) {
             var5 = this;
@@ -305,7 +381,7 @@ case 19:
         var1 = 'getCachedBridgedStoreMode';
         var5['key'] = var1;
         var1 = function value() {
-            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                 var2 = this;
                 var1 = var2.getCachedConfig;
@@ -314,28 +390,28 @@ case 0:
                 var5 = var2 == var4;
                 var3 = undefined;
                 var1 = undefined;
-                if(var5) { _fun0006_ip = 20; continue _fun0006 }
-case 21:
+                if(var5) { _fun0007_ip = 22; continue _fun0007 }
+case 23:
                 var1 = var4.treatmentId;
-case 20:
+case 22:
                 var2 = var2 != var1;
                 var4 = -1;
-                if(!var2) { _fun0006_ip = 22; continue _fun0006 }
-case 23:
+                if(!var2) { _fun0007_ip = 24; continue _fun0007 }
+case 25:
                 var4 = var1;
-case 22:
+case 24:
                 var1 = 1;
-                if(!(var1 !== var4)) { _fun0006_ip = 9; continue _fun0006 }
+                if(!(var1 !== var4)) { _fun0007_ip = 9; continue _fun0007 }
 case 16:
                 var2 = 'libdiscore';
                 var1 = 2;
-                if(!(var1 !== var4)) { _fun0006_ip = 24; continue _fun0006 }
-case 25:
+                if(!(var1 !== var4)) { _fun0007_ip = 26; continue _fun0007 }
+case 27:
                 var2 = 'typescript';
-                _fun0006_ip = 24; continue _fun0006;
+                _fun0007_ip = 26; continue _fun0007;
 case 9:
                 var2 = 'typescript-libdiscore-dual-read';
-case 24:
+case 26:
                 var1 = _closure1_slot8;
                 var1 = var1.bind(var3)(var2);
                 return var1;
@@ -348,15 +424,15 @@ case 24:
         var7 = 'getEnabledFeatureName';
         var5['key'] = var7;
         var7 = function value() {
-            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
                 var2 = this;
                 var1 = var2.getCachedBridgedStoreMode;
                 var9 = var1.bind(var2)();
                 var3 = 'typescript';
                 var1 = null;
-                if(!(var3 !== var9)) { _fun0007_ip = 10; continue _fun0007 }
-case 26:
+                if(!(var3 !== var9)) { _fun0008_ip = 10; continue _fun0008 }
+case 28:
                 var15 = var2.type;
                 var13 = var2.storeName;
                 var2 = global;
@@ -414,7 +490,7 @@ case 10:
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
-    var14 = var4.bind(var1)(var7);
+    var15 = var4.bind(var1)(var9);
     var2 = function(arg1) {
         var4 = function LibdiscoreTelemetryExperiment(arg1) {
             var6 = this;
@@ -482,7 +558,7 @@ case 10:
         var7 = 'getMetricsSampleRate';
         var5['key'] = var7;
         var7 = function value() {
-            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
                 var2 = this;
                 var1 = var2.getCachedConfig;
@@ -490,27 +566,27 @@ case 0:
                 var2 = null;
                 var2 = var2 == var1;
                 var3 = undefined;
-                if(var2) { _fun0008_ip = 27; continue _fun0008 }
-case 28:
-                var3 = var1.treatmentId;
-case 27:
-                var1 = 1;
-                if(!(var1 !== var3)) { _fun0008_ip = 29; continue _fun0008 }
+                if(var2) { _fun0009_ip = 29; continue _fun0009 }
 case 30:
-                var2 = 2;
-                if(!(var2 !== var3)) { _fun0008_ip = 31; continue _fun0008 }
+                var3 = var1.treatmentId;
+case 29:
+                var1 = 1;
+                if(!(var1 !== var3)) { _fun0009_ip = 31; continue _fun0009 }
 case 32:
+                var2 = 2;
+                if(!(var2 !== var3)) { _fun0009_ip = 33; continue _fun0009 }
+case 34:
                 var2 = 3;
-                if(!(var2 !== var3)) { _fun0008_ip = 16; continue _fun0008 }
+                if(!(var2 !== var3)) { _fun0009_ip = 16; continue _fun0009 }
 case 2:
                 var2 = 0;
                 return var2;
 case 16:
                 return var1;
-case 31:
+case 33:
                 var1 = 0.05;
                 return var1;
-case 29:
+case 31:
                 var1 = 0.01;
                 return var1;
             }
@@ -534,35 +610,35 @@ case 29:
         var7 = 'shouldCollectMetrics';
         var5['key'] = var7;
         var6 = function value() {
-            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+            _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
                 var3 = this;
                 var1 = var3.getMetricsSampleRate;
                 var5 = var1.bind(var3)();
                 var1 = 0;
                 var1 = var1 !== var5;
-                if(!var1) { _fun0009_ip = 33; continue _fun0009 }
-case 28:
+                if(!var1) { _fun0010_ip = 35; continue _fun0010 }
+case 30:
                 var2 = 1;
                 var2 = var2 === var5;
-                if(var2) { _fun0009_ip = 34; continue _fun0009 }
-case 35:
+                if(var2) { _fun0010_ip = 36; continue _fun0010 }
+case 37:
                 var4 = var3.emissionsCount;
                 var3 = var3.MAX_EMISSIONS_PER_APP_LAUNCH;
                 var4 = var4 >= var3;
                 var3 = !var4;
-                if(var4) { _fun0009_ip = 36; continue _fun0009 }
-case 37:
+                if(var4) { _fun0010_ip = 38; continue _fun0010 }
+case 39:
                 var4 = global;
                 var6 = var4.Math;
                 var4 = var6.random;
                 var4 = var4.bind(var6)();
                 var3 = var4 < var5;
-case 36:
+case 38:
                 var2 = var3;
-case 34:
+case 36:
                 var1 = var2;
-case 33:
+case 35:
                 return var1;
             }
         };
@@ -571,48 +647,57 @@ case 33:
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
-    var12 = var2.bind(var1)(var7);
-    var2 = var14.prototype;
-    var4 = Object.create(var2, {constructor: {value: var14}});
-    var17 = '2025-09-libdiscore-migrate-guildstore';
-    var16 = 'GuildStore';
-    var15 = 'Kv';
-    var18 = var4;
-    var2 = new var18[var14](var17, var16, var15, var14);
+    var11 = var2.bind(var1)(var9);
+    var2 = var15.prototype;
+    var4 = Object.create(var2, {constructor: {value: var15}});
+    var18 = '2025-09-libdiscore-migrate-guildstore';
+    var17 = 'GuildStore';
+    var16 = 'Kv';
+    var19 = var4;
+    var2 = new var19[var15](var18, var17, var16, var15);
+    var7 = var2 instanceof Object ? var2 : var4;
+    var2 = var15.prototype;
+    var4 = Object.create(var2, {constructor: {value: var15}});
+    var18 = '2025-09-libdiscore-guildrolestore';
+    var17 = 'GuildRoleStore';
+    var14 = 'Kkv';
+    var19 = var4;
+    var16 = var14;
+    var2 = new var19[var15](var18, var17, var16, var15);
     var6 = var2 instanceof Object ? var2 : var4;
-    var2 = var14.prototype;
-    var4 = Object.create(var2, {constructor: {value: var14}});
-    var17 = '2025-09-libdiscore-guildrolestore';
-    var16 = 'GuildRoleStore';
-    var13 = 'Kkv';
-    var18 = var4;
-    var15 = var13;
-    var2 = new var18[var14](var17, var16, var15, var14);
+    var2 = var15.prototype;
+    var4 = Object.create(var2, {constructor: {value: var15}});
+    var18 = '2025-09-libdiscore-rawguildemojistore';
+    var17 = 'RawGuildEmojiStore';
+    var19 = var4;
+    var2 = new var19[var15](var18, var17, var16, var15);
     var5 = var2 instanceof Object ? var2 : var4;
-    var2 = var14.prototype;
-    var4 = Object.create(var2, {constructor: {value: var14}});
-    var17 = '2025-09-libdiscore-rawguildemojistore';
-    var16 = 'RawGuildEmojiStore';
-    var18 = var4;
-    var2 = new var18[var14](var17, var16, var15, var14);
+    var2 = var11.prototype;
+    var4 = Object.create(var2, {constructor: {value: var11}});
+    var18 = '2025-09-libdiscore-telemetry';
+    var19 = var4;
+    var2 = new var19[var11](var18, var17);
     var4 = var2 instanceof Object ? var2 : var4;
-    var2 = var12.prototype;
-    var9 = Object.create(var2, {constructor: {value: var12}});
-    var17 = '2025-09-libdiscore-telemetry';
-    var18 = var9;
-    var2 = new var18[var12](var17, var16);
-    var2 = var2 instanceof Object ? var2 : var9;
-    var9 = 8;
-    var9 = var11[var9];
-    var11 = var10.bind(var1)(var9);
-    var10 = var11.fileFinishedImporting;
-    var9 = 'modules/libdiscore/libdiscoreExperiments.tsx';
-    var9 = var10.bind(var11)(var9);
-    var3['ALL_LIBDISCORE_EXPERIMENTS'] = var8;
-    var3['LibdiscoreCachedExperiment'] = var7;
-    var3['GuildStoreExperiment'] = var6;
-    var3['GuildRoleStoreExperiment'] = var5;
-    var3['GuildEmojiStoreExperiment'] = var4;
-    var3['TelemetryExperiment'] = var2;
+    var2 = var8.prototype;
+    var11 = Object.create(var2, {constructor: {value: var8}});
+    var18 = '2025-10-defer-load-late-lazy-cache';
+    var17 = 'Allow react to render before lazy cache is loaded';
+    var19 = var11;
+    var2 = new var19[var8](var18, var17, var16);
+    var2 = var2 instanceof Object ? var2 : var11;
+    var11 = 8;
+    var11 = var13[var11];
+    var13 = var12.bind(var1)(var11);
+    var12 = var13.fileFinishedImporting;
+    var11 = 'modules/libdiscore/libdiscoreExperiments.tsx';
+    var11 = var12.bind(var13)(var11);
+    var3['ALL_LIBDISCORE_EXPERIMENTS'] = var10;
+    var3['LibdiscoreCachedExperiment'] = var9;
+    var3['LibdiscoreWrapperSimpleExperiment'] = var8;
+    var3['GuildStoreExperiment'] = var7;
+    var3['GuildRoleStoreExperiment'] = var6;
+    var3['GuildEmojiStoreExperiment'] = var5;
+    var3['TelemetryExperiment'] = var4;
+    var3['DelayLoadLateLazyCacheExperiment'] = var2;
     return var1;
 })();

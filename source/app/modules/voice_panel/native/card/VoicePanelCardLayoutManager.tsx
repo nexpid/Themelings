@@ -2211,10 +2211,10 @@ case 0:
             var8 = var6.getCardCoords;
             var8 = var8.bind(var6)(var7);
             var9 = null;
-            if(!(var9 == var8)) { _fun0024_ip = 219; continue _fun0024 }
-case 86:
+            if(!(var9 == var8)) { _fun0024_ip = 35; continue _fun0024 }
+case 47:
             var8 = _closure1_slot17;
-case 219:
+case 35:
             var11 = var1;
             var10 = var8;
             var8 = copyDataProperties(var11, var10);

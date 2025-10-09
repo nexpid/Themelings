@@ -43,6 +43,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['SENSITIVE_CONTENT_FILTER_TEEN_NOTICE'] = var1;
     var1 = 'restricted_accounts_setting_notice';
     var4['RESTRICTED_ACCOUNTS_SETTING_NOTICE'] = var1;
+    var1 = 'content_and_social_parental_controls_notice';
+    var4['CONTENT_AND_SOCIAL_PARENTAL_CONTROLS_NOTICE'] = var1;
     var2 = {};
     var1 = 'dismiss';
     var2['DISMISS'] = var1;

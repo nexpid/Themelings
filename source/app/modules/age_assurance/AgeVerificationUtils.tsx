@@ -474,22 +474,23 @@ case 13:
     var4 = function useInitiateAgeVerification(arg1) {
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
-            var8 = arg1;
-            var10 = arguments[1];
-            var4 = arguments[2];
-            var6 = arguments[3];
+            var3 = arg1;
+            var8 = var3.onComplete;
             var _closure2_slot0 = var8;
+            var10 = var3.isRetry;
             var2 = undefined;
-            if(!(var10 === var2)) { _fun0010_ip = 21; continue _fun0010 }
-case 22:
-            var10 = false;
+            if(!(var10 === var2)) { _fun0010_ip = 3; continue _fun0010 }
 case 21:
+            var10 = false;
+case 3:
             var _closure2_slot1 = var10;
-            if(!(var4 === var2)) { _fun0010_ip = 23; continue _fun0010 }
-case 7:
-            var4 = null;
+            var4 = var3.visibleContent;
+            if(!(var4 === var2)) { _fun0010_ip = 22; continue _fun0010 }
 case 23:
+            var4 = null;
+case 22:
             var _closure2_slot2 = var4;
+            var6 = var3.shouldShowExpressiveModal;
             if(!(var6 === var2)) { _fun0010_ip = 24; continue _fun0010 }
 case 25:
             var6 = false;
@@ -730,7 +731,7 @@ case 0:
                     var3 = var1 == var2;
                     var1 = undefined;
                     if(var3) { _fun0014_ip = 39; continue _fun0014 }
-case 40:
+case 21:
                     var1 = var2.ageVerificationStatus;
 case 39:
                     return var1;
@@ -771,20 +772,20 @@ case 39:
             var4 = var10.bind(var11)(var7, var4);
             var10 = null;
             var7 = var10 != var6;
-            if(!var7) { _fun0013_ip = 41; continue _fun0013 }
-case 42:
-            var7 = var10 != var9;
+            if(!var7) { _fun0013_ip = 40; continue _fun0013 }
 case 41:
-            if(!var7) { _fun0013_ip = 43; continue _fun0013 }
-case 44:
-            var7 = var6 !== var9;
+            var7 = var10 != var9;
+case 40:
+            if(!var7) { _fun0013_ip = 42; continue _fun0013 }
 case 43:
+            var7 = var6 !== var9;
+case 42:
             var _closure2_slot1 = var7;
             var6 = !var5;
-            if(!var6) { _fun0013_ip = 45; continue _fun0013 }
-case 46:
-            var6 = !var4;
+            if(!var6) { _fun0013_ip = 44; continue _fun0013 }
 case 45:
+            var6 = !var4;
+case 44:
             var _closure2_slot2 = var6;
             var5 = _closure1_slot5;
             var4 = var5.useEffect;
@@ -796,16 +797,16 @@ case 45:
                 _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
 case 0:
                     var2 = _closure2_slot1;
-                    if(var2) { _fun0015_ip = 47; continue _fun0015 }
+                    if(var2) { _fun0015_ip = 46; continue _fun0015 }
 case 31:
                     var2 = _closure2_slot2;
+case 46:
+                    if(!var2) { _fun0015_ip = 21; continue _fun0015 }
 case 47:
-                    if(!var2) { _fun0015_ip = 40; continue _fun0015 }
-case 48:
                     var2 = _closure2_slot0;
                     var1 = undefined;
                     var1 = var2.bind(var1)();
-case 40:
+case 21:
                     var1 = undefined;
                     return var1;
                 }
@@ -822,7 +823,7 @@ case 0:
             var1 = null;
             var1 = var1 != var4;
             if(!var1) { _fun0016_ip = 3; continue _fun0016 }
-case 49:
+case 48:
             var3 = _closure1_slot9;
             var2 = var3.has;
             var1 = var2.bind(var3)(var4);

@@ -27,7 +27,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = function ImmersiveBannerBlockRecord(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-                var4 = arg1;
+                var2 = arg1;
                 var3 = this;
                 var6 = _closure1_slot2;
                 var5 = _closure2_slot0;
@@ -35,38 +35,42 @@ case 0:
                 var5 = var6.bind(var1)(var3, var5);
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot1;
-                var2 = 2;
-                var2 = var6[var2];
-                var2 = var5.bind(var1)(var2);
-                var2 = var2.ShopBlockType;
-                var2 = var2.IMMERSIVE_BANNER;
-                var3['type'] = var2;
-                var2 = var4.banner_asset;
-                var3['bannerAsset'] = var2;
-                var2 = var4.title;
-                var3['title'] = var2;
-                var2 = var4.body;
-                var3['body'] = var2;
-                var2 = var4.help_center_url;
-                var3['helpCenterUrl'] = var2;
-                var2 = var4.text_color;
-                var3['textColor'] = var2;
-                var5 = var4.end_time;
-                var2 = null;
-                var5 = var2 != var5;
-                var2 = undefined;
+                var4 = 2;
+                var4 = var6[var4];
+                var4 = var5.bind(var1)(var4);
+                var4 = var4.ShopBlockType;
+                var4 = var4.IMMERSIVE_BANNER;
+                var3['type'] = var4;
+                var4 = var2.title;
+                var3['title'] = var4;
+                var4 = var2.body;
+                var3['body'] = var4;
+                var4 = var2.help_center_url;
+                var3['helpCenterUrl'] = var4;
+                var4 = var2.text_color;
+                var3['textColor'] = var4;
+                var5 = var2.end_time;
+                var4 = null;
+                var5 = var4 != var5;
+                var4 = undefined;
                 if(!var5) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
                 var5 = global;
-                var6 = var5.Date;
-                var8 = var4.end_time;
-                var5 = var6.prototype;
-                var5 = Object.create(var5, {constructor: {value: var6}});
-                var9 = var5;
-                var4 = new var9[var6](var8, var7);
-                var2 = var4 instanceof Object ? var4 : var5;
+                var7 = var5.Date;
+                var9 = var2.end_time;
+                var6 = var7.prototype;
+                var6 = Object.create(var6, {constructor: {value: var7}});
+                var10 = var6;
+                var5 = new var10[var7](var9, var8);
+                var4 = var5 instanceof Object ? var5 : var6;
 case 2:
-                var3['endTime'] = var2;
+                var3['endTime'] = var4;
+                var4 = var2.banner_asset;
+                var3['bannerAsset'] = var4;
+                var4 = var2.banner_url;
+                var3['bannerUrl'] = var4;
+                var2 = var2.banner_animated_url;
+                var3['bannerAnimatedUrl'] = var2;
                 return var1;
             }
         };

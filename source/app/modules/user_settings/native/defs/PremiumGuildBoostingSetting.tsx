@@ -47,7 +47,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.BoostTier2Icon;
+    var4 = var4.BoostGemIcon;
     var2['IconComponent'] = var4;
     var4 = {};
     var8 = var8.GUILD_BOOSTING;

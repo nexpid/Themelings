@@ -145,7 +145,7 @@ case 8:
             var3 = 12;
             var3 = var8[var3];
             var3 = var4.bind(var5)(var3);
-            var4 = var3.BoostSlashIcon;
+            var4 = var3.BoostGemSlashIcon;
             var3 = {'size': 'xxs', 'color': 'currentColor'};
             var2 = var6.bind(var5)(var4, var3);
 case 16:

@@ -971,7 +971,7 @@ case 0:
                 var1 = var1.bind(var2)();
                 return var1;
             };
-            var13 = var7.bind(var9)(var6, var2);
+            var12 = var7.bind(var9)(var6, var2);
             var2 = null;
             var7 = var2 == var23;
             var6 = undefined;
@@ -1010,7 +1010,7 @@ case 9:
             var7 = !var10;
             if(var10) { _fun0004_ip = 28; continue _fun0004 }
 case 29:
-            var12 = var13.includes;
+            var13 = var12.includes;
             var15 = _closure1_slot0;
             var16 = _closure1_slot2;
             var10 = 11;
@@ -1018,9 +1018,21 @@ case 29:
             var10 = var15.bind(var3)(var10);
             var10 = var10.AppealEligibility;
             var10 = var10.AGE_VERIFY_ELIGIBLE;
-            var7 = var12.bind(var13)(var10);
+            var7 = var13.bind(var12)(var10);
 case 28:
             var _closure2_slot8 = var7;
+            if(!var7) { _fun0004_ip = 30; continue _fun0004 }
+case 31:
+            var10 = var12.includes;
+            var13 = _closure1_slot0;
+            var15 = _closure1_slot2;
+            var7 = 11;
+            var7 = var15[var7];
+            var7 = var13.bind(var3)(var7);
+            var7 = var7.AppealEligibility;
+            var7 = var7.AGE_VERIFY_GLOBAL_ELIGIBLE;
+            var7 = var10.bind(var12)(var7);
+case 30:
             var7 = {};
             var7['accountStanding'] = var9;
             var7['classificationId'] = var8;
@@ -1051,8 +1063,8 @@ case 28:
 case 0:
                     var2 = _closure2_slot4;
                     var9 = null;
-                    if(!(var9 != var2)) { _fun0005_ip = 30; continue _fun0005 }
-case 31:
+                    if(!(var9 != var2)) { _fun0005_ip = 32; continue _fun0005 }
+case 33:
                     var1 = _closure2_slot10;
                     var1 = var1.current;
                     var10 = var1.accountStanding;
@@ -1081,11 +1093,11 @@ case 31:
                     var10 = new Array(1);
                     var10[0] = var11;
                     var1['classification_ids'] = var10;
-                    if(!(var9 == var7)) { _fun0005_ip = 32; continue _fun0005 }
-case 33:
+                    if(!(var9 == var7)) { _fun0005_ip = 34; continue _fun0005 }
+case 35:
                     var8 = _closure1_slot9;
                     var7 = var8.SystemDM;
-case 32:
+case 34:
                     var1['source'] = var7;
                     var1['is_violative_content_shown'] = var6;
                     var6 = var5.isDsaEligible;
@@ -1093,14 +1105,14 @@ case 32:
                     var5 = var5.violationType;
                     var1['violation_type'] = var5;
                     var1 = var3.bind(var4)(var2, var1);
-case 30:
+case 32:
                     var1 = undefined;
                     return var1;
                 }
             };
             var5 = var7.bind(var8)(var5, var6);
-            if(!(var2 == var23)) { _fun0004_ip = 34; continue _fun0004 }
-case 35:
+            if(!(var2 == var23)) { _fun0004_ip = 36; continue _fun0004 }
+case 37:
             var5 = var1.classificationRequestState;
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -1109,8 +1121,8 @@ case 35:
             var1 = var6.bind(var3)(var1);
             var1 = var1.ClassificationRequestState;
             var1 = var1.FAILED;
-            if(!(var5 !== var1)) { _fun0004_ip = 36; continue _fun0004 }
-case 34:
+            if(!(var5 !== var1)) { _fun0004_ip = 38; continue _fun0004 }
+case 36:
             var6 = _closure1_slot13;
             var5 = _closure1_slot6;
             var1 = {};
@@ -1128,8 +1140,8 @@ case 34:
             var7['style'] = var10;
             var10 = true;
             var7['bottom'] = var10;
-            if(!(var2 != var23)) { _fun0004_ip = 37; continue _fun0004 }
-case 38:
+            if(!(var2 != var23)) { _fun0004_ip = 39; continue _fun0004 }
+case 40:
             var13 = _closure1_slot14;
             var12 = _closure1_slot4;
             var10 = {};
@@ -1155,10 +1167,10 @@ case 38:
             var16 = var16.bind(var3)(var15);
             var15 = {};
             var19 = var23.flagged_content;
-            if(!(var2 == var19)) { _fun0004_ip = 39; continue _fun0004 }
-case 40:
+            if(!(var2 == var19)) { _fun0004_ip = 41; continue _fun0004 }
+case 42:
             var19 = new Array(0);
-case 39:
+case 41:
             var15['flaggedContent'] = var19;
             var15 = var17.bind(var3)(var16, var15);
             var14[1] = var15;
@@ -1225,14 +1237,14 @@ case 0:
                     var4['classification_ids'] = var8;
                     var9 = _closure2_slot1;
                     var8 = null;
-                    if(!(var8 == var9)) { _fun0006_ip = 41; continue _fun0006 }
-case 42:
+                    if(!(var8 == var9)) { _fun0006_ip = 43; continue _fun0006 }
+case 44:
                     var8 = _closure1_slot9;
                     var8 = var8.SystemDM;
-                    _fun0006_ip = 43; continue _fun0006;
-case 41:
-                    var8 = _closure2_slot1;
+                    _fun0006_ip = 45; continue _fun0006;
 case 43:
+                    var8 = _closure2_slot1;
+case 45:
                     var4['source'] = var8;
                     var8 = _closure2_slot6;
                     var4['is_violative_content_shown'] = var8;
@@ -1243,13 +1255,13 @@ case 43:
                     var4['violation_type'] = var8;
                     var4 = var6.bind(var7)(var5, var4);
                     var4 = _closure2_slot8;
-                    if(var4) { _fun0006_ip = 44; continue _fun0006 }
-case 45:
+                    if(var4) { _fun0006_ip = 46; continue _fun0006 }
+case 47:
                     var4 = _closure2_slot5;
                     var5 = _closure1_slot1;
                     var6 = _closure1_slot2;
-                    if(var4) { _fun0006_ip = 46; continue _fun0006 }
-case 47:
+                    if(var4) { _fun0006_ip = 48; continue _fun0006 }
+case 49:
                     var4 = 16;
                     var4 = var6[var4];
                     var8 = var5.bind(var1)(var4);
@@ -1257,8 +1269,8 @@ case 47:
                     var4 = _closure1_slot11;
                     var4 = var4.APPEALS_LINK;
                     var4 = var7.bind(var8)(var4);
-                    _fun0006_ip = 48; continue _fun0006;
-case 46:
+                    _fun0006_ip = 50; continue _fun0006;
+case 48:
                     var4 = 26;
                     var4 = var6[var4];
                     var8 = var5.bind(var1)(var4);
@@ -1280,8 +1292,8 @@ case 46:
                     var7 = _closure2_slot0;
                     var4['classificationId'] = var7;
                     var4 = var5.bind(var6)(var4);
-                    _fun0006_ip = 48; continue _fun0006;
-case 44:
+                    _fun0006_ip = 50; continue _fun0006;
+case 46:
                     var4 = _closure1_slot1;
                     var5 = _closure1_slot2;
                     var3 = 25;
@@ -1291,7 +1303,7 @@ case 44:
                     var3 = _closure2_slot0;
                     var2 = _closure2_slot2;
                     var2 = var4.bind(var5)(var3, var2);
-case 48:
+case 50:
                     return var1;
                 }
             };
@@ -1308,24 +1320,24 @@ case 48:
             var14[4] = var15;
             var10['children'] = var14;
             var10 = var13.bind(var3)(var12, var10);
-            _fun0004_ip = 49; continue _fun0004;
-case 37:
+            _fun0004_ip = 51; continue _fun0004;
+case 39:
             var13 = _closure1_slot13;
             var12 = _closure1_slot5;
             var11 = {};
             var14 = 'large';
             var11['size'] = var14;
             var10 = var13.bind(var3)(var12, var11);
-case 49:
+case 51:
             var7['children'] = var10;
             var7 = var9.bind(var3)(var8, var7);
             var1['children'] = var7;
             var1 = var6.bind(var3)(var5, var1);
-            _fun0004_ip = 50; continue _fun0004;
-case 36:
+            _fun0004_ip = 52; continue _fun0004;
+case 38:
             var3 = var4.bind(var3)();
             var1 = null;
-case 50:
+case 52:
             return var1;
         }
     };
