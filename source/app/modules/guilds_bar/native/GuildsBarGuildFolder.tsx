@@ -1621,6 +1621,7 @@ case 117:
             var1['isDragPreview'] = var6;
             var1['overState'] = var16;
             var1['preventClipping'] = var15;
+            var1['expanded'] = var11;
             var1['layout'] = var5;
             var5 = var7;
             if(!var11) { _fun0011_ip = 119; continue _fun0011 }

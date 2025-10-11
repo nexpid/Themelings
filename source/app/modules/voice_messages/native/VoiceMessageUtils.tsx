@@ -107,7 +107,7 @@ case 6: // try_start_0
                     var10['enabled'] = var11;
                     var2['automaticGainControlConfig'] = var10;
                     var2 = var8.bind(var9)(var2);
-                    SaveGenerator(address=193);
+                    SaveGenerator(address=189);
 case 7:
                     return var2;
 case 8:

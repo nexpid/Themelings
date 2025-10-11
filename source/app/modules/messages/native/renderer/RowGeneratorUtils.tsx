@@ -155,16 +155,16 @@ case 14:
             var2 = var4.hasEphemeralAppearance;
             var2 = var2.bind(var4)(var5);
             var1 = undefined;
-            if(!var2) { _fun0002_ip = 8; continue _fun0002 }
-case 15:
+            if(!var2) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
             var2 = {};
             var4 = var3.ephemeralBackgroundColor;
             var2['backgroundColor'] = var4;
             var4 = var3.ephemeralGutterColor;
             var2['gutterColor'] = var4;
             var1 = var2;
-case 8:
-            _fun0002_ip = 16; continue _fun0002;
+case 15:
+            _fun0002_ip = 17; continue _fun0002;
 case 13:
             var2 = {};
             var4 = var3.mentionedBackgroundColor;
@@ -172,8 +172,8 @@ case 13:
             var4 = var3.mentionedGutterColor;
             var2['gutterColor'] = var4;
             var1 = var2;
-case 16:
-            _fun0002_ip = 17; continue _fun0002;
+case 17:
+            _fun0002_ip = 18; continue _fun0002;
 case 12:
             var2 = {};
             var4 = var3.automodBlockedBackgroundColor;
@@ -181,14 +181,14 @@ case 12:
             var4 = var3.automodBlockedGutterColor;
             var2['gutterColor'] = var4;
             var1 = var2;
-case 17:
-            _fun0002_ip = 18; continue _fun0002;
+case 18:
+            _fun0002_ip = 19; continue _fun0002;
 case 10:
             var2 = {};
             var3 = var3.editingColor;
             var2['backgroundColor'] = var3;
             var1 = var2;
-case 18:
+case 19:
             return var1;
         }
     };
@@ -198,21 +198,21 @@ case 18:
 case 0:
             var3 = _closure1_slot3;
             var1 = arg1;
-            if(var1) { _fun0003_ip = 19; continue _fun0003 }
-case 20:
-            var1 = var3.NONE;
-            _fun0003_ip = 21; continue _fun0003;
-case 19:
-            var2 = arg2;
-            if(var2) { _fun0003_ip = 22; continue _fun0003 }
-case 23:
-            var2 = var3.REPLY;
-            _fun0003_ip = 24; continue _fun0003;
-case 22:
-            var2 = var3.REPLY_EDIT;
-case 24:
-            var1 = var2;
+            if(var1) { _fun0003_ip = 20; continue _fun0003 }
 case 21:
+            var1 = var3.NONE;
+            _fun0003_ip = 22; continue _fun0003;
+case 20:
+            var2 = arg2;
+            if(var2) { _fun0003_ip = 23; continue _fun0003 }
+case 24:
+            var2 = var3.REPLY;
+            _fun0003_ip = 25; continue _fun0003;
+case 23:
+            var2 = var3.REPLY_EDIT;
+case 25:
+            var1 = var2;
+case 22:
             return var1;
         }
     };

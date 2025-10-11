@@ -139,8 +139,6 @@ case 0:
                 if(!var2) { _fun0003_ip = 8; continue _fun0003 }
 case 9:
                 var5 = {};
-                var2 = var6.id;
-                var5['id'] = var2;
                 var2 = _closure2_slot0;
                 var7 = var2.skuId;
                 var5['skuId'] = var7;
@@ -149,7 +147,7 @@ case 9:
                 var2 = var2.skuId;
                 var2 = var4.bind(var1)(var2, var5);
                 if(!var2) { _fun0003_ip = 8; continue _fun0003 }
-case 5:
+case 10:
                 var2 = true;
                 _closure2_slot1 = var2;
 case 8:
@@ -177,11 +175,11 @@ case 0:
                     var1 = undefined;
                     var2 = arg1;
                     var2 = var3.bind(var1)(var2);
-                    if(!var2) { _fun0004_ip = 10; continue _fun0004 }
+                    if(!var2) { _fun0004_ip = 11; continue _fun0004 }
 case 9:
                     var2 = true;
                     _closure2_slot0 = var2;
-case 10:
+case 11:
                     return var1;
                 }
             };
@@ -206,11 +204,11 @@ case 0:
                 var1 = undefined;
                 var2 = arg1;
                 var2 = var3.bind(var1)(var2);
-                if(!var2) { _fun0005_ip = 10; continue _fun0005 }
+                if(!var2) { _fun0005_ip = 11; continue _fun0005 }
 case 9:
                 var2 = true;
                 _closure2_slot0 = var2;
-case 10:
+case 11:
                 return var1;
             }
         };
@@ -238,14 +236,14 @@ case 0:
                 var2 = _closure1_slot4;
                 var1 = _closure1_slot18;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0006_ip = 11; continue _fun0006 }
+                if(var1) { _fun0006_ip = 8; continue _fun0006 }
 case 12:
                 var7 = var9.apply;
                 var5 = arguments;
                 var1 = var5;
                 var1 = var7.bind(var9)(var4, var1);
                 _fun0006_ip = 13; continue _fun0006;
-case 11:
+case 8:
                 var7 = global;
                 var8 = var7.Reflect;
                 var7 = var8.construct;
@@ -348,8 +346,6 @@ case 14:
             var4 = _closure1_slot14;
             var3 = var1.skuId;
             var2 = {};
-            var5 = var1.id;
-            var2['id'] = var5;
             var5 = var1.skuId;
             var2['skuId'] = var5;
             var2['config'] = var1;

@@ -43,11 +43,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot7 = var5;
     var4 = {};
     var2 = 'None';
-    var4['id'] = var2;
+    var4['skuId'] = var2;
     var _closure1_slot8 = var4;
     var2 = {};
     var7 = 'Shop';
-    var2['id'] = var7;
+    var2['skuId'] = var7;
     var _closure1_slot9 = var2;
     var7 = 8;
     var7 = var9[var7];

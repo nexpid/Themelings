@@ -831,7 +831,7 @@ case 0:
                     var1 = undefined;
                     if(var7) { _fun0004_ip = 46; continue _fun0004 }
 case 47:
-                    var1 = var6.id;
+                    var1 = var6.skuId;
 case 46:
                     var1 = var5.bind(var4)(var3, var2, var1);
                     return var1;

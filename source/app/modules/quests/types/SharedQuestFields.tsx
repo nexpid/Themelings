@@ -53,7 +53,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['get'] = var3;
-        var3 = new Array(13);
+        var3 = new Array(14);
         var3[0] = var1;
         var1 = {};
         var6 = '_defaultRewardV2';
@@ -238,6 +238,32 @@ case 9:
         var1['get'] = var6;
         var3[8] = var1;
         var1 = {};
+        var6 = 'ctaLink';
+        var1['key'] = var6;
+        var6 = function get() {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+                var2 = this;
+                var1 = var2.quest;
+                var4 = var1.ctaConfig;
+                var3 = null;
+                var5 = var3 == var4;
+                var1 = undefined;
+                if(var5) { _fun0004_ip = 11; continue _fun0004 }
+case 12:
+                var1 = var4.link;
+case 11:
+                if(!(var3 == var1)) { _fun0004_ip = 13; continue _fun0004 }
+case 14:
+                var2 = var2.application;
+                var1 = var2.link;
+case 13:
+                return var1;
+            }
+        };
+        var1['get'] = var6;
+        var3[9] = var1;
+        var1 = {};
         var6 = 'rewardPlatforms';
         var1['key'] = var6;
         var6 = function get() {
@@ -248,12 +274,12 @@ case 9:
             return var1;
         };
         var1['get'] = var6;
-        var3[9] = var1;
+        var3[10] = var1;
         var1 = {};
         var6 = 'questType';
         var1['key'] = var6;
         var6 = function get() {
-            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                 var3 = _closure1_slot0;
                 var4 = _closure1_slot1;
@@ -273,23 +299,23 @@ case 0:
                 var2 = var5[var2];
                 var2 = var3.bind(var4)(var2);
                 var2 = var2.QuestType;
-                if(var1) { _fun0004_ip = 11; continue _fun0004 }
-case 12:
+                if(var1) { _fun0005_ip = 15; continue _fun0005 }
+case 16:
                 var1 = var2.GAMEPLAY;
-                _fun0004_ip = 13; continue _fun0004;
-case 11:
+                _fun0005_ip = 17; continue _fun0005;
+case 15:
                 var1 = var2.VIDEO;
-case 13:
+case 17:
                 return var1;
             }
         };
         var1['get'] = var6;
-        var3[10] = var1;
+        var3[11] = var1;
         var1 = {};
         var6 = 'defaultInGameTask';
         var1['key'] = var6;
         var6 = function get() {
-            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                 var1 = this;
                 var1 = var1.quest;
@@ -310,26 +336,26 @@ case 0:
                 var1 = var1.ACHIEVEMENT_IN_GAME;
                 var2 = var2[var1];
                 var1 = null;
-                if(!(var1 != var3)) { _fun0005_ip = 14; continue _fun0005 }
-case 15:
+                if(!(var1 != var3)) { _fun0006_ip = 18; continue _fun0006 }
+case 19:
                 var2 = var3;
-case 14:
+case 18:
                 var3 = var1 != var2;
                 var1 = null;
-                if(!var3) { _fun0005_ip = 16; continue _fun0005 }
+                if(!var3) { _fun0006_ip = 20; continue _fun0006 }
 case 4:
                 var1 = var2;
-case 16:
+case 20:
                 return var1;
             }
         };
         var1['get'] = var6;
-        var3[11] = var1;
+        var3[12] = var1;
         var1 = {};
         var6 = 'defaultWatchVideoTask';
         var1['key'] = var6;
         var6 = function get() {
-            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                 var2 = this;
                 var1 = var2.quest;
@@ -353,39 +379,39 @@ case 0:
                 var1 = var1.WATCH_VIDEO_ON_MOBILE;
                 var4 = var2[var1];
                 var2 = null;
-                if(!(var2 != var3)) { _fun0006_ip = 17; continue _fun0006 }
-case 18:
+                if(!(var2 != var3)) { _fun0007_ip = 21; continue _fun0007 }
+case 22:
                 var1 = var4;
-                if(!(var2 == var1)) { _fun0006_ip = 19; continue _fun0006 }
-case 17:
-                if(!(var2 != var4)) { _fun0006_ip = 20; continue _fun0006 }
+                if(!(var2 == var1)) { _fun0007_ip = 23; continue _fun0007 }
 case 21:
+                if(!(var2 != var4)) { _fun0007_ip = 24; continue _fun0007 }
+case 25:
                 var3 = var4;
-case 20:
+case 24:
                 var4 = var2 != var3;
                 var2 = null;
-                if(!var4) { _fun0006_ip = 22; continue _fun0006 }
-case 23:
+                if(!var4) { _fun0007_ip = 26; continue _fun0007 }
+case 27:
                 var2 = var3;
-case 22:
+case 26:
                 var1 = var2;
-case 19:
+case 23:
                 return var1;
             }
         };
         var1['get'] = var6;
-        var3[12] = var1;
+        var3[13] = var1;
         var1 = {};
         var6 = 'build';
         var1['key'] = var6;
         var2 = function value(arg1) {
-            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
                 var3 = arg1;
                 var2 = var3.configVersion;
                 var1 = 2;
-                if(!(var1 === var2)) { _fun0007_ip = 3; continue _fun0007 }
-case 24:
+                if(!(var1 === var2)) { _fun0008_ip = 3; continue _fun0008 }
+case 28:
                 var1 = _closure2_slot0;
                 var2 = var1.prototype;
                 var2 = Object.create(var2, {constructor: {value: var1}});

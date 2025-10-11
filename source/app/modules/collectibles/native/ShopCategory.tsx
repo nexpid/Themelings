@@ -490,7 +490,7 @@ case 0:
                     var1 = undefined;
                     if(var7) { _fun0004_ip = 16; continue _fun0004 }
 case 17:
-                    var1 = var6.id;
+                    var1 = var6.skuId;
 case 16:
                     var1 = var5.bind(var4)(var3, var2, var1);
                     return var1;

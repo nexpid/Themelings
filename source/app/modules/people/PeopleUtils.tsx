@@ -78,7 +78,7 @@ case 9:
 case 11:
             var8 = _closure1_slot1;
             var9 = _closure1_slot2;
-            var7 = 6;
+            var7 = 7;
             var7 = var9[var7];
             var9 = var8.bind(var5)(var7);
             var8 = var9.dispatch;
@@ -91,7 +91,7 @@ case 11:
 case 8:
             var8 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var4 = 6;
+            var4 = 7;
             var4 = var7[var4];
             var9 = var8.bind(var5)(var4);
             var8 = var9.dispatch;
@@ -101,7 +101,7 @@ case 8:
             var1 = true;
             var4 = var8.bind(var9)(var4);
             var4 = _closure1_slot0;
-            var3 = 5;
+            var3 = 6;
             var3 = var7[var3];
             var5 = var4.bind(var5)(var3);
             var4 = var5.openAcceptFriendRequestConfirmModal;
@@ -266,32 +266,41 @@ case 0:
             var _closure2_slot3 = var3;
             var2 = var2.onCancel;
             var _closure2_slot4 = var2;
-            var8 = _closure1_slot0;
-            var4 = _closure1_slot2;
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot2;
             var3 = 4;
-            var3 = var4[var3];
+            var3 = var10[var3];
             var4 = undefined;
-            var9 = var8.bind(var4)(var3);
-            var8 = var9.isEligibleForSettingsDefaultsAggregate;
+            var11 = var9.bind(var4)(var3);
+            var8 = var11.isEligibleForSettingsDefaultsAggregate;
             var3 = 'useFriendRequestActions';
-            var3 = var8.bind(var9)(var3);
+            var3 = var8.bind(var11)(var3);
+            var8 = 5;
+            var8 = var10[var8];
+            var9 = var9.bind(var4)(var8);
+            var8 = var9.isFriendRequestAlertsV2Enabled;
+            var8 = var8.bind(var9)(var5);
+            if(var3) { _fun0007_ip = 19; continue _fun0007 }
+case 20:
+            var3 = var8;
+case 19:
             var9 = _closure1_slot3;
             var8 = var9.isStranger;
             var8 = var8.bind(var9)(var7);
             var9 = null;
-            if(!(var9 == var6)) { _fun0007_ip = 19; continue _fun0007 }
-case 20:
-            if(!var3) { _fun0007_ip = 19; continue _fun0007 }
-case 21:
-            var9 = false;
-            if(!(var9 !== var8)) { _fun0007_ip = 19; continue _fun0007 }
+            if(!(var9 == var6)) { _fun0007_ip = 21; continue _fun0007 }
 case 22:
-            if(!var8) { _fun0007_ip = 23; continue _fun0007 }
-case 24:
-            if(var3) { _fun0007_ip = 25; continue _fun0007 }
+            if(!var3) { _fun0007_ip = 21; continue _fun0007 }
 case 23:
-            if(!var3) { _fun0007_ip = 26; continue _fun0007 }
-case 27:
+            var9 = false;
+            if(!(var9 !== var8)) { _fun0007_ip = 21; continue _fun0007 }
+case 24:
+            if(!var8) { _fun0007_ip = 25; continue _fun0007 }
+case 26:
+            if(var3) { _fun0007_ip = 27; continue _fun0007 }
+case 25:
+            if(!var3) { _fun0007_ip = 28; continue _fun0007 }
+case 29:
             var8 = _closure1_slot5;
             var3 = {};
             var3['userId'] = var7;
@@ -317,17 +326,17 @@ case 0:
                     var1 = undefined;
                     var3 = arg1;
                     var3 = var5.bind(var1)(var3, var4);
-                    if(var3) { _fun0008_ip = 28; continue _fun0008 }
-case 29:
+                    if(var3) { _fun0008_ip = 30; continue _fun0008 }
+case 31:
                     var5 = _closure2_slot3;
                     var4 = null;
                     var3 = var4 == var5;
-case 28:
-                    if(var3) { _fun0008_ip = 30; continue _fun0008 }
-case 31:
+case 30:
+                    if(var3) { _fun0008_ip = 32; continue _fun0008 }
+case 33:
                     var2 = _closure2_slot3;
                     var2 = var2.bind(var1)();
-case 30:
+case 32:
                     return var1;
                 }
             };
@@ -352,11 +361,11 @@ case 30:
                 return var1;
             };
             var3 = var8.bind(var9)(var3);
-            _fun0007_ip = 26; continue _fun0007;
-case 25:
+            _fun0007_ip = 28; continue _fun0007;
+case 27:
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var3 = 5;
+            var3 = 6;
             var3 = var9[var3];
             var9 = var8.bind(var4)(var3);
             var8 = var9.openAcceptFriendRequestConfirmModal;
@@ -378,11 +387,11 @@ case 0:
                     var3 = var4.bind(var1)(var3);
                     var4 = _closure2_slot3;
                     var3 = null;
-                    if(!(var3 != var4)) { _fun0009_ip = 29; continue _fun0009 }
-case 32:
+                    if(!(var3 != var4)) { _fun0009_ip = 31; continue _fun0009 }
+case 34:
                     var2 = _closure2_slot3;
                     var2 = var2.bind(var1)();
-case 29:
+case 31:
                     return var1;
                 }
             };
@@ -392,21 +401,21 @@ case 29:
 case 0:
                     var3 = _closure2_slot4;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0010_ip = 33; continue _fun0010 }
-case 34:
+                    if(!(var2 != var3)) { _fun0010_ip = 35; continue _fun0010 }
+case 36:
                     var2 = _closure2_slot4;
                     var1 = undefined;
                     var1 = var2.bind(var1)();
-case 33:
+case 35:
                     var1 = undefined;
                     return var1;
                 }
             };
             var3['onCancel'] = var10;
             var3 = var8.bind(var9)(var3);
-case 26:
+case 28:
             return var4;
-case 19:
+case 21:
             var3 = _closure1_slot5;
             var2 = {};
             var2['userId'] = var7;
@@ -421,12 +430,12 @@ case 19:
 case 0:
                     var3 = _closure2_slot3;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0011_ip = 33; continue _fun0011 }
-case 34:
+                    if(!(var2 != var3)) { _fun0011_ip = 35; continue _fun0011 }
+case 36:
                     var2 = _closure2_slot3;
                     var1 = undefined;
                     var1 = var2.bind(var1)();
-case 33:
+case 35:
                     var1 = undefined;
                     return var1;
                 }
@@ -436,7 +445,7 @@ case 33:
         }
     };
     var2['maybeConfirmFriendRequestAccept'] = var4;
-    var4 = 7;
+    var4 = 8;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

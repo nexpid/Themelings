@@ -105,6 +105,9 @@ case 2:
             var8 = var8.iZ7Mz8;
             var8 = var11.bind(var12)(var8);
             var1['accessibilityLabel'] = var8;
+            var8 = {};
+            var8['expanded'] = var7;
+            var1['accessibilityState'] = var8;
             var1['onPress'] = var5;
             var8 = _closure1_slot1;
             var5 = 6;

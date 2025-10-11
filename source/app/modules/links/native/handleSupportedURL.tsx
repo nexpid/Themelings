@@ -104,7 +104,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.MobileSetting;
     var _closure1_slot24 = var4;
-    var4 = 73;
+    var4 = 74;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -322,7 +322,7 @@ case 91:
 case 90:
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot3;
-                    var4 = 71;
+                    var4 = 72;
                     var4 = var6[var4];
                     var6 = var5.bind(var3)(var4);
                     var5 = var6.isQuestPreviewTool2Enabled;
@@ -395,7 +395,7 @@ case 86:
                     var4 = function() {
                         var3 = _closure1_slot0;
                         var2 = _closure1_slot3;
-                        var1 = 70;
+                        var1 = 71;
                         var2 = var2[var1];
                         var1 = undefined;
                         var4 = var3.bind(var1)(var2);
@@ -462,7 +462,7 @@ case 94:
 case 82:
                     var5 = _closure1_slot1;
                     var6 = _closure1_slot3;
-                    var4 = 69;
+                    var4 = 70;
                     var4 = var6[var4];
                     var12 = var5.bind(var3)(var4);
                     var18 = var7.applicationId;
@@ -499,14 +499,14 @@ case 78:
                     var4 = function() {
                         var3 = _closure1_slot0;
                         var7 = _closure1_slot3;
-                        var1 = 67;
+                        var1 = 69;
                         var2 = var7[var1];
                         var1 = undefined;
                         var4 = var3.bind(var1)(var2);
                         var3 = var4.openGiftModal;
                         var2 = {};
                         var6 = _closure1_slot1;
-                        var5 = 68;
+                        var5 = 64;
                         var5 = var7[var5];
                         var5 = var6.bind(var1)(var5);
                         var6 = var5.DEEPLINK;
@@ -524,7 +524,7 @@ case 76:
                     var4 = function() {
                         var3 = _closure1_slot0;
                         var4 = _closure1_slot3;
-                        var1 = 64;
+                        var1 = 66;
                         var2 = var4[var1];
                         var1 = undefined;
                         var7 = var3.bind(var1)(var2);
@@ -536,7 +536,7 @@ case 76:
                         var8 = _closure1_slot11;
                         var8 = var8.QUEST_SHARE_LINK_DEEP_LINKED_INTO_MOBILE_CLIENT;
                         var2['event'] = var8;
-                        var8 = 65;
+                        var8 = 67;
                         var8 = var4[var8];
                         var8 = var3.bind(var1)(var8);
                         var8 = var8.QuestContent;
@@ -547,7 +547,7 @@ case 76:
                         var8['referrer_id'] = var9;
                         var2['properties'] = var8;
                         var2 = var6.bind(var7)(var2);
-                        var2 = 66;
+                        var2 = 68;
                         var2 = var4[var2];
                         var4 = var3.bind(var1)(var2);
                         var3 = var4.openQuestHome;
@@ -565,7 +565,7 @@ case 74:
                     var4 = function() {
                         var3 = _closure1_slot1;
                         var2 = _closure1_slot3;
-                        var1 = 63;
+                        var1 = 65;
                         var2 = var2[var1];
                         var1 = undefined;
                         var4 = var3.bind(var1)(var2);
@@ -616,16 +616,30 @@ case 70:
                     var5 = _closure1_slot7;
                     var4 = function() {
                         var3 = _closure1_slot0;
-                        var2 = _closure1_slot3;
-                        var1 = 21;
-                        var2 = var2[var1];
+                        var7 = _closure1_slot3;
+                        var1 = 63;
+                        var2 = var7[var1];
                         var1 = undefined;
                         var4 = var3.bind(var1)(var2);
-                        var3 = var4.openUserSettings;
+                        var3 = var4.openCollectiblesShopMobile;
                         var2 = {};
-                        var5 = _closure1_slot14;
-                        var5 = var5.COLLECTIBLES_SHOP;
-                        var2['screen'] = var5;
+                        var6 = _closure1_slot1;
+                        var5 = 64;
+                        var8 = var7[var5];
+                        var8 = var6.bind(var1)(var8);
+                        var9 = var8.DEEPLINK;
+                        var8 = new Array(1);
+                        var8[0] = var9;
+                        var2['analyticsLocations'] = var8;
+                        var5 = var7[var5];
+                        var5 = var6.bind(var1)(var5);
+                        var5 = var5.DEEPLINK;
+                        var2['analyticsSource'] = var5;
+                        var5 = _closure3_slot0;
+                        var6 = var5.screen;
+                        var2['screen'] = var6;
+                        var5 = var5.skuId;
+                        var2['initialProductSkuId'] = var5;
                         var2 = var3.bind(var4)(var2);
                         return var1;
                     };
@@ -2146,7 +2160,7 @@ case 2:
 case 211:
             var3 = _closure1_slot0;
             var5 = _closure1_slot3;
-            var1 = 72;
+            var1 = 73;
             var1 = var5[var1];
             var3 = var3.bind(var4)(var1);
             var1 = var3.browserManagerCloseBrowser;

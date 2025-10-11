@@ -18,7 +18,7 @@ case 0:
             var14 = var2.bind(var4)();
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var2 = 11;
+            var2 = 12;
             var2 = var5[var2];
             var6 = var3.bind(var4)(var2);
             var5 = var6.useStateFromStores;
@@ -48,14 +48,14 @@ case 2:
 case 5:
             var3 = _closure1_slot1;
             var5 = _closure1_slot2;
-            var2 = 12;
+            var2 = 13;
             var2 = var5[var2];
             var5 = var3.bind(var4)(var2);
             var3 = var5.getAnimatableSourceWithFallback;
             var2 = function(arg1) {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 12;
+                var1 = 13;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -79,7 +79,7 @@ case 4:
             var1 = function() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 13;
+                var1 = 14;
                 var2 = var2[var1];
                 var1 = undefined;
                 var3 = var3.bind(var1)(var2);
@@ -97,7 +97,7 @@ case 4:
             var7 = _closure1_slot14;
             var6 = _closure1_slot1;
             var18 = _closure1_slot2;
-            var12 = 14;
+            var12 = 15;
             var5 = var18[var12];
             var6 = var6.bind(var4)(var5);
             var5 = {};
@@ -129,7 +129,7 @@ case 6:
             var15 = _closure1_slot14;
             var12 = _closure1_slot1;
             var17 = _closure1_slot2;
-            var10 = 15;
+            var10 = 16;
             var10 = var17[var10];
             var12 = var12.bind(var4)(var10);
             var10 = {};
@@ -147,7 +147,7 @@ case 8:
             var8 = _closure1_slot14;
             var7 = _closure1_slot1;
             var12 = _closure1_slot2;
-            var10 = 16;
+            var10 = 17;
             var6 = var12[var10];
             var7 = var7.bind(var4)(var6);
             var6 = {};
@@ -169,7 +169,7 @@ case 8:
             return var1;
         }
     };
-    var _closure1_slot18 = var1;
+    var _closure1_slot19 = var1;
     var1 = function FeaturedServer(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -182,10 +182,18 @@ case 0:
             var9 = var1.bind(var4)();
             var10 = _closure1_slot0;
             var16 = _closure1_slot2;
-            var1 = 11;
+            var1 = 18;
             var1 = var16[var1];
-            var6 = var10.bind(var4)(var1);
-            var5 = var6.useStateFromStores;
+            var3 = var10.bind(var4)(var1);
+            var1 = var3.useConversationBackgroundColors;
+            var1 = var1.bind(var3)();
+            var3 = var1.primaryBackground;
+            var1 = _closure1_slot18;
+            var5 = var1.bind(var4)(var3);
+            var1 = 12;
+            var1 = var16[var1];
+            var7 = var10.bind(var4)(var1);
+            var6 = var7.useStateFromStores;
             var1 = _closure1_slot8;
             var3 = new Array(1);
             var3[0] = var1;
@@ -199,9 +207,9 @@ case 0:
                 var1 = var1 != var2;
                 return var1;
             };
-            var13 = var5.bind(var6)(var3, var1);
-            var6 = _closure1_slot5;
-            var5 = var6.useCallback;
+            var13 = var6.bind(var7)(var3, var1);
+            var7 = _closure1_slot5;
+            var6 = var7.useCallback;
             var3 = _closure1_slot4;
             var1 = function* () {
                 var1 = function* anon_0_() {
@@ -217,7 +225,7 @@ case 10:
                         var2 = var3.bind(var4)(var2);
                         var6 = _closure1_slot1;
                         var2 = _closure1_slot2;
-                        var8 = 17;
+                        var8 = 19;
                         var7 = var2[var8];
                         var11 = var6.bind(var4)(var7);
                         var10 = var11.itemInteracted;
@@ -246,7 +254,7 @@ case 16:
                         var6 = var7.bind(var4)(var6);
                         var7 = _closure1_slot1;
                         var14 = _closure1_slot2;
-                        var6 = 18;
+                        var6 = 20;
                         var6 = var14[var6];
                         var9 = var7.bind(var4)(var6);
                         var7 = var9.open;
@@ -254,7 +262,7 @@ case 16:
                         var10 = 'RecommeendedServersRow';
                         var6['key'] = var10;
                         var13 = _closure1_slot0;
-                        var10 = 19;
+                        var10 = 21;
                         var11 = var14[var10];
                         var11 = var13.bind(var4)(var11);
                         var12 = var11.intl;
@@ -306,7 +314,7 @@ case 0:
 case 17:
                                     var3 = _closure1_slot1;
                                     var2 = _closure1_slot2;
-                                    var7 = 17;
+                                    var7 = 19;
                                     var2 = var2[var7];
                                     var4 = undefined;
                                     var3 = var3.bind(var4)(var2);
@@ -351,7 +359,7 @@ case 14:
                         };
                         var3 = var11.bind(var4)(var3);
                         var3 = var8.bind(var10)(var3);
-                        var3 = 20;
+                        var3 = 22;
                         var3 = var7[var3];
                         var8 = var6.bind(var4)(var3);
                         var7 = var8.transitionToGuildSync;
@@ -384,17 +392,17 @@ case 9:
                 return var1;
             };
             var3 = var3.bind(var4)(var1);
-            var7 = var20.id;
+            var8 = var20.id;
             var1 = new Array(1);
-            var1[0] = var7;
-            var12 = var5.bind(var6)(var3, var1);
-            var5 = _closure1_slot5;
-            var3 = var5.useState;
+            var1[0] = var8;
+            var12 = var6.bind(var7)(var3, var1);
+            var6 = _closure1_slot5;
+            var3 = var6.useState;
             var1 = false;
-            var5 = var3.bind(var5)(var1);
+            var6 = var3.bind(var6)(var1);
             var3 = _closure1_slot3;
             var1 = 2;
-            var3 = var3.bind(var4)(var5, var1);
+            var3 = var3.bind(var4)(var6, var1);
             var1 = 0;
             var15 = var3[var1];
             var1 = 1;
@@ -403,10 +411,10 @@ case 9:
             var3 = _closure1_slot15;
             var2 = _closure1_slot6;
             var1 = {};
-            var5 = var9.featuredServerContainer;
+            var5 = var5.featuredServerContainer;
             var1['style'] = var5;
             var7 = _closure1_slot14;
-            var6 = _closure1_slot18;
+            var6 = _closure1_slot19;
             var5 = {};
             var5['guild'] = var20;
             var6 = var7.bind(var4)(var6, var5);
@@ -418,7 +426,7 @@ case 9:
             var11 = var9.featuredServerInnerContainer;
             var6['style'] = var11;
             var19 = _closure1_slot14;
-            var17 = 21;
+            var17 = 23;
             var11 = var16[var17];
             var11 = var10.bind(var4)(var11);
             var18 = var11.Text;
@@ -448,7 +456,7 @@ case 9:
             var9 = var9.buttonContainer;
             var6['style'] = var9;
             var11 = _closure1_slot14;
-            var9 = 22;
+            var9 = 24;
             var9 = var16[var9];
             var9 = var10.bind(var4)(var9);
             var10 = var9.Button;
@@ -457,7 +465,7 @@ case 9:
             var9['loading'] = var15;
             var17 = _closure1_slot0;
             var18 = _closure1_slot2;
-            var14 = 19;
+            var14 = 21;
             var15 = var18[var14];
             var15 = var17.bind(var4)(var15);
             var16 = var15.intl;
@@ -489,7 +497,7 @@ case 31:
             return var1;
         }
     };
-    var _closure1_slot19 = var1;
+    var _closure1_slot20 = var1;
     var1 = function RecommendedGuildsRow(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -511,7 +519,7 @@ case 0:
                     if(var3) { _fun0006_ip = 32; continue _fun0006 }
 case 33:
                     var5 = _closure1_slot14;
-                    var4 = _closure1_slot19;
+                    var4 = _closure1_slot20;
                     var3 = {};
                     var3['guild'] = var2;
                     var2 = undefined;
@@ -529,7 +537,7 @@ case 35:
             var5 = _closure1_slot14;
             var7 = _closure1_slot1;
             var8 = _closure1_slot2;
-            var2 = 25;
+            var2 = 27;
             var2 = var8[var2];
             var4 = undefined;
             var3 = var7.bind(var4)(var2);
@@ -565,7 +573,7 @@ case 34:
             return var1;
         }
     };
-    var _closure1_slot20 = var1;
+    var _closure1_slot21 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -661,18 +669,6 @@ case 34:
         var7 = var7.margin;
         var2['marginHorizontal'] = var7;
         var1['subtitle'] = var2;
-        var2 = {'borderRadius': null, 'backgroundColor': null, 'height': 244, 'width': 200, 'overflow': 'hidden'};
-        var7 = var6[var3];
-        var7 = var5.bind(var4)(var7);
-        var7 = var7.radii;
-        var7 = var7.lg;
-        var2['borderRadius'] = var7;
-        var7 = var6[var3];
-        var7 = var5.bind(var4)(var7);
-        var7 = var7.colors;
-        var7 = var7.CARD_PRIMARY_BG;
-        var2['backgroundColor'] = var7;
-        var1['featuredServerContainer'] = var2;
         var2 = {};
         var7 = var6[var3];
         var7 = var5.bind(var4)(var7);
@@ -723,7 +719,30 @@ case 34:
     };
     var4 = var7.bind(var8)(var4);
     var _closure1_slot17 = var4;
-    var4 = 26;
+    var4 = 11;
+    var4 = var6[var4];
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
+    var4 = function(arg1) {
+        var1 = {};
+        var2 = {'borderRadius': null, 'backgroundColor': null, 'height': 244, 'width': 200, 'overflow': 'hidden'};
+        var5 = _closure1_slot1;
+        var4 = _closure1_slot2;
+        var3 = 10;
+        var4 = var4[var3];
+        var3 = undefined;
+        var3 = var5.bind(var3)(var4);
+        var3 = var3.radii;
+        var3 = var3.lg;
+        var2['borderRadius'] = var3;
+        var3 = arg1;
+        var2['backgroundColor'] = var3;
+        var1['featuredServerContainer'] = var2;
+        return var1;
+    };
+    var4 = var7.bind(var8)(var4);
+    var _closure1_slot18 = var4;
+    var4 = 28;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -734,7 +753,7 @@ case 34:
 case 0:
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 11;
+            var1 = 12;
             var1 = var3[var1];
             var5 = undefined;
             var7 = var2.bind(var5)(var1);
@@ -751,7 +770,7 @@ case 0:
             var14 = var6.bind(var7)(var4, var1);
             var1 = _closure1_slot17;
             var16 = var1.bind(var5)();
-            var1 = 23;
+            var1 = 25;
             var1 = var3[var1];
             var3 = var2.bind(var5)(var1);
             var2 = var3.useDestinationICYMIExperiment;
@@ -775,14 +794,14 @@ case 37:
             var13 = _closure1_slot14;
             var18 = _closure1_slot0;
             var19 = _closure1_slot2;
-            var11 = 21;
+            var11 = 23;
             var10 = var19[var11];
             var10 = var18.bind(var5)(var10);
             var12 = var10.Text;
             var10 = {'style': null, 'variant': 'heading-lg/semibold', 'color': 'header-primary'};
             var15 = var16.title;
             var10['style'] = var15;
-            var15 = 19;
+            var15 = 21;
             var17 = var19[var15];
             var17 = var18.bind(var5)(var17);
             var21 = var17.intl;
@@ -816,7 +835,7 @@ case 37:
             var11 = var13.bind(var5)(var12, var11);
             var10[1] = var11;
             var13 = _closure1_slot14;
-            var12 = _closure1_slot20;
+            var12 = _closure1_slot21;
             var11 = {};
             var11['discoverableGuilds'] = var14;
             var11 = var13.bind(var5)(var12, var11);
@@ -831,7 +850,7 @@ case 39:
             var10 = _closure1_slot14;
             var9 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var8 = 24;
+            var8 = 26;
             var8 = var11[var8];
             var8 = var9.bind(var5)(var8);
             var9 = var8.Separator;

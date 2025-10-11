@@ -134,27 +134,27 @@ case 8:
                 if(!(var6 !== var5)) { _fun0002_ip = 9; continue _fun0002 }
 case 10:
                 var5 = var3.id;
-                var6 = null;
-                if(!(var6 == var5)) { _fun0002_ip = 11; continue _fun0002 }
+                var7 = null;
+                if(!(var7 == var5)) { _fun0002_ip = 11; continue _fun0002 }
 case 12:
-                var7 = _closure1_slot1;
-                var8 = _closure1_slot3;
+                var8 = _closure1_slot1;
+                var9 = _closure1_slot3;
                 var6 = 6;
-                var6 = var8[var6];
-                var8 = var7.bind(var4)(var6);
-                var7 = var8.uniqueId;
+                var6 = var9[var6];
+                var9 = var8.bind(var4)(var6);
+                var8 = var9.uniqueId;
                 var6 = 'upload';
-                var5 = var7.bind(var8)(var6);
+                var5 = var8.bind(var9)(var6);
 case 11:
                 var1['id'] = var5;
                 var6 = _closure1_slot2;
-                var7 = _closure1_slot3;
+                var8 = _closure1_slot3;
                 var5 = 7;
-                var5 = var7[var5];
-                var7 = var6.bind(var4)(var5);
-                var6 = var7.classifyFile;
+                var5 = var8[var5];
+                var8 = var6.bind(var4)(var5);
+                var6 = var8.classifyFile;
                 var5 = var3.file;
-                var5 = var6.bind(var7)(var5);
+                var5 = var6.bind(var8)(var5);
                 var1['classification'] = var5;
                 var6 = var1.classification;
                 var5 = 'image';
@@ -168,18 +168,48 @@ case 11:
                 var5 = var5.name;
                 var1['filename'] = var5;
                 var5 = var3.file;
-                var5 = var5.type;
+                var6 = var5.type;
+                var5 = '';
+                if(!(var5 === var6)) { _fun0002_ip = 13; continue _fun0002 }
+case 14:
+                var6 = var3.file;
+                var8 = var6.name;
+                var6 = var8.toLowerCase;
+                var9 = var6.bind(var8)();
+                var8 = var9.split;
+                var6 = '.';
+                var8 = var8.bind(var9)(var6);
+                var6 = var8.pop;
+                var6 = var6.bind(var8)();
+                var9 = var7 != var6;
+                var8 = var5;
+                if(!var9) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
+                var8 = var6;
+case 15:
+                var6 = {'png': 'image/png', 'jpg': 'image/jpeg', 'jpeg': 'image/jpeg', 'gif': 'image/gif', 'webp': 'image/webp', 'bmp': 'image/bmp', 'svg': 'image/svg+xml', 'ico': 'image/x-icon', 'mp4': 'video/mp4', 'webm': 'video/webm', 'mov': 'video/quicktime', 'avi': 'video/x-msvideo', 'mp3': 'audio/mpeg', 'wav': 'audio/wav', 'ogg': 'audio/ogg', 'pdf': 'application/pdf', 'txt': 'text/plain'};
+                var6 = var6[var8];
+                var7 = var7 != var6;
+                if(!var7) { _fun0002_ip = 17; continue _fun0002 }
+case 18:
+                var5 = var6;
+case 17:
+                _fun0002_ip = 19; continue _fun0002;
+case 13:
+                var6 = var3.file;
+                var5 = var6.type;
+case 19:
                 var1['mimeType'] = var5;
                 var5 = var3.origin;
                 var1['origin'] = var5;
-                _fun0002_ip = 13; continue _fun0002;
+                _fun0002_ip = 20; continue _fun0002;
 case 9:
                 var5 = var3.id;
                 var6 = null;
-                if(!(var6 == var5)) { _fun0002_ip = 14; continue _fun0002 }
-case 15:
+                if(!(var6 == var5)) { _fun0002_ip = 21; continue _fun0002 }
+case 22:
                 var5 = var3.uri;
-case 14:
+case 21:
                 var1['id'] = var5;
                 var6 = _closure1_slot0;
                 var7 = _closure1_slot3;
@@ -211,7 +241,7 @@ case 14:
                 var1['waveform'] = var5;
                 var5 = var3.isRemix;
                 var1['isRemix'] = var5;
-case 13:
+case 20:
                 var5 = var3.isThumbnail;
                 var1['isThumbnail'] = var5;
                 var3 = var3.clip;
@@ -277,11 +307,11 @@ case 0:
             var1 = var2.isVideo;
             var3 = undefined;
             var1 = var3 !== var1;
-            if(!var1) { _fun0003_ip = 16; continue _fun0003 }
-case 17:
+            if(!var1) { _fun0003_ip = 23; continue _fun0003 }
+case 24:
             var2 = var2.isImage;
             var1 = var3 !== var2;
-case 16:
+case 23:
             return var1;
         }
     };

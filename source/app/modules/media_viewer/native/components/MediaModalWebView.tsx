@@ -315,7 +315,7 @@ case 18:
 case 16:
                         var1 = !var1;
                         if(var1) { _fun0005_ip = 20; continue _fun0005 }
-case 12:
+case 21:
                         var5 = _closure1_slot1;
                         var4 = _closure1_slot2;
                         var3 = 6;
@@ -390,14 +390,14 @@ case 20:
                 var6 = _closure1_slot9;
                 var6 = var6.PLAYING;
                 var6 = var8 !== var6;
-                if(!var6) { _fun0002_ip = 21; continue _fun0002 }
-case 22:
+                if(!var6) { _fun0002_ip = 22; continue _fun0002 }
+case 23:
                 var7 = _closure1_slot9;
                 var7 = var7.PAUSED;
                 var6 = var8 !== var7;
-case 21:
-                if(!var6) { _fun0002_ip = 23; continue _fun0002 }
-case 24:
+case 22:
+                if(!var6) { _fun0002_ip = 24; continue _fun0002 }
+case 25:
                 var9 = _closure1_slot6;
                 var8 = _closure1_slot1;
                 var7 = _closure1_slot2;
@@ -416,7 +416,7 @@ case 24:
                 var10 = var9.bind(var4)(var11, var10);
                 var7['children'] = var10;
                 var6 = var9.bind(var4)(var8, var7);
-case 23:
+case 24:
                 var5[1] = var6;
                 var1['children'] = var5;
                 var1 = var3.bind(var4)(var2, var1);

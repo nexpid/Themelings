@@ -21,11 +21,11 @@ case 0:
                     if(var4) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
                     var16 = arg1;
-                    var14 = var2.nick;
+                    var18 = var2.nick;
                     var13 = var2.avatar;
                     var11 = var2.avatarDescription;
                     var12 = var2.avatarId;
-                    var18 = var2.avatarDecoration;
+                    var14 = var2.avatarDecoration;
                     var20 = var2.nameplate;
                     var17 = var2.displayNameStyles;
                     var6 = undefined;
@@ -54,91 +54,82 @@ case 9:
                     var8['type'] = var22;
                     var8 = var19.bind(var21)(var8);
                     var8 = {};
-                    var8['nick'] = var14;
-                    var14 = var13;
-                    var8['avatar'] = var14;
+                    var8['nick'] = var18;
+                    var18 = var13;
+                    var8['avatar'] = var18;
                     var8['avatar_description'] = var11;
                     var11 = var12;
                     var8['avatar_id'] = var11;
-                    var14 = var9 === var18;
-                    var11 = null;
-                    if(var14) { _fun0001_ip = 10; continue _fun0001 }
+                    var11 = undefined;
+                    if(!(var6 !== var14)) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
-                    var21 = var9 == var18;
-                    var19 = undefined;
-                    if(var21) { _fun0001_ip = 12; continue _fun0001 }
+                    var19 = var9 == var14;
+                    var18 = undefined;
+                    if(var19) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
-                    var19 = var18.id;
+                    var18 = var14.skuId;
 case 12:
-                    var11 = var19;
-case 10:
-                    var8['avatar_decoration_id'] = var11;
-                    var11 = null;
-                    if(var14) { _fun0001_ip = 14; continue _fun0001 }
+                    var19 = var9 != var18;
+                    var14 = null;
+                    if(!var19) { _fun0001_ip = 14; continue _fun0001 }
 case 15:
-                    var19 = var9 == var18;
-                    var14 = undefined;
-                    if(var19) { _fun0001_ip = 16; continue _fun0001 }
-case 17:
-                    var14 = var18.skuId;
-case 16:
-                    var11 = var14;
+                    var14 = var18;
 case 14:
+                    var11 = var14;
+case 10:
                     var8['avatar_decoration_sku_id'] = var11;
                     var11 = undefined;
-                    if(!(var6 !== var20)) { _fun0001_ip = 18; continue _fun0001 }
-case 19:
+                    if(!(var6 !== var20)) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
                     var14 = {};
                     var18 = null;
-                    if(!(var9 !== var20)) { _fun0001_ip = 20; continue _fun0001 }
-case 21:
+                    if(!(var9 !== var20)) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
                     var19 = {};
-                    var21 = var20.id;
-                    var19['id'] = var21;
                     var20 = var20.skuId;
                     var19['sku_id'] = var20;
                     var18 = var19;
-case 20:
+case 18:
                     var14['nameplate'] = var18;
                     var11 = var14;
-case 18:
+case 16:
                     var8['collectibles'] = var11;
                     var14 = var6 !== var17;
                     var11 = undefined;
-                    if(!var14) { _fun0001_ip = 22; continue _fun0001 }
-case 23:
+                    if(!var14) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
                     var18 = null;
-                    if(!(var9 !== var17)) { _fun0001_ip = 24; continue _fun0001 }
-case 25:
+                    if(!(var9 !== var17)) { _fun0001_ip = 22; continue _fun0001 }
+case 23:
                     var18 = var17.fontId;
-case 24:
-                    var11 = var18;
 case 22:
+                    var11 = var18;
+case 20:
                     var8['display_name_font_id'] = var11;
                     var11 = undefined;
-                    if(!var14) { _fun0001_ip = 26; continue _fun0001 }
-case 27:
+                    if(!var14) { _fun0001_ip = 24; continue _fun0001 }
+case 25:
                     var18 = null;
-                    if(!(var9 !== var17)) { _fun0001_ip = 28; continue _fun0001 }
-case 29:
+                    if(!(var9 !== var17)) { _fun0001_ip = 26; continue _fun0001 }
+case 27:
                     var18 = var17.effectId;
-case 28:
-                    var11 = var18;
 case 26:
+                    var11 = var18;
+case 24:
                     var8['display_name_effect_id'] = var11;
                     var11 = undefined;
-                    if(!var14) { _fun0001_ip = 30; continue _fun0001 }
-case 31:
+                    if(!var14) { _fun0001_ip = 28; continue _fun0001 }
+case 29:
                     var14 = null;
-                    if(!(var14 !== var17)) { _fun0001_ip = 32; continue _fun0001 }
-case 33:
+                    if(!(var14 !== var17)) { _fun0001_ip = 30; continue _fun0001 }
+case 31:
                     var14 = var17.colors;
-case 32:
-                    var11 = var14;
 case 30:
+                    var11 = var14;
+case 28:
                     var8['display_name_colors'] = var11;
                     var15 = var8;
-case 34: // try_start_0
+case 32: // try_start_0
                     var11 = _closure1_slot0;
                     var14 = _closure1_slot2;
                     var8 = 3;
@@ -158,13 +149,13 @@ case 34: // try_start_0
                     var15 = false;
                     var8['rejectWithError'] = var15;
                     var8 = var11.bind(var14)(var8);
-                    SaveGenerator(address=437);
-case 35:
+                    SaveGenerator(address=410);
+case 33:
                     return var8;
-case 36:
+case 34:
                     ResumeGenerator(result_out_reg=7, return_bool_out_reg=10);
-                    if(var11) { _fun0001_ip = 37; continue _fun0001 }
-case 38:
+                    if(var11) { _fun0001_ip = 35; continue _fun0001 }
+case 36:
                     var10 = var8;
                     var17 = var8.body;
                     var14 = _closure1_slot1;
@@ -187,12 +178,12 @@ case 38:
                     var11 = var14.bind(var15)(var11);
                     var13 = var9 == var13;
                     var11 = var13;
-                    if(!var13) { _fun0001_ip = 39; continue _fun0001 }
-case 40:
+                    if(!var13) { _fun0001_ip = 37; continue _fun0001 }
+case 38:
                     var11 = var9 == var12;
-case 39:
-                    if(var11) { _fun0001_ip = 41; continue _fun0001 }
-case 42:
+case 37:
+                    if(var11) { _fun0001_ip = 39; continue _fun0001 }
+case 40:
                     var12 = _closure1_slot1;
                     var11 = _closure1_slot2;
                     var11 = var11[var7];
@@ -202,28 +193,28 @@ case 42:
                     var14 = 'RECENT_AVATARS_UPDATE';
                     var11['type'] = var14;
                     var11 = var12.bind(var13)(var11);
-case 41: // try_end0
+case 39: // try_end0
                     return var10;
-case 37:
+case 35:
                     return var8;
-case 43: // catch_target0
+case 41: // catch_target0
                     CatchBlockStart(arg_register=7);
                     var3 = var8;
                     var8 = var8.body;
                     var5 = var8;
                     var10 = var9 == var8;
                     var8 = undefined;
-                    if(var10) { _fun0001_ip = 44; continue _fun0001 }
-case 45:
+                    if(var10) { _fun0001_ip = 42; continue _fun0001 }
+case 43:
                     var10 = var5;
                     var8 = var10.username;
-case 44:
-                    if(!(var9 != var8)) { _fun0001_ip = 46; continue _fun0001 }
-case 47:
+case 42:
+                    if(!(var9 != var8)) { _fun0001_ip = 44; continue _fun0001 }
+case 45:
                     var8 = var5.username;
                     var5['nick'] = var8;
                     var5 = delete var5.username;
-case 46:
+case 44:
                     var5 = _closure1_slot1;
                     var4 = _closure1_slot2;
                     var4 = var4[var7];

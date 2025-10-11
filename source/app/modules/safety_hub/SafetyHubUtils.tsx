@@ -513,7 +513,7 @@ case 41:
         }
     };
     var3['getClassificationExpiration'] = var4;
-    var2 = function() {
+    var4 = function() {
         var4 = _closure1_slot0;
         var3 = _closure1_slot2;
         var2 = 8;
@@ -535,6 +535,15 @@ case 41:
         var1 = var1 != var2;
         return var1;
     };
-    var3['useIsSuspendedUser'] = var2;
+    var3['useIsSuspendedUser'] = var4;
+    var2 = function isCurrentUserSuspended() {
+        var2 = _closure1_slot3;
+        var1 = var2.getSuspendedUserToken;
+        var2 = var1.bind(var2)();
+        var1 = null;
+        var1 = var1 != var2;
+        return var1;
+    };
+    var3['isCurrentUserSuspended'] = var2;
     return var1;
 })();

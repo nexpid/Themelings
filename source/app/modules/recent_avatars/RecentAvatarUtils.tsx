@@ -220,7 +220,7 @@ case 22:
             var7 = var1.assetOrigin;
             var8 = undefined;
             if(!(var8 === var7)) { _fun0004_ip = 28; continue _fun0004 }
-case 26:
+case 29:
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
             var1 = 5;
@@ -236,11 +236,11 @@ case 28:
             var3 = var4.bind(var8)(var3);
             var3 = var3.AssetOriginTypes;
             var3 = var3.ARCHIVED_ASSET;
-            if(!(var7 === var3)) { _fun0004_ip = 29; continue _fun0004 }
-case 30:
+            if(!(var7 === var3)) { _fun0004_ip = 30; continue _fun0004 }
+case 31:
             return var8;
-case 29:
-            if(!(var2 == var6)) { _fun0004_ip = 31; continue _fun0004 }
+case 30:
+            if(!(var2 == var6)) { _fun0004_ip = 9; continue _fun0004 }
 case 32:
             var5 = _closure1_slot0;
             var9 = _closure1_slot2;
@@ -254,7 +254,7 @@ case 32:
             var2 = var2.t;
             var2 = var2.lqaIxM;
             var6 = var3.bind(var4)(var2);
-case 31:
+case 9:
             var2 = global;
             var2 = var2.Date;
             var3 = var2.prototype;

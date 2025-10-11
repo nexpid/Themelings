@@ -86,17 +86,23 @@ case 2:
         var2 = var5[var2];
         var9 = undefined;
         var6 = var4.bind(var9)(var2);
-        var5 = var6.useStateFromStores;
+        var5 = var6.useStateFromStoresObject;
         var2 = _closure1_slot2;
         var4 = new Array(1);
         var4[0] = var2;
         var2 = function() {
-            var2 = _closure1_slot2;
-            var1 = var2.getOfferIds;
-            var1 = var1.bind(var2)();
+            var1 = {};
+            var3 = _closure1_slot2;
+            var2 = var3.isFetchingProducts;
+            var2 = var2.bind(var3)();
+            var1['isFetchingProducts'] = var2;
+            var2 = var3.getOfferIds;
+            var2 = var2.bind(var3)();
+            var1['offerIds'] = var2;
             return var1;
         };
-        var8 = var5.bind(var6)(var4, var2);
+        var2 = var5.bind(var6)(var4, var2);
+        var8 = var2.offerIds;
         var7 = _closure1_slot8;
         var2 = _closure1_slot6;
         var6 = var7.bind(var9)(var2, var8);

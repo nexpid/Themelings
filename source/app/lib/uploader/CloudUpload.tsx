@@ -3003,16 +3003,16 @@ case 317:
                     var12 = var12.bind(var13)(var10);
                     var10 = var12.getFileData;
                     var10 = var10.bind(var12)(var7);
-                    SaveGenerator(address=1242);
+                    SaveGenerator(address=1238);
 case 318:
                     return var10;
 case 319:
                     ResumeGenerator(result_out_reg=9, return_bool_out_reg=11);
-                    if(var12) { _fun0028_ip = 320; continue _fun0028 }
-case 266:
+                    if(var12) { _fun0028_ip = 268; continue _fun0028 }
+case 320:
                     var19 = var10.size;
                     _fun0028_ip = 316; continue _fun0028;
-case 320:
+case 268:
                     return var10;
 case 316:
                     var2['postCompressionSize'] = var19;

@@ -1,4 +1,4 @@
-// app/modules/webauthn/PasskeyUpsellManager.tsx
+// app/modules/webauthn/native/PasskeyUpsellManager.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var7 = metroImportDefault;
@@ -383,7 +383,7 @@ case 9:
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/webauthn/PasskeyUpsellManager.tsx';
+    var4 = 'modules/webauthn/native/PasskeyUpsellManager.tsx';
     var4 = var5.bind(var6)(var4);
     var3['default'] = var2;
     return var1;

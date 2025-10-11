@@ -1445,27 +1445,27 @@ case 0:
                 var3 = _closure2_slot0;
                 var4 = _closure1_slot15;
                 var4 = var4.GLOBAL_EMOJI;
-                if(!(var4 !== var3)) { _fun0015_ip = 44; continue _fun0015 }
-case 45:
+                if(!(var4 !== var3)) { _fun0015_ip = 26; continue _fun0015 }
+case 44:
                 var4 = _closure1_slot15;
                 var4 = var4.ANIMATED_EMOJI;
-                if(!(var4 !== var3)) { _fun0015_ip = 44; continue _fun0015 }
-case 46:
+                if(!(var4 !== var3)) { _fun0015_ip = 26; continue _fun0015 }
+case 45:
                 var4 = _closure1_slot15;
                 var4 = var4.CUSTOM_PROFILES;
-                if(!(var4 !== var3)) { _fun0015_ip = 44; continue _fun0015 }
-case 47:
+                if(!(var4 !== var3)) { _fun0015_ip = 26; continue _fun0015 }
+case 46:
                 var4 = _closure1_slot15;
                 var4 = var4.PREMIUM_GUILD_PROFILE;
-                if(!(var4 !== var3)) { _fun0015_ip = 44; continue _fun0015 }
-case 48:
+                if(!(var4 !== var3)) { _fun0015_ip = 26; continue _fun0015 }
+case 47:
                 var2 = _closure1_slot15;
                 var2 = var2.APP_ICONS;
-                if(!(var2 !== var3)) { _fun0015_ip = 44; continue _fun0015 }
-case 49:
+                if(!(var2 !== var3)) { _fun0015_ip = 26; continue _fun0015 }
+case 48:
                 var2 = null;
                 return var2;
-case 44:
+case 26:
                 return var1;
             }
         };
@@ -1526,42 +1526,42 @@ case 0:
                 var6 = _closure2_slot0;
                 var3 = _closure1_slot15;
                 var3 = var3.GLOBAL_EMOJI;
-                if(!(var3 !== var6)) { _fun0016_ip = 50; continue _fun0016 }
-case 51:
+                if(!(var3 !== var6)) { _fun0016_ip = 49; continue _fun0016 }
+case 50:
                 var3 = _closure1_slot15;
                 var3 = var3.ANIMATED_EMOJI;
-                if(!(var3 !== var6)) { _fun0016_ip = 52; continue _fun0016 }
-case 53:
+                if(!(var3 !== var6)) { _fun0016_ip = 51; continue _fun0016 }
+case 52:
                 var3 = _closure1_slot15;
                 var3 = var3.GLOBAL_STICKER;
+                if(!(var3 !== var6)) { _fun0016_ip = 53; continue _fun0016 }
+case 48:
+                var3 = _closure1_slot15;
+                var3 = var3.CUSTOM_PROFILES;
                 if(!(var3 !== var6)) { _fun0016_ip = 54; continue _fun0016 }
 case 55:
                 var3 = _closure1_slot15;
-                var3 = var3.CUSTOM_PROFILES;
+                var3 = var3.APP_ICONS;
                 if(!(var3 !== var6)) { _fun0016_ip = 56; continue _fun0016 }
 case 57:
                 var3 = _closure1_slot15;
-                var3 = var3.APP_ICONS;
+                var3 = var3.PREMIUM_GUILD_PROFILE;
                 if(!(var3 !== var6)) { _fun0016_ip = 58; continue _fun0016 }
 case 59:
                 var3 = _closure1_slot15;
-                var3 = var3.PREMIUM_GUILD_PROFILE;
+                var3 = var3.LONGER_MESSAGE;
                 if(!(var3 !== var6)) { _fun0016_ip = 60; continue _fun0016 }
 case 61:
                 var3 = _closure1_slot15;
-                var3 = var3.LONGER_MESSAGE;
+                var3 = var3.GUILD_CAP;
                 if(!(var3 !== var6)) { _fun0016_ip = 62; continue _fun0016 }
 case 63:
                 var3 = _closure1_slot15;
-                var3 = var3.GUILD_CAP;
+                var3 = var3.UPLOAD;
                 if(!(var3 !== var6)) { _fun0016_ip = 64; continue _fun0016 }
 case 65:
-                var3 = _closure1_slot15;
-                var3 = var3.UPLOAD;
-                if(!(var3 !== var6)) { _fun0016_ip = 66; continue _fun0016 }
-case 67:
                 return var2;
-case 66:
+case 64:
                 var6 = _closure1_slot19;
                 var3 = _closure1_slot33;
                 var2 = {};
@@ -1605,7 +1605,7 @@ case 66:
                 var2['alertWidth'] = var7;
                 var2 = var6.bind(var4)(var3, var2);
                 return var2;
-case 64:
+case 62:
                 var6 = _closure1_slot19;
                 var3 = _closure1_slot32;
                 var2 = {};
@@ -1613,7 +1613,7 @@ case 64:
                 var2['alertWidth'] = var7;
                 var2 = var6.bind(var4)(var3, var2);
                 return var2;
-case 62:
+case 60:
                 var6 = _closure1_slot19;
                 var3 = _closure1_slot31;
                 var2 = {};
@@ -1621,7 +1621,7 @@ case 62:
                 var2['alertWidth'] = var7;
                 var2 = var6.bind(var4)(var3, var2);
                 return var2;
-case 60:
+case 58:
                 var6 = _closure1_slot19;
                 var3 = _closure1_slot27;
                 var2 = {};
@@ -1629,7 +1629,7 @@ case 60:
                 var2['alertWidth'] = var7;
                 var2 = var6.bind(var4)(var3, var2);
                 return var2;
-case 58:
+case 56:
                 var6 = _closure1_slot19;
                 var3 = _closure1_slot29;
                 var2 = {};
@@ -1639,7 +1639,7 @@ case 58:
                 var2['imageSource'] = var7;
                 var2 = var6.bind(var4)(var3, var2);
                 return var2;
-case 56:
+case 54:
                 var6 = _closure1_slot19;
                 var3 = _closure1_slot28;
                 var2 = {};
@@ -1647,7 +1647,7 @@ case 56:
                 var2['alertWidth'] = var7;
                 var2 = var6.bind(var4)(var3, var2);
                 return var2;
-case 54:
+case 53:
                 var6 = _closure1_slot19;
                 var3 = _closure1_slot30;
                 var2 = {};
@@ -1657,7 +1657,7 @@ case 54:
                 var2['useTier0Description'] = var7;
                 var2 = var6.bind(var4)(var3, var2);
                 return var2;
-case 52:
+case 51:
                 var6 = _closure1_slot19;
                 var3 = _closure1_slot26;
                 var2 = {};
@@ -1667,7 +1667,7 @@ case 52:
                 var2['useTier0Description'] = var7;
                 var2 = var6.bind(var4)(var3, var2);
                 return var2;
-case 50:
+case 49:
                 var3 = _closure1_slot19;
                 var2 = _closure1_slot25;
                 var1 = {};

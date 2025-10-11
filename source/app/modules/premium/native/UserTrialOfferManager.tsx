@@ -94,7 +94,7 @@ case 4:
     var _closure1_slot12 = var8;
     var4 = var4.PREMIUM_TIER_2_TRIAL_FOR_EVERYONE_TRIAL_ID;
     var _closure1_slot13 = var4;
-    var4 = 15;
+    var4 = 16;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var2 = function(arg1) {
@@ -201,9 +201,9 @@ case 14:
                     _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                         var1 = arg1;
-                        var5 = var1.userTrialOffer;
-                        var7 = null;
-                        if(!(var7 != var5)) { _fun0004_ip = 16; continue _fun0004 }
+                        var7 = var1.userTrialOffer;
+                        var8 = null;
+                        if(!(var8 != var7)) { _fun0004_ip = 16; continue _fun0004 }
 case 17:
                         var1 = _closure1_slot10;
                         var4 = new Array(4);
@@ -214,53 +214,65 @@ case 17:
                         var4[2] = var1;
                         var1 = _closure1_slot13;
                         var4[3] = var1;
-                        var3 = var4.includes;
-                        var1 = var5.trial_id;
-                        var1 = var3.bind(var4)(var1);
+                        var2 = var4.includes;
+                        var1 = var7.trial_id;
+                        var1 = var2.bind(var4)(var1);
                         if(!var1) { _fun0004_ip = 16; continue _fun0004 }
 case 18:
-                        var4 = var5.trial_id;
-                        var3 = _closure1_slot13;
-                        var10 = _closure1_slot0;
-                        var11 = _closure1_slot2;
+                        var6 = var7.trial_id;
+                        var5 = _closure1_slot13;
+                        var9 = _closure1_slot0;
+                        var10 = _closure1_slot2;
                         var1 = 10;
-                        var1 = var11[var1];
-                        var6 = undefined;
-                        var9 = var10.bind(var6)(var1);
-                        var8 = var9.UNSAFE_isDismissibleContentDismissed;
-                        var1 = 11;
-                        var1 = var11[var1];
-                        var1 = var10.bind(var6)(var1);
-                        var1 = var1.DismissibleContent;
-                        var1 = var1.TRIAL_FOR_ALL_INITIAL_UPSELL;
-                        var1 = var8.bind(var9)(var1);
-                        var5 = var5.expires_at;
-                        if(!(var7 != var5)) { _fun0004_ip = 19; continue _fun0004 }
-case 20:
-                        if(!(var4 === var3)) { _fun0004_ip = 21; continue _fun0004 }
-case 22:
-                        if(!var1) { _fun0004_ip = 19; continue _fun0004 }
-case 21:
-                        return var6;
-case 19:
-                        var4 = _closure1_slot1;
-                        var1 = _closure1_slot2;
-                        var3 = 12;
-                        var3 = var1[var3];
-                        var4 = var4.bind(var6)(var3);
-                        var3 = var4.openLazy;
-                        var5 = _closure1_slot0;
-                        var2 = 14;
-                        var2 = var1[var2];
-                        var5 = var5.bind(var6)(var2);
-                        var2 = 13;
-                        var2 = var1[var2];
-                        var1 = var1.paths;
-                        var2 = var5.bind(var6)(var2, var1);
-                        var1 = 'PremiumTrialOfferActionSheet';
-                        var1 = var3.bind(var4)(var2, var1);
-case 16:
+                        var2 = var10[var1];
                         var1 = undefined;
+                        var11 = var9.bind(var1)(var2);
+                        var4 = var11.UNSAFE_isDismissibleContentDismissed;
+                        var2 = 11;
+                        var2 = var10[var2];
+                        var2 = var9.bind(var1)(var2);
+                        var2 = var2.DismissibleContent;
+                        var2 = var2.TRIAL_FOR_ALL_INITIAL_UPSELL;
+                        var4 = var4.bind(var11)(var2);
+                        var2 = 12;
+                        var2 = var10[var2];
+                        var2 = var9.bind(var1)(var2);
+                        var10 = var2.PremiumTrialOfferActionSheetKillSwitchExperiment;
+                        var9 = var10.getConfig;
+                        var2 = {};
+                        var11 = 'UserTrialOfferManager';
+                        var2['location'] = var11;
+                        var2 = var9.bind(var10)(var2);
+                        var2 = var2.enabled;
+                        var7 = var7.expires_at;
+                        if(!(var8 != var7)) { _fun0004_ip = 19; continue _fun0004 }
+case 20:
+                        if(!(var6 === var5)) { _fun0004_ip = 21; continue _fun0004 }
+case 22:
+                        if(var4) { _fun0004_ip = 21; continue _fun0004 }
+case 19:
+                        if(var2) { _fun0004_ip = 21; continue _fun0004 }
+case 23:
+                        var5 = _closure1_slot1;
+                        var2 = _closure1_slot2;
+                        var4 = 13;
+                        var4 = var2[var4];
+                        var5 = var5.bind(var1)(var4);
+                        var4 = var5.openLazy;
+                        var6 = _closure1_slot0;
+                        var3 = 15;
+                        var3 = var2[var3];
+                        var6 = var6.bind(var1)(var3);
+                        var3 = 14;
+                        var3 = var2[var3];
+                        var2 = var2.paths;
+                        var3 = var6.bind(var1)(var3, var2);
+                        var2 = 'PremiumTrialOfferActionSheet';
+                        var2 = var4.bind(var5)(var3, var2);
+case 16:
+                        var2 = undefined;
+                        return var2;
+case 21:
                         return var1;
                     }
                 };
@@ -283,7 +295,7 @@ case 16:
     var13 = var4;
     var2 = new var13[var2](var12);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 16;
+    var4 = 17;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

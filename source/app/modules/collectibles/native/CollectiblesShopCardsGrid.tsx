@@ -72,12 +72,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var1.items;
             var6 = 0;
             var7 = var7[var6];
-            var7 = var7.id;
+            var7 = var7.skuId;
             var7 = var10.bind(var4)(var9, var8, var7);
             var2['children'] = var7;
             var1 = var1.items;
             var1 = var1[var6];
-            var1 = var1.id;
+            var1 = var1.skuId;
             var1 = var5.bind(var4)(var3, var2, var1);
             return var1;
         };

@@ -1,4 +1,4 @@
-// app/modules/webauthn/PasskeyUpsellActionCreators.native.tsx
+// app/modules/webauthn/native/PasskeyUpsellActionCreators.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var3 = exports;
@@ -177,7 +177,7 @@ case 2:
     var1 = undefined;
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/webauthn/PasskeyUpsellActionCreators.native.tsx';
+    var4 = 'modules/webauthn/native/PasskeyUpsellActionCreators.tsx';
     var4 = var5.bind(var6)(var4);
     var3['default'] = var2;
     return var1;

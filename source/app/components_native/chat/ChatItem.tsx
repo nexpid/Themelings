@@ -450,7 +450,7 @@ case 0:
                         var5 = _closure2_slot4;
                         var4 = null;
                         if(!(var4 != var5)) { _fun0006_ip = 36; continue _fun0006 }
-case 24:
+case 37:
                         var2 = _closure2_slot4;
                         var2 = var2.bind(var1)(var3);
 case 36:
@@ -471,29 +471,29 @@ case 0:
                         var1 = var1.layout;
                         var3 = var1.height;
                         var1 = 0;
-                        if(!(var3 > var1)) { _fun0007_ip = 37; continue _fun0007 }
-case 38:
+                        if(!(var3 > var1)) { _fun0007_ip = 38; continue _fun0007 }
+case 39:
                         var4 = _closure2_slot5;
                         var2 = null;
-                        if(!(var2 != var4)) { _fun0007_ip = 39; continue _fun0007 }
-case 40:
-                        var2 = _closure2_slot5;
-                        var4 = var2.current;
-                        var2 = _closure2_slot1;
-                        var2 = var2.id;
-                        var2 = var4[var2];
-                        if(!(var2 !== var3)) { _fun0007_ip = 39; continue _fun0007 }
+                        if(!(var2 != var4)) { _fun0007_ip = 40; continue _fun0007 }
 case 41:
                         var2 = _closure2_slot5;
                         var4 = var2.current;
                         var2 = _closure2_slot1;
                         var2 = var2.id;
+                        var2 = var4[var2];
+                        if(!(var2 !== var3)) { _fun0007_ip = 40; continue _fun0007 }
+case 42:
+                        var2 = _closure2_slot5;
+                        var4 = var2.current;
+                        var2 = _closure2_slot1;
+                        var2 = var2.id;
                         var4[var2] = var3;
-case 39:
+case 40:
                         var2 = _closure2_slot6;
                         var1 = undefined;
                         var1 = var2.bind(var1)(var3);
-case 37:
+case 38:
                         var1 = undefined;
                         return var1;
                     }
@@ -503,30 +503,30 @@ case 37:
                 var1 = var6 - var1;
                 var8 = null;
                 var6 = var8 != var2;
-                if(!var6) { _fun0003_ip = 42; continue _fun0003 }
-case 43:
+                if(!var6) { _fun0003_ip = 43; continue _fun0003 }
+case 44:
                 var6 = var1 >= var2;
-case 42:
+case 43:
                 var14 = var8 == var3;
                 var16 = undefined;
-                if(var14) { _fun0003_ip = 44; continue _fun0003 }
-case 45:
+                if(var14) { _fun0003_ip = 45; continue _fun0003 }
+case 46:
                 var14 = var3.current;
                 var3 = var8 == var14;
                 var16 = undefined;
-                if(var3) { _fun0003_ip = 44; continue _fun0003 }
-case 46:
+                if(var3) { _fun0003_ip = 45; continue _fun0003 }
+case 47:
                 var3 = var19.id;
                 var16 = var14[var3];
-case 44:
-                if(!(var8 == var16)) { _fun0003_ip = 47; continue _fun0003 }
-case 48:
-                if(!var6) { _fun0003_ip = 49; continue _fun0003 }
-case 50:
-                var1 = var2;
+case 45:
+                if(!(var8 == var16)) { _fun0003_ip = 48; continue _fun0003 }
 case 49:
+                if(!var6) { _fun0003_ip = 50; continue _fun0003 }
+case 51:
+                var1 = var2;
+case 50:
                 var16 = var1;
-case 47:
+case 48:
                 var3 = _closure1_slot12;
                 var2 = _closure1_slot18;
                 var1 = {};
@@ -557,14 +557,14 @@ case 47:
                 var1['onLayout'] = var13;
                 var1['pointerEvents'] = var12;
                 var8 = var8 != var9;
-                if(!var8) { _fun0003_ip = 51; continue _fun0003 }
-case 52:
+                if(!var8) { _fun0003_ip = 52; continue _fun0003 }
+case 53:
                 var8 = var5;
-case 51:
+case 52:
                 var5 = new Array(2);
                 var5[0] = var8;
-                if(!var6) { _fun0003_ip = 53; continue _fun0003 }
-case 54:
+                if(!var6) { _fun0003_ip = 54; continue _fun0003 }
+case 55:
                 var9 = _closure1_slot12;
                 var8 = _closure1_slot6;
                 var7 = {};
@@ -572,7 +572,7 @@ case 54:
                 var10 = var10.gradient;
                 var7['style'] = var10;
                 var6 = var9.bind(var4)(var8, var7);
-case 53:
+case 54:
                 var5[1] = var6;
                 var1['children'] = var5;
                 var1 = var3.bind(var4)(var2, var1);

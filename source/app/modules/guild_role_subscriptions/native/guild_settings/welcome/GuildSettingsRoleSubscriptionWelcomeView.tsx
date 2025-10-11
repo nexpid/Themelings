@@ -956,14 +956,14 @@ case 0:
                     var1 = undefined;
                     var4 = undefined;
                     if(var3) { _fun0009_ip = 47; continue _fun0009 }
-case 48:
+case 38:
                     var5 = _closure2_slot3;
                     var5 = var5.current;
                     var3 = var6 == var5;
                     var4 = var5;
 case 47:
-                    if(var3) { _fun0009_ip = 49; continue _fun0009 }
-case 50:
+                    if(var3) { _fun0009_ip = 48; continue _fun0009 }
+case 49:
                     var3 = var4.measure;
                     var2 = function(arg1, arg2, arg3, arg4, arg5, arg6) {
                         var3 = _closure2_slot5;
@@ -986,7 +986,7 @@ case 50:
                         return var1;
                     };
                     var2 = var3.bind(var4)(var2);
-case 49:
+case 48:
                     return var1;
                 }
             };
@@ -1004,28 +1004,28 @@ case 0:
                     var2 = var1.contentOffset;
                     var4 = _closure2_slot4;
                     var3 = null;
-                    if(!(var3 != var4)) { _fun0010_ip = 51; continue _fun0010 }
-case 36:
+                    if(!(var3 != var4)) { _fun0010_ip = 50; continue _fun0010 }
+case 44:
                     var3 = _closure2_slot2;
                     var2 = var2.y;
                     var1 = _closure2_slot4;
                     var2 = var2 > var1;
                     var1 = undefined;
                     var1 = var3.bind(var1)(var2);
-case 51:
+case 50:
                     var1 = undefined;
                     return var1;
                 }
             };
             var20 = var20.bind(var21)(var10, var19);
-            if(var9) { _fun0006_ip = 52; continue _fun0006 }
+            if(var9) { _fun0006_ip = 51; continue _fun0006 }
+case 52:
+            if(!(var1 != var13)) { _fun0006_ip = 51; continue _fun0006 }
 case 53:
-            if(!(var1 != var13)) { _fun0006_ip = 52; continue _fun0006 }
+            if(var6) { _fun0006_ip = 51; continue _fun0006 }
 case 54:
-            if(var6) { _fun0006_ip = 52; continue _fun0006 }
-case 55:
-            if(!(var1 != var4)) { _fun0006_ip = 56; continue _fun0006 }
-case 57:
+            if(!(var1 != var4)) { _fun0006_ip = 55; continue _fun0006 }
+case 56:
             var4 = _closure1_slot2;
             var21 = _closure1_slot3;
             var1 = 35;
@@ -1046,7 +1046,7 @@ case 57:
             var1 = var4.bind(var6)(var1);
             var1 = var3.pop;
             var1 = var1.bind(var3)();
-case 56:
+case 55:
             var4 = _closure1_slot12;
             var36 = _closure1_slot0;
             var37 = _closure1_slot3;
@@ -1132,8 +1132,8 @@ case 56:
             var27 = var29.bind(var5)(var28, var27);
             var26[1] = var27;
             var32 = _closure1_slot11;
-            if(var8) { _fun0006_ip = 58; continue _fun0006 }
-case 59:
+            if(var8) { _fun0006_ip = 57; continue _fun0006 }
+case 58:
             var28 = _closure1_slot17;
             var27 = {};
             var29 = var18.startEarningButtonContainer;
@@ -1146,8 +1146,8 @@ case 59:
             var27['eligibility'] = var13;
             var27['acceptTermsCheckboxText'] = var12;
             var27 = var32.bind(var5)(var28, var27);
-            _fun0006_ip = 60; continue _fun0006;
-case 58:
+            _fun0006_ip = 59; continue _fun0006;
+case 57:
             var29 = _closure1_slot15;
             var28 = {};
             var34 = var18.statusNoticeContainer;
@@ -1156,7 +1156,7 @@ case 58:
             var39 = var33;
             var33 = copyDataProperties(var40, var39);
             var27 = var32.bind(var5)(var29, var28);
-case 60:
+case 59:
             var26[2] = var27;
             var29 = _closure1_slot11;
             var28 = _closure1_slot18;
@@ -1174,16 +1174,16 @@ case 60:
             var9 = var10.bind(var5)(var9, var6);
             var6 = new Array(2);
             var6[0] = var9;
-            if(!var7) { _fun0006_ip = 61; continue _fun0006 }
-case 62:
-            var7 = var14;
+            if(!var7) { _fun0006_ip = 60; continue _fun0006 }
 case 61:
-            if(!var7) { _fun0006_ip = 63; continue _fun0006 }
-case 64:
-            var7 = !var8;
+            var7 = var14;
+case 60:
+            if(!var7) { _fun0006_ip = 62; continue _fun0006 }
 case 63:
-            if(!var7) { _fun0006_ip = 65; continue _fun0006 }
-case 66:
+            var7 = !var8;
+case 62:
+            if(!var7) { _fun0006_ip = 64; continue _fun0006 }
+case 65:
             var10 = _closure1_slot11;
             var9 = _closure1_slot17;
             var8 = {};
@@ -1198,12 +1198,12 @@ case 66:
             var8['acceptTermsCheckboxText'] = var12;
             var8['isFab'] = var11;
             var7 = var10.bind(var5)(var9, var8);
-case 65:
+case 64:
             var6[1] = var7;
             var1['children'] = var6;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0006_ip = 67; continue _fun0006;
-case 52:
+            _fun0006_ip = 66; continue _fun0006;
+case 51:
             var4 = _closure1_slot11;
             var3 = _closure1_slot1;
             var6 = _closure1_slot3;
@@ -1212,7 +1212,7 @@ case 52:
             var3 = var3.bind(var5)(var2);
             var2 = {};
             var1 = var4.bind(var5)(var3, var2);
-case 67:
+case 66:
             return var1;
         }
     };

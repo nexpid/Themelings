@@ -459,13 +459,13 @@ case 17:
             if(!(var1 != var2)) { _fun0006_ip = 19; continue _fun0006 }
 case 20:
             if(var6) { _fun0006_ip = 19; continue _fun0006 }
-case 4:
-            if(!(var1 == var13)) { _fun0006_ip = 19; continue _fun0006 }
 case 21:
+            if(!(var1 == var13)) { _fun0006_ip = 19; continue _fun0006 }
+case 22:
             return var1;
 case 19:
-            if(!(var1 != var8)) { _fun0006_ip = 22; continue _fun0006 }
-case 23:
+            if(!(var1 != var8)) { _fun0006_ip = 23; continue _fun0006 }
+case 24:
             var3 = _closure1_slot0;
             var14 = _closure1_slot2;
             var2 = 11;
@@ -474,42 +474,42 @@ case 23:
             var2 = var3.formatPrice;
             var14 = var2.bind(var3)(var9, var4);
             var17 = var8;
-            if(!(var1 != var7)) { _fun0006_ip = 24; continue _fun0006 }
-case 25:
+            if(!(var1 != var7)) { _fun0006_ip = 25; continue _fun0006 }
+case 26:
             var2 = global;
             var2 = var2.HermesInternal;
             var4 = var2.concat;
             var3 = '';
             var2 = ' • ';
             var17 = var4.bind(var3)(var8, var2, var7);
-case 24:
+case 25:
             var4 = _closure1_slot6;
             var3 = _closure1_slot3;
             var2 = {};
             var7 = var11.container;
             var2['style'] = var7;
             var9 = _closure1_slot5;
-            if(var6) { _fun0006_ip = 26; continue _fun0006 }
-case 27:
+            if(var6) { _fun0006_ip = 27; continue _fun0006 }
+case 28:
             var7 = _closure1_slot12;
             var6 = {};
             var15 = var1 != var13;
             var8 = null;
-            if(!var15) { _fun0006_ip = 28; continue _fun0006 }
-case 29:
+            if(!var15) { _fun0006_ip = 29; continue _fun0006 }
+case 30:
             var8 = var13;
-case 28:
+case 29:
             var6['product'] = var8;
             var6['styles'] = var11;
             var7 = var9.bind(var5)(var7, var6);
-            _fun0006_ip = 30; continue _fun0006;
-case 26:
+            _fun0006_ip = 31; continue _fun0006;
+case 27:
             var8 = _closure1_slot11;
             var6 = {};
             var6['subscriptionPlanId'] = var12;
             var6['styles'] = var11;
             var7 = var9.bind(var5)(var8, var6);
-case 30:
+case 31:
             var6 = new Array(2);
             var6[0] = var7;
             var9 = _closure1_slot6;
@@ -542,7 +542,7 @@ case 30:
             var2['children'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
-case 22:
+case 23:
             return var1;
         }
     };

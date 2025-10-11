@@ -125,6 +125,11 @@ case 7:
             var2 = null;
             if(!(var6 !== var4)) { _fun0001_ip = 4; continue _fun0001 }
 case 8:
+            var4 = var5.activity;
+            var4 = var10 != var4;
+            var2 = null;
+            if(var4) { _fun0001_ip = 4; continue _fun0001 }
+case 9:
             var6 = _closure1_slot0;
             var4 = _closure1_slot2;
             var4 = var4[var11];
@@ -133,10 +138,10 @@ case 8:
             var4 = var1.recipientFlags;
             var6 = var10 != var4;
             var7 = 0;
-            if(!var6) { _fun0001_ip = 9; continue _fun0001 }
-case 10:
+            if(!var6) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var7 = var4;
-case 9:
+case 10:
             var14 = _closure1_slot0;
             var4 = _closure1_slot2;
             var6 = 5;
@@ -147,14 +152,14 @@ case 9:
             var4 = var9.bind(var13)(var7, var4);
             var2 = null;
             if(var4) { _fun0001_ip = 4; continue _fun0001 }
-case 11:
+case 12:
             var9 = _closure1_slot7;
             var7 = var9.has;
             var4 = var1.id;
             var4 = var7.bind(var9)(var4);
             var2 = null;
             if(var4) { _fun0001_ip = 4; continue _fun0001 }
-case 12:
+case 13:
             var7 = _closure1_slot8;
             var4 = var1.id;
             var4 = var7.bind(var8)(var5, var4);
@@ -171,10 +176,10 @@ case 12:
             var7 = var1.recipientFlags;
             var10 = var10 != var7;
             var12 = 0;
-            if(!var10) { _fun0001_ip = 13; continue _fun0001 }
-case 14:
+            if(!var10) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var12 = var7;
-case 13:
+case 14:
             var7 = _closure1_slot0;
             var10 = _closure1_slot2;
             var6 = var10[var6];
@@ -200,10 +205,10 @@ case 2:
 case 4:
             var1 = null;
             var3 = var1 != var2;
-            if(!var3) { _fun0001_ip = 15; continue _fun0001 }
-case 16:
+            if(!var3) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var1 = var2;
-case 15:
+case 16:
             return var1;
         }
     };

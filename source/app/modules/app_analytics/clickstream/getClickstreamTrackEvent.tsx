@@ -123,44 +123,48 @@ case 10:
             if(!(var1 !== var3)) { _fun0001_ip = 8; continue _fun0001 }
 case 11:
             var1 = _closure1_slot4;
-            var1 = var1.MEMBER_APPLICATIONS;
+            var1 = var1.GAME_SHOP;
             if(!(var1 !== var3)) { _fun0001_ip = 8; continue _fun0001 }
 case 12:
             var1 = _closure1_slot4;
-            var1 = var1.ROLE_SUBSCRIPTIONS;
+            var1 = var1.MEMBER_APPLICATIONS;
             if(!(var1 !== var3)) { _fun0001_ip = 8; continue _fun0001 }
 case 13:
             var1 = _closure1_slot4;
-            var1 = var1.CUSTOMIZE_COMMUNITY;
+            var1 = var1.ROLE_SUBSCRIPTIONS;
             if(!(var1 !== var3)) { _fun0001_ip = 8; continue _fun0001 }
 case 14:
             var1 = _closure1_slot4;
-            var1 = var1.MEMBER_SAFETY;
+            var1 = var1.CUSTOMIZE_COMMUNITY;
             if(!(var1 !== var3)) { _fun0001_ip = 8; continue _fun0001 }
 case 15:
             var1 = _closure1_slot4;
-            var1 = var1.GUILD_ONBOARDING;
+            var1 = var1.MEMBER_SAFETY;
             if(!(var1 !== var3)) { _fun0001_ip = 8; continue _fun0001 }
 case 16:
             var1 = _closure1_slot4;
-            var1 = var1.GUILD_BOOSTS;
+            var1 = var1.GUILD_ONBOARDING;
             if(!(var1 !== var3)) { _fun0001_ip = 8; continue _fun0001 }
 case 17:
+            var1 = _closure1_slot4;
+            var1 = var1.GUILD_BOOSTS;
+            if(!(var1 !== var3)) { _fun0001_ip = 8; continue _fun0001 }
+case 18:
             var2 = _closure1_slot0;
             var1 = var2.getChannel;
             var5 = var1.bind(var2)(var3);
             var1 = null;
             var6 = var1 == var5;
             var2 = undefined;
-            if(var6) { _fun0001_ip = 18; continue _fun0001 }
-case 19:
+            if(var6) { _fun0001_ip = 19; continue _fun0001 }
+case 20:
             var2 = var5.type;
-case 18:
-            if(!(var1 == var2)) { _fun0001_ip = 20; continue _fun0001 }
-case 21:
+case 19:
+            if(!(var1 == var2)) { _fun0001_ip = 21; continue _fun0001 }
+case 22:
             var1 = _closure1_slot3;
             var2 = var1.UNKNOWN;
-case 20:
+case 21:
             var1 = {};
             var5 = global;
             var5 = var5.Date;

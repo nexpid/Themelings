@@ -949,7 +949,7 @@ case 0:
                     var4 = _closure2_slot0;
                     var2 = null;
                     if(!(var2 != var4)) { _fun0009_ip = 60; continue _fun0009 }
-case 61:
+case 24:
                     var2 = _closure2_slot0;
                     var1 = undefined;
                     var1 = var2.bind(var1)(var3);
@@ -976,11 +976,11 @@ case 0:
             var _closure2_slot0 = var8;
             var5 = undefined;
             if(!(var7 === var5)) { _fun0010_ip = 56; continue _fun0010 }
-case 62:
+case 61:
             var7 = false;
 case 56:
             var _closure2_slot1 = var7;
-            if(!(var6 === var5)) { _fun0010_ip = 63; continue _fun0010 }
+            if(!(var6 === var5)) { _fun0010_ip = 62; continue _fun0010 }
 case 5:
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
@@ -988,7 +988,7 @@ case 5:
             var2 = var4[var2];
             var2 = var3.bind(var5)(var2);
             var6 = var2.BUTTON_DEFAULT_MAX_FONT_SIZE_MULTIPLIER;
-case 63:
+case 62:
             var _closure2_slot2 = var6;
             var _closure2_slot3 = var5;
             var4 = _closure1_slot0;
@@ -1024,7 +1024,7 @@ case 0:
                     var6 = _closure2_slot0;
                     var2 = 'sm';
                     if(!(var2 !== var6)) { _fun0011_ip = 53; continue _fun0011 }
-case 64:
+case 63:
                     var2 = 'lg';
                     if(!(var2 === var6)) { _fun0011_ip = 12; continue _fun0011 }
 case 52:
@@ -1051,13 +1051,13 @@ case 53:
 case 12:
                     var4 = _closure2_slot1;
                     var2 = var5;
-                    if(!var4) { _fun0011_ip = 65; continue _fun0011 }
-case 66:
+                    if(!var4) { _fun0011_ip = 64; continue _fun0011 }
+case 65:
                     var6 = _closure2_slot3;
                     var4 = 1;
                     var2 = var5;
-                    if(!(var6 > var4)) { _fun0011_ip = 65; continue _fun0011 }
-case 67:
+                    if(!(var6 > var4)) { _fun0011_ip = 64; continue _fun0011 }
+case 66:
                     var6 = _closure1_slot0;
                     var3 = _closure1_slot2;
                     var4 = 14;
@@ -1073,11 +1073,11 @@ case 67:
                     var6 = var3.fontSize;
                     var3 = null;
                     var2 = var5;
-                    if(!(var3 != var2)) { _fun0011_ip = 65; continue _fun0011 }
-case 68:
+                    if(!(var3 != var2)) { _fun0011_ip = 64; continue _fun0011 }
+case 67:
                     var2 = var5;
-                    if(!(var3 != var6)) { _fun0011_ip = 65; continue _fun0011 }
-case 69:
+                    if(!(var3 != var6)) { _fun0011_ip = 64; continue _fun0011 }
+case 68:
                     var3 = global;
                     var8 = var3.Math;
                     var7 = var8.min;
@@ -1088,7 +1088,7 @@ case 69:
                     var3 = var4.max;
                     var1 = var6 * var1;
                     var2 = var3.bind(var4)(var5, var1);
-case 65:
+case 64:
                     var1 = {};
                     var1['width'] = var2;
                     var1['height'] = var2;

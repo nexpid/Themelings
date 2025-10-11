@@ -91,6 +91,8 @@ case 2:
                 var4 = var2.banner_display_config;
                 var4 = var5.bind(var6)(var4);
                 var3['bannerDisplayConfig'] = var4;
+                var4 = var2.hero_rive_url;
+                var3['heroRiveUrl'] = var4;
                 var4 = var2.mobile_title;
                 var3['mobileTitle'] = var4;
                 var4 = var2.mobile_summary;
@@ -101,6 +103,8 @@ case 2:
                 var3['heroBannerUrl'] = var4;
                 var4 = var2.hero_banner_animated_url;
                 var3['heroBannerAnimatedUrl'] = var4;
+                var4 = var2.hero_rive_url;
+                var3['heroRiveUrl'] = var4;
                 var4 = var2.hero_logo_url;
                 var3['heroLogoUrl'] = var4;
                 var4 = var2.mobile_hero_url;

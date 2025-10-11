@@ -234,7 +234,7 @@ case 21:
             var3 = undefined;
             if(var10) { _fun0001_ip = 26; continue _fun0001 }
 case 27:
-            var3 = var2.id;
+            var3 = var2.skuId;
 case 26:
             var10 = var5 == var7;
             var2 = undefined;
@@ -245,7 +245,7 @@ case 29:
             var2 = undefined;
             if(var10) { _fun0001_ip = 28; continue _fun0001 }
 case 30:
-            var2 = var7.id;
+            var2 = var7.skuId;
 case 28:
             if(!(var3 !== var2)) { _fun0001_ip = 31; continue _fun0001 }
 case 32:

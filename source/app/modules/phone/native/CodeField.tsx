@@ -682,7 +682,7 @@ case 0:
                                 var2 = var1.key;
                                 var1 = 'Backspace';
                                 if(!(var1 === var2)) { _fun0008_ip = 34; continue _fun0008 }
-case 11:
+case 28:
                                 var1 = _closure2_slot5;
                                 var1 = var1[var3];
                                 var7 = '';

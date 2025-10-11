@@ -624,15 +624,15 @@ case 0:
                     var9 = var14.bind(var1)(var13, var9);
                     if(!var4) { _fun0008_ip = 36; continue _fun0008 }
 case 42:
-                    if(var3) { _fun0008_ip = 43; continue _fun0008 }
+                    if(var3) { _fun0008_ip = 12; continue _fun0008 }
 case 36:
                     var9 = var2 != var12;
-                    if(!var9) { _fun0008_ip = 44; continue _fun0008 }
-case 45:
+                    if(!var9) { _fun0008_ip = 43; continue _fun0008 }
+case 44:
                     var3 = var12.burst_count;
                     var2 = 0;
                     var9 = var3 > var2;
-case 44:
+case 43:
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
                     var2 = 26;
@@ -646,8 +646,8 @@ case 44:
                     var19 = var9;
                     var18 = var11;
                     var2 = var23[var3](var22, var21, var20, var19, var18, var17);
-                    _fun0008_ip = 46; continue _fun0008;
-case 43:
+                    _fun0008_ip = 45; continue _fun0008;
+case 12:
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
                     var2 = 25;
@@ -668,7 +668,7 @@ case 43:
                     var5['objectType'] = var6;
                     var2['location'] = var5;
                     var2 = var3.bind(var4)(var2);
-case 46:
+case 45:
                     return var1;
                 }
             };

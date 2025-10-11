@@ -667,7 +667,7 @@ case 87:
                             if(!(var7 !== var4)) { _fun0008_ip = 88; continue _fun0008 }
 case 86:
                             var4 = _closure1_slot13;
-                            var4 = var4.SHOP_ALL;
+                            var4 = var4.FEATURED_PAGE;
                             _fun0008_ip = 89; continue _fun0008;
 case 88:
                             var2 = _closure1_slot13;

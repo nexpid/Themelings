@@ -22,6 +22,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['GUILD_CHANNEL_LIST_OPT_IN_NOTICE'] = var1;
     var1 = 'role-subscriptions';
     var4['GUILD_ROLE_SUBSCRIPTIONS'] = var1;
+    var1 = 'game-shop';
+    var4['GUILD_GAME_SHOP'] = var1;
     var1 = 'shop';
     var4['GUILD_SHOP'] = var1;
     var1 = '@home';

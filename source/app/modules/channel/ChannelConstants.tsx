@@ -14,6 +14,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['ROLE_SUBSCRIPTIONS'] = var2;
     var2 = 'server-monetization-onboarding';
     var9['SERVER_MONETIZATION_ONBOARDING'] = var2;
+    var2 = 'game-shop';
+    var9['GAME_SHOP'] = var2;
     var2 = 'shop';
     var9['GUILD_SHOP'] = var2;
     var2 = 'member-applications';

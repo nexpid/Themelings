@@ -35,13 +35,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot13 = var2;
+            _closure1_slot14 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot13 = var1;
+    var _closure1_slot14 = var1;
     var4 = global;
     var9 = var4.Object;
     var8 = var9.defineProperty;
@@ -91,19 +91,26 @@ case 4:
     var8 = 'FETCHED';
     var2['FETCHED'] = var8;
     var _closure1_slot8 = var2;
+    var8 = var4.Map;
+    var9 = var8.prototype;
+    var9 = Object.create(var9, {constructor: {value: var8}});
+    var13 = var9;
+    var8 = new var13[var8](var12);
+    var8 = var8 instanceof Object ? var8 : var9;
+    var _closure1_slot9 = var8;
+    var8 = new Array(0);
+    var _closure1_slot10 = var8;
+    var8 = new Array(0);
+    var _closure1_slot11 = var8;
+    var8 = var2.NOT_FETCHED;
+    var _closure1_slot12 = var8;
     var4 = var4.Map;
     var8 = var4.prototype;
     var8 = Object.create(var8, {constructor: {value: var4}});
     var13 = var8;
     var4 = new var13[var4](var12);
     var4 = var4 instanceof Object ? var4 : var8;
-    var _closure1_slot9 = var4;
-    var4 = new Array(0);
-    var _closure1_slot10 = var4;
-    var4 = new Array(0);
-    var _closure1_slot11 = var4;
-    var4 = var2.NOT_FETCHED;
-    var _closure1_slot12 = var4;
+    var _closure1_slot13 = var4;
     var4 = 8;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
@@ -121,7 +128,7 @@ case 0:
                 var1 = _closure1_slot3;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot2;
-                var1 = _closure1_slot13;
+                var1 = _closure1_slot14;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
@@ -164,7 +171,7 @@ case 8:
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(5);
+        var1 = new Array(6);
         var1[0] = var5;
         var5 = {};
         var7 = 'getNewestTokenForApplication';
@@ -215,12 +222,41 @@ case 9:
         var5 = {};
         var7 = 'getFetchState';
         var5['key'] = var7;
-        var6 = function value() {
+        var7 = function value() {
             var1 = _closure1_slot12;
             return var1;
         };
-        var5['value'] = var6;
+        var5['value'] = var7;
         var1[4] = var5;
+        var5 = {};
+        var7 = 'getFetchStateForApplication';
+        var5['key'] = var7;
+        var6 = function value(arg1) {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+                var3 = _closure1_slot12;
+                var1 = _closure1_slot8;
+                var1 = var1.FETCHED;
+                if(!(var3 !== var1)) { _fun0004_ip = 13; continue _fun0004 }
+case 14:
+                var4 = _closure1_slot13;
+                var3 = var4.get;
+                var1 = arg1;
+                var1 = var3.bind(var4)(var1);
+                var3 = null;
+                if(!(var3 == var1)) { _fun0004_ip = 15; continue _fun0004 }
+case 16:
+                var1 = _closure1_slot12;
+case 15:
+                _fun0004_ip = 17; continue _fun0004;
+case 13:
+                var1 = _closure1_slot12;
+case 17:
+                return var1;
+            }
+        };
+        var5['value'] = var6;
+        var1[5] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -232,18 +268,36 @@ case 9:
     var12 = var7.bind(var1)(var4);
     var4 = {};
     var9 = function handleUserAuthorizedAppsRequest() {
-        var1 = _closure1_slot8;
-        var1 = var1.FETCHING;
-        _closure1_slot12 = var1;
+        var2 = _closure1_slot8;
+        var2 = var2.FETCHING;
+        _closure1_slot12 = var2;
+        var2 = _closure1_slot13;
+        var1 = var2.clear;
+        var1 = var1.bind(var2)();
         var1 = undefined;
         return var1;
     };
     var4['USER_AUTHORIZED_APPS_REQUEST'] = var9;
+    var9 = function handleUserAuthorizedAppsRequestById(arg1) {
+        var4 = _closure1_slot13;
+        var3 = var4.set;
+        var2 = arg1;
+        var2 = var2.applicationId;
+        var1 = _closure1_slot8;
+        var1 = var1.FETCHING;
+        var1 = var3.bind(var4)(var2, var1);
+        var1 = undefined;
+        return var1;
+    };
+    var4['USER_AUTHORIZED_APPS_REQUEST_BY_ID'] = var9;
     var9 = function handleAuthorizedAppsUpdate(arg1) {
         var3 = arg1;
         var4 = _closure1_slot8;
         var4 = var4.FETCHED;
         _closure1_slot12 = var4;
+        var5 = _closure1_slot13;
+        var4 = var5.clear;
+        var4 = var4.bind(var5)();
         var4 = global;
         var6 = var4.Map;
         var7 = var3.tokens;
@@ -281,8 +335,61 @@ case 9:
         return var1;
     };
     var4['USER_AUTHORIZED_APPS_UPDATE'] = var9;
+    var9 = function handleAuthorizedAppsUpdateById(arg1) {
+        var1 = arg1;
+        var5 = _closure1_slot13;
+        var4 = var5.set;
+        var3 = var1.applicationId;
+        var2 = _closure1_slot8;
+        var2 = var2.FETCHED;
+        var2 = var4.bind(var5)(var3, var2);
+        var3 = var1.tokens;
+        var2 = var3.forEach;
+        var1 = function(arg1) {
+            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+                var3 = arg1;
+                var _closure3_slot0 = var3;
+                var5 = _closure1_slot10;
+                var4 = var5.filter;
+                var2 = function(arg1) {
+                    var1 = arg1;
+                    var2 = var1.id;
+                    var1 = _closure3_slot0;
+                    var1 = var1.id;
+                    var1 = var2 !== var1;
+                    return var1;
+                };
+                var2 = var4.bind(var5)(var2);
+                _closure1_slot10 = var2;
+                var5 = _closure1_slot9;
+                var4 = var5.set;
+                var2 = var3.application;
+                var2 = var2.id;
+                var2 = var4.bind(var5)(var2, var3);
+                var4 = _closure1_slot10;
+                var2 = var4.push;
+                var2 = var2.bind(var4)(var3);
+                var2 = var3.application;
+                var4 = var2.parent_id;
+                var2 = null;
+                if(!(var2 == var4)) { _fun0005_ip = 18; continue _fun0005 }
+case 19:
+                var2 = _closure1_slot11;
+                var1 = var2.push;
+                var1 = var1.bind(var2)(var3);
+case 18:
+                var1 = undefined;
+                return var1;
+            }
+        };
+        var1 = var2.bind(var3)(var1);
+        var1 = undefined;
+        return var1;
+    };
+    var4['USER_AUTHORIZED_APPS_UPDATE_BY_ID'] = var9;
     var9 = function handleOAuth2TokenCreate(arg1) {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var1 = arg1;
             var6 = var1.id;
@@ -294,8 +401,8 @@ case 0:
             var7 = var7.bind(var8)(var3);
             var _closure2_slot0 = var7;
             var3 = null;
-            if(!(var3 != var7)) { _fun0004_ip = 13; continue _fun0004 }
-case 14:
+            if(!(var3 != var7)) { _fun0006_ip = 20; continue _fun0006 }
+case 21:
             var9 = _closure1_slot10;
             var8 = var9.filter;
             var7 = function(arg1) {
@@ -324,7 +431,7 @@ case 14:
             };
             var5 = var7.bind(var8)(var5);
             _closure1_slot11 = var5;
-case 13:
+case 20:
             var5 = {};
             var5['id'] = var6;
             var5['application'] = var4;
@@ -345,8 +452,8 @@ case 13:
             _closure1_slot10 = var1;
             var1 = var5.application;
             var1 = var1.parent_id;
-            if(!(var3 == var1)) { _fun0004_ip = 15; continue _fun0004 }
-case 16:
+            if(!(var3 == var1)) { _fun0006_ip = 22; continue _fun0006 }
+case 23:
             var11 = _closure1_slot11;
             var1 = new Array(1);
             var12 = var1;
@@ -355,14 +462,14 @@ case 16:
             var1[var3] = var5;
             var3 = var3 + var4;
             _closure1_slot11 = var1;
-case 15:
+case 22:
             var1 = undefined;
             return var1;
         }
     };
     var4['OAUTH2_TOKEN_CREATE'] = var9;
     var5 = function handleOAuth2TokenDelete(arg1) {
-        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var2 = arg1;
             var5 = var2.id;
@@ -372,10 +479,10 @@ case 0:
             var3 = var3.bind(var4)(var6);
             var _closure2_slot0 = var3;
             var4 = null;
-            if(!(var4 != var3)) { _fun0005_ip = 17; continue _fun0005 }
-case 18:
+            if(!(var4 != var3)) { _fun0007_ip = 24; continue _fun0007 }
+case 25:
             var4 = var3.id;
-            if(!(var4 === var5)) { _fun0005_ip = 17; continue _fun0005 }
+            if(!(var4 === var5)) { _fun0007_ip = 24; continue _fun0007 }
 case 7:
             var5 = _closure1_slot9;
             var4 = var5.delete;
@@ -408,7 +515,7 @@ case 7:
             _closure1_slot11 = var1;
             var1 = undefined;
             return var1;
-case 17:
+case 24:
             var1 = false;
             return var1;
         }

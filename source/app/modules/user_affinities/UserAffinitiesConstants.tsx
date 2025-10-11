@@ -16,7 +16,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var2 = var2.bind(var1)(var4);
     var2 = var2.Millis;
-    var2 = var2.DAY;
+    var4 = var2.HOUR;
+    var2 = 8;
+    var2 = var2 * var4;
     var4 = 1;
     var5 = var5[var4];
     var4 = require;

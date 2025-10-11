@@ -79,7 +79,7 @@ case 4:
     var8 = new Array(0);
     var _closure1_slot8 = var8;
     var _closure1_slot9 = var2;
-    var2 = 5;
+    var2 = 6;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
     var8 = var2.Store;
@@ -171,7 +171,7 @@ case 8:
     var8 = var2.bind(var1)(var8);
     var2 = 'WebAuthnStore';
     var8['displayName'] = var2;
-    var2 = 6;
+    var2 = 7;
     var2 = var6[var2];
     var12 = var7.bind(var1)(var2);
     var2 = {};
@@ -185,37 +185,50 @@ case 8:
         return var1;
     };
     var2['LOGOUT'] = var9;
-    var9 = function MFA_WEBAUTHN_CREDENTIALS_LOADED(arg1) {
-        var1 = arg1;
-        var1 = var1.credentials;
-        _closure1_slot8 = var1;
-        var1 = true;
-        _closure1_slot7 = var1;
-        var1 = undefined;
-        return var1;
+    var9 = function handleWebAuthnCredentialsLoaded(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+            var2 = arg1;
+            var5 = _closure1_slot8;
+            var4 = var2.credentials;
+            var1 = false;
+            if(!(var5 !== var4)) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
+            var2 = var2.credentials;
+            _closure1_slot8 = var2;
+            var1 = true;
+case 9:
+            var2 = _closure1_slot7;
+            if(var2) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
+            var2 = true;
+            _closure1_slot7 = var2;
+            var1 = true;
+case 11:
+            return var1;
+        }
     };
     var2['MFA_WEBAUTHN_CREDENTIALS_LOADED'] = var9;
-    var9 = function AUTHENTICATOR_CREATE(arg1) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+    var9 = function handleAuthenticatorCreate(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var1 = arg1;
             var4 = var1.credential;
             var _closure2_slot0 = var4;
             var6 = var4.type;
             var7 = _closure1_slot0;
-            var2 = _closure1_slot1;
-            var1 = 7;
-            var2 = var2[var1];
+            var5 = _closure1_slot1;
+            var1 = 5;
+            var5 = var5[var1];
             var1 = undefined;
-            var2 = var7.bind(var1)(var2);
-            var2 = var2.AuthenticatorType;
-            var2 = var2.WEBAUTHN;
-            var2 = var6 === var2;
-            if(!var2) { _fun0003_ip = 9; continue _fun0003 }
-case 10:
-            var7 = _closure1_slot8;
-            var6 = var7.find;
-            var5 = function(arg1) {
+            var5 = var7.bind(var1)(var5);
+            var5 = var5.AuthenticatorType;
+            var5 = var5.WEBAUTHN;
+            if(!(var6 === var5)) { _fun0004_ip = 13; continue _fun0004 }
+case 14:
+            var6 = _closure1_slot8;
+            var5 = var6.find;
+            var2 = function(arg1) {
                 var1 = arg1;
                 var2 = var1.id;
                 var1 = _closure2_slot0;
@@ -223,11 +236,9 @@ case 10:
                 var1 = var2 === var1;
                 return var1;
             };
-            var5 = var6.bind(var7)(var5);
-            var2 = var1 === var5;
-case 9:
-            if(!var2) { _fun0003_ip = 11; continue _fun0003 }
-case 12:
+            var2 = var5.bind(var6)(var2);
+            if(!(var1 === var2)) { _fun0004_ip = 13; continue _fun0004 }
+case 15:
             var9 = _closure1_slot8;
             var2 = new Array(1);
             var8 = 0;
@@ -237,13 +248,15 @@ case 12:
             var4 = 1;
             var4 = var5 + var4;
             _closure1_slot8 = var2;
-case 11:
+            return var1;
+case 13:
+            var1 = false;
             return var1;
         }
     };
     var2['AUTHENTICATOR_CREATE'] = var9;
-    var9 = function AUTHENTICATOR_UPDATE(arg1) {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+    var9 = function handleAuthenticatorUpdate(arg1) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var1 = arg1;
             var1 = var1.credential;
@@ -251,39 +264,41 @@ case 0:
             var5 = var1.type;
             var6 = _closure1_slot0;
             var4 = _closure1_slot1;
-            var1 = 7;
+            var1 = 5;
             var4 = var4[var1];
             var1 = undefined;
             var4 = var6.bind(var1)(var4);
             var4 = var4.AuthenticatorType;
             var4 = var4.WEBAUTHN;
-            if(!(var5 === var4)) { _fun0004_ip = 13; continue _fun0004 }
+            if(!(var5 === var4)) { _fun0005_ip = 16; continue _fun0005 }
 case 14:
             var5 = _closure1_slot8;
             var4 = var5.map;
             var2 = function(arg1) {
-                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                     var1 = arg1;
                     var4 = var1.id;
                     var3 = _closure2_slot0;
                     var3 = var3.id;
-                    if(!(var4 === var3)) { _fun0005_ip = 15; continue _fun0005 }
-case 16:
+                    if(!(var4 === var3)) { _fun0006_ip = 17; continue _fun0006 }
+case 18:
                     var1 = _closure2_slot0;
-case 15:
+case 17:
                     return var1;
                 }
             };
             var2 = var4.bind(var5)(var2);
             _closure1_slot8 = var2;
-case 13:
+            return var1;
+case 16:
+            var1 = false;
             return var1;
         }
     };
     var2['AUTHENTICATOR_UPDATE'] = var9;
-    var9 = function AUTHENTICATOR_DELETE(arg1) {
-        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+    var9 = function handleAuthenticatorDelete(arg1) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var1 = arg1;
             var1 = var1.credential;
@@ -291,13 +306,13 @@ case 0:
             var5 = var1.type;
             var6 = _closure1_slot0;
             var4 = _closure1_slot1;
-            var1 = 7;
+            var1 = 5;
             var4 = var4[var1];
             var1 = undefined;
             var4 = var6.bind(var1)(var4);
             var4 = var4.AuthenticatorType;
             var4 = var4.WEBAUTHN;
-            if(!(var5 === var4)) { _fun0006_ip = 13; continue _fun0006 }
+            if(!(var5 === var4)) { _fun0007_ip = 16; continue _fun0007 }
 case 14:
             var5 = _closure1_slot8;
             var4 = var5.filter;
@@ -311,23 +326,42 @@ case 14:
             };
             var2 = var4.bind(var5)(var2);
             _closure1_slot8 = var2;
-case 13:
+            return var1;
+case 16:
+            var1 = false;
             return var1;
         }
     };
     var2['AUTHENTICATOR_DELETE'] = var9;
     var9 = function handleTriggerRegister() {
-        var1 = true;
-        _closure1_slot9 = var1;
-        var1 = undefined;
-        return var1;
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+case 0:
+            var1 = _closure1_slot9;
+            if(var1) { _fun0008_ip = 19; continue _fun0008 }
+case 20:
+            var1 = true;
+            _closure1_slot9 = var1;
+            var1 = undefined;
+            return var1;
+case 19:
+            var1 = false;
+            return var1;
+        }
     };
     var2['WEBAUTHN_TRIGGER_REGISTER'] = var9;
     var4 = function handleClearRegisterTrigger() {
-        var1 = false;
-        _closure1_slot9 = var1;
-        var1 = undefined;
-        return var1;
+        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+case 0:
+            var3 = _closure1_slot9;
+            var1 = false;
+            if(var3) { _fun0009_ip = 21; continue _fun0009 }
+case 22:
+            return var1;
+case 21:
+            _closure1_slot9 = var1;
+            var1 = undefined;
+            return var1;
+        }
     };
     var2['WEBAUTHN_CLEAR_REGISTER_TRIGGER'] = var4;
     var4 = var8.prototype;

@@ -65,17 +65,25 @@ case 5:
             var5 = var5.PIN_MESSAGES;
             var4 = var6.bind(var7)(var5, var3);
 case 4:
-            if(!var1) { _fun0001_ip = 6; continue _fun0001 }
+            if(!var4) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            if(var4) { _fun0001_ip = 8; continue _fun0001 }
+            var7 = _closure1_slot3;
+            var6 = var7.can;
+            var5 = _closure1_slot5;
+            var5 = var5.READ_MESSAGE_HISTORY;
+            var4 = var6.bind(var7)(var5, var3);
+case 6:
+            if(!var1) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
+            if(var4) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var5 = var3.isPrivate;
             var4 = var5.bind(var3)();
-case 8:
+case 10:
             var1 = var4;
-case 6:
-            if(!var1) { _fun0001_ip = 10; continue _fun0001 }
-case 11:
+case 8:
+            if(!var1) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var6 = _closure1_slot0;
             var5 = _closure1_slot2;
             var4 = 3;
@@ -84,21 +92,21 @@ case 11:
             var5 = var6.bind(var4)(var5);
             var4 = var5.getIsActiveChannelOrUnarchivableThread;
             var1 = var4.bind(var5)(var3);
-case 10:
-            if(!var1) { _fun0001_ip = 12; continue _fun0001 }
-case 13:
+case 12:
+            if(!var1) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var5 = var3.type;
             var4 = _closure1_slot4;
             var4 = var4.GUILD_VOICE;
             var1 = var5 !== var4;
-case 12:
-            if(!var1) { _fun0001_ip = 14; continue _fun0001 }
-case 15:
+case 14:
+            if(!var1) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var3 = var3.type;
             var2 = _closure1_slot4;
             var2 = var2.GUILD_STAGE_VOICE;
             var1 = var3 !== var2;
-case 14:
+case 16:
             return var1;
         }
     };

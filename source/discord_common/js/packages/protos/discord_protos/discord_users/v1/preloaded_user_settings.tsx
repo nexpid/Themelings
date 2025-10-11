@@ -15175,15 +15175,15 @@ case 0:
                 var3['enumerable'] = var11;
                 var3['value'] = var4;
                 var3 = var9.bind(var10)(var1, var8, var3);
-                if(!(var6 !== var5)) { _fun0085_ip = 100; continue _fun0085 }
-case 101:
+                if(!(var6 !== var5)) { _fun0085_ip = 137; continue _fun0085 }
+case 4:
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot1;
                 var2 = var2[var7];
                 var3 = var3.bind(var6)(var2);
                 var2 = var3.reflectionMergePartial;
                 var2 = var2.bind(var3)(var4, var1, var5);
-case 100:
+case 137:
                 return var1;
             }
         };

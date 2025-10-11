@@ -31,7 +31,7 @@ case 0:
             var1 = var4[var1];
             var5 = undefined;
             var2 = var2.bind(var5)(var1);
-            var1 = var2.useIsCustomThemeActive;
+            var1 = var2.useIsClientThemeOrCustomThemeActive;
             var2 = var1.bind(var2)();
             var1 = {};
             var7 = _closure1_slot1;
@@ -58,7 +58,7 @@ case 6:
             var2 = var3.CARD_SECONDARY_BG;
             _fun0001_ip = 7; continue _fun0001;
 case 5:
-            var2 = var3.BACKGROUND_FLOATING;
+            var2 = var3.BACKGROUND_BASE_LOW;
 case 7:
             var1['secondaryBackground'] = var2;
             return var1;

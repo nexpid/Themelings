@@ -248,16 +248,16 @@ case 0:
                         var2 = arg1;
                         var2 = var2.nativeEvent;
                         var2 = var2.portal;
-                        if(!(var3 === var2)) { _fun0007_ip = 9; continue _fun0007 }
-case 17:
+                        if(!(var3 === var2)) { _fun0007_ip = 17; continue _fun0007 }
+case 18:
                         var3 = _closure2_slot2;
                         var2 = null;
-                        if(!(var2 != var3)) { _fun0007_ip = 9; continue _fun0007 }
-case 18:
+                        if(!(var2 != var3)) { _fun0007_ip = 17; continue _fun0007 }
+case 19:
                         var2 = _closure2_slot2;
                         var1 = undefined;
                         var1 = var2.bind(var1)();
-case 9:
+case 17:
                         var1 = undefined;
                         return var1;
                     }
@@ -273,8 +273,8 @@ case 9:
                 var1 = var1.bind(var2)();
                 var4 = _closure1_slot4;
                 var3 = _closure1_slot6;
-                if(var1) { _fun0002_ip = 19; continue _fun0002 }
-case 20:
+                if(var1) { _fun0002_ip = 20; continue _fun0002 }
+case 21:
                 var1 = {};
                 var14 = var1;
                 var13 = var9;
@@ -287,8 +287,8 @@ case 20:
                 var2 = 'style';
                 var1[var2] = var10;
                 var1 = var4.bind(var5)(var3, var1);
-                _fun0002_ip = 21; continue _fun0002;
-case 19:
+                _fun0002_ip = 22; continue _fun0002;
+case 20:
                 var2 = {};
                 var14 = var2;
                 var13 = var9;
@@ -303,7 +303,7 @@ case 19:
                 var6 = 'onPortalViewLoaded';
                 var2[var6] = var7;
                 var1 = var4.bind(var5)(var3, var2);
-case 21:
+case 22:
                 return var1;
 case 5:
                 var1 = global;
@@ -381,17 +381,17 @@ case 0:
                                 var3 = var1.duration;
                                 var2 = _closure4_slot0;
                                 var2 = var5 === var2;
-                                if(!var2) { _fun0008_ip = 22; continue _fun0008 }
-case 23:
+                                if(!var2) { _fun0008_ip = 23; continue _fun0008 }
+case 24:
                                 var5 = 0;
                                 var2 = var3 > var5;
-case 22:
-                                if(!var2) { _fun0008_ip = 24; continue _fun0008 }
-case 18:
+case 23:
+                                if(!var2) { _fun0008_ip = 25; continue _fun0008 }
+case 26:
                                 var2 = _closure4_slot1;
                                 var1 = undefined;
                                 var1 = var2.bind(var1)(var4, var3);
-case 24:
+case 25:
                                 var1 = undefined;
                                 return var1;
                             }
@@ -410,23 +410,23 @@ case 0:
                                 var5 = var1.totalDurationSeconds;
                                 var2 = _closure4_slot0;
                                 var2 = var4 === var2;
-                                if(!var2) { _fun0009_ip = 25; continue _fun0009 }
-case 26:
+                                if(!var2) { _fun0009_ip = 27; continue _fun0009 }
+case 28:
                                 var4 = 0;
                                 var2 = var5 > var4;
-case 25:
-                                if(!var2) { _fun0009_ip = 13; continue _fun0009 }
 case 27:
+                                if(!var2) { _fun0009_ip = 13; continue _fun0009 }
+case 29:
                                 var5 = _closure4_slot3;
                                 var4 = null;
                                 var2 = var4 != var5;
 case 13:
-                                if(!var2) { _fun0009_ip = 28; continue _fun0009 }
-case 29:
+                                if(!var2) { _fun0009_ip = 30; continue _fun0009 }
+case 31:
                                 var2 = _closure4_slot3;
                                 var1 = undefined;
                                 var1 = var2.bind(var1)(var3);
-case 28:
+case 30:
                                 var1 = undefined;
                                 return var1;
                             }
@@ -443,12 +443,12 @@ case 0:
                                 var4 = var1.id;
                                 var3 = var1.paused;
                                 var2 = _closure4_slot0;
-                                if(!(var4 === var2)) { _fun0010_ip = 30; continue _fun0010 }
-case 31:
+                                if(!(var4 === var2)) { _fun0010_ip = 32; continue _fun0010 }
+case 33:
                                 var2 = _closure4_slot2;
                                 var1 = undefined;
                                 var1 = var2.bind(var1)(var3);
-case 30:
+case 32:
                                 var1 = undefined;
                                 return var1;
                             }

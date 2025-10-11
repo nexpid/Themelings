@@ -150,8 +150,6 @@ case 3:
 case 12:
                     var2 = {};
                     var3 = _closure2_slot2;
-                    var4 = var3.id;
-                    var2['id'] = var4;
                     var4 = var3.skuId;
                     var2['skuId'] = var4;
                     var2['config'] = var3;

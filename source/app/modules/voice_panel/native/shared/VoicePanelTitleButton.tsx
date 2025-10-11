@@ -102,6 +102,8 @@ case 0:
             var1 = var12.bind(var4)(var1);
             var2 = var1.HeaderButton;
             var1 = {};
+            var8 = 'button';
+            var1['accessibilityRole'] = var8;
             var8 = 8;
             var10 = var13[var8];
             var10 = var12.bind(var4)(var10);
@@ -183,6 +185,8 @@ case 6:
         var1 = var10.bind(var4)(var1);
         var2 = var1.HeaderButton;
         var1 = {};
+        var9 = 'button';
+        var1['accessibilityRole'] = var9;
         var9 = 8;
         var11 = var8[var9];
         var11 = var10.bind(var4)(var11);
@@ -277,6 +281,8 @@ case 9:
             var1 = var11.bind(var4)(var1);
             var2 = var1.HeaderButton;
             var1 = {};
+            var7 = 'button';
+            var1['accessibilityRole'] = var7;
             var7 = 8;
             var8 = var12[var7];
             var8 = var11.bind(var4)(var8);
@@ -349,6 +355,8 @@ case 0:
             var1 = var11.bind(var4)(var1);
             var2 = var1.HeaderButton;
             var1 = {};
+            var7 = 'button';
+            var1['accessibilityRole'] = var7;
             var7 = 8;
             var9 = var12[var7];
             var9 = var11.bind(var4)(var9);

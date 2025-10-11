@@ -63,7 +63,7 @@ case 5:
 case 4:
                 var1 = var11.items;
                 var1 = var1[var2];
-                var4 = var1.id;
+                var4 = var1.skuId;
 case 6:
                 var3 = _closure1_slot7;
                 var2 = _closure1_slot0;

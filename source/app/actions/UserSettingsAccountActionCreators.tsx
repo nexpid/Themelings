@@ -414,53 +414,65 @@ case 0:
                 var10 = arg1;
                 var11 = var3;
                 var2 = copyDataProperties(var11, var10);
-                var2 = _closure2_slot8;
-                var6 = null;
-                if(!(var6 === var2)) { _fun0003_ip = 23; continue _fun0003 }
-case 24:
-                var3['avatar_decoration_id'] = var6;
-case 23:
-                var2 = _closure2_slot8;
-                if(!(var6 != var2)) { _fun0003_ip = 25; continue _fun0003 }
-case 26:
-                var2 = _closure2_slot8;
-                var4 = var2.id;
-                var3['avatar_decoration_id'] = var4;
-                var2 = var2.skuId;
-                var3['avatar_decoration_sku_id'] = var2;
-case 25:
-                var2 = _closure2_slot12;
-                if(!(var6 === var2)) { _fun0003_ip = 27; continue _fun0003 }
-case 28:
-                var3['nameplate_id'] = var6;
-case 27:
-                var2 = _closure2_slot12;
-                if(!(var6 != var2)) { _fun0003_ip = 15; continue _fun0003 }
-case 29:
-                var2 = _closure2_slot12;
-                var4 = var2.id;
-                var3['nameplate_id'] = var4;
-                var2 = var2.skuId;
-                var3['nameplate_sku_id'] = var2;
-case 15:
-                var4 = _closure2_slot13;
+                var4 = _closure2_slot8;
                 var2 = undefined;
-                if(!(var2 !== var4)) { _fun0003_ip = 30; continue _fun0003 }
-case 12:
+                if(!(var2 !== var4)) { _fun0003_ip = 23; continue _fun0003 }
+case 24:
+                var5 = _closure2_slot8;
+                var4 = null;
+                var6 = var4 == var5;
+                var5 = undefined;
+                if(var6) { _fun0003_ip = 25; continue _fun0003 }
+case 26:
+                var6 = _closure2_slot8;
+                var5 = var6.skuId;
+case 25:
+                var6 = var4 != var5;
+                var4 = null;
+                if(!var6) { _fun0003_ip = 27; continue _fun0003 }
+case 28:
+                var4 = var5;
+case 27:
+                var3['avatar_decoration_sku_id'] = var4;
+case 23:
+                var4 = _closure2_slot12;
+                if(!(var2 !== var4)) { _fun0003_ip = 29; continue _fun0003 }
+case 30:
+                var5 = _closure2_slot12;
+                var4 = null;
+                var6 = var4 == var5;
+                var5 = undefined;
+                if(var6) { _fun0003_ip = 10; continue _fun0003 }
+case 31:
+                var6 = _closure2_slot12;
+                var5 = var6.skuId;
+case 10:
+                var6 = var4 != var5;
+                var4 = null;
+                if(!var6) { _fun0003_ip = 32; continue _fun0003 }
+case 33:
+                var4 = var5;
+case 32:
+                var3['nameplate_sku_id'] = var4;
+case 29:
+                var4 = _closure2_slot13;
+                if(!(var2 !== var4)) { _fun0003_ip = 34; continue _fun0003 }
+case 35:
                 var4 = _closure2_slot13;
                 var3['primary_guild_id'] = var4;
-case 30:
-                var4 = _closure2_slot14;
-                if(!(var6 == var4)) { _fun0003_ip = 31; continue _fun0003 }
-case 32:
-                var4 = _closure2_slot14;
-                if(!(var6 === var4)) { _fun0003_ip = 33; continue _fun0003 }
 case 34:
+                var4 = _closure2_slot14;
+                var6 = null;
+                if(!(var6 == var4)) { _fun0003_ip = 36; continue _fun0003 }
+case 37:
+                var4 = _closure2_slot14;
+                if(!(var6 === var4)) { _fun0003_ip = 38; continue _fun0003 }
+case 39:
                 var3['display_name_font_id'] = var6;
                 var3['display_name_effect_id'] = var6;
                 var3['display_name_colors'] = var6;
-                _fun0003_ip = 33; continue _fun0003;
-case 31:
+                _fun0003_ip = 38; continue _fun0003;
+case 36:
                 var1 = _closure2_slot14;
                 var4 = var1.fontId;
                 var3['display_name_font_id'] = var4;
@@ -468,7 +480,7 @@ case 31:
                 var3['display_name_effect_id'] = var4;
                 var1 = var1.colors;
                 var3['display_name_colors'] = var1;
-case 33:
+case 38:
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
                 var7 = 9;
@@ -481,15 +493,15 @@ case 33:
                 var5 = _closure1_slot9;
                 var5 = var5.bind(var2)();
                 var8 = var6 != var5;
-                if(!var8) { _fun0003_ip = 35; continue _fun0003 }
-case 36:
+                if(!var8) { _fun0003_ip = 40; continue _fun0003 }
+case 41:
                 var8 = var6 != var4;
-case 35:
-                if(!var8) { _fun0003_ip = 37; continue _fun0003 }
-case 38:
+case 40:
+                if(!var8) { _fun0003_ip = 42; continue _fun0003 }
+case 43:
                 var3['push_provider'] = var5;
                 var3['push_token'] = var4;
-case 37:
+case 42:
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
                 var4 = var4[var7];
@@ -500,16 +512,16 @@ case 37:
                 var4 = var5.bind(var7)(var4);
                 var5 = _closure1_slot8;
                 var5 = var6 != var5;
-                if(!var5) { _fun0003_ip = 39; continue _fun0003 }
-case 40:
+                if(!var5) { _fun0003_ip = 44; continue _fun0003 }
+case 45:
                 var5 = var6 != var4;
-case 39:
-                if(!var5) { _fun0003_ip = 41; continue _fun0003 }
-case 42:
+case 44:
+                if(!var5) { _fun0003_ip = 46; continue _fun0003 }
+case 47:
                 var5 = _closure1_slot8;
                 var3['push_voip_provider'] = var5;
                 var3['push_voip_token'] = var4;
-case 41:
+case 46:
                 var1 = _closure1_slot10;
                 var1 = var1.bind(var2)(var3);
                 return var1;
@@ -534,13 +546,13 @@ case 0:
                 var2 = _closure2_slot5;
                 var6 = null;
                 var2 = var6 == var2;
-                if(!var2) { _fun0004_ip = 43; continue _fun0004 }
-case 44:
+                if(!var2) { _fun0004_ip = 48; continue _fun0004 }
+case 49:
                 var5 = _closure2_slot7;
                 var2 = var6 == var5;
-case 43:
-                if(var2) { _fun0004_ip = 45; continue _fun0004 }
-case 46:
+case 48:
+                if(var2) { _fun0004_ip = 50; continue _fun0004 }
+case 51:
                 var2 = _closure1_slot1;
                 var1 = _closure1_slot2;
                 var1 = var1[var4];
@@ -550,7 +562,7 @@ case 46:
                 var4 = 'RECENT_AVATARS_UPDATE';
                 var1['type'] = var4;
                 var1 = var2.bind(var3)(var1);
-case 45:
+case 50:
                 var1 = arg1;
                 return var1;
             }
@@ -635,8 +647,8 @@ case 0:
             var3['avatar'] = var4;
             var3 = var5.bind(var6)(var3);
             var3 = null;
-            if(!(var3 != var4)) { _fun0005_ip = 47; continue _fun0005 }
-case 48:
+            if(!(var3 != var4)) { _fun0005_ip = 52; continue _fun0005 }
+case 53:
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
             var3 = 10;
@@ -655,8 +667,8 @@ case 48:
             var3 = var3.NstziY;
             var3 = var6.bind(var7)(var3);
             var3 = var4.bind(var5)(var3);
-            _fun0005_ip = 49; continue _fun0005;
-case 47:
+            _fun0005_ip = 54; continue _fun0005;
+case 52:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var2 = 10;
@@ -675,7 +687,7 @@ case 47:
             var2 = var2.f1+oNj;
             var2 = var5.bind(var6)(var2);
             var2 = var3.bind(var4)(var2);
-case 49:
+case 54:
             return var1;
         }
     };

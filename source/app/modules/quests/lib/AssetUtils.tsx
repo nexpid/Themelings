@@ -735,7 +735,7 @@ case 118:
 case 65:
             var6 = var3.height;
             if(!(var7 != var6)) { _fun0006_ip = 119; continue _fun0006 }
-case 40:
+case 120:
             var7 = var4.searchParams;
             var6 = var7.append;
             var5 = _closure1_slot13;
@@ -766,7 +766,7 @@ case 0:
             var3 = var1.startsWith;
             var2 = 'blob:';
             var2 = var3.bind(var1)(var2);
-            if(var2) { _fun0007_ip = 120; continue _fun0007 }
+            if(var2) { _fun0007_ip = 121; continue _fun0007 }
 case 5:
             var4 = _closure1_slot1;
             var6 = _closure1_slot2;
@@ -779,14 +779,14 @@ case 5:
             var6 = null;
             var7 = var6 == var4;
             var2 = null;
-            if(var7) { _fun0007_ip = 121; continue _fun0007 }
-case 122:
+            if(var7) { _fun0007_ip = 122; continue _fun0007 }
+case 123:
             var11 = var4.searchParams;
             var9 = var11.append;
             var8 = 'format';
             var7 = 'webp';
             var7 = var9.bind(var11)(var8, var7);
-            if(!(var6 != var5)) { _fun0007_ip = 123; continue _fun0007 }
+            if(!(var6 != var5)) { _fun0007_ip = 37; continue _fun0007 }
 case 124:
             var12 = var4.searchParams;
             var11 = var12.append;
@@ -809,12 +809,12 @@ case 124:
             var5 = var3.bind(var8)(var5);
             var3 = 'height';
             var3 = var6.bind(var7)(var3, var5);
-case 123:
+case 37:
             var3 = var4.toString;
             var2 = var3.bind(var4)();
-case 121:
+case 122:
             return var2;
-case 120:
+case 121:
             return var1;
         }
     };
