@@ -960,16 +960,6 @@
         "width": 60,
         "height": 60
     },
-    "brb": {
-        "file": "app/modules/hang_status/images/native/original/brb.png",
-        "hash": "ded44871a3e3493cb071ae1023856397",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 25,
-        "height": 25
-    },
     "breaddog_1": {
         "file": "app/images/native/avatars/breaddog_1.png",
         "hash": "539778d237b9fff9f8baff59e260a9fa",
@@ -1614,16 +1604,6 @@
         ],
         "width": 24,
         "height": 24
-    },
-    "chillin": {
-        "file": "app/modules/hang_status/images/native/original/chillin.png",
-        "hash": "6a3ff455f3b3ca63aaeac56dc14bc116",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 25,
-        "height": 25
     },
     "circle_check": {
         "file": "app/modules/self_mod/inappropriate_conversation/images/circle_check.png",
@@ -3480,16 +3460,6 @@
         ],
         "width": 24,
         "height": 24
-    },
-    "gaming": {
-        "file": "app/modules/hang_status/images/native/original/gaming.png",
-        "hash": "e8ceff5513321e12afccedad88f1bc88",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 25,
-        "height": 25
     },
     "GamingIcon": {
         "file": "app/images/native/custom_app_icons/GamingIcon/GamingIcon.png",
@@ -9561,16 +9531,6 @@
         "width": 100,
         "height": 100
     },
-    "in-the-zone": {
-        "file": "app/modules/hang_status/images/native/original/in-the-zone.png",
-        "hash": "9c92ffc4f8bfefa67028fbff77cc6777",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 29,
-        "height": 28
-    },
     "InRainbowsIcon": {
         "file": "app/images/native/custom_app_icons/InRainbowsIcon/InRainbowsIcon.png",
         "hash": "83afa6ade4bb460402841be8438f6e52",
@@ -13335,16 +13295,6 @@
         ],
         "width": 18,
         "height": 18
-    },
-    "watching": {
-        "file": "app/modules/hang_status/images/native/original/watching.png",
-        "hash": "838c77993f0c4e98e3a5b02a06e563ec",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 25,
-        "height": 25
     },
     "webhook_empty_dark": {
         "file": "app/images/native/empties/webhook_empty_dark.png",
