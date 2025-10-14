@@ -2043,7 +2043,7 @@ case 129:
             var3 = var3.id;
             var3 = var6.bind(var7)(var8, var3);
             var3 = var4.bind(var5)(var3);
-            _fun0014_ip = 97; continue _fun0014;
+            _fun0014_ip = 94; continue _fun0014;
 case 151:
             var4 = _closure1_slot0;
             var5 = _closure1_slot3;
@@ -2055,7 +2055,7 @@ case 151:
             var4 = var3.FRIENDS;
             var3 = {'navigationReplace': false, 'openChannel': true};
             var3 = var5.bind(var6)(var4, var3);
-            _fun0014_ip = 97; continue _fun0014;
+            _fun0014_ip = 94; continue _fun0014;
 case 148:
             var4 = _closure1_slot0;
             var5 = _closure1_slot3;
@@ -2067,7 +2067,7 @@ case 148:
             var3 = var2.FRIENDS;
             var2 = {'navigationReplace': false, 'openChannel': true};
             var2 = var4.bind(var5)(var3, var2);
-case 97:
+case 94:
             return var1;
         }
     };

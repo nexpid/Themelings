@@ -236,7 +236,9 @@ case 4:
         var7 = var16[var9];
         var7 = var15.bind(var4)(var7);
         var8 = var7.Button;
-        var7 = {'variant': 'secondary', 'size': 'sm'};
+        var7 = {};
+        var19 = 'sm';
+        var7['size'] = var19;
         var19 = var16[var12];
         var19 = var15.bind(var4)(var19);
         var21 = var19.intl;
@@ -309,6 +311,8 @@ case 4:
         var9 = var15.bind(var4)(var9);
         var10 = var9.Button;
         var9 = {};
+        var13 = 'secondary';
+        var9['variant'] = var13;
         var13 = var16[var12];
         var13 = var15.bind(var4)(var13);
         var14 = var13.intl;

@@ -1068,7 +1068,7 @@ case 60:
         var6 = function value() {
             _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
 case 0:
-                var1 = '4757';
+                var1 = '4762';
                 return var1;
 case 62:
                 CatchBlockStart(arg_register=0);
