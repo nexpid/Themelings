@@ -30,12 +30,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var4.RendererType;
     var4 = var4.ROUTE;
     var2['type'] = var4;
-    var4 = 'Quest Preview Tool';
+    var4 = function title() {
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot1;
+        var1 = 3;
+        var2 = var6[var1];
+        var4 = undefined;
+        var2 = var5.bind(var4)(var2);
+        var3 = var2.intl;
+        var2 = var3.string;
+        var1 = var6[var1];
+        var1 = var5.bind(var4)(var1);
+        var1 = var1.t;
+        var1 = var1.BDUDam;
+        var1 = var2.bind(var3)(var1);
+        return var1;
+    };
     var2['title'] = var4;
     var4 = function usePredicate() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 3;
+        var1 = 4;
         var2 = var2[var1];
         var1 = undefined;
         var3 = var3.bind(var1)(var2);
@@ -50,7 +65,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['usePredicate'] = var4;
     var4 = null;
     var2['parent'] = var4;
-    var4 = 4;
+    var4 = 5;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.QuestsIcon;
@@ -61,7 +76,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = function getComponent() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 5;
+        var1 = 6;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -70,7 +85,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var4['getComponent'] = var7;
     var2['screen'] = var4;
-    var4 = 6;
+    var4 = 7;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

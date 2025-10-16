@@ -42,10 +42,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['CollectiblesShopPerfCheckpoint'] = var4;
     var2 = function(arg1) {
         var1 = arg1;
-        var11 = var1.sessionId;
-        var10 = var1.checkpoint;
-        var9 = var1.tab;
-        var8 = var1.isFullScreen;
+        var10 = var1.sessionId;
+        var9 = var1.checkpoint;
+        var8 = var1.tab;
         var7 = var1.unpublishedCategoriesShown;
         var6 = var1.cacheDisabled;
         var4 = _closure1_slot0;
@@ -58,10 +57,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = _closure1_slot2;
         var3 = var2.COLLECTIBLES_SHOP_PERF_TRACKED;
         var2 = {};
-        var2['page_session_id'] = var11;
-        var2['checkpoint'] = var10;
-        var2['tab'] = var9;
-        var2['is_full_screen'] = var8;
+        var2['page_session_id'] = var10;
+        var2['checkpoint'] = var9;
+        var2['tab'] = var8;
         var2['unpublished_categories_shown'] = var7;
         var2['cache_disabled'] = var6;
         var2 = var4.bind(var5)(var3, var2);

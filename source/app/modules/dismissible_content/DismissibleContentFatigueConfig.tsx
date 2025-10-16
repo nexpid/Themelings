@@ -18,7 +18,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var5.bind(var1)(var2);
     var2 = var2.DismissibleContent;
     var8 = var2.APPLICATION_COMMAND_TOOLTIP;
-    var2 = new Array(127);
+    var2 = new Array(128);
     var2[0] = var8;
     var8 = var6[var4];
     var8 = var5.bind(var1)(var8);
@@ -645,11 +645,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var8.DismissibleContent;
     var8 = var8.APPLICATION_WIDGET_EMPTY_STATE_CARD_CONNECT;
     var2[125] = var8;
+    var8 = var6[var4];
+    var8 = var5.bind(var1)(var8);
+    var8 = var8.DismissibleContent;
+    var8 = var8.APPLICATION_WIDGET_EMPTY_STATE_CARD_ADD_WIDGET;
+    var2[126] = var8;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.DismissibleContent;
-    var4 = var4.APPLICATION_WIDGET_EMPTY_STATE_CARD_ADD_WIDGET;
-    var2[126] = var4;
+    var4 = var4.PREMIUM_SETTINGS_SUBSCRIPTION_INFO_NOTICE;
+    var2[127] = var4;
     var4 = var7.prototype;
     var4 = Object.create(var4, {constructor: {value: var7}});
     var12 = var4;

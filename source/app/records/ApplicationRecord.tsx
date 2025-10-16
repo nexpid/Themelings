@@ -367,6 +367,8 @@ case 29:
                 var2['icon'] = var5;
                 var5 = arg1;
                 var2['size'] = var5;
+                var5 = true;
+                var2['keepAspectRatio'] = var5;
                 var1 = var3.bind(var4)(var2);
 case 30:
                 return var1;

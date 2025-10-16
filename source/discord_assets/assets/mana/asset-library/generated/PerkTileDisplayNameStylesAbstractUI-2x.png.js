@@ -18,10 +18,10 @@ module.exports = (function(global, require, metroImportDefault, metroImportAll, 
     var4 = var5.fileFinishedImporting;
     var2 = '../discord_assets/assets/mana/asset-library/generated/PerkTileDisplayNameStylesAbstractUI-2x.png.js';
     var2 = var4.bind(var5)(var2);
-    var2 = 'https://cdn.discordapp.com/assets/content/dfb682785b0b3dc36ef92ac1bc894b63c5d600b76362ca815add88a62936e459.png';
+    var2 = 'https://cdn.discordapp.com/assets/content/a652d4fcc4140bb59d85180aa5f4b7f6e3ebbe7b482d121c086dedede009a907.png';
     var3['default'] = var2;
     var2 = {};
-    var4 = 100092;
+    var4 = 112870;
     var2['fileBytes'] = var4;
     var3['metadata'] = var2;
     return var1;

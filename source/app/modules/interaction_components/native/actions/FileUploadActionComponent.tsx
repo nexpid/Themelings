@@ -749,6 +749,8 @@ case 55:
                                 var5 = _closure1_slot7;
                                 var5 = var5.InteractionModal;
                                 var2['draftType'] = var5;
+                                var5 = false;
+                                var2['allowOptimization'] = var5;
                                 var2 = var3.bind(var4)(var2);
                                 return var1;
                             };

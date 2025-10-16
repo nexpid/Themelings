@@ -375,8 +375,6 @@ case 40:
                     var2 = _closure2_slot1;
 case 41:
                     var1['tab'] = var2;
-                    var2 = true;
-                    var1['isFullScreen'] = var2;
                     return var1;
                 }
             };
@@ -739,8 +737,6 @@ case 21:
                     var6 = _closure2_slot1;
 case 65:
                     var2['tab'] = var6;
-                    var6 = true;
-                    var2['isFullScreen'] = var6;
                     var5 = _closure2_slot2;
                     var2['unpublishedCategoriesShown'] = var5;
                     var5 = false;
@@ -936,29 +932,28 @@ case 94:
                     if(var1) { _fun0011_ip = 96; continue _fun0011 }
 case 97:
                     var1 = _closure2_slot10;
-                    var3 = var1.current;
-                    var7 = _closure1_slot12;
-                    var2 = var7.FEATURED_PAGE;
-                    var6 = true;
-                    var3[var2] = var6;
-                    var10 = _closure1_slot0;
-                    var11 = _closure1_slot2;
-                    var8 = 32;
-                    var1 = var11[var8];
-                    var9 = undefined;
-                    var3 = var10.bind(var9)(var1);
+                    var7 = var1.current;
+                    var6 = _closure1_slot12;
+                    var3 = var6.FEATURED_PAGE;
+                    var2 = true;
+                    var7[var3] = var2;
+                    var9 = _closure1_slot0;
+                    var10 = _closure1_slot2;
+                    var7 = 32;
+                    var1 = var10[var7];
+                    var8 = undefined;
+                    var3 = var9.bind(var8)(var1);
                     var2 = var3.trackShopPerf;
                     var1 = {};
-                    var12 = _closure2_slot3;
-                    var1['sessionId'] = var12;
-                    var8 = var11[var8];
-                    var8 = var10.bind(var9)(var8);
-                    var8 = var8.CollectiblesShopPerfCheckpoint;
-                    var8 = var8.SHOP_RENDERED;
-                    var1['checkpoint'] = var8;
-                    var7 = var7.FEATURED_PAGE;
-                    var1['tab'] = var7;
-                    var1['isFullScreen'] = var6;
+                    var11 = _closure2_slot3;
+                    var1['sessionId'] = var11;
+                    var7 = var10[var7];
+                    var7 = var9.bind(var8)(var7);
+                    var7 = var7.CollectiblesShopPerfCheckpoint;
+                    var7 = var7.SHOP_RENDERED;
+                    var1['checkpoint'] = var7;
+                    var6 = var6.FEATURED_PAGE;
+                    var1['tab'] = var6;
                     var4 = _closure2_slot2;
                     var1['unpublishedCategoriesShown'] = var4;
                     var4 = false;
@@ -977,10 +972,10 @@ case 96:
                     var7 = _closure2_slot6;
                     var5 = null;
                     var7 = var5 != var7;
-                    if(!var7) { _fun0011_ip = 98; continue _fun0011 }
-case 99:
-                    var5 = _closure2_slot6;
+                    if(!var7) { _fun0011_ip = 38; continue _fun0011 }
 case 98:
+                    var5 = _closure2_slot6;
+case 38:
                     var1['fetchShopHomeError'] = var5;
                     var1 = var4.bind(var3)(var2, var1);
                     return var1;
@@ -988,7 +983,7 @@ case 98:
             };
             var17['renderItem'] = var20;
             var17 = var19.bind(var7)(var18, var17);
-            _fun0004_ip = 100; continue _fun0004;
+            _fun0004_ip = 99; continue _fun0004;
 case 92:
             var20 = _closure1_slot16;
             var19 = _closure1_slot1;
@@ -1000,10 +995,10 @@ case 92:
             var18['shopBlocks'] = var24;
             var26 = var1 != var25;
             var24 = null;
-            if(!var26) { _fun0004_ip = 101; continue _fun0004 }
-case 102:
-            var24 = var25;
+            if(!var26) { _fun0004_ip = 100; continue _fun0004 }
 case 101:
+            var24 = var25;
+case 100:
             var18['fetchShopHomeError'] = var24;
             var24 = function onRenderFirstOrbsItem() {
                 _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
@@ -1013,46 +1008,45 @@ case 0:
                     var2 = _closure1_slot12;
                     var2 = var2.ORBS;
                     var2 = var3[var2];
-                    if(var2) { _fun0012_ip = 103; continue _fun0012 }
-case 104:
+                    if(var2) { _fun0012_ip = 102; continue _fun0012 }
+case 103:
                     var2 = _closure2_slot10;
-                    var3 = var2.current;
-                    var6 = _closure1_slot12;
-                    var2 = var6.ORBS;
-                    var5 = true;
-                    var3[var2] = var5;
-                    var9 = _closure1_slot0;
-                    var10 = _closure1_slot2;
-                    var7 = 32;
-                    var1 = var10[var7];
-                    var8 = undefined;
-                    var3 = var9.bind(var8)(var1);
+                    var6 = var2.current;
+                    var5 = _closure1_slot12;
+                    var3 = var5.ORBS;
+                    var2 = true;
+                    var6[var3] = var2;
+                    var8 = _closure1_slot0;
+                    var9 = _closure1_slot2;
+                    var6 = 32;
+                    var1 = var9[var6];
+                    var7 = undefined;
+                    var3 = var8.bind(var7)(var1);
                     var2 = var3.trackShopPerf;
                     var1 = {};
-                    var11 = _closure2_slot3;
-                    var1['sessionId'] = var11;
-                    var7 = var10[var7];
-                    var7 = var9.bind(var8)(var7);
-                    var7 = var7.CollectiblesShopPerfCheckpoint;
-                    var7 = var7.SHOP_RENDERED;
-                    var1['checkpoint'] = var7;
-                    var6 = var6.ORBS;
-                    var1['tab'] = var6;
-                    var1['isFullScreen'] = var5;
+                    var10 = _closure2_slot3;
+                    var1['sessionId'] = var10;
+                    var6 = var9[var6];
+                    var6 = var8.bind(var7)(var6);
+                    var6 = var6.CollectiblesShopPerfCheckpoint;
+                    var6 = var6.SHOP_RENDERED;
+                    var1['checkpoint'] = var6;
+                    var5 = var5.ORBS;
+                    var1['tab'] = var5;
                     var4 = _closure2_slot2;
                     var1['unpublishedCategoriesShown'] = var4;
                     var4 = false;
                     var1['cacheDisabled'] = var4;
                     var1 = var2.bind(var3)(var1);
-case 103:
+case 102:
                     var1 = undefined;
                     return var1;
                 }
             };
             var18['onRenderFirstOrbsItem'] = var24;
             var17 = var20.bind(var7)(var19, var18);
-case 100:
-            _fun0004_ip = 105; continue _fun0004;
+case 99:
+            _fun0004_ip = 104; continue _fun0004;
 case 90:
             var20 = _closure1_slot16;
             var19 = _closure1_slot1;
@@ -1081,29 +1075,28 @@ case 94:
                     if(var1) { _fun0013_ip = 96; continue _fun0013 }
 case 97:
                     var1 = _closure2_slot10;
-                    var3 = var1.current;
-                    var8 = _closure1_slot12;
-                    var2 = var8.SHOP_ALL;
-                    var7 = true;
-                    var3[var2] = var7;
-                    var11 = _closure1_slot0;
-                    var12 = _closure1_slot2;
-                    var9 = 32;
-                    var1 = var12[var9];
-                    var10 = undefined;
-                    var3 = var11.bind(var10)(var1);
+                    var8 = var1.current;
+                    var7 = _closure1_slot12;
+                    var3 = var7.SHOP_ALL;
+                    var2 = true;
+                    var8[var3] = var2;
+                    var10 = _closure1_slot0;
+                    var11 = _closure1_slot2;
+                    var8 = 32;
+                    var1 = var11[var8];
+                    var9 = undefined;
+                    var3 = var10.bind(var9)(var1);
                     var2 = var3.trackShopPerf;
                     var1 = {};
-                    var13 = _closure2_slot3;
-                    var1['sessionId'] = var13;
-                    var9 = var12[var9];
-                    var9 = var11.bind(var10)(var9);
-                    var9 = var9.CollectiblesShopPerfCheckpoint;
-                    var9 = var9.SHOP_RENDERED;
-                    var1['checkpoint'] = var9;
-                    var8 = var8.SHOP_ALL;
-                    var1['tab'] = var8;
-                    var1['isFullScreen'] = var7;
+                    var12 = _closure2_slot3;
+                    var1['sessionId'] = var12;
+                    var8 = var11[var8];
+                    var8 = var10.bind(var9)(var8);
+                    var8 = var8.CollectiblesShopPerfCheckpoint;
+                    var8 = var8.SHOP_RENDERED;
+                    var1['checkpoint'] = var8;
+                    var7 = var7.SHOP_ALL;
+                    var1['tab'] = var7;
                     var4 = _closure2_slot2;
                     var1['unpublishedCategoriesShown'] = var4;
                     var4 = false;
@@ -1130,13 +1123,13 @@ case 96:
             var18['renderItem'] = var21;
             var23 = var1 != var22;
             var21 = undefined;
-            if(!var23) { _fun0004_ip = 106; continue _fun0004 }
-case 107:
-            var21 = var22;
+            if(!var23) { _fun0004_ip = 105; continue _fun0004 }
 case 106:
+            var21 = var22;
+case 105:
             var18['initialScrollIndex'] = var21;
             var17 = var20.bind(var7)(var19, var18);
-case 105:
+case 104:
             var15['children'] = var17;
             var15 = var6.bind(var7)(var16, var15);
             var13['children'] = var15;
@@ -1155,7 +1148,7 @@ case 105:
             var9 = var11.bind(var7)(var10, var9);
             var3['children'] = var9;
             var3 = var6.bind(var7)(var5, var3);
-            _fun0004_ip = 108; continue _fun0004;
+            _fun0004_ip = 107; continue _fun0004;
 case 80:
             var6 = _closure1_slot16;
             var5 = _closure1_slot5;
@@ -1165,7 +1158,7 @@ case 80:
             var8 = 'large';
             var4['size'] = var8;
             var3 = var6.bind(var7)(var5, var4);
-case 108:
+case 107:
             var2 = var3;
 case 77:
             return var2;
@@ -1209,22 +1202,22 @@ case 0:
             var3 = null;
             var4 = var3 == var10;
             var9 = undefined;
-            if(var4) { _fun0014_ip = 109; continue _fun0014 }
-case 110:
+            if(var4) { _fun0014_ip = 108; continue _fun0014 }
+case 109:
             var4 = var10.isStaff;
             var9 = var4.bind(var10)();
-case 109:
-            if(var9) { _fun0014_ip = 111; continue _fun0014 }
-case 112:
+case 108:
+            if(var9) { _fun0014_ip = 110; continue _fun0014 }
+case 111:
             var4 = var3 == var10;
             var3 = undefined;
-            if(var4) { _fun0014_ip = 113; continue _fun0014 }
+            if(var4) { _fun0014_ip = 112; continue _fun0014 }
 case 51:
             var4 = var10.isStaffPersonal;
             var3 = var4.bind(var10)();
-case 113:
+case 112:
             var9 = var3;
-case 111:
+case 110:
             var12 = _closure1_slot4;
             var4 = var12.useState;
             var3 = false;
@@ -1245,7 +1238,7 @@ case 111:
 case 0:
                     var3 = _closure2_slot0;
                     var1 = undefined;
-                    if(var3) { _fun0015_ip = 114; continue _fun0015 }
+                    if(var3) { _fun0015_ip = 113; continue _fun0015 }
 case 32:
                     var3 = global;
                     var5 = var3.setTimeout;
@@ -1254,7 +1247,7 @@ case 32:
 case 0:
                             var2 = _closure2_slot0;
                             if(var2) { _fun0016_ip = 31; continue _fun0016 }
-case 115:
+case 114:
                             var3 = _closure2_slot1;
                             var2 = undefined;
                             var1 = true;
@@ -1276,7 +1269,7 @@ case 31:
                         return var1;
                     };
                     return var2;
-case 114:
+case 113:
                     return var1;
                 }
             };
@@ -1288,8 +1281,8 @@ case 114:
             var10 = var10.bind(var5)(var1);
             var1 = var10.isIOS;
             var1 = var1.bind(var10)();
-            if(!var1) { _fun0014_ip = 116; continue _fun0014 }
-case 117:
+            if(!var1) { _fun0014_ip = 115; continue _fun0014 }
+case 116:
             var12 = _closure1_slot0;
             var13 = _closure1_slot2;
             var10 = 43;
@@ -1297,17 +1290,17 @@ case 117:
             var10 = var12.bind(var5)(var10);
             var10 = var10.isStable;
             var1 = !var10;
-case 116:
-            if(!var1) { _fun0014_ip = 118; continue _fun0014 }
-case 119:
-            var1 = var9;
+case 115:
+            if(!var1) { _fun0014_ip = 117; continue _fun0014 }
 case 118:
-            if(var7) { _fun0014_ip = 120; continue _fun0014 }
+            var1 = var9;
+case 117:
+            if(var7) { _fun0014_ip = 119; continue _fun0014 }
+case 120:
+            if(var1) { _fun0014_ip = 119; continue _fun0014 }
 case 121:
-            if(var1) { _fun0014_ip = 120; continue _fun0014 }
+            if(var4) { _fun0014_ip = 119; continue _fun0014 }
 case 122:
-            if(var4) { _fun0014_ip = 120; continue _fun0014 }
-case 123:
             var10 = _closure1_slot16;
             var9 = _closure1_slot5;
             var1 = {};
@@ -1316,14 +1309,14 @@ case 123:
             var11 = 'large';
             var1['size'] = var11;
             var1 = var10.bind(var5)(var9, var1);
-            _fun0014_ip = 124; continue _fun0014;
-case 120:
-            if(!var4) { _fun0014_ip = 125; continue _fun0014 }
-case 126:
-            var4 = !var7;
+            _fun0014_ip = 123; continue _fun0014;
+case 119:
+            if(!var4) { _fun0014_ip = 124; continue _fun0014 }
 case 125:
-            if(!var4) { _fun0014_ip = 127; continue _fun0014 }
-case 128:
+            var4 = !var7;
+case 124:
+            if(!var4) { _fun0014_ip = 126; continue _fun0014 }
+case 127:
             var7 = _closure1_slot1;
             var11 = _closure1_slot2;
             var4 = 34;
@@ -1345,7 +1338,7 @@ case 128:
             var3 = var10 + var3;
             var3 = var3 + var9;
             var3 = var4.bind(var7)(var3);
-case 127:
+case 126:
             var4 = _closure1_slot16;
             var3 = _closure1_slot19;
             var2 = {};
@@ -1358,7 +1351,7 @@ case 127:
             var6 = 'screen';
             var2[var6] = var7;
             var1 = var4.bind(var5)(var3, var2);
-case 124:
+case 123:
             return var1;
         }
     };

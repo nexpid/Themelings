@@ -183,7 +183,7 @@ case 34:
                     var12 = true;
                     var4['rejectWithError'] = var12;
                     var4 = var10.bind(var11)(var4);
-                    SaveGenerator(address=548);
+                    SaveGenerator(address=540);
 case 36:
                     return var4;
 case 37:
@@ -211,7 +211,7 @@ case 39:
                     var8['type'] = var13;
                     var8['orderId'] = var12;
                     var8 = var10.bind(var11)(var8);
-                    SaveGenerator(address=653);
+                    SaveGenerator(address=645);
 case 40:
                     return var8;
 case 41:
@@ -241,7 +241,7 @@ case 44: // catch_target0
                     var7 = 'ORDER_CREATE_FAIL';
                     var3['type'] = var7;
                     var3 = var4.bind(var6)(var3);
-                    SaveGenerator(address=744);
+                    SaveGenerator(address=736);
 case 45:
                     return var3;
 case 46:

@@ -57,5 +57,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 12;
     var3['ACTION_SHEET_HANDLE_SPACING_REDESIGN'] = var4;
     var3['ACTION_SHEET_HANDLE_OVERHANG_REDESIGN'] = var2;
+    var2 = 16;
+    var3['ACTION_SHEET_MINIMUM_BOTTOM_PADDING'] = var2;
     return var1;
 })();

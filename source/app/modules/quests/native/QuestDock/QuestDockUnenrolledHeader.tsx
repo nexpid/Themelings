@@ -202,13 +202,13 @@ case 0:
             var4 = undefined;
             var2 = var6.bind(var4)(var2);
             var2 = var3.bind(var11)(var2);
-            var3 = var2.quest;
-            var _closure2_slot0 = var3;
+            var5 = var2.quest;
+            var _closure2_slot0 = var5;
             var8 = var11.useContext;
-            var5 = _closure1_slot0;
+            var3 = _closure1_slot0;
             var2 = 10;
             var2 = var7[var2];
-            var2 = var5.bind(var4)(var2);
+            var2 = var3.bind(var4)(var2);
             var2 = var2.QuestDockGestureContext;
             var2 = var8.bind(var11)(var2);
             var16 = var2.activeQuestDockMode;
@@ -217,12 +217,12 @@ case 0:
             var _closure2_slot2 = var9;
             var2 = 11;
             var2 = var7[var2];
-            var8 = var5.bind(var4)(var2);
+            var8 = var3.bind(var4)(var2);
             var2 = var8.useActionSheetPressHandler;
-            var21 = var2.bind(var8)(var3);
+            var21 = var2.bind(var8)(var5);
             var10 = var11.useCallback;
             var8 = new Array(1);
-            var8[0] = var3;
+            var8[0] = var5;
             var2 = function() {
                 var3 = _closure1_slot1;
                 var8 = _closure1_slot2;
@@ -266,21 +266,21 @@ case 0:
             var6 = var2.bind(var4)();
             var2 = 16;
             var2 = var7[var2];
-            var5 = var5.bind(var4)(var2);
-            var2 = var5.isThemeDark;
-            var5 = var2.bind(var5)(var6);
+            var3 = var3.bind(var4)(var2);
+            var2 = var3.isThemeDark;
+            var3 = var2.bind(var3)(var6);
             var2 = _closure1_slot11;
-            if(var5) { _fun0001_ip = 2; continue _fun0001 }
+            if(var3) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var18 = var2.LIGHT;
+            var17 = var2.LIGHT;
             _fun0001_ip = 4; continue _fun0001;
 case 2:
-            var18 = var2.DARK;
+            var17 = var2.DARK;
 case 4:
             var2 = _closure1_slot0;
             var15 = _closure1_slot2;
-            var5 = 17;
-            var6 = var15[var5];
+            var3 = 17;
+            var6 = var15[var3];
             var8 = var2.bind(var4)(var6);
             var7 = var8.useAnimatedStyle;
             var6 = function _() {
@@ -394,7 +394,7 @@ case 13:
             var12 = _closure1_slot18;
             var6['__initData'] = var12;
             var6 = var7.bind(var8)(var6);
-            var7 = var15[var5];
+            var7 = var15[var3];
             var12 = var2.bind(var4)(var7);
             var8 = var12.useAnimatedStyle;
             var7 = function c() {
@@ -438,10 +438,10 @@ case 17:
                 }
             };
             var13 = {};
-            var17 = var15[var24];
-            var17 = var2.bind(var4)(var17);
-            var17 = var17.withSpring;
-            var13['withSpring'] = var17;
+            var18 = var15[var24];
+            var18 = var2.bind(var4)(var18);
+            var18 = var18.withSpring;
+            var13['withSpring'] = var18;
             var13['activeQuestDockMode'] = var16;
             var13['QuestDockMode'] = var14;
             var13['QUEST_DOCK_MODE_CHANGE_PHYSICS_CLAMPED'] = var20;
@@ -452,8 +452,8 @@ case 17:
             var7['__workletHash'] = var13;
             var13 = _closure1_slot19;
             var7['__initData'] = var13;
-            var17 = var8.bind(var12)(var7);
-            var7 = var15[var5];
+            var18 = var8.bind(var12)(var7);
+            var7 = var15[var3];
             var12 = var2.bind(var4)(var7);
             var8 = var12.useAnimatedStyle;
             var7 = function l() {
@@ -509,7 +509,7 @@ case 20:
             var13 = _closure1_slot20;
             var7['__initData'] = var13;
             var13 = var8.bind(var12)(var7);
-            var7 = var15[var5];
+            var7 = var15[var3];
             var12 = var2.bind(var4)(var7);
             var8 = var12.useAnimatedProps;
             var7 = function Q() {
@@ -539,9 +539,9 @@ case 21:
             var19 = _closure1_slot21;
             var7['__initData'] = var19;
             var12 = var8.bind(var12)(var7);
-            var5 = var15[var5];
-            var7 = var2.bind(var4)(var5);
-            var5 = var7.useAnimatedStyle;
+            var3 = var15[var3];
+            var7 = var2.bind(var4)(var3);
+            var3 = var7.useAnimatedStyle;
             var1 = function I() {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
@@ -578,19 +578,19 @@ case 7:
             var1['__workletHash'] = var8;
             var8 = _closure1_slot22;
             var1['__initData'] = var8;
-            var8 = var5.bind(var7)(var1);
+            var8 = var3.bind(var7)(var1);
             var1 = _closure1_slot15;
             var16 = var1.bind(var4)();
             var1 = 18;
             var1 = var15[var1];
-            var2 = var2.bind(var4)(var1);
-            var1 = var2.useQuestGameLogotypeAssetUrl;
-            var14 = var1.bind(var2)(var3);
+            var3 = var2.bind(var4)(var1);
+            var1 = var3.useQuestGameLogotypeAssetUrl;
+            var14 = var1.bind(var3)(var5);
             var3 = _closure1_slot13;
-            var9 = _closure1_slot1;
             var10 = 19;
             var1 = var15[var10];
-            var2 = var9.bind(var4)(var1);
+            var1 = var2.bind(var4)(var1);
+            var2 = var1.BandAidReanimatedView;
             var1 = {};
             var7 = var16.questDockHeader;
             var5 = new Array(2);
@@ -600,6 +600,7 @@ case 7:
             var7 = _closure1_slot17;
             var1['layout'] = var7;
             var11 = _closure1_slot12;
+            var9 = _closure1_slot1;
             var5 = 20;
             var5 = var15[var5];
             var6 = var9.bind(var4)(var5);
@@ -619,20 +620,20 @@ case 7:
             var8 = {};
             var15 = _closure1_slot11;
             var15 = var15.DARK;
-            if(!(var18 !== var15)) { _fun0001_ip = 23; continue _fun0001 }
+            if(!(var17 !== var15)) { _fun0001_ip = 23; continue _fun0001 }
 case 24:
-            var18 = _closure1_slot1;
+            var17 = _closure1_slot1;
             var19 = _closure1_slot2;
             var15 = 23;
             var15 = var19[var15];
-            var15 = var18.bind(var4)(var15);
+            var15 = var17.bind(var4)(var15);
             _fun0001_ip = 25; continue _fun0001;
 case 23:
             var19 = _closure1_slot1;
             var20 = _closure1_slot2;
-            var18 = 22;
-            var18 = var20[var18];
-            var15 = var19.bind(var4)(var18);
+            var17 = 22;
+            var17 = var20[var17];
+            var15 = var19.bind(var4)(var17);
 case 25:
             var8['source'] = var15;
             var15 = 'contain';
@@ -662,15 +663,16 @@ case 25:
             var6 = {};
             var9 = var16.questDockHeaderSecondary;
             var6['style'] = var9;
-            var9 = var20[var10];
-            var11 = var19.bind(var4)(var9);
-            var9 = {};
-            var18 = var16.questDockHeaderContentCollapsed;
-            var14 = new Array(2);
-            var14[0] = var18;
-            var14[1] = var17;
-            var9['style'] = var14;
             var17 = _closure1_slot0;
+            var9 = var20[var10];
+            var9 = var17.bind(var4)(var9);
+            var11 = var9.BandAidReanimatedView;
+            var9 = {};
+            var24 = var16.questDockHeaderContentCollapsed;
+            var14 = new Array(2);
+            var14[0] = var24;
+            var14[1] = var18;
+            var9['style'] = var14;
             var18 = 25;
             var14 = var20[var18];
             var14 = var17.bind(var4)(var14);
@@ -695,7 +697,8 @@ case 25:
             var9 = new Array(2);
             var9[0] = var11;
             var10 = var20[var10];
-            var11 = var19.bind(var4)(var10);
+            var10 = var17.bind(var4)(var10);
+            var11 = var10.BandAidReanimatedView;
             var10 = {};
             var10['animatedProps'] = var12;
             var14 = var16.questDockHeaderContentExpanded;

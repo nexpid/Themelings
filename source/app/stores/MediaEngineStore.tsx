@@ -4135,7 +4135,7 @@ case 213:
 case 56:
                     var4 = _closure1_slot0;
                     var7 = _closure1_slot3;
-                    var3 = 70;
+                    var3 = 71;
                     var3 = var7[var3];
                     var6 = var4.bind(var6)(var3);
                     var4 = var6.getGamescopeVaapiExperimentConfig;
@@ -4217,7 +4217,7 @@ case 200:
 case 33: // try_start_0 // try_start_1
                     var9 = _closure1_slot1;
                     var3 = _closure1_slot3;
-                    var13 = 72;
+                    var13 = 73;
                     var3 = var3[var13];
                     var9 = var9.bind(var2)(var3);
                     var3 = var9.ensureModule;
@@ -4310,7 +4310,7 @@ case 97: // try_start_2 // catch_target0
                     var9 = var10.bind(var11)(var9);
                     var10 = _closure1_slot1;
                     var11 = _closure1_slot3;
-                    var9 = 73;
+                    var9 = 74;
                     var9 = var11[var9];
                     var10 = var10.bind(var2)(var9);
                     var9 = var10.captureException;
@@ -5141,7 +5141,7 @@ case 52:
     var9 = new var29[var9](var28);
     var9 = var9 instanceof Object ? var9 : var11;
     var _closure1_slot121 = var9;
-    var9 = 75;
+    var9 = 76;
     var9 = var6[var9];
     var9 = var8.bind(var1)(var9);
     var11 = var9.Store;
@@ -7621,7 +7621,7 @@ case 0:
 case 71:
                 var4 = _closure1_slot0;
                 var6 = _closure1_slot3;
-                var2 = 67;
+                var2 = 68;
                 var2 = var6[var2];
                 var2 = var4.bind(var5)(var2);
                 var5 = var2.DaveForBrowserExperiment;
@@ -7676,7 +7676,7 @@ case 152:
                     var2 = var3.bind(var5)(var2, var4);
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot3;
-                    var1 = 73;
+                    var1 = 74;
                     var2 = var2[var1];
                     var1 = undefined;
                     var3 = var3.bind(var1)(var2);
@@ -7710,7 +7710,7 @@ case 0:
 case 69:
                 var3 = _closure1_slot0;
                 var5 = _closure1_slot3;
-                var2 = 67;
+                var2 = 68;
                 var2 = var5[var2];
                 var2 = var3.bind(var4)(var2);
                 var5 = var2.DaveForBrowserExperiment;
@@ -7730,7 +7730,7 @@ case 52:
                 var2 = var2.bind(var3)();
                 var3 = _closure1_slot0;
                 var5 = _closure1_slot3;
-                var1 = 67;
+                var1 = 68;
                 var1 = var5[var1];
                 var1 = var3.bind(var4)(var1);
                 var4 = var1.SecureFramesUserExperiment;
@@ -8088,6 +8088,18 @@ case 338:
             var3['mostRecentlyRequestedVoiceFilter'] = var5;
             var3 = var4.bind(var1)(var3);
 case 336:
+            var5 = _closure1_slot66;
+            var4 = var5.setAsyncVideoInputDeviceInit;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot3;
+            var3 = 67;
+            var3 = var7[var3];
+            var7 = var6.bind(var1)(var3);
+            var6 = var7.getAsyncCameraInitExperimentConfig;
+            var3 = 'handleConnectionOpen';
+            var3 = var6.bind(var7)(var3);
+            var3 = var3.enabled;
+            var3 = var4.bind(var5)(var3);
             var2 = _closure1_slot156;
             var2 = var2.bind(var1)();
             return var1;
@@ -8116,7 +8128,7 @@ case 0:
 case 69:
             var3 = _closure1_slot0;
             var5 = _closure1_slot3;
-            var2 = 67;
+            var2 = 68;
             var2 = var5[var2];
             var2 = var3.bind(var4)(var2);
             var4 = var2.DaveForBrowserExperiment;
@@ -8185,7 +8197,7 @@ case 33:
                         var _closure4_slot0 = var6;
                         var5 = _closure1_slot1;
                         var3 = _closure1_slot3;
-                        var1 = 68;
+                        var1 = 69;
                         var3 = var3[var1];
                         var1 = undefined;
                         var8 = var5.bind(var1)(var3);
@@ -8434,7 +8446,7 @@ case 0:
             var _closure2_slot1 = var1;
             var8 = _closure1_slot1;
             var4 = _closure1_slot3;
-            var18 = 68;
+            var18 = 69;
             var4 = var4[var18];
             var9 = var8.bind(var1)(var4);
             var4 = var7;
@@ -8551,7 +8563,7 @@ case 348:
 case 276:
             var18 = _closure1_slot1;
             var20 = _closure1_slot3;
-            var16 = 69;
+            var16 = 70;
             var16 = var20[var16];
             var18 = var18.bind(var1)(var16);
             var20 = _closure1_slot54;
@@ -8654,7 +8666,7 @@ case 371:
 case 370:
             var13 = _closure1_slot1;
             var14 = _closure1_slot3;
-            var11 = 69;
+            var11 = 70;
             var11 = var14[var11];
             var13 = var13.bind(var1)(var11);
             var11 = _closure1_slot54;
@@ -8664,7 +8676,7 @@ case 370:
 case 365:
             var13 = _closure1_slot1;
             var14 = _closure1_slot3;
-            var11 = 69;
+            var11 = 70;
             var11 = var14[var11];
             var13 = var13.bind(var1)(var11);
             var14 = _closure1_slot54;
@@ -8693,7 +8705,7 @@ case 131:
 case 377:
             var11 = _closure1_slot1;
             var13 = _closure1_slot3;
-            var10 = 69;
+            var10 = 70;
             var10 = var13[var10];
             var11 = var11.bind(var1)(var10);
             var13 = _closure1_slot54;
@@ -9165,7 +9177,7 @@ case 6:
         var3 = arg1;
         var5 = _closure1_slot1;
         var4 = _closure1_slot3;
-        var1 = 71;
+        var1 = 72;
         var4 = var4[var1];
         var1 = undefined;
         var6 = var5.bind(var1)(var4);
@@ -9209,7 +9221,7 @@ case 6:
         _closure1_slot99 = var4;
         var3 = _closure1_slot1;
         var2 = _closure1_slot3;
-        var1 = 71;
+        var1 = 72;
         var2 = var2[var1];
         var1 = undefined;
         var3 = var3.bind(var1)(var2);
@@ -9860,7 +9872,7 @@ case 0:
             var4 = var1.state;
             var5 = _closure1_slot1;
             var3 = _closure1_slot3;
-            var2 = 74;
+            var2 = 75;
             var2 = var3[var2];
             var3 = undefined;
             var5 = var5.bind(var3)(var2);
@@ -10420,7 +10432,7 @@ case 8:
     var2 = new var29[var9](var28, var27, var26);
     var2 = var2 instanceof Object ? var2 : var7;
     var _closure1_slot64 = var2;
-    var4 = 76;
+    var4 = 77;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

@@ -179,29 +179,29 @@ case 23:
 case 22:
             var8 = var1.style;
             var12 = var1.resizeMode;
-            if(!(var12 === var4)) { _fun0002_ip = 9; continue _fun0002 }
-case 24:
+            if(!(var12 === var4)) { _fun0002_ip = 24; continue _fun0002 }
+case 25:
             var12 = 'cover';
-case 9:
+case 24:
             var6 = var1.accessible;
             var5 = var1.accessibilityLabel;
             var1 = _closure1_slot5;
             var1 = var1.bind(var4)(var10);
             var9 = undefined;
-            if(var2) { _fun0002_ip = 25; continue _fun0002 }
-case 13:
+            if(var2) { _fun0002_ip = 26; continue _fun0002 }
+case 27:
             var2 = null;
-            if(!(var2 == var3)) { _fun0002_ip = 15; continue _fun0002 }
-case 26:
+            if(!(var2 == var3)) { _fun0002_ip = 28; continue _fun0002 }
+case 29:
             var1 = var1.iconColor;
-            _fun0002_ip = 27; continue _fun0002;
-case 15:
+            _fun0002_ip = 30; continue _fun0002;
+case 28:
             var2 = {};
             var2['tintColor'] = var3;
             var1 = var2;
-case 27:
+case 30:
             var9 = var1;
-case 25:
+case 26:
             var3 = _closure1_slot3;
             var2 = _closure1_slot2;
             var1 = {};

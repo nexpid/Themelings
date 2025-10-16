@@ -43,6 +43,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7['ACTIVITIES'] = var1;
     var1 = 'QUEST_PREVIEW_TOOL';
     var7['QUEST_PREVIEW_TOOL'] = var1;
+    var1 = 'ONE_TIME_LOGIN';
+    var7['ONE_TIME_LOGIN'] = var1;
     var _closure1_slot0 = var7;
     var6 = {};
     var1 = 'settings';

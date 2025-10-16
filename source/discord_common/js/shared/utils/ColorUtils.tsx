@@ -46,9 +46,9 @@ case 0:
             var3 = var6.Math;
             var1 = var3.max;
             var1 = var1.bind(var3)(var11, var9, var8);
-            var5 = var1 - var2;
-            var4 = 0;
-            var7 = var4 === var5;
+            var3 = var1 - var2;
+            var5 = 0;
+            var7 = var5 === var3;
             var10 = 0;
             if(var7) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
@@ -56,64 +56,61 @@ case 5:
 case 7:
             if(!(var1 !== var9)) { _fun0002_ip = 8; continue _fun0002 }
 case 9:
-            var3 = var11 - var9;
-            var12 = var3 / var5;
-            var3 = 4;
-            var3 = var12 + var3;
+            var4 = var11 - var9;
+            var12 = var4 / var3;
+            var4 = 4;
+            var4 = var12 + var4;
             _fun0002_ip = 10; continue _fun0002;
 case 8:
             var11 = var8 - var11;
-            var12 = var11 / var5;
+            var12 = var11 / var3;
             var11 = 2;
-            var3 = var12 + var11;
+            var4 = var12 + var11;
 case 10:
             _fun0002_ip = 11; continue _fun0002;
 case 6:
             var8 = var9 - var8;
-            var9 = var8 / var5;
+            var9 = var8 / var3;
             var8 = 6;
-            var3 = var9 % var8;
+            var4 = var9 % var8;
 case 11:
-            var10 = var3;
+            var10 = var4;
 case 4:
             var9 = var6.Math;
             var8 = var9.round;
-            var3 = 60;
-            var3 = var3 * var10;
-            var9 = var8.bind(var9)(var3);
+            var4 = 60;
+            var4 = var4 * var10;
+            var9 = var8.bind(var9)(var4);
             var8 = var9;
-            if(!(var8 < var4)) { _fun0002_ip = 12; continue _fun0002 }
+            if(!(var8 < var5)) { _fun0002_ip = 12; continue _fun0002 }
 case 13:
-            var3 = 360;
-            var8 = var9 + var3;
+            var4 = 360;
+            var8 = var9 + var4;
 case 12:
             var1 = var1 + var2;
             var2 = 2;
-            var3 = var1 / var2;
+            var4 = var1 / var2;
             var1 = {};
             var1['h'] = var8;
-            var4 = 0;
+            var5 = 0;
             if(var7) { _fun0002_ip = 14; continue _fun0002 }
 case 15:
             var8 = var6.Math;
             var7 = var8.abs;
-            var2 = var2 * var3;
+            var2 = var2 * var4;
             var6 = 1;
             var2 = var2 - var6;
             var2 = var7.bind(var8)(var2);
             var2 = var6 - var2;
-            var4 = var5 / var2;
+            var5 = var3 / var2;
 case 14:
-            var2 = 100;
-            var6 = var2 * var4;
-            var5 = var6.toFixed;
-            var4 = 1;
-            var5 = var5.bind(var6)(var4);
-            var5 = var5 - 0;
-            var1['s'] = var5;
-            var3 = var2 * var3;
-            var2 = var3.toFixed;
-            var2 = var2.bind(var3)(var4);
+            var2 = var5.toFixed;
+            var3 = 3;
+            var2 = var2.bind(var5)(var3);
+            var2 = var2 - 0;
+            var1['s'] = var2;
+            var2 = var4.toFixed;
+            var2 = var2.bind(var4)(var3);
             var2 = var2 - 0;
             var1['l'] = var2;
             return var1;
@@ -310,8 +307,18 @@ case 26:
             var3 = arg1;
             var3 = var4.bind(var5)(var3);
             var10 = var3.h;
-            var9 = var3.s;
-            var8 = var3.l;
+            var5 = var3.s;
+            var4 = var3.l;
+            var3 = 100;
+            var7 = var3 * var5;
+            var6 = var7.toFixed;
+            var5 = 1;
+            var6 = var6.bind(var7)(var5);
+            var9 = var6 - 0;
+            var4 = var3 * var4;
+            var3 = var4.toFixed;
+            var3 = var3.bind(var4)(var5);
+            var8 = var3 - 0;
             if(var1) { _fun0005_ip = 28; continue _fun0005 }
 case 29:
             var1 = null;
@@ -525,33 +532,33 @@ case 18:
             if(!(var2 !== var5)) { _fun0009_ip = 42; continue _fun0009 }
 case 43:
             if(!(var1 !== var2)) { _fun0009_ip = 44; continue _fun0009 }
-case 45:
-            if(!(var8 !== var2)) { _fun0009_ip = 46; continue _fun0009 }
-case 47:
+case 29:
+            if(!(var8 !== var2)) { _fun0009_ip = 45; continue _fun0009 }
+case 46:
             var5 = var2;
-            if(!(var7 === var5)) { _fun0009_ip = 48; continue _fun0009 }
-case 49:
+            if(!(var7 === var5)) { _fun0009_ip = 47; continue _fun0009 }
+case 48:
             var10 = var1 - var8;
             var11 = var10 / var9;
             var10 = 4;
             var5 = var11 + var10;
-            _fun0009_ip = 48; continue _fun0009;
-case 46:
+            _fun0009_ip = 47; continue _fun0009;
+case 45:
             var1 = var7 - var1;
             var10 = var1 / var9;
             var1 = 2;
             var5 = var10 + var1;
-            _fun0009_ip = 48; continue _fun0009;
+            _fun0009_ip = 47; continue _fun0009;
 case 44:
             var1 = var8 - var7;
             var1 = var1 / var9;
             var6 = 0;
-            if(!(var8 < var7)) { _fun0009_ip = 50; continue _fun0009 }
-case 51:
-            var6 = 6;
+            if(!(var8 < var7)) { _fun0009_ip = 49; continue _fun0009 }
 case 50:
+            var6 = 6;
+case 49:
             var5 = var1 + var6;
-case 48:
+case 47:
             var1 = 60;
             var4 = var5 * var1;
 case 42:
@@ -662,7 +669,7 @@ case 0:
             var5 = var7 * var5;
             var10 = var3 % var6;
             var6 = 0;
-            if(!(var6 !== var10)) { _fun0010_ip = 28; continue _fun0010 }
+            if(!(var6 !== var10)) { _fun0010_ip = 51; continue _fun0010 }
 case 18:
             if(!(var1 !== var10)) { _fun0010_ip = 52; continue _fun0010 }
 case 53:
@@ -680,7 +687,7 @@ case 59:
             var1 = 0;
             var6 = 0;
             if(!(var9 === var10)) { _fun0010_ip = 60; continue _fun0010 }
-case 46:
+case 45:
             var3 = var7;
             var1 = var2;
             var6 = var8;
@@ -705,7 +712,7 @@ case 52:
             var1 = var7;
             var6 = var2;
             _fun0010_ip = 60; continue _fun0010;
-case 28:
+case 51:
             var3 = var7;
             var1 = var5;
             var6 = var2;

@@ -248,6 +248,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['SYSTEM_NOTIFICATIONS'] = var1;
     var1 = 'VOICE_ACTIVITY_NOTIFICATIONS';
     var2['VOICE_ACTIVITY_NOTIFICATIONS'] = var1;
+    var1 = 'FRIEND_ONLINE_NOTIFICATIONS';
+    var2['FRIEND_ONLINE_NOTIFICATIONS'] = var1;
     var1 = 'REACTION_NOTIFICATIONS';
     var2['REACTION_NOTIFICATIONS'] = var1;
     var1 = 'ANDROID_MESSAGE_NOTIFICATIONS';
@@ -264,6 +266,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['FRIEND_STREAM_NOTIFICATIONS'] = var1;
     var1 = 'COMMUNITY_ACTIVITY_ALERTS';
     var2['COMMUNITY_ACTIVITY_ALERTS'] = var1;
+    var1 = 'USER_RESURRECTION_NOTIFICATIONS';
+    var2['USER_RESURRECTION_NOTIFICATIONS'] = var1;
     var1 = 'APP_ICONS';
     var2['APP_ICONS'] = var1;
     var1 = 'ADVANCED';

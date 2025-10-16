@@ -23,7 +23,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot3 = var7;
     var4 = var4.SKUProductLines;
     var _closure1_slot4 = var4;
-    var4 = 3;
+    var4 = 4;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -73,9 +73,9 @@ case 4:
         var1['title'] = var3;
         var3 = var2.logo_asset_id;
         var1['logoAssetId'] = var3;
-        var4 = var2.pages;
-        var3 = var4.map;
-        var2 = function(arg1) {
+        var5 = var2.pages;
+        var4 = var5.map;
+        var3 = function(arg1) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                 var3 = arg1;
@@ -125,8 +125,19 @@ case 7:
                 return var1;
             }
         };
-        var2 = var3.bind(var4)(var2);
-        var1['pages'] = var2;
+        var3 = var4.bind(var5)(var3);
+        var1['pages'] = var3;
+        var5 = _closure1_slot1;
+        var4 = _closure1_slot2;
+        var3 = 1;
+        var4 = var4[var3];
+        var3 = undefined;
+        var5 = var5.bind(var3)(var4);
+        var4 = var5.keyBy;
+        var3 = var2.assets;
+        var2 = 'id';
+        var2 = var4.bind(var5)(var3, var2);
+        var1['assets'] = var2;
         return var1;
     };
     var3['transformSlayerApplicationStorefrontServer'] = var4;
@@ -228,12 +239,12 @@ case 20:
             var1 = {};
             var7 = _closure1_slot1;
             var9 = _closure1_slot2;
-            var6 = 1;
+            var6 = 2;
             var6 = var9[var6];
             var7 = var7.bind(var2)(var6);
             var6 = var7.toURLSafe;
             var8 = _closure1_slot0;
-            var5 = 2;
+            var5 = 3;
             var5 = var9[var5];
             var12 = var8.bind(var2)(var5);
             var11 = var12.getAssetURL;
@@ -315,12 +326,12 @@ case 33:
 case 35:
             var3 = _closure1_slot1;
             var6 = _closure1_slot2;
-            var2 = 1;
+            var2 = 2;
             var2 = var6[var2];
             var3 = var3.bind(var5)(var2);
             var2 = var3.toURLSafe;
             var4 = _closure1_slot0;
-            var1 = 2;
+            var1 = 3;
             var1 = var6[var1];
             var6 = var4.bind(var5)(var1);
             var5 = var6.getAssetURL;
@@ -371,12 +382,12 @@ case 36:
 case 39:
             var3 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var2 = 1;
+            var2 = 2;
             var2 = var7[var2];
             var3 = var3.bind(var6)(var2);
             var2 = var3.toURLSafe;
             var5 = _closure1_slot0;
-            var4 = 2;
+            var4 = 3;
             var4 = var7[var4];
             var8 = var5.bind(var6)(var4);
             var7 = var8.getAssetURL;

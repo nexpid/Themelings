@@ -1560,7 +1560,7 @@ case 4:
         var1 = var1.HermesInternal;
         var4 = var1.concat;
         var3 = '';
-        var2 = '/quest-home?tab=preview_tool&quest_id=';
+        var2 = '/quest-preview/';
         var1 = arg1;
         var1 = var4.bind(var3)(var5, var2, var1);
         return var1;

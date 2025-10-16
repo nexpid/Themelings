@@ -1037,12 +1037,12 @@ case 0:
                     var6 = var7.bind(var3)(var6);
                     var6 = var6.Gradients;
                     if(var5) { _fun0008_ip = 9; continue _fun0008 }
-case 34:
+case 8:
                     var5 = var6.PREMIUM_TIER_2_TRI_COLOR;
-                    _fun0008_ip = 35; continue _fun0008;
+                    _fun0008_ip = 34; continue _fun0008;
 case 9:
                     var5 = var6.PREMIUM_TIER_0;
-case 35:
+case 34:
                     var1['colors'] = var5;
                     var1 = var4.bind(var3)(var2, var1);
                     return var1;

@@ -116,7 +116,8 @@ case 0:
             var2 = 10;
             var2 = var11[var2];
             var3 = var9.bind(var4)(var2);
-            var2 = function() {
+            var2 = {};
+            var6 = function onClose() {
                 var3 = _closure2_slot1;
                 var2 = {};
                 var5 = _closure1_slot0;
@@ -131,6 +132,7 @@ case 0:
                 var1 = var3.bind(var1)(var2);
                 return var1;
             };
+            var2['onClose'] = var6;
             var2 = var3.bind(var4)(var2);
             var6 = var2.loading;
             var14 = var2.ageVerificationMethods;

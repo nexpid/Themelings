@@ -24,6 +24,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['MASTER'] = var1;
     var1 = 'love_it';
     var2['LOVE_IT'] = var1;
+    var1 = 'obsessed';
+    var2['OBSESSED'] = var1;
     var1 = 'kind_of_love_it';
     var2['KIND_OF_LOVE_IT'] = var1;
     var1 = 'kind_of_hate_it';
@@ -38,6 +40,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['LOOKING_FOR_GROUP'] = var1;
     var1 = 'looking_for_tips';
     var2['LOOKING_FOR_TIPS'] = var1;
+    var1 = 'looking_to_discuss';
+    var2['LOOKING_TO_DISCUSS'] = var1;
     var1 = 'noob';
     var2['NOOB'] = var1;
     var1 = 'learning_the_ropes';

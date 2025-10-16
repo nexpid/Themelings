@@ -160,7 +160,7 @@ case 0:
             var4 = undefined;
             var _closure2_slot4 = var4;
             var _closure2_slot6 = var4;
-            var22 = function updateLevel(arg1) {
+            var23 = function updateLevel(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var1 = global;
@@ -193,7 +193,7 @@ case 4:
                     return var1;
                 }
             };
-            var _closure2_slot11 = var22;
+            var _closure2_slot11 = var23;
             var1 = _closure1_slot19;
             var10 = var1.bind(var4)();
             var _closure2_slot3 = var10;
@@ -215,10 +215,10 @@ case 4:
             var3 = 2;
             var1 = var6.bind(var4)(var1, var3);
             var2 = 0;
-            var21 = var1[var2];
-            var _closure2_slot5 = var21;
-            var25 = 1;
-            var1 = var1[var25];
+            var22 = var1[var2];
+            var _closure2_slot5 = var22;
+            var26 = 1;
+            var1 = var1[var26];
             _closure2_slot6 = var1;
             var8 = var5.useState;
             var1 = _closure1_slot17;
@@ -226,21 +226,21 @@ case 4:
             var1 = var6.bind(var4)(var1, var3);
             var11 = var1[var2];
             var _closure2_slot7 = var11;
-            var1 = var1[var25];
+            var1 = var1[var26];
             var _closure2_slot8 = var1;
             var8 = var5.useState;
             var1 = _closure1_slot18;
             var1 = var8.bind(var5)(var1);
             var1 = var6.bind(var4)(var1, var3);
             var15 = var1[var2];
-            var1 = var1[var25];
+            var1 = var1[var26];
             var _closure2_slot9 = var1;
             var1 = var5.useState;
-            var14 = false;
-            var1 = var1.bind(var5)(var14);
+            var21 = false;
+            var1 = var1.bind(var5)(var21);
             var1 = var6.bind(var4)(var1, var3);
             var9 = var1[var2];
-            var1 = var1[var25];
+            var1 = var1[var26];
             var _closure2_slot10 = var1;
             var3 = var5.useEffect;
             var2 = function() {
@@ -279,8 +279,8 @@ case 0:
                     var1 = var1.layout;
                     var4 = var1.width;
                     var2 = _closure2_slot7;
-                    if(!(var4 !== var2)) { _fun0003_ip = 6; continue _fun0003 }
-case 7:
+                    if(!(var4 !== var2)) { _fun0003_ip = 2; continue _fun0003 }
+case 6:
                     var2 = _closure2_slot8;
                     var3 = undefined;
                     var2 = var2.bind(var3)(var4);
@@ -288,7 +288,7 @@ case 7:
                     var1 = 300;
                     var1 = var4 - var1;
                     var1 = var2.bind(var3)(var1);
-case 6:
+case 2:
                     var1 = undefined;
                     return var1;
                 }
@@ -298,29 +298,29 @@ case 6:
             var6 = var10.sliderContainer;
             var5['style'] = var6;
             var8 = _closure1_slot15;
-            var6 = {'accessible': false, 'importantForAccessibility': 'no-hide-descendants'};
+            var6 = {'accessible': false, 'accessibilityElementsHidden': true, 'importantForAccessibility': 'no-hide-descendants'};
+            var14 = true;
             var19 = 13;
             var19 = var18[var19];
             var20 = var7.bind(var4)(var19);
             var19 = {};
-            var24 = var16.length;
-            var24 = var24 - var25;
-            var19['maximumValue'] = var24;
-            var24 = var16[var21];
-            var24 = var24.color;
-            var19['minimumTrackTintColor'] = var24;
-            var23 = _closure1_slot10;
-            var23 = var23.COSMETIC;
-            var19['minimumValue'] = var23;
-            var19['onSlidingComplete'] = var22;
-            var22 = var10.slider;
-            var19['style'] = var22;
-            var22 = var16[var21];
-            var22 = var22.color;
-            var19['thumbTintColor'] = var22;
-            var19['value'] = var21;
-            var19['accessible'] = var14;
-            var14 = true;
+            var25 = var16.length;
+            var25 = var25 - var26;
+            var19['maximumValue'] = var25;
+            var25 = var16[var22];
+            var25 = var25.color;
+            var19['minimumTrackTintColor'] = var25;
+            var24 = _closure1_slot10;
+            var24 = var24.COSMETIC;
+            var19['minimumValue'] = var24;
+            var19['onSlidingComplete'] = var23;
+            var23 = var10.slider;
+            var19['style'] = var23;
+            var23 = var16[var22];
+            var23 = var23.color;
+            var19['thumbTintColor'] = var23;
+            var19['value'] = var22;
+            var19['accessible'] = var21;
             var19['accessibilityElementsHidden'] = var14;
             var21 = 'no';
             var19['importantForAccessibility'] = var21;
@@ -334,10 +334,10 @@ case 6:
             var19['style'] = var20;
             var21 = var16.map;
             var20 = function(arg1, arg2) {
+                var13 = arg2;
                 var1 = arg1;
                 var1 = var1.title;
-                var2 = arg2;
-                var _closure3_slot0 = var2;
+                var _closure3_slot0 = var13;
                 var5 = _closure1_slot15;
                 var4 = _closure1_slot5;
                 var3 = {};
@@ -354,6 +354,11 @@ case 6:
                 var6 = {};
                 var11 = 'button';
                 var6['accessibilityRole'] = var11;
+                var11 = {};
+                var12 = _closure2_slot5;
+                var12 = var12 === var13;
+                var11['selected'] = var12;
+                var6['accessibilityState'] = var11;
                 var8 = function onPress() {
                     var3 = _closure2_slot11;
                     var2 = _closure3_slot0;
@@ -393,10 +398,10 @@ case 6:
             var6 = {'data': null, 'firstItem': 0, 'inactiveSlideScale': 1};
             var6['data'] = var16;
             var16 = 0.7;
-            if(!var17) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
-            var16 = 0.3;
+            if(!var17) { _fun0001_ip = 7; continue _fun0001 }
 case 8:
+            var16 = 0.3;
+case 7:
             var6['inactiveSlideOpacity'] = var16;
             var15 = var11 - var15;
             var6['itemWidth'] = var15;
@@ -418,15 +423,24 @@ case 0:
                     var1 = arg1;
                     var18 = var1.item;
                     var _closure3_slot0 = var18;
-                    var6 = var1.index;
+                    var2 = var1.index;
+                    var1 = _closure2_slot5;
+                    var5 = var2 === var1;
                     var1 = var18.contentPreface;
                     var19 = var1.bind(var18)();
                     var4 = _closure1_slot15;
                     var3 = _closure1_slot5;
                     var2 = {};
-                    var5 = _closure2_slot5;
+                    var1 = !var5;
+                    var6 = !var1;
+                    if(!var5) { _fun0004_ip = 5; continue _fun0004 }
+case 9:
+                    var6 = undefined;
+case 5:
+                    var2['accessible'] = var6;
+                    var2['accessibilityElementsHidden'] = var1;
                     var1 = 'no-hide-descendants';
-                    if(!(var6 === var5)) { _fun0004_ip = 10; continue _fun0004 }
+                    if(!var5) { _fun0004_ip = 10; continue _fun0004 }
 case 11:
                     var1 = 'yes';
 case 10:

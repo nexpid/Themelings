@@ -1410,6 +1410,8 @@ case 105:
             var6[var7] = var8;
             var2['file'] = var6;
             var2['draftType'] = var5;
+            var5 = false;
+            var2['allowOptimization'] = var5;
             var2 = var3.bind(var4)(var2);
             return var1;
         }

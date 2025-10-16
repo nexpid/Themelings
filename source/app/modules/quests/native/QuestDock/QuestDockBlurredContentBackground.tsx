@@ -1,9 +1,11 @@
 // app/modules/quests/native/QuestDock/QuestDockBlurredContentBackground.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var10 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
+    var1 = metroImportDefault;
+    var _closure1_slot0 = var1;
+    var _closure1_slot1 = var6;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -17,26 +19,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = metroImportAll;
     var1 = undefined;
     var7 = var4.bind(var1)(var7);
-    var _closure1_slot0 = var7;
+    var _closure1_slot2 = var7;
     var4 = 1;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.StyleSheet;
-    var _closure1_slot1 = var4;
+    var _closure1_slot3 = var4;
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
-    var _closure1_slot2 = var4;
-    var4 = 3;
-    var4 = var6[var4];
-    var9 = var10.bind(var1)(var4);
-    var8 = var9.createAnimatedComponent;
-    var4 = 4;
-    var4 = var6[var4];
-    var4 = var10.bind(var1)(var4);
-    var4 = var8.bind(var9)(var4);
-    var _closure1_slot3 = var4;
+    var _closure1_slot4 = var4;
     var4 = var7.memo;
     var2 = function QuestDockBlurredContentBackground(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -52,7 +45,7 @@ case 3:
             var10 = var2;
 case 2:
             var _closure2_slot0 = var10;
-            var9 = _closure1_slot0;
+            var9 = _closure1_slot2;
             var8 = var9.useMemo;
             var3 = new Array(1);
             var3[0] = var10;
@@ -87,12 +80,16 @@ case 4:
                 }
             };
             var9 = var3.bind(var9)(var1, var2);
-            var3 = _closure1_slot2;
-            var2 = _closure1_slot3;
-            var1 = {'blurTintRgba': null, 'blurAmount': 0.5, 'blurTheme': 'dark'};
+            var3 = _closure1_slot4;
+            var2 = _closure1_slot0;
+            var10 = _closure1_slot1;
+            var1 = 3;
+            var1 = var10[var1];
+            var2 = var2.bind(var4)(var1);
+            var1 = {'nativeID': 'quest-dock-blurred-background', 'blurTintRgba': null, 'blurAmount': 0.5, 'blurTheme': 'dark'};
             var1['blurTintRgba'] = var9;
             var1['android_fallbackColor'] = var8;
-            var6 = _closure1_slot1;
+            var6 = _closure1_slot3;
             var8 = var6.absoluteFillObject;
             var6 = new Array(2);
             var6[0] = var8;
@@ -104,7 +101,7 @@ case 4:
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 5;
+    var4 = 4;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

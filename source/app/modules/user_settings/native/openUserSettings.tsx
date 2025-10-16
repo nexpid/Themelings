@@ -79,6 +79,8 @@ case 8:
             var2['analyticsLocation'] = var7;
             var7 = var5.scrollPosition;
             var2['scrollPosition'] = var7;
+            var7 = var5.searchParams;
+            var2['searchParams'] = var7;
             var2 = var3.bind(var6)(var2);
             var3 = var4.navigate;
             var2 = 'settings';

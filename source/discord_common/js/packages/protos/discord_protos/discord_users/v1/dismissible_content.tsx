@@ -1774,6 +1774,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['GAME_WIDGETS_PREMIUM_TAB_BADGE'] = var2;
     var1 = 'GAME_WIDGETS_PREMIUM_TAB_BADGE';
     var4[var2] = var1;
+    var2 = 629;
+    var4['PREMIUM_SETTINGS_SUBSCRIPTION_INFO_NOTICE'] = var2;
+    var1 = 'PREMIUM_SETTINGS_SUBSCRIPTION_INFO_NOTICE';
+    var4[var2] = var1;
+    var2 = 630;
+    var4['NITRO_TAB_BADGE_COUNTDOWN'] = var2;
+    var1 = 'NITRO_TAB_BADGE_COUNTDOWN';
+    var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;
     var1 = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

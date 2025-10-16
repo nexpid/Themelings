@@ -995,18 +995,7 @@ case 55:
             var6 = var3.0IUT4e;
             var3 = {};
             var25 = function rewardWithArticleHook() {
-                var4 = _closure1_slot11;
-                var2 = _closure1_slot0;
-                var3 = _closure1_slot2;
-                var1 = 31;
-                var1 = var3[var1];
-                var3 = undefined;
-                var1 = var2.bind(var3)(var1);
-                var2 = var1.Text;
-                var1 = {'variant': 'text-md/semibold', 'color': 'text-normal'};
-                var5 = _closure2_slot10;
-                var1['children'] = var5;
-                var1 = var4.bind(var3)(var2, var1);
+                var1 = _closure2_slot10;
                 return var1;
             };
             var3['rewardWithArticleHook'] = var25;
@@ -1182,7 +1171,7 @@ case 75:
                 var6 = var6.id;
                 var2['questId'] = var6;
                 var6 = _closure1_slot0;
-                var5 = 32;
+                var5 = 31;
                 var5 = var7[var5];
                 var5 = var6.bind(var1)(var5);
                 var5 = var5.VideoQuestModalSteps;
@@ -1197,7 +1186,7 @@ case 75:
             var4 = _closure1_slot12;
             var32 = _closure1_slot0;
             var36 = _closure1_slot2;
-            var2 = 33;
+            var2 = 32;
             var2 = var36[var2];
             var2 = var32.bind(var5)(var2);
             var3 = var2.Card;
@@ -1229,7 +1218,7 @@ case 22:
             var6['style'] = var7;
             var26 = _closure1_slot11;
             var25 = _closure1_slot1;
-            var7 = 34;
+            var7 = 33;
             var7 = var36[var7];
             var24 = var25.bind(var5)(var7);
             var7 = {};
@@ -1242,13 +1231,13 @@ case 22:
             var7 = var26.bind(var5)(var24, var7);
             var24 = new Array(4);
             var24[0] = var7;
-            var7 = 35;
+            var7 = 34;
             var7 = var36[var7];
             var25 = var25.bind(var5)(var7);
             var7 = {};
             var28 = var23.heroLinearGradientOverlay;
             var7['style'] = var28;
-            var28 = 36;
+            var28 = 35;
             var37 = var36[var28];
             var37 = var32.bind(var5)(var37);
             var37 = var37.VerticalGradient;
@@ -1276,7 +1265,7 @@ case 79:
             var25['style'] = var29;
             var37 = _closure1_slot0;
             var31 = _closure1_slot2;
-            var29 = 31;
+            var29 = 36;
             var29 = var31[var29];
             var29 = var37.bind(var5)(var29);
             var30 = var29.Text;
@@ -1321,7 +1310,7 @@ case 78:
             var35 = var32.bind(var5)(var35);
             var42 = var35.Stack;
             var41 = {'direction': 'horizontal', 'align': 'center', 'spacing': 4};
-            var35 = 31;
+            var35 = 36;
             var36 = var31[var35];
             var36 = var32.bind(var5)(var36);
             var44 = var36.Text;

@@ -96,20 +96,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot21 = var10;
     var4 = var4.jsxs;
     var _closure1_slot22 = var4;
-    var4 = 16;
-    var4 = var6[var4];
-    var13 = var16.bind(var1)(var4);
-    var10 = var13.createAnimatedComponent;
-    var4 = 17;
-    var4 = var6[var4];
-    var4 = var16.bind(var1)(var4);
-    var4 = var10.bind(var13)(var4);
-    var _closure1_slot23 = var4;
     var4 = {};
     var10 = 300;
     var4['duration'] = var10;
-    var _closure1_slot24 = var4;
-    var4 = 18;
+    var _closure1_slot23 = var4;
+    var4 = 16;
     var4 = var6[var4];
     var13 = var5.bind(var1)(var4);
     var10 = var13.createStyles;
@@ -154,7 +145,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14['height'] = var15;
     var4['strokeContainer'] = var14;
     var14 = {'width': 12, 'height': 12, 'borderRadius': null, 'padding': 2};
-    var15 = 19;
+    var15 = 17;
     var17 = var6[var15];
     var17 = var16.bind(var1)(var17);
     var17 = var17.radii;
@@ -173,7 +164,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14['marginLeft'] = var15;
     var4['shieldIconMargin'] = var14;
     var4 = var10.bind(var13)(var4);
-    var _closure1_slot25 = var4;
+    var _closure1_slot24 = var4;
     var4 = {};
     var4['DOWN'] = var12;
     var10 = 'DOWN';
@@ -181,26 +172,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['LEFT'] = var11;
     var10 = 'LEFT';
     var4[var11] = var10;
-    var _closure1_slot26 = var4;
+    var _closure1_slot25 = var4;
     var4 = {};
     var21 = var4;
     var20 = var8;
     var8 = copyDataProperties(var21, var20);
     var8 = 'overshootClamping';
     var4[var8] = var9;
-    var _closure1_slot27 = var4;
+    var _closure1_slot26 = var4;
     var4 = {};
     var8 = 'function VoicePanelHeaderTsx1(){const{isHeaderHidden,focused,scrollPosition}=this.__closure;return!isHeaderHidden.get()&&(focused.get()!=null||scrollPosition.get()>0);}';
     var4['code'] = var8;
-    var _closure1_slot28 = var4;
+    var _closure1_slot27 = var4;
     var4 = {};
     var8 = 'function VoicePanelHeaderTsx2(){const{withSpring,showHeaderBlur}=this.__closure;return{blurAmount:withSpring(showHeaderBlur.get()?0.3:0)};}';
     var4['code'] = var8;
-    var _closure1_slot29 = var4;
+    var _closure1_slot28 = var4;
     var4 = {};
     var8 = 'function VoicePanelHeaderTsx3(){const{withSpring,showHeaderBlur,HEADER_CHANGE_PHYSICS}=this.__closure;return{opacity:withSpring(showHeaderBlur.get()?1:0,HEADER_CHANGE_PHYSICS)};}';
     var4['code'] = var8;
-    var _closure1_slot30 = var4;
+    var _closure1_slot29 = var4;
     var8 = var7.memo;
     var4 = function(arg1) {
         var2 = arg1;
@@ -210,12 +201,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure2_slot1 = var9;
         var11 = var2.focused;
         var _closure2_slot2 = var11;
-        var2 = _closure1_slot25;
+        var2 = _closure1_slot24;
         var4 = undefined;
         var12 = var2.bind(var4)();
         var10 = _closure1_slot0;
         var13 = _closure1_slot2;
-        var2 = 16;
+        var2 = 18;
         var3 = var13[var2];
         var7 = var10.bind(var4)(var3);
         var6 = var7.useDerivedValue;
@@ -253,7 +244,7 @@ case 2:
         var3['__closure'] = var8;
         var8 = 8127245112238.0;
         var3['__workletHash'] = var8;
-        var8 = _closure1_slot28;
+        var8 = _closure1_slot27;
         var3['__initData'] = var8;
         var8 = var6.bind(var7)(var3);
         var _closure2_slot3 = var8;
@@ -266,7 +257,7 @@ case 0:
                 var1 = {};
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var2 = 20;
+                var2 = 19;
                 var3 = var3[var2];
                 var2 = undefined;
                 var4 = var4.bind(var2)(var3);
@@ -285,7 +276,7 @@ case 4:
             }
         };
         var11 = {};
-        var9 = 20;
+        var9 = 19;
         var14 = var13[var9];
         var14 = var10.bind(var4)(var14);
         var14 = var14.withSpring;
@@ -294,7 +285,7 @@ case 4:
         var3['__closure'] = var11;
         var11 = 10074943135400.0;
         var3['__workletHash'] = var11;
-        var11 = _closure1_slot29;
+        var11 = _closure1_slot28;
         var3['__initData'] = var11;
         var7 = var6.bind(var7)(var3);
         var2 = var13[var2];
@@ -306,7 +297,7 @@ case 0:
                 var1 = {};
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var3 = 20;
+                var3 = 19;
                 var4 = var4[var3];
                 var3 = undefined;
                 var5 = var5.bind(var3)(var4);
@@ -319,7 +310,7 @@ case 0:
 case 6:
                 var3 = 1;
 case 7:
-                var2 = _closure1_slot27;
+                var2 = _closure1_slot26;
                 var2 = var4.bind(var5)(var3, var2);
                 var1['opacity'] = var2;
                 return var1;
@@ -331,17 +322,17 @@ case 7:
         var9 = var9.withSpring;
         var6['withSpring'] = var9;
         var6['showHeaderBlur'] = var8;
-        var8 = _closure1_slot27;
+        var8 = _closure1_slot26;
         var6['HEADER_CHANGE_PHYSICS'] = var8;
         var1['__closure'] = var6;
         var6 = 2825977044105.0;
         var1['__workletHash'] = var6;
-        var6 = _closure1_slot30;
+        var6 = _closure1_slot29;
         var1['__initData'] = var6;
         var8 = var2.bind(var3)(var1);
         var3 = _closure1_slot22;
         var10 = _closure1_slot1;
-        var1 = 21;
+        var1 = 20;
         var1 = var13[var1];
         var2 = var10.bind(var4)(var1);
         var1 = {};
@@ -354,7 +345,9 @@ case 7:
         var6 = 'none';
         var1['pointerEvents'] = var6;
         var11 = _closure1_slot21;
-        var6 = _closure1_slot23;
+        var5 = 21;
+        var5 = var13[var5];
+        var6 = var10.bind(var4)(var5);
         var5 = {'style': null, 'blurStyle': 'ultra-thin', 'blurTheme': 'dark'};
         var8 = var12.blurStyles;
         var5['style'] = var8;
@@ -391,15 +384,15 @@ case 7:
         return var1;
     };
     var4 = var8.bind(var7)(var4);
-    var _closure1_slot31 = var4;
+    var _closure1_slot30 = var4;
     var4 = {};
     var8 = 'function VoicePanelHeaderTsx4(){const{focused,controlsSpecs,VoicePanelControlsModes,speaking}=this.__closure;return focused.get()!=null&&controlsSpecs.get().mode!==VoicePanelControlsModes.HIDDEN&&speaking.get();}';
     var4['code'] = var8;
-    var _closure1_slot32 = var4;
+    var _closure1_slot31 = var4;
     var4 = {};
     var8 = 'function VoicePanelHeaderTsx5(){const{showSpeakingIndicator}=this.__closure;return{opacity:showSpeakingIndicator.get()?1:0};}';
     var4['code'] = var8;
-    var _closure1_slot33 = var4;
+    var _closure1_slot32 = var4;
     var8 = var7.memo;
     var4 = function() {
         var4 = _closure1_slot8;
@@ -420,7 +413,7 @@ case 7:
         var14 = var3.controlsSpecs;
         var _closure2_slot2 = var14;
         var5 = _closure1_slot0;
-        var3 = 16;
+        var3 = 18;
         var9 = var8[var3];
         var12 = var5.bind(var4)(var9);
         var10 = var12.useSharedValue;
@@ -462,7 +455,7 @@ case 7:
             return var1;
         };
         var7 = var10.bind(var11)(var7, var9);
-        var7 = _closure1_slot25;
+        var7 = _closure1_slot24;
         var7 = var7.bind(var4)();
         var9 = var8[var3];
         var11 = var5.bind(var4)(var9);
@@ -503,14 +496,14 @@ case 10:
         var9['__closure'] = var12;
         var12 = 5466722752449.0;
         var9['__workletHash'] = var12;
-        var12 = _closure1_slot32;
+        var12 = _closure1_slot31;
         var9['__initData'] = var12;
         var10 = var10.bind(var11)(var9);
         var _closure2_slot4 = var10;
         var3 = var8[var3];
         var5 = var5.bind(var4)(var3);
         var3 = var5.useAnimatedStyle;
-        var2 = function p() {
+        var2 = function _() {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                 var1 = {};
@@ -531,11 +524,11 @@ case 11:
         var2['__closure'] = var9;
         var9 = 16177124708898.0;
         var2['__workletHash'] = var9;
-        var9 = _closure1_slot33;
+        var9 = _closure1_slot32;
         var2['__initData'] = var9;
         var10 = var3.bind(var5)(var2);
         var3 = _closure1_slot21;
-        var5 = 21;
+        var5 = 20;
         var1 = var8[var5];
         var2 = var6.bind(var4)(var1);
         var1 = {};
@@ -557,35 +550,35 @@ case 11:
         return var1;
     };
     var4 = var8.bind(var7)(var4);
-    var _closure1_slot34 = var4;
+    var _closure1_slot33 = var4;
     var4 = {};
     var8 = 'function VoicePanelHeaderTsx6(){const{focused}=this.__closure;var _focused$get;return(_focused$get=focused.get())===null||_focused$get===void 0?void 0:_focused$get.id;}';
     var4['code'] = var8;
-    var _closure1_slot35 = var4;
+    var _closure1_slot34 = var4;
     var4 = {};
     var8 = 'function VoicePanelHeaderTsx7(manualId,previousManualId){const{runOnJS,handleFocusChange}=this.__closure;if(manualId!==previousManualId){runOnJS(handleFocusChange)(manualId);}}';
     var4['code'] = var8;
-    var _closure1_slot36 = var4;
+    var _closure1_slot35 = var4;
     var4 = {};
     var8 = 'function VoicePanelHeaderTsx8(){const{calculateVoicePanelHeaderSpecs,safeArea,mode,VoicePanelModes,gestureState,connected,EDGE_GUTTER}=this.__closure;const specs=calculateVoicePanelHeaderSpecs(safeArea.get());if(mode.get()===VoicePanelModes.PIP||gestureState.get().active&&!gestureState.get().requiresPop&&connected.get()||mode.get()===VoicePanelModes.DISMISSED&&connected.get()){return-(specs.height+EDGE_GUTTER);}return 0;}';
     var4['code'] = var8;
-    var _closure1_slot37 = var4;
+    var _closure1_slot36 = var4;
     var4 = {};
     var8 = 'function VoicePanelHeaderTsx9(){const{calculateVoicePanelHeaderSpecs,safeArea,mode,VoicePanelModes,connected,EDGE_GUTTER,withTiming,OPACITY_TIMING,withSpring,yOffset,wrapperOffset,DRAWER_SPRING_PHYSICS_GESTURE_ACTIVE,UI_SHOW_HIDE_PHYSICS}=this.__closure;const specs=calculateVoicePanelHeaderSpecs(safeArea.get());const pipMode=mode.get()===VoicePanelModes.PIP;const height=!connected.get()?specs.height-specs.paddingTop+EDGE_GUTTER:specs.height;const paddingTop=!connected.get()?EDGE_GUTTER:specs.paddingTop;return{...specs,paddingTop:paddingTop,borderTopLeftRadius:!connected.get()?24:0,borderTopRightRadius:!connected.get()?24:0,height:height,opacity:withTiming(pipMode||mode.get()===VoicePanelModes.DISMISSED?0:1,OPACITY_TIMING),transform:[{translateY:withSpring(yOffset.get(),!connected.get()&&wrapperOffset.get().gestureActive?DRAWER_SPRING_PHYSICS_GESTURE_ACTIVE:UI_SHOW_HIDE_PHYSICS)}]};}';
     var4['code'] = var8;
-    var _closure1_slot38 = var4;
+    var _closure1_slot37 = var4;
     var4 = {};
     var8 = 'function VoicePanelHeaderTsx10(){const{controlsSpecs,VoicePanelControlsModes,isScreenReaderEnabled}=this.__closure;return controlsSpecs.get().mode===VoicePanelControlsModes.HIDDEN&&!isScreenReaderEnabled;}';
     var4['code'] = var8;
-    var _closure1_slot39 = var4;
+    var _closure1_slot38 = var4;
     var4 = {};
     var8 = 'function VoicePanelHeaderTsx11(){const{calculateVoicePanelHeaderSpecs,safeArea,withTiming,isHeaderHidden,OPACITY_TIMING,withSpring,MODE_CHANGE_PHYSICS}=this.__closure;const{height:height}=calculateVoicePanelHeaderSpecs(safeArea.get());return{opacity:withTiming(isHeaderHidden.get()?0:1,OPACITY_TIMING),transform:[{translateY:withSpring(isHeaderHidden.get()?-height:0,MODE_CHANGE_PHYSICS)}]};}';
     var4['code'] = var8;
-    var _closure1_slot40 = var4;
+    var _closure1_slot39 = var4;
     var4 = {};
     var8 = "function VoicePanelHeaderTsx12(){const{isHeaderHidden}=this.__closure;return{pointerEvents:isHeaderHidden.get()?'none':'box-none',importantForAccessibility:isHeaderHidden.get()?'no-hide-descendants':'auto',accessibilityElementsHidden:isHeaderHidden.get()};}";
     var4['code'] = var8;
-    var _closure1_slot41 = var4;
+    var _closure1_slot40 = var4;
     var4 = var7.memo;
     var2 = function VoicePanelHeader(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
@@ -599,7 +592,7 @@ case 0:
             var4 = undefined;
             var _closure2_slot14 = var4;
             var _closure2_slot15 = var4;
-            var1 = _closure1_slot25;
+            var1 = _closure1_slot24;
             var24 = var1.bind(var4)();
             var15 = _closure1_slot4;
             var2 = var15.useContext;
@@ -742,11 +735,11 @@ case 17:
             };
             var29 = var13.bind(var15)(var1, var6);
             var _closure2_slot11 = var29;
-            var1 = 16;
+            var1 = 18;
             var6 = var5[var1];
             var19 = var2.bind(var4)(var6);
             var15 = var19.useAnimatedReaction;
-            var13 = function v() {
+            var13 = function C() {
                 _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
                     var2 = _closure2_slot3;
@@ -767,7 +760,7 @@ case 19:
             var13['__closure'] = var6;
             var6 = 7943480174143.0;
             var13['__workletHash'] = var6;
-            var6 = _closure1_slot35;
+            var6 = _closure1_slot34;
             var13['__initData'] = var6;
             var6 = function H(arg1, arg2) {
                 _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
@@ -778,7 +771,7 @@ case 0:
 case 22:
                     var4 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var1 = 16;
+                    var1 = 18;
                     var1 = var2[var1];
                     var2 = undefined;
                     var5 = var4.bind(var2)(var1);
@@ -800,7 +793,7 @@ case 21:
             var6['__closure'] = var26;
             var26 = 13084116412140.0;
             var6['__workletHash'] = var26;
-            var26 = _closure1_slot36;
+            var26 = _closure1_slot35;
             var6['__initData'] = var26;
             var6 = var15.bind(var19)(var13, var6);
             var6 = var5[var1];
@@ -881,7 +874,7 @@ case 28:
             var6['__closure'] = var19;
             var19 = 16949501788449.0;
             var6['__workletHash'] = var19;
-            var19 = _closure1_slot37;
+            var19 = _closure1_slot36;
             var6['__initData'] = var19;
             var33 = var13.bind(var15)(var6);
             var _closure2_slot12 = var33;
@@ -976,14 +969,14 @@ case 41:
 case 40:
                     var4 = 0;
 case 42:
-                    var2 = _closure1_slot24;
+                    var2 = _closure1_slot23;
                     var4 = var5.bind(var8)(var4, var2);
                     var2 = 'opacity';
                     var1[var2] = var4;
                     var2 = {};
                     var5 = _closure1_slot0;
                     var8 = _closure1_slot2;
-                    var4 = 20;
+                    var4 = 19;
                     var4 = var8[var4];
                     var6 = var5.bind(var6)(var4);
                     var5 = var6.withSpring;
@@ -1029,9 +1022,9 @@ case 46:
             var23 = var2.bind(var4)(var23);
             var23 = var23.withTiming;
             var19['withTiming'] = var23;
-            var25 = _closure1_slot24;
+            var25 = _closure1_slot23;
             var19['OPACITY_TIMING'] = var25;
-            var23 = 20;
+            var23 = 19;
             var34 = var5[var23];
             var34 = var2.bind(var4)(var34);
             var34 = var34.withSpring;
@@ -1045,7 +1038,7 @@ case 46:
             var6['__closure'] = var19;
             var19 = 1052627369386.0;
             var6['__workletHash'] = var19;
-            var19 = _closure1_slot38;
+            var19 = _closure1_slot37;
             var6['__initData'] = var19;
             var6 = var13.bind(var15)(var6);
             var13 = var5[var1];
@@ -1077,7 +1070,7 @@ case 47:
             var13['__closure'] = var21;
             var21 = 16725581527938.0;
             var13['__workletHash'] = var21;
-            var21 = _closure1_slot39;
+            var21 = _closure1_slot38;
             var13['__initData'] = var21;
             var15 = var15.bind(var19)(var13);
             var _closure2_slot13 = var15;
@@ -1112,13 +1105,13 @@ case 0:
 case 49:
                     var5 = 0;
 case 26:
-                    var3 = _closure1_slot24;
+                    var3 = _closure1_slot23;
                     var3 = var6.bind(var9)(var5, var3);
                     var1['opacity'] = var3;
                     var3 = {};
                     var6 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var5 = 20;
+                    var5 = 19;
                     var5 = var9[var5];
                     var6 = var6.bind(var8)(var5);
                     var5 = var6.withSpring;
@@ -1159,13 +1152,13 @@ case 50:
             var13['__closure'] = var22;
             var22 = 3320897771806.0;
             var13['__workletHash'] = var22;
-            var22 = _closure1_slot40;
+            var22 = _closure1_slot39;
             var13['__initData'] = var22;
             var19 = var19.bind(var21)(var13);
             var1 = var5[var1];
             var21 = var2.bind(var4)(var1);
             var13 = var21.useAnimatedProps;
-            var1 = function pe() {
+            var1 = function _e() {
                 _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
 case 0:
                     var1 = {};
@@ -1199,7 +1192,7 @@ case 53:
             var1['__closure'] = var22;
             var22 = 4740985143159.0;
             var1['__workletHash'] = var22;
-            var22 = _closure1_slot41;
+            var22 = _closure1_slot40;
             var1['__initData'] = var22;
             var13 = var13.bind(var21)(var1);
             var1 = 31;
@@ -1223,15 +1216,15 @@ case 53:
             var1 = var1.bind(var2)(var29);
             if(!(var18 == var11)) { _fun0006_ip = 54; continue _fun0006 }
 case 55:
-            var1 = _closure1_slot26;
+            var1 = _closure1_slot25;
             var16 = var1.DOWN;
             _fun0006_ip = 56; continue _fun0006;
 case 54:
-            var1 = _closure1_slot26;
+            var1 = _closure1_slot25;
             var16 = var1.LEFT;
 case 56:
             _closure2_slot14 = var16;
-            var1 = _closure1_slot26;
+            var1 = _closure1_slot25;
             var1 = var1.LEFT;
             if(!(var16 !== var1)) { _fun0006_ip = 57; continue _fun0006 }
 case 58:
@@ -1487,7 +1480,7 @@ case 0:
                     var1 = {};
                     var3 = {};
                     var5 = _closure2_slot14;
-                    var2 = _closure1_slot26;
+                    var2 = _closure1_slot25;
                     var4 = var2.LEFT;
                     var2 = '0deg';
                     if(!(var5 === var4)) { _fun0018_ip = 85; continue _fun0018 }
@@ -1565,7 +1558,7 @@ case 95:
             var3 = _closure1_slot22;
             var2 = _closure1_slot1;
             var1 = _closure1_slot2;
-            var14 = 21;
+            var14 = 20;
             var1 = var1[var14];
             var2 = var2.bind(var4)(var1);
             var1 = {};
@@ -1578,7 +1571,7 @@ case 95:
             var1['pointerEvents'] = var16;
             var1['layout'] = var17;
             var7 = _closure1_slot21;
-            var6 = _closure1_slot31;
+            var6 = _closure1_slot30;
             var5 = {};
             var5['isHeaderHidden'] = var15;
             var5['scrollPosition'] = var9;
@@ -1596,7 +1589,7 @@ case 98:
             var7 = var30[var7];
             var8 = var25.bind(var4)(var7);
             var7 = {};
-            var12 = 19;
+            var12 = 17;
             var12 = var30[var12];
             var12 = var25.bind(var4)(var12);
             var12 = var12.colors;
@@ -1696,7 +1689,7 @@ case 103:
             var36 = 'xs';
             var33['size'] = var36;
             var37 = _closure1_slot1;
-            var36 = 19;
+            var36 = 17;
             var36 = var38[var36];
             var36 = var37.bind(var4)(var36);
             var36 = var36.colors;
@@ -1724,7 +1717,7 @@ case 101:
             var14['style'] = var24;
             var14['layout'] = var17;
             var26 = _closure1_slot21;
-            var24 = _closure1_slot34;
+            var24 = _closure1_slot33;
             var17 = {};
             var24 = var26.bind(var4)(var24, var17);
             var17 = new Array(5);

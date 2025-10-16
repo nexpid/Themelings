@@ -1350,6 +1350,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11['USER_PROFILE_WISHLIST'] = var68;
     var4 = 'USER_PROFILE_WISHLIST';
     var11[var68] = var4;
+    var11['DM_CHANNEL_WISHLIST'] = var10;
+    var4 = 'DM_CHANNEL_WISHLIST';
+    var11[var10] = var4;
     var8 = {};
     var4 = 'premium_tenure_1_month_v2';
     var8['PREMIUM_TENURE_1_MONTH'] = var4;

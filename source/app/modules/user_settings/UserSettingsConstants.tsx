@@ -131,6 +131,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['ROLE_SUBSCRIPTION_SUBSECTION'] = var15;
     var15 = 'APPLICATION_SUBSCRIPTION_SUBSECTION';
     var3['APPLICATION_SUBSCRIPTION_SUBSECTION'] = var15;
+    var15 = 'VOICE_SUBSECTION';
+    var3['VOICE_SUBSECTION'] = var15;
     var15 = 'SOUNDBOARD_SUBSECTION';
     var3['SOUNDBOARD_SUBSECTION'] = var15;
     var15 = 'VIDEO_SUBSECTION';

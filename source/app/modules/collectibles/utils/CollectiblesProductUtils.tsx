@@ -70,7 +70,7 @@ case 9:
     var5 = 'modules/collectibles/utils/CollectiblesProductUtils.tsx';
     var5 = var6.bind(var7)(var5);
     var3['getAllProductPrices'] = var4;
-    var2 = function(arg1) {
+    var4 = function(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var1 = arg1;
@@ -101,6 +101,33 @@ case 11:
             return var1;
         }
     };
-    var3['getProductOrbPrice'] = var2;
+    var3['getProductOrbPrice'] = var4;
+    var2 = function(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+            var4 = _closure1_slot2;
+            var3 = {};
+            var1 = arg1;
+            var3['product'] = var1;
+            var1 = false;
+            var3['isPremiumUser'] = var1;
+            var1 = undefined;
+            var4 = var4.bind(var1)(var3);
+            var3 = var4.length;
+            var1 = 1;
+            var1 = var1 === var3;
+            if(!var1) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
+            var3 = 0;
+            var3 = var4[var3];
+            var3 = var3.currency;
+            var2 = _closure1_slot0;
+            var2 = var2.DISCORD_ORB;
+            var1 = var3 === var2;
+case 13:
+            return var1;
+        }
+    };
+    var3['getIsOrbsExclusive'] = var2;
     return var1;
 })();

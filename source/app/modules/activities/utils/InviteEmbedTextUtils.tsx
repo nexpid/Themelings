@@ -313,7 +313,7 @@ case 19:
     var3['getHeaderText'] = var6;
     var3['getRequestToStreamText'] = var5;
     var3['getAskToJoinText'] = var4;
-    var4 = function getDeadGameInviteText(arg1, arg2, arg3, arg4) {
+    var4 = function getDeadGameInviteText(arg1, arg2, arg3, arg4, arg5) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var6 = arg1;
@@ -360,17 +360,26 @@ case 32:
             var2 = var2.bind(var5)(var6, var4, var3);
             return var2;
 case 28:
-            var4 = _closure1_slot0;
-            var6 = _closure1_slot2;
-            var1 = 2;
-            var2 = var6[var1];
-            var2 = var4.bind(var5)(var2);
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var6 = 2;
+            var2 = var2[var6];
+            var2 = var3.bind(var5)(var2);
             var3 = var2.intl;
             var2 = var3.string;
-            var1 = var6[var1];
+            var4 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var1 = var1[var6];
             var1 = var4.bind(var5)(var1);
-            var1 = var1.t;
-            var1 = var1.x1UXGR;
+            var4 = var1.t;
+            var1 = arg5;
+            if(var1) { _fun0004_ip = 34; continue _fun0004 }
+case 35:
+            var1 = var4.Ek+51t;
+            _fun0004_ip = 36; continue _fun0004;
+case 34:
+            var1 = var4.x1UXGR;
+case 36:
             var1 = var2.bind(var3)(var1);
             return var1;
         }
@@ -386,15 +395,15 @@ case 0:
             var1 = _closure1_slot4;
             var2 = var1.STREAM_REQUEST;
             var1 = '';
-            if(!(var3 !== var2)) { _fun0005_ip = 34; continue _fun0005 }
-case 35:
+            if(!(var3 !== var2)) { _fun0005_ip = 37; continue _fun0005 }
+case 38:
             var2 = _closure1_slot4;
             var2 = var2.LISTEN;
-            if(!(var3 !== var2)) { _fun0005_ip = 36; continue _fun0005 }
-case 37:
+            if(!(var3 !== var2)) { _fun0005_ip = 39; continue _fun0005 }
+case 40:
             var2 = 0;
-            if(!(!(var8 > var2))) { _fun0005_ip = 38; continue _fun0005 }
-case 39:
+            if(!(!(var8 > var2))) { _fun0005_ip = 41; continue _fun0005 }
+case 42:
             var7 = _closure1_slot0;
             var10 = _closure1_slot2;
             var2 = 2;
@@ -410,8 +419,8 @@ case 39:
             var2 = {};
             var2['partySize'] = var9;
             var2 = var5.bind(var6)(var3, var2);
-            _fun0005_ip = 40; continue _fun0005;
-case 38:
+            _fun0005_ip = 34; continue _fun0005;
+case 41:
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
             var3 = 2;
@@ -428,11 +437,11 @@ case 38:
             var3['partySize'] = var9;
             var3['maxPartySize'] = var8;
             var2 = var6.bind(var7)(var5, var3);
-case 40:
-            _fun0005_ip = 41; continue _fun0005;
-case 36:
+case 34:
+            _fun0005_ip = 43; continue _fun0005;
+case 39:
             var3 = 0;
-            if(!(!(var8 > var3))) { _fun0005_ip = 42; continue _fun0005 }
+            if(!(!(var8 > var3))) { _fun0005_ip = 44; continue _fun0005 }
 case 10:
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
@@ -449,8 +458,8 @@ case 10:
             var3 = {};
             var3['partySize'] = var9;
             var3 = var6.bind(var7)(var5, var3);
-            _fun0005_ip = 43; continue _fun0005;
-case 42:
+            _fun0005_ip = 45; continue _fun0005;
+case 44:
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
             var4 = 2;
@@ -467,11 +476,11 @@ case 42:
             var4['partySize'] = var9;
             var4['maxPartySize'] = var8;
             var3 = var6.bind(var7)(var5, var4);
-case 43:
+case 45:
             var2 = var3;
-case 41:
+case 43:
             var1 = var2;
-case 34:
+case 37:
             return var1;
         }
     };

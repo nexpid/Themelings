@@ -260,7 +260,7 @@ case 6:
                     var2 = var2[var8];
                     var4 = var3.bind(var1)(var2);
                     var3 = var4.trackShopPerf;
-                    var2 = {'sessionId': null, 'checkpoint': null, 'tab': null, 'isFullScreen': true, 'unpublishedCategoriesShown': false, 'cacheDisabled': false};
+                    var2 = {};
                     var6 = _closure2_slot1;
                     var9 = var9 == var6;
                     var6 = undefined;
@@ -280,6 +280,9 @@ case 8:
                     var5 = _closure1_slot6;
                     var5 = var5.SHOP_ALL;
                     var2['tab'] = var5;
+                    var5 = false;
+                    var2['unpublishedCategoriesShown'] = var5;
+                    var2['cacheDisabled'] = var5;
                     var2 = var3.bind(var4)(var2);
                     return var1;
                 }

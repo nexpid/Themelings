@@ -113,6 +113,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = 40;
     var9['margin'] = var10;
     var4['collectiblesAsset'] = var9;
+    var9 = {};
+    var10 = 20;
+    var9['margin'] = var10;
+    var4['collectiblesAssetBundle'] = var9;
     var9 = {'marginTop': 20, 'marginBottom': 40};
     var4['giftCardAsset'] = var9;
     var9 = {};
@@ -121,7 +125,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['acceptButton'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot12 = var4;
-    var4 = 36;
+    var4 = 38;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -137,8 +141,8 @@ case 0:
             var _closure2_slot1 = var23;
             var1 = var2.soundId;
             var _closure2_slot2 = var1;
-            var33 = var2.emojiName;
-            var _closure2_slot3 = var33;
+            var40 = var2.emojiName;
+            var _closure2_slot3 = var40;
             var5 = var2.user;
             var _closure2_slot4 = var5;
             var4 = undefined;
@@ -217,7 +221,7 @@ case 2:
             var5 = var6.bind(var4)(var2);
             var3 = var5.useGetOrFetchSubscriptionPlan;
             var2 = var11.subscriptionPlanId;
-            var25 = var3.bind(var5)(var2);
+            var33 = var3.bind(var5)(var2);
             var2 = 13;
             var2 = var7[var2];
             var5 = var6.bind(var4)(var2);
@@ -238,35 +242,66 @@ case 2:
 case 5:
             var2 = var11.skuId;
 case 4:
-            var2 = var3.bind(var5)(var2);
-            var2 = var2.product;
-            var3 = var19 == var2;
-            var22 = undefined;
-            if(var3) { _fun0001_ip = 6; continue _fun0001 }
+            var39 = true;
+            var2 = var3.bind(var5)(var2, var39);
+            var12 = var2.product;
+            var2 = var19 == var12;
+            var25 = undefined;
+            if(var2) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var3 = var2.items;
+            var3 = var12.items;
             var2 = 0;
-            var22 = var3[var2];
+            var25 = var3[var2];
 case 6:
-            var8 = var19 != var23;
-            if(!var8) { _fun0001_ip = 8; continue _fun0001 }
+            var2 = var19 == var12;
+            var6 = undefined;
+            if(var2) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
+            var6 = var12.type;
+case 8:
+            var3 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var32 = 16;
+            var2 = var5[var32];
+            var2 = var3.bind(var4)(var2);
+            var2 = var2.CollectiblesItemType;
+            var2 = var2.BUNDLE;
+            var16 = var6 === var2;
+            var2 = 17;
+            var2 = var5[var2];
+            var5 = var3.bind(var4)(var2);
+            var3 = var5.useShopProductItems;
+            var2 = var12;
+            if(!(var19 == var2)) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
+            var6 = {};
+            var7 = new Array(0);
+            var6['items'] = var7;
+            var2 = var6;
+case 10:
+            var2 = var3.bind(var5)(var2);
+            var28 = var2.firstAvatarDecoration;
+            var27 = var2.firstProfileEffect;
+            var26 = var2.firstNameplate;
+            var8 = var19 != var23;
+            if(!var8) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var3 = var23.length;
             var2 = 0;
             var8 = var3 > var2;
-case 8:
+case 12:
             _closure2_slot9 = var8;
             var5 = _closure1_slot3;
             var6 = var5.useEffect;
             var3 = new Array(4);
             var3[0] = var11;
             var3[1] = var23;
-            var3[2] = var33;
+            var3[2] = var40;
             var3[3] = var1;
             var2 = function() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 16;
+                var1 = 18;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -299,16 +334,16 @@ case 0:
                     var1 = var1.giftStyle;
                     var4 = null;
                     var1 = var4 != var1;
-                    if(!var1) { _fun0002_ip = 10; continue _fun0002 }
-case 11:
+                    if(!var1) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
                     var2 = _closure2_slot2;
                     var1 = var4 != var2;
-case 10:
-                    if(!var1) { _fun0002_ip = 12; continue _fun0002 }
-case 13:
+case 14:
+                    if(!var1) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var1 = 17;
+                    var1 = 19;
                     var2 = var2[var1];
                     var1 = undefined;
                     var3 = var3.bind(var1)(var2);
@@ -319,7 +354,7 @@ case 13:
                     var5 = 1;
                     var1['volume'] = var5;
                     var1 = var2.bind(var3)(var4, var1);
-case 12:
+case 16:
                     var1 = undefined;
                     return var1;
                 }
@@ -328,84 +363,141 @@ case 12:
             var3 = _closure1_slot11;
             var2 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var1 = 18;
+            var1 = 20;
             var1 = var5[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.SafeAreaPaddingView;
             var1 = {};
-            var32 = true;
-            var1['bottom'] = var32;
+            var1['bottom'] = var39;
             var5 = var18.container;
             var1['style'] = var5;
             var6 = _closure1_slot6;
             var5 = {};
-            var12 = var18.body;
+            var14 = var18.body;
             var7 = new Array(2);
-            var7[0] = var12;
-            var12 = undefined;
-            if(!var8) { _fun0001_ip = 14; continue _fun0001 }
-case 15:
-            var12 = var18.bodyWithMessage;
-case 14:
-            var7[1] = var12;
-            var5['contentContainerStyle'] = var7;
-            var7 = false;
-            var5['alwaysBounceVertical'] = var7;
-            var14 = _closure1_slot10;
-            var12 = _closure1_slot0;
-            var7 = _closure1_slot2;
-            var24 = 19;
-            var7 = var7[var24];
-            var7 = var12.bind(var4)(var7);
-            var12 = var7.Text;
-            var7 = {'variant': 'heading-xl/bold', 'color': 'header-primary'};
-            var15 = var18.text;
-            var7['style'] = var15;
-            var15 = var11.isSubscription;
-            if(!var15) { _fun0001_ip = 16; continue _fun0001 }
-case 17:
-            if(!(var19 == var25)) { _fun0001_ip = 18; continue _fun0001 }
-case 16:
-            var16 = _closure1_slot0;
-            var15 = _closure1_slot2;
-            var28 = 20;
-            var15 = var15[var28];
-            var20 = var16.bind(var4)(var15);
-            var16 = var20.match;
-            var15 = {};
-            var27 = var19 == var22;
-            var26 = undefined;
-            if(var27) { _fun0001_ip = 19; continue _fun0001 }
-case 20:
-            var26 = var22.type;
+            var7[0] = var14;
+            var14 = undefined;
+            if(!var8) { _fun0001_ip = 18; continue _fun0001 }
 case 19:
-            var15['type'] = var26;
-            var15['sender'] = var30;
-            var31 = var16.bind(var20)(var15);
-            var26 = var31.with;
+            var14 = var18.bodyWithMessage;
+case 18:
+            var7[1] = var14;
+            var5['contentContainerStyle'] = var7;
+            var29 = false;
+            var5['alwaysBounceVertical'] = var29;
+            var15 = _closure1_slot10;
+            var14 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var24 = 21;
+            var7 = var7[var24];
+            var7 = var14.bind(var4)(var7);
+            var14 = var7.Text;
+            var7 = {'variant': 'heading-xl/bold', 'color': 'header-primary'};
+            var20 = var18.text;
+            var7['style'] = var20;
+            var20 = var11.isSubscription;
+            if(!var20) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
+            if(!(var19 == var33)) { _fun0001_ip = 22; continue _fun0001 }
+case 20:
+            var22 = _closure1_slot0;
+            var20 = _closure1_slot2;
+            var36 = 22;
+            var20 = var20[var36];
+            var31 = var22.bind(var4)(var20);
+            var22 = var31.match;
             var20 = {};
-            var27 = _closure1_slot0;
-            var15 = _closure1_slot2;
-            var29 = 21;
-            var16 = var15[var29];
-            var16 = var27.bind(var4)(var16);
-            var16 = var16.CollectiblesItemType;
-            var16 = var16.AVATAR_DECORATION;
-            var20['type'] = var16;
-            var16 = var15[var28];
-            var16 = var27.bind(var4)(var16);
-            var35 = var16.P;
-            var34 = var35.not;
-            var16 = var15[var28];
-            var16 = var27.bind(var4)(var16);
-            var16 = var16.P;
-            var16 = var16.nullish;
-            var16 = var34.bind(var35)(var16);
-            var20['sender'] = var16;
-            var16 = function() {
+            var35 = var19 == var25;
+            var34 = undefined;
+            if(var35) { _fun0001_ip = 23; continue _fun0001 }
+case 24:
+            var34 = var25.type;
+case 23:
+            var20['type'] = var34;
+            var20['isBundle'] = var16;
+            var20['sender'] = var30;
+            var37 = var22.bind(var31)(var20);
+            var34 = var37.with;
+            var31 = {};
+            var31['isBundle'] = var39;
+            var35 = _closure1_slot0;
+            var20 = _closure1_slot2;
+            var22 = var20[var36];
+            var22 = var35.bind(var4)(var22);
+            var41 = var22.P;
+            var38 = var41.not;
+            var22 = var20[var36];
+            var22 = var35.bind(var4)(var22);
+            var22 = var22.P;
+            var22 = var22.nullish;
+            var22 = var38.bind(var41)(var22);
+            var31['sender'] = var22;
+            var22 = function() {
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var1 = 22;
+                var1 = 23;
+                var3 = var6[var1];
+                var2 = undefined;
+                var3 = var5.bind(var2)(var3);
+                var4 = var3.intl;
+                var3 = var4.formatToPlainString;
+                var1 = var6[var1];
+                var1 = var5.bind(var2)(var1);
+                var1 = var1.t;
+                var2 = var1.JUV1tL;
+                var1 = {};
+                var5 = _closure2_slot7;
+                var1['sender'] = var5;
+                var1 = var3.bind(var4)(var2, var1);
+                return var1;
+            };
+            var37 = var34.bind(var37)(var31, var22);
+            var34 = var37.with;
+            var31 = {};
+            var31['isBundle'] = var39;
+            var22 = var20[var36];
+            var22 = var35.bind(var4)(var22);
+            var22 = var22.P;
+            var22 = var22.nullish;
+            var31['sender'] = var22;
+            var22 = function() {
+                var5 = _closure1_slot0;
+                var6 = _closure1_slot2;
+                var1 = 23;
+                var2 = var6[var1];
+                var4 = undefined;
+                var2 = var5.bind(var4)(var2);
+                var3 = var2.intl;
+                var2 = var3.string;
+                var1 = var6[var1];
+                var1 = var5.bind(var4)(var1);
+                var1 = var1.t;
+                var1 = var1.iJ8829;
+                var1 = var2.bind(var3)(var1);
+                return var1;
+            };
+            var37 = var34.bind(var37)(var31, var22);
+            var34 = var37.with;
+            var31 = {};
+            var22 = var20[var32];
+            var22 = var35.bind(var4)(var22);
+            var22 = var22.CollectiblesItemType;
+            var22 = var22.AVATAR_DECORATION;
+            var31['type'] = var22;
+            var22 = var20[var36];
+            var22 = var35.bind(var4)(var22);
+            var41 = var22.P;
+            var38 = var41.not;
+            var22 = var20[var36];
+            var22 = var35.bind(var4)(var22);
+            var22 = var22.P;
+            var22 = var22.nullish;
+            var22 = var38.bind(var41)(var22);
+            var31['sender'] = var22;
+            var22 = function() {
+                var5 = _closure1_slot0;
+                var6 = _closure1_slot2;
+                var1 = 23;
                 var3 = var6[var1];
                 var2 = undefined;
                 var3 = var5.bind(var2)(var3);
@@ -421,28 +513,28 @@ case 19:
                 var1 = var3.bind(var4)(var2, var1);
                 return var1;
             };
-            var31 = var26.bind(var31)(var20, var16);
-            var26 = var31.with;
-            var20 = {};
-            var16 = var15[var29];
-            var16 = var27.bind(var4)(var16);
-            var16 = var16.CollectiblesItemType;
-            var16 = var16.PROFILE_EFFECT;
-            var20['type'] = var16;
-            var16 = var15[var28];
-            var16 = var27.bind(var4)(var16);
-            var35 = var16.P;
-            var34 = var35.not;
-            var16 = var15[var28];
-            var16 = var27.bind(var4)(var16);
-            var16 = var16.P;
-            var16 = var16.nullish;
-            var16 = var34.bind(var35)(var16);
-            var20['sender'] = var16;
-            var16 = function() {
+            var37 = var34.bind(var37)(var31, var22);
+            var34 = var37.with;
+            var31 = {};
+            var22 = var20[var32];
+            var22 = var35.bind(var4)(var22);
+            var22 = var22.CollectiblesItemType;
+            var22 = var22.PROFILE_EFFECT;
+            var31['type'] = var22;
+            var22 = var20[var36];
+            var22 = var35.bind(var4)(var22);
+            var41 = var22.P;
+            var38 = var41.not;
+            var22 = var20[var36];
+            var22 = var35.bind(var4)(var22);
+            var22 = var22.P;
+            var22 = var22.nullish;
+            var22 = var38.bind(var41)(var22);
+            var31['sender'] = var22;
+            var22 = function() {
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var1 = 22;
+                var1 = 23;
                 var3 = var6[var1];
                 var2 = undefined;
                 var3 = var5.bind(var2)(var3);
@@ -458,28 +550,28 @@ case 19:
                 var1 = var3.bind(var4)(var2, var1);
                 return var1;
             };
-            var31 = var26.bind(var31)(var20, var16);
-            var26 = var31.with;
-            var20 = {};
-            var16 = var15[var29];
-            var16 = var27.bind(var4)(var16);
-            var16 = var16.CollectiblesItemType;
-            var16 = var16.NAMEPLATE;
-            var20['type'] = var16;
-            var16 = var15[var28];
-            var16 = var27.bind(var4)(var16);
-            var35 = var16.P;
-            var34 = var35.not;
-            var16 = var15[var28];
-            var16 = var27.bind(var4)(var16);
-            var16 = var16.P;
-            var16 = var16.nullish;
-            var16 = var34.bind(var35)(var16);
-            var20['sender'] = var16;
-            var16 = function() {
+            var37 = var34.bind(var37)(var31, var22);
+            var34 = var37.with;
+            var31 = {};
+            var22 = var20[var32];
+            var22 = var35.bind(var4)(var22);
+            var22 = var22.CollectiblesItemType;
+            var22 = var22.NAMEPLATE;
+            var31['type'] = var22;
+            var22 = var20[var36];
+            var22 = var35.bind(var4)(var22);
+            var41 = var22.P;
+            var38 = var41.not;
+            var22 = var20[var36];
+            var22 = var35.bind(var4)(var22);
+            var22 = var22.P;
+            var22 = var22.nullish;
+            var22 = var38.bind(var41)(var22);
+            var31['sender'] = var22;
+            var22 = function() {
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var1 = 22;
+                var1 = 23;
                 var3 = var6[var1];
                 var2 = undefined;
                 var3 = var5.bind(var2)(var3);
@@ -495,23 +587,23 @@ case 19:
                 var1 = var3.bind(var4)(var2, var1);
                 return var1;
             };
-            var31 = var26.bind(var31)(var20, var16);
-            var26 = var31.with;
-            var20 = {};
-            var16 = var15[var29];
-            var16 = var27.bind(var4)(var16);
-            var16 = var16.CollectiblesItemType;
-            var16 = var16.AVATAR_DECORATION;
-            var20['type'] = var16;
-            var16 = var15[var28];
-            var16 = var27.bind(var4)(var16);
-            var16 = var16.P;
-            var16 = var16.nullish;
-            var20['sender'] = var16;
-            var16 = function() {
+            var37 = var34.bind(var37)(var31, var22);
+            var34 = var37.with;
+            var31 = {};
+            var22 = var20[var32];
+            var22 = var35.bind(var4)(var22);
+            var22 = var22.CollectiblesItemType;
+            var22 = var22.AVATAR_DECORATION;
+            var31['type'] = var22;
+            var22 = var20[var36];
+            var22 = var35.bind(var4)(var22);
+            var22 = var22.P;
+            var22 = var22.nullish;
+            var31['sender'] = var22;
+            var22 = function() {
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var1 = 22;
+                var1 = 23;
                 var2 = var6[var1];
                 var4 = undefined;
                 var2 = var5.bind(var4)(var2);
@@ -524,23 +616,23 @@ case 19:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var31 = var26.bind(var31)(var20, var16);
-            var26 = var31.with;
-            var20 = {};
-            var16 = var15[var29];
-            var16 = var27.bind(var4)(var16);
-            var16 = var16.CollectiblesItemType;
-            var16 = var16.PROFILE_EFFECT;
-            var20['type'] = var16;
-            var16 = var15[var28];
-            var16 = var27.bind(var4)(var16);
-            var16 = var16.P;
-            var16 = var16.nullish;
-            var20['sender'] = var16;
-            var16 = function() {
+            var37 = var34.bind(var37)(var31, var22);
+            var34 = var37.with;
+            var31 = {};
+            var22 = var20[var32];
+            var22 = var35.bind(var4)(var22);
+            var22 = var22.CollectiblesItemType;
+            var22 = var22.PROFILE_EFFECT;
+            var31['type'] = var22;
+            var22 = var20[var36];
+            var22 = var35.bind(var4)(var22);
+            var22 = var22.P;
+            var22 = var22.nullish;
+            var31['sender'] = var22;
+            var22 = function() {
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var1 = 22;
+                var1 = 23;
                 var2 = var6[var1];
                 var4 = undefined;
                 var2 = var5.bind(var4)(var2);
@@ -553,23 +645,23 @@ case 19:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var26 = var26.bind(var31)(var20, var16);
-            var20 = var26.with;
-            var16 = {};
-            var29 = var15[var29];
-            var29 = var27.bind(var4)(var29);
-            var29 = var29.CollectiblesItemType;
-            var29 = var29.NAMEPLATE;
-            var16['type'] = var29;
-            var15 = var15[var28];
-            var15 = var27.bind(var4)(var15);
-            var15 = var15.P;
-            var15 = var15.nullish;
-            var16['sender'] = var15;
-            var15 = function() {
+            var34 = var34.bind(var37)(var31, var22);
+            var31 = var34.with;
+            var22 = {};
+            var37 = var20[var32];
+            var37 = var35.bind(var4)(var37);
+            var37 = var37.CollectiblesItemType;
+            var37 = var37.NAMEPLATE;
+            var22['type'] = var37;
+            var20 = var20[var36];
+            var20 = var35.bind(var4)(var20);
+            var20 = var20.P;
+            var20 = var20.nullish;
+            var22['sender'] = var20;
+            var20 = function() {
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var1 = 22;
+                var1 = 23;
                 var2 = var6[var1];
                 var4 = undefined;
                 var2 = var5.bind(var4)(var2);
@@ -582,12 +674,12 @@ case 19:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var20 = var20.bind(var26)(var16, var15);
-            var16 = var20.otherwise;
-            var15 = function() {
+            var31 = var31.bind(var34)(var22, var20);
+            var22 = var31.otherwise;
+            var20 = function() {
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var1 = 22;
+                var1 = 23;
                 var2 = var6[var1];
                 var4 = undefined;
                 var2 = var5.bind(var4)(var2);
@@ -600,91 +692,98 @@ case 19:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var15 = var16.bind(var20)(var15);
-            _fun0001_ip = 21; continue _fun0001;
-case 18:
-            var20 = _closure1_slot0;
-            var26 = _closure1_slot2;
-            var16 = 16;
-            var16 = var26[var16];
-            var20 = var20.bind(var4)(var16);
-            var16 = var20.getSubscriptionGiftStartHeaderText;
-            var15 = var16.bind(var20)(var25, var30);
-case 21:
-            var7['children'] = var15;
-            var12 = var14.bind(var4)(var12, var7);
-            var7 = new Array(4);
-            var7[0] = var12;
-            var15 = _closure1_slot10;
-            var14 = _closure1_slot5;
-            var12 = {};
-            var16 = var18.imageWrapper;
-            var12['style'] = var16;
-            var16 = var19 != var33;
-            if(!var16) { _fun0001_ip = 22; continue _fun0001 }
-case 23:
-            var26 = _closure1_slot10;
-            var25 = _closure1_slot4;
-            var20 = {};
-            var28 = _closure1_slot0;
-            var34 = _closure1_slot2;
-            var27 = 23;
-            var27 = var34[var27];
-            var27 = var28.bind(var4)(var27);
-            var20['source'] = var27;
-            var27 = var18.confettiBackground;
-            var20['style'] = var27;
-            var28 = _closure1_slot5;
-            var27 = {};
-            var29 = var18.emojiContainer;
-            var27['style'] = var29;
-            var31 = _closure1_slot1;
-            var29 = 24;
-            var29 = var34[var29];
-            var31 = var31.bind(var4)(var29);
-            var29 = {};
-            var29['emojiName'] = var33;
-            var29['randomizeSizing'] = var32;
-            var29 = var26.bind(var4)(var31, var29);
-            var27['children'] = var29;
-            var27 = var26.bind(var4)(var28, var27);
-            var20['children'] = var27;
-            var16 = var26.bind(var4)(var25, var20);
+            var20 = var22.bind(var31)(var20);
+            _fun0001_ip = 25; continue _fun0001;
 case 22:
-            var12['children'] = var16;
-            var12 = var15.bind(var4)(var14, var12);
-            var7[1] = var12;
-            if(!(var19 == var22)) { _fun0001_ip = 24; continue _fun0001 }
+            var31 = _closure1_slot0;
+            var34 = _closure1_slot2;
+            var22 = 18;
+            var22 = var34[var22];
+            var31 = var31.bind(var4)(var22);
+            var22 = var31.getSubscriptionGiftStartHeaderText;
+            var20 = var22.bind(var31)(var33, var30);
 case 25:
-            if(!(var19 != var21)) { _fun0001_ip = 24; continue _fun0001 }
+            var7['children'] = var20;
+            var14 = var15.bind(var4)(var14, var7);
+            var7 = new Array(4);
+            var7[0] = var14;
+            var20 = _closure1_slot10;
+            var15 = _closure1_slot5;
+            var14 = {};
+            var22 = var18.imageWrapper;
+            var14['style'] = var22;
+            var22 = var19 != var40;
+            if(!var22) { _fun0001_ip = 26; continue _fun0001 }
+case 27:
+            var34 = _closure1_slot10;
+            var33 = _closure1_slot4;
+            var31 = {};
+            var36 = _closure1_slot0;
+            var41 = _closure1_slot2;
+            var35 = 24;
+            var35 = var41[var35];
+            var35 = var36.bind(var4)(var35);
+            var31['source'] = var35;
+            var35 = var18.confettiBackground;
+            var31['style'] = var35;
+            var36 = _closure1_slot5;
+            var35 = {};
+            var37 = var18.emojiContainer;
+            var35['style'] = var37;
+            var38 = _closure1_slot1;
+            var37 = 25;
+            var37 = var41[var37];
+            var38 = var38.bind(var4)(var37);
+            var37 = {};
+            var37['emojiName'] = var40;
+            var37['randomizeSizing'] = var39;
+            var37 = var34.bind(var4)(var38, var37);
+            var35['children'] = var37;
+            var35 = var34.bind(var4)(var36, var35);
+            var31['children'] = var35;
+            var22 = var34.bind(var4)(var33, var31);
 case 26:
-            var12 = var11.giftStyle;
-            if(!(var19 != var12)) { _fun0001_ip = 27; continue _fun0001 }
-case 24:
+            var14['children'] = var22;
+            var14 = var20.bind(var4)(var15, var14);
+            var7[1] = var14;
+            if(!(var19 == var25)) { _fun0001_ip = 28; continue _fun0001 }
+case 29:
+            if(!(var19 != var21)) { _fun0001_ip = 28; continue _fun0001 }
+case 30:
+            var14 = var11.giftStyle;
+            if(!(var19 != var14)) { _fun0001_ip = 31; continue _fun0001 }
+case 28:
             var15 = _closure1_slot10;
             var14 = _closure1_slot5;
+            if(!var16) { _fun0001_ip = 32; continue _fun0001 }
+case 33:
+            if(!(var19 != var12)) { _fun0001_ip = 32; continue _fun0001 }
+case 34:
+            if(!(var19 != var28)) { _fun0001_ip = 32; continue _fun0001 }
+case 35:
+            if(!(var19 == var27)) { _fun0001_ip = 36; continue _fun0001 }
+case 32:
             var12 = {};
             var16 = var11.isSubscription;
-            if(var16) { _fun0001_ip = 28; continue _fun0001 }
-case 29:
+            if(var16) { _fun0001_ip = 37; continue _fun0001 }
+case 38:
             var16 = var18.collectiblesAsset;
-            _fun0001_ip = 30; continue _fun0001;
-case 28:
+            _fun0001_ip = 39; continue _fun0001;
+case 37:
             var16 = var18.giftCardAsset;
-case 30:
+case 39:
             var12['style'] = var16;
-            var26 = _closure1_slot0;
-            var27 = _closure1_slot2;
-            var16 = 20;
-            var16 = var27[var16];
-            var20 = var26.bind(var4)(var16);
-            var16 = var20.match;
-            var28 = var16.bind(var20)(var22);
-            var25 = var28.with;
+            var31 = _closure1_slot0;
+            var16 = _closure1_slot2;
+            var20 = 22;
+            var20 = var16[var20];
+            var22 = var31.bind(var4)(var20);
+            var20 = var22.match;
+            var33 = var20.bind(var22)(var25);
+            var25 = var33.with;
             var22 = {};
-            var16 = 21;
-            var20 = var27[var16];
-            var20 = var26.bind(var4)(var20);
+            var20 = var16[var32];
+            var20 = var31.bind(var4)(var20);
             var20 = var20.CollectiblesItemType;
             var20 = var20.AVATAR_DECORATION;
             var22['type'] = var20;
@@ -692,7 +791,7 @@ case 30:
                 var4 = _closure1_slot10;
                 var2 = _closure1_slot1;
                 var8 = _closure1_slot2;
-                var6 = 26;
+                var6 = 28;
                 var1 = var8[var6];
                 var3 = undefined;
                 var2 = var2.bind(var3)(var1);
@@ -700,7 +799,7 @@ case 30:
                 var12 = _closure2_slot4;
                 var11 = var12.getAvatarSource;
                 var7 = _closure1_slot0;
-                var5 = 27;
+                var5 = 29;
                 var5 = var8[var5];
                 var5 = var7.bind(var3)(var5);
                 var9 = var5.AVATAR_SIZE_MAP;
@@ -724,11 +823,11 @@ case 30:
                 var1 = var4.bind(var3)(var2, var1);
                 return var1;
             };
-            var28 = var25.bind(var28)(var22, var20);
-            var25 = var28.with;
+            var33 = var25.bind(var33)(var22, var20);
+            var25 = var33.with;
             var22 = {};
-            var20 = var27[var16];
-            var20 = var26.bind(var4)(var20);
+            var20 = var16[var32];
+            var20 = var31.bind(var4)(var20);
             var20 = var20.CollectiblesItemType;
             var20 = var20.PROFILE_EFFECT;
             var22['type'] = var20;
@@ -742,12 +841,12 @@ case 30:
                 var8 = _closure1_slot10;
                 var7 = _closure1_slot1;
                 var9 = _closure1_slot2;
-                var1 = 28;
+                var1 = 30;
                 var5 = var9[var1];
                 var1 = undefined;
                 var6 = var7.bind(var1)(var5);
                 var5 = {};
-                var11 = 29;
+                var11 = 31;
                 var11 = var9[var11];
                 var11 = var7.bind(var1)(var11);
                 var5['source'] = var11;
@@ -758,7 +857,7 @@ case 30:
                 var6 = var8.bind(var1)(var6, var5);
                 var5 = new Array(2);
                 var5[0] = var6;
-                var6 = 30;
+                var6 = 32;
                 var6 = var9[var6];
                 var7 = var7.bind(var1)(var6);
                 var6 = {};
@@ -773,11 +872,11 @@ case 30:
                 var1 = var4.bind(var1)(var3, var2);
                 return var1;
             };
-            var25 = var25.bind(var28)(var22, var20);
+            var25 = var25.bind(var33)(var22, var20);
             var22 = var25.with;
             var20 = {};
-            var16 = var27[var16];
-            var16 = var26.bind(var4)(var16);
+            var16 = var16[var32];
+            var16 = var31.bind(var4)(var16);
             var16 = var16.CollectiblesItemType;
             var16 = var16.NAMEPLATE;
             var20['type'] = var16;
@@ -794,17 +893,17 @@ case 0:
                     var9 = _closure2_slot9;
                     var1 = undefined;
                     var7 = undefined;
-                    if(var9) { _fun0003_ip = 31; continue _fun0003 }
-case 32:
+                    if(var9) { _fun0003_ip = 40; continue _fun0003 }
+case 41:
                     var9 = _closure2_slot5;
                     var7 = var9.nameplateContainerOffCenter;
-case 31:
+case 40:
                     var6[1] = var7;
                     var2['style'] = var6;
                     var7 = _closure1_slot10;
                     var6 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var5 = 31;
+                    var5 = 33;
                     var5 = var9[var5];
                     var5 = var6.bind(var1)(var5);
                     var6 = var5.NameplatePreview;
@@ -825,7 +924,7 @@ case 31:
                 var4 = _closure1_slot10;
                 var2 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var1 = 32;
+                var1 = 34;
                 var1 = var3[var1];
                 var3 = undefined;
                 var2 = var2.bind(var3)(var1);
@@ -838,13 +937,35 @@ case 31:
             };
             var16 = var20.bind(var22)(var16);
             var12['children'] = var16;
+            _fun0001_ip = 42; continue _fun0001;
+case 36:
+            var16 = {};
+            var20 = var18.collectiblesAssetBundle;
+            var16['style'] = var20;
+            var25 = _closure1_slot10;
+            var22 = _closure1_slot1;
+            var31 = _closure1_slot2;
+            var20 = 27;
+            var20 = var31[var20];
+            var22 = var22.bind(var4)(var20);
+            var20 = {};
+            var20['isPurchased'] = var29;
+            var20['deco'] = var28;
+            var20['pfx'] = var27;
+            var20['nameplate'] = var26;
+            var26 = 'large';
+            var20['size'] = var26;
+            var20 = var25.bind(var4)(var22, var20);
+            var16['children'] = var20;
+            var12 = var16;
+case 42:
             var12 = var15.bind(var4)(var14, var12);
-            _fun0001_ip = 33; continue _fun0001;
-case 27:
+            _fun0001_ip = 43; continue _fun0001;
+case 31:
             var16 = _closure1_slot10;
             var15 = _closure1_slot1;
             var22 = _closure1_slot2;
-            var20 = 25;
+            var20 = 26;
             var14 = var22[var20];
             var15 = var15.bind(var4)(var14);
             var14 = {};
@@ -858,10 +979,10 @@ case 27:
             var20 = var11.skuId;
             var14['skuId'] = var20;
             var12 = var16.bind(var4)(var15, var14);
-case 33:
+case 43:
             var7[2] = var12;
-            if(!var8) { _fun0001_ip = 34; continue _fun0001 }
-case 35:
+            if(!var8) { _fun0001_ip = 44; continue _fun0001 }
+case 45:
             var15 = _closure1_slot11;
             var14 = _closure1_slot5;
             var12 = {};
@@ -876,7 +997,7 @@ case 35:
             var16 = {'variant': 'eyebrow', 'color': 'text-normal'};
             var26 = var18.text;
             var16['style'] = var26;
-            var26 = 22;
+            var26 = 23;
             var27 = var20[var26];
             var27 = var21.bind(var4)(var27);
             var29 = var27.intl;
@@ -900,10 +1021,10 @@ case 35:
             var24 = 110;
             var25 = var25 > var24;
             var24 = 'heading-xxl/semibold';
-            if(!var25) { _fun0001_ip = 36; continue _fun0001 }
-case 37:
+            if(!var25) { _fun0001_ip = 46; continue _fun0001 }
+case 47:
             var24 = 'heading-xl/semibold';
-case 36:
+case 46:
             var20['variant'] = var24;
             var24 = var18.text;
             var20['style'] = var24;
@@ -912,7 +1033,7 @@ case 36:
             var16[1] = var20;
             var12['children'] = var16;
             var8 = var15.bind(var4)(var14, var12);
-case 34:
+case 44:
             var7[3] = var8;
             var5['children'] = var7;
             var6 = var3.bind(var4)(var6, var5);
@@ -927,20 +1048,20 @@ case 34:
             var12 = _closure1_slot10;
             var15 = _closure1_slot1;
             var16 = _closure1_slot2;
-            var14 = 33;
+            var14 = 35;
             var11 = var16[var14];
             var11 = var15.bind(var4)(var11);
-            if(var20) { _fun0001_ip = 38; continue _fun0001 }
-case 39:
-            if(!(var19 == var9)) { _fun0001_ip = 40; continue _fun0001 }
-case 41:
+            if(var20) { _fun0001_ip = 48; continue _fun0001 }
+case 49:
+            if(!(var19 == var9)) { _fun0001_ip = 50; continue _fun0001 }
+case 51:
             var9 = {};
             var19 = var18.acceptButton;
             var9['textStyle'] = var19;
             var9['disabled'] = var10;
             var22 = _closure1_slot0;
             var23 = _closure1_slot2;
-            var19 = 22;
+            var19 = 23;
             var20 = var23[var19];
             var20 = var22.bind(var4)(var20);
             var21 = var20.intl;
@@ -948,15 +1069,15 @@ case 41:
             var19 = var23[var19];
             var19 = var22.bind(var4)(var19);
             var19 = var19.t;
-            if(var10) { _fun0001_ip = 42; continue _fun0001 }
-case 43:
+            if(var10) { _fun0001_ip = 52; continue _fun0001 }
+case 53:
             var10 = var19.3nWhcH;
             var10 = var20.bind(var21)(var10);
-            _fun0001_ip = 44; continue _fun0001;
-case 42:
+            _fun0001_ip = 54; continue _fun0001;
+case 52:
             var19 = var19.rTeOBA;
             var10 = var20.bind(var21)(var19);
-case 44:
+case 54:
             var9['text'] = var10;
             var19 = _closure1_slot1;
             var10 = _closure1_slot2;
@@ -973,7 +1094,7 @@ case 44:
             var10 = function onPress() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 35;
+                var1 = 37;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -985,7 +1106,7 @@ case 44:
                 var6 = function onRedeemed() {
                     var3 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var1 = 16;
+                    var1 = 18;
                     var4 = var7[var1];
                     var1 = undefined;
                     var8 = var3.bind(var1)(var4);
@@ -1005,7 +1126,7 @@ case 44:
                     var4 = var5.bind(var8)(var4);
                     var5 = _closure2_slot6;
                     var4 = var5.push;
-                    var2 = 34;
+                    var2 = 36;
                     var2 = var7[var2];
                     var2 = var3.bind(var1)(var2);
                     var2 = var2.GiftCodeModalScreens;
@@ -1019,7 +1140,7 @@ case 44:
                 var5 = function onError(arg1) {
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var7 = 16;
+                    var7 = 18;
                     var2 = var9[var7];
                     var1 = undefined;
                     var4 = var8.bind(var1)(var2);
@@ -1039,7 +1160,7 @@ case 44:
                     var2 = var3.bind(var4)(var2);
                     var5 = _closure2_slot6;
                     var4 = var5.push;
-                    var2 = 34;
+                    var2 = 36;
                     var2 = var9[var2];
                     var2 = var8.bind(var1)(var2);
                     var2 = var2.GiftCodeModalScreens;
@@ -1060,14 +1181,14 @@ case 44:
                 return var1;
             };
             var9['onPress'] = var10;
-            _fun0001_ip = 45; continue _fun0001;
-case 40:
+            _fun0001_ip = 55; continue _fun0001;
+case 50:
             var10 = {};
             var18 = var18.acceptButton;
             var10['textStyle'] = var18;
             var22 = _closure1_slot0;
             var18 = _closure1_slot2;
-            var19 = 22;
+            var19 = 23;
             var20 = var18[var19];
             var20 = var22.bind(var4)(var20);
             var21 = var20.intl;
@@ -1092,7 +1213,7 @@ case 40:
             var18 = function onPress() {
                 var3 = _closure1_slot0;
                 var7 = _closure1_slot2;
-                var1 = 16;
+                var1 = 18;
                 var2 = var7[var1];
                 var1 = undefined;
                 var5 = var3.bind(var1)(var2);
@@ -1112,7 +1233,7 @@ case 40:
                 var2 = var4.bind(var5)(var2);
                 var5 = _closure2_slot6;
                 var4 = var5.push;
-                var2 = 34;
+                var2 = 36;
                 var2 = var7[var2];
                 var2 = var3.bind(var1)(var2);
                 var2 = var2.GiftCodeModalScreens;
@@ -1125,13 +1246,13 @@ case 40:
             };
             var10['onPress'] = var18;
             var9 = var10;
-case 45:
+case 55:
             var9 = var12.bind(var4)(var11, var9);
-            _fun0001_ip = 46; continue _fun0001;
-case 38:
+            _fun0001_ip = 56; continue _fun0001;
+case 48:
             var10 = {};
             var20 = _closure1_slot0;
-            var17 = 22;
+            var17 = 23;
             var18 = var16[var17];
             var18 = var20.bind(var4)(var18);
             var19 = var18.intl;
@@ -1157,7 +1278,7 @@ case 38:
                 var3 = var4.push;
                 var6 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 34;
+                var1 = 36;
                 var2 = var2[var1];
                 var1 = undefined;
                 var1 = var6.bind(var1)(var2);
@@ -1171,7 +1292,7 @@ case 38:
             };
             var10['onPress'] = var13;
             var9 = var12.bind(var4)(var11, var10);
-case 46:
+case 56:
             var6['children'] = var9;
             var6 = var8.bind(var4)(var7, var6);
             var5[1] = var6;

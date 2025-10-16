@@ -39,18 +39,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/age_assurance/hooks/useAgeVerificationMethods.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function useAgeVerificationMethods(arg1, arg2) {
+    var2 = function useAgeVerificationMethods(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var2 = arg2;
-            var _closure2_slot0 = var2;
+            var2 = arg1;
+            var10 = var2.onClose;
+            var3 = var2.onMethodClick;
+            var _closure2_slot0 = var3;
+            var9 = var2.classificationId;
             var7 = _closure1_slot0;
             var8 = _closure1_slot1;
             var2 = 4;
             var2 = var8[var2];
             var3 = undefined;
-            var9 = var7.bind(var3)(var2);
-            var6 = var9.useStateFromStoresObject;
+            var11 = var7.bind(var3)(var2);
+            var6 = var11.useStateFromStoresObject;
             var2 = _closure1_slot4;
             var5 = new Array(1);
             var5[0] = var2;
@@ -63,7 +66,7 @@ case 0:
                 var1['loading'] = var2;
                 return var1;
             };
-            var2 = var6.bind(var9)(var5, var2);
+            var2 = var6.bind(var11)(var5, var2);
             var6 = var2.methods;
             var _closure2_slot1 = var6;
             var2 = var2.loading;
@@ -72,10 +75,10 @@ case 0:
             var8 = var7.bind(var3)(var5);
             var7 = var8.useInitiateAgeVerification;
             var5 = {};
-            var9 = arg1;
-            var5['onComplete'] = var9;
-            var9 = true;
-            var5['shouldShowExpressiveModal'] = var9;
+            var5['onComplete'] = var10;
+            var10 = true;
+            var5['shouldShowExpressiveModal'] = var10;
+            var5['classificationId'] = var9;
             var5 = var7.bind(var8)(var5);
             var5 = var5.initiateAgeVerification;
             var _closure2_slot2 = var5;

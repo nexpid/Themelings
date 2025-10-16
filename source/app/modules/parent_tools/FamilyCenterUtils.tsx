@@ -606,7 +606,7 @@ case 47:
         }
     };
     var3['getFamilyCenterV2String'] = var4;
-    var2 = function() {
+    var4 = function() {
         _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
             var3 = _closure1_slot3;
@@ -657,6 +657,79 @@ case 52:
             return var1;
         }
     };
-    var3['isParentallyControlled'] = var2;
+    var3['isParentallyControlled'] = var4;
+    var2 = function(arg1, arg2) {
+        _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
+case 0:
+            var7 = arg1;
+            var6 = arg2;
+            var1 = 0;
+            if(!(var6 > var1)) { _fun0015_ip = 54; continue _fun0015 }
+case 55:
+            if(!(var1 !== var7)) { _fun0015_ip = 56; continue _fun0015 }
+case 54:
+            if(!(var7 > var1)) { _fun0015_ip = 57; continue _fun0015 }
+case 58:
+            if(!(var1 !== var6)) { _fun0015_ip = 59; continue _fun0015 }
+case 57:
+            var3 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var2 = 3;
+            var2 = var8[var2];
+            var5 = undefined;
+            var2 = var3.bind(var5)(var2);
+            var4 = var2.intl;
+            var3 = var4.formatToPlainString;
+            var2 = _closure1_slot1;
+            var1 = 4;
+            var1 = var8[var1];
+            var1 = var2.bind(var5)(var1);
+            var2 = var1.IYqGMD;
+            var1 = {};
+            var1['messageCount'] = var7;
+            var1['callCount'] = var6;
+            var1 = var3.bind(var4)(var2, var1);
+            _fun0015_ip = 60; continue _fun0015;
+case 59:
+            var4 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var3 = 3;
+            var3 = var9[var3];
+            var8 = undefined;
+            var3 = var4.bind(var8)(var3);
+            var5 = var3.intl;
+            var4 = var5.formatToPlainString;
+            var3 = _closure1_slot1;
+            var2 = 4;
+            var2 = var9[var2];
+            var2 = var3.bind(var8)(var2);
+            var3 = var2.6X1F0t;
+            var2 = {};
+            var2['messageCount'] = var7;
+            var1 = var4.bind(var5)(var3, var2);
+case 60:
+            _fun0015_ip = 61; continue _fun0015;
+case 56:
+            var4 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var3 = 3;
+            var3 = var8[var3];
+            var7 = undefined;
+            var3 = var4.bind(var7)(var3);
+            var5 = var3.intl;
+            var4 = var5.formatToPlainString;
+            var3 = _closure1_slot1;
+            var2 = 4;
+            var2 = var8[var2];
+            var2 = var3.bind(var7)(var2);
+            var3 = var2.L/Cj7e;
+            var2 = {};
+            var2['callCount'] = var6;
+            var1 = var4.bind(var5)(var3, var2);
+case 61:
+            return var1;
+        }
+    };
+    var3['getTopUserOrGuildDescription'] = var2;
     return var1;
 })();
