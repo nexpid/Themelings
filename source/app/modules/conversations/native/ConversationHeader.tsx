@@ -274,7 +274,7 @@ case 9:
             var21 = var12[var21];
             var21 = var22.bind(var5)(var21);
             var21 = var21.colors;
-            var21 = var21.HEADER_PRIMARY;
+            var21 = var21.INTERACTIVE_NORMAL;
             var16['color'] = var21;
             var16['size'] = var19;
             var16 = var9.bind(var5)(var17, var16);

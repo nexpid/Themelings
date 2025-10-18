@@ -848,8 +848,8 @@ case 70:
 case 0:
             var1 = arg1;
             var2 = null;
-            if(!(var2 !== var1)) { _fun0013_ip = 71; continue _fun0013 }
-case 72:
+            if(!(var2 !== var1)) { _fun0013_ip = 5; continue _fun0013 }
+case 71:
             var3 = var1.guild_id;
             var2 = _closure1_slot3;
             var1 = var2.getGuild;
@@ -857,7 +857,7 @@ case 72:
             var1 = undefined;
             var1 = var1 !== var2;
             return var1;
-case 71:
+case 5:
             var1 = false;
             return var1;
         }

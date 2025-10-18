@@ -203,6 +203,8 @@ case 2:
             var2 = _closure1_slot5;
             var1 = {};
             var1['style'] = var5;
+            var5 = false;
+            var1['collapsable'] = var5;
             var6 = _closure1_slot12;
             var5 = {};
             var7 = var9.container;

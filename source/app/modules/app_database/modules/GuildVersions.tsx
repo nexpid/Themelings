@@ -514,12 +514,12 @@ case 52:
                 var11 = var12.getGuild;
                 var10 = var2.id;
                 var10 = var11.bind(var12)(var10);
-                if(!(var7 == var10)) { _fun0005_ip = 54; continue _fun0005 }
-case 13:
+                if(!(var7 == var10)) { _fun0005_ip = 47; continue _fun0005 }
+case 54:
                 var10 = var3.remove;
                 var2 = var2.id;
                 var2 = var10.bind(var3)(var2, var4);
-case 54:
+case 47:
                 var10 = var8.bind(var1)();
                 var2 = var10.done;
                 var5 = var10;

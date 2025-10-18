@@ -175,6 +175,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['HOME'] = var2;
     var2 = 'End';
     var4['END'] = var2;
+    var2 = 'Backspace';
+    var4['BACKSPACE'] = var2;
+    var2 = ',';
+    var4['COMMA'] = var2;
     var2 = {};
     var2['Left'] = var13;
     var17 = 'Left';

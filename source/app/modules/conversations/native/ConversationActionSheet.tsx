@@ -49,7 +49,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 'modules/conversations/native/ConversationActionSheet.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function ConversationActionSheet(arg1) {
-        var5 = arg1;
         var1 = _closure1_slot4;
         var4 = undefined;
         var9 = var1.bind(var4)();
@@ -61,12 +60,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var10.bind(var4)(var1);
         var2 = var1.ConversationProvider;
         var1 = {};
-        var6 = var5.conversationProps;
-        var1['conversationProps'] = var6;
-        var6 = var5.MediaComponent;
-        var1['MediaComponent'] = var6;
-        var5 = var5.trackItemInteraction;
-        var1['trackItemInteraction'] = var5;
+        var5 = arg1;
+        var5 = var5.conversationProps;
+        var1['conversationProps'] = var5;
         var5 = 5;
         var5 = var11[var5];
         var5 = var10.bind(var4)(var5);

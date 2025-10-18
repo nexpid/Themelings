@@ -264,20 +264,20 @@ case 0:
                         var2 = var2.bind(var3)(var4);
                         var5 = null;
                         if(!(var5 != var2)) { _fun0005_ip = 24; continue _fun0005 }
-case 9:
+case 25:
                         var6 = var2.features;
                         var3 = var6.has;
                         var2 = _closure1_slot11;
                         var2 = var2.GUILD_ONBOARDING;
                         var2 = var3.bind(var6)(var2);
                         if(!var2) { _fun0005_ip = 24; continue _fun0005 }
-case 25:
+case 26:
                         var3 = _closure1_slot8;
                         var2 = var3.getSelfMember;
                         var3 = var2.bind(var3)(var4);
                         var2 = var5 != var3;
-                        if(!var2) { _fun0005_ip = 26; continue _fun0005 }
-case 27:
+                        if(!var2) { _fun0005_ip = 27; continue _fun0005 }
+case 28:
                         var8 = _closure1_slot0;
                         var7 = _closure1_slot2;
                         var6 = 11;
@@ -288,17 +288,17 @@ case 27:
                         var6 = var3.flags;
                         var10 = var5 != var6;
                         var7 = 0;
-                        if(!var10) { _fun0005_ip = 28; continue _fun0005 }
-case 29:
+                        if(!var10) { _fun0005_ip = 29; continue _fun0005 }
+case 30:
                         var7 = var6;
-case 28:
+case 29:
                         var6 = _closure1_slot12;
                         var6 = var6.COMPLETED_ONBOARDING;
                         var6 = var8.bind(var9)(var7, var6);
                         var2 = !var6;
-case 26:
-                        if(!var2) { _fun0005_ip = 30; continue _fun0005 }
-case 31:
+case 27:
+                        if(!var2) { _fun0005_ip = 31; continue _fun0005 }
+case 32:
                         var8 = _closure1_slot0;
                         var7 = _closure1_slot2;
                         var6 = 11;
@@ -309,16 +309,16 @@ case 31:
                         var3 = var3.flags;
                         var8 = var5 != var3;
                         var5 = 0;
-                        if(!var8) { _fun0005_ip = 32; continue _fun0005 }
-case 33:
+                        if(!var8) { _fun0005_ip = 33; continue _fun0005 }
+case 34:
                         var5 = var3;
-case 32:
+case 33:
                         var3 = _closure1_slot12;
                         var3 = var3.STARTED_ONBOARDING;
                         var2 = var6.bind(var7)(var5, var3);
-case 30:
+case 31:
                         if(!var2) { _fun0005_ip = 24; continue _fun0005 }
-case 34:
+case 35:
                         var2 = _closure1_slot1;
                         var3 = _closure1_slot2;
                         var1 = 10;

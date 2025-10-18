@@ -39,7 +39,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot7 = var4;
     var4 = {'ignoreMute': false, 'ignoreUnreadSetting': true, 'ignoreNotificationSetting': false};
     var _closure1_slot8 = var4;
-    var4 = 10;
+    var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -253,72 +253,30 @@ case 16:
         }
     };
     var3['filterOverrides'] = var4;
-    var4 = function useShouldUseNewNotificationSystem(arg1) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
-case 0:
-            var4 = _closure1_slot0;
-            var5 = _closure1_slot3;
-            var2 = 8;
-            var2 = var5[var2];
-            var3 = undefined;
-            var7 = var4.bind(var3)(var2);
-            var6 = var7.useStateFromStores;
-            var1 = _closure1_slot4;
-            var2 = new Array(1);
-            var2[0] = var1;
-            var1 = function() {
-                var1 = _closure1_slot4;
-                var1 = var1.useNewNotifications;
-                return var1;
-            };
-            var2 = var6.bind(var7)(var2, var1);
-            var1 = 9;
-            var1 = var5[var1];
-            var1 = var4.bind(var3)(var1);
-            var5 = var1.NotificationsExperiment;
-            var4 = var5.useExperiment;
-            var3 = {};
-            var1 = arg1;
-            var3['location'] = var1;
-            var1 = {};
-            var6 = false;
-            var1['autoTrackExposure'] = var6;
-            var1 = var4.bind(var5)(var3, var1);
-            var1 = var1.enabled;
-            if(!var1) { _fun0003_ip = 20; continue _fun0003 }
-case 21:
-            var1 = var2;
-case 20:
-            return var1;
-        }
-    };
-    var3['useShouldUseNewNotificationSystem'] = var4;
-    var2 = function shouldShowUseNewNotificationSystem(arg1) {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
-case 0:
+    var4 = function useShouldUseNewNotificationSystem() {
+        var4 = _closure1_slot0;
+        var3 = _closure1_slot3;
+        var2 = 8;
+        var3 = var3[var2];
+        var2 = undefined;
+        var4 = var4.bind(var2)(var3);
+        var3 = var4.useStateFromStores;
+        var1 = _closure1_slot4;
+        var2 = new Array(1);
+        var2[0] = var1;
+        var1 = function() {
             var1 = _closure1_slot4;
             var1 = var1.useNewNotifications;
-            if(!var1) { _fun0004_ip = 22; continue _fun0004 }
-case 23:
-            var4 = _closure1_slot0;
-            var3 = _closure1_slot3;
-            var2 = 9;
-            var3 = var3[var2];
-            var2 = undefined;
-            var2 = var4.bind(var2)(var3);
-            var5 = var2.NotificationsExperiment;
-            var4 = var5.getCurrentConfig;
-            var3 = {};
-            var2 = arg1;
-            var3['location'] = var2;
-            var2 = {};
-            var6 = false;
-            var2['autoTrackExposure'] = var6;
-            var2 = var4.bind(var5)(var3, var2);
-            var1 = var2.enabled;
-case 22:
             return var1;
-        }
+        };
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
+    };
+    var3['useShouldUseNewNotificationSystem'] = var4;
+    var2 = function shouldShowUseNewNotificationSystem() {
+        var1 = _closure1_slot4;
+        var1 = var1.useNewNotifications;
+        return var1;
     };
     var3['shouldShowUseNewNotificationSystem'] = var2;
     return var1;

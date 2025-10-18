@@ -378,10 +378,10 @@ case 40:
             var17 = var2.author;
             var18 = var1 == var17;
             var6 = undefined;
-            if(var18) { _fun0006_ip = 25; continue _fun0006 }
-case 41:
+            if(var18) { _fun0006_ip = 41; continue _fun0006 }
+case 42:
             var6 = var17.id;
-case 25:
+case 41:
             var7 = var14.bind(var16)(var6);
 case 39:
             var14 = _closure1_slot1;
@@ -399,13 +399,13 @@ case 39:
             var6['size'] = var17;
             var18 = var14.bind(var16)(var6);
             var6 = var1 != var18;
-            if(!var6) { _fun0006_ip = 42; continue _fun0006 }
-case 43:
+            if(!var6) { _fun0006_ip = 43; continue _fun0006 }
+case 44:
             var14 = '';
             var6 = var14 !== var18;
-case 42:
-            if(!var6) { _fun0006_ip = 44; continue _fun0006 }
-case 45:
+case 43:
+            if(!var6) { _fun0006_ip = 45; continue _fun0006 }
+case 46:
             var14 = _closure1_slot0;
             var16 = _closure1_slot2;
             var6 = 16;
@@ -419,17 +419,17 @@ case 45:
             var6 = var4.icon;
             var18 = var1 != var6;
             var19 = 'missing';
-            if(!var18) { _fun0006_ip = 46; continue _fun0006 }
-case 47:
+            if(!var18) { _fun0006_ip = 47; continue _fun0006 }
+case 48:
             var19 = var6;
-case 46:
+case 47:
             var6 = global;
             var6 = var6.HermesInternal;
             var18 = var6.concat;
             var6 = '';
             var6 = var18.bind(var6)(var19, var20);
             var6 = var16.bind(var17)(var14, var6);
-case 44:
+case 45:
             var6 = _closure1_slot17;
             var6 = var6.bind(var10)(var12);
             var12 = _closure1_slot7;
@@ -447,12 +447,12 @@ case 44:
             var16 = var12.bind(var14)(var6);
             var12 = var16.length;
             var6 = 30;
-            if(!(var12 <= var6)) { _fun0006_ip = 48; continue _fun0006 }
-case 49:
+            if(!(var12 <= var6)) { _fun0006_ip = 49; continue _fun0006 }
+case 50:
             var12 = var16.forEach;
             var6 = _closure1_slot17;
             var6 = var12.bind(var16)(var6);
-case 48:
+case 49:
             var6 = new Array(0);
             var _closure2_slot3 = var6;
             var14 = _closure1_slot13;
@@ -487,10 +487,10 @@ case 0:
                     var9 = null;
                     var9 = var9 != var8;
                     var11 = 'missing';
-                    if(!var9) { _fun0007_ip = 50; continue _fun0007 }
-case 51:
+                    if(!var9) { _fun0007_ip = 51; continue _fun0007 }
+case 52:
                     var11 = var8;
-case 50:
+case 51:
                     var8 = global;
                     var8 = var8.HermesInternal;
                     var10 = var8.concat;
@@ -522,12 +522,12 @@ case 0:
                     var3 = arg1;
                     var1 = null;
                     var1 = var1 != var3;
-                    if(!var1) { _fun0008_ip = 52; continue _fun0008 }
+                    if(!var1) { _fun0008_ip = 53; continue _fun0008 }
 case 6:
                     var2 = var3.bot;
                     var1 = !var2;
-case 52:
-                    if(!var1) { _fun0008_ip = 53; continue _fun0008 }
+case 53:
+                    if(!var1) { _fun0008_ip = 54; continue _fun0008 }
 case 27:
                     var6 = _closure1_slot9;
                     var5 = var6.getStatus;
@@ -537,7 +537,7 @@ case 27:
                     var2 = _closure1_slot15;
                     var2 = var2.ONLINE;
                     var1 = var3 === var2;
-case 53:
+case 54:
                     return var1;
                 }
             };
@@ -554,10 +554,10 @@ case 0:
                     var3 = null;
                     var3 = var3 != var2;
                     var6 = 'missing';
-                    if(!var3) { _fun0009_ip = 54; continue _fun0009 }
+                    if(!var3) { _fun0009_ip = 55; continue _fun0009 }
 case 29:
                     var6 = var2;
-case 54:
+case 55:
                     var2 = global;
                     var2 = var2.HermesInternal;
                     var5 = var2.concat;
@@ -583,27 +583,27 @@ case 0:
                     var2 = null;
                     var1 = var2 == var1;
                     var4 = undefined;
-                    if(var1) { _fun0010_ip = 55; continue _fun0010 }
-case 56:
+                    if(var1) { _fun0010_ip = 56; continue _fun0010 }
+case 57:
                     var1 = _closure2_slot2;
                     var4 = var1.id;
-case 55:
+case 56:
                     var1 = false;
-                    if(!(var7 !== var4)) { _fun0010_ip = 57; continue _fun0010 }
-case 58:
+                    if(!(var7 !== var4)) { _fun0010_ip = 58; continue _fun0010 }
+case 59:
                     var6 = _closure1_slot12;
                     var5 = var6.getVoiceState;
                     var4 = _closure2_slot0;
                     var4 = var5.bind(var6)(var4, var7);
                     var2 = var2 != var4;
-                    if(!var2) { _fun0010_ip = 59; continue _fun0010 }
+                    if(!var2) { _fun0010_ip = 34; continue _fun0010 }
 case 28:
                     var4 = var4.channelId;
                     var3 = _closure2_slot1;
                     var2 = var4 === var3;
-case 59:
+case 34:
                     var1 = var2;
-case 57:
+case 58:
                     var1 = !var1;
                     return var1;
                 }
@@ -639,7 +639,7 @@ case 62:
                     var6 = var4 == var5;
                     var3 = undefined;
                     if(var6) { _fun0011_ip = 63; continue _fun0011 }
-case 57:
+case 58:
                     var3 = var5.communicationProbability;
 case 63:
                     var4 = var4 != var3;

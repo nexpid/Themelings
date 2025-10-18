@@ -92,6 +92,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var13.fileFinishedImporting;
     var11 = 'modules/soundboard/SoundboardTypes.tsx';
     var11 = var12.bind(var13)(var11);
+    var11 = function topSoundForGuildFromAPI(arg1) {
+        var1 = arg1;
+        var3 = var1.sound_id;
+        var2 = var1.rank;
+        var1 = {};
+        var1['soundId'] = var3;
+        var1['rank'] = var2;
+        return var1;
+    };
+    var3['topSoundForGuildFromAPI'] = var11;
     var3['SoundButtonOverlay'] = var10;
     var3['AnalyticsSoundType'] = var9;
     var3['AnalyticsChangeType'] = var8;

@@ -262,7 +262,7 @@ case 0:
             var1 = null;
             var3 = var1 == var4;
             if(var3) { _fun0006_ip = 25; continue _fun0006 }
-case 7:
+case 26:
             var5 = _closure1_slot1;
             var3 = _closure1_slot3;
             var2 = 7;
@@ -306,7 +306,7 @@ case 25:
 case 0:
             var5 = arg1;
             var3 = null;
-            if(!(var3 != var5)) { _fun0007_ip = 26; continue _fun0007 }
+            if(!(var3 != var5)) { _fun0007_ip = 27; continue _fun0007 }
 case 3:
             var4 = _closure1_slot0;
             var6 = _closure1_slot3;
@@ -316,30 +316,30 @@ case 3:
             var4 = var4.bind(var7)(var1);
             var1 = var4.isCurrentUserTeen;
             var1 = var1.bind(var4)();
-            if(var1) { _fun0007_ip = 27; continue _fun0007 }
-case 28:
+            if(var1) { _fun0007_ip = 28; continue _fun0007 }
+case 29:
             var1 = true;
             return var1;
-case 27:
+case 28:
             var1 = _closure1_slot9;
             var1 = var1.bind(var7)(var5);
-            if(var1) { _fun0007_ip = 29; continue _fun0007 }
-case 30:
+            if(var1) { _fun0007_ip = 30; continue _fun0007 }
+case 31:
             var1 = true;
             return var1;
-case 29:
+case 30:
             var4 = _closure1_slot4;
             var1 = var4.getMessage;
             var4 = var1.bind(var4)(var5);
             var1 = var4.loaded;
             var5 = var4.firstMessage;
             var1 = !var1;
-            if(var1) { _fun0007_ip = 31; continue _fun0007 }
-case 32:
+            if(var1) { _fun0007_ip = 32; continue _fun0007 }
+case 33:
             var1 = var3 == var5;
-case 31:
-            if(var1) { _fun0007_ip = 33; continue _fun0007 }
-case 34:
+case 32:
+            if(var1) { _fun0007_ip = 34; continue _fun0007 }
+case 35:
             var6 = _closure1_slot0;
             var8 = _closure1_slot3;
             var2 = 12;
@@ -353,9 +353,9 @@ case 34:
             var2 = var2.EXPLICIT;
             var2 = var3.bind(var4)(var5, var2);
             var1 = !var2;
-case 33:
+case 34:
             return var1;
-case 26:
+case 27:
             var1 = true;
             return var1;
         }
@@ -369,19 +369,19 @@ case 0:
             var1 = var3.isFirstMessageInForumPost;
             var1 = var1.bind(var3)(var4);
             var2 = !var1;
-            if(var2) { _fun0008_ip = 35; continue _fun0008 }
-case 36:
+            if(var2) { _fun0008_ip = 36; continue _fun0008 }
+case 37:
             var1 = var3.isSystemDM;
             var1 = var1.bind(var3)();
             var2 = !var1;
-case 35:
+case 36:
             var1 = !var2;
-            if(var2) { _fun0008_ip = 25; continue _fun0008 }
-case 37:
+            if(var2) { _fun0008_ip = 38; continue _fun0008 }
+case 39:
             var3 = _closure1_slot11;
             var2 = undefined;
             var1 = var3.bind(var2)(var4);
-case 25:
+case 38:
             return var1;
         }
     };
@@ -404,8 +404,8 @@ case 0:
                 var1 = var1.MULTIPLE_REPORTS;
                 var3 = var3 == var1;
                 var1 = -1;
-                if(var3) { _fun0009_ip = 34; continue _fun0009 }
-case 38:
+                if(var3) { _fun0009_ip = 35; continue _fun0009 }
+case 40:
                 var3 = arg2;
                 var3 = var3.id;
                 var4 = _closure1_slot0;
@@ -416,12 +416,12 @@ case 38:
                 var2 = var2.MULTIPLE_REPORTS;
                 var3 = var3 == var2;
                 var2 = 0;
-                if(!var3) { _fun0009_ip = 31; continue _fun0009 }
-case 39:
+                if(!var3) { _fun0009_ip = 32; continue _fun0009 }
+case 41:
                 var2 = 1;
-case 31:
+case 32:
                 var1 = var2;
-case 34:
+case 35:
                 return var1;
             }
         };

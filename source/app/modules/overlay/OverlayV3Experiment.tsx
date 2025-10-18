@@ -3,8 +3,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var20 = require;
     var3 = exports;
     var21 = dependencyMap;
+    var1 = metroImportDefault;
+    var _closure1_slot0 = var1;
+    var _closure1_slot1 = var21;
     var17 = function useOverlayV3(arg1) {
-        var3 = _closure1_slot0;
+        var3 = _closure1_slot2;
         var2 = var3.useExperiment;
         var1 = {};
         var4 = arg1;
@@ -12,7 +15,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var _closure1_slot9 = var17;
+    var _closure1_slot11 = var17;
     var16 = function getUseOverlayV3(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -22,7 +25,7 @@ case 0:
 case 3:
             var5 = false;
 case 2:
-            var4 = _closure1_slot0;
+            var4 = _closure1_slot2;
             var3 = var4.getCurrentConfig;
             var2 = {};
             var1 = arg1;
@@ -33,9 +36,9 @@ case 2:
             return var1;
         }
     };
-    var _closure1_slot10 = var16;
+    var _closure1_slot12 = var16;
     var9 = function getOverlayStreamWatchNudgeConfig(arg1) {
-        var3 = _closure1_slot5;
+        var3 = _closure1_slot7;
         var2 = var3.getConfig;
         var1 = {};
         var4 = arg1;
@@ -43,34 +46,13 @@ case 2:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var _closure1_slot11 = var9;
+    var _closure1_slot13 = var9;
     var7 = function getOverlayV3OneClickGoLive(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var5 = arguments[1];
             var1 = undefined;
             if(!(var5 === var1)) { _fun0002_ip = 2; continue _fun0002 }
-case 3:
-            var5 = true;
-case 2:
-            var4 = _closure1_slot6;
-            var3 = var4.getCurrentConfig;
-            var2 = {};
-            var1 = arg1;
-            var2['location'] = var1;
-            var1 = {};
-            var1['autoTrackExposure'] = var5;
-            var1 = var3.bind(var4)(var2, var1);
-            return var1;
-        }
-    };
-    var _closure1_slot12 = var7;
-    var4 = function getOverlayNegativeWidgetConfig(arg1) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
-case 0:
-            var5 = arguments[1];
-            var1 = undefined;
-            if(!(var5 === var1)) { _fun0003_ip = 2; continue _fun0003 }
 case 3:
             var5 = true;
 case 2:
@@ -85,7 +67,28 @@ case 2:
             return var1;
         }
     };
-    var _closure1_slot13 = var4;
+    var _closure1_slot14 = var7;
+    var4 = function getOverlayNegativeWidgetConfig(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+            var5 = arguments[1];
+            var1 = undefined;
+            if(!(var5 === var1)) { _fun0003_ip = 2; continue _fun0003 }
+case 3:
+            var5 = true;
+case 2:
+            var4 = _closure1_slot10;
+            var3 = var4.getCurrentConfig;
+            var2 = {};
+            var1 = arg1;
+            var2['location'] = var1;
+            var1 = {};
+            var1['autoTrackExposure'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
+        }
+    };
+    var _closure1_slot15 = var4;
     var1 = global;
     var8 = var1.Object;
     var6 = var8.defineProperty;
@@ -120,17 +123,17 @@ case 2:
     var14['config'] = var15;
     var13[1] = var14;
     var14 = {'id': 3, 'label': 'Use Overlay V3 minus any activity'};
-    var19 = 3;
     var15 = {'overlayV3tech': true, 'overlayV3UI': true, 'allowActivityWidget': false, 'allowNowPlaying': false};
     var14['config'] = var15;
     var13[2] = var14;
     var14 = {'id': 4, 'label': 'Use Overlay V3 tech with Overlay 2 UI'};
+    var19 = 4;
     var15 = {'overlayV3tech': true, 'overlayV3UI': false, 'allowActivityWidget': false, 'allowNowPlaying': false};
     var14['config'] = var15;
     var13[3] = var14;
     var8['treatments'] = var13;
     var18 = var11.bind(var12)(var8);
-    var _closure1_slot0 = var18;
+    var _closure1_slot2 = var18;
     var8 = var21[var5];
     var12 = var20.bind(var1)(var8);
     var11 = var12.createExperiment;
@@ -148,7 +151,7 @@ case 2:
     var13[0] = var14;
     var8['treatments'] = var13;
     var15 = var11.bind(var12)(var8);
-    var _closure1_slot1 = var15;
+    var _closure1_slot3 = var15;
     var8 = var21[var5];
     var12 = var20.bind(var1)(var8);
     var11 = var12.createExperiment;
@@ -172,7 +175,7 @@ case 2:
     var13[2] = var14;
     var8['treatments'] = var13;
     var14 = var11.bind(var12)(var8);
-    var _closure1_slot2 = var14;
+    var _closure1_slot4 = var14;
     var8 = var21[var5];
     var12 = var20.bind(var1)(var8);
     var11 = var12.createExperiment;
@@ -190,7 +193,7 @@ case 2:
     var13[0] = var23;
     var8['treatments'] = var13;
     var13 = var11.bind(var12)(var8);
-    var _closure1_slot3 = var13;
+    var _closure1_slot5 = var13;
     var8 = var21[var5];
     var12 = var20.bind(var1)(var8);
     var11 = var12.createExperiment;
@@ -210,7 +213,7 @@ case 2:
     var22[1] = var23;
     var8['treatments'] = var22;
     var12 = var11.bind(var12)(var8);
-    var _closure1_slot4 = var12;
+    var _closure1_slot6 = var12;
     var11 = {};
     var11['GREEN_BUTTON_WITH_TEXT'] = var10;
     var8 = 'GREEN_BUTTON_WITH_TEXT';
@@ -245,7 +248,7 @@ case 2:
     var22[3] = var23;
     var6['variations'] = var22;
     var10 = var8.bind(var10)(var6);
-    var _closure1_slot5 = var10;
+    var _closure1_slot7 = var10;
     var6 = var21[var5];
     var22 = var20.bind(var1)(var6);
     var8 = var22.createExperiment;
@@ -263,7 +266,7 @@ case 2:
     var23[1] = var24;
     var6['treatments'] = var23;
     var8 = var8.bind(var22)(var6);
-    var _closure1_slot6 = var8;
+    var _closure1_slot8 = var8;
     var6 = var21[var5];
     var23 = var20.bind(var1)(var6);
     var22 = var23.createExperiment;
@@ -271,16 +274,28 @@ case 2:
     var24 = {};
     var24['keybindOverride'] = var1;
     var6['defaultConfig'] = var24;
-    var25 = {'id': 1, 'label': 'alt + a Keybind'};
+    var25 = {'id': 1, 'label': 'Ctrl + Tab Keybind'};
     var24 = {};
-    var26 = 'alt+a';
+    var26 = 'ctrl+tab';
     var24['keybindOverride'] = var26;
     var25['config'] = var24;
-    var24 = new Array(1);
+    var24 = new Array(3);
     var24[0] = var25;
+    var25 = {'id': 2, 'label': 'Alt + X Keybind'};
+    var26 = {};
+    var27 = 'alt+x';
+    var26['keybindOverride'] = var27;
+    var25['config'] = var26;
+    var24[1] = var25;
+    var25 = {'id': 3, 'label': 'Ctrl + L Keybind'};
+    var26 = {};
+    var27 = 'ctrl+l';
+    var26['keybindOverride'] = var27;
+    var25['config'] = var26;
+    var24[2] = var25;
     var6['treatments'] = var24;
     var6 = var22.bind(var23)(var6);
-    var _closure1_slot7 = var6;
+    var _closure1_slot9 = var6;
     var5 = var21[var5];
     var23 = var20.bind(var1)(var5);
     var22 = var23.createExperiment;
@@ -310,7 +325,7 @@ case 2:
     var24[4] = var25;
     var5['treatments'] = var24;
     var5 = var22.bind(var23)(var5);
-    var _closure1_slot8 = var5;
+    var _closure1_slot10 = var5;
     var19 = var21[var19];
     var21 = var20.bind(var1)(var19);
     var20 = var21.fileFinishedImporting;
@@ -328,7 +343,7 @@ case 0:
 case 3:
             var4 = true;
 case 2:
-            var2 = _closure1_slot10;
+            var2 = _closure1_slot12;
             var1 = arg1;
             var1 = var2.bind(var3)(var1, var4);
             var1 = var1.overlayV3tech;
@@ -337,7 +352,7 @@ case 2:
     };
     var3['getUseAnyOverlayV3'] = var16;
     var16 = function useAnyOverlayV3(arg1) {
-        var3 = _closure1_slot9;
+        var3 = _closure1_slot11;
         var2 = undefined;
         var1 = arg1;
         var1 = var3.bind(var2)(var1);
@@ -346,7 +361,7 @@ case 2:
     };
     var3['useAnyOverlayV3'] = var16;
     var16 = function isInOverlayNowPlayingExperiment(arg1) {
-        var3 = _closure1_slot10;
+        var3 = _closure1_slot12;
         var2 = undefined;
         var1 = arg1;
         var1 = var3.bind(var2)(var1);
@@ -356,7 +371,7 @@ case 2:
     var3['isInOverlayNowPlayingExperiment'] = var16;
     var3['OverlayRafManagerExperiment'] = var15;
     var15 = function useOverlayRafManager(arg1) {
-        var3 = _closure1_slot1;
+        var3 = _closure1_slot3;
         var2 = var3.useExperiment;
         var1 = {};
         var4 = arg1;
@@ -374,7 +389,7 @@ case 0:
 case 3:
             var5 = true;
 case 2:
-            var4 = _closure1_slot1;
+            var4 = _closure1_slot3;
             var3 = var4.getCurrentConfig;
             var2 = {};
             var1 = arg1;
@@ -396,7 +411,7 @@ case 0:
 case 3:
             var5 = true;
 case 2:
-            var4 = _closure1_slot2;
+            var4 = _closure1_slot4;
             var3 = var4.getCurrentConfig;
             var2 = {};
             var1 = arg1;
@@ -410,7 +425,7 @@ case 2:
     var3['getOverlayRenderTimeout'] = var14;
     var3['OverlayDefaultDisableExperiment'] = var13;
     var13 = function useOverlayDefaultDisable(arg1) {
-        var3 = _closure1_slot3;
+        var3 = _closure1_slot5;
         var2 = var3.useExperiment;
         var1 = {};
         var4 = arg1;
@@ -429,7 +444,7 @@ case 0:
 case 3:
             var5 = true;
 case 2:
-            var4 = _closure1_slot3;
+            var4 = _closure1_slot5;
             var3 = var4.getCurrentConfig;
             var2 = {};
             var1 = arg1;
@@ -444,7 +459,7 @@ case 2:
     var3['getOverlayDefaultDisable'] = var13;
     var3['OverlayOOPNudgeExperiment'] = var12;
     var12 = function useOverlayOOPNudge(arg1) {
-        var3 = _closure1_slot4;
+        var3 = _closure1_slot6;
         var2 = var3.useExperiment;
         var1 = {};
         var4 = arg1;
@@ -462,7 +477,7 @@ case 0:
 case 3:
             var5 = true;
 case 2:
-            var4 = _closure1_slot4;
+            var4 = _closure1_slot6;
             var3 = var4.getCurrentConfig;
             var2 = {};
             var1 = arg1;
@@ -478,7 +493,7 @@ case 2:
     var3['OverlayStreamWatchNudgeExperiment'] = var10;
     var3['getOverlayStreamWatchNudgeConfig'] = var9;
     var9 = function useOverlayStreamWatchNudge(arg1) {
-        var3 = _closure1_slot5;
+        var3 = _closure1_slot7;
         var2 = var3.useConfig;
         var1 = {};
         var4 = arg1;
@@ -499,7 +514,7 @@ case 0:
 case 3:
             var5 = true;
 case 2:
-            var4 = _closure1_slot7;
+            var4 = _closure1_slot9;
             var3 = var4.getCurrentConfig;
             var2 = {};
             var1 = arg1;
@@ -512,15 +527,72 @@ case 2:
     };
     var3['getOverlayDefaultKeybind'] = var6;
     var3['OverlayNegativeWidgetExperiment'] = var5;
+    var5 = function getOverlayNegativeWidgetExperimentBucket(arg1) {
+        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+case 0:
+            var5 = _closure1_slot15;
+            var6 = undefined;
+            var4 = arg1;
+            var3 = false;
+            var5 = var5.bind(var6)(var4, var3);
+            var _closure2_slot0 = var5;
+            var4 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var3 = 3;
+            var3 = var7[var3];
+            var4 = var4.bind(var6)(var3);
+            var3 = _closure1_slot10;
+            var3 = var3.definition;
+            var3 = var3.defaultConfig;
+            var3 = var4.bind(var6)(var3, var5);
+            if(var3) { _fun0010_ip = 4; continue _fun0010 }
+case 5:
+            var2 = _closure1_slot10;
+            var2 = var2.definition;
+            var3 = var2.treatments;
+            var2 = var3.find;
+            var1 = function(arg1) {
+                var2 = _closure1_slot0;
+                var3 = _closure1_slot1;
+                var1 = 3;
+                var1 = var3[var1];
+                var4 = undefined;
+                var3 = var2.bind(var4)(var1);
+                var1 = arg1;
+                var2 = var1.config;
+                var1 = _closure2_slot0;
+                var1 = var3.bind(var4)(var2, var1);
+                return var1;
+            };
+            var2 = var2.bind(var3)(var1);
+            var1 = null;
+            var3 = var1 == var2;
+            var1 = 'control';
+            if(var3) { _fun0010_ip = 6; continue _fun0010 }
+case 7:
+            var4 = var2.id;
+            var2 = global;
+            var2 = var2.HermesInternal;
+            var3 = var2.concat;
+            var2 = 'treatment-';
+            var1 = var3.bind(var2)(var4);
+case 6:
+            return var1;
+case 4:
+            var1 = 'control';
+            return var1;
+        }
+    };
+    var3['getOverlayNegativeWidgetExperimentBucket'] = var5;
     var3['getOverlayNegativeWidgetConfig'] = var4;
     var2 = function trackOverlayInitializedExperiments() {
-        var4 = _closure1_slot11;
+        var4 = _closure1_slot13;
         var1 = undefined;
         var3 = 'OVERLAY_INITIALIZED';
         var4 = var4.bind(var1)(var3);
-        var4 = _closure1_slot12;
+        var4 = _closure1_slot14;
         var4 = var4.bind(var1)(var3);
-        var2 = _closure1_slot13;
+        var2 = _closure1_slot15;
         var2 = var2.bind(var1)(var3);
         return var1;
     };

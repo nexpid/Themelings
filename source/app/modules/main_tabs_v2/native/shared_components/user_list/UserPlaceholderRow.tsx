@@ -280,6 +280,8 @@ case 9:
             var5[0] = var7;
             var5[1] = var6;
             var1['style'] = var5;
+            var5 = false;
+            var1['collapsable'] = var5;
             var8 = _closure1_slot6;
             var7 = _closure1_slot4;
             var5 = {};

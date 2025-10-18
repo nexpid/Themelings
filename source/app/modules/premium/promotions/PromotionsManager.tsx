@@ -88,7 +88,7 @@ case 4:
     var4 = var5.bind(var1)(var4);
     var4 = var4.PremiumTypes;
     var _closure1_slot10 = var4;
-    var4 = 12;
+    var4 = 13;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var2 = function(arg1) {
@@ -252,46 +252,57 @@ case 16:
 case 0:
                 var3 = _closure1_slot9;
                 var1 = var3.getCurrentUser;
-                var7 = var1.bind(var3)();
+                var6 = var1.bind(var3)();
                 var4 = _closure1_slot1;
-                var6 = _closure1_slot2;
+                var8 = _closure1_slot2;
                 var1 = 8;
-                var3 = var6[var1];
+                var3 = var8[var1];
                 var1 = undefined;
                 var5 = var4.bind(var1)(var3);
                 var4 = var5.isPremiumExactly;
                 var3 = _closure1_slot10;
                 var3 = var3.TIER_2;
-                var3 = var4.bind(var5)(var7, var3);
-                var5 = _closure1_slot0;
-                var4 = 10;
-                var4 = var6[var4];
-                var4 = var5.bind(var1)(var4);
-                var7 = var4.OutboundPromoDesktopUpsellExperiment;
-                var6 = var7.getCurrentConfig;
-                var5 = {};
+                var5 = var4.bind(var5)(var6, var3);
+                var7 = _closure1_slot0;
+                var3 = 10;
+                var3 = var8[var3];
+                var9 = var7.bind(var1)(var3);
+                var6 = var9.isFetchingPromotionsEndpointEnabled;
+                var3 = {};
                 var4 = 'maybeFetchActiveOutboundPromotions';
-                var5['location'] = var4;
+                var3['location'] = var4;
+                var3 = var6.bind(var9)(var3);
+                var6 = 11;
+                var6 = var8[var6];
+                var6 = var7.bind(var1)(var6);
+                var8 = var6.OutboundPromoDesktopUpsellExperiment;
+                var7 = var8.getCurrentConfig;
+                var6 = {};
+                var6['location'] = var4;
                 var4 = {};
-                var8 = false;
-                var4['autoTrackExposure'] = var8;
-                var4['disable'] = var3;
-                var4 = var6.bind(var7)(var5, var4);
+                var9 = false;
+                var4['autoTrackExposure'] = var9;
+                var4['disable'] = var5;
+                var4 = var7.bind(var8)(var6, var4);
                 var4 = var4.enabled;
                 if(var3) { _fun0005_ip = 22; continue _fun0005 }
 case 23:
-                var3 = var4;
+                var3 = var5;
 case 22:
-                if(!var3) { _fun0005_ip = 24; continue _fun0005 }
+                if(var3) { _fun0005_ip = 24; continue _fun0005 }
 case 25:
+                var3 = var4;
+case 24:
+                if(!var3) { _fun0005_ip = 26; continue _fun0005 }
+case 27:
                 var3 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var2 = 11;
+                var2 = 12;
                 var2 = var4[var2];
                 var3 = var3.bind(var1)(var2);
                 var2 = var3.fetchActiveOutboundPromotions;
                 var2 = var2.bind(var3)();
-case 24:
+case 26:
                 return var1;
             }
         };
@@ -306,7 +317,7 @@ case 24:
     var13 = var4;
     var2 = new var13[var2](var12);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 13;
+    var4 = 14;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

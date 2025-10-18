@@ -334,7 +334,7 @@ case 36:
                                     var11 = var4 == var9;
                                     var8 = undefined;
                                     if(var11) { _fun0005_ip = 37; continue _fun0005 }
-case 4:
+case 38:
                                     var8 = var9.id;
 case 37:
                                     var7 = var8;
@@ -344,11 +344,11 @@ case 37:
                                     var9 = var9.bind(var2)(var8);
                                     var8 = var9.isRoleSubscriptionInvite;
                                     var8 = var8.bind(var9)(var6);
-                                    if(!var8) { _fun0005_ip = 38; continue _fun0005 }
-case 39:
+                                    if(!var8) { _fun0005_ip = 39; continue _fun0005 }
+case 40:
                                     var8 = var7;
-                                    if(!(var4 != var8)) { _fun0005_ip = 38; continue _fun0005 }
-case 40: // try_start_0
+                                    if(!(var4 != var8)) { _fun0005_ip = 39; continue _fun0005 }
+case 41: // try_start_0
                                     var9 = _closure1_slot1;
                                     var10 = _closure1_slot2;
                                     var8 = 17;
@@ -357,25 +357,25 @@ case 40: // try_start_0
                                     var8 = var9.performRoleSubscriptionUpsellRedirect;
                                     var7 = var8.bind(var9)(var7);
                                     SaveGenerator(address=180);
-case 41:
+case 42:
                                     return var7;
 case 25:
                                     ResumeGenerator(result_out_reg=6, return_bool_out_reg=7);
                                     if(var8) { _fun0005_ip = 27; continue _fun0005 }
-case 42: // try_end0
-                                    _fun0005_ip = 38; continue _fun0005;
+case 43: // try_end0
+                                    _fun0005_ip = 39; continue _fun0005;
 case 27:
                                     return var7;
 case 23: // catch_target0
                                     CatchBlockStart(arg_register=6);
-case 38:
+case 39:
                                     var7 = var6.channel;
-                                    if(!(var4 == var7)) { _fun0005_ip = 43; continue _fun0005 }
-case 44:
+                                    if(!(var4 == var7)) { _fun0005_ip = 44; continue _fun0005 }
+case 45:
                                     var7 = _closure2_slot1;
                                     var7 = var7.bind(var2)();
                                     _fun0005_ip = 34; continue _fun0005;
-case 43:
+case 44:
                                     var7 = _closure2_slot1;
                                     var7 = var7.bind(var2)();
                                     var7 = global;
@@ -399,12 +399,12 @@ case 34:
 case 35:
                                     var7 = var4 == var6;
                                     var5 = undefined;
-                                    if(var7) { _fun0005_ip = 45; continue _fun0005 }
-case 46:
+                                    if(var7) { _fun0005_ip = 46; continue _fun0005 }
+case 47:
                                     var5 = var6.guild_scheduled_event;
-case 45:
-                                    if(!(var4 != var5)) { _fun0005_ip = 47; continue _fun0005 }
-case 48:
+case 46:
+                                    if(!(var4 != var5)) { _fun0005_ip = 48; continue _fun0005 }
+case 49:
                                     var4 = _closure2_slot1;
                                     var4 = var4.bind(var2)();
                                     var4 = _closure1_slot0;
@@ -416,7 +416,7 @@ case 48:
                                     var3 = var3.bind(var4)(var5);
                                     var3 = undefined;
                                     return var3;
-case 47:
+case 48:
                                     return var2;
 case 30:
                                     return var1;
@@ -447,13 +447,13 @@ case 30:
                     var10 = var10.bind(var3)(var8);
                     var8 = var10.handleNSFWGuildInvite;
                     var8 = var8.bind(var10)(var6);
-                    if(var8) { _fun0004_ip = 49; continue _fun0004 }
-case 50:
-                    if(var7) { _fun0004_ip = 51; continue _fun0004 }
-case 52:
-                    var7 = null;
-                    if(!(var7 != var6)) { _fun0004_ip = 51; continue _fun0004 }
+                    if(var8) { _fun0004_ip = 50; continue _fun0004 }
+case 51:
+                    if(var7) { _fun0004_ip = 52; continue _fun0004 }
 case 53:
+                    var7 = null;
+                    if(!(var7 != var6)) { _fun0004_ip = 52; continue _fun0004 }
+case 54:
                     var7 = _closure1_slot1;
                     var8 = _closure1_slot2;
                     var4 = 18;
@@ -477,22 +477,22 @@ case 53:
                     var4['callback'] = var9;
                     var4 = var7.bind(var8)(var4);
                     _fun0004_ip = 15; continue _fun0004;
-case 51:
+case 52:
                     var4 = _closure2_slot5;
                     var4 = var4.bind(var3)();
                     SaveGenerator(address=183);
-case 54:
-                    return var4;
 case 55:
+                    return var4;
+case 56:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
-                    if(var7) { _fun0004_ip = 56; continue _fun0004 }
-case 57:
+                    if(var7) { _fun0004_ip = 57; continue _fun0004 }
+case 58:
                     var5 = var5.bind(var3)(var6);
 case 15:
                     return var3;
-case 56:
+case 57:
                     return var4;
-case 49:
+case 50:
                     var2 = _closure2_slot1;
                     var2 = var2.bind(var3)();
                     return var2;

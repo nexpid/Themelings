@@ -31,7 +31,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/conversations/native/util/openConversation.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function openConversation(arg1, arg2) {
+    var2 = function openConversation(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var6 = arg1;
@@ -60,8 +60,6 @@ case 0:
             var7 = var10.bind(var1)(var7, var4);
             var4 = {};
             var4['conversationProps'] = var2;
-            var2 = arg2;
-            var4['trackItemInteraction'] = var2;
             var2 = 'ConversationActionSheet';
             var2 = var8.bind(var9)(var7, var2, var4);
             var2 = var6.messages;

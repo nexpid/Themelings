@@ -985,6 +985,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['NOW_PLAYING_ITEM_RICH_PRESENCE_SECTION'] = var1;
     var1 = 'now playing item game section';
     var2['NOW_PLAYING_ITEM_GAME_SECTION'] = var1;
+    var1 = 'frequent friends row';
+    var2['FREQUENT_FRIENDS_ROW'] = var1;
     var4 = dependencyMap;
     var1 = 0;
     var5 = var4[var1];

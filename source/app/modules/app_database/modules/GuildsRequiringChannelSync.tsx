@@ -757,30 +757,30 @@ case 76:
                 var8 = var7.bind(var8)(var4);
                 var7 = null;
                 if(!(var7 == var8)) { _fun0012_ip = 78; continue _fun0012 }
-case 13:
+case 79:
                 var4 = _closure1_slot12;
                 var4 = var4.NewGuild;
                 var9 = true;
-                _fun0012_ip = 79; continue _fun0012;
+                _fun0012_ip = 19; continue _fun0012;
 case 78:
                 var12 = var5.userBecameGuildOwner;
                 var11 = var8.ownerId;
                 var14 = var1.properties;
                 var15 = var7 == var14;
                 var8 = undefined;
-                if(var15) { _fun0012_ip = 80; continue _fun0012 }
-case 81:
-                var8 = var14.owner_id;
+                if(var15) { _fun0012_ip = 15; continue _fun0012 }
 case 80:
+                var8 = var14.owner_id;
+case 15:
                 var8 = var12.bind(var5)(var11, var8, var13);
                 var9 = var8;
                 var4 = var2;
-                if(!var8) { _fun0012_ip = 79; continue _fun0012 }
-case 46:
+                if(!var8) { _fun0012_ip = 19; continue _fun0012 }
+case 81:
                 var2 = _closure1_slot12;
                 var4 = var2.OwnershipChange;
                 var9 = var8;
-case 79:
+case 19:
                 var8 = var4;
                 var11 = null;
                 if(var9) { _fun0012_ip = 82; continue _fun0012 }

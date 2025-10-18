@@ -170,6 +170,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['getLoadingTips'] = var5;
     var5 = 5;
     var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var5 = var5.DismissibleContent;
+    var5 = var5.HOLIDAY_COACHMARK_HALLOWEEN_2025;
+    var4['coachmarkDismissibleContent'] = var5;
+    var5 = 6;
+    var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
     var5 = 'modules/holidays/HolidayEventsConfig.tsx';

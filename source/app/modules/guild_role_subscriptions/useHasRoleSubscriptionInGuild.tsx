@@ -230,17 +230,17 @@ case 42:
             var2 = var3.getGuild;
             var2 = var2.bind(var3)(var4);
             var5 = null;
-            if(!(var5 != var2)) { _fun0004_ip = 25; continue _fun0004 }
-case 44:
-            if(!(var5 != var1)) { _fun0004_ip = 25; continue _fun0004 }
+            if(!(var5 != var2)) { _fun0004_ip = 44; continue _fun0004 }
 case 45:
+            if(!(var5 != var1)) { _fun0004_ip = 44; continue _fun0004 }
+case 46:
             var8 = var2.features;
             var4 = var8.has;
             var3 = _closure1_slot6;
             var3 = var3.ROLE_SUBSCRIPTIONS_ENABLED;
             var3 = var4.bind(var8)(var3);
-            if(!var3) { _fun0004_ip = 25; continue _fun0004 }
-case 46:
+            if(!var3) { _fun0004_ip = 44; continue _fun0004 }
+case 47:
             var2 = _closure1_slot7;
             var1 = var1.roles;
             var4 = var2.bind(var6)(var1);
@@ -248,43 +248,43 @@ case 46:
             var1 = var2.done;
             var3 = var2;
             var2 = undefined;
-            if(var1) { _fun0004_ip = 47; continue _fun0004 }
-case 48:
+            if(var1) { _fun0004_ip = 48; continue _fun0004 }
+case 49:
             var1 = var3.value;
             var9 = var5 == var7;
             var8 = undefined;
-            if(var9) { _fun0004_ip = 49; continue _fun0004 }
-case 50:
+            if(var9) { _fun0004_ip = 50; continue _fun0004 }
+case 51:
             var8 = var7[var1];
-case 49:
+case 50:
             var9 = var5 == var8;
             var1 = undefined;
-            if(var9) { _fun0004_ip = 51; continue _fun0004 }
-case 52:
+            if(var9) { _fun0004_ip = 52; continue _fun0004 }
+case 21:
             var9 = var8.tags;
             var8 = var5 == var9;
             var2 = var9;
             var1 = undefined;
-            if(var8) { _fun0004_ip = 51; continue _fun0004 }
+            if(var8) { _fun0004_ip = 52; continue _fun0004 }
 case 53:
             var1 = var9.subscription_listing_id;
             var2 = var9;
-case 51:
+case 52:
             if(!(var5 == var1)) { _fun0004_ip = 54; continue _fun0004 }
-case 55:
+case 24:
             var8 = var4.bind(var6)();
             var1 = var8.done;
             var3 = var8;
-            if(var1) { _fun0004_ip = 47; continue _fun0004 }
-case 56:
-            _fun0004_ip = 48; continue _fun0004;
+            if(var1) { _fun0004_ip = 48; continue _fun0004 }
+case 55:
+            _fun0004_ip = 49; continue _fun0004;
 case 54:
             var1 = true;
             return var1;
-case 47:
+case 48:
             var1 = false;
             return var1;
-case 25:
+case 44:
             var1 = false;
             return var1;
         }
@@ -347,8 +347,8 @@ case 0:
                 var2 = _closure2_slot0;
                 var1 = null;
                 var2 = var1 == var2;
-                if(var2) { _fun0005_ip = 57; continue _fun0005 }
-case 58:
+                if(var2) { _fun0005_ip = 56; continue _fun0005 }
+case 57:
                 var5 = _closure1_slot3;
                 var4 = var5.getMember;
                 var3 = _closure2_slot0;
@@ -356,7 +356,7 @@ case 58:
                 var2 = var6.getId;
                 var2 = var2.bind(var6)();
                 var1 = var4.bind(var5)(var3, var2);
-case 57:
+case 56:
                 return var1;
             }
         };
@@ -381,13 +381,13 @@ case 0:
                 var3 = null;
                 var7 = var3 != var5;
                 var3 = undefined;
-                if(!var7) { _fun0006_ip = 59; continue _fun0006 }
-case 60:
+                if(!var7) { _fun0006_ip = 58; continue _fun0006 }
+case 59:
                 var9 = _closure1_slot4;
                 var8 = var9.getRolesSnapshot;
                 var7 = _closure2_slot0;
                 var3 = var8.bind(var9)(var7);
-case 59:
+case 58:
                 var11 = _closure2_slot1;
                 var7 = _closure1_slot5;
                 var1 = new Array(1);

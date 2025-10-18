@@ -547,7 +547,7 @@ case 15:
                     var3 = var4 != var2;
                     var1 = null;
                     if(!var3) { _fun0006_ip = 14; continue _fun0006 }
-case 6:
+case 16:
                     var1 = var2.id;
 case 14:
                     return var1;
@@ -559,10 +559,10 @@ case 14:
             var15 = var11.guildId;
             var3 = null;
             var6 = var5;
-            if(!(var3 != var15)) { _fun0005_ip = 16; continue _fun0005 }
-case 17:
+            if(!(var3 != var15)) { _fun0005_ip = 17; continue _fun0005 }
+case 18:
             var6 = var15;
-case 16:
+case 17:
             var13 = var13.bind(var14)(var6);
             var6 = _closure1_slot4;
             var6 = var6.bind(var4)(var13, var10);
@@ -590,10 +590,10 @@ case 0:
                     var2 = _closure2_slot0;
                     var2 = var2.guildId;
                     var5 = null;
-                    if(!(var5 == var2)) { _fun0007_ip = 18; continue _fun0007 }
-case 19:
+                    if(!(var5 == var2)) { _fun0007_ip = 19; continue _fun0007 }
+case 20:
                     var2 = _closure2_slot5;
-case 18:
+case 19:
                     var2 = var3.bind(var1)(var2);
                     return var1;
                 }
@@ -619,15 +619,15 @@ case 18:
             var5 = var12.bind(var13)(var5, var6);
             var _closure2_slot9 = var5;
             var3 = var3 !== var8;
-            if(!var3) { _fun0005_ip = 20; continue _fun0005 }
-case 21:
+            if(!var3) { _fun0005_ip = 21; continue _fun0005 }
+case 22:
             var6 = var8.length;
             var3 = var6 >= var10;
-case 20:
-            if(!var3) { _fun0005_ip = 22; continue _fun0005 }
-case 23:
+case 21:
+            if(!var3) { _fun0005_ip = 23; continue _fun0005 }
+case 24:
             var3 = !var9;
-case 22:
+case 23:
             var10 = !var3;
             var _closure2_slot10 = var10;
             var13 = _closure1_slot5;
@@ -639,8 +639,8 @@ case 22:
 case 0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0008_ip = 24; continue _fun0008 }
-case 25:
+                        if(var2) { _fun0008_ip = 25; continue _fun0008 }
+case 26:
                         var5 = _closure2_slot2;
                         var2 = undefined;
                         var4 = false;
@@ -648,34 +648,34 @@ case 25:
                         var4 = _closure2_slot0;
                         var4 = var4.asset;
                         var5 = null;
-                        if(!(var5 != var4)) { _fun0008_ip = 26; continue _fun0008 }
-case 27:
+                        if(!(var5 != var4)) { _fun0008_ip = 27; continue _fun0008 }
+case 28:
                         var4 = _closure2_slot0;
                         var4 = var4.asset;
                         var4 = var4.base64;
-                        if(!(var5 == var4)) { _fun0008_ip = 14; continue _fun0008 }
-case 26:
-                        var6 = _closure2_slot2;
-                        var4 = true;
-                        var4 = var6.bind(var2)(var4);
-                        _fun0008_ip = 28; continue _fun0008;
-case 14:
-                        var4 = _closure2_slot6;
                         if(!(var5 == var4)) { _fun0008_ip = 29; continue _fun0008 }
-case 30:
+case 27:
                         var6 = _closure2_slot2;
                         var4 = true;
                         var4 = var6.bind(var2)(var4);
-                        _fun0008_ip = 28; continue _fun0008;
+                        _fun0008_ip = 30; continue _fun0008;
 case 29:
-                        var4 = _closure2_slot3;
-                        if(!(var5 != var4)) { _fun0008_ip = 31; continue _fun0008 }
+                        var4 = _closure2_slot6;
+                        if(!(var5 == var4)) { _fun0008_ip = 31; continue _fun0008 }
 case 32:
+                        var6 = _closure2_slot2;
+                        var4 = true;
+                        var4 = var6.bind(var2)(var4);
+                        _fun0008_ip = 30; continue _fun0008;
+case 31:
+                        var4 = _closure2_slot3;
+                        if(!(var5 != var4)) { _fun0008_ip = 33; continue _fun0008 }
+case 34:
                         var4 = _closure2_slot3;
                         var5 = var4.length;
                         var4 = 2;
-                        if(!(!(var5 < var4))) { _fun0008_ip = 31; continue _fun0008 }
-case 33: // try_start_0
+                        if(!(!(var5 < var4))) { _fun0008_ip = 33; continue _fun0008 }
+case 35: // try_start_0
                         var5 = _closure1_slot0;
                         var6 = _closure1_slot2;
                         var4 = 11;
@@ -698,31 +698,31 @@ case 33: // try_start_0
                         var4['analyticsLocation'] = var7;
                         var4 = var5.bind(var6)(var4);
                         SaveGenerator(address=231);
-case 34:
-                        return var4;
-case 35:
-                        ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                        if(var5) { _fun0008_ip = 36; continue _fun0008 }
-case 37: // try_end0
-                        var5 = _closure2_slot9;
-                        var5 = var5.bind(var2)();
-                        _fun0008_ip = 28; continue _fun0008;
 case 36:
                         return var4;
-case 38: // catch_target0
+case 37:
+                        ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
+                        if(var5) { _fun0008_ip = 38; continue _fun0008 }
+case 39: // try_end0
+                        var5 = _closure2_slot9;
+                        var5 = var5.bind(var2)();
+                        _fun0008_ip = 30; continue _fun0008;
+case 38:
+                        return var4;
+case 40: // catch_target0
                         CatchBlockStart(arg_register=3);
                         var5 = _closure2_slot2;
                         var4 = true;
                         var4 = var5.bind(var2)(var4);
                         var4 = undefined;
                         return var4;
-case 31:
+case 33:
                         var4 = _closure2_slot2;
                         var3 = true;
                         var3 = var4.bind(var2)(var3);
-case 28:
+case 30:
                         return var2;
-case 24:
+case 25:
                         return var1;
                     }
                 };

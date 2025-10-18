@@ -90,7 +90,6 @@ case 0:
 case 3:
             var5 = _closure1_slot8;
 case 2:
-            var24 = var1.location;
             var3 = var1.quest;
             var _closure2_slot0 = var3;
             var21 = var1.showShareLink;
@@ -173,12 +172,10 @@ case 6:
             _closure2_slot10 = var11;
             var19 = 11;
             var19 = var14[var19];
-            var23 = var13.bind(var4)(var19);
-            var22 = var23.useShouldAllowMobileVideoTask;
-            var20 = var3.config;
-            var19 = {};
-            var19['location'] = var24;
-            var25 = var22.bind(var23)(var20, var19);
+            var22 = var13.bind(var4)(var19);
+            var20 = var22.useHasWatchVideoOnMobileTasks;
+            var19 = var3.config;
+            var25 = var20.bind(var22)(var19);
             _closure2_slot11 = var25;
             var12 = var14[var12];
             var13 = var13.bind(var4)(var12);
@@ -648,7 +645,7 @@ case 11:
                     var1 = _closure2_slot19;
                     var5 = new Array(1);
                     var5[0] = var1;
-                    _fun0006_ip = 4; continue _fun0006;
+                    _fun0006_ip = 28; continue _fun0006;
 case 27:
                     var2 = _closure2_slot19;
                     var1 = new Array(2);
@@ -656,22 +653,22 @@ case 27:
                     var2 = _closure2_slot1;
                     var1[1] = var2;
                     var5 = var1;
-case 4:
+case 28:
                     var1 = _closure2_slot0;
                     var1 = var1.preview;
-                    if(!var1) { _fun0006_ip = 28; continue _fun0006 }
+                    if(!var1) { _fun0006_ip = 29; continue _fun0006 }
 case 14:
                     var2 = var5.push;
                     var4 = _closure2_slot22;
                     var1 = new Array(1);
                     var1[0] = var4;
                     var1 = var2.bind(var5)(var1);
-case 28:
+case 29:
                     var1 = _closure2_slot0;
                     var2 = var1.preview;
                     var1 = var5;
                     if(!var2) { _fun0006_ip = 10; continue _fun0006 }
-case 29:
+case 30:
                     var2 = new Array(1);
                     var6 = 0;
                     var8 = var2;

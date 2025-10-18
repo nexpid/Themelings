@@ -97,20 +97,26 @@ case 11:
                     var4 = 9;
                     var4 = var6[var4];
                     var4 = var5.bind(var2)(var4);
+                    var4 = var4.MarketingComponentPlatform;
+                    var14 = var4.MOBILE;
+                    var4 = 10;
+                    var4 = var6[var4];
+                    var4 = var5.bind(var2)(var4);
                     var6 = var4.HTTP;
                     var5 = var6.get;
                     var4 = {};
                     var4['url'] = var11;
                     var11 = {};
-                    var14 = _closure1_slot4;
-                    var14 = var14.locale;
-                    var11['locale'] = var14;
+                    var15 = _closure1_slot4;
+                    var15 = var15.locale;
+                    var11['locale'] = var15;
+                    var11['platform'] = var14;
                     var4['query'] = var11;
                     var11 = true;
                     var4['oldFormErrors'] = var11;
                     var4['rejectWithError'] = var11;
                     var4 = var5.bind(var6)(var4);
-                    SaveGenerator(address=319);
+                    SaveGenerator(address=348);
 case 12:
                     return var4;
 case 13:
@@ -126,13 +132,13 @@ case 15:
 case 17:
                     var6 = _closure1_slot0;
                     var11 = _closure1_slot2;
-                    var5 = 10;
+                    var5 = 11;
                     var5 = var11[var5];
                     var11 = var6.bind(var2)(var5);
                     var6 = var11.fetchUserEntitlementsForApplication;
                     var5 = _closure1_slot7;
                     var5 = var6.bind(var11)(var5, var13);
-                    SaveGenerator(address=394);
+                    SaveGenerator(address=423);
 case 18:
                     return var5;
 case 19:
@@ -245,7 +251,7 @@ case 0:
 case 31:
             var4 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var3 = 11;
+            var3 = 12;
             var5 = var7[var3];
             var5 = var4.bind(var1)(var5);
             var6 = var5.PreloadedUserSettingsActionCreators;
@@ -258,7 +264,7 @@ case 31:
             var2 = function(arg1) {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 12;
+                var1 = 13;
                 var2 = var2[var1];
                 var1 = undefined;
                 var2 = var3.bind(var1)(var2);
@@ -315,7 +321,7 @@ case 34: // try_start_0
                     var3['type'] = var9;
                     var3 = var4.bind(var8)(var3);
                     var4 = _closure1_slot0;
-                    var3 = 9;
+                    var3 = 10;
                     var3 = var5[var3];
                     var3 = var4.bind(var6)(var3);
                     var5 = var3.HTTP;
@@ -443,7 +449,7 @@ case 32:
     };
     var6['markOutboundPromotionsSeen'] = var7;
     var6['fetchActiveBogoPromotion'] = var2;
-    var7 = 13;
+    var7 = 14;
     var7 = var9[var7];
     var9 = var8.bind(var1)(var7);
     var8 = var9.fileFinishedImporting;

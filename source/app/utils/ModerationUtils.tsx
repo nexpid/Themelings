@@ -170,12 +170,12 @@ case 2:
     var4 = function generateVerificationLevelOptions() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-            var3 = arguments[0];
+            var1 = arguments[0];
             var5 = arguments[1];
             var6 = undefined;
-            if(!(var3 === var6)) { _fun0002_ip = 12; continue _fun0002 }
+            if(!(var1 === var6)) { _fun0002_ip = 12; continue _fun0002 }
 case 13:
-            var3 = false;
+            var1 = false;
 case 12:
             if(!(var5 === var6)) { _fun0002_ip = 14; continue _fun0002 }
 case 15:
@@ -183,37 +183,8 @@ case 15:
 case 14:
             var2 = {};
             var9 = _closure1_slot0;
-            var1 = _closure1_slot1;
-            var10 = 4;
-            var7 = var1[var10];
-            var7 = var9.bind(var6)(var7);
-            var11 = var7.intl;
-            var8 = var11.string;
-            var7 = var1[var10];
-            var7 = var9.bind(var6)(var7);
-            var7 = var7.t;
-            var7 = var7.PEzffn;
-            var7 = var8.bind(var11)(var7);
-            var2['name'] = var7;
-            var7 = var1[var10];
-            var7 = var9.bind(var6)(var7);
-            var8 = var7.intl;
-            var7 = var8.string;
-            var1 = var1[var10];
-            var1 = var9.bind(var6)(var1);
-            var1 = var1.t;
-            var1 = var1.nDQy0t;
-            var1 = var7.bind(var8)(var1);
-            var2['desc'] = var1;
-            var1 = _closure1_slot2;
-            var1 = var1.NONE;
-            var2['value'] = var1;
-            var2['disabled'] = var3;
-            var1 = null;
-            if(!var3) { _fun0002_ip = 16; continue _fun0002 }
-case 17:
-            var9 = _closure1_slot0;
             var3 = _closure1_slot1;
+            var10 = 4;
             var7 = var3[var10];
             var7 = var9.bind(var6)(var7);
             var8 = var7.intl;
@@ -221,41 +192,62 @@ case 17:
             var3 = var3[var10];
             var3 = var9.bind(var6)(var3);
             var3 = var3.t;
-            var3 = var3.j9WtHx;
-            var1 = var7.bind(var8)(var3);
+            var3 = var3.PEzffn;
+            var3 = var7.bind(var8)(var3);
+            var2['name'] = var3;
+            var7 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var8 = var3[var10];
+            var8 = var7.bind(var6)(var8);
+            var9 = var8.intl;
+            var8 = var9.string;
+            var3 = var3[var10];
+            var3 = var7.bind(var6)(var3);
+            var7 = var3.t;
+            if(var1) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
+            var3 = var7.nDQy0t;
+            var3 = var8.bind(var9)(var3);
+            _fun0002_ip = 18; continue _fun0002;
 case 16:
-            var2['tooltipText'] = var1;
+            var7 = var7.j9WtHx;
+            var3 = var8.bind(var9)(var7);
+case 18:
+            var2['desc'] = var3;
+            var3 = _closure1_slot2;
+            var7 = var3.NONE;
+            var2['value'] = var7;
+            var2['disabled'] = var1;
             var1 = new Array(5);
             var1[0] = var2;
             var2 = {};
-            var9 = _closure1_slot0;
-            var3 = _closure1_slot1;
-            var7 = var3[var10];
-            var7 = var9.bind(var6)(var7);
-            var11 = var7.intl;
-            var8 = var11.string;
-            var7 = var3[var10];
-            var7 = var9.bind(var6)(var7);
+            var11 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var8 = var7[var10];
+            var8 = var11.bind(var6)(var8);
+            var12 = var8.intl;
+            var9 = var12.string;
+            var8 = var7[var10];
+            var8 = var11.bind(var6)(var8);
+            var8 = var8.t;
+            var8 = var8.SsCK8P;
+            var8 = var9.bind(var12)(var8);
+            var2['name'] = var8;
+            var8 = var7[var10];
+            var8 = var11.bind(var6)(var8);
+            var9 = var8.intl;
+            var8 = var9.string;
+            var7 = var7[var10];
+            var7 = var11.bind(var6)(var7);
             var7 = var7.t;
-            var7 = var7.SsCK8P;
-            var7 = var8.bind(var11)(var7);
-            var2['name'] = var7;
-            var7 = var3[var10];
-            var7 = var9.bind(var6)(var7);
-            var8 = var7.intl;
-            var7 = var8.string;
-            var3 = var3[var10];
-            var3 = var9.bind(var6)(var3);
-            var3 = var3.t;
-            var3 = var3.8GCOX1;
-            var3 = var7.bind(var8)(var3);
-            var2['desc'] = var3;
-            var3 = _closure1_slot2;
+            var7 = var7.8GCOX1;
+            var7 = var8.bind(var9)(var7);
+            var2['desc'] = var7;
             var3 = var3.LOW;
             var2['value'] = var3;
             var3 = undefined;
-            if(var5) { _fun0002_ip = 18; continue _fun0002 }
-case 19:
+            if(var5) { _fun0002_ip = 19; continue _fun0002 }
+case 20:
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
             var7 = 2;
@@ -264,7 +256,7 @@ case 19:
             var8 = var9.unsafe_getRawColor;
             var7 = 'GREEN_360';
             var3 = var8.bind(var9)(var7);
-case 18:
+case 19:
             var2['color'] = var3;
             var1[1] = var2;
             var2 = {};
@@ -298,8 +290,8 @@ case 18:
             var3 = var3.MEDIUM;
             var2['value'] = var3;
             var3 = undefined;
-            if(var5) { _fun0002_ip = 20; continue _fun0002 }
-case 21:
+            if(var5) { _fun0002_ip = 21; continue _fun0002 }
+case 22:
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
             var7 = 2;
@@ -308,7 +300,7 @@ case 21:
             var8 = var9.unsafe_getRawColor;
             var7 = 'YELLOW_360';
             var3 = var8.bind(var9)(var7);
-case 20:
+case 21:
             var2['color'] = var3;
             var1[2] = var2;
             var2 = {};
@@ -342,8 +334,8 @@ case 20:
             var3 = var3.HIGH;
             var2['value'] = var3;
             var3 = undefined;
-            if(var5) { _fun0002_ip = 22; continue _fun0002 }
-case 23:
+            if(var5) { _fun0002_ip = 23; continue _fun0002 }
+case 24:
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
             var7 = 2;
@@ -352,7 +344,7 @@ case 23:
             var8 = var9.unsafe_getRawColor;
             var7 = 'ORANGE_345';
             var3 = var8.bind(var9)(var7);
-case 22:
+case 23:
             var2['color'] = var3;
             var1[3] = var2;
             var2 = {};
@@ -382,8 +374,8 @@ case 22:
             var3 = var3.VERY_HIGH;
             var2['value'] = var3;
             var3 = undefined;
-            if(var5) { _fun0002_ip = 24; continue _fun0002 }
-case 25:
+            if(var5) { _fun0002_ip = 25; continue _fun0002 }
+case 26:
             var5 = _closure1_slot0;
             var7 = _closure1_slot1;
             var4 = 2;
@@ -392,7 +384,7 @@ case 25:
             var5 = var6.unsafe_getRawColor;
             var4 = 'RED_400';
             var3 = var5.bind(var6)(var4);
-case 24:
+case 25:
             var2['color'] = var3;
             var1[4] = var2;
             return var1;
@@ -402,127 +394,49 @@ case 24:
     var4 = function generateContentFilterHighlightedOptions() {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-            var7 = arguments[0];
+            var4 = arguments[0];
             var5 = undefined;
-            if(!(var7 === var5)) { _fun0003_ip = 26; continue _fun0003 }
+            if(!(var4 === var5)) { _fun0003_ip = 27; continue _fun0003 }
+case 28:
+            var4 = false;
 case 27:
-            var7 = false;
-case 26:
             var2 = {};
-            var12 = _closure1_slot0;
-            var8 = _closure1_slot1;
+            var10 = _closure1_slot0;
+            var7 = _closure1_slot1;
             var11 = 4;
-            var1 = var8[var11];
-            var1 = var12.bind(var5)(var1);
-            var6 = var1.intl;
-            var4 = var6.string;
-            var1 = var8[var11];
-            var1 = var12.bind(var5)(var1);
+            var1 = var7[var11];
+            var1 = var10.bind(var5)(var1);
+            var8 = var1.intl;
+            var6 = var8.string;
+            var1 = var7[var11];
+            var1 = var10.bind(var5)(var1);
             var1 = var1.t;
             var1 = var1.iHuPEx;
-            var1 = var4.bind(var6)(var1);
+            var1 = var6.bind(var8)(var1);
             var2['name'] = var1;
-            var1 = var8[var11];
-            var1 = var12.bind(var5)(var1);
-            var6 = var1.intl;
-            var4 = var6.string;
-            var1 = var8[var11];
-            var1 = var12.bind(var5)(var1);
+            var1 = var7[var11];
+            var1 = var10.bind(var5)(var1);
+            var8 = var1.intl;
+            var6 = var8.string;
+            var1 = var7[var11];
+            var1 = var10.bind(var5)(var1);
             var1 = var1.t;
             var1 = var1.Z+yUWF;
-            var1 = var4.bind(var6)(var1);
+            var1 = var6.bind(var8)(var1);
             var2['desc'] = var1;
-            var4 = _closure1_slot4;
-            var1 = var4.ALL_MEMBERS;
+            var1 = _closure1_slot4;
+            var1 = var1.ALL_MEMBERS;
             var2['value'] = var1;
             var6 = 2;
-            var1 = var8[var6];
-            var10 = var12.bind(var5)(var1);
-            var9 = var10.unsafe_getRawColor;
+            var1 = var7[var6];
+            var9 = var10.bind(var5)(var1);
+            var8 = var9.unsafe_getRawColor;
             var1 = 'RED_400';
-            var1 = var9.bind(var10)(var1);
+            var1 = var8.bind(var9)(var1);
             var2['color'] = var1;
             var1 = new Array(3);
             var1[0] = var2;
             var2 = {};
-            var9 = var8[var11];
-            var9 = var12.bind(var5)(var9);
-            var13 = var9.intl;
-            var10 = var13.string;
-            var9 = var8[var11];
-            var9 = var12.bind(var5)(var9);
-            var9 = var9.t;
-            var9 = var9.ynfFaG;
-            var9 = var10.bind(var13)(var9);
-            var2['name'] = var9;
-            var9 = var8[var11];
-            var9 = var12.bind(var5)(var9);
-            var10 = var9.intl;
-            var9 = var10.string;
-            var8 = var8[var11];
-            var8 = var12.bind(var5)(var8);
-            var8 = var8.t;
-            var8 = var8.3fRINz;
-            var8 = var9.bind(var10)(var8);
-            var2['desc'] = var8;
-            var4 = var4.MEMBERS_WITHOUT_ROLES;
-            var2['value'] = var4;
-            var2['disabled'] = var7;
-            var8 = null;
-            if(!var7) { _fun0003_ip = 28; continue _fun0003 }
-case 29:
-            var13 = _closure1_slot0;
-            var9 = _closure1_slot1;
-            var10 = var9[var11];
-            var10 = var13.bind(var5)(var10);
-            var12 = var10.intl;
-            var10 = var12.string;
-            var9 = var9[var11];
-            var9 = var13.bind(var5)(var9);
-            var9 = var9.t;
-            var9 = var9.j9WtHx;
-            var8 = var10.bind(var12)(var9);
-case 28:
-            var2['tooltipText'] = var8;
-            var12 = _closure1_slot0;
-            var8 = _closure1_slot1;
-            var9 = var8[var6];
-            var13 = var12.bind(var5)(var9);
-            var10 = var13.unsafe_getRawColor;
-            var9 = 'YELLOW_360';
-            var9 = var10.bind(var13)(var9);
-            var2['color'] = var9;
-            var1[1] = var2;
-            var2 = {};
-            var9 = var8[var11];
-            var9 = var12.bind(var5)(var9);
-            var13 = var9.intl;
-            var10 = var13.string;
-            var9 = var8[var11];
-            var9 = var12.bind(var5)(var9);
-            var9 = var9.t;
-            var9 = var9.VbSyAw;
-            var9 = var10.bind(var13)(var9);
-            var2['name'] = var9;
-            var9 = var8[var11];
-            var9 = var12.bind(var5)(var9);
-            var10 = var9.intl;
-            var9 = var10.string;
-            var8 = var8[var11];
-            var8 = var12.bind(var5)(var8);
-            var8 = var8.t;
-            var8 = var8.M6GNsL;
-            var8 = var9.bind(var10)(var8);
-            var2['desc'] = var8;
-            var8 = _closure1_slot4;
-            var8 = var8.DISABLED;
-            var2['value'] = var8;
-            var2['disabled'] = var7;
-            var4 = null;
-            if(!var7) { _fun0003_ip = 30; continue _fun0003 }
-case 31:
-            var10 = _closure1_slot0;
-            var7 = _closure1_slot1;
             var8 = var7[var11];
             var8 = var10.bind(var5)(var8);
             var9 = var8.intl;
@@ -530,10 +444,75 @@ case 31:
             var7 = var7[var11];
             var7 = var10.bind(var5)(var7);
             var7 = var7.t;
-            var7 = var7.j9WtHx;
-            var4 = var8.bind(var9)(var7);
+            var7 = var7.ynfFaG;
+            var7 = var8.bind(var9)(var7);
+            var2['name'] = var7;
+            var8 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var9 = var7[var11];
+            var9 = var8.bind(var5)(var9);
+            var10 = var9.intl;
+            var9 = var10.string;
+            var7 = var7[var11];
+            var7 = var8.bind(var5)(var7);
+            var8 = var7.t;
+            if(var4) { _fun0003_ip = 29; continue _fun0003 }
 case 30:
-            var2['tooltipText'] = var4;
+            var7 = var8.3fRINz;
+            var7 = var9.bind(var10)(var7);
+            _fun0003_ip = 31; continue _fun0003;
+case 29:
+            var8 = var8.j9WtHx;
+            var7 = var9.bind(var10)(var8);
+case 31:
+            var2['desc'] = var7;
+            var7 = _closure1_slot4;
+            var7 = var7.MEMBERS_WITHOUT_ROLES;
+            var2['value'] = var7;
+            var2['disabled'] = var4;
+            var10 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var8 = var7[var6];
+            var12 = var10.bind(var5)(var8);
+            var9 = var12.unsafe_getRawColor;
+            var8 = 'YELLOW_360';
+            var8 = var9.bind(var12)(var8);
+            var2['color'] = var8;
+            var1[1] = var2;
+            var2 = {};
+            var8 = var7[var11];
+            var8 = var10.bind(var5)(var8);
+            var9 = var8.intl;
+            var8 = var9.string;
+            var7 = var7[var11];
+            var7 = var10.bind(var5)(var7);
+            var7 = var7.t;
+            var7 = var7.VbSyAw;
+            var7 = var8.bind(var9)(var7);
+            var2['name'] = var7;
+            var8 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var9 = var7[var11];
+            var9 = var8.bind(var5)(var9);
+            var10 = var9.intl;
+            var9 = var10.string;
+            var7 = var7[var11];
+            var7 = var8.bind(var5)(var7);
+            var8 = var7.t;
+            if(var4) { _fun0003_ip = 32; continue _fun0003 }
+case 33:
+            var7 = var8.M6GNsL;
+            var7 = var9.bind(var10)(var7);
+            _fun0003_ip = 34; continue _fun0003;
+case 32:
+            var8 = var8.j9WtHx;
+            var7 = var9.bind(var10)(var8);
+case 34:
+            var2['desc'] = var7;
+            var7 = _closure1_slot4;
+            var7 = var7.DISABLED;
+            var2['value'] = var7;
+            var2['disabled'] = var4;
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
             var3 = var3[var6];
@@ -550,125 +529,112 @@ case 30:
     var4 = function generateContentFilterOptions() {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-            var5 = arguments[0];
-            var8 = undefined;
-            if(!(var5 === var8)) { _fun0004_ip = 26; continue _fun0004 }
+            var3 = arguments[0];
+            var9 = undefined;
+            if(!(var3 === var9)) { _fun0004_ip = 27; continue _fun0004 }
+case 28:
+            var3 = false;
 case 27:
-            var5 = false;
-case 26:
             var2 = {};
-            var11 = _closure1_slot0;
-            var6 = _closure1_slot1;
-            var9 = 4;
-            var1 = var6[var9];
-            var1 = var11.bind(var8)(var1);
+            var8 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var10 = 4;
+            var1 = var5[var10];
+            var1 = var8.bind(var9)(var1);
             var7 = var1.intl;
-            var3 = var7.string;
-            var1 = var6[var9];
-            var1 = var11.bind(var8)(var1);
+            var6 = var7.string;
+            var1 = var5[var10];
+            var1 = var8.bind(var9)(var1);
             var1 = var1.t;
             var1 = var1.iHuPEx;
-            var1 = var3.bind(var7)(var1);
+            var1 = var6.bind(var7)(var1);
             var2['name'] = var1;
-            var1 = var6[var9];
-            var1 = var11.bind(var8)(var1);
+            var1 = var5[var10];
+            var1 = var8.bind(var9)(var1);
             var7 = var1.intl;
-            var3 = var7.string;
-            var1 = var6[var9];
-            var1 = var11.bind(var8)(var1);
+            var6 = var7.string;
+            var1 = var5[var10];
+            var1 = var8.bind(var9)(var1);
             var1 = var1.t;
             var1 = var1.Z+yUWF;
-            var1 = var3.bind(var7)(var1);
+            var1 = var6.bind(var7)(var1);
             var2['desc'] = var1;
-            var3 = _closure1_slot4;
-            var1 = var3.ALL_MEMBERS;
+            var1 = _closure1_slot4;
+            var1 = var1.ALL_MEMBERS;
             var2['value'] = var1;
             var1 = new Array(3);
             var1[0] = var2;
             var2 = {};
-            var7 = var6[var9];
-            var7 = var11.bind(var8)(var7);
-            var12 = var7.intl;
-            var10 = var12.string;
-            var7 = var6[var9];
-            var7 = var11.bind(var8)(var7);
-            var7 = var7.t;
-            var7 = var7.ynfFaG;
-            var7 = var10.bind(var12)(var7);
-            var2['name'] = var7;
-            var7 = var6[var9];
-            var7 = var11.bind(var8)(var7);
-            var10 = var7.intl;
-            var7 = var10.string;
-            var6 = var6[var9];
-            var6 = var11.bind(var8)(var6);
-            var6 = var6.t;
-            var6 = var6.3fRINz;
-            var6 = var7.bind(var10)(var6);
-            var2['desc'] = var6;
-            var3 = var3.MEMBERS_WITHOUT_ROLES;
-            var2['value'] = var3;
-            var2['disabled'] = var5;
-            var6 = null;
-            if(!var5) { _fun0004_ip = 32; continue _fun0004 }
-case 33:
-            var12 = _closure1_slot0;
-            var7 = _closure1_slot1;
-            var10 = var7[var9];
-            var10 = var12.bind(var8)(var10);
-            var11 = var10.intl;
-            var10 = var11.string;
-            var7 = var7[var9];
-            var7 = var12.bind(var8)(var7);
-            var7 = var7.t;
-            var7 = var7.j9WtHx;
-            var6 = var10.bind(var11)(var7);
-case 32:
-            var2['tooltipText'] = var6;
+            var6 = var5[var10];
+            var6 = var8.bind(var9)(var6);
+            var7 = var6.intl;
+            var6 = var7.string;
+            var5 = var5[var10];
+            var5 = var8.bind(var9)(var5);
+            var5 = var5.t;
+            var5 = var5.ynfFaG;
+            var5 = var6.bind(var7)(var5);
+            var2['name'] = var5;
+            var6 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var7 = var5[var10];
+            var7 = var6.bind(var9)(var7);
+            var8 = var7.intl;
+            var7 = var8.string;
+            var5 = var5[var10];
+            var5 = var6.bind(var9)(var5);
+            var6 = var5.t;
+            if(var3) { _fun0004_ip = 35; continue _fun0004 }
+case 36:
+            var5 = var6.3fRINz;
+            var5 = var7.bind(var8)(var5);
+            _fun0004_ip = 37; continue _fun0004;
+case 35:
+            var6 = var6.j9WtHx;
+            var5 = var7.bind(var8)(var6);
+case 37:
+            var2['desc'] = var5;
+            var5 = _closure1_slot4;
+            var5 = var5.MEMBERS_WITHOUT_ROLES;
+            var2['value'] = var5;
+            var2['disabled'] = var3;
             var1[1] = var2;
             var2 = {};
-            var11 = _closure1_slot0;
-            var6 = _closure1_slot1;
-            var7 = var6[var9];
-            var7 = var11.bind(var8)(var7);
-            var12 = var7.intl;
-            var10 = var12.string;
-            var7 = var6[var9];
-            var7 = var11.bind(var8)(var7);
-            var7 = var7.t;
-            var7 = var7.VbSyAw;
-            var7 = var10.bind(var12)(var7);
-            var2['name'] = var7;
-            var7 = var6[var9];
-            var7 = var11.bind(var8)(var7);
-            var10 = var7.intl;
-            var7 = var10.string;
-            var6 = var6[var9];
-            var6 = var11.bind(var8)(var6);
-            var6 = var6.t;
-            var6 = var6.M6GNsL;
-            var6 = var7.bind(var10)(var6);
-            var2['desc'] = var6;
-            var6 = _closure1_slot4;
-            var6 = var6.DISABLED;
-            var2['value'] = var6;
-            var2['disabled'] = var5;
-            var3 = null;
-            if(!var5) { _fun0004_ip = 34; continue _fun0004 }
-case 35:
-            var7 = _closure1_slot0;
-            var4 = _closure1_slot1;
-            var5 = var4[var9];
+            var8 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var6 = var5[var10];
+            var6 = var8.bind(var9)(var6);
+            var7 = var6.intl;
+            var6 = var7.string;
+            var5 = var5[var10];
+            var5 = var8.bind(var9)(var5);
+            var5 = var5.t;
+            var5 = var5.VbSyAw;
+            var5 = var6.bind(var7)(var5);
+            var2['name'] = var5;
+            var6 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var7 = var5[var10];
+            var7 = var6.bind(var9)(var7);
+            var8 = var7.intl;
+            var7 = var8.string;
+            var5 = var5[var10];
+            var5 = var6.bind(var9)(var5);
+            var6 = var5.t;
+            if(var3) { _fun0004_ip = 38; continue _fun0004 }
+case 39:
+            var5 = var6.M6GNsL;
             var5 = var7.bind(var8)(var5);
-            var6 = var5.intl;
-            var5 = var6.string;
-            var4 = var4[var9];
-            var4 = var7.bind(var8)(var4);
-            var4 = var4.t;
-            var4 = var4.j9WtHx;
-            var3 = var5.bind(var6)(var4);
-case 34:
-            var2['tooltipText'] = var3;
+            _fun0004_ip = 40; continue _fun0004;
+case 38:
+            var6 = var6.j9WtHx;
+            var5 = var7.bind(var8)(var6);
+case 40:
+            var2['desc'] = var5;
+            var4 = _closure1_slot4;
+            var4 = var4.DISABLED;
+            var2['value'] = var4;
+            var2['disabled'] = var3;
             var1[2] = var2;
             return var1;
         }

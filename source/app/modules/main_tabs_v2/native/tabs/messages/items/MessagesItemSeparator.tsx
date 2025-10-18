@@ -67,6 +67,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = {};
         var5 = var6.container;
         var1['style'] = var5;
+        var5 = false;
+        var1['collapsable'] = var5;
         var5 = {};
         var6 = var6.separator;
         var5['style'] = var6;

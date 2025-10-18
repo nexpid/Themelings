@@ -50,20 +50,15 @@ case 0:
             var3 = new Array(1);
             var3[0] = var5;
             var2 = function() {
-                var4 = _closure1_slot0;
-                var7 = _closure1_slot2;
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot2;
                 var1 = 3;
-                var3 = var7[var1];
+                var2 = var2[var1];
                 var1 = undefined;
-                var5 = var4.bind(var1)(var3);
-                var4 = var5.openConversation;
-                var3 = _closure2_slot1;
-                var6 = _closure1_slot1;
-                var2 = 4;
-                var2 = var7[var2];
-                var2 = var6.bind(var1)(var2);
-                var2 = var2.itemInteracted;
-                var2 = var4.bind(var5)(var3, var2);
+                var4 = var3.bind(var1)(var2);
+                var3 = var4.openConversation;
+                var2 = _closure2_slot1;
+                var2 = var3.bind(var4)(var2);
                 return var1;
             };
             var6 = var6.bind(var7)(var2, var3);

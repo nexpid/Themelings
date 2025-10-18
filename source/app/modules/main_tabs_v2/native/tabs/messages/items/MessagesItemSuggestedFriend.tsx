@@ -122,19 +122,19 @@ case 0:
             var3 = arg1;
             var2 = var3.height;
             var _closure2_slot0 = var2;
-            var12 = var3.onAddFriendSuggestions;
-            var _closure2_slot1 = var12;
+            var13 = var3.onAddFriendSuggestions;
+            var _closure2_slot1 = var13;
             var11 = var3.suggestedFriend;
             var _closure2_slot2 = var11;
             var3 = _closure1_slot11;
             var4 = undefined;
             var10 = var3.bind(var4)();
             var _closure2_slot3 = var10;
-            var6 = _closure1_slot4;
-            var5 = var6.useMemo;
-            var3 = new Array(2);
-            var3[0] = var10;
-            var3[1] = var2;
+            var3 = _closure1_slot4;
+            var6 = var3.useMemo;
+            var5 = new Array(2);
+            var5[0] = var10;
+            var5[1] = var2;
             var2 = function() {
                 var2 = _closure2_slot3;
                 var4 = var2.container;
@@ -148,10 +148,10 @@ case 0:
                 var1[2] = var2;
                 return var1;
             };
-            var8 = var5.bind(var6)(var2, var3);
-            var5 = var6.useCallback;
-            var3 = new Array(1);
-            var3[0] = var11;
+            var9 = var6.bind(var3)(var2, var5);
+            var6 = var3.useCallback;
+            var5 = new Array(1);
+            var5[0] = var11;
             var2 = function() {
                 var4 = _closure1_slot0;
                 var2 = _closure1_slot2;
@@ -183,10 +183,10 @@ case 0:
                 var2 = var3.bind(var4)(var2);
                 return var1;
             };
-            var5 = var5.bind(var6)(var2, var3);
-            var3 = var6.useState;
-            var2 = false;
-            var6 = var3.bind(var6)(var2);
+            var8 = var6.bind(var3)(var2, var5);
+            var2 = var3.useState;
+            var5 = false;
+            var6 = var2.bind(var3)(var5);
             var3 = _closure1_slot3;
             var2 = 2;
             var3 = var3.bind(var4)(var6, var2);
@@ -196,11 +196,11 @@ case 0:
             var2 = var3[var2];
             var _closure2_slot4 = var2;
             var3 = _closure1_slot0;
-            var9 = _closure1_slot2;
+            var12 = _closure1_slot2;
             var2 = 11;
-            var2 = var9[var2];
-            var13 = var3.bind(var4)(var2);
-            var9 = var13.useStateFromStores;
+            var2 = var12[var2];
+            var14 = var3.bind(var4)(var2);
+            var12 = var14.useStateFromStores;
             var2 = _closure1_slot6;
             var3 = new Array(1);
             var3[0] = var2;
@@ -216,13 +216,13 @@ case 0:
                 var1 = var2 === var1;
                 return var1;
             };
-            var2 = var9.bind(var13)(var3, var2);
+            var2 = var12.bind(var14)(var3, var2);
             if(var6) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var6 = var2;
 case 2:
-            var9 = _closure1_slot4;
-            var13 = var9.useMemo;
+            var12 = _closure1_slot4;
+            var14 = var12.useMemo;
             var3 = new Array(1);
             var3[0] = var11;
             var2 = function() {
@@ -323,13 +323,13 @@ case 12:
                     return var1;
                 }
             };
-            var2 = var13.bind(var9)(var2, var3);
+            var2 = var14.bind(var12)(var2, var3);
             var16 = var2.userStatusLabel;
             var18 = var2.suggestionName;
-            var3 = var9.useCallback;
+            var3 = var12.useCallback;
             var2 = new Array(2);
             var2[0] = var11;
-            var2[1] = var12;
+            var2[1] = var13;
             var1 = function() {
                 var8 = _closure2_slot2;
                 var9 = var8.user;
@@ -392,7 +392,7 @@ case 12:
                 var2 = var3.bind(var1)(var2);
                 return var1;
             };
-            var12 = var3.bind(var9)(var1, var2);
+            var12 = var3.bind(var12)(var1, var2);
             var3 = _closure1_slot10;
             var14 = _closure1_slot0;
             var13 = _closure1_slot2;
@@ -401,10 +401,11 @@ case 12:
             var1 = var14.bind(var4)(var1);
             var2 = var1.PressableHighlight;
             var1 = {};
-            var9 = 'button';
-            var1['accessibilityRole'] = var9;
-            var1['style'] = var8;
-            var1['onPress'] = var5;
+            var15 = 'button';
+            var1['accessibilityRole'] = var15;
+            var1['style'] = var9;
+            var1['onPress'] = var8;
+            var1['collapsable'] = var5;
             var15 = _closure1_slot9;
             var8 = _closure1_slot1;
             var9 = 18;

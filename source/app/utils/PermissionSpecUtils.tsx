@@ -939,7 +939,7 @@ case 0:
             var2 = var2.COMMUNITY;
             var2 = var3.bind(var5)(var2);
             if(var2) { _fun0005_ip = 32; continue _fun0005 }
-case 33:
+case 3:
             var3 = var4.add;
             var2 = _closure1_slot9;
             var5 = var2.VIEW_GUILD_ANALYTICS;
@@ -967,8 +967,8 @@ case 0:
                     var5 = var1.size;
                     var3 = 0;
                     var1 = var4;
-                    if(!(var3 !== var5)) { _fun0006_ip = 34; continue _fun0006 }
-case 35:
+                    if(!(var3 !== var5)) { _fun0006_ip = 33; continue _fun0006 }
+case 34:
                     var3 = var4.map;
                     var2 = function(arg1) {
                         var2 = arg1;
@@ -995,7 +995,7 @@ case 35:
                         return var1;
                     };
                     var1 = var3.bind(var4)(var2);
-case 34:
+case 33:
                     return var1;
                 }
             };

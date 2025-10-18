@@ -455,16 +455,16 @@ case 32:
             var2 = var4 == var6;
             var13 = var6;
             var7 = null;
-            if(var2) { _fun0010_ip = 6; continue _fun0010 }
-case 34:
+            if(var2) { _fun0010_ip = 34; continue _fun0010 }
+case 35:
             var2 = var4 == var12;
             var7 = null;
-            if(var2) { _fun0010_ip = 6; continue _fun0010 }
-case 35:
+            if(var2) { _fun0010_ip = 34; continue _fun0010 }
+case 5:
             var6 = _closure1_slot4;
             var2 = var6.getMember;
             var7 = var2.bind(var6)(var13, var12);
-case 6:
+case 34:
             var2 = var4 != var13;
             var8 = undefined;
             if(!var2) { _fun0010_ip = 36; continue _fun0010 }
@@ -472,13 +472,13 @@ case 37:
             var6 = var4 == var7;
             var2 = undefined;
             if(var6) { _fun0010_ip = 38; continue _fun0010 }
-case 8:
+case 39:
             var2 = var7.colorRoleId;
 case 38:
             var2 = var4 != var2;
             var8 = undefined;
             if(!var2) { _fun0010_ip = 36; continue _fun0010 }
-case 39:
+case 40:
             var11 = _closure1_slot5;
             var6 = var11.getRole;
             var2 = var7.colorRoleId;
@@ -486,21 +486,21 @@ case 39:
 case 36:
             var2 = var4 != var12;
             var6 = null;
-            if(!var2) { _fun0010_ip = 40; continue _fun0010 }
-case 41:
+            if(!var2) { _fun0010_ip = 41; continue _fun0010 }
+case 42:
             var2 = var4 != var10;
             var6 = null;
-            if(!var2) { _fun0010_ip = 40; continue _fun0010 }
-case 42:
+            if(!var2) { _fun0010_ip = 41; continue _fun0010 }
+case 43:
             var2 = var10.isPrivate;
             var2 = var2.bind(var10)();
             var6 = null;
-            if(!var2) { _fun0010_ip = 40; continue _fun0010 }
-case 43:
+            if(!var2) { _fun0010_ip = 41; continue _fun0010 }
+case 44:
             var11 = _closure1_slot7;
             var2 = var11.getNickname;
             var6 = var2.bind(var11)(var12);
-case 40:
+case 41:
             var2 = _closure1_slot12;
             var1 = {};
             var1['user'] = var5;
@@ -511,10 +511,10 @@ case 40:
             var1['friendNickname'] = var6;
             var6 = var4 == var5;
             var4 = undefined;
-            if(var6) { _fun0010_ip = 44; continue _fun0010 }
-case 45:
+            if(var6) { _fun0010_ip = 45; continue _fun0010 }
+case 46:
             var4 = var5.displayNameStyles;
-case 44:
+case 45:
             var1['displayNameStyles'] = var4;
             var1 = var2.bind(var3)(var1);
             return var1;
@@ -536,10 +536,10 @@ case 0:
             var7 = null;
             var10 = var7 == var2;
             var4 = '???';
-            if(var10) { _fun0011_ip = 46; continue _fun0011 }
-case 47:
-            if(!(var7 == var8)) { _fun0011_ip = 48; continue _fun0011 }
-case 34:
+            if(var10) { _fun0011_ip = 47; continue _fun0011 }
+case 48:
+            if(!(var7 == var8)) { _fun0011_ip = 49; continue _fun0011 }
+case 50:
             var13 = _closure1_slot1;
             var12 = _closure1_slot2;
             var10 = 8;
@@ -548,36 +548,36 @@ case 34:
             var12 = var13.bind(var10)(var12);
             var10 = var12.getName;
             var8 = var10.bind(var12)(var2);
-case 48:
+case 49:
             var4 = var8;
-case 46:
+case 47:
             var12 = var7 == var2;
             var10 = undefined;
-            if(var12) { _fun0011_ip = 49; continue _fun0011 }
+            if(var12) { _fun0011_ip = 51; continue _fun0011 }
 case 7:
             var10 = var2.id;
-case 49:
-            if(!(var7 != var10)) { _fun0011_ip = 50; continue _fun0011 }
 case 51:
-            if(!(var7 != var1)) { _fun0011_ip = 50; continue _fun0011 }
-case 52:
+            if(!(var7 != var10)) { _fun0011_ip = 52; continue _fun0011 }
+case 53:
+            if(!(var7 != var1)) { _fun0011_ip = 52; continue _fun0011 }
+case 54:
             var10 = var7 == var5;
             var1 = undefined;
-            if(var10) { _fun0011_ip = 53; continue _fun0011 }
-case 54:
+            if(var10) { _fun0011_ip = 36; continue _fun0011 }
+case 55:
             var1 = var5.id;
-case 53:
-            if(!(var7 != var1)) { _fun0011_ip = 55; continue _fun0011 }
-case 56:
-            if(!(var7 != var9)) { _fun0011_ip = 57; continue _fun0011 }
-case 58:
+case 36:
+            if(!(var7 != var1)) { _fun0011_ip = 56; continue _fun0011 }
+case 57:
+            if(!(var7 != var9)) { _fun0011_ip = 58; continue _fun0011 }
+case 59:
             var1 = {};
             var12 = var9.nick;
             var10 = var4;
-            if(!(var7 != var12)) { _fun0011_ip = 43; continue _fun0011 }
-case 59:
+            if(!(var7 != var12)) { _fun0011_ip = 60; continue _fun0011 }
+case 61:
             var10 = var12;
-case 43:
+case 60:
             var1['nick'] = var10;
             var10 = var9.colorString;
             var1['colorString'] = var10;
@@ -585,17 +585,17 @@ case 43:
             var1['colorStrings'] = var10;
             var12 = var7 == var11;
             var10 = undefined;
-            if(var12) { _fun0011_ip = 60; continue _fun0011 }
-case 61:
+            if(var12) { _fun0011_ip = 62; continue _fun0011 }
+case 63:
             var10 = var11.name;
-case 60:
+case 62:
             var1['colorRoleName'] = var10;
             var12 = var7 == var11;
             var10 = undefined;
-            if(var12) { _fun0011_ip = 62; continue _fun0011 }
-case 45:
+            if(var12) { _fun0011_ip = 64; continue _fun0011 }
+case 65:
             var10 = var11.id;
-case 62:
+case 64:
             var1['colorRoleId'] = var10;
             var10 = var9.iconRoleId;
             var1['iconRoleId'] = var10;
@@ -606,42 +606,42 @@ case 62:
             var9 = var2.primaryGuild;
             var10 = var7 != var9;
             var8 = undefined;
-            if(!var10) { _fun0011_ip = 63; continue _fun0011 }
-case 64:
+            if(!var10) { _fun0011_ip = 66; continue _fun0011 }
+case 67:
             var8 = var9;
-case 63:
+case 66:
             var1['primaryGuild'] = var8;
             var5 = var5.id;
             var1['guildId'] = var5;
             var2 = var2.id;
             var1['authorId'] = var2;
             var1['displayNameStyles'] = var3;
-            _fun0011_ip = 65; continue _fun0011;
-case 57:
+            _fun0011_ip = 68; continue _fun0011;
+case 58:
             var2 = {'nick': null, 'colorString': null, 'colorStrings': null};
             var2['nick'] = var4;
             var2['displayNameStyles'] = var3;
             var1 = var2;
-case 65:
-            _fun0011_ip = 66; continue _fun0011;
-case 55:
+case 68:
+            _fun0011_ip = 69; continue _fun0011;
+case 56:
             var2 = {'nick': null, 'colorString': null, 'colorStrings': null};
             var5 = var4;
-            if(!(var7 != var6)) { _fun0011_ip = 67; continue _fun0011 }
-case 68:
+            if(!(var7 != var6)) { _fun0011_ip = 70; continue _fun0011 }
+case 71:
             var5 = var6;
-case 67:
+case 70:
             var2['nick'] = var5;
             var2['displayNameStyles'] = var3;
             var1 = var2;
-case 66:
-            _fun0011_ip = 69; continue _fun0011;
-case 50:
+case 69:
+            _fun0011_ip = 72; continue _fun0011;
+case 52:
             var2 = {'nick': null, 'colorString': null, 'colorStrings': null};
             var2['nick'] = var4;
             var2['displayNameStyles'] = var3;
             var1 = var2;
-case 69:
+case 72:
             return var1;
         }
     };
@@ -702,10 +702,10 @@ case 0:
             var5 = var3 != var1;
             var4 = 'Result cannot be null because the message is not null';
             var4 = var6.bind(var7)(var5, var4);
-            if(!(var3 != var2)) { _fun0012_ip = 70; continue _fun0012 }
-case 71:
+            if(!(var3 != var2)) { _fun0012_ip = 73; continue _fun0012 }
+case 74:
             var1 = var2;
-case 70:
+case 73:
             return var1;
         }
     };

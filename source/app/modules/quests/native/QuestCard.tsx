@@ -453,8 +453,8 @@ case 8:
             var2 = var11.bind(var12)(var2, var7);
             var18 = var2.defaultRewardNameWithArticle;
             var _closure2_slot10 = var18;
-            var26 = 21;
-            var7 = var3[var26];
+            var25 = 21;
+            var7 = var3[var25];
             var13 = var6.bind(var5)(var7);
             var12 = var13.useStateFromStoresObject;
             var7 = _closure1_slot8;
@@ -487,7 +487,7 @@ case 8:
             var11 = var12.bind(var13)(var11, var7);
             var19 = var11.isFetchingRewardCode;
             var7 = var11.isClaimingReward;
-            var25 = var11.isEnrolling;
+            var24 = var11.isEnrolling;
             var20 = var11.questEnrollmentBlockedUntil;
             var _closure2_slot11 = var20;
             var3 = var3[var8];
@@ -504,23 +504,17 @@ case 11:
             var8 = var8.bind(var11)(var6, var3);
             var6 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var28 = 22;
-            var11 = var3[var28];
+            var26 = 22;
+            var11 = var3[var26];
             var12 = var6.bind(var5)(var11);
             var11 = var12.hasWatchVideoTasks;
             var13 = var11.bind(var12)(var1);
             var _closure2_slot12 = var13;
             var3 = var3[var10];
-            var11 = var6.bind(var5)(var3);
-            var10 = var11.useShouldAllowMobileVideoTask;
-            var6 = var1.config;
-            var3 = {};
-            var12 = _closure1_slot9;
-            var12 = var12.QUEST_HOME_MOBILE;
-            var3['location'] = var12;
-            var24 = false;
-            var3['autoTrackExposure'] = var24;
-            var12 = var10.bind(var11)(var6, var3);
+            var10 = var6.bind(var5)(var3);
+            var6 = var10.useHasWatchVideoOnMobileTasks;
+            var3 = var1.config;
+            var12 = var6.bind(var10)(var3);
             var _closure2_slot13 = var12;
             var6 = var1.userStatus;
             var10 = var21 == var6;
@@ -548,28 +542,28 @@ case 17:
             var10 = var21 != var3;
             var6 = _closure1_slot0;
             var22 = _closure1_slot2;
-            var3 = var22[var28];
+            var3 = var22[var26];
             var16 = var6.bind(var5)(var3);
             var3 = var16.isQuestExpired;
             var16 = var3.bind(var16)(var1);
             var3 = var2.defaultReward;
-            var32 = var3.skuId;
-            var3 = var22[var28];
-            var36 = var6.bind(var5)(var3);
-            var34 = var36.hasCollectiblesQuestReward;
+            var28 = var3.skuId;
+            var3 = var22[var26];
+            var34 = var6.bind(var5)(var3);
+            var32 = var34.hasCollectiblesQuestReward;
             var3 = var1.config;
-            var34 = var34.bind(var36)(var3);
+            var32 = var32.bind(var34)(var3);
             var3 = 23;
             var3 = var22[var3];
             var22 = var6.bind(var5)(var3);
             var6 = var22.useFetchCollectiblesProduct;
             var3 = null;
-            if(!var34) { _fun0001_ip = 19; continue _fun0001 }
+            if(!var32) { _fun0001_ip = 19; continue _fun0001 }
 case 20:
             var3 = null;
             if(!var11) { _fun0001_ip = 19; continue _fun0001 }
 case 21:
-            var3 = var32;
+            var3 = var28;
 case 19:
             var3 = var6.bind(var22)(var3);
             var6 = var3.product;
@@ -577,9 +571,9 @@ case 19:
             var6 = var3.isFetching;
             var22 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var3 = var3[var26];
-            var32 = var22.bind(var5)(var3);
-            var26 = var32.useStateFromStores;
+            var3 = var3[var25];
+            var28 = var22.bind(var5)(var3);
+            var25 = var28.useStateFromStores;
             var3 = _closure1_slot7;
             var22 = new Array(1);
             var22[0] = var3;
@@ -600,7 +594,7 @@ case 22:
                     return var1;
                 }
             };
-            var3 = var26.bind(var32)(var22, var3);
+            var3 = var25.bind(var28)(var22, var3);
             var _closure2_slot15 = var3;
             var3 = function trackClick(arg1) {
                 var3 = _closure2_slot8;
@@ -661,18 +655,18 @@ case 32:
             if(var13) { _fun0001_ip = 31; continue _fun0001 }
 case 33:
             var22 = {'text': null, 'variant': 'secondary', 'disabled': false};
-            var34 = _closure1_slot0;
-            var36 = _closure1_slot2;
+            var32 = _closure1_slot0;
+            var34 = _closure1_slot2;
             var3 = 27;
-            var26 = var36[var3];
-            var26 = var34.bind(var5)(var26);
-            var32 = var26.intl;
-            var26 = var32.string;
-            var3 = var36[var3];
-            var3 = var34.bind(var5)(var3);
+            var25 = var34[var3];
+            var25 = var32.bind(var5)(var25);
+            var28 = var25.intl;
+            var25 = var28.string;
+            var3 = var34[var3];
+            var3 = var32.bind(var5)(var3);
             var3 = var3.t;
             var3 = var3.JiosAg;
-            var3 = var26.bind(var32)(var3);
+            var3 = var25.bind(var28)(var3);
             var22['text'] = var3;
             var3 = function onPress() {
                 var4 = _closure2_slot7;
@@ -697,23 +691,24 @@ case 33:
             _fun0001_ip = 34; continue _fun0001;
 case 31:
             var3 = {};
-            var36 = _closure1_slot0;
-            var38 = _closure1_slot2;
-            var26 = 27;
-            var32 = var38[var26];
-            var32 = var36.bind(var5)(var32);
-            var34 = var32.intl;
-            var32 = var34.string;
-            var26 = var38[var26];
-            var26 = var36.bind(var5)(var26);
-            var26 = var26.t;
-            var26 = var26.kUQLMD;
-            var26 = var32.bind(var34)(var26);
-            var3['text'] = var26;
-            var3['disabled'] = var24;
-            var3['loading'] = var25;
-            var26 = _closure1_slot3;
-            var25 = function* () {
+            var34 = _closure1_slot0;
+            var36 = _closure1_slot2;
+            var25 = 27;
+            var28 = var36[var25];
+            var28 = var34.bind(var5)(var28);
+            var32 = var28.intl;
+            var28 = var32.string;
+            var25 = var36[var25];
+            var25 = var34.bind(var5)(var25);
+            var25 = var25.t;
+            var25 = var25.kUQLMD;
+            var25 = var28.bind(var32)(var25);
+            var3['text'] = var25;
+            var25 = false;
+            var3['disabled'] = var25;
+            var3['loading'] = var24;
+            var25 = _closure1_slot3;
+            var24 = function* () {
                 var1 = function* anon_0_() {
                     _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -785,9 +780,9 @@ case 35:
                 };
                 return var1;
             };
-            var25 = var26.bind(var5)(var25);
-            var _closure2_slot0 = var25;
-            var25 = function() {
+            var24 = var25.bind(var5)(var24);
+            var _closure2_slot0 = var24;
+            var24 = function() {
                 var1 = undefined;
                 var4 = _closure2_slot0;
                 var3 = var4.apply;
@@ -797,19 +792,20 @@ case 35:
                 var1 = var3.bind(var4)(var1, var2);
                 return var1;
             };
-            var3['onPress'] = var25;
+            var3['onPress'] = var24;
             var22 = var3;
 case 34:
             _fun0001_ip = 45; continue _fun0001;
 case 30:
             var3 = {};
-            var26 = _closure1_slot0;
-            var25 = _closure1_slot2;
-            var25 = var25[var28];
-            var26 = var26.bind(var5)(var25);
-            var25 = var26.getVideoQuestWatchCtaText;
-            var25 = var25.bind(var26)(var33);
-            var3['text'] = var25;
+            var25 = _closure1_slot0;
+            var24 = _closure1_slot2;
+            var24 = var24[var26];
+            var25 = var25.bind(var5)(var24);
+            var24 = var25.getVideoQuestWatchCtaText;
+            var24 = var24.bind(var25)(var33);
+            var3['text'] = var24;
+            var24 = false;
             var3['disabled'] = var24;
             var24 = function onPress() {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {

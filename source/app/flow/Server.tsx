@@ -231,6 +231,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['FILE_UPLOAD'] = var6;
     var1 = 'FILE_UPLOAD';
     var9[var6] = var1;
+    var6 = 20;
+    var9['CHECKPOINT_CARD'] = var6;
+    var1 = 'CHECKPOINT_CARD';
+    var9[var6] = var1;
     var8 = {};
     var8['PRIMARY'] = var26;
     var1 = 'PRIMARY';

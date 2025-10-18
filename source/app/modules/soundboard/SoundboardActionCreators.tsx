@@ -1,12 +1,12 @@
 // app/modules/soundboard/SoundboardActionCreators.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var6 = require;
+    var7 = require;
     var5 = metroImportDefault;
     var3 = exports;
-    var7 = dependencyMap;
-    var _closure1_slot0 = var6;
+    var8 = dependencyMap;
+    var _closure1_slot0 = var7;
     var _closure1_slot1 = var5;
-    var _closure1_slot2 = var7;
+    var _closure1_slot2 = var8;
     var1 = function _uploadSound() {
         var5 = undefined;
         var1 = undefined;
@@ -85,7 +85,7 @@ case 2:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot15 = var4;
+        _closure1_slot17 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -93,7 +93,7 @@ case 2:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot15 = var1;
+    var _closure1_slot17 = var1;
     var1 = function _updateSound() {
         var5 = undefined;
         var1 = undefined;
@@ -171,7 +171,7 @@ case 12:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot16 = var4;
+        _closure1_slot18 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -179,7 +179,7 @@ case 12:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot16 = var1;
+    var _closure1_slot18 = var1;
     var1 = function _deleteSound() {
         var5 = undefined;
         var1 = undefined;
@@ -225,7 +225,7 @@ case 18:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot17 = var4;
+        _closure1_slot19 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -233,7 +233,7 @@ case 18:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot17 = var1;
+    var _closure1_slot19 = var1;
     var1 = function _fetchSoundGuildData() {
         var5 = undefined;
         var1 = undefined;
@@ -281,7 +281,7 @@ case 23:
 case 29:
                     var7 = _closure1_slot0;
                     var8 = _closure1_slot2;
-                    var6 = 15;
+                    var6 = 16;
                     var6 = var8[var6];
                     var7 = var7.bind(var5)(var6);
                     var6 = var7.makeDiscoverableGuild;
@@ -312,7 +312,7 @@ case 24:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot18 = var4;
+        _closure1_slot20 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -320,39 +320,39 @@ case 24:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot18 = var1;
+    var _closure1_slot20 = var1;
     var1 = global;
     var9 = var1.Object;
-    var8 = var9.defineProperty;
+    var6 = var9.defineProperty;
     var4 = {};
     var1 = true;
     var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = var6.bind(var9)(var3, var1, var4);
     var1 = 0;
-    var4 = var7[var1];
+    var4 = var8[var1];
     var1 = undefined;
     var4 = var5.bind(var1)(var4);
     var _closure1_slot3 = var4;
     var4 = 1;
-    var4 = var7[var4];
+    var4 = var8[var4];
     var4 = var5.bind(var1)(var4);
     var _closure1_slot4 = var4;
     var4 = 2;
-    var4 = var7[var4];
-    var4 = var6.bind(var1)(var4);
+    var4 = var8[var4];
+    var4 = var7.bind(var1)(var4);
     var4 = var4.DEFAULT_SOUND_GUILD_ID;
     var _closure1_slot5 = var4;
     var4 = 3;
-    var4 = var7[var4];
-    var4 = var6.bind(var1)(var4);
+    var4 = var8[var4];
+    var4 = var7.bind(var1)(var4);
     var5 = var4.Endpoints;
     var _closure1_slot6 = var5;
     var4 = var4.AnalyticEvents;
     var _closure1_slot7 = var4;
     var4 = 4;
-    var4 = var7[var4];
-    var4 = var6.bind(var1)(var4);
+    var4 = var8[var4];
+    var4 = var7.bind(var1)(var4);
     var5 = var4.MAX_FAVORITES;
     var _closure1_slot8 = var5;
     var4 = var4.UserSettingsDelay;
@@ -468,6 +468,143 @@ case 31:
     };
     var4 = var4.bind(var1)();
     var _closure1_slot11 = var4;
+    var4 = function() {
+        var4 = _closure1_slot3;
+        var3 = undefined;
+        var2 = function* () {
+            var1 = function* anon_0_() {
+                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+case 0:
+                    StartGenerator();
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                    if(var2) { _fun0006_ip = 38; continue _fun0006 }
+case 39:
+                    var2 = undefined;
+                    var6 = undefined;
+                    var _closure4_slot0 = var2;
+                    var7 = global;
+                    var3 = var7.Map;
+                    var5 = var3.prototype;
+                    var5 = Object.create(var5, {constructor: {value: var3}});
+                    var11 = var5;
+                    var3 = new var11[var3](var10);
+                    var3 = var3 instanceof Object ? var3 : var5;
+                    var6 = var3;
+                    _closure4_slot0 = var3;
+case 40: // try_start_0
+                    var5 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var3 = 5;
+                    var3 = var8[var3];
+                    var3 = var5.bind(var2)(var3);
+                    var8 = var3.HTTP;
+                    var5 = var8.get;
+                    var3 = {'url': null, 'rejectWithError': false, 'timeout': 500};
+                    var9 = _closure1_slot6;
+                    var9 = var9.TOP_SOUNDS_FOR_GUILDS;
+                    var3['url'] = var9;
+                    var3 = var5.bind(var8)(var3);
+                    SaveGenerator(address=127);
+case 41:
+                    return var3;
+case 42:
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
+                    if(var5) { _fun0006_ip = 43; continue _fun0006 }
+case 44:
+                    var5 = var3.body;
+                    var8 = var7.Object;
+                    var7 = var8.entries;
+                    var5 = var5.top_sounds_by_guild;
+                    var7 = var7.bind(var8)(var5);
+                    var5 = var7.forEach;
+                    var4 = function(arg1) {
+                        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+case 0:
+                            var4 = arg1;
+                            var2 = var4[Symbol.iterator];
+                            var4 = var2().next;
+                            var6 = var4().value;
+                            var3 = var2;
+                            var1 = undefined;
+                            var3 = var3 === var1;
+                            var5 = undefined;
+                            if(var3) { _fun0007_ip = 45; continue _fun0007 }
+case 46:
+                            var5 = var6;
+case 45:
+                            var7 = undefined;
+                            if(var3) { _fun0007_ip = 47; continue _fun0007 }
+case 48:
+                            var6 = var4().value;
+                            var4 = var2;
+                            var4 = var4 === var1;
+                            var7 = undefined;
+                            var3 = var4;
+                            if(var4) { _fun0007_ip = 47; continue _fun0007 }
+case 4:
+                            var7 = var6;
+                            var3 = var4;
+case 47:
+                            if(var3) { _fun0007_ip = 49; continue _fun0007 }
+case 50:
+                            var2.return();
+case 49:
+                            var4 = _closure4_slot0;
+                            var3 = var4.set;
+                            var6 = var7.map;
+                            var8 = _closure1_slot0;
+                            var9 = _closure1_slot2;
+                            var2 = 6;
+                            var2 = var9[var2];
+                            var2 = var8.bind(var1)(var2);
+                            var2 = var2.topSoundForGuildFromAPI;
+                            var2 = var6.bind(var7)(var2);
+                            var2 = var3.bind(var4)(var5, var2);
+                            return var1;
+                        }
+                    };
+                    var4 = var5.bind(var7)(var4);
+case 51: // try_end0
+                    _fun0006_ip = 52; continue _fun0006;
+case 43:
+                    return var3;
+case 53: // catch_target0
+                    CatchBlockStart(arg_register=2);
+case 52:
+                    var4 = _closure1_slot1;
+                    var5 = _closure1_slot2;
+                    var3 = 7;
+                    var3 = var5[var3];
+                    var5 = var4.bind(var2)(var3);
+                    var4 = var5.dispatch;
+                    var3 = {};
+                    var7 = 'SOUNDBOARD_TOP_SOUNDS_FOR_GUILDS_SUCCESS';
+                    var3['type'] = var7;
+                    var3['topSoundsForGuilds'] = var6;
+                    var3 = var4.bind(var5)(var3);
+                    return var2;
+case 38:
+                    return var1;
+                }
+            };
+            return var1;
+        };
+        var2 = var4.bind(var3)(var2);
+        var _closure2_slot0 = var2;
+        var1 = function() {
+            var1 = undefined;
+            var4 = _closure2_slot0;
+            var3 = var4.apply;
+            var1 = arguments;
+            var2 = var1;
+            var1 = this;
+            var1 = var3.bind(var4)(var1, var2);
+            return var1;
+        };
+        return var1;
+    };
+    var4 = var4.bind(var1)();
+    var _closure1_slot12 = var4;
     var4 = function _resolveOnActionCompleted(arg1) {
         var2 = arg1;
         var _closure2_slot0 = var2;
@@ -513,47 +650,59 @@ case 31:
         var1 = var1 instanceof Object ? var1 : var2;
         return var1;
     };
-    var _closure1_slot12 = var4;
+    var _closure1_slot13 = var4;
     var4 = function _maybeFetchDefaultSounds() {
-        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var3 = _closure1_slot4;
             var1 = var3.shouldFetchDefaultSounds;
             var1 = var1.bind(var3)();
-            if(var1) { _fun0006_ip = 38; continue _fun0006 }
-case 39:
+            if(var1) { _fun0008_ip = 54; continue _fun0008 }
+case 55:
             var1 = global;
             var3 = var1.Promise;
             var1 = var3.resolve;
             var1 = var1.bind(var3)();
             return var1;
-case 38:
+case 54:
             var4 = _closure1_slot1;
-            var3 = _closure1_slot2;
+            var6 = _closure1_slot2;
             var1 = 7;
-            var1 = var3[var1];
+            var1 = var6[var1];
             var3 = undefined;
             var5 = var4.bind(var3)(var1);
             var4 = var5.dispatch;
             var1 = {};
-            var6 = 'SOUNDBOARD_FETCH_DEFAULT_SOUNDS';
-            var1['type'] = var6;
+            var7 = 'SOUNDBOARD_FETCH_DEFAULT_SOUNDS';
+            var1['type'] = var7;
             var1 = var4.bind(var5)(var1);
-            var4 = _closure1_slot12;
+            var4 = _closure1_slot13;
             var1 = 'SOUNDBOARD_FETCH_DEFAULT_SOUNDS_SUCCESS';
             var1 = var4.bind(var3)(var1);
+            var5 = _closure1_slot0;
+            var4 = 9;
+            var4 = var6[var4];
+            var6 = var5.bind(var3)(var4);
+            var5 = var6.isInMetricsCaptureVariant;
+            var4 = 'maybeFetchDefaultSounds';
+            var4 = var5.bind(var6)(var4);
+            if(!var4) { _fun0008_ip = 56; continue _fun0008 }
+case 57:
+            var4 = _closure1_slot12;
+            var4 = var4.bind(var3)();
+case 56:
             var2 = _closure1_slot11;
             var2 = var2.bind(var3)();
             return var1;
         }
     };
-    var _closure1_slot13 = var4;
+    var _closure1_slot14 = var4;
     var4 = function _maybeFetchGuildSoundboardSounds() {
-        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var1 = 9;
+            var1 = 10;
             var1 = var4[var1];
             var4 = undefined;
             var3 = var3.bind(var4)(var1);
@@ -561,9 +710,9 @@ case 0:
             var5 = var1.bind(var3)();
             var3 = var5.length;
             var1 = 0;
-            if(!(var1 !== var3)) { _fun0007_ip = 40; continue _fun0007 }
-case 41:
-            var3 = _closure1_slot12;
+            if(!(var1 !== var3)) { _fun0009_ip = 58; continue _fun0009 }
+case 59:
+            var3 = _closure1_slot13;
             var1 = 'SOUNDBOARD_SOUNDS_RECEIVED';
             var1 = var3.bind(var4)(var1);
             var3 = _closure1_slot1;
@@ -585,7 +734,7 @@ case 41:
             var2['guildIds'] = var5;
             var2 = var3.bind(var4)(var2);
             return var1;
-case 40:
+case 58:
             var1 = global;
             var2 = var1.Promise;
             var1 = var2.resolve;
@@ -593,17 +742,51 @@ case 40:
             return var1;
         }
     };
-    var _closure1_slot14 = var4;
+    var _closure1_slot15 = var4;
+    var5 = function _maybeFetchTopSoundsForGuilds() {
+        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+case 0:
+            var3 = _closure1_slot4;
+            var1 = var3.shouldFetchTopSoundsForGuilds;
+            var1 = var1.bind(var3)();
+            if(var1) { _fun0010_ip = 54; continue _fun0010 }
+case 55:
+            var1 = global;
+            var3 = var1.Promise;
+            var1 = var3.resolve;
+            var1 = var1.bind(var3)();
+            return var1;
+case 54:
+            var4 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var1 = 7;
+            var1 = var3[var1];
+            var3 = undefined;
+            var5 = var4.bind(var3)(var1);
+            var4 = var5.dispatch;
+            var1 = {};
+            var6 = 'SOUNDBOARD_TOP_SOUNDS_FOR_GUILDS_FETCH';
+            var1['type'] = var6;
+            var1 = var4.bind(var5)(var1);
+            var4 = _closure1_slot13;
+            var1 = 'SOUNDBOARD_TOP_SOUNDS_FOR_GUILDS_SUCCESS';
+            var1 = var4.bind(var3)(var1);
+            var2 = _closure1_slot12;
+            var2 = var2.bind(var3)();
+            return var1;
+        }
+    };
+    var _closure1_slot16 = var5;
     var4 = function() {
         var4 = _closure1_slot3;
         var3 = undefined;
         var2 = function* () {
             var1 = function* anon_0_() {
-                _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+                _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0008_ip = 42; continue _fun0008 }
+                    if(var2) { _fun0011_ip = 60; continue _fun0011 }
 case 25:
                     var4 = global;
                     var3 = var4.performance;
@@ -614,30 +797,33 @@ case 25:
                     _closure1_slot10 = var2;
                     var9 = var4.Promise;
                     var7 = var9.all;
-                    var2 = _closure1_slot13;
+                    var2 = _closure1_slot14;
                     var6 = undefined;
                     var10 = var2.bind(var6)();
-                    var2 = new Array(2);
+                    var2 = new Array(3);
                     var2[0] = var10;
-                    var10 = _closure1_slot14;
+                    var10 = _closure1_slot15;
                     var10 = var10.bind(var6)();
                     var2[1] = var10;
+                    var10 = _closure1_slot16;
+                    var10 = var10.bind(var6)();
+                    var2[2] = var10;
                     var2 = var7.bind(var9)(var2);
-                    SaveGenerator(address=91);
-case 43:
+                    SaveGenerator(address=103);
+case 61:
                     return var2;
-case 44:
+case 62:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=6);
-                    if(var7) { _fun0008_ip = 45; continue _fun0008 }
-case 46:
-                    if(var5) { _fun0008_ip = 47; continue _fun0008 }
-case 48:
+                    if(var7) { _fun0011_ip = 63; continue _fun0011 }
+case 64:
+                    if(var5) { _fun0011_ip = 65; continue _fun0011 }
+case 66:
                     var5 = var4.performance;
                     var4 = var5.now;
                     var7 = var4.bind(var5)();
                     var5 = _closure1_slot1;
                     var9 = _closure1_slot2;
-                    var4 = 10;
+                    var4 = 11;
                     var4 = var9[var4];
                     var6 = var5.bind(var6)(var4);
                     var5 = var6.track;
@@ -647,11 +833,11 @@ case 48:
                     var7 = var7 - var8;
                     var3['elapsed_ms'] = var7;
                     var3 = var5.bind(var6)(var4, var3);
-case 47:
+case 65:
                     return var2;
-case 45:
+case 63:
                     return var2;
-case 42:
+case 60:
                     return var1;
                 }
             };
@@ -672,16 +858,17 @@ case 42:
         return var1;
     };
     var4 = var4.bind(var1)();
-    var5 = 16;
-    var5 = var7[var5];
-    var7 = var6.bind(var1)(var5);
-    var6 = var7.fileFinishedImporting;
-    var5 = 'modules/soundboard/SoundboardActionCreators.tsx';
-    var5 = var6.bind(var7)(var5);
+    var6 = 17;
+    var6 = var8[var6];
+    var8 = var7.bind(var1)(var6);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'modules/soundboard/SoundboardActionCreators.tsx';
+    var6 = var7.bind(var8)(var6);
+    var3['_maybeFetchTopSoundsForGuilds'] = var5;
     var3['maybeFetchSoundboardSounds'] = var4;
     var4 = function uploadSound() {
         var1 = undefined;
-        var4 = _closure1_slot15;
+        var4 = _closure1_slot17;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -692,7 +879,7 @@ case 42:
     var3['uploadSound'] = var4;
     var4 = function updateSound() {
         var1 = undefined;
-        var4 = _closure1_slot16;
+        var4 = _closure1_slot18;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -703,7 +890,7 @@ case 42:
     var3['updateSound'] = var4;
     var4 = function deleteSound() {
         var1 = undefined;
-        var4 = _closure1_slot17;
+        var4 = _closure1_slot19;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -717,7 +904,7 @@ case 42:
         var _closure2_slot0 = var1;
         var5 = _closure1_slot0;
         var4 = _closure1_slot2;
-        var1 = 11;
+        var1 = 12;
         var4 = var4[var1];
         var1 = undefined;
         var4 = var5.bind(var1)(var4);
@@ -727,12 +914,12 @@ case 42:
         var4 = var3.INFREQUENT_USER_ACTION;
         var3 = 'favoriteSoundboardSounds';
         var2 = function(arg1) {
-            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+            _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
                 var3 = arg1;
                 var2 = _closure1_slot1;
                 var4 = _closure1_slot2;
-                var1 = 12;
+                var1 = 13;
                 var1 = var4[var1];
                 var10 = undefined;
                 var4 = var2.bind(var10)(var1);
@@ -740,32 +927,32 @@ case 0:
                 var1 = var3.soundIds;
                 var2 = var2.bind(var4)(var1);
                 var1 = _closure1_slot8;
-                if(!(!(var2 >= var1))) { _fun0009_ip = 49; continue _fun0009 }
-case 50:
+                if(!(!(var2 >= var1))) { _fun0012_ip = 67; continue _fun0012 }
+case 68:
                 var5 = var3.soundIds;
                 var4 = var5.includes;
                 var1 = _closure2_slot0;
                 var1 = var4.bind(var5)(var1);
                 var1 = !var1;
-                if(!var1) { _fun0009_ip = 51; continue _fun0009 }
-case 52:
+                if(!var1) { _fun0012_ip = 62; continue _fun0012 }
+case 69:
                 var4 = var3.soundIds;
                 var3 = var4.push;
                 var2 = _closure2_slot0;
                 var2 = var3.bind(var4)(var2);
                 var1 = undefined;
-case 51:
-                _fun0009_ip = 53; continue _fun0009;
-case 49:
+case 62:
+                _fun0012_ip = 70; continue _fun0012;
+case 67:
                 var3 = _closure1_slot1;
                 var11 = _closure1_slot2;
-                var2 = 13;
+                var2 = 14;
                 var2 = var11[var2];
                 var4 = var3.bind(var10)(var2);
                 var3 = var4.show;
                 var2 = {};
                 var6 = _closure1_slot0;
-                var5 = 14;
+                var5 = 15;
                 var7 = var11[var5];
                 var7 = var6.bind(var10)(var7);
                 var12 = var7.intl;
@@ -791,7 +978,7 @@ case 49:
                 var2['body'] = var5;
                 var2 = var3.bind(var4)(var2);
                 var1 = false;
-case 53:
+case 70:
                 return var1;
             }
         };
@@ -804,7 +991,7 @@ case 53:
         var _closure2_slot0 = var1;
         var5 = _closure1_slot0;
         var4 = _closure1_slot2;
-        var1 = 11;
+        var1 = 12;
         var4 = var4[var1];
         var1 = undefined;
         var4 = var5.bind(var1)(var4);
@@ -834,7 +1021,7 @@ case 53:
     var3['removeFavoriteSound'] = var4;
     var4 = function fetchSoundGuildData() {
         var1 = undefined;
-        var4 = _closure1_slot18;
+        var4 = _closure1_slot20;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;

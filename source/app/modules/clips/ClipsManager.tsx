@@ -252,22 +252,14 @@ case 8:
                     return var1;
                 };
                 var2['RTC_CONNECTION_VIDEO'] = var4;
-                var4 = function RTC_CONNECTION_STATE(arg1) {
+                var3 = function RTC_CONNECTION_STATE(arg1) {
                     var3 = _closure3_slot0;
                     var2 = var3.handleRTCConnectionState;
                     var1 = arg1;
                     var1 = var2.bind(var3)(var1);
                     return var1;
                 };
-                var2['RTC_CONNECTION_STATE'] = var4;
-                var3 = function MEDIA_ENGINE_SET_HARDWARE_ENCODING(arg1) {
-                    var3 = _closure3_slot0;
-                    var2 = var3.handleMediaEngineSetHardwareEncoding;
-                    var1 = arg1;
-                    var1 = var2.bind(var3)(var1);
-                    return var1;
-                };
-                var2['MEDIA_ENGINE_SET_HARDWARE_ENCODING'] = var3;
+                var2['RTC_CONNECTION_STATE'] = var3;
                 var1['actions'] = var2;
                 return var1;
             }

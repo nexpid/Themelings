@@ -275,16 +275,16 @@ case 0:
                         var6 = null;
                         var9 = var6 == var8;
                         var7 = undefined;
-                        if(var9) { _fun0003_ip = 5; continue _fun0003 }
-case 8:
+                        if(var9) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
                         var7 = var8.currentPrompt;
-case 5:
+case 8:
                         var8 = var6 != var7;
                         var6 = 0;
-                        if(!var8) { _fun0003_ip = 9; continue _fun0003 }
-case 10:
+                        if(!var8) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
                         var6 = var7;
-case 9:
+case 10:
                         var1['currentPromptIdx'] = var6;
                         var6 = _closure4_slot1;
                         var1['prompts'] = var6;

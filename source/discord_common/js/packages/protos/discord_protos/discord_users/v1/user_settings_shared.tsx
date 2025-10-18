@@ -341,7 +341,7 @@ case 28:
 case 8:
                 var2 = var5.dataVersion;
                 if(!(var3 !== var2)) { _fun0005_ip = 29; continue _fun0005 }
-case 30:
+case 26:
                 var4 = var1.tag;
                 var6 = _closure1_slot0;
                 var3 = _closure1_slot1;
@@ -360,11 +360,11 @@ case 29:
                 var2 = arg3;
                 var4 = var2.writeUnknownFields;
                 var2 = false;
-                if(!(var2 !== var4)) { _fun0005_ip = 31; continue _fun0005 }
-case 32:
+                if(!(var2 !== var4)) { _fun0005_ip = 30; continue _fun0005 }
+case 31:
                 var2 = 1;
-                if(!(var2 == var4)) { _fun0005_ip = 33; continue _fun0005 }
-case 34:
+                if(!(var2 == var4)) { _fun0005_ip = 32; continue _fun0005 }
+case 33:
                 var6 = _closure1_slot0;
                 var3 = _closure1_slot1;
                 var2 = 6;
@@ -373,12 +373,12 @@ case 34:
                 var2 = var6.bind(var2)(var3);
                 var2 = var2.UnknownFieldHandler;
                 var4 = var2.onWrite;
-case 33:
+case 32:
                 var2 = this;
                 var3 = var2.typeName;
                 var2 = undefined;
                 var2 = var4.bind(var2)(var3, var5, var1);
-case 31:
+case 30:
                 return var1;
             }
         };

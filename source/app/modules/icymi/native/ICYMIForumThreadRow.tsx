@@ -667,10 +667,10 @@ case 0:
             var5 = 1;
             var2['flex'] = var5;
             var5 = 0;
-            if(var4) { _fun0008_ip = 37; continue _fun0008 }
-case 38:
-            var5 = var3.inset;
+            if(var4) { _fun0008_ip = 3; continue _fun0008 }
 case 37:
+            var5 = var3.inset;
+case 3:
             var2['paddingLeft'] = var5;
             var1['pressable'] = var2;
             var2 = {};
@@ -693,24 +693,24 @@ case 37:
             var2 = {};
             var6 = undefined;
             if(!var4) { _fun0008_ip = 21; continue _fun0008 }
-case 39:
+case 38:
             var6 = var9;
 case 21:
             var2['backgroundColor'] = var6;
             var6 = 'flex-end';
             var2['justifyContent'] = var6;
-            if(var4) { _fun0008_ip = 40; continue _fun0008 }
-case 41:
-            var4 = var3.inset;
-            _fun0008_ip = 42; continue _fun0008;
+            if(var4) { _fun0008_ip = 39; continue _fun0008 }
 case 40:
+            var4 = var3.inset;
+            _fun0008_ip = 41; continue _fun0008;
+case 39:
             var6 = _closure1_slot1;
             var5 = _closure1_slot2;
             var5 = var5[var8];
             var5 = var6.bind(var7)(var5);
             var5 = var5.spacing;
             var4 = var5.PX_32;
-case 42:
+case 41:
             var2['paddingLeft'] = var4;
             var4 = var3.margin;
             var2['marginTop'] = var4;

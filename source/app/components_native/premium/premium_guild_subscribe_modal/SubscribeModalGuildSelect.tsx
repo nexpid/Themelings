@@ -210,24 +210,24 @@ case 11:
                         var5 = _closure2_slot0;
                         var8 = var6 == var5;
                         var5 = undefined;
-                        if(var8) { _fun0003_ip = 12; continue _fun0003 }
-case 13:
+                        if(var8) { _fun0003_ip = 7; continue _fun0003 }
+case 6:
                         var4 = _closure2_slot0;
                         var4 = var4.premiumGuildSubscription;
                         var6 = var6 == var4;
                         var5 = undefined;
-                        if(var6) { _fun0003_ip = 12; continue _fun0003 }
-case 14:
-                        var5 = var4.guildId;
+                        if(var6) { _fun0003_ip = 7; continue _fun0003 }
 case 12:
+                        var5 = var4.guildId;
+case 7:
                         var4 = var3.id;
                         var2 = var5 === var4;
 case 10:
-                        if(var2) { _fun0003_ip = 15; continue _fun0003 }
-case 16:
+                        if(var2) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
                         var2 = var1.push;
                         var2 = var2.bind(var1)(var3);
-case 15:
+case 13:
                         return var1;
                     }
                 };

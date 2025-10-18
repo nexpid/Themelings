@@ -86,28 +86,34 @@ case 7:
 case 0:
                         var6 = arg1;
                         var1 = arg2;
-                        var1 = var1.randomizedSources;
+                        var3 = var1.randomizedSources;
                         var2 = null;
-                        var2 = var2 == var1;
-                        var5 = undefined;
-                        if(var2) { _fun0003_ip = 8; continue _fun0003 }
+                        var4 = var2 == var3;
+                        var1 = undefined;
+                        if(var4) { _fun0003_ip = 8; continue _fun0003 }
 case 2:
-                        var5 = var1.length;
+                        var1 = var3.length;
 case 8:
+                        var2 = var2 != var1;
                         var3 = 0;
-                        var1 = var6;
-                        if(!(var5 > var3)) { _fun0003_ip = 9; continue _fun0003 }
+                        var5 = 0;
+                        if(!var2) { _fun0003_ip = 9; continue _fun0003 }
 case 10:
+                        var5 = var1;
+case 9:
+                        var1 = var6;
+                        if(!(var5 > var3)) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
                         var2 = var5;
-                        if(!(var3 !== var6)) { _fun0003_ip = 11; continue _fun0003 }
-case 4:
+                        if(!(var3 !== var6)) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
                         var3 = global;
                         var4 = var3.Math;
                         var3 = var4.min;
                         var2 = var3.bind(var4)(var6, var5);
-case 11:
+case 13:
                         var1 = var2;
-case 9:
+case 11:
                         return var1;
                     }
                 };
@@ -132,23 +138,24 @@ case 9:
                     _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                         var1 = arg1;
-                        var2 = var1.randomizedSources;
-                        var3 = null;
-                        var4 = var3 == var2;
-                        var3 = undefined;
-                        if(var4) { _fun0004_ip = 12; continue _fun0004 }
-case 3:
-                        var3 = var2.length;
-case 12:
-                        var2 = 0;
-                        if(!(var3 > var2)) { _fun0004_ip = 13; continue _fun0004 }
-case 14:
+                        var3 = var1.randomizedSources;
+                        var2 = null;
+                        var2 = var2 != var3;
+                        if(!var2) { _fun0004_ip = 15; continue _fun0004 }
+case 7:
+                        var3 = var1.randomizedSources;
+                        var4 = var3.length;
+                        var3 = 0;
+                        var2 = var4 > var3;
+case 15:
+                        if(!var2) { _fun0004_ip = 16; continue _fun0004 }
+case 17:
                         var3 = var1.randomizedSources;
                         var2 = _closure3_slot0;
                         var2 = var3[var2];
                         var2 = var2.src;
                         var1['src'] = var2;
-case 13:
+case 16:
                         return var1;
                     }
                 };

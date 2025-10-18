@@ -310,8 +310,8 @@ case 0:
                 var3 = var3.bind(var8)(var4);
                 var5 = var6.bind(var7)(var5, var3);
                 var3 = true;
-                if(!(var3 === var5)) { _fun0004_ip = 8; continue _fun0004 }
-case 18:
+                if(!(var3 === var5)) { _fun0004_ip = 18; continue _fun0004 }
+case 19:
                 var3 = _closure1_slot0;
                 var5 = _closure1_slot1;
                 var2 = 14;
@@ -324,7 +324,7 @@ case 18:
                 var3 = var3.bind(var1)(var2);
                 var2 = var3.fetchAppliedGuildBoostsForGuild;
                 var2 = var2.bind(var3)(var4);
-case 8:
+case 18:
                 return var1;
             }
         };

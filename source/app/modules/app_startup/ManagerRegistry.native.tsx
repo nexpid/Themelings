@@ -1210,27 +1210,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1['neverLoadBeforeConnectionOpen'] = var7;
     var2['ThreadManager'] = var1;
     var1 = {};
-    var8 = ['GUILD_CREATE', 'POST_CONNECTION_OPEN'];
-    var1['actions'] = var8;
-    var8 = function inlineRequire() {
-        var3 = _closure1_slot0;
-        var2 = _closure1_slot1;
-        var1 = 78;
-        var2 = var2[var1];
-        var1 = undefined;
-        var1 = var3.bind(var1)(var2);
-        var1 = var1.default;
-        return var1;
-    };
-    var1['inlineRequire'] = var8;
-    var2['UnreadSettingsManager'] = var1;
-    var1 = {};
     var8 = ['POST_CONNECTION_OPEN', 'MESSAGE_CREATE', 'CHANNEL_SELECT'];
     var1['actions'] = var8;
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 79;
+        var1 = 78;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1246,7 +1231,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 80;
+        var1 = 79;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1261,7 +1246,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 81;
+        var1 = 80;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1277,7 +1262,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 82;
+        var1 = 81;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1292,7 +1277,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 83;
+        var1 = 82;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1308,7 +1293,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 84;
+        var1 = 83;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1323,7 +1308,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 85;
+        var1 = 84;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1338,7 +1323,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 86;
+        var1 = 85;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1353,7 +1338,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 87;
+        var1 = 86;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1368,7 +1353,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 88;
+        var1 = 87;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1383,7 +1368,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 89;
+        var1 = 88;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1398,7 +1383,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 90;
+        var1 = 89;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1409,12 +1394,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1['neverLoadBeforeConnectionOpen'] = var7;
     var2['MediaPostEmbedManager'] = var1;
     var1 = {};
-    var8 = ['RTC_CONNECTION_FLAGS', 'RTC_CONNECTION_STATE', 'POST_CONNECTION_OPEN', 'RTC_CONNECTION_USERS_MERGED', 'CLIPS_ALLOW_VOICE_RECORDING_UPDATE', 'CLIPS_SETTINGS_UPDATE', 'CLIPS_INIT_FAILURE', 'STREAM_START', 'RUNNING_GAMES_CHANGE', 'RUNNING_GAME_TOGGLE_DETECTION', 'CLIPS_RESTART', 'RTC_CONNECTION_VIDEO', 'MEDIA_ENGINE_SET_HARDWARE_ENCODING'];
+    var8 = ['RTC_CONNECTION_FLAGS', 'RTC_CONNECTION_STATE', 'POST_CONNECTION_OPEN', 'RTC_CONNECTION_USERS_MERGED', 'CLIPS_ALLOW_VOICE_RECORDING_UPDATE', 'CLIPS_SETTINGS_UPDATE', 'CLIPS_INIT_FAILURE', 'STREAM_START', 'RUNNING_GAMES_CHANGE', 'RUNNING_GAME_TOGGLE_DETECTION', 'CLIPS_RESTART', 'RTC_CONNECTION_VIDEO'];
     var1['actions'] = var8;
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 91;
+        var1 = 90;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1430,7 +1415,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 92;
+        var1 = 91;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1441,7 +1426,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1['neverLoadBeforeConnectionOpen'] = var7;
     var2['MidjourneyOnboardingManager'] = var1;
     var1 = {};
-    var8 = ['MESSAGE_ACK', 'CHANNEL_SELECT', 'POST_CONNECTION_OPEN', 'EXPERIMENT_OVERRIDE_BUCKET', 'EXPERIMENTS_FETCH_SUCCESS'];
+    var8 = ['MESSAGE_ACK', 'CHANNEL_SELECT', 'POST_CONNECTION_OPEN', 'EXPERIMENT_OVERRIDE_BUCKET', 'EXPERIMENTS_FETCH_SUCCESS', 'APP_STATE_UPDATE'];
+    var1['actions'] = var8;
+    var8 = function inlineRequire() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 92;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        var1 = var1.default;
+        return var1;
+    };
+    var1['inlineRequire'] = var8;
+    var1['neverLoadBeforeConnectionOpen'] = var7;
+    var2['NativeNotificationsManager'] = var1;
+    var1 = {};
+    var8 = ['POST_CONNECTION_OPEN', 'CONNECTION_RESUMED', 'CONNECTION_CLOSED', 'CONNECTION_INTERRUPTED', 'SELF_PRESENCE_STORE_UPDATE'];
     var1['actions'] = var8;
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
@@ -1454,8 +1455,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['neverLoadBeforeConnectionOpen'] = var7;
-    var2['NativeNotificationsManager'] = var1;
+    var1['loadRightBeforeConnectionOpen'] = var7;
+    var2['FriendOnlineTimerManager'] = var1;
     var1 = {};
     var8 = ['VIBING_WUMPUS_PLAY_MUSIC', 'VIBING_WUMPUS_STOP_MUSIC', 'VIBING_WUMPUS_PAUSE_MUSIC'];
     var1['actions'] = var8;

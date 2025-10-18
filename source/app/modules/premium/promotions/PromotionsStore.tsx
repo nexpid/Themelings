@@ -38,23 +38,23 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot17 = var2;
+            _closure1_slot19 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot17 = var1;
+    var _closure1_slot19 = var1;
     var1 = function getLatestActiveOutboundPromotionStartDate() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var1 = global;
             var4 = var1.Object;
             var3 = var4.values;
-            var5 = _closure1_slot15;
+            var5 = _closure1_slot16;
             var6 = _closure1_slot0;
             var2 = _closure1_slot1;
-            var1 = 7;
+            var1 = 8;
             var1 = var2[var1];
             var2 = undefined;
             var1 = var6.bind(var2)(var1);
@@ -102,7 +102,7 @@ case 14:
             return var1;
         }
     };
-    var _closure1_slot18 = var1;
+    var _closure1_slot20 = var1;
     var1 = function initializeFromUserSettings() {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -128,86 +128,97 @@ case 16:
 case 20:
             var2 = var4;
 case 19:
-            _closure1_slot16 = var2;
+            _closure1_slot17 = var2;
             return var1;
         }
     };
-    var _closure1_slot19 = var1;
-    var1 = global;
-    var9 = var1.Object;
-    var8 = var9.defineProperty;
-    var2 = {};
-    var1 = true;
-    var2['value'] = var1;
-    var1 = '__esModule';
-    var1 = var8.bind(var9)(var3, var1, var2);
-    var1 = 0;
-    var2 = var6[var1];
-    var1 = undefined;
-    var2 = var7.bind(var1)(var2);
-    var _closure1_slot2 = var2;
-    var2 = 1;
-    var2 = var6[var2];
-    var2 = var7.bind(var1)(var2);
-    var _closure1_slot3 = var2;
-    var2 = 2;
-    var2 = var6[var2];
-    var2 = var7.bind(var1)(var2);
-    var _closure1_slot4 = var2;
-    var2 = 3;
-    var2 = var6[var2];
-    var2 = var7.bind(var1)(var2);
-    var _closure1_slot5 = var2;
-    var2 = 4;
-    var2 = var6[var2];
-    var2 = var7.bind(var1)(var2);
-    var _closure1_slot6 = var2;
-    var2 = 5;
-    var2 = var6[var2];
-    var2 = var7.bind(var1)(var2);
-    var _closure1_slot7 = var2;
-    var2 = 6;
-    var2 = var6[var2];
-    var2 = var7.bind(var1)(var2);
-    var _closure1_slot8 = var2;
-    var8 = false;
-    var2 = null;
-    var9 = {'hasFetchedConsumedInboundPromotionId': false, 'consumedInboundPromotionId': null, 'lastSeenOutboundPromotionStartDate': null};
-    var _closure1_slot9 = var9;
-    var _closure1_slot10 = var2;
-    var _closure1_slot11 = var8;
-    var _closure1_slot12 = var2;
-    var _closure1_slot13 = var8;
-    var _closure1_slot14 = var2;
+    var _closure1_slot21 = var1;
+    var2 = global;
+    var10 = var2.Object;
+    var9 = var10.defineProperty;
     var8 = {};
-    var9 = 7;
-    var10 = var6[var9];
-    var10 = var5.bind(var1)(var10);
-    var10 = var10.PromotionTypes;
-    var11 = var10.BOGO;
-    var10 = {};
-    var8[var11] = var10;
-    var10 = var6[var9];
-    var10 = var5.bind(var1)(var10);
-    var10 = var10.PromotionTypes;
-    var11 = var10.MARKETING_MOMENT;
-    var10 = {};
-    var8[var11] = var10;
-    var10 = var6[var9];
-    var10 = var5.bind(var1)(var10);
-    var10 = var10.PromotionTypes;
-    var11 = var10.THIRD_PARTY_INBOUND;
-    var10 = {};
-    var8[var11] = var10;
-    var9 = var6[var9];
-    var9 = var5.bind(var1)(var9);
-    var9 = var9.PromotionTypes;
-    var10 = var9.THIRD_PARTY_OUTBOUND;
-    var9 = {};
-    var8[var10] = var9;
+    var1 = true;
+    var8['value'] = var1;
+    var1 = '__esModule';
+    var1 = var9.bind(var10)(var3, var1, var8);
+    var1 = 0;
+    var8 = var6[var1];
+    var1 = undefined;
+    var8 = var7.bind(var1)(var8);
+    var _closure1_slot2 = var8;
+    var8 = 1;
+    var8 = var6[var8];
+    var8 = var7.bind(var1)(var8);
+    var _closure1_slot3 = var8;
+    var8 = 2;
+    var8 = var6[var8];
+    var8 = var7.bind(var1)(var8);
+    var _closure1_slot4 = var8;
+    var8 = 3;
+    var8 = var6[var8];
+    var8 = var7.bind(var1)(var8);
+    var _closure1_slot5 = var8;
+    var8 = 4;
+    var8 = var6[var8];
+    var8 = var7.bind(var1)(var8);
+    var _closure1_slot6 = var8;
+    var8 = 5;
+    var8 = var6[var8];
+    var8 = var7.bind(var1)(var8);
+    var _closure1_slot7 = var8;
+    var8 = 6;
+    var8 = var6[var8];
+    var8 = var7.bind(var1)(var8);
+    var _closure1_slot8 = var8;
+    var8 = 7;
+    var8 = var6[var8];
+    var8 = var7.bind(var1)(var8);
+    var _closure1_slot9 = var8;
+    var9 = false;
+    var8 = null;
+    var10 = {'hasFetchedConsumedInboundPromotionId': false, 'consumedInboundPromotionId': null, 'lastSeenOutboundPromotionStartDate': null};
+    var _closure1_slot10 = var10;
+    var _closure1_slot11 = var8;
+    var _closure1_slot12 = var9;
+    var _closure1_slot13 = var8;
+    var _closure1_slot14 = var9;
     var _closure1_slot15 = var8;
-    var _closure1_slot16 = var2;
-    var2 = 8;
+    var9 = {};
+    var10 = 8;
+    var11 = var6[var10];
+    var11 = var5.bind(var1)(var11);
+    var11 = var11.PromotionTypes;
+    var12 = var11.BOGO;
+    var11 = {};
+    var9[var12] = var11;
+    var11 = var6[var10];
+    var11 = var5.bind(var1)(var11);
+    var11 = var11.PromotionTypes;
+    var12 = var11.MARKETING_MOMENT;
+    var11 = {};
+    var9[var12] = var11;
+    var11 = var6[var10];
+    var11 = var5.bind(var1)(var11);
+    var11 = var11.PromotionTypes;
+    var12 = var11.THIRD_PARTY_INBOUND;
+    var11 = {};
+    var9[var12] = var11;
+    var10 = var6[var10];
+    var10 = var5.bind(var1)(var10);
+    var10 = var10.PromotionTypes;
+    var11 = var10.THIRD_PARTY_OUTBOUND;
+    var10 = {};
+    var9[var11] = var10;
+    var _closure1_slot16 = var9;
+    var _closure1_slot17 = var8;
+    var2 = var2.Map;
+    var8 = var2.prototype;
+    var8 = Object.create(var8, {constructor: {value: var2}});
+    var16 = var8;
+    var2 = new var16[var2](var15);
+    var2 = var2 instanceof Object ? var2 : var8;
+    var _closure1_slot18 = var2;
+    var2 = 9;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
     var8 = var2.PersistedStore;
@@ -224,7 +235,7 @@ case 0:
                 var1 = _closure1_slot5;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot4;
-                var1 = _closure1_slot17;
+                var1 = _closure1_slot19;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0004_ip = 21; continue _fun0004 }
 case 22:
@@ -264,7 +275,7 @@ case 0:
                 var1 = null;
                 if(!(var1 != var2)) { _fun0005_ip = 24; continue _fun0005 }
 case 25:
-                _closure1_slot9 = var2;
+                _closure1_slot10 = var2;
 case 24:
                 var3 = var4.waitFor;
                 var2 = _closure1_slot7;
@@ -273,14 +284,14 @@ case 24:
                 var5 = _closure1_slot7;
                 var2 = new Array(1);
                 var2[0] = var5;
-                var1 = _closure1_slot19;
+                var1 = _closure1_slot21;
                 var1 = var3.bind(var4)(var2, var1);
                 var1 = undefined;
                 return var1;
             }
         };
         var5['value'] = var1;
-        var1 = new Array(13);
+        var1 = new Array(14);
         var1[0] = var5;
         var5 = {};
         var7 = 'outboundPromotions';
@@ -289,10 +300,10 @@ case 24:
             var1 = global;
             var3 = var1.Object;
             var2 = var3.values;
-            var4 = _closure1_slot15;
+            var4 = _closure1_slot16;
             var6 = _closure1_slot0;
             var5 = _closure1_slot1;
-            var1 = 7;
+            var1 = 8;
             var5 = var5[var1];
             var1 = undefined;
             var1 = var6.bind(var1)(var5);
@@ -308,7 +319,7 @@ case 24:
         var7 = 'lastSeenOutboundPromotionStartDate';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot9;
+            var1 = _closure1_slot10;
             var1 = var1.lastSeenOutboundPromotionStartDate;
             return var1;
         };
@@ -318,7 +329,7 @@ case 24:
         var7 = 'lastDismissedOutboundPromotionStartDate';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot16;
+            var1 = _closure1_slot17;
             return var1;
         };
         var5['get'] = var7;
@@ -327,7 +338,7 @@ case 24:
         var7 = 'lastFetchedActivePromotions';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot14;
+            var1 = _closure1_slot15;
             return var1;
         };
         var5['get'] = var7;
@@ -336,7 +347,7 @@ case 24:
         var7 = 'isFetchingActiveOutboundPromotions';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot13;
+            var1 = _closure1_slot14;
             return var1;
         };
         var5['get'] = var7;
@@ -345,7 +356,7 @@ case 24:
         var7 = 'hasFetchedConsumedInboundPromotionId';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot9;
+            var1 = _closure1_slot10;
             var1 = var1.hasFetchedConsumedInboundPromotionId;
             return var1;
         };
@@ -355,7 +366,7 @@ case 24:
         var7 = 'consumedInboundPromotionId';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot9;
+            var1 = _closure1_slot10;
             var1 = var1.consumedInboundPromotionId;
             return var1;
         };
@@ -365,7 +376,7 @@ case 24:
         var7 = 'bogoPromotion';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot10;
+            var1 = _closure1_slot11;
             return var1;
         };
         var5['get'] = var7;
@@ -374,7 +385,7 @@ case 24:
         var7 = 'isFetchingActiveBogoPromotion';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot11;
+            var1 = _closure1_slot12;
             return var1;
         };
         var5['get'] = var7;
@@ -383,7 +394,7 @@ case 24:
         var7 = 'lastFetchedActiveBogoPromotion';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot12;
+            var1 = _closure1_slot13;
             return var1;
         };
         var5['get'] = var7;
@@ -392,7 +403,7 @@ case 24:
         var7 = 'promotionsByType';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot15;
+            var1 = _closure1_slot16;
             return var1;
         };
         var5['get'] = var7;
@@ -400,12 +411,33 @@ case 24:
         var5 = {};
         var7 = 'getState';
         var5['key'] = var7;
-        var6 = function value() {
-            var1 = _closure1_slot9;
+        var7 = function value() {
+            var1 = _closure1_slot10;
             return var1;
         };
-        var5['value'] = var6;
+        var5['value'] = var7;
         var1[12] = var5;
+        var5 = {};
+        var7 = 'getMarketingComponentByType';
+        var5['key'] = var7;
+        var6 = function value(arg1) {
+            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+case 0:
+                var3 = _closure1_slot18;
+                var2 = var3.get;
+                var1 = arg1;
+                var2 = var2.bind(var3)(var1);
+                var1 = null;
+                var3 = var1 != var2;
+                if(!var3) { _fun0006_ip = 17; continue _fun0006 }
+case 26:
+                var1 = var2;
+case 17:
+                return var1;
+            }
+        };
+        var5['value'] = var6;
+        var1[13] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -416,59 +448,77 @@ case 24:
     var8['persistKey'] = var2;
     var2 = new Array(1);
     var9 = function(arg1) {
-        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var1 = arg1;
-case 26: // try_start_0
+case 27: // try_start_0
             var2 = var1;
             var2 = delete var2.bogoPromotion;
-case 27: // try_end0
-            _fun0006_ip = 28; continue _fun0006;
-case 29: // catch_target0
+case 28: // try_end0
+            _fun0007_ip = 29; continue _fun0007;
+case 30: // catch_target0
             CatchBlockStart(arg_register=1);
-case 28:
+case 29:
             return var1;
         }
     };
     var2[0] = var9;
     var8['migrations'] = var2;
-    var2 = 9;
+    var2 = 10;
     var2 = var6[var2];
-    var14 = var7.bind(var1)(var2);
+    var15 = var7.bind(var1)(var2);
     var2 = {};
     var9 = function handleActiveOutboundPromotionsFetchSuccess(arg1) {
-        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var1 = arg1;
             var4 = var1.promotions;
             var2 = var1.consumedInboundPromotionId;
             var3 = var4.forEach;
             var1 = function(arg1) {
-                _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+                _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
                     var6 = arg1;
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot1;
-                    var7 = 7;
-                    var5 = var3[var7];
+                    var4 = var6.promotion_type;
+                    var5 = _closure1_slot0;
+                    var1 = _closure1_slot1;
+                    var7 = 8;
+                    var3 = var1[var7];
                     var1 = undefined;
-                    var5 = var4.bind(var1)(var5);
-                    var5 = var5.PromotionTypes;
-                    var8 = var5.THIRD_PARTY;
-                    var5 = new Array(2);
-                    var5[0] = var8;
-                    var3 = var3[var7];
-                    var3 = var4.bind(var1)(var3);
+                    var3 = var5.bind(var1)(var3);
                     var3 = var3.PromotionTypes;
-                    var3 = var3.THIRD_PARTY_OUTBOUND;
-                    var5[1] = var3;
-                    var4 = var5.includes;
+                    var3 = var3.THIRD_PARTY;
+                    if(!(var4 !== var3)) { _fun0009_ip = 31; continue _fun0009 }
+case 32:
+                    var4 = _closure1_slot16;
                     var3 = var6.promotion_type;
-                    var4 = var4.bind(var5)(var3);
-                    var3 = true;
-                    if(!(var3 === var4)) { _fun0008_ip = 15; continue _fun0008 }
-case 30:
-                    var4 = _closure1_slot15;
+                    var5 = var4[var3];
+                    var4 = var6.id;
+                    var8 = _closure1_slot8;
+                    var3 = var8.createFromServer;
+                    var3 = var3.bind(var8)(var6);
+                    var5[var4] = var3;
+                    var5 = var6.marketing_components;
+                    var3 = null;
+                    if(!(var3 != var5)) { _fun0009_ip = 33; continue _fun0009 }
+case 34:
+                    var4 = var5.forEach;
+                    var3 = function(arg1) {
+                        var6 = arg1;
+                        var4 = _closure1_slot18;
+                        var3 = var4.set;
+                        var2 = var6.component_type;
+                        var5 = _closure1_slot9;
+                        var1 = var5.createFromServer;
+                        var1 = var1.bind(var5)(var6);
+                        var1 = var3.bind(var4)(var2, var1);
+                        var1 = undefined;
+                        return var1;
+                    };
+                    var3 = var4.bind(var5)(var3);
+                    _fun0009_ip = 33; continue _fun0009;
+case 31:
+                    var4 = _closure1_slot16;
                     var5 = _closure1_slot0;
                     var3 = _closure1_slot1;
                     var3 = var3[var7];
@@ -481,7 +531,7 @@ case 30:
                     var2 = var5.createFromServer;
                     var2 = var2.bind(var5)(var6);
                     var4[var3] = var2;
-case 15:
+case 33:
                     return var1;
                 }
             };
@@ -490,19 +540,19 @@ case 15:
             var3 = var1.Date;
             var1 = var3.now;
             var3 = var1.bind(var3)();
-            _closure1_slot14 = var3;
+            _closure1_slot15 = var3;
             var3 = false;
-            _closure1_slot13 = var3;
-            var3 = _closure1_slot9;
+            _closure1_slot14 = var3;
+            var3 = _closure1_slot10;
             var3 = var3.hasFetchedConsumedInboundPromotionId;
-            if(var3) { _fun0007_ip = 31; continue _fun0007 }
-case 32:
-            var4 = _closure1_slot9;
+            if(var3) { _fun0008_ip = 35; continue _fun0008 }
+case 36:
+            var4 = _closure1_slot10;
             var3 = true;
             var4['hasFetchedConsumedInboundPromotionId'] = var3;
-            var1 = _closure1_slot9;
+            var1 = _closure1_slot10;
             var1['consumedInboundPromotionId'] = var2;
-case 31:
+case 35:
             var1 = undefined;
             return var1;
         }
@@ -510,7 +560,7 @@ case 31:
     var2['ACTIVE_OUTBOUND_PROMOTIONS_FETCH_SUCCESS'] = var9;
     var9 = function handleActiveOutboundPromotionsFetchStart() {
         var1 = true;
-        _closure1_slot13 = var1;
+        _closure1_slot14 = var1;
         var1 = undefined;
         return var1;
     };
@@ -519,7 +569,7 @@ case 31:
         var2 = {};
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;
-        var4 = 7;
+        var4 = 8;
         var7 = var6[var4];
         var1 = undefined;
         var7 = var5.bind(var1)(var7);
@@ -545,9 +595,9 @@ case 31:
         var5 = var4.THIRD_PARTY_OUTBOUND;
         var4 = {};
         var2[var5] = var4;
-        _closure1_slot15 = var2;
+        _closure1_slot16 = var2;
         var2 = false;
-        _closure1_slot13 = var2;
+        _closure1_slot14 = var2;
         return var1;
     };
     var2['ACTIVE_OUTBOUND_PROMOTIONS_FETCH_FAIL'] = var9;
@@ -565,44 +615,44 @@ case 31:
         var2 = var3.toISOString;
         var2 = var2.bind(var3)();
         var1['endDate'] = var2;
-        _closure1_slot10 = var1;
+        _closure1_slot11 = var1;
         var1 = global;
         var3 = var1.Date;
         var1 = var3.now;
         var1 = var1.bind(var3)();
-        _closure1_slot12 = var1;
+        _closure1_slot13 = var1;
         var1 = false;
-        _closure1_slot11 = var1;
+        _closure1_slot12 = var1;
         var1 = undefined;
         return var1;
     };
     var2['ACTIVE_BOGO_PROMOTION_FETCH_SUCCESS'] = var9;
     var9 = function handleActiveBogoPromotionFetchStart() {
         var1 = true;
-        _closure1_slot11 = var1;
+        _closure1_slot12 = var1;
         var1 = undefined;
         return var1;
     };
     var2['ACTIVE_BOGO_PROMOTION_FETCH'] = var9;
     var9 = function handleActiveBogoPromotionFetchFail() {
         var1 = null;
-        _closure1_slot10 = var1;
-        var1 = false;
         _closure1_slot11 = var1;
+        var1 = false;
+        _closure1_slot12 = var1;
         var1 = undefined;
         return var1;
     };
     var2['ACTIVE_BOGO_PROMOTION_FETCH_FAIL'] = var9;
     var9 = function handleDismissOutboundPromotionNotice() {
-        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
             var1 = global;
             var5 = var1.Object;
             var4 = var5.values;
-            var6 = _closure1_slot15;
+            var6 = _closure1_slot16;
             var7 = _closure1_slot0;
             var2 = _closure1_slot1;
-            var1 = 7;
+            var1 = 8;
             var2 = var2[var1];
             var1 = undefined;
             var2 = var7.bind(var1)(var2);
@@ -612,15 +662,15 @@ case 0:
             var2 = var4.bind(var5)(var2);
             var4 = var2.length;
             var2 = 0;
-            if(!(var2 !== var4)) { _fun0009_ip = 9; continue _fun0009 }
+            if(!(var2 !== var4)) { _fun0010_ip = 9; continue _fun0010 }
 case 4:
-            var2 = _closure1_slot18;
+            var2 = _closure1_slot20;
             var2 = var2.bind(var1)();
             var4 = null;
-            if(!(var4 != var2)) { _fun0009_ip = 33; continue _fun0009 }
-case 34:
-            _closure1_slot16 = var2;
-case 33:
+            if(!(var4 != var2)) { _fun0010_ip = 37; continue _fun0010 }
+case 38:
+            _closure1_slot17 = var2;
+case 37:
             return var1;
 case 9:
             var1 = false;
@@ -629,15 +679,15 @@ case 9:
     };
     var2['OUTBOUND_PROMOTION_NOTICE_DISMISS'] = var9;
     var9 = function handleOutboundPromotionsSeen() {
-        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
             var1 = global;
             var5 = var1.Object;
             var4 = var5.values;
-            var6 = _closure1_slot15;
+            var6 = _closure1_slot16;
             var7 = _closure1_slot0;
             var3 = _closure1_slot1;
-            var1 = 7;
+            var1 = 8;
             var3 = var3[var1];
             var1 = undefined;
             var3 = var7.bind(var1)(var3);
@@ -647,17 +697,17 @@ case 0:
             var3 = var4.bind(var5)(var3);
             var4 = var3.length;
             var3 = 0;
-            if(!(var3 !== var4)) { _fun0010_ip = 8; continue _fun0010 }
+            if(!(var3 !== var4)) { _fun0011_ip = 8; continue _fun0011 }
 case 4:
-            var3 = _closure1_slot18;
+            var3 = _closure1_slot20;
             var3 = var3.bind(var1)();
             var4 = null;
-            if(!(var4 != var3)) { _fun0010_ip = 35; continue _fun0010 }
-case 34:
-            _closure1_slot16 = var3;
-            var2 = _closure1_slot9;
+            if(!(var4 != var3)) { _fun0011_ip = 39; continue _fun0011 }
+case 38:
+            _closure1_slot17 = var3;
+            var2 = _closure1_slot10;
             var2['lastSeenOutboundPromotionStartDate'] = var3;
-case 35:
+case 39:
             return var1;
 case 8:
             var1 = false;
@@ -669,15 +719,15 @@ case 8:
         var1 = false;
         var3 = null;
         var4 = {'hasFetchedConsumedInboundPromotionId': false, 'consumedInboundPromotionId': null, 'lastSeenOutboundPromotionStartDate': null};
-        _closure1_slot9 = var4;
-        _closure1_slot13 = var1;
-        _closure1_slot14 = var3;
-        _closure1_slot11 = var1;
-        _closure1_slot12 = var3;
+        _closure1_slot10 = var4;
+        _closure1_slot14 = var1;
+        _closure1_slot15 = var3;
+        _closure1_slot12 = var1;
+        _closure1_slot13 = var3;
         var4 = {};
         var6 = _closure1_slot0;
         var7 = _closure1_slot1;
-        var5 = 7;
+        var5 = 8;
         var8 = var7[var5];
         var1 = undefined;
         var8 = var6.bind(var1)(var8);
@@ -703,18 +753,18 @@ case 8:
         var6 = var5.THIRD_PARTY_OUTBOUND;
         var5 = {};
         var4[var6] = var5;
-        _closure1_slot15 = var4;
-        _closure1_slot10 = var3;
+        _closure1_slot16 = var4;
+        _closure1_slot11 = var3;
         return var1;
     };
     var2['LOGOUT'] = var4;
     var4 = var8.prototype;
     var4 = Object.create(var4, {constructor: {value: var8}});
-    var15 = var4;
-    var13 = var2;
-    var2 = new var15[var8](var14, var13, var12);
+    var16 = var4;
+    var14 = var2;
+    var2 = new var16[var8](var15, var14, var13);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 10;
+    var4 = 11;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

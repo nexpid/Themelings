@@ -614,7 +614,7 @@ case 20:
     var7 = 'function PurchaseSectionTsx1(){const{bottomSheet,screenHeight,maxHeight}=this.__closure;const animatedSheetOffset=bottomSheet.animatedPosition!=null?bottomSheet.animatedPosition.get()-screenHeight+maxHeight:0;return{transform:[{translateY:-animatedSheetOffset}]};}';
     var4['code'] = var7;
     var _closure1_slot17 = var4;
-    var4 = 50;
+    var4 = 51;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -701,12 +701,13 @@ case 0:
             var3 = var10.isFreeCollectiblesProduct;
             var11 = var3.bind(var10)(var2);
             var _closure2_slot10 = var11;
-            var3 = var8[var7];
+            var3 = 34;
+            var3 = var8[var3];
             var10 = var12.bind(var4)(var3);
-            var3 = var10.isOrbsExclusiveCollectiblesProduct;
+            var3 = var10.isOrbsExclusiveProduct;
             var3 = var3.bind(var10)(var2);
             var _closure2_slot11 = var3;
-            var10 = 34;
+            var10 = 35;
             var10 = var8[var10];
             var17 = var12.bind(var4)(var10);
             var10 = var17.useFetchVirtualCurrencyBalance;
@@ -720,7 +721,7 @@ case 0:
             var10 = var10.bind(var17)(var2, var15);
             var10 = var10.canAfford;
             var _closure2_slot13 = var10;
-            var10 = 35;
+            var10 = 36;
             var10 = var8[var10];
             var18 = var12.bind(var4)(var10);
             var17 = var18.useHandleUseNow;
@@ -731,7 +732,7 @@ case 0:
             var _closure2_slot14 = var17;
             var10 = var10.isApplying;
             var _closure2_slot15 = var10;
-            var10 = 36;
+            var10 = 37;
             var10 = var8[var10];
             var13 = var13.bind(var4)(var10);
             var10 = {};
@@ -743,7 +744,7 @@ case 0:
             var _closure2_slot16 = var13;
             var10 = var10.isBuying;
             var _closure2_slot17 = var10;
-            var10 = 37;
+            var10 = 38;
             var10 = var8[var10];
             var14 = var12.bind(var4)(var10);
             var13 = var14.useHandleClaim;
@@ -752,7 +753,7 @@ case 0:
             var10 = var13.bind(var14)(var10);
             var10 = var10.handleClaim;
             var _closure2_slot18 = var10;
-            var10 = 38;
+            var10 = 39;
             var10 = var8[var10];
             var14 = var12.bind(var4)(var10);
             var13 = var14.useIsCollectiblesBundleGiftingEnabled;
@@ -780,7 +781,7 @@ case 35:
             var11 = var2.type;
             var12 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var3 = 39;
+            var3 = 40;
             var3 = var13[var3];
             var3 = var12.bind(var4)(var3);
             var3 = var3.CollectiblesItemType;
@@ -797,7 +798,7 @@ case 39:
             var3 = var2.type;
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var2 = 39;
+            var2 = 40;
             var2 = var11[var2];
             var2 = var10.bind(var4)(var2);
             var2 = var2.CollectiblesItemType;
@@ -824,7 +825,7 @@ case 40:
             _closure2_slot19 = var1;
             var2 = _closure1_slot1;
             var10 = _closure1_slot2;
-            var1 = 40;
+            var1 = 41;
             var1 = var10[var1];
             var3 = var2.bind(var4)(var1);
             var1 = {};
@@ -833,26 +834,26 @@ case 40:
             var1 = var3.bind(var4)(var1);
             var14 = var1.height;
             _closure2_slot20 = var14;
-            var1 = 41;
+            var1 = 42;
             var1 = var10[var1];
             var1 = var2.bind(var4)(var1);
             var1 = var1.bind(var4)();
             var13 = var1.maximum;
             _closure2_slot21 = var13;
-            var1 = 42;
+            var1 = 43;
             var1 = var10[var1];
             var3 = var2.bind(var4)(var1);
             var1 = {'includeCustomKeyboardHeight': false, 'includeKeyboardHeight': true};
             var1 = var3.bind(var4)(var1);
             var8 = var1.insets;
             var7 = _closure1_slot0;
-            var1 = 43;
+            var1 = 44;
             var1 = var10[var1];
             var3 = var7.bind(var4)(var1);
             var1 = var3.useBottomSheet;
             var15 = var1.bind(var3)();
             _closure2_slot22 = var15;
-            var1 = 44;
+            var1 = 45;
             var3 = var10[var1];
             var11 = var7.bind(var4)(var3);
             var7 = var11.useAnimatedStyle;
@@ -958,7 +959,7 @@ case 3:
                     var5 = _closure1_slot11;
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
-                    var2 = 46;
+                    var2 = 47;
                     var2 = var4[var2];
                     var4 = undefined;
                     var2 = var3.bind(var4)(var2);
@@ -978,7 +979,7 @@ case 57:
 case 25:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var4 = 47;
+                    var4 = 48;
                     var5 = var2[var4];
                     var4 = undefined;
                     var7 = var3.bind(var4)(var5);
@@ -987,7 +988,7 @@ case 25:
                     var5 = var5.type;
                     var8 = var6.bind(var7)(var5);
                     var7 = var8.with;
-                    var14 = 39;
+                    var14 = 40;
                     var5 = var2[var14];
                     var5 = var3.bind(var4)(var5);
                     var5 = var5.CollectiblesItemType;
@@ -1103,7 +1104,7 @@ case 59:
                     var8 = _closure1_slot11;
                     var7 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var5 = 48;
+                    var5 = 49;
                     var5 = var9[var5];
                     var5 = var7.bind(var4)(var5);
                     var7 = var5.TextWithIOSLinkWorkaround;
@@ -1186,7 +1187,7 @@ case 67:
                     var10 = _closure2_slot11;
                     var10 = !var10;
                     if(!var10) { _fun0008_ip = 69; continue _fun0008 }
-case 39:
+case 34:
                     var15 = _closure1_slot12;
                     var14 = _closure1_slot5;
                     var13 = {};
@@ -1196,7 +1197,7 @@ case 39:
                     var18 = _closure1_slot11;
                     var17 = _closure1_slot0;
                     var20 = _closure1_slot2;
-                    var16 = 49;
+                    var16 = 50;
                     var16 = var20[var16];
                     var16 = var17.bind(var4)(var16);
                     var17 = var16.Button;
@@ -1272,7 +1273,7 @@ case 55:
                     var4 = _closure1_slot11;
                     var2 = _closure1_slot1;
                     var9 = _closure1_slot2;
-                    var1 = 45;
+                    var1 = 46;
                     var1 = var9[var1];
                     var3 = undefined;
                     var2 = var2.bind(var3)(var1);
@@ -1303,7 +1304,7 @@ case 50:
                     var2 = var1.type;
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
-                    var1 = 39;
+                    var1 = 40;
                     var1 = var4[var1];
                     var5 = undefined;
                     var1 = var3.bind(var5)(var1);
@@ -1321,7 +1322,7 @@ case 79:
                     var9 = _closure1_slot11;
                     var7 = _closure1_slot1;
                     var15 = _closure1_slot2;
-                    var6 = 45;
+                    var6 = 46;
                     var6 = var15[var6];
                     var7 = var7.bind(var5)(var6);
                     var6 = {};

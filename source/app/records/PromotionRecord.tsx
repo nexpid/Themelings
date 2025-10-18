@@ -162,8 +162,10 @@ case 13:
                 var1['outboundRestrictedCountries'] = var3;
                 var3 = var2.promotionType;
                 var1['promotionType'] = var3;
-                var2 = var2.partnerId;
-                var1['partnerId'] = var2;
+                var3 = var2.partnerId;
+                var1['partnerId'] = var3;
+                var2 = var2.marketingComponents;
+                var1['marketingComponents'] = var2;
                 return var1;
             }
         };
@@ -312,38 +314,38 @@ case 15:
         var1 = function value(arg1) {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-                var4 = arg1;
+                var2 = arg1;
                 var3 = _closure2_slot0;
                 var1 = {};
-                var2 = var4.id;
-                var1['id'] = var2;
-                var2 = var4.trial_id;
-                var1['trialId'] = var2;
+                var4 = var2.id;
+                var1['id'] = var4;
+                var4 = var2.trial_id;
+                var1['trialId'] = var4;
                 var6 = global;
                 var7 = var6.Date;
-                var9 = var4.start_date;
+                var9 = var2.start_date;
                 var5 = var7.prototype;
                 var5 = Object.create(var5, {constructor: {value: var7}});
                 var10 = var5;
-                var2 = new var10[var7](var9, var8);
-                var2 = var2 instanceof Object ? var2 : var5;
-                var1['startDate'] = var2;
+                var4 = new var10[var7](var9, var8);
+                var4 = var4 instanceof Object ? var4 : var5;
+                var1['startDate'] = var4;
                 var7 = var6.Date;
-                var9 = var4.end_date;
+                var9 = var2.end_date;
                 var5 = var7.prototype;
                 var5 = Object.create(var5, {constructor: {value: var7}});
                 var10 = var5;
-                var2 = new var10[var7](var9, var8);
-                var2 = var2 instanceof Object ? var2 : var5;
-                var1['endDate'] = var2;
-                var5 = var4.outbound_redemption_end_date;
-                var2 = null;
-                var7 = var2 != var5;
+                var4 = new var10[var7](var9, var8);
+                var4 = var4 instanceof Object ? var4 : var5;
+                var1['endDate'] = var4;
+                var5 = var2.outbound_redemption_end_date;
+                var4 = null;
+                var7 = var4 != var5;
                 var5 = null;
                 if(!var7) { _fun0004_ip = 19; continue _fun0004 }
 case 20:
                 var8 = var6.Date;
-                var9 = var4.outbound_redemption_end_date;
+                var9 = var2.outbound_redemption_end_date;
                 var7 = var8.prototype;
                 var7 = Object.create(var7, {constructor: {value: var8}});
                 var10 = var7;
@@ -351,8 +353,8 @@ case 20:
                 var5 = var6 instanceof Object ? var6 : var7;
 case 19:
                 var1['outboundRedemptionEndDate'] = var5;
-                var7 = var4.inbound_header_text;
-                var8 = var2 != var7;
+                var7 = var2.inbound_header_text;
+                var8 = var4 != var7;
                 var5 = '';
                 var6 = var5;
                 if(!var8) { _fun0004_ip = 21; continue _fun0004 }
@@ -360,77 +362,83 @@ case 22:
                 var6 = var7;
 case 21:
                 var1['inboundHeaderText'] = var6;
-                var7 = var4.inbound_body_text;
-                var8 = var2 != var7;
+                var7 = var2.inbound_body_text;
+                var8 = var4 != var7;
                 var6 = var5;
                 if(!var8) { _fun0004_ip = 23; continue _fun0004 }
 case 24:
                 var6 = var7;
 case 23:
                 var1['inboundBodyText'] = var6;
-                var7 = var4.inbound_help_center_link;
-                var8 = var2 != var7;
+                var7 = var2.inbound_help_center_link;
+                var8 = var4 != var7;
                 var6 = var5;
                 if(!var8) { _fun0004_ip = 25; continue _fun0004 }
 case 26:
                 var6 = var7;
 case 25:
                 var1['inboundHelpCenterLink'] = var6;
-                var7 = var4.outbound_title;
-                var8 = var2 != var7;
+                var7 = var2.outbound_title;
+                var8 = var4 != var7;
                 var6 = var5;
                 if(!var8) { _fun0004_ip = 27; continue _fun0004 }
 case 28:
                 var6 = var7;
 case 27:
                 var1['outboundTitle'] = var6;
-                var7 = var4.outbound_redemption_modal_body;
-                var8 = var2 != var7;
+                var7 = var2.outbound_redemption_modal_body;
+                var8 = var4 != var7;
                 var6 = var5;
                 if(!var8) { _fun0004_ip = 29; continue _fun0004 }
 case 30:
                 var6 = var7;
 case 29:
                 var1['outboundRedemptionModalBody'] = var6;
-                var7 = var4.outbound_terms_and_conditions;
-                var8 = var2 != var7;
+                var7 = var2.outbound_terms_and_conditions;
+                var8 = var4 != var7;
                 var6 = var5;
                 if(!var8) { _fun0004_ip = 31; continue _fun0004 }
 case 32:
                 var6 = var7;
 case 31:
                 var1['outboundTermsAndConditions'] = var6;
-                var7 = var4.outbound_redemption_page_link;
-                var8 = var2 != var7;
+                var7 = var2.outbound_redemption_page_link;
+                var8 = var4 != var7;
                 var6 = var5;
                 if(!var8) { _fun0004_ip = 33; continue _fun0004 }
 case 34:
                 var6 = var7;
 case 33:
                 var1['outboundRedemptionPageLink'] = var6;
-                var6 = var4.outbound_redemption_url_format;
-                var7 = var2 != var6;
+                var6 = var2.outbound_redemption_url_format;
+                var7 = var4 != var6;
                 if(!var7) { _fun0004_ip = 35; continue _fun0004 }
 case 36:
                 var5 = var6;
 case 35:
                 var1['outboundRedemptionUrlFormat'] = var5;
-                var5 = var4.flags;
+                var5 = var2.flags;
                 var1['flags'] = var5;
-                var5 = var4.inbound_restricted_countries;
+                var5 = var2.inbound_restricted_countries;
                 var1['inboundRestrictedCountries'] = var5;
-                var5 = var4.outbound_restricted_countries;
+                var5 = var2.outbound_restricted_countries;
                 var1['outboundRestrictedCountries'] = var5;
-                var5 = var4.promotion_type;
+                var5 = var2.promotion_type;
                 var1['promotionType'] = var5;
-                var4 = var4.partner_id;
-                var5 = var2 != var4;
-                var2 = null;
-                if(!var5) { _fun0004_ip = 37; continue _fun0004 }
+                var6 = var2.partner_id;
+                var7 = var4 != var6;
+                var5 = null;
+                if(!var7) { _fun0004_ip = 37; continue _fun0004 }
 case 38:
-                var2 = var4;
+                var5 = var6;
 case 37:
-                var1['partnerId'] = var2;
+                var1['partnerId'] = var5;
+                var2 = var2.marketing_components;
+                if(!(var4 == var2)) { _fun0004_ip = 39; continue _fun0004 }
+case 40:
+                var2 = new Array(0);
+case 39:
+                var1['marketingComponents'] = var2;
                 var2 = var3.prototype;
                 var2 = Object.create(var2, {constructor: {value: var3}});
                 var10 = var2;

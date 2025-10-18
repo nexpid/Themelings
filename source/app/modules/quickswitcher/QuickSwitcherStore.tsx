@@ -1134,62 +1134,63 @@ case 0:
 case 8:
             var11 = var6;
 case 45:
-            var6 = global;
-            var9 = var6.Set;
+            var7 = global;
+            var9 = var7.Set;
             var8 = _closure1_slot10;
-            var7 = var8.getId;
-            var10 = var7.bind(var8)();
-            var7 = var6.HermesInternal;
-            var8 = var7.concat;
-            var7 = 'user:';
-            var8 = var8.bind(var7)(var10);
-            var7 = new Array(1);
-            var7[0] = var8;
+            var6 = var8.getId;
+            var10 = var6.bind(var8)();
+            var6 = var7.HermesInternal;
+            var8 = var6.concat;
+            var6 = 'user:';
+            var8 = var8.bind(var6)(var10);
+            var6 = new Array(1);
+            var6[0] = var8;
             var8 = var9.prototype;
             var8 = Object.create(var8, {constructor: {value: var9}});
-            var16 = var8;
-            var15 = var7;
-            var7 = new var16[var9](var15, var14);
-            var7 = var7 instanceof Object ? var7 : var8;
+            var18 = var8;
+            var17 = var6;
+            var6 = new var18[var9](var17, var16);
+            var6 = var6 instanceof Object ? var6 : var8;
             if(!(var5 != var11)) { _fun0014_ip = 21; continue _fun0014 }
 case 115:
-            var9 = var7.add;
-            var8 = var6.HermesInternal;
+            var9 = var6.add;
+            var8 = var7.HermesInternal;
             var10 = var8.concat;
             var8 = 'guild:';
             var8 = var10.bind(var8)(var11);
-            var8 = var9.bind(var7)(var8);
+            var8 = var9.bind(var6)(var8);
 case 21:
-            var8 = var6.Date;
-            var6 = var8.now;
-            var6 = var6.bind(var8)();
-            _closure1_slot36 = var6;
-            var6 = _closure1_slot25;
-            if(!(var5 == var6)) { _fun0014_ip = 116; continue _fun0014 }
+            var8 = var7.Date;
+            var7 = var8.now;
+            var7 = var7.bind(var8)();
+            _closure1_slot36 = var7;
+            var7 = _closure1_slot25;
+            if(!(var5 == var7)) { _fun0014_ip = 116; continue _fun0014 }
 case 117:
             var8 = _closure1_slot1;
             var9 = _closure1_slot2;
-            var6 = 19;
-            var6 = var9[var6];
-            var11 = var8.bind(var1)(var6);
-            var10 = _closure1_slot44;
-            var9 = _closure1_slot26;
-            var6 = var5 != var3;
-            var8 = 5;
-            if(!var6) { _fun0014_ip = 118; continue _fun0014 }
+            var7 = 19;
+            var7 = var9[var7];
+            var12 = var8.bind(var1)(var7);
+            var11 = _closure1_slot44;
+            var10 = _closure1_slot26;
+            var7 = var5 != var3;
+            var9 = 5;
+            if(!var7) { _fun0014_ip = 118; continue _fun0014 }
 case 25:
-            var8 = 100;
+            var9 = 100;
 case 118:
-            var6 = {'frecencyBoosters': true, 'blacklist': null, 'allowSnowflake': true};
-            var6['blacklist'] = var7;
-            var7 = var11.prototype;
-            var7 = Object.create(var7, {constructor: {value: var11}});
-            var16 = var7;
-            var15 = var10;
-            var14 = var9;
-            var13 = var8;
-            var12 = var6;
-            var6 = new var16[var11](var15, var14, var13, var12, var11);
+            var8 = {'frecencyBoosters': true, 'blacklist': null, 'allowSnowflake': true};
+            var8['blacklist'] = var6;
+            var6 = var12.prototype;
+            var7 = Object.create(var6, {constructor: {value: var12}});
+            var13 = 100;
+            var18 = var7;
+            var17 = var11;
+            var16 = var10;
+            var15 = var9;
+            var14 = var8;
+            var6 = new var18[var12](var17, var16, var15, var14, var13, var12);
             var6 = var6 instanceof Object ? var6 : var7;
             _fun0014_ip = 119; continue _fun0014;
 case 116:

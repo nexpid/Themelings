@@ -270,6 +270,8 @@ case 16:
                             var7 = 'hidden';
                             var6['overflow'] = var7;
                             var2['style'] = var6;
+                            var6 = false;
+                            var2['collapsable'] = var6;
                             var2['children'] = var5;
                             var1 = var4.bind(var1)(var3, var2);
                             return var1;

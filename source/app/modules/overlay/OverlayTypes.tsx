@@ -55,6 +55,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7['TrackFocusPIDs'] = var1;
     var1 = 'overlay_raf_manager_force_enabled';
     var7['OverlayRafManagerForceEnabled'] = var1;
+    var1 = 'legacy_overlay_logging';
+    var7['LegacyOverlayLogging'] = var1;
     var6 = {};
     var1 = 'HARDWARE_ACCELERATED_GPU_SCHEDULING_ENABLED';
     var6['HARDWARE_ACCELERATED_GPU_SCHEDULING_ENABLED'] = var1;

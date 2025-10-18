@@ -184,12 +184,12 @@ case 2:
                 var1['overflow'] = var2;
                 return var1;
             };
-            var5 = var7.bind(var9)(var5, var6);
+            var6 = var7.bind(var9)(var5, var6);
             var8 = var9.useMemo;
             var7 = new Array(2);
             var7[0] = var26;
             var7[1] = var23;
-            var6 = function() {
+            var5 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var1 = _closure2_slot3;
@@ -207,14 +207,14 @@ case 4:
                     return var1;
                 }
             };
-            var8 = var8.bind(var9)(var6, var7);
-            var6 = var3[var1];
-            var11 = var2.bind(var4)(var6);
+            var8 = var8.bind(var9)(var5, var7);
+            var5 = var3[var1];
+            var11 = var2.bind(var4)(var5);
             var10 = var11.useStateFromStoresObject;
-            var6 = _closure1_slot6;
+            var5 = _closure1_slot6;
             var7 = new Array(1);
-            var7[0] = var6;
-            var6 = function() {
+            var7[0] = var5;
+            var5 = function() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var2 = _closure2_slot0;
@@ -255,16 +255,16 @@ case 10:
                     return var1;
                 }
             };
-            var6 = var10.bind(var11)(var7, var6);
-            var27 = var6.status;
-            var19 = var6.activities;
-            var6 = var3[var1];
-            var11 = var2.bind(var4)(var6);
+            var5 = var10.bind(var11)(var7, var5);
+            var27 = var5.status;
+            var19 = var5.activities;
+            var5 = var3[var1];
+            var11 = var2.bind(var4)(var5);
             var10 = var11.useStateFromStores;
-            var6 = _closure1_slot7;
+            var5 = _closure1_slot7;
             var7 = new Array(1);
-            var7[0] = var6;
-            var6 = function() {
+            var7[0] = var5;
+            var5 = function() {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                     var5 = _closure1_slot7;
@@ -294,14 +294,14 @@ case 8:
                     return var1;
                 }
             };
-            var14 = var10.bind(var11)(var7, var6);
-            var6 = var3[var1];
-            var11 = var2.bind(var4)(var6);
+            var14 = var10.bind(var11)(var7, var5);
+            var5 = var3[var1];
+            var11 = var2.bind(var4)(var5);
             var10 = var11.useStateFromStoresObject;
-            var6 = _closure1_slot10;
+            var5 = _closure1_slot10;
             var7 = new Array(1);
-            var7[0] = var6;
-            var6 = function() {
+            var7[0] = var5;
+            var5 = function() {
                 var1 = {};
                 var4 = _closure1_slot10;
                 var3 = var4.resolveUnreadSetting;
@@ -320,17 +320,17 @@ case 8:
                 var1['favorite'] = var2;
                 return var1;
             };
-            var6 = var10.bind(var11)(var7, var6);
-            var13 = var6.resolvedUnreadSetting;
-            var21 = var6.muted;
-            var22 = var6.favorite;
-            var6 = var3[var1];
-            var11 = var2.bind(var4)(var6);
+            var5 = var10.bind(var11)(var7, var5);
+            var13 = var5.resolvedUnreadSetting;
+            var21 = var5.muted;
+            var22 = var5.favorite;
+            var5 = var3[var1];
+            var11 = var2.bind(var4)(var5);
             var10 = var11.useStateFromStoresObject;
-            var6 = _closure1_slot8;
+            var5 = _closure1_slot8;
             var7 = new Array(1);
-            var7[0] = var6;
-            var6 = function() {
+            var7[0] = var5;
+            var5 = function() {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                     var1 = {};
@@ -367,15 +367,15 @@ case 16:
                     return var1;
                 }
             };
-            var6 = var10.bind(var11)(var7, var6);
-            var20 = var6.ignored;
-            var18 = var6.blocked;
+            var5 = var10.bind(var11)(var7, var5);
+            var20 = var5.ignored;
+            var18 = var5.blocked;
             var1 = var3[var1];
             var10 = var2.bind(var4)(var1);
             var7 = var10.useStateFromStores;
             var1 = _closure1_slot11;
-            var6 = new Array(1);
-            var6[0] = var1;
+            var5 = new Array(1);
+            var5[0] = var1;
             var1 = function() {
                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
@@ -396,24 +396,24 @@ case 18:
                     return var1;
                 }
             };
-            var6 = var7.bind(var10)(var6, var1);
-            var7 = var9.useState;
-            var1 = false;
-            var9 = var7.bind(var9)(var1);
-            var7 = _closure1_slot3;
+            var7 = var7.bind(var10)(var5, var1);
+            var1 = var9.useState;
+            var5 = false;
+            var10 = var1.bind(var9)(var5);
+            var9 = _closure1_slot3;
             var1 = 2;
-            var7 = var7.bind(var4)(var9, var1);
+            var9 = var9.bind(var4)(var10, var1);
             var1 = 0;
-            var10 = var7[var1];
+            var10 = var9[var1];
             var1 = 1;
-            var1 = var7[var1];
+            var1 = var9[var1];
             var _closure2_slot4 = var1;
             var1 = 14;
             var1 = var3[var1];
             var3 = var2.bind(var4)(var1);
             var2 = var3.useNameplate;
             var1 = {};
-            var1['user'] = var6;
+            var1['user'] = var7;
             var25 = var2.bind(var3)(var1);
             var15 = null;
             var12 = var15 != var25;
@@ -426,8 +426,8 @@ case 23:
 case 22:
             var12 = var1;
 case 20:
-            var6 = _closure1_slot4;
-            var3 = var6.useCallback;
+            var7 = _closure1_slot4;
+            var3 = var7.useCallback;
             var1 = var24.guild_id;
             var2 = new Array(2);
             var2[0] = var1;
@@ -450,8 +450,8 @@ case 20:
                 var2 = var3.bind(var1)(var2);
                 return var1;
             };
-            var31 = var3.bind(var6)(var1, var2);
-            var3 = var6.useCallback;
+            var31 = var3.bind(var7)(var1, var2);
+            var3 = var7.useCallback;
             var2 = function() {
                 var3 = _closure2_slot4;
                 var1 = undefined;
@@ -460,8 +460,8 @@ case 20:
                 return var1;
             };
             var1 = new Array(0);
-            var30 = var3.bind(var6)(var2, var1);
-            var3 = var6.useCallback;
+            var30 = var3.bind(var7)(var2, var1);
+            var3 = var7.useCallback;
             var1 = var24.id;
             var2 = new Array(1);
             var2[0] = var1;
@@ -478,8 +478,8 @@ case 20:
                 var2 = var3.bind(var4)(var2);
                 return var1;
             };
-            var28 = var3.bind(var6)(var1, var2);
-            var3 = var6.useCallback;
+            var28 = var3.bind(var7)(var1, var2);
+            var3 = var7.useCallback;
             var1 = var24.id;
             var2 = new Array(1);
             var2[0] = var1;
@@ -496,11 +496,12 @@ case 20:
                 var2 = var3.bind(var4)(var2);
                 return var1;
             };
-            var9 = var3.bind(var6)(var1, var2);
+            var9 = var3.bind(var7)(var1, var2);
             var3 = _closure1_slot13;
             var2 = _closure1_slot5;
             var1 = {};
-            var1['style'] = var5;
+            var1['style'] = var6;
+            var1['collapsable'] = var5;
             var7 = _closure1_slot14;
             var29 = _closure1_slot0;
             var11 = _closure1_slot2;

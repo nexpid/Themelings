@@ -154,6 +154,8 @@ case 2:
             var1 = {};
             var7 = var9.headerContainer;
             var1['style'] = var7;
+            var7 = false;
+            var1['collapsable'] = var7;
             var7 = null;
             if(!var5) { _fun0001_ip = 4; continue _fun0001 }
 case 5:

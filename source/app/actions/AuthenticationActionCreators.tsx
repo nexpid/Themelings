@@ -1660,54 +1660,56 @@ case 70:
                     var6 = var7.bind(var8)(var6);
 case 94: // try_start_0
                     var7 = _closure1_slot1;
-                    var13 = _closure1_slot3;
+                    var12 = _closure1_slot3;
                     var6 = 11;
-                    var6 = var13[var6];
-                    var9 = var7.bind(var4)(var6);
-                    var8 = var9.post;
+                    var6 = var12[var6];
+                    var8 = var7.bind(var4)(var6);
+                    var7 = var8.post;
                     var6 = {};
-                    var7 = _closure1_slot9;
-                    var7 = var7.FORGOT_PASSWORD;
-                    var6['url'] = var7;
-                    var7 = {};
+                    var9 = _closure1_slot9;
+                    var9 = var9.FORGOT_PASSWORD;
+                    var6['url'] = var9;
+                    var9 = {};
                     var10 = _closure2_slot0;
-                    var7['login'] = var10;
-                    var6['body'] = var7;
-                    var7 = true;
-                    var6['oldFormErrors'] = var7;
-                    var10 = {};
-                    var12 = _closure1_slot0;
-                    var11 = 12;
-                    var11 = var13[var11];
-                    var11 = var12.bind(var4)(var11);
-                    var11 = var11.NetworkActionNames;
-                    var11 = var11.FORGOT_PASSWORD;
-                    var10['event'] = var11;
-                    var6['trackedActionData'] = var10;
-                    var10 = false;
-                    var6['rejectWithError'] = var10;
-                    var6 = var8.bind(var9)(var6);
+                    var9['login'] = var10;
+                    var6['body'] = var9;
+                    var9 = true;
+                    var6['oldFormErrors'] = var9;
+                    var9 = {};
+                    var11 = _closure1_slot0;
+                    var10 = 12;
+                    var10 = var12[var10];
+                    var10 = var11.bind(var4)(var10);
+                    var10 = var10.NetworkActionNames;
+                    var10 = var10.FORGOT_PASSWORD;
+                    var9['event'] = var10;
+                    var6['trackedActionData'] = var9;
+                    var9 = false;
+                    var6['rejectWithError'] = var9;
+                    var6 = var7.bind(var8)(var6);
                     SaveGenerator(address=179);
 case 95:
                     return var6;
 case 33:
-                    ResumeGenerator(result_out_reg=5, return_bool_out_reg=7);
-                    if(var8) { _fun0020_ip = 96; continue _fun0020 }
+                    ResumeGenerator(result_out_reg=5, return_bool_out_reg=6);
+                    if(var7) { _fun0020_ip = 96; continue _fun0020 }
 case 97:
-                    var9 = _closure1_slot1;
-                    var8 = _closure1_slot3;
-                    var8 = var8[var5];
-                    var10 = var9.bind(var4)(var8);
-                    var9 = var10.dispatch;
-                    var8 = {};
-                    var11 = 'FORGOT_PASSWORD_SENT';
-                    var8['type'] = var11;
-                    var8 = var9.bind(var10)(var8);
-case 90: // try_end0
+                    var8 = _closure1_slot1;
+                    var7 = _closure1_slot3;
+                    var7 = var7[var5];
+                    var9 = var8.bind(var4)(var7);
+                    var8 = var9.dispatch;
+                    var7 = {};
+                    var10 = 'FORGOT_PASSWORD_SENT';
+                    var7['type'] = var10;
+                    var7 = var8.bind(var9)(var7);
+                    var7 = var6.body;
+                    var7 = var7.method;
+case 79: // try_end0
                     return var7;
 case 96:
                     return var6;
-case 92: // catch_target0
+case 98: // catch_target0
                     CatchBlockStart(arg_register=7);
                     var7 = _closure1_slot0;
                     var9 = _closure1_slot3;
@@ -1717,16 +1719,16 @@ case 92: // catch_target0
                     var6 = var6.V6OrEarlierAPIError;
                     var7 = var6.prototype;
                     var7 = Object.create(var7, {constructor: {value: var6}});
-                    var15 = var7;
-                    var14 = var8;
-                    var6 = new var15[var6](var14, var13);
+                    var14 = var7;
+                    var13 = var8;
+                    var6 = new var14[var6](var13, var12);
                     var6 = var6 instanceof Object ? var6 : var7;
                     var3 = var6;
                     var7 = var6.code;
                     var6 = _closure1_slot12;
                     var6 = var6.PHONE_VERIFICATION_REQUIRED;
-                    if(!(var7 !== var6)) { _fun0020_ip = 98; continue _fun0020 }
-case 99:
+                    if(!(var7 !== var6)) { _fun0020_ip = 99; continue _fun0020 }
+case 100:
                     var7 = _closure1_slot1;
                     var6 = _closure1_slot3;
                     var6 = var6[var5];
@@ -1738,7 +1740,7 @@ case 99:
                     var6['error'] = var3;
                     var6 = var7.bind(var8)(var6);
                     throw var3;
-case 98:
+case 99:
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot3;
                     var2 = var2[var5];
@@ -1804,7 +1806,7 @@ case 93:
 case 0:
             var4 = _closure1_slot17;
             var3 = null;
-            if(!(var3 == var4)) { _fun0021_ip = 100; continue _fun0021 }
+            if(!(var3 == var4)) { _fun0021_ip = 101; continue _fun0021 }
 case 68:
             var3 = global;
             var6 = var3.clearTimeout;
@@ -1853,12 +1855,12 @@ case 0:
                     var4 = var5.getAuthenticationConsentRequired;
                     var4 = var4.bind(var5)();
                     var5 = null;
-                    if(!(var5 == var4)) { _fun0022_ip = 101; continue _fun0022 }
-case 102:
+                    if(!(var5 == var4)) { _fun0022_ip = 102; continue _fun0022 }
+case 103:
                     var6 = var5 == var3;
                     var4 = undefined;
                     if(var6) { _fun0022_ip = 9; continue _fun0022 }
-case 103:
+case 104:
                     var6 = var3.body;
                     var7 = var5 == var6;
                     var4 = undefined;
@@ -1867,10 +1869,10 @@ case 21:
                     var4 = var6.consent_required;
 case 9:
                     var8 = var5 == var4;
-                    if(var8) { _fun0022_ip = 104; continue _fun0022 }
+                    if(var8) { _fun0022_ip = 105; continue _fun0022 }
 case 54:
                     var8 = var4;
-case 104:
+case 105:
                     var6 = _closure1_slot1;
                     var7 = _closure1_slot3;
                     var4 = 7;
@@ -1882,7 +1884,7 @@ case 104:
                     var4['type'] = var9;
                     var4['consentRequired'] = var8;
                     var4 = var6.bind(var7)(var4);
-case 101:
+case 102:
                     var6 = _closure1_slot1;
                     var7 = _closure1_slot3;
                     var4 = 7;
@@ -1915,16 +1917,16 @@ case 69:
                     var6 = var5 == var3;
                     var4 = undefined;
                     if(var6) { _fun0022_ip = 78; continue _fun0022 }
-case 105:
+case 106:
                     var6 = var3.body;
                     var7 = var5 == var6;
                     var4 = undefined;
                     if(var7) { _fun0022_ip = 78; continue _fun0022 }
-case 106:
+case 107:
                     var4 = var6.promotional_email_opt_in;
 case 78:
-                    if(!(var5 != var4)) { _fun0022_ip = 107; continue _fun0022 }
-case 108:
+                    if(!(var5 != var4)) { _fun0022_ip = 108; continue _fun0022 }
+case 109:
                     var3 = var3.body;
                     var4 = var3.promotional_email_opt_in;
                     var3 = _closure1_slot6;
@@ -1936,7 +1938,7 @@ case 108:
                     var4 = var4.pre_checked;
                     var2['preChecked'] = var4;
                     var2 = var3.bind(var1)(var2);
-case 107:
+case 108:
                     return var1;
                 }
             };
@@ -1961,7 +1963,7 @@ case 107:
             var1 = var4.bind(var5)(var3, var1);
             _closure1_slot17 = var1;
             _fun0021_ip = 74; continue _fun0021;
-case 100:
+case 101:
             var1 = _closure1_slot17;
 case 74:
             return var1;

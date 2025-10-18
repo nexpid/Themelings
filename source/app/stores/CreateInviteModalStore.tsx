@@ -246,14 +246,14 @@ case 0:
                 var2 = _closure1_slot5;
                 var1 = _closure1_slot21;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0004_ip = 22; continue _fun0004 }
-case 23:
+                if(var1) { _fun0004_ip = 6; continue _fun0004 }
+case 22:
                 var7 = var9.apply;
                 var5 = arguments;
                 var1 = var5;
                 var1 = var7.bind(var9)(var4, var1);
-                _fun0004_ip = 24; continue _fun0004;
-case 22:
+                _fun0004_ip = 23; continue _fun0004;
+case 6:
                 var7 = global;
                 var8 = var7.Reflect;
                 var7 = var8.construct;
@@ -262,7 +262,7 @@ case 22:
                 var6 = var6.constructor;
                 var5 = arguments;
                 var1 = var7.bind(var8)(var9, var5, var6);
-case 24:
+case 23:
                 var1 = var2.bind(var3)(var4, var1);
                 return var1;
             }
@@ -401,10 +401,10 @@ case 0:
             var6 = var1 != var5;
             var1 = undefined;
             var4 = undefined;
-            if(!var6) { _fun0005_ip = 25; continue _fun0005 }
+            if(!var6) { _fun0005_ip = 24; continue _fun0005 }
 case 17:
             var4 = var5;
-case 25:
+case 24:
             var _closure1_slot17 = var4;
             var2 = _closure1_slot23;
             var2 = var2.bind(var1)(var3);
@@ -419,8 +419,8 @@ case 0:
             var3 = var1.settings;
             var4 = _closure1_slot16;
             var1 = null;
-            if(!(var1 != var4)) { _fun0006_ip = 26; continue _fun0006 }
-case 27:
+            if(!(var1 != var4)) { _fun0006_ip = 25; continue _fun0006 }
+case 26:
             var1 = {};
             var5 = _closure1_slot16;
             var6 = var1;
@@ -429,7 +429,7 @@ case 27:
             var5 = var3;
             var3 = copyDataProperties(var6, var5);
             _closure1_slot16 = var1;
-case 26:
+case 25:
             var1 = undefined;
             return var1;
         }

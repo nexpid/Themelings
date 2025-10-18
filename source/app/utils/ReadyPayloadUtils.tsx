@@ -1507,7 +1507,7 @@ case 0:
             var2 = undefined;
             var1 = undefined;
             if(var6) { _fun0019_ip = 138; continue _fun0019 }
-case 56:
+case 2:
             var6 = {};
             var10 = _closure1_slot2;
             var11 = _closure1_slot3;
@@ -1534,10 +1534,10 @@ case 56:
             var8 = var9.bind(var10)(var8);
             var9 = var7 != var8;
             var7 = null;
-            if(!var9) { _fun0019_ip = 139; continue _fun0019 }
-case 140:
-            var7 = var8;
+            if(!var9) { _fun0019_ip = 17; continue _fun0019 }
 case 139:
+            var7 = var8;
+case 17:
             var6['stickers'] = var7;
             var1 = var6;
 case 138:

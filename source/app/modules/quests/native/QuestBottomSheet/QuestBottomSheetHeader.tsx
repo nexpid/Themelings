@@ -112,7 +112,6 @@ case 0:
                     var _closure3_slot0 = var5;
                     var14 = var2.step;
                     var _closure3_slot1 = var14;
-                    var21 = var2.location;
                     var17 = undefined;
                     var _closure3_slot2 = var17;
                     var _closure3_slot3 = var17;
@@ -210,12 +209,10 @@ case 4:
                     _closure3_slot9 = var12;
                     var8 = 9;
                     var8 = var18[var8];
-                    var20 = var3.bind(var17)(var8);
-                    var19 = var20.useShouldAllowMobileVideoTask;
-                    var10 = var5.config;
-                    var8 = {};
-                    var8['location'] = var21;
-                    var8 = var19.bind(var20)(var10, var8);
+                    var19 = var3.bind(var17)(var8);
+                    var10 = var19.useHasWatchVideoOnMobileTasks;
+                    var8 = var5.config;
+                    var8 = var10.bind(var19)(var8);
                     _closure3_slot10 = var8;
                     var10 = var6.defaultRewardNameWithArticle;
                     _closure3_slot11 = var10;

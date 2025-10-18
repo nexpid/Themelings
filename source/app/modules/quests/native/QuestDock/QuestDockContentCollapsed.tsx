@@ -73,12 +73,12 @@ case 0:
             var2 = arg1;
             var2 = var2.hideOnExpand;
             var4 = undefined;
-            var12 = var4 === var2;
-            if(var12) { _fun0001_ip = 2; continue _fun0001 }
+            var11 = var4 === var2;
+            if(var11) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var12 = var2;
+            var11 = var2;
 case 2:
-            var _closure2_slot0 = var12;
+            var _closure2_slot0 = var11;
             var5 = _closure1_slot3;
             var3 = var5.useContext;
             var6 = _closure1_slot1;
@@ -101,19 +101,19 @@ case 4:
             var6 = var3 != var2;
             var9 = _closure1_slot3;
             var5 = var9.useContext;
-            var2 = _closure1_slot0;
+            var3 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var3 = 7;
-            var3 = var10[var3];
-            var3 = var2.bind(var4)(var3);
-            var3 = var3.QuestDockGestureContext;
-            var3 = var5.bind(var9)(var3);
-            var14 = var3.activeQuestDockMode;
-            var _closure2_slot1 = var14;
-            var3 = 8;
-            var5 = var10[var3];
-            var11 = var2.bind(var4)(var5);
-            var9 = var11.useAnimatedStyle;
+            var2 = 7;
+            var2 = var10[var2];
+            var2 = var3.bind(var4)(var2);
+            var2 = var2.QuestDockGestureContext;
+            var2 = var5.bind(var9)(var2);
+            var13 = var2.activeQuestDockMode;
+            var _closure2_slot1 = var13;
+            var2 = 8;
+            var5 = var10[var2];
+            var14 = var3.bind(var4)(var5);
+            var9 = var14.useAnimatedStyle;
             var5 = function p() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -147,15 +147,15 @@ case 6:
                 }
             };
             var15 = {};
-            var13 = 9;
-            var13 = var10[var13];
-            var13 = var2.bind(var4)(var13);
-            var13 = var13.withSpring;
-            var15['withSpring'] = var13;
-            var15['activeQuestDockMode'] = var14;
-            var13 = _closure1_slot4;
-            var15['QuestDockMode'] = var13;
-            var15['hideOnExpand'] = var12;
+            var12 = 9;
+            var12 = var10[var12];
+            var12 = var3.bind(var4)(var12);
+            var12 = var12.withSpring;
+            var15['withSpring'] = var12;
+            var15['activeQuestDockMode'] = var13;
+            var12 = _closure1_slot4;
+            var15['QuestDockMode'] = var12;
+            var15['hideOnExpand'] = var11;
             var16 = _closure1_slot5;
             var15['QUEST_DOCK_MODE_CHANGE_PHYSICS'] = var16;
             var5['__closure'] = var15;
@@ -163,10 +163,10 @@ case 6:
             var5['__workletHash'] = var15;
             var15 = _closure1_slot9;
             var5['__initData'] = var15;
-            var9 = var9.bind(var11)(var5);
-            var3 = var10[var3];
-            var5 = var2.bind(var4)(var3);
-            var3 = var5.useAnimatedProps;
+            var9 = var9.bind(var14)(var5);
+            var2 = var10[var2];
+            var3 = var3.bind(var4)(var2);
+            var2 = var3.useAnimatedProps;
             var1 = function S() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -190,21 +190,21 @@ case 9:
                     return var1;
                 }
             };
-            var11 = {};
-            var11['activeQuestDockMode'] = var14;
-            var11['QuestDockMode'] = var13;
-            var11['hideOnExpand'] = var12;
-            var1['__closure'] = var11;
-            var11 = 14339269503421.0;
-            var1['__workletHash'] = var11;
-            var11 = _closure1_slot10;
-            var1['__initData'] = var11;
-            var5 = var3.bind(var5)(var1);
+            var5 = {};
+            var5['activeQuestDockMode'] = var13;
+            var5['QuestDockMode'] = var12;
+            var5['hideOnExpand'] = var11;
+            var1['__closure'] = var5;
+            var5 = 14339269503421.0;
+            var1['__workletHash'] = var5;
+            var5 = _closure1_slot10;
+            var1['__initData'] = var5;
+            var5 = var2.bind(var3)(var1);
             var3 = _closure1_slot7;
+            var2 = _closure1_slot1;
             var1 = 10;
             var1 = var10[var1];
-            var1 = var2.bind(var4)(var1);
-            var2 = var1.BandAidReanimatedView;
+            var2 = var2.bind(var4)(var1);
             var1 = {};
             var10 = var8.questDockContentCollapsed;
             var8 = new Array(2);

@@ -726,8 +726,8 @@ case 50:
             var4 = var4.MANAGE_GUILD;
             var3 = var5.bind(var6)(var4, var7);
 case 49:
-            if(!var3) { _fun0009_ip = 51; continue _fun0009 }
-case 52:
+            if(!var3) { _fun0009_ip = 29; continue _fun0009 }
+case 51:
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
             var2 = 8;
@@ -774,7 +774,7 @@ case 52:
                 return var1;
             };
             var1 = var2.bind(var3)(var1);
-case 51:
+case 29:
             var1 = undefined;
             return var1;
         }

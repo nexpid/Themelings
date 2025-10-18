@@ -93,45 +93,36 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var6 = arg2;
             var1 = null;
-            var2 = var1 == var6;
-            var9 = undefined;
-            var5 = undefined;
-            if(var2) { _fun0001_ip = 2; continue _fun0001 }
+            if(!(var1 != var6)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var2 = var6.getGuildId;
-            var5 = var2.bind(var6)();
-case 2:
-            if(!(var1 != var5)) { _fun0001_ip = 4; continue _fun0001 }
+            var4 = var2.bind(var6)();
+            var2 = var1 != var4;
+            if(!var2) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            if(!(var1 != var6)) { _fun0001_ip = 4; continue _fun0001 }
-case 6:
             var3 = _closure1_slot2;
-            var2 = var3.canChatInGuild;
-            var2 = var2.bind(var3)(var5);
-            if(!var2) { _fun0001_ip = 7; continue _fun0001 }
-case 8:
-            var7 = _closure1_slot3;
-            var5 = var7.can;
-            var3 = _closure1_slot4;
-            var3 = var3.ADD_REACTIONS;
-            var2 = var5.bind(var7)(var3, var6);
+            var1 = var3.canChatInGuild;
+            var2 = var1.bind(var3)(var4);
+case 4:
+            if(!var2) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            if(var2) { _fun0001_ip = 9; continue _fun0001 }
-case 10:
-            var3 = var1 == var6;
-            var1 = undefined;
-            if(var3) { _fun0001_ip = 11; continue _fun0001 }
-case 12:
-            var3 = var6.isPrivate;
-            var1 = var3.bind(var6)();
-case 11:
-            var2 = var1;
+            var4 = _closure1_slot3;
+            var3 = var4.can;
+            var1 = _closure1_slot4;
+            var1 = var1.ADD_REACTIONS;
+            var2 = var3.bind(var4)(var1, var6);
+case 6:
+            if(var2) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
+            var1 = var6.isPrivate;
+            var2 = var1.bind(var6)();
+case 8:
             var3 = {};
             var8 = _closure1_slot0;
             var1 = _closure1_slot1;
             var10 = 3;
             var5 = var1[var10];
+            var9 = undefined;
             var5 = var8.bind(var9)(var5);
             var7 = var5.intl;
             var5 = var7.string;
@@ -146,8 +137,8 @@ case 9:
             var3['name'] = var1;
             var1 = new Array(1);
             var1[0] = var3;
-            if(!var2) { _fun0001_ip = 13; continue _fun0001 }
-case 14:
+            if(!var2) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var3 = var1.push;
             var2 = {};
             var11 = _closure1_slot0;
@@ -166,7 +157,7 @@ case 14:
             var5 = var5.ADD_REACTION;
             var2['name'] = var5;
             var2 = var3.bind(var1)(var2);
-case 13:
+case 10:
             var3 = _closure1_slot0;
             var5 = _closure1_slot1;
             var2 = 4;
@@ -175,8 +166,8 @@ case 13:
             var3 = var5.canReplyToMessage;
             var2 = arg1;
             var2 = var3.bind(var5)(var6, var2);
-            if(!var2) { _fun0001_ip = 15; continue _fun0001 }
-case 16:
+            if(!var2) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var3 = var1.push;
             var2 = {};
             var8 = _closure1_slot0;
@@ -195,9 +186,9 @@ case 16:
             var4 = var4.REPLY;
             var2['name'] = var4;
             var2 = var3.bind(var1)(var2);
-case 15:
+case 12:
             return var1;
-case 4:
+case 2:
             var1 = new Array(0);
             return var1;
         }

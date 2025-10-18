@@ -242,6 +242,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/billing/utils/PaymentMethodUtils.tsx';
     var4 = var5.bind(var6)(var4);
+    var4 = ['city', 'country', 'line1'];
+    var3['NEW_PAYMENT_METHOD_REQUIRED_ADDRESS_ATTRIBUTES'] = var4;
     var2 = function getPaymentMethods(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:

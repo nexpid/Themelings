@@ -732,51 +732,24 @@ case 47:
             var1['style'] = var7;
             var20 = false;
             var1['accessible'] = var20;
-            var21 = {};
-            var20 = 'escape';
-            var21['name'] = var20;
-            var24 = _closure1_slot0;
-            var25 = _closure1_slot2;
-            var20 = 13;
-            var22 = var25[var20];
-            var22 = var24.bind(var4)(var22);
-            var23 = var22.intl;
-            var22 = var23.string;
-            var20 = var25[var20];
-            var20 = var24.bind(var4)(var20);
-            var20 = var20.t;
-            var20 = var20.13/7kZ;
-            var20 = var22.bind(var23)(var20);
-            var21['label'] = var20;
-            var20 = new Array(1);
-            var20[0] = var21;
-            var1['accessibilityActions'] = var20;
-            var5 = function onAccessibilityAction(arg1) {
+            var5 = function onAccessibilityEscape() {
                 _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
-                    var1 = arg1;
-                    var1 = var1.nativeEvent;
-                    var2 = var1.actionName;
-                    var1 = 'escape';
-                    var1 = var1 === var2;
-                    if(!var1) { _fun0008_ip = 48; continue _fun0008 }
-case 49:
-                    var1 = _closure2_slot4;
-case 48:
-                    if(!var1) { _fun0008_ip = 4; continue _fun0008 }
-case 28:
+                    var2 = _closure2_slot4;
+                    if(!var2) { _fun0008_ip = 11; continue _fun0008 }
+case 12:
                     var2 = _closure2_slot2;
                     var1 = var2.goBack;
                     var1 = var1.bind(var2)();
-case 4:
+case 11:
                     var1 = undefined;
                     return var1;
                 }
             };
-            var1['onAccessibilityAction'] = var5;
+            var1['onAccessibilityEscape'] = var5;
             var1['children'] = var11;
             var1 = var10.bind(var4)(var2, var1);
-            _fun0005_ip = 50; continue _fun0005;
+            _fun0005_ip = 48; continue _fun0005;
 case 46:
             var5 = _closure1_slot1;
             var20 = _closure1_slot2;
@@ -790,7 +763,7 @@ case 46:
             var2['isBackEnabled'] = var13;
             var2['children'] = var11;
             var1 = var10.bind(var4)(var5, var2);
-case 50:
+case 48:
             return var1;
 case 44:
             var2 = _closure1_slot4;
@@ -836,8 +809,8 @@ case 40:
             var10 = {};
             var10['style'] = var12;
             var14 = null;
-            if(!var15) { _fun0005_ip = 51; continue _fun0005 }
-case 52:
+            if(!var15) { _fun0005_ip = 49; continue _fun0005 }
+case 50:
             var20 = _closure1_slot11;
             var19 = _closure1_slot1;
             var21 = _closure1_slot2;
@@ -847,7 +820,7 @@ case 52:
             var15 = {};
             var15['guildId'] = var16;
             var14 = var20.bind(var4)(var19, var15);
-case 51:
+case 49:
             var10['children'] = var14;
             var10 = var13.bind(var4)(var11, var10);
             var5[1] = var10;
@@ -884,10 +857,10 @@ case 37:
             var13 = {};
             var13['guildId'] = var16;
             var16 = undefined;
-            if(!var18) { _fun0005_ip = 53; continue _fun0005 }
-case 54:
+            if(!var18) { _fun0005_ip = 51; continue _fun0005 }
+case 52:
             var16 = var17;
-case 53:
+case 51:
             var13['gatedChannelId'] = var16;
             var13 = var15.bind(var4)(var14, var13);
             var12[1] = var13;

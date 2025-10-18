@@ -277,7 +277,7 @@ case 9:
                     };
                     var1['headerRight'] = var5;
                     var1 = var2.bind(var3)(var1);
-                    _fun0003_ip = 3; continue _fun0003;
+                    _fun0003_ip = 10; continue _fun0003;
 case 8:
                     var5 = _closure1_slot5;
                     var3 = var5.getGuild;
@@ -301,11 +301,11 @@ case 0:
                             var1 = {};
                             var7 = _closure3_slot0;
                             var5 = null;
-                            if(!(var5 == var7)) { _fun0004_ip = 10; continue _fun0004 }
-case 11:
+                            if(!(var5 == var7)) { _fun0004_ip = 11; continue _fun0004 }
+case 12:
                             var5 = new Array(0);
-                            _fun0004_ip = 12; continue _fun0004;
-case 10:
+                            _fun0004_ip = 13; continue _fun0004;
+case 11:
                             var7 = _closure1_slot0;
                             var8 = _closure1_slot2;
                             var6 = 16;
@@ -316,7 +316,7 @@ case 10:
                             var9 = _closure3_slot0;
                             var6['guild'] = var9;
                             var5 = var7.bind(var8)(var6);
-case 12:
+case 13:
                             var1['items'] = var5;
                             var5 = function children(arg1) {
                                 var3 = arg1;
@@ -367,7 +367,7 @@ case 12:
                     };
                     var1['headerRight'] = var4;
                     var1 = var2.bind(var3)(var1);
-case 3:
+case 10:
                     var1 = undefined;
                     return var1;
                 }
