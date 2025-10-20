@@ -853,7 +853,7 @@
 { "file": "app/design/components/TableRow/native/TableRowTrailingText.native.tsx", "size": 1480 }
 { "file": "app/design/components/TableRow/native/TableSwitchRow.native.tsx", "size": 7547 }
 { "file": "app/design/components/Tabs/native/TabItem.native.tsx", "size": 15728 }
-{ "file": "app/design/components/Tabs/native/Tabs.native.tsx", "size": 39976 }
+{ "file": "app/design/components/Tabs/native/Tabs.native.tsx", "size": 41040 }
 { "file": "app/design/components/Tabs/native/TabsGradient.native.tsx", "size": 11292 }
 { "file": "app/design/components/TagListInput/native/TagListInput.native.tsx", "size": 41879 }
 { "file": "app/design/components/TagListInput/native/TagListInputTag.native.tsx", "size": 7306 }
@@ -2423,7 +2423,7 @@
 { "file": "app/modules/emojis/EmojiActionCreators.tsx", "size": 1711 }
 { "file": "app/modules/emojis/EmojiConstants.tsx", "size": 5993 }
 { "file": "app/modules/emojis/EmojiSearchRankingTweaksExperiment.tsx", "size": 1223 }
-{ "file": "app/modules/emojis/EmojiStore.tsx", "size": 148398 }
+{ "file": "app/modules/emojis/EmojiStore.tsx", "size": 148452 }
 { "file": "app/modules/emojis/EmojiTypes.tsx", "size": 802 }
 { "file": "app/modules/emojis/hooks/useEmojiAndSource.tsx", "size": 13205 }
 { "file": "app/modules/emojis/hooks/useEmojiColorPalette.tsx", "size": 2334 }
@@ -6965,7 +6965,7 @@
 { "file": "app/modules/user_settings/UserSettingsHooks.tsx", "size": 2087 }
 { "file": "app/modules/user_settings/UserSettingsMigrationsByType.tsx", "size": 960 }
 { "file": "app/modules/user_settings/UserSettingsOverridesStore.tsx", "size": 18039 }
-{ "file": "app/modules/user_settings/UserSettingsProtoActionCreators.tsx", "size": 72910 }
+{ "file": "app/modules/user_settings/UserSettingsProtoActionCreators.tsx", "size": 72909 }
 { "file": "app/modules/user_settings/UserSettingsProtoManager.tsx", "size": 8609 }
 { "file": "app/modules/user_settings/UserSettingsProtoStore.tsx", "size": 33486 }
 { "file": "app/modules/user_settings/UserSettingsProtoUtils.tsx", "size": 3189 }
@@ -7370,7 +7370,7 @@
 { "file": "app/records/InviteRecord.tsx", "size": 11641 }
 { "file": "app/records/LibraryApplicationRecord.tsx", "size": 18803 }
 { "file": "app/records/LinkRecord.tsx", "size": 4859 }
-{ "file": "app/records/MessageRecord.tsx", "size": 56264 }
+{ "file": "app/records/MessageRecord.tsx", "size": 56268 }
 { "file": "app/records/PaymentSourceRecord.tsx", "size": 68695 }
 { "file": "app/records/PromotionRecord.tsx", "size": 16280 }
 { "file": "app/records/SKURecord.tsx", "size": 29683 }
@@ -8200,7 +8200,7 @@
 { "file": "discord_common/js/packages/protos/discord_protos/discord_experimentation/v1/experiment.tsx", "size": 103740 }
 { "file": "discord_common/js/packages/protos/discord_protos/discord_experimentation/v1/rules.tsx", "size": 410219 }
 { "file": "discord_common/js/packages/protos/discord_protos/discord_kkv_store_value_models/v1/applications.tsx", "size": 40496 }
-{ "file": "discord_common/js/packages/protos/discord_protos/discord_users/v1/dismissible_content.tsx", "size": 63877 }
+{ "file": "discord_common/js/packages/protos/discord_protos/discord_users/v1/dismissible_content.tsx", "size": 64012 }
 { "file": "discord_common/js/packages/protos/discord_protos/discord_users/v1/frecency_user_settings.tsx", "size": 197366 }
 { "file": "discord_common/js/packages/protos/discord_protos/discord_users/v1/preloaded_user_settings.tsx", "size": 881835 }
 { "file": "discord_common/js/packages/protos/discord_protos/discord_users/v1/user_settings_shared.tsx", "size": 14090 }

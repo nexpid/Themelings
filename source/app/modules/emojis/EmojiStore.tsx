@@ -3099,13 +3099,14 @@ case 0:
                 var9 = var6.bind(var7)(var4);
                 var4 = var9.escape;
                 var18 = var4.bind(var9)(var13);
+                var9 = var13.slice;
                 var4 = 0;
-                var11 = var13[var4];
+                var12 = 1;
+                var11 = var9.bind(var13)(var4, var12);
                 var9 = var11.toUpperCase;
                 var11 = var9.bind(var11)();
-                var12 = var13.slice;
-                var9 = 1;
-                var9 = var12.bind(var13)(var9);
+                var9 = var13.slice;
+                var9 = var9.bind(var13)(var12);
                 var9 = var11 + var9;
                 var3 = var10[var3];
                 var6 = var6.bind(var7)(var3);
@@ -4024,27 +4025,27 @@ case 200:
             var3 = new Array(1);
             var3[0] = var1;
             if(!(var9 != var3)) { _fun0071_ip = 201; continue _fun0071 }
-case 202:
+case 165:
             var4 = _closure1_slot44;
             var8 = undefined;
             var7 = var4.bind(var8)(var3);
             var5 = var7.bind(var8)();
             var4 = var5.done;
             var6 = global;
-            if(var4) { _fun0071_ip = 203; continue _fun0071 }
-case 204:
+            if(var4) { _fun0071_ip = 202; continue _fun0071 }
+case 203:
             var4 = var5.value;
             var12 = var4.id;
-            if(!(var9 == var12)) { _fun0071_ip = 205; continue _fun0071 }
-case 206:
-            var12 = var4.uniqueName;
+            if(!(var9 == var12)) { _fun0071_ip = 204; continue _fun0071 }
 case 205:
+            var12 = var4.uniqueName;
+case 204:
             if(!(var9 == var12)) { _fun0071_ip = 91; continue _fun0071 }
-case 207:
+case 206:
             var12 = var4.name;
 case 91:
-            if(!(var9 != var12)) { _fun0071_ip = 208; continue _fun0071 }
-case 209:
+            if(!(var9 != var12)) { _fun0071_ip = 207; continue _fun0071 }
+case 208:
             var10 = _closure1_slot42;
             var4 = var10.track;
             var4 = var4.bind(var10)(var12);
@@ -4058,33 +4059,33 @@ case 209:
             var12 = var12.bind(var13)();
             var4['timestamp'] = var12;
             var4 = var10.bind(var11)(var4);
-case 208:
+case 207:
             var10 = var7.bind(var8)();
             var4 = var10.done;
             var5 = var10;
-            if(!var4) { _fun0071_ip = 204; continue _fun0071 }
-case 203:
+            if(!var4) { _fun0071_ip = 203; continue _fun0071 }
+case 202:
             var4 = var3.length;
             var3 = 0;
             var4 = var4 > var3;
             var3 = !var4;
-            if(!var4) { _fun0071_ip = 210; continue _fun0071 }
-case 211:
+            if(!var4) { _fun0071_ip = 209; continue _fun0071 }
+case 210:
             var5 = _closure1_slot34;
             var4 = _closure1_slot33;
             var4 = var4.Loaded;
             var4 = var5 !== var4;
-            if(!var4) { _fun0071_ip = 212; continue _fun0071 }
-case 213:
+            if(!var4) { _fun0071_ip = 211; continue _fun0071 }
+case 212:
             var6 = _closure1_slot34;
             var5 = _closure1_slot33;
             var5 = var5.MaybeLoaded;
             var4 = var6 !== var5;
-case 212:
+case 211:
             var3 = var4;
-case 210:
+case 209:
             if(var3) { _fun0071_ip = 201; continue _fun0071 }
-case 214:
+case 213:
             var3 = _closure1_slot42;
             var2 = var3.compute;
             var2 = var2.bind(var3)();
@@ -4129,9 +4130,9 @@ case 0:
             var4 = var6.bind(var7)(var4);
             var4 = _closure1_slot26;
             var4 = var4.FRECENCY_AND_FAVORITES_SETTINGS;
-            if(!(var5 === var4)) { _fun0072_ip = 215; continue _fun0072 }
+            if(!(var5 === var4)) { _fun0072_ip = 214; continue _fun0072 }
 case 97:
-            if(!var3) { _fun0072_ip = 215; continue _fun0072 }
+            if(!var3) { _fun0072_ip = 214; continue _fun0072 }
 case 112:
             var4 = _closure1_slot28;
             var3 = new Array(0);
@@ -4140,7 +4141,7 @@ case 112:
             var2 = new Array(0);
             var3['emojiReactionPendingUsages'] = var2;
             return var1;
-case 215:
+case 214:
             var1 = false;
             return var1;
         }

@@ -1790,6 +1790,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['PREMIUM_MARKETING_MOMENT_MOBILE_BOTTOM_SHEET'] = var2;
     var1 = 'PREMIUM_MARKETING_MOMENT_MOBILE_BOTTOM_SHEET';
     var4[var2] = var1;
+    var2 = 634;
+    var4['NITRO_TAB_BADGE_OFFER_REMINDER'] = var2;
+    var1 = 'NITRO_TAB_BADGE_OFFER_REMINDER';
+    var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;
     var1 = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';
