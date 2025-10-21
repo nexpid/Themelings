@@ -318,13 +318,13 @@ case 0:
             var1 = {};
             var5 = null;
             if(!(var5 != var7)) { _fun0005_ip = 36; continue _fun0005 }
-case 17:
+case 37:
             var6 = var7.split;
             var5 = ',';
             var6 = var6.bind(var7)(var5);
             var5 = 0;
             var8 = var6[var5];
-            _fun0005_ip = 37; continue _fun0005;
+            _fun0005_ip = 38; continue _fun0005;
 case 36:
             var9 = _closure1_slot0;
             var10 = _closure1_slot2;
@@ -338,7 +338,7 @@ case 36:
             var5 = var5.t;
             var5 = var5.lqaIxM;
             var8 = var6.bind(var7)(var5);
-case 37:
+case 38:
             var5 = global;
             var5 = var5.HermesInternal;
             var7 = var5.concat;
@@ -359,8 +359,8 @@ case 0:
             var5 = arg1;
             var4 = var5.assetOrigin;
             var1 = undefined;
-            if(!(var4 === var1)) { _fun0006_ip = 38; continue _fun0006 }
-case 39:
+            if(!(var4 === var1)) { _fun0006_ip = 39; continue _fun0006 }
+case 40:
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
             var2 = 5;
@@ -368,7 +368,7 @@ case 39:
             var2 = var3.bind(var1)(var2);
             var2 = var2.AssetOriginTypes;
             var4 = var2.NEW_ASSET;
-case 38:
+case 39:
             var3 = var5.imageUri;
             var2 = var5.description;
             var5 = var5.originalAsset;
@@ -379,7 +379,7 @@ case 38:
             var7 = var8.bind(var1)(var7);
             var7 = var7.AssetOriginTypes;
             var7 = var7.NEW_ASSET;
-            if(!(var7 !== var4)) { _fun0006_ip = 40; continue _fun0006 }
+            if(!(var7 !== var4)) { _fun0006_ip = 41; continue _fun0006 }
 case 32:
             var8 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -387,16 +387,16 @@ case 32:
             var7 = var8.bind(var1)(var7);
             var7 = var7.AssetOriginTypes;
             var7 = var7.EDITED_ARCHIVED_ASSET;
-            if(!(var7 !== var4)) { _fun0006_ip = 41; continue _fun0006 }
-case 42:
+            if(!(var7 !== var4)) { _fun0006_ip = 42; continue _fun0006 }
+case 43:
             var8 = _closure1_slot0;
             var7 = _closure1_slot2;
             var7 = var7[var9];
             var7 = var8.bind(var1)(var7);
             var7 = var7.AssetOriginTypes;
             var7 = var7.ARCHIVED_ASSET;
-            if(!(var7 !== var4)) { _fun0006_ip = 43; continue _fun0006 }
-case 44:
+            if(!(var7 !== var4)) { _fun0006_ip = 44; continue _fun0006 }
+case 45:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var6 = 6;
@@ -405,20 +405,20 @@ case 44:
             var6 = var7.assertNever;
             var6 = var6.bind(var7)(var4);
             return var1;
-case 43:
+case 44:
             var1 = {};
             var1['assetOrigin'] = var4;
             var1['imageUri'] = var3;
             var1['originalAsset'] = var5;
             return var1;
-case 41:
+case 42:
             var1 = {};
             var1['assetOrigin'] = var4;
             var1['imageUri'] = var3;
             var1['description'] = var2;
             var1['originalAsset'] = var5;
             return var1;
-case 40:
+case 41:
             var1 = {};
             var1['assetOrigin'] = var4;
             var1['imageUri'] = var3;
@@ -435,24 +435,24 @@ case 0:
             var8 = var1.image;
             var7 = var1.size;
             var5 = undefined;
-            if(!(var7 === var5)) { _fun0007_ip = 45; continue _fun0007 }
-case 46:
+            if(!(var7 === var5)) { _fun0007_ip = 46; continue _fun0007 }
+case 47:
             var7 = 80;
-case 45:
+case 46:
             var6 = var1.canAnimate;
-            if(!(var6 === var5)) { _fun0007_ip = 47; continue _fun0007 }
+            if(!(var6 === var5)) { _fun0007_ip = 48; continue _fun0007 }
 case 7:
             var6 = true;
-case 47:
+case 48:
             var2 = null;
             var1 = var8;
-            if(!(var2 != var8)) { _fun0007_ip = 48; continue _fun0007 }
-case 49:
+            if(!(var2 != var8)) { _fun0007_ip = 49; continue _fun0007 }
+case 50:
             var3 = 'string';
             var2 = typeof var8;
             var1 = var8;
-            if(!(var3 !== var2)) { _fun0007_ip = 48; continue _fun0007 }
-case 36:
+            if(!(var3 !== var2)) { _fun0007_ip = 49; continue _fun0007 }
+case 51:
             var4 = var8.assetOrigin;
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
@@ -461,11 +461,11 @@ case 36:
             var2 = var10.bind(var5)(var2);
             var2 = var2.AssetOriginTypes;
             var2 = var2.ARCHIVED_ASSET;
-            if(!(var4 !== var2)) { _fun0007_ip = 50; continue _fun0007 }
-case 51:
+            if(!(var4 !== var2)) { _fun0007_ip = 52; continue _fun0007 }
+case 53:
             var2 = var8.imageUri;
-            _fun0007_ip = 52; continue _fun0007;
-case 50:
+            _fun0007_ip = 54; continue _fun0007;
+case 52:
             var4 = _closure1_slot5;
             var3 = {};
             var3['userId'] = var9;
@@ -480,9 +480,9 @@ case 50:
             var6 = false;
             var3['allowWebp'] = var6;
             var2 = var4.bind(var5)(var3);
-case 52:
+case 54:
             var1 = var2;
-case 48:
+case 49:
             return var1;
         }
     };

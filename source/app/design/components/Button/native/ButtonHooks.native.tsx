@@ -465,10 +465,10 @@ case 30:
 case 32:
             var1 = 'destructive';
             if(!(var1 !== var2)) { _fun0004_ip = 33; continue _fun0004 }
-case 34:
+case 23:
             var1 = 'active';
-            if(!(var1 !== var2)) { _fun0004_ip = 35; continue _fun0004 }
-case 25:
+            if(!(var1 !== var2)) { _fun0004_ip = 34; continue _fun0004 }
+case 35:
             var1 = 'experimental_premium-secondary';
             if(!(var1 !== var2)) { _fun0004_ip = 36; continue _fun0004 }
 case 37:
@@ -581,7 +581,7 @@ case 36:
             var2 = _closure1_slot4;
             var1['borderPressed'] = var2;
             return var1;
-case 35:
+case 34:
             var1 = {};
             var5 = _closure1_slot1;
             var6 = _closure1_slot2;
@@ -785,8 +785,8 @@ case 52:
                 var2 = _closure2_slot1;
                 var6 = var2.borderColor;
 case 51:
-                if(!(var1 == var6)) { _fun0005_ip = 53; continue _fun0005 }
-case 54:
+                if(!(var1 == var6)) { _fun0005_ip = 44; continue _fun0005 }
+case 53:
                 var2 = _closure2_slot2;
                 var4 = var2.borderInactive;
                 var1 = new Array(2);
@@ -794,7 +794,7 @@ case 54:
                 var2 = var2.borderPressed;
                 var1[1] = var2;
                 var6 = var1;
-case 53:
+case 44:
                 var1 = {};
                 var4 = _closure1_slot0;
                 var7 = _closure1_slot2;
@@ -846,10 +846,10 @@ case 0:
             var9 = arguments[3];
             var8 = arguments[4];
             var5 = undefined;
-            if(!(var6 === var5)) { _fun0006_ip = 55; continue _fun0006 }
-case 56:
-            var6 = 8;
+            if(!(var6 === var5)) { _fun0006_ip = 54; continue _fun0006 }
 case 55:
+            var6 = 8;
+case 54:
             var _closure2_slot0 = var11;
             var _closure2_slot1 = var9;
             var _closure2_slot2 = var8;
@@ -864,10 +864,10 @@ case 55:
             var10 = 0;
             var4 = var3.bind(var4)(var10);
             var3 = null;
-            if(!(var3 != var1)) { _fun0006_ip = 54; continue _fun0006 }
-case 38:
+            if(!(var3 != var1)) { _fun0006_ip = 53; continue _fun0006 }
+case 56:
             var4 = var1;
-case 54:
+case 53:
             _closure2_slot3 = var4;
             var3 = _closure1_slot0;
             var1 = _closure1_slot2;
@@ -975,12 +975,12 @@ case 0:
             var6 = arguments[2];
             var _closure2_slot0 = var8;
             var5 = undefined;
-            if(!(var7 === var5)) { _fun0010_ip = 56; continue _fun0010 }
+            if(!(var7 === var5)) { _fun0010_ip = 55; continue _fun0010 }
 case 62:
             var7 = false;
-case 56:
+case 55:
             var _closure2_slot1 = var7;
-            if(!(var6 === var5)) { _fun0010_ip = 63; continue _fun0010 }
+            if(!(var6 === var5)) { _fun0010_ip = 35; continue _fun0010 }
 case 5:
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
@@ -988,7 +988,7 @@ case 5:
             var2 = var4[var2];
             var2 = var3.bind(var5)(var2);
             var6 = var2.BUTTON_DEFAULT_MAX_FONT_SIZE_MULTIPLIER;
-case 63:
+case 35:
             var _closure2_slot2 = var6;
             var _closure2_slot3 = var5;
             var4 = _closure1_slot0;
@@ -1023,10 +1023,10 @@ case 0:
                     var5 = var2.bind(var5)(var1);
                     var6 = _closure2_slot0;
                     var2 = 'sm';
-                    if(!(var2 !== var6)) { _fun0011_ip = 53; continue _fun0011 }
-case 64:
+                    if(!(var2 !== var6)) { _fun0011_ip = 44; continue _fun0011 }
+case 63:
                     var2 = 'lg';
-                    if(!(var2 === var6)) { _fun0011_ip = 12; continue _fun0011 }
+                    if(!(var2 === var6)) { _fun0011_ip = 64; continue _fun0011 }
 case 52:
                     var10 = _closure1_slot0;
                     var2 = _closure1_slot2;
@@ -1037,8 +1037,8 @@ case 52:
                     var2 = var10.bind(var7)(var2);
                     var2 = var2.LARGE_BUTTON_ICON_SIZE;
                     var5 = var6.bind(var9)(var2);
-                    _fun0011_ip = 12; continue _fun0011;
-case 53:
+                    _fun0011_ip = 64; continue _fun0011;
+case 44:
                     var9 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var4 = var2[var4];
@@ -1048,7 +1048,7 @@ case 53:
                     var2 = var9.bind(var7)(var2);
                     var2 = var2.SMALL_BUTTON_ICON_SIZE;
                     var5 = var4.bind(var6)(var2);
-case 12:
+case 64:
                     var4 = _closure2_slot1;
                     var2 = var5;
                     if(!var4) { _fun0011_ip = 65; continue _fun0011 }

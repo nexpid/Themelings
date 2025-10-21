@@ -383,43 +383,50 @@ case 9:
     var5 = function StaticEffect(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
-            var3 = arg1;
-            var2 = var3.config;
-            var13 = var3.bannerAdjustment;
+            var2 = arg1;
+            var3 = var2.config;
+            var13 = var2.bannerAdjustment;
             var4 = undefined;
             if(!(var13 === var4)) { _fun0005_ip = 8; continue _fun0005 }
 case 11:
             var13 = 0;
 case 8:
-            var18 = var3.useThumbnail;
+            var18 = var2.useThumbnail;
             var _closure2_slot0 = var18;
+            var2 = var2.thumbnailUrlOverride;
             var _closure2_slot1 = var4;
             var _closure2_slot2 = var4;
             var _closure2_slot3 = var4;
             var _closure2_slot4 = var4;
-            var3 = _closure1_slot10;
-            var7 = var3.bind(var4)();
-            var16 = var2.reducedMotionSrc;
+            var6 = _closure1_slot10;
+            var7 = var6.bind(var4)();
+            var16 = var3.reducedMotionSrc;
             _closure2_slot1 = var16;
-            var17 = var2.thumbnailPreviewSrc;
-            _closure2_slot2 = var17;
-            var10 = var2.accessibilityLabel;
-            var2 = _closure1_slot12;
-            var2 = var2.bind(var4)();
-            var15 = var2.width;
-            _closure2_slot3 = var15;
-            var6 = var2.onLayout;
+            var17 = var3.thumbnailPreviewSrc;
+            var10 = var3.accessibilityLabel;
+            var3 = _closure1_slot12;
+            var3 = var3.bind(var4)();
+            var15 = var3.width;
+            _closure2_slot2 = var15;
+            var6 = var3.onLayout;
             var8 = _closure1_slot4;
-            var2 = var8.useState;
+            var3 = var8.useState;
             var12 = 0;
-            var9 = var2.bind(var8)(var12);
-            var3 = _closure1_slot3;
-            var2 = 2;
-            var3 = var3.bind(var4)(var9, var2);
-            var14 = var3[var12];
-            var2 = 1;
-            var2 = var3[var2];
-            _closure2_slot4 = var2;
+            var9 = var3.bind(var8)(var12);
+            var8 = _closure1_slot3;
+            var3 = 2;
+            var8 = var8.bind(var4)(var9, var3);
+            var14 = var8[var12];
+            var3 = 1;
+            var3 = var8[var3];
+            _closure2_slot3 = var3;
+            var3 = null;
+            if(!(var3 != var2)) { _fun0005_ip = 12; continue _fun0005 }
+case 13:
+            var17 = var2;
+case 12:
+            _closure2_slot4 = var17;
+            var8 = _closure1_slot4;
             var3 = var8.useEffect;
             var2 = new Array(4);
             var2[0] = var16;
@@ -429,23 +436,23 @@ case 8:
             var1 = function() {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
-                    var4 = _closure2_slot3;
+                    var4 = _closure2_slot2;
                     var3 = 0;
-                    if(!(var3 !== var4)) { _fun0006_ip = 12; continue _fun0006 }
+                    if(!(var3 !== var4)) { _fun0006_ip = 14; continue _fun0006 }
 case 3:
                     var5 = _closure1_slot7;
                     var4 = var5.getSize;
                     var3 = _closure2_slot0;
-                    if(var3) { _fun0006_ip = 13; continue _fun0006 }
-case 14:
+                    if(var3) { _fun0006_ip = 15; continue _fun0006 }
+case 16:
                     var3 = _closure2_slot1;
-                    _fun0006_ip = 15; continue _fun0006;
-case 13:
-                    var3 = _closure2_slot2;
+                    _fun0006_ip = 17; continue _fun0006;
 case 15:
+                    var3 = _closure2_slot4;
+case 17:
                     var2 = function(arg1, arg2) {
-                        var3 = _closure2_slot4;
-                        var2 = _closure2_slot3;
+                        var3 = _closure2_slot3;
+                        var2 = _closure2_slot2;
                         var1 = arg1;
                         var2 = var2 / var1;
                         var1 = arg2;
@@ -455,8 +462,8 @@ case 15:
                         return var1;
                     };
                     var1 = function() {
-                        var3 = _closure2_slot4;
-                        var4 = _closure2_slot3;
+                        var3 = _closure2_slot3;
+                        var4 = _closure2_slot2;
                         var5 = _closure1_slot0;
                         var2 = _closure1_slot2;
                         var1 = 12;
@@ -469,7 +476,7 @@ case 15:
                         return var1;
                     };
                     var1 = var4.bind(var5)(var3, var2, var1);
-case 12:
+case 14:
                     var1 = undefined;
                     return var1;
                 }
@@ -477,8 +484,8 @@ case 12:
             var1 = var3.bind(var8)(var1, var2);
             var3 = _closure1_slot9;
             var2 = _closure1_slot5;
-            if(!(var12 !== var14)) { _fun0005_ip = 16; continue _fun0005 }
-case 17:
+            if(!(var12 !== var14)) { _fun0005_ip = 18; continue _fun0005 }
+case 19:
             var1 = {};
             var8 = var7.profileEffects;
             var1['style'] = var8;
@@ -493,10 +500,10 @@ case 17:
             var8 = var8.bind(var4)(var5);
             var5 = {'resizeMode': 'cover', 'resizeMethod': 'resize', 'enableAnimation': true};
             var11 = {};
-            if(!var18) { _fun0005_ip = 18; continue _fun0005 }
-case 19:
+            if(!var18) { _fun0005_ip = 20; continue _fun0005 }
+case 21:
             var16 = var17;
-case 18:
+case 20:
             var11['uri'] = var16;
             var5['source'] = var11;
             var5['alt'] = var10;
@@ -514,8 +521,8 @@ case 18:
             var5['style'] = var10;
             var5 = var9.bind(var4)(var8, var5);
             var1['children'] = var5;
-            _fun0005_ip = 20; continue _fun0005;
-case 16:
+            _fun0005_ip = 22; continue _fun0005;
+case 18:
             var5 = {};
             var7 = var7.profileEffects;
             var5['style'] = var7;
@@ -523,7 +530,7 @@ case 16:
             var5['pointerEvents'] = var7;
             var5['onLayout'] = var6;
             var1 = var5;
-case 20:
+case 22:
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }
@@ -552,7 +559,7 @@ case 0:
             var4 = var1 == var2;
             var8 = undefined;
             if(var4) { _fun0007_ip = 9; continue _fun0007 }
-case 21:
+case 23:
             var8 = var2.config;
 case 9:
             var5 = _closure1_slot0;
@@ -577,13 +584,13 @@ case 9:
             var8 = var4.bind(var5)(var8);
             var4 = var1 == var8;
             var1 = null;
-            if(var4) { _fun0007_ip = 22; continue _fun0007 }
-case 23:
-            if(var2) { _fun0007_ip = 24; continue _fun0007 }
+            if(var4) { _fun0007_ip = 24; continue _fun0007 }
 case 25:
+            if(var2) { _fun0007_ip = 26; continue _fun0007 }
+case 27:
             var2 = var7.useThumbnail;
-            if(var2) { _fun0007_ip = 24; continue _fun0007 }
-case 26:
+            if(var2) { _fun0007_ip = 26; continue _fun0007 }
+case 28:
             var5 = _closure1_slot9;
             var4 = _closure1_slot13;
             var2 = {};
@@ -592,20 +599,22 @@ case 26:
             var12 = var7;
             var9 = copyDataProperties(var13, var12);
             var2 = var5.bind(var6)(var4, var2);
-            _fun0007_ip = 27; continue _fun0007;
-case 24:
+            _fun0007_ip = 29; continue _fun0007;
+case 26:
             var5 = _closure1_slot9;
             var4 = _closure1_slot14;
             var3 = {};
             var3['config'] = var8;
             var8 = var7.bannerAdjustment;
             var3['bannerAdjustment'] = var8;
-            var7 = var7.useThumbnail;
-            var3['useThumbnail'] = var7;
+            var8 = var7.useThumbnail;
+            var3['useThumbnail'] = var8;
+            var7 = var7.thumbnailUrlOverride;
+            var3['thumbnailUrlOverride'] = var7;
             var2 = var5.bind(var6)(var4, var3);
-case 27:
+case 29:
             var1 = var2;
-case 22:
+case 24:
             return var1;
         }
     };

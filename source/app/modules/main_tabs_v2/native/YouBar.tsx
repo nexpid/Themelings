@@ -1703,10 +1703,10 @@ case 67:
             var10 = var11.bind(var12)(var10);
             var5['accessibilityLabel'] = var10;
             var10 = 'tertiary';
-            if(!var19) { _fun0018_ip = 69; continue _fun0018 }
-case 70:
-            var10 = 'secondary-overlay';
+            if(!var19) { _fun0018_ip = 22; continue _fun0018 }
 case 69:
+            var10 = 'secondary-overlay';
+case 22:
             var5['variant'] = var10;
             var10 = 'md';
             var5['size'] = var10;
@@ -1728,10 +1728,10 @@ case 69:
             var18 = var18.largeButtonIcon;
             var13['style'] = var18;
             var18 = undefined;
-            if(!var19) { _fun0018_ip = 71; continue _fun0018 }
-case 72:
-            var18 = 'white';
+            if(!var19) { _fun0018_ip = 70; continue _fun0018 }
 case 71:
+            var18 = 'white';
+case 70:
             var13['color'] = var18;
             var15 = var16.bind(var4)(var15, var13);
             var13 = new Array(2);
@@ -1778,7 +1778,7 @@ case 0:
                     var2 = var3.getRootNavigationRef;
                     var5 = var2.bind(var3)();
                     var2 = null;
-                    if(!(var2 != var5)) { _fun0020_ip = 73; continue _fun0020 }
+                    if(!(var2 != var5)) { _fun0020_ip = 72; continue _fun0020 }
 case 63:
                     var4 = var5.navigate;
                     var3 = {};
@@ -1786,7 +1786,7 @@ case 63:
                     var3['inNestedNavigator'] = var2;
                     var2 = 'notifications';
                     var2 = var4.bind(var5)(var2, var3);
-case 73:
+case 72:
                     return var1;
                 }
             };
@@ -1833,7 +1833,7 @@ case 0:
             var8['style'] = var11;
             var11 = undefined;
             if(!var12) { _fun0021_ip = 61; continue _fun0021 }
-case 74:
+case 73:
             var11 = 'white';
 case 61:
             var8['color'] = var11;
@@ -1863,12 +1863,12 @@ case 0:
                     var2 = var3.getRootNavigationRef;
                     var4 = var2.bind(var3)();
                     var2 = null;
-                    if(!(var2 != var4)) { _fun0022_ip = 75; continue _fun0022 }
+                    if(!(var2 != var4)) { _fun0022_ip = 74; continue _fun0022 }
 case 63:
                     var3 = var4.navigate;
                     var2 = 'settings';
                     var2 = var3.bind(var4)(var2);
-case 75:
+case 74:
                     return var1;
                 }
             };
@@ -1925,13 +1925,13 @@ case 0:
             var1 = _closure1_slot16;
             var5 = 2;
             var1 = var5 * var1;
-            if(var6) { _fun0023_ip = 76; continue _fun0023 }
-case 73:
+            if(var6) { _fun0023_ip = 75; continue _fun0023 }
+case 72:
             var2 = var2 - var1;
-            _fun0023_ip = 77; continue _fun0023;
-case 76:
+            _fun0023_ip = 76; continue _fun0023;
+case 75:
             var2 = var3 - var1;
-case 77:
+case 76:
             var _closure2_slot1 = var2;
             var1 = _closure1_slot13;
             var1 = var1.bind(var4)();
@@ -2020,15 +2020,15 @@ case 77:
             var3 = {};
             var3['user'] = var11;
             var11 = undefined;
-            if(!var14) { _fun0023_ip = 72; continue _fun0023 }
+            if(!var14) { _fun0023_ip = 77; continue _fun0023 }
 case 78:
             var14 = null;
             var14 = var14 != var13;
             var11 = undefined;
-            if(!var14) { _fun0023_ip = 72; continue _fun0023 }
+            if(!var14) { _fun0023_ip = 77; continue _fun0023 }
 case 79:
             var11 = var13;
-case 72:
+case 77:
             var3['guildId'] = var11;
             var20 = var6.bind(var8)(var3);
             var11 = null;

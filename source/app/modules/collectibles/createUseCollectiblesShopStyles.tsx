@@ -94,29 +94,38 @@ case 5:
             var1['primary'] = var6;
             var6 = var5[var2];
             var1['secondary'] = var6;
-            var8 = _closure1_slot5;
+            var6 = var5.length;
+            var7 = 2;
+            var9 = var6 > var7;
+            var8 = undefined;
+            var6 = undefined;
+            if(!var9) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+            var6 = var5[var7];
+case 6:
+            var1['tertiary'] = var6;
+            var7 = _closure1_slot5;
             var9 = var5[var3];
             var6 = var5[var2];
-            var7 = undefined;
-            var10 = var8.bind(var7)(var9, var6);
+            var10 = var7.bind(var8)(var9, var6);
             var9 = var10.setAlpha;
             var6 = 0.4;
             var6 = var9.bind(var10)(var6);
             var1['border'] = var6;
             var6 = var5[var3];
             var2 = var5[var2];
-            var6 = var8.bind(var7)(var6, var2);
+            var6 = var7.bind(var8)(var6, var2);
             var2 = var6.isLight;
             var2 = var2.bind(var6)();
-            if(var2) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
+            if(var2) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var2 = var4.light;
-            _fun0001_ip = 8; continue _fun0001;
-case 6:
-            var2 = var4.dark;
+            _fun0001_ip = 10; continue _fun0001;
 case 8:
+            var2 = var4.dark;
+case 10:
             var1['label'] = var2;
-            _fun0001_ip = 9; continue _fun0001;
+            _fun0001_ip = 11; continue _fun0001;
 case 4:
             var2 = {};
             var6 = var5[var3];
@@ -131,16 +140,16 @@ case 4:
             var5 = var5[var3];
             var3 = var5.isLight;
             var3 = var3.bind(var5)();
-            if(var3) { _fun0001_ip = 10; continue _fun0001 }
-case 11:
+            if(var3) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var3 = var4.light;
-            _fun0001_ip = 12; continue _fun0001;
-case 10:
-            var3 = var4.dark;
+            _fun0001_ip = 14; continue _fun0001;
 case 12:
+            var3 = var4.dark;
+case 14:
             var2['label'] = var3;
             var1 = var2;
-case 9:
+case 11:
             return var1;
         }
     };
@@ -159,8 +168,8 @@ case 3:
 case 2:
             var1 = var5.length;
             var2 = 1;
-            if(!(var2 !== var1)) { _fun0002_ip = 13; continue _fun0002 }
-case 5:
+            if(!(var2 !== var1)) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
             var1 = {};
             var6 = var5[var3];
             var1['primary'] = var6;
@@ -173,16 +182,16 @@ case 5:
             var6 = var8.bind(var2)(var7, var6);
             var2 = var6.isLight;
             var2 = var2.bind(var6)();
-            if(var2) { _fun0002_ip = 14; continue _fun0002 }
-case 15:
+            if(var2) { _fun0002_ip = 17; continue _fun0002 }
+case 18:
             var2 = var4.light;
-            _fun0002_ip = 16; continue _fun0002;
-case 14:
+            _fun0002_ip = 19; continue _fun0002;
+case 17:
             var2 = var4.dark;
-case 16:
+case 19:
             var1['text'] = var2;
-            _fun0002_ip = 17; continue _fun0002;
-case 13:
+            _fun0002_ip = 20; continue _fun0002;
+case 15:
             var2 = {};
             var6 = var5[var3];
             var2['primary'] = var6;
@@ -191,16 +200,16 @@ case 13:
             var5 = var5[var3];
             var3 = var5.isLight;
             var3 = var3.bind(var5)();
-            if(var3) { _fun0002_ip = 18; continue _fun0002 }
-case 19:
+            if(var3) { _fun0002_ip = 21; continue _fun0002 }
+case 22:
             var3 = var4.light;
-            _fun0002_ip = 20; continue _fun0002;
-case 18:
+            _fun0002_ip = 23; continue _fun0002;
+case 21:
             var3 = var4.dark;
-case 20:
+case 23:
             var2['text'] = var3;
             var1 = var2;
-case 17:
+case 20:
             return var1;
         }
     };
@@ -259,8 +268,8 @@ case 0:
                 var8 = var5.bind(var7)(var4, var3);
                 var _closure3_slot0 = var8;
                 var5 = null;
-                if(!(var5 != var1)) { _fun0003_ip = 21; continue _fun0003 }
-case 22:
+                if(!(var5 != var1)) { _fun0003_ip = 24; continue _fun0003 }
+case 25:
                 var3 = {};
                 var7 = _closure1_slot6;
                 var10 = _closure2_slot0;
@@ -274,14 +283,14 @@ case 22:
                 var1 = var1.confettiColors;
                 var3['confettiColors'] = var1;
                 var1 = 1;
-                if(!(var1 !== var8)) { _fun0003_ip = 23; continue _fun0003 }
-case 24:
+                if(!(var1 !== var8)) { _fun0003_ip = 26; continue _fun0003 }
+case 27:
                 var1 = {};
                 var4 = var3.backgroundColors;
                 var7 = var5 != var4;
                 var4 = undefined;
-                if(!var7) { _fun0003_ip = 25; continue _fun0003 }
-case 26:
+                if(!var7) { _fun0003_ip = 28; continue _fun0003 }
+case 29:
                 var7 = {};
                 var11 = _closure1_slot8;
                 var10 = var3.backgroundColors;
@@ -293,6 +302,19 @@ case 26:
                 var10 = var11.bind(var9)(var10, var8);
                 var7['secondary'] = var10;
                 var10 = var3.backgroundColors;
+                var10 = var10.tertiary;
+                var11 = var5 != var10;
+                var10 = undefined;
+                if(!var11) { _fun0003_ip = 30; continue _fun0003 }
+case 31:
+                var12 = _closure1_slot8;
+                var11 = var3.backgroundColors;
+                var11 = var11.tertiary;
+                var10 = var12.bind(var9)(var11, var8);
+case 30:
+                var7['tertiary'] = var10;
+                var11 = _closure1_slot8;
+                var10 = var3.backgroundColors;
                 var10 = var10.border;
                 var10 = var11.bind(var9)(var10, var8);
                 var7['border'] = var10;
@@ -301,13 +323,13 @@ case 26:
                 var10 = var11.bind(var9)(var10, var8);
                 var7['label'] = var10;
                 var4 = var7;
-case 25:
+case 28:
                 var1['backgroundColors'] = var4;
                 var4 = var3.buttonColors;
                 var5 = var5 != var4;
                 var4 = undefined;
-                if(!var5) { _fun0003_ip = 27; continue _fun0003 }
-case 28:
+                if(!var5) { _fun0003_ip = 32; continue _fun0003 }
+case 33:
                 var5 = {};
                 var7 = _closure1_slot8;
                 var6 = var3.buttonColors;
@@ -323,7 +345,7 @@ case 28:
                 var6 = var7.bind(var9)(var6, var8);
                 var5['text'] = var6;
                 var4 = var5;
-case 27:
+case 32:
                 var1['buttonColors'] = var4;
                 var5 = var3.confettiColors;
                 var4 = var5.map;
@@ -337,16 +359,16 @@ case 27:
                 };
                 var2 = var4.bind(var5)(var2);
                 var1['confettiColors'] = var2;
-                _fun0003_ip = 29; continue _fun0003;
-case 23:
+                _fun0003_ip = 34; continue _fun0003;
+case 26:
                 var2 = {};
-                var13 = var2;
-                var12 = var3;
-                var3 = copyDataProperties(var13, var12);
+                var14 = var2;
+                var13 = var3;
+                var3 = copyDataProperties(var14, var13);
                 var1 = var2;
-case 29:
+case 34:
                 return var1;
-case 21:
+case 24:
                 var1 = {};
                 return var1;
             }

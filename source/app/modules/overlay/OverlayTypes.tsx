@@ -105,6 +105,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = 'overlay_rendering';
     var4['OVERLAY_RENDERING'] = var1;
     var2 = {};
+    var12 = 'not_loaded';
+    var2['NOT_LOADED'] = var12;
+    var12 = 'not_tracking';
+    var2['NOT_TRACKING'] = var12;
     var12 = 'initializing';
     var2['INITIALIZING'] = var12;
     var12 = 'overlay_disabled';
