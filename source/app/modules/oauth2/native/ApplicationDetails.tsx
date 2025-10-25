@@ -197,7 +197,7 @@ case 10:
             var14 = var21[var14];
             var14 = var15.bind(var4)(var14);
             var14 = var14.t;
-            var15 = var14.5k5OKC;
+            var15 = var14.5k5OKD;
             var14 = {};
             var14['origin'] = var20;
             var14 = var16.bind(var17)(var15, var14);
@@ -239,7 +239,7 @@ case 9:
             var16 = var14[var19];
             var16 = var13.bind(var4)(var16);
             var16 = var16.t;
-            var17 = var16.+1bjc3;
+            var17 = var16.+1bjc8;
             var16 = {};
             var16['date'] = var22;
             var16 = var20.bind(var21)(var17, var16);
@@ -277,7 +277,7 @@ case 13:
             var14 = var14[var19];
             var14 = var15.bind(var4)(var14);
             var14 = var14.t;
-            var15 = var14.UHGHSE;
+            var15 = var14.UHGHSP;
             var14 = {};
             var14['guildCount'] = var18;
             var14 = var16.bind(var17)(var15, var14);

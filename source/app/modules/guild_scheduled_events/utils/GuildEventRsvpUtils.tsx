@@ -71,7 +71,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var9[var4];
         var3 = var8.bind(var7)(var3);
         var3 = var3.t;
-        var3 = var3.uoorxs;
+        var3 = var3.uoorxi;
         var3 = var5.bind(var6)(var3);
         var2['name'] = var3;
         var3 = _closure1_slot6;
@@ -87,7 +87,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var9[var4];
         var4 = var8.bind(var7)(var4);
         var4 = var4.t;
-        var4 = var4.lwZCFR;
+        var4 = var4.lwZCFT;
         var4 = var5.bind(var6)(var4);
         var2['name'] = var4;
         var3 = var3.RECURRENCE;

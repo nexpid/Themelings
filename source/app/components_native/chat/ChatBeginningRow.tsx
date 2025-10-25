@@ -259,7 +259,7 @@ case 33:
             var6 = var13[var6];
             var6 = var11.bind(var5)(var6);
             var6 = var6.t;
-            var6 = var6.HHZmDg;
+            var6 = var6.HHZmDn;
             var9 = var7.bind(var8)(var6);
 case 32:
             var14 = var3.style;
@@ -460,7 +460,7 @@ case 45:
             var10 = var14[var10];
             var10 = var13.bind(var5)(var10);
             var10 = var10.t;
-            var10 = var10.5S3sQE;
+            var10 = var10.5S3sQF;
             var10 = var11.bind(var12)(var10);
             var6['text'] = var10;
             var10 = function onPress() {
@@ -648,11 +648,11 @@ case 50:
             var11 = var11.t;
             if(var10) { _fun0006_ip = 51; continue _fun0006 }
 case 52:
-            var10 = var11.w4m94+;
+            var10 = var11.w4m945;
             var10 = var12.bind(var13)(var10);
             _fun0006_ip = 53; continue _fun0006;
 case 51:
-            var11 = var11.YqAjX1;
+            var11 = var11.YqAjXy;
             var10 = var12.bind(var13)(var11);
 case 53:
             var6['text'] = var10;
@@ -719,7 +719,7 @@ case 54:
                     var4 = var9[var4];
                     var4 = var7.bind(var8)(var4);
                     var4 = var4.t;
-                    var4 = var4./6kul5;
+                    var4 = var4./6kulz;
                     var4 = var5.bind(var6)(var4);
                     var1['content'] = var4;
                     var4 = function icon() {
@@ -1161,7 +1161,7 @@ case 47:
             var10 = var14[var10];
             var10 = var13.bind(var4)(var10);
             var10 = var10.t;
-            var10 = var10.GK18KC;
+            var10 = var10.GK18KJ;
             var10 = var11.bind(var12)(var10);
             var7['accessibilityLabel'] = var10;
             var7 = var8.bind(var4)(var9, var7);
@@ -1190,7 +1190,7 @@ case 6:
             var10 = var14[var10];
             var10 = var13.bind(var4)(var10);
             var10 = var10.t;
-            var10 = var10.7Xm5QE;
+            var10 = var10.7Xm5QI;
             var10 = var11.bind(var12)(var10);
             var7['accessibilityLabel'] = var10;
             var7 = var9.bind(var4)(var8, var7);
@@ -1219,7 +1219,7 @@ case 18:
             var8 = var12[var8];
             var8 = var11.bind(var4)(var8);
             var8 = var8.t;
-            var8 = var8.Y4REmJ;
+            var8 = var8.Y4REmB;
             var8 = var9.bind(var10)(var8);
             var5['accessibilityLabel'] = var8;
             var5 = var7.bind(var4)(var6, var5);
@@ -1447,7 +1447,7 @@ case 76:
             var18 = var22[var18];
             var18 = var21.bind(var4)(var18);
             var18 = var18.t;
-            var18 = var18.dMJ3Y2;
+            var18 = var18.dMJ3Y6;
             var18 = var19.bind(var20)(var18);
             var13['children'] = var18;
             var13 = var17.bind(var4)(var16, var13);
@@ -1525,7 +1525,7 @@ case 78:
             var14 = var18[var14];
             var14 = var17.bind(var4)(var14);
             var14 = var14.t;
-            var14 = var14.GE1Tlp;
+            var14 = var14.GE1Tlo;
             var14 = var15.bind(var16)(var14);
             var11['children'] = var14;
             var11 = var13.bind(var4)(var12, var11);
@@ -1669,7 +1669,7 @@ case 84:
             var16 = var21[var16];
             var16 = var17.bind(var5)(var16);
             var16 = var16.t;
-            var17 = var16.imPXd3;
+            var17 = var16.imPXd5;
             var16 = {};
             var20 = function usernameHook(arg1, arg2) {
                 var5 = _closure1_slot42;
@@ -1718,7 +1718,7 @@ case 87:
             var11 = var15[var11];
             var11 = var14.bind(var5)(var11);
             var11 = var11.t;
-            var11 = var11.mE3KJC;
+            var11 = var11.mE3KJN;
             var11 = var12.bind(var13)(var11);
             var8['children'] = var11;
             var7 = var10.bind(var5)(var9, var8);
@@ -1775,7 +1775,7 @@ case 0:
             var1 = var1[var17];
             var1 = var2.bind(var4)(var1);
             var1 = var1.t;
-            var2 = var1.q0tgLS;
+            var2 = var1.q0tgLe;
             var1 = {};
             var1['channelName'] = var9;
             var16 = var5.bind(var13)(var2, var1);
@@ -1792,7 +1792,7 @@ case 90:
             var3 = var1[var17];
             var3 = var2.bind(var4)(var3);
             var3 = var3.t;
-            var13 = var3.hPVEQE;
+            var13 = var3.hPVEQG;
             var3 = {};
             var19 = var11.name;
             var3['channelName'] = var19;
@@ -1814,7 +1814,7 @@ case 88:
             var1 = var1[var17];
             var1 = var2.bind(var4)(var1);
             var1 = var1.t;
-            var2 = var1.QuwqjI;
+            var2 = var1.QuwqjG;
             var1 = {};
             var1['channelName'] = var9;
             var6 = function topicHook() {
@@ -2162,7 +2162,7 @@ case 99:
             var18 = var22[var18];
             var18 = var21.bind(var4)(var18);
             var18 = var18.t;
-            var18 = var18.Yhi9/P;
+            var18 = var18.Yhi9/N;
             var18 = var19.bind(var20)(var18);
             var3['title'] = var18;
             var3['isCompleted'] = var17;
@@ -2238,7 +2238,7 @@ case 113:
             var16 = var20[var16];
             var16 = var19.bind(var4)(var16);
             var16 = var16.t;
-            var16 = var16.q9n0TU;
+            var16 = var16.q9n0Ta;
             var16 = var17.bind(var18)(var16);
             var2['title'] = var16;
             var2['isCompleted'] = var15;
@@ -2264,16 +2264,16 @@ case 109:
 case 115:
             if(var9) { _fun0015_ip = 116; continue _fun0015 }
 case 117:
-            var9 = var2.ezm+/v;
+            var9 = var2.ezm+/j;
             var9 = var3.bind(var5)(var9);
             _fun0015_ip = 118; continue _fun0015;
 case 116:
-            var14 = var2.1ach9P;
+            var14 = var2.1ach9C;
             var9 = var3.bind(var5)(var14);
 case 118:
             _fun0015_ip = 119; continue _fun0015;
 case 114:
-            var2 = var2.gwyU/P;
+            var2 = var2.gwyU/J;
             var9 = var3.bind(var5)(var2);
 case 119:
             var15 = !var6;
@@ -2320,7 +2320,7 @@ case 125:
             var18 = var18[var21];
             var18 = var19.bind(var4)(var18);
             var18 = var18.t;
-            var19 = var18.UOtD39;
+            var19 = var18.UOtD32;
             var18 = {};
             var18['guideURL'] = var14;
             var19 = var20.bind(var22)(var19, var18);
@@ -2348,7 +2348,7 @@ case 124:
             var17 = var17[var21];
             var17 = var18.bind(var4)(var17);
             var17 = var17.t;
-            var18 = var17.j59F/f;
+            var18 = var17.j59F/c;
             var17 = {};
             var21 = var10.name;
             var17['guildName'] = var21;
@@ -2653,7 +2653,7 @@ case 146:
             var3 = var3[var23];
             var3 = var7.bind(var5)(var3);
             var3 = var3.t;
-            var3 = var3.Rzvnio;
+            var3 = var3.Rzvnig;
             var17 = var4.bind(var6)(var3);
             if(var2) { _fun0019_ip = 147; continue _fun0019 }
 case 148:
@@ -2666,7 +2666,7 @@ case 148:
             var2 = var2[var23];
             var2 = var3.bind(var5)(var2);
             var2 = var2.t;
-            var3 = var2.Q56TRE;
+            var3 = var2.Q56TRC;
             var2 = {};
             var2['username'] = var28;
             var17 = var4.bind(var6)(var3, var2);
@@ -2786,7 +2786,7 @@ case 156:
             var20 = var20[var23];
             var20 = var26.bind(var5)(var20);
             var20 = var20.t;
-            var20 = var20.+78Pfn;
+            var20 = var20.+78Pfm;
             var20 = var21.bind(var22)(var20);
             var15['text'] = var20;
             var20 = var18.spamButtonNoPadding;
@@ -2839,7 +2839,7 @@ case 153:
             var19 = var21[var23];
             var19 = var22.bind(var5)(var19);
             var19 = var19.t;
-            var19 = var19.iXAna2;
+            var19 = var19.iXAna6;
             var19 = var20.bind(var27)(var19);
             var6['accessibilityLabel'] = var19;
             var27 = _closure1_slot42;
@@ -3065,7 +3065,7 @@ case 163:
                     var9 = var14[var9];
                     var9 = var10.bind(var3)(var9);
                     var9 = var9.t;
-                    var10 = var9.eE3oen;
+                    var10 = var9.eE3oep;
                     var9 = {};
                     var9['count'] = var13;
                     var9 = var11.bind(var12)(var10, var9);
@@ -3200,7 +3200,7 @@ case 173:
                     var15 = var12[var15];
                     var15 = var18.bind(var4)(var15);
                     var15 = var15.t;
-                    var15 = var15.xMH6vL;
+                    var15 = var15.xMH6vD;
                     var15 = var16.bind(var17)(var15);
                     var5['text'] = var15;
                     var15 = var12[var8];
@@ -3274,7 +3274,7 @@ case 171:
                     var16 = var15[var16];
                     var16 = var19.bind(var4)(var16);
                     var16 = var16.t;
-                    var16 = var16.rQSndn;
+                    var16 = var16.rQSndv;
                     var16 = var17.bind(var18)(var16);
                     var6['text'] = var16;
                     var16 = var15[var11];
@@ -3341,7 +3341,7 @@ case 176:
                     var13 = var12[var13];
                     var13 = var16.bind(var4)(var13);
                     var13 = var13.t;
-                    var13 = var13.PMsq/f;
+                    var13 = var13.PMsq/b;
                     var13 = var14.bind(var15)(var13);
                     var6['text'] = var13;
                     var13 = var12[var10];
@@ -3814,7 +3814,7 @@ case 196:
             var10 = var13[var22];
             var10 = var14.bind(var4)(var10);
             var10 = var10.t;
-            var10 = var10.0Q7uk5;
+            var10 = var10.0Q7uk0;
             var10 = var16.bind(var20)(var10);
             _fun0028_ip = 150; continue _fun0028;
 case 195:
@@ -3822,7 +3822,7 @@ case 195:
             var13 = var13[var22];
             var13 = var14.bind(var4)(var13);
             var13 = var13.t;
-            var14 = var13.MFwcqK;
+            var14 = var13.MFwcqO;
             var13 = {};
             var13['name'] = var24;
             var10 = var16.bind(var20)(var14, var13);
@@ -3861,7 +3861,7 @@ case 199:
             var19 = var19[var22];
             var19 = var25.bind(var4)(var19);
             var19 = var19.t;
-            var19 = var19.LR+Ptb;
+            var19 = var19.LR+Ptf;
             var19 = var20.bind(var24)(var19);
             var10['title'] = var19;
             var13 = var16.bind(var4)(var14, var10);
@@ -3896,7 +3896,7 @@ case 200:
             var19 = var17[var22];
             var19 = var21.bind(var4)(var19);
             var19 = var19.t;
-            var19 = var19.3XVNys;
+            var19 = var19.3XVNyt;
             var19 = var20.bind(var23)(var19);
             var13['title'] = var19;
             var19 = var17[var22];
@@ -3906,7 +3906,7 @@ case 200:
             var17 = var17[var22];
             var17 = var21.bind(var4)(var17);
             var17 = var17.t;
-            var17 = var17.qa9CQk;
+            var17 = var17.qa9CQu;
             var17 = var19.bind(var20)(var17);
             var13['subtitle'] = var17;
             var17 = null;
@@ -4112,9 +4112,7 @@ case 212:
             var1 = {};
             var7 = _closure1_slot42;
             var6 = _closure1_slot8;
-            var5 = {};
-            var10 = false;
-            var5['collapsable'] = var10;
+            var5 = {'collapsable': false, 'style': null, 'testID': 'ChatBeginningRow'};
             var9 = var9.container;
             var5['style'] = var9;
             var5['children'] = var8;

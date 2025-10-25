@@ -66,6 +66,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
     var13 = var13.colors;
+    var13 = var13.WHITE;
+    var9['backgroundColor'] = var13;
+    var13 = var6[var10];
+    var13 = var11.bind(var1)(var13);
+    var13 = var13.radii;
+    var13 = var13.md;
+    var9['borderRadius'] = var13;
+    var13 = var6[var10];
+    var13 = var11.bind(var1)(var13);
+    var13 = var13.spacing;
+    var13 = var13.PX_8;
+    var9['paddingHorizontal'] = var13;
+    var13 = var6[var10];
+    var13 = var11.bind(var1)(var13);
+    var13 = var13.spacing;
+    var13 = var13.PX_4;
+    var9['paddingVertical'] = var13;
+    var4['limitedTimeBadge'] = var9;
+    var9 = {};
+    var9['textTransform'] = var12;
+    var4['limitedTimeBadgeText'] = var9;
+    var9 = {};
+    var13 = var6[var10];
+    var13 = var11.bind(var1)(var13);
+    var13 = var13.colors;
     var13 = var13.BACKGROUND_ACCENT;
     var9['backgroundColor'] = var13;
     var9['padding'] = var10;
@@ -249,7 +274,7 @@ case 6:
         }
     };
     var3['LockBadge'] = var4;
-    var2 = function(arg1) {
+    var4 = function(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var2 = arg1;
@@ -352,6 +377,46 @@ case 6:
             return var1;
         }
     };
-    var3['PremiumBadge'] = var2;
+    var3['PremiumBadge'] = var4;
+    var2 = function(arg1) {
+        var1 = arg1;
+        var8 = var1.style;
+        var1 = _closure1_slot7;
+        var4 = undefined;
+        var7 = var1.bind(var4)();
+        var3 = _closure1_slot5;
+        var2 = _closure1_slot3;
+        var1 = {};
+        var9 = var7.limitedTimeBadge;
+        var6 = new Array(2);
+        var6[0] = var9;
+        var6[1] = var8;
+        var1['style'] = var6;
+        var10 = _closure1_slot0;
+        var11 = _closure1_slot2;
+        var5 = 6;
+        var5 = var11[var5];
+        var5 = var10.bind(var4)(var5);
+        var6 = var5.Text;
+        var5 = {'variant': 'text-xs/bold', 'color': 'black'};
+        var7 = var7.limitedTimeBadgeText;
+        var5['style'] = var7;
+        var7 = 7;
+        var8 = var11[var7];
+        var8 = var10.bind(var4)(var8);
+        var9 = var8.intl;
+        var8 = var9.string;
+        var7 = var11[var7];
+        var7 = var10.bind(var4)(var7);
+        var7 = var7.t;
+        var7 = var7.h/uBCR;
+        var7 = var8.bind(var9)(var7);
+        var5['children'] = var7;
+        var5 = var3.bind(var4)(var6, var5);
+        var1['children'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
+    };
+    var3['LimitedTimeBadge'] = var2;
     return var1;
 })();

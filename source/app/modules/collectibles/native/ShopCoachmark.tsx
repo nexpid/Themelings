@@ -148,7 +148,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var8[var3];
             var3 = var7.bind(var6)(var3);
             var3 = var3.t;
-            var3 = var3.fYfGgI;
+            var3 = var3.fYfGgK;
             var3 = var4.bind(var5)(var3);
             var1['buttonLabel'] = var3;
             var2 = _closure2_slot6;

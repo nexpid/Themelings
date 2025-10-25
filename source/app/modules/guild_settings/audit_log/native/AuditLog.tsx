@@ -571,7 +571,7 @@ case 39:
                         var2 = var8[var2];
                         var2 = var7.bind(var6)(var2);
                         var2 = var2.t;
-                        var2 = var2.30mdIy;
+                        var2 = var2.30mdIx;
                         var2 = var3.bind(var5)(var2);
                         return var2;
 case 38:
@@ -1185,7 +1185,7 @@ case 91:
                         var10 = var9.Array;
                         var9 = var10.isArray;
                         var10 = var9.bind(var10)(var19);
-                        var9 = null;
+                        var9 = 0;
                         if(!var10) { _fun0013_ip = 92; continue _fun0013 }
 case 93:
                         var9 = var19.length;
@@ -1199,7 +1199,7 @@ case 95:
                         var9 = var8.subtarget;
 case 94:
                         var10 = var1 != var9;
-                        var8 = null;
+                        var8 = '';
                         if(!var10) { _fun0013_ip = 96; continue _fun0013 }
 case 97:
                         var8 = var9;
@@ -2122,7 +2122,7 @@ case 163:
                 var12 = var28[var12];
                 var12 = var27.bind(var4)(var12);
                 var12 = var12.t;
-                var12 = var12.iXAna2;
+                var12 = var12.iXAna6;
                 var12 = var25.bind(var26)(var12);
                 var16['accessibilityLabel'] = var12;
                 var25 = var6 == var15;

@@ -40,7 +40,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var10[var5];
         var5 = var6.bind(var3)(var5);
         var5 = var5.t;
-        var6 = var5.FSPTDA;
+        var6 = var5.FSPTDI;
         var5 = {};
         var10 = _closure1_slot13;
         var10 = var10.TERMS;
@@ -469,7 +469,7 @@ case 21:
             var1 = var8[var1];
             var1 = var7.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1.mPHb19;
+            var1 = var1.mPHb1/;
             var24 = var2.bind(var3)(var1);
             _fun0002_ip = 24; continue _fun0002;
 case 23:
@@ -483,7 +483,7 @@ case 23:
             var1 = var8[var1];
             var1 = var2.bind(var4)(var1);
             var1 = var1.t;
-            var2 = var1.A1L1hY;
+            var2 = var1.A1L1hU;
             var1 = {};
             var8 = function unlockHook() {
                 var4 = _closure1_slot15;
@@ -617,7 +617,7 @@ case 24:
             var26 = var23[var40];
             var26 = var9.bind(var4)(var26);
             var26 = var26.t;
-            var27 = var26.mqCkpq;
+            var27 = var26.mqCkpl;
             var26 = {};
             var30 = var30.name;
             var26['serverName'] = var30;
@@ -723,7 +723,7 @@ case 32:
             var36 = var36[var40];
             var36 = var39.bind(var4)(var36);
             var36 = var36.t;
-            var36 = var36.4PGeGB;
+            var36 = var36.4PGeGA;
             var36 = var37.bind(var38)(var36);
             var33['text'] = var36;
             var36 = function onPress() {

@@ -56,7 +56,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var8[var3];
         var4 = var7.bind(var6)(var4);
         var4 = var4.t;
-        var4 = var4.iXAna2;
+        var4 = var4.iXAna6;
         var5 = var5.bind(var9)(var4);
         var1 = _closure1_slot5;
         var4 = var1.VIEW_PROFILE;
@@ -68,7 +68,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var8[var3];
         var4 = var7.bind(var6)(var4);
         var4 = var4.t;
-        var4 = var4.lfIHs7;
+        var4 = var4.lfIHs4;
         var5 = var5.bind(var9)(var4);
         var4 = var1.ADD_REACTION;
         var2[var5] = var4;
@@ -129,7 +129,7 @@ case 8:
             var1 = var1[var10];
             var1 = var8.bind(var9)(var1);
             var1 = var1.t;
-            var1 = var1.iXAna2;
+            var1 = var1.iXAna6;
             var1 = var5.bind(var7)(var1);
             var3['label'] = var1;
             var1 = _closure1_slot5;
@@ -150,7 +150,7 @@ case 11:
             var5 = var5[var10];
             var5 = var11.bind(var9)(var5);
             var5 = var5.t;
-            var5 = var5.lfIHs7;
+            var5 = var5.lfIHs4;
             var5 = var7.bind(var8)(var5);
             var2['label'] = var5;
             var5 = _closure1_slot5;

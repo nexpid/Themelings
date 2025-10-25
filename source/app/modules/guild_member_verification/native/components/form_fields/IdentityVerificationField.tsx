@@ -88,7 +88,7 @@ case 5:
             var11 = var15[var11];
             var11 = var14.bind(var4)(var11);
             var11 = var11.t;
-            var11 = var11.13ofGh;
+            var11 = var11.13ofGu;
             var11 = var12.bind(var13)(var11);
             var6['text'] = var11;
             var6['onPress'] = var8;
@@ -243,7 +243,7 @@ case 9:
             var5 = var10[var5];
             var5 = var9.bind(var4)(var5);
             var5 = var5.t;
-            var5 = var5.mhv8BA;
+            var5 = var5.mhv8BM;
             var8 = var7.bind(var8)(var5);
             _fun0002_ip = 10; continue _fun0002;
 case 8:
@@ -259,11 +259,11 @@ case 8:
             var7 = var5.t;
             if(var6) { _fun0002_ip = 11; continue _fun0002 }
 case 12:
-            var5 = var7.woMjLS;
+            var5 = var7.woMjLV;
             var5 = var9.bind(var10)(var5);
             _fun0002_ip = 13; continue _fun0002;
 case 11:
-            var7 = var7.xO2XIy;
+            var7 = var7.xO2XI/;
             var5 = var9.bind(var10)(var7);
 case 13:
             var8 = var5;
@@ -281,11 +281,11 @@ case 7:
             var7 = var5.t;
             if(var6) { _fun0002_ip = 14; continue _fun0002 }
 case 15:
-            var5 = var7.c6EUJC;
+            var5 = var7.c6EUJI;
             var5 = var9.bind(var10)(var5);
             _fun0002_ip = 16; continue _fun0002;
 case 14:
-            var7 = var7.INsLgI;
+            var7 = var7.INsLgA;
             var5 = var9.bind(var10)(var7);
 case 16:
             var8 = var5;

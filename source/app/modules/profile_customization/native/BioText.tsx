@@ -246,7 +246,7 @@ case 16:
             var6 = var8[var15];
             var6 = var9.bind(var5)(var6);
             var6 = var6.t;
-            var6 = var6.OJmNR0;
+            var6 = var6.OJmNR9;
             var20 = var20.bind(var21)(var6);
             var6 = new Array(2);
             var6[0] = var20;
@@ -280,7 +280,7 @@ case 18:
             var7 = var7[var15];
             var7 = var11.bind(var5)(var7);
             var7 = var7.t;
-            var11 = var7.RCYeBA;
+            var11 = var7.RCYeBL;
             var7 = {};
             var14 = function blogHook(arg1, arg2) {
                 var5 = _closure1_slot8;

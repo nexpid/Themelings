@@ -330,7 +330,7 @@ case 14:
         var18 = var15[var11];
         var18 = var14.bind(var4)(var18);
         var18 = var18.t;
-        var18 = var18.h3Y3zc;
+        var18 = var18.h3Y3zX;
         var18 = var19.bind(var20)(var18);
         var5['text'] = var18;
         var5['onPress'] = var13;
@@ -359,7 +359,7 @@ case 14:
         var11 = var15[var11];
         var11 = var14.bind(var4)(var11);
         var11 = var11.t;
-        var11 = var11.8Hvr39;
+        var11 = var11.8Hvr3+;
         var11 = var12.bind(var13)(var11);
         var6['text'] = var11;
         var6['onPress'] = var10;

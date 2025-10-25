@@ -788,7 +788,7 @@ case 42:
             var1 = var1[var23];
             var1 = var2.bind(var4)(var1);
             var1 = var1.t;
-            var2 = var1.xRGqo6;
+            var2 = var1.xRGqow;
             var1 = {};
             var25 = var12 == var24;
             var30 = undefined;
@@ -994,7 +994,7 @@ case 108:
             var18 = var18[var23];
             var18 = var26.bind(var4)(var18);
             var18 = var18.t;
-            var18 = var18.QdHxoq;
+            var18 = var18.QdHxos;
             var18 = var24.bind(var25)(var18);
             var12['accessibilityHint'] = var18;
             var12['onPress'] = var21;
@@ -1016,7 +1016,7 @@ case 118:
             var12 = var12[var23];
             var12 = var15.bind(var4)(var12);
             var12 = var12.t;
-            var12 = var12.Vq4UmZ;
+            var12 = var12.Vq4UmS;
             var18 = var13.bind(var14)(var12);
             _fun0005_ip = 119; continue _fun0005;
 case 117:
@@ -1039,7 +1039,7 @@ case 119:
             var23 = var14[var23];
             var23 = var15.bind(var4)(var23);
             var23 = var23.t;
-            var23 = var23.Vq4UmZ;
+            var23 = var23.Vq4UmS;
             var23 = var24.bind(var25)(var23);
             var11['accessibilityLabel'] = var23;
             var11['onPress'] = var21;

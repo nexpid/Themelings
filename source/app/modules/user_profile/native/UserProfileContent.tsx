@@ -240,7 +240,7 @@ case 13:
         var6 = var10[var6];
         var6 = var9.bind(var4)(var6);
         var6 = var6.t;
-        var6 = var6.cvSt1N;
+        var6 = var6.cvSt1J;
         var6 = var7.bind(var8)(var6);
         var1['accessibilityLabel'] = var6;
         var5 = function onPress() {
@@ -334,7 +334,7 @@ case 13:
         var6 = var10[var6];
         var6 = var9.bind(var3)(var6);
         var6 = var6.t;
-        var6 = var6.cvSt1N;
+        var6 = var6.cvSt1J;
         var6 = var7.bind(var8)(var6);
         var1['accessibilityLabel'] = var6;
         var1['onPress'] = var5;
@@ -609,7 +609,7 @@ case 34:
             var9 = var21[var9];
             var9 = var20.bind(var4)(var9);
             var9 = var9.t;
-            var9 = var9.s5vZlZ;
+            var9 = var9.s5vZlQ;
             var9 = var15.bind(var19)(var9);
             _fun0004_ip = 35; continue _fun0004;
 case 33:
@@ -688,7 +688,7 @@ case 37:
             var11 = var15[var11];
             var11 = var14.bind(var4)(var11);
             var11 = var11.t;
-            var11 = var11.PKQB/P;
+            var11 = var11.PKQB/H;
             var11 = var12.bind(var13)(var11);
             var6['text'] = var11;
             var10 = function onPress() {

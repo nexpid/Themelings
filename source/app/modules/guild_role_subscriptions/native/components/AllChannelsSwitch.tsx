@@ -250,7 +250,7 @@ case 8:
             var11 = var17[var13];
             var11 = var16.bind(var4)(var11);
             var11 = var11.t;
-            var11 = var11.vs2T+P;
+            var11 = var11.vs2T+B;
             var11 = var14.bind(var19)(var11);
             var5['label'] = var11;
             var11 = _closure1_slot4;
@@ -289,7 +289,7 @@ case 8:
             var13 = var17[var13];
             var13 = var16.bind(var4)(var13);
             var13 = var13.t;
-            var13 = var13.l4Tr7e;
+            var13 = var13.l4Tr7X;
             var13 = var14.bind(var15)(var13);
             var6['label'] = var13;
             var11 = var11.ALL_CHANNELS_ACCESS;

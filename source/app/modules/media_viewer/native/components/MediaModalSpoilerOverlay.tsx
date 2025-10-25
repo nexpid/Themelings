@@ -202,7 +202,7 @@ case 3:
                 var16 = var20[var16];
                 var16 = var19.bind(var5)(var16);
                 var16 = var16.t;
-                var16 = var16.F+x38P;
+                var16 = var16.F+x38C;
                 var17 = var17.bind(var18)(var16);
                 var16 = var17.toUpperCase;
                 var16 = var16.bind(var17)();
@@ -242,7 +242,7 @@ case 10:
                 var18 = var22[var18];
                 var18 = var21.bind(var5)(var18);
                 var18 = var18.t;
-                var18 = var18.SpxcUV;
+                var18 = var18.SpxcUR;
                 var18 = var19.bind(var20)(var18);
                 var15['children'] = var18;
                 var15 = var17.bind(var5)(var16, var15);

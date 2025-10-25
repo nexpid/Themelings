@@ -675,7 +675,7 @@ case 55:
                 var8 = var12[var8];
                 var8 = var11.bind(var5)(var8);
                 var8 = var8.t;
-                var8 = var8.OIDkcn;
+                var8 = var8.OIDkcp;
                 var8 = var9.bind(var10)(var8);
                 var2['accessibilityLabel'] = var8;
                 var7 = var7.handleOpenFullScreen;

@@ -523,7 +523,7 @@ case 25:
             var8 = var8[var16];
             var8 = var14.bind(var4)(var8);
             var8 = var8.t;
-            var8 = var8.bt75u7;
+            var8 = var8.bt75uw;
             var8 = var12.bind(var13)(var8);
             var1['children'] = var8;
             var23 = var3.bind(var4)(var2, var1);
@@ -538,11 +538,11 @@ case 25:
             var1 = var1.t;
             if(var7) { _fun0001_ip = 27; continue _fun0001 }
 case 28:
-            var8 = var1.ouo4FB;
+            var8 = var1.ouo4FK;
             var12 = var2.bind(var3)(var8);
             _fun0001_ip = 29; continue _fun0001;
 case 27:
-            var1 = var1.gNZY/P;
+            var1 = var1.gNZY/B;
             var12 = var2.bind(var3)(var1);
 case 29:
             var13 = 'active';
@@ -802,7 +802,7 @@ case 59:
             var16 = var22[var16];
             var16 = var17.bind(var4)(var16);
             var16 = var16.t;
-            var17 = var16.hYoGUF;
+            var17 = var16.hYoGUM;
             var16 = {};
             var21 = _closure1_slot1;
             var20 = 28;

@@ -106,7 +106,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var9[var3];
         var3 = var8.bind(var1)(var3);
         var3 = var3.t;
-        var3 = var3.MYr3KS;
+        var3 = var3.MYr3Ka;
         var3 = var6.bind(var7)(var3);
         var2 = function() {
             var3 = _closure1_slot1;

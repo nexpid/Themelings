@@ -377,7 +377,7 @@ case 45:
                     var9 = var8[var18];
                     var9 = var17.bind(var5)(var9);
                     var9 = var9.t;
-                    var10 = var9.aUT3+P;
+                    var10 = var9.aUT3+M;
                     var9 = {};
                     var9['callState'] = var20;
                     var9 = var16.bind(var19)(var10, var9);
@@ -407,7 +407,7 @@ case 45:
                     var8 = var8[var18];
                     var8 = var17.bind(var5)(var8);
                     var8 = var8.t;
-                    var8 = var8.6vrfgo;
+                    var8 = var8.6vrfgt;
                     var9 = var9.bind(var16)(var8);
                     var8 = 'Disconnect';
                     var9 = var13.bind(var15)(var14, var8, var9);
@@ -425,11 +425,11 @@ case 45:
                     var9 = var9.t;
                     if(var12) { _fun0004_ip = 46; continue _fun0004 }
 case 47:
-                    var12 = var9.w4m94+;
+                    var12 = var9.w4m945;
                     var12 = var16.bind(var17)(var12);
                     _fun0004_ip = 48; continue _fun0004;
 case 46:
-                    var9 = var9.YqAjX1;
+                    var9 = var9.YqAjXy;
                     var12 = var16.bind(var17)(var9);
 case 48:
                     var9 = 'ToggleSelfMute';
@@ -448,11 +448,11 @@ case 48:
                     var9 = var9.t;
                     if(var11) { _fun0004_ip = 49; continue _fun0004 }
 case 50:
-                    var11 = var9.wjcRFR;
+                    var11 = var9.wjcRFX;
                     var11 = var15.bind(var16)(var11);
                     _fun0004_ip = 51; continue _fun0004;
 case 49:
-                    var9 = var9.2US87+;
+                    var9 = var9.2US872;
                     var11 = var15.bind(var16)(var9);
 case 51:
                     var9 = 'ToggleDeafen';

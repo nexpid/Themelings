@@ -220,7 +220,7 @@ case 2:
             var17 = var28[var20];
             var17 = var31.bind(var4)(var17);
             var17 = var17.t;
-            var17 = var17.UVuXCg;
+            var17 = var17.UVuXCs;
             var17 = var22.bind(var23)(var17);
             var11['children'] = var17;
             var11 = var14.bind(var4)(var13, var11);
@@ -293,7 +293,7 @@ case 2:
             var32 = var28[var20];
             var32 = var31.bind(var4)(var32);
             var32 = var32.t;
-            var32 = var32.x58YtL;
+            var32 = var32.x58YtH;
             var32 = var33.bind(var34)(var32);
             var25['children'] = var32;
             var25 = var29.bind(var4)(var26, var25);
@@ -327,7 +327,7 @@ case 2:
             var28 = var28[var20];
             var28 = var31.bind(var4)(var28);
             var28 = var28.t;
-            var28 = var28.XtVqlZ;
+            var28 = var28.XtVqla;
             var28 = var29.bind(var30)(var28);
             var25['children'] = var28;
             var25 = var27.bind(var4)(var26, var25);
@@ -368,7 +368,7 @@ case 5:
             var24 = var24[var20];
             var24 = var27.bind(var4)(var24);
             var24 = var24.t;
-            var24 = var24.nDsbJi;
+            var24 = var24.nDsbJg;
             var24 = var25.bind(var26)(var24);
             var21['children'] = var24;
             var21 = var23.bind(var4)(var22, var21);
@@ -403,7 +403,7 @@ case 4:
             var16 = var16[var20];
             var16 = var19.bind(var4)(var16);
             var16 = var16.t;
-            var16 = var16.obLqZ2;
+            var16 = var16.obLqZ8;
             var16 = var17.bind(var18)(var16);
             var12['text'] = var16;
             var15 = _closure1_slot10;

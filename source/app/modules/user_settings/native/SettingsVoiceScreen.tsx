@@ -59,7 +59,7 @@ case 4:
             var8 = var16[var12];
             var8 = var15.bind(var4)(var8);
             var8 = var8.t;
-            var8 = var8.vFiCS0;
+            var8 = var8.vFiCSx;
             var8 = var10.bind(var11)(var8);
             var5['accessibilityLabel'] = var8;
             var6 = var7.bind(var4)(var6, var5);
@@ -89,7 +89,7 @@ case 4:
             var12 = var16[var12];
             var12 = var15.bind(var4)(var12);
             var12 = var12.t;
-            var12 = var12.hvVgAQ;
+            var12 = var12.hvVgAZ;
             var12 = var13.bind(var14)(var12);
             var9['children'] = var12;
             var9 = var11.bind(var4)(var10, var9);
@@ -190,7 +190,7 @@ case 4:
             var1 = var9[var4];
             var1 = var8.bind(var7)(var1);
             var1 = var1.t;
-            var1 = var1.LKCupK;
+            var1 = var1.LKCupB;
             var1 = var3.bind(var6)(var1);
             var2['label'] = var1;
             var3 = _closure1_slot6;
@@ -228,7 +228,7 @@ case 4:
             var6 = var9[var4];
             var6 = var8.bind(var7)(var6);
             var6 = var6.t;
-            var10 = var6.V+B3FB;
+            var10 = var6.V+B3FH;
             var6 = {};
             var13 = _closure1_slot10;
             var6['guideURL'] = var13;
@@ -243,7 +243,7 @@ case 4:
             var6 = var9[var4];
             var6 = var8.bind(var7)(var6);
             var6 = var6.t;
-            var6 = var6.xbMc8v;
+            var6 = var6.xbMc8r;
             var6 = var10.bind(var11)(var6);
             var2['label'] = var6;
             var10 = var3.SOUNDBOARD_VOLUME;
@@ -257,7 +257,7 @@ case 4:
             var6 = var9[var4];
             var6 = var8.bind(var7)(var6);
             var6 = var6.t;
-            var10 = var6.BPbGq6;
+            var10 = var6.BPbGq7;
             var6 = {};
             var14 = _closure1_slot1;
             var13 = 5;
@@ -279,7 +279,7 @@ case 4:
             var6 = var9[var4];
             var6 = var8.bind(var7)(var6);
             var6 = var6.t;
-            var6 = var6.bNqkDw;
+            var6 = var6.bNqkD9;
             var6 = var10.bind(var11)(var6);
             var2['label'] = var6;
             var10 = var3.ANDROID_MOBILE_OVERLAY;
@@ -306,7 +306,7 @@ case 4:
             var5 = var9[var4];
             var5 = var8.bind(var7)(var5);
             var5 = var5.t;
-            var5 = var5.t8QhiY;
+            var5 = var5.t8Qhib;
             var5 = var6.bind(var10)(var5);
             var2['label'] = var5;
             var6 = var3.NOISE_SUPPRESSION;
@@ -322,7 +322,7 @@ case 4:
             var5 = var9[var4];
             var5 = var8.bind(var7)(var5);
             var5 = var5.t;
-            var5 = var5.6I6GUl;
+            var5 = var5.6I6GUv;
             var5 = var6.bind(var10)(var5);
             var2['label'] = var5;
             var6 = var3.ECHO_CANCELLATION;

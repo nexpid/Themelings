@@ -82,7 +82,7 @@ case 2:
         var8 = var11[var8];
         var8 = var9.bind(var3)(var8);
         var8 = var8.t;
-        var8 = var8.sHHsOD;
+        var8 = var8.sHHsOM;
         var8 = var12.bind(var13)(var8);
         var6['title'] = var8;
         var8 = function headerTitle() {
@@ -103,7 +103,7 @@ case 2:
             var5 = var9[var5];
             var5 = var8.bind(var3)(var5);
             var5 = var5.t;
-            var5 = var5.sHHsOD;
+            var5 = var5.sHHsOM;
             var5 = var6.bind(var7)(var5);
             var1['children'] = var5;
             var1 = var4.bind(var3)(var2, var1);

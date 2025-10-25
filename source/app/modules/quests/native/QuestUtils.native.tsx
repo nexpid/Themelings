@@ -399,7 +399,7 @@ case 47: // catch_target0
                     var5 = var8[var5];
                     var5 = var11.bind(var7)(var5);
                     var5 = var5.t;
-                    var5 = var5.CKsXk5;
+                    var5 = var5.CKsXk3;
                     var5 = var9.bind(var10)(var5);
                     var2['content'] = var5;
                     var5 = 17;
@@ -490,7 +490,7 @@ case 55:
                     var13 = var17[var13];
                     var13 = var20.bind(var6)(var13);
                     var13 = var13.t;
-                    var13 = var13.HZlu09;
+                    var13 = var13.HZlu0+;
                     var13 = var18.bind(var19)(var13);
                     var5['content'] = var13;
                     var13 = 17;

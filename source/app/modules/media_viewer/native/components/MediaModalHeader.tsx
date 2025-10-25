@@ -147,7 +147,7 @@ case 0:
             var15 = var19[var15];
             var15 = var16.bind(var4)(var15);
             var15 = var15.t;
-            var15 = var15.cpT0Cg;
+            var15 = var15.cpT0Cq;
             var15 = var22.bind(var23)(var15);
             var12['accessibilityLabel'] = var15;
             var15 = 11;
@@ -309,7 +309,7 @@ case 0:
                     var7 = var10[var7];
                     var7 = var9.bind(var3)(var7);
                     var7 = var7.t;
-                    var7 = var7.PdRCRk;
+                    var7 = var7.PdRCRg;
                     var7 = var11.bind(var12)(var7);
                     var1['accessibilityLabel'] = var7;
                     var7 = 18;

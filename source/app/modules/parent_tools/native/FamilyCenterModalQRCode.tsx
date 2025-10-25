@@ -61,7 +61,7 @@ case 0:
                 var3 = var4[var3];
                 var3 = var9.bind(var1)(var3);
                 var3 = var3.t;
-                var3 = var3.R0RpRU;
+                var3 = var3.R0RpRX;
                 var3 = var7.bind(var8)(var3);
                 var3 = var5.bind(var6)(var3);
                 var3 = _closure1_slot1;
@@ -249,7 +249,7 @@ case 7:
             var24 = 22;
             var26 = var14[var24];
             var26 = var28.bind(var4)(var26);
-            var26 = var26.iHYMAw;
+            var26 = var26.iHYMAz;
             var26 = var27.bind(var29)(var26);
             var22['children'] = var26;
             var22 = var25.bind(var4)(var23, var22);
@@ -276,7 +276,7 @@ case 7:
             var27 = var29.string;
             var26 = var14[var24];
             var26 = var28.bind(var4)(var26);
-            var26 = var26.AVTZaG;
+            var26 = var26.AVTZaN;
             var26 = var27.bind(var29)(var26);
             var22['children'] = var26;
             var23 = var25.bind(var4)(var23, var22);
@@ -296,7 +296,7 @@ case 7:
             var29 = var30.format;
             var27 = var14[var24];
             var27 = var28.bind(var4)(var27);
-            var28 = var27.LyyCsL;
+            var28 = var27.LyyCsE;
             var27 = {};
             var31 = 'https://support.discord.com/hc/articles/14155060633623';
             var27['link'] = var31;
@@ -363,7 +363,7 @@ case 12:
             var22 = _closure1_slot1;
             var13 = var12[var24];
             var13 = var22.bind(var4)(var13);
-            var13 = var13.goDyoa;
+            var13 = var13.goDyoe;
             var13 = var15.bind(var21)(var13);
             var9['children'] = var13;
             var9 = var11.bind(var4)(var10, var9);
@@ -405,11 +405,11 @@ case 12:
             var20 = var23.bind(var4)(var20);
             if(var19) { _fun0001_ip = 13; continue _fun0001 }
 case 14:
-            var19 = var20.10dX6e;
+            var19 = var20.10dX6U;
             var19 = var21.bind(var22)(var19);
             _fun0001_ip = 15; continue _fun0001;
 case 13:
-            var20 = var20.wg2xwc;
+            var20 = var20.wg2xwQ;
             var19 = var21.bind(var22)(var20);
 case 15:
             var12['text'] = var19;
@@ -433,7 +433,7 @@ case 15:
             var17 = var18[var17];
             var17 = var21.bind(var4)(var17);
             var17 = var17.t;
-            var17 = var17.cpT0Cg;
+            var17 = var17.cpT0Cq;
             var17 = var19.bind(var20)(var17);
             var13['text'] = var17;
             var17 = _closure1_slot1;
@@ -632,7 +632,7 @@ case 15:
         var5 = var9[var5];
         var5 = var8.bind(var3)(var5);
         var5 = var5.t;
-        var5 = var5.13/7kZ;
+        var5 = var5.13/7kX;
         var5 = var6.bind(var7)(var5);
         var1['headerBackTitle'] = var5;
         var1 = var4.bind(var3)(var2, var1);

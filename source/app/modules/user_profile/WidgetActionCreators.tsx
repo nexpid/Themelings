@@ -392,7 +392,7 @@ case 15:
         var5 = var9[var2];
         var5 = var7.bind(var1)(var5);
         var5 = var5.t;
-        var5 = var5.GP7JLC;
+        var5 = var5.GP7JLE;
         var8 = var6.bind(var8)(var5);
         var5 = var9[var2];
         var5 = var7.bind(var1)(var5);
@@ -401,7 +401,7 @@ case 15:
         var2 = var9[var2];
         var2 = var7.bind(var1)(var2);
         var2 = var2.t;
-        var2 = var2.gKoO1N;
+        var2 = var2.gKoO1D;
         var7 = var5.bind(var6)(var2);
         var2 = global;
         var2 = var2.HermesInternal;

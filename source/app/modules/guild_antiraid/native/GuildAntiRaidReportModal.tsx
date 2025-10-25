@@ -89,7 +89,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = var17[var13];
         var8 = var16.bind(var4)(var8);
         var8 = var8.t;
-        var11 = var8.Hg8Ee3;
+        var11 = var8.Hg8Ee7;
         var8 = {};
         var8['onClick'] = var21;
         var8 = var14.bind(var19)(var11, var8);
@@ -185,7 +185,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var13 = var17[var13];
         var13 = var16.bind(var4)(var13);
         var13 = var13.t;
-        var13 = var13.geKm7u;
+        var13 = var13.geKm7t;
         var13 = var14.bind(var15)(var13);
         var9['text'] = var13;
         var9['onPress'] = var12;
@@ -425,7 +425,7 @@ case 4:
                 var4 = var8[var4];
                 var4 = var7.bind(var5)(var4);
                 var4 = var4.t;
-                var4 = var4.uYPGsb;
+                var4 = var4.uYPGsS;
                 var4 = var9.bind(var10)(var4);
                 var3['title'] = var4;
                 var4 = 16;

@@ -53,7 +53,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var10[var6];
         var7 = var9.bind(var3)(var7);
         var7 = var7.t;
-        var7 = var7.w5HAlp;
+        var7 = var7.w5HAll;
         var7 = var11.bind(var12)(var7);
         var1['title'] = var7;
         var7 = var10[var6];
@@ -63,7 +63,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var10[var6];
         var7 = var9.bind(var3)(var7);
         var7 = var7.t;
-        var7 = var7.Ww4hho;
+        var7 = var7.Ww4hhq;
         var7 = var11.bind(var12)(var7);
         var1['description'] = var7;
         var7 = 4;
@@ -77,7 +77,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var10[var6];
         var6 = var9.bind(var3)(var6);
         var6 = var6.t;
-        var6 = var6.eIi3Oj;
+        var6 = var6.eIi3Om;
         var6 = var7.bind(var8)(var6);
         var1['CTALabel'] = var6;
         var5 = function onCTAPress() {

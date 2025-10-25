@@ -27,7 +27,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = var8[var9];
         var9 = var6.bind(var3)(var9);
         var9 = var9.t;
-        var9 = var9.TXNS7e;
+        var9 = var9.TXNS7S;
         var9 = var10.bind(var11)(var9);
         var1['text'] = var9;
         var1['onPress'] = var7;
@@ -174,7 +174,7 @@ case 4:
                     var1 = var7[var1];
                     var1 = var2.bind(var6)(var1);
                     var1 = var1.t;
-                    var2 = var1.Pk4Mz8;
+                    var2 = var1.Pk4Mz3;
                     var1 = {};
                     var8 = _closure2_slot1;
                     var7 = null;
@@ -320,7 +320,7 @@ case 9:
         var8 = var13[var8];
         var8 = var12.bind(var4)(var8);
         var8 = var8.t;
-        var8 = var8.YSNlV1;
+        var8 = var8.YSNlV2;
         var8 = var9.bind(var10)(var8);
         var1['label'] = var8;
         var9 = _closure1_slot5;

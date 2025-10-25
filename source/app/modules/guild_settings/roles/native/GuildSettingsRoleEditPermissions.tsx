@@ -275,7 +275,7 @@ case 11:
             var15 = var22[var15];
             var15 = var16.bind(var4)(var15);
             var15 = var15.t;
-            var16 = var15.ZhSOBw;
+            var16 = var15.ZhSOBy;
             var15 = {};
             var22 = function onTemplateOpen() {
                 var2 = _closure1_slot7;
@@ -488,7 +488,7 @@ case 19:
             var13 = var18[var13];
             var13 = var14.bind(var4)(var13);
             var13 = var13.t;
-            var14 = var13.Psh5OD;
+            var14 = var13.Psh5OO;
             var13 = {};
             var13['query'] = var17;
             var13 = var15.bind(var16)(var14, var13);
@@ -651,7 +651,7 @@ case 30:
                     var18 = var22[var18];
                     var18 = var21.bind(var1)(var18);
                     var18 = var18.t;
-                    var18 = var18.2XIdPj;
+                    var18 = var18.2XIdPp;
                     var18 = var19.bind(var20)(var18);
                     var15['children'] = var18;
                     var15 = var17.bind(var1)(var16, var15);

@@ -278,7 +278,7 @@ case 7:
         var9 = var19[var14];
         var9 = var18.bind(var4)(var9);
         var9 = var9.t;
-        var9 = var9.UdhTtr;
+        var9 = var9.UdhTtk;
         var9 = var21.bind(var22)(var9);
         var6['title'] = var9;
         var6 = var3.bind(var4)(var7, var6);
@@ -321,7 +321,7 @@ case 7:
         var30 = var19[var14];
         var30 = var18.bind(var4)(var30);
         var30 = var30.t;
-        var30 = var30.i4jeWV;
+        var30 = var30.i4jeWR;
         var30 = var31.bind(var32)(var30);
         var25['text'] = var30;
         var25['onPress'] = var29;
@@ -339,7 +339,7 @@ case 7:
         var29 = var19[var14];
         var29 = var18.bind(var4)(var29);
         var29 = var29.t;
-        var29 = var29.yBZMsb;
+        var29 = var29.yBZMsQ;
         var29 = var30.bind(var31)(var29);
         var26['text'] = var29;
         var26['onPress'] = var28;

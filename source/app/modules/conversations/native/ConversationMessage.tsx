@@ -588,7 +588,7 @@ case 60:
                     var5 = var9[var5];
                     var5 = var8.bind(var1)(var5);
                     var5 = var5.t;
-                    var5 = var5.qCozu7;
+                    var5 = var5.qCozu3;
                     var5 = var6.bind(var7)(var5);
                     var2['seeMoreLabel'] = var5;
                     var4 = _closure2_slot12;

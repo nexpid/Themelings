@@ -66,7 +66,7 @@ case 2:
             var7 = var11[var7];
             var7 = var10.bind(var3)(var7);
             var7 = var7.t;
-            var7 = var7.wMWycn;
+            var7 = var7.wMWyci;
             var7 = var8.bind(var9)(var7);
             var5['children'] = var7;
             var5 = var4.bind(var3)(var6, var5);

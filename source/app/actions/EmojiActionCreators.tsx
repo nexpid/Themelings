@@ -573,7 +573,7 @@ case 33:
                     var7 = var11[var5];
                     var7 = var6.bind(var10)(var7);
                     var7 = var7.t;
-                    var7 = var7.+XYXtb;
+                    var7 = var7.+XYXtZ;
                     var7 = var8.bind(var12)(var7);
                     var2['title'] = var7;
                     var7 = var11[var5];
@@ -583,7 +583,7 @@ case 33:
                     var5 = var11[var5];
                     var5 = var6.bind(var10)(var5);
                     var5 = var5.t;
-                    var6 = var5.JaIyFh;
+                    var6 = var5.JaIyFi;
                     var5 = {};
                     var9 = _closure1_slot8;
                     var5['count'] = var9;

@@ -344,7 +344,7 @@ case 17:
             var3 = var19[var15];
             var24 = var18.bind(var4)(var3);
             var14 = var24.useAnimatedStyle;
-            var3 = function C() {
+            var3 = function z() {
                 var1 = {};
                 var3 = {};
                 var4 = _closure2_slot11;
@@ -452,7 +452,7 @@ case 17:
             var6 = var19[var6];
             var6 = var18.bind(var4)(var6);
             var6 = var6.t;
-            var6 = var6.MUgHIC;
+            var6 = var6.MUgHIN;
             var6 = var16.bind(var17)(var6);
             var1['accessibilityLabel'] = var6;
             var6 = var12;

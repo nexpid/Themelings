@@ -92,7 +92,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var15[var9];
         var6 = var14.bind(var3)(var6);
         var6 = var6.t;
-        var7 = var6.fBKKfn;
+        var7 = var6.fBKKfq;
         var6 = {};
         var6['name'] = var16;
         var6 = var11.bind(var12)(var7, var6);
@@ -104,7 +104,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var15[var9];
         var6 = var14.bind(var3)(var6);
         var6 = var6.t;
-        var7 = var6.dsU5bm;
+        var7 = var6.dsU5bl;
         var6 = {};
         var6['name'] = var16;
         var6['gameName'] = var13;
@@ -129,7 +129,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var13 = var15[var9];
         var13 = var14.bind(var3)(var13);
         var13 = var13.t;
-        var13 = var13.RLcE6+;
+        var13 = var13.RLcE6x;
         var13 = var16.bind(var17)(var13);
         var11['text'] = var13;
         var11['onPress'] = var8;
@@ -150,7 +150,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = var15[var9];
         var9 = var14.bind(var3)(var9);
         var9 = var9.t;
-        var9 = var9.eN6+rK;
+        var9 = var9.eN6+rI;
         var9 = var12.bind(var13)(var9);
         var10['text'] = var9;
         var9 = 'nevermind';

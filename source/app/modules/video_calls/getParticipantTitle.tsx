@@ -79,7 +79,7 @@ case 7:
             var4 = var9[var4];
             var4 = var7.bind(var8)(var4);
             var4 = var4.t;
-            var4 = var4.pFO/Pj;
+            var4 = var4.pFO/Ph;
             var6 = var5.bind(var6)(var4);
             var4 = global;
             var4 = var4.HermesInternal;

@@ -1617,7 +1617,7 @@ case 135:
                                 var5 = var20[var5];
                                 var5 = var19.bind(var3)(var5);
                                 var5 = var5.t;
-                                var5 = var5.UXoQTk;
+                                var5 = var5.UXoQTp;
                                 var5 = var17.bind(var18)(var5);
                                 var5 = var6.bind(var14)(var5);
                                 _fun0020_ip = 174; continue _fun0020;
@@ -1653,7 +1653,7 @@ case 186:
                                 var5 = var20[var5];
                                 var5 = var19.bind(var3)(var5);
                                 var5 = var5.t;
-                                var5 = var5.uGDCc3;
+                                var5 = var5.uGDCcw;
                                 var5 = var17.bind(var18)(var5);
                                 var5 = var6.bind(var14)(var5);
                                 _fun0020_ip = 174; continue _fun0020;

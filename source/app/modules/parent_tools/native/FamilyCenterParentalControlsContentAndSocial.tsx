@@ -64,7 +64,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var8[var3];
         var7 = var6.bind(var4)(var7);
         var7 = var7.t;
-        var9 = var7.dliU4u;
+        var9 = var7.dliU4j;
         var7 = {};
         var13 = _closure1_slot1;
         var12 = 6;
@@ -87,7 +87,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = var8[var3];
         var9 = var6.bind(var4)(var9);
         var9 = var9.t;
-        var9 = var9.MeYuqq;
+        var9 = var9.MeYuqs;
         var9 = var10.bind(var11)(var9);
         var2['label'] = var9;
         var10 = var5.PARENTAL_CONTROLS_DIRECT_MESSAGES;
@@ -105,7 +105,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var8[var3];
         var3 = var6.bind(var4)(var3);
         var3 = var3.t;
-        var3 = var3.XlGG9f;
+        var3 = var3.XlGG9c;
         var3 = var9.bind(var10)(var3);
         var2['label'] = var3;
         var9 = var5.PARENTAL_CONTROLS_FRIEND_REQUESTS_EVERYONE;

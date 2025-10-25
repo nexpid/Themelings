@@ -270,7 +270,7 @@ case 8:
             var14 = var19[var14];
             var14 = var15.bind(var4)(var14);
             var14 = var14.t;
-            var15 = var14.z7y34e;
+            var15 = var14.z7y34b;
             var14 = {};
             var18 = var18.mutual_friends_count;
             var14['count'] = var18;
@@ -562,7 +562,7 @@ case 9:
                 var16 = var13[var9];
                 var16 = var12.bind(var1)(var16);
                 var16 = var16.t;
-                var16 = var16.7Fjv5+;
+                var16 = var16.7Fjv54;
                 var16 = var17.bind(var18)(var16);
                 var8['children'] = var16;
                 var11 = var14.bind(var1)(var11, var8);
@@ -582,7 +582,7 @@ case 9:
                 var15 = var13[var9];
                 var15 = var12.bind(var1)(var15);
                 var15 = var15.t;
-                var15 = var15.ait1x8;
+                var15 = var15.ait1x0;
                 var15 = var16.bind(var17)(var15);
                 var10['children'] = var15;
                 var10 = var14.bind(var1)(var11, var10);
@@ -687,7 +687,7 @@ case 9:
         var14 = var18[var14];
         var14 = var17.bind(var4)(var14);
         var14 = var14.t;
-        var14 = var14.J5/69v;
+        var14 = var14.J5/69j;
         var14 = var15.bind(var16)(var14);
         var9['text'] = var14;
         var13 = function onPress() {

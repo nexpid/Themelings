@@ -215,7 +215,7 @@ case 26: // catch_target0
                         var7 = var12[var7];
                         var7 = var10.bind(var11)(var7);
                         var7 = var7.t;
-                        var7 = var7.c76eo6;
+                        var7 = var7.c76eo/;
                         var7 = var8.bind(var9)(var7);
                         var3['content'] = var7;
                         var3 = var4.bind(var5)(var3);
@@ -474,7 +474,7 @@ case 38: // catch_target0
                             var8 = var12[var8];
                             var8 = var11.bind(var2)(var8);
                             var8 = var8.t;
-                            var8 = var8.c76eo6;
+                            var8 = var8.c76eo/;
                             var8 = var9.bind(var10)(var8);
                             var4['content'] = var8;
                             var4 = var5.bind(var6)(var4);

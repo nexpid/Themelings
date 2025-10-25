@@ -757,7 +757,7 @@ case 30:
             var21 = var19[var15];
             var21 = var18.bind(var4)(var21);
             var21 = var21.t;
-            var21 = var21./84uiI;
+            var21 = var21./84uiD;
             var21 = var22.bind(var23)(var21);
             var10['accessibilityLabel'] = var21;
             var21 = 24;
@@ -801,7 +801,7 @@ case 30:
             var22 = var19[var15];
             var22 = var18.bind(var4)(var22);
             var22 = var22.t;
-            var22 = var22.h0or/v;
+            var22 = var22.h0or/l;
             var22 = var23.bind(var24)(var22);
             var13['accessibilityLabel'] = var22;
             var22 = function onPress() {
@@ -836,7 +836,7 @@ case 30:
             var15 = var19[var15];
             var15 = var18.bind(var4)(var15);
             var15 = var15.t;
-            var15 = var15.5uVPyc;
+            var15 = var15.5uVPyf;
             var15 = var16.bind(var17)(var15);
             var11['accessibilityLabel'] = var15;
             var14 = function onPress() {

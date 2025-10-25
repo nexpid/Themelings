@@ -27,7 +27,7 @@ case 0:
             var2 = var2[var10];
             var2 = var3.bind(var9)(var2);
             var2 = var2.t;
-            var3 = var2.TPPk2d;
+            var3 = var2.TPPk2T;
             var2 = {};
             var2['channelName'] = var8;
             var2 = var4.bind(var5)(var3, var2);
@@ -51,7 +51,7 @@ case 6:
             var3 = var3[var10];
             var3 = var4.bind(var9)(var3);
             var3 = var3.t;
-            var4 = var3.7yr3QU;
+            var4 = var3.7yr3Qc;
             var3 = {};
             var3['channelName'] = var8;
             var3['userCount'] = var7;
@@ -67,7 +67,7 @@ case 4:
             var1 = var1[var10];
             var1 = var3.bind(var9)(var1);
             var1 = var1.t;
-            var3 = var1.rhh6Eh;
+            var3 = var1.rhh6Ev;
             var1 = {};
             var1['channelName'] = var8;
             var1['userCount'] = var7;

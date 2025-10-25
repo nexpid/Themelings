@@ -205,7 +205,7 @@ case 2:
             var11 = var18[var10];
             var11 = var19.bind(var4)(var11);
             var11 = var11.t;
-            var11 = var11.xPHVBg;
+            var11 = var11.xPHVBs;
             var11 = var12.bind(var16)(var11);
             var5['label'] = var11;
             var12 = _closure1_slot4;
@@ -258,7 +258,7 @@ case 7:
             var10 = var12[var10];
             var10 = var19.bind(var4)(var10);
             var10 = var10.t;
-            var10 = var10.pEAl4e;
+            var10 = var10.pEAl4b;
             var10 = var11.bind(var18)(var10);
             var7['label'] = var10;
             var11 = _closure1_slot4;

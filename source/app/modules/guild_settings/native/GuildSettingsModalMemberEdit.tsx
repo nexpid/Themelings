@@ -664,7 +664,7 @@ case 32:
                 var13 = var17[var13];
                 var13 = var16.bind(var12)(var13);
                 var13 = var13.t;
-                var13 = var13.+riKdH;
+                var13 = var13.+riKdA;
                 var13 = var14.bind(var15)(var13);
                 var7['label'] = var13;
                 var7['onPress'] = var4;
@@ -831,7 +831,7 @@ case 33:
                 var6 = var10[var6];
                 var6 = var9.bind(var3)(var6);
                 var6 = var6.t;
-                var6 = var6.LPJmLy;
+                var6 = var6.LPJmL/;
                 var6 = var7.bind(var8)(var6);
                 var1['title'] = var6;
                 var1['children'] = var5;
@@ -1267,7 +1267,7 @@ case 54:
                     var5 = var9[var5];
                     var5 = var8.bind(var3)(var5);
                     var5 = var5.t;
-                    var5 = var5.ETE/oK;
+                    var5 = var5.ETE/oC;
                     var5 = var6.bind(var7)(var5);
                     var1['text'] = var5;
                     var5 = _closure3_slot0;
@@ -1308,7 +1308,7 @@ case 62:
                     var5 = var9[var5];
                     var5 = var8.bind(var3)(var5);
                     var5 = var5.t;
-                    var5 = var5.R3BPHx;
+                    var5 = var5.R3BPH+;
                     var5 = var6.bind(var7)(var5);
                     var1['text'] = var5;
                     var5 = _closure3_slot0;
@@ -1353,7 +1353,7 @@ case 63:
                     var5 = var11[var5];
                     var5 = var6.bind(var3)(var5);
                     var5 = var5.t;
-                    var6 = var5.v7odxs;
+                    var6 = var5.v7odxj;
                     var5 = {};
                     var10 = _closure1_slot1;
                     var9 = 28;
@@ -1507,7 +1507,7 @@ case 70:
                 var2 = var6.bind(var5)(var4, var3);
                 _fun0014_ip = 71; continue _fun0014;
 case 69:
-                var12 = var11.RuL6o6;
+                var12 = var11.RuL6o7;
                 var11 = {};
                 var34 = _closure1_slot1;
                 var33 = var33[var23];
@@ -1564,7 +1564,7 @@ case 77:
                 var11 = var33[var11];
                 var11 = var20.bind(var5)(var11);
                 var11 = var11.t;
-                var11 = var11.Z5s7PD;
+                var11 = var11.Z5s7PM;
                 var11 = var12.bind(var13)(var11);
                 var6['label'] = var11;
                 var11 = var15.handleTransferOwnership;
@@ -1645,7 +1645,7 @@ case 81:
                 var31 = var31[var38];
                 var31 = var36.bind(var5)(var31);
                 var31 = var31.t;
-                var31 = var31.621LJC;
+                var31 = var31.621LJD;
                 var31 = var33.bind(var34)(var31);
                 var13['title'] = var31;
                 var33 = var1 != var32;
@@ -1672,7 +1672,7 @@ case 82:
                 var34 = var34[var38];
                 var34 = var37.bind(var5)(var34);
                 var34 = var34.t;
-                var34 = var34.h7UKXl;
+                var34 = var34.h7UKXj;
                 var34 = var35.bind(var36)(var34);
                 var31['placeholder'] = var34;
                 var34 = var15.handleChangeNickname;
@@ -1788,7 +1788,7 @@ case 95:
                 var16 = var20[var16];
                 var16 = var17.bind(var5)(var16);
                 var16 = var16.t;
-                var17 = var16.TuAZub;
+                var17 = var16.TuAZuW;
                 var16 = {};
                 var21 = _closure1_slot1;
                 var20 = var20[var23];

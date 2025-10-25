@@ -125,7 +125,7 @@ case 3:
             var4 = var9[var4];
             var4 = var7.bind(var8)(var4);
             var4 = var4.t;
-            var4 = var4.W11rMT;
+            var4 = var4.W11rMa;
             var4 = var5.bind(var6)(var4);
             var2['description'] = var4;
             var2 = var3.bind(var1)(var2);
@@ -180,7 +180,7 @@ case 2:
         var12 = var19[var15];
         var12 = var18.bind(var4)(var12);
         var12 = var12.t;
-        var14 = var12.XDm6yM;
+        var14 = var12.XDm6yN;
         var12 = {};
         var21 = var21.name;
         var12['stickerPackName'] = var21;
@@ -204,7 +204,7 @@ case 2:
         var13 = var19[var15];
         var13 = var18.bind(var4)(var13);
         var13 = var13.t;
-        var13 = var13.cpT0Cg;
+        var13 = var13.cpT0Cq;
         var13 = var14.bind(var17)(var13);
         var11['accessibilityLabel'] = var13;
         var13 = 11;
@@ -221,7 +221,7 @@ case 2:
         var15 = var19[var15];
         var15 = var18.bind(var4)(var15);
         var15 = var15.t;
-        var15 = var15.cpT0Cg;
+        var15 = var15.cpT0Cq;
         var15 = var16.bind(var17)(var15);
         var13['children'] = var15;
         var13 = var8.bind(var4)(var14, var13);

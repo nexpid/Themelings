@@ -43,7 +43,7 @@ case 7:
             var3 = var3[var7];
             var3 = var4.bind(var1)(var3);
             var3 = var3.t;
-            var4 = var3.3SLXAw;
+            var4 = var3.3SLXAz;
             var3 = {};
             var3['minutes'] = var10;
             var3 = var5.bind(var8)(var4, var3);
@@ -58,7 +58,7 @@ case 6:
             var3 = var3[var7];
             var3 = var4.bind(var1)(var3);
             var3 = var3.t;
-            var4 = var3.BWqf0d;
+            var4 = var3.BWqf0c;
             var3 = {};
             var3['hours'] = var9;
             var3 = var5.bind(var8)(var4, var3);
@@ -73,7 +73,7 @@ case 4:
             var2 = var2[var7];
             var2 = var3.bind(var1)(var2);
             var2 = var2.t;
-            var3 = var2.dex68f;
+            var3 = var2.dex68a;
             var2 = {};
             var2['days'] = var6;
             var2 = var4.bind(var5)(var3, var2);

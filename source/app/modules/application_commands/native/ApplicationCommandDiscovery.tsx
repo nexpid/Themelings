@@ -449,7 +449,7 @@ case 38:
                 var2 = var5[var2];
                 var2 = var4.bind(var3)(var2);
                 var2 = var2.t;
-                var2 = var2.2wfLMj;
+                var2 = var2.2wfLMm;
                 var2 = var8.bind(var9)(var2);
                 var2 = var6.bind(var7)(var2);
                 var2 = 17;
@@ -1216,7 +1216,7 @@ case 92:
                     var10 = var15[var10];
                     var10 = var11.bind(var1)(var10);
                     var10 = var10.t;
-                    var11 = var10.WoQXT0;
+                    var11 = var10.WoQXT6;
                     var10 = {};
                     var14 = var14.section;
                     var14 = var14.name;

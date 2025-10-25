@@ -37,7 +37,7 @@ case 4:
             var4 = var7[var2];
             var4 = var6.bind(var5)(var4);
             var4 = var4.t;
-            var8 = var4.qDAX+/;
+            var8 = var4.qDAX++;
             var4 = {};
             var11 = {};
             var13 = 'bindDismissMessage';
@@ -62,7 +62,7 @@ case 4:
             var2 = var7[var2];
             var2 = var6.bind(var5)(var2);
             var2 = var2.t;
-            var2 = var2.htHOrq;
+            var2 = var2.htHOrp;
             var2 = var3.bind(var4)(var2);
             var1['helpButtonAccessibilityLabel'] = var2;
             return var1;
@@ -223,7 +223,7 @@ case 14:
             var8 = var8[var5];
             var8 = var9.bind(var3)(var8);
             var8 = var8.t;
-            var9 = var8.M87x7e;
+            var9 = var8.M87x7Y;
             var8 = {};
             var8['username'] = var12;
             var12 = {};

@@ -158,7 +158,7 @@ case 7:
             var12 = var17[var12];
             var12 = var15.bind(var5)(var12);
             var12 = var12.t;
-            var12 = var12.oC/fU1;
+            var12 = var12.oC/fU6;
             var12 = var13.bind(var14)(var12);
             var6['children'] = var12;
             var8 = var10.bind(var5)(var9, var6);
@@ -186,7 +186,7 @@ case 9:
             var19 = var17[var12];
             var19 = var13.bind(var5)(var19);
             var19 = var19.t;
-            var19 = var19.HXz5Ag;
+            var19 = var19.HXz5An;
             var19 = var20.bind(var21)(var19);
             var11['children'] = var19;
             var15 = var18.bind(var5)(var15, var11);
@@ -205,7 +205,7 @@ case 9:
             var12 = var17[var12];
             var12 = var13.bind(var5)(var12);
             var12 = var12.t;
-            var13 = var12.PrtAq6;
+            var13 = var12.PrtAqy;
             var12 = {};
             var16 = function unignoreHook(arg1) {
                 var4 = _closure1_slot6;

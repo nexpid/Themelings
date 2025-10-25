@@ -45,7 +45,7 @@ case 0:
             var3 = var2[var8];
             var3 = var9.bind(var7)(var3);
             var3 = var3.t;
-            var4 = var3.5qdUrK;
+            var4 = var3.5qdUrO;
             var3 = {};
             var11 = var2[var8];
             var11 = var9.bind(var7)(var11);
@@ -54,7 +54,7 @@ case 0:
             var11 = var2[var8];
             var11 = var9.bind(var7)(var11);
             var11 = var11.t;
-            var11 = var11.zLch/f;
+            var11 = var11.zLch/S;
             var11 = var12.bind(var13)(var11);
             var3['buyButtonLabel'] = var11;
             var11 = _closure1_slot2;
@@ -70,7 +70,7 @@ case 0:
             var2 = var2[var8];
             var2 = var9.bind(var7)(var2);
             var2 = var2.t;
-            var2 = var2.Sxed/P;
+            var2 = var2.Sxed/G;
             var2 = var4.bind(var6)(var2);
             var4 = _closure1_slot3;
             var4 = var4.ORB_PROFILE_BADGE;
@@ -89,7 +89,7 @@ case 5:
             var4 = var4[var8];
             var4 = var9.bind(var7)(var4);
             var4 = var4.t;
-            var4 = var4.FhJ74u;
+            var4 = var4.FhJ74j;
             var2 = var5.bind(var6)(var4);
             _fun0001_ip = 4; continue _fun0001;
 case 2:
@@ -102,7 +102,7 @@ case 2:
             var1 = var1[var8];
             var1 = var6.bind(var7)(var1);
             var1 = var1.t;
-            var1 = var1.APcKRk;
+            var1 = var1.APcKRo;
             var2 = var4.bind(var5)(var1);
 case 4:
             var1 = new Array(3);

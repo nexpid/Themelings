@@ -222,7 +222,7 @@ case 13:
             var7 = var14[var7];
             var7 = var13.bind(var4)(var7);
             var7 = var7.t;
-            var7 = var7.13/7kZ;
+            var7 = var7.13/7kX;
             var9 = var9.bind(var10)(var7);
             _fun0001_ip = 14; continue _fun0001;
 case 12:
@@ -236,7 +236,7 @@ case 12:
             var7 = var20[var7];
             var7 = var10.bind(var4)(var7);
             var7 = var7.t;
-            var10 = var7.vxFYaG;
+            var10 = var7.vxFYaM;
             var7 = {};
             var7['mentionCount'] = var19;
             var9 = var13.bind(var14)(var10, var7);

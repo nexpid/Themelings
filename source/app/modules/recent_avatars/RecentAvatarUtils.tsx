@@ -252,7 +252,7 @@ case 32:
             var2 = var9[var2];
             var2 = var5.bind(var8)(var2);
             var2 = var2.t;
-            var2 = var2.lqaIxM;
+            var2 = var2.lqaIxI;
             var6 = var3.bind(var4)(var2);
 case 9:
             var2 = global;
@@ -287,7 +287,7 @@ case 34:
             var2 = var2[var9];
             var2 = var7.bind(var8)(var2);
             var2 = var2.t;
-            var2 = var2.DYil9/;
+            var2 = var2.DYil93;
             _fun0004_ip = 35; continue _fun0004;
 case 33:
             var7 = _closure1_slot0;
@@ -295,7 +295,7 @@ case 33:
             var1 = var1[var9];
             var1 = var7.bind(var8)(var1);
             var1 = var1.t;
-            var2 = var1.eC2sZm;
+            var2 = var1.eC2sZi;
 case 35:
             var1 = {};
             var1['name'] = var6;
@@ -336,7 +336,7 @@ case 36:
             var5 = var10[var5];
             var5 = var9.bind(var4)(var5);
             var5 = var5.t;
-            var5 = var5.lqaIxM;
+            var5 = var5.lqaIxI;
             var8 = var6.bind(var7)(var5);
 case 38:
             var5 = global;

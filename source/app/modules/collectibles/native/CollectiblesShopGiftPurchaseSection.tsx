@@ -210,7 +210,7 @@ case 4:
         var8 = var14[var10];
         var8 = var13.bind(var4)(var8);
         var8 = var8.t;
-        var16 = var8.rsEdd3;
+        var16 = var8.rsEdd2;
         var8 = {};
         var19 = var14[var10];
         var19 = var13.bind(var4)(var19);
@@ -219,7 +219,7 @@ case 4:
         var19 = var14[var10];
         var19 = var13.bind(var4)(var19);
         var19 = var19.t;
-        var19 = var19.ouo4FB;
+        var19 = var19.ouo4FK;
         var19 = var21.bind(var22)(var19);
         var8['buyButtonLabel'] = var19;
         var19 = 18;
@@ -255,7 +255,7 @@ case 4:
         var10 = var14[var10];
         var10 = var13.bind(var4)(var10);
         var10 = var10.t;
-        var10 = var10.ouo4FB;
+        var10 = var10.ouo4FK;
         var10 = var11.bind(var12)(var10);
         var6['text'] = var10;
         var9 = function onPress() {

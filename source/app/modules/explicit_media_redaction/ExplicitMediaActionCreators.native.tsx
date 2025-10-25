@@ -73,7 +73,7 @@ case 3:
             var11 = var3[var10];
             var11 = var13.bind(var1)(var11);
             var11 = var11.t;
-            var11 = var11.iS/eFB;
+            var11 = var11.iS/eFN;
             var11 = var12.bind(var14)(var11);
             var4['title'] = var11;
             var11 = var3[var10];
@@ -83,7 +83,7 @@ case 3:
             var11 = var3[var10];
             var11 = var13.bind(var1)(var11);
             var11 = var11.t;
-            var11 = var11.YrjcgY;
+            var11 = var11.YrjcgR;
             var11 = var12.bind(var14)(var11);
             var4['body'] = var11;
             var11 = var3[var10];
@@ -93,7 +93,7 @@ case 3:
             var10 = var3[var10];
             var10 = var13.bind(var1)(var10);
             var10 = var10.t;
-            var10 = var10.BddRzc;
+            var10 = var10.BddRzS;
             var10 = var11.bind(var12)(var10);
             var4['confirmText'] = var10;
             var4 = var6.bind(var9)(var4);

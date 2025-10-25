@@ -320,7 +320,7 @@ case 55:
             var1 = var11[var1];
             var1 = var7.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1.2TbM/P;
+            var1 = var1.2TbM/G;
             var6 = var2.bind(var3)(var1);
 case 54:
             _fun0001_ip = 56; continue _fun0001;
@@ -335,7 +335,7 @@ case 51:
             var1 = var11[var1];
             var1 = var7.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1.T0uYKy;
+            var1 = var1.T0uYK9;
             var6 = var2.bind(var3)(var1);
 case 56:
             _fun0001_ip = 57; continue _fun0001;
@@ -350,7 +350,7 @@ case 49:
             var1 = var11[var1];
             var1 = var7.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1.kUEnxM;
+            var1 = var1.kUEnxN;
             var6 = var2.bind(var3)(var1);
 case 57:
             _fun0001_ip = 58; continue _fun0001;
@@ -365,7 +365,7 @@ case 45:
             var1 = var11[var1];
             var1 = var7.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1.rmnkz8;
+            var1 = var1.rmnkz4;
             var6 = var2.bind(var3)(var1);
 case 58:
             var3 = _closure1_slot11;
@@ -430,7 +430,7 @@ case 43:
             var8 = var12[var8];
             var8 = var11.bind(var4)(var8);
             var8 = var8.t;
-            var8 = var8.7Xq/nZ;
+            var8 = var8.7Xq/nV;
             var8 = var9.bind(var10)(var8);
             var5['ctaText'] = var8;
             var8 = true;

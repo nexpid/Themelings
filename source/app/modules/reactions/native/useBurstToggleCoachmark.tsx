@@ -177,7 +177,7 @@ case 4:
                 var5 = var8[var3];
                 var5 = var7.bind(var6)(var5);
                 var5 = var5.t;
-                var5 = var5.nyYoho;
+                var5 = var5.nyYohm;
                 var5 = var9.bind(var10)(var5);
                 var1['description'] = var5;
                 var5 = function onDismiss() {
@@ -207,7 +207,7 @@ case 4:
                 var3 = var8[var3];
                 var3 = var7.bind(var6)(var3);
                 var3 = var3.t;
-                var3 = var3.ORK94u;
+                var3 = var3.ORK94p;
                 var3 = var4.bind(var5)(var3);
                 var1['title'] = var3;
                 var3 = _closure2_slot0;

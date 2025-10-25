@@ -203,7 +203,7 @@ case 9:
             var22 = var26[var22];
             var22 = var25.bind(var4)(var22);
             var22 = var22.t;
-            var22 = var22.pFO/Pj;
+            var22 = var22.pFO/Ph;
             var23 = var23.bind(var24)(var22);
             var22 = ['\xa0'];
             var22[1] = var23;

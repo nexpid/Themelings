@@ -240,7 +240,7 @@ case 6:
             var21 = 14;
             var19 = var26[var21];
             var19 = var25.bind(var5)(var19);
-            var19 = var19.BxbvS0;
+            var19 = var19.BxbvS7;
             var19 = var20.bind(var27)(var19);
             var11['accessibilityLabel'] = var19;
             var19 = 15;
@@ -256,7 +256,7 @@ case 6:
             var22 = var24.string;
             var21 = var26[var21];
             var21 = var25.bind(var5)(var21);
-            var21 = var21.BxbvS0;
+            var21 = var21.BxbvS7;
             var21 = var22.bind(var24)(var21);
             var19['children'] = var21;
             var20 = var10.bind(var5)(var20, var19);
@@ -341,7 +341,7 @@ case 10:
             var19 = 14;
             var14 = var23[var19];
             var14 = var22.bind(var5)(var14);
-            var14 = var14.Lq9Sen;
+            var14 = var14.Lq9Set;
             var14 = var15.bind(var24)(var14);
             var11['accessibilityLabel'] = var14;
             var14 = 15;
@@ -357,7 +357,7 @@ case 10:
             var20 = var21.string;
             var19 = var23[var19];
             var19 = var22.bind(var5)(var19);
-            var19 = var19.Lq9Sen;
+            var19 = var19.Lq9Set;
             var19 = var20.bind(var21)(var19);
             var14['children'] = var19;
             var15 = var10.bind(var5)(var15, var14);

@@ -847,7 +847,7 @@ case 27:
         var11 = var15[var11];
         var11 = var14.bind(var3)(var11);
         var11 = var11.t;
-        var11 = var11.cpT0Cg;
+        var11 = var11.cpT0Cq;
         var11 = var12.bind(var13)(var11);
         var6['text'] = var11;
         var10 = _closure1_slot18;

@@ -397,7 +397,7 @@ case 18:
         var16 = var12[var16];
         var16 = var7.bind(var4)(var16);
         var16 = var16.t;
-        var16 = var16.leICvr;
+        var16 = var16.leICvh;
         var16 = var17.bind(var18)(var16);
         var13['accessibilityLabel'] = var16;
         var16 = _closure1_slot3;

@@ -678,7 +678,7 @@ case 62:
                             var4 = var9[var4];
                             var4 = var8.bind(var2)(var4);
                             var4 = var4.t;
-                            var4 = var4.PD09Sk;
+                            var4 = var4.PD09Sl;
                             var4 = var6.bind(var7)(var4);
                             var4 = var5.bind(var2)(var4);
 case 70:
@@ -705,7 +705,7 @@ case 41:
                             var6 = var8[var6];
                             var6 = var11.bind(var2)(var6);
                             var6 = var6.t;
-                            var6 = var6.StC49/;
+                            var6 = var6.StC497;
                             var6 = var9.bind(var10)(var6);
                             var3['content'] = var6;
                             var6 = 10;
@@ -832,7 +832,7 @@ case 71:
             var13 = var17[var13];
             var13 = var16.bind(var5)(var13);
             var13 = var13.t;
-            var13 = var13.var9/DT0;
+            var13 = var13.var9/DT+;
             var13 = var14.bind(var15)(var13);
             var7['text'] = var13;
             var7['loading'] = var11;

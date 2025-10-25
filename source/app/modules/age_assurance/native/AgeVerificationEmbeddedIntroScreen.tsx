@@ -115,7 +115,7 @@ case 0:
             var22 = var19[var17];
             var22 = var15.bind(var4)(var22);
             var22 = var22.t;
-            var22 = var22.JHNunp;
+            var22 = var22.JHNunj;
             var22 = var23.bind(var24)(var22);
             var20['children'] = var22;
             var20 = var3.bind(var4)(var21, var20);
@@ -167,7 +167,7 @@ case 2:
             var17 = 12;
             var17 = var21[var17];
             var17 = var20.bind(var4)(var17);
-            var17 = var17.1/6wtb;
+            var17 = var17.1/6wta;
             var16 = var18.bind(var19)(var17);
 case 4:
             var14['children'] = var16;

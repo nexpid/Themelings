@@ -56,7 +56,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var13[var7];
         var7 = var12.bind(var3)(var7);
         var7 = var7.t;
-        var7 = var7.BddRzc;
+        var7 = var7.BddRzS;
         var7 = var10.bind(var11)(var7);
         var8['text'] = var7;
         var7 = 'okay';

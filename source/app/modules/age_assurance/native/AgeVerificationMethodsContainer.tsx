@@ -23,7 +23,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 1;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.HelpdeskArticles;
+    var4 = var4.SafetyHubLinks;
     var _closure1_slot3 = var4;
     var4 = 2;
     var4 = var6[var4];
@@ -71,7 +71,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['buttonGroup'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot6 = var4;
-    var4 = 18;
+    var4 = 17;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -204,7 +204,7 @@ case 2:
             var25 = 11;
             var21 = var27[var25];
             var21 = var30.bind(var4)(var21);
-            var21 = var21.cR6339;
+            var21 = var21.cR6336;
             var21 = var24.bind(var28)(var21);
             var19['children'] = var21;
             var20 = var22.bind(var4)(var20, var19);
@@ -228,7 +228,7 @@ case 2:
             var28 = var29.string;
             var25 = var27[var25];
             var25 = var30.bind(var4)(var25);
-            var25 = var25.hDvmYG;
+            var25 = var25.hDvmYP;
             var25 = var28.bind(var29)(var25);
             var23['text'] = var25;
             var25 = 14;
@@ -270,23 +270,18 @@ case 7:
             var10 = 11;
             var10 = var15[var10];
             var10 = var11.bind(var4)(var10);
-            var11 = var10.htWh1N;
+            var11 = var10.htWh1G;
             var10 = {};
             var14 = function handleOnHelpUrlHook() {
-                var6 = _closure1_slot1;
-                var7 = _closure1_slot2;
+                var4 = _closure1_slot1;
+                var3 = _closure1_slot2;
                 var1 = 16;
-                var3 = var7[var1];
+                var3 = var3[var1];
                 var1 = undefined;
-                var4 = var6.bind(var1)(var3);
+                var4 = var4.bind(var1)(var3);
                 var3 = var4.openUrl;
-                var5 = 17;
-                var5 = var7[var5];
-                var6 = var6.bind(var1)(var5);
-                var5 = var6.getArticleURL;
                 var2 = _closure1_slot3;
-                var2 = var2.TIGGER_PAWTECT_LEARN_MORE;
-                var2 = var5.bind(var6)(var2);
+                var2 = var2.LEARN_MORE_UU_APPEAL_LINK;
                 var2 = var3.bind(var4)(var2);
                 return var1;
             };

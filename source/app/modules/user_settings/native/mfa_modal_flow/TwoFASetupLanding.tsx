@@ -113,7 +113,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var18 = var17[var13];
         var18 = var14.bind(var4)(var18);
         var18 = var18.t;
-        var18 = var18.9E74Dw;
+        var18 = var18.9E74Dx;
         var18 = var19.bind(var20)(var18);
         var12['children'] = var18;
         var12 = var3.bind(var4)(var15, var12);
@@ -135,7 +135,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var13 = var17[var13];
         var13 = var14.bind(var4)(var13);
         var13 = var13.t;
-        var14 = var13.A7Aeh4;
+        var14 = var13.A7Aehw;
         var13 = {'googleAuthURL': 'https://support.google.com/accounts/answer/1066447?hl=en', 'authyURL': 'https://www.authy.com/'};
         var13 = var15.bind(var16)(var14, var13);
         var11['children'] = var13;

@@ -806,7 +806,7 @@ case 62:
             var27 = var31[var27];
             var27 = var30.bind(var4)(var27);
             var27 = var27.t;
-            var27 = var27.V6nAfH;
+            var27 = var27.V6nAfF;
             var27 = var28.bind(var29)(var27);
             var24['title'] = var27;
             var24 = var26.bind(var4)(var25, var24);
@@ -888,7 +888,7 @@ case 73:
             var13 = var17[var13];
             var13 = var16.bind(var4)(var13);
             var13 = var13.t;
-            var13 = var13.CaEER0;
+            var13 = var13.CaEER6;
             var13 = var14.bind(var15)(var13);
             var11['accessibilityLabel'] = var13;
             var11 = var10.bind(var4)(var12, var11);

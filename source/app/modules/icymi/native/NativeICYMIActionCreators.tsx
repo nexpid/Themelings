@@ -134,7 +134,7 @@ case 11:
                     var8 = var12[var8];
                     var8 = var11.bind(var2)(var8);
                     var8 = var8.t;
-                    var8 = var8.OMdbs7;
+                    var8 = var8.OMdbs1;
                     var8 = var9.bind(var10)(var8);
                     var4['content'] = var8;
                     var4 = var5.bind(var7)(var4);
@@ -162,7 +162,7 @@ case 13: // catch_target0
                     var6 = var10[var6];
                     var6 = var9.bind(var2)(var6);
                     var6 = var6.t;
-                    var6 = var6.CG4Hkp;
+                    var6 = var6.CG4Hks;
                     var6 = var7.bind(var8)(var6);
                     var3['content'] = var6;
                     var3 = var4.bind(var5)(var3);

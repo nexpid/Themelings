@@ -123,7 +123,7 @@ case 7:
             var13 = var17[var13];
             var13 = var16.bind(var5)(var13);
             var13 = var13.t;
-            var13 = var13.yQqVsr;
+            var13 = var13.yQqVss;
             var14 = var14.bind(var15)(var13);
             _fun0001_ip = 8; continue _fun0001;
 case 6:
@@ -137,7 +137,7 @@ case 6:
             var13 = var19[var13];
             var13 = var15.bind(var5)(var13);
             var13 = var13.t;
-            var15 = var13.SgxMJi;
+            var15 = var13.SgxMJs;
             var13 = {};
             var18 = var18.name;
             var13['applicationName'] = var18;
@@ -157,7 +157,7 @@ case 8:
             var14 = var20[var14];
             var14 = var15.bind(var5)(var14);
             var14 = var14.t;
-            var15 = var14.BPDKoK;
+            var15 = var14.BPDKoA;
             var14 = {};
             var19 = _closure1_slot1;
             var18 = 9;

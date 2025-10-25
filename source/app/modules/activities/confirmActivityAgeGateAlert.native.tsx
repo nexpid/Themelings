@@ -112,7 +112,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var9[var11];
         var1 = var14.bind(var8)(var1);
         var1 = var1.t;
-        var2 = var1.OgmIq6;
+        var2 = var1.OgmIqy;
         var1 = {};
         var5 = var5.name;
         var1['applicationName'] = var5;
@@ -133,7 +133,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var13 = var9[var11];
         var13 = var14.bind(var8)(var13);
         var13 = var13.t;
-        var13 = var13.SSDPOD;
+        var13 = var13.SSDPOF;
         var13 = var15.bind(var17)(var13);
         var1['title'] = var13;
         var15 = _closure1_slot4;
@@ -149,7 +149,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var12 = var9[var11];
         var12 = var14.bind(var8)(var12);
         var12 = var12.t;
-        var12 = var12.hg1uxs;
+        var12 = var12.hg1uxn;
         var12 = var13.bind(var15)(var12);
         var1['cancelText'] = var12;
         var12 = var9[var11];
@@ -159,7 +159,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var11 = var9[var11];
         var11 = var14.bind(var8)(var11);
         var11 = var11.t;
-        var11 = var11.wVq7ur;
+        var11 = var11.wVq7uo;
         var11 = var12.bind(var13)(var11);
         var1['confirmText'] = var11;
         var1['onConfirm'] = var10;

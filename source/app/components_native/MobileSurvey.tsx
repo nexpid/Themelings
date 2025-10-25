@@ -186,7 +186,7 @@ case 11:
             var7 = var11[var7];
             var7 = var10.bind(var5)(var7);
             var7 = var7.t;
-            var7 = var7.f3Pet7;
+            var7 = var7.f3Pet9;
             var7 = var8.bind(var9)(var7);
             var2['cancelText'] = var7;
             var7 = function onConfirm() {

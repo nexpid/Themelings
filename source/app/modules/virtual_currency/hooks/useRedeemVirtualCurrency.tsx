@@ -87,7 +87,7 @@ case 3:
                 var2 = var9[var2];
                 var2 = var4.bind(var5)(var2);
                 var2 = var2.t;
-                var4 = var2.7gHWra;
+                var4 = var2.7gHWrd;
                 var2 = {};
                 var9 = '1 orb';
                 var2['amount'] = var9;
@@ -142,7 +142,7 @@ case 8:
                 var2 = var8[var2];
                 var2 = var4.bind(var3)(var2);
                 var2 = var2.t;
-                var4 = var2.JxNFam;
+                var4 = var2.JxNFav;
                 var2 = {};
                 var8 = '1 orb';
                 var2['amountDescription'] = var8;

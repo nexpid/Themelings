@@ -81,7 +81,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var12[var14];
             var14 = var11.bind(var4)(var14);
             var14 = var14.t;
-            var14 = var14.OYkgVl;
+            var14 = var14.OYkgVk;
             var14 = var15.bind(var16)(var14);
             var6['text'] = var14;
             var13 = var13.addButtonText;

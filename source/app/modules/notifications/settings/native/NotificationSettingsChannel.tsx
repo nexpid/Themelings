@@ -80,7 +80,7 @@ case 0:
             var3 = var7[var16];
             var3 = var2.bind(var4)(var3);
             var3 = var3.t;
-            var3 = var3.h850Sk;
+            var3 = var3.h850Ss;
             var3 = var5.bind(var8)(var3);
             var _closure2_slot1 = var3;
             var3 = var14.channel;
@@ -272,7 +272,7 @@ case 5:
             var19 = var18[var16];
             var19 = var17.bind(var4)(var19);
             var19 = var19.t;
-            var19 = var19.6MCxAw;
+            var19 = var19.6MCxAy;
             var19 = var20.bind(var21)(var19);
             var5['title'] = var19;
             var15 = var18[var15];
@@ -371,7 +371,7 @@ case 9:
             var12 = var12[var16];
             var12 = var15.bind(var4)(var12);
             var12 = var12.t;
-            var12 = var12.3PBFNz;
+            var12 = var12.3PBFN6;
             var12 = var13.bind(var14)(var12);
             var10['text'] = var12;
             var10 = var9.bind(var4)(var11, var10);

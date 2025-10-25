@@ -509,7 +509,7 @@ case 44:
                 var6 = var13[var6];
                 var6 = var11.bind(var4)(var6);
                 var6 = var6.t;
-                var6 = var6.CduOk5;
+                var6 = var6.CduOkx;
                 var6 = var9.bind(var10)(var6);
                 var2['label'] = var6;
                 var6 = _closure2_slot10;
@@ -577,7 +577,7 @@ case 48:
                 var8 = var12[var8];
                 var8 = var11.bind(var4)(var8);
                 var8 = var8.t;
-                var8 = var8.3foUu7;
+                var8 = var8.3foUu5;
                 var8 = var9.bind(var10)(var8);
                 var2['label'] = var8;
                 var8 = _closure2_slot11;

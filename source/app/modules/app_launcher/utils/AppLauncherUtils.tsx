@@ -408,7 +408,7 @@ case 29:
             var1 = var7[var1];
             var1 = var5.bind(var6)(var1);
             var1 = var1.t;
-            var1 = var1.UB2gGx;
+            var1 = var1.UB2gG2;
             var1 = var3.bind(var4)(var1);
             _fun0007_ip = 56; continue _fun0007;
 case 55:
@@ -437,7 +437,7 @@ case 29:
             var1 = var7[var1];
             var1 = var5.bind(var6)(var1);
             var1 = var1.t;
-            var1 = var1.X9fusr;
+            var1 = var1.X9fusn;
             var1 = var3.bind(var4)(var1);
             _fun0008_ip = 56; continue _fun0008;
 case 55:
@@ -708,7 +708,7 @@ case 75: // catch_target0
                             var7 = var11[var6];
                             var7 = var9.bind(var10)(var7);
                             var7 = var7.t;
-                            var7 = var7.aHO//v;
+                            var7 = var7.aHO//m;
                             var7 = var8.bind(var12)(var7);
                             var3['title'] = var7;
                             var7 = var11[var6];
@@ -718,7 +718,7 @@ case 75: // catch_target0
                             var7 = var11[var6];
                             var7 = var9.bind(var10)(var7);
                             var7 = var7.t;
-                            var7 = var7.kuzKHB;
+                            var7 = var7.kuzKHK;
                             var7 = var8.bind(var12)(var7);
                             var3['body'] = var7;
                             var7 = var11[var6];
@@ -728,7 +728,7 @@ case 75: // catch_target0
                             var6 = var11[var6];
                             var6 = var9.bind(var10)(var6);
                             var6 = var6.t;
-                            var6 = var6.5911LS;
+                            var6 = var6.5911Lb;
                             var6 = var7.bind(var8)(var6);
                             var3['confirmText'] = var6;
                             var6 = function onConfirm() {
@@ -803,7 +803,7 @@ case 78:
             var5 = var10[var1];
             var5 = var9.bind(var6)(var5);
             var5 = var5.t;
-            var5 = var5.UB2gGx;
+            var5 = var5.UB2gG2;
             var5 = var8.bind(var11)(var5);
             var2['name'] = var5;
             var5 = var10[var1];
@@ -813,7 +813,7 @@ case 78:
             var1 = var10[var1];
             var1 = var9.bind(var6)(var1);
             var1 = var1.t;
-            var1 = var1.X9fusr;
+            var1 = var1.X9fusn;
             var1 = var5.bind(var8)(var1);
             var2['description'] = var1;
             var1 = var2;

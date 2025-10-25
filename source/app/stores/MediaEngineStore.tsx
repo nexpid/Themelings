@@ -3316,7 +3316,7 @@ case 0:
             var4 = var6[var4];
             var4 = var9.bind(var1)(var4);
             var4 = var4.t;
-            var4 = var4.xlUg0t;
+            var4 = var4.xlUg0v;
             var5 = var5.bind(var8)(var4);
             var4 = arg1;
             var4 = var7.bind(var1)(var4, var5);
@@ -3398,7 +3398,7 @@ case 0:
             var3 = var10[var3];
             var3 = var9.bind(var1)(var3);
             var3 = var3.t;
-            var3 = var3.WKWARU;
+            var3 = var3.WKWARY;
             var3 = var7.bind(var8)(var3);
             var3 = var4.bind(var1)(var5, var3);
             _closure1_slot79 = var3;

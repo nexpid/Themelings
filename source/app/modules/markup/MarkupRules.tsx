@@ -816,7 +816,7 @@ case 56:
             var3 = var8[var3];
             var3 = var6.bind(var7)(var3);
             var3 = var3.t;
-            var3 = var3.YV4F/v;
+            var3 = var3.YV4F/n;
             var5 = var4.bind(var5)(var3);
             var3 = global;
             var3 = var3.HermesInternal;
@@ -942,7 +942,7 @@ case 84:
             var1 = var16[var1];
             var1 = var15.bind(var5)(var1);
             var1 = var1.t;
-            var1 = var1.sKdZ6e;
+            var1 = var1.sKdZ6U;
             var14 = var13.bind(var14)(var1);
             var1 = global;
             var1 = var1.HermesInternal;
@@ -1274,7 +1274,7 @@ case 108:
             var3 = var14[var3];
             var3 = var13.bind(var7)(var3);
             var3 = var3.t;
-            var3 = var3.11pdXV;
+            var3 = var3.11pdXZ;
             var11 = var10.bind(var12)(var3);
 case 107:
             var3 = global;
@@ -1335,7 +1335,7 @@ case 101:
             var3 = var8[var3];
             var3 = var7.bind(var2)(var3);
             var3 = var3.t;
-            var3 = var3.11pdXV;
+            var3 = var3.11pdXZ;
             var3 = var5.bind(var6)(var3);
             var4['content'] = var3;
             var3 = new Array(1);

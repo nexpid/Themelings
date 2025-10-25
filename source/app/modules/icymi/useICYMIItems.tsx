@@ -1,4 +1,4 @@
-// app/modules/icymi/native/useICYMIItems.tsx
+// app/modules/icymi/useICYMIItems.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var7 = metroImportDefault;
@@ -307,7 +307,7 @@ case 23:
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/icymi/native/useICYMIItems.tsx';
+    var4 = 'modules/icymi/useICYMIItems.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function useICYMIItems() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {

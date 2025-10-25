@@ -59,7 +59,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var9[var4];
                 var4 = var8.bind(var7)(var4);
                 var4 = var4.t;
-                var4 = var4.ghtnsr;
+                var4 = var4.ghtnss;
                 var4 = var5.bind(var6)(var4);
                 var3['title'] = var4;
                 var4 = function headerLeft() {
@@ -92,7 +92,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var9[var5];
                     var5 = var8.bind(var3)(var5);
                     var5 = var5.t;
-                    var5 = var5.cpT0Cg;
+                    var5 = var5.cpT0Cq;
                     var5 = var6.bind(var7)(var5);
                     var1['accessibilityLabel'] = var5;
                     var1 = var4.bind(var3)(var2, var1);

@@ -83,7 +83,7 @@ case 9:
                     var1 = var8[var1];
                     var1 = var3.bind(var6)(var1);
                     var1 = var1.t;
-                    var3 = var1.ieNrxs;
+                    var3 = var1.ieNrxk;
                     var1 = {};
                     var9 = _closure2_slot1;
                     var8 = 1;
@@ -111,7 +111,7 @@ case 10:
                     var1 = var10[var1];
                     var1 = var8.bind(var6)(var1);
                     var1 = var1.t;
-                    var2 = var1.vcC7Qk;
+                    var2 = var1.vcC7Qn;
                     var1 = {};
                     var7 = 11;
                     var7 = var10[var7];
@@ -136,7 +136,7 @@ case 6:
                     var1 = var7[var1];
                     var1 = var2.bind(var6)(var1);
                     var1 = var1.t;
-                    var2 = var1.vcC7Qk;
+                    var2 = var1.vcC7Qn;
                     var1 = {};
                     var6 = _closure2_slot0;
                     var6 = var6.emoji;
@@ -550,7 +550,7 @@ case 15:
             var26 = var20[var15];
             var26 = var23.bind(var4)(var26);
             var26 = var26.t;
-            var26 = var26.NNHVlp;
+            var26 = var26.NNHVlv;
             var26 = var27.bind(var28)(var26);
             var17['placeholder'] = var26;
             var26 = function onChange(arg1) {
@@ -580,7 +580,7 @@ case 15:
             var20 = var20[var15];
             var20 = var23.bind(var4)(var20);
             var20 = var20.t;
-            var24 = var20.3+V8Gx;
+            var24 = var20.3+V8G9;
             var23 = {};
             var20 = 1;
             var27 = var22 + var20;
@@ -599,7 +599,7 @@ case 35:
             var24 = var24[var15];
             var24 = var25.bind(var4)(var24);
             var24 = var24.t;
-            var25 = var24.jnq5Hh;
+            var25 = var24.jnq5Ho;
             var24 = {};
             var24['errorMessage'] = var10;
             var23 = var26.bind(var27)(var25, var24);
@@ -645,7 +645,7 @@ case 37:
             var15 = var21[var15];
             var15 = var16.bind(var4)(var15);
             var15 = var15.t;
-            var16 = var15.22fjER;
+            var16 = var15.22fjEc;
             var15 = {};
             var20 = var22 + var20;
             var15['answerNumber'] = var20;

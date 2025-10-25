@@ -250,7 +250,7 @@ case 0:
             var2 = var8[var2];
             var2 = var7.bind(var4)(var2);
             var2 = var2.t;
-            var2 = var2.bz1PZW;
+            var2 = var2.bz1PZX;
             var6 = var3.bind(var6)(var2);
             var2 = null;
             if(!(var2 != var12)) { _fun0003_ip = 8; continue _fun0003 }
@@ -351,7 +351,7 @@ case 8:
         var13 = var14[var13];
         var13 = var17.bind(var4)(var13);
         var13 = var13.t;
-        var13 = var13.hub6t7;
+        var13 = var13.hub6t/;
         var13 = var15.bind(var16)(var13);
         var8['children'] = var13;
         var10 = var11.bind(var4)(var10, var8);
@@ -742,7 +742,7 @@ case 19:
             var35 = var25[var35];
             var35 = var41.bind(var4)(var35);
             var35 = var35.t;
-            var35 = var35.ebOU2d;
+            var35 = var35.ebOU2b;
             var35 = var37.bind(var40)(var35);
             var24['title'] = var35;
             var24['count'] = var33;
@@ -804,7 +804,7 @@ case 21:
             var33 = var26[var33];
             var33 = var35.bind(var4)(var33);
             var33 = var33.t;
-            var35 = var33.y7dUrq;
+            var35 = var33.y7dUrm;
             var33 = {};
             var33['numChannels'] = var32;
             var33 = var36.bind(var37)(var35, var33);
@@ -863,7 +863,7 @@ case 23:
             var30 = var25[var30];
             var30 = var32.bind(var4)(var30);
             var30 = var30.t;
-            var32 = var30.MR7oOD;
+            var32 = var30.MR7oOF;
             var30 = {};
             var30['numBenefits'] = var29;
             var30 = var33.bind(var34)(var32, var30);

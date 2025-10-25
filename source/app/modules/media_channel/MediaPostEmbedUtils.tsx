@@ -119,11 +119,11 @@ case 9:
             var2 = var2.t;
             if(var12) { _fun0002_ip = 11; continue _fun0002 }
 case 12:
-            var8 = var2.ReFzYW;
+            var8 = var2.ReFzYZ;
             var17 = var4.bind(var6)(var8);
             _fun0002_ip = 13; continue _fun0002;
 case 11:
-            var2 = var2.UsZEBA;
+            var2 = var2.UsZEBI;
             var17 = var4.bind(var6)(var2);
 case 13:
             var2 = var1 != var18;
@@ -253,7 +253,7 @@ case 42:
             var16 = var16[var20];
             var16 = var19.bind(var9)(var16);
             var16 = var16.t;
-            var16 = var16.YonliY;
+            var16 = var16.Yonlia;
             var15 = var17.bind(var18)(var16);
 case 41:
             var2['coverImageOverlayText'] = var15;

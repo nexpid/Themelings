@@ -63,7 +63,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var13[var1];
         var1 = var12.bind(var4)(var1);
         var1 = var1.t;
-        var2 = var1.jPhTvb;
+        var2 = var1.jPhTvT;
         var1 = {};
         var8 = var9.name;
         var1['channelName'] = var8;

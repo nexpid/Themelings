@@ -88,7 +88,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var13[var7];
         var5 = var12.bind(var4)(var5);
         var5 = var5.t;
-        var6 = var5.tx08s7;
+        var6 = var5.tx08s+;
         var5 = {};
         var15 = _closure1_slot1;
         var14 = 7;
@@ -119,7 +119,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var13[var7];
         var7 = var12.bind(var4)(var7);
         var7 = var7.t;
-        var7 = var7.NX+WJC;
+        var7 = var7.NX+WJN;
         var7 = var10.bind(var11)(var7);
         var8['text'] = var7;
         var7 = 'got-it';

@@ -32,7 +32,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var10[var2];
         var2 = var9.bind(var1)(var2);
         var2 = var2.t;
-        var2 = var2.07lzz8;
+        var2 = var2.07lzz7;
         var2 = var7.bind(var8)(var2);
         var3['aboutText'] = var2;
         var2 = 'NitroCreditEducationActionSheet';
@@ -199,7 +199,7 @@ case 6:
             var14 = var18[var14];
             var14 = var17.bind(var4)(var14);
             var14 = var14.t;
-            var14 = var14.5nrJDA;
+            var14 = var14.5nrJDO;
             var14 = var15.bind(var16)(var14);
             var12['children'] = var14;
             var12 = var11.bind(var4)(var13, var12);

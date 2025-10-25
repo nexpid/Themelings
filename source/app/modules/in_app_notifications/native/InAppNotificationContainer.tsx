@@ -678,7 +678,7 @@ case 7:
                     var4 = var11[var4];
                     var4 = var10.bind(var5)(var4);
                     var4 = var4.t;
-                    var5 = var4.Hjp1LC;
+                    var5 = var4.Hjp1LH;
                     var4 = {};
                     var9 = var9.nick;
                     var4['userName'] = var9;

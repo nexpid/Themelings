@@ -169,7 +169,7 @@ case 6:
                 var6 = var11[var6];
                 var6 = var9.bind(var4)(var6);
                 var6 = var6.t;
-                var6 = var6.CL5mWl;
+                var6 = var6.CL5mWi;
                 var6 = var7.bind(var8)(var6);
                 _fun0001_ip = 7; continue _fun0001;
 case 5:
@@ -183,7 +183,7 @@ case 5:
                 var7 = var12[var7];
                 var7 = var8.bind(var4)(var7);
                 var7 = var7.t;
-                var8 = var7.WZGLFh;
+                var8 = var7.WZGLFq;
                 var7 = {};
                 var12 = _closure2_slot0;
                 var7['emojiName'] = var12;
@@ -212,7 +212,7 @@ case 4:
                 var6 = var11[var6];
                 var6 = var7.bind(var4)(var6);
                 var6 = var6.t;
-                var7 = var6.Dz4vkp;
+                var7 = var6.Dz4vkv;
                 var6 = {};
                 var10 = _closure2_slot0;
                 var6['emojiName'] = var10;

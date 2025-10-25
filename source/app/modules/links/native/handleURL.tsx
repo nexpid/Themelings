@@ -277,7 +277,7 @@ case 50:
                             var4 = var12[var4];
                             var4 = var11.bind(var1)(var4);
                             var4 = var4.t;
-                            var4 = var4.XiqzAg;
+                            var4 = var4.XiqzAp;
                             var4 = var8.bind(var10)(var4);
                             var4 = var5.bind(var7)(var4);
                             _fun0006_ip = 51; continue _fun0006;
@@ -391,7 +391,7 @@ case 67:
                                 var2 = var8[var2];
                                 var2 = var7.bind(var1)(var2);
                                 var2 = var2.t;
-                                var2 = var2.HryVr6;
+                                var2 = var2.HryVrx;
                                 var8 = var5.bind(var6)(var2);
                                 var7 = _closure4_slot0;
                                 var2 = global;
@@ -433,7 +433,7 @@ case 65:
                                 var2 = var8[var2];
                                 var2 = var7.bind(var1)(var2);
                                 var2 = var2.t;
-                                var2 = var2.HryVr6;
+                                var2 = var2.HryVrx;
                                 var8 = var5.bind(var6)(var2);
                                 var7 = _closure4_slot0;
                                 var2 = global;

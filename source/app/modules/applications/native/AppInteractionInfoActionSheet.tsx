@@ -323,7 +323,7 @@ case 19:
             var23 = var28[var23];
             var23 = var25.bind(var4)(var23);
             var23 = var23.t;
-            var25 = var23.ShLXXF;
+            var25 = var23.ShLXXB;
             var23 = {};
             var28 = var24.author;
             var28 = var28.username;
@@ -388,7 +388,7 @@ case 16:
             var20 = var25[var20];
             var20 = var21.bind(var4)(var20);
             var20 = var20.t;
-            var21 = var20.ShLXXF;
+            var21 = var20.ShLXXB;
             var20 = {};
             var24 = var24.author;
             var24 = var24.username;
@@ -492,7 +492,7 @@ case 21:
             var18 = var22[var18];
             var18 = var21.bind(var4)(var18);
             var18 = var18.t;
-            var18 = var18.04gxNj;
+            var18 = var18.04gxNg;
             var18 = var19.bind(var20)(var18);
             var16['children'] = var18;
             var16 = var9.bind(var4)(var17, var16);

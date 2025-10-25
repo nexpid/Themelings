@@ -82,7 +82,7 @@ case 4:
             var2 = 3;
             var9 = var8[var2];
             var9 = var3.bind(var7)(var9);
-            var9 = var9.yl1iMj;
+            var9 = var9.yl1iMm;
             var9 = var10.bind(var11)(var9);
             var1['previewHeading'] = var9;
             var5 = var8[var5];
@@ -91,7 +91,7 @@ case 4:
             var5 = var6.format;
             var2 = var8[var2];
             var2 = var3.bind(var7)(var2);
-            var3 = var2.fQPSER;
+            var3 = var2.fQPSEf;
             var2 = {};
             var7 = '__USERNAME__';
             var2['username'] = var7;

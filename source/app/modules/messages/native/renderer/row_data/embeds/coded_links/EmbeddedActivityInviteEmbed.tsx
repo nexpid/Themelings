@@ -179,7 +179,7 @@ case 21:
             var3 = var3[var9];
             var3 = var10.bind(var8)(var3);
             var3 = var3.t;
-            var3 = var3.1qHIZ2;
+            var3 = var3.1qHIZ4;
             var12 = var6.bind(var7)(var3);
             var3 = var1 != var19;
             var11 = null;
@@ -198,7 +198,7 @@ case 25:
             var3 = var3[var9];
             var3 = var6.bind(var8)(var3);
             var3 = var3.t;
-            var6 = var3.omZR7O;
+            var6 = var3.omZR7L;
             var3 = {};
             var3['channelName'] = var19;
             var3['guildName'] = var17;
@@ -264,7 +264,7 @@ case 34:
             var2 = var2[var9];
             var2 = var15.bind(var8)(var2);
             var2 = var2.t;
-            var2 = var2.VJlc0d;
+            var2 = var2.VJlc0S;
             var2 = var6.bind(var7)(var2);
             var7 = var10.length;
             var6 = 0;
@@ -282,7 +282,7 @@ case 38:
             var2 = var2[var9];
             var2 = var17.bind(var8)(var2);
             var2 = var2.t;
-            var2 = var2.KC26NT;
+            var2 = var2.KC26NR;
             var7 = var15.bind(var16)(var2);
             _fun0001_ip = 37; continue _fun0001;
 case 35:
@@ -295,7 +295,7 @@ case 35:
             var2 = var2[var9];
             var2 = var17.bind(var8)(var2);
             var2 = var2.t;
-            var2 = var2.I0v0Qk;
+            var2 = var2.I0v0Qv;
             var7 = var15.bind(var16)(var2);
 case 37:
             var15 = _closure1_slot0;
@@ -359,7 +359,7 @@ case 41:
             var4 = var4[var9];
             var4 = var7.bind(var8)(var4);
             var4 = var4.t;
-            var4 = var4.PZLnuL;
+            var4 = var4.PZLnuD;
             var5 = var5.bind(var6)(var4);
             var4 = 'noParticipantsText';
             var2[var4] = var5;

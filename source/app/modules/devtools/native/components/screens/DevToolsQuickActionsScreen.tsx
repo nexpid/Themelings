@@ -944,7 +944,7 @@ case 39:
             var11 = var12[var17];
             var11 = var16.bind(var4)(var11);
             var11 = var11.t;
-            var11 = var11.Aojq+P;
+            var11 = var11.Aojq+L;
             var11 = var20.bind(var23)(var11);
             var9['title'] = var11;
             var11 = 53;
@@ -1014,7 +1014,7 @@ case 40:
             var17 = var16[var17];
             var17 = var15.bind(var4)(var17);
             var17 = var17.t;
-            var17 = var17.yoWDXV;
+            var17 = var17.yoWDXU;
             var17 = var27.bind(var28)(var17);
             var12['label'] = var17;
             var17 = 'Dismisses dev tools when launching.';

@@ -196,7 +196,7 @@ case 13:
         var6 = var9[var5];
         var6 = var8.bind(var4)(var6);
         var6 = var6.t;
-        var6 = var6.2x/2Ul;
+        var6 = var6.2x/2Uo;
         var6 = var7.bind(var10)(var6);
         var1['headerText'] = var6;
         var6 = var9[var5];
@@ -206,7 +206,7 @@ case 13:
         var5 = var9[var5];
         var5 = var8.bind(var4)(var5);
         var5 = var5.t;
-        var5 = var5.PDTjLC;
+        var5 = var5.PDTjLN;
         var5 = var6.bind(var7)(var5);
         var1['confirmButtonText'] = var5;
         var1 = var3.bind(var4)(var2, var1);

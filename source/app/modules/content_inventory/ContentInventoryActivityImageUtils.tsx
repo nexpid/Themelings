@@ -46,7 +46,7 @@ case 9:
             var2 = var8[var2];
             var2 = var3.bind(var7)(var2);
             var2 = var2.t;
-            var3 = var2.tiKyYm;
+            var3 = var2.tiKyYg;
             var2 = {};
             var2['applicationName'] = var6;
             var2 = var4.bind(var5)(var3, var2);
@@ -62,7 +62,7 @@ case 8:
             var3 = var8[var3];
             var3 = var6.bind(var7)(var3);
             var3 = var3.t;
-            var3 = var3.2B/phI;
+            var3 = var3.2B/phM;
             var2 = var4.bind(var5)(var3);
 case 10:
             var1['alt'] = var2;
@@ -183,7 +183,7 @@ case 17:
             var8 = var14[var8];
             var8 = var13.bind(var4)(var8);
             var8 = var8.t;
-            var8 = var8.Nfvo7+;
+            var8 = var8.Nfvo72;
             var8 = var10.bind(var12)(var8);
             var6['alt'] = var8;
             var1['largeImage'] = var6;

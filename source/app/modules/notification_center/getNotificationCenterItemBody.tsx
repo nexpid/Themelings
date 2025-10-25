@@ -243,7 +243,7 @@ case 34:
             var4 = var15[var4];
             var4 = var5.bind(var8)(var4);
             var4 = var4.t;
-            var5 = var4.Wi64vL;
+            var5 = var4.Wi64vN;
             var4 = {};
             var4['username'] = var11;
             var15 = function applicationName() {
@@ -283,7 +283,7 @@ case 27:
             var4 = var15[var4];
             var4 = var5.bind(var8)(var4);
             var4 = var4.t;
-            var5 = var4.7cqOLC;
+            var5 = var4.7cqOLI;
             var4 = {};
             var4['username'] = var11;
             var15 = function applicationName() {
@@ -319,7 +319,7 @@ case 25:
             var4 = var15[var4];
             var4 = var5.bind(var8)(var4);
             var4 = var4.t;
-            var5 = var4.BB/0vr;
+            var5 = var4.BB/0vn;
             var4 = {};
             var4['username'] = var11;
             var14 = function applicationName() {
@@ -344,12 +344,12 @@ case 23:
             var15 = var14[var12];
             var15 = var13.bind(var8)(var15);
             var15 = var15.t;
-            var15 = var15.jXlYiI;
+            var15 = var15.jXlYiF;
             var4['withApplication'] = var15;
             var12 = var14[var12];
             var12 = var13.bind(var8)(var12);
             var12 = var12.t;
-            var12 = var12.McYRBg;
+            var12 = var12.McYRBk;
             var4['withDefault'] = var12;
             var4 = var5.bind(var8)(var4);
             return var4;
@@ -365,12 +365,12 @@ case 21:
             var15 = var14[var12];
             var15 = var13.bind(var8)(var15);
             var15 = var15.t;
-            var15 = var15.nnC1q6;
+            var15 = var15.nnC1q9;
             var4['withApplication'] = var15;
             var12 = var14[var12];
             var12 = var13.bind(var8)(var12);
             var12 = var12.t;
-            var12 = var12.5Uzkdn;
+            var12 = var12.5Uzkdp;
             var4['withDefault'] = var12;
             var4 = var5.bind(var8)(var4);
             return var4;
@@ -386,12 +386,12 @@ case 19:
             var13 = var12[var9];
             var13 = var10.bind(var8)(var13);
             var13 = var13.t;
-            var13 = var13.9Dgf1N;
+            var13 = var13.9Dgf1L;
             var4['withApplication'] = var13;
             var9 = var12[var9];
             var9 = var10.bind(var8)(var9);
             var9 = var9.t;
-            var9 = var9.uIomX1;
+            var9 = var9.uIomXw;
             var4['withDefault'] = var9;
             var4 = var5.bind(var8)(var4);
             return var4;
@@ -463,7 +463,7 @@ case 49:
             var4 = var14[var4];
             var4 = var5.bind(var8)(var4);
             var4 = var4.t;
-            var5 = var4.AyvfXV;
+            var5 = var4.AyvfXR;
             var4 = {};
             var4['event_name'] = var13;
             var4['guild_name'] = var12;
@@ -507,7 +507,7 @@ case 53:
             var5 = var12[var5];
             var5 = var7.bind(var8)(var5);
             var5 = var5.t;
-            var7 = var5.gZVTy8;
+            var7 = var5.gZVTy2;
             var5 = {};
             var5['user'] = var11;
             var4 = var9.bind(var10)(var7, var5);

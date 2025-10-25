@@ -189,7 +189,7 @@ case 0:
                 var2 = var9[var4];
                 var2 = var8.bind(var7)(var2);
                 var2 = var2.t;
-                var2 = var2.aCg60N;
+                var2 = var2.aCg60P;
                 var2 = var3.bind(var6)(var2);
                 var1['label'] = var2;
                 var2 = var9[var4];
@@ -199,7 +199,7 @@ case 0:
                 var2 = var9[var4];
                 var2 = var8.bind(var7)(var2);
                 var2 = var2.t;
-                var2 = var2.YeiIUV;
+                var2 = var2.YeiIUZ;
                 var2 = var3.bind(var6)(var2);
                 var1['subLabel'] = var2;
                 var2 = false;
@@ -224,7 +224,7 @@ case 0:
                 var5 = var9[var4];
                 var5 = var8.bind(var7)(var5);
                 var5 = var5.t;
-                var5 = var5.E64YCw;
+                var5 = var5.E64YCz;
                 var5 = var6.bind(var10)(var5);
                 var1['label'] = var5;
                 var5 = var9[var4];
@@ -234,7 +234,7 @@ case 0:
                 var4 = var9[var4];
                 var4 = var8.bind(var7)(var4);
                 var4 = var4.t;
-                var4 = var4.bbtoKi;
+                var4 = var4.bbtoKm;
                 var4 = var5.bind(var6)(var4);
                 var1['subLabel'] = var4;
                 var1['beta'] = var2;

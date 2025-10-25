@@ -524,7 +524,7 @@ case 37:
                 var14 = var19[var14];
                 var14 = var18.bind(var4)(var14);
                 var14 = var14.t;
-                var14 = var14.MlJlDg;
+                var14 = var14.MlJlDh;
                 var14 = var16.bind(var17)(var14);
                 var9['accessibilityLabel'] = var14;
                 var16 = var15.colorCircle;

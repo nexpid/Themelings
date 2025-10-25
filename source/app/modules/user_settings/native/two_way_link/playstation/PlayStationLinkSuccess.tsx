@@ -110,7 +110,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var17 = var16[var12];
         var17 = var15.bind(var4)(var17);
         var17 = var17.t;
-        var17 = var17.e6SOl5;
+        var17 = var17.e6SOl0;
         var17 = var18.bind(var19)(var17);
         var10['children'] = var17;
         var10 = var8.bind(var4)(var14, var10);
@@ -170,7 +170,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var12 = var16[var12];
         var12 = var15.bind(var4)(var12);
         var12 = var12.t;
-        var12 = var12.i4jeWV;
+        var12 = var12.i4jeWR;
         var12 = var13.bind(var14)(var12);
         var9['text'] = var12;
         var9['onPress'] = var11;

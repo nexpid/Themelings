@@ -101,7 +101,7 @@ case 3:
             var10 = var9[var6];
             var10 = var12.bind(var7)(var10);
             var10 = var10.t;
-            var10 = var10.OdPCbG;
+            var10 = var10.OdPCbN;
             var10 = var11.bind(var13)(var10);
             var3['title'] = var10;
             var10 = var9[var6];
@@ -111,7 +111,7 @@ case 3:
             var10 = var9[var6];
             var10 = var12.bind(var7)(var10);
             var10 = var10.t;
-            var10 = var10.MGWabG;
+            var10 = var10.MGWabA;
             var10 = var11.bind(var13)(var10);
             var3['body'] = var10;
             var10 = var9[var6];
@@ -121,7 +121,7 @@ case 3:
             var10 = var9[var6];
             var10 = var12.bind(var7)(var10);
             var10 = var10.t;
-            var10 = var10.D3+rU1;
+            var10 = var10.D3+rU4;
             var10 = var11.bind(var13)(var10);
             var3['confirmText'] = var10;
             var10 = var9[var6];
@@ -131,7 +131,7 @@ case 3:
             var6 = var9[var6];
             var6 = var12.bind(var7)(var6);
             var6 = var6.t;
-            var6 = var6.kYpG0t;
+            var6 = var6.kYpG0u;
             var6 = var10.bind(var11)(var6);
             var3['cancelText'] = var6;
             var6 = 7;

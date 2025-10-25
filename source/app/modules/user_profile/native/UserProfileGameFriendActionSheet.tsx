@@ -425,7 +425,7 @@ case 20:
             var10 = var11[var21];
             var10 = var19.bind(var4)(var10);
             var10 = var10.t;
-            var10 = var10.Uv/eT0;
+            var10 = var10.Uv/eTx;
             var10 = var17.bind(var18)(var10);
             var5['title'] = var10;
             var5 = var8.bind(var4)(var7, var5);
@@ -444,7 +444,7 @@ case 20:
             var11 = var11[var21];
             var11 = var19.bind(var4)(var11);
             var11 = var11.t;
-            var11 = var11.YpCiMj;
+            var11 = var11.YpCiMt;
             var11 = var17.bind(var18)(var11);
             var5['title'] = var11;
             var11 = var12.map;
@@ -494,7 +494,7 @@ case 25:
             var11 = var17[var21];
             var11 = var20.bind(var4)(var11);
             var11 = var11.t;
-            var11 = var11.GbsGCg;
+            var11 = var11.GbsGCp;
             var11 = var12.bind(var18)(var11);
             var7['title'] = var11;
             var12 = _closure1_slot10;
@@ -509,7 +509,7 @@ case 25:
             var18 = var17[var21];
             var18 = var20.bind(var4)(var18);
             var18 = var18.t;
-            var18 = var18.LAcY7u;
+            var18 = var18.LAcY7m;
             var18 = var19.bind(var22)(var18);
             var10['label'] = var18;
             var18 = var17[var21];
@@ -519,7 +519,7 @@ case 25:
             var17 = var17[var21];
             var17 = var20.bind(var4)(var17);
             var17 = var17.t;
-            var17 = var17.YTvOU1;
+            var17 = var17.YTvOUx;
             var17 = var18.bind(var19)(var17);
             var10['subLabel'] = var17;
             var10['onPress'] = var16;

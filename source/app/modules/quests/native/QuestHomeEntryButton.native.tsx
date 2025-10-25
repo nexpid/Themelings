@@ -123,7 +123,7 @@ case 3:
             var11 = var10[var11];
             var11 = var7.bind(var5)(var11);
             var11 = var11.t;
-            var11 = var11.JALI2N;
+            var11 = var11.JALI2K;
             var11 = var12.bind(var13)(var11);
             var2['accessibilityLabel'] = var11;
             var2['onPress'] = var9;

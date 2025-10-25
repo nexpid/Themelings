@@ -308,7 +308,7 @@ case 9:
             var2 = var14[var2];
             var2 = var7.bind(var5)(var2);
             var2 = var2.t;
-            var2 = var2.LCutYW;
+            var2 = var2.LCutYV;
             var17 = var3.bind(var4)(var2);
             _fun0001_ip = 10; continue _fun0001;
 case 8:
@@ -322,7 +322,7 @@ case 8:
             var2 = var14[var2];
             var2 = var3.bind(var5)(var2);
             var2 = var2.t;
-            var3 = var2.VdpclZ;
+            var3 = var2.VdpclX;
             var2 = {};
             var12 = var12.length;
             var2['count'] = var12;

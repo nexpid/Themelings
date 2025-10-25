@@ -142,7 +142,7 @@ case 0:
             var10 = var11[var18];
             var10 = var7.bind(var4)(var10);
             var10 = var10.t;
-            var10 = var10.tlopTE;
+            var10 = var10.tlopTM;
             var10 = var12.bind(var15)(var10);
             var5['title'] = var10;
             var6 = var8.bind(var4)(var6, var5);
@@ -174,7 +174,7 @@ case 0:
             var20 = var11[var18];
             var20 = var7.bind(var4)(var20);
             var20 = var20.t;
-            var20 = var20.e6RscX;
+            var20 = var20.e6RscS;
             var20 = var21.bind(var22)(var20);
             var17['text'] = var20;
             var17 = var8.bind(var4)(var19, var17);
@@ -241,11 +241,11 @@ case 4:
             var14 = var14.t;
             if(var13) { _fun0001_ip = 5; continue _fun0001 }
 case 6:
-            var13 = var14.ONG3Y2;
+            var13 = var14.ONG3Yz;
             var13 = var15.bind(var16)(var13);
             _fun0001_ip = 7; continue _fun0001;
 case 5:
-            var14 = var14.COiLo6;
+            var14 = var14.COiLo0;
             var13 = var15.bind(var16)(var14);
 case 7:
             var10['text'] = var13;

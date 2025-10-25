@@ -53,7 +53,7 @@ case 9:
             var2 = var11[var10];
             var2 = var3.bind(var7)(var2);
             var2 = var2.t;
-            var3 = var2.RFCI3d;
+            var3 = var2.RFCI3S;
             var2 = {};
             var14 = _closure1_slot1;
             var15 = var11[var1];
@@ -84,7 +84,7 @@ case 8:
             var2 = var11[var10];
             var2 = var3.bind(var7)(var2);
             var2 = var2.t;
-            var3 = var2.lRD/rq;
+            var3 = var2.lRD/ru;
             var2 = {};
             var12 = _closure1_slot1;
             var13 = var11[var1];

@@ -282,7 +282,7 @@ case 2:
             var5 = var9[var5];
             var5 = var8.bind(var4)(var5);
             var5 = var5.t;
-            var5 = var5.13/7kZ;
+            var5 = var5.13/7kX;
             var5 = var6.bind(var7)(var5);
             var1['headerBackTitle'] = var5;
             var5 = 'center';
@@ -425,7 +425,7 @@ case 14:
             var13 = var18[var13];
             var13 = var17.bind(var4)(var13);
             var13 = var13.t;
-            var13 = var13.XiOHRU;
+            var13 = var13.XiOHRX;
             var13 = var15.bind(var16)(var13);
             _fun0002_ip = 15; continue _fun0002;
 case 13:
@@ -439,7 +439,7 @@ case 13:
             var14 = var18[var14];
             var14 = var17.bind(var4)(var14);
             var14 = var14.t;
-            var14 = var14.i4jeWV;
+            var14 = var14.i4jeWR;
             var13 = var15.bind(var16)(var14);
 case 15:
             var10['text'] = var13;

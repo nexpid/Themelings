@@ -554,7 +554,7 @@ case 32:
             var14 = var18[var14];
             var14 = var17.bind(var4)(var14);
             var14 = var14.t;
-            var14 = var14.5E9SBw;
+            var14 = var14.5E9SB9;
             var14 = var15.bind(var16)(var14);
             var10['label'] = var14;
             var13 = function onPress() {

@@ -447,7 +447,7 @@ case 18:
             var8 = var22[var8];
             var8 = var14.bind(var4)(var8);
             var8 = var8.t;
-            var14 = var8.2XLnGx;
+            var14 = var8.2XLnG0;
             var8 = {};
             var8['GuildHook'] = var20;
             var21 = _closure1_slot1;
@@ -470,7 +470,7 @@ case 16:
             var14 = var22[var14];
             var14 = var17.bind(var4)(var14);
             var14 = var14.t;
-            var17 = var14.E90vgo;
+            var17 = var14.E90vgp;
             var14 = {};
             var14['GuildHook'] = var20;
             var21 = _closure1_slot1;
@@ -585,7 +585,7 @@ case 19:
             var11 = var14[var10];
             var11 = var13.bind(var4)(var11);
             var11 = var11.t;
-            var11 = var11.Z5s7PD;
+            var11 = var11.Z5s7PM;
             var11 = var17.bind(var19)(var11);
             var6['title'] = var11;
             var11 = var14[var18];
@@ -599,7 +599,7 @@ case 19:
             var19 = var14[var10];
             var19 = var13.bind(var4)(var19);
             var19 = var19.t;
-            var20 = var19.xm6ACA;
+            var20 = var19.xm6ACJ;
             var19 = {};
             var12 = _closure1_slot1;
             var23 = 22;
@@ -668,7 +668,7 @@ case 19:
             var10 = var14[var10];
             var10 = var13.bind(var4)(var10);
             var10 = var10.t;
-            var10 = var10.jqqLb2;
+            var10 = var10.jqqLb6;
             var10 = var11.bind(var12)(var10);
             var6['text'] = var10;
             var9 = !var9;

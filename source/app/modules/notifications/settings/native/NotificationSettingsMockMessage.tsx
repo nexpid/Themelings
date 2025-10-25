@@ -137,7 +137,7 @@ case 4:
             var3 = var14[var9];
             var8 = var13.bind(var4)(var3);
             var5 = var8.useAnimatedStyle;
-            var3 = function f() {
+            var3 = function y() {
                 var1 = {};
                 var7 = _closure1_slot0;
                 var8 = _closure1_slot2;
@@ -211,7 +211,7 @@ case 7:
             var15 = var20[var15];
             var15 = var19.bind(var4)(var15);
             var15 = var15.t;
-            var15 = var15.WYyzIy;
+            var15 = var15.WYyzI5;
             var15 = var17.bind(var18)(var15);
             var14[1] = var15;
             var8['children'] = var14;
@@ -236,7 +236,7 @@ case 6:
             var8 = var17[var8];
             var8 = var14.bind(var4)(var8);
             var8 = var8.t;
-            var8 = var8.WYyzIy;
+            var8 = var8.WYyzI5;
             var8 = var12.bind(var13)(var8);
             var2['children'] = var8;
             var15 = var5.bind(var4)(var3, var2);
@@ -313,7 +313,7 @@ case 9:
             var17 = var6[var17];
             var17 = var20.bind(var4)(var17);
             var17 = var17.t;
-            var17 = var17.qSq0tL;
+            var17 = var17.qSq0tD;
             var17 = var18.bind(var19)(var17);
             var14['children'] = var17;
             var16 = var8.bind(var4)(var16, var14);

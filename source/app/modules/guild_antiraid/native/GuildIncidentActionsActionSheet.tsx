@@ -354,7 +354,7 @@ case 4:
             var23 = var10[var18];
             var23 = var12.bind(var4)(var23);
             var23 = var23.t;
-            var23 = var23.oCYAc3;
+            var23 = var23.oCYAc7;
             var23 = var24.bind(var26)(var23);
             var5['title'] = var23;
             var24 = _closure1_slot1;
@@ -461,7 +461,7 @@ case 6:
             var25 = var24[var18];
             var25 = var28.bind(var4)(var25);
             var25 = var25.t;
-            var25 = var25.Uwsjn5;
+            var25 = var25.Uwsjn6;
             var25 = var27.bind(var29)(var25);
             var12['label'] = var25;
             var25 = var24[var18];
@@ -471,7 +471,7 @@ case 6:
             var24 = var24[var18];
             var24 = var28.bind(var4)(var24);
             var24 = var24.t;
-            var24 = var24.qPJkZm;
+            var24 = var24.qPJkZh;
             var24 = var25.bind(var27)(var24);
             var12['subLabel'] = var24;
             var24 = var21;
@@ -528,7 +528,7 @@ case 11:
             var25 = var25[var18];
             var25 = var28.bind(var4)(var25);
             var25 = var25.t;
-            var25 = var25.9GPbsb;
+            var25 = var25.9GPbsV;
             var25 = var26.bind(var27)(var25);
             var14['label'] = var25;
             var13 = var24.bind(var4)(var23, var14);
@@ -551,7 +551,7 @@ case 10:
             var9 = var13[var18];
             var9 = var24.bind(var4)(var9);
             var9 = var9.t;
-            var9 = var9.wrDmAw;
+            var9 = var9.wrDmA/;
             var9 = var10.bind(var12)(var9);
             var6['label'] = var9;
             var9 = var13[var18];
@@ -561,7 +561,7 @@ case 10:
             var9 = var13[var18];
             var9 = var24.bind(var4)(var9);
             var9 = var9.t;
-            var9 = var9.UQbJW1;
+            var9 = var9.UQbJW7;
             var9 = var10.bind(var12)(var9);
             var6['subLabel'] = var9;
             var6['value'] = var20;
@@ -693,7 +693,7 @@ case 18:
             var13 = var13[var18];
             var13 = var24.bind(var4)(var13);
             var13 = var13.t;
-            var13 = var13.R3BPHx;
+            var13 = var13.R3BPH+;
             var13 = var22.bind(var23)(var13);
             var9['text'] = var13;
             var13 = 'primary';
@@ -729,7 +729,7 @@ case 22:
             var14 = var14[var18];
             var14 = var17.bind(var4)(var14);
             var14 = var14.t;
-            var14 = var14.ETE/oK;
+            var14 = var14.ETE/oC;
             var14 = var15.bind(var16)(var14);
             var10['text'] = var14;
             var14 = 'secondary';

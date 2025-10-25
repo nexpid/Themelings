@@ -1761,7 +1761,7 @@ case 188:
             var2 = var8[var2];
             var2 = var6.bind(var7)(var2);
             var2 = var2.t;
-            var2 = var2.VCsUJi;
+            var2 = var2.VCsUJu;
             var2 = var4.bind(var5)(var2);
             _fun0012_ip = 8; continue _fun0012;
 case 187:
@@ -1775,7 +1775,7 @@ case 187:
             var3 = var8[var3];
             var3 = var6.bind(var7)(var3);
             var3 = var3.t;
-            var3 = var3.fitPBQ;
+            var3 = var3.fitPBS;
             var2 = var4.bind(var5)(var3);
 case 8:
             var1 = var2;
@@ -1803,7 +1803,7 @@ case 190:
             var2 = var7[var2];
             var2 = var6.bind(var5)(var2);
             var2 = var2.t;
-            var2 = var2.Otr6W1;
+            var2 = var2.Otr6W2;
             var1 = var3.bind(var4)(var2);
 case 189:
             return var1;

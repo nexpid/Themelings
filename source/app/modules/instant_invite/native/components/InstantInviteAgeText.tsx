@@ -168,7 +168,7 @@ case 8:
             var12 = var17[var13];
             var12 = var16.bind(var5)(var12);
             var12 = var12.t;
-            var12 = var12.VNe8Pz;
+            var12 = var12.VNe8P/;
             var12 = var14.bind(var15)(var12);
             var8['accessibilityLabel'] = var12;
             var12 = {'top': 8, 'left': 8, 'bottom': 8, 'right': 8};
@@ -184,7 +184,7 @@ case 8:
             var13 = var17[var13];
             var13 = var16.bind(var5)(var13);
             var13 = var13.t;
-            var13 = var13.VNe8Pz;
+            var13 = var13.VNe8P/;
             var13 = var14.bind(var15)(var13);
             var11['children'] = var13;
             var11 = var10.bind(var5)(var12, var11);

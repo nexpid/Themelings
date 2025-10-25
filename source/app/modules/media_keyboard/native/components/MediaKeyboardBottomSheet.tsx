@@ -24,374 +24,258 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 1;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.View;
-    var _closure1_slot4 = var4;
-    var4 = 2;
-    var4 = var6[var4];
-    var4 = var12.bind(var1)(var4);
-    var _closure1_slot5 = var4;
-    var4 = 3;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
     var8 = var4.HEADER_HANDLE_HEIGHT;
-    var _closure1_slot6 = var8;
+    var _closure1_slot4 = var8;
     var4 = var4.MediaPickerActionSheetEngagedActions;
-    var _closure1_slot7 = var4;
-    var4 = 4;
+    var _closure1_slot5 = var4;
+    var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.AnalyticEvents;
-    var _closure1_slot8 = var4;
-    var4 = 5;
+    var _closure1_slot6 = var4;
+    var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var8 = var4.jsx;
-    var _closure1_slot9 = var8;
+    var _closure1_slot7 = var8;
+    var8 = var4.Fragment;
+    var _closure1_slot8 = var8;
     var4 = var4.jsxs;
-    var _closure1_slot10 = var4;
-    var4 = 6;
+    var _closure1_slot9 = var4;
+    var4 = 4;
     var4 = var6[var4];
     var9 = var5.bind(var1)(var4);
     var8 = var9.createStyles;
     var4 = {};
-    var10 = {'flex': 1, 'zIndex': 10};
-    var4['androidContainer'] = var10;
-    var10 = {'position': 'absolute', 'bottom': 0, 'left': 0, 'right': 0};
-    var4['iosContainer'] = var10;
     var10 = {};
-    var11 = 7;
-    var13 = var6[var11];
-    var13 = var12.bind(var1)(var13);
-    var13 = var13.colors;
-    var13 = var13.BG_BASE_SECONDARY;
-    var10['backgroundColor'] = var13;
-    var4['background'] = var10;
-    var10 = {'position': 'absolute', 'bottom': 0, 'left': 0, 'right': 0, 'flexDirection': 'column', 'justifyContent': 'flex-end'};
-    var4['sendContainer'] = var10;
-    var10 = {'flexGrow': 0, 'flexDirection': 'row', 'justifyContent': 'flex-end', 'paddingHorizontal': 12};
-    var4['buttonRowContainer'] = var10;
-    var10 = {};
+    var11 = 5;
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.colors;
-    var11 = var11.BACKGROUND_SECONDARY;
-    var10['color'] = var11;
-    var4['gradient'] = var10;
-    var10 = {};
-    var11 = 44;
-    var10['borderRadius'] = var11;
-    var4['sendButtonStyle'] = var10;
+    var11 = var11.BG_BASE_SECONDARY;
+    var10['backgroundColor'] = var11;
+    var4['background'] = var10;
     var4 = var8.bind(var9)(var4);
-    var _closure1_slot11 = var4;
+    var _closure1_slot10 = var4;
     var4 = var7.memo;
     var2 = function MediaKeyboardBottomSheet(arg1) {
-        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+        var2 = arg1;
+        var6 = var2.accessoriesComponent;
+        var10 = var2.children;
+        var16 = var2.handleComponent;
+        var11 = var2.onClose;
+        var _closure2_slot0 = var11;
+        var7 = var2.transitionState;
+        var _closure2_slot1 = var7;
+        var20 = var2.animationConfigs;
+        var5 = _closure1_slot3;
+        var8 = var5.useContext;
+        var3 = _closure1_slot0;
+        var24 = _closure1_slot2;
+        var2 = 6;
+        var2 = var24[var2];
+        var4 = undefined;
+        var2 = var3.bind(var4)(var2);
+        var2 = var2.PortalKeyboardContext;
+        var2 = var8.bind(var5)(var2);
+        var19 = var2.animatedSheetIndex;
+        var18 = var2.animatedSheetPosition;
+        var2 = var2.bottomSheetRefs;
+        var21 = var2.media;
+        var _closure2_slot2 = var21;
+        var2 = _closure1_slot10;
+        var15 = var2.bind(var4)();
+        var23 = _closure1_slot1;
+        var2 = 7;
+        var2 = var24[var2];
+        var8 = var23.bind(var4)(var2);
+        var2 = {};
+        var9 = false;
+        var2['forceMaxHeight'] = var9;
+        var9 = var8.bind(var4)(var2);
+        var13 = var5.useCallback;
+        var8 = function(arg1) {
+            var4 = _closure1_slot7;
+            var2 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var1 = 8;
+            var1 = var7[var1];
+            var3 = undefined;
+            var1 = var2.bind(var3)(var1);
+            var2 = var1.BottomSheetBackdrop;
+            var1 = {};
+            var8 = arg1;
+            var9 = var1;
+            var6 = copyDataProperties(var9, var8);
+            var6 = _closure1_slot1;
+            var5 = 9;
+            var5 = var7[var5];
+            var6 = var6.bind(var3)(var5);
+            var5 = 'ViewComponent';
+            var1[var5] = var6;
+            var6 = 'collapse';
+            var5 = 'pressBehavior';
+            var1[var5] = var6;
+            var1 = var4.bind(var3)(var2, var1);
+            return var1;
+        };
+        var2 = new Array(0);
+        var14 = var13.bind(var5)(var8, var2);
+        var13 = var5.useCallback;
+        var8 = function(arg1, arg2) {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var2 = arg1;
-            var15 = var2.children;
-            var13 = var2.channel;
-            var12 = var2.draftType;
-            var20 = var2.handleComponent;
-            var16 = var2.onClose;
-            var _closure2_slot0 = var16;
-            var11 = var2.onSend;
-            var9 = var2.transitionState;
-            var _closure2_slot1 = var9;
-            var24 = var2.animationConfigs;
-            var7 = _closure1_slot3;
-            var3 = var7.useContext;
-            var21 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var2 = 8;
-            var2 = var10[var2];
-            var4 = undefined;
-            var2 = var21.bind(var4)(var2);
-            var2 = var2.PortalKeyboardContext;
-            var2 = var3.bind(var7)(var2);
-            var23 = var2.animatedSheetIndex;
-            var22 = var2.animatedSheetPosition;
-            var2 = var2.bottomSheetRefs;
-            var25 = var2.media;
-            var _closure2_slot2 = var25;
-            var2 = _closure1_slot11;
-            var19 = var2.bind(var4)();
-            var _closure2_slot3 = var19;
-            var5 = _closure1_slot1;
-            var2 = 9;
-            var2 = var10[var2];
-            var3 = var5.bind(var4)(var2);
-            var2 = {};
-            var8 = true;
-            var2['ignoreKeyboard'] = var8;
-            var2 = var3.bind(var4)(var2);
-            var2 = var2.height;
-            var _closure2_slot4 = var2;
-            var3 = 10;
-            var3 = var10[var3];
-            var8 = var5.bind(var4)(var3);
-            var3 = {};
-            var14 = false;
-            var3['forceMaxHeight'] = var14;
-            var14 = var8.bind(var4)(var3);
-            var17 = var7.useCallback;
-            var8 = function(arg1) {
-                var4 = _closure1_slot9;
+                var3 = arg1;
+                var1 = arg2;
+                var1 = var3 !== var1;
+                if(!var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+                var2 = 0;
+                var1 = var2 === var3;
+case 2:
+                if(!var1) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
                 var2 = _closure1_slot0;
-                var7 = _closure1_slot2;
-                var1 = 11;
-                var1 = var7[var1];
+                var4 = _closure1_slot2;
+                var1 = 10;
+                var1 = var4[var1];
                 var3 = undefined;
+                var7 = var2.bind(var3)(var1);
+                var6 = var7.triggerHapticFeedback;
+                var2 = _closure1_slot1;
+                var1 = 11;
+                var1 = var4[var1];
                 var1 = var2.bind(var3)(var1);
-                var2 = var1.BottomSheetBackdrop;
+                var1 = var1.IMPACT_LIGHT;
+                var1 = var6.bind(var7)(var1);
+                var1 = 12;
+                var1 = var4[var1];
+                var4 = var2.bind(var3)(var1);
+                var3 = var4.track;
+                var1 = _closure1_slot6;
+                var2 = var1.MEDIA_PICKER_ACTION_SHEET_ENGAGED;
                 var1 = {};
-                var8 = arg1;
-                var9 = var1;
-                var6 = copyDataProperties(var9, var8);
-                var6 = _closure1_slot1;
-                var5 = 12;
-                var5 = var7[var5];
-                var6 = var6.bind(var3)(var5);
-                var5 = 'ViewComponent';
-                var1[var5] = var6;
-                var6 = 'collapse';
-                var5 = 'pressBehavior';
-                var1[var5] = var6;
-                var1 = var4.bind(var3)(var2, var1);
+                var5 = _closure1_slot5;
+                var5 = var5.FULLY_EXPANDED;
+                var1['action'] = var5;
+                var1 = var3.bind(var4)(var2, var1);
+case 4:
+                var1 = undefined;
                 return var1;
-            };
-            var3 = new Array(0);
-            var18 = var17.bind(var7)(var8, var3);
-            var3 = 13;
-            var3 = var10[var3];
-            var26 = var21.bind(var4)(var3);
-            var17 = var26.useStateFromStores;
-            var3 = _closure1_slot5;
-            var8 = new Array(1);
-            var8[0] = var3;
-            var3 = function() {
-                var2 = _closure1_slot5;
-                var1 = var2.isOpen;
-                var1 = var1.bind(var2)();
-                return var1;
-            };
-            var8 = var17.bind(var26)(var8, var3);
-            var26 = var7.useCallback;
-            var17 = function(arg1, arg2) {
+            }
+        };
+        var2 = new Array(0);
+        var13 = var13.bind(var5)(var8, var2);
+        var2 = 13;
+        var2 = var24[var2];
+        var3 = var3.bind(var4)(var2);
+        var2 = var3.useIsScreenReaderEnabled;
+        var17 = var2.bind(var3)();
+        var2 = 14;
+        var2 = var24[var2];
+        var3 = var23.bind(var4)(var2);
+        var2 = function() {
+            var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-                    var3 = arg1;
-                    var1 = arg2;
-                    var1 = var3 !== var1;
-                    if(!var1) { _fun0002_ip = 2; continue _fun0002 }
-case 3:
-                    var2 = 0;
-                    var1 = var2 === var3;
-case 2:
-                    if(!var1) { _fun0002_ip = 4; continue _fun0002 }
-case 5:
-                    var2 = _closure1_slot0;
-                    var4 = _closure1_slot2;
-                    var1 = 14;
-                    var1 = var4[var1];
-                    var3 = undefined;
-                    var7 = var2.bind(var3)(var1);
-                    var6 = var7.triggerHapticFeedback;
-                    var2 = _closure1_slot1;
-                    var1 = 15;
-                    var1 = var4[var1];
-                    var1 = var2.bind(var3)(var1);
-                    var1 = var1.IMPACT_LIGHT;
-                    var1 = var6.bind(var7)(var1);
-                    var1 = 16;
-                    var1 = var4[var1];
-                    var4 = var2.bind(var3)(var1);
-                    var3 = var4.track;
-                    var1 = _closure1_slot8;
-                    var2 = var1.MEDIA_PICKER_ACTION_SHEET_ENGAGED;
-                    var1 = {};
-                    var5 = _closure1_slot7;
-                    var5 = var5.FULLY_EXPANDED;
-                    var1['action'] = var5;
-                    var1 = var3.bind(var4)(var2, var1);
-case 4:
-                    var1 = undefined;
-                    return var1;
-                }
-            };
-            var3 = new Array(0);
-            var17 = var26.bind(var7)(var17, var3);
-            var3 = 17;
-            var3 = var10[var3];
-            var21 = var21.bind(var4)(var3);
-            var3 = var21.useIsScreenReaderEnabled;
-            var21 = var3.bind(var21)();
-            var3 = 18;
-            var3 = var10[var3];
-            var5 = var5.bind(var4)(var3);
-            var3 = function() {
-                var1 = function() {
-                    _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
-case 0:
-                        var3 = _closure2_slot0;
-                        var2 = null;
-                        if(!(var2 != var3)) { _fun0003_ip = 6; continue _fun0003 }
-case 3:
-                        var2 = _closure2_slot0;
-                        var1 = undefined;
-                        var1 = var2.bind(var1)();
-case 6:
-                        var1 = undefined;
-                        return var1;
-                    }
-                };
-                return var1;
-            };
-            var3 = var5.bind(var4)(var3);
-            var5 = var7.useMemo;
-            var3 = new Array(2);
-            var3[0] = var2;
-            var3[1] = var19;
-            var2 = function() {
-                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
-case 0:
-                    var3 = _closure1_slot0;
-                    var2 = _closure1_slot2;
-                    var1 = 19;
-                    var2 = var2[var1];
-                    var1 = undefined;
-                    var2 = var3.bind(var1)(var2);
-                    var1 = var2.isAndroid;
-                    var1 = var1.bind(var2)();
-                    var2 = _closure2_slot3;
-                    if(var1) { _fun0004_ip = 7; continue _fun0004 }
-case 8:
-                    var1 = {};
-                    var5 = var2.iosContainer;
-                    var6 = var1;
-                    var4 = copyDataProperties(var6, var5);
-                    var4 = _closure2_slot4;
-                    var3 = 'height';
-                    var1[var3] = var4;
-                    _fun0004_ip = 9; continue _fun0004;
-case 7:
-                    var1 = var2.androidContainer;
-case 9:
-                    return var1;
-                }
-            };
-            var5 = var5.bind(var7)(var2, var3);
-            var3 = var7.useEffect;
-            var2 = new Array(3);
-            var2[0] = var25;
-            var2[1] = var16;
-            var2[2] = var9;
-            var1 = function() {
-                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
-case 0:
-                    var4 = _closure2_slot1;
-                    var5 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var1 = 20;
-                    var3 = var3[var1];
-                    var1 = undefined;
-                    var3 = var5.bind(var1)(var3);
-                    var3 = var3.TransitionStates;
-                    var3 = var3.YEETED;
-                    if(!(var4 === var3)) { _fun0005_ip = 10; continue _fun0005 }
-case 11:
-                    var3 = _closure2_slot2;
-                    var3 = var3.current;
-                    var4 = null;
-                    if(!(var4 != var3)) { _fun0005_ip = 12; continue _fun0005 }
-case 13:
-                    var3 = _closure2_slot2;
-                    var5 = var3.current;
-                    var3 = var5.forceClose;
-                    var3 = var3.bind(var5)();
-                    _fun0005_ip = 10; continue _fun0005;
-case 12:
                     var3 = _closure2_slot0;
-                    if(!(var4 != var3)) { _fun0005_ip = 10; continue _fun0005 }
-case 14:
+                    var2 = null;
+                    if(!(var2 != var3)) { _fun0002_ip = 6; continue _fun0002 }
+case 3:
                     var2 = _closure2_slot0;
-                    var2 = var2.bind(var1)();
-case 10:
+                    var1 = undefined;
+                    var1 = var2.bind(var1)();
+case 6:
+                    var1 = undefined;
                     return var1;
                 }
             };
-            var1 = var3.bind(var7)(var1, var2);
-            var3 = _closure1_slot10;
-            var2 = _closure1_slot4;
-            var1 = {};
-            var7 = undefined;
-            if(!var8) { _fun0001_ip = 15; continue _fun0001 }
-case 16:
-            var7 = 'no-hide-descendants';
-case 15:
-            var1['importantForAccessibility'] = var7;
-            var1['style'] = var5;
-            var5 = 'box-none';
-            var1['pointerEvents'] = var5;
-            var8 = _closure1_slot9;
-            var10 = _closure1_slot1;
-            var9 = _closure1_slot2;
-            var5 = 11;
-            var5 = var9[var5];
-            var7 = var10.bind(var4)(var5);
-            var5 = {};
-            var26 = 12;
-            var26 = var9[var26];
-            var26 = var10.bind(var4)(var26);
-            var5['BodyComponent'] = var26;
-            var5['ref'] = var25;
-            var5['animationConfigs'] = var24;
-            var5['animatedIndex'] = var23;
-            var5['animatedPosition'] = var22;
-            var22 = !var21;
-            var5['enableContentPanningGesture'] = var22;
-            var21 = !var21;
-            var5['enableHandlePanningGesture'] = var21;
-            var5['handleComponent'] = var20;
-            var19 = var19.background;
-            var5['backgroundStyle'] = var19;
-            var5['backdropComponent'] = var18;
-            var5['onAnimate'] = var17;
-            var17 = _closure1_slot6;
-            var5['handleHeight'] = var17;
-            var5['onClose'] = var16;
-            var28 = var5;
-            var27 = var14;
-            var14 = copyDataProperties(var28, var27);
-            var14 = 'children';
-            var5[var14] = var15;
-            var7 = var8.bind(var4)(var7, var5);
-            var5 = new Array(3);
-            var5[0] = var7;
-            var7 = 21;
-            var7 = var9[var7];
-            var10 = var10.bind(var4)(var7);
-            var7 = {};
-            var13 = var13.id;
-            var7['channelId'] = var13;
-            var7['draftType'] = var12;
-            var7['onSend'] = var11;
-            var7 = var8.bind(var4)(var10, var7);
-            var5[1] = var7;
-            var7 = _closure1_slot0;
-            var6 = 22;
-            var6 = var9[var6];
-            var6 = var7.bind(var4)(var6);
-            var7 = var6.NavScrim;
-            var6 = {};
-            var6 = var8.bind(var4)(var7, var6);
-            var5[2] = var6;
-            var1['children'] = var5;
-            var1 = var3.bind(var4)(var2, var1);
             return var1;
-        }
+        };
+        var2 = var3.bind(var4)(var2);
+        var3 = var5.useEffect;
+        var2 = new Array(3);
+        var2[0] = var21;
+        var2[1] = var11;
+        var2[2] = var7;
+        var1 = function() {
+            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+                var4 = _closure2_slot1;
+                var5 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var1 = 15;
+                var3 = var3[var1];
+                var1 = undefined;
+                var3 = var5.bind(var1)(var3);
+                var3 = var3.TransitionStates;
+                var3 = var3.YEETED;
+                if(!(var4 === var3)) { _fun0003_ip = 7; continue _fun0003 }
+case 8:
+                var3 = _closure2_slot2;
+                var3 = var3.current;
+                var4 = null;
+                if(!(var4 != var3)) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
+                var3 = _closure2_slot2;
+                var5 = var3.current;
+                var3 = var5.forceClose;
+                var3 = var3.bind(var5)();
+                _fun0003_ip = 7; continue _fun0003;
+case 9:
+                var3 = _closure2_slot0;
+                if(!(var4 != var3)) { _fun0003_ip = 7; continue _fun0003 }
+case 11:
+                var2 = _closure2_slot0;
+                var2 = var2.bind(var1)();
+case 7:
+                return var1;
+            }
+        };
+        var1 = var3.bind(var5)(var1, var2);
+        var3 = _closure1_slot9;
+        var2 = _closure1_slot8;
+        var1 = {};
+        var8 = _closure1_slot7;
+        var5 = 8;
+        var5 = var24[var5];
+        var7 = var23.bind(var4)(var5);
+        var5 = {};
+        var22 = 9;
+        var22 = var24[var22];
+        var22 = var23.bind(var4)(var22);
+        var5['BodyComponent'] = var22;
+        var5['ref'] = var21;
+        var5['animationConfigs'] = var20;
+        var5['animatedIndex'] = var19;
+        var5['animatedPosition'] = var18;
+        var18 = !var17;
+        var5['enableContentPanningGesture'] = var18;
+        var17 = !var17;
+        var5['enableHandlePanningGesture'] = var17;
+        var5['handleComponent'] = var16;
+        var15 = var15.background;
+        var5['backgroundStyle'] = var15;
+        var5['backdropComponent'] = var14;
+        var5['onAnimate'] = var13;
+        var12 = _closure1_slot4;
+        var5['handleHeight'] = var12;
+        var5['onClose'] = var11;
+        var26 = var5;
+        var25 = var9;
+        var9 = copyDataProperties(var26, var25);
+        var9 = 'children';
+        var5[var9] = var10;
+        var7 = var8.bind(var4)(var7, var5);
+        var5 = new Array(2);
+        var5[0] = var7;
+        var5[1] = var6;
+        var1['children'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 23;
+    var4 = 16;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

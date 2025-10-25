@@ -152,7 +152,7 @@ case 5:
             var8 = var12[var8];
             var8 = var11.bind(var5)(var8);
             var8 = var8.t;
-            var8 = var8.ETE/oK;
+            var8 = var8.ETE/oC;
             var8 = var9.bind(var10)(var8);
             var2['text'] = var8;
             var7 = var7.cancelButtonText;
@@ -289,7 +289,7 @@ case 14:
             var11 = var15[var11];
             var11 = var14.bind(var5)(var11);
             var11 = var11.t;
-            var11 = var11.Iy2gnZ;
+            var11 = var11.Iy2gnS;
             var10 = var12.bind(var13)(var11);
 case 13:
             var6['placeholder'] = var10;

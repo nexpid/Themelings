@@ -143,7 +143,7 @@ case 18:
                     var2 = var8[var2];
                     var2 = var7.bind(var6)(var2);
                     var2 = var2.t;
-                    var2 = var2.Br1ls7;
+                    var2 = var2.Br1ls3;
                     var3 = var4.bind(var5)(var2);
 case 20:
                     var2 = 'description';

@@ -341,7 +341,7 @@ case 15:
         var6 = var8[var6];
         var6 = var7.bind(var4)(var6);
         var6 = var6.t;
-        var12 = var6.BjYvHB;
+        var12 = var6.BjYvHO;
         var11 = {};
         var6 = 20;
         var15 = var8[var6];
@@ -766,7 +766,7 @@ case 34:
             var10 = var14[var10];
             var10 = var13.bind(var4)(var10);
             var10 = var10.t;
-            var10 = var10.tlopTE;
+            var10 = var10.tlopTM;
             var10 = var11.bind(var12)(var10);
             _fun0008_ip = 35; continue _fun0008;
 case 33:
@@ -780,7 +780,7 @@ case 33:
             var11 = var15[var11];
             var11 = var12.bind(var4)(var11);
             var11 = var11.t;
-            var12 = var11.IBdqSk;
+            var12 = var11.IBdqSu;
             var11 = {};
             var11['number'] = var7;
             var10 = var13.bind(var14)(var12, var11);

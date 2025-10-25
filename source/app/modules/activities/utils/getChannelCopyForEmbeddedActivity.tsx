@@ -41,7 +41,7 @@ case 2:
             var2 = var7[var2];
             var2 = var6.bind(var5)(var2);
             var2 = var2.t;
-            var2 = var2.2YCamp;
+            var2 = var2.2YCamo;
             var1 = var3.bind(var4)(var2);
 case 4:
             return var1;

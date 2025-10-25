@@ -570,7 +570,7 @@ case 25:
                         var4 = var9[var4];
                         var4 = var7.bind(var8)(var4);
                         var4 = var4.t;
-                        var4 = var4.MDOXJS;
+                        var4 = var4.MDOXJR;
                         var4 = var5.bind(var6)(var4);
                         var1['content'] = var4;
                         var4 = 3000;

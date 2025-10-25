@@ -394,7 +394,7 @@ case 0:
                     var1 = var7[var1];
                     var1 = var2.bind(var6)(var1);
                     var1 = var1.t;
-                    var2 = var1.ZbrH2d;
+                    var2 = var1.ZbrH2f;
                     var1 = {};
                     var7 = var5.emoji;
                     var8 = null;

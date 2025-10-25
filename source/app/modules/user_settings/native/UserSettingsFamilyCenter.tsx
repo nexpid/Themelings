@@ -136,7 +136,7 @@ case 0:
             var25 = 22;
             var23 = var12[var25];
             var23 = var11.bind(var5)(var23);
-            var23 = var23.bdBmq6;
+            var23 = var23.bdBmqy;
             var23 = var28.bind(var29)(var23);
             var24['label'] = var23;
             var23 = _closure1_slot15;
@@ -158,7 +158,7 @@ case 0:
             var26 = var27.string;
             var25 = var12[var25];
             var25 = var11.bind(var5)(var25);
-            var25 = var25.gVWG+/;
+            var25 = var25.gVWG+6;
             var25 = var26.bind(var27)(var25);
             var24['label'] = var25;
             var25 = _closure1_slot15;

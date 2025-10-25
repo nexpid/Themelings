@@ -109,7 +109,7 @@ case 0:
             var15 = var12[var15];
             var15 = var11.bind(var4)(var15);
             var15 = var15.t;
-            var16 = var15.V+B3FB;
+            var16 = var15.V+B3FH;
             var15 = {};
             var19 = _closure1_slot4;
             var15['guideURL'] = var19;

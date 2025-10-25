@@ -87,7 +87,7 @@ case 6:
             var2 = var2[var7];
             var2 = var5.bind(var6)(var2);
             var2 = var2.t;
-            var2 = var2.paDJBA;
+            var2 = var2.paDJBM;
             var1 = var3.bind(var4)(var2);
 case 2:
             return var1;
@@ -152,7 +152,7 @@ case 6:
             var2 = var7[var2];
             var2 = var6.bind(var5)(var2);
             var2 = var2.t;
-            var2 = var2.paDJBA;
+            var2 = var2.paDJBM;
             var2 = var3.bind(var4)(var2);
             return var2;
 case 19:
@@ -167,7 +167,7 @@ case 19:
             var2 = var7[var2];
             var2 = var6.bind(var5)(var2);
             var2 = var2.t;
-            var2 = var2.k1K15u;
+            var2 = var2.k1K15p;
             var2 = var3.bind(var4)(var2);
             return var2;
 case 17:
@@ -182,7 +182,7 @@ case 17:
             var2 = var7[var2];
             var2 = var6.bind(var5)(var2);
             var2 = var2.t;
-            var2 = var2.sIGo1t;
+            var2 = var2.sIGo1i;
             var2 = var3.bind(var4)(var2);
             return var2;
 case 14:
@@ -197,7 +197,7 @@ case 14:
             var2 = var7[var2];
             var2 = var6.bind(var5)(var2);
             var2 = var2.t;
-            var2 = var2.EouHws;
+            var2 = var2.EouHwv;
             var2 = var3.bind(var4)(var2);
             return var2;
 case 12:
@@ -212,7 +212,7 @@ case 12:
             var2 = var7[var2];
             var2 = var6.bind(var5)(var2);
             var2 = var2.t;
-            var2 = var2.VNLnen;
+            var2 = var2.VNLneq;
             var2 = var3.bind(var4)(var2);
             return var2;
 case 10:
@@ -227,7 +227,7 @@ case 10:
             var2 = var7[var2];
             var2 = var6.bind(var5)(var2);
             var2 = var2.t;
-            var2 = var2.tnBalJ;
+            var2 = var2.tnBalD;
             var2 = var3.bind(var4)(var2);
             return var2;
 case 8:
@@ -242,7 +242,7 @@ case 8:
             var1 = var6[var1];
             var1 = var5.bind(var2)(var1);
             var1 = var1.t;
-            var2 = var1.Oxe6Ul;
+            var2 = var1.Oxe6Ur;
             var1 = {};
             var5 = arg2;
             var1['discordTag'] = var5;
@@ -317,7 +317,7 @@ case 25:
             var3 = var9[var3];
             var3 = var4.bind(var5)(var3);
             var3 = var3.t;
-            var4 = var3.ihb+UV;
+            var4 = var3.ihb+UW;
             var3 = {};
             var3['discordTag'] = var8;
             var1 = var6.bind(var7)(var4, var3);

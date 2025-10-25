@@ -402,7 +402,7 @@ case 15:
             var6 = var16[var23];
             var6 = var7.bind(var5)(var6);
             var6 = var6.t;
-            var7 = var6.Yw5Hr6;
+            var7 = var6.Yw5Hr2;
             var6 = {};
             var6['applicationName'] = var27;
             var6 = var8.bind(var9)(var7, var6);
@@ -622,7 +622,7 @@ case 26:
             var23 = var22[var23];
             var23 = var26.bind(var5)(var23);
             var23 = var23.t;
-            var23 = var23.4i2vj4;
+            var23 = var23.4i2vj+;
             var23 = var24.bind(var25)(var23);
             var17['text'] = var23;
             var20 = var22[var20];

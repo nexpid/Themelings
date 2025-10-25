@@ -81,7 +81,7 @@ case 8:
             var1 = var1[var7];
             var1 = var4.bind(var6)(var1);
             var1 = var1.t;
-            var9 = var1.47E5R0;
+            var9 = var1.47E5Rz;
             var1 = var3.isForumPost;
             var1 = var1.bind(var3)();
             if(var1) { _fun0001_ip = 10; continue _fun0001 }
@@ -95,7 +95,7 @@ case 13:
             var1 = var1[var7];
             var1 = var3.bind(var6)(var1);
             var1 = var1.t;
-            var9 = var1.2YaiQ0;
+            var9 = var1.2YaiQ1;
             _fun0001_ip = 12; continue _fun0001;
 case 10:
             var3 = _closure1_slot0;
@@ -103,7 +103,7 @@ case 10:
             var1 = var1[var7];
             var1 = var3.bind(var6)(var1);
             var1 = var1.t;
-            var9 = var1.sYW2c3;
+            var9 = var1.sYW2cy;
 case 12:
             var1 = {};
             var5 = _closure1_slot0;
@@ -131,7 +131,7 @@ case 12:
             var2 = var2[var7];
             var2 = var5.bind(var6)(var2);
             var2 = var2.t;
-            var2 = var2.mVyrtr;
+            var2 = var2.mVyrtu;
             var2 = var3.bind(var4)(var2);
             var1['footer'] = var2;
             return var1;
@@ -173,7 +173,7 @@ case 15:
             var3 = var8[var3];
             var3 = var7.bind(var6)(var3);
             var3 = var3.t;
-            var3 = var3.sTwS1d;
+            var3 = var3.sTwS1a;
             var3 = var4.bind(var5)(var3);
             var2['body'] = var3;
             var1 = var2;

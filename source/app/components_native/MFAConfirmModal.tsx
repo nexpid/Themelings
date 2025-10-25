@@ -254,7 +254,7 @@ case 0:
                 var8 = var8.t;
                 if(var7) { _fun0006_ip = 17; continue _fun0006 }
 case 18:
-                var7 = var8.yO4lAA;
+                var7 = var8.yO4lAM;
                 var7 = var9.bind(var10)(var7);
                 _fun0006_ip = 19; continue _fun0006;
 case 17:
@@ -322,7 +322,7 @@ case 19:
             var5 = var10[var5];
             var5 = var9.bind(var3)(var5);
             var5 = var5.t;
-            var5 = var5.ETE/oK;
+            var5 = var5.ETE/oC;
             var5 = var7.bind(var8)(var5);
             var1['cancelText'] = var5;
             var5 = var6.handleCancel;

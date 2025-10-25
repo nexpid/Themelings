@@ -217,7 +217,7 @@ case 20:
             var6 = var7[var6];
             var6 = var10.bind(var4)(var6);
             var6 = var6.t;
-            var6 = var6.piPHvb;
+            var6 = var6.piPHvY;
             var6 = var8.bind(var9)(var6);
             var2['welcomeLabel'] = var6;
             var6 = _closure1_slot1;

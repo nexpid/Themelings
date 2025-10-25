@@ -68,7 +68,7 @@ case 0:
             var9 = var7[var9];
             var9 = var6.bind(var3)(var9);
             var9 = var9.t;
-            var9 = var9.cpT0Cg;
+            var9 = var9.cpT0Cq;
             var9 = var11.bind(var12)(var9);
             var1['accessibilityLabel'] = var9;
             var9 = _closure1_slot5;

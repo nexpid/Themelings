@@ -115,7 +115,7 @@ case 10:
             var9 = var11[var9];
             var9 = var14.bind(var4)(var9);
             var9 = var9.t;
-            var9 = var9.UKOtz8;
+            var9 = var9.UKOtz+;
             var9 = var12.bind(var13)(var9);
             var6['accessibilityLabel'] = var9;
             var9 = 6;

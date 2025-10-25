@@ -240,7 +240,7 @@ case 20:
             var8 = var12[var8];
             var8 = var11.bind(var5)(var8);
             var8 = var8.t;
-            var8 = var8.sMsaLi;
+            var8 = var8.sMsaLg;
             var8 = var9.bind(var10)(var8);
             var2['accessibilityHint'] = var8;
             var7 = var7.role;
@@ -466,7 +466,7 @@ case 30:
             var8 = var14[var8];
             var8 = var13.bind(var5)(var8);
             var8 = var8.t;
-            var8 = var8.LPJmLy;
+            var8 = var8.LPJmL/;
             var8 = var11.bind(var12)(var8);
             var2['title'] = var8;
             var2['style'] = var7;

@@ -131,7 +131,7 @@ case 0:
             var1 = 8;
             var4 = var11[var1];
             var4 = var10.bind(var5)(var4);
-            var4 = var4.Ta9byc;
+            var4 = var4.Ta9byS;
             var4 = var12.bind(var13)(var4);
             var8 = var11[var8];
             var8 = var9.bind(var5)(var8);
@@ -139,7 +139,7 @@ case 0:
             var8 = var9.string;
             var1 = var11[var1];
             var1 = var10.bind(var5)(var1);
-            var1 = var1.8SLtqa;
+            var1 = var1.8SLtqb;
             var1 = var8.bind(var9)(var1);
             var6 = var6.bind(var7)(var4, var1);
             var1 = null;
@@ -276,7 +276,7 @@ case 8:
             var6 = 8;
             var6 = var10[var6];
             var6 = var9.bind(var4)(var6);
-            var6 = var6.z4a9HB;
+            var6 = var6.z4a9HP;
             var6 = var7.bind(var8)(var6);
             var1['text'] = var6;
             var5 = function onPress() {

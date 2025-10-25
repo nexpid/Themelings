@@ -74,7 +74,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['padding'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot13 = var4;
-    var4 = 28;
+    var4 = 29;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -171,7 +171,7 @@ case 3:
             var20 = var20[var18];
             var20 = var23.bind(var4)(var20);
             var20 = var20.t;
-            var20 = var20.3wDyfX;
+            var20 = var20.3wDyfQ;
             var20 = var21.bind(var22)(var20);
             var10['label'] = var20;
             var21 = var19.filterStaffContent;
@@ -425,170 +425,36 @@ case 19:
 case 0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0003_ip = 21; continue _fun0003 }
-case 22:
-                        var3 = _closure1_slot7;
-                        var2 = var3.getDehydratedItems;
-                        var4 = var2.bind(var3)();
-                        var3 = var4.forEach;
-                        var2 = function(arg1) {
-                            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
-case 0:
-                                var2 = arg1;
-                                var5 = var2.type;
-                                var6 = _closure1_slot0;
-                                var4 = _closure1_slot2;
-                                var1 = 19;
-                                var4 = var4[var1];
-                                var1 = undefined;
-                                var4 = var6.bind(var1)(var4);
-                                var4 = var4.ICYMIItemTypes;
-                                var4 = var4.MESSAGE;
-                                var4 = var5 === var4;
-                                if(!var4) { _fun0004_ip = 15; continue _fun0004 }
-case 16:
-                                var5 = var2.data;
-                                var6 = var5.channel_type;
-                                var7 = _closure1_slot0;
-                                var8 = _closure1_slot2;
-                                var5 = 20;
-                                var5 = var8[var5];
-                                var5 = var7.bind(var1)(var5);
-                                var5 = var5.ChannelTypes;
-                                var5 = var5.GUILD_ANNOUNCEMENT;
-                                var4 = var6 === var5;
-case 15:
-                                if(!var4) { _fun0004_ip = 17; continue _fun0004 }
-case 18:
-                                var6 = _closure1_slot1;
-                                var7 = _closure1_slot2;
-                                var5 = 21;
-                                var5 = var7[var5];
-                                var8 = var6.bind(var1)(var5);
-                                var7 = var8.compare;
-                                var9 = _closure1_slot5;
-                                var6 = var9.ackMessageId;
-                                var5 = var2.data;
-                                var5 = var5.channel_id;
-                                var6 = var6.bind(var9)(var5);
-                                var5 = var2.data;
-                                var5 = var5.message_id;
-                                var6 = var7.bind(var8)(var6, var5);
-                                var5 = 0;
-                                var4 = var6 >= var5;
-case 17:
-                                if(!var4) { _fun0004_ip = 19; continue _fun0004 }
-case 20:
-                                var5 = _closure1_slot0;
-                                var9 = _closure1_slot2;
-                                var4 = 22;
-                                var4 = var9[var4];
-                                var7 = var5.bind(var1)(var4);
-                                var6 = var7.ack;
-                                var4 = var2.data;
-                                var5 = var4.channel_id;
-                                var4 = {};
-                                var8 = _closure1_slot9;
-                                var8 = var8.ACK_GRAVITY_REGENERATE_FEED_AND_CLEAR_READ_STATES_BUTTON;
-                                var4['object'] = var8;
-                                var8 = _closure1_slot8;
-                                var8 = var8.ACK_SEMI_AUTOMATIC;
-                                var4['objectType'] = var8;
-                                var8 = _closure1_slot1;
-                                var3 = 21;
-                                var3 = var9[var3];
-                                var8 = var8.bind(var1)(var3);
-                                var3 = var8.atPreviousMillisecond;
-                                var2 = var2.data;
-                                var2 = var2.message_id;
-                                var10 = var3.bind(var8)(var2);
-                                var15 = var7;
-                                var14 = var5;
-                                var13 = var4;
-                                var12 = true;
-                                var11 = true;
-                                var2 = var15[var6](var14, var13, var12, var11, var10, var9);
-case 19:
-                                return var1;
-                            }
-                        };
-                        var2 = var3.bind(var4)(var2);
-                        var3 = _closure1_slot1;
-                        var2 = _closure1_slot2;
-                        var7 = 17;
-                        var2 = var2[var7];
-                        var6 = undefined;
-                        var3 = var3.bind(var6)(var2);
-                        var2 = var3.clearReadStates;
-                        var2 = var2.bind(var3)();
-                        SaveGenerator(address=82);
-case 23:
-                        return var2;
-case 24:
-                        ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                        if(var3) { _fun0003_ip = 25; continue _fun0003 }
-case 26:
-                        var4 = _closure1_slot1;
-                        var3 = _closure1_slot2;
-                        var3 = var3[var7];
-                        var5 = var4.bind(var6)(var3);
-                        var4 = var5.fetchDehydrated;
-                        var3 = {'isReloading': true, 'forceRefresh': true};
-                        var3 = var4.bind(var5)(var3);
-                        SaveGenerator(address=137);
-case 27:
-                        return var3;
-case 28:
-                        ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                        if(var4) { _fun0003_ip = 29; continue _fun0003 }
-case 30:
-                        var5 = _closure1_slot1;
-                        var4 = _closure1_slot2;
-                        var4 = var4[var7];
-                        var5 = var5.bind(var6)(var4);
-                        var4 = var5.reloadICYMITab;
-                        var4 = var4.bind(var5)();
-                        SaveGenerator(address=177);
-case 31:
-                        return var4;
-case 32:
-                        ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                        if(var5) { _fun0003_ip = 33; continue _fun0003 }
-case 34:
-                        var8 = _closure1_slot1;
-                        var5 = _closure1_slot2;
-                        var5 = var5[var7];
-                        var8 = var8.bind(var6)(var5);
-                        var5 = var8.getGuildChannelScores;
-                        var5 = var5.bind(var8)();
-                        SaveGenerator(address=214);
-case 35:
-                        return var5;
-case 36:
-                        ResumeGenerator(result_out_reg=4, return_bool_out_reg=7);
-                        if(var8) { _fun0003_ip = 37; continue _fun0003 }
-case 38:
-                        var8 = _closure1_slot1;
-                        var9 = _closure1_slot2;
-                        var7 = var9[var7];
-                        var10 = var8.bind(var6)(var7);
-                        var7 = var10.getRecommendedGuilds;
-                        var7 = var7.bind(var10)();
-                        var7 = 23;
-                        var7 = var9[var7];
-                        var8 = var8.bind(var6)(var7);
-                        var7 = var8.hideActionSheet;
-                        var7 = var7.bind(var8)();
-                        return var6;
-case 37:
-                        return var5;
-case 33:
-                        return var4;
-case 29:
-                        return var3;
-case 25:
-                        return var2;
+                        if(var2) { _fun0003_ip = 15; continue _fun0003 }
 case 21:
+                        var5 = _closure1_slot0;
+                        var3 = _closure1_slot2;
+                        var2 = 24;
+                        var2 = var3[var2];
+                        var3 = undefined;
+                        var6 = var5.bind(var3)(var2);
+                        var5 = var6.regenerateFeedAndClearReadStates;
+                        var2 = _closure1_slot9;
+                        var2 = var2.ACK_GRAVITY_REGENERATE_FEED_AND_CLEAR_READ_STATES_BUTTON;
+                        var2 = var5.bind(var6)(var2);
+                        SaveGenerator(address=57);
+case 22:
+                        return var2;
+case 23:
+                        ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
+                        if(var5) { _fun0003_ip = 24; continue _fun0003 }
+case 25:
+                        var5 = _closure1_slot1;
+                        var6 = _closure1_slot2;
+                        var4 = 23;
+                        var4 = var6[var4];
+                        var5 = var5.bind(var3)(var4);
+                        var4 = var5.hideActionSheet;
+                        var4 = var4.bind(var5)();
+                        return var3;
+case 24:
+                        return var2;
+case 15:
                         return var1;
                     }
                 };
@@ -617,7 +483,7 @@ case 13:
             var14 = var14[var18];
             var14 = var17.bind(var4)(var14);
             var14 = var14.t;
-            var14 = var14.Eorjm5;
+            var14 = var14.Eorjmy;
             var14 = var15.bind(var16)(var14);
             var11['label'] = var14;
             var13 = function onPress() {
@@ -631,19 +497,19 @@ case 13:
                 var6 = 'icymi_settings_action_sheet';
                 var5 = 'custom_scoring_button';
                 var5 = var7.bind(var8)(var6, var6, var5);
-                var5 = 24;
+                var5 = 25;
                 var5 = var4[var5];
                 var9 = var3.bind(var1)(var5);
                 var8 = var9.pushLazy;
                 var5 = _closure1_slot0;
-                var2 = 26;
+                var2 = 27;
                 var2 = var4[var2];
                 var7 = var5.bind(var1)(var2);
-                var2 = 25;
+                var2 = 26;
                 var6 = var4[var2];
                 var2 = var4.paths;
                 var7 = var7.bind(var1)(var6, var2);
-                var2 = 27;
+                var2 = 28;
                 var2 = var4[var2];
                 var2 = var5.bind(var1)(var2);
                 var11 = var2.ICYMI_CUSTOM_SCORES_MODAL_KEY;

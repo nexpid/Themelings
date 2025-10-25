@@ -711,7 +711,7 @@ case 74:
                 var2 = var8[var2];
                 var2 = var7.bind(var1)(var2);
                 var2 = var2.t;
-                var2 = var2.nRbucn;
+                var2 = var2.nRbucl;
                 var2 = var5.bind(var6)(var2);
                 var2 = var3.bind(var4)(var2);
                 return var1;
@@ -735,7 +735,7 @@ case 74:
                 var2 = var8[var2];
                 var2 = var7.bind(var1)(var2);
                 var2 = var2.t;
-                var2 = var2.ndXVIy;
+                var2 = var2.ndXVI5;
                 var2 = var5.bind(var6)(var2);
                 var2 = var3.bind(var4)(var2);
                 return var1;
@@ -933,7 +933,7 @@ case 0:
                 var1 = var9[var1];
                 var1 = var8.bind(var4)(var1);
                 var1 = var1.t;
-                var1 = var1.cU0t1N;
+                var1 = var1.cU0t1F;
                 var1 = var6.bind(var7)(var1);
                 var1 = var3.bind(var5)(var1);
                 var5 = _closure2_slot2;
@@ -978,7 +978,7 @@ case 88:
             var1 = var8[var1];
             var1 = var7.bind(var6)(var1);
             var1 = var1.t;
-            var1 = var1.8GEden;
+            var1 = var1.8GEdej;
             var1 = var4.bind(var5)(var1);
             var1 = var2.bind(var3)(var1);
             var1 = _closure2_slot1;

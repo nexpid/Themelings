@@ -61,7 +61,7 @@ case 2:
             var5 = var10[var5];
             var5 = var9.bind(var7)(var5);
             var5 = var5.t;
-            var5 = var5.wnn1DQ;
+            var5 = var5.wnn1Dc;
             var5 = var6.bind(var8)(var5);
             _fun0001_ip = 5; continue _fun0001;
 case 4:
@@ -131,7 +131,7 @@ case 9:
             var5 = var10[var5];
             var5 = var9.bind(var7)(var5);
             var5 = var5.t;
-            var5 = var5.+j6eZW;
+            var5 = var5.+j6eZf;
             var4 = var6.bind(var8)(var5);
 case 8:
             var3['cameraButtonText'] = var4;
@@ -145,7 +145,7 @@ case 8:
             var2 = var8[var2];
             var2 = var6.bind(var7)(var2);
             var2 = var2.t;
-            var2 = var2.WZ+NyM;
+            var2 = var2.WZ+NyG;
             var2 = var4.bind(var5)(var2);
             var3['emojiButtonText'] = var2;
             var2 = 'channelPromptData';

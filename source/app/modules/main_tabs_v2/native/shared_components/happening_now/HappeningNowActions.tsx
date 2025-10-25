@@ -240,7 +240,7 @@ case 4:
             var6 = var10[var6];
             var6 = var9.bind(var4)(var6);
             var6 = var6.t;
-            var6 = var6.fUYU+v;
+            var6 = var6.fUYU+j;
             var6 = var7.bind(var8)(var6);
             var1['text'] = var6;
             var1['panelVariant'] = var5;
@@ -376,7 +376,7 @@ case 6:
             var6 = var10[var6];
             var6 = var9.bind(var4)(var6);
             var6 = var6.t;
-            var6 = var6.VINpSE;
+            var6 = var6.VINpSK;
             var6 = var7.bind(var8)(var6);
             var1['text'] = var6;
             var1['panelVariant'] = var5;
@@ -464,7 +464,7 @@ case 10:
             var6 = var10[var6];
             var6 = var9.bind(var4)(var6);
             var6 = var6.t;
-            var6 = var6.emRpdX;
+            var6 = var6.emRpdS;
             var6 = var7.bind(var8)(var6);
             var1['text'] = var6;
             var1['panelVariant'] = var5;

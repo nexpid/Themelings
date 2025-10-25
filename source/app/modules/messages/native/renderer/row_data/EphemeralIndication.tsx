@@ -67,7 +67,7 @@ case 7:
             var5 = var4[var9];
             var5 = var10.bind(var6)(var5);
             var5 = var5.t;
-            var7 = var5.uX3ecH;
+            var7 = var5.uX3ecL;
             var5 = {'count': 1, 'countMessages': 1};
             var12 = {};
             var14 = 'bindDismissMessage';
@@ -92,7 +92,7 @@ case 7:
             var4 = var4[var9];
             var4 = var10.bind(var6)(var4);
             var4 = var4.t;
-            var4 = var4.htHOrq;
+            var4 = var4.htHOrp;
             var4 = var7.bind(var8)(var4);
             var2['helpButtonAccessibilityLabel'] = var4;
             var8 = _closure1_slot3;
@@ -118,7 +118,7 @@ case 9:
             var4 = var4[var9];
             var4 = var8.bind(var6)(var4);
             var4 = var4.t;
-            var4 = var4.OiCBhI;
+            var4 = var4.OiCBhP;
             var4 = var5.bind(var7)(var4);
             var2['helpButtonAccessibilityLabel'] = var4;
 case 8:
@@ -149,7 +149,7 @@ case 10:
             var4 = var7[var2];
             var4 = var5.bind(var6)(var4);
             var4 = var4.t;
-            var8 = var4.xgCMRU;
+            var8 = var4.xgCMRQ;
             var4 = {};
             var12 = {};
             var14 = 'bindDismissMessage';
@@ -175,7 +175,7 @@ case 10:
             var2 = var7[var2];
             var2 = var5.bind(var6)(var2);
             var2 = var2.t;
-            var2 = var2.OIWSJS;
+            var2 = var2.OIWSJe;
             var2 = var3.bind(var4)(var2);
             var1['helpButtonAccessibilityLabel'] = var2;
             return var1;

@@ -102,7 +102,7 @@ case 2:
             var8 = var6[var8];
             var8 = var13.bind(var4)(var8);
             var8 = var8.t;
-            var8 = var8.iZ7Mz8;
+            var8 = var8.iZ7Mz9;
             var8 = var11.bind(var12)(var8);
             var1['accessibilityLabel'] = var8;
             var8 = {};

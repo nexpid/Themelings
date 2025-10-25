@@ -707,10 +707,10 @@ case 5:
             var1 = var1.t;
             if(var3) { _fun0011_ip = 75; continue _fun0011 }
 case 76:
-            var5 = var1.G6BGd3;
+            var5 = var1.G6BGdx;
             _fun0011_ip = 31; continue _fun0011;
 case 75:
-            var5 = var1.HjVwGx;
+            var5 = var1.HjVwG3;
 case 31:
             var1 = {};
             var9 = var1;

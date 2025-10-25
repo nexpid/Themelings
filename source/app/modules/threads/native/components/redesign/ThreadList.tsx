@@ -476,7 +476,7 @@ case 8:
                 var7 = var12[var7];
                 var7 = var9.bind(var8)(var7);
                 var7 = var7.t;
-                var9 = var7.fcXlhY;
+                var9 = var7.fcXlhe;
                 var8 = {};
                 var7 = _closure2_slot4;
                 var12 = var7.length;
@@ -529,7 +529,7 @@ case 23:
                 var7 = var12[var7];
                 var7 = var9.bind(var8)(var7);
                 var7 = var7.t;
-                var9 = var7.GHY7yc;
+                var9 = var7.GHY7yQ;
                 var8 = {};
                 var7 = _closure2_slot5;
                 var12 = var7.length;
@@ -582,7 +582,7 @@ case 25:
                 var6 = var11[var6];
                 var6 = var10.bind(var9)(var6);
                 var6 = var6.t;
-                var6 = var6.XsgrjY;
+                var6 = var6.XsgrjS;
                 var6 = var7.bind(var8)(var6);
                 var4['title'] = var6;
                 var4 = var5.bind(var1)(var4);
@@ -711,7 +711,7 @@ case 34:
                 var6 = var10[var6];
                 var6 = var9.bind(var4)(var6);
                 var6 = var6.t;
-                var6 = var6.rBIGBA;
+                var6 = var6.rBIGBL;
                 var6 = var7.bind(var8)(var6);
                 var2['label'] = var6;
                 var1 = var5.bind(var4)(var3, var2);
@@ -799,7 +799,7 @@ case 39:
                 var13 = var17[var13];
                 var13 = var16.bind(var2)(var13);
                 var13 = var13.t;
-                var13 = var13.B2panJ;
+                var13 = var13.B2panI;
                 var13 = var14.bind(var15)(var13);
                 var9['accessibilityLabel'] = var13;
                 var13 = 64;

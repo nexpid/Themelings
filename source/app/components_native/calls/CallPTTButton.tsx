@@ -315,7 +315,7 @@ case 12:
             var6 = var9.Pan;
             var17 = var6.bind(var9)();
             var15 = var17.onStart;
-            var9 = function G() {
+            var9 = function M() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var5 = _closure1_slot0;
@@ -368,7 +368,7 @@ case 18:
             var9['__initData'] = var18;
             var17 = var15.bind(var17)(var9);
             var15 = var17.onEnd;
-            var9 = function M() {
+            var9 = function L() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var1 = 14;
@@ -466,7 +466,7 @@ case 30:
             var11 = var15[var11];
             var11 = var14.bind(var5)(var11);
             var11 = var11.t;
-            var11 = var11.Q8gkVF;
+            var11 = var11.Q8gkVL;
             var11 = var12.bind(var13)(var11);
             var8['text'] = var11;
             var11 = function onTouchStart() {

@@ -94,7 +94,7 @@ case 0:
                         var2 = var4[var2];
                         var2 = var3.bind(var1)(var2);
                         var2 = var2.t;
-                        var4 = var2.wr4IT0;
+                        var4 = var2.wr4IT5;
                         var3 = {};
                         var10 = _closure2_slot0;
                         var9 = var10.length;
@@ -164,7 +164,7 @@ case 8:
             var1 = var1[var11];
             var1 = var2.bind(var4)(var1);
             var1 = var1.t;
-            var2 = var1.HqyWeH;
+            var2 = var1.HqyWeO;
             var1 = {};
             var9 = var15.length;
             var1['count'] = var9;
@@ -205,7 +205,7 @@ case 11:
             var8 = var8[var11];
             var8 = var9.bind(var4)(var8);
             var8 = var8.t;
-            var9 = var8.BlAMmZ;
+            var9 = var8.BlAMme;
             var8 = {};
             var18 = var15.length;
             var8['count'] = var18;
@@ -247,7 +247,7 @@ case 15:
             var7 = var7[var11];
             var7 = var10.bind(var4)(var7);
             var7 = var7.t;
-            var7 = var7.5l/hlp;
+            var7 = var7.5l/hlt;
             var7 = var8.bind(var9)(var7);
             var1['description'] = var7;
             var1['disabled'] = var6;

@@ -142,7 +142,7 @@ case 4:
             var12 = var16[var12];
             var12 = var15.bind(var4)(var12);
             var12 = var12.t;
-            var12 = var12.B3zz0N;
+            var12 = var12.B3zz0G;
             var12 = var13.bind(var14)(var12);
             var1['accessibilityLabel'] = var12;
             var10 = function onPress() {

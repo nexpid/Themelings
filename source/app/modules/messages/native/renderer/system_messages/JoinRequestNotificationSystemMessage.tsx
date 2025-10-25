@@ -44,7 +44,7 @@ case 8:
             var1 = var9[var1];
             var1 = var8.bind(var5)(var1);
             var1 = var1.t;
-            var1 = var1.BMlbEx;
+            var1 = var1.BMlbE7;
             var1 = var3.bind(var4)(var1);
             _fun0001_ip = 11; continue _fun0001;
 case 10:
@@ -59,7 +59,7 @@ case 10:
             var3 = var10[var3];
             var3 = var9.bind(var4)(var3);
             var3 = var3.t;
-            var4 = var3.u4movb;
+            var4 = var3.u4movT;
             var3 = {};
             var3['username'] = var7;
             var3['guildName'] = var6;
@@ -83,7 +83,7 @@ case 12:
             var1 = var9[var1];
             var1 = var8.bind(var5)(var1);
             var1 = var1.t;
-            var1 = var1.FVF6qa;
+            var1 = var1.FVF6qU;
             var1 = var3.bind(var4)(var1);
             _fun0001_ip = 15; continue _fun0001;
 case 14:
@@ -98,7 +98,7 @@ case 14:
             var3 = var10[var3];
             var3 = var9.bind(var4)(var3);
             var3 = var3.t;
-            var4 = var3.UGN/Y2;
+            var4 = var3.UGN/Yy;
             var3 = {};
             var3['username'] = var7;
             var3['guildName'] = var6;
@@ -137,7 +137,7 @@ case 18:
             var2 = var9[var2];
             var2 = var8.bind(var3)(var2);
             var2 = var2.t;
-            var3 = var2.EloBGx;
+            var3 = var2.EloBG4;
             var2 = {};
             var2['username'] = var7;
             var2['guildName'] = var6;

@@ -767,7 +767,7 @@ case 42:
                     var2 = var9[var2];
                     var2 = var8.bind(var7)(var2);
                     var2 = var2.t;
-                    var2 = var2.JiosAg;
+                    var2 = var2.JiosAn;
                     var2 = var5.bind(var6)(var2);
                     var1['text'] = var2;
                     var2 = function onPress() {
@@ -804,7 +804,7 @@ case 40:
                     var6 = var11[var6];
                     var6 = var10.bind(var7)(var6);
                     var6 = var6.t;
-                    var6 = var6.kUQLMD;
+                    var6 = var6.kUQLMJ;
                     var6 = var8.bind(var9)(var6);
                     var2['text'] = var6;
                     var6 = false;
@@ -971,7 +971,7 @@ case 35:
                     var5 = var10[var5];
                     var5 = var9.bind(var8)(var5);
                     var5 = var5.t;
-                    var5 = var5.cfY4PD;
+                    var5 = var5.cfY4PE;
                     var5 = var6.bind(var7)(var5);
                     var2['text'] = var5;
                     var5 = _closure2_slot12;
@@ -1032,7 +1032,7 @@ case 33:
                     var5 = var10[var5];
                     var5 = var9.bind(var8)(var5);
                     var5 = var5.t;
-                    var5 = var5.vTgCW1;
+                    var5 = var5.vTgCWx;
                     var5 = var6.bind(var7)(var5);
                     var2['text'] = var5;
                     var4 = _closure2_slot21;
@@ -1081,7 +1081,7 @@ case 62:
             var3 = var3[var19];
             var3 = var6.bind(var5)(var3);
             var3 = var3.t;
-            var6 = var3.EAYZAg;
+            var6 = var3.EAYZAr;
             var3 = {};
             var25 = var1.config;
             var25 = var25.messages;
@@ -1101,7 +1101,7 @@ case 63:
             var3 = var3[var19];
             var3 = var6.bind(var5)(var3);
             var3 = var3.t;
-            var6 = var3.0IUT4e;
+            var6 = var3.0IUT4Y;
             var3 = {};
             var25 = function rewardWithArticleHook() {
                 var1 = _closure2_slot10;
@@ -1120,7 +1120,7 @@ case 65:
             var3 = var3[var19];
             var3 = var6.bind(var5)(var3);
             var3 = var3.t;
-            var6 = var3.ge+AJi;
+            var6 = var3.ge+AJp;
             var3 = {};
             var25 = var1.config;
             var25 = var25.messages;
@@ -1143,7 +1143,7 @@ case 70:
             var3 = var3[var19];
             var3 = var6.bind(var5)(var3);
             var3 = var3.t;
-            var6 = var3.l1jCMz;
+            var6 = var3.l1jCM/;
             var3 = {};
             var3['date'] = var8;
             var39 = var7.bind(var24)(var6, var3);
@@ -1166,7 +1166,7 @@ case 74:
             var3 = var3[var19];
             var3 = var4.bind(var5)(var3);
             var3 = var3.t;
-            var4 = var3.RrxtPT;
+            var4 = var3.RrxtPU;
             var3 = {};
             var3['reward'] = var18;
             var3['date'] = var8;
@@ -1232,7 +1232,7 @@ case 78:
             var2 = var2[var19];
             var2 = var3.bind(var5)(var2);
             var2 = var2.t;
-            var3 = var2.8K9PEx;
+            var3 = var2.8K9PE9;
             var2 = {};
             var2['expirationDate'] = var8;
             var35 = var4.bind(var6)(var3, var2);
@@ -1257,7 +1257,7 @@ case 84:
             var2 = var2[var19];
             var2 = var3.bind(var5)(var2);
             var2 = var2.t;
-            var3 = var2.APddvL;
+            var3 = var2.APddvF;
             var2 = {};
             var2['expirationDate'] = var7;
             var35 = var4.bind(var6)(var3, var2);
@@ -1432,7 +1432,7 @@ case 86:
             var46 = var32[var19];
             var46 = var33.bind(var5)(var46);
             var46 = var46.t;
-            var46 = var46.VAbKhI;
+            var46 = var46.VAbKhK;
             var46 = var47.bind(var49)(var46);
             var44['children'] = var46;
             var45 = var28.bind(var5)(var45, var44);
@@ -1597,7 +1597,7 @@ case 95:
             var28 = var26[var19];
             var28 = var29.bind(var5)(var28);
             var28 = var28.t;
-            var28 = var28.V293qq;
+            var28 = var28.V293qn;
             var28 = var30.bind(var31)(var28);
             var21['text'] = var28;
             var24 = var25.bind(var5)(var24, var21);
@@ -1645,7 +1645,7 @@ case 95:
             var26 = var26[var19];
             var26 = var29.bind(var5)(var26);
             var26 = var26.t;
-            var26 = var26.vY9GgI;
+            var26 = var26.vY9GgG;
             var26 = var27.bind(var28)(var26);
             var23['text'] = var26;
             var23 = var25.bind(var5)(var24, var23);
@@ -1696,7 +1696,7 @@ case 102:
             var19 = var21[var19];
             var19 = var23.bind(var5)(var19);
             var19 = var19.t;
-            var19 = var19.YsCuyM;
+            var19 = var19.YsCuyF;
             var19 = var20.bind(var22)(var19);
             var12['accessibilityLabel'] = var19;
             var20 = _closure1_slot1;

@@ -61,7 +61,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var9[var5];
         var6 = var8.bind(var3)(var6);
         var6 = var6.t;
-        var6 = var6.LdlH2N;
+        var6 = var6.LdlH2M;
         var6 = var7.bind(var10)(var6);
         var1['label'] = var6;
         var6 = var9[var5];

@@ -307,7 +307,7 @@ case 14:
             var2 = var10[var2];
             var2 = var3.bind(var8)(var2);
             var2 = var2.t;
-            var3 = var2.z7y34e;
+            var3 = var2.z7y34b;
             var2 = {};
             var10 = var25.mutualFriendsCount;
             var2['count'] = var10;
@@ -492,7 +492,7 @@ case 20:
             var31 = var21[var31];
             var31 = var22.bind(var8)(var31);
             var31 = var31.t;
-            var31 = var31.Kzyxm5;
+            var31 = var31.Kzyxm9;
             var31 = var32.bind(var33)(var31);
             var28['actionStatus'] = var31;
             var31 = !var19;

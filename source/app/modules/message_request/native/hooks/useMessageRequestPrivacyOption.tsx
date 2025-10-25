@@ -107,7 +107,7 @@ case 4:
         var9 = var12[var8];
         var9 = var11.bind(var4)(var9);
         var9 = var9.t;
-        var9 = var9.7UgSGB;
+        var9 = var9.7UgSGP;
         var9 = var10.bind(var13)(var9);
         var1['label'] = var9;
         var9 = var12[var8];
@@ -117,7 +117,7 @@ case 4:
         var8 = var12[var8];
         var8 = var11.bind(var4)(var8);
         var8 = var8.t;
-        var8 = var8.INRaYW;
+        var8 = var8.INRaYb;
         var8 = var9.bind(var10)(var8);
         var1['subLabel'] = var8;
         var7 = !var7;

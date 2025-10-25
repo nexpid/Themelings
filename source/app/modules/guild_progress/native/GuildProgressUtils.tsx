@@ -320,7 +320,7 @@ case 0:
             var5 = var6[var12];
             var5 = var13.bind(var10)(var5);
             var5 = var5.t;
-            var5 = var5.q9n0TU;
+            var5 = var5.q9n0Ta;
             var8 = var8.bind(var11)(var5);
             var5 = new Array(3);
             var5[0] = var8;
@@ -331,7 +331,7 @@ case 0:
             var8 = var6[var12];
             var8 = var13.bind(var10)(var8);
             var8 = var8.t;
-            var8 = var8.DWB2YW;
+            var8 = var8.DWB2YZ;
             var8 = var11.bind(var14)(var8);
             var5[1] = var8;
             var8 = var6[var12];
@@ -341,7 +341,7 @@ case 0:
             var6 = var6[var12];
             var6 = var13.bind(var10)(var6);
             var6 = var6.t;
-            var6 = var6.dNktpq;
+            var6 = var6.dNktpr;
             var6 = var8.bind(var11)(var6);
             var5[2] = var6;
             var8 = 0;
@@ -388,7 +388,7 @@ case 30:
             var1 = var1[var12];
             var1 = var6.bind(var10)(var1);
             var1 = var1.t;
-            var1 = var1.+Gyklp;
+            var1 = var1.+Gyklt;
             var8 = var3.bind(var5)(var1);
 case 29:
             var1 = {};
@@ -412,7 +412,7 @@ case 13:
             var3 = var3[var12];
             var3 = var7.bind(var10)(var3);
             var3 = var3.t;
-            var3 = var3.+Gyklp;
+            var3 = var3.+Gyklt;
             var3 = var5.bind(var6)(var3);
             _fun0004_ip = 32; continue _fun0004;
 case 31:
@@ -425,7 +425,7 @@ case 31:
             var4 = var4[var12];
             var4 = var5.bind(var10)(var4);
             var4 = var4.t;
-            var5 = var4.zhHW5e;
+            var5 = var4.zhHW5c;
             var4 = {};
             var10 = 1;
             var10 = var11 + var10;

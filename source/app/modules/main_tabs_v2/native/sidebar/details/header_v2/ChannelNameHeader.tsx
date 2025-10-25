@@ -658,7 +658,7 @@ case 27:
         var8 = var14[var8];
         var8 = var9.bind(var4)(var8);
         var8 = var8.t;
-        var9 = var8.YbkB3d;
+        var9 = var8.YbkB3U;
         var8 = {};
         var8['channelName'] = var13;
         var12 = function channelNameHook() {

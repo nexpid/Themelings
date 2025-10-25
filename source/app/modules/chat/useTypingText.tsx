@@ -300,7 +300,7 @@ case 47:
             var2 = var2[var9];
             var2 = var6.bind(var8)(var2);
             var2 = var2.t;
-            var2 = var2.uVDhqa;
+            var2 = var2.uVDhqZ;
             var2 = var4.bind(var5)(var2);
             _fun0004_ip = 48; continue _fun0004;
 case 46:
@@ -313,7 +313,7 @@ case 46:
             var4 = var4[var9];
             var4 = var5.bind(var8)(var4);
             var4 = var4.t;
-            var5 = var4.StKTho;
+            var5 = var4.StKThj;
             var4 = {};
             var4['a'] = var7;
             var4['b'] = var11;
@@ -331,7 +331,7 @@ case 44:
             var4 = var4[var9];
             var4 = var5.bind(var8)(var4);
             var4 = var4.t;
-            var5 = var4.rB0CUV;
+            var5 = var4.rB0CUa;
             var4 = {};
             var4['a'] = var7;
             var4['b'] = var11;
@@ -348,7 +348,7 @@ case 42:
             var3 = var3[var9];
             var3 = var4.bind(var8)(var3);
             var3 = var3.t;
-            var4 = var3.lJ9sZW;
+            var4 = var3.lJ9sZX;
             var3 = {};
             var3['a'] = var7;
             var2 = var5.bind(var6)(var4, var3);

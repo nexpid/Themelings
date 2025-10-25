@@ -181,7 +181,7 @@ case 2:
         var6 = var10[var6];
         var6 = var9.bind(var3)(var6);
         var6 = var6.t;
-        var6 = var6.iMJO39;
+        var6 = var6.iMJO37;
         var6 = var7.bind(var8)(var6);
         var1['text'] = var6;
         var5 = function onPress() {

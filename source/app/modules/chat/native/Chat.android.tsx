@@ -49,6 +49,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10 = _closure1_slot7;
         var10 = var10.chatList;
         var5['style'] = var10;
+        var10 = 'DCDChatList';
+        var5['testID'] = var10;
         var10 = _closure1_slot5;
         var8 = 7;
         var8 = var11[var8];
@@ -136,6 +138,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1[var7] = var8;
         var8 = arg2;
         var7 = 'ref';
+        var1[var7] = var8;
+        var8 = 'DCDChat';
+        var7 = 'testID';
         var1[var7] = var8;
         var8 = _closure1_slot5;
         var7 = _closure1_slot8;

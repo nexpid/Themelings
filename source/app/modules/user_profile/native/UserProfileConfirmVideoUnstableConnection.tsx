@@ -51,7 +51,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var15[var9];
         var6 = var14.bind(var3)(var6);
         var6 = var6.t;
-        var6 = var6.m2Hyj4;
+        var6 = var6.m2Hyj0;
         var6 = var7.bind(var11)(var6);
         var1['title'] = var6;
         var6 = var15[var9];
@@ -61,7 +61,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var15[var9];
         var6 = var14.bind(var3)(var6);
         var6 = var6.t;
-        var6 = var6.EhaK6O;
+        var6 = var6.EhaK6B;
         var6 = var7.bind(var11)(var6);
         var1['content'] = var6;
         var7 = _closure1_slot3;
@@ -81,7 +81,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var13 = var15[var9];
         var13 = var14.bind(var3)(var13);
         var13 = var13.t;
-        var13 = var13.ND1my8;
+        var13 = var13.ND1my3;
         var13 = var16.bind(var17)(var13);
         var11['text'] = var13;
         var11['onPress'] = var8;
@@ -102,7 +102,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = var15[var9];
         var9 = var14.bind(var3)(var9);
         var9 = var9.t;
-        var9 = var9.jEqEh4;
+        var9 = var9.jEqEhy;
         var9 = var12.bind(var13)(var9);
         var10['text'] = var9;
         var9 = 'cancel';

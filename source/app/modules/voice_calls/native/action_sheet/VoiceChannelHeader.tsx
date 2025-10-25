@@ -286,7 +286,7 @@ case 14:
             var2 = var7[var2];
             var2 = var3.bind(var4)(var2);
             var2 = var2.t;
-            var3 = var2.8bn8Bg;
+            var3 = var2.8bn8Br;
             var2 = {};
             var7 = var12.recipients;
             var8 = var7.length;
@@ -448,7 +448,7 @@ case 22:
         var5 = var9[var5];
         var5 = var8.bind(var4)(var5);
         var5 = var5.t;
-        var5 = var5.6Qgren;
+        var5 = var5.6Qgrev;
         var5 = var6.bind(var7)(var5);
         var1['accessibilityLabel'] = var5;
         var1 = var3.bind(var4)(var2, var1);

@@ -481,7 +481,7 @@ case 53: // catch_target0
             var2 = var7[var2];
             var2 = var6.bind(var5)(var2);
             var2 = var2.t;
-            var2 = var2.T15lqq;
+            var2 = var2.T15lqn;
             var2 = var3.bind(var4)(var2);
             var1['message'] = var2;
             return var1;
@@ -539,7 +539,7 @@ case 53: // catch_target0
             var2 = var7[var2];
             var2 = var6.bind(var5)(var2);
             var2 = var2.t;
-            var2 = var2.PgfBS0;
+            var2 = var2.PgfBSx;
             var2 = var3.bind(var4)(var2);
             var1['message'] = var2;
             return var1;
@@ -567,7 +567,7 @@ case 53: // catch_target0
             var2 = var7[var2];
             var2 = var6.bind(var5)(var2);
             var2 = var2.t;
-            var2 = var2.mCrAUV;
+            var2 = var2.mCrAUb;
             var2 = var3.bind(var4)(var2);
             var1['message'] = var2;
             return var1;

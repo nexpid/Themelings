@@ -524,7 +524,7 @@ case 27:
             var42 = var27[var37];
             var42 = var38.bind(var5)(var42);
             var42 = var42.t;
-            var42 = var42.zROXER;
+            var42 = var42.zROXEV;
             var42 = var43.bind(var44)(var42);
             var32['text'] = var42;
             var42 = 'secondary';
@@ -538,7 +538,7 @@ case 27:
             var37 = var27[var37];
             var37 = var38.bind(var5)(var37);
             var37 = var37.t;
-            var38 = var37.zFfSFR;
+            var38 = var37.zFfSFQ;
             var37 = {};
             var41 = var27[var41];
             var42 = var11.bind(var5)(var41);

@@ -240,7 +240,7 @@ case 26:
             var8 = var12[var8];
             var8 = var11.bind(var4)(var8);
             var8 = var8.t;
-            var8 = var8.eXan7O;
+            var8 = var8.eXan7B;
             var7 = var9.bind(var10)(var8);
 case 29:
             var5 = var7;

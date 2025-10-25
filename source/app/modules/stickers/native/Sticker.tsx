@@ -149,7 +149,7 @@ case 14:
             var2 = var1[var2];
             var2 = var3.bind(var4)(var2);
             var2 = var2.t;
-            var5 = var2.rk6pOz;
+            var5 = var2.rk6pOw;
             var2 = {};
             var14 = var11.name;
             var2['stickerName'] = var14;

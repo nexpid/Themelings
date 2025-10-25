@@ -152,7 +152,7 @@ case 8:
                 var11 = var16[var11];
                 var11 = var15.bind(var4)(var11);
                 var11 = var11.t;
-                var11 = var11.xPHVBg;
+                var11 = var11.xPHVBs;
                 var11 = var13.bind(var14)(var11);
                 var6['accessibilityLabel'] = var11;
                 var11 = function onValueChange(arg1) {

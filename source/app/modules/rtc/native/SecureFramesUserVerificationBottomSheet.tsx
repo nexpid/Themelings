@@ -509,7 +509,7 @@ case 26:
                     var4 = var10[var4];
                     var4 = var9.bind(var5)(var4);
                     var4 = var4.t;
-                    var5 = var4.Gwu139;
+                    var5 = var4.Gwu134;
                     var4 = {};
                     var8 = _closure2_slot13;
                     var4['username'] = var8;
@@ -626,7 +626,7 @@ case 30:
             var19 = var19[var20];
             var19 = var24.bind(var4)(var19);
             var19 = var19.t;
-            var19 = var19.0tvNAg;
+            var19 = var19.0tvNAn;
             var19 = var22.bind(var23)(var19);
             var12['text'] = var19;
             if(var18) { _fun0001_ip = 31; continue _fun0001 }
@@ -656,7 +656,7 @@ case 31:
             var16 = var16[var20];
             var16 = var19.bind(var4)(var16);
             var16 = var16.t;
-            var16 = var16.ETE/oK;
+            var16 = var16.ETE/oC;
             var16 = var17.bind(var18)(var16);
             var13['text'] = var16;
             var13 = var15.bind(var4)(var14, var13);

@@ -250,7 +250,7 @@ case 5:
             var15 = var19[var15];
             var15 = var18.bind(var4)(var15);
             var15 = var15.t;
-            var15 = var15.YEOwDA;
+            var15 = var15.YEOwDM;
             var15 = var16.bind(var17)(var15);
             var11['headerText'] = var15;
             var14 = var14.headerText;

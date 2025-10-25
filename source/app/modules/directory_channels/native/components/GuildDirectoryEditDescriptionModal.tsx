@@ -119,7 +119,7 @@ case 2:
         var20 = var17[var13];
         var20 = var16.bind(var4)(var20);
         var20 = var20.t;
-        var21 = var20.w9tsNj;
+        var21 = var20.w9tsNk;
         var20 = {};
         var24 = var12.name;
         var20['guildName'] = var24;
@@ -144,7 +144,7 @@ case 2:
         var13 = var17[var13];
         var13 = var16.bind(var4)(var13);
         var13 = var13.t;
-        var13 = var13.R3BPHx;
+        var13 = var13.R3BPH+;
         var13 = var14.bind(var15)(var13);
         var9['buttonLabel'] = var13;
         var9['entry'] = var12;

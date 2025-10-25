@@ -80,7 +80,7 @@ case 4:
             var5 = var9[var2];
             var5 = var7.bind(var8)(var5);
             var5 = var5.t;
-            var5 = var5.bVZ7v7;
+            var5 = var5.bVZ7vy;
             var5 = var10.bind(var11)(var5);
             var3[var6] = var5;
             var6 = var4.PLAYSTATION;
@@ -91,7 +91,7 @@ case 4:
             var5 = var9[var2];
             var5 = var7.bind(var8)(var5);
             var5 = var5.t;
-            var5 = var5.6iqUsb;
+            var5 = var5.6iqUsf;
             var5 = var10.bind(var11)(var5);
             var3[var6] = var5;
             var4 = var4.PLAYSTATION_STAGING;
@@ -102,7 +102,7 @@ case 4:
             var2 = var9[var2];
             var2 = var7.bind(var8)(var2);
             var2 = var2.t;
-            var2 = var2.6iqUsb;
+            var2 = var2.6iqUsf;
             var2 = var5.bind(var6)(var2);
             var3[var4] = var2;
             var2 = arg1;

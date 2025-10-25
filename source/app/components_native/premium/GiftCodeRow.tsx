@@ -335,7 +335,7 @@ case 13:
                 var21 = var21[var13];
                 var21 = var24.bind(var4)(var21);
                 var21 = var21.t;
-                var21 = var21.h5EvZG;
+                var21 = var21.h5EvZM;
                 var21 = var22.bind(var23)(var21);
                 var15['text'] = var21;
                 var20 = var20.handleShare;
@@ -370,7 +370,7 @@ case 16:
                 var13 = var22[var13];
                 var13 = var14.bind(var4)(var13);
                 var13 = var13.t;
-                var14 = var13.b1BfWF;
+                var14 = var13.b1BfWD;
                 var13 = {};
                 var21 = var19.expiresAt;
                 var20 = var21.diff;

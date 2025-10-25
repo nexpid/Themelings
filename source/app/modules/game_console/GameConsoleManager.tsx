@@ -659,7 +659,7 @@ case 43:
                         var6 = var9[var5];
                         var6 = var8.bind(var1)(var6);
                         var6 = var6.t;
-                        var6 = var6.wGMxr6;
+                        var6 = var6.wGMxr3;
                         var6 = var7.bind(var10)(var6);
                         var2['title'] = var6;
                         var6 = var9[var5];
@@ -669,7 +669,7 @@ case 43:
                         var5 = var9[var5];
                         var5 = var8.bind(var1)(var5);
                         var5 = var5.t;
-                        var5 = var5.i5k8b2;
+                        var5 = var5.i5k8b5;
                         var5 = var6.bind(var7)(var5);
                         var2['body'] = var5;
                         var2 = var3.bind(var4)(var2);
@@ -744,7 +744,7 @@ case 53:
                         var12 = var15[var11];
                         var12 = var14.bind(var4)(var12);
                         var12 = var12.t;
-                        var12 = var12.UQMV/P;
+                        var12 = var12.UQMV/E;
                         var12 = var13.bind(var16)(var12);
                         var10['platform'] = var12;
                         var12 = var15[var11];
@@ -754,7 +754,7 @@ case 53:
                         var11 = var15[var11];
                         var11 = var14.bind(var4)(var11);
                         var11 = var11.t;
-                        var11 = var11.UQMV/P;
+                        var11 = var11.UQMV/E;
                         var11 = var12.bind(var13)(var11);
                         var10['name'] = var11;
                         var6 = var10;

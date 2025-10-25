@@ -96,7 +96,7 @@ case 0:
                         var9 = var12[var8];
                         var9 = var11.bind(var1)(var9);
                         var9 = var9.t;
-                        var9 = var9.ETE/oK;
+                        var9 = var9.ETE/oC;
                         var10 = var10.bind(var13)(var9);
                         var9 = 'cancelText';
                         var2[var9] = var10;
@@ -107,7 +107,7 @@ case 0:
                         var8 = var12[var8];
                         var8 = var11.bind(var1)(var8);
                         var8 = var8.t;
-                        var8 = var8.BddRzc;
+                        var8 = var8.BddRzS;
                         var9 = var9.bind(var10)(var8);
                         var8 = 'confirmText';
                         var2[var8] = var9;

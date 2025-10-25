@@ -187,7 +187,7 @@ case 4:
             var6 = var14[var6];
             var6 = var12.bind(var4)(var6);
             var6 = var6.t;
-            var6 = var6.pWG4zc;
+            var6 = var6.pWG4ze;
             var6 = var7.bind(var8)(var6);
             var1['accessibilityLabel'] = var6;
             var1['onPress'] = var5;

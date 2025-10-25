@@ -119,7 +119,7 @@ case 10: // catch_target0
                     var5 = var10[var5];
                     var5 = var8.bind(var9)(var5);
                     var5 = var5.t;
-                    var5 = var5.CKsXk5;
+                    var5 = var5.CKsXk3;
                     var5 = var6.bind(var7)(var5);
                     var2['content'] = var5;
                     var2 = var3.bind(var4)(var2);

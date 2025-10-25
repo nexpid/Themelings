@@ -71,7 +71,7 @@ case 3:
             var10 = var16[var10];
             var10 = var15.bind(var4)(var10);
             var10 = var10.t;
-            var10 = var10.o572FR;
+            var10 = var10.o572Fe;
             var10 = var11.bind(var14)(var10);
             _fun0001_ip = 4; continue _fun0001;
 case 2:
@@ -85,7 +85,7 @@ case 2:
             var11 = var17[var11];
             var11 = var16.bind(var4)(var11);
             var11 = var11.t;
-            var11 = var11.wuQm+v;
+            var11 = var11.wuQm+j;
             var10 = var14.bind(var15)(var11);
 case 4:
             var6['children'] = var10;
@@ -112,7 +112,7 @@ case 4:
             var14 = var15[var14];
             var14 = var18.bind(var4)(var14);
             var14 = var14.t;
-            var14 = var14.SvXS1d;
+            var14 = var14.SvXS1Z;
             var14 = var16.bind(var17)(var14);
             var9['accessibilityLabel'] = var14;
             var14 = _closure1_slot1;

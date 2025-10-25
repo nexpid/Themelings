@@ -434,7 +434,7 @@ case 2:
             var1 = var1[var20];
             var1 = var5.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1.H1jCHB;
+            var1 = var1.H1jCHH;
             var2 = var2.bind(var3)(var1);
             var3 = var18 == var6;
             var1 = undefined;
@@ -471,7 +471,7 @@ case 45:
             var1 = var1[var20];
             var1 = var2.bind(var4)(var1);
             var1 = var1.t;
-            var2 = var1.4T4+p6;
+            var2 = var1.4T4+p1;
             var1 = {};
             var1['guildName'] = var7;
             var6 = var6.approximate_member_count;
@@ -544,7 +544,7 @@ case 40:
             var26 = var23[var20];
             var26 = var22.bind(var4)(var26);
             var26 = var26.t;
-            var27 = var26.6kzaqq;
+            var27 = var26.6kzaqs;
             var26 = {};
             var30 = function onClick() {
                 var5 = _closure1_slot1;
@@ -582,7 +582,7 @@ case 40:
             var25 = var23[var20];
             var25 = var22.bind(var4)(var25);
             var25 = var25.t;
-            var25 = var25.K/7rLC;
+            var25 = var25.K/7rLI;
             var25 = var26.bind(var27)(var25);
             var11['label'] = var25;
             var25 = var23[var20];
@@ -592,7 +592,7 @@ case 40:
             var25 = var23[var20];
             var25 = var22.bind(var4)(var25);
             var25 = var25.t;
-            var25 = var25.ImAOh4;
+            var25 = var25.ImAOh5;
             var25 = var26.bind(var27)(var25);
             var11['placeholder'] = var25;
             var11['value'] = var24;
@@ -603,7 +603,7 @@ case 40:
             var24 = var23[var20];
             var24 = var22.bind(var4)(var24);
             var24 = var24.t;
-            var25 = var24.RPT0vr;
+            var25 = var24.RPT0vj;
             var24 = {};
             var28 = _closure1_slot12;
             var29 = var28.TERMS;
@@ -711,7 +711,7 @@ case 48:
             var16 = var16[var20];
             var16 = var19.bind(var4)(var16);
             var16 = var16.t;
-            var16 = var16.8vmKOz;
+            var16 = var16.8vmKO0;
             var16 = var17.bind(var18)(var16);
             var12['text'] = var16;
             var12['onPress'] = var15;

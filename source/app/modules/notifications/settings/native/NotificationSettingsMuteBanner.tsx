@@ -113,7 +113,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10 = var14[var10];
         var10 = var13.bind(var4)(var10);
         var10 = var10.t;
-        var10 = var10.YqAjX1;
+        var10 = var10.YqAjXy;
         var10 = var11.bind(var12)(var10);
         var6['text'] = var10;
         var9 = var9.onPressUnmute;
@@ -151,7 +151,7 @@ case 5:
             var1 = var10[var5];
             var1 = var7.bind(var6)(var1);
             var1 = var1.t;
-            var2 = var1.C7m4oq;
+            var2 = var1.C7m4oh;
             var1 = {};
             var9 = global;
             var11 = var9.Date;

@@ -169,7 +169,7 @@ case 17:
             var9 = var13[var9];
             var9 = var12.bind(var5)(var9);
             var9 = var9.t;
-            var9 = var9.+7wtJi;
+            var9 = var9.+7wtJq;
             var9 = var10.bind(var11)(var9);
             var4['children'] = var9;
             var4 = var3.bind(var5)(var8, var4);

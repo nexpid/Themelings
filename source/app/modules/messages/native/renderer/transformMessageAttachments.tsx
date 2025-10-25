@@ -279,7 +279,7 @@ case 44:
                 var22 = var29[var22];
                 var22 = var28.bind(var5)(var22);
                 var22 = var22.t;
-                var22 = var22.gESDiY;
+                var22 = var22.gESDiU;
                 var22 = var26.bind(var27)(var22);
                 var1['attachmentTagText'] = var22;
                 var22 = 'clip';
@@ -333,7 +333,7 @@ case 45:
                 var22 = var21[var20];
                 var22 = var24.bind(var5)(var22);
                 var22 = var22.t;
-                var22 = var22.jCV1T0;
+                var22 = var22.jCV1Tz;
                 var23 = var23.bind(var25)(var22);
                 var22 = var23.toUpperCase;
                 var22 = var22.bind(var23)();
@@ -345,7 +345,7 @@ case 45:
                 var21 = var21[var20];
                 var21 = var24.bind(var5)(var21);
                 var21 = var21.t;
-                var21 = var21.fSiQ3N;
+                var21 = var21.fSiQ3A;
                 var21 = var22.bind(var23)(var21);
                 var1['altTextHint'] = var21;
                 var21 = _closure2_slot3;
@@ -365,11 +365,11 @@ case 45:
                 var17 = var14.t;
                 if(var15) { _fun0002_ip = 50; continue _fun0002 }
 case 51:
-                var14 = var17.IPzNKC;
+                var14 = var17.IPzNKE;
                 var14 = var18.bind(var19)(var14);
                 _fun0002_ip = 52; continue _fun0002;
 case 50:
-                var17 = var17.BEWw//;
+                var17 = var17.BEWw/7;
                 var14 = var18.bind(var19)(var17);
 case 52:
                 var1['hint'] = var14;
@@ -384,11 +384,11 @@ case 52:
                 var17 = var14.t;
                 if(var15) { _fun0002_ip = 53; continue _fun0002 }
 case 54:
-                var14 = var17.fKyfcX;
+                var14 = var17.fKyfca;
                 var14 = var18.bind(var19)(var14);
                 _fun0002_ip = 55; continue _fun0002;
 case 53:
-                var17 = var17./SCpvr;
+                var17 = var17./SCpvi;
                 var14 = var18.bind(var19)(var17);
 case 55:
                 var1['role'] = var14;

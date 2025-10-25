@@ -44,7 +44,7 @@ case 0:
             var7 = var5[var14];
             var7 = var6.bind(var1)(var7);
             var7 = var7.t;
-            var7 = var7.XkIWkp;
+            var7 = var7.XkIWkk;
             var7 = var8.bind(var9)(var7);
             var2['title'] = var7;
             var7 = var5[var14];
@@ -54,7 +54,7 @@ case 0:
             var7 = var5[var14];
             var7 = var6.bind(var1)(var7);
             var7 = var7.t;
-            var7 = var7.ETE/oK;
+            var7 = var7.ETE/oC;
             var7 = var8.bind(var9)(var7);
             var2['cancelText'] = var7;
             var7 = var5[var14];
@@ -64,7 +64,7 @@ case 0:
             var7 = var5[var14];
             var7 = var6.bind(var1)(var7);
             var7 = var7.t;
-            var7 = var7.cY+Ooa;
+            var7 = var7.cY+Oob;
             var7 = var8.bind(var9)(var7);
             var2['confirmText'] = var7;
             var7 = arg3;
@@ -78,7 +78,7 @@ case 0:
             var5 = var5[var14];
             var5 = var6.bind(var1)(var5);
             var5 = var5.t;
-            var6 = var5.5/Xorq;
+            var6 = var5.5/Xort;
             var5 = {};
             var9 = null;
             var15 = var9 == var13;
@@ -98,7 +98,7 @@ case 5:
             var13 = var13[var14];
             var13 = var17.bind(var1)(var13);
             var13 = var13.t;
-            var13 = var13.G99XFh;
+            var13 = var13.G99XFs;
             var12 = var15.bind(var16)(var13);
 case 4:
             var5['currentApplicationName'] = var12;
@@ -134,7 +134,7 @@ case 8:
             var10 = var10[var14];
             var10 = var13.bind(var1)(var10);
             var10 = var10.t;
-            var10 = var10.OGUjmp;
+            var10 = var10.OGUjmt;
             var9 = var11.bind(var12)(var10);
 case 12:
             var5['currentApplicationChannelName'] = var9;

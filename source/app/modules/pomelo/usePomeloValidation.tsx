@@ -170,7 +170,7 @@ case 13:
                         var6 = var11[var6];
                         var6 = var10.bind(var3)(var6);
                         var6 = var6.t;
-                        var6 = var6.ye0Rzs;
+                        var6 = var6.ye0Rzr;
                         var6 = var7.bind(var9)(var6);
                         _fun0002_ip = 18; continue _fun0002;
 case 17:
@@ -208,7 +208,7 @@ case 6:
                         var4 = var9[var4];
                         var4 = var8.bind(var3)(var4);
                         var4 = var4.t;
-                        var5 = var4.IpijXF;
+                        var5 = var4.IpijXA;
                         var4 = {};
                         var10 = 32;
                         var4['maxNum'] = var10;

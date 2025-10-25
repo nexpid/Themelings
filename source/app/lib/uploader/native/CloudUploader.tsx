@@ -421,7 +421,7 @@ case 45:
                                 var11 = var10[var4];
                                 var11 = var9.bind(var3)(var11);
                                 var11 = var11.t;
-                                var11 = var11.B/HSDQ;
+                                var11 = var11.B/HSDd;
                                 var11 = var12.bind(var13)(var11);
                                 var2['title'] = var11;
                                 var11 = var10[var4];
@@ -431,7 +431,7 @@ case 45:
                                 var4 = var10[var4];
                                 var4 = var9.bind(var3)(var4);
                                 var4 = var4.t;
-                                var10 = var4.D0noUl;
+                                var10 = var4.D0noUt;
                                 var9 = {};
                                 var13 = _closure4_slot1;
                                 var13 = var13.length;

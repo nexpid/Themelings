@@ -288,7 +288,7 @@ case 23:
             var1 = var8[var1];
             var1 = var7.bind(var3)(var1);
             var1 = var1.t;
-            var3 = var1.TEOC0N;
+            var3 = var1.TEOC0I;
             var1 = {};
             var6 = var6.height;
             var1['resolution'] = var6;
@@ -306,7 +306,7 @@ case 22:
             var2 = var7[var2];
             var2 = var6.bind(var5)(var2);
             var2 = var2.t;
-            var2 = var2.XjXqzs;
+            var2 = var2.XjXqzh;
             var1 = var3.bind(var4)(var2);
 case 24:
             return var1;
@@ -325,7 +325,7 @@ case 24:
         var1 = var6[var1];
         var1 = var5.bind(var2)(var1);
         var1 = var1.t;
-        var2 = var1.Qb44XF;
+        var2 = var1.Qb44XH;
         var1 = {};
         var5 = arg1;
         var1['fps'] = var5;

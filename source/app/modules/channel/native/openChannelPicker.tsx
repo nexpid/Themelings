@@ -91,7 +91,7 @@ case 4:
             var14 = var18[var14];
             var14 = var17.bind(var1)(var14);
             var14 = var14.t;
-            var14 = var14.r2pts7;
+            var14 = var14.r2ptsz;
             var14 = var15.bind(var16)(var14);
             var12['title'] = var14;
             var12['onClose'] = var13;

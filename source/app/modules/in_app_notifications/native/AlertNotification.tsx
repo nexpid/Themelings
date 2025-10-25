@@ -85,7 +85,7 @@ case 5:
             var2 = var9[var2];
             var2 = var6.bind(var5)(var2);
             var2 = var2.t;
-            var2 = var2.evRhws;
+            var2 = var2.evRhwg;
             var6 = var3.bind(var4)(var2);
             _fun0001_ip = 6; continue _fun0001;
 case 4:
@@ -122,7 +122,7 @@ case 8:
             var9 = var10[var9];
             var9 = var13.bind(var5)(var9);
             var9 = var9.t;
-            var9 = var9.2IY4YG;
+            var9 = var9.2IY4YN;
             var9 = var11.bind(var12)(var9);
             var2['alertLabel'] = var9;
             var9 = _closure1_slot1;

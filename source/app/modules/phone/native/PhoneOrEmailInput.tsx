@@ -360,7 +360,7 @@ case 23:
                     var2 = var7[var2];
                     var2 = var6.bind(var5)(var2);
                     var2 = var2.t;
-                    var2 = var2.GwAW3t;
+                    var2 = var2.GwAW3k;
                     var2 = var3.bind(var4)(var2);
                     var1['accessibilityHint'] = var2;
                     return var1;

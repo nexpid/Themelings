@@ -241,11 +241,11 @@ case 0:
             var6 = var6.t;
             if(var5) { _fun0003_ip = 12; continue _fun0003 }
 case 13:
-            var5 = var6.xs0juL;
+            var5 = var6.xs0juG;
             var5 = var7.bind(var8)(var5);
             _fun0003_ip = 14; continue _fun0003;
 case 12:
-            var6 = var6.hPBScn;
+            var6 = var6.hPBScv;
             var5 = var7.bind(var8)(var6);
 case 14:
             var1['accessibilityLabel'] = var5;

@@ -69,7 +69,7 @@ case 2:
                 var3 = var12[var5];
                 var3 = var11.bind(var10)(var3);
                 var3 = var3.t;
-                var3 = var3.Xu3wEx;
+                var3 = var3.Xu3wE3;
                 var3 = var7.bind(var8)(var3);
                 var1['label'] = var3;
                 var3 = _closure1_slot4;
@@ -94,7 +94,7 @@ case 2:
                 var7 = var12[var5];
                 var7 = var11.bind(var10)(var7);
                 var7 = var7.t;
-                var7 = var7.6gUTsb;
+                var7 = var7.6gUTsS;
                 var7 = var9.bind(var13)(var7);
                 var1['label'] = var7;
                 var7 = var3.GIF;
@@ -116,7 +116,7 @@ case 2:
                 var5 = var12[var5];
                 var5 = var11.bind(var10)(var5);
                 var5 = var5.t;
-                var5 = var5.nf1s3t;
+                var5 = var5.nf1s3u;
                 var5 = var7.bind(var9)(var5);
                 var1['label'] = var5;
                 var5 = var3.STICKER;

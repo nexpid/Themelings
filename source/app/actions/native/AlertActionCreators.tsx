@@ -120,7 +120,7 @@ case 9:
             var3 = var12[var3];
             var3 = var11.bind(var1)(var3);
             var3 = var3.t;
-            var3 = var3.BddRzc;
+            var3 = var3.BddRzS;
             var2 = var9.bind(var10)(var3);
 case 8:
             var _closure2_slot0 = var2;
@@ -215,7 +215,7 @@ case 8:
             var7 = var11[var7];
             var7 = var10.bind(var1)(var7);
             var7 = var7.t;
-            var7 = var7.ETE/oK;
+            var7 = var7.ETE/oC;
             var7 = var8.bind(var9)(var7);
             var2['cancelText'] = var7;
             var6 = function onCancel() {

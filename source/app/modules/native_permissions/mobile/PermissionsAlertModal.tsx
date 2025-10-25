@@ -66,7 +66,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = var15[var9];
         var8 = var14.bind(var3)(var8);
         var8 = var8.t;
-        var8 = var8.jVcuVV;
+        var8 = var8.jVcuVY;
         var8 = var13.bind(var16)(var8);
         var11['text'] = var8;
         var8 = 'confirm';
@@ -86,7 +86,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = var15[var9];
         var9 = var14.bind(var3)(var9);
         var9 = var9.t;
-        var9 = var9.cpT0Cg;
+        var9 = var9.cpT0Cq;
         var9 = var12.bind(var13)(var9);
         var10['text'] = var9;
         var9 = 'close';

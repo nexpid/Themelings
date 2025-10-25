@@ -56,7 +56,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var9[var7];
         var7 = var8.bind(var4)(var7);
         var7 = var7.t;
-        var7 = var7.EUo0ys;
+        var7 = var7.EUo0yj;
         var1['label'] = var7;
         var6 = function labelHook() {
             var5 = _closure1_slot1;
@@ -97,7 +97,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var8[var6];
         var6 = var7.bind(var3)(var6);
         var6 = var6.t;
-        var6 = var6.OX4ybm;
+        var6 = var6.OX4ybh;
         var1['label'] = var6;
         var6 = function labelHook() {
             var3 = _closure1_slot1;

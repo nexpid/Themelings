@@ -100,7 +100,7 @@ case 10:
                 var10 = var14[var10];
                 var10 = var13.bind(var1)(var10);
                 var10 = var10.t;
-                var10 = var10.JQ/1n5;
+                var10 = var10.JQ/1n3;
                 var9 = var11.bind(var12)(var10);
 case 9:
                 var6['children'] = var9;
@@ -136,7 +136,7 @@ case 9:
             var5 = var9[var5];
             var5 = var6.bind(var3)(var5);
             var5 = var5.t;
-            var6 = var5.knOfkZ;
+            var6 = var5.knOfkb;
             var5 = {};
             var9 = _closure2_slot0;
             var9 = var9.guildIds;

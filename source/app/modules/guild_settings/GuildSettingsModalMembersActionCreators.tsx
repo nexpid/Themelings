@@ -220,7 +220,7 @@ case 0:
                     var3 = var3[var8];
                     var3 = var6.bind(var1)(var3);
                     var3 = var3.t;
-                    var3 = var3.5LO/Sk;
+                    var3 = var3.5LO/Ss;
                     var5 = var4.bind(var5)(var3);
                     var4 = _closure2_slot0;
                     var3 = null;
@@ -235,7 +235,7 @@ case 6:
                     var3 = var3[var8];
                     var3 = var7.bind(var1)(var3);
                     var3 = var3.t;
-                    var3 = var3.rJfW6e;
+                    var3 = var3.rJfW6S;
                     var5 = var4.bind(var6)(var3);
 case 5:
                     var3 = arg1;
@@ -252,7 +252,7 @@ case 8:
                     var3 = var3[var8];
                     var3 = var4.bind(var1)(var3);
                     var3 = var3.t;
-                    var4 = var3.Izf9jI;
+                    var4 = var3.Izf9jO;
                     var3 = {};
                     var5 = var6.bind(var7)(var4, var3);
 case 7:

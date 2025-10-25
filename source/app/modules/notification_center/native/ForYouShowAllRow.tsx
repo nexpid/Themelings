@@ -134,7 +134,7 @@ case 6:
             var26 = var21[var26];
             var26 = var20.bind(var8)(var26);
             var26 = var26.t;
-            var27 = var26.Nrzztb;
+            var27 = var26.NrzztX;
             var26 = {};
             var26['count'] = var30;
             var26 = var28.bind(var29)(var27, var26);

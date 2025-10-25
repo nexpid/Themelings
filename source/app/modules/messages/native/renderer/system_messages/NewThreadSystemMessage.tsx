@@ -73,7 +73,7 @@ case 2:
             var5 = var13[var5];
             var5 = var6.bind(var3)(var5);
             var5 = var5.t;
-            var6 = var5.veX9jo;
+            var6 = var5.veX9jq;
             var5 = {};
             var5['actorName'] = var9;
             var9 = {};

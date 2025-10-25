@@ -110,7 +110,7 @@ case 0:
             var19 = var26[var23];
             var19 = var22.bind(var4)(var19);
             var19 = var19.t;
-            var19 = var19.cpT0Cg;
+            var19 = var19.cpT0Cq;
             var19 = var25.bind(var27)(var19);
             var9['accessibilityLabel'] = var19;
             var19 = _closure1_slot9;
@@ -202,7 +202,7 @@ case 2:
             var28 = var19[var23];
             var28 = var22.bind(var4)(var28);
             var28 = var28.t;
-            var29 = var28.dSTy//;
+            var29 = var28.dSTy/w;
             var28 = {};
             var28['applicationName'] = var32;
             var28 = var30.bind(var31)(var29, var28);
@@ -249,7 +249,7 @@ case 2:
             var19 = var19[var23];
             var19 = var22.bind(var4)(var19);
             var19 = var19.t;
-            var19 = var19.geKm7u;
+            var19 = var19.geKm7t;
             var19 = var20.bind(var21)(var19);
             var13['text'] = var19;
             var17 = _closure1_slot5;

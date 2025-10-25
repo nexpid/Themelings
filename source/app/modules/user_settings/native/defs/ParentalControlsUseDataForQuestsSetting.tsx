@@ -44,7 +44,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = 5;
         var1 = var6[var1];
         var1 = var4.bind(var5)(var1);
-        var1 = var1.ZhaNu7;
+        var1 = var1.ZhaNu8;
         var1 = var2.bind(var3)(var1);
         return var1;
     };
@@ -62,7 +62,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = 5;
         var1 = var6[var1];
         var1 = var4.bind(var5)(var1);
-        var1 = var1.ZhaNu7;
+        var1 = var1.ZhaNu8;
         var1 = var2.bind(var3)(var1);
         return var1;
     };

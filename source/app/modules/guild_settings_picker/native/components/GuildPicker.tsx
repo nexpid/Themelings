@@ -91,7 +91,7 @@ case 2:
                 var2 = var10[var2];
                 var2 = var9.bind(var1)(var2);
                 var2 = var2.t;
-                var2 = var2.etZ9tb;
+                var2 = var2.etZ9tX;
                 var2 = var7.bind(var8)(var2);
                 var3['title'] = var2;
                 var7 = _closure2_slot2;
@@ -147,7 +147,7 @@ case 4:
             var5 = var9[var5];
             var5 = var8.bind(var4)(var5);
             var5 = var5.t;
-            var5 = var5.etZ9tb;
+            var5 = var5.etZ9tX;
             var5 = var6.bind(var7)(var5);
             var1['placeholder'] = var5;
             var1 = var3.bind(var4)(var2, var1);

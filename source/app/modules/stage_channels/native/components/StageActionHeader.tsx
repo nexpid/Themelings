@@ -76,7 +76,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var8[var6];
         var6 = var12.bind(var4)(var6);
         var6 = var6.t;
-        var6 = var6.lIx5+P;
+        var6 = var6.lIx5+G;
         var6 = var10.bind(var11)(var6);
         var1['accessibilityLabel'] = var6;
         var10 = var9.iconBackground;
@@ -203,7 +203,7 @@ case 8:
             var11 = var9[var11];
             var11 = var8.bind(var5)(var11);
             var11 = var11.t;
-            var11 = var11.VINpSE;
+            var11 = var11.VINpSK;
             var11 = var12.bind(var13)(var11);
             var2['accessibilityLabel'] = var11;
             var7 = var7.iconBackground;
@@ -333,11 +333,11 @@ case 17:
             var11 = var10.t;
             if(var7) { _fun0004_ip = 18; continue _fun0004 }
 case 19:
-            var10 = var11.zqxfra;
+            var10 = var11.zqxfrf;
             var10 = var12.bind(var13)(var10);
             _fun0004_ip = 20; continue _fun0004;
 case 18:
-            var11 = var11.ScHlfn;
+            var11 = var11.ScHlfl;
             var10 = var12.bind(var13)(var11);
 case 20:
             var2['accessibilityLabel'] = var10;
@@ -559,7 +559,7 @@ case 16:
         var11 = var9[var11];
         var11 = var6.bind(var4)(var11);
         var11 = var11.t;
-        var11 = var11.cpT0Cg;
+        var11 = var11.cpT0Cq;
         var11 = var12.bind(var13)(var11);
         var1['accessibilityLabel'] = var11;
         var10 = function onPress() {
@@ -974,7 +974,7 @@ case 35:
         var11 = var9[var11];
         var11 = var6.bind(var4)(var11);
         var11 = var11.t;
-        var11 = var11.cpT0Cg;
+        var11 = var11.cpT0Cq;
         var11 = var12.bind(var13)(var11);
         var1['accessibilityLabel'] = var11;
         var10 = function onPress() {

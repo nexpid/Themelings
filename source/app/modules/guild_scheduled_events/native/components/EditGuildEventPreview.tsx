@@ -89,7 +89,7 @@ case 4:
                 var17 = var13[var16];
                 var17 = var7.bind(var4)(var17);
                 var17 = var17.t;
-                var17 = var17.yBsFEx;
+                var17 = var17.yBsFE3;
                 var17 = var18.bind(var19)(var17);
                 var5['children'] = var17;
                 var6 = var8.bind(var4)(var6, var5);
@@ -116,7 +116,7 @@ case 7:
                 var13 = var22[var16];
                 var13 = var17.bind(var4)(var13);
                 var13 = var13.t;
-                var17 = var13.sxcQPD;
+                var17 = var13.sxcQPE;
                 var13 = {};
                 var21 = _closure1_slot1;
                 var20 = 14;
@@ -144,7 +144,7 @@ case 9:
                 var9 = var9[var16];
                 var9 = var13.bind(var4)(var9);
                 var9 = var9.t;
-                var9 = var9.KDPFi4;
+                var9 = var9.KDPFi9;
                 var9 = var11.bind(var12)(var9);
                 _fun0002_ip = 10; continue _fun0002;
 case 8:
@@ -157,7 +157,7 @@ case 8:
                 var10 = var10[var16];
                 var10 = var11.bind(var4)(var10);
                 var10 = var10.t;
-                var11 = var10.f55NX1;
+                var11 = var10.f55NX0;
                 var10 = {};
                 var10['channelName'] = var15;
                 var14 = function channelHook() {
@@ -415,11 +415,11 @@ case 0:
                 var2 = var2.t;
                 if(var7) { _fun0004_ip = 3; continue _fun0004 }
 case 19:
-                var7 = var2.60lJ0N;
+                var7 = var2.60lJ0C;
                 var18 = var3.bind(var5)(var7);
                 _fun0004_ip = 20; continue _fun0004;
 case 3:
-                var2 = var2.e5VEcH;
+                var2 = var2.e5VEcE;
                 var18 = var3.bind(var5)(var2);
 case 20:
                 var5 = _closure1_slot3;

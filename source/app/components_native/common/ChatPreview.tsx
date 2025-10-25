@@ -526,7 +526,7 @@ case 38:
                                 var9 = var15[var9];
                                 var9 = var11.bind(var14)(var9);
                                 var9 = var9.t;
-                                var11 = var9.VFWjc3;
+                                var11 = var9.VFWjc+;
                                 var9 = {};
                                 var14 = var10.content;
                                 var14 = var14.length;
@@ -570,7 +570,7 @@ case 42:
                                 var2 = var11[var2];
                                 var2 = var7.bind(var10)(var2);
                                 var2 = var2.t;
-                                var7 = var2.+FcYMz;
+                                var7 = var2.+FcYM/;
                                 var2 = {};
                                 var10 = var3.content;
                                 var10 = var10.length;
@@ -1208,7 +1208,7 @@ case 75:
                 var13 = var17[var13];
                 var13 = var16.bind(var4)(var13);
                 var13 = var13.t;
-                var13 = var13.+TSRGB;
+                var13 = var13.+TSRGD;
                 var13 = var14.bind(var15)(var13);
                 var11['children'] = var13;
                 var11 = var7.bind(var4)(var12, var11);

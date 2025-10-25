@@ -104,7 +104,7 @@ case 0:
                     var8 = var14[var8];
                     var8 = var10.bind(var1)(var8);
                     var8 = var8.t;
-                    var10 = var8.tXXD6u;
+                    var10 = var8.tXXD6v;
                     var8 = {};
                     var14 = _closure2_slot2;
                     var8['tagName'] = var14;

@@ -248,7 +248,7 @@ case 0:
                     var7 = var7.t;
                     if(var1) { _fun0004_ip = 9; continue _fun0004 }
 case 10:
-                    var1 = var7.ht2Op6;
+                    var1 = var7.ht2Op4;
                     var1 = var8.bind(var9)(var1);
                     var5['text'] = var1;
                     var1 = _closure2_slot5;
@@ -256,7 +256,7 @@ case 10:
                     var1 = var5;
                     _fun0004_ip = 11; continue _fun0004;
 case 9:
-                    var7 = var7.mNmH8/;
+                    var7 = var7.mNmH85;
                     var7 = var8.bind(var9)(var7);
                     var5['text'] = var7;
                     var6 = _closure2_slot4;
@@ -361,7 +361,7 @@ case 14:
             var17 = var14[var20];
             var17 = var11.bind(var4)(var17);
             var17 = var17.t;
-            var17 = var17.u0oRGB;
+            var17 = var17.u0oRGO;
             var17 = var18.bind(var23)(var17);
             var15['children'] = var17;
             var15 = var3.bind(var4)(var16, var15);
@@ -383,11 +383,11 @@ case 14:
             var14 = var14.t;
             if(var12) { _fun0001_ip = 16; continue _fun0001 }
 case 17:
-            var12 = var14.Un8xqq;
+            var12 = var14.Un8xqo;
             var12 = var15.bind(var16)(var12);
             _fun0001_ip = 18; continue _fun0001;
 case 16:
-            var14 = var14.VUWdQk;
+            var14 = var14.VUWdQr;
             var12 = var15.bind(var16)(var14);
 case 18:
             var10['children'] = var12;
@@ -425,7 +425,7 @@ case 18:
             var20 = var18[var20];
             var20 = var23.bind(var4)(var20);
             var20 = var20.t;
-            var20 = var20.OB3OdH;
+            var20 = var20.OB3OdB;
             var20 = var21.bind(var22)(var20);
             var13['text'] = var20;
             var13['onPress'] = var19;

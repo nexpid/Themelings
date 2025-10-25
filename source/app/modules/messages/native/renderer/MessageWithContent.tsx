@@ -104,7 +104,7 @@ case 6:
             var19 = var17[var7];
             var19 = var20.bind(var6)(var19);
             var19 = var19.t;
-            var19 = var19.lfIHs7;
+            var19 = var19.lfIHs4;
             var19 = var21.bind(var22)(var19);
             var1['addNewReactionAccessibilityLabel'] = var19;
             var1['reactionsTheme'] = var18;
@@ -115,7 +115,7 @@ case 6:
             var17 = var17[var7];
             var17 = var20.bind(var6)(var17);
             var17 = var17.t;
-            var17 = var17.IOS/dX;
+            var17 = var17.IOS/dU;
             var17 = var18.bind(var19)(var17);
             var1['highlightLabel'] = var17;
             var1['renderContentOnly'] = var16;
@@ -185,7 +185,7 @@ case 12:
             var3 = var2[var7];
             var3 = var5.bind(var6)(var3);
             var3 = var3.t;
-            var3 = var3.I3ltXF;
+            var3 = var3.I3ltXO;
             var3 = var4.bind(var8)(var3);
             var1['forwardAccessibilityLabel'] = var3;
             var3 = var2[var7];
@@ -195,7 +195,7 @@ case 12:
             var2 = var2[var7];
             var2 = var5.bind(var6)(var2);
             var2 = var2.t;
-            var2 = var2.rBIGBA;
+            var2 = var2.rBIGBL;
             var2 = var3.bind(var4)(var2);
             var1['threadAccessibilityLabel'] = var2;
             return var1;

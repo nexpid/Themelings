@@ -221,7 +221,7 @@ case 5:
             var7 = var13[var9];
             var7 = var12.bind(var5)(var7);
             var7 = var7.t;
-            var7 = var7.lI8nQk;
+            var7 = var7.lI8nQl;
             var7 = var10.bind(var11)(var7);
             var2['description'] = var7;
             var2['onDismiss'] = var6;
@@ -274,7 +274,7 @@ case 5:
                 var2 = var7[var15];
                 var2 = var6.bind(var1)(var2);
                 var2 = var2.t;
-                var2 = var2./uid3t;
+                var2 = var2./uid3p;
                 var2 = var14.bind(var17)(var2);
                 var3['description'] = var2;
                 var2 = _closure1_slot5;
@@ -350,7 +350,7 @@ case 5:
                 var15 = var7[var15];
                 var15 = var6.bind(var1)(var15);
                 var15 = var15.t;
-                var16 = var15.UkH129;
+                var16 = var15.UkH122;
                 var15 = {};
                 var19 = _closure2_slot7;
                 var15['learnMoreLink'] = var19;
@@ -390,7 +390,7 @@ case 5:
             var9 = var13[var9];
             var9 = var12.bind(var5)(var9);
             var9 = var9.t;
-            var9 = var9.ftIK2N;
+            var9 = var9.ftIK2A;
             var9 = var10.bind(var11)(var9);
             var7['text'] = var9;
             var9 = 'secondary';

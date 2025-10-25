@@ -512,11 +512,11 @@ case 29:
             var1 = var1.t;
             if(var11) { _fun0001_ip = 31; continue _fun0001 }
 case 32:
-            var5 = var1.eLfh+f;
+            var5 = var1.eLfh+a;
             var19 = var2.bind(var3)(var5);
             _fun0001_ip = 33; continue _fun0001;
 case 31:
-            var1 = var1.ohTzZG;
+            var1 = var1.ohTzZH;
             var19 = var2.bind(var3)(var1);
 case 33:
             var3 = _closure1_slot0;
@@ -705,11 +705,11 @@ case 48:
             var32 = var31.t;
             if(var30) { _fun0001_ip = 49; continue _fun0001 }
 case 50:
-            var31 = var32.yZFibW;
+            var31 = var32.yZFibY;
             var31 = var33.bind(var34)(var31);
             _fun0001_ip = 51; continue _fun0001;
 case 49:
-            var32 = var32.aBUcp6;
+            var32 = var32.aBUcp3;
             var31 = var33.bind(var34)(var32);
 case 51:
             var27['accessibilityLabel'] = var31;
@@ -773,11 +773,11 @@ case 0:
                             var6 = var6.t;
                             if(var5) { _fun0006_ip = 55; continue _fun0006 }
 case 56:
-                            var5 = var6.mE2e8P;
+                            var5 = var6.mE2e8A;
                             var5 = var7.bind(var8)(var5);
                             _fun0006_ip = 57; continue _fun0006;
 case 55:
-                            var6 = var6.in1rgY;
+                            var6 = var6.in1rga;
                             var5 = var7.bind(var8)(var6);
 case 57:
                             var1['children'] = var5;
@@ -882,7 +882,7 @@ case 64:
             var24 = var21[var24];
             var24 = var27.bind(var4)(var24);
             var24 = var24.t;
-            var24 = var24.riu2R0;
+            var24 = var24.riu2R5;
             var24 = var25.bind(var26)(var24);
             var10['text'] = var24;
             var21 = var21[var23];

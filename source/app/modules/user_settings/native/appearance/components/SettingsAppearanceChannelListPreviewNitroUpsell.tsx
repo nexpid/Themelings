@@ -158,7 +158,7 @@ case 2:
         var12 = var14[var12];
         var12 = var17.bind(var4)(var12);
         var12 = var12.t;
-        var12 = var12.pj0XBA;
+        var12 = var12.pj0XBN;
         var12 = var15.bind(var16)(var12);
         var6['text'] = var12;
         var12 = _closure1_slot10;

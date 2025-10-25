@@ -44,7 +44,7 @@ case 4:
             var4 = var4[var3];
             var4 = var8.bind(var7)(var4);
             var4 = var4.t;
-            var4 = var4.VkKicX;
+            var4 = var4.VkKicb;
             var4 = var5.bind(var6)(var4);
             var2['accessibilityLabel'] = var4;
             var4 = 'button';

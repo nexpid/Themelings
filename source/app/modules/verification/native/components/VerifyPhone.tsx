@@ -258,7 +258,7 @@ case 23:
             var15 = var9[var14];
             var15 = var8.bind(var4)(var15);
             var15 = var15.t;
-            var15 = var15.Xclkxs;
+            var15 = var15.Xclkxp;
             var15 = var16.bind(var17)(var15);
             var1['title'] = var15;
             var15 = var9[var14];
@@ -268,7 +268,7 @@ case 23:
             var14 = var9[var14];
             var14 = var8.bind(var4)(var14);
             var14 = var14.t;
-            var14 = var14.4qMI6O;
+            var14 = var14.4qMI6A;
             var14 = var15.bind(var16)(var14);
             var1['description'] = var14;
             var1['error'] = var13;

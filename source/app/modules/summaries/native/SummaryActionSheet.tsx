@@ -262,7 +262,7 @@ case 17:
                     var3 = var9[var3];
                     var3 = var8.bind(var1)(var3);
                     var3 = var3.t;
-                    var3 = var3.gvkcQk;
+                    var3 = var3.gvkcQl;
                     var3 = var6.bind(var7)(var3);
                     var3 = var4.bind(var5)(var3);
                     _fun0003_ip = 18; continue _fun0003;
@@ -277,7 +277,7 @@ case 5:
                     var3 = var5[var3];
                     var3 = var4.bind(var1)(var3);
                     var3 = var3.t;
-                    var7 = var3.I3yTDg;
+                    var7 = var3.I3yTDn;
                     var3 = {};
                     var6 = _closure2_slot0;
                     var11 = var6.topic;
@@ -348,7 +348,7 @@ case 19:
                     var3 = var10[var3];
                     var3 = var9.bind(var1)(var3);
                     var3 = var3.t;
-                    var3 = var3./+DWeX;
+                    var3 = var3./+DWeQ;
                     var3 = var6.bind(var8)(var3);
                     var3 = var4.bind(var5)(var3);
                     _fun0004_ip = 21; continue _fun0004;
@@ -548,7 +548,7 @@ case 25:
             var21 = var24[var17];
             var21 = var26.bind(var4)(var21);
             var21 = var21.t;
-            var21 = var21.NY/nlZ;
+            var21 = var21.NY/nlb;
             var21 = var23.bind(var25)(var21);
             var11['label'] = var21;
             var23 = _closure1_slot1;
@@ -576,7 +576,7 @@ case 27:
             var23 = var25[var17];
             var23 = var27.bind(var4)(var23);
             var23 = var23.t;
-            var23 = var23.rBIGBA;
+            var23 = var23.rBIGBL;
             var23 = var24.bind(var26)(var23);
             var18['label'] = var23;
             var24 = _closure1_slot1;
@@ -604,7 +604,7 @@ case 29:
             var21 = var23[var17];
             var21 = var25.bind(var4)(var21);
             var21 = var21.t;
-            var21 = var21.39d0Wl;
+            var21 = var21.39d0Wj;
             var21 = var22.bind(var24)(var21);
             var14['label'] = var21;
             var22 = _closure1_slot1;

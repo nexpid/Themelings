@@ -314,7 +314,7 @@ case 0:
             var21 = var16[var19];
             var21 = var14.bind(var4)(var21);
             var21 = var21.t;
-            var21 = var21.IT7qoK;
+            var21 = var21.IT7qoC;
             var21 = var22.bind(var23)(var21);
             var12['children'] = var21;
             var15 = var17.bind(var4)(var15, var12);
@@ -336,7 +336,7 @@ case 0:
             var20 = var16[var19];
             var20 = var14.bind(var4)(var20);
             var20 = var20.t;
-            var20 = var20.5PoYtr;
+            var20 = var20.5PoYts;
             var20 = var21.bind(var22)(var20);
             var13['children'] = var20;
             var13 = var17.bind(var4)(var15, var13);
@@ -364,7 +364,7 @@ case 0:
             var19 = var16[var19];
             var19 = var14.bind(var4)(var19);
             var19 = var19.t;
-            var19 = var19.nL2wKC;
+            var19 = var19.nL2wKD;
             var19 = var20.bind(var21)(var19);
             var13['text'] = var19;
             var13['onPress'] = var18;
@@ -452,7 +452,7 @@ case 19:
             var7 = var17[var13];
             var7 = var16.bind(var5)(var7);
             var7 = var7.t;
-            var7 = var7.H9jxS0;
+            var7 = var7.H9jxS1;
             var7 = var8.bind(var9)(var7);
             var2['accessibilityLabel'] = var7;
             var6 = function onPress() {
@@ -509,7 +509,7 @@ case 19:
             var13 = var17[var13];
             var13 = var16.bind(var5)(var13);
             var13 = var13.t;
-            var13 = var13.H9jxS0;
+            var13 = var13.H9jxS1;
             var13 = var14.bind(var15)(var13);
             var10['children'] = var13;
             var10 = var12.bind(var5)(var11, var10);

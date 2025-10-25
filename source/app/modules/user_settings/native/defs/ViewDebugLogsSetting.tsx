@@ -99,7 +99,7 @@ case 0:
             var8 = var11[var18];
             var8 = var10.bind(var3)(var8);
             var8 = var8.t;
-            var8 = var8.BUOCPj;
+            var8 = var8.BUOCPi;
             var8 = var9.bind(var12)(var8);
             var5['title'] = var8;
             var5 = var7.bind(var3)(var6, var5);
@@ -130,7 +130,7 @@ case 0:
             var12 = var11[var18];
             var12 = var10.bind(var3)(var12);
             var12 = var12.t;
-            var12 = var12.XpPGhI;
+            var12 = var12.XpPGhL;
             var12 = var16.bind(var17)(var12);
             var8['title'] = var12;
             var12 = 'debugLogs';
@@ -167,7 +167,7 @@ case 0:
             var16 = var11[var18];
             var16 = var10.bind(var3)(var16);
             var16 = var16.t;
-            var16 = var16.b0nJvr;
+            var16 = var16.b0nJvk;
             var16 = var17.bind(var19)(var16);
             var9['title'] = var16;
             var16 = 'startupTiming';
@@ -214,7 +214,7 @@ case 3:
             var14 = var14[var18];
             var14 = var17.bind(var3)(var14);
             var14 = var14.t;
-            var14 = var14.Ljj0pq;
+            var14 = var14.Ljj0ps;
             var14 = var15.bind(var16)(var14);
             var10['title'] = var14;
             var14 = 'pushNotificationLogs';
@@ -285,7 +285,7 @@ case 2:
         var1 = var6[var1];
         var1 = var5.bind(var4)(var1);
         var1 = var1.t;
-        var1 = var1.BUOCPj;
+        var1 = var1.BUOCPi;
         var1 = var2.bind(var3)(var1);
         return var1;
     };

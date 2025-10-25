@@ -118,7 +118,7 @@ case 4:
         var9 = var12[var8];
         var9 = var11.bind(var3)(var9);
         var9 = var9.t;
-        var9 = var9.Ay9429;
+        var9 = var9.Ay9424;
         var9 = var10.bind(var13)(var9);
         var5['title'] = var9;
         var9 = var12[var8];
@@ -128,7 +128,7 @@ case 4:
         var9 = var12[var8];
         var9 = var11.bind(var3)(var9);
         var9 = var9.t;
-        var9 = var9.mufH2N;
+        var9 = var9.mufH2P;
         var9 = var10.bind(var13)(var9);
         var5['description'] = var9;
         var9 = var12[var8];
@@ -138,7 +138,7 @@ case 4:
         var8 = var12[var8];
         var8 = var11.bind(var3)(var8);
         var8 = var8.t;
-        var8 = var8.BddRzc;
+        var8 = var8.BddRzS;
         var8 = var9.bind(var10)(var8);
         var5['CTALabel'] = var8;
         var5['onCTAPress'] = var7;

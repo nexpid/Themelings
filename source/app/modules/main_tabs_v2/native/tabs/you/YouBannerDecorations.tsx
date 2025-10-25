@@ -372,7 +372,7 @@ case 0:
                     var6 = var14[var6];
                     var6 = var9.bind(var3)(var6);
                     var6 = var6.t;
-                    var6 = var6.Ipxkoq;
+                    var6 = var6.Ipxkog;
                     var6 = var7.bind(var8)(var6);
                     var1['accessibilityLabel'] = var6;
                     var5 = function onPress() {
@@ -456,7 +456,7 @@ case 16:
             var14 = var19[var14];
             var14 = var21.bind(var4)(var14);
             var14 = var14.t;
-            var14 = var14.3D5yo6;
+            var14 = var14.3D5yo/;
             var14 = var16.bind(var20)(var14);
             var10['accessibilityLabel'] = var14;
             var10['onPress'] = var13;

@@ -44,7 +44,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var8[var9];
         var6 = var7.bind(var3)(var6);
         var6 = var6.t;
-        var6 = var6.n8nU4e;
+        var6 = var6.n8nU4W;
         var6 = var10.bind(var11)(var6);
         var1['text'] = var6;
         var6 = 4;

@@ -50,7 +50,7 @@ case 4: // try_start_0
                     var3 = var16[var3];
                     var3 = var15.bind(var2)(var3);
                     var3 = var3.t;
-                    var3 = var3.kC3ZRE;
+                    var3 = var3.kC3ZRG;
                     var3 = var12.bind(var14)(var3);
                     var3 = var8.bind(var9)(var3);
                     var12 = _closure1_slot5;
@@ -140,7 +140,7 @@ case 10:
                         var2 = var8[var2];
                         var2 = var7.bind(var1)(var2);
                         var2 = var2.t;
-                        var2 = var2.PuLLzM;
+                        var2 = var2.PuLLzP;
                         var2 = var5.bind(var6)(var2);
                         var2 = var3.bind(var4)(var2);
                         return var1;
@@ -178,7 +178,7 @@ case 13: // try_end1 // catch_target0 // catch_target1
                     var3 = var9[var3];
                     var3 = var8.bind(var2)(var3);
                     var3 = var3.t;
-                    var3 = var3.fEptJC;
+                    var3 = var3.fEptJP;
                     var3 = var6.bind(var7)(var3);
                     var3 = var4.bind(var5)(var3);
 case 12:

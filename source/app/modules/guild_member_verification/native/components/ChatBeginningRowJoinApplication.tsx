@@ -234,7 +234,7 @@ case 10:
             var19 = var24[var19];
             var19 = var20.bind(var5)(var19);
             var19 = var19.t;
-            var20 = var19.jDV3i4;
+            var20 = var19.jDV3i6;
             var19 = {};
             var23 = var23.globalName;
             var19['username'] = var23;
@@ -372,7 +372,7 @@ case 18:
             var17 = var19[var15];
             var17 = var18.bind(var5)(var17);
             var17 = var17.t;
-            var17 = var17.BzjDQE;
+            var17 = var17.BzjDQJ;
             var17 = var20.bind(var21)(var17);
             var11['text'] = var17;
             var13 = var14.bind(var5)(var13, var11);
@@ -390,7 +390,7 @@ case 18:
             var15 = var19[var15];
             var15 = var18.bind(var5)(var15);
             var15 = var15.t;
-            var15 = var15.hDtbs7;
+            var15 = var15.hDtbsz;
             var15 = var16.bind(var17)(var15);
             var12['text'] = var15;
             var12 = var14.bind(var5)(var13, var12);

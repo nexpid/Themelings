@@ -22,7 +22,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var7[var2];
         var2 = var6.bind(var5)(var2);
         var2 = var2.t;
-        var2 = var2.6p7Mho;
+        var2 = var2.6p7Mhh;
         var2 = var3.bind(var4)(var2);
         var1['hint'] = var2;
         return var1;
@@ -244,7 +244,7 @@ case 3:
             var3 = var10[var3];
             var3 = var9.bind(var4)(var3);
             var3 = var3.t;
-            var3 = var3.YegTFx;
+            var3 = var3.YegTF2;
             var5 = var5.bind(var7)(var3);
             var3 = var5.toUpperCase;
             var12 = var3.bind(var5)();
@@ -356,7 +356,7 @@ case 7:
             var21 = var21[var16];
             var21 = var25.bind(var4)(var21);
             var21 = var21.t;
-            var21 = var21.qRaqen;
+            var21 = var21.qRaqel;
             var21 = var23.bind(var24)(var21);
             var9['accessibilityLabel'] = var21;
             var24 = var22.status;
@@ -377,7 +377,7 @@ case 9:
             var21 = var21[var16];
             var21 = var24.bind(var4)(var21);
             var21 = var21.t;
-            var21 = var21.qRaqen;
+            var21 = var21.qRaqel;
             var21 = var22.bind(var23)(var21);
             var9['placeholder'] = var21;
             var21 = var13.placeholderText;
@@ -429,7 +429,7 @@ case 14:
             var11 = var11[var16];
             var11 = var12.bind(var4)(var11);
             var11 = var11.t;
-            var12 = var11.x++KNz;
+            var12 = var11.x++KN9;
             var11 = {};
             var15 = function usernameHook(arg1, arg2) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
@@ -707,7 +707,7 @@ case 30:
                         var7 = var5[var7];
                         var7 = var4.bind(var1)(var7);
                         var7 = var7.t;
-                        var8 = var7.Rtl1Eh;
+                        var8 = var7.Rtl1Ep;
                         var7 = {};
                         var11 = _closure3_slot0;
                         var7['discordTag'] = var11;
@@ -1003,7 +1003,7 @@ case 58:
             var14 = var18[var14];
             var14 = var17.bind(var4)(var14);
             var14 = var14.t;
-            var14 = var14.PMsq/f;
+            var14 = var14.PMsq/b;
             var14 = var15.bind(var16)(var14);
             var6['text'] = var14;
             var12 = var12 <= var13;

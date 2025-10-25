@@ -475,7 +475,7 @@ case 15:
             var8 = var13[var16];
             var8 = var19.bind(var4)(var8);
             var8 = var8.t;
-            var8 = var8.Q3qa4+;
+            var8 = var8.Q3qa4x;
             var8 = var9.bind(var10)(var8);
             var5['title'] = var8;
             var10 = _closure1_slot5;
@@ -491,7 +491,7 @@ case 15:
             var16 = var13[var16];
             var16 = var19.bind(var4)(var16);
             var16 = var16.t;
-            var16 = var16.U9PrMz;
+            var16 = var16.U9PrMw;
             var16 = var17.bind(var18)(var16);
             var8['text'] = var16;
             var8['onPress'] = var15;
@@ -879,7 +879,7 @@ case 27:
             var8 = var13[var16];
             var8 = var19.bind(var4)(var8);
             var8 = var8.t;
-            var8 = var8.Q3qa4+;
+            var8 = var8.Q3qa4x;
             var8 = var9.bind(var10)(var8);
             var5['title'] = var8;
             var10 = _closure1_slot5;
@@ -895,7 +895,7 @@ case 27:
             var16 = var13[var16];
             var16 = var19.bind(var4)(var16);
             var16 = var16.t;
-            var16 = var16.U9PrMz;
+            var16 = var16.U9PrMw;
             var16 = var17.bind(var18)(var16);
             var8['text'] = var16;
             var8['onPress'] = var15;

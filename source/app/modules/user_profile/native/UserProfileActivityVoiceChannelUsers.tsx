@@ -144,7 +144,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var12 = var10[var12];
         var12 = var6.bind(var3)(var12);
         var12 = var12.t;
-        var12 = var12.3xHUJy;
+        var12 = var12.3xHUJ+;
         var12 = var13.bind(var14)(var12);
         var1['title'] = var12;
         var1['onBack'] = var11;

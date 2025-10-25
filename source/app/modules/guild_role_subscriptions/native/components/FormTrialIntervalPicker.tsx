@@ -72,7 +72,7 @@ case 2:
             var8 = var12[var8];
             var8 = var11.bind(var3)(var8);
             var8 = var8.t;
-            var8 = var8.WZG1BQ;
+            var8 = var8.WZG1BU;
             var7 = var9.bind(var10)(var8);
 case 4:
             var1['label'] = var7;
@@ -103,7 +103,7 @@ case 0:
                     var2 = var10[var2];
                     var2 = var9.bind(var1)(var2);
                     var2 = var2.t;
-                    var2 = var2.m1KuWV;
+                    var2 = var2.m1KuWd;
                     var2 = var7.bind(var8)(var2);
                     var3['title'] = var2;
                     var2 = _closure2_slot2;

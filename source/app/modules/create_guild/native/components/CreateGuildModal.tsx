@@ -200,7 +200,7 @@ case 2:
                 var5 = var9[var5];
                 var5 = var8.bind(var3)(var5);
                 var5 = var5.t;
-                var5 = var5.5HZu09;
+                var5 = var5.5HZu07;
                 var6 = var6.bind(var7)(var5);
                 var5 = 'customTitle';
                 var1[var5] = var6;
@@ -309,7 +309,7 @@ case 6:
                 var5 = var9[var5];
                 var5 = var8.bind(var3)(var5);
                 var5 = var5.t;
-                var5 = var5.jlfuFR;
+                var5 = var5.jlfuFW;
                 var5 = var6.bind(var7)(var5);
                 var1['title'] = var5;
                 var1 = var4.bind(var3)(var2, var1);
@@ -611,7 +611,7 @@ case 14:
         var9 = var13[var9];
         var9 = var12.bind(var4)(var9);
         var9 = var9.t;
-        var9 = var9.13/7kZ;
+        var9 = var9.13/7kX;
         var9 = var10.bind(var11)(var9);
         var5['headerBackTitle'] = var9;
         var8 = _closure1_slot4;

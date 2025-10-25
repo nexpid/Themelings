@@ -163,7 +163,7 @@ case 11: // catch_target0
                             var7 = var9[var7];
                             var7 = var12.bind(var2)(var7);
                             var7 = var7.t;
-                            var7 = var7.R0RpRU;
+                            var7 = var7.R0RpRX;
                             var7 = var10.bind(var11)(var7);
                             var4['content'] = var7;
                             var7 = 14;

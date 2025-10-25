@@ -409,7 +409,7 @@ case 8:
             var9 = var16[var18];
             var9 = var17.bind(var4)(var9);
             var9 = var9.t;
-            var9 = var9.q9n0TU;
+            var9 = var9.q9n0Ta;
             var9 = var10.bind(var15)(var9);
             var3['title'] = var9;
             var3['isCompleted'] = var7;
@@ -515,7 +515,7 @@ case 10:
             var15 = var16[var18];
             var15 = var17.bind(var4)(var15);
             var15 = var15.t;
-            var15 = var15.DWB2YW;
+            var15 = var15.DWB2YZ;
             var15 = var19.bind(var20)(var15);
             var3['title'] = var15;
             var3['isCompleted'] = var12;
@@ -590,7 +590,7 @@ case 12:
             var12 = var16[var18];
             var12 = var17.bind(var4)(var12);
             var12 = var12.t;
-            var12 = var12.dNktpq;
+            var12 = var12.dNktpr;
             var12 = var14.bind(var15)(var12);
             var2['title'] = var12;
             var2['isCompleted'] = var11;
@@ -667,7 +667,7 @@ case 12:
             var19 = var16[var18];
             var19 = var17.bind(var4)(var19);
             var19 = var19.t;
-            var19 = var19.tu/tr6;
+            var19 = var19.tu/tr8;
             var19 = var20.bind(var24)(var19);
             var6['title'] = var19;
             var19 = var16[var18];
@@ -677,7 +677,7 @@ case 12:
             var16 = var16[var18];
             var16 = var17.bind(var4)(var16);
             var16 = var16.t;
-            var17 = var16.l6iRLi;
+            var17 = var16.l6iRLs;
             var16 = {};
             var16['numFinished'] = var23;
             var16['total'] = var22;
@@ -746,7 +746,7 @@ case 23:
             var17 = var17[var18];
             var17 = var21.bind(var4)(var17);
             var17 = var17.t;
-            var17 = var17.9E36wc;
+            var17 = var17.9E36wf;
             var17 = var19.bind(var20)(var17);
             var12['children'] = var17;
             var12 = var16.bind(var4)(var14, var12);
@@ -769,7 +769,7 @@ case 22:
             var14 = var14[var18];
             var14 = var17.bind(var4)(var14);
             var14 = var14.t;
-            var14 = var14.0/5zho;
+            var14 = var14.0/5zhg;
             var14 = var15.bind(var16)(var14);
             var11['text'] = var14;
             var10 = var13.bind(var4)(var12, var11);

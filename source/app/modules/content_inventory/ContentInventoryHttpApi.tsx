@@ -442,7 +442,7 @@ case 43:
                     var4 = var8[var4];
                     var4 = var7.bind(var2)(var4);
                     var4 = var4.t;
-                    var4 = var4.FMbL3t;
+                    var4 = var4.FMbL3s;
                     var6 = var5.bind(var6)(var4);
                     _fun0004_ip = 44; continue _fun0004;
 case 42:

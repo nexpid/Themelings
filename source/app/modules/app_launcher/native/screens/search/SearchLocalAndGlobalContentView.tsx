@@ -1287,7 +1287,7 @@ case 42:
             var44 = var42[var50];
             var44 = var41.bind(var5)(var44);
             var44 = var44.t;
-            var44 = var44.0hKkS0;
+            var44 = var44.0hKkS+;
             var44 = var45.bind(var47)(var44);
             var33['children'] = var44;
             var34 = var40.bind(var5)(var34, var33);
@@ -1330,7 +1330,7 @@ case 46:
             var44 = var47.bind(var48)(var44);
             _fun0006_ip = 47; continue _fun0006;
 case 45:
-            var45 = var45.nPGLFR;
+            var45 = var45.nPGLFQ;
             var44 = var47.bind(var48)(var45);
 case 47:
             var40['accessibilityLabel'] = var44;
@@ -1357,7 +1357,7 @@ case 49:
             var46 = var48.bind(var49)(var46);
             _fun0006_ip = 50; continue _fun0006;
 case 48:
-            var47 = var47.nPGLFR;
+            var47 = var47.nPGLFQ;
             var46 = var48.bind(var49)(var47);
 case 50:
             var43['children'] = var46;

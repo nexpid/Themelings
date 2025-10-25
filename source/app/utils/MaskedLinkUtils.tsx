@@ -800,7 +800,7 @@ case 116:
             var7 = var11[var5];
             var7 = var6.bind(var10)(var7);
             var7 = var7.t;
-            var7 = var7.x87gam;
+            var7 = var7.x87gan;
             var7 = var8.bind(var12)(var7);
             var1['title'] = var7;
             var7 = var11[var5];
@@ -810,7 +810,7 @@ case 116:
             var5 = var11[var5];
             var5 = var6.bind(var10)(var5);
             var5 = var5.t;
-            var6 = var5.9rqRws;
+            var6 = var5.9rqRwl;
             var5 = {};
             var9 = var9.href;
             var5['url'] = var9;

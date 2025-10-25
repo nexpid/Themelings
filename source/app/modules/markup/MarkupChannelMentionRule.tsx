@@ -323,7 +323,7 @@ case 21:
             var6 = var10[var6];
             var6 = var9.bind(var5)(var6);
             var6 = var6.t;
-            var6 = var6.zLZPmp;
+            var6 = var6.zLZPmk;
             var7 = var7.bind(var8)(var6);
             var6 = var7.toLowerCase;
             var6 = var6.bind(var7)();
@@ -491,7 +491,7 @@ case 45:
             var2 = var12[var2];
             var2 = var11.bind(var10)(var2);
             var2 = var2.t;
-            var2 = var2./YzI6+;
+            var2 = var2./YzI63;
             var4 = var4.bind(var9)(var2);
             _fun0006_ip = 46; continue _fun0006;
 case 2:
@@ -593,7 +593,7 @@ case 56:
             var1 = var11[var1];
             var1 = var10.bind(var2)(var1);
             var1 = var1.t;
-            var1 = var1.J90oLS;
+            var1 = var1.J90oLW;
             var9 = var8.bind(var9)(var1);
             var1 = global;
             var1 = var1.HermesInternal;

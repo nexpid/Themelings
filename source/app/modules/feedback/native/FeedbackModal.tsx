@@ -72,7 +72,7 @@ case 5:
             var22 = var26[var22];
             var22 = var25.bind(var4)(var22);
             var22 = var22.t;
-            var22 = var22.vcqwCg;
+            var22 = var22.vcqwCj;
             var8 = var23.bind(var24)(var22);
 case 4:
             var10['title'] = var8;
@@ -146,7 +146,7 @@ case 9:
             var19 = var25[var19];
             var19 = var20.bind(var4)(var19);
             var19 = var19.t;
-            var20 = var19.ybi2tL;
+            var20 = var19.ybi2tD;
             var19 = {};
             var24 = _closure1_slot1;
             var23 = 8;
@@ -186,7 +186,7 @@ case 10:
             var14 = var18[var14];
             var14 = var17.bind(var4)(var14);
             var14 = var14.t;
-            var14 = var14.geKm7u;
+            var14 = var14.geKm7t;
             var14 = var15.bind(var16)(var14);
             var10['text'] = var14;
             var13 = function onPress() {
@@ -343,7 +343,7 @@ case 10:
         var8 = var11[var8];
         var8 = var9.bind(var3)(var8);
         var8 = var8.t;
-        var8 = var8.dBx+Cg;
+        var8 = var8.dBx+Cn;
         var8 = var12.bind(var13)(var8);
         var6['title'] = var8;
         var8 = 12;

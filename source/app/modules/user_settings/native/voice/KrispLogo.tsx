@@ -34,7 +34,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = var5[var9];
         var9 = var13.bind(var1)(var9);
         var9 = var9.t;
-        var9 = var9.hvVgAQ;
+        var9 = var9.hvVgAZ;
         var9 = var11.bind(var12)(var9);
         var2['text'] = var9;
         var2['href'] = var4;
@@ -170,7 +170,7 @@ case 4:
             var7 = var13[var9];
             var7 = var12.bind(var4)(var7);
             var7 = var7.t;
-            var7 = var7.vFiCS0;
+            var7 = var7.vFiCSx;
             var7 = var11.bind(var14)(var7);
             var5['accessibilityLabel'] = var7;
             var6 = var8.bind(var4)(var6, var5);
@@ -190,7 +190,7 @@ case 4:
             var9 = var13[var9];
             var9 = var12.bind(var4)(var9);
             var9 = var9.t;
-            var9 = var9.hvVgAQ;
+            var9 = var9.hvVgAZ;
             var9 = var10.bind(var11)(var9);
             var6['children'] = var9;
             var6 = var8.bind(var4)(var7, var6);

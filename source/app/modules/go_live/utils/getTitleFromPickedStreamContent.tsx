@@ -49,7 +49,7 @@ case 7:
             var4 = var4[var9];
             var4 = var8.bind(var7)(var4);
             var4 = var4.t;
-            var4 = var4.R4wpLC;
+            var4 = var4.R4wpLN;
             var1 = var5.bind(var6)(var4);
 case 6:
             _fun0001_ip = 8; continue _fun0001;

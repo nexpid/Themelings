@@ -178,7 +178,7 @@ case 0:
             var1 = 10;
             var3 = var6[var1];
             var3 = var13.bind(var4)(var3);
-            var3 = var3.T7GyW1;
+            var3 = var3.T7GyW+;
             var5 = var5.bind(var16)(var3);
             var3 = var6[var9];
             var3 = var11.bind(var4)(var3);
@@ -186,7 +186,7 @@ case 0:
             var16 = var17.string;
             var3 = var6[var1];
             var3 = var13.bind(var4)(var3);
-            var3 = var3.goKE2d;
+            var3 = var3.goKE2b;
             var3 = var16.bind(var17)(var3);
             var15 = var14.bind(var15)(var5, var3);
             var2 = var6[var2];
@@ -198,7 +198,7 @@ case 0:
             var16 = var17.format;
             var2 = var6[var1];
             var2 = var13.bind(var4)(var2);
-            var14 = var2.MXjDSk;
+            var14 = var2.MXjDSv;
             var2 = {};
             var18 = 'https://support.discord.com/hc/articles/14155060633623';
             var2['articleLink'] = var18;
@@ -209,7 +209,7 @@ case 0:
             var9 = var11.format;
             var1 = var6[var1];
             var1 = var13.bind(var4)(var1);
-            var6 = var1.EMCf6u;
+            var6 = var1.EMCf6j;
             var1 = {};
             var14 = 'https://support.discord.com/hc/articles/14155043715735';
             var1['articleLink'] = var14;

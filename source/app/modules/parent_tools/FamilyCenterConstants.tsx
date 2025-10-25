@@ -211,7 +211,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = 3;
         var1 = var6[var1];
         var1 = var4.bind(var5)(var1);
-        var1 = var1.kvTgWF;
+        var1 = var1.kvTgWP;
         var1 = var2.bind(var3)(var1);
         return var1;
     };
@@ -238,7 +238,7 @@ case 0:
             var1 = arg1;
             if(var1) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var1 = var3.K5r+sL;
+            var1 = var3.K5r+sN;
             var13 = var11.bind(var12)(var1);
             var1 = var10[var6];
             var1 = var7.bind(var9)(var1);
@@ -246,12 +246,12 @@ case 3:
             var14 = var15.string;
             var1 = var10[var2];
             var1 = var8.bind(var9)(var1);
-            var1 = var1.foTzbW;
+            var1 = var1.foTzbd;
             var1 = var14.bind(var15)(var1);
             var1 = var4.bind(var5)(var13, var1);
             _fun0001_ip = 4; continue _fun0001;
 case 2:
-            var3 = var3.cY19ub;
+            var3 = var3.cY19uR;
             var3 = var11.bind(var12)(var3);
             var6 = var10[var6];
             var6 = var7.bind(var9)(var6);
@@ -259,7 +259,7 @@ case 2:
             var6 = var7.string;
             var2 = var10[var2];
             var2 = var8.bind(var9)(var2);
-            var2 = var2.w4wmnZ;
+            var2 = var2.w4wmnb;
             var2 = var6.bind(var7)(var2);
             var1 = var4.bind(var5)(var3, var2);
 case 4:
@@ -280,7 +280,7 @@ case 4:
         var1 = 3;
         var1 = var6[var1];
         var1 = var2.bind(var5)(var1);
-        var2 = var1.4T3zWV;
+        var2 = var1.4T3zWT;
         var1 = {};
         var5 = arg1;
         var1['count'] = var5;
@@ -310,7 +310,7 @@ case 0:
             var1 = arg1;
             if(var1) { _fun0002_ip = 2; continue _fun0002 }
 case 3:
-            var1 = var3.K5r+sL;
+            var1 = var3.K5r+sN;
             var13 = var11.bind(var12)(var1);
             var1 = var10[var6];
             var1 = var7.bind(var9)(var1);
@@ -318,12 +318,12 @@ case 3:
             var14 = var15.string;
             var1 = var10[var2];
             var1 = var8.bind(var9)(var1);
-            var1 = var1.foTzbW;
+            var1 = var1.foTzbd;
             var1 = var14.bind(var15)(var1);
             var1 = var4.bind(var5)(var13, var1);
             _fun0002_ip = 4; continue _fun0002;
 case 2:
-            var3 = var3.cY19ub;
+            var3 = var3.cY19uR;
             var3 = var11.bind(var12)(var3);
             var6 = var10[var6];
             var6 = var7.bind(var9)(var6);
@@ -331,7 +331,7 @@ case 2:
             var6 = var7.string;
             var2 = var10[var2];
             var2 = var8.bind(var9)(var2);
-            var2 = var2.w4wmnZ;
+            var2 = var2.w4wmnb;
             var2 = var6.bind(var7)(var2);
             var1 = var4.bind(var5)(var3, var2);
 case 4:
@@ -353,7 +353,7 @@ case 4:
         var2 = 3;
         var8 = var5[var2];
         var8 = var3.bind(var4)(var8);
-        var8 = var8.fLBUx8;
+        var8 = var8.fLBUx7;
         var8 = var9.bind(var10)(var8);
         var1['today'] = var8;
         var6 = var5[var6];
@@ -362,12 +362,12 @@ case 4:
         var7 = var8.string;
         var6 = var5[var2];
         var6 = var3.bind(var4)(var6);
-        var6 = var6.cHHgxM;
+        var6 = var6.cHHgxI;
         var6 = var7.bind(var8)(var6);
         var1['yesterday'] = var6;
         var2 = var5[var2];
         var2 = var3.bind(var4)(var2);
-        var2 = var2.qvKjp6;
+        var2 = var2.qvKjp8;
         var1['days'] = var2;
         return var1;
     };
@@ -394,7 +394,7 @@ case 4:
         var1 = 3;
         var1 = var6[var1];
         var1 = var4.bind(var5)(var1);
-        var1 = var1.D7Sng4;
+        var1 = var1.D7Sngz;
         var1 = var2.bind(var3)(var1);
         return var1;
     };
@@ -421,7 +421,7 @@ case 0:
             var1 = arg1;
             if(var1) { _fun0003_ip = 2; continue _fun0003 }
 case 3:
-            var1 = var3.SCIaWF;
+            var1 = var3.SCIaWK;
             var13 = var11.bind(var12)(var1);
             var1 = var10[var6];
             var1 = var7.bind(var9)(var1);
@@ -429,12 +429,12 @@ case 3:
             var14 = var15.string;
             var1 = var10[var2];
             var1 = var8.bind(var9)(var1);
-            var1 = var1.4ufgd3;
+            var1 = var1.4ufgdz;
             var1 = var14.bind(var15)(var1);
             var1 = var4.bind(var5)(var13, var1);
             _fun0003_ip = 4; continue _fun0003;
 case 2:
-            var3 = var3.w7j/Li;
+            var3 = var3.w7j/Lt;
             var3 = var11.bind(var12)(var3);
             var6 = var10[var6];
             var6 = var7.bind(var9)(var6);
@@ -442,7 +442,7 @@ case 2:
             var6 = var7.string;
             var2 = var10[var2];
             var2 = var8.bind(var9)(var2);
-            var2 = var2.aiAhnZ;
+            var2 = var2.aiAhnQ;
             var2 = var6.bind(var7)(var2);
             var1 = var4.bind(var5)(var3, var2);
 case 4:
@@ -463,7 +463,7 @@ case 4:
         var1 = 3;
         var1 = var6[var1];
         var1 = var2.bind(var5)(var1);
-        var2 = var1.0GE4Nj;
+        var2 = var1.0GE4Ni;
         var1 = {};
         var5 = arg1;
         var1['count'] = var5;
@@ -493,7 +493,7 @@ case 0:
             var1 = arg1;
             if(var1) { _fun0004_ip = 2; continue _fun0004 }
 case 3:
-            var1 = var3.SCIaWF;
+            var1 = var3.SCIaWK;
             var13 = var11.bind(var12)(var1);
             var1 = var10[var6];
             var1 = var7.bind(var9)(var1);
@@ -501,12 +501,12 @@ case 3:
             var14 = var15.string;
             var1 = var10[var2];
             var1 = var8.bind(var9)(var1);
-            var1 = var1.4ufgd3;
+            var1 = var1.4ufgdz;
             var1 = var14.bind(var15)(var1);
             var1 = var4.bind(var5)(var13, var1);
             _fun0004_ip = 4; continue _fun0004;
 case 2:
-            var3 = var3.w7j/Li;
+            var3 = var3.w7j/Lt;
             var3 = var11.bind(var12)(var3);
             var6 = var10[var6];
             var6 = var7.bind(var9)(var6);
@@ -514,7 +514,7 @@ case 2:
             var6 = var7.string;
             var2 = var10[var2];
             var2 = var8.bind(var9)(var2);
-            var2 = var2.aiAhnZ;
+            var2 = var2.aiAhnQ;
             var2 = var6.bind(var7)(var2);
             var1 = var4.bind(var5)(var3, var2);
 case 4:
@@ -536,7 +536,7 @@ case 4:
         var2 = 3;
         var8 = var5[var2];
         var8 = var3.bind(var4)(var8);
-        var8 = var8.IHd5cX;
+        var8 = var8.IHd5cZ;
         var8 = var9.bind(var10)(var8);
         var1['today'] = var8;
         var6 = var5[var6];
@@ -545,12 +545,12 @@ case 4:
         var7 = var8.string;
         var6 = var5[var2];
         var6 = var3.bind(var4)(var6);
-        var6 = var6.wOsfxs;
+        var6 = var6.wOsfxv;
         var6 = var7.bind(var8)(var6);
         var1['yesterday'] = var6;
         var2 = var5[var2];
         var2 = var3.bind(var4)(var2);
-        var2 = var2.oCk8c3;
+        var2 = var2.oCk8c4;
         var1['days'] = var2;
         return var1;
     };
@@ -576,7 +576,7 @@ case 4:
         var1 = 3;
         var1 = var6[var1];
         var1 = var4.bind(var5)(var1);
-        var1 = var1.kIcKAg;
+        var1 = var1.kIcKAj;
         var1 = var2.bind(var3)(var1);
         return var1;
     };
@@ -603,7 +603,7 @@ case 0:
             var1 = arg1;
             if(var1) { _fun0005_ip = 2; continue _fun0005 }
 case 3:
-            var1 = var3.1/QpPz;
+            var1 = var3.1/QpPy;
             var13 = var11.bind(var12)(var1);
             var1 = var10[var6];
             var1 = var7.bind(var9)(var1);
@@ -611,12 +611,12 @@ case 3:
             var14 = var15.string;
             var1 = var10[var2];
             var1 = var8.bind(var9)(var1);
-            var1 = var1.mpHHfX;
+            var1 = var1.mpHHfa;
             var1 = var14.bind(var15)(var1);
             var1 = var4.bind(var5)(var13, var1);
             _fun0005_ip = 4; continue _fun0005;
 case 2:
-            var3 = var3.HvsFJS;
+            var3 = var3.HvsFJf;
             var3 = var11.bind(var12)(var3);
             var6 = var10[var6];
             var6 = var7.bind(var9)(var6);
@@ -624,7 +624,7 @@ case 2:
             var6 = var7.string;
             var2 = var10[var2];
             var2 = var8.bind(var9)(var2);
-            var2 = var2.BkVb1d;
+            var2 = var2.BkVb1X;
             var2 = var6.bind(var7)(var2);
             var1 = var4.bind(var5)(var3, var2);
 case 4:
@@ -645,7 +645,7 @@ case 4:
         var1 = 3;
         var1 = var6[var1];
         var1 = var2.bind(var5)(var1);
-        var2 = var1.TEvo+P;
+        var2 = var1.TEvo+H;
         var1 = {};
         var5 = arg1;
         var1['count'] = var5;
@@ -675,7 +675,7 @@ case 0:
             var1 = arg1;
             if(var1) { _fun0006_ip = 2; continue _fun0006 }
 case 3:
-            var1 = var3.1/QpPz;
+            var1 = var3.1/QpPy;
             var13 = var11.bind(var12)(var1);
             var1 = var10[var6];
             var1 = var7.bind(var9)(var1);
@@ -683,12 +683,12 @@ case 3:
             var14 = var15.string;
             var1 = var10[var2];
             var1 = var8.bind(var9)(var1);
-            var1 = var1.mpHHfX;
+            var1 = var1.mpHHfa;
             var1 = var14.bind(var15)(var1);
             var1 = var4.bind(var5)(var13, var1);
             _fun0006_ip = 4; continue _fun0006;
 case 2:
-            var3 = var3.HvsFJS;
+            var3 = var3.HvsFJf;
             var3 = var11.bind(var12)(var3);
             var6 = var10[var6];
             var6 = var7.bind(var9)(var6);
@@ -696,7 +696,7 @@ case 2:
             var6 = var7.string;
             var2 = var10[var2];
             var2 = var8.bind(var9)(var2);
-            var2 = var2.BkVb1d;
+            var2 = var2.BkVb1X;
             var2 = var6.bind(var7)(var2);
             var1 = var4.bind(var5)(var3, var2);
 case 4:
@@ -718,7 +718,7 @@ case 4:
         var2 = 3;
         var8 = var5[var2];
         var8 = var3.bind(var4)(var8);
-        var8 = var8.JUHIYW;
+        var8 = var8.JUHIYZ;
         var8 = var9.bind(var10)(var8);
         var1['today'] = var8;
         var6 = var5[var6];
@@ -727,12 +727,12 @@ case 4:
         var7 = var8.string;
         var6 = var5[var2];
         var6 = var3.bind(var4)(var6);
-        var6 = var6.GiswUV;
+        var6 = var6.GiswUW;
         var6 = var7.bind(var8)(var6);
         var1['yesterday'] = var6;
         var2 = var5[var2];
         var2 = var3.bind(var4)(var2);
-        var2 = var2.fwQgEx;
+        var2 = var2.fwQgE/;
         var1['days'] = var2;
         return var1;
     };
@@ -762,7 +762,7 @@ case 4:
         var1 = 3;
         var2 = var9[var1];
         var2 = var7.bind(var8)(var2);
-        var2 = var2.NulX9/;
+        var2 = var2.NulX9+;
         var2 = var10.bind(var11)(var2);
         var5 = var9[var5];
         var5 = var6.bind(var8)(var5);
@@ -770,7 +770,7 @@ case 4:
         var5 = var6.string;
         var1 = var9[var1];
         var1 = var7.bind(var8)(var1);
-        var1 = var1.uav9Bg;
+        var1 = var1.uav9Bh;
         var1 = var5.bind(var6)(var1);
         var1 = var3.bind(var4)(var2, var1);
         return var1;
@@ -798,7 +798,7 @@ case 0:
             var1 = arg1;
             if(var1) { _fun0007_ip = 2; continue _fun0007 }
 case 3:
-            var1 = var3.MTFxYW;
+            var1 = var3.MTFxYc;
             var13 = var11.bind(var12)(var1);
             var1 = var10[var6];
             var1 = var7.bind(var9)(var1);
@@ -806,12 +806,12 @@ case 3:
             var14 = var15.string;
             var1 = var10[var2];
             var1 = var8.bind(var9)(var1);
-            var1 = var1.TA8GFh;
+            var1 = var1.TA8GFt;
             var1 = var14.bind(var15)(var1);
             var1 = var4.bind(var5)(var13, var1);
             _fun0007_ip = 4; continue _fun0007;
 case 2:
-            var3 = var3.Lmz9Vl;
+            var3 = var3.Lmz9Vh;
             var3 = var11.bind(var12)(var3);
             var6 = var10[var6];
             var6 = var7.bind(var9)(var6);
@@ -819,7 +819,7 @@ case 2:
             var6 = var7.string;
             var2 = var10[var2];
             var2 = var8.bind(var9)(var2);
-            var2 = var2.LVNgTE;
+            var2 = var2.LVNgTD;
             var2 = var6.bind(var7)(var2);
             var1 = var4.bind(var5)(var3, var2);
 case 4:
@@ -840,7 +840,7 @@ case 4:
         var1 = 3;
         var1 = var6[var1];
         var1 = var2.bind(var5)(var1);
-        var2 = var1.7feG7e;
+        var2 = var1.7feG7T;
         var1 = {};
         var5 = arg1;
         var1['count'] = var5;
@@ -870,7 +870,7 @@ case 0:
             var1 = arg1;
             if(var1) { _fun0008_ip = 2; continue _fun0008 }
 case 3:
-            var1 = var3.MTFxYW;
+            var1 = var3.MTFxYc;
             var13 = var11.bind(var12)(var1);
             var1 = var10[var6];
             var1 = var7.bind(var9)(var1);
@@ -878,12 +878,12 @@ case 3:
             var14 = var15.string;
             var1 = var10[var2];
             var1 = var8.bind(var9)(var1);
-            var1 = var1.TA8GFh;
+            var1 = var1.TA8GFt;
             var1 = var14.bind(var15)(var1);
             var1 = var4.bind(var5)(var13, var1);
             _fun0008_ip = 4; continue _fun0008;
 case 2:
-            var3 = var3.Lmz9Vl;
+            var3 = var3.Lmz9Vh;
             var3 = var11.bind(var12)(var3);
             var6 = var10[var6];
             var6 = var7.bind(var9)(var6);
@@ -891,7 +891,7 @@ case 2:
             var6 = var7.string;
             var2 = var10[var2];
             var2 = var8.bind(var9)(var2);
-            var2 = var2.LVNgTE;
+            var2 = var2.LVNgTD;
             var2 = var6.bind(var7)(var2);
             var1 = var4.bind(var5)(var3, var2);
 case 4:
@@ -947,7 +947,7 @@ case 0:
             var1 = arg1;
             if(var1) { _fun0009_ip = 2; continue _fun0009 }
 case 3:
-            var1 = var3.DLVyFx;
+            var1 = var3.DLVyFw;
             var13 = var11.bind(var12)(var1);
             var1 = var10[var6];
             var1 = var7.bind(var9)(var1);
@@ -955,12 +955,12 @@ case 3:
             var14 = var15.string;
             var1 = var10[var2];
             var1 = var8.bind(var9)(var1);
-            var1 = var1.sSJaub;
+            var1 = var1.sSJauZ;
             var1 = var14.bind(var15)(var1);
             var1 = var4.bind(var5)(var13, var1);
             _fun0009_ip = 4; continue _fun0009;
 case 2:
-            var3 = var3.c0NgBQ;
+            var3 = var3.c0NgBX;
             var3 = var11.bind(var12)(var3);
             var6 = var10[var6];
             var6 = var7.bind(var9)(var6);
@@ -968,7 +968,7 @@ case 2:
             var6 = var7.string;
             var2 = var10[var2];
             var2 = var8.bind(var9)(var2);
-            var2 = var2.BLgIrq;
+            var2 = var2.BLgIrk;
             var2 = var6.bind(var7)(var2);
             var1 = var4.bind(var5)(var3, var2);
 case 4:
@@ -989,7 +989,7 @@ case 4:
         var1 = 3;
         var1 = var6[var1];
         var1 = var2.bind(var5)(var1);
-        var2 = var1.rcPInZ;
+        var2 = var1.rcPInc;
         var1 = {};
         var5 = arg1;
         var1['count'] = var5;
@@ -1019,7 +1019,7 @@ case 0:
             var1 = arg1;
             if(var1) { _fun0010_ip = 2; continue _fun0010 }
 case 3:
-            var1 = var3.DLVyFx;
+            var1 = var3.DLVyFw;
             var13 = var11.bind(var12)(var1);
             var1 = var10[var6];
             var1 = var7.bind(var9)(var1);
@@ -1027,12 +1027,12 @@ case 3:
             var14 = var15.string;
             var1 = var10[var2];
             var1 = var8.bind(var9)(var1);
-            var1 = var1.sSJaub;
+            var1 = var1.sSJauZ;
             var1 = var14.bind(var15)(var1);
             var1 = var4.bind(var5)(var13, var1);
             _fun0010_ip = 4; continue _fun0010;
 case 2:
-            var3 = var3.c0NgBQ;
+            var3 = var3.c0NgBX;
             var3 = var11.bind(var12)(var3);
             var6 = var10[var6];
             var6 = var7.bind(var9)(var6);
@@ -1040,7 +1040,7 @@ case 2:
             var6 = var7.string;
             var2 = var10[var2];
             var2 = var8.bind(var9)(var2);
-            var2 = var2.BLgIrq;
+            var2 = var2.BLgIrk;
             var2 = var6.bind(var7)(var2);
             var1 = var4.bind(var5)(var3, var2);
 case 4:
@@ -1076,7 +1076,7 @@ case 4:
         var1 = 3;
         var1 = var6[var1];
         var1 = var4.bind(var5)(var1);
-        var1 = var1.eo4Fxs;
+        var1 = var1.eo4Fxh;
         var1 = var2.bind(var3)(var1);
         return var1;
     };
@@ -1094,7 +1094,7 @@ case 4:
         var1 = 3;
         var1 = var6[var1];
         var1 = var4.bind(var5)(var1);
-        var1 = var1.O/AElp;
+        var1 = var1.O/AElu;
         var1 = var2.bind(var3)(var1);
         return var1;
     };
@@ -1112,7 +1112,7 @@ case 4:
         var1 = 3;
         var1 = var6[var1];
         var1 = var2.bind(var5)(var1);
-        var2 = var1.eGFWUV;
+        var2 = var1.eGFWUd;
         var1 = {};
         var5 = arg1;
         var1['count'] = var5;
@@ -1133,7 +1133,7 @@ case 4:
         var1 = 3;
         var1 = var6[var1];
         var1 = var4.bind(var5)(var1);
-        var1 = var1.O/AElp;
+        var1 = var1.O/AElu;
         var1 = var2.bind(var3)(var1);
         return var1;
     };
@@ -1160,7 +1160,7 @@ case 4:
         var1 = 3;
         var1 = var6[var1];
         var1 = var4.bind(var5)(var1);
-        var1 = var1.NMYKsr;
+        var1 = var1.NMYKsh;
         var1 = var2.bind(var3)(var1);
         return var1;
     };
@@ -1183,11 +1183,11 @@ case 0:
             var1 = arg1;
             if(var1) { _fun0011_ip = 5; continue _fun0011 }
 case 6:
-            var1 = var2.85PtWl;
+            var1 = var2.85PtWu;
             var1 = var3.bind(var4)(var1);
             _fun0011_ip = 7; continue _fun0011;
 case 5:
-            var2 = var2.cqIdqa;
+            var2 = var2.cqIdqZ;
             var1 = var3.bind(var4)(var2);
 case 7:
             return var1;
@@ -1207,7 +1207,7 @@ case 7:
         var1 = 3;
         var1 = var6[var1];
         var1 = var2.bind(var5)(var1);
-        var2 = var1.FPViWF;
+        var2 = var1.FPViWL;
         var1 = {};
         var5 = arg1;
         var1['amount'] = var5;
@@ -1233,11 +1233,11 @@ case 0:
             var1 = arg1;
             if(var1) { _fun0012_ip = 5; continue _fun0012 }
 case 6:
-            var1 = var2.85PtWl;
+            var1 = var2.85PtWu;
             var1 = var3.bind(var4)(var1);
             _fun0012_ip = 7; continue _fun0012;
 case 5:
-            var2 = var2.cqIdqa;
+            var2 = var2.cqIdqZ;
             var1 = var3.bind(var4)(var2);
 case 7:
             return var1;
@@ -1295,7 +1295,7 @@ case 7:
         var1 = 3;
         var1 = var6[var1];
         var1 = var4.bind(var5)(var1);
-        var1 = var1.nGX8Cg;
+        var1 = var1.nGX8Co;
         var1 = var2.bind(var3)(var1);
         return var1;
     };
@@ -1336,7 +1336,7 @@ case 7:
         var1 = 3;
         var1 = var6[var1];
         var1 = var4.bind(var5)(var1);
-        var1 = var1.tu0MRk;
+        var1 = var1.tu0MRv;
         var1 = var2.bind(var3)(var1);
         return var1;
     };
@@ -1361,7 +1361,7 @@ case 8:
             var1 = 3;
             var1 = var7[var1];
             var1 = var4.bind(var5)(var1);
-            var1 = var1.Xyjnws;
+            var1 = var1.Xyjnwn;
             var1 = var2.bind(var3)(var1);
             _fun0013_ip = 9; continue _fun0013;
 case 7:
@@ -1377,7 +1377,7 @@ case 7:
             var2 = 3;
             var2 = var8[var2];
             var2 = var3.bind(var7)(var2);
-            var3 = var2.xNEkd3;
+            var3 = var2.xNEkdx;
             var2 = {};
             var2['email'] = var6;
             var1 = var4.bind(var5)(var3, var2);
@@ -1410,11 +1410,11 @@ case 0:
             var2 = var5.bind(var6)(var2);
             if(var1) { _fun0014_ip = 10; continue _fun0014 }
 case 11:
-            var1 = var2.MzX4RE;
+            var1 = var2.MzX4RP;
             var1 = var3.bind(var4)(var1);
             _fun0014_ip = 12; continue _fun0014;
 case 10:
-            var2 = var2.bS5x9/;
+            var2 = var2.bS5x94;
             var1 = var3.bind(var4)(var2);
 case 12:
             return var1;
@@ -1440,14 +1440,14 @@ case 0:
             var2 = var3.bind(var6)(var2);
             if(var1) { _fun0015_ip = 13; continue _fun0015 }
 case 11:
-            var3 = var2.69F+eX;
+            var3 = var2.69F+eS;
             var1 = {};
             var6 = 'https://support.discord.com/hc/articles/14155060633623';
             var1['link'] = var6;
             var1 = var4.bind(var5)(var3, var1);
             _fun0015_ip = 14; continue _fun0015;
 case 13:
-            var3 = var2.GKzqWl;
+            var3 = var2.GKzqWi;
             var2 = {};
             var6 = 'https://support.discord.com/hc/articles/14155043715735';
             var2['link'] = var6;
@@ -1475,7 +1475,7 @@ case 14:
         var1 = 3;
         var1 = var6[var1];
         var1 = var4.bind(var5)(var1);
-        var1 = var1.W9JLJi;
+        var1 = var1.W9JLJh;
         var1 = var2.bind(var3)(var1);
         return var1;
     };
@@ -1493,7 +1493,7 @@ case 14:
         var1 = 3;
         var1 = var6[var1];
         var1 = var2.bind(var5)(var1);
-        var2 = var1.On5iRE;
+        var2 = var1.On5iRI;
         var1 = {};
         var5 = 'https://support.discord.com/hc/requests/new?ticket_form_id=360000029731';
         var1['link'] = var5;
@@ -1564,16 +1564,16 @@ case 14:
         var2 = 3;
         var8 = var5[var2];
         var8 = var3.bind(var4)(var8);
-        var8 = var8.CJdoeX;
+        var8 = var8.CJdoee;
         var8 = var9.bind(var10)(var8);
         var1['seconds'] = var8;
         var8 = var5[var2];
         var8 = var3.bind(var4)(var8);
-        var8 = var8.InzMn5;
+        var8 = var8.InzMn3;
         var1['minutes'] = var8;
         var8 = var5[var2];
         var8 = var3.bind(var4)(var8);
-        var8 = var8.ErkYCA;
+        var8 = var8.ErkYCI;
         var1['hours'] = var8;
         var6 = var5[var6];
         var6 = var7.bind(var4)(var6);
@@ -1581,16 +1581,16 @@ case 14:
         var7 = var8.string;
         var6 = var5[var2];
         var6 = var3.bind(var4)(var6);
-        var6 = var6.GvfssL;
+        var6 = var6.GvfssA;
         var6 = var7.bind(var8)(var6);
         var1['yesterday'] = var6;
         var6 = var5[var2];
         var6 = var3.bind(var4)(var6);
-        var6 = var6.pWig19;
+        var6 = var6.pWig18;
         var1['days'] = var6;
         var2 = var5[var2];
         var2 = var3.bind(var4)(var2);
-        var2 = var2.MP3kho;
+        var2 = var2.MP3khg;
         var1['date'] = var2;
         return var1;
     };
@@ -1609,12 +1609,12 @@ case 14:
         var2 = 3;
         var8 = var5[var2];
         var8 = var3.bind(var4)(var8);
-        var8 = var8.BqsamZ;
+        var8 = var8.Bqsamd;
         var8 = var9.bind(var10)(var8);
         var1['seconds'] = var8;
         var8 = var5[var2];
         var8 = var3.bind(var4)(var8);
-        var8 = var8.kX3wJi;
+        var8 = var8.kX3wJg;
         var1['minutes'] = var8;
         var8 = var5[var2];
         var8 = var3.bind(var4)(var8);
@@ -1626,16 +1626,16 @@ case 14:
         var7 = var8.string;
         var6 = var5[var2];
         var6 = var3.bind(var4)(var6);
-        var6 = var6.Ln9zMj;
+        var6 = var6.Ln9zMn;
         var6 = var7.bind(var8)(var6);
         var1['yesterday'] = var6;
         var6 = var5[var2];
         var6 = var3.bind(var4)(var6);
-        var6 = var6.WRtyS0;
+        var6 = var6.WRtySz;
         var1['days'] = var6;
         var2 = var5[var2];
         var2 = var3.bind(var4)(var2);
-        var2 = var2.Y3ZYtL;
+        var2 = var2.Y3ZYtM;
         var1['date'] = var2;
         return var1;
     };

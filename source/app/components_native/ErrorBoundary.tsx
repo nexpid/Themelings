@@ -185,7 +185,7 @@ case 11:
             var7 = var11[var7];
             var7 = var10.bind(var5)(var7);
             var7 = var7.t;
-            var7 = var7./Nz9ra;
+            var7 = var7./Nz9rY;
             var7 = var8.bind(var9)(var7);
             var2['text'] = var7;
             var2['onPress'] = var6;
@@ -477,7 +477,7 @@ case 24:
                 var6 = var11[var20];
                 var6 = var8.bind(var4)(var6);
                 var6 = var6.t;
-                var6 = var6.tx8CkJ;
+                var6 = var6.tx8CkI;
                 var6 = var9.bind(var10)(var6);
                 var2['title'] = var6;
                 var6 = var11[var20];
@@ -487,7 +487,7 @@ case 24:
                 var6 = var11[var20];
                 var6 = var8.bind(var4)(var6);
                 var6 = var6.t;
-                var6 = var6.CvQlAA;
+                var6 = var6.CvQlAH;
                 var6 = var9.bind(var10)(var6);
                 var2['body'] = var6;
                 var10 = _closure1_slot16;
@@ -556,7 +556,7 @@ case 33:
                 var16 = var16[var20];
                 var16 = var19.bind(var4)(var16);
                 var16 = var16.t;
-                var16 = var16.4n8OJi;
+                var16 = var16.4n8OJn;
                 var16 = var17.bind(var18)(var16);
                 var12['text'] = var16;
                 var15 = var15.handleReload;

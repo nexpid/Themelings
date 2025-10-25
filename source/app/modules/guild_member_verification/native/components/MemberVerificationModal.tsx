@@ -611,7 +611,7 @@ case 26:
             var16 = var21[var16];
             var16 = var23.bind(var5)(var16);
             var16 = var16.t;
-            var16 = var16.cpT0Cg;
+            var16 = var16.cpT0Cq;
             var16 = var17.bind(var18)(var16);
             var13['accessibilityLabel'] = var16;
             var16 = var6.closeIconContainer;

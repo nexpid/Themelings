@@ -184,7 +184,7 @@ case 13:
             var3 = var13[var3];
             var3 = var11.bind(var4)(var3);
             var3 = var3.t;
-            var3 = var3.WYj55e;
+            var3 = var3.WYj55Y;
             var3 = var8.bind(var9)(var3);
             var2['label'] = var3;
             var3 = function action() {
@@ -900,7 +900,7 @@ case 34:
             var9 = var12[var8];
             var9 = var11.bind(var4)(var9);
             var9 = var9.t;
-            var9 = var9.ai6Lbm;
+            var9 = var9.ai6Lbr;
             var9 = var10.bind(var13)(var9);
             var5['title'] = var9;
             var9 = var12[var8];
@@ -910,7 +910,7 @@ case 34:
             var8 = var12[var8];
             var8 = var11.bind(var4)(var8);
             var8 = var8.t;
-            var8 = var8.LTr+x8;
+            var8 = var8.LTr+x9;
             var8 = var9.bind(var10)(var8);
             var5['body'] = var8;
             var5 = var7.bind(var4)(var6, var5);

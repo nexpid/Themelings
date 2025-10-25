@@ -152,7 +152,7 @@ case 5:
             var2 = var8[var1];
             var2 = var7.bind(var4)(var2);
             var2 = var2.t;
-            var6 = var2.pP5Aa2;
+            var6 = var2.pP5Aa+;
             var2 = {};
             var2['username'] = var10;
             var6 = var9.bind(var3)(var6, var2);
@@ -162,7 +162,7 @@ case 4:
             var1 = var8[var1];
             var1 = var7.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1.AHoLf3;
+            var1 = var1.AHoLf4;
             var6 = var2.bind(var3)(var1);
 case 6:
             var3 = _closure1_slot5;

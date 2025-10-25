@@ -288,7 +288,7 @@ case 20:
             var18 = var14[var18];
             var18 = var19.bind(var5)(var18);
             var18 = var18.t;
-            var19 = var18.MkzlDA;
+            var19 = var18.MkzlDL;
             var18 = {};
             var18['channelName'] = var22;
             var18 = var20.bind(var21)(var19, var18);
@@ -676,7 +676,7 @@ case 41:
             var20 = var20[var22];
             var20 = var24.bind(var5)(var20);
             var20 = var20.t;
-            var20 = var20.LhlgY2;
+            var20 = var20.LhlgY9;
             var20 = var21.bind(var23)(var20);
             var14['children'] = var20;
             var14 = var19.bind(var5)(var18, var14);
@@ -791,7 +791,7 @@ case 49:
             var18 = var18[var22];
             var18 = var21.bind(var5)(var18);
             var18 = var18.t;
-            var18 = var18.K/i3iY;
+            var18 = var18.K/i3iQ;
             var18 = var19.bind(var20)(var18);
             var15['children'] = var18;
             var15 = var17.bind(var5)(var16, var15);

@@ -111,7 +111,7 @@ case 10:
             var10 = var16[var10];
             var10 = var15.bind(var13)(var10);
             var10 = var10.t;
-            var10 = var10.CbaapK;
+            var10 = var10.CbaapP;
             var10 = var12.bind(var14)(var10);
             var3['header'] = var10;
             var3 = var5.bind(var8)(var3);
@@ -165,7 +165,7 @@ case 12:
             var8 = var14[var8];
             var8 = var12.bind(var13)(var8);
             var8 = var8.t;
-            var8 = var8.wxbhER;
+            var8 = var8.wxbhEe;
             var8 = var10.bind(var11)(var8);
             var5['header'] = var8;
             var5 = var6.bind(var7)(var5);

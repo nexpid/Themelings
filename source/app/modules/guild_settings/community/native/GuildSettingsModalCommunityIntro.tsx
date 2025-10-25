@@ -333,7 +333,7 @@ case 4:
         var19 = var9[var16];
         var19 = var7.bind(var4)(var19);
         var19 = var19.t;
-        var19 = var19.M/gBcH;
+        var19 = var19.M/gBcA;
         var19 = var20.bind(var21)(var19);
         var15['children'] = var19;
         var15 = var8.bind(var4)(var17, var15);
@@ -352,7 +352,7 @@ case 4:
         var19 = var9[var16];
         var19 = var7.bind(var4)(var19);
         var19 = var19.t;
-        var21 = var19.52EgsL;
+        var21 = var19.52EgsM;
         var19 = {};
         var20 = _closure1_slot1;
         var24 = 20;
@@ -378,7 +378,7 @@ case 4:
         var21 = var9[var16];
         var21 = var7.bind(var4)(var21);
         var21 = var21.t;
-        var21 = var21.LhlgY2;
+        var21 = var21.LhlgY9;
         var21 = var22.bind(var23)(var21);
         var15['text'] = var21;
         var19 = var9[var19];
@@ -473,7 +473,7 @@ case 8:
         var15 = var9[var16];
         var15 = var7.bind(var4)(var15);
         var15 = var15.t;
-        var15 = var15.oVQF29;
+        var15 = var15.oVQF2y;
         var15 = var17.bind(var18)(var15);
         var14['header'] = var15;
         var15 = var9[var16];
@@ -483,7 +483,7 @@ case 8:
         var15 = var9[var16];
         var15 = var7.bind(var4)(var15);
         var15 = var15.t;
-        var17 = var15.A6G7am;
+        var17 = var15.A6G7ak;
         var15 = {};
         var20 = function featureHook(arg1) {
             var4 = _closure1_slot13;
@@ -534,7 +534,7 @@ case 8:
         var17 = var9[var16];
         var17 = var7.bind(var4)(var17);
         var17 = var17.t;
-        var17 = var17.0rJl9/;
+        var17 = var17.0rJl9y;
         var17 = var18.bind(var19)(var17);
         var14['header'] = var17;
         var17 = var9[var16];
@@ -544,7 +544,7 @@ case 8:
         var17 = var9[var16];
         var17 = var7.bind(var4)(var17);
         var17 = var17.t;
-        var18 = var17.XsCNk5;
+        var18 = var17.XsCNky;
         var17 = {};
         var21 = function infoHook() {
             var1 = null;
@@ -609,7 +609,7 @@ case 8:
         var16 = var9[var16];
         var16 = var7.bind(var4)(var16);
         var16 = var16.t;
-        var16 = var16.hyNkHx;
+        var16 = var16.hyNkHz;
         var16 = var17.bind(var18)(var16);
         var14['body'] = var16;
         var15[2] = var14;

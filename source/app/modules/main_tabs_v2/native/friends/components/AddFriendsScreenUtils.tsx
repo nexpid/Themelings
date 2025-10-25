@@ -131,7 +131,7 @@ case 25: // catch_target1
                     var5 = var12[var5];
                     var5 = var11.bind(var9)(var5);
                     var5 = var5.t;
-                    var5 = var5.iufib2;
+                    var5 = var5.iufib1;
                     var5 = var8.bind(var10)(var5);
                     var5 = var6.bind(var7)(var5);
 case 24:
@@ -154,7 +154,7 @@ case 26: // catch_target0
                     var3 = var10[var3];
                     var3 = var8.bind(var9)(var3);
                     var3 = var3.t;
-                    var3 = var3.iufib2;
+                    var3 = var3.iufib1;
                     var3 = var6.bind(var7)(var3);
                     var3 = var4.bind(var5)(var3);
                     var3 = undefined;

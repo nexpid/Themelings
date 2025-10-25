@@ -193,7 +193,7 @@ case 4:
         var10 = 16;
         var10 = var9[var10];
         var10 = var11.bind(var4)(var10);
-        var10 = var10.dSkE/P;
+        var10 = var10.dSkE/A;
         var10 = var13.bind(var15)(var10);
         var1['title'] = var10;
         var10 = var9[var16];
@@ -262,7 +262,7 @@ case 4:
         var16 = var9[var16];
         var16 = var6.bind(var4)(var16);
         var16 = var16.t;
-        var16 = var16.2jxGen;
+        var16 = var16.2jxGer;
         var16 = var17.bind(var18)(var16);
         var14['children'] = var16;
         var14 = var3.bind(var4)(var15, var14);

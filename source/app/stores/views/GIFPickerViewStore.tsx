@@ -350,7 +350,7 @@ case 17:
             var6 = var11[var6];
             var6 = var10.bind(var9)(var6);
             var6 = var6.t;
-            var6 = var6.H6zNFx;
+            var6 = var6.H6zNFz;
             var6 = var7.bind(var8)(var6);
             var2['name'] = var6;
             var4 = var4.trendingGIFPreview;

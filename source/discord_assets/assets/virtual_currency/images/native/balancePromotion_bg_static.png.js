@@ -1,4 +1,4 @@
-// discord_assets/assets/virtual_currency/images/native/balancePromotion_bg.png.js
+// discord_assets/assets/virtual_currency/images/native/balancePromotion_bg_static.png.js
 module.exports = (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var3 = exports;
     var1 = global;
@@ -16,12 +16,12 @@ module.exports = (function(global, require, metroImportDefault, metroImportAll, 
     var1 = undefined;
     var5 = var2.bind(var1)(var4);
     var4 = var5.fileFinishedImporting;
-    var2 = '../discord_assets/assets/virtual_currency/images/native/balancePromotion_bg.png.js';
+    var2 = '../discord_assets/assets/virtual_currency/images/native/balancePromotion_bg_static.png.js';
     var2 = var4.bind(var5)(var2);
-    var2 = 'https://cdn.discordapp.com/assets/content/90914727e6ec2ab1b170c21e2f47f7a2d3d65ef6812f6ce8ce075fc371e602de.png';
+    var2 = 'https://cdn.discordapp.com/assets/content/0723b0f968de192a6d5a59d8200779ac16a025f60afa6b5dc1ddd3bd4b7d174f.png';
     var3['default'] = var2;
     var2 = {};
-    var4 = 76730;
+    var4 = 68707;
     var2['fileBytes'] = var4;
     var3['metadata'] = var2;
     return var1;

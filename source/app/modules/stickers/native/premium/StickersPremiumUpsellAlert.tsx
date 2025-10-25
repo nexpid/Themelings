@@ -74,7 +74,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var6[var1];
         var1 = var5.bind(var4)(var1);
         var1 = var1.t;
-        var1 = var1.uAfKTU;
+        var1 = var1.uAfKTe;
         var1 = var2.bind(var3)(var1);
         return var1;
     };
@@ -104,7 +104,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var7[var1];
         var1 = var6.bind(var2)(var1);
         var1 = var1.t;
-        var2 = var1.aVSVBA;
+        var2 = var1.aVSVBO;
         var1 = {};
         var5 = _closure1_slot12;
         var1['numFreeGuildSubscriptions'] = var5;
@@ -130,7 +130,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var6[var1];
         var1 = var5.bind(var4)(var1);
         var1 = var1.t;
-        var1 = var1.pqHIf3;
+        var1 = var1.pqHIf7;
         var1 = var2.bind(var3)(var1);
         return var1;
     };
@@ -376,7 +376,7 @@ case 6:
             var6 = var5[var24];
             var6 = var10.bind(var4)(var6);
             var6 = var6.t;
-            var6 = var6.f3Pet7;
+            var6 = var6.f3Pet9;
             var6 = var8.bind(var11)(var6);
             var1['cancelText'] = var6;
             var6 = 21;
@@ -392,7 +392,7 @@ case 6:
             var5 = var5[var24];
             var5 = var10.bind(var4)(var5);
             var5 = var5.t;
-            var5 = var5.o3TniY;
+            var5 = var5.o3Tnif;
             var5 = var6.bind(var8)(var5);
             var1['confirmText'] = var5;
             var5 = function onConfirm() {
@@ -520,7 +520,7 @@ case 8:
             var15 = var15[var24];
             var15 = var19.bind(var4)(var15);
             var15 = var15.t;
-            var19 = var15.TBsJfX;
+            var19 = var15.TBsJfQ;
             var15 = {};
             var24 = var22 != var23;
             var22 = '$...';

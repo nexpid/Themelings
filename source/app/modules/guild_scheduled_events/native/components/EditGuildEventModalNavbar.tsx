@@ -154,7 +154,7 @@ case 8:
             var10 = var14[var15];
             var10 = var18.bind(var4)(var10);
             var10 = var10.t;
-            var16 = var10.42HaFR;
+            var16 = var10.42HaFY;
             var10 = {};
             var10['step'] = var21;
             var10['total'] = var20;
@@ -177,7 +177,7 @@ case 8:
             var15 = var14[var15];
             var15 = var18.bind(var4)(var15);
             var15 = var15.t;
-            var15 = var15.cpT0Cg;
+            var15 = var15.cpT0Cq;
             var15 = var16.bind(var17)(var15);
             var9['accessibilityLabel'] = var15;
             var9['onPress'] = var13;

@@ -72,7 +72,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var11 = var9[var10];
         var11 = var13.bind(var4)(var11);
         var11 = var11.t;
-        var11 = var11.N38nND;
+        var11 = var11.N38nNP;
         var11 = var12.bind(var14)(var11);
         var1['title'] = var11;
         var11 = var9[var10];
@@ -82,7 +82,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10 = var9[var10];
         var10 = var13.bind(var4)(var10);
         var10 = var10.t;
-        var10 = var10.csJWVF;
+        var10 = var10.csJWVI;
         var10 = var11.bind(var12)(var10);
         var1['description'] = var10;
         var10 = true;

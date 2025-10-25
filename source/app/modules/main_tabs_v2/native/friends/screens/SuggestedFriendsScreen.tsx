@@ -298,7 +298,7 @@ case 11:
             var19 = var23[var19];
             var19 = var22.bind(var4)(var19);
             var19 = var19.t;
-            var19 = var19.pxFW8f;
+            var19 = var19.pxFW8V;
             var19 = var20.bind(var21)(var19);
             var16['title'] = var19;
             var16['disableBackgroundOverlay'] = var18;

@@ -100,7 +100,7 @@ case 4:
             var7 = var11[var7];
             var7 = var10.bind(var4)(var7);
             var7 = var7.t;
-            var7 = var7.6vrfgo;
+            var7 = var7.6vrfgt;
             var7 = var8.bind(var9)(var7);
             var1['accessibilityLabel'] = var7;
             var1['isSmallSize'] = var6;

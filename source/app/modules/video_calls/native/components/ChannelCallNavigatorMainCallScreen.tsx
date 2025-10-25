@@ -385,7 +385,7 @@ case 29:
                     var4 = var7[var4];
                     var4 = var10.bind(var5)(var4);
                     var4 = var4.t;
-                    var4 = var4.AlJyIy;
+                    var4 = var4.AlJyI+;
                     var4 = var8.bind(var9)(var4);
                     var1['content'] = var4;
                     var4 = 23;

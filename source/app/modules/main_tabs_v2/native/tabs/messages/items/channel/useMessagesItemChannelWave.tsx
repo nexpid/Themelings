@@ -161,7 +161,7 @@ case 15:
                         var8 = var10[var8];
                         var8 = var13.bind(var4)(var8);
                         var8 = var8.t;
-                        var8 = var8.Whhv4+;
+                        var8 = var8.Whhv4w;
                         var8 = var11.bind(var12)(var8);
                         var5['content'] = var8;
                         var8 = 10;

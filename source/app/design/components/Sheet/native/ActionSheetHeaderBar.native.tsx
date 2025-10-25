@@ -170,7 +170,7 @@ case 10:
             var2 = var7[var2];
             var2 = var6.bind(var5)(var2);
             var2 = var2.t;
-            var2 = var2.WAI6xs;
+            var2 = var2.WAI6xu;
             var11 = var3.bind(var4)(var2);
 case 9:
             var14 = var1.style;

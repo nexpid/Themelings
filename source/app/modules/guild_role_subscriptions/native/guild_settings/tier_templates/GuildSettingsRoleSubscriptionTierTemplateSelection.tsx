@@ -412,7 +412,7 @@ case 17:
                     var11 = var15[var11];
                     var11 = var14.bind(var1)(var11);
                     var11 = var11.t;
-                    var11 = var11.WNWtkJ;
+                    var11 = var11.WNWtkB;
                     var11 = var12.bind(var13)(var11);
                     var9['children'] = var11;
                     var9 = var8.bind(var1)(var10, var9);
@@ -505,7 +505,7 @@ case 17:
             var22 = var11[var25];
             var22 = var30.bind(var4)(var22);
             var22 = var22.t;
-            var22 = var22.uYFiKi;
+            var22 = var22.uYFiKr;
             var22 = var24.bind(var26)(var22);
             var8['children'] = var22;
             var19 = var21.bind(var4)(var19, var8);
@@ -536,7 +536,7 @@ case 17:
             var27 = var11[var25];
             var27 = var30.bind(var4)(var27);
             var27 = var27.t;
-            var27 = var27.ne+rg4;
+            var27 = var27.ne+rg6;
             var27 = var28.bind(var29)(var27);
             var20['children'] = var27;
             var20 = var26.bind(var4)(var22, var20);
@@ -568,7 +568,7 @@ case 20:
             var21 = var21[var25];
             var21 = var22.bind(var4)(var21);
             var21 = var21.t;
-            var22 = var21.iQML2t;
+            var22 = var21.iQML2g;
             var21 = {};
             var25 = 'https://discord.com/creator-portal/learn-from-creators?tab=lightning-lessons';
             var21['creatorPortalUrl'] = var25;

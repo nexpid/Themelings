@@ -57,7 +57,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var6[var1];
         var1 = var5.bind(var4)(var1);
         var1 = var1.t;
-        var1 = var1.i19n5O;
+        var1 = var1.i19n5L;
         var1 = var2.bind(var3)(var1);
         return var1;
     };
@@ -165,7 +165,7 @@ case 2:
                 var5 = var10[var5];
                 var5 = var9.bind(var8)(var5);
                 var5 = var5.t;
-                var5 = var5.i19n5O;
+                var5 = var5.i19n5L;
                 var5 = var6.bind(var7)(var5);
                 var1['accessibilityLabel'] = var5;
                 var5 = {};

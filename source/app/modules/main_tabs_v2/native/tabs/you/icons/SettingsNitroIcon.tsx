@@ -133,7 +133,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = var13[var9];
         var9 = var12.bind(var4)(var9);
         var9 = var9.t;
-        var9 = var9.Ipxkoq;
+        var9 = var9.Ipxkog;
         var9 = var10.bind(var11)(var9);
         var6['children'] = var9;
         var6 = var8.bind(var4)(var7, var6);

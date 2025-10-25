@@ -159,7 +159,7 @@ case 26:
             var5 = var8[var3];
             var5 = var6.bind(var7)(var5);
             var5 = var5.t;
-            var5 = var5.4CxGXl;
+            var5 = var5.4CxGXi;
             var5 = var9.bind(var10)(var5);
             var1['titleText'] = var5;
             var5 = 5;
@@ -182,7 +182,7 @@ case 26:
             var4 = var8[var3];
             var4 = var6.bind(var7)(var4);
             var4 = var4.t;
-            var5 = var4.eevFb2;
+            var5 = var4.eevFb6;
             var4 = {};
             var11 = 3;
             var13 = var8[var11];
@@ -205,7 +205,7 @@ case 26:
             var4 = var8[var3];
             var4 = var6.bind(var7)(var4);
             var4 = var4.t;
-            var4 = var4.5CLb0N;
+            var4 = var4.5CLb0A;
             var4 = var5.bind(var9)(var4);
             var1['descriptionText'] = var4;
             var4 = var8[var3];
@@ -215,7 +215,7 @@ case 26:
             var3 = var8[var3];
             var3 = var6.bind(var7)(var3);
             var3 = var3.t;
-            var3 = var3.zKnzws;
+            var3 = var3.zKnzwm;
             var3 = var4.bind(var5)(var3);
             var1['ctaText'] = var3;
             var1['classificationId'] = var2;

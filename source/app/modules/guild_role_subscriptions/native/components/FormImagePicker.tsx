@@ -198,7 +198,7 @@ case 25:
             var6 = var15[var6];
             var6 = var14.bind(var4)(var6);
             var6 = var6.t;
-            var6 = var6.HNo5cH;
+            var6 = var6.HNo5cG;
             var6 = var9.bind(var11)(var6);
             var1['accessibilityLabel'] = var6;
             var6 = {};
@@ -439,7 +439,7 @@ case 40:
             var1 = var7[var1];
             var1 = var5.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1.0KOidn;
+            var1 = var1.0KOido;
             var22 = var2.bind(var3)(var1);
             _fun0004_ip = 41; continue _fun0004;
 case 39:
@@ -453,7 +453,7 @@ case 39:
             var1 = var7[var1];
             var1 = var5.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1.bGPfSk;
+            var1 = var1.bGPfSp;
             var22 = var2.bind(var3)(var1);
 case 41:
             var3 = _closure1_slot7;

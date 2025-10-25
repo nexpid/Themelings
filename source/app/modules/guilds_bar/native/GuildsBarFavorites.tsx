@@ -129,7 +129,7 @@ case 0:
             var10 = var9[var10];
             var10 = var6.bind(var4)(var10);
             var10 = var10.t;
-            var10 = var10.wMWycn;
+            var10 = var10.wMWyci;
             var10 = var12.bind(var13)(var10);
             var1['label'] = var10;
             var1['externalChildren'] = var5;

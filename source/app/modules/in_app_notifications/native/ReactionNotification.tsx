@@ -494,7 +494,7 @@ case 56:
             var13 = var23[var13];
             var13 = var19.bind(var4)(var13);
             var13 = var13.t;
-            var19 = var13.ZOzpKi;
+            var19 = var13.ZOzpKt;
             var13 = {};
             var13['emojiHook'] = var24;
             var13 = var20.bind(var22)(var19, var13);
@@ -510,7 +510,7 @@ case 58:
             var19 = var25[var19];
             var19 = var20.bind(var4)(var19);
             var19 = var19.t;
-            var20 = var19.sHV43N;
+            var20 = var19.sHV43G;
             var19 = {};
             var19['emojiHook'] = var24;
             var13 = var22.bind(var23)(var20, var19);
@@ -559,7 +559,7 @@ case 54:
             var11 = var19[var11];
             var11 = var12.bind(var4)(var11);
             var11 = var11.t;
-            var12 = var11.KTurAQ;
+            var12 = var11.KTurAR;
             var11 = {};
             var11['count'] = var17;
             var11 = var13.bind(var14)(var12, var11);
@@ -584,7 +584,7 @@ case 52:
             var11 = var19[var11];
             var11 = var12.bind(var4)(var11);
             var11 = var11.t;
-            var12 = var11.Tqk79P;
+            var12 = var11.Tqk79E;
             var11 = {};
             var11['count'] = var17;
             var11 = var13.bind(var14)(var12, var11);

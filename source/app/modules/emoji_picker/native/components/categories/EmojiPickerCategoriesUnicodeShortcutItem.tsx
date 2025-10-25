@@ -228,7 +228,7 @@ case 10:
             var6 = var11[var6];
             var6 = var13.bind(var5)(var6);
             var6 = var6.t;
-            var6 = var6.gg3lOD;
+            var6 = var6.gg3lOG;
             var6 = var7.bind(var9)(var6);
             var2['accessibilityLabel'] = var6;
             var7 = _closure1_slot5;

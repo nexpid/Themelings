@@ -717,7 +717,7 @@ case 0:
                 var1 = var10[var6];
                 var1 = var9.bind(var5)(var1);
                 var1 = var1.t;
-                var1 = var1.y3LQCA;
+                var1 = var1.y3LQCG;
                 var1 = var8.bind(var11)(var1);
                 var4['name'] = var1;
                 var1 = _closure2_slot1;
@@ -742,7 +742,7 @@ case 0:
                 var6 = var10[var6];
                 var6 = var9.bind(var5)(var6);
                 var6 = var6.t;
-                var6 = var6.6hjpXV;
+                var6 = var6.6hjpXW;
                 var6 = var7.bind(var8)(var6);
                 var4['name'] = var6;
                 var7 = _closure2_slot3;

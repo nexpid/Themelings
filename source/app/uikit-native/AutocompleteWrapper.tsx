@@ -2316,7 +2316,7 @@ case 173:
                 var38 = var48[var38];
                 var38 = var45.bind(var4)(var38);
                 var38 = var38.t;
-                var45 = var38.uferGB;
+                var45 = var38.uferGG;
                 var38 = {};
                 var38['prefix'] = var41;
                 var38 = var46.bind(var47)(var45, var38);
@@ -2398,7 +2398,7 @@ case 179:
                 var35 = var39[var35];
                 var35 = var36.bind(var4)(var35);
                 var35 = var35.t;
-                var36 = var35.ksAVYm;
+                var36 = var35.ksAVYt;
                 var35 = {};
                 var40 = _closure1_slot21;
                 var39 = global;

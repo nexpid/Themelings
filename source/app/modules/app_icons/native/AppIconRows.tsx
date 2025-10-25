@@ -87,7 +87,7 @@ case 4:
             var10 = var15[var10];
             var10 = var14.bind(var5)(var10);
             var10 = var10.t;
-            var10 = var10.N4YDam;
+            var10 = var10.N4YDao;
             var10 = var12.bind(var13)(var10);
             var6['accessibilityLabel'] = var10;
             var10 = true;
@@ -271,7 +271,7 @@ case 9:
             var9 = var20[var9];
             var9 = var19.bind(var4)(var9);
             var9 = var9.t;
-            var9 = var9.anqaFR;
+            var9 = var9.anqaFd;
             var9 = var11.bind(var18)(var9);
             var5['title'] = var9;
             var5['onSelect'] = var12;
@@ -307,7 +307,7 @@ case 13:
             var14 = var18[var14];
             var14 = var17.bind(var4)(var14);
             var14 = var14.t;
-            var14 = var14.Ipxkoq;
+            var14 = var14.Ipxkog;
             var13 = var15.bind(var16)(var14);
 case 12:
             var9['title'] = var13;

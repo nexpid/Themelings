@@ -603,7 +603,7 @@ case 48:
             var24 = var29[var24];
             var24 = var28.bind(var4)(var24);
             var24 = var24.t;
-            var24 = var24.lTCb0d;
+            var24 = var24.lTCb0c;
             var24 = var26.bind(var27)(var24);
             var12['text'] = var24;
             var24 = var18.buttonText;
@@ -652,7 +652,7 @@ case 52:
             var24 = var30[var24];
             var24 = var29.bind(var4)(var24);
             var24 = var24.t;
-            var24 = var24.gmVtgI;
+            var24 = var24.gmVtgF;
             var24 = var26.bind(var28)(var24);
             _fun0005_ip = 53; continue _fun0005;
 case 51:
@@ -666,7 +666,7 @@ case 51:
             var26 = var31[var26];
             var26 = var30.bind(var4)(var26);
             var26 = var26.t;
-            var26 = var26.SgX7RU;
+            var26 = var26.SgX7Ra;
             var24 = var28.bind(var29)(var26);
 case 53:
             var19['text'] = var24;
@@ -719,7 +719,7 @@ case 56:
             var25 = var24[var25];
             var25 = var28.bind(var4)(var25);
             var25 = var25.t;
-            var25 = var25.gIVkjo;
+            var25 = var25.gIVkjm;
             var25 = var26.bind(var27)(var25);
             var19['text'] = var25;
             var25 = var18.button;
@@ -764,7 +764,7 @@ case 58:
             var17 = var21[var17];
             var17 = var20.bind(var4)(var17);
             var17 = var17.t;
-            var17 = var17.ETE/oK;
+            var17 = var17.ETE/oC;
             var17 = var18.bind(var19)(var17);
             var14['children'] = var17;
             var13 = var16.bind(var4)(var15, var14);
@@ -1438,7 +1438,7 @@ case 60:
             var17 = var17[var14];
             var17 = var20.bind(var5)(var17);
             var17 = var17.t;
-            var17 = var17.ITurwc;
+            var17 = var17.ITurwY;
             var17 = var18.bind(var19)(var17);
             var6['children'] = var17;
             var9 = var12.bind(var5)(var9, var6);
@@ -1511,7 +1511,7 @@ case 65:
             var10 = var10[var14];
             var10 = var13.bind(var5)(var10);
             var10 = var10.t;
-            var10 = var10.MTG+3N;
+            var10 = var10.MTG+3O;
             var10 = var11.bind(var12)(var10);
             var7['children'] = var10;
             var7 = var9.bind(var5)(var8, var7);

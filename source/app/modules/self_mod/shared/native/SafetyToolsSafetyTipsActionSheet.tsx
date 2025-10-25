@@ -87,7 +87,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var11 = var14[var10];
         var11 = var13.bind(var4)(var11);
         var11 = var11.t;
-        var11 = var11.EtNxi4;
+        var11 = var11.EtNxi6;
         var11 = var12.bind(var15)(var11);
         var1['headerTitle'] = var11;
         var1['channelId'] = var6;
@@ -107,7 +107,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10 = var14[var10];
         var10 = var13.bind(var4)(var10);
         var10 = var10.t;
-        var10 = var10.DJMZX1;
+        var10 = var10.DJMZX6;
         var10 = var11.bind(var12)(var10);
         var7['description'] = var10;
         var9 = _closure1_slot4;

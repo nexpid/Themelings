@@ -230,7 +230,7 @@ case 2:
             var10 = var21[var17];
             var10 = var20.bind(var4)(var10);
             var10 = var10.t;
-            var10 = var10.RDE0SU;
+            var10 = var10.RDE0Sc;
             var10 = var11.bind(var14)(var10);
             var7['accessibilityLabel'] = var10;
             var14 = 13;
@@ -245,7 +245,7 @@ case 2:
             var18 = var21[var17];
             var18 = var20.bind(var4)(var18);
             var18 = var18.t;
-            var18 = var18.RDE0SU;
+            var18 = var18.RDE0Sc;
             var18 = var19.bind(var22)(var18);
             var10['children'] = var18;
             var10 = var3.bind(var4)(var11, var10);
@@ -317,7 +317,7 @@ case 2:
             var17 = var21[var17];
             var17 = var20.bind(var4)(var17);
             var17 = var17.t;
-            var17 = var17.cgBTyM;
+            var17 = var17.cgBTyO;
             var17 = var18.bind(var19)(var17);
             var10['title'] = var17;
             var16 = var16 != var15;

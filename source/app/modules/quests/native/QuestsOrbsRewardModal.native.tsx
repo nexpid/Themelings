@@ -428,7 +428,7 @@ case 21:
         var6 = var10[var6];
         var6 = var9.bind(var4)(var6);
         var6 = var6.t;
-        var6 = var6.cpT0Cg;
+        var6 = var6.cpT0Cq;
         var6 = var7.bind(var8)(var6);
         var1['accessibilityLabel'] = var6;
         var6 = false;
@@ -884,7 +884,7 @@ case 38:
             var12 = var12.t;
             if(var22) { _fun0008_ip = 40; continue _fun0008 }
 case 41:
-            var13 = var12.uJAMFR;
+            var13 = var12.uJAMFX;
             var2['text'] = var13;
             var2['handler'] = var3;
             var1['primary'] = var2;
@@ -892,14 +892,14 @@ case 41:
             var15 = var5[var21];
             var15 = var7.bind(var4)(var15);
             var15 = var15.t;
-            var15 = var15.GPdvqa;
+            var15 = var15.GPdvqY;
             var13['text'] = var15;
             var13['handler'] = var9;
             var1['secondary'] = var13;
             var18 = var1;
             _fun0008_ip = 42; continue _fun0008;
 case 40:
-            var12 = var12.GPdvqa;
+            var12 = var12.GPdvqY;
             var2['text'] = var12;
             var2['handler'] = var9;
             var1['primary'] = var2;
@@ -907,7 +907,7 @@ case 40:
             var5 = var5[var21];
             var5 = var7.bind(var4)(var5);
             var5 = var5.t;
-            var5 = var5.uJAMFR;
+            var5 = var5.uJAMFX;
             var2['text'] = var5;
             var2['handler'] = var3;
             var1['secondary'] = var2;
@@ -1051,7 +1051,7 @@ case 55:
             var20 = var33[var21];
             var20 = var32.bind(var4)(var20);
             var20 = var20.t;
-            var24 = var20.FIilKy;
+            var24 = var20.FIilK5;
             var20 = {};
             var31 = 35;
             var31 = var33[var31];
@@ -1091,7 +1091,7 @@ case 60:
             var22 = var23[var21];
             var22 = var24.bind(var4)(var22);
             var22 = var22.t;
-            var22 = var22.97ztVl;
+            var22 = var22.97ztVq;
             var22 = var25.bind(var26)(var22);
             _fun0008_ip = 61; continue _fun0008;
 case 59:
@@ -1099,7 +1099,7 @@ case 59:
             var23 = var23[var21];
             var23 = var24.bind(var4)(var23);
             var23 = var23.t;
-            var24 = var23.Heldho;
+            var24 = var23.Heldhm;
             var23 = {};
             var27 = function profileDecoHook() {
                 var4 = _closure1_slot14;
@@ -1119,7 +1119,7 @@ case 59:
                 var5 = var9[var5];
                 var5 = var8.bind(var3)(var5);
                 var5 = var5.t;
-                var5 = var5.pGDUHx;
+                var5 = var5.pGDUH9;
                 var5 = var6.bind(var7)(var5);
                 var1['children'] = var5;
                 var1 = var4.bind(var3)(var2, var1);

@@ -207,7 +207,7 @@ case 35:
         var7 = var11[var7];
         var7 = var10.bind(var5)(var7);
         var7 = var7.t;
-        var7 = var7.IhXLy8;
+        var7 = var7.IhXLyx;
         var7 = var8.bind(var9)(var7);
         var2['label'] = var7;
         var6 = var6.paypalVerifiedTagText;
@@ -268,7 +268,7 @@ case 38:
             var2 = var12[var2];
             var2 = var3.bind(var4)(var2);
             var2 = var2.t;
-            var3 = var2.HLoinJ;
+            var3 = var2.HLoinF;
             var2 = {};
             var2['name'] = var11;
             var2['value'] = var10;
@@ -408,7 +408,7 @@ case 22:
         var5 = var14[var5];
         var5 = var11.bind(var4)(var5);
         var5 = var5.t;
-        var6 = var5.HLoinJ;
+        var6 = var5.HLoinF;
         var5 = {};
         var10 = 13;
         var10 = var14[var10];
@@ -546,7 +546,7 @@ case 43:
             var3 = var13[var3];
             var3 = var12.bind(var7)(var3);
             var3 = var3.t;
-            var3 = var3.SbCNo6;
+            var3 = var3.SbCNox;
             var9['label'] = var3;
             var3 = _closure1_slot4;
             var3 = var3.REDDIT_TOTAL_KARMA;
@@ -571,7 +571,7 @@ case 45:
             var5 = var15[var5];
             var5 = var14.bind(var7)(var5);
             var5 = var5.t;
-            var5 = var5.06rDHR;
+            var5 = var5.06rDHU;
             var5 = var12.bind(var13)(var5);
             var9['label'] = var5;
             var5 = _closure1_slot4;
@@ -596,7 +596,7 @@ case 47:
             var8 = var12[var8];
             var8 = var11.bind(var7)(var8);
             var8 = var8.t;
-            var8 = var8.oWM95O;
+            var8 = var8.oWM95M;
             var8 = var9.bind(var10)(var8);
             var4['label'] = var8;
             var2 = _closure1_slot4;
@@ -658,7 +658,7 @@ case 50:
             var4 = var13[var4];
             var4 = var12.bind(var7)(var4);
             var4 = var4.t;
-            var4 = var4.llwqqa;
+            var4 = var4.llwqqe;
             var6['label'] = var4;
             var4 = _closure1_slot4;
             var4 = var4.TWITTER_STATUSES_COUNT;
@@ -679,7 +679,7 @@ case 52:
             var8 = var10[var8];
             var8 = var9.bind(var7)(var8);
             var8 = var8.t;
-            var8 = var8.LMNOUV;
+            var8 = var8.LMNOUQ;
             var4['label'] = var8;
             var2 = _closure1_slot4;
             var2 = var2.TWITTER_FOLLOWERS_COUNT;
@@ -740,7 +740,7 @@ case 50:
             var4 = var13[var4];
             var4 = var12.bind(var7)(var4);
             var4 = var4.t;
-            var4 = var4.thA2io;
+            var4 = var4.thA2ir;
             var6['label'] = var4;
             var4 = _closure1_slot4;
             var4 = var4.BLUESKY_STATUSES_COUNT;
@@ -761,7 +761,7 @@ case 52:
             var8 = var10[var8];
             var8 = var9.bind(var7)(var8);
             var8 = var8.t;
-            var8 = var8.RQath4;
+            var8 = var8.RQath2;
             var4['label'] = var8;
             var2 = _closure1_slot4;
             var2 = var2.BLUESKY_FOLLOWERS_COUNT;
@@ -833,7 +833,7 @@ case 56:
             var4 = var12[var4];
             var4 = var11.bind(var7)(var4);
             var4 = var4.t;
-            var4 = var4.ppXMu7;
+            var4 = var4.ppXMu/;
             var6['label'] = var4;
             var4 = _closure1_slot4;
             var4 = var4.STEAM_GAME_COUNT;
@@ -857,7 +857,7 @@ case 58:
             var11 = var14[var4];
             var11 = var13.bind(var7)(var11);
             var11 = var11.t;
-            var12 = var11.Y88M5+;
+            var12 = var11.Y88M5x;
             var11 = {};
             var11['count'] = var18;
             var11 = var16.bind(var17)(var12, var11);
@@ -874,7 +874,7 @@ case 58:
             var4 = var14[var4];
             var4 = var13.bind(var7)(var4);
             var4 = var4.t;
-            var4 = var4.HKUEZm;
+            var4 = var4.HKUEZo;
             var4 = var11.bind(var12)(var4);
             var6['imageAlt'] = var4;
             var4 = _closure1_slot4;
@@ -899,7 +899,7 @@ case 60:
             var9 = var12[var8];
             var9 = var11.bind(var7)(var9);
             var9 = var9.t;
-            var10 = var9.Y88M5+;
+            var10 = var9.Y88M5x;
             var9 = {};
             var9['count'] = var15;
             var9 = var13.bind(var14)(var10, var9);
@@ -916,7 +916,7 @@ case 60:
             var8 = var12[var8];
             var8 = var11.bind(var7)(var8);
             var8 = var8.t;
-            var8 = var8.C8p1Sk;
+            var8 = var8.C8p1Sh;
             var8 = var9.bind(var10)(var8);
             var4['imageAlt'] = var8;
             var2 = _closure1_slot4;
@@ -1026,7 +1026,7 @@ case 68:
             var8 = var12[var8];
             var8 = var11.bind(var7)(var8);
             var8 = var8.t;
-            var8 = var8.TEEYwc;
+            var8 = var8.TEEYwa;
             var8 = var9.bind(var10)(var8);
             var4['label'] = var8;
             var2 = _closure1_slot4;
@@ -1102,7 +1102,7 @@ case 14:
             var9 = var15[var9];
             var9 = var14.bind(var7)(var9);
             var9 = var9.t;
-            var9 = var9.Mpm/BQ;
+            var9 = var9.Mpm/Bc;
             var11['label'] = var9;
             var9 = _closure1_slot4;
             var9 = var9.TIKTOK_FOLLOWER_COUNT;
@@ -1123,7 +1123,7 @@ case 76:
             var6 = var14[var6];
             var6 = var13.bind(var7)(var6);
             var6 = var6.t;
-            var6 = var6.ftf12t;
+            var6 = var6.ftf12v;
             var10['label'] = var6;
             var6 = _closure1_slot4;
             var6 = var6.TIKTOK_FOLLOWING_COUNT;
@@ -1144,7 +1144,7 @@ case 78:
             var3 = var12[var3];
             var3 = var11.bind(var7)(var3);
             var3 = var3.t;
-            var3 = var3.Qwhe5u;
+            var3 = var3.Qwhe5j;
             var6['label'] = var3;
             var3 = _closure1_slot4;
             var3 = var3.TIKTOK_LIKES_COUNT;
@@ -1169,7 +1169,7 @@ case 80:
             var8 = var12[var8];
             var8 = var11.bind(var7)(var8);
             var8 = var8.t;
-            var8 = var8.QHHwRU;
+            var8 = var8.QHHwRR;
             var8 = var9.bind(var10)(var8);
             var4['label'] = var8;
             var2 = _closure1_slot4;

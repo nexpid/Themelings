@@ -92,7 +92,7 @@ case 3:
             var2 = var9[var2];
             var2 = var8.bind(var4)(var2);
             var2 = var2.t;
-            var2 = var2.WAI6xs;
+            var2 = var2.WAI6xu;
             var7 = var3.bind(var6)(var2);
 case 2:
             var13 = var1.animatedBarStyles;

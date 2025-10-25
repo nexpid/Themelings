@@ -379,7 +379,7 @@ case 61:
                     var11 = var14[var9];
                     var11 = var10.bind(var13)(var11);
                     var11 = var11.t;
-                    var11 = var11.ut7sq6;
+                    var11 = var11.ut7sq0;
                     var11 = var12.bind(var15)(var11);
                     var6['title'] = var11;
                     var11 = var14[var9];
@@ -389,7 +389,7 @@ case 61:
                     var9 = var14[var9];
                     var9 = var10.bind(var13)(var9);
                     var9 = var9.t;
-                    var10 = var9.5sm9rK;
+                    var10 = var9.5sm9rH;
                     var9 = {};
                     var9 = var11.bind(var12)(var10, var9);
                     var6['body'] = var9;

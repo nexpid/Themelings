@@ -207,7 +207,7 @@ case 3:
                     var8 = var6[var8];
                     var8 = var11.bind(var1)(var8);
                     var8 = var8.t;
-                    var8 = var8.FhgVWl;
+                    var8 = var8.FhgVWi;
                     var8 = var9.bind(var10)(var8);
                     var3['text'] = var8;
                     var3 = var4.bind(var7)(var3);
@@ -243,7 +243,7 @@ case 3:
                     var2 = var8[var2];
                     var2 = var7.bind(var1)(var2);
                     var2 = var2.t;
-                    var2 = var2.R0RpRU;
+                    var2 = var2.R0RpRX;
                     var2 = var5.bind(var6)(var2);
                     var2 = var3.bind(var4)(var2);
                     return var1;
@@ -275,7 +275,7 @@ case 2:
         var7 = var14[var9];
         var7 = var10.bind(var4)(var7);
         var7 = var7.t;
-        var7 = var7.qI14KC;
+        var7 = var7.qI14KM;
         var7 = var8.bind(var12)(var7);
         var1['headerTitle'] = var7;
         var1['channelId'] = var6;
@@ -329,7 +329,7 @@ case 2:
         var18 = var14[var9];
         var18 = var10.bind(var4)(var18);
         var18 = var18.t;
-        var18 = var18.Xb2REB;
+        var18 = var18.Xb2REN;
         var18 = var19.bind(var20)(var18);
         var15['text'] = var18;
         var15['onPress'] = var17;
@@ -354,7 +354,7 @@ case 2:
         var9 = var14[var9];
         var9 = var10.bind(var4)(var9);
         var9 = var9.t;
-        var10 = var9.2uYViI;
+        var10 = var9.2uYViD;
         var9 = {};
         var13 = function reportFalsePositiveHook(arg1, arg2) {
             var5 = _closure1_slot8;

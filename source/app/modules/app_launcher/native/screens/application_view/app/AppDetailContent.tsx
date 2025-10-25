@@ -951,7 +951,7 @@ case 45:
                     var15 = var19[var15];
                     var15 = var18.bind(var5)(var15);
                     var15 = var15.t;
-                    var15 = var15.5khEk5;
+                    var15 = var15.5khEk8;
                     var15 = var16.bind(var17)(var15);
                     var12['children'] = var15;
                     var12 = var14.bind(var5)(var13, var12);
@@ -995,7 +995,7 @@ case 47:
                     var16 = var20[var16];
                     var16 = var19.bind(var5)(var16);
                     var16 = var16.t;
-                    var16 = var16.8z5B2d;
+                    var16 = var16.8z5B2U;
                     var16 = var17.bind(var18)(var16);
                     var13['children'] = var16;
                     var13 = var15.bind(var5)(var14, var13);
@@ -1212,7 +1212,7 @@ case 64:
             var38 = var42[var38];
             var38 = var41.bind(var4)(var38);
             var38 = var38.t;
-            var38 = var38.w8+YDA;
+            var38 = var38.w8+YDM;
             var38 = var39.bind(var40)(var38);
             var35['children'] = var38;
             var35 = var37.bind(var4)(var36, var35);
@@ -1254,7 +1254,7 @@ case 67:
             var37 = var41[var37];
             var37 = var40.bind(var4)(var37);
             var37 = var37.t;
-            var37 = var37.GOXqkp;
+            var37 = var37.GOXqks;
             var37 = var38.bind(var39)(var37);
             var33['children'] = var37;
             var33 = var36.bind(var4)(var35, var33);

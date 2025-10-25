@@ -303,11 +303,11 @@ case 15:
             var7 = var5.t;
             if(var6) { _fun0001_ip = 17; continue _fun0001 }
 case 18:
-            var5 = var7.buV4am;
+            var5 = var7.buV4av;
             var5 = var11.bind(var14)(var5);
             _fun0001_ip = 19; continue _fun0001;
 case 17:
-            var7 = var7.5cRA/f;
+            var7 = var7.5cRA/b;
             var5 = var11.bind(var14)(var7);
 case 19:
             var1['accessibilityLabel'] = var5;

@@ -304,7 +304,7 @@ case 7:
                     var8 = var13[var8];
                     var8 = var12.bind(var11)(var8);
                     var8 = var8.t;
-                    var8 = var8.nIfr0d;
+                    var8 = var8.nIfr0Y;
                     var8 = var9.bind(var10)(var8);
                     var5['title'] = var8;
                     var3['props'] = var5;
@@ -368,7 +368,7 @@ case 9:
                     var9 = var13[var9];
                     var9 = var12.bind(var8)(var9);
                     var9 = var9.t;
-                    var9 = var9.CYnO4u;
+                    var9 = var9.CYnO4s;
                     var9 = var10.bind(var11)(var9);
                     var5['title'] = var9;
                     var3['props'] = var5;

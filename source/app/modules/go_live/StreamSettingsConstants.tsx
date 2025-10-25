@@ -327,7 +327,7 @@ case 4:
         var1 = var6[var1];
         var1 = var5.bind(var4)(var1);
         var1 = var1.t;
-        var1 = var1.XjXqzs;
+        var1 = var1.XjXqzh;
         var1 = var2.bind(var3)(var1);
         return var1;
     };
@@ -362,7 +362,7 @@ case 6:
             var1 = var8[var1];
             var1 = var7.bind(var3)(var1);
             var1 = var1.t;
-            var3 = var1.TEOC0N;
+            var3 = var1.TEOC0I;
             var1 = {};
             var1['resolution'] = var6;
             var1 = var4.bind(var5)(var3, var1);
@@ -379,7 +379,7 @@ case 5:
             var2 = var7[var2];
             var2 = var6.bind(var5)(var2);
             var2 = var2.t;
-            var2 = var2.XjXqzs;
+            var2 = var2.XjXqzh;
             var1 = var3.bind(var4)(var2);
 case 7:
             return var1;
@@ -465,7 +465,7 @@ case 7:
         var1 = var7[var1];
         var1 = var6.bind(var2)(var1);
         var1 = var1.t;
-        var2 = var1.bW+JCQ;
+        var2 = var1.bW+JCW;
         var1 = {};
         var5 = _closure1_slot3;
         var5 = var5.FPS_15;
@@ -489,7 +489,7 @@ case 7:
         var1 = var7[var1];
         var1 = var6.bind(var2)(var1);
         var1 = var1.t;
-        var2 = var1.bW+JCQ;
+        var2 = var1.bW+JCW;
         var1 = {};
         var5 = _closure1_slot3;
         var5 = var5.FPS_30;
@@ -512,7 +512,7 @@ case 7:
         var1 = var7[var1];
         var1 = var6.bind(var2)(var1);
         var1 = var1.t;
-        var2 = var1.bW+JCQ;
+        var2 = var1.bW+JCW;
         var1 = {};
         var5 = _closure1_slot3;
         var5 = var5.FPS_60;

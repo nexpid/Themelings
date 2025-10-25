@@ -252,7 +252,7 @@ case 10:
             var17 = var22[var17];
             var17 = var21.bind(var5)(var17);
             var17 = var17.t;
-            var17 = var17.s8mM8P;
+            var17 = var17.s8mM8A;
             var17 = var18.bind(var20)(var17);
             _fun0001_ip = 11; continue _fun0001;
 case 9:
@@ -266,7 +266,7 @@ case 9:
             var18 = var23[var18];
             var18 = var22.bind(var5)(var18);
             var18 = var18.t;
-            var18 = var18.5BKP4+;
+            var18 = var18.5BKP4y;
             var17 = var20.bind(var21)(var18);
 case 11:
             var9['label'] = var17;
@@ -321,7 +321,7 @@ case 6:
             var14 = var25[var20];
             var14 = var26.bind(var5)(var14);
             var14 = var14.t;
-            var14 = var14.NiTd0d;
+            var14 = var14.NiTd0e;
             var14 = var21.bind(var22)(var14);
             var12['label'] = var14;
             var24 = _closure1_slot1;
@@ -369,7 +369,7 @@ case 6:
             var21 = var25[var20];
             var21 = var26.bind(var5)(var21);
             var21 = var21.t;
-            var21 = var21.h850Sk;
+            var21 = var21.h850Ss;
             var21 = var22.bind(var23)(var21);
             var12['label'] = var21;
             var21 = var25[var14];
@@ -425,7 +425,7 @@ case 13:
             var18 = var24[var20];
             var18 = var23.bind(var5)(var18);
             var18 = var18.t;
-            var18 = var18.X8bCMT;
+            var18 = var18.X8bCMe;
             var18 = var21.bind(var22)(var18);
             var11['label'] = var18;
             var23 = _closure1_slot1;
@@ -480,7 +480,7 @@ case 12:
             var20 = var18[var20];
             var20 = var23.bind(var5)(var20);
             var20 = var20.t;
-            var20 = var20.+78Pfn;
+            var20 = var20.+78Pfm;
             var20 = var21.bind(var22)(var20);
             var16['text'] = var20;
             var19 = var19.warning;

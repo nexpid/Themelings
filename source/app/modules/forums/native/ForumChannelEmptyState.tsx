@@ -182,7 +182,7 @@ case 14:
             var18 = var19[var23];
             var18 = var20.bind(var4)(var18);
             var18 = var18.t;
-            var18 = var18.PwTMGx;
+            var18 = var18.PwTMG0;
             var18 = var24.bind(var25)(var18);
             _fun0001_ip = 15; continue _fun0001;
 case 13:
@@ -190,7 +190,7 @@ case 13:
             var19 = var19[var23];
             var19 = var20.bind(var4)(var19);
             var19 = var19.t;
-            var20 = var19.lvPci4;
+            var20 = var19.lvPci0;
             var19 = {};
             var26 = var21.size;
             var19['numTags'] = var26;
@@ -219,13 +219,13 @@ case 15:
             var17 = var17.t;
             if(var16) { _fun0001_ip = 16; continue _fun0001 }
 case 17:
-            var18 = var17.YtsXFB;
+            var18 = var17.YtsXFD;
             var16 = {};
             var16['channelName'] = var22;
             var16 = var19.bind(var20)(var18, var16);
             _fun0001_ip = 18; continue _fun0001;
 case 16:
-            var18 = var17.AAeye3;
+            var18 = var17.AAeye1;
             var17 = {};
             var21 = var21.size;
             var17['numTags'] = var21;

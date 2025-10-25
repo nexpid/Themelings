@@ -101,7 +101,7 @@ case 7:
             var1 = var8[var1];
             var1 = var2.bind(var4)(var1);
             var1 = var1.t;
-            var2 = var1.UxpwAg;
+            var2 = var1.UxpwAh;
             var1 = {};
             var8 = function applications() {
                 var3 = _closure2_slot3;
@@ -163,7 +163,7 @@ case 6:
             var1 = var11[var1];
             var1 = var2.bind(var4)(var1);
             var1 = var1.t;
-            var2 = var1.C98CSE;
+            var2 = var1.C98CSN;
             var1 = {};
             var11 = function applicationName() {
                 var5 = _closure1_slot3;
@@ -224,7 +224,7 @@ case 4:
             var1 = var11[var1];
             var1 = var2.bind(var4)(var1);
             var1 = var1.t;
-            var2 = var1.wQ6ur6;
+            var2 = var1.wQ6urw;
             var1 = {};
             var10 = function applicationName() {
                 var5 = _closure1_slot3;
@@ -272,7 +272,7 @@ case 8:
             var5 = var8[var5];
             var5 = var6.bind(var4)(var5);
             var5 = var5.t;
-            var5 = var5.Uv/eT0;
+            var5 = var5.Uv/eTx;
             var5 = var9.bind(var10)(var5);
             var1['title'] = var5;
             var5 = 7;

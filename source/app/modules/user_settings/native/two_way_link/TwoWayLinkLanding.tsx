@@ -256,7 +256,7 @@ case 10:
             var15 = var20[var15];
             var15 = var16.bind(var4)(var15);
             var15 = var15.t;
-            var16 = var15./l3n+/;
+            var16 = var15./l3n+1;
             var15 = {};
             var15['helpCenterLink'] = var19;
             var15 = var17.bind(var18)(var16, var15);
@@ -300,7 +300,7 @@ case 9:
             var14 = var18[var14];
             var14 = var17.bind(var4)(var14);
             var14 = var14.t;
-            var14 = var14.LhlgY2;
+            var14 = var14.LhlgY9;
             var14 = var15.bind(var16)(var14);
             var11['text'] = var14;
             var11['onPress'] = var13;

@@ -338,7 +338,7 @@ case 8:
             var5 = var9[var5];
             var5 = var8.bind(var3)(var5);
             var5 = var5.t;
-            var5 = var5.5HZu09;
+            var5 = var5.5HZu07;
             var6 = var6.bind(var7)(var5);
             var5 = 'customTitle';
             var1[var5] = var6;
@@ -475,7 +475,7 @@ case 8:
             var5 = var9[var5];
             var5 = var8.bind(var3)(var5);
             var5 = var5.t;
-            var5 = var5.uHXB+P;
+            var5 = var5.uHXB+F;
             var5 = var6.bind(var7)(var5);
             var1['buttonText'] = var5;
             var1 = var4.bind(var3)(var2, var1);
@@ -621,7 +621,7 @@ case 8:
         var6 = var10[var6];
         var6 = var9.bind(var3)(var6);
         var6 = var6.t;
-        var6 = var6.13/7kZ;
+        var6 = var6.13/7kX;
         var6 = var7.bind(var8)(var6);
         var1['headerBackTitle'] = var6;
         var5 = _closure1_slot11;

@@ -479,7 +479,7 @@ case 18:
             var24 = var28[var24];
             var24 = var27.bind(var4)(var24);
             var24 = var24.t;
-            var24 = var24.13/7kZ;
+            var24 = var24.13/7kX;
             var24 = var25.bind(var26)(var24);
             var14['accessibilityLabel'] = var24;
             var24 = _closure1_slot11;
@@ -556,7 +556,7 @@ case 20:
             var20 = var26[var20];
             var20 = var25.bind(var4)(var20);
             var20 = var20.t;
-            var20 = var20.HcoRu7;
+            var20 = var20.HcoRu0;
             var20 = var21.bind(var24)(var20);
             var15['children'] = var20;
             var15 = var17.bind(var4)(var16, var15);

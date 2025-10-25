@@ -116,7 +116,7 @@ case 11:
             var2 = var7[var2];
             var2 = var5.bind(var6)(var2);
             var2 = var2.t;
-            var2 = var2.eXHkho;
+            var2 = var2.eXHkhl;
             var1 = var3.bind(var4)(var2);
 case 13:
             return var1;
@@ -140,7 +140,7 @@ case 13:
         var4 = undefined;
         var1 = var2.bind(var4)(var1);
         var1 = var1.t;
-        var3 = var1.iTS3XV;
+        var3 = var1.iTS3Xe;
         var2 = arg1;
         var1 = arg2;
         var1 = var5.bind(var4)(var2, var3, var1);
@@ -156,7 +156,7 @@ case 13:
         var4 = undefined;
         var1 = var2.bind(var4)(var1);
         var1 = var1.t;
-        var3 = var1.rfAXDQ;
+        var3 = var1.rfAXDV;
         var2 = arg1;
         var1 = arg2;
         var1 = var5.bind(var4)(var2, var3, var1);

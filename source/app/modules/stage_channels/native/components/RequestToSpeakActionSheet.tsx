@@ -55,7 +55,7 @@ case 0:
             var17 = var15[var19];
             var17 = var13.bind(var4)(var17);
             var17 = var17.t;
-            var17 = var17.TYZgzc;
+            var17 = var17.TYZgzW;
             var17 = var18.bind(var20)(var17);
             var8['children'] = var17;
             var14 = var16.bind(var4)(var14, var8);
@@ -77,11 +77,11 @@ case 0:
             var16 = var15.t;
             if(var12) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var15 = var16.laPwJS;
+            var15 = var16.laPwJQ;
             var15 = var17.bind(var18)(var15);
             _fun0001_ip = 4; continue _fun0001;
 case 2:
-            var16 = var16.JcFI/f;
+            var16 = var16.JcFI/U;
             var15 = var17.bind(var18)(var16);
 case 4:
             var10['children'] = var15;
@@ -179,11 +179,11 @@ case 5:
             var2 = var2.t;
             if(var1) { _fun0002_ip = 7; continue _fun0002 }
 case 8:
-            var8 = var2.8Joh+v;
+            var8 = var2.8Joh+p;
             var21 = var3.bind(var5)(var8);
             _fun0002_ip = 9; continue _fun0002;
 case 7:
-            var2 = var2.ezLpY2;
+            var2 = var2.ezLpY6;
             var21 = var3.bind(var5)(var2);
 case 9:
             var2 = _closure1_slot0;
@@ -297,7 +297,7 @@ case 12:
             var9 = var9[var13];
             var9 = var10.bind(var4)(var9);
             var9 = var9.t;
-            var10 = var9.5z7q5e;
+            var10 = var9.5z7q5a;
             var9 = {};
             var13 = global;
             var13 = var13.HermesInternal;

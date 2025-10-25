@@ -189,7 +189,7 @@ case 13:
             var13 = var17[var13];
             var13 = var16.bind(var4)(var13);
             var13 = var13.t;
-            var13 = var13.TXNS7e;
+            var13 = var13.TXNS7S;
             var13 = var14.bind(var15)(var13);
             var5['accessibilityLabel'] = var13;
             var5['onPress'] = var12;

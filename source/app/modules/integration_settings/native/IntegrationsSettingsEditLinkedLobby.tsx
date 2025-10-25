@@ -264,7 +264,7 @@ case 17:
                     var2 = var9[var2];
                     var2 = var6.bind(var3)(var2);
                     var2 = var2.t;
-                    var3 = var2.EyygeH;
+                    var3 = var2.EyygeM;
                     var2 = {};
                     var2['linkedAtDate'] = var7;
                     var2 = var4.bind(var5)(var3, var2);
@@ -281,7 +281,7 @@ case 16:
                     var3 = var10[var3];
                     var3 = var9.bind(var4)(var3);
                     var3 = var3.t;
-                    var4 = var3.uV2AkJ;
+                    var4 = var3.uV2AkA;
                     var3 = {};
                     var8 = _closure2_slot5;
                     var8 = var8.username;
@@ -419,7 +419,7 @@ case 21:
             var14 = var20[var16];
             var14 = var19.bind(var5)(var14);
             var14 = var14.t;
-            var17 = var14.DA9v5O;
+            var17 = var14.DA9v5F;
             var14 = {};
             var14['channelName'] = var22;
             var14 = var18.bind(var21)(var17, var14);
@@ -441,7 +441,7 @@ case 21:
             var16 = var20[var16];
             var16 = var19.bind(var5)(var16);
             var16 = var16.t;
-            var16 = var16.LLWaxc;
+            var16 = var16.LLWaxQ;
             var16 = var17.bind(var18)(var16);
             var13['label'] = var16;
             var16 = 'danger';

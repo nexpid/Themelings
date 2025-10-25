@@ -135,7 +135,7 @@ case 4:
             var2 = var12[var2];
             var2 = var9.bind(var4)(var2);
             var2 = var2.t;
-            var2 = var2.ZImm//;
+            var2 = var2.ZImm/x;
             var2 = var3.bind(var7)(var2);
             var10['placeholder'] = var2;
             var9 = _closure1_slot4;

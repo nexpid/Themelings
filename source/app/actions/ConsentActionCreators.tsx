@@ -75,7 +75,7 @@ case 9:
             var2 = var7[var2];
             var2 = var6.bind(var5)(var2);
             var2 = var2.t;
-            var2 = var2.cvJdtr;
+            var2 = var2.cvJdtg;
             var3 = var3.bind(var4)(var2);
             _fun0002_ip = 13; continue _fun0002;
 case 12:
@@ -95,7 +95,7 @@ case 8:
             var1 = var7[var1];
             var1 = var6.bind(var5)(var1);
             var1 = var1.t;
-            var1 = var1.cvJdtr;
+            var1 = var1.cvJdtg;
             var3 = var2.bind(var4)(var1);
 case 14:
             var1 = global;

@@ -71,7 +71,7 @@ case 10: // catch_target0
                     var2 = var9[var2];
                     var2 = var7.bind(var8)(var2);
                     var2 = var2.t;
-                    var2 = var2.R0RpRU;
+                    var2 = var2.R0RpRX;
                     var2 = var5.bind(var6)(var2);
                     var2 = var3.bind(var4)(var2);
                     var2 = undefined;
@@ -139,7 +139,7 @@ case 15:
                     var5 = var13[var5];
                     var5 = var6.bind(var3)(var5);
                     var5 = var5.t;
-                    var6 = var5.PJf9Pz;
+                    var6 = var5.PJf9P9;
                     var5 = {};
                     var12 = _closure1_slot1;
                     var11 = 13;
@@ -419,7 +419,7 @@ case 24:
         var8 = var15[var11];
         var8 = var14.bind(var4)(var8);
         var8 = var8.t;
-        var8 = var8.afcl6+;
+        var8 = var8.afcl67;
         var8 = var9.bind(var13)(var8);
         var5['accessibilityLabel'] = var8;
         var5['onPress'] = var7;
@@ -437,7 +437,7 @@ case 24:
         var9 = var15[var11];
         var9 = var14.bind(var4)(var9);
         var9 = var9.t;
-        var9 = var9.afcl6+;
+        var9 = var9.afcl67;
         var9 = var13.bind(var16)(var9);
         var7['children'] = var9;
         var7 = var10.bind(var4)(var8, var7);
@@ -470,7 +470,7 @@ case 24:
         var18 = var15[var11];
         var18 = var14.bind(var4)(var18);
         var18 = var18.t;
-        var18 = var18.Ej3B3d;
+        var18 = var18.Ej3B3Y;
         var18 = var19.bind(var20)(var18);
         var7['accessibilityLabel'] = var18;
         var9 = var10.bind(var4)(var9, var7);
@@ -495,7 +495,7 @@ case 24:
         var11 = var15[var11];
         var11 = var14.bind(var4)(var11);
         var11 = var11.t;
-        var11 = var11.WqhZsr;
+        var11 = var11.WqhZss;
         var11 = var12.bind(var13)(var11);
         var8['accessibilityLabel'] = var11;
         var8 = var10.bind(var4)(var9, var8);

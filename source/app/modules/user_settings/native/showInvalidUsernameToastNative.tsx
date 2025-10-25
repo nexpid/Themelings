@@ -42,7 +42,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var7[var5];
         var5 = var10.bind(var1)(var5);
         var5 = var5.t;
-        var5 = var5.TGg/2t;
+        var5 = var5.TGg/2k;
         var5 = var8.bind(var9)(var5);
         var2['content'] = var5;
         var5 = 2;

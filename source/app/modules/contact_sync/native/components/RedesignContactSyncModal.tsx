@@ -39,7 +39,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var9[var5];
         var5 = var6.bind(var4)(var5);
         var5 = var5.t;
-        var6 = var5.cGQmND;
+        var6 = var5.cGQmNL;
         var5 = {};
         var9 = function learnMoreHook(arg1, arg2) {
             var5 = _closure1_slot16;
@@ -528,7 +528,7 @@ case 39:
             var21 = var20[var19];
             var21 = var25.bind(var4)(var21);
             var21 = var21.t;
-            var21 = var21.DjcfHh;
+            var21 = var21.DjcfHu;
             var21 = var22.bind(var26)(var21);
             var10['title'] = var21;
             var21 = var20[var19];
@@ -1395,7 +1395,7 @@ case 62:
             var5 = var9[var5];
             var5 = var8.bind(var4)(var5);
             var5 = var5.t;
-            var5 = var5.13/7kZ;
+            var5 = var5.13/7kX;
             var5 = var6.bind(var7)(var5);
             var1['headerBackTitle'] = var5;
             var1 = var3.bind(var4)(var2, var1);

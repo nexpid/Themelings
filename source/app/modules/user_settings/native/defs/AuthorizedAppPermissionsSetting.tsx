@@ -37,7 +37,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var6[var9];
     var9 = var5.bind(var1)(var9);
     var9 = var9.t;
-    var9 = var9.xrmhRU;
+    var9 = var9.xrmhRX;
     var9 = var10.bind(var11)(var9);
     var2['title'] = var9;
     var4 = var4.AUTHORIZED_APP;

@@ -98,7 +98,7 @@ case 3:
         var4 = var6.paths;
         var4 = var8.bind(var1)(var7, var4);
 case 2:
-        var4 = 55;
+        var4 = 56;
         var4 = var6[var4];
         var6 = var5.bind(var1)(var4);
         var5 = var6.fileFinishedImporting;
@@ -107,7 +107,7 @@ case 2:
         var2 = function App() {
             var8 = _closure1_slot1;
             var9 = _closure1_slot2;
-            var2 = 51;
+            var2 = 52;
             var2 = var9[var2];
             var4 = undefined;
             var2 = var8.bind(var4)(var2);
@@ -235,11 +235,16 @@ case 2:
                     var2 = var7.initialize;
                     var2 = var2.bind(var7)();
                     var2 = 44;
+                    var2 = var5[var2];
+                    var7 = var4.bind(var3)(var2);
+                    var2 = var7.initialize;
+                    var2 = var2.bind(var7)();
+                    var2 = 45;
                     var7 = var5[var2];
                     var10 = var4.bind(var3)(var7);
                     var8 = var10.addRouteRewriter;
                     var9 = _closure1_slot0;
-                    var6 = 45;
+                    var6 = 46;
                     var7 = var5[var6];
                     var7 = var9.bind(var3)(var7);
                     var7 = var7.voiceRouteRewriter;
@@ -271,7 +276,7 @@ case 2:
                     var6 = function(arg1) {
                         var3 = _closure1_slot1;
                         var2 = _closure1_slot2;
-                        var1 = 46;
+                        var1 = 47;
                         var2 = var2[var1];
                         var1 = undefined;
                         var4 = var3.bind(var1)(var2);
@@ -316,12 +321,12 @@ case 2:
                         var6 = var3.bind(var1)(var2);
                         var2 = var6.terminate;
                         var2 = var2.bind(var6)();
-                        var2 = 44;
+                        var2 = 45;
                         var6 = var4[var2];
                         var9 = var3.bind(var1)(var6);
                         var7 = var9.removeRouteRewriter;
                         var8 = _closure1_slot0;
-                        var5 = 45;
+                        var5 = 46;
                         var6 = var4[var5];
                         var6 = var8.bind(var1)(var6);
                         var6 = var6.voiceRouteRewriter;
@@ -393,6 +398,11 @@ case 2:
                         var2 = var2.bind(var5)();
                         var2 = 43;
                         var2 = var4[var2];
+                        var5 = var3.bind(var1)(var2);
+                        var2 = var5.terminate;
+                        var2 = var2.bind(var5)();
+                        var2 = 44;
+                        var2 = var4[var2];
                         var3 = var3.bind(var1)(var2);
                         var2 = var3.terminate;
                         var2 = var2.bind(var3)();
@@ -409,7 +419,7 @@ case 2:
             var2 = function useAuthenticated() {
                 var5 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var1 = 47;
+                var1 = 48;
                 var3 = var3[var1];
                 var1 = undefined;
                 var7 = var5.bind(var1)(var3);
@@ -446,19 +456,19 @@ case 4:
 case 7:
                         var3 = _closure1_slot1;
                         var5 = _closure1_slot2;
-                        var2 = 48;
+                        var2 = 49;
                         var2 = var5[var2];
                         var4 = undefined;
                         var6 = var3.bind(var4)(var2);
                         var2 = var6.startSession;
                         var2 = var2.bind(var6)(var7);
-                        var2 = 49;
+                        var2 = 50;
                         var2 = var5[var2];
                         var3 = var3.bind(var4)(var2);
                         var2 = var3.initialize;
                         var2 = var2.bind(var3)();
                         var3 = _closure1_slot0;
-                        var2 = 50;
+                        var2 = 51;
                         var2 = var5[var2];
                         var3 = var3.bind(var4)(var2);
                         var2 = var3.isAndroid;
@@ -473,7 +483,7 @@ case 8:
                         var1 = function() {
                             var3 = _closure1_slot1;
                             var2 = _closure1_slot2;
-                            var1 = 49;
+                            var1 = 50;
                             var2 = var2[var1];
                             var1 = undefined;
                             var3 = var3.bind(var1)(var2);
@@ -499,7 +509,7 @@ case 6:
                 var3 = function() {
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
-                    var1 = 51;
+                    var1 = 52;
                     var3 = var3[var1];
                     var1 = undefined;
                     var3 = var4.bind(var1)(var3);
@@ -519,7 +529,7 @@ case 6:
             var2 = function() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 51;
+                var1 = 52;
                 var2 = var2[var1];
                 var1 = undefined;
                 var1 = var3.bind(var1)(var2);
@@ -531,7 +541,7 @@ case 6:
             var1 = new Array(0);
             var1 = var3.bind(var5)(var2, var1);
             var3 = _closure1_slot7;
-            var5 = 52;
+            var5 = 53;
             var1 = var9[var5];
             var2 = var8.bind(var4)(var1);
             var1 = {};
@@ -541,13 +551,13 @@ case 6:
             var5 = var5.Profiles;
             var5 = var5.App;
             var1['profile'] = var5;
-            var5 = 53;
+            var5 = 54;
             var5 = var9[var5];
             var6 = var8.bind(var4)(var5);
             var5 = {};
             var7 = 'main';
             var5['appEntryKey'] = var7;
-            var7 = 54;
+            var7 = 55;
             var7 = var9[var7];
             var8 = var8.bind(var4)(var7);
             var7 = {};

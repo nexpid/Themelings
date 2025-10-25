@@ -218,7 +218,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var11[var7];
         var7 = var10.bind(var4)(var7);
         var7 = var7.t;
-        var7 = var7.mOMeiY;
+        var7 = var7.mOMeiR;
         var7 = var8.bind(var9)(var7);
         var5['children'] = var7;
         var5 = var3.bind(var4)(var6, var5);
@@ -274,7 +274,7 @@ case 0:
             var11 = var17[var11];
             var11 = var16.bind(var4)(var11);
             var11 = var11.t;
-            var11 = var11.G3Zk7e;
+            var11 = var11.G3Zk7V;
             var11 = var12.bind(var15)(var11);
             var7['text'] = var11;
             var7['onPress'] = var10;
@@ -391,7 +391,7 @@ case 2:
                 var5 = var9[var5];
                 var5 = var8.bind(var3)(var5);
                 var5 = var5.t;
-                var5 = var5.5h0QOD;
+                var5 = var5.5h0QOP;
                 var5 = var6.bind(var7)(var5);
                 var1['accessibilityLabel'] = var5;
                 var1 = var4.bind(var3)(var2, var1);

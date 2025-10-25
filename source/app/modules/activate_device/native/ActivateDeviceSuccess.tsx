@@ -91,7 +91,7 @@ case 5:
             var1 = var7[var1];
             var1 = var5.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1.vBPvKy;
+            var1 = var1.vBPvK3;
             var17 = var2.bind(var3)(var1);
             _fun0001_ip = 4; continue _fun0001;
 case 2:
@@ -105,7 +105,7 @@ case 2:
             var1 = var7[var1];
             var1 = var5.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1.QhATl5;
+            var1 = var1.QhATl2;
             var17 = var2.bind(var3)(var1);
 case 4:
             var3 = _closure1_slot5;
@@ -166,7 +166,7 @@ case 6:
             var18 = var18[var14];
             var18 = var22.bind(var4)(var18);
             var18 = var18.t;
-            var18 = var18.qDtJmJ;
+            var18 = var18.qDtJmD;
             var18 = var19.bind(var21)(var18);
             var11['children'] = var18;
             var15 = var16.bind(var4)(var15, var11);
@@ -212,7 +212,7 @@ case 8:
             var10 = var10[var14];
             var10 = var13.bind(var4)(var10);
             var10 = var10.t;
-            var10 = var10.cpT0Cg;
+            var10 = var10.cpT0Cq;
             var10 = var11.bind(var12)(var10);
             var6['text'] = var10;
             var6['onPress'] = var9;

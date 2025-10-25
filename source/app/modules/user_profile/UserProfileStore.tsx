@@ -274,7 +274,7 @@ case 24:
 case 44:
             var3 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var2 = 15;
+            var2 = 16;
             var2 = var7[var2];
             var2 = var3.bind(var6)(var2);
             var7 = var2.ApplicationWidget;
@@ -287,9 +287,9 @@ case 44:
             var2['applicationId'] = var3;
             var3 = var7.prototype;
             var3 = Object.create(var3, {constructor: {value: var7}});
-            var9 = var3;
-            var8 = var2;
-            var2 = new var9[var7](var8, var7);
+            var12 = var3;
+            var11 = var2;
+            var2 = new var12[var7](var11, var10);
             var2 = var2 instanceof Object ? var2 : var3;
             return var2;
 case 39:
@@ -307,10 +307,17 @@ case 39:
                 var1['tags'] = var2;
                 return var1;
             };
-            var2 = var3.bind(var7)(var2);
-            var3 = _closure1_slot0;
+            var9 = var3.bind(var7)(var2);
+            var3 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var1 = 14;
+            var2 = 14;
+            var2 = var7[var2];
+            var8 = var3.bind(var6)(var2);
+            var3 = var8.uniqBy;
+            var2 = 'applicationId';
+            var2 = var3.bind(var8)(var9, var2);
+            var3 = _closure1_slot0;
+            var1 = 15;
             var1 = var7[var1];
             var1 = var3.bind(var6)(var1);
             var3 = var1.BaseGameWidget;
@@ -321,9 +328,9 @@ case 39:
             var1['games'] = var2;
             var2 = var3.prototype;
             var2 = Object.create(var2, {constructor: {value: var3}});
-            var9 = var2;
-            var8 = var1;
-            var1 = new var9[var3](var8, var7);
+            var12 = var2;
+            var11 = var1;
+            var1 = new var12[var3](var11, var10);
             var1 = var1 instanceof Object ? var1 : var2;
             return var1;
         }
@@ -542,7 +549,7 @@ case 39:
     var1 = function getMutualFriends(arg1) {
         var3 = _closure1_slot1;
         var4 = _closure1_slot2;
-        var2 = 16;
+        var2 = 14;
         var2 = var4[var2];
         var4 = undefined;
         var3 = var3.bind(var4)(var2);
@@ -843,7 +850,7 @@ case 91:
                     var9 = var14[var9];
                     var9 = var10.bind(var8)(var9);
                     var9 = var9.t;
-                    var10 = var9.IWkAq6;
+                    var10 = var9.IWkAq7;
                     var9 = {};
                     var13 = _closure2_slot2;
                     var9['date'] = var13;
@@ -864,7 +871,7 @@ case 59:
                     var3 = var3[var9];
                     var3 = var6.bind(var8)(var3);
                     var3 = var3.t;
-                    var6 = var3.8zbGNT;
+                    var6 = var3.8zbGNR;
                     var3 = {};
                     var12 = _closure2_slot1;
                     var3['date'] = var12;
@@ -880,7 +887,7 @@ case 29:
                     var1 = var1[var9];
                     var1 = var4.bind(var8)(var1);
                     var1 = var1.t;
-                    var4 = var1.Hu4jfn;
+                    var4 = var1.Hu4jfi;
                     var1 = {};
                     var7 = _closure2_slot1;
                     var1['date'] = var7;

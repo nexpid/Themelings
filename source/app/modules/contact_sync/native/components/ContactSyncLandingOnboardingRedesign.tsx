@@ -213,7 +213,7 @@ case 2:
         var21 = var13[var20];
         var21 = var23.bind(var4)(var21);
         var21 = var21.t;
-        var21 = var21./G+ncn;
+        var21 = var21./G+nci;
         var21 = var22.bind(var24)(var21);
         var15['children'] = var21;
         var15 = var7.bind(var4)(var17, var15);
@@ -233,7 +233,7 @@ case 2:
         var17 = var13[var20];
         var17 = var23.bind(var4)(var17);
         var17 = var17.t;
-        var17 = var17.G8zcHh;
+        var17 = var17.G8zcHt;
         var17 = var21.bind(var22)(var17);
         var14['children'] = var17;
         var14 = var7.bind(var4)(var15, var14);
@@ -253,7 +253,7 @@ case 2:
         var20 = var13[var20];
         var20 = var23.bind(var4)(var20);
         var20 = var20.t;
-        var20 = var20.LhlgY2;
+        var20 = var20.LhlgY9;
         var20 = var21.bind(var22)(var20);
         var15['text'] = var20;
         var15['onPress'] = var19;

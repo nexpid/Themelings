@@ -175,7 +175,7 @@ case 12:
             var6 = var13[var6];
             var6 = var9.bind(var5)(var6);
             var6 = var6.t;
-            var6 = var6.y7LSyc;
+            var6 = var6.y7LSyU;
             var7 = var7.bind(var8)(var6);
             var6 = 'children';
             var2[var6] = var7;
@@ -415,7 +415,7 @@ case 17:
             var21 = var20[var21];
             var21 = var19.bind(var4)(var21);
             var21 = var21.t;
-            var21 = var21.47dcUV;
+            var21 = var21.47dcUZ;
             var21 = var22.bind(var23)(var21);
             var5['accessibilityHint'] = var21;
             var5['onChange'] = var18;

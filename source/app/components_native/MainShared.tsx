@@ -186,7 +186,7 @@ case 9:
                 var1 = var7[var1];
                 var1 = var5.bind(var6)(var1);
                 var1 = var1.t;
-                var1 = var1.yYsRlJ;
+                var1 = var1.yYsRlD;
                 var1 = var3.bind(var4)(var1);
                 var2['discoverabilityTitle'] = var1;
                 var1 = function onKeyCommand() {

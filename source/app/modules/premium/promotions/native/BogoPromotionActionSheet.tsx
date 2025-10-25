@@ -243,7 +243,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var19 = var17[var18];
         var19 = var14.bind(var4)(var19);
         var19 = var19.t;
-        var19 = var19.6Jjfk5;
+        var19 = var19.6Jjfk8;
         var19 = var20.bind(var21)(var19);
         var10['children'] = var19;
         var10 = var3.bind(var4)(var11, var10);
@@ -263,7 +263,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var11 = var17[var18];
         var11 = var14.bind(var4)(var11);
         var11 = var11.t;
-        var19 = var11.y7lJKy;
+        var19 = var11.y7lJK6;
         var11 = {};
         var23 = 16;
         var23 = var17[var23];
@@ -294,7 +294,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var18 = var17[var18];
         var18 = var14.bind(var4)(var18);
         var18 = var18.t;
-        var18 = var18.J61px8;
+        var18 = var18.J61px0;
         var18 = var19.bind(var20)(var18);
         var10['text'] = var18;
         var10['onPress'] = var13;

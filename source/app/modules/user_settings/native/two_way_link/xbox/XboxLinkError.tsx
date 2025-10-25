@@ -66,7 +66,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = var11[var7];
         var8 = var10.bind(var4)(var8);
         var8 = var8.t;
-        var8 = var8.INwPCQ;
+        var8 = var8.INwPCV;
         var8 = var9.bind(var12)(var8);
         var1['title'] = var8;
         var8 = var11[var7];
@@ -76,7 +76,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var11[var7];
         var7 = var10.bind(var4)(var7);
         var7 = var7.t;
-        var7 = var7.GyXRR0;
+        var7 = var7.GyXRRz;
         var7 = var8.bind(var9)(var7);
         var1['body'] = var7;
         var1['onClose'] = var6;

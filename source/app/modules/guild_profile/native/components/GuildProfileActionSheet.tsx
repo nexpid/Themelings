@@ -255,7 +255,7 @@ case 8:
             var13 = var19[var13];
             var13 = var18.bind(var4)(var13);
             var13 = var13.t;
-            var13 = var13.cpT0Cg;
+            var13 = var13.cpT0Cq;
             var13 = var15.bind(var17)(var13);
             var2['text'] = var13;
             var2['onPress'] = var9;
@@ -286,7 +286,7 @@ case 7:
             var13 = var19[var13];
             var13 = var18.bind(var4)(var13);
             var13 = var13.t;
-            var13 = var13.cpT0Cg;
+            var13 = var13.cpT0Cq;
             var13 = var15.bind(var17)(var13);
             var2['text'] = var13;
             var2['onPress'] = var9;

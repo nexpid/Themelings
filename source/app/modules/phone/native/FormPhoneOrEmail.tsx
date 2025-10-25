@@ -70,7 +70,7 @@ case 5:
             var14 = var18[var14];
             var14 = var15.bind(var5)(var14);
             var14 = var14.t;
-            var14 = var14.GwAW3t;
+            var14 = var14.GwAW3k;
             var14 = var16.bind(var19)(var14);
             var9['accessibilityHint'] = var14;
             var16 = _closure1_slot5;

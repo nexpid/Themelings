@@ -76,7 +76,7 @@ case 10:
             var3 = var3[var7];
             var3 = var11.bind(var4)(var3);
             var3 = var3.t;
-            var4 = var3./KSOKS;
+            var4 = var3./KSOKY;
             var3 = {};
             var11 = var8[var7];
             var3['first'] = var11;
@@ -98,7 +98,7 @@ case 8:
             var3 = var3[var7];
             var3 = var10.bind(var4)(var3);
             var3 = var3.t;
-            var4 = var3.i0K/d3;
+            var4 = var3.i0K/dw;
             var3 = {};
             var10 = var8[var7];
             var3['first'] = var10;

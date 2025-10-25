@@ -165,7 +165,7 @@ case 0:
                     var3 = var15[var9];
                     var3 = var4.bind(var6)(var3);
                     var3 = var3.t;
-                    var4 = var3.ksVr5+;
+                    var4 = var3.ksVr5/;
                     var3 = {};
                     var16 = _closure1_slot1;
                     var17 = 6;
@@ -199,7 +199,7 @@ case 3:
                     var14 = var14[var9];
                     var14 = var18.bind(var6)(var14);
                     var14 = var14.t;
-                    var14 = var14.Ax4Pgo;
+                    var14 = var14.Ax4Pgn;
                     var14 = var15.bind(var16)(var14);
                     var13['subLabel'] = var14;
                     var2 = var13;
@@ -223,7 +223,7 @@ case 5:
                     var13 = var13[var9];
                     var13 = var16.bind(var6)(var13);
                     var13 = var13.t;
-                    var13 = var13.0PbE/P;
+                    var13 = var13.0PbE/H;
                     var13 = var14.bind(var15)(var13);
                     var12['subLabel'] = var13;
                     var2 = var12;
@@ -247,7 +247,7 @@ case 7:
                     var12 = var12[var9];
                     var12 = var15.bind(var6)(var12);
                     var12 = var12.t;
-                    var12 = var12.72i5GB;
+                    var12 = var12.72i5GI;
                     var12 = var13.bind(var14)(var12);
                     var8['subLabel'] = var12;
                     var2 = var8;
@@ -278,7 +278,7 @@ case 6:
                     var13 = var15[var9];
                     var13 = var12.bind(var6)(var13);
                     var13 = var13.t;
-                    var14 = var13.u6UjrK;
+                    var14 = var13.u6UjrL;
                     var13 = {};
                     var19 = function onThemeClick() {
                         var3 = _closure4_slot0;
@@ -301,7 +301,7 @@ case 6:
                     var13 = var15[var9];
                     var13 = var12.bind(var6)(var13);
                     var13 = var13.t;
-                    var13 = var13.e3TR1d;
+                    var13 = var13.e3TR1b;
                     var13 = var14.bind(var16)(var13);
                     var2['label'] = var13;
                     var14 = var8.ENABLE_REDUCED_MOTION;
@@ -317,7 +317,7 @@ case 6:
                     var9 = var15[var9];
                     var9 = var12.bind(var6)(var9);
                     var9 = var9.t;
-                    var12 = var9.2l9U2t;
+                    var12 = var9.2l9U2j;
                     var9 = {};
                     var16 = _closure1_slot1;
                     var15 = var15[var17];

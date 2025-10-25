@@ -258,7 +258,7 @@ case 13:
             var15 = var23[var12];
             var15 = var13.bind(var4)(var15);
             var15 = var15.t;
-            var15 = var15.5q17w8;
+            var15 = var15.5q17w5;
             var15 = var16.bind(var21)(var15);
             var2['title'] = var15;
             var15 = var23[var12];
@@ -268,7 +268,7 @@ case 13:
             var12 = var23[var12];
             var12 = var13.bind(var4)(var12);
             var12 = var12.t;
-            var13 = var12.meVVlZ;
+            var13 = var12.meVVlb;
             var12 = {};
             var22 = _closure1_slot1;
             var21 = 16;
@@ -297,7 +297,7 @@ case 10:
             var12 = var21[var12];
             var12 = var16.bind(var4)(var12);
             var12 = var12.t;
-            var12 = var12.pdFFKy;
+            var12 = var12.pdFFK+;
             var12 = var13.bind(var15)(var12);
             var2['title'] = var12;
             var11 = var8.bind(var4)(var3, var2);

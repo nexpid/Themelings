@@ -115,7 +115,7 @@ case 0:
             var7 = var7[var17];
             var7 = var11.bind(var4)(var7);
             var7 = var7.t;
-            var7 = var7.Sm0YGx;
+            var7 = var7.Sm0YG7;
             var7 = var8.bind(var10)(var7);
             var1['title'] = var7;
             var7 = var9.header;
@@ -451,7 +451,7 @@ case 22:
             var18 = var10[var17];
             var18 = var2.bind(var4)(var18);
             var18 = var18.t;
-            var18 = var18.3fe7U1;
+            var18 = var18.3fe7U5;
             var19 = var19.bind(var20)(var18);
             var18 = new Array(2);
             var18[0] = var19;

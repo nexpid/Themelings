@@ -589,7 +589,7 @@ case 22:
             var14 = var18[var14];
             var14 = var17.bind(var5)(var14);
             var14 = var14.t;
-            var14 = var14.w+hNj4;
+            var14 = var14.w+hNj2;
             var14 = var15.bind(var16)(var14);
             var7['accessibilityLabel'] = var14;
             var7['renderItem'] = var13;

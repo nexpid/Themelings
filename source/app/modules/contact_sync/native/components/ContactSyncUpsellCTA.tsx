@@ -148,7 +148,7 @@ case 4:
             var5 = var10[var5];
             var5 = var9.bind(var1)(var5);
             var5 = var5.t;
-            var5 = var5.WAI6xs;
+            var5 = var5.WAI6xu;
             var5 = var7.bind(var8)(var5);
             var6['label'] = var5;
             var5 = function onPress() {
@@ -183,7 +183,7 @@ case 4:
         var6 = var9[var5];
         var6 = var8.bind(var4)(var6);
         var6 = var6.t;
-        var6 = var6.T6Rfd3;
+        var6 = var6.T6Rfd9;
         var6 = var7.bind(var10)(var6);
         var1['title'] = var6;
         var6 = var9[var5];
@@ -193,7 +193,7 @@ case 4:
         var5 = var9[var5];
         var5 = var8.bind(var4)(var5);
         var5 = var5.t;
-        var5 = var5.c6KIpq;
+        var5 = var5.c6KIpg;
         var5 = var6.bind(var7)(var5);
         var1['subtitle'] = var5;
         var1 = var3.bind(var4)(var2, var1);

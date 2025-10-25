@@ -186,7 +186,7 @@ case 45:
             var5 = var10[var5];
             var5 = var8.bind(var12)(var5);
             var5 = var5.t;
-            var5 = var5.Hi4toa;
+            var5 = var5.Hi4tob;
             var5 = var6.bind(var7)(var5);
             var2['text'] = var5;
             var2['platformIcon'] = var3;
@@ -205,7 +205,7 @@ case 43:
             var5 = var10[var5];
             var5 = var8.bind(var12)(var5);
             var5 = var5.t;
-            var5 = var5.OzCsIC;
+            var5 = var5.OzCsIA;
             var5 = var6.bind(var7)(var5);
             var2['text'] = var5;
             var2['platformIcon'] = var3;
@@ -224,7 +224,7 @@ case 42:
             var5 = var10[var5];
             var5 = var6.bind(var12)(var5);
             var5 = var5.t;
-            var6 = var5.oHF7Cg;
+            var6 = var5.oHF7Ch;
             var5 = {};
             var10 = var9.name;
             var5['name'] = var10;
@@ -246,7 +246,7 @@ case 38:
             var5 = var10[var5];
             var5 = var8.bind(var12)(var5);
             var5 = var5.t;
-            var5 = var5.GpNXjI;
+            var5 = var5.GpNXjC;
             var5 = var6.bind(var7)(var5);
             var2['text'] = var5;
             var2['platformIcon'] = var3;
@@ -265,7 +265,7 @@ case 37:
             var5 = var10[var5];
             var5 = var6.bind(var12)(var5);
             var5 = var5.t;
-            var6 = var5.mqdfDQ;
+            var6 = var5.mqdfDc;
             var5 = {};
             var10 = var9.name;
             var5['name'] = var10;
@@ -287,7 +287,7 @@ case 33:
             var5 = var10[var5];
             var5 = var8.bind(var12)(var5);
             var5 = var5.t;
-            var5 = var5.dBISa2;
+            var5 = var5.dBISa6;
             var5 = var6.bind(var7)(var5);
             var2['text'] = var5;
             var2['platformIcon'] = var3;
@@ -328,7 +328,7 @@ case 28:
             var5 = var10[var5];
             var5 = var6.bind(var12)(var5);
             var5 = var5.t;
-            var6 = var5.pW3Ip6;
+            var6 = var5.pW3Ip3;
             var5 = {};
             var9 = var9.name;
             var5['name'] = var9;
@@ -349,7 +349,7 @@ case 26:
             var5 = var9[var5];
             var5 = var8.bind(var12)(var5);
             var5 = var5.t;
-            var5 = var5.Jpkr/v;
+            var5 = var5.Jpkr/q;
             var5 = var6.bind(var7)(var5);
             var2['text'] = var5;
             var2['platformIcon'] = var3;
@@ -368,7 +368,7 @@ case 24:
             var5 = var9[var5];
             var5 = var8.bind(var12)(var5);
             var5 = var5.t;
-            var5 = var5.BMTj29;
+            var5 = var5.BMTj28;
             var5 = var6.bind(var7)(var5);
             var2['text'] = var5;
             var2['platformIcon'] = var3;
@@ -387,7 +387,7 @@ case 23:
             var5 = var14[var9];
             var5 = var13.bind(var12)(var5);
             var5 = var5.t;
-            var6 = var5.4CQq9f;
+            var6 = var5.4CQq9Q;
             var5 = {};
             var10 = var14[var9];
             var10 = var13.bind(var12)(var10);
@@ -396,7 +396,7 @@ case 23:
             var9 = var14[var9];
             var9 = var13.bind(var12)(var9);
             var9 = var9.t;
-            var9 = var9.aS6cKy;
+            var9 = var9.aS6cK4;
             var9 = var10.bind(var11)(var9);
             var5['name'] = var9;
             var5 = var7.bind(var8)(var6, var5);
@@ -417,7 +417,7 @@ case 18:
             var5 = var14[var9];
             var5 = var13.bind(var12)(var5);
             var5 = var5.t;
-            var6 = var5.4CQq9f;
+            var6 = var5.4CQq9Q;
             var5 = {};
             var10 = var14[var9];
             var10 = var13.bind(var12)(var10);
@@ -426,7 +426,7 @@ case 18:
             var9 = var14[var9];
             var9 = var13.bind(var12)(var9);
             var9 = var9.t;
-            var9 = var9.q4pBGx;
+            var9 = var9.q4pBG3;
             var9 = var10.bind(var11)(var9);
             var5['name'] = var9;
             var5 = var7.bind(var8)(var6, var5);
@@ -447,7 +447,7 @@ case 13:
             var5 = var14[var9];
             var5 = var13.bind(var12)(var5);
             var5 = var5.t;
-            var6 = var5.Sq9xJy;
+            var6 = var5.Sq9xJ7;
             var5 = {};
             var10 = var14[var9];
             var10 = var13.bind(var12)(var10);
@@ -477,7 +477,7 @@ case 8:
             var4 = var13[var8];
             var4 = var11.bind(var12)(var4);
             var4 = var4.t;
-            var5 = var4.Sq9xJy;
+            var5 = var4.Sq9xJ7;
             var4 = {};
             var9 = var13[var8];
             var9 = var11.bind(var12)(var9);
@@ -486,7 +486,7 @@ case 8:
             var8 = var13[var8];
             var8 = var11.bind(var12)(var8);
             var8 = var8.t;
-            var8 = var8.Nfvo7+;
+            var8 = var8.Nfvo72;
             var8 = var9.bind(var10)(var8);
             var4['game'] = var8;
             var4 = var6.bind(var7)(var5, var4);

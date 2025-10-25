@@ -131,7 +131,7 @@ case 4:
             var1 = var13[var1];
             var1 = var2.bind(var4)(var1);
             var1 = var1.t;
-            var3 = var1.0Vb9FR;
+            var3 = var1.0Vb9FQ;
             var1 = {};
             var8 = var9.text;
             var1['text'] = var8;

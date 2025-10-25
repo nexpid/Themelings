@@ -442,7 +442,7 @@ case 20:
             var7 = var10[var5];
             var7 = var6.bind(var1)(var7);
             var7 = var7.t;
-            var7 = var7.wOr6hI;
+            var7 = var7.wOr6hB;
             var7 = var8.bind(var11)(var7);
             var2['title'] = var7;
             var7 = var10[var5];
@@ -452,7 +452,7 @@ case 20:
             var5 = var10[var5];
             var5 = var6.bind(var1)(var5);
             var5 = var5.t;
-            var6 = var5.qqyp/f;
+            var6 = var5.qqyp/e;
             var5 = {};
             var9 = _closure1_slot9;
             var5['limit'] = var9;

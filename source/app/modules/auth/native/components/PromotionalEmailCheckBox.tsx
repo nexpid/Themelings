@@ -101,7 +101,7 @@ case 3:
             var10 = var16[var12];
             var10 = var15.bind(var5)(var10);
             var10 = var10.t;
-            var10 = var10.ylFCLi;
+            var10 = var10.ylFCLt;
             var10 = var14.bind(var17)(var10);
             var6['accessibilityLabel'] = var10;
             var10 = {};
@@ -141,7 +141,7 @@ case 3:
             var12 = var16[var12];
             var12 = var15.bind(var5)(var12);
             var12 = var12.t;
-            var12 = var12.ylFCLi;
+            var12 = var12.ylFCLt;
             var12 = var13.bind(var14)(var12);
             var10['children'] = var12;
             var10 = var4.bind(var5)(var11, var10);

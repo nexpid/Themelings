@@ -224,7 +224,7 @@ case 19:
             var9 = var6[var9];
             var9 = var3.bind(var5)(var9);
             var9 = var9.t;
-            var9 = var9.TXNS7e;
+            var9 = var9.TXNS7S;
             var9 = var11.bind(var12)(var9);
             var1['text'] = var9;
             var1['onPress'] = var8;

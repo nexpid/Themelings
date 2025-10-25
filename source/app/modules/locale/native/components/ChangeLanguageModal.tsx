@@ -122,7 +122,7 @@ case 7:
                     var11 = var7[var18];
                     var11 = var10.bind(var3)(var11);
                     var11 = var11.international;
-                    var11 = var11.ofazSU;
+                    var11 = var11.ofazSS;
                     var11 = var12.bind(var13)(var11);
                     var5['confirmText'] = var11;
                     var13 = _closure1_slot8;
@@ -144,7 +144,7 @@ case 7:
                     var20 = var7[var18];
                     var20 = var10.bind(var3)(var20);
                     var20 = var20.international;
-                    var20 = var20.KUFsLi;
+                    var20 = var20.KUFsLl;
                     var20 = var21.bind(var22)(var20);
                     var14['children'] = var20;
                     var16 = var17.bind(var3)(var16, var14);
@@ -163,7 +163,7 @@ case 7:
                     var18 = var7[var18];
                     var18 = var10.bind(var3)(var18);
                     var18 = var18.international;
-                    var18 = var18.yQfLwM;
+                    var18 = var18.yQfLwD;
                     var18 = var19.bind(var20)(var18);
                     var15['children'] = var18;
                     var15 = var17.bind(var3)(var16, var15);
@@ -234,7 +234,7 @@ case 2:
         var6 = var13[var9];
         var6 = var12.bind(var4)(var6);
         var6 = var6.international;
-        var6 = var6.QkGMPz;
+        var6 = var6.QkGMP3;
         var7 = var7.bind(var8)(var6);
         var6 = 'confirmText';
         var1[var6] = var7;
@@ -245,7 +245,7 @@ case 2:
         var6 = var13[var9];
         var6 = var12.bind(var4)(var6);
         var6 = var6.international;
-        var6 = var6.jM7sUl;
+        var6 = var6.jM7sUh;
         var7 = var7.bind(var8)(var6);
         var6 = 'cancelText';
         var1[var6] = var7;
@@ -267,7 +267,7 @@ case 2:
         var11 = var13[var9];
         var11 = var12.bind(var4)(var11);
         var11 = var11.international;
-        var11 = var11.09QGGB;
+        var11 = var11.09QGGE;
         var11 = var14.bind(var15)(var11);
         var6['children'] = var11;
         var7 = var8.bind(var4)(var7, var6);
@@ -286,7 +286,7 @@ case 2:
         var9 = var13[var9];
         var9 = var12.bind(var4)(var9);
         var9 = var9.international;
-        var9 = var9.xi8rEx;
+        var9 = var9.xi8rE8;
         var9 = var10.bind(var11)(var9);
         var5['children'] = var9;
         var5 = var8.bind(var4)(var7, var5);

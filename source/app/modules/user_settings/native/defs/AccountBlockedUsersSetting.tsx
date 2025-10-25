@@ -46,7 +46,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var6[var1];
         var1 = var5.bind(var4)(var1);
         var1 = var1.t;
-        var1 = var1.PFOUKS;
+        var1 = var1.PFOUKW;
         var1 = var2.bind(var3)(var1);
         return var1;
     };
@@ -83,7 +83,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var7[var1];
         var1 = var6.bind(var2)(var1);
         var1 = var1.t;
-        var2 = var1.r91W/v;
+        var2 = var1.r91W/h;
         var1 = {};
         var1['numberOfBlockedUsers'] = var5;
         var1 = var3.bind(var4)(var2, var1);

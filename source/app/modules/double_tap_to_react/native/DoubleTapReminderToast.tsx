@@ -80,7 +80,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var10[var5];
         var5 = var6.bind(var4)(var5);
         var5 = var5.t;
-        var6 = var5.C2tQIS;
+        var6 = var5.C2tQIV;
         var5 = {};
         var10 = function protipHook(arg1) {
             var5 = _closure1_slot5;

@@ -380,7 +380,7 @@ case 18:
             var8 = var18[var16];
             var8 = var21.bind(var5)(var8);
             var8 = var8.t;
-            var8 = var8.1EUr/f;
+            var8 = var8.1EUr/W;
             var8 = var19.bind(var20)(var8);
             var6['children'] = var8;
             var7 = var9.bind(var5)(var7, var6);
@@ -432,7 +432,7 @@ case 19:
             var12 = var12[var16];
             var12 = var15.bind(var5)(var12);
             var12 = var12.t;
-            var12 = var12.bt75u7;
+            var12 = var12.bt75uw;
             var12 = var13.bind(var14)(var12);
             var10['children'] = var12;
             var10 = var9.bind(var5)(var11, var10);

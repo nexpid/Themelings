@@ -167,7 +167,7 @@ case 2:
                     var8 = var8.t;
                     if(var5) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
-                    var5 = var8.5h0QOD;
+                    var5 = var8.5h0QOP;
                     _fun0002_ip = 6; continue _fun0002;
 case 4:
                     var5 = var8.7Qr0fH;
@@ -232,7 +232,7 @@ case 2:
                     var7 = var11[var7];
                     var7 = var10.bind(var4)(var7);
                     var7 = var7.t;
-                    var7 = var7.VINpSE;
+                    var7 = var7.VINpSK;
                     var7 = var8.bind(var9)(var7);
                     var2['accessibilityLabel'] = var7;
                     var6 = _closure2_slot1;
@@ -297,7 +297,7 @@ case 10:
                     var10 = var15[var10];
                     var10 = var14.bind(var2)(var10);
                     var10 = var10.t;
-                    var10 = var10.tlopTE;
+                    var10 = var10.tlopTM;
                     var10 = var12.bind(var13)(var10);
                     var6['accessibilityLabel'] = var10;
                     var10 = _closure2_slot3;
@@ -390,7 +390,7 @@ case 17:
             var14 = var18[var14];
             var14 = var17.bind(var4)(var14);
             var14 = var14.t;
-            var14 = var14.VINpSE;
+            var14 = var14.VINpSK;
             var14 = var15.bind(var16)(var14);
             var10['accessibilityLabel'] = var14;
             var10['disabled'] = var13;

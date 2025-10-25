@@ -413,7 +413,7 @@ case 0:
             var8 = var8[var11];
             var8 = var12.bind(var5)(var8);
             var8 = var8.t;
-            var8 = var8.Wi9LER;
+            var8 = var8.Wi9LEV;
             var8 = var9.bind(var10)(var8);
             var2['title'] = var8;
             var10 = _closure1_slot0;
@@ -427,11 +427,11 @@ case 0:
             var7 = var7.t;
             if(var6) { _fun0003_ip = 23; continue _fun0003 }
 case 24:
-            var6 = var7.yZcYGR;
+            var6 = var7.yZcYGa;
             var6 = var8.bind(var9)(var6);
             _fun0003_ip = 25; continue _fun0003;
 case 23:
-            var7 = var7.MP0Ho6;
+            var7 = var7.MP0Ho+;
             var6 = var8.bind(var9)(var7);
 case 25:
             var2['actionText'] = var6;
@@ -923,7 +923,7 @@ case 43:
             var7 = var10[var6];
             var7 = var9.bind(var4)(var7);
             var7 = var7.t;
-            var7 = var7.Z5s7PD;
+            var7 = var7.Z5s7PM;
             var7 = var8.bind(var11)(var7);
             var5['title'] = var7;
             var7 = var10[var6];
@@ -933,7 +933,7 @@ case 43:
             var6 = var10[var6];
             var6 = var9.bind(var4)(var6);
             var6 = var6.t;
-            var6 = var6.Z5s7PD;
+            var6 = var6.Z5s7PM;
             var6 = var7.bind(var8)(var6);
             var5['actionText'] = var6;
             var2['modalProps'] = var5;
@@ -1051,7 +1051,7 @@ case 45:
         var7 = var10[var6];
         var7 = var9.bind(var5)(var7);
         var7 = var7.t;
-        var8 = var7.us7mCw;
+        var8 = var7.us7mC1;
         var7 = {};
         var13 = arg2;
         var7['name'] = var13;
@@ -1064,7 +1064,7 @@ case 45:
         var6 = var10[var6];
         var6 = var9.bind(var5)(var6);
         var6 = var6.t;
-        var6 = var6.l3hWPz;
+        var6 = var6.l3hWP6;
         var6 = var7.bind(var8)(var6);
         var2['actionText'] = var6;
         var6 = true;

@@ -468,7 +468,7 @@ case 27:
             var7 = var11[var7];
             var7 = var10.bind(var3)(var7);
             var7 = var7.t;
-            var7 = var7.uZyspK;
+            var7 = var7.uZyspD;
             var7 = var8.bind(var9)(var7);
             var1['name'] = var7;
             var1['collapsed'] = var6;
@@ -510,7 +510,7 @@ case 27:
                 var5 = var8[var5];
                 var5 = var7.bind(var1)(var5);
                 var5 = var5.t;
-                var5 = var5.VkKicX;
+                var5 = var5.VkKicb;
                 var5 = var9.bind(var10)(var5);
                 var6['label'] = var5;
                 var5 = function onPress() {
@@ -552,7 +552,7 @@ case 27:
             var6 = var10[var6];
             var6 = var9.bind(var1)(var6);
             var6 = var6.t;
-            var6 = var6.HbJ7eH;
+            var6 = var6.HbJ7eD;
             var6 = var7.bind(var8)(var6);
             var2['name'] = var6;
             var2['onPress'] = var5;

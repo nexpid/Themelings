@@ -214,7 +214,7 @@ case 9:
             var6 = var6[var19];
             var6 = var12.bind(var5)(var6);
             var6 = var6.t;
-            var12 = var6.uIomX1;
+            var12 = var6.uIomXw;
             var6 = {};
             var6['username'] = var22;
             var6 = var15.bind(var17)(var12, var6);
@@ -229,10 +229,10 @@ case 8:
             var12 = var12.t;
             if(var13) { _fun0001_ip = 11; continue _fun0001 }
 case 12:
-            var13 = var12.V15uUF;
+            var13 = var12.V15uUI;
             _fun0001_ip = 13; continue _fun0001;
 case 11:
-            var13 = var12.syHjLC;
+            var13 = var12.syHjLL;
 case 13:
             var12 = {};
             var12['username'] = var22;
@@ -316,7 +316,7 @@ case 10:
             var17 = var15[var19];
             var17 = var18.bind(var5)(var17);
             var17 = var17.t;
-            var17 = var17.ZcibdX;
+            var17 = var17.Zcibdf;
             var17 = var20.bind(var21)(var17);
             var10['text'] = var17;
             var10['onPress'] = var16;
@@ -334,7 +334,7 @@ case 10:
             var15 = var15[var19];
             var15 = var18.bind(var5)(var15);
             var15 = var15.t;
-            var15 = var15.xuio0N;
+            var15 = var15.xuio0C;
             var15 = var16.bind(var17)(var15);
             var11['text'] = var15;
             var11['onPress'] = var14;

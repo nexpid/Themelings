@@ -146,7 +146,7 @@ case 16:
             var13 = var17[var13];
             var13 = var16.bind(var4)(var13);
             var13 = var13.t;
-            var13 = var13.HcoRu7;
+            var13 = var13.HcoRu0;
             var13 = var14.bind(var15)(var13);
             var11['accessibilityLabel'] = var13;
             var11 = var12.bind(var7)(var11);
@@ -289,7 +289,7 @@ case 24:
             var13 = var17[var13];
             var13 = var16.bind(var4)(var13);
             var13 = var13.t;
-            var13 = var13.5h0QOD;
+            var13 = var13.5h0QOP;
             var13 = var14.bind(var15)(var13);
             var11['accessibilityLabel'] = var13;
             var11 = var12.bind(var7)(var11);
@@ -334,7 +334,7 @@ case 25:
             var12 = var16[var12];
             var12 = var15.bind(var4)(var12);
             var12 = var12.t;
-            var12 = var12.5h0QOD;
+            var12 = var12.5h0QOP;
             var12 = var13.bind(var14)(var12);
             var3['accessibilityLabel'] = var12;
             var3 = var11.bind(var7)(var3);
@@ -377,7 +377,7 @@ case 2:
             var12 = var16[var12];
             var12 = var15.bind(var4)(var12);
             var12 = var12.t;
-            var12 = var12.5h0QOD;
+            var12 = var12.5h0QOP;
             var12 = var13.bind(var14)(var12);
             var3['accessibilityLabel'] = var12;
             var3 = var11.bind(var7)(var3);
@@ -467,7 +467,7 @@ case 41:
             var8 = var12[var8];
             var8 = var11.bind(var4)(var8);
             var8 = var8.t;
-            var8 = var8.B2panJ;
+            var8 = var8.B2panI;
             var8 = var9.bind(var10)(var8);
             var2['accessibilityLabel'] = var8;
             var2 = var3.bind(var7)(var2);

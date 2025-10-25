@@ -444,14 +444,14 @@ case 4:
             var17 = var15.t;
             if(var11) { _fun0001_ip = 5; continue _fun0001 }
 case 6:
-            var18 = var17.VnxBOD;
+            var18 = var17.VnxBOA;
             var15 = {};
             var22 = var21.name;
             var15['guildName'] = var22;
             var15 = var19.bind(var20)(var18, var15);
             _fun0001_ip = 7; continue _fun0001;
 case 5:
-            var18 = var17.cgX47e;
+            var18 = var17.cgX47Z;
             var17 = {};
             var21 = var21.name;
             var17['guildName'] = var21;
@@ -480,11 +480,11 @@ case 7:
             var12 = var12.t;
             if(var11) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-            var11 = var12.7D3C5u;
+            var11 = var12.7D3C5p;
             var11 = var13.bind(var14)(var11);
             _fun0001_ip = 10; continue _fun0001;
 case 8:
-            var12 = var12.3smSPD;
+            var12 = var12.3smSPP;
             var11 = var13.bind(var14)(var12);
 case 10:
             var8['children'] = var11;

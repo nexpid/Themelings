@@ -497,7 +497,7 @@ case 15:
             var9 = var8[var9];
             var9 = var10.bind(var3)(var9);
             var9 = var9.t;
-            var10 = var9.LEgD7u;
+            var10 = var9.LEgD7t;
             var9 = {};
             var13 = var13.name;
             var9['platform'] = var13;

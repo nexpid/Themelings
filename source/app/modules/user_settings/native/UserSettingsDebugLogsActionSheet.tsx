@@ -35,7 +35,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10 = var9[var15];
         var10 = var18.bind(var3)(var10);
         var10 = var10.t;
-        var10 = var10.+B9e19;
+        var10 = var10.+B9e11;
         var10 = var13.bind(var14)(var10);
         var5['title'] = var10;
         var5 = var8.bind(var3)(var7, var5);
@@ -59,7 +59,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var17 = var9[var15];
         var17 = var18.bind(var3)(var17);
         var17 = var17.t;
-        var17 = var17.wzzjk5;
+        var17 = var17.wzzjk9;
         var17 = var19.bind(var20)(var17);
         var10['label'] = var17;
         var10['onPress'] = var16;
@@ -81,7 +81,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var13 = var9[var15];
         var13 = var18.bind(var3)(var13);
         var13 = var13.t;
-        var13 = var13.gePre3;
+        var13 = var13.gePre2;
         var13 = var14.bind(var16)(var13);
         var7['title'] = var13;
         var7['defaultValue'] = var12;
@@ -99,7 +99,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var16 = var9[var15];
         var16 = var18.bind(var3)(var16);
         var16 = var16.t;
-        var16 = var16.eoXe0t;
+        var16 = var16.eoXe0r;
         var16 = var17.bind(var19)(var16);
         var11['label'] = var16;
         var16 = 'newest';

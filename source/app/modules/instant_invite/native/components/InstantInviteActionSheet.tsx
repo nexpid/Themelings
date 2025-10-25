@@ -634,7 +634,7 @@ case 42:
             var22 = var34[var22];
             var22 = var32.bind(var4)(var22);
             var22 = var22.t;
-            var22 = var22.f1+QIC;
+            var22 = var22.f1+QIK;
             var22 = var23.bind(var30)(var22);
             _fun0002_ip = 43; continue _fun0002;
 case 41:
@@ -650,7 +650,7 @@ case 45:
             var23 = var35[var23];
             var23 = var34.bind(var4)(var23);
             var23 = var23.t;
-            var23 = var23.OzOM/v;
+            var23 = var23.OzOM/q;
             var23 = var30.bind(var32)(var23);
             _fun0002_ip = 46; continue _fun0002;
 case 44:
@@ -664,7 +664,7 @@ case 44:
             var30 = var40[var30];
             var30 = var32.bind(var4)(var30);
             var30 = var30.t;
-            var32 = var30.ZdK3dX;
+            var32 = var30.ZdK3dW;
             var30 = {};
             var39 = var39.name;
             var30['applicationName'] = var39;
@@ -728,7 +728,7 @@ case 54:
             var36 = var42[var36];
             var36 = var39.bind(var4)(var36);
             var36 = var36.t;
-            var39 = var36.1UgGdn;
+            var39 = var36.1UgGdm;
             var36 = {};
             var44 = _closure1_slot9;
             var43 = var44.getGuild;
@@ -754,7 +754,7 @@ case 53:
             var39 = var43[var39];
             var39 = var42.bind(var4)(var39);
             var39 = var39.t;
-            var39 = var39.iI1gMj;
+            var39 = var39.iI1gMg;
             var36 = var40.bind(var41)(var39);
 case 57:
             var32['placeholder'] = var36;

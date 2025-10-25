@@ -109,6 +109,7 @@ case 6:
             var6 = var6.bind(var7)(var2, var8);
             var5['userAvatarDecoration'] = var6;
             var5['localVideoDisabled'] = var4;
+            var5['isPoppedOut'] = var4;
             var4 = _closure1_slot18;
             var3 = var4.set;
             var2 = var2.id;

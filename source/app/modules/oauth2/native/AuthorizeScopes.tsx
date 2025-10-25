@@ -245,10 +245,10 @@ case 12:
             var1 = var1.t;
             if(var5) { _fun0002_ip = 13; continue _fun0002 }
 case 14:
-            var17 = var1.1Hz+Sk;
+            var17 = var1.1Hz+Sl;
             _fun0002_ip = 15; continue _fun0002;
 case 13:
-            var17 = var1.PZpY9f;
+            var17 = var1.PZpY9c;
 case 15:
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
@@ -379,7 +379,7 @@ case 24:
             var16 = var16[var20];
             var16 = var19.bind(var4)(var16);
             var16 = var16.t;
-            var16 = var16.Ls2XRk;
+            var16 = var16.Ls2XRq;
             var16 = var17.bind(var18)(var16);
             var12['text'] = var16;
             var11 = var15.bind(var4)(var14, var12);

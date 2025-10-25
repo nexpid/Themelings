@@ -71,7 +71,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = 1;
     var10 = var12[var2];
     var10 = var15.bind(var1)(var10);
-    var10 = var10.Qm6K/v;
+    var10 = var10.Qm6K/s;
     var10 = var16.bind(var17)(var10);
     var4[var14] = var10;
     var10 = var9.AGE_VERIFICATION;
@@ -81,7 +81,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var14.string;
     var2 = var12[var2];
     var2 = var15.bind(var1)(var2);
-    var2 = var2.dSkE/P;
+    var2 = var2.dSkE/A;
     var2 = var13.bind(var14)(var2);
     var4[var10] = var2;
     var2 = {};

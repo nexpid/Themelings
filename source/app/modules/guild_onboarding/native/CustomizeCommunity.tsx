@@ -86,7 +86,7 @@ case 4:
             var16 = var14[var9];
             var16 = var10.bind(var4)(var16);
             var16 = var16.t;
-            var16 = var16.leKHQ0;
+            var16 = var16.leKHQz;
             var16 = var17.bind(var18)(var16);
             var8['children'] = var16;
             var8 = var15.bind(var4)(var12, var8);
@@ -105,7 +105,7 @@ case 4:
             var9 = var14[var9];
             var9 = var10.bind(var4)(var9);
             var9 = var9.t;
-            var10 = var9.jH+ktL;
+            var10 = var9.jH+ktB;
             var9 = {};
             var13 = function onBrowseChannels() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
@@ -859,7 +859,7 @@ case 50:
             var19 = var24[var19];
             var19 = var23.bind(var4)(var19);
             var19 = var19.t;
-            var19 = var19.GmSvdH;
+            var19 = var19.GmSvdA;
             var19 = var21.bind(var22)(var19);
             var13['children'] = var19;
             var15 = var18.bind(var4)(var17, var13);
@@ -1642,7 +1642,7 @@ case 71:
             var21 = var25[var21];
             var21 = var22.bind(var5)(var21);
             var21 = var21.t;
-            var22 = var21.iB5Gqa;
+            var22 = var21.iB5Gqe;
             var21 = {};
             var25 = var19.length;
             var25 = var25 + var26;
@@ -1695,7 +1695,7 @@ case 73:
             var21 = var24[var20];
             var21 = var23.bind(var5)(var21);
             var21 = var21.t;
-            var21 = var21.BGkaen;
+            var21 = var21.BGkaer;
             var21 = var22.bind(var25)(var21);
             var14['children'] = var21;
             var18 = var19.bind(var5)(var18, var14);
@@ -1713,7 +1713,7 @@ case 73:
             var20 = var24[var20];
             var20 = var23.bind(var5)(var20);
             var20 = var20.t;
-            var20 = var20.r6Vm8f;
+            var20 = var20.r6Vm8T;
             var20 = var21.bind(var22)(var20);
             var15['children'] = var20;
             var15 = var19.bind(var5)(var18, var15);

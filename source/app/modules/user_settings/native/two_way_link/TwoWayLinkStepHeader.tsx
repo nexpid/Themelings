@@ -57,7 +57,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var11[var5];
         var5 = var6.bind(var4)(var5);
         var5 = var5.t;
-        var6 = var5.fHz6eX;
+        var6 = var5.fHz6eR;
         var5 = {};
         var5['number'] = var10;
         var5['total'] = var9;

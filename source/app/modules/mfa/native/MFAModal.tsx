@@ -141,7 +141,7 @@ case 15:
                 var1 = var8[var1];
                 var1 = var7.bind(var3)(var1);
                 var1 = var1.t;
-                var1 = var1.N2yb9f;
+                var1 = var1.N2yb9a;
                 var9 = var4.bind(var6)(var1);
                 var4 = var5.prototype;
                 var4 = Object.create(var4, {constructor: {value: var5}});
@@ -239,7 +239,7 @@ case 0:
                     var6 = var7[var6];
                     var6 = var10.bind(var3)(var6);
                     var6 = var6.t;
-                    var6 = var6.cpT0Cg;
+                    var6 = var6.cpT0Cq;
                     var6 = var8.bind(var9)(var6);
                     var1['accessibilityLabel'] = var6;
                     var6 = _closure2_slot5;

@@ -76,7 +76,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10 = var14[var10];
         var10 = var11.bind(var4)(var10);
         var10 = var10.t;
-        var11 = var10.gVw57u;
+        var11 = var10.gVw57p;
         var10 = {};
         var10 = var12.bind(var13)(var11, var10);
         var8['children'] = var10;

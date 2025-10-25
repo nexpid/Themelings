@@ -446,7 +446,7 @@ case 16:
             var7 = var8[var7];
             var7 = var11.bind(var5)(var7);
             var7 = var7.t;
-            var7 = var7.keY6mZ;
+            var7 = var7.keY6mW;
             var7 = var9.bind(var10)(var7);
             var2['text'] = var7;
             var7 = _closure1_slot1;
@@ -567,7 +567,7 @@ case 21:
             var7 = var8[var7];
             var7 = var11.bind(var5)(var7);
             var7 = var7.t;
-            var7 = var7.TsWCdX;
+            var7 = var7.TsWCdW;
             var7 = var9.bind(var10)(var7);
             var2['text'] = var7;
             var7 = _closure1_slot1;
@@ -618,7 +618,7 @@ case 23:
             var7 = var8[var7];
             var7 = var11.bind(var5)(var7);
             var7 = var7.t;
-            var7 = var7.adnLsL;
+            var7 = var7.adnLsB;
             var7 = var9.bind(var10)(var7);
             var2['text'] = var7;
             var7 = _closure1_slot1;
@@ -656,7 +656,7 @@ case 25:
             var2 = var8[var12];
             var2 = var13.bind(var5)(var2);
             var2 = var2.t;
-            var15 = var2.SDRHgo;
+            var15 = var2.SDRHgr;
             var4 = _closure1_slot7;
             var3 = _closure1_slot13;
             var2 = {};
@@ -675,7 +675,7 @@ case 25:
             var11 = var8[var12];
             var11 = var13.bind(var5)(var11);
             var11 = var11.t;
-            var11 = var11./50eHh;
+            var11 = var11./50eHi;
             var14 = var14.bind(var16)(var11);
             var11 = new Array(3);
             var11[0] = var14;

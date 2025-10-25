@@ -42,7 +42,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var7[var5];
         var5 = var6.bind(var3)(var5);
         var5 = var5.t;
-        var5 = var5.Aw+09/;
+        var5 = var5.Aw+09z;
         var5 = var8.bind(var9)(var5);
         var1['accessibilityLabel'] = var5;
         var5 = function onPress() {

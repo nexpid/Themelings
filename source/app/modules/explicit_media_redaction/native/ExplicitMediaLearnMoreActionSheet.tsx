@@ -257,7 +257,7 @@ case 7:
                     var2 = var8[var2];
                     var2 = var7.bind(var3)(var2);
                     var2 = var2.t;
-                    var3 = var2.Ge0HUl;
+                    var3 = var2.Ge0HUi;
                     var2 = {};
                     var7 = function handleFalsePositiveHook() {
                         var5 = _closure1_slot1;
@@ -315,7 +315,7 @@ case 4:
                     var2 = var8[var2];
                     var2 = var7.bind(var3)(var2);
                     var2 = var2.t;
-                    var3 = var2.TGqx+v;
+                    var3 = var2.TGqx+i;
                     var2 = {};
                     var6 = function handleOnHelpUrlHook() {
                         var7 = _closure1_slot1;
@@ -399,7 +399,7 @@ case 8:
             var21 = var12[var19];
             var21 = var13.bind(var4)(var21);
             var21 = var21.t;
-            var21 = var21.sGW77u;
+            var21 = var21.sGW77l;
             var21 = var23.bind(var24)(var21);
             var11['children'] = var21;
             var20 = var3.bind(var4)(var20, var11);
@@ -422,7 +422,7 @@ case 8:
             var23 = var23.t;
             if(var22) { _fun0001_ip = 9; continue _fun0001 }
 case 10:
-            var26 = var23.RUw0ZG;
+            var26 = var23.RUw0ZC;
             var26 = var24.bind(var25)(var26);
             var27 = var21[var19];
             var27 = var29.bind(var4)(var27);
@@ -431,7 +431,7 @@ case 10:
             var21 = var21[var19];
             var21 = var29.bind(var4)(var21);
             var21 = var21.t;
-            var21 = var21.E/oQYG;
+            var21 = var21.E/oQYL;
             var21 = var27.bind(var28)(var21);
             if(!var10) { _fun0001_ip = 11; continue _fun0001 }
 case 12:
@@ -439,7 +439,7 @@ case 12:
 case 11:
             _fun0001_ip = 13; continue _fun0001;
 case 9:
-            var23 = var23.f3ARDQ;
+            var23 = var23.f3ARDc;
             var21 = var24.bind(var25)(var23);
 case 13:
             var17['children'] = var21;
@@ -469,7 +469,7 @@ case 13:
 case 15:
             if(var10) { _fun0001_ip = 16; continue _fun0001 }
 case 17:
-            var10 = var17.hvVgAQ;
+            var10 = var17.hvVgAZ;
             var10 = var20.bind(var21)(var10);
             var13['text'] = var10;
             var10 = function handleNavigateToHelpCenterLearnMore() {
@@ -494,7 +494,7 @@ case 17:
             var10 = var13;
             _fun0001_ip = 18; continue _fun0001;
 case 16:
-            var22 = var17.9D+zGR;
+            var22 = var17.9D+zGX;
             var22 = var20.bind(var21)(var22);
             var13['text'] = var22;
             var22 = function handleNavigateToSettingsButtonPress() {
@@ -584,7 +584,7 @@ case 19:
             var19 = var16[var19];
             var19 = var12.bind(var4)(var19);
             var19 = var19.t;
-            var19 = var19.bmbHPD;
+            var19 = var19.bmbHPA;
             var19 = var20.bind(var21)(var19);
             var11['text'] = var19;
             var18 = function onPress() {

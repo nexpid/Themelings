@@ -956,7 +956,7 @@ case 79:
             var7 = var12[var7];
             var7 = var11.bind(var5)(var7);
             var7 = var7.t;
-            var7 = var7.Dr1vkp;
+            var7 = var7.Dr1vko;
             var7 = var9.bind(var10)(var7);
             var1['text'] = var7;
             var1 = var4.bind(var5)(var3, var1);
@@ -992,7 +992,7 @@ case 75:
             var8 = var12[var8];
             var8 = var11.bind(var5)(var8);
             var8 = var8.t;
-            var8 = var8.E4HqQ0;
+            var8 = var8.E4HqQ+;
             var8 = var9.bind(var10)(var8);
             var3['text'] = var8;
             var1 = var7.bind(var5)(var4, var3);

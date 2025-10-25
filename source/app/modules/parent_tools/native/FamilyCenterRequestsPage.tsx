@@ -47,7 +47,7 @@ case 4:
             var1 = 11;
             var3 = var13[var1];
             var3 = var9.bind(var5)(var3);
-            var14 = var3.1/PzIi;
+            var14 = var3.1/PzIj;
             var3 = {};
             var3['maxConnections'] = var12;
             var3 = var15.bind(var16)(var14, var3);
@@ -57,7 +57,7 @@ case 4:
             var10 = var11.formatToPlainString;
             var1 = var13[var1];
             var1 = var9.bind(var5)(var1);
-            var9 = var1.RcTgiI;
+            var9 = var1.RcTgiE;
             var1 = {};
             var1['maxConnections'] = var12;
             var1 = var10.bind(var11)(var9, var1);
@@ -206,7 +206,7 @@ case 10:
             var1 = 11;
             var1 = var6[var1];
             var1 = var2.bind(var5)(var1);
-            var2 = var1.6tsC8v;
+            var2 = var1.6tsC8u;
             var1 = {};
             var6 = _closure1_slot6;
             var1['helpLink'] = var6;
@@ -225,7 +225,7 @@ case 7:
             var1 = 11;
             var1 = var6[var1];
             var1 = var2.bind(var5)(var1);
-            var2 = var1.KOwsf3;
+            var2 = var1.KOwsf/;
             var1 = {};
             var6 = 'https://support.discord.com/hc/articles/7925648993943-Crisis-Text-Line';
             var1['helpLink'] = var6;
@@ -261,7 +261,7 @@ case 13:
             var13 = 11;
             var13 = var11[var13];
             var13 = var16.bind(var5)(var13);
-            var13 = var13.7/tVho;
+            var13 = var13.7/tVhv;
             var13 = var14.bind(var15)(var13);
             var6['children'] = var13;
             var9 = var12.bind(var5)(var9, var6);

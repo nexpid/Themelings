@@ -94,7 +94,7 @@ case 0:
             var1 = var1[var12];
             var1 = var2.bind(var4)(var1);
             var1 = var1.t;
-            var2 = var1.ZqkXsL;
+            var2 = var1.ZqkXsC;
             var1 = {};
             var9 = _closure1_slot4;
             var1['helpdeskArticle'] = var9;
@@ -114,7 +114,7 @@ case 3:
             var1 = var1[var12];
             var1 = var2.bind(var4)(var1);
             var1 = var1.t;
-            var2 = var1.jn0Xy8;
+            var2 = var1.jn0Xyx;
             var1 = {};
             var8 = var8.name;
             var1['guildName'] = var8;
@@ -145,7 +145,7 @@ case 2:
             var12 = var11[var12];
             var12 = var7.bind(var4)(var12);
             var12 = var12.t;
-            var12 = var12.kJwpBQ;
+            var12 = var12.kJwpBW;
             var12 = var13.bind(var14)(var12);
             var5['children'] = var12;
             var6 = var8.bind(var4)(var6, var5);

@@ -665,7 +665,7 @@ case 12:
             var19 = var22[var27];
             var19 = var28.bind(var4)(var19);
             var19 = var19.t;
-            var20 = var19.y7dUrq;
+            var20 = var19.y7dUrm;
             var19 = {};
             var19['numChannels'] = var18;
             var19 = var21.bind(var26)(var20, var19);
@@ -714,7 +714,7 @@ case 12:
             var27 = var22[var27];
             var27 = var28.bind(var4)(var27);
             var27 = var27.t;
-            var28 = var27.MR7oOD;
+            var28 = var27.MR7oOF;
             var27 = {};
             var27['numBenefits'] = var24;
             var27 = var29.bind(var30)(var28, var27);

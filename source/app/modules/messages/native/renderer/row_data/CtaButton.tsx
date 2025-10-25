@@ -77,7 +77,7 @@ case 4:
             var9 = var9.t;
             if(var4) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var4 = var9./nicWl;
+            var4 = var9./nicWo;
             var4 = var10.bind(var11)(var4);
             _fun0001_ip = 8; continue _fun0001;
 case 6:
@@ -113,7 +113,7 @@ case 2:
             var4 = var11[var4];
             var4 = var10.bind(var5)(var4);
             var4 = var4.t;
-            var4 = var4.4q1ElZ;
+            var4 = var4.4q1Elf;
             var4 = var8.bind(var9)(var4);
             var1['text'] = var4;
             var4 = var2.reportFpTextColor;

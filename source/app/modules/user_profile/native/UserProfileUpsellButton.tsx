@@ -170,7 +170,7 @@ case 3:
             var7 = var12[var7];
             var7 = var11.bind(var4)(var7);
             var7 = var7.t;
-            var7 = var7.pj0XBA;
+            var7 = var7.pj0XBN;
             var6 = var9.bind(var10)(var7);
 case 2:
             var1['text'] = var6;

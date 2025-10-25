@@ -482,7 +482,7 @@ case 36:
         var8 = var10[var6];
         var8 = var9.bind(var1)(var8);
         var8 = var8.t;
-        var8 = var8.ZbtGBg;
+        var8 = var8.ZbtGBm;
         var8 = var11.bind(var12)(var8);
         var2['title'] = var8;
         var11 = _closure1_slot11;
@@ -500,7 +500,7 @@ case 36:
         var12 = var10[var6];
         var12 = var9.bind(var1)(var12);
         var12 = var12.t;
-        var12 = var12.VpjOCg;
+        var12 = var12.VpjOCo;
         var12 = var13.bind(var14)(var12);
         var7['children'] = var12;
         var7 = var11.bind(var1)(var8, var7);
@@ -512,7 +512,7 @@ case 36:
         var7 = var10[var6];
         var7 = var9.bind(var1)(var7);
         var7 = var7.t;
-        var7 = var7.ETE/oK;
+        var7 = var7.ETE/oC;
         var7 = var8.bind(var11)(var7);
         var2['cancelText'] = var7;
         var7 = var10[var6];
@@ -522,7 +522,7 @@ case 36:
         var6 = var10[var6];
         var6 = var9.bind(var1)(var6);
         var6 = var6.t;
-        var6 = var6.oyYWHB;
+        var6 = var6.oyYWHE;
         var6 = var7.bind(var8)(var6);
         var2['confirmText'] = var6;
         var5 = function onConfirm() {

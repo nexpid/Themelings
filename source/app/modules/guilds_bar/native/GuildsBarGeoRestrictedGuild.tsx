@@ -145,7 +145,7 @@ case 2:
                     var6 = var9[var5];
                     var6 = var8.bind(var1)(var6);
                     var6 = var6.t;
-                    var6 = var6.aCAiGh;
+                    var6 = var6.aCAiGl;
                     var6 = var7.bind(var10)(var6);
                     var2['title'] = var6;
                     var6 = var9[var5];
@@ -155,7 +155,7 @@ case 2:
                     var6 = var9[var5];
                     var6 = var8.bind(var1)(var6);
                     var6 = var6.t;
-                    var7 = var6.4cJV9f;
+                    var7 = var6.4cJV9S;
                     var6 = {};
                     var12 = _closure2_slot0;
                     var12 = var12.name;
@@ -169,7 +169,7 @@ case 2:
                     var5 = var9[var5];
                     var5 = var8.bind(var1)(var5);
                     var5 = var5.t;
-                    var5 = var5.J2TBi4;
+                    var5 = var5.J2TBi3;
                     var5 = var6.bind(var7)(var5);
                     var2['cancelText'] = var5;
                     var5 = function onCancel() {

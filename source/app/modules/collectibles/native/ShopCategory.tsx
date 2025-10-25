@@ -329,7 +329,7 @@ case 10:
             var12 = var24[var21];
             var12 = var19.bind(var4)(var12);
             var12 = var12.t;
-            var19 = var12.hEsdAw;
+            var19 = var12.hEsdA9;
             var12 = {};
             var27 = var9.name;
             var12['category'] = var27;
@@ -450,7 +450,7 @@ case 14:
             var21 = var19[var21];
             var21 = var18.bind(var4)(var21);
             var21 = var21.t;
-            var21 = var21.pWG4zc;
+            var21 = var21.pWG4ze;
             var21 = var22.bind(var23)(var21);
             var10['accessibilityLabel'] = var21;
             var10['data'] = var20;

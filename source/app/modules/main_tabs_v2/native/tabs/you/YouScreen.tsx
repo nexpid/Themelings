@@ -307,7 +307,7 @@ case 10:
             var9 = var31[var21];
             var20 = var29.bind(var4)(var9);
             var14 = var20.useAnimatedStyle;
-            var9 = function Z() {
+            var9 = function X() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var1 = {};
@@ -344,7 +344,7 @@ case 13:
             var9 = var31[var21];
             var20 = var29.bind(var4)(var9);
             var14 = var20.useAnimatedStyle;
-            var9 = function X() {
+            var9 = function Z() {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                     var1 = {};
@@ -564,7 +564,7 @@ case 21:
             var20 = var29[var55];
             var20 = var28.bind(var4)(var20);
             var20 = var20.t;
-            var31 = var20.gVn4uL;
+            var31 = var20.gVn4uJ;
             var20 = {};
             var37 = var6.username;
             var20['username'] = var37;
@@ -1118,7 +1118,7 @@ case 78:
             var42 = var52[var55];
             var42 = var45.bind(var4)(var42);
             var42 = var42.t;
-            var42 = var42.13/7kZ;
+            var42 = var42.13/7kX;
             var42 = var48.bind(var54)(var42);
             var27['accessibilityLabel'] = var42;
             var42 = function onPress() {
@@ -1240,7 +1240,7 @@ case 87:
             var46 = var54[var55];
             var46 = var56.bind(var4)(var46);
             var46 = var46.t;
-            var46 = var46.3fzj/v;
+            var46 = var46.3fzj/l;
             var46 = var48.bind(var49)(var46);
             var42['accessibilityLabel'] = var46;
             var49 = _closure1_slot23;
@@ -1274,7 +1274,7 @@ case 91:
             var51 = var51[var55];
             var51 = var54.bind(var4)(var51);
             var51 = var51.t;
-            var51 = var51.I5gL2N;
+            var51 = var51.I5gL2H;
             var51 = var52.bind(var53)(var51);
             var48['label'] = var51;
             var52 = var25.gifTag;

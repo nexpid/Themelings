@@ -289,7 +289,7 @@ case 10:
             var30 = var29[var30];
             var30 = var27.bind(var4)(var30);
             var30 = var30.t;
-            var30 = var30.cpT0Cg;
+            var30 = var30.cpT0Cq;
             var30 = var31.bind(var32)(var30);
             var23['accessibilityLabel'] = var30;
             var30 = var17.closeButton;

@@ -1109,7 +1109,7 @@ case 104:
         var6 = var9[var5];
         var6 = var8.bind(var1)(var6);
         var6 = var6.t;
-        var6 = var6.cV3alJ;
+        var6 = var6.cV3alD;
         var6 = var7.bind(var10)(var6);
         var2['title'] = var6;
         var6 = var9[var5];
@@ -1119,7 +1119,7 @@ case 104:
         var5 = var9[var5];
         var5 = var8.bind(var1)(var5);
         var5 = var5.t;
-        var5 = var5.r4Zjzs;
+        var5 = var5.r4Zjzv;
         var5 = var6.bind(var7)(var5);
         var2['body'] = var5;
         var5 = true;

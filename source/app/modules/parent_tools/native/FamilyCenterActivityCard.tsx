@@ -51,7 +51,7 @@ case 0:
             var1 = 12;
             var2 = var14[var1];
             var2 = var8.bind(var4)(var2);
-            var15 = var2.7hqFl5;
+            var15 = var2.7hqFl9;
             var2 = {};
             var20 = var10.length;
             var2['activeLinks'] = var20;
@@ -62,7 +62,7 @@ case 0:
             var19 = var20.formatToPlainString;
             var2 = var14[var1];
             var2 = var8.bind(var4)(var2);
-            var18 = var2.tazvHR;
+            var18 = var2.tazvHQ;
             var2 = {};
             var21 = var10.length;
             var2['activeLinks'] = var21;
@@ -74,7 +74,7 @@ case 0:
             var6 = var7.string;
             var1 = var14[var1];
             var1 = var8.bind(var4)(var1);
-            var1 = var1.KrLnkJ;
+            var1 = var1.KrLnkE;
             var1 = var6.bind(var7)(var1);
             var14 = var3.bind(var5)(var2, var1);
             var3 = _closure1_slot8;
@@ -341,7 +341,7 @@ case 0:
                 var1 = 12;
                 var1 = var8[var1];
                 var1 = var6.bind(var7)(var1);
-                var1 = var1.Wu8BKy;
+                var1 = var1.Wu8BK2;
                 var1 = var4.bind(var5)(var1);
                 var1 = var2.bind(var3)(var1);
                 return var1;
@@ -433,7 +433,7 @@ case 9:
                 var7 = 12;
                 var7 = var11[var7];
                 var7 = var10.bind(var1)(var7);
-                var7 = var7.vORl9f;
+                var7 = var7.vORl9Q;
                 var7 = var8.bind(var9)(var7);
                 var2['title'] = var7;
                 var8 = _closure2_slot3;

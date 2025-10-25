@@ -40,7 +40,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = 3;
         var1 = var6[var1];
         var1 = var4.bind(var5)(var1);
-        var1 = var1.RZqaJi;
+        var1 = var1.RZqaJn;
         var1 = var2.bind(var3)(var1);
         return var1;
     };

@@ -52,7 +52,7 @@ case 6:
             var11 = var15[var11];
             var11 = var14.bind(var5)(var11);
             var11 = var11.t;
-            var11 = var11./TZX1N;
+            var11 = var11./TZX1J;
             var11 = var12.bind(var13)(var11);
             var6['children'] = var11;
             var8 = var10.bind(var5)(var9, var6);
@@ -114,7 +114,7 @@ case 8:
             var24 = var28[var24];
             var24 = var27.bind(var5)(var24);
             var24 = var24.t;
-            var24 = var24.TAuasL;
+            var24 = var24.TAuasM;
             var24 = var25.bind(var26)(var24);
             var21['children'] = var24;
             var21 = var23.bind(var5)(var22, var21);
@@ -216,7 +216,7 @@ case 4:
             var1 = var9[var4];
             var1 = var8.bind(var7)(var1);
             var1 = var1.t;
-            var1 = var1.clE4PT;
+            var1 = var1.clE4PU;
             var1 = var3.bind(var6)(var1);
             var2['label'] = var1;
             var3 = _closure1_slot6;
@@ -234,7 +234,7 @@ case 4:
             var6 = var9[var4];
             var6 = var8.bind(var7)(var6);
             var6 = var6.t;
-            var6 = var6.jcHF+/;
+            var6 = var6.jcHF+3;
             var6 = var10.bind(var11)(var6);
             var2['label'] = var6;
             var10 = var3.SYSTEM_NOTIFICATIONS;
@@ -267,7 +267,7 @@ case 4:
             var5 = var9[var4];
             var5 = var8.bind(var7)(var5);
             var5 = var5.t;
-            var5 = var5.a2O7oa;
+            var5 = var5.a2O7oY;
             var5 = var6.bind(var10)(var5);
             var2['label'] = var5;
             var6 = var3.ANDROID_NOTIFICATION_LIGHTS;
@@ -287,7 +287,7 @@ case 4:
             var5 = var9[var4];
             var5 = var8.bind(var7)(var5);
             var5 = var5.t;
-            var5 = var5.EZorjY;
+            var5 = var5.EZorjX;
             var5 = var6.bind(var10)(var5);
             var2['label'] = var5;
             var6 = var3.FRIEND_STREAM_NOTIFICATIONS;
@@ -331,7 +331,7 @@ case 4:
             var5 = var9[var4];
             var5 = var8.bind(var7)(var5);
             var5 = var5.t;
-            var5 = var5.oWF6eX;
+            var5 = var5.oWF6eQ;
             var5 = var6.bind(var10)(var5);
             var2['subLabel'] = var5;
             var1[10] = var2;
@@ -347,7 +347,7 @@ case 4:
             var5 = var9[var4];
             var5 = var8.bind(var7)(var5);
             var5 = var5.t;
-            var5 = var5.PTtxi4;
+            var5 = var5.PTtxi9;
             var5 = var6.bind(var10)(var5);
             var2['label'] = var5;
             var5 = var9[var4];
@@ -357,7 +357,7 @@ case 4:
             var4 = var9[var4];
             var4 = var8.bind(var7)(var4);
             var4 = var4.t;
-            var4 = var4./+OQEh;
+            var4 = var4./+OQEs;
             var4 = var5.bind(var6)(var4);
             var2['subLabel'] = var4;
             var1[11] = var2;

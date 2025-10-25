@@ -122,7 +122,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = var13[var9];
         var9 = var12.bind(var4)(var9);
         var9 = var9.t;
-        var9 = var9.kMYVws;
+        var9 = var9.kMYVwv;
         var9 = var10.bind(var11)(var9);
         var6['text'] = var9;
         var6 = var8.bind(var4)(var7, var6);

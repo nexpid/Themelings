@@ -208,7 +208,7 @@ case 8:
                     var8 = var12[var8];
                     var8 = var11.bind(var5)(var8);
                     var8 = var8.t;
-                    var8 = var8.ZTNur6;
+                    var8 = var8.ZTNur7;
                     var8 = var9.bind(var10)(var8);
                     var6['name'] = var8;
                     var4 = var7.bind(var5)(var6);
@@ -836,7 +836,7 @@ case 40:
             var14 = var17[var13];
             var14 = var16.bind(var4)(var14);
             var14 = var14.t;
-            var14 = var14.ai6Lbm;
+            var14 = var14.ai6Lbr;
             var14 = var15.bind(var18)(var14);
             var10['title'] = var14;
             var14 = var17[var13];
@@ -846,7 +846,7 @@ case 40:
             var13 = var17[var13];
             var13 = var16.bind(var4)(var13);
             var13 = var13.t;
-            var13 = var13.LTr+x8;
+            var13 = var13.LTr+x9;
             var13 = var14.bind(var15)(var13);
             var10['body'] = var13;
             var10 = var12.bind(var4)(var11, var10);

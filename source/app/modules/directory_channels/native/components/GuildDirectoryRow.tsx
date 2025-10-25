@@ -333,7 +333,7 @@ case 18:
             var1 = var1[var40];
             var1 = var5.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1.VJlc0d;
+            var1 = var1.VJlc0S;
             var12 = var2.bind(var3)(var1);
             if(!var14) { _fun0001_ip = 20; continue _fun0001 }
 case 21:
@@ -346,7 +346,7 @@ case 21:
             var1 = var1[var40];
             var1 = var5.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1.cqWE2d;
+            var1 = var1.cqWE2Z;
             var12 = var2.bind(var3)(var1);
 case 20:
             var3 = _closure1_slot10;
@@ -445,7 +445,7 @@ case 25:
             var34 = var34[var40];
             var34 = var35.bind(var4)(var34);
             var34 = var34.t;
-            var35 = var34.LC+S+v;
+            var35 = var34.LC+S+m;
             var34 = {};
             var34['membersOnline'] = var38;
             var34 = var36.bind(var37)(var35, var34);
@@ -485,7 +485,7 @@ case 27:
             var35 = var35[var40];
             var35 = var36.bind(var4)(var35);
             var35 = var35.t;
-            var36 = var35.zRl6XV;
+            var36 = var35.zRl6XR;
             var35 = {};
             var35['count'] = var39;
             var35 = var37.bind(var38)(var36, var35);

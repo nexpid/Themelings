@@ -295,7 +295,7 @@ case 5:
             var8 = var12[var8];
             var8 = var11.bind(var1)(var8);
             var8 = var8.t;
-            var8 = var8.BddRzc;
+            var8 = var8.BddRzS;
             var8 = var9.bind(var10)(var8);
             var3['text'] = var8;
             var3['onPress'] = var7;
@@ -312,7 +312,7 @@ case 4:
             var8 = var12[var8];
             var8 = var11.bind(var1)(var8);
             var8 = var8.t;
-            var8 = var8.g9tK0t;
+            var8 = var8.g9tK0o;
             var8 = var9.bind(var10)(var8);
             var7['text'] = var8;
             var8 = 'destructive';

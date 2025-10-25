@@ -61,7 +61,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['feedContainer'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot7 = var4;
-    var4 = 15;
+    var4 = 14;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -109,8 +109,9 @@ case 0:
             var3 = 7;
             var3 = var1[var3];
             var4 = var13.bind(var5)(var3);
-            var3 = var4.useColumns;
-            var10 = var3.bind(var4)();
+            var3 = var4.useCardLayout;
+            var3 = var3.bind(var4)();
+            var10 = var3.columns;
             var14 = _closure1_slot3;
             var4 = var14.useMemo;
             var3 = new Array(3);
@@ -203,7 +204,7 @@ case 9:
             var3 = _closure1_slot6;
             var2 = _closure1_slot1;
             var13 = _closure1_slot2;
-            var1 = 14;
+            var1 = 13;
             var1 = var13[var1];
             var2 = var2.bind(var5)(var1);
             var1 = {};
@@ -229,7 +230,7 @@ case 7:
                 var5 = _closure1_slot6;
                 var3 = _closure1_slot1;
                 var4 = _closure1_slot2;
-                var2 = 13;
+                var2 = 12;
                 var2 = var4[var2];
                 var4 = undefined;
                 var3 = var3.bind(var4)(var2);
@@ -282,14 +283,13 @@ case 15:
             var3 = _closure1_slot0;
             var11 = _closure1_slot2;
             var1 = 10;
+            var2 = var11[var1];
+            var2 = var3.bind(var5)(var2);
+            var2 = var2.COLLECTIBLES_SHOP_CARD_HEIGHT;
+            var2 = var2 * var10;
             var1 = var11[var1];
             var1 = var3.bind(var5)(var1);
-            var1 = var1.COLLECTIBLES_SHOP_CARD_HEIGHT;
-            var2 = var1 * var10;
-            var1 = 11;
-            var1 = var11[var1];
-            var1 = var3.bind(var5)(var1);
-            var3 = var1.SHOP_CARD_GAP;
+            var3 = var1.COLLECTIBLES_SHOP_CARD_GAP;
             var1 = 1;
             var1 = var10 - var1;
             var1 = var3 * var1;
@@ -337,7 +337,7 @@ case 17:
             var7[1] = var11;
             var1['style'] = var7;
             var7 = _closure1_slot1;
-            var6 = 12;
+            var6 = 11;
             var6 = var10[var6];
             var7 = var7.bind(var5)(var6);
             var6 = {};

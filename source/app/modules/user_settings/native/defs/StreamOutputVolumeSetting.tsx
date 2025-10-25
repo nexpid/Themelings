@@ -112,7 +112,7 @@ case 11:
         var1 = var6[var1];
         var1 = var5.bind(var4)(var1);
         var1 = var1.t;
-        var1 = var1.pEAl4e;
+        var1 = var1.pEAl4b;
         var1 = var2.bind(var3)(var1);
         return var1;
     };
@@ -242,7 +242,7 @@ case 14:
         var1 = var7[var2];
         var1 = var6.bind(var5)(var1);
         var1 = var1.t;
-        var1 = var1.3182VF;
+        var1 = var1.3182VD;
         var3 = var3.bind(var4)(var1);
         var1 = new Array(2);
         var1[0] = var3;
@@ -253,7 +253,7 @@ case 14:
         var2 = var7[var2];
         var2 = var6.bind(var5)(var2);
         var2 = var2.t;
-        var2 = var2.DGq/PT;
+        var2 = var2.DGq/PR;
         var2 = var3.bind(var4)(var2);
         var1[1] = var2;
         return var1;

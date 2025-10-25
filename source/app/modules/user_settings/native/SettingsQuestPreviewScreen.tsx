@@ -323,7 +323,7 @@ case 0:
                     var1 = var1[var9];
                     var1 = var7.bind(var4)(var1);
                     var1 = var1.t;
-                    var1 = var1.Y9DnPT;
+                    var1 = var1.Y9DnPa;
                     var1 = var3.bind(var6)(var1);
                     var2['label'] = var1;
                     var1 = _closure2_slot4;
@@ -368,7 +368,7 @@ case 17:
                     var6 = var5[var9];
                     var6 = var8.bind(var4)(var6);
                     var6 = var6.t;
-                    var6 = var6.uL4oBQ;
+                    var6 = var6.uL4oBf;
                     var6 = var7.bind(var10)(var6);
                     var2['label'] = var6;
                     var6 = _closure2_slot8;
@@ -385,7 +385,7 @@ case 17:
                     var6 = var5[var9];
                     var6 = var8.bind(var4)(var6);
                     var6 = var6.t;
-                    var6 = var6.MAvIf3;
+                    var6 = var6.MAvIf1;
                     var6 = var7.bind(var10)(var6);
                     var2['label'] = var6;
                     var6 = _closure2_slot6;
@@ -402,7 +402,7 @@ case 17:
                     var5 = var5[var9];
                     var5 = var8.bind(var4)(var5);
                     var5 = var5.t;
-                    var5 = var5.AswoU1;
+                    var5 = var5.AswoU2;
                     var5 = var6.bind(var7)(var5);
                     var2['label'] = var5;
                     var3 = _closure2_slot7;

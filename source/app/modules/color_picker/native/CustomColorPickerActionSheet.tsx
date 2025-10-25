@@ -451,7 +451,7 @@ case 14:
             var16 = var24[var16];
             var16 = var25.bind(var4)(var16);
             var16 = var16.t;
-            var16 = var16.ozfa/v;
+            var16 = var16.ozfa/h;
             var16 = var21.bind(var22)(var16);
             var8['accessibilityLabel'] = var16;
             var8['value'] = var19;

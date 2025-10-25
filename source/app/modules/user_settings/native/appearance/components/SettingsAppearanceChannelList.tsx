@@ -207,7 +207,7 @@ case 8:
             var6 = var18[var6];
             var6 = var17.bind(var4)(var6);
             var6 = var6.t;
-            var6 = var6.iGxm39;
+            var6 = var6.iGxm3x;
             var6 = var8.bind(var12)(var6);
             var1['accessibilityLabel'] = var6;
             var6 = null;

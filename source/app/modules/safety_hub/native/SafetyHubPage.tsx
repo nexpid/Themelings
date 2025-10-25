@@ -64,7 +64,7 @@ case 8:
                     var3 = var6[var3];
                     var3 = var5.bind(var4)(var3);
                     var3 = var3.t;
-                    var3 = var3.nhhy/f;
+                    var3 = var3.nhhy/R;
                     var3 = var7.bind(var8)(var3);
                     var1['message'] = var3;
                     var3 = 9;
@@ -87,7 +87,7 @@ case 6:
                     var3 = var6[var3];
                     var3 = var5.bind(var4)(var3);
                     var3 = var3.t;
-                    var3 = var3.40R63t;
+                    var3 = var3.40R63o;
                     var3 = var7.bind(var8)(var3);
                     var1['message'] = var3;
                     var3 = 9;
@@ -110,7 +110,7 @@ case 4:
                     var3 = var6[var3];
                     var3 = var5.bind(var4)(var3);
                     var3 = var3.t;
-                    var3 = var3.4sILBQ;
+                    var3 = var3.4sILBU;
                     var3 = var7.bind(var8)(var3);
                     var1['message'] = var3;
                     var3 = 9;
@@ -133,7 +133,7 @@ case 2:
                     var2 = var5[var2];
                     var2 = var4.bind(var3)(var2);
                     var2 = var2.t;
-                    var6 = var2.hyh4lp;
+                    var6 = var2.hyh4ls;
                     var2 = {};
                     var9 = function loginHook(arg1) {
                         var4 = _closure1_slot12;

@@ -78,7 +78,7 @@ case 3:
             var1 = var9[var1];
             var1 = var3.bind(var8)(var1);
             var1 = var1.t;
-            var3 = var1.J9Lu4u;
+            var3 = var1.J9Lu4h;
             var1 = {};
             var1['hours'] = var7;
             var1 = var4.bind(var5)(var3, var1);
@@ -94,7 +94,7 @@ case 2:
             var2 = var9[var2];
             var2 = var3.bind(var8)(var2);
             var2 = var2.t;
-            var3 = var2.Cz1G9/;
+            var3 = var2.Cz1G97;
             var2 = {};
             var6 = var7 / var6;
             var2['days'] = var6;
@@ -136,17 +136,17 @@ case 4:
         var3 = var10[var1];
         var3 = var6.bind(var9)(var3);
         var3 = var3.t;
-        var3 = var3.fYmir6;
+        var3 = var3.fYmirx;
         var8['days'] = var3;
         var3 = var10[var1];
         var3 = var6.bind(var9)(var3);
         var3 = var3.t;
-        var3 = var3.C3RO+v;
+        var3 = var3.C3RO+g;
         var8['hours'] = var3;
         var3 = var10[var1];
         var3 = var6.bind(var9)(var3);
         var3 = var3.t;
-        var3 = var3.r77oHR;
+        var3 = var3.r77oHc;
         var8['minutes'] = var3;
         var5 = 3;
         var3 = var10[var5];
@@ -167,7 +167,7 @@ case 4:
         var1 = var10[var1];
         var1 = var6.bind(var9)(var1);
         var1 = var1.t;
-        var2 = var1.4SqnVF;
+        var2 = var1.4SqnVD;
         var1 = {};
         var5 = var10[var5];
         var6 = var6.bind(var9)(var5);

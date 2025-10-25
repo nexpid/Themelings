@@ -74,7 +74,7 @@ case 3:
             var2 = var9[var2];
             var2 = var8.bind(var4)(var2);
             var2 = var2.t;
-            var2 = var2.qE9nqK;
+            var2 = var2.qE9nqE;
             var7 = var3.bind(var7)(var2);
             _fun0001_ip = 4; continue _fun0001;
 case 2:
@@ -88,7 +88,7 @@ case 2:
             var2 = var10[var2];
             var2 = var9.bind(var4)(var2);
             var2 = var2.t;
-            var2 = var2.3dIn2N;
+            var2 = var2.3dIn2A;
             var7 = var3.bind(var8)(var2);
 case 4:
             var3 = _closure1_slot4;
@@ -107,7 +107,7 @@ case 4:
             var8 = var12[var8];
             var8 = var11.bind(var4)(var8);
             var8 = var8.t;
-            var8 = var8.eY3qHR;
+            var8 = var8.eY3qHd;
             var8 = var9.bind(var10)(var8);
             var1['title'] = var8;
             var1['body'] = var7;

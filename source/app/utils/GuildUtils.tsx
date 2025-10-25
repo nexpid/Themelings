@@ -201,7 +201,7 @@ case 20:
             var2 = var11[var2];
             var2 = var3.bind(var6)(var2);
             var2 = var2.t;
-            var3 = var2.Y6Qfjo;
+            var3 = var2.Y6Qfju;
             var2 = {};
             var6 = var10;
             if(!(var8 != var7)) { _fun0005_ip = 21; continue _fun0005 }

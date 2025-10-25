@@ -191,7 +191,7 @@ case 2:
             var6 = var18[var24];
             var6 = var13.bind(var4)(var6);
             var6 = var6.t;
-            var6 = var6.Gpyp/f;
+            var6 = var6.Gpyp/e;
             var6 = var11.bind(var12)(var6);
             var5['accessibilityHint'] = var6;
             var6 = {};
@@ -275,7 +275,7 @@ case 6:
             var22 = var20[var24];
             var22 = var23.bind(var4)(var22);
             var22 = var22.t;
-            var25 = var22.zRl6XV;
+            var25 = var22.zRl6XR;
             var22 = {};
             var22['count'] = var28;
             var22 = var26.bind(var27)(var25, var22);

@@ -180,7 +180,7 @@ case 2:
         var10 = var14[var10];
         var10 = var13.bind(var4)(var10);
         var10 = var10.t;
-        var10 = var10.0zk2sb;
+        var10 = var10.0zk2sS;
         var10 = var11.bind(var12)(var10);
         var6['accessibilityLabel'] = var10;
         var9 = var9.marginOverrides;

@@ -181,7 +181,7 @@ case 7:
             var26 = var30[var26];
             var26 = var29.bind(var4)(var26);
             var26 = var26.t;
-            var26 = var26.XioBx8;
+            var26 = var26.XioBx6;
             var18 = var27.bind(var28)(var26);
 case 6:
             var5['children'] = var18;
@@ -209,7 +209,7 @@ case 9:
             var24 = var29[var24];
             var24 = var28.bind(var4)(var24);
             var24 = var24.t;
-            var24 = var24./k/L/v;
+            var24 = var24./k/L/j;
             var21 = var26.bind(var27)(var24);
 case 8:
             var13['children'] = var21;
@@ -288,7 +288,7 @@ case 13:
             var18 = var18[var21];
             var18 = var22.bind(var4)(var18);
             var18 = var18.t;
-            var18 = var18.edQ5vb;
+            var18 = var18.edQ5va;
             var18 = var19.bind(var20)(var18);
             var8['subLabel'] = var18;
             var6 = var17.bind(var4)(var13, var8);
@@ -311,7 +311,7 @@ case 12:
             var17 = var19[var21];
             var17 = var18.bind(var4)(var17);
             var17 = var17.t;
-            var18 = var17.2bprX1;
+            var18 = var17.2bprXx;
             var17 = {};
             var23 = _closure1_slot5;
             var23 = var23.GUIDELINES;
@@ -349,7 +349,7 @@ case 15:
             var17 = var17[var21];
             var17 = var20.bind(var4)(var17);
             var17 = var17.t;
-            var17 = var17.O0p/lZ;
+            var17 = var17.O0p/lS;
             var16 = var18.bind(var19)(var17);
 case 14:
             var6['text'] = var16;

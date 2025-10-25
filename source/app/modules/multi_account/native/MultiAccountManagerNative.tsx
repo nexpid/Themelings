@@ -127,7 +127,7 @@ case 4:
                 var5 = var7[var5];
                 var5 = var8.bind(var1)(var5);
                 var5 = var5.t;
-                var8 = var5.wx7O3N;
+                var8 = var5.wx7O3L;
                 var5 = {};
                 var11 = _closure2_slot0;
                 var11 = var11.username;
@@ -167,7 +167,7 @@ case 4:
         var5 = var7[var5];
         var5 = var10.bind(var1)(var5);
         var5 = var5.t;
-        var5 = var5.pqvKWF;
+        var5 = var5.pqvKWA;
         var5 = var8.bind(var9)(var5);
         var2['content'] = var5;
         var5 = 9;

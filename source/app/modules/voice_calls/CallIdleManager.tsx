@@ -127,7 +127,7 @@ case 18:
             var2 = var5[var2];
             var2 = var9.bind(var1)(var2);
             var2 = var2.t;
-            var9 = var2.XYof5O;
+            var9 = var2.XYof5G;
             var2 = {};
             var12 = 3;
             var2['number'] = var12;

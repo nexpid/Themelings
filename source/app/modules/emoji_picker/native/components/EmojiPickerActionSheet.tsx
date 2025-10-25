@@ -427,7 +427,7 @@ case 32:
                     var11 = var14[var10];
                     var11 = var13.bind(var2)(var11);
                     var11 = var11.t;
-                    var11 = var11.wHTk2N;
+                    var11 = var11.wHTk2C;
                     var11 = var12.bind(var15)(var11);
                     var6['children'] = var11;
                     var8 = var9.bind(var2)(var8, var6);
@@ -444,7 +444,7 @@ case 32:
                     var10 = var14[var10];
                     var10 = var13.bind(var2)(var10);
                     var10 = var10.t;
-                    var10 = var10.VrWSNj;
+                    var10 = var10.VrWSNn;
                     var10 = var11.bind(var12)(var10);
                     var7['children'] = var10;
                     var7 = var9.bind(var2)(var8, var7);

@@ -75,7 +75,7 @@ case 2:
             var1 = var8[var9];
             var1 = var12.bind(var6)(var1);
             var1 = var1.t;
-            var1 = var1.RDE0SU;
+            var1 = var1.RDE0Sc;
             var1 = var5.bind(var7)(var1);
             var2['label'] = var1;
             var7 = _closure1_slot1;
@@ -130,7 +130,7 @@ case 7:
                         var7 = var11[var7];
                         var7 = var8.bind(var13)(var7);
                         var7 = var7.t;
-                        var8 = var7.+zWvOT;
+                        var8 = var7.+zWvOQ;
                         var7 = {};
                         var12 = _closure1_slot5;
                         var11 = var12.getCurrentUser;
@@ -186,7 +186,7 @@ case 12:
             var10 = var8[var9];
             var10 = var12.bind(var6)(var10);
             var10 = var10.t;
-            var10 = var10.OpuAlJ;
+            var10 = var10.OpuAlK;
             var10 = var11.bind(var13)(var10);
             var2['label'] = var10;
             var10 = var8[var5];
@@ -249,7 +249,7 @@ case 16:
             var9 = var8[var9];
             var9 = var12.bind(var6)(var9);
             var9 = var9.t;
-            var9 = var9.v6Yaz8;
+            var9 = var9.v6Yazx;
             var9 = var10.bind(var11)(var9);
             var2['label'] = var9;
             var5 = var8[var5];
@@ -315,7 +315,7 @@ case 25: // catch_target0
                         var5 = var10[var5];
                         var5 = var8.bind(var9)(var5);
                         var5 = var5.t;
-                        var5 = var5.CKsXk5;
+                        var5 = var5.CKsXk3;
                         var5 = var6.bind(var7)(var5);
                         var2['content'] = var5;
                         var2 = var3.bind(var4)(var2);

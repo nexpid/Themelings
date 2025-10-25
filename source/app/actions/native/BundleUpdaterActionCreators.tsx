@@ -47,7 +47,7 @@ case 3:
             var6 = var10[var5];
             var6 = var8.bind(var9)(var6);
             var6 = var6.t;
-            var6 = var6.GQZdmJ;
+            var6 = var6.GQZdmI;
             var6 = var7.bind(var11)(var6);
             var1['title'] = var6;
             var6 = var10[var5];
@@ -57,7 +57,7 @@ case 3:
             var6 = var10[var5];
             var6 = var8.bind(var9)(var6);
             var6 = var6.t;
-            var6 = var6.Fizu9/;
+            var6 = var6.Fizu9y;
             var6 = var7.bind(var11)(var6);
             var1['body'] = var6;
             var6 = var10[var5];
@@ -67,7 +67,7 @@ case 3:
             var6 = var10[var5];
             var6 = var8.bind(var9)(var6);
             var6 = var6.t;
-            var6 = var6.UefCDQ;
+            var6 = var6.UefCDS;
             var6 = var7.bind(var11)(var6);
             var1['confirmText'] = var6;
             var6 = var10[var5];
@@ -77,7 +77,7 @@ case 3:
             var5 = var10[var5];
             var5 = var8.bind(var9)(var5);
             var5 = var5.t;
-            var5 = var5.1SzcGx;
+            var5 = var5.1SzcG6;
             var5 = var6.bind(var7)(var5);
             var1['cancelText'] = var5;
             var5 = function onConfirm() {

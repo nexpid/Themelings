@@ -156,7 +156,7 @@ case 4:
             var7 = var14[var10];
             var7 = var13.bind(var5)(var7);
             var7 = var7.t;
-            var7 = var7.NuzmOD;
+            var7 = var7.NuzmOA;
             var9 = var9.bind(var16)(var7);
             var7 = 'confirmText';
             var2[var7] = var9;
@@ -203,7 +203,7 @@ case 4:
             var15 = var14[var10];
             var15 = var13.bind(var5)(var15);
             var15 = var15.t;
-            var16 = var15.7hhNEh;
+            var16 = var15.7hhNEn;
             var15 = {};
             var19 = var19.name;
             var15['guildName'] = var19;

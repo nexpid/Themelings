@@ -94,7 +94,7 @@ case 3:
             var8 = var12[var8];
             var8 = var7.bind(var5)(var8);
             var8 = var8.t;
-            var8 = var8.CxyS19;
+            var8 = var8.CxyS15;
             var8 = var13.bind(var14)(var8);
             var2['title'] = var8;
             var8 = _closure1_slot11;
@@ -428,7 +428,7 @@ case 28:
             var14 = var13[var14];
             var14 = var7.bind(var5)(var14);
             var14 = var14.t;
-            var14 = var14.q22XnZ;
+            var14 = var14.q22XnQ;
             var14 = var15.bind(var16)(var14);
             var2['title'] = var14;
             var8 = var8.sectionContainer;
@@ -488,7 +488,7 @@ case 29:
                     var3 = var9[var3];
                     var3 = var8.bind(var6)(var3);
                     var3 = var3.t;
-                    var3 = var3.Nfvo7+;
+                    var3 = var3.Nfvo72;
                     var3 = var4.bind(var5)(var3);
                     var1['label'] = var3;
                     var3 = 'xbox';
@@ -666,7 +666,7 @@ case 33:
             var9 = var12[var9];
             var9 = var15.bind(var5)(var9);
             var9 = var9.t;
-            var9 = var9.iwxPMz;
+            var9 = var9.iwxPM3;
             var9 = var10.bind(var11)(var9);
             var6['title'] = var9;
             var6 = var8.bind(var5)(var7, var6);

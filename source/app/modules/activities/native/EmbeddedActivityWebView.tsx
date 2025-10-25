@@ -1013,7 +1013,7 @@ case 31:
                     var8 = var11[var7];
                     var8 = var10.bind(var5)(var8);
                     var8 = var8.t;
-                    var8 = var8.PtobXV;
+                    var8 = var8.PtobXW;
                     var8 = var9.bind(var12)(var8);
                     var2['title'] = var8;
                     var8 = var11[var7];
@@ -1023,7 +1023,7 @@ case 31:
                     var8 = var11[var7];
                     var8 = var10.bind(var5)(var8);
                     var8 = var8.t;
-                    var8 = var8.55iAUV;
+                    var8 = var8.55iAUT;
                     var8 = var9.bind(var12)(var8);
                     var2['body'] = var8;
                     var8 = var11[var7];
@@ -1033,7 +1033,7 @@ case 31:
                     var7 = var11[var7];
                     var7 = var10.bind(var5)(var7);
                     var7 = var7.t;
-                    var7 = var7.BddRzc;
+                    var7 = var7.BddRzS;
                     var7 = var8.bind(var9)(var7);
                     var2['confirmText'] = var7;
                     var2 = var3.bind(var6)(var2);

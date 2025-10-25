@@ -640,7 +640,7 @@ case 30:
                 var5 = var9[var5];
                 var5 = var8.bind(var1)(var5);
                 var5 = var5.t;
-                var5 = var5.O8lDIy;
+                var5 = var5.O8lDI2;
                 var5 = var6.bind(var7)(var5);
                 var2['content'] = var5;
                 var2 = var3.bind(var4)(var2);
@@ -674,7 +674,7 @@ case 30:
             var28 = var33[var28];
             var28 = var32.bind(var4)(var28);
             var28 = var28.t;
-            var28 = var28.B/vjCg;
+            var28 = var28.B/vjCu;
             var28 = var30.bind(var31)(var28);
             var24['children'] = var28;
             var24 = var27.bind(var4)(var25, var24);
@@ -720,7 +720,7 @@ case 33:
             var25 = var30[var25];
             var25 = var26.bind(var4)(var25);
             var25 = var25.t;
-            var26 = var25.QCNv6O;
+            var26 = var25.QCNv6P;
             var25 = {};
             var30 = var29.presenceCount;
             var25['online'] = var30;

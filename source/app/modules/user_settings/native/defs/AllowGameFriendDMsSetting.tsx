@@ -37,7 +37,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var6[var1];
         var1 = var5.bind(var4)(var1);
         var1 = var1.t;
-        var1 = var1.XpBObG;
+        var1 = var1.XpBObB;
         var1 = var2.bind(var3)(var1);
         return var1;
     };
@@ -67,7 +67,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var6[var1];
         var1 = var5.bind(var4)(var1);
         var1 = var1.t;
-        var1 = var1.XpBObG;
+        var1 = var1.XpBObB;
         var2 = var2.bind(var3)(var1);
         var1 = new Array(1);
         var1[0] = var2;

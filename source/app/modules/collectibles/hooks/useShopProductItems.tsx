@@ -237,7 +237,7 @@ case 0:
             var3 = var9[var2];
             var3 = var8.bind(var1)(var3);
             var3 = var3.t;
-            var3 = var3.wR5wOj;
+            var3 = var3.wR5wOo;
             var5 = var4.bind(var5)(var3);
             var3 = var9[var2];
             var3 = var8.bind(var1)(var3);
@@ -246,7 +246,7 @@ case 0:
             var2 = var9[var2];
             var2 = var8.bind(var1)(var2);
             var2 = var2.t;
-            var2 = var2.x5CoXV;
+            var2 = var2.x5CoXR;
             var11 = var3.bind(var4)(var2);
             var9 = var7.bundledProducts;
             var8 = null;

@@ -55,7 +55,7 @@ case 7:
             var2 = var11[var2];
             var2 = var3.bind(var5)(var2);
             var2 = var2.t;
-            var3 = var2.2p7dAw;
+            var3 = var2.2p7dA3;
             var2 = {};
             var2['description'] = var8;
             var11 = global;
@@ -81,7 +81,7 @@ case 5:
             var2 = var11[var2];
             var2 = var3.bind(var5)(var2);
             var2 = var2.t;
-            var3 = var2.2p7dAw;
+            var3 = var2.2p7dA3;
             var2 = {};
             var2['description'] = var8;
             var8 = global;
@@ -917,7 +917,7 @@ case 55:
             var2 = var8[var2];
             var2 = var3.bind(var4)(var2);
             var2 = var2.t;
-            var3 = var2.D7uftL;
+            var3 = var2.D7uftB;
             var2 = {};
             var30 = var6.bind(var7)(var3, var2);
             _fun0004_ip = 56; continue _fun0004;
@@ -932,7 +932,7 @@ case 54:
             var2 = var8[var2];
             var2 = var3.bind(var4)(var2);
             var2 = var2.t;
-            var3 = var2.0eBj39;
+            var3 = var2.0eBj3x;
             var2 = {};
             var30 = var6.bind(var7)(var3, var2);
 case 56:
@@ -948,7 +948,7 @@ case 50:
             var2 = var8[var2];
             var2 = var7.bind(var4)(var2);
             var2 = var2.t;
-            var2 = var2.jDym4O;
+            var2 = var2.jDym4E;
             var30 = var3.bind(var6)(var2);
 case 57:
             var3 = _closure1_slot17;
@@ -1177,7 +1177,7 @@ case 73:
             var24 = var23[var24];
             var24 = var27.bind(var4)(var24);
             var24 = var24.t;
-            var24 = var24.hgKDnJ;
+            var24 = var24.hgKDnG;
             var24 = var25.bind(var26)(var24);
             var18['text'] = var24;
             var21 = var23[var21];

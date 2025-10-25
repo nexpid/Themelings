@@ -187,7 +187,7 @@ case 12:
             var4 = var23[var4];
             var4 = var22.bind(var5)(var4);
             var4 = var4.t;
-            var4 = var4.Uv4OPT;
+            var4 = var4.Uv4OPR;
             var12 = var20.bind(var21)(var4);
 case 11:
             var4 = var16.hasUniqueUsername;

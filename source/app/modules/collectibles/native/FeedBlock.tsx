@@ -230,7 +230,7 @@ case 0:
             var18 = var18[var22];
             var18 = var23.bind(var4)(var18);
             var18 = var18.t;
-            var18 = var18.ivaAAw;
+            var18 = var18.ivaAA7;
             var18 = var20.bind(var21)(var18);
             var6['children'] = var18;
             var7 = var16.bind(var4)(var7, var6);
@@ -255,7 +255,7 @@ case 3:
             var21 = var21[var22];
             var21 = var25.bind(var4)(var21);
             var21 = var21.t;
-            var21 = var21.xFcotb;
+            var21 = var21.xFcotU;
             var21 = var23.bind(var24)(var21);
             var16['text'] = var21;
             var21 = 'primary';
@@ -300,7 +300,7 @@ case 2:
             var14 = var18[var22];
             var14 = var21.bind(var4)(var14);
             var14 = var14.t;
-            var14 = var14.Yr70c3;
+            var14 = var14.Yr70c4;
             var14 = var20.bind(var23)(var14);
             var9['children'] = var14;
             var13 = var16.bind(var4)(var13, var9);
@@ -319,7 +319,7 @@ case 2:
             var18 = var18[var22];
             var18 = var21.bind(var4)(var18);
             var18 = var18.t;
-            var18 = var18.AfrvRE;
+            var18 = var18.AfrvRD;
             var18 = var19.bind(var20)(var18);
             var13['text'] = var18;
             var18 = 'primary';

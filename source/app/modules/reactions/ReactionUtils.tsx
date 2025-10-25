@@ -87,19 +87,19 @@ case 0:
 case 6:
             if(var1) { _fun0002_ip = 7; continue _fun0002 }
 case 8:
-            var4 = var2.PirBBA;
+            var4 = var2.PirBBE;
             _fun0002_ip = 9; continue _fun0002;
 case 7:
-            var4 = var2.CLuzw8;
+            var4 = var2.CLuzw5;
 case 9:
             _fun0002_ip = 10; continue _fun0002;
 case 5:
             if(var1) { _fun0002_ip = 11; continue _fun0002 }
 case 12:
-            var1 = var2.Z/l+qq;
+            var1 = var2.Z/l+qu;
             _fun0002_ip = 13; continue _fun0002;
 case 11:
-            var1 = var2.i9DXqK;
+            var1 = var2.i9DXqM;
 case 13:
             var4 = var1;
 case 10:

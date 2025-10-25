@@ -123,7 +123,7 @@ case 19: // catch_target0
                         var3 = var9[var3];
                         var3 = var8.bind(var2)(var3);
                         var3 = var3.t;
-                        var3 = var3.R0RpRU;
+                        var3 = var3.R0RpRX;
                         var3 = var6.bind(var7)(var3);
                         var3 = var4.bind(var5)(var3);
 case 18:
@@ -168,7 +168,7 @@ case 27:
             var1 = var11[var1];
             var1 = var10.bind(var5)(var1);
             var1 = var1.t;
-            var1 = var1.R0RpRU;
+            var1 = var1.R0RpRX;
             var1 = var8.bind(var9)(var1);
             var1 = var4.bind(var7)(var1);
             var1 = var3.pop;
@@ -202,7 +202,7 @@ case 26:
             var15 = var16[var15];
             var15 = var14.bind(var5)(var15);
             var15 = var15.t;
-            var15 = var15.Lg8WEx;
+            var15 = var15.Lg8WE2;
             var15 = var17.bind(var18)(var15);
             var9['label'] = var15;
             var15 = _closure1_slot10;
@@ -356,7 +356,7 @@ case 31:
             var8 = var11[var7];
             var8 = var10.bind(var5)(var8);
             var8 = var8.t;
-            var8 = var8.qAMb9P;
+            var8 = var8.qAMb9K;
             var8 = var9.bind(var12)(var8);
             var1['title'] = var8;
             var8 = var11[var7];
@@ -366,7 +366,7 @@ case 31:
             var7 = var11[var7];
             var7 = var10.bind(var5)(var7);
             var7 = var7.t;
-            var7 = var7.pRuzXF;
+            var7 = var7.pRuzXJ;
             var7 = var8.bind(var9)(var7);
             var1['description'] = var7;
             var7 = true;

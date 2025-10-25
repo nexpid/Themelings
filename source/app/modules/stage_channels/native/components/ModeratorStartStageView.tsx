@@ -202,7 +202,7 @@ case 5:
             var23 = var26[var22];
             var23 = var25.bind(var5)(var23);
             var23 = var23.t;
-            var23 = var23.QGnDLi;
+            var23 = var23.QGnDLs;
             var23 = var24.bind(var27)(var23);
             var7['children'] = var23;
             var7 = var19.bind(var5)(var18, var7);
@@ -221,7 +221,7 @@ case 5:
             var22 = var26[var22];
             var22 = var25.bind(var5)(var22);
             var22 = var22.t;
-            var22 = var22.s/uXzs;
+            var22 = var22.s/uXzq;
             var22 = var23.bind(var24)(var22);
             var7['children'] = var22;
             var7 = var19.bind(var5)(var18, var7);

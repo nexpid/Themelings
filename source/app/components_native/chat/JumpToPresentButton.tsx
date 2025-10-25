@@ -378,11 +378,11 @@ case 18:
                 var11 = var11.t;
                 if(var10) { _fun0004_ip = 24; continue _fun0004 }
 case 25:
-                var10 = var11.gpoQsL;
+                var10 = var11.gpoQsB;
                 var10 = var12.bind(var13)(var10);
                 _fun0004_ip = 26; continue _fun0004;
 case 24:
-                var11 = var11.dpjpOj;
+                var11 = var11.dpjpOp;
                 var10 = var12.bind(var13)(var11);
 case 26:
                 var6['accessibilityLabel'] = var10;

@@ -315,7 +315,7 @@ case 36:
             var9 = var9[var19];
             var9 = var15.bind(var4)(var9);
             var9 = var9.t;
-            var9 = var9.3fzj/v;
+            var9 = var9.3fzj/l;
             var9 = var12.bind(var13)(var9);
             var5['accessibilityLabel'] = var9;
             var12 = var6.bind(var4)();
@@ -339,7 +339,7 @@ case 38:
             var15 = var15[var19];
             var15 = var18.bind(var4)(var15);
             var15 = var15.t;
-            var15 = var15.I5gL2N;
+            var15 = var15.I5gL2H;
             var15 = var16.bind(var17)(var15);
             var11['label'] = var15;
             var15 = var14.gifTag;

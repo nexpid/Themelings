@@ -167,7 +167,7 @@ case 5:
             var7 = var13.bind(var14)(var10, var7);
             _fun0001_ip = 6; continue _fun0001;
 case 4:
-            var10 = var8.yl24GR;
+            var10 = var8.yl24Gd;
             var8 = {};
             var15 = var1.name;
             var8['applicationName'] = var15;

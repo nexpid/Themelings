@@ -535,7 +535,7 @@ case 31:
                         var6 = var10[var5];
                         var6 = var8.bind(var9)(var6);
                         var6 = var6.t;
-                        var6 = var6.YWMtRU;
+                        var6 = var6.YWMtRe;
                         var6 = var7.bind(var11)(var6);
                         var2['title'] = var6;
                         var6 = var10[var5];
@@ -575,7 +575,7 @@ case 31:
                         var6 = var10[var5];
                         var6 = var8.bind(var9)(var6);
                         var6 = var6.t;
-                        var6 = var6.eW8Gy8;
+                        var6 = var6.eW8Gy4;
                         var6 = var7.bind(var11)(var6);
                         var2['confirmText'] = var6;
                         var6 = var10[var5];
@@ -585,7 +585,7 @@ case 31:
                         var5 = var10[var5];
                         var5 = var8.bind(var9)(var5);
                         var5 = var5.t;
-                        var5 = var5.s4uM3d;
+                        var5 = var5.s4uM3b;
                         var5 = var6.bind(var7)(var5);
                         var2['cancelText'] = var5;
                         var5 = function onConfirm() {
@@ -827,7 +827,7 @@ case 44:
                 var18 = var18[var23];
                 var18 = var22.bind(var4)(var18);
                 var18 = var18.t;
-                var18 = var18.GSfOoq;
+                var18 = var18.GSfOoo;
                 var18 = var20.bind(var21)(var18);
                 _fun0010_ip = 45; continue _fun0010;
 case 43:

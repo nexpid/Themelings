@@ -142,7 +142,7 @@ case 8:
             var1 = var6[var1];
             var1 = var5.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1.8MPCVl;
+            var1 = var1.8MPCVr;
             var7 = var2.bind(var3)(var1);
             _fun0001_ip = 9; continue _fun0001;
 case 7:
@@ -156,7 +156,7 @@ case 7:
             var1 = var6[var1];
             var1 = var5.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1.WtOReX;
+            var1 = var1.WtORed;
             var7 = var2.bind(var3)(var1);
 case 9:
             var3 = _closure1_slot7;
@@ -286,7 +286,7 @@ case 12:
             var13 = var17[var13];
             var13 = var16.bind(var4)(var13);
             var13 = var13.t;
-            var13 = var13.TyCVIi;
+            var13 = var13.TyCVIq;
             var13 = var14.bind(var15)(var13);
             var11['text'] = var13;
             var11 = var3.bind(var4)(var12, var11);

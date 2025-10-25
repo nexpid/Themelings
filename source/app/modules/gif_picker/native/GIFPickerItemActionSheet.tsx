@@ -222,7 +222,7 @@ case 5:
                     var10 = var7[var10];
                     var10 = var6.bind(var1)(var10);
                     var10 = var10.t;
-                    var10 = var10.okQonp;
+                    var10 = var10.okQonm;
                     var10 = var11.bind(var12)(var10);
                     var4['content'] = var10;
                     var10 = 12;
@@ -253,7 +253,7 @@ case 4:
                     var5 = var7[var5];
                     var5 = var6.bind(var1)(var5);
                     var5 = var5.t;
-                    var5 = var5.in1rgY;
+                    var5 = var5.in1rga;
                     var5 = var8.bind(var9)(var5);
                     var2['content'] = var5;
                     var5 = 12;
@@ -306,11 +306,11 @@ case 7:
                     var6 = var6.t;
                     if(var5) { _fun0003_ip = 9; continue _fun0003 }
 case 10:
-                    var5 = var6.nIH0v7;
+                    var5 = var6.nIH0v8;
                     var5 = var7.bind(var8)(var5);
                     _fun0003_ip = 11; continue _fun0003;
 case 9:
-                    var6 = var6.5/NS7+;
+                    var6 = var6.5/NS74;
                     var5 = var7.bind(var8)(var6);
 case 11:
                     var1['text'] = var5;

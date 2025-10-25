@@ -225,7 +225,7 @@ case 6:
         var17 = var19[var15];
         var17 = var18.bind(var4)(var17);
         var17 = var17.t;
-        var17 = var17.iXAna2;
+        var17 = var17.iXAna6;
         var17 = var20.bind(var21)(var17);
         var10['label'] = var17;
         var10['onPress'] = var16;
@@ -243,7 +243,7 @@ case 6:
         var15 = var19[var15];
         var15 = var18.bind(var4)(var15);
         var15 = var15.t;
-        var15 = var15.KUsDND;
+        var15 = var15.KUsDNI;
         var15 = var16.bind(var17)(var15);
         var11['label'] = var15;
         var11['onPress'] = var13;

@@ -87,7 +87,7 @@ case 3:
             var8 = var12[var8];
             var8 = var11.bind(var4)(var8);
             var8 = var8.t;
-            var8 = var8.eP8yWV;
+            var8 = var8.eP8yWU;
             var7 = var9.bind(var10)(var8);
 case 2:
             var1['disabledMentionOnlyWithReason'] = var7;

@@ -58,7 +58,7 @@ case 0:
             var11 = var14[var23];
             var11 = var15.bind(var4)(var11);
             var11 = var11.t;
-            var11 = var11.Tqd1AQ;
+            var11 = var11.Tqd1Af;
             var11 = var12.bind(var13)(var11);
             var8['children'] = var11;
             var9 = var10.bind(var4)(var9, var8);
@@ -159,7 +159,7 @@ case 4:
             var19 = var19[var23];
             var19 = var22.bind(var4)(var19);
             var19 = var19.t;
-            var19 = var19.yxiV9f;
+            var19 = var19.yxiV9W;
             var20 = var20.bind(var21)(var19);
             var19 = new Array(2);
             var19[0] = var20;

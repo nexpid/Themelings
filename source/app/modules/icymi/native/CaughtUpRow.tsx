@@ -662,7 +662,7 @@ case 17:
         var17 = var14[var19];
         var17 = var10.bind(var4)(var17);
         var17 = var17.t;
-        var17 = var17.xjxffn;
+        var17 = var17.xjxffq;
         var17 = var23.bind(var24)(var17);
         var15['children'] = var17;
         var15 = var8.bind(var4)(var16, var15);
@@ -680,7 +680,7 @@ case 17:
         var17 = var14[var19];
         var17 = var10.bind(var4)(var17);
         var17 = var17.t;
-        var17 = var17.sAApb2;
+        var17 = var17.sAApb0;
         var17 = var22.bind(var23)(var17);
         var15['children'] = var17;
         var15 = var8.bind(var4)(var16, var15);
@@ -704,7 +704,7 @@ case 17:
         var22 = var14[var19];
         var22 = var10.bind(var4)(var22);
         var22 = var22.t;
-        var22 = var22.lNJYV1;
+        var22 = var22.lNJYV8;
         var22 = var23.bind(var24)(var22);
         var15['text'] = var22;
         var15['onPress'] = var21;
@@ -723,7 +723,7 @@ case 17:
         var19 = var14[var19];
         var19 = var10.bind(var4)(var19);
         var19 = var19.t;
-        var19 = var19.AGrUbm;
+        var19 = var19.AGrUbj;
         var19 = var20.bind(var21)(var19);
         var16['text'] = var19;
         var16['onPress'] = var18;

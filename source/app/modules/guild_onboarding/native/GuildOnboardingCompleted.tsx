@@ -707,7 +707,7 @@ case 20:
             var21 = var14[var32];
             var21 = var15.bind(var5)(var21);
             var21 = var21.t;
-            var21 = var21.PFWIYW;
+            var21 = var21.PFWIYe;
             var21 = var27.bind(var34)(var21);
             var13['children'] = var21;
             var16 = var20.bind(var5)(var16, var13);
@@ -735,7 +735,7 @@ case 22:
             var17 = var19[var32];
             var17 = var20.bind(var5)(var17);
             var17 = var17.t;
-            var17 = var17.og4NNj;
+            var17 = var17.og4NNr;
             var17 = var21.bind(var27)(var17);
             var14['children'] = var17;
             var14 = var16.bind(var5)(var15, var14);
@@ -794,7 +794,7 @@ case 25:
             var31 = var31[var32];
             var31 = var34.bind(var5)(var31);
             var31 = var31.t;
-            var34 = var31.l1Jc1t;
+            var34 = var31.l1Jc1n;
             var31 = {};
             var31['numSharedRoleMembers'] = var39;
             var31 = var35.bind(var38)(var34, var31);
@@ -914,7 +914,7 @@ case 26:
             var32 = var28[var32];
             var32 = var30.bind(var5)(var32);
             var32 = var32.t;
-            var33 = var32.FXREhY;
+            var33 = var32.FXREhf;
             var32 = {};
             var36 = var36.name;
             var32['guildName'] = var36;

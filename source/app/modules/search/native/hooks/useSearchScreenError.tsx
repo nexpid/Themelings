@@ -143,7 +143,7 @@ case 7:
             var7 = var12[var7];
             var7 = var10.bind(var11)(var7);
             var7 = var7.t;
-            var7 = var7.uvDZBQ;
+            var7 = var7.uvDZBZ;
             var6 = var8.bind(var9)(var7);
 case 6:
             _closure2_slot3 = var6;
@@ -247,7 +247,7 @@ case 17:
             var4 = var9[var4];
             var4 = var7.bind(var8)(var4);
             var4 = var4.t;
-            var4 = var4.uvDZBQ;
+            var4 = var4.uvDZBZ;
             var3 = var5.bind(var6)(var4);
 case 16:
             var2 = var3;

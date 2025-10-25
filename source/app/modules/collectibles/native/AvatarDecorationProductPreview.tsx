@@ -187,7 +187,7 @@ case 2:
             var5 = var5[var21];
             var5 = var6.bind(var4)(var5);
             var5 = var5.t;
-            var6 = var5.hORo2d;
+            var6 = var5.hORo2W;
             var5 = {};
             var11 = var9 == var10;
             var9 = undefined;
@@ -279,7 +279,7 @@ case 4:
             var21 = var18[var21];
             var21 = var12.bind(var4)(var21);
             var21 = var21.t;
-            var21 = var21.d5YwKy;
+            var21 = var21.d5YwK5;
             var21 = var22.bind(var23)(var21);
             var19['children'] = var21;
             var19 = var14.bind(var4)(var20, var19);

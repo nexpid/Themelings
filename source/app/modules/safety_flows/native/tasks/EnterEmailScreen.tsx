@@ -71,7 +71,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = 6;
         var12 = var11[var6];
         var12 = var13.bind(var4)(var12);
-        var12 = var12.bFbsV1;
+        var12 = var12.bFbsV6;
         var12 = var14.bind(var15)(var12);
         var1['title'] = var12;
         var7 = var11[var7];
@@ -80,7 +80,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var12.string;
         var6 = var11[var6];
         var6 = var13.bind(var4)(var6);
-        var6 = var6.RRBNpq;
+        var6 = var6.RRBNpv;
         var6 = var7.bind(var12)(var6);
         var1['action'] = var6;
         var5 = function onAction() {

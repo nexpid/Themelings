@@ -1,4 +1,4 @@
-// app/modules/icymi/native/useMessageConversationProps.tsx
+// app/modules/icymi/useMessageConversationProps.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var3 = exports;
@@ -23,7 +23,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/icymi/native/useMessageConversationProps.tsx';
+    var4 = 'modules/icymi/useMessageConversationProps.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function useMessageConversationProps(arg1) {
         var6 = arg1;

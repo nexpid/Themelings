@@ -2735,7 +2735,7 @@ case 289:
                             var2 = var13[var2];
                             var2 = var12.bind(var1)(var2);
                             var2 = var2.t;
-                            var7 = var2.fxEKdX;
+                            var7 = var2.fxEKdS;
                             var2 = {};
                             var11 = 31;
                             var11 = var13[var11];
@@ -2813,7 +2813,7 @@ case 299: // catch_target0
                     var7 = var19[var7];
                     var7 = var16.bind(var6)(var7);
                     var7 = var7.t;
-                    var16 = var7.9h1/1t;
+                    var16 = var7.9h1/1p;
                     var7 = {};
                     var19 = var14;
                     var19 = var19.length;

@@ -300,7 +300,7 @@ case 23:
             var7 = var12[var7];
             var7 = var11.bind(var4)(var7);
             var7 = var7.t;
-            var7 = var7.GaCMgY;
+            var7 = var7.GaCMgX;
             var6 = var9.bind(var10)(var7);
 case 22:
             var1['accessibilityHint'] = var6;

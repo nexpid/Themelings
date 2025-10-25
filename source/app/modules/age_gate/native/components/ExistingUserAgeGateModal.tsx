@@ -284,7 +284,7 @@ case 19:
                             var5 = var9[var5];
                             var5 = var8.bind(var1)(var5);
                             var5 = var5.t;
-                            var5 = var5.gUiIGR;
+                            var5 = var5.gUiIGZ;
                             var5 = var6.bind(var7)(var5);
                             var2['content'] = var5;
                             var2 = var3.bind(var4)(var2);
@@ -321,7 +321,7 @@ case 20:
                             var5 = var9[var5];
                             var5 = var8.bind(var1)(var5);
                             var5 = var5.t;
-                            var5 = var5.gUiIGR;
+                            var5 = var5.gUiIGZ;
                             var5 = var6.bind(var7)(var5);
                             var2['content'] = var5;
                             var2 = var3.bind(var4)(var2);
@@ -558,7 +558,7 @@ case 24:
             var5 = var9[var5];
             var5 = var8.bind(var4)(var5);
             var5 = var5.t;
-            var5 = var5.13/7kZ;
+            var5 = var5.13/7kX;
             var5 = var6.bind(var7)(var5);
             var1['headerBackTitle'] = var5;
             var1 = var3.bind(var4)(var2, var1);

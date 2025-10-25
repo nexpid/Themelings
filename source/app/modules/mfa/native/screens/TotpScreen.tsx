@@ -225,7 +225,7 @@ case 4:
             var5 = var17[var20];
             var5 = var18.bind(var4)(var5);
             var5 = var5.t;
-            var5 = var5.uc00u7;
+            var5 = var5.uc00u5;
             var5 = var14.bind(var19)(var5);
             var1['headerText'] = var5;
             var5 = 7;
@@ -239,7 +239,7 @@ case 4:
             var14 = var17[var20];
             var14 = var18.bind(var4)(var14);
             var14 = var14.t;
-            var14 = var14.HZPBOT;
+            var14 = var14.HZPBOd;
             var14 = var19.bind(var21)(var14);
             var5['label'] = var14;
             var14 = var17[var20];
@@ -292,7 +292,7 @@ case 22:
             var16 = var16[var20];
             var16 = var19.bind(var4)(var16);
             var16 = var16.t;
-            var16 = var16.geKm7u;
+            var16 = var16.geKm7t;
             var16 = var17.bind(var18)(var16);
             var5['text'] = var16;
             var16 = var10;

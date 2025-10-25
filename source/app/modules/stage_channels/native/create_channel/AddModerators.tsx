@@ -280,7 +280,7 @@ case 8:
                     var1 = var8[var1];
                     var1 = var7.bind(var6)(var1);
                     var1 = var1.t;
-                    var1 = var1.5WxrcX;
+                    var1 = var1.5Wxrcd;
                     var1 = var2.bind(var3)(var1);
                     _fun0004_ip = 4; continue _fun0004;
 case 7:
@@ -367,7 +367,7 @@ case 11:
             var11 = var11[var15];
             var11 = var20.bind(var4)(var11);
             var11 = var11.t;
-            var11 = var11.f7VbhI;
+            var11 = var11.f7VbhF;
             var11 = var17.bind(var19)(var11);
             var7['children'] = var11;
             var7 = var6.bind(var4)(var8, var7);
@@ -426,7 +426,7 @@ case 12:
             var11 = var11[var15];
             var11 = var14.bind(var4)(var11);
             var11 = var11.t;
-            var11 = var11.Ch6+n5;
+            var11 = var11.Ch6+n4;
             var11 = var12.bind(var13)(var11);
             var6['inputDesc'] = var11;
             var6['pendingAdditions'] = var10;

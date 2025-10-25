@@ -516,7 +516,7 @@ case 24:
             var8 = var18[var8];
             var8 = var17.bind(var4)(var8);
             var8 = var8.t;
-            var8 = var8.BddRzc;
+            var8 = var8.BddRzS;
             var8 = var13.bind(var16)(var8);
             var9['text'] = var8;
             var8 = 'confirm';
@@ -544,7 +544,7 @@ case 23:
             var12 = var20[var13];
             var12 = var19.bind(var4)(var12);
             var12 = var12.t;
-            var12 = var12.5911LS;
+            var12 = var12.5911Lb;
             var12 = var21.bind(var22)(var12);
             var16['text'] = var12;
             var12 = 'confirm';
@@ -565,7 +565,7 @@ case 23:
             var13 = var20[var13];
             var13 = var19.bind(var4)(var13);
             var13 = var13.t;
-            var13 = var13.WAI6xs;
+            var13 = var13.WAI6xu;
             var13 = var17.bind(var18)(var13);
             var14['text'] = var13;
             var13 = 'cancel';

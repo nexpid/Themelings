@@ -71,7 +71,7 @@ case 7:
             var10 = var7[var10];
             var10 = var6.bind(var5)(var10);
             var10 = var10.t;
-            var10 = var10.16/3Bg;
+            var10 = var10.16/3Bi;
             var10 = var11.bind(var12)(var10);
             var1['title'] = var10;
             var9 = _closure1_slot3;

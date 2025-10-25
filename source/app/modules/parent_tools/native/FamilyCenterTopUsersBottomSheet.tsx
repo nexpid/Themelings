@@ -138,7 +138,7 @@ case 2:
         var12 = 11;
         var12 = var9[var12];
         var12 = var15.bind(var4)(var12);
-        var12 = var12.BxbvS0;
+        var12 = var12.BxbvS7;
         var12 = var13.bind(var14)(var12);
         var5['children'] = var12;
         var8 = var10.bind(var4)(var8, var5);

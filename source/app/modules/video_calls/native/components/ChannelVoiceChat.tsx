@@ -327,7 +327,7 @@ case 21:
             var22 = var21[var22];
             var22 = var18.bind(var4)(var22);
             var22 = var22.t;
-            var22 = var22.13/7kZ;
+            var22 = var22.13/7kX;
             var22 = var23.bind(var24)(var22);
             var13['accessibilityLabel'] = var22;
             var22 = var17.chatHeaderBackIconContainer;

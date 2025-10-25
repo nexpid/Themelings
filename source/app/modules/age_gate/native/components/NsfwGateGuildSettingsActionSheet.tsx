@@ -83,7 +83,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var14 = var16[var12];
         var14 = var15.bind(var4)(var14);
         var14 = var14.t;
-        var14 = var14.h850Sk;
+        var14 = var14.h850Ss;
         var14 = var18.bind(var19)(var14);
         var8['label'] = var14;
         var14 = function onPress() {
@@ -130,7 +130,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var12 = var16[var12];
         var12 = var15.bind(var4)(var12);
         var12 = var12.t;
-        var12 = var12.J2TBi4;
+        var12 = var12.J2TBi3;
         var12 = var13.bind(var14)(var12);
         var9['label'] = var12;
         var11 = function onPress() {

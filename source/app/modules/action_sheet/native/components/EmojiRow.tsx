@@ -180,11 +180,11 @@ case 4:
             var14 = var10.t;
             if(var7) { _fun0001_ip = 5; continue _fun0001 }
 case 6:
-            var10 = var14.lfIHs7;
+            var10 = var14.lfIHs4;
             var10 = var15.bind(var16)(var10);
             _fun0001_ip = 7; continue _fun0001;
 case 5:
-            var14 = var14.Kfcszs;
+            var14 = var14.Kfcszg;
             var10 = var15.bind(var16)(var14);
 case 7:
             var5['accessibilityLabel'] = var10;

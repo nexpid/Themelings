@@ -65,7 +65,7 @@ case 4:
             var2 = var8[var2];
             var2 = var3.bind(var7)(var2);
             var2 = var2.t;
-            var3 = var2.1knDPD;
+            var3 = var2.1knDPI;
             var2 = {};
             var2['emojiName'] = var6;
             var1 = var4.bind(var5)(var3, var2);

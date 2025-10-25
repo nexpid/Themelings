@@ -150,7 +150,7 @@ case 8:
             var7 = var16[var12];
             var7 = var15.bind(var4)(var7);
             var7 = var7.t;
-            var7 = var7.5g7NcH;
+            var7 = var7.5g7NcN;
             var7 = var10.bind(var13)(var7);
             var5['children'] = var7;
             var6 = var8.bind(var4)(var6, var5);
@@ -172,7 +172,7 @@ case 8:
             var12 = var16[var12];
             var12 = var15.bind(var4)(var12);
             var12 = var12.t;
-            var12 = var12.JuXTi4;
+            var12 = var12.JuXTi6;
             var12 = var13.bind(var14)(var12);
             var9['text'] = var12;
             var11 = _closure1_slot8;

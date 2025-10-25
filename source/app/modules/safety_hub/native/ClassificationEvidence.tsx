@@ -118,7 +118,7 @@ case 3:
             var10 = var12[var10];
             var10 = var16.bind(var5)(var10);
             var10 = var10.t;
-            var10 = var10.s64CMj;
+            var10 = var10.s64CMg;
             var10 = var14.bind(var15)(var10);
             var6['children'] = var10;
             var7 = var8.bind(var5)(var7, var6);

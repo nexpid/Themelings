@@ -72,7 +72,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var12 = var14[var10];
         var12 = var13.bind(var3)(var12);
         var12 = var12.t;
-        var12 = var12.QXc019;
+        var12 = var12.QXc01+;
         var12 = var15.bind(var16)(var12);
         var5['label'] = var12;
         var12 = function onPress() {
@@ -116,7 +116,7 @@ case 2:
         var10 = var14[var10];
         var10 = var13.bind(var3)(var10);
         var10 = var10.t;
-        var10 = var10.8lAfuL;
+        var10 = var10.8lAfuB;
         var10 = var11.bind(var12)(var10);
         var6['label'] = var10;
         var9 = function onPress() {

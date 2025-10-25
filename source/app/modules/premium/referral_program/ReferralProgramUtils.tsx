@@ -76,7 +76,7 @@ case 5:
             var1 = var10[var1];
             var1 = var3.bind(var8)(var1);
             var1 = var1.t;
-            var3 = var1./d0GmZ;
+            var3 = var1./d0GmT;
             var1 = {};
             var12 = var7.Math;
             var11 = var12.floor;
@@ -97,7 +97,7 @@ case 4:
             var3 = var11[var3];
             var3 = var4.bind(var8)(var3);
             var3 = var3.t;
-            var4 = var3.k9v339;
+            var4 = var3.k9v33y;
             var3 = {};
             var12 = var7.Math;
             var11 = var12.floor;
@@ -117,7 +117,7 @@ case 2:
             var2 = var10[var2];
             var2 = var3.bind(var8)(var2);
             var2 = var2.t;
-            var3 = var2.g9s+dH;
+            var3 = var2.g9s+dA;
             var2 = {};
             var8 = var7.Math;
             var7 = var8.floor;

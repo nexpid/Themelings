@@ -199,7 +199,7 @@ case 5:
             var2 = var11[var2];
             var2 = var7.bind(var4)(var2);
             var2 = var2.t;
-            var2 = var2.t9uG/v;
+            var2 = var2.t9uG/o;
             var7 = var3.bind(var5)(var2);
             _fun0001_ip = 6; continue _fun0001;
 case 4:
@@ -213,7 +213,7 @@ case 4:
             var2 = var12[var2];
             var2 = var11.bind(var4)(var2);
             var2 = var2.t;
-            var2 = var2.lG6a5+;
+            var2 = var2.lG6a5x;
             var7 = var3.bind(var5)(var2);
 case 6:
             var _closure2_slot3 = var7;
@@ -237,7 +237,7 @@ case 6:
                 var5 = var10[var5];
                 var5 = var6.bind(var1)(var5);
                 var5 = var5.t;
-                var6 = var5.RMu0/v;
+                var6 = var5.RMu0/q;
                 var5 = {};
                 var9 = _closure2_slot3;
                 var5['nitroTierName'] = var9;
@@ -302,7 +302,7 @@ case 8:
             var18 = var28[var18];
             var18 = var23.bind(var4)(var18);
             var18 = var18.t;
-            var18 = var18.NlkxGR;
+            var18 = var18.NlkxGS;
             var18 = var19.bind(var29)(var18);
             var16['children'] = var18;
             var17 = var24.bind(var4)(var17, var16);

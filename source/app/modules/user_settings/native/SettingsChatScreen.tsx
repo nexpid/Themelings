@@ -65,7 +65,7 @@ case 0:
             var9 = var9[var25];
             var9 = var10.bind(var4)(var9);
             var9 = var9.t;
-            var10 = var9.Up+hSE;
+            var10 = var9.Up+hSO;
             var9 = {};
             var13 = 'https://support.discord.com/hc/articles/9665451164951';
             var9['supportURL'] = var13;
@@ -133,7 +133,7 @@ case 3:
             var20 = var20[var25];
             var20 = var21.bind(var4)(var20);
             var20 = var20.t;
-            var21 = var20.uW1zur;
+            var21 = var20.uW1zul;
             var20 = {};
             var24 = function onClick() {
                 var4 = _closure1_slot1;
@@ -289,7 +289,7 @@ case 0:
                     var1 = var5[var8];
                     var1 = var10.bind(var7)(var1);
                     var1 = var1.t;
-                    var1 = var1.U68Dgo;
+                    var1 = var1.U68Dgp;
                     var1 = var6.bind(var9)(var1);
                     var2['label'] = var1;
                     var6 = _closure1_slot7;
@@ -308,7 +308,7 @@ case 0:
                     var1 = var5[var8];
                     var1 = var10.bind(var7)(var1);
                     var1 = var1.t;
-                    var1 = var1.T0rbtL;
+                    var1 = var1.T0rbtM;
                     var1 = var9.bind(var11)(var1);
                     var2['subLabel'] = var1;
                     var1 = new Array(9);
@@ -321,7 +321,7 @@ case 0:
                     var9 = var5[var8];
                     var9 = var10.bind(var7)(var9);
                     var9 = var9.t;
-                    var9 = var9.YTnrbW;
+                    var9 = var9.YTnrbV;
                     var9 = var11.bind(var12)(var9);
                     var2['label'] = var9;
                     var11 = var6.SAVE_CAMERA_UPLOADS_TO_DEVICE;
@@ -335,7 +335,7 @@ case 0:
                     var9 = var5[var8];
                     var9 = var10.bind(var7)(var9);
                     var9 = var9.t;
-                    var9 = var9.eZmJYG;
+                    var9 = var9.eZmJYE;
                     var9 = var11.bind(var12)(var9);
                     var2['subLabel'] = var9;
                     var1[1] = var2;
@@ -358,7 +358,7 @@ case 0:
                     var9 = var5[var8];
                     var9 = var10.bind(var7)(var9);
                     var9 = var9.t;
-                    var9 = var9.fyG8t7;
+                    var9 = var9.fyG8t2;
                     var9 = var11.bind(var12)(var9);
                     var2['label'] = var9;
                     var11 = var6.DATA_SAVING_MODE;
@@ -372,7 +372,7 @@ case 0:
                     var9 = var5[var8];
                     var9 = var10.bind(var7)(var9);
                     var9 = var9.t;
-                    var9 = var9.wC0+Pj;
+                    var9 = var9.wC0+Ph;
                     var9 = var11.bind(var12)(var9);
                     var2['subLabel'] = var9;
                     var1[3] = var2;
@@ -384,7 +384,7 @@ case 0:
                     var9 = var5[var8];
                     var9 = var10.bind(var7)(var9);
                     var9 = var9.t;
-                    var9 = var9.PWZOn5;
+                    var9 = var9.PWZOn4;
                     var9 = var11.bind(var12)(var9);
                     var2['label'] = var9;
                     var9 = var6.EMBED_AND_LINK_PREVIEWS;
@@ -400,7 +400,7 @@ case 0:
                     var5 = var5[var8];
                     var5 = var10.bind(var7)(var5);
                     var5 = var5.t;
-                    var5 = var5.sMOuub;
+                    var5 = var5.sMOuuS;
                     var5 = var6.bind(var9)(var5);
                     var2['label'] = var5;
                     var6 = _closure1_slot7;
@@ -431,7 +431,7 @@ case 6:
                     var5 = var3[var8];
                     var5 = var6.bind(var7)(var5);
                     var5 = var5.t;
-                    var5 = var5.20dvub;
+                    var5 = var5.20dvuQ;
                     var5 = var9.bind(var10)(var5);
                     var2['subLabel'] = var5;
                     var1[5] = var2;
@@ -443,7 +443,7 @@ case 6:
                     var5 = var3[var8];
                     var5 = var6.bind(var7)(var5);
                     var5 = var5.t;
-                    var5 = var5.29xPVV;
+                    var5 = var5.29xPVZ;
                     var5 = var9.bind(var10)(var5);
                     var2['label'] = var5;
                     var4 = _closure1_slot7;
@@ -458,7 +458,7 @@ case 6:
                     var5 = var3[var8];
                     var5 = var6.bind(var7)(var5);
                     var5 = var5.t;
-                    var5 = var5./eVrj4;
+                    var5 = var5./eVrj8;
                     var5 = var9.bind(var10)(var5);
                     var2['subLabel'] = var5;
                     var1[6] = var2;
@@ -476,7 +476,7 @@ case 6:
                     var5 = var3[var8];
                     var5 = var6.bind(var7)(var5);
                     var5 = var5.t;
-                    var5 = var5.BkuOOz;
+                    var5 = var5.BkuOO6;
                     var5 = var9.bind(var10)(var5);
                     var2['label'] = var5;
                     var5 = var4.TEXT_AND_MEDIA_SYNC;
@@ -490,7 +490,7 @@ case 6:
                     var3 = var3[var8];
                     var3 = var6.bind(var7)(var3);
                     var3 = var3.t;
-                    var3 = var3.p4IKEx;
+                    var3 = var3.p4IKE9;
                     var3 = var4.bind(var5)(var3);
                     var2['subLabel'] = var3;
                     var1[8] = var2;

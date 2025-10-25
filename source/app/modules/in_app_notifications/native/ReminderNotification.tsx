@@ -171,7 +171,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var11[var5];
         var5 = var10.bind(var4)(var5);
         var5 = var5.t;
-        var5 = var5.Whs8tL;
+        var5 = var5.Whs8tE;
         var5 = var6.bind(var9)(var5);
         var1['label'] = var5;
         var9 = 13;

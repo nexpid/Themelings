@@ -47,7 +47,7 @@ case 2:
             var1 = var9[var1];
             var1 = var2.bind(var8)(var1);
             var1 = var1.t;
-            var2 = var1.w4iXs7;
+            var2 = var1.w4iXs+;
             var1 = {};
             var1['username'] = var7;
             var1['usernameHook'] = var6;

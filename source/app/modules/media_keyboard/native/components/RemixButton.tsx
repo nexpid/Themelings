@@ -137,7 +137,7 @@ case 6:
             var10 = var9[var10];
             var10 = var7.bind(var5)(var10);
             var10 = var10.t;
-            var10 = var10.Gp2rPj;
+            var10 = var10.Gp2rPh;
             var10 = var11.bind(var12)(var10);
             var2['accessibilityLabel'] = var10;
             var2['onPress'] = var6;

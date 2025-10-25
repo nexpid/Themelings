@@ -368,7 +368,7 @@ case 16:
             var7 = var7[var8];
             var7 = var11.bind(var4)(var7);
             var7 = var7.t;
-            var7 = var7.9AjdkJ;
+            var7 = var7.9AjdkD;
             var7 = var9.bind(var10)(var7);
             var6 = var6.EDIT_DISPLAY_NAME;
             if(!(var36 !== var6)) { _fun0002_ip = 18; continue _fun0002 }
@@ -411,7 +411,7 @@ case 18:
             var3 = var3[var8];
             var3 = var7.bind(var4)(var3);
             var3 = var3.t;
-            var3 = var3.9AjdkJ;
+            var3 = var3.9AjdkD;
             var35 = var5.bind(var6)(var3);
             var33 = var2;
             var32 = var1;
@@ -587,7 +587,7 @@ case 0:
                     var5 = var10[var5];
                     var5 = var7.bind(var6)(var5);
                     var5 = var5.t;
-                    var7 = var5.bhrgkJ;
+                    var7 = var5.bhrgkA;
                     var5 = {};
                     var11 = _closure2_slot1;
                     var10 = null;

@@ -138,7 +138,7 @@ case 3:
             var11 = var13[var11];
             var11 = var12.bind(var4)(var11);
             var11 = var11.t;
-            var11 = var11.l5WIbW;
+            var11 = var11.l5WIbf;
             var11 = var14.bind(var15)(var11);
             var7['accessibilityLabel'] = var11;
             var11 = 13;

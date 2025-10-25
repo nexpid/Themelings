@@ -168,7 +168,7 @@ case 7:
             var11 = var16[var8];
             var11 = var9.bind(var7)(var11);
             var11 = var11.t;
-            var11 = var11.gtNqJS;
+            var11 = var11.gtNqJQ;
             var17 = var17.bind(var18)(var11);
             var11 = var17.toLocaleLowerCase;
             var11 = var11.bind(var17)();
@@ -225,7 +225,7 @@ case 14:
             var9 = var9[var8];
             var9 = var14.bind(var7)(var9);
             var9 = var9.t;
-            var14 = var9.IiWKws;
+            var14 = var9.IiWKwg;
             var9 = {};
             var9['senderUserName'] = var26;
             var9['recipientUserName'] = var24;
@@ -343,7 +343,7 @@ case 28:
             var17 = var25[var8];
             var17 = var27.bind(var7)(var17);
             var17 = var17.t;
-            var21 = var17.uj94Cw;
+            var21 = var17.uj94C5;
             var17 = {};
             var25 = var25[var28];
             var28 = var27.bind(var7)(var25);
@@ -389,7 +389,7 @@ case 36:
             var17 = var28[var8];
             var17 = var18.bind(var7)(var17);
             var17 = var17.t;
-            var18 = var17.LwCwT0;
+            var18 = var17.LwCwT9;
             var17 = {};
             var23 = {};
             var25 = 'bindOpenUrl';
@@ -423,7 +423,7 @@ case 42:
             var21 = var21[var8];
             var21 = var25.bind(var7)(var21);
             var21 = var21.t;
-            var21 = var21.9SNdf3;
+            var21 = var21.9SNdf4;
             var18 = var22.bind(var23)(var21);
             var17 = undefined;
             _fun0001_ip = 37; continue _fun0001;
@@ -443,7 +443,7 @@ case 46:
             var20 = var29[var8];
             var20 = var21.bind(var7)(var20);
             var20 = var20.t;
-            var21 = var20.7O7Zg4;
+            var21 = var20.7O7Zg3;
             var20 = {};
             var25 = {};
             var27 = 'bindOpenUrl';
@@ -470,7 +470,7 @@ case 43:
             var21 = var30[var8];
             var21 = var22.bind(var7)(var21);
             var21 = var21.t;
-            var22 = var21.mVzEGx;
+            var22 = var21.mVzEG8;
             var21 = {};
             var27 = {};
             var28 = 'bindOpenUrl';
@@ -501,7 +501,7 @@ case 38:
             var20 = var20[var8];
             var20 = var21.bind(var7)(var20);
             var20 = var20.t;
-            var21 = var20.Mptau7;
+            var21 = var20.Mptau/;
             var20 = {};
             var20['username'] = var24;
             var18 = var22.bind(var23)(var21, var20);
@@ -561,7 +561,7 @@ case 55:
             var12 = var14[var8];
             var12 = var11.bind(var7)(var12);
             var12 = var12.t;
-            var12 = var12.bXTClZ;
+            var12 = var12.bXTClc;
             var15 = var15.bind(var16)(var12);
             var12 = 'acceptLabelText';
             var5[var12] = var15;
@@ -598,7 +598,7 @@ case 15:
             var5 = var5[var8];
             var5 = var10.bind(var7)(var5);
             var5 = var5.t;
-            var5 = var5.eEz1Nz;
+            var5 = var5.eEz1N5;
             var6 = var6.bind(var9)(var5);
             var5 = 'bodyText';
             var1[var5] = var6;
@@ -622,7 +622,7 @@ case 12:
             var2 = var2[var8];
             var2 = var6.bind(var7)(var2);
             var2 = var2.t;
-            var2 = var2.eEz1Nz;
+            var2 = var2.eEz1N5;
             var4 = var4.bind(var5)(var2);
             var2 = 'bodyText';
             var1[var2] = var4;

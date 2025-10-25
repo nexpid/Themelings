@@ -161,7 +161,7 @@ case 4:
         var7 = var12[var7];
         var7 = var8.bind(var4)(var7);
         var7 = var7.t;
-        var8 = var7.4Y3O+P;
+        var8 = var7.4Y3O+O;
         var7 = {};
         var7['count'] = var11;
         var7 = var9.bind(var10)(var8, var7);

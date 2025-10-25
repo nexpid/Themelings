@@ -113,7 +113,7 @@ case 2:
         var2 = var8[var2];
         var2 = var6.bind(var7)(var2);
         var2 = var2.t;
-        var2 = var2.W+j15e;
+        var2 = var2.W+j15W;
         var2 = var4.bind(var5)(var2);
         var3['gamingStatsButtonText'] = var2;
         var2 = 'channelPromptData';

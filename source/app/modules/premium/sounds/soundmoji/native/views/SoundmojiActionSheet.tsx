@@ -223,7 +223,7 @@ case 8:
                 var17 = var21[var17];
                 var17 = var20.bind(var5)(var17);
                 var17 = var17.t;
-                var17 = var17.Tj5Nws;
+                var17 = var17.Tj5Nwi;
                 var17 = var18.bind(var19)(var17);
                 var14['children'] = var17;
                 var14 = var16.bind(var5)(var15, var14);

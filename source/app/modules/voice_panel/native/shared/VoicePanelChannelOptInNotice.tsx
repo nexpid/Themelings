@@ -83,7 +83,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = var12[var8];
         var9 = var11.bind(var3)(var9);
         var9 = var9.t;
-        var9 = var9.9mysCg;
+        var9 = var9.9mysCh;
         var9 = var10.bind(var13)(var9);
         var5['label'] = var9;
         var9 = var12[var8];
@@ -93,7 +93,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = var12[var8];
         var8 = var11.bind(var3)(var8);
         var8 = var8.t;
-        var8 = var8.PDUCIC;
+        var8 = var8.PDUCIN;
         var8 = var9.bind(var10)(var8);
         var5['subLabel'] = var8;
         var8 = 6;

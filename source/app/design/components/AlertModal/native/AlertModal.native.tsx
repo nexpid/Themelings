@@ -192,7 +192,7 @@ case 8:
         var5 = var9[var5];
         var5 = var8.bind(var4)(var5);
         var5 = var5.t;
-        var5 = var5.Xkfav7;
+        var5 = var5.Xkfav5;
         var5 = var6.bind(var7)(var5);
         var1['accessibilityLabel'] = var5;
         var1 = var3.bind(var4)(var2, var1);

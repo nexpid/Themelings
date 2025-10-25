@@ -232,7 +232,7 @@ case 6:
             var8 = var22[var8];
             var8 = var9.bind(var5)(var8);
             var8 = var8.t;
-            var9 = var8.jWtYUl;
+            var9 = var8.jWtYUm;
             var8 = {};
             var8['count'] = var2;
             var13 = var13.bind(var14)(var9, var8);
@@ -248,7 +248,7 @@ case 5:
             var8 = var23[var8];
             var8 = var22.bind(var5)(var8);
             var8 = var8.t;
-            var8 = var8.TXNS7e;
+            var8 = var8.TXNS7S;
             var13 = var9.bind(var14)(var8);
 case 7:
             var9 = _closure1_slot5;
@@ -1005,7 +1005,7 @@ case 0:
             var6 = var11[var6];
             var6 = var10.bind(var4)(var6);
             var6 = var6.t;
-            var6 = var6.7TVSLC;
+            var6 = var6.7TVSLK;
             var6 = var7.bind(var9)(var6);
             var1['title'] = var6;
             var7 = var8.channel_id;
@@ -1141,7 +1141,7 @@ case 59:
             var8 = var13[var8];
             var8 = var12.bind(var5)(var8);
             var8 = var8.t;
-            var8 = var8.J7dBxc;
+            var8 = var8.J7dBxa;
             var8 = var10.bind(var11)(var8);
             var2['title'] = var8;
             var8 = {};
@@ -1194,7 +1194,7 @@ case 58:
         var6 = var10[var6];
         var6 = var9.bind(var1)(var6);
         var6 = var6.t;
-        var6 = var6.59CWHB;
+        var6 = var6.59CWHK;
         var6 = var7.bind(var8)(var6);
         var2['title'] = var6;
         var6 = '';
@@ -1275,11 +1275,11 @@ case 68:
                         var6 = var6.t;
                         if(var5) { _fun0010_ip = 70; continue _fun0010 }
 case 12:
-                        var5 = var6.F8FvU1;
+                        var5 = var6.F8FvUy;
                         var5 = var7.bind(var8)(var5);
                         _fun0010_ip = 71; continue _fun0010;
 case 70:
-                        var6 = var6.BC5vfH;
+                        var6 = var6.BC5vfD;
                         var5 = var7.bind(var8)(var6);
 case 71:
                         var2['content'] = var5;
@@ -1380,7 +1380,7 @@ case 75:
             var8 = var14[var8];
             var8 = var13.bind(var1)(var8);
             var8 = var8.t;
-            var8 = var8.NPVaws;
+            var8 = var8.NPVawp;
             var8 = var11.bind(var12)(var8);
             _fun0011_ip = 76; continue _fun0011;
 case 74:
@@ -1394,7 +1394,7 @@ case 74:
             var10 = var14[var10];
             var10 = var13.bind(var1)(var10);
             var10 = var10.t;
-            var10 = var10.F2Smnp;
+            var10 = var10.F2Smni;
             var8 = var11.bind(var12)(var10);
 case 76:
             var2['title'] = var8;

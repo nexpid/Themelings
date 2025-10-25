@@ -339,11 +339,11 @@ case 10:
                 var11 = var10.t;
                 if(var8) { _fun0002_ip = 12; continue _fun0002 }
 case 13:
-                var10 = var11.ZcgDJS;
+                var10 = var11.ZcgDJX;
                 var10 = var15.bind(var17)(var10);
                 _fun0002_ip = 14; continue _fun0002;
 case 12:
-                var11 = var11.RscU7O;
+                var11 = var11.RscU7I;
                 var10 = var15.bind(var17)(var11);
 case 14:
                 var5['accessibilityLabel'] = var10;

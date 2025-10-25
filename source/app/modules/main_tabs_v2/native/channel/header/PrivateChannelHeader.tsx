@@ -299,7 +299,7 @@ case 18:
             var1 = var13[var1];
             var1 = var8.bind(var5)(var1);
             var1 = var1.t;
-            var1 = var1.ai6Lbm;
+            var1 = var1.ai6Lbr;
             var16 = var3.bind(var4)(var1);
             _fun0003_ip = 19; continue _fun0003;
 case 17:
@@ -361,7 +361,7 @@ case 24:
             var1 = var1[var14];
             var1 = var3.bind(var5)(var1);
             var1 = var1.t;
-            var3 = var1.UbNmGR;
+            var3 = var1.UbNmGc;
             var1 = {};
             var1['channelName'] = var16;
             var13 = var4.bind(var8)(var3, var1);
@@ -438,7 +438,7 @@ case 35:
             var6 = var6[var14];
             var6 = var13.bind(var5)(var6);
             var6 = var6.t;
-            var6 = var6.x87QCg;
+            var6 = var6.x87QCk;
             var6 = var11.bind(var12)(var6);
             var6 = var7.bind(var8)(var9, var10, var6);
             var2['children'] = var6;

@@ -74,7 +74,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = var12[var8];
         var9 = var11.bind(var4)(var9);
         var9 = var9.t;
-        var9 = var9.MP5lDg;
+        var9 = var9.MP5lDj;
         var9 = var10.bind(var13)(var9);
         var1['headerLabel'] = var9;
         var9 = var12[var8];
@@ -84,7 +84,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = var12[var8];
         var9 = var11.bind(var4)(var9);
         var9 = var9.t;
-        var9 = var9.7Ct0Dg;
+        var9 = var9.7Ct0Dj;
         var9 = var10.bind(var13)(var9);
         var1['ratingsBodyLabel'] = var9;
         var9 = var12[var8];
@@ -94,7 +94,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = var12[var8];
         var8 = var11.bind(var4)(var8);
         var8 = var8.t;
-        var8 = var8.FJmoxM;
+        var8 = var8.FJmoxF;
         var8 = var9.bind(var10)(var8);
         var1['reasonsHeaderLabel'] = var8;
         var1['reasons'] = var7;

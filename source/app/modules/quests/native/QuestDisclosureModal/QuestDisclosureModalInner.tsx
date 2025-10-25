@@ -172,7 +172,7 @@ case 0:
             var2 = var18[var16];
             var2 = var17.bind(var4)(var2);
             var2 = var2.t;
-            var2 = var2.xQSdPj;
+            var2 = var2.xQSdPv;
             var2 = var3.bind(var8)(var2);
             var1['text'] = var2;
             var15 = new Array(3);
@@ -193,7 +193,7 @@ case 0:
             var2 = var18[var16];
             var2 = var17.bind(var4)(var2);
             var2 = var2.t;
-            var2 = var2.mYt7hY;
+            var2 = var2.mYt7hQ;
             var2 = var3.bind(var8)(var2);
             var1['text'] = var2;
             var15[1] = var1;
@@ -213,7 +213,7 @@ case 0:
             var2 = var18[var16];
             var2 = var17.bind(var4)(var2);
             var2 = var2.t;
-            var2 = var2.XAsWxc;
+            var2 = var2.XAsWxQ;
             var2 = var3.bind(var5)(var2);
             var1['text'] = var2;
             var15[2] = var1;
@@ -339,7 +339,7 @@ case 2:
             var13 = var12[var16];
             var13 = var15.bind(var4)(var13);
             var13 = var13.t;
-            var14 = var13.tzq9WV;
+            var14 = var13.tzq9Wa;
             var13 = {};
             var20 = _closure1_slot1;
             var19 = 14;
@@ -370,7 +370,7 @@ case 2:
             var12 = var12[var16];
             var12 = var15.bind(var4)(var12);
             var12 = var12.t;
-            var12 = var12.cpT0Cg;
+            var12 = var12.cpT0Cq;
             var12 = var13.bind(var14)(var12);
             var9['text'] = var12;
             var9['onPress'] = var11;

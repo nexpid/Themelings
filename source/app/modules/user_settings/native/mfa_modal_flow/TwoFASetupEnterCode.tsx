@@ -190,7 +190,7 @@ case 3:
                     var3 = var10[var3];
                     var3 = var9.bind(var8)(var3);
                     var3 = var3.t;
-                    var3 = var3.1u5B+P;
+                    var3 = var3.1u5B+G;
                     var3 = var6.bind(var7)(var3);
                     _fun0001_ip = 4; continue _fun0001;
 case 2:
@@ -251,7 +251,7 @@ case 5:
         var14 = var15[var14];
         var14 = var20.bind(var4)(var14);
         var14 = var14.t;
-        var14 = var14.HZPBOT;
+        var14 = var14.HZPBOd;
         var14 = var18.bind(var19)(var14);
         var8['children'] = var14;
         var10 = var3.bind(var4)(var10, var8);

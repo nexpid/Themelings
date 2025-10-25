@@ -816,7 +816,7 @@ case 123:
                 var22 = var26[var22];
                 var22 = var25.bind(var2)(var22);
                 var22 = var22.t;
-                var22 = var22.F+x38P;
+                var22 = var22.F+x38C;
                 var23 = var23.bind(var24)(var22);
                 var22 = var23.toUpperCase;
                 var20 = var22.bind(var23)();
@@ -835,7 +835,7 @@ case 125:
                 var21 = var25[var21];
                 var21 = var24.bind(var2)(var21);
                 var21 = var21.t;
-                var21 = var21.SpxcUV;
+                var21 = var21.SpxcUR;
                 var20 = var22.bind(var23)(var21);
 case 124:
                 var1['obscure'] = var20;
@@ -851,7 +851,7 @@ case 127:
                 var18 = var22[var18];
                 var18 = var21.bind(var2)(var18);
                 var18 = var18.t;
-                var18 = var18.MRdR7+;
+                var18 = var18.MRdR7z;
                 var17 = var19.bind(var20)(var18);
 case 126:
                 var1['obscureAwaitingScan'] = var17;

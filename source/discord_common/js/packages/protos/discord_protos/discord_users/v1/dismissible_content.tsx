@@ -1794,6 +1794,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['NITRO_TAB_BADGE_OFFER_REMINDER'] = var2;
     var1 = 'NITRO_TAB_BADGE_OFFER_REMINDER';
     var4[var2] = var1;
+    var2 = 635;
+    var4['VIRTUAL_CURRENCY_MOBILE_ONBOARDING_PILL'] = var2;
+    var1 = 'VIRTUAL_CURRENCY_MOBILE_ONBOARDING_PILL';
+    var4[var2] = var1;
+    var2 = 636;
+    var4['GAME_WIDGETS_USER_PROFILE_ACCOUNT_POPOUT_UPSELL'] = var2;
+    var1 = 'GAME_WIDGETS_USER_PROFILE_ACCOUNT_POPOUT_UPSELL';
+    var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;
     var1 = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

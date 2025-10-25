@@ -168,7 +168,7 @@ case 22:
             var8 = var13[var8];
             var8 = var9.bind(var3)(var8);
             var8 = var8.t;
-            var9 = var8.eevFb2;
+            var9 = var8.eevFb6;
             var8 = {};
             var13 = var2.timestamp;
             var14 = var5 != var13;

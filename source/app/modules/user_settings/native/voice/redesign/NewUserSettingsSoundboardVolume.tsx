@@ -87,7 +87,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var20[var13];
         var5 = var14.bind(var4)(var5);
         var5 = var5.t;
-        var5 = var5.xbMc8v;
+        var5 = var5.xbMc8r;
         var5 = var6.bind(var7)(var5);
         var1['title'] = var5;
         var5 = 8;
@@ -102,7 +102,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var20[var13];
         var7 = var14.bind(var4)(var7);
         var7 = var7.t;
-        var7 = var7.kbFsAA;
+        var7 = var7.kbFsAD;
         var7 = var8.bind(var9)(var7);
         var5['label'] = var7;
         var9 = _closure1_slot7;
@@ -155,7 +155,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var13 = var20[var13];
         var13 = var14.bind(var4)(var13);
         var13 = var13.t;
-        var14 = var13.BPbGq6;
+        var14 = var13.BPbGq7;
         var13 = {};
         var18 = 12;
         var18 = var20[var18];

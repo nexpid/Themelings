@@ -102,7 +102,7 @@ case 7:
             var8 = var12[var8];
             var8 = var11.bind(var6)(var8);
             var8 = var8.t;
-            var8 = var8.LJpTRE;
+            var8 = var8.LJpTRF;
             var7 = var9.bind(var10)(var8);
 case 6:
             var3['guildName'] = var7;

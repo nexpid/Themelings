@@ -586,7 +586,7 @@ case 20:
             var13 = var17[var13];
             var13 = var16.bind(var4)(var13);
             var13 = var13.t;
-            var13 = var13.t8CdeX;
+            var13 = var13.t8CdeV;
             var13 = var14.bind(var15)(var13);
             var6['accessibilityLabel'] = var13;
             var6['renderItem'] = var12;

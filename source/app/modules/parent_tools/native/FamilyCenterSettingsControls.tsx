@@ -137,7 +137,7 @@ case 6:
             var16 = 11;
             var17 = var27[var16];
             var17 = var20.bind(var4)(var17);
-            var17 = var17.ahKIJC;
+            var17 = var17.ahKIJO;
             var17 = var19.bind(var22)(var17);
             var5['children'] = var17;
             var12 = var21.bind(var4)(var12, var5);
@@ -176,7 +176,7 @@ case 6:
             var22 = var27[var23];
             var22 = var26.bind(var4)(var22);
             var22 = var22.t;
-            var22 = var22.+o1pDQ;
+            var22 = var22.+o1pDZ;
             var22 = var24.bind(var25)(var22);
             var17['label'] = var22;
             var22 = function onPress() {
@@ -204,7 +204,7 @@ case 6:
             var23 = var27[var23];
             var23 = var26.bind(var4)(var23);
             var23 = var23.t;
-            var23 = var23.OAuOHB;
+            var23 = var23.OAuOHD;
             var23 = var24.bind(var25)(var23);
             var19['label'] = var23;
             var23 = function onPress() {
@@ -256,7 +256,7 @@ case 5:
             var14 = 11;
             var23 = var19[var14];
             var23 = var15.bind(var4)(var23);
-            var23 = var23.ahKIJC;
+            var23 = var23.ahKIJO;
             var23 = var24.bind(var25)(var23);
             var20['children'] = var23;
             var22 = var12.bind(var4)(var22, var20);
@@ -272,7 +272,7 @@ case 5:
             var25 = var26.format;
             var23 = var19[var14];
             var23 = var15.bind(var4)(var23);
-            var24 = var23.X9rW0t;
+            var24 = var23.X9rW0j;
             var23 = {};
             var27 = function openSettingsHook(arg1, arg2) {
                 var5 = _closure1_slot6;
@@ -312,7 +312,7 @@ case 5:
             var16 = var17.formatToPlainString;
             var14 = var19[var14];
             var14 = var15.bind(var4)(var14);
-            var15 = var14.w0JA3N;
+            var15 = var14.w0JA3P;
             var14 = {};
             var18 = var18.length;
             var14['count'] = var18;

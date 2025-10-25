@@ -483,7 +483,7 @@ case 8:
             var13 = var34[var14];
             var13 = var35.bind(var4)(var13);
             var13 = var13.t;
-            var13 = var13.AF+Tys;
+            var13 = var13.AF+Tyh;
             var13 = var20.bind(var21)(var13);
             var8['children'] = var13;
             var9 = var16.bind(var4)(var9, var8);
@@ -588,7 +588,7 @@ case 8:
             var41 = var34[var14];
             var41 = var35.bind(var4)(var41);
             var41 = var41.t;
-            var42 = var41.pob/cH;
+            var42 = var41.pob/cL;
             var41 = {};
             var41['subscriptions'] = var45;
             var41 = var43.bind(var44)(var42, var41);
@@ -625,7 +625,7 @@ case 8:
             var34 = var34[var14];
             var34 = var35.bind(var4)(var34);
             var34 = var34.t;
-            var35 = var34.xXb78v;
+            var35 = var34.xXb78j;
             var34 = {};
             var34['numSubscriptions'] = var38;
             var34 = var36.bind(var37)(var35, var34);
@@ -774,7 +774,7 @@ case 19:
             var11 = var9[var14];
             var11 = var18.bind(var4)(var11);
             var11 = var11.t;
-            var11 = var11.pj0XBA;
+            var11 = var11.pj0XBN;
             var11 = var16.bind(var17)(var11);
             var6['text'] = var11;
             var11 = _closure1_slot1;
@@ -840,7 +840,7 @@ case 18:
             var14 = var11[var14];
             var14 = var17.bind(var4)(var14);
             var14 = var14.t;
-            var14 = var14.8MYSQ0;
+            var14 = var14.8MYSQw;
             var14 = var15.bind(var16)(var14);
             var9['text'] = var14;
             var12 = _closure1_slot1;

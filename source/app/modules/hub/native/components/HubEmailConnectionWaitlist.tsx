@@ -117,7 +117,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var9[var5];
                 var5 = var8.bind(var3)(var5);
                 var5 = var5.t;
-                var5 = var5.cpT0Cg;
+                var5 = var5.cpT0Cq;
                 var5 = var6.bind(var7)(var5);
                 var1['text'] = var5;
                 var5 = _closure2_slot0;
@@ -166,7 +166,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var12 = var15[var11];
         var12 = var14.bind(var4)(var12);
         var12 = var12.t;
-        var12 = var12.OaloU1;
+        var12 = var12.OaloU5;
         var12 = var13.bind(var16)(var12);
         var6['children'] = var12;
         var6 = var7.bind(var4)(var9, var6);
@@ -185,7 +185,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var12 = var15[var11];
         var12 = var14.bind(var4)(var12);
         var12 = var12.t;
-        var13 = var12.Rs7MXF;
+        var13 = var12.Rs7MXJ;
         var12 = {};
         var12['school'] = var18;
         var12 = var16.bind(var17)(var13, var12);
@@ -209,7 +209,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var11 = var15[var11];
         var11 = var14.bind(var4)(var11);
         var11 = var11.t;
-        var11 = var11.i4jeWV;
+        var11 = var11.i4jeWR;
         var11 = var12.bind(var13)(var11);
         var8['text'] = var11;
         var8['onPress'] = var10;

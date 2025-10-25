@@ -334,7 +334,7 @@ case 6:
                 var19 = var16[var25];
                 var19 = var18.bind(var5)(var19);
                 var19 = var19.t;
-                var19 = var19.EIYbj4;
+                var19 = var19.EIYbj6;
                 var19 = var22.bind(var23)(var19);
                 var10['children'] = var19;
                 var13 = var15.bind(var5)(var13, var10);
@@ -354,7 +354,7 @@ case 6:
                 var22 = var16[var25];
                 var22 = var18.bind(var5)(var22);
                 var22 = var22.t;
-                var22 = var22.6Xcq+f;
+                var22 = var22.6Xcq+Y;
                 var22 = var23.bind(var24)(var22);
                 var13['accessibilityLabel'] = var22;
                 var20 = function onPress() {
@@ -404,11 +404,11 @@ case 6:
                 var19 = var19.t;
                 if(var16) { _fun0001_ip = 7; continue _fun0001 }
 case 8:
-                var16 = var19.x6rkDg;
+                var16 = var19.x6rkDp;
                 var16 = var20.bind(var22)(var16);
                 _fun0001_ip = 9; continue _fun0001;
 case 7:
-                var19 = var19.0Q61kJ;
+                var19 = var19.0Q61kF;
                 var16 = var20.bind(var22)(var19);
 case 9:
                 var18['text'] = var16;
@@ -455,7 +455,7 @@ case 12:
                 var25 = var24[var25];
                 var25 = var22.bind(var5)(var25);
                 var25 = var25.t;
-                var25 = var25.pWG4zc;
+                var25 = var25.pWG4ze;
                 var25 = var26.bind(var27)(var25);
                 var17['text'] = var25;
                 var21 = _closure2_slot6;

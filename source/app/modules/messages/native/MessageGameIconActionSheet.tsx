@@ -207,7 +207,7 @@ case 8:
                 var17 = var25[var18];
                 var17 = var19.bind(var5)(var17);
                 var17 = var17.t;
-                var20 = var17.J3s8JC;
+                var20 = var17.J3s8JP;
                 var17 = {};
                 var24 = var24.name;
                 var17['applicationName'] = var24;
@@ -223,7 +223,7 @@ case 8:
                 var18 = var25[var18];
                 var18 = var19.bind(var5)(var18);
                 var18 = var18.t;
-                var19 = var18.BPDKoK;
+                var19 = var18.BPDKoA;
                 var18 = {};
                 var24 = _closure1_slot1;
                 var23 = 14;

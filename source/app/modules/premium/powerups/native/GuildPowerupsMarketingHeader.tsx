@@ -197,7 +197,7 @@ case 10:
             var20 = 12;
             var8 = var8[var20];
             var8 = var9.bind(var4)(var8);
-            var9 = var8.7lwpzc;
+            var9 = var8.7lwpzR;
             var8 = {};
             var12 = '';
             if(!(var4 !== var17)) { _fun0001_ip = 11; continue _fun0001 }
@@ -229,7 +229,7 @@ case 17:
             var15 = _closure1_slot1;
             var14 = var14[var20];
             var14 = var15.bind(var4)(var14);
-            var15 = var14.MNO3sL;
+            var15 = var14.MNO3sG;
             var14 = {};
             var21 = _closure1_slot6;
             var22 = _closure1_slot8;

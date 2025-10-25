@@ -71,7 +71,7 @@ case 3:
             var6 = var6[var11];
             var6 = var10.bind(var4)(var6);
             var6 = var6.t;
-            var6 = var6.3DzNjY;
+            var6 = var6.3DzNjU;
             _fun0001_ip = 4; continue _fun0001;
 case 2:
             var10 = _closure1_slot0;
@@ -79,7 +79,7 @@ case 2:
             var9 = var9[var11];
             var9 = var10.bind(var4)(var9);
             var9 = var9.t;
-            var6 = var9.tdhW5e;
+            var6 = var9.tdhW5b;
 case 4:
             var6 = var7.bind(var8)(var6);
             var1['title'] = var6;

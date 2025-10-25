@@ -435,7 +435,7 @@ case 17:
                             var9 = var11[var9];
                             var9 = var13.bind(var1)(var9);
                             var9 = var9.t;
-                            var9 = var9.13/7kZ;
+                            var9 = var9.13/7kX;
                             var9 = var10.bind(var12)(var9);
                             var5['accessibilityLabel'] = var9;
                             var10 = {};
@@ -606,7 +606,7 @@ case 24:
             var9 = var23[var9];
             var9 = var22.bind(var4)(var9);
             var9 = var9.t;
-            var9 = var9.13/7kZ;
+            var9 = var9.13/7kX;
             var9 = var13.bind(var21)(var9);
             var10['label'] = var9;
             var9 = new Array(1);
@@ -674,7 +674,7 @@ case 0:
                     var2 = var8[var2];
                     var2 = var7.bind(var4)(var2);
                     var2 = var2.t;
-                    var2 = var2.3D5yo6;
+                    var2 = var2.3D5yo/;
                     var2 = var3.bind(var6)(var2);
                     var1['title'] = var2;
                     var2 = _closure2_slot9;

@@ -719,7 +719,7 @@ case 65:
             var1 = var8[var1];
             var1 = var7.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1.khEaRE;
+            var1 = var1.khEaRI;
             var5 = var2.bind(var3)(var1);
 case 38:
             var3 = _closure1_slot39;
@@ -762,7 +762,7 @@ case 68:
             var1 = var7[var1];
             var1 = var6.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1.khEaRE;
+            var1 = var1.khEaRI;
             var15 = var2.bind(var3)(var1);
 case 67:
             if(!(var5 === var4)) { _fun0009_ip = 35; continue _fun0009 }

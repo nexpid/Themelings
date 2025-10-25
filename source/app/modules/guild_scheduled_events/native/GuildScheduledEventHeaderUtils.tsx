@@ -127,7 +127,7 @@ case 19:
             var20 = var24[var20];
             var20 = var23.bind(var13)(var20);
             var20 = var20.t;
-            var20 = var20.WINqKS;
+            var20 = var20.WINqKV;
             var20 = var21.bind(var22)(var20);
             _fun0001_ip = 20; continue _fun0001;
 case 18:
@@ -141,7 +141,7 @@ case 18:
             var21 = var26[var21];
             var21 = var22.bind(var13)(var21);
             var21 = var21.t;
-            var22 = var21.PQlCWl;
+            var22 = var21.PQlCWk;
             var21 = {};
             var21['minutes'] = var25;
             var20 = var23.bind(var24)(var22, var21);
@@ -165,7 +165,7 @@ case 14:
             var20 = var24[var20];
             var20 = var23.bind(var13)(var20);
             var20 = var20.t;
-            var20 = var20.WINqKS;
+            var20 = var20.WINqKV;
             var7 = var21.bind(var22)(var20);
             var6 = var19;
             _fun0001_ip = 16; continue _fun0001;
@@ -189,7 +189,7 @@ case 10:
             var12 = var12[var19];
             var12 = var21.bind(var13)(var12);
             var12 = var12.t;
-            var12 = var12.X2K3//;
+            var12 = var12.X2K3/4;
             var12 = var18.bind(var20)(var12);
             if(!var17) { _fun0001_ip = 21; continue _fun0001 }
 case 22:
@@ -218,7 +218,7 @@ case 26:
             var15 = var15[var19];
             var15 = var18.bind(var13)(var15);
             var15 = var15.t;
-            var15 = var15.TxqPQU;
+            var15 = var15.TxqPQR;
             var12 = var16.bind(var17)(var15);
 case 25:
             var16 = _closure1_slot1;

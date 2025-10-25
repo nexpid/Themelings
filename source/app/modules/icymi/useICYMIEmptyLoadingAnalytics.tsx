@@ -1,4 +1,4 @@
-// app/modules/icymi/native/useICYMIEmptyLoadingAnalytics.tsx
+// app/modules/icymi/useICYMIEmptyLoadingAnalytics.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var3 = exports;
@@ -23,7 +23,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/icymi/native/useICYMIEmptyLoadingAnalytics.tsx';
+    var4 = 'modules/icymi/useICYMIEmptyLoadingAnalytics.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function useICYMIEmptyLoadingAnalytics(arg1, arg2) {
         var2 = arg1;

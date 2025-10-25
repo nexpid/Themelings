@@ -236,7 +236,7 @@ case 13:
                     var8 = var14[var8];
                     var8 = var13.bind(var2)(var8);
                     var8 = var8.t;
-                    var8 = var8.ujC3ZW;
+                    var8 = var8.ujC3ZS;
                     var6 = var9.bind(var12)(var8);
 case 12:
                     _fun0002_ip = 14; continue _fun0002;
@@ -266,7 +266,7 @@ case 8:
                     var8 = var14[var8];
                     var8 = var13.bind(var2)(var8);
                     var8 = var8.t;
-                    var8 = var8.6639Oz;
+                    var8 = var8.6639O5;
                     var6 = var9.bind(var12)(var8);
 case 15:
                     var3['accessibilityLabel'] = var6;

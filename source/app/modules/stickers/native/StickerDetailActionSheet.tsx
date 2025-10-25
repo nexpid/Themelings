@@ -296,7 +296,7 @@ case 12:
                         var14 = var3.bind(var5)(var8, var2);
                         _fun0005_ip = 13; continue _fun0005;
 case 11:
-                        var2 = var1.auckX1;
+                        var2 = var1.auckXz;
                         var1 = {};
                         var8 = var12.name;
                         var1['stickerPackName'] = var8;
@@ -386,7 +386,7 @@ case 17:
                         var11 = var11[var15];
                         var11 = var14.bind(var4)(var11);
                         var11 = var11.t;
-                        var11 = var11.GPy3Ag;
+                        var11 = var11.GPy3Ar;
                         var11 = var12.bind(var13)(var11);
                         var7['text'] = var11;
                         var10 = function onPress() {
@@ -678,7 +678,7 @@ case 37:
                 var1 = var8[var20];
                 var1 = var9.bind(var5)(var1);
                 var1 = var1.t;
-                var7 = var1.hGWuxc;
+                var7 = var1.hGWuxU;
                 var1 = {};
                 var12 = function openPremiumSettings() {
                     var3 = _closure1_slot1;
@@ -727,7 +727,7 @@ case 36:
                 var10 = var8[var20];
                 var10 = var9.bind(var5)(var10);
                 var10 = var10.t;
-                var10 = var10.IuXYcn;
+                var10 = var10.IuXYch;
                 var24 = var12.bind(var11)(var10);
                 var7 = true;
                 var1 = 'Custom Sticker Popout (Upsell)';
@@ -745,7 +745,7 @@ case 40:
                 var1 = 'Custom Sticker Popout (Upsell)';
                 _fun0007_ip = 38; continue _fun0007;
 case 39:
-                var10 = var10.jNphpq;
+                var10 = var10.jNphpt;
                 var24 = var12.bind(var11)(var10);
                 var7 = true;
                 var1 = 'Custom Sticker Popout (Upsell)';
@@ -763,18 +763,18 @@ case 44:
                 var9 = var10.bind(var11)(var9);
                 _fun0007_ip = 45; continue _fun0007;
 case 43:
-                var12 = var8.yHmoR0;
+                var12 = var8.yHmoR9;
                 var9 = var10.bind(var11)(var12);
 case 45:
                 _fun0007_ip = 46; continue _fun0007;
 case 41:
                 if(var6) { _fun0007_ip = 47; continue _fun0007 }
 case 48:
-                var6 = var8.1f6D9v;
+                var6 = var8.1f6D9m;
                 var6 = var10.bind(var11)(var6);
                 _fun0007_ip = 49; continue _fun0007;
 case 47:
-                var8 = var8.fZ0DiI;
+                var8 = var8.fZ0DiG;
                 var6 = var10.bind(var11)(var8);
 case 49:
                 var9 = var6;
@@ -929,7 +929,7 @@ case 58:
                 var22 = var27[var20];
                 var22 = var26.bind(var5)(var22);
                 var22 = var22.t;
-                var22 = var22.gl/XHB;
+                var22 = var22.gl/XHJ;
                 var22 = var24.bind(var25)(var22);
                 var11['text'] = var22;
                 var22 = function onPress() {
@@ -985,7 +985,7 @@ case 60:
                 var23 = var26[var20];
                 var23 = var27.bind(var5)(var23);
                 var23 = var23.t;
-                var23 = var23.riu2R0;
+                var23 = var23.riu2R5;
                 var23 = var24.bind(var25)(var23);
                 var11['text'] = var23;
                 var14 = function onPress() {
@@ -1092,11 +1092,11 @@ case 67:
                 var16 = var16.t;
                 if(var15) { _fun0007_ip = 69; continue _fun0007 }
 case 70:
-                var15 = var16.pDE7GR;
+                var15 = var16.pDE7Gb;
                 var15 = var17.bind(var18)(var15);
                 _fun0007_ip = 71; continue _fun0007;
 case 69:
-                var16 = var16.kx6pEB;
+                var16 = var16.kx6pEG;
                 var15 = var17.bind(var18)(var16);
 case 71:
                 var12['title'] = var15;
@@ -1214,7 +1214,7 @@ case 73:
                 var11 = var16[var12];
                 var11 = var15.bind(var4)(var11);
                 var11 = var11.t;
-                var13 = var11.hGWuxc;
+                var13 = var11.hGWuxU;
                 var11 = {};
                 var18 = function openPremiumSettings() {
                     var3 = _closure1_slot1;

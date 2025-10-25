@@ -607,7 +607,7 @@ case 54:
                     var1 = var9[var1];
                     var1 = var4.bind(var8)(var1);
                     var1 = var1.t;
-                    var4 = var1.9rfonp;
+                    var4 = var1.9rfonh;
                     var1 = {};
                     var7 = _closure2_slot3;
                     var1['date'] = var7;
@@ -650,7 +650,7 @@ case 47:
                     var1 = var8[var1];
                     var1 = var2.bind(var6)(var1);
                     var1 = var1.t;
-                    var2 = var1.OKzaNz;
+                    var2 = var1.OKzaN3;
                     var1 = {};
                     var8 = _closure2_slot4;
                     var8 = var5 == var8;
@@ -680,7 +680,7 @@ case 57:
                     var2 = var7[var2];
                     var2 = var6.bind(var5)(var2);
                     var2 = var2.t;
-                    var2 = var2.wuRE8P;
+                    var2 = var2.wuRE8M;
                     var1 = var3.bind(var4)(var2);
 case 62:
                     return var1;
@@ -785,7 +785,7 @@ case 71:
             var20 = var25[var20];
             var20 = var21.bind(var4)(var20);
             var20 = var20.t;
-            var21 = var20.9rfonp;
+            var21 = var20.9rfonh;
             var20 = {};
             var20['date'] = var24;
             var20 = var22.bind(var23)(var21, var20);
@@ -965,7 +965,7 @@ case 79:
             var16 = var21[var16];
             var16 = var17.bind(var4)(var16);
             var16 = var16.t;
-            var17 = var16.zIT9YG;
+            var17 = var16.zIT9YA;
             var16 = {};
             var20 = function applicationHook() {
                 var1 = _closure2_slot0;
@@ -1076,7 +1076,7 @@ case 84:
             var13 = var10[var13];
             var13 = var7.bind(var5)(var13);
             var13 = var13.t;
-            var13 = var13.3fe7U1;
+            var13 = var13.3fe7U5;
             var13 = var14.bind(var15)(var13);
             var2['title'] = var13;
             var12 = var12.cardTitle;

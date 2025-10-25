@@ -500,7 +500,7 @@ case 15:
                 var20 = var17[var20];
                 var20 = var21.bind(var4)(var20);
                 var20 = var20.t;
-                var21 = var20.zMcvcH;
+                var21 = var20.zMcvcA;
                 var20 = {};
                 var24 = var24.length;
                 var20['copies'] = var24;
@@ -776,7 +776,7 @@ case 53:
                 var3 = var3[var12];
                 var3 = var10.bind(var11)(var3);
                 var3 = var3.t;
-                var3 = var3.Vd3Iu7;
+                var3 = var3.Vd3Iu8;
                 _fun0006_ip = 54; continue _fun0006;
 case 52:
                 var10 = _closure1_slot0;
@@ -784,7 +784,7 @@ case 52:
                 var2 = var2[var12];
                 var2 = var10.bind(var11)(var2);
                 var2 = var2.t;
-                var3 = var2.rCJvqq;
+                var3 = var2.rCJvqo;
 case 54:
                 var2 = {};
                 var9 = var9.name;

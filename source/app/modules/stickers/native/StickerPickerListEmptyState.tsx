@@ -124,7 +124,7 @@ case 4:
             var10 = var9[var10];
             var10 = var13.bind(var4)(var10);
             var10 = var10.t;
-            var10 = var10.jyiGfX;
+            var10 = var10.jyiGfc;
             var10 = var11.bind(var12)(var10);
             var5['body'] = var10;
             var10 = var7.emptyStateBody;

@@ -481,7 +481,7 @@ case 32:
             var16 = var21[var17];
             var16 = var20.bind(var4)(var16);
             var16 = var16.t;
-            var18 = var16.gVw57u;
+            var18 = var16.gVw57p;
             var16 = {};
             var16 = var22.bind(var19)(var18, var16);
             _fun0001_ip = 33; continue _fun0001;
@@ -490,7 +490,7 @@ case 31:
             var17 = var21[var17];
             var17 = var20.bind(var4)(var17);
             var17 = var17.t;
-            var17 = var17.nPGLFR;
+            var17 = var17.nPGLFQ;
             var16 = var18.bind(var19)(var17);
 case 33:
             var14['children'] = var16;

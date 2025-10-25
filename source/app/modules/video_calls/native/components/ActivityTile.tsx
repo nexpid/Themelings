@@ -308,7 +308,7 @@ case 24:
             var1 = var16[var1];
             var1 = var14.bind(var5)(var1);
             var1 = var1.t;
-            var1 = var1.WCNe7O;
+            var1 = var1.WCNe7F;
             var21 = var3.bind(var11)(var1);
 case 23:
             var3 = _closure1_slot7;
@@ -406,7 +406,7 @@ case 39:
             var2 = var14[var2];
             var2 = var3.bind(var5)(var2);
             var2 = var2.t;
-            var3 = var2.cpe6CA;
+            var3 = var2.cpe6CK;
             var2 = {};
             var2['username'] = var12;
             var12 = var26.length;
@@ -434,7 +434,7 @@ case 43:
             var4 = var24[var22];
             var4 = var19.bind(var5)(var4);
             var4 = var4.t;
-            var11 = var4.Yw5Hr6;
+            var11 = var4.Yw5Hr2;
             var4 = {};
             var4['applicationName'] = var21;
             var4 = var12.bind(var14)(var11, var4);
@@ -584,7 +584,7 @@ case 49:
             var22 = var21[var22];
             var22 = var25.bind(var5)(var22);
             var22 = var22.t;
-            var22 = var22.4i2vj4;
+            var22 = var22.4i2vj+;
             var22 = var23.bind(var24)(var22);
             var16['text'] = var22;
             var19 = var21[var19];

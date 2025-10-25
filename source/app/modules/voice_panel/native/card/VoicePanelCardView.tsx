@@ -833,7 +833,7 @@ case 44:
                 var3 = var10[var3];
                 var3 = var6.bind(var1)(var3);
                 var3 = var3.t;
-                var6 = var3.9NqwWV;
+                var6 = var3.9NqwWZ;
                 var3 = {};
                 var9 = var9.username;
                 var3['username'] = var9;

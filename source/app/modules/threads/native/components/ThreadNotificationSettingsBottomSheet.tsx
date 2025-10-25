@@ -110,7 +110,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var15[var11];
         var7 = var14.bind(var4)(var7);
         var7 = var7.t;
-        var7 = var7.h850Sk;
+        var7 = var7.h850Ss;
         var7 = var13.bind(var16)(var7);
         var5['title'] = var7;
         var6 = var8.bind(var4)(var6, var5);
@@ -130,7 +130,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var11 = var15[var11];
         var11 = var14.bind(var4)(var11);
         var11 = var11.t;
-        var11 = var11.h850Sk;
+        var11 = var11.h850Ss;
         var11 = var12.bind(var13)(var11);
         var6['accessibilityLabel'] = var11;
         var11 = 'radiogroup';

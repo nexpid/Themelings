@@ -105,7 +105,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var16 = var13[var9];
         var16 = var10.bind(var4)(var16);
         var16 = var16.t;
-        var16 = var16.a5QL29;
+        var16 = var16.a5QL24;
         var16 = var17.bind(var18)(var16);
         var7['label'] = var16;
         var7['onValueChange'] = var15;
@@ -132,7 +132,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = var13[var9];
         var9 = var10.bind(var4)(var9);
         var9 = var9.t;
-        var10 = var9.djhtur;
+        var10 = var9.djhtuj;
         var9 = {};
         var13 = function learnMoreHook(arg1, arg2) {
             var5 = _closure1_slot3;

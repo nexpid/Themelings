@@ -129,7 +129,7 @@ case 7:
             var11 = var16[var11];
             var11 = var15.bind(var4)(var11);
             var11 = var11.t;
-            var11 = var11.sEAnVF;
+            var11 = var11.sEAnVH;
             var11 = var13.bind(var14)(var11);
             _fun0001_ip = 8; continue _fun0001;
 case 6:
@@ -149,7 +149,7 @@ case 6:
             var16 = var20[var16];
             var16 = var19.bind(var4)(var16);
             var16 = var16.t;
-            var16 = var16.sEAnVF;
+            var16 = var16.sEAnVH;
             var16 = var17.bind(var18)(var16);
             var13['children'] = var16;
             var11 = var15.bind(var4)(var14, var13);

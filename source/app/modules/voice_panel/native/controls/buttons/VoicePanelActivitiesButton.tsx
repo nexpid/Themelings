@@ -271,7 +271,7 @@ case 5:
                 var5 = var9[var5];
                 var5 = var8.bind(var4)(var5);
                 var5 = var5.t;
-                var5 = var5.IC5Anp;
+                var5 = var5.IC5Ann;
                 var5 = var6.bind(var7)(var5);
                 var1['accessibilityLabel'] = var5;
                 if(var10) { _fun0002_ip = 7; continue _fun0002 }

@@ -992,7 +992,7 @@ case 41:
         var18 = var16.bind(var12)(var11, var10);
         var _closure2_slot9 = var18;
         var16 = var12.useCallback;
-        var11 = function W(arg1) {
+        var11 = function Y(arg1) {
             _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
                 var4 = arg1;
@@ -1189,7 +1189,7 @@ case 77:
         var5 = var15[var11];
         var5 = var14.bind(var4)(var5);
         var5 = var5.t;
-        var5 = var5.lwy6aW;
+        var5 = var5.lwy6aX;
         var5 = var21.bind(var22)(var5);
         var5 = var10.bind(var4)(var9, var5);
         var10 = var5.accessibilityActions;
@@ -1420,7 +1420,7 @@ case 86:
         var11 = var15[var11];
         var11 = var14.bind(var4)(var11);
         var11 = var11.t;
-        var11 = var11.lwy6aW;
+        var11 = var11.lwy6aX;
         var11 = var12.bind(var13)(var11);
         var5['accessibilityLabel'] = var11;
         var5['accessibilityActions'] = var10;

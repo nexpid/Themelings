@@ -98,7 +98,7 @@ case 5:
             var9 = var9[var14];
             var9 = var10.bind(var4)(var9);
             var9 = var9.t;
-            var10 = var9.EvDn1N;
+            var10 = var9.EvDn1D;
             var9 = {};
             var13 = var13.name;
             var9['name'] = var13;
@@ -117,7 +117,7 @@ case 8:
             var10 = var10[var14];
             var10 = var13.bind(var4)(var10);
             var10 = var10.t;
-            var10 = var10.S0W8Z2;
+            var10 = var10.S0W8Z5;
             var9 = var11.bind(var12)(var10);
 case 7:
             var2['actionLabel'] = var9;

@@ -124,7 +124,7 @@ case 12: // try_start_2 // catch_target0
                     var4 = var11[var4];
                     var4 = var10.bind(var6)(var4);
                     var4 = var4.t;
-                    var4 = var4.N2yb9f;
+                    var4 = var4.N2yb9a;
                     var4 = var8.bind(var9)(var4);
                     if(!(var7 !== var4)) { _fun0001_ip = 13; continue _fun0001 }
 case 14:

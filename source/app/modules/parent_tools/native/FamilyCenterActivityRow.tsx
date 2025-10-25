@@ -424,7 +424,7 @@ case 11:
             var12 = 20;
             var12 = var17[var12];
             var12 = var13.bind(var4)(var12);
-            var13 = var12.5JmNgo;
+            var13 = var12.5JmNgg;
             var12 = {};
             var16 = var16.approximateMemberCount;
             var12['members'] = var16;

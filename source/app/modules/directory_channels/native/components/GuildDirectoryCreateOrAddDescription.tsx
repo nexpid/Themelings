@@ -238,7 +238,7 @@ case 2:
         var19 = var16[var12];
         var19 = var15.bind(var4)(var19);
         var19 = var19.t;
-        var19 = var19.Ie60WV;
+        var19 = var19.Ie60Wc;
         var19 = var20.bind(var21)(var19);
         var17['children'] = var19;
         var17 = var3.bind(var4)(var18, var17);
@@ -260,7 +260,7 @@ case 2:
         var12 = var16[var12];
         var12 = var15.bind(var4)(var12);
         var12 = var12.t;
-        var12 = var12.H9jxS0;
+        var12 = var12.H9jxS1;
         var12 = var13.bind(var14)(var12);
         var9['buttonLabel'] = var12;
         var9['directoryChannelId'] = var11;

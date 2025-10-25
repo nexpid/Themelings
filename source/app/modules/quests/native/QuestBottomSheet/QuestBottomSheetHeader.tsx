@@ -298,7 +298,7 @@ case 19:
                             var2 = var9[var2];
                             var2 = var4.bind(var8)(var2);
                             var2 = var2.t;
-                            var4 = var2.NIimTk;
+                            var4 = var2.NIimTt;
                             var2 = {};
                             var9 = _closure3_slot3;
                             var2['gameTitle'] = var9;
@@ -319,7 +319,7 @@ case 21:
                             var4 = var10[var4];
                             var4 = var5.bind(var8)(var4);
                             var4 = var4.t;
-                            var5 = var4.hkJ+Gh;
+                            var5 = var4.hkJ+Gs;
                             var4 = {};
                             var10 = _closure3_slot3;
                             var4['gameTitle'] = var10;
@@ -341,7 +341,7 @@ case 17:
                             var4 = var10[var4];
                             var4 = var5.bind(var8)(var4);
                             var4 = var4.t;
-                            var5 = var4.2GJLKy;
+                            var5 = var4.2GJLK2;
                             var4 = {};
                             var10 = _closure3_slot8;
                             var4['targetMinutes'] = var10;
@@ -361,7 +361,7 @@ case 15:
                             var4 = var10[var4];
                             var4 = var9.bind(var8)(var4);
                             var4 = var4.t;
-                            var4 = var4.svdwbG;
+                            var4 = var4.svdwbA;
                             var2 = var5.bind(var7)(var4);
 case 24:
                             _fun0003_ip = 25; continue _fun0003;
@@ -376,7 +376,7 @@ case 13:
                             var3 = var9[var3];
                             var3 = var7.bind(var8)(var3);
                             var3 = var3.t;
-                            var3 = var3.drVw4e;
+                            var3 = var3.drVw4T;
                             var2 = var4.bind(var5)(var3);
 case 25:
                             return var2;
@@ -399,14 +399,14 @@ case 8:
                             var2 = var2.t;
                             if(var1) { _fun0003_ip = 26; continue _fun0003 }
 case 27:
-                            var3 = var2.IpoqqK;
+                            var3 = var2.IpoqqA;
                             var1 = {};
                             var7 = _closure3_slot11;
                             var1['questReward'] = var7;
                             var1 = var4.bind(var5)(var3, var1);
                             _fun0003_ip = 28; continue _fun0003;
 case 26:
-                            var3 = var2.ttFsLi;
+                            var3 = var2.ttFsLj;
                             var2 = {};
                             var6 = _closure3_slot11;
                             var2['reward'] = var6;
@@ -425,7 +425,7 @@ case 6:
                             var1 = var6[var1];
                             var1 = var5.bind(var4)(var1);
                             var1 = var1.t;
-                            var1 = var1.ij5E//;
+                            var1 = var1.ij5E/5;
                             var1 = var2.bind(var3)(var1);
                             return var1;
                         }

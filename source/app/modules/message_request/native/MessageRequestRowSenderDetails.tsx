@@ -254,7 +254,7 @@ case 16:
             var23 = var28[var23];
             var23 = var27.bind(var4)(var23);
             var23 = var23.t;
-            var23 = var23.30mdIy;
+            var23 = var23.30mdIx;
             var22 = var25.bind(var26)(var23);
 case 15:
             var15['children'] = var22;

@@ -375,7 +375,7 @@ case 28:
             var7 = var19[var7];
             var7 = var18.bind(var4)(var7);
             var7 = var7.t;
-            var7 = var7.yO4lAA;
+            var7 = var7.yO4lAM;
             var7 = var12.bind(var15)(var7);
             var5['accessibilityLabel'] = var7;
             var6 = var8.bind(var4)(var6, var5);

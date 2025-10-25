@@ -168,7 +168,7 @@ case 22:
             var1 = var15[var1];
             var1 = var2.bind(var4)(var1);
             var1 = var1.t;
-            var2 = var1.x2dQxM;
+            var2 = var1.x2dQxN;
             var1 = {};
             var1['onClick'] = var13;
             var21 = var5.bind(var8)(var2, var1);
@@ -184,7 +184,7 @@ case 19:
             var1 = var15[var1];
             var1 = var16.bind(var4)(var1);
             var1 = var1.t;
-            var2 = var1.zzyLEB;
+            var2 = var1.zzyLEK;
             var1 = {};
             var15 = var15[var18];
             var16 = var16.bind(var4)(var15);
@@ -206,7 +206,7 @@ case 17:
             var1 = var15[var1];
             var1 = var2.bind(var4)(var1);
             var1 = var1.t;
-            var2 = var1.gMVjeX;
+            var2 = var1.gMVjeS;
             var1 = {};
             var1['nitroTierName'] = var14;
             var1['onClick'] = var13;
@@ -223,7 +223,7 @@ case 15:
             var1 = var15[var1];
             var1 = var2.bind(var4)(var1);
             var1 = var1.t;
-            var2 = var1.tw/SSk;
+            var2 = var1.tw/SSq;
             var1 = {};
             var1['nitroTierName'] = var14;
             var1['onClick'] = var13;
@@ -332,11 +332,11 @@ case 27:
             var13 = var13.t;
             if(var11) { _fun0002_ip = 28; continue _fun0002 }
 case 29:
-            var11 = var13.8x0jKS;
+            var11 = var13.8x0jKT;
             var11 = var14.bind(var15)(var11);
             _fun0002_ip = 30; continue _fun0002;
 case 28:
-            var13 = var13.cM8bb2;
+            var13 = var13.cM8bbx;
             var11 = var14.bind(var15)(var13);
 case 30:
             var6['text'] = var11;

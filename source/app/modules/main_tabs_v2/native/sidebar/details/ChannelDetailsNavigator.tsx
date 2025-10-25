@@ -96,7 +96,7 @@ case 5:
             var9 = var8[var9];
             var9 = var12.bind(var5)(var9);
             var9 = var9.t;
-            var9 = var9.rBIGBA;
+            var9 = var9.rBIGBL;
             var9 = var10.bind(var11)(var9);
             var2['accessibilityLabel'] = var9;
             var2['onPress'] = var7;
@@ -485,7 +485,7 @@ case 15:
                 var3 = var10[var3];
                 var3 = var9.bind(var4)(var3);
                 var3 = var3.t;
-                var3 = var3.w4m94+;
+                var3 = var3.w4m945;
                 var3 = var7.bind(var8)(var3);
                 var1['title'] = var3;
                 var3 = _closure1_slot14;
@@ -539,7 +539,7 @@ case 15:
                 var4 = var11[var4];
                 var4 = var10.bind(var5)(var4);
                 var4 = var4.t;
-                var4 = var4.B2panJ;
+                var4 = var4.B2panI;
                 var4 = var8.bind(var9)(var4);
                 var1['title'] = var4;
                 var4 = _closure1_slot14;

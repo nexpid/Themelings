@@ -73,7 +73,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = var11[var7];
         var8 = var10.bind(var3)(var8);
         var8 = var8.t;
-        var8 = var8.rBw4cH;
+        var8 = var8.rBw4cE;
         var8 = var9.bind(var12)(var8);
         var1['header'] = var8;
         var8 = var11[var7];
@@ -83,7 +83,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = var11[var7];
         var8 = var10.bind(var3)(var8);
         var8 = var8.t;
-        var8 = var8.mKHibW;
+        var8 = var8.mKHibc;
         var8 = var9.bind(var12)(var8);
         var1['body'] = var8;
         var8 = var11[var7];
@@ -93,7 +93,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var11[var7];
         var7 = var10.bind(var3)(var7);
         var7 = var7.t;
-        var7 = var7.RzWDqa;
+        var7 = var7.RzWDqY;
         var7 = var8.bind(var9)(var7);
         var1['cta'] = var7;
         var6 = function onCTAPress() {

@@ -216,7 +216,7 @@ case 24:
             var3 = var28[var27];
             var3 = var23.bind(var26)(var3);
             var3 = var3.t;
-            var23 = var3.aJUdOj;
+            var23 = var3.aJUdOi;
             var3 = {};
             var31 = _closure1_slot1;
             var30 = 11;
@@ -249,7 +249,7 @@ case 32:
             var22 = var28[var27];
             var22 = var23.bind(var26)(var22);
             var22 = var22.t;
-            var23 = var22.TvX209;
+            var23 = var22.TvX207;
             var22 = {};
             var22['requestCooldownDuration'] = var29;
             var29 = _closure1_slot1;
@@ -274,7 +274,7 @@ case 34:
             var4 = var4[var27];
             var4 = var22.bind(var26)(var4);
             var4 = var4.t;
-            var22 = var4.b6h59v;
+            var22 = var4.b6h59n;
             var4 = {};
             var25 = _closure1_slot8;
             var25 = var25.GUIDELINES;
@@ -291,7 +291,7 @@ case 33:
             var22 = var22[var27];
             var22 = var23.bind(var26)(var22);
             var22 = var22.t;
-            var23 = var22.0o1Q+v;
+            var23 = var22.0o1Q+t;
             var22 = {};
             var28 = _closure1_slot8;
             var28 = var28.GUIDELINES;
@@ -342,7 +342,7 @@ case 45:
             var21 = var21[var27];
             var21 = var22.bind(var26)(var21);
             var21 = var21.t;
-            var22 = var21.wbVIUF;
+            var22 = var21.wbVIUB;
             var21 = {};
             var7 = var24.bind(var25)(var22, var21);
 case 42:

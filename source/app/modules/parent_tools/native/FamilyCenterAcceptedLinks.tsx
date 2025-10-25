@@ -45,7 +45,7 @@ case 3:
             var12 = 10;
             var12 = var17[var12];
             var12 = var13.bind(var5)(var12);
-            var13 = var12.T7DUoa;
+            var13 = var12.T7DUoU;
             var12 = {};
             var17 = var16 == var18;
             var16 = undefined;
@@ -245,7 +245,7 @@ case 8:
             var19 = 10;
             var1 = var9[var19];
             var1 = var13.bind(var4)(var1);
-            var1 = var1.+tnO39;
+            var1 = var1.+tnO34;
             var2 = var2.bind(var7)(var1, var11);
             var1 = var9[var16];
             var1 = var6.bind(var4)(var1);
@@ -253,7 +253,7 @@ case 8:
             var7 = var8.formatToPlainString;
             var1 = var9[var19];
             var1 = var13.bind(var4)(var1);
-            var1 = var1.pu6/U1;
+            var1 = var1.pu6/U0;
             var1 = var7.bind(var8)(var1, var11);
             var8 = var3.bind(var5)(var2, var1);
             var3 = _closure1_slot7;
@@ -320,7 +320,7 @@ case 9:
             var16 = var17.string;
             var15 = var15[var19];
             var15 = var18.bind(var4)(var15);
-            var15 = var15.C4ScLC;
+            var15 = var15.C4ScLD;
             var15 = var16.bind(var17)(var15);
             var12['text'] = var15;
             var12 = var14.bind(var4)(var13, var12);

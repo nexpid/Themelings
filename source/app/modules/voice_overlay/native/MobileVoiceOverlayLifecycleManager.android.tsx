@@ -358,7 +358,7 @@ case 39:
     var9 = var6[var8];
     var9 = var5.bind(var1)(var9);
     var9 = var9.t;
-    var9 = var9.CVxXDA;
+    var9 = var9.CVxXDM;
     var9 = var10.bind(var11)(var9);
     var4['useSpeaker'] = var9;
     var9 = var6[var8];
@@ -368,7 +368,7 @@ case 39:
     var9 = var6[var8];
     var9 = var5.bind(var1)(var9);
     var9 = var9.t;
-    var9 = var9.w4m94+;
+    var9 = var9.w4m945;
     var9 = var10.bind(var11)(var9);
     var4['mute'] = var9;
     var9 = var6[var8];
@@ -378,7 +378,7 @@ case 39:
     var9 = var6[var8];
     var9 = var5.bind(var1)(var9);
     var9 = var9.t;
-    var9 = var9./lEZpq;
+    var9 = var9./lEZpt;
     var9 = var10.bind(var11)(var9);
     var4['disconnectFromVoice'] = var9;
     var9 = var6[var8];
@@ -388,7 +388,7 @@ case 39:
     var9 = var6[var8];
     var9 = var5.bind(var1)(var9);
     var9 = var9.t;
-    var9 = var9.JYzIWV;
+    var9 = var9.JYzIWe;
     var9 = var10.bind(var11)(var9);
     var4['getInvite'] = var9;
     var9 = var6[var8];
@@ -398,7 +398,7 @@ case 39:
     var9 = var6[var8];
     var9 = var5.bind(var1)(var9);
     var9 = var9.t;
-    var9 = var9.zJvWqa;
+    var9 = var9.zJvWqU;
     var9 = var10.bind(var11)(var9);
     var4['switchChannels'] = var9;
     var9 = var6[var8];
@@ -408,7 +408,7 @@ case 39:
     var9 = var6[var8];
     var9 = var5.bind(var1)(var9);
     var9 = var9.t;
-    var9 = var9.G/Ez6u;
+    var9 = var9.G/Ez6p;
     var9 = var10.bind(var11)(var9);
     var4['openDiscord'] = var9;
     var9 = var6[var8];
@@ -418,7 +418,7 @@ case 39:
     var9 = var6[var8];
     var9 = var5.bind(var1)(var9);
     var9 = var9.t;
-    var9 = var9.OhctGx;
+    var9 = var9.OhctG7;
     var9 = var10.bind(var11)(var9);
     var4['inviteLinkCopied'] = var9;
     var9 = var6[var8];
@@ -428,7 +428,7 @@ case 39:
     var9 = var6[var8];
     var9 = var5.bind(var1)(var9);
     var9 = var9.t;
-    var9 = var9.r2pts7;
+    var9 = var9.r2ptsz;
     var9 = var10.bind(var11)(var9);
     var4['channelSelect'] = var9;
     var9 = var6[var8];
@@ -438,7 +438,7 @@ case 39:
     var9 = var6[var8];
     var9 = var5.bind(var1)(var9);
     var9 = var9.t;
-    var9 = var9.gaifwc;
+    var9 = var9.gaifwY;
     var9 = var10.bind(var11)(var9);
     var4['closeWindow'] = var9;
     var9 = var6[var8];
@@ -448,7 +448,7 @@ case 39:
     var9 = var6[var8];
     var9 = var5.bind(var1)(var9);
     var9 = var9.t;
-    var9 = var9.wM7uRE;
+    var9 = var9.wM7uRI;
     var9 = var10.bind(var11)(var9);
     var4['searchChannels'] = var9;
     var9 = var6[var8];
@@ -458,7 +458,7 @@ case 39:
     var8 = var6[var8];
     var8 = var5.bind(var1)(var8);
     var8 = var8.t;
-    var8 = var8.wk3qsL;
+    var8 = var8.wk3qsA;
     var8 = var9.bind(var10)(var8);
     var4['noResults'] = var8;
     var _closure1_slot23 = var4;

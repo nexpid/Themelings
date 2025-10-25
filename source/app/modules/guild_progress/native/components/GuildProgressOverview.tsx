@@ -325,7 +325,7 @@ case 11:
             var7 = var9.bind(var10)(var7);
             _fun0001_ip = 12; continue _fun0001;
 case 10:
-            var8 = var8.NzxWjY;
+            var8 = var8.NzxWjb;
             var7 = var9.bind(var10)(var8);
 case 12:
             var1['title'] = var7;

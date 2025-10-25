@@ -267,7 +267,7 @@ case 16:
             var7 = var10[var6];
             var7 = var9.bind(var1)(var7);
             var7 = var7.t;
-            var7 = var7.CYVgLC;
+            var7 = var7.CYVgLI;
             var7 = var8.bind(var11)(var7);
             var2['body'] = var7;
             var7 = var10[var6];
@@ -277,7 +277,7 @@ case 16:
             var7 = var10[var6];
             var7 = var9.bind(var1)(var7);
             var7 = var7.t;
-            var7 = var7.f3Pet7;
+            var7 = var7.f3Pet9;
             var7 = var8.bind(var11)(var7);
             var2['cancelText'] = var7;
             var7 = var10[var6];
@@ -287,7 +287,7 @@ case 16:
             var6 = var10[var6];
             var6 = var9.bind(var1)(var6);
             var6 = var6.t;
-            var6 = var6.BddRzc;
+            var6 = var6.BddRzS;
             var6 = var7.bind(var8)(var6);
             var2['confirmText'] = var6;
             var5 = function onConfirm() {

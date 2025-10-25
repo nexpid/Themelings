@@ -89,7 +89,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var12 = var17[var13];
         var12 = var16.bind(var3)(var12);
         var12 = var12.t;
-        var12 = var12.yeYaHR;
+        var12 = var12.yeYaHf;
         var12 = var14.bind(var15)(var12);
         var7['title'] = var12;
         var7 = var4.bind(var3)(var8, var7);
@@ -126,7 +126,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var13 = var17[var13];
         var13 = var16.bind(var3)(var13);
         var13 = var13.t;
-        var13 = var13.m8xstr;
+        var13 = var13.m8xsti;
         var13 = var14.bind(var15)(var13);
         var10['label'] = var13;
         var12 = var12.ALPHABETICAL;

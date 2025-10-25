@@ -379,7 +379,7 @@ case 50:
             var2 = var7[var2];
             var2 = var6.bind(var5)(var2);
             var2 = var2.t;
-            var2 = var2.HFvFtb;
+            var2 = var2.HFvFte;
             var2 = var3.bind(var4)(var2);
             return var2;
 case 48:
@@ -393,7 +393,7 @@ case 48:
             var2 = var7[var2];
             var2 = var6.bind(var5)(var2);
             var2 = var2.t;
-            var2 = var2.3NlTYW;
+            var2 = var2.3NlTYU;
             var2 = var3.bind(var4)(var2);
             return var2;
 case 46:
@@ -407,7 +407,7 @@ case 46:
             var1 = var6[var1];
             var1 = var4.bind(var5)(var1);
             var1 = var1.t;
-            var1 = var1.iNR25u;
+            var1 = var1.iNR25n;
             var1 = var2.bind(var3)(var1);
             return var1;
         }

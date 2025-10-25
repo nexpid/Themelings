@@ -255,7 +255,7 @@ case 8:
                     var2 = var8[var2];
                     var2 = var7.bind(var3)(var2);
                     var2 = var2.t;
-                    var3 = var2.e3OlfH;
+                    var3 = var2.e3OlfB;
                     var2 = {};
                     var7 = function rewardHook() {
                         var4 = _closure1_slot6;
@@ -334,7 +334,7 @@ case 20:
                     var4 = var10[var4];
                     var4 = var6.bind(var8)(var4);
                     var4 = var4.t;
-                    var6 = var4.+8JB6e;
+                    var6 = var4.+8JB6Y;
                     var4 = {};
                     var10 = _closure2_slot7;
                     var4['gameTitle'] = var10;
@@ -352,7 +352,7 @@ case 17:
                     var4 = var10[var4];
                     var4 = var6.bind(var8)(var4);
                     var4 = var4.t;
-                    var6 = var4.9PeldX;
+                    var6 = var4.9Peldf;
                     var4 = {};
                     var10 = _closure2_slot7;
                     var4['gameName'] = var10;
@@ -370,7 +370,7 @@ case 15:
                     var3 = var9[var3];
                     var3 = var4.bind(var8)(var3);
                     var3 = var3.t;
-                    var4 = var3.boMftL;
+                    var4 = var3.boMftC;
                     var3 = {};
                     var8 = _closure2_slot7;
                     var3['gameName'] = var8;
@@ -389,7 +389,7 @@ case 13:
                     var3 = var9[var3];
                     var3 = var8.bind(var4)(var3);
                     var3 = var3.t;
-                    var4 = var3.E2R8VV;
+                    var4 = var3.E2R8VX;
                     var3 = {};
                     var8 = _closure2_slot7;
                     var3['gameName'] = var8;
@@ -408,7 +408,7 @@ case 11:
                     var3 = var9[var3];
                     var3 = var8.bind(var7)(var3);
                     var3 = var3.t;
-                    var3 = var3.04ateH;
+                    var3 = var3.04ateG;
                     var2 = var4.bind(var6)(var3);
 case 24:
                     return var2;
@@ -434,7 +434,7 @@ case 9:
                     var1 = var8[var1];
                     var1 = var7.bind(var2)(var1);
                     var1 = var1.t;
-                    var2 = var1.aFaRsr;
+                    var2 = var1.aFaRso;
                     var1 = {};
                     var1['minutesLeft'] = var6;
                     var5 = function minutesHook(arg1) {
@@ -537,7 +537,7 @@ case 30:
             var12 = var17[var12];
             var12 = var13.bind(var4)(var12);
             var12 = var12.t;
-            var13 = var12.lIFg6O;
+            var13 = var12.lIFg6I;
             var12 = {};
             var16 = var16.config;
             var16 = var16.messages;

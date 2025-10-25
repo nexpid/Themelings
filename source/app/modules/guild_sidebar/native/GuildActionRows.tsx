@@ -243,11 +243,11 @@ case 8:
             var11 = var8.t;
             if(var12) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
-            var8 = var11.et6wam;
+            var8 = var11.et6wav;
             var8 = var13.bind(var14)(var8);
             _fun0001_ip = 12; continue _fun0001;
 case 10:
-            var11 = var11.h9mGOD;
+            var11 = var11.h9mGOP;
             var8 = var13.bind(var14)(var11);
 case 12:
             var1['accessibilityLabel'] = var8;
@@ -273,11 +273,11 @@ case 12:
             var13 = var13.t;
             if(var12) { _fun0001_ip = 13; continue _fun0001 }
 case 14:
-            var12 = var13.et6wam;
+            var12 = var13.et6wav;
             var12 = var14.bind(var15)(var12);
             _fun0001_ip = 15; continue _fun0001;
 case 13:
-            var13 = var13.h9mGOD;
+            var13 = var13.h9mGOP;
             var12 = var14.bind(var15)(var13);
 case 15:
             var8['name'] = var12;

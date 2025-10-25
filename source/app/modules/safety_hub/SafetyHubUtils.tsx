@@ -255,7 +255,7 @@ case 22:
             var4 = var10[var4];
             var4 = var9.bind(var8)(var4);
             var4 = var4.t;
-            var4 = var4.QsqdXF;
+            var4 = var4.QsqdXC;
             var4 = var6.bind(var7)(var4);
             var1['text'] = var4;
             var4 = _closure1_slot5;
@@ -283,7 +283,7 @@ case 20:
             var4 = var9[var4];
             var4 = var8.bind(var7)(var4);
             var4 = var4.t;
-            var4 = var4.8/GdRE;
+            var4 = var4.8/GdRB;
             var4 = var5.bind(var6)(var4);
             var1['text'] = var4;
             var2 = _closure1_slot5;
@@ -348,7 +348,7 @@ case 28:
         var4 = var8[var1];
         var4 = var7.bind(var6)(var4);
         var4 = var4.t;
-        var4 = var4.mZffAg;
+        var4 = var4.mZffAi;
         var4 = var9.bind(var10)(var4);
         var2[var5] = var4;
         var5 = var3.TOO_STRICT_UNFAIR;
@@ -359,7 +359,7 @@ case 28:
         var4 = var8[var1];
         var4 = var7.bind(var6)(var4);
         var4 = var4.t;
-        var4 = var4.wgZVAg;
+        var4 = var4.wgZVAn;
         var4 = var9.bind(var10)(var4);
         var2[var5] = var4;
         var5 = var3.DONT_AGREE_PENALTY;
@@ -370,7 +370,7 @@ case 28:
         var4 = var8[var1];
         var4 = var7.bind(var6)(var4);
         var4 = var4.t;
-        var4 = var4.eu8G4u;
+        var4 = var4.eu8G4k;
         var4 = var9.bind(var10)(var4);
         var2[var5] = var4;
         var3 = var3.SOMETHING_ELSE;
@@ -381,7 +381,7 @@ case 28:
         var1 = var8[var1];
         var1 = var7.bind(var6)(var1);
         var1 = var1.t;
-        var1 = var1.XU3s6u;
+        var1 = var1.XU3s6r;
         var1 = var4.bind(var5)(var1);
         var2[var3] = var1;
         var1 = arg1;
@@ -463,7 +463,7 @@ case 39:
             var1 = var7[var1];
             var1 = var6.bind(var5)(var1);
             var1 = var1.t;
-            var1 = var1.aPmsx8;
+            var1 = var1.aPmsx3;
             var1 = var3.bind(var4)(var1);
             _fun0007_ip = 40; continue _fun0007;
 case 38:
@@ -478,7 +478,7 @@ case 38:
             var2 = var7[var2];
             var2 = var6.bind(var5)(var2);
             var2 = var2.t;
-            var2 = var2.0qyXXF;
+            var2 = var2.0qyXXH;
             var1 = var3.bind(var4)(var2);
 case 40:
             return var1;

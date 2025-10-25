@@ -188,7 +188,7 @@ case 14:
             var1 = var15[var1];
             var1 = var5.bind(var3)(var1);
             var1 = var1.t;
-            var5 = var1.SYlkPj;
+            var5 = var1.SYlkPk;
             var1 = {};
             var1['username'] = var11;
             var1['usernameOnClick'] = var10;
@@ -262,7 +262,7 @@ case 8:
             var5 = var6[var5];
             var5 = var7.bind(var3)(var5);
             var5 = var5.t;
-            var7 = var5.7NBgIS;
+            var7 = var5.7NBgIX;
             var5 = {};
             var5['username'] = var11;
             var5['usernameOnClick'] = var10;

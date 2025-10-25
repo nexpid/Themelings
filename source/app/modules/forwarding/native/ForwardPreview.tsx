@@ -319,7 +319,7 @@ case 20:
             var2 = var7[var2];
             var2 = var6.bind(var4)(var2);
             var2 = var2.t;
-            var3 = var2.89ihS0;
+            var3 = var2.89ihS8;
             var2 = {};
             var2['count'] = var10;
             var3 = var8.bind(var11)(var3, var2);
@@ -339,7 +339,7 @@ case 19:
             var6 = var13[var6];
             var6 = var7.bind(var4)(var6);
             var6 = var6.t;
-            var7 = var6.h4pFfX;
+            var7 = var6.h4pFfU;
             var6 = {};
             var6['count'] = var24;
             var7 = var8.bind(var11)(var7, var6);
@@ -375,7 +375,7 @@ case 17:
             var6 = var11[var6];
             var6 = var8.bind(var4)(var6);
             var6 = var6.t;
-            var7 = var6.SJ6pPT;
+            var7 = var6.SJ6pPX;
             var6 = {};
             var6['count'] = var1;
             var3 = var13.bind(var23)(var7, var6);
@@ -395,7 +395,7 @@ case 16:
             var6 = var11[var6];
             var6 = var8.bind(var4)(var6);
             var6 = var6.t;
-            var7 = var6.Lr0Toq;
+            var7 = var6.Lr0Top;
             var6 = {};
             var6['image_count'] = var24;
             var6['video_count'] = var1;

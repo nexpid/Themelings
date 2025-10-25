@@ -75,7 +75,7 @@ case 0:
                 var5 = var10[var5];
                 var5 = var9.bind(var3)(var5);
                 var5 = var5.t;
-                var5 = var5.h850Sk;
+                var5 = var5.h850Ss;
                 var5 = var7.bind(var8)(var5);
                 var1['title'] = var5;
                 var5 = null;
@@ -341,7 +341,7 @@ case 14:
                 var11 = var16[var11];
                 var11 = var12.bind(var5)(var11);
                 var11 = var11.t;
-                var12 = var11.u/rEub;
+                var12 = var11.u/rEuc;
                 var11 = {};
                 var11['name'] = var15;
                 var11 = var13.bind(var14)(var12, var11);
@@ -461,7 +461,7 @@ case 17:
             var14 = var13[var9];
             var14 = var12.bind(var3)(var14);
             var14 = var14.t;
-            var14 = var14.clE4PT;
+            var14 = var14.clE4PU;
             var14 = var15.bind(var16)(var14);
             var8['title'] = var14;
             var16 = _closure1_slot16;
@@ -476,7 +476,7 @@ case 17:
             var18 = var13[var9];
             var18 = var12.bind(var3)(var18);
             var18 = var18.t;
-            var18 = var18.cHMabW;
+            var18 = var18.cHMaba;
             var18 = var19.bind(var20)(var18);
             var14['label'] = var18;
             var17 = var17.handleOpenUserSettings;
@@ -505,7 +505,7 @@ case 17:
             var9 = var13[var9];
             var9 = var12.bind(var3)(var9);
             var9 = var9.t;
-            var9 = var9.avgbp6;
+            var9 = var9.avgbp1;
             var9 = var10.bind(var11)(var9);
             var6['children'] = var9;
             var6 = var8.bind(var3)(var7, var6);

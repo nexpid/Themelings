@@ -1,0 +1,30 @@
+// app/modules/icymi/ICYMIItemTypes.tsx
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var3 = exports;
+    var1 = global;
+    var6 = var1.Object;
+    var5 = var6.defineProperty;
+    var4 = {};
+    var2 = true;
+    var4['value'] = var2;
+    var2 = '__esModule';
+    var2 = var5.bind(var6)(var3, var2, var4);
+    var4 = var1.Set;
+    var1 = var4.prototype;
+    var2 = Object.create(var1, {constructor: {value: var4}});
+    var9 = ['end', 'loading', 'bottomLoading', 'icymiHeader', 'recommendedGuilds'];
+    var10 = var2;
+    var1 = new var10[var4](var9, var8);
+    var2 = var1 instanceof Object ? var1 : var2;
+    var4 = dependencyMap;
+    var1 = 0;
+    var5 = var4[var1];
+    var4 = require;
+    var1 = undefined;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/icymi/ICYMIItemTypes.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['NON_ELIGIBLE_SCROLL_ITEMS'] = var2;
+    return var1;
+})();

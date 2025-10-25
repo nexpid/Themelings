@@ -808,7 +808,7 @@ case 27:
                 var5 = var9[var4];
                 var5 = var7.bind(var8)(var5);
                 var5 = var5.t;
-                var5 = var5.+XYXtb;
+                var5 = var5.+XYXtZ;
                 var5 = var6.bind(var10)(var5);
                 var1['title'] = var5;
                 var5 = var9[var4];
@@ -818,7 +818,7 @@ case 27:
                 var4 = var9[var4];
                 var4 = var7.bind(var8)(var4);
                 var4 = var4.t;
-                var4 = var4.YSDH9v;
+                var4 = var4.YSDH9n;
                 var4 = var5.bind(var6)(var4);
                 var1['body'] = var4;
                 var1 = var2.bind(var3)(var1);

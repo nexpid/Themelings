@@ -1,4 +1,4 @@
-// app/modules/icymi/native/ICYMIManager.tsx
+// app/modules/icymi/ICYMIManager.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var7 = metroImportDefault;
@@ -127,7 +127,7 @@ case 8:
     var _closure1_slot7 = var4;
     var4 = null;
     var _closure1_slot8 = var4;
-    var4 = 9;
+    var4 = 10;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var2 = function(arg1) {
@@ -215,28 +215,43 @@ case 12:
         var7 = 'handlePostConnectionOpen';
         var5['key'] = var7;
         var6 = function value() {
-            var4 = _closure1_slot10;
-            var1 = undefined;
-            var3 = true;
-            var3 = var4.bind(var1)(var3);
-            var5 = _closure1_slot1;
-            var4 = _closure1_slot2;
-            var3 = 5;
-            var6 = var4[var3];
-            var7 = var5.bind(var1)(var6);
-            var6 = var7.getGuildChannelScores;
-            var6 = var6.bind(var7)();
-            var3 = var4[var3];
-            var5 = var5.bind(var1)(var3);
-            var3 = var5.getRecommendedGuilds;
-            var3 = var3.bind(var5)();
-            var3 = _closure1_slot0;
-            var2 = 8;
-            var2 = var4[var2];
-            var3 = var3.bind(var1)(var2);
-            var2 = var3.fetchChannelAffinities;
-            var2 = var2.bind(var3)();
-            return var1;
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var1 = 8;
+                var3 = var3[var1];
+                var1 = undefined;
+                var6 = var4.bind(var1)(var3);
+                var5 = var6.getICYMIEnabled;
+                var4 = 'ICYMIManager';
+                var3 = false;
+                var3 = var5.bind(var6)(var4, var3);
+                if(!var3) { _fun0004_ip = 13; continue _fun0004 }
+case 14:
+                var4 = _closure1_slot10;
+                var3 = true;
+                var3 = var4.bind(var1)(var3);
+                var5 = _closure1_slot1;
+                var4 = _closure1_slot2;
+                var3 = 5;
+                var6 = var4[var3];
+                var7 = var5.bind(var1)(var6);
+                var6 = var7.getGuildChannelScores;
+                var6 = var6.bind(var7)();
+                var3 = var4[var3];
+                var5 = var5.bind(var1)(var3);
+                var3 = var5.getRecommendedGuilds;
+                var3 = var3.bind(var5)();
+                var3 = _closure1_slot0;
+                var2 = 9;
+                var2 = var4[var2];
+                var3 = var3.bind(var1)(var2);
+                var2 = var3.fetchChannelAffinities;
+                var2 = var2.bind(var3)();
+case 13:
+                return var1;
+            }
         };
         var5['value'] = var6;
         var1[2] = var5;
@@ -249,11 +264,11 @@ case 12:
     var13 = var4;
     var2 = new var13[var2](var12);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 10;
+    var4 = 11;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/icymi/native/ICYMIManager.tsx';
+    var4 = 'modules/icymi/ICYMIManager.tsx';
     var4 = var5.bind(var6)(var4);
     var3['default'] = var2;
     return var1;

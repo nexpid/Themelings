@@ -203,35 +203,33 @@ case 15:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
                     if(var4) { _fun0002_ip = 16; continue _fun0002 }
 case 17:
-                    if(var3) { _fun0002_ip = 18; continue _fun0002 }
-case 19:
                     var6 = _closure1_slot1;
                     var7 = _closure1_slot2;
+                    if(var3) { _fun0002_ip = 18; continue _fun0002 }
+case 19:
                     var4 = 6;
                     var4 = var7[var4];
-                    var9 = var6.bind(var5)(var4);
-                    var7 = {};
+                    var13 = var6.bind(var5)(var4);
+                    var12 = {};
                     var4 = _closure1_slot5;
                     var4 = var4.UNKNOWN_ERROR;
-                    var7['errorCode'] = var4;
-                    var4 = var9.prototype;
-                    var6 = Object.create(var4, {constructor: {value: var9}});
+                    var12['errorCode'] = var4;
+                    var4 = var13.prototype;
+                    var9 = Object.create(var4, {constructor: {value: var13}});
                     var15 = 'Missing photo permissions';
-                    var17 = var6;
-                    var16 = var7;
-                    var4 = new var17[var9](var16, var15, var14);
-                    var4 = var4 instanceof Object ? var4 : var6;
+                    var17 = var9;
+                    var16 = var12;
+                    var4 = new var17[var13](var16, var15, var14);
+                    var4 = var4 instanceof Object ? var4 : var9;
                     throw var4;
 case 18:
-                    var6 = _closure1_slot0;
-                    var7 = _closure1_slot2;
                     var4 = 10;
                     var4 = var7[var4];
                     var7 = var6.bind(var5)(var4);
-                    var6 = var7.launchImageLibrary;
-                    var4 = {'mediaType': 'photo', 'includeBase64': false, 'presentationStyle': 'pageSheet', 'selectionLimit': 1};
+                    var6 = var7.launchImageLibraryAsync;
+                    var4 = {'mediaType': 'photo', 'includeBase64': false, 'selectionLimit': 1};
                     var4 = var6.bind(var7)(var4);
-                    SaveGenerator(address=280);
+                    SaveGenerator(address=272);
 case 20:
                     return var4;
 case 21:
@@ -257,7 +255,7 @@ case 25:
                     var12 = var12.uri;
                     var6['uri'] = var12;
                     var6 = var7.bind(var9)(var11, var10, var6);
-                    SaveGenerator(address=375);
+                    SaveGenerator(address=367);
 case 26:
                     return var6;
 case 27:

@@ -315,7 +315,7 @@ case 9:
             var20 = var12[var20];
             var20 = var11.bind(var5)(var20);
             var20 = var20.t;
-            var20 = var20.gsG63t;
+            var20 = var20.gsG63k;
             var20 = var21.bind(var22)(var20);
             var18['children'] = var20;
             var18 = var9.bind(var5)(var19, var18);

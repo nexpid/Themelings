@@ -78,7 +78,7 @@ case 2:
             var1 = var12[var15];
             var1 = var10.bind(var4)(var1);
             var1 = var1.t;
-            var2 = var1.ejOT9/;
+            var2 = var1.ejOT95;
             var1 = {};
             var1['errorCode'] = var7;
             var13 = var3.bind(var6)(var2, var1);
@@ -98,7 +98,7 @@ case 2:
             var6 = var12[var15];
             var6 = var10.bind(var4)(var6);
             var6 = var6.t;
-            var6 = var6.GzjdOz;
+            var6 = var6.GzjdO5;
             var7 = var7.bind(var8)(var6);
             var6 = 'title';
             var1[var6] = var7;
@@ -120,7 +120,7 @@ case 2:
             var15 = var12[var15];
             var15 = var10.bind(var4)(var15);
             var15 = var15.t;
-            var15 = var15.VVZDBA;
+            var15 = var15.VVZDBL;
             var15 = var16.bind(var17)(var15);
             var6['children'] = var15;
             var14 = var8.bind(var4)(var14, var6);

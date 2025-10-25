@@ -97,7 +97,7 @@ case 4:
             var9 = var9[var14];
             var9 = var12.bind(var3)(var9);
             var9 = var9.t;
-            var9 = var9.Nfvo7+;
+            var9 = var9.Nfvo72;
             var9 = var10.bind(var11)(var9);
             var1['label'] = var9;
             var9 = var6.account;
@@ -114,7 +114,7 @@ case 7:
             var10 = var10[var14];
             var10 = var13.bind(var3)(var10);
             var10 = var10.t;
-            var10 = var10.u30/ur;
+            var10 = var10.u30/ut;
             var9 = var11.bind(var12)(var10);
 case 6:
             var1['subLabel'] = var9;
@@ -156,7 +156,7 @@ case 2:
             var9 = var9[var11];
             var9 = var13.bind(var3)(var9);
             var9 = var9.t;
-            var9 = var9.JafL6u;
+            var9 = var9.JafL6p;
             var9 = var10.bind(var12)(var9);
             var1['label'] = var9;
             var6 = var6.account;
@@ -173,7 +173,7 @@ case 9:
             var7 = var7[var11];
             var7 = var10.bind(var3)(var7);
             var7 = var7.t;
-            var7 = var7.u30/ur;
+            var7 = var7.u30/ut;
             var6 = var8.bind(var9)(var7);
 case 8:
             var1['subLabel'] = var6;

@@ -224,7 +224,7 @@ case 2:
             var7 = var11[var14];
             var7 = var17.bind(var4)(var7);
             var7 = var7.t;
-            var8 = var7.xAW71d;
+            var8 = var7.xAW71b;
             var7 = {};
             var16 = _closure1_slot4;
             var7['helpdeskUrl'] = var16;
@@ -237,7 +237,7 @@ case 2:
             var7 = var11[var14];
             var7 = var17.bind(var4)(var7);
             var7 = var7.t;
-            var7 = var7.HOPqzc;
+            var7 = var7.HOPqzR;
             var7 = var8.bind(var9)(var7);
             var5['title'] = var7;
             var9 = 11;
@@ -251,7 +251,7 @@ case 2:
             var14 = var11[var14];
             var14 = var17.bind(var4)(var14);
             var14 = var14.t;
-            var14 = var14.NX+WJC;
+            var14 = var14.NX+WJN;
             var14 = var15.bind(var16)(var14);
             var7['text'] = var14;
             var7['onPress'] = var13;

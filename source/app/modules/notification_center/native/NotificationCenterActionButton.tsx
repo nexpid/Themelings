@@ -75,7 +75,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var10[var6];
         var6 = var9.bind(var3)(var6);
         var6 = var6.t;
-        var6 = var6.UKOtz8;
+        var6 = var6.UKOtz+;
         var6 = var7.bind(var8)(var6);
         var1['accessibilityLabel'] = var6;
         var1['maxFontSizeMultiplier'] = var5;

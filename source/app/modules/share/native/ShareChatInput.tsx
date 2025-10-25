@@ -172,7 +172,7 @@ case 6:
                 var20 = var11[var14];
                 var20 = var10.bind(var4)(var20);
                 var20 = var20.t;
-                var20 = var20.ZroO3N;
+                var20 = var20.ZroO3G;
                 var20 = var21.bind(var22)(var20);
                 var5['placeholder'] = var20;
                 var20 = var12.inputPlaceholder;
@@ -185,7 +185,7 @@ case 6:
                 var20 = var11[var14];
                 var20 = var10.bind(var4)(var20);
                 var20 = var20.t;
-                var20 = var20./+MXm5;
+                var20 = var20./+MXmw;
                 var20 = var21.bind(var22)(var20);
                 var5['accessibilityLabel'] = var20;
                 var5['onSubmitEditing'] = var19;
@@ -222,7 +222,7 @@ case 6:
                 var14 = var11[var14];
                 var14 = var10.bind(var4)(var14);
                 var14 = var14.t;
-                var14 = var14.iZ7Mz8;
+                var14 = var14.iZ7Mz9;
                 var14 = var15.bind(var16)(var14);
                 var6['accessibilityLabel'] = var14;
                 var14 = 'button';

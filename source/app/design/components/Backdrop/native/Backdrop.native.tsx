@@ -131,7 +131,7 @@ case 13:
             var3 = var11[var3];
             var3 = var10.bind(var4)(var3);
             var3 = var3.t;
-            var3 = var3.WAI6xs;
+            var3 = var3.WAI6xu;
             var12 = var6.bind(var8)(var3);
 case 12:
             var11 = var2.aria-hidden;

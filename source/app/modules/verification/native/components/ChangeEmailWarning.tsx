@@ -212,7 +212,7 @@ case 3:
             var15 = var21[var17];
             var15 = var20.bind(var5)(var15);
             var15 = var15.t;
-            var15 = var15.hhR7gY;
+            var15 = var15.hhR7gX;
             var15 = var19.bind(var22)(var15);
             var12['children'] = var15;
             var12 = var4.bind(var5)(var14, var12);
@@ -231,7 +231,7 @@ case 3:
             var15 = var21[var17];
             var15 = var20.bind(var5)(var15);
             var15 = var15.t;
-            var19 = var15.rqWXUV;
+            var19 = var15.rqWXUf;
             var15 = {};
             var24 = _closure1_slot8;
             var15['hcArticle'] = var24;
@@ -247,7 +247,7 @@ case 3:
             var19 = var21[var17];
             var19 = var20.bind(var5)(var19);
             var19 = var19.t;
-            var19 = var19.3LW10N;
+            var19 = var19.3LW10C;
             var19 = var22.bind(var23)(var19);
             var15[2] = var19;
             var12['children'] = var15;
@@ -268,7 +268,7 @@ case 3:
             var19 = var21[var17];
             var19 = var20.bind(var5)(var19);
             var19 = var19.t;
-            var19 = var19.rwTBFh;
+            var19 = var19.rwTBFs;
             var19 = var22.bind(var23)(var19);
             var13['text'] = var19;
             var13['onPress'] = var18;
@@ -286,7 +286,7 @@ case 3:
             var17 = var21[var17];
             var17 = var20.bind(var5)(var17);
             var17 = var17.t;
-            var17 = var17.ETE/oK;
+            var17 = var17.ETE/oC;
             var17 = var18.bind(var19)(var17);
             var14['text'] = var17;
             var16 = function onPress() {

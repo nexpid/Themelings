@@ -180,7 +180,7 @@ case 2:
         var7 = var14[var10];
         var7 = var13.bind(var4)(var7);
         var7 = var7.t;
-        var15 = var7.wumolZ;
+        var15 = var7.wumolR;
         var7 = {};
         var7['age'] = var18;
         var7 = var16.bind(var17)(var15, var7);
@@ -202,7 +202,7 @@ case 2:
         var7 = var14[var10];
         var7 = var13.bind(var4)(var7);
         var7 = var7.t;
-        var17 = var7.n3QjDA;
+        var17 = var7.n3QjDE;
         var16 = {};
         var7 = _closure1_slot1;
         var21 = 11;
@@ -231,7 +231,7 @@ case 2:
         var10 = var14[var10];
         var10 = var13.bind(var4)(var10);
         var10 = var10.t;
-        var10 = var10.6tahio;
+        var10 = var10.6tahin;
         var10 = var11.bind(var12)(var10);
         var6['text'] = var10;
         var9 = function handleConfirm() {

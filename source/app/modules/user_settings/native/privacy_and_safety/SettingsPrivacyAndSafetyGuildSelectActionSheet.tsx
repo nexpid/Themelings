@@ -88,7 +88,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10 = var8[var3];
         var10 = var7.bind(var6)(var10);
         var10 = var10.t;
-        var10 = var10.32u1Dw;
+        var10 = var10.32u1Dx;
         var10 = var11.bind(var12)(var10);
         var4['name'] = var10;
         var4 = var5.bind(var9)(var4);
@@ -100,7 +100,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var8[var3];
         var3 = var7.bind(var6)(var3);
         var3 = var3.t;
-        var3 = var3.32u1Dw;
+        var3 = var3.32u1Dx;
         var3 = var4.bind(var5)(var3);
         var1['label'] = var3;
         var1['value'] = var2;
@@ -189,7 +189,7 @@ case 5:
             var2 = var13[var2];
             var2 = var10.bind(var4)(var2);
             var2 = var2.t;
-            var2 = var2.ZImm//;
+            var2 = var2.ZImm/x;
             var2 = var3.bind(var7)(var2);
             var11['placeholder'] = var2;
             var10 = _closure1_slot4;

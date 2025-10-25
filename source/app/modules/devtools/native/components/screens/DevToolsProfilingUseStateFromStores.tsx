@@ -425,7 +425,7 @@ case 7:
             var21 = var25[var21];
             var21 = var24.bind(var4)(var21);
             var21 = var21.t;
-            var21 = var21.VkKicX;
+            var21 = var21.VkKicb;
             var21 = var22.bind(var23)(var21);
             var20['accessibilityLabel'] = var21;
             var21 = function onPress() {

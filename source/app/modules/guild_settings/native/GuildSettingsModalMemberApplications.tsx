@@ -391,7 +391,7 @@ case 21:
             var1 = var8[var1];
             var1 = var6.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1.7YSJ6e;
+            var1 = var1.7YSJ6f;
             var13 = var2.bind(var3)(var1);
             _fun0003_ip = 20; continue _fun0003;
 case 18:
@@ -405,7 +405,7 @@ case 18:
             var1 = var8[var1];
             var1 = var6.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1.bv82GR;
+            var1 = var1.bv82GS;
             var13 = var2.bind(var3)(var1);
             _fun0003_ip = 20; continue _fun0003;
 case 16:
@@ -419,7 +419,7 @@ case 16:
             var1 = var8[var1];
             var1 = var6.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1./wqiSk;
+            var1 = var1./wqiSv;
             var13 = var2.bind(var3)(var1);
 case 20:
             var3 = _closure1_slot9;

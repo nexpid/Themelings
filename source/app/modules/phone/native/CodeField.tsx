@@ -65,7 +65,7 @@ case 6:
             var8 = var8[var20];
             var8 = var19.bind(var4)(var8);
             var8 = var8.t;
-            var8 = var8.ysthAw;
+            var8 = var8.ysthA+;
             var8 = var11.bind(var18)(var8);
             var5['accessibilityLabel'] = var8;
             var8 = 'oneTimeCode';
@@ -130,7 +130,7 @@ case 12:
             var16 = var16[var20];
             var16 = var19.bind(var4)(var16);
             var16 = var16.t;
-            var16 = var16.13ofGh;
+            var16 = var16.13ofGu;
             var16 = var17.bind(var18)(var16);
             var9['text'] = var16;
             var15 = function onPress() {

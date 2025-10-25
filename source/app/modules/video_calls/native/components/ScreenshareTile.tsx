@@ -144,7 +144,7 @@ case 4:
             var11 = var15[var11];
             var11 = var14.bind(var4)(var11);
             var11 = var11.t;
-            var11 = var11.G84gtb;
+            var11 = var11.G84gtR;
             var11 = var12.bind(var13)(var11);
             var9['children'] = var11;
             var9 = var3.bind(var4)(var10, var9);

@@ -304,7 +304,7 @@ case 21:
             var15 = var13[var15];
             var15 = var18.bind(var5)(var15);
             var15 = var15.t;
-            var15 = var15.cK1GGR;
+            var15 = var15.cK1GGY;
             var15 = var16.bind(var17)(var15);
             var8['text'] = var15;
             var8['onPress'] = var14;

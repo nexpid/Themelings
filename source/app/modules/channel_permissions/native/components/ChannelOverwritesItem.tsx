@@ -46,7 +46,7 @@ case 3:
             var12 = var11[var12];
             var12 = var7.bind(var5)(var12);
             var12 = var12.t;
-            var12 = var12.N86XcH;
+            var12 = var12.N86XcP;
             var12 = var13.bind(var14)(var12);
             var2['accessibilityLabel'] = var12;
             var8 = function onPress() {
@@ -84,7 +84,7 @@ case 5:
                         var9 = var7[var8];
                         var9 = var6.bind(var1)(var9);
                         var9 = var9.t;
-                        var9 = var9.GuPYQE;
+                        var9 = var9.GuPYQB;
                         var9 = var10.bind(var11)(var9);
                         var2['title'] = var9;
                         var9 = var7[var8];
@@ -106,7 +106,7 @@ case 5:
                         var9 = var7[var8];
                         var9 = var6.bind(var1)(var9);
                         var9 = var9.t;
-                        var9 = var9.ETE/oK;
+                        var9 = var9.ETE/oC;
                         var9 = var10.bind(var11)(var9);
                         var2['cancelText'] = var9;
                         var9 = var7[var8];
@@ -116,7 +116,7 @@ case 5:
                         var8 = var7[var8];
                         var8 = var6.bind(var1)(var8);
                         var8 = var8.t;
-                        var8 = var8.fKxYb2;
+                        var8 = var8.fKxYb0;
                         var8 = var9.bind(var10)(var8);
                         var2['confirmText'] = var8;
                         var5 = function onConfirm() {

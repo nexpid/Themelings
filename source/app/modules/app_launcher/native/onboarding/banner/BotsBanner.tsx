@@ -83,7 +83,7 @@ case 4:
             var6 = var12[var6];
             var6 = var7.bind(var5)(var6);
             var6 = var6.t;
-            var7 = var6.9SN0x8;
+            var7 = var6.9SN0xw;
             var6 = {};
             var11 = var11.name;
             var6['firstApplicationName'] = var11;

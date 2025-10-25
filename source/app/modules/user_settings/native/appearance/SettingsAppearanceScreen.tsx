@@ -187,7 +187,7 @@ case 10:
                         var5 = var11[var5];
                         var5 = var10.bind(var1)(var5);
                         var5 = var5.t;
-                        var5 = var5.R3BPHx;
+                        var5 = var5.R3BPH+;
                         var6 = var6.bind(var9)(var5);
                         var5 = function() {
                             var3 = _closure1_slot1;
@@ -258,7 +258,7 @@ case 0:
                     var4 = var4[var9];
                     var4 = var7.bind(var8)(var4);
                     var4 = var4.t;
-                    var4 = var4.Ksh3io;
+                    var4 = var4.Ksh3ik;
                     var4 = var5.bind(var6)(var4);
                     var2['label'] = var4;
                     var5 = _closure1_slot7;
@@ -280,7 +280,7 @@ case 14:
                     var4 = 12;
                     var4 = var12[var4];
                     var4 = var11.bind(var8)(var4);
-                    var5 = var4.v15Ipq;
+                    var5 = var4.v15Ipv;
                     var4 = {};
                     var10 = 13;
                     var10 = var12[var10];
@@ -305,7 +305,7 @@ case 13:
                     var5 = var4[var9];
                     var5 = var7.bind(var8)(var5);
                     var5 = var5.t;
-                    var5 = var5.i19n5O;
+                    var5 = var5.i19n5L;
                     var5 = var6.bind(var10)(var5);
                     var2['label'] = var5;
                     var3 = _closure1_slot7;
@@ -330,7 +330,7 @@ case 13:
                     var5 = var4[var9];
                     var5 = var7.bind(var8)(var5);
                     var5 = var5.t;
-                    var5 = var5.lEde7u;
+                    var5 = var5.lEde7i;
                     var5 = var6.bind(var10)(var5);
                     var2['label'] = var5;
                     var6 = var3.DMS_HAPPENING_NOW_CARDS;
@@ -346,7 +346,7 @@ case 13:
                     var4 = var4[var9];
                     var4 = var7.bind(var8)(var4);
                     var4 = var4.t;
-                    var4 = var4.5h0QOD;
+                    var4 = var4.5h0QOP;
                     var4 = var5.bind(var6)(var4);
                     var2['label'] = var4;
                     var5 = var3.EXACT_SEARCH_RESULT_COUNTS;

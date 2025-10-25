@@ -190,7 +190,7 @@ case 22:
             var2 = var10[var2];
             var2 = var4.bind(var9)(var2);
             var2 = var2.t;
-            var4 = var2.mCytFh;
+            var4 = var2.mCytFr;
             var2 = {};
             var10 = var6.authorName;
             var2['username'] = var10;
@@ -219,7 +219,7 @@ case 16:
             var2 = var11[var2];
             var2 = var4.bind(var9)(var2);
             var2 = var2.t;
-            var4 = var2.p4VdWF;
+            var4 = var2.p4VdWJ;
             var2 = {};
             var11 = var6.guildName;
             var2['guildName'] = var11;
@@ -350,7 +350,7 @@ case 52:
             var7 = var18[var7];
             var7 = var17.bind(var9)(var7);
             var7 = var7.t;
-            var7 = var7.F+x38P;
+            var7 = var7.F+x38C;
             var15 = var15.bind(var16)(var7);
             var7 = var15.toUpperCase;
             var14 = var7.bind(var15)();
@@ -369,7 +369,7 @@ case 54:
             var7 = var17[var7];
             var7 = var16.bind(var9)(var7);
             var7 = var7.t;
-            var7 = var7.SpxcUV;
+            var7 = var7.SpxcUR;
             var13 = var14.bind(var15)(var7);
 case 53:
             var7 = 'obscure';
@@ -413,7 +413,7 @@ case 59:
             var14 = var19[var14];
             var14 = var18.bind(var9)(var14);
             var14 = var14.t;
-            var14 = var14.F+x38P;
+            var14 = var14.F+x38C;
             var16 = var16.bind(var17)(var14);
             var14 = var16.toUpperCase;
             var15 = var14.bind(var16)();
@@ -432,7 +432,7 @@ case 61:
             var11 = var17[var11];
             var11 = var16.bind(var9)(var11);
             var11 = var11.t;
-            var11 = var11.SpxcUV;
+            var11 = var11.SpxcUR;
             var13 = var14.bind(var15)(var11);
 case 60:
             var11 = 'obscure';

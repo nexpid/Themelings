@@ -97,7 +97,7 @@ case 2:
             var10 = var12[var8];
             var10 = var11.bind(var4)(var10);
             var10 = var10.t;
-            var13 = var10.QXYwoK;
+            var13 = var10.QXYwoD;
             var10 = {};
             var16 = var16.name;
             var10['applicationName'] = var16;
@@ -111,7 +111,7 @@ case 2:
             var9 = var12[var8];
             var9 = var11.bind(var4)(var9);
             var9 = var9.t;
-            var9 = var9.9hk2KC;
+            var9 = var9.9hk2KF;
             var9 = var10.bind(var13)(var9);
             var1['ratingsBodyLabel'] = var9;
             var9 = var12[var8];
@@ -121,7 +121,7 @@ case 2:
             var8 = var12[var8];
             var8 = var11.bind(var4)(var8);
             var8 = var8.t;
-            var8 = var8.g1q5fn;
+            var8 = var8.g1q5fr;
             var8 = var9.bind(var10)(var8);
             var1['reasonsHeaderLabel'] = var8;
             var1['reasons'] = var7;

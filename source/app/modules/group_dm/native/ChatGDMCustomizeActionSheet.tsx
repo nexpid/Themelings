@@ -62,7 +62,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var10[var6];
         var6 = var9.bind(var4)(var6);
         var6 = var6.t;
-        var6 = var6.1r5E+v;
+        var6 = var6.1r5E+m;
         var6 = var7.bind(var8)(var6);
         var1['title'] = var6;
         var5 = function render() {

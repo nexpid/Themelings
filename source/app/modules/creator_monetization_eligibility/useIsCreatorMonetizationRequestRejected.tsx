@@ -118,7 +118,7 @@ case 19:
                     var1 = var12[var1];
                     var1 = var2.bind(var8)(var1);
                     var1 = var1.t;
-                    var2 = var1.iXLF9f;
+                    var2 = var1.iXLF9W;
                     var1 = {};
                     var1['minutes'] = var5;
                     var1 = var3.bind(var4)(var2, var1);
@@ -134,7 +134,7 @@ case 18:
                     var2 = var12[var2];
                     var2 = var3.bind(var8)(var2);
                     var2 = var2.t;
-                    var3 = var2.xCjYxM;
+                    var3 = var2.xCjYxK;
                     var2 = {};
                     var11 = var7.bind(var8)(var11);
                     var2['hours'] = var11;
@@ -152,7 +152,7 @@ case 16:
                     var2 = var11[var2];
                     var2 = var3.bind(var8)(var2);
                     var2 = var2.t;
-                    var3 = var2.k2UNz8;
+                    var3 = var2.k2UNz+;
                     var2 = {};
                     var10 = var7.bind(var8)(var10);
                     var2['days'] = var10;
@@ -170,7 +170,7 @@ case 14:
                     var2 = var10[var2];
                     var2 = var3.bind(var8)(var2);
                     var2 = var2.t;
-                    var3 = var2.EmoBDw;
+                    var3 = var2.EmoBD2;
                     var2 = {};
                     var9 = var7.bind(var8)(var9);
                     var2['weeks'] = var9;
@@ -188,7 +188,7 @@ case 12:
                     var2 = var9[var2];
                     var2 = var3.bind(var8)(var2);
                     var2 = var2.t;
-                    var3 = var2.kridzM;
+                    var3 = var2.kridzK;
                     var2 = {};
                     var6 = var7.bind(var8)(var6);
                     var2['months'] = var6;

@@ -650,7 +650,7 @@ case 90:
                             var12 = var8[var11];
                             var12 = var14.bind(var4)(var12);
                             var12 = var12.t;
-                            var12 = var12.U+H+kZ;
+                            var12 = var12.U+H+kd;
                             var12 = var13.bind(var15)(var12);
                             var5['title'] = var12;
                             var12 = var8[var11];
@@ -660,7 +660,7 @@ case 90:
                             var11 = var8[var11];
                             var11 = var14.bind(var4)(var11);
                             var11 = var11.t;
-                            var11 = var11.LFFx5O;
+                            var11 = var11.LFFx5G;
                             var11 = var12.bind(var13)(var11);
                             var5['body'] = var11;
                             var11 = true;

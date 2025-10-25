@@ -608,7 +608,7 @@ case 12:
                     var15 = var19[var15];
                     var15 = var18.bind(var1)(var15);
                     var15 = var15.t;
-                    var15 = var15.mQS8Ii;
+                    var15 = var15.mQS8Is;
                     var15 = var16.bind(var17)(var15);
                     var12['text'] = var15;
                     var14 = function onPress() {

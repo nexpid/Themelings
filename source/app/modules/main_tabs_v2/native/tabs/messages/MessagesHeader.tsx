@@ -309,7 +309,7 @@ case 9:
                 var4 = var10[var4];
                 var4 = var9.bind(var3)(var4);
                 var4 = var4.t;
-                var4 = var4.5h0QOD;
+                var4 = var4.5h0QOP;
                 var4 = var7.bind(var8)(var4);
                 var1['accessibilityLabel'] = var4;
                 var1 = var5.bind(var3)(var2, var1);
@@ -340,7 +340,7 @@ case 8:
                 var6 = var10[var6];
                 var6 = var9.bind(var4)(var6);
                 var6 = var6.t;
-                var6 = var6.m7OrlZ;
+                var6 = var6.m7OrlR;
                 var6 = var7.bind(var8)(var6);
                 var2['text'] = var6;
                 var1 = var5.bind(var4)(var3, var2);
@@ -387,7 +387,7 @@ case 9:
                 var4 = var10[var4];
                 var4 = var9.bind(var3)(var4);
                 var4 = var4.t;
-                var4 = var4.zIJnAw;
+                var4 = var4.zIJnA6;
                 var4 = var7.bind(var8)(var4);
                 var1['text'] = var4;
                 var1 = var5.bind(var3)(var2, var1);
@@ -418,7 +418,7 @@ case 11:
                 var6 = var10[var6];
                 var6 = var9.bind(var4)(var6);
                 var6 = var6.t;
-                var6 = var6.zIJnAw;
+                var6 = var6.zIJnA6;
                 var6 = var7.bind(var8)(var6);
                 var2['accessibilityLabel'] = var6;
                 var1 = var5.bind(var4)(var3, var2);
@@ -447,7 +447,7 @@ case 12:
         var13 = var11[var13];
         var13 = var19.bind(var4)(var13);
         var13 = var13.t;
-        var13 = var13.OIgYlZ;
+        var13 = var13.OIgYlQ;
         var13 = var16.bind(var18)(var13);
         var5['children'] = var13;
         var12 = var8.bind(var4)(var12, var5);

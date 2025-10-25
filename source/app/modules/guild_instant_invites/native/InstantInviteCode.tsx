@@ -108,7 +108,7 @@ case 5:
             var18 = var16[var18];
             var18 = var21.bind(var4)(var18);
             var18 = var18.t;
-            var18 = var18.aTABY2;
+            var18 = var18.aTABYx;
             var18 = var19.bind(var20)(var18);
             var12['children'] = var18;
             var12 = var17.bind(var4)(var13, var12);

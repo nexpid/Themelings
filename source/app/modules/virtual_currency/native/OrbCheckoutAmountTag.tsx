@@ -96,7 +96,7 @@ case 3:
             var11 = var16[var11];
             var11 = var13.bind(var4)(var11);
             var11 = var11.t;
-            var13 = var11.W4DfeH;
+            var13 = var11.W4DfeF;
             var11 = {};
             var11['orbAmount'] = var10;
             var11 = var14.bind(var15)(var13, var11);
@@ -112,7 +112,7 @@ case 2:
             var12 = var16[var12];
             var12 = var15.bind(var4)(var12);
             var12 = var12.t;
-            var12 = var12.pfChQk;
+            var12 = var12.pfChQr;
             var11 = var13.bind(var14)(var12);
 case 4:
             var6['accessibilityLabel'] = var11;

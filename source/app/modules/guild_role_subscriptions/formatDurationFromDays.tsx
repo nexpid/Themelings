@@ -41,7 +41,7 @@ case 2:
             var1 = var1[var9];
             var1 = var5.bind(var2)(var1);
             var1 = var1.t;
-            var2 = var1.k2UNz8;
+            var2 = var1.k2UNz+;
             var1 = {};
             var1['days'] = var7;
             var1 = var3.bind(var4)(var2, var1);
@@ -57,7 +57,7 @@ case 4:
             var2 = var2[var9];
             var2 = var8.bind(var3)(var2);
             var2 = var2.t;
-            var3 = var2.EmoBDw;
+            var3 = var2.EmoBD2;
             var2 = {};
             var6 = var7 / var6;
             var2['weeks'] = var6;

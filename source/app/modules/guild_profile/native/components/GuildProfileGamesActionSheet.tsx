@@ -78,7 +78,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var14[var2];
         var2 = var10.bind(var4)(var2);
         var2 = var2.t;
-        var3 = var2.vuAVo6;
+        var3 = var2.vuAVo7;
         var2 = {};
         var2['serverName'] = var12;
         var3 = var5.bind(var8)(var3, var2);

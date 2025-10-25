@@ -205,7 +205,7 @@ case 4:
             var16 = var16[var18];
             var16 = var21.bind(var4)(var16);
             var16 = var16.t;
-            var16 = var16.+TSRGB;
+            var16 = var16.+TSRGD;
             var16 = var19.bind(var20)(var16);
             var8['label'] = var16;
             var8['onPress'] = var14;
@@ -240,7 +240,7 @@ case 7:
             var19 = var19[var18];
             var19 = var22.bind(var4)(var19);
             var19 = var19.t;
-            var19 = var19.zBoHlZ;
+            var19 = var19.zBoHlf;
             var19 = var20.bind(var21)(var19);
             var12['label'] = var19;
             var12['onPress'] = var17;
@@ -275,7 +275,7 @@ case 9:
             var14 = var14[var18];
             var14 = var17.bind(var4)(var14);
             var14 = var14.t;
-            var14 = var14.+78Pfn;
+            var14 = var14.+78Pfm;
             var14 = var15.bind(var16)(var14);
             var10['label'] = var14;
             var10['onPress'] = var13;

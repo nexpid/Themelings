@@ -288,7 +288,7 @@ case 5:
                 var6 = var11[var4];
                 var6 = var5.bind(var10)(var6);
                 var6 = var6.t;
-                var6 = var6.fyA119;
+                var6 = var6.fyA115;
                 var6 = var7.bind(var12)(var6);
                 var2['label'] = var6;
                 var6 = var11[var4];
@@ -298,7 +298,7 @@ case 5:
                 var4 = var11[var4];
                 var4 = var5.bind(var10)(var4);
                 var4 = var4.t;
-                var5 = var4.1IEaw8;
+                var5 = var4.1IEawz;
                 var4 = {};
                 var4['incoming'] = var9;
                 var8 = _closure2_slot5;
@@ -389,7 +389,7 @@ case 7:
                 var12 = var12[var19];
                 var12 = var18.bind(var5)(var12);
                 var12 = var12.t;
-                var12 = var12.fyA119;
+                var12 = var12.fyA115;
                 var12 = var15.bind(var17)(var12);
                 var10['label'] = var12;
                 var15 = _closure2_slot4;
@@ -406,7 +406,7 @@ case 9:
                 var12 = var12[var19];
                 var12 = var13.bind(var5)(var12);
                 var12 = var12.t;
-                var13 = var12.e6BtLi;
+                var13 = var12.e6BtLq;
                 var12 = {};
                 var18 = _closure2_slot6;
                 var12['spam'] = var18;
@@ -422,7 +422,7 @@ case 8:
                 var13 = var13[var19];
                 var13 = var15.bind(var5)(var13);
                 var13 = var13.t;
-                var15 = var13.1IEaw8;
+                var15 = var13.1IEawz;
                 var13 = {};
                 var19 = _closure2_slot4;
                 var13['incoming'] = var19;
@@ -485,7 +485,7 @@ case 6:
                 var10 = var19[var15];
                 var10 = var18.bind(var1)(var10);
                 var10 = var10.t;
-                var10 = var10.oi+B4u;
+                var10 = var10.oi+B4p;
                 var10 = var11.bind(var12)(var10);
                 var6['title'] = var10;
                 var13 = true;
@@ -515,7 +515,7 @@ case 6:
                 var15 = var19[var15];
                 var15 = var18.bind(var1)(var15);
                 var15 = var15.t;
-                var15 = var15.zIJnAw;
+                var15 = var15.zIJnA6;
                 var15 = var16.bind(var17)(var15);
                 var11['text'] = var15;
                 var15 = 'lg';

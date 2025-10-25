@@ -143,7 +143,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var17 = var16[var12];
         var17 = var15.bind(var4)(var17);
         var17 = var17.t;
-        var17 = var17.ZxBpLS;
+        var17 = var17.ZxBpLf;
         var17 = var18.bind(var19)(var17);
         var13['children'] = var17;
         var13 = var7.bind(var4)(var14, var13);
@@ -161,7 +161,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var14 = var16[var12];
         var14 = var15.bind(var4)(var14);
         var14 = var14.t;
-        var14 = var14.fXtCJy;
+        var14 = var14.fXtCJ+;
         var14 = var17.bind(var18)(var14);
         var10['children'] = var14;
         var10 = var7.bind(var4)(var13, var10);
@@ -185,7 +185,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var12 = var16[var12];
         var12 = var15.bind(var4)(var12);
         var12 = var12.t;
-        var12 = var12.6Qgren;
+        var12 = var12.6Qgrev;
         var12 = var13.bind(var14)(var12);
         var9['text'] = var12;
         var11 = function onPress() {
@@ -216,7 +216,7 @@ case 0:
                 var3 = var7[var3];
                 var3 = var4.bind(var1)(var3);
                 var3 = var3.t;
-                var4 = var3.6E9a1N;
+                var4 = var3.6E9a1J;
                 var3 = {};
                 var7 = 'https://discord.com/';
                 var3['url'] = var7;

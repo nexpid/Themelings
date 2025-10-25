@@ -445,7 +445,7 @@ case 12:
             var32 = var16[var26];
             var32 = var19.bind(var4)(var32);
             var32 = var32.t;
-            var32 = var32.xFn72t;
+            var32 = var32.xFn72s;
             var32 = var33.bind(var34)(var32);
             var24['children'] = var32;
             var24 = var8.bind(var4)(var29, var24);
@@ -473,7 +473,7 @@ case 12:
             var26 = var16[var26];
             var26 = var19.bind(var4)(var26);
             var26 = var26.t;
-            var26 = var26.PpoJzs;
+            var26 = var26.PpoJzt;
             var26 = var27.bind(var28)(var26);
             var18['children'] = var26;
             var18 = var8.bind(var4)(var24, var18);

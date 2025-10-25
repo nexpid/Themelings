@@ -126,7 +126,7 @@ case 3:
             var15 = var19[var15];
             var15 = var18.bind(var4)(var15);
             var15 = var15.t;
-            var15 = var15.mqn87+;
+            var15 = var15.mqn873;
             var14 = var16.bind(var17)(var15);
 case 2:
             var11['children'] = var14;
@@ -157,7 +157,7 @@ case 5:
             var10 = var14[var10];
             var10 = var13.bind(var4)(var10);
             var10 = var10.t;
-            var10 = var10.cpT0Cg;
+            var10 = var10.cpT0Cq;
             var10 = var11.bind(var12)(var10);
             var7['text'] = var10;
             var10 = function onPress() {

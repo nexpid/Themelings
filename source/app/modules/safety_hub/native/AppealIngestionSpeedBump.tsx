@@ -142,7 +142,7 @@ case 10:
             var1 = var18[var17];
             var1 = var6.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1.C5q+pa;
+            var1 = var1.C5q+pW;
             var14 = var2.bind(var3)(var1);
             var1 = var18[var17];
             var1 = var6.bind(var4)(var1);
@@ -151,7 +151,7 @@ case 10:
             var1 = var18[var17];
             var1 = var6.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1.URt7VF;
+            var1 = var1.URt7VI;
             var13 = var2.bind(var3)(var1);
             var3 = _closure1_slot9;
             var5 = 11;
@@ -219,7 +219,7 @@ case 15:
             var20 = var20[var17];
             var20 = var23.bind(var4)(var20);
             var20 = var20.t;
-            var20 = var20.gJs+kZ;
+            var20 = var20.gJs+kf;
             var20 = var21.bind(var22)(var20);
             var14['text'] = var20;
             var20 = _closure1_slot6;
@@ -258,7 +258,7 @@ case 19:
             var19 = var19[var17];
             var19 = var22.bind(var4)(var19);
             var19 = var19.t;
-            var19 = var19.NBsJvr;
+            var19 = var19.NBsJvm;
             var19 = var20.bind(var21)(var19);
             var13['text'] = var19;
             var19 = _closure1_slot6;
@@ -294,7 +294,7 @@ case 21:
             var18 = var18[var17];
             var18 = var21.bind(var4)(var18);
             var18 = var18.t;
-            var18 = var18.Vtyn//;
+            var18 = var18.Vtyn/7;
             var18 = var19.bind(var20)(var18);
             var12['text'] = var18;
             var12['url'] = var16;
@@ -329,7 +329,7 @@ case 23:
             var13 = var13[var17];
             var13 = var14.bind(var4)(var13);
             var13 = var13.t;
-            var14 = var13.WMUgCQ;
+            var14 = var13.WMUgCX;
             var13 = {};
             var13 = var15.bind(var16)(var14, var13);
             var10['children'] = var13;

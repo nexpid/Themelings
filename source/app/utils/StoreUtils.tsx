@@ -853,7 +853,7 @@ case 73:
                 var2 = var7[var2];
                 var2 = var6.bind(var5)(var2);
                 var2 = var2.t;
-                var2 = var2.tcawo6;
+                var2 = var2.tcawo3;
                 var2 = var3.bind(var4)(var2);
                 return var2;
 case 98:
@@ -883,7 +883,7 @@ case 96:
                 var1 = var6[var1];
                 var1 = var5.bind(var4)(var1);
                 var1 = var1.t;
-                var1 = var1.0/xHFB;
+                var1 = var1.0/xHFO;
                 var1 = var2.bind(var3)(var1);
                 return var1;
             }

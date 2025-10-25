@@ -680,7 +680,7 @@ case 50:
                     var5 = var8[var5];
                     var5 = var6.bind(var3)(var5);
                     var5 = var5.t;
-                    var5 = var5.5h0QOD;
+                    var5 = var5.5h0QOP;
                     var5 = var9.bind(var10)(var5);
                     var1['accessibilityLabel'] = var5;
                     var5 = 'button';
@@ -768,12 +768,12 @@ case 61:
             var19 = var25.bind(var27)(var19);
             _fun0001_ip = 62; continue _fun0001;
 case 60:
-            var28 = var24.4ry6ys;
+            var28 = var24.4ry6yi;
             var19 = var25.bind(var27)(var28);
 case 62:
             _fun0001_ip = 63; continue _fun0001;
 case 58:
-            var24 = var24.0D/6R0;
+            var24 = var24.0D/6Rz;
             var19 = var25.bind(var27)(var24);
 case 63:
             var10['accessibilityLabel'] = var19;
@@ -1029,7 +1029,7 @@ case 97:
             var21 = var22[var21];
             var21 = var20.bind(var4)(var21);
             var21 = var21.t;
-            var21 = var21.oCqlGB;
+            var21 = var21.oCqlGG;
             var21 = var23.bind(var24)(var21);
             var16['accessibilityLabel'] = var21;
             var16['accessibilityRole'] = var19;
@@ -1081,7 +1081,7 @@ case 103:
             var15 = var17[var15];
             var15 = var16.bind(var4)(var15);
             var15 = var15.t;
-            var15 = var15.5h0QOD;
+            var15 = var15.5h0QOP;
             var15 = var18.bind(var19)(var15);
             var10['accessibilityLabel'] = var15;
             var15 = 'button';
@@ -1118,7 +1118,7 @@ case 102:
             var14 = var16[var14];
             var14 = var15.bind(var4)(var14);
             var14 = var14.t;
-            var14 = var14.oCqlGB;
+            var14 = var14.oCqlGG;
             var14 = var17.bind(var18)(var14);
             var11['accessibilityLabel'] = var14;
             var14 = 'button';
@@ -1183,7 +1183,7 @@ case 54:
             var5 = var7[var5];
             var5 = var6.bind(var4)(var5);
             var5 = var5.t;
-            var5 = var5.+KSnWV;
+            var5 = var5.+KSnWX;
             var5 = var8.bind(var9)(var5);
             var1['accessibilityLabel'] = var5;
             var5 = 37;

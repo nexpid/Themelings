@@ -203,7 +203,7 @@ case 22:
                         var11 = var19[var11];
                         var11 = var15.bind(var6)(var11);
                         var11 = var11.t;
-                        var15 = var11.Wke70d;
+                        var15 = var11.Wke70b;
                         var11 = {};
                         var11['name'] = var18;
                         var11 = var16.bind(var17)(var15, var11);
@@ -237,7 +237,7 @@ case 25: // try_start_2 // catch_target0
                         var5 = var14[var5];
                         var5 = var13.bind(var6)(var5);
                         var5 = var5.t;
-                        var5 = var5.0SbUzs;
+                        var5 = var5.0SbUzm;
                         var5 = var11.bind(var12)(var5);
                         var5 = var8.bind(var10)(var5);
                         var5 = _closure2_slot2;

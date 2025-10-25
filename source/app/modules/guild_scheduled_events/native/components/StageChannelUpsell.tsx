@@ -179,7 +179,7 @@ case 3:
             var17 = var15[var11];
             var17 = var14.bind(var5)(var17);
             var17 = var17.t;
-            var17 = var17.Sx8Ezs;
+            var17 = var17.Sx8Ezi;
             var17 = var18.bind(var19)(var17);
             var8['children'] = var17;
             var8 = var9.bind(var5)(var12, var8);
@@ -197,7 +197,7 @@ case 3:
             var17 = var15[var11];
             var17 = var14.bind(var5)(var17);
             var17 = var17.t;
-            var17 = var17.JUzPho;
+            var17 = var17.JUzPhm;
             var17 = var18.bind(var19)(var17);
             var8['children'] = var17;
             var8 = var9.bind(var5)(var12, var8);
@@ -215,7 +215,7 @@ case 3:
             var12 = var15[var11];
             var12 = var14.bind(var5)(var12);
             var12 = var12.t;
-            var17 = var12.Vh7rPz;
+            var17 = var12.Vh7rP7;
             var12 = {};
             var20 = function suggestionsHook(arg1, arg2) {
                 var5 = _closure1_slot10;
@@ -261,7 +261,7 @@ case 3:
             var11 = var15[var11];
             var11 = var14.bind(var5)(var11);
             var11 = var11.t;
-            var11 = var11.X/3SyM;
+            var11 = var11.X/3SyA;
             var11 = var12.bind(var13)(var11);
             var7['text'] = var11;
             var10 = function onPress() {

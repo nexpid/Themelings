@@ -480,7 +480,7 @@ case 15:
             var23 = var17[var23];
             var23 = var14.bind(var4)(var23);
             var23 = var23.t;
-            var23 = var23.WAI6xs;
+            var23 = var23.WAI6xu;
             var23 = var24.bind(var25)(var23);
             var12['accessibilityLabel'] = var23;
             var12['onPress'] = var22;

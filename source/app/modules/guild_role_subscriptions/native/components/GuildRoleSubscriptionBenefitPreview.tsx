@@ -243,7 +243,7 @@ case 14:
             var6 = var10[var6];
             var6 = var9.bind(var5)(var6);
             var6 = var6.t;
-            var6 = var6.bz1PZW;
+            var6 = var6.bz1PZX;
             var9 = var7.bind(var8)(var6);
             var6 = global;
             var6 = var6.HermesInternal;

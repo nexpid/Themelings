@@ -1503,7 +1503,7 @@ case 133:
             var13 = var20[var13];
             var13 = var19.bind(var4)(var13);
             var13 = var13.t;
-            var13 = var13.HcoRu7;
+            var13 = var13.HcoRu0;
             var13 = var17.bind(var18)(var13);
             var5['text'] = var13;
             var6 = var8.bind(var4)(var7, var5);
@@ -1523,7 +1523,7 @@ case 131:
             var13 = var20[var13];
             var13 = var19.bind(var4)(var13);
             var13 = var13.t;
-            var13 = var13.9Oq93t;
+            var13 = var13.9Oq93m;
             var13 = var17.bind(var18)(var13);
             var5['text'] = var13;
             var6 = var8.bind(var4)(var7, var5);
@@ -1637,7 +1637,7 @@ case 138:
             var18 = var22[var18];
             var18 = var21.bind(var4)(var18);
             var18 = var18.t;
-            var18 = var18.HcoRu7;
+            var18 = var18.HcoRu0;
             var18 = var19.bind(var20)(var18);
             var10['accessibilityLabel'] = var18;
             var18 = function onPress() {

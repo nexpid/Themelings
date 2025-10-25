@@ -470,7 +470,7 @@ case 20:
             var1 = var13[var1];
             var1 = var8.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1.Gs9Aam;
+            var1 = var1.Gs9Aaj;
             var22 = var3.bind(var6)(var1);
 case 26:
             var6 = var25 === var2;
@@ -748,7 +748,7 @@ case 60:
             var28 = var34[var29];
             var28 = var33.bind(var4)(var28);
             var28 = var28.t;
-            var31 = var28.+FgdjI;
+            var31 = var28.+FgdjP;
             var28 = {};
             var38 = var37.Math;
             var37 = var38.max;
@@ -762,7 +762,7 @@ case 59:
             var29 = var34[var29];
             var29 = var33.bind(var4)(var29);
             var29 = var29.t;
-            var29 = var29.qVcfa2;
+            var29 = var29.qVcfa0;
             var28 = var31.bind(var32)(var29);
 case 61:
             var24 = var28;
@@ -861,7 +861,7 @@ case 76:
             var23 = var28[var23];
             var23 = var27.bind(var4)(var23);
             var23 = var23.t;
-            var23 = var23.8x0jKS;
+            var23 = var23.8x0jKT;
             var23 = var25.bind(var26)(var23);
             _fun0002_ip = 77; continue _fun0002;
 case 75:
@@ -875,7 +875,7 @@ case 75:
             var25 = var29[var25];
             var25 = var28.bind(var4)(var25);
             var25 = var25.t;
-            var25 = var25.cM8bb2;
+            var25 = var25.cM8bbx;
             var23 = var26.bind(var27)(var25);
 case 77:
             _fun0002_ip = 78; continue _fun0002;
@@ -890,7 +890,7 @@ case 74:
             var25 = var29[var25];
             var25 = var28.bind(var4)(var25);
             var25 = var25.t;
-            var25 = var25.j+wlh4;
+            var25 = var25.j+wlhy;
             var23 = var26.bind(var27)(var25);
 case 78:
             var22 = var23;
@@ -969,7 +969,7 @@ case 80:
             var12 = var17[var12];
             var12 = var13.bind(var4)(var12);
             var12 = var12.t;
-            var13 = var12.uj94Cw;
+            var13 = var12.uj94C5;
             var12 = {};
             var12['duration'] = var16;
             var12 = var14.bind(var15)(var13, var12);

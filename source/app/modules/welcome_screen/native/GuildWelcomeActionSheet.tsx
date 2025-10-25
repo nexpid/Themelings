@@ -816,7 +816,7 @@ case 31:
             var19 = var18[var14];
             var19 = var17.bind(var5)(var19);
             var19 = var19.t;
-            var20 = var19.0aydCA;
+            var20 = var19.0aydCN;
             var19 = {};
             var23 = var23.name;
             var19['guildName'] = var23;
@@ -867,7 +867,7 @@ case 31:
             var14 = var18[var14];
             var14 = var17.bind(var5)(var14);
             var14 = var14.t;
-            var14 = var14.haj5+v;
+            var14 = var14.haj5+i;
             var15 = var15.bind(var16)(var14);
             var14 = var15.toUpperCase;
             var14 = var14.bind(var15)();

@@ -507,11 +507,11 @@ case 28:
 case 31:
                 if(var12) { _fun0004_ip = 21; continue _fun0004 }
 case 32:
-                var12 = var13.FCRiT0;
+                var12 = var13.FCRiT3;
                 var12 = var14.bind(var15)(var12);
                 _fun0004_ip = 33; continue _fun0004;
 case 21:
-                var16 = var13.8zH0LC;
+                var16 = var13.8zH0LJ;
                 var12 = var14.bind(var15)(var16);
 case 33:
                 _fun0004_ip = 34; continue _fun0004;

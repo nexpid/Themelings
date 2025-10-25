@@ -11,9 +11,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = arg2;
-            var13 = var2.canStartThreads;
+            var11 = var2.canStartThreads;
             var16 = var2.channel;
-            var12 = var2.disabled;
             var15 = var2.onPress;
             var _closure2_slot0 = var15;
             var1 = var2.shouldShowThread;
@@ -33,15 +32,14 @@ case 0:
             var2['state'] = var6;
             var8 = _closure1_slot6;
             var7 = _closure1_slot1;
-            var18 = _closure1_slot2;
+            var13 = _closure1_slot2;
             if(var1) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var1 = 9;
-            var1 = var18[var1];
+            var1 = var13[var1];
             var6 = var7.bind(var4)(var1);
             var1 = {};
             var1['channel'] = var16;
-            var1['disabled'] = var12;
             var1['onPress'] = var15;
             var1['style'] = var14;
             var1['styleButton'] = var9;
@@ -49,28 +47,23 @@ case 3:
             _fun0001_ip = 4; continue _fun0001;
 case 2:
             var6 = 6;
-            var6 = var18[var6];
+            var6 = var13[var6];
             var7 = var7.bind(var4)(var6);
             var6 = {};
-            var17 = _closure1_slot0;
+            var12 = _closure1_slot0;
             var14 = 7;
-            var15 = var18[var14];
-            var15 = var17.bind(var4)(var15);
+            var15 = var13[var14];
+            var15 = var12.bind(var4)(var15);
             var16 = var15.intl;
             var15 = var16.string;
-            var14 = var18[var14];
-            var14 = var17.bind(var4)(var14);
+            var14 = var13[var14];
+            var14 = var12.bind(var4)(var14);
             var14 = var14.t;
-            var14 = var14.4WNcpq;
+            var14 = var14.4WNcpu;
             var14 = var15.bind(var16)(var14);
             var6['accessibilityLabel'] = var14;
-            if(var12) { _fun0001_ip = 5; continue _fun0001 }
-case 6:
-            var12 = !var13;
-case 5:
-            var6['disabled'] = var12;
-            var12 = _closure1_slot0;
-            var13 = _closure1_slot2;
+            var11 = !var11;
+            var6['disabled'] = var11;
             var11 = 8;
             var11 = var13[var11];
             var11 = var12.bind(var4)(var11);
@@ -102,10 +95,10 @@ case 0:
             var1 = arg1;
             var2 = var1.shouldShowThread;
             var1 = 'gift';
-            if(!var2) { _fun0002_ip = 7; continue _fun0002 }
-case 8:
+            if(!var2) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
             var1 = 'thread';
-case 7:
+case 5:
             return var1;
         }
     };

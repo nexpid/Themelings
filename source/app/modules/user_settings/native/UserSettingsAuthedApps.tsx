@@ -167,7 +167,7 @@ case 0:
                 var12 = var15[var11];
                 var12 = var14.bind(var1)(var12);
                 var12 = var12.t;
-                var12 = var12.HU3RFx;
+                var12 = var12.HU3RFw;
                 var12 = var13.bind(var16)(var12);
                 var6['children'] = var12;
                 var10 = var7.bind(var1)(var10, var6);
@@ -189,7 +189,7 @@ case 0:
                 var13 = var15[var11];
                 var13 = var14.bind(var1)(var13);
                 var13 = var13.t;
-                var13 = var13.Nu5Yi4;
+                var13 = var13.Nu5Yi0;
                 var13 = var16.bind(var17)(var13);
                 var10['children'] = var13;
                 var10 = var7.bind(var1)(var12, var10);
@@ -400,7 +400,7 @@ case 5:
             var12 = var16[var12];
             var12 = var15.bind(var5)(var12);
             var12 = var12.t;
-            var12 = var12.E+SM6e;
+            var12 = var12.E+SM6T;
             var12 = var13.bind(var14)(var12);
             var9['children'] = var12;
             var9 = var11.bind(var5)(var10, var9);

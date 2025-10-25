@@ -536,7 +536,7 @@ case 29:
                 var2 = var10[var2];
                 var2 = var8.bind(var5)(var2);
                 var2 = var2.t;
-                var2 = var2.BddRzc;
+                var2 = var2.BddRzS;
                 var17 = var3.bind(var4)(var2);
 case 28:
                 var16 = var1.confirmColor;

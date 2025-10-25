@@ -328,7 +328,7 @@ case 25:
                     var2 = var7[var2];
                     var2 = var6.bind(var5)(var2);
                     var2 = var2.t;
-                    var2 = var2.GPfy3N;
+                    var2 = var2.GPfy3L;
                     var1 = var3.bind(var4)(var2);
 case 31:
                     return var1;

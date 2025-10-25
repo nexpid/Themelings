@@ -132,7 +132,7 @@ case 9:
                 var8 = var12[var8];
                 var8 = var9.bind(var1)(var8);
                 var8 = var8.t;
-                var8 = var8.WNpFHR;
+                var8 = var8.WNpFHa;
                 var11 = var11.bind(var13)(var8);
                 var8 = 7;
                 var8 = var12[var8];

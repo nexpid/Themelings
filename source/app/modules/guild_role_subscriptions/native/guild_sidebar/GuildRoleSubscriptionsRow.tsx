@@ -171,7 +171,7 @@ case 4:
             var11 = var9[var13];
             var11 = var6.bind(var4)(var11);
             var11 = var11.t;
-            var11 = var11.KzCF//;
+            var11 = var11.KzCF/6;
             var11 = var14.bind(var15)(var11);
             var1['accessibilityLabel'] = var11;
             var11 = {};
@@ -189,7 +189,7 @@ case 4:
             var13 = var9[var13];
             var13 = var6.bind(var4)(var13);
             var13 = var13.t;
-            var13 = var13.KzCF//;
+            var13 = var13.KzCF/6;
             var13 = var14.bind(var15)(var13);
             var11['name'] = var13;
             var11['mode'] = var7;

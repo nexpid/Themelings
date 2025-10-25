@@ -43,7 +43,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var6[var8];
     var8 = var5.bind(var1)(var8);
     var8 = var8.t;
-    var8 = var8.tiCXaG;
+    var8 = var8.tiCXaH;
     var8 = var9.bind(var10)(var8);
     var2['title'] = var8;
     var7 = var7.CONTENT_AND_SOCIAL_DISCORD;
@@ -152,7 +152,7 @@ case 2:
         var1 = var7[var2];
         var1 = var6.bind(var5)(var1);
         var1 = var1.t;
-        var1 = var1.H9XOl5;
+        var1 = var1.H9XOl3;
         var3 = var3.bind(var4)(var1);
         var1 = new Array(2);
         var1[0] = var3;
@@ -163,7 +163,7 @@ case 2:
         var2 = var7[var2];
         var2 = var6.bind(var5)(var2);
         var2 = var2.t;
-        var2 = var2.k4W40N;
+        var2 = var2.k4W40P;
         var2 = var3.bind(var4)(var2);
         var1[1] = var2;
         return var1;

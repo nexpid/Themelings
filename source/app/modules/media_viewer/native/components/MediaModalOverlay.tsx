@@ -86,7 +86,7 @@ case 0:
             var12 = var16[var12];
             var12 = var15.bind(var3)(var12);
             var12 = var12.t;
-            var12 = var12.w4m94+;
+            var12 = var12.w4m945;
             var12 = var13.bind(var14)(var12);
             var5['accessibilityLabel'] = var12;
             var13 = _closure1_slot2;
@@ -154,7 +154,7 @@ case 0:
             var12 = var16[var12];
             var12 = var15.bind(var3)(var12);
             var12 = var12.t;
-            var12 = var12.UIsxU1;
+            var12 = var12.UIsxUw;
             var12 = var13.bind(var14)(var12);
             var5['accessibilityLabel'] = var12;
             var13 = _closure1_slot2;

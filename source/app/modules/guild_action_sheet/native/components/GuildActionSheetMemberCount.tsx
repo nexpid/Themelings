@@ -92,7 +92,7 @@ case 5:
             var2 = var2[var8];
             var2 = var6.bind(var7)(var2);
             var2 = var2.t;
-            var2 = var2.etqpUF;
+            var2 = var2.etqpUG;
             _fun0001_ip = 6; continue _fun0001;
 case 4:
             var6 = _closure1_slot0;
@@ -100,7 +100,7 @@ case 4:
             var1 = var1[var8];
             var1 = var6.bind(var7)(var1);
             var1 = var1.t;
-            var2 = var1.PIikkp;
+            var2 = var1.PIikks;
 case 6:
             var1 = {};
             var1['count'] = var5;
@@ -123,7 +123,7 @@ case 9:
             var1 = var1[var7];
             var1 = var5.bind(var6)(var1);
             var1 = var1.t;
-            var1 = var1.5SWsJS;
+            var1 = var1.5SWsJX;
             _fun0001_ip = 10; continue _fun0001;
 case 8:
             var5 = _closure1_slot0;
@@ -131,7 +131,7 @@ case 8:
             var4 = var4[var7];
             var4 = var5.bind(var6)(var4);
             var4 = var4.t;
-            var1 = var4.3DzP7+;
+            var1 = var4.3DzP7x;
 case 10:
             var9 = var2.bind(var3)(var1);
 case 7:

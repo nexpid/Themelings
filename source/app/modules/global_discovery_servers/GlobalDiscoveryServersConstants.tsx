@@ -181,7 +181,7 @@ case 3:
                 var3 = var8[var3];
                 var3 = var7.bind(var6)(var3);
                 var3 = var3.t;
-                var3 = var3.LQLMGB;
+                var3 = var3.LQLMGP;
                 var4 = var4.bind(var5)(var3);
                 var3 = 'name';
                 var2[var3] = var4;

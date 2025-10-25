@@ -354,7 +354,7 @@ case 0:
                 var8 = var8[var16];
                 var8 = var18.bind(var4)(var8);
                 var8 = var8.t;
-                var8 = var8.MsUY/f;
+                var8 = var8.MsUY/S;
                 var8 = var15.bind(var17)(var8);
                 var5['accessibilityLabel'] = var8;
                 var8 = var13.assetWrapper;
@@ -434,7 +434,7 @@ case 35:
                 var12 = var12[var16];
                 var12 = var15.bind(var4)(var12);
                 var12 = var12.t;
-                var12 = var12.N86XcH;
+                var12 = var12.N86XcP;
                 var12 = var13.bind(var14)(var12);
                 var10['children'] = var12;
                 var10 = var9.bind(var4)(var11, var10);

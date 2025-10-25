@@ -120,7 +120,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var15 = 6;
         var5 = var13[var15];
         var5 = var12.bind(var4)(var5);
-        var5 = var5.r8GEbG;
+        var5 = var5.r8GEbK;
         var5 = var6.bind(var7)(var5);
         var1['accessibilityLabel'] = var5;
         var8 = _closure1_slot3;
@@ -153,7 +153,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var20 = var21.string;
         var19 = var13[var15];
         var19 = var12.bind(var4)(var19);
-        var19 = var19.CdU/PD;
+        var19 = var19.CdU/PF;
         var19 = var20.bind(var21)(var19);
         var17['children'] = var19;
         var17 = var7.bind(var4)(var18, var17);

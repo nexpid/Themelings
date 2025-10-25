@@ -60,6 +60,44 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var2['selectParticipant'] = var7;
+    var7 = function popoutParticipant(arg1, arg2) {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 1;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'CHANNEL_RTC_POPOUT_PARTICIPANT';
+        var2['type'] = var5;
+        var5 = arg1;
+        var2['channelId'] = var5;
+        var5 = arg2;
+        var2['participantId'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var2['popoutParticipant'] = var7;
+    var7 = function returnParticipant(arg1, arg2) {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 1;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'CHANNEL_RTC_RETURN_PARTICIPANT';
+        var2['type'] = var5;
+        var5 = arg1;
+        var2['channelId'] = var5;
+        var5 = arg2;
+        var2['participantId'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var2['returnParticipant'] = var7;
     var7 = function updateLayout(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:

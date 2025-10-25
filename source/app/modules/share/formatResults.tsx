@@ -897,7 +897,7 @@ case 107:
             var3 = var3[var16];
             var3 = var18.bind(var4)(var3);
             var3 = var3.t;
-            var3 = var3.qm9dSk;
+            var3 = var3.qm9dSj;
             var3 = var15.bind(var17)(var3);
             var3 = var11.bind(var14)(var3);
             if(var6) { _fun0012_ip = 108; continue _fun0012 }
@@ -942,7 +942,7 @@ case 23:
             var1 = var1[var16];
             var1 = var15.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1.80lOZ2;
+            var1 = var1.80lOZ1;
             var1 = var13.bind(var14)(var1);
             var8 = var8.bind(var12)(var1);
             var1 = new Array(3);

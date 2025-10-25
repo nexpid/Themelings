@@ -217,7 +217,7 @@ case 4:
             var17 = var16[var17];
             var17 = var20.bind(var4)(var17);
             var17 = var17.t;
-            var17 = var17.moABMz;
+            var17 = var17.moABMy;
             var17 = var18.bind(var19)(var17);
             var10['accessibilityLabel'] = var17;
             var14 = var14.participantActionIcon;
@@ -483,7 +483,7 @@ case 6:
             var19 = var17[var13];
             var19 = var16.bind(var5)(var19);
             var19 = var19.t;
-            var19 = var19.7R24mZ;
+            var19 = var19.7R24mX;
             var19 = var20.bind(var21)(var19);
             var12['children'] = var19;
             var12 = var18.bind(var5)(var15, var12);
@@ -502,7 +502,7 @@ case 6:
             var13 = var17[var13];
             var13 = var16.bind(var5)(var13);
             var13 = var13.t;
-            var13 = var13.Rpr2s7;
+            var13 = var13.Rpr2s0;
             var13 = var14.bind(var15)(var13);
             var10['children'] = var13;
             var10 = var12.bind(var5)(var11, var10);

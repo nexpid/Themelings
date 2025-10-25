@@ -100,7 +100,7 @@ case 3:
             var2 = var7[var2];
             var2 = var6.bind(var4)(var2);
             var2 = var2.t;
-            var2 = var2.SdlRnJ;
+            var2 = var2.SdlRnK;
             var21 = var3.bind(var5)(var2);
 case 2:
             var14 = var1.subtitle;
@@ -116,7 +116,7 @@ case 5:
             var1 = var6[var1];
             var1 = var5.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1.R7mv+P;
+            var1 = var1.R7mv+G;
             var14 = var2.bind(var3)(var1);
 case 4:
             var1 = _closure1_slot9;

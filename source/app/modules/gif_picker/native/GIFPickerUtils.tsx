@@ -205,7 +205,7 @@ case 22:
                 var5 = var10[var5];
                 var5 = var8.bind(var9)(var5);
                 var5 = var5.t;
-                var5 = var5.k8fFjo;
+                var5 = var5.k8fFjp;
                 var5 = var6.bind(var7)(var5);
                 var2['name'] = var5;
                 var3 = _closure2_slot0;

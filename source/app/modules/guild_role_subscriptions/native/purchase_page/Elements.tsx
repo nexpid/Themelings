@@ -162,11 +162,11 @@ case 5:
             var16 = var15.t;
             if(var12) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var15 = var16.Fbrd8P;
+            var15 = var16.Fbrd8J;
             var15 = var17.bind(var18)(var15);
             _fun0001_ip = 8; continue _fun0001;
 case 6:
-            var16 = var16.JQX/PT;
+            var16 = var16.JQX/Pb;
             var15 = var17.bind(var18)(var16);
 case 8:
             var8['children'] = var15;

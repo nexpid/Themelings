@@ -75,7 +75,7 @@ case 6:
             var1 = var11[var1];
             var1 = var5.bind(var6)(var1);
             var1 = var1.t;
-            var5 = var1.GcKM5e;
+            var5 = var1.GcKM5Z;
             var1 = {};
             var1['numReferrals'] = var8;
             var1 = var7.bind(var10)(var5, var1);
@@ -95,7 +95,7 @@ case 11:
             var3 = var10[var3];
             var3 = var4.bind(var6)(var3);
             var3 = var3.t;
-            var4 = var3.3PJw6e;
+            var4 = var3.3PJw6c;
             var3 = {};
             var3['numReferrals'] = var8;
             var3 = var5.bind(var7)(var4, var3);
@@ -111,7 +111,7 @@ case 10:
             var4 = var10[var4];
             var4 = var5.bind(var6)(var4);
             var4 = var4.t;
-            var5 = var4.hZnIz8;
+            var5 = var4.hZnIz4;
             var4 = {};
             var4['numFriends'] = var9;
             var3 = var7.bind(var8)(var5, var4);
@@ -145,7 +145,7 @@ case 2:
             var2 = var7[var2];
             var2 = var5.bind(var6)(var2);
             var2 = var2.t;
-            var2 = var2.mPmPrq;
+            var2 = var2.mPmPri;
             var1 = var3.bind(var4)(var2);
 case 14:
             return var1;

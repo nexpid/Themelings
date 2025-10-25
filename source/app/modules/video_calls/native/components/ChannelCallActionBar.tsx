@@ -618,7 +618,7 @@ case 46:
             var8 = var9[var8];
             var8 = var12.bind(var4)(var8);
             var8 = var8.t;
-            var8 = var8.HK4JIi;
+            var8 = var8.HK4JIu;
             var8 = var10.bind(var11)(var8);
             var1['accessibilityLabel'] = var8;
             var8 = _closure1_slot1;
@@ -686,7 +686,7 @@ case 52:
             var7 = var11[var7];
             var7 = var10.bind(var4)(var7);
             var7 = var7.t;
-            var7 = var7.XF1nZ2;
+            var7 = var7.XF1nZz;
             var7 = var8.bind(var9)(var7);
             var1['accessibilityLabel'] = var7;
             var1['onPress'] = var6;
@@ -746,7 +746,7 @@ case 52:
         var6 = var10[var6];
         var6 = var9.bind(var4)(var6);
         var6 = var6.t;
-        var6 = var6.A/Ly//;
+        var6 = var6.A/Ly/2;
         var6 = var7.bind(var8)(var6);
         var1['accessibilityLabel'] = var6;
         var1['isSmallSize'] = var5;
@@ -782,7 +782,7 @@ case 52:
         var7 = var11[var7];
         var7 = var10.bind(var3)(var7);
         var7 = var7.t;
-        var7 = var7.6vrfgo;
+        var7 = var7.6vrfgt;
         var7 = var8.bind(var9)(var7);
         var1['accessibilityLabel'] = var7;
         var1['isSmallSize'] = var6;
@@ -909,7 +909,7 @@ case 54:
             var8 = var12[var8];
             var8 = var11.bind(var5)(var8);
             var8 = var8.t;
-            var8 = var8.q3O3Jy;
+            var8 = var8.q3O3J8;
             var8 = var9.bind(var10)(var8);
             var2['accessibilityLabel'] = var8;
             var2['isSmallSize'] = var7;
@@ -967,7 +967,7 @@ case 53:
         var7 = var8[var7];
         var7 = var11.bind(var3)(var7);
         var7 = var7.t;
-        var7 = var7.k0Aph4;
+        var7 = var7.k0Aph0;
         var7 = var9.bind(var10)(var7);
         var1['accessibilityLabel'] = var7;
         var7 = function onPress() {

@@ -412,7 +412,7 @@ case 29:
             var12 = var19[var15];
             var12 = var18.bind(var5)(var12);
             var12 = var12.t;
-            var20 = var12.XRkuoa;
+            var20 = var12.XRkuof;
             var12 = {};
             var23 = var24.toLocaleString;
             var23 = var23.bind(var24)();
@@ -443,7 +443,7 @@ case 29:
             var15 = var19[var15];
             var15 = var18.bind(var5)(var15);
             var15 = var15.t;
-            var15 = var15.qbir+/;
+            var15 = var15.qbir+4;
             var15 = var16.bind(var17)(var15);
             var10['accessibilityLabel'] = var15;
             var14 = var14.poll;
@@ -889,7 +889,7 @@ case 34:
             var15 = var13[var9];
             var15 = var12.bind(var4)(var15);
             var15 = var15.t;
-            var15 = var15.vhQK3t;
+            var15 = var15.vhQK3o;
             var15 = var16.bind(var17)(var15);
             var8['children'] = var15;
             var8 = var14.bind(var4)(var11, var8);
@@ -908,7 +908,7 @@ case 34:
             var9 = var13[var9];
             var9 = var12.bind(var4)(var9);
             var9 = var9.t;
-            var9 = var9.bwytdn;
+            var9 = var9.bwytdh;
             var9 = var10.bind(var11)(var9);
             var6['children'] = var9;
             var6 = var8.bind(var4)(var7, var6);
@@ -1099,7 +1099,7 @@ case 55:
             var1 = var12[var1];
             var1 = var2.bind(var4)(var1);
             var1 = var1.t;
-            var3 = var1.wqBc7O;
+            var3 = var1.wqBc7A;
             var1 = {};
             var1['numVotes'] = var10;
             var16 = var13.poll_media;
@@ -1437,7 +1437,7 @@ case 79:
             var19 = var23[var19];
             var19 = var20.bind(var4)(var19);
             var19 = var19.t;
-            var20 = var19.SG/Cy8;
+            var20 = var19.SG/Cyy;
             var19 = {};
             var23 = var9.toLocaleString;
             var23 = var23.bind(var9)();

@@ -324,7 +324,7 @@ case 18:
             var21 = var25[var21];
             var21 = var24.bind(var4)(var21);
             var21 = var21.t;
-            var21 = var21.ZN4hkZ;
+            var21 = var21.ZN4hkc;
             var21 = var22.bind(var23)(var21);
             var17['text'] = var21;
             var17['onPress'] = var20;

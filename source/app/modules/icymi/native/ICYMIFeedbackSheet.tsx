@@ -49,7 +49,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var7[var9];
         var5 = var6.bind(var3)(var5);
         var5 = var5.t;
-        var5 = var5.ppfH9/;
+        var5 = var5.ppfH9+;
         var5 = var8.bind(var10)(var5);
         var1['headerLabel'] = var5;
         var5 = var7[var9];
@@ -59,7 +59,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var7[var9];
         var5 = var6.bind(var3)(var5);
         var5 = var5.t;
-        var5 = var5.ePk/CQ;
+        var5 = var5.ePk/Cf;
         var5 = var8.bind(var10)(var5);
         var1['ratingsBodyLabel'] = var5;
         var5 = var7[var9];
@@ -69,7 +69,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var7[var9];
         var5 = var6.bind(var3)(var5);
         var5 = var5.t;
-        var5 = var5.sBOuOT;
+        var5 = var5.sBOuOf;
         var5 = var8.bind(var10)(var5);
         var1['reasonsHeaderLabel'] = var5;
         var5 = {};
@@ -80,7 +80,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = var7[var9];
         var8 = var6.bind(var3)(var8);
         var8 = var8.t;
-        var8 = var8.F6TmZG;
+        var8 = var8.F6TmZA;
         var8 = var10.bind(var11)(var8);
         var5['label'] = var8;
         var8 = 'irrelevant_content';
@@ -95,7 +95,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10 = var7[var9];
         var10 = var6.bind(var3)(var10);
         var10 = var10.t;
-        var10 = var10.voWAzs;
+        var10 = var10.voWAzi;
         var10 = var11.bind(var12)(var10);
         var5['label'] = var10;
         var10 = 'not_enough_content';
@@ -109,7 +109,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10 = var7[var9];
         var10 = var6.bind(var3)(var10);
         var10 = var10.t;
-        var10 = var10.Ay8iw8;
+        var10 = var10.Ay8iwx;
         var10 = var11.bind(var12)(var10);
         var5['label'] = var10;
         var10 = 'too_much_content';
@@ -123,7 +123,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = var7[var9];
         var9 = var6.bind(var3)(var9);
         var9 = var9.t;
-        var9 = var9.Yu+52d;
+        var9 = var9.Yu+52W;
         var9 = var10.bind(var11)(var9);
         var5['label'] = var9;
         var9 = 'laggy';

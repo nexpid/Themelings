@@ -28,7 +28,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var10[var5];
         var5 = var6.bind(var3)(var5);
         var5 = var5.t;
-        var6 = var5.KI+BSU;
+        var6 = var5.KI+BSb;
         var5 = {};
         var10 = _closure1_slot7;
         var10 = var10.TERMS;
@@ -82,7 +82,7 @@ case 6:
             var7 = var7[var14];
             var7 = var12.bind(var4)(var7);
             var7 = var7.t;
-            var7 = var7.Y7Kgvb;
+            var7 = var7.Y7Kgvf;
             var7 = var8.bind(var10)(var7);
             var1['accessibilityLabel'] = var7;
             var1['onPress'] = var6;
@@ -130,7 +130,7 @@ case 9:
             var9 = var9[var14];
             var9 = var10.bind(var4)(var9);
             var9 = var9.t;
-            var10 = var9.qMDAPz;
+            var10 = var9.qMDAP0;
             var9 = {};
             var14 = _closure1_slot7;
             var14 = var14.TERMS;

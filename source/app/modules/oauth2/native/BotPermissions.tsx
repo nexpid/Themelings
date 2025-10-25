@@ -301,7 +301,7 @@ case 0:
             var17 = var8[var18];
             var17 = var9.bind(var4)(var17);
             var17 = var17.t;
-            var19 = var17.sOaT2t;
+            var19 = var17.sOaT2j;
             var17 = {};
             var24 = var22.name;
             var17['applicationName'] = var24;
@@ -354,7 +354,7 @@ case 3:
             var18 = var11[var18];
             var18 = var12.bind(var4)(var18);
             var18 = var18.t;
-            var19 = var18.fsOkFx;
+            var19 = var18.fsOkF4;
             var18 = {};
             var22 = var22.name;
             var18['applicationName'] = var22;

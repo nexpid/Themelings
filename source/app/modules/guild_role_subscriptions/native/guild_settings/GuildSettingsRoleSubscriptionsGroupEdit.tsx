@@ -310,7 +310,7 @@ case 45:
                         var5 = var9[var5];
                         var5 = var8.bind(var3)(var5);
                         var5 = var5.t;
-                        var5 = var5.R3BPHx;
+                        var5 = var5.R3BPH+;
                         var5 = var6.bind(var7)(var5);
                         var1['text'] = var5;
                         var5 = _closure2_slot12;
@@ -375,7 +375,7 @@ case 52:
                     var4 = var9[var4];
                     var4 = var7.bind(var8)(var4);
                     var4 = var4.t;
-                    var4 = var4.ZUEGFh;
+                    var4 = var4.ZUEGFn;
                     var1 = var5.bind(var6)(var4);
 case 51:
                     var1 = var2.bind(var3)(var1);

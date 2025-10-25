@@ -130,7 +130,7 @@ case 2:
         var8 = var13[var8];
         var8 = var9.bind(var4)(var8);
         var8 = var8.t;
-        var9 = var8.M79KAA;
+        var9 = var8.M79KAH;
         var8 = {};
         var13 = function usernameHook(arg1, arg2) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
@@ -700,7 +700,7 @@ case 34:
             var8 = var13[var8];
             var8 = var9.bind(var4)(var8);
             var8 = var8.t;
-            var9 = var8.imPXd3;
+            var9 = var8.imPXd5;
             var8 = {};
             var12 = function usernameHook(arg1, arg2) {
                 _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {

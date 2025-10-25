@@ -641,7 +641,7 @@ case 30:
                 var5 = var9[var5];
                 var5 = var8.bind(var1)(var5);
                 var5 = var5.t;
-                var5 = var5.iYQlws;
+                var5 = var5.iYQlwv;
                 var5 = var6.bind(var7)(var5);
                 var2['alertBody'] = var5;
                 var2 = var3.bind(var4)(var2);

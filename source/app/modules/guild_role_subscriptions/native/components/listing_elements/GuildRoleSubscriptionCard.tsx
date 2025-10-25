@@ -168,7 +168,7 @@ case 0:
             var15 = var19[var20];
             var15 = var11.bind(var4)(var15);
             var15 = var15.t;
-            var15 = var15.DJ+bGh;
+            var15 = var15.DJ+bGu;
             var15 = var21.bind(var23)(var15);
             var9['children'] = var15;
             var10 = var12.bind(var4)(var10, var9);
@@ -216,7 +216,7 @@ case 3:
             var21 = var23[var20];
             var21 = var27.bind(var4)(var21);
             var21 = var21.t;
-            var27 = var21.oDeFmp;
+            var27 = var21.oDeFmv;
             var21 = {};
             var31 = var26.size;
             var21['numEmojis'] = var31;
@@ -271,7 +271,7 @@ case 5:
             var23 = var18[var20];
             var23 = var19.bind(var4)(var23);
             var23 = var23.t;
-            var26 = var23.l40GUl;
+            var26 = var23.l40GUu;
             var23 = {};
             var23['numChannels'] = var29;
             var23 = var27.bind(var28)(var26, var23);
@@ -340,7 +340,7 @@ case 7:
             var20 = var11[var20];
             var20 = var12.bind(var4)(var20);
             var20 = var20.t;
-            var21 = var20.4V/Mfn;
+            var21 = var20.4V/Mfi;
             var20 = {};
             var20['numIntangibles'] = var24;
             var20 = var22.bind(var23)(var21, var20);

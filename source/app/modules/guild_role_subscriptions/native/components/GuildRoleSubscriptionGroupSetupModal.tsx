@@ -234,7 +234,7 @@ case 33:
                             var9 = var13[var9];
                             var9 = var12.bind(var3)(var9);
                             var9 = var9.t;
-                            var9 = var9.ZUEGFh;
+                            var9 = var9.ZUEGFn;
                             var2 = var10.bind(var11)(var9);
 case 32:
                             var2 = var5.bind(var8)(var2);
@@ -326,7 +326,7 @@ case 41:
                     var4 = var9[var4];
                     var4 = var7.bind(var8)(var4);
                     var4 = var4.t;
-                    var4 = var4.R0RpRU;
+                    var4 = var4.R0RpRX;
                     var1 = var5.bind(var6)(var4);
 case 40:
                     var1 = var2.bind(var3)(var1);

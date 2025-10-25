@@ -784,9 +784,7 @@ case 18:
             var2 = var7.bind(var8)(var2, var3);
             var3 = _closure1_slot5;
             var2 = _closure1_slot4;
-            var1 = {};
-            var7 = 'none';
-            var1['pointerEvents'] = var7;
+            var1 = {'pointerEvents': 'none', 'testID': 'FastestListChildren'};
             var1['style'] = var6;
             var5 = var5.items;
             var1['children'] = var5;

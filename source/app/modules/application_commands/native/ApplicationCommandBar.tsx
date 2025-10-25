@@ -207,7 +207,7 @@ case 4:
             var7 = var16[var7];
             var7 = var9.bind(var4)(var7);
             var7 = var7.t;
-            var9 = var7.evoEHR;
+            var9 = var7.evoEHc;
             var7 = {};
             var16 = var8.displayName;
             var7['optionName'] = var16;
@@ -940,7 +940,7 @@ case 75:
             var23 = var27[var23];
             var23 = var26.bind(var4)(var23);
             var23 = var23.t;
-            var23 = var23.U19GMz;
+            var23 = var23.U19GM3;
             var23 = var24.bind(var25)(var23);
             var20['children'] = var23;
             var20 = var22.bind(var4)(var21, var20);

@@ -70,7 +70,7 @@ case 11:
             var2 = var8[var2];
             var2 = var7.bind(var3)(var2);
             var2 = var2.t;
-            var3 = var2.IfYQVF;
+            var3 = var2.IfYQVC;
             var2 = {};
             var7 = '6+';
             var2['years'] = var7;
@@ -88,7 +88,7 @@ case 6:
             var2 = var8[var2];
             var2 = var7.bind(var3)(var2);
             var2 = var2.t;
-            var3 = var2.IfYQVF;
+            var3 = var2.IfYQVC;
             var2 = {};
             var7 = 12;
             var7 = var5 / var7;
@@ -107,7 +107,7 @@ case 2:
             var1 = var7[var1];
             var1 = var6.bind(var2)(var1);
             var1 = var1.t;
-            var2 = var1.erUSmJ;
+            var2 = var1.erUSmA;
             var1 = {};
             var1['months'] = var5;
             var1 = var3.bind(var4)(var2, var1);

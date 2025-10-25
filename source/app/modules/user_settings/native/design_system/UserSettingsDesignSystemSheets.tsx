@@ -272,7 +272,7 @@ case 6:
         var8 = var12[var8];
         var8 = var11.bind(var3)(var8);
         var8 = var8.t;
-        var8 = var8.BddRzc;
+        var8 = var8.BddRzS;
         var8 = var9.bind(var10)(var8);
         var5['text'] = var8;
         var5 = var7.bind(var3)(var6, var5);

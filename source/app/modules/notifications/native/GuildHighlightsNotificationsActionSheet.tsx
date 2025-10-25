@@ -446,7 +446,7 @@ case 28:
             var18 = var23[var12];
             var18 = var21.bind(var4)(var18);
             var18 = var18.t;
-            var18 = var18.Yzl7Oj;
+            var18 = var18.Yzl7Or;
             var18 = var25.bind(var27)(var18);
             var2['ratingsBodyLabel'] = var18;
             var18 = var23[var12];
@@ -456,7 +456,7 @@ case 28:
             var12 = var23[var12];
             var12 = var21.bind(var4)(var12);
             var12 = var12.t;
-            var12 = var12.g1q5fn;
+            var12 = var12.g1q5fr;
             var12 = var18.bind(var25)(var12);
             var2['reasonsHeaderLabel'] = var12;
             var18 = var14 == var16;
@@ -504,7 +504,7 @@ case 27:
             var12 = var23[var12];
             var12 = var21.bind(var4)(var12);
             var12 = var12.t;
-            var12 = var12.kZbFIC;
+            var12 = var12.kZbFIO;
             var12 = var16.bind(var18)(var12);
             var3['children'] = var12;
             var2 = var11.bind(var4)(var8, var3);
@@ -612,7 +612,7 @@ case 49:
             var23 = var32[var20];
             var23 = var27.bind(var4)(var23);
             var23 = var23.t;
-            var23 = var23.o8Bypq;
+            var23 = var23.o8Bypv;
             var23 = var25.bind(var28)(var23);
             var12['children'] = var23;
             var12 = var21.bind(var4)(var18, var12);
@@ -697,7 +697,7 @@ case 54:
             var25 = var25[var20];
             var25 = var29.bind(var4)(var25);
             var25 = var25.t;
-            var25 = var25.MVi7LS;
+            var25 = var25.MVi7LQ;
             var25 = var27.bind(var28)(var25);
             var21['label'] = var25;
             if(var24) { _fun0004_ip = 55; continue _fun0004 }
@@ -764,7 +764,7 @@ case 53:
             var15 = var15[var20];
             var15 = var16.bind(var4)(var15);
             var15 = var15.t;
-            var16 = var15.F9rfLS;
+            var16 = var15.F9rfLX;
             var15 = {};
             var19 = function notifSettingsHook() {
                 var3 = _closure1_slot1;

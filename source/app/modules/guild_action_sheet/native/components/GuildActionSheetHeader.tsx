@@ -26,7 +26,7 @@ case 0:
             var1 = var8[var13];
             var1 = var7.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1.TME4LC;
+            var1 = var1.TME4LJ;
             var1 = var3.bind(var9)(var1);
             var _closure2_slot1 = var1;
             var3 = _closure1_slot1;
@@ -49,7 +49,7 @@ case 3:
             var1 = var3[var13];
             var1 = var2.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1.op2cJy;
+            var1 = var1.op2cJ6;
             var1 = var7.bind(var8)(var1);
             _closure2_slot1 = var1;
             var1 = 13;
@@ -120,7 +120,7 @@ case 2:
             var9 = var9[var13];
             var9 = var12.bind(var4)(var9);
             var9 = var9.t;
-            var9 = var9.K7iRio;
+            var9 = var9.K7iRig;
             var9 = var10.bind(var11)(var9);
             var6['children'] = var9;
             var6 = var8.bind(var4)(var7, var6);
@@ -877,7 +877,7 @@ case 53:
                 var5 = var9[var5];
                 var5 = var8.bind(var1)(var5);
                 var5 = var5.t;
-                var5 = var5.O8lDIy;
+                var5 = var5.O8lDI2;
                 var5 = var6.bind(var7)(var5);
                 var2['content'] = var5;
                 var2 = var3.bind(var4)(var2);
@@ -912,7 +912,7 @@ case 53:
             var22 = var26[var22];
             var22 = var25.bind(var4)(var22);
             var22 = var22.t;
-            var22 = var22.emP/5e;
+            var22 = var22.emP/5T;
             var22 = var23.bind(var24)(var22);
             var19['children'] = var22;
             var19 = var21.bind(var4)(var20, var19);

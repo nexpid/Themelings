@@ -371,7 +371,7 @@ case 5:
         var13 = var9[var11];
         var13 = var7.bind(var4)(var13);
         var13 = var13.t;
-        var13 = var13.TdEu5e;
+        var13 = var13.TdEu5X;
         var13 = var14.bind(var15)(var13);
         var1['accessibilityLabel'] = var13;
         var1['onPress'] = var8;
@@ -395,7 +395,7 @@ case 5:
         var11 = var9[var11];
         var11 = var7.bind(var4)(var11);
         var11 = var11.t;
-        var11 = var11.TdEu5e;
+        var11 = var11.TdEu5X;
         var11 = var12.bind(var13)(var11);
         var5['children'] = var11;
         var10 = var8.bind(var4)(var10, var5);

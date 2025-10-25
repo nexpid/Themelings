@@ -331,7 +331,7 @@ case 21:
             var15 = var15[var23];
             var15 = var21.bind(var5)(var15);
             var15 = var15.t;
-            var15 = var15.OYkgVl;
+            var15 = var15.OYkgVk;
             var15 = var19.bind(var20)(var15);
             var8['text'] = var15;
             var15 = function handleAddModeratorsPressed() {
@@ -359,7 +359,7 @@ case 23:
             var19 = var19[var23];
             var19 = var22.bind(var5)(var19);
             var19 = var19.t;
-            var19 = var19.5WxrcX;
+            var19 = var19.5Wxrcd;
             var19 = var20.bind(var21)(var19);
             var15['text'] = var19;
             var18 = function handleSkip() {

@@ -353,7 +353,7 @@ case 24:
             var1 = var7[var1];
             var1 = var3.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1.1fRDnZ;
+            var1 = var1.1fRDnT;
             var1 = var8.bind(var9)(var1);
             var2['text'] = var1;
             var1 = 32;
@@ -377,7 +377,7 @@ case 22:
             var1 = var9[var1];
             var1 = var8.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1.L3I0Ji;
+            var1 = var1.L3I0Jr;
             var1 = var3.bind(var7)(var1);
             var2['text'] = var1;
             var1 = function handleHidePip() {

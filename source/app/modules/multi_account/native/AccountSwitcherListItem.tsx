@@ -256,7 +256,7 @@ case 17:
             var14 = var22[var14];
             var14 = var19.bind(var5)(var14);
             var14 = var14.t;
-            var14 = var14.tYX2pq;
+            var14 = var14.tYX2ps;
             var14 = var16.bind(var18)(var14);
             var3['children'] = var14;
             var15 = var12.bind(var5)(var4, var3);
@@ -278,7 +278,7 @@ case 15:
             var14 = var22[var14];
             var14 = var19.bind(var5)(var14);
             var14 = var14.t;
-            var14 = var14.seV8ys;
+            var14 = var14.seV8yt;
             var14 = var16.bind(var18)(var14);
             var3['children'] = var14;
             var15 = var12.bind(var5)(var4, var3);
@@ -315,7 +315,7 @@ case 22:
             var13 = var19[var13];
             var13 = var18.bind(var5)(var13);
             var13 = var13.t;
-            var13 = var13.wY4y0d;
+            var13 = var13.wY4y0R;
             var12 = var14.bind(var16)(var13);
 case 21:
             var2['accessibilityHint'] = var12;

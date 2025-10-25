@@ -108,6 +108,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['CHANNEL_CALL'] = var1;
     var1 = 'channel call connecting screen';
     var2['CHANNEL_CALL_CONNECTING_SCREEN'] = var1;
+    var1 = 'call tile popout';
+    var2['CALL_TILE_POPOUT'] = var1;
     var1 = 'channel details';
     var2['CHANNEL_DETAILS'] = var1;
     var1 = 'rtc panel';

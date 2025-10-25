@@ -183,7 +183,7 @@ case 10:
         var11 = 11;
         var16 = var15[var11];
         var16 = var14.bind(var4)(var16);
-        var16 = var16.RqoA4u;
+        var16 = var16.RqoA4v;
         var16 = var17.bind(var18)(var16);
         var1['headerLabel'] = var16;
         var16 = var15[var12];
@@ -192,7 +192,7 @@ case 10:
         var17 = var18.string;
         var16 = var15[var11];
         var16 = var14.bind(var4)(var16);
-        var16 = var16.RPb8Zm;
+        var16 = var16.RPb8Zk;
         var16 = var17.bind(var18)(var16);
         var1['ratingsBodyLabel'] = var16;
         var12 = var15[var12];
@@ -201,7 +201,7 @@ case 10:
         var12 = var13.string;
         var11 = var15[var11];
         var11 = var14.bind(var4)(var11);
-        var11 = var11.KZw6kp;
+        var11 = var11.KZw6kn;
         var11 = var12.bind(var13)(var11);
         var1['reasonsHeaderLabel'] = var11;
         var1['reasons'] = var10;
@@ -236,7 +236,7 @@ case 15:
                 var2 = 11;
                 var2 = var8[var2];
                 var2 = var6.bind(var7)(var2);
-                var2 = var2.zApKaW;
+                var2 = var2.zApKaR;
                 var2 = var4.bind(var5)(var2);
                 _fun0002_ip = 16; continue _fun0002;
 case 14:
@@ -252,7 +252,7 @@ case 14:
                 var3 = 11;
                 var3 = var8[var3];
                 var3 = var6.bind(var7)(var3);
-                var3 = var3.Q5cQ4+;
+                var3 = var3.Q5cQ46;
                 var2 = var4.bind(var5)(var3);
 case 16:
                 var1 = var2;

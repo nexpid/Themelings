@@ -113,7 +113,7 @@ case 0:
             var15 = var13[var14];
             var15 = var11.bind(var4)(var15);
             var15 = var15.t;
-            var15 = var15.vwMEHR;
+            var15 = var15.vwMEHS;
             var15 = var16.bind(var17)(var15);
             var5['children'] = var15;
             var7 = var8.bind(var4)(var7, var5);
@@ -130,7 +130,7 @@ case 0:
             var14 = var13[var14];
             var14 = var11.bind(var4)(var14);
             var14 = var14.t;
-            var15 = var14.IHxEJS;
+            var15 = var14.IHxEJU;
             var14 = {};
             var18 = 9;
             var18 = var13[var18];

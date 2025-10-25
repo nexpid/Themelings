@@ -73,7 +73,7 @@ case 5:
             var4 = var9[var4];
             var4 = var8.bind(var5)(var4);
             var4 = var4.t;
-            var4 = var4.NgXl3N;
+            var4 = var4.NgXl3C;
             var4 = var10.bind(var11)(var4);
             var1['label'] = var4;
             var4 = function action() {
@@ -194,7 +194,7 @@ case 9:
                 var5 = var9[var5];
                 var5 = var8.bind(var3)(var5);
                 var5 = var5.t;
-                var5 = var5.PdRCRk;
+                var5 = var5.PdRCRg;
                 var6 = var6.bind(var7)(var5);
                 var5 = 'accessibilityLabel';
                 var1[var5] = var6;

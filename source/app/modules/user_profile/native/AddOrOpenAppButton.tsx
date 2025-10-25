@@ -131,7 +131,7 @@ case 5:
                 var1 = var7[var1];
                 var1 = var6.bind(var5)(var1);
                 var1 = var1.t;
-                var1 = var1.XWDiho;
+                var1 = var1.XWDihq;
                 var1 = var3.bind(var4)(var1);
                 var2['label'] = var1;
                 var1 = new Array(1);
@@ -195,7 +195,7 @@ case 6:
             var12 = var10[var12];
             var12 = var15.bind(var3)(var12);
             var12 = var12.t;
-            var12 = var12.NgXl3N;
+            var12 = var12.NgXl3C;
             var12 = var13.bind(var14)(var12);
             var1['text'] = var12;
             var1['onPress'] = var11;
@@ -395,7 +395,7 @@ case 8:
         var7 = var11[var7];
         var7 = var10.bind(var4)(var7);
         var7 = var7.t;
-        var7 = var7.Cia+Aw;
+        var7 = var7.Cia+A8;
         var7 = var8.bind(var9)(var7);
         var1['text'] = var7;
         var1['loading'] = var6;

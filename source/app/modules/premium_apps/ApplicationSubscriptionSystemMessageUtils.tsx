@@ -41,7 +41,7 @@ case 3:
             var1 = var9[var1];
             var1 = var5.bind(var2)(var1);
             var1 = var1.t;
-            var2 = var1.PUJtgo;
+            var2 = var1.PUJtgi;
             var1 = {};
             var1['username'] = var8;
             var1['usernameOnClick'] = var6;
@@ -59,7 +59,7 @@ case 2:
             var2 = var10[var2];
             var2 = var9.bind(var3)(var2);
             var2 = var2.t;
-            var3 = var2.Tes5Oj;
+            var3 = var2.Tes5Ou;
             var2 = {};
             var2['username'] = var8;
             var7 = var7.name;

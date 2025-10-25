@@ -39,6 +39,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['REDUCED_MOTION'] = var1;
     var1 = 'REDUCED_MOTION_STICKERS';
     var4['REDUCED_MOTION_STICKERS'] = var1;
+    var1 = 'LOW_PERFORMANCE_MODE';
+    var4['LOW_PERFORMANCE_MODE'] = var1;
     var2 = {};
     var1 = 'auto';
     var2['AUTO'] = var1;

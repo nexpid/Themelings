@@ -77,7 +77,7 @@ case 2:
             var14 = var18[var12];
             var14 = var17.bind(var4)(var14);
             var14 = var14.t;
-            var14 = var14.F1Vixc;
+            var14 = var14.F1VixV;
             var15 = var15.bind(var16)(var14);
             var14 = new Array(2);
             var14[0] = var15;
@@ -88,7 +88,7 @@ case 2:
             var12 = var18[var12];
             var12 = var17.bind(var4)(var12);
             var12 = var12.t;
-            var12 = var12.MWmtj4;
+            var12 = var12.MWmtj8;
             var12 = var15.bind(var16)(var12);
             var14[1] = var12;
             var12 = var14.map;
@@ -288,11 +288,11 @@ case 0:
             var7 = var7.t;
             if(var6) { _fun0002_ip = 11; continue _fun0002 }
 case 12:
-            var6 = var7.et6wam;
+            var6 = var7.et6wav;
             var6 = var8.bind(var9)(var6);
             _fun0002_ip = 13; continue _fun0002;
 case 11:
-            var7 = var7.h9mGOD;
+            var7 = var7.h9mGOP;
             var6 = var8.bind(var9)(var7);
 case 13:
             var1['title'] = var6;

@@ -32,7 +32,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = var12[var9];
         var9 = var13.bind(var1)(var9);
         var9 = var9.t;
-        var9 = var9.cpT0Cg;
+        var9 = var9.cpT0Cq;
         var9 = var10.bind(var11)(var9);
         var5['accessibilityLabel'] = var9;
         var8 = function onPress() {
@@ -89,7 +89,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var14 = var11[var14];
         var14 = var7.bind(var4)(var14);
         var14 = var14.t;
-        var14 = var14.q+fFJi;
+        var14 = var14.q+fFJv;
         var14 = var15.bind(var16)(var14);
         var5['children'] = var14;
         var12 = var13.bind(var4)(var12, var5);
@@ -575,7 +575,7 @@ case 17:
             var19 = var23[var19];
             var19 = var22.bind(var4)(var19);
             var19 = var19.t;
-            var19 = var19.cK1GGR;
+            var19 = var19.cK1GGY;
             var19 = var20.bind(var21)(var19);
             var14['text'] = var19;
             var14['onPress'] = var18;

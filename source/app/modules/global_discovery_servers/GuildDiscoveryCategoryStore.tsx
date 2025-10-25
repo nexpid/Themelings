@@ -192,7 +192,7 @@ case 8:
             var1 = var8[var1];
             var1 = var7.bind(var6)(var1);
             var1 = var1.t;
-            var1 = var1.Ym2Ri4;
+            var1 = var1.Ym2Ri6;
             var1 = var4.bind(var5)(var1);
             var2['name'] = var1;
             var1 = new Array(1);
@@ -301,7 +301,7 @@ case 9:
                 var2 = var7[var2];
                 var2 = var6.bind(var5)(var2);
                 var2 = var2.t;
-                var2 = var2.Ym2Ri4;
+                var2 = var2.Ym2Ri6;
                 var1 = var3.bind(var4)(var2);
 case 11:
                 return var1;

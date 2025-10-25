@@ -135,7 +135,7 @@ case 8:
             var8 = var2[var6];
             var16 = var3.bind(var4)(var8);
             var11 = var16.useAnimatedStyle;
-            var8 = function k() {
+            var8 = function O() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var2 = _closure2_slot0;
@@ -246,7 +246,7 @@ case 22:
             var8 = var2[var6];
             var17 = var3.bind(var4)(var8);
             var11 = var17.useAnimatedStyle;
-            var8 = function O() {
+            var8 = function k() {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                     var3 = _closure2_slot8;
@@ -445,7 +445,7 @@ case 37:
             var18 = var24[var18];
             var18 = var22.bind(var4)(var18);
             var18 = var18.t;
-            var18 = var18.+9QSnp;
+            var18 = var18.+9QSnj;
             var18 = var19.bind(var20)(var18);
             _fun0001_ip = 38; continue _fun0001;
 case 36:
@@ -459,7 +459,7 @@ case 36:
             var19 = var28[var19];
             var19 = var20.bind(var4)(var19);
             var19 = var19.t;
-            var20 = var19.DbUmqq;
+            var20 = var19.DbUmqv;
             var19 = {};
             var19['num'] = var25;
             var18 = var22.bind(var24)(var20, var19);
@@ -489,7 +489,7 @@ case 40:
             var12 = var22[var12];
             var12 = var18.bind(var4)(var12);
             var12 = var12.t;
-            var18 = var12.1BlNHR;
+            var18 = var12.1BlNHb;
             var12 = {};
             var12['max'] = var21;
             var10 = var19.bind(var20)(var18, var12);
@@ -532,7 +532,7 @@ case 39:
             var34 = var25[var26];
             var34 = var21.bind(var4)(var34);
             var34 = var34.t;
-            var34 = var34.13/7kZ;
+            var34 = var34.13/7kX;
             var34 = var35.bind(var36)(var34);
             var31['children'] = var34;
             var31 = var33.bind(var4)(var32, var31);
@@ -594,7 +594,7 @@ case 41:
             var26 = var1[var26];
             var26 = var29.bind(var4)(var26);
             var26 = var26.t;
-            var26 = var26.i9IRUV;
+            var26 = var26.i9IRUc;
             var26 = var27.bind(var28)(var26);
             var23['children'] = var26;
             var23 = var25.bind(var4)(var24, var23);
@@ -719,11 +719,11 @@ case 0:
             var9 = var9.t;
             if(var8) { _fun0008_ip = 45; continue _fun0008 }
 case 46:
-            var8 = var9.dcl9MT;
+            var8 = var9.dcl9MQ;
             var8 = var10.bind(var11)(var8);
             _fun0008_ip = 47; continue _fun0008;
 case 45:
-            var9 = var9.iTcumZ;
+            var9 = var9.iTcuma;
             var8 = var10.bind(var11)(var9);
 case 47:
             var5['accessibilityLabel'] = var8;
@@ -842,6 +842,13 @@ case 47:
     var14 = 32;
     var9['width'] = var14;
     var4['headerHandle'] = var9;
+    var9 = {};
+    var14 = var6[var12];
+    var14 = var13.bind(var1)(var14);
+    var14 = var14.spacing;
+    var14 = var14.PX_4;
+    var9['paddingBottom'] = var14;
+    var4['headerHandleOnlyWrap'] = var9;
     var9 = {'position': 'absolute', 'top': 0, 'left': 0, 'right': 0, 'paddingHorizontal': 16, 'paddingVertical': 18, 'backgroundColor': null, 'flexDirection': 'row', 'alignItems': 'center', 'flexShrink': 0, 'flex': 1};
     var12 = var6[var12];
     var12 = var13.bind(var1)(var12);
@@ -879,79 +886,113 @@ case 47:
     var7 = "function MediaKeyboardBottomSheetHeaderTsx3(){const{animatedIndex,animatedIndexThreshold,animatedSnapPoints}=this.__closure;return{pointerEvents:animatedIndex.get()>animatedIndexThreshold(animatedSnapPoints,0.8)?'box-none':'none'};}";
     var4['code'] = var7;
     var _closure1_slot20 = var4;
-    var4 = 24;
+    var4 = 25;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/media_keyboard/native/components/MediaKeyboardBottomSheetHeader.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function MediaKeyboardBottomSheetHeader(arg1) {
-        var9 = arg1;
-        var4 = _closure1_slot13;
-        var3 = _closure1_slot14;
-        var2 = {};
-        var8 = _closure1_slot12;
-        var7 = _closure1_slot21;
-        var5 = {};
-        var1 = var9.title;
-        var5['title'] = var1;
-        var1 = var9.subtitle;
-        var5['subtitle'] = var1;
-        var1 = var9.animatedIndex;
-        var5['animatedIndex'] = var1;
-        var1 = var9.channel;
-        var5['channel'] = var1;
-        var1 = var9.draftType;
-        var5['draftType'] = var1;
-        var1 = var9.hideScrim;
-        var5['hideScrim'] = var1;
-        var1 = var9.onBack;
-        var5['onBack'] = var1;
-        var1 = var9.onPress;
-        var5['onPress'] = var1;
-        var1 = var9.onViewAll;
-        var5['onViewAll'] = var1;
-        var1 = var9.uploadLimit;
-        var5['uploadLimit'] = var1;
-        var1 = var9.disableWhenReachedLimit;
-        var5['disableWhenReachedLimit'] = var1;
-        var1 = var9.includedUploadIds;
-        var5['includedUploadIds'] = var1;
-        var1 = undefined;
-        var7 = var8.bind(var1)(var7, var5);
-        var5 = new Array(3);
-        var5[0] = var7;
-        var10 = _closure1_slot12;
-        var8 = _closure1_slot1;
-        var11 = _closure1_slot2;
-        var7 = 23;
-        var7 = var11[var7];
-        var8 = var8.bind(var1)(var7);
-        var7 = {};
-        var11 = var9.animatedIndex;
-        var7['animatedIndex'] = var11;
-        var11 = var9.disablePolls;
-        var7['disablePolls'] = var11;
-        var11 = var9.disableAttach;
-        var7['disableAttach'] = var11;
-        var11 = var9.onAttachPress;
-        var7['onAttachPress'] = var11;
-        var11 = var9.onPollsPress;
-        var7['onPollsPress'] = var11;
-        var7 = var10.bind(var1)(var8, var7);
-        var5[1] = var7;
-        var8 = _closure1_slot12;
-        var7 = _closure1_slot22;
-        var6 = {};
-        var10 = var9.animatedIndex;
-        var6['animatedIndex'] = var10;
-        var9 = var9.onPress;
-        var6['onPress'] = var9;
-        var6 = var8.bind(var1)(var7, var6);
-        var5[2] = var6;
-        var2['children'] = var5;
-        var1 = var4.bind(var1)(var3, var2);
-        return var1;
+        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+case 0:
+            var9 = arg1;
+            var1 = _closure1_slot17;
+            var5 = undefined;
+            var7 = var1.bind(var5)();
+            var2 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var1 = 23;
+            var1 = var3[var1];
+            var2 = var2.bind(var5)(var1);
+            var1 = var2.useMediaKeyboardActionsExperiment;
+            var1 = var1.bind(var2)();
+            var2 = var1.mediaKeyboardActionsType;
+            var1 = 'legacy';
+            if(!(var1 === var2)) { _fun0009_ip = 48; continue _fun0009 }
+case 49:
+            var3 = _closure1_slot13;
+            var2 = _closure1_slot14;
+            var1 = {};
+            var10 = _closure1_slot12;
+            var8 = _closure1_slot21;
+            var4 = {};
+            var11 = var9.title;
+            var4['title'] = var11;
+            var11 = var9.subtitle;
+            var4['subtitle'] = var11;
+            var11 = var9.animatedIndex;
+            var4['animatedIndex'] = var11;
+            var11 = var9.channel;
+            var4['channel'] = var11;
+            var11 = var9.draftType;
+            var4['draftType'] = var11;
+            var11 = var9.hideScrim;
+            var4['hideScrim'] = var11;
+            var11 = var9.onBack;
+            var4['onBack'] = var11;
+            var11 = var9.onPress;
+            var4['onPress'] = var11;
+            var11 = var9.onViewAll;
+            var4['onViewAll'] = var11;
+            var11 = var9.uploadLimit;
+            var4['uploadLimit'] = var11;
+            var11 = var9.disableWhenReachedLimit;
+            var4['disableWhenReachedLimit'] = var11;
+            var11 = var9.includedUploadIds;
+            var4['includedUploadIds'] = var11;
+            var8 = var10.bind(var5)(var8, var4);
+            var4 = new Array(3);
+            var4[0] = var8;
+            var11 = _closure1_slot12;
+            var10 = _closure1_slot1;
+            var12 = _closure1_slot2;
+            var8 = 24;
+            var8 = var12[var8];
+            var10 = var10.bind(var5)(var8);
+            var8 = {};
+            var12 = var9.animatedIndex;
+            var8['animatedIndex'] = var12;
+            var12 = var9.disablePolls;
+            var8['disablePolls'] = var12;
+            var12 = var9.disableAttach;
+            var8['disableAttach'] = var12;
+            var12 = var9.onAttachPress;
+            var8['onAttachPress'] = var12;
+            var12 = var9.onPollsPress;
+            var8['onPollsPress'] = var12;
+            var8 = var11.bind(var5)(var10, var8);
+            var4[1] = var8;
+            var11 = _closure1_slot12;
+            var10 = _closure1_slot22;
+            var8 = {};
+            var12 = var9.animatedIndex;
+            var8['animatedIndex'] = var12;
+            var12 = var9.onPress;
+            var8['onPress'] = var12;
+            var8 = var11.bind(var5)(var10, var8);
+            var4[2] = var8;
+            var1['children'] = var4;
+            var1 = var3.bind(var5)(var2, var1);
+            _fun0009_ip = 50; continue _fun0009;
+case 48:
+            var4 = _closure1_slot12;
+            var3 = _closure1_slot5;
+            var2 = {};
+            var7 = var7.headerHandleOnlyWrap;
+            var2['style'] = var7;
+            var8 = _closure1_slot12;
+            var7 = _closure1_slot22;
+            var6 = {};
+            var10 = var9.animatedIndex;
+            var6['animatedIndex'] = var10;
+            var9 = var9.onPress;
+            var6['onPress'] = var9;
+            var6 = var8.bind(var5)(var7, var6);
+            var2['children'] = var6;
+            var1 = var4.bind(var5)(var3, var2);
+case 50:
+            return var1;
+        }
     };
     var3['default'] = var2;
     return var1;

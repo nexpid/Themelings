@@ -755,7 +755,7 @@ case 38:
                     var3 = var10[var3];
                     var3 = var9.bind(var8)(var3);
                     var3 = var3.t;
-                    var3 = var3.gPX3oK;
+                    var3 = var3.gPX3oI;
                     var3 = var4.bind(var7)(var3);
                     var5['question'] = var3;
 case 37:
@@ -799,7 +799,7 @@ case 40:
                     var3 = var10[var3];
                     var3 = var9.bind(var8)(var3);
                     var3 = var3.t;
-                    var3 = var3.fYvzER;
+                    var3 = var3.fYvzEX;
                     var3 = var6.bind(var7)(var3);
                     var5[var4] = var3;
 case 39:
@@ -838,7 +838,7 @@ case 38:
                             var2 = var8[var2];
                             var2 = var7.bind(var1)(var2);
                             var2 = var2.t;
-                            var2 = var2.8Qqkc3;
+                            var2 = var2.8Qqkc+;
                             var2 = var5.bind(var6)(var2);
                             var4[var3] = var2;
 case 41:

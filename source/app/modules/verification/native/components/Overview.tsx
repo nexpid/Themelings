@@ -286,7 +286,7 @@ case 2:
                     var7 = var11[var7];
                     var7 = var10.bind(var4)(var7);
                     var7 = var7.t;
-                    var7 = var7.3413d3;
+                    var7 = var7.3413d0;
                     var7 = var8.bind(var9)(var7);
                     var2['text'] = var7;
                     var6 = function onPress() {
@@ -391,7 +391,7 @@ case 15:
         var16 = var11[var9];
         var16 = var10.bind(var4)(var16);
         var16 = var16.t;
-        var17 = var16.0rqMV1;
+        var17 = var16.0rqMV5;
         var16 = {};
         var20 = _closure1_slot15;
         var16['helpCenterURL'] = var20;
@@ -428,7 +428,7 @@ case 15:
         var9 = var11[var9];
         var9 = var10.bind(var4)(var9);
         var9 = var9.t;
-        var9 = var9.Yl/Rio;
+        var9 = var9.Yl/Riu;
         var9 = var12.bind(var13)(var9);
         var6['text'] = var9;
         var9 = 21;

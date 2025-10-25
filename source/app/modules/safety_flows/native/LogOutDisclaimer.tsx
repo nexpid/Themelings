@@ -53,7 +53,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = 4;
         var7 = var11[var7];
         var7 = var8.bind(var3)(var7);
-        var8 = var7.0DHxys;
+        var8 = var7.0DHxym;
         var7 = {};
         var11 = function handleLogOut() {
             var3 = _closure1_slot1;

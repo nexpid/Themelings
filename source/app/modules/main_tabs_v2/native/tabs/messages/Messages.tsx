@@ -1067,7 +1067,7 @@ case 61:
             var28 = var16[var28];
             var28 = var31.bind(var4)(var28);
             var28 = var28.t;
-            var28 = var28.OIgYlZ;
+            var28 = var28.OIgYlQ;
             var28 = var29.bind(var30)(var28);
             var12['accessibilityLabel'] = var28;
             var28 = 'windowSize';

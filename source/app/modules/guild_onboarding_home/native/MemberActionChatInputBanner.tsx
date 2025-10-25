@@ -57,7 +57,7 @@ case 3:
             var5 = var11[var5];
             var5 = var7.bind(var4)(var5);
             var5 = var5.t;
-            var7 = var5.MkzlDA;
+            var7 = var5.MkzlDL;
             var5 = {};
             var5['channelName'] = var10;
             var5 = var8.bind(var9)(var7, var5);
@@ -75,7 +75,7 @@ case 2:
             var6 = var14[var10];
             var6 = var13.bind(var4)(var6);
             var6 = var6.t;
-            var7 = var6.MkzlDA;
+            var7 = var6.MkzlDL;
             var6 = {};
             var11 = var14[var10];
             var11 = var13.bind(var4)(var11);
@@ -84,7 +84,7 @@ case 2:
             var10 = var14[var10];
             var10 = var13.bind(var4)(var10);
             var10 = var10.t;
-            var10 = var10.J90oLS;
+            var10 = var10.J90oLW;
             var10 = var11.bind(var12)(var10);
             var6['channelName'] = var10;
             var6 = var8.bind(var9)(var7, var6);
@@ -669,7 +669,7 @@ case 0:
                     var15 = var19[var15];
                     var15 = var18.bind(var1)(var15);
                     var15 = var15.t;
-                    var15 = var15.ElGg8/;
+                    var15 = var15.ElGg8+;
                     var15 = var16.bind(var17)(var15);
                     var12['children'] = var15;
                     var12 = var14.bind(var1)(var13, var12);
@@ -733,7 +733,7 @@ case 42:
                     var6 = var15[var16];
                     var6 = var18.bind(var4)(var6);
                     var6 = var6.t;
-                    var6 = var6.PDTjLC;
+                    var6 = var6.PDTjLN;
                     var6 = var7.bind(var8)(var6);
                     var2['accessibilityLabel'] = var6;
                     var13 = _closure2_slot1;
@@ -787,7 +787,7 @@ case 42:
                     var16 = var15[var16];
                     var16 = var18.bind(var4)(var16);
                     var16 = var16.t;
-                    var18 = var16./beONz;
+                    var18 = var16./beONw;
                     var16 = {};
                     var21 = _closure2_slot4;
                     var21 = var21.title;

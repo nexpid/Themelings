@@ -207,7 +207,7 @@ case 13:
             var8 = var12[var8];
             var8 = var11.bind(var1)(var8);
             var8 = var8.t;
-            var8 = var8.KgPx1N;
+            var8 = var8.KgPx1D;
             var8 = var9.bind(var10)(var8);
             var7['label'] = var8;
             return var7;
@@ -308,7 +308,7 @@ case 26:
             var8 = var12[var8];
             var8 = var11.bind(var1)(var8);
             var8 = var8.t;
-            var8 = var8.Wr4RIS;
+            var8 = var8.Wr4RIX;
             var8 = var9.bind(var10)(var8);
             var5['label'] = var8;
             return var5;
@@ -405,7 +405,7 @@ case 35:
             var7 = var11[var7];
             var7 = var10.bind(var1)(var7);
             var7 = var7.t;
-            var7 = var7.0Yyrub;
+            var7 = var7.0Yyrua;
             var7 = var8.bind(var9)(var7);
             var5['label'] = var7;
             return var5;
@@ -448,7 +448,7 @@ case 38:
             var3 = var7[var3];
             var3 = var6.bind(var1)(var3);
             var3 = var3.t;
-            var3 = var3.quj4DQ;
+            var3 = var3.quj4DY;
             var3 = var4.bind(var5)(var3);
             var2['label'] = var3;
             return var2;

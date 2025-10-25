@@ -360,7 +360,7 @@ case 16:
             var23 = var27[var23];
             var23 = var26.bind(var4)(var23);
             var23 = var23.t;
-            var23 = var23.PDTjLC;
+            var23 = var23.PDTjLN;
             var23 = var24.bind(var25)(var23);
             var18['text'] = var23;
             var18['onPress'] = var22;
@@ -516,7 +516,7 @@ case 17:
         var3 = var9[var5];
         var3 = var8.bind(var4)(var3);
         var3 = var3.t;
-        var3 = var3.dEYpSk;
+        var3 = var3.dEYpSt;
         var3 = var6.bind(var10)(var3);
         var14 = new Array(2);
         var14[0] = var3;
@@ -527,7 +527,7 @@ case 17:
         var3 = var9[var5];
         var3 = var8.bind(var4)(var3);
         var3 = var3.t;
-        var3 = var3.w/qqKC;
+        var3 = var3.w/qqKK;
         var3 = var6.bind(var10)(var3);
         var14[1] = var3;
         var10 = _closure1_slot5;
@@ -646,7 +646,7 @@ case 23:
         var5 = var9[var5];
         var5 = var8.bind(var4)(var5);
         var5 = var5.t;
-        var5 = var5.WEdDgo;
+        var5 = var5.WEdDgv;
         var5 = var6.bind(var7)(var5);
         var1['headerText'] = var5;
         var1 = var3.bind(var4)(var2, var1);

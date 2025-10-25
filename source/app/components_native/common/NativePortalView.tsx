@@ -302,6 +302,9 @@ case 19:
                 var2[var6] = var8;
                 var6 = 'onPortalViewLoaded';
                 var2[var6] = var7;
+                var7 = 'NativePortalView';
+                var6 = 'testID';
+                var2[var6] = var7;
                 var1 = var4.bind(var5)(var3, var2);
 case 21:
                 return var1;

@@ -135,7 +135,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var11 = var18[var11];
         var11 = var12.bind(var4)(var11);
         var11 = var11.t;
-        var12 = var11.bg3jBg;
+        var12 = var11.bg3jBj;
         var11 = {};
         var17 = _closure1_slot1;
         var16 = 10;

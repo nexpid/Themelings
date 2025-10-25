@@ -67,10 +67,10 @@ case 0:
             var13 = var5.t;
             if(var6) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var5 = var13.ZPm8jI;
+            var5 = var13.ZPm8jN;
             _fun0001_ip = 4; continue _fun0001;
 case 2:
-            var5 = var13.8sKSjo;
+            var5 = var13.8sKSjm;
 case 4:
             var5 = var7.bind(var9)(var5);
             var1['title'] = var5;
@@ -87,10 +87,10 @@ case 4:
             var5 = var5.t;
             if(var6) { _fun0001_ip = 5; continue _fun0001 }
 case 6:
-            var6 = var5.hL+ZnZ;
+            var6 = var5.hL+Znb;
             _fun0001_ip = 7; continue _fun0001;
 case 5:
-            var6 = var5.6UGfn5;
+            var6 = var5.6UGfnx;
 case 7:
             var5 = {};
             var5['user'] = var12;
@@ -118,7 +118,7 @@ case 7:
             var14 = var9[var16];
             var14 = var15.bind(var4)(var14);
             var14 = var14.t;
-            var14 = var14.N86XcH;
+            var14 = var14.N86XcP;
             var14 = var17.bind(var18)(var14);
             var11['text'] = var14;
             var11['onPress'] = var8;
@@ -139,7 +139,7 @@ case 7:
             var9 = var9[var16];
             var9 = var15.bind(var4)(var9);
             var9 = var9.t;
-            var9 = var9.yNbncX;
+            var9 = var9.yNbnce;
             var9 = var13.bind(var14)(var9);
             var10['text'] = var9;
             var9 = 'cancel-remove-user-from-thread';

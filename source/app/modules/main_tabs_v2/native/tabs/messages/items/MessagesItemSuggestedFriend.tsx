@@ -261,7 +261,7 @@ case 6:
                     var2 = var9[var2];
                     var2 = var8.bind(var4)(var2);
                     var2 = var2.t;
-                    var4 = var2.z7y34e;
+                    var4 = var2.z7y34b;
                     var2 = {};
                     var8 = _closure2_slot2;
                     var8 = var8.mutualFriendsCount;
@@ -454,7 +454,7 @@ case 15:
             var17 = var21[var17];
             var17 = var20.bind(var4)(var17);
             var17 = var17.t;
-            var17 = var17.Kzyxm5;
+            var17 = var17.Kzyxm9;
             var16 = var18.bind(var19)(var17);
 case 14:
             var13['children'] = var16;
@@ -481,7 +481,7 @@ case 17:
             var13 = var10[var13];
             var13 = var8.bind(var4)(var13);
             var13 = var13.t;
-            var13 = var13.OYkgVl;
+            var13 = var13.OYkgVk;
             var13 = var14.bind(var15)(var13);
             var6['text'] = var13;
             var6['onPress'] = var12;

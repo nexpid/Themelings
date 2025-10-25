@@ -180,7 +180,7 @@ case 15: // try_start_2 // catch_target0
                         var7 = 9;
                         var7 = var9[var7];
                         var7 = var10.bind(var5)(var7);
-                        var7 = var7.3AXMYm;
+                        var7 = var7.3AXMYu;
                         var7 = var11.bind(var12)(var7);
                         var2['content'] = var7;
                         var7 = 10;
@@ -240,7 +240,7 @@ case 4:
             var13 = 9;
             var5 = var8[var13];
             var5 = var15.bind(var4)(var5);
-            var5 = var5.ah0EUl;
+            var5 = var5.ah0EUu;
             var5 = var6.bind(var11)(var5);
             var1['accessibilityLabel'] = var5;
             var5 = 12;
@@ -254,7 +254,7 @@ case 4:
             var11 = var14.string;
             var8 = var8[var13];
             var8 = var15.bind(var4)(var8);
-            var8 = var8.ah0EUl;
+            var8 = var8.ah0EUu;
             var8 = var11.bind(var14)(var8);
             var5['accessibilityLabel'] = var8;
             if(!(!(var12 > var7))) { _fun0001_ip = 17; continue _fun0001 }
@@ -268,7 +268,7 @@ case 18:
             var14 = _closure1_slot1;
             var7 = var7[var13];
             var7 = var14.bind(var4)(var7);
-            var7 = var7.ah0EUl;
+            var7 = var7.ah0EUu;
             var7 = var8.bind(var11)(var7);
             _fun0001_ip = 19; continue _fun0001;
 case 17:
@@ -281,7 +281,7 @@ case 17:
             var9 = _closure1_slot1;
             var8 = var8[var13];
             var8 = var9.bind(var4)(var8);
-            var9 = var8.2+Lyn5;
+            var9 = var8.2+Lyn0;
             var8 = {};
             var8['countdown'] = var12;
             var7 = var10.bind(var11)(var9, var8);

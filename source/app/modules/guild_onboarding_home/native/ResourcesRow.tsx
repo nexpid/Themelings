@@ -204,7 +204,7 @@ case 3:
             var12 = var18[var12];
             var12 = var13.bind(var4)(var12);
             var12 = var12.t;
-            var13 = var12.F6iMs7;
+            var13 = var12.F6iMs4;
             var12 = {};
             var16 = var16.length;
             var16 = var16 - var17;

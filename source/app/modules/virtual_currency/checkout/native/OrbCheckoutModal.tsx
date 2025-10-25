@@ -687,7 +687,7 @@ case 29:
         var11 = var7[var10];
         var11 = var2.bind(var4)(var11);
         var11 = var11.t;
-        var11 = var11.q9EGpq;
+        var11 = var11.q9EGps;
         var11 = var12.bind(var14)(var11);
         var3['title'] = var11;
         var11 = true;
@@ -703,7 +703,7 @@ case 29:
         var10 = var7[var10];
         var10 = var2.bind(var4)(var10);
         var10 = var10.t;
-        var10 = var10.ETE/oK;
+        var10 = var10.ETE/oC;
         var10 = var14.bind(var15)(var10);
         var10 = var11.bind(var12)(var10, var13);
         var3['headerLeft'] = var10;

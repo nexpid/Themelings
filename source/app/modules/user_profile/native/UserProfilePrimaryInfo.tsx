@@ -436,7 +436,7 @@ case 35:
             var2 = var19[var2];
             var2 = var8.bind(var4)(var2);
             var2 = var2.t;
-            var8 = var2.A0LN9v;
+            var8 = var2.A0LN9t;
             var2 = {};
             var2['badgeLabel'] = var18;
             var17 = var10.bind(var17)(var8, var2);
@@ -774,7 +774,7 @@ case 65:
             var13 = var17[var13];
             var13 = var14.bind(var4)(var13);
             var13 = var13.t;
-            var14 = var13.8zbGNT;
+            var14 = var13.8zbGNR;
             var13 = {};
             var17 = global;
             var17 = var17.Date;
@@ -865,7 +865,7 @@ case 64:
             var6 = var11[var6];
             var6 = var10.bind(var4)(var6);
             var6 = var6.t;
-            var6 = var6.VWV0y8;
+            var6 = var6.VWV0y5;
             var6 = var8.bind(var9)(var6);
             var1['accessibilityLabel'] = var6;
             var6 = var7.map;

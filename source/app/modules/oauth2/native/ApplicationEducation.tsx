@@ -162,7 +162,7 @@ case 9:
             var1 = var2[var17];
             var1 = var3.bind(var5)(var1);
             var1 = var1.t;
-            var1 = var1.ex4sMT;
+            var1 = var1.ex4sMU;
             var1 = var4.bind(var6)(var1);
             _fun0002_ip = 10; continue _fun0002;
 case 8:
@@ -170,7 +170,7 @@ case 8:
             var2 = var2[var17];
             var2 = var3.bind(var5)(var2);
             var2 = var2.t;
-            var3 = var2.3Mau09;
+            var3 = var2.3Mau0y;
             var2 = {};
             var11 = var8.name;
             var2['applicationName'] = var11;
@@ -196,14 +196,14 @@ case 10:
             var3 = var2.t;
             if(var10) { _fun0002_ip = 11; continue _fun0002 }
 case 12:
-            var11 = var3.WNKzo6;
+            var11 = var3.WNKzo9;
             var2 = {};
             var16 = _closure1_slot4;
             var2['maxFriends'] = var16;
             var2 = var13.bind(var15)(var11, var2);
             _fun0002_ip = 13; continue _fun0002;
 case 11:
-            var11 = var3.z9peam;
+            var11 = var3.z9peav;
             var3 = {};
             var16 = _closure1_slot4;
             var3['maxFriends'] = var16;
@@ -229,11 +229,11 @@ case 13:
             var11 = var2.t;
             if(var10) { _fun0002_ip = 14; continue _fun0002 }
 case 15:
-            var2 = var11.feD3+v;
+            var2 = var11.feD3+i;
             var2 = var13.bind(var15)(var2);
             _fun0002_ip = 16; continue _fun0002;
 case 14:
-            var11 = var11./bdaND;
+            var11 = var11./bdaNN;
             var2 = var13.bind(var15)(var11);
 case 16:
             var3['text'] = var2;
@@ -256,11 +256,11 @@ case 16:
             var13 = var11.t;
             if(var10) { _fun0002_ip = 17; continue _fun0002 }
 case 18:
-            var11 = var13.YFFVMz;
+            var11 = var13.YFFVM1;
             var11 = var15.bind(var16)(var11);
             _fun0002_ip = 19; continue _fun0002;
 case 17:
-            var13 = var13.mSqazM;
+            var13 = var13.mSqazC;
             var11 = var15.bind(var16)(var13);
 case 19:
             var2['text'] = var11;
@@ -280,7 +280,7 @@ case 21:
             var1 = var2[var17];
             var1 = var3.bind(var5)(var1);
             var1 = var1.t;
-            var1 = var1.ex4sMT;
+            var1 = var1.ex4sMU;
             var1 = var4.bind(var6)(var1);
             _fun0002_ip = 22; continue _fun0002;
 case 20:
@@ -288,7 +288,7 @@ case 20:
             var2 = var2[var17];
             var2 = var3.bind(var5)(var2);
             var2 = var2.t;
-            var3 = var2.3Mau09;
+            var3 = var2.3Mau0y;
             var2 = {};
             var8 = var8.name;
             var2['applicationName'] = var8;
@@ -314,14 +314,14 @@ case 22:
             var3 = var2.t;
             if(var10) { _fun0002_ip = 23; continue _fun0002 }
 case 24:
-            var4 = var3.WNKzo6;
+            var4 = var3.WNKzo9;
             var2 = {};
             var15 = _closure1_slot4;
             var2['maxFriends'] = var15;
             var2 = var11.bind(var13)(var4, var2);
             _fun0002_ip = 25; continue _fun0002;
 case 23:
-            var4 = var3.z9peam;
+            var4 = var3.z9peav;
             var3 = {};
             var15 = _closure1_slot4;
             var3['maxFriends'] = var15;
@@ -347,11 +347,11 @@ case 25:
             var3 = var2.t;
             if(var10) { _fun0002_ip = 26; continue _fun0002 }
 case 27:
-            var2 = var3.j7peBg;
+            var2 = var3.j7peBh;
             var2 = var11.bind(var13)(var2);
             _fun0002_ip = 28; continue _fun0002;
 case 26:
-            var3 = var3.daY6xs;
+            var3 = var3.daY6xj;
             var2 = var11.bind(var13)(var3);
 case 28:
             var4['text'] = var2;
@@ -374,11 +374,11 @@ case 28:
             var11 = var2.t;
             if(var10) { _fun0002_ip = 29; continue _fun0002 }
 case 30:
-            var2 = var11.feD3+v;
+            var2 = var11.feD3+i;
             var2 = var13.bind(var15)(var2);
             _fun0002_ip = 31; continue _fun0002;
 case 29:
-            var11 = var11./bdaND;
+            var11 = var11./bdaNN;
             var2 = var13.bind(var15)(var11);
 case 31:
             var3['text'] = var2;
@@ -401,11 +401,11 @@ case 31:
             var11 = var11.t;
             if(var10) { _fun0002_ip = 32; continue _fun0002 }
 case 33:
-            var10 = var11.YFFVMz;
+            var10 = var11.YFFVM1;
             var10 = var13.bind(var15)(var10);
             _fun0002_ip = 34; continue _fun0002;
 case 32:
-            var11 = var11.mSqazM;
+            var11 = var11.mSqazC;
             var10 = var13.bind(var15)(var11);
 case 34:
             var2['text'] = var10;

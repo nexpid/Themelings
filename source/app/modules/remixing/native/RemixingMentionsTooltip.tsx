@@ -285,7 +285,7 @@ case 14:
                         var11 = var15[var11];
                         var11 = var14.bind(var5)(var11);
                         var11 = var11.t;
-                        var11 = var11.Tmbf3d;
+                        var11 = var11.Tmbf3S;
                         var11 = var12.bind(var13)(var11);
                         var9['children'] = var11;
                         var9 = var4.bind(var5)(var10, var9);

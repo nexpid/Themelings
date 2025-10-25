@@ -446,11 +446,11 @@ case 18:
             var3 = var3.t;
             if(var18) { _fun0001_ip = 20; continue _fun0001 }
 case 21:
-            var8 = var3.PDTjLC;
+            var8 = var3.PDTjLN;
             var25 = var5.bind(var6)(var8);
             _fun0001_ip = 22; continue _fun0001;
 case 20:
-            var3 = var3.825cFx;
+            var3 = var3.825cFy;
             var25 = var5.bind(var6)(var3);
 case 22:
             var13 = _closure1_slot1;
@@ -526,7 +526,7 @@ case 23:
             var7 = var31[var7];
             var7 = var15.bind(var4)(var7);
             var7 = var7.t;
-            var7 = var7.jec90t;
+            var7 = var7.jec90v;
             var7 = var8.bind(var9)(var7);
             var5['headerText'] = var7;
             var9 = _closure1_slot18;

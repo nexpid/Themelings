@@ -458,7 +458,7 @@ case 28:
                     var5 = var10[var5];
                     var5 = var9.bind(var8)(var5);
                     var5 = var5.t;
-                    var5 = var5.R3BPHx;
+                    var5 = var5.R3BPH+;
                     var5 = var6.bind(var7)(var5);
                     var2['label'] = var5;
                     var5 = _closure2_slot7;
@@ -486,7 +486,7 @@ case 30:
                     var5 = var10[var5];
                     var5 = var8.bind(var9)(var5);
                     var5 = var5.t;
-                    var5 = var5.I3ltXF;
+                    var5 = var5.I3ltXO;
                     var5 = var6.bind(var7)(var5);
                     var2['label'] = var5;
                     var5 = _closure2_slot10;
@@ -514,7 +514,7 @@ case 32:
                     var5 = var10[var5];
                     var5 = var9.bind(var8)(var5);
                     var5 = var5.t;
-                    var5 = var5.RDE0SU;
+                    var5 = var5.RDE0Sc;
                     var5 = var6.bind(var7)(var5);
                     var2['label'] = var5;
                     var5 = _closure2_slot8;
@@ -539,7 +539,7 @@ case 31:
                     var7 = var6[var10];
                     var7 = var11.bind(var9)(var7);
                     var7 = var7.t;
-                    var7 = var7.q5jLJC;
+                    var7 = var7.q5jLJB;
                     var7 = var8.bind(var12)(var7);
                     var2['label'] = var7;
                     var7 = _closure2_slot9;
@@ -559,7 +559,7 @@ case 31:
                     var6 = var6[var10];
                     var6 = var11.bind(var9)(var6);
                     var6 = var6.t;
-                    var6 = var6.+TSRGB;
+                    var6 = var6.+TSRGD;
                     var6 = var7.bind(var8)(var6);
                     var2['label'] = var6;
                     var6 = _closure2_slot11;
@@ -584,7 +584,7 @@ case 34:
                     var5 = var5[var10];
                     var5 = var8.bind(var9)(var5);
                     var5 = var5.t;
-                    var5 = var5.ZH7P2t;
+                    var5 = var5.ZH7P2h;
                     var5 = var6.bind(var7)(var5);
                     var2['label'] = var5;
                     var4 = _closure2_slot12;

@@ -194,7 +194,7 @@ case 2:
             var6 = var22[var20];
             var6 = var25.bind(var4)(var6);
             var6 = var6.t;
-            var6 = var6.Rw1XuL;
+            var6 = var6.Rw1XuM;
             var6 = var9.bind(var10)(var6);
             var1['headerText'] = var6;
             var9 = _closure1_slot6;
@@ -215,7 +215,7 @@ case 2:
             var23 = var22[var20];
             var23 = var25.bind(var4)(var23);
             var23 = var23.t;
-            var23 = var23.CIGa+/;
+            var23 = var23.CIGa+7;
             var23 = var24.bind(var26)(var23);
             var10['label'] = var23;
             var23 = var22[var20];
@@ -225,7 +225,7 @@ case 2:
             var22 = var22[var20];
             var22 = var25.bind(var4)(var22);
             var22 = var22.t;
-            var22 = var22.CIGa+/;
+            var22 = var22.CIGa+7;
             var22 = var23.bind(var24)(var22);
             var10['placeholder'] = var22;
             var10['errorMessage'] = var21;
@@ -258,7 +258,7 @@ case 17:
             var14 = var14[var20];
             var14 = var19.bind(var4)(var14);
             var14 = var14.t;
-            var14 = var14.geKm7u;
+            var14 = var14.geKm7t;
             var14 = var17.bind(var18)(var14);
             var6['text'] = var14;
             var14 = var12;

@@ -155,7 +155,7 @@ case 8:
         var3 = var9[var4];
         var3 = var8.bind(var7)(var3);
         var3 = var3.t;
-        var3 = var3.Q3abND;
+        var3 = var3.Q3abNB;
         var3 = var5.bind(var6)(var3);
         var2['label'] = var3;
         var3 = var9[var4];
@@ -165,7 +165,7 @@ case 8:
         var3 = var9[var4];
         var3 = var8.bind(var7)(var3);
         var3 = var3.t;
-        var3 = var3./gdTGB;
+        var3 = var3./gdTGA;
         var3 = var5.bind(var6)(var3);
         var2['subLabel'] = var3;
         var3 = _closure1_slot2;
@@ -181,7 +181,7 @@ case 8:
         var5 = var9[var4];
         var5 = var8.bind(var7)(var5);
         var5 = var5.t;
-        var5 = var5.dQN6qa;
+        var5 = var5.dQN6qS;
         var5 = var6.bind(var10)(var5);
         var2['label'] = var5;
         var5 = var9[var4];
@@ -191,7 +191,7 @@ case 8:
         var5 = var9[var4];
         var5 = var8.bind(var7)(var5);
         var5 = var5.t;
-        var5 = var5.W+cPjI;
+        var5 = var5.W+cPjG;
         var5 = var6.bind(var10)(var5);
         var2['subLabel'] = var5;
         var5 = var3.GESTURE_EDGE;
@@ -205,7 +205,7 @@ case 8:
         var5 = var9[var4];
         var5 = var8.bind(var7)(var5);
         var5 = var5.t;
-        var5 = var5.PgDGl5;
+        var5 = var5.PgDGl+;
         var5 = var6.bind(var10)(var5);
         var2['label'] = var5;
         var5 = var9[var4];
@@ -215,7 +215,7 @@ case 8:
         var5 = var9[var4];
         var5 = var8.bind(var7)(var5);
         var5 = var5.t;
-        var5 = var5.uVc5MD;
+        var5 = var5.uVc5MG;
         var5 = var6.bind(var10)(var5);
         var2['subLabel'] = var5;
         var5 = var3.PULL_TAB;
@@ -229,7 +229,7 @@ case 8:
         var5 = var9[var4];
         var5 = var8.bind(var7)(var5);
         var5 = var5.t;
-        var5 = var5.HnzBCQ;
+        var5 = var5.HnzBCZ;
         var5 = var6.bind(var10)(var5);
         var2['label'] = var5;
         var5 = var9[var4];
@@ -239,7 +239,7 @@ case 8:
         var4 = var9[var4];
         var4 = var8.bind(var7)(var4);
         var4 = var4.t;
-        var4 = var4.It18o6;
+        var4 = var4.It18o2;
         var4 = var5.bind(var6)(var4);
         var2['subLabel'] = var4;
         var3 = var3.DISABLED;

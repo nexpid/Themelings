@@ -110,7 +110,7 @@ case 13:
             var4 = var10[var4];
             var4 = var9.bind(var7)(var4);
             var4 = var4.t;
-            var4 = var4.VCsUJi;
+            var4 = var4.VCsUJu;
             var3 = var5.bind(var6)(var4);
 case 12:
             var1['text'] = var3;
@@ -130,7 +130,7 @@ case 6:
             var3 = var9[var3];
             var3 = var6.bind(var7)(var3);
             var3 = var3.t;
-            var3 = var3.h8hzPT;
+            var3 = var3.h8hzPd;
             var3 = var4.bind(var5)(var3);
             var1['text'] = var3;
             var3 = _closure1_slot2;
@@ -149,7 +149,7 @@ case 4:
             var3 = var9[var3];
             var3 = var4.bind(var7)(var3);
             var3 = var3.t;
-            var4 = var3.7ePV4u;
+            var4 = var3.7ePV4t;
             var3 = {};
             var8 = var8.author;
             var8 = var8.username;
@@ -172,7 +172,7 @@ case 2:
             var3 = var8[var3];
             var3 = var6.bind(var7)(var3);
             var3 = var3.t;
-            var3 = var3.RiLfBQ;
+            var3 = var3.RiLfBY;
             var3 = var4.bind(var5)(var3);
             var1['text'] = var3;
             var2 = _closure1_slot2;

@@ -724,7 +724,7 @@ case 30:
             var16 = var16.t;
             if(var10) { _fun0001_ip = 33; continue _fun0001 }
 case 34:
-            var10 = var16.d5Gu9P;
+            var10 = var16.d5Gu9A;
             var10 = var17.bind(var18)(var10);
             _fun0001_ip = 35; continue _fun0001;
 case 33:
@@ -743,7 +743,7 @@ case 32:
             var16 = var20[var16];
             var16 = var19.bind(var4)(var16);
             var16 = var16.t;
-            var16 = var16.VqGKm5;
+            var16 = var16.VqGKm0;
             var10 = var17.bind(var18)(var16);
 case 36:
             var6['children'] = var10;

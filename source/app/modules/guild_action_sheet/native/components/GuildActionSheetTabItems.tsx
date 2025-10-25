@@ -218,7 +218,7 @@ case 6:
             var19 = var24[var19];
             var19 = var20.bind(var4)(var19);
             var19 = var19.t;
-            var20 = var19.pob/cH;
+            var20 = var19.pob/cL;
             var19 = {};
             var19['subscriptions'] = var23;
             var17 = var21.bind(var22)(var20, var19);
@@ -299,7 +299,7 @@ case 10:
             var20 = var22[var20];
             var20 = var24.bind(var4)(var20);
             var20 = var20.t;
-            var20 = var20.VINpSE;
+            var20 = var20.VINpSK;
             var20 = var21.bind(var23)(var20);
             var12['label'] = var20;
             var21 = _closure1_slot1;
@@ -341,7 +341,7 @@ case 9:
             var19 = var22[var21];
             var19 = var24.bind(var4)(var19);
             var19 = var19.t;
-            var19 = var19.HcoRu7;
+            var19 = var19.HcoRu0;
             var19 = var20.bind(var23)(var19);
             var11['label'] = var19;
             var20 = _closure1_slot1;
@@ -388,7 +388,7 @@ case 12:
             var17 = var17[var21];
             var17 = var20.bind(var4)(var17);
             var17 = var17.t;
-            var17 = var17.3D5yo6;
+            var17 = var17.3D5yo/;
             var17 = var18.bind(var19)(var17);
             var10['label'] = var17;
             if(var15) { _fun0001_ip = 13; continue _fun0001 }

@@ -227,7 +227,7 @@ case 5:
             var19 = var12[var19];
             var19 = var20.bind(var5)(var19);
             var19 = var19.t;
-            var20 = var19.If4iTU;
+            var20 = var19.If4iTS;
             var19 = {};
             var19['subscriberCount'] = var23;
             var19 = var21.bind(var22)(var20, var19);

@@ -45,7 +45,7 @@ case 3:
             var6 = var13[var6];
             var6 = var12.bind(var4)(var6);
             var6 = var6.t;
-            var6 = var6.tlopTE;
+            var6 = var6.tlopTM;
             var6 = var7.bind(var8)(var6);
             _fun0001_ip = 4; continue _fun0001;
 case 2:
@@ -59,7 +59,7 @@ case 2:
             var7 = var15[var7];
             var7 = var8.bind(var4)(var7);
             var7 = var7.t;
-            var8 = var7.p1zLAQ;
+            var8 = var7.p1zLAf;
             var7 = {};
             var7['count'] = var14;
             var6 = var12.bind(var13)(var8, var7);
@@ -95,7 +95,7 @@ case 6:
             var10 = var14[var10];
             var10 = var13.bind(var4)(var10);
             var10 = var10.t;
-            var10 = var10.NzROFB;
+            var10 = var10.NzROFF;
             var10 = var11.bind(var12)(var10);
             var6['text'] = var10;
             var9 = function onPress() {

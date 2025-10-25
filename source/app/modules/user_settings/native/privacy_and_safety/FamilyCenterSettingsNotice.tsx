@@ -55,7 +55,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = 5;
         var8 = var10[var8];
         var8 = var9.bind(var4)(var8);
-        var8 = var8.i284fX;
+        var8 = var8.i284fU;
         var1['label'] = var8;
         var7 = _closure1_slot3;
         var7 = var7.CONTENT_AND_SOCIAL_PARENTAL_CONTROLS_NOTICE;

@@ -347,11 +347,11 @@ case 19:
                 var3 = var3.t;
                 if(var5) { _fun0004_ip = 20; continue _fun0004 }
 case 10:
-                var4 = var3.fjBNo6;
+                var4 = var3.fjBNo1;
                 var4 = var6.bind(var7)(var4);
                 _fun0004_ip = 21; continue _fun0004;
 case 20:
-                var3 = var3.CpkXwc;
+                var3 = var3.CpkXwZ;
                 var4 = var6.bind(var7)(var3);
 case 21:
                 var8 = _closure1_slot13;

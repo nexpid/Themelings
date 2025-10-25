@@ -445,7 +445,7 @@ case 59:
             var1 = var6[var1];
             var1 = var5.bind(var2)(var1);
             var1 = var1.t;
-            var2 = var1.yVX6kJ;
+            var2 = var1.yVX6kE;
             var1 = {};
             var5 = var8.toLocaleString;
             var5 = var5.bind(var8)();
@@ -466,7 +466,7 @@ case 62:
             var2 = var12[var2];
             var2 = var6.bind(var3)(var2);
             var2 = var2.t;
-            var3 = var2.0UzBMz;
+            var3 = var2.0UzBM3;
             var2 = {};
             var6 = var9[var7];
             var2['a'] = var6;
@@ -488,7 +488,7 @@ case 61:
             var3 = var13[var3];
             var3 = var12.bind(var4)(var3);
             var3 = var3.t;
-            var4 = var3.ThXp+P;
+            var4 = var3.ThXp+N;
             var3 = {};
             var12 = var9[var7];
             var3['a'] = var12;
@@ -518,7 +518,7 @@ case 66:
             var2 = var11[var2];
             var2 = var6.bind(var3)(var2);
             var2 = var2.t;
-            var3 = var2.O5+f5e;
+            var3 = var2.O5+f5c;
             var2 = {};
             var6 = var9[var7];
             var2['a'] = var6;
@@ -538,7 +538,7 @@ case 65:
             var3 = var12[var3];
             var3 = var11.bind(var4)(var3);
             var3 = var3.t;
-            var4 = var3.YBnZKy;
+            var4 = var3.YBnZK0;
             var3 = {};
             var11 = var9[var7];
             var3['a'] = var11;
@@ -569,7 +569,7 @@ case 69:
             var3 = var11[var3];
             var3 = var10.bind(var4)(var3);
             var3 = var3.t;
-            var4 = var3.SV/iZm;
+            var4 = var3.SV/iZn;
             var3 = {};
             var7 = var9[var7];
             var3['a'] = var7;
@@ -969,7 +969,7 @@ case 95:
         var1 = var8[var1];
         var1 = var7.bind(var2)(var1);
         var1 = var1.t;
-        var2 = var1.Vn97KS;
+        var2 = var1.Vn97Ka;
         var1 = {};
         var6 = var6.nick;
         var1['username'] = var6;
@@ -1008,7 +1008,7 @@ case 96:
             var1 = var8[var1];
             var1 = var7.bind(var2)(var1);
             var1 = var1.t;
-            var2 = var1.Vn97KS;
+            var2 = var1.Vn97Ka;
             var1 = {};
             var6 = var6.nick;
             var1['username'] = var6;
@@ -1141,7 +1141,7 @@ case 109:
             var1 = var8[var1];
             var1 = var5.bind(var2)(var1);
             var1 = var1.t;
-            var2 = var1.XVk6Zm;
+            var2 = var1.XVk6Zv;
             var1 = {};
             var1['questionText'] = var6;
             var5 = global;
@@ -1165,7 +1165,7 @@ case 79:
             var2 = var9[var2];
             var2 = var8.bind(var3)(var2);
             var2 = var2.t;
-            var3 = var2.8yEgvL;
+            var3 = var2.8yEgvE;
             var2 = {};
             var2['questionText'] = var6;
             var2['victorAnswerText'] = var7;
@@ -1191,7 +1191,7 @@ case 108:
             var2 = var8[var2];
             var2 = var7.bind(var3)(var2);
             var2 = var2.t;
-            var3 = var2.8anM0t;
+            var3 = var2.8anM0l;
             var2 = {};
             var2['questionText'] = var6;
             var1 = var4.bind(var5)(var3, var2);

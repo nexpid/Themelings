@@ -67,6 +67,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['openChannelCallPopout'] = var4;
+    var4 = function openCallTilePopout(arg1, arg2) {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 0;
+        var2 = var2[var1];
+        var1 = undefined;
+        var3 = var3.bind(var1)(var2);
+        var2 = var3.dispatch;
+        var1 = {};
+        var4 = 'CALL_TILE_POPOUT_WINDOW_OPEN';
+        var1['type'] = var4;
+        var4 = arg1;
+        var1['channelId'] = var4;
+        var4 = arg2;
+        var1['participantId'] = var4;
+        var1 = var2.bind(var3)(var1);
+        return var1;
+    };
+    var3['openCallTilePopout'] = var4;
     var4 = function close(arg1) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;

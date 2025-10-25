@@ -34,7 +34,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var10[var7];
         var7 = var13.bind(var4)(var7);
         var7 = var7.t;
-        var7 = var7.VkKicX;
+        var7 = var7.VkKicb;
         var7 = var8.bind(var9)(var7);
         var1['accessibilityLabel'] = var7;
         var1['onPress'] = var6;

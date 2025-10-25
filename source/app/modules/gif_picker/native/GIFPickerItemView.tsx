@@ -249,7 +249,7 @@ case 9:
                 var2 = var8[var2];
                 var2 = var3.bind(var7)(var2);
                 var2 = var2.t;
-                var3 = var2.5iIGZG;
+                var3 = var2.5iIGZI;
                 var2 = {};
                 var7 = _closure2_slot2;
                 var6 = 1;

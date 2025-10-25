@@ -105,7 +105,7 @@ case 5:
             var20 = var19[var20];
             var20 = var17.bind(var4)(var20);
             var20 = var20.t;
-            var20 = var20.BnquQ0;
+            var20 = var20.BnquQ/;
             var20 = var21.bind(var22)(var20);
             var14['children'] = var20;
             var14 = var18.bind(var4)(var15, var14);
@@ -388,7 +388,7 @@ case 0:
             var14 = var14[var18];
             var14 = var17.bind(var4)(var14);
             var14 = var14.t;
-            var14 = var14.DOb6x8;
+            var14 = var14.DOb6x0;
             var14 = var15.bind(var16)(var14);
             var5['title'] = var14;
             var14 = _closure1_slot13;
@@ -451,7 +451,7 @@ case 11:
             var19 = var14[var18];
             var19 = var17.bind(var4)(var19);
             var19 = var19.t;
-            var19 = var19.+vt7w8;
+            var19 = var19.+vt7w9;
             var19 = var20.bind(var21)(var19);
             var8['title'] = var19;
             var20 = var12.customAppIcons;
@@ -487,7 +487,7 @@ case 11:
             var19 = var14[var18];
             var19 = var17.bind(var4)(var19);
             var19 = var19.t;
-            var19 = var19.LgHbnJ;
+            var19 = var19.LgHbnL;
             var19 = var20.bind(var21)(var19);
             var8['title'] = var19;
             var20 = var12.memberPricing;
@@ -525,7 +525,7 @@ case 11:
             var14 = var14[var18];
             var14 = var17.bind(var4)(var14);
             var14 = var14.t;
-            var14 = var14.LTaxu7;
+            var14 = var14.LTaxu9;
             var14 = var15.bind(var16)(var14);
             var6['title'] = var14;
             var10 = _closure1_slot13;
@@ -969,7 +969,7 @@ case 23:
             var21 = var3[var29];
             var21 = var5.bind(var4)(var21);
             var21 = var21.t;
-            var21 = var21.tahjbG;
+            var21 = var21.tahjbP;
             var21 = var24.bind(var27)(var21);
             var23['label'] = var21;
             var21 = var3[var29];
@@ -979,7 +979,7 @@ case 23:
             var21 = var3[var29];
             var21 = var5.bind(var4)(var21);
             var21 = var21.t;
-            var21 = var21.tahjbG;
+            var21 = var21.tahjbP;
             var21 = var24.bind(var27)(var21);
             var23['id'] = var21;
             var27 = _closure1_slot14;
@@ -999,7 +999,7 @@ case 23:
             var24 = var3[var29];
             var24 = var5.bind(var4)(var24);
             var24 = var24.t;
-            var24 = var24.w3RBdX;
+            var24 = var24.w3RBdW;
             var24 = var27.bind(var28)(var24);
             var23['label'] = var24;
             var24 = var3[var29];
@@ -1009,7 +1009,7 @@ case 23:
             var24 = var3[var29];
             var24 = var5.bind(var4)(var24);
             var24 = var24.t;
-            var24 = var24.w3RBdX;
+            var24 = var24.w3RBdW;
             var24 = var27.bind(var28)(var24);
             var23['id'] = var24;
             var28 = _closure1_slot14;
@@ -1044,7 +1044,7 @@ case 25:
             var3 = var28[var6];
             var10 = var12.bind(var4)(var3);
             var5 = var10.useAnimatedStyle;
-            var3 = function X() {
+            var3 = function q() {
                 var1 = {};
                 var3 = _closure2_slot6;
                 var2 = var3.get;

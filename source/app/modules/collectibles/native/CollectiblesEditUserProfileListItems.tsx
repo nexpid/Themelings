@@ -224,11 +224,11 @@ case 0:
             var10 = var10.t;
             if(var9) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
-            var9 = var10.PoWNfX;
+            var9 = var10.PoWNfe;
             var9 = var11.bind(var12)(var9);
             _fun0002_ip = 8; continue _fun0002;
 case 6:
-            var10 = var10.CHf9iI;
+            var10 = var10.CHf9iJ;
             var9 = var11.bind(var12)(var10);
 case 8:
             var5['children'] = var9;
@@ -339,7 +339,7 @@ case 8:
         var12 = var10[var12];
         var12 = var7.bind(var4)(var12);
         var12 = var12.t;
-        var12 = var12.pWG4zc;
+        var12 = var12.pWG4ze;
         var12 = var13.bind(var14)(var12);
         var5['children'] = var12;
         var5 = var8.bind(var4)(var11, var5);

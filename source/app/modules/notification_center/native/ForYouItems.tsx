@@ -181,7 +181,7 @@ case 0:
             var3 = var13[var20];
             var3 = var5.bind(var4)(var3);
             var3 = var3.t;
-            var3 = var3.BOi07O;
+            var3 = var3.BOi07B;
             var7 = var6.bind(var7)(var3);
             var8 = 19;
             var3 = var13[var8];
@@ -307,7 +307,7 @@ case 51:
             var8 = var8[var20];
             var8 = var22.bind(var4)(var8);
             var8 = var8.t;
-            var8 = var8.JAKsMz;
+            var8 = var8.JAKsM8;
             var6 = var16.bind(var21)(var8);
             var16 = _closure1_slot29;
             var3 = var16.ATTACHMENT;
@@ -322,7 +322,7 @@ case 46:
             var8 = var8[var20];
             var8 = var22.bind(var4)(var8);
             var8 = var8.t;
-            var8 = var8.Xxm5i4;
+            var8 = var8.Xxm5i3;
             var6 = var16.bind(var21)(var8);
             var3 = undefined;
             _fun0004_ip = 50; continue _fun0004;
@@ -334,7 +334,7 @@ case 40:
             var8 = var5[var20];
             var8 = var18.bind(var4)(var8);
             var8 = var8.t;
-            var8 = var8.6bhHra;
+            var8 = var8.6bhHrc;
             var6 = var16.bind(var21)(var8);
             var16 = _closure1_slot29;
             var3 = var16.VOICE_MESSAGE;
@@ -347,7 +347,7 @@ case 38:
             var5 = var5[var20];
             var5 = var18.bind(var4)(var5);
             var5 = var5.t;
-            var5 = var5.2v7kfn;
+            var5 = var5.2v7kfl;
             var6 = var8.bind(var16)(var5);
             var3 = undefined;
             _fun0004_ip = 50; continue _fun0004;
@@ -361,7 +361,7 @@ case 36:
             var5 = var5[var20];
             var5 = var18.bind(var4)(var5);
             var5 = var5.t;
-            var5 = var5.7K5LmZ;
+            var5 = var5.7K5Lma;
             var6 = var8.bind(var16)(var5);
             var8 = _closure1_slot29;
             var3 = var8.STICKER;
@@ -1253,7 +1253,7 @@ case 91:
                     var8 = var10[var8];
                     var8 = var9.bind(var1)(var8);
                     var8 = var8.t;
-                    var8 = var8.08rqg4;
+                    var8 = var8.08rqg5;
                     var8 = var11.bind(var12)(var8);
                     var4['label'] = var8;
                     var11 = _closure1_slot1;
@@ -1316,7 +1316,7 @@ case 94: // catch_target0
                             var4 = var9[var4];
                             var4 = var7.bind(var8)(var4);
                             var4 = var4.t;
-                            var4 = var4.HO9Lf3;
+                            var4 = var4.HO9Lf2;
                             var4 = var5.bind(var6)(var4);
                             var1['content'] = var4;
                             var1 = var2.bind(var3)(var1);
@@ -1341,7 +1341,7 @@ case 15:
                     var8 = var10[var8];
                     var8 = var9.bind(var1)(var8);
                     var8 = var8.t;
-                    var8 = var8.gSMz//;
+                    var8 = var8.gSMz/x;
                     var8 = var11.bind(var12)(var8);
                     var4['label'] = var8;
                     var11 = _closure1_slot1;
@@ -1448,7 +1448,7 @@ case 20: // try_end1 // catch_target0 // catch_target1
                             var5 = var9[var5];
                             var5 = var8.bind(var1)(var5);
                             var5 = var5.t;
-                            var5 = var5.HO9Lf3;
+                            var5 = var5.HO9Lf2;
                             var5 = var6.bind(var7)(var5);
                             var2['content'] = var5;
                             var2 = var3.bind(var4)(var2);
@@ -1476,7 +1476,7 @@ case 28:
                     var7 = var9[var7];
                     var7 = var8.bind(var1)(var7);
                     var7 = var7.t;
-                    var7 = var7.D8z9jo;
+                    var7 = var7.D8z9ju;
                     var7 = var10.bind(var11)(var7);
                     var3['label'] = var7;
                     var10 = _closure1_slot1;
@@ -1538,7 +1538,7 @@ case 107: // catch_target0
                                 var5 = var10[var5];
                                 var5 = var8.bind(var9)(var5);
                                 var5 = var5.t;
-                                var5 = var5.WDxhvL;
+                                var5 = var5.WDxhvB;
                                 var5 = var6.bind(var7)(var5);
                                 var2['content'] = var5;
                                 var2 = var3.bind(var4)(var2);

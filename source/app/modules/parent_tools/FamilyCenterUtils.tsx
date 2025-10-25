@@ -94,7 +94,7 @@ case 2:
         var2 = 4;
         var8 = var5[var2];
         var8 = var3.bind(var4)(var8);
-        var8 = var8.VjIAQU;
+        var8 = var8.VjIAQQ;
         var8 = var9.bind(var10)(var8);
         var1['today'] = var8;
         var6 = var5[var6];
@@ -103,7 +103,7 @@ case 2:
         var7 = var8.string;
         var6 = var5[var2];
         var6 = var3.bind(var4)(var6);
-        var6 = var6.2a8xHR;
+        var6 = var6.2a8xHY;
         var6 = var7.bind(var8)(var6);
         var1['yesterday'] = var6;
         var2 = var5[var2];
@@ -132,7 +132,7 @@ case 0:
             var1 = arg1;
             if(var1) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
-            var1 = var9.g1ZX6u;
+            var1 = var9.g1ZX6m;
             var1 = var10.bind(var11)(var1);
             var2['today'] = var1;
             var1 = var6[var7];
@@ -141,17 +141,17 @@ case 5:
             var12 = var13.string;
             var1 = var6[var3];
             var1 = var4.bind(var5)(var1);
-            var1 = var1.s3qSVl;
+            var1 = var1.s3qSVt;
             var1 = var12.bind(var13)(var1);
             var2['yesterday'] = var1;
             var1 = var6[var3];
             var1 = var4.bind(var5)(var1);
-            var1 = var1.f1UJiI;
+            var1 = var1.f1UJiC;
             var2['days'] = var1;
             var1 = var2;
             _fun0002_ip = 6; continue _fun0002;
 case 4:
-            var9 = var9.2AtcIi;
+            var9 = var9.2AtcIs;
             var9 = var10.bind(var11)(var9);
             var2['today'] = var9;
             var7 = var6[var7];
@@ -160,12 +160,12 @@ case 4:
             var8 = var9.string;
             var7 = var6[var3];
             var7 = var4.bind(var5)(var7);
-            var7 = var7.stOECg;
+            var7 = var7.stOECr;
             var7 = var8.bind(var9)(var7);
             var2['yesterday'] = var7;
             var3 = var6[var3];
             var3 = var4.bind(var5)(var3);
-            var3 = var3.n8n5BQ;
+            var3 = var3.n8n5Ba;
             var2['days'] = var3;
             var1 = var2;
 case 6:
@@ -684,7 +684,7 @@ case 57:
             var1 = 4;
             var1 = var8[var1];
             var1 = var2.bind(var5)(var1);
-            var2 = var1.IYqGMD;
+            var2 = var1.IYqGMG;
             var1 = {};
             var1['messageCount'] = var7;
             var1['callCount'] = var6;
@@ -703,7 +703,7 @@ case 59:
             var2 = 4;
             var2 = var9[var2];
             var2 = var3.bind(var8)(var2);
-            var3 = var2.6X1F0t;
+            var3 = var2.6X1F0i;
             var2 = {};
             var2['messageCount'] = var7;
             var1 = var4.bind(var5)(var3, var2);
@@ -722,7 +722,7 @@ case 56:
             var2 = 4;
             var2 = var8[var2];
             var2 = var3.bind(var7)(var2);
-            var3 = var2.L/Cj7e;
+            var3 = var2.L/Cj7S;
             var2 = {};
             var2['callCount'] = var6;
             var1 = var4.bind(var5)(var3, var2);

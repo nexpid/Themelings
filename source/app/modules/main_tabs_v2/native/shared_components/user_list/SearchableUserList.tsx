@@ -294,7 +294,7 @@ case 32:
                     var1 = var9[var1];
                     var1 = var4.bind(var8)(var1);
                     var1 = var1.t;
-                    var4 = var1.srlxBw;
+                    var4 = var1.srlxB8;
                     var1 = {};
                     var7 = var7.text;
                     var1['text'] = var7;
@@ -527,7 +527,7 @@ case 58:
             var32 = var28[var32];
             var32 = var29.bind(var4)(var32);
             var32 = var32.t;
-            var32 = var32.V6nAfH;
+            var32 = var32.V6nAfF;
             var32 = var33.bind(var34)(var32);
             var1['title'] = var32;
             var28 = var28[var31];

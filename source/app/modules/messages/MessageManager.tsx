@@ -831,7 +831,7 @@ case 82:
             var7 = var10[var5];
             var7 = var6.bind(var9)(var7);
             var7 = var7.t;
-            var7 = var7.Whhv4+;
+            var7 = var7.Whhv4w;
             var7 = var8.bind(var11)(var7);
             var2['title'] = var7;
             var7 = var10[var5];
@@ -841,7 +841,7 @@ case 82:
             var5 = var10[var5];
             var5 = var6.bind(var9)(var5);
             var5 = var5.t;
-            var6 = var5.qoxdQE;
+            var6 = var5.qoxdQB;
             var5 = {};
             var9 = global;
             var11 = var9.Math;

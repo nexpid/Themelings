@@ -163,7 +163,7 @@ case 0:
                     var8 = var6[var9];
                     var8 = var7.bind(var1)(var8);
                     var8 = var8.t;
-                    var8 = var8.My50nZ;
+                    var8 = var8.My50nf;
                     var8 = var10.bind(var11)(var8);
                     var2['title'] = var8;
                     var8 = var6[var9];
@@ -173,7 +173,7 @@ case 0:
                     var6 = var6[var9];
                     var6 = var7.bind(var1)(var6);
                     var6 = var6.t;
-                    var7 = var6.IdKo29;
+                    var7 = var6.IdKo2z;
                     var6 = {};
                     var13 = _closure2_slot7;
                     var11 = null;
@@ -196,7 +196,7 @@ case 12:
                     var6 = var5[var9];
                     var6 = var8.bind(var1)(var6);
                     var6 = var6.t;
-                    var6 = var6.PMsq/f;
+                    var6 = var6.PMsq/b;
                     var6 = var7.bind(var10)(var6);
                     var2['confirmText'] = var6;
                     var6 = var5[var9];
@@ -206,7 +206,7 @@ case 12:
                     var5 = var5[var9];
                     var5 = var8.bind(var1)(var5);
                     var5 = var5.t;
-                    var5 = var5.BddRzc;
+                    var5 = var5.BddRzS;
                     var5 = var6.bind(var7)(var5);
                     var2['cancelText'] = var5;
                     var5 = function onConfirm() {

@@ -48,7 +48,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var6[var1];
         var1 = var5.bind(var4)(var1);
         var1 = var1.t;
-        var1 = var1.MNKzys;
+        var1 = var1.MNKzyg;
         var1 = var2.bind(var3)(var1);
         return var1;
     };

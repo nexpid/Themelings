@@ -203,7 +203,7 @@ case 2:
         var6 = var10[var6];
         var6 = var9.bind(var3)(var6);
         var6 = var6.t;
-        var6 = var6.l5WIbW;
+        var6 = var6.l5WIbf;
         var6 = var7.bind(var8)(var6);
         var1['accessibilityLabel'] = var6;
         var5 = _closure1_slot9;

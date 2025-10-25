@@ -746,7 +746,7 @@ case 26:
             var17 = var16[var17];
             var17 = var20.bind(var4)(var17);
             var17 = var17.t;
-            var17 = var17.XWDiho;
+            var17 = var17.XWDihq;
             var17 = var18.bind(var19)(var17);
             var10['accessibilityLabel'] = var17;
             var11 = var13.bind(var4)(var11, var10);

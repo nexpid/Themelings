@@ -188,7 +188,7 @@ case 5:
             var9 = var8[var2];
             var9 = var3.bind(var4)(var9);
             var9 = var9.t;
-            var9 = var9.+TSRGB;
+            var9 = var9.+TSRGD;
             var9 = var13.bind(var14)(var9);
             var1['label'] = var9;
             var9 = 10;
@@ -212,7 +212,7 @@ case 5:
             var2 = var8[var2];
             var2 = var3.bind(var4)(var2);
             var2 = var2.t;
-            var2 = var2.SvXS1d;
+            var2 = var2.SvXS1Z;
             var2 = var9.bind(var13)(var2);
             var1['label'] = var2;
             var2 = 11;
@@ -250,7 +250,7 @@ case 4:
             var1 = var9[var3];
             var1 = var8.bind(var4)(var1);
             var1 = var1.t;
-            var1 = var1.vrbqs7;
+            var1 = var1.vrbqs1;
             var1 = var13.bind(var14)(var1);
             var2['label'] = var1;
             var1 = 9;
@@ -276,7 +276,7 @@ case 4:
             var13 = var9[var3];
             var13 = var8.bind(var4)(var13);
             var13 = var13.t;
-            var13 = var13.+TSRGB;
+            var13 = var13.+TSRGD;
             var13 = var14.bind(var15)(var13);
             var2['label'] = var13;
             var13 = 10;
@@ -300,7 +300,7 @@ case 4:
             var3 = var9[var3];
             var3 = var8.bind(var4)(var3);
             var3 = var3.t;
-            var3 = var3.SvXS1d;
+            var3 = var3.SvXS1Z;
             var3 = var13.bind(var14)(var3);
             var2['label'] = var3;
             var3 = 11;
@@ -377,7 +377,7 @@ case 6:
                 var6 = var7[var6];
                 var6 = var10.bind(var3)(var6);
                 var6 = var6.t;
-                var6 = var6.e1heBA;
+                var6 = var6.e1heBD;
                 var8 = var8.bind(var9)(var6);
                 var6 = 'accessibilityLabel';
                 var1[var6] = var8;
@@ -419,7 +419,7 @@ case 8:
             var12 = var13[var12];
             var12 = var16.bind(var4)(var12);
             var12 = var12.t;
-            var12 = var12.yjGtdH;
+            var12 = var12.yjGtdJ;
             var12 = var14.bind(var15)(var12);
             var7['accessibilityLabel'] = var12;
             var12 = _closure1_slot1;

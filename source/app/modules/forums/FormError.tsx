@@ -94,7 +94,7 @@ case 2:
         var1 = var7[var1];
         var1 = var6.bind(var2)(var1);
         var1 = var1.t;
-        var1 = var1.w/BT3N;
+        var1 = var1.w/BT3G;
         var1 = var4.bind(var5)(var1);
         var1 = var3.bind(var2)(var1);
         return var1;
@@ -143,7 +143,7 @@ case 4:
         var1 = var8[var1];
         var1 = var7.bind(var2)(var1);
         var1 = var1.t;
-        var1 = var1.xPfNQk;
+        var1 = var1.xPfNQi;
         var1 = var5.bind(var6)(var1);
         var1 = var4.bind(var2)(var3, var1);
         return var1;

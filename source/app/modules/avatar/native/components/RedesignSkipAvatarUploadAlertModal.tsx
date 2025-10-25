@@ -51,7 +51,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var15[var9];
         var6 = var14.bind(var3)(var6);
         var6 = var6.t;
-        var6 = var6.DnKHub;
+        var6 = var6.DnKHuV;
         var6 = var7.bind(var11)(var6);
         var1['title'] = var6;
         var6 = var15[var9];
@@ -82,7 +82,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = var15[var9];
         var8 = var14.bind(var3)(var8);
         var8 = var8.t;
-        var8 = var8.nhJ8OD;
+        var8 = var8.nhJ8OC;
         var8 = var13.bind(var16)(var8);
         var11['text'] = var8;
         var8 = 'confirm';
@@ -102,7 +102,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = var15[var9];
         var9 = var14.bind(var3)(var9);
         var9 = var9.t;
-        var9 = var9.7eZ3jo;
+        var9 = var9.7eZ3ji;
         var9 = var12.bind(var13)(var9);
         var10['text'] = var9;
         var9 = 'add-profile-picture';

@@ -83,7 +83,7 @@ case 4:
                         var5 = var12[var5];
                         var5 = var11.bind(var10)(var5);
                         var5 = var5.t;
-                        var6 = var5.XfSsr6;
+                        var6 = var5.XfSsr1;
                         var5 = {};
                         var9 = 4;
                         var9 = var12[var9];

@@ -418,7 +418,7 @@ case 34:
             var5 = var11[var5];
             var5 = var10.bind(var1)(var5);
             var5 = var5.t;
-            var10 = var5.HtifnJ;
+            var10 = var5.HtifnG;
             var5 = {};
             var5['count'] = var15;
             var13 = var12.bind(var13)(var10, var5);
@@ -528,7 +528,7 @@ case 46:
             var5 = var15[var5];
             var5 = var10.bind(var1)(var5);
             var5 = var5.t;
-            var10 = var5.ijVm6+;
+            var10 = var5.ijVm6y;
             var5 = {};
             var15 = 1;
             var15 = var16[var15];
@@ -661,7 +661,7 @@ case 57:
             var12 = var16[var10];
             var12 = var11.bind(var1)(var12);
             var12 = var12.t;
-            var12 = var12./50eHh;
+            var12 = var12./50eHi;
             var13 = var13.bind(var14)(var12);
             var12 = var16[var10];
             var12 = var11.bind(var1)(var12);
@@ -670,7 +670,7 @@ case 57:
             var10 = var16[var10];
             var10 = var11.bind(var1)(var10);
             var10 = var10.t;
-            var11 = var10.C0Axoa;
+            var11 = var10.C0AxoR;
             var10 = {};
             var10['hours'] = var17;
             var12 = var12.bind(var14)(var11, var10);

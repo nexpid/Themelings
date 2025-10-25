@@ -164,7 +164,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var8[var9];
                 var5 = var7.bind(var6)(var5);
                 var5 = var5.t;
-                var5 = var5.JCFN//;
+                var5 = var5.JCFN/y;
                 var5 = var11.bind(var12)(var5);
                 var3['title'] = var5;
                 var5 = 7;

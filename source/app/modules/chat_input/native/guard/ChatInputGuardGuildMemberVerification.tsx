@@ -106,7 +106,7 @@ case 7:
             var2 = var8[var2];
             var2 = var7.bind(var4)(var2);
             var2 = var2.t;
-            var2 = var2.rEBKvr;
+            var2 = var2.rEBKvg;
             var8 = var3.bind(var5)(var2);
             var5 = function A() {
                 var5 = _closure1_slot1;
@@ -157,7 +157,7 @@ case 6:
             var3 = var16[var3];
             var3 = var15.bind(var4)(var3);
             var3 = var3.t;
-            var3 = var3.5iLvS0;
+            var3 = var3.5iLvSx;
             var8 = var10.bind(var12)(var3);
             var5 = function A() {
                 var4 = _closure1_slot1;
@@ -212,7 +212,7 @@ case 4:
             var2 = var15[var2];
             var2 = var12.bind(var4)(var2);
             var2 = var2.t;
-            var2 = var2.lk30cX;
+            var2 = var2.lk30cY;
             var8 = var3.bind(var11)(var2);
             var5 = function A() {
                 var5 = _closure1_slot1;
@@ -309,7 +309,7 @@ case 11:
             var6 = var10[var6];
             var6 = var9.bind(var4)(var6);
             var6 = var6.t;
-            var6 = var6.var9/DT0;
+            var6 = var6.var9/DT+;
             var6 = var7.bind(var8)(var6);
             var1['actionLabel'] = var6;
             var1['actionOnPress'] = var5;

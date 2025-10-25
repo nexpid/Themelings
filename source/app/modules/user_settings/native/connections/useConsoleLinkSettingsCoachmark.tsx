@@ -169,7 +169,7 @@ case 5:
                 var4 = var8[var3];
                 var4 = var7.bind(var6)(var4);
                 var4 = var4.t;
-                var4 = var4.yh1HSU;
+                var4 = var4.yh1HSa;
                 var4 = var5.bind(var9)(var4);
                 var1['title'] = var4;
                 var4 = var8[var3];
@@ -179,7 +179,7 @@ case 5:
                 var4 = var8[var3];
                 var4 = var7.bind(var6)(var4);
                 var4 = var4.t;
-                var4 = var4.a0xiio;
+                var4 = var4.a0xiih;
                 var4 = var5.bind(var9)(var4);
                 var1['description'] = var4;
                 var4 = 'bottom';
@@ -195,7 +195,7 @@ case 5:
                 var3 = var8[var3];
                 var3 = var7.bind(var6)(var3);
                 var3 = var3.t;
-                var3 = var3.6gSXHB;
+                var3 = var3.6gSXHD;
                 var3 = var4.bind(var5)(var3);
                 var1['buttonLabel'] = var3;
                 var3 = function onButtonPress() {

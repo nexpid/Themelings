@@ -476,11 +476,11 @@ case 0:
             var5 = arg1;
             if(var5) { _fun0005_ip = 24; continue _fun0005 }
 case 25:
-            var5 = var6.uQZTBQ;
+            var5 = var6.uQZTBV;
             var5 = var7.bind(var8)(var5);
             _fun0005_ip = 26; continue _fun0005;
 case 24:
-            var6 = var6.NQ7H8f;
+            var6 = var6.NQ7H8V;
             var5 = var7.bind(var8)(var6);
 case 26:
             var2['caption'] = var5;
