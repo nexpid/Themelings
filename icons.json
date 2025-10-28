@@ -2961,6 +2961,16 @@
         "width": 216,
         "height": 216
     },
+    "ExperimentalGameControllerLinkIcon": {
+        "file": "app/design/components/Icon/native/redesign/generated/images/ExperimentalGameControllerLinkIcon.png",
+        "hash": "9bc3be00c95ebd1e955b0d887967faab",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "EyeDropperIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/EyeDropperIcon.png",
         "hash": "bdd61114e89dfedc69ea28fd8efac2a0",
