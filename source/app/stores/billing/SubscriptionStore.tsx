@@ -292,17 +292,30 @@ case 28:
         var2 = var5.bind(var3)(var4, var2);
         var2 = _closure1_slot1;
         var5 = {};
-        var1 = 'hasFetchedSubscriptions';
+        var1 = 'initialize';
         var5['key'] = var1;
         var1 = function value() {
+            var3 = this;
+            var2 = var3.waitFor;
+            var1 = _closure1_slot7;
+            var1 = var2.bind(var3)(var1);
+            var1 = undefined;
+            return var1;
+        };
+        var5['value'] = var1;
+        var1 = new Array(18);
+        var1[0] = var5;
+        var5 = {};
+        var7 = 'hasFetchedSubscriptions';
+        var5['key'] = var7;
+        var7 = function value() {
             var2 = _closure1_slot11;
             var1 = null;
             var1 = var1 != var2;
             return var1;
         };
-        var5['value'] = var1;
-        var1 = new Array(17);
-        var1[0] = var5;
+        var5['value'] = var7;
+        var1[1] = var5;
         var5 = {};
         var7 = 'hasFetchedMostRecentPremiumTypeSubscription';
         var5['key'] = var7;
@@ -311,7 +324,7 @@ case 28:
             return var1;
         };
         var5['value'] = var7;
-        var1[1] = var5;
+        var1[2] = var5;
         var5 = {};
         var7 = 'hasFetchedPreviousPremiumTypeSubscription';
         var5['key'] = var7;
@@ -320,7 +333,7 @@ case 28:
             return var1;
         };
         var5['value'] = var7;
-        var1[2] = var5;
+        var1[3] = var5;
         var5 = {};
         var7 = 'getPremiumSubscription';
         var5['key'] = var7;
@@ -350,7 +363,7 @@ case 29:
             }
         };
         var5['value'] = var7;
-        var1[3] = var5;
+        var1[4] = var5;
         var5 = {};
         var7 = 'getPremiumTypeSubscription';
         var5['key'] = var7;
@@ -371,7 +384,7 @@ case 29:
             }
         };
         var5['value'] = var7;
-        var1[4] = var5;
+        var1[5] = var5;
         var5 = {};
         var7 = 'inReverseTrial';
         var5['key'] = var7;
@@ -411,7 +424,7 @@ case 31:
             }
         };
         var5['value'] = var7;
-        var1[5] = var5;
+        var1[6] = var5;
         var5 = {};
         var7 = 'getSubscriptions';
         var5['key'] = var7;
@@ -435,7 +448,7 @@ case 35:
             }
         };
         var5['value'] = var7;
-        var1[6] = var5;
+        var1[7] = var5;
         var5 = {};
         var7 = 'getSubscriptionById';
         var5['key'] = var7;
@@ -461,7 +474,7 @@ case 32:
             }
         };
         var5['value'] = var7;
-        var1[7] = var5;
+        var1[8] = var5;
         var5 = {};
         var7 = 'getActiveGuildSubscriptions';
         var5['key'] = var7;
@@ -470,7 +483,7 @@ case 32:
             return var1;
         };
         var5['value'] = var7;
-        var1[8] = var5;
+        var1[9] = var5;
         var5 = {};
         var7 = 'getActiveApplicationSubscriptions';
         var5['key'] = var7;
@@ -479,7 +492,7 @@ case 32:
             return var1;
         };
         var5['value'] = var7;
-        var1[9] = var5;
+        var1[10] = var5;
         var5 = {};
         var7 = 'getSubscriptionForPlanIds';
         var5['key'] = var7;
@@ -546,7 +559,7 @@ case 43:
             }
         };
         var5['value'] = var7;
-        var1[10] = var5;
+        var1[11] = var5;
         var5 = {};
         var7 = 'getMostRecentPremiumTypeSubscription';
         var5['key'] = var7;
@@ -555,7 +568,7 @@ case 43:
             return var1;
         };
         var5['value'] = var7;
-        var1[11] = var5;
+        var1[12] = var5;
         var5 = {};
         var7 = 'getPreviousPremiumTypeSubscription';
         var5['key'] = var7;
@@ -564,7 +577,7 @@ case 43:
             return var1;
         };
         var5['value'] = var7;
-        var1[12] = var5;
+        var1[13] = var5;
         var5 = {};
         var7 = 'getIsSubscriptionEligibleForReward';
         var5['key'] = var7;
@@ -573,7 +586,7 @@ case 43:
             return var1;
         };
         var5['value'] = var7;
-        var1[13] = var5;
+        var1[14] = var5;
         var5 = {};
         var7 = 'getIsFetchingSubscriptionRewardEligibility';
         var5['key'] = var7;
@@ -582,7 +595,7 @@ case 43:
             return var1;
         };
         var5['value'] = var7;
-        var1[14] = var5;
+        var1[15] = var5;
         var5 = {};
         var7 = 'getIsFetchingMostRecentSubscription';
         var5['key'] = var7;
@@ -591,7 +604,7 @@ case 43:
             return var1;
         };
         var5['value'] = var7;
-        var1[15] = var5;
+        var1[16] = var5;
         var5 = {};
         var7 = 'getLastLazyPerkSync';
         var5['key'] = var7;
@@ -600,7 +613,7 @@ case 43:
             return var1;
         };
         var5['value'] = var6;
-        var1[16] = var5;
+        var1[17] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

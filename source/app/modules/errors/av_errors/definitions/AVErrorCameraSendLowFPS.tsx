@@ -69,58 +69,12 @@ case 9:
             var2 = _closure1_slot5;
             if(!(!(var5 < var2))) { _fun0001_ip = 10; continue _fun0001 }
 case 8:
-            var2 = var3.getRemoteVideoSinkWants;
-            var5 = var2.bind(var3)();
-            var2 = global;
-            var3 = var2.Object;
-            var2 = var3.entries;
-            var5 = var2.bind(var3)(var5);
-            var3 = var5.every;
-            var2 = function(arg1) {
-                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
-case 0:
-                    var5 = arg1;
-                    var1 = var5[Symbol.iterator];
-                    var5 = var1().next;
-                    var3 = var5().value;
-                    var2 = var1;
-                    var7 = undefined;
-                    var4 = var2 === var7;
-                    var2 = undefined;
-                    if(var4) { _fun0002_ip = 11; continue _fun0002 }
+            var2 = var3.hasActiveRemoteWants;
+            var2 = var2.bind(var3)();
+            if(var2) { _fun0001_ip = 11; continue _fun0001 }
 case 12:
-                    var2 = var3;
+            return var1;
 case 11:
-                    var3 = undefined;
-                    if(var4) { _fun0002_ip = 13; continue _fun0002 }
-case 14:
-                    var6 = var5().value;
-                    var5 = var1;
-                    var5 = var5 === var7;
-                    var3 = undefined;
-                    var4 = var5;
-                    if(var5) { _fun0002_ip = 13; continue _fun0002 }
-case 15:
-                    var3 = var6;
-                    var4 = var5;
-case 13:
-                    if(var4) { _fun0002_ip = 16; continue _fun0002 }
-case 7:
-                    var1.return();
-case 16:
-                    var1 = 'any';
-                    var1 = var1 === var2;
-                    if(var1) { _fun0002_ip = 9; continue _fun0002 }
-case 17:
-                    var2 = 0;
-                    var1 = var2 === var3;
-case 9:
-                    return var1;
-                }
-            };
-            var2 = var3.bind(var5)(var2);
-            if(var2) { _fun0001_ip = 18; continue _fun0001 }
-case 19:
             var3 = _closure1_slot0;
             var5 = _closure1_slot1;
             var2 = 4;
@@ -134,19 +88,19 @@ case 19:
             var3 = var3.bind(var5)(var6, var2);
             var5 = var1 == var3;
             var2 = null;
-            if(var5) { _fun0001_ip = 20; continue _fun0001 }
-case 21:
+            if(var5) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var5 = var3.short;
             var6 = var5.frameRate;
             var5 = 10;
-            if(!(!(var6 < var5))) { _fun0001_ip = 22; continue _fun0001 }
-case 23:
+            if(!(!(var6 < var5))) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
             var3 = var3.long;
             var3 = var3.frameRate;
             var5 = var3 < var5;
             var3 = undefined;
-            if(!var5) { _fun0001_ip = 24; continue _fun0001 }
-case 22:
+            if(!var5) { _fun0001_ip = 17; continue _fun0001 }
+case 15:
             var5 = {};
             var6 = _closure1_slot0;
             var8 = _closure1_slot1;
@@ -170,12 +124,10 @@ case 22:
             var4 = new Array(1);
             var4[0] = var5;
             var3 = var4;
-case 24:
+case 17:
             var2 = var3;
-case 20:
+case 13:
             return var2;
-case 18:
-            return var1;
 case 10:
             return var1;
 case 4:

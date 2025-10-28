@@ -263,18 +263,31 @@ case 13:
         var2 = var5.bind(var3)(var4, var2);
         var2 = _closure1_slot4;
         var5 = {};
-        var1 = 'getTypingUsers';
+        var1 = 'initialize';
         var5['key'] = var1;
-        var1 = function value(arg1) {
+        var1 = function value() {
+            var3 = this;
+            var2 = var3.waitFor;
+            var1 = _closure1_slot8;
+            var1 = var2.bind(var3)(var1);
+            var1 = undefined;
+            return var1;
+        };
+        var5['value'] = var1;
+        var1 = new Array(3);
+        var1[0] = var5;
+        var5 = {};
+        var7 = 'getTypingUsers';
+        var5['key'] = var7;
+        var7 = function value(arg1) {
             var3 = _closure1_slot17;
             var2 = undefined;
             var1 = arg1;
             var1 = var3.bind(var2)(var1);
             return var1;
         };
-        var5['value'] = var1;
-        var1 = new Array(2);
-        var1[0] = var5;
+        var5['value'] = var7;
+        var1[1] = var5;
         var5 = {};
         var7 = 'isTyping';
         var5['key'] = var7;
@@ -290,7 +303,7 @@ case 13:
             return var1;
         };
         var5['value'] = var6;
-        var1[1] = var5;
+        var1[2] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

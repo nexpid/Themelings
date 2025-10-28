@@ -370,7 +370,7 @@ case 14:
                         var16 = var9;
                         var9 = copyDataProperties(var17, var16);
                         var3 = var7.bind(var8)(var6, var3);
-                        SaveGenerator(address=435);
+                        SaveGenerator(address=439);
 case 25:
                         return var3;
 case 26:
@@ -845,8 +845,8 @@ case 37:
             var6 = new Array(2);
             var6[0] = var9;
             var7 = !var7;
-            if(!var7) { _fun0007_ip = 13; continue _fun0007 }
-case 38:
+            if(!var7) { _fun0007_ip = 38; continue _fun0007 }
+case 39:
             var10 = _closure1_slot14;
             var9 = _closure1_slot0;
             var11 = _closure1_slot2;
@@ -856,7 +856,7 @@ case 38:
             var9 = var8.Separator;
             var8 = {};
             var7 = var10.bind(var5)(var9, var8);
-case 13:
+case 38:
             var6[1] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);

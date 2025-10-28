@@ -357,17 +357,18 @@ case 46:
             _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                 var4 = arg1;
-                var7 = this;
+                var8 = this;
                 var _closure3_slot0 = var4;
-                var6 = var7.waitFor;
-                var5 = _closure1_slot7;
+                var7 = var8.waitFor;
+                var6 = _closure1_slot7;
+                var5 = _closure1_slot8;
                 var3 = _closure1_slot9;
-                var3 = var6.bind(var7)(var5, var3);
+                var3 = var7.bind(var8)(var6, var5, var3);
                 var3 = {};
                 _closure1_slot11 = var3;
                 var3 = null;
-                if(!(var3 != var4)) { _fun0007_ip = 15; continue _fun0007 }
-case 47:
+                if(!(var3 != var4)) { _fun0007_ip = 47; continue _fun0007 }
+case 48:
                 var5 = _closure1_slot0;
                 var3 = _closure1_slot1;
                 var2 = 9;
@@ -413,7 +414,7 @@ case 49:
                     }
                 };
                 var1 = var2.bind(var3)(var1);
-case 15:
+case 47:
                 var1 = undefined;
                 return var1;
             }

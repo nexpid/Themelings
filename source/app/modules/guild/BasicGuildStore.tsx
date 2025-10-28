@@ -143,8 +143,35 @@ case 9:
             }
         };
         var5['value'] = var1;
-        var1 = new Array(3);
+        var1 = new Array(4);
         var1[0] = var5;
+        var5 = {};
+        var7 = 'isGuildFetching';
+        var5['key'] = var7;
+        var7 = function value(arg1) {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+                var2 = _closure1_slot6;
+                var1 = arg1;
+                var2 = var2[var1];
+                var1 = null;
+                var1 = var1 != var2;
+                if(!var1) { _fun0004_ip = 11; continue _fun0004 }
+case 12:
+                var3 = 'type';
+                var1 = var3 in var2;
+case 11:
+                if(!var1) { _fun0004_ip = 13; continue _fun0004 }
+case 14:
+                var3 = var2.type;
+                var2 = 'loading';
+                var1 = var2 === var3;
+case 13:
+                return var1;
+            }
+        };
+        var5['value'] = var7;
+        var1[1] = var5;
         var5 = {};
         var7 = 'getGuildOrStatus';
         var5['key'] = var7;
@@ -155,7 +182,7 @@ case 9:
             return var1;
         };
         var5['value'] = var7;
-        var1[1] = var5;
+        var1[2] = var5;
         var5 = {};
         var7 = 'getVersion';
         var5['key'] = var7;
@@ -164,7 +191,7 @@ case 9:
             return var1;
         };
         var5['value'] = var6;
-        var1[2] = var5;
+        var1[3] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

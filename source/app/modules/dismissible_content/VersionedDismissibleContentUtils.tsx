@@ -132,7 +132,7 @@ case 4:
             var3 = 4;
             var3 = var5[var3];
             var3 = var4.bind(var2)(var3);
-            var3 = var3.SUMMER_2025_GIFTING_PROMOTION_VERSION;
+            var3 = var3.HALLOWEEN_GIFTING_2025_VERSION;
             return var3;
 case 2:
             var4 = _closure1_slot3;

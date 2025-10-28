@@ -274,9 +274,25 @@ case 23:
         var2 = var5.bind(var3)(var4, var2);
         var2 = _closure1_slot4;
         var5 = {};
-        var1 = 'init';
+        var1 = 'initialize';
         var5['key'] = var1;
         var1 = function value() {
+            var5 = this;
+            var4 = var5.waitFor;
+            var3 = _closure1_slot8;
+            var2 = _closure1_slot9;
+            var1 = _closure1_slot10;
+            var1 = var4.bind(var5)(var3, var2, var1);
+            var1 = undefined;
+            return var1;
+        };
+        var5['value'] = var1;
+        var1 = new Array(11);
+        var1[0] = var5;
+        var5 = {};
+        var7 = 'init';
+        var5['key'] = var7;
+        var7 = function value() {
             var3 = this;
             var2 = var3.waitFor;
             var1 = _closure1_slot10;
@@ -284,9 +300,8 @@ case 23:
             var1 = undefined;
             return var1;
         };
-        var5['value'] = var1;
-        var1 = new Array(10);
-        var1[0] = var5;
+        var5['value'] = var7;
+        var1[1] = var5;
         var5 = {};
         var7 = 'isOpen';
         var5['key'] = var7;
@@ -298,7 +313,7 @@ case 23:
             return var1;
         };
         var5['value'] = var7;
-        var1[1] = var5;
+        var1[2] = var5;
         var5 = {};
         var7 = 'isSubmitting';
         var5['key'] = var7;
@@ -307,7 +322,7 @@ case 23:
             return var1;
         };
         var5['value'] = var7;
-        var1[2] = var5;
+        var1[3] = var5;
         var5 = {};
         var7 = 'getGuildId';
         var5['key'] = var7;
@@ -316,7 +331,7 @@ case 23:
             return var1;
         };
         var5['value'] = var7;
-        var1[3] = var5;
+        var1[4] = var5;
         var5 = {};
         var7 = 'getError';
         var5['key'] = var7;
@@ -325,7 +340,7 @@ case 23:
             return var1;
         };
         var5['value'] = var7;
-        var1[4] = var5;
+        var1[5] = var5;
         var5 = {};
         var7 = 'getInvite';
         var5['key'] = var7;
@@ -334,7 +349,7 @@ case 23:
             return var1;
         };
         var5['value'] = var7;
-        var1[5] = var5;
+        var1[6] = var5;
         var5 = {};
         var7 = 'getInviteSettings';
         var5['key'] = var7;
@@ -343,7 +358,7 @@ case 23:
             return var1;
         };
         var5['value'] = var7;
-        var1[6] = var5;
+        var1[7] = var5;
         var5 = {};
         var7 = 'getPendingSettings';
         var5['key'] = var7;
@@ -352,7 +367,7 @@ case 23:
             return var1;
         };
         var5['value'] = var7;
-        var1[7] = var5;
+        var1[8] = var5;
         var5 = {};
         var7 = 'getProps';
         var5['key'] = var7;
@@ -361,7 +376,7 @@ case 23:
             return var1;
         };
         var5['value'] = var7;
-        var1[8] = var5;
+        var1[9] = var5;
         var5 = {};
         var7 = 'onClose';
         var5['key'] = var7;
@@ -370,7 +385,7 @@ case 23:
             return var1;
         };
         var5['get'] = var6;
-        var1[9] = var5;
+        var1[10] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

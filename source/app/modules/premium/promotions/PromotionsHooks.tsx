@@ -560,7 +560,7 @@ case 33:
                         var2 = var2[var1];
                         var1 = undefined;
                         var2 = var3.bind(var1)(var2);
-                        var1 = var2.fetchActiveOutboundPromotions;
+                        var1 = var2.fetchActivePromotions;
                         var1 = var1.bind(var2)();
 case 52:
                         var1 = undefined;

@@ -739,7 +739,7 @@ case 76:
         var1 = function value() {
             _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
-                var9 = this;
+                var10 = this;
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot3;
                 var1 = 15;
@@ -773,11 +773,11 @@ case 77:
 case 79:
                 var4 = global;
                 var7 = var4.Set;
-                var15 = var3.knownThreadIds;
+                var17 = var3.knownThreadIds;
                 var6 = var7.prototype;
                 var6 = Object.create(var6, {constructor: {value: var7}});
-                var16 = var6;
-                var4 = new var16[var7](var15, var14);
+                var18 = var6;
+                var4 = new var18[var7](var17, var16);
                 var4 = var4 instanceof Object ? var4 : var6;
                 _closure1_slot33 = var4;
 case 69:
@@ -799,7 +799,7 @@ case 83:
                 var3 = var3.selectedChannelIds;
                 _closure1_slot30 = var3;
 case 82:
-                var4 = var9.mustEmitChanges;
+                var4 = var10.mustEmitChanges;
                 var3 = function(arg1) {
                     _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
 case 0:
@@ -816,16 +816,17 @@ case 73:
                         return var1;
                     }
                 };
-                var3 = var4.bind(var9)(var3);
-                var8 = var9.waitFor;
-                var15 = _closure1_slot14;
-                var14 = _closure1_slot12;
-                var13 = _closure1_slot17;
-                var12 = _closure1_slot13;
-                var11 = _closure1_slot15;
-                var10 = _closure1_slot16;
-                var16 = var9;
-                var2 = var16[var8](var15, var14, var13, var12, var11, var10, var9);
+                var3 = var4.bind(var10)(var3);
+                var9 = var10.waitFor;
+                var17 = _closure1_slot11;
+                var16 = _closure1_slot12;
+                var15 = _closure1_slot13;
+                var14 = _closure1_slot14;
+                var13 = _closure1_slot15;
+                var12 = _closure1_slot16;
+                var11 = _closure1_slot17;
+                var18 = var10;
+                var2 = var18[var9](var17, var16, var15, var14, var13, var12, var11, var10);
                 return var1;
             }
         };

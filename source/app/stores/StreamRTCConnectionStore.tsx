@@ -299,15 +299,32 @@ case 32:
             var2 = var5.bind(var3)(var4, var2);
             var2 = _closure1_slot5;
             var5 = {};
-            var1 = 'getRTCConnections';
+            var1 = 'initialize';
             var5['key'] = var1;
             var1 = function value() {
-                var1 = _closure1_slot23;
+                var6 = this;
+                var5 = var6.waitFor;
+                var10 = _closure1_slot10;
+                var9 = _closure1_slot11;
+                var8 = _closure1_slot13;
+                var7 = _closure1_slot9;
+                var11 = var6;
+                var1 = var11[var5](var10, var9, var8, var7, var6);
+                var1 = undefined;
                 return var1;
             };
             var5['value'] = var1;
-            var1 = new Array(16);
+            var1 = new Array(17);
             var1[0] = var5;
+            var5 = {};
+            var7 = 'getRTCConnections';
+            var5['key'] = var7;
+            var7 = function value() {
+                var1 = _closure1_slot23;
+                return var1;
+            };
+            var5['value'] = var7;
+            var1[1] = var5;
             var5 = {};
             var7 = 'getAllActiveStreamKeys';
             var5['key'] = var7;
@@ -320,7 +337,7 @@ case 32:
                 return var1;
             };
             var5['value'] = var7;
-            var1[1] = var5;
+            var1[2] = var5;
             var5 = {};
             var7 = 'getRTCConnection';
             var5['key'] = var7;
@@ -331,7 +348,7 @@ case 32:
                 return var1;
             };
             var5['value'] = var7;
-            var1[2] = var5;
+            var1[3] = var5;
             var5 = {};
             var7 = 'getQuality';
             var5['key'] = var7;
@@ -369,7 +386,7 @@ case 35:
                 }
             };
             var5['value'] = var7;
-            var1[3] = var5;
+            var1[4] = var5;
             var5 = {};
             var7 = 'getMediaSessionId';
             var5['key'] = var7;
@@ -401,7 +418,7 @@ case 36:
                 }
             };
             var5['value'] = var7;
-            var1[4] = var5;
+            var1[5] = var5;
             var5 = {};
             var7 = 'getRtcConnectionId';
             var5['key'] = var7;
@@ -433,7 +450,7 @@ case 36:
                 }
             };
             var5['value'] = var7;
-            var1[5] = var5;
+            var1[6] = var5;
             var5 = {};
             var7 = 'getVideoStats';
             var5['key'] = var7;
@@ -459,7 +476,7 @@ case 41:
                 }
             };
             var5['value'] = var7;
-            var1[6] = var5;
+            var1[7] = var5;
             var5 = {};
             var7 = 'getHostname';
             var5['key'] = var7;
@@ -491,7 +508,7 @@ case 43:
                 }
             };
             var5['value'] = var7;
-            var1[7] = var5;
+            var1[8] = var5;
             var5 = {};
             var7 = 'getRegion';
             var5['key'] = var7;
@@ -517,7 +534,7 @@ case 41:
                 }
             };
             var5['value'] = var7;
-            var1[8] = var5;
+            var1[9] = var5;
             var5 = {};
             var7 = 'getMaxViewers';
             var5['key'] = var7;
@@ -543,7 +560,7 @@ case 41:
                 }
             };
             var5['value'] = var7;
-            var1[9] = var5;
+            var1[10] = var5;
             var5 = {};
             var7 = 'getStreamSourceId';
             var5['key'] = var7;
@@ -554,7 +571,7 @@ case 41:
                 return var1;
             };
             var5['value'] = var7;
-            var1[10] = var5;
+            var1[11] = var5;
             var5 = {};
             var7 = 'getLastNonZeroRemoteVideoSinkWantsTime';
             var5['key'] = var7;
@@ -565,7 +582,7 @@ case 41:
                 return var1;
             };
             var5['value'] = var7;
-            var1[11] = var5;
+            var1[12] = var5;
             var5 = {};
             var7 = 'getUserIds';
             var5['key'] = var7;
@@ -587,7 +604,7 @@ case 47:
                 }
             };
             var5['value'] = var7;
-            var1[12] = var5;
+            var1[13] = var5;
             var5 = {};
             var7 = 'isUserConnected';
             var5['key'] = var7;
@@ -610,7 +627,7 @@ case 42:
                 }
             };
             var5['value'] = var7;
-            var1[13] = var5;
+            var1[14] = var5;
             var5 = {};
             var7 = 'getSecureFramesState';
             var5['key'] = var7;
@@ -632,7 +649,7 @@ case 47:
                 }
             };
             var5['value'] = var7;
-            var1[14] = var5;
+            var1[15] = var5;
             var5 = {};
             var7 = 'getSecureFramesRosterMapEntry';
             var5['key'] = var7;
@@ -662,7 +679,7 @@ case 49:
                 }
             };
             var5['value'] = var6;
-            var1[15] = var5;
+            var1[16] = var5;
             var1 = var2.bind(var3)(var4, var1);
             return var1;
         };

@@ -353,7 +353,7 @@ case 34:
             _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                 var1 = arg1;
-                var6 = this;
+                var10 = this;
                 var3 = null;
                 if(!(var3 != var1)) { _fun0007_ip = 35; continue _fun0007 }
 case 36:
@@ -391,25 +391,29 @@ case 42:
 case 41:
                 _closure1_slot25 = var1;
 case 35:
-                var4 = var6.syncWith;
+                var4 = var10.syncWith;
                 var2 = _closure1_slot9;
                 var3 = new Array(1);
                 var3[0] = var2;
                 var2 = _closure1_slot32;
-                var2 = var4.bind(var6)(var3, var2);
-                var4 = var6.syncWith;
+                var2 = var4.bind(var10)(var3, var2);
+                var4 = var10.syncWith;
                 var2 = _closure1_slot12;
                 var3 = new Array(1);
                 var3[0] = var2;
                 var2 = _closure1_slot31;
-                var2 = var4.bind(var6)(var3, var2);
-                var5 = var6.waitFor;
-                var11 = _closure1_slot9;
-                var10 = _closure1_slot11;
-                var9 = _closure1_slot10;
-                var8 = _closure1_slot8;
-                var12 = var6;
-                var1 = var12[var5](var11, var10, var9, var8, var7);
+                var2 = var4.bind(var10)(var3, var2);
+                var9 = var10.waitFor;
+                var18 = _closure1_slot10;
+                var17 = _closure1_slot8;
+                var16 = _closure1_slot11;
+                var15 = _closure1_slot12;
+                var14 = _closure1_slot9;
+                var13 = _closure1_slot13;
+                var12 = _closure1_slot14;
+                var11 = _closure1_slot15;
+                var19 = var10;
+                var1 = var19[var9](var18, var17, var16, var15, var14, var13, var12, var11, var10);
                 var1 = undefined;
                 return var1;
             }

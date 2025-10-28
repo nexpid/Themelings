@@ -404,10 +404,14 @@ case 36:
 case 0:
                 var2 = arg1;
                 var4 = this;
-                var6 = var4.waitFor;
-                var5 = _closure1_slot11;
-                var3 = _closure1_slot10;
-                var3 = var6.bind(var4)(var5, var3);
+                var9 = var4.waitFor;
+                var14 = _closure1_slot8;
+                var13 = _closure1_slot9;
+                var12 = _closure1_slot10;
+                var11 = _closure1_slot11;
+                var10 = _closure1_slot7;
+                var15 = var4;
+                var3 = var15[var9](var14, var13, var12, var11, var10, var9);
                 var3 = null;
                 if(!(var3 != var2)) { _fun0007_ip = 37; continue _fun0007 }
 case 38:
@@ -524,7 +528,7 @@ case 0:
                 var2 = var1 != var3;
                 var1 = 0;
                 if(!var2) { _fun0010_ip = 40; continue _fun0010 }
-case 38:
+case 41:
                 var2 = var4.getScoreWithoutFetchingLatest;
                 var1 = var2.bind(var4)(var3);
 case 40:
@@ -574,13 +578,13 @@ case 0:
             var3 = _closure1_slot13;
             var3 = var3.FRECENCY_AND_FAVORITES_SETTINGS;
             var3 = var4 !== var3;
-            if(var3) { _fun0011_ip = 41; continue _fun0011 }
+            if(var3) { _fun0011_ip = 42; continue _fun0011 }
 case 8:
             var3 = !var1;
-case 41:
+case 42:
             var1 = !var3;
             if(var3) { _fun0011_ip = 10; continue _fun0011 }
-case 42:
+case 43:
             var3 = _closure1_slot17;
             var2 = new Array(0);
             var3['pendingUsages'] = var2;

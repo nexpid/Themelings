@@ -1506,7 +1506,6 @@ case 76:
     var _closure1_slot15 = var16;
     var16 = var15.EMPTY_AD_DECISION_DATA;
     var _closure1_slot16 = var16;
-    var16 = var15.QuestsExperimentLocations;
     var16 = var15.QuestHomeSortMethods;
     var _closure1_slot17 = var16;
     var16 = var15.QuestTaskPlatform;

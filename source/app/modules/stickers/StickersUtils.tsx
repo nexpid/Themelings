@@ -447,7 +447,7 @@ case 41:
             var7 = global;
             var8 = var7.location;
             var10 = var8.protocol;
-            var8 = _closure1_slot10;
+            var8 = _closure1_slot11;
             var7 = var7.HermesInternal;
             var7 = var7.concat;
             var7 = var7.bind(var5)(var10, var8, var6);

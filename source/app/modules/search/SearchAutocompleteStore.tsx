@@ -1326,15 +1326,16 @@ case 69:
         var1 = 'initialize';
         var5['key'] = var1;
         var1 = function value() {
-            var7 = this;
-            var6 = var7.waitFor;
-            var12 = _closure1_slot9;
-            var11 = _closure1_slot12;
-            var10 = _closure1_slot8;
-            var9 = _closure1_slot10;
-            var8 = _closure1_slot11;
-            var13 = var7;
-            var1 = var13[var6](var12, var11, var10, var9, var8, var7);
+            var8 = this;
+            var7 = var8.waitFor;
+            var14 = _closure1_slot8;
+            var13 = _closure1_slot9;
+            var12 = _closure1_slot10;
+            var11 = _closure1_slot11;
+            var10 = _closure1_slot12;
+            var9 = _closure1_slot13;
+            var15 = var8;
+            var1 = var15[var7](var14, var13, var12, var11, var10, var9, var8);
             var1 = undefined;
             return var1;
         };

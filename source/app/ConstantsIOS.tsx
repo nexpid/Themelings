@@ -141,6 +141,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15['MESSAGE'] = var2;
     var2 = 'oauth2-authorize';
     var15['OAUTH2_AUTHORIZE'] = var2;
+    var2 = 'one-time-login';
+    var15['ONE_TIME_LOGIN'] = var2;
     var2 = 'app-directory-profile';
     var15['APP_DIRECTORY_PROFILE'] = var2;
     var2 = 'promotions';

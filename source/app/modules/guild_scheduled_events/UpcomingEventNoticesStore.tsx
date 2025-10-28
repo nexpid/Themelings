@@ -164,6 +164,11 @@ case 8:
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                 var1 = arg1;
+                var6 = this;
+                var5 = var6.waitFor;
+                var4 = _closure1_slot7;
+                var3 = _closure1_slot8;
+                var3 = var5.bind(var6)(var4, var3);
                 var3 = null;
                 if(!(var3 != var1)) { _fun0003_ip = 9; continue _fun0003 }
 case 10:
@@ -317,22 +322,22 @@ case 0:
             var1 = var5.getId;
             var1 = var1.bind(var5)();
             if(!(var3 === var1)) { _fun0005_ip = 18; continue _fun0005 }
-case 14:
+case 19:
             var3 = _closure1_slot8;
             var1 = var3.getGuildScheduledEvent;
             var8 = var1.bind(var3)(var4);
             var3 = null;
             if(!(var3 != var8)) { _fun0005_ip = 18; continue _fun0005 }
-case 19:
+case 20:
             var5 = var8.status;
             var1 = _closure1_slot9;
             var1 = var1.SCHEDULED;
             if(!(var5 === var1)) { _fun0005_ip = 18; continue _fun0005 }
-case 20:
+case 21:
             var1 = _closure1_slot11;
             var1 = var1[var4];
             if(!(var3 == var1)) { _fun0005_ip = 18; continue _fun0005 }
-case 21:
+case 22:
             var1 = _closure1_slot12;
             var10 = var1[var4];
             var3 = _closure1_slot0;
@@ -350,7 +355,7 @@ case 21:
             var1 = _closure1_slot10;
             var1 = var1.NEW_EVENT;
             if(!(var3 === var1)) { _fun0005_ip = 18; continue _fun0005 }
-case 22:
+case 23:
             var1 = {};
             var11 = _closure1_slot11;
             var12 = var1;

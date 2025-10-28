@@ -256,7 +256,7 @@ case 16:
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(4);
+        var1 = new Array(5);
         var1[0] = var5;
         var5 = {};
         var7 = 'getStateForGuild';
@@ -279,26 +279,55 @@ case 17:
         var5['value'] = var7;
         var1[1] = var5;
         var5 = {};
-        var7 = 'hasFetchedCatalog';
+        var7 = 'getLowestGameCostForGuild';
         var5['key'] = var7;
         var7 = function value(arg1) {
             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
-                var4 = arg1;
-                var3 = null;
-                var1 = var3 != var4;
-                if(!var1) { _fun0006_ip = 19; continue _fun0006 }
+                var3 = arg1;
+                var1 = null;
+                if(!(var1 != var3)) { _fun0006_ip = 19; continue _fun0006 }
 case 20:
                 var2 = _closure1_slot7;
-                var2 = var2[var4];
-                var4 = var3 == var2;
-                var3 = undefined;
-                if(var4) { _fun0006_ip = 21; continue _fun0006 }
+                var6 = var2[var3];
+                var3 = global;
+                var5 = var3.Object;
+                var4 = var5.values;
+                var7 = var1 == var6;
+                var2 = undefined;
+                if(var7) { _fun0006_ip = 21; continue _fun0006 }
 case 22:
-                var3 = var2.hasFetchedCatalog;
+                var2 = var6.catalog;
 case 21:
-                var2 = true;
-                var1 = var2 === var3;
+                if(!(var1 == var2)) { _fun0006_ip = 23; continue _fun0006 }
+case 24:
+                var2 = {};
+case 23:
+                var8 = var4.bind(var5)(var2);
+                var4 = var8.length;
+                var7 = 0;
+                var2 = null;
+                if(!(var7 !== var4)) { _fun0006_ip = 25; continue _fun0006 }
+case 5:
+                var5 = var3.Math;
+                var4 = var5.min;
+                var6 = var8.map;
+                var3 = function(arg1) {
+                    var1 = arg1;
+                    var1 = var1.baseCost;
+                    return var1;
+                };
+                var10 = var6.bind(var8)(var3);
+                var3 = new Array(0);
+                var11 = var3;
+                var9 = 0;
+                var6 = arraySpread(var11, var10, var9);
+                var11 = var4;
+                var10 = var3;
+                var9 = var5;
+                var2 = apply(var11, var10, var9);
+case 25:
+                return var2;
 case 19:
                 return var1;
             }
@@ -306,32 +335,59 @@ case 19:
         var5['value'] = var7;
         var1[2] = var5;
         var5 = {};
-        var7 = 'hasFetchedInstances';
+        var7 = 'hasFetchedCatalog';
         var5['key'] = var7;
-        var6 = function value(arg1) {
+        var7 = function value(arg1) {
             _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                 var4 = arg1;
                 var3 = null;
                 var1 = var3 != var4;
-                if(!var1) { _fun0007_ip = 19; continue _fun0007 }
-case 20:
+                if(!var1) { _fun0007_ip = 26; continue _fun0007 }
+case 27:
                 var2 = _closure1_slot7;
                 var2 = var2[var4];
                 var4 = var3 == var2;
                 var3 = undefined;
-                if(var4) { _fun0007_ip = 21; continue _fun0007 }
-case 22:
-                var3 = var2.hasFetchedInstances;
-case 21:
+                if(var4) { _fun0007_ip = 28; continue _fun0007 }
+case 29:
+                var3 = var2.hasFetchedCatalog;
+case 28:
                 var2 = true;
                 var1 = var2 === var3;
-case 19:
+case 26:
+                return var1;
+            }
+        };
+        var5['value'] = var7;
+        var1[3] = var5;
+        var5 = {};
+        var7 = 'hasFetchedInstances';
+        var5['key'] = var7;
+        var6 = function value(arg1) {
+            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+case 0:
+                var4 = arg1;
+                var3 = null;
+                var1 = var3 != var4;
+                if(!var1) { _fun0008_ip = 26; continue _fun0008 }
+case 27:
+                var2 = _closure1_slot7;
+                var2 = var2[var4];
+                var4 = var3 == var2;
+                var3 = undefined;
+                if(var4) { _fun0008_ip = 28; continue _fun0008 }
+case 29:
+                var3 = var2.hasFetchedInstances;
+case 28:
+                var2 = true;
+                var1 = var2 === var3;
+case 26:
                 return var1;
             }
         };
         var5['value'] = var6;
-        var1[3] = var5;
+        var1[4] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

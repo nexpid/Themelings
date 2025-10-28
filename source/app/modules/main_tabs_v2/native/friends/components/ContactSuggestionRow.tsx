@@ -61,14 +61,14 @@ case 0:
             var _closure2_slot2 = var1;
             var5 = {'suggestedFriend': 0, 'added': 0, 'onAddSuggestion': 0};
             var17 = null;
-            var21 = var5;
-            var20 = null;
-            var2 = silentSetPrototypeOf(var21, var20);
+            var22 = var5;
+            var21 = null;
+            var2 = silentSetPrototypeOf(var22, var21);
             var2 = 0;
-            var21 = {};
-            var20 = var6;
-            var19 = var5;
-            var7 = copyDataProperties(var21, var20, var19);
+            var22 = {};
+            var21 = var6;
+            var20 = var5;
+            var7 = copyDataProperties(var22, var21, var20);
             var _closure2_slot3 = var7;
             var4 = undefined;
             var _closure2_slot4 = var4;
@@ -262,9 +262,9 @@ case 19:
             var1 = var14[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};
-            var21 = var1;
-            var20 = var7;
-            var7 = copyDataProperties(var21, var20);
+            var22 = var1;
+            var21 = var7;
+            var7 = copyDataProperties(var22, var21);
             var18 = var11.user;
             var7 = 'user';
             var1[var7] = var18;
@@ -306,12 +306,18 @@ case 21:
             var12 = var12.t;
             var14 = var12.z7y34b;
             var12 = {};
-            var18 = var17 == var11;
-            var17 = undefined;
-            if(var18) { _fun0001_ip = 22; continue _fun0001 }
+            var19 = var17 == var11;
+            var18 = undefined;
+            if(var19) { _fun0001_ip = 22; continue _fun0001 }
 case 23:
-            var17 = var11.mutualFriendsCount;
+            var18 = var11.mutualFriendsCount;
 case 22:
+            var19 = var17 != var18;
+            var17 = '';
+            if(!var19) { _fun0001_ip = 24; continue _fun0001 }
+case 25:
+            var17 = var18;
+case 24:
             var12['count'] = var17;
             var6 = var15.bind(var16)(var14, var12);
 case 20:
@@ -365,11 +371,11 @@ case 0:
                     var8 = _closure2_slot3;
                     var8 = var8.location;
                     var10 = null;
-                    if(!(var10 == var8)) { _fun0004_ip = 24; continue _fun0004 }
-case 25:
+                    if(!(var10 == var8)) { _fun0004_ip = 26; continue _fun0004 }
+case 27:
                     var9 = _closure1_slot6;
                     var8 = var9.ADD_FRIENDS_MODAL;
-case 24:
+case 26:
                     var4['location'] = var8;
                     var4 = var6.bind(var7)(var5, var4);
                     var2 = _closure2_slot2;

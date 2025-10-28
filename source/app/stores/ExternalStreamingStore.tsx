@@ -1120,9 +1120,10 @@ case 111:
             var4 = _closure1_slot24;
             var1 = undefined;
             var3 = var4.bind(var1)();
-            var6 = var5.waitFor;
-            var3 = _closure1_slot9;
-            var3 = var6.bind(var5)(var3);
+            var7 = var5.waitFor;
+            var6 = _closure1_slot9;
+            var3 = _closure1_slot10;
+            var3 = var7.bind(var5)(var6, var3);
             var3 = var5.syncWith;
             var6 = _closure1_slot10;
             var2 = new Array(1);

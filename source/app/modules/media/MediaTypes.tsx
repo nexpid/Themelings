@@ -167,6 +167,10 @@ case 12:
     var7['GORE'] = var8;
     var5 = 'GORE';
     var7[var8] = var5;
+    var8 = 4;
+    var7['SELF_HARM'] = var8;
+    var5 = 'SELF_HARM';
+    var7[var8] = var5;
     var _closure1_slot4 = var7;
     var5 = {};
     var5['IS_ANIMATED'] = var11;

@@ -498,7 +498,11 @@ case 64:
         var1 = 'initialize';
         var5['key'] = var1;
         var1 = function value() {
+            var4 = this;
+            var2 = var4.waitFor;
             var3 = _closure1_slot8;
+            var1 = _closure1_slot9;
+            var1 = var2.bind(var4)(var3, var1);
             var2 = var3.addChangeListener;
             var1 = function() {
                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {

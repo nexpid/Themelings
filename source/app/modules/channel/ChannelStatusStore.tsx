@@ -321,15 +321,29 @@ case 41:
             }
         };
         var _closure2_slot0 = var4;
-        var6 = _closure1_slot6;
+        var5 = _closure1_slot6;
         var3 = undefined;
-        var5 = arg1;
-        var5 = var6.bind(var3)(var4, var5);
+        var2 = arg1;
+        var2 = var5.bind(var3)(var4, var2);
         var2 = _closure1_slot3;
         var5 = {};
-        var6 = 'getChannelStatus';
-        var5['key'] = var6;
-        var1 = function value(arg1) {
+        var1 = 'initialize';
+        var5['key'] = var1;
+        var1 = function value() {
+            var3 = this;
+            var2 = var3.waitFor;
+            var1 = _closure1_slot7;
+            var1 = var2.bind(var3)(var1);
+            var1 = undefined;
+            return var1;
+        };
+        var5['value'] = var1;
+        var1 = new Array(2);
+        var1[0] = var5;
+        var5 = {};
+        var7 = 'getChannelStatus';
+        var5['key'] = var7;
+        var6 = function value(arg1) {
             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                 var2 = arg1;
@@ -383,9 +397,8 @@ case 48:
                 return var1;
             }
         };
-        var5['value'] = var1;
-        var1 = new Array(1);
-        var1[0] = var5;
+        var5['value'] = var6;
+        var1[1] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

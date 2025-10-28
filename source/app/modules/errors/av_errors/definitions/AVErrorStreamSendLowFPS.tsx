@@ -92,58 +92,12 @@ case 12:
             var2 = _closure1_slot6;
             if(!(!(var5 < var2))) { _fun0001_ip = 13; continue _fun0001 }
 case 11:
-            var2 = var3.getRemoteVideoSinkWants;
-            var5 = var2.bind(var3)();
-            var2 = global;
-            var3 = var2.Object;
-            var2 = var3.entries;
-            var5 = var2.bind(var3)(var5);
-            var3 = var5.every;
-            var2 = function(arg1) {
-                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
-case 0:
-                    var5 = arg1;
-                    var1 = var5[Symbol.iterator];
-                    var5 = var1().next;
-                    var3 = var5().value;
-                    var2 = var1;
-                    var7 = undefined;
-                    var4 = var2 === var7;
-                    var2 = undefined;
-                    if(var4) { _fun0002_ip = 14; continue _fun0002 }
+            var2 = var3.hasActiveRemoteWants;
+            var2 = var2.bind(var3)();
+            if(var2) { _fun0001_ip = 14; continue _fun0001 }
 case 15:
-                    var2 = var3;
+            return var1;
 case 14:
-                    var3 = undefined;
-                    if(var4) { _fun0002_ip = 16; continue _fun0002 }
-case 17:
-                    var6 = var5().value;
-                    var5 = var1;
-                    var5 = var5 === var7;
-                    var3 = undefined;
-                    var4 = var5;
-                    if(var5) { _fun0002_ip = 16; continue _fun0002 }
-case 18:
-                    var3 = var6;
-                    var4 = var5;
-case 16:
-                    if(var4) { _fun0002_ip = 19; continue _fun0002 }
-case 20:
-                    var1.return();
-case 19:
-                    var1 = 'any';
-                    var1 = var1 === var2;
-                    if(var1) { _fun0002_ip = 21; continue _fun0002 }
-case 22:
-                    var2 = 0;
-                    var1 = var2 === var3;
-case 21:
-                    return var1;
-                }
-            };
-            var2 = var3.bind(var5)(var2);
-            if(var2) { _fun0001_ip = 23; continue _fun0001 }
-case 24:
             var6 = _closure1_slot2;
             var5 = var6.getParticipant;
             var3 = var9.channelId;
@@ -154,8 +108,8 @@ case 24:
             var2 = var8.encodeStreamKey;
             var2 = var2.bind(var8)(var9);
             var6 = var5.bind(var6)(var3, var2);
-            if(!(var1 != var6)) { _fun0001_ip = 25; continue _fun0001 }
-case 26:
+            if(!(var1 != var6)) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var3 = _closure1_slot0;
             var2 = _closure1_slot1;
             var8 = 6;
@@ -164,8 +118,8 @@ case 26:
             var3 = var5.getAccumulatedStatsWithMinDatapoints;
             var2 = var9.ownerId;
             var5 = var3.bind(var5)(var7, var2);
-            if(!(var1 != var5)) { _fun0001_ip = 27; continue _fun0001 }
-case 28:
+            if(!(var1 != var5)) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
             var3 = _closure1_slot0;
             var7 = _closure1_slot1;
             var2 = 7;
@@ -175,8 +129,8 @@ case 28:
             var3 = var2.bind(var3)(var6);
             var6 = var1 == var3;
             var2 = null;
-            if(var6) { _fun0001_ip = 29; continue _fun0001 }
-case 30:
+            if(var6) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
             var6 = var5.short;
             var7 = var6.frameRate;
             var12 = _closure1_slot0;
@@ -186,8 +140,8 @@ case 30:
             var12 = var13.getWarningFrameRate;
             var6 = var3.maxFrameRate;
             var6 = var12.bind(var13)(var6);
-            if(!(!(var7 < var6))) { _fun0001_ip = 31; continue _fun0001 }
-case 32:
+            if(!(!(var7 < var6))) { _fun0001_ip = 22; continue _fun0001 }
+case 23:
             var5 = var5.long;
             var5 = var5.frameRate;
             var7 = _closure1_slot0;
@@ -199,8 +153,8 @@ case 32:
             var3 = var6.bind(var7)(var3);
             var5 = var5 < var3;
             var3 = null;
-            if(!var5) { _fun0001_ip = 33; continue _fun0001 }
-case 31:
+            if(!var5) { _fun0001_ip = 24; continue _fun0001 }
+case 22:
             var5 = {};
             var8 = _closure1_slot0;
             var4 = _closure1_slot1;
@@ -224,15 +178,13 @@ case 31:
             var4 = new Array(1);
             var4[0] = var5;
             var3 = var4;
-case 33:
+case 24:
             var2 = var3;
-case 29:
+case 20:
             return var2;
-case 27:
+case 18:
             return var1;
-case 25:
-            return var1;
-case 23:
+case 16:
             return var1;
 case 13:
             return var1;

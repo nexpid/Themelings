@@ -938,7 +938,7 @@ case 96:
             }
         };
         var5['value'] = var1;
-        var1 = new Array(18);
+        var1 = new Array(19);
         var1[0] = var5;
         var5 = {};
         var7 = 'mapPartitions';
@@ -1559,6 +1559,81 @@ case 122:
         var5['value'] = var7;
         var1[15] = var5;
         var5 = {};
+        var7 = 'memoizedSecondaryIndex';
+        var5['key'] = var7;
+        var7 = function memoizedSecondaryIndex() {
+            var4 = this;
+            var3 = var4.memoized;
+            var2 = function(arg1) {
+                _fun0027: for(var _fun0027_ip = 0; ; ) switch(_fun0027_ip) {
+case 0:
+                    var16 = arg1;
+                    var1 = {};
+                    var14 = var16;
+                    var2 = global;
+                    var5 = undefined;
+                    for(var11 in var14)
+case 31:
+                    {
+                        var3 = var5;
+case 90:
+                        var4 = var11;
+                        var10 = var16[var4];
+                        var8 = var10.root;
+                        var5 = var3;
+                        var3 = var5;
+                        ForInLoopInit(obj_props_register=8, obj_register=7, iter_index_register=6, iter_size_register=5);
+                        if(var9 === undefined) { _fun0027_ip = 31; continue _fun0027 }
+case 119:
+                        var5 = var3;
+                        ForInLoopNextIter(next_value_register=3, obj_props_register=8, obj_register=7, iter_index_register=6, iter_size_register=5);
+                        if(var4 === undefined) { _fun0027_ip = 31; continue _fun0027 }
+case 123:
+                        var5 = var4;
+                        var17 = var2.Object;
+                        var17 = var17.prototype;
+                        var18 = var17.hasOwnProperty;
+                        var17 = var18.call;
+                        var17 = var17.bind(var18)(var1, var5);
+                        if(var17) { _fun0027_ip = 124; continue _fun0027 }
+case 125:
+                        var17 = var10.root;
+                        var17 = var17[var5];
+                        var1[var5] = var17;
+                        var3 = var5;
+                        _fun0027_ip = 119; continue _fun0027;
+case 124:
+                        var4 = var2.Error;
+                        var2 = var2.HermesInternal;
+                        var3 = var2.concat;
+                        var2 = 'Duplicate clustering key: ';
+                        var20 = var3.bind(var2)(var5);
+                        var3 = var4.prototype;
+                        var3 = Object.create(var3, {constructor: {value: var4}});
+                        var21 = var3;
+                        var2 = new var21[var4](var20, var19);
+                        var2 = var2 instanceof Object ? var2 : var3;
+                        throw var2;
+                    }
+case 126:
+                    return var1;
+                }
+            };
+            var2 = var3.bind(var4)(var2);
+            var _closure3_slot0 = var2;
+            var1 = function(arg1) {
+                var2 = _closure3_slot0;
+                var1 = undefined;
+                var2 = var2.bind(var1)();
+                var1 = arg1;
+                var1 = var2[var1];
+                return var1;
+            };
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[16] = var5;
+        var5 = {};
         var7 = 'setKkvState';
         var5['key'] = var7;
         var7 = function setKkvState(arg1) {
@@ -1569,12 +1644,12 @@ case 122:
             return var1;
         };
         var5['value'] = var7;
-        var1[16] = var5;
+        var1[17] = var5;
         var5 = {};
         var7 = 'debugFindRecordByClusteringKeyDoNotUse';
         var5['key'] = var7;
         var6 = function debugFindRecordByClusteringKeyDoNotUse(arg1) {
-            _fun0027: for(var _fun0027_ip = 0; ; ) switch(_fun0027_ip) {
+            _fun0028: for(var _fun0028_ip = 0; ; ) switch(_fun0028_ip) {
 case 0:
                 var9 = arg1;
                 var1 = new Array(0);
@@ -1591,21 +1666,21 @@ case 98:
                     var10 = var8[var13];
                     var10 = var10.root;
                     var12 = var10[var9];
-                    if(var2 == var12) { _fun0027_ip = 97; continue _fun0027 }
+                    if(var2 == var12) { _fun0028_ip = 97; continue _fun0028 }
 case 55:
                     var11 = var1.push;
                     var10 = {};
                     var10['partitionKey'] = var13;
                     var10['record'] = var12;
                     var10 = var11.bind(var1)(var10);
-                    _fun0027_ip = 97; continue _fun0027;
+                    _fun0028_ip = 97; continue _fun0028;
                 }
-case 123:
+case 127:
                 return var1;
             }
         };
         var5['value'] = var6;
-        var1[17] = var5;
+        var1[18] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

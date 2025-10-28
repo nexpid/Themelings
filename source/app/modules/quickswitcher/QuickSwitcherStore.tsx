@@ -1486,13 +1486,24 @@ case 126:
 case 0:
                 var5 = arg1;
                 var6 = this;
-                var7 = var6.waitFor;
-                var4 = _closure1_slot16;
-                var2 = _closure1_slot17;
-                var1 = _closure1_slot11;
-                var1 = var7.bind(var6)(var4, var2, var1);
-                var4 = var6.syncWith;
+                var17 = var6.waitFor;
+                var30 = _closure1_slot8;
+                var29 = _closure1_slot10;
+                var28 = _closure1_slot11;
+                var27 = _closure1_slot12;
+                var26 = _closure1_slot14;
+                var25 = _closure1_slot16;
+                var24 = _closure1_slot17;
+                var23 = _closure1_slot18;
+                var22 = _closure1_slot19;
+                var21 = _closure1_slot20;
+                var20 = _closure1_slot21;
                 var1 = _closure1_slot9;
+                var18 = _closure1_slot22;
+                var31 = var6;
+                var19 = var1;
+                var2 = var31[var17](var30, var29, var28, var27, var26, var25, var24, var23, var22, var21, var20, var19, var18, var17);
+                var4 = var6.syncWith;
                 var2 = new Array(1);
                 var2[0] = var1;
                 var1 = function() {
@@ -1510,22 +1521,22 @@ case 0:
                 var4 = var6.get;
                 var2 = 'seenQSTutorial';
                 var2 = var4.bind(var6)(var2);
-                if(var2) { _fun0018_ip = 127; continue _fun0018 }
-case 128:
-                var2 = false;
+                if(var2) { _fun0018_ip = 92; continue _fun0018 }
 case 127:
+                var2 = false;
+case 92:
                 _closure1_slot28 = var2;
                 var4 = null;
                 var6 = var4 == var5;
                 var2 = undefined;
-                if(var6) { _fun0018_ip = 129; continue _fun0018 }
-case 130:
-                var2 = var5.channelHistory;
+                if(var6) { _fun0018_ip = 128; continue _fun0018 }
 case 129:
-                if(!(var4 == var2)) { _fun0018_ip = 131; continue _fun0018 }
-case 121:
-                var2 = new Array(0);
+                var2 = var5.channelHistory;
+case 128:
+                if(!(var4 == var2)) { _fun0018_ip = 130; continue _fun0018 }
 case 131:
+                var2 = new Array(0);
+case 130:
                 _closure1_slot35 = var2;
                 return var1;
             }

@@ -21,8 +21,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = '__esModule';
     var1 = var6.bind(var7)(var3, var1, var5);
     var5 = {};
-    var1 = 'control';
-    var5['CONTROL'] = var1;
+    var1 = 'oldest_creation_date';
+    var5['OLDEST_CREATION_DATE'] = var1;
     var1 = 'top_sounds';
     var5['TOP_SOUNDS'] = var1;
     var1 = 'newest_creation_date';
@@ -39,12 +39,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var6.bind(var1)(var7);
     var6 = {'name': '2025-10-soundboard-xp-3', 'kind': 'user'};
     var9 = {};
-    var10 = var5.CONTROL;
+    var10 = var5.OLDEST_CREATION_DATE;
     var9['sortingStrategy'] = var10;
     var6['defaultConfig'] = var9;
     var9 = {};
     var10 = {};
-    var11 = var5.CONTROL;
+    var11 = var5.OLDEST_CREATION_DATE;
     var10['sortingStrategy'] = var11;
     var9[0] = var10;
     var10 = {};
@@ -98,7 +98,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['isInTopSoundsForGuildsVariant'] = var4;
-    var2 = function isInMetricsCaptureVariant(arg1) {
+    var4 = function isInMetricsCaptureVariant(arg1) {
         var4 = _closure1_slot2;
         var3 = undefined;
         var2 = arg1;
@@ -109,6 +109,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2 === var1;
         return var1;
     };
-    var3['isInMetricsCaptureVariant'] = var2;
+    var3['isInMetricsCaptureVariant'] = var4;
+    var2 = function isInRecentlyUsedByUserVariant(arg1) {
+        var4 = _closure1_slot2;
+        var3 = undefined;
+        var2 = arg1;
+        var2 = var4.bind(var3)(var2);
+        var2 = var2.sortingStrategy;
+        var1 = _closure1_slot0;
+        var1 = var1.RECENTLY_USED_BY_USER;
+        var1 = var2 === var1;
+        return var1;
+    };
+    var3['isInRecentlyUsedByUserVariant'] = var2;
     return var1;
 })();

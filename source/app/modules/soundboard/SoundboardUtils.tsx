@@ -504,44 +504,38 @@ case 55:
                 var1 = var1.bind(var2)();
                 return var1;
             };
-            var8 = var6.bind(var7)(var4, var1);
+            var7 = var6.bind(var7)(var4, var1);
             var1 = new Array(0);
             if(var3) { _fun0008_ip = 56; continue _fun0008 }
-case 13:
+case 57:
             var3 = _closure1_slot17;
             var3 = var3.bind(var5)();
             if(var3) { _fun0008_ip = 56; continue _fun0008 }
-case 57:
-            var7 = var1.push;
+case 58:
             var4 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var6 = 19;
-            var3 = var9[var6];
-            var3 = var4.bind(var5)(var3);
-            var3 = var3.DismissibleContent;
-            var3 = var3.CUSTOM_CALL_SOUNDS_SPARKLES;
-            var3 = var7.bind(var1)(var3);
-            var3 = 20;
-            var3 = var9[var3];
+            var8 = _closure1_slot2;
+            var3 = 19;
+            var3 = var8[var3];
             var4 = var4.bind(var5)(var3);
             var3 = var4.ageEligibleForPremiumUpsell;
-            var4 = var3.bind(var4)(var8);
-            var7 = _closure1_slot1;
+            var4 = var3.bind(var4)(var7);
+            var6 = _closure1_slot1;
             var3 = 10;
-            var3 = var9[var3];
-            var7 = var7.bind(var5)(var3);
-            var3 = var7.canUseCustomCallSounds;
-            var3 = var3.bind(var7)(var8);
-            if(var3) { _fun0008_ip = 58; continue _fun0008 }
-case 59:
-            var3 = var4;
-case 58:
-            if(!var3) { _fun0008_ip = 56; continue _fun0008 }
+            var3 = var8[var3];
+            var6 = var6.bind(var5)(var3);
+            var3 = var6.canUseCustomCallSounds;
+            var3 = var3.bind(var6)(var7);
+            if(var3) { _fun0008_ip = 59; continue _fun0008 }
 case 60:
+            var3 = var4;
+case 59:
+            if(!var3) { _fun0008_ip = 56; continue _fun0008 }
+case 61:
             var3 = var1.push;
             var4 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var2 = var2[var6];
+            var6 = _closure1_slot2;
+            var2 = 20;
+            var2 = var6[var2];
             var2 = var4.bind(var5)(var2);
             var2 = var2.DismissibleContent;
             var2 = var2.CUSTOM_CALL_SOUNDS_PICKER_UPSELL;
@@ -630,24 +624,24 @@ case 0:
                 var1 = undefined;
                 var2 = var6.bind(var1)(var2);
                 var2 = var2.AnalyticsSoundSource;
-                if(var9) { _fun0009_ip = 61; continue _fun0009 }
+                if(var9) { _fun0009_ip = 62; continue _fun0009 }
 case 14:
                 var6 = var2.CUSTOM;
-                _fun0009_ip = 62; continue _fun0009;
-case 61:
-                var6 = var2.DEFAULT;
+                _fun0009_ip = 63; continue _fun0009;
 case 62:
+                var6 = var2.DEFAULT;
+case 63:
                 var8 = var3.joinSound;
                 var2 = null;
                 if(!(var2 == var8)) { _fun0009_ip = 22; continue _fun0009 }
-case 63:
+case 64:
                 var8 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var2 = var2[var7];
                 var2 = var8.bind(var1)(var2);
                 var2 = var2.AnalyticsChangeType;
                 var8 = var2.ADDED;
-                _fun0009_ip = 64; continue _fun0009;
+                _fun0009_ip = 65; continue _fun0009;
 case 22:
                 var10 = _closure1_slot0;
                 var2 = _closure1_slot2;
@@ -655,19 +649,19 @@ case 22:
                 var2 = var10.bind(var1)(var2);
                 var2 = var2.AnalyticsChangeType;
                 var8 = var2.UPDATED;
-case 64:
+case 65:
                 var2 = {};
                 var10 = _closure2_slot1;
                 var10 = var10.soundId;
                 var2['soundId'] = var10;
-                if(var9) { _fun0009_ip = 65; continue _fun0009 }
-case 66:
+                if(var9) { _fun0009_ip = 66; continue _fun0009 }
+case 67:
                 var9 = _closure2_slot1;
                 var9 = var9.guildId;
-                _fun0009_ip = 67; continue _fun0009;
-case 65:
+                _fun0009_ip = 68; continue _fun0009;
+case 66:
                 var9 = _closure1_slot9;
-case 67:
+case 68:
                 var2['guildId'] = var9;
                 var3['joinSound'] = var2;
                 var3 = _closure1_slot19;

@@ -432,9 +432,11 @@ case 35:
         var5['key'] = var1;
         var1 = function value() {
             var4 = this;
-            var3 = var4.waitFor;
-            var2 = _closure1_slot7;
-            var2 = var3.bind(var4)(var2);
+            var6 = var4.waitFor;
+            var5 = _closure1_slot8;
+            var3 = _closure1_slot7;
+            var2 = _closure1_slot9;
+            var2 = var6.bind(var4)(var5, var3, var2);
             var3 = var4.syncWith;
             var5 = _closure1_slot7;
             var2 = new Array(1);

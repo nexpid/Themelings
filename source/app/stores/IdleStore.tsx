@@ -600,15 +600,28 @@ case 30:
             var2 = var5.bind(var3)(var4, var2);
             var2 = _closure1_slot4;
             var5 = {};
-            var1 = 'isIdle';
+            var1 = 'initialize';
             var5['key'] = var1;
             var1 = function value() {
-                var1 = _closure1_slot14;
+                var3 = this;
+                var2 = var3.waitFor;
+                var1 = _closure1_slot8;
+                var1 = var2.bind(var3)(var1);
+                var1 = undefined;
                 return var1;
             };
             var5['value'] = var1;
-            var1 = new Array(5);
+            var1 = new Array(6);
             var1[0] = var5;
+            var5 = {};
+            var7 = 'isIdle';
+            var5['key'] = var7;
+            var7 = function value() {
+                var1 = _closure1_slot14;
+                return var1;
+            };
+            var5['value'] = var7;
+            var1[1] = var5;
             var5 = {};
             var7 = 'isAFK';
             var5['key'] = var7;
@@ -617,7 +630,7 @@ case 30:
                 return var1;
             };
             var5['value'] = var7;
-            var1[1] = var5;
+            var1[2] = var5;
             var5 = {};
             var7 = 'getIdleSince';
             var5['key'] = var7;
@@ -634,7 +647,7 @@ case 55:
                 }
             };
             var5['value'] = var7;
-            var1[2] = var5;
+            var1[3] = var5;
             var5 = {};
             var7 = 'getSystemSuspended';
             var5['key'] = var7;
@@ -643,7 +656,7 @@ case 55:
                 return var1;
             };
             var5['value'] = var7;
-            var1[3] = var5;
+            var1[4] = var5;
             var5 = {};
             var7 = 'getSystemLocked';
             var5['key'] = var7;
@@ -652,7 +665,7 @@ case 55:
                 return var1;
             };
             var5['value'] = var6;
-            var1[4] = var5;
+            var1[5] = var5;
             var1 = var2.bind(var3)(var4, var1);
             return var1;
         };

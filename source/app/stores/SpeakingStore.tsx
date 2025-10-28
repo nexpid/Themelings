@@ -588,8 +588,8 @@ case 79:
         var1 = 'initialize';
         var5['key'] = var1;
         var1 = function value() {
-            var3 = this;
-            var2 = var3.mustEmitChanges;
+            var6 = this;
+            var2 = var6.mustEmitChanges;
             var1 = function(arg1) {
                 _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
@@ -606,10 +606,14 @@ case 80:
                     return var1;
                 }
             };
-            var1 = var2.bind(var3)(var1);
-            var2 = var3.waitFor;
-            var1 = _closure1_slot10;
-            var1 = var2.bind(var3)(var1);
+            var1 = var2.bind(var6)(var1);
+            var5 = var6.waitFor;
+            var10 = _closure1_slot8;
+            var9 = _closure1_slot9;
+            var8 = _closure1_slot10;
+            var7 = _closure1_slot11;
+            var11 = var6;
+            var1 = var11[var5](var10, var9, var8, var7, var6);
             var1 = undefined;
             return var1;
         };

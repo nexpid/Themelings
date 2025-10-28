@@ -293,6 +293,13 @@ case 43:
             var2 = 'obscure_blur_effect_gore_content_enabled';
             var11 = var7.bind(var8)(var2);
 case 42:
+            if(var11) { _fun0001_ip = 44; continue _fun0001 }
+case 45:
+            var8 = _closure1_slot5;
+            var7 = var8.get;
+            var2 = 'obscure_blur_effect_self_harm_content_enabled';
+            var11 = var7.bind(var8)(var2);
+case 44:
             var7 = _closure1_slot0;
             var2 = _closure1_slot2;
             var8 = 14;
@@ -302,18 +309,18 @@ case 42:
             var2 = var6.contentScanVersion;
             var12 = var7.bind(var10)(var2);
             var10 = var11;
-            if(!var11) { _fun0001_ip = 44; continue _fun0001 }
-case 45:
+            if(!var11) { _fun0001_ip = 46; continue _fun0001 }
+case 47:
             var7 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var8];
             var7 = var7.bind(var9)(var2);
             var2 = var7.shouldAgeVerifyForExplicitMedia;
             var10 = var2.bind(var7)();
-case 44:
+case 46:
             var8 = var11;
-            if(!var8) { _fun0001_ip = 46; continue _fun0001 }
-case 47:
+            if(!var8) { _fun0001_ip = 48; continue _fun0001 }
+case 49:
             var7 = _closure1_slot0;
             var13 = _closure1_slot2;
             var2 = 15;
@@ -321,13 +328,13 @@ case 47:
             var7 = var7.bind(var9)(var2);
             var2 = var7.isVerifiedTeen;
             var8 = var2.bind(var7)();
-case 46:
-            var2 = var6.shouldContainMediaWithBackground;
-            if(!var2) { _fun0001_ip = 48; continue _fun0001 }
-case 49:
-            var2 = var6.coverImage;
-            if(!(var1 == var2)) { _fun0001_ip = 50; continue _fun0001 }
 case 48:
+            var2 = var6.shouldContainMediaWithBackground;
+            if(!var2) { _fun0001_ip = 50; continue _fun0001 }
+case 51:
+            var2 = var6.coverImage;
+            if(!(var1 == var2)) { _fun0001_ip = 52; continue _fun0001 }
+case 50:
             var2 = {};
             var21 = var2;
             var20 = var6;
@@ -338,8 +345,8 @@ case 48:
             var13 = '';
             var7 = true;
             var14 = var13;
-            if(!(var7 === var15)) { _fun0001_ip = 51; continue _fun0001 }
-case 52:
+            if(!(var7 === var15)) { _fun0001_ip = 53; continue _fun0001 }
+case 54:
             var17 = _closure1_slot0;
             var18 = _closure1_slot2;
             var7 = 10;
@@ -354,11 +361,11 @@ case 52:
             var15 = var15.bind(var16)(var7);
             var7 = var15.toUpperCase;
             var14 = var7.bind(var15)();
-case 51:
+case 53:
             var7 = 'spoiler';
             var2[var7] = var14;
-            if(!var11) { _fun0001_ip = 53; continue _fun0001 }
-case 54:
+            if(!var11) { _fun0001_ip = 55; continue _fun0001 }
+case 56:
             var16 = _closure1_slot0;
             var17 = _closure1_slot2;
             var7 = 10;
@@ -371,7 +378,7 @@ case 54:
             var7 = var7.t;
             var7 = var7.SpxcUR;
             var13 = var14.bind(var15)(var7);
-case 53:
+case 55:
             var7 = 'obscure';
             var2[var7] = var13;
             var7 = 'obscureAwaitingScan';
@@ -381,16 +388,16 @@ case 53:
             var7 = 'obscureHideControls';
             var2[var7] = var8;
             var13 = var10;
-            if(var10) { _fun0001_ip = 55; continue _fun0001 }
-case 56:
+            if(var10) { _fun0001_ip = 57; continue _fun0001 }
+case 58:
             var13 = var8;
-case 55:
+case 57:
             var7 = 'obscureIsOpaque';
             var2[var7] = var13;
             var7 = 'ctaButtonColor';
             var2[var7] = var4;
-            _fun0001_ip = 57; continue _fun0001;
-case 50:
+            _fun0001_ip = 59; continue _fun0001;
+case 52:
             var7 = {};
             var21 = var7;
             var20 = var6;
@@ -401,8 +408,8 @@ case 50:
             var13 = '';
             var14 = true;
             var15 = var13;
-            if(!(var14 === var16)) { _fun0001_ip = 58; continue _fun0001 }
-case 59:
+            if(!(var14 === var16)) { _fun0001_ip = 60; continue _fun0001 }
+case 61:
             var18 = _closure1_slot0;
             var19 = _closure1_slot2;
             var14 = 10;
@@ -417,11 +424,11 @@ case 59:
             var16 = var16.bind(var17)(var14);
             var14 = var16.toUpperCase;
             var15 = var14.bind(var16)();
-case 58:
+case 60:
             var14 = 'spoiler';
             var7[var14] = var15;
-            if(!var11) { _fun0001_ip = 60; continue _fun0001 }
-case 61:
+            if(!var11) { _fun0001_ip = 62; continue _fun0001 }
+case 63:
             var16 = _closure1_slot0;
             var17 = _closure1_slot2;
             var11 = 10;
@@ -434,7 +441,7 @@ case 61:
             var11 = var11.t;
             var11 = var11.SpxcUR;
             var13 = var14.bind(var15)(var11);
-case 60:
+case 62:
             var11 = 'obscure';
             var7[var11] = var13;
             var11 = 'obscureAwaitingScan';
@@ -443,10 +450,10 @@ case 60:
             var7[var11] = var10;
             var11 = 'obscureHideControls';
             var7[var11] = var8;
-            if(var10) { _fun0001_ip = 62; continue _fun0001 }
-case 63:
+            if(var10) { _fun0001_ip = 64; continue _fun0001 }
+case 65:
             var10 = var8;
-case 62:
+case 64:
             var8 = 'obscureIsOpaque';
             var7[var8] = var10;
             var8 = 'ctaButtonColor';
@@ -462,7 +469,7 @@ case 62:
             var8 = 'backgroundImage';
             var7[var8] = var10;
             var2 = var7;
-case 57:
+case 59:
             return var2;
 case 40:
             var2 = {};

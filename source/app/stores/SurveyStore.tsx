@@ -949,9 +949,17 @@ case 121:
 case 0:
                 var2 = arg1;
                 var4 = this;
-                var1 = null;
-                if(!(var1 == var2)) { _fun0011_ip = 122; continue _fun0011 }
-case 123:
+                var9 = var4.waitFor;
+                var14 = _closure1_slot9;
+                var13 = _closure1_slot10;
+                var12 = _closure1_slot11;
+                var11 = _closure1_slot12;
+                var10 = _closure1_slot13;
+                var15 = var4;
+                var3 = var15[var9](var14, var13, var12, var11, var10, var9);
+                var3 = null;
+                if(!(var3 == var2)) { _fun0011_ip = 122; continue _fun0011 }
+case 46:
                 var2 = _closure1_slot17;
 case 122:
                 _closure1_slot18 = var2;
@@ -988,7 +996,7 @@ case 0:
                 var3 = var3.bind(var1)();
                 var1 = null;
                 if(var3) { _fun0012_ip = 40; continue _fun0012 }
-case 124:
+case 123:
                 var1 = _closure1_slot22;
 case 40:
                 return var1;
@@ -1068,10 +1076,10 @@ case 0:
             var3 = copyDataProperties(var5, var4);
             var3 = var2.hiddenSurveys;
             var2 = null;
-            if(!(var2 == var3)) { _fun0014_ip = 125; continue _fun0014 }
+            if(!(var2 == var3)) { _fun0014_ip = 124; continue _fun0014 }
 case 48:
             var3 = {};
-case 125:
+case 124:
             var2 = 'hiddenSurveys';
             var1[var2] = var3;
             return var1;

@@ -2258,6 +2258,14 @@ case 152:
         var1 = 'initialize';
         var5['key'] = var1;
         var1 = function value() {
+            var6 = this;
+            var5 = var6.waitFor;
+            var10 = _closure1_slot11;
+            var9 = _closure1_slot10;
+            var8 = _closure1_slot12;
+            var7 = _closure1_slot13;
+            var11 = var6;
+            var1 = var11[var5](var10, var9, var8, var7, var6);
             var1 = undefined;
             return var1;
         };

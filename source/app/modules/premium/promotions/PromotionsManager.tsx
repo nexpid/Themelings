@@ -208,7 +208,7 @@ case 0:
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0004_ip = 16; continue _fun0004 }
 case 17:
-                    var2 = var3.maybeFetchActiveOutboundPromotions;
+                    var2 = var3.maybeFetchActivePromotions;
                     var2 = var2.bind(var3)();
                     var2 = var3.maybeFetchBogoPromotion;
                     var2 = var2.bind(var3)();
@@ -245,7 +245,7 @@ case 16:
         var1 = new Array(2);
         var1[0] = var5;
         var5 = {};
-        var7 = 'maybeFetchActiveOutboundPromotions';
+        var7 = 'maybeFetchActivePromotions';
         var5['key'] = var7;
         var6 = function value() {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
@@ -269,7 +269,7 @@ case 0:
                 var9 = var7.bind(var1)(var3);
                 var6 = var9.isFetchingPromotionsEndpointEnabled;
                 var3 = {};
-                var4 = 'maybeFetchActiveOutboundPromotions';
+                var4 = 'maybeFetchActivePromotions';
                 var3['location'] = var4;
                 var3 = var6.bind(var9)(var3);
                 var6 = 11;
@@ -300,7 +300,7 @@ case 27:
                 var2 = 12;
                 var2 = var4[var2];
                 var3 = var3.bind(var1)(var2);
-                var2 = var3.fetchActiveOutboundPromotions;
+                var2 = var3.fetchActivePromotions;
                 var2 = var2.bind(var3)();
 case 26:
                 return var1;

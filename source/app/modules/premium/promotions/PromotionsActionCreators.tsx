@@ -7,7 +7,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var8;
     var _closure1_slot1 = var10;
     var _closure1_slot2 = var9;
-    var5 = function fetchActiveOutboundPromotions() {
+    var5 = function fetchActivePromotions() {
         var1 = undefined;
         var4 = _closure1_slot9;
         var3 = var4.apply;
@@ -17,7 +17,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var1 = function _fetchActiveOutboundPromotions() {
+    var1 = function _fetchActivePromotions() {
         var5 = undefined;
         var1 = undefined;
         var4 = _closure1_slot3;
@@ -36,7 +36,7 @@ case 3:
                     var10 = undefined;
                     var12 = undefined;
                     var4 = _closure1_slot6;
-                    var4 = var4.isFetchingActiveOutboundPromotions;
+                    var4 = var4.isFetchingActivePromotions;
                     if(var4) { _fun0001_ip = 4; continue _fun0001 }
 case 5: // try_start_0
                     var5 = _closure1_slot1;
@@ -46,7 +46,7 @@ case 5: // try_start_0
                     var13 = var5.bind(var2)(var4);
                     var5 = var13.dispatch;
                     var4 = {};
-                    var14 = 'ACTIVE_OUTBOUND_PROMOTIONS_FETCH';
+                    var14 = 'ACTIVE_PROMOTIONS_FETCH';
                     var4['type'] = var14;
                     var4 = var5.bind(var13)(var4);
                     var5 = _closure1_slot0;
@@ -189,7 +189,7 @@ case 16: // try_start_1
                     var7 = var6.bind(var2)(var5);
                     var6 = var7.dispatch;
                     var5 = {};
-                    var10 = 'ACTIVE_OUTBOUND_PROMOTIONS_FETCH_SUCCESS';
+                    var10 = 'ACTIVE_PROMOTIONS_FETCH_SUCCESS';
                     var5['type'] = var10;
                     var9 = var9.body;
                     var5['promotions'] = var9;
@@ -208,7 +208,7 @@ case 29: // catch_target0 // catch_target1
                     var5 = var4.bind(var2)(var3);
                     var4 = var5.dispatch;
                     var3 = {};
-                    var6 = 'ACTIVE_OUTBOUND_PROMOTIONS_FETCH_FAIL';
+                    var6 = 'ACTIVE_PROMOTIONS_FETCH_FAIL';
                     var3['type'] = var6;
                     var3 = var4.bind(var5)(var3);
 case 4:
@@ -431,7 +431,7 @@ case 32:
     var6 = var6.Endpoints;
     var _closure1_slot8 = var6;
     var6 = {};
-    var6['fetchActiveOutboundPromotions'] = var5;
+    var6['fetchActivePromotions'] = var5;
     var6['dismissOutboundPromotionNotice'] = var4;
     var7 = function markOutboundPromotionsSeen() {
         var3 = _closure1_slot1;
@@ -456,7 +456,7 @@ case 32:
     var7 = 'modules/premium/promotions/PromotionsActionCreators.tsx';
     var7 = var8.bind(var9)(var7);
     var3['default'] = var6;
-    var3['fetchActiveOutboundPromotions'] = var5;
+    var3['fetchActivePromotions'] = var5;
     var3['dismissOutboundPromotionNotice'] = var4;
     var3['fetchActiveBogoPromotion'] = var2;
     return var1;

@@ -212,11 +212,12 @@ case 13:
         var1 = 'initialize';
         var5['key'] = var1;
         var1 = function value() {
-            var4 = this;
-            var3 = var4.waitFor;
+            var5 = this;
+            var4 = var5.waitFor;
+            var3 = _closure1_slot6;
             var2 = _closure1_slot7;
             var1 = _closure1_slot8;
-            var1 = var3.bind(var4)(var2, var1);
+            var1 = var4.bind(var5)(var3, var2, var1);
             var1 = undefined;
             return var1;
         };

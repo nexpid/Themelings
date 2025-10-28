@@ -137,6 +137,12 @@ case 4:
     var11['category'] = var12;
     var2['obscure_blur_effect_gore_content_enabled'] = var11;
     var11 = {};
+    var12 = 'Force self harm content obscure blur effect on for message media and embeds';
+    var11['label'] = var12;
+    var12 = var5.OVERLAYS;
+    var11['category'] = var12;
+    var2['obscure_blur_effect_self_harm_content_enabled'] = var11;
+    var11 = {};
     var12 = 'Ignore pending scan on explicit media';
     var11['label'] = var12;
     var12 = var5.OVERLAYS;

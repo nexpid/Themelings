@@ -23,12 +23,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function getMutualFriendsLabel(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var5 = arg1;
+            var8 = arg1;
             var6 = undefined;
-            if(!(var6 !== var5)) { _fun0001_ip = 2; continue _fun0001 }
+            if(!(var6 !== var8)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var7 = 0;
-            if(!(var7 !== var5)) { _fun0001_ip = 4; continue _fun0001 }
+            if(!(var7 !== var8)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
             var2 = _closure1_slot0;
             var1 = _closure1_slot1;
@@ -41,9 +41,16 @@ case 5:
             var1 = var1.t;
             var2 = var1.5s9jl+;
             var1 = {};
+            var5 = null;
+            var9 = var5 != var8;
+            var5 = '';
+            if(!var9) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+            var5 = var8;
+case 6:
             var1['count'] = var5;
             var1 = var3.bind(var4)(var2, var1);
-            _fun0001_ip = 6; continue _fun0001;
+            _fun0001_ip = 8; continue _fun0001;
 case 4:
             var5 = _closure1_slot0;
             var2 = _closure1_slot1;
@@ -56,8 +63,8 @@ case 4:
             var2 = var2.t;
             var2 = var2.n9g3ay;
             var1 = var3.bind(var4)(var2);
-case 6:
-            _fun0001_ip = 7; continue _fun0001;
+case 8:
+            _fun0001_ip = 9; continue _fun0001;
 case 2:
             var5 = _closure1_slot0;
             var7 = _closure1_slot1;
@@ -71,7 +78,7 @@ case 2:
             var2 = var2.t;
             var2 = var2.0mTJ3j;
             var1 = var3.bind(var4)(var2);
-case 7:
+case 9:
             return var1;
         }
     };

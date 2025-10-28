@@ -1118,89 +1118,94 @@ case 66:
             var1 = function handleSelectSticker(arg1) {
                 _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
-                    var1 = arg1;
-                    var2 = _closure2_slot12;
-                    var3 = var2.current;
-                    var2 = var3.channel;
-                    var14 = var3.pendingReply;
-                    var4 = var3.threadCreationCallback;
-                    var6 = _closure1_slot7;
-                    var5 = var6.isChannelOnCooldown;
-                    var5 = var5.bind(var6)(var2);
-                    if(var5) { _fun0014_ip = 70; continue _fun0014 }
+                    var2 = arg1;
+                    var3 = _closure2_slot12;
+                    var4 = var3.current;
+                    var3 = var4.channel;
+                    var15 = var4.pendingReply;
+                    var5 = var4.threadCreationCallback;
+                    var7 = _closure1_slot7;
+                    var6 = var7.isChannelOnCooldown;
+                    var6 = var6.bind(var7)(var3);
+                    if(var6) { _fun0014_ip = 70; continue _fun0014 }
 case 19:
-                    var6 = null;
-                    var5 = var6 == var1;
-case 70:
-                    if(var5) { _fun0014_ip = 71; continue _fun0014 }
-case 72:
-                    var8 = _closure1_slot0;
-                    var7 = _closure1_slot2;
-                    var6 = 31;
-                    var7 = var7[var6];
-                    var6 = undefined;
-                    var7 = var8.bind(var6)(var7);
-                    var6 = var7.isStandardSticker;
-                    var6 = var6.bind(var7)(var1);
-                    if(!var6) { _fun0014_ip = 45; continue _fun0014 }
-case 73:
-                    var9 = _closure1_slot4;
-                    var8 = var9.getStickerPack;
-                    var7 = var1.pack_id;
-                    var8 = var8.bind(var9)(var7);
                     var7 = null;
-                    var6 = var7 == var8;
+                    var6 = var7 == var2;
+case 70:
+                    if(var6) { _fun0014_ip = 71; continue _fun0014 }
+case 72:
+                    var9 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var7 = 31;
+                    var8 = var8[var7];
+                    var7 = undefined;
+                    var8 = var9.bind(var7)(var8);
+                    var7 = var8.isStandardSticker;
+                    var7 = var7.bind(var8)(var2);
+                    if(!var7) { _fun0014_ip = 45; continue _fun0014 }
+case 73:
+                    var10 = _closure1_slot4;
+                    var9 = var10.getStickerPack;
+                    var8 = var2.pack_id;
+                    var9 = var9.bind(var10)(var8);
+                    var8 = null;
+                    var7 = var8 == var9;
 case 45:
-                    var5 = var6;
+                    var6 = var7;
 case 71:
-                    if(var5) { _fun0014_ip = 74; continue _fun0014 }
+                    if(var6) { _fun0014_ip = 74; continue _fun0014 }
 case 75:
-                    var5 = null;
-                    if(!(var5 == var4)) { _fun0014_ip = 76; continue _fun0014 }
+                    var6 = null;
+                    if(!(var6 == var5)) { _fun0014_ip = 76; continue _fun0014 }
 case 32:
-                    var13 = _closure1_slot1;
-                    var7 = _closure1_slot2;
-                    var5 = 26;
-                    var8 = var7[var5];
-                    var6 = undefined;
-                    var12 = var13.bind(var6)(var8);
-                    var11 = var12.sendStickers;
-                    var10 = var2.id;
-                    var8 = var1.id;
-                    var9 = new Array(1);
-                    var9[0] = var8;
-                    var8 = {};
-                    var5 = var7[var5];
-                    var13 = var13.bind(var6)(var5);
-                    var5 = var13.getSendMessageOptionsForReply;
-                    var17 = var5.bind(var13)(var14);
-                    var18 = var8;
-                    var5 = copyDataProperties(var18, var17);
-                    var5 = _closure1_slot12;
-                    var13 = var5.STICKER_REPLY;
-                    var5 = 'location';
-                    var8[var5] = var13;
-                    var16 = '';
-                    var19 = var12;
+                    var14 = _closure1_slot1;
+                    var8 = _closure1_slot2;
+                    var6 = 26;
+                    var9 = var8[var6];
+                    var7 = undefined;
+                    var13 = var14.bind(var7)(var9);
+                    var12 = var13.sendStickers;
+                    var11 = var3.id;
+                    var9 = var2.id;
+                    var10 = new Array(1);
+                    var10[0] = var9;
+                    var9 = {};
+                    var6 = var8[var6];
+                    var14 = var14.bind(var7)(var6);
+                    var6 = var14.getSendMessageOptionsForReply;
+                    var18 = var6.bind(var14)(var15);
+                    var19 = var9;
+                    var6 = copyDataProperties(var19, var18);
+                    var6 = _closure1_slot12;
+                    var14 = var6.STICKER_REPLY;
+                    var6 = 'location';
+                    var9[var6] = var14;
+                    var17 = '';
+                    var20 = var13;
+                    var19 = var11;
                     var18 = var10;
-                    var17 = var9;
-                    var15 = var8;
-                    var5 = var19[var11](var18, var17, var16, var15, var14);
-                    var5 = _closure1_slot0;
-                    var3 = 27;
-                    var3 = var7[var3];
-                    var5 = var5.bind(var6)(var3);
-                    var3 = var5.deletePendingReply;
-                    var2 = var2.id;
-                    var2 = var3.bind(var5)(var2);
-                    _fun0014_ip = 74; continue _fun0014;
+                    var16 = var9;
+                    var6 = var20[var12](var19, var18, var17, var16, var15);
+                    var6 = _closure1_slot0;
+                    var4 = 27;
+                    var4 = var8[var4];
+                    var6 = var6.bind(var7)(var4);
+                    var4 = var6.deletePendingReply;
+                    var3 = var3.id;
+                    var3 = var4.bind(var6)(var3);
+                    _fun0014_ip = 77; continue _fun0014;
 case 76:
-                    var1 = var1.id;
-                    var3 = new Array(1);
-                    var3[0] = var1;
-                    var2 = undefined;
-                    var1 = '';
-                    var1 = var4.bind(var2)(var1, var3);
+                    var2 = var2.id;
+                    var4 = new Array(1);
+                    var4[0] = var2;
+                    var3 = undefined;
+                    var2 = '';
+                    var2 = var5.bind(var3)(var2, var4);
+case 77:
+                    var1 = _closure2_slot15;
+                    var2 = var1.current;
+                    var1 = var2.dismissKeyboard;
+                    var1 = var1.bind(var2)();
 case 74:
                     var1 = undefined;
                     return var1;
@@ -1213,14 +1218,14 @@ case 0:
                     var2 = _closure2_slot2;
                     var3 = var2.current;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0015_ip = 77; continue _fun0015 }
+                    if(!(var2 != var3)) { _fun0015_ip = 78; continue _fun0015 }
 case 14:
                     var2 = var3.onDismissActions;
                     var1 = _closure2_slot13;
                     var1 = var1.current;
                     var1 = var1.focused;
                     var1 = var2.bind(var3)(var1);
-case 77:
+case 78:
                     var1 = undefined;
                     return var1;
                 }
@@ -1240,12 +1245,12 @@ case 0:
                     var8 = arg1;
                     var7 = arg2;
                     var1 = null;
-                    if(!(var1 == var7)) { _fun0016_ip = 78; continue _fun0016 }
-case 79:
+                    if(!(var1 == var7)) { _fun0016_ip = 79; continue _fun0016 }
+case 80:
                     var2 = _closure2_slot13;
                     var2 = var2.current;
                     var7 = var2.selectionStart;
-case 78:
+case 79:
                     var2 = _closure2_slot15;
                     var4 = var2.current;
                     var3 = var4.replaceRange;
@@ -1258,11 +1263,11 @@ case 78:
                     var2['length'] = var6;
                     var7 = arg3;
                     var6 = var8;
-                    if(!var7) { _fun0016_ip = 80; continue _fun0016 }
+                    if(!var7) { _fun0016_ip = 81; continue _fun0016 }
 case 52:
                     var7 = ' ';
                     var6 = var8 + var7;
-case 80:
+case 81:
                     var2['text'] = var6;
                     var5 = _closure2_slot13;
                     var5 = var5.current;
@@ -1326,8 +1331,8 @@ case 0:
                     var6 = false;
                     var3['includeCustomKeyboard'] = var6;
                     var3 = var4.bind(var5)(var3);
-                    if(var3) { _fun0017_ip = 81; continue _fun0017 }
-case 82:
+                    if(var3) { _fun0017_ip = 82; continue _fun0017 }
+case 83:
                     var8 = _closure1_slot0;
                     var4 = _closure1_slot2;
                     var3 = 20;
@@ -1354,7 +1359,7 @@ case 82:
                     var2 = _closure2_slot7;
                     var2 = var2.current;
                     var2 = var3.bind(var4)(var2);
-case 81:
+case 82:
                     return var1;
                 }
             };
@@ -1411,14 +1416,14 @@ case 0:
                     var2 = _closure2_slot2;
                     var3 = var2.current;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0018_ip = 77; continue _fun0018 }
+                    if(!(var2 != var3)) { _fun0018_ip = 78; continue _fun0018 }
 case 14:
                     var2 = var3.onShowActions;
                     var1 = _closure2_slot13;
                     var1 = var1.current;
                     var1 = var1.focused;
                     var1 = var2.bind(var3)(var1);
-case 77:
+case 78:
                     var1 = undefined;
                     return var1;
                 }

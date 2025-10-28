@@ -940,9 +940,24 @@ case 93:
         var2 = var5.bind(var3)(var4, var2);
         var2 = _closure1_slot3;
         var5 = {};
-        var1 = 'getGuildScheduledEvent';
+        var1 = 'initialize';
         var5['key'] = var1;
-        var1 = function value(arg1) {
+        var1 = function value() {
+            var4 = this;
+            var3 = var4.waitFor;
+            var2 = _closure1_slot7;
+            var1 = _closure1_slot8;
+            var1 = var3.bind(var4)(var2, var1);
+            var1 = undefined;
+            return var1;
+        };
+        var5['value'] = var1;
+        var1 = new Array(13);
+        var1[0] = var5;
+        var5 = {};
+        var7 = 'getGuildScheduledEvent';
+        var5['key'] = var7;
+        var7 = function value(arg1) {
             _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
 case 0:
                 var5 = arg1;
@@ -965,9 +980,8 @@ case 6:
                 return var1;
             }
         };
-        var5['value'] = var1;
-        var1 = new Array(12);
-        var1[0] = var5;
+        var5['value'] = var7;
+        var1[1] = var5;
         var5 = {};
         var7 = 'getGuildEventCountByIndex';
         var5['key'] = var7;
@@ -979,7 +993,7 @@ case 6:
             return var1;
         };
         var5['value'] = var7;
-        var1[1] = var5;
+        var1[2] = var5;
         var5 = {};
         var7 = 'getGuildScheduledEventsForGuild';
         var5['key'] = var7;
@@ -1001,7 +1015,7 @@ case 95:
             }
         };
         var5['value'] = var7;
-        var1[2] = var5;
+        var1[3] = var5;
         var5 = {};
         var7 = 'getGuildScheduledEventsByIndex';
         var5['key'] = var7;
@@ -1013,7 +1027,7 @@ case 95:
             return var1;
         };
         var5['value'] = var7;
-        var1[3] = var5;
+        var1[4] = var5;
         var5 = {};
         var7 = 'getRsvpVersion';
         var5['key'] = var7;
@@ -1022,7 +1036,7 @@ case 95:
             return var1;
         };
         var5['value'] = var7;
-        var1[4] = var5;
+        var1[5] = var5;
         var5 = {};
         var7 = 'getRsvp';
         var5['key'] = var7;
@@ -1057,7 +1071,7 @@ case 96:
             }
         };
         var5['value'] = var7;
-        var1[5] = var5;
+        var1[6] = var5;
         var5 = {};
         var7 = 'isInterestedInEventRecurrence';
         var5['key'] = var7;
@@ -1114,7 +1128,7 @@ case 103:
             }
         };
         var5['value'] = var7;
-        var1[6] = var5;
+        var1[7] = var5;
         var5 = {};
         var7 = 'getUserCount';
         var5['key'] = var7;
@@ -1167,7 +1181,7 @@ case 98:
             }
         };
         var5['value'] = var7;
-        var1[7] = var5;
+        var1[8] = var5;
         var5 = {};
         var7 = 'hasUserCount';
         var5['key'] = var7;
@@ -1192,7 +1206,7 @@ case 109:
             }
         };
         var5['value'] = var7;
-        var1[8] = var5;
+        var1[9] = var5;
         var5 = {};
         var7 = 'isActive';
         var5['key'] = var7;
@@ -1215,7 +1229,7 @@ case 94:
             }
         };
         var5['value'] = var7;
-        var1[9] = var5;
+        var1[10] = var5;
         var5 = {};
         var7 = 'getActiveEventByChannel';
         var5['key'] = var7;
@@ -1241,7 +1255,7 @@ case 44:
             }
         };
         var5['value'] = var7;
-        var1[10] = var5;
+        var1[11] = var5;
         var5 = {};
         var7 = 'getUsersForGuildEvent';
         var5['key'] = var7;
@@ -1274,7 +1288,7 @@ case 110:
             }
         };
         var5['value'] = var6;
-        var1[11] = var5;
+        var1[12] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

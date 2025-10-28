@@ -269,14 +269,17 @@ case 13:
                 var3 = var2;
 case 12:
                 var _closure1_slot18 = var3;
-                var9 = var5.waitFor;
-                var14 = _closure1_slot11;
+                var12 = var5.waitFor;
+                var20 = _closure1_slot11;
+                var19 = _closure1_slot9;
+                var18 = _closure1_slot12;
+                var17 = _closure1_slot10;
+                var16 = _closure1_slot13;
+                var15 = _closure1_slot14;
+                var14 = _closure1_slot15;
                 var13 = _closure1_slot16;
-                var12 = _closure1_slot14;
-                var11 = _closure1_slot12;
-                var10 = _closure1_slot9;
-                var15 = var5;
-                var3 = var15[var9](var14, var13, var12, var11, var10, var9);
+                var21 = var5;
+                var3 = var21[var12](var20, var19, var18, var17, var16, var15, var14, var13, var12);
                 var4 = var5.syncWith;
                 var6 = _closure1_slot10;
                 var3 = new Array(1);

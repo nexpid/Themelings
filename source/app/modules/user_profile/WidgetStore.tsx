@@ -322,15 +322,28 @@ case 41:
         var2 = var5.bind(var3)(var4, var2);
         var2 = _closure1_slot4;
         var5 = {};
-        var1 = 'getPendingWidgets';
+        var1 = 'initialize';
         var5['key'] = var1;
         var1 = function value() {
-            var1 = _closure1_slot10;
+            var3 = this;
+            var2 = var3.waitFor;
+            var1 = _closure1_slot8;
+            var1 = var2.bind(var3)(var1);
+            var1 = undefined;
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(12);
+        var1 = new Array(13);
         var1[0] = var5;
+        var5 = {};
+        var7 = 'getPendingWidgets';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = _closure1_slot10;
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[1] = var5;
         var5 = {};
         var7 = 'getSaveablePendingWidgets';
         var5['key'] = var7;
@@ -356,7 +369,7 @@ case 42:
             }
         };
         var5['value'] = var7;
-        var1[1] = var5;
+        var1[2] = var5;
         var5 = {};
         var7 = 'hasPendingChanges';
         var5['key'] = var7;
@@ -390,7 +403,7 @@ case 44:
             }
         };
         var5['value'] = var7;
-        var1[2] = var5;
+        var1[3] = var5;
         var5 = {};
         var7 = 'getWidgetUpdates';
         var5['key'] = var7;
@@ -548,7 +561,7 @@ case 66:
             }
         };
         var5['value'] = var7;
-        var1[3] = var5;
+        var1[4] = var5;
         var5 = {};
         var7 = 'getChangedWidgets';
         var5['key'] = var7;
@@ -560,7 +573,7 @@ case 66:
             return var1;
         };
         var5['value'] = var7;
-        var1[4] = var5;
+        var1[5] = var5;
         var5 = {};
         var7 = 'getRemovedWidgets';
         var5['key'] = var7;
@@ -572,7 +585,7 @@ case 66:
             return var1;
         };
         var5['value'] = var7;
-        var1[5] = var5;
+        var1[6] = var5;
         var5 = {};
         var7 = 'hasSaveablePendingChanges';
         var5['key'] = var7;
@@ -601,7 +614,7 @@ case 70:
             }
         };
         var5['value'] = var7;
-        var1[6] = var5;
+        var1[7] = var5;
         var5 = {};
         var7 = 'isSubmitting';
         var5['key'] = var7;
@@ -610,7 +623,7 @@ case 70:
             return var1;
         };
         var5['get'] = var7;
-        var1[7] = var5;
+        var1[8] = var5;
         var5 = {};
         var7 = 'suggestedFetchError';
         var5['key'] = var7;
@@ -619,7 +632,7 @@ case 70:
             return var1;
         };
         var5['get'] = var7;
-        var1[8] = var5;
+        var1[9] = var5;
         var5 = {};
         var7 = 'suggestedFetchIsLoading';
         var5['key'] = var7;
@@ -628,7 +641,7 @@ case 70:
             return var1;
         };
         var5['get'] = var7;
-        var1[9] = var5;
+        var1[10] = var5;
         var5 = {};
         var7 = 'suggestedFetchAttempted';
         var5['key'] = var7;
@@ -637,7 +650,7 @@ case 70:
             return var1;
         };
         var5['get'] = var7;
-        var1[10] = var5;
+        var1[11] = var5;
         var5 = {};
         var7 = 'suggestedGameIds';
         var5['key'] = var7;
@@ -646,7 +659,7 @@ case 70:
             return var1;
         };
         var5['get'] = var6;
-        var1[11] = var5;
+        var1[12] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

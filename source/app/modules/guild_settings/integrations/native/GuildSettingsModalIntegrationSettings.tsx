@@ -473,7 +473,7 @@ case 0:
                 var2 = _closure1_slot16;
                 var1 = var25.context;
                 var4 = undefined;
-                var28 = var2.bind(var4)(var1);
+                var29 = var2.bind(var4)(var1);
                 var1 = var25.props;
                 var2 = var1.guildRoles;
                 var27 = var1.integration;
@@ -527,7 +527,7 @@ case 15:
                 var10 = var11.bind(var4)(var10);
                 var11 = var10.Text;
                 var10 = {'style': null, 'variant': 'text-md/medium', 'color': 'text-muted'};
-                var16 = var28.value;
+                var16 = var29.value;
                 var10['style'] = var16;
                 var14 = var14.name;
                 var10['children'] = var14;
@@ -563,7 +563,7 @@ case 17:
                 var1 = var7[var1];
                 var1 = var5.bind(var4)(var1);
                 var1 = var1.t;
-                var29 = var1.RdUTrl;
+                var28 = var1.RdUTrl;
                 var7 = _closure1_slot13;
                 var5 = _closure1_slot21;
                 var1 = {};
@@ -595,7 +595,7 @@ case 19:
                 var1 = var7[var1];
                 var1 = var5.bind(var4)(var1);
                 var1 = var1.t;
-                var29 = var1.7lNtce;
+                var28 = var1.7lNtce;
                 var21 = var3;
                 var11 = undefined;
 case 18:
@@ -635,7 +635,7 @@ case 23:
 case 25:
                 var5 = var7.bind(var8)(var5);
                 var1['source'] = var5;
-                var5 = var28.integrationIcon;
+                var5 = var29.integrationIcon;
                 var1['style'] = var5;
                 var20 = var3.bind(var4)(var2, var1);
 case 21:
@@ -722,17 +722,17 @@ case 21:
                 var22 = var22.FormRow;
                 var23 = var22.Label;
                 var22 = {};
-                var28 = var28.integrationLabel;
-                var22['style'] = var28;
+                var29 = var29.integrationLabel;
+                var22['style'] = var29;
                 var31 = var27.user;
                 var30 = var26 == var31;
-                var28 = undefined;
+                var29 = undefined;
                 if(var30) { _fun0005_ip = 26; continue _fun0005 }
 case 27:
                 var30 = var31.toString;
-                var28 = var30.bind(var31)();
+                var29 = var30.bind(var31)();
 case 26:
-                var22['text'] = var28;
+                var22['text'] = var29;
                 var22 = var24.bind(var4)(var23, var22);
                 var13['label'] = var22;
                 var13['subLabel'] = var21;
@@ -744,36 +744,44 @@ case 26:
                 var10[0] = var7;
                 var13 = _closure1_slot14;
                 var23 = _closure1_slot0;
-                var31 = _closure1_slot2;
-                var7 = var31[var12];
+                var22 = _closure1_slot2;
+                var7 = var22[var12];
                 var7 = var23.bind(var4)(var7);
                 var9 = var7.FormSection;
                 var7 = {};
                 var16 = 11;
-                var14 = var31[var16];
+                var14 = var22[var16];
                 var14 = var23.bind(var4)(var14);
                 var21 = var14.intl;
                 var20 = var21.string;
-                var14 = var31[var16];
+                var14 = var22[var16];
                 var14 = var23.bind(var4)(var14);
                 var14 = var14.t;
                 var14 = var14.i17qFc;
                 var14 = var20.bind(var21)(var14);
                 var7['title'] = var14;
                 var21 = _closure1_slot13;
-                var14 = var31[var12];
+                var14 = var22[var12];
                 var14 = var23.bind(var4)(var14);
                 var20 = var14.FormRow;
                 var14 = {};
-                var22 = var31[var16];
+                var22 = var22[var16];
                 var22 = var23.bind(var4)(var22);
-                var28 = var22.intl;
-                var24 = var28.format;
+                var24 = var22.intl;
+                var23 = var24.format;
                 var22 = {};
                 var30 = var27.subscriber_count;
-                var22['subscribers'] = var30;
-                var22 = var24.bind(var28)(var29, var22);
+                var31 = var26 != var30;
+                var29 = '';
+                if(!var31) { _fun0005_ip = 28; continue _fun0005 }
+case 29:
+                var29 = var30;
+case 28:
+                var22['subscribers'] = var29;
+                var22 = var23.bind(var24)(var28, var22);
                 var14['label'] = var22;
+                var23 = _closure1_slot0;
+                var31 = _closure1_slot2;
                 var22 = var31[var16];
                 var22 = var23.bind(var4)(var22);
                 var28 = var22.intl;
@@ -799,10 +807,10 @@ case 26:
                 var22 = {};
                 var28 = var27.syncing;
                 var26 = var26 != var28;
-                if(!var26) { _fun0005_ip = 28; continue _fun0005 }
-case 29:
+                if(!var26) { _fun0005_ip = 30; continue _fun0005 }
+case 31:
                 var26 = var28;
-case 28:
+case 30:
                 var22['isSyncing'] = var26;
                 var25 = var25.handleSync;
                 var22['onPress'] = var25;
@@ -1049,14 +1057,14 @@ case 0:
                     var1 = null;
                     var3 = var1 != var3;
                     var1 = undefined;
-                    if(!var3) { _fun0007_ip = 30; continue _fun0007 }
-case 31:
+                    if(!var3) { _fun0007_ip = 32; continue _fun0007 }
+case 33:
                     var4 = _closure1_slot11;
                     var3 = var4.getRolesSnapshot;
                     var2 = _closure2_slot0;
                     var2 = var2.id;
                     var1 = var3.bind(var4)(var2);
-case 30:
+case 32:
                     return var1;
                 }
             };
@@ -1069,8 +1077,8 @@ case 30:
             var4 = null;
             var11 = var4 == var12;
             var1 = undefined;
-            if(var11) { _fun0006_ip = 32; continue _fun0006 }
-case 33:
+            if(var11) { _fun0006_ip = 34; continue _fun0006 }
+case 35:
             var11 = var12.filter;
             var8 = function(arg1) {
                 var3 = _closure1_slot0;
@@ -1087,25 +1095,25 @@ case 33:
                 return var1;
             };
             var1 = var11.bind(var12)(var8);
-case 32:
+case 34:
             var11 = var4 == var1;
             var8 = undefined;
-            if(var11) { _fun0006_ip = 34; continue _fun0006 }
-case 35:
+            if(var11) { _fun0006_ip = 36; continue _fun0006 }
+case 37:
             var8 = var1[var3];
-case 34:
+case 36:
             var3 = var4 == var10;
             var1 = null;
             if(var3) { _fun0006_ip = 6; continue _fun0006 }
-case 36:
+case 38:
             var3 = var4 == var8;
             var1 = null;
             if(var3) { _fun0006_ip = 6; continue _fun0006 }
-case 37:
+case 39:
             var3 = var4 == var9;
             var1 = null;
             if(var3) { _fun0006_ip = 6; continue _fun0006 }
-case 38:
+case 40:
             var4 = _closure1_slot13;
             var3 = _closure1_slot17;
             var2 = {};

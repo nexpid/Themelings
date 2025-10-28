@@ -784,9 +784,24 @@ case 124:
         var2 = var5.bind(var3)(var4, var2);
         var2 = _closure1_slot3;
         var5 = {};
-        var1 = 'getConnectionStats';
+        var1 = 'initialize';
         var5['key'] = var1;
-        var1 = function value(arg1) {
+        var1 = function value() {
+            var4 = this;
+            var3 = var4.waitFor;
+            var2 = _closure1_slot7;
+            var1 = _closure1_slot8;
+            var1 = var3.bind(var4)(var2, var1);
+            var1 = undefined;
+            return var1;
+        };
+        var5['value'] = var1;
+        var1 = new Array(5);
+        var1[0] = var5;
+        var5 = {};
+        var7 = 'getConnectionStats';
+        var5['key'] = var7;
+        var7 = function value(arg1) {
             var4 = _closure1_slot19;
             var3 = undefined;
             var2 = arg1;
@@ -794,9 +809,8 @@ case 124:
             var1 = var4.bind(var3)(var2, var1);
             return var1;
         };
-        var5['value'] = var1;
-        var1 = new Array(4);
-        var1[0] = var5;
+        var5['value'] = var7;
+        var1[1] = var5;
         var5 = {};
         var7 = 'getLastConnectionStats';
         var5['key'] = var7;
@@ -809,7 +823,7 @@ case 124:
             return var1;
         };
         var5['value'] = var7;
-        var1[1] = var5;
+        var1[2] = var5;
         var5 = {};
         var7 = 'getStatsHistory';
         var5['key'] = var7;
@@ -834,7 +848,7 @@ case 113:
             }
         };
         var5['value'] = var7;
-        var1[2] = var5;
+        var1[3] = var5;
         var5 = {};
         var7 = 'getAccumulatedPerformanceStats';
         var5['key'] = var7;
@@ -876,7 +890,7 @@ case 101:
             }
         };
         var5['value'] = var6;
-        var1[3] = var5;
+        var1[4] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

@@ -1,10 +1,12 @@
 // app/modules/explicit_media_redaction/ExplicitMediaStore.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var6 = metroImportDefault;
+    var6 = require;
+    var8 = metroImportDefault;
     var3 = exports;
-    var5 = dependencyMap;
+    var7 = dependencyMap;
     var _closure1_slot0 = var6;
-    var _closure1_slot1 = var5;
+    var _closure1_slot1 = var8;
+    var _closure1_slot2 = var7;
     var1 = function _isNativeReflectConstruct() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -37,87 +39,87 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot12 = var2;
+            _closure1_slot13 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot12 = var1;
+    var _closure1_slot13 = var1;
     var1 = function reset() {
         var1 = {};
-        _closure1_slot10 = var1;
-        var1 = {};
         _closure1_slot11 = var1;
+        var1 = {};
+        _closure1_slot12 = var1;
         var1 = undefined;
         return var1;
     };
-    var _closure1_slot13 = var1;
-    var2 = global;
-    var9 = var2.Object;
-    var8 = var9.defineProperty;
-    var7 = {};
+    var _closure1_slot14 = var1;
+    var4 = global;
+    var10 = var4.Object;
+    var9 = var10.defineProperty;
+    var2 = {};
     var1 = true;
-    var7['value'] = var1;
+    var2['value'] = var1;
     var1 = '__esModule';
-    var1 = var8.bind(var9)(var3, var1, var7);
+    var1 = var9.bind(var10)(var3, var1, var2);
     var1 = 0;
-    var7 = var5[var1];
+    var2 = var7[var1];
     var1 = undefined;
-    var7 = var6.bind(var1)(var7);
-    var _closure1_slot2 = var7;
-    var7 = 1;
-    var7 = var5[var7];
-    var7 = var6.bind(var1)(var7);
-    var _closure1_slot3 = var7;
-    var7 = 2;
-    var7 = var5[var7];
-    var7 = var6.bind(var1)(var7);
-    var _closure1_slot4 = var7;
-    var7 = 3;
-    var7 = var5[var7];
-    var7 = var6.bind(var1)(var7);
-    var _closure1_slot5 = var7;
-    var7 = 4;
-    var7 = var5[var7];
-    var7 = var6.bind(var1)(var7);
-    var _closure1_slot6 = var7;
-    var7 = 5;
-    var7 = var5[var7];
-    var7 = var6.bind(var1)(var7);
-    var7 = var7.Millis;
-    var8 = var7.DAY;
-    var7 = 14;
-    var7 = var7 * var8;
-    var _closure1_slot7 = var7;
-    var8 = var2.Object;
-    var7 = var8.freeze;
-    var2 = new Array(0);
-    var2 = var7.bind(var8)(var2);
-    var _closure1_slot8 = var2;
-    var _closure1_slot9 = var1;
-    var2 = {};
-    var _closure1_slot10 = var2;
-    var2 = {};
-    var _closure1_slot11 = var2;
-    var2 = 7;
-    var2 = var5[var2];
-    var2 = var6.bind(var1)(var2);
-    var7 = var2.Store;
-    var2 = function(arg1) {
+    var2 = var8.bind(var1)(var2);
+    var _closure1_slot3 = var2;
+    var2 = 1;
+    var2 = var7[var2];
+    var2 = var8.bind(var1)(var2);
+    var _closure1_slot4 = var2;
+    var2 = 2;
+    var9 = var7[var2];
+    var9 = var8.bind(var1)(var9);
+    var _closure1_slot5 = var9;
+    var9 = 3;
+    var9 = var7[var9];
+    var9 = var8.bind(var1)(var9);
+    var _closure1_slot6 = var9;
+    var9 = 4;
+    var9 = var7[var9];
+    var9 = var8.bind(var1)(var9);
+    var _closure1_slot7 = var9;
+    var9 = 5;
+    var9 = var7[var9];
+    var9 = var8.bind(var1)(var9);
+    var9 = var9.Millis;
+    var10 = var9.DAY;
+    var9 = 14;
+    var9 = var9 * var10;
+    var _closure1_slot8 = var9;
+    var10 = var4.Object;
+    var9 = var10.freeze;
+    var4 = new Array(0);
+    var4 = var9.bind(var10)(var4);
+    var _closure1_slot9 = var4;
+    var _closure1_slot10 = var1;
+    var4 = {};
+    var _closure1_slot11 = var4;
+    var4 = {};
+    var _closure1_slot12 = var4;
+    var4 = 8;
+    var4 = var7[var4];
+    var4 = var8.bind(var1)(var4);
+    var9 = var4.Store;
+    var4 = function(arg1) {
         var4 = function ExplicitMediaStore() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                 var4 = this;
                 var3 = undefined;
                 var5 = undefined;
-                var1 = _closure1_slot2;
+                var1 = _closure1_slot3;
                 var2 = _closure2_slot0;
                 var1 = var1.bind(var3)(var4, var2);
-                var1 = _closure1_slot5;
+                var1 = _closure1_slot6;
                 var9 = var1.bind(var3)(var2);
-                var2 = _closure1_slot4;
-                var1 = _closure1_slot12;
+                var2 = _closure1_slot5;
+                var1 = _closure1_slot13;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
@@ -130,7 +132,7 @@ case 6:
                 var7 = global;
                 var8 = var7.Reflect;
                 var7 = var8.construct;
-                var6 = _closure1_slot5;
+                var6 = _closure1_slot6;
                 var6 = var6.bind(var3)(var4);
                 var6 = var6.constructor;
                 var5 = arguments;
@@ -141,16 +143,16 @@ case 8:
             }
         };
         var _closure2_slot0 = var4;
-        var5 = _closure1_slot6;
+        var5 = _closure1_slot7;
         var3 = undefined;
         var2 = arg1;
         var2 = var5.bind(var3)(var4, var2);
-        var2 = _closure1_slot3;
+        var2 = _closure1_slot4;
         var5 = {};
         var1 = 'getFpMessageInfo';
         var5['key'] = var1;
         var1 = function value(arg1) {
-            var2 = _closure1_slot10;
+            var2 = _closure1_slot11;
             var1 = arg1;
             var1 = var2[var1];
             return var1;
@@ -164,13 +166,13 @@ case 8:
         var7 = function value(arg1) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-                var3 = _closure1_slot11;
+                var3 = _closure1_slot12;
                 var1 = arg1;
                 var1 = var3[var1];
                 var3 = null;
                 if(!(var3 == var1)) { _fun0003_ip = 9; continue _fun0003 }
 case 10:
-                var1 = _closure1_slot8;
+                var1 = _closure1_slot9;
 case 9:
                 return var1;
             }
@@ -183,7 +185,7 @@ case 9:
         var7 = function value(arg1) {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-                var2 = _closure1_slot10;
+                var2 = _closure1_slot11;
                 var1 = arg1;
                 var4 = var2[var1];
                 var1 = null;
@@ -194,8 +196,8 @@ case 12:
                 var2 = !var2;
                 if(!var2) { _fun0004_ip = 13; continue _fun0004 }
 case 14:
-                var7 = _closure1_slot0;
-                var6 = _closure1_slot1;
+                var7 = _closure1_slot1;
+                var6 = _closure1_slot2;
                 var5 = 6;
                 var6 = var6[var5];
                 var5 = undefined;
@@ -203,7 +205,7 @@ case 14:
                 var5 = var6.age;
                 var4 = var4.messageId;
                 var4 = var5.bind(var6)(var4);
-                var3 = _closure1_slot7;
+                var3 = _closure1_slot8;
                 var2 = var4 < var3;
 case 13:
                 var1 = var2;
@@ -219,14 +221,37 @@ case 11:
         var6 = function get() {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
-                var3 = _closure1_slot9;
-                var1 = null;
-                var3 = var1 != var3;
-                var1 = 2;
-                if(!var3) { _fun0005_ip = 12; continue _fun0005 }
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var1 = 7;
+                var3 = var3[var1];
+                var1 = undefined;
+                var4 = var4.bind(var1)(var3);
+                var3 = var4.isSensitiveContentSelfHarmEnabled;
+                var1 = 'ExplicitMediaStore.validContentScanVersion';
+                var1 = var3.bind(var4)(var1);
+                var4 = _closure1_slot10;
+                var3 = null;
+                var3 = var3 != var4;
+                if(var1) { _fun0005_ip = 15; continue _fun0005 }
+case 16:
+                var6 = 2;
+                var5 = var6;
+                if(!var3) { _fun0005_ip = 17; continue _fun0005 }
+case 18:
+                var5 = _closure1_slot10;
+case 17:
+                var1 = global;
+                var4 = var1.Math;
+                var1 = var4.min;
+                var1 = var1.bind(var4)(var5, var6);
+                return var1;
 case 15:
-                var1 = _closure1_slot9;
-case 12:
+                var1 = 3;
+                if(!var3) { _fun0005_ip = 19; continue _fun0005 }
+case 20:
+                var1 = _closure1_slot10;
+case 19:
                 return var1;
             }
         };
@@ -235,31 +260,31 @@ case 12:
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
-    var7 = var2.bind(var1)(var7);
-    var2 = 'FalsePositiveStore';
-    var7['displayName'] = var2;
-    var2 = 8;
-    var2 = var5[var2];
-    var12 = var6.bind(var1)(var2);
-    var2 = {};
-    var8 = function handleLogout() {
-        var2 = _closure1_slot13;
+    var9 = var4.bind(var1)(var9);
+    var4 = 'FalsePositiveStore';
+    var9['displayName'] = var4;
+    var4 = 9;
+    var4 = var7[var4];
+    var13 = var8.bind(var1)(var4);
+    var4 = {};
+    var10 = function handleLogout() {
+        var2 = _closure1_slot14;
         var1 = undefined;
         var2 = var2.bind(var1)();
         return var1;
     };
-    var2['LOGOUT'] = var8;
-    var8 = function handleConnectionOpen(arg1) {
+    var4['LOGOUT'] = var10;
+    var10 = function handleConnectionOpen(arg1) {
         var1 = arg1;
         var2 = var1.explicitContentScanVersion;
-        _closure1_slot9 = var2;
-        var2 = _closure1_slot13;
+        _closure1_slot10 = var2;
+        var2 = _closure1_slot14;
         var1 = undefined;
         var2 = var2.bind(var1)();
         return var1;
     };
-    var2['CONNECTION_OPEN'] = var8;
-    var8 = function handleFalsePositiveCreate(arg1) {
+    var4['CONNECTION_OPEN'] = var10;
+    var10 = function handleFalsePositiveCreate(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var1 = arg1;
@@ -272,14 +297,14 @@ case 0:
             var2['attachments'] = var1;
             var1 = false;
             var2['reportSubmit'] = var1;
-            var4 = _closure1_slot11;
+            var4 = _closure1_slot12;
             var8 = var4[var6];
             var4 = null;
-            if(!(var4 == var8)) { _fun0006_ip = 16; continue _fun0006 }
-case 17:
-            var8 = _closure1_slot8;
-case 16:
-            var5 = _closure1_slot11;
+            if(!(var4 == var8)) { _fun0006_ip = 21; continue _fun0006 }
+case 22:
+            var8 = _closure1_slot9;
+case 21:
+            var5 = _closure1_slot12;
             var4 = new Array(1);
             var9 = 0;
             var11 = var4;
@@ -289,26 +314,26 @@ case 16:
             var7 = 1;
             var7 = var8 + var7;
             var5[var6] = var4;
-            var1 = _closure1_slot10;
+            var1 = _closure1_slot11;
             var1[var3] = var2;
             var1 = undefined;
             return var1;
         }
     };
-    var2['MESSAGE_EXPLICIT_CONTENT_FP_CREATE'] = var8;
-    var4 = function handleFalsePositiveSubmit(arg1) {
+    var4['MESSAGE_EXPLICIT_CONTENT_FP_CREATE'] = var10;
+    var5 = function handleFalsePositiveSubmit(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.messageId;
             var _closure2_slot0 = var3;
             var5 = var1.channelId;
-            var4 = _closure1_slot11;
+            var4 = _closure1_slot12;
             var7 = var4[var5];
             var4 = null;
-            if(!(var4 != var7)) { _fun0007_ip = 18; continue _fun0007 }
-case 19:
-            var4 = _closure1_slot11;
+            if(!(var4 != var7)) { _fun0007_ip = 23; continue _fun0007 }
+case 24:
+            var4 = _closure1_slot12;
             var6 = var7.map;
             var2 = function(arg1) {
                 _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
@@ -317,8 +342,8 @@ case 0:
                     var4 = var3.messageId;
                     var2 = _closure2_slot0;
                     var1 = var3;
-                    if(!(var4 === var2)) { _fun0008_ip = 20; continue _fun0008 }
-case 21:
+                    if(!(var4 === var2)) { _fun0008_ip = 25; continue _fun0008 }
+case 26:
                     var2 = {};
                     var6 = var2;
                     var5 = var3;
@@ -327,13 +352,13 @@ case 21:
                     var3 = 'reportSubmit';
                     var2[var3] = var4;
                     var1 = var2;
-case 20:
+case 25:
                     return var1;
                 }
             };
             var2 = var6.bind(var7)(var2);
             var4[var5] = var2;
-            var2 = _closure1_slot10;
+            var2 = _closure1_slot11;
             var1 = {};
             var8 = var2[var3];
             var9 = var1;
@@ -342,25 +367,25 @@ case 20:
             var4 = 'reportSubmit';
             var1[var4] = var5;
             var2[var3] = var1;
-case 18:
+case 23:
             var1 = undefined;
             return var1;
         }
     };
-    var2['MESSAGE_EXPLICIT_CONTENT_FP_SUBMIT'] = var4;
-    var4 = var7.prototype;
-    var4 = Object.create(var4, {constructor: {value: var7}});
-    var13 = var4;
-    var11 = var2;
-    var2 = new var13[var7](var12, var11, var10);
-    var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 9;
-    var5 = var5[var4];
-    var4 = require;
-    var6 = var4.bind(var1)(var5);
-    var5 = var6.fileFinishedImporting;
-    var4 = 'modules/explicit_media_redaction/ExplicitMediaStore.tsx';
-    var4 = var5.bind(var6)(var4);
-    var3['default'] = var2;
+    var4['MESSAGE_EXPLICIT_CONTENT_FP_SUBMIT'] = var5;
+    var5 = var9.prototype;
+    var5 = Object.create(var5, {constructor: {value: var9}});
+    var14 = var5;
+    var12 = var4;
+    var4 = new var14[var9](var13, var12, var11);
+    var4 = var4 instanceof Object ? var4 : var5;
+    var5 = 10;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/explicit_media_redaction/ExplicitMediaStore.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['default'] = var4;
+    var3['CONTENT_SCAN_VERSION_FALLBACK_GORE'] = var2;
     return var1;
 })();

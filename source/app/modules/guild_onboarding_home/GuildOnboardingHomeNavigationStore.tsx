@@ -137,20 +137,24 @@ case 8:
         var1 = function value(arg1) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-                var4 = arg1;
-                var2 = null;
-                var5 = var2 == var4;
+                var5 = arg1;
+                var4 = this;
+                var2 = var4.waitFor;
+                var1 = _closure1_slot5;
+                var1 = var2.bind(var4)(var1);
+                var4 = null;
+                var6 = var4 == var5;
                 var1 = undefined;
-                var3 = undefined;
-                if(var5) { _fun0003_ip = 9; continue _fun0003 }
+                var2 = undefined;
+                if(var6) { _fun0003_ip = 9; continue _fun0003 }
 case 10:
-                var3 = var4.selectedResourceChannelIdByGuildId;
+                var2 = var5.selectedResourceChannelIdByGuildId;
 case 9:
-                if(!(var2 == var3)) { _fun0003_ip = 11; continue _fun0003 }
+                if(!(var4 == var2)) { _fun0003_ip = 11; continue _fun0003 }
 case 12:
-                var3 = {};
+                var2 = {};
 case 11:
-                _closure1_slot7 = var3;
+                _closure1_slot7 = var2;
                 return var1;
             }
         };
@@ -201,11 +205,11 @@ case 0:
 case 16:
                 var2 = _closure1_slot7;
                 var2 = var2[var4];
-                if(!(var5 == var2)) { _fun0005_ip = 17; continue _fun0005 }
-case 18:
+                if(!(var5 == var2)) { _fun0005_ip = 10; continue _fun0005 }
+case 17:
                 var3 = _closure1_slot8;
                 var2 = var3[var4];
-case 17:
+case 10:
                 var1 = var2;
 case 15:
                 return var1;
@@ -231,11 +235,11 @@ case 0:
             var4 = var1.channelId;
             var2 = var1.guildId;
             var7 = null;
-            if(!(var7 != var2)) { _fun0006_ip = 19; continue _fun0006 }
-case 9:
+            if(!(var7 != var2)) { _fun0006_ip = 18; continue _fun0006 }
+case 19:
             var3 = _closure1_slot6;
             var3 = var3.GUILD_HOME;
-            if(!(var4 !== var3)) { _fun0006_ip = 19; continue _fun0006 }
+            if(!(var4 !== var3)) { _fun0006_ip = 18; continue _fun0006 }
 case 20:
             var5 = _closure1_slot5;
             var3 = var5.getChannel;
@@ -274,18 +278,18 @@ case 30:
 case 29:
             var6 = var8.bind(var9)(var7);
 case 27:
-            if(var6) { _fun0006_ip = 19; continue _fun0006 }
+            if(var6) { _fun0006_ip = 18; continue _fun0006 }
 case 31:
             if(!(var4 !== var5)) { _fun0006_ip = 32; continue _fun0006 }
 case 33:
             var5 = _closure1_slot7;
             var5 = delete var5[var2];
 case 32:
-            if(!(var4 !== var3)) { _fun0006_ip = 19; continue _fun0006 }
+            if(!(var4 !== var3)) { _fun0006_ip = 18; continue _fun0006 }
 case 34:
             var1 = _closure1_slot8;
             var1 = delete var1[var2];
-case 19:
+case 18:
             var1 = undefined;
             return var1;
         }
@@ -302,11 +306,11 @@ case 0:
 case 36:
             var1 = _closure1_slot7;
             var1[var2] = var3;
-            _fun0007_ip = 37; continue _fun0007;
+            _fun0007_ip = 9; continue _fun0007;
 case 35:
             var1 = _closure1_slot8;
             var1 = delete var1[var2];
-case 37:
+case 9:
             var1 = _closure1_slot8;
             var1 = delete var1[var2];
             var1 = undefined;

@@ -344,7 +344,7 @@ case 24:
         var5['get'] = var7;
         var1[4] = var5;
         var5 = {};
-        var7 = 'isFetchingActiveOutboundPromotions';
+        var7 = 'isFetchingActivePromotions';
         var5['key'] = var7;
         var7 = function get() {
             var1 = _closure1_slot14;
@@ -468,7 +468,7 @@ case 29:
     var2 = var6[var2];
     var15 = var7.bind(var1)(var2);
     var2 = {};
-    var9 = function handleActiveOutboundPromotionsFetchSuccess(arg1) {
+    var9 = function handleActivePromotionsFetchSuccess(arg1) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var1 = arg1;
@@ -557,15 +557,15 @@ case 35:
             return var1;
         }
     };
-    var2['ACTIVE_OUTBOUND_PROMOTIONS_FETCH_SUCCESS'] = var9;
-    var9 = function handleActiveOutboundPromotionsFetchStart() {
+    var2['ACTIVE_PROMOTIONS_FETCH_SUCCESS'] = var9;
+    var9 = function handleActivePromotionsFetchStart() {
         var1 = true;
         _closure1_slot14 = var1;
         var1 = undefined;
         return var1;
     };
-    var2['ACTIVE_OUTBOUND_PROMOTIONS_FETCH'] = var9;
-    var9 = function handleActiveOutboundPromotionsFetchFail() {
+    var2['ACTIVE_PROMOTIONS_FETCH'] = var9;
+    var9 = function handleActivePromotionsFetchFail() {
         var2 = {};
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;
@@ -600,7 +600,7 @@ case 35:
         _closure1_slot14 = var2;
         return var1;
     };
-    var2['ACTIVE_OUTBOUND_PROMOTIONS_FETCH_FAIL'] = var9;
+    var2['ACTIVE_PROMOTIONS_FETCH_FAIL'] = var9;
     var9 = function handleActiveBogoPromotionFetchSuccess(arg1) {
         var1 = arg1;
         var2 = var1.activePromotion;

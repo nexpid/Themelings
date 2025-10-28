@@ -290,9 +290,25 @@ case 20:
         var2 = var5.bind(var3)(var4, var2);
         var2 = _closure1_slot4;
         var5 = {};
-        var1 = 'recordMessageSendAttempt';
+        var1 = 'initialize';
         var5['key'] = var1;
-        var1 = function value(arg1, arg2) {
+        var1 = function value() {
+            var5 = this;
+            var4 = var5.waitFor;
+            var3 = _closure1_slot8;
+            var2 = _closure1_slot9;
+            var1 = _closure1_slot10;
+            var1 = var4.bind(var5)(var3, var2, var1);
+            var1 = undefined;
+            return var1;
+        };
+        var5['value'] = var1;
+        var1 = new Array(4);
+        var1[0] = var5;
+        var5 = {};
+        var7 = 'recordMessageSendAttempt';
+        var5['key'] = var7;
+        var7 = function value(arg1, arg2) {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                 var7 = arg2;
@@ -375,9 +391,8 @@ case 19:
                 return var1;
             }
         };
-        var5['value'] = var1;
-        var1 = new Array(3);
-        var1[0] = var5;
+        var5['value'] = var7;
+        var1[1] = var5;
         var5 = {};
         var7 = 'recordMessageSendApiResponse';
         var5['key'] = var7;
@@ -423,7 +438,7 @@ case 32:
             }
         };
         var5['value'] = var7;
-        var1[1] = var5;
+        var1[2] = var5;
         var5 = {};
         var7 = 'recordGatewayResponse';
         var5['key'] = var7;
@@ -469,7 +484,7 @@ case 32:
             }
         };
         var5['value'] = var6;
-        var1[2] = var5;
+        var1[3] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

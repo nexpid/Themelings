@@ -523,7 +523,7 @@ case 45:
             _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
                 var1 = arg1;
-                var5 = this;
+                var7 = this;
                 var2 = null;
                 if(!(var2 != var1)) { _fun0009_ip = 46; continue _fun0009 }
 case 35:
@@ -531,17 +531,20 @@ case 35:
                 var1 = var1.channels;
                 var2['channels'] = var1;
 case 46:
-                var4 = var5.syncWith;
+                var4 = var7.syncWith;
                 var2 = _closure1_slot12;
                 var3 = new Array(1);
                 var3[0] = var2;
                 var2 = _closure1_slot27;
-                var2 = var4.bind(var5)(var3, var2);
-                var4 = var5.waitFor;
-                var3 = _closure1_slot12;
-                var2 = _closure1_slot11;
-                var1 = _closure1_slot9;
-                var1 = var4.bind(var5)(var3, var2, var1);
+                var2 = var4.bind(var7)(var3, var2);
+                var6 = var7.waitFor;
+                var12 = _closure1_slot8;
+                var11 = _closure1_slot9;
+                var10 = _closure1_slot10;
+                var9 = _closure1_slot11;
+                var8 = _closure1_slot12;
+                var13 = var7;
+                var1 = var13[var6](var12, var11, var10, var9, var8, var7);
                 var1 = undefined;
                 return var1;
             }

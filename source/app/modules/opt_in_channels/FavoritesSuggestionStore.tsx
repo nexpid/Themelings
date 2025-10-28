@@ -258,6 +258,11 @@ case 28:
 case 0:
                 var1 = arg1;
                 var6 = this;
+                var7 = var6.waitFor;
+                var5 = _closure1_slot5;
+                var4 = _closure1_slot6;
+                var3 = _closure1_slot7;
+                var3 = var7.bind(var6)(var5, var4, var3);
                 var5 = var6.syncWith;
                 var3 = _closure1_slot6;
                 var4 = new Array(1);
@@ -281,19 +286,19 @@ case 34:
                     var14 = var5;
                     var13 = _closure1_slot8;
                     var16 = var4.Set;
-                    var18 = var11[var14];
+                    var19 = var11[var14];
                     var15 = var16.prototype;
                     var15 = Object.create(var15, {constructor: {value: var16}});
-                    var19 = var15;
-                    var12 = new var19[var16](var18, var17);
+                    var20 = var15;
+                    var12 = new var20[var16](var19, var18);
                     var12 = var12 instanceof Object ? var12 : var15;
                     if(!(var3 == var12)) { _fun0004_ip = 35; continue _fun0004 }
 case 36:
                     var15 = var4.Set;
                     var16 = var15.prototype;
                     var16 = Object.create(var16, {constructor: {value: var15}});
-                    var19 = var16;
-                    var15 = new var19[var15](var18);
+                    var20 = var16;
+                    var15 = new var20[var15](var19);
                     var12 = var15 instanceof Object ? var15 : var16;
 case 35:
                     var13[var14] = var12;
@@ -311,19 +316,19 @@ case 40:
                     var13 = var5;
                     var12 = _closure1_slot9;
                     var15 = var4.Set;
-                    var18 = var10[var13];
+                    var19 = var10[var13];
                     var14 = var15.prototype;
                     var14 = Object.create(var14, {constructor: {value: var15}});
-                    var19 = var14;
-                    var11 = new var19[var15](var18, var17);
+                    var20 = var14;
+                    var11 = new var20[var15](var19, var18);
                     var11 = var11 instanceof Object ? var11 : var14;
                     if(!(var3 == var11)) { _fun0004_ip = 41; continue _fun0004 }
 case 42:
                     var14 = var4.Set;
                     var15 = var14.prototype;
                     var15 = Object.create(var15, {constructor: {value: var14}});
-                    var19 = var15;
-                    var14 = new var19[var14](var18);
+                    var20 = var15;
+                    var14 = new var20[var14](var19);
                     var11 = var14 instanceof Object ? var14 : var15;
 case 41:
                     var12[var13] = var11;

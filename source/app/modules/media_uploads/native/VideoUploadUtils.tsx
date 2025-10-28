@@ -178,57 +178,83 @@ case 7:
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var5 = arg1;
-            var2 = _closure1_slot3;
-            var2 = var2.VERY_LOW;
-            if(!(var2 !== var5)) { _fun0002_ip = 9; continue _fun0002 }
+            var6 = arguments[1];
+            var1 = undefined;
+            if(!(var6 === var1)) { _fun0002_ip = 9; continue _fun0002 }
 case 10:
-            var2 = _closure1_slot3;
-            var2 = var2.LOW;
-            if(!(var2 !== var5)) { _fun0002_ip = 11; continue _fun0002 }
+            var6 = 1;
+case 9:
+            var1 = _closure1_slot3;
+            var1 = var1.VERY_LOW;
+            if(!(var1 !== var5)) { _fun0002_ip = 11; continue _fun0002 }
 case 12:
-            var2 = _closure1_slot3;
-            var2 = var2.MEDIUM;
-            if(!(var2 !== var5)) { _fun0002_ip = 5; continue _fun0002 }
-case 13:
-            var2 = _closure1_slot3;
-            var2 = var2.HIGH;
-            if(!(var2 !== var5)) { _fun0002_ip = 14; continue _fun0002 }
-case 15:
-            var2 = _closure1_slot3;
-            var2 = var2.VERY_HIGH;
-            if(!(var2 !== var5)) { _fun0002_ip = 16; continue _fun0002 }
+            var1 = _closure1_slot3;
+            var1 = var1.LOW;
+            if(!(var1 !== var5)) { _fun0002_ip = 13; continue _fun0002 }
+case 14:
+            var1 = _closure1_slot3;
+            var1 = var1.MEDIUM;
+            if(!(var1 !== var5)) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
+            var1 = _closure1_slot3;
+            var1 = var1.HIGH;
+            if(!(var1 !== var5)) { _fun0002_ip = 5; continue _fun0002 }
 case 17:
-            var2 = global;
-            var4 = var2.Error;
-            var2 = var2.HermesInternal;
-            var3 = var2.concat;
-            var2 = 'Unknown compression quality: ';
-            var6 = var3.bind(var2)(var5);
+            var1 = _closure1_slot3;
+            var1 = var1.VERY_HIGH;
+            if(!(var1 !== var5)) { _fun0002_ip = 18; continue _fun0002 }
+case 19:
+            var1 = global;
+            var4 = var1.Error;
+            var1 = var1.HermesInternal;
+            var3 = var1.concat;
+            var1 = 'Unknown compression quality: ';
+            var9 = var3.bind(var1)(var5);
             var3 = var4.prototype;
             var3 = Object.create(var3, {constructor: {value: var4}});
-            var7 = var3;
-            var2 = new var7[var4](var6, var5);
-            var2 = var2 instanceof Object ? var2 : var3;
-            throw var2;
-case 16:
-            var2 = _closure1_slot0;
-            var2 = var2.VERY_HIGH;
-            return var2;
-case 14:
-            var2 = _closure1_slot0;
-            var2 = var2.HIGH;
-            return var2;
-case 5:
-            var2 = _closure1_slot0;
-            var2 = var2.MEDIUM;
-            return var2;
-case 11:
-            var2 = _closure1_slot0;
-            var2 = var2.LOW;
-            return var2;
-case 9:
+            var10 = var3;
+            var1 = new var10[var4](var9, var8);
+            var1 = var1 instanceof Object ? var1 : var3;
+            throw var1;
+case 18:
             var1 = _closure1_slot0;
-            var1 = var1.VERY_LOW;
+            var1 = var1.VERY_HIGH;
+            _fun0002_ip = 20; continue _fun0002;
+case 5:
+            var3 = _closure1_slot0;
+            var1 = var3.HIGH;
+            _fun0002_ip = 20; continue _fun0002;
+case 15:
+            var3 = _closure1_slot0;
+            var1 = var3.MEDIUM;
+            _fun0002_ip = 20; continue _fun0002;
+case 13:
+            var3 = _closure1_slot0;
+            var1 = var3.LOW;
+            _fun0002_ip = 20; continue _fun0002;
+case 11:
+            var3 = _closure1_slot0;
+            var1 = var3.VERY_LOW;
+case 20:
+            var3 = 1;
+            if(!(var3 === var6)) { _fun0002_ip = 21; continue _fun0002 }
+case 22:
+            return var1;
+case 21:
+            var3 = global;
+            var5 = var3.Math;
+            var4 = var5.round;
+            var3 = var1.targetBitrate;
+            var3 = var3 * var6;
+            var7 = var4.bind(var5)(var3);
+            var4 = _closure1_slot0;
+            var9 = var1.value;
+            var8 = var1.targetResolution;
+            var2 = var4.prototype;
+            var2 = Object.create(var2, {constructor: {value: var4}});
+            var10 = var2;
+            var1 = new var10[var4](var9, var8, var7, var6);
+            var1 = var1 instanceof Object ? var1 : var2;
             return var1;
         }
     };
@@ -256,12 +282,12 @@ case 0:
             var5 = arg3;
             var4 = arg4;
             var3 = null;
-            if(!(var3 != var5)) { _fun0003_ip = 18; continue _fun0003 }
-case 19:
-            if(!(var3 != var4)) { _fun0003_ip = 18; continue _fun0003 }
-case 20:
-            if(!(!(var5 > var4))) { _fun0003_ip = 21; continue _fun0003 }
-case 18:
+            if(!(var3 != var5)) { _fun0003_ip = 23; continue _fun0003 }
+case 24:
+            if(!(var3 != var4)) { _fun0003_ip = 23; continue _fun0003 }
+case 25:
+            if(!(!(var5 > var4))) { _fun0003_ip = 11; continue _fun0003 }
+case 23:
             var6 = _closure1_slot5;
             var5 = var1.targetResolution;
             var4 = undefined;
@@ -277,35 +303,35 @@ case 18:
             var6 = var6.bind(var8)(var5);
             var5 = var4.width;
             var5 = var7 <= var5;
-            if(!var5) { _fun0003_ip = 22; continue _fun0003 }
-case 23:
+            if(!var5) { _fun0003_ip = 26; continue _fun0003 }
+case 27:
             var4 = var4.height;
             var5 = var6 <= var4;
-case 22:
+case 26:
             var4 = var2.bitRate;
             var1 = var1.targetBitrate;
             var4 = var4 <= var1;
             var1 = !var5;
-            if(!var5) { _fun0003_ip = 24; continue _fun0003 }
-case 25:
+            if(!var5) { _fun0003_ip = 28; continue _fun0003 }
+case 29:
             var1 = !var4;
-case 24:
-            if(var1) { _fun0003_ip = 26; continue _fun0003 }
-case 27:
+case 28:
+            if(var1) { _fun0003_ip = 30; continue _fun0003 }
+case 31:
             var4 = var2.format;
             var1 = var3 == var4;
-case 26:
-            if(var1) { _fun0003_ip = 28; continue _fun0003 }
-case 29:
+case 30:
+            if(var1) { _fun0003_ip = 32; continue _fun0003 }
+case 33:
             var5 = var2.format;
             var4 = var5.match;
             var2 = /(avc1|hvc1|video\\/(avc|hevc))/i;
             var2 = var4.bind(var5)(var2);
             var1 = var3 === var2;
-case 28:
+case 32:
             var1 = !var1;
             return var1;
-case 21:
+case 11:
             var1 = false;
             return var1;
         }
@@ -319,17 +345,17 @@ case 0:
             var2 = null;
             var1 = var2 != var1;
             var8 = 'unknown';
-            if(!var1) { _fun0004_ip = 30; continue _fun0004 }
-case 31:
+            if(!var1) { _fun0004_ip = 34; continue _fun0004 }
+case 35:
             var3 = var4.format;
             var1 = {'hvc1': 'hvc1 (HEVC)', 'avc1': 'avc1 (H.264)'};
             var1 = var1[var3];
-            if(!(var2 == var1)) { _fun0004_ip = 32; continue _fun0004 }
-case 33:
+            if(!(var2 == var1)) { _fun0004_ip = 36; continue _fun0004 }
+case 37:
             var1 = var4.format;
-case 32:
+case 36:
             var8 = var1;
-case 30:
+case 34:
             var6 = _closure1_slot4;
             var3 = var6.info;
             var1 = 'Video Source Metadata:';
@@ -369,10 +395,10 @@ case 30:
             var5 = var6.info;
             var3 = var4.isHDRContent;
             var7 = 'No';
-            if(!var3) { _fun0004_ip = 34; continue _fun0004 }
-case 35:
+            if(!var3) { _fun0004_ip = 38; continue _fun0004 }
+case 39:
             var7 = 'Yes';
-case 34:
+case 38:
             var3 = '- HDR: ';
             var3 = var3 + var7;
             var3 = var5.bind(var6)(var3);
@@ -425,11 +451,11 @@ case 0:
             var2 = var8 == var3;
             var1 = undefined;
             var10 = undefined;
-            if(var2) { _fun0005_ip = 36; continue _fun0005 }
-case 37:
+            if(var2) { _fun0005_ip = 40; continue _fun0005 }
+case 14:
             var2 = var3.toString;
             var10 = var2.bind(var3)();
-case 36:
+case 40:
             var2 = global;
             var3 = var2.HermesInternal;
             var9 = var3.concat;
@@ -441,10 +467,10 @@ case 36:
             var3 = var7.videoQuality;
             var9 = var8 == var3;
             var11 = undefined;
-            if(var9) { _fun0005_ip = 38; continue _fun0005 }
-case 22:
+            if(var9) { _fun0005_ip = 41; continue _fun0005 }
+case 26:
             var11 = var3.targetResolution;
-case 38:
+case 41:
             var3 = var2.HermesInternal;
             var10 = var3.concat;
             var9 = '- Compression Quality Target Resolution: ';
@@ -456,10 +482,10 @@ case 38:
             var3 = var7.videoQuality;
             var8 = var8 == var3;
             var9 = undefined;
-            if(var8) { _fun0005_ip = 39; continue _fun0005 }
-case 40:
+            if(var8) { _fun0005_ip = 42; continue _fun0005 }
+case 43:
             var9 = var3.targetBitrate;
-case 39:
+case 42:
             var3 = var2.HermesInternal;
             var8 = var3.concat;
             var3 = '- Compression Quality Max Bitrate: ';
@@ -473,14 +499,14 @@ case 39:
             var6 = var7.skipVideoTranscode;
             var4 = _closure1_slot4;
             var3 = var4.info;
-            if(var6) { _fun0005_ip = 41; continue _fun0005 }
-case 42:
+            if(var6) { _fun0005_ip = 44; continue _fun0005 }
+case 45:
             var6 = var7.useHEVC;
             var8 = 'avc1 (H.264)';
-            if(!var6) { _fun0005_ip = 43; continue _fun0005 }
-case 44:
+            if(!var6) { _fun0005_ip = 46; continue _fun0005 }
+case 47:
             var8 = 'hvc1 (HEVC)';
-case 43:
+case 46:
             var6 = '- Codec: ';
             var6 = var6 + var8;
             var6 = var3.bind(var4)(var6);
@@ -521,10 +547,10 @@ case 43:
             var6 = var7.createHDR;
             var10 = 'No';
             var11 = var10;
-            if(!var6) { _fun0005_ip = 45; continue _fun0005 }
-case 46:
+            if(!var6) { _fun0005_ip = 48; continue _fun0005 }
+case 49:
             var11 = 'Yes';
-case 45:
+case 48:
             var6 = '- Create HDR: ';
             var6 = var6 + var11;
             var6 = var8.bind(var9)(var6);
@@ -538,10 +564,10 @@ case 45:
             var6 = var8.bind(var9)(var6);
             var8 = var9.info;
             var6 = var7.hevcIsSupported;
-            if(!var6) { _fun0005_ip = 47; continue _fun0005 }
-case 48:
+            if(!var6) { _fun0005_ip = 50; continue _fun0005 }
+case 51:
             var10 = 'Yes';
-case 47:
+case 50:
             var6 = '- HEVC Supported: ';
             var6 = var6 + var10;
             var6 = var8.bind(var9)(var6);
@@ -553,11 +579,11 @@ case 47:
             var2 = '- Progress Update Granularity: ';
             var2 = var7.bind(var2)(var8);
             var2 = var5.bind(var6)(var2);
-            _fun0005_ip = 49; continue _fun0005;
-case 41:
+            _fun0005_ip = 52; continue _fun0005;
+case 44:
             var2 = '- Skip Video Transcode: Yes';
             var2 = var3.bind(var4)(var2);
-case 49:
+case 52:
             return var1;
         }
     };
@@ -584,28 +610,28 @@ case 0:
             var2 = arg4;
             var1 = arg2;
             var3 = !var1;
-            if(var3) { _fun0006_ip = 19; continue _fun0006 }
-case 50:
+            if(var3) { _fun0006_ip = 24; continue _fun0006 }
+case 10:
             var1 = arg3;
             var3 = !var1;
-case 19:
+case 24:
             var1 = !var3;
-            if(var3) { _fun0006_ip = 13; continue _fun0006 }
-case 51:
-            if(!var2) { _fun0006_ip = 52; continue _fun0006 }
-case 53:
+            if(var3) { _fun0006_ip = 53; continue _fun0006 }
+case 54:
+            if(!var2) { _fun0006_ip = 55; continue _fun0006 }
+case 56:
             var3 = arg1;
             var4 = var3.rotationDegrees;
             var3 = 0;
             var2 = var3 !== var4;
-case 52:
-            if(!var2) { _fun0006_ip = 54; continue _fun0006 }
 case 55:
+            if(!var2) { _fun0006_ip = 57; continue _fun0006 }
+case 58:
             var3 = arg5;
             var2 = !var3;
-case 54:
+case 57:
             var1 = !var2;
-case 13:
+case 53:
             return var1;
         }
     };

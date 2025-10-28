@@ -226,17 +226,30 @@ case 16:
         var2 = var5.bind(var3)(var4, var2);
         var2 = _closure1_slot3;
         var5 = {};
-        var1 = 'getRequest';
+        var1 = 'initialize';
         var5['key'] = var1;
-        var1 = function value(arg1) {
+        var1 = function value() {
+            var3 = this;
+            var2 = var3.waitFor;
+            var1 = _closure1_slot7;
+            var1 = var2.bind(var3)(var1);
+            var1 = undefined;
+            return var1;
+        };
+        var5['value'] = var1;
+        var1 = new Array(7);
+        var1[0] = var5;
+        var5 = {};
+        var7 = 'getRequest';
+        var5['key'] = var7;
+        var7 = function value(arg1) {
             var2 = _closure1_slot9;
             var1 = arg1;
             var1 = var2[var1];
             return var1;
         };
-        var5['value'] = var1;
-        var1 = new Array(6);
-        var1[0] = var5;
+        var5['value'] = var7;
+        var1[1] = var5;
         var5 = {};
         var7 = 'computeGuildIds';
         var5['key'] = var7;
@@ -273,7 +286,7 @@ case 17:
             return var1;
         };
         var5['value'] = var7;
-        var1[1] = var5;
+        var1[2] = var5;
         var5 = {};
         var7 = 'getJoinRequestGuild';
         var5['key'] = var7;
@@ -302,7 +315,7 @@ case 19:
             }
         };
         var5['value'] = var7;
-        var1[2] = var5;
+        var1[3] = var5;
         var5 = {};
         var7 = 'hasFetchedRequestToJoinGuilds';
         var5['key'] = var7;
@@ -311,7 +324,7 @@ case 19:
             return var1;
         };
         var5['get'] = var7;
-        var1[3] = var5;
+        var1[4] = var5;
         var5 = {};
         var7 = 'hasJoinRequestCoackmark';
         var5['key'] = var7;
@@ -322,7 +335,7 @@ case 19:
             return var1;
         };
         var5['value'] = var7;
-        var1[4] = var5;
+        var1[5] = var5;
         var5 = {};
         var7 = 'getCooldown';
         var5['key'] = var7;
@@ -333,7 +346,7 @@ case 19:
             return var1;
         };
         var5['value'] = var6;
-        var1[5] = var5;
+        var1[6] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

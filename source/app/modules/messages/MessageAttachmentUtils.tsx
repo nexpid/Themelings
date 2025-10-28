@@ -420,28 +420,47 @@ case 46:
             var6 = var7.bind(var8)(var6);
             if(var6) { _fun0004_ip = 47; continue _fun0004 }
 case 48:
-            if(var1) { _fun0004_ip = 49; continue _fun0004 }
+            var7 = var8.includes;
+            var9 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var6 = var6[var5];
+            var6 = var9.bind(var4)(var6);
+            var6 = var6.ObscureReason;
+            var6 = var6.SELF_HARM_CONTENT;
+            var6 = var7.bind(var8)(var6);
+            if(var6) { _fun0004_ip = 49; continue _fun0004 }
 case 50:
+            if(var1) { _fun0004_ip = 51; continue _fun0004 }
+case 52:
             var1 = null;
-            if(!var3) { _fun0004_ip = 11; continue _fun0004 }
-case 51:
+            if(!var3) { _fun0004_ip = 53; continue _fun0004 }
+case 54:
             var6 = _closure1_slot0;
             var3 = _closure1_slot2;
             var3 = var3[var5];
             var3 = var6.bind(var4)(var3);
             var3 = var3.ObscureReason;
             var1 = var3.SPOILER;
-case 11:
-            _fun0004_ip = 52; continue _fun0004;
-case 49:
+case 53:
+            _fun0004_ip = 55; continue _fun0004;
+case 51:
             var6 = _closure1_slot0;
             var3 = _closure1_slot2;
             var3 = var3[var5];
             var3 = var6.bind(var4)(var3);
             var3 = var3.ObscureReason;
             var1 = var3.POTENTIAL_EXPLICIT_CONTENT;
-case 52:
-            _fun0004_ip = 53; continue _fun0004;
+case 55:
+            _fun0004_ip = 56; continue _fun0004;
+case 49:
+            var6 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var3 = var3[var5];
+            var3 = var6.bind(var4)(var3);
+            var3 = var3.ObscureReason;
+            var1 = var3.SELF_HARM_CONTENT;
+case 56:
+            _fun0004_ip = 57; continue _fun0004;
 case 47:
             var6 = _closure1_slot0;
             var3 = _closure1_slot2;
@@ -449,8 +468,8 @@ case 47:
             var3 = var6.bind(var4)(var3);
             var3 = var3.ObscureReason;
             var1 = var3.GORE_CONTENT;
-case 53:
-            _fun0004_ip = 54; continue _fun0004;
+case 57:
+            _fun0004_ip = 58; continue _fun0004;
 case 45:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -458,7 +477,7 @@ case 45:
             var2 = var3.bind(var4)(var2);
             var2 = var2.ObscureReason;
             var1 = var2.EXPLICIT_CONTENT;
-case 54:
+case 58:
             return var1;
         }
     };
@@ -485,15 +504,15 @@ case 0:
                 var3 = _closure2_slot0;
                 var1 = null;
                 var1 = var1 != var3;
-                if(!var1) { _fun0005_ip = 55; continue _fun0005 }
-case 56:
+                if(!var1) { _fun0005_ip = 59; continue _fun0005 }
+case 60:
                 var5 = _closure1_slot3;
                 var4 = var5.can;
                 var3 = _closure1_slot5;
                 var3 = var3.MANAGE_MESSAGES;
                 var2 = _closure2_slot0;
                 var1 = var4.bind(var5)(var3, var2);
-case 55:
+case 59:
                 return var1;
             }
         };
@@ -537,26 +556,34 @@ case 0:
             var2 = var4.bind(var5)(var2);
             var2 = var2.ObscureReason;
             var2 = var2.EXPLICIT_CONTENT;
-            if(!(var2 !== var3)) { _fun0006_ip = 34; continue _fun0006 }
-case 57:
+            if(!(var2 !== var3)) { _fun0006_ip = 61; continue _fun0006 }
+case 62:
             var4 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var6];
             var2 = var4.bind(var5)(var2);
             var2 = var2.ObscureReason;
             var2 = var2.GORE_CONTENT;
-            if(!(var2 !== var3)) { _fun0006_ip = 34; continue _fun0006 }
-case 58:
+            if(!(var2 !== var3)) { _fun0006_ip = 61; continue _fun0006 }
+case 63:
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var2 = var2[var6];
+            var2 = var4.bind(var5)(var2);
+            var2 = var2.ObscureReason;
+            var2 = var2.SELF_HARM_CONTENT;
+            if(!(var2 !== var3)) { _fun0006_ip = 61; continue _fun0006 }
+case 64:
             var4 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var6];
             var2 = var4.bind(var5)(var2);
             var2 = var2.ObscureReason;
             var2 = var2.SPOILER;
-            if(!(var2 !== var3)) { _fun0006_ip = 59; continue _fun0006 }
-case 60:
+            if(!(var2 !== var3)) { _fun0006_ip = 65; continue _fun0006 }
+case 66:
             return var5;
-case 59:
+case 65:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var2 = 10;
@@ -570,7 +597,7 @@ case 59:
             var2 = var2.XpfDH+;
             var2 = var3.bind(var4)(var2);
             return var2;
-case 34:
+case 61:
             var4 = _closure1_slot0;
             var6 = _closure1_slot2;
             var1 = 10;

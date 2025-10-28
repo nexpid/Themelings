@@ -292,14 +292,13 @@ case 40:
     var1 = function _canUseFrequentlyUsed() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
-        var1 = 14;
+        var1 = 15;
         var2 = var2[var1];
         var1 = undefined;
         var3 = var3.bind(var1)(var2);
-        var2 = var3.recentlyHeardExperiment;
-        var1 = {'location': 'soundboard_event_store', 'autoTrackExposure': false};
+        var2 = var3.isInRecentlyUsedByUserVariant;
+        var1 = 'soundboard_event_store';
         var1 = var2.bind(var3)(var1);
-        var1 = var1.canSeeFrequentlyPlayed;
         return var1;
     };
     var _closure1_slot19 = var1;
@@ -398,7 +397,7 @@ case 40:
     var2 = new var14[var9](var13, var12);
     var2 = var2 instanceof Object ? var2 : var8;
     var _closure1_slot14 = var2;
-    var2 = 15;
+    var2 = 16;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
     var8 = var2.PersistedStore;
@@ -452,10 +451,11 @@ case 47:
 case 0:
                 var3 = arg1;
                 var5 = this;
-                var6 = var5.waitFor;
-                var4 = _closure1_slot9;
-                var1 = _closure1_slot10;
-                var1 = var6.bind(var5)(var4, var1);
+                var7 = var5.waitFor;
+                var6 = _closure1_slot10;
+                var4 = _closure1_slot8;
+                var1 = _closure1_slot9;
+                var1 = var7.bind(var5)(var6, var4, var1);
                 var6 = null;
                 var7 = var6 == var3;
                 var1 = undefined;
@@ -559,7 +559,7 @@ case 54:
     var2 = 'SoundboardEventStore';
     var8['displayName'] = var2;
     var8['persistKey'] = var2;
-    var2 = 16;
+    var2 = 17;
     var2 = var6[var2];
     var13 = var7.bind(var1)(var2);
     var2 = {};
@@ -585,7 +585,7 @@ case 57:
             var3 = var3.LocalSoundTrigger;
             var3 = var3.SOUNDBOARD;
             if(!(var4 === var3)) { _fun0008_ip = 56; continue _fun0008 }
-case 53:
+case 58:
             var4 = _closure1_slot14;
             var3 = var4.track;
             var3 = var3.bind(var4)(var6);
@@ -623,8 +623,8 @@ case 0:
             var3 = {'location': 'soundboard_event_store', 'autoTrackExposure': false};
             var3 = var6.bind(var7)(var3);
             var3 = var3.canSeeRecentlyHeard;
-            if(!var3) { _fun0009_ip = 58; continue _fun0009 }
-case 50:
+            if(!var3) { _fun0009_ip = 59; continue _fun0009 }
+case 60:
             var3 = var4.toString;
             var4 = var3.bind(var4)();
             var6 = _closure1_slot9;
@@ -633,13 +633,13 @@ case 50:
             var3 = null;
             var7 = var3 == var6;
             var3 = undefined;
-            if(var7) { _fun0009_ip = 59; continue _fun0009 }
-case 60:
-            var3 = var6.id;
-case 59:
-            var3 = var5 !== var3;
-            if(!var3) { _fun0009_ip = 61; continue _fun0009 }
+            if(var7) { _fun0009_ip = 61; continue _fun0009 }
 case 62:
+            var3 = var6.id;
+case 61:
+            var3 = var5 !== var3;
+            if(!var3) { _fun0009_ip = 63; continue _fun0009 }
+case 64:
             var5 = function _soundInJoinedGuilds(arg1) {
                 _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
@@ -656,8 +656,8 @@ case 0:
                     var2 = var4.bind(var5)();
                     var1 = var2.done;
                     var3 = null;
-                    if(var1) { _fun0010_ip = 63; continue _fun0010 }
-case 64:
+                    if(var1) { _fun0010_ip = 65; continue _fun0010 }
+case 66:
                     var8 = var2.value;
                     var7 = var8.find;
                     var1 = function(arg1) {
@@ -670,30 +670,30 @@ case 64:
                         return var1;
                     };
                     var1 = var7.bind(var8)(var1);
-                    if(!(var3 == var1)) { _fun0010_ip = 65; continue _fun0010 }
-case 66:
+                    if(!(var3 == var1)) { _fun0010_ip = 67; continue _fun0010 }
+case 53:
                     var7 = var4.bind(var5)();
                     var1 = var7.done;
                     var2 = var7;
-                    if(var1) { _fun0010_ip = 63; continue _fun0010 }
-case 54:
-                    _fun0010_ip = 64; continue _fun0010;
-case 65:
+                    if(var1) { _fun0010_ip = 65; continue _fun0010 }
+case 68:
+                    _fun0010_ip = 66; continue _fun0010;
+case 67:
                     var1 = true;
                     return var1;
-case 63:
+case 65:
                     var1 = false;
                     return var1;
                 }
             };
             var3 = var5.bind(var1)(var4);
-case 61:
-            if(!var3) { _fun0009_ip = 58; continue _fun0009 }
-case 67:
+case 63:
+            if(!var3) { _fun0009_ip = 59; continue _fun0009 }
+case 69:
             var3 = _closure1_slot13;
             var2 = var3.set;
             var2 = var2.bind(var3)(var4, var4);
-case 58:
+case 59:
             return var1;
         }
     };
@@ -708,18 +708,18 @@ case 0:
             var2 = _closure1_slot19;
             var1 = undefined;
             var2 = var2.bind(var1)();
-            if(!var2) { _fun0011_ip = 68; continue _fun0011 }
-case 69:
+            if(!var2) { _fun0011_ip = 70; continue _fun0011 }
+case 71:
             var5 = _closure1_slot11;
             var5 = var5.FRECENCY_AND_FAVORITES_SETTINGS;
             var2 = var6 === var5;
-case 68:
-            if(!var2) { _fun0011_ip = 32; continue _fun0011 }
 case 70:
+            if(!var2) { _fun0011_ip = 32; continue _fun0011 }
+case 48:
             var2 = var4;
 case 32:
             if(!var2) { _fun0011_ip = 34; continue _fun0011 }
-case 71:
+case 72:
             var2 = new Array(0);
             _closure1_slot12 = var2;
 case 34:
@@ -733,7 +733,7 @@ case 34:
     var12 = var2;
     var2 = new var14[var8](var13, var12, var11);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 17;
+    var4 = 18;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

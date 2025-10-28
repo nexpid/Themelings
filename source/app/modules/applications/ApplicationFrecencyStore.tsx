@@ -274,9 +274,10 @@ case 0:
 case 14:
                 _closure1_slot11 = var2;
 case 13:
-                var3 = var4.waitFor;
-                var2 = _closure1_slot7;
-                var2 = var3.bind(var4)(var2);
+                var5 = var4.waitFor;
+                var3 = _closure1_slot7;
+                var2 = _closure1_slot8;
+                var2 = var5.bind(var4)(var3, var2);
                 var3 = var4.syncWith;
                 var5 = _closure1_slot8;
                 var2 = new Array(1);

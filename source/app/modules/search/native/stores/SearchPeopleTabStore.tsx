@@ -539,9 +539,24 @@ case 32:
         var2 = var5.bind(var3)(var4, var2);
         var2 = _closure1_slot7;
         var5 = {};
-        var1 = 'getResults';
+        var1 = 'initialize';
         var5['key'] = var1;
-        var1 = function value(arg1) {
+        var1 = function value() {
+            var4 = this;
+            var3 = var4.waitFor;
+            var2 = _closure1_slot8;
+            var1 = _closure1_slot9;
+            var1 = var3.bind(var4)(var2, var1);
+            var1 = undefined;
+            return var1;
+        };
+        var5['value'] = var1;
+        var1 = new Array(3);
+        var1[0] = var5;
+        var5 = {};
+        var7 = 'getResults';
+        var5['key'] = var7;
+        var7 = function value(arg1) {
             _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
                 var4 = _closure1_slot12;
@@ -563,9 +578,8 @@ case 10:
                 return var1;
             }
         };
-        var5['value'] = var1;
-        var1 = new Array(2);
-        var1[0] = var5;
+        var5['value'] = var7;
+        var1[1] = var5;
         var5 = {};
         var7 = 'getCount';
         var5['key'] = var7;
@@ -594,7 +608,7 @@ case 35:
             }
         };
         var5['value'] = var6;
-        var1[1] = var5;
+        var1[2] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

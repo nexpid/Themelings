@@ -437,17 +437,30 @@ case 23:
         var2 = var5.bind(var3)(var4, var2);
         var2 = _closure1_slot4;
         var5 = {};
-        var1 = 'getRequest';
+        var1 = 'initialize';
         var5['key'] = var1;
-        var1 = function value(arg1) {
+        var1 = function value() {
+            var3 = this;
+            var2 = var3.waitFor;
+            var1 = _closure1_slot8;
+            var1 = var2.bind(var3)(var1);
+            var1 = undefined;
+            return var1;
+        };
+        var5['value'] = var1;
+        var1 = new Array(9);
+        var1[0] = var5;
+        var5 = {};
+        var7 = 'getRequest';
+        var5['key'] = var7;
+        var7 = function value(arg1) {
             var2 = _closure1_slot21;
             var1 = arg1;
             var1 = var2[var1];
             return var1;
         };
-        var5['value'] = var1;
-        var1 = new Array(8);
-        var1[0] = var5;
+        var5['value'] = var7;
+        var1[1] = var5;
         var5 = {};
         var7 = 'getRequests';
         var5['key'] = var7;
@@ -495,7 +508,7 @@ case 29:
             }
         };
         var5['value'] = var7;
-        var1[1] = var5;
+        var1[2] = var5;
         var5 = {};
         var7 = 'getSubmittedGuildJoinRequestTotal';
         var5['key'] = var7;
@@ -506,7 +519,7 @@ case 29:
             return var1;
         };
         var5['value'] = var7;
-        var1[2] = var5;
+        var1[3] = var5;
         var5 = {};
         var7 = 'isFetching';
         var5['key'] = var7;
@@ -515,7 +528,7 @@ case 29:
             return var1;
         };
         var5['value'] = var7;
-        var1[3] = var5;
+        var1[4] = var5;
         var5 = {};
         var7 = 'hasFetched';
         var5['key'] = var7;
@@ -555,7 +568,7 @@ case 32:
             }
         };
         var5['value'] = var7;
-        var1[4] = var5;
+        var1[5] = var5;
         var5 = {};
         var7 = 'getSelectedApplicationTab';
         var5['key'] = var7;
@@ -582,7 +595,7 @@ case 34:
             }
         };
         var5['value'] = var7;
-        var1[5] = var5;
+        var1[6] = var5;
         var5 = {};
         var7 = 'getSelectedSortOrder';
         var5['key'] = var7;
@@ -608,7 +621,7 @@ case 35:
             }
         };
         var5['value'] = var7;
-        var1[6] = var5;
+        var1[7] = var5;
         var5 = {};
         var7 = 'getSelectedGuildJoinRequest';
         var5['key'] = var7;
@@ -631,7 +644,7 @@ case 37:
             }
         };
         var5['value'] = var6;
-        var1[7] = var5;
+        var1[8] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

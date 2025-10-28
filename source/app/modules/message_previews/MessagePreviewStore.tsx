@@ -432,9 +432,24 @@ case 42:
         var2 = var5.bind(var3)(var4, var2);
         var2 = _closure1_slot5;
         var5 = {};
-        var1 = 'isLatest';
+        var1 = 'initialize';
         var5['key'] = var1;
-        var1 = function value(arg1, arg2) {
+        var1 = function value() {
+            var4 = this;
+            var3 = var4.waitFor;
+            var2 = _closure1_slot9;
+            var1 = _closure1_slot10;
+            var1 = var3.bind(var4)(var2, var1);
+            var1 = undefined;
+            return var1;
+        };
+        var5['value'] = var1;
+        var1 = new Array(18);
+        var1[0] = var5;
+        var5 = {};
+        var7 = 'isLatest';
+        var5['key'] = var7;
+        var7 = function value(arg1, arg2) {
             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                 var6 = arg1;
@@ -466,9 +481,8 @@ case 38:
                 return var1;
             }
         };
-        var5['value'] = var1;
-        var1 = new Array(17);
-        var1[0] = var5;
+        var5['value'] = var7;
+        var1[1] = var5;
         var5 = {};
         var7 = 'isLocalFetchNeeded';
         var5['key'] = var7;
@@ -496,7 +510,7 @@ case 5:
             }
         };
         var5['value'] = var7;
-        var1[1] = var5;
+        var1[2] = var5;
         var5 = {};
         var7 = 'message';
         var5['key'] = var7;
@@ -527,7 +541,7 @@ case 7:
             }
         };
         var5['value'] = var7;
-        var1[2] = var5;
+        var1[3] = var5;
         var5 = {};
         var7 = 'data';
         var5['key'] = var7;
@@ -564,7 +578,7 @@ case 49:
             }
         };
         var5['value'] = var7;
-        var1[3] = var5;
+        var1[4] = var5;
         var5 = {};
         var7 = 'handleOneGuildCreate';
         var5['key'] = var7;
@@ -604,7 +618,7 @@ case 54:
             }
         };
         var5['value'] = var7;
-        var1[4] = var5;
+        var1[5] = var5;
         var5 = {};
         var7 = 'handleConnectionOpen';
         var5['key'] = var7;
@@ -637,7 +651,7 @@ case 56:
             }
         };
         var5['value'] = var7;
-        var1[5] = var5;
+        var1[6] = var5;
         var5 = {};
         var7 = 'handleGuildCreate';
         var5['key'] = var7;
@@ -651,7 +665,7 @@ case 56:
             return var1;
         };
         var5['value'] = var7;
-        var1[6] = var5;
+        var1[7] = var5;
         var5 = {};
         var7 = 'handleGuildDelete';
         var5['key'] = var7;
@@ -667,7 +681,7 @@ case 56:
             return var1;
         };
         var5['value'] = var7;
-        var1[7] = var5;
+        var1[8] = var5;
         var5 = {};
         var7 = 'handleMessageCreate';
         var5['key'] = var7;
@@ -705,7 +719,7 @@ case 58:
             }
         };
         var5['value'] = var7;
-        var1[8] = var5;
+        var1[9] = var5;
         var5 = {};
         var7 = 'handleMessageDelete';
         var5['key'] = var7;
@@ -767,7 +781,7 @@ case 16:
             }
         };
         var5['value'] = var7;
-        var1[9] = var5;
+        var1[10] = var5;
         var5 = {};
         var7 = 'handleMessageUpdate';
         var5['key'] = var7;
@@ -820,7 +834,7 @@ case 62:
             }
         };
         var5['value'] = var7;
-        var1[10] = var5;
+        var1[11] = var5;
         var5 = {};
         var7 = 'handleThreadListSync';
         var5['key'] = var7;
@@ -846,7 +860,7 @@ case 51:
             }
         };
         var5['value'] = var7;
-        var1[11] = var5;
+        var1[12] = var5;
         var5 = {};
         var7 = 'handleLoadMessagesSuccess';
         var5['key'] = var7;
@@ -922,7 +936,7 @@ case 21:
             }
         };
         var5['value'] = var7;
-        var1[12] = var5;
+        var1[13] = var5;
         var5 = {};
         var7 = 'handleLocalMessagesLoaded';
         var5['key'] = var7;
@@ -969,7 +983,7 @@ case 77:
             }
         };
         var5['value'] = var7;
-        var1[13] = var5;
+        var1[14] = var5;
         var5 = {};
         var7 = 'handleMessagePreviewsLoaded';
         var5['key'] = var7;
@@ -1023,7 +1037,7 @@ case 19:
             }
         };
         var5['value'] = var7;
-        var1[14] = var5;
+        var1[15] = var5;
         var5 = {};
         var7 = 'handleMessagePreviewsLocallyLoaded';
         var5['key'] = var7;
@@ -1083,7 +1097,7 @@ case 84:
             }
         };
         var5['value'] = var7;
-        var1[15] = var5;
+        var1[16] = var5;
         var5 = {};
         var7 = 'handleLogout';
         var5['key'] = var7;
@@ -1096,7 +1110,7 @@ case 84:
             return var1;
         };
         var5['value'] = var6;
-        var1[16] = var5;
+        var1[17] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

@@ -320,26 +320,27 @@ case 24:
         var1 = function value() {
             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
-                var4 = this;
-                var5 = _closure1_slot0;
+                var5 = this;
+                var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
                 var1 = 13;
                 var3 = var3[var1];
                 var1 = undefined;
-                var3 = var5.bind(var1)(var3);
+                var3 = var4.bind(var1)(var3);
                 var6 = var3.Storage;
-                var5 = var6.get;
+                var4 = var6.get;
                 var3 = _closure1_slot12;
-                var3 = var5.bind(var6)(var3);
-                var5 = null;
-                if(!(var5 == var3)) { _fun0006_ip = 25; continue _fun0006 }
+                var3 = var4.bind(var6)(var3);
+                var4 = null;
+                if(!(var4 == var3)) { _fun0006_ip = 25; continue _fun0006 }
 case 26:
                 var3 = {'firstUse': 0, 'revision': 0};
 case 25:
                 _closure1_slot13 = var3;
-                var3 = var4.waitFor;
-                var2 = _closure1_slot8;
-                var2 = var3.bind(var4)(var2);
+                var4 = var5.waitFor;
+                var3 = _closure1_slot8;
+                var2 = _closure1_slot9;
+                var2 = var4.bind(var5)(var3, var2);
                 return var1;
             }
         };

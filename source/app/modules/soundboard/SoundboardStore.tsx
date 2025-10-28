@@ -578,10 +578,11 @@ case 60:
         var1 = 'initialize';
         var5['key'] = var1;
         var1 = function value() {
-            var4 = this;
-            var3 = var4.waitFor;
+            var5 = this;
+            var4 = var5.waitFor;
             var1 = _closure1_slot9;
-            var3 = var3.bind(var4)(var1);
+            var3 = _closure1_slot10;
+            var3 = var4.bind(var5)(var1, var3);
             var3 = _closure1_slot29;
             var2 = var1.settings;
             var1 = undefined;
@@ -589,7 +590,7 @@ case 60:
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(21);
+        var1 = new Array(22);
         var1[0] = var5;
         var5 = {};
         var7 = 'getOverlaySerializedState';
@@ -821,6 +822,15 @@ case 62:
         var5['value'] = var7;
         var1[14] = var5;
         var5 = {};
+        var7 = 'getAllTopSoundsForGuilds';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = _closure1_slot16;
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[15] = var5;
+        var5 = {};
         var7 = 'isLocalSoundboardMuted';
         var5['key'] = var7;
         var7 = function value(arg1) {
@@ -831,7 +841,7 @@ case 62:
             return var1;
         };
         var5['value'] = var7;
-        var1[15] = var5;
+        var1[16] = var5;
         var5 = {};
         var7 = 'hasHadOtherUserPlaySoundInSession';
         var5['key'] = var7;
@@ -840,7 +850,7 @@ case 62:
             return var1;
         };
         var5['value'] = var7;
-        var1[16] = var5;
+        var1[17] = var5;
         var5 = {};
         var7 = 'shouldFetchTopSoundsForGuilds';
         var5['key'] = var7;
@@ -867,7 +877,7 @@ case 65:
             }
         };
         var5['value'] = var7;
-        var1[17] = var5;
+        var1[18] = var5;
         var5 = {};
         var7 = 'hasFetchedTopSoundsForGuilds';
         var5['key'] = var7;
@@ -879,7 +889,7 @@ case 65:
             return var1;
         };
         var5['value'] = var7;
-        var1[18] = var5;
+        var1[19] = var5;
         var5 = {};
         var7 = 'hasFetchedAllSounds';
         var5['key'] = var7;
@@ -919,7 +929,7 @@ case 67:
             }
         };
         var5['value'] = var7;
-        var1[19] = var5;
+        var1[20] = var5;
         var5 = {};
         var7 = 'isFetchingAnySounds';
         var5['key'] = var7;
@@ -943,7 +953,7 @@ case 67:
             return var1;
         };
         var5['value'] = var6;
-        var1[20] = var5;
+        var1[21] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

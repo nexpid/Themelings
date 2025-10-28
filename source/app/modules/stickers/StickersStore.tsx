@@ -847,17 +847,13 @@ case 83:
         var1 = 'initialize';
         var5['key'] = var1;
         var1 = function initialize() {
-            var6 = this;
-            var5 = var6.waitFor;
-            var4 = _closure1_slot1;
-            var3 = _closure1_slot2;
-            var1 = 11;
-            var3 = var3[var1];
-            var1 = undefined;
-            var4 = var4.bind(var1)(var3);
+            var5 = this;
+            var4 = var5.waitFor;
             var3 = _closure1_slot11;
             var2 = _closure1_slot12;
-            var2 = var5.bind(var6)(var4, var3, var2);
+            var1 = _closure1_slot10;
+            var1 = var4.bind(var5)(var3, var2, var1);
+            var1 = undefined;
             return var1;
         };
         var5['value'] = var1;
