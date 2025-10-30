@@ -117,7 +117,7 @@ case 7:
             var3 = var2.SpendEarnOrbsLightThemeLottie;
 case 9:
             var2 = _closure1_slot5;
-            var1 = {'ref': null, 'size': 'custom', 'width': 60, 'height': 60};
+            var1 = {'ref': null, 'size': 'custom', 'width': 60, 'height': 60, 'opacity': 0.8, 'animation': null, 'useLottieDefaultColors': true};
             var1['ref'] = var7;
             var7 = var5 != var6;
             var5 = 'spend';

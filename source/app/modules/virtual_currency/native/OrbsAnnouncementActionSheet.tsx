@@ -226,27 +226,32 @@ case 5:
                     if(!(var4 != var3)) { _fun0001_ip = 4; continue _fun0001 }
 case 6:
                     var5 = _closure2_slot0;
-                    var11 = _closure1_slot7;
-                    var3 = var11.TAKE_ACTION;
+                    var12 = _closure1_slot7;
+                    var3 = var12.TAKE_ACTION;
                     var6 = undefined;
                     var3 = var5.bind(var6)(var3);
                     var5 = _closure1_slot0;
                     var8 = _closure1_slot2;
                     var3 = 10;
                     var3 = var8[var3];
-                    var10 = var5.bind(var6)(var3);
-                    var9 = var10.UNSAFE_markDismissibleContentAsDismissed;
+                    var11 = var5.bind(var6)(var3);
+                    var10 = var11.UNSAFE_markDismissibleContentAsDismissed;
                     var3 = 11;
                     var3 = var8[var3];
                     var3 = var5.bind(var6)(var3);
                     var3 = var3.DismissibleContent;
-                    var5 = var3.VIRTUAL_CURRENCY_MOBILE_ONBOARDING_PILL;
+                    var9 = var3.VIRTUAL_CURRENCY_MOBILE_ONBOARDING_PILL;
                     var3 = {};
-                    var11 = var11.INDIRECT_ACTION;
-                    var3['dismissAction'] = var11;
-                    var3 = var9.bind(var10)(var5, var3);
-                    var5 = _closure1_slot1;
+                    var12 = var12.INDIRECT_ACTION;
+                    var3['dismissAction'] = var12;
+                    var3 = var10.bind(var11)(var9, var3);
                     var3 = 12;
+                    var3 = var8[var3];
+                    var5 = var5.bind(var6)(var3);
+                    var3 = var5.showVirtualCurrencyOnboardingCoachmark;
+                    var3 = var3.bind(var5)();
+                    var5 = _closure1_slot1;
+                    var3 = 13;
                     var3 = var8[var3];
                     var5 = var5.bind(var6)(var3);
                     var3 = var5.hideActionSheet;
@@ -263,14 +268,14 @@ case 7:
 case 10:
                     var11 = _closure1_slot0;
                     var12 = _closure1_slot2;
-                    var9 = 13;
+                    var9 = 14;
                     var3 = var12[var9];
                     var8 = var11.bind(var6)(var3);
                     var5 = var8.enrollInQuest;
                     var3 = _closure2_slot3;
                     var4 = var3.id;
                     var3 = {};
-                    var10 = 14;
+                    var10 = 15;
                     var13 = var12[var10];
                     var13 = var11.bind(var6)(var13);
                     var13 = var13.QuestContent;
@@ -281,14 +286,14 @@ case 10:
                     var10 = var10.QuestContent;
                     var10 = var10.MOBILE_ORBS_ONBOARDING_DC;
                     var3['sourceQuestContent'] = var10;
-                    var10 = 15;
+                    var10 = 16;
                     var10 = var12[var10];
                     var10 = var11.bind(var6)(var10);
                     var10 = var10.QuestContentCTA;
                     var10 = var10.MOBILE_ORBS_ONBOARDING_DC;
                     var3['questContentCTA'] = var10;
                     var3 = var5.bind(var8)(var4, var3);
-                    SaveGenerator(address=318);
+                    SaveGenerator(address=340);
 case 11:
                     return var3;
 case 12:
@@ -306,19 +311,19 @@ case 14:
 case 15:
                     var5 = _closure1_slot1;
                     var8 = _closure1_slot2;
-                    var4 = 16;
+                    var4 = 17;
                     var4 = var8[var4];
                     var10 = var5.bind(var6)(var4);
                     var9 = var10.open;
                     var4 = {};
                     var11 = 'SOMETHING_WENT_WRONG';
                     var4['key'] = var11;
-                    var11 = 17;
+                    var11 = 18;
                     var11 = var8[var11];
                     var11 = var5.bind(var6)(var11);
                     var4['icon'] = var11;
                     var14 = _closure1_slot0;
-                    var11 = 18;
+                    var11 = 19;
                     var12 = var8[var11];
                     var12 = var14.bind(var6)(var12);
                     var13 = var12.intl;
@@ -330,7 +335,7 @@ case 15:
                     var11 = var12.bind(var13)(var11);
                     var4['content'] = var11;
                     var4 = var9.bind(var10)(var4);
-                    var4 = 19;
+                    var4 = 20;
                     var4 = var8[var4];
                     var9 = var5.bind(var6)(var4);
                     var8 = var9.captureException;
@@ -351,7 +356,7 @@ case 15:
 case 9:
                     var5 = _closure1_slot1;
                     var9 = _closure1_slot2;
-                    var4 = 20;
+                    var4 = 21;
                     var4 = var9[var4];
                     var5 = var5.bind(var6)(var4);
                     var4 = {};
@@ -359,7 +364,7 @@ case 9:
                     var8 = var8.id;
                     var4['questId'] = var8;
                     var8 = _closure1_slot0;
-                    var7 = 14;
+                    var7 = 15;
                     var7 = var9[var7];
                     var7 = var8.bind(var6)(var7);
                     var7 = var7.QuestContent;
@@ -422,7 +427,7 @@ case 18:
         var2 = function() {
             var5 = _closure1_slot1;
             var4 = _closure1_slot2;
-            var1 = 12;
+            var1 = 13;
             var3 = var4[var1];
             var1 = undefined;
             var5 = var5.bind(var1)(var3);
@@ -433,7 +438,7 @@ case 18:
             var3 = var3.USER_DISMISS;
             var3 = var5.bind(var1)(var3);
             var3 = _closure1_slot0;
-            var2 = 21;
+            var2 = 12;
             var2 = var4[var2];
             var3 = var3.bind(var1)(var2);
             var2 = var3.showVirtualCurrencyOnboardingCoachmark;
@@ -447,7 +452,7 @@ case 18:
         var1 = function() {
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 21;
+            var1 = 12;
             var3 = var3[var1];
             var1 = undefined;
             var4 = var4.bind(var1)(var3);
@@ -572,7 +577,7 @@ case 19:
         var15 = {'variant': 'display-md', 'style': null, 'color': 'white'};
         var18 = var14.title;
         var15['style'] = var18;
-        var18 = 18;
+        var18 = 19;
         var24 = var22[var18];
         var24 = var21.bind(var4)(var24);
         var26 = var24.intl;

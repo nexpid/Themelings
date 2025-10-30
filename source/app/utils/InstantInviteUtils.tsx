@@ -689,7 +689,7 @@ case 0:
             var2 = {'numFriends': 0, 'numDms': 0, 'numGroupDms': 0, 'numGuildMembers': 0, 'numChannels': 0};
             var17 = 0;
             var12 = '';
-            if(!(var12 !== var11)) { _fun0008_ip = 50; continue _fun0008 }
+            if(!(var12 !== var11)) { _fun0008_ip = 12; continue _fun0008 }
 case 65:
             var15 = {};
             var15['query'] = var11;
@@ -972,7 +972,7 @@ case 77:
             };
             var1 = var1.bind(var12)(var11);
             _fun0008_ip = 79; continue _fun0008;
-case 50:
+case 12:
             var1 = {};
             var1['omitUserIds'] = var10;
             var1['maxRowsWithoutQuery'] = var9;

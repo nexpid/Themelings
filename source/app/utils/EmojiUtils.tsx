@@ -870,7 +870,7 @@ case 118:
         return var1;
     };
     var4['isDataTooBig'] = var5;
-    var5 = 13;
+    var5 = 14;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -986,13 +986,13 @@ case 119:
 case 0:
             var1 = arg1;
             var7 = arguments[1];
-            var4 = undefined;
-            if(!(var7 === var4)) { _fun0013_ip = 39; continue _fun0013 }
+            var3 = undefined;
+            if(!(var7 === var3)) { _fun0013_ip = 39; continue _fun0013 }
 case 126:
             var7 = 32;
 case 39:
             var8 = var1.id;
-            var3 = var1.name;
+            var4 = var1.name;
             var6 = var1.animated;
             var5 = null;
             if(!(var5 == var8)) { _fun0013_ip = 127; continue _fun0013 }
@@ -1001,28 +1001,38 @@ case 128:
             var9 = _closure1_slot2;
             var1 = 10;
             var1 = var9[var1];
-            var2 = var2.bind(var4)(var1);
+            var2 = var2.bind(var3)(var1);
             var1 = var2.getURL;
-            var1 = var1.bind(var2)(var3);
-            _fun0013_ip = 129; continue _fun0013;
+            var1 = var1.bind(var2)(var4);
+            return var1;
 case 127:
-            var3 = _closure1_slot1;
+            var4 = _closure1_slot0;
             var9 = _closure1_slot2;
             var2 = 12;
             var2 = var9[var2];
-            var4 = var3.bind(var4)(var2);
-            var3 = var4.getEmojiURL;
+            var10 = var4.bind(var3)(var2);
+            var4 = var10.getForceSdrEmojisStickersConfig;
             var2 = {};
-            var2['id'] = var8;
-            var2['size'] = var7;
+            var11 = 'emoji_url';
+            var2['location'] = var11;
+            var2 = var4.bind(var10)(var2);
+            var4 = var2.enabled;
+            var2 = _closure1_slot1;
+            var1 = 13;
+            var1 = var9[var1];
+            var3 = var2.bind(var3)(var1);
+            var2 = var3.getEmojiURL;
+            var1 = {};
+            var1['id'] = var8;
+            var1['size'] = var7;
             var5 = var5 != var6;
-            if(!var5) { _fun0013_ip = 130; continue _fun0013 }
-case 51:
+            if(!var5) { _fun0013_ip = 129; continue _fun0013 }
+case 14:
             var5 = var6;
-case 130:
-            var2['animated'] = var5;
-            var1 = var3.bind(var4)(var2);
 case 129:
+            var1['animated'] = var5;
+            var1['forceSDR'] = var4;
+            var1 = var2.bind(var3)(var1);
             return var1;
         }
     };
@@ -1034,7 +1044,7 @@ case 0:
             var1 = 'allNamesString';
             var1 = var1 in var2;
             if(var1) { _fun0014_ip = 2; continue _fun0014 }
-case 131:
+case 130:
             var4 = var2.name;
             var1 = global;
             var1 = var1.HermesInternal;

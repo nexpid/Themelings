@@ -1360,34 +1360,6 @@ case 61:
         return var1;
     };
     var2['LOAD_MESSAGES_SUCCESS'] = var8;
-    var8 = function handleFetchAppRecommendationsSuccess(arg1) {
-        var1 = arg1;
-        var3 = var1.recommendations;
-        var2 = var3.forEach;
-        var1 = function(arg1) {
-            var1 = arg1;
-            var3 = var1.items;
-            var2 = var3.forEach;
-            var1 = function(arg1) {
-                var3 = _closure1_slot17;
-                var4 = _closure1_slot6;
-                var2 = var4.createFromServer;
-                var1 = arg1;
-                var1 = var1.application;
-                var2 = var2.bind(var4)(var1);
-                var1 = undefined;
-                var2 = var3.bind(var1)(var2);
-                return var1;
-            };
-            var1 = var2.bind(var3)(var1);
-            var1 = undefined;
-            return var1;
-        };
-        var1 = var2.bind(var3)(var1);
-        var1 = undefined;
-        return var1;
-    };
-    var2['APP_RECOMMENDATIONS_FETCH_RECOMMENDATIONS_SUCCESS'] = var8;
     var8 = function handleProfileFetchSuccess(arg1) {
         _fun0028: for(var _fun0028_ip = 0; ; ) switch(_fun0028_ip) {
 case 0:

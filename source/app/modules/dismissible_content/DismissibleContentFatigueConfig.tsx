@@ -18,7 +18,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var5.bind(var1)(var2);
     var2 = var2.DismissibleContent;
     var8 = var2.APPLICATION_COMMAND_TOOLTIP;
-    var2 = new Array(128);
+    var2 = new Array(129);
     var2[0] = var8;
     var8 = var6[var4];
     var8 = var5.bind(var1)(var8);
@@ -650,11 +650,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var8.DismissibleContent;
     var8 = var8.PREMIUM_SETTINGS_SUBSCRIPTION_INFO_NOTICE;
     var2[126] = var8;
+    var8 = var6[var4];
+    var8 = var5.bind(var1)(var8);
+    var8 = var8.DismissibleContent;
+    var8 = var8.NITRO_TAB_BADGE_OFFER_REMINDER;
+    var2[127] = var8;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.DismissibleContent;
-    var4 = var4.NITRO_TAB_BADGE_OFFER_REMINDER;
-    var2[127] = var4;
+    var4 = var4.PREMIUM_TAB_MARKETING_MOMENT_OFFER_BADGE;
+    var2[128] = var4;
     var4 = var7.prototype;
     var4 = Object.create(var4, {constructor: {value: var7}});
     var12 = var4;

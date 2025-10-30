@@ -193,6 +193,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5['VAAPI'] = var2;
     var2 = 'gamescope_capture';
     var5['GAMESCOPE_CAPTURE'] = var2;
+    var2 = 'async_video_input_device_init';
+    var5['ASYNC_VIDEO_INPUT_DEVICE_INIT'] = var2;
     var4 = {};
     var4['LOW'] = var38;
     var2 = 'LOW';

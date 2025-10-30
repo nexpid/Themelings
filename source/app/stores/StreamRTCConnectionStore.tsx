@@ -1334,7 +1334,7 @@ case 90:
             return var1;
         };
         var4['RTC_DEBUG_SET_SIMULCAST_OVERRIDE'] = var10;
-        var9 = function handleVideoSizeUpdate(arg1) {
+        var10 = function handleVideoSizeUpdate(arg1) {
             var1 = arg1;
             var3 = var1.streamId;
             var _closure2_slot0 = var3;
@@ -1370,7 +1370,41 @@ case 91:
             var2 = var4.bind(var5)(var3, var2);
             return var1;
         };
-        var4['VIDEO_SIZE_UPDATE'] = var9;
+        var4['VIDEO_SIZE_UPDATE'] = var10;
+        var9 = function handleVideoZoomUpdate(arg1) {
+            var1 = arg1;
+            var3 = var1.streamId;
+            var _closure2_slot0 = var3;
+            var1 = var1.zoom;
+            var _closure2_slot1 = var1;
+            var5 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var1 = 14;
+            var4 = var4[var1];
+            var1 = undefined;
+            var5 = var5.bind(var1)(var4);
+            var4 = var5.forEach;
+            var3 = _closure1_slot23;
+            var2 = function(arg1) {
+                _fun0027: for(var _fun0027_ip = 0; ; ) switch(_fun0027_ip) {
+case 0:
+                    var4 = arg1;
+                    var1 = null;
+                    if(!(var1 != var4)) { _fun0027_ip = 61; continue _fun0027 }
+case 37:
+                    var3 = var4.setVideoZoom;
+                    var2 = _closure2_slot0;
+                    var1 = _closure2_slot1;
+                    var1 = var3.bind(var4)(var2, var1);
+case 61:
+                    var1 = undefined;
+                    return var1;
+                }
+            };
+            var2 = var4.bind(var5)(var3, var2);
+            return var1;
+        };
+        var4['VIDEO_ZOOM_UPDATE'] = var9;
         var2 = var4;
 case 53:
         var4 = var8.prototype;

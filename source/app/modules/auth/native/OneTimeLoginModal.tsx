@@ -102,7 +102,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['raisedIcon'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot11 = var4;
-    var4 = 22;
+    var4 = 23;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -287,55 +287,47 @@ case 5: // try_start_0
                     var3 = null;
                     if(!(var3 != var4)) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
-                    var3 = global;
-                    var5 = var3.Promise;
-                    var3 = var5.prototype;
-                    var4 = Object.create(var3, {constructor: {value: var5}});
-                    var7 = function(arg1) {
-                        var1 = global;
-                        var4 = var1.setTimeout;
-                        var3 = undefined;
-                        var2 = arg1;
-                        var1 = 2000;
-                        var1 = var4.bind(var3)(var2, var1);
-                        return var1;
-                    };
-                    var8 = var4;
-                    var3 = new var8[var5](var7, var6);
-                    var3 = var3 instanceof Object ? var3 : var4;
-                    SaveGenerator(address=64);
-case 8:
+                    var5 = _closure1_slot1;
+                    var6 = _closure1_slot2;
+                    var3 = 17;
+                    var3 = var6[var3];
+                    var6 = undefined;
+                    var7 = var5.bind(var6)(var3);
+                    var5 = var7.oneTimeLogin;
+                    var3 = _closure2_slot0;
+                    var3 = var5.bind(var7)(var3);
+                    SaveGenerator(address=67);
+case 2:
                     return var3;
-case 9:
-                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(var4) { _fun0002_ip = 10; continue _fun0002 }
-case 11:
-                    var6 = _closure1_slot1;
-                    var5 = _closure1_slot2;
+case 8:
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
+                    if(var5) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
+                    var5 = _closure1_slot1;
+                    var7 = _closure1_slot2;
                     var4 = 10;
-                    var5 = var5[var4];
-                    var4 = undefined;
-                    var6 = var6.bind(var4)(var5);
+                    var4 = var7[var4];
+                    var6 = var5.bind(var6)(var4);
                     var5 = var6.popWithKey;
                     var4 = 'ONE_TIME_LOGIN_MODAL';
                     var4 = var5.bind(var6)(var4);
-case 12: // try_end0
-                    _fun0002_ip = 13; continue _fun0002;
-case 10:
+case 11: // try_end0
+                    _fun0002_ip = 12; continue _fun0002;
+case 9:
                     return var3;
 case 6: // try_start_1
                     var3 = _closure2_slot5;
                     var2 = undefined;
                     var2 = var3.bind(var2)();
-case 14: // try_end1
+case 13: // try_end1
                     var2 = undefined;
                     return var2;
-case 15: // catch_target0 // catch_target1
+case 14: // catch_target0 // catch_target1
                     CatchBlockStart(arg_register=1);
                     var3 = _closure2_slot5;
                     var2 = undefined;
                     var2 = var3.bind(var2)();
-case 13:
+case 12:
                     var2 = undefined;
                     return var2;
 case 4:
@@ -365,7 +357,7 @@ case 4:
         var1 = {};
         var1['style'] = var5;
         var12 = _closure1_slot9;
-        var5 = 17;
+        var5 = 18;
         var5 = var19[var5];
         var6 = var6.bind(var4)(var5);
         var5 = {'absolute': true, 'wide': true, 'tall': true, 'gradientOverride': null, 'mix': true, 'angleOverride': 0};
@@ -375,7 +367,7 @@ case 4:
         var5['gradientOverride'] = var7;
         var7 = {};
         var18 = _closure1_slot0;
-        var8 = 18;
+        var8 = 19;
         var8 = var19[var8];
         var8 = var18.bind(var4)(var8);
         var8 = var8.OverlayOpacity;
@@ -393,7 +385,7 @@ case 4:
         var7['style'] = var8;
         var10 = _closure1_slot7;
         var8 = {};
-        var11 = 19;
+        var11 = 20;
         var11 = var19[var11];
         var11 = var18.bind(var4)(var11);
         var8['source'] = var11;
@@ -410,7 +402,7 @@ case 4:
         var9 = var12.bind(var4)(var11, var9);
         var11 = new Array(2);
         var11[0] = var9;
-        var9 = 20;
+        var9 = 21;
         var15 = var19[var9];
         var15 = var18.bind(var4)(var15);
         var17 = var15.Text;
@@ -459,7 +451,7 @@ case 4:
         var10 = var12.bind(var4)(var10, var9);
         var9 = new Array(2);
         var9[0] = var10;
-        var10 = 21;
+        var10 = 22;
         var10 = var19[var10];
         var10 = var18.bind(var4)(var10);
         var11 = var10.LinkButton;

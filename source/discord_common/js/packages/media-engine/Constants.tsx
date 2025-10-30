@@ -218,6 +218,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14['VAAPI'] = var1;
     var1 = 'GAMESCOPE_CAPTURE';
     var14['GAMESCOPE_CAPTURE'] = var1;
+    var1 = 'ASYNC_VIDEO_INPUT_DEVICE_INIT';
+    var14['ASYNC_VIDEO_INPUT_DEVICE_INIT'] = var1;
     var13 = {};
     var1 = 'NATIVE';
     var13['NATIVE'] = var1;

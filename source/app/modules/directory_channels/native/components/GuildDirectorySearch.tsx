@@ -585,13 +585,13 @@ case 20:
                     var2['directory_guild_id'] = var8;
                     var2 = var6.bind(var7)(var5, var2);
                     var2 = null;
-                    if(!(var2 == var3)) { _fun0006_ip = 2; continue _fun0006 }
-case 21:
+                    if(!(var2 == var3)) { _fun0006_ip = 21; continue _fun0006 }
+case 22:
                     var2 = _closure2_slot1;
                     var1 = true;
                     var1 = var2.bind(var4)(var1);
                     _fun0006_ip = 19; continue _fun0006;
-case 2:
+case 21:
                     var2 = var3.then;
                     var1 = function() {
                         var3 = _closure2_slot1;

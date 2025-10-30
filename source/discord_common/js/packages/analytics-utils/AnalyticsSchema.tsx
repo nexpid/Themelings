@@ -361,6 +361,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['PREMIUM_GUILD_SUBSCRIPTION_MARKETING_PAGE'] = var2;
     var2 = 'impression_premium_marketing_banner';
     var4['PREMIUM_MARKETING_BANNER'] = var2;
+    var2 = 'impression_premium_marketing_component';
+    var4['PREMIUM_MARKETING_COMPONENT'] = var2;
     var2 = 'impression_premium_marketing_surface';
     var4['PREMIUM_MARKETING_SURFACE'] = var2;
     var2 = 'impression_premium_marketing_tenure_reward_card';

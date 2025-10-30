@@ -590,29 +590,31 @@ case 51:
         var6 = function value(arg1) {
             _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
-                var1 = this;
-                var3 = _closure1_slot0;
-                var4 = _closure1_slot2;
-                var2 = 6;
-                var2 = var4[var2];
-                var4 = undefined;
-                var6 = var3.bind(var4)(var2);
-                var5 = var6.getProfilePreviewField;
-                var3 = var1._guildMemberProfile;
-                var2 = null;
-                var7 = var2 == var3;
-                if(var7) { _fun0013_ip = 38; continue _fun0013 }
+                var4 = this;
+                var2 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var1 = 6;
+                var1 = var3[var1];
+                var5 = undefined;
+                var3 = var2.bind(var5)(var1);
+                var2 = var3.getProfilePreviewValue;
+                var1 = {};
+                var6 = arg1;
+                var1['pendingValue'] = var6;
+                var6 = var4._userProfile;
+                var6 = var6.bio;
+                var1['userValue'] = var6;
+                var6 = var4._guildMemberProfile;
+                var7 = null;
+                var7 = var7 == var6;
+                if(var7) { _fun0013_ip = 57; continue _fun0013 }
+case 56:
+                var5 = var6.bio;
 case 57:
-                var4 = var3.bio;
-case 38:
-                var3 = var1._userProfile;
-                var9 = var3.bio;
-                var1 = var1.guildId;
-                var8 = var2 != var1;
-                var11 = arg1;
-                var12 = var6;
-                var10 = var4;
-                var1 = var12[var5](var11, var10, var9, var8, var7);
+                var1['guildValue'] = var5;
+                var4 = var4.guildId;
+                var1['guildId'] = var4;
+                var1 = var2.bind(var3)(var1);
                 return var1;
             }
         };

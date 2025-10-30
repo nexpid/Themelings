@@ -733,129 +733,71 @@ case 59:
         }
     };
     var3['setNewPendingProfileEffect'] = var4;
-    var4 = function getProfilePreviewField(arg1, arg2, arg3) {
+    var4 = function getProfilePreviewValue(arg1) {
         _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
 case 0:
-            var3 = arg1;
-            var2 = arg2;
-            var5 = arg3;
-            var6 = arguments[3];
-            var1 = undefined;
-            if(!(var6 === var1)) { _fun0015_ip = 62; continue _fun0015 }
+            var2 = arg1;
+            var3 = var2.userValue;
+            var5 = var2.guildValue;
+            var1 = var2.pendingValue;
+            var4 = var2.guildId;
+            var7 = '';
+            if(!(var7 !== var1)) { _fun0015_ip = 62; continue _fun0015 }
 case 63:
-            var6 = false;
-case 62:
-            var4 = null;
-            if(!(var4 == var3)) { _fun0015_ip = 64; continue _fun0015 }
-case 65:
-            if(!(var4 != var2)) { _fun0015_ip = 66; continue _fun0015 }
-case 30:
-            var7 = 'string';
-            var1 = typeof var2;
-            if(!(var7 === var1)) { _fun0015_ip = 67; continue _fun0015 }
-case 68:
-            var1 = '';
-            if(!(var1 !== var2)) { _fun0015_ip = 66; continue _fun0015 }
-case 67:
-            var1 = {};
-            var1['value'] = var2;
-            var2 = true;
-            var1['isUsingGuildValue'] = var2;
-            _fun0015_ip = 69; continue _fun0015;
-case 66:
-            var2 = {};
-            var2['value'] = var5;
-            var7 = false;
-            var2['isUsingGuildValue'] = var7;
-            var1 = var2;
-case 69:
-            _fun0015_ip = 70; continue _fun0015;
+            var6 = null;
+            if(!(var6 !== var1)) { _fun0015_ip = 62; continue _fun0015 }
 case 64:
-            var7 = 'string';
-            var2 = typeof var3;
-            if(!(var7 === var2)) { _fun0015_ip = 71; continue _fun0015 }
-case 72:
-            var2 = '';
-            if(!(var2 !== var3)) { _fun0015_ip = 73; continue _fun0015 }
-case 71:
-            var2 = {};
-            var2['value'] = var3;
-            var2['isUsingGuildValue'] = var6;
-            _fun0015_ip = 74; continue _fun0015;
-case 73:
-            var3 = {};
-            var4 = null;
-            if(!var6) { _fun0015_ip = 75; continue _fun0015 }
-case 76:
-            var4 = var5;
-case 75:
-            var3['value'] = var4;
-            var4 = false;
-            var3['isUsingGuildValue'] = var4;
+            if(!(var7 !== var1)) { _fun0015_ip = 65; continue _fun0015 }
+case 3:
+            if(!(var6 == var1)) { _fun0015_ip = 66; continue _fun0015 }
+case 65:
             var2 = var3;
-case 74:
+            if(!(var6 != var4)) { _fun0015_ip = 67; continue _fun0015 }
+case 68:
+            var2 = var3;
+            if(!(var7 !== var5)) { _fun0015_ip = 67; continue _fun0015 }
+case 28:
+            var2 = var3;
+            if(!(var6 != var5)) { _fun0015_ip = 67; continue _fun0015 }
+case 69:
+            var2 = var5;
+case 67:
+            var1 = var2;
+case 66:
+            _fun0015_ip = 70; continue _fun0015;
+case 62:
+            var2 = null;
+            var4 = var2 != var4;
+            if(!var4) { _fun0015_ip = 71; continue _fun0015 }
+case 8:
+            var2 = var3;
+case 71:
             var1 = var2;
 case 70:
             return var1;
         }
     };
-    var3['getProfilePreviewField'] = var4;
-    var4 = function getPreviewProfileEffect(arg1) {
+    var3['getProfilePreviewValue'] = var4;
+    var4 = function showRemoveAvatar(arg1, arg2) {
         _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
 case 0:
-            var1 = arg1;
-            var3 = var1.pendingProfileEffect;
-            var5 = var1.displayProfile;
-            var6 = null;
-            var2 = var6 == var5;
+            var2 = arg1;
             var1 = undefined;
-            if(var2) { _fun0016_ip = 18; continue _fun0016 }
-case 65:
-            var2 = var5._userProfile;
-            var7 = var6 == var2;
-            var1 = undefined;
-            if(var7) { _fun0016_ip = 18; continue _fun0016 }
-case 68:
-            var1 = var2.profileEffect;
-case 18:
-            var7 = var6 == var5;
-            var2 = undefined;
-            if(var7) { _fun0016_ip = 77; continue _fun0016 }
-case 78:
-            var7 = var5._guildMemberProfile;
-            var8 = var6 == var7;
-            var2 = undefined;
-            if(var8) { _fun0016_ip = 77; continue _fun0016 }
-case 79:
-            var2 = var7.profileEffect;
-case 77:
-            var7 = var6 === var3;
-            if(!var7) { _fun0016_ip = 80; continue _fun0016 }
-case 81:
-            if(!(var6 == var2)) { _fun0016_ip = 76; continue _fun0016 }
-case 80:
-            var2 = null;
-            if(var7) { _fun0016_ip = 82; continue _fun0016 }
+            if(!(var1 !== var2)) { _fun0016_ip = 29; continue _fun0016 }
+case 53:
+            var1 = null;
+            var1 = var1 != var2;
+            _fun0016_ip = 72; continue _fun0016;
+case 29:
+            var3 = null;
+            var2 = arg2;
+            var1 = var3 != var2;
 case 72:
-            if(!(var6 == var3)) { _fun0016_ip = 83; continue _fun0016 }
-case 84:
-            var6 = var6 == var5;
-            var4 = undefined;
-            if(var6) { _fun0016_ip = 42; continue _fun0016 }
-case 85:
-            var4 = var5.profileEffect;
-case 42:
-            var3 = var4;
-case 83:
-            var2 = var3;
-case 82:
-            var1 = var2;
-case 76:
             return var1;
         }
     };
-    var3['getPreviewProfileEffect'] = var4;
-    var4 = function showRemoveAvatar(arg1, arg2) {
+    var3['showRemoveAvatar'] = var4;
+    var2 = function showRemoveBanner(arg1, arg2) {
         _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
 case 0:
             var2 = arg1;
@@ -864,31 +806,12 @@ case 0:
 case 53:
             var1 = null;
             var1 = var1 != var2;
-            _fun0017_ip = 65; continue _fun0017;
+            _fun0017_ip = 72; continue _fun0017;
 case 29:
             var3 = null;
             var2 = arg2;
             var1 = var3 != var2;
-case 65:
-            return var1;
-        }
-    };
-    var3['showRemoveAvatar'] = var4;
-    var2 = function showRemoveBanner(arg1, arg2) {
-        _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
-case 0:
-            var2 = arg1;
-            var1 = undefined;
-            if(!(var1 !== var2)) { _fun0018_ip = 29; continue _fun0018 }
-case 53:
-            var1 = null;
-            var1 = var1 != var2;
-            _fun0018_ip = 65; continue _fun0018;
-case 29:
-            var3 = null;
-            var2 = arg2;
-            var1 = var3 != var2;
-case 65:
+case 72:
             return var1;
         }
     };

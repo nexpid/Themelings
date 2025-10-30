@@ -483,6 +483,7 @@ case 36:
             var10 = var10.MarketingComponentType;
             var10 = var10.MOBILE_BOTTOM_SHEET;
             var10 = var16.bind(var18)(var10);
+            var _closure2_slot1 = var10;
             var19 = 34;
             var16 = var21[var19];
             var25 = var23.bind(var4)(var16);
@@ -861,7 +862,7 @@ case 49:
             var1 = var10.properties;
             var1 = var1.properties;
             var1 = var1.mobileBottomSheet;
-            var _closure2_slot1 = var1;
+            var _closure2_slot2 = var1;
             var3 = _closure1_slot10;
             var12 = _closure1_slot0;
             var13 = _closure1_slot2;
@@ -911,8 +912,11 @@ case 75:
                     var6 = _closure1_slot18;
                     var1['importer'] = var6;
                     var1['markAsDismissed'] = var5;
+                    var6 = _closure2_slot2;
+                    var1['bottomSheetData'] = var6;
                     var5 = _closure2_slot1;
-                    var1['bottomSheetData'] = var5;
+                    var5 = var5.id;
+                    var1['componentId'] = var5;
                     var1 = var3.bind(var4)(var2, var1);
                     return var1;
                 }

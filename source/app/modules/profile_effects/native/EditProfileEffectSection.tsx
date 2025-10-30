@@ -65,13 +65,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var4 = arg1;
-            var9 = var4.isSelected;
+            var10 = var4.isSelected;
+            var9 = var4.isTryItOut;
             var13 = var4.profileEffect;
+            var3 = {'isSelected': 0, 'isTryItOut': 0, 'profileEffect': 0};
             var6 = null;
-            var3 = Object.create(var6);
-            var2 = 0;
-            var3['isSelected'] = var2;
-            var3['profileEffect'] = var2;
+            var19 = var3;
+            var18 = null;
+            var2 = silentSetPrototypeOf(var19, var18);
             var19 = {};
             var18 = var4;
             var17 = var3;
@@ -95,16 +96,16 @@ case 3:
             var7 = var2.config;
 case 2:
             _closure2_slot0 = var7;
-            var10 = _closure1_slot3;
-            var3 = var10.useMemo;
+            var11 = _closure1_slot3;
+            var3 = var11.useMemo;
             var2 = var6 == var7;
-            var11 = undefined;
+            var12 = undefined;
             if(var2) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var11 = var7.thumbnailPreviewSrc;
+            var12 = var7.thumbnailPreviewSrc;
 case 4:
             var2 = new Array(1);
-            var2[0] = var11;
+            var2[0] = var12;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -142,16 +143,17 @@ case 10:
                     return var1;
                 }
             };
-            var12 = var3.bind(var10)(var1, var2);
+            var12 = var3.bind(var11)(var1, var2);
             var3 = _closure1_slot7;
             var2 = _closure1_slot0;
-            var10 = _closure1_slot2;
+            var11 = _closure1_slot2;
             var1 = 13;
-            var1 = var10[var1];
+            var1 = var11[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.EditCollectiblesListItemProduct;
             var1 = {};
-            var1['isSelected'] = var9;
+            var1['isSelected'] = var10;
+            var1['isTryItOut'] = var9;
             var9 = var6 == var7;
             var6 = undefined;
             if(var9) { _fun0001_ip = 13; continue _fun0001 }
@@ -221,32 +223,34 @@ case 13:
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var1 = arg1;
-            var15 = var1.selectedProfileEffect;
-            var _closure2_slot0 = var15;
-            var12 = var1.setSelectedProfileEffect;
-            var _closure2_slot1 = var12;
+            var16 = var1.selectedProfileEffect;
+            var _closure2_slot0 = var16;
+            var13 = var1.setSelectedProfileEffect;
+            var _closure2_slot1 = var13;
             var7 = var1.section;
             var _closure2_slot2 = var7;
-            var17 = var1.guildId;
-            var _closure2_slot3 = var17;
-            var1 = _closure1_slot9;
+            var18 = var1.guildId;
+            var _closure2_slot3 = var18;
+            var1 = var1.isTryItOut;
+            var _closure2_slot4 = var1;
+            var2 = _closure1_slot9;
             var4 = undefined;
-            var6 = var1.bind(var4)();
-            var _closure2_slot4 = var6;
-            var3 = _closure1_slot1;
+            var6 = var2.bind(var4)();
+            var _closure2_slot5 = var6;
+            var8 = _closure1_slot1;
             var2 = _closure1_slot2;
             var14 = 6;
-            var1 = var2[var14];
-            var1 = var3.bind(var4)(var1);
-            var3 = var1.bind(var4)();
-            var1 = var3.size;
-            var _closure2_slot5 = var1;
+            var3 = var2[var14];
+            var3 = var8.bind(var4)(var3);
+            var3 = var3.bind(var4)();
+            var12 = var3.size;
+            var _closure2_slot6 = var12;
             var10 = var3.onLayout;
-            var16 = _closure1_slot0;
+            var17 = _closure1_slot0;
             var3 = 7;
             var8 = var2[var3];
-            var18 = var16.bind(var4)(var8);
-            var13 = var18.useStateFromStores;
+            var19 = var17.bind(var4)(var8);
+            var15 = var19.useStateFromStores;
             var8 = _closure1_slot5;
             var11 = new Array(1);
             var11[0] = var8;
@@ -255,11 +259,11 @@ case 0:
                 var1 = var1.purchases;
                 return var1;
             };
-            var18 = var13.bind(var18)(var11, var8);
-            var _closure2_slot6 = var18;
+            var19 = var15.bind(var19)(var11, var8);
+            var _closure2_slot7 = var19;
             var3 = var2[var3];
-            var13 = var16.bind(var4)(var3);
-            var11 = var13.useStateFromStores;
+            var15 = var17.bind(var4)(var3);
+            var11 = var15.useStateFromStores;
             var3 = _closure1_slot6;
             var8 = new Array(1);
             var8[0] = var3;
@@ -269,14 +273,14 @@ case 0:
                 var1 = var1.bind(var2)();
                 return var1;
             };
-            var3 = var11.bind(var13)(var8, var3);
-            var _closure2_slot7 = var3;
+            var3 = var11.bind(var15)(var8, var3);
+            var _closure2_slot8 = var3;
             var8 = _closure1_slot3;
-            var13 = var8.useMemo;
-            var19 = var7.items;
+            var15 = var8.useMemo;
+            var20 = var7.items;
             var11 = new Array(3);
-            var11[0] = var19;
-            var11[1] = var18;
+            var11[0] = var20;
+            var11[1] = var19;
             var11[2] = var3;
             var3 = function() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
@@ -288,7 +292,7 @@ case 0:
                     var1 = undefined;
                     var4 = var3.bind(var1)(var2);
                     var3 = var4.canUseCollectibles;
-                    var1 = _closure2_slot7;
+                    var1 = _closure2_slot8;
                     var1 = var3.bind(var4)(var1);
                     var2 = _closure2_slot2;
                     var2 = var2.items;
@@ -333,7 +337,7 @@ case 16:
                             var1 = undefined;
                             var3 = var3.bind(var1)(var2);
                             var2 = var3.isPremiumCollectiblesPurchase;
-                            var5 = _closure2_slot6;
+                            var5 = _closure2_slot7;
                             var4 = var5.get;
                             var1 = arg1;
                             var1 = var1.skuId;
@@ -353,40 +357,41 @@ case 17:
                     return var1;
                 }
             };
-            var13 = var13.bind(var8)(var3, var11);
+            var15 = var15.bind(var8)(var3, var11);
             var3 = 12;
             var3 = var2[var3];
-            var11 = var16.bind(var4)(var3);
+            var11 = var17.bind(var4)(var3);
             var3 = var11.chunk;
             var2 = var2[var14];
-            var2 = var16.bind(var4)(var2);
+            var2 = var17.bind(var4)(var2);
             var2 = var2.ROW_SIZE;
-            var11 = var3.bind(var11)(var13, var2);
-            var13 = null;
-            var16 = var13 != var15;
-            var _closure2_slot8 = var16;
+            var11 = var3.bind(var11)(var15, var2);
+            var15 = null;
+            var17 = var15 != var16;
+            var _closure2_slot9 = var17;
             var3 = var8.useCallback;
-            var2 = new Array(6);
-            var2[0] = var17;
-            var2[1] = var16;
-            var16 = var13 == var15;
-            var13 = undefined;
-            if(var16) { _fun0003_ip = 18; continue _fun0003 }
+            var2 = new Array(7);
+            var2[0] = var18;
+            var2[1] = var17;
+            var17 = var15 == var16;
+            var15 = undefined;
+            if(var17) { _fun0003_ip = 18; continue _fun0003 }
 case 19:
-            var13 = var15.skuId;
+            var15 = var16.skuId;
 case 18:
-            var2[2] = var13;
-            var2[3] = var12;
-            var2[4] = var1;
-            var1 = var6.row;
-            var2[5] = var1;
+            var2[2] = var15;
+            var2[3] = var13;
+            var2[4] = var12;
+            var12 = var6.row;
+            var2[5] = var12;
+            var2[6] = var1;
             var1 = function(arg1) {
                 var1 = arg1;
                 var11 = var1.item;
                 var4 = _closure1_slot7;
                 var3 = _closure1_slot4;
                 var2 = {};
-                var6 = _closure2_slot4;
+                var6 = _closure2_slot5;
                 var6 = var6.row;
                 var2['style'] = var6;
                 var8 = new Array(2);
@@ -428,7 +433,7 @@ case 18:
                         var4 = _closure1_slot4;
                         var3 = {};
                         var1 = {};
-                        var2 = _closure2_slot5;
+                        var2 = _closure2_slot6;
                         var1['height'] = var2;
                         var1['width'] = var2;
                         var3['style'] = var1;
@@ -453,7 +458,7 @@ case 18:
                         var1 = var2.bind(var4)(var1);
                         var3 = var1.EditCollectiblesListItemNone;
                         var2 = {};
-                        var6 = _closure2_slot5;
+                        var6 = _closure2_slot6;
                         var2['size'] = var6;
                         var6 = function onPress() {
                             var3 = _closure2_slot1;
@@ -463,7 +468,7 @@ case 18:
                             return var1;
                         };
                         var2['onPress'] = var6;
-                        var6 = _closure2_slot8;
+                        var6 = _closure2_slot9;
                         var6 = !var6;
                         var2['isSelected'] = var6;
                         var6 = _closure2_slot3;
@@ -489,7 +494,7 @@ case 18:
                         var2 = var3.bind(var4)(var2);
                         var3 = var2.EditCollectiblesListItemShop;
                         var2 = {};
-                        var6 = _closure2_slot5;
+                        var6 = _closure2_slot6;
                         var2['size'] = var6;
                         var6 = _closure1_slot1;
                         var1 = 14;
@@ -512,29 +517,31 @@ case 0:
                             var2 = null;
                             var2 = var2 == var3;
                             var5 = undefined;
-                            var7 = undefined;
+                            var8 = undefined;
                             if(var2) { _fun0005_ip = 20; continue _fun0005 }
 case 21:
                             var2 = _closure2_slot0;
-                            var7 = var2.skuId;
+                            var8 = var2.skuId;
 case 20:
-                            var6 = var1.skuId;
+                            var7 = var1.skuId;
                             var4 = _closure1_slot7;
                             var3 = _closure1_slot10;
                             var2 = {};
                             var2['profileEffect'] = var1;
-                            var9 = _closure2_slot5;
-                            var2['size'] = var9;
-                            var8 = function onPress() {
+                            var10 = _closure2_slot6;
+                            var2['size'] = var10;
+                            var9 = function onPress() {
                                 var3 = _closure2_slot1;
                                 var2 = _closure5_slot0;
                                 var1 = undefined;
-                                var2 = var3.bind(var1)(var2);
+                                var1 = var3.bind(var1)(var2);
                                 return var1;
                             };
-                            var2['onPress'] = var8;
-                            var6 = var7 === var6;
-                            var2['isSelected'] = var6;
+                            var2['onPress'] = var9;
+                            var7 = var8 === var7;
+                            var2['isSelected'] = var7;
+                            var6 = _closure2_slot4;
+                            var2['isTryItOut'] = var6;
                             var1 = var1.skuId;
                             var1 = var4.bind(var5)(var3, var2, var1);
                             return var1;

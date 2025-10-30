@@ -23,7 +23,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
     var _closure1_slot2 = var4;
-    var4 = ['Orbs-Spend', 'Orbs-Earn'];
+    var4 = ['Orbs-Spend_DarkTheme', 'Orbs-Earn_DarkTheme'];
     var _closure1_slot3 = var4;
     var4 = new Array(2);
     var8 = {'name': 'earn', 'start': 0, 'duration': 180};

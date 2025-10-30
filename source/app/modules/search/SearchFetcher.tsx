@@ -175,24 +175,24 @@ case 15:
 case 6:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=9);
                     if(var10) { _fun0003_ip = 16; continue _fun0003 }
-case 17:
+case 9:
                     var5 = var4;
                     var13 = null;
-                    if(!(var13 != var4)) { _fun0003_ip = 18; continue _fun0003 }
-case 19:
+                    if(!(var13 != var4)) { _fun0003_ip = 17; continue _fun0003 }
+case 18:
                     var10 = var11.isCanceled;
-                    if(var10) { _fun0003_ip = 20; continue _fun0003 }
-case 21:
+                    if(var10) { _fun0003_ip = 19; continue _fun0003 }
+case 20:
                     var10 = var5;
                     var12 = var10.status;
                     var10 = 200;
-                    if(!(var10 !== var12)) { _fun0003_ip = 22; continue _fun0003 }
-case 23:
+                    if(!(var10 !== var12)) { _fun0003_ip = 21; continue _fun0003 }
+case 22:
                     var10 = var5;
                     var12 = var10.status;
                     var10 = 202;
-                    if(!(var10 === var12)) { _fun0003_ip = 24; continue _fun0003 }
-case 25:
+                    if(!(var10 === var12)) { _fun0003_ip = 23; continue _fun0003 }
+case 24:
                     var10 = var11.query;
                     var12 = var11.query;
                     var12 = var12.attempts;
@@ -200,18 +200,18 @@ case 25:
                     var14 = var13 != var12;
                     var12 = 0;
                     var13 = 0;
-                    if(!var14) { _fun0003_ip = 26; continue _fun0003 }
-case 27:
-                    var13 = var8;
+                    if(!var14) { _fun0003_ip = 25; continue _fun0003 }
 case 26:
+                    var13 = var8;
+case 25:
                     var8 = 1;
                     var8 = var13 + var8;
                     var10['attempts'] = var8;
                     var8 = var11.query;
                     var10 = var8.attempts;
                     var8 = 5;
-                    if(!(!(var10 > var8))) { _fun0003_ip = 28; continue _fun0003 }
-case 29:
+                    if(!(!(var10 > var8))) { _fun0003_ip = 27; continue _fun0003 }
+case 28:
                     var8 = global;
                     var13 = var8.parseInt;
                     var10 = var5;
@@ -223,12 +223,12 @@ case 29:
                     var10 = var8.bind(var2)(var10);
                     var13 = 5000;
                     var8 = var13;
-                    if(var10) { _fun0003_ip = 30; continue _fun0003 }
-case 31:
+                    if(var10) { _fun0003_ip = 29; continue _fun0003 }
+case 30:
                     var10 = var9;
                     var8 = var13;
-                    if(!(var12 !== var10)) { _fun0003_ip = 30; continue _fun0003 }
-case 32:
+                    if(!(var12 !== var10)) { _fun0003_ip = 29; continue _fun0003 }
+case 31:
                     var10 = var9;
                     var12 = _closure1_slot1;
                     var13 = _closure1_slot2;
@@ -238,7 +238,7 @@ case 32:
                     var9 = var9.Millis;
                     var9 = var9.SECOND;
                     var8 = var10 * var9;
-case 30:
+case 29:
                     var11['retryDelay'] = var8;
                     var10 = var11.retryLater;
                     var9 = var6;
@@ -247,20 +247,20 @@ case 30:
                     var7 = var10.bind(var11)(var9, var8, var7);
                     var7 = var5;
                     var7 = var8.bind(var2)(var7);
-                    _fun0003_ip = 24; continue _fun0003;
-case 28: // try_end0
+                    _fun0003_ip = 23; continue _fun0003;
+case 27: // try_end0
                     return var2;
-case 22: // try_start_1
+case 21: // try_start_1
                     var5 = var6.bind(var2)(var5);
-case 24: // try_end1
+case 23: // try_end1
                     _fun0003_ip = 13; continue _fun0003;
-case 20:
+case 19:
                     return var2;
-case 18:
+case 17:
                     return var2;
 case 16:
                     return var4;
-case 33: // catch_target0 // catch_target1
+case 32: // catch_target0 // catch_target1
                     CatchBlockStart(arg_register=3);
                     var6 = _closure1_slot1;
                     var7 = _closure1_slot2;
@@ -310,14 +310,14 @@ case 0:
                 var1['isCanceled'] = var2;
                 var3 = var1.indexingPollId;
                 var2 = null;
-                if(!(var2 != var3)) { _fun0004_ip = 34; continue _fun0004 }
-case 35:
+                if(!(var2 != var3)) { _fun0004_ip = 33; continue _fun0004 }
+case 34:
                 var2 = global;
                 var3 = var2.clearTimeout;
                 var2 = var1.indexingPollId;
                 var1 = undefined;
                 var1 = var3.bind(var1)(var2);
-case 34:
+case 33:
                 var1 = undefined;
                 return var1;
             }
@@ -333,14 +333,14 @@ case 0:
                 var3 = this;
                 var2 = var3.indexingPollId;
                 var1 = null;
-                if(!(var1 != var2)) { _fun0005_ip = 36; continue _fun0005 }
-case 37:
+                if(!(var1 != var2)) { _fun0005_ip = 35; continue _fun0005 }
+case 36:
                 var1 = global;
                 var4 = var1.clearTimeout;
                 var2 = var3.indexingPollId;
                 var1 = undefined;
                 var1 = var4.bind(var1)(var2);
-case 36:
+case 35:
                 var1 = global;
                 var5 = var1.setTimeout;
                 var7 = var3.fetch;
@@ -393,16 +393,16 @@ case 0:
                 var4 = var2.searchType;
                 var3 = _closure1_slot9;
                 var3 = var3.FAVORITES;
-                if(!(var3 !== var4)) { _fun0006_ip = 38; continue _fun0006 }
-case 39:
+                if(!(var3 !== var4)) { _fun0006_ip = 37; continue _fun0006 }
+case 38:
                 var3 = _closure1_slot9;
                 var3 = var3.GUILD;
-                if(!(var3 !== var4)) { _fun0006_ip = 26; continue _fun0006 }
-case 40:
+                if(!(var3 !== var4)) { _fun0006_ip = 25; continue _fun0006 }
+case 39:
                 var3 = _closure1_slot9;
                 var3 = var3.CHANNEL;
-                if(!(var3 !== var4)) { _fun0006_ip = 23; continue _fun0006 }
-case 41:
+                if(!(var3 !== var4)) { _fun0006_ip = 22; continue _fun0006 }
+case 40:
                 var3 = global;
                 var5 = var3.Error;
                 var6 = var2.searchType;
@@ -416,41 +416,41 @@ case 41:
                 var3 = new var8[var5](var7, var6);
                 var3 = var3 instanceof Object ? var3 : var4;
                 throw var3;
-case 23:
+case 22:
                 var4 = var2.searchId;
                 var3 = null;
-                if(!(var3 != var4)) { _fun0006_ip = 42; continue _fun0006 }
-case 43:
+                if(!(var3 != var4)) { _fun0006_ip = 41; continue _fun0006 }
+case 42:
                 var4 = var2.searchId;
                 var3 = '';
-                if(!(var3 !== var4)) { _fun0006_ip = 42; continue _fun0006 }
-case 44:
+                if(!(var3 !== var4)) { _fun0006_ip = 41; continue _fun0006 }
+case 43:
                 var5 = _closure1_slot10;
                 var4 = var5.SEARCH_CHANNEL;
                 var3 = var2.searchId;
                 var3 = var4.bind(var5)(var3);
                 return var3;
-case 42:
+case 41:
                 var3 = undefined;
                 return var3;
-case 26:
+case 25:
                 var4 = var2.searchId;
                 var3 = null;
-                if(!(var3 != var4)) { _fun0006_ip = 45; continue _fun0006 }
-case 46:
+                if(!(var3 != var4)) { _fun0006_ip = 44; continue _fun0006 }
+case 45:
                 var4 = var2.searchId;
                 var3 = '';
-                if(!(var3 !== var4)) { _fun0006_ip = 45; continue _fun0006 }
-case 47:
+                if(!(var3 !== var4)) { _fun0006_ip = 44; continue _fun0006 }
+case 46:
                 var4 = _closure1_slot10;
                 var3 = var4.SEARCH_GUILD;
                 var2 = var2.searchId;
                 var2 = var3.bind(var4)(var2);
                 return var2;
-case 45:
+case 44:
                 var2 = undefined;
                 return var2;
-case 38:
+case 37:
                 var1 = _closure1_slot10;
                 var1 = var1.SEARCH_FAVORITES;
                 return var1;
@@ -472,8 +472,8 @@ case 0:
                 var8 = var1.bind(var6)();
                 var1 = null;
                 var2 = var1 == var8;
-                if(var2) { _fun0007_ip = 48; continue _fun0007 }
-case 49:
+                if(var2) { _fun0007_ip = 47; continue _fun0007 }
+case 48:
                 var3 = _closure1_slot0;
                 var10 = _closure1_slot2;
                 var2 = 9;
@@ -496,7 +496,7 @@ case 49:
                 var2['oldFormErrors'] = var6;
                 var2['rejectWithError'] = var5;
                 var1 = var3.bind(var4)(var2);
-case 48:
+case 47:
                 return var1;
             }
         };
@@ -542,24 +542,24 @@ case 0:
                 var4 = var2.searchType;
                 var3 = _closure1_slot9;
                 var3 = var3.DMS;
+                if(!(var3 !== var4)) { _fun0008_ip = 49; continue _fun0008 }
+case 38:
+                var3 = _closure1_slot9;
+                var3 = var3.GUILD_CHANNEL;
                 if(!(var3 !== var4)) { _fun0008_ip = 50; continue _fun0008 }
 case 39:
                 var3 = _closure1_slot9;
-                var3 = var3.GUILD_CHANNEL;
-                if(!(var3 !== var4)) { _fun0008_ip = 51; continue _fun0008 }
-case 40:
-                var3 = _closure1_slot9;
                 var3 = var3.GUILD;
-                if(!(var3 !== var4)) { _fun0008_ip = 51; continue _fun0008 }
-case 52:
+                if(!(var3 !== var4)) { _fun0008_ip = 50; continue _fun0008 }
+case 51:
                 var3 = _closure1_slot9;
                 var3 = var3.THREAD;
-                if(!(var3 !== var4)) { _fun0008_ip = 51; continue _fun0008 }
-case 53:
+                if(!(var3 !== var4)) { _fun0008_ip = 50; continue _fun0008 }
+case 52:
                 var3 = _closure1_slot9;
                 var3 = var3.CHANNEL;
-                if(!(var3 !== var4)) { _fun0008_ip = 54; continue _fun0008 }
-case 55:
+                if(!(var3 !== var4)) { _fun0008_ip = 53; continue _fun0008 }
+case 54:
                 var3 = global;
                 var5 = var3.Error;
                 var6 = var2.searchType;
@@ -573,41 +573,41 @@ case 55:
                 var3 = new var8[var5](var7, var6);
                 var3 = var3 instanceof Object ? var3 : var4;
                 throw var3;
-case 54:
+case 53:
                 var4 = var2.searchId;
                 var3 = null;
-                if(!(var3 != var4)) { _fun0008_ip = 56; continue _fun0008 }
-case 57:
+                if(!(var3 != var4)) { _fun0008_ip = 55; continue _fun0008 }
+case 56:
                 var4 = var2.searchId;
                 var3 = '';
-                if(!(var3 !== var4)) { _fun0008_ip = 56; continue _fun0008 }
-case 58:
+                if(!(var3 !== var4)) { _fun0008_ip = 55; continue _fun0008 }
+case 57:
                 var5 = _closure1_slot10;
                 var4 = var5.SEARCH_TABS_CHANNEL;
                 var3 = var2.searchId;
                 var3 = var4.bind(var5)(var3);
                 return var3;
-case 56:
+case 55:
                 var3 = undefined;
                 return var3;
-case 51:
+case 50:
                 var4 = var2.searchId;
                 var3 = null;
-                if(!(var3 != var4)) { _fun0008_ip = 59; continue _fun0008 }
-case 60:
+                if(!(var3 != var4)) { _fun0008_ip = 58; continue _fun0008 }
+case 59:
                 var4 = var2.searchId;
                 var3 = '';
-                if(!(var3 !== var4)) { _fun0008_ip = 59; continue _fun0008 }
-case 61:
+                if(!(var3 !== var4)) { _fun0008_ip = 58; continue _fun0008 }
+case 60:
                 var4 = _closure1_slot10;
                 var3 = var4.SEARCH_TABS_GUILD;
                 var2 = var2.searchId;
                 var2 = var3.bind(var4)(var2);
                 return var2;
-case 59:
+case 58:
                 var2 = undefined;
                 return var2;
-case 50:
+case 49:
                 var1 = _closure1_slot10;
                 var1 = var1.SEARCH_TABS_DMS;
                 return var1;
@@ -629,8 +629,8 @@ case 0:
                 var7 = var1.bind(var6)();
                 var1 = null;
                 var2 = var1 == var7;
-                if(var2) { _fun0009_ip = 62; continue _fun0009 }
-case 49:
+                if(var2) { _fun0009_ip = 61; continue _fun0009 }
+case 48:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
                 var2 = 9;
@@ -647,7 +647,7 @@ case 49:
                 var2['oldFormErrors'] = var6;
                 var2['rejectWithError'] = var5;
                 var1 = var3.bind(var4)(var2);
-case 62:
+case 61:
                 return var1;
             }
         };

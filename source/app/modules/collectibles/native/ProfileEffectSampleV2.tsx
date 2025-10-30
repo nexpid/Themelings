@@ -35,7 +35,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
     var4 = {};
-    var9 = {'width': '100%', 'resizeMode': 'cover', 'bottom': 5};
+    var9 = {};
+    var10 = '100%';
+    var9['width'] = var10;
     var4['profileSkeletonBackground'] = var9;
     var9 = {'width': '100%', 'height': '100%', 'resizeMode': 'cover'};
     var10 = 3;
@@ -45,9 +47,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var12.sm;
     var9['borderRadius'] = var12;
     var4['profileSkeletonBackgroundBundle'] = var9;
-    var9 = {'alignItems': 'flex-start', 'justifyContent': 'flex-start'};
-    var4['imageContainer'] = var9;
-    var9 = {'position': 'absolute', 'bottom': 1, 'width': '100%', 'height': '100%', 'overflow': 'hidden'};
+    var9 = {'position': 'absolute', 'width': '100%', 'height': '100%', 'overflow': 'hidden'};
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.radii;
@@ -74,7 +74,7 @@ case 0:
             var1 = arg1;
             var9 = var1.item;
             var7 = var1.isPurchased;
-            var14 = var1.isDarkTheme;
+            var10 = var1.isDarkTheme;
             var12 = var1.bundle;
             var1 = _closure1_slot7;
             var4 = undefined;
@@ -105,37 +105,31 @@ case 2:
             var5[1] = var7;
             var1['style'] = var5;
             var8 = _closure1_slot5;
-            var7 = _closure1_slot3;
+            var7 = _closure1_slot4;
             var5 = {};
-            var10 = var13.imageContainer;
-            var5['style'] = var10;
-            var11 = _closure1_slot4;
-            var10 = {};
             if(var12) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var16 = var13.profileSkeletonBackground;
+            var14 = var13.profileSkeletonBackground;
             _fun0001_ip = 6; continue _fun0001;
 case 4:
-            var16 = var13.profileSkeletonBackgroundBundle;
+            var14 = var13.profileSkeletonBackgroundBundle;
 case 6:
-            var15 = new Array(1);
-            var15[0] = var16;
-            var10['style'] = var15;
-            var15 = _closure1_slot1;
-            var17 = _closure1_slot2;
-            if(var14) { _fun0001_ip = 7; continue _fun0001 }
+            var11 = new Array(1);
+            var11[0] = var14;
+            var5['style'] = var11;
+            var11 = _closure1_slot1;
+            var15 = _closure1_slot2;
+            if(var10) { _fun0001_ip = 7; continue _fun0001 }
 case 8:
-            var14 = 6;
-            var14 = var17[var14];
+            var10 = 6;
+            var10 = var15[var10];
             _fun0001_ip = 9; continue _fun0001;
 case 7:
-            var16 = 5;
-            var14 = var17[var16];
+            var14 = 5;
+            var10 = var15[var14];
 case 9:
-            var14 = var15.bind(var4)(var14);
-            var10['source'] = var14;
-            var10 = var8.bind(var4)(var11, var10);
-            var5['children'] = var10;
+            var10 = var11.bind(var4)(var10);
+            var5['source'] = var10;
             var7 = var8.bind(var4)(var7, var5);
             var5 = new Array(3);
             var5[0] = var7;

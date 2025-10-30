@@ -852,8 +852,8 @@ case 38:
             var58 = var11.id;
             _closure2_slot36 = var58;
             var11 = var39.config;
-            var11 = var11.application;
-            var57 = var11.name;
+            var11 = var11.messages;
+            var57 = var11.gameTitle;
             _closure2_slot37 = var57;
             var11 = var1 == var28;
             var55 = undefined;

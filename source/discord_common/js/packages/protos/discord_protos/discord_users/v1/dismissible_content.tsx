@@ -1802,6 +1802,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['GAME_WIDGETS_USER_PROFILE_ACCOUNT_POPOUT_UPSELL'] = var2;
     var1 = 'GAME_WIDGETS_USER_PROFILE_ACCOUNT_POPOUT_UPSELL';
     var4[var2] = var1;
+    var2 = 637;
+    var4['RECURRING_3P_PROMOTION_POPOVER'] = var2;
+    var1 = 'RECURRING_3P_PROMOTION_POPOVER';
+    var4[var2] = var1;
+    var2 = 638;
+    var4['PREMIUM_TAB_MARKETING_MOMENT_OFFER_BADGE'] = var2;
+    var1 = 'PREMIUM_TAB_MARKETING_MOMENT_OFFER_BADGE';
+    var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;
     var1 = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

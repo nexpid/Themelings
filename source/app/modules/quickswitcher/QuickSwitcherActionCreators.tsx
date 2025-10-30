@@ -497,6 +497,7 @@ case 47:
     var12 = 8;
     var12 = var11[var12];
     var12 = var10.bind(var1)(var12);
+    var13 = var12.Layers;
     var13 = var12.ME;
     var _closure1_slot11 = var13;
     var13 = var12.AnalyticEvents;
@@ -599,7 +600,7 @@ case 47:
     var9 = new var30[var13](var29, var28);
     var9 = var9 instanceof Object ? var9 : var12;
     var _closure1_slot17 = var9;
-    var9 = 22;
+    var9 = 23;
     var9 = var11[var9];
     var11 = var10.bind(var1)(var9);
     var10 = var11.fileFinishedImporting;
@@ -765,6 +766,12 @@ case 69:
             var4 = var4.SETTINGS;
             if(!(var7 !== var4)) { _fun0007_ip = 70; continue _fun0007 }
 case 71:
+            var4 = var5.record;
+            var7 = var4.type;
+            var4 = _closure1_slot4;
+            var4 = var4.PLAYGROUND;
+            if(!(var7 !== var4)) { _fun0007_ip = 72; continue _fun0007 }
+case 73:
             var7 = _closure1_slot1;
             var8 = _closure1_slot2;
             var4 = 20;
@@ -776,6 +783,17 @@ case 71:
             var4['navigationReplace'] = var9;
             var4 = var8.bind(var1)(var7, var4);
             _fun0007_ip = 68; continue _fun0007;
+case 72:
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var4 = 22;
+            var4 = var8[var4];
+            var7 = var7.bind(var1)(var4);
+            var4 = var7.getUserIsStaff;
+            var4 = var4.bind(var7)();
+            if(var4) { _fun0007_ip = 68; continue _fun0007 }
+case 74:
+            return var1;
 case 70:
             var7 = _closure1_slot1;
             var8 = _closure1_slot2;
@@ -866,19 +884,19 @@ case 59:
             var4 = var7.bind(var8)(var4);
             var7 = null;
             if(!(var7 != var4)) { _fun0007_ip = 68; continue _fun0007 }
-case 72:
+case 75:
             var7 = _closure1_slot1;
             var8 = _closure1_slot2;
-            if(var6) { _fun0007_ip = 73; continue _fun0007 }
-case 74:
+            if(var6) { _fun0007_ip = 76; continue _fun0007 }
+case 77:
             var6 = 17;
             var6 = var8[var6];
             var11 = var7.bind(var1)(var6);
             var9 = var11.selectVoiceChannel;
             var6 = var3.id;
             var6 = var9.bind(var11)(var6);
-            _fun0007_ip = 75; continue _fun0007;
-case 73:
+            _fun0007_ip = 45; continue _fun0007;
+case 76:
             var6 = 16;
             var6 = var8[var6];
             var9 = var7.bind(var1)(var6);
@@ -886,7 +904,7 @@ case 73:
             var7 = var3.id;
             var6 = true;
             var6 = var8.bind(var9)(var7, var6);
-case 75:
+case 45:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var6 = 15;
@@ -909,7 +927,7 @@ case 57:
             var4 = var6.bind(var7)(var4);
             var6 = null;
             if(!(var6 != var4)) { _fun0007_ip = 68; continue _fun0007 }
-case 34:
+case 78:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var6 = 15;

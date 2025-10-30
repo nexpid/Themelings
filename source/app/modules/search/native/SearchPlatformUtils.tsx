@@ -242,7 +242,7 @@ case 25:
             return var1;
         }
     };
-    var _closure1_slot17 = var7;
+    var _closure1_slot18 = var7;
     var6 = function getMediaGridItemStyles(arg1) {
         var1 = arg1;
         var7 = var1.itemIndex;
@@ -250,7 +250,7 @@ case 25:
         var5 = var1.numColumns;
         var6 = var1.spacing;
         var1 = {};
-        var8 = _closure1_slot17;
+        var8 = _closure1_slot18;
         var3 = {};
         var3['itemIndex'] = var7;
         var3['numItems'] = var4;
@@ -259,7 +259,7 @@ case 25:
         var10 = var8.bind(var4)(var3);
         var11 = var1;
         var3 = copyDataProperties(var11, var10);
-        var3 = _closure1_slot18;
+        var3 = _closure1_slot19;
         var2 = {};
         var2['itemIndex'] = var7;
         var2['spacing'] = var6;
@@ -302,7 +302,7 @@ case 26:
             return var1;
         }
     };
-    var _closure1_slot18 = var5;
+    var _closure1_slot19 = var5;
     var4 = function toSearchBarTag(arg1) {
         var2 = arg1;
         var1 = {};
@@ -321,9 +321,9 @@ case 26:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot19 = var1;
+    var _closure1_slot20 = var1;
     var1 = function getInitialFetchLimit(arg1) {
-        var3 = _closure1_slot19;
+        var3 = _closure1_slot20;
         var2 = _closure1_slot9;
         var1 = arg1;
         var2 = var2[var1];
@@ -331,9 +331,9 @@ case 26:
         var1 = var3.bind(var1)(var2);
         return var1;
     };
-    var _closure1_slot20 = var1;
+    var _closure1_slot21 = var1;
     var1 = function getNextFetchLimit(arg1) {
-        var3 = _closure1_slot19;
+        var3 = _closure1_slot20;
         var2 = _closure1_slot9;
         var1 = arg1;
         var2 = var2[var1];
@@ -343,7 +343,7 @@ case 26:
         var1 = var3.bind(var1)(var2);
         return var1;
     };
-    var _closure1_slot21 = var1;
+    var _closure1_slot22 = var1;
     var1 = function onInitialFetchMessagesSuccess(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -416,7 +416,7 @@ case 36:
             return var1;
         }
     };
-    var _closure1_slot22 = var1;
+    var _closure1_slot23 = var1;
     var1 = function onFetchMessagesStart(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
@@ -466,14 +466,14 @@ case 38:
             return var1;
         }
     };
-    var _closure1_slot23 = var1;
+    var _closure1_slot24 = var1;
     var21 = function fetchInitialMessages(arg1) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var10 = arg1;
             var _closure2_slot0 = var10;
             var2 = var10.type;
-            var1 = _closure1_slot16;
+            var1 = _closure1_slot17;
             var1 = var1.THREAD;
             if(!(var2 === var1)) { _fun0008_ip = 40; continue _fun0008 }
 case 41:
@@ -508,19 +508,19 @@ case 40:
                 var1 = var1.bind(var2)();
                 return var1;
             };
-            var7 = var3.bind(var6)(var10, var2);
-            var _closure2_slot1 = var7;
+            var6 = var3.bind(var6)(var10, var2);
+            var _closure2_slot1 = var6;
             if(var1) { _fun0008_ip = 43; continue _fun0008 }
 case 5:
             var8 = _closure1_slot7;
             _fun0008_ip = 44; continue _fun0008;
 case 43:
             var2 = var10.type;
-            var1 = _closure1_slot16;
+            var1 = _closure1_slot17;
             var1 = var1.GUILD_CHANNEL;
             if(!(var1 !== var2)) { _fun0008_ip = 10; continue _fun0008 }
 case 45:
-            var1 = _closure1_slot16;
+            var1 = _closure1_slot17;
             var1 = var1.CHANNEL;
             if(!(var1 !== var2)) { _fun0008_ip = 10; continue _fun0008 }
 case 46:
@@ -535,12 +535,12 @@ case 44:
             var3 = _closure1_slot2;
             var1 = 5;
             var1 = var3[var1];
-            var6 = undefined;
-            var3 = var2.bind(var6)(var1);
+            var7 = undefined;
+            var3 = var2.bind(var7)(var1);
             var2 = var3.getSearchTabFetchId;
             var1 = 0;
             var1 = var8[var1];
-            var9 = var2.bind(var3)(var10, var1, var7);
+            var9 = var2.bind(var3)(var10, var1, var6);
             var2 = _closure1_slot3;
             var1 = var2.getIsFetching;
             var1 = var1.bind(var2)(var9);
@@ -550,36 +550,36 @@ case 48:
             var3 = _closure1_slot2;
             var1 = 20;
             var11 = var3[var1];
-            var12 = var2.bind(var6)(var11);
+            var12 = var2.bind(var7)(var11);
             var11 = var12.clearAllSearchMesssages;
             var11 = var11.bind(var12)();
             var11 = 18;
             var11 = var3[var11];
-            var12 = var2.bind(var6)(var11);
+            var12 = var2.bind(var7)(var11);
             var11 = var12.refreshSearchQueryAnalyticsId;
             var11 = var11.bind(var12)(var10);
             var12 = _closure1_slot0;
             var11 = 16;
             var11 = var3[var11];
-            var13 = var12.bind(var6)(var11);
+            var13 = var12.bind(var7)(var11);
             var12 = var13.trackSearchStarted;
             var11 = {};
             var11['searchContext'] = var10;
             var11 = var12.bind(var13)(var11);
             var11 = 17;
             var11 = var3[var11];
-            var13 = var2.bind(var6)(var11);
+            var13 = var2.bind(var7)(var11);
             var12 = var13.trackSearchStartedMobile;
             var11 = {};
             var11['searchContext'] = var10;
             var11 = var12.bind(var13)(var11);
             var1 = var3[var1];
-            var3 = var2.bind(var6)(var1);
+            var3 = var2.bind(var7)(var1);
             var2 = var3.fetchTabMessages;
             var1 = {};
             var1['searchContext'] = var10;
             var1['searchTabs'] = var8;
-            var1['searchQueryString'] = var7;
+            var1['searchQueryString'] = var6;
             var5 = function getId(arg1) {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
@@ -595,40 +595,43 @@ case 48:
                 return var1;
             };
             var1['getId'] = var5;
-            var5 = _closure1_slot20;
+            var5 = _closure1_slot21;
             var1['getLimit'] = var5;
-            var5 = _closure1_slot23;
+            var5 = _closure1_slot24;
             var1['onFetchStart'] = var5;
-            var5 = _closure1_slot22;
+            var5 = _closure1_slot23;
             var1['onFetchSuccess'] = var5;
             var5 = {};
             var8 = _closure1_slot3;
-            var7 = var8.getCursor;
-            var8 = var7.bind(var8)(var9);
-            var7 = null;
-            var9 = var7 != var8;
+            var6 = var8.getCursor;
+            var8 = var6.bind(var8)(var9);
+            var6 = null;
+            var9 = var6 != var8;
             if(!var9) { _fun0008_ip = 49; continue _fun0008 }
 case 50:
-            var7 = var8;
+            var6 = var8;
 case 49:
-            var5['cursor'] = var7;
+            var5['cursor'] = var6;
             var1['pagination'] = var5;
-            var5 = _closure1_slot0;
-            var7 = _closure1_slot2;
-            var4 = 15;
-            var4 = var7[var4];
-            var4 = var5.bind(var6)(var4);
-            var5 = var4.SearchResultExactCountEnabled;
-            var4 = var5.getSetting;
-            var4 = var4.bind(var5)();
-            var1['trackExactTotalHits'] = var4;
+            var6 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var5 = 15;
+            var5 = var8[var5];
+            var5 = var6.bind(var7)(var5);
+            var6 = var5.SearchResultExactCountEnabled;
+            var5 = var6.getSetting;
+            var5 = var5.bind(var6)();
+            var1['trackExactTotalHits'] = var5;
+            var4 = _closure1_slot16;
+            var4 = var4.NEWEST;
+            var1['searchMode'] = var4;
             var1 = var2.bind(var3)(var1);
 case 42:
             var1 = undefined;
             return var1;
         }
     };
-    var _closure1_slot24 = var21;
+    var _closure1_slot25 = var21;
     var18 = function syncAutocomplete(arg1) {
         var8 = arg1;
         var4 = _closure1_slot4;
@@ -720,7 +723,7 @@ case 53:
             var8 = true;
             var4['initializeSearchQueryId'] = var8;
             var4 = var6.bind(var7)(var4);
-            var3 = _closure1_slot24;
+            var3 = _closure1_slot25;
             var3 = var3.bind(var1)(var2);
 case 51:
             var4 = var5.navigate;
@@ -780,8 +783,10 @@ case 51:
     var12 = var14.bind(var1)(var12);
     var13 = var12.MessageFlags;
     var _closure1_slot15 = var13;
+    var13 = var12.SearchModes;
+    var _closure1_slot16 = var13;
     var12 = var12.SearchTypes;
-    var _closure1_slot16 = var12;
+    var _closure1_slot17 = var12;
     var12 = {};
     var12['performKeyboardAwareNavigation'] = var10;
     var12['delayUntilNavigationComplete'] = var9;
@@ -811,22 +816,22 @@ case 0:
                 var1 = var1.bind(var2)();
                 return var1;
             };
-            var8 = var2.bind(var3)(var9, var1);
-            var _closure2_slot1 = var8;
+            var7 = var2.bind(var3)(var9, var1);
+            var _closure2_slot1 = var7;
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 5;
             var4 = var3[var1];
-            var7 = undefined;
-            var10 = var2.bind(var7)(var4);
+            var8 = undefined;
+            var10 = var2.bind(var8)(var4);
             var4 = var10.getSearchTabFetchId;
-            var10 = var4.bind(var10)(var9, var11, var8);
-            var4 = _closure1_slot20;
-            var13 = var4.bind(var7)(var11);
+            var10 = var4.bind(var10)(var9, var11, var7);
+            var4 = _closure1_slot21;
+            var13 = var4.bind(var8)(var11);
             var1 = var3[var1];
-            var2 = var2.bind(var7)(var1);
+            var2 = var2.bind(var8)(var1);
             var1 = var2.getSearchTabFetchId;
-            var14 = var1.bind(var2)(var9, var11, var8);
+            var14 = var1.bind(var2)(var9, var11, var7);
             var2 = _closure1_slot3;
             var1 = var2.getIsInitialFetchComplete;
             var1 = var1.bind(var2)(var14);
@@ -846,7 +851,7 @@ case 55:
             var15 = _closure1_slot2;
             var1 = 15;
             var1 = var15[var1];
-            var1 = var14.bind(var7)(var1);
+            var1 = var14.bind(var8)(var1);
             var14 = var1.SearchResultExactCountEnabled;
             var1 = var14.getSetting;
             var1 = var1.bind(var14)();
@@ -901,16 +906,16 @@ case 70:
             var4 = _closure1_slot2;
             var2 = 20;
             var2 = var4[var2];
-            var4 = var3.bind(var7)(var2);
+            var4 = var3.bind(var8)(var2);
             var3 = var4.fetchTabMessages;
             var2 = {};
             var2['searchContext'] = var9;
             var9 = new Array(1);
             var9[0] = var11;
             var2['searchTabs'] = var9;
-            var2['searchQueryString'] = var8;
-            var8 = _closure1_slot21;
-            var2['getLimit'] = var8;
+            var2['searchQueryString'] = var7;
+            var7 = _closure1_slot22;
+            var2['getLimit'] = var7;
             var6 = function getId(arg1) {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
@@ -926,31 +931,34 @@ case 70:
                 return var1;
             };
             var2['getId'] = var6;
-            var6 = _closure1_slot23;
+            var6 = _closure1_slot24;
             var2['onFetchStart'] = var6;
             var6 = arg3;
             var2['onFetchSuccess'] = var6;
             var6 = {};
             var9 = _closure1_slot3;
-            var8 = var9.getCursor;
-            var9 = var8.bind(var9)(var10);
-            var8 = null;
-            var10 = var8 != var9;
+            var7 = var9.getCursor;
+            var9 = var7.bind(var9)(var10);
+            var7 = null;
+            var10 = var7 != var9;
             if(!var10) { _fun0010_ip = 71; continue _fun0010 }
 case 72:
-            var8 = var9;
+            var7 = var9;
 case 71:
-            var6['cursor'] = var8;
+            var6['cursor'] = var7;
             var2['pagination'] = var6;
-            var6 = _closure1_slot0;
-            var8 = _closure1_slot2;
-            var5 = 15;
-            var5 = var8[var5];
-            var5 = var6.bind(var7)(var5);
-            var6 = var5.SearchResultExactCountEnabled;
-            var5 = var6.getSetting;
-            var5 = var5.bind(var6)();
-            var2['trackExactTotalHits'] = var5;
+            var7 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var6 = 15;
+            var6 = var9[var6];
+            var6 = var7.bind(var8)(var6);
+            var7 = var6.SearchResultExactCountEnabled;
+            var6 = var7.getSetting;
+            var6 = var6.bind(var7)();
+            var2['trackExactTotalHits'] = var6;
+            var5 = _closure1_slot16;
+            var5 = var5.NEWEST;
+            var2['searchMode'] = var5;
             var1 = var3.bind(var4)(var2);
 case 69:
             return var1;

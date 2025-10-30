@@ -1543,13 +1543,13 @@ case 66:
                         return var1;
                     };
                     var2 = var4.bind(var5)(var2);
-                    SaveGenerator(address=105);
+                    SaveGenerator(address=103);
 case 67:
                     return var2;
 case 68:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
                     if(var4) { _fun0012_ip = 69; continue _fun0012 }
-case 39:
+case 40:
                     return var3;
 case 69:
                     return var2;

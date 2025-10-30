@@ -104,34 +104,34 @@ case 5:
                         var2 = var2.VerificationFormFieldTypes;
                         var2 = var2.VERIFICATION;
                         if(!(var2 !== var3)) { _fun0002_ip = 6; continue _fun0002 }
-case 2:
+case 7:
                         var8 = _closure1_slot0;
                         var2 = _closure1_slot2;
                         var2 = var2[var9];
                         var2 = var8.bind(var4)(var2);
                         var2 = var2.VerificationFormFieldTypes;
                         var2 = var2.TEXT_INPUT;
-                        if(!(var2 !== var3)) { _fun0002_ip = 7; continue _fun0002 }
-case 8:
+                        if(!(var2 !== var3)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                         var8 = _closure1_slot0;
                         var2 = _closure1_slot2;
                         var2 = var2[var9];
                         var2 = var8.bind(var4)(var2);
                         var2 = var2.VerificationFormFieldTypes;
                         var2 = var2.PARAGRAPH;
-                        if(!(var2 !== var3)) { _fun0002_ip = 9; continue _fun0002 }
-case 10:
+                        if(!(var2 !== var3)) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
                         var8 = _closure1_slot0;
                         var2 = _closure1_slot2;
                         var2 = var2[var9];
                         var2 = var8.bind(var4)(var2);
                         var2 = var2.VerificationFormFieldTypes;
                         var2 = var2.MULTIPLE_CHOICE;
-                        if(!(var2 !== var3)) { _fun0002_ip = 11; continue _fun0002 }
-case 12:
+                        if(!(var2 !== var3)) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
                         var2 = null;
                         return var2;
-case 11:
+case 12:
                         var8 = _closure1_slot5;
                         var3 = _closure1_slot1;
                         var9 = _closure1_slot2;
@@ -154,7 +154,7 @@ case 11:
                         var2['onChange'] = var9;
                         var2 = var8.bind(var4)(var3, var2, var5);
                         return var2;
-case 9:
+case 10:
                         var8 = _closure1_slot5;
                         var3 = _closure1_slot1;
                         var9 = _closure1_slot2;
@@ -174,7 +174,7 @@ case 9:
                         var2['onChange'] = var9;
                         var2 = var8.bind(var4)(var3, var2, var5);
                         return var2;
-case 7:
+case 8:
                         var8 = _closure1_slot5;
                         var3 = _closure1_slot1;
                         var9 = _closure1_slot2;

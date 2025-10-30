@@ -20,7 +20,7 @@ case 2:
             return var1;
         }
     };
-    var _closure1_slot5 = var1;
+    var _closure1_slot4 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -33,10 +33,8 @@ case 2:
     var2 = var6[var1];
     var1 = undefined;
     var2 = var5.bind(var1)(var2);
-    var7 = var2.FAVORITES;
-    var _closure1_slot3 = var7;
-    var2 = var2.SearchModes;
-    var _closure1_slot4 = var2;
+    var2 = var2.FAVORITES;
+    var _closure1_slot3 = var2;
     var2 = {};
     var7 = function fetchTabMessages(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
@@ -56,12 +54,6 @@ case 0:
             var _closure2_slot2 = var3;
             var16 = var2.searchMode;
             var4 = undefined;
-            if(!(var16 === var4)) { _fun0002_ip = 4; continue _fun0002 }
-case 5:
-            var2 = _closure1_slot4;
-            var16 = var2.NEWEST;
-case 4:
-            var _closure2_slot3 = var4;
             var _closure2_slot4 = var4;
             var5 = _closure1_slot0;
             var3 = _closure1_slot2;
@@ -83,8 +75,8 @@ case 0:
                     var3 = var4.isArray;
                     var1 = var2.pinned;
                     var1 = var3.bind(var4)(var1);
-                    if(!var1) { _fun0003_ip = 6; continue _fun0003 }
-case 7:
+                    if(!var1) { _fun0003_ip = 4; continue _fun0003 }
+case 5:
                     var4 = var2.pinned;
                     var3 = var4.some;
                     var1 = function(arg1) {
@@ -95,7 +87,7 @@ case 7:
                     };
                     var1 = var3.bind(var4)(var1);
                     var2['pinned'] = var1;
-case 6:
+case 4:
                     var1 = undefined;
                     return var1;
                 }
@@ -116,17 +108,17 @@ case 6:
             var5 = var5.bind(var4)(var3);
             var3 = var5.getGuildIdFromSearchContext;
             var12 = var3.bind(var5)(var10);
-            _closure2_slot3 = var12;
+            var _closure2_slot3 = var12;
             var3 = null;
-            if(!(var3 != var12)) { _fun0002_ip = 8; continue _fun0002 }
-case 9:
+            if(!(var3 != var12)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var11 = _closure1_slot0;
             var5 = _closure1_slot2;
             var5 = var5[var18];
             var11 = var11.bind(var4)(var5);
             var5 = var11.setIncludeNSFW;
             var5 = var5.bind(var11)(var8, var12);
-case 8:
+case 6:
             var11 = _closure1_slot1;
             var16 = _closure1_slot2;
             var5 = 2;
@@ -147,14 +139,14 @@ case 8:
             var5['pagination'] = var14;
             var5['trackExactTotalHits'] = var13;
             var5 = var11.bind(var12)(var5);
-            if(!(var3 != var6)) { _fun0002_ip = 10; continue _fun0002 }
-case 11:
+            if(!(var3 != var6)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var3 = {};
             var3['searchContext'] = var10;
             var3['searchQueryString'] = var9;
             var3['searchQuery'] = var8;
             var3 = var6.bind(var4)(var3);
-case 10:
+case 8:
             var6 = var7.map;
             var3 = function(arg1) {
                 var3 = _closure2_slot1;
@@ -198,7 +190,7 @@ case 0:
                     var2 = {};
                     var8 = 'SEARCH_MESSAGES_SUCCESS';
                     var2['type'] = var8;
-                    var9 = _closure1_slot5;
+                    var9 = _closure1_slot4;
                     var8 = _closure2_slot3;
                     var8 = var9.bind(var1)(var8);
                     var2['guildId'] = var8;
@@ -214,27 +206,27 @@ case 0:
                             var8 = undefined;
                             var3 = var2 === var8;
                             var2 = undefined;
+                            if(var3) { _fun0005_ip = 10; continue _fun0005 }
+case 11:
+                            var2 = var4;
+case 10:
+                            var4 = undefined;
                             if(var3) { _fun0005_ip = 12; continue _fun0005 }
 case 13:
-                            var2 = var4;
-case 12:
-                            var4 = undefined;
-                            if(var3) { _fun0005_ip = 14; continue _fun0005 }
-case 15:
                             var6 = var5().value;
                             var5 = var1;
                             var5 = var5 === var8;
                             var4 = undefined;
                             var3 = var5;
-                            if(var5) { _fun0005_ip = 14; continue _fun0005 }
-case 16:
+                            if(var5) { _fun0005_ip = 12; continue _fun0005 }
+case 14:
                             var4 = var6;
                             var3 = var5;
-case 14:
-                            if(var3) { _fun0005_ip = 17; continue _fun0005 }
-case 6:
+case 12:
+                            if(var3) { _fun0005_ip = 15; continue _fun0005 }
+case 16:
                             var1.return();
-case 17:
+case 15:
                             var1 = _closure2_slot1;
                             var2 = var1.bind(var8)(var2);
                             var6 = var4.cursor;
@@ -246,8 +238,8 @@ case 17:
                             var3 = var4.total_results;
                             var1['totalResults'] = var3;
                             var3 = null;
-                            if(!(var3 != var6)) { _fun0005_ip = 18; continue _fun0005 }
-case 19:
+                            if(!(var3 != var6)) { _fun0005_ip = 17; continue _fun0005 }
+case 18:
                             var7 = _closure1_slot1;
                             var9 = _closure1_slot2;
                             var5 = 4;
@@ -256,30 +248,30 @@ case 19:
                             var5 = var7.isEmpty;
                             var7 = var5.bind(var7)(var6);
                             var5 = null;
-                            if(var7) { _fun0005_ip = 20; continue _fun0005 }
-case 18:
+                            if(var7) { _fun0005_ip = 19; continue _fun0005 }
+case 17:
                             var5 = var6;
-case 20:
+case 19:
                             var1['cursor'] = var5;
                             var5 = var4.messages;
                             var1['messages'] = var5;
                             var5 = var4.channels;
-                            if(!(var3 == var5)) { _fun0005_ip = 21; continue _fun0005 }
-case 22:
-                            var5 = new Array(0);
+                            if(!(var3 == var5)) { _fun0005_ip = 20; continue _fun0005 }
 case 21:
+                            var5 = new Array(0);
+case 20:
                             var1['channels'] = var5;
                             var5 = var4.threads;
-                            if(!(var3 == var5)) { _fun0005_ip = 23; continue _fun0005 }
-case 24:
-                            var5 = new Array(0);
+                            if(!(var3 == var5)) { _fun0005_ip = 22; continue _fun0005 }
 case 23:
+                            var5 = new Array(0);
+case 22:
                             var1['threads'] = var5;
                             var5 = var4.members;
-                            if(!(var3 == var5)) { _fun0005_ip = 25; continue _fun0005 }
-case 26:
-                            var5 = new Array(0);
+                            if(!(var3 == var5)) { _fun0005_ip = 24; continue _fun0005 }
 case 25:
+                            var5 = new Array(0);
+case 24:
                             var4 = var5.map;
                             var3 = function(arg1) {
                                 var2 = _closure1_slot1;
@@ -307,15 +299,15 @@ case 25:
                     var2 = var3.bind(var6)(var2);
                     var3 = _closure2_slot2;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0004_ip = 27; continue _fun0004 }
-case 28:
+                    if(!(var2 != var3)) { _fun0004_ip = 17; continue _fun0004 }
+case 26:
                     var3 = _closure2_slot2;
                     var2 = {};
                     var5 = _closure2_slot0;
                     var2['searchContext'] = var5;
                     var2['tabEntries'] = var4;
                     var2 = var3.bind(var1)(var2);
-case 27:
+case 17:
                     return var1;
                 }
             };
@@ -364,51 +356,84 @@ case 27:
 case 0:
             var1 = arg1;
             var10 = var1.searchContext;
-            var9 = var1.query;
-            var5 = var1.searchEverywhere;
+            var9 = var1.searchQueryString;
+            var12 = var1.pagination;
+            var15 = var1.searchMode;
+            var8 = var1.searchEverywhere;
+            var5 = var1.onFetchStart;
             var1 = undefined;
             var _closure2_slot1 = var1;
-            var7 = _closure1_slot0;
-            var6 = _closure1_slot2;
-            var4 = 1;
-            var6 = var6[var4];
-            var7 = var7.bind(var1)(var6);
-            var6 = var7.getGuildIdFromSearchContext;
-            var8 = var6.bind(var7)(var10);
-            var _closure2_slot0 = var8;
-            var6 = null;
-            if(!(var6 != var8)) { _fun0006_ip = 29; continue _fun0006 }
-case 30:
-            var7 = _closure1_slot0;
-            var6 = _closure1_slot2;
-            var6 = var6[var4];
-            var7 = var7.bind(var1)(var6);
-            var6 = var7.setIncludeNSFW;
-            var6 = var6.bind(var7)(var9, var8);
+            var11 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var6 = 1;
+            var7 = var4[var6];
+            var13 = var11.bind(var1)(var7);
+            var7 = var13.tokenizeQuery;
+            var16 = var7.bind(var13)(var9);
+            var7 = {};
+            var13 = var4[var6];
+            var14 = var11.bind(var1)(var13);
+            var13 = var14.getSearchQueryFromTokens;
+            var18 = var13.bind(var14)(var16);
+            var19 = var7;
+            var13 = copyDataProperties(var19, var18);
+            var13 = var4[var6];
+            var14 = var11.bind(var1)(var13);
+            var13 = var14.searchModeToSearchQueryParams;
+            var18 = var13.bind(var14)(var15);
+            var19 = var7;
+            var13 = copyDataProperties(var19, var18);
+            var13 = var12.offset;
+            var12 = 'offset';
+            var7[var12] = var13;
+            var4 = var4[var6];
+            var11 = var11.bind(var1)(var4);
+            var4 = var11.getGuildIdFromSearchContext;
+            var13 = var4.bind(var11)(var10);
+            var _closure2_slot0 = var13;
+            var4 = null;
+            if(!(var4 != var13)) { _fun0006_ip = 27; continue _fun0006 }
+case 28:
+            var12 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var11 = var11[var6];
+            var12 = var12.bind(var1)(var11);
+            var11 = var12.setIncludeNSFW;
+            var11 = var11.bind(var12)(var7, var13);
+case 27:
+            if(!var8) { _fun0006_ip = 25; continue _fun0006 }
 case 29:
-            if(!var5) { _fun0006_ip = 31; continue _fun0006 }
-case 32:
-            var5 = true;
-            var9['search_everywhere'] = var5;
-case 31:
-            var6 = _closure1_slot0;
-            var5 = _closure1_slot2;
-            var4 = var5[var4];
-            var6 = var6.bind(var1)(var4);
-            var4 = var6.getSearchContextId;
-            var8 = var4.bind(var6)(var10);
+            var8 = true;
+            var7['search_everywhere'] = var8;
+case 25:
+            var8 = _closure1_slot0;
+            var12 = _closure1_slot2;
+            var6 = var12[var6];
+            var8 = var8.bind(var1)(var6);
+            var6 = var8.getSearchContextId;
+            var8 = var6.bind(var8)(var10);
             _closure2_slot1 = var8;
+            var11 = _closure1_slot1;
+            var6 = 6;
+            var6 = var12[var6];
+            var12 = var11.bind(var1)(var6);
+            var11 = var12.create;
+            var6 = {};
+            var6['id'] = var8;
+            var13 = var10.type;
+            var6['searchType'] = var13;
+            var6['searchQuery'] = var7;
+            var6 = var11.bind(var12)(var6);
+            if(!(var4 != var5)) { _fun0006_ip = 30; continue _fun0006 }
+case 31:
+            var4 = {};
+            var4['searchContext'] = var10;
+            var4['searchQueryString'] = var9;
+            var4['searchQuery'] = var7;
+            var4 = var5.bind(var1)(var4);
+case 30:
             var4 = _closure1_slot1;
-            var3 = 6;
-            var3 = var5[var3];
-            var7 = var4.bind(var1)(var3);
-            var6 = var7.create;
-            var3 = {};
-            var3['id'] = var8;
-            var10 = var10.type;
-            var3['searchType'] = var10;
-            var3['searchQuery'] = var9;
-            var6 = var6.bind(var7)(var3);
+            var5 = _closure1_slot2;
             var3 = 3;
             var3 = var5[var3];
             var5 = var4.bind(var1)(var3);
@@ -435,7 +460,7 @@ case 0:
                     var2 = {};
                     var6 = 'SEARCH_MESSAGES_SUCCESS';
                     var2['type'] = var6;
-                    var8 = _closure1_slot5;
+                    var8 = _closure1_slot4;
                     var6 = _closure2_slot0;
                     var6 = var8.bind(var1)(var6);
                     var2['guildId'] = var6;
@@ -454,17 +479,17 @@ case 0:
                     var5 = var7.body;
                     var8 = var5.threads;
                     var5 = null;
-                    if(!(var5 == var8)) { _fun0007_ip = 33; continue _fun0007 }
-case 34:
-                    var8 = new Array(0);
+                    if(!(var5 == var8)) { _fun0007_ip = 32; continue _fun0007 }
 case 33:
+                    var8 = new Array(0);
+case 32:
                     var6['threads'] = var8;
                     var8 = var7.body;
                     var10 = var8.members;
-                    if(!(var5 == var10)) { _fun0007_ip = 35; continue _fun0007 }
-case 36:
-                    var10 = new Array(0);
+                    if(!(var5 == var10)) { _fun0007_ip = 34; continue _fun0007 }
 case 35:
+                    var10 = new Array(0);
+case 34:
                     var9 = var10.map;
                     var8 = function(arg1) {
                         var2 = _closure1_slot1;
@@ -487,10 +512,10 @@ case 35:
                     var6['documentsIndexed'] = var8;
                     var7 = var7.body;
                     var7 = var7.channels;
-                    if(!(var5 == var7)) { _fun0007_ip = 37; continue _fun0007 }
-case 38:
-                    var7 = new Array(0);
+                    if(!(var5 == var7)) { _fun0007_ip = 36; continue _fun0007 }
 case 37:
+                    var7 = new Array(0);
+case 36:
                     var6['channels'] = var7;
                     var6['cursor'] = var5;
                     var5 = new Array(1);
@@ -619,8 +644,8 @@ case 0:
             var1 = var1.bind(var2)();
             var2 = var1.length;
             var1 = 0;
-            if(!(var2 > var1)) { _fun0008_ip = 39; continue _fun0008 }
-case 40:
+            if(!(var2 > var1)) { _fun0008_ip = 38; continue _fun0008 }
+case 39:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
             var1 = 7;
@@ -630,7 +655,7 @@ case 40:
             var2 = var1.FrecencyUserSettingsActionCreators;
             var1 = var2.loadIfNecessary;
             var1 = var1.bind(var2)();
-case 39:
+case 38:
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
             var1 = 3;

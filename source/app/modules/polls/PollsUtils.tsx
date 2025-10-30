@@ -420,8 +420,8 @@ case 0:
             var4 = var9.length;
             var1 = arg2;
             var1 = var1 - var4;
-            var7 = 0;
-            var8 = var2.bind(var3)(var7, var1);
+            var8 = 0;
+            var7 = var2.bind(var3)(var8, var1);
             var1 = var9.length;
             var10 = 1;
             if(!(var10 !== var1)) { _fun0008_ip = 56; continue _fun0008 }
@@ -432,8 +432,8 @@ case 55:
 case 58:
             var2 = var9.length;
             var1 = 3;
-            if(!(var1 !== var2)) { _fun0008_ip = 14; continue _fun0008 }
-case 59:
+            if(!(var1 !== var2)) { _fun0008_ip = 59; continue _fun0008 }
+case 60:
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
             var1 = 13;
@@ -447,13 +447,11 @@ case 59:
             var1 = var1.t;
             var2 = var1.yVX6kE;
             var1 = {};
-            var5 = var8.toLocaleString;
-            var5 = var5.bind(var8)();
-            var1['n'] = var5;
+            var1['n'] = var7;
             var1 = var3.bind(var4)(var2, var1);
-            _fun0008_ip = 60; continue _fun0008;
-case 14:
-            if(!(!(var8 > var7))) { _fun0008_ip = 61; continue _fun0008 }
+            _fun0008_ip = 61; continue _fun0008;
+case 59:
+            if(!(!(var7 > var8))) { _fun0008_ip = 18; continue _fun0008 }
 case 62:
             var6 = _closure1_slot0;
             var12 = _closure1_slot2;
@@ -468,7 +466,7 @@ case 62:
             var2 = var2.t;
             var3 = var2.0UzBM3;
             var2 = {};
-            var6 = var9[var7];
+            var6 = var9[var8];
             var2['a'] = var6;
             var6 = var9[var10];
             var2['b'] = var6;
@@ -476,7 +474,7 @@ case 62:
             var2['c'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             _fun0008_ip = 63; continue _fun0008;
-case 61:
+case 18:
             var12 = _closure1_slot0;
             var13 = _closure1_slot2;
             var3 = 13;
@@ -490,22 +488,20 @@ case 61:
             var3 = var3.t;
             var4 = var3.ThXp+N;
             var3 = {};
-            var12 = var9[var7];
+            var12 = var9[var8];
             var3['a'] = var12;
             var12 = var9[var10];
             var3['b'] = var12;
             var11 = var9[var11];
             var3['c'] = var11;
-            var11 = var8.toLocaleString;
-            var11 = var11.bind(var8)();
-            var3['n'] = var11;
+            var3['n'] = var7;
             var2 = var5.bind(var6)(var4, var3);
 case 63:
             var1 = var2;
-case 60:
+case 61:
             _fun0008_ip = 64; continue _fun0008;
 case 57:
-            if(!(!(var8 > var7))) { _fun0008_ip = 65; continue _fun0008 }
+            if(!(!(var7 > var8))) { _fun0008_ip = 65; continue _fun0008 }
 case 66:
             var6 = _closure1_slot0;
             var11 = _closure1_slot2;
@@ -520,7 +516,7 @@ case 66:
             var2 = var2.t;
             var3 = var2.O5+f5c;
             var2 = {};
-            var6 = var9[var7];
+            var6 = var9[var8];
             var2['a'] = var6;
             var6 = var9[var10];
             var2['b'] = var6;
@@ -540,22 +536,20 @@ case 65:
             var3 = var3.t;
             var4 = var3.YBnZK0;
             var3 = {};
-            var11 = var9[var7];
+            var11 = var9[var8];
             var3['a'] = var11;
             var10 = var9[var10];
             var3['b'] = var10;
-            var10 = var8.toLocaleString;
-            var10 = var10.bind(var8)();
-            var3['n'] = var10;
+            var3['n'] = var7;
             var2 = var5.bind(var6)(var4, var3);
 case 67:
             var1 = var2;
 case 64:
             _fun0008_ip = 68; continue _fun0008;
 case 56:
-            if(!(!(var8 > var7))) { _fun0008_ip = 69; continue _fun0008 }
+            if(!(!(var7 > var8))) { _fun0008_ip = 69; continue _fun0008 }
 case 70:
-            var2 = var9[var7];
+            var2 = var9[var8];
             _fun0008_ip = 71; continue _fun0008;
 case 69:
             var10 = _closure1_slot0;
@@ -571,10 +565,8 @@ case 69:
             var3 = var3.t;
             var4 = var3.SV/iZn;
             var3 = {};
-            var7 = var9[var7];
-            var3['a'] = var7;
-            var7 = var8.toLocaleString;
-            var7 = var7.bind(var8)();
+            var8 = var9[var8];
+            var3['a'] = var8;
             var3['n'] = var7;
             var2 = var5.bind(var6)(var4, var3);
 case 71:

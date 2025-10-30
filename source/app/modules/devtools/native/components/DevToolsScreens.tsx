@@ -94,12 +94,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['render'] = var8;
     var2['experiments'] = var4;
     var4 = {};
-    var8 = 'Data Storage';
+    var8 = 'Generated Test Users';
     var4['headerTitle'] = var8;
     var8 = 8;
     var8 = var6[var8];
     var8 = var5.bind(var1)(var8);
-    var8 = var8.FileUpIcon;
+    var8 = var8.UserIcon;
     var4['Icon'] = var8;
     var8 = function render() {
         var3 = _closure1_slot0;
@@ -115,14 +115,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var4['render'] = var8;
-    var2['dataStorage'] = var4;
+    var2['generatedTestUsers'] = var4;
     var4 = {};
-    var8 = 'Design Systems';
+    var8 = 'Data Storage';
     var4['headerTitle'] = var8;
     var8 = 10;
     var8 = var6[var8];
     var8 = var5.bind(var1)(var8);
-    var8 = var8.PaintPaletteIcon;
+    var8 = var8.FileUpIcon;
     var4['Icon'] = var8;
     var8 = function render() {
         var3 = _closure1_slot0;
@@ -138,14 +138,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var4['render'] = var8;
-    var2['designSystems'] = var4;
+    var2['dataStorage'] = var4;
     var4 = {};
-    var8 = 'Dismissible Contents';
+    var8 = 'Design Systems';
     var4['headerTitle'] = var8;
     var8 = 12;
     var8 = var6[var8];
     var8 = var5.bind(var1)(var8);
-    var8 = var8.PaperIcon;
+    var8 = var8.PaintPaletteIcon;
     var4['Icon'] = var8;
     var8 = function render() {
         var3 = _closure1_slot0;
@@ -161,14 +161,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var4['render'] = var8;
-    var2['dismissibleContent'] = var4;
+    var2['designSystems'] = var4;
     var4 = {};
-    var8 = 'Intl Testing';
+    var8 = 'Dismissible Contents';
     var4['headerTitle'] = var8;
     var8 = 14;
     var8 = var6[var8];
     var8 = var5.bind(var1)(var8);
-    var8 = var8.LanguageIcon;
+    var8 = var8.PaperIcon;
     var4['Icon'] = var8;
     var8 = function render() {
         var3 = _closure1_slot0;
@@ -184,14 +184,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var4['render'] = var8;
-    var2['i18n'] = var4;
+    var2['dismissibleContent'] = var4;
     var4 = {};
-    var8 = 'OTA Test';
+    var8 = 'Intl Testing';
     var4['headerTitle'] = var8;
     var8 = 16;
     var8 = var6[var8];
     var8 = var5.bind(var1)(var8);
-    var8 = var8.DownloadIcon;
+    var8 = var8.LanguageIcon;
     var4['Icon'] = var8;
     var8 = function render() {
         var3 = _closure1_slot0;
@@ -207,14 +207,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var4['render'] = var8;
-    var2['otatest'] = var4;
+    var2['i18n'] = var4;
     var4 = {};
-    var8 = 'Profiling';
+    var8 = 'OTA Test';
     var4['headerTitle'] = var8;
     var8 = 18;
     var8 = var6[var8];
     var8 = var5.bind(var1)(var8);
-    var8 = var8.TimerIcon;
+    var8 = var8.DownloadIcon;
     var4['Icon'] = var8;
     var8 = function render() {
         var3 = _closure1_slot0;
@@ -230,14 +230,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var4['render'] = var8;
-    var2['profiling'] = var4;
+    var2['otatest'] = var4;
     var4 = {};
-    var8 = 'Quick Actions';
+    var8 = 'Profiling';
     var4['headerTitle'] = var8;
     var8 = 20;
     var8 = var6[var8];
     var8 = var5.bind(var1)(var8);
-    var8 = var8.MagicWandIcon;
+    var8 = var8.TimerIcon;
     var4['Icon'] = var8;
     var8 = function render() {
         var3 = _closure1_slot0;
@@ -253,14 +253,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var4['render'] = var8;
-    var2['quickActions'] = var4;
+    var2['profiling'] = var4;
     var4 = {};
-    var8 = 'Revenue Playground';
+    var8 = 'Quick Actions';
     var4['headerTitle'] = var8;
     var8 = 22;
     var8 = var6[var8];
     var8 = var5.bind(var1)(var8);
-    var8 = var8.PiggyBankIcon;
+    var8 = var8.MagicWandIcon;
     var4['Icon'] = var8;
     var8 = function render() {
         var3 = _closure1_slot0;
@@ -276,14 +276,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var4['render'] = var8;
-    var2['revenuePlayground'] = var4;
+    var2['quickActions'] = var4;
     var4 = {};
-    var8 = 'Survey & Changelog Override';
+    var8 = 'Revenue Playground';
     var4['headerTitle'] = var8;
     var8 = 24;
     var8 = var6[var8];
     var8 = var5.bind(var1)(var8);
-    var8 = var8.PencilIcon;
+    var8 = var8.PiggyBankIcon;
     var4['Icon'] = var8;
     var8 = function render() {
         var3 = _closure1_slot0;
@@ -299,14 +299,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var4['render'] = var8;
-    var2['surveyOverride'] = var4;
+    var2['revenuePlayground'] = var4;
     var4 = {};
-    var8 = 'Toggles (Design, Reporting, etc)';
+    var8 = 'Survey & Changelog Override';
     var4['headerTitle'] = var8;
     var8 = 26;
     var8 = var6[var8];
     var8 = var5.bind(var1)(var8);
-    var8 = var8.EyeDropperIcon;
+    var8 = var8.PencilIcon;
     var4['Icon'] = var8;
     var8 = function render() {
         var3 = _closure1_slot0;
@@ -322,14 +322,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var4['render'] = var8;
-    var2['toggles'] = var4;
+    var2['surveyOverride'] = var4;
     var4 = {};
-    var8 = 'Bot Components Testing';
+    var8 = 'Toggles (Design, Reporting, etc)';
     var4['headerTitle'] = var8;
     var8 = 28;
     var8 = var6[var8];
     var8 = var5.bind(var1)(var8);
-    var8 = var8.RobotIcon;
+    var8 = var8.EyeDropperIcon;
     var4['Icon'] = var8;
     var8 = function render() {
         var3 = _closure1_slot0;
@@ -345,16 +345,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var4['render'] = var8;
-    var2['components'] = var4;
+    var2['toggles'] = var4;
     var4 = {};
-    var8 = 'Shop Product Preview Tool';
+    var8 = 'Bot Components Testing';
     var4['headerTitle'] = var8;
     var8 = 30;
     var8 = var6[var8];
     var8 = var5.bind(var1)(var8);
-    var8 = var8.ShopIcon;
+    var8 = var8.RobotIcon;
     var4['Icon'] = var8;
-    var7 = function render() {
+    var8 = function render() {
         var3 = _closure1_slot0;
         var4 = _closure1_slot1;
         var2 = 31;
@@ -367,9 +367,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var4)(var3, var1);
         return var1;
     };
+    var4['render'] = var8;
+    var2['components'] = var4;
+    var4 = {};
+    var8 = 'Shop Product Preview Tool';
+    var4['headerTitle'] = var8;
+    var8 = 32;
+    var8 = var6[var8];
+    var8 = var5.bind(var1)(var8);
+    var8 = var8.ShopIcon;
+    var4['Icon'] = var8;
+    var7 = function render() {
+        var3 = _closure1_slot0;
+        var4 = _closure1_slot1;
+        var2 = 33;
+        var2 = var4[var2];
+        var4 = undefined;
+        var2 = var3.bind(var4)(var2);
+        var3 = var2.default;
+        var2 = _closure1_slot2;
+        var1 = {};
+        var1 = var2.bind(var4)(var3, var1);
+        return var1;
+    };
     var4['render'] = var7;
     var2['shopProductPreview'] = var4;
-    var4 = 32;
+    var4 = 34;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

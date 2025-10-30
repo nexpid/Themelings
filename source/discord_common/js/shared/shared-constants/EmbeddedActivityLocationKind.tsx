@@ -18,6 +18,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['PRIVATE_CHANNEL'] = var1;
     var1 = 'pcm';
     var2['PRIVATE_CHANNEL_MESSAGE'] = var1;
+    var1 = 'party';
+    var2['PARTY'] = var1;
     var4 = dependencyMap;
     var1 = 0;
     var5 = var4[var1];

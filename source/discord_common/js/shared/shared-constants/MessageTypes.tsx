@@ -262,6 +262,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['EMOJI_ADDED'] = var6;
     var2 = 'EMOJI_ADDED';
     var4[var6] = var2;
+    var6 = 64;
+    var4['PREMIUM_GROUP_INVITE'] = var6;
+    var2 = 'PREMIUM_GROUP_INVITE';
+    var4[var6] = var2;
     var2 = {};
     var8 = var1.Set;
     var6 = var8.prototype;

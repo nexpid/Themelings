@@ -441,8 +441,8 @@ case 48:
             var16 = var15.UuzHh8;
             var15 = {};
             var23 = var24.config;
-            var23 = var23.application;
-            var23 = var23.name;
+            var23 = var23.messages;
+            var23 = var23.gameTitle;
             var15['activityName'] = var23;
             var15['streamingDurationRequirement'] = var22;
             var15['questReward'] = var20;
@@ -468,8 +468,8 @@ case 51:
             var17 = var16.0NNM3l;
             var16 = {};
             var23 = var24.config;
-            var23 = var23.application;
-            var23 = var23.name;
+            var23 = var23.messages;
+            var23 = var23.gameTitle;
             var16['activityName'] = var23;
             var23 = _closure1_slot9;
             var16['providerName'] = var23;
@@ -497,8 +497,8 @@ case 50:
             var18 = var17.C+2RxC;
             var17 = {};
             var24 = var24.config;
-            var24 = var24.application;
-            var24 = var24.name;
+            var24 = var24.messages;
+            var24 = var24.gameTitle;
             var17['activityName'] = var24;
             var24 = _closure1_slot9;
             var17['providerName'] = var24;

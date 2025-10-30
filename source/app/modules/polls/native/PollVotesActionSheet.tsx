@@ -125,7 +125,7 @@ case 0:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var24 = var4.bind(var6)(var1, var3);
+            var23 = var4.bind(var6)(var1, var3);
             var4 = _closure1_slot5;
             var3 = var4.useRef;
             var1 = null;
@@ -414,8 +414,6 @@ case 29:
             var12 = var12.t;
             var20 = var12.XRkuof;
             var12 = {};
-            var23 = var24.toLocaleString;
-            var23 = var23.bind(var24)();
             var12['count'] = var23;
             var12 = var21.bind(var22)(var20, var12);
             var7['children'] = var12;
@@ -1439,9 +1437,7 @@ case 79:
             var19 = var19.t;
             var20 = var19.SG/Cyy;
             var19 = {};
-            var23 = var9.toLocaleString;
-            var23 = var23.bind(var9)();
-            var19['count'] = var23;
+            var19['count'] = var9;
             var19 = var21.bind(var22)(var20, var19);
             var18[2] = var19;
             var8['children'] = var18;

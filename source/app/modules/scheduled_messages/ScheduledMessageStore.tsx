@@ -382,6 +382,20 @@ case 42:
         return var1;
     };
     var2['SCHEDULED_MESSAGES_CREATE_SUCCESS'] = var9;
+    var9 = function handleScheduledMessageUpdateSuccess(arg1) {
+        var1 = arg1;
+        var4 = var1.scheduledMessageSend;
+        var2 = {};
+        var5 = _closure1_slot6;
+        var6 = var2;
+        var3 = copyDataProperties(var6, var5);
+        var3 = var4.scheduledMessageId;
+        var2[var3] = var4;
+        _closure1_slot6 = var2;
+        var1 = undefined;
+        return var1;
+    };
+    var2['SCHEDULED_MESSAGES_UPDATE_SUCCESS'] = var9;
     var9 = function handleScheduledMessageDeleteStart(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:

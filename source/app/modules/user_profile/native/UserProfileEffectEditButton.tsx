@@ -69,14 +69,16 @@ case 0:
             var3 = arg1;
             var6 = var3.displayProfile;
             var _closure2_slot0 = var6;
-            var11 = var3.user;
-            var _closure2_slot1 = var11;
+            var12 = var3.user;
+            var _closure2_slot1 = var12;
             var2 = var3.pendingProfileEffect;
             var _closure2_slot2 = var2;
-            var12 = var3.guildId;
-            var _closure2_slot3 = var12;
+            var14 = var3.guildId;
+            var _closure2_slot3 = var14;
+            var11 = var3.isTryItOut;
+            var _closure2_slot4 = var11;
             var4 = undefined;
-            var _closure2_slot7 = var4;
+            var _closure2_slot8 = var4;
             var3 = _closure1_slot7;
             var15 = var3.bind(var4)();
             var5 = _closure1_slot1;
@@ -84,24 +86,24 @@ case 0:
             var3 = 5;
             var3 = var7[var3];
             var5 = var5.bind(var4)(var3);
-            var3 = var11.id;
+            var3 = var12.id;
             var7 = var5.bind(var4)(var3);
-            var _closure2_slot4 = var7;
+            var _closure2_slot5 = var7;
             var5 = null;
-            var3 = var5 != var12;
-            var _closure2_slot5 = var3;
+            var3 = var5 != var14;
+            var _closure2_slot6 = var3;
             var13 = var4 !== var2;
-            var _closure2_slot6 = var13;
+            var _closure2_slot7 = var13;
             var10 = _closure1_slot3;
             var8 = var10.useMemo;
-            var16 = var5 == var6;
-            var14 = undefined;
-            if(var16) { _fun0001_ip = 2; continue _fun0001 }
+            var17 = var5 == var6;
+            var16 = undefined;
+            if(var17) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var14 = var6.profileEffect;
+            var16 = var6.profileEffect;
 case 2:
             var6 = new Array(5);
-            var6[0] = var14;
+            var6[0] = var16;
             var6[1] = var13;
             var6[2] = var3;
             var6[3] = var2;
@@ -115,7 +117,7 @@ case 4:
             var2 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-                    var1 = _closure2_slot6;
+                    var1 = _closure2_slot7;
                     if(var1) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
                     var2 = _closure2_slot0;
@@ -129,7 +131,7 @@ case 9:
 case 8:
                     _fun0002_ip = 10; continue _fun0002;
 case 6:
-                    var2 = _closure2_slot5;
+                    var2 = _closure2_slot6;
                     if(!var2) { _fun0002_ip = 11; continue _fun0002 }
 case 12:
                     var2 = _closure2_slot2;
@@ -139,12 +141,12 @@ case 11:
                     var2 = _closure2_slot2;
                     _fun0002_ip = 14; continue _fun0002;
 case 13:
-                    var3 = _closure2_slot4;
+                    var3 = _closure2_slot5;
                     var5 = var5 == var3;
                     var3 = undefined;
                     if(var5) { _fun0002_ip = 15; continue _fun0002 }
 case 16:
-                    var4 = _closure2_slot4;
+                    var4 = _closure2_slot5;
                     var3 = var4.profileEffect;
 case 15:
                     var2 = var3;
@@ -155,7 +157,7 @@ case 10:
                 }
             };
             var13 = var8.bind(var10)(var2, var6);
-            _closure2_slot7 = var13;
+            _closure2_slot8 = var13;
             var6 = _closure1_slot0;
             var8 = _closure1_slot2;
             var2 = 6;
@@ -171,10 +173,11 @@ case 17:
             var2 = var6.bind(var8)(var2);
             var10 = _closure1_slot3;
             var8 = var10.useCallback;
-            var6 = new Array(3);
+            var6 = new Array(4);
             var6[0] = var13;
-            var6[1] = var12;
-            var6[2] = var11;
+            var6[1] = var14;
+            var6[2] = var12;
+            var6[3] = var11;
             var1 = function() {
                 var5 = _closure1_slot1;
                 var2 = _closure1_slot2;
@@ -194,10 +197,12 @@ case 17:
                 var3 = {};
                 var7 = _closure2_slot1;
                 var3['user'] = var7;
-                var7 = _closure2_slot7;
+                var7 = _closure2_slot8;
                 var3['currentProfileEffect'] = var7;
-                var2 = _closure2_slot3;
-                var3['guildId'] = var2;
+                var7 = _closure2_slot3;
+                var3['guildId'] = var7;
+                var2 = _closure2_slot4;
+                var3['isTryItOut'] = var2;
                 var2 = 'Profile Effect';
                 var2 = var5.bind(var6)(var4, var2, var3);
                 return var1;

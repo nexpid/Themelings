@@ -54,27 +54,9 @@ case 9:
 case 10:
             var2 = _closure1_slot2;
             var2 = var2.PREMIUM_TENURE_72_MONTH;
-            if(!(var2 !== var3)) { _fun0001_ip = 11; continue _fun0001 }
-case 12:
-            var2 = null;
-            return var2;
+            if(!(var2 !== var3)) { _fun0001_ip = 6; continue _fun0001 }
 case 11:
-            var7 = _closure1_slot0;
-            var8 = _closure1_slot1;
-            var2 = 3;
-            var4 = var8[var2];
-            var3 = undefined;
-            var4 = var7.bind(var3)(var4);
-            var6 = var4.intl;
-            var4 = var6.formatToPlainString;
-            var2 = var8[var2];
-            var2 = var7.bind(var3)(var2);
-            var2 = var2.t;
-            var3 = var2.IfYQVC;
-            var2 = {};
-            var7 = '6+';
-            var2['years'] = var7;
-            var2 = var4.bind(var6)(var3, var2);
+            var2 = null;
             return var2;
 case 6:
             var7 = _closure1_slot0;
@@ -133,8 +115,8 @@ case 0:
             var1 = var3.useTieredTenureBadge;
             var6 = var1.bind(var3)();
             var1 = null;
-            if(!(var1 != var6)) { _fun0002_ip = 13; continue _fun0002 }
-case 14:
+            if(!(var1 != var6)) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
             var4 = _closure1_slot0;
             var7 = _closure1_slot1;
             var3 = 2;
@@ -147,7 +129,7 @@ case 14:
             var2 = _closure1_slot3;
             var2 = var2.bind(var5)(var4, var3);
             return var2;
-case 13:
+case 12:
             return var1;
         }
     };

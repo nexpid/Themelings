@@ -32,21 +32,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot6 = var2;
     var2 = 3;
     var2 = var6[var2];
-    var2 = var7.bind(var1)(var2);
-    var _closure1_slot7 = var2;
-    var2 = 4;
-    var2 = var6[var2];
-    var2 = var7.bind(var1)(var2);
-    var _closure1_slot8 = var2;
-    var2 = 5;
-    var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
     var7 = var2.ME;
-    var _closure1_slot9 = var7;
+    var _closure1_slot7 = var7;
     var7 = var2.PopoutWindowKeys;
-    var _closure1_slot10 = var7;
+    var _closure1_slot8 = var7;
     var2 = var2.Routes;
-    var _closure1_slot11 = var2;
+    var _closure1_slot9 = var2;
     var2 = {};
     var7 = function selectChannel(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -61,7 +53,7 @@ case 0:
             var5 = var1.isInitialSetup;
             var3 = _closure1_slot1;
             var2 = _closure1_slot3;
-            var1 = 6;
+            var1 = 4;
             var2 = var2[var1];
             var1 = undefined;
             var4 = var3.bind(var1)(var2);
@@ -69,7 +61,7 @@ case 0:
             var2 = {};
             var13 = 'CHANNEL_SELECT';
             var2['type'] = var13;
-            var13 = _closure1_slot9;
+            var13 = _closure1_slot7;
             var11 = null;
             if(!(var12 !== var13)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
@@ -90,14 +82,14 @@ case 2:
     var7 = function selectPrivateChannel(arg1) {
         var4 = _closure1_slot0;
         var3 = _closure1_slot3;
-        var1 = 7;
+        var1 = 5;
         var3 = var3[var1];
         var1 = undefined;
         var4 = var4.bind(var1)(var3);
         var3 = var4.transitionTo;
-        var7 = _closure1_slot11;
+        var7 = _closure1_slot9;
         var6 = var7.CHANNEL;
-        var5 = _closure1_slot9;
+        var5 = _closure1_slot7;
         var2 = arg1;
         var2 = var6.bind(var7)(var5, var2);
         var2 = var3.bind(var4)(var2);
@@ -141,7 +133,7 @@ case 13:
 case 12:
             var10 = _closure1_slot0;
             var11 = _closure1_slot3;
-            var9 = 8;
+            var9 = 6;
             var9 = var11[var9];
             var10 = var10.bind(var1)(var9);
             var9 = var10.endHangout;
@@ -150,7 +142,7 @@ case 12:
 case 14:
             var10 = _closure1_slot0;
             var11 = _closure1_slot3;
-            var9 = 8;
+            var9 = 6;
             var9 = var11[var9];
             var10 = var10.bind(var1)(var9);
             var9 = var10.startHangout;
@@ -171,7 +163,7 @@ case 19:
 case 18:
             var3 = _closure1_slot0;
             var9 = _closure1_slot3;
-            var2 = 9;
+            var2 = 7;
             var2 = var9[var2];
             var3 = var3.bind(var1)(var2);
             var2 = var3.selectVoiceChannelAdditional;
@@ -190,95 +182,50 @@ case 16:
     var4 = function disconnect() {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-            var4 = this;
+            var6 = this;
             var3 = _closure1_slot4;
             var1 = var3.getRemoteSessionId;
-            var6 = var1.bind(var3)();
-            var3 = null;
-            if(!(var3 != var6)) { _fun0003_ip = 20; continue _fun0003 }
+            var4 = var1.bind(var3)();
+            var5 = null;
+            if(!(var5 != var4)) { _fun0003_ip = 20; continue _fun0003 }
 case 6:
             var7 = _closure1_slot2;
-            var5 = _closure1_slot3;
-            var1 = 10;
-            var5 = var5[var1];
+            var3 = _closure1_slot3;
+            var1 = 8;
+            var3 = var3[var1];
             var1 = undefined;
-            var5 = var7.bind(var1)(var5);
-            var1 = var5.remoteDisconnect;
-            var1 = var1.bind(var5)(var6);
+            var3 = var7.bind(var1)(var3);
+            var1 = var3.remoteDisconnect;
+            var1 = var1.bind(var3)(var4);
 case 20:
-            var6 = _closure1_slot0;
-            var5 = _closure1_slot3;
-            var1 = 11;
-            var5 = var5[var1];
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot3;
+            var1 = 9;
+            var3 = var3[var1];
             var1 = undefined;
-            var6 = var6.bind(var1)(var5);
-            var5 = var6.isVoicePanelEnabled;
-            var5 = var5.bind(var6)();
-            if(var5) { _fun0003_ip = 21; continue _fun0003 }
+            var4 = var4.bind(var1)(var3);
+            var3 = var4.isVoicePanelEnabled;
+            var3 = var3.bind(var4)();
+            var4 = var6.selectVoiceChannel;
+            var4 = var4.bind(var6)(var5);
+            if(var3) { _fun0003_ip = 21; continue _fun0003 }
 case 22:
-            var8 = _closure1_slot5;
-            var6 = var8.getChannel;
-            var7 = _closure1_slot7;
-            var5 = var7.getChannelId;
-            var5 = var5.bind(var7)();
-            var8 = var6.bind(var8)(var5);
-            var5 = var7.getChannelId;
-            var6 = var5.bind(var7)();
-            var5 = var7.getVoiceChannelId;
-            var5 = var5.bind(var7)();
-            var5 = var6 === var5;
-            if(!var5) { _fun0003_ip = 23; continue _fun0003 }
-case 24:
-            var6 = var3 == var8;
-            var7 = undefined;
-            if(var6) { _fun0003_ip = 25; continue _fun0003 }
-case 26:
-            var6 = var8.isThread;
-            var7 = var6.bind(var8)();
-case 25:
-            var6 = true;
-            var5 = var6 === var7;
-case 23:
-            var6 = var4.selectVoiceChannel;
-            var6 = var6.bind(var4)(var3);
-            var7 = _closure1_slot2;
-            var8 = _closure1_slot3;
-            var6 = 12;
-            var6 = var8[var6];
-            var8 = var7.bind(var1)(var6);
-            var7 = var8.close;
-            var6 = _closure1_slot10;
-            var6 = var6.CHANNEL_CALL_POPOUT;
-            var6 = var7.bind(var8)(var6);
-            if(!var5) { _fun0003_ip = 27; continue _fun0003 }
-case 28:
-            var6 = _closure1_slot8;
-            var5 = var6.getGuildId;
-            var8 = var5.bind(var6)();
-            if(!(var3 != var8)) { _fun0003_ip = 27; continue _fun0003 }
-case 29:
-            var7 = _closure1_slot0;
-            var9 = _closure1_slot3;
-            var2 = 7;
-            var2 = var9[var2];
-            var6 = var7.bind(var1)(var2);
-            var5 = var6.transitionTo;
-            var2 = 13;
-            var2 = var9[var2];
-            var7 = var7.bind(var1)(var2);
-            var2 = var7.previousTextChannelRouteForGuild;
-            var2 = var2.bind(var7)(var8);
-            var2 = var5.bind(var6)(var2);
-            _fun0003_ip = 27; continue _fun0003;
+            var4 = _closure1_slot2;
+            var5 = _closure1_slot3;
+            var3 = 10;
+            var3 = var5[var3];
+            var4 = var4.bind(var1)(var3);
+            var3 = var4.close;
+            var2 = _closure1_slot8;
+            var2 = var2.CHANNEL_CALL_POPOUT;
+            var2 = var3.bind(var4)(var2);
+            _fun0003_ip = 21; continue _fun0003;
 case 21:
-            var2 = var4.selectVoiceChannel;
-            var2 = var2.bind(var4)(var3);
-case 27:
             return var1;
         }
     };
     var2['disconnect'] = var4;
-    var4 = 14;
+    var4 = 11;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

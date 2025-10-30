@@ -195,6 +195,8 @@ case 10:
                 var4 = 0;
                 var1['resolutionWidth'] = var4;
                 var1['resolutionHeight'] = var4;
+                var6 = 1;
+                var1['zoom'] = var6;
                 var6 = new Array(0);
                 var1['videoStreams'] = var6;
                 var1['audioSSRC'] = var4;
@@ -283,7 +285,7 @@ case 10:
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(34);
+        var1 = new Array(35);
         var1[0] = var5;
         var5 = {};
         var7 = 'getUserID';
@@ -1344,6 +1346,8 @@ case 113:
             var2 = 0;
             var3['resolutionWidth'] = var2;
             var3['resolutionHeight'] = var2;
+            var2 = 1;
+            var3['zoom'] = var2;
             return var1;
         };
         var5['value'] = var7;
@@ -1384,10 +1388,18 @@ case 124:
 case 38:
                         var2 = _closure3_slot1;
                         var2 = var2.pixelCounts;
+                        var4 = global;
+                        var5 = var4.Math;
+                        var4 = var5.floor;
                         var1 = _closure3_slot0;
-                        var4 = var1.resolutionWidth;
-                        var1 = var1.resolutionHeight;
-                        var1 = var4 * var1;
+                        var7 = var1.resolutionWidth;
+                        var6 = var1.resolutionHeight;
+                        var7 = var7 * var6;
+                        var6 = var1.zoom;
+                        var6 = var7 * var6;
+                        var1 = var1.zoom;
+                        var1 = var6 * var1;
+                        var1 = var4.bind(var5)(var1);
                         var2[var3] = var1;
 case 126:
                         var1 = undefined;
@@ -1826,27 +1838,57 @@ case 136:
         var5 = {};
         var7 = 'setStreamId';
         var5['key'] = var7;
-        var6 = function value(arg1) {
+        var7 = function value(arg1) {
             _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
 case 0:
                 var1 = arg1;
                 var2 = this;
                 var3 = var2.streamId;
-                if(!(var3 !== var1)) { _fun0022_ip = 51; continue _fun0022 }
+                if(!(var3 !== var1)) { _fun0022_ip = 6; continue _fun0022 }
 case 46:
                 var2['streamId'] = var1;
                 var1 = 0;
                 var2['resolutionWidth'] = var1;
                 var2['resolutionHeight'] = var1;
+                var1 = 1;
+                var2['zoom'] = var1;
                 var1 = var2.delayedUpdate;
                 var1 = var1.bind(var2)();
-case 51:
+case 6:
+                var1 = undefined;
+                return var1;
+            }
+        };
+        var5['value'] = var7;
+        var1[33] = var5;
+        var5 = {};
+        var7 = 'setVideoZoom';
+        var5['key'] = var7;
+        var6 = function value(arg1, arg2) {
+            _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
+case 0:
+                var1 = arg2;
+                var2 = this;
+                var4 = var2.streamId;
+                var3 = arg1;
+                var3 = var4 === var3;
+                if(!var3) { _fun0023_ip = 29; continue _fun0023 }
+case 125:
+                var4 = var2.zoom;
+                var3 = var4 !== var1;
+case 29:
+                if(!var3) { _fun0023_ip = 9; continue _fun0023 }
+case 32:
+                var2['zoom'] = var1;
+                var1 = var2.delayedUpdate;
+                var1 = var1.bind(var2)();
+case 9:
                 var1 = undefined;
                 return var1;
             }
         };
         var5['value'] = var6;
-        var1[33] = var5;
+        var1[34] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

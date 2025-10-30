@@ -787,8 +787,8 @@ case 124:
             var2 = var9[var2];
             var12 = var3.bind(var15)(var2);
             var2 = var12.getTotalVotes;
-            var26 = var2.bind(var12)(var23);
-            _closure2_slot12 = var26;
+            var25 = var2.bind(var12)(var23);
+            _closure2_slot12 = var25;
             var28 = 16;
             var2 = var9[var28];
             var2 = var3.bind(var15)(var2);
@@ -799,8 +799,6 @@ case 124:
             var2 = var2.t;
             var12 = var2.XRkuof;
             var2 = {};
-            var25 = var26.toLocaleString;
-            var25 = var25.bind(var26)();
             var2['count'] = var25;
             var2 = var23.bind(var24)(var12, var2);
             _closure2_slot13 = var2;
@@ -1087,9 +1085,7 @@ case 146:
                         var1 = var1.t;
                         var2 = var1.XRkuof;
                         var1 = {};
-                        var6 = _closure3_slot0;
-                        var5 = var6.toLocaleString;
-                        var5 = var5.bind(var6)();
+                        var5 = _closure3_slot0;
                         var1['count'] = var5;
                         var1 = var3.bind(var4)(var2, var1);
                         return var1;

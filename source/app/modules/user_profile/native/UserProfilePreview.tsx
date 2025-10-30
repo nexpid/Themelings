@@ -129,7 +129,7 @@ case 0:
             var2 = arg1;
             var26 = var2.user;
             var42 = var2.guildId;
-            var11 = var2.pendingProfileEffectRecord;
+            var8 = var2.pendingProfileEffectRecord;
             var17 = var2.style;
             var20 = var2.compact;
             var4 = undefined;
@@ -138,7 +138,7 @@ case 11:
             var20 = false;
 case 3:
             var25 = var2.bioLineClamp;
-            var8 = var2.maxWidth;
+            var11 = var2.maxWidth;
             var35 = var2.gradientFullHeight;
             if(!(var35 === var4)) { _fun0002_ip = 12; continue _fun0002 }
 case 4:
@@ -170,7 +170,7 @@ case 13:
             var9 = null;
             var33 = var9 != var22;
             var2 = _closure1_slot9;
-            var13 = var2.bind(var4)(var20, var33, var8);
+            var13 = var2.bind(var4)(var20, var33, var11);
             var2 = 9;
             var2 = var7[var2];
             var2 = var3.bind(var4)(var2);
@@ -191,27 +191,41 @@ case 15:
             var2 = 11;
             var2 = var7[var2];
             var12 = var3.bind(var4)(var2);
-            var8 = var12.useUserProfileColors;
+            var11 = var12.useUserProfileColors;
             var2 = {};
             var2['theme'] = var5;
             var2['primaryColor'] = var22;
             var2['secondaryColor'] = var19;
-            var2 = var8.bind(var12)(var2);
+            var2 = var11.bind(var12)(var2);
             var23 = var2.gradientFallbackBackground;
             var39 = var2.avatarBackground;
             var27 = var2.containerBackground;
             var2 = 12;
             var2 = var7[var2];
             var7 = var3.bind(var4)(var2);
-            var3 = var7.getPreviewProfileEffect;
+            var3 = var7.getProfilePreviewValue;
             var2 = {};
-            var8 = null;
-            if(!(var8 !== var11)) { _fun0002_ip = 17; continue _fun0002 }
+            var2['pendingValue'] = var8;
+            var11 = var9 == var24;
+            var8 = undefined;
+            if(var11) { _fun0002_ip = 17; continue _fun0002 }
 case 18:
-            var8 = var11;
+            var8 = var24.profileEffect;
 case 17:
-            var2['pendingProfileEffect'] = var8;
-            var2['displayProfile'] = var24;
+            var2['userValue'] = var8;
+            var11 = var9 == var24;
+            var8 = undefined;
+            if(var11) { _fun0002_ip = 19; continue _fun0002 }
+case 20:
+            var11 = var24._guildMemberProfile;
+            var12 = var9 == var11;
+            var8 = undefined;
+            if(var12) { _fun0002_ip = 19; continue _fun0002 }
+case 21:
+            var8 = var11.profileEffect;
+case 19:
+            var2['guildValue'] = var8;
+            var2['guildId'] = var42;
             var14 = var3.bind(var7)(var2);
             var18 = _closure1_slot0;
             var36 = _closure1_slot2;
@@ -317,17 +331,17 @@ case 17:
             var8['pendingAvatarSrc'] = var41;
             var17 = var9 != var16;
             var12 = undefined;
-            if(!var17) { _fun0002_ip = 19; continue _fun0002 }
-case 20:
+            if(!var17) { _fun0002_ip = 22; continue _fun0002 }
+case 23:
             var12 = var16;
-case 19:
+case 22:
             var8['pendingAccentColor'] = var12;
             var16 = var9 != var15;
             var12 = undefined;
-            if(!var16) { _fun0002_ip = 21; continue _fun0002 }
-case 22:
+            if(!var16) { _fun0002_ip = 24; continue _fun0002 }
+case 25:
             var12 = var15;
-case 21:
+case 24:
             var8['pendingThemeColors'] = var12;
             var38 = true;
             var8['disableInteraction'] = var38;
@@ -364,25 +378,25 @@ case 21:
             var19 = new Array(3);
             var19[0] = var22;
             var22 = !var21;
-            if(var21) { _fun0002_ip = 23; continue _fun0002 }
-case 24:
+            if(var21) { _fun0002_ip = 26; continue _fun0002 }
+case 27:
             var23 = {};
             var36 = _closure1_slot5;
             var23['paddingTop'] = var36;
             var22 = var23;
-case 23:
+case 26:
             var19[1] = var22;
             var22 = {};
             var23 = undefined;
-            if(!var35) { _fun0002_ip = 25; continue _fun0002 }
-case 26:
+            if(!var35) { _fun0002_ip = 28; continue _fun0002 }
+case 29:
             var23 = '100%';
-case 25:
+case 28:
             var22['height'] = var23;
             var19[2] = var22;
             var17['containerStyle'] = var19;
-            if(!var21) { _fun0002_ip = 27; continue _fun0002 }
-case 28:
+            if(!var21) { _fun0002_ip = 30; continue _fun0002 }
+case 31:
             var23 = _closure1_slot7;
             var22 = _closure1_slot1;
             var35 = _closure1_slot2;
@@ -400,7 +414,7 @@ case 28:
             var32 = var32.emojiOnlyCustomStatusBubble;
             var19['emojiOnlyStyle'] = var32;
             var21 = var23.bind(var4)(var22, var19);
-case 27:
+case 30:
             var19 = new Array(3);
             var19[0] = var21;
             var23 = _closure1_slot7;
@@ -415,16 +429,16 @@ case 27:
             var32 = var32.PREVIEW;
             var21['themeType'] = var32;
             var21['displayName'] = var31;
-            if(!(var9 == var30)) { _fun0002_ip = 29; continue _fun0002 }
-case 30:
+            if(!(var9 == var30)) { _fun0002_ip = 32; continue _fun0002 }
+case 33:
             var32 = var9 == var24;
             var31 = undefined;
-            if(var32) { _fun0002_ip = 31; continue _fun0002 }
-case 32:
+            if(var32) { _fun0002_ip = 34; continue _fun0002 }
+case 35:
             var31 = var24.pronouns;
-case 31:
+case 34:
             var30 = var31;
-case 29:
+case 32:
             var21['pronouns'] = var30;
             var21['badges'] = var29;
             var21['badgeContainerBackground'] = var27;
@@ -432,8 +446,8 @@ case 29:
             var21 = var23.bind(var4)(var22, var21);
             var19[1] = var21;
             var20 = !var20;
-            if(!var20) { _fun0002_ip = 33; continue _fun0002 }
-case 34:
+            if(!var20) { _fun0002_ip = 36; continue _fun0002 }
+case 37:
             var23 = _closure1_slot7;
             var22 = _closure1_slot1;
             var28 = _closure1_slot2;
@@ -456,13 +470,13 @@ case 34:
             var21['style'] = var24;
             var26 = var9 != var25;
             var24 = 3;
-            if(!var26) { _fun0002_ip = 35; continue _fun0002 }
-case 36:
+            if(!var26) { _fun0002_ip = 38; continue _fun0002 }
+case 39:
             var24 = var25;
-case 35:
+case 38:
             var21['bioLineClamp'] = var24;
             var20 = var23.bind(var4)(var22, var21);
-case 33:
+case 36:
             var19[2] = var20;
             var17['children'] = var19;
             var17 = var15.bind(var4)(var18, var17);
@@ -471,8 +485,8 @@ case 33:
             var11 = var15.bind(var4)(var12, var11);
             var8[1] = var11;
             var9 = var9 != var14;
-            if(!var9) { _fun0002_ip = 37; continue _fun0002 }
-case 38:
+            if(!var9) { _fun0002_ip = 40; continue _fun0002 }
+case 41:
             var12 = _closure1_slot7;
             var11 = _closure1_slot1;
             var15 = _closure1_slot2;
@@ -485,7 +499,7 @@ case 38:
             var13 = var13.profileEffect;
             var10['style'] = var13;
             var9 = var12.bind(var4)(var11, var10);
-case 37:
+case 40:
             var8[2] = var9;
             var5['children'] = var8;
             var5 = var7.bind(var4)(var6, var5);

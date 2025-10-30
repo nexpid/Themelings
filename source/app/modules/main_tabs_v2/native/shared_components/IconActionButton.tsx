@@ -211,18 +211,18 @@ case 10:
                 };
                 var1 = var7.bind(var8)(var1, var3);
                 var3 = null;
-                if(!(var3 == var5)) { _fun0003_ip = 11; continue _fun0003 }
-case 12:
-                var1 = var1.bind(var4)();
-                _fun0003_ip = 13; continue _fun0003;
+                if(!(var3 == var5)) { _fun0003_ip = 5; continue _fun0003 }
 case 11:
+                var1 = var1.bind(var4)();
+                _fun0003_ip = 12; continue _fun0003;
+case 5:
                 var3 = _closure1_slot4;
                 var2 = {};
                 var7 = 'sm';
                 var2['size'] = var7;
                 var2['color'] = var6;
                 var1 = var3.bind(var4)(var5, var2);
-case 13:
+case 12:
                 return var1;
             }
         };
@@ -242,25 +242,25 @@ case 0:
                 var18 = var1.IconComponent;
                 var20 = var1.variant;
                 var4 = undefined;
-                if(!(var20 === var4)) { _fun0005_ip = 14; continue _fun0005 }
-case 15:
-                var20 = 'filled';
+                if(!(var20 === var4)) { _fun0005_ip = 13; continue _fun0005 }
 case 14:
+                var20 = 'filled';
+case 13:
                 var17 = var1.color;
                 var16 = var1.buttonText;
                 var5 = var1.accessibilityLabel;
                 var11 = var1.style;
                 var6 = var1.badge;
                 var10 = var1.badgePosition;
-                if(!(var10 === var4)) { _fun0005_ip = 16; continue _fun0005 }
-case 17:
-                var10 = 'left';
+                if(!(var10 === var4)) { _fun0005_ip = 15; continue _fun0005 }
 case 16:
+                var10 = 'left';
+case 15:
                 var13 = var1.count;
-                if(!(var13 === var4)) { _fun0005_ip = 18; continue _fun0005 }
-case 19:
-                var13 = 0;
+                if(!(var13 === var4)) { _fun0005_ip = 17; continue _fun0005 }
 case 18:
+                var13 = 0;
+case 17:
                 var19 = var1.noMargin;
                 var23 = var1.hitSlop;
                 var12 = var1.disabled;
@@ -277,12 +277,12 @@ case 18:
                 var2 = var1.bind(var2)();
                 var8 = null;
                 var9 = var8 != var16;
-                if(!var9) { _fun0005_ip = 20; continue _fun0005 }
-case 21:
+                if(!var9) { _fun0005_ip = 19; continue _fun0005 }
+case 20:
                 var1 = 1.2;
                 var1 = var2 > var1;
                 var9 = !var1;
-case 20:
+case 19:
                 var3 = _closure1_slot5;
                 var2 = _closure1_slot0;
                 var24 = _closure1_slot2;
@@ -302,25 +302,25 @@ case 20:
                 var5 = new Array(5);
                 var5[0] = var12;
                 var12 = 'outlined';
-                if(!(var12 !== var20)) { _fun0005_ip = 22; continue _fun0005 }
-case 23:
-                var12 = var14.filled;
-                _fun0005_ip = 24; continue _fun0005;
+                if(!(var12 !== var20)) { _fun0005_ip = 21; continue _fun0005 }
 case 22:
+                var12 = var14.filled;
+                _fun0005_ip = 23; continue _fun0005;
+case 21:
                 var12 = var14.outlined;
-case 24:
+case 23:
                 var5[1] = var12;
                 var12 = undefined;
-                if(var9) { _fun0005_ip = 25; continue _fun0005 }
-case 26:
-                var12 = var14.roundButton;
+                if(var9) { _fun0005_ip = 24; continue _fun0005 }
 case 25:
+                var12 = var14.roundButton;
+case 24:
                 var5[2] = var12;
                 var12 = undefined;
-                if(!var19) { _fun0005_ip = 27; continue _fun0005 }
-case 28:
-                var12 = var14.withoutMargin;
+                if(!var19) { _fun0005_ip = 26; continue _fun0005 }
 case 27:
+                var12 = var14.withoutMargin;
+case 26:
                 var5[3] = var12;
                 var5[4] = var11;
                 var1['style'] = var5;
@@ -333,8 +333,8 @@ case 27:
                 var11 = var12.bind(var4)(var11, var5);
                 var5 = new Array(4);
                 var5[0] = var11;
-                if(!var9) { _fun0005_ip = 29; continue _fun0005 }
-case 30:
+                if(!var9) { _fun0005_ip = 28; continue _fun0005 }
+case 29:
                 var15 = _closure1_slot4;
                 var12 = _closure1_slot0;
                 var17 = _closure1_slot2;
@@ -349,13 +349,13 @@ case 30:
                 var11['style'] = var17;
                 var11['children'] = var16;
                 var9 = var15.bind(var4)(var12, var11);
-case 29:
+case 28:
                 var5[1] = var9;
                 var9 = 0;
                 var9 = var13 > var9;
                 var8 = null;
-                if(!var9) { _fun0005_ip = 31; continue _fun0005 }
-case 32:
+                if(!var9) { _fun0005_ip = 30; continue _fun0005 }
+case 31:
                 var12 = _closure1_slot4;
                 var11 = _closure1_slot1;
                 var15 = _closure1_slot2;
@@ -367,16 +367,16 @@ case 32:
                 var9['style'] = var14;
                 var9['value'] = var13;
                 var8 = var12.bind(var4)(var11, var9);
-case 31:
+case 30:
                 var5[2] = var8;
-                if(!var6) { _fun0005_ip = 33; continue _fun0005 }
-case 34:
+                if(!var6) { _fun0005_ip = 32; continue _fun0005 }
+case 33:
                 var9 = _closure1_slot4;
                 var8 = _closure1_slot8;
                 var7 = {};
                 var7['badgePosition'] = var10;
                 var6 = var9.bind(var4)(var8, var7);
-case 33:
+case 32:
                 var5[3] = var6;
                 var1['children'] = var5;
                 var1 = var3.bind(var4)(var2, var1);

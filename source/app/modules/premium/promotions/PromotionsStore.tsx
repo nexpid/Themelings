@@ -755,6 +755,9 @@ case 8:
         var4[var6] = var5;
         _closure1_slot16 = var4;
         _closure1_slot11 = var3;
+        var3 = _closure1_slot18;
+        var2 = var3.clear;
+        var2 = var2.bind(var3)();
         return var1;
     };
     var2['LOGOUT'] = var4;
