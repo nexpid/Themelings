@@ -19,6 +19,16 @@
         "width": 36,
         "height": 36
     },
+    "AchievementsIcon": {
+        "file": "app/design/components/Icon/native/redesign/generated/images/AchievementsIcon.png",
+        "hash": "8bdbb02a4c6275c18ce3f3490f04249a",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "ActivitiesIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ActivitiesIcon.png",
         "hash": "2840dd0bc0ba9b7185215e915329744e",
@@ -989,6 +999,16 @@
         "width": 24,
         "height": 24
     },
+    "BurgerIcon": {
+        "file": "app/design/components/Icon/native/redesign/generated/images/BurgerIcon.png",
+        "hash": "18c1611197eec1eb385db3a0d0ff7934",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "cactus": {
         "file": "app/modules/guild_role_subscriptions/native/images/cactus.png",
         "hash": "67e9bc8b12cbc0fed84dfc34cd178623",
@@ -1157,6 +1177,16 @@
         ],
         "width": 88,
         "height": 85
+    },
+    "CarIcon": {
+        "file": "app/design/components/Icon/native/redesign/generated/images/CarIcon.png",
+        "hash": "1191b1eb29ead1702c1249737c7b2eb3",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
     },
     "channel_following_success_1": {
         "file": "app/images/channel_following/dark/channel_following_success_1.png",
@@ -9581,6 +9611,16 @@
         "width": 375,
         "height": 212
     },
+    "InventoryIcon": {
+        "file": "app/design/components/Icon/native/redesign/generated/images/InventoryIcon.png",
+        "hash": "048586dbdcf5208bc513eb083d58fa64",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "invite": {
         "file": "app/modules/directory_channels/native/images/invite.png",
         "hash": "cf9fbd33b5f8251873e494b446828ceb",
@@ -10850,6 +10890,16 @@
         "width": 24,
         "height": 24
     },
+    "PawPrintIcon": {
+        "file": "app/design/components/Icon/native/redesign/generated/images/PawPrintIcon.png",
+        "hash": "9fc62fd33f6277c2ef08c7e617845112",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "PencilIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/PencilIcon.png",
         "hash": "b38705c98163081f2b99111b58892bae",
@@ -11230,6 +11280,16 @@
     "ReactionIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/ReactionIcon.png",
         "hash": "dacea0e99f283d0454e6dc2370867a8a",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
+    "RecordPlayerIcon": {
+        "file": "app/design/components/Icon/native/redesign/generated/images/RecordPlayerIcon.png",
+        "hash": "493935d9d9a8ea9f28b4346f923318e6",
         "scales": [
             2,
             3
@@ -12035,9 +12095,19 @@
         "width": 16,
         "height": 16
     },
+    "SpeedometerIcon": {
+        "file": "app/design/components/Icon/native/redesign/generated/images/SpeedometerIcon.png",
+        "hash": "526abb597e4f6a051190c5013a05dd89",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "SpendEarnOrbs": {
         "file": "app/design/components/LottieIcon/native/generated/lotties/SpendEarnOrbs.lottie",
-        "hash": "b2bc444db9cae6b34cebe16db6f4d97e",
+        "hash": "3712e3aa74966ab918e86302cf0f502f",
         "scales": [
             1
         ],
@@ -12046,7 +12116,7 @@
     },
     "SpendEarnOrbsLightTheme": {
         "file": "app/design/components/LottieIcon/native/generated/lotties/SpendEarnOrbsLightTheme.lottie",
-        "hash": "c6e628162099a849e9d1af7d811d1feb",
+        "hash": "6ab310fc9336bead9d2a9726051f2397",
         "scales": [
             1
         ],
@@ -12523,6 +12593,16 @@
         "width": 24,
         "height": 24
     },
+    "TeacupIcon": {
+        "file": "app/design/components/Icon/native/redesign/generated/images/TeacupIcon.png",
+        "hash": "e5b550421af63285b9422b3ce8c41b80",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "telegram": {
         "file": "app/modules/instant_invite/native/images/telegram.png",
         "hash": "580460ed12da01baebfa5215c1203c15",
@@ -12847,6 +12927,16 @@
         ],
         "width": 70,
         "height": 47
+    },
+    "TrainIcon": {
+        "file": "app/design/components/Icon/native/redesign/generated/images/TrainIcon.png",
+        "hash": "7ffae565e39242117ad9f560fe64ed56",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
     },
     "TranscriptOutlineIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/TranscriptOutlineIcon.png",
