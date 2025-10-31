@@ -33,19 +33,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var7.bind(var1)(var5);
     var6 = var9.createExperiment;
     var5 = {'kind': 'user', 'id': '2022-11_clips_experiment', 'label': 'Clips Experiment'};
-    var10 = {'enableClips': false, 'ignorePlatformRestriction': false, 'showClipsHeaderEntrypoint': false};
+    var10 = {'enableClips': false, 'ignorePlatformRestriction': false, 'showClipsHeaderEntrypoint': false, 'enableScreenshotKeybind': false, 'enableVoiceOnlyClips': false, 'enableAdvancedSignals': false};
     var5['defaultConfig'] = var10;
     var11 = {'id': 1, 'label': 'Clips without upsells'};
-    var10 = {'enableClips': true, 'ignorePlatformRestriction': false, 'showClipsHeaderEntrypoint': true};
+    var10 = {'enableClips': true, 'ignorePlatformRestriction': false, 'showClipsHeaderEntrypoint': true, 'enableScreenshotKeybind': false, 'enableVoiceOnlyClips': false, 'enableAdvancedSignals': false};
     var11['config'] = var10;
     var10 = new Array(3);
     var10[0] = var11;
     var11 = {'id': 2, 'label': 'Clips with upsells'};
-    var12 = {'enableClips': true, 'ignorePlatformRestriction': false, 'showClipsHeaderEntrypoint': true};
+    var12 = {'enableClips': true, 'ignorePlatformRestriction': false, 'showClipsHeaderEntrypoint': true, 'enableScreenshotKeybind': false, 'enableVoiceOnlyClips': false, 'enableAdvancedSignals': false};
     var11['config'] = var12;
     var10[1] = var11;
     var11 = {'id': 99, 'label': 'Clips 4 da Developerz'};
-    var12 = {'enableClips': true, 'ignorePlatformRestriction': true, 'showClipsHeaderEntrypoint': true};
+    var12 = {'enableClips': true, 'ignorePlatformRestriction': true, 'showClipsHeaderEntrypoint': true, 'enableScreenshotKeybind': true, 'enableVoiceOnlyClips': true, 'enableAdvancedSignals': true};
     var11['config'] = var12;
     var10[2] = var11;
     var5['treatments'] = var10;
@@ -55,15 +55,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var7.bind(var1)(var4);
     var6 = var9.createExperiment;
     var4 = {'kind': 'user', 'id': '2023-09_clips_nitro_early_access', 'label': 'Clips (Nitro EA)'};
-    var10 = {'enableClips': false, 'enablePremiumEarlyAccessAnnouncementCoachmark': false, 'enablePremiumEarlyAccessGoLiveRoadblock': false};
+    var10 = {'enableClips': false, 'enablePremiumEarlyAccessAnnouncementCoachmark': false, 'enablePremiumEarlyAccessGoLiveRoadblock': false, 'enableScreenshotKeybind': false, 'enableVoiceOnlyClips': false, 'enableAdvancedSignals': false};
     var4['defaultConfig'] = var10;
     var11 = {'id': 1, 'label': 'Clips Nitro EA Upsells Visible'};
-    var10 = {'enableClips': false, 'enablePremiumEarlyAccessAnnouncementCoachmark': true, 'enablePremiumEarlyAccessGoLiveRoadblock': true};
+    var10 = {'enableClips': false, 'enablePremiumEarlyAccessAnnouncementCoachmark': true, 'enablePremiumEarlyAccessGoLiveRoadblock': true, 'enableScreenshotKeybind': false, 'enableVoiceOnlyClips': false, 'enableAdvancedSignals': false};
     var11['config'] = var10;
     var10 = new Array(2);
     var10[0] = var11;
     var11 = {'id': 2, 'label': 'Clips Enabled (Nitro)'};
-    var12 = {'enableClips': true, 'enablePremiumEarlyAccessAnnouncementCoachmark': true, 'enablePremiumEarlyAccessGoLiveRoadblock': false};
+    var12 = {'enableClips': true, 'enablePremiumEarlyAccessAnnouncementCoachmark': true, 'enablePremiumEarlyAccessGoLiveRoadblock': false, 'enableScreenshotKeybind': false, 'enableVoiceOnlyClips': false, 'enableAdvancedSignals': false};
     var11['config'] = var12;
     var10[1] = var11;
     var4['treatments'] = var10;
@@ -276,7 +276,7 @@ case 20:
         }
     };
     var3['useShouldSeeClipsPremiumEarlyAccessAnnouncementCoachmark'] = var4;
-    var2 = function isUserPremiumTypeForClipsEarlyAccess(arg1) {
+    var4 = function isUserPremiumTypeForClipsEarlyAccess(arg1) {
         var4 = _closure1_slot0;
         var3 = _closure1_slot1;
         var2 = 6;
@@ -291,6 +291,62 @@ case 20:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var3['isUserPremiumTypeForClipsEarlyAccess'] = var2;
+    var3['isUserPremiumTypeForClipsEarlyAccess'] = var4;
+    var4 = function isScreenshotKeybindEnabled() {
+        var4 = _closure1_slot5;
+        var3 = var4.getCurrentConfig;
+        var2 = {};
+        var1 = 'isScreenshotKeybindEnabled';
+        var2['location'] = var1;
+        var1 = {};
+        var5 = false;
+        var1['autoTrackExposure'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
+        var1 = var1.enableScreenshotKeybind;
+        return var1;
+    };
+    var3['isScreenshotKeybindEnabled'] = var4;
+    var4 = function useScreenshotKeybindEnabled() {
+        var4 = _closure1_slot5;
+        var3 = var4.useExperiment;
+        var2 = {};
+        var1 = 'useScreenshotKeybindEnabled';
+        var2['location'] = var1;
+        var1 = {};
+        var5 = false;
+        var1['autoTrackExposure'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
+        var1 = var1.enableScreenshotKeybind;
+        return var1;
+    };
+    var3['useScreenshotKeybindEnabled'] = var4;
+    var4 = function areVoiceOnlyClipsEnabled() {
+        var4 = _closure1_slot5;
+        var3 = var4.getCurrentConfig;
+        var2 = {};
+        var1 = 'areVoiceOnlyClipsEnabled';
+        var2['location'] = var1;
+        var1 = {};
+        var5 = false;
+        var1['autoTrackExposure'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
+        var1 = var1.enableVoiceOnlyClips;
+        return var1;
+    };
+    var3['areVoiceOnlyClipsEnabled'] = var4;
+    var2 = function areAdvancedSignalsEnabled() {
+        var4 = _closure1_slot5;
+        var3 = var4.getCurrentConfig;
+        var2 = {};
+        var1 = 'areAdvancedSignalsEnabled';
+        var2['location'] = var1;
+        var1 = {};
+        var5 = false;
+        var1['autoTrackExposure'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
+        var1 = var1.enableAdvancedSignals;
+        return var1;
+    };
+    var3['areAdvancedSignalsEnabled'] = var2;
     return var1;
 })();

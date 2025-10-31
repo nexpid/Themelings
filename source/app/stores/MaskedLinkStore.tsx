@@ -63,36 +63,31 @@ case 0:
                 var1 = global;
                 var3 = var1.window;
                 var3 = var3.GLOBAL_ENV;
-                var3 = var3.CDN_HOST;
+                var3 = var3.INVITE_HOST;
                 if(!(var3 !== var4)) { _fun0003_ip = 6; continue _fun0003 }
 case 7:
                 var3 = var1.window;
                 var3 = var3.GLOBAL_ENV;
-                var3 = var3.INVITE_HOST;
+                var3 = var3.GIFT_CODE_HOST;
                 if(!(var3 !== var4)) { _fun0003_ip = 6; continue _fun0003 }
 case 8:
                 var3 = var1.window;
                 var3 = var3.GLOBAL_ENV;
-                var3 = var3.GIFT_CODE_HOST;
-                if(!(var3 !== var4)) { _fun0003_ip = 6; continue _fun0003 }
-case 9:
-                var3 = var1.window;
-                var3 = var3.GLOBAL_ENV;
                 var3 = var3.GUILD_TEMPLATE_HOST;
                 if(!(var3 !== var4)) { _fun0003_ip = 6; continue _fun0003 }
-case 10:
+case 9:
                 var3 = _closure1_slot11;
                 if(!(var3 !== var4)) { _fun0003_ip = 6; continue _fun0003 }
-case 11:
+case 10:
                 var1 = var1.location;
                 var1 = var1.hostname;
                 if(!(var1 !== var4)) { _fun0003_ip = 6; continue _fun0003 }
-case 12:
+case 11:
                 var3 = _closure1_slot8;
                 var1 = var3.includes;
                 var1 = var1.bind(var3)(var4);
-                if(var1) { _fun0003_ip = 13; continue _fun0003 }
-case 14:
+                if(var1) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
                 var5 = _closure1_slot1;
                 var7 = _closure1_slot2;
                 var3 = 7;
@@ -100,13 +95,13 @@ case 14:
                 var5 = var5.bind(var6)(var3);
                 var3 = var5.isDiscordHostname;
                 var1 = var3.bind(var5)(var4);
-case 13:
-                if(var1) { _fun0003_ip = 15; continue _fun0003 }
-case 16:
+case 12:
+                if(var1) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
                 var3 = _closure1_slot9;
                 var2 = var3.has;
                 var1 = var2.bind(var3)(var4);
-case 15:
+case 14:
                 return var1;
 case 6:
                 var1 = true;
@@ -184,13 +179,13 @@ case 6:
         var2 = null;
         var8 = var2 == var11;
         var2 = undefined;
-        if(var8) { _fun0001_ip = 17; continue _fun0001 }
-case 18:
+        if(var8) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
         var10 = var11.replace;
         var9 = '//';
         var8 = '';
         var2 = var10.bind(var11)(var9, var8);
-case 17:
+case 16:
         var _closure1_slot11 = var2;
         var2 = 9;
         var2 = var6[var2];
@@ -211,14 +206,14 @@ case 0:
                     var2 = _closure1_slot5;
                     var1 = _closure1_slot12;
                     var1 = var1.bind(var3)();
-                    if(var1) { _fun0004_ip = 19; continue _fun0004 }
-case 20:
+                    if(var1) { _fun0004_ip = 18; continue _fun0004 }
+case 19:
                     var7 = var9.apply;
                     var5 = arguments;
                     var1 = var5;
                     var1 = var7.bind(var9)(var4, var1);
-                    _fun0004_ip = 21; continue _fun0004;
-case 19:
+                    _fun0004_ip = 20; continue _fun0004;
+case 18:
                     var7 = global;
                     var8 = var7.Reflect;
                     var7 = var8.construct;
@@ -227,7 +222,7 @@ case 19:
                     var6 = var6.constructor;
                     var5 = arguments;
                     var1 = var7.bind(var8)(var9, var5, var6);
-case 21:
+case 20:
                     var1 = var2.bind(var3)(var4, var1);
                     return var1;
                 }
@@ -255,28 +250,28 @@ case 0:
                     var2 = 'MaskedLinkStore';
                     var5 = var4.bind(var5)(var2);
                     var6 = null;
-                    if(!(var6 == var5)) { _fun0005_ip = 22; continue _fun0005 }
-case 23:
-                    var5 = {};
+                    if(!(var6 == var5)) { _fun0005_ip = 21; continue _fun0005 }
 case 22:
+                    var5 = {};
+case 21:
                     var2 = global;
                     var7 = var2.Array;
                     var4 = var7.isArray;
                     var4 = var4.bind(var7)(var5);
                     var8 = var5;
-                    if(var4) { _fun0005_ip = 24; continue _fun0005 }
-case 25:
+                    if(var4) { _fun0005_ip = 23; continue _fun0005 }
+case 24:
                     var11 = var8.trustedDomains;
                     var10 = var8.trustedProtocols;
                     var7 = var2.Set;
                     var5 = var6 != var11;
                     var4 = null;
-                    if(!var5) { _fun0005_ip = 26; continue _fun0005 }
-case 27:
+                    if(!var5) { _fun0005_ip = 25; continue _fun0005 }
+case 26:
                     var9 = var2.Array;
                     var5 = var9.from;
                     var4 = var5.bind(var9)(var11);
-case 26:
+case 25:
                     var5 = var7.prototype;
                     var5 = Object.create(var5, {constructor: {value: var7}});
                     var13 = var5;
@@ -287,12 +282,12 @@ case 26:
                     var7 = var2.Set;
                     var5 = var6 != var10;
                     var4 = null;
-                    if(!var5) { _fun0005_ip = 28; continue _fun0005 }
-case 29:
+                    if(!var5) { _fun0005_ip = 27; continue _fun0005 }
+case 28:
                     var9 = var2.Array;
                     var5 = var9.from;
                     var4 = var5.bind(var9)(var10);
-case 28:
+case 27:
                     var5 = var7.prototype;
                     var5 = Object.create(var5, {constructor: {value: var7}});
                     var13 = var5;
@@ -300,17 +295,17 @@ case 28:
                     var4 = new var13[var7](var12, var11);
                     var4 = var4 instanceof Object ? var4 : var5;
                     _closure1_slot10 = var4;
-                    _fun0005_ip = 30; continue _fun0005;
-case 24:
+                    _fun0005_ip = 29; continue _fun0005;
+case 23:
                     var4 = var2.Set;
                     var5 = var6 != var8;
                     var6 = null;
-                    if(!var5) { _fun0005_ip = 31; continue _fun0005 }
-case 32:
+                    if(!var5) { _fun0005_ip = 30; continue _fun0005 }
+case 31:
                     var7 = var2.Array;
                     var5 = var7.from;
                     var6 = var5.bind(var7)(var8);
-case 31:
+case 30:
                     var5 = var4.prototype;
                     var5 = Object.create(var5, {constructor: {value: var4}});
                     var13 = var5;
@@ -325,7 +320,7 @@ case 31:
                     var2 = new var13[var2](var12);
                     var2 = var2 instanceof Object ? var2 : var4;
                     _closure1_slot10 = var2;
-case 30:
+case 29:
                     return var1;
                 }
             };
@@ -374,8 +369,8 @@ case 0:
                 var3 = _closure1_slot13;
                 var1 = undefined;
                 var3 = var3.bind(var1)(var9);
-                if(var3) { _fun0006_ip = 33; continue _fun0006 }
-case 34:
+                if(var3) { _fun0006_ip = 32; continue _fun0006 }
+case 33:
                 var7 = _closure1_slot9;
                 var6 = var7.add;
                 var4 = _closure1_slot0;
@@ -399,7 +394,7 @@ case 34:
                 var2 = 'MaskedLinkStore';
                 var2 = var4.bind(var5)(var2, var3);
                 return var1;
-case 33:
+case 32:
                 var1 = false;
                 return var1;
             }
@@ -413,8 +408,8 @@ case 0:
                 var3 = _closure1_slot14;
                 var1 = undefined;
                 var3 = var3.bind(var1)(var9);
-                if(var3) { _fun0007_ip = 33; continue _fun0007 }
-case 34:
+                if(var3) { _fun0007_ip = 32; continue _fun0007 }
+case 33:
                 var7 = _closure1_slot10;
                 var6 = var7.add;
                 var4 = _closure1_slot0;
@@ -438,7 +433,7 @@ case 34:
                 var2 = 'MaskedLinkStore';
                 var2 = var4.bind(var5)(var2, var3);
                 return var1;
-case 33:
+case 32:
                 var1 = false;
                 return var1;
             }

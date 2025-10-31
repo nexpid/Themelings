@@ -263,41 +263,34 @@ case 0:
 case 11:
                     var2 = _closure2_slot5;
 case 10:
-                    var _closure3_slot0 = var2;
-                    var4 = _closure2_slot7;
-                    var4 = var4.current;
-                    if(!(var2 !== var4)) { _fun0002_ip = 12; continue _fun0002 }
+                    var3 = _closure2_slot7;
+                    var3 = var3.current;
+                    if(!(var2 !== var3)) { _fun0002_ip = 12; continue _fun0002 }
 case 13:
-                    var5 = _closure1_slot6;
-                    var4 = var5.getMediaEngine;
-                    var5 = var4.bind(var5)();
-                    var4 = var5.eachConnection;
-                    var3 = function(arg1) {
-                        var3 = arg1;
-                        var2 = var3.setForceAudioInput;
-                        var1 = _closure3_slot0;
-                        var1 = var2.bind(var3)(var1);
-                        return var1;
-                    };
-                    var3 = var4.bind(var5)(var3);
+                    var5 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var3 = 13;
+                    var3 = var4[var3];
+                    var4 = undefined;
+                    var5 = var5.bind(var4)(var3);
+                    var3 = var5.setPushToTalkState;
+                    var3 = var3.bind(var5)(var2);
                     if(var2) { _fun0002_ip = 14; continue _fun0002 }
 case 15:
-                    var4 = _closure2_slot1;
+                    var5 = _closure2_slot1;
                     var3 = null;
-                    if(!(var3 != var4)) { _fun0002_ip = 12; continue _fun0002 }
+                    if(!(var3 != var5)) { _fun0002_ip = 12; continue _fun0002 }
 case 16:
-                    var4 = _closure2_slot1;
-                    var3 = undefined;
-                    var3 = var4.bind(var3)();
+                    var3 = _closure2_slot1;
+                    var3 = var3.bind(var4)();
                     _fun0002_ip = 12; continue _fun0002;
 case 14:
-                    var4 = _closure2_slot0;
+                    var5 = _closure2_slot0;
                     var3 = null;
-                    if(!(var3 != var4)) { _fun0002_ip = 12; continue _fun0002 }
+                    if(!(var3 != var5)) { _fun0002_ip = 12; continue _fun0002 }
 case 17:
-                    var4 = _closure2_slot0;
-                    var3 = undefined;
-                    var3 = var4.bind(var3)();
+                    var3 = _closure2_slot0;
+                    var3 = var3.bind(var4)();
 case 12:
                     var1 = _closure2_slot7;
                     var1['current'] = var2;
@@ -308,19 +301,19 @@ case 12:
             var2 = var9.bind(var15)(var2, var6);
             var21 = _closure1_slot0;
             var20 = _closure1_slot2;
-            var2 = 13;
+            var2 = 14;
             var6 = var20[var2];
             var6 = var21.bind(var5)(var6);
             var9 = var6.Gesture;
             var6 = var9.Pan;
             var17 = var6.bind(var9)();
             var15 = var17.onStart;
-            var9 = function M() {
+            var9 = function G() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var5 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var6 = 14;
+                    var6 = 15;
                     var2 = var3[var6];
                     var1 = undefined;
                     var9 = var5.bind(var1)(var2);
@@ -353,7 +346,7 @@ case 18:
                 }
             };
             var18 = {};
-            var6 = 14;
+            var6 = 15;
             var24 = var20[var6];
             var24 = var21.bind(var5)(var24);
             var24 = var24.runOnJS;
@@ -368,10 +361,10 @@ case 18:
             var9['__initData'] = var18;
             var17 = var15.bind(var17)(var9);
             var15 = var17.onEnd;
-            var9 = function L() {
+            var9 = function F() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 14;
+                var1 = 15;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -451,14 +444,14 @@ case 30:
             var7 = var6.View;
             var6 = {};
             var6['style'] = var8;
-            var8 = 15;
+            var8 = 16;
             var8 = var15[var8];
             var9 = var9.bind(var5)(var8);
             var8 = {};
             var8['style'] = var12;
             var11 = var11.textStyle;
             var8['textStyle'] = var11;
-            var11 = 16;
+            var11 = 17;
             var12 = var15[var11];
             var12 = var14.bind(var5)(var12);
             var13 = var12.intl;
@@ -520,7 +513,7 @@ case 20:
         }
     };
     var4 = var5.bind(var8)(var4);
-    var5 = 17;
+    var5 = 18;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

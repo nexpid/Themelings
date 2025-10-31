@@ -1088,46 +1088,46 @@ case 0:
             var5 = arg1;
             var4 = var5.type;
             var7 = _closure1_slot0;
-            var2 = _closure1_slot3;
+            var3 = _closure1_slot3;
             var9 = 6;
-            var3 = var2[var9];
+            var2 = var3[var9];
             var8 = undefined;
-            var3 = var7.bind(var8)(var3);
-            var3 = var3.ApplicationCommandOptionType;
-            var3 = var3.STRING;
-            var4 = var4 === var3;
-            var6 = var5.type;
-            var3 = var2[var9];
-            var3 = var7.bind(var8)(var3);
-            var3 = var3.ApplicationCommandOptionType;
-            var3 = var3.CHANNEL;
-            var6 = var6 === var3;
-            var3 = var5.type;
-            var2 = var2[var9];
             var2 = var7.bind(var8)(var2);
             var2 = var2.ApplicationCommandOptionType;
-            var2 = var2.USER;
-            var3 = var3 === var2;
-            if(var3) { _fun0013_ip = 119; continue _fun0013 }
+            var2 = var2.STRING;
+            var2 = var4 === var2;
+            var6 = var5.type;
+            var4 = var3[var9];
+            var4 = var7.bind(var8)(var4);
+            var4 = var4.ApplicationCommandOptionType;
+            var4 = var4.CHANNEL;
+            var6 = var6 === var4;
+            var4 = var5.type;
+            var3 = var3[var9];
+            var3 = var7.bind(var8)(var3);
+            var3 = var3.ApplicationCommandOptionType;
+            var3 = var3.USER;
+            var4 = var4 === var3;
+            if(var4) { _fun0013_ip = 119; continue _fun0013 }
 case 120:
             var7 = var5.type;
             var10 = _closure1_slot0;
-            var2 = _closure1_slot3;
-            var2 = var2[var9];
-            var2 = var10.bind(var8)(var2);
-            var2 = var2.ApplicationCommandOptionType;
-            var2 = var2.MENTIONABLE;
-            var3 = var7 === var2;
+            var3 = _closure1_slot3;
+            var3 = var3[var9];
+            var3 = var10.bind(var8)(var3);
+            var3 = var3.ApplicationCommandOptionType;
+            var3 = var3.MENTIONABLE;
+            var4 = var7 === var3;
 case 119:
             var7 = var5.type;
             var10 = _closure1_slot0;
-            var2 = _closure1_slot3;
-            var2 = var2[var9];
-            var2 = var10.bind(var8)(var2);
-            var2 = var2.ApplicationCommandOptionType;
-            var2 = var2.ROLE;
-            var2 = var7 === var2;
-            if(var2) { _fun0013_ip = 121; continue _fun0013 }
+            var3 = _closure1_slot3;
+            var3 = var3[var9];
+            var3 = var10.bind(var8)(var3);
+            var3 = var3.ApplicationCommandOptionType;
+            var3 = var3.ROLE;
+            var3 = var7 === var3;
+            if(var3) { _fun0013_ip = 121; continue _fun0013 }
 case 122:
             var5 = var5.type;
             var7 = _closure1_slot0;
@@ -1136,35 +1136,37 @@ case 122:
             var1 = var7.bind(var8)(var1);
             var1 = var1.ApplicationCommandOptionType;
             var1 = var1.MENTIONABLE;
-            var2 = var5 === var1;
+            var3 = var5 === var1;
 case 121:
             var1 = {};
-            var5 = var4;
-            if(var4) { _fun0013_ip = 123; continue _fun0013 }
-case 124:
             var5 = var2;
+            if(var2) { _fun0013_ip = 123; continue _fun0013 }
+case 124:
+            var5 = var3;
 case 123:
             var1['canMentionEveryone'] = var5;
-            var1['canMentionHere'] = var4;
-            var5 = var4;
-            if(var4) { _fun0013_ip = 125; continue _fun0013 }
+            var1['canMentionHere'] = var2;
+            var5 = var2;
+            if(var2) { _fun0013_ip = 125; continue _fun0013 }
 case 126:
             var5 = var6;
 case 125:
             var1['canMentionChannels'] = var5;
-            var5 = var4;
-            if(var4) { _fun0013_ip = 127; continue _fun0013 }
+            var5 = var2;
+            if(var2) { _fun0013_ip = 127; continue _fun0013 }
 case 12:
-            var5 = var3;
+            var5 = var4;
 case 127:
             var1['canMentionUsers'] = var5;
-            if(var4) { _fun0013_ip = 128; continue _fun0013 }
+            var5 = var2;
+            if(var5) { _fun0013_ip = 128; continue _fun0013 }
 case 129:
-            var4 = var2;
+            var5 = var3;
 case 128:
-            var1['canMentionRoles'] = var4;
-            var1['canMentionAnyGuildUser'] = var3;
-            var1['canMentionNonMentionableRoles'] = var2;
+            var1['canMentionRoles'] = var5;
+            var1['canMentionAnyGuildUser'] = var4;
+            var1['canMentionNonMentionableRoles'] = var3;
+            var1['canMentionOtherGlobals'] = var2;
             return var1;
         }
     };

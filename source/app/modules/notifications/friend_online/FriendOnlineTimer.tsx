@@ -39,13 +39,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot14 = var2;
+            _closure1_slot15 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot14 = var1;
+    var _closure1_slot15 = var1;
     var1 = function getFriendOnlineTimerEnabled() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
@@ -61,7 +61,7 @@ case 4:
         var1 = var1.useOnlineTimer;
         return var1;
     };
-    var _closure1_slot15 = var1;
+    var _closure1_slot16 = var1;
     var1 = function _reportSessionMeaningfullyOnline() {
         var5 = undefined;
         var1 = undefined;
@@ -74,7 +74,7 @@ case 0:
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
-                    var4 = _closure1_slot15;
+                    var4 = _closure1_slot16;
                     var2 = undefined;
                     var4 = var4.bind(var2)();
                     if(!var4) { _fun0002_ip = 8; continue _fun0002 }
@@ -142,7 +142,7 @@ case 6:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot16 = var4;
+        _closure1_slot17 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -150,7 +150,7 @@ case 6:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot16 = var1;
+    var _closure1_slot17 = var1;
     var1 = function isStatusEffectivelyOnline(arg1) {
         var2 = _closure1_slot12;
         var2 = var2.ONLINE;
@@ -164,7 +164,7 @@ case 6:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var _closure1_slot17 = var1;
+    var _closure1_slot18 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -194,8 +194,8 @@ case 6:
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var _closure1_slot7 = var4;
-    var4 = 5;
-    var4 = var6[var4];
+    var9 = 5;
+    var4 = var6[var9];
     var4 = var7.bind(var1)(var4);
     var _closure1_slot8 = var4;
     var4 = 6;
@@ -217,13 +217,19 @@ case 6:
     var4 = var4.StatusTypes;
     var _closure1_slot12 = var4;
     var4 = 10;
+    var8 = var6[var4];
+    var8 = var7.bind(var1)(var8);
+    var8 = var8.Millis;
+    var8 = var8.MINUTE;
+    var8 = var9 * var8;
+    var _closure1_slot13 = var8;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var4 = var4.Millis;
     var8 = var4.MINUTE;
     var4 = 0.5;
     var4 = var4 * var8;
-    var _closure1_slot13 = var4;
+    var _closure1_slot14 = var4;
     var4 = 15;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
@@ -246,7 +252,7 @@ case 0:
                 var1 = _closure1_slot6;
                 var9 = var1.bind(var4)(var3);
                 var3 = _closure1_slot5;
-                var1 = _closure1_slot14;
+                var1 = _closure1_slot15;
                 var1 = var1.bind(var4)();
                 if(var1) { _fun0003_ip = 16; continue _fun0003 }
 case 17:
@@ -306,7 +312,7 @@ case 18:
                 var3 = function() {
                     _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-                        var3 = _closure1_slot15;
+                        var3 = _closure1_slot16;
                         var1 = undefined;
                         var3 = var3.bind(var1)();
                         if(!var3) { _fun0004_ip = 19; continue _fun0004 }
@@ -324,7 +330,7 @@ case 22:
 case 21:
                         if(!var3) { _fun0004_ip = 23; continue _fun0004 }
 case 24:
-                        var5 = _closure1_slot17;
+                        var5 = _closure1_slot18;
                         var6 = _closure1_slot9;
                         var4 = var6.getStatus;
                         var4 = var4.bind(var6)();
@@ -335,30 +341,47 @@ case 26:
                         var3 = _closure3_slot0;
                         var4 = global;
                         var5 = var4.setTimeout;
+                        var6 = _closure1_slot1;
+                        var7 = _closure1_slot2;
+                        var4 = 11;
+                        var4 = var7[var4];
+                        var7 = var6.bind(var1)(var4);
+                        var6 = var7.getCurrentConfig;
+                        var4 = {};
+                        var8 = 'FriendOnlineTimer';
+                        var4['location'] = var8;
+                        var4 = var6.bind(var7)(var4);
+                        var4 = var4.useTestTimerDuration;
+                        if(var4) { _fun0004_ip = 27; continue _fun0004 }
+case 28:
                         var4 = _closure1_slot13;
+                        _fun0004_ip = 29; continue _fun0004;
+case 27:
+                        var4 = _closure1_slot14;
+case 29:
                         var2 = function() {
                             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                                 var2 = _closure3_slot0;
                                 var1 = null;
                                 var2['timerId'] = var1;
-                                var4 = _closure1_slot17;
+                                var4 = _closure1_slot18;
                                 var2 = _closure1_slot9;
                                 var1 = var2.getStatus;
                                 var2 = var1.bind(var2)();
                                 var1 = undefined;
                                 var2 = var4.bind(var1)(var2);
-                                if(!var2) { _fun0005_ip = 27; continue _fun0005 }
-case 28:
+                                if(!var2) { _fun0005_ip = 30; continue _fun0005 }
+case 31:
                                 var4 = _closure1_slot10;
                                 var3 = var4.isCooldownElapsed;
                                 var2 = var3.bind(var4)();
-case 27:
+case 30:
                                 if(!var2) { _fun0005_ip = 4; continue _fun0005 }
-case 29:
+case 32:
                                 var2 = function reportSessionMeaningfullyOnline() {
                                     var1 = undefined;
-                                    var4 = _closure1_slot16;
+                                    var4 = _closure1_slot17;
                                     var3 = var4.apply;
                                     var1 = arguments;
                                     var2 = var1;
@@ -384,8 +407,8 @@ case 0:
                         var2 = _closure3_slot0;
                         var3 = var2.timerId;
                         var2 = null;
-                        if(!(var2 != var3)) { _fun0006_ip = 30; continue _fun0006 }
-case 31:
+                        if(!(var2 != var3)) { _fun0006_ip = 33; continue _fun0006 }
+case 34:
                         var3 = global;
                         var5 = var3.clearTimeout;
                         var1 = _closure3_slot0;
@@ -393,7 +416,7 @@ case 31:
                         var3 = undefined;
                         var3 = var5.bind(var3)(var4);
                         var1['timerId'] = var2;
-case 30:
+case 33:
                         var1 = undefined;
                         return var1;
                     }

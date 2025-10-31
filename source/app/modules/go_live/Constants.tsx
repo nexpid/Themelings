@@ -72,6 +72,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['WINDOWS_SOUNDSHARE_HOOK_VERSION'] = var6;
     var6 = '>=10.0.26100';
     var3['WINDOWS_GRAPHICS_CAPTURE_NEW_APIS_SEMVER'] = var6;
+    var3['WINDOWS_SETTINGS_SOUND_DEVICE_DEEPLINK_SEMVER'] = var6;
     var6 = 26100;
     var3['WINDOWS_GRAPHICS_CAPTURE_NEW_APIS_BUILD'] = var6;
     var6 = '>=10.0.22000';

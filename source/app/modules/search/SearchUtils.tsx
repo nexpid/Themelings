@@ -78,7 +78,7 @@ case 22:
             var7 = undefined;
             if(!var9) { _fun0001_ip = 23; continue _fun0001 }
 case 21:
-            var9 = _closure1_slot21;
+            var9 = _closure1_slot22;
             var7 = var9.bind(var8)(var3, var8);
 case 23:
             _fun0001_ip = 24; continue _fun0001;
@@ -90,7 +90,7 @@ case 24:
             var6 = var7;
             _fun0001_ip = 10; continue _fun0001;
 case 12:
-            var7 = _closure1_slot21;
+            var7 = _closure1_slot22;
             var6 = var7.bind(var8)(var3, var8);
 case 10:
             var4 = var6;
@@ -149,7 +149,7 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot20 = var1;
+    var _closure1_slot21 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -182,7 +182,7 @@ case 35:
             return var1;
         }
     };
-    var _closure1_slot21 = var1;
+    var _closure1_slot22 = var1;
     var8 = function getSearchContextId(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -228,7 +228,7 @@ case 36:
             return var1;
         }
     };
-    var _closure1_slot22 = var8;
+    var _closure1_slot23 = var8;
     var7 = function isGuildLikeSearchContext(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -254,7 +254,7 @@ case 46:
             return var1;
         }
     };
-    var _closure1_slot23 = var7;
+    var _closure1_slot24 = var7;
     var5 = function quoteChannelName(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
@@ -287,7 +287,7 @@ case 44:
             return var1;
         }
     };
-    var _closure1_slot24 = var5;
+    var _closure1_slot25 = var5;
     var4 = function tokenizeQuery(arg1) {
         var3 = _closure1_slot19;
         var2 = var3.tokenize;
@@ -295,7 +295,7 @@ case 44:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var _closure1_slot25 = var4;
+    var _closure1_slot26 = var4;
     var1 = global;
     var14 = var1.Object;
     var9 = var14.defineProperty;
@@ -368,6 +368,14 @@ case 44:
     var6[var9] = var13;
     var _closure1_slot18 = var6;
     var9 = 16;
+    var13 = var11[var9];
+    var13 = var12.bind(var1)(var13);
+    var14 = var13.prototype;
+    var14 = Object.create(var14, {constructor: {value: var13}});
+    var18 = var14;
+    var13 = new var18[var13](var17);
+    var13 = var13 instanceof Object ? var13 : var14;
+    var _closure1_slot19 = var13;
     var9 = var11[var9];
     var9 = var12.bind(var1)(var9);
     var12 = var9.prototype;
@@ -375,7 +383,7 @@ case 44:
     var18 = var12;
     var9 = new var18[var9](var17);
     var9 = var9 instanceof Object ? var9 : var12;
-    var _closure1_slot19 = var9;
+    var _closure1_slot20 = var9;
     var9 = 21;
     var9 = var11[var9];
     var11 = var10.bind(var1)(var9);
@@ -395,14 +403,14 @@ case 44:
         var6 = 'getSearchHistoryStateId';
         var2['location'] = var6;
         var2 = var4.bind(var5)(var2);
-        var2 = _closure1_slot22;
+        var2 = _closure1_slot23;
         var1 = arg1;
         var1 = var2.bind(var3)(var1);
         return var1;
     };
     var3['getSearchHistoryStateId'] = var8;
     var8 = function getSearchTabFetchId(arg1, arg2, arg3) {
-        var3 = _closure1_slot22;
+        var3 = _closure1_slot23;
         var2 = undefined;
         var1 = arg1;
         var11 = var3.bind(var2)(var1);
@@ -1359,7 +1367,7 @@ case 134:
                     var1 = var3.bind(var5)(var1);
                     _fun0017_ip = 116; continue _fun0017;
 case 132:
-                    var3 = _closure1_slot20;
+                    var3 = _closure1_slot21;
                     var8 = var4.getData;
                     var1 = 'channelIds';
                     var1 = var8.bind(var4)(var1);
@@ -1515,7 +1523,7 @@ case 158:
 case 154:
             var20 = /(\[((?:[\0-\\\^-\uD7FF\uE000-\uFFFF]|[\uD800-\uDBFF][\uDC00-\uDFFF]|[\uD800-\uDBFF](?![\uDC00-\uDFFF])|(?:[^\uD800-\uDBFF]|^)[\uDC00-\uDFFF])+)\]|(?:(?:[\0-\x08\x0E-\x1F!-\x9F\xA1-\u167F\u1681-\u1FFF\u200B-\u2027\u202A-\u202E\u2030-\u205E\u2060-\u2FFF\u3001-\uD7FF\uE000-\uFEFE\uFF00-\uFFFF]|[\uD800-\uDBFF][\uDC00-\uDFFF]|[\uD800-\uDBFF](?![\uDC00-\uDFFF])|(?:[^\uD800-\uDBFF]|^)[\uDC00-\uDFFF])+))/g;
 case 26:
-            var5 = _closure1_slot20;
+            var5 = _closure1_slot21;
             var3 = var1.content;
             var19 = var5.bind(var23)(var3);
             var5 = var19.bind(var23)();
@@ -1545,7 +1553,7 @@ case 160:
             var26 = var5;
             if(!(var12 != var30)) { _fun0016_ip = 161; continue _fun0016 }
 case 162:
-            var3 = _closure1_slot20;
+            var3 = _closure1_slot21;
             var31 = var3.bind(var23)(var30);
             var32 = var31.bind(var23)();
             var3 = var32.done;
@@ -1967,7 +1975,7 @@ case 0:
                         var7 = var4;
                         if(!(var5 != var1)) { _fun0024_ip = 199; continue _fun0024 }
 case 179:
-                        var2 = _closure1_slot24;
+                        var2 = _closure1_slot25;
                         var1 = undefined;
                         var7 = var2.bind(var1)(var4);
 case 199:
@@ -2102,7 +2110,7 @@ case 119:
     var5 = function queryHasFilter(arg1, arg2) {
         var2 = arg2;
         var _closure2_slot0 = var2;
-        var4 = _closure1_slot25;
+        var4 = _closure1_slot26;
         var3 = undefined;
         var2 = arg1;
         var3 = var4.bind(var3)(var2);
@@ -2120,9 +2128,13 @@ case 119:
     var3['queryHasFilter'] = var5;
     var3['tokenizeQuery'] = var4;
     var4 = function clearTokenCache() {
-        var2 = _closure1_slot19;
+        var3 = _closure1_slot19;
+        var2 = var3.clearCache;
+        var2 = var2.bind(var3)();
+        var2 = _closure1_slot20;
         var1 = var2.clearCache;
         var1 = var1.bind(var2)();
+        var1 = undefined;
         return var1;
     };
     var3['clearTokenCache'] = var4;
@@ -2179,27 +2191,51 @@ case 42:
     };
     var3['filterHasAnswer'] = var4;
     var4 = function refreshSearchTokens() {
-        var6 = _closure1_slot0;
+        var7 = _closure1_slot0;
         var4 = _closure1_slot2;
-        var2 = 13;
-        var5 = var4[var2];
+        var6 = 13;
+        var3 = var4[var6];
         var1 = undefined;
-        var6 = var6.bind(var1)(var5);
-        var5 = var6.rebuildSearchTokenConfigs;
-        var5 = var5.bind(var6)();
-        var6 = _closure1_slot19;
-        var5 = var6.reset;
-        var5 = var5.bind(var6)();
+        var5 = var7.bind(var1)(var3);
+        var3 = var5.rebuildSearchTokenConfigs;
+        var3 = var3.bind(var5)();
+        var5 = _closure1_slot19;
+        var3 = var5.reset;
+        var3 = var3.bind(var5)();
         var3 = _closure1_slot1;
         var5 = 17;
+        var9 = var4[var5];
+        var10 = var3.bind(var1)(var9);
+        var9 = var4[var6];
+        var9 = var3.bind(var1)(var9);
+        var11 = var10.bind(var1)(var9);
+        var10 = var11.forOwn;
+        var9 = function(arg1, arg2) {
+            var3 = _closure1_slot19;
+            var2 = var3.addRule;
+            var1 = {};
+            var4 = arg2;
+            var1['type'] = var4;
+            var5 = arg1;
+            var6 = var1;
+            var4 = copyDataProperties(var6, var5);
+            var1 = var2.bind(var3)(var1);
+            return var1;
+        };
+        var9 = var10.bind(var11)(var9);
+        var9 = _closure1_slot20;
+        var8 = var9.reset;
+        var8 = var8.bind(var9)();
+        var6 = var4[var6];
+        var7 = var7.bind(var1)(var6);
+        var6 = var7.buildCrossDMSearchTokensConfig;
+        var6 = var6.bind(var7)();
         var5 = var4[var5];
         var5 = var3.bind(var1)(var5);
-        var2 = var4[var2];
-        var2 = var3.bind(var1)(var2);
-        var6 = var5.bind(var1)(var2);
+        var6 = var5.bind(var1)(var6);
         var5 = var6.forOwn;
         var2 = function(arg1, arg2) {
-            var3 = _closure1_slot19;
+            var3 = _closure1_slot20;
             var2 = var3.addRule;
             var1 = {};
             var4 = arg2;
@@ -2223,7 +2259,7 @@ case 42:
         _fun0029: for(var _fun0029_ip = 0; ; ) switch(_fun0029_ip) {
 case 0:
             var2 = arg1;
-            var4 = _closure1_slot23;
+            var4 = _closure1_slot24;
             var1 = undefined;
             var4 = var4.bind(var1)(var2);
             var1 = !var4;
@@ -2316,7 +2352,7 @@ case 209:
             var4 = var5.bind(var6)(var7, var3, var1);
             var2 = false;
 case 212:
-            var3 = _closure1_slot24;
+            var3 = _closure1_slot25;
             var1 = undefined;
             var4 = var3.bind(var1)(var4);
             var1 = var4;
@@ -2393,7 +2429,7 @@ case 89:
         }
     };
     var3['getChannelPlaceholderName'] = var4;
-    var2 = function isFavoriteSearchEnabled() {
+    var4 = function isFavoriteSearchEnabled() {
         _fun0032: for(var _fun0032_ip = 0; ; ) switch(_fun0032_ip) {
 case 0:
             var2 = _closure1_slot9;
@@ -2415,6 +2451,60 @@ case 45:
             return var1;
         }
     };
-    var3['isFavoriteSearchEnabled'] = var2;
+    var3['isFavoriteSearchEnabled'] = var4;
+    var2 = function removeInvalidPrivateChannelSearchTokens(arg1) {
+        var4 = _closure1_slot20;
+        var3 = var4.tokenize;
+        var2 = arg1;
+        var5 = var3.bind(var4)(var2);
+        var4 = new Array(0);
+        var _closure2_slot0 = var4;
+        var3 = var5.forEach;
+        var2 = function(arg1) {
+            _fun0033: for(var _fun0033_ip = 0; ; ) switch(_fun0033_ip) {
+case 0:
+                var3 = arg1;
+                var4 = var3.type;
+                var1 = _closure1_slot12;
+                var1 = var1.FILTER_IN;
+                var1 = var4 === var1;
+                if(var1) { _fun0033_ip = 45; continue _fun0033 }
+case 34:
+                var4 = var3.type;
+                var2 = _closure1_slot12;
+                var2 = var2.ANSWER_IN;
+                var1 = var4 === var2;
+case 45:
+                if(var1) { _fun0033_ip = 30; continue _fun0033 }
+case 47:
+                var2 = _closure2_slot0;
+                var1 = var2.push;
+                var1 = var1.bind(var2)(var3);
+case 30:
+                var1 = undefined;
+                return var1;
+            }
+        };
+        var2 = var3.bind(var5)(var2);
+        var2 = '';
+        var _closure2_slot1 = var2;
+        var3 = var4.forEach;
+        var2 = function(arg1) {
+            var4 = arg1;
+            var3 = _closure2_slot1;
+            var1 = var4.getFullMatch;
+            var1 = var1.bind(var4)();
+            var1 = var3 + var1;
+            _closure2_slot1 = var1;
+            var1 = undefined;
+            return var1;
+        };
+        var2 = var3.bind(var4)(var2);
+        var2 = _closure2_slot1;
+        var1 = var2.trim;
+        var1 = var1.bind(var2)();
+        return var1;
+    };
+    var3['removeInvalidPrivateChannelSearchTokens'] = var2;
     return var1;
 })();

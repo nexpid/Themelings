@@ -59,7 +59,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['helpLink'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot8 = var4;
-    var4 = 24;
+    var4 = 25;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -81,6 +81,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         };
         var1 = new Array(0);
         var7 = var3.bind(var10)(var2, var1);
+        var _closure2_slot0 = var7;
         var1 = _closure1_slot8;
         var4 = undefined;
         var17 = var1.bind(var4)();
@@ -91,7 +92,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var6.bind(var4)(var1);
         var1 = var2.useOnTaskComplete;
         var13 = var1.bind(var2)();
-        var _closure2_slot0 = var13;
+        var _closure2_slot1 = var13;
         var1 = 9;
         var1 = var9[var1];
         var5 = var6.bind(var4)(var1);
@@ -106,14 +107,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1 = var3.bind(var5)(var2, var1);
-        var _closure2_slot1 = var1;
+        var _closure2_slot2 = var1;
         var11 = _closure1_slot1;
         var2 = 10;
         var2 = var9[var2];
         var3 = var11.bind(var4)(var2);
         var2 = {};
         var5 = function onClose() {
-            var3 = _closure2_slot0;
+            var3 = _closure2_slot1;
             var2 = {};
             var5 = _closure1_slot0;
             var4 = _closure1_slot2;
@@ -138,14 +139,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-                var3 = _closure2_slot1;
+                var3 = _closure2_slot2;
                 var1 = null;
                 var3 = var1 == var3;
                 var1 = undefined;
                 var5 = undefined;
                 if(var3) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-                var3 = _closure2_slot1;
+                var3 = _closure2_slot2;
                 var5 = var3.ageVerificationStatus;
 case 2:
                 var6 = _closure1_slot0;
@@ -157,7 +158,7 @@ case 2:
                 var3 = var3.UNVERIFIED;
                 if(!(var5 !== var3)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-                var3 = _closure2_slot0;
+                var3 = _closure2_slot1;
                 var2 = {};
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
@@ -173,24 +174,48 @@ case 4:
             }
         };
         var1 = var3.bind(var10)(var1, var2);
+        var3 = var10.useEffect;
+        var2 = new Array(1);
+        var2[0] = var7;
+        var1 = function() {
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var2 = 13;
+            var3 = var8[var2];
+            var1 = undefined;
+            var6 = var7.bind(var1)(var3);
+            var5 = var6.trackAgeVerificationModalViewed;
+            var4 = _closure2_slot0;
+            var3 = var8[var2];
+            var3 = var7.bind(var1)(var3);
+            var3 = var3.AgeVerificationModalVersion;
+            var3 = var3.EXPRESSIVE_PRIMARY;
+            var2 = var8[var2];
+            var2 = var7.bind(var1)(var2);
+            var2 = var2.AgeVerificationModalEntryPoint;
+            var2 = var2.SAFETY_FLOWS;
+            var2 = var5.bind(var6)(var4, var3, var2);
+            return var1;
+        };
+        var1 = var3.bind(var10)(var1, var2);
         var3 = _closure1_slot7;
-        var1 = 13;
+        var1 = 14;
         var1 = var9[var1];
         var2 = var11.bind(var4)(var1);
         var1 = {};
-        var10 = 14;
+        var10 = 15;
         var10 = var9[var10];
         var10 = var6.bind(var4)(var10);
         var13 = var10.ShieldSpotIllustration;
         var10 = {};
         var10 = var3.bind(var4)(var13, var10);
         var1['ImageComponent'] = var10;
-        var16 = 15;
+        var16 = 16;
         var10 = var9[var16];
         var10 = var6.bind(var4)(var10);
         var15 = var10.intl;
         var13 = var15.string;
-        var10 = 16;
+        var10 = 17;
         var10 = var9[var10];
         var10 = var11.bind(var4)(var10);
         var10 = var10.dSkE/A;
@@ -200,7 +225,7 @@ case 4:
         var10 = var6.bind(var4)(var10);
         var15 = var10.intl;
         var13 = var15.format;
-        var10 = 17;
+        var10 = 18;
         var10 = var9[var10];
         var10 = var11.bind(var4)(var10);
         var11 = var10.RpMIT0;
@@ -208,12 +233,12 @@ case 4:
         var18 = function handleOnHelpUrlHook() {
             var6 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var1 = 18;
+            var1 = 19;
             var3 = var7[var1];
             var1 = undefined;
             var4 = var6.bind(var1)(var3);
             var3 = var4.openUrl;
-            var5 = 19;
+            var5 = 20;
             var5 = var7[var5];
             var6 = var6.bind(var1)(var5);
             var5 = var6.getArticleURL;
@@ -226,7 +251,7 @@ case 4:
         var10['handleOnHelpUrlHook'] = var18;
         var10 = var13.bind(var15)(var11, var10);
         var1['subtitle'] = var10;
-        var10 = 20;
+        var10 = 21;
         var10 = var9[var10];
         var10 = var6.bind(var4)(var10);
         var11 = var10.ModalDisclaimer;
@@ -238,7 +263,7 @@ case 4:
         var14 = function onPress() {
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 21;
+            var1 = 22;
             var2 = var2[var1];
             var1 = undefined;
             var4 = var3.bind(var1)(var2);
@@ -248,7 +273,7 @@ case 4:
             return var1;
         };
         var12['onPress'] = var14;
-        var14 = 22;
+        var14 = 23;
         var14 = var9[var14];
         var14 = var6.bind(var4)(var14);
         var15 = var14.Text;
@@ -272,7 +297,7 @@ case 4:
         var10 = var3.bind(var4)(var11, var10);
         var1['footer'] = var10;
         var1['submitting'] = var5;
-        var5 = 23;
+        var5 = 24;
         var5 = var9[var5];
         var5 = var6.bind(var4)(var5);
         var6 = var5.AgeVerificationMethodsContainer;

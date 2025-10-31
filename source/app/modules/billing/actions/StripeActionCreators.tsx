@@ -123,7 +123,7 @@ case 2:
     var5 = var6.bind(var1)(var5);
     var5 = var5.Endpoints;
     var _closure1_slot4 = var5;
-    var5 = 6;
+    var5 = 5;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -144,61 +144,47 @@ case 16:
 case 19:
             var1 = {};
 case 18:
-            var5 = _closure1_slot0;
-            var7 = _closure1_slot1;
-            var3 = 4;
-            var3 = var7[var3];
-            var5 = var5.bind(var4)(var3);
-            var3 = var5.getUserIsStaff;
-            var3 = var3.bind(var5)();
-            var9 = null;
-            if(!(var9 == var6)) { _fun0002_ip = 13; continue _fun0002 }
-case 20:
-            if(var3) { _fun0002_ip = 21; continue _fun0002 }
+            var7 = null;
+            if(!(var7 == var6)) { _fun0002_ip = 20; continue _fun0002 }
+case 6:
+            var3 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var2 = 4;
+            var2 = var5[var2];
+            var5 = var3.bind(var4)(var2);
+            var3 = var5.getPaymentMethods;
+            var2 = {};
+            var8 = _closure1_slot3;
+            var8 = var8.ipCountryCode;
+            var9 = var7 != var8;
+            var7 = 'ALL';
+            if(!var9) { _fun0002_ip = 21; continue _fun0002 }
 case 22:
-            var3 = new Array(0);
-            _fun0002_ip = 23; continue _fun0002;
+            var7 = var8;
 case 21:
-            var7 = _closure1_slot0;
-            var8 = _closure1_slot1;
-            var5 = 5;
-            var5 = var8[var5];
-            var8 = var7.bind(var4)(var5);
-            var7 = var8.getPaymentMethods;
-            var5 = {};
-            var10 = _closure1_slot3;
-            var10 = var10.ipCountryCode;
-            var11 = var9 != var10;
-            var9 = 'ALL';
-            if(!var11) { _fun0002_ip = 24; continue _fun0002 }
-case 25:
-            var9 = var10;
-case 24:
-            var5['ipCountryCode'] = var9;
-            var9 = 'create_setup_intent_for_payment_elements';
-            var5['location'] = var9;
-            var5 = var7.bind(var8)(var5);
-            var3 = var5.countryPaymentMethods;
-case 23:
-            var6 = var3;
-case 13:
+            var2['ipCountryCode'] = var7;
+            var7 = 'create_setup_intent_for_payment_elements';
+            var2['location'] = var7;
+            var2 = var3.bind(var5)(var2);
+            var6 = var2.countryPaymentMethods;
+case 20:
             var3 = _closure1_slot5;
             var2 = {};
             var5 = true;
             var2['failImmediatelyWhenRateLimited'] = var5;
-            var13 = var2;
-            var12 = var1;
-            var1 = copyDataProperties(var13, var12);
+            var11 = var2;
+            var10 = var1;
+            var1 = copyDataProperties(var11, var10);
             var5 = var6.length;
             var1 = 0;
             var5 = var5 > var1;
             var1 = undefined;
-            if(!var5) { _fun0002_ip = 26; continue _fun0002 }
-case 27:
+            if(!var5) { _fun0002_ip = 23; continue _fun0002 }
+case 13:
             var5 = {};
             var5['regionalPaymentMethods'] = var6;
             var1 = var5;
-case 26:
+case 23:
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

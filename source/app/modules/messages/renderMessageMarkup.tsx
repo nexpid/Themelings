@@ -74,6 +74,10 @@ case 4:
         var4 = var6.bind(var5)(var4);
         var1['allowGameMentions'] = var4;
         var6 = var3.Boolean;
+        var4 = var2.allowTimeMentionInput;
+        var4 = var6.bind(var5)(var4);
+        var1['allowTimeMentionInput'] = var4;
+        var6 = var3.Boolean;
         var4 = var2.formatInline;
         var4 = var6.bind(var5)(var4);
         var1['formatInline'] = var4;

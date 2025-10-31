@@ -384,8 +384,6 @@ case 42:
                 var1['mediaEngineConnectionId'] = var3;
                 var8 = false;
                 var1['selfVideo'] = var8;
-                var1['forceAudioNormal'] = var8;
-                var1['forceAudioPriority'] = var8;
                 var3 = new Array(0);
                 var1['codecs'] = var3;
                 var1['videoEncoderFallbackPending'] = var8;
@@ -3281,39 +3279,45 @@ case 61:
         var6 = function value(arg1, arg2, arg3) {
             _fun0039: for(var _fun0039_ip = 0; ; ) switch(_fun0039_ip) {
 case 0:
+                var7 = arg2;
                 var1 = this;
                 var2 = var1.destroyed;
-                if(var2) { _fun0039_ip = 13; continue _fun0039 }
+                if(var2) { _fun0039_ip = 81; continue _fun0039 }
 case 233:
-                var6 = var1.conn;
-                var5 = var6.setClipRecordUser;
-                var2 = null;
-                if(!(var2 != var5)) { _fun0039_ip = 13; continue _fun0039 }
-case 3:
-                var4 = var5.call;
-                var2 = var1.context;
-                var1 = _closure1_slot23;
-                var1 = var1.STREAM;
-                var3 = 'user';
-                if(!(var2 === var1)) { _fun0039_ip = 234; continue _fun0039 }
-case 7:
-                var3 = 'application';
-case 234:
-                var2 = var3.concat;
-                var1 = 'Video';
-                var8 = 'audio';
-                var7 = arg2;
-                if(!(var8 === var7)) { _fun0039_ip = 235; continue _fun0039 }
+                var6 = 'soundboardAudio';
+                var2 = 'soundboard';
+                if(!(var2 !== var7)) { _fun0039_ip = 234; continue _fun0039 }
+case 105:
+                var3 = var1.context;
+                var2 = _closure1_slot23;
+                var2 = var2.STREAM;
+                var4 = 'user';
+                if(!(var3 === var2)) { _fun0039_ip = 229; continue _fun0039 }
+case 4:
+                var4 = 'application';
+case 229:
+                var3 = var4.concat;
+                var2 = 'Video';
+                var5 = 'audio';
+                if(!(var5 === var7)) { _fun0039_ip = 235; continue _fun0039 }
 case 236:
-                var1 = 'Audio';
+                var2 = 'Audio';
 case 235:
-                var10 = var2.bind(var3)(var1);
-                var11 = arg1;
-                var9 = arg3;
-                var13 = var5;
-                var12 = var6;
-                var1 = var13[var4](var12, var11, var10, var9, var8);
-case 13:
+                var6 = var3.bind(var4)(var2);
+case 234:
+                var5 = var1.conn;
+                var4 = var5.setClipRecordUser;
+                var1 = null;
+                if(!(var1 != var4)) { _fun0039_ip = 81; continue _fun0039 }
+case 237:
+                var3 = var4.call;
+                var10 = arg1;
+                var8 = arg3;
+                var12 = var4;
+                var11 = var5;
+                var9 = var6;
+                var1 = var12[var3](var11, var10, var9, var8, var7);
+case 81:
                 var1 = undefined;
                 return var1;
             }
@@ -3330,7 +3334,7 @@ case 0:
                 var2 = var4.context;
                 var1 = _closure1_slot23;
                 var1 = var1.STREAM;
-                if(!(var2 === var1)) { _fun0040_ip = 236; continue _fun0040 }
+                if(!(var2 === var1)) { _fun0040_ip = 234; continue _fun0040 }
 case 230:
                 var1 = arg1;
                 var4['clipsKeyFrameInterval'] = var1;
@@ -3345,7 +3349,7 @@ case 230:
                 var4 = var5 > var4;
                 var1['alwaysSendVideo'] = var4;
                 var1 = var2.bind(var3)(var1);
-case 236:
+case 234:
                 var1 = undefined;
                 return var1;
             }
@@ -3434,11 +3438,11 @@ case 57:
                 var5 = var3.context;
                 var3 = _closure1_slot23;
                 var3 = var3.DEFAULT;
-                if(!(var5 !== var3)) { _fun0043_ip = 237; continue _fun0043 }
+                if(!(var5 !== var3)) { _fun0043_ip = 238; continue _fun0043 }
 case 100:
                 var3 = _closure1_slot29;
                 _fun0043_ip = 43; continue _fun0043;
-case 237:
+case 238:
                 var3 = _closure1_slot28;
 case 43:
                 var2 = var3;
@@ -3475,7 +3479,7 @@ case 230: // try_start_0
                 var3 = var3.bind(var2)(var5);
                 var3 = var6.bind(var7)(var5, var3);
 case 195: // try_end0
-                _fun0044_ip = 238; continue _fun0044;
+                _fun0044_ip = 239; continue _fun0044;
 case 229: // catch_target0
                 CatchBlockStart(arg_register=2);
                 var3 = var2.logger;
@@ -3489,7 +3493,7 @@ case 229: // catch_target0
                 var1 = ': ';
                 var1 = var5.bind(var4)(var7, var1, var6);
                 var1 = var2.bind(var3)(var1);
-case 238:
+case 239:
                 var1 = undefined;
                 return var1;
             }
@@ -3605,7 +3609,7 @@ case 231:
                 var2 = var1.soundshareActive;
                 var4 = var6;
                 if(!var2) { _fun0046_ip = 60; continue _fun0046 }
-case 239:
+case 240:
                 var2 = global;
                 var5 = var2.Math;
                 var3 = var5.max;
@@ -3634,16 +3638,16 @@ case 0:
                 var5 = arg3;
                 var1 = this;
                 var8 = null;
-                if(!(var8 == var5)) { _fun0047_ip = 239; continue _fun0047 }
-case 240:
-                if(!(var8 == var4)) { _fun0047_ip = 239; continue _fun0047 }
+                if(!(var8 == var5)) { _fun0047_ip = 240; continue _fun0047 }
+case 233:
+                if(!(var8 == var4)) { _fun0047_ip = 240; continue _fun0047 }
 case 62:
                 var6 = var1.videoQualityManager;
                 var3 = var6.setQualityOverwrite;
                 var2 = {};
                 var2 = var3.bind(var6)(var2);
                 _fun0047_ip = 241; continue _fun0047;
-case 239:
+case 240:
                 var6 = var1.videoQualityManager;
                 var3 = var6.setQualityOverwrite;
                 var2 = {};
@@ -4083,30 +4087,22 @@ case 243:
         var6 = function value(arg1) {
             _fun0049: for(var _fun0049_ip = 0; ; ) switch(_fun0049_ip) {
 case 0:
-                var3 = arg1;
-                var4 = arguments[1];
-                var2 = this;
+                var6 = arguments[1];
+                var5 = arguments[2];
                 var1 = undefined;
-                if(!(var4 === var1)) { _fun0049_ip = 244; continue _fun0049 }
-case 240:
-                var4 = false;
+                if(!(var6 === var1)) { _fun0049_ip = 32; continue _fun0049 }
 case 244:
-                if(var4) { _fun0049_ip = 34; continue _fun0049 }
+                var6 = false;
+case 32:
+                if(!(var5 === var1)) { _fun0049_ip = 29; continue _fun0049 }
+case 245:
+                var5 = false;
 case 29:
-                var2['forceAudioNormal'] = var3;
-                _fun0049_ip = 63; continue _fun0049;
-case 34:
-                var2['forceAudioPriority'] = var3;
-case 63:
-                var5 = var2.conn;
-                var4 = var5.setPTTActive;
-                var3 = var2.forceAudioPriority;
-                if(var3) { _fun0049_ip = 106; continue _fun0049 }
-case 195:
-                var3 = var2.forceAudioNormal;
-case 106:
-                var2 = var2.forceAudioPriority;
-                var2 = var4.bind(var5)(var3, var2);
+                var2 = this;
+                var4 = var2.conn;
+                var3 = var4.setPTTActive;
+                var2 = arg1;
+                var2 = var3.bind(var4)(var2, var6, var5);
                 return var1;
             }
         };
@@ -4299,14 +4295,14 @@ case 0:
                 var4 = var2.resolution;
                 var3 = var2.frameRate;
                 var2 = 480;
-                if(!(!(var4 <= var2))) { _fun0052_ip = 237; continue _fun0052 }
+                if(!(!(var4 <= var2))) { _fun0052_ip = 238; continue _fun0052 }
 case 63:
                 var2 = 9;
                 var6 = var4 / var2;
                 var2 = 16;
                 var2 = var6 * var2;
                 _fun0052_ip = 67; continue _fun0052;
-case 237:
+case 238:
                 var6 = 3;
                 var7 = var4 / var6;
                 var6 = 4;
@@ -4314,8 +4310,8 @@ case 237:
 case 67:
                 var7 = var1.desktopDescription;
                 var6 = null;
-                if(!(var6 == var7)) { _fun0052_ip = 245; continue _fun0052 }
-case 246:
+                if(!(var6 == var7)) { _fun0052_ip = 246; continue _fun0052 }
+case 236:
                 var7 = var1.cameraDescription;
                 var8 = var6 != var7;
                 var7 = null;
@@ -4332,7 +4328,7 @@ case 247:
                 var8 = ':';
                 var7 = var10.bind(var9)(var12, var8, var11);
                 _fun0052_ip = 207; continue _fun0052;
-case 245:
+case 246:
                 var8 = var1.desktopDescription;
                 var7 = var8.id;
 case 207:
@@ -4378,107 +4374,118 @@ case 155:
 case 252:
                 var7 = var1.desktopDescription;
                 var1 = var7.id;
-                var17 = var7.soundshareId;
-                var16 = var7.useLoopback;
-                var15 = var7.useVideoHook;
-                var13 = var7.useGraphicsCaptureApiLevel;
-                var14 = var7.useGraphicsCapture;
+                var18 = var7.soundshareId;
+                var17 = var7.useLoopback;
+                var16 = var7.useVideoHook;
+                var14 = var7.useGraphicsCaptureApiLevel;
+                var13 = var7.useCaptureDeviceForEncode;
+                var15 = var7.useGraphicsCapture;
                 var12 = var7.useQuartzCapturer;
                 var11 = var7.allowScreenCaptureKit;
                 var10 = var7.videoHookStaleFrameTimeoutMs;
                 var9 = var7.graphicsCaptureStaleFrameTimeoutMs;
                 var8 = var7.hdrCaptureMode;
                 var7 = var5.setSoundshareSource;
-                var7 = var7.bind(var5)(var17, var16);
+                var7 = var7.bind(var5)(var18, var17);
                 if(!(var6 == var1)) { _fun0052_ip = 255; continue _fun0052 }
-case 256:
-                var17 = ['', ''];
-                _fun0052_ip = 257; continue _fun0052;
+case 96:
+                var18 = ['', ''];
+                _fun0052_ip = 256; continue _fun0052;
 case 255:
-                var16 = var1.split;
+                var17 = var1.split;
                 var7 = ':';
-                var17 = var16.bind(var1)(var7);
-case 257:
-                var16 = _closure1_slot3;
-                var20 = undefined;
+                var18 = var17.bind(var1)(var7);
+case 256:
+                var17 = _closure1_slot3;
+                var21 = undefined;
                 var7 = 2;
-                var16 = var16.bind(var20)(var17, var7);
+                var17 = var17.bind(var21)(var18, var7);
                 var7 = 0;
-                var17 = var16[var7];
+                var18 = var17[var7];
                 var7 = 1;
-                var16 = var16[var7];
-                if(!(var6 == var1)) { _fun0052_ip = 258; continue _fun0052 }
-case 259:
-                var19 = var5.logger;
-                var18 = var19.info;
-                var7 = 'capturing desktop (type: <stop>).';
-                var7 = var18.bind(var19)(var7);
-                _fun0052_ip = 260; continue _fun0052;
+                var17 = var17[var7];
+                if(!(var6 == var1)) { _fun0052_ip = 257; continue _fun0052 }
 case 258:
-                var19 = var5.logger;
-                var18 = var19.info;
-                var7 = var15.toString;
-                var28 = var7.bind(var15)();
-                var7 = var6 == var14;
-                var27 = undefined;
-                if(var7) { _fun0052_ip = 261; continue _fun0052 }
-case 188:
-                var7 = var14.toString;
-                var27 = var7.bind(var14)();
+                var20 = var5.logger;
+                var19 = var20.info;
+                var7 = 'capturing desktop (type: <stop>).';
+                var7 = var19.bind(var20)(var7);
+                _fun0052_ip = 259; continue _fun0052;
+case 257:
+                var20 = var5.logger;
+                var19 = var20.info;
+                var7 = var16.toString;
+                var31 = var7.bind(var16)();
+                var7 = var6 == var15;
+                var30 = undefined;
+                if(var7) { _fun0052_ip = 260; continue _fun0052 }
 case 261:
-                var7 = var6 == var13;
-                var26 = undefined;
+                var7 = var15.toString;
+                var30 = var7.bind(var15)();
+case 260:
+                var7 = var6 == var14;
+                var29 = undefined;
                 if(var7) { _fun0052_ip = 262; continue _fun0052 }
 case 263:
-                var7 = var13.toString;
-                var26 = var7.bind(var13)();
+                var7 = var14.toString;
+                var29 = var7.bind(var14)();
 case 262:
+                var7 = var6 == var13;
+                var28 = undefined;
+                if(var7) { _fun0052_ip = 264; continue _fun0052 }
+case 265:
+                var7 = var13.toString;
+                var28 = var7.bind(var13)();
+case 264:
                 var7 = global;
                 var7 = var7.HermesInternal;
-                var25 = var7.concat;
-                var39 = 'capturing desktop (type: ';
-                var37 = ', handle: ';
-                var35 = ', use-video-hook: ';
-                var33 = ', use-graphics-capture: ';
-                var31 = ', use-graphics-capture-api-level: ';
-                var29 = ').';
-                var38 = var17;
-                var36 = var16;
-                var34 = var28;
-                var32 = var27;
-                var30 = var26;
-                var7 = var39[var25](var38, var37, var36, var35, var34, var33, var32, var31, var30, var29, var28);
-                var7 = var18.bind(var19)(var7);
-case 260:
+                var27 = var7.concat;
+                var44 = 'capturing desktop (type: ';
+                var42 = ', handle: ';
+                var40 = ', use-video-hook: ';
+                var38 = ', use-graphics-capture: ';
+                var36 = ', use-graphics-capture-api-level: ';
+                var34 = ', use-capture-device-for-encode: ';
+                var32 = ').';
+                var43 = var18;
+                var41 = var17;
+                var39 = var31;
+                var37 = var30;
+                var35 = var29;
+                var33 = var28;
+                var7 = var44[var27](var43, var42, var41, var40, var39, var38, var37, var36, var35, var34, var33, var32, var31);
+                var7 = var19.bind(var20)(var7);
+case 259:
                 var7 = var5.conn;
                 var7 = var7.setDesktopSourceWithOptions;
-                if(!(var6 == var7)) { _fun0052_ip = 264; continue _fun0052 }
-case 265:
-                var19 = var5.conn;
-                var18 = var19.setDesktopSource;
+                if(!(var6 == var7)) { _fun0052_ip = 266; continue _fun0052 }
+case 267:
+                var20 = var5.conn;
+                var19 = var20.setDesktopSource;
                 var7 = global;
                 var7 = var7.HermesInternal;
-                var20 = var7.concat;
+                var21 = var7.concat;
                 var7 = 'wumpus-';
-                var7 = var20.bind(var7)(var16);
-                var7 = var18.bind(var19)(var7, var15, var17);
+                var7 = var21.bind(var7)(var17);
+                var7 = var19.bind(var20)(var7, var16, var18);
                 _fun0052_ip = 254; continue _fun0052;
-case 264:
-                if(!(var6 == var1)) { _fun0052_ip = 266; continue _fun0052 }
-case 267:
+case 266:
+                if(!(var6 == var1)) { _fun0052_ip = 268; continue _fun0052 }
+case 269:
                 var6 = var5.conn;
                 var1 = var6.clearDesktopSource;
                 var1 = var1.bind(var6)();
                 _fun0052_ip = 254; continue _fun0052;
-case 266:
+case 268:
                 var7 = var5.conn;
                 var6 = var7.setDesktopSourceWithOptions;
                 var1 = {};
-                var1['type'] = var17;
-                var1['sourceId'] = var16;
-                var1['useVideoHook'] = var15;
-                var1['useGraphicsCapture'] = var14;
-                var1['useGraphicsCaptureApiLevel'] = var13;
+                var1['type'] = var18;
+                var1['sourceId'] = var17;
+                var1['useVideoHook'] = var16;
+                var1['useGraphicsCapture'] = var15;
+                var1['useGraphicsCaptureApiLevel'] = var14;
+                var1['useCaptureDeviceForEncode'] = var13;
                 var1['useQuartzCapturer'] = var12;
                 var1['allowScreenCaptureKit'] = var11;
                 var1['videoHookStaleFrameTimeoutMs'] = var10;
@@ -4505,7 +4512,7 @@ case 0:
                 var2 = var1.goLiveSourceIdentifier;
                 var3 = null;
                 if(!(var3 != var2)) { _fun0053_ip = 205; continue _fun0053 }
-case 240:
+case 233:
                 var6 = var1.setDesktopEncodingOptions;
                 var5 = 1280;
                 var4 = 720;
@@ -4536,7 +4543,7 @@ case 0:
                 var2 = var1.goLiveSourceIdentifier;
                 var3 = null;
                 if(!(var3 != var2)) { _fun0054_ip = 205; continue _fun0054 }
-case 240:
+case 233:
                 var6 = var1.setDesktopEncodingOptions;
                 var5 = 1280;
                 var4 = 720;
@@ -4546,15 +4553,15 @@ case 205:
                 var1['goLiveSourceIdentifier'] = var3;
                 var2 = var1.conn;
                 var2 = var2.clearDesktopSource;
-                if(!(var3 == var2)) { _fun0054_ip = 268; continue _fun0054 }
-case 234:
+                if(!(var3 == var2)) { _fun0054_ip = 270; continue _fun0054 }
+case 271:
                 var5 = var1.conn;
                 var4 = var5.setDesktopSource;
                 var3 = '';
                 var2 = false;
                 var2 = var4.bind(var5)(var3, var2, var3);
                 _fun0054_ip = 209; continue _fun0054;
-case 268:
+case 270:
                 var2 = var1.conn;
                 var1 = var2.clearDesktopSource;
                 var1 = var1.bind(var2)();
@@ -4610,15 +4617,15 @@ case 0:
                 var11 = arg3;
                 var4 = this;
                 var1 = var4.destroyed;
-                if(var1) { _fun0056_ip = 269; continue _fun0056 }
+                if(var1) { _fun0056_ip = 272; continue _fun0056 }
 case 90:
                 var16 = 0;
                 var15 = var16 === var13;
-                if(!var15) { _fun0056_ip = 270; continue _fun0056 }
+                if(!var15) { _fun0056_ip = 273; continue _fun0056 }
 case 101:
                 var1 = 10;
                 if(!(!(var11 >= var1))) { _fun0056_ip = 55; continue _fun0056 }
-case 270:
+case 273:
                 var1 = 720;
                 if(!(!(var13 > var1))) { _fun0056_ip = 55; continue _fun0056 }
 case 58:
@@ -4648,11 +4655,11 @@ case 181:
                 var2 = var5.capture;
                 var2 = var7.bind(var10)(var9, var2);
                 var2 = !var2;
-                if(var2) { _fun0056_ip = 271; continue _fun0056 }
-case 272:
+                if(var2) { _fun0056_ip = 274; continue _fun0056 }
+case 275:
                 var5 = var5.bitrateMax;
                 var2 = var5 !== var8;
-case 271:
+case 274:
                 var10 = var4.videoStreamParameters;
                 var7 = var10.findIndex;
                 var5 = function(arg1) {
@@ -4665,11 +4672,11 @@ case 271:
                 var10 = var7.bind(var10)(var5);
                 var5 = -1;
                 if(!(var5 === var10)) { _fun0056_ip = 22; continue _fun0056 }
-case 273:
+case 276:
                 var10 = 0;
 case 22:
-                if(!var2) { _fun0056_ip = 274; continue _fun0056 }
-case 275:
+                if(!var2) { _fun0056_ip = 277; continue _fun0056 }
+case 278:
                 var17 = var4.videoQualityManager;
                 var12 = var17.setGoliveQuality;
                 var7 = {};
@@ -4679,22 +4686,22 @@ case 275:
                 var7 = var12.bind(var17)(var7);
                 var7 = var4.videoStreamParameters;
                 var7 = var7.length;
-                if(!(var7 > var10)) { _fun0056_ip = 274; continue _fun0056 }
+                if(!(var7 > var10)) { _fun0056_ip = 277; continue _fun0056 }
 case 218:
                 var7 = var4.videoStreamParameters;
                 var12 = var7[var10];
                 var7 = {};
-                if(!(var16 === var14)) { _fun0056_ip = 276; continue _fun0056 }
-case 277:
-                if(var15) { _fun0056_ip = 278; continue _fun0056 }
-case 276:
+                if(!(var16 === var14)) { _fun0056_ip = 279; continue _fun0056 }
+case 280:
+                if(var15) { _fun0056_ip = 281; continue _fun0056 }
+case 279:
                 var15 = _closure1_slot25;
                 var15 = var15.FIXED;
-                _fun0056_ip = 279; continue _fun0056;
-case 278:
+                _fun0056_ip = 282; continue _fun0056;
+case 281:
                 var16 = _closure1_slot25;
                 var15 = var16.SOURCE;
-case 279:
+case 282:
                 var7['type'] = var15;
                 var7['width'] = var14;
                 var7['height'] = var13;
@@ -4705,7 +4712,7 @@ case 279:
                 var7 = var4.videoStreamParameters;
                 var7 = var7[var10];
                 var7['maxBitrate'] = var8;
-case 274:
+case 277:
                 var8 = var4.videoStreamParameters;
                 var7 = var8.findIndex;
                 var6 = function(arg1) {
@@ -4717,43 +4724,43 @@ case 274:
                 };
                 var8 = var7.bind(var8)(var6);
                 var6 = var5 !== var8;
-                if(!var6) { _fun0056_ip = 280; continue _fun0056 }
+                if(!var6) { _fun0056_ip = 283; continue _fun0056 }
 case 107:
                 var5 = var4.videoStreamParameters;
                 var5 = var5.length;
                 var6 = var5 > var8;
-case 280:
+case 283:
                 var7 = var4.videoQualityManager;
                 var5 = var7.shouldEnableGoliveSimulcastForHqQuality;
                 var7 = var5.bind(var7)(var9);
                 var5 = var6;
-                if(!var5) { _fun0056_ip = 281; continue _fun0056 }
-case 282:
+                if(!var5) { _fun0056_ip = 284; continue _fun0056 }
+case 285:
                 var9 = var4.videoStreamParameters;
                 var9 = var9[var8];
                 var9 = var9.active;
                 var5 = var9 !== var7;
-case 281:
-                if(!var6) { _fun0056_ip = 283; continue _fun0056 }
 case 284:
+                if(!var6) { _fun0056_ip = 286; continue _fun0056 }
+case 287:
                 var6 = var4.videoStreamParameters;
                 var6 = var6[var8];
                 var6['active'] = var7;
                 var6 = undefined;
-                if(var7) { _fun0056_ip = 285; continue _fun0056 }
+                if(var7) { _fun0056_ip = 288; continue _fun0056 }
 case 163:
                 var7 = var4.videoStreamParameters;
                 var7 = var7[var8];
                 var6 = var7.ssrc;
-case 285:
+case 288:
                 var4['simulcastLQDisabledSsrc'] = var6;
-case 283:
-                if(var2) { _fun0056_ip = 286; continue _fun0056 }
+case 286:
+                if(var2) { _fun0056_ip = 289; continue _fun0056 }
 case 162:
                 var2 = var5;
-case 286:
-                if(!var2) { _fun0056_ip = 269; continue _fun0056 }
-case 287:
+case 289:
+                if(!var2) { _fun0056_ip = 272; continue _fun0056 }
+case 290:
                 var9 = var4.emit;
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
@@ -4783,7 +4790,7 @@ case 287:
                 var1 = var1.bind(var4)();
                 var1 = var1.constraints;
                 var1 = var2.bind(var3)(var1);
-case 269:
+case 272:
                 var1 = undefined;
                 return var1;
             }
@@ -4843,8 +4850,8 @@ case 0:
                 var7 = undefined;
                 var6 = undefined;
                 var5 = undefined;
-                if(!var4) { _fun0057_ip = 288; continue _fun0057 }
-case 289:
+                if(!var4) { _fun0057_ip = 291; continue _fun0057 }
+case 292:
                 var20 = var18[var10];
                 var4 = _closure1_slot3;
                 var4 = var4.bind(var1)(var20, var12);
@@ -4859,22 +4866,22 @@ case 289:
                 var21 = 0;
                 var24 = 0;
                 var4 = 0;
-                if(var20) { _fun0057_ip = 273; continue _fun0057 }
-case 290:
+                if(var20) { _fun0057_ip = 276; continue _fun0057 }
+case 293:
                 var27 = var23.value;
                 var28 = var15 == var19;
                 var20 = undefined;
-                if(var28) { _fun0057_ip = 291; continue _fun0057 }
-case 292:
+                if(var28) { _fun0057_ip = 294; continue _fun0057 }
+case 295:
                 var20 = var19[var27];
-case 291:
+case 294:
                 var29 = var22 + var20;
                 var28 = var15 == var3;
                 var20 = undefined;
-                if(var28) { _fun0057_ip = 293; continue _fun0057 }
-case 294:
+                if(var28) { _fun0057_ip = 296; continue _fun0057 }
+case 297:
                 var20 = var3[var27];
-case 293:
+case 296:
                 var21 = var21 + var20;
                 var30 = var25.bind(var1)();
                 var20 = var30.done;
@@ -4883,31 +4890,31 @@ case 293:
                 var24 = var22;
                 var4 = var21;
                 var5 = var27;
-                if(!var20) { _fun0057_ip = 290; continue _fun0057 }
-case 273:
+                if(!var20) { _fun0057_ip = 293; continue _fun0057 }
+case 276:
                 var23 = var9;
                 var22 = var8;
-                if(!(var17 === var24)) { _fun0057_ip = 295; continue _fun0057 }
-case 296:
+                if(!(var17 === var24)) { _fun0057_ip = 298; continue _fun0057 }
+case 299:
                 var23 = var9;
                 var22 = var8;
-                if(!(var17 !== var4)) { _fun0057_ip = 295; continue _fun0057 }
+                if(!(var17 !== var4)) { _fun0057_ip = 298; continue _fun0057 }
 case 251:
                 var20 = var2.conn;
                 var21 = var20.setDisableLocalVideo;
                 var22 = var20;
                 var23 = var21;
-                if(!(var15 != var23)) { _fun0057_ip = 295; continue _fun0057 }
+                if(!(var15 != var23)) { _fun0057_ip = 298; continue _fun0057 }
 case 196:
                 var25 = var21.call;
                 var25 = var25.bind(var21)(var20, var26, var14);
                 var23 = var21;
                 var22 = var20;
-case 295:
+case 298:
                 var21 = var7;
                 var20 = var6;
                 if(!(var17 !== var24)) { _fun0057_ip = 8; continue _fun0057 }
-case 297:
+case 300:
                 var21 = var7;
                 var20 = var6;
                 if(!(var17 === var4)) { _fun0057_ip = 8; continue _fun0057 }
@@ -4917,7 +4924,7 @@ case 10:
                 var20 = var4;
                 var21 = var24;
                 if(!(var15 != var21)) { _fun0057_ip = 8; continue _fun0057 }
-case 298:
+case 301:
                 var25 = var24.call;
                 var25 = var25.bind(var24)(var4, var26, var16);
                 var21 = var24;
@@ -4929,8 +4936,8 @@ case 8:
                 var6 = var20;
                 var9 = var23;
                 var8 = var22;
-                if(var10 < var4) { _fun0057_ip = 289; continue _fun0057 }
-case 288:
+                if(var10 < var4) { _fun0057_ip = 292; continue _fun0057 }
+case 291:
                 var2['localVideoSinkWants'] = var3;
                 return var1;
             }
@@ -4947,7 +4954,7 @@ case 0:
                 var4 = arg4;
                 var3 = var1.numberOfChannels;
                 var2 = 2;
-                if(!(!(var3 > var2))) { _fun0058_ip = 299; continue _fun0058 }
+                if(!(!(var3 > var2))) { _fun0058_ip = 302; continue _fun0058 }
 case 62:
                 var6 = new Array(0);
                 var2 = var1.numberOfChannels;
@@ -4977,13 +4984,13 @@ case 37:
                 var8 = var6;
                 var7 = var4;
                 var1 = var11[var3](var10, var9, var8, var7, var6);
-                _fun0058_ip = 300; continue _fun0058;
-case 299:
+                _fun0058_ip = 303; continue _fun0058;
+case 302:
                 var3 = undefined;
                 var2 = 1;
                 var1 = 'Too many channels';
                 var1 = var4.bind(var3)(var2, var1);
-case 300:
+case 303:
                 var1 = undefined;
                 return var1;
             }
@@ -5042,7 +5049,7 @@ case 0:
                 var1 = this;
                 var2 = var1.videoSupported;
                 if(!var2) { _fun0059_ip = 206; continue _fun0059 }
-case 233:
+case 244:
                 var2 = var1.destroyed;
                 if(var2) { _fun0059_ip = 206; continue _fun0059 }
 case 191:
@@ -5092,7 +5099,7 @@ case 0:
                             };
                             var7 = var3.bind(var4)(var1);
                             var1 = -1;
-                            if(!(var1 !== var7)) { _fun0061_ip = 301; continue _fun0061 }
+                            if(!(var1 !== var7)) { _fun0061_ip = 304; continue _fun0061 }
 case 44:
                             var5 = new Array(0);
                             var4 = _closure1_slot1;
@@ -5107,7 +5114,7 @@ case 44:
                             var3 = _closure3_slot1;
                             var3 = var3[var7];
                             var3 = var6.bind(var1)(var4, var3);
-                            if(var3) { _fun0061_ip = 302; continue _fun0061 }
+                            if(var3) { _fun0061_ip = 305; continue _fun0061 }
 case 103:
                             var3 = _closure3_slot2;
                             var4 = var3.videoStreamParameters;
@@ -5123,7 +5130,7 @@ case 103:
                             var10 = var3;
                             var6 = copyDataProperties(var10, var9);
                             var3 = var4.bind(var5)(var3);
-case 302:
+case 305:
                             var2 = _closure3_slot2;
                             var4 = var2.conn;
                             var3 = var4.setTransportOptions;
@@ -5131,7 +5138,7 @@ case 302:
                             var2['streamParameters'] = var5;
                             var2 = var3.bind(var4)(var2);
                             return var1;
-case 301:
+case 304:
                             var3 = _closure4_slot0;
                             var1 = global;
                             var4 = var1.Error;
@@ -5166,7 +5173,7 @@ case 41:
                     var3 = var7.done;
                     var4 = var7;
                     if(var3) { _fun0060_ip = 69; continue _fun0060 }
-case 303:
+case 306:
                     _fun0060_ip = 28; continue _fun0060;
 case 9:
                     var2 = var2.v;
@@ -5193,7 +5200,7 @@ case 0:
                 var1 = this;
                 var2 = var1.videoSupported;
                 if(!var2) { _fun0062_ip = 78; continue _fun0062 }
-case 240:
+case 233:
                 var2 = var1.hasDesktopSource;
                 var2 = var2.bind(var1)();
                 var7 = false;
@@ -5212,10 +5219,10 @@ case 58:
                 var3 = null;
                 var4 = var3 == var2;
                 var3 = undefined;
-                if(var4) { _fun0062_ip = 303; continue _fun0062 }
+                if(var4) { _fun0062_ip = 306; continue _fun0062 }
 case 201:
                 var3 = var2.type;
-case 303:
+case 306:
                 var2 = _closure1_slot25;
                 var2 = var2.SOURCE;
                 var7 = var3 === var2;
@@ -5226,20 +5233,20 @@ case 242:
                 var2 = {};
                 var6 = var1.hasDesktopSource;
                 var6 = var6.bind(var1)();
-                if(var6) { _fun0062_ip = 304; continue _fun0062 }
+                if(var6) { _fun0062_ip = 307; continue _fun0062 }
 case 211:
                 var6 = var1.videoDegradationPreference;
-                _fun0062_ip = 305; continue _fun0062;
-case 304:
-                if(var7) { _fun0062_ip = 306; continue _fun0062 }
-case 245:
+                _fun0062_ip = 308; continue _fun0062;
+case 307:
+                if(var7) { _fun0062_ip = 309; continue _fun0062 }
+case 246:
                 var7 = var1.desktopDegradationPreference;
-                _fun0062_ip = 302; continue _fun0062;
-case 306:
+                _fun0062_ip = 305; continue _fun0062;
+case 309:
                 var7 = var1.sourceDesktopDegradationPreference;
-case 302:
-                var6 = var7;
 case 305:
+                var6 = var7;
+case 308:
                 var2['encodingVideoDegradationPreference'] = var6;
                 var2 = var5.bind(var1)(var2);
                 var2 = var2.constraints;
@@ -5278,7 +5285,7 @@ case 48:
                 if(var7) { _fun0063_ip = 9; continue _fun0063 }
 case 49:
                 var7 = var8.value;
-                if(!(var1 !== var7)) { _fun0063_ip = 303; continue _fun0063 }
+                if(!(var1 !== var7)) { _fun0063_ip = 306; continue _fun0063 }
 case 30:
                 var10 = var9.bind(var4)();
                 var7 = var10.done;
@@ -5286,7 +5293,7 @@ case 30:
                 if(var7) { _fun0063_ip = 9; continue _fun0063 }
 case 40:
                 _fun0063_ip = 49; continue _fun0063;
-case 303:
+case 306:
                 return var1;
 case 9:
                 var7 = var3.bind(var4)();
@@ -5322,7 +5329,7 @@ case 0:
                     var3 = 0;
                     var6 = undefined;
                     var5 = 0;
-                    if(!(var6 !== var1)) { _fun0064_ip = 246; continue _fun0064 }
+                    if(!(var6 !== var1)) { _fun0064_ip = 236; continue _fun0064 }
 case 3:
                     var1 = _closure3_slot0;
                     var1 = var1.remoteVideoSSRCs;
@@ -5330,13 +5337,13 @@ case 3:
                     var1 = var1.length;
                     var1 = var1 > var3;
                     var5 = 0;
-                    if(!var1) { _fun0064_ip = 246; continue _fun0064 }
+                    if(!var1) { _fun0064_ip = 236; continue _fun0064 }
 case 49:
                     var1 = _closure3_slot0;
                     var1 = var1.remoteVideoSSRCs;
                     var1 = var1[var4];
                     var5 = var1[var3];
-case 246:
+case 236:
                     var1 = {};
                     var1['id'] = var4;
                     var3 = _closure3_slot0;
@@ -5374,12 +5381,12 @@ case 0:
                 var3 = var2.inputMode;
                 var1 = _closure1_slot20;
                 var1 = var1.VOICE_ACTIVITY;
-                if(!(var1 !== var3)) { _fun0065_ip = 307; continue _fun0065 }
+                if(!(var1 !== var3)) { _fun0065_ip = 310; continue _fun0065 }
 case 90:
                 var1 = _closure1_slot20;
                 var1 = var1.PUSH_TO_TALK;
                 if(!(var1 !== var3)) { _fun0065_ip = 200; continue _fun0065 }
-case 239:
+case 240:
                 var1 = global;
                 var5 = var1.Error;
                 var6 = var2.inputMode;
@@ -5398,7 +5405,7 @@ case 200:
                 var3 = var2.pttReleaseDelay;
                 var1['pttReleaseDelay'] = var3;
                 return var1;
-case 307:
+case 310:
                 var1 = {};
                 var3 = var2.vadThreshold;
                 var1['vadThreshold'] = var3;
@@ -5410,11 +5417,11 @@ case 307:
                 var4 = undefined;
                 var4 = var6.bind(var4)(var5);
                 var4 = var4.VADAggressiveness;
-                if(var3) { _fun0065_ip = 271; continue _fun0065 }
+                if(var3) { _fun0065_ip = 274; continue _fun0065 }
 case 14:
                 var3 = var4.DISABLED;
                 _fun0065_ip = 56; continue _fun0065;
-case 271:
+case 274:
                 var3 = var4.VERY_AGGRESSIVE;
 case 56:
                 var1['vadAutoThreshold'] = var3;
@@ -5464,7 +5471,7 @@ case 0:
                 if(!(var1 === var3)) { _fun0066_ip = 15; continue _fun0066 }
 case 31:
                 var1 = arg2;
-                if(var1) { _fun0066_ip = 304; continue _fun0066 }
+                if(var1) { _fun0066_ip = 307; continue _fun0066 }
 case 105:
                 var1 = {'level-asymmetry-allowed': '1', 'packetization-mode': '1'};
                 var3 = '1';
@@ -5487,19 +5494,19 @@ case 203:
                 var2 = this;
                 var4 = var2.softwareH264;
                 var2 = '0';
-                if(!var4) { _fun0066_ip = 299; continue _fun0066 }
-case 308:
+                if(!var4) { _fun0066_ip = 302; continue _fun0066 }
+case 311:
                 var2 = var3;
-case 299:
+case 302:
                 var1['software-h264'] = var2;
                 _fun0066_ip = 207; continue _fun0066;
-case 304:
+case 307:
                 var1 = {'level-asymmetry-allowed': '1', 'packetization-mode': '1', 'profile-level-id': '42e034'};
 case 207:
-                _fun0066_ip = 309; continue _fun0066;
+                _fun0066_ip = 312; continue _fun0066;
 case 15:
                 var1 = {};
-case 309:
+case 312:
                 return var1;
             }
         };
@@ -5589,11 +5596,11 @@ case 63:
                 var1 = _closure1_slot23;
                 var4 = var1.STREAM;
                 var1 = arg3;
-                if(!(var1 === var4)) { _fun0067_ip = 302; continue _fun0067 }
-case 300:
+                if(!(var1 === var4)) { _fun0067_ip = 305; continue _fun0067 }
+case 303:
                 var1 = 2;
                 var3['channels'] = var1;
-case 302:
+case 305:
                 var4 = new Array(0);
                 var5 = {'name': '', 'type': 0, 'rtxType': 0};
                 var1 = {};
@@ -5619,12 +5626,12 @@ case 302:
                 var7 = undefined;
                 var6 = undefined;
                 var5 = var12;
-                if(var1) { _fun0067_ip = 310; continue _fun0067 }
-case 311:
+                if(var1) { _fun0067_ip = 313; continue _fun0067 }
+case 314:
                 var31 = var13.value;
                 var1 = var31.name;
                 var29 = var12;
-                if(!(var1 !== var28)) { _fun0067_ip = 312; continue _fun0067 }
+                if(!(var1 !== var28)) { _fun0067_ip = 315; continue _fun0067 }
 case 75:
                 var30 = {};
                 var32 = _closure1_slot0;
@@ -5638,26 +5645,26 @@ case 75:
                 var1 = var25 == var31;
                 var33 = undefined;
                 if(var1) { _fun0067_ip = 137; continue _fun0067 }
-case 313:
+case 316:
                 var33 = var31.payloadType;
 case 137:
                 var32 = var25 != var33;
                 var1 = 0;
-                if(!var32) { _fun0067_ip = 288; continue _fun0067 }
-case 314:
+                if(!var32) { _fun0067_ip = 291; continue _fun0067 }
+case 317:
                 var1 = var33;
-case 288:
+case 291:
                 var30['type'] = var1;
                 var1 = var25 == var31;
                 var32 = undefined;
-                if(var1) { _fun0067_ip = 315; continue _fun0067 }
-case 316:
+                if(var1) { _fun0067_ip = 318; continue _fun0067 }
+case 319:
                 var32 = var31.rtxPayloadType;
-case 315:
+case 318:
                 var34 = var25 != var32;
                 var1 = 0;
                 if(!var34) { _fun0067_ip = 65; continue _fun0067 }
-case 317:
+case 320:
                 var1 = var32;
 case 65:
                 var30['rtxType'] = var1;
@@ -5670,47 +5677,47 @@ case 65:
                 var1 = _closure1_slot11;
                 var1 = var1.RESET_DECODER_ON_ERRORS;
                 var1 = var34.bind(var35)(var1);
-                if(!var1) { _fun0067_ip = 318; continue _fun0067 }
-case 319:
+                if(!var1) { _fun0067_ip = 321; continue _fun0067 }
+case 322:
                 var1 = var30.params;
                 var1['reset-on-errors'] = var20;
-case 318:
+case 321:
                 var35 = var26.experimentFlags;
                 var34 = var35.has;
                 var1 = _closure1_slot11;
                 var1 = var1.SOFTWARE_FALLBACK_ON_ERRORS;
                 var1 = var34.bind(var35)(var1);
-                if(!var1) { _fun0067_ip = 286; continue _fun0067 }
-case 320:
+                if(!var1) { _fun0067_ip = 289; continue _fun0067 }
+case 323:
                 var1 = var30.params;
                 var1['fallback-after-errors'] = var16;
-case 286:
+case 289:
                 var35 = var26.experimentFlags;
                 var34 = var35.has;
                 var1 = _closure1_slot11;
                 var1 = var1.SOFTWARE_FALLBACK_ON_CONSECUTIVE_ERRORS;
                 var1 = var34.bind(var35)(var1);
-                if(!var1) { _fun0067_ip = 321; continue _fun0067 }
-case 322:
+                if(!var1) { _fun0067_ip = 324; continue _fun0067 }
+case 257:
                 var1 = var30.params;
                 var1['fallback-on-consecutive-errors'] = var20;
-case 321:
+case 324:
                 var35 = var26.experimentFlags;
                 var34 = var35.has;
                 var1 = _closure1_slot11;
                 var1 = var1.SIGNAL_AV1_HARDWARE_DECODE;
                 var1 = var34.bind(var35)(var1);
-                if(!var1) { _fun0067_ip = 323; continue _fun0067 }
+                if(!var1) { _fun0067_ip = 325; continue _fun0067 }
 case 228:
                 var1 = var30.params;
                 var1['hardware-av1-decode'] = var20;
-case 323:
+case 325:
                 var34 = var26.hardwareH264;
                 var1 = var17;
-                if(!var34) { _fun0067_ip = 324; continue _fun0067 }
-case 325:
+                if(!var34) { _fun0067_ip = 326; continue _fun0067 }
+case 327:
                 var1 = var20;
-case 324:
+case 326:
                 var34 = var30.params;
                 var34['hardware-h264'] = var1;
                 var34 = var4.push;
@@ -5723,8 +5730,8 @@ case 324:
                 var8 = var10;
                 var7 = var30;
                 var6 = var1;
-                if(!(var34 === var27)) { _fun0067_ip = 312; continue _fun0067 }
-case 326:
+                if(!(var34 === var27)) { _fun0067_ip = 315; continue _fun0067 }
+case 328:
                 var34 = {};
                 var39 = var34;
                 var38 = var30;
@@ -5738,11 +5745,11 @@ case 326:
                 var35 = _closure1_slot11;
                 var35 = var35.VIDEOTOOLBOX_RATE_CONTROL;
                 var35 = var36.bind(var37)(var35);
-                if(!var35) { _fun0067_ip = 327; continue _fun0067 }
-case 328:
+                if(!var35) { _fun0067_ip = 329; continue _fun0067 }
+case 330:
                 var35 = var34.params;
                 var35['fixed-rate-presentation-timestamps'] = var20;
-case 327:
+case 329:
                 var35 = var34.params;
                 var35['hardware-h264'] = var1;
                 var29 = var34;
@@ -5752,14 +5759,14 @@ case 327:
                 var8 = var10;
                 var7 = var30;
                 var6 = var1;
-case 312:
+case 315:
                 var30 = var21.bind(var24)();
                 var1 = var30.done;
                 var12 = var29;
                 var13 = var30;
                 var5 = var12;
-                if(!var1) { _fun0067_ip = 311; continue _fun0067 }
-case 310:
+                if(!var1) { _fun0067_ip = 314; continue _fun0067 }
+case 313:
                 var1 = {};
                 var1['videoEncoder'] = var5;
                 var1['videoDecoders'] = var4;
@@ -5780,7 +5787,7 @@ case 0:
                 var1 = var2.keyframeInterval;
                 var3 = 0;
                 if(!(var1 > var3)) { _fun0069_ip = 230; continue _fun0069 }
-case 240:
+case 233:
                 var1 = var2.clipsKeyFrameInterval;
                 if(!(!(var1 > var3))) { _fun0069_ip = 49; continue _fun0069 }
 case 230:
@@ -5790,7 +5797,7 @@ case 230:
                 var3 = var2.keyframeInterval;
                 var1 = var2.clipsKeyFrameInterval;
                 var1 = var4.bind(var5)(var3, var1);
-                _fun0069_ip = 235; continue _fun0069;
+                _fun0069_ip = 331; continue _fun0069;
 case 49:
                 var3 = global;
                 var5 = var3.Math;
@@ -5798,7 +5805,7 @@ case 49:
                 var3 = var2.keyframeInterval;
                 var2 = var2.clipsKeyFrameInterval;
                 var1 = var4.bind(var5)(var3, var2);
-case 235:
+case 331:
                 return var1;
             }
         };
@@ -5878,33 +5885,33 @@ case 0:
                 var5 = _closure1_slot26;
                 var5 = var5.VIDEO_EFFECTS;
                 var5 = var6.bind(var7)(var5);
-                if(!var5) { _fun0070_ip = 329; continue _fun0070 }
-case 330:
+                if(!var5) { _fun0070_ip = 332; continue _fun0070 }
+case 333:
                 var7 = var4.context;
                 var6 = _closure1_slot23;
                 var6 = var6.STREAM;
                 var5 = var7 === var6;
-case 329:
-                if(!var5) { _fun0070_ip = 331; continue _fun0070 }
 case 332:
+                if(!var5) { _fun0070_ip = 334; continue _fun0070 }
+case 335:
                 var1['enableVideoEffects'] = var2;
-case 331:
+case 334:
                 var7 = var4.experimentFlags;
                 var6 = var7.has;
                 var5 = _closure1_slot11;
                 var5 = var5.MUTE_BEFORE_PROCESSING;
                 var5 = var6.bind(var7)(var5);
-                if(!var5) { _fun0070_ip = 333; continue _fun0070 }
-case 334:
+                if(!var5) { _fun0070_ip = 336; continue _fun0070 }
+case 337:
                 var1['muteBeforeProcessing'] = var2;
-case 333:
+case 336:
                 var7 = var4.experimentFlags;
                 var6 = var7.has;
                 var5 = _closure1_slot11;
                 var5 = var5.PTT_BEFORE_PROCESSING;
                 var5 = var6.bind(var7)(var5);
                 if(!var5) { _fun0070_ip = 96; continue _fun0070 }
-case 256:
+case 338:
                 var1['pttBeforeProcessing'] = var2;
 case 96:
                 var5 = var4.experimentFlags;
@@ -5912,10 +5919,10 @@ case 96:
                 var3 = _closure1_slot11;
                 var3 = var3.SKIP_ENCODE;
                 var3 = var4.bind(var5)(var3);
-                if(!var3) { _fun0070_ip = 335; continue _fun0070 }
+                if(!var3) { _fun0070_ip = 339; continue _fun0070 }
 case 147:
                 var1['skipEncode'] = var2;
-case 335:
+case 339:
                 return var1;
             }
         };
@@ -5956,7 +5963,7 @@ case 0:
                 var1 = this;
                 var2 = 0;
                 if(!(var2 === var6)) { _fun0071_ip = 3; continue _fun0071 }
-case 233:
+case 244:
                 var2 = -1;
                 var1['lastExecutedTransitionId'] = var2;
                 var1['lastPreparedTransitionId'] = var2;
@@ -5965,7 +5972,7 @@ case 3:
                 var5 = var1.conn;
                 var4 = var5.prepareSecureFramesTransition;
                 var1 = null;
-                if(!(var1 != var4)) { _fun0071_ip = 336; continue _fun0071 }
+                if(!(var1 != var4)) { _fun0071_ip = 340; continue _fun0071 }
 case 43:
                 var3 = var4.call;
                 var8 = arg2;
@@ -5974,7 +5981,7 @@ case 43:
                 var10 = var5;
                 var9 = var6;
                 var1 = var11[var3](var10, var9, var8, var7, var6);
-case 336:
+case 340:
                 var1 = undefined;
                 return var1;
             }
@@ -6017,10 +6024,10 @@ case 0:
                 var1 = this;
                 var2 = var1.lastExecutedTransitionId;
                 var3 = -1;
-                if(!(var3 !== var2)) { _fun0073_ip = 337; continue _fun0073 }
+                if(!(var3 !== var2)) { _fun0073_ip = 341; continue _fun0073 }
 case 230:
                 var2 = var1.lastPreparedTransitionId;
-                if(!(var3 !== var2)) { _fun0073_ip = 337; continue _fun0073 }
+                if(!(var3 !== var2)) { _fun0073_ip = 341; continue _fun0073 }
 case 59:
                 var3 = var1.lastPreparedTransitionId;
                 var2 = var1.lastExecutedTransitionId;
@@ -6038,13 +6045,13 @@ case 201:
                 var3 = var1.lastExecutedTransitionId;
                 var3 = var4 > var3;
                 if(!var3) { _fun0073_ip = 210; continue _fun0073 }
-case 268:
+case 270:
                 var5 = var1.lastPreparedTransitionId;
                 var3 = var4 <= var5;
 case 210:
                 var2 = var3;
 case 103:
-                if(var2) { _fun0073_ip = 337; continue _fun0073 }
+                if(var2) { _fun0073_ip = 341; continue _fun0073 }
 case 209:
                 var14 = var1.lastExecutedTransitionId;
                 var12 = var1.lastPreparedTransitionId;
@@ -6068,16 +6075,16 @@ case 209:
                 var2 = new var17[var2](var16, var15);
                 var2 = var2 instanceof Object ? var2 : var3;
                 throw var2;
-case 337:
+case 341:
                 var1['lastExecutedTransitionId'] = var4;
                 var3 = var1.conn;
                 var2 = var3.executeSecureFramesTransition;
                 var1 = null;
-                if(!(var1 != var2)) { _fun0073_ip = 338; continue _fun0073 }
-case 339:
+                if(!(var1 != var2)) { _fun0073_ip = 342; continue _fun0073 }
+case 343:
                 var1 = var2.call;
                 var1 = var1.bind(var2)(var3, var4);
-case 338:
+case 342:
                 var1 = undefined;
                 return var1;
             }
@@ -6437,11 +6444,11 @@ case 206:
                 var3 = var5.bind(var6)(var4, var3, var1);
                 var1 = null;
                 var4 = var1 == var3;
-                if(var4) { _fun0081_ip = 340; continue _fun0081 }
+                if(var4) { _fun0081_ip = 344; continue _fun0081 }
 case 213:
                 var2['conn'] = var3;
                 var1 = var2;
-case 340:
+case 344:
                 return var1;
             }
         };

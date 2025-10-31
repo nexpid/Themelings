@@ -211,38 +211,33 @@ case 12:
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var3 = _closure1_slot1;
-                    var2 = _closure1_slot2;
+                    var4 = _closure1_slot2;
                     var1 = 14;
-                    var2 = var2[var1];
+                    var2 = var4[var1];
                     var1 = undefined;
                     var3 = var3.bind(var1)(var2);
                     var2 = var3.hideActionSheet;
                     var2 = var2.bind(var3)();
-                    var2 = _closure2_slot0;
-                    var9 = null;
-                    if(!(var9 != var2)) { _fun0002_ip = 14; continue _fun0002 }
-case 15:
                     var3 = _closure2_slot0;
                     var2 = _closure1_slot8;
-                    var2 = var2.PRIMARY;
+                    var2 = var2.TAKE_ACTION;
                     var2 = var3.bind(var1)(var2);
-case 14:
                     var3 = _closure1_slot0;
-                    var4 = _closure1_slot2;
                     var2 = 15;
                     var2 = var4[var2];
                     var4 = var3.bind(var1)(var2);
                     var3 = var4.openGiftModal;
                     var2 = {};
                     var6 = {};
-                    var8 = _closure2_slot1;
-                    var9 = var9 == var8;
+                    var9 = _closure2_slot1;
+                    var8 = null;
+                    var9 = var8 == var9;
                     var8 = undefined;
-                    if(var9) { _fun0002_ip = 16; continue _fun0002 }
-case 17:
+                    if(var9) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
                     var9 = _closure2_slot1;
                     var8 = var9.analyticsPage;
-case 16:
+case 14:
                     var6['page'] = var8;
                     var8 = _closure1_slot6;
                     var8 = var8.FOOTER;
@@ -260,8 +255,8 @@ case 16:
             var13 = var3.bind(var4)(var1, var2);
             var2 = var10 == var15;
             var1 = null;
-            if(var2) { _fun0001_ip = 18; continue _fun0001 }
-case 19:
+            if(var2) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var4 = _closure1_slot9;
             var12 = _closure1_slot0;
             var16 = _closure1_slot2;
@@ -273,7 +268,7 @@ case 19:
             var6 = function onDismiss() {
                 var3 = _closure2_slot0;
                 var1 = _closure1_slot8;
-                var2 = var1.DISMISS;
+                var2 = var1.USER_DISMISS;
                 var1 = undefined;
                 var1 = var3.bind(var1)(var2);
                 return var1;
@@ -289,12 +284,12 @@ case 19:
             var12 = var12.bind(var5)(var11);
             var11 = var12.isAndroid;
             var11 = var11.bind(var12)();
-            if(!var11) { _fun0001_ip = 20; continue _fun0001 }
+            if(!var11) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
+            if(!(var10 != var17)) { _fun0001_ip = 18; continue _fun0001 }
+case 20:
+            if(var9) { _fun0001_ip = 18; continue _fun0001 }
 case 21:
-            if(!(var10 != var17)) { _fun0001_ip = 20; continue _fun0001 }
-case 22:
-            if(var9) { _fun0001_ip = 20; continue _fun0001 }
-case 23:
             var11 = _closure1_slot9;
             var10 = _closure1_slot4;
             var9 = {};
@@ -316,8 +311,8 @@ case 23:
             var12 = var11.bind(var5)(var16, var12);
             var9['children'] = var12;
             var10 = var11.bind(var5)(var10, var9);
-            _fun0001_ip = 24; continue _fun0001;
-case 20:
+            _fun0001_ip = 22; continue _fun0001;
+case 18:
             var12 = _closure1_slot9;
             var11 = _closure1_slot1;
             var16 = _closure1_slot2;
@@ -331,7 +326,7 @@ case 20:
             var16 = var21.imageShared;
             var9['style'] = var16;
             var10 = var12.bind(var5)(var11, var9);
-case 24:
+case 22:
             var9 = new Array(3);
             var9[0] = var10;
             var17 = _closure1_slot10;
@@ -386,7 +381,7 @@ case 24:
             var6 = var8.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 18:
+case 16:
             return var1;
         }
     };

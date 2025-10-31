@@ -1252,8 +1252,9 @@ case 72:
     var _closure1_slot15 = var11;
     var11 = var10.SearchTokenTypes;
     var _closure1_slot16 = var11;
-    var10 = var10.ME;
-    var _closure1_slot17 = var10;
+    var11 = var10.ME;
+    var _closure1_slot17 = var11;
+    var10 = var10.SearchTypes;
     var10 = 12;
     var10 = var6[var10];
     var10 = var5.bind(var1)(var10);

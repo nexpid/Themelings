@@ -611,7 +611,7 @@ case 23:
                         var2 = _closure2_slot8;
                         if(!(var11 == var2)) { _fun0008_ip = 24; continue _fun0008 }
 case 25:
-                        var4 = {'canMentionEveryone': null, 'canMentionHere': null, 'canMentionChannels': true, 'canMentionUsers': true, 'canMentionRoles': true, 'canMentionAnyGuildUser': false, 'canMentionNonMentionableRoles': false};
+                        var4 = {'canMentionEveryone': null, 'canMentionHere': null, 'canMentionChannels': true, 'canMentionUsers': true, 'canMentionRoles': true, 'canMentionAnyGuildUser': false, 'canMentionNonMentionableRoles': false, 'canMentionOtherGlobals': true};
                         var2 = _closure2_slot2;
                         var4['canMentionEveryone'] = var2;
                         var4['canMentionHere'] = var2;

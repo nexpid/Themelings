@@ -88,25 +88,13 @@ case 15:
                     var9 = var5.Array;
                     var8 = var9.from;
                     var10 = _closure1_slot5;
-                    var6 = var10.getAllStickersIterator;
+                    var6 = var10.getAllGuildStickers;
+                    var10 = var6.bind(var10)();
+                    var6 = var10.values;
                     var6 = var6.bind(var10)();
-                    var10 = var8.bind(var9)(var6);
-                    var8 = var10.filter;
-                    var6 = function(arg1) {
-                        var1 = arg1;
-                        var2 = var1.type;
-                        var4 = _closure1_slot0;
-                        var3 = _closure1_slot2;
-                        var1 = 9;
-                        var3 = var3[var1];
-                        var1 = undefined;
-                        var1 = var4.bind(var1)(var3);
-                        var1 = var1.MetaStickerType;
-                        var1 = var1.GUILD;
-                        var1 = var2 === var1;
-                        return var1;
-                    };
-                    var9 = var8.bind(var10)(var6);
+                    var8 = var8.bind(var9)(var6);
+                    var6 = var8.flat;
+                    var9 = var6.bind(var8)();
                     var8 = var9.filter;
                     var6 = function(arg1) {
                         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
@@ -120,7 +108,7 @@ case 0:
 case 17:
                             var3 = _closure1_slot0;
                             var5 = _closure1_slot2;
-                            var2 = 10;
+                            var2 = 9;
                             var2 = var5[var2];
                             var5 = var3.bind(var4)(var2);
                             var4 = var5.isSendableSticker;
@@ -136,7 +124,7 @@ case 16:
                     var6 = function(arg1, arg2) {
                         var3 = _closure1_slot1;
                         var2 = _closure1_slot2;
-                        var1 = 11;
+                        var1 = 10;
                         var2 = var2[var1];
                         var1 = undefined;
                         var4 = var3.bind(var1)(var2);
@@ -156,11 +144,11 @@ case 16:
 case 19:
                     var9 = _closure1_slot6;
                     var8 = var9.getGuildIds;
-                    var14 = var8.bind(var9)();
-                    var9 = var14.filter;
+                    var10 = var8.bind(var9)();
+                    var9 = var10.filter;
                     var8 = _closure1_slot11;
-                    var14 = var9.bind(var14)(var8);
-                    var9 = var14.map;
+                    var10 = var9.bind(var10)(var8);
+                    var9 = var10.map;
                     var8 = function(arg1) {
                         var3 = _closure1_slot4;
                         var2 = var3.getUsableGuildEmoji;
@@ -168,14 +156,14 @@ case 19:
                         var1 = var2.bind(var3)(var1);
                         return var1;
                     };
-                    var9 = var9.bind(var14)(var8);
+                    var9 = var9.bind(var10)(var8);
                     var8 = var9.flat;
-                    var14 = var8.bind(var9)();
-                    var9 = var14.filter;
+                    var10 = var8.bind(var9)();
+                    var9 = var10.filter;
                     var8 = function(arg1) {
                         var3 = _closure1_slot1;
                         var2 = _closure1_slot2;
-                        var1 = 13;
+                        var1 = 12;
                         var2 = var2[var1];
                         var1 = undefined;
                         var3 = var3.bind(var1)(var2);
@@ -195,12 +183,12 @@ case 19:
                         var1 = var1 == var2;
                         return var1;
                     };
-                    var14 = var9.bind(var14)(var8);
-                    var9 = var14.sort;
+                    var10 = var9.bind(var10)(var8);
+                    var9 = var10.sort;
                     var8 = function(arg1, arg2) {
                         var3 = _closure1_slot1;
                         var2 = _closure1_slot2;
-                        var1 = 11;
+                        var1 = 10;
                         var2 = var2[var1];
                         var1 = undefined;
                         var4 = var3.bind(var1)(var2);
@@ -213,18 +201,28 @@ case 19:
                         var1 = -var1;
                         return var1;
                     };
-                    var8 = var9.bind(var14)(var8);
-                    var14 = var8.length;
+                    var8 = var9.bind(var10)(var8);
+                    var10 = var8.length;
                     var9 = 10;
-                    if(!(!(var14 > var9))) { _fun0002_ip = 20; continue _fun0002 }
+                    if(!(!(var10 > var9))) { _fun0002_ip = 20; continue _fun0002 }
 case 21:
+                    var14 = var5.Array;
+                    var10 = var14.from;
+                    var15 = _closure1_slot5;
+                    var9 = var15.getAllPackStickers;
+                    var15 = var9.bind(var15)();
+                    var9 = var15.values;
+                    var9 = var9.bind(var15)();
+                    var10 = var10.bind(var14)(var9);
+                    var9 = var10.flat;
+                    var10 = var9.bind(var10)();
                     var9 = var10.filter;
                     var7 = function(arg1) {
                         var1 = arg1;
                         var2 = var1.type;
                         var4 = _closure1_slot0;
                         var3 = _closure1_slot2;
-                        var1 = 9;
+                        var1 = 14;
                         var3 = var3[var1];
                         var1 = undefined;
                         var1 = var4.bind(var1)(var3);
@@ -248,7 +246,7 @@ case 21:
                     var16[0] = var7;
                     var9 = _closure1_slot1;
                     var10 = _closure1_slot2;
-                    var7 = 12;
+                    var7 = 11;
                     var7 = var10[var7];
                     var15 = var9.bind(var3)(var7);
                     var14 = var15.sendStickers;
@@ -294,17 +292,17 @@ case 20:
                     var17 = var8[var7];
                     var8 = _closure1_slot1;
                     var18 = _closure1_slot2;
-                    var7 = 12;
+                    var7 = 11;
                     var7 = var18[var7];
                     var15 = var8.bind(var3)(var7);
                     var14 = var15.sendMessage;
                     var10 = var12.id;
-                    var7 = 14;
+                    var7 = 13;
                     var7 = var18[var7];
                     var9 = var8.bind(var3)(var7);
                     var8 = var9.parse;
                     var16 = _closure1_slot0;
-                    var7 = 13;
+                    var7 = 12;
                     var7 = var18[var7];
                     var16 = var16.bind(var3)(var7);
                     var7 = var16.getAllEmojiNamesString;
@@ -354,7 +352,7 @@ case 18:
                     var9[0] = var5;
                     var6 = _closure1_slot1;
                     var7 = _closure1_slot2;
-                    var5 = 12;
+                    var5 = 11;
                     var5 = var7[var5];
                     var8 = var6.bind(var3)(var5);
                     var7 = var8.sendStickers;

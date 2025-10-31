@@ -1385,6 +1385,10 @@ case 123:
     var7['TIKTOK_IFRAME'] = var24;
     var20 = 'TIKTOK_IFRAME';
     var7[var24] = var20;
+    var7['WEB_FILE_IFRAME'] = var23;
+    var20 = 'WEB_FILE_IFRAME';
+    var7[var23] = var20;
+    var23 = 3;
     var7['DEFAULT'] = var23;
     var20 = 'DEFAULT';
     var7[var23] = var20;
@@ -2026,45 +2030,64 @@ case 120:
     };
     var3['getYoutubeVideoIdFromURI'] = var8;
     var3['VideoSourceType'] = var7;
-    var7 = function getVideoSourceType(arg1, arg2) {
+    var7 = function getVideoSourceType(arg1) {
         _fun0027: for(var _fun0027_ip = 0; ; ) switch(_fun0027_ip) {
 case 0:
-            var2 = arg2;
-            var1 = var2.portal;
-            var4 = null;
-            if(!(var4 != var1)) { _fun0027_ip = 164; continue _fun0027 }
+            var3 = arg1;
+            var1 = var3.videoURI;
+            var5 = null;
+            if(!(var5 != var1)) { _fun0027_ip = 155; continue _fun0027 }
 case 29:
             var6 = _closure1_slot0;
-            var5 = _closure1_slot2;
-            var3 = 24;
-            var5 = var5[var3];
-            var3 = undefined;
-            var6 = var6.bind(var3)(var5);
-            var5 = var6.isPortalExpired;
-            var3 = var2.portal;
-            var3 = var5.bind(var6)(var3);
-            if(var3) { _fun0027_ip = 164; continue _fun0027 }
-case 2:
+            var4 = _closure1_slot2;
+            var1 = 3;
+            var4 = var4[var1];
+            var1 = undefined;
+            var6 = var6.bind(var1)(var4);
+            var4 = var6.isWebPlayerVideoUrl;
+            var1 = var3.videoURI;
+            var1 = var4.bind(var6)(var1);
+            if(var1) { _fun0027_ip = 164; continue _fun0027 }
+case 155:
+            var1 = var3.portal;
+            if(!(var5 != var1)) { _fun0027_ip = 165; continue _fun0027 }
+case 104:
+            var7 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var4 = 24;
+            var6 = var6[var4];
+            var4 = undefined;
+            var7 = var7.bind(var4)(var6);
+            var6 = var7.isPortalExpired;
+            var4 = var3.portal;
+            var4 = var6.bind(var7)(var4);
+            if(var4) { _fun0027_ip = 165; continue _fun0027 }
+case 138:
             var1 = _closure1_slot9;
             var1 = var1.PORTAL;
-            _fun0027_ip = 165; continue _fun0027;
-case 164:
-            var3 = var2.embedURI;
-            if(!(var4 != var3)) { _fun0027_ip = 166; continue _fun0027 }
-case 167:
-            var3 = var2.embedProviderName;
-            var2 = 'TikTok';
-            if(!(var2 !== var3)) { _fun0027_ip = 168; continue _fun0027 }
-case 166:
-            var2 = _closure1_slot9;
-            var2 = var2.DEFAULT;
-            _fun0027_ip = 169; continue _fun0027;
-case 168:
-            var3 = _closure1_slot9;
-            var2 = var3.TIKTOK_IFRAME;
-case 169:
-            var1 = var2;
+            _fun0027_ip = 166; continue _fun0027;
 case 165:
+            var4 = var3.embedURI;
+            if(!(var5 != var4)) { _fun0027_ip = 167; continue _fun0027 }
+case 168:
+            var4 = var3.embedProviderName;
+            var3 = 'TikTok';
+            if(!(var3 !== var4)) { _fun0027_ip = 135; continue _fun0027 }
+case 167:
+            var3 = _closure1_slot9;
+            var3 = var3.DEFAULT;
+            _fun0027_ip = 56; continue _fun0027;
+case 135:
+            var4 = _closure1_slot9;
+            var3 = var4.TIKTOK_IFRAME;
+case 56:
+            var1 = var3;
+case 166:
+            _fun0027_ip = 169; continue _fun0027;
+case 164:
+            var2 = _closure1_slot9;
+            var1 = var2.WEB_FILE_IFRAME;
+case 169:
             return var1;
         }
     };

@@ -276,7 +276,7 @@ case 35:
     var7 = 'DESTRUCTIVE';
     var4[var8] = var7;
     var _closure1_slot25 = var4;
-    var4 = 76;
+    var4 = 77;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -394,8 +394,8 @@ case 43:
             var _closure2_slot9 = var1;
             var10 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var35 = 16;
-            var1 = var6[var35];
+            var34 = 16;
+            var1 = var6[var34];
             var2 = var10.bind(var3)(var1);
             var1 = var2.useCanReplyToMessage;
             var39 = var1.bind(var2)(var53, var17);
@@ -1096,13 +1096,13 @@ case 103:
             var14 = {};
             var23 = var70[var83];
             var23 = var69.bind(var3)(var23);
-            var34 = var23.intl;
-            var24 = var34.string;
+            var35 = var23.intl;
+            var24 = var35.string;
             var23 = var70[var83];
             var23 = var69.bind(var3)(var23);
             var23 = var23.t;
             var23 = var23.39d0Wj;
-            var23 = var24.bind(var34)(var23);
+            var23 = var24.bind(var35)(var23);
             var14['label'] = var23;
             var20 = var70[var20];
             var20 = var69.bind(var3)(var20);
@@ -1178,13 +1178,13 @@ case 103:
             var14 = {};
             var23 = var70[var83];
             var23 = var69.bind(var3)(var23);
-            var34 = var23.intl;
-            var24 = var34.string;
+            var35 = var23.intl;
+            var24 = var35.string;
             var23 = var70[var83];
             var23 = var69.bind(var3)(var23);
             var23 = var23.t;
             var23 = var23.gHp0C4;
-            var23 = var24.bind(var34)(var23);
+            var23 = var24.bind(var35)(var23);
             var14['label'] = var23;
             var24 = 52;
             var23 = var70[var24];
@@ -1197,46 +1197,46 @@ case 103:
             var14['sortKey'] = var23;
             var23 = var6.bind(var3)(var14);
             var14 = {};
-            var34 = var70[var83];
-            var34 = var69.bind(var3)(var34);
-            var44 = var34.intl;
+            var35 = var70[var83];
+            var35 = var69.bind(var3)(var35);
+            var44 = var35.intl;
             var41 = var44.string;
-            var34 = var70[var83];
-            var34 = var69.bind(var3)(var34);
-            var34 = var34.t;
-            var34 = var34.MFGE51;
-            var34 = var41.bind(var44)(var34);
-            var14['label'] = var34;
-            var34 = 53;
-            var34 = var70[var34];
-            var34 = var69.bind(var3)(var34);
-            var34 = var34.AnnouncementsIcon;
-            var14['IconComponent'] = var34;
-            var34 = var56.GENERAL;
-            var14['section'] = var34;
-            var34 = 9;
-            var14['sortKey'] = var34;
+            var35 = var70[var83];
+            var35 = var69.bind(var3)(var35);
+            var35 = var35.t;
+            var35 = var35.MFGE51;
+            var35 = var41.bind(var44)(var35);
+            var14['label'] = var35;
+            var35 = 53;
+            var35 = var70[var35];
+            var35 = var69.bind(var3)(var35);
+            var35 = var35.AnnouncementsIcon;
+            var14['IconComponent'] = var35;
+            var35 = var56.GENERAL;
+            var14['section'] = var35;
+            var35 = 9;
+            var14['sortKey'] = var35;
             var50 = var6.bind(var3)(var14);
             var14 = {};
-            var34 = var70[var83];
-            var34 = var69.bind(var3)(var34);
-            var44 = var34.intl;
+            var35 = var70[var83];
+            var35 = var69.bind(var3)(var35);
+            var44 = var35.intl;
             var41 = var44.string;
-            var34 = var70[var83];
-            var34 = var69.bind(var3)(var34);
-            var34 = var34.t;
-            var34 = var34.CvQ18w;
-            var34 = var41.bind(var44)(var34);
-            var14['label'] = var34;
+            var35 = var70[var83];
+            var35 = var69.bind(var3)(var35);
+            var35 = var35.t;
+            var35 = var35.CvQ18w;
+            var35 = var41.bind(var44)(var35);
+            var14['label'] = var35;
             var44 = 54;
-            var34 = var70[var44];
-            var34 = var69.bind(var3)(var34);
-            var34 = var34.PinIcon;
-            var14['IconComponent'] = var34;
-            var34 = var56.GENERAL;
-            var14['section'] = var34;
-            var34 = 10;
-            var14['sortKey'] = var34;
+            var35 = var70[var44];
+            var35 = var69.bind(var3)(var35);
+            var35 = var35.PinIcon;
+            var14['IconComponent'] = var35;
+            var35 = var56.GENERAL;
+            var14['section'] = var35;
+            var35 = 10;
+            var14['sortKey'] = var35;
             var41 = var6.bind(var3)(var14);
             var14 = {};
             var46 = var70[var83];
@@ -1255,28 +1255,28 @@ case 103:
             var14['IconComponent'] = var44;
             var44 = var56.GENERAL;
             var14['section'] = var44;
-            var14['sortKey'] = var34;
+            var14['sortKey'] = var35;
             var44 = var6.bind(var3)(var14);
             var14 = {};
-            var34 = var70[var83];
-            var34 = var69.bind(var3)(var34);
-            var49 = var34.intl;
+            var35 = var70[var83];
+            var35 = var69.bind(var3)(var35);
+            var49 = var35.intl;
             var46 = var49.string;
-            var34 = var70[var83];
-            var34 = var69.bind(var3)(var34);
-            var34 = var34.t;
-            var34 = var34.tpxJto;
-            var34 = var46.bind(var49)(var34);
-            var14['label'] = var34;
-            var34 = 55;
-            var34 = var70[var34];
-            var34 = var69.bind(var3)(var34);
-            var34 = var34.NitroWheelIcon;
-            var14['IconComponent'] = var34;
-            var34 = var56.GENERAL;
-            var14['section'] = var34;
-            var34 = 11;
-            var14['sortKey'] = var34;
+            var35 = var70[var83];
+            var35 = var69.bind(var3)(var35);
+            var35 = var35.t;
+            var35 = var35.tpxJto;
+            var35 = var46.bind(var49)(var35);
+            var14['label'] = var35;
+            var35 = 55;
+            var35 = var70[var35];
+            var35 = var69.bind(var3)(var35);
+            var35 = var35.NitroWheelIcon;
+            var14['IconComponent'] = var35;
+            var35 = var56.GENERAL;
+            var14['section'] = var35;
+            var35 = 11;
+            var14['sortKey'] = var35;
             var65 = var6.bind(var3)(var14);
             var14 = {};
             var46 = var70[var83];
@@ -1296,7 +1296,7 @@ case 103:
             var14['IconComponent'] = var46;
             var46 = var56.GENERAL;
             var14['section'] = var46;
-            var14['sortKey'] = var34;
+            var14['sortKey'] = var35;
             var63 = var6.bind(var3)(var14);
             var14 = {};
             var46 = var70[var83];
@@ -1316,59 +1316,59 @@ case 103:
             var14['IconComponent'] = var46;
             var46 = var56.GENERAL;
             var14['section'] = var46;
-            var14['sortKey'] = var34;
+            var14['sortKey'] = var35;
             var62 = var6.bind(var3)(var14);
             var14 = {};
-            var34 = var70[var83];
-            var34 = var69.bind(var3)(var34);
-            var49 = var34.intl;
+            var35 = var70[var83];
+            var35 = var69.bind(var3)(var35);
+            var49 = var35.intl;
             var46 = var49.string;
-            var34 = var70[var83];
-            var34 = var69.bind(var3)(var34);
-            var34 = var34.t;
-            var34 = var34.mJ3P0N;
-            var34 = var46.bind(var49)(var34);
-            var14['label'] = var34;
+            var35 = var70[var83];
+            var35 = var69.bind(var3)(var35);
+            var35 = var35.t;
+            var35 = var35.mJ3P0N;
+            var35 = var46.bind(var49)(var35);
+            var14['label'] = var35;
             var71 = 58;
-            var34 = var70[var71];
-            var34 = var69.bind(var3)(var34);
-            var34 = var34.ClockIcon;
-            var14['IconComponent'] = var34;
+            var35 = var70[var71];
+            var35 = var69.bind(var3)(var35);
+            var35 = var35.ClockIcon;
+            var14['IconComponent'] = var35;
             var14['arrow'] = var57;
-            var34 = var56.GENERAL;
-            var14['section'] = var34;
+            var35 = var56.GENERAL;
+            var14['section'] = var35;
             var14['sortKey'] = var28;
             var60 = var6.bind(var3)(var14);
             var14 = {};
-            var34 = var70[var83];
-            var34 = var69.bind(var3)(var34);
-            var49 = var34.intl;
+            var35 = var70[var83];
+            var35 = var69.bind(var3)(var35);
+            var49 = var35.intl;
             var46 = var49.string;
-            var34 = var70[var83];
-            var34 = var69.bind(var3)(var34);
-            var34 = var34.t;
-            var34 = var34.vrbqs1;
-            var34 = var46.bind(var49)(var34);
-            var14['label'] = var34;
-            var34 = var70[var71];
-            var34 = var69.bind(var3)(var34);
-            var34 = var34.ClockIcon;
-            var14['IconComponent'] = var34;
+            var35 = var70[var83];
+            var35 = var69.bind(var3)(var35);
+            var35 = var35.t;
+            var35 = var35.vrbqs1;
+            var35 = var46.bind(var49)(var35);
+            var14['label'] = var35;
+            var35 = var70[var71];
+            var35 = var69.bind(var3)(var35);
+            var35 = var35.ClockIcon;
+            var14['IconComponent'] = var35;
             var14['arrow'] = var57;
-            var34 = var56.GENERAL;
-            var14['section'] = var34;
+            var35 = var56.GENERAL;
+            var14['section'] = var35;
             var14['sortKey'] = var28;
             var59 = var6.bind(var3)(var14);
             var14 = {};
             var28 = var70[var83];
             var28 = var69.bind(var3)(var28);
             var46 = var28.intl;
-            var34 = var46.string;
+            var35 = var46.string;
             var28 = var70[var83];
             var28 = var69.bind(var3)(var28);
             var28 = var28.t;
             var28 = var28.PHjkRE;
-            var28 = var34.bind(var46)(var28);
+            var28 = var35.bind(var46)(var28);
             var14['label'] = var28;
             var28 = 59;
             var28 = var70[var28];
@@ -1384,12 +1384,12 @@ case 103:
             var28 = var70[var83];
             var28 = var69.bind(var3)(var28);
             var46 = var28.intl;
-            var34 = var46.string;
+            var35 = var46.string;
             var28 = var70[var83];
             var28 = var69.bind(var3)(var28);
             var28 = var28.t;
             var28 = var28.g33r/P;
-            var28 = var34.bind(var46)(var28);
+            var28 = var35.bind(var46)(var28);
             var14['label'] = var28;
             var28 = 60;
             var28 = var70[var28];
@@ -1405,12 +1405,12 @@ case 103:
             var28 = var70[var83];
             var28 = var69.bind(var3)(var28);
             var49 = var28.intl;
-            var34 = var49.string;
+            var35 = var49.string;
             var28 = var70[var83];
             var28 = var69.bind(var3)(var28);
             var28 = var28.t;
             var28 = var28.P8tvKG;
-            var28 = var34.bind(var49)(var28);
+            var28 = var35.bind(var49)(var28);
             var14['label'] = var28;
             var28 = 61;
             var28 = var70[var28];
@@ -1426,12 +1426,12 @@ case 103:
             var28 = var70[var83];
             var28 = var69.bind(var3)(var28);
             var75 = var28.intl;
-            var34 = var75.string;
+            var35 = var75.string;
             var28 = var70[var83];
             var28 = var69.bind(var3)(var28);
             var28 = var28.t;
             var28 = var28.S/xNKV;
-            var28 = var34.bind(var75)(var28);
+            var28 = var35.bind(var75)(var28);
             var14['label'] = var28;
             var75 = 62;
             var28 = var70[var75];
@@ -1440,27 +1440,27 @@ case 103:
             var14['IconComponent'] = var28;
             var28 = var56.GENERAL;
             var14['section'] = var28;
-            var14['sortKey'] = var35;
+            var14['sortKey'] = var34;
             var28 = var6.bind(var3)(var14);
             var14 = {};
-            var34 = var70[var83];
-            var34 = var69.bind(var3)(var34);
-            var80 = var34.intl;
+            var35 = var70[var83];
+            var35 = var69.bind(var3)(var35);
+            var80 = var35.intl;
             var79 = var80.string;
-            var34 = var70[var83];
-            var34 = var69.bind(var3)(var34);
-            var34 = var34.t;
-            var34 = var34.JVuuz3;
-            var34 = var79.bind(var80)(var34);
-            var14['label'] = var34;
-            var34 = var70[var75];
-            var34 = var69.bind(var3)(var34);
-            var34 = var34.DownloadIcon;
-            var14['IconComponent'] = var34;
-            var34 = var56.GENERAL;
-            var14['section'] = var34;
-            var14['sortKey'] = var35;
-            var34 = var6.bind(var3)(var14);
+            var35 = var70[var83];
+            var35 = var69.bind(var3)(var35);
+            var35 = var35.t;
+            var35 = var35.JVuuz3;
+            var35 = var79.bind(var80)(var35);
+            var14['label'] = var35;
+            var35 = var70[var75];
+            var35 = var69.bind(var3)(var35);
+            var35 = var35.DownloadIcon;
+            var14['IconComponent'] = var35;
+            var35 = var56.GENERAL;
+            var14['section'] = var35;
+            var14['sortKey'] = var34;
+            var35 = var6.bind(var3)(var14);
             var14 = {};
             var79 = var70[var83];
             var79 = var69.bind(var3)(var79);
@@ -1478,8 +1478,8 @@ case 103:
             var14['IconComponent'] = var75;
             var75 = var56.GENERAL;
             var14['section'] = var75;
-            var14['sortKey'] = var35;
-            var35 = var6.bind(var3)(var14);
+            var14['sortKey'] = var34;
+            var34 = var6.bind(var3)(var14);
             var14 = {};
             var75 = var70[var83];
             var75 = var69.bind(var3)(var75);
@@ -2089,107 +2089,117 @@ case 186:
 case 188:
             var36 = var22.mediaType;
             var33 = 'video';
-            if(!(var33 !== var36)) { _fun0004_ip = 189; continue _fun0004 }
+            if(!(var33 === var36)) { _fun0004_ip = 189; continue _fun0004 }
 case 190:
-            var36 = var22.mediaType;
-            var33 = 'audio';
-            var33 = var33 !== var36;
-            if(!var33) { _fun0004_ip = 191; continue _fun0004 }
-case 192:
-            var37 = var22.mediaType;
-            var36 = 'file';
-            var33 = var36 !== var37;
+            var36 = _closure1_slot0;
+            var37 = _closure1_slot2;
+            var33 = 72;
+            var33 = var37[var33];
+            var37 = var36.bind(var3)(var33);
+            var36 = var37.isWebPlayerVideoUrl;
+            var33 = var22.mediaUrl;
+            var33 = var36.bind(var37)(var33);
+            if(var33) { _fun0004_ip = 189; continue _fun0004 }
 case 191:
-            if(var33) { _fun0004_ip = 193; continue _fun0004 }
-case 194:
             var33 = var15.unshift;
             var33 = var33.bind(var15)(var35);
-            _fun0004_ip = 193; continue _fun0004;
+            _fun0004_ip = 192; continue _fun0004;
 case 189:
+            var35 = var22.mediaType;
+            var33 = 'audio';
+            var33 = var33 !== var35;
+            if(!var33) { _fun0004_ip = 193; continue _fun0004 }
+case 194:
+            var36 = var22.mediaType;
+            var35 = 'file';
+            var33 = var35 !== var36;
+case 193:
+            if(var33) { _fun0004_ip = 192; continue _fun0004 }
+case 195:
             var33 = var15.unshift;
             var33 = var33.bind(var15)(var34);
-            _fun0004_ip = 193; continue _fun0004;
+            _fun0004_ip = 192; continue _fun0004;
 case 187:
             var26 = var1 != var26;
-            if(!var26) { _fun0004_ip = 195; continue _fun0004 }
-case 196:
-            if(var30) { _fun0004_ip = 197; continue _fun0004 }
-case 198:
-            if(!var31) { _fun0004_ip = 199; continue _fun0004 }
-case 200:
-            var31 = var32;
-case 199:
-            var30 = var31;
+            if(!var26) { _fun0004_ip = 196; continue _fun0004 }
 case 197:
+            if(var30) { _fun0004_ip = 198; continue _fun0004 }
+case 199:
+            if(!var31) { _fun0004_ip = 200; continue _fun0004 }
+case 201:
+            var31 = var32;
+case 200:
+            var30 = var31;
+case 198:
             var26 = var30;
-case 195:
-            if(!var26) { _fun0004_ip = 201; continue _fun0004 }
-case 202:
+case 196:
+            if(!var26) { _fun0004_ip = 202; continue _fun0004 }
+case 203:
             var26 = var15.unshift;
             var26 = var26.bind(var15)(var29);
-case 201:
+case 202:
             var26 = var15.unshift;
             var26 = var26.bind(var15)(var28);
-case 193:
+case 192:
             var28 = _closure1_slot0;
             var29 = _closure1_slot2;
-            var26 = 72;
+            var26 = 73;
             var26 = var29[var26];
             var28 = var28.bind(var3)(var26);
             var26 = var28.messageHasObscurableMedia;
             var26 = var26.bind(var28)(var17);
-            if(!var26) { _fun0004_ip = 203; continue _fun0004 }
-case 204:
+            if(!var26) { _fun0004_ip = 204; continue _fun0004 }
+case 205:
             var26 = var15.unshift;
             var26 = var26.bind(var15)(var27);
-case 203:
+case 204:
             var26 = var22.sourceType;
             var22 = 'attachment';
             var22 = var22 === var26;
-            if(!var22) { _fun0004_ip = 205; continue _fun0004 }
-case 206:
-            var22 = var25;
-case 205:
-            if(!var22) { _fun0004_ip = 185; continue _fun0004 }
+            if(!var22) { _fun0004_ip = 206; continue _fun0004 }
 case 207:
+            var22 = var25;
+case 206:
+            if(!var22) { _fun0004_ip = 185; continue _fun0004 }
+case 208:
             var22 = var15.unshift;
             var22 = var22.bind(var15)(var24);
 case 185:
             var22 = var17.reactions;
             var22 = var22.length;
             var22 = var22 > var9;
-            if(!var22) { _fun0004_ip = 208; continue _fun0004 }
-case 209:
+            if(!var22) { _fun0004_ip = 209; continue _fun0004 }
+case 210:
             var24 = var17.isPoll;
             var24 = var24.bind(var17)();
             var24 = !var24;
-            if(var24) { _fun0004_ip = 210; continue _fun0004 }
-case 211:
+            if(var24) { _fun0004_ip = 211; continue _fun0004 }
+case 212:
             var26 = _closure1_slot0;
             var27 = _closure1_slot2;
-            var25 = 73;
+            var25 = 74;
             var25 = var27[var25];
             var26 = var26.bind(var3)(var25);
             var25 = var26.hasNonVoteReactions;
             var24 = var25.bind(var26)(var17);
-case 210:
+case 211:
             var22 = var24;
-case 208:
-            if(!var22) { _fun0004_ip = 212; continue _fun0004 }
-case 213:
+case 209:
+            if(!var22) { _fun0004_ip = 213; continue _fun0004 }
+case 214:
             var22 = var15.unshift;
             var22 = var22.bind(var15)(var23);
-            if(!var13) { _fun0004_ip = 212; continue _fun0004 }
-case 214:
+            if(!var13) { _fun0004_ip = 213; continue _fun0004 }
+case 215:
             var13 = var15.unshift;
             var13 = var13.bind(var15)(var19);
-case 212:
+case 213:
             var13 = _closure1_slot26;
             var19 = var13.bind(var3)(var18);
             var18 = var19.bind(var3)();
             var13 = var18.done;
-            if(var13) { _fun0004_ip = 215; continue _fun0004 }
-case 216:
+            if(var13) { _fun0004_ip = 216; continue _fun0004 }
+case 217:
             var22 = var18.value;
             var23 = _closure1_slot0;
             var13 = _closure1_slot2;
@@ -2197,30 +2207,30 @@ case 216:
             var13 = var23.bind(var3)(var13);
             var13 = var13.PollMessageContextItemTypes;
             var13 = var13.END_EARLY;
-            if(!(var22 === var13)) { _fun0004_ip = 217; continue _fun0004 }
-case 218:
+            if(!(var22 === var13)) { _fun0004_ip = 218; continue _fun0004 }
+case 219:
             var13 = var15.unshift;
             var13 = var13.bind(var15)(var20);
-case 217:
+case 218:
             var22 = var19.bind(var3)();
             var13 = var22.done;
             var18 = var22;
-            if(!var13) { _fun0004_ip = 216; continue _fun0004 }
-case 215:
+            if(!var13) { _fun0004_ip = 217; continue _fun0004 }
+case 216:
             var13 = var15.unshift;
             var13 = var13.bind(var15)(var16);
             var16 = _closure1_slot0;
             var18 = _closure1_slot2;
-            var13 = 74;
+            var13 = 75;
             var13 = var18[var13];
             var16 = var16.bind(var3)(var13);
             var13 = var16.canViewInteractionInfo;
             var13 = var13.bind(var16)(var17);
-            if(!var13) { _fun0004_ip = 219; continue _fun0004 }
-case 220:
+            if(!var13) { _fun0004_ip = 220; continue _fun0004 }
+case 221:
             var13 = var15.unshift;
             var13 = var13.bind(var15)(var14);
-case 219:
+case 220:
             var14 = var15.filter;
             var13 = function(arg1) {
                 var3 = _closure2_slot11;
@@ -2243,7 +2253,7 @@ case 219:
             var16 = var14.bind(var15)(var13);
             var14 = _closure1_slot0;
             var15 = _closure1_slot2;
-            var13 = 75;
+            var13 = 76;
             var13 = var15[var13];
             var15 = var14.bind(var3)(var13);
             var14 = var15.groupBy;
@@ -2299,8 +2309,8 @@ case 102:
             return var4;
 case 100:
             var4 = new Array(0);
-            if(!var10) { _fun0004_ip = 221; continue _fun0004 }
-case 222:
+            if(!var10) { _fun0004_ip = 222; continue _fun0004 }
+case 223:
             var11 = var4.push;
             var10 = {};
             var13 = _closure1_slot25;
@@ -2327,15 +2337,15 @@ case 222:
             var10['IconComponent'] = var12;
             var10 = var6.bind(var3)(var10);
             var10 = var11.bind(var4)(var10);
-case 221:
+case 222:
             var1 = var1 != var5;
-            if(!var1) { _fun0004_ip = 223; continue _fun0004 }
-case 224:
+            if(!var1) { _fun0004_ip = 224; continue _fun0004 }
+case 225:
             var5 = var5.length;
             var1 = var5 > var9;
-case 223:
-            if(!var1) { _fun0004_ip = 225; continue _fun0004 }
-case 226:
+case 224:
+            if(!var1) { _fun0004_ip = 226; continue _fun0004 }
+case 227:
             var5 = var4.push;
             var1 = {};
             var9 = _closure1_slot25;
@@ -2362,7 +2372,7 @@ case 226:
             var1['IconComponent'] = var8;
             var1 = var6.bind(var3)(var1);
             var1 = var5.bind(var4)(var1);
-case 225:
+case 226:
             var5 = var4.push;
             var1 = {};
             var8 = _closure1_slot25;

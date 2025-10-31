@@ -844,9 +844,10 @@ case 63:
                     var11 = _closure1_slot2;
                     var6 = 19;
                     var6 = var11[var6];
-                    var8 = var8.bind(var10)(var6);
-                    var6 = var8.isValidChannelAutocomplete;
-                    var6 = var6.bind(var8)(var9);
+                    var10 = var8.bind(var10)(var6);
+                    var8 = var10.isValidChannelAutocomplete;
+                    var6 = _closure2_slot0;
+                    var6 = var8.bind(var10)(var9, var6);
                     if(!var6) { _fun0007_ip = 52; continue _fun0007 }
 case 64:
                     var8 = var9.getData;

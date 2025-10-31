@@ -1,4 +1,4 @@
-// app/modules/quests/QuestsActionCreators.tsx
+// app/modules/quests/QuestActionCreators.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var6 = require;
     var8 = metroImportDefault;
@@ -2683,7 +2683,7 @@ case 115:
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
-    var5 = 'modules/quests/QuestsActionCreators.tsx';
+    var5 = 'modules/quests/QuestActionCreators.tsx';
     var5 = var6.bind(var7)(var5);
     var5 = function manuallyStartConsoleQuest() {
         var1 = undefined;

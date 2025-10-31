@@ -499,71 +499,65 @@ case 28:
         }
     };
     var _closure1_slot36 = var1;
-    var7 = function isValidChannelAutocomplete(arg1) {
+    var7 = function isValidChannelAutocomplete(arg1, arg2) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
-            var4 = arg1;
-            var1 = var4.getMatch;
-            var6 = 1;
-            var1 = var1.bind(var4)(var6);
-            var3 = _closure1_slot20;
-            var2 = var3.test;
-            var2 = var2.bind(var3)(var1);
-            if(var2) { _fun0005_ip = 33; continue _fun0005 }
+            var5 = arg1;
+            var4 = arg2;
+            var1 = var5.getMatch;
+            var9 = 1;
+            var2 = var1.bind(var5)(var9);
+            var6 = _closure1_slot20;
+            var1 = var6.test;
+            var1 = var1.bind(var6)(var2);
+            if(var1) { _fun0005_ip = 33; continue _fun0005 }
 case 34:
-            var2 = var1.startsWith;
+            var1 = var2.startsWith;
             var7 = '"';
-            var2 = var2.bind(var1)(var7);
-            if(!var2) { _fun0005_ip = 35; continue _fun0005 }
-case 10:
-            var3 = var1.endsWith;
-            var2 = var3.bind(var1)(var7);
+            var1 = var1.bind(var2)(var7);
+            if(!var1) { _fun0005_ip = 35; continue _fun0005 }
+case 36:
+            var6 = var2.endsWith;
+            var1 = var6.bind(var2)(var7);
 case 35:
-            var8 = var1;
-            if(!var2) { _fun0005_ip = 36; continue _fun0005 }
-case 37:
-            var3 = var1.substring;
-            var2 = var1.length;
-            var2 = var2 - var6;
-            var7 = var3.bind(var1)(var6, var2);
-            var6 = var7.replaceAll;
-            var3 = /\\(.)/g;
-            var2 = function(arg1, arg2) {
+            var7 = var2;
+            if(!var1) { _fun0005_ip = 37; continue _fun0005 }
+case 12:
+            var6 = var2.substring;
+            var1 = var2.length;
+            var1 = var1 - var9;
+            var10 = var6.bind(var2)(var9, var1);
+            var9 = var10.replaceAll;
+            var6 = /\\(.)/g;
+            var1 = function(arg1, arg2) {
                 var1 = arg2;
                 return var1;
             };
-            var8 = var6.bind(var7)(var3, var2);
-case 36:
-            var3 = _closure1_slot12;
-            var2 = var3.getSelectedSearchContext;
-            var6 = var2.bind(var3)();
-            var2 = null;
-            var2 = var2 != var6;
-            if(!var2) { _fun0005_ip = 38; continue _fun0005 }
+            var7 = var9.bind(var10)(var6, var1);
+case 37:
+            var9 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var1 = 17;
+            var1 = var6[var1];
+            var6 = undefined;
+            var9 = var9.bind(var6)(var1);
+            var1 = var9.isGuildLikeSearchContext;
+            var1 = var1.bind(var9)(var4);
+            if(var1) { _fun0005_ip = 38; continue _fun0005 }
 case 39:
-            var10 = _closure1_slot0;
-            var7 = _closure1_slot2;
-            var3 = 17;
-            var3 = var7[var3];
-            var7 = undefined;
-            var10 = var10.bind(var7)(var3);
-            var3 = var10.isGuildLikeSearchContext;
-            var3 = var3.bind(var10)(var6);
-            if(var3) { _fun0005_ip = 40; continue _fun0005 }
+            var9 = var4.type;
+            var1 = _closure1_slot18;
+            var1 = var1.DMS;
+            var1 = var9 === var1;
+            if(!var1) { _fun0005_ip = 40; continue _fun0005 }
 case 41:
-            var10 = var6.type;
-            var3 = _closure1_slot18;
-            var3 = var3.DMS;
-            var3 = var10 === var3;
-            if(!var3) { _fun0005_ip = 42; continue _fun0005 }
+            var8 = _closure1_slot10;
+            var8 = var8.hidePersonalInformation;
+            var1 = !var8;
+case 40:
+            if(!var1) { _fun0005_ip = 42; continue _fun0005 }
 case 43:
-            var9 = _closure1_slot10;
-            var9 = var9.hidePersonalInformation;
-            var3 = !var9;
-case 42:
-            if(!var3) { _fun0005_ip = 44; continue _fun0005 }
-case 45:
-            var9 = function isValidPrivateChannelAutocomplete(arg1, arg2) {
+            var8 = function isValidPrivateChannelAutocomplete(arg1, arg2) {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                     var5 = arg1;
@@ -592,22 +586,22 @@ case 0:
                             var1 = _closure1_slot8;
                             var6 = var6.bind(var7)(var4, var3, var1);
                             var3 = _closure3_slot0;
-                            if(!(var3 !== var6)) { _fun0007_ip = 46; continue _fun0007 }
+                            if(!(var3 !== var6)) { _fun0007_ip = 44; continue _fun0007 }
 case 10:
                             var3 = var4.isDM;
                             var3 = var3.bind(var4)();
-                            if(var3) { _fun0007_ip = 47; continue _fun0007 }
-case 48:
+                            if(var3) { _fun0007_ip = 45; continue _fun0007 }
+case 46:
                             return var5;
-case 47:
+case 45:
                             var3 = var4.getRecipientId;
                             var6 = var3.bind(var4)();
                             var4 = _closure1_slot11;
                             var3 = var4.getUser;
                             var4 = var3.bind(var4)(var6);
                             var3 = null;
-                            if(!(var3 != var4)) { _fun0007_ip = 49; continue _fun0007 }
-case 50:
+                            if(!(var3 != var4)) { _fun0007_ip = 47; continue _fun0007 }
+case 48:
                             var3 = _closure1_slot1;
                             var6 = _closure1_slot2;
                             var2 = 16;
@@ -618,10 +612,10 @@ case 50:
                             var1 = _closure3_slot0;
                             var1 = var1 === var2;
                             return var1;
-case 49:
+case 47:
                             var1 = false;
                             return var1;
-case 46:
+case 44:
                             var1 = true;
                             return var1;
                         }
@@ -631,13 +625,13 @@ case 46:
                     var1 = var1 == var6;
                     var3 = undefined;
                     if(var1) { _fun0006_ip = 12; continue _fun0006 }
-case 47:
+case 45:
                     var3 = var6.length;
 case 12:
                     var1 = 0;
                     var1 = var3 > var1;
-                    if(!var1) { _fun0006_ip = 51; continue _fun0006 }
-case 52:
+                    if(!var1) { _fun0006_ip = 49; continue _fun0006 }
+case 50:
                     var4 = var5.setData;
                     var3 = var6.map;
                     var2 = function(arg1) {
@@ -649,16 +643,16 @@ case 52:
                     var2 = 'channelIds';
                     var2 = var4.bind(var5)(var2, var3);
                     var1 = true;
-case 51:
+case 49:
                     return var1;
                 }
             };
-            var3 = var9.bind(var7)(var4, var8);
-case 44:
-            _fun0005_ip = 53; continue _fun0005;
-case 40:
-            var6 = var6.guildId;
-            var5 = function isValidGuildChannelAutocomplete(arg1, arg2, arg3) {
+            var1 = var8.bind(var6)(var5, var7);
+case 42:
+            _fun0005_ip = 51; continue _fun0005;
+case 38:
+            var4 = var4.guildId;
+            var3 = function isValidGuildChannelAutocomplete(arg1, arg2, arg3) {
                 _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
                     var5 = arg1;
@@ -706,14 +700,14 @@ case 0:
                     };
                     var6 = var6.bind(var8)(var4);
                     var4 = var6.concat;
-                    if(!var1) { _fun0008_ip = 54; continue _fun0008 }
+                    if(!var1) { _fun0008_ip = 52; continue _fun0008 }
 case 7:
                     var1 = null;
-                    if(!(var1 == var9)) { _fun0008_ip = 55; continue _fun0008 }
-case 54:
+                    if(!(var1 == var9)) { _fun0008_ip = 53; continue _fun0008 }
+case 52:
                     var1 = new Array(0);
                     _fun0008_ip = 15; continue _fun0008;
-case 55:
+case 53:
                     var8 = _closure1_slot4;
                     var7 = var8.getAllThreadsForGuild;
                     var1 = var7.bind(var8)(var9);
@@ -731,14 +725,14 @@ case 0:
                             var4 = null;
                             var6 = var4 == var5;
                             var1 = undefined;
-                            if(var6) { _fun0009_ip = 56; continue _fun0009 }
-case 57:
+                            if(var6) { _fun0009_ip = 54; continue _fun0009 }
+case 55:
                             var1 = var5.name;
-case 56:
-                            if(!(var4 == var1)) { _fun0009_ip = 58; continue _fun0009 }
-case 59:
+case 54:
+                            if(!(var4 == var1)) { _fun0009_ip = 56; continue _fun0009 }
+case 57:
                             var1 = var3.name;
-case 58:
+case 56:
                             var1 = var2 === var1;
                             return var1;
                         }
@@ -749,14 +743,14 @@ case 58:
                     var1 = null;
                     var1 = var1 == var6;
                     var3 = undefined;
-                    if(var1) { _fun0008_ip = 38; continue _fun0008 }
-case 60:
+                    if(var1) { _fun0008_ip = 58; continue _fun0008 }
+case 59:
                     var3 = var6.length;
-case 38:
+case 58:
                     var1 = 0;
                     var1 = var3 > var1;
-                    if(!var1) { _fun0008_ip = 61; continue _fun0008 }
-case 62:
+                    if(!var1) { _fun0008_ip = 60; continue _fun0008 }
+case 61:
                     var4 = var5.setData;
                     var3 = var6.map;
                     var2 = function(arg1) {
@@ -768,22 +762,21 @@ case 62:
                     var2 = 'channelIds';
                     var2 = var4.bind(var5)(var2, var3);
                     var1 = true;
-case 61:
+case 60:
                     return var1;
                 }
             };
-            var3 = var5.bind(var7)(var4, var8, var6);
-case 53:
-            var2 = var3;
-case 38:
-            return var2;
+            var1 = var3.bind(var6)(var5, var7, var4);
+case 51:
+            _fun0005_ip = 62; continue _fun0005;
 case 33:
-            var3 = var4.setData;
-            var2 = new Array(1);
-            var2[0] = var1;
-            var1 = 'channelIds';
-            var1 = var3.bind(var4)(var1, var2);
+            var4 = var5.setData;
+            var3 = new Array(1);
+            var3[0] = var2;
+            var2 = 'channelIds';
+            var2 = var4.bind(var5)(var2, var3);
             var1 = true;
+case 62:
             return var1;
         }
     };
@@ -1149,22 +1142,22 @@ case 7:
             var7 = _closure1_slot18;
             var7 = var7.GUILD_CHANNEL;
             if(!(var7 !== var8)) { _fun0012_ip = 72; continue _fun0012 }
-case 73:
+case 43:
             var7 = _closure1_slot18;
             var7 = var7.THREAD;
             if(!(var7 !== var8)) { _fun0012_ip = 72; continue _fun0012 }
-case 42:
+case 73:
             var7 = _closure1_slot18;
             var7 = var7.CHANNEL;
             if(!(var7 !== var8)) { _fun0012_ip = 74; continue _fun0012 }
-case 75:
+case 51:
             var7 = _closure1_slot18;
             var7 = var7.DMS;
-            if(!(var7 !== var8)) { _fun0012_ip = 53; continue _fun0012 }
+            if(!(var7 !== var8)) { _fun0012_ip = 75; continue _fun0012 }
 case 76:
             var7 = new Array(0);
             return var7;
-case 53:
+case 75:
             var7 = null;
             if(!(var7 == var9)) { _fun0012_ip = 77; continue _fun0012 }
 case 78:
@@ -1175,7 +1168,7 @@ case 77:
 case 0:
                     var5 = arg1;
                     var1 = null;
-                    if(!(var1 != var5)) { _fun0013_ip = 50; continue _fun0013 }
+                    if(!(var1 != var5)) { _fun0013_ip = 48; continue _fun0013 }
 case 79:
                     var1 = global;
                     var1 = var1.Set;
@@ -1196,7 +1189,7 @@ case 0:
                             var1 = 'channelIds';
                             var3 = var2.bind(var3)(var1);
                             var1 = null;
-                            if(!(var1 != var3)) { _fun0014_ip = 59; continue _fun0014 }
+                            if(!(var1 != var3)) { _fun0014_ip = 57; continue _fun0014 }
 case 80:
                             var2 = var3.forEach;
                             var1 = function(arg1) {
@@ -1207,7 +1200,7 @@ case 80:
                                 return var1;
                             };
                             var1 = var2.bind(var3)(var1);
-case 59:
+case 57:
                             var1 = undefined;
                             return var1;
                         }
@@ -1219,14 +1212,14 @@ case 0:
                             var1 = arg1;
                             var2 = null;
                             var2 = var2 == var1;
-                            if(var2) { _fun0015_ip = 57; continue _fun0015 }
+                            if(var2) { _fun0015_ip = 55; continue _fun0015 }
 case 3:
                             var5 = _closure3_slot0;
                             var4 = var5.has;
                             var3 = var1.id;
                             var2 = var4.bind(var5)(var3);
-case 57:
-                            if(var2) { _fun0015_ip = 48; continue _fun0015 }
+case 55:
+                            if(var2) { _fun0015_ip = 46; continue _fun0015 }
 case 81:
                             var4 = _closure3_slot3;
                             var3 = var4.push;
@@ -1235,7 +1228,7 @@ case 81:
                             var2 = var3.add;
                             var1 = var1.id;
                             var1 = var2.bind(var3)(var1);
-case 48:
+case 46:
                             var1 = undefined;
                             return var1;
                         }
@@ -1257,7 +1250,7 @@ case 83:
                             var2 = var3.isDM;
                             var2 = var2.bind(var3)();
                             if(var2) { _fun0016_ip = 84; continue _fun0016 }
-case 56:
+case 54:
                             var2 = var3.isGroupDM;
                             var2 = var2.bind(var3)();
                             if(!var2) { _fun0016_ip = 82; continue _fun0016 }
@@ -1292,7 +1285,7 @@ case 82:
                     };
                     var2 = var3.bind(var4)(var2);
                     return var1;
-case 50:
+case 48:
                     var1 = new Array(0);
                     return var1;
                 }
@@ -1450,17 +1443,17 @@ case 0:
 case 100:
                     var2 = _closure2_slot4;
                     if(!var2) { _fun0017_ip = 101; continue _fun0017 }
-case 102:
+case 34:
                     var4 = var3.id;
                     var6 = _closure2_slot3;
                     var3 = null;
                     var6 = var3 == var6;
                     var3 = undefined;
-                    if(var6) { _fun0017_ip = 103; continue _fun0017 }
-case 104:
+                    if(var6) { _fun0017_ip = 35; continue _fun0017 }
+case 102:
                     var5 = _closure2_slot3;
                     var3 = var5.id;
-case 103:
+case 35:
                     var2 = var4 === var3;
 case 101:
                     var1 = var2;
@@ -1488,15 +1481,15 @@ case 99:
                 return var1;
             };
             var2 = var8.bind(var12)(var2);
-            if(!var7) { _fun0012_ip = 105; continue _fun0012 }
-case 106:
+            if(!var7) { _fun0012_ip = 103; continue _fun0012 }
+case 104:
             var8 = var2.unshift;
             var7 = {};
             var12 = _closure1_slot15;
             var7['text'] = var12;
             var7['user'] = var9;
             var7 = var8.bind(var2)(var7);
-case 105:
+case 103:
             return var2;
 case 91:
             var2 = new Array(0);
@@ -1515,13 +1508,13 @@ case 0:
                     var1 = arg1;
                     var2 = null;
                     var2 = var2 == var1;
-                    if(var2) { _fun0018_ip = 57; continue _fun0018 }
+                    if(var2) { _fun0018_ip = 55; continue _fun0018 }
 case 3:
                     var5 = _closure2_slot1;
                     var4 = var5.has;
                     var3 = var1.id;
                     var2 = var4.bind(var5)(var3);
-case 57:
+case 55:
                     if(var2) { _fun0018_ip = 10; continue _fun0018 }
 case 81:
                     var5 = _closure1_slot8;
@@ -1529,8 +1522,8 @@ case 81:
                     var3 = var1.id;
                     var2 = var4.bind(var5)(var3);
 case 10:
-                    if(var2) { _fun0018_ip = 107; continue _fun0018 }
-case 108:
+                    if(var2) { _fun0018_ip = 105; continue _fun0018 }
+case 36:
                     var5 = _closure2_slot0;
                     var4 = var5.push;
                     var3 = {};
@@ -1549,7 +1542,7 @@ case 108:
                     var2 = var3.add;
                     var1 = var1.id;
                     var1 = var2.bind(var3)(var1);
-case 107:
+case 105:
                     var1 = undefined;
                     return var1;
                 }
@@ -1616,17 +1609,17 @@ case 0:
             var1 = var8.startsWith;
             var4 = '"';
             var1 = var1.bind(var8)(var4);
-            if(!var1) { _fun0019_ip = 104; continue _fun0019 }
-case 109:
+            if(!var1) { _fun0019_ip = 102; continue _fun0019 }
+case 106:
             var1 = var8.endsWith;
             var1 = var1.bind(var8)(var4);
-            if(var1) { _fun0019_ip = 36; continue _fun0019 }
-case 104:
+            if(var1) { _fun0019_ip = 107; continue _fun0019 }
+case 102:
             var1 = var8.startsWith;
             var1 = var1.bind(var8)(var4);
             var7 = var8;
             if(!var1) { _fun0019_ip = 14; continue _fun0019 }
-case 110:
+case 108:
             var4 = var8.substring;
             var1 = 1;
             var9 = var4.bind(var8)(var1);
@@ -1638,7 +1631,7 @@ case 110:
             };
             var7 = var5.bind(var9)(var4, var1);
             _fun0019_ip = 14; continue _fun0019;
-case 36:
+case 107:
             var5 = var8.substring;
             var1 = var8.length;
             var4 = 1;
@@ -1656,12 +1649,12 @@ case 14:
             var4 = var7[var1];
             var1 = '#';
             var5 = var7;
-            if(!(var1 === var4)) { _fun0019_ip = 111; continue _fun0019 }
-case 112:
+            if(!(var1 === var4)) { _fun0019_ip = 109; continue _fun0019 }
+case 40:
             var4 = var7.substring;
             var1 = 1;
             var5 = var4.bind(var7)(var1);
-case 111:
+case 109:
             var8 = _closure1_slot0;
             var7 = _closure1_slot2;
             var4 = 17;
@@ -1670,17 +1663,17 @@ case 111:
             var8 = var8.bind(var4)(var7);
             var7 = var8.isGuildLikeSearchContext;
             var7 = var7.bind(var8)(var3);
-            if(var7) { _fun0019_ip = 113; continue _fun0019 }
-case 114:
+            if(var7) { _fun0019_ip = 110; continue _fun0019 }
+case 111:
             var8 = var3.type;
             var7 = _closure1_slot18;
             var7 = var7.DMS;
-            if(!(var8 === var7)) { _fun0019_ip = 115; continue _fun0019 }
-case 116:
+            if(!(var8 === var7)) { _fun0019_ip = 112; continue _fun0019 }
+case 113:
             var1 = _closure1_slot10;
             var1 = var1.hidePersonalInformation;
-            if(var1) { _fun0019_ip = 115; continue _fun0019 }
-case 117:
+            if(var1) { _fun0019_ip = 112; continue _fun0019 }
+case 114:
             var7 = function getPrivateChannelAutocompletions(arg1, arg2, arg3) {
                 var1 = arg1;
                 var4 = arg2;
@@ -1748,10 +1741,10 @@ case 0:
                         var2 = null;
                         var4 = var2 == var3;
                         var2 = undefined;
-                        if(var4) { _fun0020_ip = 118; continue _fun0020 }
-case 119:
+                        if(var4) { _fun0020_ip = 115; continue _fun0020 }
+case 116:
                         var2 = var3.id;
-case 118:
+case 115:
                         var1['key'] = var2;
                         return var1;
                     }
@@ -1766,15 +1759,15 @@ case 0:
                         var3 = null;
                         var1 = var3 != var1;
                         if(!var1) { _fun0021_ip = 83; continue _fun0021 }
-case 120:
+case 117:
                         var4 = var2.channel;
                         var1 = var3 != var4;
 case 83:
-                        if(!var1) { _fun0021_ip = 121; continue _fun0021 }
+                        if(!var1) { _fun0021_ip = 118; continue _fun0021 }
 case 71:
                         var2 = var2.key;
                         var1 = var3 != var2;
-case 121:
+case 118:
                         return var1;
                     }
                 };
@@ -1789,12 +1782,12 @@ case 121:
             };
             var1 = false;
             var1 = var7.bind(var4)(var5, var6, var1);
-            _fun0019_ip = 122; continue _fun0019;
-case 115:
+            _fun0019_ip = 119; continue _fun0019;
+case 112:
             var1 = new Array(0);
-case 122:
-            _fun0019_ip = 123; continue _fun0019;
-case 113:
+case 119:
+            _fun0019_ip = 120; continue _fun0019;
+case 110:
             var3 = var3.guildId;
             var2 = function getGuildChannelAutocompletions(arg1, arg2, arg3) {
                 _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
@@ -1863,8 +1856,8 @@ case 0:
                     };
                     var9 = var8.bind(var9)(var3);
                     var3 = var9;
-                    if(var6) { _fun0022_ip = 124; continue _fun0022 }
-case 125:
+                    if(var6) { _fun0022_ip = 121; continue _fun0022 }
+case 122:
                     var8 = var9.filter;
                     var6 = function(arg1) {
                         var2 = arg1;
@@ -1874,11 +1867,11 @@ case 125:
                         return var1;
                     };
                     var3 = var8.bind(var9)(var6);
-case 124:
+case 121:
                     var6 = var5.length;
                     var5 = 0;
-                    if(!(var5 === var6)) { _fun0022_ip = 126; continue _fun0022 }
-case 127:
+                    if(!(var5 === var6)) { _fun0022_ip = 123; continue _fun0022 }
+case 124:
                     var6 = _closure1_slot9;
                     var5 = var6.getChannelId;
                     var5 = var5.bind(var6)(var7);
@@ -1893,8 +1886,8 @@ case 127:
                     };
                     var6 = var6.bind(var3)(var5);
                     var5 = null;
-                    if(!(var5 != var6)) { _fun0022_ip = 126; continue _fun0022 }
-case 128:
+                    if(!(var5 != var6)) { _fun0022_ip = 123; continue _fun0022 }
+case 125:
                     var9 = var3.splice;
                     var5 = var3.indexOf;
                     var8 = var5.bind(var3)(var6);
@@ -1902,7 +1895,7 @@ case 128:
                     var5 = var9.bind(var3)(var8, var5);
                     var5 = var3.unshift;
                     var5 = var5.bind(var3)(var6);
-case 126:
+case 123:
                     var6 = _closure1_slot7;
                     var5 = var6.getTextChannelNameDisambiguations;
                     var5 = var5.bind(var6)(var7);
@@ -1932,10 +1925,10 @@ case 0:
 case 70:
                             var5 = var4.name;
 case 81:
-                            if(!(var3 == var5)) { _fun0023_ip = 129; continue _fun0023 }
-case 118:
+                            if(!(var3 == var5)) { _fun0023_ip = 126; continue _fun0023 }
+case 115:
                             var5 = var2.name;
-case 129:
+case 126:
                             var3 = global;
                             var3 = var3.HermesInternal;
                             var4 = var3.concat;
@@ -1955,11 +1948,1043 @@ case 129:
                 }
             };
             var1 = var2.bind(var4)(var5, var3, var6);
-case 123:
+case 120:
             return var1;
         }
     };
     var _closure1_slot45 = var1;
+    var1 = function makeSearchTokenConfigs(arg1) {
+        var1 = arg1;
+        var _closure2_slot0 = var1;
+        var16 = _closure1_slot0;
+        var17 = _closure1_slot2;
+        var7 = 13;
+        var1 = var17[var7];
+        var15 = undefined;
+        var1 = var16.bind(var15)(var1);
+        var3 = var1.intl;
+        var2 = var3.string;
+        var1 = var17[var7];
+        var1 = var16.bind(var15)(var1);
+        var1 = var1.t;
+        var1 = var1.ZNR2fi;
+        var1 = var2.bind(var3)(var1);
+        var10 = new Array(9);
+        var10[0] = var1;
+        var1 = var17[var7];
+        var1 = var16.bind(var15)(var1);
+        var3 = var1.intl;
+        var2 = var3.string;
+        var1 = var17[var7];
+        var1 = var16.bind(var15)(var1);
+        var1 = var1.t;
+        var1 = var1.20uQR3;
+        var1 = var2.bind(var3)(var1);
+        var10[1] = var1;
+        var1 = var17[var7];
+        var1 = var16.bind(var15)(var1);
+        var3 = var1.intl;
+        var2 = var3.string;
+        var1 = var17[var7];
+        var1 = var16.bind(var15)(var1);
+        var1 = var1.t;
+        var1 = var1.L4lxyE;
+        var1 = var2.bind(var3)(var1);
+        var10[2] = var1;
+        var1 = var17[var7];
+        var1 = var16.bind(var15)(var1);
+        var3 = var1.intl;
+        var2 = var3.string;
+        var1 = var17[var7];
+        var1 = var16.bind(var15)(var1);
+        var1 = var1.t;
+        var1 = var1.AV/v6i;
+        var1 = var2.bind(var3)(var1);
+        var10[3] = var1;
+        var1 = var17[var7];
+        var1 = var16.bind(var15)(var1);
+        var3 = var1.intl;
+        var2 = var3.string;
+        var1 = var17[var7];
+        var1 = var16.bind(var15)(var1);
+        var1 = var1.t;
+        var1 = var1.XM9XGP;
+        var1 = var2.bind(var3)(var1);
+        var10[4] = var1;
+        var1 = var17[var7];
+        var1 = var16.bind(var15)(var1);
+        var3 = var1.intl;
+        var2 = var3.string;
+        var1 = var17[var7];
+        var1 = var16.bind(var15)(var1);
+        var1 = var1.t;
+        var1 = var1.TNLcpx;
+        var1 = var2.bind(var3)(var1);
+        var10[5] = var1;
+        var1 = var17[var7];
+        var1 = var16.bind(var15)(var1);
+        var3 = var1.intl;
+        var2 = var3.string;
+        var1 = var17[var7];
+        var1 = var16.bind(var15)(var1);
+        var1 = var1.t;
+        var1 = var1.F8Wf0e;
+        var1 = var2.bind(var3)(var1);
+        var10[6] = var1;
+        var1 = var17[var7];
+        var1 = var16.bind(var15)(var1);
+        var3 = var1.intl;
+        var2 = var3.string;
+        var1 = var17[var7];
+        var1 = var16.bind(var15)(var1);
+        var1 = var1.t;
+        var1 = var1.PJgX2h;
+        var1 = var2.bind(var3)(var1);
+        var10[7] = var1;
+        var1 = var17[var7];
+        var1 = var16.bind(var15)(var1);
+        var3 = var1.intl;
+        var2 = var3.string;
+        var1 = var17[var7];
+        var1 = var16.bind(var15)(var1);
+        var1 = var1.t;
+        var1 = var1.nrpA5E;
+        var1 = var2.bind(var3)(var1);
+        var10[8] = var1;
+        var _closure2_slot1 = var10;
+        var1 = var17[var7];
+        var1 = var16.bind(var15)(var1);
+        var3 = var1.intl;
+        var2 = var3.string;
+        var1 = var17[var7];
+        var1 = var16.bind(var15)(var1);
+        var1 = var1.t;
+        var1 = var1.tPZo4p;
+        var1 = var2.bind(var3)(var1);
+        var13 = new Array(3);
+        var13[0] = var1;
+        var1 = var17[var7];
+        var1 = var16.bind(var15)(var1);
+        var3 = var1.intl;
+        var2 = var3.string;
+        var1 = var17[var7];
+        var1 = var16.bind(var15)(var1);
+        var1 = var1.t;
+        var1 = var1.JL7sRS;
+        var1 = var2.bind(var3)(var1);
+        var13[1] = var1;
+        var1 = var17[var7];
+        var1 = var16.bind(var15)(var1);
+        var3 = var1.intl;
+        var2 = var3.string;
+        var1 = var17[var7];
+        var1 = var16.bind(var15)(var1);
+        var1 = var1.t;
+        var1 = var1.WjkIKU;
+        var1 = var2.bind(var3)(var1);
+        var13[2] = var1;
+        var _closure2_slot2 = var13;
+        var1 = {};
+        var2 = _closure1_slot16;
+        var3 = var2.FILTER_FROM;
+        var2 = {};
+        var18 = _closure1_slot34;
+        var5 = var17[var7];
+        var5 = var16.bind(var15)(var5);
+        var9 = var5.intl;
+        var8 = var9.string;
+        var5 = var17[var7];
+        var5 = var16.bind(var15)(var5);
+        var5 = var5.t;
+        var5 = var5.1TUdFo;
+        var5 = var8.bind(var9)(var5);
+        var5 = var18.bind(var15)(var5);
+        var2['regex'] = var5;
+        var5 = _closure1_slot24;
+        var5 = var5.FILTER;
+        var2['componentType'] = var5;
+        var14 = _closure1_slot33;
+        var5 = var17[var7];
+        var5 = var16.bind(var15)(var5);
+        var9 = var5.intl;
+        var8 = var9.string;
+        var5 = var17[var7];
+        var5 = var16.bind(var15)(var5);
+        var5 = var5.t;
+        var5 = var5.1TUdFo;
+        var5 = var8.bind(var9)(var5);
+        var5 = var14.bind(var15)(var5);
+        var2['key'] = var5;
+        var5 = var17[var7];
+        var5 = var16.bind(var15)(var5);
+        var9 = var5.intl;
+        var8 = var9.string;
+        var5 = var17[var7];
+        var5 = var16.bind(var15)(var5);
+        var5 = var5.t;
+        var5 = var5.1TUdFo;
+        var5 = var8.bind(var9)(var5);
+        var2['plainText'] = var5;
+        var9 = _closure1_slot44;
+        var2['validator'] = var9;
+        var8 = _closure1_slot43;
+        var2['getAutocompletions'] = var8;
+        var1[var3] = var2;
+        var2 = _closure1_slot16;
+        var3 = var2.ANSWER_USERNAME_FROM;
+        var2 = {};
+        var5 = _closure1_slot16;
+        var11 = var5.FILTER_FROM;
+        var5 = new Array(1);
+        var5[0] = var11;
+        var2['follows'] = var5;
+        var5 = _closure1_slot23;
+        var2['regex'] = var5;
+        var5 = _closure1_slot35;
+        var2['validator'] = var5;
+        var11 = true;
+        var2['mutable'] = var11;
+        var12 = _closure1_slot24;
+        var12 = var12.ANSWER;
+        var2['componentType'] = var12;
+        var12 = 'author_id';
+        var2['queryKey'] = var12;
+        var1[var3] = var2;
+        var2 = _closure1_slot16;
+        var3 = var2.FILTER_MENTIONS;
+        var2 = {};
+        var12 = var17[var7];
+        var12 = var16.bind(var15)(var12);
+        var20 = var12.intl;
+        var19 = var20.string;
+        var12 = var17[var7];
+        var12 = var16.bind(var15)(var12);
+        var12 = var12.t;
+        var12 = var12.i96lO+;
+        var12 = var19.bind(var20)(var12);
+        var12 = var18.bind(var15)(var12);
+        var2['regex'] = var12;
+        var12 = _closure1_slot24;
+        var12 = var12.FILTER;
+        var2['componentType'] = var12;
+        var12 = var17[var7];
+        var12 = var16.bind(var15)(var12);
+        var20 = var12.intl;
+        var19 = var20.string;
+        var12 = var17[var7];
+        var12 = var16.bind(var15)(var12);
+        var12 = var12.t;
+        var12 = var12.i96lO+;
+        var12 = var19.bind(var20)(var12);
+        var12 = var14.bind(var15)(var12);
+        var2['key'] = var12;
+        var12 = var17[var7];
+        var12 = var16.bind(var15)(var12);
+        var20 = var12.intl;
+        var19 = var20.string;
+        var12 = var17[var7];
+        var12 = var16.bind(var15)(var12);
+        var12 = var12.t;
+        var12 = var12.i96lO+;
+        var12 = var19.bind(var20)(var12);
+        var2['plainText'] = var12;
+        var2['validator'] = var9;
+        var2['getAutocompletions'] = var8;
+        var1[var3] = var2;
+        var2 = _closure1_slot16;
+        var3 = var2.ANSWER_USERNAME_MENTIONS;
+        var2 = {};
+        var8 = _closure1_slot16;
+        var9 = var8.FILTER_MENTIONS;
+        var8 = new Array(1);
+        var8[0] = var9;
+        var2['follows'] = var8;
+        var8 = _closure1_slot23;
+        var2['regex'] = var8;
+        var2['validator'] = var5;
+        var2['mutable'] = var11;
+        var5 = _closure1_slot24;
+        var5 = var5.ANSWER;
+        var2['componentType'] = var5;
+        var5 = 'mentions';
+        var2['queryKey'] = var5;
+        var1[var3] = var2;
+        var2 = _closure1_slot16;
+        var3 = var2.FILTER_HAS;
+        var2 = {};
+        var5 = var17[var7];
+        var5 = var16.bind(var15)(var5);
+        var9 = var5.intl;
+        var8 = var9.string;
+        var5 = var17[var7];
+        var5 = var16.bind(var15)(var5);
+        var5 = var5.t;
+        var5 = var5.CqCvir;
+        var5 = var8.bind(var9)(var5);
+        var5 = var18.bind(var15)(var5);
+        var2['regex'] = var5;
+        var5 = _closure1_slot24;
+        var5 = var5.FILTER;
+        var2['componentType'] = var5;
+        var5 = var17[var7];
+        var5 = var16.bind(var15)(var5);
+        var9 = var5.intl;
+        var8 = var9.string;
+        var5 = var17[var7];
+        var5 = var16.bind(var15)(var5);
+        var5 = var5.t;
+        var5 = var5.CqCvir;
+        var5 = var8.bind(var9)(var5);
+        var5 = var14.bind(var15)(var5);
+        var2['key'] = var5;
+        var5 = var17[var7];
+        var5 = var16.bind(var15)(var5);
+        var9 = var5.intl;
+        var8 = var9.string;
+        var5 = var17[var7];
+        var5 = var16.bind(var15)(var5);
+        var5 = var5.t;
+        var5 = var5.CqCvir;
+        var5 = var8.bind(var9)(var5);
+        var2['plainText'] = var5;
+        var5 = function getAutocompletions(arg1) {
+            var1 = arg1;
+            var5 = var1.query;
+            var4 = var1.maxResults;
+            var3 = _closure1_slot42;
+            var2 = _closure2_slot1;
+            var1 = undefined;
+            var1 = var3.bind(var1)(var5, var4, var2);
+            return var1;
+        };
+        var2['getAutocompletions'] = var5;
+        var1[var3] = var2;
+        var2 = _closure1_slot16;
+        var3 = var2.ANSWER_HAS;
+        var2 = {};
+        var5 = global;
+        var21 = var5.RegExp;
+        var9 = var10.map;
+        var8 = function(arg1) {
+            var3 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var1 = 21;
+            var2 = var2[var1];
+            var1 = undefined;
+            var3 = var3.bind(var1)(var2);
+            var2 = var3.escape;
+            var1 = arg1;
+            var1 = var2.bind(var3)(var1);
+            return var1;
+        };
+        var9 = var9.bind(var10)(var8);
+        var8 = var9.join;
+        var12 = '|';
+        var19 = var8.bind(var9)(var12);
+        var8 = var5.HermesInternal;
+        var8 = var8.concat;
+        var10 = '(?:\\s*-?(';
+        var9 = '))';
+        var27 = var8.bind(var10)(var19, var9);
+        var8 = var21.prototype;
+        var20 = Object.create(var8, {constructor: {value: var21}});
+        var8 = 'i';
+        var28 = var20;
+        var26 = var8;
+        var19 = new var28[var21](var27, var26, var25);
+        var19 = var19 instanceof Object ? var19 : var20;
+        var2['regex'] = var19;
+        var19 = _closure1_slot16;
+        var20 = var19.FILTER_HAS;
+        var19 = new Array(1);
+        var19[0] = var20;
+        var2['follows'] = var19;
+        var19 = _closure1_slot38;
+        var2['validator'] = var19;
+        var19 = _closure1_slot24;
+        var19 = var19.ANSWER;
+        var2['componentType'] = var19;
+        var19 = 'has';
+        var2['queryKey'] = var19;
+        var1[var3] = var2;
+        var2 = _closure1_slot16;
+        var3 = var2.FILTER_FILE_TYPE;
+        var2 = {};
+        var19 = var17[var7];
+        var19 = var16.bind(var15)(var19);
+        var21 = var19.intl;
+        var20 = var21.string;
+        var19 = var17[var7];
+        var19 = var16.bind(var15)(var19);
+        var19 = var19.t;
+        var19 = var19.TMNjFm;
+        var19 = var20.bind(var21)(var19);
+        var19 = var18.bind(var15)(var19);
+        var2['regex'] = var19;
+        var19 = var17[var7];
+        var19 = var16.bind(var15)(var19);
+        var21 = var19.intl;
+        var20 = var21.string;
+        var19 = var17[var7];
+        var19 = var16.bind(var15)(var19);
+        var19 = var19.t;
+        var19 = var19.TMNjFm;
+        var19 = var20.bind(var21)(var19);
+        var19 = var14.bind(var15)(var19);
+        var2['key'] = var19;
+        var19 = var17[var7];
+        var19 = var16.bind(var15)(var19);
+        var21 = var19.intl;
+        var20 = var21.string;
+        var19 = var17[var7];
+        var19 = var16.bind(var15)(var19);
+        var19 = var19.t;
+        var19 = var19.TMNjFm;
+        var19 = var20.bind(var21)(var19);
+        var2['plainText'] = var19;
+        var19 = _closure1_slot24;
+        var19 = var19.FILTER;
+        var2['componentType'] = var19;
+        var1[var3] = var2;
+        var2 = _closure1_slot16;
+        var3 = var2.ANSWER_FILE_TYPE;
+        var2 = {};
+        var19 = /(?:\s*([^\s]+))/;
+        var2['regex'] = var19;
+        var19 = _closure1_slot16;
+        var20 = var19.FILTER_FILE_TYPE;
+        var19 = new Array(1);
+        var19[0] = var20;
+        var2['follows'] = var19;
+        var2['mutable'] = var11;
+        var19 = _closure1_slot24;
+        var19 = var19.ANSWER;
+        var2['componentType'] = var19;
+        var19 = 'attachment_extensions';
+        var2['queryKey'] = var19;
+        var1[var3] = var2;
+        var2 = _closure1_slot16;
+        var3 = var2.FILTER_FILE_NAME;
+        var2 = {};
+        var19 = var17[var7];
+        var19 = var16.bind(var15)(var19);
+        var21 = var19.intl;
+        var20 = var21.string;
+        var19 = var17[var7];
+        var19 = var16.bind(var15)(var19);
+        var19 = var19.t;
+        var19 = var19.5xtLRC;
+        var19 = var20.bind(var21)(var19);
+        var19 = var18.bind(var15)(var19);
+        var2['regex'] = var19;
+        var19 = var17[var7];
+        var19 = var16.bind(var15)(var19);
+        var21 = var19.intl;
+        var20 = var21.string;
+        var19 = var17[var7];
+        var19 = var16.bind(var15)(var19);
+        var19 = var19.t;
+        var19 = var19.5xtLRC;
+        var19 = var20.bind(var21)(var19);
+        var19 = var14.bind(var15)(var19);
+        var2['key'] = var19;
+        var19 = var17[var7];
+        var19 = var16.bind(var15)(var19);
+        var21 = var19.intl;
+        var20 = var21.string;
+        var19 = var17[var7];
+        var19 = var16.bind(var15)(var19);
+        var19 = var19.t;
+        var19 = var19.5xtLRC;
+        var19 = var20.bind(var21)(var19);
+        var2['plainText'] = var19;
+        var19 = _closure1_slot24;
+        var19 = var19.FILTER;
+        var2['componentType'] = var19;
+        var1[var3] = var2;
+        var2 = _closure1_slot16;
+        var3 = var2.ANSWER_FILE_NAME;
+        var2 = {};
+        var19 = /(?:\s*([^\s]+)(?=\s))/;
+        var2['regex'] = var19;
+        var19 = _closure1_slot16;
+        var20 = var19.FILTER_FILE_NAME;
+        var19 = new Array(1);
+        var19[0] = var20;
+        var2['follows'] = var19;
+        var2['mutable'] = var11;
+        var19 = _closure1_slot24;
+        var19 = var19.ANSWER;
+        var2['componentType'] = var19;
+        var19 = 'attachment_filename';
+        var2['queryKey'] = var19;
+        var1[var3] = var2;
+        var2 = _closure1_slot16;
+        var3 = var2.FILTER_BEFORE;
+        var2 = {};
+        var19 = var17[var7];
+        var19 = var16.bind(var15)(var19);
+        var21 = var19.intl;
+        var20 = var21.string;
+        var19 = var17[var7];
+        var19 = var16.bind(var15)(var19);
+        var19 = var19.t;
+        var19 = var19.qZ+7BA;
+        var19 = var20.bind(var21)(var19);
+        var19 = var18.bind(var15)(var19);
+        var2['regex'] = var19;
+        var19 = _closure1_slot24;
+        var19 = var19.FILTER;
+        var2['componentType'] = var19;
+        var19 = var17[var7];
+        var19 = var16.bind(var15)(var19);
+        var21 = var19.intl;
+        var20 = var21.string;
+        var19 = var17[var7];
+        var19 = var16.bind(var15)(var19);
+        var19 = var19.t;
+        var19 = var19.qZ+7BA;
+        var19 = var20.bind(var21)(var19);
+        var19 = var14.bind(var15)(var19);
+        var2['key'] = var19;
+        var19 = var17[var7];
+        var19 = var16.bind(var15)(var19);
+        var21 = var19.intl;
+        var20 = var21.string;
+        var19 = var17[var7];
+        var19 = var16.bind(var15)(var19);
+        var19 = var19.t;
+        var19 = var19.qZ+7BA;
+        var19 = var20.bind(var21)(var19);
+        var2['plainText'] = var19;
+        var19 = function getAutocompletions(arg1) {
+            var1 = arg1;
+            var5 = var1.query;
+            var4 = var1.maxResults;
+            var3 = _closure1_slot41;
+            var1 = _closure1_slot16;
+            var2 = var1.FILTER_BEFORE;
+            var1 = undefined;
+            var1 = var3.bind(var1)(var5, var4, var2);
+            return var1;
+        };
+        var2['getAutocompletions'] = var19;
+        var1[var3] = var2;
+        var2 = _closure1_slot16;
+        var3 = var2.FILTER_ON;
+        var2 = {};
+        var19 = var17[var7];
+        var19 = var16.bind(var15)(var19);
+        var21 = var19.intl;
+        var20 = var21.string;
+        var19 = var17[var7];
+        var19 = var16.bind(var15)(var19);
+        var19 = var19.t;
+        var19 = var19.tIxkOo;
+        var23 = var20.bind(var21)(var19);
+        var19 = var17[var7];
+        var19 = var16.bind(var15)(var19);
+        var21 = var19.intl;
+        var20 = var21.string;
+        var19 = var17[var7];
+        var19 = var16.bind(var15)(var19);
+        var19 = var19.t;
+        var19 = var19.h2NzSd;
+        var25 = var20.bind(var21)(var19);
+        var19 = var5.HermesInternal;
+        var21 = var19.concat;
+        var28 = '(';
+        var24 = ')';
+        var27 = var23;
+        var26 = var12;
+        var19 = var28[var21](var27, var26, var25, var24, var23);
+        var19 = var18.bind(var15)(var19);
+        var2['regex'] = var19;
+        var19 = _closure1_slot24;
+        var19 = var19.FILTER;
+        var2['componentType'] = var19;
+        var19 = var17[var7];
+        var19 = var16.bind(var15)(var19);
+        var21 = var19.intl;
+        var20 = var21.string;
+        var19 = var17[var7];
+        var19 = var16.bind(var15)(var19);
+        var19 = var19.t;
+        var19 = var19.h2NzSd;
+        var19 = var20.bind(var21)(var19);
+        var19 = var14.bind(var15)(var19);
+        var2['key'] = var19;
+        var19 = var17[var7];
+        var19 = var16.bind(var15)(var19);
+        var21 = var19.intl;
+        var20 = var21.string;
+        var19 = var17[var7];
+        var19 = var16.bind(var15)(var19);
+        var19 = var19.t;
+        var19 = var19.h2NzSd;
+        var19 = var20.bind(var21)(var19);
+        var2['plainText'] = var19;
+        var19 = function getAutocompletions(arg1) {
+            var1 = arg1;
+            var5 = var1.query;
+            var4 = var1.maxResults;
+            var3 = _closure1_slot41;
+            var1 = _closure1_slot16;
+            var2 = var1.FILTER_ON;
+            var1 = undefined;
+            var1 = var3.bind(var1)(var5, var4, var2);
+            return var1;
+        };
+        var2['getAutocompletions'] = var19;
+        var1[var3] = var2;
+        var2 = _closure1_slot16;
+        var3 = var2.FILTER_AFTER;
+        var2 = {};
+        var19 = var17[var7];
+        var19 = var16.bind(var15)(var19);
+        var21 = var19.intl;
+        var20 = var21.string;
+        var19 = var17[var7];
+        var19 = var16.bind(var15)(var19);
+        var19 = var19.t;
+        var19 = var19.KSDx7M;
+        var19 = var20.bind(var21)(var19);
+        var19 = var18.bind(var15)(var19);
+        var2['regex'] = var19;
+        var19 = _closure1_slot24;
+        var19 = var19.FILTER;
+        var2['componentType'] = var19;
+        var19 = var17[var7];
+        var19 = var16.bind(var15)(var19);
+        var21 = var19.intl;
+        var20 = var21.string;
+        var19 = var17[var7];
+        var19 = var16.bind(var15)(var19);
+        var19 = var19.t;
+        var19 = var19.KSDx7M;
+        var19 = var20.bind(var21)(var19);
+        var19 = var14.bind(var15)(var19);
+        var2['key'] = var19;
+        var19 = var17[var7];
+        var19 = var16.bind(var15)(var19);
+        var21 = var19.intl;
+        var20 = var21.string;
+        var19 = var17[var7];
+        var19 = var16.bind(var15)(var19);
+        var19 = var19.t;
+        var19 = var19.KSDx7M;
+        var19 = var20.bind(var21)(var19);
+        var2['plainText'] = var19;
+        var19 = function getAutocompletions(arg1) {
+            var1 = arg1;
+            var5 = var1.query;
+            var4 = var1.maxResults;
+            var3 = _closure1_slot41;
+            var1 = _closure1_slot16;
+            var2 = var1.FILTER_AFTER;
+            var1 = undefined;
+            var1 = var3.bind(var1)(var5, var4, var2);
+            return var1;
+        };
+        var2['getAutocompletions'] = var19;
+        var1[var3] = var2;
+        var2 = _closure1_slot16;
+        var3 = var2.ANSWER_BEFORE;
+        var2 = {};
+        var19 = _closure1_slot21;
+        var2['regex'] = var19;
+        var19 = _closure1_slot16;
+        var20 = var19.FILTER_BEFORE;
+        var19 = new Array(1);
+        var19[0] = var20;
+        var2['follows'] = var19;
+        var19 = _closure1_slot24;
+        var19 = var19.ANSWER;
+        var2['componentType'] = var19;
+        var2['mutable'] = var11;
+        var19 = function validator(arg1) {
+            var4 = _closure1_slot36;
+            var3 = undefined;
+            var2 = arg1;
+            var1 = 'before';
+            var1 = var4.bind(var3)(var2, var1);
+            return var1;
+        };
+        var2['validator'] = var19;
+        var1[var3] = var2;
+        var2 = _closure1_slot16;
+        var3 = var2.ANSWER_ON;
+        var2 = {};
+        var19 = _closure1_slot21;
+        var2['regex'] = var19;
+        var19 = _closure1_slot16;
+        var20 = var19.FILTER_ON;
+        var19 = new Array(1);
+        var19[0] = var20;
+        var2['follows'] = var19;
+        var19 = _closure1_slot24;
+        var19 = var19.ANSWER;
+        var2['componentType'] = var19;
+        var2['mutable'] = var11;
+        var19 = function validator(arg1) {
+            var4 = _closure1_slot36;
+            var3 = undefined;
+            var2 = arg1;
+            var1 = 'on';
+            var1 = var4.bind(var3)(var2, var1);
+            return var1;
+        };
+        var2['validator'] = var19;
+        var1[var3] = var2;
+        var2 = _closure1_slot16;
+        var3 = var2.ANSWER_AFTER;
+        var2 = {};
+        var19 = _closure1_slot21;
+        var2['regex'] = var19;
+        var19 = _closure1_slot16;
+        var20 = var19.FILTER_AFTER;
+        var19 = new Array(1);
+        var19[0] = var20;
+        var2['follows'] = var19;
+        var19 = _closure1_slot24;
+        var19 = var19.ANSWER;
+        var2['componentType'] = var19;
+        var2['mutable'] = var11;
+        var19 = function validator(arg1) {
+            var4 = _closure1_slot36;
+            var3 = undefined;
+            var2 = arg1;
+            var1 = 'after';
+            var1 = var4.bind(var3)(var2, var1);
+            return var1;
+        };
+        var2['validator'] = var19;
+        var1[var3] = var2;
+        var2 = _closure1_slot16;
+        var3 = var2.FILTER_IN;
+        var2 = {};
+        var19 = var17[var7];
+        var19 = var16.bind(var15)(var19);
+        var21 = var19.intl;
+        var20 = var21.string;
+        var19 = var17[var7];
+        var19 = var16.bind(var15)(var19);
+        var19 = var19.t;
+        var19 = var19.WNpFHa;
+        var19 = var20.bind(var21)(var19);
+        var19 = var18.bind(var15)(var19);
+        var2['regex'] = var19;
+        var19 = _closure1_slot24;
+        var19 = var19.FILTER;
+        var2['componentType'] = var19;
+        var19 = var17[var7];
+        var19 = var16.bind(var15)(var19);
+        var21 = var19.intl;
+        var20 = var21.string;
+        var19 = var17[var7];
+        var19 = var16.bind(var15)(var19);
+        var19 = var19.t;
+        var19 = var19.WNpFHa;
+        var19 = var20.bind(var21)(var19);
+        var19 = var14.bind(var15)(var19);
+        var2['key'] = var19;
+        var19 = var17[var7];
+        var19 = var16.bind(var15)(var19);
+        var21 = var19.intl;
+        var20 = var21.string;
+        var19 = var17[var7];
+        var19 = var16.bind(var15)(var19);
+        var19 = var19.t;
+        var19 = var19.WNpFHa;
+        var19 = var20.bind(var21)(var19);
+        var2['plainText'] = var19;
+        var19 = function validator() {
+            _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
+case 0:
+                var3 = _closure2_slot0;
+                var1 = null;
+                if(!(var1 == var3)) { _fun0024_ip = 70; continue _fun0024 }
+case 127:
+                var4 = _closure1_slot12;
+                var3 = var4.getSelectedSearchContext;
+                var4 = var3.bind(var4)();
+                _fun0024_ip = 116; continue _fun0024;
+case 70:
+                var4 = _closure2_slot0;
+case 116:
+                var1 = var1 != var4;
+                if(!var1) { _fun0024_ip = 84; continue _fun0024 }
+case 57:
+                var5 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var2 = 17;
+                var3 = var3[var2];
+                var2 = undefined;
+                var3 = var5.bind(var2)(var3);
+                var2 = var3.isChannelFilterSupported;
+                var1 = var2.bind(var3)(var4);
+case 84:
+                return var1;
+            }
+        };
+        var2['validator'] = var19;
+        var19 = _closure1_slot45;
+        var2['getAutocompletions'] = var19;
+        var1[var3] = var2;
+        var2 = _closure1_slot16;
+        var3 = var2.ANSWER_IN;
+        var2 = {};
+        var19 = _closure1_slot14;
+        var2['regex'] = var19;
+        var2['mutable'] = var11;
+        var11 = _closure1_slot16;
+        var19 = var11.FILTER_IN;
+        var11 = new Array(1);
+        var11[0] = var19;
+        var2['follows'] = var11;
+        var11 = _closure1_slot24;
+        var11 = var11.ANSWER;
+        var2['componentType'] = var11;
+        var11 = function validator(arg1) {
+            _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
+case 0:
+                var3 = _closure2_slot0;
+                var1 = null;
+                if(!(var1 == var3)) { _fun0025_ip = 70; continue _fun0025 }
+case 127:
+                var4 = _closure1_slot12;
+                var3 = var4.getSelectedSearchContext;
+                var5 = var3.bind(var4)();
+                _fun0025_ip = 116; continue _fun0025;
+case 70:
+                var5 = _closure2_slot0;
+case 116:
+                var1 = var1 != var5;
+                if(!var1) { _fun0025_ip = 128; continue _fun0025 }
+case 57:
+                var4 = _closure1_slot37;
+                var3 = undefined;
+                var2 = arg1;
+                var1 = var4.bind(var3)(var2, var5);
+case 128:
+                return var1;
+            }
+        };
+        var2['validator'] = var11;
+        var11 = 'channel_id';
+        var2['queryKey'] = var11;
+        var1[var3] = var2;
+        var2 = _closure1_slot16;
+        var3 = var2.FILTER_PINNED;
+        var2 = {};
+        var11 = var17[var7];
+        var11 = var16.bind(var15)(var11);
+        var20 = var11.intl;
+        var19 = var20.string;
+        var11 = var17[var7];
+        var11 = var16.bind(var15)(var11);
+        var11 = var11.t;
+        var11 = var11.0B74eY;
+        var11 = var19.bind(var20)(var11);
+        var11 = var18.bind(var15)(var11);
+        var2['regex'] = var11;
+        var11 = _closure1_slot24;
+        var11 = var11.FILTER;
+        var2['componentType'] = var11;
+        var11 = var17[var7];
+        var11 = var16.bind(var15)(var11);
+        var20 = var11.intl;
+        var19 = var20.string;
+        var11 = var17[var7];
+        var11 = var16.bind(var15)(var11);
+        var11 = var11.t;
+        var11 = var11.0B74eY;
+        var11 = var19.bind(var20)(var11);
+        var11 = var14.bind(var15)(var11);
+        var2['key'] = var11;
+        var11 = var17[var7];
+        var11 = var16.bind(var15)(var11);
+        var20 = var11.intl;
+        var19 = var20.string;
+        var11 = var17[var7];
+        var11 = var16.bind(var15)(var11);
+        var11 = var11.t;
+        var11 = var11.0B74eY;
+        var11 = var19.bind(var20)(var11);
+        var2['plainText'] = var11;
+        var11 = function getAutocompletions() {
+            var2 = {};
+            var1 = 'true';
+            var2['text'] = var1;
+            var1 = new Array(2);
+            var1[0] = var2;
+            var2 = {};
+            var3 = 'false';
+            var2['text'] = var3;
+            var1[1] = var2;
+            return var1;
+        };
+        var2['getAutocompletions'] = var11;
+        var1[var3] = var2;
+        var2 = _closure1_slot16;
+        var3 = var2.ANSWER_PINNED;
+        var2 = {};
+        var11 = _closure1_slot22;
+        var2['regex'] = var11;
+        var11 = _closure1_slot24;
+        var11 = var11.ANSWER;
+        var2['componentType'] = var11;
+        var11 = _closure1_slot16;
+        var19 = var11.FILTER_PINNED;
+        var11 = new Array(1);
+        var11[0] = var19;
+        var2['follows'] = var11;
+        var11 = 'pinned';
+        var2['queryKey'] = var11;
+        var11 = function validator(arg1) {
+            _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
+case 0:
+                var5 = arg1;
+                var2 = var5.getMatch;
+                var1 = 1;
+                var2 = var2.bind(var5)(var1);
+                var1 = 'true';
+                if(!(var1 !== var2)) { _fun0026_ip = 129; continue _fun0026 }
+case 130:
+                var1 = 'false';
+                var1 = var1 === var2;
+                if(!var1) { _fun0026_ip = 131; continue _fun0026 }
+case 116:
+                var4 = var5.setData;
+                var3 = 'pinned';
+                var2 = false;
+                var2 = var4.bind(var5)(var3, var2);
+                var1 = true;
+case 131:
+                _fun0026_ip = 101; continue _fun0026;
+case 129:
+                var4 = var5.setData;
+                var3 = 'pinned';
+                var2 = true;
+                var3 = var4.bind(var5)(var3, var2);
+                var1 = true;
+case 101:
+                return var1;
+            }
+        };
+        var2['validator'] = var11;
+        var1[var3] = var2;
+        var2 = _closure1_slot16;
+        var3 = var2.FILTER_AUTHOR_TYPE;
+        var2 = {};
+        var11 = var17[var7];
+        var11 = var16.bind(var15)(var11);
+        var20 = var11.intl;
+        var19 = var20.string;
+        var11 = var17[var7];
+        var11 = var16.bind(var15)(var11);
+        var11 = var11.t;
+        var11 = var11.us8IQi;
+        var11 = var19.bind(var20)(var11);
+        var11 = var18.bind(var15)(var11);
+        var2['regex'] = var11;
+        var11 = _closure1_slot24;
+        var11 = var11.FILTER;
+        var2['componentType'] = var11;
+        var11 = var17[var7];
+        var11 = var16.bind(var15)(var11);
+        var19 = var11.intl;
+        var18 = var19.string;
+        var11 = var17[var7];
+        var11 = var16.bind(var15)(var11);
+        var11 = var11.t;
+        var11 = var11.us8IQi;
+        var11 = var18.bind(var19)(var11);
+        var11 = var14.bind(var15)(var11);
+        var2['key'] = var11;
+        var11 = function validator() {
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 22;
+            var2 = var2[var1];
+            var1 = undefined;
+            var3 = var3.bind(var1)(var2);
+            var2 = var3.getIsSearchAuthorTypeFilterEnabled;
+            var1 = {};
+            var4 = 'SearchTokens';
+            var1['location'] = var4;
+            var1 = var2.bind(var3)(var1);
+            return var1;
+        };
+        var2['validator'] = var11;
+        var11 = var17[var7];
+        var11 = var16.bind(var15)(var11);
+        var14 = var11.intl;
+        var11 = var14.string;
+        var7 = var17[var7];
+        var7 = var16.bind(var15)(var7);
+        var7 = var7.t;
+        var7 = var7.us8IQi;
+        var7 = var11.bind(var14)(var7);
+        var2['plainText'] = var7;
+        var7 = function getAutocompletions(arg1) {
+            var1 = arg1;
+            var5 = var1.query;
+            var4 = var1.maxResults;
+            var3 = _closure1_slot42;
+            var2 = _closure2_slot2;
+            var1 = undefined;
+            var1 = var3.bind(var1)(var5, var4, var2);
+            return var1;
+        };
+        var2['getAutocompletions'] = var7;
+        var1[var3] = var2;
+        var2 = _closure1_slot16;
+        var3 = var2.ANSWER_AUTHOR_TYPE;
+        var2 = {};
+        var7 = var5.RegExp;
+        var11 = var13.map;
+        var6 = function(arg1) {
+            var3 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var1 = 21;
+            var2 = var2[var1];
+            var1 = undefined;
+            var3 = var3.bind(var1)(var2);
+            var2 = var3.escape;
+            var1 = arg1;
+            var1 = var2.bind(var3)(var1);
+            return var1;
+        };
+        var11 = var11.bind(var13)(var6);
+        var6 = var11.join;
+        var6 = var6.bind(var11)(var12);
+        var5 = var5.HermesInternal;
+        var5 = var5.concat;
+        var27 = var5.bind(var10)(var6, var9);
+        var6 = var7.prototype;
+        var6 = Object.create(var6, {constructor: {value: var7}});
+        var28 = var6;
+        var26 = var8;
+        var5 = new var28[var7](var27, var26, var25);
+        var5 = var5 instanceof Object ? var5 : var6;
+        var2['regex'] = var5;
+        var5 = _closure1_slot16;
+        var6 = var5.FILTER_AUTHOR_TYPE;
+        var5 = new Array(1);
+        var5[0] = var6;
+        var2['follows'] = var5;
+        var5 = _closure1_slot39;
+        var2['validator'] = var5;
+        var4 = _closure1_slot24;
+        var4 = var4.ANSWER;
+        var2['componentType'] = var4;
+        var4 = 'author_type';
+        var2['queryKey'] = var4;
+        var1[var3] = var2;
+        return var1;
+    };
+    var _closure1_slot46 = var1;
     var4 = function isSearchFilterTokenType(arg1) {
         var3 = _closure1_slot19;
         var2 = var3.test;
@@ -1967,7 +2992,7 @@ case 123:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var _closure1_slot46 = var4;
+    var _closure1_slot47 = var4;
     var5 = global;
     var14 = var5.Object;
     var13 = var14.defineProperty;
@@ -2092,953 +3117,23 @@ case 123:
     var3['getRandomDateShortcut'] = var7;
     var3['getUserAutocompletions'] = var6;
     var3['ComponentTypes'] = var5;
+    var5 = function buildCrossDMSearchTokensConfig() {
+        var3 = _closure1_slot46;
+        var2 = {};
+        var1 = _closure1_slot18;
+        var1 = var1.DMS;
+        var2['type'] = var1;
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        return var1;
+    };
+    var3['buildCrossDMSearchTokensConfig'] = var5;
     var5 = function rebuildSearchTokenConfigs() {
         var1 = global;
         var5 = var1.Object;
         var4 = var5.assign;
         var3 = _closure1_slot25;
-        var2 = function makeSearchTokenConfigs() {
-            var18 = _closure1_slot0;
-            var19 = _closure1_slot2;
-            var9 = 13;
-            var1 = var19[var9];
-            var17 = undefined;
-            var1 = var18.bind(var17)(var1);
-            var3 = var1.intl;
-            var2 = var3.string;
-            var1 = var19[var9];
-            var1 = var18.bind(var17)(var1);
-            var1 = var1.t;
-            var1 = var1.ZNR2fi;
-            var1 = var2.bind(var3)(var1);
-            var12 = new Array(9);
-            var12[0] = var1;
-            var1 = var19[var9];
-            var1 = var18.bind(var17)(var1);
-            var3 = var1.intl;
-            var2 = var3.string;
-            var1 = var19[var9];
-            var1 = var18.bind(var17)(var1);
-            var1 = var1.t;
-            var1 = var1.20uQR3;
-            var1 = var2.bind(var3)(var1);
-            var12[1] = var1;
-            var1 = var19[var9];
-            var1 = var18.bind(var17)(var1);
-            var3 = var1.intl;
-            var2 = var3.string;
-            var1 = var19[var9];
-            var1 = var18.bind(var17)(var1);
-            var1 = var1.t;
-            var1 = var1.L4lxyE;
-            var1 = var2.bind(var3)(var1);
-            var12[2] = var1;
-            var1 = var19[var9];
-            var1 = var18.bind(var17)(var1);
-            var3 = var1.intl;
-            var2 = var3.string;
-            var1 = var19[var9];
-            var1 = var18.bind(var17)(var1);
-            var1 = var1.t;
-            var1 = var1.AV/v6i;
-            var1 = var2.bind(var3)(var1);
-            var12[3] = var1;
-            var1 = var19[var9];
-            var1 = var18.bind(var17)(var1);
-            var3 = var1.intl;
-            var2 = var3.string;
-            var1 = var19[var9];
-            var1 = var18.bind(var17)(var1);
-            var1 = var1.t;
-            var1 = var1.XM9XGP;
-            var1 = var2.bind(var3)(var1);
-            var12[4] = var1;
-            var1 = var19[var9];
-            var1 = var18.bind(var17)(var1);
-            var3 = var1.intl;
-            var2 = var3.string;
-            var1 = var19[var9];
-            var1 = var18.bind(var17)(var1);
-            var1 = var1.t;
-            var1 = var1.TNLcpx;
-            var1 = var2.bind(var3)(var1);
-            var12[5] = var1;
-            var1 = var19[var9];
-            var1 = var18.bind(var17)(var1);
-            var3 = var1.intl;
-            var2 = var3.string;
-            var1 = var19[var9];
-            var1 = var18.bind(var17)(var1);
-            var1 = var1.t;
-            var1 = var1.F8Wf0e;
-            var1 = var2.bind(var3)(var1);
-            var12[6] = var1;
-            var1 = var19[var9];
-            var1 = var18.bind(var17)(var1);
-            var3 = var1.intl;
-            var2 = var3.string;
-            var1 = var19[var9];
-            var1 = var18.bind(var17)(var1);
-            var1 = var1.t;
-            var1 = var1.PJgX2h;
-            var1 = var2.bind(var3)(var1);
-            var12[7] = var1;
-            var1 = var19[var9];
-            var1 = var18.bind(var17)(var1);
-            var3 = var1.intl;
-            var2 = var3.string;
-            var1 = var19[var9];
-            var1 = var18.bind(var17)(var1);
-            var1 = var1.t;
-            var1 = var1.nrpA5E;
-            var1 = var2.bind(var3)(var1);
-            var12[8] = var1;
-            var _closure3_slot0 = var12;
-            var1 = var19[var9];
-            var1 = var18.bind(var17)(var1);
-            var3 = var1.intl;
-            var2 = var3.string;
-            var1 = var19[var9];
-            var1 = var18.bind(var17)(var1);
-            var1 = var1.t;
-            var1 = var1.tPZo4p;
-            var1 = var2.bind(var3)(var1);
-            var15 = new Array(3);
-            var15[0] = var1;
-            var1 = var19[var9];
-            var1 = var18.bind(var17)(var1);
-            var3 = var1.intl;
-            var2 = var3.string;
-            var1 = var19[var9];
-            var1 = var18.bind(var17)(var1);
-            var1 = var1.t;
-            var1 = var1.JL7sRS;
-            var1 = var2.bind(var3)(var1);
-            var15[1] = var1;
-            var1 = var19[var9];
-            var1 = var18.bind(var17)(var1);
-            var3 = var1.intl;
-            var2 = var3.string;
-            var1 = var19[var9];
-            var1 = var18.bind(var17)(var1);
-            var1 = var1.t;
-            var1 = var1.WjkIKU;
-            var1 = var2.bind(var3)(var1);
-            var15[2] = var1;
-            var _closure3_slot1 = var15;
-            var1 = {};
-            var6 = _closure1_slot16;
-            var3 = var6.FILTER_FROM;
-            var2 = {};
-            var20 = _closure1_slot34;
-            var4 = var19[var9];
-            var4 = var18.bind(var17)(var4);
-            var10 = var4.intl;
-            var7 = var10.string;
-            var4 = var19[var9];
-            var4 = var18.bind(var17)(var4);
-            var4 = var4.t;
-            var4 = var4.1TUdFo;
-            var4 = var7.bind(var10)(var4);
-            var4 = var20.bind(var17)(var4);
-            var2['regex'] = var4;
-            var4 = _closure1_slot24;
-            var7 = var4.FILTER;
-            var2['componentType'] = var7;
-            var16 = _closure1_slot33;
-            var7 = var19[var9];
-            var7 = var18.bind(var17)(var7);
-            var11 = var7.intl;
-            var10 = var11.string;
-            var7 = var19[var9];
-            var7 = var18.bind(var17)(var7);
-            var7 = var7.t;
-            var7 = var7.1TUdFo;
-            var7 = var10.bind(var11)(var7);
-            var7 = var16.bind(var17)(var7);
-            var2['key'] = var7;
-            var7 = var19[var9];
-            var7 = var18.bind(var17)(var7);
-            var11 = var7.intl;
-            var10 = var11.string;
-            var7 = var19[var9];
-            var7 = var18.bind(var17)(var7);
-            var7 = var7.t;
-            var7 = var7.1TUdFo;
-            var7 = var10.bind(var11)(var7);
-            var2['plainText'] = var7;
-            var14 = _closure1_slot44;
-            var2['validator'] = var14;
-            var11 = _closure1_slot43;
-            var2['getAutocompletions'] = var11;
-            var1[var3] = var2;
-            var3 = var6.ANSWER_USERNAME_FROM;
-            var2 = {};
-            var10 = var6.FILTER_FROM;
-            var7 = new Array(1);
-            var7[0] = var10;
-            var2['follows'] = var7;
-            var10 = _closure1_slot23;
-            var2['regex'] = var10;
-            var7 = _closure1_slot35;
-            var2['validator'] = var7;
-            var13 = true;
-            var2['mutable'] = var13;
-            var21 = var4.ANSWER;
-            var2['componentType'] = var21;
-            var21 = 'author_id';
-            var2['queryKey'] = var21;
-            var1[var3] = var2;
-            var3 = var6.FILTER_MENTIONS;
-            var2 = {};
-            var21 = var19[var9];
-            var21 = var18.bind(var17)(var21);
-            var23 = var21.intl;
-            var22 = var23.string;
-            var21 = var19[var9];
-            var21 = var18.bind(var17)(var21);
-            var21 = var21.t;
-            var21 = var21.i96lO+;
-            var21 = var22.bind(var23)(var21);
-            var21 = var20.bind(var17)(var21);
-            var2['regex'] = var21;
-            var21 = var4.FILTER;
-            var2['componentType'] = var21;
-            var21 = var19[var9];
-            var21 = var18.bind(var17)(var21);
-            var23 = var21.intl;
-            var22 = var23.string;
-            var21 = var19[var9];
-            var21 = var18.bind(var17)(var21);
-            var21 = var21.t;
-            var21 = var21.i96lO+;
-            var21 = var22.bind(var23)(var21);
-            var21 = var16.bind(var17)(var21);
-            var2['key'] = var21;
-            var21 = var19[var9];
-            var21 = var18.bind(var17)(var21);
-            var23 = var21.intl;
-            var22 = var23.string;
-            var21 = var19[var9];
-            var21 = var18.bind(var17)(var21);
-            var21 = var21.t;
-            var21 = var21.i96lO+;
-            var21 = var22.bind(var23)(var21);
-            var2['plainText'] = var21;
-            var2['validator'] = var14;
-            var2['getAutocompletions'] = var11;
-            var1[var3] = var2;
-            var3 = var6.ANSWER_USERNAME_MENTIONS;
-            var2 = {};
-            var14 = var6.FILTER_MENTIONS;
-            var11 = new Array(1);
-            var11[0] = var14;
-            var2['follows'] = var11;
-            var2['regex'] = var10;
-            var2['validator'] = var7;
-            var2['mutable'] = var13;
-            var7 = var4.ANSWER;
-            var2['componentType'] = var7;
-            var7 = 'mentions';
-            var2['queryKey'] = var7;
-            var1[var3] = var2;
-            var3 = var6.FILTER_HAS;
-            var2 = {};
-            var7 = var19[var9];
-            var7 = var18.bind(var17)(var7);
-            var11 = var7.intl;
-            var10 = var11.string;
-            var7 = var19[var9];
-            var7 = var18.bind(var17)(var7);
-            var7 = var7.t;
-            var7 = var7.CqCvir;
-            var7 = var10.bind(var11)(var7);
-            var7 = var20.bind(var17)(var7);
-            var2['regex'] = var7;
-            var7 = var4.FILTER;
-            var2['componentType'] = var7;
-            var7 = var19[var9];
-            var7 = var18.bind(var17)(var7);
-            var11 = var7.intl;
-            var10 = var11.string;
-            var7 = var19[var9];
-            var7 = var18.bind(var17)(var7);
-            var7 = var7.t;
-            var7 = var7.CqCvir;
-            var7 = var10.bind(var11)(var7);
-            var7 = var16.bind(var17)(var7);
-            var2['key'] = var7;
-            var7 = var19[var9];
-            var7 = var18.bind(var17)(var7);
-            var11 = var7.intl;
-            var10 = var11.string;
-            var7 = var19[var9];
-            var7 = var18.bind(var17)(var7);
-            var7 = var7.t;
-            var7 = var7.CqCvir;
-            var7 = var10.bind(var11)(var7);
-            var2['plainText'] = var7;
-            var7 = function getAutocompletions(arg1) {
-                var1 = arg1;
-                var5 = var1.query;
-                var4 = var1.maxResults;
-                var3 = _closure1_slot42;
-                var2 = _closure3_slot0;
-                var1 = undefined;
-                var1 = var3.bind(var1)(var5, var4, var2);
-                return var1;
-            };
-            var2['getAutocompletions'] = var7;
-            var1[var3] = var2;
-            var3 = var6.ANSWER_HAS;
-            var2 = {};
-            var7 = global;
-            var23 = var7.RegExp;
-            var11 = var12.map;
-            var10 = function(arg1) {
-                var3 = _closure1_slot1;
-                var2 = _closure1_slot2;
-                var1 = 21;
-                var2 = var2[var1];
-                var1 = undefined;
-                var3 = var3.bind(var1)(var2);
-                var2 = var3.escape;
-                var1 = arg1;
-                var1 = var2.bind(var3)(var1);
-                return var1;
-            };
-            var11 = var11.bind(var12)(var10);
-            var10 = var11.join;
-            var14 = '|';
-            var21 = var10.bind(var11)(var14);
-            var10 = var7.HermesInternal;
-            var10 = var10.concat;
-            var12 = '(?:\\s*-?(';
-            var11 = '))';
-            var29 = var10.bind(var12)(var21, var11);
-            var10 = var23.prototype;
-            var22 = Object.create(var10, {constructor: {value: var23}});
-            var10 = 'i';
-            var30 = var22;
-            var28 = var10;
-            var21 = new var30[var23](var29, var28, var27);
-            var21 = var21 instanceof Object ? var21 : var22;
-            var2['regex'] = var21;
-            var22 = var6.FILTER_HAS;
-            var21 = new Array(1);
-            var21[0] = var22;
-            var2['follows'] = var21;
-            var21 = _closure1_slot38;
-            var2['validator'] = var21;
-            var21 = var4.ANSWER;
-            var2['componentType'] = var21;
-            var21 = 'has';
-            var2['queryKey'] = var21;
-            var1[var3] = var2;
-            var3 = var6.FILTER_FILE_TYPE;
-            var2 = {};
-            var21 = var19[var9];
-            var21 = var18.bind(var17)(var21);
-            var23 = var21.intl;
-            var22 = var23.string;
-            var21 = var19[var9];
-            var21 = var18.bind(var17)(var21);
-            var21 = var21.t;
-            var21 = var21.TMNjFm;
-            var21 = var22.bind(var23)(var21);
-            var21 = var20.bind(var17)(var21);
-            var2['regex'] = var21;
-            var21 = var19[var9];
-            var21 = var18.bind(var17)(var21);
-            var23 = var21.intl;
-            var22 = var23.string;
-            var21 = var19[var9];
-            var21 = var18.bind(var17)(var21);
-            var21 = var21.t;
-            var21 = var21.TMNjFm;
-            var21 = var22.bind(var23)(var21);
-            var21 = var16.bind(var17)(var21);
-            var2['key'] = var21;
-            var21 = var19[var9];
-            var21 = var18.bind(var17)(var21);
-            var23 = var21.intl;
-            var22 = var23.string;
-            var21 = var19[var9];
-            var21 = var18.bind(var17)(var21);
-            var21 = var21.t;
-            var21 = var21.TMNjFm;
-            var21 = var22.bind(var23)(var21);
-            var2['plainText'] = var21;
-            var21 = var4.FILTER;
-            var2['componentType'] = var21;
-            var1[var3] = var2;
-            var3 = var6.ANSWER_FILE_TYPE;
-            var2 = {};
-            var21 = /(?:\s*([^\s]+))/;
-            var2['regex'] = var21;
-            var22 = var6.FILTER_FILE_TYPE;
-            var21 = new Array(1);
-            var21[0] = var22;
-            var2['follows'] = var21;
-            var2['mutable'] = var13;
-            var21 = var4.ANSWER;
-            var2['componentType'] = var21;
-            var21 = 'attachment_extensions';
-            var2['queryKey'] = var21;
-            var1[var3] = var2;
-            var3 = var6.FILTER_FILE_NAME;
-            var2 = {};
-            var21 = var19[var9];
-            var21 = var18.bind(var17)(var21);
-            var23 = var21.intl;
-            var22 = var23.string;
-            var21 = var19[var9];
-            var21 = var18.bind(var17)(var21);
-            var21 = var21.t;
-            var21 = var21.5xtLRC;
-            var21 = var22.bind(var23)(var21);
-            var21 = var20.bind(var17)(var21);
-            var2['regex'] = var21;
-            var21 = var19[var9];
-            var21 = var18.bind(var17)(var21);
-            var23 = var21.intl;
-            var22 = var23.string;
-            var21 = var19[var9];
-            var21 = var18.bind(var17)(var21);
-            var21 = var21.t;
-            var21 = var21.5xtLRC;
-            var21 = var22.bind(var23)(var21);
-            var21 = var16.bind(var17)(var21);
-            var2['key'] = var21;
-            var21 = var19[var9];
-            var21 = var18.bind(var17)(var21);
-            var23 = var21.intl;
-            var22 = var23.string;
-            var21 = var19[var9];
-            var21 = var18.bind(var17)(var21);
-            var21 = var21.t;
-            var21 = var21.5xtLRC;
-            var21 = var22.bind(var23)(var21);
-            var2['plainText'] = var21;
-            var21 = var4.FILTER;
-            var2['componentType'] = var21;
-            var1[var3] = var2;
-            var3 = var6.ANSWER_FILE_NAME;
-            var2 = {};
-            var21 = /(?:\s*([^\s]+)(?=\s))/;
-            var2['regex'] = var21;
-            var22 = var6.FILTER_FILE_NAME;
-            var21 = new Array(1);
-            var21[0] = var22;
-            var2['follows'] = var21;
-            var2['mutable'] = var13;
-            var21 = var4.ANSWER;
-            var2['componentType'] = var21;
-            var21 = 'attachment_filename';
-            var2['queryKey'] = var21;
-            var1[var3] = var2;
-            var3 = var6.FILTER_BEFORE;
-            var2 = {};
-            var21 = var19[var9];
-            var21 = var18.bind(var17)(var21);
-            var23 = var21.intl;
-            var22 = var23.string;
-            var21 = var19[var9];
-            var21 = var18.bind(var17)(var21);
-            var21 = var21.t;
-            var21 = var21.qZ+7BA;
-            var21 = var22.bind(var23)(var21);
-            var21 = var20.bind(var17)(var21);
-            var2['regex'] = var21;
-            var21 = var4.FILTER;
-            var2['componentType'] = var21;
-            var21 = var19[var9];
-            var21 = var18.bind(var17)(var21);
-            var23 = var21.intl;
-            var22 = var23.string;
-            var21 = var19[var9];
-            var21 = var18.bind(var17)(var21);
-            var21 = var21.t;
-            var21 = var21.qZ+7BA;
-            var21 = var22.bind(var23)(var21);
-            var21 = var16.bind(var17)(var21);
-            var2['key'] = var21;
-            var21 = var19[var9];
-            var21 = var18.bind(var17)(var21);
-            var23 = var21.intl;
-            var22 = var23.string;
-            var21 = var19[var9];
-            var21 = var18.bind(var17)(var21);
-            var21 = var21.t;
-            var21 = var21.qZ+7BA;
-            var21 = var22.bind(var23)(var21);
-            var2['plainText'] = var21;
-            var21 = function getAutocompletions(arg1) {
-                var1 = arg1;
-                var5 = var1.query;
-                var4 = var1.maxResults;
-                var3 = _closure1_slot41;
-                var1 = _closure1_slot16;
-                var2 = var1.FILTER_BEFORE;
-                var1 = undefined;
-                var1 = var3.bind(var1)(var5, var4, var2);
-                return var1;
-            };
-            var2['getAutocompletions'] = var21;
-            var1[var3] = var2;
-            var3 = var6.FILTER_ON;
-            var2 = {};
-            var21 = var19[var9];
-            var21 = var18.bind(var17)(var21);
-            var23 = var21.intl;
-            var22 = var23.string;
-            var21 = var19[var9];
-            var21 = var18.bind(var17)(var21);
-            var21 = var21.t;
-            var21 = var21.tIxkOo;
-            var25 = var22.bind(var23)(var21);
-            var21 = var19[var9];
-            var21 = var18.bind(var17)(var21);
-            var23 = var21.intl;
-            var22 = var23.string;
-            var21 = var19[var9];
-            var21 = var18.bind(var17)(var21);
-            var21 = var21.t;
-            var21 = var21.h2NzSd;
-            var27 = var22.bind(var23)(var21);
-            var21 = var7.HermesInternal;
-            var23 = var21.concat;
-            var30 = '(';
-            var26 = ')';
-            var29 = var25;
-            var28 = var14;
-            var21 = var30[var23](var29, var28, var27, var26, var25);
-            var21 = var20.bind(var17)(var21);
-            var2['regex'] = var21;
-            var21 = var4.FILTER;
-            var2['componentType'] = var21;
-            var21 = var19[var9];
-            var21 = var18.bind(var17)(var21);
-            var23 = var21.intl;
-            var22 = var23.string;
-            var21 = var19[var9];
-            var21 = var18.bind(var17)(var21);
-            var21 = var21.t;
-            var21 = var21.h2NzSd;
-            var21 = var22.bind(var23)(var21);
-            var21 = var16.bind(var17)(var21);
-            var2['key'] = var21;
-            var21 = var19[var9];
-            var21 = var18.bind(var17)(var21);
-            var23 = var21.intl;
-            var22 = var23.string;
-            var21 = var19[var9];
-            var21 = var18.bind(var17)(var21);
-            var21 = var21.t;
-            var21 = var21.h2NzSd;
-            var21 = var22.bind(var23)(var21);
-            var2['plainText'] = var21;
-            var21 = function getAutocompletions(arg1) {
-                var1 = arg1;
-                var5 = var1.query;
-                var4 = var1.maxResults;
-                var3 = _closure1_slot41;
-                var1 = _closure1_slot16;
-                var2 = var1.FILTER_ON;
-                var1 = undefined;
-                var1 = var3.bind(var1)(var5, var4, var2);
-                return var1;
-            };
-            var2['getAutocompletions'] = var21;
-            var1[var3] = var2;
-            var3 = var6.FILTER_AFTER;
-            var2 = {};
-            var21 = var19[var9];
-            var21 = var18.bind(var17)(var21);
-            var23 = var21.intl;
-            var22 = var23.string;
-            var21 = var19[var9];
-            var21 = var18.bind(var17)(var21);
-            var21 = var21.t;
-            var21 = var21.KSDx7M;
-            var21 = var22.bind(var23)(var21);
-            var21 = var20.bind(var17)(var21);
-            var2['regex'] = var21;
-            var21 = var4.FILTER;
-            var2['componentType'] = var21;
-            var21 = var19[var9];
-            var21 = var18.bind(var17)(var21);
-            var23 = var21.intl;
-            var22 = var23.string;
-            var21 = var19[var9];
-            var21 = var18.bind(var17)(var21);
-            var21 = var21.t;
-            var21 = var21.KSDx7M;
-            var21 = var22.bind(var23)(var21);
-            var21 = var16.bind(var17)(var21);
-            var2['key'] = var21;
-            var21 = var19[var9];
-            var21 = var18.bind(var17)(var21);
-            var23 = var21.intl;
-            var22 = var23.string;
-            var21 = var19[var9];
-            var21 = var18.bind(var17)(var21);
-            var21 = var21.t;
-            var21 = var21.KSDx7M;
-            var21 = var22.bind(var23)(var21);
-            var2['plainText'] = var21;
-            var21 = function getAutocompletions(arg1) {
-                var1 = arg1;
-                var5 = var1.query;
-                var4 = var1.maxResults;
-                var3 = _closure1_slot41;
-                var1 = _closure1_slot16;
-                var2 = var1.FILTER_AFTER;
-                var1 = undefined;
-                var1 = var3.bind(var1)(var5, var4, var2);
-                return var1;
-            };
-            var2['getAutocompletions'] = var21;
-            var1[var3] = var2;
-            var3 = var6.ANSWER_BEFORE;
-            var2 = {};
-            var21 = _closure1_slot21;
-            var2['regex'] = var21;
-            var23 = var6.FILTER_BEFORE;
-            var22 = new Array(1);
-            var22[0] = var23;
-            var2['follows'] = var22;
-            var22 = var4.ANSWER;
-            var2['componentType'] = var22;
-            var2['mutable'] = var13;
-            var22 = function validator(arg1) {
-                var4 = _closure1_slot36;
-                var3 = undefined;
-                var2 = arg1;
-                var1 = 'before';
-                var1 = var4.bind(var3)(var2, var1);
-                return var1;
-            };
-            var2['validator'] = var22;
-            var1[var3] = var2;
-            var3 = var6.ANSWER_ON;
-            var2 = {};
-            var2['regex'] = var21;
-            var23 = var6.FILTER_ON;
-            var22 = new Array(1);
-            var22[0] = var23;
-            var2['follows'] = var22;
-            var22 = var4.ANSWER;
-            var2['componentType'] = var22;
-            var2['mutable'] = var13;
-            var22 = function validator(arg1) {
-                var4 = _closure1_slot36;
-                var3 = undefined;
-                var2 = arg1;
-                var1 = 'on';
-                var1 = var4.bind(var3)(var2, var1);
-                return var1;
-            };
-            var2['validator'] = var22;
-            var1[var3] = var2;
-            var3 = var6.ANSWER_AFTER;
-            var2 = {};
-            var2['regex'] = var21;
-            var22 = var6.FILTER_AFTER;
-            var21 = new Array(1);
-            var21[0] = var22;
-            var2['follows'] = var21;
-            var21 = var4.ANSWER;
-            var2['componentType'] = var21;
-            var2['mutable'] = var13;
-            var21 = function validator(arg1) {
-                var4 = _closure1_slot36;
-                var3 = undefined;
-                var2 = arg1;
-                var1 = 'after';
-                var1 = var4.bind(var3)(var2, var1);
-                return var1;
-            };
-            var2['validator'] = var21;
-            var1[var3] = var2;
-            var3 = var6.FILTER_IN;
-            var2 = {};
-            var21 = var19[var9];
-            var21 = var18.bind(var17)(var21);
-            var23 = var21.intl;
-            var22 = var23.string;
-            var21 = var19[var9];
-            var21 = var18.bind(var17)(var21);
-            var21 = var21.t;
-            var21 = var21.WNpFHa;
-            var21 = var22.bind(var23)(var21);
-            var21 = var20.bind(var17)(var21);
-            var2['regex'] = var21;
-            var21 = var4.FILTER;
-            var2['componentType'] = var21;
-            var21 = var19[var9];
-            var21 = var18.bind(var17)(var21);
-            var23 = var21.intl;
-            var22 = var23.string;
-            var21 = var19[var9];
-            var21 = var18.bind(var17)(var21);
-            var21 = var21.t;
-            var21 = var21.WNpFHa;
-            var21 = var22.bind(var23)(var21);
-            var21 = var16.bind(var17)(var21);
-            var2['key'] = var21;
-            var21 = var19[var9];
-            var21 = var18.bind(var17)(var21);
-            var23 = var21.intl;
-            var22 = var23.string;
-            var21 = var19[var9];
-            var21 = var18.bind(var17)(var21);
-            var21 = var21.t;
-            var21 = var21.WNpFHa;
-            var21 = var22.bind(var23)(var21);
-            var2['plainText'] = var21;
-            var21 = function validator() {
-                _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
-case 0:
-                    var3 = _closure1_slot12;
-                    var1 = var3.getSelectedSearchContext;
-                    var4 = var1.bind(var3)();
-                    var1 = null;
-                    var1 = var1 != var4;
-                    if(!var1) { _fun0024_ip = 130; continue _fun0024 }
-case 83:
-                    var5 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var2 = 17;
-                    var3 = var3[var2];
-                    var2 = undefined;
-                    var3 = var5.bind(var2)(var3);
-                    var2 = var3.isChannelFilterSupported;
-                    var1 = var2.bind(var3)(var4);
-case 130:
-                    return var1;
-                }
-            };
-            var2['validator'] = var21;
-            var21 = _closure1_slot45;
-            var2['getAutocompletions'] = var21;
-            var1[var3] = var2;
-            var3 = var6.ANSWER_IN;
-            var2 = {};
-            var21 = _closure1_slot14;
-            var2['regex'] = var21;
-            var2['mutable'] = var13;
-            var21 = var6.FILTER_IN;
-            var13 = new Array(1);
-            var13[0] = var21;
-            var2['follows'] = var13;
-            var13 = var4.ANSWER;
-            var2['componentType'] = var13;
-            var13 = _closure1_slot37;
-            var2['validator'] = var13;
-            var13 = 'channel_id';
-            var2['queryKey'] = var13;
-            var1[var3] = var2;
-            var3 = var6.FILTER_PINNED;
-            var2 = {};
-            var13 = var19[var9];
-            var13 = var18.bind(var17)(var13);
-            var22 = var13.intl;
-            var21 = var22.string;
-            var13 = var19[var9];
-            var13 = var18.bind(var17)(var13);
-            var13 = var13.t;
-            var13 = var13.0B74eY;
-            var13 = var21.bind(var22)(var13);
-            var13 = var20.bind(var17)(var13);
-            var2['regex'] = var13;
-            var13 = var4.FILTER;
-            var2['componentType'] = var13;
-            var13 = var19[var9];
-            var13 = var18.bind(var17)(var13);
-            var22 = var13.intl;
-            var21 = var22.string;
-            var13 = var19[var9];
-            var13 = var18.bind(var17)(var13);
-            var13 = var13.t;
-            var13 = var13.0B74eY;
-            var13 = var21.bind(var22)(var13);
-            var13 = var16.bind(var17)(var13);
-            var2['key'] = var13;
-            var13 = var19[var9];
-            var13 = var18.bind(var17)(var13);
-            var22 = var13.intl;
-            var21 = var22.string;
-            var13 = var19[var9];
-            var13 = var18.bind(var17)(var13);
-            var13 = var13.t;
-            var13 = var13.0B74eY;
-            var13 = var21.bind(var22)(var13);
-            var2['plainText'] = var13;
-            var13 = function getAutocompletions() {
-                var2 = {};
-                var1 = 'true';
-                var2['text'] = var1;
-                var1 = new Array(2);
-                var1[0] = var2;
-                var2 = {};
-                var3 = 'false';
-                var2['text'] = var3;
-                var1[1] = var2;
-                return var1;
-            };
-            var2['getAutocompletions'] = var13;
-            var1[var3] = var2;
-            var3 = var6.ANSWER_PINNED;
-            var2 = {};
-            var13 = _closure1_slot22;
-            var2['regex'] = var13;
-            var13 = var4.ANSWER;
-            var2['componentType'] = var13;
-            var21 = var6.FILTER_PINNED;
-            var13 = new Array(1);
-            var13[0] = var21;
-            var2['follows'] = var13;
-            var13 = 'pinned';
-            var2['queryKey'] = var13;
-            var13 = function validator(arg1) {
-                _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
-case 0:
-                    var5 = arg1;
-                    var2 = var5.getMatch;
-                    var1 = 1;
-                    var2 = var2.bind(var5)(var1);
-                    var1 = 'true';
-                    if(!(var1 !== var2)) { _fun0025_ip = 131; continue _fun0025 }
-case 132:
-                    var1 = 'false';
-                    var1 = var1 === var2;
-                    if(!var1) { _fun0025_ip = 133; continue _fun0025 }
-case 119:
-                    var4 = var5.setData;
-                    var3 = 'pinned';
-                    var2 = false;
-                    var2 = var4.bind(var5)(var3, var2);
-                    var1 = true;
-case 133:
-                    _fun0025_ip = 101; continue _fun0025;
-case 131:
-                    var4 = var5.setData;
-                    var3 = 'pinned';
-                    var2 = true;
-                    var3 = var4.bind(var5)(var3, var2);
-                    var1 = true;
-case 101:
-                    return var1;
-                }
-            };
-            var2['validator'] = var13;
-            var1[var3] = var2;
-            var3 = var6.FILTER_AUTHOR_TYPE;
-            var2 = {};
-            var13 = var19[var9];
-            var13 = var18.bind(var17)(var13);
-            var22 = var13.intl;
-            var21 = var22.string;
-            var13 = var19[var9];
-            var13 = var18.bind(var17)(var13);
-            var13 = var13.t;
-            var13 = var13.us8IQi;
-            var13 = var21.bind(var22)(var13);
-            var13 = var20.bind(var17)(var13);
-            var2['regex'] = var13;
-            var13 = var4.FILTER;
-            var2['componentType'] = var13;
-            var13 = var19[var9];
-            var13 = var18.bind(var17)(var13);
-            var21 = var13.intl;
-            var20 = var21.string;
-            var13 = var19[var9];
-            var13 = var18.bind(var17)(var13);
-            var13 = var13.t;
-            var13 = var13.us8IQi;
-            var13 = var20.bind(var21)(var13);
-            var13 = var16.bind(var17)(var13);
-            var2['key'] = var13;
-            var13 = function validator() {
-                var3 = _closure1_slot0;
-                var2 = _closure1_slot2;
-                var1 = 22;
-                var2 = var2[var1];
-                var1 = undefined;
-                var3 = var3.bind(var1)(var2);
-                var2 = var3.getIsSearchAuthorTypeFilterEnabled;
-                var1 = {};
-                var4 = 'SearchTokens';
-                var1['location'] = var4;
-                var1 = var2.bind(var3)(var1);
-                return var1;
-            };
-            var2['validator'] = var13;
-            var13 = var19[var9];
-            var13 = var18.bind(var17)(var13);
-            var16 = var13.intl;
-            var13 = var16.string;
-            var9 = var19[var9];
-            var9 = var18.bind(var17)(var9);
-            var9 = var9.t;
-            var9 = var9.us8IQi;
-            var9 = var13.bind(var16)(var9);
-            var2['plainText'] = var9;
-            var9 = function getAutocompletions(arg1) {
-                var1 = arg1;
-                var5 = var1.query;
-                var4 = var1.maxResults;
-                var3 = _closure1_slot42;
-                var2 = _closure3_slot1;
-                var1 = undefined;
-                var1 = var3.bind(var1)(var5, var4, var2);
-                return var1;
-            };
-            var2['getAutocompletions'] = var9;
-            var1[var3] = var2;
-            var3 = var6.ANSWER_AUTHOR_TYPE;
-            var2 = {};
-            var9 = var7.RegExp;
-            var13 = var15.map;
-            var8 = function(arg1) {
-                var3 = _closure1_slot1;
-                var2 = _closure1_slot2;
-                var1 = 21;
-                var2 = var2[var1];
-                var1 = undefined;
-                var3 = var3.bind(var1)(var2);
-                var2 = var3.escape;
-                var1 = arg1;
-                var1 = var2.bind(var3)(var1);
-                return var1;
-            };
-            var13 = var13.bind(var15)(var8);
-            var8 = var13.join;
-            var8 = var8.bind(var13)(var14);
-            var7 = var7.HermesInternal;
-            var7 = var7.concat;
-            var29 = var7.bind(var12)(var8, var11);
-            var8 = var9.prototype;
-            var8 = Object.create(var8, {constructor: {value: var9}});
-            var30 = var8;
-            var28 = var10;
-            var7 = new var30[var9](var29, var28, var27);
-            var7 = var7 instanceof Object ? var7 : var8;
-            var2['regex'] = var7;
-            var7 = var6.FILTER_AUTHOR_TYPE;
-            var6 = new Array(1);
-            var6[0] = var7;
-            var2['follows'] = var6;
-            var5 = _closure1_slot39;
-            var2['validator'] = var5;
-            var4 = var4.ANSWER;
-            var2['componentType'] = var4;
-            var4 = 'author_type';
-            var2['queryKey'] = var4;
-            var1[var3] = var2;
-            return var1;
-        };
+        var2 = _closure1_slot46;
         var1 = undefined;
         var2 = var2.bind(var1)();
         var2 = var4.bind(var5)(var3, var2);
@@ -3047,12 +3142,12 @@ case 101:
     var3['rebuildSearchTokenConfigs'] = var5;
     var3['isSearchFilterTokenType'] = var4;
     var4 = function getSearchTokenFilterAutocompletions(arg1) {
-        _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
+        _fun0027: for(var _fun0027_ip = 0; ; ) switch(_fun0027_ip) {
 case 0:
             var10 = arg1;
             var9 = arguments[1];
             var8 = undefined;
-            if(!(var9 === var8)) { _fun0026_ip = 34; continue _fun0026 }
+            if(!(var9 === var8)) { _fun0027_ip = 132; continue _fun0027 }
 case 3:
             var1 = global;
             var3 = var1.Object;
@@ -3060,7 +3155,7 @@ case 3:
             var1 = _closure1_slot25;
             var1 = var2.bind(var3)(var1);
             var9 = var1.length;
-case 34:
+case 132:
             var1 = new Array(0);
             var2 = global;
             var4 = var2.Object;
@@ -3072,23 +3167,23 @@ case 34:
             var2 = var5 < var2;
             var4 = 18;
             var3 = null;
-            if(!var2) { _fun0026_ip = 134; continue _fun0026 }
-case 135:
+            if(!var2) { _fun0027_ip = 133; continue _fun0027 }
+case 134:
             var13 = var6[var5];
             var2 = var1.length;
-            if(!(!(var2 >= var9))) { _fun0026_ip = 134; continue _fun0026 }
-case 136:
+            if(!(!(var2 >= var9))) { _fun0027_ip = 133; continue _fun0027 }
+case 135:
             var2 = _closure1_slot25;
             var2 = var2[var13];
             var12 = var2.key;
-            var2 = _closure1_slot46;
+            var2 = _closure1_slot47;
             var2 = var2.bind(var8)(var13);
-            if(!var2) { _fun0026_ip = 24; continue _fun0026 }
-case 137:
+            if(!var2) { _fun0027_ip = 24; continue _fun0027 }
+case 136:
             var2 = var3 != var12;
 case 24:
-            if(!var2) { _fun0026_ip = 9; continue _fun0026 }
-case 138:
+            if(!var2) { _fun0027_ip = 9; continue _fun0027 }
+case 137:
             var14 = _closure1_slot1;
             var11 = _closure1_slot2;
             var11 = var11[var4];
@@ -3097,30 +3192,30 @@ case 138:
             var11 = var11.bind(var10)();
             var2 = var14.bind(var8)(var11, var12);
 case 9:
-            if(!var2) { _fun0026_ip = 139; continue _fun0026 }
-case 140:
+            if(!var2) { _fun0027_ip = 41; continue _fun0027 }
+case 138:
             var11 = var1.push;
             var2 = {};
             var2['token'] = var13;
             var2['text'] = var12;
             var2 = var11.bind(var1)(var2);
-case 139:
+case 41:
             var5 = var5 + 1;
             var2 = var6.length;
-            if(var5 < var2) { _fun0026_ip = 135; continue _fun0026 }
-case 134:
+            if(var5 < var2) { _fun0027_ip = 134; continue _fun0027 }
+case 133:
             return var1;
         }
     };
     var3['getSearchTokenFilterAutocompletions'] = var4;
     var2 = function isMeAutcompleteAnswer(arg1) {
-        _fun0027: for(var _fun0027_ip = 0; ; ) switch(_fun0027_ip) {
+        _fun0028: for(var _fun0028_ip = 0; ; ) switch(_fun0028_ip) {
 case 0:
             var2 = arg1;
             var3 = var2.length;
             var1 = 0;
-            if(!(var1 !== var3)) { _fun0027_ip = 141; continue _fun0027 }
-case 120:
+            if(!(var1 !== var3)) { _fun0028_ip = 139; continue _fun0028 }
+case 117:
             var1 = var2.toLowerCase;
             var4 = var1.bind(var2)();
             var3 = var4.replace;
@@ -3142,17 +3237,17 @@ case 120:
             var3 = var3.bind(var5)(var1);
             var1 = var3.startsWith;
             var1 = var1.bind(var3)(var4);
-            if(var1) { _fun0027_ip = 142; continue _fun0027 }
-case 143:
+            if(var1) { _fun0028_ip = 140; continue _fun0028 }
+case 141:
             var5 = _closure1_slot15;
             var3 = var5.substring;
             var2 = 1;
             var3 = var3.bind(var5)(var2);
             var2 = var3.startsWith;
             var1 = var2.bind(var3)(var4);
-case 142:
+case 140:
             return var1;
-case 141:
+case 139:
             var1 = false;
             return var1;
         }

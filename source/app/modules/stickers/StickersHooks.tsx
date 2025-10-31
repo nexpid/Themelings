@@ -189,7 +189,7 @@ case 35:
 case 0:
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 20;
+            var1 = 19;
             var3 = var3[var1];
             var1 = undefined;
             var4 = var4.bind(var1)(var3);
@@ -281,7 +281,7 @@ case 39:
 case 0:
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var2 = 20;
+            var2 = 19;
             var2 = var4[var2];
             var7 = undefined;
             var3 = var3.bind(var7)(var2);
@@ -653,7 +653,7 @@ case 67:
 case 69:
                     var3 = _closure1_slot1;
                     var7 = _closure1_slot2;
-                    var2 = 19;
+                    var2 = 18;
                     var2 = var7[var2];
                     var4 = var3.bind(var4)(var2);
                     var3 = var4.can;
@@ -819,7 +819,7 @@ case 78:
 case 81:
                         var5 = _closure1_slot0;
                         var7 = _closure1_slot2;
-                        var3 = 18;
+                        var3 = 20;
                         var4 = var7[var3];
                         var10 = var5.bind(var6)(var4);
                         var9 = var10.getStickerSendability;
@@ -1378,76 +1378,8 @@ case 91:
         }
     };
     var3['useStickersGrid'] = var9;
-    var9 = function(arg1) {
-        var6 = arg1;
-        var _closure2_slot0 = var6;
-        var5 = _closure1_slot0;
-        var8 = _closure1_slot2;
-        var3 = 10;
-        var7 = var8[var3];
-        var4 = undefined;
-        var11 = var5.bind(var4)(var7);
-        var10 = var11.useStateFromStores;
-        var7 = _closure1_slot9;
-        var9 = new Array(1);
-        var9[0] = var7;
-        var7 = function() {
-            var2 = _closure1_slot9;
-            var1 = var2.getCurrentUser;
-            var1 = var1.bind(var2)();
-            return var1;
-        };
-        var7 = var10.bind(var11)(var9, var7);
-        var _closure2_slot1 = var7;
-        var3 = var8[var3];
-        var5 = var5.bind(var4)(var3);
-        var4 = var5.useStateFromStores;
-        var2 = _closure1_slot11;
-        var3 = new Array(1);
-        var3[0] = var2;
-        var2 = new Array(2);
-        var2[0] = var7;
-        var2[1] = var6;
-        var1 = function() {
-            _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
-case 0:
-                var2 = _closure1_slot16;
-                var3 = _closure1_slot11;
-                var1 = var3.getAllStickersIterator;
-                var1 = var1.bind(var3)();
-                var6 = undefined;
-                var5 = var2.bind(var6)(var1);
-                var2 = var5.bind(var6)();
-                var1 = var2.done;
-                var4 = 18;
-                if(var1) { _fun0016_ip = 128; continue _fun0016 }
-case 2:
-                var11 = var2.value;
-                var8 = _closure1_slot0;
-                var1 = _closure1_slot2;
-                var1 = var1[var4];
-                var10 = var8.bind(var6)(var1);
-                var9 = var10.isSendableSticker;
-                var8 = _closure2_slot1;
-                var1 = _closure2_slot0;
-                var1 = var9.bind(var10)(var11, var8, var1);
-                if(var1) { _fun0016_ip = 129; continue _fun0016 }
-case 56:
-                var8 = var5.bind(var6)();
-                var1 = var8.done;
-                var2 = var8;
-                if(var1) { _fun0016_ip = 128; continue _fun0016 }
-case 130:
-                _fun0016_ip = 2; continue _fun0016;
-case 129:
-                var1 = true;
-                return var1;
-case 128:
-                var1 = false;
-                return var1;
-            }
-        };
-        var1 = var4.bind(var5)(var3, var1, var2);
+    var9 = function() {
+        var1 = true;
         return var1;
     };
     var3['useHasSendableSticker'] = var9;
@@ -1498,14 +1430,14 @@ case 128:
     var3['useLatestFrecentStickers'] = var5;
     var3['useStickerPackCategories'] = var4;
     var4 = function(arg1) {
-        _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
+        _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
 case 0:
             var4 = arg1;
             var9 = arguments[1];
             var _closure2_slot0 = var4;
             var11 = undefined;
-            if(!(var9 === var11)) { _fun0017_ip = 29; continue _fun0017 }
-case 131:
+            if(!(var9 === var11)) { _fun0016_ip = 29; continue _fun0016 }
+case 128:
             var9 = false;
 case 29:
             var _closure2_slot1 = var9;
@@ -1555,7 +1487,7 @@ case 29:
             var7 = var7.bind(var11)(var2);
             var2 = var7.isGuildSticker;
             var2 = var2.bind(var7)(var4);
-            if(var2) { _fun0017_ip = 132; continue _fun0017 }
+            if(var2) { _fun0016_ip = 129; continue _fun0016 }
 case 20:
             var10 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -1563,7 +1495,7 @@ case 20:
             var10 = var10.bind(var11)(var7);
             var7 = var10.isStandardSticker;
             var2 = var7.bind(var10)(var4);
-case 132:
+case 129:
             var7 = {};
             var7['hasFetched'] = var3;
             var7['isReturnable'] = var2;
@@ -1592,11 +1524,11 @@ case 132:
                 var1 = undefined;
                 var2 = function* () {
                     var1 = function* anon_0_() {
-                        _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
+                        _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
 case 0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(var2) { _fun0018_ip = 133; continue _fun0018 }
+                            if(var2) { _fun0017_ip = 130; continue _fun0017 }
 case 85:
                             var2 = undefined;
                             var4 = undefined;
@@ -1608,17 +1540,17 @@ case 85:
                             var6 = var8.shouldFetch;
                             var8 = var8.stickersStoreDefinition;
                             var9 = _closure2_slot1;
-                            if(!var9) { _fun0018_ip = 134; continue _fun0018 }
+                            if(!var9) { _fun0017_ip = 131; continue _fun0017 }
 case 89:
-                            if(var7) { _fun0018_ip = 134; continue _fun0018 }
-case 135:
+                            if(var7) { _fun0017_ip = 131; continue _fun0017 }
+case 132:
                             var7 = null;
-                            if(!(var7 == var8)) { _fun0018_ip = 134; continue _fun0018 }
-case 136:
-                            if(!var6) { _fun0018_ip = 134; continue _fun0018 }
+                            if(!(var7 == var8)) { _fun0017_ip = 131; continue _fun0017 }
+case 133:
+                            if(!var6) { _fun0017_ip = 131; continue _fun0017 }
 case 46:
-                            if(var5) { _fun0018_ip = 134; continue _fun0018 }
-case 137:
+                            if(var5) { _fun0017_ip = 131; continue _fun0017 }
+case 134:
                             var6 = _closure2_slot2;
                             var5 = false;
                             var5 = var6.bind(var2)(var5);
@@ -1632,24 +1564,24 @@ case 53: // try_start_0
                             var4 = var4.id;
                             var4 = var5.bind(var6)(var4);
                             SaveGenerator(address=132);
-case 138:
+case 135:
                             return var4;
-case 139:
+case 136:
                             ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                            if(var5) { _fun0018_ip = 140; continue _fun0018 }
-case 141: // try_end0
-                            _fun0018_ip = 142; continue _fun0018;
-case 140:
+                            if(var5) { _fun0017_ip = 137; continue _fun0017 }
+case 138: // try_end0
+                            _fun0017_ip = 139; continue _fun0017;
+case 137:
                             return var4;
-case 143: // catch_target0
+case 140: // catch_target0
                             CatchBlockStart(arg_register=3);
-case 142:
+case 139:
                             var4 = _closure2_slot3;
                             var3 = true;
                             var3 = var4.bind(var2)(var3);
-case 134:
+case 131:
                             return var2;
-case 133:
+case 130:
                             return var1;
                         }
                     };
@@ -1660,24 +1592,24 @@ case 133:
                 return var1;
             };
             var5 = var7.bind(var8)(var5, var6);
-            if(var2) { _fun0017_ip = 106; continue _fun0017 }
+            if(var2) { _fun0016_ip = 106; continue _fun0016 }
 case 68:
             var2 = null;
             var5 = var2 != var1;
-            if(!var5) { _fun0017_ip = 26; continue _fun0017 }
-case 144:
+            if(!var5) { _fun0016_ip = 26; continue _fun0016 }
+case 141:
             var2 = var1;
 case 26:
             var1 = new Array(2);
             var1[0] = var2;
             var1[1] = var3;
-            _fun0017_ip = 145; continue _fun0017;
+            _fun0016_ip = 142; continue _fun0016;
 case 106:
             var2 = new Array(2);
             var2[0] = var4;
             var2[1] = var3;
             var1 = var2;
-case 145:
+case 142:
             return var1;
         }
     };
@@ -1696,7 +1628,7 @@ case 145:
             var4 = _closure2_slot0;
             var3 = var4.filter;
             var2 = function(arg1) {
-                _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
+                _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
 case 0:
                     var2 = arg1;
                     var3 = var2.type;
@@ -1709,13 +1641,13 @@ case 0:
                     var1 = var1.StickerCategoryTypes;
                     var1 = var1.EMPTY_GUILD_UPSELL;
                     var1 = var3 === var1;
-                    if(var1) { _fun0019_ip = 146; continue _fun0019 }
-case 147:
+                    if(var1) { _fun0018_ip = 143; continue _fun0018 }
+case 144:
                     var2 = var2.stickers;
                     var3 = var2.length;
                     var2 = 0;
                     var1 = var3 > var2;
-case 146:
+case 143:
                     return var1;
                 }
             };

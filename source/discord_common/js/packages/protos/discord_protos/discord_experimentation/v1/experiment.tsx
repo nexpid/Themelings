@@ -153,12 +153,6 @@ case 9:
     var11['FULL'] = var20;
     var7 = 'FULL';
     var11[var20] = var7;
-    var11['DEPRECATED_FORCE_DEFAULT'] = var19;
-    var7 = 'DEPRECATED_FORCE_DEFAULT';
-    var11[var19] = var7;
-    var11['DEPRECATED_OVERRIDE_ONLY'] = var18;
-    var7 = 'DEPRECATED_OVERRIDE_ONLY';
-    var11[var18] = var7;
     var11['FORCE_CONTROL'] = var6;
     var7 = 'FORCE_CONTROL';
     var11[var6] = var7;

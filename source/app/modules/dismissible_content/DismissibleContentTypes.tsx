@@ -217,7 +217,7 @@ case 4:
     var13 = var19.bind(var1)(var13);
     var13 = var13.DismissibleContent;
     var13 = var13.GUILD_PIN_PERMISSION_MIGRATION_NOTIFICATION;
-    var14 = new Array(3);
+    var14 = new Array(4);
     var14[0] = var13;
     var13 = var20[var2];
     var13 = var19.bind(var1)(var13);
@@ -229,6 +229,11 @@ case 4:
     var13 = var13.DismissibleContent;
     var13 = var13.GAME_SERVER_HOSTING_NEW_BADGE;
     var14[2] = var13;
+    var13 = var20[var2];
+    var13 = var19.bind(var1)(var13);
+    var13 = var13.DismissibleContent;
+    var13 = var13.GAME_SERVER_HOSTING_NEW_COACHMARK;
+    var14[3] = var13;
     var _closure1_slot3 = var14;
     var13 = new Array(0);
     var _closure1_slot4 = var13;
