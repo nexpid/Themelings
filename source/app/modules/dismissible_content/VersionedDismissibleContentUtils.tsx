@@ -131,8 +131,9 @@ case 4:
             var5 = _closure1_slot1;
             var3 = 4;
             var3 = var5[var3];
-            var3 = var4.bind(var2)(var3);
-            var3 = var3.HALLOWEEN_GIFTING_2025_VERSION;
+            var4 = var4.bind(var2)(var3);
+            var3 = var4.getGiftingPromotionDismissibleContentVersion;
+            var3 = var3.bind(var4)();
             return var3;
 case 2:
             var4 = _closure1_slot3;

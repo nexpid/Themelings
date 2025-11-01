@@ -2,13 +2,13 @@
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-        var5 = require;
-        var7 = metroImportDefault;
+        var6 = require;
+        var8 = metroImportDefault;
         var3 = exports;
-        var6 = dependencyMap;
-        var _closure1_slot0 = var5;
-        var _closure1_slot1 = var7;
-        var _closure1_slot2 = var6;
+        var7 = dependencyMap;
+        var _closure1_slot0 = var6;
+        var _closure1_slot1 = var8;
+        var _closure1_slot2 = var7;
         var1 = function _isNativeReflectConstruct() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -224,7 +224,7 @@ case 3:
             }
         };
         var _closure1_slot20 = var1;
-        var1 = function gameFromServer(arg1) {
+        var2 = function gameFromServer(arg1) {
             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                 var3 = arg1;
@@ -313,7 +313,7 @@ case 56:
                 return var1;
             }
         };
-        var _closure1_slot21 = var1;
+        var _closure1_slot21 = var2;
         var1 = function convertGameRecordToGame(arg1) {
             _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
@@ -437,83 +437,83 @@ case 64:
         };
         var _closure1_slot23 = var1;
         var1 = global;
-        var9 = var1.Object;
-        var8 = var9.defineProperty;
-        var2 = {};
+        var10 = var1.Object;
+        var9 = var10.defineProperty;
+        var4 = {};
         var1 = true;
-        var2['value'] = var1;
+        var4['value'] = var1;
         var1 = '__esModule';
-        var1 = var8.bind(var9)(var3, var1, var2);
+        var1 = var9.bind(var10)(var3, var1, var4);
         var1 = 0;
-        var2 = var6[var1];
+        var4 = var7[var1];
         var1 = undefined;
-        var2 = var7.bind(var1)(var2);
-        var _closure1_slot3 = var2;
-        var2 = 1;
-        var2 = var6[var2];
-        var2 = var7.bind(var1)(var2);
-        var _closure1_slot4 = var2;
-        var2 = 2;
-        var2 = var6[var2];
-        var2 = var7.bind(var1)(var2);
-        var _closure1_slot5 = var2;
-        var2 = 3;
-        var2 = var6[var2];
-        var2 = var7.bind(var1)(var2);
-        var _closure1_slot6 = var2;
-        var2 = 4;
-        var2 = var6[var2];
-        var2 = var7.bind(var1)(var2);
-        var _closure1_slot7 = var2;
-        var2 = 5;
-        var8 = var6[var2];
-        var8 = var7.bind(var1)(var8);
-        var _closure1_slot8 = var8;
-        var2 = var6[var2];
-        var2 = var5.bind(var1)(var2);
-        var2 = var2.createExecutable;
-        var _closure1_slot9 = var2;
-        var2 = 6;
-        var2 = var6[var2];
-        var2 = var7.bind(var1)(var2);
-        var2 = var2.Millis;
-        var2 = var2.DAY;
-        var _closure1_slot10 = var2;
-        var2 = 7;
-        var2 = var6[var2];
-        var2 = var7.bind(var1)(var2);
-        var8 = var2.prototype;
-        var8 = Object.create(var8, {constructor: {value: var2}});
-        var13 = var8;
-        var2 = new var13[var2](var12);
-        var2 = var2 instanceof Object ? var2 : var8;
-        var _closure1_slot11 = var2;
-        var2 = {};
-        var _closure1_slot12 = var2;
-        var2 = {};
-        var _closure1_slot13 = var2;
-        var2 = 8;
-        var2 = var6[var2];
-        var2 = var5.bind(var1)(var2);
-        var9 = var2.Storage;
-        var8 = var9.get;
-        var2 = 'GameStoreReportedGames';
-        var8 = var8.bind(var9)(var2);
-        var2 = null;
-        if(!(var2 == var8)) { _fun0001_ip = 67; continue _fun0001 }
+        var4 = var8.bind(var1)(var4);
+        var _closure1_slot3 = var4;
+        var4 = 1;
+        var4 = var7[var4];
+        var4 = var8.bind(var1)(var4);
+        var _closure1_slot4 = var4;
+        var4 = 2;
+        var4 = var7[var4];
+        var4 = var8.bind(var1)(var4);
+        var _closure1_slot5 = var4;
+        var4 = 3;
+        var4 = var7[var4];
+        var4 = var8.bind(var1)(var4);
+        var _closure1_slot6 = var4;
+        var4 = 4;
+        var4 = var7[var4];
+        var4 = var8.bind(var1)(var4);
+        var _closure1_slot7 = var4;
+        var4 = 5;
+        var9 = var7[var4];
+        var9 = var8.bind(var1)(var9);
+        var _closure1_slot8 = var9;
+        var4 = var7[var4];
+        var4 = var6.bind(var1)(var4);
+        var4 = var4.createExecutable;
+        var _closure1_slot9 = var4;
+        var4 = 6;
+        var4 = var7[var4];
+        var4 = var8.bind(var1)(var4);
+        var4 = var4.Millis;
+        var4 = var4.DAY;
+        var _closure1_slot10 = var4;
+        var4 = 7;
+        var4 = var7[var4];
+        var4 = var8.bind(var1)(var4);
+        var9 = var4.prototype;
+        var9 = Object.create(var9, {constructor: {value: var4}});
+        var14 = var9;
+        var4 = new var14[var4](var13);
+        var4 = var4 instanceof Object ? var4 : var9;
+        var _closure1_slot11 = var4;
+        var4 = {};
+        var _closure1_slot12 = var4;
+        var4 = {};
+        var _closure1_slot13 = var4;
+        var4 = 8;
+        var4 = var7[var4];
+        var4 = var6.bind(var1)(var4);
+        var10 = var4.Storage;
+        var9 = var10.get;
+        var4 = 'GameStoreReportedGames';
+        var9 = var9.bind(var10)(var4);
+        var4 = null;
+        if(!(var4 == var9)) { _fun0001_ip = 67; continue _fun0001 }
 case 68:
-        var8 = {};
+        var9 = {};
 case 67:
-        var _closure1_slot14 = var8;
-        var8 = '';
-        var _closure1_slot15 = var8;
+        var _closure1_slot14 = var9;
+        var9 = '';
+        var _closure1_slot15 = var9;
         var _closure1_slot16 = var1;
-        var _closure1_slot17 = var2;
-        var2 = 14;
-        var2 = var6[var2];
-        var2 = var7.bind(var1)(var2);
-        var8 = var2.PersistedStore;
-        var2 = function(arg1) {
+        var _closure1_slot17 = var4;
+        var4 = 14;
+        var4 = var7[var4];
+        var4 = var8.bind(var1)(var4);
+        var9 = var4.PersistedStore;
+        var4 = function(arg1) {
             var4 = function GameStore() {
                 _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
@@ -1052,12 +1052,12 @@ case 42:
             var1 = var2.bind(var3)(var4, var1);
             return var1;
         };
-        var8 = var2.bind(var1)(var8);
-        var2 = 'GameStore';
-        var8['displayName'] = var2;
-        var8['persistKey'] = var2;
-        var2 = new Array(3);
-        var9 = function(arg1) {
+        var9 = var4.bind(var1)(var9);
+        var4 = 'GameStore';
+        var9['displayName'] = var4;
+        var9['persistKey'] = var4;
+        var4 = new Array(3);
+        var10 = function(arg1) {
             _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
 case 0:
                 var3 = arg1;
@@ -1109,8 +1109,8 @@ case 106:
                 return var1;
             }
         };
-        var2[0] = var9;
-        var9 = function(arg1) {
+        var4[0] = var10;
+        var10 = function(arg1) {
             _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
 case 0:
                 var1 = arg1;
@@ -1134,8 +1134,8 @@ case 110:
                 return var1;
             }
         };
-        var2[1] = var9;
-        var9 = function() {
+        var4[1] = var10;
+        var10 = function() {
             var1 = {};
             var2 = '';
             var1['detectableGamesEtag'] = var2;
@@ -1143,13 +1143,13 @@ case 110:
             var1['detectableGames'] = var2;
             return var1;
         };
-        var2[2] = var9;
-        var8['migrations'] = var2;
-        var2 = 15;
-        var2 = var6[var2];
-        var12 = var7.bind(var1)(var2);
-        var2 = {};
-        var9 = function handleOverlayInitialize(arg1) {
+        var4[2] = var10;
+        var9['migrations'] = var4;
+        var4 = 15;
+        var4 = var7[var4];
+        var13 = var8.bind(var1)(var4);
+        var4 = {};
+        var10 = function handleOverlayInitialize(arg1) {
             _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
 case 0:
                 var1 = arg1;
@@ -1179,22 +1179,22 @@ case 106:
                 return var1;
             }
         };
-        var2['OVERLAY_INITIALIZE'] = var9;
-        var9 = function handleApplicationsFetch() {
+        var4['OVERLAY_INITIALIZE'] = var10;
+        var10 = function handleApplicationsFetch() {
             var1 = true;
             _closure1_slot16 = var1;
             var1 = undefined;
             return var1;
         };
-        var2['GAMES_DATABASE_FETCH'] = var9;
-        var9 = function handleApplicationsFetchFail() {
+        var4['GAMES_DATABASE_FETCH'] = var10;
+        var10 = function handleApplicationsFetchFail() {
             var1 = false;
             _closure1_slot16 = var1;
             var1 = undefined;
             return var1;
         };
-        var2['GAMES_DATABASE_FETCH_FAIL'] = var9;
-        var4 = function handleDetectableGamesUpdated(arg1) {
+        var4['GAMES_DATABASE_FETCH_FAIL'] = var10;
+        var5 = function handleDetectableGamesUpdated(arg1) {
             _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
 case 0:
                 var1 = arg1;
@@ -1244,20 +1244,21 @@ case 84:
                 return var1;
             }
         };
-        var2['GAMES_DATABASE_UPDATE'] = var4;
-        var4 = var8.prototype;
-        var4 = Object.create(var4, {constructor: {value: var8}});
-        var13 = var4;
-        var11 = var2;
-        var2 = new var13[var8](var12, var11, var10);
-        var2 = var2 instanceof Object ? var2 : var4;
-        var4 = 16;
-        var4 = var6[var4];
-        var6 = var5.bind(var1)(var4);
-        var5 = var6.fileFinishedImporting;
-        var4 = 'stores/GameStore.tsx';
-        var4 = var5.bind(var6)(var4);
-        var3['default'] = var2;
+        var4['GAMES_DATABASE_UPDATE'] = var5;
+        var5 = var9.prototype;
+        var5 = Object.create(var5, {constructor: {value: var9}});
+        var14 = var5;
+        var12 = var4;
+        var4 = new var14[var9](var13, var12, var11);
+        var4 = var4 instanceof Object ? var4 : var5;
+        var5 = 16;
+        var5 = var7[var5];
+        var7 = var6.bind(var1)(var5);
+        var6 = var7.fileFinishedImporting;
+        var5 = 'stores/GameStore.tsx';
+        var5 = var6.bind(var7)(var5);
+        var3['default'] = var4;
+        var3['gameFromServer'] = var2;
         return var1;
     }
 })();

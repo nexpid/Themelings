@@ -21,8 +21,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var7 = var4.GuildFeatures;
     var _closure1_slot3 = var7;
+    var7 = var4.Routes;
+    var _closure1_slot4 = var7;
     var4 = var4.SKUProductLines;
-    var _closure1_slot4 = var4;
+    var _closure1_slot5 = var4;
     var4 = 4;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -38,7 +40,7 @@ case 0:
             if(!var1) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var3 = var2.productLine;
-            var2 = _closure1_slot4;
+            var2 = _closure1_slot5;
             var2 = var2.SOCIAL_LAYER_GAME_ITEM;
             var1 = var3 === var2;
 case 2:
@@ -202,38 +204,41 @@ case 11:
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var1 = arg1;
+            var12 = arg2;
             var4 = null;
-            var5 = var4 == var1;
-            var2 = undefined;
-            var3 = undefined;
-            if(var5) { _fun0005_ip = 13; continue _fun0005 }
+            if(!(var4 != var12)) { _fun0005_ip = 13; continue _fun0005 }
 case 14:
+            var5 = var4 == var1;
+            var3 = undefined;
+            var2 = undefined;
+            if(var5) { _fun0005_ip = 15; continue _fun0005 }
+case 16:
             var5 = var1.tenantMetadata;
             var6 = var4 == var5;
-            var3 = undefined;
-            if(var6) { _fun0005_ip = 13; continue _fun0005 }
-case 6:
+            var2 = undefined;
+            if(var6) { _fun0005_ip = 15; continue _fun0005 }
+case 4:
             var5 = var5.socialLayer;
             var6 = var4 == var5;
-            var3 = undefined;
-            if(var6) { _fun0005_ip = 13; continue _fun0005 }
-case 15:
-            var3 = var5.carouselItems;
-case 13:
-            if(!(var4 != var3)) { _fun0005_ip = 16; continue _fun0005 }
+            var2 = undefined;
+            if(var6) { _fun0005_ip = 15; continue _fun0005 }
 case 17:
-            var3 = var1.tenantMetadata;
-            var3 = var3.socialLayer;
-            var3 = var3.carouselItems;
-            var5 = var3.length;
-            var3 = 0;
-            if(!(var3 !== var5)) { _fun0005_ip = 16; continue _fun0005 }
+            var2 = var5.carouselItems;
+case 15:
+            if(!(var4 != var2)) { _fun0005_ip = 13; continue _fun0005 }
 case 18:
+            var2 = var1.tenantMetadata;
+            var2 = var2.socialLayer;
+            var2 = var2.carouselItems;
+            var5 = var2.length;
+            var2 = 0;
+            if(!(var2 !== var5)) { _fun0005_ip = 13; continue _fun0005 }
+case 11:
             var1 = var1.tenantMetadata;
             var1 = var1.socialLayer;
             var1 = var1.carouselItems;
-            var3 = var1[var3];
-            var1 = var3.labelIconAssetId;
+            var2 = var1[var2];
+            var1 = var2.labelIconAssetId;
             if(!(var4 != var1)) { _fun0005_ip = 19; continue _fun0005 }
 case 20:
             var1 = {};
@@ -241,19 +246,19 @@ case 20:
             var9 = _closure1_slot2;
             var6 = 2;
             var6 = var9[var6];
-            var7 = var7.bind(var2)(var6);
+            var7 = var7.bind(var3)(var6);
             var6 = var7.toURLSafe;
             var8 = _closure1_slot0;
             var5 = 3;
             var5 = var9[var5];
-            var12 = var8.bind(var2)(var5);
-            var11 = var12.getAssetURL;
-            var15 = var3.labelIconAssetId;
-            var16 = arg2;
+            var11 = var8.bind(var3)(var5);
+            var10 = var11.getAssetURL;
+            var15 = var2.labelIconAssetId;
             var14 = 512;
             var13 = 'png';
-            var17 = var12;
-            var5 = var17[var11](var16, var15, var14, var13, var12);
+            var17 = var11;
+            var16 = var12;
+            var5 = var17[var10](var16, var15, var14, var13, var12);
             var5 = var6.bind(var7)(var5);
             var6 = var4 != var5;
             var4 = undefined;
@@ -262,18 +267,19 @@ case 22:
             var4 = var5;
 case 21:
             var1['primaryIconAsset'] = var4;
-            var3 = var3.label;
-            var1['primaryIconLabel'] = var3;
+            var2 = var2.label;
+            var1['primaryIconLabel'] = var2;
             _fun0005_ip = 23; continue _fun0005;
 case 19:
-            var3 = {};
-            var3['primaryIconAsset'] = var2;
-            var3['primaryIconLabel'] = var2;
-            var1 = var3;
+            var2 = {};
+            var2['primaryIconAsset'] = var3;
+            var2['primaryIconLabel'] = var3;
+            var1 = var2;
 case 23:
             return var1;
-case 16:
+case 13:
             var1 = {};
+            var2 = undefined;
             var1['primaryIconAsset'] = var2;
             var1['primaryIconLabel'] = var2;
             return var1;
@@ -289,41 +295,41 @@ case 0:
             var5 = undefined;
             var8 = undefined;
             if(var2) { _fun0006_ip = 24; continue _fun0006 }
-case 14:
+case 25:
             var8 = var3.applicationId;
 case 24:
             var2 = var1 == var3;
             var7 = undefined;
-            if(var2) { _fun0006_ip = 25; continue _fun0006 }
-case 26:
+            if(var2) { _fun0006_ip = 26; continue _fun0006 }
+case 27:
             var2 = var3.tenantMetadata;
             var4 = var1 == var2;
             var7 = undefined;
-            if(var4) { _fun0006_ip = 25; continue _fun0006 }
-case 27:
+            if(var4) { _fun0006_ip = 26; continue _fun0006 }
+case 28:
             var2 = var2.socialLayer;
             var4 = var1 == var2;
             var7 = undefined;
-            if(var4) { _fun0006_ip = 25; continue _fun0006 }
-case 28:
+            if(var4) { _fun0006_ip = 26; continue _fun0006 }
+case 29:
             var7 = var2.cardImageAssetId;
-case 25:
-            if(!(var1 == var7)) { _fun0006_ip = 29; continue _fun0006 }
-case 30:
+case 26:
+            if(!(var1 == var7)) { _fun0006_ip = 30; continue _fun0006 }
+case 31:
             var4 = var1 == var3;
             var2 = undefined;
-            if(var4) { _fun0006_ip = 31; continue _fun0006 }
-case 32:
-            var2 = var3.thumbnailAssetId;
-case 31:
-            var7 = var2;
-case 29:
-            if(!(var1 != var7)) { _fun0006_ip = 33; continue _fun0006 }
-case 34:
-            if(!(var1 == var8)) { _fun0006_ip = 35; continue _fun0006 }
+            if(var4) { _fun0006_ip = 32; continue _fun0006 }
 case 33:
-            return var5;
+            var2 = var3.thumbnailAssetId;
+case 32:
+            var7 = var2;
+case 30:
+            if(!(var1 != var7)) { _fun0006_ip = 34; continue _fun0006 }
 case 35:
+            if(!(var1 == var8)) { _fun0006_ip = 36; continue _fun0006 }
+case 34:
+            return var5;
+case 36:
             var3 = _closure1_slot1;
             var6 = _closure1_slot2;
             var2 = 2;
@@ -346,7 +352,7 @@ case 35:
         }
     };
     var3['getCardImageURL'] = var4;
-    var2 = function getCardBackgroundImageURL(arg1) {
+    var4 = function getCardBackgroundImageURL(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var1 = arg1;
@@ -354,32 +360,32 @@ case 0:
             var4 = var3 == var1;
             var6 = undefined;
             var2 = undefined;
-            if(var4) { _fun0007_ip = 13; continue _fun0007 }
-case 14:
+            if(var4) { _fun0007_ip = 37; continue _fun0007 }
+case 25:
             var4 = var1.tenantMetadata;
             var5 = var3 == var4;
             var2 = undefined;
-            if(var5) { _fun0007_ip = 13; continue _fun0007 }
+            if(var5) { _fun0007_ip = 37; continue _fun0007 }
 case 6:
             var4 = var4.socialLayer;
             var5 = var3 == var4;
             var2 = undefined;
-            if(var5) { _fun0007_ip = 13; continue _fun0007 }
-case 15:
+            if(var5) { _fun0007_ip = 37; continue _fun0007 }
+case 38:
             var2 = var4.cardBackgroundImageAssetId;
-case 13:
-            if(!(var3 != var2)) { _fun0007_ip = 36; continue _fun0007 }
 case 37:
+            if(!(var3 != var2)) { _fun0007_ip = 39; continue _fun0007 }
+case 17:
             var4 = var3 == var1;
             var2 = undefined;
-            if(var4) { _fun0007_ip = 30; continue _fun0007 }
-case 38:
+            if(var4) { _fun0007_ip = 31; continue _fun0007 }
+case 40:
             var2 = var1.applicationId;
-case 30:
-            if(!(var3 == var2)) { _fun0007_ip = 39; continue _fun0007 }
-case 36:
-            return var6;
+case 31:
+            if(!(var3 == var2)) { _fun0007_ip = 41; continue _fun0007 }
 case 39:
+            return var6;
+case 41:
             var3 = _closure1_slot1;
             var7 = _closure1_slot2;
             var2 = 2;
@@ -403,6 +409,27 @@ case 39:
             return var1;
         }
     };
-    var3['getCardBackgroundImageURL'] = var2;
+    var3['getCardBackgroundImageURL'] = var4;
+    var2 = function getSKUShareURL(arg1, arg2) {
+        var2 = arg2;
+        var1 = global;
+        var3 = var1.location;
+        var5 = var3.protocol;
+        var3 = var1.window;
+        var3 = var3.GLOBAL_ENV;
+        var4 = var3.WEBAPP_ENDPOINT;
+        var8 = _closure1_slot4;
+        var7 = var8.GAME_SHOP;
+        var6 = var2.id;
+        var3 = var2.slug;
+        var2 = arg1;
+        var3 = var7.bind(var8)(var2, var6, var3);
+        var1 = var1.HermesInternal;
+        var2 = var1.concat;
+        var1 = '';
+        var1 = var2.bind(var1)(var5, var4, var3);
+        return var1;
+    };
+    var3['getSKUShareURL'] = var2;
     return var1;
 })();

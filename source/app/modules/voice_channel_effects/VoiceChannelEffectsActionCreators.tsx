@@ -184,36 +184,36 @@ case 4:
         }
     };
     var3['sendVoiceChannelCustomCallSoundEffect'] = var4;
-    var2 = function sendVoiceChannelSoundboardEffect(arg1, arg2, arg3, arg4) {
+    var2 = function sendVoiceChannelSoundboardEffect(arg1, arg2, arg3, arg4, arg5) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var16 = arg1;
-            var6 = arg2;
-            var5 = arg4;
-            var1 = var6.emojiId;
+            var7 = arg2;
+            var6 = arg4;
+            var1 = var7.emojiId;
             var3 = null;
             var1 = var3 != var1;
             var9 = null;
             if(!var1) { _fun0003_ip = 6; continue _fun0003 }
 case 3:
-            var7 = _closure1_slot3;
-            var2 = var7.getCustomEmojiById;
-            var1 = var6.emojiId;
-            var9 = var2.bind(var7)(var1);
+            var5 = _closure1_slot3;
+            var2 = var5.getCustomEmojiById;
+            var1 = var7.emojiId;
+            var9 = var2.bind(var5)(var1);
 case 6:
-            var7 = _closure1_slot10;
+            var5 = _closure1_slot10;
             var1 = undefined;
-            var7 = var7.bind(var1)(var16);
-            var12 = var7.abortController;
+            var5 = var5.bind(var1)(var16);
+            var12 = var5.abortController;
             var _closure2_slot0 = var12;
-            var11 = var7.onRequestProgress;
+            var11 = var5.onRequestProgress;
             var13 = {};
-            var7 = var6.soundId;
-            var13['sound_id'] = var7;
-            var7 = var6.emojiId;
-            var13['emoji_id'] = var7;
-            var7 = var6.emojiName;
-            if(!(var3 == var7)) { _fun0003_ip = 7; continue _fun0003 }
+            var5 = var7.soundId;
+            var13['sound_id'] = var5;
+            var5 = var7.emojiId;
+            var13['emoji_id'] = var5;
+            var5 = var7.emojiName;
+            if(!(var3 == var5)) { _fun0003_ip = 7; continue _fun0003 }
 case 8:
             var10 = var3 == var9;
             var8 = undefined;
@@ -221,37 +221,37 @@ case 8:
 case 10:
             var8 = var9.name;
 case 9:
-            var7 = var8;
+            var5 = var8;
 case 7:
-            var13['emoji_name'] = var7;
-            var8 = var6.guildId;
-            var7 = _closure1_slot9;
-            if(!(var8 !== var7)) { _fun0003_ip = 11; continue _fun0003 }
+            var13['emoji_name'] = var5;
+            var8 = var7.guildId;
+            var5 = _closure1_slot9;
+            if(!(var8 !== var5)) { _fun0003_ip = 11; continue _fun0003 }
 case 12:
-            var7 = var6.guildId;
-            var13['source_guild_id'] = var7;
+            var5 = var7.guildId;
+            var13['source_guild_id'] = var5;
 case 11:
             var9 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var7 = 8;
-            var7 = var8[var7];
-            var7 = var9.bind(var1)(var7);
-            var10 = var7.HTTP;
+            var5 = 8;
+            var5 = var8[var5];
+            var5 = var9.bind(var1)(var5);
+            var10 = var5.HTTP;
             var9 = var10.post;
-            var7 = {};
+            var5 = {};
             var15 = _closure1_slot7;
             var14 = var15.SEND_SOUNDBOARD_SOUND;
             var14 = var14.bind(var15)(var16);
-            var7['url'] = var14;
-            var7['body'] = var13;
+            var5['url'] = var14;
+            var5['body'] = var13;
             var12 = var12.signal;
-            var7['signal'] = var12;
-            var7['onRequestProgress'] = var11;
+            var5['signal'] = var12;
+            var5['onRequestProgress'] = var11;
             var11 = true;
-            var7['rejectWithError'] = var11;
-            var10 = var9.bind(var10)(var7);
+            var5['rejectWithError'] = var11;
+            var10 = var9.bind(var10)(var5);
             var9 = var10.then;
-            var7 = _closure1_slot8;
+            var5 = _closure1_slot8;
             var4 = function() {
                 var1 = _closure2_slot0;
                 var1 = var1.signal;
@@ -259,27 +259,28 @@ case 11:
                 var1 = undefined;
                 return var1;
             };
-            var4 = var9.bind(var10)(var7, var4);
-            var7 = _closure1_slot1;
+            var4 = var9.bind(var10)(var5, var4);
+            var5 = _closure1_slot1;
             var4 = 9;
             var4 = var8[var4];
-            var4 = var7.bind(var1)(var4);
-            if(!(var3 == var5)) { _fun0003_ip = 13; continue _fun0003 }
+            var5 = var5.bind(var1)(var4);
+            if(!(var3 == var6)) { _fun0003_ip = 13; continue _fun0003 }
 case 14:
-            var5 = new Array(0);
+            var6 = new Array(0);
 case 13:
             var3 = _closure1_slot0;
-            var7 = _closure1_slot2;
+            var4 = _closure1_slot2;
             var2 = 11;
-            var2 = var7[var2];
+            var2 = var4[var2];
             var2 = var3.bind(var1)(var2);
             var2 = var2.AnalyticsSoundType;
-            var17 = var2.DEFAULT;
-            var19 = arg3;
-            var21 = undefined;
-            var20 = var5;
-            var18 = var6;
-            var2 = var21[var4](var20, var19, var18, var17, var16);
+            var18 = var2.DEFAULT;
+            var20 = arg3;
+            var17 = arg5;
+            var22 = undefined;
+            var21 = var6;
+            var19 = var7;
+            var2 = var22[var5](var21, var20, var19, var18, var17, var16);
             return var1;
         }
     };

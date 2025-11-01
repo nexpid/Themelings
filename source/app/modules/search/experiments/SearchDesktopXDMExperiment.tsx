@@ -27,7 +27,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = new Array(3);
     var10[0] = var4;
     var4 = {'id': 1, 'label': 'Enables xDM search on desktop'};
-    var11 = {'isXDMSearchEnabled': true, 'isGlobalSettingSupported': false, 'inExperiment': true};
+    var11 = {'isXDMSearchEnabled': true, 'isGlobalSettingSupported': true, 'inExperiment': true};
     var4['config'] = var11;
     var10[1] = var4;
     var11 = {'id': 2, 'label': 'Enables xDM search on desktop with global setting'};

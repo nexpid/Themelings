@@ -816,8 +816,8 @@ case 0:
                 var1 = var1.nativeEvent;
                 var2 = var1.actionName;
                 var1 = 'remove';
-                if(!(var1 === var2)) { _fun0011_ip = 21; continue _fun0011 }
-case 24:
+                if(!(var1 === var2)) { _fun0011_ip = 24; continue _fun0011 }
+case 25:
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
                 var1 = 10;
@@ -828,7 +828,7 @@ case 24:
                 var2 = _closure2_slot0;
                 var1 = _closure2_slot1;
                 var1 = var3.bind(var4)(var2, var1);
-case 21:
+case 24:
                 var1 = undefined;
                 return var1;
             }
@@ -958,21 +958,21 @@ case 4:
             var4 = _closure1_slot9;
             var4 = var4.DM;
             if(!(var4 !== var6)) { _fun0012_ip = 7; continue _fun0012 }
-case 25:
+case 26:
             var4 = _closure1_slot9;
             var4 = var4.TEXT;
-            if(!(var4 !== var6)) { _fun0012_ip = 26; continue _fun0012 }
-case 27:
+            if(!(var4 !== var6)) { _fun0012_ip = 27; continue _fun0012 }
+case 28:
             var4 = _closure1_slot9;
             var4 = var4.GUILD_TEXT_CHANNEL;
-            if(!(var4 !== var6)) { _fun0012_ip = 28; continue _fun0012 }
-case 29:
+            if(!(var4 !== var6)) { _fun0012_ip = 29; continue _fun0012 }
+case 30:
             var4 = _closure1_slot9;
             var4 = var4.GUILD_VOICE_CHANNEL;
-            if(!(var4 !== var6)) { _fun0012_ip = 30; continue _fun0012 }
-case 31:
+            if(!(var4 !== var6)) { _fun0012_ip = 31; continue _fun0012 }
+case 32:
             return var3;
-case 30:
+case 31:
             var7 = _closure1_slot10;
             var6 = _closure1_slot18;
             var4 = {};
@@ -984,7 +984,7 @@ case 30:
             var3 = undefined;
             var3 = var7.bind(var3)(var6, var4);
             return var3;
-case 28:
+case 29:
             var7 = _closure1_slot10;
             var6 = _closure1_slot19;
             var4 = {};
@@ -996,7 +996,7 @@ case 28:
             var3 = undefined;
             var3 = var7.bind(var3)(var6, var4);
             return var3;
-case 26:
+case 27:
             var7 = _closure1_slot10;
             var6 = _closure1_slot15;
             var4 = {};

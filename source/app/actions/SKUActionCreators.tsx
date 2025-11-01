@@ -737,7 +737,7 @@ case 76:
                     var6 = var12.bind(var13)(var6);
 case 77: // try_start_0
                     var6 = {};
-                    var12 = {'sku_id': null, 'quantity': 1, 'purchase_type': 0};
+                    var12 = {'sku_id': null, 'quantity': 1, 'purchase_type': 1};
                     var12['sku_id'] = var7;
                     var7 = new Array(1);
                     var7[0] = var12;

@@ -5650,8 +5650,7 @@ case 186:
         var1 = 'PREMIUM_MARKETING_PREVIEW';
         var2['type'] = var1;
         var1 = arg1;
-        var1 = var1.properties;
-        var2['properties'] = var1;
+        var2['data'] = var1;
         var1 = undefined;
         var2 = var3.bind(var1)(var2);
         return var1;

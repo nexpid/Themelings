@@ -104,10 +104,9 @@ case 16:
             var12 = _closure1_slot0;
             var3 = _closure1_slot1;
             var6 = var3[var13];
-            var15 = var12.bind(var5)(var6);
-            var14 = var15.getGuildInviteExtendedType;
-            var6 = true;
-            var6 = var14.bind(var15)(var11, var6);
+            var14 = var12.bind(var5)(var6);
+            var6 = var14.getGuildInviteExtendedType;
+            var6 = var6.bind(var14)(var11);
             var3 = var3[var13];
             var3 = var12.bind(var5)(var3);
             var3 = var3.GuildInviteExtendedType;
@@ -176,12 +175,12 @@ case 15:
             var3 = var12[var3];
             var6 = var6.bind(var5)(var3);
             var3 = var6.createFriendInvite;
-            var20 = var6;
-            var19 = var11;
-            var18 = var7;
-            var17 = var9;
-            var16 = var4;
-            var3 = var20[var3](var19, var18, var17, var16, var15);
+            var19 = var6;
+            var18 = var11;
+            var17 = var7;
+            var16 = var9;
+            var15 = var4;
+            var3 = var19[var3](var18, var17, var16, var15, var14);
             return var3;
 case 13:
             var6 = _closure1_slot0;

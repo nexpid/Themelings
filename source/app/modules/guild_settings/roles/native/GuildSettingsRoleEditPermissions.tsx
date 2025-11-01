@@ -512,25 +512,25 @@ case 0:
                     var _closure3_slot0 = var12;
                     var8 = _closure2_slot6;
                     if(!var8) { _fun0003_ip = 21; continue _fun0003 }
-case 17:
+case 22:
                     var3 = _closure2_slot1;
                     var2 = _closure2_slot5;
                     var8 = var3 === var2;
 case 21:
-                    if(var8) { _fun0003_ip = 22; continue _fun0003 }
-case 23:
+                    if(var8) { _fun0003_ip = 23; continue _fun0003 }
+case 24:
                     var8 = _closure2_slot6;
-case 22:
-                    if(var8) { _fun0003_ip = 24; continue _fun0003 }
-case 25:
+case 23:
+                    if(var8) { _fun0003_ip = 25; continue _fun0003 }
+case 26:
                     var4 = _closure1_slot11;
                     var3 = var4.can;
                     var2 = _closure2_slot0;
                     var2 = var3.bind(var4)(var12, var2);
                     var8 = !var2;
-case 24:
-                    if(var8) { _fun0003_ip = 26; continue _fun0003 }
-case 27:
+case 25:
+                    if(var8) { _fun0003_ip = 27; continue _fun0003 }
+case 28:
                     var6 = _closure1_slot11;
                     var5 = var6.can;
                     var4 = _closure2_slot0;
@@ -560,13 +560,13 @@ case 27:
                     var23 = var3;
                     var2 = var27[var5](var26, var25, var24, var23, var22);
                     var8 = !var2;
-case 26:
+case 27:
                     var3 = var1.flag;
                     var2 = _closure1_slot14;
                     var2 = var2.MANAGE_MESSAGES;
                     var6 = var18;
-                    if(!(var3 === var2)) { _fun0003_ip = 28; continue _fun0003 }
-case 29:
+                    if(!(var3 === var2)) { _fun0003_ip = 29; continue _fun0003 }
+case 30:
                     var5 = _closure1_slot16;
                     var4 = _closure1_slot6;
                     var3 = {};
@@ -602,12 +602,12 @@ case 29:
                     var13[1] = var15;
                     var3['children'] = var13;
                     var6 = var5.bind(var2)(var4, var3);
-case 28:
+case 29:
                     var2 = var1.flag;
                     var1 = _closure1_slot14;
                     var1 = var1.MANAGE_MESSAGES;
-                    if(!(var2 !== var1)) { _fun0003_ip = 30; continue _fun0003 }
-case 31:
+                    if(!(var2 !== var1)) { _fun0003_ip = 31; continue _fun0003 }
+case 32:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot3;
                     var1 = 25;
@@ -616,8 +616,8 @@ case 31:
                     var2 = var3.bind(var1)(var2);
                     var1 = var2.renderDescription;
                     var5 = var1.bind(var2)(var20);
-                    _fun0003_ip = 32; continue _fun0003;
-case 30:
+                    _fun0003_ip = 33; continue _fun0003;
+case 31:
                     var4 = _closure1_slot16;
                     var3 = _closure1_slot17;
                     var2 = {};
@@ -658,7 +658,7 @@ case 30:
                     var13[1] = var15;
                     var2['children'] = var13;
                     var5 = var4.bind(var1)(var3, var2);
-case 32:
+case 33:
                     var4 = _closure1_slot15;
                     var2 = _closure1_slot0;
                     var13 = _closure1_slot3;
@@ -700,14 +700,14 @@ case 0:
                             var1 = undefined;
                             var8 = var5.bind(var1)(var3);
                             var3 = arg1;
-                            if(var3) { _fun0004_ip = 33; continue _fun0004 }
+                            if(var3) { _fun0004_ip = 21; continue _fun0004 }
 case 15:
                             var6 = var8.remove;
                             var5 = _closure2_slot2;
                             var3 = _closure3_slot0;
                             var3 = var6.bind(var8)(var5, var3);
                             _fun0004_ip = 34; continue _fun0004;
-case 33:
+case 21:
                             var7 = var8.add;
                             var6 = _closure2_slot2;
                             var5 = _closure3_slot0;

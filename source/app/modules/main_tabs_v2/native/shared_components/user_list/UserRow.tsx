@@ -1167,10 +1167,10 @@ case 0:
                         var2 = _closure1_slot17;
                         var2 = var2.CALL;
                         if(!(var2 !== var3)) { _fun0011_ip = 50; continue _fun0011 }
-case 51:
+case 26:
                         var2 = _closure1_slot17;
                         var2 = var2.MESSAGE;
-                        if(!(var2 !== var3)) { _fun0011_ip = 35; continue _fun0011 }
+                        if(!(var2 !== var3)) { _fun0011_ip = 51; continue _fun0011 }
 case 52:
                         var2 = _closure1_slot17;
                         var2 = var2.ACCEPT;
@@ -1226,7 +1226,7 @@ case 53:
                         var2 = undefined;
                         var3 = var5.bind(var2)(var4, var3);
                         return var2;
-case 35:
+case 51:
                         var4 = _closure2_slot7;
                         var2 = null;
                         var4 = var2 == var4;
@@ -1305,8 +1305,6 @@ case 7:
                 var10 = {};
                 var10['user'] = var28;
                 var10['guildId'] = var22;
-                var33 = 'UserRow';
-                var10['location'] = var33;
                 var10 = var23.bind(var24)(var10);
                 var33 = var31.useMemo;
                 var24 = new Array(2);
@@ -1441,15 +1439,15 @@ case 30:
 case 76:
                         var1 = _closure2_slot8;
 case 77:
-                        _fun0015_ip = 78; continue _fun0015;
+                        _fun0015_ip = 61; continue _fun0015;
 case 75:
                         var3 = _closure2_slot23;
                         var1 = var3.name;
-case 78:
-                        _fun0015_ip = 79; continue _fun0015;
+case 61:
+                        _fun0015_ip = 78; continue _fun0015;
 case 71:
                         var1 = _closure2_slot14;
-case 79:
+case 78:
                         return var1;
                     }
                 };
@@ -1466,10 +1464,10 @@ case 79:
 case 0:
                         var1 = _closure2_slot14;
                         var4 = undefined;
-                        if(!(var4 !== var1)) { _fun0016_ip = 80; continue _fun0016 }
+                        if(!(var4 !== var1)) { _fun0016_ip = 79; continue _fun0016 }
 case 5:
                         return var4;
-case 80:
+case 79:
                         var3 = _closure1_slot15;
                         var2 = _closure1_slot0;
                         var5 = _closure1_slot2;
@@ -1484,7 +1482,7 @@ case 80:
                         var5 = var5.bot;
                         var6 = null;
                         var8 = null;
-                        if(!var5) { _fun0016_ip = 81; continue _fun0016 }
+                        if(!var5) { _fun0016_ip = 80; continue _fun0016 }
 case 29:
                         var10 = _closure1_slot15;
                         var9 = _closure1_slot16;
@@ -1512,13 +1510,13 @@ case 29:
                         var11[1] = var12;
                         var5['children'] = var11;
                         var8 = var10.bind(var4)(var9, var5);
-case 81:
+case 80:
                         var5 = new Array(3);
                         var5[0] = var8;
                         var9 = _closure2_slot4;
                         var8 = null;
-                        if(!var9) { _fun0016_ip = 82; continue _fun0016 }
-case 83:
+                        if(!var9) { _fun0016_ip = 81; continue _fun0016 }
+case 82:
                         var11 = _closure1_slot15;
                         var10 = _closure1_slot16;
                         var9 = {};
@@ -1544,13 +1542,13 @@ case 83:
                         var12[1] = var14;
                         var9['children'] = var12;
                         var8 = var11.bind(var4)(var10, var9);
-case 82:
+case 81:
                         var5[1] = var8;
                         var7 = _closure2_slot10;
                         var7 = var6 != var7;
                         var6 = null;
-                        if(!var7) { _fun0016_ip = 84; continue _fun0016 }
-case 85:
+                        if(!var7) { _fun0016_ip = 83; continue _fun0016 }
+case 84:
                         var9 = _closure1_slot15;
                         var8 = _closure1_slot16;
                         var7 = {};
@@ -1576,7 +1574,7 @@ case 85:
                         var10[1] = var11;
                         var7['children'] = var10;
                         var6 = var9.bind(var4)(var8, var7);
-case 84:
+case 83:
                         var5[2] = var6;
                         var1['children'] = var5;
                         var1 = var3.bind(var4)(var2, var1);
@@ -1598,7 +1596,7 @@ case 84:
 case 0:
                         var1 = _closure2_slot13;
                         var5 = undefined;
-                        if(!(var5 === var1)) { _fun0017_ip = 86; continue _fun0017 }
+                        if(!(var5 === var1)) { _fun0017_ip = 85; continue _fun0017 }
 case 5:
                         var4 = _closure1_slot14;
                         var3 = _closure1_slot25;
@@ -1617,10 +1615,10 @@ case 5:
                         var6 = _closure2_slot15;
                         var1['applicationId'] = var6;
                         var1 = var4.bind(var5)(var3, var1);
-                        _fun0017_ip = 87; continue _fun0017;
-case 86:
+                        _fun0017_ip = 86; continue _fun0017;
+case 85:
                         var1 = _closure2_slot13;
-case 87:
+case 86:
                         return var1;
                     }
                 };
@@ -1640,7 +1638,7 @@ case 0:
 case 5:
                         var3 = _closure2_slot3;
                         var1 = null;
-                        if(var3) { _fun0018_ip = 52; continue _fun0018 }
+                        if(var3) { _fun0018_ip = 87; continue _fun0018 }
 case 88:
                         var5 = _closure2_slot2;
                         var3 = _closure1_slot11;
@@ -1651,7 +1649,7 @@ case 65:
                         var3 = _closure2_slot26;
 case 74:
                         var1 = var3;
-case 52:
+case 87:
                         _fun0018_ip = 73; continue _fun0018;
 case 43:
                         var1 = _closure2_slot12;

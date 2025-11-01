@@ -147,6 +147,8 @@ case 16:
             var6 = _closure1_slot7;
             var6 = var6.screens;
             var1['style'] = var6;
+            var6 = 'native-freeze-screens-container';
+            var1['nativeID'] = var6;
             var6 = global;
             var7 = var6.Array;
             var6 = var7.isArray;

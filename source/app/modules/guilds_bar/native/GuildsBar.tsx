@@ -109,12 +109,10 @@ case 2:
             var7 = 8;
             var7 = var21[var7];
             var8 = var12.bind(var4)(var7);
-            var7 = {};
+            var7 = {'style': null, 'collapsable': false, 'nativeID': 'guilds-bar-view'};
             var10 = _closure1_slot6;
             var10 = var10.wrapper;
             var7['style'] = var10;
-            var10 = false;
-            var7['collapsable'] = var10;
             var10 = 9;
             var10 = var21[var10];
             var12 = var12.bind(var4)(var10);
@@ -154,6 +152,9 @@ case 5:
             var14 = var13;
 case 4:
             var13 = 'style';
+            var10[var13] = var14;
+            var14 = 'guilds-bar-fast-list';
+            var13 = 'nativeID';
             var10[var13] = var14;
             var12 = var3.bind(var4)(var12, var10);
             var10 = new Array(2);

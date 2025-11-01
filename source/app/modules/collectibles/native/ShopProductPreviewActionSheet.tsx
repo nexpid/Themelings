@@ -260,7 +260,7 @@ case 0:
                     var4 = var2.height;
                     var3 = _closure2_slot4;
                     if(!(var4 !== var3)) { _fun0004_ip = 8; continue _fun0004 }
-case 2:
+case 9:
                     var3 = _closure2_slot5;
                     var1 = var1.nativeEvent;
                     var1 = var1.layout;
@@ -325,14 +325,14 @@ case 0:
                     var1 = null;
                     var2 = var1 == var4;
                     var1 = undefined;
-                    if(var2) { _fun0005_ip = 9; continue _fun0005 }
-case 10:
+                    if(var2) { _fun0005_ip = 10; continue _fun0005 }
+case 11:
                     var3 = var4.scrollToEnd;
                     var2 = {};
                     var5 = true;
                     var2['animated'] = var5;
                     var1 = var3.bind(var4)(var2);
-case 9:
+case 10:
                     return var1;
                 }
             };

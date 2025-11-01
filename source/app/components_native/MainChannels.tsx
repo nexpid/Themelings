@@ -281,14 +281,12 @@ case 12:
             var11 = var18[var11];
             var11 = var12.bind(var4)(var11);
             var12 = var11.View;
-            var11 = {};
+            var11 = {'style': null, 'pointerEvents': 'box-none', 'nativeID': 'messages-parent-view'};
             var14 = new Array(2);
             var14[0] = var20;
             var16 = var16.sideContainer;
             var14[1] = var16;
             var11['style'] = var14;
-            var14 = 'box-none';
-            var11['pointerEvents'] = var14;
             var16 = _closure1_slot10;
             var14 = 16;
             var14 = var18[var14];

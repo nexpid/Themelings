@@ -379,8 +379,6 @@ case 15:
             var9 = {};
             var10 = var24.list;
             var9['style'] = var10;
-            var10 = 'EmojiPickerListParent';
-            var9['testID'] = var10;
             var17 = _closure1_slot10;
             var11 = _closure1_slot1;
             var31 = _closure1_slot2;

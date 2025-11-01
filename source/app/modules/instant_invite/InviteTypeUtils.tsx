@@ -121,7 +121,7 @@ case 8:
     var10 = 'default';
     var4['DEFAULT'] = var10;
     var _closure1_slot6 = var4;
-    var10 = 5;
+    var10 = 4;
     var10 = var12[var10];
     var12 = var11.bind(var1)(var10);
     var11 = var12.fileFinishedImporting;
@@ -197,55 +197,44 @@ case 18:
     };
     var3['getInviteType'] = var5;
     var3['GuildInviteExtendedType'] = var4;
-    var2 = function getGuildInviteExtendedType(arg1, arg2) {
+    var2 = function getGuildInviteExtendedType(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
-            var5 = arg1;
+            var4 = arg1;
             var1 = _closure1_slot8;
-            var4 = undefined;
-            var1 = var1.bind(var4)(var5);
+            var5 = undefined;
+            var1 = var1.bind(var5)(var4);
             if(var1) { _fun0006_ip = 19; continue _fun0006 }
 case 20:
             var1 = _closure1_slot10;
-            var1 = var1.bind(var4)(var5);
+            var1 = var1.bind(var5)(var4);
             if(var1) { _fun0006_ip = 21; continue _fun0006 }
 case 6:
             var3 = _closure1_slot0;
             var6 = _closure1_slot1;
             var1 = 3;
             var1 = var6[var1];
-            var3 = var3.bind(var4)(var1);
+            var3 = var3.bind(var5)(var1);
             var1 = var3.guildInviteCanEmbedProfile;
-            var1 = var1.bind(var3)(var5);
-            if(!var1) { _fun0006_ip = 22; continue _fun0006 }
-case 2:
-            var3 = _closure1_slot0;
-            var5 = _closure1_slot1;
-            var1 = 4;
-            var1 = var5[var1];
-            var4 = var3.bind(var4)(var1);
-            var3 = var4.getGuildProfileInviteEmbedHoldoutEnabled;
-            var1 = arg2;
-            var1 = var3.bind(var4)(var1);
-            if(var1) { _fun0006_ip = 22; continue _fun0006 }
-case 23:
-            var1 = _closure1_slot6;
-            var1 = var1.PROFILE;
-            _fun0006_ip = 24; continue _fun0006;
-case 22:
+            var1 = var1.bind(var3)(var4);
             var3 = _closure1_slot6;
+            if(var1) { _fun0006_ip = 17; continue _fun0006 }
+case 22:
             var1 = var3.DEFAULT;
-case 24:
-            _fun0006_ip = 25; continue _fun0006;
+            _fun0006_ip = 23; continue _fun0006;
+case 17:
+            var1 = var3.PROFILE;
+case 23:
+            _fun0006_ip = 24; continue _fun0006;
 case 21:
             var3 = _closure1_slot6;
             var1 = var3.APPLICATION;
-case 25:
-            _fun0006_ip = 26; continue _fun0006;
+case 24:
+            _fun0006_ip = 25; continue _fun0006;
 case 19:
             var2 = _closure1_slot6;
             var1 = var2.EVENT;
-case 26:
+case 25:
             return var1;
         }
     };

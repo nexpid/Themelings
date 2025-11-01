@@ -731,6 +731,8 @@ case 24:
                     return var1;
                 };
                 var1['headerTitle'] = var4;
+                var4 = 'center';
+                var1['headerTitleAlign'] = var4;
                 var1 = var2.bind(var3)(var1);
                 var1 = undefined;
                 return var1;

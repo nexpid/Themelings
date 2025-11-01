@@ -416,6 +416,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10['PRESS_CLOUD_PLAY_BUTTON'] = var5;
     var5 = 'PRESS_HANG_STATUS_BUTTON';
     var10['PRESS_HANG_STATUS_BUTTON'] = var5;
+    var5 = 'PRESS_WISHLIST_BREADCRUMB_CARD';
+    var10['PRESS_WISHLIST_BREADCRUMB_CARD'] = var5;
+    var5 = 'PRESS_WISHLIST_BREADCRUMB_OVERFLOW_CARD';
+    var10['PRESS_WISHLIST_BREADCRUMB_OVERFLOW_CARD'] = var5;
     var9 = {};
     var5 = 'PRESS_ADD_GAME';
     var9['PRESS_ADD_GAME'] = var5;

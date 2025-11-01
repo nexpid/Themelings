@@ -469,11 +469,9 @@ case 0:
             var1['onLayout'] = var5;
             var5 = false;
             var1['collapsable'] = var5;
-            var5 = 'chat-input-guard';
-            var1['testID'] = var5;
             var6 = null;
             if(var12) { _fun0003_ip = 25; continue _fun0003 }
-case 26:
+case 4:
             var8 = _closure1_slot7;
             var7 = _closure1_slot5;
             var5 = {};
@@ -489,8 +487,8 @@ case 25:
             var13 = var13.content;
             var6['style'] = var13;
             var11 = null;
-            if(!var12) { _fun0003_ip = 27; continue _fun0003 }
-case 28:
+            if(!var12) { _fun0003_ip = 26; continue _fun0003 }
+case 27:
             var13 = _closure1_slot7;
             var12 = _closure1_slot1;
             var14 = _closure1_slot2;
@@ -499,7 +497,7 @@ case 28:
             var12 = var12.bind(var4)(var9);
             var9 = {'absolute': true, 'wide': true, 'tall': true, 'mix': true};
             var11 = var13.bind(var4)(var12, var9);
-case 27:
+case 26:
             var9 = new Array(2);
             var9[0] = var11;
             var9[1] = var10;

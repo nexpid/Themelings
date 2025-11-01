@@ -715,7 +715,7 @@ case 8:
         }
     };
     var2['OUTBOUND_PROMOTIONS_SEEN'] = var9;
-    var4 = function handleLogout() {
+    var9 = function handleLogout() {
         var1 = false;
         var3 = null;
         var4 = {'hasFetchedConsumedInboundPromotionId': false, 'consumedInboundPromotionId': null, 'lastSeenOutboundPromotionStartDate': null};
@@ -760,7 +760,21 @@ case 8:
         var2 = var2.bind(var3)();
         return var1;
     };
-    var2['LOGOUT'] = var4;
+    var2['LOGOUT'] = var9;
+    var4 = function handlePremiumMarketingPreview(arg1) {
+        var1 = arg1;
+        var4 = var1.data;
+        var3 = _closure1_slot9;
+        var2 = var3.createFromServer;
+        var4 = var2.bind(var3)(var4);
+        var3 = _closure1_slot18;
+        var2 = var3.set;
+        var1 = var4.componentType;
+        var1 = var2.bind(var3)(var1, var4);
+        var1 = undefined;
+        return var1;
+    };
+    var2['PREMIUM_MARKETING_PREVIEW'] = var4;
     var4 = var8.prototype;
     var4 = Object.create(var4, {constructor: {value: var8}});
     var16 = var4;

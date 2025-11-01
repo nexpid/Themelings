@@ -148,8 +148,10 @@ case 11:
                 var1['type'] = var3;
                 var3 = var2.label;
                 var1['label'] = var3;
-                var2 = var2.collectionId;
-                var1['collectionId'] = var2;
+                var3 = var2.collectionId;
+                var1['collectionId'] = var3;
+                var2 = var2.IconComponent;
+                var1['IconComponent'] = var2;
                 return var1;
             }
         };
@@ -162,7 +164,7 @@ case 11:
         var1 = {};
         var6 = 'fromType';
         var1['key'] = var6;
-        var2 = function value(arg1, arg2, arg3, arg4) {
+        var2 = function value(arg1, arg2, arg3, arg4, arg5) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                 var4 = arg1;
@@ -218,6 +220,8 @@ case 24:
                 var1['label'] = var3;
                 var4 = arg4;
                 var1['collectionId'] = var4;
+                var4 = arg5;
+                var1['IconComponent'] = var4;
                 var4 = var6.prototype;
                 var4 = Object.create(var4, {constructor: {value: var6}});
                 var10 = var4;

@@ -4112,7 +4112,9 @@ case 212:
             var1 = {};
             var7 = _closure1_slot42;
             var6 = _closure1_slot8;
-            var5 = {'collapsable': false, 'style': null, 'testID': 'ChatBeginningRow'};
+            var5 = {};
+            var10 = false;
+            var5['collapsable'] = var10;
             var9 = var9.container;
             var5['style'] = var9;
             var5['children'] = var8;

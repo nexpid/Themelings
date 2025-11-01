@@ -497,8 +497,6 @@ case 26:
             var12[0] = var14;
             var12[1] = var13;
             var8['style'] = var12;
-            var12 = 'MediaViewerItem';
-            var8['testID'] = var12;
             var8['children'] = var11;
             var8 = var10.bind(var4)(var9, var8);
             var5['children'] = var8;

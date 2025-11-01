@@ -173,6 +173,7 @@ case 3:
             var8 = true;
 case 2:
             var35 = var1.guildId;
+            var _closure2_slot2 = var35;
             var2 = _closure1_slot0;
             var9 = _closure1_slot2;
             var1 = 21;
@@ -626,10 +627,12 @@ case 14:
                 var2 = {};
                 var6 = _closure2_slot0;
                 var2['selectedNameplate'] = var6;
-                var1 = _closure2_slot1;
-                var2['setSelectedNameplate'] = var1;
-                var1 = arg1;
-                var2['section'] = var1;
+                var6 = _closure2_slot1;
+                var2['setSelectedNameplate'] = var6;
+                var6 = arg1;
+                var2['section'] = var6;
+                var1 = _closure2_slot2;
+                var2['guildId'] = var1;
                 var1 = arg2;
                 var1 = var5.bind(var4)(var3, var2, var1);
                 return var1;

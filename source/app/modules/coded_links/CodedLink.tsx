@@ -38,6 +38,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['GUILD_PRODUCT'] = var1;
     var1 = 'SERVER_SHOP';
     var2['SERVER_SHOP'] = var1;
+    var1 = 'SOCIAL_LAYER_STOREFRONT';
+    var2['SOCIAL_LAYER_STOREFRONT'] = var1;
     var1 = 'QUESTS_EMBED';
     var2['QUESTS_EMBED'] = var1;
     var1 = 'COLLECTIBLES_SHOP';

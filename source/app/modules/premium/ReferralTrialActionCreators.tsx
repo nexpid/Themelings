@@ -841,34 +841,34 @@ case 2:
         var2 = function(arg1) {
             _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
-                var5 = arg1;
+                var6 = arg1;
                 var1 = global;
                 var1 = var1.Map;
                 var2 = var1.prototype;
                 var2 = Object.create(var2, {constructor: {value: var1}});
                 var14 = var2;
                 var1 = new var14[var1](var13);
-                var6 = var1 instanceof Object ? var1 : var2;
-                var1 = var5.body;
-                var7 = null;
-                if(!(var7 != var1)) { _fun0009_ip = 63; continue _fun0009 }
+                var7 = var1 instanceof Object ? var1 : var2;
+                var1 = var6.body;
+                var5 = null;
+                if(!(var5 != var1)) { _fun0009_ip = 63; continue _fun0009 }
 case 69:
-                var1 = var5.body;
+                var1 = var6.body;
                 var1 = var1.recipient_status;
-                if(!(var7 != var1)) { _fun0009_ip = 63; continue _fun0009 }
+                if(!(var5 != var1)) { _fun0009_ip = 63; continue _fun0009 }
 case 70:
-                var1 = var5.body;
+                var1 = var6.body;
                 var4 = var1.recipient_status;
                 for(var1 in var4)
 case 71:
                 {
 case 72:
                     var11 = var1;
-                    var9 = var5.body;
+                    var9 = var6.body;
                     var9 = var9.recipient_status;
                     var10 = var9[var11];
-                    var9 = var6.set;
-                    var9 = var9.bind(var6)(var11, var10);
+                    var9 = var7.set;
+                    var9 = var9.bind(var7)(var11, var10);
                     _fun0009_ip = 71; continue _fun0009;
                 }
 case 63:
@@ -882,52 +882,62 @@ case 63:
                 var2 = {};
                 var8 = 'BILLING_REFERRALS_REMAINING_FETCH_SUCCESS';
                 var2['type'] = var8;
-                var8 = var5.body;
-                var9 = var7 != var8;
+                var8 = var6.body;
+                var9 = var5 != var8;
                 var8 = 0;
                 if(!var9) { _fun0009_ip = 73; continue _fun0009 }
 case 74:
-                var9 = var5.body;
+                var9 = var6.body;
                 var9 = var9.referrals_remaining;
-                var9 = var7 != var9;
+                var9 = var5 != var9;
                 var8 = 0;
                 if(!var9) { _fun0009_ip = 73; continue _fun0009 }
 case 75:
-                var9 = var5.body;
+                var9 = var6.body;
                 var8 = var9.referrals_remaining;
 case 73:
                 var2['referrals_remaining'] = var8;
-                var8 = var5.body;
-                if(!(var7 != var8)) { _fun0009_ip = 76; continue _fun0009 }
+                var8 = var6.body;
+                if(!(var5 != var8)) { _fun0009_ip = 76; continue _fun0009 }
 case 77:
-                var8 = var5.body;
+                var8 = var6.body;
                 var8 = var8.sent_user_ids;
-                if(!(var7 == var8)) { _fun0009_ip = 78; continue _fun0009 }
+                if(!(var5 == var8)) { _fun0009_ip = 78; continue _fun0009 }
 case 76:
                 var8 = new Array(0);
                 _fun0009_ip = 18; continue _fun0009;
 case 78:
-                var9 = var5.body;
+                var9 = var6.body;
                 var8 = var9.sent_user_ids;
 case 18:
                 var2['sent_user_ids'] = var8;
-                var9 = var5.body;
-                var10 = var7 == var9;
-                var8 = undefined;
+                var8 = var6.body;
+                var10 = var5 == var8;
+                var9 = undefined;
                 if(var10) { _fun0009_ip = 79; continue _fun0009 }
 case 80:
-                var8 = var9.refresh_at;
+                var9 = var8.refresh_at;
 case 79:
-                var9 = var7 != var8;
-                var7 = null;
-                if(!var9) { _fun0009_ip = 81; continue _fun0009 }
+                var10 = var5 != var9;
+                var8 = null;
+                if(!var10) { _fun0009_ip = 81; continue _fun0009 }
 case 10:
-                var7 = var8;
+                var8 = var9;
 case 81:
-                var2['refresh_at'] = var7;
-                var2['recipient_status'] = var6;
-                var5 = var5.body;
-                var5 = var5.has_eligible_friends;
+                var2['refresh_at'] = var8;
+                var2['recipient_status'] = var7;
+                var7 = var6.body;
+                var8 = var5 == var7;
+                var6 = undefined;
+                if(var8) { _fun0009_ip = 82; continue _fun0009 }
+case 83:
+                var6 = var7.has_eligible_friends;
+case 82:
+                var5 = var5 != var6;
+                if(!var5) { _fun0009_ip = 27; continue _fun0009 }
+case 8:
+                var5 = var6;
+case 27:
                 var2['has_eligible_friends'] = var5;
                 var2 = var3.bind(var4)(var2);
                 return var1;
@@ -941,13 +951,13 @@ case 0:
                 var4 = var1 == var2;
                 var1 = undefined;
                 var3 = undefined;
-                if(var4) { _fun0010_ip = 82; continue _fun0010 }
-case 83:
+                if(var4) { _fun0010_ip = 84; continue _fun0010 }
+case 85:
                 var3 = var2.status;
-case 82:
+case 84:
                 var2 = 404;
                 if(!(var2 !== var3)) { _fun0010_ip = 71; continue _fun0010 }
-case 84:
+case 86:
                 var3 = _closure1_slot1;
                 var4 = _closure1_slot2;
                 var2 = 7;

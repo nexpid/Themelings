@@ -54,58 +54,59 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/soundboard/trackSoundPlayed.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function trackSoundPlayed(arg1, arg2, arg3, arg4) {
+    var2 = function trackSoundPlayed(arg1, arg2, arg3, arg4, arg5) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var6 = arg3;
+            var7 = arg3;
+            var8 = arg5;
             var3 = _closure1_slot3;
             var2 = var3.getChannel;
             var4 = _closure1_slot5;
             var1 = var4.getVoiceChannelId;
             var1 = var1.bind(var4)();
             var3 = var2.bind(var3)(var1);
-            var9 = null;
-            var2 = var9 == var3;
+            var6 = null;
+            var2 = var6 == var3;
             var1 = undefined;
-            var12 = undefined;
+            var13 = undefined;
             if(var2) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var2 = var3.getGuildId;
-            var12 = var2.bind(var3)();
+            var13 = var2.bind(var3)();
 case 2:
             var3 = _closure1_slot4;
             var2 = var3.getMediaSessionId;
-            var10 = var2.bind(var3)();
-            var2 = var3.getRTCConnectionId;
             var11 = var2.bind(var3)();
+            var2 = var3.getRTCConnectionId;
+            var12 = var2.bind(var3)();
             var3 = _closure1_slot2;
             var2 = var3.getCurrentGameForAnalytics;
             var2 = var2.bind(var3)();
-            var3 = var9 == var2;
-            var8 = undefined;
+            var3 = var6 == var2;
+            var10 = undefined;
             if(var3) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var8 = var2.name;
+            var10 = var2.name;
 case 4:
-            var2 = var6.guildId;
-            var13 = var12 !== var2;
-            if(!var13) { _fun0001_ip = 6; continue _fun0001 }
+            var2 = var7.guildId;
+            var14 = var13 !== var2;
+            if(!var14) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var3 = var6.guildId;
+            var3 = var7.guildId;
             var2 = _closure1_slot6;
-            var13 = var3 !== var2;
+            var14 = var3 !== var2;
 case 6:
-            var3 = var6.guildId;
+            var3 = var7.guildId;
             var2 = _closure1_slot6;
-            var7 = 'default';
+            var9 = 'default';
             if(!(var3 !== var2)) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
             var2 = 'custom';
-            if(!var13) { _fun0001_ip = 10; continue _fun0001 }
+            if(!var14) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
             var2 = 'custom-external';
 case 10:
-            var7 = var2;
+            var9 = var2;
 case 8:
             var3 = _closure1_slot0;
             var4 = _closure1_slot1;
@@ -116,44 +117,52 @@ case 8:
             var2 = _closure1_slot7;
             var3 = var2.PREMIUM_FEATURE_USAGE;
             var2 = {};
-            var15 = _closure1_slot8;
-            var15 = var15.SOUNDBOARD_PLAY;
-            var2['feature_name'] = var15;
-            var14 = _closure1_slot9;
-            if(var13) { _fun0001_ip = 12; continue _fun0001 }
+            var16 = _closure1_slot8;
+            var16 = var16.SOUNDBOARD_PLAY;
+            var2['feature_name'] = var16;
+            var15 = _closure1_slot9;
+            if(var14) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
-            var13 = var14.FREE;
+            var14 = var15.FREE;
             _fun0001_ip = 14; continue _fun0001;
 case 12:
-            var13 = var14.PREMIUM_STANDARD;
+            var14 = var15.PREMIUM_STANDARD;
 case 14:
-            var2['feature_tier'] = var13;
-            var2['guild_id'] = var12;
-            var12 = var6.guildId;
-            var2['home_guild_id'] = var12;
-            var12 = arg1;
-            var2['location_stack'] = var12;
-            var2['rtc_connection_id'] = var11;
-            var2['media_session_id'] = var10;
-            var10 = arg2;
-            var2['in_overlay'] = var10;
-            var2['application_name'] = var8;
-            var8 = var6.emojiId;
-            if(!(var9 == var8)) { _fun0001_ip = 15; continue _fun0001 }
+            var2['feature_tier'] = var14;
+            var2['guild_id'] = var13;
+            var13 = var7.guildId;
+            var2['home_guild_id'] = var13;
+            var13 = arg1;
+            var2['location_stack'] = var13;
+            var2['rtc_connection_id'] = var12;
+            var2['media_session_id'] = var11;
+            var11 = arg2;
+            var2['in_overlay'] = var11;
+            var2['application_name'] = var10;
+            var10 = var7.emojiId;
+            if(!(var6 == var10)) { _fun0001_ip = 15; continue _fun0001 }
 case 16:
-            var8 = var6.emojiName;
-            var9 = var9 != var8;
-            var8 = 0;
-            if(!var9) { _fun0001_ip = 17; continue _fun0001 }
+            var10 = var7.emojiName;
+            var11 = var6 != var10;
+            var10 = 0;
+            if(!var11) { _fun0001_ip = 17; continue _fun0001 }
 case 15:
-            var8 = 1;
+            var10 = 1;
 case 17:
-            var2['emoji_count'] = var8;
-            var2['feature_selection'] = var7;
-            var6 = var6.soundId;
-            var2['feature_selection_id'] = var6;
-            var6 = arg4;
-            var2['sound_type'] = var6;
+            var2['emoji_count'] = var10;
+            var2['feature_selection'] = var9;
+            var7 = var7.soundId;
+            var2['feature_selection_id'] = var7;
+            var7 = arg4;
+            var2['sound_type'] = var7;
+            var7 = var6 != var8;
+            var6 = null;
+            if(!var7) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
+            var7 = 1;
+            var6 = var8 + var7;
+case 18:
+            var2['sequence_number'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var1;
         }
