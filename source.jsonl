@@ -13,7 +13,7 @@
 { "file": "app/actions/ChangeLogActionCreators.tsx", "size": 12024 }
 { "file": "app/actions/ChangeNicknameActionCreators.tsx", "size": 5984 }
 { "file": "app/actions/ChangeVanityURLActionCreators.tsx", "size": 7550 }
-{ "file": "app/actions/ChannelActionCreators.tsx", "size": 67972 }
+{ "file": "app/actions/ChannelActionCreators.tsx", "size": 67975 }
 { "file": "app/actions/ChannelCollapseActionCreators.tsx", "size": 2189 }
 { "file": "app/actions/ChannelFollowerActionCreators.tsx", "size": 6568 }
 { "file": "app/actions/ChannelPinActionCreators.tsx", "size": 18378 }
@@ -1933,7 +1933,7 @@
 { "file": "app/modules/client_themes/native/CustomThemeMobileActionCreators.tsx", "size": 2591 }
 { "file": "app/modules/client_themes/native/CustomThemeMobileStore.tsx", "size": 15576 }
 { "file": "app/modules/client_themes/native/MobileThemesUtils.tsx", "size": 7675 }
-{ "file": "app/modules/client_themes/native/ThemedGradient.tsx", "size": 39594 }
+{ "file": "app/modules/client_themes/native/ThemedGradient.tsx", "size": 39592 }
 { "file": "app/modules/client_themes/native/useActiveTheme.tsx", "size": 4949 }
 { "file": "app/modules/client_themes/native/useColorThemeBackground.tsx", "size": 2255 }
 { "file": "app/modules/client_themes/native/useCustomThemeDisplaySettings.tsx", "size": 3299 }
@@ -1943,10 +1943,9 @@
 { "file": "app/modules/client_themes/SavedCustomThemeStore.tsx", "size": 13539 }
 { "file": "app/modules/clips/clipPayloadUtils.tsx", "size": 1815 }
 { "file": "app/modules/clips/ClipsConstants.tsx", "size": 5322 }
-{ "file": "app/modules/clips/ClipsDecisionEngineConfig.tsx", "size": 36223 }
-{ "file": "app/modules/clips/ClipsExperiment.tsx", "size": 12839 }
+{ "file": "app/modules/clips/ClipsExperiment.tsx", "size": 12267 }
 { "file": "app/modules/clips/ClipsManager.tsx", "size": 44284 }
-{ "file": "app/modules/clips/ClipsStore.tsx", "size": 73326 }
+{ "file": "app/modules/clips/ClipsStore.tsx", "size": 71776 }
 { "file": "app/modules/clips/ClipsTypes.tsx", "size": 2498 }
 { "file": "app/modules/clips/isClientClipsCapable.tsx", "size": 2298 }
 { "file": "app/modules/clips/native/ClipsManager.tsx", "size": 6597 }
@@ -2561,7 +2560,7 @@
 { "file": "app/modules/experiments/trigger_points/VoiceCallTriggerPoint.tsx", "size": 2914 }
 { "file": "app/modules/explicit_media_redaction/ExplicitMediaActionCreators.native.tsx", "size": 4414 }
 { "file": "app/modules/explicit_media_redaction/ExplicitMediaFalsePositiveActionCreators.tsx", "size": 1421 }
-{ "file": "app/modules/explicit_media_redaction/ExplicitMediaManager.tsx", "size": 82769 }
+{ "file": "app/modules/explicit_media_redaction/ExplicitMediaManager.tsx", "size": 82766 }
 { "file": "app/modules/explicit_media_redaction/ExplicitMediaManagerUtils.tsx", "size": 3463 }
 { "file": "app/modules/explicit_media_redaction/ExplicitMediaRedactionActionCreators.tsx", "size": 4396 }
 { "file": "app/modules/explicit_media_redaction/ExplicitMediaRedactionConstants.tsx", "size": 2046 }
@@ -4329,7 +4328,7 @@
 { "file": "app/modules/markup/MarkupLinkRule.tsx", "size": 37314 }
 { "file": "app/modules/markup/MarkupListRule.tsx", "size": 11570 }
 { "file": "app/modules/markup/MarkupReactLinkUtils.tsx", "size": 1995 }
-{ "file": "app/modules/markup/MarkupReactRules.native.tsx", "size": 117097 }
+{ "file": "app/modules/markup/MarkupReactRules.native.tsx", "size": 117095 }
 { "file": "app/modules/markup/MarkupRules.tsx", "size": 90254 }
 { "file": "app/modules/markup/MarkupRulesUtils.tsx", "size": 2246 }
 { "file": "app/modules/markup/MarkupShopLinkRule.tsx", "size": 2836 }
@@ -4404,13 +4403,13 @@
 { "file": "app/modules/media_keyboard/native/components/MediaKeyboardFooter.tsx", "size": 4149 }
 { "file": "app/modules/media_keyboard/native/components/MediaKeyboardItem.tsx", "size": 40806 }
 { "file": "app/modules/media_keyboard/native/components/MediaKeyboardLimitedPickerNotice.tsx", "size": 6167 }
-{ "file": "app/modules/media_keyboard/native/components/MediaKeyboardList.tsx", "size": 37174 }
+{ "file": "app/modules/media_keyboard/native/components/MediaKeyboardList.tsx", "size": 37170 }
 { "file": "app/modules/media_keyboard/native/components/MediaKeyboardListHeader.tsx", "size": 13386 }
 { "file": "app/modules/media_keyboard/native/components/RemixButton.tsx", "size": 5294 }
 { "file": "app/modules/media_keyboard/native/components/useMediaKeyboardConfig.tsx", "size": 5398 }
 { "file": "app/modules/media_keyboard/native/MediaKeyboardButtonIcon.tsx", "size": 5284 }
 { "file": "app/modules/media_keyboard/native/MediaKeyboardConstants.tsx", "size": 1840 }
-{ "file": "app/modules/media_keyboard/native/MediaKeyboardLocalImageLoadingExperiment.tsx", "size": 1458 }
+{ "file": "app/modules/media_keyboard/native/MediaKeyboardLocalImageLoadingExperiment.tsx", "size": 1113 }
 { "file": "app/modules/media_keyboard/native/MediaKeyboardUtils.tsx", "size": 68525 }
 { "file": "app/modules/media_keyboard/native/showMediaKeyboardActionSheet.tsx", "size": 1869 }
 { "file": "app/modules/media_keyboard/native/useUploadDisabled.tsx", "size": 3435 }
@@ -4543,7 +4542,7 @@
 { "file": "app/modules/messages/MessageAttachmentUtils.tsx", "size": 20238 }
 { "file": "app/modules/messages/MessageConstants.tsx", "size": 5913 }
 { "file": "app/modules/messages/MessageManager.tsx", "size": 43437 }
-{ "file": "app/modules/messages/MessageParser.tsx", "size": 79108 }
+{ "file": "app/modules/messages/MessageParser.tsx", "size": 79106 }
 { "file": "app/modules/messages/MessageReactionsTypes.tsx", "size": 1293 }
 { "file": "app/modules/messages/MessageRecordUtils.tsx", "size": 39427 }
 { "file": "app/modules/messages/MessageRoundtripTrackerStore.tsx", "size": 17975 }
@@ -5122,7 +5121,7 @@
 { "file": "app/modules/potions/types.tsx", "size": 725 }
 { "file": "app/modules/potions/utils.tsx", "size": 4707 }
 { "file": "app/modules/premium_apps/ApplicationSubscriptionsActionCreators.tsx", "size": 27316 }
-{ "file": "app/modules/premium_apps/ApplicationSubscriptionsHttpApi.tsx", "size": 12697 }
+{ "file": "app/modules/premium_apps/ApplicationSubscriptionsHttpApi.tsx", "size": 12705 }
 { "file": "app/modules/premium_apps/ApplicationSubscriptionSystemMessageUtils.tsx", "size": 2450 }
 { "file": "app/modules/premium/enhanced_role_colors/EnhancedRoleColorUtils.tsx", "size": 4718 }
 { "file": "app/modules/premium/enhanced_role_colors/native/EnhancedRoleColorUtils.tsx", "size": 8178 }
@@ -7005,7 +7004,7 @@
 { "file": "app/modules/user_settings/UnsyncedUserSettingsStore.tsx", "size": 30018 }
 { "file": "app/modules/user_settings/UserGuildSettingsManager.tsx", "size": 17973 }
 { "file": "app/modules/user_settings/UserSettingDefinitions.tsx", "size": 16153 }
-{ "file": "app/modules/user_settings/UserSettingsConstants.tsx", "size": 5924 }
+{ "file": "app/modules/user_settings/UserSettingsConstants.tsx", "size": 6190 }
 { "file": "app/modules/user_settings/UserSettingSearchManager.tsx", "size": 11993 }
 { "file": "app/modules/user_settings/UserSettingSearchStore.tsx", "size": 907 }
 { "file": "app/modules/user_settings/UserSettingsExperimentsUtils.tsx", "size": 17390 }
@@ -8260,7 +8259,7 @@
 { "file": "discord_common/js/packages/protos/discord_protos/discord_kkv_store_value_models/v1/applications.tsx", "size": 40496 }
 { "file": "discord_common/js/packages/protos/discord_protos/discord_users/v1/dismissible_content.tsx", "size": 64765 }
 { "file": "discord_common/js/packages/protos/discord_protos/discord_users/v1/frecency_user_settings.tsx", "size": 197366 }
-{ "file": "discord_common/js/packages/protos/discord_protos/discord_users/v1/preloaded_user_settings.tsx", "size": 881833 }
+{ "file": "discord_common/js/packages/protos/discord_protos/discord_users/v1/preloaded_user_settings.tsx", "size": 881835 }
 { "file": "discord_common/js/packages/protos/discord_protos/discord_users/v1/user_settings_shared.tsx", "size": 14090 }
 { "file": "discord_common/js/packages/protos/discord_protos/premium_marketing/v1/announcement_modal_variant_1_properties.tsx", "size": 86221 }
 { "file": "discord_common/js/packages/protos/discord_protos/premium_marketing/v1/marketing_page_banner.tsx", "size": 15245 }

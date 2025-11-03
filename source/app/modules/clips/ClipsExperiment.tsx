@@ -21,14 +21,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var4;
     var4 = 1;
     var4 = var8[var4];
-    var4 = var5.bind(var1)(var4);
-    var _closure1_slot3 = var4;
-    var4 = 2;
-    var4 = var8[var4];
     var4 = var7.bind(var1)(var4);
     var4 = var4.PremiumTypes;
-    var _closure1_slot4 = var4;
-    var4 = 3;
+    var _closure1_slot3 = var4;
+    var4 = 2;
     var5 = var8[var4];
     var9 = var7.bind(var1)(var5);
     var6 = var9.createExperiment;
@@ -50,7 +46,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10[2] = var11;
     var5['treatments'] = var10;
     var5 = var6.bind(var9)(var5);
-    var _closure1_slot5 = var5;
+    var _closure1_slot4 = var5;
     var4 = var8[var4];
     var9 = var7.bind(var1)(var4);
     var6 = var9.createExperiment;
@@ -68,8 +64,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10[1] = var11;
     var4['treatments'] = var10;
     var4 = var6.bind(var9)(var4);
-    var _closure1_slot6 = var4;
-    var6 = 7;
+    var _closure1_slot5 = var4;
+    var6 = 6;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;
@@ -82,62 +78,55 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var2 = _closure1_slot0;
             var3 = _closure1_slot1;
-            var1 = 4;
+            var1 = 3;
             var1 = var3[var1];
-            var7 = undefined;
-            var2 = var2.bind(var7)(var1);
+            var6 = undefined;
+            var2 = var2.bind(var6)(var1);
             var1 = _closure1_slot2;
-            var1 = var2.bind(var7)(var1);
+            var1 = var2.bind(var6)(var1);
             if(var1) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var1 = false;
             return var1;
 case 2:
-            var6 = _closure1_slot6;
-            var4 = var6.getCurrentConfig;
+            var8 = _closure1_slot5;
+            var5 = var8.getCurrentConfig;
             var3 = {};
             var2 = 'areClipsEnabled';
             var3['location'] = var2;
             var1 = {};
-            var8 = false;
-            var1['autoTrackExposure'] = var8;
-            var1 = var4.bind(var6)(var3, var1);
+            var7 = false;
+            var1['autoTrackExposure'] = var7;
+            var1 = var5.bind(var8)(var3, var1);
             var1 = var1.enableClips;
-            var9 = _closure1_slot5;
-            var6 = var9.getCurrentConfig;
-            var4 = {};
-            var4['location'] = var2;
-            var3 = {};
-            var3['autoTrackExposure'] = var8;
-            var3 = var6.bind(var9)(var4, var3);
-            var4 = var3.enableClips;
-            var6 = _closure1_slot3;
-            var3 = var6.isDecoupledGameClippingEnabled;
-            var3 = var3.bind(var6)();
-            var6 = _closure1_slot0;
-            var9 = _closure1_slot1;
-            var5 = 5;
-            var5 = var9[var5];
-            var7 = var6.bind(var7)(var5);
-            var6 = var7.getCurrentConfig;
+            var9 = _closure1_slot4;
+            var8 = var9.getCurrentConfig;
             var5 = {};
             var5['location'] = var2;
+            var3 = {};
+            var3['autoTrackExposure'] = var7;
+            var3 = var8.bind(var9)(var5, var3);
+            var3 = var3.enableClips;
+            var5 = _closure1_slot0;
+            var8 = _closure1_slot1;
+            var4 = 4;
+            var4 = var8[var4];
+            var6 = var5.bind(var6)(var4);
+            var5 = var6.getCurrentConfig;
+            var4 = {};
+            var4['location'] = var2;
             var2 = {};
-            var2['autoTrackExposure'] = var8;
-            var2 = var6.bind(var7)(var5, var2);
+            var2['autoTrackExposure'] = var7;
+            var2 = var5.bind(var6)(var4, var2);
             var2 = var2.enableViewerClipping;
             if(var1) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var1 = var4;
+            var1 = var3;
 case 4:
             if(var1) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var1 = var3;
-case 6:
-            if(var1) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
             var1 = var2;
-case 8:
+case 6:
             return var1;
         }
     };
@@ -145,61 +134,54 @@ case 8:
     var4 = function useEnableClips() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-            var8 = _closure1_slot0;
-            var10 = _closure1_slot1;
-            var1 = 4;
-            var1 = var10[var1];
-            var7 = undefined;
-            var2 = var8.bind(var7)(var1);
-            var1 = _closure1_slot2;
-            var2 = var2.bind(var7)(var1);
-            var11 = _closure1_slot6;
-            var6 = var11.useExperiment;
+            var7 = _closure1_slot0;
+            var9 = _closure1_slot1;
+            var2 = 3;
+            var2 = var9[var2];
+            var6 = undefined;
+            var3 = var7.bind(var6)(var2);
+            var2 = _closure1_slot2;
+            var2 = var3.bind(var6)(var2);
+            var11 = _closure1_slot5;
+            var10 = var11.useExperiment;
             var5 = {};
             var3 = 'useEnableClips';
             var5['location'] = var3;
+            var4 = {};
+            var8 = false;
+            var4['autoTrackExposure'] = var8;
+            var4 = var10.bind(var11)(var5, var4);
+            var4 = var4.enableClips;
+            var11 = _closure1_slot4;
+            var10 = var11.useExperiment;
+            var5 = {};
+            var5['location'] = var3;
             var1 = {};
-            var9 = false;
-            var1['autoTrackExposure'] = var9;
-            var1 = var6.bind(var11)(var5, var1);
-            var5 = var1.enableClips;
-            var12 = _closure1_slot5;
-            var11 = var12.useExperiment;
-            var6 = {};
-            var6['location'] = var3;
-            var1 = {};
-            var1['autoTrackExposure'] = var9;
-            var1 = var11.bind(var12)(var6, var1);
+            var1['autoTrackExposure'] = var8;
+            var1 = var10.bind(var11)(var5, var1);
             var1 = var1.enableClips;
-            var6 = _closure1_slot3;
-            var4 = var6.isDecoupledGameClippingEnabled;
-            var4 = var4.bind(var6)();
-            var6 = 5;
-            var6 = var10[var6];
-            var8 = var8.bind(var7)(var6);
-            var7 = var8.useExperiment;
-            var6 = {};
-            var6['location'] = var3;
+            var5 = 4;
+            var5 = var9[var5];
+            var7 = var7.bind(var6)(var5);
+            var6 = var7.useExperiment;
+            var5 = {};
+            var5['location'] = var3;
             var3 = {};
-            var3['autoTrackExposure'] = var9;
-            var3 = var7.bind(var8)(var6, var3);
+            var3['autoTrackExposure'] = var8;
+            var3 = var6.bind(var7)(var5, var3);
             var3 = var3.enableViewerClipping;
+            if(var1) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
+            var1 = var4;
+case 8:
             if(var1) { _fun0002_ip = 10; continue _fun0002 }
 case 11:
-            var1 = var5;
-case 10:
-            if(var1) { _fun0002_ip = 12; continue _fun0002 }
-case 13:
-            var1 = var4;
-case 12:
-            if(var1) { _fun0002_ip = 14; continue _fun0002 }
-case 15:
             var1 = var3;
-case 14:
-            if(!var1) { _fun0002_ip = 16; continue _fun0002 }
-case 17:
+case 10:
+            if(!var1) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
             var1 = var2;
-case 16:
+case 12:
             return var1;
         }
     };
@@ -211,31 +193,31 @@ case 0:
             var6 = var1.autoTrackExposure;
             var3 = _closure1_slot0;
             var4 = _closure1_slot1;
-            var1 = 4;
+            var1 = 3;
             var1 = var4[var1];
             var4 = undefined;
             var3 = var3.bind(var4)(var1);
             var1 = _closure1_slot2;
             var1 = var3.bind(var4)(var1);
-            var5 = _closure1_slot6;
+            var5 = _closure1_slot5;
             var4 = var5.useExperiment;
             var3 = {};
             var2 = 'useShouldSeeClipsPremiumEarlyAccessGoLiveRoadblock';
             var3['location'] = var2;
             var2 = {};
-            if(!var6) { _fun0003_ip = 18; continue _fun0003 }
-case 19:
+            if(!var6) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
             var6 = var1;
-case 18:
+case 14:
             var2['autoTrackExposure'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             var2 = var2.enablePremiumEarlyAccessGoLiveRoadblock;
             var3 = !var1;
             var1 = !var3;
-            if(var3) { _fun0003_ip = 20; continue _fun0003 }
-case 21:
+            if(var3) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
             var1 = var2;
-case 20:
+case 16:
             return var1;
         }
     };
@@ -247,31 +229,31 @@ case 0:
             var6 = var1.autoTrackExposure;
             var3 = _closure1_slot0;
             var4 = _closure1_slot1;
-            var1 = 4;
+            var1 = 3;
             var1 = var4[var1];
             var4 = undefined;
             var3 = var3.bind(var4)(var1);
             var1 = _closure1_slot2;
             var1 = var3.bind(var4)(var1);
-            var5 = _closure1_slot6;
+            var5 = _closure1_slot5;
             var4 = var5.useExperiment;
             var3 = {};
             var2 = 'useShouldSeeClipsPremiumEarlyAccessGoLiveRoadblock';
             var3['location'] = var2;
             var2 = {};
-            if(!var6) { _fun0004_ip = 18; continue _fun0004 }
-case 19:
+            if(!var6) { _fun0004_ip = 14; continue _fun0004 }
+case 15:
             var6 = var1;
-case 18:
+case 14:
             var2['autoTrackExposure'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             var2 = var2.enablePremiumEarlyAccessAnnouncementCoachmark;
             var3 = !var1;
             var1 = !var3;
-            if(var3) { _fun0004_ip = 20; continue _fun0004 }
-case 21:
+            if(var3) { _fun0004_ip = 16; continue _fun0004 }
+case 17:
             var1 = var2;
-case 20:
+case 16:
             return var1;
         }
     };
@@ -279,21 +261,21 @@ case 20:
     var4 = function isUserPremiumTypeForClipsEarlyAccess(arg1) {
         var4 = _closure1_slot0;
         var3 = _closure1_slot1;
-        var2 = 6;
+        var2 = 5;
         var3 = var3[var2];
         var2 = undefined;
         var4 = var4.bind(var2)(var3);
         var3 = var4.isPremiumAtLeast;
         var2 = arg1;
         var2 = var2.premiumType;
-        var1 = _closure1_slot4;
+        var1 = _closure1_slot3;
         var1 = var1.TIER_2;
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
     var3['isUserPremiumTypeForClipsEarlyAccess'] = var4;
     var4 = function isScreenshotKeybindEnabled() {
-        var4 = _closure1_slot5;
+        var4 = _closure1_slot4;
         var3 = var4.getCurrentConfig;
         var2 = {};
         var1 = 'isScreenshotKeybindEnabled';
@@ -307,7 +289,7 @@ case 20:
     };
     var3['isScreenshotKeybindEnabled'] = var4;
     var4 = function useScreenshotKeybindEnabled() {
-        var4 = _closure1_slot5;
+        var4 = _closure1_slot4;
         var3 = var4.useExperiment;
         var2 = {};
         var1 = 'useScreenshotKeybindEnabled';
@@ -321,7 +303,7 @@ case 20:
     };
     var3['useScreenshotKeybindEnabled'] = var4;
     var4 = function areVoiceOnlyClipsEnabled() {
-        var4 = _closure1_slot5;
+        var4 = _closure1_slot4;
         var3 = var4.getCurrentConfig;
         var2 = {};
         var1 = 'areVoiceOnlyClipsEnabled';
@@ -335,7 +317,7 @@ case 20:
     };
     var3['areVoiceOnlyClipsEnabled'] = var4;
     var2 = function areAdvancedSignalsEnabled() {
-        var4 = _closure1_slot5;
+        var4 = _closure1_slot4;
         var3 = var4.getCurrentConfig;
         var2 = {};
         var1 = 'areAdvancedSignalsEnabled';

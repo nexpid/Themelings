@@ -203,7 +203,7 @@ case 2:
             var11 = 13;
             var11 = var7[var11];
             var31 = var16.bind(var5)(var11);
-            var25 = var31.useExperiment;
+            var25 = var31.useConfig;
             var11 = {};
             var34 = 'media_keyboard_list';
             var11['location'] = var34;
