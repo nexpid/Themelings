@@ -50,7 +50,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = 'modules/applications/message_embed/web/appMessageEmbedTracking.tsx';
     var5 = var6.bind(var7)(var5);
     var3['ClickArea'] = var4;
-    var4 = function trackAppEmbedClick(arg1, arg2, arg3, arg4, arg5) {
+    var4 = function trackAppEmbedClick(arg1) {
+        var1 = arg1;
+        var11 = var1.applicationId;
+        var10 = var1.linkType;
+        var9 = var1.area;
+        var8 = var1.referrerId;
+        var7 = var1.customId;
+        var6 = var1.isDeadEnd;
         var4 = _closure1_slot0;
         var3 = _closure1_slot1;
         var1 = 1;
@@ -61,16 +68,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = _closure1_slot2;
         var3 = var2.APP_EMBED_CLICKED;
         var2 = {};
-        var6 = arg1;
-        var2['application_id'] = var6;
-        var6 = arg2;
-        var2['link_type'] = var6;
-        var6 = arg3;
-        var2['area'] = var6;
-        var6 = arg4;
-        var2['referrer_id'] = var6;
-        var6 = arg5;
-        var2['custom_id'] = var6;
+        var2['application_id'] = var11;
+        var2['link_type'] = var10;
+        var2['area'] = var9;
+        var2['referrer_id'] = var8;
+        var2['custom_id'] = var7;
+        var2['is_dead_end'] = var6;
         var2 = var4.bind(var5)(var3, var2);
         return var1;
     };

@@ -6,30 +6,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var6;
     var1 = global;
-    var8 = var1.Object;
-    var7 = var8.defineProperty;
+    var7 = var1.Object;
+    var4 = var7.defineProperty;
     var2 = {};
     var1 = true;
     var2['value'] = var1;
     var1 = '__esModule';
-    var1 = var7.bind(var8)(var3, var1, var2);
+    var1 = var4.bind(var7)(var3, var1, var2);
     var1 = 0;
     var2 = var6[var1];
     var1 = undefined;
     var2 = var5.bind(var1)(var2);
-    var7 = var2.MobileSetting;
+    var9 = var2.MobileSetting;
     var2 = 1;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
-    var8 = var2.UserSettingsSections;
+    var10 = var2.UserSettingsSections;
+    var2 = 2;
+    var2 = var6[var2];
+    var7 = var5.bind(var1)(var2);
+    var4 = var7.createRoute;
     var2 = {};
-    var9 = 2;
-    var9 = var6[var9];
-    var9 = var5.bind(var1)(var9);
-    var9 = var9.RendererType;
-    var9 = var9.ROUTE;
-    var2['type'] = var9;
-    var9 = function title() {
+    var11 = function title() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;
         var1 = 3;
@@ -45,18 +43,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var2['title'] = var9;
-    var9 = 4;
-    var9 = var6[var9];
-    var9 = var5.bind(var1)(var9);
-    var9 = var9.ImageWarningIcon;
-    var2['IconComponent'] = var9;
-    var7 = var7.CONTENT_AND_SOCIAL_DISCORD;
-    var2['parent'] = var7;
-    var7 = {};
-    var8 = var8.SENSITIVE_MEDIA_FILTERS;
-    var7['route'] = var8;
-    var8 = function getComponent() {
+    var2['title'] = var11;
+    var11 = 4;
+    var11 = var6[var11];
+    var11 = var5.bind(var1)(var11);
+    var11 = var11.ImageWarningIcon;
+    var2['IconComponent'] = var11;
+    var9 = var9.CONTENT_AND_SOCIAL_DISCORD;
+    var2['parent'] = var9;
+    var9 = {};
+    var10 = var10.SENSITIVE_MEDIA_FILTERS;
+    var9['route'] = var10;
+    var10 = function getComponent() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 5;
@@ -66,9 +64,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var7['getComponent'] = var8;
-    var2['screen'] = var7;
-    var4 = function additionalSearchTerms() {
+    var9['getComponent'] = var10;
+    var2['screen'] = var9;
+    var8 = function additionalSearchTerms() {
         var6 = _closure1_slot0;
         var7 = _closure1_slot1;
         var2 = 3;
@@ -136,7 +134,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1[5] = var2;
         return var1;
     };
-    var2['additionalSearchTerms'] = var4;
+    var2['additionalSearchTerms'] = var8;
+    var2 = var4.bind(var7)(var2);
     var4 = 6;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

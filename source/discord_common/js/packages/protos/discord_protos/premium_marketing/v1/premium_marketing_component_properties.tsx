@@ -312,17 +312,17 @@ case 30:
                 var33 = var34;
                 var32 = var2;
                 if(!(var12 !== var34)) { _fun0004_ip = 31; continue _fun0004 }
-case 32:
+case 7:
                 var36 = var34;
-                if(!(var13 === var34)) { _fun0004_ip = 33; continue _fun0004 }
-case 34:
+                if(!(var13 === var34)) { _fun0004_ip = 32; continue _fun0004 }
+case 33:
                 var37 = _closure1_slot0;
                 var35 = _closure1_slot1;
                 var35 = var35[var14];
                 var35 = var37.bind(var27)(var35);
                 var35 = var35.UnknownFieldHandler;
                 var36 = var35.onRead;
-case 33:
+case 32:
                 var45 = var29.typeName;
                 var46 = undefined;
                 var44 = var1;
@@ -501,8 +501,8 @@ case 0:
                 var3 = var5.properties;
                 var4 = var3.oneofKind;
                 var3 = 'placeholder';
-                if(!(var3 === var4)) { _fun0005_ip = 35; continue _fun0005 }
-case 36:
+                if(!(var3 === var4)) { _fun0005_ip = 34; continue _fun0005 }
+case 35:
                 var6 = var1.tag;
                 var7 = _closure1_slot0;
                 var4 = _closure1_slot1;
@@ -518,12 +518,12 @@ case 36:
                 var3 = var5.properties;
                 var3 = var3.placeholder;
                 var3 = var4.bind(var6)(var3);
-case 35:
+case 34:
                 var3 = var5.properties;
                 var4 = var3.oneofKind;
                 var3 = 'announcementModalVariant1';
-                if(!(var3 === var4)) { _fun0005_ip = 37; continue _fun0005 }
-case 38:
+                if(!(var3 === var4)) { _fun0005_ip = 36; continue _fun0005 }
+case 37:
                 var10 = _closure1_slot0;
                 var11 = _closure1_slot1;
                 var3 = 6;
@@ -547,12 +547,12 @@ case 38:
                 var4 = var6.bind(var7)(var4, var3, var2);
                 var3 = var4.join;
                 var3 = var3.bind(var4)();
-case 37:
+case 36:
                 var3 = var5.properties;
                 var4 = var3.oneofKind;
                 var3 = 'premiumTab';
-                if(!(var3 === var4)) { _fun0005_ip = 39; continue _fun0005 }
-case 40:
+                if(!(var3 === var4)) { _fun0005_ip = 38; continue _fun0005 }
+case 39:
                 var10 = _closure1_slot0;
                 var11 = _closure1_slot1;
                 var3 = 7;
@@ -576,12 +576,12 @@ case 40:
                 var4 = var6.bind(var7)(var4, var3, var2);
                 var3 = var4.join;
                 var3 = var3.bind(var4)();
-case 39:
+case 38:
                 var3 = var5.properties;
                 var4 = var3.oneofKind;
                 var3 = 'marketingPageBanner';
-                if(!(var3 === var4)) { _fun0005_ip = 41; continue _fun0005 }
-case 42:
+                if(!(var3 === var4)) { _fun0005_ip = 40; continue _fun0005 }
+case 41:
                 var10 = _closure1_slot0;
                 var11 = _closure1_slot1;
                 var3 = 8;
@@ -605,12 +605,12 @@ case 42:
                 var4 = var6.bind(var7)(var4, var3, var2);
                 var3 = var4.join;
                 var3 = var3.bind(var4)();
-case 41:
+case 40:
                 var3 = var5.properties;
                 var4 = var3.oneofKind;
                 var3 = 'paymentModalBanner';
-                if(!(var3 === var4)) { _fun0005_ip = 43; continue _fun0005 }
-case 44:
+                if(!(var3 === var4)) { _fun0005_ip = 42; continue _fun0005 }
+case 43:
                 var10 = _closure1_slot0;
                 var11 = _closure1_slot1;
                 var3 = 9;
@@ -634,12 +634,12 @@ case 44:
                 var4 = var6.bind(var7)(var4, var3, var2);
                 var3 = var4.join;
                 var3 = var3.bind(var4)();
-case 43:
+case 42:
                 var3 = var5.properties;
                 var4 = var3.oneofKind;
                 var3 = 'mobileBottomSheet';
-                if(!(var3 === var4)) { _fun0005_ip = 45; continue _fun0005 }
-case 46:
+                if(!(var3 === var4)) { _fun0005_ip = 44; continue _fun0005 }
+case 45:
                 var10 = _closure1_slot0;
                 var11 = _closure1_slot1;
                 var3 = 10;
@@ -663,11 +663,11 @@ case 46:
                 var4 = var6.bind(var7)(var4, var3, var2);
                 var3 = var4.join;
                 var3 = var3.bind(var4)();
-case 45:
+case 44:
                 var4 = var5.contentIdentifier;
                 var3 = '';
-                if(!(var3 !== var4)) { _fun0005_ip = 47; continue _fun0005 }
-case 48:
+                if(!(var3 !== var4)) { _fun0005_ip = 46; continue _fun0005 }
+case 47:
                 var6 = var1.tag;
                 var7 = _closure1_slot0;
                 var4 = _closure1_slot1;
@@ -682,14 +682,14 @@ case 48:
                 var4 = var6.string;
                 var3 = var5.contentIdentifier;
                 var3 = var4.bind(var6)(var3);
-case 47:
+case 46:
                 var4 = var2.writeUnknownFields;
                 var2 = false;
-                if(!(var2 !== var4)) { _fun0005_ip = 49; continue _fun0005 }
-case 50:
+                if(!(var2 !== var4)) { _fun0005_ip = 48; continue _fun0005 }
+case 49:
                 var2 = 1;
-                if(!(var2 == var4)) { _fun0005_ip = 51; continue _fun0005 }
-case 52:
+                if(!(var2 == var4)) { _fun0005_ip = 50; continue _fun0005 }
+case 51:
                 var6 = _closure1_slot0;
                 var3 = _closure1_slot1;
                 var2 = 11;
@@ -698,12 +698,12 @@ case 52:
                 var2 = var6.bind(var2)(var3);
                 var2 = var2.UnknownFieldHandler;
                 var4 = var2.onWrite;
-case 51:
+case 50:
                 var2 = this;
                 var3 = var2.typeName;
                 var2 = undefined;
                 var2 = var4.bind(var2)(var3, var5, var1);
-case 49:
+case 48:
                 return var1;
             }
         };

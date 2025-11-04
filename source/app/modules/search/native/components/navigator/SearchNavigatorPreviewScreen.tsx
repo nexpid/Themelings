@@ -99,7 +99,7 @@ case 0:
             var3 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-                    var3 = _closure1_slot0;
+                    var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
                     var1 = 8;
                     var2 = var2[var1];

@@ -1,11 +1,11 @@
 // app/modules/user_settings/native/defs/SystemNotificationsSetting.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var8 = metroImportDefault;
+    var4 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var8;
+    var _closure1_slot1 = var4;
     var _closure1_slot2 = var6;
     var1 = function _handleEnableSystemNotification() {
         var5 = undefined;
@@ -36,7 +36,7 @@ case 7:
 case 9:
                     var5 = _closure1_slot1;
                     var6 = _closure1_slot2;
-                    var4 = 8;
+                    var4 = 7;
                     var4 = var6[var4];
                     var6 = undefined;
                     var8 = var5.bind(var6)(var4);
@@ -57,7 +57,7 @@ case 10:
                     var4 = var7.bind(var8)(var5, var4);
                     var5 = _closure1_slot1;
                     var7 = _closure1_slot2;
-                    var4 = 9;
+                    var4 = 8;
                     var4 = var7[var4];
                     var5 = var5.bind(var6)(var4);
                     var4 = var5.openNotificationSettings;
@@ -66,7 +66,7 @@ case 10:
 case 8:
                     var5 = _closure1_slot1;
                     var4 = _closure1_slot2;
-                    var3 = 7;
+                    var3 = 6;
                     var4 = var4[var3];
                     var3 = undefined;
                     var5 = var5.bind(var3)(var4);
@@ -77,7 +77,7 @@ case 0:
                             var3 = arg1;
                             var5 = _closure1_slot1;
                             var4 = _closure1_slot2;
-                            var1 = 8;
+                            var1 = 7;
                             var4 = var4[var1];
                             var1 = undefined;
                             var7 = var5.bind(var1)(var4);
@@ -97,7 +97,7 @@ case 0:
 case 14:
                             var3 = _closure1_slot1;
                             var4 = _closure1_slot2;
-                            var2 = 9;
+                            var2 = 8;
                             var2 = var4[var2];
                             var3 = var3.bind(var1)(var2);
                             var2 = var3.openNotificationSettings;
@@ -130,16 +130,16 @@ case 2:
     var _closure1_slot9 = var1;
     var1 = global;
     var10 = var1.Object;
-    var9 = var10.defineProperty;
+    var7 = var10.defineProperty;
     var2 = {};
-    var4 = true;
-    var2['value'] = var4;
+    var8 = true;
+    var2['value'] = var8;
     var1 = '__esModule';
-    var1 = var9.bind(var10)(var3, var1, var2);
+    var1 = var7.bind(var10)(var3, var1, var2);
     var1 = 0;
     var2 = var6[var1];
     var1 = undefined;
-    var2 = var8.bind(var1)(var2);
+    var2 = var4.bind(var1)(var2);
     var _closure1_slot3 = var2;
     var2 = 1;
     var2 = var6[var2];
@@ -149,7 +149,7 @@ case 2:
     var2 = 2;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
-    var8 = var2.MobileSetting;
+    var10 = var2.MobileSetting;
     var2 = 3;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
@@ -163,18 +163,16 @@ case 2:
     var2 = 5;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
-    var9 = var2.EventActionType;
-    var _closure1_slot7 = var9;
+    var4 = var2.EventActionType;
+    var _closure1_slot7 = var4;
     var2 = var2.EventActionLocation;
     var _closure1_slot8 = var2;
+    var2 = 9;
+    var2 = var6[var2];
+    var7 = var5.bind(var1)(var2);
+    var4 = var7.createPressable;
     var2 = {};
-    var9 = 6;
-    var9 = var6[var9];
-    var9 = var5.bind(var1)(var9);
-    var9 = var9.RendererType;
-    var9 = var9.PRESSABLE;
-    var2['type'] = var9;
-    var9 = function title() {
+    var11 = function title() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 10;
@@ -190,10 +188,10 @@ case 2:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var2['title'] = var9;
-    var8 = var8.NOTIFICATIONS;
-    var2['parent'] = var8;
-    var7 = function handleEnableSystemNotification() {
+    var2['title'] = var11;
+    var10 = var10.NOTIFICATIONS;
+    var2['parent'] = var10;
+    var9 = function handleEnableSystemNotification() {
         var1 = undefined;
         var4 = _closure1_slot9;
         var3 = var4.apply;
@@ -203,8 +201,9 @@ case 2:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var2['onPress'] = var7;
-    var2['withArrow'] = var4;
+    var2['onPress'] = var9;
+    var2['withArrow'] = var8;
+    var2 = var4.bind(var7)(var2);
     var4 = 11;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

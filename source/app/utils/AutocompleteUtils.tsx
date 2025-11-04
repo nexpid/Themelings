@@ -1,11 +1,11 @@
 // app/utils/AutocompleteUtils.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var9 = require;
-    var13 = metroImportDefault;
+    var14 = metroImportDefault;
     var3 = exports;
     var10 = dependencyMap;
     var _closure1_slot0 = var9;
-    var _closure1_slot1 = var13;
+    var _closure1_slot1 = var14;
     var1 = metroImportAll;
     var _closure1_slot2 = var1;
     var _closure1_slot3 = var10;
@@ -370,7 +370,7 @@ case 54:
         }
     };
     var _closure1_slot68 = var1;
-    var1 = function queryMemberList(arg1) {
+    var8 = function queryMemberList(arg1) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var1 = arg1;
@@ -942,7 +942,7 @@ case 138:
             return var1;
         }
     };
-    var _closure1_slot69 = var1;
+    var _closure1_slot69 = var8;
     var1 = function getPriorityForStickerMetadataType(arg1) {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
@@ -1148,7 +1148,7 @@ case 11:
         }
     };
     var _closure1_slot74 = var1;
-    var8 = function getRecentlyTalked(arg1, arg2) {
+    var11 = function getRecentlyTalked(arg1, arg2) {
         _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
             var6 = arg1;
@@ -1289,7 +1289,7 @@ case 142:
             return var1;
         }
     };
-    var _closure1_slot75 = var8;
+    var _closure1_slot75 = var11;
     var1 = global;
     var7 = var1.Object;
     var6 = var7.defineProperty;
@@ -1301,7 +1301,7 @@ case 142:
     var1 = 0;
     var2 = var10[var1];
     var1 = undefined;
-    var2 = var13.bind(var1)(var2);
+    var2 = var14.bind(var1)(var2);
     var _closure1_slot4 = var2;
     var2 = 1;
     var2 = var10[var2];
@@ -1312,31 +1312,31 @@ case 142:
     var _closure1_slot6 = var2;
     var2 = 2;
     var2 = var10[var2];
-    var2 = var13.bind(var1)(var2);
+    var2 = var14.bind(var1)(var2);
     var _closure1_slot7 = var2;
     var2 = 3;
     var2 = var10[var2];
-    var2 = var13.bind(var1)(var2);
+    var2 = var14.bind(var1)(var2);
     var _closure1_slot8 = var2;
     var2 = 4;
     var2 = var10[var2];
-    var2 = var13.bind(var1)(var2);
+    var2 = var14.bind(var1)(var2);
     var _closure1_slot9 = var2;
     var2 = 5;
     var2 = var10[var2];
-    var2 = var13.bind(var1)(var2);
+    var2 = var14.bind(var1)(var2);
     var _closure1_slot10 = var2;
     var2 = 6;
     var2 = var10[var2];
-    var2 = var13.bind(var1)(var2);
+    var2 = var14.bind(var1)(var2);
     var _closure1_slot11 = var2;
     var2 = 7;
     var2 = var10[var2];
-    var2 = var13.bind(var1)(var2);
+    var2 = var14.bind(var1)(var2);
     var _closure1_slot12 = var2;
     var2 = 8;
     var2 = var10[var2];
-    var2 = var13.bind(var1)(var2);
+    var2 = var14.bind(var1)(var2);
     var _closure1_slot13 = var2;
     var2 = 9;
     var2 = var10[var2];
@@ -1362,81 +1362,81 @@ case 142:
     var _closure1_slot21 = var6;
     var6 = 11;
     var6 = var10[var6];
-    var6 = var13.bind(var1)(var6);
+    var6 = var14.bind(var1)(var6);
     var _closure1_slot22 = var6;
     var6 = 12;
     var6 = var10[var6];
-    var6 = var13.bind(var1)(var6);
+    var6 = var14.bind(var1)(var6);
     var _closure1_slot23 = var6;
     var6 = 13;
     var6 = var10[var6];
-    var6 = var13.bind(var1)(var6);
+    var6 = var14.bind(var1)(var6);
     var _closure1_slot24 = var6;
     var6 = 14;
     var6 = var10[var6];
-    var6 = var13.bind(var1)(var6);
+    var6 = var14.bind(var1)(var6);
     var _closure1_slot25 = var6;
     var6 = 15;
     var6 = var10[var6];
-    var6 = var13.bind(var1)(var6);
+    var6 = var14.bind(var1)(var6);
     var _closure1_slot26 = var6;
     var6 = 16;
     var7 = var10[var6];
     var7 = var9.bind(var1)(var7);
-    var12 = var7.GUILD_SELECTABLE_CHANNELS_KEY;
-    var _closure1_slot27 = var12;
-    var11 = var7.GUILD_VOCAL_CHANNELS_KEY;
-    var _closure1_slot28 = var11;
+    var13 = var7.GUILD_SELECTABLE_CHANNELS_KEY;
+    var _closure1_slot27 = var13;
+    var12 = var7.GUILD_VOCAL_CHANNELS_KEY;
+    var _closure1_slot28 = var12;
     var6 = var10[var6];
-    var6 = var13.bind(var1)(var6);
+    var6 = var14.bind(var1)(var6);
     var _closure1_slot29 = var6;
     var6 = 17;
     var6 = var10[var6];
-    var6 = var13.bind(var1)(var6);
+    var6 = var14.bind(var1)(var6);
     var _closure1_slot30 = var6;
     var6 = 18;
     var6 = var10[var6];
-    var6 = var13.bind(var1)(var6);
+    var6 = var14.bind(var1)(var6);
     var _closure1_slot31 = var6;
     var6 = 19;
     var6 = var10[var6];
-    var6 = var13.bind(var1)(var6);
+    var6 = var14.bind(var1)(var6);
     var _closure1_slot32 = var6;
     var6 = 20;
     var6 = var10[var6];
-    var6 = var13.bind(var1)(var6);
+    var6 = var14.bind(var1)(var6);
     var _closure1_slot33 = var6;
     var6 = 21;
     var6 = var10[var6];
-    var6 = var13.bind(var1)(var6);
+    var6 = var14.bind(var1)(var6);
     var _closure1_slot34 = var6;
     var6 = 22;
     var6 = var10[var6];
-    var6 = var13.bind(var1)(var6);
+    var6 = var14.bind(var1)(var6);
     var _closure1_slot35 = var6;
     var6 = 23;
     var6 = var10[var6];
-    var6 = var13.bind(var1)(var6);
+    var6 = var14.bind(var1)(var6);
     var _closure1_slot36 = var6;
     var6 = 24;
     var6 = var10[var6];
-    var6 = var13.bind(var1)(var6);
+    var6 = var14.bind(var1)(var6);
     var _closure1_slot37 = var6;
     var6 = 25;
     var6 = var10[var6];
-    var6 = var13.bind(var1)(var6);
+    var6 = var14.bind(var1)(var6);
     var _closure1_slot38 = var6;
     var6 = 26;
     var6 = var10[var6];
-    var6 = var13.bind(var1)(var6);
+    var6 = var14.bind(var1)(var6);
     var _closure1_slot39 = var6;
     var6 = 27;
     var6 = var10[var6];
-    var6 = var13.bind(var1)(var6);
+    var6 = var14.bind(var1)(var6);
     var _closure1_slot40 = var6;
     var6 = 28;
     var6 = var10[var6];
-    var6 = var13.bind(var1)(var6);
+    var6 = var14.bind(var1)(var6);
     var _closure1_slot41 = var6;
     var6 = 29;
     var6 = var10[var6];
@@ -1447,8 +1447,8 @@ case 142:
     var _closure1_slot43 = var7;
     var7 = var6.ChannelTypes;
     var _closure1_slot44 = var7;
-    var14 = var6.SKUTypes;
-    var _closure1_slot45 = var14;
+    var15 = var6.SKUTypes;
+    var _closure1_slot45 = var15;
     var6 = var6.MAX_AUTOCOMPLETE_RESULTS;
     var _closure1_slot46 = var6;
     var6 = 30;
@@ -1468,25 +1468,25 @@ case 142:
     var _closure1_slot49 = var6;
     var6 = 33;
     var6 = var10[var6];
-    var15 = var9.bind(var1)(var6);
-    var14 = var15.createStore;
+    var16 = var9.bind(var1)(var6);
+    var15 = var16.createStore;
     var6 = function() {
         var1 = {};
         var2 = new Array(0);
         var1['options'] = var2;
         return var1;
     };
-    var6 = var14.bind(var15)(var6);
+    var6 = var15.bind(var16)(var6);
     var _closure1_slot50 = var6;
     var6 = 34;
     var6 = var10[var6];
-    var14 = var13.bind(var1)(var6);
-    var6 = var14.prototype;
-    var13 = Object.create(var6, {constructor: {value: var14}});
-    var18 = 'AutocompleteUtils';
-    var19 = var13;
-    var6 = new var19[var14](var18, var17);
-    var6 = var6 instanceof Object ? var6 : var13;
+    var15 = var14.bind(var1)(var6);
+    var6 = var15.prototype;
+    var14 = Object.create(var6, {constructor: {value: var15}});
+    var19 = 'AutocompleteUtils';
+    var20 = var14;
+    var6 = new var20[var15](var19, var18);
+    var6 = var6 instanceof Object ? var6 : var14;
     var _closure1_slot51 = var6;
     var _closure1_slot52 = var2;
     var2 = function NOOP() {
@@ -1499,41 +1499,41 @@ case 142:
     var2 = new Array(0);
     var _closure1_slot55 = var2;
     var2 = 35;
-    var13 = var10[var2];
-    var13 = var9.bind(var1)(var13);
-    var13 = var13.default;
-    var13 = var13.MENTION_EVERYONE;
-    var _closure1_slot56 = var13;
-    var13 = var10[var2];
-    var13 = var9.bind(var1)(var13);
-    var13 = var13.default;
-    var13 = var13.MENTION_HERE;
-    var _closure1_slot57 = var13;
-    var13 = var10[var2];
-    var13 = var9.bind(var1)(var13);
-    var13 = var13.default;
-    var13 = var13.MENTION_GAME;
-    var _closure1_slot58 = var13;
-    var13 = var10[var2];
-    var13 = var9.bind(var1)(var13);
-    var13 = var13.default;
-    var13 = var13.MENTION_TIMESTAMP;
-    var _closure1_slot59 = var13;
+    var14 = var10[var2];
+    var14 = var9.bind(var1)(var14);
+    var14 = var14.default;
+    var14 = var14.MENTION_EVERYONE;
+    var _closure1_slot56 = var14;
+    var14 = var10[var2];
+    var14 = var9.bind(var1)(var14);
+    var14 = var14.default;
+    var14 = var14.MENTION_HERE;
+    var _closure1_slot57 = var14;
+    var14 = var10[var2];
+    var14 = var9.bind(var1)(var14);
+    var14 = var14.default;
+    var14 = var14.MENTION_GAME;
+    var _closure1_slot58 = var14;
+    var14 = var10[var2];
+    var14 = var9.bind(var1)(var14);
+    var14 = var14.default;
+    var14 = var14.MENTION_TIMESTAMP;
+    var _closure1_slot59 = var14;
     var2 = var10[var2];
     var2 = var9.bind(var1)(var2);
     var2 = var2.default;
     var2 = var2.LAUNCHABLE_APPLICATIONS;
     var _closure1_slot60 = var2;
     var2 = new Array(3);
-    var2[0] = var12;
-    var2[1] = var11;
+    var2[0] = var13;
+    var2[1] = var12;
     var7 = var7.GUILD_CATEGORY;
     var2[2] = var7;
     var _closure1_slot61 = var2;
     var7 = 44;
     var7 = var10[var7];
-    var12 = var9.bind(var1)(var7);
-    var11 = var12.cachedFunction;
+    var13 = var9.bind(var1)(var7);
+    var12 = var13.cachedFunction;
     var7 = function() {
         var2 = global;
         var3 = var2.Map;
@@ -1621,10 +1621,10 @@ case 41:
         var1['recipients'] = var2;
         return var1;
     };
-    var7 = var11.bind(var12)(var7);
+    var7 = var12.bind(var13)(var7);
     var _closure1_slot62 = var7;
     var7 = {};
-    var11 = function queryFriends(arg1) {
+    var12 = function queryFriends(arg1) {
         _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
 case 0:
             var1 = arg1;
@@ -1667,8 +1667,8 @@ case 31:
             return var1;
         }
     };
-    var7['queryFriends'] = var11;
-    var11 = function queryDMUsers(arg1) {
+    var7['queryFriends'] = var12;
+    var12 = function queryDMUsers(arg1) {
         _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
 case 0:
             var1 = arg1;
@@ -1710,8 +1710,8 @@ case 31:
             return var1;
         }
     };
-    var7['queryDMUsers'] = var11;
-    var11 = function queryChannelUsers(arg1) {
+    var7['queryDMUsers'] = var12;
+    var12 = function queryChannelUsers(arg1) {
         _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
 case 0:
             var1 = arg1;
@@ -1883,8 +1883,8 @@ case 175:
             return var1;
         }
     };
-    var7['queryChannelUsers'] = var11;
-    var11 = function queryGuildUsers(arg1) {
+    var7['queryChannelUsers'] = var12;
+    var12 = function queryGuildUsers(arg1) {
         _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
 case 0:
             var2 = arg1;
@@ -1965,8 +1965,8 @@ case 189:
             return var1;
         }
     };
-    var7['queryGuildUsers'] = var11;
-    var11 = function queryUsers(arg1) {
+    var7['queryGuildUsers'] = var12;
+    var12 = function queryUsers(arg1) {
         _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
 case 0:
             var1 = arg1;
@@ -1993,8 +1993,8 @@ case 154:
             return var1;
         }
     };
-    var7['queryUsers'] = var11;
-    var11 = function queryAllUsers(arg1) {
+    var7['queryUsers'] = var12;
+    var12 = function queryAllUsers(arg1) {
         _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
 case 0:
             var1 = arg1;
@@ -2056,8 +2056,8 @@ case 166:
             return var1;
         }
     };
-    var7['queryAllUsers'] = var11;
-    var11 = function queryChannels(arg1) {
+    var7['queryAllUsers'] = var12;
+    var12 = function queryChannels(arg1) {
         _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
 case 0:
             var1 = arg1;
@@ -2703,8 +2703,8 @@ case 272:
             return var1;
         }
     };
-    var7['queryChannels'] = var11;
-    var11 = function queryGuilds(arg1) {
+    var7['queryChannels'] = var12;
+    var12 = function queryGuilds(arg1) {
         _fun0029: for(var _fun0029_ip = 0; ; ) switch(_fun0029_ip) {
 case 0:
             var1 = arg1;
@@ -2845,8 +2845,8 @@ case 284:
             return var1;
         }
     };
-    var7['queryGuilds'] = var11;
-    var11 = function queryDMChannels(arg1) {
+    var7['queryGuilds'] = var12;
+    var12 = function queryDMChannels(arg1) {
         _fun0030: for(var _fun0030_ip = 0; ; ) switch(_fun0030_ip) {
 case 0:
             var1 = arg1;
@@ -2951,8 +2951,8 @@ case 286:
             return var1;
         }
     };
-    var7['queryDMChannels'] = var11;
-    var11 = function queryGroupDMs(arg1) {
+    var7['queryDMChannels'] = var12;
+    var12 = function queryGroupDMs(arg1) {
         _fun0032: for(var _fun0032_ip = 0; ; ) switch(_fun0032_ip) {
 case 0:
             var1 = arg1;
@@ -3300,8 +3300,8 @@ case 305:
             return var1;
         }
     };
-    var7['queryGroupDMs'] = var11;
-    var11 = function queryApplications(arg1) {
+    var7['queryGroupDMs'] = var12;
+    var12 = function queryApplications(arg1) {
         _fun0033: for(var _fun0033_ip = 0; ; ) switch(_fun0033_ip) {
 case 0:
             var1 = arg1;
@@ -3419,8 +3419,8 @@ case 312:
             return var1;
         }
     };
-    var7['queryApplications'] = var11;
-    var11 = function queryInAppNavigations(arg1) {
+    var7['queryApplications'] = var12;
+    var12 = function queryInAppNavigations(arg1) {
         _fun0034: for(var _fun0034_ip = 0; ; ) switch(_fun0034_ip) {
 case 0:
             var1 = arg1;
@@ -3702,8 +3702,8 @@ case 325:
             return var1;
         }
     };
-    var7['queryInAppNavigations'] = var11;
-    var11 = function querySKUs(arg1) {
+    var7['queryInAppNavigations'] = var12;
+    var12 = function querySKUs(arg1) {
         _fun0036: for(var _fun0036_ip = 0; ; ) switch(_fun0036_ip) {
 case 0:
             var1 = arg1;
@@ -3840,9 +3840,9 @@ case 332:
             return var1;
         }
     };
-    var7['querySKUs'] = var11;
-    var7['getRecentlyTalked'] = var8;
-    var8 = function queryMentionResults(arg1) {
+    var7['querySKUs'] = var12;
+    var7['getRecentlyTalked'] = var11;
+    var11 = function queryMentionResults(arg1) {
         _fun0037: for(var _fun0037_ip = 0; ; ) switch(_fun0037_ip) {
 case 0:
             var4 = arg1;
@@ -4307,8 +4307,8 @@ case 390:
             return var1;
         }
     };
-    var7['queryMentionResults'] = var8;
-    var8 = function queryGuildMentionResults(arg1) {
+    var7['queryMentionResults'] = var11;
+    var11 = function queryGuildMentionResults(arg1) {
         _fun0039: for(var _fun0039_ip = 0; ; ) switch(_fun0039_ip) {
 case 0:
             var4 = arg1;
@@ -4513,8 +4513,8 @@ case 407:
             return var1;
         }
     };
-    var7['queryGuildMentionResults'] = var8;
-    var8 = function queryChoice(arg1) {
+    var7['queryGuildMentionResults'] = var11;
+    var11 = function queryChoice(arg1) {
         _fun0041: for(var _fun0041_ip = 0; ; ) switch(_fun0041_ip) {
 case 0:
             var2 = arg1;
@@ -4636,8 +4636,8 @@ case 416:
             return var1;
         }
     };
-    var7['queryChoice'] = var8;
-    var8 = function queryStaticRouteChannels(arg1) {
+    var7['queryChoice'] = var11;
+    var11 = function queryStaticRouteChannels(arg1) {
         _fun0043: for(var _fun0043_ip = 0; ; ) switch(_fun0043_ip) {
 case 0:
             var1 = arg1;
@@ -4827,8 +4827,8 @@ case 420:
             return var1;
         }
     };
-    var7['queryStaticRouteChannels'] = var8;
-    var8 = function queryChannelResults(arg1) {
+    var7['queryStaticRouteChannels'] = var11;
+    var11 = function queryChannelResults(arg1) {
         _fun0044: for(var _fun0044_ip = 0; ; ) switch(_fun0044_ip) {
 case 0:
             var1 = arg1;
@@ -4885,8 +4885,8 @@ case 40:
             return var1;
         }
     };
-    var7['queryChannelResults'] = var8;
-    var8 = function queryApplicationCommandChannelResults(arg1) {
+    var7['queryChannelResults'] = var11;
+    var11 = function queryApplicationCommandChannelResults(arg1) {
         _fun0046: for(var _fun0046_ip = 0; ; ) switch(_fun0046_ip) {
 case 0:
             var1 = arg1;
@@ -5013,8 +5013,8 @@ case 432:
             return var1;
         }
     };
-    var7['queryApplicationCommandChannelResults'] = var8;
-    var8 = function queryChoiceResults(arg1) {
+    var7['queryApplicationCommandChannelResults'] = var11;
+    var11 = function queryChoiceResults(arg1) {
         var1 = arg1;
         var4 = this;
         var6 = var1.query;
@@ -5037,8 +5037,8 @@ case 432:
         var1['choices'] = var2;
         return var1;
     };
-    var7['queryChoiceResults'] = var8;
-    var8 = function queryEmojiResults(arg1) {
+    var7['queryChoiceResults'] = var11;
+    var11 = function queryEmojiResults(arg1) {
         _fun0048: for(var _fun0048_ip = 0; ; ) switch(_fun0048_ip) {
 case 0:
             var1 = arg1;
@@ -5074,8 +5074,8 @@ case 37:
             return var1;
         }
     };
-    var7['queryEmojiResults'] = var8;
-    var8 = function queryStickers(arg1) {
+    var7['queryEmojiResults'] = var11;
+    var11 = function queryStickers(arg1) {
         _fun0049: for(var _fun0049_ip = 0; ; ) switch(_fun0049_ip) {
 case 0:
             var1 = arguments[1];
@@ -5434,8 +5434,8 @@ case 455:
             return var1;
         }
     };
-    var7['queryStickers'] = var8;
-    var8 = function querySoundmoji(arg1, arg2) {
+    var7['queryStickers'] = var11;
+    var11 = function querySoundmoji(arg1, arg2) {
         _fun0052: for(var _fun0052_ip = 0; ; ) switch(_fun0052_ip) {
 case 0:
             var6 = arg2;
@@ -5543,8 +5543,8 @@ case 191:
             return var1;
         }
     };
-    var7['querySoundmoji'] = var8;
-    var8 = function queryGames(arg1) {
+    var7['querySoundmoji'] = var11;
+    var11 = function queryGames(arg1) {
         _fun0054: for(var _fun0054_ip = 0; ; ) switch(_fun0054_ip) {
 case 0:
             var1 = arg1;
@@ -5728,8 +5728,8 @@ case 162:
             return var1;
         }
     };
-    var7['queryGames'] = var8;
-    var8 = function queryMentionSuggestionResults(arg1) {
+    var7['queryGames'] = var11;
+    var11 = function queryMentionSuggestionResults(arg1) {
         _fun0056: for(var _fun0056_ip = 0; ; ) switch(_fun0056_ip) {
 case 0:
             var2 = arg1;
@@ -6223,8 +6223,8 @@ case 489:
             return var1;
         }
     };
-    var7['queryMentionSuggestionResults'] = var8;
-    var8 = function matchSentinel(arg1, arg2, arg3) {
+    var7['queryMentionSuggestionResults'] = var11;
+    var11 = function matchSentinel(arg1, arg2, arg3) {
         _fun0061: for(var _fun0061_ip = 0; ; ) switch(_fun0061_ip) {
 case 0:
             var3 = _closure1_slot54;
@@ -6241,8 +6241,8 @@ case 38:
             return var1;
         }
     };
-    var7['matchSentinel'] = var8;
-    var8 = function hasSameRoleAsUsername(arg1, arg2) {
+    var7['matchSentinel'] = var11;
+    var11 = function hasSameRoleAsUsername(arg1, arg2) {
         _fun0062: for(var _fun0062_ip = 0; ; ) switch(_fun0062_ip) {
 case 0:
             var6 = arg1;
@@ -6300,7 +6300,8 @@ case 492:
             return var1;
         }
     };
-    var7['hasSameRoleAsUsername'] = var8;
+    var7['hasSameRoleAsUsername'] = var11;
+    var7['queryMemberList'] = var8;
     var8 = 64;
     var8 = var10[var8];
     var10 = var9.bind(var1)(var8);

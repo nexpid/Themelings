@@ -21,7 +21,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 1;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.Image;
+    var4 = var4.View;
     var _closure1_slot2 = var4;
     var4 = 2;
     var4 = var6[var4];
@@ -33,7 +33,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
     var4 = {};
-    var9 = {'flex': 0, 'alignSelf': 'center', 'width': 100, 'height': 100, 'marginBottom': 16};
+    var9 = {'flex': 0, 'alignSelf': 'center', 'marginBottom': 16};
     var4['container'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot4 = var4;
@@ -71,7 +71,10 @@ case 4:
             var6 = 4;
             var6 = var8[var6];
             var6 = var7.bind(var5)(var6);
-            var2['source'] = var6;
+            var7 = var6.ShieldSpotIllustration;
+            var6 = {'width': 100, 'height': 100};
+            var6 = var4.bind(var5)(var7, var6);
+            var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
 case 2:
             return var1;

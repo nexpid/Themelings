@@ -20,6 +20,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['AppsFlyer'] = var1;
     var1 = 'appsflyer_deferred';
     var2['AppsFlyerDeferred'] = var1;
+    var1 = 'react_native_linking';
+    var2['ReactNativeLinking'] = var1;
     var4 = dependencyMap;
     var1 = 0;
     var5 = var4[var1];

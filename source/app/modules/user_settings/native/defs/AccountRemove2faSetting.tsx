@@ -8,29 +8,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var1;
     var _closure1_slot2 = var6;
     var1 = global;
-    var8 = var1.Object;
-    var7 = var8.defineProperty;
+    var7 = var1.Object;
+    var4 = var7.defineProperty;
     var2 = {};
     var1 = true;
     var2['value'] = var1;
     var1 = '__esModule';
-    var1 = var7.bind(var8)(var3, var1, var2);
+    var1 = var4.bind(var7)(var3, var1, var2);
     var1 = 0;
     var2 = var6[var1];
     var1 = undefined;
     var2 = var5.bind(var1)(var2);
-    var7 = var2.MobileSetting;
+    var9 = var2.MobileSetting;
+    var2 = 5;
+    var2 = var6[var2];
+    var7 = var5.bind(var1)(var2);
+    var4 = var7.createPressable;
     var2 = {};
-    var8 = 1;
-    var8 = var6[var8];
-    var8 = var5.bind(var1)(var8);
-    var8 = var8.RendererType;
-    var8 = var8.PRESSABLE;
-    var2['type'] = var8;
-    var8 = function title() {
+    var10 = function title() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
-        var1 = 4;
+        var1 = 3;
         var2 = var6[var1];
         var4 = undefined;
         var2 = var5.bind(var4)(var2);
@@ -43,20 +41,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var2['title'] = var8;
-    var7 = var7.ACCOUNT;
-    var2['parent'] = var7;
-    var7 = function remove2FA() {
+    var2['title'] = var10;
+    var9 = var9.ACCOUNT;
+    var2['parent'] = var9;
+    var9 = function remove2FA() {
         var3 = _closure1_slot1;
         var9 = _closure1_slot2;
-        var1 = 3;
+        var1 = 2;
         var2 = var9[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
         var3 = var4.show;
         var2 = {};
         var8 = _closure1_slot0;
-        var5 = 4;
+        var5 = 3;
         var6 = var9[var5];
         var6 = var8.bind(var1)(var6);
         var10 = var6.intl;
@@ -90,7 +88,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = function onConfirm() {
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 5;
+            var1 = 4;
             var2 = var2[var1];
             var1 = undefined;
             var2 = var3.bind(var1)(var2);
@@ -102,11 +100,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var2['onPress'] = var7;
-    var4 = function useIsDisabled() {
+    var2['onPress'] = var9;
+    var8 = function useIsDisabled() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
-        var1 = 2;
+        var1 = 1;
         var2 = var2[var1];
         var1 = undefined;
         var2 = var3.bind(var1)(var2);
@@ -116,17 +114,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1 !== var2;
         return var1;
     };
-    var2['useIsDisabled'] = var4;
-    var4 = 2;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.use2FARemoveDisableReason;
-    var2['useDescription'] = var4;
-    var4 = 6;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.useIsTOTPEnabled;
-    var2['usePredicate'] = var4;
+    var2['useIsDisabled'] = var8;
+    var8 = 1;
+    var8 = var6[var8];
+    var8 = var5.bind(var1)(var8);
+    var8 = var8.use2FARemoveDisableReason;
+    var2['useDescription'] = var8;
+    var8 = 6;
+    var8 = var6[var8];
+    var8 = var5.bind(var1)(var8);
+    var8 = var8.useIsTOTPEnabled;
+    var2['usePredicate'] = var8;
+    var2 = var4.bind(var7)(var2);
     var4 = 7;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

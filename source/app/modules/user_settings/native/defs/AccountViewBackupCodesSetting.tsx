@@ -8,13 +8,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var1;
     var _closure1_slot2 = var6;
     var1 = global;
-    var8 = var1.Object;
-    var4 = var8.defineProperty;
+    var7 = var1.Object;
+    var4 = var7.defineProperty;
     var2 = {};
     var1 = true;
     var2['value'] = var1;
     var1 = '__esModule';
-    var1 = var4.bind(var8)(var3, var1, var2);
+    var1 = var4.bind(var7)(var3, var1, var2);
     var1 = 0;
     var4 = var6[var1];
     var2 = metroImportAll;
@@ -24,24 +24,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = 1;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
-    var4 = var2.MobileSetting;
+    var8 = var2.MobileSetting;
     var2 = 2;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
-    var8 = var2.NOOP_NULL;
-    var _closure1_slot4 = var8;
-    var8 = var2.UserSettingsSections;
+    var4 = var2.NOOP_NULL;
+    var _closure1_slot4 = var4;
+    var10 = var2.UserSettingsSections;
+    var2 = 7;
+    var2 = var6[var2];
+    var7 = var5.bind(var1)(var2);
+    var4 = var7.createRoute;
     var2 = {};
-    var9 = 3;
-    var9 = var6[var9];
-    var9 = var5.bind(var1)(var9);
-    var9 = var9.RendererType;
-    var9 = var9.ROUTE;
-    var2['type'] = var9;
-    var9 = function title() {
+    var11 = function title() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
-        var1 = 5;
+        var1 = 4;
         var2 = var6[var1];
         var4 = undefined;
         var2 = var5.bind(var4)(var2);
@@ -54,15 +52,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var2['title'] = var9;
-    var4 = var4.ACCOUNT;
-    var2['parent'] = var4;
-    var4 = 8;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.useIs2FAEnabled;
-    var2['usePredicate'] = var4;
-    var4 = function useOnViewBackups() {
+    var2['title'] = var11;
+    var8 = var8.ACCOUNT;
+    var2['parent'] = var8;
+    var8 = 8;
+    var8 = var6[var8];
+    var8 = var5.bind(var1)(var8);
+    var8 = var8.useIs2FAEnabled;
+    var2['usePredicate'] = var8;
+    var8 = function useOnViewBackups() {
         var4 = _closure1_slot3;
         var3 = var4.useCallback;
         var2 = function(arg1) {
@@ -72,7 +70,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = function onSubmit(arg1) {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 4;
+                var1 = 3;
                 var2 = var2[var1];
                 var1 = undefined;
                 var3 = var3.bind(var1)(var2);
@@ -87,7 +85,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var1 = function onSubmit(arg1) {
                             var3 = _closure1_slot1;
                             var2 = _closure1_slot2;
-                            var1 = 4;
+                            var1 = 3;
                             var2 = var2[var1];
                             var1 = undefined;
                             var4 = var3.bind(var1)(var2);
@@ -100,7 +98,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var3['onSubmit'] = var1;
                         var7 = _closure1_slot0;
                         var5 = _closure1_slot2;
-                        var6 = 5;
+                        var6 = 4;
                         var4 = var5[var6];
                         var1 = undefined;
                         var4 = var7.bind(var1)(var4);
@@ -148,7 +146,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var6 = var6.geKm7t;
                         var6 = var8.bind(var9)(var6);
                         var3['actionText'] = var6;
-                        var6 = 6;
+                        var6 = 5;
                         var6 = var5[var6];
                         var6 = var7.bind(var1)(var6);
                         var6 = var6.ButtonColors;
@@ -156,7 +154,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var3['confirmColor'] = var6;
                         var3['useKeyboardAwareWrapper'] = var4;
                         var4 = _closure1_slot1;
-                        var2 = 7;
+                        var2 = 6;
                         var2 = var5[var2];
                         var2 = var4.bind(var1)(var2);
                         var2 = var2.bind(var1)(var3);
@@ -174,7 +172,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4['onSuccess'] = var1;
             var7 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var5 = 5;
+            var5 = 4;
             var1 = var6[var5];
             var3 = undefined;
             var1 = var7.bind(var3)(var1);
@@ -208,7 +206,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.PDTjLN;
             var5 = var8.bind(var9)(var5);
             var4['actionText'] = var5;
-            var5 = 6;
+            var5 = 5;
             var5 = var6[var5];
             var5 = var7.bind(var3)(var5);
             var5 = var5.ButtonColors;
@@ -217,7 +215,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = true;
             var4['useKeyboardAwareWrapper'] = var5;
             var5 = _closure1_slot1;
-            var2 = 7;
+            var2 = 6;
             var2 = var6[var2];
             var2 = var5.bind(var3)(var2);
             var2 = var2.bind(var3)(var4);
@@ -227,11 +225,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var2['usePreNavigationAction'] = var4;
-    var4 = {};
-    var8 = var8.ACCOUNT_CONFIRM_VIEW_BACKUP_CODES;
-    var4['route'] = var8;
-    var7 = function getComponent() {
+    var2['usePreNavigationAction'] = var8;
+    var8 = {};
+    var10 = var10.ACCOUNT_CONFIRM_VIEW_BACKUP_CODES;
+    var8['route'] = var10;
+    var9 = function getComponent() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
         var1 = 9;
@@ -241,8 +239,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var4['getComponent'] = var7;
-    var2['screen'] = var4;
+    var8['getComponent'] = var9;
+    var2['screen'] = var8;
+    var2 = var4.bind(var7)(var2);
     var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

@@ -102,7 +102,7 @@ case 2:
                     var2 = var2[var1];
                     var1 = undefined;
                     var4 = var3.bind(var1)(var2);
-                    var3 = var4.trackSearchClosedMobile;
+                    var3 = var4.trackSearchClosed;
                     var2 = {};
                     var5 = _closure2_slot2;
                     var2['searchContext'] = var5;

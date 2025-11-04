@@ -667,7 +667,7 @@ case 44:
                             var5 = _closure1_slot3;
                             var3 = var5.setState;
                             var4 = _closure4_slot0;
-                            var1 = function(arg1) {
+                            var2 = function(arg1) {
                                 var4 = arg1;
                                 var1 = var4.removePrefixTags;
                                 var1 = var1.bind(var4)();
@@ -697,22 +697,21 @@ case 44:
                                 var2 = var3.bind(var4)(var2);
                                 return var1;
                             };
-                            var1 = var3.bind(var5)(var4, var1);
-                            var6 = _closure1_slot0;
+                            var2 = var3.bind(var5)(var4, var2);
+                            var3 = _closure1_slot1;
                             var5 = _closure1_slot2;
                             var1 = 17;
-                            var3 = var5[var1];
+                            var2 = var5[var1];
                             var1 = undefined;
-                            var7 = var6.bind(var1)(var3);
+                            var7 = var3.bind(var1)(var2);
                             var6 = var7.trackSearchFilterAdd;
-                            var3 = {};
-                            var3['searchContext'] = var4;
+                            var2 = {};
+                            var2['searchContext'] = var4;
                             var9 = _closure4_slot1;
-                            var3['searchTokenType'] = var9;
+                            var2['searchTokenType'] = var9;
                             var8 = _closure4_slot2;
-                            var3['location'] = var8;
-                            var3 = var6.bind(var7)(var3);
-                            var3 = _closure1_slot1;
+                            var2['location'] = var8;
+                            var2 = var6.bind(var7)(var2);
                             var2 = 13;
                             var2 = var5[var2];
                             var3 = var3.bind(var1)(var2);

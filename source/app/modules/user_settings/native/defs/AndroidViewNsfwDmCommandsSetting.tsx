@@ -6,31 +6,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var6;
     var1 = global;
-    var8 = var1.Object;
-    var7 = var8.defineProperty;
+    var7 = var1.Object;
+    var4 = var7.defineProperty;
     var2 = {};
     var1 = true;
     var2['value'] = var1;
     var1 = '__esModule';
-    var1 = var7.bind(var8)(var3, var1, var2);
+    var1 = var4.bind(var7)(var3, var1, var2);
     var1 = 0;
-    var7 = var6[var1];
+    var4 = var6[var1];
     var2 = metroImportDefault;
     var1 = undefined;
-    var2 = var2.bind(var1)(var7);
+    var2 = var2.bind(var1)(var4);
     var _closure1_slot2 = var2;
     var2 = 1;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
-    var7 = var2.MobileSetting;
+    var9 = var2.MobileSetting;
+    var2 = 6;
+    var2 = var6[var2];
+    var7 = var5.bind(var1)(var2);
+    var4 = var7.createToggle;
     var2 = {};
-    var8 = 2;
-    var8 = var6[var8];
-    var8 = var5.bind(var1)(var8);
-    var8 = var8.RendererType;
-    var8 = var8.TOGGLE;
-    var2['type'] = var8;
-    var8 = function title() {
+    var10 = function title() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;
         var1 = 7;
@@ -46,8 +44,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var2['title'] = var8;
-    var8 = function useDescription() {
+    var2['title'] = var10;
+    var10 = function useDescription() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;
         var1 = 7;
@@ -63,15 +61,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var2['useDescription'] = var8;
-    var7 = var7.CONTENT_AND_SOCIAL_DISCORD;
-    var2['parent'] = var7;
-    var7 = function useViewNsfwDmCommandsSettingValue() {
+    var2['useDescription'] = var10;
+    var9 = var9.CONTENT_AND_SOCIAL_DISCORD;
+    var2['parent'] = var9;
+    var9 = function useViewNsfwDmCommandsSettingValue() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var4 = _closure1_slot0;
             var5 = _closure1_slot1;
-            var2 = 3;
+            var2 = 2;
             var2 = var5[var2];
             var3 = undefined;
             var7 = var4.bind(var3)(var2);
@@ -86,7 +84,7 @@ case 0:
                 return var1;
             };
             var1 = var6.bind(var7)(var2, var1);
-            var2 = 4;
+            var2 = 3;
             var2 = var5[var2];
             var2 = var4.bind(var3)(var2);
             var4 = var2.ViewNsfwCommands;
@@ -107,19 +105,19 @@ case 4:
             return var1;
         }
     };
-    var2['useValue'] = var7;
-    var7 = 4;
-    var7 = var6[var7];
-    var7 = var5.bind(var1)(var7);
-    var7 = var7.ViewNsfwCommands;
-    var7 = var7.updateSetting;
-    var2['onValueChange'] = var7;
-    var4 = function usePredicate() {
+    var2['useValue'] = var9;
+    var9 = 3;
+    var9 = var6[var9];
+    var9 = var5.bind(var1)(var9);
+    var9 = var9.ViewNsfwCommands;
+    var9 = var9.updateSetting;
+    var2['onValueChange'] = var9;
+    var8 = function usePredicate() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var3 = _closure1_slot0;
             var4 = _closure1_slot1;
-            var1 = 5;
+            var1 = 4;
             var1 = var4[var1];
             var4 = undefined;
             var3 = var3.bind(var4)(var1);
@@ -135,7 +133,7 @@ case 6:
 case 9:
             var3 = _closure1_slot0;
             var5 = _closure1_slot1;
-            var2 = 6;
+            var2 = 5;
             var2 = var5[var2];
             var3 = var3.bind(var4)(var2);
             var2 = var3.isAndroid;
@@ -144,7 +142,8 @@ case 8:
             return var1;
         }
     };
-    var2['usePredicate'] = var4;
+    var2['usePredicate'] = var8;
+    var2 = var4.bind(var7)(var2);
     var4 = 8;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

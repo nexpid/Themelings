@@ -94,7 +94,7 @@ case 0:
             var1 = var12.type;
             var3[4] = var1;
             var1 = function() {
-                var3 = _closure1_slot0;
+                var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
                 var1 = 14;
                 var2 = var2[var1];
@@ -285,7 +285,7 @@ case 4:
             var6[2] = var9;
             var1 = function(arg1) {
                 var3 = arg1;
-                var4 = _closure1_slot0;
+                var4 = _closure1_slot1;
                 var2 = _closure1_slot2;
                 var1 = 14;
                 var2 = var2[var1];
@@ -415,7 +415,7 @@ case 10:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
                             if(var6) { _fun0005_ip = 11; continue _fun0005 }
 case 12:
-                            var6 = _closure1_slot0;
+                            var6 = _closure1_slot1;
                             var7 = _closure1_slot2;
                             var4 = 14;
                             var4 = var7[var4];
@@ -562,7 +562,7 @@ case 4:
             var2[2] = var6;
             var1 = function(arg1) {
                 var3 = arg1;
-                var4 = _closure1_slot0;
+                var4 = _closure1_slot1;
                 var2 = _closure1_slot2;
                 var1 = 14;
                 var2 = var2[var1];
@@ -723,7 +723,7 @@ case 20:
             var6[2] = var9;
             var1 = function(arg1) {
                 var3 = arg1;
-                var4 = _closure1_slot0;
+                var4 = _closure1_slot1;
                 var2 = _closure1_slot2;
                 var1 = 14;
                 var2 = var2[var1];

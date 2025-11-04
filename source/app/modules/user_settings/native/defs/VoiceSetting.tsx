@@ -6,36 +6,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var6;
     var1 = global;
-    var8 = var1.Object;
-    var7 = var8.defineProperty;
+    var7 = var1.Object;
+    var4 = var7.defineProperty;
     var2 = {};
     var1 = true;
     var2['value'] = var1;
     var1 = '__esModule';
-    var1 = var7.bind(var8)(var3, var1, var2);
+    var1 = var4.bind(var7)(var3, var1, var2);
     var1 = 0;
-    var7 = var6[var1];
+    var4 = var6[var1];
     var2 = metroImportDefault;
     var1 = undefined;
-    var2 = var2.bind(var1)(var7);
+    var2 = var2.bind(var1)(var4);
     var _closure1_slot2 = var2;
     var2 = 1;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
-    var7 = var2.InputModes;
-    var _closure1_slot3 = var7;
-    var8 = var2.UserSettingsSections;
+    var4 = var2.InputModes;
+    var _closure1_slot3 = var4;
+    var10 = var2.UserSettingsSections;
+    var2 = 4;
+    var2 = var6[var2];
+    var7 = var5.bind(var1)(var2);
+    var4 = var7.createRoute;
     var2 = {};
-    var7 = 2;
-    var7 = var6[var7];
-    var7 = var5.bind(var1)(var7);
-    var7 = var7.RendererType;
-    var7 = var7.ROUTE;
-    var2['type'] = var7;
-    var7 = function title() {
+    var9 = function title() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;
-        var1 = 4;
+        var1 = 3;
         var2 = var6[var1];
         var4 = undefined;
         var2 = var5.bind(var4)(var2);
@@ -48,20 +46,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var2['title'] = var7;
-    var7 = null;
-    var2['parent'] = var7;
-    var7 = 5;
-    var7 = var6[var7];
-    var7 = var5.bind(var1)(var7);
-    var7 = var7.MicrophoneIcon;
-    var2['IconComponent'] = var7;
-    var7 = function useVoiceSettingTrailing() {
+    var2['title'] = var9;
+    var9 = null;
+    var2['parent'] = var9;
+    var9 = 5;
+    var9 = var6[var9];
+    var9 = var5.bind(var1)(var9);
+    var9 = var9.MicrophoneIcon;
+    var2['IconComponent'] = var9;
+    var9 = function useVoiceSettingTrailing() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var3 = _closure1_slot0;
             var4 = _closure1_slot1;
-            var1 = 3;
+            var1 = 2;
             var1 = var4[var1];
             var6 = undefined;
             var5 = var3.bind(var6)(var1);
@@ -82,7 +80,7 @@ case 0:
 case 3:
             var5 = _closure1_slot0;
             var7 = _closure1_slot1;
-            var1 = 4;
+            var1 = 3;
             var3 = var7[var1];
             var3 = var5.bind(var6)(var3);
             var4 = var3.intl;
@@ -96,7 +94,7 @@ case 3:
 case 2:
             var5 = _closure1_slot0;
             var7 = _closure1_slot1;
-            var2 = 4;
+            var2 = 3;
             var3 = var7[var2];
             var3 = var5.bind(var6)(var3);
             var4 = var3.intl;
@@ -110,11 +108,11 @@ case 4:
             return var1;
         }
     };
-    var2['useTrailing'] = var7;
-    var7 = {};
-    var8 = var8.VOICE;
-    var7['route'] = var8;
-    var8 = function getComponent() {
+    var2['useTrailing'] = var9;
+    var9 = {};
+    var10 = var10.VOICE;
+    var9['route'] = var10;
+    var10 = function getComponent() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 6;
@@ -124,12 +122,12 @@ case 4:
         var1 = var1.default;
         return var1;
     };
-    var7['getComponent'] = var8;
-    var2['screen'] = var7;
-    var4 = function additionalSearchTerms() {
+    var9['getComponent'] = var10;
+    var2['screen'] = var9;
+    var8 = function additionalSearchTerms() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;
-        var1 = 4;
+        var1 = 3;
         var2 = var6[var1];
         var4 = undefined;
         var2 = var5.bind(var4)(var2);
@@ -144,7 +142,8 @@ case 4:
         var1[0] = var2;
         return var1;
     };
-    var2['additionalSearchTerms'] = var4;
+    var2['additionalSearchTerms'] = var8;
+    var2 = var4.bind(var7)(var2);
     var4 = 7;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

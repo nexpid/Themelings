@@ -1,36 +1,34 @@
 // app/modules/user_settings/native/defs/TextAndMediaSyncSetting.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var7 = metroImportDefault;
+    var9 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var6;
     var1 = global;
-    var9 = var1.Object;
-    var8 = var9.defineProperty;
+    var7 = var1.Object;
+    var4 = var7.defineProperty;
     var2 = {};
     var1 = true;
     var2['value'] = var1;
     var1 = '__esModule';
-    var1 = var8.bind(var9)(var3, var1, var2);
+    var1 = var4.bind(var7)(var3, var1, var2);
     var1 = 0;
     var2 = var6[var1];
     var1 = undefined;
-    var2 = var7.bind(var1)(var2);
+    var2 = var9.bind(var1)(var2);
     var _closure1_slot2 = var2;
     var2 = 1;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
-    var8 = var2.MobileSetting;
+    var10 = var2.MobileSetting;
+    var2 = 3;
+    var2 = var6[var2];
+    var7 = var5.bind(var1)(var2);
+    var4 = var7.createToggle;
     var2 = {};
-    var9 = 2;
-    var9 = var6[var9];
-    var9 = var5.bind(var1)(var9);
-    var9 = var9.RendererType;
-    var9 = var9.TOGGLE;
-    var2['type'] = var9;
-    var9 = function title() {
+    var11 = function title() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;
         var1 = 4;
@@ -46,13 +44,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var2['title'] = var9;
-    var8 = var8.CHAT;
-    var2['parent'] = var8;
-    var4 = function useTextAndMediaSyncSettingValue() {
+    var2['title'] = var11;
+    var10 = var10.CHAT;
+    var2['parent'] = var10;
+    var8 = function useTextAndMediaSyncSettingValue() {
         var4 = _closure1_slot0;
         var3 = _closure1_slot1;
-        var2 = 3;
+        var2 = 2;
         var3 = var3[var2];
         var2 = undefined;
         var4 = var4.bind(var2)(var3);
@@ -70,12 +68,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var2['useValue'] = var4;
-    var4 = 5;
-    var4 = var6[var4];
-    var4 = var7.bind(var1)(var4);
-    var4 = var4.setShouldSyncTextSettings;
-    var2['onValueChange'] = var4;
+    var2['useValue'] = var8;
+    var8 = 5;
+    var8 = var6[var8];
+    var8 = var9.bind(var1)(var8);
+    var8 = var8.setShouldSyncTextSettings;
+    var2['onValueChange'] = var8;
+    var2 = var4.bind(var7)(var2);
     var4 = 6;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

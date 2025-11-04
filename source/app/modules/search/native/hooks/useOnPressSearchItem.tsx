@@ -1146,7 +1146,7 @@ case 0:
                         var1 = var1.COMPLETE;
                         if(!(var2 === var1)) { _fun0015_ip = 37; continue _fun0015 }
 case 65:
-                        var3 = _closure1_slot0;
+                        var3 = _closure1_slot1;
                         var2 = _closure1_slot2;
                         var1 = 31;
                         var2 = var2[var1];

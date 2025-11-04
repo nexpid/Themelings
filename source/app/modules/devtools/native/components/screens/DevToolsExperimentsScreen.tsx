@@ -1,12 +1,12 @@
 // app/modules/devtools/native/components/screens/DevToolsExperimentsScreen.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var5 = require;
-    var12 = metroImportDefault;
+    var6 = require;
+    var13 = metroImportDefault;
     var3 = exports;
-    var6 = dependencyMap;
-    var _closure1_slot0 = var5;
-    var _closure1_slot1 = var12;
-    var _closure1_slot2 = var6;
+    var7 = dependencyMap;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var13;
+    var _closure1_slot2 = var7;
     var1 = function _createForOfIteratorHelperLoose(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -891,63 +891,45 @@ case 73:
         }
     };
     var _closure1_slot18 = var1;
-    var1 = function ExperimentActionSheet(arg1) {
+    var2 = function ExperimentDetails(arg1) {
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
             var1 = arg1;
-            var14 = var1.id;
-            var15 = var1.experiment;
-            var13 = var1.override;
-            var17 = var1.options;
-            var4 = _closure1_slot11;
-            var9 = _closure1_slot0;
-            var12 = _closure1_slot2;
-            var1 = 28;
-            var1 = var12[var1];
-            var3 = undefined;
-            var1 = var9.bind(var3)(var1);
-            var2 = var1.BottomSheet;
-            var1 = {};
-            var7 = _closure1_slot11;
-            var5 = 29;
-            var5 = var12[var5];
-            var5 = var9.bind(var3)(var5);
-            var6 = var5.BottomSheetTitleHeader;
+            var12 = var1.experiment;
+            var10 = var1.override;
+            var11 = var1.id;
+            var14 = var1.options;
+            var4 = _closure1_slot12;
+            var3 = _closure1_slot5;
+            var2 = {};
             var5 = {};
-            var8 = var15.title;
-            var5['title'] = var8;
-            var5['subtitle'] = var14;
-            var5 = var7.bind(var3)(var6, var5);
-            var1['header'] = var5;
-            var7 = _closure1_slot12;
-            var6 = _closure1_slot5;
+            var8 = _closure1_slot1;
+            var9 = _closure1_slot2;
+            var1 = 9;
+            var6 = var9[var1];
+            var1 = undefined;
+            var6 = var8.bind(var1)(var6);
+            var6 = var6.spacing;
+            var6 = var6.PX_12;
+            var5['paddingHorizontal'] = var6;
+            var2['style'] = var5;
+            var8 = _closure1_slot11;
+            var6 = _closure1_slot0;
+            var5 = 26;
+            var5 = var9[var5];
+            var5 = var6.bind(var1)(var5);
+            var6 = var5.TableRowGroup;
             var5 = {};
-            var8 = {};
-            var16 = _closure1_slot1;
-            var11 = 9;
-            var11 = var12[var11];
-            var11 = var16.bind(var3)(var11);
-            var11 = var11.spacing;
-            var11 = var11.PX_12;
-            var8['paddingHorizontal'] = var11;
-            var5['style'] = var8;
-            var11 = _closure1_slot11;
-            var8 = 26;
-            var8 = var12[var8];
-            var8 = var9.bind(var3)(var8);
-            var9 = var8.TableRowGroup;
-            var8 = {};
-            var12 = 'Experiment Assignments';
-            var8['title'] = var12;
-            var16 = var17.map;
-            var12 = function(arg1, arg2) {
+            var9 = 'Experiment Assignments';
+            var5['title'] = var9;
+            var13 = var14.map;
+            var9 = function(arg1, arg2) {
                 _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
-                    var2 = arg1;
-                    var6 = var2.label;
-                    var8 = var2.isDestructive;
-                    var2 = var2.onPress;
-                    var _closure3_slot0 = var2;
+                    var1 = arg1;
+                    var6 = var1.label;
+                    var8 = var1.isDestructive;
+                    var1 = var1.onPress;
                     var5 = _closure1_slot11;
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
@@ -958,163 +940,186 @@ case 0:
                     var3 = var2.TableRow;
                     var2 = {};
                     var7 = 'default';
-                    if(!var8) { _fun0011_ip = 74; continue _fun0011 }
-case 75:
+                    if(!var8) { _fun0011_ip = 30; continue _fun0011 }
+case 43:
                     var7 = 'danger';
-case 74:
+case 30:
                     var2['variant'] = var7;
                     var2['label'] = var6;
-                    var1 = function onPress() {
-                        var3 = _closure1_slot1;
-                        var2 = _closure1_slot2;
-                        var1 = 22;
-                        var2 = var2[var1];
-                        var1 = undefined;
-                        var4 = var3.bind(var1)(var2);
-                        var3 = var4.hideActionSheet;
-                        var2 = 'UserSettingsExperimentBucket';
-                        var2 = var3.bind(var4)(var2);
-                        var2 = _closure3_slot0;
-                        var2 = var2.bind(var1)();
-                        return var1;
-                    };
                     var2['onPress'] = var1;
                     var1 = arg2;
                     var1 = var5.bind(var4)(var3, var2, var1);
                     return var1;
                 }
             };
-            var12 = var16.bind(var17)(var12);
-            var8['children'] = var12;
-            var9 = var11.bind(var3)(var9, var8);
-            var8 = new Array(2);
-            var8[0] = var9;
-            var11 = var15.kind;
-            var9 = 'guild';
-            if(!(var9 !== var11)) { _fun0010_ip = 76; continue _fun0010 }
-case 77:
-            var12 = _closure1_slot11;
-            var11 = _closure1_slot17;
-            var9 = {};
-            var9['id'] = var14;
-            var9['override'] = var13;
-            var9['experiment'] = var15;
-            var9 = var12.bind(var3)(var11, var9);
-            _fun0010_ip = 49; continue _fun0010;
-case 76:
-            var12 = _closure1_slot11;
-            var11 = _closure1_slot18;
-            var10 = {};
-            var10['id'] = var14;
-            var10['override'] = var13;
-            var9 = var12.bind(var3)(var11, var10);
-case 49:
-            var8[1] = var9;
-            var5['children'] = var8;
-            var5 = var7.bind(var3)(var6, var5);
-            var1['children'] = var5;
-            var1 = var4.bind(var3)(var2, var1);
+            var9 = var13.bind(var14)(var9);
+            var5['children'] = var9;
+            var6 = var8.bind(var1)(var6, var5);
+            var5 = new Array(2);
+            var5[0] = var6;
+            var8 = var12.kind;
+            var6 = 'guild';
+            if(!(var6 !== var8)) { _fun0010_ip = 74; continue _fun0010 }
+case 17:
+            var9 = _closure1_slot11;
+            var8 = _closure1_slot17;
+            var6 = {};
+            var6['id'] = var11;
+            var6['override'] = var10;
+            var6['experiment'] = var12;
+            var6 = var9.bind(var1)(var8, var6);
+            _fun0010_ip = 75; continue _fun0010;
+case 74:
+            var9 = _closure1_slot11;
+            var8 = _closure1_slot18;
+            var7 = {};
+            var7['id'] = var11;
+            var7['override'] = var10;
+            var6 = var9.bind(var1)(var8, var7);
+case 75:
+            var5[1] = var6;
+            var2['children'] = var5;
+            var1 = var4.bind(var1)(var3, var2);
             return var1;
         }
     };
-    var _closure1_slot19 = var1;
+    var _closure1_slot19 = var2;
+    var1 = function ExperimentActionSheet(arg1) {
+        var1 = arg1;
+        var9 = var1.id;
+        var11 = var1.experiment;
+        var10 = var1.override;
+        var8 = var1.options;
+        var4 = _closure1_slot11;
+        var7 = _closure1_slot0;
+        var13 = _closure1_slot2;
+        var1 = 28;
+        var1 = var13[var1];
+        var3 = undefined;
+        var1 = var7.bind(var3)(var1);
+        var2 = var1.BottomSheet;
+        var1 = {};
+        var12 = _closure1_slot11;
+        var6 = 29;
+        var6 = var13[var6];
+        var6 = var7.bind(var3)(var6);
+        var7 = var6.BottomSheetTitleHeader;
+        var6 = {};
+        var13 = var11.title;
+        var6['title'] = var13;
+        var6['subtitle'] = var9;
+        var6 = var12.bind(var3)(var7, var6);
+        var1['header'] = var6;
+        var7 = _closure1_slot11;
+        var6 = _closure1_slot19;
+        var5 = {};
+        var5['experiment'] = var11;
+        var5['override'] = var10;
+        var5['id'] = var9;
+        var5['options'] = var8;
+        var5 = var7.bind(var3)(var6, var5);
+        var1['children'] = var5;
+        var1 = var4.bind(var3)(var2, var1);
+        return var1;
+    };
+    var _closure1_slot20 = var1;
     var1 = global;
-    var8 = var1.Object;
-    var4 = var8.defineProperty;
-    var2 = {};
+    var9 = var1.Object;
+    var5 = var9.defineProperty;
+    var4 = {};
     var1 = true;
-    var2['value'] = var1;
+    var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var4.bind(var8)(var3, var1, var2);
+    var1 = var5.bind(var9)(var3, var1, var4);
     var1 = 0;
-    var2 = var6[var1];
+    var4 = var7[var1];
     var1 = undefined;
-    var2 = var12.bind(var1)(var2);
-    var _closure1_slot3 = var2;
-    var13 = 1;
-    var4 = var6[var13];
-    var2 = metroImportAll;
-    var9 = var2.bind(var1)(var4);
-    var _closure1_slot4 = var9;
-    var2 = 2;
-    var2 = var6[var2];
-    var2 = var5.bind(var1)(var2);
-    var2 = var2.View;
-    var _closure1_slot5 = var2;
-    var2 = 3;
-    var2 = var6[var2];
-    var2 = var12.bind(var1)(var2);
-    var _closure1_slot6 = var2;
-    var2 = 4;
-    var2 = var6[var2];
-    var2 = var12.bind(var1)(var2);
-    var _closure1_slot7 = var2;
-    var2 = 5;
-    var2 = var6[var2];
-    var2 = var12.bind(var1)(var2);
-    var _closure1_slot8 = var2;
-    var2 = 6;
-    var2 = var6[var2];
-    var2 = var5.bind(var1)(var2);
-    var4 = var2.ExperimentBuckets;
-    var _closure1_slot9 = var4;
-    var2 = var2.ExperimentTypes;
-    var _closure1_slot10 = var2;
-    var2 = 7;
-    var2 = var6[var2];
-    var2 = var5.bind(var1)(var2);
-    var4 = var2.jsx;
-    var _closure1_slot11 = var4;
-    var2 = var2.jsxs;
-    var _closure1_slot12 = var2;
-    var2 = 8;
-    var2 = var6[var2];
-    var8 = var5.bind(var1)(var2);
-    var4 = var8.createStyles;
-    var2 = {};
-    var10 = {};
-    var11 = 9;
-    var14 = var6[var11];
-    var14 = var12.bind(var1)(var14);
-    var14 = var14.colors;
-    var14 = var14.BACKGROUND_PRIMARY;
-    var10['backgroundColor'] = var14;
-    var10['flex'] = var13;
-    var2['container'] = var10;
-    var10 = {};
-    var13 = var6[var11];
-    var13 = var12.bind(var1)(var13);
-    var13 = var13.spacing;
-    var13 = var13.PX_12;
-    var10['paddingHorizontal'] = var13;
-    var2['listContainer'] = var10;
-    var10 = {};
-    var13 = var6[var11];
-    var13 = var12.bind(var1)(var13);
-    var13 = var13.spacing;
-    var13 = var13.PX_16;
-    var10['paddingVertical'] = var13;
-    var13 = var6[var11];
-    var13 = var12.bind(var1)(var13);
-    var13 = var13.spacing;
-    var13 = var13.PX_12;
-    var10['paddingHorizontal'] = var13;
-    var2['searchBar'] = var10;
-    var10 = {};
-    var11 = var6[var11];
-    var11 = var12.bind(var1)(var11);
-    var11 = var11.spacing;
-    var11 = var11.PX_16;
-    var10['marginTop'] = var11;
-    var2['debugContainer'] = var10;
-    var10 = {'marginLeft': 20, 'marginBottom': 20, 'marginRight': 8, 'fontFamily': 'monospace'};
-    var2['debugLine'] = var10;
-    var10 = {'marginLeft': 20, 'marginRight': 8, 'fontFamily': 'monospace'};
-    var2['exposure'] = var10;
-    var2 = var4.bind(var8)(var2);
-    var _closure1_slot13 = var2;
-    var4 = var9.memo;
-    var2 = function() {
+    var4 = var13.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var14 = 1;
+    var5 = var7[var14];
+    var4 = metroImportAll;
+    var10 = var4.bind(var1)(var5);
+    var _closure1_slot4 = var10;
+    var4 = 2;
+    var4 = var7[var4];
+    var4 = var6.bind(var1)(var4);
+    var4 = var4.View;
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var7[var4];
+    var4 = var13.bind(var1)(var4);
+    var _closure1_slot6 = var4;
+    var4 = 4;
+    var4 = var7[var4];
+    var4 = var13.bind(var1)(var4);
+    var _closure1_slot7 = var4;
+    var4 = 5;
+    var4 = var7[var4];
+    var4 = var13.bind(var1)(var4);
+    var _closure1_slot8 = var4;
+    var4 = 6;
+    var4 = var7[var4];
+    var4 = var6.bind(var1)(var4);
+    var5 = var4.ExperimentBuckets;
+    var _closure1_slot9 = var5;
+    var4 = var4.ExperimentTypes;
+    var _closure1_slot10 = var4;
+    var4 = 7;
+    var4 = var7[var4];
+    var4 = var6.bind(var1)(var4);
+    var5 = var4.jsx;
+    var _closure1_slot11 = var5;
+    var4 = var4.jsxs;
+    var _closure1_slot12 = var4;
+    var4 = 8;
+    var4 = var7[var4];
+    var9 = var6.bind(var1)(var4);
+    var5 = var9.createStyles;
+    var4 = {};
+    var11 = {};
+    var12 = 9;
+    var15 = var7[var12];
+    var15 = var13.bind(var1)(var15);
+    var15 = var15.colors;
+    var15 = var15.BACKGROUND_PRIMARY;
+    var11['backgroundColor'] = var15;
+    var11['flex'] = var14;
+    var4['container'] = var11;
+    var11 = {};
+    var14 = var7[var12];
+    var14 = var13.bind(var1)(var14);
+    var14 = var14.spacing;
+    var14 = var14.PX_12;
+    var11['paddingHorizontal'] = var14;
+    var4['listContainer'] = var11;
+    var11 = {};
+    var14 = var7[var12];
+    var14 = var13.bind(var1)(var14);
+    var14 = var14.spacing;
+    var14 = var14.PX_16;
+    var11['paddingVertical'] = var14;
+    var14 = var7[var12];
+    var14 = var13.bind(var1)(var14);
+    var14 = var14.spacing;
+    var14 = var14.PX_12;
+    var11['paddingHorizontal'] = var14;
+    var4['searchBar'] = var11;
+    var11 = {};
+    var12 = var7[var12];
+    var12 = var13.bind(var1)(var12);
+    var12 = var12.spacing;
+    var12 = var12.PX_16;
+    var11['marginTop'] = var12;
+    var4['debugContainer'] = var11;
+    var11 = {'marginLeft': 20, 'marginBottom': 20, 'marginRight': 8, 'fontFamily': 'monospace'};
+    var4['debugLine'] = var11;
+    var11 = {'marginLeft': 20, 'marginRight': 8, 'fontFamily': 'monospace'};
+    var4['exposure'] = var11;
+    var4 = var5.bind(var9)(var4);
+    var _closure1_slot13 = var4;
+    var5 = var10.memo;
+    var4 = function() {
         _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
             var2 = _closure1_slot13;
@@ -1258,8 +1263,8 @@ case 0:
             var2 = var2.bind(var5)(var1);
             var1 = var2.isEmpty;
             var1 = var1.bind(var2)(var3);
-            if(var1) { _fun0012_ip = 78; continue _fun0012 }
-case 79:
+            if(var1) { _fun0012_ip = 76; continue _fun0012 }
+case 77:
             var3 = _closure1_slot12;
             var2 = _closure1_slot5;
             var1 = {};
@@ -1311,8 +1316,8 @@ case 79:
             var4[1] = var7;
             var1['children'] = var4;
             var1 = var3.bind(var5)(var2, var1);
-            _fun0012_ip = 80; continue _fun0012;
-case 78:
+            _fun0012_ip = 78; continue _fun0012;
+case 76:
             var4 = _closure1_slot11;
             var3 = _closure1_slot1;
             var8 = _closure1_slot2;
@@ -1327,13 +1332,13 @@ case 78:
             var6 = var6.NoResults;
             var2['Illustration'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 80:
+case 78:
             return var1;
         }
     };
-    var2 = var4.bind(var9)(var2);
-    var8 = var9.memo;
-    var4 = function(arg1) {
+    var4 = var5.bind(var10)(var4);
+    var9 = var10.memo;
+    var5 = function(arg1) {
         _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
             var3 = arg1;
@@ -1372,14 +1377,14 @@ case 0:
             var2 = function() {
                 var3 = global;
                 var1 = var3.Map;
-                var4 = var1.prototype;
-                var4 = Object.create(var4, {constructor: {value: var1}});
-                var14 = var4;
-                var1 = new var14[var1](var13);
-                var5 = var1 instanceof Object ? var1 : var4;
-                var _closure3_slot0 = var5;
-                var6 = _closure2_slot3;
-                var4 = var6.forEach;
+                var2 = var1.prototype;
+                var2 = Object.create(var2, {constructor: {value: var1}});
+                var13 = var2;
+                var1 = new var13[var1](var12);
+                var6 = var1 instanceof Object ? var1 : var2;
+                var _closure3_slot0 = var6;
+                var4 = _closure2_slot3;
+                var2 = var4.forEach;
                 var1 = function(arg1) {
                     var4 = arg1;
                     var3 = _closure3_slot0;
@@ -1389,10 +1394,10 @@ case 0:
                     var1 = undefined;
                     return var1;
                 };
-                var1 = var4.bind(var6)(var1);
-                var7 = new Array(0);
-                var _closure3_slot1 = var7;
-                var4 = var5.forEach;
+                var1 = var2.bind(var4)(var1);
+                var2 = new Array(0);
+                var _closure3_slot1 = var2;
+                var4 = var6.forEach;
                 var1 = function(arg1) {
                     var5 = arg1;
                     var _closure4_slot0 = var5;
@@ -1402,19 +1407,26 @@ case 0:
                     var5 = var5.label;
                     var1['label'] = var5;
                     var4 = function onPress() {
-                        var3 = _closure1_slot0;
-                        var2 = _closure1_slot2;
+                        var5 = _closure1_slot0;
+                        var4 = _closure1_slot2;
                         var1 = 21;
-                        var2 = var2[var1];
+                        var3 = var4[var1];
                         var1 = undefined;
-                        var6 = var3.bind(var1)(var2);
-                        var5 = var6.overrideBucket;
-                        var3 = _closure2_slot2;
-                        var4 = var3.system;
-                        var3 = _closure2_slot0;
-                        var2 = _closure4_slot0;
-                        var2 = var2.id;
-                        var2 = var5.bind(var6)(var4, var3, var2);
+                        var8 = var5.bind(var1)(var3);
+                        var7 = var8.overrideBucket;
+                        var5 = _closure2_slot2;
+                        var6 = var5.system;
+                        var5 = _closure2_slot0;
+                        var3 = _closure4_slot0;
+                        var3 = var3.id;
+                        var3 = var7.bind(var8)(var6, var5, var3);
+                        var3 = _closure1_slot1;
+                        var2 = 22;
+                        var2 = var4[var2];
+                        var4 = var3.bind(var1)(var2);
+                        var3 = var4.hideActionSheet;
+                        var2 = 'UserSettingsExperimentBucket';
+                        var2 = var3.bind(var4)(var2);
                         return var1;
                     };
                     var1['onPress'] = var4;
@@ -1422,26 +1434,33 @@ case 0:
                     var1 = undefined;
                     return var1;
                 };
-                var1 = var4.bind(var5)(var1);
-                var4 = var7.push;
+                var1 = var4.bind(var6)(var1);
+                var4 = var2.push;
                 var1 = {'label': 'Clear Override', 'isDestructive': true};
                 var5 = function onPress() {
-                    var3 = _closure1_slot0;
-                    var2 = _closure1_slot2;
+                    var5 = _closure1_slot0;
+                    var4 = _closure1_slot2;
                     var1 = 21;
-                    var2 = var2[var1];
+                    var3 = var4[var1];
                     var1 = undefined;
-                    var6 = var3.bind(var1)(var2);
-                    var5 = var6.overrideBucket;
-                    var3 = _closure2_slot2;
-                    var4 = var3.system;
-                    var3 = _closure2_slot0;
-                    var2 = null;
-                    var2 = var5.bind(var6)(var4, var3, var2);
+                    var8 = var5.bind(var1)(var3);
+                    var7 = var8.overrideBucket;
+                    var5 = _closure2_slot2;
+                    var6 = var5.system;
+                    var5 = _closure2_slot0;
+                    var3 = null;
+                    var3 = var7.bind(var8)(var6, var5, var3);
+                    var3 = _closure1_slot1;
+                    var2 = 22;
+                    var2 = var4[var2];
+                    var4 = var3.bind(var1)(var2);
+                    var3 = var4.hideActionSheet;
+                    var2 = 'UserSettingsExperimentBucket';
+                    var2 = var3.bind(var4)(var2);
                     return var1;
                 };
                 var1['onPress'] = var5;
-                var1 = var4.bind(var7)(var1);
+                var1 = var4.bind(var2)(var1);
                 var5 = _closure1_slot1;
                 var4 = _closure1_slot2;
                 var1 = 22;
@@ -1449,33 +1468,20 @@ case 0:
                 var1 = undefined;
                 var6 = var5.bind(var1)(var4);
                 var5 = var6.openLazy;
-                var9 = var3.Promise;
-                var4 = var9.resolve;
+                var8 = var3.Promise;
+                var4 = var8.resolve;
                 var3 = {};
-                var10 = _closure1_slot19;
-                var3['default'] = var10;
-                var4 = var4.bind(var9)(var3);
+                var9 = _closure1_slot20;
+                var3['default'] = var9;
+                var4 = var4.bind(var8)(var3);
                 var3 = {};
-                var9 = _closure2_slot0;
-                var3['id'] = var9;
-                var9 = _closure2_slot2;
-                var3['experiment'] = var9;
-                var8 = _closure2_slot1;
-                var3['override'] = var8;
-                var3['options'] = var7;
-                var2 = function hideActionSheet() {
-                    var3 = _closure1_slot1;
-                    var2 = _closure1_slot2;
-                    var1 = 22;
-                    var2 = var2[var1];
-                    var1 = undefined;
-                    var4 = var3.bind(var1)(var2);
-                    var3 = var4.hideActionSheet;
-                    var2 = 'UserSettingsExperimentBucket';
-                    var2 = var3.bind(var4)(var2);
-                    return var1;
-                };
-                var3['hideActionSheet'] = var2;
+                var8 = _closure2_slot0;
+                var3['id'] = var8;
+                var8 = _closure2_slot2;
+                var3['experiment'] = var8;
+                var7 = _closure2_slot1;
+                var3['override'] = var7;
+                var3['options'] = var2;
                 var2 = 'UserSettingsExperimentBucket';
                 var2 = var5.bind(var6)(var4, var2, var3);
                 return var1;
@@ -1485,10 +1491,10 @@ case 0:
             var8 = var2 == var6;
             var4 = undefined;
             var2 = undefined;
-            if(var8) { _fun0013_ip = 81; continue _fun0013 }
-case 82:
+            if(var8) { _fun0013_ip = 79; continue _fun0013 }
+case 80:
             var2 = var6.variantId;
-case 81:
+case 79:
             var1 = function getVariantLabel(arg1, arg2) {
                 _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
@@ -1496,8 +1502,8 @@ case 0:
                     var5 = arg2;
                     var _closure3_slot0 = var5;
                     var1 = null;
-                    if(!(var1 != var5)) { _fun0014_ip = 83; continue _fun0014 }
-case 84:
+                    if(!(var1 != var5)) { _fun0014_ip = 81; continue _fun0014 }
+case 82:
                     var3 = var4.find;
                     var2 = function(arg1) {
                         var1 = arg1;
@@ -1507,20 +1513,20 @@ case 84:
                         return var1;
                     };
                     var2 = var3.bind(var4)(var2);
-                    if(!(var1 == var2)) { _fun0014_ip = 85; continue _fun0014 }
-case 86:
+                    if(!(var1 == var2)) { _fun0014_ip = 83; continue _fun0014 }
+case 84:
                     var1 = global;
                     var1 = var1.HermesInternal;
                     var4 = var1.concat;
                     var3 = 'Unknown (';
                     var1 = ')';
                     var1 = var4.bind(var3)(var5, var1);
-                    _fun0014_ip = 87; continue _fun0014;
-case 85:
-                    var1 = var2.label;
-case 87:
-                    return var1;
+                    _fun0014_ip = 85; continue _fun0014;
 case 83:
+                    var1 = var2.label;
+case 85:
+                    return var1;
+case 81:
                     var1 = 'N/A';
                     return var1;
                 }
@@ -1554,14 +1560,15 @@ case 83:
             return var1;
         }
     };
-    var4 = var8.bind(var9)(var4);
-    var _closure1_slot14 = var4;
-    var4 = 30;
-    var4 = var6[var4];
-    var6 = var5.bind(var1)(var4);
-    var5 = var6.fileFinishedImporting;
-    var4 = 'modules/devtools/native/components/screens/DevToolsExperimentsScreen.tsx';
-    var4 = var5.bind(var6)(var4);
-    var3['default'] = var2;
+    var5 = var9.bind(var10)(var5);
+    var _closure1_slot14 = var5;
+    var5 = 30;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/devtools/native/components/screens/DevToolsExperimentsScreen.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['default'] = var4;
+    var3['ExperimentDetails'] = var2;
     return var1;
 })();

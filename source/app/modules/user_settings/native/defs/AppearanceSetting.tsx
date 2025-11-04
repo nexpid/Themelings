@@ -12,13 +12,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var3 = _closure1_slot1;
             var8 = _closure1_slot2;
-            var2 = 5;
+            var2 = 4;
             var2 = var8[var2];
             var5 = undefined;
             var2 = var3.bind(var5)(var2);
             var6 = var2.bind(var5)();
             var7 = _closure1_slot0;
-            var2 = 6;
+            var2 = 5;
             var2 = var8[var2];
             var9 = var7.bind(var5)(var2);
             var4 = var9.useStateFromStores;
@@ -34,7 +34,7 @@ case 0:
             var4 = {};
             var2 = _closure1_slot5;
             var10 = var2.LIGHT;
-            var2 = 7;
+            var2 = 6;
             var3 = var8[var2];
             var3 = var7.bind(var5)(var3);
             var12 = var3.intl;
@@ -81,7 +81,7 @@ case 0:
             var3 = var3.b8Cei3;
             var3 = var11.bind(var12)(var3);
             var4[var10] = var3;
-            var3 = 8;
+            var3 = 7;
             var3 = var8[var3];
             var7 = var7.bind(var5)(var3);
             var3 = var7.useActiveThemeType;
@@ -146,7 +146,7 @@ case 2:
             var3 = var2.intl;
             var2 = var3.string;
             var4 = _closure1_slot1;
-            var1 = 9;
+            var1 = 8;
             var1 = var6[var1];
             var1 = var4.bind(var5)(var1);
             var1 = var1.KSBBpC;
@@ -155,13 +155,13 @@ case 2:
         }
     };
     var1 = global;
-    var10 = var1.Object;
-    var9 = var10.defineProperty;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
     var4 = {};
     var1 = true;
     var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var9.bind(var10)(var3, var1, var4);
+    var1 = var8.bind(var9)(var3, var1, var4);
     var1 = 0;
     var4 = var7[var1];
     var1 = undefined;
@@ -175,23 +175,21 @@ case 2:
     var4 = 2;
     var4 = var7[var4];
     var4 = var6.bind(var1)(var4);
-    var9 = var4.UserSettingsSections;
+    var11 = var4.UserSettingsSections;
     var4 = 3;
-    var4 = var7[var4];
-    var4 = var6.bind(var1)(var4);
-    var5 = var4.RendererType;
-    var4 = 4;
     var4 = var7[var4];
     var4 = var6.bind(var1)(var4);
     var4 = var4.ThemeTypes;
     var _closure1_slot5 = var4;
+    var4 = 9;
+    var4 = var7[var4];
+    var8 = var6.bind(var1)(var4);
+    var5 = var8.createRoute;
     var4 = {};
-    var5 = var5.ROUTE;
-    var4['type'] = var5;
-    var5 = function title() {
+    var9 = function title() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
-        var1 = 7;
+        var1 = 6;
         var2 = var6[var1];
         var4 = undefined;
         var2 = var5.bind(var4)(var2);
@@ -204,19 +202,19 @@ case 2:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var4['title'] = var5;
-    var5 = null;
-    var4['parent'] = var5;
-    var5 = 10;
-    var5 = var7[var5];
-    var5 = var6.bind(var1)(var5);
-    var5 = var5.PaintPaletteIcon;
-    var4['IconComponent'] = var5;
+    var4['title'] = var9;
+    var9 = null;
+    var4['parent'] = var9;
+    var9 = 10;
+    var9 = var7[var9];
+    var9 = var6.bind(var1)(var9);
+    var9 = var9.PaintPaletteIcon;
+    var4['IconComponent'] = var9;
     var4['useTrailing'] = var2;
-    var5 = {};
-    var9 = var9.APPEARANCE;
-    var5['route'] = var9;
-    var8 = function getComponent() {
+    var9 = {};
+    var11 = var11.APPEARANCE;
+    var9['route'] = var11;
+    var10 = function getComponent() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
         var1 = 11;
@@ -226,8 +224,9 @@ case 2:
         var1 = var1.default;
         return var1;
     };
-    var5['getComponent'] = var8;
-    var4['screen'] = var5;
+    var9['getComponent'] = var10;
+    var4['screen'] = var9;
+    var4 = var5.bind(var8)(var4);
     var5 = 12;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);

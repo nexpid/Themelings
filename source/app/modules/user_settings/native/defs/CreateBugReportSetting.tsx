@@ -1,56 +1,54 @@
 // app/modules/user_settings/native/defs/CreateBugReportSetting.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var7 = metroImportDefault;
+    var4 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var7;
+    var _closure1_slot1 = var4;
     var _closure1_slot2 = var6;
     var1 = global;
     var9 = var1.Object;
-    var8 = var9.defineProperty;
+    var7 = var9.defineProperty;
     var2 = {};
     var1 = true;
     var2['value'] = var1;
     var1 = '__esModule';
-    var1 = var8.bind(var9)(var3, var1, var2);
+    var1 = var7.bind(var9)(var3, var1, var2);
     var1 = 0;
     var2 = var6[var1];
     var1 = undefined;
-    var2 = var7.bind(var1)(var2);
+    var2 = var4.bind(var1)(var2);
     var _closure1_slot3 = var2;
+    var2 = 4;
+    var2 = var6[var2];
+    var7 = var5.bind(var1)(var2);
+    var4 = var7.createToggle;
     var2 = {};
-    var7 = 1;
-    var7 = var6[var7];
-    var7 = var5.bind(var1)(var7);
-    var7 = var7.RendererType;
-    var7 = var7.TOGGLE;
-    var2['type'] = var7;
-    var7 = 5;
-    var8 = var6[var7];
-    var8 = var5.bind(var1)(var8);
-    var9 = var8.intl;
-    var8 = var9.string;
-    var7 = var6[var7];
-    var7 = var5.bind(var1)(var7);
-    var7 = var7.t;
-    var7 = var7.aIkGJD;
-    var7 = var8.bind(var9)(var7);
-    var2['title'] = var7;
-    var7 = null;
-    var2['parent'] = var7;
-    var7 = 6;
-    var7 = var6[var7];
-    var7 = var5.bind(var1)(var7);
-    var7 = var7.WrenchIcon;
-    var2['IconComponent'] = var7;
-    var7 = function handleCreateBugReportSettingToggle(arg1) {
+    var9 = 5;
+    var10 = var6[var9];
+    var10 = var5.bind(var1)(var10);
+    var11 = var10.intl;
+    var10 = var11.string;
+    var9 = var6[var9];
+    var9 = var5.bind(var1)(var9);
+    var9 = var9.t;
+    var9 = var9.aIkGJD;
+    var9 = var10.bind(var11)(var9);
+    var2['title'] = var9;
+    var9 = null;
+    var2['parent'] = var9;
+    var9 = 6;
+    var9 = var6[var9];
+    var9 = var5.bind(var1)(var9);
+    var9 = var9.WrenchIcon;
+    var2['IconComponent'] = var9;
+    var9 = function handleCreateBugReportSettingToggle(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var5 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var1 = 2;
+            var1 = 1;
             var3 = var4[var1];
             var1 = undefined;
             var6 = var5.bind(var1)(var3);
@@ -63,7 +61,7 @@ case 3:
             var3['bugReporterEnabled'] = var7;
             var7 = var5.bind(var6)(var3);
             var8 = _closure1_slot1;
-            var7 = 3;
+            var7 = 2;
             var7 = var4[var7];
             var9 = var8.bind(var1)(var7);
             var8 = var9.terminate;
@@ -75,7 +73,7 @@ case 2:
             var3['bugReporterEnabled'] = var7;
             var3 = var5.bind(var6)(var3);
             var3 = _closure1_slot1;
-            var2 = 3;
+            var2 = 2;
             var2 = var4[var2];
             var3 = var3.bind(var1)(var2);
             var2 = var3.initialize;
@@ -84,11 +82,11 @@ case 4:
             return var1;
         }
     };
-    var2['onValueChange'] = var7;
-    var7 = function useCreateBugReportSettingToggleValue() {
+    var2['onValueChange'] = var9;
+    var9 = function useCreateBugReportSettingToggleValue() {
         var4 = _closure1_slot0;
         var3 = _closure1_slot2;
-        var2 = 4;
+        var2 = 3;
         var3 = var3[var2];
         var2 = undefined;
         var4 = var4.bind(var2)(var3);
@@ -104,17 +102,18 @@ case 4:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var2['useValue'] = var7;
-    var4 = function useCreateBugReportSettingDescription() {
+    var2['useValue'] = var9;
+    var8 = function useCreateBugReportSettingDescription() {
         var1 = 'Photo permission is required';
         return var1;
     };
-    var2['useDescription'] = var4;
-    var4 = 7;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.useBugReporterExperimentSettingPredicate;
-    var2['usePredicate'] = var4;
+    var2['useDescription'] = var8;
+    var8 = 7;
+    var8 = var6[var8];
+    var8 = var5.bind(var1)(var8);
+    var8 = var8.useBugReporterExperimentSettingPredicate;
+    var2['usePredicate'] = var8;
+    var2 = var4.bind(var7)(var2);
     var4 = 8;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

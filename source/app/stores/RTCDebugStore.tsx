@@ -815,10 +815,10 @@ case 0:
             var1 = arg1;
             var2 = var1.section;
             var1 = null;
-            if(!(var1 == var2)) { _fun0011_ip = 66; continue _fun0011 }
-case 70:
+            if(!(var1 == var2)) { _fun0011_ip = 70; continue _fun0011 }
+case 8:
             var2 = _closure1_slot15;
-case 66:
+case 70:
             _closure1_slot16 = var2;
             var1 = undefined;
             return var1;
@@ -1017,7 +1017,7 @@ case 0:
             var3 = var2.streamId;
             var1 = null;
             if(!(var1 === var3)) { _fun0015_ip = 76; continue _fun0015 }
-case 70:
+case 77:
             var5 = _closure1_slot25;
             var4 = var2.userId;
             var3 = var2.context;
@@ -1076,7 +1076,7 @@ case 0:
                     var2 = var2[var7];
                     var9 = null;
                     if(!(var9 == var6)) { _fun0016_ip = 4; continue _fun0016 }
-case 77:
+case 78:
                     var4 = delete var2[var3];
                     _fun0016_ip = 24; continue _fun0016;
 case 4:
@@ -1094,18 +1094,18 @@ case 4:
                     var8 = var11[var8];
                     var10 = 2;
                     var10 = var11[var10];
-                    if(!(var4 === var7)) { _fun0016_ip = 78; continue _fun0016 }
-case 79:
+                    if(!(var4 === var7)) { _fun0016_ip = 79; continue _fun0016 }
+case 80:
                     var4 = global;
                     var7 = var4.parseInt;
                     var7 = var7.bind(var5)(var10);
-                    if(!(var7 === var3)) { _fun0016_ip = 78; continue _fun0016 }
-case 80:
+                    if(!(var7 === var3)) { _fun0016_ip = 79; continue _fun0016 }
+case 81:
                     var10 = _closure1_slot11;
                     var7 = var10.getUser;
                     var7 = var7.bind(var10)(var8);
-                    if(!(var9 != var7)) { _fun0016_ip = 78; continue _fun0016 }
-case 81:
+                    if(!(var9 != var7)) { _fun0016_ip = 79; continue _fun0016 }
+case 82:
                     var7 = var6.rtp;
                     var9 = var7.inbound;
                     var7 = var4.Object;
@@ -1113,11 +1113,11 @@ case 81:
                     var7 = var4.bind(var7)(var9);
                     var4 = var7.includes;
                     var4 = var4.bind(var7)(var8);
-                    if(var4) { _fun0016_ip = 78; continue _fun0016 }
-case 82:
+                    if(var4) { _fun0016_ip = 79; continue _fun0016 }
+case 83:
                     var4 = _closure1_slot15;
                     _closure1_slot16 = var4;
-case 78:
+case 79:
                     var4 = _closure1_slot28;
                     var1 = var2[var3];
                     var1 = var4.bind(var5)(var6, var1);

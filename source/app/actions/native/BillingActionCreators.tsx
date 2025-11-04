@@ -3749,7 +3749,9 @@ case 370: // catch_target0 // catch_target1 // catch_target2
                     var9 = null;
                     if(!(var9 != var10)) { _fun0024_ip = 371; continue _fun0024 }
 case 372:
-                    var8 = var8.bind(var2)();
+                    var9 = var8;
+                    var8 = var6;
+                    var8 = var9.bind(var2)(var8);
 case 371:
                     var8 = _closure1_slot30;
                     var7 = var6;

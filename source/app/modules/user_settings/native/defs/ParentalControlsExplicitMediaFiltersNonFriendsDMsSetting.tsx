@@ -10,7 +10,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
-            var1 = 3;
+            var1 = 2;
             var1 = var3[var1];
             var3 = undefined;
             var4 = var4.bind(var3)(var1);
@@ -29,7 +29,7 @@ case 2:
 case 5:
             var4 = _closure1_slot0;
             var6 = _closure1_slot1;
-            var2 = 4;
+            var2 = 3;
             var2 = var6[var2];
             var4 = var4.bind(var3)(var2);
             var2 = var4.redactionSettingToRenderedString;
@@ -51,14 +51,14 @@ case 0:
 case 7:
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
-            var1 = 5;
+            var1 = 4;
             var1 = var9[var1];
             var7 = undefined;
             var2 = var8.bind(var7)(var1);
             var1 = var2.getExplicitContentSettingOrDefault;
             var1 = var1.bind(var2)(var3);
             var4 = var1.explicitContentNonFriendDm;
-            var1 = 6;
+            var1 = 5;
             var2 = var9[var1];
             var2 = var8.bind(var7)(var2);
             var3 = var2.intl;
@@ -68,7 +68,7 @@ case 7:
             var1 = var1.t;
             var1 = var1.GYpoAq;
             var10 = var2.bind(var3)(var1);
-            var1 = 7;
+            var1 = 6;
             var1 = var9[var1];
             var3 = var8.bind(var7)(var1);
             var2 = var3.handleSensitiveMediaFilterPress;
@@ -77,7 +77,7 @@ case 7:
             var6 = _closure1_slot3;
             var6 = var6.bind(var7)();
             var1['subtitle'] = var6;
-            var6 = 8;
+            var6 = 7;
             var6 = var9[var6];
             var6 = var8.bind(var7)(var6);
             var6 = var6.ExplicitContentRedaction;
@@ -88,7 +88,7 @@ case 7:
             var5 = function handlePress(arg1) {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot1;
-                var1 = 5;
+                var1 = 4;
                 var2 = var2[var1];
                 var1 = undefined;
                 var5 = var3.bind(var1)(var2);
@@ -108,10 +108,10 @@ case 6:
             return var1;
         }
     };
-    var10 = function getTitle() {
+    var12 = function getTitle() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;
-        var1 = 6;
+        var1 = 5;
         var2 = var6[var1];
         var4 = undefined;
         var2 = var5.bind(var4)(var2);
@@ -124,38 +124,37 @@ case 6:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var _closure1_slot3 = var10;
+    var _closure1_slot3 = var12;
     var1 = global;
-    var12 = var1.Object;
-    var11 = var12.defineProperty;
+    var11 = var1.Object;
+    var9 = var11.defineProperty;
     var5 = {};
-    var6 = true;
-    var5['value'] = var6;
+    var10 = true;
+    var5['value'] = var10;
     var1 = '__esModule';
-    var1 = var11.bind(var12)(var3, var1, var5);
+    var1 = var9.bind(var11)(var3, var1, var5);
     var1 = 0;
-    var11 = var8[var1];
+    var9 = var8[var1];
     var5 = metroImportDefault;
     var1 = undefined;
-    var5 = var5.bind(var1)(var11);
+    var5 = var5.bind(var1)(var9);
     var _closure1_slot2 = var5;
     var5 = 1;
     var5 = var8[var5];
     var5 = var7.bind(var1)(var5);
-    var9 = var5.MobileSetting;
+    var11 = var5.MobileSetting;
+    var5 = 8;
+    var5 = var8[var5];
+    var9 = var7.bind(var1)(var5);
+    var6 = var9.createPressable;
     var5 = {};
-    var11 = 2;
-    var11 = var8[var11];
-    var11 = var7.bind(var1)(var11);
-    var11 = var11.RendererType;
-    var11 = var11.PRESSABLE;
-    var5['type'] = var11;
-    var5['title'] = var10;
-    var9 = var9.PARENTAL_CONTROLS_SENSITIVE_CONTENT_FILTERS;
-    var5['parent'] = var9;
+    var5['title'] = var12;
+    var11 = var11.PARENTAL_CONTROLS_SENSITIVE_CONTENT_FILTERS;
+    var5['parent'] = var11;
     var5['useTrailing'] = var4;
     var5['onPress'] = var2;
-    var5['unsearchable'] = var6;
+    var5['unsearchable'] = var10;
+    var5 = var6.bind(var9)(var5);
     var6 = 9;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);

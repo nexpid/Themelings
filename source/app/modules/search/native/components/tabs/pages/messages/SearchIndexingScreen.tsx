@@ -41,7 +41,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = new Array(1);
         var3[0] = var5;
         var2 = function() {
-            var3 = _closure1_slot0;
+            var3 = _closure1_slot1;
             var2 = _closure1_slot2;
             var1 = 2;
             var2 = var2[var1];

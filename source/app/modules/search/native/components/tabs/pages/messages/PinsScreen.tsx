@@ -128,48 +128,37 @@ case 8:
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                 var1 = arg1;
-                var9 = arg2;
                 var4 = var1.channelId;
                 var3 = var1.messageId;
-                var5 = _closure1_slot0;
-                var7 = _closure1_slot2;
+                var2 = _closure1_slot6;
+                var1 = var2.getMessage;
+                var10 = var1.bind(var2)(var3);
+                var5 = _closure1_slot1;
+                var2 = _closure1_slot2;
                 var1 = 12;
-                var2 = var7[var1];
+                var2 = var2[var1];
                 var1 = undefined;
-                var11 = var5.bind(var1)(var2);
-                var6 = var11.trackSearchResultClicked;
+                var7 = var5.bind(var1)(var2);
+                var6 = var7.trackSearchResultClicked;
                 var5 = {};
-                var10 = _closure2_slot0;
-                var5['searchContext'] = var10;
+                var9 = _closure2_slot0;
+                var5['searchContext'] = var9;
                 var5['channelId'] = var4;
                 var5['messageId'] = var3;
-                var5['index'] = var9;
-                var5 = var6.bind(var11)(var5);
-                var6 = _closure1_slot6;
-                var5 = var6.getMessage;
-                var11 = var5.bind(var6)(var3);
-                var6 = _closure1_slot1;
-                var5 = 13;
-                var5 = var7[var5];
-                var7 = var6.bind(var1)(var5);
-                var6 = var7.trackSearchResultClickedMobile;
-                var5 = {};
-                var5['searchContext'] = var10;
-                var5['channelId'] = var4;
-                var5['messageId'] = var3;
-                var12 = null;
-                var13 = var12 == var11;
-                var10 = undefined;
-                if(var13) { _fun0003_ip = 10; continue _fun0003 }
-case 11:
-                var11 = var11.author;
-                var12 = var12 == var11;
-                var10 = undefined;
+                var11 = null;
+                var12 = var11 == var10;
+                var9 = undefined;
                 if(var12) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
+                var10 = var10.author;
+                var11 = var11 == var10;
+                var9 = undefined;
+                if(var11) { _fun0003_ip = 10; continue _fun0003 }
 case 12:
-                var10 = var11.id;
+                var9 = var10.id;
 case 10:
-                var5['userId'] = var10;
+                var5['userId'] = var9;
+                var9 = arg2;
                 var5['index'] = var9;
                 var8 = _closure1_slot12;
                 var8 = var8.MESSAGE;
@@ -271,14 +260,14 @@ case 15:
             }
         };
         var9 = var3.bind(var9)(var1, var2);
-        var1 = 14;
+        var1 = 13;
         var1 = var7[var1];
         var2 = var6.bind(var4)(var1);
         var1 = var2.useContentContainerStyles;
         var10 = var1.bind(var2)();
         var3 = _closure1_slot14;
         var2 = _closure1_slot1;
-        var1 = 15;
+        var1 = 14;
         var1 = var7[var1];
         var2 = var2.bind(var4)(var1);
         var1 = {};
@@ -322,7 +311,7 @@ case 18:
         var1['onEndReached'] = var8;
         var5 = _closure1_slot11;
         var1['estimatedItemSize'] = var5;
-        var5 = 16;
+        var5 = 15;
         var5 = var7[var5];
         var5 = var6.bind(var4)(var5);
         var5 = var5.MessageVerticalSeparator;
@@ -392,10 +381,9 @@ case 18:
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var1 = arg1;
-            var9 = var1.searchContext;
-            var8 = var1.tab;
-            var7 = var1.isFocused;
-            var6 = var1.onViewableItemsChanged;
+            var8 = var1.searchContext;
+            var7 = var1.tab;
+            var6 = var1.isFocused;
             var4 = _closure1_slot7;
             var3 = var4.useState;
             var1 = function(arg1) {
@@ -404,53 +392,52 @@ case 0:
                 var1 = var1.bind(var2)();
                 return var1;
             };
-            var1 = var3.bind(var4)(var9, var1);
+            var1 = var3.bind(var4)(var8, var1);
             if(!var1) { _fun0006_ip = 21; continue _fun0006 }
-case 22:
-            var3 = var9.type;
+case 16:
+            var3 = var8.type;
             var1 = _closure1_slot13;
             var1 = var1.CHANNEL;
-            if(!(var3 !== var1)) { _fun0006_ip = 23; continue _fun0006 }
-case 24:
-            var3 = var9.type;
+            if(!(var3 !== var1)) { _fun0006_ip = 22; continue _fun0006 }
+case 23:
+            var3 = var8.type;
             var1 = _closure1_slot13;
             var1 = var1.GUILD_CHANNEL;
-            if(!(var3 !== var1)) { _fun0006_ip = 23; continue _fun0006 }
-case 25:
-            var3 = var9.type;
+            if(!(var3 !== var1)) { _fun0006_ip = 22; continue _fun0006 }
+case 24:
+            var3 = var8.type;
             var1 = _closure1_slot13;
             var1 = var1.THREAD;
             if(!(var3 === var1)) { _fun0006_ip = 21; continue _fun0006 }
-case 23:
+case 22:
             var5 = _closure1_slot14;
             var4 = _closure1_slot15;
             var3 = {};
-            var3['searchContext'] = var9;
-            var3['tab'] = var8;
-            var3['isFocused'] = var7;
+            var3['searchContext'] = var8;
+            var3['tab'] = var7;
+            var3['isFocused'] = var6;
             var1 = undefined;
             var1 = var5.bind(var1)(var4, var3);
-            _fun0006_ip = 26; continue _fun0006;
+            _fun0006_ip = 25; continue _fun0006;
 case 21:
             var5 = _closure1_slot14;
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
-            var2 = 17;
+            var2 = 16;
             var2 = var4[var2];
             var4 = undefined;
             var3 = var3.bind(var4)(var2);
             var2 = {};
-            var2['searchContext'] = var9;
-            var2['tab'] = var8;
-            var2['isFocused'] = var7;
-            var2['onViewableItemsChanged'] = var6;
+            var2['searchContext'] = var8;
+            var2['tab'] = var7;
+            var2['isFocused'] = var6;
             var1 = var5.bind(var4)(var3, var2);
-case 26:
+case 25:
             return var1;
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 18;
+    var4 = 17;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

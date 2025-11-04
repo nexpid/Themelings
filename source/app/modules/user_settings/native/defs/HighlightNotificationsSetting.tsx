@@ -8,7 +8,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function useHighlightNotifications() {
         var4 = _closure1_slot0;
         var3 = _closure1_slot1;
-        var2 = 4;
+        var2 = 3;
         var3 = var3[var2];
         var2 = undefined;
         var4 = var4.bind(var2)(var3);
@@ -28,13 +28,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1 = global;
-    var9 = var1.Object;
-    var5 = var9.defineProperty;
+    var8 = var1.Object;
+    var5 = var8.defineProperty;
     var4 = {};
     var1 = true;
     var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var5.bind(var9)(var3, var1, var4);
+    var1 = var5.bind(var8)(var3, var1, var4);
     var1 = 0;
     var5 = var7[var1];
     var4 = metroImportDefault;
@@ -44,19 +44,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 1;
     var4 = var7[var4];
     var4 = var6.bind(var1)(var4);
-    var5 = var4.MobileSetting;
+    var9 = var4.MobileSetting;
     var4 = 2;
     var4 = var7[var4];
     var4 = var6.bind(var1)(var4);
-    var9 = var4.UserSettingsSections;
+    var11 = var4.UserSettingsSections;
+    var4 = 4;
+    var4 = var7[var4];
+    var8 = var6.bind(var1)(var4);
+    var5 = var8.createRoute;
     var4 = {};
-    var10 = 3;
-    var10 = var7[var10];
-    var10 = var6.bind(var1)(var10);
-    var10 = var10.RendererType;
-    var10 = var10.ROUTE;
-    var4['type'] = var10;
-    var10 = function title() {
+    var12 = function title() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;
         var1 = 5;
@@ -72,10 +70,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var4['title'] = var10;
-    var5 = var5.NOTIFICATIONS;
-    var4['parent'] = var5;
-    var5 = function useDescription() {
+    var4['title'] = var12;
+    var9 = var9.NOTIFICATIONS;
+    var4['parent'] = var9;
+    var9 = function useDescription() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;
         var1 = 5;
@@ -91,12 +89,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var4['useDescription'] = var5;
+    var4['useDescription'] = var9;
     var4['usePredicate'] = var2;
-    var5 = {};
-    var9 = var9.HIGHLIGHT_NOTIFICATIONS;
-    var5['route'] = var9;
-    var8 = function getComponent() {
+    var9 = {};
+    var11 = var11.HIGHLIGHT_NOTIFICATIONS;
+    var9['route'] = var11;
+    var10 = function getComponent() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 6;
@@ -106,8 +104,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var5['getComponent'] = var8;
-    var4['screen'] = var5;
+    var9['getComponent'] = var10;
+    var4['screen'] = var9;
+    var4 = var5.bind(var8)(var4);
     var5 = 7;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);

@@ -647,7 +647,7 @@ case 81:
         }
     };
     var _closure1_slot11 = var5;
-    var5 = function addFilePrototol(arg1) {
+    var5 = function addFileProtocol(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var4 = arg1;

@@ -212,8 +212,8 @@ case 30:
 case 26:
             var1 = var4;
 case 24:
-            if(!var1) { _fun0004_ip = 10; continue _fun0004 }
-case 32:
+            if(!var1) { _fun0004_ip = 32; continue _fun0004 }
+case 33:
             var4 = null;
             var3['activeCommand'] = var4;
             var3['activeOptionName'] = var4;
@@ -221,7 +221,7 @@ case 32:
             var2 = {};
             var3['optionStates'] = var2;
             var1 = true;
-case 10:
+case 32:
             return var1;
         }
     };
@@ -256,8 +256,8 @@ case 0:
             var7 = undefined;
             var6 = undefined;
             var5 = undefined;
-            if(!var4) { _fun0005_ip = 33; continue _fun0005 }
-case 34:
+            if(!var4) { _fun0005_ip = 34; continue _fun0005 }
+case 35:
             var18 = var15[var9];
             var4 = _closure1_slot7;
             var4 = var4.bind(var16)(var18, var11);
@@ -269,19 +269,19 @@ case 34:
             var20 = var7;
             var19 = var6;
             var18 = var5;
-            if(!var4) { _fun0005_ip = 35; continue _fun0005 }
-case 36:
-            var4 = var26.hasValue;
-            if(!(var16 === var4)) { _fun0005_ip = 37; continue _fun0005 }
-case 38:
-            var4 = var2[var25];
-            var4 = var4.hasValue;
-            _fun0005_ip = 39; continue _fun0005;
+            if(!var4) { _fun0005_ip = 36; continue _fun0005 }
 case 37:
             var4 = var26.hasValue;
+            if(!(var16 === var4)) { _fun0005_ip = 38; continue _fun0005 }
 case 39:
+            var4 = var2[var25];
+            var4 = var4.hasValue;
+            _fun0005_ip = 17; continue _fun0005;
+case 38:
+            var4 = var26.hasValue;
+case 17:
             if(var4) { _fun0005_ip = 40; continue _fun0005 }
-case 41:
+case 16:
             var4 = {'hasValue': false, 'isActive': false, 'lastValidationResult': null, 'optionValue': null};
             var4['location'] = var16;
             var4['length'] = var16;
@@ -291,35 +291,35 @@ case 41:
             var20 = var7;
             var19 = var6;
             var18 = var5;
-            if(!(var4 === var25)) { _fun0005_ip = 35; continue _fun0005 }
-case 42:
+            if(!(var4 === var25)) { _fun0005_ip = 36; continue _fun0005 }
+case 41:
             var3['activeOptionName'] = var12;
             var21 = var8;
             var20 = var7;
             var19 = var6;
             var18 = var5;
-            _fun0005_ip = 35; continue _fun0005;
+            _fun0005_ip = 36; continue _fun0005;
 case 40:
             var4 = var2[var25];
             var27 = {};
             var27['hasValue'] = var1;
             var22 = var26.isActive;
-            if(!(var16 === var22)) { _fun0005_ip = 43; continue _fun0005 }
-case 44:
-            var22 = var4.isActive;
-            _fun0005_ip = 45; continue _fun0005;
+            if(!(var16 === var22)) { _fun0005_ip = 42; continue _fun0005 }
 case 43:
+            var22 = var4.isActive;
+            _fun0005_ip = 44; continue _fun0005;
+case 42:
             var22 = var26.isActive;
-case 45:
+case 44:
             var27['isActive'] = var22;
             var22 = var26.lastValidationResult;
-            if(!(var16 === var22)) { _fun0005_ip = 46; continue _fun0005 }
-case 47:
-            var22 = var4.lastValidationResult;
-            _fun0005_ip = 22; continue _fun0005;
+            if(!(var16 === var22)) { _fun0005_ip = 45; continue _fun0005 }
 case 46:
+            var22 = var4.lastValidationResult;
+            _fun0005_ip = 47; continue _fun0005;
+case 45:
             var22 = var26.lastValidationResult;
-case 22:
+case 47:
             var27['lastValidationResult'] = var22;
             var24 = var26.optionValue;
             var22 = var24;
@@ -348,7 +348,7 @@ case 52:
             var20 = var23;
             var19 = var22;
             var18 = var4;
-            if(!(var16 !== var27)) { _fun0005_ip = 35; continue _fun0005 }
+            if(!(var16 !== var27)) { _fun0005_ip = 36; continue _fun0005 }
 case 54:
             var27 = var26.isActive;
             var26 = var3.activeOptionName;
@@ -358,14 +358,14 @@ case 56:
             var20 = var23;
             var19 = var22;
             var18 = var4;
-            if(!(var25 === var26)) { _fun0005_ip = 35; continue _fun0005 }
+            if(!(var25 === var26)) { _fun0005_ip = 36; continue _fun0005 }
 case 57:
             var3['activeOptionName'] = var12;
             var21 = var24;
             var20 = var23;
             var19 = var22;
             var18 = var4;
-            _fun0005_ip = 35; continue _fun0005;
+            _fun0005_ip = 36; continue _fun0005;
 case 55:
             var26 = var12 != var26;
             if(!var26) { _fun0005_ip = 58; continue _fun0005 }
@@ -391,15 +391,15 @@ case 60:
             var20 = var23;
             var19 = var22;
             var18 = var4;
-case 35:
+case 36:
             var9 = var9 + 1;
             var4 = var15.length;
             var8 = var21;
             var7 = var20;
             var6 = var19;
             var5 = var18;
-            if(var9 < var4) { _fun0005_ip = 34; continue _fun0005 }
-case 33:
+            if(var9 < var4) { _fun0005_ip = 35; continue _fun0005 }
+case 34:
             var3['optionStates'] = var2;
             return var1;
         }
@@ -511,7 +511,7 @@ case 0:
                     var1 = var3.getChannelId;
                     var5 = var1.bind(var3)();
                     var1 = null;
-                    if(!(var1 != var5)) { _fun0007_ip = 32; continue _fun0007 }
+                    if(!(var1 != var5)) { _fun0007_ip = 33; continue _fun0007 }
 case 65:
                     var4 = _closure1_slot8;
                     var3 = var4.getCurrentSidebarChannelId;
@@ -541,7 +541,7 @@ case 71:
 case 68:
                     var1 = false;
                     return var1;
-case 32:
+case 33:
                     var1 = {};
                     _closure1_slot10 = var1;
                     var1 = true;

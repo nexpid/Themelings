@@ -8,18 +8,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var4;
     var _closure1_slot2 = var6;
     var1 = global;
-    var9 = var1.Object;
-    var8 = var9.defineProperty;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
     var2 = {};
     var1 = true;
     var2['value'] = var1;
     var1 = '__esModule';
-    var1 = var8.bind(var9)(var3, var1, var2);
+    var1 = var7.bind(var8)(var3, var1, var2);
     var1 = 0;
-    var8 = var6[var1];
+    var7 = var6[var1];
     var2 = metroImportAll;
     var1 = undefined;
-    var2 = var2.bind(var1)(var8);
+    var2 = var2.bind(var1)(var7);
     var _closure1_slot3 = var2;
     var2 = 1;
     var2 = var6[var2];
@@ -33,11 +33,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = 3;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
-    var4 = var2.MobileSetting;
-    var13 = 4;
-    var2 = var6[var13];
+    var8 = var2.MobileSetting;
+    var12 = 4;
+    var2 = var6[var12];
     var2 = var5.bind(var1)(var2);
-    var8 = var2.UserSettingsSections;
+    var10 = var2.UserSettingsSections;
     var2 = 5;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
@@ -46,33 +46,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = 6;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
-    var9 = var2.RendererType;
-    var2 = 7;
-    var2 = var6[var2];
-    var2 = var5.bind(var1)(var2);
-    var10 = var2.jsx;
-    var _closure1_slot7 = var10;
+    var4 = var2.jsx;
+    var _closure1_slot7 = var4;
     var2 = var2.jsxs;
     var _closure1_slot8 = var2;
-    var2 = 8;
+    var2 = 7;
     var2 = var6[var2];
-    var11 = var5.bind(var1)(var2);
-    var10 = var11.createStyles;
+    var7 = var5.bind(var1)(var2);
+    var4 = var7.createStyles;
     var2 = {};
-    var12 = {'flexDirection': 'row', 'alignItems': 'center'};
-    var2['usernameTrailing'] = var12;
-    var12 = {};
-    var12['marginLeft'] = var13;
-    var2['usernameIcon'] = var12;
-    var2 = var10.bind(var11)(var2);
+    var11 = {'flexDirection': 'row', 'alignItems': 'center'};
+    var2['usernameTrailing'] = var11;
+    var11 = {};
+    var11['marginLeft'] = var12;
+    var2['usernameIcon'] = var11;
+    var2 = var4.bind(var7)(var2);
     var _closure1_slot9 = var2;
+    var2 = 23;
+    var2 = var6[var2];
+    var7 = var5.bind(var1)(var2);
+    var4 = var7.createRoute;
     var2 = {};
-    var9 = var9.ROUTE;
-    var2['type'] = var9;
-    var9 = function title() {
+    var11 = function title() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
-        var1 = 22;
+        var1 = 21;
         var2 = var6[var1];
         var4 = undefined;
         var2 = var5.bind(var4)(var2);
@@ -85,10 +83,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var2['title'] = var9;
-    var4 = var4.ACCOUNT;
-    var2['parent'] = var4;
-    var4 = function useGetAccountUsernameSettingCanNavigate() {
+    var2['title'] = var11;
+    var8 = var8.ACCOUNT;
+    var2['parent'] = var8;
+    var8 = function useGetAccountUsernameSettingCanNavigate() {
         var4 = _closure1_slot3;
         var3 = var4.useCallback;
         var2 = function() {
@@ -99,13 +97,13 @@ case 0:
                 var4 = var1.bind(var2)();
                 var3 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var1 = 9;
+                var1 = 8;
                 var1 = var6[var1];
                 var9 = undefined;
                 var2 = var3.bind(var9)(var1);
                 var1 = var2.isEligibleForPomelo;
                 var1 = var1.bind(var2)();
-                var2 = 19;
+                var2 = 18;
                 var2 = var6[var2];
                 var3 = var3.bind(var9)(var2);
                 var2 = var3.getPomeloEligibility;
@@ -133,7 +131,7 @@ case 8:
 case 10:
                 var3 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var2 = 23;
+                var2 = 22;
                 var2 = var4[var2];
                 var4 = var3.bind(var9)(var2);
                 var3 = var4.openPomeloModal;
@@ -146,19 +144,19 @@ case 9:
 case 7:
                 var7 = _closure1_slot1;
                 var10 = _closure1_slot2;
-                var2 = 20;
+                var2 = 19;
                 var2 = var10[var2];
                 var4 = var7.bind(var9)(var2);
                 var3 = var4.open;
                 var2 = {};
                 var6 = 'POMELO_UPDATE_DISABLED_MESSAGE';
                 var2['key'] = var6;
-                var6 = 21;
+                var6 = 20;
                 var6 = var10[var6];
                 var6 = var7.bind(var9)(var6);
                 var2['icon'] = var6;
                 var8 = _closure1_slot0;
-                var5 = 22;
+                var5 = 21;
                 var6 = var10[var5];
                 var6 = var8.bind(var9)(var6);
                 var7 = var6.intl;
@@ -182,8 +180,8 @@ case 2:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var2['usePreNavigationAction'] = var4;
-    var4 = function useAccountUsernameSettingTrailing() {
+    var2['usePreNavigationAction'] = var8;
+    var8 = function useAccountUsernameSettingTrailing() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var1 = _closure1_slot9;
@@ -191,12 +189,12 @@ case 0:
             var10 = var1.bind(var5)();
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var1 = 9;
+            var1 = 8;
             var1 = var4[var1];
             var2 = var3.bind(var5)(var1);
             var1 = var2.useIsEligibleForPomelo;
             var2 = var1.bind(var2)();
-            var1 = 10;
+            var1 = 9;
             var1 = var4[var1];
             var6 = var3.bind(var5)(var1);
             var4 = var6.useStateFromStores;
@@ -206,7 +204,7 @@ case 0:
             var1 = function() {
                 var4 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var2 = 11;
+                var2 = 10;
                 var3 = var3[var2];
                 var2 = undefined;
                 var4 = var4.bind(var2)(var3);
@@ -232,7 +230,7 @@ case 13:
             var9 = _closure1_slot7;
             var8 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var6 = 12;
+            var6 = 11;
             var6 = var12[var6];
             var6 = var8.bind(var5)(var6);
             var6 = var6.TableRow;
@@ -243,25 +241,25 @@ case 13:
             var6 = new Array(2);
             var6[0] = var8;
             var11 = _closure1_slot1;
-            var7 = 13;
+            var7 = 12;
             var7 = var12[var7];
             var8 = var11.bind(var5)(var7);
             var7 = {};
             var10 = var10.usernameIcon;
             var7['style'] = var10;
-            var10 = 14;
+            var10 = 13;
             var10 = var12[var10];
             var10 = var11.bind(var5)(var10);
             var10 = var10.colors;
             var10 = var10.STATUS_WARNING;
             var7['themedColor'] = var10;
-            var10 = 15;
+            var10 = 14;
             var10 = var12[var10];
             var10 = var11.bind(var5)(var10);
             var10 = var10.Sizes;
             var10 = var10.SMALL_20;
             var7['size'] = var10;
-            var10 = 16;
+            var10 = 15;
             var10 = var12[var10];
             var10 = var11.bind(var5)(var10);
             var7['source'] = var10;
@@ -273,13 +271,13 @@ case 12:
             return var1;
         }
     };
-    var2['useTrailing'] = var4;
-    var4 = function useAccountUsernameSettingDescription() {
+    var2['useTrailing'] = var8;
+    var8 = function useAccountUsernameSettingDescription() {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var1 = 17;
+            var1 = 16;
             var1 = var4[var1];
             var5 = undefined;
             var3 = var3.bind(var5)(var1);
@@ -305,7 +303,7 @@ case 18:
             var4 = _closure1_slot7;
             var3 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var2 = 18;
+            var2 = 17;
             var2 = var7[var2];
             var2 = var3.bind(var5)(var2);
             var3 = var2.Text;
@@ -316,11 +314,11 @@ case 17:
             return var1;
         }
     };
-    var2['useDescription'] = var4;
-    var4 = {};
-    var8 = var8.ACCOUNT_CHANGE_USERNAME;
-    var4['route'] = var8;
-    var7 = function getComponent() {
+    var2['useDescription'] = var8;
+    var8 = {};
+    var10 = var10.ACCOUNT_CHANGE_USERNAME;
+    var8['route'] = var10;
+    var9 = function getComponent() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
         var1 = 24;
@@ -330,8 +328,9 @@ case 17:
         var1 = var1.default;
         return var1;
     };
-    var4['getComponent'] = var7;
-    var2['screen'] = var4;
+    var8['getComponent'] = var9;
+    var2['screen'] = var8;
+    var2 = var4.bind(var7)(var2);
     var4 = 25;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

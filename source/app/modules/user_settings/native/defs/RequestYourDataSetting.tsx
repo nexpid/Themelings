@@ -12,7 +12,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var2 = 9;
+            var2 = 8;
             var2 = var9[var2];
             var7 = undefined;
             var6 = var8.bind(var7)(var2);
@@ -28,7 +28,7 @@ case 0:
             };
             var6 = var5.bind(var6)(var4, var2);
             var10 = _closure1_slot7;
-            var2 = 10;
+            var2 = 9;
             var4 = var9[var2];
             var4 = var8.bind(var7)(var4);
             var5 = var4.shallow;
@@ -56,7 +56,7 @@ case 3:
 case 5:
             var4 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var3 = 11;
+            var3 = 10;
             var3 = var8[var3];
             var4 = var4.bind(var7)(var3);
             var3 = var4.harvestDisabled;
@@ -89,39 +89,37 @@ case 2:
     var5 = 2;
     var5 = var8[var5];
     var5 = var7.bind(var1)(var5);
-    var6 = var5.MobileSetting;
+    var10 = var5.MobileSetting;
     var5 = 3;
     var5 = var8[var5];
     var5 = var7.bind(var1)(var5);
-    var9 = var5.REQUEST_DATA_LIMIT_DAYS;
-    var _closure1_slot5 = var9;
-    var9 = var5.UserSettingsSections;
+    var6 = var5.REQUEST_DATA_LIMIT_DAYS;
+    var _closure1_slot5 = var6;
+    var11 = var5.UserSettingsSections;
     var5 = 4;
-    var5 = var8[var5];
-    var5 = var7.bind(var1)(var5);
-    var10 = var5.RendererType;
-    var5 = 5;
     var5 = var8[var5];
     var5 = var7.bind(var1)(var5);
     var5 = var5.jsx;
     var _closure1_slot6 = var5;
-    var5 = 6;
+    var5 = 5;
     var5 = var8[var5];
-    var12 = var7.bind(var1)(var5);
-    var11 = var12.createWithEqualityFn;
+    var9 = var7.bind(var1)(var5);
+    var6 = var9.createWithEqualityFn;
     var5 = function() {
         var1 = {'isRequesting': false, 'harvestRequest': null};
         return var1;
     };
-    var5 = var11.bind(var12)(var5);
+    var5 = var6.bind(var9)(var5);
     var _closure1_slot7 = var5;
+    var5 = 13;
+    var5 = var8[var5];
+    var9 = var7.bind(var1)(var5);
+    var6 = var9.createRoute;
     var5 = {};
-    var10 = var10.ROUTE;
-    var5['type'] = var10;
-    var10 = function title() {
+    var12 = function title() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
-        var1 = 12;
+        var1 = 11;
         var2 = var6[var1];
         var4 = undefined;
         var2 = var5.bind(var4)(var2);
@@ -134,17 +132,17 @@ case 2:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5['title'] = var10;
-    var6 = var6.DATA_AND_PRIVACY;
-    var5['parent'] = var6;
-    var6 = function useHarvestRequestSettingTrailing() {
+    var5['title'] = var12;
+    var10 = var10.DATA_AND_PRIVACY;
+    var5['parent'] = var10;
+    var10 = function useHarvestRequestSettingTrailing() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var1 = function useIsRequestingHarvestState() {
                 var4 = _closure1_slot7;
                 var2 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var1 = 10;
+                var1 = 9;
                 var1 = var3[var1];
                 var3 = undefined;
                 var1 = var2.bind(var3)(var1);
@@ -170,15 +168,15 @@ case 6:
             return var1;
         }
     };
-    var5['useTrailing'] = var6;
-    var6 = function useRequestYourDataSettingDescription() {
+    var5['useTrailing'] = var10;
+    var10 = function useRequestYourDataSettingDescription() {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var1 = function useHarvestRequest() {
                 var4 = _closure1_slot7;
                 var2 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var1 = 10;
+                var1 = 9;
                 var1 = var3[var1];
                 var3 = undefined;
                 var1 = var2.bind(var3)(var1);
@@ -207,7 +205,7 @@ case 11:
 case 13:
             var5 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var3 = 13;
+            var3 = 12;
             var8 = var7[var3];
             var8 = var5.bind(var6)(var8);
             var4 = var4.created_at;
@@ -226,7 +224,7 @@ case 13:
 case 15:
             var5 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var4 = 12;
+            var4 = 11;
             var7 = var9[var4];
             var7 = var5.bind(var6)(var7);
             var8 = var7.intl;
@@ -248,7 +246,7 @@ case 12:
 case 10:
             var5 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var2 = 12;
+            var2 = 11;
             var3 = var7[var2];
             var3 = var5.bind(var6)(var3);
             var4 = var3.intl;
@@ -263,9 +261,9 @@ case 8:
             return var1;
         }
     };
-    var5['useDescription'] = var6;
+    var5['useDescription'] = var10;
     var5['useIsDisabled'] = var2;
-    var6 = function usePreNavigationAction() {
+    var10 = function usePreNavigationAction() {
         var3 = _closure1_slot8;
         var2 = undefined;
         var2 = var3.bind(var2)();
@@ -287,11 +285,11 @@ case 16:
         };
         return var1;
     };
-    var5['usePreNavigationAction'] = var6;
-    var6 = {};
-    var9 = var9.REQUEST_DATA;
-    var6['route'] = var9;
-    var9 = function getComponent() {
+    var5['usePreNavigationAction'] = var10;
+    var10 = {};
+    var11 = var11.REQUEST_DATA;
+    var10['route'] = var11;
+    var11 = function getComponent() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
         var1 = 14;
@@ -301,8 +299,9 @@ case 16:
         var1 = var1.default;
         return var1;
     };
-    var6['getComponent'] = var9;
-    var5['screen'] = var6;
+    var10['getComponent'] = var11;
+    var5['screen'] = var10;
+    var5 = var6.bind(var9)(var5);
     var6 = 15;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
@@ -313,7 +312,7 @@ case 16:
     var4 = function fetchHarvestStatus() {
         var4 = _closure1_slot0;
         var3 = _closure1_slot2;
-        var1 = 7;
+        var1 = 6;
         var3 = var3[var1];
         var1 = undefined;
         var4 = var4.bind(var1)(var3);
@@ -325,7 +324,7 @@ case 16:
             var _closure3_slot0 = var1;
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 8;
+            var1 = 7;
             var3 = var3[var1];
             var1 = undefined;
             var4 = var4.bind(var1)(var3);
@@ -349,7 +348,7 @@ case 16:
         var2 = function() {
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var1 = 8;
+            var1 = 7;
             var2 = var2[var1];
             var1 = undefined;
             var4 = var3.bind(var1)(var2);

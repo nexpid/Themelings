@@ -1,45 +1,43 @@
 // app/modules/user_settings/native/defs/InternalBuildUpdateSetting.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var8 = metroImportDefault;
+    var4 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var8;
+    var _closure1_slot1 = var4;
     var1 = metroImportAll;
     var _closure1_slot2 = var1;
     var _closure1_slot3 = var6;
     var1 = global;
     var10 = var1.Object;
-    var9 = var10.defineProperty;
+    var7 = var10.defineProperty;
     var2 = {};
-    var4 = true;
-    var2['value'] = var4;
+    var8 = true;
+    var2['value'] = var8;
     var1 = '__esModule';
-    var1 = var9.bind(var10)(var3, var1, var2);
+    var1 = var7.bind(var10)(var3, var1, var2);
     var1 = 0;
     var2 = var6[var1];
     var1 = undefined;
-    var2 = var8.bind(var1)(var2);
+    var2 = var4.bind(var1)(var2);
     var _closure1_slot4 = var2;
     var2 = 1;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
-    var8 = var2.RendererType;
-    var2 = 2;
-    var2 = var6[var2];
-    var2 = var5.bind(var1)(var2);
     var2 = var2.jsx;
     var _closure1_slot5 = var2;
-    var2 = {'type': null, 'title': 'Internal Build Update', 'parent': null};
-    var8 = var8.PRESSABLE;
-    var2['type'] = var8;
-    var8 = function InstallNativeUpdateIcon() {
+    var2 = 8;
+    var2 = var6[var2];
+    var7 = var5.bind(var1)(var2);
+    var4 = var7.createPressable;
+    var2 = {'title': 'Internal Build Update', 'parent': null};
+    var10 = function InstallNativeUpdateIcon() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var3 = _closure1_slot0;
             var4 = _closure1_slot3;
-            var1 = 4;
+            var1 = 3;
             var1 = var4[var1];
             var4 = undefined;
             var6 = var3.bind(var4)(var1);
@@ -62,13 +60,13 @@ case 0:
             var6 = _closure1_slot3;
             if(var1) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var1 = 8;
+            var1 = 7;
             var1 = var6[var1];
             var1 = var5.bind(var4)(var1);
             var2 = var1.RefreshIcon;
             _fun0001_ip = 4; continue _fun0001;
 case 2:
-            var1 = 7;
+            var1 = 6;
             var1 = var6[var1];
             var1 = var5.bind(var4)(var1);
             var2 = var1.DownloadIcon;
@@ -78,13 +76,13 @@ case 4:
             return var1;
         }
     };
-    var2['IconComponent'] = var8;
-    var8 = function useInternalBuildUpdateDescription() {
+    var2['IconComponent'] = var10;
+    var10 = function useInternalBuildUpdateDescription() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var6 = _closure1_slot0;
             var7 = _closure1_slot3;
-            var3 = 4;
+            var3 = 3;
             var5 = var7[var3];
             var4 = undefined;
             var11 = var6.bind(var4)(var5);
@@ -132,7 +130,7 @@ case 8:
 case 10:
             var6 = _closure1_slot1;
             var7 = _closure1_slot3;
-            var2 = 5;
+            var2 = 4;
             var2 = var7[var2];
             var2 = var6.bind(var4)(var2);
             var3 = var2.bind(var4)(var3);
@@ -156,13 +154,13 @@ case 11:
             return var1;
         }
     };
-    var2['useDescription'] = var8;
-    var8 = function useHasInternalBuildUpdateSetting() {
+    var2['useDescription'] = var10;
+    var10 = function useHasInternalBuildUpdateSetting() {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var4 = _closure1_slot0;
             var3 = _closure1_slot3;
-            var2 = 6;
+            var2 = 5;
             var3 = var3[var2];
             var2 = undefined;
             var3 = var4.bind(var2)(var3);
@@ -177,8 +175,8 @@ case 12:
             return var1;
         }
     };
-    var2['usePredicate'] = var8;
-    var7 = function handleInstallNativeUpdateSettingPress() {
+    var2['usePredicate'] = var10;
+    var9 = function handleInstallNativeUpdateSettingPress() {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var3 = _closure1_slot4;
@@ -195,7 +193,7 @@ case 15:
 case 14:
             var4 = _closure1_slot2;
             var2 = _closure1_slot3;
-            var1 = 3;
+            var1 = 2;
             var2 = var2[var1];
             var1 = undefined;
             var2 = var4.bind(var1)(var2);
@@ -206,8 +204,9 @@ case 16:
             return var1;
         }
     };
-    var2['onPress'] = var7;
-    var2['withArrow'] = var4;
+    var2['onPress'] = var9;
+    var2['withArrow'] = var8;
+    var2 = var4.bind(var7)(var2);
     var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

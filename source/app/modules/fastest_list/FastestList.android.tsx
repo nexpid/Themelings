@@ -219,20 +219,20 @@ case 0:
                         var7 = var2.item;
                         var6 = var2.animated;
                         var1 = undefined;
-                        if(!(var6 === var1)) { _fun0003_ip = 3; continue _fun0003 }
-case 24:
-                        var6 = false;
-case 3:
-                        var5 = var2.paddingStart;
-                        if(!(var5 === var1)) { _fun0003_ip = 25; continue _fun0003 }
-case 26:
-                        var5 = 0;
+                        if(!(var6 === var1)) { _fun0003_ip = 24; continue _fun0003 }
 case 25:
+                        var6 = false;
+case 24:
+                        var5 = var2.paddingStart;
+                        if(!(var5 === var1)) { _fun0003_ip = 26; continue _fun0003 }
+case 27:
+                        var5 = 0;
+case 26:
                         var3 = _closure2_slot2;
                         var4 = var3.current;
                         var3 = null;
-                        if(!(var3 != var4)) { _fun0003_ip = 27; continue _fun0003 }
-case 28:
+                        if(!(var3 != var4)) { _fun0003_ip = 28; continue _fun0003 }
+case 29:
                         var4 = _closure1_slot0;
                         var9 = _closure1_slot2;
                         var3 = 4;
@@ -248,7 +248,7 @@ case 28:
                         var11 = var6;
                         var10 = var5;
                         var2 = var15[var3](var14, var13, var12, var11, var10, var9);
-case 27:
+case 28:
                         return var1;
                     }
                 };
@@ -269,13 +269,13 @@ case 0:
                     var1 = _closure2_slot3;
                     var3 = var1.current;
                     var1 = null;
-                    if(!(var1 != var3)) { _fun0004_ip = 29; continue _fun0004 }
+                    if(!(var1 != var3)) { _fun0004_ip = 27; continue _fun0004 }
 case 30:
                     var2 = var3.setVisibleItems;
                     var1 = arg1;
                     var1 = var1.nativeEvent;
                     var1 = var2.bind(var3)(var1);
-case 29:
+case 27:
                     var1 = undefined;
                     return var1;
                 }
@@ -302,10 +302,10 @@ case 0:
                     var2 = null;
                     var2 = var2 != var3;
                     var5 = 'fst';
-                    if(!var2) { _fun0005_ip = 24; continue _fun0005 }
-case 31:
+                    if(!var2) { _fun0005_ip = 31; continue _fun0005 }
+case 32:
                     var5 = _closure2_slot1;
-case 24:
+case 31:
                     var1 = _closure1_slot9;
                     var4 = parseFloat(var1);
                     var1 = var4 + 1;
@@ -340,27 +340,27 @@ case 24:
             var35 = var9.onScroll;
             var34 = var9.onScrollBeginDrag;
             var33 = var9.onScrollEndDrag;
-            if(var7) { _fun0001_ip = 32; continue _fun0001 }
-case 33:
+            if(var7) { _fun0001_ip = 33; continue _fun0001 }
+case 34:
             var7 = 'animatedScrollPosition';
-            if(!(var7 !== var8)) { _fun0001_ip = 34; continue _fun0001 }
-case 35:
-            var7 = 'animatedCallbacks';
-            if(!(var7 !== var8)) { _fun0001_ip = 34; continue _fun0001 }
+            if(!(var7 !== var8)) { _fun0001_ip = 35; continue _fun0001 }
 case 36:
+            var7 = 'animatedCallbacks';
+            if(!(var7 !== var8)) { _fun0001_ip = 35; continue _fun0001 }
+case 37:
             var8 = _closure1_slot1;
             var9 = _closure1_slot2;
             var7 = 4;
             var7 = var9[var7];
             var9 = var8.bind(var5)(var7);
-            _fun0001_ip = 37; continue _fun0001;
-case 34:
-            var9 = _closure1_slot7;
-case 37:
             _fun0001_ip = 38; continue _fun0001;
-case 32:
-            var9 = _closure1_slot8;
+case 35:
+            var9 = _closure1_slot7;
 case 38:
+            _fun0001_ip = 39; continue _fun0001;
+case 33:
+            var9 = _closure1_slot8;
+case 39:
             var8 = _closure1_slot4;
             var7 = {};
             var7['accessibilityLabel'] = var41;
@@ -369,11 +369,11 @@ case 38:
             var7['insetEnd'] = var38;
             var38 = 'on-drag';
             var38 = var38 === var40;
-            if(var38) { _fun0001_ip = 39; continue _fun0001 }
-case 40:
+            if(var38) { _fun0001_ip = 40; continue _fun0001 }
+case 41:
             var39 = 'interactive';
             var38 = var39 === var40;
-case 39:
+case 40:
             var7['keyboardDismissOnDrag'] = var38;
             var7['onUnexpectedItemSize'] = var37;
             var7['onLayout'] = var36;
@@ -413,10 +413,10 @@ case 39:
             var7['sectionsVersioned'] = var12;
             var7['wrapChildren'] = var11;
             var7 = var10.bind(var5)(var9, var7);
-            if(!var4) { _fun0001_ip = 41; continue _fun0001 }
+            if(!var4) { _fun0001_ip = 42; continue _fun0001 }
+case 43:
+            if(!(var1 == var3)) { _fun0001_ip = 44; continue _fun0001 }
 case 42:
-            if(!(var1 == var3)) { _fun0001_ip = 43; continue _fun0001 }
-case 41:
             var4 = _closure1_slot4;
             var3 = _closure1_slot1;
             var9 = _closure1_slot2;
@@ -428,8 +428,8 @@ case 41:
             var51 = var6;
             var6 = copyDataProperties(var52, var51);
             var1 = var4.bind(var5)(var3, var1);
-            _fun0001_ip = 44; continue _fun0001;
-case 43:
+            _fun0001_ip = 45; continue _fun0001;
+case 44:
             var4 = _closure1_slot6;
             var3 = _closure1_slot5;
             var2 = {};
@@ -438,7 +438,7 @@ case 43:
             var6[1] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 44:
+case 45:
             return var1;
         }
     };

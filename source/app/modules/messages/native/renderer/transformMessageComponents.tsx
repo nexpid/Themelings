@@ -206,12 +206,15 @@ case 37:
             return var12;
 case 36:
             var12 = {};
-            var14 = var6.type;
+            var18 = _closure1_slot0;
+            var14 = _closure1_slot2;
+            var14 = var14[var10];
+            var14 = var18.bind(var7)(var14);
+            var14 = var14.ComponentType;
+            var14 = var14.UNKNOWN;
             var12['type'] = var14;
             var14 = var6.id;
             var12['id'] = var14;
-            var14 = {};
-            var12['checkpointData'] = var14;
             return var12;
 case 33:
             var12 = null;
@@ -649,7 +652,7 @@ case 81:
                     var7 = var7.MediaGalleryItemType;
                     var7 = var7.VIDEO;
                     if(!(var6 !== var7)) { _fun0003_ip = 82; continue _fun0003 }
-case 31:
+case 83:
                     var12 = _closure1_slot0;
                     var13 = _closure1_slot2;
                     var7 = 6;
@@ -662,7 +665,7 @@ case 31:
                     var7 = var7.t;
                     var7 = var7.fKyfca;
                     var10 = var10.bind(var11)(var7);
-                    _fun0003_ip = 83; continue _fun0003;
+                    _fun0003_ip = 39; continue _fun0003;
 case 82:
                     var13 = _closure1_slot0;
                     var14 = _closure1_slot2;
@@ -676,7 +679,7 @@ case 82:
                     var7 = var7.t;
                     var7 = var7./SCpvi;
                     var10 = var11.bind(var12)(var7);
-case 83:
+case 39:
                     var7 = 'accessibilityRole';
                     var2[var7] = var10;
                     var7 = _closure1_slot0;

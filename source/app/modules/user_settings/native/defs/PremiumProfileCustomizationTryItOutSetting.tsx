@@ -6,30 +6,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var6;
     var1 = global;
-    var9 = var1.Object;
-    var8 = var9.defineProperty;
+    var7 = var1.Object;
+    var4 = var7.defineProperty;
     var2 = {};
-    var4 = true;
-    var2['value'] = var4;
+    var8 = true;
+    var2['value'] = var8;
     var1 = '__esModule';
-    var1 = var8.bind(var9)(var3, var1, var2);
+    var1 = var4.bind(var7)(var3, var1, var2);
     var1 = 0;
     var2 = var6[var1];
     var1 = undefined;
     var2 = var5.bind(var1)(var2);
-    var9 = var2.MobileSetting;
+    var11 = var2.MobileSetting;
     var2 = 1;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
-    var8 = var2.UserSettingsSections;
+    var10 = var2.UserSettingsSections;
+    var2 = 2;
+    var2 = var6[var2];
+    var7 = var5.bind(var1)(var2);
+    var4 = var7.createRoute;
     var2 = {};
-    var10 = 2;
-    var10 = var6[var10];
-    var10 = var5.bind(var1)(var10);
-    var10 = var10.RendererType;
-    var10 = var10.ROUTE;
-    var2['type'] = var10;
-    var10 = function title() {
+    var12 = function title() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;
         var1 = 3;
@@ -45,14 +43,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var2['title'] = var10;
-    var9 = var9.PREMIUM;
-    var2['parent'] = var9;
-    var2['unsearchable'] = var4;
-    var4 = {};
-    var8 = var8.PROFILE_CUSTOMIZATION_TRY_IT_OUT;
-    var4['route'] = var8;
-    var7 = function getComponent() {
+    var2['title'] = var12;
+    var11 = var11.PREMIUM;
+    var2['parent'] = var11;
+    var2['unsearchable'] = var8;
+    var8 = {};
+    var10 = var10.PROFILE_CUSTOMIZATION_TRY_IT_OUT;
+    var8['route'] = var10;
+    var9 = function getComponent() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 4;
@@ -62,8 +60,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var4['getComponent'] = var7;
-    var2['screen'] = var4;
+    var8['getComponent'] = var9;
+    var2['screen'] = var8;
+    var2 = var4.bind(var7)(var2);
     var4 = 5;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

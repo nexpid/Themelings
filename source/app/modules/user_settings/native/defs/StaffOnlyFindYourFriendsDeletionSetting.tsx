@@ -1,18 +1,18 @@
 // app/modules/user_settings/native/defs/StaffOnlyFindYourFriendsDeletionSetting.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var7 = metroImportDefault;
+    var4 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var7;
+    var _closure1_slot1 = var4;
     var _closure1_slot2 = var6;
     var1 = function setFindYourFriendsDeletionIsLoading(arg1) {
         var1 = arg1;
         var _closure2_slot0 = var1;
         var4 = _closure1_slot0;
         var3 = _closure1_slot2;
-        var1 = 6;
+        var1 = 5;
         var3 = var3[var1];
         var1 = undefined;
         var4 = var4.bind(var1)(var3);
@@ -34,7 +34,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = _closure1_slot6;
         var2 = _closure1_slot0;
         var3 = _closure1_slot2;
-        var1 = 7;
+        var1 = 6;
         var1 = var3[var1];
         var3 = undefined;
         var1 = var2.bind(var3)(var1);
@@ -74,7 +74,7 @@ case 5:
 case 6: // try_start_0 // try_start_1
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var3 = 8;
+                    var3 = 7;
                     var3 = var6[var3];
                     var5 = var5.bind(var2)(var3);
                     var3 = var5.adminDeleteContactSync;
@@ -96,7 +96,7 @@ case 12: // try_start_2 // catch_target0
                     CatchBlockStart(arg_register=5);
                     var5 = _closure1_slot0;
                     var8 = _closure1_slot2;
-                    var3 = 9;
+                    var3 = 8;
                     var3 = var8[var3];
                     var3 = var5.bind(var2)(var3);
                     var3 = var3.APIError;
@@ -114,7 +114,7 @@ case 12: // try_start_2 // catch_target0
 case 13:
                     var5 = _closure1_slot1;
                     var6 = _closure1_slot2;
-                    var3 = 10;
+                    var3 = 9;
                     var3 = var6[var3];
                     var6 = var5.bind(var2)(var3);
                     var5 = var6.open;
@@ -154,16 +154,16 @@ case 2:
     var _closure1_slot9 = var1;
     var1 = global;
     var9 = var1.Object;
-    var8 = var9.defineProperty;
+    var7 = var9.defineProperty;
     var2 = {};
     var1 = true;
     var2['value'] = var1;
     var1 = '__esModule';
-    var1 = var8.bind(var9)(var3, var1, var2);
+    var1 = var7.bind(var9)(var3, var1, var2);
     var1 = 0;
     var2 = var6[var1];
     var1 = undefined;
-    var2 = var7.bind(var1)(var2);
+    var2 = var4.bind(var1)(var2);
     var _closure1_slot3 = var2;
     var2 = 1;
     var2 = var6[var2];
@@ -173,43 +173,41 @@ case 2:
     var2 = 2;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
-    var7 = var2.MobileSetting;
+    var9 = var2.MobileSetting;
     var2 = 3;
-    var2 = var6[var2];
-    var2 = var5.bind(var1)(var2);
-    var8 = var2.RendererType;
-    var2 = 4;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
     var2 = var2.jsx;
     var _closure1_slot5 = var2;
-    var2 = 5;
+    var2 = 4;
     var2 = var6[var2];
-    var10 = var5.bind(var1)(var2);
-    var9 = var10.createWithEqualityFn;
+    var7 = var5.bind(var1)(var2);
+    var4 = var7.createWithEqualityFn;
     var2 = function() {
         var1 = {};
         var2 = false;
         var1['isLoading'] = var2;
         return var1;
     };
-    var2 = var9.bind(var10)(var2);
+    var2 = var4.bind(var7)(var2);
     var _closure1_slot6 = var2;
+    var2 = 10;
+    var2 = var6[var2];
+    var7 = var5.bind(var1)(var2);
+    var4 = var7.createPressable;
     var2 = {};
-    var8 = var8.PRESSABLE;
-    var2['type'] = var8;
-    var8 = 'STAFF ONLY - Find your friends deletion';
-    var2['title'] = var8;
-    var7 = var7.CONTENT_AND_SOCIAL_DISCORD;
-    var2['parent'] = var7;
-    var7 = function useIsFindYourFriendsDeletionDisabled() {
+    var10 = 'STAFF ONLY - Find your friends deletion';
+    var2['title'] = var10;
+    var9 = var9.CONTENT_AND_SOCIAL_DISCORD;
+    var2['parent'] = var9;
+    var9 = function useIsFindYourFriendsDeletionDisabled() {
         var2 = _closure1_slot8;
         var1 = undefined;
         var1 = var2.bind(var1)();
         return var1;
     };
-    var2['useIsDisabled'] = var7;
-    var7 = function onFindYourFriendsDeletionPress() {
+    var2['useIsDisabled'] = var9;
+    var9 = function onFindYourFriendsDeletionPress() {
         var1 = undefined;
         var4 = _closure1_slot9;
         var3 = var4.apply;
@@ -219,13 +217,13 @@ case 2:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var2['onPress'] = var7;
-    var7 = 11;
-    var7 = var6[var7];
-    var7 = var5.bind(var1)(var7);
-    var7 = var7.useStaffOrDeveloperSettingPredicate;
-    var2['usePredicate'] = var7;
-    var4 = function useIsFindYourFriendsDeletionTrailing() {
+    var2['onPress'] = var9;
+    var9 = 11;
+    var9 = var6[var9];
+    var9 = var5.bind(var1)(var9);
+    var9 = var9.useStaffOrDeveloperSettingPredicate;
+    var2['usePredicate'] = var9;
+    var8 = function useIsFindYourFriendsDeletionTrailing() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var1 = _closure1_slot8;
@@ -242,7 +240,8 @@ case 15:
             return var1;
         }
     };
-    var2['useTrailing'] = var4;
+    var2['useTrailing'] = var8;
+    var2 = var4.bind(var7)(var2);
     var4 = 12;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

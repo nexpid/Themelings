@@ -1,46 +1,47 @@
 // app/modules/user_settings/native/defs/SafetyGuildSettingDirectMessages.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var7 = metroImportDefault;
+    var4 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var7;
+    var _closure1_slot1 = var4;
     var _closure1_slot2 = var6;
     var1 = global;
     var9 = var1.Object;
-    var8 = var9.defineProperty;
+    var7 = var9.defineProperty;
     var2 = {};
     var1 = true;
     var2['value'] = var1;
     var1 = '__esModule';
-    var1 = var8.bind(var9)(var3, var1, var2);
+    var1 = var7.bind(var9)(var3, var1, var2);
     var1 = 0;
     var2 = var6[var1];
     var1 = undefined;
-    var2 = var7.bind(var1)(var2);
+    var2 = var4.bind(var1)(var2);
     var _closure1_slot3 = var2;
     var2 = 1;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
-    var7 = var2.getSelectedGuildId;
-    var _closure1_slot4 = var7;
+    var4 = var2.getSelectedGuildId;
+    var _closure1_slot4 = var4;
     var2 = var2.useUserSafetySettingsSelectedGuildStore;
     var _closure1_slot5 = var2;
     var2 = 2;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
-    var7 = var2.MobileSetting;
+    var9 = var2.MobileSetting;
     var2 = 3;
     var2 = var6[var2];
-    var8 = var5.bind(var1)(var2);
-    var2 = var8.GUILD_SELECT_ALL_SERVERS_OPTION_ID;
+    var2 = var5.bind(var1)(var2);
+    var2 = var2.GUILD_SELECT_ALL_SERVERS_OPTION_ID;
     var _closure1_slot6 = var2;
+    var2 = 12;
+    var2 = var6[var2];
+    var7 = var5.bind(var1)(var2);
+    var4 = var7.createToggle;
     var2 = {};
-    var8 = var8.RendererType;
-    var8 = var8.TOGGLE;
-    var2['type'] = var8;
-    var8 = function title() {
+    var10 = function title() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 8;
@@ -56,8 +57,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var2['title'] = var8;
-    var8 = function useTitle() {
+    var2['title'] = var10;
+    var10 = function useTitle() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var3 = _closure1_slot0;
@@ -90,8 +91,8 @@ case 4:
             return var1;
         }
     };
-    var2['useTitle'] = var8;
-    var8 = function useDescription() {
+    var2['useTitle'] = var10;
+    var10 = function useDescription() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var1 = _closure1_slot5;
@@ -153,10 +154,10 @@ case 10:
             return var1;
         }
     };
-    var2['useDescription'] = var8;
-    var7 = var7.CONTENT_AND_SOCIAL_DISCORD;
-    var2['parent'] = var7;
-    var7 = function useValue() {
+    var2['useDescription'] = var10;
+    var9 = var9.CONTENT_AND_SOCIAL_DISCORD;
+    var2['parent'] = var9;
+    var9 = function useValue() {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var1 = _closure1_slot5;
@@ -188,8 +189,8 @@ case 8:
             return var1;
         }
     };
-    var2['useValue'] = var7;
-    var7 = function onAllowDirectMessagesFromServerMembersValueChange(arg1) {
+    var2['useValue'] = var9;
+    var9 = function onAllowDirectMessagesFromServerMembersValueChange(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var2 = arg1;
@@ -342,8 +343,8 @@ case 19:
             return var1;
         }
     };
-    var2['onValueChange'] = var7;
-    var4 = function useIsDisabled() {
+    var2['onValueChange'] = var9;
+    var8 = function useIsDisabled() {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var3 = _closure1_slot0;
@@ -365,8 +366,9 @@ case 22:
             return var1;
         }
     };
-    var2['useIsDisabled'] = var4;
-    var4 = 12;
+    var2['useIsDisabled'] = var8;
+    var2 = var4.bind(var7)(var2);
+    var4 = 13;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

@@ -10,29 +10,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1 = global;
-    var9 = var1.Object;
-    var8 = var9.defineProperty;
+    var8 = var1.Object;
+    var5 = var8.defineProperty;
     var4 = {};
     var1 = true;
     var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = var5.bind(var8)(var3, var1, var4);
     var1 = 0;
     var4 = var7[var1];
     var1 = undefined;
     var4 = var6.bind(var1)(var4);
-    var8 = var4.MobileSetting;
+    var10 = var4.MobileSetting;
+    var4 = 4;
+    var4 = var7[var4];
+    var8 = var6.bind(var1)(var4);
+    var5 = var8.createRadio;
     var4 = {};
-    var9 = 1;
-    var9 = var7[var9];
-    var9 = var6.bind(var1)(var9);
-    var9 = var9.RendererType;
-    var9 = var9.RADIO;
-    var4['type'] = var9;
-    var9 = function title() {
+    var11 = function title() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;
-        var1 = 3;
+        var1 = 2;
         var2 = var6[var1];
         var4 = undefined;
         var2 = var5.bind(var4)(var2);
@@ -45,19 +43,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var4['title'] = var9;
-    var8 = var8.ADVANCED;
-    var4['parent'] = var8;
-    var8 = 2;
-    var8 = var7[var8];
-    var8 = var6.bind(var1)(var8);
-    var8 = var8.ChannelListLayoutSetting;
-    var8 = var8.useSetting;
-    var4['useValue'] = var8;
-    var8 = function onChannelListLayoutValueChange(arg1) {
+    var4['title'] = var11;
+    var10 = var10.ADVANCED;
+    var4['parent'] = var10;
+    var10 = 1;
+    var10 = var7[var10];
+    var10 = var6.bind(var1)(var10);
+    var10 = var10.ChannelListLayoutSetting;
+    var10 = var10.useSetting;
+    var4['useValue'] = var10;
+    var10 = function onChannelListLayoutValueChange(arg1) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 2;
+        var1 = 1;
         var2 = var2[var1];
         var1 = undefined;
         var2 = var3.bind(var1)(var2);
@@ -67,12 +65,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var4['onValueChange'] = var8;
-    var5 = function useChannelListLayoutOptions() {
+    var4['onValueChange'] = var10;
+    var9 = function useChannelListLayoutOptions() {
         var2 = {};
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;
-        var7 = 3;
+        var7 = 2;
         var1 = var6[var7];
         var4 = undefined;
         var1 = var5.bind(var4)(var1);
@@ -84,7 +82,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.T7G4Y0;
         var1 = var3.bind(var8)(var1);
         var2['label'] = var1;
-        var3 = 4;
+        var3 = 3;
         var1 = var6[var3];
         var1 = var5.bind(var4)(var1);
         var1 = var1.ChannelListLayoutTypes;
@@ -111,8 +109,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1[1] = var2;
         return var1;
     };
-    var4['useOptions'] = var5;
+    var4['useOptions'] = var9;
     var4['usePredicate'] = var2;
+    var4 = var5.bind(var8)(var4);
     var5 = 5;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);

@@ -28,7 +28,7 @@ case 0:
             var3 = var2.bind(var4)();
             var2 = _closure1_slot0;
             var5 = _closure1_slot1;
-            var1 = 3;
+            var1 = 2;
             var1 = var5[var1];
             var2 = var2.bind(var4)(var1);
             var1 = var2.isAndroid;
@@ -55,19 +55,17 @@ case 4:
     var5 = var7.bind(var1)(var5);
     var6 = var5.useAndroidMessageNotificationsEnabled;
     var _closure1_slot2 = var6;
-    var6 = var5.setAndroidMessageNotificationsEnabled;
+    var10 = var5.setAndroidMessageNotificationsEnabled;
     var5 = 1;
     var5 = var8[var5];
     var5 = var7.bind(var1)(var5);
-    var9 = var5.MobileSetting;
+    var11 = var5.MobileSetting;
+    var5 = 3;
+    var5 = var8[var5];
+    var9 = var7.bind(var1)(var5);
+    var6 = var9.createToggle;
     var5 = {};
-    var11 = 2;
-    var11 = var8[var11];
-    var11 = var7.bind(var1)(var11);
-    var11 = var11.RendererType;
-    var11 = var11.TOGGLE;
-    var5['type'] = var11;
-    var10 = function title() {
+    var12 = function title() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;
         var1 = 4;
@@ -83,12 +81,13 @@ case 4:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5['title'] = var10;
-    var9 = var9.NOTIFICATIONS;
-    var5['parent'] = var9;
+    var5['title'] = var12;
+    var11 = var11.NOTIFICATIONS;
+    var5['parent'] = var11;
     var5['useValue'] = var4;
-    var5['onValueChange'] = var6;
+    var5['onValueChange'] = var10;
     var5['usePredicate'] = var2;
+    var5 = var6.bind(var9)(var5);
     var6 = 5;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);

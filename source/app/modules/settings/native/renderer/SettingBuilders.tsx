@@ -1,0 +1,126 @@
+// app/modules/settings/native/renderer/SettingBuilders.tsx
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var3 = exports;
+    var6 = dependencyMap;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.RendererType;
+    var _closure1_slot0 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/settings/native/renderer/SettingBuilders.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function createToggle(arg1) {
+        var1 = {};
+        var2 = _closure1_slot0;
+        var2 = var2.TOGGLE;
+        var1['type'] = var2;
+        var3 = arg1;
+        var4 = var1;
+        var2 = copyDataProperties(var4, var3);
+        return var1;
+    };
+    var3['createToggle'] = var4;
+    var4 = function createStatic(arg1) {
+        var1 = {};
+        var2 = _closure1_slot0;
+        var2 = var2.STATIC;
+        var1['type'] = var2;
+        var3 = arg1;
+        var4 = var1;
+        var2 = copyDataProperties(var4, var3);
+        return var1;
+    };
+    var3['createStatic'] = var4;
+    var4 = function createRoute(arg1) {
+        var1 = {};
+        var2 = _closure1_slot0;
+        var2 = var2.ROUTE;
+        var1['type'] = var2;
+        var3 = arg1;
+        var4 = var1;
+        var2 = copyDataProperties(var4, var3);
+        return var1;
+    };
+    var3['createRoute'] = var4;
+    var4 = function createPressable(arg1) {
+        var1 = {};
+        var2 = _closure1_slot0;
+        var2 = var2.PRESSABLE;
+        var1['type'] = var2;
+        var3 = arg1;
+        var4 = var1;
+        var2 = copyDataProperties(var4, var3);
+        return var1;
+    };
+    var3['createPressable'] = var4;
+    var4 = function createVolumeSlider(arg1) {
+        var1 = {};
+        var2 = _closure1_slot0;
+        var2 = var2.VOLUME_SLIDER;
+        var1['type'] = var2;
+        var3 = arg1;
+        var4 = var1;
+        var2 = copyDataProperties(var4, var3);
+        return var1;
+    };
+    var3['createVolumeSlider'] = var4;
+    var4 = function createSlider(arg1) {
+        var1 = {};
+        var2 = _closure1_slot0;
+        var2 = var2.SLIDER;
+        var1['type'] = var2;
+        var3 = arg1;
+        var4 = var1;
+        var2 = copyDataProperties(var4, var3);
+        return var1;
+    };
+    var3['createSlider'] = var4;
+    var4 = function createGuildSelector(arg1) {
+        var1 = {};
+        var2 = _closure1_slot0;
+        var2 = var2.GUILD_SELECTOR;
+        var1['type'] = var2;
+        var3 = arg1;
+        var4 = var1;
+        var2 = copyDataProperties(var4, var3);
+        return var1;
+    };
+    var3['createGuildSelector'] = var4;
+    var4 = function createRadio(arg1) {
+        var1 = {};
+        var2 = _closure1_slot0;
+        var2 = var2.RADIO;
+        var1['type'] = var2;
+        var3 = arg1;
+        var4 = var1;
+        var2 = copyDataProperties(var4, var3);
+        return var1;
+    };
+    var3['createRadio'] = var4;
+    var2 = function createCheckbox(arg1) {
+        var1 = {};
+        var2 = _closure1_slot0;
+        var2 = var2.CHECKBOX;
+        var1['type'] = var2;
+        var3 = arg1;
+        var4 = var1;
+        var2 = copyDataProperties(var4, var3);
+        return var1;
+    };
+    var3['createCheckbox'] = var2;
+    return var1;
+})();

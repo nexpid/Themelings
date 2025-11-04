@@ -1,11 +1,11 @@
 // app/modules/user_settings/native/defs/AppVersionSetting.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var8 = metroImportAll;
+    var4 = metroImportAll;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var8;
+    var _closure1_slot1 = var4;
     var _closure1_slot2 = var6;
     var1 = global;
     var9 = var1.Object;
@@ -18,21 +18,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = 0;
     var2 = var6[var1];
     var1 = undefined;
-    var2 = var5.bind(var1)(var2);
-    var7 = var2.RendererType;
-    var2 = 1;
-    var2 = var6[var2];
-    var8 = var8.bind(var1)(var2);
-    var2 = var8.getConstants;
-    var2 = var2.bind(var8)();
+    var4 = var4.bind(var1)(var2);
+    var2 = var4.getConstants;
+    var2 = var2.bind(var4)();
     var _closure1_slot3 = var2;
+    var2 = 3;
+    var2 = var6[var2];
+    var7 = var5.bind(var1)(var2);
+    var4 = var7.createStatic;
     var2 = {};
-    var7 = var7.STATIC;
-    var2['type'] = var7;
-    var7 = function useAppVersionSettingTitle() {
+    var9 = function useAppVersionSettingTitle() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
-        var1 = 2;
+        var1 = 1;
         var2 = var6[var1];
         var4 = undefined;
         var2 = var5.bind(var4)(var2);
@@ -45,20 +43,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var2['title'] = var7;
-    var7 = null;
-    var2['parent'] = var7;
-    var7 = 4;
-    var7 = var6[var7];
-    var7 = var5.bind(var1)(var7);
-    var7 = var7.ClydeIcon;
-    var2['IconComponent'] = var7;
-    var4 = function useAppVersionSettingTrailing() {
+    var2['title'] = var9;
+    var9 = null;
+    var2['parent'] = var9;
+    var9 = 4;
+    var9 = var6[var9];
+    var9 = var5.bind(var1)(var9);
+    var9 = var9.ClydeIcon;
+    var2['IconComponent'] = var9;
+    var8 = function useAppVersionSettingTrailing() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var8 = 3;
+            var8 = 2;
             var1 = var9[var8];
             var6 = undefined;
             var5 = var2.bind(var6)(var1);
@@ -70,7 +68,7 @@ case 0:
             var4 = var2.bind(var6)(var1);
             var2 = var4.getClientInfoString;
             var5 = _closure1_slot1;
-            var1 = 1;
+            var1 = 0;
             var1 = var9[var1];
             var5 = var5.bind(var6)(var1);
             var1 = var5.getBuildNumberLabel;
@@ -113,13 +111,14 @@ case 4:
             return var1;
         }
     };
-    var2['useTrailing'] = var4;
-    var4 = 5;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.DeveloperMode;
-    var4 = var4.useSetting;
-    var2['usePredicate'] = var4;
+    var2['useTrailing'] = var8;
+    var8 = 5;
+    var8 = var6[var8];
+    var8 = var5.bind(var1)(var8);
+    var8 = var8.DeveloperMode;
+    var8 = var8.useSetting;
+    var2['usePredicate'] = var8;
+    var2 = var4.bind(var7)(var2);
     var4 = 6;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

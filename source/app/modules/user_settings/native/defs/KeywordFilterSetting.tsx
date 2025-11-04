@@ -9,7 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = arg1;
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 2;
+        var1 = 1;
         var2 = var2[var1];
         var1 = undefined;
         var2 = var3.bind(var1)(var2);
@@ -25,7 +25,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function useKeywordFilterSettingsEnabled() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 3;
+        var1 = 2;
         var2 = var2[var1];
         var1 = undefined;
         var3 = var3.bind(var1)(var2);
@@ -37,26 +37,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1 = global;
-    var10 = var1.Object;
-    var9 = var10.defineProperty;
+    var9 = var1.Object;
+    var6 = var9.defineProperty;
     var5 = {};
     var1 = true;
     var5['value'] = var1;
     var1 = '__esModule';
-    var1 = var9.bind(var10)(var3, var1, var5);
+    var1 = var6.bind(var9)(var3, var1, var5);
     var1 = 0;
     var5 = var8[var1];
     var1 = undefined;
     var5 = var7.bind(var1)(var5);
-    var9 = var5.MobileSetting;
+    var11 = var5.MobileSetting;
+    var5 = 3;
+    var5 = var8[var5];
+    var9 = var7.bind(var1)(var5);
+    var6 = var9.createToggle;
     var5 = {};
-    var10 = 1;
-    var10 = var8[var10];
-    var10 = var7.bind(var1)(var10);
-    var10 = var10.RendererType;
-    var10 = var10.TOGGLE;
-    var5['type'] = var10;
-    var10 = function title() {
+    var12 = function title() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;
         var1 = 4;
@@ -72,17 +70,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5['title'] = var10;
-    var9 = var9.CONTENT_AND_SOCIAL_DISCORD;
-    var5['parent'] = var9;
-    var9 = 5;
-    var9 = var8[var9];
-    var9 = var7.bind(var1)(var9);
-    var9 = var9.useShouldFilterKeywords;
-    var5['useValue'] = var9;
+    var5['title'] = var12;
+    var11 = var11.CONTENT_AND_SOCIAL_DISCORD;
+    var5['parent'] = var11;
+    var11 = 5;
+    var11 = var8[var11];
+    var11 = var7.bind(var1)(var11);
+    var11 = var11.useShouldFilterKeywords;
+    var5['useValue'] = var11;
     var5['onValueChange'] = var4;
     var5['usePredicate'] = var2;
-    var6 = function additionalSearchTerms() {
+    var10 = function additionalSearchTerms() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;
         var1 = 4;
@@ -100,7 +98,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1[0] = var2;
         return var1;
     };
-    var5['additionalSearchTerms'] = var6;
+    var5['additionalSearchTerms'] = var10;
+    var5 = var6.bind(var9)(var5);
     var6 = 6;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);

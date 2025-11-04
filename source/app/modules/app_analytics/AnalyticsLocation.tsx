@@ -88,6 +88,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['PREMIUM_SETTINGS'] = var1;
     var1 = 'payment flow test page';
     var2['PAYMENT_FLOW_TEST_PAGE'] = var1;
+    var1 = 'revenue smoke test';
+    var2['REVENUE_SMOKE_TEST'] = var1;
     var1 = 'revenue storybook test page';
     var2['REVENUE_STORYBOOK_TEST_PAGE'] = var1;
     var1 = 'virtual currency balance widget';

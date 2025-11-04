@@ -8,26 +8,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var1;
     var _closure1_slot2 = var6;
     var1 = global;
-    var8 = var1.Object;
-    var7 = var8.defineProperty;
+    var7 = var1.Object;
+    var4 = var7.defineProperty;
     var2 = {};
     var1 = true;
     var2['value'] = var1;
     var1 = '__esModule';
-    var1 = var7.bind(var8)(var3, var1, var2);
+    var1 = var4.bind(var7)(var3, var1, var2);
     var1 = 0;
     var2 = var6[var1];
     var1 = undefined;
     var2 = var5.bind(var1)(var2);
-    var7 = var2.MobileSetting;
+    var9 = var2.MobileSetting;
+    var2 = 5;
+    var2 = var6[var2];
+    var7 = var5.bind(var1)(var2);
+    var4 = var7.createToggle;
     var2 = {};
-    var8 = 1;
-    var8 = var6[var8];
-    var8 = var5.bind(var1)(var8);
-    var8 = var8.RendererType;
-    var8 = var8.TOGGLE;
-    var2['type'] = var8;
-    var8 = function title() {
+    var10 = function title() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 6;
@@ -43,32 +41,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var2['title'] = var8;
-    var7 = var7.ADVANCED;
-    var2['parent'] = var7;
-    var7 = function useICYMISettingValue() {
+    var2['title'] = var10;
+    var9 = var9.ADVANCED;
+    var2['parent'] = var9;
+    var9 = function useICYMISettingValue() {
         var4 = _closure1_slot1;
         var5 = _closure1_slot2;
-        var2 = 2;
+        var2 = 1;
         var2 = var5[var2];
         var3 = undefined;
         var2 = var4.bind(var3)(var2);
         var4 = _closure1_slot0;
-        var1 = 3;
+        var1 = 2;
         var1 = var5[var1];
         var1 = var4.bind(var3)(var1);
         var1 = var1.ICYMI_LAB_FEATURE;
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var2['useValue'] = var7;
-    var7 = function onICYMISettingValueChange(arg1) {
+    var2['useValue'] = var9;
+    var9 = function onICYMISettingValueChange(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var6 = arg1;
             var4 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var1 = 4;
+            var1 = 3;
             var3 = var3[var1];
             var1 = undefined;
             var8 = var4.bind(var1)(var3);
@@ -83,11 +81,11 @@ case 2:
             var3 = var7.bind(var8)(var5, var4, var3);
             var3 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var2 = 5;
+            var2 = 4;
             var2 = var7[var2];
             var5 = var3.bind(var1)(var2);
             var4 = var5.toggleLabFeature;
-            var2 = 3;
+            var2 = 2;
             var2 = var7[var2];
             var2 = var3.bind(var1)(var2);
             var3 = var2.ICYMI_LAB_FEATURE;
@@ -97,11 +95,11 @@ case 2:
             return var1;
         }
     };
-    var2['onValueChange'] = var7;
-    var4 = function useICYMIPredicate() {
+    var2['onValueChange'] = var9;
+    var8 = function useICYMIPredicate() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
-        var1 = 3;
+        var1 = 2;
         var2 = var2[var1];
         var1 = undefined;
         var3 = var3.bind(var1)(var2);
@@ -110,7 +108,8 @@ case 2:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var2['usePredicate'] = var4;
+    var2['usePredicate'] = var8;
+    var2 = var4.bind(var7)(var2);
     var4 = 7;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

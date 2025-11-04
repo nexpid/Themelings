@@ -374,7 +374,7 @@ case 31:
                     var3 = 36;
                     var3 = var5[var3];
                     var8 = var7.bind(var1)(var3);
-                    var7 = var8.trackSearchOpenedMobile;
+                    var7 = var8.trackSearchOpened;
                     var3 = {};
                     var3['searchContext'] = var9;
                     var9 = 37;

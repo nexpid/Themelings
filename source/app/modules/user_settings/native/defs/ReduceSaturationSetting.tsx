@@ -1,47 +1,45 @@
 // app/modules/user_settings/native/defs/ReduceSaturationSetting.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var7 = metroImportDefault;
+    var4 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var7;
+    var _closure1_slot1 = var4;
     var _closure1_slot2 = var6;
     var1 = global;
     var9 = var1.Object;
-    var8 = var9.defineProperty;
+    var7 = var9.defineProperty;
     var2 = {};
     var1 = true;
     var2['value'] = var1;
     var1 = '__esModule';
-    var1 = var8.bind(var9)(var3, var1, var2);
+    var1 = var7.bind(var9)(var3, var1, var2);
     var1 = 0;
-    var8 = var6[var1];
+    var7 = var6[var1];
     var2 = metroImportAll;
     var1 = undefined;
-    var2 = var2.bind(var1)(var8);
+    var2 = var2.bind(var1)(var7);
     var _closure1_slot3 = var2;
     var2 = 1;
     var2 = var6[var2];
-    var2 = var7.bind(var1)(var2);
+    var2 = var4.bind(var1)(var2);
     var _closure1_slot4 = var2;
     var2 = 2;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
-    var7 = var2.MobileSetting;
+    var9 = var2.MobileSetting;
     var2 = 3;
-    var2 = var6[var2];
-    var2 = var5.bind(var1)(var2);
-    var8 = var2.RendererType;
-    var2 = 4;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
     var2 = var2.jsx;
     var _closure1_slot5 = var2;
+    var2 = 7;
+    var2 = var6[var2];
+    var7 = var5.bind(var1)(var2);
+    var4 = var7.createSlider;
     var2 = {};
-    var8 = var8.SLIDER;
-    var2['type'] = var8;
-    var8 = function title() {
+    var10 = function title() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 8;
@@ -57,10 +55,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var2['title'] = var8;
-    var7 = var7.ACCESSIBILITY;
-    var2['parent'] = var7;
-    var7 = function useTrailing() {
+    var2['title'] = var10;
+    var9 = var9.ACCESSIBILITY;
+    var2['parent'] = var9;
+    var9 = function useTrailing() {
         var4 = _closure1_slot5;
         var2 = _closure1_slot1;
         var7 = _closure1_slot2;
@@ -78,8 +76,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var4.bind(var3)(var2, var1);
         return var1;
     };
-    var2['useTrailing'] = var7;
-    var4 = function useSaturationSettingProps() {
+    var2['useTrailing'] = var9;
+    var8 = function useSaturationSettingProps() {
         var4 = _closure1_slot3;
         var3 = var4.useMemo;
         var2 = function() {
@@ -89,21 +87,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['value'] = var3;
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var4 = 5;
+            var4 = 4;
             var4 = var6[var4];
             var5 = undefined;
             var4 = var3.bind(var5)(var4);
             var4 = var4.setSaturation;
             var1['onSlidingComplete'] = var4;
             var4 = _closure1_slot5;
-            var2 = 6;
+            var2 = 5;
             var2 = var6[var2];
             var2 = var3.bind(var5)(var2);
             var7 = var2.CircleMinusIcon;
             var2 = {};
             var2 = var4.bind(var5)(var7, var2);
             var1['startIcon'] = var2;
-            var2 = 7;
+            var2 = 6;
             var2 = var6[var2];
             var2 = var3.bind(var5)(var2);
             var3 = var2.CirclePlusIcon;
@@ -116,7 +114,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var2['useProps'] = var4;
+    var2['useProps'] = var8;
+    var2 = var4.bind(var7)(var2);
     var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

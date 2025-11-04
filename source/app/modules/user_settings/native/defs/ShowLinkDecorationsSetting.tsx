@@ -8,7 +8,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = function useShowLinkDecorationsSettingValue() {
         var4 = _closure1_slot0;
         var3 = _closure1_slot1;
-        var2 = 3;
+        var2 = 2;
         var3 = var3[var2];
         var2 = undefined;
         var4 = var4.bind(var2)(var3);
@@ -27,7 +27,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function onShowLinkDecorationsValueChange(arg1) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
-        var1 = 4;
+        var1 = 3;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -37,13 +37,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1 = global;
-    var10 = var1.Object;
-    var6 = var10.defineProperty;
+    var9 = var1.Object;
+    var6 = var9.defineProperty;
     var5 = {};
     var1 = true;
     var5['value'] = var1;
     var1 = '__esModule';
-    var1 = var6.bind(var10)(var3, var1, var5);
+    var1 = var6.bind(var9)(var3, var1, var5);
     var1 = 0;
     var6 = var8[var1];
     var5 = metroImportDefault;
@@ -53,15 +53,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = 1;
     var5 = var8[var5];
     var5 = var7.bind(var1)(var5);
-    var6 = var5.MobileSetting;
+    var10 = var5.MobileSetting;
+    var5 = 4;
+    var5 = var8[var5];
+    var9 = var7.bind(var1)(var5);
+    var6 = var9.createToggle;
     var5 = {};
-    var10 = 2;
-    var10 = var8[var10];
-    var10 = var7.bind(var1)(var10);
-    var10 = var10.RendererType;
-    var10 = var10.TOGGLE;
-    var5['type'] = var10;
-    var9 = function title() {
+    var11 = function title() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;
         var1 = 5;
@@ -77,11 +75,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5['title'] = var9;
-    var6 = var6.ACCESSIBILITY;
-    var5['parent'] = var6;
+    var5['title'] = var11;
+    var10 = var10.ACCESSIBILITY;
+    var5['parent'] = var10;
     var5['useValue'] = var4;
     var5['onValueChange'] = var2;
+    var5 = var6.bind(var9)(var5);
     var6 = 6;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);

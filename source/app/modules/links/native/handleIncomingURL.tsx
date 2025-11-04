@@ -11,8 +11,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = undefined;
         var1 = undefined;
         var4 = _closure1_slot3;
-        var3 = function* (arg1) {
-            var1 = function* anon_0_(arg1) {
+        var3 = function* (arg1, arg2) {
+            var1 = function* anon_0_(arg1, arg2) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
                     StartGenerator();
@@ -182,6 +182,8 @@ case 32:
                     var3['deeplink_source'] = var13;
                     var13 = var7.type;
                     var3['link_type'] = var13;
+                    var13 = arg2;
+                    var3['is_cold_start'] = var13;
                     var13 = var12 != var16;
                     var12 = null;
                     if(!var13) { _fun0001_ip = 34; continue _fun0001 }

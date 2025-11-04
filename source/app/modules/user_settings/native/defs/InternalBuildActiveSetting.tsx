@@ -6,42 +6,40 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var6;
     var1 = global;
-    var8 = var1.Object;
-    var7 = var8.defineProperty;
+    var7 = var1.Object;
+    var4 = var7.defineProperty;
     var2 = {};
     var1 = true;
     var2['value'] = var1;
     var1 = '__esModule';
-    var1 = var7.bind(var8)(var3, var1, var2);
+    var1 = var4.bind(var7)(var3, var1, var2);
     var1 = 0;
-    var7 = var6[var1];
+    var4 = var6[var1];
     var2 = metroImportDefault;
     var1 = undefined;
-    var2 = var2.bind(var1)(var7);
+    var2 = var2.bind(var1)(var4);
     var _closure1_slot2 = var2;
-    var2 = {'type': null, 'title': 'Internal Build Active', 'parent': null};
-    var7 = 1;
-    var7 = var6[var7];
-    var7 = var5.bind(var1)(var7);
-    var7 = var7.RendererType;
-    var7 = var7.STATIC;
-    var2['type'] = var7;
-    var7 = 3;
-    var7 = var6[var7];
-    var7 = var5.bind(var1)(var7);
-    var7 = var7.MobilePhoneSettingsIcon;
-    var2['IconComponent'] = var7;
-    var7 = function useInternalBuildActiveDescription() {
+    var2 = 2;
+    var2 = var6[var2];
+    var7 = var5.bind(var1)(var2);
+    var4 = var7.createStatic;
+    var2 = {'title': 'Internal Build Active', 'parent': null};
+    var9 = 3;
+    var9 = var6[var9];
+    var9 = var5.bind(var1)(var9);
+    var9 = var9.MobilePhoneSettingsIcon;
+    var2['IconComponent'] = var9;
+    var9 = function useInternalBuildActiveDescription() {
         var1 = 'Build installed from builds.discord.tools';
         return var1;
     };
-    var2['useDescription'] = var7;
-    var4 = function useHasCheckNativeUpdateSetting() {
+    var2['useDescription'] = var9;
+    var8 = function useHasCheckNativeUpdateSetting() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
-            var2 = 2;
+            var2 = 1;
             var3 = var3[var2];
             var2 = undefined;
             var3 = var4.bind(var2)(var3);
@@ -56,7 +54,8 @@ case 2:
             return var1;
         }
     };
-    var2['usePredicate'] = var4;
+    var2['usePredicate'] = var8;
+    var2 = var4.bind(var7)(var2);
     var4 = 4;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

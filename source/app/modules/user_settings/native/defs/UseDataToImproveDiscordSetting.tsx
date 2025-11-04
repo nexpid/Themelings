@@ -1,45 +1,43 @@
 // app/modules/user_settings/native/defs/UseDataToImproveDiscordSetting.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var7 = metroImportDefault;
+    var4 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var7;
+    var _closure1_slot1 = var4;
     var _closure1_slot2 = var6;
     var1 = global;
     var9 = var1.Object;
-    var8 = var9.defineProperty;
+    var7 = var9.defineProperty;
     var2 = {};
     var1 = true;
     var2['value'] = var1;
     var1 = '__esModule';
-    var1 = var8.bind(var9)(var3, var1, var2);
+    var1 = var7.bind(var9)(var3, var1, var2);
     var1 = 0;
     var2 = var6[var1];
     var1 = undefined;
-    var2 = var7.bind(var1)(var2);
+    var2 = var4.bind(var1)(var2);
     var _closure1_slot3 = var2;
     var2 = 1;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
-    var7 = var2.MobileSetting;
+    var9 = var2.MobileSetting;
     var2 = 2;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
     var2 = var2.Consents;
     var _closure1_slot4 = var2;
+    var2 = 10;
+    var2 = var6[var2];
+    var7 = var5.bind(var1)(var2);
+    var4 = var7.createToggle;
     var2 = {};
-    var8 = 3;
-    var8 = var6[var8];
-    var8 = var5.bind(var1)(var8);
-    var8 = var8.RendererType;
-    var8 = var8.TOGGLE;
-    var2['type'] = var8;
-    var8 = function title() {
+    var10 = function title() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
-        var1 = 6;
+        var1 = 5;
         var2 = var6[var1];
         var4 = undefined;
         var2 = var5.bind(var4)(var2);
@@ -52,13 +50,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var2['title'] = var8;
-    var7 = var7.DATA_AND_PRIVACY;
-    var2['parent'] = var7;
-    var7 = function useDataToImproveDiscordSettingValue() {
+    var2['title'] = var10;
+    var9 = var9.DATA_AND_PRIVACY;
+    var2['parent'] = var9;
+    var9 = function useDataToImproveDiscordSettingValue() {
         var4 = _closure1_slot0;
         var3 = _closure1_slot2;
-        var2 = 10;
+        var2 = 9;
         var3 = var3[var2];
         var2 = undefined;
         var4 = var4.bind(var2)(var3);
@@ -77,8 +75,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var2['useValue'] = var7;
-    var7 = function handleUsageStatisticsChange(arg1) {
+    var2['useValue'] = var9;
+    var9 = function handleUsageStatisticsChange(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var3 = arg1;
@@ -86,14 +84,14 @@ case 0:
 case 3:
             var8 = _closure1_slot1;
             var9 = _closure1_slot2;
-            var3 = 5;
+            var3 = 4;
             var3 = var9[var3];
             var7 = undefined;
             var5 = var8.bind(var7)(var3);
             var4 = var5.show;
             var3 = {};
             var12 = _closure1_slot0;
-            var6 = 6;
+            var6 = 5;
             var10 = var9[var6];
             var10 = var12.bind(var7)(var10);
             var13 = var10.intl;
@@ -134,7 +132,7 @@ case 3:
             var6 = var6.kYpG0u;
             var6 = var10.bind(var11)(var6);
             var3['cancelText'] = var6;
-            var6 = 7;
+            var6 = 6;
             var6 = var9[var6];
             var6 = var8.bind(var7)(var6);
             var6 = var6.Colors;
@@ -143,7 +141,7 @@ case 3:
             var6 = function onConfirm() {
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var2 = 8;
+                var2 = 7;
                 var3 = var3[var2];
                 var2 = undefined;
                 var4 = var4.bind(var2)(var3);
@@ -162,7 +160,7 @@ case 3:
 case 2:
             var5 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var3 = 8;
+            var3 = 7;
             var4 = var4[var3];
             var3 = undefined;
             var5 = var5.bind(var3)(var4);
@@ -179,7 +177,7 @@ case 2:
                 var3 = var1.message;
                 var4 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 9;
+                var1 = 8;
                 var2 = var2[var1];
                 var1 = undefined;
                 var2 = var4.bind(var1)(var2);
@@ -193,11 +191,11 @@ case 4:
             return var1;
         }
     };
-    var2['onValueChange'] = var7;
-    var4 = function useIsDisabled() {
+    var2['onValueChange'] = var9;
+    var8 = function useIsDisabled() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
-        var1 = 4;
+        var1 = 3;
         var2 = var2[var1];
         var1 = undefined;
         var2 = var3.bind(var1)(var2);
@@ -205,7 +203,8 @@ case 4:
         var1 = var1.bind(var2)();
         return var1;
     };
-    var2['useIsDisabled'] = var4;
+    var2['useIsDisabled'] = var8;
+    var2 = var4.bind(var7)(var2);
     var4 = 11;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

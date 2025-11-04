@@ -12,19 +12,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var1 = 6;
+            var1 = 5;
             var1 = var6[var1];
             var4 = undefined;
             var1 = var5.bind(var4)(var1);
             var2 = var1.SwipeRightToLeftModeSetting;
             var1 = var2.useSetting;
             var1 = var1.bind(var2)();
-            var2 = 7;
+            var2 = 6;
             var2 = var6[var2];
             var3 = var5.bind(var4)(var2);
             var2 = var3.useSwipeActionDefaultValue;
             var2 = var2.bind(var3)();
-            var3 = 3;
+            var3 = 2;
             var3 = var6[var3];
             var3 = var5.bind(var4)(var3);
             var3 = var3.SwipeRightToLeftMode;
@@ -48,25 +48,23 @@ case 2:
     var5 = var8[var1];
     var1 = undefined;
     var5 = var7.bind(var1)(var5);
-    var6 = var5.MobileSetting;
+    var10 = var5.MobileSetting;
     var5 = 1;
     var5 = var8[var5];
     var5 = var7.bind(var1)(var5);
-    var9 = var5.AnalyticEvents;
-    var _closure1_slot3 = var9;
+    var6 = var5.AnalyticEvents;
+    var _closure1_slot3 = var6;
     var5 = var5.AnalyticsSections;
     var _closure1_slot4 = var5;
+    var5 = 7;
+    var5 = var8[var5];
+    var9 = var7.bind(var1)(var5);
+    var6 = var9.createRadio;
     var5 = {};
-    var9 = 2;
-    var9 = var8[var9];
-    var9 = var7.bind(var1)(var9);
-    var9 = var9.RendererType;
-    var9 = var9.RADIO;
-    var5['type'] = var9;
-    var9 = function title() {
+    var11 = function title() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
-        var1 = 4;
+        var1 = 3;
         var2 = var6[var1];
         var4 = undefined;
         var2 = var5.bind(var4)(var2);
@@ -79,11 +77,11 @@ case 2:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5['title'] = var9;
-    var9 = function additionalSearchTerms() {
+    var5['title'] = var11;
+    var11 = function additionalSearchTerms() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
-        var1 = 4;
+        var1 = 3;
         var2 = var6[var1];
         var4 = undefined;
         var2 = var5.bind(var4)(var2);
@@ -98,11 +96,11 @@ case 2:
         var1[0] = var2;
         return var1;
     };
-    var5['additionalSearchTerms'] = var9;
-    var6 = var6.CHAT;
-    var5['parent'] = var6;
+    var5['additionalSearchTerms'] = var11;
+    var10 = var10.CHAT;
+    var5['parent'] = var10;
     var5['useValue'] = var4;
-    var6 = function onSwipeToReplyValueChange(arg1) {
+    var10 = function onSwipeToReplyValueChange(arg1) {
         var1 = global;
         var3 = var1.Number;
         var1 = undefined;
@@ -110,13 +108,13 @@ case 2:
         var4 = var3.bind(var1)(var2);
         var3 = _closure1_slot0;
         var5 = _closure1_slot2;
-        var2 = 3;
+        var2 = 2;
         var2 = var5[var2];
         var2 = var3.bind(var1)(var2);
         var2 = var2.SwipeRightToLeftMode;
         var9 = var2.SWIPE_RIGHT_TO_LEFT_REPLY;
         var6 = _closure1_slot1;
-        var2 = 5;
+        var2 = 4;
         var2 = var5[var2];
         var8 = var6.bind(var1)(var2);
         var7 = var8.track;
@@ -131,7 +129,7 @@ case 2:
         var9['section'] = var10;
         var2['location'] = var9;
         var2 = var7.bind(var8)(var6, var2);
-        var2 = 6;
+        var2 = 5;
         var2 = var5[var2];
         var2 = var3.bind(var1)(var2);
         var3 = var2.SwipeRightToLeftModeSetting;
@@ -139,19 +137,19 @@ case 2:
         var2 = var2.bind(var3)(var4);
         return var1;
     };
-    var5['onValueChange'] = var6;
-    var6 = function useHasSwipeToReplySettingOptions() {
+    var5['onValueChange'] = var10;
+    var10 = function useHasSwipeToReplySettingOptions() {
         var2 = {};
         var7 = _closure1_slot0;
         var8 = _closure1_slot2;
-        var4 = 3;
+        var4 = 2;
         var1 = var8[var4];
         var6 = undefined;
         var1 = var7.bind(var6)(var1);
         var1 = var1.SwipeRightToLeftMode;
         var1 = var1.SWIPE_RIGHT_TO_LEFT_CHANNEL_DETAILS;
         var2['value'] = var1;
-        var3 = 4;
+        var3 = 3;
         var1 = var8[var3];
         var1 = var7.bind(var6)(var1);
         var9 = var1.intl;
@@ -193,7 +191,8 @@ case 2:
         var1[1] = var2;
         return var1;
     };
-    var5['useOptions'] = var6;
+    var5['useOptions'] = var10;
+    var5 = var6.bind(var9)(var5);
     var6 = 8;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
@@ -207,14 +206,14 @@ case 2:
 case 0:
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var1 = 6;
+            var1 = 5;
             var1 = var6[var1];
             var4 = undefined;
             var1 = var5.bind(var4)(var1);
             var3 = var1.SwipeRightToLeftModeSetting;
             var1 = var3.getSetting;
             var1 = var1.bind(var3)();
-            var3 = 3;
+            var3 = 2;
             var3 = var6[var3];
             var3 = var5.bind(var4)(var3);
             var3 = var3.SwipeRightToLeftMode;
@@ -223,7 +222,7 @@ case 0:
 case 5:
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var2 = 7;
+            var2 = 6;
             var2 = var5[var2];
             var3 = var3.bind(var4)(var2);
             var2 = var3.getSwipeActionDefaultValue;

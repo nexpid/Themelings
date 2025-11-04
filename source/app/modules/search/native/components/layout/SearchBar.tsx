@@ -669,7 +669,7 @@ case 35:
                 var4 = var4.COMPLETE;
                 if(!(var6 === var4)) { _fun0012_ip = 36; continue _fun0012 }
 case 37:
-                var6 = _closure1_slot0;
+                var6 = _closure1_slot1;
                 var7 = _closure1_slot2;
                 var4 = 19;
                 var4 = var7[var4];
@@ -802,20 +802,19 @@ case 44:
                         return var1;
                     };
                     var3 = var5.bind(var6)(var4, var3);
-                    var6 = _closure1_slot0;
-                    var5 = _closure1_slot2;
-                    var3 = 19;
-                    var3 = var5[var3];
-                    var7 = var6.bind(var1)(var3);
-                    var6 = var7.trackSearchFilterAdd;
-                    var3 = {};
-                    var3['searchContext'] = var4;
-                    var9 = var8.searchTokenType;
-                    var3['searchTokenType'] = var9;
-                    var8 = var8.location;
-                    var3['location'] = var8;
-                    var3 = var6.bind(var7)(var3);
                     var3 = _closure1_slot1;
+                    var5 = _closure1_slot2;
+                    var2 = 19;
+                    var2 = var5[var2];
+                    var7 = var3.bind(var1)(var2);
+                    var6 = var7.trackSearchFilterAdd;
+                    var2 = {};
+                    var2['searchContext'] = var4;
+                    var9 = var8.searchTokenType;
+                    var2['searchTokenType'] = var9;
+                    var8 = var8.location;
+                    var2['location'] = var8;
+                    var2 = var6.bind(var7)(var2);
                     var2 = 17;
                     var2 = var5[var2];
                     var3 = var3.bind(var1)(var2);

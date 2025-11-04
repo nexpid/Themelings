@@ -8,31 +8,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot1 = var1;
     var _closure1_slot2 = var6;
     var1 = global;
-    var9 = var1.Object;
-    var8 = var9.defineProperty;
+    var7 = var1.Object;
+    var4 = var7.defineProperty;
     var2 = {};
-    var4 = true;
-    var2['value'] = var4;
+    var8 = true;
+    var2['value'] = var8;
     var1 = '__esModule';
-    var1 = var8.bind(var9)(var3, var1, var2);
+    var1 = var4.bind(var7)(var3, var1, var2);
     var1 = 0;
     var2 = var6[var1];
     var1 = undefined;
     var2 = var5.bind(var1)(var2);
-    var8 = var2.MobileSetting;
+    var10 = var2.MobileSetting;
     var2 = 1;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
     var2 = var2.MarketingURLs;
     var _closure1_slot3 = var2;
+    var2 = 3;
+    var2 = var6[var2];
+    var7 = var5.bind(var1)(var2);
+    var4 = var7.createPressable;
     var2 = {};
-    var9 = 2;
-    var9 = var6[var9];
-    var9 = var5.bind(var1)(var9);
-    var9 = var9.RendererType;
-    var9 = var9.PRESSABLE;
-    var2['type'] = var9;
-    var9 = function title() {
+    var11 = function title() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 4;
@@ -48,13 +46,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var2['title'] = var9;
-    var8 = var8.DATA_AND_PRIVACY;
-    var2['parent'] = var8;
-    var7 = function onPrivacyPolicyPress() {
+    var2['title'] = var11;
+    var10 = var10.DATA_AND_PRIVACY;
+    var2['parent'] = var10;
+    var9 = function onPrivacyPolicyPress() {
         var4 = _closure1_slot1;
         var3 = _closure1_slot2;
-        var1 = 3;
+        var1 = 2;
         var3 = var3[var1];
         var1 = undefined;
         var4 = var4.bind(var1)(var3);
@@ -64,8 +62,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var2['onPress'] = var7;
-    var2['withArrow'] = var4;
+    var2['onPress'] = var9;
+    var2['withArrow'] = var8;
+    var2 = var4.bind(var7)(var2);
     var4 = 5;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

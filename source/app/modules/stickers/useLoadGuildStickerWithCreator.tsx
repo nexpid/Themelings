@@ -193,18 +193,27 @@ case 13:
             var2['status'] = var4;
             var4 = var5.map;
             var3 = function(arg1) {
-                var2 = arg1;
-                var1 = {};
-                var6 = var1;
-                var5 = var2;
-                var3 = copyDataProperties(var6, var5);
-                var4 = _closure1_slot5;
-                var3 = var4.getUser;
-                var2 = var2.user_id;
-                var3 = var3.bind(var4)(var2);
-                var2 = 'user';
-                var1[var2] = var3;
-                return var1;
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+                    var3 = arg1;
+                    var4 = _closure1_slot5;
+                    var2 = var4.getUser;
+                    var1 = var3.user_id;
+                    var4 = var2.bind(var4)(var1);
+                    var2 = null;
+                    var1 = var3;
+                    if(!(var2 != var4)) { _fun0004_ip = 4; continue _fun0004 }
+case 16:
+                    var2 = {};
+                    var6 = var2;
+                    var5 = var3;
+                    var3 = copyDataProperties(var6, var5);
+                    var3 = 'user';
+                    var2[var3] = var4;
+                    var1 = var2;
+case 4:
+                    return var1;
+                }
             };
             var3 = var4.bind(var5)(var3);
             var2['stickers'] = var3;

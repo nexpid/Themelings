@@ -1,11 +1,11 @@
 // app/modules/user_settings/native/defs/SafetyGuildSettingMessageRequests.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var6 = require;
-    var9 = metroImportDefault;
+    var5 = metroImportDefault;
     var3 = exports;
     var7 = dependencyMap;
     var _closure1_slot0 = var6;
-    var _closure1_slot1 = var9;
+    var _closure1_slot1 = var5;
     var _closure1_slot2 = var7;
     var2 = function showMessageRequestRestrictionModal(arg1) {
         var1 = arg1;
@@ -115,7 +115,7 @@ case 4:
         return var1;
     };
     var _closure1_slot8 = var2;
-    var8 = function useIsDisabled() {
+    var10 = function useIsDisabled() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var7 = _closure1_slot0;
@@ -161,31 +161,31 @@ case 7:
             return var1;
         }
     };
-    var _closure1_slot9 = var8;
+    var _closure1_slot9 = var10;
     var1 = global;
     var11 = var1.Object;
-    var10 = var11.defineProperty;
+    var8 = var11.defineProperty;
     var4 = {};
     var1 = true;
     var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var10.bind(var11)(var3, var1, var4);
+    var1 = var8.bind(var11)(var3, var1, var4);
     var1 = 0;
     var4 = var7[var1];
     var1 = undefined;
-    var4 = var9.bind(var1)(var4);
+    var4 = var5.bind(var1)(var4);
     var _closure1_slot3 = var4;
     var4 = 1;
     var4 = var7[var4];
     var4 = var6.bind(var1)(var4);
-    var9 = var4.getSelectedGuildId;
-    var _closure1_slot4 = var9;
+    var5 = var4.getSelectedGuildId;
+    var _closure1_slot4 = var5;
     var4 = var4.useUserSafetySettingsSelectedGuildStore;
     var _closure1_slot5 = var4;
     var4 = 2;
     var4 = var7[var4];
     var4 = var6.bind(var1)(var4);
-    var9 = var4.MobileSetting;
+    var11 = var4.MobileSetting;
     var4 = 3;
     var4 = var7[var4];
     var4 = var6.bind(var1)(var4);
@@ -193,14 +193,15 @@ case 7:
     var _closure1_slot6 = var4;
     var4 = 4;
     var4 = var7[var4];
-    var10 = var6.bind(var1)(var4);
-    var4 = var10.GUILD_SELECT_ALL_SERVERS_OPTION_ID;
+    var4 = var6.bind(var1)(var4);
+    var4 = var4.GUILD_SELECT_ALL_SERVERS_OPTION_ID;
     var _closure1_slot7 = var4;
+    var4 = 15;
+    var4 = var7[var4];
+    var8 = var6.bind(var1)(var4);
+    var5 = var8.createToggle;
     var4 = {};
-    var10 = var10.RendererType;
-    var10 = var10.TOGGLE;
-    var4['type'] = var10;
-    var10 = function title() {
+    var12 = function title() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 7;
@@ -216,8 +217,8 @@ case 7:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var4['title'] = var10;
-    var10 = function useDescription() {
+    var4['title'] = var12;
+    var12 = function useDescription() {
         var2 = _closure1_slot0;
         var9 = _closure1_slot2;
         var1 = 7;
@@ -232,7 +233,7 @@ case 7:
         var2 = var1.wkm9a3;
         var1 = {};
         var7 = _closure1_slot1;
-        var6 = 15;
+        var6 = 16;
         var6 = var9[var6];
         var7 = var7.bind(var8)(var6);
         var6 = var7.getArticleURL;
@@ -243,10 +244,10 @@ case 7:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var4['useDescription'] = var10;
-    var9 = var9.CONTENT_AND_SOCIAL_DISCORD;
-    var4['parent'] = var9;
-    var9 = function useValue() {
+    var4['useDescription'] = var12;
+    var11 = var11.CONTENT_AND_SOCIAL_DISCORD;
+    var4['parent'] = var11;
+    var11 = function useValue() {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var1 = _closure1_slot5;
@@ -285,9 +286,9 @@ case 11:
             return var1;
         }
     };
-    var4['useValue'] = var9;
-    var4['useIsDisabled'] = var8;
-    var5 = function onAllowMessageRequestsFromServerMembersValueChange(arg1) {
+    var4['useValue'] = var11;
+    var4['useIsDisabled'] = var10;
+    var9 = function onAllowMessageRequestsFromServerMembersValueChange(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var1 = arg1;
@@ -364,8 +365,9 @@ case 18:
             return var1;
         }
     };
-    var4['onValueChange'] = var5;
-    var5 = 16;
+    var4['onValueChange'] = var9;
+    var4 = var5.bind(var8)(var4);
+    var5 = 17;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

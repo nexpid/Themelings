@@ -262,13 +262,13 @@ case 14:
                     var2 = var2.current;
                     var2 = var4 > var2;
                     if(var2) { _fun0003_ip = 15; continue _fun0003 }
-case 16:
+case 3:
                     var3 = _closure2_slot2;
                     var3 = var3.current;
                     var2 = var4 < var3;
 case 15:
                     if(!var2) { _fun0003_ip = 10; continue _fun0003 }
-case 17:
+case 16:
                     var1 = _closure2_slot5;
                     var3 = var1.current;
                     var2 = var3.scrollToOffset;
@@ -403,10 +403,10 @@ case 10:
             var16 = var16.theme;
             var17 = var17.bind(var18)(var16);
             var16 = 'light';
-            if(!var17) { _fun0002_ip = 18; continue _fun0002 }
-case 19:
-            var16 = 'dark';
+            if(!var17) { _fun0002_ip = 17; continue _fun0002 }
 case 18:
+            var16 = 'dark';
+case 17:
             var5['blurTheme'] = var16;
             var16 = _closure1_slot5;
             var16 = var16.absoluteFill;

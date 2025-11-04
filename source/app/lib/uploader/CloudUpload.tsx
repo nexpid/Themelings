@@ -3012,8 +3012,8 @@ case 320:
 case 318:
                     var10 = var2.uploadAnalytics;
                     var10['convertedMimeType'] = var8;
-                    var19 = var4.fileSize;
-                    if(!(var9 == var19)) { _fun0028_ip = 321; continue _fun0028 }
+                    var21 = var4.fileSize;
+                    if(!(var9 == var21)) { _fun0028_ip = 321; continue _fun0028 }
 case 322:
                     var12 = _closure1_slot0;
                     var14 = _closure1_slot2;
@@ -3029,42 +3029,44 @@ case 324:
                     ResumeGenerator(result_out_reg=9, return_bool_out_reg=11);
                     if(var12) { _fun0028_ip = 325; continue _fun0028 }
 case 271:
-                    var19 = var10.size;
+                    var21 = var10.size;
                     _fun0028_ip = 321; continue _fun0028;
 case 325:
                     return var10;
 case 321:
-                    var2['postCompressionSize'] = var19;
-                    var2['currentSize'] = var19;
-                    if(!(var9 != var19)) { _fun0028_ip = 326; continue _fun0028 }
+                    var2['postCompressionSize'] = var21;
+                    var2['currentSize'] = var21;
+                    if(!(var9 != var21)) { _fun0028_ip = 326; continue _fun0028 }
 case 327:
                     var12 = _closure1_slot16;
                     var10 = var12.log;
-                    var20 = var2.id;
+                    var26 = var2.mimeType;
+                    var22 = var2.id;
                     var9 = var6.HermesInternal;
-                    var17 = var9.concat;
-                    var29 = 'Completed compression and conversion. Output size=';
-                    var27 = ' bytes; filename=';
-                    var25 = '; uri=';
-                    var23 = '; mimeType=';
-                    var21 = ' for ';
-                    var28 = var19;
-                    var26 = var11;
-                    var24 = var7;
-                    var22 = var8;
-                    var9 = var29[var17](var28, var27, var26, var25, var24, var23, var22, var21, var20, var19);
+                    var18 = var9.concat;
+                    var33 = 'Completed compression and conversion. Output size=';
+                    var31 = ' bytes; filename=';
+                    var29 = '; uri=';
+                    var27 = '; originalMimeType=';
+                    var25 = '; mimeType=';
+                    var23 = ' for ';
+                    var32 = var21;
+                    var30 = var11;
+                    var28 = var7;
+                    var24 = var8;
+                    var9 = var33[var18](var32, var31, var30, var29, var28, var27, var26, var25, var24, var23, var22, var21);
                     var9 = var10.bind(var12)(var9);
                     var9 = {};
                     var9['uri'] = var7;
                     var9['filename'] = var11;
                     var9['mimeType'] = var8;
                     var8 = {};
-                    var27 = var2.item;
-                    var28 = var8;
-                    var10 = copyDataProperties(var28, var27);
-                    var28 = var8;
-                    var27 = var9;
-                    var9 = copyDataProperties(var28, var27);
+                    var31 = var2.item;
+                    var32 = var8;
+                    var10 = copyDataProperties(var32, var31);
+                    var32 = var8;
+                    var31 = var9;
+                    var9 = copyDataProperties(var32, var31);
                     var2['item'] = var8;
                     var2['reactNativeFilePrepped'] = var5;
                     return var2;
@@ -3080,9 +3082,9 @@ case 326:
                     var10 = var6.Error;
                     var8 = var10.prototype;
                     var9 = Object.create(var8, {constructor: {value: var10}});
-                    var28 = 'Size missing from file data';
-                    var29 = var9;
-                    var8 = new var29[var10](var28, var27);
+                    var32 = 'Size missing from file data';
+                    var33 = var9;
+                    var8 = new var33[var10](var32, var31);
                     var8 = var8 instanceof Object ? var8 : var9;
                     throw var8;
 case 312:
@@ -3110,11 +3112,11 @@ case 312:
                     var8['type'] = var7;
                     var7 = var6.HermesInternal;
                     var7 = var7.concat;
-                    var28 = var7.bind(var10)(var8);
+                    var32 = var7.bind(var10)(var8);
                     var8 = var9.prototype;
                     var8 = Object.create(var8, {constructor: {value: var9}});
-                    var29 = var8;
-                    var7 = new var29[var9](var28, var27);
+                    var33 = var8;
+                    var7 = new var33[var9](var32, var31);
                     var7 = var7 instanceof Object ? var7 : var8;
                     throw var7;
 case 300:

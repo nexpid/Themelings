@@ -18,6 +18,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['BUILD_OVERRIDE'] = var1;
     var1 = 'MANUAL_BUILD_OVERRIDE';
     var2['MANUAL_BUILD_OVERRIDE'] = var1;
+    var1 = 'EXPERIMENT';
+    var2['EXPERIMENT'] = var1;
     var1 = 'EVENT';
     var2['EVENT'] = var1;
     var1 = 'CHANNEL_LINK';

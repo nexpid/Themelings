@@ -6,39 +6,37 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var6;
     var1 = global;
-    var8 = var1.Object;
-    var7 = var8.defineProperty;
+    var7 = var1.Object;
+    var4 = var7.defineProperty;
     var2 = {};
     var1 = true;
     var2['value'] = var1;
     var1 = '__esModule';
-    var1 = var7.bind(var8)(var3, var1, var2);
+    var1 = var4.bind(var7)(var3, var1, var2);
     var1 = 0;
-    var7 = var6[var1];
+    var4 = var6[var1];
     var2 = metroImportDefault;
     var1 = undefined;
-    var2 = var2.bind(var1)(var7);
+    var2 = var2.bind(var1)(var4);
     var _closure1_slot2 = var2;
     var2 = 1;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
-    var7 = var2.MobileSetting;
+    var9 = var2.MobileSetting;
     var2 = 2;
-    var2 = var6[var2];
-    var2 = var5.bind(var1)(var2);
-    var8 = var2.RendererType;
-    var2 = 3;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
     var2 = var2.InputModes;
     var _closure1_slot3 = var2;
+    var2 = 5;
+    var2 = var6[var2];
+    var7 = var5.bind(var1)(var2);
+    var4 = var7.createPressable;
     var2 = {};
-    var8 = var8.PRESSABLE;
-    var2['type'] = var8;
-    var8 = function title() {
+    var10 = function title() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;
-        var1 = 5;
+        var1 = 4;
         var2 = var6[var1];
         var4 = undefined;
         var2 = var5.bind(var4)(var2);
@@ -51,15 +49,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var2['title'] = var8;
-    var7 = var7.VOICE;
-    var2['parent'] = var7;
-    var7 = function useInputModeSettingTrailing() {
+    var2['title'] = var10;
+    var9 = var9.VOICE;
+    var2['parent'] = var9;
+    var9 = function useInputModeSettingTrailing() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var3 = _closure1_slot0;
             var4 = _closure1_slot1;
-            var1 = 4;
+            var1 = 3;
             var1 = var4[var1];
             var6 = undefined;
             var5 = var3.bind(var6)(var1);
@@ -80,7 +78,7 @@ case 0:
 case 3:
             var5 = _closure1_slot0;
             var7 = _closure1_slot1;
-            var1 = 5;
+            var1 = 4;
             var3 = var7[var1];
             var3 = var5.bind(var6)(var3);
             var4 = var3.intl;
@@ -94,7 +92,7 @@ case 3:
 case 2:
             var5 = _closure1_slot0;
             var7 = _closure1_slot1;
-            var2 = 5;
+            var2 = 4;
             var3 = var7[var2];
             var3 = var5.bind(var6)(var3);
             var4 = var3.intl;
@@ -108,16 +106,16 @@ case 4:
             return var1;
         }
     };
-    var2['useTrailing'] = var7;
-    var7 = 6;
-    var7 = var6[var7];
-    var7 = var5.bind(var1)(var7);
-    var7 = var7.handleInputModePress;
-    var2['onPress'] = var7;
-    var4 = function additionalSearchTerms() {
+    var2['useTrailing'] = var9;
+    var9 = 6;
+    var9 = var6[var9];
+    var9 = var5.bind(var1)(var9);
+    var9 = var9.handleInputModePress;
+    var2['onPress'] = var9;
+    var8 = function additionalSearchTerms() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;
-        var1 = 5;
+        var1 = 4;
         var2 = var6[var1];
         var4 = undefined;
         var2 = var5.bind(var4)(var2);
@@ -132,7 +130,8 @@ case 4:
         var1[0] = var2;
         return var1;
     };
-    var2['additionalSearchTerms'] = var4;
+    var2['additionalSearchTerms'] = var8;
+    var2 = var4.bind(var7)(var2);
     var4 = 7;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

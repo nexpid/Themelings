@@ -6,34 +6,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var6;
     var1 = global;
-    var8 = var1.Object;
-    var7 = var8.defineProperty;
+    var7 = var1.Object;
+    var4 = var7.defineProperty;
     var2 = {};
     var1 = true;
     var2['value'] = var1;
     var1 = '__esModule';
-    var1 = var7.bind(var8)(var3, var1, var2);
+    var1 = var4.bind(var7)(var3, var1, var2);
     var1 = 0;
     var2 = var6[var1];
     var1 = undefined;
     var2 = var5.bind(var1)(var2);
-    var7 = var2.MobileSetting;
+    var9 = var2.MobileSetting;
     var2 = 1;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
     var2 = var2.LaunchPadTypes;
     var _closure1_slot2 = var2;
+    var2 = 5;
+    var2 = var6[var2];
+    var7 = var5.bind(var1)(var2);
+    var4 = var7.createRadio;
     var2 = {};
-    var8 = 2;
-    var8 = var6[var8];
-    var8 = var5.bind(var1)(var8);
-    var8 = var8.RendererType;
-    var8 = var8.RADIO;
-    var2['type'] = var8;
-    var8 = function title() {
+    var10 = function title() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;
-        var1 = 5;
+        var1 = 4;
         var2 = var6[var1];
         var4 = undefined;
         var2 = var5.bind(var4)(var2);
@@ -46,15 +44,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var2['title'] = var8;
-    var7 = var7.ADVANCED;
-    var2['parent'] = var7;
-    var7 = 6;
-    var8 = var6[var7];
-    var7 = metroImportDefault;
-    var7 = var7.bind(var1)(var8);
-    var2['useValue'] = var7;
-    var7 = function onLaunchpadSettingValueChange(arg1) {
+    var2['title'] = var10;
+    var9 = var9.ADVANCED;
+    var2['parent'] = var9;
+    var9 = 6;
+    var10 = var6[var9];
+    var9 = metroImportDefault;
+    var9 = var9.bind(var1)(var10);
+    var2['useValue'] = var9;
+    var9 = function onLaunchpadSettingValueChange(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var3 = arg1;
@@ -76,13 +74,13 @@ case 7:
 case 9:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
-            var2 = 3;
+            var2 = 2;
             var2 = var7[var2];
             var5 = undefined;
             var2 = var6.bind(var5)(var2);
             var4 = var2.LaunchPadModeSetting;
             var3 = var4.updateSetting;
-            var2 = 4;
+            var2 = 3;
             var2 = var7[var2];
             var2 = var6.bind(var5)(var2);
             var2 = var2.LaunchPadMode;
@@ -92,13 +90,13 @@ case 9:
 case 6:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
-            var2 = 3;
+            var2 = 2;
             var2 = var7[var2];
             var5 = undefined;
             var2 = var6.bind(var5)(var2);
             var4 = var2.LaunchPadModeSetting;
             var3 = var4.updateSetting;
-            var2 = 4;
+            var2 = 3;
             var2 = var7[var2];
             var2 = var6.bind(var5)(var2);
             var2 = var2.LaunchPadMode;
@@ -108,13 +106,13 @@ case 6:
 case 4:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
-            var2 = 3;
+            var2 = 2;
             var2 = var7[var2];
             var5 = undefined;
             var2 = var6.bind(var5)(var2);
             var4 = var2.LaunchPadModeSetting;
             var3 = var4.updateSetting;
-            var2 = 4;
+            var2 = 3;
             var2 = var7[var2];
             var2 = var6.bind(var5)(var2);
             var2 = var2.LaunchPadMode;
@@ -124,13 +122,13 @@ case 4:
 case 2:
             var5 = _closure1_slot0;
             var6 = _closure1_slot1;
-            var1 = 3;
+            var1 = 2;
             var1 = var6[var1];
             var4 = undefined;
             var1 = var5.bind(var4)(var1);
             var3 = var1.LaunchPadModeSetting;
             var2 = var3.updateSetting;
-            var1 = 4;
+            var1 = 3;
             var1 = var6[var1];
             var1 = var5.bind(var4)(var1);
             var1 = var1.LaunchPadMode;
@@ -141,12 +139,12 @@ case 8:
             return var1;
         }
     };
-    var2['onValueChange'] = var7;
-    var4 = function useLaunchpadSettingOptions() {
+    var2['onValueChange'] = var9;
+    var8 = function useLaunchpadSettingOptions() {
         var2 = {};
         var8 = _closure1_slot0;
         var9 = _closure1_slot1;
-        var4 = 5;
+        var4 = 4;
         var3 = var9[var4];
         var7 = undefined;
         var3 = var8.bind(var7)(var3);
@@ -247,7 +245,8 @@ case 8:
         var1[3] = var2;
         return var1;
     };
-    var2['useOptions'] = var4;
+    var2['useOptions'] = var8;
+    var2 = var4.bind(var7)(var2);
     var4 = 7;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

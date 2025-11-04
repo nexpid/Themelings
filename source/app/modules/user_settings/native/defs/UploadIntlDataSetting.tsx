@@ -1,11 +1,11 @@
 // app/modules/user_settings/native/defs/UploadIntlDataSetting.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var7 = metroImportDefault;
+    var4 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var7;
+    var _closure1_slot1 = var4;
     var1 = metroImportAll;
     var _closure1_slot2 = var1;
     var _closure1_slot3 = var6;
@@ -27,11 +27,11 @@ case 3:
 case 4: // try_start_0
                     var7 = _closure1_slot0;
                     var9 = _closure1_slot3;
-                    var2 = 8;
+                    var2 = 7;
                     var2 = var9[var2];
                     var4 = var7.bind(var10)(var2);
                     var3 = var4.loadJsonAsset;
-                    var2 = 9;
+                    var2 = 8;
                     var2 = var9[var2];
                     var2 = var7.bind(var10)(var2);
                     var2 = var3.bind(var4)(var2);
@@ -46,7 +46,7 @@ case 8:
                     var7 = {};
                     var12 = _closure1_slot0;
                     var13 = _closure1_slot3;
-                    var11 = 10;
+                    var11 = 9;
                     var3 = var13[var11];
                     var3 = var12.bind(var10)(var3);
                     var3 = var3.intl;
@@ -77,7 +77,7 @@ case 8:
                         var1[0] = var5;
                         var7 = _closure1_slot0;
                         var8 = _closure1_slot3;
-                        var2 = 10;
+                        var2 = 9;
                         var3 = var8[var2];
                         var6 = undefined;
                         var3 = var7.bind(var6)(var3);
@@ -111,7 +111,7 @@ case 8:
                     var9 = var14.toISOString;
                     var9 = var9.bind(var14)();
                     var4['timestamp'] = var9;
-                    var9 = 11;
+                    var9 = 10;
                     var9 = var13[var9];
                     var12 = var12.bind(var10)(var9);
                     var9 = var12.isIOS;
@@ -124,7 +124,7 @@ case 9:
                     var4['platform'] = var9;
                     var12 = _closure1_slot2;
                     var13 = _closure1_slot3;
-                    var9 = 7;
+                    var9 = 6;
                     var9 = var13[var9];
                     var12 = var12.bind(var10)(var9);
                     var9 = var12.getConstants;
@@ -222,7 +222,7 @@ case 16:
                     var2 = function onUploadIntlDataRequestStart() {
                         var3 = _closure1_slot0;
                         var2 = _closure1_slot3;
-                        var1 = 6;
+                        var1 = 5;
                         var2 = var2[var1];
                         var1 = undefined;
                         var4 = var3.bind(var1)(var2);
@@ -240,7 +240,7 @@ case 16:
                     var2 = var2.bind(var4)();
                     var6 = _closure1_slot0;
                     var8 = _closure1_slot3;
-                    var2 = 11;
+                    var2 = 10;
                     var2 = var8[var2];
                     var6 = var6.bind(var4)(var2);
                     var2 = var6.isIOS;
@@ -280,7 +280,7 @@ case 24:
                     var9 = var8.bind(var9)(var6, var5);
                     var6 = _closure1_slot0;
                     var8 = _closure1_slot3;
-                    var5 = 12;
+                    var5 = 11;
                     var5 = var8[var5];
                     var5 = var6.bind(var4)(var5);
                     var8 = var5.HTTP;
@@ -302,13 +302,13 @@ case 26:
 case 28:
                     var8 = _closure1_slot1;
                     var12 = _closure1_slot3;
-                    var6 = 13;
+                    var6 = 12;
                     var6 = var12[var6];
                     var9 = var8.bind(var4)(var6);
                     var8 = var9.open;
                     var6 = {'key': 'USER_SETTINGS_INTL_DATA_UPLOADED', 'IconComponent': null, 'content': 'Internationalization data uploaded successfully.'};
                     var11 = _closure1_slot0;
-                    var10 = 14;
+                    var10 = 13;
                     var10 = var12[var10];
                     var10 = var11.bind(var4)(var10);
                     var10 = var10.CircleInformationIcon;
@@ -320,7 +320,7 @@ case 27: // try_end1
                     var6 = function onUploadIntlDataRequestFinish() {
                         var4 = _closure1_slot0;
                         var3 = _closure1_slot3;
-                        var1 = 6;
+                        var1 = 5;
                         var3 = var3[var1];
                         var1 = undefined;
                         var5 = var4.bind(var1)(var3);
@@ -338,7 +338,7 @@ case 27: // try_end1
                         var3 = function() {
                             var3 = _closure1_slot0;
                             var2 = _closure1_slot3;
-                            var1 = 6;
+                            var1 = 5;
                             var2 = var2[var1];
                             var1 = undefined;
                             var3 = var3.bind(var1)(var2);
@@ -365,7 +365,7 @@ case 23:
                     var5 = function onUploadIntlDataRequestFinish() {
                         var4 = _closure1_slot0;
                         var3 = _closure1_slot3;
-                        var1 = 6;
+                        var1 = 5;
                         var3 = var3[var1];
                         var1 = undefined;
                         var5 = var4.bind(var1)(var3);
@@ -383,7 +383,7 @@ case 23:
                         var3 = function() {
                             var3 = _closure1_slot0;
                             var2 = _closure1_slot3;
-                            var1 = 6;
+                            var1 = 5;
                             var2 = var2[var1];
                             var1 = undefined;
                             var3 = var3.bind(var1)(var2);
@@ -410,13 +410,13 @@ case 31: // try_start_2 // catch_target0
                     CatchBlockStart(arg_register=1);
                     var5 = _closure1_slot1;
                     var9 = _closure1_slot3;
-                    var2 = 13;
+                    var2 = 12;
                     var2 = var9[var2];
                     var6 = var5.bind(var4)(var2);
                     var5 = var6.open;
                     var2 = {'key': 'USER_SETTINGS_INTL_DATA_UPLOAD_FAILED', 'IconComponent': null, 'content': 'Failed to upload internationalization data.'};
                     var8 = _closure1_slot0;
-                    var7 = 14;
+                    var7 = 13;
                     var7 = var9[var7];
                     var7 = var8.bind(var4)(var7);
                     var7 = var7.CircleInformationIcon;
@@ -426,7 +426,7 @@ case 30: // try_end2
                     var2 = function onUploadIntlDataRequestFinish() {
                         var4 = _closure1_slot0;
                         var3 = _closure1_slot3;
-                        var1 = 6;
+                        var1 = 5;
                         var3 = var3[var1];
                         var1 = undefined;
                         var5 = var4.bind(var1)(var3);
@@ -444,7 +444,7 @@ case 30: // try_end2
                         var3 = function() {
                             var3 = _closure1_slot0;
                             var2 = _closure1_slot3;
-                            var1 = 6;
+                            var1 = 5;
                             var2 = var2[var1];
                             var1 = undefined;
                             var3 = var3.bind(var1)(var2);
@@ -472,7 +472,7 @@ case 32: // catch_target1 // catch_target2
                     var3 = function onUploadIntlDataRequestFinish() {
                         var4 = _closure1_slot0;
                         var3 = _closure1_slot3;
-                        var1 = 6;
+                        var1 = 5;
                         var3 = var3[var1];
                         var1 = undefined;
                         var5 = var4.bind(var1)(var3);
@@ -490,7 +490,7 @@ case 32: // catch_target1 // catch_target2
                         var3 = function() {
                             var3 = _closure1_slot0;
                             var2 = _closure1_slot3;
-                            var1 = 6;
+                            var1 = 5;
                             var2 = var2[var1];
                             var1 = undefined;
                             var3 = var3.bind(var1)(var2);
@@ -531,16 +531,16 @@ case 15:
     var _closure1_slot11 = var1;
     var1 = global;
     var9 = var1.Object;
-    var8 = var9.defineProperty;
+    var7 = var9.defineProperty;
     var2 = {};
     var1 = true;
     var2['value'] = var1;
     var1 = '__esModule';
-    var1 = var8.bind(var9)(var3, var1, var2);
+    var1 = var7.bind(var9)(var3, var1, var2);
     var1 = 0;
     var2 = var6[var1];
     var1 = undefined;
-    var2 = var7.bind(var1)(var2);
+    var2 = var4.bind(var1)(var2);
     var _closure1_slot4 = var2;
     var2 = 1;
     var2 = var6[var2];
@@ -550,45 +550,43 @@ case 15:
     var2 = 2;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
-    var7 = var2.DebugLogCategory;
-    var _closure1_slot6 = var7;
+    var4 = var2.DebugLogCategory;
+    var _closure1_slot6 = var4;
     var2 = var2.Endpoints;
     var _closure1_slot7 = var2;
     var2 = 3;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
-    var7 = var2.RendererType;
-    var2 = 4;
-    var2 = var6[var2];
-    var2 = var5.bind(var1)(var2);
     var2 = var2.jsx;
     var _closure1_slot8 = var2;
-    var2 = 5;
+    var2 = 4;
     var2 = var6[var2];
-    var9 = var5.bind(var1)(var2);
-    var8 = var9.create;
+    var7 = var5.bind(var1)(var2);
+    var4 = var7.create;
     var2 = function() {
         var1 = {'isDisabled': false, 'isUploading': false};
         return var1;
     };
-    var2 = var8.bind(var9)(var2);
+    var2 = var4.bind(var7)(var2);
     var _closure1_slot9 = var2;
+    var2 = 14;
+    var2 = var6[var2];
+    var7 = var5.bind(var1)(var2);
+    var4 = var7.createPressable;
     var2 = {};
-    var7 = var7.PRESSABLE;
-    var2['type'] = var7;
-    var7 = function title() {
+    var9 = function title() {
         var1 = 'Upload i18n data';
         return var1;
     };
-    var2['title'] = var7;
-    var7 = null;
-    var2['parent'] = var7;
-    var7 = 15;
-    var7 = var6[var7];
-    var7 = var5.bind(var1)(var7);
-    var7 = var7.FileUpIcon;
-    var2['IconComponent'] = var7;
-    var7 = function handleUploadIntlDataSettingPress() {
+    var2['title'] = var9;
+    var9 = null;
+    var2['parent'] = var9;
+    var9 = 15;
+    var9 = var6[var9];
+    var9 = var5.bind(var1)(var9);
+    var9 = var9.FileUpIcon;
+    var2['IconComponent'] = var9;
+    var9 = function handleUploadIntlDataSettingPress() {
         var1 = undefined;
         var4 = _closure1_slot11;
         var3 = var4.apply;
@@ -598,13 +596,13 @@ case 15:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var2['onPress'] = var7;
-    var7 = 16;
-    var7 = var6[var7];
-    var7 = var5.bind(var1)(var7);
-    var7 = var7.useStaffOrDeveloperSettingPredicate;
-    var2['usePredicate'] = var7;
-    var7 = function useUploadIntlDataTrailing() {
+    var2['onPress'] = var9;
+    var9 = 16;
+    var9 = var6[var9];
+    var9 = var5.bind(var1)(var9);
+    var9 = var9.useStaffOrDeveloperSettingPredicate;
+    var2['usePredicate'] = var9;
+    var9 = function useUploadIntlDataTrailing() {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var1 = _closure1_slot9;
@@ -622,15 +620,16 @@ case 33:
             return var1;
         }
     };
-    var2['useTrailing'] = var7;
-    var4 = function useIsUploadIntlDataDisabled() {
+    var2['useTrailing'] = var9;
+    var8 = function useIsUploadIntlDataDisabled() {
         var2 = _closure1_slot9;
         var1 = undefined;
         var1 = var2.bind(var1)();
         var1 = var1.isDisabled;
         return var1;
     };
-    var2['useIsDisabled'] = var4;
+    var2['useIsDisabled'] = var8;
+    var2 = var4.bind(var7)(var2);
     var4 = 17;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

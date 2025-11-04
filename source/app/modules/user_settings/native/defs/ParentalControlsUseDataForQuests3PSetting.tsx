@@ -6,31 +6,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var6;
     var1 = global;
-    var9 = var1.Object;
-    var8 = var9.defineProperty;
+    var7 = var1.Object;
+    var4 = var7.defineProperty;
     var2 = {};
-    var4 = true;
-    var2['value'] = var4;
+    var8 = true;
+    var2['value'] = var8;
     var1 = '__esModule';
-    var1 = var8.bind(var9)(var3, var1, var2);
+    var1 = var4.bind(var7)(var3, var1, var2);
     var1 = 0;
-    var8 = var6[var1];
+    var4 = var6[var1];
     var2 = metroImportDefault;
     var1 = undefined;
-    var2 = var2.bind(var1)(var8);
+    var2 = var2.bind(var1)(var4);
     var _closure1_slot2 = var2;
     var2 = 1;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
-    var8 = var2.MobileSetting;
+    var10 = var2.MobileSetting;
+    var2 = 4;
+    var2 = var6[var2];
+    var7 = var5.bind(var1)(var2);
+    var4 = var7.createToggle;
     var2 = {};
-    var9 = 2;
-    var9 = var6[var9];
-    var9 = var5.bind(var1)(var9);
-    var9 = var9.RendererType;
-    var9 = var9.TOGGLE;
-    var2['type'] = var9;
-    var9 = function title() {
+    var11 = function title() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;
         var1 = 5;
@@ -46,21 +44,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var2['title'] = var9;
-    var8 = var8.FAMILY_CENTER_PARENTAL_CONTROLS_SETTINGS;
-    var2['parent'] = var8;
-    var8 = function useDataToSupportQuests3PSettingValue() {
+    var2['title'] = var11;
+    var10 = var10.FAMILY_CENTER_PARENTAL_CONTROLS_SETTINGS;
+    var2['parent'] = var10;
+    var10 = function useDataToSupportQuests3PSettingValue() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var3 = _closure1_slot0;
             var5 = _closure1_slot1;
-            var1 = 3;
+            var1 = 2;
             var2 = var5[var1];
             var1 = undefined;
             var4 = var3.bind(var1)(var2);
             var2 = var4.useSelectedTeenId;
             var4 = var2.bind(var4)();
-            var2 = 4;
+            var2 = 3;
             var2 = var5[var2];
             var2 = var3.bind(var1)(var2);
             var3 = var2.ParentalControlledQuests3PDataOptedOut;
@@ -76,8 +74,8 @@ case 2:
             return var1;
         }
     };
-    var2['useValue'] = var8;
-    var8 = function onDataToSupportQuests3PSettingValueChange(arg1) {
+    var2['useValue'] = var10;
+    var10 = function onDataToSupportQuests3PSettingValueChange(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var3 = _closure1_slot2;
@@ -85,7 +83,7 @@ case 0:
             var2 = var2.bind(var3)();
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
-            var1 = 4;
+            var1 = 3;
             var3 = var3[var1];
             var1 = undefined;
             var3 = var4.bind(var1)(var3);
@@ -104,19 +102,19 @@ case 4:
             return var1;
         }
     };
-    var2['onValueChange'] = var8;
-    var7 = function useDataToSupportQuests3PSettingIsDisabled() {
+    var2['onValueChange'] = var10;
+    var9 = function useDataToSupportQuests3PSettingIsDisabled() {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var3 = _closure1_slot0;
             var5 = _closure1_slot1;
-            var1 = 3;
+            var1 = 2;
             var2 = var5[var1];
             var1 = undefined;
             var4 = var3.bind(var1)(var2);
             var2 = var4.useSelectedTeenId;
             var4 = var2.bind(var4)();
-            var2 = 4;
+            var2 = 3;
             var2 = var5[var2];
             var2 = var3.bind(var1)(var2);
             var3 = var2.ParentalControlledDropsOptedOut;
@@ -131,8 +129,9 @@ case 2:
             return var1;
         }
     };
-    var2['useIsDisabled'] = var7;
-    var2['unsearchable'] = var4;
+    var2['useIsDisabled'] = var9;
+    var2['unsearchable'] = var8;
+    var2 = var4.bind(var7)(var2);
     var4 = 6;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

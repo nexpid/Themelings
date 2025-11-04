@@ -6,13 +6,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var6;
     var1 = global;
-    var8 = var1.Object;
-    var4 = var8.defineProperty;
+    var7 = var1.Object;
+    var4 = var7.defineProperty;
     var2 = {};
     var1 = true;
     var2['value'] = var1;
     var1 = '__esModule';
-    var1 = var4.bind(var8)(var3, var1, var2);
+    var1 = var4.bind(var7)(var3, var1, var2);
     var1 = 0;
     var4 = var6[var1];
     var2 = metroImportDefault;
@@ -22,22 +22,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = 1;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
-    var4 = var2.MobileSetting;
+    var8 = var2.MobileSetting;
     var2 = 2;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
-    var8 = var2.UserSettingsSections;
+    var10 = var2.UserSettingsSections;
+    var2 = 5;
+    var2 = var6[var2];
+    var7 = var5.bind(var1)(var2);
+    var4 = var7.createRoute;
     var2 = {};
-    var9 = 3;
-    var9 = var6[var9];
-    var9 = var5.bind(var1)(var9);
-    var9 = var9.RendererType;
-    var9 = var9.ROUTE;
-    var2['type'] = var9;
-    var9 = function title() {
+    var11 = function title() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;
-        var1 = 5;
+        var1 = 4;
         var2 = var6[var1];
         var4 = undefined;
         var2 = var5.bind(var4)(var2);
@@ -50,13 +48,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var2['title'] = var9;
-    var4 = var4.NOTIFICATIONS;
-    var2['parent'] = var4;
-    var4 = function useCommunityActivityAlertsSettingDescription() {
+    var2['title'] = var11;
+    var8 = var8.NOTIFICATIONS;
+    var2['parent'] = var8;
+    var8 = function useCommunityActivityAlertsSettingDescription() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot1;
-        var1 = 5;
+        var1 = 4;
         var2 = var6[var1];
         var4 = undefined;
         var2 = var5.bind(var4)(var2);
@@ -69,11 +67,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var2['useDescription'] = var4;
-    var4 = function useHasCommunityActivityAlertsSetting() {
+    var2['useDescription'] = var8;
+    var8 = function useHasCommunityActivityAlertsSetting() {
         var4 = _closure1_slot0;
         var3 = _closure1_slot1;
-        var2 = 4;
+        var2 = 3;
         var3 = var3[var2];
         var2 = undefined;
         var4 = var4.bind(var2)(var3);
@@ -97,11 +95,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var2['usePredicate'] = var4;
-    var4 = {};
-    var8 = var8.COMMUNITY_ALERTS;
-    var4['route'] = var8;
-    var7 = function getComponent() {
+    var2['usePredicate'] = var8;
+    var8 = {};
+    var10 = var10.COMMUNITY_ALERTS;
+    var8['route'] = var10;
+    var9 = function getComponent() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 6;
@@ -111,8 +109,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var4['getComponent'] = var7;
-    var2['screen'] = var4;
+    var8['getComponent'] = var9;
+    var2['screen'] = var8;
+    var2 = var4.bind(var7)(var2);
     var4 = 7;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
