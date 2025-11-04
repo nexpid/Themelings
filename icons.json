@@ -7500,34 +7500,6 @@
         "width": 48,
         "height": 48
     },
-    "img_baddies_dark_theme": {
-        "file": "app/images/native/verification/img_baddies_dark_theme.png",
-        "hash": "65ec9d53d4277a914d2c244405742479",
-        "scales": [
-            1
-        ],
-        "width": 409,
-        "height": 293
-    },
-    "img_baddies_darker": {
-        "file": "app/design/components/Illustration/native/redesign/generated/images/img_baddies_darker.png",
-        "hash": "a138d9cb66939b237abe291d5a8f85ba",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 405,
-        "height": 289
-    },
-    "img_baddies_light_theme": {
-        "file": "app/images/native/verification/img_baddies_light_theme.png",
-        "hash": "0149ff29905544ef459ca999cb48223b",
-        "scales": [
-            1
-        ],
-        "width": 409,
-        "height": 293
-    },
     "img_ban": {
         "file": "app/images/native/img_ban.png",
         "hash": "55e19295e229a1848ac31993707c2b78",
@@ -9547,16 +9519,6 @@
         "hash": "2466a8cae3eebcc6d13072f6ff1957c4",
         "scales": [
             1
-        ],
-        "width": 100,
-        "height": 100
-    },
-    "in_app_report_success100px": {
-        "file": "app/images/native/in_app_report_success100px.png",
-        "hash": "f4f80108d864b4017487bfd86d45bc9b",
-        "scales": [
-            2,
-            3
         ],
         "width": 100,
         "height": 100
