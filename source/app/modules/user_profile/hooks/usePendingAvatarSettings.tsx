@@ -203,7 +203,7 @@ case 0:
                     var6 = var4.bind(var1)(var2);
                     var5 = var6.setNewPendingAvatarDecoration;
                     var4 = _closure2_slot1;
-                    var4 = var5.bind(var6)(var4, var3);
+                    var4 = var5.bind(var6)(var3, var4);
                     var4 = null;
                     if(!(var4 != var3)) { _fun0004_ip = 21; continue _fun0004 }
 case 22:

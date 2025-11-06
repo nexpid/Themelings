@@ -243,8 +243,8 @@ case 47:
             var4 = var13.getApplication;
             var3 = var3.id;
             var3 = var4.bind(var13)(var3);
-            if(!(var1 != var3)) { _fun0004_ip = 6; continue _fun0004 }
-case 48:
+            if(!(var1 != var3)) { _fun0004_ip = 48; continue _fun0004 }
+case 49:
             var13 = _closure1_slot0;
             var4 = _closure1_slot1;
             var4 = var4[var11];
@@ -253,15 +253,15 @@ case 48:
             var14 = var3.flags;
             var4 = var1 != var14;
             var13 = 0;
-            if(!var4) { _fun0004_ip = 49; continue _fun0004 }
-case 50:
+            if(!var4) { _fun0004_ip = 50; continue _fun0004 }
+case 51:
             var13 = var14;
-case 49:
+case 50:
             var4 = _closure1_slot4;
             var4 = var4.SOCIAL_LAYER_INTEGRATION;
             var4 = var15.bind(var16)(var13, var4);
-            if(var4) { _fun0004_ip = 51; continue _fun0004 }
-case 52:
+            if(var4) { _fun0004_ip = 52; continue _fun0004 }
+case 53:
             var13 = _closure1_slot0;
             var4 = _closure1_slot1;
             var4 = var4[var11];
@@ -270,24 +270,24 @@ case 52:
             var13 = var3.flags;
             var4 = var1 != var13;
             var15 = 0;
-            if(!var4) { _fun0004_ip = 53; continue _fun0004 }
-case 54:
+            if(!var4) { _fun0004_ip = 54; continue _fun0004 }
+case 55:
             var15 = var13;
-case 53:
+case 54:
             var4 = _closure1_slot4;
             var4 = var4.SOCIAL_LAYER_INTEGRATION_LIMITED;
             var4 = var16.bind(var17)(var15, var4);
             var6 = var14;
             var5 = var13;
-            if(var4) { _fun0004_ip = 51; continue _fun0004 }
-case 6:
+            if(var4) { _fun0004_ip = 52; continue _fun0004 }
+case 48:
             var13 = var8.bind(var10)();
             var4 = var13.done;
             var7 = var13;
             if(var4) { _fun0004_ip = 46; continue _fun0004 }
-case 55:
+case 56:
             _fun0004_ip = 47; continue _fun0004;
-case 51:
+case 52:
             return var3;
 case 46:
             return var1;

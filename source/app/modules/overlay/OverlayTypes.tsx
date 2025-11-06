@@ -57,8 +57,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7['OverlayRafManagerForceEnabled'] = var1;
     var1 = 'legacy_overlay_logging';
     var7['LegacyOverlayLogging'] = var1;
-    var1 = 'override_is_new_overlay_user';
-    var7['OverrideIsNewOverlayUser'] = var1;
     var6 = {};
     var1 = 'HARDWARE_ACCELERATED_GPU_SCHEDULING_ENABLED';
     var6['HARDWARE_ACCELERATED_GPU_SCHEDULING_ENABLED'] = var1;

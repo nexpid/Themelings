@@ -642,37 +642,311 @@ case 38:
         return var1;
     };
     var3['getSettingListSearchResultItems'] = var4;
-    var2 = function getInitialScrollIndex(arg1, arg2) {
+    var4 = function getScoredSettingListSearchResultItems(arg1, arg2, arg3) {
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+case 0:
+            var8 = arg1;
+            var6 = arg3;
+            var _closure2_slot0 = var8;
+            var1 = new Array(0);
+            var _closure2_slot1 = var1;
+            var3 = arg2;
+            if(var3) { _fun0010_ip = 23; continue _fun0010 }
+case 40:
+            var3 = global;
+            var4 = var3.Map;
+            var5 = var4.prototype;
+            var5 = Object.create(var5, {constructor: {value: var4}});
+            var11 = var5;
+            var4 = new var11[var4](var10);
+            var4 = var4 instanceof Object ? var4 : var5;
+            var _closure2_slot2 = var4;
+            var4 = var3.Map;
+            var5 = var4.prototype;
+            var5 = Object.create(var5, {constructor: {value: var4}});
+            var11 = var5;
+            var4 = new var11[var4](var10);
+            var7 = var4 instanceof Object ? var4 : var5;
+            var _closure2_slot3 = var7;
+            var5 = var8.forEach;
+            var4 = function(arg1) {
+                _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+case 0:
+                    var1 = arg1;
+                    var8 = var1.setting;
+                    var3 = var1.score;
+                    var4 = _closure1_slot1;
+                    var2 = _closure1_slot2;
+                    var1 = 9;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var4 = var4.bind(var1)(var2);
+                    var2 = var4.getHighestLevelAncestor;
+                    var5 = var2.bind(var4)(var8);
+                    var7 = var3;
+                    if(!(var5 === var8)) { _fun0011_ip = 41; continue _fun0011 }
+case 42:
+                    var2 = 0.05;
+                    var7 = var3 + var2;
+case 41:
+                    var4 = _closure2_slot3;
+                    var3 = var4.get;
+                    var4 = var3.bind(var4)(var5);
+                    var3 = null;
+                    var6 = var3 != var4;
+                    var11 = 0;
+                    if(!var6) { _fun0011_ip = 43; continue _fun0011 }
+case 44:
+                    var11 = var4;
+case 43:
+                    var9 = _closure2_slot3;
+                    var6 = var9.set;
+                    var4 = global;
+                    var10 = var4.Math;
+                    var4 = var10.max;
+                    var4 = var4.bind(var10)(var11, var7);
+                    var4 = var6.bind(var9)(var5, var4);
+                    var6 = _closure2_slot2;
+                    var4 = var6.get;
+                    var4 = var4.bind(var6)(var5);
+                    if(!(var3 == var4)) { _fun0011_ip = 45; continue _fun0011 }
+case 46:
+                    var4 = new Array(0);
+case 45:
+                    var6 = var4.push;
+                    var3 = {};
+                    var3['setting'] = var8;
+                    var3['score'] = var7;
+                    var3 = var6.bind(var4)(var3);
+                    var3 = _closure2_slot2;
+                    var2 = var3.set;
+                    var2 = var2.bind(var3)(var5, var4);
+                    return var1;
+                }
+            };
+            var4 = var5.bind(var8)(var4);
+            var5 = var3.Array;
+            var4 = var5.from;
+            var3 = var7.entries;
+            var3 = var3.bind(var7)();
+            var5 = var4.bind(var5)(var3);
+            var4 = var5.sort;
+            var3 = function(arg1, arg2) {
+                var1 = arg2;
+                var3 = 1;
+                var2 = var1[var3];
+                var1 = arg1;
+                var1 = var1[var3];
+                var1 = var2 - var1;
+                return var1;
+            };
+            var5 = var4.bind(var5)(var3);
+            var4 = var5.map;
+            var3 = function(arg1) {
+                _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+case 0:
+                    var1 = arg1;
+                    var2 = var1[Symbol.iterator];
+                    var1 = var2().next;
+                    var4 = var1().value;
+                    var3 = var2;
+                    var1 = undefined;
+                    var3 = var3 === var1;
+                    if(var3) { _fun0012_ip = 47; continue _fun0012 }
+case 48:
+                    var1 = var4;
+case 47:
+                    if(var3) { _fun0012_ip = 49; continue _fun0012 }
+case 50:
+                    var2.return();
+case 49:
+                    return var1;
+                }
+            };
+            var4 = var4.bind(var5)(var3);
+            var3 = 0;
+            var _closure2_slot4 = var3;
+            var3 = var4.forEach;
+            var2 = function(arg1) {
+                _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+case 0:
+                    var4 = arg1;
+                    var _closure3_slot0 = var4;
+                    var3 = _closure2_slot2;
+                    var2 = var3.get;
+                    var4 = var2.bind(var3)(var4);
+                    var2 = null;
+                    if(!(var2 != var4)) { _fun0013_ip = 51; continue _fun0013 }
+case 18:
+                    var3 = var4.sort;
+                    var2 = function(arg1, arg2) {
+                        _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
+case 0:
+                            var3 = arg1;
+                            var4 = arg2;
+                            var6 = var3.setting;
+                            var5 = _closure3_slot0;
+                            var1 = -1;
+                            if(!(var6 !== var5)) { _fun0014_ip = 52; continue _fun0014 }
+case 40:
+                            var6 = var4.setting;
+                            var5 = _closure3_slot0;
+                            var2 = 1;
+                            if(!(var6 !== var5)) { _fun0014_ip = 15; continue _fun0014 }
+case 53:
+                            var4 = var4.score;
+                            var3 = var3.score;
+                            var2 = var4 - var3;
+case 15:
+                            var1 = var2;
+case 52:
+                            return var1;
+                        }
+                    };
+                    var3 = var3.bind(var4)(var2);
+                    var2 = var3.forEach;
+                    var1 = function(arg1, arg2) {
+                        _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
+case 0:
+                            var1 = arg1;
+                            var2 = var1.setting;
+                            var5 = _closure1_slot0;
+                            var4 = _closure1_slot2;
+                            var1 = 7;
+                            var4 = var4[var1];
+                            var1 = undefined;
+                            var4 = var5.bind(var1)(var4);
+                            var4 = var4.SETTING_RENDERER_CONFIG;
+                            var5 = var4[var2];
+                            var6 = var5.parent;
+                            var4 = null;
+                            if(!(var4 == var6)) { _fun0015_ip = 54; continue _fun0015 }
+case 55:
+                            var7 = _closure1_slot5;
+                            var6 = var7.has;
+                            var4 = var5.type;
+                            var4 = var6.bind(var7)(var4);
+                            var7 = var2;
+                            if(var4) { _fun0015_ip = 56; continue _fun0015 }
+case 57:
+                            return var1;
+case 54:
+                            var8 = _closure1_slot1;
+                            var9 = _closure1_slot2;
+                            var4 = 9;
+                            var6 = var9[var4];
+                            var10 = var8.bind(var1)(var6);
+                            var6 = var10.getHighestLevelAncestor;
+                            var7 = var6.bind(var10)(var2);
+                            var4 = var9[var4];
+                            var8 = var8.bind(var1)(var4);
+                            var4 = var8.getNearestRouteAncestorDataOrSelf;
+                            var5 = var4.bind(var8)(var2);
+case 56:
+                            var4 = {};
+                            var6 = _closure1_slot3;
+                            var6 = var6.SETTING_SEARCH_RESULT;
+                            var4['type'] = var6;
+                            var4['searchResultData'] = var5;
+                            var5 = _closure1_slot8;
+                            var5 = var5.bind(var1)(var2);
+                            var4['title'] = var5;
+                            var8 = 0;
+                            var6 = arg2;
+                            var5 = undefined;
+                            if(!(var8 === var6)) { _fun0015_ip = 58; continue _fun0015 }
+case 59:
+                            var6 = _closure1_slot9;
+                            var5 = var6.bind(var1)(var7);
+case 58:
+                            var4['IconComponent'] = var5;
+                            var5 = _closure1_slot1;
+                            var6 = _closure1_slot2;
+                            var3 = 9;
+                            var3 = var6[var3];
+                            var5 = var5.bind(var1)(var3);
+                            var3 = var5.getBreadcrumbs;
+                            var3 = var3.bind(var5)(var2);
+                            var4['breadcrumbs'] = var3;
+                            var4['setting'] = var2;
+                            var3 = _closure2_slot4;
+                            var4['index'] = var3;
+                            var3 = _closure2_slot0;
+                            var3 = var3.length;
+                            var4['total'] = var3;
+                            var3 = _closure2_slot4;
+                            var3 = var3 + 1;
+                            _closure2_slot4 = var3;
+                            var3 = _closure2_slot1;
+                            var2 = var3.push;
+                            var2 = var2.bind(var3)(var4);
+                            return var1;
+                        }
+                    };
+                    var1 = var2.bind(var3)(var1);
+case 51:
+                    var1 = undefined;
+                    return var1;
+                }
+            };
+            var2 = var3.bind(var4)(var2);
+            return var1;
+case 23:
+            var5 = 0;
+            var7 = var5 < var6;
+            var3 = 1;
+            var2 = 0;
+            if(!var7) { _fun0010_ip = 60; continue _fun0010 }
+case 61:
+            var8 = var1.push;
+            var7 = {};
+            var9 = _closure1_slot3;
+            var9 = var9.SETTING_SEARCH_RESULT_PLACEHOLDER;
+            var7['type'] = var9;
+            var9 = var5 === var2;
+            var7['start'] = var9;
+            var9 = var6 - var3;
+            var9 = var2 === var9;
+            var7['end'] = var9;
+            var7 = var8.bind(var1)(var7);
+            var2 = var2 + 1;
+            if(var2 < var6) { _fun0010_ip = 61; continue _fun0010 }
+case 60:
+            return var1;
+        }
+    };
+    var3['getScoredSettingListSearchResultItems'] = var4;
+    var2 = function getInitialScrollIndex(arg1, arg2) {
+        _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
 case 0:
             var3 = arg2;
             var2 = arg1;
             var _closure2_slot0 = var2;
             var2 = var3.findLastIndex;
             var1 = function(arg1) {
-                _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+                _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
 case 0:
                     var2 = arg1;
                     var3 = var2.type;
                     var1 = _closure1_slot3;
                     var1 = var1.SETTING;
                     var1 = var3 === var1;
-                    if(!var1) { _fun0011_ip = 40; continue _fun0011 }
-case 41:
+                    if(!var1) { _fun0017_ip = 62; continue _fun0017 }
+case 50:
                     var3 = var2.setting;
                     var2 = _closure2_slot0;
                     var1 = var3 === var2;
-case 40:
+case 62:
                     return var1;
                 }
             };
             var4 = var2.bind(var3)(var1);
             var1 = 1;
-            if(!(var1 === var4)) { _fun0010_ip = 42; continue _fun0010 }
-case 43:
+            if(!(var1 === var4)) { _fun0016_ip = 63; continue _fun0016 }
+case 64:
             var1 = undefined;
             return var1;
-case 42:
+case 63:
             var1 = global;
             var3 = var1.Math;
             var2 = var3.max;

@@ -238,7 +238,32 @@ case 7:
 case 21:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
                     if(var5) { _fun0004_ip = 22; continue _fun0004 }
-case 6:
+case 2:
+                    var5 = var2.body;
+                    var6 = null;
+                    if(!(var6 != var5)) { _fun0004_ip = 23; continue _fun0004 }
+case 24:
+                    var5 = var2.body;
+                    var7 = var5.last_used;
+                    var7 = var6 == var7;
+                    var6 = null;
+                    if(var7) { _fun0004_ip = 25; continue _fun0004 }
+case 26:
+                    var7 = global;
+                    var9 = var7.Date;
+                    var11 = var5.last_used;
+                    var8 = var9.prototype;
+                    var8 = Object.create(var8, {constructor: {value: var9}});
+                    var12 = var8;
+                    var7 = new var12[var9](var11, var10);
+                    var6 = var7 instanceof Object ? var7 : var8;
+case 25:
+                    var7 = {};
+                    var11 = var7;
+                    var10 = var5;
+                    var5 = copyDataProperties(var11, var10);
+                    var5 = 'last_used';
+                    var7[var5] = var6;
                     var5 = _closure1_slot1;
                     var6 = _closure1_slot2;
                     var4 = 3;
@@ -246,11 +271,11 @@ case 6:
                     var6 = var5.bind(var3)(var4);
                     var5 = var6.dispatch;
                     var4 = {};
-                    var7 = 'AUTHENTICATOR_UPDATE';
-                    var4['type'] = var7;
-                    var7 = var2.body;
+                    var8 = 'AUTHENTICATOR_UPDATE';
+                    var4['type'] = var8;
                     var4['credential'] = var7;
                     var4 = var5.bind(var6)(var4);
+case 23:
                     return var3;
 case 22:
                     return var2;
@@ -280,7 +305,7 @@ case 19:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0005_ip = 23; continue _fun0005 }
+                    if(var2) { _fun0005_ip = 24; continue _fun0005 }
 case 3:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
@@ -300,12 +325,12 @@ case 3:
                     var2['rejectWithError'] = var5;
                     var2 = var3.bind(var4)(var2);
                     SaveGenerator(address=80);
-case 24:
+case 27:
                     return var2;
 case 12:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0005_ip = 25; continue _fun0005 }
-case 26:
+                    if(var3) { _fun0005_ip = 28; continue _fun0005 }
+case 29:
                     var4 = var2.body;
                     var3 = {};
                     var5 = var4.ticket;
@@ -313,9 +338,9 @@ case 26:
                     var4 = var4.challenge;
                     var3['challenge'] = var4;
                     return var3;
-case 25:
+case 28:
                     return var2;
-case 23:
+case 24:
                     return var1;
                 }
             };
@@ -341,7 +366,7 @@ case 23:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0006_ip = 27; continue _fun0006 }
+                    if(var2) { _fun0006_ip = 30; continue _fun0006 }
 case 20:
                     var5 = _closure1_slot1;
                     var10 = _closure1_slot2;
@@ -375,12 +400,12 @@ case 20:
                     var2['rejectWithError'] = var7;
                     var2 = var5.bind(var6)(var2);
                     SaveGenerator(address=141);
-case 28:
-                    return var2;
-case 29:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0006_ip = 30; continue _fun0006 }
 case 31:
+                    return var2;
+case 26:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
+                    if(var5) { _fun0006_ip = 19; continue _fun0006 }
+case 32:
                     var5 = _closure1_slot1;
                     var6 = _closure1_slot2;
                     var4 = 3;
@@ -404,9 +429,9 @@ case 31:
                     var4['codes'] = var7;
                     var4 = var5.bind(var6)(var4);
                     return var3;
-case 30:
+case 19:
                     return var2;
-case 27:
+case 30:
                     return var1;
                 }
             };
@@ -486,21 +511,59 @@ case 27:
         var4 = var3.bind(var4)(var2);
         var3 = var4.then;
         var2 = function(arg1) {
-            var3 = _closure1_slot1;
-            var2 = _closure1_slot2;
-            var1 = 3;
-            var2 = var2[var1];
-            var1 = undefined;
-            var4 = var3.bind(var1)(var2);
-            var3 = var4.dispatch;
-            var2 = {};
-            var5 = 'MFA_WEBAUTHN_CREDENTIALS_LOADED';
-            var2['type'] = var5;
-            var5 = arg1;
-            var5 = var5.body;
-            var2['credentials'] = var5;
-            var2 = var3.bind(var4)(var2);
-            return var1;
+            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+case 0:
+                var1 = arg1;
+                var3 = var1.body;
+                var2 = null;
+                if(!(var2 != var3)) { _fun0007_ip = 4; continue _fun0007 }
+case 33:
+                var3 = var1.body;
+                var2 = var3.map;
+                var1 = function(arg1) {
+                    _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+case 0:
+                        var2 = arg1;
+                        var1 = var2.last_used;
+                        var3 = null;
+                        var1 = var3 == var1;
+                        if(var1) { _fun0008_ip = 34; continue _fun0008 }
+case 35:
+                        var1 = global;
+                        var5 = var1.Date;
+                        var7 = var2.last_used;
+                        var4 = var5.prototype;
+                        var4 = Object.create(var4, {constructor: {value: var5}});
+                        var8 = var4;
+                        var1 = new var8[var5](var7, var6);
+                        var3 = var1 instanceof Object ? var1 : var4;
+case 34:
+                        var1 = {};
+                        var7 = var1;
+                        var6 = var2;
+                        var2 = copyDataProperties(var7, var6);
+                        var2 = 'last_used';
+                        var1[var2] = var3;
+                        return var1;
+                    }
+                };
+                var4 = var2.bind(var3)(var1);
+                var3 = _closure1_slot1;
+                var2 = _closure1_slot2;
+                var1 = 3;
+                var2 = var2[var1];
+                var1 = undefined;
+                var3 = var3.bind(var1)(var2);
+                var2 = var3.dispatch;
+                var1 = {};
+                var5 = 'MFA_WEBAUTHN_CREDENTIALS_LOADED';
+                var1['type'] = var5;
+                var1['credentials'] = var4;
+                var1 = var2.bind(var3)(var1);
+case 4:
+                var1 = undefined;
+                return var1;
+            }
         };
         var2 = var3.bind(var4)(var2);
         return var1;

@@ -505,26 +505,58 @@ case 0:
                 var1 = arg1;
                 var6 = var1.channel;
                 var _closure2_slot0 = var6;
+                var1 = var1.onCancel;
+                var _closure2_slot1 = var1;
+                var4 = undefined;
+                var _closure2_slot2 = var4;
                 var30 = _closure1_slot1;
                 var21 = _closure1_slot2;
-                var1 = 19;
-                var1 = var21[var1];
-                var4 = undefined;
-                var2 = var30.bind(var4)(var1);
-                var1 = {};
+                var2 = 19;
+                var2 = var21[var2];
+                var3 = var30.bind(var4)(var2);
+                var2 = {};
                 var31 = _closure1_slot0;
-                var3 = 20;
-                var5 = var21[var3];
+                var5 = 20;
+                var7 = var21[var5];
+                var7 = var31.bind(var4)(var7);
+                var7 = var7.ImpressionTypes;
+                var7 = var7.VIEW;
+                var2['type'] = var7;
+                var5 = var21[var5];
                 var5 = var31.bind(var4)(var5);
-                var5 = var5.ImpressionTypes;
-                var5 = var5.VIEW;
-                var1['type'] = var5;
-                var3 = var21[var3];
-                var3 = var31.bind(var4)(var3);
-                var3 = var3.ImpressionNames;
-                var3 = var3.POLL_EDITOR_VIEWED;
-                var1['name'] = var3;
-                var1 = var2.bind(var4)(var1);
+                var5 = var5.ImpressionNames;
+                var5 = var5.POLL_EDITOR_VIEWED;
+                var2['name'] = var5;
+                var2 = var3.bind(var4)(var2);
+                var5 = _closure1_slot3;
+                var3 = var5.useEffect;
+                var2 = new Array(1);
+                var2[0] = var1;
+                var1 = function() {
+                    var1 = function() {
+                        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+                            var2 = _closure2_slot2;
+                            var2 = var2.current;
+                            if(var2) { _fun0004_ip = 10; continue _fun0004 }
+case 11:
+                            var4 = _closure2_slot1;
+                            var3 = null;
+                            var2 = var3 == var4;
+case 10:
+                            if(var2) { _fun0004_ip = 12; continue _fun0004 }
+case 13:
+                            var2 = _closure2_slot1;
+                            var1 = undefined;
+                            var1 = var2.bind(var1)();
+case 12:
+                            var1 = undefined;
+                            return var1;
+                        }
+                    };
+                    return var1;
+                };
+                var1 = var3.bind(var5)(var1, var2);
                 var1 = _closure1_slot12;
                 var12 = var1.bind(var4)();
                 var1 = 21;
@@ -535,9 +567,15 @@ case 0:
                 var1['includeKeyboardHeight'] = var3;
                 var1 = var2.bind(var4)(var1);
                 var7 = var1.insets;
-                var5 = _closure1_slot3;
+                var2 = var5.useRef;
+                var1 = false;
+                var1 = var2.bind(var5)(var1);
+                _closure2_slot2 = var1;
                 var3 = var5.useCallback;
                 var2 = function() {
+                    var2 = _closure2_slot2;
+                    var1 = true;
+                    var2['current'] = var1;
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot2;
                     var1 = 22;
@@ -611,47 +649,47 @@ case 0:
                 var1 = var30.bind(var4)(var1);
                 var2 = var1.bind(var4)(var6, var3, var2);
                 var27 = var2.answers;
-                var _closure2_slot1 = var27;
+                var _closure2_slot3 = var27;
                 var1 = var2.question;
-                var _closure2_slot2 = var1;
-                var17 = var2.allowMultiSelect;
-                var _closure2_slot3 = var17;
-                var1 = var2.setAllowMultiSelect;
                 var _closure2_slot4 = var1;
+                var17 = var2.allowMultiSelect;
+                var _closure2_slot5 = var17;
+                var1 = var2.setAllowMultiSelect;
+                var _closure2_slot6 = var1;
                 var24 = var2.canAddMoreAnswers;
                 var1 = var2.canRemoveMoreAnswers;
-                var _closure2_slot5 = var1;
+                var _closure2_slot7 = var1;
                 var29 = var2.handleQuestionChange;
                 var1 = var2.handleAnswerTextChange;
-                var _closure2_slot6 = var1;
+                var _closure2_slot8 = var1;
                 var1 = var2.handleEmojiSelect;
-                var _closure2_slot7 = var1;
-                var28 = var2.handleAddAnswer;
-                var _closure2_slot8 = var28;
-                var1 = var2.handleRemoveAnswer;
                 var _closure2_slot9 = var1;
+                var28 = var2.handleAddAnswer;
+                var _closure2_slot10 = var28;
+                var1 = var2.handleRemoveAnswer;
+                var _closure2_slot11 = var1;
                 var1 = var2.handleRemoveAnswerImage;
-                var _closure2_slot10 = var1;
+                var _closure2_slot12 = var1;
                 var15 = var2.handleSubmitPoll;
                 var25 = var2.fieldErrors;
-                var _closure2_slot11 = var25;
+                var _closure2_slot13 = var25;
                 var19 = var2.duration;
                 var18 = var2.setDuration;
                 var32 = var2.createPollError;
                 var20 = var2.submitting;
                 var1 = var2.shouldFocusOnInvalidField;
-                var _closure2_slot12 = var1;
+                var _closure2_slot14 = var1;
                 var6 = var2.setShouldFocusOnInvalidField;
-                var _closure2_slot13 = var6;
+                var _closure2_slot15 = var6;
                 var2 = 27;
                 var2 = var21[var2];
                 var3 = var31.bind(var4)(var2);
                 var2 = var3.useTrackPollCreationEvents;
                 var2 = var2.bind(var3)(var27, var17);
                 var2 = var2.trackPollCreationCancelled;
-                var _closure2_slot14 = var2;
+                var _closure2_slot16 = var2;
                 var2 = function handleCancelClose() {
-                    var2 = _closure2_slot14;
+                    var2 = _closure2_slot16;
                     var1 = undefined;
                     var2 = var2.bind(var1)();
                     var7 = _closure1_slot0;
@@ -679,13 +717,13 @@ case 0:
                     var2 = var3.bind(var4)(var2);
                     return var1;
                 };
-                var _closure2_slot15 = var2;
+                var _closure2_slot17 = var2;
                 var2 = 28;
                 var2 = var21[var2];
                 var8 = var31.bind(var4)(var2);
                 var3 = var8.useNavigatorBackPressHandler;
                 var2 = function() {
-                    _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+                    _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                         var3 = _closure1_slot0;
                         var4 = _closure1_slot2;
@@ -694,11 +732,11 @@ case 0:
                         var8 = undefined;
                         var6 = var3.bind(var8)(var1);
                         var5 = var6.isPollCreationEmpty;
-                        var4 = _closure2_slot2;
-                        var1 = _closure2_slot1;
+                        var4 = _closure2_slot4;
+                        var1 = _closure2_slot3;
                         var1 = var5.bind(var6)(var4, var1);
-                        if(var1) { _fun0004_ip = 10; continue _fun0004 }
-case 11:
+                        if(var1) { _fun0005_ip = 14; continue _fun0005 }
+case 15:
                         var4 = _closure1_slot0;
                         var5 = _closure1_slot2;
                         var1 = 30;
@@ -708,15 +746,15 @@ case 11:
                         var7 = _closure1_slot9;
                         var4 = _closure1_slot14;
                         var1 = {};
-                        var9 = _closure2_slot15;
+                        var9 = _closure2_slot17;
                         var1['onConfirm'] = var9;
                         var4 = var7.bind(var8)(var4, var1);
                         var1 = 'poll-creation-unsaved-changes';
                         var1 = var5.bind(var6)(var1, var4);
                         var1 = true;
-                        _fun0004_ip = 12; continue _fun0004;
-case 10:
-                        var3 = _closure2_slot14;
+                        _fun0005_ip = 16; continue _fun0005;
+case 14:
+                        var3 = _closure2_slot16;
                         var3 = var3.bind(var8)();
                         var7 = _closure1_slot0;
                         var9 = _closure1_slot2;
@@ -737,7 +775,7 @@ case 10:
                         var2 = var5.bind(var6)(var2);
                         var2 = var3.bind(var4)(var2);
                         var1 = false;
-case 12:
+case 16:
                         return var1;
                     }
                 };
@@ -747,14 +785,14 @@ case 12:
                 var3 = var30.bind(var4)(var2);
                 var2 = {};
                 var8 = function onAddAnswer() {
-                    var2 = _closure2_slot8;
+                    var2 = _closure2_slot10;
                     var1 = undefined;
                     var2 = var2.bind(var1)();
                     return var1;
                 };
                 var2['onAddAnswer'] = var8;
                 var26 = var3.bind(var4)(var2);
-                var _closure2_slot16 = var26;
+                var _closure2_slot18 = var26;
                 var3 = var5.useEffect;
                 var2 = new Array(4);
                 var2[0] = var25;
@@ -762,17 +800,17 @@ case 12:
                 var2[2] = var6;
                 var2[3] = var1;
                 var1 = function() {
-                    _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+                    _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                         var1 = global;
                         var4 = var1.Object;
                         var3 = var4.keys;
-                        var2 = _closure2_slot11;
+                        var2 = _closure2_slot13;
                         var4 = var3.bind(var4)(var2);
                         var3 = var4.length;
                         var2 = 0;
-                        if(!(var3 > var2)) { _fun0005_ip = 13; continue _fun0005 }
-case 14:
+                        if(!(var3 > var2)) { _fun0006_ip = 17; continue _fun0006 }
+case 18:
                         var6 = _closure1_slot0;
                         var8 = _closure1_slot2;
                         var5 = 8;
@@ -795,17 +833,17 @@ case 14:
                         var6 = var5.AccessibilityAnnouncer;
                         var5 = var6.announce;
                         var5 = var5.bind(var6)(var7);
-                        var5 = _closure2_slot12;
-                        if(!var5) { _fun0005_ip = 13; continue _fun0005 }
-case 15:
+                        var5 = _closure2_slot14;
+                        if(!var5) { _fun0006_ip = 17; continue _fun0006 }
+case 19:
                         var5 = var4[var2];
-                        var4 = _closure2_slot16;
+                        var4 = _closure2_slot18;
                         var2 = var4.focus;
                         var2 = var2.bind(var4)(var5);
-                        var2 = _closure2_slot13;
+                        var2 = _closure2_slot15;
                         var1 = false;
                         var1 = var2.bind(var3)(var1);
-case 13:
+case 17:
                         var1 = undefined;
                         return var1;
                     }
@@ -848,7 +886,7 @@ case 13:
                 var23 = var33.bind(var34)(var23);
                 var9['accessibilityLabel'] = var23;
                 var23 = function onPress() {
-                    _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+                    _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                         var4 = _closure1_slot0;
                         var2 = _closure1_slot2;
@@ -857,11 +895,11 @@ case 0:
                         var1 = undefined;
                         var7 = var4.bind(var1)(var2);
                         var6 = var7.isPollCreationEmpty;
-                        var5 = _closure2_slot2;
-                        var4 = _closure2_slot1;
+                        var5 = _closure2_slot4;
+                        var4 = _closure2_slot3;
                         var4 = var6.bind(var7)(var5, var4);
-                        if(var4) { _fun0006_ip = 16; continue _fun0006 }
-case 11:
+                        if(var4) { _fun0007_ip = 20; continue _fun0007 }
+case 15:
                         var5 = _closure1_slot0;
                         var6 = _closure1_slot2;
                         var4 = 30;
@@ -871,16 +909,16 @@ case 11:
                         var7 = _closure1_slot9;
                         var4 = _closure1_slot14;
                         var3 = {};
-                        var8 = _closure2_slot15;
+                        var8 = _closure2_slot17;
                         var3['onConfirm'] = var8;
                         var4 = var7.bind(var1)(var4, var3);
                         var3 = 'poll-creation-unsaved-changes';
                         var3 = var5.bind(var6)(var3, var4);
-                        _fun0006_ip = 17; continue _fun0006;
-case 16:
-                        var2 = _closure2_slot15;
+                        _fun0007_ip = 21; continue _fun0007;
+case 20:
+                        var2 = _closure2_slot17;
                         var2 = var2.bind(var1)();
-case 17:
+case 21:
                         return var1;
                     }
                 };
@@ -954,8 +992,8 @@ case 17:
                 var9['keyboardShouldPersistTaps'] = var14;
                 var23 = null;
                 var15 = var23 != var32;
-                if(!var15) { _fun0003_ip = 18; continue _fun0003 }
-case 19:
+                if(!var15) { _fun0003_ip = 22; continue _fun0003 }
+case 23:
                 var21 = _closure1_slot9;
                 var20 = _closure1_slot1;
                 var30 = _closure1_slot2;
@@ -965,14 +1003,14 @@ case 19:
                 var14 = {};
                 var31 = var23 == var32;
                 var30 = undefined;
-                if(var31) { _fun0003_ip = 20; continue _fun0003 }
-case 21:
+                if(var31) { _fun0003_ip = 24; continue _fun0003 }
+case 25:
                 var31 = var32.getAnyErrorMessage;
                 var30 = var31.bind(var32)();
-case 20:
+case 24:
                 var14['children'] = var30;
                 var15 = var21.bind(var4)(var20, var14);
-case 18:
+case 22:
                 var14 = new Array(3);
                 var14[0] = var15;
                 var21 = _closure1_slot9;
@@ -987,10 +1025,10 @@ case 18:
                 var15['onSubmitEditing'] = var26;
                 var26 = var23 == var25;
                 var23 = undefined;
-                if(var26) { _fun0003_ip = 22; continue _fun0003 }
-case 23:
+                if(var26) { _fun0003_ip = 26; continue _fun0003 }
+case 27:
                 var23 = var25.question;
-case 22:
+case 26:
                 var15['error'] = var23;
                 var15 = var21.bind(var4)(var20, var15);
                 var14[1] = var15;
@@ -1026,7 +1064,7 @@ case 22:
                 var23[0] = var25;
                 var26 = var27.map;
                 var25 = function(arg1, arg2) {
-                    _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+                    _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
                         var1 = arg1;
                         var5 = _closure1_slot9;
@@ -1037,7 +1075,7 @@ case 0:
                         var4 = undefined;
                         var3 = var3.bind(var4)(var2);
                         var2 = {};
-                        var6 = _closure2_slot16;
+                        var6 = _closure2_slot18;
                         var11 = var6.refWithKey;
                         var12 = var1.localCreationAnswerId;
                         var7 = global;
@@ -1055,29 +1093,29 @@ case 0:
                         var2['channelId'] = var9;
                         var6 = var6.focusNext;
                         var2['onSubmitEditing'] = var6;
-                        var6 = _closure2_slot6;
+                        var6 = _closure2_slot8;
                         var2['onAnswerTextChange'] = var6;
-                        var6 = _closure2_slot7;
-                        var2['onAnswerEmojiSelect'] = var6;
                         var6 = _closure2_slot9;
+                        var2['onAnswerEmojiSelect'] = var6;
+                        var6 = _closure2_slot11;
                         var2['onRemoveAnswer'] = var6;
-                        var6 = _closure2_slot10;
+                        var6 = _closure2_slot12;
                         var2['onRemoveAnswerImage'] = var6;
-                        var6 = _closure2_slot5;
+                        var6 = _closure2_slot7;
                         var2['canRemoveAnswer'] = var6;
-                        var9 = _closure2_slot11;
+                        var9 = _closure2_slot13;
                         var6 = null;
                         var9 = var6 == var9;
                         var6 = undefined;
-                        if(var9) { _fun0007_ip = 24; continue _fun0007 }
-case 25:
-                        var8 = _closure2_slot11;
+                        if(var9) { _fun0008_ip = 28; continue _fun0008 }
+case 29:
+                        var8 = _closure2_slot13;
                         var9 = var1.localCreationAnswerId;
                         var7 = var7.HermesInternal;
                         var7 = var7.concat;
                         var7 = var7.bind(var10)(var9);
                         var6 = var8[var7];
-case 24:
+case 28:
                         var2['error'] = var6;
                         var1 = var1.localCreationAnswerId;
                         var1 = var5.bind(var4)(var3, var2, var1);
@@ -1086,14 +1124,14 @@ case 24:
                 };
                 var25 = var26.bind(var27)(var25);
                 var23[1] = var25;
-                if(!var24) { _fun0003_ip = 26; continue _fun0003 }
-case 27:
+                if(!var24) { _fun0003_ip = 30; continue _fun0003 }
+case 31:
                 var27 = _closure1_slot9;
                 var26 = _closure1_slot15;
                 var25 = {};
                 var25['onPress'] = var28;
                 var24 = var27.bind(var4)(var26, var25);
-case 26:
+case 30:
                 var23[2] = var24;
                 var15['children'] = var23;
                 var15 = var21.bind(var4)(var20, var15);
@@ -1134,8 +1172,8 @@ case 26:
                 var13['label'] = var18;
                 var13['checked'] = var17;
                 var16 = function onPress() {
-                    var3 = _closure2_slot4;
-                    var1 = _closure2_slot3;
+                    var3 = _closure2_slot6;
+                    var1 = _closure2_slot5;
                     var2 = !var1;
                     var1 = undefined;
                     var1 = var3.bind(var1)(var2);

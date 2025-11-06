@@ -1,4 +1,4 @@
-// app/modules/media_engine/GamescopeVaapiExperiment.tsx
+// app/modules/media_engine/OsxVp8Experiment.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var3 = exports;
@@ -18,7 +18,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var8 = var5.bind(var1)(var4);
     var7 = var8.createApexExperiment;
-    var4 = {'name': '2025-09-gamescope-vaapi', 'kind': 'user'};
+    var4 = {'name': '2025-11-osx-vp8', 'kind': 'user'};
     var9 = {};
     var10 = false;
     var9['enabled'] = var10;
@@ -34,9 +34,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/media_engine/GamescopeVaapiExperiment.tsx';
+    var4 = 'modules/media_engine/OsxVp8Experiment.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function getGamescopeVaapiExperimentConfig(arg1) {
+    var2 = function getOsxVp8ExperimentConfig(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var4 = arg1;
@@ -75,6 +75,6 @@ case 6:
             return var1;
         }
     };
-    var3['getGamescopeVaapiExperimentConfig'] = var2;
+    var3['getOsxVp8ExperimentConfig'] = var2;
     return var1;
 })();

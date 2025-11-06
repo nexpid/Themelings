@@ -568,7 +568,7 @@ case 89:
                     var3 = _closure1_slot2;
                     var3 = var3[var6];
                     var4 = var4.bind(var5)(var3);
-                    var3 = var4.resetPendingAvatarDecoration;
+                    var3 = var4.resetPendingAccountChanges;
                     var3 = var3.bind(var4)();
                     _fun0003_ip = 81; continue _fun0003;
 case 85:
@@ -597,14 +597,10 @@ case 80:
         var1['handleSubmit'] = var8;
         var1['handleSubmitAvatarDecoration'] = var4;
         var4 = 7;
-        var8 = var7[var4];
-        var8 = var6.bind(var5)(var8);
-        var8 = var8.resetAllPending;
-        var1['resetPending'] = var8;
         var4 = var7[var4];
         var4 = var6.bind(var5)(var4);
-        var4 = var4.resetPendingAvatarDecoration;
-        var1['resetPendingAvatarDecoration'] = var4;
+        var4 = var4.resetAllPending;
+        var1['resetPending'] = var4;
         var18 = var1;
         var17 = var3;
         var3 = copyDataProperties(var18, var17);

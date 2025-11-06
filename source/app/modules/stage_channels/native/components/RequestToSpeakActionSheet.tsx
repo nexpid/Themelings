@@ -215,24 +215,64 @@ case 12:
             var5['accessibilityRole'] = var12;
             var5['accessibilityLabel'] = var21;
             var6 = function onPress() {
-                var4 = _closure1_slot0;
-                var5 = _closure1_slot2;
-                var1 = 18;
-                var3 = var5[var1];
-                var1 = undefined;
-                var7 = var4.bind(var1)(var3);
-                var6 = var7.audienceAckRequestToSpeak;
-                var4 = _closure2_slot0;
-                var3 = _closure2_slot1;
-                var3 = var6.bind(var7)(var4, var3);
-                var4 = _closure1_slot1;
-                var3 = 19;
-                var3 = var5[var3];
-                var4 = var4.bind(var1)(var3);
-                var3 = var4.hideActionSheet;
-                var2 = _closure1_slot8;
-                var2 = var3.bind(var4)(var2);
-                return var1;
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+                    var1 = _closure2_slot1;
+                    if(var1) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
+                    var4 = _closure1_slot0;
+                    var5 = _closure1_slot2;
+                    var2 = 18;
+                    var2 = var5[var2];
+                    var5 = undefined;
+                    var4 = var4.bind(var5)(var2);
+                    var2 = var4.shouldAgeVerifyToSpeakForCurrentUser;
+                    var2 = var2.bind(var4)();
+                    if(!var2) { _fun0003_ip = 13; continue _fun0003 }
+case 15:
+                    var4 = _closure1_slot1;
+                    var6 = _closure1_slot2;
+                    var2 = 19;
+                    var2 = var6[var2];
+                    var8 = var4.bind(var5)(var2);
+                    var7 = var8.showAgeVerificationGetStartedModal;
+                    var2 = {};
+                    var10 = _closure1_slot0;
+                    var9 = 20;
+                    var9 = var6[var9];
+                    var9 = var10.bind(var5)(var9);
+                    var9 = var9.AgeVerificationModalEntryPoint;
+                    var9 = var9.STAGE_CHANNEL_RAISE_HAND;
+                    var2['entryPoint'] = var9;
+                    var2 = var7.bind(var8)(var2);
+                    var2 = 21;
+                    var2 = var6[var2];
+                    var4 = var4.bind(var5)(var2);
+                    var2 = var4.hideActionSheet;
+                    var1 = _closure1_slot8;
+                    var1 = var2.bind(var4)(var1);
+                    var1 = undefined;
+                    return var1;
+case 13:
+                    var6 = _closure1_slot0;
+                    var5 = _closure1_slot2;
+                    var1 = 22;
+                    var4 = var5[var1];
+                    var1 = undefined;
+                    var7 = var6.bind(var1)(var4);
+                    var6 = var7.audienceAckRequestToSpeak;
+                    var4 = _closure2_slot0;
+                    var3 = _closure2_slot1;
+                    var3 = var6.bind(var7)(var4, var3);
+                    var4 = _closure1_slot1;
+                    var3 = 21;
+                    var3 = var5[var3];
+                    var4 = var4.bind(var1)(var3);
+                    var3 = var4.hideActionSheet;
+                    var2 = _closure1_slot8;
+                    var2 = var3.bind(var4)(var2);
+                    return var1;
+                }
             };
             var5['onPress'] = var6;
             var6 = var11.selfSpeakerButton;
@@ -269,11 +309,11 @@ case 12:
             var12[0] = var14;
             var17 = _closure1_slot9;
             var19 = _closure1_slot1;
-            var14 = 20;
+            var14 = 23;
             var14 = var9[var14];
             var16 = var19.bind(var4)(var14);
             var14 = {};
-            var18 = 21;
+            var18 = 24;
             var18 = var9[var18];
             var18 = var19.bind(var4)(var18);
             var14['source'] = var18;
@@ -424,14 +464,14 @@ case 12:
     var4['participantTitle'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot12 = var4;
-    var4 = 29;
+    var4 = 32;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/stage_channels/native/components/RequestToSpeakActionSheet.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function RequestToSpeakActionSheet(arg1) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var1 = arg1;
             var9 = var1.channelId;
@@ -442,7 +482,7 @@ case 0:
             var14 = var1.bind(var5)();
             var8 = _closure1_slot1;
             var11 = _closure1_slot2;
-            var2 = 22;
+            var2 = 25;
             var1 = var11[var2];
             var6 = var8.bind(var5)(var1);
             var1 = new Array(1);
@@ -450,7 +490,7 @@ case 0:
             var24 = var1;
             var22 = 0;
             var7 = arraySpread(var24, var23, var22);
-            var3 = 23;
+            var3 = 26;
             var3 = var11[var3];
             var3 = var8.bind(var5)(var3);
             var3 = var3.REQUEST_TO_SPEAK;
@@ -475,11 +515,11 @@ case 0:
                 return var1;
             };
             var17 = var8.bind(var15)(var7, var1);
-            var1 = 24;
+            var1 = 27;
             var1 = var11[var1];
             var8 = var10.bind(var5)(var1);
             var7 = var8.useStageParticipantsCount;
-            var1 = 25;
+            var1 = 28;
             var1 = var11[var1];
             var1 = var10.bind(var5)(var1);
             var1 = var1.StageChannelParticipantNamedIndex;
@@ -497,8 +537,8 @@ case 0:
             var _closure2_slot2 = var1;
             var1 = null;
             var3 = var1 == var17;
-            if(var3) { _fun0003_ip = 13; continue _fun0003 }
-case 14:
+            if(var3) { _fun0004_ip = 16; continue _fun0004 }
+case 17:
             var4 = _closure1_slot9;
             var10 = _closure1_slot0;
             var18 = _closure1_slot2;
@@ -508,7 +548,7 @@ case 14:
             var2 = {};
             var2['value'] = var6;
             var8 = _closure1_slot9;
-            var6 = 26;
+            var6 = 29;
             var6 = var18[var6];
             var6 = var10.bind(var5)(var6);
             var7 = var6.BottomSheet;
@@ -519,7 +559,7 @@ case 14:
             var9 = var20 >= var9;
             var6['startExpanded'] = var9;
             var11 = _closure1_slot10;
-            var9 = 27;
+            var9 = 30;
             var9 = var18[var9];
             var9 = var10.bind(var5)(var9);
             var10 = var9.BottomSheetScrollView;
@@ -527,7 +567,7 @@ case 14:
             var14 = var14.container;
             var9['style'] = var14;
             var12 = function onLayout(arg1) {
-                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                     var1 = arg1;
                     var1 = var1.nativeEvent;
@@ -535,19 +575,19 @@ case 0:
                     var2 = var1.height;
                     var1 = null;
                     var1 = var1 != var2;
-                    if(!var1) { _fun0004_ip = 15; continue _fun0004 }
-case 16:
+                    if(!var1) { _fun0005_ip = 18; continue _fun0005 }
+case 19:
                     var3 = _closure2_slot1;
                     var1 = var3 !== var2;
-case 15:
-                    if(!var1) { _fun0004_ip = 17; continue _fun0004 }
 case 18:
+                    if(!var1) { _fun0005_ip = 20; continue _fun0005 }
+case 21:
                     var3 = _closure2_slot2;
                     var1 = 200;
                     var2 = var2 - var1;
                     var1 = undefined;
                     var1 = var3.bind(var1)(var2);
-case 17:
+case 20:
                     var1 = undefined;
                     return var1;
                 }
@@ -569,7 +609,7 @@ case 17:
             var12[1] = var14;
             var15 = _closure1_slot9;
             var14 = _closure1_slot1;
-            var13 = 28;
+            var13 = 31;
             var13 = var18[var13];
             var14 = var14.bind(var5)(var13);
             var13 = {};
@@ -583,7 +623,7 @@ case 17:
             var6 = var8.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 13:
+case 16:
             return var1;
         }
     };

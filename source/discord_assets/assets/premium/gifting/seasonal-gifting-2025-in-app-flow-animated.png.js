@@ -1,4 +1,4 @@
-// discord_assets/assets/premium/gifting/segmented-toggle-treat.json.js
+// discord_assets/assets/premium/gifting/seasonal-gifting-2025-in-app-flow-animated.png.js
 module.exports = (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var3 = exports;
     var1 = global;
@@ -16,12 +16,12 @@ module.exports = (function(global, require, metroImportDefault, metroImportAll, 
     var1 = undefined;
     var5 = var2.bind(var1)(var4);
     var4 = var5.fileFinishedImporting;
-    var2 = '../discord_assets/assets/premium/gifting/segmented-toggle-treat.json.js';
+    var2 = '../discord_assets/assets/premium/gifting/seasonal-gifting-2025-in-app-flow-animated.png.js';
     var2 = var4.bind(var5)(var2);
-    var2 = 'https://cdn.discordapp.com/assets/content/1f959ea77d65fbf8d8ad877200e0f68378c37253bc099b190c36fee4b1bbd02b.json';
+    var2 = 'https://cdn.discordapp.com/assets/content/980155fe751a178bb2873ec04051304262cdb10e33b232379d440083205ff5ca.png';
     var3['default'] = var2;
     var2 = {};
-    var4 = 26241;
+    var4 = 461257;
     var2['fileBytes'] = var4;
     var3['metadata'] = var2;
     return var1;

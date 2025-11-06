@@ -686,7 +686,7 @@ case 25:
             var25 = var20[var26];
             var25 = var17.bind(var4)(var25);
             var25 = var25.t;
-            var25 = var25.1Wvve2;
+            var25 = var25.3mgEQf;
             var25 = var27.bind(var28)(var25);
             var14['children'] = var25;
             var14 = var15.bind(var4)(var24, var14);

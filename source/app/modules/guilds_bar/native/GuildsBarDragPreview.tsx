@@ -361,6 +361,8 @@ case 21:
             var5[0] = var12;
             var5[1] = var7;
             var1['style'] = var5;
+            var5 = 'guilds-bar-drag-preview';
+            var1['nativeID'] = var5;
             var7 = _closure1_slot6;
             var5 = 8;
             var5 = var11[var5];

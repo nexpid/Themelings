@@ -25,11 +25,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = '../discord_common/js/shared/shared-constants/GameWidgetLimits.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = {'favorite_games': 1, 'current_games': 3, 'want_to_play_games': 8, 'played_games': 8};
-    var3['GAME_WIDGET_LIMITS_BY_TYPE'] = var4;
-    var4 = 200;
-    var3['USER_WIDGET_GAME_COMMENT_MAX_LENGTH'] = var4;
     var4 = 20;
+    var5 = {'favorite_games': 1, 'current_games': 5, 'want_to_play_games': 20, 'played_games': 20};
+    var3['GAME_WIDGET_LIMITS_BY_TYPE'] = var5;
+    var5 = 200;
+    var3['USER_WIDGET_GAME_COMMENT_MAX_LENGTH'] = var5;
     var3['USER_WIDGET_GAME_TAGS_MAX_LENGTH'] = var4;
     var3['GAME_WIDGET_BANNED_APPLICATION_IDS'] = var2;
     return var1;

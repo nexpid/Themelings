@@ -39,13 +39,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot20 = var2;
+            _closure1_slot21 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot20 = var1;
+    var _closure1_slot21 = var1;
     var1 = function convertPromptsToTracked(arg1, arg2, arg3) {
         var3 = arg1;
         var2 = arg2;
@@ -111,7 +111,7 @@ case 6:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var _closure1_slot21 = var1;
+    var _closure1_slot22 = var1;
     var9 = function handleUpdate(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -153,7 +153,7 @@ case 14:
 case 19:
             var7 = {};
 case 18:
-            var6 = _closure1_slot21;
+            var6 = _closure1_slot22;
             var3 = var5.prompts;
             if(!(var1 == var3)) { _fun0003_ip = 20; continue _fun0003 }
 case 21:
@@ -316,7 +316,7 @@ case 26:
             return var1;
         }
     };
-    var _closure1_slot22 = var1;
+    var _closure1_slot23 = var1;
     var1 = global;
     var10 = var1.Object;
     var8 = var10.defineProperty;
@@ -381,6 +381,8 @@ case 26:
     var _closure1_slot18 = var2;
     var2 = new Array(0);
     var _closure1_slot19 = var2;
+    var2 = new Array(0);
+    var _closure1_slot20 = var2;
     var2 = 13;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
@@ -398,7 +400,7 @@ case 0:
                 var1 = _closure1_slot6;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot5;
-                var1 = _closure1_slot20;
+                var1 = _closure1_slot21;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0008_ip = 37; continue _fun0008 }
 case 38:
@@ -940,19 +942,19 @@ case 38:
         var6 = function value(arg1) {
             _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
 case 0:
-                var2 = _closure1_slot13;
+                var3 = _closure1_slot13;
                 var1 = arg1;
-                var3 = var2[var1];
-                var2 = null;
-                var4 = var2 == var3;
+                var4 = var3[var1];
+                var3 = null;
+                var5 = var3 == var4;
                 var1 = undefined;
-                if(var4) { _fun0020_ip = 40; continue _fun0020 }
+                if(var5) { _fun0020_ip = 40; continue _fun0020 }
 case 41:
-                var1 = var3.connections;
+                var1 = var4.connections;
 case 40:
-                if(!(var2 == var1)) { _fun0020_ip = 42; continue _fun0020 }
+                if(!(var3 == var1)) { _fun0020_ip = 42; continue _fun0020 }
 case 43:
-                var1 = new Array(0);
+                var1 = _closure1_slot20;
 case 42:
                 return var1;
             }
@@ -1008,7 +1010,7 @@ case 0:
             var1 = _closure1_slot11;
             var1 = var1.READY;
             var3 = var3 === var1;
-            var6 = _closure1_slot21;
+            var6 = _closure1_slot22;
             var1 = undefined;
             var15 = var6.bind(var1)(var7, var10, var9);
             var7 = _closure1_slot13;
@@ -1058,7 +1060,7 @@ case 74:
             var7[var4] = var6;
             if(var3) { _fun0021_ip = 76; continue _fun0021 }
 case 77:
-            var3 = _closure1_slot22;
+            var3 = _closure1_slot23;
             var3 = var3.bind(var1)(var4, var5);
 case 76:
             var3 = _closure1_slot15;
@@ -1189,7 +1191,7 @@ case 0:
             var5 = var1.options;
             var7 = var1.prompts_seen;
             var6 = var1.options_seen;
-            var3 = _closure1_slot22;
+            var3 = _closure1_slot23;
             var1 = undefined;
             var3 = var3.bind(var1)(var4, var5);
             var3 = _closure1_slot13;
@@ -1197,7 +1199,7 @@ case 0:
             var3 = null;
             if(!(var3 != var5)) { _fun0023_ip = 22; continue _fun0023 }
 case 35:
-            var8 = _closure1_slot21;
+            var8 = _closure1_slot22;
             var3 = var5.prompts;
             var9 = var8.bind(var1)(var3, var7, var6);
             var3 = _closure1_slot13;

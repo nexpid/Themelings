@@ -373,12 +373,12 @@ case 0:
                 var2 = var3.application;
                 var4 = var2.parent_id;
                 var2 = null;
-                if(!(var2 == var4)) { _fun0005_ip = 18; continue _fun0005 }
-case 19:
+                if(!(var2 == var4)) { _fun0005_ip = 8; continue _fun0005 }
+case 18:
                 var2 = _closure1_slot11;
                 var1 = var2.push;
                 var1 = var1.bind(var2)(var3);
-case 18:
+case 8:
                 var1 = undefined;
                 return var1;
             }
@@ -401,8 +401,8 @@ case 0:
             var7 = var7.bind(var8)(var3);
             var _closure2_slot0 = var7;
             var3 = null;
-            if(!(var3 != var7)) { _fun0006_ip = 20; continue _fun0006 }
-case 21:
+            if(!(var3 != var7)) { _fun0006_ip = 19; continue _fun0006 }
+case 20:
             var9 = _closure1_slot10;
             var8 = var9.filter;
             var7 = function(arg1) {
@@ -431,7 +431,7 @@ case 21:
             };
             var5 = var7.bind(var8)(var5);
             _closure1_slot11 = var5;
-case 20:
+case 19:
             var5 = {};
             var5['id'] = var6;
             var5['application'] = var4;
@@ -452,8 +452,8 @@ case 20:
             _closure1_slot10 = var1;
             var1 = var5.application;
             var1 = var1.parent_id;
-            if(!(var3 == var1)) { _fun0006_ip = 22; continue _fun0006 }
-case 23:
+            if(!(var3 == var1)) { _fun0006_ip = 21; continue _fun0006 }
+case 22:
             var11 = _closure1_slot11;
             var1 = new Array(1);
             var12 = var1;
@@ -462,7 +462,7 @@ case 23:
             var1[var3] = var5;
             var3 = var3 + var4;
             _closure1_slot11 = var1;
-case 22:
+case 21:
             var1 = undefined;
             return var1;
         }
@@ -479,10 +479,10 @@ case 0:
             var3 = var3.bind(var4)(var6);
             var _closure2_slot0 = var3;
             var4 = null;
-            if(!(var4 != var3)) { _fun0007_ip = 24; continue _fun0007 }
-case 25:
+            if(!(var4 != var3)) { _fun0007_ip = 23; continue _fun0007 }
+case 24:
             var4 = var3.id;
-            if(!(var4 === var5)) { _fun0007_ip = 24; continue _fun0007 }
+            if(!(var4 === var5)) { _fun0007_ip = 23; continue _fun0007 }
 case 7:
             var5 = _closure1_slot9;
             var4 = var5.delete;
@@ -515,7 +515,7 @@ case 7:
             _closure1_slot11 = var1;
             var1 = undefined;
             return var1;
-case 24:
+case 23:
             var1 = false;
             return var1;
         }

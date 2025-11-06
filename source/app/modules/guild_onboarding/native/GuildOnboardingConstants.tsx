@@ -14,6 +14,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['COVER'] = var1;
     var1 = 'prompt';
     var2['PROMPT'] = var1;
+    var1 = 'connections';
+    var2['CONNECTIONS'] = var1;
     var1 = 'completed';
     var2['COMPLETED'] = var1;
     var1 = 'rules';

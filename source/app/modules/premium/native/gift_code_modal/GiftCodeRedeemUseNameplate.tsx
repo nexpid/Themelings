@@ -94,7 +94,7 @@ case 0:
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
-                var3 = var4.setGlobalPendingNameplate;
+                var3 = var4.setNewPendingNameplate;
                 var2 = _closure2_slot0;
                 var2 = var3.bind(var4)(var2);
                 return var1;
@@ -188,7 +188,7 @@ case 8:
             var17 = 7;
             var17 = var16[var17];
             var17 = var15.bind(var4)(var17);
-            var17 = var17.setGlobalPendingNameplate;
+            var17 = var17.setNewPendingNameplate;
             var7['setSelectedNameplate'] = var17;
             var7['user'] = var12;
             var12 = false;

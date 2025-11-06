@@ -23,6 +23,7 @@ case 0:
             var _closure2_slot9 = var5;
             var _closure2_slot10 = var5;
             var _closure2_slot11 = var5;
+            var _closure2_slot12 = var5;
             var4 = _closure1_slot0;
             var6 = _closure1_slot2;
             var1 = 7;
@@ -326,15 +327,16 @@ case 19:
                 return var1;
             };
             var8 = var8.bind(var16)(var4, var6);
+            _closure2_slot11 = var8;
             var6 = _closure1_slot1;
             var4 = 15;
             var4 = var14[var4];
             var4 = var6.bind(var5)(var4);
             var16 = var4.bind(var5)(var12);
-            _closure2_slot11 = var16;
+            _closure2_slot12 = var16;
             var14 = _closure1_slot3;
             var6 = var14.useMemo;
-            var4 = new Array(10);
+            var4 = new Array(11);
             var4[0] = var12;
             var4[1] = var17;
             var4[2] = var9;
@@ -345,6 +347,7 @@ case 19:
             var4[7] = var18;
             var4[8] = var3;
             var4[9] = var16;
+            var4[10] = var8;
             var2 = function() {
                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
@@ -387,7 +390,7 @@ case 16:
                     var13 = var16.bind(var2)(var13);
                     var18 = var13.Text;
                     var13 = {'variant': 'text-lg/semibold', 'color': 'header-primary'};
-                    var20 = _closure2_slot11;
+                    var20 = _closure2_slot12;
                     var13['children'] = var20;
                     var18 = var19.bind(var2)(var18, var13);
                     var13 = new Array(3);
@@ -496,10 +499,12 @@ case 24:
                     var14['message'] = var18;
                     var18 = _closure2_slot0;
                     var14['channel'] = var18;
-                    var17 = _closure2_slot5;
-                    var14['guild'] = var17;
-                    var17 = 'base';
-                    var14['backgroundVariant'] = var17;
+                    var18 = _closure2_slot5;
+                    var14['guild'] = var18;
+                    var18 = 'base';
+                    var14['backgroundVariant'] = var18;
+                    var17 = _closure2_slot11;
+                    var14['conversationProps'] = var17;
                     var14 = var16.bind(var2)(var15, var14);
                     var11['children'] = var14;
                     var10 = var13.bind(var2)(var12, var11);

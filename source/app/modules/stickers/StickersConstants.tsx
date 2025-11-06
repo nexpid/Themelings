@@ -44,8 +44,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['STICKER_SEARCH_HEADER_HEIGHT'] = var4;
     var4 = '710982414301790216';
     var3['STICKER_APPLICATION_ID'] = var4;
-    var4 = new Array(0);
-    var3['EMPTY_STICKERS'] = var4;
     var4 = ['781323769960202280', '809209266556764241', '818597810047680532', '819129296374595614'];
     var3['EMPTY_STATE_STICKERS'] = var4;
     var4 = 524288;

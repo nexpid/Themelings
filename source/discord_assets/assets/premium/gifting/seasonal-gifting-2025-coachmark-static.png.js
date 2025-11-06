@@ -1,4 +1,4 @@
-// discord_assets/assets/premium/gifting/nitroween-in-app-flow-animated.png.js
+// discord_assets/assets/premium/gifting/seasonal-gifting-2025-coachmark-static.png.js
 module.exports = (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var3 = exports;
     var1 = global;
@@ -16,12 +16,12 @@ module.exports = (function(global, require, metroImportDefault, metroImportAll, 
     var1 = undefined;
     var5 = var2.bind(var1)(var4);
     var4 = var5.fileFinishedImporting;
-    var2 = '../discord_assets/assets/premium/gifting/nitroween-in-app-flow-animated.png.js';
+    var2 = '../discord_assets/assets/premium/gifting/seasonal-gifting-2025-coachmark-static.png.js';
     var2 = var4.bind(var5)(var2);
-    var2 = 'https://cdn.discordapp.com/assets/content/516f6ae5304ffc018d3034a185a23589b722e7608b6e4739189c18533e1b3323.png';
+    var2 = 'https://cdn.discordapp.com/assets/content/3ae0364d611cad79ef1b7dbb687da3ae8e712b0b73f33b919bc26564b97756c6.png';
     var3['default'] = var2;
     var2 = {};
-    var4 = 910413;
+    var4 = 133102;
     var2['fileBytes'] = var4;
     var3['metadata'] = var2;
     return var1;

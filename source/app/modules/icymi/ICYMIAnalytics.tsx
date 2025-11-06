@@ -22,15 +22,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot3 = var2;
     var2 = 1;
     var2 = var6[var2];
-    var2 = var7.bind(var1)(var2);
-    var _closure1_slot4 = var2;
-    var2 = 2;
-    var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
     var7 = var2.ChannelTypes;
-    var _closure1_slot5 = var7;
+    var _closure1_slot4 = var7;
     var2 = var2.AnalyticEvents;
-    var _closure1_slot6 = var2;
+    var _closure1_slot5 = var2;
     var2 = function listItemToType(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -87,7 +83,7 @@ case 12:
             var7 = var5.content_type;
             var8 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var5 = 3;
+            var5 = 2;
             var6 = var6[var5];
             var5 = undefined;
             var5 = var8.bind(var5)(var6);
@@ -107,7 +103,7 @@ case 8:
             return var5;
 case 6:
             var5 = var4.channelType;
-            var4 = _closure1_slot5;
+            var4 = _closure1_slot4;
             var4 = var4.GUILD_ANNOUNCEMENT;
             if(!(var5 === var4)) { _fun0001_ip = 24; continue _fun0001 }
 case 25:
@@ -120,7 +116,7 @@ case 2:
             return var1;
         }
     };
-    var _closure1_slot7 = var2;
+    var _closure1_slot6 = var2;
     var2 = function dehydratedItemToType(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -128,7 +124,7 @@ case 0:
             var5 = var2.type;
             var6 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var7 = 4;
+            var7 = 3;
             var4 = var3[var7];
             var3 = undefined;
             var4 = var6.bind(var3)(var4);
@@ -206,7 +202,7 @@ case 28:
 case 26:
             var2 = var2.data;
             var3 = var2.channel_type;
-            var1 = _closure1_slot5;
+            var1 = _closure1_slot4;
             var2 = var1.GUILD_ANNOUNCEMENT;
             var1 = 'message';
             if(!(var3 === var2)) { _fun0002_ip = 40; continue _fun0002 }
@@ -216,57 +212,46 @@ case 40:
             return var1;
         }
     };
-    var _closure1_slot8 = var2;
+    var _closure1_slot7 = var2;
     var2 = {};
     var7 = function trackItemInteraction(arg1) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
-case 0:
-            var6 = arg1;
-            var3 = _closure1_slot1;
-            var2 = _closure1_slot2;
-            var1 = 5;
-            var2 = var2[var1];
-            var1 = undefined;
-            var5 = var3.bind(var1)(var2);
-            var4 = var5.track;
-            var2 = _closure1_slot6;
-            var3 = var2.FEED_ITEM_INTERACTED;
-            var2 = {};
-            var10 = _closure1_slot4;
-            var8 = var10.getLoadId;
-            var8 = var8.bind(var10)();
-            var2['load_id'] = var8;
-            var8 = var6.type;
-            var2['feed_item_type'] = var8;
-            var8 = var6.id;
-            var2['feed_item_id'] = var8;
-            var8 = 'gravity';
-            var2['home_session_id'] = var8;
-            var8 = var6.actionType;
-            var2['action_type'] = var8;
-            var9 = var10.getIndexInHydratedFeed;
-            var8 = var6.id;
-            var8 = var9.bind(var10)(var8);
-            var2['feed_item_index'] = var8;
-            var7 = _closure1_slot3;
-            var8 = var7.currentSession;
-            var7 = null;
-            var9 = var7 == var8;
-            var7 = undefined;
-            if(var9) { _fun0003_ip = 42; continue _fun0003 }
-case 43:
-            var7 = var8.sessionId;
-case 42:
-            var2['icymi_session_id'] = var7;
-            var7 = var6.impressionId;
-            var2['impression_id'] = var7;
-            var7 = var6.uxVariation;
-            var2['ux_variation'] = var7;
-            var6 = var6.sessionInteractionIndex;
-            var2['session_interaction_index'] = var6;
-            var2 = var4.bind(var5)(var3, var2);
-            return var1;
-        }
+        var6 = arg1;
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 4;
+        var2 = var2[var1];
+        var1 = undefined;
+        var5 = var3.bind(var1)(var2);
+        var4 = var5.track;
+        var2 = _closure1_slot5;
+        var3 = var2.FEED_ITEM_INTERACTED;
+        var2 = {};
+        var9 = _closure1_slot3;
+        var7 = var9.getLoadId;
+        var7 = var7.bind(var9)();
+        var2['load_id'] = var7;
+        var7 = var6.type;
+        var2['feed_item_type'] = var7;
+        var7 = var6.id;
+        var2['feed_item_id'] = var7;
+        var7 = 'gravity';
+        var2['home_session_id'] = var7;
+        var7 = var6.actionType;
+        var2['action_type'] = var7;
+        var8 = var9.getIndexInHydratedFeed;
+        var7 = var6.id;
+        var7 = var8.bind(var9)(var7);
+        var2['feed_item_index'] = var7;
+        var7 = var6.icymiSessionId;
+        var2['icymi_session_id'] = var7;
+        var7 = var6.impressionId;
+        var2['impression_id'] = var7;
+        var7 = var6.uxVariation;
+        var2['ux_variation'] = var7;
+        var6 = var6.sessionInteractionIndex;
+        var2['session_interaction_index'] = var6;
+        var2 = var4.bind(var5)(var3, var2);
+        return var1;
     };
     var2['trackItemInteraction'] = var7;
     var7 = function trackItemShortImpression(arg1, arg2, arg3) {
@@ -274,15 +259,15 @@ case 42:
         var8 = arg2;
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 5;
+        var1 = 4;
         var2 = var2[var1];
         var1 = undefined;
         var5 = var3.bind(var1)(var2);
         var4 = var5.track;
-        var2 = _closure1_slot6;
+        var2 = _closure1_slot5;
         var3 = var2.FEED_ITEM_SEEN_BATCH;
         var2 = {};
-        var10 = _closure1_slot4;
+        var10 = _closure1_slot3;
         var9 = var10.getLoadId;
         var9 = var9.bind(var10)();
         var2['load_id'] = var9;
@@ -299,7 +284,7 @@ case 42:
         var2['feed_item_ids'] = var9;
         var10 = var7.map;
         var9 = function(arg1) {
-            var3 = _closure1_slot7;
+            var3 = _closure1_slot6;
             var1 = arg1;
             var2 = var1.item;
             var1 = undefined;
@@ -348,15 +333,15 @@ case 42:
         var8 = arg2;
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 5;
+        var1 = 4;
         var2 = var2[var1];
         var1 = undefined;
         var5 = var3.bind(var1)(var2);
         var4 = var5.track;
-        var2 = _closure1_slot6;
+        var2 = _closure1_slot5;
         var3 = var2.FEED_ITEM_SEEN_LONG;
         var2 = {};
-        var10 = _closure1_slot4;
+        var10 = _closure1_slot3;
         var9 = var10.getLoadId;
         var9 = var9.bind(var10)();
         var2['load_id'] = var9;
@@ -373,7 +358,7 @@ case 42:
         var2['feed_item_ids'] = var9;
         var10 = var7.map;
         var9 = function(arg1) {
-            var3 = _closure1_slot7;
+            var3 = _closure1_slot6;
             var1 = arg1;
             var2 = var1.item;
             var1 = undefined;
@@ -437,7 +422,7 @@ case 42:
             var2 = var3.bind(var4)(var2);
             var4 = _closure2_slot2;
             var3 = var4.push;
-            var2 = _closure1_slot8;
+            var2 = _closure1_slot7;
             var1 = undefined;
             var2 = var2.bind(var1)(var5);
             var2 = var3.bind(var4)(var2);
@@ -454,7 +439,7 @@ case 42:
             var2 = var3.bind(var4)(var2);
             var4 = _closure2_slot3;
             var3 = var4.push;
-            var2 = _closure1_slot8;
+            var2 = _closure1_slot7;
             var1 = undefined;
             var2 = var2.bind(var1)(var5);
             var2 = var3.bind(var4)(var2);
@@ -463,12 +448,12 @@ case 42:
         var1 = var2.bind(var3)(var1);
         var4 = _closure1_slot1;
         var3 = _closure1_slot2;
-        var1 = 5;
+        var1 = 4;
         var3 = var3[var1];
         var1 = undefined;
         var5 = var4.bind(var1)(var3);
         var4 = var5.track;
-        var2 = _closure1_slot6;
+        var2 = _closure1_slot5;
         var3 = var2.FEED_LOADED;
         var2 = {};
         var13 = var6.newTrackingProps;
@@ -496,15 +481,15 @@ case 42:
         var6 = arg1;
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 5;
+        var1 = 4;
         var2 = var2[var1];
         var1 = undefined;
         var5 = var3.bind(var1)(var2);
         var4 = var5.track;
-        var2 = _closure1_slot6;
+        var2 = _closure1_slot5;
         var3 = var2.FEED_SHOWN;
         var2 = {};
-        var8 = _closure1_slot4;
+        var8 = _closure1_slot3;
         var7 = var8.getLoadId;
         var7 = var7.bind(var8)();
         var2['load_id'] = var7;
@@ -519,15 +504,15 @@ case 42:
     var7 = function trackFeedFirstScrollStarted() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 5;
+        var1 = 4;
         var2 = var2[var1];
         var1 = undefined;
         var5 = var3.bind(var1)(var2);
         var4 = var5.track;
-        var2 = _closure1_slot6;
+        var2 = _closure1_slot5;
         var3 = var2.HOME_FIRST_SCROLL_STARTED;
         var2 = {};
-        var7 = _closure1_slot4;
+        var7 = _closure1_slot3;
         var6 = var7.getLoadId;
         var6 = var6.bind(var7)();
         var2['load_id'] = var6;
@@ -540,12 +525,12 @@ case 42:
     var7 = function trackFeedFeedbackPromptViewed() {
         var4 = _closure1_slot1;
         var3 = _closure1_slot2;
-        var1 = 5;
+        var1 = 4;
         var3 = var3[var1];
         var1 = undefined;
         var4 = var4.bind(var1)(var3);
         var3 = var4.track;
-        var2 = _closure1_slot6;
+        var2 = _closure1_slot5;
         var2 = var2.HOME_FEEDBACK_PROMPT_VIEWED;
         var2 = var3.bind(var4)(var2);
         return var1;
@@ -554,15 +539,15 @@ case 42:
     var7 = function trackFeedFeedbackSubmitted(arg1) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 5;
+        var1 = 4;
         var2 = var2[var1];
         var1 = undefined;
         var5 = var3.bind(var1)(var2);
         var4 = var5.track;
-        var2 = _closure1_slot6;
+        var2 = _closure1_slot5;
         var3 = var2.HOME_FEEDBACK_SUBMITTED;
         var2 = {};
-        var7 = _closure1_slot4;
+        var7 = _closure1_slot3;
         var6 = var7.getLoadId;
         var6 = var6.bind(var7)();
         var2['load_id'] = var6;
@@ -576,25 +561,25 @@ case 42:
     };
     var2['trackFeedFeedbackSubmitted'] = var7;
     var7 = function trackGeneratedCandidateFeedback(arg1) {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var6 = arg1;
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 5;
+            var1 = 4;
             var2 = var2[var1];
             var1 = undefined;
             var5 = var3.bind(var1)(var2);
             var4 = var5.track;
-            var2 = _closure1_slot6;
+            var2 = _closure1_slot5;
             var3 = var2.FEED_ITEM_CONTENT_GEN_FEEDBACK;
             var2 = {};
             var9 = var6.isPositive;
             var8 = 'thumbs_down';
-            if(!var9) { _fun0004_ip = 44; continue _fun0004 }
-case 45:
+            if(!var9) { _fun0003_ip = 42; continue _fun0003 }
+case 43:
             var8 = 'thumbs_up';
-case 44:
+case 42:
             var2['feedback_type'] = var8;
             var8 = global;
             var10 = var8.parseInt;
@@ -617,7 +602,7 @@ case 44:
             var2['guild_id'] = var8;
             var8 = 'gravity';
             var2['home_session_id'] = var8;
-            var8 = _closure1_slot4;
+            var8 = _closure1_slot3;
             var7 = var8.getLoadId;
             var7 = var7.bind(var8)();
             var2['load_id'] = var7;
@@ -629,18 +614,18 @@ case 44:
             var9 = null;
             var11 = var9 != var10;
             var8 = 0;
-            if(!var11) { _fun0004_ip = 46; continue _fun0004 }
-case 47:
+            if(!var11) { _fun0003_ip = 44; continue _fun0003 }
+case 45:
             var8 = var10;
-case 46:
+case 44:
             var2['primary_text_length'] = var8;
             var8 = var6.item;
             var8 = var8.secondary_text;
             var10 = var8.length;
             var11 = var9 != var10;
             var8 = 0;
-            if(!var11) { _fun0004_ip = 25; continue _fun0004 }
-case 48:
+            if(!var11) { _fun0003_ip = 25; continue _fun0003 }
+case 46:
             var8 = var10;
 case 25:
             var2['secondary_text_length'] = var8;
@@ -649,8 +634,8 @@ case 25:
             var10 = var8.length;
             var11 = var9 != var10;
             var8 = 0;
-            if(!var11) { _fun0004_ip = 28; continue _fun0004 }
-case 49:
+            if(!var11) { _fun0003_ip = 28; continue _fun0003 }
+case 47:
             var8 = var10;
 case 28:
             var2['message_count'] = var8;
@@ -659,10 +644,10 @@ case 28:
             var8 = var8.length;
             var9 = var9 != var8;
             var7 = 0;
-            if(!var9) { _fun0004_ip = 50; continue _fun0004 }
-case 51:
+            if(!var9) { _fun0003_ip = 48; continue _fun0003 }
+case 49:
             var7 = var8;
-case 50:
+case 48:
             var2['user_count'] = var7;
             var6 = var6.generatedItemIndex;
             var2['generated_item_index'] = var6;
@@ -674,12 +659,12 @@ case 50:
     var7 = function trackFeedOnboardingScreenSkipped(arg1) {
         var4 = _closure1_slot1;
         var3 = _closure1_slot2;
-        var1 = 5;
+        var1 = 4;
         var3 = var3[var1];
         var1 = undefined;
         var5 = var4.bind(var1)(var3);
         var4 = var5.track;
-        var2 = _closure1_slot6;
+        var2 = _closure1_slot5;
         var3 = var2.ICYMI_ONBOARDING_SCREEN_SKIPPED;
         var2 = {};
         var6 = arg1;
@@ -693,12 +678,12 @@ case 50:
         var6 = arg1;
         var4 = _closure1_slot1;
         var3 = _closure1_slot2;
-        var1 = 5;
+        var1 = 4;
         var3 = var3[var1];
         var1 = undefined;
         var5 = var4.bind(var1)(var3);
         var4 = var5.track;
-        var2 = _closure1_slot6;
+        var2 = _closure1_slot5;
         var3 = var2.ICYMI_ONBOARDING_GUILD_TOGGLED;
         var2 = {};
         var7 = var6.guildId;
@@ -713,12 +698,12 @@ case 50:
         var6 = arg1;
         var4 = _closure1_slot1;
         var3 = _closure1_slot2;
-        var1 = 5;
+        var1 = 4;
         var3 = var3[var1];
         var1 = undefined;
         var5 = var4.bind(var1)(var3);
         var4 = var5.track;
-        var2 = _closure1_slot6;
+        var2 = _closure1_slot5;
         var3 = var2.ICYMI_ONBOARDING_CATEGORY_TOGGLED;
         var2 = {};
         var7 = var6.categoryId;
@@ -732,15 +717,15 @@ case 50:
     var7 = function trackFeedEmptyLoadingSeen() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 5;
+        var1 = 4;
         var2 = var2[var1];
         var1 = undefined;
         var5 = var3.bind(var1)(var2);
         var4 = var5.track;
-        var2 = _closure1_slot6;
+        var2 = _closure1_slot5;
         var3 = var2.ICYMI_FEED_EMPTY_LOADING_SEEN;
         var2 = {};
-        var7 = _closure1_slot4;
+        var7 = _closure1_slot3;
         var6 = var7.getLoadId;
         var6 = var6.bind(var7)();
         var2['load_id'] = var6;
@@ -754,15 +739,15 @@ case 50:
     var7 = function trackFeedEmptyLoadingComplete(arg1) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 5;
+        var1 = 4;
         var2 = var2[var1];
         var1 = undefined;
         var5 = var3.bind(var1)(var2);
         var4 = var5.track;
-        var2 = _closure1_slot6;
+        var2 = _closure1_slot5;
         var3 = var2.ICYMI_FEED_EMPTY_LOADING_COMPLETE;
         var2 = {};
-        var7 = _closure1_slot4;
+        var7 = _closure1_slot3;
         var6 = var7.getLoadId;
         var6 = var6.bind(var7)();
         var2['load_id'] = var6;
@@ -779,15 +764,15 @@ case 50:
     var7 = function trackFeedEmptyLoadingAbandoned(arg1) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 5;
+        var1 = 4;
         var2 = var2[var1];
         var1 = undefined;
         var5 = var3.bind(var1)(var2);
         var4 = var5.track;
-        var2 = _closure1_slot6;
+        var2 = _closure1_slot5;
         var3 = var2.ICYMI_FEED_EMPTY_LOADING_ABANDONED;
         var2 = {};
-        var7 = _closure1_slot4;
+        var7 = _closure1_slot3;
         var6 = var7.getLoadId;
         var6 = var6.bind(var7)();
         var2['load_id'] = var6;
@@ -805,15 +790,15 @@ case 50:
         var6 = arg1;
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 5;
+        var1 = 4;
         var2 = var2[var1];
         var1 = undefined;
         var5 = var3.bind(var1)(var2);
         var4 = var5.track;
-        var2 = _closure1_slot6;
+        var2 = _closure1_slot5;
         var3 = var2.FEED_SESSION_STARTED;
         var2 = {};
-        var8 = _closure1_slot4;
+        var8 = _closure1_slot3;
         var7 = var8.getLoadId;
         var7 = var7.bind(var8)();
         var2['load_id'] = var7;
@@ -836,15 +821,15 @@ case 50:
         var6 = arg1;
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 5;
+        var1 = 4;
         var2 = var2[var1];
         var1 = undefined;
         var5 = var3.bind(var1)(var2);
         var4 = var5.track;
-        var2 = _closure1_slot6;
+        var2 = _closure1_slot5;
         var3 = var2.FEED_SESSION_COMPLETED;
         var2 = {};
-        var8 = _closure1_slot4;
+        var8 = _closure1_slot3;
         var7 = var8.getLoadId;
         var7 = var7.bind(var8)();
         var2['load_id'] = var7;
@@ -888,20 +873,20 @@ case 50:
     };
     var2['trackFeedSessionCompleted'] = var7;
     var7 = function trackFeedItemDwell1s(arg1) {
-        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var6 = arg1;
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 5;
+            var1 = 4;
             var2 = var2[var1];
             var1 = undefined;
             var5 = var3.bind(var1)(var2);
             var4 = var5.track;
-            var2 = _closure1_slot6;
+            var2 = _closure1_slot5;
             var3 = var2.FEED_ITEM_1S_DWELLED;
             var2 = {};
-            var8 = _closure1_slot4;
+            var8 = _closure1_slot3;
             var7 = var8.getLoadId;
             var7 = var7.bind(var8)();
             var2['load_id'] = var7;
@@ -931,10 +916,10 @@ case 0:
             var8 = var6.itemChannelType;
             var7 = null;
             var9 = var7 != var8;
-            if(!var9) { _fun0005_ip = 52; continue _fun0005 }
-case 53:
+            if(!var9) { _fun0004_ip = 50; continue _fun0004 }
+case 51:
             var7 = var8;
-case 52:
+case 50:
             var2['item_channel_type'] = var7;
             var7 = var6.itemCardHeight;
             var2['item_card_height'] = var7;
@@ -954,20 +939,20 @@ case 52:
     };
     var2['trackFeedItemDwell1s'] = var7;
     var4 = function trackFeedItemDwelled(arg1) {
-        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var6 = arg1;
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 5;
+            var1 = 4;
             var2 = var2[var1];
             var1 = undefined;
             var5 = var3.bind(var1)(var2);
             var4 = var5.track;
-            var2 = _closure1_slot6;
+            var2 = _closure1_slot5;
             var3 = var2.FEED_ITEM_DWELLED;
             var2 = {};
-            var8 = _closure1_slot4;
+            var8 = _closure1_slot3;
             var7 = var8.getLoadId;
             var7 = var7.bind(var8)();
             var2['load_id'] = var7;
@@ -1001,10 +986,10 @@ case 0:
             var8 = var6.itemChannelType;
             var7 = null;
             var9 = var7 != var8;
-            if(!var9) { _fun0006_ip = 46; continue _fun0006 }
-case 47:
+            if(!var9) { _fun0005_ip = 44; continue _fun0005 }
+case 45:
             var7 = var8;
-case 46:
+case 44:
             var2['item_channel_type'] = var7;
             var7 = var6.itemCardHeight;
             var2['item_card_height'] = var7;
@@ -1021,7 +1006,7 @@ case 46:
         }
     };
     var2['trackFeedItemDwelled'] = var4;
-    var4 = 6;
+    var4 = 5;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

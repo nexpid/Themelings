@@ -317,6 +317,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5['SOFTWARE_FALLBACK_ON_CONSECUTIVE_ERRORS'] = var2;
     var2 = 'browser_hevc';
     var5['BROWSER_HEVC'] = var2;
+    var2 = 'low_latency_rate_control';
+    var5['LOW_LATENCY_RATE_CONTROL'] = var2;
     var4 = {};
     var4['AUTO'] = var30;
     var2 = 'AUTO';

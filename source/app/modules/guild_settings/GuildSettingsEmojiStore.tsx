@@ -35,13 +35,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot12 = var2;
+            _closure1_slot11 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot12 = var1;
+    var _closure1_slot11 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -84,8 +84,6 @@ case 4:
     var8 = {};
     var _closure1_slot8 = var8;
     var _closure1_slot9 = var2;
-    var2 = false;
-    var _closure1_slot10 = var2;
     var2 = 7;
     var2 = var5[var2];
     var8 = var6.bind(var1)(var2);
@@ -103,7 +101,7 @@ case 4:
     var11 = var2;
     var2 = new var12[var8](var11, var10);
     var2 = var2 instanceof Object ? var2 : var7;
-    var _closure1_slot11 = var2;
+    var _closure1_slot10 = var2;
     var2 = 9;
     var2 = var5[var2];
     var2 = var6.bind(var1)(var2);
@@ -121,7 +119,7 @@ case 0:
                 var1 = _closure1_slot3;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot2;
-                var1 = _closure1_slot12;
+                var1 = _closure1_slot11;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
@@ -162,7 +160,7 @@ case 8:
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(6);
+        var1 = new Array(5);
         var1[0] = var5;
         var5 = {};
         var7 = 'isUploadingEmoji';
@@ -208,26 +206,17 @@ case 9:
         var5['value'] = var7;
         var1[3] = var5;
         var5 = {};
-        var7 = 'getEmojiFileInputAutoOpen';
-        var5['key'] = var7;
-        var7 = function value() {
-            var1 = _closure1_slot10;
-            return var1;
-        };
-        var5['value'] = var7;
-        var1[4] = var5;
-        var5 = {};
         var7 = 'getEmojiRawAsset';
         var5['key'] = var7;
         var6 = function value(arg1) {
-            var3 = _closure1_slot11;
+            var3 = _closure1_slot10;
             var2 = var3.get;
             var1 = arg1;
             var1 = var2.bind(var3)(var1);
             return var1;
         };
         var5['value'] = var6;
-        var1[5] = var5;
+        var1[4] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -307,19 +296,11 @@ case 9:
         return var1;
     };
     var2['EMOJI_UPLOAD_STOP'] = var8;
-    var8 = function handleEmojiFileInputAutoOpen(arg1) {
-        var1 = arg1;
-        var2 = var1.autoOpen;
-        _closure1_slot10 = var2;
-        var1 = undefined;
-        return var1;
-    };
-    var2['EMOJI_FILE_INPUT_AUTO_OPEN'] = var8;
     var8 = function handleCacheRawEmojiAsset(arg1) {
         var1 = arg1;
         var4 = var1.emojiId;
         var3 = var1.userImage;
-        var2 = _closure1_slot11;
+        var2 = _closure1_slot10;
         var1 = var2.set;
         var1 = var1.bind(var2)(var4, var3);
         var1 = undefined;

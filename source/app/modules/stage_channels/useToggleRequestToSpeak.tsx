@@ -29,7 +29,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var _closure1_slot5 = var4;
-    var4 = 6;
+    var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -108,43 +108,70 @@ case 2:
             var2 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-                    var5 = _closure2_slot1;
-                    var6 = _closure1_slot0;
-                    var4 = _closure1_slot2;
-                    var1 = 4;
-                    var4 = var4[var1];
+                    var3 = _closure1_slot0;
+                    var2 = _closure1_slot2;
+                    var1 = 5;
+                    var2 = var2[var1];
                     var1 = undefined;
-                    var4 = var6.bind(var1)(var4);
-                    var4 = var4.RequestToSpeakStates;
-                    var4 = var4.REQUESTED_TO_SPEAK_AND_AWAITING_USER_ACK;
-                    if(!(var5 !== var4)) { _fun0002_ip = 4; continue _fun0002 }
+                    var3 = var3.bind(var1)(var2);
+                    var2 = var3.shouldAgeVerifyToSpeakForCurrentUser;
+                    var2 = var2.bind(var3)();
+                    if(var2) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
-                    var5 = _closure1_slot0;
-                    var6 = _closure1_slot2;
-                    var4 = 5;
-                    var4 = var6[var4];
-                    var7 = var5.bind(var1)(var4);
-                    var6 = var7.toggleRequestToSpeak;
-                    var5 = _closure2_slot0;
-                    var4 = _closure2_slot3;
-                    var4 = !var4;
-                    var4 = var6.bind(var7)(var5, var4);
-                    _fun0002_ip = 6; continue _fun0002;
-case 4:
+                    var4 = _closure2_slot1;
+                    var6 = _closure1_slot0;
+                    var7 = _closure1_slot2;
+                    var3 = 4;
+                    var3 = var7[var3];
+                    var3 = var6.bind(var1)(var3);
+                    var3 = var3.RequestToSpeakStates;
+                    var3 = var3.REQUESTED_TO_SPEAK_AND_AWAITING_USER_ACK;
+                    if(!(var4 !== var3)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var4 = _closure1_slot0;
-                    var5 = _closure1_slot2;
-                    var3 = 5;
-                    var3 = var5[var3];
-                    var6 = var4.bind(var1)(var3);
-                    var5 = var6.audienceAckRequestToSpeak;
+                    var6 = _closure1_slot2;
+                    var3 = 8;
+                    var3 = var6[var3];
+                    var7 = var4.bind(var1)(var3);
+                    var6 = var7.toggleRequestToSpeak;
+                    var4 = _closure2_slot0;
+                    var3 = _closure2_slot3;
+                    var3 = !var3;
+                    var3 = var6.bind(var7)(var4, var3);
+                    _fun0002_ip = 8; continue _fun0002;
+case 6:
+                    var4 = _closure1_slot0;
+                    var6 = _closure1_slot2;
+                    var3 = 8;
+                    var3 = var6[var3];
+                    var7 = var4.bind(var1)(var3);
+                    var6 = var7.audienceAckRequestToSpeak;
                     var4 = _closure2_slot0;
                     var3 = true;
-                    var3 = var5.bind(var6)(var4, var3);
-case 6:
+                    var3 = var6.bind(var7)(var4, var3);
+case 8:
                     var3 = _closure2_slot4;
                     var2 = _closure2_slot3;
                     var2 = !var2;
                     var2 = var3.bind(var1)(var2);
+                    _fun0002_ip = 9; continue _fun0002;
+case 4:
+                    var3 = _closure1_slot1;
+                    var7 = _closure1_slot2;
+                    var2 = 6;
+                    var2 = var7[var2];
+                    var4 = var3.bind(var1)(var2);
+                    var3 = var4.showAgeVerificationGetStartedModal;
+                    var2 = {};
+                    var6 = _closure1_slot0;
+                    var5 = 7;
+                    var5 = var7[var5];
+                    var5 = var6.bind(var1)(var5);
+                    var5 = var5.AgeVerificationModalEntryPoint;
+                    var5 = var5.STAGE_CHANNEL_RAISE_HAND;
+                    var2['entryPoint'] = var5;
+                    var2 = var3.bind(var4)(var2);
+case 9:
                     return var1;
                 }
             };

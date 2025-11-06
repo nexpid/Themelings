@@ -726,7 +726,7 @@ case 54:
         return var1;
     };
     var3['setPendingLegacyUsernameDisabled'] = var4;
-    var4 = function setPendingAvatarDecoration(arg1) {
+    var4 = function setPendingCollectiblesItem(arg1) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
         var1 = 3;
@@ -735,48 +735,14 @@ case 54:
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
         var2 = {};
-        var5 = 'USER_SETTINGS_ACCOUNT_SET_PENDING_AVATAR_DECORATION';
+        var5 = 'USER_SETTINGS_ACCOUNT_SET_PENDING_COLLECTIBLES_ITEM';
         var2['type'] = var5;
         var5 = arg1;
-        var2['avatarDecoration'] = var5;
+        var2['item'] = var5;
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var3['setPendingAvatarDecoration'] = var4;
-    var4 = function setGlobalPendingNameplate(arg1) {
-        var3 = _closure1_slot1;
-        var2 = _closure1_slot2;
-        var1 = 3;
-        var2 = var2[var1];
-        var1 = undefined;
-        var4 = var3.bind(var1)(var2);
-        var3 = var4.dispatch;
-        var2 = {};
-        var5 = 'USER_SETTINGS_ACCOUNT_SET_PENDING_NAMEPLATE';
-        var2['type'] = var5;
-        var5 = arg1;
-        var2['nameplate'] = var5;
-        var2 = var3.bind(var4)(var2);
-        return var1;
-    };
-    var3['setGlobalPendingNameplate'] = var4;
-    var4 = function setPendingProfileEffect(arg1) {
-        var3 = _closure1_slot1;
-        var2 = _closure1_slot2;
-        var1 = 3;
-        var2 = var2[var1];
-        var1 = undefined;
-        var4 = var3.bind(var1)(var2);
-        var3 = var4.dispatch;
-        var2 = {};
-        var5 = 'USER_SETTINGS_ACCOUNT_SET_PENDING_PROFILE_EFFECT';
-        var2['type'] = var5;
-        var5 = arg1;
-        var2['profileEffect'] = var5;
-        var2 = var3.bind(var4)(var2);
-        return var1;
-    };
-    var3['setPendingProfileEffect'] = var4;
+    var3['setPendingCollectiblesItem'] = var4;
     var4 = function setPendingPrimaryGuildId(arg1) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
@@ -903,21 +869,6 @@ case 54:
         return var1;
     };
     var3['resetAndCloseUserProfileForm'] = var4;
-    var4 = function resetPendingAvatarDecoration() {
-        var3 = _closure1_slot1;
-        var2 = _closure1_slot2;
-        var1 = 3;
-        var2 = var2[var1];
-        var1 = undefined;
-        var4 = var3.bind(var1)(var2);
-        var3 = var4.dispatch;
-        var2 = {};
-        var5 = 'USER_SETTINGS_RESET_PENDING_AVATAR_DECORATION';
-        var2['type'] = var5;
-        var2 = var3.bind(var4)(var2);
-        return var1;
-    };
-    var3['resetPendingAvatarDecoration'] = var4;
     var4 = function resetPendingLegacyUsernameDisabled() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;

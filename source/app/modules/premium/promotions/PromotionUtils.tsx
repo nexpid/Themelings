@@ -344,7 +344,7 @@ case 25:
     var5 = var6.bind(var1)(var5);
     var5 = var5.Endpoints;
     var _closure1_slot11 = var5;
-    var5 = 16;
+    var5 = 17;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -520,7 +520,7 @@ case 39:
         }
     };
     var3['shouldShowOutboundPromotionOnPlatform'] = var4;
-    var2 = function isTrialUserEligibleToSeeOutboundPromotion(arg1, arg2) {
+    var4 = function isTrialUserEligibleToSeeOutboundPromotion(arg1, arg2) {
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
             var3 = arg1;
@@ -537,6 +537,23 @@ case 41:
             return var1;
         }
     };
-    var3['isTrialUserEligibleToSeeOutboundPromotion'] = var2;
+    var3['isTrialUserEligibleToSeeOutboundPromotion'] = var4;
+    var2 = function isRecurringPromotion(arg1) {
+        var1 = arg1;
+        var4 = var1.promotionPartner;
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot2;
+        var1 = 16;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        var3 = var1.RECURRING_PARTNER_IDS;
+        var2 = var3.has;
+        var1 = var4.toLocaleLowerCase;
+        var1 = var1.bind(var4)();
+        var1 = var2.bind(var3)(var1);
+        return var1;
+    };
+    var3['isRecurringPromotion'] = var2;
     return var1;
 })();

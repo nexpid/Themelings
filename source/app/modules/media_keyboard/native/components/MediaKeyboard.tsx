@@ -130,6 +130,37 @@ case 0:
             var9[4] = var1;
             var9[5] = var8;
             var1 = function() {
+                var1 = function onRestoreKeyboard() {
+                    _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+                        var1 = _closure2_slot4;
+                        var2 = var1.target;
+                        var1 = _closure1_slot4;
+                        var1 = var1.APP_LAUNCHER;
+                        if(!(var2 !== var1)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
+                        var1 = _closure2_slot1;
+                        var3 = var1.current;
+                        var2 = var3.openCustomKeyboard;
+                        var1 = {};
+                        var7 = _closure1_slot0;
+                        var6 = _closure1_slot2;
+                        var5 = 8;
+                        var6 = var6[var5];
+                        var5 = undefined;
+                        var5 = var7.bind(var5)(var6);
+                        var5 = var5.KeyboardTypes;
+                        var5 = var5.MEDIA;
+                        var1['type'] = var5;
+                        var4 = _closure2_slot4;
+                        var1['context'] = var4;
+                        var1 = var2.bind(var3)(var1);
+case 2:
+                        var1 = undefined;
+                        return var1;
+                    }
+                };
+                var _closure3_slot0 = var1;
                 var1 = function onAttachFileParams(arg1) {
                     var1 = arg1;
                     var _closure4_slot0 = var1;
@@ -151,36 +182,7 @@ case 0:
                         return var1;
                     };
                     var1['onDismissKeyboard'] = var3;
-                    var3 = function onRestoreKeyboard() {
-                        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
-case 0:
-                            var1 = _closure2_slot4;
-                            var2 = var1.target;
-                            var1 = _closure1_slot4;
-                            var1 = var1.APP_LAUNCHER;
-                            if(!(var2 !== var1)) { _fun0002_ip = 2; continue _fun0002 }
-case 3:
-                            var1 = _closure2_slot1;
-                            var3 = var1.current;
-                            var2 = var3.openCustomKeyboard;
-                            var1 = {};
-                            var7 = _closure1_slot0;
-                            var6 = _closure1_slot2;
-                            var5 = 8;
-                            var6 = var6[var5];
-                            var5 = undefined;
-                            var5 = var7.bind(var5)(var6);
-                            var5 = var5.KeyboardTypes;
-                            var5 = var5.MEDIA;
-                            var1['type'] = var5;
-                            var4 = _closure2_slot4;
-                            var1['context'] = var4;
-                            var1 = var2.bind(var3)(var1);
-case 2:
-                            var1 = undefined;
-                            return var1;
-                        }
-                    };
+                    var3 = _closure3_slot0;
                     var1['onRestoreKeyboard'] = var3;
                     var2 = function onSelectFiles(arg1) {
                         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
@@ -235,7 +237,7 @@ case 6:
                     var1['onSelectFiles'] = var2;
                     return var1;
                 };
-                var _closure3_slot0 = var1;
+                var _closure3_slot1 = var1;
                 var1 = {};
                 var3 = function onAttachPress() {
                     var7 = _closure1_slot0;
@@ -246,7 +248,7 @@ case 6:
                     var4 = var7.bind(var1)(var2);
                     var3 = var4.handleAttachFile;
                     var2 = {};
-                    var6 = _closure3_slot0;
+                    var6 = _closure3_slot1;
                     var5 = 12;
                     var5 = var8[var5];
                     var5 = var7.bind(var1)(var5);
@@ -268,7 +270,7 @@ case 6:
                     var4 = var7.bind(var1)(var2);
                     var3 = var4.handleCameraDialog;
                     var2 = {};
-                    var6 = _closure3_slot0;
+                    var6 = _closure3_slot1;
                     var5 = 12;
                     var5 = var8[var5];
                     var5 = var7.bind(var1)(var5);
@@ -326,7 +328,7 @@ case 0:
                         var7 = var4.bind(var1)(var2);
                         var6 = var7.handleViewAllDialog;
                         var3 = {};
-                        var8 = _closure3_slot0;
+                        var8 = _closure3_slot1;
                         var2 = 12;
                         var2 = var5[var2];
                         var2 = var4.bind(var1)(var2);
@@ -433,6 +435,8 @@ case 18:
                     var2 = {};
                     var5 = _closure2_slot0;
                     var2['channel'] = var5;
+                    var5 = _closure3_slot0;
+                    var2['onCancel'] = var5;
                     var2 = var3.bind(var4)(var2);
                     return var1;
                 };

@@ -211,24 +211,54 @@ case 3:
             var1['title'] = var7;
             var7 = var8.map;
             var5 = function(arg1) {
-                var1 = arg1;
-                var5 = _closure1_slot9;
-                var3 = _closure1_slot0;
-                var4 = _closure1_slot2;
-                var2 = 20;
-                var2 = var4[var2];
-                var4 = undefined;
-                var2 = var3.bind(var4)(var2);
-                var3 = var2.TableRow;
-                var2 = {};
-                var6 = var1.name;
-                var2['label'] = var6;
-                var6 = _closure2_slot4;
-                var6 = var6.bind(var4)(var1);
-                var2['trailing'] = var6;
-                var1 = var1.id;
-                var1 = var5.bind(var4)(var3, var2, var1);
-                return var1;
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+                    var1 = arg1;
+                    var5 = _closure1_slot9;
+                    var3 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var2 = 20;
+                    var2 = var4[var2];
+                    var4 = undefined;
+                    var2 = var3.bind(var4)(var2);
+                    var3 = var2.TableRow;
+                    var2 = {};
+                    var6 = var1.name;
+                    var2['label'] = var6;
+                    var6 = _closure2_slot4;
+                    var6 = var6.bind(var4)(var1);
+                    var2['trailing'] = var6;
+                    var8 = var1.last_used;
+                    var6 = null;
+                    var8 = var6 != var8;
+                    if(!var8) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
+                    var12 = _closure1_slot0;
+                    var13 = _closure1_slot2;
+                    var7 = 11;
+                    var8 = var13[var7];
+                    var8 = var12.bind(var4)(var8);
+                    var10 = var8.intl;
+                    var9 = var10.format;
+                    var7 = var13[var7];
+                    var7 = var12.bind(var4)(var7);
+                    var7 = var7.t;
+                    var8 = var7.7JgxF5;
+                    var7 = {};
+                    var11 = 21;
+                    var11 = var13[var11];
+                    var13 = var12.bind(var4)(var11);
+                    var12 = var13.formatDate;
+                    var11 = var1.last_used;
+                    var11 = var12.bind(var13)(var11);
+                    var7['lastUsed'] = var11;
+                    var6 = var9.bind(var10)(var8, var7);
+case 4:
+                    var2['subLabel'] = var6;
+                    var1 = var1.id;
+                    var1 = var5.bind(var4)(var3, var2, var1);
+                    return var1;
+                }
             };
             var5 = var7.bind(var8)(var5);
             var1['children'] = var5;
@@ -387,25 +417,25 @@ case 2:
     var4['keychainImage'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot11 = var4;
-    var4 = 26;
+    var4 = 27;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/webauthn/native/nav_steps/PasskeyInitStep.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function PasskeyInitStep(arg1) {
-        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var2 = arg1;
             var3 = null;
-            if(!(var2 != var3)) { _fun0002_ip = 4; continue _fun0002 }
-case 5:
+            if(!(var2 != var3)) { _fun0003_ip = 6; continue _fun0003 }
+case 7:
             var5 = undefined;
             var _closure2_slot0 = var5;
             var _closure2_slot1 = var5;
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var4 = 21;
+            var4 = 22;
             var4 = var6[var4];
             var7 = var3.bind(var5)(var4);
             var4 = var7.useNavigation;
@@ -436,20 +466,20 @@ case 5:
             var7 = new Array(1);
             var7[0] = var4;
             var4 = function() {
-                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var1 = _closure2_slot1;
-                    if(var1) { _fun0003_ip = 6; continue _fun0003 }
-case 7:
+                    if(var1) { _fun0004_ip = 8; continue _fun0004 }
+case 9:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var1 = 22;
+                    var1 = 23;
                     var2 = var2[var1];
                     var1 = undefined;
                     var2 = var3.bind(var1)(var2);
                     var1 = var2.fetchWebAuthnCredentials;
                     var1 = var1.bind(var2)();
-case 6:
+case 8:
                     var1 = undefined;
                     return var1;
                 }
@@ -464,23 +494,23 @@ case 6:
                 var2 = var3.setOptions;
                 var1 = {};
                 var4 = function headerRight() {
-                    _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+                    _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                         var3 = _closure1_slot0;
                         var4 = _closure1_slot2;
-                        var2 = 23;
+                        var2 = 24;
                         var2 = var4[var2];
                         var4 = undefined;
                         var2 = var3.bind(var4)(var2);
                         var2 = var2.hasWebAuthn;
-                        if(var2) { _fun0004_ip = 8; continue _fun0004 }
-case 9:
+                        if(var2) { _fun0005_ip = 10; continue _fun0005 }
+case 11:
                         return var4;
-case 8:
+case 10:
                         var3 = _closure1_slot9;
                         var8 = _closure1_slot0;
                         var9 = _closure1_slot2;
-                        var1 = 24;
+                        var1 = 25;
                         var1 = var9[var1];
                         var1 = var8.bind(var4)(var1);
                         var2 = var1.HeaderActionButton;
@@ -519,7 +549,7 @@ case 8:
             };
             var1 = var7.bind(var8)(var1, var4);
             var4 = _closure1_slot9;
-            var1 = 25;
+            var1 = 26;
             var1 = var6[var1];
             var1 = var3.bind(var5)(var1);
             var3 = var1.Form;
@@ -539,7 +569,7 @@ case 8:
             var1['children'] = var6;
             var1 = var4.bind(var5)(var3, var1);
             return var1;
-case 4:
+case 6:
             var13 = "Cannot destructure 'undefined' or 'null'.";
             var14 = var2;
             var1 = throwTypeError(var14, var13);

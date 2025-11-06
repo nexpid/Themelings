@@ -191,15 +191,15 @@ case 0:
                 var2 = _closure2_slot2;
                 if(!(var3 !== var2)) { _fun0002_ip = 8; continue _fun0002 }
 case 9:
-                var3 = _closure1_slot0;
-                var4 = _closure1_slot2;
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot2;
                 var2 = 13;
-                var2 = var4[var2];
-                var4 = undefined;
-                var3 = var3.bind(var4)(var2);
+                var3 = var3[var2];
+                var2 = undefined;
+                var3 = var4.bind(var2)(var3);
                 var2 = var3.setNewPendingAvatarDecoration;
                 var1 = _closure2_slot0;
-                var1 = var2.bind(var3)(var4, var1);
+                var1 = var2.bind(var3)(var1);
 case 8:
                 var1 = undefined;
                 return var1;

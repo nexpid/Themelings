@@ -20,24 +20,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var8);
+    var _closure1_slot3 = var4;
     var4 = 1;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var8 = var4.Pressable;
-    var _closure1_slot3 = var8;
+    var _closure1_slot4 = var8;
     var4 = var4.View;
-    var _closure1_slot4 = var4;
+    var _closure1_slot5 = var4;
     var4 = 2;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
-    var _closure1_slot5 = var4;
+    var _closure1_slot6 = var4;
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var7 = var4.jsx;
-    var _closure1_slot6 = var7;
+    var _closure1_slot7 = var7;
     var4 = var4.jsxs;
-    var _closure1_slot7 = var4;
+    var _closure1_slot8 = var4;
     var4 = 4;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
@@ -130,7 +131,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot8 = var4;
+    var _closure1_slot9 = var4;
     var4 = 17;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -140,17 +141,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function ConversationHeader() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var2 = _closure1_slot8;
+            var2 = _closure1_slot9;
             var5 = undefined;
             var10 = var2.bind(var5)();
+            var7 = _closure1_slot3;
+            var6 = var7.useContext;
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
             var2 = 6;
             var2 = var4[var2];
-            var6 = var3.bind(var5)(var2);
-            var2 = var6.useConversationContext;
-            var2 = var2.bind(var6)();
-            var20 = var2.conversation;
+            var2 = var3.bind(var5)(var2);
+            var2 = var2.ConversationContext;
+            var20 = var6.bind(var7)(var2);
             var _closure2_slot0 = var20;
             var2 = 7;
             var2 = var4[var2];
@@ -163,7 +165,7 @@ case 0:
             var2 = var4[var2];
             var4 = var3.bind(var5)(var2);
             var3 = var4.useStateFromStores;
-            var7 = _closure1_slot5;
+            var7 = _closure1_slot6;
             var2 = new Array(1);
             var2[0] = var7;
             var1 = function() {
@@ -172,45 +174,61 @@ case 0:
                     var1 = _closure2_slot0;
                     var5 = null;
                     var3 = var5 == var1;
-                    var1 = null;
+                    var1 = undefined;
                     if(var3) { _fun0002_ip = 2; continue _fun0002 }
 case 3:
                     var3 = _closure2_slot0;
+                    var1 = var3.conversation;
+case 2:
+                    var3 = var5 == var1;
+                    var1 = null;
+                    if(var3) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
+                    var3 = _closure2_slot0;
+                    var3 = var3.conversation;
                     var4 = var3.type;
                     var3 = 'forum_thread';
                     var1 = null;
-                    if(!(var3 === var4)) { _fun0002_ip = 2; continue _fun0002 }
-case 4:
-                    var4 = _closure1_slot5;
+                    if(!(var3 === var4)) { _fun0002_ip = 4; continue _fun0002 }
+case 6:
+                    var4 = _closure1_slot6;
                     var3 = var4.getChannel;
                     var2 = _closure2_slot0;
+                    var2 = var2.conversation;
                     var2 = var2.channel;
                     var2 = var2.parent_id;
                     var1 = var3.bind(var4)(var2);
-case 2:
+case 4:
                     return var1;
                 }
             };
             var17 = var3.bind(var4)(var2, var1);
             var16 = null;
             var2 = var16 == var20;
+            var1 = undefined;
+            if(var2) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
+            var1 = var20.conversation;
+case 7:
+            var2 = var16 == var1;
             var1 = null;
-            if(var2) { _fun0001_ip = 5; continue _fun0001 }
-case 6:
-            var4 = _closure1_slot7;
-            var3 = _closure1_slot3;
+            if(var2) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
+            var4 = _closure1_slot8;
+            var3 = _closure1_slot4;
             var2 = {};
             var7 = var10.header;
             var2['style'] = var7;
             var2['onPress'] = var6;
-            var12 = _closure1_slot6;
+            var12 = _closure1_slot7;
             var23 = _closure1_slot1;
             var9 = _closure1_slot2;
             var13 = 9;
             var6 = var9[var13];
             var7 = var23.bind(var5)(var6);
             var6 = {};
-            var11 = var20.guild;
+            var11 = var20.conversation;
+            var11 = var11.guild;
             var6['guild'] = var11;
             var11 = _closure1_slot0;
             var13 = var9[var13];
@@ -221,7 +239,7 @@ case 6:
             var7 = var12.bind(var5)(var7, var6);
             var6 = new Array(4);
             var6[0] = var7;
-            var13 = _closure1_slot4;
+            var13 = _closure1_slot5;
             var7 = {};
             var14 = var10.contextContainer;
             var7['style'] = var14;
@@ -251,18 +269,19 @@ case 6:
             var9 = {'variant': 'redesign/heading-18/bold', 'color': 'header-primary', 'ellipsizeMode': 'tail', 'lineClamp': 1};
             var22 = var10.channelName;
             var9['style'] = var22;
-            if(!(var16 == var17)) { _fun0001_ip = 7; continue _fun0001 }
-case 8:
-            var16 = var20.channel;
+            if(!(var16 == var17)) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
+            var16 = var20.conversation;
+            var16 = var16.channel;
             var16 = var16.name;
-            _fun0001_ip = 9; continue _fun0001;
-case 7:
+            _fun0001_ip = 13; continue _fun0001;
+case 11:
             var16 = var17.name;
-case 9:
+case 13:
             var9['children'] = var16;
             var9 = var12.bind(var5)(var11, var9);
             var15[1] = var9;
-            var9 = _closure1_slot6;
+            var9 = _closure1_slot7;
             var11 = _closure1_slot0;
             var12 = _closure1_slot2;
             var16 = 12;
@@ -283,8 +302,8 @@ case 9:
             var15 = var4.bind(var5)(var13, var14);
             var14 = new Array(2);
             var14[0] = var15;
-            var16 = _closure1_slot7;
-            var8 = _closure1_slot4;
+            var16 = _closure1_slot8;
+            var8 = _closure1_slot5;
             var15 = {};
             var17 = var10.guildContainer;
             var15['style'] = var17;
@@ -292,6 +311,7 @@ case 9:
             var17 = var11.bind(var5)(var17);
             var19 = var17.Text;
             var17 = {'variant': 'text-sm/medium', 'color': 'text-muted'};
+            var20 = var20.conversation;
             var20 = var20.guild;
             var20 = var20.name;
             var17['children'] = var20;
@@ -354,7 +374,7 @@ case 9:
             var6[3] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 5:
+case 9:
             return var1;
         }
     };

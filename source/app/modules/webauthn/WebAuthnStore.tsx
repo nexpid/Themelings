@@ -188,13 +188,12 @@ case 8:
     var9 = function handleWebAuthnCredentialsLoaded(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-            var2 = arg1;
-            var5 = _closure1_slot8;
-            var4 = var2.credentials;
+            var1 = arg1;
+            var2 = var1.credentials;
+            var4 = _closure1_slot8;
             var1 = false;
-            if(!(var5 !== var4)) { _fun0003_ip = 9; continue _fun0003 }
+            if(!(var4 !== var2)) { _fun0003_ip = 9; continue _fun0003 }
 case 10:
-            var2 = var2.credentials;
             _closure1_slot8 = var2;
             var1 = true;
 case 9:
@@ -281,10 +280,10 @@ case 0:
                     var4 = var1.id;
                     var3 = _closure2_slot0;
                     var3 = var3.id;
-                    if(!(var4 === var3)) { _fun0006_ip = 17; continue _fun0006 }
-case 18:
-                    var1 = _closure2_slot0;
+                    if(!(var4 === var3)) { _fun0006_ip = 9; continue _fun0006 }
 case 17:
+                    var1 = _closure2_slot0;
+case 9:
                     return var1;
                 }
             };
@@ -337,13 +336,13 @@ case 16:
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var1 = _closure1_slot9;
-            if(var1) { _fun0008_ip = 19; continue _fun0008 }
-case 20:
+            if(var1) { _fun0008_ip = 18; continue _fun0008 }
+case 19:
             var1 = true;
             _closure1_slot9 = var1;
             var1 = undefined;
             return var1;
-case 19:
+case 18:
             var1 = false;
             return var1;
         }
@@ -354,10 +353,10 @@ case 19:
 case 0:
             var3 = _closure1_slot9;
             var1 = false;
-            if(var3) { _fun0009_ip = 21; continue _fun0009 }
-case 22:
-            return var1;
+            if(var3) { _fun0009_ip = 20; continue _fun0009 }
 case 21:
+            return var1;
+case 20:
             _closure1_slot9 = var1;
             var1 = undefined;
             return var1;

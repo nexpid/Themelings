@@ -44,6 +44,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5['SETTING'] = var7;
     var7 = 'setting_search_result';
     var5['SETTING_SEARCH_RESULT'] = var7;
+    var7 = 'setting_search_result_placeholder';
+    var5['SETTING_SEARCH_RESULT_PLACEHOLDER'] = var7;
     var10 = var2.Set;
     var7 = var6.ROUTE;
     var2 = new Array(3);

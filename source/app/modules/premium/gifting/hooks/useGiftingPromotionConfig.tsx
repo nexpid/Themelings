@@ -58,7 +58,7 @@ case 3:
                 var3 = var3[var2];
                 var2 = undefined;
                 var2 = var4.bind(var2)(var3);
-                var1 = var2.SEASONAL_GIFTING_CONFIG;
+                var1 = var2.SEASONAL_GIFTING_2025_CONFIG;
 case 2:
                 return var1;
             }

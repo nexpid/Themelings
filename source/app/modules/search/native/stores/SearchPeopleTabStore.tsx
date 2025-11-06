@@ -191,11 +191,12 @@ case 9:
                         var3 = 7;
                         var3 = var7[var3];
                         var6 = undefined;
-                        var4 = var4.bind(var6)(var3);
-                        var5 = _closure1_slot8;
-                        var3 = var5.getMutablePrivateChannels;
-                        var3 = var3.bind(var5)();
-                        var4 = var4.bind(var6)(var3);
+                        var5 = var4.bind(var6)(var3);
+                        var4 = var5.chain;
+                        var8 = _closure1_slot8;
+                        var3 = var8.getMutablePrivateChannels;
+                        var3 = var3.bind(var8)();
+                        var4 = var4.bind(var5)(var3);
                         var3 = var4.values;
                         var4 = var3.bind(var4)();
                         var3 = var4.filter;

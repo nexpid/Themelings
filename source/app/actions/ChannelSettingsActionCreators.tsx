@@ -508,34 +508,34 @@ case 42:
                     var7 = var7.bind(var8)(var10);
                     var2['url'] = var7;
                     var2 = var5.bind(var6)(var2);
-                    SaveGenerator(address=103);
-case 43:
+                    SaveGenerator(address=107);
+case 38:
                     return var2;
-case 44:
+case 43:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0004_ip = 45; continue _fun0004 }
-case 46:
+                    if(var5) { _fun0004_ip = 44; continue _fun0004 }
+case 45:
                     var6 = null;
                     var5 = var6 == var9;
                     var7 = undefined;
-                    if(var5) { _fun0004_ip = 47; continue _fun0004 }
-case 48:
+                    if(var5) { _fun0004_ip = 46; continue _fun0004 }
+case 47:
                     var5 = var9.getGuildId;
                     var7 = var5.bind(var9)();
-case 47:
+case 46:
                     var5 = var6 == var7;
-                    if(var5) { _fun0004_ip = 49; continue _fun0004 }
-case 50:
+                    if(var5) { _fun0004_ip = 48; continue _fun0004 }
+case 2:
                     var6 = var6 != var9;
-                    if(!var6) { _fun0004_ip = 51; continue _fun0004 }
-case 52:
+                    if(!var6) { _fun0004_ip = 49; continue _fun0004 }
+case 50:
                     var8 = var9.isThread;
                     var6 = var8.bind(var9)();
-case 51:
-                    var5 = var6;
 case 49:
-                    if(var5) { _fun0004_ip = 53; continue _fun0004 }
-case 54:
+                    var5 = var6;
+case 48:
+                    if(var5) { _fun0004_ip = 51; continue _fun0004 }
+case 52:
                     var6 = _closure1_slot1;
                     var8 = _closure1_slot2;
                     var5 = 8;
@@ -543,11 +543,11 @@ case 54:
                     var6 = var6.bind(var3)(var5);
                     var5 = var6.checkGuildTemplateDirty;
                     var5 = var5.bind(var6)(var7);
-case 53:
+case 51:
                     var4 = _closure1_slot9;
                     var4 = var4.bind(var3)();
                     return var3;
-case 45:
+case 44:
                     return var2;
 case 41:
                     return var1;

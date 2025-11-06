@@ -134,6 +134,7 @@ case 0:
             var _closure2_slot9 = var4;
             var _closure2_slot10 = var4;
             var _closure2_slot11 = var4;
+            var _closure2_slot12 = var4;
             var5 = _closure1_slot0;
             var7 = _closure1_slot2;
             var2 = 11;
@@ -421,8 +422,9 @@ case 19:
                 return var1;
             };
             var7 = var7.bind(var12)(var3, var5);
+            _closure2_slot12 = var7;
             var5 = var12.useMemo;
-            var3 = new Array(12);
+            var3 = new Array(13);
             var3[0] = var11;
             var3[1] = var21;
             var3[2] = var22;
@@ -437,6 +439,7 @@ case 19:
             var3[9] = var15;
             var3[10] = var13;
             var3[11] = var2;
+            var3[12] = var7;
             var1 = function() {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
@@ -554,10 +557,12 @@ case 21:
                     var10['message'] = var14;
                     var14 = _closure2_slot3;
                     var10['channel'] = var14;
-                    var13 = _closure2_slot2;
-                    var10['guild'] = var13;
-                    var13 = 'base';
-                    var10['backgroundVariant'] = var13;
+                    var14 = _closure2_slot2;
+                    var10['guild'] = var14;
+                    var14 = 'base';
+                    var10['backgroundVariant'] = var14;
+                    var13 = _closure2_slot12;
+                    var10['conversationProps'] = var13;
                     var9 = var12.bind(var1)(var11, var10);
 case 23:
                     var6['children'] = var9;

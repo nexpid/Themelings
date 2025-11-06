@@ -38,15 +38,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = arg1;
-            var10 = var2.message;
-            var3 = var2.source;
-            var9 = var2.initialSelectedDestinations;
+            var11 = var2.message;
+            var8 = var2.source;
+            var10 = var2.initialSelectedDestinations;
             var1 = undefined;
-            if(!(var9 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+            if(!(var10 === var1)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var9 = new Array(0);
+            var10 = new Array(0);
 case 2:
-            var8 = var2.forwardOptions;
+            var9 = var2.forwardOptions;
+            var3 = var2.customSendHandler;
             var4 = _closure1_slot0;
             var6 = _closure1_slot2;
             var2 = 2;
@@ -56,11 +57,11 @@ case 2:
             var2 = var2.bind(var7)();
             var2 = 3;
             var2 = var6[var2];
-            var12 = var4.bind(var1)(var2);
-            var11 = var12.trackForwardStart;
-            var7 = var10.channel_id;
-            var2 = var10.id;
-            var2 = var11.bind(var12)(var7, var2, var3);
+            var13 = var4.bind(var1)(var2);
+            var12 = var13.trackForwardStart;
+            var7 = var11.channel_id;
+            var2 = var11.id;
+            var2 = var12.bind(var13)(var7, var2, var8);
             var2 = 4;
             var2 = var6[var2];
             var4 = var4.bind(var1)(var2);
@@ -82,19 +83,20 @@ case 4:
             var6 = var4[var6];
             var7 = var7.bind(var1)(var6);
             var6 = var7.pushLazy;
-            var11 = _closure1_slot0;
+            var12 = _closure1_slot0;
             var5 = 8;
             var5 = var4[var5];
-            var11 = var11.bind(var1)(var5);
+            var12 = var12.bind(var1)(var5);
             var5 = 7;
             var5 = var4[var5];
             var4 = var4.paths;
-            var5 = var11.bind(var1)(var5, var4);
+            var5 = var12.bind(var1)(var5, var4);
             var4 = {};
-            var4['message'] = var10;
-            var4['initialSelectedDestinations'] = var9;
-            var4['forwardOptions'] = var8;
-            var4['source'] = var3;
+            var4['message'] = var11;
+            var4['initialSelectedDestinations'] = var10;
+            var4['forwardOptions'] = var9;
+            var4['source'] = var8;
+            var4['customSendHandler'] = var3;
             var3 = undefined;
             if(var2) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
@@ -103,12 +105,12 @@ case 7:
             var2['presentation'] = var8;
             var3 = var2;
 case 6:
-            var14 = 'forward-modal';
-            var17 = var7;
-            var16 = var5;
-            var15 = var4;
-            var13 = var3;
-            var2 = var17[var6](var16, var15, var14, var13, var12);
+            var15 = 'forward-modal';
+            var18 = var7;
+            var17 = var5;
+            var16 = var4;
+            var14 = var3;
+            var2 = var18[var6](var17, var16, var15, var14, var13);
             return var1;
         }
     };

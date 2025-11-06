@@ -5379,7 +5379,7 @@ case 115:
         return var1;
     };
     var3['useQuestHomeSortOptions'] = var4;
-    var2 = function useQuestHomeSortingFilteringAnalytics(arg1) {
+    var4 = function useQuestHomeSortingFilteringAnalytics(arg1) {
         var2 = arg1;
         var3 = var2.selectedSortMethod;
         var _closure2_slot0 = var3;
@@ -5468,6 +5468,41 @@ case 314:
         var1 = undefined;
         return var1;
     };
-    var3['useQuestHomeSortingFilteringAnalytics'] = var2;
+    var3['useQuestHomeSortingFilteringAnalytics'] = var4;
+    var2 = function(arg1) {
+        _fun0058: for(var _fun0058_ip = 0; ; ) switch(_fun0058_ip) {
+case 0:
+            var4 = _closure1_slot5;
+            var3 = var4.useMemo;
+            var2 = function() {
+                _fun0059: for(var _fun0059_ip = 0; ; ) switch(_fun0059_ip) {
+case 0:
+                    var2 = _closure1_slot10;
+                    var1 = var2.getCurrentUser;
+                    var3 = var1.bind(var2)();
+                    var1 = null;
+                    var1 = var1 == var3;
+                    var2 = undefined;
+                    if(var1) { _fun0059_ip = 169; continue _fun0059 }
+case 110:
+                    var1 = var3.isStaff;
+                    var2 = var1.bind(var3)();
+case 169:
+                    var1 = true;
+                    var1 = var1 === var2;
+                    return var1;
+                }
+            };
+            var1 = new Array(0);
+            var1 = var3.bind(var4)(var2, var1);
+            if(var1) { _fun0058_ip = 127; continue _fun0058 }
+case 113:
+            var2 = arg1;
+            var1 = var2.preview;
+case 127:
+            return var1;
+        }
+    };
+    var3['useShouldShowQuestBarOverride'] = var2;
     return var1;
 })();

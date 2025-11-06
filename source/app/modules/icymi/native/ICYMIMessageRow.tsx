@@ -1042,7 +1042,7 @@ case 60:
             _closure2_slot13 = var9;
             var13 = _closure1_slot3;
             var5 = var13.useMemo;
-            var3 = new Array(12);
+            var3 = new Array(13);
             var3[0] = var21;
             var3[1] = var11;
             var3[2] = var12;
@@ -1055,6 +1055,7 @@ case 60:
             var3[9] = var17;
             var3[10] = var16;
             var3[11] = var15;
+            var3[12] = var7;
             var1 = function() {
                 _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
@@ -1208,10 +1209,12 @@ case 65:
                     var11['message'] = var15;
                     var15 = _closure2_slot1;
                     var11['channel'] = var15;
-                    var14 = _closure2_slot2;
-                    var11['guild'] = var14;
-                    var14 = 'base';
-                    var11['backgroundVariant'] = var14;
+                    var15 = _closure2_slot2;
+                    var11['guild'] = var15;
+                    var15 = 'base';
+                    var11['backgroundVariant'] = var15;
+                    var14 = _closure2_slot12;
+                    var11['conversationProps'] = var14;
                     var10 = var13.bind(var1)(var12, var11);
 case 67:
                     var7['children'] = var10;

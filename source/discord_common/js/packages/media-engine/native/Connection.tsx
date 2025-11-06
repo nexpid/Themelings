@@ -5750,6 +5750,16 @@ case 330:
                 var35 = var34.params;
                 var35['fixed-rate-presentation-timestamps'] = var20;
 case 329:
+                var37 = var26.experimentFlags;
+                var36 = var37.has;
+                var35 = _closure1_slot11;
+                var35 = var35.LOW_LATENCY_RATE_CONTROL;
+                var35 = var36.bind(var37)(var35);
+                if(!var35) { _fun0067_ip = 331; continue _fun0067 }
+case 332:
+                var35 = var34.params;
+                var35['low-latency-rate-control'] = var20;
+case 331:
                 var35 = var34.params;
                 var35['hardware-h264'] = var1;
                 var29 = var34;
@@ -5797,7 +5807,7 @@ case 230:
                 var3 = var2.keyframeInterval;
                 var1 = var2.clipsKeyFrameInterval;
                 var1 = var4.bind(var5)(var3, var1);
-                _fun0069_ip = 331; continue _fun0069;
+                _fun0069_ip = 333; continue _fun0069;
 case 49:
                 var3 = global;
                 var5 = var3.Math;
@@ -5805,7 +5815,7 @@ case 49:
                 var3 = var2.keyframeInterval;
                 var2 = var2.clipsKeyFrameInterval;
                 var1 = var4.bind(var5)(var3, var2);
-case 331:
+case 333:
                 return var1;
             }
         };
@@ -5885,33 +5895,33 @@ case 0:
                 var5 = _closure1_slot26;
                 var5 = var5.VIDEO_EFFECTS;
                 var5 = var6.bind(var7)(var5);
-                if(!var5) { _fun0070_ip = 332; continue _fun0070 }
-case 333:
+                if(!var5) { _fun0070_ip = 334; continue _fun0070 }
+case 335:
                 var7 = var4.context;
                 var6 = _closure1_slot23;
                 var6 = var6.STREAM;
                 var5 = var7 === var6;
-case 332:
-                if(!var5) { _fun0070_ip = 334; continue _fun0070 }
-case 335:
-                var1['enableVideoEffects'] = var2;
 case 334:
+                if(!var5) { _fun0070_ip = 336; continue _fun0070 }
+case 337:
+                var1['enableVideoEffects'] = var2;
+case 336:
                 var7 = var4.experimentFlags;
                 var6 = var7.has;
                 var5 = _closure1_slot11;
                 var5 = var5.MUTE_BEFORE_PROCESSING;
                 var5 = var6.bind(var7)(var5);
-                if(!var5) { _fun0070_ip = 336; continue _fun0070 }
-case 337:
+                if(!var5) { _fun0070_ip = 338; continue _fun0070 }
+case 339:
                 var1['muteBeforeProcessing'] = var2;
-case 336:
+case 338:
                 var7 = var4.experimentFlags;
                 var6 = var7.has;
                 var5 = _closure1_slot11;
                 var5 = var5.PTT_BEFORE_PROCESSING;
                 var5 = var6.bind(var7)(var5);
                 if(!var5) { _fun0070_ip = 96; continue _fun0070 }
-case 338:
+case 340:
                 var1['pttBeforeProcessing'] = var2;
 case 96:
                 var5 = var4.experimentFlags;
@@ -5919,10 +5929,10 @@ case 96:
                 var3 = _closure1_slot11;
                 var3 = var3.SKIP_ENCODE;
                 var3 = var4.bind(var5)(var3);
-                if(!var3) { _fun0070_ip = 339; continue _fun0070 }
+                if(!var3) { _fun0070_ip = 341; continue _fun0070 }
 case 147:
                 var1['skipEncode'] = var2;
-case 339:
+case 341:
                 return var1;
             }
         };
@@ -5972,7 +5982,7 @@ case 3:
                 var5 = var1.conn;
                 var4 = var5.prepareSecureFramesTransition;
                 var1 = null;
-                if(!(var1 != var4)) { _fun0071_ip = 340; continue _fun0071 }
+                if(!(var1 != var4)) { _fun0071_ip = 342; continue _fun0071 }
 case 43:
                 var3 = var4.call;
                 var8 = arg2;
@@ -5981,7 +5991,7 @@ case 43:
                 var10 = var5;
                 var9 = var6;
                 var1 = var11[var3](var10, var9, var8, var7, var6);
-case 340:
+case 342:
                 var1 = undefined;
                 return var1;
             }
@@ -6024,10 +6034,10 @@ case 0:
                 var1 = this;
                 var2 = var1.lastExecutedTransitionId;
                 var3 = -1;
-                if(!(var3 !== var2)) { _fun0073_ip = 341; continue _fun0073 }
+                if(!(var3 !== var2)) { _fun0073_ip = 343; continue _fun0073 }
 case 230:
                 var2 = var1.lastPreparedTransitionId;
-                if(!(var3 !== var2)) { _fun0073_ip = 341; continue _fun0073 }
+                if(!(var3 !== var2)) { _fun0073_ip = 343; continue _fun0073 }
 case 59:
                 var3 = var1.lastPreparedTransitionId;
                 var2 = var1.lastExecutedTransitionId;
@@ -6051,7 +6061,7 @@ case 270:
 case 210:
                 var2 = var3;
 case 103:
-                if(var2) { _fun0073_ip = 341; continue _fun0073 }
+                if(var2) { _fun0073_ip = 343; continue _fun0073 }
 case 209:
                 var14 = var1.lastExecutedTransitionId;
                 var12 = var1.lastPreparedTransitionId;
@@ -6075,16 +6085,16 @@ case 209:
                 var2 = new var17[var2](var16, var15);
                 var2 = var2 instanceof Object ? var2 : var3;
                 throw var2;
-case 341:
+case 343:
                 var1['lastExecutedTransitionId'] = var4;
                 var3 = var1.conn;
                 var2 = var3.executeSecureFramesTransition;
                 var1 = null;
-                if(!(var1 != var2)) { _fun0073_ip = 342; continue _fun0073 }
-case 343:
+                if(!(var1 != var2)) { _fun0073_ip = 344; continue _fun0073 }
+case 345:
                 var1 = var2.call;
                 var1 = var1.bind(var2)(var3, var4);
-case 342:
+case 344:
                 var1 = undefined;
                 return var1;
             }
@@ -6444,11 +6454,11 @@ case 206:
                 var3 = var5.bind(var6)(var4, var3, var1);
                 var1 = null;
                 var4 = var1 == var3;
-                if(var4) { _fun0081_ip = 344; continue _fun0081 }
+                if(var4) { _fun0081_ip = 346; continue _fun0081 }
 case 213:
                 var2['conn'] = var3;
                 var1 = var2;
-case 344:
+case 346:
                 return var1;
             }
         };

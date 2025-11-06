@@ -358,7 +358,7 @@ case 2:
         return var1;
     };
     var3['setPendingAvatar'] = var4;
-    var4 = function setPendingAvatarDecoration(arg1) {
+    var4 = function setPendingCollectiblesItem(arg1) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
         var1 = 2;
@@ -367,31 +367,14 @@ case 2:
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
         var2 = {};
-        var5 = 'GUILD_IDENTITY_SETTINGS_SET_PENDING_AVATAR_DECORATION';
+        var5 = 'GUILD_IDENTITY_SETTINGS_SET_PENDING_COLLECTIBLES_ITEM';
         var2['type'] = var5;
         var5 = arg1;
-        var2['avatarDecoration'] = var5;
+        var2['item'] = var5;
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var3['setPendingAvatarDecoration'] = var4;
-    var4 = function setPendingProfileEffect(arg1) {
-        var3 = _closure1_slot1;
-        var2 = _closure1_slot2;
-        var1 = 2;
-        var2 = var2[var1];
-        var1 = undefined;
-        var4 = var3.bind(var1)(var2);
-        var3 = var4.dispatch;
-        var2 = {};
-        var5 = 'GUILD_IDENTITY_SETTINGS_SET_PENDING_PROFILE_EFFECT';
-        var2['type'] = var5;
-        var5 = arg1;
-        var2['profileEffect'] = var5;
-        var2 = var3.bind(var4)(var2);
-        return var1;
-    };
-    var3['setPendingProfileEffect'] = var4;
+    var3['setPendingCollectiblesItem'] = var4;
     var4 = function setPendingBanner(arg1) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
@@ -477,23 +460,6 @@ case 2:
         return var1;
     };
     var3['setPendingThemeColors'] = var4;
-    var4 = function setGuildMemberPendingNameplate(arg1) {
-        var3 = _closure1_slot1;
-        var2 = _closure1_slot2;
-        var1 = 2;
-        var2 = var2[var1];
-        var1 = undefined;
-        var4 = var3.bind(var1)(var2);
-        var3 = var4.dispatch;
-        var2 = {};
-        var5 = 'GUILD_IDENTITY_SETTINGS_SET_PENDING_NAMEPLATE';
-        var2['type'] = var5;
-        var5 = arg1;
-        var2['nameplate'] = var5;
-        var2 = var3.bind(var4)(var2);
-        return var1;
-    };
-    var3['setGuildMemberPendingNameplate'] = var4;
     var4 = function setGuildMemberPendingDisplayNameStyles(arg1) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;

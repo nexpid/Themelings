@@ -398,7 +398,7 @@ case 44:
         var2 = var3[var2];
         var3 = undefined;
         var5 = var4.bind(var3)(var2);
-        var4 = var5.getIsSearchDesktopXDMGlobalSettingSupported;
+        var4 = var5.getIsSearchDesktopXDMExperimentEnabled;
         var2 = {};
         var6 = 'getSearchHistoryStateId';
         var2['location'] = var6;

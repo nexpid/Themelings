@@ -973,7 +973,7 @@ case 126:
             }
         };
         var3['toCombo'] = var4;
-        var2 = function toString(arg1) {
+        var4 = function toString(arg1) {
             _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
                 var4 = arg1;
@@ -1144,7 +1144,107 @@ case 140:
                 return var1;
             }
         };
-        var3['toString'] = var2;
+        var3['toString'] = var4;
+        var2 = function areKeyCombosEqual(arg1, arg2) {
+            _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
+case 0:
+                var4 = arg1;
+                var1 = arg2;
+                var3 = arguments[2];
+                var _closure2_slot0 = var1;
+                var5 = undefined;
+                if(!(var3 === var5)) { _fun0016_ip = 105; continue _fun0016 }
+case 149:
+                var3 = false;
+case 105:
+                var _closure2_slot1 = var3;
+                var3 = var4.length;
+                var1 = var1.length;
+                var1 = var3 === var1;
+                if(!var1) { _fun0016_ip = 27; continue _fun0016 }
+case 150:
+                var3 = var4.every;
+                var2 = function(arg1, arg2) {
+                    _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
+case 0:
+                        var3 = arg1;
+                        var1 = var3[Symbol.iterator];
+                        var3 = var1().next;
+                        var4 = var3().value;
+                        var2 = var1;
+                        var8 = undefined;
+                        var2 = var2 === var8;
+                        var7 = undefined;
+                        if(var2) { _fun0017_ip = 129; continue _fun0017 }
+case 130:
+                        var7 = var4;
+case 129:
+                        var6 = undefined;
+                        if(var2) { _fun0017_ip = 131; continue _fun0017 }
+case 132:
+                        var5 = var3().value;
+                        var4 = var1;
+                        var4 = var4 === var8;
+                        var6 = undefined;
+                        var2 = var4;
+                        if(var4) { _fun0017_ip = 131; continue _fun0017 }
+case 112:
+                        var6 = var5;
+                        var2 = var4;
+case 131:
+                        var4 = undefined;
+                        if(var2) { _fun0017_ip = 114; continue _fun0017 }
+case 27:
+                        var5 = var3().value;
+                        var3 = var1;
+                        var3 = var3 === var8;
+                        var4 = undefined;
+                        var2 = var3;
+                        if(var3) { _fun0017_ip = 114; continue _fun0017 }
+case 6:
+                        var4 = var5;
+                        var2 = var3;
+case 114:
+                        if(var2) { _fun0017_ip = 28; continue _fun0017 }
+case 30:
+                        var1.return();
+case 28:
+                        var5 = _closure1_slot4;
+                        var3 = _closure2_slot0;
+                        var1 = arg2;
+                        var3 = var3[var1];
+                        var1 = 3;
+                        var8 = var5.bind(var8)(var3, var1);
+                        var1 = 0;
+                        var1 = var8[var1];
+                        var3 = 1;
+                        var5 = var8[var3];
+                        var3 = 2;
+                        var3 = var8[var3];
+                        var1 = var7 === var1;
+                        if(!var1) { _fun0017_ip = 117; continue _fun0017 }
+case 151:
+                        var1 = var6 === var5;
+case 117:
+                        if(!var1) { _fun0017_ip = 39; continue _fun0017 }
+case 152:
+                        var2 = _closure2_slot1;
+                        var2 = !var2;
+                        if(var2) { _fun0017_ip = 153; continue _fun0017 }
+case 154:
+                        var2 = var4 === var3;
+case 153:
+                        var1 = var2;
+case 39:
+                        return var1;
+                    }
+                };
+                var1 = var3.bind(var4)(var2);
+case 27:
+                return var1;
+            }
+        };
+        var3['areKeyCombosEqual'] = var2;
         return var1;
     }
 })();

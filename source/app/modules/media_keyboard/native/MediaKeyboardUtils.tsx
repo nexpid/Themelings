@@ -1149,7 +1149,7 @@ case 117:
         }
     };
     var _closure1_slot29 = var7;
-    var6 = function handleSelectKeyboardItem(arg1, arg2, arg3, arg4) {
+    var5 = function handleSelectKeyboardItem(arg1, arg2, arg3, arg4) {
         _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
 case 0:
             var5 = arg1;
@@ -1216,8 +1216,8 @@ case 119:
             return var1;
         }
     };
-    var _closure1_slot30 = var6;
-    var4 = function getMediaKeyboardDraftType(arg1) {
+    var _closure1_slot30 = var5;
+    var2 = function getMediaKeyboardDraftType(arg1) {
         _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
 case 0:
             var3 = arg1;
@@ -1257,82 +1257,82 @@ case 83:
             return var1;
         }
     };
-    var _closure1_slot31 = var4;
+    var _closure1_slot31 = var2;
     var1 = global;
     var16 = var1.Object;
     var15 = var16.defineProperty;
-    var5 = {};
+    var4 = {};
     var1 = true;
-    var5['value'] = var1;
+    var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var15.bind(var16)(var3, var1, var5);
+    var1 = var15.bind(var16)(var3, var1, var4);
     var1 = 0;
-    var5 = var14[var1];
+    var4 = var14[var1];
     var1 = undefined;
-    var5 = var12.bind(var1)(var5);
-    var _closure1_slot3 = var5;
-    var5 = 1;
-    var5 = var14[var5];
-    var5 = var13.bind(var1)(var5);
-    var5 = var5.Platform;
-    var _closure1_slot4 = var5;
-    var5 = 2;
-    var5 = var14[var5];
-    var5 = var12.bind(var1)(var5);
-    var _closure1_slot5 = var5;
-    var5 = 3;
-    var5 = var14[var5];
-    var5 = var12.bind(var1)(var5);
-    var _closure1_slot6 = var5;
-    var5 = 4;
-    var5 = var14[var5];
-    var5 = var13.bind(var1)(var5);
-    var5 = var5.DraftType;
-    var _closure1_slot7 = var5;
-    var5 = 5;
-    var5 = var14[var5];
-    var5 = var12.bind(var1)(var5);
-    var _closure1_slot8 = var5;
-    var5 = 6;
-    var5 = var14[var5];
-    var5 = var12.bind(var1)(var5);
-    var _closure1_slot9 = var5;
-    var5 = 7;
-    var5 = var14[var5];
-    var5 = var13.bind(var1)(var5);
-    var12 = var5.MediaKeyboardTarget;
+    var4 = var12.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var14[var4];
+    var4 = var13.bind(var1)(var4);
+    var4 = var4.Platform;
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var14[var4];
+    var4 = var12.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var14[var4];
+    var4 = var12.bind(var1)(var4);
+    var _closure1_slot6 = var4;
+    var4 = 4;
+    var4 = var14[var4];
+    var4 = var13.bind(var1)(var4);
+    var4 = var4.DraftType;
+    var _closure1_slot7 = var4;
+    var4 = 5;
+    var4 = var14[var4];
+    var4 = var12.bind(var1)(var4);
+    var _closure1_slot8 = var4;
+    var4 = 6;
+    var4 = var14[var4];
+    var4 = var12.bind(var1)(var4);
+    var _closure1_slot9 = var4;
+    var4 = 7;
+    var4 = var14[var4];
+    var4 = var13.bind(var1)(var4);
+    var12 = var4.MediaKeyboardTarget;
     var _closure1_slot10 = var12;
-    var5 = var5.InAppCameraUsedViews;
-    var _closure1_slot11 = var5;
-    var5 = 8;
-    var5 = var14[var5];
-    var5 = var13.bind(var1)(var5);
-    var12 = var5.AnalyticEvents;
+    var4 = var4.InAppCameraUsedViews;
+    var _closure1_slot11 = var4;
+    var4 = 8;
+    var4 = var14[var4];
+    var4 = var13.bind(var1)(var4);
+    var12 = var4.AnalyticEvents;
     var _closure1_slot12 = var12;
-    var12 = var5.AnalyticsObjects;
+    var12 = var4.AnalyticsObjects;
     var _closure1_slot13 = var12;
-    var12 = var5.AnalyticsObjectTypes;
+    var12 = var4.AnalyticsObjectTypes;
     var _closure1_slot14 = var12;
-    var12 = var5.AnalyticsPages;
+    var12 = var4.AnalyticsPages;
     var _closure1_slot15 = var12;
-    var12 = var5.AnalyticsSections;
+    var12 = var4.AnalyticsSections;
     var _closure1_slot16 = var12;
-    var12 = var5.ChatInputComponentViewedTypes;
+    var12 = var4.ChatInputComponentViewedTypes;
     var _closure1_slot17 = var12;
-    var12 = var5.ComponentActions;
+    var12 = var4.ComponentActions;
     var _closure1_slot18 = var12;
-    var5 = var5.MAX_UPLOAD_COUNT;
-    var _closure1_slot19 = var5;
-    var5 = 9;
-    var5 = var14[var5];
-    var5 = var13.bind(var1)(var5);
-    var5 = var5.NativePermissionTypes;
-    var _closure1_slot20 = var5;
-    var5 = {};
+    var4 = var4.MAX_UPLOAD_COUNT;
+    var _closure1_slot19 = var4;
+    var4 = 9;
+    var4 = var14[var4];
+    var4 = var13.bind(var1)(var4);
+    var4 = var4.NativePermissionTypes;
+    var _closure1_slot20 = var4;
+    var4 = {};
     var12 = 'function animatedIndexThreshold_MediaKeyboardUtilsTsx1(animatedSnapPoints,thresholdPercent){return animatedSnapPoints.get().length===1?thresholdPercent-1:thresholdPercent*(animatedSnapPoints.get().length-1);}';
-    var5['code'] = var12;
-    var _closure1_slot21 = var5;
-    var5 = function() {
+    var4['code'] = var12;
+    var _closure1_slot21 = var4;
+    var4 = function() {
         var1 = function animatedIndexThreshold(arg1, arg2) {
             _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
 case 0:
@@ -1364,8 +1364,8 @@ case 4:
         var1['__initData'] = var2;
         return var1;
     };
-    var5 = var5.bind(var1)();
-    var12 = 26;
+    var4 = var4.bind(var1)();
+    var12 = 25;
     var12 = var14[var12];
     var14 = var13.bind(var1)(var12);
     var13 = var14.fileFinishedImporting;
@@ -1631,8 +1631,8 @@ case 137:
     var3['handleSelectThread'] = var9;
     var3['handleAttachFile'] = var8;
     var3['mediaNodeToUploadItem'] = var7;
-    var3['handleSelectKeyboardItem'] = var6;
-    var6 = function showSimpleMediaKeyboard(arg1) {
+    var3['handleSelectKeyboardItem'] = var5;
+    var5 = function showSimpleMediaKeyboard(arg1) {
         var11 = arg1;
         var _closure2_slot0 = var11;
         var3 = _closure1_slot31;
@@ -1793,28 +1793,9 @@ case 137:
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var _closure1_slot32 = var6;
-    var3['showSimpleMediaKeyboard'] = var6;
-    var3['animatedIndexThreshold'] = var5;
-    var3['getMediaKeyboardDraftType'] = var4;
-    var2 = function useNumMediaItemsPerRow() {
-        _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
-case 0:
-            var3 = _closure1_slot1;
-            var2 = _closure1_slot2;
-            var1 = 25;
-            var1 = var2[var1];
-            var2 = undefined;
-            var1 = var3.bind(var2)(var1);
-            var2 = var1.bind(var2)();
-            var1 = 3;
-            if(!var2) { _fun0021_ip = 141; continue _fun0021 }
-case 49:
-            var1 = 6;
-case 141:
-            return var1;
-        }
-    };
-    var3['useNumMediaItemsPerRow'] = var2;
+    var _closure1_slot32 = var5;
+    var3['showSimpleMediaKeyboard'] = var5;
+    var3['animatedIndexThreshold'] = var4;
+    var3['getMediaKeyboardDraftType'] = var2;
     return var1;
 })();

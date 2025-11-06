@@ -448,6 +448,7 @@ case 0:
                 var16 = var1.compact;
                 var1 = var1.item;
                 var12 = var1.mention;
+                var14 = var1.section;
                 var4 = _closure1_slot13;
                 var3 = _closure1_slot11;
                 var2 = {};
@@ -459,27 +460,44 @@ case 0:
                 var2['onPressIn'] = var1;
                 var1 = var7.handlePressOut;
                 var2['onPressOut'] = var1;
+                var9 = global;
+                var1 = var9.HermesInternal;
+                var5 = var1.concat;
+                var1 = 'unread-bar-touchable-';
+                var11 = '-';
+                var1 = var5.bind(var1)(var12, var11, var14);
+                var2['testID'] = var1;
                 var1 = _closure1_slot10;
                 var6 = var1.View;
                 var5 = {};
                 var1 = var7.getAnimatedStyle;
                 var1 = var1.bind(var7)();
                 var5['style'] = var1;
+                var1 = var9.HermesInternal;
+                var7 = var1.concat;
+                var1 = 'unread-bar-animated-view-';
+                var1 = var7.bind(var1)(var12, var11, var14);
+                var5['nativeID'] = var1;
                 var8 = _closure1_slot9;
                 var7 = {};
                 var1 = _closure1_slot15;
                 var1 = var1.unread;
-                var9 = new Array(2);
-                var9[0] = var1;
+                var10 = new Array(2);
+                var10[0] = var1;
                 var1 = undefined;
-                var10 = undefined;
+                var15 = undefined;
                 if(!var12) { _fun0004_ip = 28; continue _fun0004 }
 case 29:
-                var11 = _closure1_slot15;
-                var10 = var11.mention;
+                var17 = _closure1_slot15;
+                var15 = var17.mention;
 case 28:
-                var9[1] = var10;
-                var7['style'] = var9;
+                var10[1] = var15;
+                var7['style'] = var10;
+                var9 = var9.HermesInternal;
+                var10 = var9.concat;
+                var9 = 'unread-bar-view-';
+                var9 = var10.bind(var9)(var12, var11, var14);
+                var7['nativeID'] = var9;
                 var11 = _closure1_slot13;
                 var10 = _closure1_slot0;
                 var14 = _closure1_slot2;
@@ -505,20 +523,20 @@ case 28:
                 var13 = var13.t;
                 if(var16) { _fun0004_ip = 30; continue _fun0004 }
 case 31:
-                if(var12) { _fun0004_ip = 21; continue _fun0004 }
-case 32:
+                if(var12) { _fun0004_ip = 32; continue _fun0004 }
+case 33:
                 var12 = var13.FCRiT3;
                 var12 = var14.bind(var15)(var12);
-                _fun0004_ip = 33; continue _fun0004;
-case 21:
+                _fun0004_ip = 34; continue _fun0004;
+case 32:
                 var16 = var13.8zH0LJ;
                 var12 = var14.bind(var15)(var16);
-case 33:
-                _fun0004_ip = 34; continue _fun0004;
+case 34:
+                _fun0004_ip = 35; continue _fun0004;
 case 30:
                 var13 = var13.y2b7CA;
                 var12 = var14.bind(var15)(var13);
-case 34:
+case 35:
                 var9['children'] = var12;
                 var9 = var11.bind(var1)(var10, var9);
                 var7['children'] = var9;
@@ -557,15 +575,15 @@ case 0:
             var13 = var2.afterItem;
             var14 = var2.compact;
             var4 = undefined;
-            if(!(var14 === var4)) { _fun0005_ip = 35; continue _fun0005 }
-case 36:
-            var14 = false;
-case 35:
-            var11 = var2.contentInset;
-            if(!(var11 === var4)) { _fun0005_ip = 37; continue _fun0005 }
-case 38:
-            var11 = {'top': 0, 'left': 0, 'right': 0, 'bottom': 0};
+            if(!(var14 === var4)) { _fun0005_ip = 36; continue _fun0005 }
 case 37:
+            var14 = false;
+case 36:
+            var11 = var2.contentInset;
+            if(!(var11 === var4)) { _fun0005_ip = 38; continue _fun0005 }
+case 39:
+            var11 = {'top': 0, 'left': 0, 'right': 0, 'bottom': 0};
+case 38:
             var12 = function handlePress(arg1) {
                 var1 = arg1;
                 var4 = var1.section;
@@ -607,8 +625,8 @@ case 37:
             var6 = null;
             var10 = var6 != var5;
             var9 = null;
-            if(!var10) { _fun0005_ip = 39; continue _fun0005 }
-case 40:
+            if(!var10) { _fun0005_ip = 40; continue _fun0005 }
+case 41:
             var16 = _closure1_slot13;
             var15 = _closure1_slot16;
             var10 = {};
@@ -619,13 +637,13 @@ case 40:
             var10['useReducedMotion'] = var7;
             var5 = 'BEFORE';
             var9 = var16.bind(var4)(var15, var10, var5);
-case 39:
+case 40:
             var5 = new Array(2);
             var5[0] = var9;
             var9 = var6 != var13;
             var6 = null;
-            if(!var9) { _fun0005_ip = 41; continue _fun0005 }
-case 42:
+            if(!var9) { _fun0005_ip = 42; continue _fun0005 }
+case 43:
             var10 = _closure1_slot13;
             var9 = _closure1_slot16;
             var8 = {};
@@ -638,7 +656,7 @@ case 42:
             var8['useReducedMotion'] = var7;
             var7 = 'AFTER';
             var6 = var10.bind(var4)(var9, var8, var7);
-case 41:
+case 42:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

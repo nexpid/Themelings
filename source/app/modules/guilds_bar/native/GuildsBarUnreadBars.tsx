@@ -1093,10 +1093,8 @@ case 28:
         var7 = var7.bind(var11)(var2, var3);
         var3 = _closure1_slot14;
         var2 = _closure1_slot5;
-        var1 = {};
+        var1 = {'style': null, 'collapsable': false, 'pointerEvents': 'box-none', 'testID': 'guilds-bar-unread-bars'};
         var1['style'] = var5;
-        var5 = 'box-none';
-        var1['pointerEvents'] = var5;
         var5 = 17;
         var5 = var10[var5];
         var6 = var6.bind(var4)(var5);

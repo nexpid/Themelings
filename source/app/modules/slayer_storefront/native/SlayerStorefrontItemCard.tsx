@@ -66,12 +66,13 @@ case 0:
             var3 = arg1;
             var1 = var3.sku;
             var _closure2_slot0 = var1;
-            var10 = var3.size;
+            var13 = var3.size;
             var5 = undefined;
-            if(!(var10 === var5)) { _fun0001_ip = 2; continue _fun0001 }
+            if(!(var13 === var5)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var10 = 220;
+            var13 = 220;
 case 2:
+            var8 = var3.containerStyle;
             var _closure2_slot1 = var5;
             var3 = _closure1_slot7;
             var12 = var3.bind(var5)();
@@ -115,19 +116,19 @@ case 2:
             var7 = var4.bind(var5)(var3);
             var4 = var7.useDominantColorFromImage;
             var6 = null;
-            var8 = var6 == var15;
+            var9 = var6 == var15;
             var3 = undefined;
-            if(var8) { _fun0001_ip = 4; continue _fun0001 }
+            if(var9) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var8 = var15.toString;
-            var3 = var8.bind(var15)();
+            var9 = var15.toString;
+            var3 = var9.bind(var15)();
 case 4:
-            var8 = var4.bind(var7)(var3);
-            _closure2_slot1 = var8;
+            var9 = var4.bind(var7)(var3);
+            _closure2_slot1 = var9;
             var7 = _closure1_slot3;
             var4 = var7.useMemo;
             var3 = new Array(1);
-            var3[0] = var8;
+            var3[0] = var9;
             var2 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -203,22 +204,23 @@ case 11:
             var4 = _closure1_slot6;
             var3 = _closure1_slot5;
             var2 = {};
-            var8 = var12.cardContainer;
-            var7 = new Array(2);
-            var7[0] = var8;
-            var8 = {};
-            var8['width'] = var10;
-            var8['height'] = var10;
-            var7[1] = var8;
+            var11 = var12.cardContainer;
+            var7 = new Array(3);
+            var7[0] = var11;
+            var11 = {};
+            var11['width'] = var13;
+            var11['height'] = var13;
+            var7[1] = var11;
+            var7[2] = var8;
             var2['style'] = var7;
             if(!(var6 == var14)) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
             var8 = _closure1_slot6;
-            var10 = _closure1_slot1;
-            var11 = _closure1_slot2;
+            var11 = _closure1_slot1;
+            var13 = _closure1_slot2;
             var6 = 9;
-            var6 = var11[var6];
-            var7 = var10.bind(var5)(var6);
+            var6 = var13[var6];
+            var7 = var11.bind(var5)(var6);
             var6 = {};
             var6['colors'] = var9;
             var9 = {'x': 0, 'y': 0};
@@ -228,17 +230,17 @@ case 13:
             var9 = var12.cardImageBackground;
             var6['style'] = var9;
             var9 = 8;
-            var9 = var11[var9];
-            var10 = var10.bind(var5)(var9);
+            var9 = var13[var9];
+            var11 = var11.bind(var5)(var9);
             var9 = {};
-            var11 = {};
+            var13 = {};
             var16 = var15.toString;
             var16 = var16.bind(var15)();
-            var11['uri'] = var16;
-            var9['source'] = var11;
-            var11 = var12.cardImage;
-            var9['style'] = var11;
-            var9 = var8.bind(var5)(var10, var9);
+            var13['uri'] = var16;
+            var9['source'] = var13;
+            var13 = var12.cardImage;
+            var9['style'] = var13;
+            var9 = var8.bind(var5)(var11, var9);
             var6['children'] = var9;
             var6 = var8.bind(var5)(var7, var6);
             _fun0001_ip = 14; continue _fun0001;
@@ -246,23 +248,15 @@ case 12:
             var9 = _closure1_slot6;
             var8 = _closure1_slot4;
             var7 = {};
-            var10 = {};
-            var11 = var14.toString;
-            var11 = var11.bind(var14)();
-            var10['uri'] = var11;
-            var7['source'] = var10;
-            var10 = var12.cardImageBackground;
-            var7['style'] = var10;
-            var10 = {};
+            var11 = {};
+            var13 = var14.toString;
+            var13 = var13.bind(var14)();
+            var11['uri'] = var13;
+            var7['source'] = var11;
+            var11 = var12.cardImageBackground;
+            var7['style'] = var11;
             var11 = _closure1_slot1;
             var13 = _closure1_slot2;
-            var14 = 4;
-            var14 = var13[var14];
-            var14 = var11.bind(var5)(var14);
-            var14 = var14.radii;
-            var14 = var14.md;
-            var10['borderRadius'] = var14;
-            var7['imageStyle'] = var10;
             var10 = 8;
             var10 = var13[var10];
             var11 = var11.bind(var5)(var10);

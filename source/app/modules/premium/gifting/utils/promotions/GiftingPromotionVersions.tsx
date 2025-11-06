@@ -10,6 +10,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = '__esModule';
     var1 = var5.bind(var6)(var3, var1, var4);
     var1 = {};
+    var5 = 3;
+    var1['SUMMER_2025'] = var5;
+    var4 = 'SUMMER_2025';
+    var1[var5] = var4;
     var5 = 4;
     var1['NITROWEEN_2025'] = var5;
     var4 = 'NITROWEEN_2025';
@@ -30,7 +34,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function getGiftingPromotionDismissibleContentVersion() {
         var1 = _closure1_slot0;
-        var1 = var1.NITROWEEN_2025;
+        var1 = var1.SEASONAL_GIFTING_2025;
         return var1;
     };
     var3['getGiftingPromotionDismissibleContentVersion'] = var2;
