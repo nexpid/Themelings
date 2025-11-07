@@ -335,20 +335,30 @@ case 4:
     };
     var5['heading'] = var9;
     var9 = function subheading() {
-        var5 = _closure1_slot0;
-        var6 = _closure1_slot2;
-        var1 = 3;
-        var2 = var6[var1];
-        var4 = undefined;
-        var2 = var5.bind(var4)(var2);
-        var3 = var2.intl;
-        var2 = var3.string;
-        var1 = var6[var1];
-        var1 = var5.bind(var4)(var1);
-        var1 = var1.t;
-        var1 = var1.vPeaOS;
-        var1 = var2.bind(var3)(var1);
-        return var1;
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+            var5 = arguments[0];
+            var6 = undefined;
+            if(!(var5 === var6)) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
+            var5 = 0;
+case 5:
+            var2 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var1 = 3;
+            var3 = var7[var1];
+            var3 = var2.bind(var6)(var3);
+            var4 = var3.intl;
+            var3 = var4.formatToPlainString;
+            var1 = var7[var1];
+            var1 = var2.bind(var6)(var1);
+            var1 = var1.t;
+            var2 = var1.2h5M+X;
+            var1 = {};
+            var1['availableCount'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
+        }
     };
     var5['subheading'] = var9;
     var9 = function mobileSubheading(arg1) {
@@ -373,16 +383,16 @@ case 4:
     var5['mobileSubheading'] = var9;
     var5['gradientConfig'] = var4;
     var9 = function getImageUrl(arg1, arg2) {
-        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
             var1 = arg2;
-            if(var1) { _fun0002_ip = 2; continue _fun0002 }
+            if(var1) { _fun0003_ip = 2; continue _fun0003 }
 case 3:
             var1 = 12;
             var2 = var4[var1];
-            _fun0002_ip = 4; continue _fun0002;
+            _fun0003_ip = 4; continue _fun0003;
 case 2:
             var1 = 11;
             var2 = var4[var1];
@@ -467,16 +477,16 @@ case 4:
     var2['planSelectionBanner'] = var5;
     var5 = {};
     var9 = function getImageUrl(arg1) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
             var1 = arg1;
-            if(var1) { _fun0003_ip = 2; continue _fun0003 }
+            if(var1) { _fun0004_ip = 2; continue _fun0004 }
 case 3:
             var1 = 12;
             var2 = var4[var1];
-            _fun0003_ip = 4; continue _fun0003;
+            _fun0004_ip = 4; continue _fun0004;
 case 2:
             var1 = 11;
             var2 = var4[var1];

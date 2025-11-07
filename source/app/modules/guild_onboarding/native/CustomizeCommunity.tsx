@@ -459,6 +459,10 @@ case 18:
                 var2 = {};
                 var1 = arg1;
                 var2['connection'] = var1;
+                var1 = _closure2_slot0;
+                var2['guildId'] = var1;
+                var1 = 'channels-and-roles';
+                var2['location'] = var1;
                 var1 = arg2;
                 var1 = var5.bind(var4)(var3, var2, var1);
                 return var1;

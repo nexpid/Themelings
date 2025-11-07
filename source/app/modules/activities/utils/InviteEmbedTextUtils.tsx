@@ -206,7 +206,7 @@ case 18:
     var7 = var8.fileFinishedImporting;
     var6 = 'modules/activities/utils/InviteEmbedTextUtils.tsx';
     var6 = var7.bind(var8)(var6);
-    var6 = function getHeaderText(arg1, arg2) {
+    var6 = function getHeaderText(arg1, arg2, arg3) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var5 = arg1;
@@ -260,19 +260,24 @@ case 25:
             var2 = var3.bind(var4)(var2);
             return var2;
 case 23:
+            var8 = undefined;
+            var3 = arg3;
+            var2 = undefined;
+            if(var3) { _fun0003_ip = 27; continue _fun0003 }
+case 28:
             var7 = _closure1_slot0;
-            var8 = _closure1_slot2;
-            var2 = 2;
-            var3 = var8[var2];
-            var6 = undefined;
-            var3 = var7.bind(var6)(var3);
-            var4 = var3.intl;
-            var3 = var4.string;
-            var2 = var8[var2];
-            var2 = var7.bind(var6)(var2);
-            var2 = var2.t;
-            var2 = var2.pkq6Vq;
-            var2 = var3.bind(var4)(var2);
+            var9 = _closure1_slot2;
+            var3 = 2;
+            var4 = var9[var3];
+            var4 = var7.bind(var8)(var4);
+            var6 = var4.intl;
+            var4 = var6.string;
+            var3 = var9[var3];
+            var3 = var7.bind(var8)(var3);
+            var3 = var3.t;
+            var3 = var3.pkq6Vq;
+            var2 = var4.bind(var6)(var3);
+case 27:
             return var2;
 case 21:
             var7 = _closure1_slot0;
@@ -325,25 +330,25 @@ case 0:
             var5 = undefined;
             var7 = undefined;
             if(var2) { _fun0004_ip = 6; continue _fun0004 }
-case 27:
+case 29:
             var7 = var1.type;
 case 6:
             var2 = _closure1_slot4;
             var2 = var2.LISTEN;
-            if(!(var2 !== var7)) { _fun0004_ip = 28; continue _fun0004 }
-case 29:
-            var2 = _closure1_slot4;
-            var2 = var2.WATCH;
-            if(!(var2 !== var7)) { _fun0004_ip = 28; continue _fun0004 }
-case 30:
-            var2 = _closure1_slot4;
-            var2 = var2.JOIN;
-            if(!(var2 !== var7)) { _fun0004_ip = 28; continue _fun0004 }
+            if(!(var2 !== var7)) { _fun0004_ip = 30; continue _fun0004 }
 case 31:
             var2 = _closure1_slot4;
-            var2 = var2.STREAM_REQUEST;
-            if(!(var2 !== var7)) { _fun0004_ip = 32; continue _fun0004 }
+            var2 = var2.WATCH;
+            if(!(var2 !== var7)) { _fun0004_ip = 30; continue _fun0004 }
+case 32:
+            var2 = _closure1_slot4;
+            var2 = var2.JOIN;
+            if(!(var2 !== var7)) { _fun0004_ip = 30; continue _fun0004 }
 case 33:
+            var2 = _closure1_slot4;
+            var2 = var2.STREAM_REQUEST;
+            if(!(var2 !== var7)) { _fun0004_ip = 34; continue _fun0004 }
+case 35:
             var2 = _closure1_slot4;
             var2 = var2.JOIN_REQUEST;
             var8 = _closure1_slot6;
@@ -355,11 +360,11 @@ case 33:
             var10 = var3;
             var2 = var14[var8](var13, var12, var11, var10, var9, var8);
             return var2;
-case 32:
+case 34:
             var2 = _closure1_slot5;
             var2 = var2.bind(var5)(var6, var4, var3);
             return var2;
-case 28:
+case 30:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
             var6 = 2;
@@ -373,13 +378,13 @@ case 28:
             var1 = var4.bind(var5)(var1);
             var4 = var1.t;
             var1 = arg5;
-            if(var1) { _fun0004_ip = 34; continue _fun0004 }
-case 35:
+            if(var1) { _fun0004_ip = 36; continue _fun0004 }
+case 37:
             var1 = var4.Ek+51n;
-            _fun0004_ip = 36; continue _fun0004;
-case 34:
-            var1 = var4.x1UXGR;
+            _fun0004_ip = 38; continue _fun0004;
 case 36:
+            var1 = var4.x1UXGR;
+case 38:
             var1 = var2.bind(var3)(var1);
             return var1;
         }
@@ -395,15 +400,15 @@ case 0:
             var1 = _closure1_slot4;
             var2 = var1.STREAM_REQUEST;
             var1 = '';
-            if(!(var3 !== var2)) { _fun0005_ip = 37; continue _fun0005 }
-case 38:
-            var2 = _closure1_slot4;
-            var2 = var2.LISTEN;
             if(!(var3 !== var2)) { _fun0005_ip = 39; continue _fun0005 }
 case 40:
-            var2 = 0;
-            if(!(!(var8 > var2))) { _fun0005_ip = 41; continue _fun0005 }
+            var2 = _closure1_slot4;
+            var2 = var2.LISTEN;
+            if(!(var3 !== var2)) { _fun0005_ip = 41; continue _fun0005 }
 case 42:
+            var2 = 0;
+            if(!(!(var8 > var2))) { _fun0005_ip = 43; continue _fun0005 }
+case 44:
             var7 = _closure1_slot0;
             var10 = _closure1_slot2;
             var2 = 2;
@@ -419,8 +424,8 @@ case 42:
             var2 = {};
             var2['partySize'] = var9;
             var2 = var5.bind(var6)(var3, var2);
-            _fun0005_ip = 34; continue _fun0005;
-case 41:
+            _fun0005_ip = 36; continue _fun0005;
+case 43:
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
             var3 = 2;
@@ -437,11 +442,11 @@ case 41:
             var3['partySize'] = var9;
             var3['maxPartySize'] = var8;
             var2 = var6.bind(var7)(var5, var3);
-case 34:
-            _fun0005_ip = 43; continue _fun0005;
-case 39:
+case 36:
+            _fun0005_ip = 45; continue _fun0005;
+case 41:
             var3 = 0;
-            if(!(!(var8 > var3))) { _fun0005_ip = 44; continue _fun0005 }
+            if(!(!(var8 > var3))) { _fun0005_ip = 46; continue _fun0005 }
 case 10:
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
@@ -458,8 +463,8 @@ case 10:
             var3 = {};
             var3['partySize'] = var9;
             var3 = var6.bind(var7)(var5, var3);
-            _fun0005_ip = 45; continue _fun0005;
-case 44:
+            _fun0005_ip = 47; continue _fun0005;
+case 46:
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
             var4 = 2;
@@ -476,11 +481,11 @@ case 44:
             var4['partySize'] = var9;
             var4['maxPartySize'] = var8;
             var3 = var6.bind(var7)(var5, var4);
-case 45:
+case 47:
             var2 = var3;
-case 43:
+case 45:
             var1 = var2;
-case 37:
+case 39:
             return var1;
         }
     };

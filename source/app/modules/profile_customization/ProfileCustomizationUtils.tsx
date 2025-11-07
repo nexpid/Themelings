@@ -487,8 +487,8 @@ case 0:
 case 46:
                 var2 = _closure2_slot0;
                 var1 = null;
-                if(!(var1 != var2)) { _fun0009_ip = 20; continue _fun0009 }
-case 47:
+                if(!(var1 != var2)) { _fun0009_ip = 47; continue _fun0009 }
+case 48:
                 var1 = {};
                 var3 = _closure1_slot4;
                 var2 = var3.getPendingAvatarDecoration;
@@ -498,8 +498,8 @@ case 47:
                 var2 = var2.bind(var3)();
                 var2 = var2.avatarDecoration;
                 var1['errors'] = var2;
-                _fun0009_ip = 48; continue _fun0009;
-case 20:
+                _fun0009_ip = 49; continue _fun0009;
+case 47:
                 var2 = {};
                 var4 = _closure1_slot7;
                 var3 = var4.getPendingAvatarDecoration;
@@ -510,8 +510,8 @@ case 20:
                 var3 = var3.avatarDecoration;
                 var2['errors'] = var3;
                 var1 = var2;
-case 48:
-                _fun0009_ip = 49; continue _fun0009;
+case 49:
+                _fun0009_ip = 50; continue _fun0009;
 case 45:
                 var2 = {};
                 var4 = _closure1_slot7;
@@ -519,7 +519,7 @@ case 45:
                 var3 = var3.bind(var4)();
                 var2['pendingAvatarDecoration'] = var3;
                 var1 = var2;
-case 49:
+case 50:
                 return var1;
             }
         };
@@ -549,12 +549,12 @@ case 49:
             _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
                 var2 = _closure2_slot1;
-                if(var2) { _fun0010_ip = 50; continue _fun0010 }
+                if(var2) { _fun0010_ip = 51; continue _fun0010 }
 case 46:
                 var2 = _closure2_slot0;
                 var1 = null;
-                if(!(var1 != var2)) { _fun0010_ip = 51; continue _fun0010 }
-case 47:
+                if(!(var1 != var2)) { _fun0010_ip = 19; continue _fun0010 }
+case 48:
                 var1 = {};
                 var4 = _closure1_slot4;
                 var3 = var4.getPendingProfileEffect;
@@ -566,7 +566,7 @@ case 47:
                 var2 = var2.profileEffect;
                 var1['errors'] = var2;
                 _fun0010_ip = 52; continue _fun0010;
-case 51:
+case 19:
                 var2 = {};
                 var5 = _closure1_slot7;
                 var4 = var5.getPendingProfileEffect;
@@ -580,7 +580,7 @@ case 51:
                 var1 = var2;
 case 52:
                 _fun0010_ip = 53; continue _fun0010;
-case 50:
+case 51:
                 var2 = {};
                 var4 = _closure1_slot7;
                 var3 = var4.getTryItOutProfileEffect;
@@ -748,10 +748,10 @@ case 59:
             var2['type'] = var8;
             var9 = var7 == var6;
             var8 = undefined;
-            if(var9) { _fun0014_ip = 30; continue _fun0014 }
-case 68:
-            var8 = var6.skuId;
+            if(var9) { _fun0014_ip = 68; continue _fun0014 }
 case 30:
+            var8 = var6.skuId;
+case 68:
             var9 = var7 == var5;
             var7 = undefined;
             if(var9) { _fun0014_ip = 69; continue _fun0014 }

@@ -22,18 +22,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = 1;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
-    var2 = var2.ExplicitContentFilterToDmSpamFilterV2;
-    var _closure1_slot3 = var2;
-    var2 = 2;
-    var2 = var6[var2];
-    var2 = var5.bind(var1)(var2);
     var9 = var2.MobileSetting;
-    var2 = 6;
+    var2 = 4;
     var2 = var6[var2];
     var7 = var5.bind(var1)(var2);
     var4 = var7.createRadio;
     var2 = {};
-    var10 = 7;
+    var10 = 5;
     var11 = var6[var10];
     var11 = var5.bind(var1)(var11);
     var12 = var11.intl;
@@ -52,7 +47,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = function() {
             var3 = _closure1_slot0;
             var2 = _closure1_slot1;
-            var1 = 5;
+            var1 = 2;
             var2 = var2[var1];
             var1 = undefined;
             var2 = var3.bind(var1)(var2);
@@ -78,48 +73,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var2['useOptions'] = var9;
-    var9 = function useDmSpamFilterSettingValue() {
-        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
-case 0:
-            var4 = _closure1_slot0;
-            var2 = _closure1_slot1;
-            var6 = 3;
-            var1 = var2[var6];
-            var5 = undefined;
-            var1 = var4.bind(var5)(var1);
-            var7 = var1.DmSpamFilterV2;
-            var1 = var7.useSetting;
-            var1 = var1.bind(var7)();
-            var6 = var2[var6];
-            var6 = var4.bind(var5)(var6);
-            var7 = var6.ExplicitContentFilter;
-            var6 = var7.useSetting;
-            var7 = var6.bind(var7)();
-            var6 = 4;
-            var2 = var2[var6];
-            var2 = var4.bind(var5)(var2);
-            var2 = var2.DmSpamFilterV2;
-            var2 = var2.DEFAULT_UNSET;
-            if(!(var1 === var2)) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
-            var4 = _closure1_slot3;
-            var2 = var4.get;
-            var2 = var2.bind(var4)(var7);
-            var4 = null;
-            if(!(var4 == var2)) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
-            var4 = _closure1_slot0;
-            var3 = _closure1_slot1;
-            var3 = var3[var6];
-            var3 = var4.bind(var5)(var3);
-            var3 = var3.DmSpamFilterV2;
-            var2 = var3.NON_FRIENDS;
-case 4:
-            var1 = var2;
-case 2:
-            return var1;
-        }
-    };
+    var9 = 6;
+    var9 = var6[var9];
+    var9 = var5.bind(var1)(var9);
+    var9 = var9.useDerivedDmSpamFilterSettingValue;
     var2['useValue'] = var9;
     var9 = function onDmSpamFilterSettingValueChange(arg1) {
         var3 = _closure1_slot0;
@@ -141,7 +98,7 @@ case 2:
     var8 = function additionalSearchTerms() {
         var6 = _closure1_slot0;
         var7 = _closure1_slot1;
-        var2 = 7;
+        var2 = 5;
         var1 = var7[var2];
         var5 = undefined;
         var1 = var6.bind(var5)(var1);
@@ -168,7 +125,7 @@ case 2:
     };
     var2['additionalSearchTerms'] = var8;
     var2 = var4.bind(var7)(var2);
-    var4 = 8;
+    var4 = 7;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

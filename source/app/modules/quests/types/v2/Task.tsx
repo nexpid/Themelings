@@ -189,6 +189,8 @@ case 24:
             var7 = var7.task_description;
             var4['taskDescription'] = var7;
             var1['messages'] = var4;
+            var4 = var2.applications;
+            var1['applications'] = var4;
             return var1;
 case 22:
             var1 = {};
@@ -211,6 +213,8 @@ case 22:
             var7 = var7.task_description;
             var4['taskDescription'] = var7;
             var1['messages'] = var4;
+            var4 = var2.applications;
+            var1['applications'] = var4;
             return var1;
 case 20:
             var1 = {};
@@ -225,6 +229,8 @@ case 20:
             var1['target'] = var4;
             var4 = var2.external_ids;
             var1['externalIds'] = var4;
+            var4 = var2.applications;
+            var1['applications'] = var4;
             return var1;
 case 18:
             var1 = {};
@@ -239,6 +245,8 @@ case 18:
             var1['target'] = var4;
             var4 = var2.external_ids;
             var1['externalIds'] = var4;
+            var4 = var2.applications;
+            var1['applications'] = var4;
             return var1;
 case 16:
             var1 = {};
@@ -251,6 +259,8 @@ case 16:
             var1['type'] = var4;
             var4 = var2.target;
             var1['target'] = var4;
+            var4 = var2.applications;
+            var1['applications'] = var4;
             return var1;
 case 14:
             var1 = {};
@@ -263,6 +273,8 @@ case 14:
             var1['type'] = var4;
             var4 = var2.target;
             var1['target'] = var4;
+            var4 = var2.applications;
+            var1['applications'] = var4;
             return var1;
 case 12:
             var1 = {};

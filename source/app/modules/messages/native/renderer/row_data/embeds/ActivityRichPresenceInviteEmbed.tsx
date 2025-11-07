@@ -307,57 +307,57 @@ case 18:
             var3 = var3.STREAM_REQUEST;
             if(!(var7 !== var3)) { _fun0003_ip = 39; continue _fun0003 }
 case 40:
-            var7 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var33 = 18;
-            var3 = var3[var33];
-            var9 = var7.bind(var12)(var3);
-            var8 = var9.getHeaderText;
-            var7 = var2.name;
-            var10 = var5.activity;
-            var11 = var4 == var10;
-            var3 = undefined;
-            if(var11) { _fun0003_ip = 41; continue _fun0003 }
-case 42:
-            var3 = var10.type;
-case 41:
-            var20 = var8.bind(var9)(var7, var3);
             var8 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var7 = 19;
+            var7 = 18;
             var7 = var3[var7];
             var8 = var8.bind(var12)(var7);
             var7 = var2.id;
             var7 = var8.bind(var12)(var27, var5, var7);
             var18 = !var7;
             var7 = _closure1_slot0;
-            var8 = 20;
+            var8 = 19;
             var8 = var3[var8];
             var9 = var7.bind(var12)(var8);
             var8 = var9.getIsAskToJoin;
             var10 = var8.bind(var9)(var5);
+            var33 = 20;
+            var3 = var3[var33];
+            var9 = var7.bind(var12)(var3);
+            var8 = var9.getHeaderText;
+            var7 = var2.name;
+            var11 = var5.activity;
+            var13 = var4 == var11;
+            var3 = undefined;
+            if(var13) { _fun0003_ip = 41; continue _fun0003 }
+case 42:
+            var3 = var11.type;
+case 41:
+            var20 = var8.bind(var9)(var7, var3, var18);
             if(!(var4 != var27)) { _fun0003_ip = 43; continue _fun0003 }
 case 44:
-            var8 = var27.party;
-            if(!(var4 != var8)) { _fun0003_ip = 43; continue _fun0003 }
+            var3 = var27.party;
+            if(!(var4 != var3)) { _fun0003_ip = 43; continue _fun0003 }
 case 45:
-            var8 = global;
-            var11 = var8.Array;
-            var9 = var11.from;
-            var15 = _closure1_slot8;
-            var13 = var15.getParty;
-            var8 = var27.party;
-            var8 = var8.id;
-            var8 = var13.bind(var15)(var8);
-            if(!(var4 == var8)) { _fun0003_ip = 46; continue _fun0003 }
+            var3 = global;
+            var8 = var3.Array;
+            var7 = var8.from;
+            var11 = _closure1_slot8;
+            var9 = var11.getParty;
+            var3 = var27.party;
+            var3 = var3.id;
+            var3 = var9.bind(var11)(var3);
+            if(!(var4 == var3)) { _fun0003_ip = 46; continue _fun0003 }
 case 47:
-            var8 = new Array(0);
+            var3 = new Array(0);
 case 46:
-            var15 = var9.bind(var11)(var8);
+            var15 = var7.bind(var8)(var3);
             _fun0003_ip = 48; continue _fun0003;
 case 43:
             var15 = new Array(0);
 case 48:
+            var7 = _closure1_slot0;
+            var3 = _closure1_slot2;
             var8 = 21;
             var8 = var3[var8];
             var9 = var7.bind(var12)(var8);
@@ -845,7 +845,7 @@ case 107:
             var30 = var34[var30];
             var30 = var33.bind(var12)(var30);
             var30 = var30.t;
-            var30 = var30.RscU7I;
+            var30 = var30.s+J8Dl;
             var24 = var31.bind(var32)(var30);
             var25 = true;
             var23 = false;
@@ -1183,12 +1183,12 @@ case 157:
             var3 = var3.bind(var15)();
             var6 = var6.bind(var12)(var5, var14, var3);
             var11 = _closure1_slot1;
-            var1 = 19;
+            var1 = 18;
             var1 = var13[var1];
             var3 = var11.bind(var12)(var1);
             var1 = var2.id;
             var6 = var3.bind(var12)(var6, var5, var1);
-            var1 = 18;
+            var1 = 20;
             var1 = var13[var1];
             var10 = var9.bind(var12)(var1);
             var3 = var10.getRequestToStreamText;

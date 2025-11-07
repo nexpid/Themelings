@@ -38,14 +38,14 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot9 = var2;
+            _closure1_slot8 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot9 = var1;
-    var11 = function handleDismiss(arg1) {
+    var _closure1_slot8 = var1;
+    var10 = function handleDismiss(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var1 = arg1;
@@ -81,9 +81,9 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot10 = var11;
-    var10 = function handleDismissWithDismissed() {
-        var3 = _closure1_slot10;
+    var _closure1_slot9 = var10;
+    var9 = function handleDismissWithDismissed() {
+        var3 = _closure1_slot9;
         var2 = {};
         var5 = _closure1_slot0;
         var4 = _closure1_slot1;
@@ -97,8 +97,8 @@ case 6:
         var2 = var3.bind(var1)(var2);
         return var1;
     };
-    var9 = function handleSetActiveCommand() {
-        var3 = _closure1_slot10;
+    var4 = function handleSetActiveCommand() {
+        var3 = _closure1_slot9;
         var2 = {};
         var5 = _closure1_slot0;
         var4 = _closure1_slot1;
@@ -112,65 +112,58 @@ case 6:
         var2 = var3.bind(var1)(var2);
         return var1;
     };
-    var2 = global;
-    var13 = var2.Object;
-    var12 = var13.defineProperty;
-    var8 = {};
+    var1 = global;
+    var12 = var1.Object;
+    var8 = var12.defineProperty;
+    var2 = {};
     var1 = true;
-    var8['value'] = var1;
+    var2['value'] = var1;
     var1 = '__esModule';
-    var1 = var12.bind(var13)(var3, var1, var8);
+    var1 = var8.bind(var12)(var3, var1, var2);
     var1 = 0;
-    var8 = var6[var1];
+    var2 = var6[var1];
     var1 = undefined;
-    var8 = var7.bind(var1)(var8);
-    var _closure1_slot2 = var8;
-    var8 = 1;
-    var8 = var6[var8];
-    var8 = var7.bind(var1)(var8);
-    var _closure1_slot3 = var8;
-    var8 = 2;
-    var8 = var6[var8];
-    var8 = var7.bind(var1)(var8);
-    var _closure1_slot4 = var8;
-    var8 = 3;
-    var8 = var6[var8];
-    var8 = var7.bind(var1)(var8);
-    var _closure1_slot5 = var8;
-    var8 = 4;
-    var8 = var6[var8];
-    var8 = var7.bind(var1)(var8);
-    var _closure1_slot6 = var8;
-    var8 = {};
-    var12 = false;
-    var8['show'] = var12;
-    var12 = 5;
-    var13 = var6[var12];
-    var13 = var5.bind(var1)(var13);
-    var13 = var13.AppLauncherEntrypoint;
-    var13 = var13.NONE;
-    var8['entrypoint'] = var13;
-    var13 = var6[var12];
-    var13 = var5.bind(var1)(var13);
-    var13 = var13.AppLauncherEntrypoint;
-    var13 = var13.NONE;
-    var8['lastShownEntrypoint'] = var13;
-    var13 = null;
-    var8['activeViewType'] = var13;
-    var12 = var6[var12];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot2 = var2;
+    var2 = 1;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot3 = var2;
+    var2 = 2;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot4 = var2;
+    var2 = 3;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot5 = var2;
+    var2 = 4;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot6 = var2;
+    var2 = {};
+    var8 = false;
+    var2['show'] = var8;
+    var8 = 5;
+    var12 = var6[var8];
     var12 = var5.bind(var1)(var12);
-    var12 = var12.AppLauncherCloseReason;
-    var12 = var12.DISMISSED;
-    var8['closeReason'] = var12;
-    var8['initialState'] = var1;
-    var _closure1_slot7 = var8;
-    var2 = var2.Set;
-    var8 = var2.prototype;
-    var8 = Object.create(var8, {constructor: {value: var2}});
-    var17 = var8;
-    var2 = new var17[var2](var16);
-    var2 = var2 instanceof Object ? var2 : var8;
-    var _closure1_slot8 = var2;
+    var12 = var12.AppLauncherEntrypoint;
+    var12 = var12.NONE;
+    var2['entrypoint'] = var12;
+    var12 = var6[var8];
+    var12 = var5.bind(var1)(var12);
+    var12 = var12.AppLauncherEntrypoint;
+    var12 = var12.NONE;
+    var2['lastShownEntrypoint'] = var12;
+    var12 = null;
+    var2['activeViewType'] = var12;
+    var8 = var6[var8];
+    var8 = var5.bind(var1)(var8);
+    var8 = var8.AppLauncherCloseReason;
+    var8 = var8.DISMISSED;
+    var2['closeReason'] = var8;
+    var2['initialState'] = var1;
+    var _closure1_slot7 = var2;
     var2 = 6;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
@@ -188,7 +181,7 @@ case 0:
                 var1 = _closure1_slot5;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot4;
-                var1 = _closure1_slot9;
+                var1 = _closure1_slot8;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0003_ip = 8; continue _fun0003 }
 case 9:
@@ -225,7 +218,7 @@ case 10:
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(9);
+        var1 = new Array(8);
         var1[0] = var5;
         var5 = {};
         var7 = 'shouldShowPopup';
@@ -324,22 +317,13 @@ case 11:
         var5 = {};
         var7 = 'initialState';
         var5['key'] = var7;
-        var7 = function value() {
+        var6 = function value() {
             var1 = _closure1_slot7;
             var1 = var1.initialState;
             return var1;
         };
-        var5['value'] = var7;
-        var1[7] = var5;
-        var5 = {};
-        var7 = 'appDMChannelsWithFailedLoads';
-        var5['key'] = var7;
-        var6 = function value() {
-            var1 = _closure1_slot8;
-            return var1;
-        };
         var5['value'] = var6;
-        var1[8] = var5;
+        var1[7] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -348,9 +332,9 @@ case 11:
     var8['displayName'] = var2;
     var2 = 7;
     var2 = var6[var2];
-    var16 = var7.bind(var1)(var2);
+    var15 = var7.bind(var1)(var2);
     var2 = {};
-    var12 = function handleShow(arg1) {
+    var11 = function handleShow(arg1) {
         var1 = arg1;
         var6 = var1.entrypoint;
         var5 = var1.activeViewType;
@@ -378,38 +362,18 @@ case 11:
         var2['initialState'] = var3;
         return var1;
     };
-    var2['APP_LAUNCHER_SHOW'] = var12;
-    var2['APP_LAUNCHER_DISMISS'] = var11;
-    var2['CONNECTION_OPEN'] = var10;
-    var2['LOGOUT'] = var10;
-    var2['CHANNEL_SELECT'] = var10;
-    var2['APPLICATION_COMMAND_SET_ACTIVE_COMMAND'] = var9;
-    var2['APP_LAUNCHER_SET_ACTIVE_COMMAND'] = var9;
-    var9 = function handleAddFailedAppDMLoad(arg1) {
-        var1 = arg1;
-        var3 = var1.channelId;
-        var2 = _closure1_slot8;
-        var1 = var2.add;
-        var1 = var1.bind(var2)(var3);
-        var1 = undefined;
-        return var1;
-    };
-    var2['APP_LAUNCHER_ADD_FAILED_APP_DM_LOAD'] = var9;
-    var4 = function handleRemoveFailedAppDMLoad(arg1) {
-        var1 = arg1;
-        var3 = var1.channelId;
-        var2 = _closure1_slot8;
-        var1 = var2.delete;
-        var1 = var1.bind(var2)(var3);
-        var1 = undefined;
-        return var1;
-    };
-    var2['APP_LAUNCHER_REMOVE_FAILED_APP_DM_LOAD'] = var4;
+    var2['APP_LAUNCHER_SHOW'] = var11;
+    var2['APP_LAUNCHER_DISMISS'] = var10;
+    var2['CONNECTION_OPEN'] = var9;
+    var2['LOGOUT'] = var9;
+    var2['CHANNEL_SELECT'] = var9;
+    var2['APPLICATION_COMMAND_SET_ACTIVE_COMMAND'] = var4;
+    var2['APP_LAUNCHER_SET_ACTIVE_COMMAND'] = var4;
     var4 = var8.prototype;
     var4 = Object.create(var4, {constructor: {value: var8}});
-    var17 = var4;
-    var15 = var2;
-    var2 = new var17[var8](var16, var15, var14);
+    var16 = var4;
+    var14 = var2;
+    var2 = new var16[var8](var15, var14, var13);
     var2 = var2 instanceof Object ? var2 : var4;
     var4 = 8;
     var4 = var6[var4];

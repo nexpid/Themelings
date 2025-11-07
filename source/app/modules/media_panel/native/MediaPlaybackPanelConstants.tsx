@@ -26,6 +26,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['MediaPlaybackPanelModes'] = var2;
     var2 = 100;
     var3['PLAYBACK_COMPLETION_DETECTION_TOLERANCE'] = var2;
+    var2 = 500;
+    var3['PLAYBACK_PROGRESS_UPDATE_INTERVAL'] = var2;
     var2 = {'stiffness': 320, 'mass': 0.25, 'damping': 15, 'overshootClamping': true};
     var3['MEDIA_PLAYBACK_PANEL_LAYOUT_PHYSICS'] = var2;
     return var1;

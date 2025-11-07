@@ -730,8 +730,6 @@ case 72:
     };
     var3['isEmojiEmpty'] = var7;
     var3['EXCLUDED_ONBOARDING_PLATFORM_TYPES'] = var6;
-    var6 = new Array(0);
-    var3['ONBOARDING_APPLICATION_IDS'] = var6;
     var3['getConnectionIdentifier'] = var5;
     var5 = function parseConnectionIdentifier(arg1) {
         _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {

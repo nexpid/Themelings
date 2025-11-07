@@ -417,5 +417,7 @@ case 2:
     };
     var3['maybeFetchOnboardingPrompts'] = var4;
     var3['startOnboarding'] = var2;
+    var2 = -3;
+    var3['CONNECTIONS_STEP'] = var2;
     return var1;
 })();

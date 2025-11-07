@@ -324,40 +324,53 @@ case 26:
     var4 = function createGradientStyle(arg1) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
-            var3 = arg1;
+            var4 = arg1;
             var8 = arguments[1];
-            var1 = undefined;
-            if(!(var8 === var1)) { _fun0008_ip = 12; continue _fun0008 }
-case 27:
-            var8 = 78.98;
-case 12:
-            var6 = null;
-            if(!(var6 == var3)) { _fun0008_ip = 28; continue _fun0008 }
-case 29:
-            return var1;
+            var1 = arguments[2];
+            var2 = undefined;
+            if(!(var8 === var2)) { _fun0008_ip = 27; continue _fun0008 }
 case 28:
-            var2 = global;
-            var4 = var2.Array;
-            var1 = var4.isArray;
-            var1 = var1.bind(var4)(var3);
-            var5 = var3;
-            if(var1) { _fun0008_ip = 30; continue _fun0008 }
-case 3:
-            var5 = var3.gradient;
+            var8 = 78.98;
+case 27:
+            if(!(var1 === var2)) { _fun0008_ip = 29; continue _fun0008 }
 case 30:
-            var1 = {};
-            var7 = var2.Array;
-            var4 = var7.isArray;
-            var4 = var4.bind(var7)(var3);
-            var7 = var8;
-            if(var4) { _fun0008_ip = 31; continue _fun0008 }
+            var1 = false;
+case 29:
+            var7 = null;
+            if(!(var7 == var4)) { _fun0008_ip = 31; continue _fun0008 }
 case 32:
-            var4 = var3.angle;
-            var7 = var8;
-            if(!(var6 != var4)) { _fun0008_ip = 31; continue _fun0008 }
-case 33:
-            var7 = var3.angle;
+            return var2;
 case 31:
+            var2 = global;
+            var5 = var2.Array;
+            var3 = var5.isArray;
+            var3 = var3.bind(var5)(var4);
+            var5 = var4;
+            if(var3) { _fun0008_ip = 16; continue _fun0008 }
+case 21:
+            var5 = var4.gradient;
+case 16:
+            var6 = var2.Array;
+            var3 = var6.isArray;
+            var6 = var3.bind(var6)(var4);
+            var3 = var8;
+            if(var6) { _fun0008_ip = 6; continue _fun0008 }
+case 4:
+            var6 = var4.angle;
+            var3 = var8;
+            if(!(var7 != var6)) { _fun0008_ip = 6; continue _fun0008 }
+case 7:
+            var3 = var4.angle;
+case 6:
+            var7 = var3;
+            if(!var1) { _fun0008_ip = 33; continue _fun0008 }
+case 34:
+            var1 = 180;
+            var3 = var3 + var1;
+            var1 = 360;
+            var7 = var3 % var1;
+case 33:
+            var1 = {};
             var4 = var5.join;
             var3 = ', ';
             var10 = var4.bind(var5)(var3);
@@ -378,11 +391,11 @@ case 31:
 case 0:
             var5 = arg1;
             var1 = null;
-            if(!(var1 == var5)) { _fun0009_ip = 34; continue _fun0009 }
-case 35:
+            if(!(var1 == var5)) { _fun0009_ip = 35; continue _fun0009 }
+case 36:
             var1 = undefined;
             return var1;
-case 34:
+case 35:
             var1 = {'backgroundImage': null, 'backgroundSize': 'cover', 'backgroundPosition': 'center', 'backgroundRepeat': 'no-repeat'};
             var2 = global;
             var2 = var2.HermesInternal;
