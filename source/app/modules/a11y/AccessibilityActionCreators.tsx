@@ -309,87 +309,72 @@ case 2:
     var4 = function setPrefersReducedMotion(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-            var6 = arguments[1];
+            var4 = _closure1_slot2;
+            var3 = var4.useReducedMotion;
+            var6 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var1 = 4;
+            var5 = var5[var1];
             var1 = undefined;
-            if(!(var6 === var1)) { _fun0002_ip = 4; continue _fun0002 }
-case 3:
-            var2 = _closure1_slot4;
-            var6 = var2.REDUCED_MOTION;
-case 4:
-            var3 = _closure1_slot2;
-            var2 = var3.useReducedMotion;
-            var5 = _closure1_slot0;
-            var7 = _closure1_slot1;
-            var4 = 4;
-            var4 = var7[var4];
-            var7 = var5.bind(var1)(var4);
-            var5 = var7.dispatch;
-            var4 = {};
-            var9 = 'ACCESSIBILITY_SET_PREFERS_REDUCED_MOTION';
-            var4['type'] = var9;
-            var9 = arg1;
-            var4['prefersReducedMotion'] = var9;
-            var4 = var5.bind(var7)(var4);
-            var3 = var3.useReducedMotion;
-            if(var2) { _fun0002_ip = 5; continue _fun0002 }
-case 6:
-            if(var3) { _fun0002_ip = 7; continue _fun0002 }
+            var7 = var6.bind(var1)(var5);
+            var6 = var7.dispatch;
+            var5 = {};
+            var8 = 'ACCESSIBILITY_SET_PREFERS_REDUCED_MOTION';
+            var5['type'] = var8;
+            var8 = arg1;
+            var5['prefersReducedMotion'] = var8;
+            var5 = var6.bind(var7)(var5);
+            var4 = var4.useReducedMotion;
+            if(var3) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
-            var4 = _closure1_slot4;
-            var4 = var4.LOW_PERFORMANCE_MODE;
-            if(!(var6 !== var4)) { _fun0002_ip = 7; continue _fun0002 }
-case 8:
-            if(!var2) { _fun0002_ip = 9; continue _fun0002 }
-case 10:
-            var2 = !var3;
+            if(!var4) { _fun0002_ip = 4; continue _fun0002 }
+case 6:
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var5 = 6;
+            var5 = var7[var5];
+            var7 = var6.bind(var1)(var5);
+            var6 = var7.applySettingsOverride;
+            var5 = {};
+            var8 = {};
+            var10 = false;
+            var8['value'] = var10;
+            var9 = _closure1_slot4;
+            var11 = var9.REDUCED_MOTION;
+            var8['reasonKey'] = var11;
+            var5['gifAutoPlay'] = var8;
+            var8 = {};
+            var8['value'] = var10;
+            var10 = var9.REDUCED_MOTION;
+            var8['reasonKey'] = var10;
+            var5['animateEmoji'] = var8;
+            var8 = {};
+            var10 = _closure1_slot5;
+            var10 = var10.ANIMATE_ON_INTERACTION;
+            var8['value'] = var10;
+            var9 = var9.REDUCED_MOTION_STICKERS;
+            var8['reasonKey'] = var9;
+            var5['animateStickers'] = var8;
+            var5 = var6.bind(var7)(var5);
+            _fun0002_ip = 7; continue _fun0002;
+case 4:
+            if(!var3) { _fun0002_ip = 8; continue _fun0002 }
 case 9:
-            if(!var2) { _fun0002_ip = 11; continue _fun0002 }
-case 12:
+            var3 = !var4;
+case 8:
+            if(!var3) { _fun0002_ip = 7; continue _fun0002 }
+case 10:
             var3 = _closure1_slot0;
             var4 = _closure1_slot1;
             var2 = 6;
             var2 = var4[var2];
-            var7 = var3.bind(var1)(var2);
-            var5 = var7.clearSettingsOverride;
+            var6 = var3.bind(var1)(var2);
+            var5 = var6.clearSettingsOverride;
             var4 = 'gifAutoPlay';
             var3 = 'animateEmoji';
             var2 = 'animateStickers';
-            var2 = var5.bind(var7)(var4, var3, var2);
-            _fun0002_ip = 11; continue _fun0002;
+            var2 = var5.bind(var6)(var4, var3, var2);
 case 7:
-            var3 = _closure1_slot0;
-            var4 = _closure1_slot1;
-            var2 = 6;
-            var2 = var4[var2];
-            var4 = var3.bind(var1)(var2);
-            var3 = var4.applySettingsOverride;
-            var2 = {};
-            var5 = {};
-            var7 = false;
-            var5['value'] = var7;
-            var5['reasonKey'] = var6;
-            var2['gifAutoPlay'] = var5;
-            var5 = {};
-            var5['value'] = var7;
-            var5['reasonKey'] = var6;
-            var2['animateEmoji'] = var5;
-            var5 = {};
-            var7 = _closure1_slot4;
-            var7 = var7.LOW_PERFORMANCE_MODE;
-            if(!(var6 !== var7)) { _fun0002_ip = 13; continue _fun0002 }
-case 14:
-            var7 = _closure1_slot5;
-            var7 = var7.ANIMATE_ON_INTERACTION;
-            _fun0002_ip = 15; continue _fun0002;
-case 13:
-            var8 = _closure1_slot5;
-            var7 = var8.NEVER_ANIMATE;
-case 15:
-            var5['value'] = var7;
-            var5['reasonKey'] = var6;
-            var2['animateStickers'] = var5;
-            var2 = var3.bind(var4)(var2);
-case 11:
             return var1;
         }
     };

@@ -47,13 +47,13 @@ case 0:
             var3 = var2.onMethodClick;
             var _closure2_slot0 = var3;
             var9 = var2.classificationId;
-            var7 = _closure1_slot0;
-            var8 = _closure1_slot1;
+            var11 = _closure1_slot0;
+            var12 = _closure1_slot1;
             var2 = 4;
-            var2 = var8[var2];
+            var2 = var12[var2];
             var3 = undefined;
-            var11 = var7.bind(var3)(var2);
-            var6 = var11.useStateFromStoresObject;
+            var7 = var11.bind(var3)(var2);
+            var6 = var7.useStateFromStoresObject;
             var2 = _closure1_slot4;
             var5 = new Array(1);
             var5[0] = var2;
@@ -66,16 +66,22 @@ case 0:
                 var1['loading'] = var2;
                 return var1;
             };
-            var2 = var6.bind(var11)(var5, var2);
+            var2 = var6.bind(var7)(var5, var2);
             var6 = var2.methods;
             var _closure2_slot1 = var6;
             var2 = var2.loading;
             var5 = 5;
-            var5 = var8[var5];
-            var8 = var7.bind(var3)(var5);
+            var5 = var12[var5];
+            var8 = var11.bind(var3)(var5);
             var7 = var8.useInitiateAgeVerification;
             var5 = {};
             var5['onComplete'] = var10;
+            var10 = 6;
+            var10 = var12[var10];
+            var10 = var11.bind(var3)(var10);
+            var10 = var10.AgeVerificationModalEntryPoint;
+            var10 = var10.EXPRESSIVE_GET_STARTED;
+            var5['entryPoint'] = var10;
             var10 = true;
             var5['shouldShowExpressiveModal'] = var10;
             var5['classificationId'] = var9;
@@ -95,7 +101,7 @@ case 0:
 case 3:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot1;
-                    var1 = 6;
+                    var1 = 7;
                     var2 = var2[var1];
                     var1 = undefined;
                     var2 = var3.bind(var1)(var2);
@@ -128,7 +134,7 @@ case 7:
                     var2['id'] = var5;
                     var7 = _closure1_slot0;
                     var9 = _closure1_slot1;
-                    var5 = 7;
+                    var5 = 8;
                     var10 = var9[var5];
                     var6 = undefined;
                     var10 = var7.bind(var6)(var10);
@@ -151,42 +157,36 @@ case 0:
                                 ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                                 if(var2) { _fun0004_ip = 8; continue _fun0004 }
 case 9:
-                                var5 = _closure1_slot0;
-                                var2 = _closure1_slot1;
-                                var7 = 8;
-                                var6 = var2[var7];
+                                var4 = _closure1_slot0;
+                                var5 = _closure1_slot1;
+                                var2 = 6;
+                                var6 = var5[var2];
                                 var3 = undefined;
-                                var11 = var5.bind(var3)(var6);
-                                var10 = var11.trackAgeVerificationModalClicked;
-                                var6 = var2[var7];
-                                var6 = var5.bind(var3)(var6);
+                                var9 = var4.bind(var3)(var6);
+                                var8 = var9.trackAgeVerificationModalClicked;
+                                var6 = var5[var2];
+                                var6 = var4.bind(var3)(var6);
                                 var6 = var6.AgeVerificationModalVersion;
-                                var14 = var6.EXPRESSIVE_PRIMARY;
-                                var2 = var2[var7];
-                                var2 = var5.bind(var3)(var2);
+                                var12 = var6.EXPRESSIVE_PRIMARY;
+                                var2 = var5[var2];
+                                var2 = var4.bind(var3)(var2);
                                 var2 = var2.AgeVerificationModalCta;
-                                var13 = var2.METHOD_SELECT;
-                                var12 = _closure3_slot0;
-                                var15 = arg1;
-                                var16 = var11;
-                                var5 = var16[var10](var15, var14, var13, var12, var11);
-                                var8 = _closure2_slot0;
-                                var6 = null;
-                                if(!(var6 != var8)) { _fun0004_ip = 10; continue _fun0004 }
-case 11:
+                                var11 = var2.METHOD_SELECT;
+                                var10 = _closure3_slot0;
+                                var13 = arg1;
+                                var14 = var9;
+                                var4 = var14[var8](var13, var12, var11, var10, var9);
                                 var6 = _closure2_slot0;
-                                var6 = var6.bind(var3)();
+                                var5 = null;
+                                if(!(var5 != var6)) { _fun0004_ip = 10; continue _fun0004 }
+case 11:
+                                var5 = _closure2_slot0;
+                                var5 = var5.bind(var3)();
 case 10:
-                                var5 = _closure2_slot2;
-                                var6 = _closure1_slot0;
-                                var4 = _closure1_slot1;
-                                var4 = var4[var7];
-                                var4 = var6.bind(var3)(var4);
-                                var4 = var4.AgeVerificationModalEntryPoint;
-                                var4 = var4.EXPRESSIVE_GET_STARTED;
+                                var4 = _closure2_slot2;
                                 var2 = _closure3_slot0;
-                                var2 = var5.bind(var3)(var4, var2);
-                                SaveGenerator(address=168);
+                                var2 = var4.bind(var3)(var2);
+                                SaveGenerator(address=138);
 case 12:
                                 return var2;
 case 13:

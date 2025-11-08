@@ -191,34 +191,57 @@ case 2:
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                 var2 = arg1;
-                var3 = _closure2_slot2;
-                if(!var3) { _fun0002_ip = 4; continue _fun0002 }
-case 5:
-                var4 = var2.nativeEvent;
-                var4 = var4.data;
-                var5 = 'string';
-                var4 = typeof var4;
-                var3 = var5 !== var4;
-case 4:
-                if(!var3) { _fun0002_ip = 6; continue _fun0002 }
-case 7:
-                var2 = var2.nativeEvent;
-                var3 = var2.data;
-                var2 = null;
-                var5 = var2 == var3;
-                var2 = undefined;
-                var4 = undefined;
-                if(var5) { _fun0002_ip = 8; continue _fun0002 }
-case 9:
-                var4 = var3.eventType;
-case 8:
-                var3 = 'Verification.Result';
-                if(!(var3 === var4)) { _fun0002_ip = 6; continue _fun0002 }
-case 10:
-                var1 = _closure2_slot3;
-                var1 = var1.bind(var2)();
-case 6:
+                var3 = var2;
                 var1 = undefined;
+                var4 = undefined;
+                var2 = var2.nativeEvent;
+                var2 = var2.data;
+                var6 = null;
+                if(!(var6 != var2)) { _fun0002_ip = 4; continue _fun0002 }
+case 5: // try_start_0
+                var2 = var3;
+                var2 = var2.nativeEvent;
+                var2 = var2.data;
+                var5 = 'string';
+                var2 = typeof var2;
+                if(!(var5 !== var2)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
+                var2 = var3;
+                var2 = var2.nativeEvent;
+                var2 = var2.data;
+                _fun0002_ip = 8; continue _fun0002;
+case 6:
+                var5 = global;
+                var7 = var5.JSON;
+                var5 = var7.parse;
+                var3 = var3.nativeEvent;
+                var3 = var3.data;
+                var2 = var5.bind(var7)(var3);
+case 8:
+                var4 = var2;
+                var5 = _closure2_slot2;
+                var3 = var5;
+                if(!var5) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
+                var5 = var4;
+                var6 = var6 == var5;
+                var5 = undefined;
+                if(var6) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
+                var5 = var4.eventType;
+case 11:
+                var4 = 'Verification.Result';
+                var3 = var4 === var5;
+case 9:
+                if(!var3) { _fun0002_ip = 13; continue _fun0002 }
+case 14:
+                var2 = _closure2_slot3;
+                var2 = var2.bind(var1)();
+case 13: // try_end0
+                _fun0002_ip = 4; continue _fun0002;
+case 15: // catch_target0
+                CatchBlockStart(arg_register=1);
+case 4:
                 return var1;
             }
         };

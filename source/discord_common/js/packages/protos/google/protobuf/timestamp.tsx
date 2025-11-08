@@ -708,8 +708,8 @@ case 54:
 case 53:
                 var3 = var5.nanos;
                 var2 = 0;
-                if(!(var2 !== var3)) { _fun0007_ip = 15; continue _fun0007 }
-case 10:
+                if(!(var2 !== var3)) { _fun0007_ip = 55; continue _fun0007 }
+case 56:
                 var4 = var1.tag;
                 var6 = _closure1_slot0;
                 var3 = _closure1_slot1;
@@ -724,15 +724,15 @@ case 10:
                 var3 = var4.int32;
                 var2 = var5.nanos;
                 var2 = var3.bind(var4)(var2);
-case 15:
+case 55:
                 var2 = arg3;
                 var4 = var2.writeUnknownFields;
                 var2 = false;
-                if(!(var2 !== var4)) { _fun0007_ip = 55; continue _fun0007 }
-case 56:
-                var2 = 1;
-                if(!(var2 == var4)) { _fun0007_ip = 57; continue _fun0007 }
+                if(!(var2 !== var4)) { _fun0007_ip = 57; continue _fun0007 }
 case 58:
+                var2 = 1;
+                if(!(var2 == var4)) { _fun0007_ip = 59; continue _fun0007 }
+case 60:
                 var6 = _closure1_slot0;
                 var3 = _closure1_slot1;
                 var2 = 6;
@@ -741,12 +741,12 @@ case 58:
                 var2 = var6.bind(var2)(var3);
                 var2 = var2.UnknownFieldHandler;
                 var4 = var2.onWrite;
-case 57:
+case 59:
                 var2 = this;
                 var3 = var2.typeName;
                 var2 = undefined;
                 var2 = var4.bind(var2)(var3, var5, var1);
-case 55:
+case 57:
                 return var1;
             }
         };

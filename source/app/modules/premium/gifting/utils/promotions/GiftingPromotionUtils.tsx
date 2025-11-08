@@ -321,81 +321,116 @@ case 26:
     };
     var3['useShouldAutoSelectGiftingPromotionReward'] = var5;
     var3['useIsPlanEligibleForGiftingPromotion'] = var4;
-    var4 = function createGradientStyle(arg1) {
+    var4 = function createGradientStyle(arg1, arg2) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
-            var4 = arg1;
-            var8 = arguments[1];
-            var1 = arguments[2];
-            var2 = undefined;
-            if(!(var8 === var2)) { _fun0008_ip = 27; continue _fun0008 }
+            var7 = arg1;
+            var2 = arg2;
+            var6 = null;
+            if(!(var6 == var7)) { _fun0008_ip = 27; continue _fun0008 }
 case 28:
-            var8 = 78.98;
+            var1 = undefined;
+            return var1;
 case 27:
-            if(!(var1 === var2)) { _fun0008_ip = 29; continue _fun0008 }
-case 30:
-            var1 = false;
+            if(!(var6 == var2)) { _fun0008_ip = 29; continue _fun0008 }
+case 12:
+            var2 = {};
 case 29:
-            var7 = null;
-            if(!(var7 == var4)) { _fun0008_ip = 31; continue _fun0008 }
-case 32:
-            return var2;
+            var4 = var2.reverse;
+            var5 = undefined;
+            var1 = var5 !== var4;
+            if(!var1) { _fun0008_ip = 30; continue _fun0008 }
 case 31:
-            var2 = global;
-            var5 = var2.Array;
-            var3 = var5.isArray;
-            var3 = var3.bind(var5)(var4);
-            var5 = var4;
-            if(var3) { _fun0008_ip = 16; continue _fun0008 }
-case 21:
-            var5 = var4.gradient;
-case 16:
-            var6 = var2.Array;
-            var3 = var6.isArray;
-            var6 = var3.bind(var6)(var4);
-            var3 = var8;
-            if(var6) { _fun0008_ip = 6; continue _fun0008 }
-case 4:
-            var6 = var4.angle;
-            var3 = var8;
-            if(!(var7 != var6)) { _fun0008_ip = 6; continue _fun0008 }
-case 7:
-            var3 = var4.angle;
-case 6:
-            var7 = var3;
-            if(!var1) { _fun0008_ip = 33; continue _fun0008 }
-case 34:
-            var1 = 180;
-            var3 = var3 + var1;
-            var1 = 360;
-            var7 = var3 % var1;
+            var1 = var4;
+case 30:
+            var4 = var2.colorStops;
+            var _closure2_slot0 = var4;
+            var2 = var2.defaultAngle;
+            var10 = 78.98;
+            if(!(var5 !== var2)) { _fun0008_ip = 32; continue _fun0008 }
 case 33:
+            var10 = var2;
+case 32:
+            var2 = global;
+            var8 = var2.Array;
+            var5 = var8.isArray;
+            var8 = var5.bind(var8)(var7);
+            var5 = var7;
+            if(var8) { _fun0008_ip = 34; continue _fun0008 }
+case 35:
+            var5 = var7.gradient;
+case 34:
+            var9 = var2.Array;
+            var8 = var9.isArray;
+            var9 = var8.bind(var9)(var7);
+            var8 = var10;
+            if(var9) { _fun0008_ip = 36; continue _fun0008 }
+case 37:
+            var9 = var7.angle;
+            var8 = var10;
+            if(!(var6 != var9)) { _fun0008_ip = 36; continue _fun0008 }
+case 38:
+            var8 = var7.angle;
+case 36:
+            var7 = var8;
+            if(!var1) { _fun0008_ip = 39; continue _fun0008 }
+case 40:
+            var1 = 180;
+            var8 = var8 + var1;
+            var1 = 360;
+            var7 = var8 % var1;
+case 39:
             var1 = {};
+            if(!(var6 == var4)) { _fun0008_ip = 41; continue _fun0008 }
+case 42:
+            var6 = var5.join;
+            var4 = ', ';
+            var6 = var6.bind(var5)(var4);
+            _fun0008_ip = 43; continue _fun0008;
+case 41:
+            var4 = var5.map;
+            var3 = function(arg1, arg2) {
+                var2 = _closure2_slot0;
+                var1 = arg2;
+                var8 = var2[var1];
+                var1 = global;
+                var1 = var1.HermesInternal;
+                var5 = var1.concat;
+                var11 = '';
+                var10 = arg1;
+                var9 = ' ';
+                var7 = '%';
+                var1 = var11[var5](var10, var9, var8, var7, var6);
+                return var1;
+            };
+            var5 = var4.bind(var5)(var3);
             var4 = var5.join;
             var3 = ', ';
-            var10 = var4.bind(var5)(var3);
+            var6 = var4.bind(var5)(var3);
+case 43:
             var2 = var2.HermesInternal;
             var5 = var2.concat;
-            var13 = 'linear-gradient(';
-            var11 = 'deg, ';
-            var9 = ')';
-            var12 = var7;
-            var2 = var13[var5](var12, var11, var10, var9, var8);
+            var15 = 'linear-gradient(';
+            var13 = 'deg, ';
+            var11 = ')';
+            var14 = var7;
+            var12 = var6;
+            var2 = var15[var5](var14, var13, var12, var11, var10);
             var1['background'] = var2;
             return var1;
         }
     };
     var3['createGradientStyle'] = var4;
-    var2 = function createBackgroundStyle(arg1) {
+    var4 = function createBackgroundStyle(arg1) {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
             var5 = arg1;
             var1 = null;
-            if(!(var1 == var5)) { _fun0009_ip = 35; continue _fun0009 }
-case 36:
+            if(!(var1 == var5)) { _fun0009_ip = 44; continue _fun0009 }
+case 45:
             var1 = undefined;
             return var1;
-case 35:
+case 44:
             var1 = {'backgroundImage': null, 'backgroundSize': 'cover', 'backgroundPosition': 'center', 'backgroundRepeat': 'no-repeat'};
             var2 = global;
             var2 = var2.HermesInternal;
@@ -407,6 +442,42 @@ case 35:
             return var1;
         }
     };
-    var3['createBackgroundStyle'] = var2;
+    var3['createBackgroundStyle'] = var4;
+    var2 = function combinePromotionStyles(arg1, arg2) {
+        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+case 0:
+            var2 = arg1;
+            var1 = arg2;
+            var5 = null;
+            if(!(var5 != var2)) { _fun0010_ip = 46; continue _fun0010 }
+case 47:
+            if(!(var5 == var1)) { _fun0010_ip = 48; continue _fun0010 }
+case 46:
+            var3 = var2;
+            if(!(var5 == var3)) { _fun0010_ip = 49; continue _fun0010 }
+case 50:
+            var4 = var1;
+            if(!(var5 == var4)) { _fun0010_ip = 13; continue _fun0010 }
+case 51:
+            var4 = {};
+case 13:
+            var3 = var4;
+case 49:
+            return var3;
+case 48:
+            var6 = var1.background;
+            var1 = {'backgroundImage': null, 'backgroundColor': 'lightgray', 'backgroundSize': 'cover, auto', 'backgroundPosition': 'right center, 0% 0%', 'backgroundRepeat': 'no-repeat, no-repeat'};
+            var5 = var2.backgroundImage;
+            var2 = global;
+            var2 = var2.HermesInternal;
+            var4 = var2.concat;
+            var3 = '';
+            var2 = ', ';
+            var2 = var4.bind(var3)(var5, var2, var6);
+            var1['backgroundImage'] = var2;
+            return var1;
+        }
+    };
+    var3['combinePromotionStyles'] = var2;
     return var1;
 })();

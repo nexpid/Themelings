@@ -456,14 +456,14 @@ case 29:
                         var6 = var4.delete;
                         var5 = _closure3_slot0;
                         var5 = var6.bind(var4)(var5);
-                        _fun0005_ip = 6; continue _fun0005;
+                        _fun0005_ip = 31; continue _fun0005;
 case 27:
-                        if(var3) { _fun0005_ip = 31; continue _fun0005 }
-case 32:
+                        if(var3) { _fun0005_ip = 32; continue _fun0005 }
+case 33:
                         var3 = var4.add;
                         var2 = _closure3_slot0;
                         var2 = var3.bind(var4)(var2);
-case 6:
+case 31:
                         var2 = {};
                         var8 = var2;
                         var7 = var1;
@@ -471,7 +471,7 @@ case 6:
                         var3 = 'voicePanelsOpened';
                         var2[var3] = var4;
                         return var2;
-case 31:
+case 32:
                         return var1;
                     }
                 };

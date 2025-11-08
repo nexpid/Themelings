@@ -37,28 +37,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.AGE_VERIFICATION_GET_STARTED_MODAL_KEY;
+    var4 = var4.HelpdeskArticles;
     var _closure1_slot8 = var4;
     var4 = 4;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.HelpdeskArticles;
+    var4 = var4.SafetyHubLinks;
     var _closure1_slot9 = var4;
     var4 = 5;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.SafetyHubLinks;
-    var _closure1_slot10 = var4;
-    var4 = 6;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
     var7 = var4.jsx;
-    var _closure1_slot11 = var7;
+    var _closure1_slot10 = var7;
     var7 = var4.jsxs;
-    var _closure1_slot12 = var7;
+    var _closure1_slot11 = var7;
     var4 = var4.Fragment;
-    var _closure1_slot13 = var4;
-    var4 = 7;
+    var _closure1_slot12 = var4;
+    var4 = 6;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
@@ -66,7 +61,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {'position': 'absolute', 'top': 0, 'left': 0, 'right': 0, 'bottom': 0, 'zIndex': 1};
     var4['loadingIndicator'] = var9;
     var9 = {};
-    var10 = 8;
+    var10 = 7;
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
     var13 = var13.spacing;
@@ -99,8 +94,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['marginTop'] = var10;
     var4['helpLink'] = var9;
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot14 = var4;
-    var4 = 20;
+    var _closure1_slot13 = var4;
+    var4 = 18;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -113,17 +108,23 @@ case 0:
             var6 = var1.onClose;
             var1 = var1.modalSessionId;
             var _closure2_slot0 = var1;
-            var2 = _closure1_slot14;
+            var2 = _closure1_slot13;
             var4 = undefined;
             var16 = var2.bind(var4)();
-            var3 = _closure1_slot0;
-            var5 = _closure1_slot2;
-            var2 = 9;
-            var2 = var5[var2];
-            var5 = var3.bind(var4)(var2);
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var2 = 8;
+            var2 = var8[var2];
+            var5 = var7.bind(var4)(var2);
             var3 = var5.useInitiateAgeVerification;
             var2 = {};
             var2['onComplete'] = var6;
+            var6 = 9;
+            var6 = var8[var6];
+            var6 = var7.bind(var4)(var6);
+            var6 = var6.AgeVerificationModalEntryPoint;
+            var6 = var6.RETRY_MODAL;
+            var2['entryPoint'] = var6;
             var6 = true;
             var2['isRetry'] = var6;
             var2 = var3.bind(var5)(var2);
@@ -170,44 +171,32 @@ case 0:
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                             if(var2) { _fun0002_ip = 2; continue _fun0002 }
 case 3:
-                            var6 = _closure1_slot0;
-                            var7 = _closure1_slot2;
-                            var2 = 11;
-                            var5 = var7[var2];
+                            var9 = _closure1_slot0;
+                            var10 = _closure1_slot2;
+                            var4 = 9;
+                            var2 = var10[var4];
                             var3 = undefined;
-                            var12 = var6.bind(var3)(var5);
-                            var11 = var12.trackAgeVerificationModalClicked;
-                            var10 = _closure2_slot0;
-                            var8 = var7[var2];
-                            var8 = var6.bind(var3)(var8);
-                            var8 = var8.AgeVerificationModalVersion;
-                            var9 = var8.RETRY;
-                            var8 = var7[var2];
-                            var8 = var6.bind(var3)(var8);
-                            var8 = var8.AgeVerificationModalCta;
-                            var8 = var8.GET_STARTED;
-                            var8 = var11.bind(var12)(var10, var9, var8);
-                            var5 = _closure2_slot1;
-                            var2 = var7[var2];
-                            var2 = var6.bind(var3)(var2);
-                            var2 = var2.AgeVerificationModalEntryPoint;
-                            var2 = var2.RETRY_MODAL;
-                            var2 = var5.bind(var3)(var2);
-                            SaveGenerator(address=131);
+                            var8 = var9.bind(var3)(var2);
+                            var7 = var8.trackAgeVerificationModalClicked;
+                            var6 = _closure2_slot0;
+                            var5 = var10[var4];
+                            var5 = var9.bind(var3)(var5);
+                            var5 = var5.AgeVerificationModalVersion;
+                            var5 = var5.RETRY;
+                            var4 = var10[var4];
+                            var4 = var9.bind(var3)(var4);
+                            var4 = var4.AgeVerificationModalCta;
+                            var4 = var4.GET_STARTED;
+                            var4 = var7.bind(var8)(var6, var5, var4);
+                            var2 = _closure2_slot1;
+                            var2 = var2.bind(var3)();
+                            SaveGenerator(address=106);
 case 4:
                             return var2;
 case 5:
-                            ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                            if(var5) { _fun0002_ip = 6; continue _fun0002 }
+                            ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
+                            if(var4) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
-                            var6 = _closure1_slot1;
-                            var7 = _closure1_slot2;
-                            var5 = 12;
-                            var5 = var7[var5];
-                            var6 = var6.bind(var3)(var5);
-                            var5 = var6.popWithKey;
-                            var4 = _closure1_slot8;
-                            var4 = var5.bind(var6)(var4);
                             return var3;
 case 6:
                             return var2;
@@ -256,16 +245,16 @@ case 2:
                 var3 = function onPress() {
                     var4 = _closure1_slot1;
                     var8 = _closure1_slot2;
-                    var1 = 13;
+                    var1 = 11;
                     var3 = var8[var1];
                     var1 = undefined;
                     var5 = var4.bind(var1)(var3);
                     var4 = var5.openUrl;
-                    var3 = _closure1_slot10;
+                    var3 = _closure1_slot9;
                     var3 = var3.APPEALS_LINK;
                     var3 = var4.bind(var5)(var3);
                     var7 = _closure1_slot0;
-                    var2 = 11;
+                    var2 = 9;
                     var3 = var8[var2];
                     var6 = var7.bind(var1)(var3);
                     var5 = var6.trackAgeVerificationModalClicked;
@@ -286,12 +275,12 @@ case 2:
                 return var1;
             };
             var21 = var3.bind(var5)(var1, var2);
-            var3 = _closure1_slot12;
-            var2 = _closure1_slot13;
+            var3 = _closure1_slot11;
+            var2 = _closure1_slot12;
             var1 = {};
             if(!var6) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-            var8 = _closure1_slot11;
+            var8 = _closure1_slot10;
             var7 = _closure1_slot5;
             var5 = {};
             var9 = var16.loadingIndicator;
@@ -300,7 +289,7 @@ case 9:
             var5['size'] = var9;
             var11 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var9 = 14;
+            var9 = 12;
             var9 = var12[var9];
             var11 = var11.bind(var4)(var9);
             var9 = var11.isAndroid;
@@ -310,7 +299,7 @@ case 9:
 case 11:
             var12 = _closure1_slot1;
             var13 = _closure1_slot2;
-            var11 = 8;
+            var11 = 7;
             var11 = var13[var11];
             var11 = var12.bind(var4)(var11);
             var11 = var11.unsafe_rawColors;
@@ -321,7 +310,7 @@ case 10:
 case 8:
             var5 = new Array(2);
             var5[0] = var6;
-            var8 = _closure1_slot12;
+            var8 = _closure1_slot11;
             var7 = _closure1_slot6;
             var6 = {};
             var9 = var16.container;
@@ -330,10 +319,10 @@ case 8:
             var9 = {};
             var12 = var16.headerContainer;
             var9['style'] = var12;
-            var12 = _closure1_slot11;
+            var12 = _closure1_slot10;
             var14 = _closure1_slot0;
             var18 = _closure1_slot2;
-            var10 = 15;
+            var10 = 13;
             var10 = var18[var10];
             var10 = var14.bind(var4)(var10);
             var13 = var10.ShieldSpotIllustration;
@@ -341,7 +330,7 @@ case 8:
             var10 = var12.bind(var4)(var13, var10);
             var15 = new Array(3);
             var15[0] = var10;
-            var10 = 16;
+            var10 = 14;
             var13 = var18[var10];
             var13 = var14.bind(var4)(var13);
             var20 = var13.Text;
@@ -383,7 +372,7 @@ case 8:
             var11 = var8.bind(var4)(var11, var9);
             var9 = new Array(3);
             var9[0] = var11;
-            var11 = 17;
+            var11 = 15;
             var11 = var18[var11];
             var11 = var14.bind(var4)(var11);
             var15 = var11.TableRowGroup;
@@ -394,10 +383,10 @@ case 8:
                 var7 = var1.title;
                 var6 = var1.description;
                 var1 = var1.onPress;
-                var5 = _closure1_slot11;
+                var5 = _closure1_slot10;
                 var3 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var2 = 18;
+                var2 = 16;
                 var2 = var4[var2];
                 var4 = undefined;
                 var2 = var3.bind(var4)(var2);
@@ -438,21 +427,21 @@ case 8:
             var17 = function handleOnHelpUrlHook() {
                 var6 = _closure1_slot1;
                 var8 = _closure1_slot2;
-                var1 = 13;
+                var1 = 11;
                 var3 = var8[var1];
                 var1 = undefined;
                 var5 = var6.bind(var1)(var3);
                 var4 = var5.openUrl;
-                var3 = 19;
+                var3 = 17;
                 var3 = var8[var3];
                 var7 = var6.bind(var1)(var3);
                 var6 = var7.getArticleURL;
-                var3 = _closure1_slot9;
+                var3 = _closure1_slot8;
                 var3 = var3.TIGGER_PAWTECT_LEARN_MORE;
                 var3 = var6.bind(var7)(var3);
                 var3 = var4.bind(var5)(var3);
                 var7 = _closure1_slot0;
-                var2 = 11;
+                var2 = 9;
                 var3 = var8[var2];
                 var6 = var7.bind(var1)(var3);
                 var5 = var6.trackAgeVerificationModalClicked;

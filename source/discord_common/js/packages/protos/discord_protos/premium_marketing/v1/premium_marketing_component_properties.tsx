@@ -312,17 +312,17 @@ case 30:
                 var33 = var34;
                 var32 = var2;
                 if(!(var12 !== var34)) { _fun0004_ip = 31; continue _fun0004 }
-case 7:
+case 32:
                 var36 = var34;
-                if(!(var13 === var34)) { _fun0004_ip = 32; continue _fun0004 }
-case 33:
+                if(!(var13 === var34)) { _fun0004_ip = 33; continue _fun0004 }
+case 34:
                 var37 = _closure1_slot0;
                 var35 = _closure1_slot1;
                 var35 = var35[var14];
                 var35 = var37.bind(var27)(var35);
                 var35 = var35.UnknownFieldHandler;
                 var36 = var35.onRead;
-case 32:
+case 33:
                 var45 = var29.typeName;
                 var46 = undefined;
                 var44 = var1;
@@ -501,7 +501,7 @@ case 0:
                 var3 = var5.properties;
                 var4 = var3.oneofKind;
                 var3 = 'placeholder';
-                if(!(var3 === var4)) { _fun0005_ip = 34; continue _fun0005 }
+                if(!(var3 === var4)) { _fun0005_ip = 10; continue _fun0005 }
 case 35:
                 var6 = var1.tag;
                 var7 = _closure1_slot0;
@@ -518,7 +518,7 @@ case 35:
                 var3 = var5.properties;
                 var3 = var3.placeholder;
                 var3 = var4.bind(var6)(var3);
-case 34:
+case 10:
                 var3 = var5.properties;
                 var4 = var3.oneofKind;
                 var3 = 'announcementModalVariant1';

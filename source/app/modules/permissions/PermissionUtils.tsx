@@ -2331,7 +2331,7 @@ case 59:
         return var1;
     };
     var3['generateChannelEventsSection'] = var4;
-    var2 = function renderDescription(arg1) {
+    var4 = function renderDescription(arg1) {
         _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
             var4 = arg1;
@@ -2368,6 +2368,82 @@ case 60:
             return var1;
         }
     };
-    var3['renderDescription'] = var2;
+    var3['renderDescription'] = var4;
+    var2 = function getMigrationWarning(arg1, arg2) {
+        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+case 0:
+            var5 = arg1;
+            var2 = _closure1_slot2;
+            var1 = arg2;
+            if(var1) { _fun0012_ip = 60; continue _fun0012 }
+case 66:
+            var4 = var2.MANAGE_MESSAGES;
+            var1 = null;
+            if(!(var5 === var4)) { _fun0012_ip = 67; continue _fun0012 }
+case 68:
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot1;
+            var4 = 1;
+            var6 = var10[var4];
+            var8 = undefined;
+            var6 = var9.bind(var8)(var6);
+            var7 = var6.intl;
+            var6 = var7.string;
+            var4 = var10[var4];
+            var4 = var9.bind(var8)(var4);
+            var4 = var4.t;
+            var4 = var4.2XIdPp;
+            var1 = var6.bind(var7)(var4);
+case 67:
+            _fun0012_ip = 69; continue _fun0012;
+case 60:
+            var2 = var2.MANAGE_CHANNELS;
+            if(!(var5 !== var2)) { _fun0012_ip = 70; continue _fun0012 }
+case 71:
+            var2 = _closure1_slot2;
+            var2 = var2.MANAGE_THREADS;
+            if(!(var5 !== var2)) { _fun0012_ip = 70; continue _fun0012 }
+case 72:
+            var2 = _closure1_slot2;
+            var4 = var2.MANAGE_MESSAGES;
+            var2 = null;
+            if(!(var5 === var4)) { _fun0012_ip = 73; continue _fun0012 }
+case 74:
+            var8 = _closure1_slot0;
+            var9 = _closure1_slot1;
+            var4 = 1;
+            var5 = var9[var4];
+            var7 = undefined;
+            var5 = var8.bind(var7)(var5);
+            var6 = var5.intl;
+            var5 = var6.string;
+            var4 = var9[var4];
+            var4 = var8.bind(var7)(var4);
+            var4 = var4.t;
+            var4 = var4.zSc2tb;
+            var2 = var5.bind(var6)(var4);
+case 73:
+            _fun0012_ip = 75; continue _fun0012;
+case 70:
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot1;
+            var3 = 1;
+            var4 = var8[var3];
+            var6 = undefined;
+            var4 = var7.bind(var6)(var4);
+            var5 = var4.intl;
+            var4 = var5.string;
+            var3 = var8[var3];
+            var3 = var7.bind(var6)(var3);
+            var3 = var3.t;
+            var3 = var3.Han3PH;
+            var2 = var4.bind(var5)(var3);
+case 75:
+            var1 = var2;
+case 69:
+            return var1;
+        }
+    };
+    var3['getMigrationWarning'] = var2;
     return var1;
 })();

@@ -442,6 +442,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['PARENTAL_CONTROLS_DATA_USAGE_QUESTS'] = var1;
     var1 = 'PARENTAL_CONTROLS_DATA_USAGE_QUESTS_3P';
     var2['PARENTAL_CONTROLS_DATA_USAGE_QUESTS_3P'] = var1;
+    var1 = 'LOW_PERFORMANCE_MODE';
+    var2['LOW_PERFORMANCE_MODE'] = var1;
     var4 = dependencyMap;
     var1 = 0;
     var5 = var4[var1];

@@ -78,12 +78,11 @@ case 0:
             var2 = var3.useGuildActionSheetPermissions;
             var2 = var2.bind(var3)(var1);
             var9 = var2.canAccessSettings;
+            var3 = _closure1_slot1;
             var2 = 8;
             var2 = var8[var2];
-            var3 = var12.bind(var4)(var2);
-            var2 = var3.useIsPinPermissionMigrationNotificationAvailable;
-            var15 = var2.bind(var3)(var1);
-            var3 = _closure1_slot1;
+            var2 = var3.bind(var4)(var2);
+            var15 = var2.bind(var4)(var1);
             var2 = 9;
             var2 = var8[var2];
             var3 = var3.bind(var4)(var2);

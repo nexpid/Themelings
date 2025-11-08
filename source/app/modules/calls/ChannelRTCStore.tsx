@@ -2467,6 +2467,22 @@ case 43:
     var4['SPEAKING'] = var11;
     var4['GUILD_SOUNDBOARD_SOUND_PLAY_START'] = var11;
     var4['GUILD_SOUNDBOARD_SOUND_PLAY_END'] = var11;
+    var11 = function handlePushToTalkStateChange() {
+        var3 = _closure1_slot46;
+        var2 = undefined;
+        var1 = function(arg1) {
+            var3 = arg1;
+            var2 = var3.updateParticipantSpeaking;
+            var4 = _closure1_slot12;
+            var1 = var4.getId;
+            var1 = var1.bind(var4)();
+            var1 = var2.bind(var3)(var1);
+            return var1;
+        };
+        var1 = var3.bind(var2)(var1);
+        return var1;
+    };
+    var4['PUSH_TO_TALK_STATE_CHANGE'] = var11;
     var11 = function handleGuildRingStart(arg1) {
         _fun0050: for(var _fun0050_ip = 0; ; ) switch(_fun0050_ip) {
 case 0:

@@ -716,7 +716,7 @@ case 0:
             var4 = var2.canManageBans;
             var3 = var2.pushScreen;
             var _closure2_slot0 = var3;
-            var19 = var2.pinPermissionMigrationAvailable;
+            var19 = var2.permissionMigrationAvailable;
             var2 = _closure1_slot21;
             var5 = undefined;
             var22 = var2.bind(var5)();
@@ -974,7 +974,7 @@ case 0:
             var _closure2_slot1 = var1;
             var2 = _closure1_slot21;
             var4 = undefined;
-            var14 = var2.bind(var4)();
+            var15 = var2.bind(var4)();
             var10 = _closure1_slot0;
             var21 = _closure1_slot3;
             var2 = 32;
@@ -1031,11 +1031,11 @@ case 45:
                 return var1;
             };
             var30 = var7.bind(var8)(var5, var3);
+            var14 = _closure1_slot1;
             var3 = 34;
             var3 = var21[var3];
-            var5 = var10.bind(var4)(var3);
-            var3 = var5.useIsPinPermissionMigrationNotificationAvailable;
-            var16 = var3.bind(var5)(var22);
+            var3 = var14.bind(var4)(var3);
+            var16 = var3.bind(var4)(var22);
             var8 = _closure1_slot4;
             var7 = var8.useEffect;
             var5 = function() {
@@ -1151,11 +1151,10 @@ case 47:
             var9 = var10.bind(var4)(var9);
             var10 = var9.Form;
             var9 = {};
-            var14 = var14.container;
-            var9['style'] = var14;
+            var15 = var15.container;
+            var9['style'] = var15;
             var9['contentContainerStyle'] = var12;
             var15 = _closure1_slot17;
-            var14 = _closure1_slot1;
             var12 = 40;
             var12 = var21[var12];
             var14 = var14.bind(var4)(var12);
@@ -1236,18 +1235,18 @@ case 49:
             var14 = var21.bind(var4)(var15, var14);
             var12[1] = var14;
             var14 = var20;
-            if(!var14) { _fun0005_ip = 51; continue _fun0005 }
-case 52:
+            if(!var14) { _fun0005_ip = 11; continue _fun0005 }
+case 51:
             var23 = _closure1_slot17;
             var21 = _closure1_slot25;
             var15 = {};
             var15['guild'] = var22;
             var15['pushScreen'] = var17;
             var14 = var23.bind(var4)(var21, var15);
-case 51:
+case 11:
             var12[2] = var14;
-            if(!var13) { _fun0005_ip = 53; continue _fun0005 }
-case 54:
+            if(!var13) { _fun0005_ip = 52; continue _fun0005 }
+case 53:
             var21 = _closure1_slot17;
             var15 = _closure1_slot1;
             var23 = _closure1_slot3;
@@ -1258,7 +1257,7 @@ case 54:
             var14['guild'] = var22;
             var14['pushScreen'] = var17;
             var13 = var21.bind(var4)(var15, var14);
-case 53:
+case 52:
             var12[3] = var13;
             var15 = _closure1_slot17;
             var14 = _closure1_slot26;
@@ -1267,7 +1266,7 @@ case 53:
             var13['canManageRoles'] = var19;
             var13['canManageBans'] = var18;
             var13['pushScreen'] = var17;
-            var13['pinPermissionMigrationAvailable'] = var16;
+            var13['permissionMigrationAvailable'] = var16;
             var13 = var15.bind(var4)(var14, var13);
             var12[4] = var13;
             var9['children'] = var12;
@@ -1365,8 +1364,8 @@ case 0:
             var3 = arg2;
             var2 = var3.length;
             var1 = 0;
-            if(!(var2 > var1)) { _fun0009_ip = 55; continue _fun0009 }
-case 56:
+            if(!(var2 > var1)) { _fun0009_ip = 54; continue _fun0009 }
+case 55:
             var2 = var3.push;
             var7 = _closure1_slot17;
             var4 = _closure1_slot0;
@@ -1387,7 +1386,7 @@ case 56:
             var1 = var8.bind(var1)(var9);
             var1 = var7.bind(var6)(var5, var4, var1);
             var1 = var2.bind(var3)(var1);
-case 55:
+case 54:
             var2 = var3.push;
             var1 = arg1;
             var1 = var2.bind(var3)(var1);
@@ -1473,8 +1472,8 @@ case 0:
             var6 = var1.errors;
             var1 = null;
             var3 = var1 == var8;
-            if(var3) { _fun0010_ip = 57; continue _fun0010 }
-case 58:
+            if(var3) { _fun0010_ip = 56; continue _fun0010 }
+case 57:
             var4 = _closure1_slot17;
             var3 = _closure1_slot27;
             var2 = {};
@@ -1482,7 +1481,7 @@ case 58:
             var2['contentContainerStyle'] = var7;
             var2['updateErrors'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 57:
+case 56:
             return var1;
         }
     };

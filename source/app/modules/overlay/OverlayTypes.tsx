@@ -123,6 +123,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['WAITING_FOR_REACT_INITIALIZATION'] = var12;
     var12 = 'waiting_for_pid_focus';
     var2['WAITING_FOR_PID_FOCUS'] = var12;
+    var12 = 'waiting_for_successful_show';
+    var2['WAITING_FOR_SUCCESSFUL_SHOW'] = var12;
     var2['OVERLAY_RENDERING'] = var1;
     var1 = 'overlay_crashed';
     var2['OVERLAY_CRASHED'] = var1;

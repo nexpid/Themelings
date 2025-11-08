@@ -304,7 +304,7 @@ case 0:
                 var1 = arg2;
                 var2 = var5.clientVersion;
                 var3 = 0;
-                if(!(var3 !== var2)) { _fun0005_ip = 26; continue _fun0005 }
+                if(!(var3 !== var2)) { _fun0005_ip = 14; continue _fun0005 }
 case 12:
                 var6 = var1.tag;
                 var7 = _closure1_slot0;
@@ -320,10 +320,10 @@ case 12:
                 var4 = var6.uint32;
                 var2 = var5.clientVersion;
                 var2 = var4.bind(var6)(var2);
-case 26:
+case 14:
                 var2 = var5.serverVersion;
-                if(!(var3 !== var2)) { _fun0005_ip = 27; continue _fun0005 }
-case 28:
+                if(!(var3 !== var2)) { _fun0005_ip = 26; continue _fun0005 }
+case 27:
                 var6 = var1.tag;
                 var7 = _closure1_slot0;
                 var4 = _closure1_slot1;
@@ -338,10 +338,10 @@ case 28:
                 var4 = var6.uint32;
                 var2 = var5.serverVersion;
                 var2 = var4.bind(var6)(var2);
-case 27:
+case 26:
                 var2 = var5.dataVersion;
-                if(!(var3 !== var2)) { _fun0005_ip = 29; continue _fun0005 }
-case 25:
+                if(!(var3 !== var2)) { _fun0005_ip = 28; continue _fun0005 }
+case 29:
                 var4 = var1.tag;
                 var6 = _closure1_slot0;
                 var3 = _closure1_slot1;
@@ -356,7 +356,7 @@ case 25:
                 var3 = var4.uint32;
                 var2 = var5.dataVersion;
                 var2 = var3.bind(var4)(var2);
-case 29:
+case 28:
                 var2 = arg3;
                 var4 = var2.writeUnknownFields;
                 var2 = false;

@@ -1818,6 +1818,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['GAME_SHOP_NEW_BADGE'] = var2;
     var1 = 'GAME_SHOP_NEW_BADGE';
     var4[var2] = var1;
+    var2 = 641;
+    var4['GAME_SHOP_RTC_POPOVER'] = var2;
+    var1 = 'GAME_SHOP_RTC_POPOVER';
+    var4[var2] = var1;
+    var2 = 642;
+    var4['GUILD_JOINT_PERMISSION_MIGRATION_NOTIFICATION'] = var2;
+    var1 = 'GUILD_JOINT_PERMISSION_MIGRATION_NOTIFICATION';
+    var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;
     var1 = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

@@ -219,29 +219,29 @@ case 35:
                     var1 = var5 == var4;
 case 34:
                     if(var1) { _fun0002_ip = 29; continue _fun0002 }
-case 36:
+case 3:
                     var1 = var2.onCurrentSecond;
                     var1 = var1.bind(var2)(var3);
                     _fun0002_ip = 29; continue _fun0002;
 case 27:
                     var5 = null;
                     if(!(var5 != var3)) { _fun0002_ip = 29; continue _fun0002 }
-case 37:
+case 36:
                     var1 = _closure2_slot1;
                     var1 = var5 == var1;
                     var2 = undefined;
-                    if(var1) { _fun0002_ip = 38; continue _fun0002 }
-case 39:
+                    if(var1) { _fun0002_ip = 37; continue _fun0002 }
+case 38:
                     var4 = _closure2_slot1;
                     var4 = var4.props;
                     var1 = var5 == var4;
                     var2 = var4;
-case 38:
-                    if(var1) { _fun0002_ip = 5; continue _fun0002 }
+case 37:
+                    if(var1) { _fun0002_ip = 39; continue _fun0002 }
 case 40:
                     var4 = var2.onDownloadProgress;
                     var1 = var5 == var4;
-case 5:
+case 39:
                     if(var1) { _fun0002_ip = 29; continue _fun0002 }
 case 41:
                     var1 = var2.onDownloadProgress;

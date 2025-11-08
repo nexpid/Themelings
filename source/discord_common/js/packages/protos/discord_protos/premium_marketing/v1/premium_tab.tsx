@@ -310,8 +310,8 @@ case 25:
                 var2 = var4.bind(var6)(var2);
 case 24:
                 var2 = var5.acknowledgedBadgeLabel;
-                if(!(var3 !== var2)) { _fun0005_ip = 23; continue _fun0005 }
-case 26:
+                if(!(var3 !== var2)) { _fun0005_ip = 26; continue _fun0005 }
+case 27:
                 var4 = var1.tag;
                 var6 = _closure1_slot0;
                 var3 = _closure1_slot1;
@@ -326,15 +326,15 @@ case 26:
                 var3 = var4.string;
                 var2 = var5.acknowledgedBadgeLabel;
                 var2 = var3.bind(var4)(var2);
-case 23:
+case 26:
                 var2 = arg3;
                 var4 = var2.writeUnknownFields;
                 var2 = false;
-                if(!(var2 !== var4)) { _fun0005_ip = 27; continue _fun0005 }
-case 28:
+                if(!(var2 !== var4)) { _fun0005_ip = 28; continue _fun0005 }
+case 29:
                 var2 = 1;
-                if(!(var2 == var4)) { _fun0005_ip = 29; continue _fun0005 }
-case 30:
+                if(!(var2 == var4)) { _fun0005_ip = 30; continue _fun0005 }
+case 31:
                 var6 = _closure1_slot0;
                 var3 = _closure1_slot1;
                 var2 = 6;
@@ -343,12 +343,12 @@ case 30:
                 var2 = var6.bind(var2)(var3);
                 var2 = var2.UnknownFieldHandler;
                 var4 = var2.onWrite;
-case 29:
+case 30:
                 var2 = this;
                 var3 = var2.typeName;
                 var2 = undefined;
                 var2 = var4.bind(var2)(var3, var5, var1);
-case 27:
+case 28:
                 return var1;
             }
         };

@@ -190,7 +190,7 @@ case 65:
             if(!(!(var6 <= var1))) { _fun0002_ip = 66; continue _fun0002 }
 case 67:
             var1 = _closure1_slot8;
-            var1 = var1.GUILD_MIGRATE_PIN_PERMISSION;
+            var1 = var1.GUILD_MIGRATE_BYPASS_SLOWMODE_PERMISSION;
             if(!(!(var6 <= var1))) { _fun0002_ip = 68; continue _fun0002 }
 case 69:
             var4 = _closure1_slot0;
@@ -669,6 +669,10 @@ case 140:
             var2 = var2.GUILD_MIGRATE_PIN_PERMISSION;
             if(!(var2 !== var3)) { _fun0003_ip = 113; continue _fun0003 }
 case 141:
+            var2 = _closure1_slot8;
+            var2 = var2.GUILD_MIGRATE_BYPASS_SLOWMODE_PERMISSION;
+            if(!(var2 !== var3)) { _fun0003_ip = 113; continue _fun0003 }
+case 142:
             var2 = _closure1_slot9;
             var2 = var2.ALL;
             return var2;
@@ -759,12 +763,12 @@ case 0:
                 var2 = _closure1_slot2;
                 var1 = _closure1_slot10;
                 var1 = var1.bind(var6)();
-                if(var1) { _fun0004_ip = 142; continue _fun0004 }
-case 143:
+                if(var1) { _fun0004_ip = 143; continue _fun0004 }
+case 144:
                 var1 = var11.apply;
                 var1 = var1.bind(var11)(var5, var6);
-                _fun0004_ip = 144; continue _fun0004;
-case 142:
+                _fun0004_ip = 145; continue _fun0004;
+case 143:
                 var7 = global;
                 var10 = var7.Reflect;
                 var9 = var10.construct;
@@ -773,7 +777,7 @@ case 142:
                 var8 = var7.constructor;
                 var7 = new Array(0);
                 var1 = var9.bind(var10)(var11, var7, var8);
-case 144:
+case 145:
                 var1 = var2.bind(var6)(var5, var1);
                 var2 = var3.id;
                 var1['id'] = var2;
@@ -787,8 +791,8 @@ case 144:
                 var1['targetId'] = var2;
                 var5 = var3.timestampStart;
                 var2 = null;
-                if(!(var2 == var5)) { _fun0004_ip = 145; continue _fun0004 }
-case 146:
+                if(!(var2 == var5)) { _fun0004_ip = 146; continue _fun0004 }
+case 147:
                 var9 = _closure1_slot0;
                 var10 = _closure1_slot1;
                 var7 = 8;
@@ -801,45 +805,45 @@ case 146:
                 var7 = var1.id;
                 var7 = var9.bind(var10)(var7);
                 var5 = var8.bind(var6)(var7);
-case 145:
+case 146:
                 var1['timestampStart'] = var5;
                 var5 = var3.timestampEnd;
-                if(!(var2 == var5)) { _fun0004_ip = 147; continue _fun0004 }
+                if(!(var2 == var5)) { _fun0004_ip = 148; continue _fun0004 }
 case 28:
                 var5 = var1.timestampStart;
-case 147:
+case 148:
                 var1['timestampEnd'] = var5;
                 var5 = var3.userId;
                 var1['userId'] = var5;
                 var5 = var3.changes;
-                if(!(var2 == var5)) { _fun0004_ip = 148; continue _fun0004 }
-case 149:
+                if(!(var2 == var5)) { _fun0004_ip = 149; continue _fun0004 }
+case 150:
                 var5 = new Array(0);
-case 148:
+case 149:
                 var1['changes'] = var5;
                 var5 = _closure1_slot11;
                 var4 = var1.action;
                 var4 = var5.bind(var6)(var4);
                 var1['targetType'] = var4;
                 var4 = var3.options;
-                if(!(var2 == var4)) { _fun0004_ip = 150; continue _fun0004 }
-case 151:
+                if(!(var2 == var4)) { _fun0004_ip = 151; continue _fun0004 }
+case 152:
                 var4 = {};
-case 150:
+case 151:
                 var1['options'] = var4;
                 var4 = var3.target;
-                if(!(var2 == var4)) { _fun0004_ip = 152; continue _fun0004 }
-case 153:
+                if(!(var2 == var4)) { _fun0004_ip = 153; continue _fun0004 }
+case 154:
                 var4 = var3.id;
-case 152:
+case 153:
                 var1['target'] = var4;
                 var3 = var3.user;
                 var4 = var2 != var3;
                 var2 = null;
-                if(!var4) { _fun0004_ip = 154; continue _fun0004 }
-case 155:
+                if(!var4) { _fun0004_ip = 155; continue _fun0004 }
+case 156:
                 var2 = var3;
-case 154:
+case 155:
                 var1['user'] = var2;
                 return var1;
             }

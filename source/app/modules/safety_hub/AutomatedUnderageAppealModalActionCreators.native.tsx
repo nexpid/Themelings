@@ -7,17 +7,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
-    var1 = function onVerificationComplete() {
-        var3 = _closure1_slot8;
-        var2 = var3.success;
-        var2 = var2.bind(var3)();
-        var2 = _closure1_slot8;
-        var1 = var2.start_verification_check;
-        var1 = var1.bind(var2)();
-        var1 = undefined;
-        return var1;
-    };
-    var _closure1_slot9 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -84,19 +73,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var2['open'] = var7;
     var7 = function openV2(arg1, arg2) {
+        var7 = arg2;
         var1 = arg1;
         var _closure2_slot0 = var1;
+        var _closure2_slot1 = var7;
         var5 = _closure1_slot1;
         var6 = _closure1_slot2;
         var1 = 4;
         var4 = var6[var1];
         var1 = undefined;
-        var8 = var5.bind(var1)(var4);
-        var7 = var8.dispatch;
+        var9 = var5.bind(var1)(var4);
+        var8 = var9.dispatch;
         var4 = {};
-        var9 = 'SAFETY_HUB_AUTOMATED_UNDERAGE_APPEAL_MODAL_OPEN';
-        var4['type'] = var9;
-        var4 = var7.bind(var8)(var4);
+        var10 = 'SAFETY_HUB_AUTOMATED_UNDERAGE_APPEAL_MODAL_OPEN';
+        var4['type'] = var10;
+        var4 = var8.bind(var9)(var4);
         var4 = 8;
         var4 = var6[var4];
         var6 = var5.bind(var1)(var4);
@@ -134,22 +125,41 @@ case 7:
                         var4 = _closure1_slot7;
                         var3 = _closure4_slot0;
                         var2 = {};
-                        var1 = _closure2_slot0;
-                        var2['classificationId'] = var1;
-                        var7 = _closure1_slot0;
-                        var6 = _closure1_slot2;
+                        var5 = _closure2_slot0;
+                        var2['classificationId'] = var5;
+                        var6 = _closure1_slot0;
+                        var5 = _closure1_slot2;
                         var1 = 10;
-                        var6 = var6[var1];
+                        var5 = var5[var1];
                         var1 = undefined;
-                        var6 = var7.bind(var1)(var6);
-                        var6 = var6.AgeVerificationModalEntryPoint;
-                        var6 = var6.AUTOMATED_UNDERAGE_APPEALS;
-                        var2['entryPoint'] = var6;
-                        var6 = false;
-                        var2['isRetry'] = var6;
-                        var6 = true;
-                        var2['useEmbeddedMethods'] = var6;
-                        var5 = _closure1_slot9;
+                        var5 = var6.bind(var1)(var5);
+                        var5 = var5.AgeVerificationModalEntryPoint;
+                        var5 = var5.AUTOMATED_UNDERAGE_APPEALS;
+                        var2['entryPoint'] = var5;
+                        var5 = false;
+                        var2['isRetry'] = var5;
+                        var5 = true;
+                        var2['useEmbeddedMethods'] = var5;
+                        var5 = function onComplete() {
+                            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+                                var3 = _closure2_slot1;
+                                var4 = _closure1_slot8;
+                                var2 = var4.success;
+                                var2 = var2.bind(var4)();
+                                var2 = null;
+                                if(!(var2 != var3)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
+                                var2 = undefined;
+                                var2 = var3.bind(var2)();
+case 8:
+                                var2 = _closure1_slot8;
+                                var1 = var2.start_verification_check;
+                                var1 = var1.bind(var2)();
+                                var1 = undefined;
+                                return var1;
+                            }
+                        };
                         var2['onComplete'] = var5;
                         var1 = var4.bind(var1)(var3, var2);
                         return var1;
@@ -165,7 +175,6 @@ case 2:
         };
         var4 = var4.bind(var1)(var3);
         var3 = {};
-        var7 = arg2;
         var3['onClose'] = var7;
         var2 = _closure1_slot6;
         var2 = var5.bind(var6)(var4, var3, var2);
