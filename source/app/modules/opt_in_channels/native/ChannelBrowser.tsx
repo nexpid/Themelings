@@ -869,7 +869,7 @@ case 37:
                         var16 = var3 == var15;
                         var14 = undefined;
                         if(var16) { _fun0006_ip = 38; continue _fun0006 }
-case 39:
+case 2:
                         var14 = var15.channel;
 case 38:
                         var1['channel'] = var14;

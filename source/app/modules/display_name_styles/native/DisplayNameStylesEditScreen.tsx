@@ -1,0 +1,706 @@
+// app/modules/display_name_styles/native/DisplayNameStylesEditScreen.tsx
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var11 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var11;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var11.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var12 = 1;
+    var7 = var6[var12];
+    var4 = metroImportAll;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.View;
+    var _closure1_slot5 = var7;
+    var4 = var4.ScrollView;
+    var _closure1_slot6 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.AnalyticEvents;
+    var _closure1_slot7 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.jsx;
+    var _closure1_slot8 = var7;
+    var4 = var4.jsxs;
+    var _closure1_slot9 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
+    var4 = {};
+    var9 = {};
+    var9['flex'] = var12;
+    var10 = 6;
+    var13 = var6[var10];
+    var13 = var11.bind(var1)(var13);
+    var13 = var13.colors;
+    var13 = var13.BG_BASE_PRIMARY;
+    var9['backgroundColor'] = var13;
+    var4['container'] = var9;
+    var9 = {};
+    var13 = var6[var10];
+    var13 = var11.bind(var1)(var13);
+    var13 = var13.spacing;
+    var13 = var13.PX_16;
+    var9['padding'] = var13;
+    var4['contentContainer'] = var9;
+    var9 = {};
+    var13 = var6[var10];
+    var13 = var11.bind(var1)(var13);
+    var13 = var13.spacing;
+    var13 = var13.PX_24;
+    var9['marginBottom'] = var13;
+    var4['section'] = var9;
+    var9 = {};
+    var13 = var6[var10];
+    var13 = var11.bind(var1)(var13);
+    var13 = var13.spacing;
+    var13 = var13.PX_8;
+    var9['marginBottom'] = var13;
+    var4['sectionTitle'] = var9;
+    var9 = {};
+    var13 = var6[var10];
+    var13 = var11.bind(var1)(var13);
+    var13 = var13.spacing;
+    var13 = var13.PX_16;
+    var9['padding'] = var13;
+    var13 = var6[var10];
+    var13 = var11.bind(var1)(var13);
+    var13 = var13.colors;
+    var13 = var13.BG_MOD_FAINT;
+    var9['backgroundColor'] = var13;
+    var13 = var6[var10];
+    var13 = var11.bind(var1)(var13);
+    var13 = var13.radii;
+    var13 = var13.md;
+    var9['borderRadius'] = var13;
+    var4['placeholderButton'] = var9;
+    var9 = {};
+    var13 = var6[var10];
+    var13 = var11.bind(var1)(var13);
+    var13 = var13.spacing;
+    var13 = var13.PX_16;
+    var9['padding'] = var13;
+    var13 = var6[var10];
+    var13 = var11.bind(var1)(var13);
+    var13 = var13.colors;
+    var13 = var13.BG_BASE_PRIMARY;
+    var9['backgroundColor'] = var13;
+    var9['borderTopWidth'] = var12;
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.colors;
+    var12 = var12.BORDER_FAINT;
+    var9['borderTopColor'] = var12;
+    var10 = var6[var10];
+    var10 = var11.bind(var1)(var10);
+    var10 = var10.spacing;
+    var10 = var10.PX_16;
+    var9['gap'] = var10;
+    var4['buttonContainer'] = var9;
+    var4 = var7.bind(var8)(var4);
+    var _closure1_slot10 = var4;
+    var4 = 27;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/display_name_styles/native/DisplayNameStylesEditScreen.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function DisplayNameStylesEditScreen() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+            var2 = _closure1_slot10;
+            var4 = undefined;
+            var7 = var2.bind(var4)();
+            var5 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var2 = 7;
+            var3 = var8[var2];
+            var6 = var5.bind(var4)(var3);
+            var3 = var6.useRoute;
+            var3 = var3.bind(var6)();
+            var2 = var8[var2];
+            var6 = var5.bind(var4)(var2);
+            var2 = var6.useNavigation;
+            var2 = var2.bind(var6)();
+            var _closure2_slot0 = var2;
+            var3 = var3.params;
+            var6 = var3.user;
+            var10 = var3.guildId;
+            var3 = 8;
+            var3 = var8[var3];
+            var5 = var5.bind(var4)(var3);
+            var3 = var5.useGuildMemberOrUserPendingDisplayNameStyles;
+            var3 = var3.bind(var5)(var6, var10);
+            var13 = var3.guildDisplayNameStyles;
+            var15 = var3.pendingDisplayNameStyles;
+            var5 = _closure1_slot1;
+            var3 = 9;
+            var3 = var8[var3];
+            var5 = var5.bind(var4)(var3);
+            var3 = {};
+            var6 = var6.id;
+            var3['userId'] = var6;
+            var3['guildId'] = var10;
+            var3['pendingDisplayNameStyles'] = var15;
+            var19 = var5.bind(var4)(var3);
+            var _closure2_slot1 = var19;
+            var6 = _closure1_slot4;
+            var5 = var6.useState;
+            var14 = null;
+            var8 = var14 == var19;
+            var3 = undefined;
+            if(var8) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var3 = var19.fontId;
+case 2:
+            if(!(var14 == var3)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            var11 = _closure1_slot0;
+            var12 = _closure1_slot2;
+            var8 = 10;
+            var8 = var12[var8];
+            var8 = var11.bind(var4)(var8);
+            var8 = var8.DisplayNameFont;
+            var3 = var8.DEFAULT;
+case 4:
+            var5 = var5.bind(var6)(var3);
+            var3 = _closure1_slot3;
+            var11 = 2;
+            var3 = var3.bind(var4)(var5, var11);
+            var18 = 0;
+            var8 = var3[var18];
+            var _closure2_slot2 = var8;
+            var6 = 1;
+            var3 = var3[var6];
+            var _closure2_slot3 = var3;
+            var12 = _closure1_slot4;
+            var5 = var12.useState;
+            var16 = var14 == var19;
+            var3 = undefined;
+            if(var16) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+            var3 = var19.effectId;
+case 6:
+            if(!(var14 == var3)) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
+            var17 = _closure1_slot0;
+            var20 = _closure1_slot2;
+            var16 = 11;
+            var16 = var20[var16];
+            var16 = var17.bind(var4)(var16);
+            var16 = var16.DisplayNameEffect;
+            var3 = var16.SOLID;
+case 8:
+            var5 = var5.bind(var12)(var3);
+            var3 = _closure1_slot3;
+            var3 = var3.bind(var4)(var5, var11);
+            var17 = var3[var18];
+            var _closure2_slot4 = var17;
+            var3 = var3[var6];
+            var _closure2_slot5 = var3;
+            var5 = _closure1_slot0;
+            var12 = _closure1_slot2;
+            var3 = 12;
+            var3 = var12[var3];
+            var5 = var5.bind(var4)(var3);
+            var3 = var5.useDisplayNameStylesEffectConfig;
+            var33 = var3.bind(var5)(var17);
+            var3 = var14 == var19;
+            var12 = undefined;
+            if(var3) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
+            var12 = var19.colors;
+case 10:
+            if(!(var14 == var12)) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
+            var12 = new Array(0);
+case 12:
+            var5 = _closure1_slot4;
+            var3 = var5.useState;
+            var16 = var12.length;
+            if(!(!(var16 > var18))) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
+            var12 = var33.defaultColors;
+case 14:
+            var5 = var3.bind(var5)(var12);
+            var3 = _closure1_slot3;
+            var5 = var3.bind(var4)(var5, var11);
+            var3 = var5[var18];
+            var _closure2_slot6 = var3;
+            var5 = var5[var6];
+            var _closure2_slot7 = var5;
+            var16 = _closure1_slot4;
+            var11 = var16.useMemo;
+            var6 = new Array(4);
+            var6[0] = var19;
+            var6[1] = var8;
+            var6[2] = var17;
+            var6[3] = var3;
+            var5 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+                    var3 = _closure2_slot2;
+                    var1 = _closure2_slot1;
+                    var6 = null;
+                    var4 = var6 == var1;
+                    var2 = undefined;
+                    var1 = undefined;
+                    if(var4) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
+                    var4 = _closure2_slot1;
+                    var1 = var4.fontId;
+case 16:
+                    var1 = var3 !== var1;
+                    if(var1) { _fun0002_ip = 18; continue _fun0002 }
+case 19:
+                    var4 = _closure2_slot4;
+                    var3 = _closure2_slot1;
+                    var5 = var6 == var3;
+                    var3 = undefined;
+                    if(var5) { _fun0002_ip = 20; continue _fun0002 }
+case 21:
+                    var5 = _closure2_slot1;
+                    var3 = var5.effectId;
+case 20:
+                    var1 = var4 !== var3;
+case 18:
+                    if(var1) { _fun0002_ip = 22; continue _fun0002 }
+case 23:
+                    var4 = _closure1_slot0;
+                    var5 = _closure1_slot2;
+                    var3 = 13;
+                    var3 = var5[var3];
+                    var5 = var4.bind(var2)(var3);
+                    var4 = var5.areArraysShallowEqual;
+                    var3 = _closure2_slot6;
+                    var8 = _closure2_slot1;
+                    var8 = var6 == var8;
+                    var2 = undefined;
+                    if(var8) { _fun0002_ip = 24; continue _fun0002 }
+case 25:
+                    var7 = _closure2_slot1;
+                    var2 = var7.colors;
+case 24:
+                    if(!(var6 == var2)) { _fun0002_ip = 26; continue _fun0002 }
+case 27:
+                    var2 = new Array(0);
+case 26:
+                    var2 = var4.bind(var5)(var3, var2);
+                    var1 = !var2;
+case 22:
+                    return var1;
+                }
+            };
+            var11 = var11.bind(var16)(var5, var6);
+            var24 = _closure1_slot0;
+            var25 = _closure1_slot2;
+            var5 = 14;
+            var5 = var25[var5];
+            var12 = var24.bind(var4)(var5);
+            var6 = var12.useDisplayNameStylesHandleApply;
+            var5 = {};
+            var5['hasChanges'] = var11;
+            var5['selectedFontId'] = var8;
+            var5['selectedEffectId'] = var17;
+            var5['selectedColors'] = var3;
+            var17 = var33.defaultColors;
+            var17 = var17[var18];
+            var5['defaultColor'] = var17;
+            var5['guildId'] = var10;
+            var17 = function onClose() {
+                var2 = _closure2_slot0;
+                var1 = var2.goBack;
+                var1 = var1.bind(var2)();
+                return var1;
+            };
+            var5['onClose'] = var17;
+            var12 = var6.bind(var12)(var5);
+            var17 = var16.useCallback;
+            var6 = function() {
+                var4 = _closure1_slot0;
+                var5 = _closure1_slot2;
+                var1 = 15;
+                var3 = var5[var1];
+                var1 = undefined;
+                var4 = var4.bind(var1)(var3);
+                var3 = var4.generateRandomDisplayNameStyles;
+                var3 = var3.bind(var4)();
+                var8 = var3.fontId;
+                var7 = var3.effectId;
+                var4 = var3.colors;
+                var6 = _closure2_slot3;
+                var6 = var6.bind(var1)(var8);
+                var6 = _closure2_slot5;
+                var6 = var6.bind(var1)(var7);
+                var3 = _closure2_slot7;
+                var3 = var3.bind(var1)(var4);
+                var4 = _closure1_slot1;
+                var3 = 16;
+                var3 = var5[var3];
+                var4 = var4.bind(var1)(var3);
+                var3 = var4.track;
+                var2 = _closure1_slot7;
+                var2 = var2.DISPLAY_NAME_STYLES_SURPRISE_ME;
+                var2 = var3.bind(var4)(var2);
+                return var1;
+            };
+            var5 = new Array(0);
+            var22 = var17.bind(var16)(var6, var5);
+            var17 = var16.useCallback;
+            var6 = new Array(1);
+            var6[0] = var2;
+            var5 = function() {
+                var4 = _closure1_slot0;
+                var5 = _closure1_slot2;
+                var1 = 17;
+                var3 = var5[var1];
+                var1 = undefined;
+                var6 = var4.bind(var1)(var3);
+                var4 = var6.setPendingDisplayNameStyles;
+                var3 = null;
+                var3 = var4.bind(var6)(var3);
+                var4 = _closure1_slot1;
+                var3 = 16;
+                var3 = var5[var3];
+                var4 = var4.bind(var1)(var3);
+                var3 = var4.track;
+                var2 = _closure1_slot7;
+                var2 = var2.DISPLAY_NAME_STYLES_REMOVED;
+                var2 = var3.bind(var4)(var2);
+                var3 = _closure2_slot0;
+                var2 = var3.goBack;
+                var2 = var2.bind(var3)();
+                return var1;
+            };
+            var23 = var17.bind(var16)(var5, var6);
+            var6 = var16.useCallback;
+            var5 = new Array(1);
+            var5[0] = var2;
+            var2 = function() {
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var1 = 18;
+                var2 = var2[var1];
+                var1 = undefined;
+                var4 = var3.bind(var1)(var2);
+                var3 = var4.setGuildMemberPendingDisplayNameStyles;
+                var2 = null;
+                var2 = var3.bind(var4)(var2);
+                var3 = _closure2_slot0;
+                var2 = var3.goBack;
+                var2 = var2.bind(var3)();
+                return var1;
+            };
+            var16 = var6.bind(var16)(var2, var5);
+            var17 = 19;
+            var2 = var25[var17];
+            var2 = var24.bind(var4)(var2);
+            var6 = var2.intl;
+            var5 = var6.string;
+            var29 = _closure1_slot1;
+            var2 = 20;
+            var2 = var25[var2];
+            var2 = var29.bind(var4)(var2);
+            var2 = var2.bind(var4)(var8);
+            var32 = var5.bind(var6)(var2);
+            var2 = var3.map;
+            var1 = function(arg1) {
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var1 = 21;
+                var2 = var2[var1];
+                var1 = undefined;
+                var3 = var3.bind(var1)(var2);
+                var2 = var3.int2hex;
+                var1 = arg1;
+                var1 = var2.bind(var3)(var1);
+                return var1;
+            };
+            var3 = var2.bind(var3)(var1);
+            var2 = var3.join;
+            var1 = ', ';
+            var31 = var2.bind(var3)(var1);
+            var3 = _closure1_slot9;
+            var2 = _closure1_slot5;
+            var1 = {};
+            var5 = var7.container;
+            var1['style'] = var5;
+            var6 = _closure1_slot6;
+            var5 = {};
+            var8 = var7.contentContainer;
+            var5['contentContainerStyle'] = var8;
+            var8 = {};
+            var18 = var7.section;
+            var8['style'] = var18;
+            var21 = _closure1_slot8;
+            var28 = 22;
+            var18 = var25[var28];
+            var18 = var24.bind(var4)(var18);
+            var26 = var18.Text;
+            var18 = {'variant': 'text-md/semibold', 'color': 'header-primary'};
+            var20 = var7.sectionTitle;
+            var18['style'] = var20;
+            var20 = var25[var17];
+            var20 = var24.bind(var4)(var20);
+            var34 = var20.intl;
+            var30 = var34.string;
+            var20 = 23;
+            var27 = var25[var20];
+            var27 = var29.bind(var4)(var27);
+            var27 = var27.nP0ngb;
+            var27 = var30.bind(var34)(var27);
+            var18['children'] = var27;
+            var26 = var21.bind(var4)(var26, var18);
+            var18 = new Array(2);
+            var18[0] = var26;
+            var26 = {};
+            var27 = var7.placeholderButton;
+            var26['style'] = var27;
+            var27 = var25[var28];
+            var27 = var24.bind(var4)(var27);
+            var30 = var27.Text;
+            var27 = {'variant': 'text-md/semibold', 'color': 'text-normal'};
+            var27['children'] = var32;
+            var27 = var21.bind(var4)(var30, var27);
+            var26['children'] = var27;
+            var26 = var21.bind(var4)(var2, var26);
+            var18[1] = var26;
+            var8['children'] = var18;
+            var18 = var3.bind(var4)(var2, var8);
+            var8 = new Array(3);
+            var8[0] = var18;
+            var18 = {};
+            var26 = var7.section;
+            var18['style'] = var26;
+            var26 = var25[var28];
+            var26 = var24.bind(var4)(var26);
+            var27 = var26.Text;
+            var26 = {'variant': 'text-md/semibold', 'color': 'header-primary'};
+            var30 = var7.sectionTitle;
+            var26['style'] = var30;
+            var30 = var25[var17];
+            var30 = var24.bind(var4)(var30);
+            var34 = var30.intl;
+            var32 = var34.string;
+            var30 = var25[var20];
+            var30 = var29.bind(var4)(var30);
+            var30 = var30.1wilM1;
+            var30 = var32.bind(var34)(var30);
+            var26['children'] = var30;
+            var27 = var21.bind(var4)(var27, var26);
+            var26 = new Array(2);
+            var26[0] = var27;
+            var27 = {};
+            var30 = var7.placeholderButton;
+            var27['style'] = var30;
+            var30 = var25[var28];
+            var30 = var24.bind(var4)(var30);
+            var32 = var30.Text;
+            var30 = {'variant': 'text-md/semibold', 'color': 'text-normal'};
+            var33 = var33.name;
+            var30['children'] = var33;
+            var30 = var21.bind(var4)(var32, var30);
+            var27['children'] = var30;
+            var27 = var21.bind(var4)(var2, var27);
+            var26[1] = var27;
+            var18['children'] = var26;
+            var18 = var3.bind(var4)(var2, var18);
+            var8[1] = var18;
+            var18 = {};
+            var26 = var7.section;
+            var18['style'] = var26;
+            var26 = var25[var28];
+            var26 = var24.bind(var4)(var26);
+            var27 = var26.Text;
+            var26 = {'variant': 'text-md/semibold', 'color': 'header-primary'};
+            var30 = var7.sectionTitle;
+            var26['style'] = var30;
+            var30 = var25[var17];
+            var30 = var24.bind(var4)(var30);
+            var33 = var30.intl;
+            var32 = var33.string;
+            var30 = var25[var20];
+            var30 = var29.bind(var4)(var30);
+            var30 = var30.JOpi7z;
+            var30 = var32.bind(var33)(var30);
+            var26['children'] = var30;
+            var27 = var21.bind(var4)(var27, var26);
+            var26 = new Array(2);
+            var26[0] = var27;
+            var27 = {};
+            var30 = var7.placeholderButton;
+            var27['style'] = var30;
+            var28 = var25[var28];
+            var28 = var24.bind(var4)(var28);
+            var30 = var28.Text;
+            var28 = {'variant': 'text-md/semibold', 'color': 'text-normal'};
+            var28['children'] = var31;
+            var28 = var21.bind(var4)(var30, var28);
+            var27['children'] = var28;
+            var27 = var21.bind(var4)(var2, var27);
+            var26[1] = var27;
+            var18['children'] = var26;
+            var18 = var3.bind(var4)(var2, var18);
+            var8[2] = var18;
+            var5['children'] = var8;
+            var6 = var3.bind(var4)(var6, var5);
+            var5 = new Array(2);
+            var5[0] = var6;
+            var6 = {};
+            var7 = var7.buttonContainer;
+            var6['style'] = var7;
+            var8 = 24;
+            var7 = var25[var8];
+            var7 = var24.bind(var4)(var7);
+            var18 = var7.Button;
+            var7 = {'text': null, 'onPress': null, 'variant': 'secondary', 'size': 'lg', 'grow': true, 'icon': null, 'iconPosition': 'start'};
+            var26 = var25[var17];
+            var26 = var24.bind(var4)(var26);
+            var28 = var26.intl;
+            var27 = var28.string;
+            var26 = var25[var20];
+            var26 = var29.bind(var4)(var26);
+            var26 = var26.NOGFds;
+            var26 = var27.bind(var28)(var26);
+            var7['text'] = var26;
+            var7['onPress'] = var22;
+            var22 = 25;
+            var22 = var25[var22];
+            var22 = var24.bind(var4)(var22);
+            var24 = var22.DiceIcon;
+            var22 = {};
+            var22 = var21.bind(var4)(var24, var22);
+            var7['icon'] = var22;
+            var18 = var21.bind(var4)(var18, var7);
+            var7 = new Array(4);
+            var7[0] = var18;
+            var18 = var14 == var10;
+            if(!var18) { _fun0001_ip = 28; continue _fun0001 }
+case 29:
+            var18 = var14 != var19;
+case 28:
+            if(!var18) { _fun0001_ip = 30; continue _fun0001 }
+case 31:
+            var22 = _closure1_slot8;
+            var24 = _closure1_slot0;
+            var25 = _closure1_slot2;
+            var19 = var25[var8];
+            var19 = var24.bind(var4)(var19);
+            var21 = var19.Button;
+            var19 = {'text': null, 'onPress': null, 'variant': 'secondary', 'size': 'lg', 'grow': true, 'icon': null, 'iconPosition': 'start'};
+            var26 = var25[var17];
+            var26 = var24.bind(var4)(var26);
+            var28 = var26.intl;
+            var27 = var28.string;
+            var29 = _closure1_slot1;
+            var26 = var25[var20];
+            var26 = var29.bind(var4)(var26);
+            var26 = var26.ymq8WQ;
+            var26 = var27.bind(var28)(var26);
+            var19['text'] = var26;
+            var19['onPress'] = var23;
+            var23 = 26;
+            var23 = var25[var23];
+            var23 = var24.bind(var4)(var23);
+            var24 = var23.DenyIcon;
+            var23 = {};
+            var23 = var22.bind(var4)(var24, var23);
+            var19['icon'] = var23;
+            var18 = var22.bind(var4)(var21, var19);
+case 30:
+            var7[1] = var18;
+            var10 = var14 != var10;
+            if(!var10) { _fun0001_ip = 32; continue _fun0001 }
+case 33:
+            var13 = var14 != var13;
+            if(var13) { _fun0001_ip = 34; continue _fun0001 }
+case 35:
+            var13 = var14 != var15;
+case 34:
+            var10 = var13;
+case 32:
+            if(!var10) { _fun0001_ip = 36; continue _fun0001 }
+case 37:
+            var15 = _closure1_slot8;
+            var18 = _closure1_slot0;
+            var19 = _closure1_slot2;
+            var13 = var19[var8];
+            var13 = var18.bind(var4)(var13);
+            var14 = var13.Button;
+            var13 = {'text': null, 'onPress': null, 'variant': 'secondary', 'size': 'lg', 'grow': true, 'icon': null, 'iconPosition': 'start'};
+            var21 = var19[var17];
+            var21 = var18.bind(var4)(var21);
+            var22 = var21.intl;
+            var21 = var22.string;
+            var23 = _closure1_slot1;
+            var20 = var19[var20];
+            var20 = var23.bind(var4)(var20);
+            var20 = var20.j/KRxc;
+            var20 = var21.bind(var22)(var20);
+            var13['text'] = var20;
+            var13['onPress'] = var16;
+            var16 = 26;
+            var16 = var19[var16];
+            var16 = var18.bind(var4)(var16);
+            var18 = var16.DenyIcon;
+            var16 = {};
+            var16 = var15.bind(var4)(var18, var16);
+            var13['icon'] = var16;
+            var10 = var15.bind(var4)(var14, var13);
+case 36:
+            var7[2] = var10;
+            var10 = _closure1_slot8;
+            var16 = _closure1_slot0;
+            var13 = _closure1_slot2;
+            var8 = var13[var8];
+            var8 = var16.bind(var4)(var8);
+            var9 = var8.Button;
+            var8 = {'text': null, 'onPress': null, 'disabled': null, 'variant': 'primary', 'size': 'lg', 'grow': true};
+            var14 = var13[var17];
+            var14 = var16.bind(var4)(var14);
+            var15 = var14.intl;
+            var14 = var15.string;
+            var13 = var13[var17];
+            var13 = var16.bind(var4)(var13);
+            var13 = var13.t;
+            var13 = var13.1Qm822;
+            var13 = var14.bind(var15)(var13);
+            var8['text'] = var13;
+            var8['onPress'] = var12;
+            var11 = !var11;
+            var8['disabled'] = var11;
+            var8 = var10.bind(var4)(var9, var8);
+            var7[3] = var8;
+            var6['children'] = var7;
+            var6 = var3.bind(var4)(var2, var6);
+            var5[1] = var6;
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
+        }
+    };
+    var3['default'] = var2;
+    return var1;
+})();

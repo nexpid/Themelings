@@ -251,7 +251,7 @@ case 39:
         }
     };
     var3['clickedOnVisibleImage'] = var4;
-    var2 = function getParentElementByClassName(arg1, arg2) {
+    var4 = function getParentElementByClassName(arg1, arg2) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var4 = arg2;
@@ -274,6 +274,29 @@ case 43:
             return var1;
         }
     };
-    var3['getParentElementByClassName'] = var2;
+    var3['getParentElementByClassName'] = var4;
+    var2 = function getParentElementByAttribute(arg1, arg2) {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+case 0:
+            var4 = arg2;
+            var1 = arg1;
+            var3 = var1.parentElement;
+            var2 = null;
+            if(!(var2 != var3)) { _fun0008_ip = 8; continue _fun0008 }
+case 42:
+            var1 = var3.getAttribute;
+            var5 = var1.bind(var3)(var4);
+            var1 = var3;
+            if(!(var2 == var5)) { _fun0008_ip = 44; continue _fun0008 }
+case 6:
+            var3 = var1.parentElement;
+            if(var2 != var3) { _fun0008_ip = 42; continue _fun0008 }
+case 8:
+            return var2;
+case 44:
+            return var1;
+        }
+    };
+    var3['getParentElementByAttribute'] = var2;
     return var1;
 })();

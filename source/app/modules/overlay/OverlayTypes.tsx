@@ -109,6 +109,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['INITIALIZING'] = var12;
     var12 = 'overlay_disabled';
     var2['OVERLAY_DISABLED'] = var12;
+    var12 = 'overlay_tearing_down';
+    var2['OVERLAY_TEARING_DOWN'] = var12;
     var12 = 'waiting_for_screen_type_resolution';
     var2['WAITING_FOR_SCREEN_TYPE_RESOLUTION'] = var12;
     var12 = 'waiting_for_module_tracking';

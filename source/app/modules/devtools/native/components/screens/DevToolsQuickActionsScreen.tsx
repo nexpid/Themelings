@@ -245,7 +245,9 @@ case 5:
             var1 = new Array(5);
             var3 = {'type': 'webauthn', 'challenge': '{}'};
             var1[0] = var3;
-            var3 = {'type': 'totp', 'backup_codes_allowed': true};
+            var3 = {};
+            var6 = 'totp';
+            var3['type'] = var6;
             var1[1] = var3;
             var3 = {};
             var6 = 'backup';

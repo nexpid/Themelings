@@ -722,13 +722,13 @@ case 37: // try_start_0
                                     var9 = var4;
                                     var3 = _closure4_slot1;
                                     var3 = var3.bind(var2)(var4);
-                                    SaveGenerator(address=44);
-case 17:
-                                    return var3;
+                                    SaveGenerator(address=45);
 case 38:
+                                    return var3;
+case 39:
                                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                                    if(var4) { _fun0008_ip = 39; continue _fun0008 }
-case 40:
+                                    if(var4) { _fun0008_ip = 40; continue _fun0008 }
+case 6:
                                     var5 = _closure1_slot0;
                                     var8 = _closure1_slot2;
                                     var4 = 13;
@@ -745,19 +745,19 @@ case 40:
                                     var4['emojiId'] = var9;
                                     var4['roles'] = var3;
                                     var4 = var5.bind(var8)(var4);
-                                    SaveGenerator(address=131);
+                                    SaveGenerator(address=132);
 case 41:
                                     return var4;
 case 42:
                                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
                                     if(var5) { _fun0008_ip = 43; continue _fun0008 }
-case 23: // try_end0
-                                    _fun0008_ip = 44; continue _fun0008;
+case 44: // try_end0
+                                    _fun0008_ip = 45; continue _fun0008;
 case 43:
                                     return var4;
-case 39:
+case 40:
                                     return var3;
-case 45: // catch_target0
+case 46: // catch_target0
                                     CatchBlockStart(arg_register=4);
                                     var7 = var5;
                                     var8 = _closure1_slot1;
@@ -766,8 +766,8 @@ case 45: // catch_target0
                                     var4 = var9[var4];
                                     var4 = var8.bind(var2)(var4);
                                     var4 = var5 instanceof var4;
-                                    if(!var4) { _fun0008_ip = 44; continue _fun0008 }
-case 46:
+                                    if(!var4) { _fun0008_ip = 45; continue _fun0008 }
+case 47:
                                     var5 = _closure1_slot0;
                                     var8 = _closure1_slot2;
                                     var4 = 29;
@@ -779,8 +779,8 @@ case 46:
                                     var8 = var7.bind(var8)();
                                     var6 = var8;
                                     var7 = null;
-                                    if(!(var7 == var8)) { _fun0008_ip = 47; continue _fun0008 }
-case 48:
+                                    if(!(var7 == var8)) { _fun0008_ip = 48; continue _fun0008 }
+case 49:
                                     var9 = _closure1_slot0;
                                     var10 = _closure1_slot2;
                                     var3 = 15;
@@ -793,12 +793,12 @@ case 48:
                                     var3 = var3.t;
                                     var3 = var3.R0RpRX;
                                     var3 = var7.bind(var8)(var3);
-                                    _fun0008_ip = 49; continue _fun0008;
-case 47:
+                                    _fun0008_ip = 50; continue _fun0008;
+case 48:
                                     var3 = var6;
-case 49:
+case 50:
                                     var3 = var4.bind(var5)(var3);
-case 44:
+case 45:
                                     return var2;
 case 35:
                                     return var1;
@@ -862,7 +862,7 @@ case 0:
                 var2 = arg1;
                 var2 = var2.revision;
                 if(!(var2 < var3)) { _fun0009_ip = 6; continue _fun0009 }
-case 50:
+case 51:
                 var3 = _closure1_slot19;
                 var2 = var1.id;
                 var1 = undefined;
@@ -956,19 +956,19 @@ case 0:
                 var5 = var5.disabled;
                 var6 = undefined;
                 var9 = var6 !== var5;
-                if(!var9) { _fun0010_ip = 51; continue _fun0010 }
-case 52:
+                if(!var9) { _fun0010_ip = 52; continue _fun0010 }
+case 53:
                 var9 = var5;
-case 51:
+case 52:
                 var5 = null;
                 var7 = var5 != var7;
                 var11 = 72;
-                if(!var7) { _fun0010_ip = 53; continue _fun0010 }
-case 54:
+                if(!var7) { _fun0010_ip = 54; continue _fun0010 }
+case 55:
                 var11 = 144;
-case 53:
-                if(!(var5 != var3)) { _fun0010_ip = 55; continue _fun0010 }
-case 56:
+case 54:
+                if(!(var5 != var3)) { _fun0010_ip = 56; continue _fun0010 }
+case 57:
                 var1 = var1.bind(var6)(var3, var4);
                 var7 = {};
                 var3 = 12;
@@ -992,8 +992,8 @@ case 56:
                 var1 = var4.isAndroid;
                 var1 = var1.bind(var4)();
                 var5 = _closure1_slot16;
-                if(var1) { _fun0010_ip = 57; continue _fun0010 }
-case 58:
+                if(var1) { _fun0010_ip = 58; continue _fun0010 }
+case 59:
                 var4 = _closure1_slot1;
                 var10 = _closure1_slot2;
                 var1 = 32;
@@ -1009,10 +1009,10 @@ case 58:
                 var11 = 'bounceFirstRowOnMount';
                 var1[var11] = var10;
                 var11 = undefined;
-                if(var9) { _fun0010_ip = 59; continue _fun0010 }
-case 60:
+                if(var9) { _fun0010_ip = 60; continue _fun0010 }
+case 61:
                 var11 = var2.renderQuickActions;
-case 59:
+case 60:
                 var9 = 'renderQuickActions';
                 var1[var9] = var11;
                 var9 = 'preventSwipeRight';
@@ -1022,8 +1022,8 @@ case 59:
                 var8 = 'contentInset';
                 var1[var8] = var9;
                 var1 = var5.bind(var6)(var4, var1);
-                _fun0010_ip = 61; continue _fun0010;
-case 57:
+                _fun0010_ip = 62; continue _fun0010;
+case 58:
                 var4 = _closure1_slot13;
                 var3 = {};
                 var13 = var3;
@@ -1034,9 +1034,9 @@ case 57:
                 var7 = 'contentContainerStyle';
                 var3[var7] = var8;
                 var1 = var5.bind(var6)(var4, var3);
-case 61:
+case 62:
                 return var1;
-case 55:
+case 56:
                 var1 = var2.renderLoading;
                 var1 = var1.bind(var2)();
                 return var1;
@@ -1108,14 +1108,14 @@ case 0:
                 _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
                     var2 = _closure2_slot1;
-                    if(!var2) { _fun0012_ip = 62; continue _fun0012 }
+                    if(!var2) { _fun0012_ip = 63; continue _fun0012 }
 case 36:
                     var4 = _closure2_slot2;
                     var3 = undefined;
                     var2 = var3 !== var4;
-case 62:
-                    if(!var2) { _fun0012_ip = 63; continue _fun0012 }
-case 64:
+case 63:
+                    if(!var2) { _fun0012_ip = 64; continue _fun0012 }
+case 65:
                     var3 = _closure2_slot3;
                     var2 = var3.setOptions;
                     var1 = {};
@@ -1145,15 +1145,15 @@ case 64:
                     };
                     var1['headerTitle'] = var4;
                     var1 = var2.bind(var3)(var1);
-case 63:
+case 64:
                     var1 = undefined;
                     return var1;
                 }
             };
             var1 = var3.bind(var4)(var1, var2);
             var1 = null;
-            if(!(var1 != var14)) { _fun0011_ip = 65; continue _fun0011 }
-case 66:
+            if(!(var1 != var14)) { _fun0011_ip = 66; continue _fun0011 }
+case 67:
             var8 = _closure1_slot0;
             var10 = _closure1_slot2;
             var2 = 17;
@@ -1198,7 +1198,7 @@ case 66:
             var2['children'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
-case 65:
+case 66:
             return var1;
         }
     };

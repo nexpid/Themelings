@@ -572,7 +572,7 @@ case 79:
         var17 = var4.Set;
         var5 = var17.prototype;
         var16 = Object.create(var5, {constructor: {value: var17}});
-        var21 = ['jpg', 'jpeg', 'png'];
+        var21 = ['jpg', 'jpeg', 'jfif', 'png'];
         var22 = var16;
         var5 = new var22[var17](var21, var20);
         var5 = var5 instanceof Object ? var5 : var16;
@@ -580,7 +580,7 @@ case 79:
         var17 = var4.Set;
         var5 = var17.prototype;
         var16 = Object.create(var5, {constructor: {value: var17}});
-        var21 = ['jpg', 'jpeg', 'png', 'webp', 'gif', 'tiff', 'bmp', 'avif'];
+        var21 = ['jpg', 'jpeg', 'jfif', 'png', 'webp', 'gif', 'tiff', 'bmp', 'avif'];
         var22 = var16;
         var5 = new var22[var17](var21, var20);
         var5 = var5 instanceof Object ? var5 : var16;
@@ -5109,17 +5109,56 @@ case 237:
             }
         };
         var10['InputEventServiceSetAllowed'] = var14;
-        var14 = function isModuleVersionAtLeast(arg1, arg2) {
+        var14 = function ToolServiceSetStatusCallback(arg1) {
             _fun0119: for(var _fun0119_ip = 0; ; ) switch(_fun0119_ip) {
+case 0:
+                var2 = this;
+                var1 = var2.getDiscordUtils;
+                var1 = var1.bind(var2)();
+                var3 = var1.toolServiceSetStatusCallback;
+                var1 = null;
+                if(!(var1 != var3)) { _fun0119_ip = 96; continue _fun0119 }
+case 107:
+                var2 = undefined;
+                var1 = arg1;
+                var1 = var3.bind(var2)(var1);
+case 96:
+                var1 = undefined;
+                return var1;
+            }
+        };
+        var10['ToolServiceSetStatusCallback'] = var14;
+        var14 = function ToolServiceSetAllowed(arg1) {
+            _fun0120: for(var _fun0120_ip = 0; ; ) switch(_fun0120_ip) {
+case 0:
+                var2 = this;
+                var1 = var2.getDiscordUtils;
+                var1 = var1.bind(var2)();
+                var3 = var1.toolServiceSetAllowed;
+                var1 = null;
+                if(!(var1 == var3)) { _fun0120_ip = 237; continue _fun0120 }
+case 107:
+                var1 = undefined;
+                return var1;
+case 237:
+                var2 = undefined;
+                var1 = arg1;
+                var1 = var3.bind(var2)(var1);
+                return var1;
+            }
+        };
+        var10['ToolServiceSetAllowed'] = var14;
+        var14 = function isModuleVersionAtLeast(arg1, arg2) {
+            _fun0121: for(var _fun0121_ip = 0; ; ) switch(_fun0121_ip) {
 case 0:
                 var1 = arg2;
                 var4 = this;
                 var3 = _closure1_slot9;
                 var2 = null;
-                if(!(var2 == var3)) { _fun0119_ip = 237; continue _fun0119 }
+                if(!(var2 == var3)) { _fun0121_ip = 237; continue _fun0121 }
 case 248:
                 var5 = [0, 0, 0];
-                _fun0119_ip = 126; continue _fun0119;
+                _fun0121_ip = 126; continue _fun0121;
 case 237:
                 var5 = _closure1_slot9;
 case 126:
@@ -5134,21 +5173,21 @@ case 126:
                 var5 = var2 == var11;
                 var7 = undefined;
                 var10 = undefined;
-                if(var5) { _fun0119_ip = 130; continue _fun0119 }
+                if(var5) { _fun0121_ip = 130; continue _fun0121 }
 case 156:
                 var5 = arg1;
                 var10 = var11[var5];
 case 130:
                 var11 = var2 != var10;
                 var5 = 0;
-                if(!var11) { _fun0119_ip = 11; continue _fun0119 }
+                if(!var11) { _fun0121_ip = 11; continue _fun0121 }
 case 112:
                 var5 = var10;
 case 11:
                 var5 = var6.bind(var3)(var5);
                 var4 = var4.releaseChannel;
                 var6 = var1[var4];
-                if(!(var2 == var6)) { _fun0119_ip = 100; continue _fun0119 }
+                if(!(var2 == var6)) { _fun0121_ip = 100; continue _fun0121 }
 case 121:
                 var6 = var1.stable;
 case 100:
@@ -5160,7 +5199,7 @@ case 100:
                 var1 = var2.done;
                 var4 = 2;
                 var3 = 1;
-                if(var1) { _fun0119_ip = 249; continue _fun0119 }
+                if(var1) { _fun0121_ip = 249; continue _fun0121 }
 case 15:
                 var10 = var2.value;
                 var1 = _closure1_slot3;
@@ -5168,17 +5207,17 @@ case 15:
                 var1 = var10[var8];
                 var10 = var10[var3];
                 var11 = var6[var1];
-                if(!(!(var10 > var11))) { _fun0119_ip = 250; continue _fun0119 }
+                if(!(!(var10 > var11))) { _fun0121_ip = 250; continue _fun0121 }
 case 39:
                 var1 = var6[var1];
-                if(!(!(var10 < var1))) { _fun0119_ip = 154; continue _fun0119 }
+                if(!(!(var10 < var1))) { _fun0121_ip = 154; continue _fun0121 }
 case 251:
                 var10 = var5.bind(var7)();
                 var1 = var10.done;
                 var2 = var10;
-                if(var1) { _fun0119_ip = 249; continue _fun0119 }
+                if(var1) { _fun0121_ip = 249; continue _fun0121 }
 case 252:
-                _fun0119_ip = 15; continue _fun0119;
+                _fun0121_ip = 15; continue _fun0121;
 case 154:
                 var1 = false;
                 return var1;
@@ -5192,11 +5231,11 @@ case 249:
         };
         var10['isModuleVersionAtLeast'] = var14;
         var14 = function fetchRiotGamesLiveClientData(arg1) {
-            _fun0120: for(var _fun0120_ip = 0; ; ) switch(_fun0120_ip) {
+            _fun0122: for(var _fun0122_ip = 0; ; ) switch(_fun0122_ip) {
 case 0:
                 var5 = arguments[1];
                 var4 = undefined;
-                if(!(var5 === var4)) { _fun0120_ip = 215; continue _fun0120 }
+                if(!(var5 === var4)) { _fun0122_ip = 215; continue _fun0122 }
 case 63:
                 var5 = {};
 case 215:
@@ -5206,7 +5245,7 @@ case 215:
                 var1 = var6[var1];
                 var1 = var3.bind(var4)(var1);
                 var1 = var1.isPlatformEmbedded;
-                if(var1) { _fun0120_ip = 11; continue _fun0120 }
+                if(var1) { _fun0122_ip = 11; continue _fun0122 }
 case 125:
                 var1 = global;
                 var4 = var1.Promise;
@@ -5219,19 +5258,19 @@ case 125:
                 var1 = new var10[var7](var9, var8);
                 var1 = var1 instanceof Object ? var1 : var6;
                 var1 = var3.bind(var4)(var1);
-                _fun0120_ip = 20; continue _fun0120;
+                _fun0122_ip = 20; continue _fun0122;
 case 11:
                 var3 = _closure1_slot6;
                 var4 = var3.riotGames;
                 var3 = null;
-                if(!(var3 != var4)) { _fun0120_ip = 253; continue _fun0120 }
+                if(!(var3 != var4)) { _fun0122_ip = 253; continue _fun0122 }
 case 254:
                 var2 = _closure1_slot6;
                 var4 = var2.riotGames;
                 var3 = var4.fetchLiveClientData;
                 var2 = arg1;
                 var2 = var3.bind(var4)(var2, var5);
-                _fun0120_ip = 255; continue _fun0120;
+                _fun0122_ip = 255; continue _fun0122;
 case 253:
                 var3 = global;
                 var5 = var3.Promise;
@@ -5252,7 +5291,7 @@ case 20:
         };
         var10['fetchRiotGamesLiveClientData'] = var14;
         var14 = function appViewed() {
-            _fun0121: for(var _fun0121_ip = 0; ; ) switch(_fun0121_ip) {
+            _fun0123: for(var _fun0123_ip = 0; ; ) switch(_fun0123_ip) {
 case 0:
                 var4 = this;
                 var3 = _closure1_slot0;
@@ -5263,7 +5302,7 @@ case 0:
                 var3 = var3.bind(var1)(var2);
                 var2 = var3.isDesktop;
                 var2 = var2.bind(var3)();
-                if(!var2) { _fun0121_ip = 81; continue _fun0121 }
+                if(!var2) { _fun0123_ip = 81; continue _fun0123 }
 case 80:
                 var3 = var4.send;
                 var2 = 'APP_VIEWED';

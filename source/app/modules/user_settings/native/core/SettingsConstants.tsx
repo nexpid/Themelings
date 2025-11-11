@@ -208,6 +208,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['PROFILE_CUSTOMIZATION'] = var1;
     var1 = 'PREMIUM_PROFILE_CUSTOMIZATION_TRY_IT_OUT';
     var2['PREMIUM_PROFILE_CUSTOMIZATION_TRY_IT_OUT'] = var1;
+    var1 = 'DISPLAY_NAME_STYLES';
+    var2['DISPLAY_NAME_STYLES'] = var1;
     var1 = 'CHAT';
     var2['CHAT'] = var1;
     var1 = 'DISPLAY_MEDIA_LINKS';

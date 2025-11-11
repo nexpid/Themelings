@@ -71,8 +71,8 @@ case 0:
                 var1 = var1.bind(var2)();
                 return var1;
             };
-            var25 = var5.bind(var6)(var2, var1);
-            var _closure2_slot0 = var25;
+            var26 = var5.bind(var6)(var2, var1);
+            var _closure2_slot0 = var26;
             var1 = var4[var10];
             var6 = var3.bind(var9)(var1);
             var5 = var6.useStateFromStoresObject;
@@ -109,10 +109,10 @@ case 0:
                 return var1;
             };
             var6 = var5.bind(var6)(var2, var1);
-            var24 = var6.pendingAvatar;
-            var _closure2_slot1 = var24;
-            var23 = var6.pendingNickname;
-            var _closure2_slot2 = var23;
+            var25 = var6.pendingAvatar;
+            var _closure2_slot1 = var25;
+            var24 = var6.pendingNickname;
+            var _closure2_slot2 = var24;
             var20 = var6.pendingBanner;
             var _closure2_slot3 = var20;
             var19 = var6.pendingBio;
@@ -124,12 +124,14 @@ case 0:
             var2 = var6.guild;
             var _closure2_slot7 = var2;
             var12 = var6.formState;
-            var22 = var6.pendingAvatarDecoration;
-            var _closure2_slot8 = var22;
+            var23 = var6.pendingAvatarDecoration;
+            var _closure2_slot8 = var23;
             var16 = var6.pendingProfileEffect;
             var _closure2_slot9 = var16;
-            var21 = var6.pendingNameplate;
-            var _closure2_slot10 = var21;
+            var22 = var6.pendingNameplate;
+            var _closure2_slot10 = var22;
+            var21 = var6.pendingDisplayNameStyles;
+            var _closure2_slot11 = var21;
             var1 = 8;
             var1 = var4[var1];
             var4 = var3.bind(var9)(var1);
@@ -171,14 +173,14 @@ case 4:
             };
             var8 = var14.bind(var15)(var8, var3);
             var3 = {};
-            var29 = var3;
-            var28 = var13;
-            var13 = copyDataProperties(var29, var28);
-            var28 = var6.errors;
-            var29 = var3;
-            var13 = copyDataProperties(var29, var28);
-            var27 = _closure1_slot4;
-            var15 = var27.useMemo;
+            var30 = var3;
+            var29 = var13;
+            var13 = copyDataProperties(var30, var29);
+            var29 = var6.errors;
+            var30 = var3;
+            var13 = copyDataProperties(var30, var29);
+            var28 = _closure1_slot4;
+            var15 = var28.useMemo;
             var14 = function() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
@@ -212,14 +214,14 @@ case 4:
                 return var1;
             };
             var13 = new Array(0);
-            var15 = var15.bind(var27)(var14, var13);
-            var _closure2_slot11 = var15;
-            var26 = var27.useEffect;
+            var15 = var15.bind(var28)(var14, var13);
+            var _closure2_slot12 = var15;
+            var27 = var28.useEffect;
             var14 = new Array(1);
             var14[0] = var15;
             var13 = function() {
                 var1 = function() {
-                    var2 = _closure2_slot11;
+                    var2 = _closure2_slot12;
                     var1 = var2.cancel;
                     var1 = var1.bind(var2)();
                     var4 = _closure1_slot1;
@@ -239,13 +241,13 @@ case 4:
                 };
                 return var1;
             };
-            var13 = var26.bind(var27)(var13, var14);
+            var13 = var27.bind(var28)(var13, var14);
             var14 = _closure1_slot1;
             var13 = 12;
             var13 = var1[var13];
             var13 = var14.bind(var9)(var13);
             var13 = var13.bind(var9)();
-            var _closure2_slot12 = var13;
+            var _closure2_slot13 = var13;
             var1 = var1[var10];
             var13 = var4.bind(var9)(var1);
             var10 = var13.useStateFromStores;
@@ -255,7 +257,7 @@ case 4:
             var1 = function() {
                 var3 = _closure1_slot7;
                 var2 = var3.getGuild;
-                var1 = _closure2_slot12;
+                var1 = _closure2_slot13;
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
@@ -267,7 +269,7 @@ case 7:
             var1 = var1.CLOSED;
             var10 = var12 === var1;
 case 6:
-            var _closure2_slot13 = var10;
+            var _closure2_slot14 = var10;
             var1 = {};
             var14 = _closure1_slot4;
             var13 = var14.useCallback;
@@ -280,7 +282,7 @@ case 0:
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                         if(var2) { _fun0003_ip = 8; continue _fun0003 }
 case 9:
-                        var2 = _closure2_slot13;
+                        var2 = _closure2_slot14;
                         if(var2) { _fun0003_ip = 10; continue _fun0003 }
 case 11:
                         var2 = _closure2_slot0;
@@ -303,6 +305,8 @@ case 12:
                         var7['pendingAvatarDecoration'] = var12;
                         var12 = _closure2_slot10;
                         var7['pendingNameplate'] = var12;
+                        var12 = _closure2_slot11;
+                        var7['pendingDisplayNameStyles'] = var12;
                         var14 = var10.bind(var11)(var7);
                         var2 = var4[var2];
                         var4 = var3.bind(var8)(var2);
@@ -345,7 +349,7 @@ case 16:
                         var2 = var13.id;
 case 15:
                         var2 = var4.bind(var11)(var2, var14);
-                        SaveGenerator(address=274);
+                        SaveGenerator(address=283);
 case 17:
                         return var2;
 case 18:
@@ -449,7 +453,7 @@ case 42:
                         var3 = var13.id;
 case 41:
                         var3 = var7.bind(var11)(var12, var3);
-                        SaveGenerator(address=604);
+                        SaveGenerator(address=613);
 case 43:
                         return var3;
 case 44:
@@ -507,7 +511,7 @@ case 55:
 case 39:
                         if(!var4) { _fun0003_ip = 57; continue _fun0003 }
 case 58:
-                        var6 = _closure2_slot11;
+                        var6 = _closure2_slot12;
                         var5 = var6.delay;
                         var5 = var5.bind(var6)();
 case 57:
@@ -526,26 +530,27 @@ case 8:
                 return var1;
             };
             var12 = var12.bind(var9)(var11);
-            var11 = new Array(13);
+            var11 = new Array(14);
             var11[0] = var10;
-            var11[1] = var25;
-            var11[2] = var24;
-            var11[3] = var23;
-            var11[4] = var22;
-            var11[5] = var21;
-            var11[6] = var20;
-            var11[7] = var19;
-            var11[8] = var18;
-            var11[9] = var17;
-            var11[10] = var16;
+            var11[1] = var26;
+            var11[2] = var25;
+            var11[3] = var24;
+            var11[4] = var23;
+            var11[5] = var22;
+            var11[6] = var21;
+            var11[7] = var20;
+            var11[8] = var19;
+            var11[9] = var18;
+            var11[10] = var17;
+            var11[11] = var16;
             var17 = var5 == var2;
             var16 = undefined;
             if(var17) { _fun0001_ip = 59; continue _fun0001 }
 case 60:
             var16 = var2.id;
 case 59:
-            var11[11] = var16;
-            var11[12] = var15;
+            var11[12] = var16;
+            var11[13] = var15;
             var11 = var13.bind(var14)(var12, var11);
             var1['handleSubmit'] = var11;
             var1['isDisabled'] = var10;
@@ -557,9 +562,9 @@ case 59:
             var7 = var8.bind(var9)(var7);
             var7 = var7.resetAllPending;
             var1['resetPending'] = var7;
-            var29 = var1;
-            var28 = var6;
-            var6 = copyDataProperties(var29, var28);
+            var30 = var1;
+            var29 = var6;
+            var6 = copyDataProperties(var30, var29);
             if(!(var5 != var2)) { _fun0001_ip = 61; continue _fun0001 }
 case 62:
             var4 = var2;

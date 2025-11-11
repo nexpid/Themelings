@@ -334,10 +334,10 @@ case 0:
                 var1 = null;
                 var3 = var1 == var2;
                 var1 = undefined;
-                if(var3) { _fun0004_ip = 5; continue _fun0004 }
-case 11:
+                if(var3) { _fun0004_ip = 11; continue _fun0004 }
+case 12:
                 var1 = var2.emoji;
-case 5:
+case 11:
                 return var1;
             }
         };
@@ -378,18 +378,18 @@ case 5:
 case 0:
             var3 = arg1;
             var2 = arg3;
-            if(var2) { _fun0005_ip = 12; continue _fun0005 }
-case 13:
+            if(var2) { _fun0005_ip = 13; continue _fun0005 }
+case 14:
             var5 = _closure1_slot9;
             var4 = undefined;
             var2 = arg2;
             var2 = var5.bind(var4)(var3, var2);
-            _fun0005_ip = 14; continue _fun0005;
-case 12:
+            _fun0005_ip = 15; continue _fun0005;
+case 13:
             var2 = _closure1_slot12;
             var1 = undefined;
             var1 = var2.bind(var1)(var3);
-case 14:
+case 15:
             var1 = undefined;
             return var1;
         }
@@ -407,22 +407,22 @@ case 14:
 case 0:
                 var2 = arg1;
                 var3 = _closure2_slot1;
-                if(var3) { _fun0006_ip = 15; continue _fun0006 }
-case 16:
+                if(var3) { _fun0006_ip = 16; continue _fun0006 }
+case 17:
                 var3 = var2.messageSendConfetti;
                 var1 = _closure2_slot0;
                 var3 = var3[var1];
                 var1 = null;
                 var4 = var1 == var3;
                 var1 = undefined;
-                if(var4) { _fun0006_ip = 17; continue _fun0006 }
-case 18:
-                var1 = var3.emoji;
-case 17:
-                _fun0006_ip = 19; continue _fun0006;
-case 15:
-                var1 = var2.messageReactionConfetti;
+                if(var4) { _fun0006_ip = 18; continue _fun0006 }
 case 19:
+                var1 = var3.emoji;
+case 18:
+                _fun0006_ip = 20; continue _fun0006;
+case 16:
+                var1 = var2.messageReactionConfetti;
+case 20:
                 return var1;
             }
         };
@@ -446,16 +446,16 @@ case 0:
                 var3 = var2 == var1;
                 var2 = undefined;
                 var4 = undefined;
-                if(var3) { _fun0007_ip = 18; continue _fun0007 }
-case 20:
+                if(var3) { _fun0007_ip = 19; continue _fun0007 }
+case 21:
                 var4 = var1.state;
-case 18:
+case 19:
                 var3 = _closure1_slot4;
                 var3 = var3.SelectingEmoji;
-                if(!(var4 !== var3)) { _fun0007_ip = 21; continue _fun0007 }
-case 22:
+                if(!(var4 !== var3)) { _fun0007_ip = 22; continue _fun0007 }
+case 23:
                 return var2;
-case 21:
+case 22:
                 var1 = var1.hasAutoPopped;
                 return var1;
             }
@@ -469,27 +469,27 @@ case 21:
 case 0:
             var4 = arg1;
             var1 = arg2;
-            if(var1) { _fun0008_ip = 23; continue _fun0008 }
-case 24:
+            if(var1) { _fun0008_ip = 24; continue _fun0008 }
+case 25:
             var1 = _closure1_slot11;
             var3 = undefined;
             var1 = var1.bind(var3)(var4);
             var2 = _closure1_slot10;
             var4 = var2.bind(var3)(var4);
-            if(!var1) { _fun0008_ip = 25; continue _fun0008 }
-case 26:
+            if(!var1) { _fun0008_ip = 26; continue _fun0008 }
+case 27:
             var3 = 0;
             var2 = arg3;
             var2 = var3 === var2;
             if(var2) { _fun0008_ip = 4; continue _fun0008 }
-case 27:
+case 2:
             var3 = null;
             var2 = var3 == var4;
 case 4:
             var1 = var2;
-case 25:
+case 26:
             return var1;
-case 23:
+case 24:
             var1 = false;
             return var1;
         }

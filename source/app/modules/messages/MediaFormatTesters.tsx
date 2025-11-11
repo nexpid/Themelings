@@ -77,7 +77,7 @@ case 4:
             }
         };
         var _closure1_slot5 = var4;
-        var4 = /\.(png|jpe?g|webp|gif|heic|heif|dng|avif)$/i;
+        var4 = /\.(png|jpe?g|jfif|webp|gif|heic|heif|dng|avif)$/i;
         var _closure1_slot6 = var4;
         var4 = /\.(webp|gif|avif)$/i;
         var _closure1_slot7 = var4;

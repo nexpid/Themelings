@@ -319,7 +319,7 @@ case 11:
                                 var2 = _closure2_slot1;
                                 var2 = var2.emoji;
                                 var2 = var6.bind(var7)(var2);
-                                SaveGenerator(address=80);
+                                SaveGenerator(address=82);
 case 12:
                                 return var2;
 case 13:
@@ -338,7 +338,7 @@ case 15:
                                 var3['emoji'] = var8;
                                 var3['emojiSource'] = var2;
                                 var3 = var6.bind(var7)(var3);
-                                SaveGenerator(address=144);
+                                SaveGenerator(address=148);
 case 16:
                                 return var3;
 case 17:

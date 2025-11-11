@@ -339,7 +339,7 @@ case 36:
     var _closure1_slot11 = var7;
     var4 = var4.GuildFeatures;
     var _closure1_slot12 = var4;
-    var4 = 13;
+    var4 = 15;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -758,7 +758,7 @@ case 75:
         }
     };
     var3['getDisabledActions'] = var4;
-    var2 = function useDisabledActions(arg1) {
+    var4 = function useDisabledActions(arg1) {
         _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
             var7 = arg1;
@@ -870,6 +870,54 @@ case 101:
             return var1;
         }
     };
-    var3['useDisabledActions'] = var2;
+    var3['useDisabledActions'] = var4;
+    var2 = function useShowAntiRaidInGuildNotifSettings(arg1) {
+        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+case 0:
+            var1 = arg1;
+            var _closure2_slot0 = var1;
+            var5 = _closure1_slot0;
+            var7 = _closure1_slot3;
+            var1 = 13;
+            var1 = var7[var1];
+            var4 = undefined;
+            var8 = var5.bind(var4)(var1);
+            var3 = var8.useShowRedesignedNotifications;
+            var1 = 'useShowAntiRaidInGuildNotifSettings';
+            var1 = var3.bind(var8)(var1);
+            var3 = 8;
+            var3 = var7[var3];
+            var5 = var5.bind(var4)(var3);
+            var4 = var5.useStateFromStores;
+            var7 = _closure1_slot6;
+            var3 = new Array(2);
+            var3[0] = var7;
+            var6 = _closure1_slot5;
+            var3[1] = var6;
+            var2 = function() {
+                var4 = _closure1_slot5;
+                var3 = var4.getGuild;
+                var2 = _closure2_slot0;
+                var4 = var3.bind(var4)(var2);
+                var5 = _closure1_slot0;
+                var3 = _closure1_slot3;
+                var2 = 14;
+                var3 = var3[var2];
+                var2 = undefined;
+                var3 = var5.bind(var2)(var3);
+                var2 = var3.canReportRaid;
+                var1 = _closure1_slot6;
+                var1 = var2.bind(var3)(var4, var1);
+                return var1;
+            };
+            var2 = var4.bind(var5)(var3, var2);
+            if(!var1) { _fun0013_ip = 70; continue _fun0013 }
+case 102:
+            var1 = var2;
+case 70:
+            return var1;
+        }
+    };
+    var3['useShowAntiRaidInGuildNotifSettings'] = var2;
     return var1;
 })();

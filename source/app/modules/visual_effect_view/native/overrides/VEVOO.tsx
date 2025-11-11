@@ -156,6 +156,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10 = var10.XSmallIcon;
         var6['IconComponent'] = var10;
         var6['onPress'] = var9;
+        var9 = 'Close';
+        var6['accessibilityLabel'] = var9;
         var6 = var8.bind(var4)(var7, var6);
         var5[1] = var6;
         var1['children'] = var5;

@@ -47,13 +47,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 7;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.Permissions;
-    var _closure1_slot10 = var4;
-    var4 = 8;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
     var4 = var4.STAGE_BOOSTING_SHEET_KEY;
-    var _closure1_slot11 = var4;
+    var _closure1_slot10 = var4;
     var4 = 19;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -112,7 +107,7 @@ case 12:
 case 16:
             var9 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var3 = 9;
+            var3 = 8;
             var3 = var10[var3];
             var11 = var9.bind(var8)(var3);
             var10 = var11.isChannelFull;
@@ -128,7 +123,7 @@ case 16:
 case 18:
             var10 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var3 = 10;
+            var3 = 9;
             var3 = var12[var3];
             var10 = var10.bind(var8)(var3);
             var3 = var10.canLurkerListen;
@@ -137,31 +132,27 @@ case 18:
 case 19:
             var10 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var3 = 11;
+            var3 = 10;
             var3 = var12[var3];
             var10 = var10.bind(var8)(var3);
             var3 = var10.unverifiedVoiceGate;
             var3 = var3.bind(var10)(var11);
             return var3;
 case 17:
-            var3 = var6.isPrivate;
-            var3 = var3.bind(var6)();
+            var10 = _closure1_slot1;
+            var11 = _closure1_slot2;
+            var3 = 11;
+            var3 = var11[var3];
+            var10 = var10.bind(var8)(var3);
+            var3 = _closure1_slot6;
+            var3 = var10.bind(var8)(var6, var3);
             var3 = !var3;
-            if(!var3) { _fun0001_ip = 20; continue _fun0001 }
+            if(!var9) { _fun0001_ip = 20; continue _fun0001 }
 case 21:
-            var12 = _closure1_slot6;
-            var11 = var12.can;
-            var10 = _closure1_slot10;
-            var10 = var10.CONNECT;
-            var10 = var11.bind(var12)(var10, var6);
-            var3 = !var10;
-case 20:
-            if(!var9) { _fun0001_ip = 22; continue _fun0001 }
-case 23:
             var10 = var6.isGuildStageVoice;
             var10 = var10.bind(var6)();
-            if(!var10) { _fun0001_ip = 22; continue _fun0001 }
-case 24:
+            if(!var10) { _fun0001_ip = 20; continue _fun0001 }
+case 22:
             var11 = _closure1_slot0;
             var12 = _closure1_slot2;
             var10 = 12;
@@ -170,11 +161,11 @@ case 24:
             var11 = var12.getStageHasMedia;
             var10 = var6.id;
             var10 = var11.bind(var12)(var10);
-            if(var10) { _fun0001_ip = 25; continue _fun0001 }
-case 22:
-            if(var9) { _fun0001_ip = 26; continue _fun0001 }
-case 27:
-            if(var3) { _fun0001_ip = 26; continue _fun0001 }
+            if(var10) { _fun0001_ip = 23; continue _fun0001 }
+case 20:
+            if(var9) { _fun0001_ip = 24; continue _fun0001 }
+case 25:
+            if(var3) { _fun0001_ip = 24; continue _fun0001 }
 case 15:
             var9 = _closure1_slot1;
             var10 = _closure1_slot2;
@@ -223,9 +214,9 @@ case 15:
             var2 = var17[var3](var16, var15, var14, var13, var12);
 case 10:
             return var8;
-case 26:
+case 24:
             return var8;
-case 25:
+case 23:
             var4 = _closure1_slot1;
             var2 = _closure1_slot2;
             var3 = 13;
@@ -240,7 +231,7 @@ case 25:
             var3 = var2[var3];
             var2 = var2.paths;
             var3 = var7.bind(var8)(var3, var2);
-            var2 = _closure1_slot11;
+            var2 = _closure1_slot10;
             var1 = {};
             var1['channel'] = var6;
             var1 = var4.bind(var5)(var3, var2, var1);

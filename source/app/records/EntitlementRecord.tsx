@@ -4,8 +4,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
-    var _closure1_slot0 = var8;
-    var _closure1_slot1 = var6;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var8;
+    var _closure1_slot2 = var6;
     var1 = function _isNativeReflectConstruct() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -38,13 +39,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot9 = var2;
+            _closure1_slot11 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot9 = var1;
+    var _closure1_slot11 = var1;
     var1 = global;
     var9 = var1.Object;
     var7 = var9.defineProperty;
@@ -57,49 +58,53 @@ case 4:
     var4 = var6[var1];
     var1 = undefined;
     var4 = var8.bind(var1)(var4);
-    var _closure1_slot2 = var4;
+    var _closure1_slot3 = var4;
     var4 = 1;
     var4 = var6[var4];
     var4 = var8.bind(var1)(var4);
-    var _closure1_slot3 = var4;
+    var _closure1_slot4 = var4;
     var4 = 2;
     var4 = var6[var4];
     var4 = var8.bind(var1)(var4);
-    var _closure1_slot4 = var4;
+    var _closure1_slot5 = var4;
     var4 = 3;
     var4 = var6[var4];
     var4 = var8.bind(var1)(var4);
-    var _closure1_slot5 = var4;
+    var _closure1_slot6 = var4;
     var4 = 4;
     var4 = var6[var4];
     var4 = var8.bind(var1)(var4);
-    var _closure1_slot6 = var4;
+    var _closure1_slot7 = var4;
     var4 = 5;
     var4 = var6[var4];
     var4 = var8.bind(var1)(var4);
     var7 = 6;
     var7 = var6[var7];
     var7 = var8.bind(var1)(var7);
-    var _closure1_slot7 = var7;
+    var _closure1_slot8 = var7;
     var7 = 7;
+    var7 = var6[var7];
+    var7 = var8.bind(var1)(var7);
+    var _closure1_slot9 = var7;
+    var7 = 8;
     var7 = var6[var7];
     var7 = var5.bind(var1)(var7);
     var7 = var7.EntitlementTypes;
-    var _closure1_slot8 = var7;
+    var _closure1_slot10 = var7;
     var2 = function(arg1) {
         var5 = function EntitlementRecord(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                 var2 = arg1;
                 var5 = this;
-                var1 = _closure1_slot2;
+                var1 = _closure1_slot3;
                 var3 = _closure2_slot0;
                 var4 = undefined;
                 var1 = var1.bind(var4)(var5, var3);
-                var1 = _closure1_slot5;
+                var1 = _closure1_slot6;
                 var10 = var1.bind(var4)(var3);
-                var3 = _closure1_slot4;
-                var1 = _closure1_slot9;
+                var3 = _closure1_slot5;
+                var1 = _closure1_slot11;
                 var1 = var1.bind(var4)();
                 if(var1) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
@@ -110,7 +115,7 @@ case 6:
                 var7 = global;
                 var9 = var7.Reflect;
                 var8 = var9.construct;
-                var6 = _closure1_slot5;
+                var6 = _closure1_slot6;
                 var6 = var6.bind(var4)(var5);
                 var7 = var6.constructor;
                 var6 = new Array(0);
@@ -123,6 +128,8 @@ case 8:
                 var1['skuId'] = var3;
                 var3 = var2.applicationId;
                 var1['applicationId'] = var3;
+                var3 = var2.user;
+                var1['user'] = var3;
                 var3 = var2.userId;
                 var1['userId'] = var3;
                 var3 = var2.gifterId;
@@ -151,17 +158,19 @@ case 8:
                 var1['guildId'] = var3;
                 var3 = var2.deleted;
                 var1['deleted'] = var3;
-                var2 = var2.sourceType;
-                var1['sourceType'] = var2;
+                var3 = var2.sourceType;
+                var1['sourceType'] = var3;
+                var2 = var2.fulfillmentStatus;
+                var1['fulfillmentStatus'] = var2;
                 return var1;
             }
         };
         var _closure2_slot0 = var5;
-        var6 = _closure1_slot6;
+        var6 = _closure1_slot7;
         var4 = undefined;
         var3 = arg1;
         var3 = var6.bind(var4)(var5, var3);
-        var3 = _closure1_slot3;
+        var3 = _closure1_slot4;
         var6 = {};
         var2 = 'isGiftable';
         var6['key'] = var2;
@@ -170,7 +179,7 @@ case 8:
 case 0:
                 var2 = this;
                 var3 = var2.type;
-                var1 = _closure1_slot8;
+                var1 = _closure1_slot10;
                 var1 = var1.USER_GIFT;
                 var1 = var3 === var1;
                 if(!var1) { _fun0003_ip = 9; continue _fun0003 }
@@ -183,7 +192,7 @@ case 9:
             }
         };
         var6['get'] = var2;
-        var2 = new Array(2);
+        var2 = new Array(3);
         var2[0] = var6;
         var6 = {};
         var7 = 'isValid';
@@ -206,7 +215,7 @@ case 14:
                 if(var3) { _fun0004_ip = 13; continue _fun0004 }
 case 15:
                 var6 = var1.type;
-                var4 = _closure1_slot8;
+                var4 = _closure1_slot10;
                 var4 = var4.PREMIUM_SUBSCRIPTION;
                 if(!(var6 === var4)) { _fun0004_ip = 16; continue _fun0004 }
 case 6:
@@ -222,9 +231,9 @@ case 19:
                 var4 = false;
                 return var4;
 case 17:
-                var4 = _closure1_slot0;
-                var6 = _closure1_slot1;
-                var3 = 8;
+                var4 = _closure1_slot1;
+                var6 = _closure1_slot2;
+                var3 = 9;
                 var3 = var6[var3];
                 var5 = var4.bind(var5)(var3);
                 var4 = var5.canInstallPremiumApplications;
@@ -292,6 +301,25 @@ case 13:
         var6['value'] = var7;
         var2[1] = var6;
         var6 = {};
+        var7 = 'isFulfilled';
+        var6['key'] = var7;
+        var7 = function value() {
+            var1 = this;
+            var2 = var1.fulfillmentStatus;
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var1 = 10;
+            var3 = var3[var1];
+            var1 = undefined;
+            var1 = var4.bind(var1)(var3);
+            var1 = var1.EntitlementTenantFulfillmentStatus;
+            var1 = var1.FULFILLED;
+            var1 = var2 === var1;
+            return var1;
+        };
+        var6['value'] = var7;
+        var2[2] = var6;
+        var6 = {};
         var7 = 'createFromServer';
         var6['key'] = var7;
         var1 = function value(arg1) {
@@ -306,24 +334,38 @@ case 0:
                 var1['skuId'] = var2;
                 var2 = var4.application_id;
                 var1['applicationId'] = var2;
-                var2 = var4.user_id;
-                var1['userId'] = var2;
-                var2 = var4.gifter_user_id;
-                var1['gifterId'] = var2;
-                var2 = var4.type;
-                var1['type'] = var2;
-                var5 = var4.branches;
+                var5 = var4.user;
                 var2 = null;
-                if(!(var2 == var5)) { _fun0005_ip = 33; continue _fun0005 }
+                var6 = var2 != var5;
+                var5 = null;
+                if(!var6) { _fun0005_ip = 33; continue _fun0005 }
 case 34:
-                var5 = new Array(0);
+                var8 = _closure1_slot9;
+                var9 = var4.user;
+                var7 = var8.prototype;
+                var7 = Object.create(var7, {constructor: {value: var8}});
+                var10 = var7;
+                var6 = new var10[var8](var9, var8);
+                var5 = var6 instanceof Object ? var6 : var7;
 case 33:
+                var1['user'] = var5;
+                var5 = var4.user_id;
+                var1['userId'] = var5;
+                var5 = var4.gifter_user_id;
+                var1['gifterId'] = var5;
+                var5 = var4.type;
+                var1['type'] = var5;
+                var5 = var4.branches;
+                if(!(var2 == var5)) { _fun0005_ip = 35; continue _fun0005 }
+case 36:
+                var5 = new Array(0);
+case 35:
                 var1['branches'] = var5;
                 var5 = var4.starts_at;
                 var6 = var2 != var5;
                 var5 = null;
-                if(!var6) { _fun0005_ip = 35; continue _fun0005 }
-case 36:
+                if(!var6) { _fun0005_ip = 37; continue _fun0005 }
+case 38:
                 var6 = global;
                 var8 = var6.Date;
                 var9 = var4.starts_at;
@@ -332,13 +374,13 @@ case 36:
                 var10 = var7;
                 var6 = new var10[var8](var9, var8);
                 var5 = var6 instanceof Object ? var6 : var7;
-case 35:
+case 37:
                 var1['startsAt'] = var5;
                 var5 = var4.ends_at;
                 var6 = var2 != var5;
                 var5 = null;
-                if(!var6) { _fun0005_ip = 37; continue _fun0005 }
-case 38:
+                if(!var6) { _fun0005_ip = 39; continue _fun0005 }
+case 40:
                 var6 = global;
                 var8 = var6.Date;
                 var9 = var4.ends_at;
@@ -347,42 +389,42 @@ case 38:
                 var10 = var7;
                 var6 = new var10[var8](var9, var8);
                 var5 = var6 instanceof Object ? var6 : var7;
-case 37:
+case 39:
                 var1['endsAt'] = var5;
                 var5 = var4.subscription_id;
                 var1['subscriptionId'] = var5;
                 var5 = var4.subscription_plan;
                 var6 = var2 != var5;
                 var5 = null;
-                if(!var6) { _fun0005_ip = 39; continue _fun0005 }
-case 40:
+                if(!var6) { _fun0005_ip = 41; continue _fun0005 }
+case 42:
                 var6 = var4.subscription_plan;
                 var5 = var6.id;
-case 39:
+case 41:
                 var1['subscriptionPlanId'] = var5;
                 var5 = var4.parent_id;
                 var6 = var2 != var5;
                 var5 = null;
-                if(!var6) { _fun0005_ip = 41; continue _fun0005 }
-case 42:
+                if(!var6) { _fun0005_ip = 43; continue _fun0005 }
+case 44:
                 var5 = var4.parent_id;
-case 41:
+case 43:
                 var1['parentId'] = var5;
                 var5 = var4.consumed;
                 var6 = var2 != var5;
                 var5 = null;
-                if(!var6) { _fun0005_ip = 43; continue _fun0005 }
-case 44:
+                if(!var6) { _fun0005_ip = 45; continue _fun0005 }
+case 46:
                 var5 = var4.consumed;
-case 43:
+case 45:
                 var1['consumed'] = var5;
                 var6 = var4.gift_code_batch_id;
                 var7 = var2 != var6;
                 var5 = null;
-                if(!var7) { _fun0005_ip = 45; continue _fun0005 }
-case 46:
+                if(!var7) { _fun0005_ip = 47; continue _fun0005 }
+case 48:
                 var5 = var6;
-case 45:
+case 47:
                 var1['giftCodeBatchId'] = var5;
                 var5 = var4.gift_style;
                 var1['giftStyle'] = var5;
@@ -393,22 +435,30 @@ case 45:
                 var5 = var4.sku;
                 var6 = var2 != var5;
                 var5 = null;
-                if(!var6) { _fun0005_ip = 47; continue _fun0005 }
-case 48:
-                var8 = _closure1_slot7;
+                if(!var6) { _fun0005_ip = 49; continue _fun0005 }
+case 50:
+                var8 = _closure1_slot8;
                 var7 = var8.createFromServer;
                 var6 = var4.sku;
                 var5 = var7.bind(var8)(var6);
-case 47:
+case 49:
                 var1['sku'] = var5;
-                var4 = var4.source_type;
+                var6 = var4.source_type;
+                var7 = var2 != var6;
+                var5 = null;
+                if(!var7) { _fun0005_ip = 51; continue _fun0005 }
+case 52:
+                var5 = var6;
+case 51:
+                var1['sourceType'] = var5;
+                var4 = var4.fulfillment_status;
                 var5 = var2 != var4;
                 var2 = null;
-                if(!var5) { _fun0005_ip = 49; continue _fun0005 }
-case 50:
+                if(!var5) { _fun0005_ip = 53; continue _fun0005 }
+case 54:
                 var2 = var4;
-case 49:
-                var1['sourceType'] = var2;
+case 53:
+                var1['fulfillmentStatus'] = var2;
                 var2 = var3.prototype;
                 var2 = Object.create(var2, {constructor: {value: var3}});
                 var10 = var2;
@@ -425,7 +475,7 @@ case 49:
         return var1;
     };
     var2 = var2.bind(var1)(var4);
-    var4 = 9;
+    var4 = 11;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

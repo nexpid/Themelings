@@ -244,7 +244,7 @@ case 6:
                 var16 = var15.bind(var16)();
                 var15 = undefined;
                 if(var16) { _fun0002_ip = 8; continue _fun0002 }
-case 9:
+case 2:
                 var15 = var22.rowBg;
 case 8:
                 var8['DEPRECATED_style'] = var15;
@@ -322,8 +322,8 @@ case 8:
                 var24 = null;
                 var23 = var24 != var30;
                 var21 = null;
-                if(!var23) { _fun0002_ip = 10; continue _fun0002 }
-case 11:
+                if(!var23) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
                 var28 = _closure1_slot10;
                 var25 = _closure1_slot0;
                 var31 = _closure1_slot2;
@@ -337,7 +337,7 @@ case 11:
                 var23['style'] = var31;
                 var23['children'] = var30;
                 var21 = var28.bind(var4)(var25, var23);
-case 10:
+case 9:
                 var28 = new Array(2);
                 var28[0] = var21;
                 var30 = _closure1_slot10;
@@ -384,11 +384,11 @@ case 10:
                 var23 = var25.isAndroid;
                 var25 = var23.bind(var25)();
                 var23 = null;
-                if(!var25) { _fun0002_ip = 12; continue _fun0002 }
-case 13:
+                if(!var25) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
                 var23 = null;
-                if(var11) { _fun0002_ip = 12; continue _fun0002 }
-case 14:
+                if(var11) { _fun0002_ip = 11; continue _fun0002 }
+case 13:
                 var26 = _closure1_slot10;
                 var25 = _closure1_slot8;
                 var24 = {};
@@ -462,15 +462,15 @@ case 14:
                 var27 = var26.bind(var4)(var28, var27);
                 var24['children'] = var27;
                 var23 = var26.bind(var4)(var25, var24);
-case 12:
+case 11:
                 var18[2] = var23;
                 var15['children'] = var18;
                 var15 = var17.bind(var4)(var16, var15);
                 var8['trailing'] = var15;
-                if(!var14) { _fun0002_ip = 15; continue _fun0002 }
-case 16:
-                if(var13) { _fun0002_ip = 17; continue _fun0002 }
+                if(!var14) { _fun0002_ip = 14; continue _fun0002 }
 case 15:
+                if(var13) { _fun0002_ip = 16; continue _fun0002 }
+case 14:
                 var15 = _closure1_slot11;
                 var14 = _closure1_slot5;
                 var13 = {};
@@ -508,8 +508,8 @@ case 15:
                 var16[2] = var17;
                 var13['children'] = var16;
                 var13 = var15.bind(var4)(var14, var13);
-                _fun0002_ip = 18; continue _fun0002;
-case 17:
+                _fun0002_ip = 17; continue _fun0002;
+case 16:
                 var16 = _closure1_slot10;
                 var15 = _closure1_slot5;
                 var14 = {};
@@ -527,8 +527,8 @@ case 0:
                         var3 = _closure2_slot2;
                         var2 = _closure2_slot1;
                         var2 = var2.name;
-                        if(!(var3 !== var2)) { _fun0003_ip = 19; continue _fun0003 }
-case 20:
+                        if(!(var3 !== var2)) { _fun0003_ip = 18; continue _fun0003 }
+case 19:
                         var3 = _closure1_slot0;
                         var8 = _closure1_slot2;
                         var2 = 10;
@@ -551,7 +551,7 @@ case 20:
                         var5 = var6.bind(var7)(var5);
                         var2['name'] = var5;
                         var2 = var3.bind(var4)(var2);
-case 19:
+case 18:
                         var3 = _closure2_slot4;
                         var1 = undefined;
                         var2 = false;
@@ -578,7 +578,7 @@ case 19:
                 var17 = var16.bind(var4)(var18, var17);
                 var14['children'] = var17;
                 var13 = var16.bind(var4)(var15, var14);
-case 18:
+case 17:
                 var8['label'] = var13;
                 var8['disabled'] = var11;
                 var10 = var3.bind(var4)(var10, var8);

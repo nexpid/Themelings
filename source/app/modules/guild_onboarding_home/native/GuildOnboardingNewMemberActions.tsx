@@ -712,10 +712,10 @@ case 43:
                     var7 = var9[var8];
 case 42:
                     var6 = var6 != var7;
-                    if(!var6) { _fun0007_ip = 44; continue _fun0007 }
-case 45:
+                    if(!var6) { _fun0007_ip = 30; continue _fun0007 }
+case 31:
                     var6 = var7;
-case 44:
+case 30:
                     var3['completed'] = var6;
                     var7 = var1.channelId;
                     var1 = global;
@@ -731,13 +731,13 @@ case 44:
             var6[1] = var7;
             var10 = var8 == var9;
             var7 = undefined;
-            if(var10) { _fun0004_ip = 46; continue _fun0004 }
-case 47:
+            if(var10) { _fun0004_ip = 44; continue _fun0004 }
+case 45:
             var7 = var9.rulesChannelId;
-case 46:
+case 44:
             var7 = var8 != var7;
-            if(!var7) { _fun0004_ip = 48; continue _fun0004 }
-case 49:
+            if(!var7) { _fun0004_ip = 46; continue _fun0004 }
+case 47:
             var10 = _closure1_slot16;
             var21 = _closure1_slot0;
             var18 = _closure1_slot2;
@@ -800,7 +800,7 @@ case 49:
             var11[1] = var12;
             var8['children'] = var11;
             var7 = var10.bind(var5)(var9, var8);
-case 48:
+case 46:
             var6[2] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);

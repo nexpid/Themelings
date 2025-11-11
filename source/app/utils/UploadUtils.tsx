@@ -33,10 +33,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var7['name'] = var4;
-    var4 = 'image/jpeg';
-    var7['type'] = var4;
-    var4 = new Array(12);
+    var8 = 'image/jpeg';
+    var7['type'] = var8;
+    var4 = new Array(13);
     var4[0] = var7;
+    var7 = {};
+    var9 = /\.jfif$/i;
+    var7['reName'] = var9;
+    var9 = function name(arg1) {
+        var1 = global;
+        var1 = var1.HermesInternal;
+        var4 = var1.concat;
+        var3 = 'image';
+        var2 = arg1;
+        var1 = '.jpg';
+        var1 = var4.bind(var3)(var2, var1);
+        return var1;
+    };
+    var7['name'] = var9;
+    var7['type'] = var8;
+    var4[1] = var7;
     var7 = {};
     var8 = /\.png$/i;
     var7['reName'] = var8;
@@ -53,7 +69,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7['name'] = var8;
     var8 = 'image/png';
     var7['type'] = var8;
-    var4[1] = var7;
+    var4[2] = var7;
     var7 = {};
     var8 = /\.gif$/i;
     var7['reName'] = var8;
@@ -70,7 +86,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7['name'] = var8;
     var8 = 'image/gif';
     var7['type'] = var8;
-    var4[2] = var7;
+    var4[3] = var7;
     var7 = {};
     var8 = /\.webp$/i;
     var7['reName'] = var8;
@@ -87,7 +103,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7['name'] = var8;
     var8 = 'image/webp';
     var7['type'] = var8;
-    var4[3] = var7;
+    var4[4] = var7;
     var7 = {};
     var8 = /\.avif$/i;
     var7['reName'] = var8;
@@ -104,7 +120,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7['name'] = var8;
     var8 = 'image/avif';
     var7['type'] = var8;
-    var4[4] = var7;
+    var4[5] = var7;
     var7 = {};
     var8 = /\.heic$/i;
     var7['reName'] = var8;
@@ -121,7 +137,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7['name'] = var8;
     var8 = 'image/heic';
     var7['type'] = var8;
-    var4[5] = var7;
+    var4[6] = var7;
     var7 = {};
     var8 = /\.heif$/i;
     var7['reName'] = var8;
@@ -138,7 +154,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7['name'] = var8;
     var8 = 'image/heif';
     var7['type'] = var8;
-    var4[6] = var7;
+    var4[7] = var7;
     var7 = {};
     var8 = /\.dng$/i;
     var7['reName'] = var8;
@@ -155,7 +171,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7['name'] = var8;
     var8 = 'image/x-adobe-dng';
     var7['type'] = var8;
-    var4[7] = var7;
+    var4[8] = var7;
     var7 = {};
     var8 = /\.mov$/i;
     var7['reName'] = var8;
@@ -172,7 +188,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7['name'] = var8;
     var8 = 'video/quicktime';
     var7['type'] = var8;
-    var4[8] = var7;
+    var4[9] = var7;
     var7 = {};
     var8 = /\.avi$/i;
     var7['reName'] = var8;
@@ -189,7 +205,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7['name'] = var8;
     var8 = 'video/x-msvideo';
     var7['type'] = var8;
-    var4[9] = var7;
+    var4[10] = var7;
     var7 = {};
     var8 = /\.mp4$/i;
     var7['reName'] = var8;
@@ -206,7 +222,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7['name'] = var8;
     var8 = 'video/mp4';
     var7['type'] = var8;
-    var4[10] = var7;
+    var4[11] = var7;
     var7 = {};
     var8 = /\.webm$/i;
     var7['reName'] = var8;
@@ -223,7 +239,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7['name'] = var8;
     var8 = 'image/webm';
     var7['type'] = var8;
-    var4[11] = var7;
+    var4[12] = var7;
     var _closure1_slot3 = var4;
     var4 = 3;
     var4 = var6[var4];

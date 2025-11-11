@@ -416,10 +416,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10['PRESS_CLOUD_PLAY_BUTTON'] = var5;
     var5 = 'PRESS_HANG_STATUS_BUTTON';
     var10['PRESS_HANG_STATUS_BUTTON'] = var5;
-    var5 = 'PRESS_WISHLIST_BREADCRUMB_CARD';
-    var10['PRESS_WISHLIST_BREADCRUMB_CARD'] = var5;
-    var5 = 'PRESS_WISHLIST_BREADCRUMB_OVERFLOW_CARD';
-    var10['PRESS_WISHLIST_BREADCRUMB_OVERFLOW_CARD'] = var5;
     var9 = {};
     var5 = 'PRESS_ADD_GAME';
     var9['PRESS_ADD_GAME'] = var5;
@@ -454,6 +450,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8['WISHLIST_TOGGLE_PRIVATE'] = var5;
     var5 = 'WISHLIST_TOGGLE_PUBLIC';
     var8['WISHLIST_TOGGLE_PUBLIC'] = var5;
+    var5 = 'PRESS_WISHLIST_BREADCRUMB_CARD';
+    var8['PRESS_WISHLIST_BREADCRUMB_CARD'] = var5;
+    var5 = 'PRESS_WISHLIST_BREADCRUMB_OVERFLOW_CARD';
+    var8['PRESS_WISHLIST_BREADCRUMB_OVERFLOW_CARD'] = var5;
     var7 = {};
     var5 = 'USER_PROFILE';
     var7['USER_PROFILE'] = var5;

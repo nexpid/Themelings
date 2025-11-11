@@ -30,11 +30,18 @@ case 5:
 case 4:
             if(var1) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
+            var6 = var4.can;
+            var3 = _closure1_slot5;
+            var3 = var3.MODERATE_MEMBERS;
+            var1 = var6.bind(var4)(var3, var5);
+case 6:
+            if(var1) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var3 = var4.can;
             var2 = _closure1_slot5;
             var2 = var2.MANAGE_GUILD;
             var1 = var3.bind(var4)(var2, var5);
-case 6:
+case 8:
             return var1;
         }
     };
@@ -44,10 +51,10 @@ case 6:
 case 0:
             var4 = arguments[1];
             var1 = undefined;
-            if(!(var4 === var1)) { _fun0002_ip = 8; continue _fun0002 }
-case 9:
+            if(!(var4 === var1)) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
             var4 = _closure1_slot2;
-case 8:
+case 10:
             var3 = var4.can;
             var1 = _closure1_slot5;
             var2 = var1.MANAGE_GUILD;
@@ -128,22 +135,22 @@ case 0:
                     var3 = _closure2_slot0;
                     var1 = null;
                     var3 = var1 != var3;
-                    if(!var3) { _fun0004_ip = 10; continue _fun0004 }
-case 8:
+                    if(!var3) { _fun0004_ip = 12; continue _fun0004 }
+case 10:
                     var4 = _closure1_slot3;
                     var3 = var4.getGuildIncident;
                     var2 = _closure2_slot0;
                     var2 = var2.id;
                     var1 = var3.bind(var4)(var2);
-case 10:
+case 12:
                     return var1;
                 }
             };
             var5 = var7.bind(var8)(var5, var1, var4);
             var1 = null;
             var1 = var1 != var5;
-            if(!var1) { _fun0003_ip = 11; continue _fun0003 }
-case 12:
+            if(!var1) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
             var4 = _closure1_slot0;
             var7 = _closure1_slot1;
             var3 = 4;
@@ -151,12 +158,12 @@ case 12:
             var4 = var4.bind(var6)(var3);
             var3 = var4.hasDetectedActivity;
             var1 = var3.bind(var4)(var5);
-case 11:
-            var1 = !var1;
-            if(!var1) { _fun0003_ip = 13; continue _fun0003 }
-case 14:
-            var1 = var2;
 case 13:
+            var1 = !var1;
+            if(!var1) { _fun0003_ip = 15; continue _fun0003 }
+case 16:
+            var1 = var2;
+case 15:
             return var1;
         }
     };
@@ -212,10 +219,10 @@ case 0:
                     var4 = _closure2_slot0;
                     var3 = _closure1_slot2;
                     var2 = undefined;
-                    if(!(var3 === var2)) { _fun0006_ip = 15; continue _fun0006 }
-case 16:
+                    if(!(var3 === var2)) { _fun0006_ip = 17; continue _fun0006 }
+case 18:
                     var3 = _closure1_slot2;
-case 15:
+case 17:
                     var2 = var3.can;
                     var1 = _closure1_slot5;
                     var1 = var1.MANAGE_GUILD;
@@ -230,20 +237,20 @@ case 15:
             var4 = var5.useIsMentionRaidExperimentEnabled;
             var6 = null;
             var8 = var6 == var7;
-            if(var8) { _fun0005_ip = 17; continue _fun0005 }
-case 18:
+            if(var8) { _fun0005_ip = 19; continue _fun0005 }
+case 9:
             var3 = var7.id;
-case 17:
-            if(!(var6 == var3)) { _fun0005_ip = 19; continue _fun0005 }
-case 20:
-            var3 = _closure1_slot4;
 case 19:
+            if(!(var6 == var3)) { _fun0005_ip = 20; continue _fun0005 }
+case 21:
+            var3 = _closure1_slot4;
+case 20:
             var1 = false;
             var1 = var4.bind(var5)(var3, var1);
-            if(!var1) { _fun0005_ip = 21; continue _fun0005 }
-case 22:
+            if(!var1) { _fun0005_ip = 22; continue _fun0005 }
+case 23:
             var1 = var2;
-case 21:
+case 22:
             return var1;
         }
     };

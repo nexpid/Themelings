@@ -138,7 +138,7 @@ case 18:
                     var8 = var2.emoji;
                     var6 = var2.emojiSource;
                     var5 = undefined;
-                    SaveGenerator(address=30);
+                    SaveGenerator(address=31);
 case 19:
                     return var5;
 case 20:
@@ -167,19 +167,19 @@ case 22:
                         return var1;
                     };
                     var3 = var3.bind(var5)(var4);
-                    SaveGenerator(address=108);
+                    SaveGenerator(address=109);
 case 23:
                     return var3;
 case 24:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
                     if(var4) { _fun0002_ip = 25; continue _fun0002 }
-case 26:
+case 12:
                     var5 = null;
                     var4 = var3;
-                    if(!(var5 == var4)) { _fun0002_ip = 27; continue _fun0002 }
-case 8:
-                    var4 = new Array(0);
+                    if(!(var5 == var4)) { _fun0002_ip = 26; continue _fun0002 }
 case 27:
+                    var4 = new Array(0);
+case 26:
                     return var4;
 case 25:
                     return var3;

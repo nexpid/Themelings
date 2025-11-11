@@ -4089,6 +4089,22 @@ case 125:
         }
     };
     var4 = var8.bind(var1)(var7, var4);
+    var7 = ['WISHLIST_ITEM_PURCHASED'];
+    var4 = function(arg1) {
+        var1 = arg1;
+        var3 = _closure1_slot26;
+        var2 = {};
+        var4 = 'WISHLIST_ITEM_PURCHASED';
+        var2['type'] = var4;
+        var4 = var1.recipient_id;
+        var2['recipientId'] = var4;
+        var1 = var1.sku_id;
+        var2['skuId'] = var1;
+        var1 = undefined;
+        var2 = var3.bind(var1)(var2);
+        return var1;
+    };
+    var4 = var8.bind(var1)(var7, var4);
     var7 = ['USER_PREMIUM_GUILD_SUBSCRIPTION_SLOT_CREATE'];
     var4 = function(arg1) {
         var6 = arg1;

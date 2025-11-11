@@ -364,7 +364,7 @@ case 8:
         var5['value'] = var7;
         var1[25] = var5;
         var5 = {};
-        var7 = 'getInputServiceStatus';
+        var7 = 'getSystemServiceStatus';
         var5['key'] = var7;
         var7 = function value() {
             var1 = {};
@@ -375,7 +375,7 @@ case 8:
         var5['value'] = var7;
         var1[26] = var5;
         var5 = {};
-        var7 = 'isInputServiceInitialized';
+        var7 = 'isSystemServiceInitialized';
         var5['key'] = var7;
         var6 = function value() {
             var1 = false;

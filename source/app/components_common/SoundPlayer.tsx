@@ -1506,9 +1506,9 @@ case 84:
 case 185:
                 var2 = var4.hangStatus;
                 var1 = 'hang_status_select';
-                if(!(var6 === var2)) { _fun0020_ip = 78; continue _fun0020 }
+                if(!(var6 === var2)) { _fun0020_ip = 186; continue _fun0020 }
 case 116:
-                if(!(var3 != var8)) { _fun0020_ip = 76; continue _fun0020 }
+                if(!(var3 != var8)) { _fun0020_ip = 187; continue _fun0020 }
 case 32:
                 var10 = var8.status;
                 var2 = var4.customHangStatus;
@@ -1516,13 +1516,13 @@ case 32:
                 var6 = undefined;
                 var9 = undefined;
                 if(var7) { _fun0020_ip = 29; continue _fun0020 }
-case 186:
+case 188:
                 var9 = var2.status;
 case 29:
                 var7 = 'hang_status_select';
                 var2 = var7;
-                if(!(var10 === var9)) { _fun0020_ip = 187; continue _fun0020 }
-case 188:
+                if(!(var10 === var9)) { _fun0020_ip = 189; continue _fun0020 }
+case 190:
                 var10 = _closure1_slot0;
                 var11 = _closure1_slot1;
                 var9 = 26;
@@ -1533,28 +1533,28 @@ case 188:
                 var11 = var4.customHangStatus;
                 var12 = var3 == var11;
                 var6 = undefined;
-                if(var12) { _fun0020_ip = 189; continue _fun0020 }
-case 190:
+                if(var12) { _fun0020_ip = 191; continue _fun0020 }
+case 44:
                 var6 = var11.emoji;
-case 189:
+case 191:
                 var6 = var9.bind(var10)(var8, var6);
                 var2 = var7;
-                if(!var6) { _fun0020_ip = 187; continue _fun0020 }
-case 76:
+                if(!var6) { _fun0020_ip = 189; continue _fun0020 }
+case 187:
                 var7 = var3 != var5;
                 var3 = undefined;
-                if(!var7) { _fun0020_ip = 191; continue _fun0020 }
-case 77:
+                if(!var7) { _fun0020_ip = 60; continue _fun0020 }
+case 192:
                 var4 = var4.gameActivityHangStatus;
                 var3 = undefined;
-                if(!(var4 !== var5)) { _fun0020_ip = 191; continue _fun0020 }
-case 192:
+                if(!(var4 !== var5)) { _fun0020_ip = 60; continue _fun0020 }
+case 193:
                 var3 = 'hang_status_select';
-case 191:
+case 60:
                 var2 = var3;
-case 187:
+case 189:
                 var1 = var2;
-case 78:
+case 186:
                 return var1;
             }
         };
