@@ -1153,7 +1153,7 @@
 { "file": "app/modules/activities/panel/native/utils/ActivityPanelUtils.tsx", "size": 2657 }
 { "file": "app/modules/activities/records/CustomActivityLinkRecord.tsx", "size": 5251 }
 { "file": "app/modules/activities/RemoteJoinGameInviteExperiment.tsx", "size": 1557 }
-{ "file": "app/modules/activities/stores/CustomActivityLinksStore.tsx", "size": 7071 }
+{ "file": "app/modules/activities/stores/CustomActivityLinksStore.tsx", "size": 6764 }
 { "file": "app/modules/activities/stores/RecentUserActivityStore.tsx", "size": 6083 }
 { "file": "app/modules/activities/trackActivityProblem.tsx", "size": 3336 }
 { "file": "app/modules/activities/trackActivityThermalStateNoticeShown.tsx", "size": 3418 }
@@ -1514,7 +1514,7 @@
 { "file": "app/modules/application_commands/ApplicationCommandOptionUtils.tsx", "size": 25678 }
 { "file": "app/modules/application_commands/ApplicationCommandQueryApi.tsx", "size": 46384 }
 { "file": "app/modules/application_commands/ApplicationCommandQueryTypes.tsx", "size": 1131 }
-{ "file": "app/modules/application_commands/ApplicationCommandStore.tsx", "size": 27243 }
+{ "file": "app/modules/application_commands/ApplicationCommandStore.tsx", "size": 27242 }
 { "file": "app/modules/application_commands/ApplicationCommandTypes.tsx", "size": 5710 }
 { "file": "app/modules/application_commands/ApplicationCommandUserAppUtils.tsx", "size": 14990 }
 { "file": "app/modules/application_commands/ApplicationCommandUtils.tsx", "size": 60808 }
@@ -1939,7 +1939,7 @@
 { "file": "app/modules/client_themes/native/CustomThemeMobileActionCreators.tsx", "size": 2591 }
 { "file": "app/modules/client_themes/native/CustomThemeMobileStore.tsx", "size": 15576 }
 { "file": "app/modules/client_themes/native/MobileThemesUtils.tsx", "size": 7675 }
-{ "file": "app/modules/client_themes/native/ThemedGradient.tsx", "size": 39594 }
+{ "file": "app/modules/client_themes/native/ThemedGradient.tsx", "size": 39592 }
 { "file": "app/modules/client_themes/native/useActiveTheme.tsx", "size": 4949 }
 { "file": "app/modules/client_themes/native/useColorThemeBackground.tsx", "size": 2255 }
 { "file": "app/modules/client_themes/native/useCustomThemeDisplaySettings.tsx", "size": 3299 }
@@ -2452,7 +2452,7 @@
 { "file": "app/modules/emojis/EmojiActionCreators.tsx", "size": 1711 }
 { "file": "app/modules/emojis/EmojiConstants.tsx", "size": 5993 }
 { "file": "app/modules/emojis/EmojiSearchRankingTweaksExperiment.tsx", "size": 1223 }
-{ "file": "app/modules/emojis/EmojiStore.tsx", "size": 148351 }
+{ "file": "app/modules/emojis/EmojiStore.tsx", "size": 148348 }
 { "file": "app/modules/emojis/EmojiTypes.tsx", "size": 802 }
 { "file": "app/modules/emojis/hooks/useEmojiAndSource.tsx", "size": 13203 }
 { "file": "app/modules/emojis/hooks/useEmojiColorPalette.tsx", "size": 2334 }
@@ -3692,7 +3692,7 @@
 { "file": "app/modules/headless_tasks/android/SelectChannel.tsx", "size": 2689 }
 { "file": "app/modules/headless_tasks/android/ToggleDeafen.tsx", "size": 2443 }
 { "file": "app/modules/headless_tasks/android/ToggleSelfMute.tsx", "size": 2512 }
-{ "file": "app/modules/headless_tasks/android/TTITestAction.tsx", "size": 74969 }
+{ "file": "app/modules/headless_tasks/android/TTITestAction.tsx", "size": 74973 }
 { "file": "app/modules/headless_tasks/HeadlessTaskUtils.tsx", "size": 1487 }
 { "file": "app/modules/holdout_experiments/av/AVHoldoutExperimentH12025.tsx", "size": 1216 }
 { "file": "app/modules/holdout_experiments/av/AVHoldoutExperimentH22025.tsx", "size": 1216 }

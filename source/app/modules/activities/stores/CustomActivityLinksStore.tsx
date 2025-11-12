@@ -163,38 +163,30 @@ case 9:
 case 0:
             var1 = arg1;
             var3 = var1.applicationId;
-            var7 = var1.link;
-            var1 = _closure1_slot6;
-            var2 = var1[var3];
-            var1 = null;
-            if(!(var1 != var2)) { _fun0004_ip = 11; continue _fun0004 }
+            var5 = var1.link;
+            var2 = _closure1_slot6;
+            var2 = var2[var3];
+            var7 = null;
+            if(!(var7 == var2)) { _fun0004_ip = 11; continue _fun0004 }
 case 12:
-            var1 = _closure1_slot6;
-            var5 = var1[var3];
-            var2 = var7.link_id;
-            var1 = _closure1_slot5;
-            var6 = var1.prototype;
-            var6 = Object.create(var6, {constructor: {value: var1}});
-            var9 = var6;
-            var8 = var7;
-            var1 = new var9[var1](var8, var7);
-            var1 = var1 instanceof Object ? var1 : var6;
-            var5[var2] = var1;
-            _fun0004_ip = 13; continue _fun0004;
+            var4 = _closure1_slot6;
+            var2 = global;
+            var6 = var2.Object;
+            var2 = var6.create;
+            var2 = var2.bind(var6)(var7);
+            var4[var3] = var2;
 case 11:
             var2 = _closure1_slot6;
-            var1 = {};
-            var5 = var7.link_id;
-            var4 = _closure1_slot5;
-            var6 = var4.prototype;
-            var6 = Object.create(var6, {constructor: {value: var4}});
-            var9 = var6;
-            var8 = var7;
-            var4 = new var9[var4](var8, var7);
-            var4 = var4 instanceof Object ? var4 : var6;
-            var1[var5] = var4;
-            var2[var3] = var1;
-case 13:
+            var3 = var2[var3];
+            var2 = var5.link_id;
+            var1 = _closure1_slot5;
+            var4 = var1.prototype;
+            var4 = Object.create(var4, {constructor: {value: var1}});
+            var9 = var4;
+            var8 = var5;
+            var1 = new var9[var1](var8, var7);
+            var1 = var1 instanceof Object ? var1 : var4;
+            var3[var2] = var1;
             var1 = undefined;
             return var1;
         }
