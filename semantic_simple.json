@@ -659,6 +659,282 @@
     "midnight": "#31323b",
     "darker": "#31323b"
   },
+  "CHECKPOINT_EMOJIS_GRADIENT_END": {
+    "dark": "#1d0b24",
+    "light": "#1d0b24",
+    "midnight": "#1d0b24",
+    "darker": "#1d0b24"
+  },
+  "CHECKPOINT_EMOJIS_GRADIENT_START": {
+    "dark": "#7d42f2",
+    "light": "#7d42f2",
+    "midnight": "#7d42f2",
+    "darker": "#7d42f2"
+  },
+  "CHECKPOINT_EMOJIS_PRIMARY": {
+    "dark": "#ca9ef9",
+    "light": "#ca9ef9",
+    "midnight": "#ca9ef9",
+    "darker": "#ca9ef9"
+  },
+  "CHECKPOINT_EMOJIS_SECONDARY": {
+    "dark": "#a365e6",
+    "light": "#a365e6",
+    "midnight": "#a365e6",
+    "darker": "#a365e6"
+  },
+  "CHECKPOINT_END_GRADIENT_END": {
+    "dark": "#113e27",
+    "light": "#113e27",
+    "midnight": "#113e27",
+    "darker": "#113e27"
+  },
+  "CHECKPOINT_END_GRADIENT_START": {
+    "dark": "#3fc07e",
+    "light": "#3fc07e",
+    "midnight": "#3fc07e",
+    "darker": "#3fc07e"
+  },
+  "CHECKPOINT_END_PRIMARY": {
+    "dark": "#2bec76",
+    "light": "#2bec76",
+    "midnight": "#2bec76",
+    "darker": "#2bec76"
+  },
+  "CHECKPOINT_END_SECONDARY": {
+    "dark": "#14a74e",
+    "light": "#14a74e",
+    "midnight": "#14a74e",
+    "darker": "#14a74e"
+  },
+  "CHECKPOINT_FRIENDS_GRADIENT_END": {
+    "dark": "#230a57",
+    "light": "#230a57",
+    "midnight": "#230a57",
+    "darker": "#230a57"
+  },
+  "CHECKPOINT_FRIENDS_GRADIENT_START": {
+    "dark": "#591efb",
+    "light": "#591efb",
+    "midnight": "#591efb",
+    "darker": "#591efb"
+  },
+  "CHECKPOINT_FRIENDS_PRIMARY": {
+    "dark": "#a0a9fa",
+    "light": "#a0a9fa",
+    "midnight": "#a0a9fa",
+    "darker": "#a0a9fa"
+  },
+  "CHECKPOINT_FRIENDS_SECONDARY": {
+    "dark": "#616abb",
+    "light": "#616abb",
+    "midnight": "#616abb",
+    "darker": "#616abb"
+  },
+  "CHECKPOINT_GAMING_GRADIENT_END": {
+    "dark": "#24170b",
+    "light": "#24170b",
+    "midnight": "#24170b",
+    "darker": "#24170b"
+  },
+  "CHECKPOINT_GAMING_GRADIENT_START": {
+    "dark": "#ff7f12",
+    "light": "#ff7f12",
+    "midnight": "#ff7f12",
+    "darker": "#ff7f12"
+  },
+  "CHECKPOINT_GAMING_PRIMARY": {
+    "dark": "#ff9606",
+    "light": "#ff9606",
+    "midnight": "#ff9606",
+    "darker": "#ff9606"
+  },
+  "CHECKPOINT_GAMING_SECONDARY": {
+    "dark": "#cb630f",
+    "light": "#cb630f",
+    "midnight": "#cb630f",
+    "darker": "#cb630f"
+  },
+  "CHECKPOINT_GUILDS_GRADIENT_END": {
+    "dark": "#0b2420",
+    "light": "#0b2420",
+    "midnight": "#0b2420",
+    "darker": "#0b2420"
+  },
+  "CHECKPOINT_GUILDS_GRADIENT_START": {
+    "dark": "#0ce7c1",
+    "light": "#0ce7c1",
+    "midnight": "#0ce7c1",
+    "darker": "#0ce7c1"
+  },
+  "CHECKPOINT_GUILDS_PRIMARY": {
+    "dark": "#5efde2",
+    "light": "#5efde2",
+    "midnight": "#5efde2",
+    "darker": "#5efde2"
+  },
+  "CHECKPOINT_GUILDS_SECONDARY": {
+    "dark": "#1c9681",
+    "light": "#1c9681",
+    "midnight": "#1c9681",
+    "darker": "#1c9681"
+  },
+  "CHECKPOINT_MESSAGES_GRADIENT_END": {
+    "dark": "#240e0b",
+    "light": "#240e0b",
+    "midnight": "#240e0b",
+    "darker": "#240e0b"
+  },
+  "CHECKPOINT_MESSAGES_GRADIENT_START": {
+    "dark": "#fe3ee2",
+    "light": "#fe3ee2",
+    "midnight": "#fe3ee2",
+    "darker": "#fe3ee2"
+  },
+  "CHECKPOINT_MESSAGES_PRIMARY": {
+    "dark": "#ff4cd2",
+    "light": "#ff4cd2",
+    "midnight": "#ff4cd2",
+    "darker": "#ff4cd2"
+  },
+  "CHECKPOINT_MESSAGES_SECONDARY": {
+    "dark": "#aa1d86",
+    "light": "#aa1d86",
+    "midnight": "#aa1d86",
+    "darker": "#aa1d86"
+  },
+  "CHECKPOINT_PERSONA_EIGHT_PRIMARY": {
+    "dark": "#d9b777",
+    "light": "#d9b777",
+    "midnight": "#d9b777",
+    "darker": "#d9b777"
+  },
+  "CHECKPOINT_PERSONA_FIVE_PRIMARY": {
+    "dark": "#f75990",
+    "light": "#f75990",
+    "midnight": "#f75990",
+    "darker": "#f75990"
+  },
+  "CHECKPOINT_PERSONA_FOUR_PRIMARY": {
+    "dark": "#f262d5",
+    "light": "#f262d5",
+    "midnight": "#f262d5",
+    "darker": "#f262d5"
+  },
+  "CHECKPOINT_PERSONA_NINE_PRIMARY": {
+    "dark": "#eeeeee",
+    "light": "#eeeeee",
+    "midnight": "#eeeeee",
+    "darker": "#eeeeee"
+  },
+  "CHECKPOINT_PERSONA_ONE_PRIMARY": {
+    "dark": "#5efde2",
+    "light": "#5efde2",
+    "midnight": "#5efde2",
+    "darker": "#5efde2"
+  },
+  "CHECKPOINT_PERSONA_SEVEN_PRIMARY": {
+    "dark": "#ffe047",
+    "light": "#ffe047",
+    "midnight": "#ffe047",
+    "darker": "#ffe047"
+  },
+  "CHECKPOINT_PERSONA_SIX_PRIMARY": {
+    "dark": "#ff9138",
+    "light": "#ff9138",
+    "midnight": "#ff9138",
+    "darker": "#ff9138"
+  },
+  "CHECKPOINT_PERSONA_THREE_PRIMARY": {
+    "dark": "#ca9ef9",
+    "light": "#ca9ef9",
+    "midnight": "#ca9ef9",
+    "darker": "#ca9ef9"
+  },
+  "CHECKPOINT_PERSONA_TWO_PRIMARY": {
+    "dark": "#8eb6fb",
+    "light": "#8eb6fb",
+    "midnight": "#8eb6fb",
+    "darker": "#8eb6fb"
+  },
+  "CHECKPOINT_PERSONA_ZERO_PRIMARY": {
+    "dark": "#35ed7e",
+    "light": "#35ed7e",
+    "midnight": "#35ed7e",
+    "darker": "#35ed7e"
+  },
+  "CHECKPOINT_QUESTS_GRADIENT_END": {
+    "dark": "#1d0b24",
+    "light": "#1d0b24",
+    "midnight": "#1d0b24",
+    "darker": "#1d0b24"
+  },
+  "CHECKPOINT_QUESTS_GRADIENT_START": {
+    "dark": "#7d42f2",
+    "light": "#7d42f2",
+    "midnight": "#7d42f2",
+    "darker": "#7d42f2"
+  },
+  "CHECKPOINT_QUESTS_PRIMARY": {
+    "dark": "#ca9ef9",
+    "light": "#ca9ef9",
+    "midnight": "#ca9ef9",
+    "darker": "#ca9ef9"
+  },
+  "CHECKPOINT_QUESTS_SECONDARY": {
+    "dark": "#a365e6",
+    "light": "#a365e6",
+    "midnight": "#a365e6",
+    "darker": "#a365e6"
+  },
+  "CHECKPOINT_VOICE_GRADIENT_END": {
+    "dark": "#5a3107",
+    "light": "#5a3107",
+    "midnight": "#5a3107",
+    "darker": "#5a3107"
+  },
+  "CHECKPOINT_VOICE_GRADIENT_START": {
+    "dark": "#ffe047",
+    "light": "#ffe047",
+    "midnight": "#ffe047",
+    "darker": "#ffe047"
+  },
+  "CHECKPOINT_VOICE_PRIMARY": {
+    "dark": "#ffe047",
+    "light": "#ffe047",
+    "midnight": "#ffe047",
+    "darker": "#ffe047"
+  },
+  "CHECKPOINT_VOICE_SECONDARY": {
+    "dark": "#b69c1b",
+    "light": "#b69c1b",
+    "midnight": "#b69c1b",
+    "darker": "#b69c1b"
+  },
+  "CHECKPOINT_WELCOME_GRADIENT_END": {
+    "dark": "#113e27",
+    "light": "#113e27",
+    "midnight": "#113e27",
+    "darker": "#113e27"
+  },
+  "CHECKPOINT_WELCOME_GRADIENT_START": {
+    "dark": "#3fc07e",
+    "light": "#3fc07e",
+    "midnight": "#3fc07e",
+    "darker": "#3fc07e"
+  },
+  "CHECKPOINT_WELCOME_PRIMARY": {
+    "dark": "#2bec76",
+    "light": "#2bec76",
+    "midnight": "#2bec76",
+    "darker": "#2bec76"
+  },
+  "CHECKPOINT_WELCOME_SECONDARY": {
+    "dark": "#14a74e",
+    "light": "#14a74e",
+    "midnight": "#14a74e",
+    "darker": "#14a74e"
+  },
   "COACHMARK_BG": {
     "dark": "#111214",
     "light": "#ffffff",
