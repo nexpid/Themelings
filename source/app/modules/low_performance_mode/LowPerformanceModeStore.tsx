@@ -158,7 +158,7 @@ case 15:
             }
         };
         var5['value'] = var1;
-        var1 = new Array(4);
+        var1 = new Array(5);
         var1[0] = var5;
         var5 = {};
         var7 = 'getState';
@@ -182,13 +182,31 @@ case 15:
         var5 = {};
         var7 = 'visible';
         var5['key'] = var7;
-        var6 = function get() {
+        var7 = function get() {
             var1 = _closure1_slot5;
             var1 = var1.visible;
             return var1;
         };
-        var5['get'] = var6;
+        var5['get'] = var7;
         var1[3] = var5;
+        var5 = {};
+        var7 = 'active';
+        var5['key'] = var7;
+        var6 = function get() {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+                var1 = _closure1_slot5;
+                var1 = var1.enabled;
+                if(!var1) { _fun0004_ip = 17; continue _fun0004 }
+case 18:
+                var2 = _closure1_slot5;
+                var1 = var2.visible;
+case 17:
+                return var1;
+            }
+        };
+        var5['get'] = var6;
+        var1[4] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -201,14 +219,14 @@ case 15:
     var11 = var6.bind(var1)(var2);
     var2 = {};
     var8 = function handleSetEnabled(arg1) {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var1 = arg1;
             var4 = var1.enabled;
             var1 = _closure1_slot5;
             var1 = var1.enabled;
-            if(!(var1 !== var4)) { _fun0004_ip = 17; continue _fun0004 }
-case 18:
+            if(!(var1 !== var4)) { _fun0005_ip = 19; continue _fun0005 }
+case 20:
             var1 = {};
             var5 = _closure1_slot5;
             var6 = var1;
@@ -218,21 +236,21 @@ case 18:
             _closure1_slot5 = var1;
             var1 = undefined;
             return var1;
-case 17:
+case 19:
             var1 = false;
             return var1;
         }
     };
     var2['LOW_PERFORMANCE_MODE_SET_ENABLED'] = var8;
     var4 = function handleSetVisible(arg1) {
-        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var1 = arg1;
             var4 = var1.visible;
             var1 = _closure1_slot5;
             var1 = var1.visible;
-            if(!(var1 !== var4)) { _fun0005_ip = 19; continue _fun0005 }
-case 20:
+            if(!(var1 !== var4)) { _fun0006_ip = 21; continue _fun0006 }
+case 22:
             var1 = {};
             var5 = _closure1_slot5;
             var6 = var1;
@@ -242,7 +260,7 @@ case 20:
             _closure1_slot5 = var1;
             var1 = undefined;
             return var1;
-case 19:
+case 21:
             var1 = false;
             return var1;
         }

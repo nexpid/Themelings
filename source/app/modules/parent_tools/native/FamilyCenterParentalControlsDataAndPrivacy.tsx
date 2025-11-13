@@ -36,7 +36,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
     var _closure1_slot6 = var4;
-    var4 = 8;
+    var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -44,8 +44,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function FamilyCenterParentalControlsDataAndPrivacy() {
         var5 = _closure1_slot3;
-        var4 = var5.useMemo;
-        var3 = function() {
+        var6 = var5.useMemo;
+        var4 = function() {
             var2 = {};
             var6 = _closure1_slot5;
             var3 = var6.PARENTAL_CONTROLS_DATA_USAGE_STATISTICS;
@@ -146,18 +146,36 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1[3] = var2;
             return var1;
         };
-        var2 = new Array(0);
-        var5 = var4.bind(var5)(var3, var2);
+        var3 = new Array(0);
+        var6 = var6.bind(var5)(var4, var3);
+        var _closure2_slot0 = var6;
+        var4 = var5.useMemo;
+        var3 = new Array(1);
+        var3[0] = var6;
+        var2 = function() {
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 7;
+            var2 = var2[var1];
+            var1 = undefined;
+            var3 = var3.bind(var1)(var2);
+            var2 = var3.createList;
+            var1 = {};
+            var4 = _closure2_slot0;
+            var1['sections'] = var4;
+            var1 = var2.bind(var3)(var1);
+            return var1;
+        };
+        var5 = var4.bind(var5)(var2, var3);
         var4 = _closure1_slot6;
-        var2 = _closure1_slot0;
+        var2 = _closure1_slot1;
         var3 = _closure1_slot2;
-        var1 = 7;
+        var1 = 8;
         var1 = var3[var1];
         var3 = undefined;
-        var1 = var2.bind(var3)(var1);
-        var2 = var1.SettingsList;
+        var2 = var2.bind(var3)(var1);
         var1 = {};
-        var1['sections'] = var5;
+        var1['node'] = var5;
         var1 = var4.bind(var3)(var2, var1);
         return var1;
     };

@@ -89,15 +89,15 @@ case 0:
             var1 = arg1;
             var3 = var1.type;
             var4 = _closure1_slot7;
-            var4 = var4.SECTION_LABEL;
+            var4 = var4.SECTION_HEADER;
             if(!(var4 !== var3)) { _fun0003_ip = 7; continue _fun0003 }
 case 8:
             var4 = _closure1_slot7;
-            var4 = var4.SECTION_SUBLABEL;
+            var4 = var4.SECTION_FOOTER;
             if(!(var4 !== var3)) { _fun0003_ip = 7; continue _fun0003 }
 case 9:
             var4 = _closure1_slot7;
-            var4 = var4.SETTING;
+            var4 = var4.SECTION_ROW;
             if(!(var4 !== var3)) { _fun0003_ip = 10; continue _fun0003 }
 case 5:
             var4 = _closure1_slot7;
@@ -105,7 +105,7 @@ case 5:
             if(!(var4 !== var3)) { _fun0003_ip = 10; continue _fun0003 }
 case 11:
             var2 = _closure1_slot7;
-            var2 = var2.SETTING_SEARCH_RESULT_PLACEHOLDER;
+            var2 = var2.SECTION_ROW_PLACEHOLDER;
             if(!(var2 !== var3)) { _fun0003_ip = 12; continue _fun0003 }
 case 13:
             var2 = undefined;
@@ -136,11 +136,11 @@ case 0:
             var1 = var1.item;
             var4 = var1.type;
             var3 = _closure1_slot7;
-            var3 = var3.SECTION_LABEL;
+            var3 = var3.SECTION_HEADER;
             if(!(var3 !== var4)) { _fun0004_ip = 14; continue _fun0004 }
 case 15:
             var3 = _closure1_slot7;
-            var3 = var3.SECTION_SUBLABEL;
+            var3 = var3.SECTION_FOOTER;
             if(!(var3 !== var4)) { _fun0004_ip = 16; continue _fun0004 }
 case 17:
             var3 = _closure1_slot7;
@@ -148,11 +148,11 @@ case 17:
             if(!(var3 !== var4)) { _fun0004_ip = 18; continue _fun0004 }
 case 19:
             var3 = _closure1_slot7;
-            var3 = var3.SETTING;
+            var3 = var3.SECTION_ROW;
             if(!(var3 !== var4)) { _fun0004_ip = 6; continue _fun0004 }
 case 20:
             var3 = _closure1_slot7;
-            var3 = var3.SETTING_SEARCH_RESULT_PLACEHOLDER;
+            var3 = var3.SECTION_ROW_PLACEHOLDER;
             if(!(var3 !== var4)) { _fun0004_ip = 21; continue _fun0004 }
 case 10:
             var3 = undefined;
@@ -191,7 +191,7 @@ case 16:
             var6 = _closure1_slot9;
             var5 = _closure1_slot12;
             var4 = {};
-            var3 = var1.subLabel;
+            var3 = var1.label;
             var4['subLabel'] = var3;
             var3 = undefined;
             var3 = var6.bind(var3)(var5, var4);
@@ -215,28 +215,28 @@ case 0:
             var4 = arg2;
             var3 = var1.type;
             var5 = _closure1_slot7;
-            var5 = var5.SECTION_LABEL;
+            var5 = var5.SECTION_HEADER;
             if(!(var5 !== var3)) { _fun0005_ip = 22; continue _fun0005 }
 case 23:
             var5 = _closure1_slot7;
-            var5 = var5.SECTION_SUBLABEL;
-            if(!(var5 !== var3)) { _fun0005_ip = 24; continue _fun0005 }
-case 25:
+            var5 = var5.SECTION_FOOTER;
+            if(!(var5 !== var3)) { _fun0005_ip = 22; continue _fun0005 }
+case 24:
             var5 = _closure1_slot7;
-            var5 = var5.SETTING;
-            if(!(var5 !== var3)) { _fun0005_ip = 26; continue _fun0005 }
-case 27:
+            var5 = var5.SECTION_ROW;
+            if(!(var5 !== var3)) { _fun0005_ip = 25; continue _fun0005 }
+case 26:
             var5 = _closure1_slot7;
             var5 = var5.SETTING_SEARCH_RESULT;
-            if(!(var5 !== var3)) { _fun0005_ip = 26; continue _fun0005 }
-case 28:
+            if(!(var5 !== var3)) { _fun0005_ip = 25; continue _fun0005 }
+case 27:
             var2 = _closure1_slot7;
-            var2 = var2.SETTING_SEARCH_RESULT_PLACEHOLDER;
-            if(!(var2 !== var3)) { _fun0005_ip = 29; continue _fun0005 }
-case 30:
+            var2 = var2.SECTION_ROW_PLACEHOLDER;
+            if(!(var2 !== var3)) { _fun0005_ip = 28; continue _fun0005 }
+case 29:
             var2 = undefined;
             return var2;
-case 29:
+case 28:
             var6 = var1.type;
             var2 = global;
             var2 = var2.HermesInternal;
@@ -245,26 +245,9 @@ case 29:
             var2 = '-';
             var2 = var5.bind(var3)(var6, var2, var4);
             return var2;
-case 26:
+case 25:
             var7 = var1.type;
             var6 = var1.setting;
-            var2 = global;
-            var2 = var2.HermesInternal;
-            var5 = var2.concat;
-            var3 = '';
-            var2 = '-';
-            var2 = var5.bind(var3)(var7, var2, var6);
-            return var2;
-case 24:
-            var7 = var1.type;
-            var2 = var1.subLabel;
-            var3 = 'string';
-            var2 = typeof var2;
-            var6 = var4;
-            if(!(var3 === var2)) { _fun0005_ip = 16; continue _fun0005 }
-case 31:
-            var6 = var1.subLabel;
-case 16:
             var2 = global;
             var2 = var2.HermesInternal;
             var5 = var2.concat;
@@ -277,10 +260,10 @@ case 22:
             var2 = var1.label;
             var3 = 'string';
             var2 = typeof var2;
-            if(!(var3 === var2)) { _fun0005_ip = 32; continue _fun0005 }
-case 33:
+            if(!(var3 === var2)) { _fun0005_ip = 30; continue _fun0005 }
+case 31:
             var4 = var1.label;
-case 32:
+case 30:
             var1 = global;
             var1 = var1.HermesInternal;
             var3 = var1.concat;
@@ -321,7 +304,7 @@ case 32:
     var4 = 4;
     var4 = var7[var4];
     var4 = var6.bind(var1)(var4);
-    var5 = var4.ListRendererType;
+    var5 = var4.ListItemType;
     var _closure1_slot7 = var5;
     var4 = var4.SETTINGS_LIST_ITEM_ESTIMATED_SIZE;
     var _closure1_slot8 = var4;
@@ -364,12 +347,8 @@ case 32:
     var5 = var8.memo;
     var4 = function(arg1) {
         var2 = arg1;
-        var9 = var2.sections;
-        var _closure2_slot0 = var9;
-        var15 = var2.ListHeaderComponent;
-        var10 = var2.ListFooterComponent;
-        var7 = var2.containerStyle;
-        var3 = var2.initialSetting;
+        var10 = var2.node;
+        var _closure2_slot0 = var10;
         var2 = _closure1_slot10;
         var4 = undefined;
         var11 = var2.bind(var4)();
@@ -380,16 +359,16 @@ case 32:
         var2 = var13.bind(var4)(var2);
         var2 = var2.bind(var4)();
         var12 = var2.bottom;
-        var6 = _closure1_slot6;
-        var5 = var6.useField;
+        var5 = _closure1_slot6;
+        var3 = var5.useField;
         var2 = 'blocklist';
-        var16 = var5.bind(var6)(var2);
-        var _closure2_slot1 = var16;
-        var5 = _closure1_slot3;
-        var6 = var5.useMemo;
+        var6 = var3.bind(var5)(var2);
+        var _closure2_slot1 = var6;
+        var3 = _closure1_slot3;
+        var5 = var3.useMemo;
         var2 = new Array(2);
-        var2[0] = var16;
-        var2[1] = var9;
+        var2[0] = var6;
+        var2[1] = var10;
         var1 = function() {
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -397,29 +376,27 @@ case 32:
             var2 = var2[var1];
             var1 = undefined;
             var4 = var3.bind(var1)(var2);
-            var3 = var4.getSettingListItems;
+            var3 = var4.toSettingListItems;
             var2 = _closure2_slot0;
             var1 = _closure2_slot1;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         };
-        var9 = var6.bind(var5)(var1, var2);
-        var2 = var5.useRef;
+        var9 = var5.bind(var3)(var1, var2);
+        var2 = var3.useRef;
         var1 = null;
-        var16 = var2.bind(var5)(var1);
+        var15 = var2.bind(var3)(var1);
         var6 = _closure1_slot0;
         var1 = 13;
         var1 = var14[var1];
-        var2 = var6.bind(var4)(var1);
-        var1 = var2.useAutoScrollToSearchResultSetting;
-        var1 = var1.bind(var2)(var16, var9, var3);
+        var3 = var6.bind(var4)(var1);
+        var2 = var3.useAutoScrollToSearchResultSetting;
+        var1 = var10.scrollTarget;
+        var1 = var2.bind(var3)(var15, var9, var1);
         var3 = _closure1_slot9;
         var2 = _closure1_slot4;
         var1 = {};
-        var17 = var11.container;
-        var5 = new Array(2);
-        var5[0] = var17;
-        var5[1] = var7;
+        var5 = var11.container;
         var1['style'] = var5;
         var7 = _closure1_slot9;
         var5 = 14;
@@ -427,15 +404,15 @@ case 32:
         var5 = var6.bind(var4)(var5);
         var6 = var5.FlashList;
         var5 = {};
-        var5['ref'] = var16;
-        var5['ListHeaderComponent'] = var15;
-        var5['ListFooterComponent'] = var10;
+        var5['ref'] = var15;
+        var10 = var10.ListHeaderComponent;
+        var5['ListHeaderComponent'] = var10;
         var10 = _closure1_slot8;
         var5['estimatedItemSize'] = var10;
         var10 = {};
-        var19 = var11.contentContainer;
-        var20 = var10;
-        var11 = copyDataProperties(var20, var19);
+        var17 = var11.contentContainer;
+        var18 = var10;
+        var11 = copyDataProperties(var18, var17);
         var11 = 7;
         var11 = var14[var11];
         var11 = var13.bind(var4)(var11);
@@ -465,7 +442,7 @@ case 32:
     var5 = var8.memo;
     var2 = function(arg1) {
         var2 = arg1;
-        var3 = var2.sections;
+        var3 = var2.node;
         var _closure2_slot0 = var3;
         var2 = _closure1_slot10;
         var4 = undefined;
@@ -539,7 +516,7 @@ case 32:
             var2 = var2[var1];
             var1 = undefined;
             var4 = var3.bind(var1)(var2);
-            var3 = var4.getSettingListItems;
+            var3 = var4.toSettingListItems;
             var2 = _closure2_slot0;
             var1 = _closure2_slot8;
             var1 = var3.bind(var4)(var2, var1);
@@ -564,13 +541,13 @@ case 0:
                 var4 = var4[var3];
                 var3 = undefined;
                 var6 = var5.bind(var3)(var4);
-                if(var1) { _fun0006_ip = 34; continue _fun0006 }
-case 35:
+                if(var1) { _fun0006_ip = 32; continue _fun0006 }
+case 33:
                 var3 = var6.getSettingListSearchResultItems;
                 var1 = _closure2_slot3;
                 var1 = var3.bind(var6)(var1);
                 _fun0006_ip = 4; continue _fun0006;
-case 34:
+case 32:
                 var5 = var6.getScoredSettingListSearchResultItems;
                 var4 = _closure2_slot4;
                 var3 = _closure2_slot5;
@@ -591,13 +568,13 @@ case 4:
             _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                 var1 = _closure2_slot7;
-                if(var1) { _fun0007_ip = 36; continue _fun0007 }
-case 37:
+                if(var1) { _fun0007_ip = 34; continue _fun0007 }
+case 35:
                 var1 = _closure2_slot10;
-                _fun0007_ip = 38; continue _fun0007;
-case 36:
+                _fun0007_ip = 36; continue _fun0007;
+case 34:
                 var1 = _closure2_slot9;
-case 38:
+case 36:
                 return var1;
             }
         };
@@ -611,14 +588,14 @@ case 38:
             _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
                 var2 = _closure2_slot7;
-                if(var2) { _fun0008_ip = 39; continue _fun0008 }
-case 37:
+                if(var2) { _fun0008_ip = 37; continue _fun0008 }
+case 35:
                 var1 = _closure2_slot1;
                 var1 = var1.searchResultsHeader;
-                _fun0008_ip = 40; continue _fun0008;
-case 39:
+                _fun0008_ip = 38; continue _fun0008;
+case 37:
                 var1 = {};
-case 40:
+case 38:
                 return var1;
             }
         };

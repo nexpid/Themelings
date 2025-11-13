@@ -136,7 +136,7 @@ case 8:
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(28);
+        var1 = new Array(29);
         var1[0] = var5;
         var5 = {};
         var7 = 'getVisibleGame';
@@ -265,6 +265,15 @@ case 8:
         var5['value'] = var7;
         var1[14] = var5;
         var5 = {};
+        var7 = 'isGamesSeenLoaded';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = true;
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[15] = var5;
+        var5 = {};
         var7 = 'getGamesSeen';
         var5['key'] = var7;
         var7 = function value() {
@@ -272,7 +281,7 @@ case 8:
             return var1;
         };
         var5['value'] = var7;
-        var1[15] = var5;
+        var1[16] = var5;
         var5 = {};
         var7 = 'getSeenGameByName';
         var5['key'] = var7;
@@ -281,7 +290,7 @@ case 8:
             return var1;
         };
         var5['value'] = var7;
-        var1[16] = var5;
+        var1[17] = var5;
         var5 = {};
         var7 = 'isObservedAppRunning';
         var5['key'] = var7;
@@ -290,7 +299,7 @@ case 8:
             return var1;
         };
         var5['value'] = var7;
-        var1[17] = var5;
+        var1[18] = var5;
         var5 = {};
         var7 = 'getOverlayEnabledForGame';
         var5['key'] = var7;
@@ -299,7 +308,7 @@ case 8:
             return var1;
         };
         var5['value'] = var7;
-        var1[18] = var5;
+        var1[19] = var5;
         var5 = {};
         var7 = 'getOverrides';
         var5['key'] = var7;
@@ -308,7 +317,7 @@ case 8:
             return var1;
         };
         var5['value'] = var7;
-        var1[19] = var5;
+        var1[20] = var5;
         var5 = {};
         var7 = 'getOverrideForGame';
         var5['key'] = var7;
@@ -317,7 +326,7 @@ case 8:
             return var1;
         };
         var5['value'] = var7;
-        var1[20] = var5;
+        var1[21] = var5;
         var5 = {};
         var7 = 'getGameOverlayStatus';
         var5['key'] = var7;
@@ -326,7 +335,7 @@ case 8:
             return var1;
         };
         var5['value'] = var7;
-        var1[21] = var5;
+        var1[22] = var5;
         var5 = {};
         var7 = 'getObservedAppNameForWindow';
         var5['key'] = var7;
@@ -335,7 +344,7 @@ case 8:
             return var1;
         };
         var5['value'] = var7;
-        var1[22] = var5;
+        var1[23] = var5;
         var5 = {};
         var7 = 'canShowAdminWarning';
         var5['key'] = var7;
@@ -344,7 +353,7 @@ case 8:
             return var1;
         };
         var5['get'] = var7;
-        var1[23] = var5;
+        var1[24] = var5;
         var5 = {};
         var7 = 'isDetectionEnabled';
         var5['key'] = var7;
@@ -353,7 +362,7 @@ case 8:
             return var1;
         };
         var5['value'] = var7;
-        var1[24] = var5;
+        var1[25] = var5;
         var5 = {};
         var7 = 'addExecutableTrackedByAnalytics';
         var5['key'] = var7;
@@ -362,7 +371,7 @@ case 8:
             return var1;
         };
         var5['value'] = var7;
-        var1[25] = var5;
+        var1[26] = var5;
         var5 = {};
         var7 = 'getSystemServiceStatus';
         var5['key'] = var7;
@@ -373,7 +382,7 @@ case 8:
             return var1;
         };
         var5['value'] = var7;
-        var1[26] = var5;
+        var1[27] = var5;
         var5 = {};
         var7 = 'isSystemServiceInitialized';
         var5['key'] = var7;
@@ -382,7 +391,7 @@ case 8:
             return var1;
         };
         var5['value'] = var6;
-        var1[27] = var5;
+        var1[28] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

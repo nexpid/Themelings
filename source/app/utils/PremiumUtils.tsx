@@ -6206,20 +6206,19 @@ case 43:
         return var1;
     };
     var68['canEditDiscriminator'] = var71;
-    var71 = function hasBoostDiscount(arg1, arg2) {
-        var3 = _closure1_slot0;
+    var71 = function hasBoostDiscount(arg1) {
+        var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 26;
-        var4 = var6[var1];
+        var3 = var6[var1];
         var2 = undefined;
-        var5 = var3.bind(var2)(var4);
-        var4 = var5.canUserUse;
+        var4 = var5.bind(var2)(var3);
+        var3 = var4.canUserUse;
         var1 = var6[var1];
-        var1 = var3.bind(var2)(var1);
-        var3 = var1.BOOST_DISCOUNT;
-        var2 = arg1;
-        var1 = arg2;
-        var1 = var4.bind(var5)(var3, var2, var1);
+        var1 = var5.bind(var2)(var1);
+        var2 = var1.BOOST_DISCOUNT;
+        var1 = arg1;
+        var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
     var68['hasBoostDiscount'] = var71;
@@ -6427,20 +6426,19 @@ case 522:
         }
     };
     var68['canStreamQuality'] = var71;
-    var71 = function hasFreeBoosts(arg1, arg2) {
-        var3 = _closure1_slot0;
+    var71 = function hasFreeBoosts(arg1) {
+        var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 26;
-        var4 = var6[var1];
+        var3 = var6[var1];
         var2 = undefined;
-        var5 = var3.bind(var2)(var4);
-        var4 = var5.canUserUse;
+        var4 = var5.bind(var2)(var3);
+        var3 = var4.canUserUse;
         var1 = var6[var1];
-        var1 = var3.bind(var2)(var1);
-        var3 = var1.FREE_BOOSTS;
-        var2 = arg1;
-        var1 = arg2;
-        var1 = var4.bind(var5)(var3, var2, var1);
+        var1 = var5.bind(var2)(var1);
+        var2 = var1.FREE_BOOSTS;
+        var1 = arg1;
+        var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
     var68['hasFreeBoosts'] = var71;

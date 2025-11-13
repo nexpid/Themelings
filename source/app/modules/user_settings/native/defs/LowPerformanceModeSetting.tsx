@@ -47,6 +47,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['title'] = var10;
     var9 = var9.ADVANCED;
     var2['parent'] = var9;
+    var9 = function useLowPerformanceSettingPredicate() {
+        var4 = _closure1_slot0;
+        var3 = _closure1_slot1;
+        var2 = 2;
+        var3 = var3[var2];
+        var2 = undefined;
+        var4 = var4.bind(var2)(var3);
+        var3 = var4.useStateFromStores;
+        var1 = _closure1_slot2;
+        var2 = new Array(1);
+        var2[0] = var1;
+        var1 = function() {
+            var1 = _closure1_slot2;
+            var1 = var1.visible;
+            return var1;
+        };
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
+    };
+    var2['usePredicate'] = var9;
     var9 = function useValue() {
         var4 = _closure1_slot0;
         var3 = _closure1_slot1;

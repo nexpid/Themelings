@@ -37,7 +37,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/slayer_storefront/experiments/SocialLayerStorefrontExperiments.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function useIsEligibleForSocialLayerStorefrontUserExperiment(arg1) {
+    var4 = function useIsEligibleForSocialLayerStorefrontUserExperiment(arg1) {
         var1 = arg1;
         var4 = var1.location;
         var3 = _closure1_slot0;
@@ -48,6 +48,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.enabled;
         return var1;
     };
-    var3['useIsEligibleForSocialLayerStorefrontUserExperiment'] = var2;
+    var3['useIsEligibleForSocialLayerStorefrontUserExperiment'] = var4;
+    var2 = function getIsEligibleForSocialLayerStorefrontUserExperiment(arg1) {
+        var1 = arg1;
+        var4 = var1.location;
+        var3 = _closure1_slot0;
+        var2 = var3.getConfig;
+        var1 = {};
+        var1['location'] = var4;
+        var1 = var2.bind(var3)(var1);
+        var1 = var1.enabled;
+        return var1;
+    };
+    var3['getIsEligibleForSocialLayerStorefrontUserExperiment'] = var2;
     return var1;
 })();

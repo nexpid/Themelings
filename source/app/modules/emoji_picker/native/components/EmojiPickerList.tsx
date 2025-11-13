@@ -618,24 +618,24 @@ case 65:
                     var2 = var8.bind(var4)(var2);
                     var2 = var2.EmojiPickerFlashListItemType;
                     var2 = var2.PREMIUM_INLINE_ROADBLOCK;
-                    if(!(var2 !== var6)) { _fun0004_ip = 66; continue _fun0004 }
-case 67:
+                    if(!(var2 !== var6)) { _fun0004_ip = 27; continue _fun0004 }
+case 66:
                     var8 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var2 = var2[var9];
                     var2 = var8.bind(var4)(var2);
                     var2 = var2.EmojiPickerFlashListItemType;
                     var2 = var2.EMOJI_ROW;
-                    if(!(var2 !== var6)) { _fun0004_ip = 68; continue _fun0004 }
-case 69:
+                    if(!(var2 !== var6)) { _fun0004_ip = 67; continue _fun0004 }
+case 68:
                     var8 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var2 = var2[var9];
                     var2 = var8.bind(var4)(var2);
                     var2 = var2.EmojiPickerFlashListItemType;
                     var2 = var2.EMOJI_ROW_NSFW;
-                    if(!(var2 !== var6)) { _fun0004_ip = 70; continue _fun0004 }
-case 71:
+                    if(!(var2 !== var6)) { _fun0004_ip = 69; continue _fun0004 }
+case 70:
                     var8 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var2 = var2[var9];
@@ -643,8 +643,8 @@ case 71:
                     var2 = var2.EmojiPickerFlashListItemType;
                     var2 = var2.FOOTER_UPSELL;
                     var10 = undefined;
-                    if(!(var2 === var6)) { _fun0004_ip = 72; continue _fun0004 }
-case 73:
+                    if(!(var2 === var6)) { _fun0004_ip = 71; continue _fun0004 }
+case 72:
                     var8 = _closure1_slot13;
                     var6 = _closure1_slot0;
                     var9 = _closure1_slot2;
@@ -657,19 +657,19 @@ case 73:
                     var11 = null;
                     var12 = var11 == var12;
                     var11 = undefined;
-                    if(var12) { _fun0004_ip = 74; continue _fun0004 }
-case 75:
+                    if(var12) { _fun0004_ip = 73; continue _fun0004 }
+case 74:
                     var12 = _closure2_slot1;
                     var11 = var12.guild_id;
-case 74:
+case 73:
                     var2['guildId'] = var11;
                     var11 = _closure2_slot7;
                     var2['analyticsLocations'] = var11;
                     var9 = _closure2_slot11;
                     var2['useTier0UpsellContent'] = var9;
                     var10 = var8.bind(var4)(var6, var2);
-                    _fun0004_ip = 72; continue _fun0004;
-case 70:
+                    _fun0004_ip = 71; continue _fun0004;
+case 69:
                     var8 = _closure1_slot13;
                     var6 = _closure1_slot0;
                     var9 = _closure1_slot2;
@@ -679,8 +679,8 @@ case 70:
                     var6 = var2.NSFWRow;
                     var2 = {};
                     var10 = var8.bind(var4)(var6, var2);
-                    _fun0004_ip = 72; continue _fun0004;
-case 68:
+                    _fun0004_ip = 71; continue _fun0004;
+case 67:
                     var14 = var5.emojis;
                     var13 = var5.emojisDisabled;
                     var12 = var5.footer;
@@ -710,15 +710,15 @@ case 68:
                     var2['row'] = var11;
                     var2['isSectionNitroLocked'] = var9;
                     var10 = var8.bind(var4)(var6, var2);
-case 72:
+case 71:
                     var8 = _closure1_slot15;
                     var6 = _closure1_slot14;
                     var2 = {};
                     var11 = var5.isSectionNitroLocked;
                     var9 = true;
                     var11 = var9 === var11;
-                    if(!var11) { _fun0004_ip = 76; continue _fun0004 }
-case 77:
+                    if(!var11) { _fun0004_ip = 75; continue _fun0004 }
+case 76:
                     var13 = _closure1_slot13;
                     var12 = _closure1_slot0;
                     var14 = _closure1_slot2;
@@ -730,14 +730,14 @@ case 77:
                     var14 = _closure2_slot11;
                     var9['useTier0UpsellContent'] = var14;
                     var11 = var13.bind(var4)(var12, var9);
-case 76:
+case 75:
                     var9 = new Array(2);
                     var9[0] = var11;
                     var9[1] = var10;
                     var2['children'] = var9;
                     var2 = var8.bind(var4)(var6, var2);
                     return var2;
-case 66:
+case 27:
                     var8 = _closure1_slot13;
                     var6 = _closure1_slot1;
                     var9 = _closure1_slot2;
@@ -754,16 +754,16 @@ case 66:
 case 64:
                     var6 = var5.title;
                     var2 = 'StickyHeader';
-                    if(!(var2 === var3)) { _fun0004_ip = 78; continue _fun0004 }
-case 79:
+                    if(!(var2 === var3)) { _fun0004_ip = 77; continue _fun0004 }
+case 78:
                     var2 = _closure2_slot0;
                     var3 = var2.current;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0004_ip = 78; continue _fun0004 }
-case 80:
+                    if(!(var2 != var3)) { _fun0004_ip = 77; continue _fun0004 }
+case 79:
                     var2 = var3.onStickyHeaderRendered;
                     var2 = var2.bind(var3)(var7);
-case 78:
+case 77:
                     var3 = _closure1_slot13;
                     var2 = _closure1_slot0;
                     var7 = _closure1_slot2;
@@ -792,19 +792,19 @@ case 60:
             var13 = var9.shouldShowUpsell;
             var16 = var9.onShowNitroUpsell;
             var3 = var3.length;
-            if(!(var8 !== var3)) { _fun0001_ip = 81; continue _fun0001 }
-case 82:
+            if(!(var8 !== var3)) { _fun0001_ip = 80; continue _fun0001 }
+case 81:
             var3 = _closure1_slot1;
             var9 = _closure1_slot2;
-            if(var2) { _fun0001_ip = 83; continue _fun0001 }
-case 84:
+            if(var2) { _fun0001_ip = 82; continue _fun0001 }
+case 83:
             var2 = 36;
             var2 = var9[var2];
-            _fun0001_ip = 85; continue _fun0001;
-case 83:
+            _fun0001_ip = 84; continue _fun0001;
+case 82:
             var8 = 35;
             var2 = var9[var8];
-case 85:
+case 84:
             var11 = var3.bind(var4)(var2);
             var8 = _closure1_slot15;
             var3 = _closure1_slot14;
@@ -815,16 +815,16 @@ case 85:
             var9['animateEmoji'] = var25;
             var9['categoryIndexActive'] = var24;
             var9['data'] = var23;
-            if(!(var21 == var20)) { _fun0001_ip = 86; continue _fun0001 }
-case 87:
+            if(!(var21 == var20)) { _fun0001_ip = 85; continue _fun0001 }
+case 86:
             var23 = var21 == var22;
             var21 = undefined;
-            if(var23) { _fun0001_ip = 88; continue _fun0001 }
-case 89:
-            var21 = var22.guild_id;
+            if(var23) { _fun0001_ip = 87; continue _fun0001 }
 case 88:
+            var21 = var22.guild_id;
+case 87:
             var20 = var21;
-case 86:
+case 85:
             var9['guildId'] = var20;
             var9['inActionSheet'] = var7;
             var9['inPortalKeyboard'] = var19;
@@ -853,7 +853,7 @@ case 86:
             var2['children'] = var9;
             var2 = var8.bind(var4)(var3, var2);
             return var2;
-case 81:
+case 80:
             var3 = _closure1_slot13;
             var2 = _closure1_slot1;
             var8 = _closure1_slot2;

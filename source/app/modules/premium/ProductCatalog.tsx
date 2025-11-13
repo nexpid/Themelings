@@ -38,13 +38,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot13 = var2;
+            _closure1_slot12 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot13 = var1;
+    var _closure1_slot12 = var1;
     var4 = global;
     var7 = var4.Object;
     var6 = var7.defineProperty;
@@ -81,11 +81,9 @@ case 4:
     var5 = 6;
     var5 = var35[var5];
     var5 = var34.bind(var1)(var5);
-    var6 = var5.FractionalPremiumStates;
-    var _closure1_slot8 = var6;
     var37 = var5.PremiumSubscriptionSKUs;
     var5 = var5.PremiumTypeToActivePremiumSubscriptionSKU;
-    var _closure1_slot9 = var5;
+    var _closure1_slot8 = var5;
     var5 = 7;
     var5 = var35[var5];
     var7 = var40.bind(var1)(var5);
@@ -95,7 +93,7 @@ case 4:
     var48 = var6;
     var5 = new var48[var7](var47, var46);
     var5 = var5 instanceof Object ? var5 : var6;
-    var _closure1_slot10 = var5;
+    var _closure1_slot9 = var5;
     var6 = 8;
     var5 = var35[var6];
     var7 = var40.bind(var1)(var5);
@@ -135,14 +133,14 @@ case 7:
                         var1 = false;
                         if(var11) { _fun0003_ip = 6; continue _fun0003 }
 case 8: // try_start_0
-                        var12 = _closure1_slot9;
+                        var12 = _closure1_slot8;
                         var11 = var5;
                         var11 = var11.premiumType;
                         var11 = var12[var11];
                         var9 = var11;
                         if(!(var8 != var11)) { _fun0003_ip = 9; continue _fun0003 }
 case 10:
-                        var12 = _closure1_slot11;
+                        var12 = _closure1_slot10;
                         var11 = var9;
                         var11 = var12[var11];
                         var10 = var11;
@@ -153,7 +151,7 @@ case 12:
                         var7 = var10.bind(var11)(var7);
                         _fun0003_ip = 13; continue _fun0003;
 case 11:
-                        var11 = _closure1_slot10;
+                        var11 = _closure1_slot9;
                         var10 = var11.warn;
                         var15 = var9;
                         var9 = var5;
@@ -170,7 +168,7 @@ case 13: // try_end0
                         var1 = var7;
                         _fun0003_ip = 6; continue _fun0003;
 case 9: // try_start_1
-                        var9 = _closure1_slot10;
+                        var9 = _closure1_slot9;
                         var7 = var9.warn;
                         var11 = var5.premiumType;
                         var5 = global;
@@ -185,7 +183,7 @@ case 14: // try_end1
 case 15: // catch_target0 // catch_target1
                         CatchBlockStart(arg_register=6);
                         var6 = var7;
-                        var5 = _closure1_slot10;
+                        var5 = _closure1_slot9;
                         var4 = var5.error;
                         var7 = var7.message;
                         var3 = var7;
@@ -216,7 +214,7 @@ case 6:
                 var1 = _closure1_slot6;
                 var9 = var1.bind(var4)(var3);
                 var3 = _closure1_slot5;
-                var1 = _closure1_slot13;
+                var1 = _closure1_slot12;
                 var1 = var1.bind(var4)();
                 if(var1) { _fun0002_ip = 19; continue _fun0002 }
 case 20:
@@ -565,11 +563,11 @@ case 21:
     var37 = var37 instanceof Object ? var37 : var39;
     var4[var38] = var37;
     var4 = var33.bind(var36)(var4);
-    var _closure1_slot11 = var4;
+    var _closure1_slot10 = var4;
     var33 = new Array(2);
     var33[0] = var18;
     var33[1] = var17;
-    var _closure1_slot12 = var33;
+    var _closure1_slot11 = var33;
     var33 = 13;
     var33 = var35[var33];
     var35 = var34.bind(var1)(var33);
@@ -605,12 +603,11 @@ case 21:
     var3['INCREASED_VIDEO_UPLOAD_QUALITY'] = var6;
     var3['UPLOAD_LARGE_FILES'] = var5;
     var3['PRODUCT_CATALOG'] = var4;
-    var2 = function canUserUse(arg1, arg2, arg3) {
+    var2 = function canUserUse(arg1, arg2) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var5 = arg1;
             var4 = arg2;
-            var7 = arg3;
             var6 = _closure1_slot0;
             var2 = _closure1_slot1;
             var1 = 12;
@@ -624,25 +621,25 @@ case 0:
             if(!var1) { _fun0004_ip = 22; continue _fun0004 }
 case 23:
             var2 = null;
-            var2 = var2 === var7;
+            var2 = var2 == var4;
             if(var2) { _fun0004_ip = 24; continue _fun0004 }
 case 25:
-            var6 = _closure1_slot8;
-            var6 = var6.FP_ONLY;
-            var2 = var7 !== var6;
+            var6 = var4.isPremiumWithFractionalPremiumOnly;
+            var6 = var6.bind(var4)();
+            var2 = !var6;
 case 24:
             if(var2) { _fun0004_ip = 26; continue _fun0004 }
-case 27:
-            var6 = _closure1_slot12;
+case 20:
+            var6 = _closure1_slot11;
             var3 = var6.includes;
             var3 = var3.bind(var6)(var5);
             var2 = !var3;
 case 26:
-            if(!var2) { _fun0004_ip = 12; continue _fun0004 }
+            if(!var2) { _fun0004_ip = 27; continue _fun0004 }
 case 28:
             var3 = var5.getFeatureValue;
             var2 = var3.bind(var5)(var4);
-case 12:
+case 27:
             var1 = var2;
 case 22:
             return var1;

@@ -40,6 +40,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['FULLY_EXPANDED'] = var1;
     var1 = 'view all clicked';
     var2['VIEW_ALL_CLICKED'] = var1;
+    var1 = 'media selected';
+    var2['MEDIA_SELECTED'] = var1;
     var1 = dependencyMap;
     var8 = var1[var7];
     var7 = require;

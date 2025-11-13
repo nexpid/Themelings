@@ -37,22 +37,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.BACKGROUND_GRADIENT_PRESETS_MOBILE;
+    var4 = var4.AnalyticEvents;
     var _closure1_slot8 = var4;
     var4 = 4;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var7 = var4.jsx;
-    var _closure1_slot9 = var7;
-    var4 = var4.jsxs;
-    var _closure1_slot10 = var4;
+    var4 = var4.BACKGROUND_GRADIENT_PRESETS_MOBILE;
+    var _closure1_slot9 = var4;
     var4 = 5;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.jsx;
+    var _closure1_slot10 = var7;
+    var4 = var4.jsxs;
+    var _closure1_slot11 = var4;
+    var4 = 6;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
     var4 = {};
     var9 = {'padding': 24, 'paddingTop': 128, 'paddingBottom': 96, 'borderRadius': null, 'alignItems': 'center', 'flex': 1, 'justifyContent': 'space-between'};
-    var10 = 6;
+    var10 = 7;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.radii;
@@ -101,8 +106,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['backgroundColor'] = var10;
     var4['raisedIcon'] = var9;
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot11 = var4;
-    var4 = 23;
+    var _closure1_slot12 = var4;
+    var4 = 25;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -112,18 +117,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = arg1;
         var11 = var2.token;
         var _closure2_slot0 = var11;
-        var2 = _closure1_slot11;
+        var2 = _closure1_slot12;
         var4 = undefined;
         var13 = var2.bind(var4)();
         var _closure2_slot1 = var13;
         var6 = _closure1_slot1;
         var19 = _closure1_slot2;
-        var2 = 7;
+        var2 = 8;
         var2 = var19[var2];
         var2 = var6.bind(var4)(var2);
         var3 = var2.bind(var4)();
         var _closure2_slot2 = var3;
-        var2 = 8;
+        var2 = 9;
         var2 = var19[var2];
         var2 = var6.bind(var4)(var2);
         var2 = var2.bind(var4)();
@@ -141,7 +146,7 @@ case 0:
                 var1 = {};
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var2 = 9;
+                var2 = 10;
                 var3 = var3[var2];
                 var2 = undefined;
                 var3 = var4.bind(var2)(var3);
@@ -160,19 +165,57 @@ case 2:
             }
         };
         var5 = var5.bind(var7)(var2, var3);
+        var8 = var7.useEffect;
+        var3 = new Array(1);
+        var3[0] = var11;
+        var2 = function() {
+            var4 = _closure1_slot1;
+            var5 = _closure1_slot2;
+            var3 = 11;
+            var6 = var5[var3];
+            var1 = undefined;
+            var9 = var4.bind(var1)(var6);
+            var8 = var9.track;
+            var2 = _closure1_slot8;
+            var7 = var2.ONE_TIME_LOGIN_MODAL_OPENED;
+            var6 = {};
+            var11 = _closure2_slot0;
+            var10 = null;
+            var10 = var10 != var11;
+            var6['has_token'] = var10;
+            var6 = var8.bind(var9)(var7, var6);
+            var3 = var5[var3];
+            var5 = var4.bind(var1)(var3);
+            var4 = var5.track;
+            var3 = var2.DEEP_LINK_CLICKED;
+            var2 = {'source': 'native_modal', 'destination': 'one_time_login_native_modal', 'deep_link_provider': 'native_app'};
+            var2 = var4.bind(var5)(var3, var2);
+            return var1;
+        };
+        var2 = var8.bind(var7)(var2, var3);
         var8 = var7.useCallback;
         var3 = function() {
             var5 = _closure1_slot1;
             var4 = _closure1_slot2;
-            var1 = 10;
+            var1 = 11;
             var3 = var4[var1];
             var1 = undefined;
+            var8 = var5.bind(var1)(var3);
+            var7 = var8.track;
+            var3 = _closure1_slot8;
+            var6 = var3.ONE_TIME_LOGIN_MODAL_CANCEL_CLICKED;
+            var3 = {};
+            var9 = 'loading';
+            var3['current_state'] = var9;
+            var3 = var7.bind(var8)(var6, var3);
+            var3 = 12;
+            var3 = var4[var3];
             var6 = var5.bind(var1)(var3);
             var5 = var6.popWithKey;
             var3 = 'ONE_TIME_LOGIN_MODAL';
             var3 = var5.bind(var6)(var3);
             var3 = _closure1_slot0;
-            var2 = 11;
+            var2 = 13;
             var2 = var4[var2];
             var3 = var3.bind(var1)(var2);
             var2 = var3.resetToAuthRoute;
@@ -190,13 +233,13 @@ case 2:
         var2 = function() {
             var14 = _closure1_slot0;
             var15 = _closure1_slot2;
-            var1 = 12;
+            var1 = 14;
             var2 = var15[var1];
             var1 = undefined;
             var5 = var14.bind(var1)(var2);
             var4 = var5.openAlert;
-            var6 = _closure1_slot9;
-            var10 = 13;
+            var6 = _closure1_slot10;
+            var10 = 15;
             var2 = var15[var10];
             var2 = var14.bind(var1)(var2);
             var3 = var2.AlertModal;
@@ -206,7 +249,7 @@ case 2:
             var9 = _closure2_slot1;
             var9 = var9.raisedIcon;
             var7['style'] = var9;
-            var9 = 14;
+            var9 = 16;
             var9 = var15[var9];
             var9 = var14.bind(var1)(var9);
             var11 = var9.CircleErrorIcon;
@@ -219,7 +262,7 @@ case 2:
             var7['children'] = var9;
             var7 = var6.bind(var1)(var8, var7);
             var2['header'] = var7;
-            var9 = 15;
+            var9 = 17;
             var7 = var15[var9];
             var7 = var14.bind(var1)(var7);
             var11 = var7.intl;
@@ -240,7 +283,7 @@ case 2:
             var7 = var7.4fnE/J;
             var7 = var8.bind(var11)(var7);
             var2['content'] = var7;
-            var7 = 16;
+            var7 = 18;
             var7 = var15[var7];
             var7 = var14.bind(var1)(var7);
             var8 = var7.AlertActions;
@@ -280,54 +323,101 @@ case 2:
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     StartGenerator();
-                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0002_ip = 4; continue _fun0002 }
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
+                    if(var3) { _fun0002_ip = 4; continue _fun0002 }
 case 5: // try_start_0
-                    var4 = _closure2_slot0;
-                    var3 = null;
-                    if(!(var3 != var4)) { _fun0002_ip = 6; continue _fun0002 }
+                    var5 = _closure2_slot0;
+                    var4 = null;
+                    if(!(var4 != var5)) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
-                    var5 = _closure1_slot1;
-                    var6 = _closure1_slot2;
-                    var3 = 17;
-                    var3 = var6[var3];
-                    var6 = undefined;
-                    var7 = var5.bind(var6)(var3);
-                    var5 = var7.oneTimeLogin;
-                    var3 = _closure2_slot0;
-                    var3 = var5.bind(var7)(var3);
-                    SaveGenerator(address=67);
-case 2:
-                    return var3;
+                    var6 = _closure1_slot1;
+                    var8 = _closure1_slot2;
+                    var9 = 11;
+                    var4 = var8[var9];
+                    var7 = undefined;
+                    var12 = var6.bind(var7)(var4);
+                    var11 = var12.track;
+                    var4 = _closure1_slot8;
+                    var10 = var4.ONE_TIME_LOGIN_ATTEMPTED;
+                    var4 = {};
+                    var13 = 'native_modal';
+                    var4['source'] = var13;
+                    var4 = var11.bind(var12)(var10, var4);
+                    var4 = 19;
+                    var4 = var8[var4];
+                    var8 = var6.bind(var7)(var4);
+                    var6 = var8.oneTimeLogin;
+                    var4 = _closure2_slot0;
+                    var4 = var6.bind(var8)(var4);
+                    SaveGenerator(address=115);
 case 8:
-                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(var5) { _fun0002_ip = 9; continue _fun0002 }
-case 10:
-                    var5 = _closure1_slot1;
-                    var7 = _closure1_slot2;
-                    var4 = 10;
-                    var4 = var7[var4];
-                    var6 = var5.bind(var6)(var4);
-                    var5 = var6.popWithKey;
-                    var4 = 'ONE_TIME_LOGIN_MODAL';
-                    var4 = var5.bind(var6)(var4);
-case 11: // try_end0
-                    _fun0002_ip = 12; continue _fun0002;
+                    return var4;
 case 9:
-                    return var3;
+                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=5);
+                    if(var6) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
+                    var6 = _closure1_slot1;
+                    var8 = _closure1_slot2;
+                    var9 = var8[var9];
+                    var11 = var6.bind(var7)(var9);
+                    var10 = var11.track;
+                    var5 = _closure1_slot8;
+                    var9 = var5.LOGIN_SUCCESSFUL;
+                    var5 = {'source': 'native_modal', 'login_method': 'one_time_login'};
+                    var5 = var10.bind(var11)(var9, var5);
+                    var5 = 12;
+                    var5 = var8[var5];
+                    var7 = var6.bind(var7)(var5);
+                    var6 = var7.popWithKey;
+                    var5 = 'ONE_TIME_LOGIN_MODAL';
+                    var5 = var6.bind(var7)(var5);
+case 12: // try_end0
+                    _fun0002_ip = 13; continue _fun0002;
+case 10:
+                    return var4;
 case 6: // try_start_1
+                    var7 = _closure1_slot1;
+                    var6 = _closure1_slot2;
+                    var4 = 11;
+                    var6 = var6[var4];
+                    var4 = undefined;
+                    var8 = var7.bind(var4)(var6);
+                    var7 = var8.track;
+                    var5 = _closure1_slot8;
+                    var6 = var5.ONE_TIME_LOGIN_ERROR;
+                    var5 = {'source': 'native_modal', 'error_reason': 'missing_token', 'error_message': 'No token provided'};
+                    var5 = var7.bind(var8)(var6, var5);
                     var3 = _closure2_slot5;
-                    var2 = undefined;
-                    var2 = var3.bind(var2)();
-case 13: // try_end1
-                    var2 = undefined;
-                    return var2;
-case 14: // catch_target0 // catch_target1
-                    CatchBlockStart(arg_register=1);
-                    var3 = _closure2_slot5;
-                    var2 = undefined;
-                    var2 = var3.bind(var2)();
-case 12:
+                    var3 = var3.bind(var4)();
+case 14: // try_end1
+                    var3 = undefined;
+                    return var3;
+case 15: // catch_target0 // catch_target1
+                    CatchBlockStart(arg_register=3);
+                    var2 = var4;
+                    var3 = global;
+                    var3 = var3.Error;
+                    var3 = var4 instanceof var3;
+                    var7 = 'Login failed';
+                    if(!var3) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
+                    var7 = var2.message;
+case 16:
+                    var5 = _closure1_slot1;
+                    var4 = _closure1_slot2;
+                    var3 = 11;
+                    var4 = var4[var3];
+                    var3 = undefined;
+                    var6 = var5.bind(var3)(var4);
+                    var5 = var6.track;
+                    var2 = _closure1_slot8;
+                    var4 = var2.ONE_TIME_LOGIN_ERROR;
+                    var2 = {'source': 'native_modal', 'error_reason': 'api_error'};
+                    var2['error_message'] = var7;
+                    var2 = var5.bind(var6)(var4, var2);
+                    var2 = _closure2_slot5;
+                    var2 = var2.bind(var3)();
+case 13:
                     var2 = undefined;
                     return var2;
 case 4:
@@ -352,22 +442,22 @@ case 4:
             return var1;
         };
         var1 = var3.bind(var7)(var1, var2);
-        var3 = _closure1_slot10;
+        var3 = _closure1_slot11;
         var2 = _closure1_slot5;
         var1 = {};
         var1['style'] = var5;
-        var12 = _closure1_slot9;
-        var5 = 18;
+        var12 = _closure1_slot10;
+        var5 = 20;
         var5 = var19[var5];
         var6 = var6.bind(var4)(var5);
         var5 = {'absolute': true, 'wide': true, 'tall': true, 'gradientOverride': null, 'mix': true, 'angleOverride': 0};
-        var8 = _closure1_slot8;
+        var8 = _closure1_slot9;
         var7 = 5;
         var7 = var8[var7];
         var5['gradientOverride'] = var7;
         var7 = {};
         var18 = _closure1_slot0;
-        var8 = 19;
+        var8 = 21;
         var8 = var19[var8];
         var8 = var18.bind(var4)(var8);
         var8 = var8.OverlayOpacity;
@@ -385,7 +475,7 @@ case 4:
         var7['style'] = var8;
         var10 = _closure1_slot7;
         var8 = {};
-        var11 = 20;
+        var11 = 22;
         var11 = var19[var11];
         var11 = var18.bind(var4)(var11);
         var8['source'] = var11;
@@ -402,14 +492,14 @@ case 4:
         var9 = var12.bind(var4)(var11, var9);
         var11 = new Array(2);
         var11[0] = var9;
-        var9 = 21;
+        var9 = 23;
         var15 = var19[var9];
         var15 = var18.bind(var4)(var15);
         var17 = var15.Text;
         var16 = {};
         var15 = 'text-lg/semibold';
         var16['variant'] = var15;
-        var15 = 15;
+        var15 = 17;
         var20 = var19[var15];
         var20 = var18.bind(var4)(var20);
         var22 = var20.intl;
@@ -451,7 +541,7 @@ case 4:
         var10 = var12.bind(var4)(var10, var9);
         var9 = new Array(2);
         var9[0] = var10;
-        var10 = 22;
+        var10 = 24;
         var10 = var19[var10];
         var10 = var18.bind(var4)(var10);
         var11 = var10.LinkButton;

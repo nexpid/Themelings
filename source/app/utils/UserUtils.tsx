@@ -1,11 +1,11 @@
 // app/utils/UserUtils.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var16 = require;
-    var15 = metroImportDefault;
+    var17 = require;
+    var16 = metroImportDefault;
     var3 = exports;
-    var17 = dependencyMap;
-    var _closure1_slot0 = var16;
-    var _closure1_slot1 = var17;
+    var18 = dependencyMap;
+    var _closure1_slot0 = var17;
+    var _closure1_slot1 = var18;
     var1 = function present(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -24,7 +24,7 @@ case 2:
         }
     };
     var _closure1_slot10 = var1;
-    var1 = function nameFromUser(arg1) {
+    var14 = function nameFromUser(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var2 = arg1;
@@ -60,7 +60,7 @@ case 12:
             return var1;
         }
     };
-    var _closure1_slot11 = var1;
+    var _closure1_slot11 = var14;
     var13 = function getName(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -638,34 +638,34 @@ case 37:
         }
     };
     var1 = global;
-    var19 = var1.Object;
-    var18 = var19.defineProperty;
-    var14 = {};
+    var20 = var1.Object;
+    var19 = var20.defineProperty;
+    var15 = {};
     var1 = true;
-    var14['value'] = var1;
+    var15['value'] = var1;
     var1 = '__esModule';
-    var1 = var18.bind(var19)(var3, var1, var14);
+    var1 = var19.bind(var20)(var3, var1, var15);
     var1 = 0;
-    var14 = var17[var1];
+    var15 = var18[var1];
     var1 = undefined;
-    var14 = var15.bind(var1)(var14);
-    var _closure1_slot2 = var14;
-    var14 = 1;
-    var14 = var17[var14];
-    var14 = var15.bind(var1)(var14);
-    var _closure1_slot3 = var14;
-    var14 = 2;
-    var14 = var17[var14];
-    var14 = var16.bind(var1)(var14);
-    var15 = var14.NON_USER_BOT_DISCRIMINATOR;
-    var _closure1_slot4 = var15;
-    var14 = var14.StatusTypes;
-    var _closure1_slot5 = var14;
-    var14 = 86400000;
-    var _closure1_slot6 = var14;
-    var14 = '???';
-    var _closure1_slot7 = var14;
-    var14 = function conceal(arg1) {
+    var15 = var16.bind(var1)(var15);
+    var _closure1_slot2 = var15;
+    var15 = 1;
+    var15 = var18[var15];
+    var15 = var16.bind(var1)(var15);
+    var _closure1_slot3 = var15;
+    var15 = 2;
+    var15 = var18[var15];
+    var15 = var17.bind(var1)(var15);
+    var16 = var15.NON_USER_BOT_DISCRIMINATOR;
+    var _closure1_slot4 = var16;
+    var15 = var15.StatusTypes;
+    var _closure1_slot5 = var15;
+    var15 = 86400000;
+    var _closure1_slot6 = var15;
+    var15 = '???';
+    var _closure1_slot7 = var15;
+    var15 = function conceal(arg1) {
         var2 = arg1;
         var1 = 0;
         var4 = var2[var1];
@@ -677,13 +677,13 @@ case 37:
         var1 = var3.bind(var2)(var4, var1);
         return var1;
     };
-    var _closure1_slot8 = var14;
-    var14 = {'mode': 'full', 'decoration': 'never', 'identifiable': 'auto', 'forcePomelo': false};
-    var _closure1_slot9 = var14;
-    var14 = {};
-    var14['getName'] = var13;
-    var14['useName'] = var12;
-    var15 = function isNameConcealed(arg1) {
+    var _closure1_slot8 = var15;
+    var15 = {'mode': 'full', 'decoration': 'never', 'identifiable': 'auto', 'forcePomelo': false};
+    var _closure1_slot9 = var15;
+    var15 = {};
+    var15['getName'] = var13;
+    var15['useName'] = var12;
+    var16 = function isNameConcealed(arg1) {
         _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
             var4 = arg1;
@@ -699,21 +699,22 @@ case 83:
             return var1;
         }
     };
-    var14['isNameConcealed'] = var15;
-    var14['getUserTag'] = var6;
-    var14['useUserTag'] = var5;
-    var14['getUserIsStaff'] = var2;
-    var14['getFormattedName'] = var10;
-    var14['getGlobalName'] = var11;
-    var14['humanizeStatus'] = var9;
-    var14['useDirectMessageRecipient'] = var4;
-    var15 = 5;
-    var15 = var17[var15];
-    var17 = var16.bind(var1)(var15);
-    var16 = var17.fileFinishedImporting;
-    var15 = 'utils/UserUtils.tsx';
-    var15 = var16.bind(var17)(var15);
-    var3['default'] = var14;
+    var15['isNameConcealed'] = var16;
+    var15['getUserTag'] = var6;
+    var15['useUserTag'] = var5;
+    var15['getUserIsStaff'] = var2;
+    var15['getFormattedName'] = var10;
+    var15['getGlobalName'] = var11;
+    var15['humanizeStatus'] = var9;
+    var15['useDirectMessageRecipient'] = var4;
+    var16 = 5;
+    var16 = var18[var16];
+    var18 = var17.bind(var1)(var16);
+    var17 = var18.fileFinishedImporting;
+    var16 = 'utils/UserUtils.tsx';
+    var16 = var17.bind(var18)(var16);
+    var3['default'] = var15;
+    var3['nameFromUser'] = var14;
     var3['getName'] = var13;
     var3['useName'] = var12;
     var3['getGlobalName'] = var11;

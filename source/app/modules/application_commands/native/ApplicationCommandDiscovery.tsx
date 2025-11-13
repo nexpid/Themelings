@@ -1190,8 +1190,8 @@ case 0:
                     var7 = var6.length;
                     var6 = 0;
                     var6 = var6 === var7;
-                    if(!var6) { _fun0017_ip = 91; continue _fun0017 }
-case 92:
+                    if(!var6) { _fun0017_ip = 10; continue _fun0017 }
+case 91:
                     var9 = _closure1_slot14;
                     var11 = _closure1_slot0;
                     var15 = _closure1_slot3;
@@ -1229,7 +1229,7 @@ case 92:
                     var10 = var10.noCommandsImage;
                     var7['imageStyle'] = var10;
                     var6 = var9.bind(var1)(var8, var7);
-case 91:
+case 10:
                     var5[1] = var6;
                     var2['children'] = var5;
                     var1 = var4.bind(var1)(var3, var2);

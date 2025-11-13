@@ -1826,6 +1826,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['GUILD_JOINT_PERMISSION_MIGRATION_NOTIFICATION'] = var2;
     var1 = 'GUILD_JOINT_PERMISSION_MIGRATION_NOTIFICATION';
     var4[var2] = var1;
+    var2 = 643;
+    var4['GAME_SHOP_ANNOUNCEMENT_MODAL'] = var2;
+    var1 = 'GAME_SHOP_ANNOUNCEMENT_MODAL';
+    var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;
     var1 = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

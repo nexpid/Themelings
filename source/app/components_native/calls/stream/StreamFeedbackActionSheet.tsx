@@ -622,38 +622,38 @@ case 33:
                     var2['category'] = var9;
                     var9 = var7 == var6;
                     var10 = undefined;
-                    if(var9) { _fun0004_ip = 34; continue _fun0004 }
-case 35:
-                    var10 = var6.value;
+                    if(var9) { _fun0004_ip = 19; continue _fun0004 }
 case 34:
+                    var10 = var6.value;
+case 19:
                     var11 = var7 != var10;
                     var9 = null;
-                    if(!var11) { _fun0004_ip = 36; continue _fun0004 }
-case 37:
-                    var9 = var10;
+                    if(!var11) { _fun0004_ip = 35; continue _fun0004 }
 case 36:
+                    var9 = var10;
+case 35:
                     var2['problem'] = var9;
                     var10 = var7 == var6;
                     var9 = undefined;
-                    if(var10) { _fun0004_ip = 38; continue _fun0004 }
-case 39:
+                    if(var10) { _fun0004_ip = 21; continue _fun0004 }
+case 37:
                     var9 = var6.variant;
-case 38:
+case 21:
                     var10 = var7 != var9;
                     var6 = null;
-                    if(!var10) { _fun0004_ip = 40; continue _fun0004 }
-case 41:
+                    if(!var10) { _fun0004_ip = 38; continue _fun0004 }
+case 39:
                     var6 = var9;
-case 40:
+case 38:
                     var2['variant'] = var6;
                     var9 = _closure2_slot0;
                     var2['stream'] = var9;
                     var9 = var7 != var8;
                     var7 = '';
-                    if(!var9) { _fun0004_ip = 42; continue _fun0004 }
-case 43:
+                    if(!var9) { _fun0004_ip = 40; continue _fun0004 }
+case 41:
                     var7 = var8;
-case 42:
+case 40:
                     var2['feedback'] = var7;
                     var7 = _closure2_slot2;
                     var2['streamApplication'] = var7;

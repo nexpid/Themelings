@@ -202,7 +202,7 @@ case 35:
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.RendererType;
+    var4 = var4.NodeType;
     var _closure1_slot4 = var4;
     var4 = function() {
         var4 = _closure1_slot3;
@@ -429,48 +429,63 @@ case 41:
         var6 = function value(arg1) {
             _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
-                var7 = arg1;
+                var5 = arg1;
                 var4 = this;
-                var3 = _closure1_slot0;
+                var2 = _closure1_slot0;
                 var1 = _closure1_slot1;
-                var6 = 3;
-                var1 = var1[var6];
-                var5 = undefined;
-                var1 = var3.bind(var5)(var1);
+                var8 = 3;
+                var1 = var1[var8];
+                var7 = undefined;
+                var1 = var2.bind(var7)(var1);
                 var1 = var1.SETTING_RENDERER_CONFIG;
-                var1 = var1[var7];
-                var8 = var1.type;
-                var3 = _closure1_slot4;
-                var3 = var3.ROUTE;
-                if(!(var8 !== var3)) { _fun0007_ip = 44; continue _fun0007 }
+                var1 = var1[var5];
+                var3 = var1.type;
+                var2 = _closure1_slot4;
+                var2 = var2.ROUTE;
+                if(!(var3 !== var2)) { _fun0007_ip = 44; continue _fun0007 }
 case 45:
-                var3 = var4.getAncestors;
-                var7 = var3.bind(var4)(var7);
-                var4 = var7.find;
-                var3 = function(arg1) {
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot1;
-                    var2 = 3;
-                    var3 = var3[var2];
-                    var2 = undefined;
-                    var2 = var4.bind(var2)(var3);
-                    var3 = var2.SETTING_RENDERER_CONFIG;
-                    var2 = arg1;
-                    var2 = var3[var2];
-                    var2 = var2.type;
-                    var1 = _closure1_slot4;
-                    var1 = var1.ROUTE;
-                    var1 = var2 === var1;
-                    return var1;
-                };
-                var3 = var4.bind(var7)(var3);
-                var4 = _closure1_slot0;
+                var3 = _closure1_slot6;
+                var2 = var4.getAncestors;
+                var2 = var2.bind(var4)(var5);
+                var6 = var3.bind(var7)(var2);
+                var3 = var6.bind(var7)();
+                var2 = var3.done;
+                var4 = var3;
+                if(var2) { _fun0007_ip = 46; continue _fun0007 }
+case 47:
+                var3 = var4.value;
+                var10 = _closure1_slot0;
                 var2 = _closure1_slot1;
-                var2 = var2[var6];
-                var2 = var4.bind(var5)(var2);
+                var2 = var2[var8];
+                var2 = var10.bind(var7)(var2);
                 var2 = var2.SETTING_RENDERER_CONFIG;
                 var2 = var2[var3];
+                var10 = var2.type;
+                var3 = _closure1_slot4;
+                var3 = var3.ROUTE;
+                if(!(var10 !== var3)) { _fun0007_ip = 48; continue _fun0007 }
+case 49:
+                var10 = var6.bind(var7)();
+                var3 = var10.done;
+                var4 = var10;
+                if(var3) { _fun0007_ip = 46; continue _fun0007 }
+case 50:
+                _fun0007_ip = 47; continue _fun0007;
+case 48:
                 return var2;
+case 46:
+                var2 = global;
+                var4 = var2.Error;
+                var2 = var2.HermesInternal;
+                var3 = var2.concat;
+                var2 = '[SettingTree] No route ancestor found for setting: ';
+                var11 = var3.bind(var2)(var5);
+                var3 = var4.prototype;
+                var3 = Object.create(var3, {constructor: {value: var4}});
+                var12 = var3;
+                var2 = new var12[var4](var11, var10);
+                var2 = var2 instanceof Object ? var2 : var3;
+                throw var2;
 case 44:
                 return var1;
             }
@@ -489,8 +504,8 @@ case 0:
                 var1 = var2.get;
                 var1 = var1.bind(var2)(var6);
                 var12 = null;
-                if(!(var12 == var1)) { _fun0008_ip = 46; continue _fun0008 }
-case 47:
+                if(!(var12 == var1)) { _fun0008_ip = 51; continue _fun0008 }
+case 52:
                 var2 = new Array(0);
                 var5 = _closure1_slot6;
                 var4 = var3.getAncestors;
@@ -501,8 +516,8 @@ case 47:
                 var4 = var5.done;
                 var8 = 'string';
                 var7 = 3;
-                if(var4) { _fun0008_ip = 48; continue _fun0008 }
-case 49:
+                if(var4) { _fun0008_ip = 53; continue _fun0008 }
+case 54:
                 var13 = var5.value;
                 var14 = _closure1_slot0;
                 var4 = _closure1_slot1;
@@ -511,29 +526,29 @@ case 49:
                 var4 = var4.SETTING_RENDERER_CONFIG;
                 var4 = var4[var13];
                 var4 = var4.title;
-                if(!(var12 != var4)) { _fun0008_ip = 50; continue _fun0008 }
-case 44:
+                if(!(var12 != var4)) { _fun0008_ip = 55; continue _fun0008 }
+case 56:
                 var14 = typeof var4;
                 var13 = var4;
-                if(!(var8 !== var14)) { _fun0008_ip = 51; continue _fun0008 }
-case 52:
+                if(!(var8 !== var14)) { _fun0008_ip = 57; continue _fun0008 }
+case 58:
                 var13 = var4.bind(var10)();
-case 51:
+case 57:
                 var4 = var2.push;
                 var4 = var4.bind(var2)(var13);
-case 50:
+case 55:
                 var13 = var9.bind(var10)();
                 var4 = var13.done;
                 var5 = var13;
-                if(!var4) { _fun0008_ip = 49; continue _fun0008 }
-case 48:
+                if(!var4) { _fun0008_ip = 54; continue _fun0008 }
+case 53:
                 var5 = var3.breadcrumbCache;
                 var4 = var5.set;
                 var3 = var2.reverse;
                 var3 = var3.bind(var2)();
                 var3 = var4.bind(var5)(var6, var3);
                 return var2;
-case 46:
+case 51:
                 return var1;
             }
         };

@@ -38,6 +38,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['IMMERSIVE_BANNER'] = var5;
     var1 = 'IMMERSIVE_BANNER';
     var2[var5] = var1;
+    var5 = 7;
+    var2['REWARD_HERO'] = var5;
+    var1 = 'REWARD_HERO';
+    var2[var5] = var1;
     var1 = dependencyMap;
     var5 = var1[var4];
     var4 = require;

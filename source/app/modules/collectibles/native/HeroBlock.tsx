@@ -100,7 +100,7 @@ case 2:
             var7 = 'row';
             var1['innerContainer'] = var2;
             var2 = {'resizeMode': 'contain', 'height': null, 'aspectRatio': 1};
-            var8 = 0.4;
+            var8 = 0.35;
             var8 = var8 * var9;
             var2['height'] = var8;
             var1['heroLogo'] = var2;

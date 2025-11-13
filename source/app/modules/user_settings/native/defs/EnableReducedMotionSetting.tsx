@@ -107,16 +107,11 @@ case 2:
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                 var1 = _closure1_slot3;
-                var3 = var1.visible;
+                var3 = var1.active;
                 var6 = undefined;
                 var1 = undefined;
                 if(!var3) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
-                var3 = _closure1_slot3;
-                var3 = var3.enabled;
-                var1 = undefined;
-                if(!var3) { _fun0002_ip = 4; continue _fun0002 }
-case 6:
                 var5 = _closure1_slot0;
                 var7 = _closure1_slot1;
                 var2 = 6;
@@ -149,17 +144,9 @@ case 4:
         var2 = new Array(1);
         var2[0] = var1;
         var1 = function() {
-            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
-case 0:
-                var1 = _closure1_slot3;
-                var1 = var1.visible;
-                if(!var1) { _fun0003_ip = 7; continue _fun0003 }
-case 8:
-                var2 = _closure1_slot3;
-                var1 = var2.enabled;
-case 7:
-                return var1;
-            }
+            var1 = _closure1_slot3;
+            var1 = var1.active;
+            return var1;
         };
         var1 = var3.bind(var4)(var2, var1);
         return var1;

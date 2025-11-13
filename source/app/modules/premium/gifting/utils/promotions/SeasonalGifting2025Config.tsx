@@ -82,6 +82,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var5.CollectiblesItemType;
     var5 = var5.NAMEPLATE;
     var14['type'] = var5;
+    var5 = 'sky';
+    var14['palette'] = var5;
     var5 = function name() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;

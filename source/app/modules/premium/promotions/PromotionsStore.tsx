@@ -210,7 +210,7 @@ case 19:
     var10 = {};
     var9[var11] = var10;
     var _closure1_slot16 = var9;
-    var9 = new Array(0);
+    var9 = {};
     var _closure1_slot17 = var9;
     var _closure1_slot18 = var8;
     var2 = var2.Map;
@@ -321,7 +321,11 @@ case 24:
         var7 = 'outboundRecurringPromotions';
         var5['key'] = var7;
         var7 = function get() {
+            var1 = global;
+            var3 = var1.Object;
+            var2 = var3.values;
             var1 = _closure1_slot17;
+            var1 = var2.bind(var3)(var1);
             return var1;
         };
         var5['get'] = var7;
@@ -554,9 +558,14 @@ case 33:
                     var5[var3] = var4;
                     _fun0009_ip = 35; continue _fun0009;
 case 31:
+                    var5 = var4.id;
                     var3 = _closure1_slot17;
-                    var2 = var3.push;
-                    var2 = var2.bind(var3)(var4);
+                    var3 = var5 in var3;
+                    if(var3) { _fun0009_ip = 35; continue _fun0009 }
+case 37:
+                    var3 = _closure1_slot17;
+                    var2 = var4.id;
+                    var3[var2] = var4;
 case 35:
                     return var1;
                 }
@@ -571,14 +580,14 @@ case 35:
             _closure1_slot14 = var3;
             var3 = _closure1_slot10;
             var3 = var3.hasFetchedConsumedInboundPromotionId;
-            if(var3) { _fun0008_ip = 37; continue _fun0008 }
-case 38:
+            if(var3) { _fun0008_ip = 38; continue _fun0008 }
+case 39:
             var4 = _closure1_slot10;
             var3 = true;
             var4['hasFetchedConsumedInboundPromotionId'] = var3;
             var1 = _closure1_slot10;
             var1['consumedInboundPromotionId'] = var2;
-case 37:
+case 38:
             var1 = undefined;
             return var1;
         }
@@ -624,7 +633,7 @@ case 37:
         _closure1_slot16 = var2;
         var2 = false;
         _closure1_slot14 = var2;
-        var2 = new Array(0);
+        var2 = {};
         _closure1_slot17 = var2;
         return var1;
     };
@@ -695,10 +704,10 @@ case 4:
             var2 = _closure1_slot21;
             var2 = var2.bind(var1)();
             var4 = null;
-            if(!(var4 != var2)) { _fun0010_ip = 39; continue _fun0010 }
-case 40:
+            if(!(var4 != var2)) { _fun0010_ip = 40; continue _fun0010 }
+case 41:
             _closure1_slot18 = var2;
-case 39:
+case 40:
             return var1;
 case 9:
             var1 = false;
@@ -730,12 +739,12 @@ case 4:
             var3 = _closure1_slot21;
             var3 = var3.bind(var1)();
             var4 = null;
-            if(!(var4 != var3)) { _fun0011_ip = 41; continue _fun0011 }
-case 40:
+            if(!(var4 != var3)) { _fun0011_ip = 42; continue _fun0011 }
+case 41:
             _closure1_slot18 = var3;
             var2 = _closure1_slot10;
             var2['lastSeenOutboundPromotionStartDate'] = var3;
-case 41:
+case 42:
             return var1;
 case 8:
             var1 = false;
@@ -783,7 +792,7 @@ case 8:
         var4[var6] = var5;
         _closure1_slot16 = var4;
         _closure1_slot11 = var3;
-        var3 = new Array(0);
+        var3 = {};
         _closure1_slot17 = var3;
         var3 = _closure1_slot19;
         var2 = var3.clear;

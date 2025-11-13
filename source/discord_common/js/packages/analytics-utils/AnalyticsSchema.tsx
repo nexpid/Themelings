@@ -582,6 +582,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['USER_LOGIN_PASSWORDLESS'] = var5;
     var5 = 'network_action_user_logout';
     var2['USER_LOGOUT'] = var5;
+    var5 = 'network_action_user_one_time_login';
+    var2['USER_ONE_TIME_LOGIN'] = var5;
     var5 = 'network_action_user_passwordless_info_fetch';
     var2['USER_PASSWORDLESS_INFO_FETCH'] = var5;
     var5 = 'network_action_user_passwordless_login_code';

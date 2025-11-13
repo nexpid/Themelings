@@ -15,7 +15,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var1];
     var1 = undefined;
     var4 = var5.bind(var1)(var4);
-    var4 = var4.RendererType;
+    var4 = var4.NodeType;
     var _closure1_slot0 = var4;
     var4 = 1;
     var4 = var6[var4];
@@ -111,7 +111,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['createRadio'] = var4;
-    var2 = function createCheckbox(arg1) {
+    var4 = function createCheckbox(arg1) {
         var1 = {};
         var2 = _closure1_slot0;
         var2 = var2.CHECKBOX;
@@ -121,6 +121,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = copyDataProperties(var4, var3);
         return var1;
     };
-    var3['createCheckbox'] = var2;
+    var3['createCheckbox'] = var4;
+    var4 = function createList(arg1) {
+        var1 = {};
+        var2 = _closure1_slot0;
+        var2 = var2.LIST;
+        var1['type'] = var2;
+        var3 = arg1;
+        var4 = var1;
+        var2 = copyDataProperties(var4, var3);
+        return var1;
+    };
+    var3['createList'] = var4;
+    var2 = function createSegmentedControl(arg1) {
+        var1 = {};
+        var2 = _closure1_slot0;
+        var2 = var2.SEGMENTED_CONTROL;
+        var1['type'] = var2;
+        var3 = arg1;
+        var4 = var1;
+        var2 = copyDataProperties(var4, var3);
+        return var1;
+    };
+    var3['createSegmentedControl'] = var2;
     return var1;
 })();

@@ -139,8 +139,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['searchInputDisabled'] = var10;
     var4 = var8.bind(var9)(var4);
     var _closure1_slot9 = var4;
-    var4 = var7.forwardRef;
-    var2 = function(arg1, arg2) {
+    var4 = var7.memo;
+    var2 = function TagListInput(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = arg1;
@@ -188,6 +188,7 @@ case 11:
             var13 = true;
 case 10:
             var _closure2_slot3 = var13;
+            var5 = var2.ref;
             var _closure2_slot4 = var4;
             var _closure2_slot5 = var4;
             var _closure2_slot6 = var4;
@@ -207,21 +208,21 @@ case 10:
             var2 = var18[var2];
             var3 = var3.bind(var4)(var2);
             var2 = var3.useFontScale;
-            var14 = var2.bind(var3)();
+            var17 = var2.bind(var3)();
             var2 = global;
-            var5 = var2.Math;
-            var3 = var5.min;
+            var14 = var2.Math;
+            var3 = var14.min;
             var22 = 2;
-            var3 = var3.bind(var5)(var22, var14);
-            var17 = var2.Math;
-            var14 = var17.max;
+            var3 = var3.bind(var14)(var22, var17);
+            var19 = var2.Math;
+            var17 = var19.max;
             var2 = var12.inputContainer;
-            var5 = var2.minHeight;
+            var14 = var2.minHeight;
             var2 = var12.inputContainer;
             var2 = var2.minHeight;
             var2 = var2 * var3;
-            var19 = var14.bind(var17)(var5, var2);
-            var5 = function useTagListInputState(arg1, arg2) {
+            var19 = var17.bind(var19)(var14, var2);
+            var2 = function useTagListInputState(arg1, arg2) {
                 var2 = arg2;
                 var _closure3_slot0 = var2;
                 var8 = _closure1_slot4;
@@ -474,8 +475,7 @@ case 24:
                 var1['inputUpdate'] = var2;
                 return var1;
             };
-            var2 = arg2;
-            var2 = var5.bind(var4)(var2, var11);
+            var2 = var2.bind(var4)(var5, var11);
             var39 = var2.inputRef;
             _closure2_slot4 = var39;
             var37 = var2.inputValueRef;
@@ -1124,9 +1124,7 @@ case 89:
             return var1;
         }
     };
-    var4 = var4.bind(var7)(var2);
-    var2 = var7.memo;
-    var2 = var2.bind(var7)(var4);
+    var2 = var4.bind(var7)(var2);
     var4 = 19;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

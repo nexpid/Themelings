@@ -213,7 +213,7 @@ case 35:
     var4 = 4;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.RendererType;
+    var4 = var4.NodeType;
     var _closure1_slot7 = var4;
     var4 = 5;
     var4 = var6[var4];
@@ -254,23 +254,18 @@ case 35:
     var4 = 'modules/settings/native/renderer/SettingSegmentedControlRenderer.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function SettingSegmentedControl(arg1) {
-        var4 = arg1;
-        var11 = var4.settings;
-        var _closure2_slot0 = var11;
-        var2 = null;
-        var3 = Object.create(var2);
-        var6 = 0;
-        var3['settings'] = var6;
-        var17 = {};
-        var16 = var4;
-        var15 = var3;
-        var2 = copyDataProperties(var17, var16, var15);
-        var _closure2_slot1 = var2;
+        var2 = arg1;
+        var2 = var2.node;
+        var3 = var2.defaultIndex;
+        var _closure2_slot0 = var3;
+        var11 = var2.settings;
+        var _closure2_slot1 = var11;
         var2 = _closure1_slot11;
         var4 = undefined;
         var9 = var2.bind(var4)();
         var10 = _closure1_slot4;
         var2 = var10.useState;
+        var6 = 0;
         var2 = var2.bind(var10)(var6);
         var12 = _closure1_slot3;
         var7 = 2;
@@ -290,7 +285,7 @@ case 0:
                 var1 = null;
                 if(!(var1 != var5)) { _fun0004_ip = 36; continue _fun0004 }
 case 37:
-                var3 = _closure2_slot0;
+                var3 = _closure2_slot1;
                 var1 = var3.indexOf;
                 var1 = var1.bind(var3)(var5);
                 var7 = -1;
@@ -312,7 +307,7 @@ case 39:
                 if(var2) { _fun0004_ip = 36; continue _fun0004 }
 case 40:
                 var9 = var4.value;
-                var3 = _closure2_slot0;
+                var3 = _closure2_slot1;
                 var2 = var3.indexOf;
                 var2 = var2.bind(var3)(var9);
                 if(!(var7 === var2)) { _fun0004_ip = 41; continue _fun0004 }
@@ -326,8 +321,7 @@ case 43:
 case 41:
                 return var2;
 case 36:
-                var2 = _closure2_slot1;
-                var2 = var2.defaultIndex;
+                var2 = _closure2_slot0;
                 return var2;
 case 38:
                 return var1;
@@ -356,7 +350,7 @@ case 38:
         var1 = function() {
             var1 = new Array(0);
             var _closure3_slot0 = var1;
-            var4 = _closure2_slot0;
+            var4 = _closure2_slot1;
             var3 = var4.forEach;
             var2 = function(arg1) {
                 var6 = arg1;
