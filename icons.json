@@ -8689,36 +8689,6 @@
         "width": 250,
         "height": 125
     },
-    "img_pins_empty_dark": {
-        "file": "app/images/native/empties/img_pins_empty_dark.png",
-        "hash": "d3267896b53ff197b517748f992857a5",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 252,
-        "height": 152
-    },
-    "img_pins_empty_darker": {
-        "file": "app/design/components/Illustration/native/redesign/generated/images/img_pins_empty_darker.png",
-        "hash": "2b30198fe845921d5b5c1d22d39e750e",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 241,
-        "height": 192
-    },
-    "img_pins_empty_light": {
-        "file": "app/images/native/empties/img_pins_empty_light.png",
-        "hash": "6629cdf172fc11fd2ad83140ac5b1b72",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 252,
-        "height": 152
-    },
     "img_plan_activated": {
         "file": "app/images/native/premium/activated/img_plan_activated.png",
         "hash": "180afb9edd1653ca63d752893222f1c8",
