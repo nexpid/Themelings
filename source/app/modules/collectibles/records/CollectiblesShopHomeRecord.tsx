@@ -60,13 +60,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 9;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.ShelfBlockRecord;
+    var4 = var4.RewardHeroBlockRecord;
     var _closure1_slot11 = var4;
     var4 = 10;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.WideBannerBlockRecord;
+    var4 = var4.ShelfBlockRecord;
     var _closure1_slot12 = var4;
+    var4 = 11;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.WideBannerBlockRecord;
+    var _closure1_slot13 = var4;
     var2 = function() {
         var5 = function CollectiblesShopHomeRecord(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -86,7 +91,7 @@ case 0:
                         var5 = var3.type;
                         var6 = _closure1_slot0;
                         var2 = _closure1_slot1;
-                        var7 = 11;
+                        var7 = 12;
                         var4 = var2[var7];
                         var2 = undefined;
                         var4 = var6.bind(var2)(var4);
@@ -142,6 +147,19 @@ case 13:
                         var4 = var4.IMMERSIVE_BANNER;
                         if(!(var4 !== var5)) { _fun0002_ip = 14; continue _fun0002 }
 case 15:
+                        var6 = _closure1_slot0;
+                        var4 = _closure1_slot1;
+                        var4 = var4[var7];
+                        var4 = var6.bind(var2)(var4);
+                        var4 = var4.ShopBlockType;
+                        var4 = var4.REWARD_HERO;
+                        if(!(var4 !== var5)) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
+                        return var2;
+case 16:
+                        var4 = _closure1_slot11;
+                        var2 = var4.fromServer;
+                        var2 = var2.bind(var4)(var3);
                         return var2;
 case 14:
                         var4 = _closure1_slot10;
@@ -154,12 +172,12 @@ case 12:
                         var2 = var2.bind(var4)(var3);
                         return var2;
 case 10:
-                        var4 = _closure1_slot11;
+                        var4 = _closure1_slot12;
                         var2 = var4.fromServer;
                         var2 = var2.bind(var4)(var3);
                         return var2;
 case 8:
-                        var4 = _closure1_slot12;
+                        var4 = _closure1_slot13;
                         var2 = var4.fromServer;
                         var2 = var2.bind(var4)(var3);
                         return var2;
@@ -205,8 +223,8 @@ case 2:
                 var2 = null;
                 var5 = var2 == var6;
                 var2 = undefined;
-                if(var5) { _fun0001_ip = 16; continue _fun0001 }
-case 17:
+                if(var5) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
                 var5 = var6.map;
                 var4 = function(arg1) {
                     var3 = _closure1_slot5;
@@ -216,7 +234,7 @@ case 17:
                     return var1;
                 };
                 var2 = var5.bind(var6)(var4);
-case 16:
+case 18:
                 var3['userDiscounts'] = var2;
                 return var1;
             }
@@ -245,7 +263,7 @@ case 16:
         return var1;
     };
     var2 = var2.bind(var1)();
-    var4 = 12;
+    var4 = 13;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

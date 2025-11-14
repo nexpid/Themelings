@@ -97,9 +97,11 @@ case 0:
             var1 = var3.bind(var4)(var1);
             var1 = var1.PortalKeyboardContext;
             var1 = var8.bind(var2)(var1);
-            var21 = var1.animatedSheetPosition;
-            var15 = var1.animatedSheetIndex;
+            var8 = var1.animatedSheetIndexes;
+            var15 = var8.media;
             var _closure2_slot2 = var15;
+            var8 = var1.animatedSheetPositions;
+            var21 = var8.media;
             var1 = var1.bottomSheetRefs;
             var1 = var1.media;
             var _closure2_slot3 = var1;

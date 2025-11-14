@@ -196,8 +196,8 @@ case 0:
                     StartGenerator();
                     var7 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0003_ip = 11; continue _fun0003 }
-case 13:
+                    if(var2) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
                     var11 = _closure1_slot1;
                     var6 = _closure1_slot2;
                     var2 = 14;
@@ -237,12 +237,12 @@ case 13:
                     var2['animated'] = var8;
                     var2 = var5.bind(var6)(var2);
                     SaveGenerator(address=191);
-case 14:
-                    return var2;
 case 15:
+                    return var2;
+case 16:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0003_ip = 16; continue _fun0003 }
-case 17:
+                    if(var5) { _fun0003_ip = 17; continue _fun0003 }
+case 18:
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot2;
                     var4 = 17;
@@ -253,9 +253,9 @@ case 17:
                     var4['emoji'] = var7;
                     var4 = var5.bind(var6)(var4);
                     return var3;
-case 16:
+case 17:
                     return var2;
-case 11:
+case 13:
                     return var1;
                 }
             };
@@ -322,15 +322,15 @@ case 4:
             var2 = var1.bind(var2)(var3);
             var1 = null;
             var3 = var1 == var2;
-            if(var3) { _fun0004_ip = 18; continue _fun0004 }
-case 19:
+            if(var3) { _fun0004_ip = 19; continue _fun0004 }
+case 20:
             var4 = var2.name;
             var2 = global;
             var2 = var2.HermesInternal;
             var3 = var2.concat;
             var2 = ':';
             var1 = var3.bind(var2)(var4, var2);
-case 18:
+case 19:
             return var1;
         }
     };

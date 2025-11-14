@@ -280,6 +280,19 @@ case 18:
     var7 = 'utils/DateUtils.tsx';
     var7 = var8.bind(var9)(var7);
     var3['differenceInCalendarDays'] = var6;
+    var6 = function differenceInDays(arg1, arg2) {
+        var2 = arg1;
+        var3 = arg2;
+        var1 = var2.getTime;
+        var2 = var1.bind(var2)();
+        var1 = var3.getTime;
+        var1 = var1.bind(var3)();
+        var2 = var2 - var1;
+        var1 = _closure1_slot4;
+        var1 = var2 / var1;
+        return var1;
+    };
+    var3['differenceInDays'] = var6;
     var6 = function isSameHourMoment(arg1, arg2) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:

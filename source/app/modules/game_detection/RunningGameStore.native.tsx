@@ -432,7 +432,7 @@ case 10:
             var1 = _closure1_slot8;
             var2[1] = var1;
 case 9:
-            var1 = {'source': null, 'enabledOOP': false, 'enabledLegacy': false};
+            var1 = {'source': null, 'enabledOOP': false, 'enabledLegacy': false, 'overlayMethod': null, 'reason': 'Dummy implementation'};
             var3 = _closure1_slot0;
             var5 = _closure1_slot1;
             var2 = 7;

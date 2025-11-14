@@ -261,7 +261,7 @@ case 4:
                 var1 = 0;
                 if(!var5) { _fun0002_ip = 13; continue _fun0002 }
 case 14:
-                var1 = 250;
+                var1 = 350;
 case 13:
                 var1 = var3.bind(var4)(var2, var1);
                 return var1;

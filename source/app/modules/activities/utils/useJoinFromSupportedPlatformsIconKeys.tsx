@@ -104,19 +104,30 @@ case 18:
             var4 = var5.has;
             var1 = _closure1_slot1;
             var1 = var1.DESKTOP;
-            var4 = var4.bind(var5)(var1);
-            var1 = var2;
-            if(!var4) { _fun0001_ip = 20; continue _fun0001 }
+            var1 = var4.bind(var5)(var1);
+            if(!var1) { _fun0001_ip = 20; continue _fun0001 }
 case 21:
             var4 = var2.push;
+            var1 = _closure1_slot2;
+            var1 = var1.DESKTOP;
+            var1 = var4.bind(var2)(var1);
+case 20:
+            var4 = var5.has;
+            var1 = _closure1_slot1;
+            var1 = var1.META_QUEST;
+            var4 = var4.bind(var5)(var1);
+            var1 = var2;
+            if(!var4) { _fun0001_ip = 22; continue _fun0001 }
+case 23:
+            var4 = var2.push;
             var3 = _closure1_slot2;
-            var3 = var3.DESKTOP;
+            var3 = var3.MOBILE;
             var3 = var4.bind(var2)(var3);
             var1 = var2;
-            _fun0001_ip = 20; continue _fun0001;
+            _fun0001_ip = 22; continue _fun0001;
 case 2:
             var1 = _closure1_slot3;
-case 20:
+case 22:
             return var1;
         }
     };
@@ -173,11 +184,14 @@ case 20:
     var11 = var7.PS5;
     var10 = var6.PLAYSTATION;
     var5[var11] = var10;
-    var11 = var7.SAMSUNG;
-    var10 = null;
-    var5[var11] = var10;
-    var7 = var7.EMBEDDED;
-    var5[var7] = var10;
+    var10 = var7.SAMSUNG;
+    var11 = null;
+    var5[var10] = var11;
+    var10 = var7.EMBEDDED;
+    var5[var10] = var11;
+    var10 = var7.META_QUEST;
+    var7 = var6.MOBILE;
+    var5[var10] = var7;
     var7 = new Array(0);
     var _closure1_slot3 = var7;
     var7 = 2;

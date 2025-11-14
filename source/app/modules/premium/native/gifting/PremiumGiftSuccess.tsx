@@ -105,7 +105,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var4 = var7.bind(var8)(var4);
     var _closure1_slot10 = var4;
-    var4 = 18;
+    var4 = 19;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -171,35 +171,38 @@ case 2:
             var3 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-                    var2 = _closure2_slot0;
+                    var1 = _closure2_slot0;
                     var4 = null;
-                    var2 = var4 != var2;
-                    if(!var2) { _fun0002_ip = 4; continue _fun0002 }
+                    var1 = var4 != var1;
+                    if(!var1) { _fun0002_ip = 4; continue _fun0002 }
 case 5:
                     var3 = _closure2_slot0;
                     var3 = var3.reminderNotice;
-                    var2 = var4 != var3;
+                    var1 = var4 != var3;
 case 4:
-                    if(!var2) { _fun0002_ip = 6; continue _fun0002 }
+                    if(!var1) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
-                    var2 = _closure2_slot1;
+                    var1 = _closure2_slot1;
 case 6:
-                    if(!var2) { _fun0002_ip = 8; continue _fun0002 }
+                    if(!var1) { _fun0002_ip = 8; continue _fun0002 }
 case 9:
                     var7 = _closure1_slot0;
                     var8 = _closure1_slot2;
-                    var2 = 13;
-                    var2 = var8[var2];
-                    var3 = undefined;
-                    var5 = var7.bind(var3)(var2);
+                    var1 = 13;
+                    var1 = var8[var1];
+                    var2 = undefined;
+                    var5 = var7.bind(var2)(var1);
                     var4 = var5.markVersionedDismissibleContentAsDismissed;
-                    var2 = 14;
-                    var2 = var8[var2];
-                    var2 = var7.bind(var3)(var2);
-                    var2 = var2.DismissibleContent;
-                    var3 = var2.GIFTING_PROMOTION_REMINDER;
-                    var1 = _closure2_slot0;
-                    var2 = var1.dismissibleContentVersion;
+                    var1 = 14;
+                    var1 = var8[var1];
+                    var1 = var7.bind(var2)(var1);
+                    var1 = var1.DismissibleContent;
+                    var3 = var1.GIFTING_PROMOTION_REMINDER;
+                    var1 = 15;
+                    var1 = var8[var1];
+                    var2 = var7.bind(var2)(var1);
+                    var1 = var2.getGiftingPromotionDismissibleContentVersion;
+                    var2 = var1.bind(var2)();
                     var1 = {};
                     var6 = _closure1_slot6;
                     var6 = var6.INDIRECT_ACTION;
@@ -240,7 +243,7 @@ case 15:
             var9 = _closure1_slot7;
             var6 = _closure1_slot1;
             var12 = _closure1_slot2;
-            var3 = 16;
+            var3 = 17;
             var3 = var12[var3];
             var6 = var6.bind(var4)(var3);
             var3 = {};
@@ -250,7 +253,7 @@ case 14:
             var12 = _closure1_slot7;
             var9 = _closure1_slot1;
             var13 = _closure1_slot2;
-            var3 = 15;
+            var3 = 16;
             var3 = var13[var3];
             var9 = var9.bind(var4)(var3);
             var3 = {};
@@ -266,7 +269,7 @@ case 21:
             var3 = _closure1_slot7;
             var2 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var1 = 16;
+            var1 = 17;
             var1 = var9[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.PremiumGiftDMSuccessActions;
@@ -277,7 +280,7 @@ case 20:
             var3 = _closure1_slot7;
             var2 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var1 = 15;
+            var1 = 16;
             var1 = var12[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.PremiumGiftSuccessActions;
@@ -290,7 +293,7 @@ case 19:
             var3 = _closure1_slot7;
             var2 = _closure1_slot1;
             var11 = _closure1_slot2;
-            var1 = 17;
+            var1 = 18;
             var1 = var11[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};

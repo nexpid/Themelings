@@ -18,10 +18,10 @@ module.exports = (function(global, require, metroImportDefault, metroImportAll, 
     var4 = var5.fileFinishedImporting;
     var2 = '../discord_assets/assets/mana/asset-library/generated/LevelingGem2SpotIllustration-2x.png.js';
     var2 = var4.bind(var5)(var2);
-    var2 = 'https://cdn.discordapp.com/assets/content/0f2bbaa03842dcd96c98b7ca7a97974837dca3c99d7d40d4e902bab4f762b47c.png';
+    var2 = 'https://cdn.discordapp.com/assets/content/9559463d74153ecdb002db1ac90ea1734659aead921dbda061f4047e822da8d0.png';
     var3['default'] = var2;
     var2 = {};
-    var4 = 41355;
+    var4 = 41354;
     var2['fileBytes'] = var4;
     var3['metadata'] = var2;
     return var1;

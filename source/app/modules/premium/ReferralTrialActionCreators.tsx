@@ -458,7 +458,7 @@ case 37: // try_start_0
                     var10 = var11.bind(var12)(var10);
                     var5['url'] = var10;
                     var5 = var7.bind(var9)(var5);
-                    SaveGenerator(address=97);
+                    SaveGenerator(address=93);
 case 58:
                     return var5;
 case 59:
@@ -486,11 +486,11 @@ case 62:
                     var6 = var8.bind(var9)(var6);
                     var6 = {};
                     var6['userTrialOffer'] = var7;
-case 42: // try_end0
+case 64: // try_end0
                     return var6;
 case 60:
                     return var5;
-case 64: // catch_target0
+case 16: // catch_target0
                     CatchBlockStart(arg_register=5);
                     var3 = var6;
                     var8 = _closure1_slot1;
@@ -508,14 +508,14 @@ case 64: // catch_target0
                     var6 = _closure1_slot8;
                     var6 = var6.INVALID_MESSAGE_SEND_USER;
                     if(!(var7 === var6)) { _fun0006_ip = 65; continue _fun0006 }
-case 50:
+case 66:
                     var7 = _closure1_slot7;
                     var6 = var7.getCurrentlySelectedChannelId;
                     var7 = var6.bind(var7)();
                     var4 = var7;
                     var6 = null;
                     if(!(var6 != var7)) { _fun0006_ip = 65; continue _fun0006 }
-case 66:
+case 67:
                     var6 = _closure1_slot1;
                     var7 = _closure1_slot2;
                     var5 = 9;
@@ -553,7 +553,7 @@ case 57:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0007_ip = 67; continue _fun0007 }
+                    if(var2) { _fun0007_ip = 21; continue _fun0007 }
 case 46:
                     var6 = arg1;
                     var2 = undefined;
@@ -573,7 +573,7 @@ case 68: // try_start_0
                     var9 = var10.bind(var11)(var9);
                     var3['url'] = var9;
                     var3 = var5.bind(var8)(var3);
-                    SaveGenerator(address=97);
+                    SaveGenerator(address=93);
 case 58:
                     return var3;
 case 59:
@@ -601,11 +601,11 @@ case 62:
                     var4 = var7.bind(var8)(var4);
                     var4 = {};
                     var4['userTrialOffer'] = var5;
-case 42: // try_end0
+case 64: // try_end0
                     return var4;
 case 60:
                     return var3;
-case 64: // catch_target0
+case 16: // catch_target0
                     CatchBlockStart(arg_register=2);
                     var4 = _closure1_slot1;
                     var5 = _closure1_slot2;
@@ -619,7 +619,7 @@ case 64: // catch_target0
                     var3['userTrialOfferId'] = var6;
                     var3 = var4.bind(var5)(var3);
                     return var2;
-case 67:
+case 21:
                     return var1;
                 }
             };
@@ -851,27 +851,27 @@ case 0:
                 var7 = var1 instanceof Object ? var1 : var2;
                 var1 = var6.body;
                 var5 = null;
-                if(!(var5 != var1)) { _fun0009_ip = 69; continue _fun0009 }
-case 70:
+                if(!(var5 != var1)) { _fun0009_ip = 63; continue _fun0009 }
+case 69:
                 var1 = var6.body;
                 var1 = var1.recipient_status;
-                if(!(var5 != var1)) { _fun0009_ip = 69; continue _fun0009 }
-case 71:
+                if(!(var5 != var1)) { _fun0009_ip = 63; continue _fun0009 }
+case 70:
                 var1 = var6.body;
                 var4 = var1.recipient_status;
                 for(var1 in var4)
-case 72:
+case 71:
                 {
-case 73:
+case 72:
                     var11 = var1;
                     var9 = var6.body;
                     var9 = var9.recipient_status;
                     var10 = var9[var11];
                     var9 = var7.set;
                     var9 = var9.bind(var7)(var11, var10);
-                    _fun0009_ip = 72; continue _fun0009;
+                    _fun0009_ip = 71; continue _fun0009;
                 }
-case 69:
+case 63:
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
                 var1 = 7;
@@ -885,28 +885,28 @@ case 69:
                 var8 = var6.body;
                 var9 = var5 != var8;
                 var8 = 0;
-                if(!var9) { _fun0009_ip = 74; continue _fun0009 }
-case 75:
+                if(!var9) { _fun0009_ip = 73; continue _fun0009 }
+case 74:
                 var9 = var6.body;
                 var9 = var9.referrals_remaining;
                 var9 = var5 != var9;
                 var8 = 0;
-                if(!var9) { _fun0009_ip = 74; continue _fun0009 }
-case 76:
+                if(!var9) { _fun0009_ip = 73; continue _fun0009 }
+case 75:
                 var9 = var6.body;
                 var8 = var9.referrals_remaining;
-case 74:
+case 73:
                 var2['referrals_remaining'] = var8;
                 var8 = var6.body;
-                if(!(var5 != var8)) { _fun0009_ip = 77; continue _fun0009 }
-case 78:
+                if(!(var5 != var8)) { _fun0009_ip = 76; continue _fun0009 }
+case 77:
                 var8 = var6.body;
                 var8 = var8.sent_user_ids;
-                if(!(var5 == var8)) { _fun0009_ip = 67; continue _fun0009 }
-case 77:
+                if(!(var5 == var8)) { _fun0009_ip = 78; continue _fun0009 }
+case 76:
                 var8 = new Array(0);
                 _fun0009_ip = 18; continue _fun0009;
-case 67:
+case 78:
                 var9 = var6.body;
                 var8 = var9.sent_user_ids;
 case 18:
@@ -956,7 +956,7 @@ case 85:
                 var3 = var2.status;
 case 84:
                 var2 = 404;
-                if(!(var2 !== var3)) { _fun0010_ip = 72; continue _fun0010 }
+                if(!(var2 !== var3)) { _fun0010_ip = 71; continue _fun0010 }
 case 86:
                 var3 = _closure1_slot1;
                 var4 = _closure1_slot2;
@@ -968,7 +968,7 @@ case 86:
                 var5 = 'BILLING_REFERRALS_REMAINING_FETCH_FAIL';
                 var2['type'] = var5;
                 var2 = var3.bind(var4)(var2);
-case 72:
+case 71:
                 return var1;
             }
         };

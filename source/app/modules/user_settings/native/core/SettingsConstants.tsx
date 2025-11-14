@@ -184,6 +184,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['ACCESSIBILITY'] = var1;
     var1 = 'ROLE_COLORS';
     var2['ROLE_COLORS'] = var1;
+    var1 = 'DISPLAY_NAME_STYLES_ROUTE';
+    var2['DISPLAY_NAME_STYLES_ROUTE'] = var1;
+    var1 = 'DISPLAY_NAME_STYLES_ACCESSIBILITY';
+    var2['DISPLAY_NAME_STYLES_ACCESSIBILITY'] = var1;
     var1 = 'CONTRAST_MODE';
     var2['CONTRAST_MODE'] = var1;
     var1 = 'REDUCE_SATURATION';
@@ -208,8 +212,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['PROFILE_CUSTOMIZATION'] = var1;
     var1 = 'PREMIUM_PROFILE_CUSTOMIZATION_TRY_IT_OUT';
     var2['PREMIUM_PROFILE_CUSTOMIZATION_TRY_IT_OUT'] = var1;
-    var1 = 'DISPLAY_NAME_STYLES';
-    var2['DISPLAY_NAME_STYLES'] = var1;
     var1 = 'CHAT';
     var2['CHAT'] = var1;
     var1 = 'DISPLAY_MEDIA_LINKS';

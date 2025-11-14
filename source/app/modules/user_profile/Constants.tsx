@@ -454,6 +454,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8['PRESS_WISHLIST_BREADCRUMB_CARD'] = var5;
     var5 = 'PRESS_WISHLIST_BREADCRUMB_OVERFLOW_CARD';
     var8['PRESS_WISHLIST_BREADCRUMB_OVERFLOW_CARD'] = var5;
+    var5 = 'VIEW_WISHLIST';
+    var8['VIEW_WISHLIST'] = var5;
     var7 = {};
     var5 = 'USER_PROFILE';
     var7['USER_PROFILE'] = var5;

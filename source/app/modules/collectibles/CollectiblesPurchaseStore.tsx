@@ -142,7 +142,7 @@ case 8:
             return var1;
         };
         var5['get'] = var1;
-        var1 = new Array(7);
+        var1 = new Array(8);
         var1[0] = var5;
         var5 = {};
         var7 = 'isClaiming';
@@ -192,7 +192,7 @@ case 8:
         var5 = {};
         var7 = 'getPurchase';
         var5['key'] = var7;
-        var6 = function value(arg1) {
+        var7 = function value(arg1) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                 var4 = arg1;
@@ -208,8 +208,34 @@ case 9:
                 return var1;
             }
         };
-        var5['value'] = var6;
+        var5['value'] = var7;
         var1[6] = var5;
+        var5 = {};
+        var7 = 'getPurchases';
+        var5['key'] = var7;
+        var6 = function value(arg1) {
+            var4 = arg1;
+            var3 = var4.map;
+            var2 = function(arg1) {
+                var3 = _closure1_slot8;
+                var2 = var3.get;
+                var1 = arg1;
+                var1 = var2.bind(var3)(var1);
+                return var1;
+            };
+            var3 = var3.bind(var4)(var2);
+            var2 = var3.filter;
+            var1 = function(arg1) {
+                var2 = null;
+                var1 = arg1;
+                var1 = var2 != var1;
+                return var1;
+            };
+            var1 = var2.bind(var3)(var1);
+            return var1;
+        };
+        var5['value'] = var6;
+        var1[7] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

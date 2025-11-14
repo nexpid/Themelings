@@ -125,7 +125,7 @@ case 4:
             }
         };
         var1['value'] = var2;
-        var2 = new Array(8);
+        var2 = new Array(9);
         var2[0] = var1;
         var1 = {};
         var6 = 'getState';
@@ -264,7 +264,7 @@ case 6:
         var1 = {};
         var6 = 'terminate';
         var1['key'] = var6;
-        var5 = function value(arg1) {
+        var6 = function value(arg1) {
             var3 = _closure1_slot0;
             var2 = _closure1_slot1;
             var1 = 4;
@@ -280,8 +280,49 @@ case 6:
             var2 = var2.bind(var3)(var4);
             return var1;
         };
-        var1['value'] = var5;
+        var1['value'] = var6;
         var2[7] = var1;
+        var1 = {};
+        var6 = 'transitionSessionAnalytics';
+        var1['key'] = var6;
+        var5 = function value(arg1, arg2) {
+            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+case 0:
+                var2 = this;
+                var5 = _closure1_slot0;
+                var6 = _closure1_slot1;
+                var3 = 4;
+                var4 = var6[var3];
+                var1 = undefined;
+                var9 = var5.bind(var1)(var4);
+                var7 = var9.getSearchContextId;
+                var4 = arg1;
+                var4 = var7.bind(var9)(var4);
+                var3 = var6[var3];
+                var6 = var5.bind(var1)(var3);
+                var5 = var6.getSearchContextId;
+                var3 = arg2;
+                var7 = var5.bind(var6)(var3);
+                var6 = var2.sessions;
+                var5 = var6.set;
+                var9 = var2.sessions;
+                var3 = var9.get;
+                var3 = var3.bind(var9)(var4);
+                var9 = null;
+                if(!(var9 == var3)) { _fun0006_ip = 8; continue _fun0006 }
+case 9:
+                var8 = _closure1_slot4;
+                var3 = var8.bind(var1)();
+case 8:
+                var3 = var5.bind(var6)(var7, var3);
+                var3 = var2.sessions;
+                var2 = var3.delete;
+                var2 = var2.bind(var3)(var4);
+                return var1;
+            }
+        };
+        var1['value'] = var5;
+        var2[8] = var1;
         var1 = undefined;
         var1 = var4.bind(var1)(var3, var2);
         return var1;

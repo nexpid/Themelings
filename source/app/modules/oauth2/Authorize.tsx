@@ -101,10 +101,10 @@ case 4:
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var6 = undefined;
-            var10 = undefined;
+            var11 = undefined;
             var12 = undefined;
             var13 = undefined;
-            var11 = undefined;
+            var10 = undefined;
             var3 = undefined;
             var2 = undefined;
             var8 = undefined;
@@ -178,7 +178,7 @@ case 15:
 case 13:
             var1 = var12;
 case 17:
-            var10 = var1;
+            var11 = var1;
             if(!(var4 == var1)) { _fun0002_ip = 18; continue _fun0002 }
 case 19:
             var12 = _closure1_slot4;
@@ -186,26 +186,26 @@ case 19:
             var1 = var1.bind(var12)();
             _fun0002_ip = 20; continue _fun0002;
 case 18:
-            var1 = var10;
+            var1 = var11;
 case 20:
             var12 = _closure1_slot7;
-            var10 = new Array(3);
-            var10[0] = var12;
+            var11 = new Array(3);
+            var11[0] = var12;
             var12 = _closure1_slot6;
-            var10[1] = var12;
+            var11[1] = var12;
             var9 = _closure1_slot5;
-            var10[2] = var9;
-            var9 = var10.includes;
-            var9 = var9.bind(var10)(var1);
-            var10 = var1;
+            var11[2] = var9;
+            var9 = var11.includes;
+            var9 = var9.bind(var11)(var1);
+            var11 = var1;
             var1 = undefined;
             if(var9) { _fun0002_ip = 21; continue _fun0002 }
 case 22:
-            var12 = var4 != var10;
+            var12 = var4 != var11;
             var9 = undefined;
             if(!var12) { _fun0002_ip = 23; continue _fun0002 }
 case 24:
-            var9 = var10;
+            var9 = var11;
 case 23:
             var1 = var9;
 case 21:
@@ -213,13 +213,13 @@ case 21:
             var1 = {};
             var9 = var2;
             var9 = var9.client_id;
-            var11 = var9;
+            var10 = var9;
             var12 = var4 != var9;
-            var10 = '';
-            var9 = var10;
+            var11 = '';
+            var9 = var11;
             if(!var12) { _fun0002_ip = 25; continue _fun0002 }
 case 26:
-            var9 = var11;
+            var9 = var10;
 case 25:
             var1['clientId'] = var9;
             var9 = var2;
@@ -228,11 +228,14 @@ case 25:
             var9 = var4 != var9;
             if(!var9) { _fun0002_ip = 27; continue _fun0002 }
 case 28:
-            var10 = var3;
+            var11 = var3;
 case 27:
-            var9 = var10.split;
-            var3 = ' ';
-            var10 = var9.bind(var10)(var3);
+            var9 = var11.replace;
+            var3 = /\+/g;
+            var10 = ' ';
+            var9 = var9.bind(var11)(var3, var10);
+            var3 = var9.split;
+            var10 = var3.bind(var9)(var10);
             var9 = var10.filter;
             var3 = function(arg1) {
                 var1 = arg1;

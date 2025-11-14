@@ -1,12 +1,12 @@
 // app/modules/premium/gifting/utils/promotions/SeasonalGifting2025Config.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var6 = require;
-    var11 = metroImportDefault;
+    var7 = require;
+    var12 = metroImportDefault;
     var3 = exports;
-    var7 = dependencyMap;
-    var _closure1_slot0 = var6;
-    var _closure1_slot1 = var11;
-    var _closure1_slot2 = var7;
+    var8 = dependencyMap;
+    var _closure1_slot0 = var7;
+    var _closure1_slot1 = var12;
+    var _closure1_slot2 = var8;
     var1 = global;
     var5 = var1.Object;
     var4 = var5.defineProperty;
@@ -16,25 +16,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = '__esModule';
     var1 = var4.bind(var5)(var3, var1, var2);
     var1 = 0;
-    var2 = var7[var1];
+    var2 = var8[var1];
     var1 = undefined;
-    var2 = var6.bind(var1)(var2);
-    var9 = var2.AnalyticsPages;
-    var15 = {};
+    var2 = var7.bind(var1)(var2);
+    var10 = var2.AnalyticsPages;
+    var16 = {};
     var4 = 1;
-    var2 = var7[var4];
-    var2 = var6.bind(var1)(var2);
+    var2 = var8[var4];
+    var2 = var7.bind(var1)(var2);
     var2 = var2.GiftingPromotionRewardSKUIds;
     var2 = var2.SEASONAL_GIFTING_2025_HEAD_IN_THE_CLOUDS_SKU_ID;
-    var15['skuId'] = var2;
+    var16['skuId'] = var2;
     var2 = 'a_670b722e56740d11d1e6fe55b8094013';
-    var15['assetId'] = var2;
+    var16['assetId'] = var2;
     var2 = 2;
-    var5 = var7[var2];
-    var5 = var6.bind(var1)(var5);
+    var5 = var8[var2];
+    var5 = var7.bind(var1)(var5);
     var5 = var5.CollectiblesItemType;
     var5 = var5.AVATAR_DECORATION;
-    var15['type'] = var5;
+    var16['type'] = var5;
     var5 = function name() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
@@ -51,7 +51,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var15['name'] = var5;
+    var16['name'] = var5;
     var5 = function a11yLabel() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
@@ -68,22 +68,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var15['a11yLabel'] = var5;
-    var14 = {};
-    var5 = var7[var4];
-    var5 = var6.bind(var1)(var5);
+    var16['a11yLabel'] = var5;
+    var15 = {};
+    var5 = var8[var4];
+    var5 = var7.bind(var1)(var5);
     var5 = var5.GiftingPromotionRewardSKUIds;
     var5 = var5.SEASONAL_GIFTING_2025_STARFALL_TIDES_SKU_ID;
-    var14['skuId'] = var5;
+    var15['skuId'] = var5;
     var5 = 'nameplates/nameplates_v2/starfall_tides/';
-    var14['assetId'] = var5;
-    var5 = var7[var2];
-    var5 = var6.bind(var1)(var5);
+    var15['assetId'] = var5;
+    var5 = var8[var2];
+    var5 = var7.bind(var1)(var5);
     var5 = var5.CollectiblesItemType;
     var5 = var5.NAMEPLATE;
-    var14['type'] = var5;
+    var15['type'] = var5;
     var5 = 'sky';
-    var14['palette'] = var5;
+    var15['palette'] = var5;
     var5 = function name() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
@@ -100,7 +100,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var14['name'] = var5;
+    var15['name'] = var5;
     var5 = function a11yLabel() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
@@ -117,20 +117,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var14['a11yLabel'] = var5;
-    var13 = {};
-    var4 = var7[var4];
-    var4 = var6.bind(var1)(var4);
+    var15['a11yLabel'] = var5;
+    var14 = {};
+    var4 = var8[var4];
+    var4 = var7.bind(var1)(var4);
     var4 = var4.GiftingPromotionRewardSKUIds;
     var4 = var4.SEASONAL_GIFTING_2025_MIRAGE_SKU_ID;
-    var13['skuId'] = var4;
+    var14['skuId'] = var4;
     var4 = 'a_6d99f670de3fcee669660fe262e896ea';
-    var13['assetId'] = var4;
-    var2 = var7[var2];
-    var2 = var6.bind(var1)(var2);
+    var14['assetId'] = var4;
+    var2 = var8[var2];
+    var2 = var7.bind(var1)(var2);
     var2 = var2.CollectiblesItemType;
     var2 = var2.AVATAR_DECORATION;
-    var13['type'] = var2;
+    var14['type'] = var2;
     var2 = function name() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
@@ -147,7 +147,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var13['name'] = var2;
+    var14['name'] = var2;
     var2 = function a11yLabel() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
@@ -164,30 +164,33 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var13['a11yLabel'] = var2;
-    var4 = {};
-    var2 = ['rgba(177, 186, 253, 1)', 'rgba(91, 108, 242, 1)', 'rgba(21, 18, 99, 1)'];
-    var4['gradient'] = var2;
-    var _closure1_slot3 = var4;
-    var2 = {};
-    var5 = new Array(3);
-    var5[0] = var15;
-    var5[1] = var14;
-    var5[2] = var13;
-    var2['rewards'] = var5;
-    var5 = 4;
-    var5 = var7[var5];
-    var12 = var6.bind(var1)(var5);
-    var10 = var12.getRewardAssetIdMap;
-    var5 = new Array(3);
-    var5[0] = var15;
-    var5[1] = var14;
-    var5[2] = var13;
-    var5 = var10.bind(var12)(var5);
-    var2['rewardAssetIdMap'] = var5;
+    var14['a11yLabel'] = var2;
     var5 = {};
-    var10 = {};
-    var12 = function getAnimationData() {
+    var2 = ['rgba(177, 186, 253, 1)', 'rgba(91, 108, 242, 1)', 'rgba(21, 18, 99, 1)'];
+    var5['gradient'] = var2;
+    var _closure1_slot3 = var5;
+    var4 = {};
+    var2 = ['rgba(74, 87, 192, 1)', 'rgba(8, 5, 67, 1)'];
+    var4['gradient'] = var2;
+    var2 = {};
+    var6 = new Array(3);
+    var6[0] = var16;
+    var6[1] = var15;
+    var6[2] = var14;
+    var2['rewards'] = var6;
+    var6 = 4;
+    var6 = var8[var6];
+    var13 = var7.bind(var1)(var6);
+    var11 = var13.getRewardAssetIdMap;
+    var6 = new Array(3);
+    var6[0] = var16;
+    var6[1] = var15;
+    var6[2] = var14;
+    var6 = var11.bind(var13)(var6);
+    var2['rewardAssetIdMap'] = var6;
+    var6 = {};
+    var11 = {};
+    var13 = function getAnimationData() {
         var3 = _closure1_slot0;
         var1 = _closure1_slot2;
         var2 = 6;
@@ -219,8 +222,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var10['getAnimationData'] = var12;
-    var12 = function getGlowAnimationData() {
+    var11['getAnimationData'] = var13;
+    var13 = function getGlowAnimationData() {
         var1 = global;
         var3 = var1.Promise;
         var2 = var3.resolve;
@@ -228,17 +231,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var10['getGlowAnimationData'] = var12;
-    var5['trinketsAnimation'] = var10;
-    var2['chatGiftIcon'] = var5;
-    var5 = 7;
-    var5 = var7[var5];
-    var10 = var6.bind(var1)(var5);
-    var5 = var10.getGiftingPromotionDismissibleContentVersion;
-    var5 = var5.bind(var10)();
-    var2['dismissibleContentVersion'] = var5;
-    var5 = {};
-    var10 = function getImageUrl(arg1, arg2) {
+    var11['getGlowAnimationData'] = var13;
+    var6['trinketsAnimation'] = var11;
+    var2['chatGiftIcon'] = var6;
+    var6 = {};
+    var11 = function getImageUrl(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var3 = _closure1_slot1;
@@ -246,11 +243,11 @@ case 0:
             var1 = arg2;
             if(var1) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var1 = 9;
+            var1 = 8;
             var2 = var4[var1];
             _fun0001_ip = 4; continue _fun0001;
 case 2:
-            var1 = 8;
+            var1 = 7;
             var2 = var4[var1];
 case 4:
             var1 = undefined;
@@ -258,8 +255,8 @@ case 4:
             return var1;
         }
     };
-    var5['getImageUrl'] = var10;
-    var10 = function title() {
+    var6['getImageUrl'] = var11;
+    var11 = function title() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 3;
@@ -275,8 +272,8 @@ case 4:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5['title'] = var10;
-    var10 = function description() {
+    var6['title'] = var11;
+    var11 = function description() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 3;
@@ -292,8 +289,8 @@ case 4:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5['description'] = var10;
-    var10 = function cta() {
+    var6['description'] = var11;
+    var11 = function cta() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 3;
@@ -309,17 +306,17 @@ case 4:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5['cta'] = var10;
-    var10 = 10;
-    var10 = var7[var10];
-    var10 = var11.bind(var1)(var10);
-    var10 = var10.GIFTING_PROMOTION_COACHMARK;
-    var5['analyticsLocation'] = var10;
-    var9 = var9.PREMUIM_UPSELL_GIFTING_PROMOTION;
-    var5['analyticsPage'] = var9;
-    var2['firstTimeNotice'] = var5;
-    var5 = {};
-    var9 = function heading() {
+    var6['cta'] = var11;
+    var11 = 9;
+    var11 = var8[var11];
+    var11 = var12.bind(var1)(var11);
+    var11 = var11.GIFTING_PROMOTION_COACHMARK;
+    var6['analyticsLocation'] = var11;
+    var10 = var10.PREMUIM_UPSELL_GIFTING_PROMOTION;
+    var6['analyticsPage'] = var10;
+    var2['firstTimeNotice'] = var6;
+    var6 = {};
+    var10 = function heading() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 3;
@@ -335,8 +332,8 @@ case 4:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5['heading'] = var9;
-    var9 = function subheading() {
+    var6['heading'] = var10;
+    var10 = function subheading() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var5 = arguments[0];
@@ -362,8 +359,8 @@ case 5:
             return var1;
         }
     };
-    var5['subheading'] = var9;
-    var9 = function mobileSubheading(arg1) {
+    var6['subheading'] = var10;
+    var10 = function mobileSubheading(arg1) {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 3;
@@ -382,9 +379,9 @@ case 5:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var5['mobileSubheading'] = var9;
-    var5['gradientConfig'] = var4;
-    var9 = function getImageUrl(arg1, arg2) {
+    var6['mobileSubheading'] = var10;
+    var6['gradientConfig'] = var5;
+    var10 = function getImageUrl(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var3 = _closure1_slot1;
@@ -392,11 +389,11 @@ case 0:
             var1 = arg2;
             if(var1) { _fun0003_ip = 2; continue _fun0003 }
 case 3:
-            var1 = 12;
+            var1 = 11;
             var2 = var4[var1];
             _fun0003_ip = 4; continue _fun0003;
 case 2:
-            var1 = 11;
+            var1 = 10;
             var2 = var4[var1];
 case 4:
             var1 = undefined;
@@ -404,25 +401,25 @@ case 4:
             return var1;
         }
     };
-    var5['getImageUrl'] = var9;
-    var9 = function getBannerImageUrl() {
+    var6['getImageUrl'] = var10;
+    var10 = function getBannerImageUrl() {
         var1 = '';
         return var1;
     };
-    var5['getBannerImageUrl'] = var9;
-    var9 = function getBackgroundImageUrl() {
+    var6['getBannerImageUrl'] = var10;
+    var10 = function getBackgroundImageUrl() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 13;
+        var1 = 12;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
         return var1;
     };
-    var5['getBackgroundImageUrl'] = var9;
-    var2['planSelection'] = var5;
-    var5 = {};
-    var9 = function desktopBannerText() {
+    var6['getBackgroundImageUrl'] = var10;
+    var2['planSelection'] = var6;
+    var6 = {};
+    var10 = function desktopBannerText() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 3;
@@ -438,8 +435,8 @@ case 4:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5['desktopBannerText'] = var9;
-    var9 = function mobileBannerText() {
+    var6['desktopBannerText'] = var10;
+    var10 = function mobileBannerText() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 3;
@@ -455,30 +452,30 @@ case 4:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5['mobileBannerText'] = var9;
-    var9 = function getImageUrl() {
+    var6['mobileBannerText'] = var10;
+    var10 = function getImageUrl() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 11;
+        var1 = 10;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
         return var1;
     };
-    var5['getImageUrl'] = var9;
-    var9 = function gradientConfig() {
+    var6['getImageUrl'] = var10;
+    var10 = function gradientConfig() {
         var1 = _closure1_slot3;
         return var1;
     };
-    var5['gradientConfig'] = var9;
-    var9 = function getBackgroundImageUrl() {
+    var6['gradientConfig'] = var10;
+    var10 = function getBackgroundImageUrl() {
         var1 = '';
         return var1;
     };
-    var5['getBackgroundImageUrl'] = var9;
-    var2['planSelectionBanner'] = var5;
-    var5 = {};
-    var9 = function getImageUrl(arg1) {
+    var6['getBackgroundImageUrl'] = var10;
+    var2['planSelectionBanner'] = var6;
+    var6 = {};
+    var10 = function getImageUrl(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var3 = _closure1_slot1;
@@ -486,11 +483,11 @@ case 0:
             var1 = arg1;
             if(var1) { _fun0004_ip = 2; continue _fun0004 }
 case 3:
-            var1 = 12;
+            var1 = 11;
             var2 = var4[var1];
             _fun0004_ip = 4; continue _fun0004;
 case 2:
-            var1 = 11;
+            var1 = 10;
             var2 = var4[var1];
 case 4:
             var1 = undefined;
@@ -498,8 +495,8 @@ case 4:
             return var1;
         }
     };
-    var5['getImageUrl'] = var9;
-    var9 = function title() {
+    var6['getImageUrl'] = var10;
+    var10 = function title() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 3;
@@ -515,8 +512,8 @@ case 4:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5['title'] = var9;
-    var9 = function body() {
+    var6['title'] = var10;
+    var10 = function body() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 3;
@@ -532,31 +529,32 @@ case 4:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5['body'] = var9;
-    var9 = function getBackgroundImageUrl() {
+    var6['body'] = var10;
+    var10 = function getBackgroundImageUrl() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 14;
+        var1 = 13;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
         return var1;
     };
-    var5['getBackgroundImageUrl'] = var9;
-    var2['billingSettingsMarketingBanner'] = var5;
-    var5 = {};
-    var9 = 3;
-    var10 = var7[var9];
-    var10 = var6.bind(var1)(var10);
+    var6['getBackgroundImageUrl'] = var10;
+    var6['gradientConfig'] = var4;
+    var2['billingSettingsMarketingBanner'] = var6;
+    var6 = {};
+    var10 = 3;
+    var11 = var8[var10];
+    var11 = var7.bind(var1)(var11);
+    var11 = var11.t;
+    var11 = var11.0Z0G7m;
+    var6['yearGiftText'] = var11;
+    var10 = var8[var10];
+    var10 = var7.bind(var1)(var10);
     var10 = var10.t;
-    var10 = var10.0Z0G7m;
-    var5['yearGiftText'] = var10;
-    var9 = var7[var9];
-    var9 = var6.bind(var1)(var9);
-    var9 = var9.t;
-    var9 = var9.qyhlUP;
-    var5['monthGiftText'] = var9;
-    var9 = function collectRewardButtonText() {
+    var10 = var10.qyhlUP;
+    var6['monthGiftText'] = var10;
+    var10 = function collectRewardButtonText() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 3;
@@ -572,8 +570,8 @@ case 4:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5['collectRewardButtonText'] = var9;
-    var8 = function rewardCollectedText() {
+    var6['collectRewardButtonText'] = var10;
+    var9 = function rewardCollectedText() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
         var1 = 3;
@@ -589,15 +587,16 @@ case 4:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var5['rewardCollectedText'] = var8;
-    var2['giftPurchaseConfirmation'] = var5;
-    var5 = 15;
-    var5 = var7[var5];
-    var7 = var6.bind(var1)(var5);
-    var6 = var7.fileFinishedImporting;
-    var5 = 'modules/premium/gifting/utils/promotions/SeasonalGifting2025Config.tsx';
-    var5 = var6.bind(var7)(var5);
-    var3['GRADIENT'] = var4;
+    var6['rewardCollectedText'] = var9;
+    var2['giftPurchaseConfirmation'] = var6;
+    var6 = 14;
+    var6 = var8[var6];
+    var8 = var7.bind(var1)(var6);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'modules/premium/gifting/utils/promotions/SeasonalGifting2025Config.tsx';
+    var6 = var7.bind(var8)(var6);
+    var3['GRADIENT'] = var5;
+    var3['SIMPLE_GRADIENT'] = var4;
     var3['SEASONAL_GIFTING_2025_CONFIG'] = var2;
     return var1;
 })();

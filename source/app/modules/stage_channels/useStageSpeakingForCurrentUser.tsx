@@ -79,7 +79,7 @@ case 0:
             var1 = var5[var1];
             var3 = undefined;
             var2 = var4.bind(var3)(var1);
-            var1 = var2.isAgeVerified;
+            var1 = var2.isVerifiedAdult;
             var2 = var1.bind(var2)();
             var1 = 1;
             var1 = var5[var1];
@@ -104,7 +104,7 @@ case 0:
             var1 = var5[var1];
             var3 = undefined;
             var2 = var4.bind(var3)(var1);
-            var1 = var2.useIsAgeVerified;
+            var1 = var2.useIsVerifiedAdult;
             var2 = var1.bind(var2)();
             var1 = 1;
             var1 = var5[var1];

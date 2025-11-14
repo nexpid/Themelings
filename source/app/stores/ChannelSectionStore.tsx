@@ -419,7 +419,7 @@ case 35:
             }
         };
         var5['value'] = var1;
-        var1 = new Array(7);
+        var1 = new Array(8);
         var1[0] = var5;
         var5 = {};
         var7 = 'getState';
@@ -611,7 +611,7 @@ case 57:
         var5 = {};
         var7 = 'getCurrentSidebarMessageId';
         var5['key'] = var7;
-        var6 = function value(arg1) {
+        var7 = function value(arg1) {
             _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
                 var2 = _closure1_slot29;
@@ -677,8 +677,17 @@ case 66:
                 return var1;
             }
         };
-        var5['value'] = var6;
+        var5['value'] = var7;
         var1[6] = var5;
+        var5 = {};
+        var7 = 'getCurrentSearchContextId';
+        var5['key'] = var7;
+        var6 = function value() {
+            var1 = _closure1_slot27;
+            return var1;
+        };
+        var5['value'] = var6;
+        var1[7] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

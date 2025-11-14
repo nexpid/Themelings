@@ -1,4 +1,4 @@
-// app/modules/media_keyboard/native/MediaKeyboardLocalImageLoadingExperiment.tsx
+// app/modules/premium/experiments/PremiumTrialOfferActionSheetForceShowExperiment.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var3 = exports;
@@ -16,7 +16,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var7 = var5.bind(var1)(var2);
     var4 = var7.createApexExperiment;
-    var2 = {'kind': 'user', 'name': '2025-11-android-local-image-loading-serialization'};
+    var2 = {'name': '2025-11-premium-trial-offer-action-sheet-force-show', 'kind': 'user'};
     var8 = {};
     var9 = false;
     var8['enabled'] = var9;
@@ -31,8 +31,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/media_keyboard/native/MediaKeyboardLocalImageLoadingExperiment.tsx';
+    var4 = 'modules/premium/experiments/PremiumTrialOfferActionSheetForceShowExperiment.tsx';
     var4 = var5.bind(var6)(var4);
-    var3['default'] = var2;
+    var3['PremiumTrialOfferActionSheetForceShowExperiment'] = var2;
     return var1;
 })();

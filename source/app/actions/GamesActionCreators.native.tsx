@@ -170,6 +170,33 @@ case 4:
         return var1;
     };
     var2['getDetectableGames'] = var8;
+    var8 = function getDetectableGamesSupplemental(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+            var2 = arguments[1];
+            var1 = undefined;
+            if(!(var2 === var1)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
+            var3 = {};
+            var4 = false;
+            var3['forceFetch'] = var4;
+            var2 = var3;
+case 6:
+            var2 = var2.forceFetch;
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var3 = 5;
+            var3 = var5[var3];
+            var5 = var4.bind(var1)(var3);
+            var4 = var5.fetchDetectableGamesSupplemental;
+            var3 = {};
+            var3['forceFetch'] = var2;
+            var2 = arg1;
+            var2 = var4.bind(var5)(var2, var3);
+            return var1;
+        }
+    };
+    var2['getDetectableGamesSupplemental'] = var8;
     var8 = function reportUnverifiedGame() {
         var1 = undefined;
         return var1;
@@ -194,15 +221,15 @@ case 4:
     };
     var2['launch'] = var8;
     var7 = function join(arg1) {
-        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var5 = arg1;
             var3 = var5.remotePartyId;
             var1 = null;
-            if(!(var1 == var3)) { _fun0002_ip = 6; continue _fun0002 }
-case 7:
+            if(!(var1 == var3)) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
             var3 = function joinViaDeeplink(arg1) {
-                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var4 = arg1;
                     var5 = var4.application;
@@ -214,21 +241,21 @@ case 0:
                     var3 = undefined;
                     var6 = var9.bind(var3)(var6);
                     var6 = var6.DISCORD_CONNECT_EXAMPLE_APP_APPLICATION_ID;
-                    if(!(var7 !== var6)) { _fun0003_ip = 8; continue _fun0003 }
-case 9:
+                    if(!(var7 !== var6)) { _fun0004_ip = 10; continue _fun0004 }
+case 11:
                     var6 = var5.deeplink_uri;
-                    _fun0003_ip = 10; continue _fun0003;
-case 8:
+                    _fun0004_ip = 12; continue _fun0004;
+case 10:
                     var7 = _closure1_slot0;
                     var5 = _closure1_slot2;
                     var5 = var5[var8];
                     var5 = var7.bind(var3)(var5);
                     var6 = var5.DISCORD_CONNECT_EXAMPLE_APP_DEEPLINK_URI;
-case 10:
+case 12:
                     var _closure3_slot0 = var6;
                     var5 = null;
-                    if(!(var5 != var6)) { _fun0003_ip = 11; continue _fun0003 }
-case 12:
+                    if(!(var5 != var6)) { _fun0004_ip = 13; continue _fun0004 }
+case 14:
                     var2 = _closure1_slot6;
                     var1 = function(arg1) {
                         var4 = _closure1_slot7;
@@ -242,21 +269,21 @@ case 12:
                         return var1;
                     };
                     var1 = var2.bind(var3)(var4, var1);
-                    _fun0003_ip = 13; continue _fun0003;
-case 11:
+                    _fun0004_ip = 15; continue _fun0004;
+case 13:
                     var2 = global;
                     var4 = var2.Promise;
                     var3 = var4.resolve;
                     var2 = false;
                     var1 = var3.bind(var4)(var2);
-case 13:
+case 15:
                     return var1;
                 }
             };
             var1 = undefined;
             var1 = var3.bind(var1)(var5);
-            _fun0002_ip = 14; continue _fun0002;
-case 6:
+            _fun0003_ip = 16; continue _fun0003;
+case 8:
             var4 = _closure1_slot6;
             var3 = undefined;
             var2 = function() {
@@ -264,13 +291,13 @@ case 6:
                 return var1;
             };
             var1 = var4.bind(var3)(var5, var2);
-case 14:
+case 16:
             return var1;
         }
     };
     var2['join'] = var7;
     var2['joinWithSecret'] = var4;
-    var4 = 5;
+    var4 = 6;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

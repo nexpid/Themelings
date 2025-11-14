@@ -33,6 +33,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8['SIZE_48'] = var1;
     var1 = 'SIZE_56';
     var8['SIZE_56'] = var1;
+    var1 = 'SIZE_72';
+    var8['SIZE_72'] = var1;
     var1 = 'SIZE_80';
     var8['SIZE_80'] = var1;
     var1 = 'SIZE_96';
@@ -111,6 +113,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = var11.Object;
     var14 = var15.freeze;
     var12 = {'size': 56, 'status': 14, 'stroke': 4, 'offset': 2};
+    var12 = var14.bind(var15)(var12);
+    var1[var13] = var12;
+    var13 = var8.SIZE_72;
+    var15 = var11.Object;
+    var14 = var15.freeze;
+    var12 = {'size': 72, 'status': 16, 'stroke': 6, 'offset': 4};
     var12 = var14.bind(var15)(var12);
     var1[var13] = var12;
     var13 = var8.SIZE_80;

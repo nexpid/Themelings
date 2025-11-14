@@ -1150,23 +1150,23 @@ case 104:
                     var _closure4_slot2 = var2;
                     var2 = arg4;
                     var _closure4_slot3 = var2;
-                    var5 = undefined;
-                    var _closure4_slot4 = var5;
-                    var _closure4_slot5 = var5;
-                    var _closure4_slot6 = var5;
-                    var _closure4_slot7 = var5;
-                    var _closure4_slot8 = var5;
-                    var4 = _closure1_slot18;
-                    var3 = var4.verbose;
+                    var4 = undefined;
+                    var _closure4_slot4 = var4;
+                    var _closure4_slot5 = var4;
+                    var _closure4_slot6 = var4;
+                    var _closure4_slot7 = var4;
+                    var _closure4_slot8 = var4;
+                    var7 = _closure1_slot18;
+                    var3 = var7.verbose;
                     var2 = 'loading late lazy cache';
-                    var2 = var3.bind(var4)(var2);
+                    var2 = var3.bind(var7)(var2);
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
-                    var10 = 16;
-                    var2 = var2[var10];
-                    var2 = var3.bind(var5)(var2);
-                    var4 = var2.fetchLazyCache;
-                    var3 = var4.measureAsync;
+                    var9 = 16;
+                    var2 = var2[var9];
+                    var2 = var3.bind(var4)(var2);
+                    var7 = var2.fetchLazyCache;
+                    var3 = var7.measureAsync;
                     var2 = function() {
                         var1 = global;
                         var3 = var1.Promise;
@@ -1323,7 +1323,7 @@ case 110:
                         var1 = var2.bind(var3)(var1);
                         return var1;
                     };
-                    var2 = var3.bind(var4)(var2);
+                    var2 = var3.bind(var7)(var2);
                     SaveGenerator(address=132);
 case 111:
                     return var2;
@@ -1331,24 +1331,24 @@ case 112:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
                     if(var3) { _fun0008_ip = 113; continue _fun0008 }
 case 114:
-                    var4 = _closure1_slot3;
+                    var7 = _closure1_slot3;
                     var3 = 3;
-                    var4 = var4.bind(var5)(var2, var3);
+                    var7 = var7.bind(var4)(var2, var3);
                     var3 = 0;
-                    var3 = var4[var3];
+                    var3 = var7[var3];
                     _closure4_slot4 = var3;
                     var3 = 1;
-                    var3 = var4[var3];
+                    var3 = var7[var3];
                     _closure4_slot5 = var3;
                     var3 = 2;
-                    var3 = var4[var3];
+                    var3 = var7[var3];
                     _closure4_slot6 = var3;
-                    var4 = _closure1_slot1;
+                    var7 = _closure1_slot1;
                     var3 = _closure1_slot2;
-                    var3 = var3[var10];
-                    var3 = var4.bind(var5)(var3);
+                    var3 = var3[var9];
+                    var3 = var7.bind(var4)(var3);
                     var8 = var3.fetchStaleChannels;
-                    var4 = var8.measureAsync;
+                    var7 = var8.measureAsync;
                     var3 = function() {
                         _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
@@ -1442,38 +1442,34 @@ case 117:
                             return var1;
                         }
                     };
-                    var3 = var4.bind(var8)(var3);
+                    var3 = var7.bind(var8)(var3);
                     SaveGenerator(address=229);
 case 118:
                     return var3;
 case 119:
-                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(var4) { _fun0008_ip = 120; continue _fun0008 }
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=6);
+                    if(var7) { _fun0008_ip = 120; continue _fun0008 }
 case 16:
                     _closure4_slot7 = var3;
                     var8 = _closure1_slot0;
-                    var9 = _closure1_slot2;
-                    var4 = 33;
-                    var4 = var9[var4];
-                    var4 = var8.bind(var5)(var4);
-                    var8 = var4.DelayLoadLateLazyCacheExperiment;
-                    var4 = var8.getCachedEnabled;
-                    var4 = var4.bind(var8)();
-                    var9 = _closure1_slot18;
-                    var8 = var9.verbose;
-                    if(var4) { _fun0008_ip = 121; continue _fun0008 }
+                    var10 = _closure1_slot2;
+                    var7 = 33;
+                    var7 = var10[var7];
+                    var7 = var8.bind(var4)(var7);
+                    var8 = var7.DelayLoadLateLazyCacheHoldoutExperiment;
+                    var7 = var8.getCachedEnabled;
+                    var7 = var7.bind(var8)();
+                    var10 = _closure1_slot18;
+                    var8 = var10.verbose;
+                    if(var7) { _fun0008_ip = 121; continue _fun0008 }
 case 122:
-                    var4 = 'loadLateLazyCache: not yielding to react';
-                    var4 = var8.bind(var9)(var4);
-                    _fun0008_ip = 123; continue _fun0008;
-case 121:
-                    var4 = 'loadLateLazyCache: yielding to react';
-                    var4 = var8.bind(var9)(var4);
-                    var4 = global;
-                    var9 = var4.Promise;
-                    var4 = var9.prototype;
-                    var8 = Object.create(var4, {constructor: {value: var9}});
-                    var12 = function(arg1) {
+                    var7 = 'loadLateLazyCache: yielding to react';
+                    var7 = var8.bind(var10)(var7);
+                    var7 = global;
+                    var12 = var7.Promise;
+                    var7 = var12.prototype;
+                    var11 = Object.create(var7, {constructor: {value: var12}});
+                    var14 = function(arg1) {
                         var1 = global;
                         var4 = var1.setTimeout;
                         var3 = undefined;
@@ -1482,29 +1478,34 @@ case 121:
                         var1 = var4.bind(var3)(var2, var1);
                         return var1;
                     };
-                    var13 = var8;
-                    var4 = new var13[var9](var12, var11);
-                    var4 = var4 instanceof Object ? var4 : var8;
-                    SaveGenerator(address=354);
-case 124:
-                    return var4;
-case 125:
-                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=7);
-                    if(var8) { _fun0008_ip = 126; continue _fun0008 }
+                    var15 = var11;
+                    var7 = new var15[var12](var14, var13);
+                    var7 = var7 instanceof Object ? var7 : var11;
+                    SaveGenerator(address=341);
 case 123:
-                    var9 = _closure1_slot1;
-                    var8 = _closure1_slot2;
-                    var8 = var8[var10];
-                    var8 = var9.bind(var5)(var8);
-                    var9 = var8.loadLazyCache;
-                    var8 = var9.recordStart;
-                    var8 = var8.bind(var9)();
-                    var9 = _closure1_slot10;
-                    var8 = var9.getSocket;
-                    var8 = var8.bind(var9)();
-                    _closure4_slot8 = var8;
-                    var7 = _closure1_slot32;
-                    var6 = function() {
+                    return var7;
+case 124:
+                    ResumeGenerator(result_out_reg=6, return_bool_out_reg=10);
+                    if(!var11) { _fun0008_ip = 125; continue _fun0008 }
+case 126:
+                    return var7;
+case 121:
+                    var7 = 'loadLateLazyCache: not yielding to react';
+                    var7 = var8.bind(var10)(var7);
+case 125:
+                    var8 = _closure1_slot1;
+                    var7 = _closure1_slot2;
+                    var7 = var7[var9];
+                    var7 = var8.bind(var4)(var7);
+                    var8 = var7.loadLazyCache;
+                    var7 = var8.recordStart;
+                    var7 = var7.bind(var8)();
+                    var8 = _closure1_slot10;
+                    var7 = var8.getSocket;
+                    var7 = var7.bind(var8)();
+                    _closure4_slot8 = var7;
+                    var6 = _closure1_slot32;
+                    var5 = function() {
                         _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
                             var1 = global;
@@ -1970,9 +1971,7 @@ case 127:
                             return var1;
                         }
                     };
-                    var6 = var7.bind(var5)(var6);
-                    return var5;
-case 126:
+                    var5 = var6.bind(var4)(var5);
                     return var4;
 case 120:
                     return var3;
@@ -2078,9 +2077,9 @@ case 68: // try_start_1
                     };
                     var1 = 100;
                     var1 = var3.bind(var4)(var2, var1);
-case 78: // try_end1
-                    _fun0019_ip = 87; continue _fun0019;
-case 79: // catch_target0 // catch_target1
+case 148: // try_end1
+                    _fun0019_ip = 149; continue _fun0019;
+case 78: // catch_target0 // catch_target1
                     CatchBlockStart(arg_register=4);
                     var4 = _closure1_slot18;
                     var3 = var4.warn;
@@ -2102,15 +2101,15 @@ case 79: // catch_target0 // catch_target1
                     var4['action'] = var5;
                     var1['args'] = var4;
                     var1 = var2.bind(var3)(var1);
-case 87:
+case 149:
                     var1 = undefined;
                     return var1;
                 }
             };
             var4 = var5.bind(var6)(var4);
             var3 = _closure2_slot2;
-            if(var3) { _fun0018_ip = 148; continue _fun0018 }
-case 149:
+            if(var3) { _fun0018_ip = 150; continue _fun0018 }
+case 151:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
             var2 = 16;
@@ -2119,7 +2118,7 @@ case 149:
             var3 = var2.loadLazyCache;
             var2 = var3.recordEnd;
             var2 = var2.bind(var3)();
-case 148:
+case 150:
             return var1;
         }
     };
@@ -2227,14 +2226,14 @@ case 0:
                 var2 = _closure1_slot6;
                 var1 = _closure1_slot26;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0020_ip = 150; continue _fun0020 }
-case 151:
+                if(var1) { _fun0020_ip = 152; continue _fun0020 }
+case 153:
                 var7 = var9.apply;
                 var5 = arguments;
                 var1 = var5;
                 var1 = var7.bind(var9)(var4, var1);
-                _fun0020_ip = 152; continue _fun0020;
-case 150:
+                _fun0020_ip = 154; continue _fun0020;
+case 152:
                 var7 = global;
                 var8 = var7.Reflect;
                 var7 = var8.construct;
@@ -2243,7 +2242,7 @@ case 150:
                 var6 = var6.constructor;
                 var5 = arguments;
                 var1 = var7.bind(var8)(var9, var5, var6);
-case 152:
+case 154:
                 var1 = var2.bind(var3)(var4, var1);
                 return var1;
             }
@@ -2314,43 +2313,43 @@ case 0:
                 var1 = var2.isAuthenticated;
                 var1 = var1.bind(var2)();
                 if(var1) { _fun0021_ip = 65; continue _fun0021 }
-case 153:
+case 155:
                 var4 = _closure1_slot18;
                 var2 = var4.log;
                 var1 = 'Not writing cache because not authenticated';
                 var1 = var2.bind(var4)(var1);
                 var1 = false;
-                _fun0021_ip = 154; continue _fun0021;
+                _fun0021_ip = 156; continue _fun0021;
 case 65:
                 var2 = _closure1_slot19;
-                if(var2) { _fun0021_ip = 155; continue _fun0021 }
+                if(var2) { _fun0021_ip = 157; continue _fun0021 }
 case 3:
                 var2 = arg1;
                 var4 = !var2;
                 if(!var4) { _fun0021_ip = 68; continue _fun0021 }
-case 156:
+case 158:
                 var2 = _closure1_slot24;
                 var4 = !var2;
 case 68:
                 var2 = !var4;
                 if(!var4) { _fun0021_ip = 97; continue _fun0021 }
-case 157:
+case 159:
                 var6 = _closure1_slot18;
                 var5 = var6.log;
                 var4 = 'Not writing cache because never connected';
                 var4 = var5.bind(var6)(var4);
                 var2 = false;
 case 97:
-                _fun0021_ip = 158; continue _fun0021;
-case 155:
+                _fun0021_ip = 160; continue _fun0021;
+case 157:
                 var5 = _closure1_slot18;
                 var4 = var5.log;
                 var3 = 'Not writing cache because caches cleared';
                 var3 = var4.bind(var5)(var3);
                 var2 = false;
-case 158:
+case 160:
                 var1 = var2;
-case 154:
+case 156:
                 return var1;
             }
         };
@@ -2366,7 +2365,7 @@ case 154:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=3);
-                    if(var4) { _fun0022_ip = 159; continue _fun0022 }
+                    if(var4) { _fun0022_ip = 161; continue _fun0022 }
 case 104:
                     var4 = arg1;
                     var _closure4_slot0 = var4;
@@ -2388,8 +2387,8 @@ case 104:
                     var3 = var11.bind(var12)(var6);
                     var11 = _closure1_slot20;
                     var6 = 'initializing';
-                    if(!(var6 === var11)) { _fun0022_ip = 160; continue _fun0022 }
-case 161: // try_start_0
+                    if(!(var6 === var11)) { _fun0022_ip = 162; continue _fun0022 }
+case 163: // try_start_0
                     var11 = _closure1_slot11;
                     var6 = var11.getId;
                     var14 = var6.bind(var11)();
@@ -2429,12 +2428,12 @@ case 161: // try_start_0
                     };
                     var6 = var11.bind(var12)(var6);
                     SaveGenerator(address=190);
-case 162:
+case 164:
                     return var6;
-case 163:
-                    ResumeGenerator(result_out_reg=5, return_bool_out_reg=10);
-                    if(var11) { _fun0022_ip = 164; continue _fun0022 }
 case 165:
+                    ResumeGenerator(result_out_reg=5, return_bool_out_reg=10);
+                    if(var11) { _fun0022_ip = 166; continue _fun0022 }
+case 167:
                     var12 = _closure1_slot3;
                     var11 = 3;
                     var13 = var12.bind(var5)(var6, var11);
@@ -2446,8 +2445,8 @@ case 165:
                     var7 = var13[var12];
                     var12 = var3;
                     var12 = var12.bind(var5)();
-                    if(var11) { _fun0022_ip = 166; continue _fun0022 }
-case 167:
+                    if(var11) { _fun0022_ip = 168; continue _fun0022 }
+case 169:
                     var11 = function dontLoadLateLazyCache() {
                         var3 = _closure1_slot32;
                         var2 = undefined;
@@ -2474,14 +2473,14 @@ case 167:
                     };
                     var11 = var11.bind(var5)();
                     SaveGenerator(address=252);
-case 168:
+case 170:
                     return var11;
-case 169:
+case 171:
                     ResumeGenerator(result_out_reg=10, return_bool_out_reg=11);
-                    if(!var12) { _fun0022_ip = 170; continue _fun0022 }
-case 171: // try_end0
+                    if(!var12) { _fun0022_ip = 172; continue _fun0022 }
+case 173: // try_end0
                     return var11;
-case 166: // try_start_1
+case 168: // try_start_1
                     var18 = var10;
                     var17 = var9;
                     var16 = var8;
@@ -2501,16 +2500,16 @@ case 166: // try_start_1
                     SaveGenerator(address=288);
 case 91:
                     return var7;
-case 172:
+case 174:
                     ResumeGenerator(result_out_reg=6, return_bool_out_reg=7);
-                    if(var8) { _fun0022_ip = 173; continue _fun0022 }
-case 170: // try_end1
-                    _fun0022_ip = 174; continue _fun0022;
-case 173:
+                    if(var8) { _fun0022_ip = 175; continue _fun0022 }
+case 172: // try_end1
+                    _fun0022_ip = 176; continue _fun0022;
+case 175:
                     return var7;
-case 164:
+case 166:
                     return var6;
-case 175: // catch_target0 // catch_target1
+case 177: // catch_target0 // catch_target1
                     CatchBlockStart(arg_register=9);
                     var9 = _closure1_slot18;
                     var8 = var9.error;
@@ -2539,9 +2538,9 @@ case 175: // catch_target0 // catch_target1
                     var9['action'] = var10;
                     var6['args'] = var9;
                     var6 = var7.bind(var8)(var6);
-case 174:
+case 176:
                     return var5;
-case 160:
+case 162:
                     var6 = _closure1_slot1;
                     var7 = _closure1_slot2;
                     var4 = 27;
@@ -2562,7 +2561,7 @@ case 0:
                             var5 = var2 == var3;
                             var1 = undefined;
                             if(var5) { _fun0023_ip = 64; continue _fun0023 }
-case 176:
+case 178:
                             var3 = var3.dispatcher;
                             var2 = var2 == var3;
                             var1 = undefined;
@@ -2578,7 +2577,7 @@ case 64:
                     var2 = var4.bind(var5)(var3, var2);
                     var2 = undefined;
                     return var2;
-case 159:
+case 161:
                     return var1;
                 }
             };

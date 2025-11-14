@@ -81,23 +81,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
-            var7 = var1.user;
-            var _closure2_slot0 = var7;
-            var13 = var1.guildId;
-            var _closure2_slot1 = var13;
+            var13 = var1.user;
+            var12 = var1.guildId;
+            var _closure2_slot0 = var12;
             var5 = undefined;
-            var _closure2_slot5 = var5;
+            var _closure2_slot4 = var5;
             var1 = _closure1_slot9;
             var9 = var1.bind(var5)();
-            var _closure2_slot2 = var9;
+            var _closure2_slot1 = var9;
             var4 = _closure1_slot0;
             var6 = _closure1_slot2;
             var1 = 6;
             var1 = var6[var1];
             var2 = var4.bind(var5)(var1);
             var1 = var2.useNativeStackNavigation;
-            var12 = var1.bind(var2)();
-            var _closure2_slot3 = var12;
+            var7 = var1.bind(var2)();
+            var _closure2_slot2 = var7;
             var1 = 7;
             var1 = var6[var1];
             var10 = var4.bind(var5)(var1);
@@ -110,47 +109,46 @@ case 0:
             var1 = var6[var1];
             var10 = var4.bind(var5)(var1);
             var1 = var10.useGuildMemberOrUserPendingDisplayNameStyles;
-            var1 = var1.bind(var10)(var7, var13);
+            var1 = var1.bind(var10)(var13, var12);
             var11 = var1.pendingDisplayNameStyles;
             var10 = _closure1_slot1;
             var1 = 9;
             var1 = var6[var1];
             var10 = var10.bind(var5)(var1);
             var1 = {};
-            var14 = var7.id;
-            var1['userId'] = var14;
-            var1['guildId'] = var13;
+            var13 = var13.id;
+            var1['userId'] = var13;
+            var1['guildId'] = var12;
             var1['pendingDisplayNameStyles'] = var11;
             var10 = var10.bind(var5)(var1);
-            var _closure2_slot4 = var10;
+            var _closure2_slot3 = var10;
             var1 = 10;
             var1 = var6[var1];
             var11 = var4.bind(var5)(var1);
             var6 = var11.useDisplayNameStylesEffectConfig;
             var1 = null;
-            var14 = var1 == var10;
+            var13 = var1 == var10;
             var4 = undefined;
-            if(var14) { _fun0001_ip = 2; continue _fun0001 }
+            if(var13) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var4 = var10.effectId;
 case 2:
             if(!(var1 == var4)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var15 = _closure1_slot0;
-            var16 = _closure1_slot2;
-            var14 = 11;
-            var14 = var16[var14];
-            var14 = var15.bind(var5)(var14);
-            var14 = var14.DisplayNameEffect;
-            var4 = var14.SOLID;
+            var14 = _closure1_slot0;
+            var15 = _closure1_slot2;
+            var13 = 11;
+            var13 = var15[var13];
+            var13 = var14.bind(var5)(var13);
+            var13 = var13.DisplayNameEffect;
+            var4 = var13.SOLID;
 case 4:
             var4 = var6.bind(var11)(var4);
-            _closure2_slot5 = var4;
+            _closure2_slot4 = var4;
             var6 = _closure1_slot3;
-            var11 = new Array(3);
-            var11[0] = var13;
-            var11[1] = var12;
-            var11[2] = var7;
+            var11 = new Array(2);
+            var11[0] = var12;
+            var11[1] = var7;
             var7 = function() {
                 var4 = _closure1_slot1;
                 var3 = _closure1_slot2;
@@ -162,14 +160,12 @@ case 4:
                 var3 = _closure1_slot6;
                 var3 = var3.DISPLAY_NAME_STYLES_FROM_SETTINGS;
                 var3 = var4.bind(var5)(var3);
-                var5 = _closure2_slot3;
+                var5 = _closure2_slot2;
                 var4 = var5.navigate;
                 var2 = _closure1_slot7;
                 var3 = var2.DISPLAY_NAME_STYLES;
                 var2 = {};
-                var7 = _closure2_slot0;
-                var2['user'] = var7;
-                var6 = _closure2_slot1;
+                var6 = _closure2_slot0;
                 var2['guildId'] = var6;
                 var2 = var4.bind(var5)(var3, var2);
                 return var1;
@@ -182,7 +178,7 @@ case 4:
             var4 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-                    var3 = _closure2_slot4;
+                    var3 = _closure2_slot3;
                     var2 = null;
                     if(!(var2 != var3)) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
@@ -198,7 +194,7 @@ case 7:
                     var2 = 14;
                     var2 = var6[var2];
                     var6 = var3.bind(var7)(var2);
-                    var2 = _closure2_slot4;
+                    var2 = _closure2_slot3;
                     var3 = var2.fontId;
                     var3 = var6.bind(var7)(var3);
                     var6 = var4.bind(var5)(var3);
@@ -217,7 +213,7 @@ case 7:
                         return var1;
                     };
                     var2 = var3.bind(var4)(var2);
-                    var1 = _closure2_slot5;
+                    var1 = _closure2_slot4;
                     var10 = var1.name;
                     var1 = var2.join;
                     var4 = ' + ';
@@ -255,14 +251,14 @@ case 6:
             var3 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-                    var2 = _closure2_slot4;
+                    var2 = _closure2_slot3;
                     var1 = null;
                     if(!(var1 != var2)) { _fun0003_ip = 8; continue _fun0003 }
 case 9:
                     var4 = _closure1_slot8;
                     var3 = _closure1_slot5;
                     var2 = {};
-                    var8 = _closure2_slot2;
+                    var8 = _closure2_slot1;
                     var5 = var8.ggContainer;
                     var2['style'] = var5;
                     var7 = _closure1_slot0;
@@ -292,7 +288,7 @@ case 8:
                     var7 = var9[var7];
                     var7 = var8.bind(var4)(var7);
                     var2['source'] = var7;
-                    var6 = _closure2_slot2;
+                    var6 = _closure2_slot1;
                     var6 = var6.noneIcon;
                     var2['style'] = var6;
                     var1 = var5.bind(var4)(var3, var2);

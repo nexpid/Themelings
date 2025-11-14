@@ -767,19 +767,14 @@ case 60:
         }
     };
     var7['GUILD_MEMBER_ADD'] = var2;
-    var2 = 12;
-    var2 = var6[var2];
-    var2 = var5.bind(var1)(var2);
-    var4 = var2.GuildStoreExperiment;
-    var2 = var4.getCachedBridgedStoreMode;
-    var11 = var2.bind(var4)();
-    var4 = var8.prototype;
-    var4 = Object.create(var4, {constructor: {value: var8}});
+    var2 = var8.prototype;
+    var4 = Object.create(var2, {constructor: {value: var8}});
+    var11 = 'libdiscore';
     var13 = var4;
     var12 = var7;
     var2 = new var13[var8](var12, var11, var10);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 13;
+    var4 = 12;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

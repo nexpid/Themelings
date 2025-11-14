@@ -539,7 +539,7 @@ case 29:
         return var1;
     };
     var _closure1_slot28 = var4;
-    var4 = 65;
+    var4 = 66;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -982,7 +982,7 @@ case 40:
             var26 = var23.bind(var4)(var27, var26);
             var12['trailing'] = var26;
             var12 = var22.bind(var4)(var20, var12);
-            var20 = new Array(13);
+            var20 = new Array(14);
             var20[0] = var12;
             var12 = var16[var11];
             var12 = var15.bind(var4)(var12);
@@ -1122,6 +1122,37 @@ case 40:
             var12 = var15.bind(var4)(var12);
             var22 = var12.TableRow;
             var12 = {};
+            var27 = 'Launch Clicker Game';
+            var12['label'] = var27;
+            var27 = function onPress() {
+                var3 = _closure1_slot1;
+                var2 = _closure1_slot2;
+                var1 = 58;
+                var1 = var2[var1];
+                var2 = undefined;
+                var1 = var3.bind(var2)(var1);
+                var1 = var1.bind(var2)();
+                return var1;
+            };
+            var12['onPress'] = var27;
+            var27 = var16[var26];
+            var27 = var15.bind(var4)(var27);
+            var28 = var27.KeyIcon;
+            var27 = {};
+            var27 = var23.bind(var4)(var28, var27);
+            var12['icon'] = var27;
+            var27 = var16[var25];
+            var27 = var15.bind(var4)(var27);
+            var28 = var27.TableRowArrow;
+            var27 = {};
+            var27 = var23.bind(var4)(var28, var27);
+            var12['trailing'] = var27;
+            var12 = var23.bind(var4)(var22, var12);
+            var20[7] = var12;
+            var12 = var16[var11];
+            var12 = var15.bind(var4)(var12);
+            var22 = var12.TableRow;
+            var12 = {};
             var27 = 'Show age verification scan test modal';
             var12['label'] = var27;
             var27 = _closure1_slot26;
@@ -1139,7 +1170,7 @@ case 40:
             var27 = var23.bind(var4)(var28, var27);
             var12['trailing'] = var27;
             var12 = var23.bind(var4)(var22, var12);
-            var20[7] = var12;
+            var20[8] = var12;
             var12 = var16[var11];
             var12 = var15.bind(var4)(var12);
             var22 = var12.TableRow;
@@ -1179,14 +1210,14 @@ case 40:
             var27 = var23.bind(var4)(var28, var27);
             var12['trailing'] = var27;
             var12 = var23.bind(var4)(var22, var12);
-            var20[8] = var12;
+            var20[9] = var12;
             var12 = var16[var11];
             var12 = var15.bind(var4)(var12);
             var22 = var12.TableRow;
             var12 = {};
             var27 = 'Test captcha';
             var12['label'] = var27;
-            var27 = 58;
+            var27 = 59;
             var27 = var16[var27];
             var27 = var15.bind(var4)(var27);
             var27 = var27.showCaptchaTestModal;
@@ -1204,12 +1235,12 @@ case 40:
             var25 = var23.bind(var4)(var26, var25);
             var12['trailing'] = var25;
             var12 = var23.bind(var4)(var22, var12);
-            var20[9] = var12;
+            var20[10] = var12;
             var12 = var16[var13];
             var12 = var15.bind(var4)(var12);
             var22 = var12.TableSwitchRow;
             var12 = {'label': 'Ignored Profile Speedbump Suppression', 'subLabel': 'Suppresses the speedbump for ignored profiles.'};
-            var25 = 59;
+            var25 = 60;
             var25 = var16[var25];
             var25 = var15.bind(var4)(var25);
             var26 = var25.EyeSlashIcon;
@@ -1233,8 +1264,8 @@ case 40:
             };
             var12['onValueChange'] = var24;
             var12 = var23.bind(var4)(var22, var12);
-            var20[10] = var12;
-            var12 = 60;
+            var20[11] = var12;
+            var12 = 61;
             var12 = var16[var12];
             var15 = var15.bind(var4)(var12);
             var12 = var15.isAndroid;
@@ -1249,7 +1280,7 @@ case 43:
             var13 = var23.bind(var4)(var13);
             var15 = var13.TableSwitchRow;
             var13 = {'label': 'Enable Systrace', 'subLabel': 'Toggling requires an app restart to take effect.'};
-            var22 = 61;
+            var22 = 62;
             var22 = var24[var22];
             var22 = var23.bind(var4)(var22);
             var23 = var22.BrowserIcon;
@@ -1268,7 +1299,7 @@ case 43:
             var13['onValueChange'] = var21;
             var12 = var16.bind(var4)(var15, var13);
 case 42:
-            var20[11] = var12;
+            var20[12] = var12;
             var13 = _closure1_slot21;
             var16 = _closure1_slot0;
             var15 = _closure1_slot2;
@@ -1277,7 +1308,7 @@ case 42:
             var22 = var12.TableRow;
             var21 = {'label': 'Show App Rating Modal', 'subLabel': 'Attempts to show the app rating modal -- this may not visually show anything on debug builds or if your device has already been shown the modal recently.'};
             var12 = _closure1_slot1;
-            var23 = 62;
+            var23 = 63;
             var23 = var15[var23];
             var23 = var12.bind(var4)(var23);
             var21['onPress'] = var23;
@@ -1288,7 +1319,7 @@ case 42:
             var23 = var13.bind(var4)(var24, var23);
             var21['icon'] = var23;
             var21 = var13.bind(var4)(var22, var21);
-            var20[12] = var21;
+            var20[13] = var21;
             var9['children'] = var20;
             var9 = var19.bind(var4)(var18, var9);
             var6[6] = var9;
@@ -1324,7 +1355,7 @@ case 42:
             var18 = function onPress() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 63;
+                var1 = 64;
                 var2 = var2[var1];
                 var1 = undefined;
                 var2 = var3.bind(var1)(var2);
@@ -1399,7 +1430,7 @@ case 42:
             var14 = function onPress() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 64;
+                var1 = 65;
                 var2 = var2[var1];
                 var1 = undefined;
                 var3 = var3.bind(var1)(var2);

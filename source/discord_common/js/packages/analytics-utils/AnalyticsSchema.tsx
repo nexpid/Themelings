@@ -175,6 +175,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['GIFT_INTENT_BADGE'] = var2;
     var2 = 'impression_gift_intent_card';
     var4['GIFT_INTENT_CARD'] = var2;
+    var2 = 'impression_gift_option_wishlist_banner_viewed';
+    var4['GIFT_OPTION_WISHLIST_BANNER_VIEWED'] = var2;
     var2 = 'impression_global_discovery';
     var4['GLOBAL_DISCOVERY'] = var2;
     var2 = 'impression_global_discovery_apps';

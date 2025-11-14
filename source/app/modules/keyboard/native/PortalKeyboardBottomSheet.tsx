@@ -233,10 +233,14 @@ case 6:
             var1 = var42.bind(var4)(var1);
             var1 = var1.PortalKeyboardContext;
             var1 = var5.bind(var15)(var1);
-            var11 = var1.animatedSheetIndex;
-            _closure2_slot7 = var11;
-            var31 = var1.animatedSheetPosition;
             var1 = var1.bottomSheetRefs;
+            var5 = var41[var22];
+            var7 = var42.bind(var4)(var5);
+            var5 = var7.usePortalKeyboardContextAnimatedValues;
+            var5 = var5.bind(var7)(var3);
+            var11 = var5.animatedIndex;
+            _closure2_slot7 = var11;
+            var31 = var5.animatedPosition;
             var13 = var1[var3];
             _closure2_slot8 = var13;
             var8 = _closure1_slot1;
@@ -407,7 +411,7 @@ case 14:
             var3 = var41[var5];
             var20 = var42.bind(var4)(var3);
             var10 = var20.useDerivedValue;
-            var3 = function V() {
+            var3 = function J() {
                 var2 = _closure2_slot7;
                 var1 = var2.get;
                 var2 = var1.bind(var2)();
@@ -427,7 +431,7 @@ case 14:
             var10 = var41[var5];
             var25 = var42.bind(var4)(var10);
             var21 = var25.useAnimatedReaction;
-            var20 = function L() {
+            var20 = function Y() {
                 var2 = _closure2_slot11;
                 var1 = var2.get;
                 var1 = var1.bind(var2)();
@@ -440,7 +444,7 @@ case 14:
             var20['__workletHash'] = var10;
             var10 = _closure1_slot12;
             var20['__initData'] = var10;
-            var10 = function J(arg1, arg2) {
+            var10 = function L(arg1, arg2) {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                     var1 = arg1;
@@ -591,7 +595,7 @@ case 34:
             var3 = var41[var5];
             var20 = var42.bind(var4)(var3);
             var10 = var20.useAnimatedStyle;
-            var3 = function z() {
+            var3 = function Q() {
                 var1 = {};
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
@@ -694,7 +698,7 @@ case 34:
             var3 = var41[var5];
             var38 = var42.bind(var4)(var3);
             var29 = var38.useAnimatedReaction;
-            var24 = function W() {
+            var24 = function Z() {
                 var1 = global;
                 var4 = var1.Math;
                 var3 = var4.max;
@@ -713,7 +717,7 @@ case 34:
             var24['__workletHash'] = var3;
             var3 = _closure1_slot15;
             var24['__initData'] = var3;
-            var3 = function Q(arg1, arg2) {
+            var3 = function W(arg1, arg2) {
                 _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
                     var3 = arg1;

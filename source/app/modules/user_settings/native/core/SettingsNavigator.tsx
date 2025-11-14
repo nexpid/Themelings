@@ -546,6 +546,11 @@ case 27:
             var2 = new Array(0);
             var2 = var7.bind(var8)(var3, var2);
             var _closure2_slot10 = var2;
+            var2 = 32;
+            var2 = var23[var2];
+            var3 = var22.bind(var4)(var2);
+            var2 = var3.useAutoSettingsSearchSessionAnalytics;
+            var2 = var2.bind(var3)();
             var3 = _closure1_slot11;
             var1 = var23[var1];
             var1 = var22.bind(var4)(var1);
@@ -553,7 +558,7 @@ case 27:
             var1 = {};
             var1['value'] = var5;
             var7 = _closure1_slot10;
-            var5 = 32;
+            var5 = 33;
             var5 = var23[var5];
             var6 = var6.bind(var4)(var5);
             var5 = {};
@@ -561,7 +566,7 @@ case 27:
             var5 = new Array(2);
             var5[0] = var6;
             var8 = _closure1_slot10;
-            var6 = 33;
+            var6 = 34;
             var6 = var23[var6];
             var6 = var22.bind(var4)(var6);
             var7 = var6.SafeAreaPaddingView;
@@ -699,7 +704,7 @@ case 34:
             var16 = function getComponent() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 34;
+                var1 = 35;
                 var2 = var2[var1];
                 var1 = undefined;
                 var1 = var3.bind(var1)(var2);
@@ -808,7 +813,7 @@ case 42:
                         var1 = var1.bind(var3)();
                         var4 = _closure1_slot1;
                         var5 = _closure1_slot2;
-                        var3 = 35;
+                        var3 = 36;
                         var3 = var5[var3];
                         var5 = undefined;
                         var4 = var4.bind(var5)(var3);
@@ -851,7 +856,7 @@ case 10:
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 36;
+    var4 = 37;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

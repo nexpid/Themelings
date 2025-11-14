@@ -98,7 +98,13 @@ case 0:
             var2 = 0;
             if(!var8) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var2 = var6.dismissibleContentVersion;
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var8 = 9;
+            var8 = var10[var8];
+            var9 = var9.bind(var4)(var8);
+            var8 = var9.getGiftingPromotionDismissibleContentVersion;
+            var2 = var8.bind(var9)();
 case 2:
             _closure2_slot2 = var2;
             var8 = var22 == var6;
@@ -172,7 +178,7 @@ case 16:
             var10 = var20.bind(var21)(var10, var9);
             var20 = _closure1_slot0;
             var21 = _closure1_slot2;
-            var9 = 9;
+            var9 = 10;
             var9 = var21[var9];
             var21 = var20.bind(var4)(var9);
             var20 = var21.useSelectedVersionedDismissibleContent;
@@ -181,7 +187,7 @@ case 16:
 case 19:
             var24 = _closure1_slot0;
             var25 = _closure1_slot2;
-            var9 = 10;
+            var9 = 11;
             var9 = var25[var9];
             var9 = var24.bind(var4)(var9);
             var9 = var9.DismissibleContent;
@@ -205,7 +211,7 @@ case 20:
             _closure2_slot6 = var2;
             var9 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var2 = 10;
+            var2 = 11;
             var2 = var13[var2];
             var2 = var9.bind(var4)(var2);
             var2 = var2.DismissibleContent;
@@ -270,7 +276,7 @@ case 33:
             var13 = _closure1_slot9;
             var9 = _closure1_slot0;
             var20 = _closure1_slot2;
-            var5 = 11;
+            var5 = 12;
             var5 = var20[var5];
             var5 = var9.bind(var4)(var5);
             var9 = var5.GiftIconTrinketsAnimation;
@@ -289,7 +295,7 @@ case 32:
 case 35:
             var8 = _closure1_slot1;
             var18 = _closure1_slot2;
-            var6 = 15;
+            var6 = 16;
             var6 = var18[var6];
             var8 = var8.bind(var4)(var6);
             var6 = {};
@@ -301,7 +307,7 @@ case 35:
             var6['style'] = var13;
             var6['disabled'] = var15;
             var14 = _closure1_slot0;
-            var13 = 14;
+            var13 = 15;
             var19 = var18[var13];
             var19 = var14.bind(var4)(var19);
             var20 = var19.intl;
@@ -313,7 +319,7 @@ case 35:
             var13 = var19.bind(var20)(var13);
             var6['accessibilityLabel'] = var13;
             var6['active'] = var12;
-            var13 = 13;
+            var13 = 14;
             var13 = var18[var13];
             var13 = var14.bind(var4)(var13);
             var13 = var13.GiftIcon;
@@ -335,12 +341,12 @@ case 31:
 case 37:
                     var4 = _closure1_slot0;
                     var8 = _closure1_slot2;
-                    var2 = 16;
+                    var2 = 17;
                     var2 = var8[var2];
                     var3 = undefined;
                     var6 = var4.bind(var3)(var2);
                     var5 = var6.markVersionedDismissibleContentAsDismissed;
-                    var2 = 10;
+                    var2 = 11;
                     var2 = var8[var2];
                     var2 = var4.bind(var3)(var2);
                     var2 = var2.DismissibleContent;
@@ -367,7 +373,7 @@ case 36:
 case 34:
             var13 = _closure1_slot0;
             var14 = _closure1_slot2;
-            var7 = 12;
+            var7 = 13;
             var7 = var14[var7];
             var7 = var13.bind(var4)(var7);
             var8 = var7.PremiumAnimatedGiftButton;
@@ -395,12 +401,12 @@ case 34:
             };
             var7['onPress'] = var11;
             var7['onAnimationFinished'] = var10;
-            var10 = 13;
+            var10 = 14;
             var10 = var14[var10];
             var10 = var13.bind(var4)(var10);
             var10 = var10.GiftIcon;
             var7['IconComponent'] = var10;
-            var10 = 14;
+            var10 = 15;
             var11 = var14[var10];
             var11 = var13.bind(var4)(var11);
             var12 = var11.intl;
@@ -420,7 +426,7 @@ case 38:
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 17;
+    var4 = 18;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
