@@ -4019,6 +4019,96 @@
       }
     ]
   },
+  "CHECKPOINT_PERSONA_EIGHT_BACKGROUND_OVERLAY": {
+    "dark": [
+      "#281a0a",
+      {
+        "raw": "CHECKPOINT_PERSONA_EIGHT_BACKGROUND_OVERLAY_RAW",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#281a0a",
+      {
+        "raw": "CHECKPOINT_PERSONA_EIGHT_BACKGROUND_OVERLAY_RAW",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#281a0a",
+      {
+        "raw": "CHECKPOINT_PERSONA_EIGHT_BACKGROUND_OVERLAY_RAW",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#281a0a",
+      {
+        "raw": "CHECKPOINT_PERSONA_EIGHT_BACKGROUND_OVERLAY_RAW",
+        "opacity": 1
+      }
+    ]
+  },
+  "CHECKPOINT_PERSONA_EIGHT_GRADIENT_END": {
+    "dark": [
+      "#493015",
+      {
+        "raw": "CHECKPOINT_PERSONA_EIGHT_GRADIENT_END_RAW",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#493015",
+      {
+        "raw": "CHECKPOINT_PERSONA_EIGHT_GRADIENT_END_RAW",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#493015",
+      {
+        "raw": "CHECKPOINT_PERSONA_EIGHT_GRADIENT_END_RAW",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#493015",
+      {
+        "raw": "CHECKPOINT_PERSONA_EIGHT_GRADIENT_END_RAW",
+        "opacity": 1
+      }
+    ]
+  },
+  "CHECKPOINT_PERSONA_EIGHT_GRADIENT_START": {
+    "dark": [
+      "#d9b777",
+      {
+        "raw": "CHECKPOINT_PERSONA_EIGHT_GRADIENT_START_RAW",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#d9b777",
+      {
+        "raw": "CHECKPOINT_PERSONA_EIGHT_GRADIENT_START_RAW",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#d9b777",
+      {
+        "raw": "CHECKPOINT_PERSONA_EIGHT_GRADIENT_START_RAW",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#d9b777",
+      {
+        "raw": "CHECKPOINT_PERSONA_EIGHT_GRADIENT_START_RAW",
+        "opacity": 1
+      }
+    ]
+  },
   "CHECKPOINT_PERSONA_EIGHT_PRIMARY": {
     "dark": [
       "#d9b777",
@@ -4045,6 +4135,126 @@
       "#d9b777",
       {
         "raw": "CHECKPOINT_PERSONA_EIGHT_PRIMARY_RAW",
+        "opacity": 1
+      }
+    ]
+  },
+  "CHECKPOINT_PERSONA_EIGHT_SECONDARY": {
+    "dark": [
+      "#ad8a46",
+      {
+        "raw": "CHECKPOINT_PERSONA_EIGHT_SECONDARY_RAW",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#ad8a46",
+      {
+        "raw": "CHECKPOINT_PERSONA_EIGHT_SECONDARY_RAW",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#ad8a46",
+      {
+        "raw": "CHECKPOINT_PERSONA_EIGHT_SECONDARY_RAW",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#ad8a46",
+      {
+        "raw": "CHECKPOINT_PERSONA_EIGHT_SECONDARY_RAW",
+        "opacity": 1
+      }
+    ]
+  },
+  "CHECKPOINT_PERSONA_FIVE_BACKGROUND_OVERLAY": {
+    "dark": [
+      "#370b1a",
+      {
+        "raw": "CHECKPOINT_PERSONA_FIVE_BACKGROUND_OVERLAY_RAW",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#370b1a",
+      {
+        "raw": "CHECKPOINT_PERSONA_FIVE_BACKGROUND_OVERLAY_RAW",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#370b1a",
+      {
+        "raw": "CHECKPOINT_PERSONA_FIVE_BACKGROUND_OVERLAY_RAW",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#370b1a",
+      {
+        "raw": "CHECKPOINT_PERSONA_FIVE_BACKGROUND_OVERLAY_RAW",
+        "opacity": 1
+      }
+    ]
+  },
+  "CHECKPOINT_PERSONA_FIVE_GRADIENT_END": {
+    "dark": [
+      "#61132e",
+      {
+        "raw": "CHECKPOINT_PERSONA_FIVE_GRADIENT_END_RAW",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#61132e",
+      {
+        "raw": "CHECKPOINT_PERSONA_FIVE_GRADIENT_END_RAW",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#61132e",
+      {
+        "raw": "CHECKPOINT_PERSONA_FIVE_GRADIENT_END_RAW",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#61132e",
+      {
+        "raw": "CHECKPOINT_PERSONA_FIVE_GRADIENT_END_RAW",
+        "opacity": 1
+      }
+    ]
+  },
+  "CHECKPOINT_PERSONA_FIVE_GRADIENT_START": {
+    "dark": [
+      "#f75990",
+      {
+        "raw": "CHECKPOINT_PERSONA_FIVE_GRADIENT_START_RAW",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#f75990",
+      {
+        "raw": "CHECKPOINT_PERSONA_FIVE_GRADIENT_START_RAW",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#f75990",
+      {
+        "raw": "CHECKPOINT_PERSONA_FIVE_GRADIENT_START_RAW",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#f75990",
+      {
+        "raw": "CHECKPOINT_PERSONA_FIVE_GRADIENT_START_RAW",
         "opacity": 1
       }
     ]
@@ -4079,6 +4289,126 @@
       }
     ]
   },
+  "CHECKPOINT_PERSONA_FIVE_SECONDARY": {
+    "dark": [
+      "#d42361",
+      {
+        "raw": "CHECKPOINT_PERSONA_FIVE_SECONDARY_RAW",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#d42361",
+      {
+        "raw": "CHECKPOINT_PERSONA_FIVE_SECONDARY_RAW",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#d42361",
+      {
+        "raw": "CHECKPOINT_PERSONA_FIVE_SECONDARY_RAW",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#d42361",
+      {
+        "raw": "CHECKPOINT_PERSONA_FIVE_SECONDARY_RAW",
+        "opacity": 1
+      }
+    ]
+  },
+  "CHECKPOINT_PERSONA_FOUR_BACKGROUND_OVERLAY": {
+    "dark": [
+      "#38022d",
+      {
+        "raw": "CHECKPOINT_PERSONA_FOUR_BACKGROUND_OVERLAY_RAW",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#38022d",
+      {
+        "raw": "CHECKPOINT_PERSONA_FOUR_BACKGROUND_OVERLAY_RAW",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#38022d",
+      {
+        "raw": "CHECKPOINT_PERSONA_FOUR_BACKGROUND_OVERLAY_RAW",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#38022d",
+      {
+        "raw": "CHECKPOINT_PERSONA_FOUR_BACKGROUND_OVERLAY_RAW",
+        "opacity": 1
+      }
+    ]
+  },
+  "CHECKPOINT_PERSONA_FOUR_GRADIENT_END": {
+    "dark": [
+      "#240e0b",
+      {
+        "raw": "CHECKPOINT_PERSONA_FOUR_GRADIENT_END_RAW",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#240e0b",
+      {
+        "raw": "CHECKPOINT_PERSONA_FOUR_GRADIENT_END_RAW",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#240e0b",
+      {
+        "raw": "CHECKPOINT_PERSONA_FOUR_GRADIENT_END_RAW",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#240e0b",
+      {
+        "raw": "CHECKPOINT_PERSONA_FOUR_GRADIENT_END_RAW",
+        "opacity": 1
+      }
+    ]
+  },
+  "CHECKPOINT_PERSONA_FOUR_GRADIENT_START": {
+    "dark": [
+      "#fe3ee2",
+      {
+        "raw": "CHECKPOINT_PERSONA_FOUR_GRADIENT_START_RAW",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#fe3ee2",
+      {
+        "raw": "CHECKPOINT_PERSONA_FOUR_GRADIENT_START_RAW",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#fe3ee2",
+      {
+        "raw": "CHECKPOINT_PERSONA_FOUR_GRADIENT_START_RAW",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#fe3ee2",
+      {
+        "raw": "CHECKPOINT_PERSONA_FOUR_GRADIENT_START_RAW",
+        "opacity": 1
+      }
+    ]
+  },
   "CHECKPOINT_PERSONA_FOUR_PRIMARY": {
     "dark": [
       "#f262d5",
@@ -4105,6 +4435,126 @@
       "#f262d5",
       {
         "raw": "CHECKPOINT_PERSONA_FOUR_PRIMARY_RAW",
+        "opacity": 1
+      }
+    ]
+  },
+  "CHECKPOINT_PERSONA_FOUR_SECONDARY": {
+    "dark": [
+      "#aa1d86",
+      {
+        "raw": "CHECKPOINT_PERSONA_FOUR_SECONDARY_RAW",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#aa1d86",
+      {
+        "raw": "CHECKPOINT_PERSONA_FOUR_SECONDARY_RAW",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#aa1d86",
+      {
+        "raw": "CHECKPOINT_PERSONA_FOUR_SECONDARY_RAW",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#aa1d86",
+      {
+        "raw": "CHECKPOINT_PERSONA_FOUR_SECONDARY_RAW",
+        "opacity": 1
+      }
+    ]
+  },
+  "CHECKPOINT_PERSONA_NINE_BACKGROUND_OVERLAY": {
+    "dark": [
+      "#262626",
+      {
+        "raw": "CHECKPOINT_PERSONA_NINE_BACKGROUND_OVERLAY_RAW",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#262626",
+      {
+        "raw": "CHECKPOINT_PERSONA_NINE_BACKGROUND_OVERLAY_RAW",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#262626",
+      {
+        "raw": "CHECKPOINT_PERSONA_NINE_BACKGROUND_OVERLAY_RAW",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#262626",
+      {
+        "raw": "CHECKPOINT_PERSONA_NINE_BACKGROUND_OVERLAY_RAW",
+        "opacity": 1
+      }
+    ]
+  },
+  "CHECKPOINT_PERSONA_NINE_GRADIENT_END": {
+    "dark": [
+      "#3f3f3f",
+      {
+        "raw": "CHECKPOINT_PERSONA_NINE_GRADIENT_END_RAW",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#3f3f3f",
+      {
+        "raw": "CHECKPOINT_PERSONA_NINE_GRADIENT_END_RAW",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#3f3f3f",
+      {
+        "raw": "CHECKPOINT_PERSONA_NINE_GRADIENT_END_RAW",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#3f3f3f",
+      {
+        "raw": "CHECKPOINT_PERSONA_NINE_GRADIENT_END_RAW",
+        "opacity": 1
+      }
+    ]
+  },
+  "CHECKPOINT_PERSONA_NINE_GRADIENT_START": {
+    "dark": [
+      "#eeeeee",
+      {
+        "raw": "CHECKPOINT_PERSONA_NINE_GRADIENT_START_RAW",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#eeeeee",
+      {
+        "raw": "CHECKPOINT_PERSONA_NINE_GRADIENT_START_RAW",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#eeeeee",
+      {
+        "raw": "CHECKPOINT_PERSONA_NINE_GRADIENT_START_RAW",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#eeeeee",
+      {
+        "raw": "CHECKPOINT_PERSONA_NINE_GRADIENT_START_RAW",
         "opacity": 1
       }
     ]
@@ -4139,6 +4589,126 @@
       }
     ]
   },
+  "CHECKPOINT_PERSONA_NINE_SECONDARY": {
+    "dark": [
+      "#a9a9a9",
+      {
+        "raw": "CHECKPOINT_PERSONA_NINE_SECONDARY_RAW",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#a9a9a9",
+      {
+        "raw": "CHECKPOINT_PERSONA_NINE_SECONDARY_RAW",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#a9a9a9",
+      {
+        "raw": "CHECKPOINT_PERSONA_NINE_SECONDARY_RAW",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#a9a9a9",
+      {
+        "raw": "CHECKPOINT_PERSONA_NINE_SECONDARY_RAW",
+        "opacity": 1
+      }
+    ]
+  },
+  "CHECKPOINT_PERSONA_ONE_BACKGROUND_OVERLAY": {
+    "dark": [
+      "#062e27",
+      {
+        "raw": "CHECKPOINT_PERSONA_ONE_BACKGROUND_OVERLAY_RAW",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#062e27",
+      {
+        "raw": "CHECKPOINT_PERSONA_ONE_BACKGROUND_OVERLAY_RAW",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#062e27",
+      {
+        "raw": "CHECKPOINT_PERSONA_ONE_BACKGROUND_OVERLAY_RAW",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#062e27",
+      {
+        "raw": "CHECKPOINT_PERSONA_ONE_BACKGROUND_OVERLAY_RAW",
+        "opacity": 1
+      }
+    ]
+  },
+  "CHECKPOINT_PERSONA_ONE_GRADIENT_END": {
+    "dark": [
+      "#114239",
+      {
+        "raw": "CHECKPOINT_PERSONA_ONE_GRADIENT_END_RAW",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#114239",
+      {
+        "raw": "CHECKPOINT_PERSONA_ONE_GRADIENT_END_RAW",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#114239",
+      {
+        "raw": "CHECKPOINT_PERSONA_ONE_GRADIENT_END_RAW",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#114239",
+      {
+        "raw": "CHECKPOINT_PERSONA_ONE_GRADIENT_END_RAW",
+        "opacity": 1
+      }
+    ]
+  },
+  "CHECKPOINT_PERSONA_ONE_GRADIENT_START": {
+    "dark": [
+      "#5efde2",
+      {
+        "raw": "CHECKPOINT_PERSONA_ONE_GRADIENT_START_RAW",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#5efde2",
+      {
+        "raw": "CHECKPOINT_PERSONA_ONE_GRADIENT_START_RAW",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#5efde2",
+      {
+        "raw": "CHECKPOINT_PERSONA_ONE_GRADIENT_START_RAW",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#5efde2",
+      {
+        "raw": "CHECKPOINT_PERSONA_ONE_GRADIENT_START_RAW",
+        "opacity": 1
+      }
+    ]
+  },
   "CHECKPOINT_PERSONA_ONE_PRIMARY": {
     "dark": [
       "#5efde2",
@@ -4165,6 +4735,126 @@
       "#5efde2",
       {
         "raw": "CHECKPOINT_PERSONA_ONE_PRIMARY_RAW",
+        "opacity": 1
+      }
+    ]
+  },
+  "CHECKPOINT_PERSONA_ONE_SECONDARY": {
+    "dark": [
+      "#1c9681",
+      {
+        "raw": "CHECKPOINT_PERSONA_ONE_SECONDARY_RAW",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#1c9681",
+      {
+        "raw": "CHECKPOINT_PERSONA_ONE_SECONDARY_RAW",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#1c9681",
+      {
+        "raw": "CHECKPOINT_PERSONA_ONE_SECONDARY_RAW",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#1c9681",
+      {
+        "raw": "CHECKPOINT_PERSONA_ONE_SECONDARY_RAW",
+        "opacity": 1
+      }
+    ]
+  },
+  "CHECKPOINT_PERSONA_SEVEN_BACKGROUND_OVERLAY": {
+    "dark": [
+      "#1f1700",
+      {
+        "raw": "CHECKPOINT_PERSONA_SEVEN_BACKGROUND_OVERLAY_RAW",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#1f1700",
+      {
+        "raw": "CHECKPOINT_PERSONA_SEVEN_BACKGROUND_OVERLAY_RAW",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#1f1700",
+      {
+        "raw": "CHECKPOINT_PERSONA_SEVEN_BACKGROUND_OVERLAY_RAW",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#1f1700",
+      {
+        "raw": "CHECKPOINT_PERSONA_SEVEN_BACKGROUND_OVERLAY_RAW",
+        "opacity": 1
+      }
+    ]
+  },
+  "CHECKPOINT_PERSONA_SEVEN_GRADIENT_END": {
+    "dark": [
+      "#5a3107",
+      {
+        "raw": "CHECKPOINT_PERSONA_SEVEN_GRADIENT_END_RAW",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#5a3107",
+      {
+        "raw": "CHECKPOINT_PERSONA_SEVEN_GRADIENT_END_RAW",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#5a3107",
+      {
+        "raw": "CHECKPOINT_PERSONA_SEVEN_GRADIENT_END_RAW",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#5a3107",
+      {
+        "raw": "CHECKPOINT_PERSONA_SEVEN_GRADIENT_END_RAW",
+        "opacity": 1
+      }
+    ]
+  },
+  "CHECKPOINT_PERSONA_SEVEN_GRADIENT_START": {
+    "dark": [
+      "#ffe047",
+      {
+        "raw": "CHECKPOINT_PERSONA_SEVEN_GRADIENT_START_RAW",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#ffe047",
+      {
+        "raw": "CHECKPOINT_PERSONA_SEVEN_GRADIENT_START_RAW",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#ffe047",
+      {
+        "raw": "CHECKPOINT_PERSONA_SEVEN_GRADIENT_START_RAW",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#ffe047",
+      {
+        "raw": "CHECKPOINT_PERSONA_SEVEN_GRADIENT_START_RAW",
         "opacity": 1
       }
     ]
@@ -4199,6 +4889,126 @@
       }
     ]
   },
+  "CHECKPOINT_PERSONA_SEVEN_SECONDARY": {
+    "dark": [
+      "#b69c1b",
+      {
+        "raw": "CHECKPOINT_PERSONA_SEVEN_SECONDARY_RAW",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#b69c1b",
+      {
+        "raw": "CHECKPOINT_PERSONA_SEVEN_SECONDARY_RAW",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#b69c1b",
+      {
+        "raw": "CHECKPOINT_PERSONA_SEVEN_SECONDARY_RAW",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#b69c1b",
+      {
+        "raw": "CHECKPOINT_PERSONA_SEVEN_SECONDARY_RAW",
+        "opacity": 1
+      }
+    ]
+  },
+  "CHECKPOINT_PERSONA_SIX_BACKGROUND_OVERLAY": {
+    "dark": [
+      "#2d1705",
+      {
+        "raw": "CHECKPOINT_PERSONA_SIX_BACKGROUND_OVERLAY_RAW",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#2d1705",
+      {
+        "raw": "CHECKPOINT_PERSONA_SIX_BACKGROUND_OVERLAY_RAW",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#2d1705",
+      {
+        "raw": "CHECKPOINT_PERSONA_SIX_BACKGROUND_OVERLAY_RAW",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#2d1705",
+      {
+        "raw": "CHECKPOINT_PERSONA_SIX_BACKGROUND_OVERLAY_RAW",
+        "opacity": 1
+      }
+    ]
+  },
+  "CHECKPOINT_PERSONA_SIX_GRADIENT_END": {
+    "dark": [
+      "#24170b",
+      {
+        "raw": "CHECKPOINT_PERSONA_SIX_GRADIENT_END_RAW",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#24170b",
+      {
+        "raw": "CHECKPOINT_PERSONA_SIX_GRADIENT_END_RAW",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#24170b",
+      {
+        "raw": "CHECKPOINT_PERSONA_SIX_GRADIENT_END_RAW",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#24170b",
+      {
+        "raw": "CHECKPOINT_PERSONA_SIX_GRADIENT_END_RAW",
+        "opacity": 1
+      }
+    ]
+  },
+  "CHECKPOINT_PERSONA_SIX_GRADIENT_START": {
+    "dark": [
+      "#ff7f12",
+      {
+        "raw": "CHECKPOINT_PERSONA_SIX_GRADIENT_START_RAW",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#ff7f12",
+      {
+        "raw": "CHECKPOINT_PERSONA_SIX_GRADIENT_START_RAW",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#ff7f12",
+      {
+        "raw": "CHECKPOINT_PERSONA_SIX_GRADIENT_START_RAW",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#ff7f12",
+      {
+        "raw": "CHECKPOINT_PERSONA_SIX_GRADIENT_START_RAW",
+        "opacity": 1
+      }
+    ]
+  },
   "CHECKPOINT_PERSONA_SIX_PRIMARY": {
     "dark": [
       "#ff9138",
@@ -4225,6 +5035,126 @@
       "#ff9138",
       {
         "raw": "CHECKPOINT_PERSONA_SIX_PRIMARY_RAW",
+        "opacity": 1
+      }
+    ]
+  },
+  "CHECKPOINT_PERSONA_SIX_SECONDARY": {
+    "dark": [
+      "#cb630f",
+      {
+        "raw": "CHECKPOINT_PERSONA_SIX_SECONDARY_RAW",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#cb630f",
+      {
+        "raw": "CHECKPOINT_PERSONA_SIX_SECONDARY_RAW",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#cb630f",
+      {
+        "raw": "CHECKPOINT_PERSONA_SIX_SECONDARY_RAW",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#cb630f",
+      {
+        "raw": "CHECKPOINT_PERSONA_SIX_SECONDARY_RAW",
+        "opacity": 1
+      }
+    ]
+  },
+  "CHECKPOINT_PERSONA_THREE_BACKGROUND_OVERLAY": {
+    "dark": [
+      "#1c0740",
+      {
+        "raw": "CHECKPOINT_PERSONA_THREE_BACKGROUND_OVERLAY_RAW",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#1c0740",
+      {
+        "raw": "CHECKPOINT_PERSONA_THREE_BACKGROUND_OVERLAY_RAW",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#1c0740",
+      {
+        "raw": "CHECKPOINT_PERSONA_THREE_BACKGROUND_OVERLAY_RAW",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#1c0740",
+      {
+        "raw": "CHECKPOINT_PERSONA_THREE_BACKGROUND_OVERLAY_RAW",
+        "opacity": 1
+      }
+    ]
+  },
+  "CHECKPOINT_PERSONA_THREE_GRADIENT_END": {
+    "dark": [
+      "#1d0b24",
+      {
+        "raw": "CHECKPOINT_PERSONA_THREE_GRADIENT_END_RAW",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#1d0b24",
+      {
+        "raw": "CHECKPOINT_PERSONA_THREE_GRADIENT_END_RAW",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#1d0b24",
+      {
+        "raw": "CHECKPOINT_PERSONA_THREE_GRADIENT_END_RAW",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#1d0b24",
+      {
+        "raw": "CHECKPOINT_PERSONA_THREE_GRADIENT_END_RAW",
+        "opacity": 1
+      }
+    ]
+  },
+  "CHECKPOINT_PERSONA_THREE_GRADIENT_START": {
+    "dark": [
+      "#7d42f2",
+      {
+        "raw": "CHECKPOINT_PERSONA_THREE_GRADIENT_START_RAW",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#7d42f2",
+      {
+        "raw": "CHECKPOINT_PERSONA_THREE_GRADIENT_START_RAW",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#7d42f2",
+      {
+        "raw": "CHECKPOINT_PERSONA_THREE_GRADIENT_START_RAW",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#7d42f2",
+      {
+        "raw": "CHECKPOINT_PERSONA_THREE_GRADIENT_START_RAW",
         "opacity": 1
       }
     ]
@@ -4259,6 +5189,126 @@
       }
     ]
   },
+  "CHECKPOINT_PERSONA_THREE_SECONDARY": {
+    "dark": [
+      "#a365e6",
+      {
+        "raw": "CHECKPOINT_PERSONA_THREE_SECONDARY_RAW",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#a365e6",
+      {
+        "raw": "CHECKPOINT_PERSONA_THREE_SECONDARY_RAW",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#a365e6",
+      {
+        "raw": "CHECKPOINT_PERSONA_THREE_SECONDARY_RAW",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#a365e6",
+      {
+        "raw": "CHECKPOINT_PERSONA_THREE_SECONDARY_RAW",
+        "opacity": 1
+      }
+    ]
+  },
+  "CHECKPOINT_PERSONA_TWO_BACKGROUND_OVERLAY": {
+    "dark": [
+      "#1a0a39",
+      {
+        "raw": "CHECKPOINT_PERSONA_TWO_BACKGROUND_OVERLAY_RAW",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#1a0a39",
+      {
+        "raw": "CHECKPOINT_PERSONA_TWO_BACKGROUND_OVERLAY_RAW",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#1a0a39",
+      {
+        "raw": "CHECKPOINT_PERSONA_TWO_BACKGROUND_OVERLAY_RAW",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#1a0a39",
+      {
+        "raw": "CHECKPOINT_PERSONA_TWO_BACKGROUND_OVERLAY_RAW",
+        "opacity": 1
+      }
+    ]
+  },
+  "CHECKPOINT_PERSONA_TWO_GRADIENT_END": {
+    "dark": [
+      "#230a57",
+      {
+        "raw": "CHECKPOINT_PERSONA_TWO_GRADIENT_END_RAW",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#230a57",
+      {
+        "raw": "CHECKPOINT_PERSONA_TWO_GRADIENT_END_RAW",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#230a57",
+      {
+        "raw": "CHECKPOINT_PERSONA_TWO_GRADIENT_END_RAW",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#230a57",
+      {
+        "raw": "CHECKPOINT_PERSONA_TWO_GRADIENT_END_RAW",
+        "opacity": 1
+      }
+    ]
+  },
+  "CHECKPOINT_PERSONA_TWO_GRADIENT_START": {
+    "dark": [
+      "#591efb",
+      {
+        "raw": "CHECKPOINT_PERSONA_TWO_GRADIENT_START_RAW",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#591efb",
+      {
+        "raw": "CHECKPOINT_PERSONA_TWO_GRADIENT_START_RAW",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#591efb",
+      {
+        "raw": "CHECKPOINT_PERSONA_TWO_GRADIENT_START_RAW",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#591efb",
+      {
+        "raw": "CHECKPOINT_PERSONA_TWO_GRADIENT_START_RAW",
+        "opacity": 1
+      }
+    ]
+  },
   "CHECKPOINT_PERSONA_TWO_PRIMARY": {
     "dark": [
       "#8eb6fb",
@@ -4289,6 +5339,126 @@
       }
     ]
   },
+  "CHECKPOINT_PERSONA_TWO_SECONDARY": {
+    "dark": [
+      "#616abb",
+      {
+        "raw": "CHECKPOINT_PERSONA_TWO_SECONDARY_RAW",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#616abb",
+      {
+        "raw": "CHECKPOINT_PERSONA_TWO_SECONDARY_RAW",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#616abb",
+      {
+        "raw": "CHECKPOINT_PERSONA_TWO_SECONDARY_RAW",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#616abb",
+      {
+        "raw": "CHECKPOINT_PERSONA_TWO_SECONDARY_RAW",
+        "opacity": 1
+      }
+    ]
+  },
+  "CHECKPOINT_PERSONA_ZERO_BACKGROUND_OVERLAY": {
+    "dark": [
+      "#082114",
+      {
+        "raw": "CHECKPOINT_PERSONA_ZERO_BACKGROUND_OVERLAY_RAW",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#082114",
+      {
+        "raw": "CHECKPOINT_PERSONA_ZERO_BACKGROUND_OVERLAY_RAW",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#082114",
+      {
+        "raw": "CHECKPOINT_PERSONA_ZERO_BACKGROUND_OVERLAY_RAW",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#082114",
+      {
+        "raw": "CHECKPOINT_PERSONA_ZERO_BACKGROUND_OVERLAY_RAW",
+        "opacity": 1
+      }
+    ]
+  },
+  "CHECKPOINT_PERSONA_ZERO_GRADIENT_END": {
+    "dark": [
+      "#113e27",
+      {
+        "raw": "CHECKPOINT_PERSONA_ZERO_GRADIENT_END_RAW",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#113e27",
+      {
+        "raw": "CHECKPOINT_PERSONA_ZERO_GRADIENT_END_RAW",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#113e27",
+      {
+        "raw": "CHECKPOINT_PERSONA_ZERO_GRADIENT_END_RAW",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#113e27",
+      {
+        "raw": "CHECKPOINT_PERSONA_ZERO_GRADIENT_END_RAW",
+        "opacity": 1
+      }
+    ]
+  },
+  "CHECKPOINT_PERSONA_ZERO_GRADIENT_START": {
+    "dark": [
+      "#3fc07e",
+      {
+        "raw": "CHECKPOINT_PERSONA_ZERO_GRADIENT_START_RAW",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#3fc07e",
+      {
+        "raw": "CHECKPOINT_PERSONA_ZERO_GRADIENT_START_RAW",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#3fc07e",
+      {
+        "raw": "CHECKPOINT_PERSONA_ZERO_GRADIENT_START_RAW",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#3fc07e",
+      {
+        "raw": "CHECKPOINT_PERSONA_ZERO_GRADIENT_START_RAW",
+        "opacity": 1
+      }
+    ]
+  },
   "CHECKPOINT_PERSONA_ZERO_PRIMARY": {
     "dark": [
       "#35ed7e",
@@ -4315,6 +5485,36 @@
       "#35ed7e",
       {
         "raw": "CHECKPOINT_PERSONA_ZERO_PRIMARY_RAW",
+        "opacity": 1
+      }
+    ]
+  },
+  "CHECKPOINT_PERSONA_ZERO_SECONDARY": {
+    "dark": [
+      "#14a74e",
+      {
+        "raw": "CHECKPOINT_PERSONA_ZERO_SECONDARY_RAW",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#14a74e",
+      {
+        "raw": "CHECKPOINT_PERSONA_ZERO_SECONDARY_RAW",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#14a74e",
+      {
+        "raw": "CHECKPOINT_PERSONA_ZERO_SECONDARY_RAW",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#14a74e",
+      {
+        "raw": "CHECKPOINT_PERSONA_ZERO_SECONDARY_RAW",
         "opacity": 1
       }
     ]
@@ -5516,6 +6716,486 @@
       {
         "raw": "ILLO_PURPLE_40",
         "opacity": 0.3
+      }
+    ]
+  },
+  "EXPRESSIVE_GRADIENT_TENURE_BADGE_BRONZE_END": {
+    "dark": [
+      "#571b003d",
+      {
+        "raw": "ORANGE_NEW_80",
+        "opacity": 0.24
+      }
+    ],
+    "light": [
+      "#571b002e",
+      {
+        "raw": "ORANGE_NEW_80",
+        "opacity": 0.18
+      }
+    ],
+    "midnight": [
+      "#571b002e",
+      {
+        "raw": "ORANGE_NEW_80",
+        "opacity": 0.18
+      }
+    ],
+    "darker": [
+      "#571b002e",
+      {
+        "raw": "ORANGE_NEW_80",
+        "opacity": 0.18
+      }
+    ]
+  },
+  "EXPRESSIVE_GRADIENT_TENURE_BADGE_BRONZE_START": {
+    "dark": [
+      "#fe6e0d3d",
+      {
+        "raw": "ILLO_ORANGE_40",
+        "opacity": 0.24
+      }
+    ],
+    "light": [
+      "#fe6e0d2e",
+      {
+        "raw": "ILLO_ORANGE_40",
+        "opacity": 0.18
+      }
+    ],
+    "midnight": [
+      "#fe6e0d2e",
+      {
+        "raw": "ILLO_ORANGE_40",
+        "opacity": 0.18
+      }
+    ],
+    "darker": [
+      "#fe6e0d2e",
+      {
+        "raw": "ILLO_ORANGE_40",
+        "opacity": 0.18
+      }
+    ]
+  },
+  "EXPRESSIVE_GRADIENT_TENURE_BADGE_DIAMOND_END": {
+    "dark": [
+      "#612caf3d",
+      {
+        "raw": "ILLO_PURPLE_50",
+        "opacity": 0.24
+      }
+    ],
+    "light": [
+      "#612caf2e",
+      {
+        "raw": "ILLO_PURPLE_50",
+        "opacity": 0.18
+      }
+    ],
+    "midnight": [
+      "#612caf2e",
+      {
+        "raw": "ILLO_PURPLE_50",
+        "opacity": 0.18
+      }
+    ],
+    "darker": [
+      "#612caf2e",
+      {
+        "raw": "ILLO_PURPLE_50",
+        "opacity": 0.18
+      }
+    ]
+  },
+  "EXPRESSIVE_GRADIENT_TENURE_BADGE_DIAMOND_START": {
+    "dark": [
+      "#a056f23d",
+      {
+        "raw": "ILLO_PURPLE_40",
+        "opacity": 0.24
+      }
+    ],
+    "light": [
+      "#a056f22e",
+      {
+        "raw": "ILLO_PURPLE_40",
+        "opacity": 0.18
+      }
+    ],
+    "midnight": [
+      "#a056f22e",
+      {
+        "raw": "ILLO_PURPLE_40",
+        "opacity": 0.18
+      }
+    ],
+    "darker": [
+      "#a056f22e",
+      {
+        "raw": "ILLO_PURPLE_40",
+        "opacity": 0.18
+      }
+    ]
+  },
+  "EXPRESSIVE_GRADIENT_TENURE_BADGE_EMERALD_END": {
+    "dark": [
+      "#0066383d",
+      {
+        "raw": "ILLO_GREEN_70",
+        "opacity": 0.24
+      }
+    ],
+    "light": [
+      "#0066382e",
+      {
+        "raw": "ILLO_GREEN_70",
+        "opacity": 0.18
+      }
+    ],
+    "midnight": [
+      "#0066382e",
+      {
+        "raw": "ILLO_GREEN_70",
+        "opacity": 0.18
+      }
+    ],
+    "darker": [
+      "#0066382e",
+      {
+        "raw": "ILLO_GREEN_70",
+        "opacity": 0.18
+      }
+    ]
+  },
+  "EXPRESSIVE_GRADIENT_TENURE_BADGE_EMERALD_START": {
+    "dark": [
+      "#35ed7e3d",
+      {
+        "raw": "ILLO_GREEN_40",
+        "opacity": 0.24
+      }
+    ],
+    "light": [
+      "#35ed7e2e",
+      {
+        "raw": "ILLO_GREEN_40",
+        "opacity": 0.18
+      }
+    ],
+    "midnight": [
+      "#35ed7e2e",
+      {
+        "raw": "ILLO_GREEN_40",
+        "opacity": 0.18
+      }
+    ],
+    "darker": [
+      "#35ed7e2e",
+      {
+        "raw": "ILLO_GREEN_40",
+        "opacity": 0.18
+      }
+    ]
+  },
+  "EXPRESSIVE_GRADIENT_TENURE_BADGE_GOLD_END": {
+    "dark": [
+      "#b2782a3d",
+      {
+        "raw": "YELLOW_NEW_41",
+        "opacity": 0.24
+      }
+    ],
+    "light": [
+      "#b2782a2e",
+      {
+        "raw": "YELLOW_NEW_41",
+        "opacity": 0.18
+      }
+    ],
+    "midnight": [
+      "#b2782a2e",
+      {
+        "raw": "YELLOW_NEW_41",
+        "opacity": 0.18
+      }
+    ],
+    "darker": [
+      "#b2782a2e",
+      {
+        "raw": "YELLOW_NEW_41",
+        "opacity": 0.18
+      }
+    ]
+  },
+  "EXPRESSIVE_GRADIENT_TENURE_BADGE_GOLD_START": {
+    "dark": [
+      "#f3ba2f3d",
+      {
+        "raw": "ILLO_YELLOW_50",
+        "opacity": 0.24
+      }
+    ],
+    "light": [
+      "#f3ba2f2e",
+      {
+        "raw": "ILLO_YELLOW_50",
+        "opacity": 0.18
+      }
+    ],
+    "midnight": [
+      "#f3ba2f2e",
+      {
+        "raw": "ILLO_YELLOW_50",
+        "opacity": 0.18
+      }
+    ],
+    "darker": [
+      "#f3ba2f2e",
+      {
+        "raw": "ILLO_YELLOW_50",
+        "opacity": 0.18
+      }
+    ]
+  },
+  "EXPRESSIVE_GRADIENT_TENURE_BADGE_OPAL_END": {
+    "dark": [
+      "#0074e33d",
+      {
+        "raw": "BLUE_NEW_50",
+        "opacity": 0.24
+      }
+    ],
+    "light": [
+      "#0074e32e",
+      {
+        "raw": "BLUE_NEW_50",
+        "opacity": 0.18
+      }
+    ],
+    "midnight": [
+      "#0074e32e",
+      {
+        "raw": "BLUE_NEW_50",
+        "opacity": 0.18
+      }
+    ],
+    "darker": [
+      "#0074e32e",
+      {
+        "raw": "BLUE_NEW_50",
+        "opacity": 0.18
+      }
+    ]
+  },
+  "EXPRESSIVE_GRADIENT_TENURE_BADGE_OPAL_START": {
+    "dark": [
+      "#73bdc43d",
+      {
+        "raw": "TEAL_NEW_25",
+        "opacity": 0.24
+      }
+    ],
+    "light": [
+      "#73bdc42e",
+      {
+        "raw": "TEAL_NEW_25",
+        "opacity": 0.18
+      }
+    ],
+    "midnight": [
+      "#73bdc42e",
+      {
+        "raw": "TEAL_NEW_25",
+        "opacity": 0.18
+      }
+    ],
+    "darker": [
+      "#73bdc42e",
+      {
+        "raw": "TEAL_NEW_25",
+        "opacity": 0.18
+      }
+    ]
+  },
+  "EXPRESSIVE_GRADIENT_TENURE_BADGE_PLATINUM_END": {
+    "dark": [
+      "#00454d3d",
+      {
+        "raw": "TEAL_NEW_74",
+        "opacity": 0.24
+      }
+    ],
+    "light": [
+      "#00454d2e",
+      {
+        "raw": "TEAL_NEW_74",
+        "opacity": 0.18
+      }
+    ],
+    "midnight": [
+      "#00454d2e",
+      {
+        "raw": "TEAL_NEW_74",
+        "opacity": 0.18
+      }
+    ],
+    "darker": [
+      "#00454d2e",
+      {
+        "raw": "TEAL_NEW_74",
+        "opacity": 0.18
+      }
+    ]
+  },
+  "EXPRESSIVE_GRADIENT_TENURE_BADGE_PLATINUM_START": {
+    "dark": [
+      "#84cad13d",
+      {
+        "raw": "TEAL_NEW_20",
+        "opacity": 0.24
+      }
+    ],
+    "light": [
+      "#84cad12e",
+      {
+        "raw": "TEAL_NEW_20",
+        "opacity": 0.18
+      }
+    ],
+    "midnight": [
+      "#84cad12e",
+      {
+        "raw": "TEAL_NEW_20",
+        "opacity": 0.18
+      }
+    ],
+    "darker": [
+      "#84cad12e",
+      {
+        "raw": "TEAL_NEW_20",
+        "opacity": 0.18
+      }
+    ]
+  },
+  "EXPRESSIVE_GRADIENT_TENURE_BADGE_RUBY_END": {
+    "dark": [
+      "#5e0b133d",
+      {
+        "raw": "RED_NEW_80",
+        "opacity": 0.24
+      }
+    ],
+    "light": [
+      "#5e0b132e",
+      {
+        "raw": "RED_NEW_80",
+        "opacity": 0.18
+      }
+    ],
+    "midnight": [
+      "#5e0b132e",
+      {
+        "raw": "RED_NEW_80",
+        "opacity": 0.18
+      }
+    ],
+    "darker": [
+      "#5e0b132e",
+      {
+        "raw": "RED_NEW_80",
+        "opacity": 0.18
+      }
+    ]
+  },
+  "EXPRESSIVE_GRADIENT_TENURE_BADGE_RUBY_START": {
+    "dark": [
+      "#dc43473d",
+      {
+        "raw": "RED_NEW_44",
+        "opacity": 0.24
+      }
+    ],
+    "light": [
+      "#dc43472e",
+      {
+        "raw": "RED_NEW_44",
+        "opacity": 0.18
+      }
+    ],
+    "midnight": [
+      "#dc43472e",
+      {
+        "raw": "RED_NEW_44",
+        "opacity": 0.18
+      }
+    ],
+    "darker": [
+      "#dc43472e",
+      {
+        "raw": "RED_NEW_44",
+        "opacity": 0.18
+      }
+    ]
+  },
+  "EXPRESSIVE_GRADIENT_TENURE_BADGE_SILVER_END": {
+    "dark": [
+      "#43434c3d",
+      {
+        "raw": "NEUTRAL_58",
+        "opacity": 0.24
+      }
+    ],
+    "light": [
+      "#43434c2e",
+      {
+        "raw": "NEUTRAL_58",
+        "opacity": 0.18
+      }
+    ],
+    "midnight": [
+      "#43434c2e",
+      {
+        "raw": "NEUTRAL_58",
+        "opacity": 0.18
+      }
+    ],
+    "darker": [
+      "#43434c2e",
+      {
+        "raw": "NEUTRAL_58",
+        "opacity": 0.18
+      }
+    ]
+  },
+  "EXPRESSIVE_GRADIENT_TENURE_BADGE_SILVER_START": {
+    "dark": [
+      "#d3d4d73d",
+      {
+        "raw": "NEUTRAL_12",
+        "opacity": 0.24
+      }
+    ],
+    "light": [
+      "#d3d4d72e",
+      {
+        "raw": "NEUTRAL_12",
+        "opacity": 0.18
+      }
+    ],
+    "midnight": [
+      "#d3d4d72e",
+      {
+        "raw": "NEUTRAL_12",
+        "opacity": 0.18
+      }
+    ],
+    "darker": [
+      "#d3d4d72e",
+      {
+        "raw": "NEUTRAL_12",
+        "opacity": 0.18
       }
     ]
   },
