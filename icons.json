@@ -1150,16 +1150,6 @@
         "width": 60,
         "height": 60
     },
-    "CandyIcon": {
-        "file": "app/design/components/Icon/native/redesign/generated/images/CandyIcon.png",
-        "hash": "120d53427396cc67c24abd8f2a6f153a",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
     "cap_2": {
         "file": "app/images/native/avatars/cap_2.png",
         "hash": "0bdcf228295d7206b9649c79781a956c",
@@ -4087,17 +4077,6 @@
         "width": 18,
         "height": 18
     },
-    "ic_add_text": {
-        "file": "app/images/native/icons/ic_add_text.png",
-        "hash": "ad916c89488a7c11c03faf9667cde2ec",
-        "scales": [
-            1,
-            2,
-            3
-        ],
-        "width": 32,
-        "height": 32
-    },
     "ic_add_tier_40px": {
         "file": "app/modules/guild_role_subscriptions/native/images/ic_add_tier_40px.png",
         "hash": "4b2e500a83e119218e6e2834f09f9cd5",
@@ -4204,17 +4183,6 @@
         "file": "app/images/native/ic_arrow_right.png",
         "hash": "edefaa7b105418ac79e91df5e7252965",
         "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "ic_at": {
-        "file": "app/images/native/icons/ic_at.png",
-        "hash": "ea06f9d62206d0b386518e547bbced66",
-        "scales": [
-            1,
             2,
             3
         ],
@@ -4592,17 +4560,6 @@
         ],
         "width": 24,
         "height": 24
-    },
-    "ic_crop": {
-        "file": "app/images/native/icons/ic_crop.png",
-        "hash": "f12753c901c60b1a1688e311632af7f1",
-        "scales": [
-            1,
-            2,
-            3
-        ],
-        "width": 33,
-        "height": 32
     },
     "ic_crown_16px": {
         "file": "app/images/native/icons/ic_crown_16px.png",
@@ -5622,16 +5579,6 @@
         "width": 24,
         "height": 24
     },
-    "ic_paint_brush": {
-        "file": "app/images/native/icons/ic_paint_brush.png",
-        "hash": "c892fd5e7ca79796da43faf4453fdc0b",
-        "scales": [
-            1,
-            2
-        ],
-        "width": 33,
-        "height": 32
-    },
     "ic_paperclip_24px": {
         "file": "app/images/native/icons/ic_paperclip_24px.png",
         "hash": "5ad61954329ae43fee881a48ae602d3b",
@@ -6204,17 +6151,6 @@
         "width": 24,
         "height": 24
     },
-    "ic_stamp": {
-        "file": "app/images/native/icons/ic_stamp.png",
-        "hash": "2e8030972f7ff55e9b3b77a686274de1",
-        "scales": [
-            1,
-            2,
-            3
-        ],
-        "width": 33,
-        "height": 32
-    },
     "ic_star": {
         "file": "app/images/native/icons/ic_star.png",
         "hash": "007b604ba850af5236a4b4aae5f9e0bb",
@@ -6409,17 +6345,6 @@
         ],
         "width": 16,
         "height": 16
-    },
-    "ic_undo": {
-        "file": "app/images/native/icons/ic_undo.png",
-        "hash": "fca8cef14cee8a42063fdba359ce6ff8",
-        "scales": [
-            1,
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
     },
     "ic_unmute_channel_24px": {
         "file": "app/images/native/icons/ic_unmute_channel_24px.png",
@@ -11090,16 +11015,6 @@
         "width": 311,
         "height": 205.5
     },
-    "premium_sparkles": {
-        "file": "app/modules/collectibles/native/images/premium_sparkles.png",
-        "hash": "80cf6ccaf66e5741abf60b4d08f20ed7",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 16,
-        "height": 16
-    },
     "profile-placeholder-dark": {
         "file": "app/images/native/profile-placeholder-dark.png",
         "hash": "909e86433c8d32cae528a66dd6b87738",
@@ -11308,15 +11223,6 @@
         ],
         "width": 56,
         "height": 65
-    },
-    "remix_marketing_tile_400x200": {
-        "file": "app/modules/remixing/images/remix_marketing_tile_400x200.png",
-        "hash": "ab7d44a2d932de51897a8057faeee302",
-        "scales": [
-            1
-        ],
-        "width": 400,
-        "height": 200
     },
     "report": {
         "file": "app/modules/video_calls/native/images/report.png",
@@ -11919,16 +11825,6 @@
     "SignPostIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/SignPostIcon.png",
         "hash": "95d89c5821c59805ce69b9f960542bd6",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "SkullIcon": {
-        "file": "app/design/components/Icon/native/redesign/generated/images/SkullIcon.png",
-        "hash": "f9a93e52f7c522e1c3844d3bd86ea116",
         "scales": [
             2,
             3
